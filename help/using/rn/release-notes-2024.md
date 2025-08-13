@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
-workflow-type: ht
+source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+workflow-type: tm+mt
 source-wordcount: '6783'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -374,7 +374,7 @@ ht-degree: 100%
 <td>
 <p>콘텐츠 카드는 모바일 앱 및 웹 사이트에서 직접 개인화되고 흥미로운 콘텐츠를 제공하는 Adobe Journey Optimizer의 새로운 디지털 메시징 기능입니다. 기존 푸시 알림과 달리 콘텐츠 카드는 사용자 인터페이스에 원활하게 통합되어 사용자 상호 작용과 경험을 향상시키고 방해하지 않는 지속적인 업데이트를 제공합니다.</p>
 <p>이 기능을 통해 마케터는 사용자에게 관련성이 높은 리치 미디어 콘텐츠를 제공할 수 있으므로 참여도가 높아지고 사용자 여정을 중단하지 않고도 중요한 메시지를 볼 수 있습니다.</p>
-<p>자세한 내용은 <a href="../content-card/get-started-content-card.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../../rp_landing_pages/content-card-landing-page.md">세부 설명서</a>를 참조하십시오.</p>
 <img src="assets/do-not-localize/content-card.gif"/>
 </td>
 </tr>
@@ -630,7 +630,7 @@ ht-degree: 100%
 
 **여정**
 
-* 이제 **조건** 활동에서 **[!UICONTROL 시간 조건]**&#x200B;은 기본적으로 00:00부터 12:00까지 시간 단위로 설정됩니다. [자세히 보기](../building-journeys/condition-activity.md#time_condition)
+* **조건** 활동에서 기본적으로 **[!UICONTROL 시간 조건]**&#x200B;은(는) 이제 00:00에서 12:00까지 시간 단위로 설정됩니다. [자세히 보기](../building-journeys/condition-activity.md#time_condition)
 * 이제 여정을 작성할 때에도 경고가 다른 경고와 마찬가지로 **경고** 버튼에서 표시되어 일관된 사용자 경험을 제공합니다. [자세히 보기](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
 * 여정 도구 모음의 확대/축소 옵션이 개선되었습니다. 이제 확대/축소 비율이 표시되며 확대/축소 값을 보다 쉽게 재설정할 수 있습니다.
 

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 2da5443e6927d0696cefbedee4f56a397208bc1c
+source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
 workflow-type: tm+mt
 source-wordcount: '2648'
 ht-degree: 99%
@@ -52,7 +52,7 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 
 ### 이메일 가드레일 {#message-guardrails}
 
-[이메일 채널](../email/get-started-email.md)에 다음 가드레일이 적용됩니다.
+[이메일 채널](../../rp_landing_pages/email-landing-page.md)에 다음 가드레일이 적용됩니다.
 
 * [!DNL Journey Optimizer]에서는 이메일에 첨부 파일을 추가할 수 없습니다.
 * 동일한 발신 도메인을 사용하여 [!DNL Adobe Journey Optimizer] 및 다른 제품(예: [!DNL Adobe Campaign] 또는 [!DNL Adobe Marketo Engage])에서 메시지를 보낼 수 없습니다.

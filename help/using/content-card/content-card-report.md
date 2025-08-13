@@ -7,7 +7,7 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 6%
@@ -20,7 +20,7 @@ ht-degree: 6%
 
 **목차**
 
-* [콘텐츠 카드 시작](get-started-content-card.md)
+* [콘텐츠 카드 시작](../../rp_landing_pages/content-card-landing-page.md)
 * [콘텐츠 카드 사전 요구 사항](content-card-configuration-prereq.md)
 * [Journey Optimizer에서 콘텐츠 카드 채널 구성](content-card-configuration.md)
 * [콘텐츠 템플릿 만들기](create-content-card.md)

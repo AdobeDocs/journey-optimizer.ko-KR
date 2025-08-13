@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: ht
+source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+workflow-type: tm+mt
 source-wordcount: '4203'
 ht-degree: 100%
 
@@ -552,7 +552,7 @@ ht-degree: 100%
 <td>
 <p>Adobe Journey Optimizer는 LINE 채널에 대한 지원을 포함하도록 크로스 채널 기능을 확장했습니다. 이 향상된 기능을 통해 LINE 경험을 만들고 편집하고 미리 볼 수 있으므로 보다 개인화되고 매력적인 상호 작용을 제공할 수 있습니다. LINE을 사용하여 더 많은 고객과 소통하고 관련 콘텐츠를 전송하며 참여도를 개선할 수 있습니다.</p>
 <p>Adobe Journey Optimizer 고객은 요청 시 LINE 채널을 활성화할 수 있습니다. 조직에서 해당 기능을 활성화하려면 Adobe 고객 지원 센터 또는 Adobe 담당자에게 문의하십시오.</p>
-<p>자세한 내용은 <a href="../line/get-started-line.md">세부 설명서</a>를 참조하십시오.</p></td>
+<p>자세한 내용은 <a href="../../rp_landing_pages/line-landing-page.md">세부 설명서</a>를 참조하십시오.</p></td>
 </tr>
 </tbody>
 </table>

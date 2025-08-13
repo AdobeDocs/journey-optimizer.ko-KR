@@ -1,121 +1,99 @@
 ---
-keywords: Journey Optimizer, 홈, 인기 항목
-title: Journey Optimizer 제품 설명서
-description: Adobe Journey Optimizer 사용 방법을 알아봅니다.
 solution: Journey Optimizer
-product: journey optimizer
-exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 08408b987e5894912e357e78cacdb54bfb78a6a1
-workflow-type: ht
-source-wordcount: '394'
-ht-degree: 100%
+product: Journey Optimizer
+title: Adobe Journey Optimizer 설명서
+description: Adobe Journey Optimizer 설명서
+redpen-status: CREATED_||_2025-08-11_21-21-01
+source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
+workflow-type: tm+mt
+source-wordcount: '425'
+ht-degree: 10%
 
 ---
 
-# Adobe [!DNL Journey Optimizer] 설명서 {#cjm-documentation}
 
-## 새로운 기능
+# Adobe Journey Optimizer 설명서{#section-overview}
 
-Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보십시오! 기능, 개선 사항, 해결 사항의 종합 목록은 [릴리스 정보](using/rn/release-notes.md)에서 자세히 확인할 수 있습니다.  제품 설명서의 최신 변경 사항에 대한 정보를 확인하려면 [설명서 업데이트 페이지](using/rn/documentation-updates.md)를 방문하십시오.
+Adobe Journey Optimizer은 팀이 이메일, SMS 등과 같은 채널 전반에서 개인화된 매끄러운 고객 경험을 디자인하고 제공할 수 있도록 해줍니다. Campaign 오케스트레이션, 데이터 관리 및 의사 결정을 위한 고급 도구를 결합함으로써 고객 요구에 실시간으로 적응하는 여정을 만들 수 있습니다. 이 설명서는 최신 기능 및 통합 탐색에서 대상 관리, 여정 구성 및 성능 분석 방법에 대한 학습에 이르기까지 플랫폼 숙달을 위한 로드맵을 제공합니다. 마케터, 데이터 분석가 또는 캠페인 관리자이든, 자신 있게 목표를 달성하는 데 도움이 되는 단계별 안내서, 모범 사례 및 리소스를 찾을 수 있습니다.
 
->[!BEGINTABS]
+## 탐색 시작
 
->[!TAB 2025년 7월 릴리스]
+:::: landing-cards-container
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-7월 릴리스가 공개되었습니다! 릴리스 정보에서 새로운 기능, 변경 사항, 개선 사항을 확인하십시오.
+Adobe Journey Optimizer의 새로운 기능
 
-[![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+Adobe Journey Optimizer의 최신 릴리스 정보, 새로운 기능 및 설명서 변경 내용을 최신 상태로 유지하십시오.
 
->[!TAB 캠페인 오케스트레이션]
+[새로운 기능 보기](./rp_landing_pages/whats-new-landing-page.md)
+:::
 
-이제 Journey Optimizer에 브랜드 주도 일괄 캠페인을 위해 특별히 설계된 새로운 기능인 **캠페인 오케스트레이션**&#x200B;이 포함됩니다. 이 릴리스에서는 캠페인 오케스트레이션 캔버스 및 향상된 데이터 모델링을 도입하여 마케터가 개인화된 크로스 채널 캠페인을 계획하고, 타깃팅하고, 제공할 수 있도록 함께 작업합니다.
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-[![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/orchestrated/gs-orchestrated-campaigns.md)
+Adobe Journey Optimizer 시작
 
->[!TAB Adobe Express]
+기능, 아키텍처 및 사용자 인터페이스를 포함하여 Adobe Journey Optimizer의 기본 사항에 대해 알아봅니다.
 
-Adobe Journey Optimizer의 Adobe Express 통합을 통해 콘텐츠를 만드는 동안 Adobe Express의 강력한 편집 도구에 쉽게 액세스할 수 있습니다. 이 통합을 통해 여러 솔루션 간에 전환할 필요 없이 이미지 크기를 조정하고, 배경을 제거하고, 시각적 개체를 자르고, 자산을 JPEG 또는 PNG로 변환할 수 있습니다.
+[시작하기](./rp_landing_pages/get-started-landing-page.md)
+:::
 
-[![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/integrations/express.md)
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-<!--
->[!TAB AI Assistant]
+여정에 대한 포괄적인 안내서
 
-Immerse yourself in a hands-on experience with our [AI Assistant](../help/using/content-management/gs-generative.md) live feature preview, designed to let you explore its features firsthand and fully understand its capabilities.
+이 심층 안내서를 통해 개인화된 고객 여정을 설계, 오케스트레이션, 관리 및 최적화할 수 있습니다.
 
-[![learn more](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/ko/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
+[여정 살펴보기](./rp_landing_pages/orchestrate-journeys-landing-page.md)
+:::
 
->[!TAB AEM 콘텐츠 조각]
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
-이제 Adobe Experience Manager as a Cloud Service를 Adobe Journey Optimizer와 통합하여 AEM 콘텐츠 조각을 Journey Optimizer 콘텐츠에 원활하게 통합할 수 있습니다. 이렇게 간소화된 연결을 통해 AEM 콘텐츠에 액세스하고 활용하는 프로세스가 간단해져 개인화되고 동적인 캠페인 및 여정을 만들 수 있게 됩니다.
+캠페인 이해 및 관리
 
-[![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/integrations/aem-fragments.md)
+효과적인 타겟팅을 위해 다양한 캠페인 유형 생성, 관리 및 최적화에 대한 자세한 지침입니다.
+
+[캠페인에 대해 알아보기](./rp_landing_pages/campaigns-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+
+소통 채널
+
+개인화된 고객 상호 작용을 위해 이메일, SMS, 푸시 알림 및 기타 채널을 구성하고 관리합니다.
+
+[채널 살펴보기](./using/channels/gs-channels.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
+
+충돌 관리 및 우선 순위 지정
+
+캠페인 및 여정 간 커뮤니케이션 충돌의 우선 순위를 지정하고 효과적으로 관리하는 방법을 알아봅니다.
+
+[충돌 관리 학습](./rp_landing_pages/conflict-prioritization-landing-page.md)
+:::
+
+::::
 
 
->[!ENDTABS]
+## 추가 리소스
 
-## 기본 사항부터 시작해 봅시다!
-
-<table style="table-layout:fixed">
-  <tr style="border: 0;">
-    <td>
-    <a href="using/start/quick-start.md"><img src="using/assets/do-not-localize/start-quick.png"></a>
-    <div><strong>빠른 시작 안내서</strong><br/>사용자의 역할에 따라 개인화된 접근 방식으로 Journey Optimizer에서 더 빨리 목표를 달성하는 방법을 알아봅니다.</div>
-    </td>
-    <td>
-    <a href="using/start/user-interface.md"><img src="using/assets/do-not-localize/start-interface.jpeg"></a>
-    <div><strong>사용자 인터페이스</strong><br/>Journey Optimizer 경험을 탐색하고 최적화하는 방법을 알아봅니다.</div>
-    </td>
-    <td>
-    <a href="using/building-journeys/journey-gs.md"><img src="using/assets/do-not-localize/start-journey.jpeg"></a>
-    <div><strong>첫 번째 여정 만들기</strong><br/>개인화된 옴니채널 여정을 디자인하고 오케스트레이션하여 마케팅 활동과 일대일 고객 참여를 조화롭게 조정합니다. 
-    </div>
-    </td>
-    <td>
-    <a href="using/campaigns/create-campaign.md"><img src="using/assets/do-not-localize/start-campaign.jpeg"></a>
-    <div><strong>첫 번째 캠페인 시작</strong><br/>Journey Optimizer에서 첫 번째 캠페인을 만들고 시작하여 타겟팅에 적절하게 만든 일회성 콘텐츠를 특정 대상자에게 게재할 수 있습니다.</div>
-    </td>
-  </tr>
-  <tr style="border: 0;">
-    <td align="center"><a href="using/start/quick-start.md"><img src="using/assets/do-not-localize/learn-more-button.svg"></a></td>
-    <td align="center"><a href="using/start/user-interface.md"><img src="using/assets/do-not-localize/learn-more-button.svg"></a></td>
-    <td align="center"><a href="using/building-journeys/journey-gs.md"><img src="using/assets/do-not-localize/learn-more-button.svg"></a></td>
-    <td align="center"><a href="using/campaigns/create-campaign.md"><img src="using/assets/do-not-localize/learn-more-button.svg"></a></td>
-    </tr>
-</table>
-
-## 설명서 살펴보기
-
-<table style="table-layout:auto">
-  <tr style="border: 0;">
-    <td>
-      <img src="using/assets/do-not-localize/icon-quick-start.svg" width="35px"><br/>
-      <strong>고객 경험</strong><br/><a href="using/building-journeys/journey.md">여정</a> - <a href="using/campaigns/get-started-with-campaigns.md">캠페인</a> - <a href="using/landing-pages/get-started-lp.md">랜딩 페이지</a> - <a href="using/reports/live-report.md">보고</a> - <a href="using/offers/get-started/starting-offer-decisioning.md">의사 결정 관리</a>
-    </td>
-    <td>
-      <img src="using/assets/do-not-localize/icon-configure.svg" width="35px"><br/>
-      <strong>구성<br/>관리</strong><br/><a href="using/configuration/channel-surfaces.md">채널 표면</a> - <a href="using/configuration/about-data-sources-events-actions.md">여정 구성</a>  - <a href="using/administration/permissions-overview.md">액세스 제어</a> - <a href="using/administration/sandboxes.md">샌드박스 관리</a>
-    </td>
-    <td>
-      <img src="using/assets/do-not-localize/icon-campaign.svg" width="35px"><br/>
-      <strong>소통 채널</strong><br/><a href="using/email/get-started-email.md">이메일</a> - <a href="using/sms/get-started-sms.md">SMS</a> - <a href="using/in-app/get-started-in-app.md">인앱</a> - <a href="using/push/get-started-push.md">푸시 알림</a> - <a href="using/direct-mail/get-started-direct-mail.md">다이렉트 메일</a> - <a href="using/web/get-started-web.md">웹</a>
-    </td>
-  </tr>
-  <tr style="border: 0;">
-    <td>
-      <img src="using/assets/do-not-localize/icon-content.svg" width="35px"><br/>
-      <strong>콘텐츠 관리</strong><br/><a href="using/integrations/assets.md">에셋/이미지</a> - <a href="using/personalization/personalize.md">개인화</a> - <a href="using/content-management/content-templates.md">재사용 가능</a> 및 <a href="using/personalization/dynamic-content.md">동적</a> 콘텐츠 - <a href="using/content-management/preview-test.md">콘텐츠 테스트 및 미리 보기</a>
-    </td>
-    <td>
-      <img src="using/assets/do-not-localize/icon_profile-audience.svg" width="35px"><br/>
-      <strong>프로필 및 대상자</strong><br/><a href="using/audience/about-audiences.md">대상자</a> - <a href="using/audience/get-started-profiles.md">프로필</a> - <a href="using/audience/get-started-identity.md">ID</a> - <a href="using/audience/license-usage.md">라이선스 사용</a> - <a href="using/privacy/get-started-privacy.md">개인 정보 관리</a>
-    </td>
-    <td>
-      <img src="using/assets/do-not-localize/icon-data.svg" width="35px"><br/>
-      <strong>데이터 관리</strong><br/><a href="using/data/get-started-schemas.md">스키마</a> - <a href="using/data/get-started-datasets.md">데이터 세트</a> - <a href="using/data/get-started-queries.md">쿼리</a>
-    </td>
-  </tr>
-</table>
+- **[테스트, 유효성 검사 및 승인](./rp_landing_pages/test-landing-page.md)** - 배포 전에 콘텐츠, 여정 및 캠페인을 테스트하고 승인하여 품질과 정확성을 보장합니다.
+- **[대상, 프로필 및 ID](./rp_landing_pages/audiences-profiles-identities-landing-page.md)** - 효과적인 타기팅 및 개인화를 사용하도록 대상, 프로필 및 ID를 관리합니다.
+- **[포괄적인 보고](./rp_landing_pages/reporting-landing-page.md)** - 고급 보고 기능을 사용하여 여정, 캠페인 및 채널을 분석하고 최적화합니다.
+- **[의사 결정 기능](./rp_landing_pages/decisioning-landing-page.md)** - 의사 결정 도구를 활용하여 개인화된 오퍼를 만들고 관리하고 마케팅 워크플로우를 최적화합니다.
+- **[포괄적인 데이터 관리](./rp_landing_pages/data-management-landing-page.md)** - 거버넌스, 스키마 사용 및 쿼리 기능을 위한 도구를 사용하여 데이터를 효과적으로 관리합니다.
+- **[채널 구성](./rp_landing_pages/configuration-landing-page.md)** - 준수 및 향상된 캠페인 성능을 위해 통신 채널을 설정하고 최적화합니다.
+- **[여정 구성](./rp_landing_pages/configure-journeys-landing-page.md)** - 데이터 소스, 이벤트 및 작업을 구성하여 원활한 고객 여정을 만듭니다.
+- **[시스템 및 환경 연결](./rp_landing_pages/connect-systems-landing-page.md)** - Adobe Journey Optimizer을 외부 시스템, API 및 Adobe 솔루션과 통합합니다.
+- **[액세스 제어 관리](./rp_landing_pages/access-control-landing-page.md)** - 데이터를 보호하고 거버넌스를 보장하기 위해 사용자 액세스, 역할 및 권한을 제어합니다.
+- **[개인 정보, 동의 및 데이터 거버넌스](./rp_landing_pages/privacy-landing-page.md)** - 규정을 준수하고 중요한 정보를 보호하기 위해 데이터 개인 정보, 동의 및 거버넌스를 관리합니다.
 
 ## 추가 리소스
 

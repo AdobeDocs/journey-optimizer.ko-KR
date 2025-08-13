@@ -6,12 +6,13 @@ description: 커뮤니케이션 채널로 [!DNL Adobe Journey Optimizer] 작업�
 role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
-source-git-commit: f365a5819575990b92ca589557d37c3f274bd4d7
-workflow-type: ht
-source-wordcount: '418'
-ht-degree: 100%
+source-git-commit: d2cdafef6f2d69ea85d9d042c859a8b1e7654d7d
+workflow-type: tm+mt
+source-wordcount: '521'
+ht-degree: 51%
 
 ---
+
 
 # [!DNL Adobe Journey Optimizer] 채널 시작 {#get-started-email}
 
@@ -23,51 +24,108 @@ Adobe Journey Optimizer는 대상자와 효과적으로 교류할 수 있는 다
 
 아웃바운드 메시지 게재 채널에는 사전 상호 작용 없이 고객에게 메시지를 보내는 작업이 포함됩니다. 예를 들어 기업이 먼저 대상자에게 연락하는 이메일 캠페인 및 푸시 알림이 있습니다. [!DNL Adobe Journey Optimizer]에서 지원되는 아웃바운드 채널은 다음과 같습니다.
 
-* **이메일**: 고객의 받은 편지함에 직접 개인화된 메시지를 게재합니다.
-* **SMS/MMS/RCS**: 사용자의 모바일 디바이스로 문자 메시지를 보냅니다.
-* **푸시 알림**: 사용자의 디바이스에 즉시 알림을 보내는 방식으로 즉각적인 액션을 유도합니다.
-* **다이렉트 메일**: 실제 편지를 활용하여 대상자와 실체적 연결을 구축합니다.
+:::: landing-cards-container
 
-원하는 채널을 선택하여 심층 검토하고 마케팅 전략에서 해당 채널을 효과적으로 활용하는 방법을 알아보십시오.
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td><a href="../email/get-started-email.md"><img alt="이메일" src="assets/do-not-localize/email.png"></a>
-<div align="center"><a href="../email/get-started-email.md"><strong>이메일</strong></a></div></td>
-<td><a href="../sms/get-started-sms.md"><img alt="sms" src="assets/do-not-localize/sms.png"></a>
-<div align="center"><a href="../sms/get-started-sms.md"><strong>SMS</strong></a></div></td>
-<td><a href="../push/get-started-push.md"><img alt="푸시" src="assets/do-not-localize/push.png"></a>
-<div align="center"><a href="../push/get-started-push.md"><strong>푸시 알림</strong></a></div></td>
-<td><a href="../direct-mail/get-started-direct-mail.md"><img alt="다이렉트 메일" src="assets/do-not-localize/direct-mail.jpg"></a>
-<div align="center"><a href="../direct-mail/get-started-direct-mail.md"><strong>다이렉트 메일</strong></a></div></td>
-</tr></table>
+이메일 채널
+
+개인화, 게재 가능성 및 규정 준수 모범 사례를 포함하여 이메일 캠페인을 만들고 구성하고 최적화하는 방법을 알아봅니다.
+
+[이메일 채널에 대해 자세히 알아보기](../../rp_landing_pages/email-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+
+푸시 알림 채널
+
+자동 알림 및 빠른 전송 모드와 같은 고급 옵션을 포함하여 iOS 및 Android용 푸시 알림을 만들고, 구성하고, 전송하는 방법을 알아봅니다.
+
+[푸시 알림에 대해 자세히 알아보기](../../rp_landing_pages/push-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
+
+SMS / MMS / RCS 메시지
+
+규정 준수 및 개인화를 비롯한 마케팅 및 트랜잭션 목적으로 SMS, MMS 및 RCS 메시지를 만들고, 관리하고, 구성하는 방법을 이해합니다.
+
+[SMS/MMS/RCS 메시지에 대해 자세히 알아보기](../../rp_landing_pages/sms-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
+
+다이렉트 메일 캠페인
+
+타사 공급업체를 위한 추출 파일 내보내기, 사용자 동의 준수 보장 등 DM 캠페인을 만들고 관리하는 방법을 알아봅니다.
+
+[DM 캠페인에 대해 자세히 알아보기](../../rp_landing_pages/direct-mail-landing-page.md)
+:::
+
+::::
 
 ## 모바일 앱 및 웹 경험 {#inbound-channels}
 
 모바일 앱 및 웹 인바운드 경험을 통해 고객이 상호 작용을 시작합니다. 인앱 메시지 및 웹 기반 경험을 예로 들 수 있으며, 이 경험을 통해 사용자가 자신의 조건에 따라 콘텐츠를 사용할 수 있습니다. [!DNL Adobe Journey Optimizer]에서 지원되는 인바운드 채널은 다음과 같습니다.
 
-* **인앱**: 모바일 또는 웹 애플리케이션 내에서 사용자와 커뮤니케이션하여 사용자 경험을 향상시킵니다.
-* **웹**: 웹 기반 메시지를 사용하여 사이트를 탐색하는 사용자와 상호 작용합니다.
-* **코드 기반 경험**: 고유한 참여 기회에 대한 코딩을 통해 사용자 정의 경험을 구현합니다.
-* **콘텐츠 카드**: 다이내믹 콘텐츠를 애플리케이션 또는 웹 사이트 내에 직접 공유하여 사용자에게 정보를 제공하고 참여를 유도합니다.
+:::: landing-cards-container
 
-원하는 채널을 선택하여 심층 검토하고 마케팅 전략에서 해당 채널을 효과적으로 활용하는 방법을 알아보십시오.
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td><a href="../in-app/get-started-in-app.md"><img alt="인앱" src="assets/do-not-localize/inapp.jpg"></a>
-<div align="center"><a href="../in-app/get-started-in-app.md"><strong>인앱</strong></a></div></td>
-<td><a href="../web/get-started-web.md"><img alt="웹" src="assets/do-not-localize/web.jpg"></a>
-<div align="center"><a href="../web/get-started-web.md"><strong>웹</strong></a></div></td>
-<td><a href="../code-based/get-started-code-based.md"><img alt="코드 기반 경험" src="assets/do-not-localize/code.png"></a>
-<div align="center"><a href="../code-based/get-started-code-based.md"><strong>코드 기반 경험</strong></a></div></td>
-<td><a href="../content-card/get-started-content-card.md"><img alt="콘텐츠 카드" src="assets/do-not-localize/cards.png"></a>
-<div align="center"><a href="../content-card/get-started-content-card.md"><strong>콘텐츠 카드</strong></a></div></td>
-</tr></table>
+인앱 메시지
 
+애플리케이션 내에서 대상을 참여시키기 위해 모바일 및 웹 플랫폼에 대한 인앱 알림을 구성, 디자인 및 개인화하는 방법을 살펴봅니다.
+
+[인앱 메시지에 대해 자세히 알아보기](../../rp_landing_pages/in-app-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
+
+웹
+
+웹 경험을 만들고, 구성하고, 개인화하고, 웹 채널을 아웃바운드 마케팅 전략과 통합하는 방법을 알아봅니다.
+
+[웹 채널에 대해 자세히 알아보기](../../rp_landing_pages/web-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
+
+코드 기반 경험
+
+SDK 및 API를 사용하여 디지털 플랫폼 간에 개인화된 콘텐츠를 제공하기 위한 코드 기반 경험을 살펴보십시오.
+
+[코드 기반 환경에 대해 자세히 알아보기](../../rp_landing_pages/code-based-experience-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg)
+
+콘텐츠 카드
+
+모바일 앱 및 웹 사이트에서 참여형 및 맞춤형 메시지를 위한 콘텐츠 카드를 구성, 제작 및 디자인하는 방법을 살펴봅니다.
+
+[코드 기반 환경에 대해 자세히 알아보기](../../rp_landing_pages/content-card-landing-page.md)
+:::
+
+::::
+
+
+## 추가 리소스
+
+- **[WhatsApp 메시지](../../rp_landing_pages/whatsapp-landing-page.md)** - Meta의 Cloud API를 통해 WhatsApp 메시지를 통합하고 사용하여 개인화되고 규정을 준수하는 커뮤니케이션 캠페인을 수행하는 방법에 대해 알아봅니다.
+- **[LINE 메시지](../../rp_landing_pages/line-landing-page.md)** - 캠페인 및 여정의 효과적인 커뮤니케이션을 위해 LINE 메시지를 구성하고 만들고 개인화하는 방법을 알아봅니다.
 
 ## 여정 및 캠페인의 채널 {#leverage}
 
 Adobe Journey Optimizer에서는 다음 두 가지 기본 컨텍스트에서 커뮤니케이션 채널을 활용할 수 있습니다.
 
-* **여정**: 여러 접점에 걸쳐 원활한 고객 경험을 만듭니다. 사용자의 행동 및 선호에 따라 상호 작용을 자동화하여 사용자에게 브랜드와의 여정을 안내하는 커뮤니케이션을 적시에 적절하게 보내도록 합니다. [고객 여정을 만들고 실행하는 방법을 알아봅니다](../building-journeys/journey-gs.md).
+- **여정**: 여러 접점에 걸쳐 원활한 고객 경험을 만듭니다. 사용자의 행동 및 선호에 따라 상호 작용을 자동화하여 사용자에게 브랜드와의 여정을 안내하는 커뮤니케이션을 적시에 적절하게 보내도록 합니다. [고객 여정을 만들고 실행하는 방법을 알아봅니다](../building-journeys/journey-gs.md).
 
-* **캠페인**: 타기팅된 목표를 달성하기 위해 지정된 채널을 활용하는 특정 마케팅 캠페인을 배포합니다. 새 제품을 홍보하는 것이든 시즌 매출을 촉진하는 것이든, 캠페인을 통해 대상자에게 맞춘 집중적 메시지 전략을 구축할 수 있습니다. [캠페인을 만들고 실행하는 방법에 대해 알아봅니다](../campaigns/get-started-with-campaigns.md).
+- **캠페인**: 타기팅된 목표를 달성하기 위해 지정된 채널을 활용하는 특정 마케팅 캠페인을 배포합니다. 새 제품을 홍보하는 것이든 시즌 매출을 촉진하는 것이든, 캠페인을 통해 대상자에게 맞춘 집중적 메시지 전략을 구축할 수 있습니다. [캠페인을 만들고 실행하는 방법에 대해 알아봅니다](../campaigns/get-started-with-campaigns.md).

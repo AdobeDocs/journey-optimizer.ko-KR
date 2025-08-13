@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 대기, 활동, 여정, 다음, 캔버스
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
+source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 17%
@@ -53,7 +53,7 @@ ht-degree: 17%
 
 ### 대기 및 모바일 채널 {#wait-mobile-channels}
 
-[푸시 알림](../push/get-started-push.md)을 보낸 직후 [인앱 메시지](../in-app/create-in-app.md)를 표시하려면 **대기** 활동을 사용하여 인앱 메시지 페이로드 시간을 전파하도록 허용하십시오. 일반적으로 5~15분 정도 기다리는 것이 좋지만 정확한 시간은 페이로드 복잡성과 개인화 요구 사항에 따라 달라질 수 있습니다.
+[푸시 알림](../in-app/create-in-app.md)을 보낸 직후 [인앱 메시지](../../rp_landing_pages/push-landing-page.md)를 표시하려면 **대기** 활동을 사용하여 인앱 메시지 페이로드 시간을 전파하도록 허용하십시오. 일반적으로 5~15분 정도 기다리는 것이 좋지만 정확한 시간은 페이로드 복잡성과 개인화 요구 사항에 따라 달라질 수 있습니다.
 
 ## 구성 {#wait-configuration}
 

@@ -6,10 +6,11 @@ description: 메시지 최적화를 활용하여 개인화되고 최적화된 �
 role: User
 level: Intermediate
 keywords: 캠페인 최적화, 실험, 타겟팅, A/B 테스트
-source-git-commit: edbe25e0cb341c08e440eb0663fb9b253273f48a
+exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
+source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
 workflow-type: tm+mt
 source-wordcount: '918'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 최적화는 캠페인 대상자에게 개인화되고 최적화된 콘텐츠를 전달할 수 있는 도구를 제공합니다. <!--based on marketer-defined advanced decision configurations. This ensures that the right message reaches the right audience at the right time in order to maximize the effectiveness of your campaigns. (Removed for now as Decisioning is not yet supported)-->참여와 성공을 최대로 보장하여 <!--customized and -->효과적인 캠페인을 만들 수 있습니다.
 
-최적화를 통해 다음과 같은 작업을 수행할 수 있습니다.
+최적화를 사용하면 다음을 할 수 있습니다.
 
 * [타깃팅](#targeting) 규칙 활용
 * [콘텐츠 실험 실행](#experimentation)
@@ -98,7 +99,7 @@ ht-degree: 0%
 
 1. 캠페인을 만듭니다. [자세히 알아보기](../campaigns/create-campaign.md) <!--Add link to API triggered?-->
 
-1. **[!UICONTROL 작업]** 탭에서 [코드 기반 경험](../code-based/get-started-code-based.md) 및 [인앱](../in-app/get-started-in-app.md)과 같은 두 개 이상의 인바운드 작업을 선택하십시오.
+1. **[!UICONTROL 작업]** 탭에서 [코드 기반 경험](../code-based/get-started-code-based.md) 및 [인앱](../../rp_landing_pages/in-app-landing-page.md)과 같은 두 개 이상의 인바운드 작업을 선택하십시오.
 
 1. **[!UICONTROL 메시지 최적화]** 섹션에서 **[!UICONTROL 실험]**&#x200B;을(를) 선택합니다.
 
@@ -161,4 +162,3 @@ ht-degree: 0%
 
 E.g. explaining how a marketer can look at the report to determine which treatment (e.g. which message content) is performing the best for the targeting audience
 -->
-
