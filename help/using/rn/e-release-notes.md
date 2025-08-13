@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: ef4488941837a7473d92633b600ea4574dc955bf
+source-git-commit: 8e0dff6082f5fec6768d1bf284936468fd19208d
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 33%
+source-wordcount: '967'
+ht-degree: 32%
 
 ---
 
@@ -219,6 +219,8 @@ ht-degree: 33%
 * **채널 - SMS**
 
    * **유사 옵트아웃** - 활성화하면 **유사 옵트아웃** 옵션이 정의된 옵트아웃 키워드(예: &#39;CANCIL&#39;)와 유사한 인바운드 메시지를 감지하고 자동으로 확인 응답을 보내 사용자의 구독 취소 의도를 확인합니다. 사용자가 정의된 프롬프트를 통해 확인하는 경우 가입을 취소합니다.
+
+     **퍼지 옵트아웃**&#x200B;은(는) Sinch 및 Infobip에서만 사용할 수 있습니다.
 
    * **SMS 연결 확인** - 이제 샘플 메시지를 지정된 장치로 전송하여 Adobe Journey Optimizer 내에서 SMS API 자격 증명을 쉽게 테스트하고 확인할 수 있습니다.
 
