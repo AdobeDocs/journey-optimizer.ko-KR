@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: b62f0325b8d7aa1e213a5c6273d0634a0e005a6e
+source-git-commit: da1562edb6ba8e98210c5c6add4fa16ca025d9f7
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1020'
 ht-degree: 32%
 
 ---
@@ -164,7 +164,12 @@ ht-degree: 32%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer은 단일 작업과 다중 채널 아웃바운드 작업을 모두 구성할 수 있는 새로운 일반 작업 활동을 지원하므로 여정 캔버스 내에서 작업 구성을 간소화할 수 있습니다. 또한 이 새로운 활동을 통해 타기팅 최적화, 실험 및 다국어 언어 변형을 모든 기본 제공 채널 작업에 추가할 수 있습니다.</p>
+<p>Journey Optimizer은 단일 작업과 다중 채널 아웃바운드 작업을 모두 구성할 수 있는 새로운 일반 작업 활동을 지원하므로 여정 캔버스 내에서 작업 구성을 간소화할 수 있습니다. 특히 이 새로운 기능을 통해 다음과 같은 작업을 수행할 수 있습니다.</p>
+<ul>
+<li>여정 캔버스 내의 간소화된 기본 작업 구성입니다.</li>
+<li>다중 작업 인바운드 노드를 만들 수 있는 용량입니다.</li>
+<li>모든 기본 제공 채널 작업에 최적화를 추가하는 기능.</li>
+</ul>
 <p>이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
