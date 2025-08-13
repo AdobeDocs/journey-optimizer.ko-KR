@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0d9d5324a8ca2c02fd18c01808e45be83952cc91
+source-git-commit: 804dfd79ac48b0030213e9a3ba944146a4fe8c15
 workflow-type: tm+mt
-source-wordcount: '2875'
+source-wordcount: '2878'
 ht-degree: 98%
 
 ---
@@ -509,6 +509,7 @@ ht-degree: 98%
       + [Experience Manager 콘텐츠 조각 작업](using/integrations/aem-fragments.md)
       + [Dynamic Media 작업](using/integrations/aem-dynamic.md)
       + [GenStudio for Performance Marketing 작업](using/integrations/genstudio.md)
+      + [통합 작업](using/integrations/external-sources.md)
    + 콘텐츠 생성용 AI 어시스턴트 {#ai-assistant}
       + [콘텐츠 생성용 AI 어시스턴트](/help/rp_landing_pages/ai-assistant-landing-page.md)
       + [AI 어시스턴트 시작하기](using/content-management/gs-generative.md)
