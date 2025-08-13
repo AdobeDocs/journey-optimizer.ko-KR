@@ -20,7 +20,7 @@ Adobe Experience Platform은 진정으로 개인화된 고객 경험을 제공�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 inAudience 함수 사용
 

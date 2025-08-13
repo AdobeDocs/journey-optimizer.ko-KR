@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 DM을 사용하면 유형적이고 효과적인 것�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
 
 DM 캠페인 소개
 
@@ -30,7 +30,7 @@ DM 캠페인 소개
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 DM 캠페인을 만드는 방법
 
@@ -40,7 +40,7 @@ DM 캠페인을 만들고 공급자에 대한 추출 파일을 구성하는 단�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 DM 캠페인 확인 및 보내기 방법
 
@@ -50,7 +50,7 @@ DM 캠페인에 대한 동의를 효과적으로 미리 보고, 검증하고, �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 DM 채널 구성
 

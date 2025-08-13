@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 AI Assistant는 생성 AI를 사용하여 이메일, 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 AI Assistant 시작하기
 
@@ -30,7 +30,7 @@ AI Assistant 시작하기
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
 
 AI를 사용한 이메일 콘텐츠 생성
 
@@ -40,7 +40,7 @@ AI Assistant를 사용하여 브랜드 맞춤화로 이메일 콘텐츠를 제�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ko)
 
 푸시 알림 컨텐츠 생성
 
@@ -50,7 +50,7 @@ AI Assistant를 사용하여 브랜드 맞춤화로 이메일 콘텐츠를 제�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=ko)
 
 AI를 사용한 SMS 콘텐츠 생성
 
@@ -60,7 +60,7 @@ AI Assistant를 사용하여 브랜드 지침을 준수하면서 대상자에게
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=ko)
 
 웹 페이지 컨텐츠 및 자산 생성
 
@@ -70,7 +70,7 @@ AI Assistant를 사용하여 웹 페이지 콘텐츠 및 시각화를 향상시�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/window-maximize.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/window-maximize.svg?lang=ko)
 
 AI를 사용한 랜딩 페이지 생성
 

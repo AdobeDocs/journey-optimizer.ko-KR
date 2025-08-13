@@ -20,7 +20,7 @@ Journey Optimizer의 의사 결정 기능을 사용하면 모든 접점에서 �
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
 
 의사 결정 기능 소개
 
@@ -30,7 +30,7 @@ Journey Optimizer의 의사 결정 기능을 사용하면 모든 접점에서 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 Adobe Journey Optimizer에서의 의사 결정
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서의 의사 결정
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 Adobe Journey Optimizer의 의사 결정 관리
 

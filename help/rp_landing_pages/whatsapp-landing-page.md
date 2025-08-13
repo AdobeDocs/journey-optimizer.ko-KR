@@ -20,7 +20,7 @@ Adobe Journey Optimizer은 실시간 개인화된 커뮤니케이션에 적합�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 WhatsApp 메시지 시작
 
@@ -30,7 +30,7 @@ WhatsApp 메시지 시작
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 WhatsApp 채널 구성
 
@@ -40,7 +40,7 @@ WhatsApp 채널 구성
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 WhatsApp 메시지 만들기
 
@@ -50,7 +50,7 @@ WhatsApp 메시지 만들기
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/check-circle.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/check-circle.svg?lang=ko)
 
 WhatsApp 메시지 미리 보기, 유효성 검사 및 보내기
 

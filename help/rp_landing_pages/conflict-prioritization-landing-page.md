@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 충돌 관리 및 우선 순위 지정은 고객 피�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 충돌 관리 시작
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 충돌 관리 및 우선 순위 지정은 고객 피�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 잠재적 충돌 확인
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer의 충돌 관리 및 우선 순위 지정은 고객 피�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 캠페인에 우선 순위 점수 할당
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer의 충돌 관리 및 우선 순위 지정은 고객 피�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 메시지 및 여정 한도 규칙 설정
 

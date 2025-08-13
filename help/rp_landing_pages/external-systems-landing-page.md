@@ -20,7 +20,7 @@ Adobe Journey Optimizer에서 외부 시스템과 여정을 통합하면 API 및
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 외부 시스템 통합 우수 사례
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 외부 시스템과 여정을 통합하면 API 및
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 최대 가용량 API 개요 및 구현 안내서
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 외부 시스템과 여정을 통합하면 API 및
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 조절 API: 구성 및 관리 안내서
 

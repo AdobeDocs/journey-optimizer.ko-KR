@@ -20,7 +20,7 @@ Adobe Journey Optimizer을 사용하면 시스템과 환경을 원활하게 연�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 Adobe Journey Optimizer을 다른 솔루션과 통합
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer이 향상된 워크플로우 및 개인화된 경험을 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 Adobe Journey Optimizer API 작업
 
@@ -40,7 +40,7 @@ API를 사용하여 Adobe Experience Platform과 통합하여 다양한 채널�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 외부 시스템과 여정 통합
 
@@ -50,7 +50,7 @@ API 한도 및 조절을 포함하여 Adobe Journey Optimizer을 외부 시스�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 Adobe 솔루션으로 보내기
 
@@ -60,7 +60,7 @@ Adobe 솔루션으로 보내기
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 Adobe Journey Optimizer의 샌드박스 관리
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer에서 샌드박스를 사용하여 가상 환경, 역할
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 소스 커넥터 시작
 

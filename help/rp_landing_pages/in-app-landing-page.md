@@ -21,7 +21,7 @@ Adobe Journey Optimizer의 인앱 채널을 사용하면 모바일 또는 웹 �
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 인앱 채널 구성
 
@@ -31,7 +31,7 @@ Adobe Journey Optimizer의 인앱 채널을 사용하면 모바일 또는 웹 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 모바일 인앱 메시지 만들기
 
@@ -41,7 +41,7 @@ Adobe Journey Optimizer의 인앱 채널을 사용하면 모바일 또는 웹 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 웹 인앱 메시지 만들기
 
@@ -51,7 +51,7 @@ Adobe Journey Optimizer의 인앱 채널을 사용하면 모바일 또는 웹 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/paint-brush.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/paint-brush.svg?lang=ko)
 
 인앱 콘텐츠 디자인 및 사용자 지정
 
@@ -61,7 +61,7 @@ Adobe Journey Optimizer의 인앱 채널을 사용하면 모바일 또는 웹 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg?lang=ko)
 
 인앱 알림 확인 및 보내기
 

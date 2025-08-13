@@ -21,7 +21,7 @@ ht-degree: 3%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 여정 테스트 또는 게시 전 오류 문제 해결
 
@@ -31,7 +31,7 @@ ht-degree: 3%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 Adobe Journey Optimizer에서의 라이브 여정 실행 문제 해결
 
@@ -41,7 +41,7 @@ Adobe Journey Optimizer에서의 라이브 여정 실행 문제 해결
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 Adobe Journey Optimizer 여정의 인바운드 동작 문제 해결
 
@@ -51,7 +51,7 @@ Adobe Journey Optimizer 여정의 인바운드 동작 문제 해결
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 Adobe Journey Optimizer의 사용자 지정 작업 문제 해결
 
@@ -64,4 +64,4 @@ API 호출 및 인증 설정이 올바른지 확인하기 위해 &#39;테스트 
 
 ### 추가 리소스
 
-또한 일반적인 오류 코드와 효과적인 해결 방법을 자세히 설명하는 [이 Adobe 커뮤니티 블로그 게시물](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884)을 확인하십시오.
+또한 일반적인 오류 코드와 효과적인 해결 방법을 자세히 설명하는 [이 Adobe 커뮤니티 블로그 게시물](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=ko)을 확인하십시오.

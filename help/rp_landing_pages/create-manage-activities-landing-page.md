@@ -20,7 +20,7 @@ Adobe Journey Optimizer에서 의사 결정을 만들고 관리하면 고객에�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 Adobe Journey Optimizer에서 의사 결정 만들기
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 의사 결정 만들기
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 오퍼 선택 방법 구성
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 의사 결정 만들기
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 오퍼 결정 시뮬레이션
 

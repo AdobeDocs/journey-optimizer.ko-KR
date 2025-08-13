@@ -20,7 +20,7 @@ Adobe Journey Optimizer에서 의사 결정 항목을 관리하는 것은 적절
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 항목 카탈로그 구성
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 의사 결정 항목을 관리하는 것은 적절
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 의사 결정 항목 만들기 및 관리
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 의사 결정 항목을 관리하는 것은 적절
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 항목 컬렉션 관리
 

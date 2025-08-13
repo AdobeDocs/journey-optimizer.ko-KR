@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 대상은 고객이 자신의 행동, 선호도 및 �
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 대상자 시작
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 내의 대상자 관리, 세분화 및 활성화의 기�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 대상자 만들기 및 관리
 
@@ -40,7 +40,7 @@ CSV 가져오기 및 통합 데이터 소스를 포함하여 대상 만들기, �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 캠페인 및 여정에서 대상자 활성화
 
@@ -50,7 +50,7 @@ CSV 가져오기 및 통합 데이터 소스를 포함하여 대상 만들기, �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 데이터 보강 속성 활용
 

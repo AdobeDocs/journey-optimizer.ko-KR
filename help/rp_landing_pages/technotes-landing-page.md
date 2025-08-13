@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 기술 문서에서는 실험 및 보고를 수행하
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
 
 Adobe Journey Optimizer 실험에 사용되는 통계 계산
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 실험에 사용되는 통계 계산
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
 
 실험 보고서의 통계 계산 이해
 

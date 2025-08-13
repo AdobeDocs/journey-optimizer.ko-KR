@@ -20,7 +20,7 @@ Adobe Journey Optimizer에서 랜딩 페이지를 구성하면 맞춤화된 하�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 랜딩 페이지 하위 도메인 구성
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 랜딩 페이지를 호스팅하기 위한 하위 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 랜딩 페이지 사전 설정 정의
 

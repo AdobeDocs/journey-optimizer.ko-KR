@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 &#39;오퍼 만들기 및 관리&#39; 섹션을 통�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 Adobe Journey Optimizer에서 오퍼 구성
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 오퍼 구성
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 대체 오퍼를 만드는 방법
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 오퍼 구성
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 오퍼 컬렉션을 만들고 관리하는 방법
 

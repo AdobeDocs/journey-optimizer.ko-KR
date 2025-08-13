@@ -38,7 +38,7 @@ Adobe Journey Optimizer의 푸시 알림은 모바일 앱 사용자가 앱을 �
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 푸시 알림 만들기 및 구성
 
@@ -48,7 +48,7 @@ Adobe Journey Optimizer의 푸시 알림은 모바일 앱 사용자가 앱을 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 푸시 알림 디자인
 
@@ -58,7 +58,7 @@ Adobe Journey Optimizer의 푸시 알림은 모바일 앱 사용자가 앱을 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 푸시 알림 미리 보기, 유효성 검사 및 보내기
 
@@ -68,7 +68,7 @@ Adobe Journey Optimizer의 푸시 알림은 모바일 앱 사용자가 앱을 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 푸시 알림 구성
 

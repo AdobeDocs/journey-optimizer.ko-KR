@@ -20,7 +20,7 @@ Adobe Journey Optimizer은 다른 Adobe 솔루션(예: **Adobe Campaign Standard
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 Adobe Journey Optimizer과 Adobe Campaign Standard 통합
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer을 Adobe Campaign Standard과 통합하여 이메일, �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 Adobe Journey Optimizer과 Adobe Campaign v7/v8 통합
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer과 Adobe Campaign v7/v8 통합
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 Adobe Journey Optimizer과 Marketo Engage 통합
 

@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 등급을 사용하면 대상자에게 가장 먼저 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
 
 등급 시작하기
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 등급을 사용하면 대상자에게 가장 먼저 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 등급 수식 만들기 및 사용
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer의 등급을 사용하면 대상자에게 가장 먼저 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
 
 오퍼 등급에 대한 AI 모델
 

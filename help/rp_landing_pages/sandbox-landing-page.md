@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 샌드박스는 개발, 테스트 또는 프로덕션
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 샌드박스 관리 및 할당
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 환경을 분할하고, 역할을 할당하고, �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 샌드박스 간 개체 복사
 

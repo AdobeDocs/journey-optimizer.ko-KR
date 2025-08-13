@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 AI 모델을 사용하면 비즈니스 목표 및 고
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
 
 AI 모델 시작
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 등급 오퍼에 AI 모델을 만들고 사용하�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
 
 자동 최적화 모델
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 등급 오퍼에 AI 모델을 만들고 사용하�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 개인화된 최적화 모델
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer에서 등급 오퍼에 AI 모델을 만들고 사용하�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 단계별 안내서: AI 모델 만들기
 

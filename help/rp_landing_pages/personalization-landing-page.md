@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 Personalization을 사용하면 개별 프로필, 동
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 Personalization 시작
 
@@ -30,7 +30,7 @@ Personalization 시작
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 Personalization 추가 및 유효성 검사
 
@@ -40,7 +40,7 @@ Personalization 추가 및 유효성 검사
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 Personalization 구문 이해
 
@@ -50,7 +50,7 @@ Handlebars 기반 개인화 구문의 규칙과 예를 분석하여 다이내믹
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 표현식 조각 재사용
 
@@ -60,7 +60,7 @@ Handlebars 기반 개인화 구문의 규칙과 예를 분석하여 다이내믹
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ko)
 
 Personalization(Beta)에 Adobe Experience Platform 데이터 사용
 
@@ -70,7 +70,7 @@ Personalization(Beta)에 Adobe Experience Platform 데이터 사용
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=ko)
 
 도우미 함수 참조 안내서
 

@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 오케스트레이션된 캠페인 활동을 통해 �
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
 
 오케스트레이션된 캠페인 활동 작업
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 오케스트레이션된 캠페인 활동을 통해 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 AND-join 활동 사용
 
@@ -40,7 +40,7 @@ AND-join 활동 사용
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 대상자 작성 활동
 
@@ -50,7 +50,7 @@ AND-join 활동 사용
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 차원 활동 변경
 
@@ -60,7 +60,7 @@ AND-join 활동 사용
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 채널 활동
 
@@ -70,7 +70,7 @@ AND-join 활동 사용
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 활동 결합
 

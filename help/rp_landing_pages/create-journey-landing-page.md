@@ -20,7 +20,7 @@ Adobe Journey Optimizer에서 여정을 만들면 개별 행동 및 선호도에
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 첫 번째 고객 여정을 만드는 방법
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 여정을 만들면 개별 행동 및 선호도에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 여정 속성 정의 및 관리
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 여정을 만들면 개별 행동 및 선호도에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 여정 디자인 방법
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer에서 여정을 만들면 개별 행동 및 선호도에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 여정 테스트 방법
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer에서 여정을 만들면 개별 행동 및 선호도에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=ko)
 
 시험 실행 모드로 여정 테스트
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer에서 여정을 만들면 개별 행동 및 선호도에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 여정 게시
 

@@ -20,7 +20,7 @@ ht-degree: 7%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
 
 이메일 전달성 소개
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 이메일 전달성을 최적화하기 위한 개�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 제외 목록 이해
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 이메일 전달성을 최적화하기 위한 개�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
 
 새로운 DMARC 요구 사항 준수
 

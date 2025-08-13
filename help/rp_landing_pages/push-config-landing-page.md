@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 푸시 알림을 사용하면 대상자와 실시간�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 푸시 알림 데이터 흐름 및 구성
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer을 사용하여 푸시 알림을 전달하는 데 필요
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 푸시 알림 채널 구성
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer을 사용하여 푸시 알림을 전달하는 데 필요
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 모바일 온보딩 빠른 시작 워크플로우
 

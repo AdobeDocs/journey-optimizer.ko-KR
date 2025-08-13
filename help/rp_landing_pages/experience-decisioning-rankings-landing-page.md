@@ -20,7 +20,7 @@ Adobe Journey Optimizer에서 등급을 만들면 오퍼 또는 권장 사항과
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 등급 메서드를 만들고 사용하는 방법
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 등급을 만들면 오퍼 또는 권장 사항과
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 AI 수식 빌더 사용
 
@@ -40,7 +40,7 @@ AI 공식 빌더를 사용하여 AI 모델, 속성 및 컨텍스트 신호를 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
 
 AI 모델 이해 및 구현
 

@@ -20,7 +20,7 @@ Adobe Journey Optimizer에서 웹 채널을 구성하면 웹 사이트 방문자
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
 
 웹 채널 사전 요구 사항
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 웹 채널을 구성하면 웹 사이트 방문자
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 웹 하위 도메인 구성
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 콘텐츠를 게시하기 위한 웹 하위 도메
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 웹 채널 만들기 및 구성
 

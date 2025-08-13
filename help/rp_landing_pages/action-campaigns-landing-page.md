@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 작업 캠페인에서는 프로모션, 업데이트 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 액션 캠페인 만들기
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 작업 캠페인에서는 프로모션, 업데이트 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 액션 캠페인 속성 정의
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer의 작업 캠페인에서는 프로모션, 업데이트 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 Campaign 작업 구성
 
@@ -50,7 +50,7 @@ Campaign 작업 구성
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 메시지 최적화 활용
 
@@ -60,7 +60,7 @@ Campaign 작업 구성
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/pencil-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/pencil-alt.svg?lang=ko)
 
 캠페인 콘텐츠 편집
 
@@ -70,7 +70,7 @@ Campaign 작업 구성
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=ko)
 
 캠페인 대상자 정의
 

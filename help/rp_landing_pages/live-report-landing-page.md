@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 라이브 보고서 기능을 사용하면 동적 사
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 라이브 보고서 시작
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 라이브 보고서 기능을 사용하면 동적 사
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 지표 목록
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer의 라이브 보고서 기능을 사용하면 동적 사
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
 
 여정 라이브 보고서
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer의 라이브 보고서 기능을 사용하면 동적 사
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
 
 캠페인 라이브 보고서
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer의 라이브 보고서 기능을 사용하면 동적 사
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
 
 랜딩 페이지 라이브 보고서
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer의 라이브 보고서 기능을 사용하면 동적 사
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
 
 구독 라이브 보고서
 

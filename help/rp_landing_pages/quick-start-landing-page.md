@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 성공 여부는 각자의 능력에 맞는 명확한
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
 
 역할 및 책임 개요
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer을 성공적으로 구현하는 데 필요한 주요 역
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 마케터로 시작하기
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer을 성공적으로 구현하는 데 필요한 주요 역
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 데이터 엔지니어로 시작하기
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer을 성공적으로 구현하는 데 필요한 주요 역
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 시스템 관리자로 시작하기
 

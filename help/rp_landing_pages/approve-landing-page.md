@@ -20,7 +20,7 @@ Adobe Journey Optimizer에서 여정 및 캠페인을 승인하면 모든 이니
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
 
 여정 및 캠페인 승인 설정 및 관리
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 여정 및 캠페인을 승인하면 모든 이니
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 승인 정책을 만들고 관리하는 방법
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 여정 및 캠페인을 승인하면 모든 이니
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 여정 및 캠페인에 대한 승인을 요청하는 방법
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer에서 여정 및 캠페인을 승인하면 모든 이니
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
 
 여정 및 캠페인에 대한 요청 검토 및 승인
 
