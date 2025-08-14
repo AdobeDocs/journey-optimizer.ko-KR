@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c50553f5a591ae1f462f8162313999424bec533c
+source-git-commit: 1b4ab451ed9e2315ffe4850c6ab4b8ad20223ac3
 workflow-type: tm+mt
-source-wordcount: '1715'
-ht-degree: 46%
+source-wordcount: '1782'
+ht-degree: 44%
 
 ---
 
@@ -189,13 +189,37 @@ ht-degree: 46%
 <table>
 <thead>
 <tr>
+<th><strong>이메일에 대한 PDF 첨부 파일</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 Journey Optimizer으로 보낸 이메일 메시지에 정적 PDF 파일을 첨부할 수 있습니다.</p>
+<ul>
+<li>프로필당 연간 최대 6개의 PDF 첨부 파일을 추가할 수 있습니다.</li>
+<li>각 첨부 파일의 최대 허용 파일 크기는 5MB입니다.</li>
+<li>추가 크기나 볼륨의 경우 첨부 파일 팩 추가 기능을 구입할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.</li>
+</ul>
+<p>이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.</p>
+<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>랜딩 페이지 사용자 정의 양식</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 Journey Optimizer을 사용하여 사용자 정의 양식을 만들고 랜딩 페이지에서 이를 활용하여 프로필 속성을 각 양식에 대해 정의된 데이터 세트에 캡처할 수 있습니다.</p>
+<p>이제 [!DNL Journey Optimizer]을(를) 사용하여 랜딩 페이지를 통해 프로필 속성을 캡처할 수 있습니다.</p>
+<p>특정 데이터 세트를 기반으로 사용자 요구에 맞는 맞춤형 양식을 만들고 디자인하고 관리합니다. 그런 다음 랜딩 페이지에서 이러한 양식을 활용하여 선택한 프로필 속성을 각 양식에 대해 정의된 데이터 세트에 추가할 수 있습니다.</p>
 <p>이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.</p>
 <p><!--This capability is currently in beta version and only available to beta customers. To join the beta program, contact your Adobe representative.--></p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
@@ -258,10 +282,6 @@ ht-degree: 46%
 
    * **푸시 알림 만료일** - 이제 각 푸시 알림에 대해 만료일을 지정할 수 있습니다. 그러면 특정 날짜 이후에 시간에 민감한 메시지(예: 블랙 프라이데이 세일)가 전송되지 않으므로 고객에게 좋지 않은 경험이 전달되지 않습니다.
 
-* **채널 - 전자 메일**
-
-   * **전자 메일에 PDF 첨부 파일** - 이제 Journey Optimizer으로 보낸 전자 메일 메시지에 정적 PDF 파일을 첨부할 수 있습니다. 이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.
-
 * **채널 - SMS**
 
    * **유사 옵트아웃** - 활성화하면 **유사 옵트아웃** 옵션이 정의된 옵트아웃 키워드(예: &#39;CANCIL&#39;)와 유사한 인바운드 메시지를 감지하고 자동으로 확인 응답을 보내 사용자의 구독 취소 의도를 확인합니다. 사용자가 정의된 프롬프트를 통해 확인하는 경우 가입을 취소합니다.
@@ -276,7 +296,7 @@ ht-degree: 46%
 
    * **한 번 클릭 구독 취소 URL로 사용자 지정 특성 지원** - Journey Optimizer에서 Adobe 외부에서 동의를 관리하는 경우 이메일 구성에서 한 번 클릭 구독 취소 링크를 정의하여 외부 사용자 지정 끝점을 설정할 수 있습니다. 수신자가 구독 취소 링크를 클릭하면 Journey Optimizer이 일부 기본 프로필별 매개 변수를 동의 업데이트 이벤트에 추가합니다.
 
-     이제 원클릭 구독 취소 링크를 개인화하기 위해 동의 이벤트에 추가할 사용자 지정 속성을 정의할 수 있습니다.
+     이제 원클릭 구독 취소 링크를 개인화하기 위해 동의 이벤트에도 추가될 사용자 지정 속성을 정의할 수 있습니다.
 
 * **의사 결정**
 

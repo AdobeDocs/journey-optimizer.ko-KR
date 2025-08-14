@@ -8,13 +8,13 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: 설정, 이메일, 구성
-source-git-commit: ad70e369dac61dc3ea261e7931c0b58e46c23dda
+exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
+source-git-commit: 1b4ab451ed9e2315ffe4850c6ab4b8ad20223ac3
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 93%
+source-wordcount: '712'
+ht-degree: 90%
 
 ---
-
 
 # 헤더 매개변수 {#email-header}
 
@@ -64,7 +64,7 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->입력한 주소의 하위 도메인이 Adobe에 [완전히 위임된](../configuration/delegate-subdomain.md#full-subdomain-delegation) 도메인인 경우 Adobe 계정 담당자에게 문의하십시오.
+>입력한 주소의 하위 도메인이 Adobe에 [완전히 위임](../configuration/delegate-subdomain.md#full-subdomain-delegation)된 도메인인 경우 Adobe 담당자에게 문의하십시오.
 
 ## 이메일 전달 {#forward-email}
 
