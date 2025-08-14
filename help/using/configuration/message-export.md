@@ -11,9 +11,10 @@ keywords: 내보내기, 메시지, HIPAA, 이메일, SMS, 구성
 badge: label="제한된 가용성" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: 9e76bfb65865ec7814493ad6e08834d367a9417a
+exl-id: 7b50c933-9738-4b1b-acae-08f0a8d41dab
+source-git-commit: c62653af3c1eacaaf55dcf181d33f2253521e33d
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '509'
 ht-degree: 2%
 
 ---
@@ -29,11 +30,7 @@ ht-degree: 2%
 >
 >이 기능은 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
-**메시지 내보내기**&#x200B;를 사용하면 보낸 전자 메일 및 SMS 메시지 콘텐츠를 [!DNL Journey Optimizer]에서 [!DNL Adobe Experience Platform] 대상을 통해 자신의 저장소로 전송할 수 있습니다.
-
->[!NOTE]
->
->[!DNL Experience Platform] 대상은 Experience Platform의 데이터를 외부 끝점으로 전달할 수 있는 프레임워크로 구성됩니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/home){target="_blank"}
+**메시지 내보내기**&#x200B;를 사용하면 보낸 전자 메일 및 SMS 메시지 콘텐츠를 [!DNL Journey Optimizer]에서 [!DNL Adobe Experience Platform] 대상을 통해 자신의 저장소로 전송하여 [!DNL Experience Platform]의 데이터를 외부 끝점으로 전달할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/home){target="_blank"}
 
 이 기능을 사용하면 내보내기로 표시된 [!DNL Journey Optimizer]을(를) 통해 보낸 전자 메일 및 SMS 메시지의 콘텐츠가 [!DNL Experience Platform] **AJO 메시지 내보내기 데이터 세트**&#x200B;에 기록됩니다.
 
@@ -41,7 +38,7 @@ ht-degree: 2%
 <!--
 ## Terminology
 
-* **[!DNL Experience Platform] destinations** - Framework to deliver data out of Experience Platform into external endpoints. [Learn more](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/home){target="_blank"}
+* **[!DNL Experience Platform] destinations** - Framework to deliver data out of Experience Platform into external endpoints. [Learn more](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home){target="_blank"}
 * **AJO Message Export Dataset** - An [!DNL Experience Platform] dataset which stores the message content of email and SMS messages sent via [!DNL Journey Optimizer] which have been marked for export.
 * **Retention**: Records in the AJO Message Export Dataset are retained for 3 calendar days from ingestion.-->
 
@@ -70,9 +67,9 @@ ht-degree: 2%
 >
 >각 샌드박스에 대해 이 설정을 구성해야 합니다.
 
-1. Experience Platform [대상 유형](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/destination-types)을(를) 선택하십시오. 데이터를 받을 준비가 된 사용 가능한 대상 플랫폼 목록을 [이 페이지](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/overview){target="_blank"}에서 사용할 수 있습니다.
+1. Experience Platform [대상 유형](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/destination-types){target="_blank"}을(를) 선택하십시오. 데이터를 받을 준비가 된 사용 가능한 대상 플랫폼 목록을 [이 페이지](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview){target="_blank"}에서 사용할 수 있습니다.
 
-1. [!DNL Experience Platform]에서 자격 증명, 버킷/컨테이너, 경로 접두사 및 보안 옵션을 정의하여 대상을 구성합니다. [방법 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
+1. [!DNL Experience Platform]에서 자격 증명, 버킷/컨테이너, 경로 접두사 및 보안 옵션을 정의하여 대상을 구성합니다. [방법 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
 
 1. 다음 데이터를 사용하여 데이터 세트 내보내기 플로우를 만듭니다.
 
@@ -95,5 +92,3 @@ ht-degree: 2%
 이 채널 구성을 사용하여 캠페인이나 여정을 통해 보낸 전자 메일 및 SMS 메시지는 **AJO 메시지 내보내기 데이터 세트**&#x200B;에 기록됩니다. 그런 다음 정의한 내보내기 데이터 흐름에 따라 선택한 스토리지 대상으로 레코드를 내보냅니다.
 
 **[!UICONTROL 메시지 내보내기 사용]** 토글을 사용하지 않도록 설정하면 이 채널 구성에 대한 새 레코드가 데이터 집합에 수집되지 않습니다. 기존 레코드는 보존이 만료될 때까지 유지됩니다.
-
-

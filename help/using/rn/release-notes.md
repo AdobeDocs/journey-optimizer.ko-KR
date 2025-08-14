@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 74e91c6a491b95f8e3c804b74dcef0b1757c5edf
+source-git-commit: 2afc9c4eb2a0433a22f1b369824086db2f5618ec
 workflow-type: tm+mt
-source-wordcount: '1773'
+source-wordcount: '1776'
 ht-degree: 44%
 
 ---
@@ -180,7 +180,7 @@ ht-degree: 44%
 <li>모든 작업에 실험과 다국어 옵션을 모두 추가하는 기능.</li>
 </ul>
 <p>이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><!--img src="assets/do-not-localize/pdf-attachments.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
 </tr>
@@ -198,7 +198,7 @@ ht-degree: 44%
 <td>
 <p>이제 Journey Optimizer으로 보낸 이메일 메시지에 정적 PDF 파일을 첨부할 수 있습니다.</p>
 <ul>
-<li>프로필당 연간 최대 6개의 PDF 첨부 파일을 추가할 수 있습니다.</li>
+<li>프로필당 연간 최대 6개의 PDF 첨부 파일을 사용하여 메시지를 보낼 수 있습니다.</li>
 <li>각 첨부 파일의 최대 허용 파일 크기는 5MB입니다.</li>
 <li>추가 크기나 볼륨의 경우 첨부 파일 팩 추가 기능을 구입할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.</li>
 </ul>
