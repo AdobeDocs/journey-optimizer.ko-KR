@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
-workflow-type: ht
-source-wordcount: '4203'
+source-git-commit: 75c3db704853b8d2d8920ddd0086681d1fb02a93
+workflow-type: tm+mt
+source-wordcount: '5119'
 ht-degree: 100%
 
 ---
@@ -18,6 +18,171 @@ ht-degree: 100%
 # 2025년 릴리스 정보 {#release-notes-2025}
 
 이 페이지에서는 2025년에 릴리스된 [!DNL Journey Optimizer]의 모든 기능과 개선 사항 목록을 확인할 수 있습니다.
+
+## 2025년 7월 릴리스 정보 {#25-7-rn}
+
+**릴리스 일자**: 2025년 7월 29일
+
+### 새로운 기능 {#features-25-7}
+
+이번 릴리스의 새로운 기능을 아래에서 자세히 설명합니다.
+
+#### 기능
+
+<table>
+<thead>
+<tr>
+<th><strong>브랜드</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 커뮤니케이션 전반에 걸쳐 시각적, 언어적 정체성을 명확하게 정의하기 위해 자체 브랜드를 만들고 사용자 정의할 수 있습니다. 브랜드 정렬 점수를 사용하면 콘텐츠가 브랜드의 톤, 스타일, 가이드라인을 얼마나 잘 반영하는지에 대한 실시간 피드백을 받을 수 있으므로 보내는 모든 메시지에서 일관되게 브랜드에 맞는 내용을 전달하는 데 도움이 됩니다.</p>
+<p>이전에 Beta로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
+<p><img src="assets/do-not-localize/brand-score.gif"/></p>
+<p>자세한 내용은 <a href="../content-management/brands.md">세부 설명서</a>를 참조하십시오.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>이메일 채널에서 의사 결정 사용</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 이메일 여정 및 캠페인에 의사 결정 정책을 추가할 수 있습니다. 의사 결정 정책은 의사 결정 엔진을 활용하여 각 대상 구성원에 대해 제공할 최상의 콘텐츠를 동적으로 반환하는 오퍼에 대한 컨테이너입니다.</p>
+<p>이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.</p>
+자세한 내용은 <a href="../experience-decisioning/create-decision.md">세부 설명서</a>를 참조하십시오.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>LINE 채널</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer는 LINE 채널에 대한 지원을 포함하도록 크로스 채널 기능을 확장했습니다. 이 향상된 기능을 통해 LINE 경험을 만들고 편집하고 미리 볼 수 있으므로 보다 개인화되고 매력적인 상호 작용을 제공할 수 있습니다. LINE을 사용하여 더 많은 고객과 소통하고 관련 콘텐츠를 전송하며 참여도를 개선할 수 있습니다.</p>
+<p>이전에는 요청만 사용할 수 있었지만 이제 모든 사용자가 LINE 채널을 사용할 수 있게 되었습니다(일반 가용성).</p>
+<p>자세한 내용은 <a href="../../rp_landing_pages/line-landing-page.md">세부 설명서</a>를 참조하십시오.</p></td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>여정 시험 실행</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>여정 시험 실행은 Adobe Journey Optimizer에서 제공되는 특별한 여정 게시 모드로, 여정 실무자가 실제 고객에게 연락하거나 프로필 정보를 업데이트하지 않고도 실제 프로덕션 데이터를 사용해 여정을 테스트할 수 있도록 합니다. 이 기능은 여정 실무자가 여정을 게시하기 전에 여정 설계와 대상자 타기팅에 대한 자신감을 얻는 데 도움이 됩니다.</p>
+<img src="assets/do-not-localize/DryRun.gif">
+<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
+<p>자세한 내용은 <a href="../building-journeys/journey-dry-run.md">세부 설명서</a>를 참조하십시오.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>여정용 보조 ID</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 주문 ID, 구독 ID 또는 처방전 ID와 같은 다른 식별자와 함께 프로필 ID를 사용하여 여정을 트리거함으로써 동일한 프로필이 한 번에 여러 차례 동일한 여정에 있도록 할 수 있습니다. 이를 통해 각 인스턴스가 자체 여정 경로를 따르면서 여러 주문 또는 구독을 동시에 관리할 수도 있습니다.</p>
+<p>이전에 제한된 가용성에서 릴리스되었던 여정에서의 보조 ID 사용 기능이 이제 모든 환경에서 사용할 수 있게 되었습니다. 이번 GA 릴리스에서는 이제 대상자 읽기 여정에 대한 지원이 기능에 포함됩니다.</p>
+<p><img src="assets/do-not-localize/gif-supplemental.gif"/></p>
+<p>자세한 내용은 <a href="../building-journeys/supplemental-identifier.md">세부 설명서</a>를 참조하십시오.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 제품 내 경고
+
+이제 Journey Optimizer 제품 릴리스에 대한 **이메일 및 제품 내 경고**&#x200B;를 구독할 수 있습니다.
+
+구독하려면
+
+* **Adobe Experience Cloud 환경 설정**&#x200B;으로 이동하십시오.
+* **알림**&#x200B;에서 **Journey Optimizer 새 릴리스**&#x200B;를 찾습니다.
+* 인앱 및 이메일 알림 활성화
+
+![](assets/do-not-localize/pulse-notif.png){width="70%" align="left"}
+
+
+### 여정 조건 변경 {#ee-change@}
+
+7월 8일부로 신규 고객 조직의 경우 여정 조건에 사용하는 표현식 편집기에서 경험 이벤트를 사용하여 표현식을 만드는 작업이 지원되지 않습니다. 따라서 표현식을 만드는 데 [Experience Platform 데이터 소스](../datasource/adobe-experience-platform-data-source.md)의 경험 이벤트를 사용할 수 없습니다. 경험 이벤트를 사용하여 표현식/논리를 만드는 다른 방법 및 모범 사례는 [여기](../building-journeys/exp-event-lookup.md)에서 참조할 수 있습니다.
+
+단일 여정에서 여정 컨텍스트 이벤트 데이터에 액세스하는 방법에는 변화가 없습니다. 사용자는 계속 표현식 편집기 및 개인화 편집기에서 초기 여정 이벤트로 전달된 데이터에 액세스할 수 있습니다.
+
+[이 FAQ](../building-journeys/exp-event-lookup.md#faq-ee)에서 자세히 알아보십시오.
+
+### 개선 사항 {#25-7-improv}
+
+다음은 이번 릴리스의 개선 사항 목록입니다.
+
+* **캠페인**
+
+   * **캠페인의 여러 인바운드 작업** - 이제 캠페인 오케스트레이션을 단순화하기 위해 단일 캠페인에서 여러 인바운드 작업을 정의할 수 있습니다. 이 기능을 사용하면 여러 코드 기반 경험, 인앱 메시지, 콘텐츠 카드 또는 웹 작업을 동시에 다른 위치에 전달할 수 있으며, 각 작업에는 특정 콘텐츠가 포함됩니다.
+     [자세히 보기](../campaigns/campaign-action.md#multi-action)
+
+   * **캠페인 인벤토리 재구성** - 이제 예약된 캠페인 및 API 트리거 캠페인이 더 쉬운 탐색 및 관리를 위해 캠페인 인벤토리에서 별도의 탭으로 분할됩니다.
+
+[자세히 보기](../campaigns/modify-stop-campaign.md)
+
+* **데이터 관리**
+   * **의사 결정 관리 시스템 데이터 세트 업데이트** - 이제 삭제된 개인화된 오퍼 및 대체 오퍼가 “decision_object_repository_personalized_offers” 및 “decision_object_repository_fallback_offers” 데이터 세트에 보관된 것으로 표시됩니다. 데이터 세트의 기존 레코드는 변경되지 않습니다.
+
+[자세히 보기](../offers/export-catalog/access-dataset.md)
+
+* **여정**
+   * **여정 샌드박스 도구 개선 사항** - 패키지 내보내기 및 가져오기 기능을 사용하여 여러 샌드박스에서 여정을 복사할 때 이제 다음 기능도 사용할 수 있습니다.
+      * 대상에서 기존 이벤트 선택
+      * 여정과 독립적으로 이벤트 복사
+      * 필드 그룹/데이터 소스 관계 감지, 대상(있는 경우)에서 연결, 없는 경우 생성.
+
+[자세히 보기](../configuration/copy-objects-to-sandbox.md)
+
+* **채널 - 인앱**
+   * **인앱 키/값 쌍** - 인앱 메시지를 사용하여 메시지 페이로드에 사용자 지정 변수를 포함하도록 키 및 값 쌍을 정의할 수 있습니다. 이러한 키-값 쌍을 사용하면 특정 구성 및 사용 사례에 따라 추가 데이터를 전달할 수 있습니다. [자세히 보기](../in-app/design-in-app.md)
+
+* **채널 - 콘텐츠 카드**
+
+   * **규칙 기반 캠페인 결격** - 추가 게재 규칙을 편집할 때 이전 게재 규칙 옵션이 세 가지 개별 규칙 유형으로 대체되어 메시지 타이밍 및 가시성을 더 잘 제어할 수 있습니다.
+      * 다음과 같은 경우 메시지 표시: 컨텐츠 카드가 표시되는 시기를 결정하는 조건.
+      * 다음과 같은 경우 메시지 닫기: 컨텐츠 카드를 일시적으로 숨기는 조건. 표시 조건이 다시 충족되는 경우 다시 나타날 수 있습니다.
+      * 메시지 부적격: 컨텐츠 카드가 다시 표시되지 않도록 영구적으로 차단하는 조건.
+
+[자세히 보기](../content-card/design-content-card.md)
+
+* **의사 결정**
+   * **마이그레이션 도구 API** - Journey Optimizer 팀은 현재 의사 결정 관리 엔터티를 Decisioning으로 마이그레이션하기 위한 마이그레이션 도구 API를 작업 중입니다. 이 도구를 사용하면 종속성 해결 및 롤백 기능을 통해 샌드박스 간에 원활하게 마이그레이션할 수 있습니다. 관심이 있는 경우 Adobe 담당자에게 문의하십시오.
+
+* **개인화**
+   * 개인화 편집기에 새로운 헬퍼 함수 “SHA256”이 추가되었습니다. 이 함수는 문자열의 sha256 해시를 계산하고 반환하는 데 사용합니다.
+
+[자세히 보기](../personalization/functions/string.md#sha256)
 
 
 ## 25년 6월 릴리스 정보 {#25-6-rn}
