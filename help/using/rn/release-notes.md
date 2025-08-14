@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 75c3db704853b8d2d8920ddd0086681d1fb02a93
+source-git-commit: 32bc229e3d34e705d7f89530db9b3fbc3b136071
 workflow-type: tm+mt
-source-wordcount: '1624'
+source-wordcount: '1638'
 ht-degree: 48%
 
 ---
@@ -254,7 +254,7 @@ ht-degree: 48%
 
 * **채널 - 전자 메일**
 
-   * **전자 메일에 PDF 첨부 파일** - 이제 Journey Optimizer으로 보낸 전자 메일 메시지에 정적 PDF 파일을 첨부할 수 있습니다.
+   * **전자 메일에 PDF 첨부 파일** - 이제 Journey Optimizer으로 보낸 전자 메일 메시지에 정적 PDF 파일을 첨부할 수 있습니다. 이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.
 
 * **채널 - SMS**
 
