@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 32bc229e3d34e705d7f89530db9b3fbc3b136071
+source-git-commit: e8edafaff94ae9498f3d0eb3d696b38cd25e4c0a
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1662'
 ht-degree: 48%
 
 ---
@@ -281,6 +281,10 @@ ht-degree: 48%
    * **대량 작업 여정** - 이제 여정 목록에서 여러 항목을 선택할 수 있습니다. 선택하면 한 번에 최대 10개의 여정을 일시 중지하거나 다시 시작할 수 있습니다.
 
    * **사용자 지정 작업에서 리디렉션(302) 지원** - 이제 사용자 지정 작업에서 요청별로 HTTP 302 리디렉션을 처리할 수 있습니다. 이렇게 하면 여정이 요청을 현지화되거나 지역별 URL로 리디렉션하는 API와 통합할 수 있습니다. 리디렉션은 자동으로 수행되므로 추가 구성 없이 올바른 컨텐츠가 전달됩니다.
+
+* **데이터 세트**
+
+   * **Experience Decisioning 개체 저장소 - 개인화된 오퍼 항목** - 이제 기본 제공 내보내기 데이터 세트가 모든 오퍼 특성 및 라이프사이클 상태를 캡처하여 완벽한 개인화 및 보고를 가능하게 합니다.
 
 ## 캠페인 오케스트레이션
 
