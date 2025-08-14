@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: bc542a5ecd3e27a335fc60c0e060dc72c215757c
+source-git-commit: 74e91c6a491b95f8e3c804b74dcef0b1757c5edf
 workflow-type: tm+mt
-source-wordcount: '1781'
+source-wordcount: '1773'
 ht-degree: 44%
 
 ---
@@ -112,12 +112,13 @@ ht-degree: 44%
 <tr>
 <td>
 <p>개인화 편집기에서 [!DNL Adobe Experience Platform]의 데이터를 활용하여 콘텐츠와 의사 결정 특성을 개인화합니다. 특히, 속성을 한 번에 하나씩 수동으로 업데이트할 필요 없이 주기적으로 변경되는 벌크 업데이트에 대해 데이터 세트의 추가 데이터로 속성 정의를 확장할 수 있습니다.</p>
-<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다. 이번 일반 가용성 릴리스에서는 다음과 같은 개선 사항이 도입되었습니다.</p>
+<p>이번 릴리스에서는 다음과 같은 개선 사항이 도입되었습니다.</p>
 <ul>
 <li>인바운드 채널 지원,</li>
 <li>이제 "datasetLookup" 도우미 함수를 표현식 및 시각적 조각 내에서 사용하여 Adobe Experience Platform 데이터 세트의 데이터를 사용하여 콘텐츠를 개인화할 수 있습니다.</li>
 <li>이제 데이터 세트의 옵션을 사용하면 API 호출을 수행하지 않고도 조회 개인화에 대한 데이터 세트를 활성화할 수 있습니다.</li>
 </ul>
+<p>이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
@@ -262,7 +263,7 @@ ht-degree: 44%
 
 * **관리**
 
-   * **채널 구성 모니터링 경고** - 이제 채널 구성 오류가 발생하거나 DNS 레코드가 누락된 경우 시스템 경고를 수신하도록 이메일 또는 Journey Optimizer 알림 센터에서 구독할 수 있습니다.
+   * **채널 구성 모니터링 경고** - 이제 <!--a channel configuration failure happens or if -->DNS 레코드가 누락된 경우 시스템 경고를 전자 메일 또는 Journey Optimizer 알림 센터에서 수신하도록 구독할 수 있습니다.
 
 * **캠페인**
 
