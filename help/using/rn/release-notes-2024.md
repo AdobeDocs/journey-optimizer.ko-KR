@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
 source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6783'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -630,7 +630,7 @@ ht-degree: 99%
 
 **여정**
 
-* **조건** 활동에서 기본적으로 **[!UICONTROL 시간 조건]**&#x200B;은(는) 이제 00:00에서 12:00까지 시간 단위로 설정됩니다. [자세히 보기](../building-journeys/condition-activity.md#time_condition)
+* 이제 **조건** 활동에서 **[!UICONTROL 시간 조건]**&#x200B;은 기본적으로 00:00부터 12:00까지 시간 단위로 설정됩니다. [자세히 보기](../building-journeys/condition-activity.md#time_condition)
 * 이제 여정을 작성할 때에도 경고가 다른 경고와 마찬가지로 **경고** 버튼에서 표시되어 일관된 사용자 경험을 제공합니다. [자세히 보기](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
 * 여정 도구 모음의 확대/축소 옵션이 개선되었습니다. 이제 확대/축소 비율이 표시되며 확대/축소 값을 보다 쉽게 재설정할 수 있습니다.
 

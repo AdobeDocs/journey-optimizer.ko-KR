@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
 source-git-commit: d2cdafef6f2d69ea85d9d042c859a8b1e7654d7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '521'
-ht-degree: 51%
+ht-degree: 100%
 
 ---
 
@@ -27,43 +27,43 @@ Adobe Journey Optimizer는 대상자와 효과적으로 교류할 수 있는 다
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 이메일 채널
 
-개인화, 게재 가능성 및 규정 준수 모범 사례를 포함하여 이메일 캠페인을 만들고 구성하고 최적화하는 방법을 알아봅니다.
+개인화, 전달성, 규정 준수 모범 사례를 포함하여 이메일 캠페인을 만들고 구성하고 최적화하는 방법을 알아봅니다.
 
 [이메일 채널에 대해 자세히 알아보기](../../rp_landing_pages/email-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 푸시 알림 채널
 
-자동 알림 및 빠른 전송 모드와 같은 고급 옵션을 포함하여 iOS 및 Android용 푸시 알림을 만들고, 구성하고, 전송하는 방법을 알아봅니다.
+사일런트 알림 및 빠른 전송 모드와 같은 고급 옵션을 포함하여 iOS 및 Android용 푸시 알림을 만들고 구성하고 전송하는 방법을 알아봅니다.
 
 [푸시 알림에 대해 자세히 알아보기](../../rp_landing_pages/push-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
 
 SMS / MMS / RCS 메시지
 
-규정 준수 및 개인화를 비롯한 마케팅 및 트랜잭션 목적으로 SMS, MMS 및 RCS 메시지를 만들고, 관리하고, 구성하는 방법을 이해합니다.
+규정 준수와 개인화 등 마케팅 및 트랜잭션 목적으로 SMS, MMS, RCS 메시지를 만들고 관리하고 구성하는 방법을 이해합니다.
 
 [SMS/MMS/RCS 메시지에 대해 자세히 알아보기](../../rp_landing_pages/sms-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
 
 다이렉트 메일 캠페인
 
-타사 공급업체를 위한 추출 파일 내보내기, 사용자 동의 준수 보장 등 DM 캠페인을 만들고 관리하는 방법을 알아봅니다.
+서드파티 공급업체 대상 추출 파일 내보내기와 사용자 동의 규정 준수 보장을 포함하여 다이렉트 메일 캠페인을 만들고 관리하는 방법을 알아봅니다.
 
-[DM 캠페인에 대해 자세히 알아보기](../../rp_landing_pages/direct-mail-landing-page.md)
+[다이렉트 메일 캠페인에 대해 자세히 알아보기](../../rp_landing_pages/direct-mail-landing-page.md)
 :::
 
 ::::
@@ -75,43 +75,43 @@ SMS / MMS / RCS 메시지
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 인앱 메시지
 
-애플리케이션 내에서 대상을 참여시키기 위해 모바일 및 웹 플랫폼에 대한 인앱 알림을 구성, 디자인 및 개인화하는 방법을 살펴봅니다.
+애플리케이션 내에서 대상자를 참여시키기 위해 모바일 및 웹 플랫폼에 대한 인앱 알림을 구성, 디자인, 개인화하는 방법을 살펴봅니다.
 
 [인앱 메시지에 대해 자세히 알아보기](../../rp_landing_pages/in-app-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 웹
 
-웹 경험을 만들고, 구성하고, 개인화하고, 웹 채널을 아웃바운드 마케팅 전략과 통합하는 방법을 알아봅니다.
+웹 경험을 만들고 구성하고 개인화하고 웹 채널을 아웃바운드 마케팅 전략과 통합하는 방법을 알아봅니다.
 
 [웹 채널에 대해 자세히 알아보기](../../rp_landing_pages/web-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 코드 기반 경험
 
-SDK 및 API를 사용하여 디지털 플랫폼 간에 개인화된 콘텐츠를 제공하기 위한 코드 기반 경험을 살펴보십시오.
+SDK 및 API를 사용하여 여러 디지털 플랫폼에 걸쳐 개인화된 콘텐츠를 게재하기 위한 코드 기반 경험을 살펴봅니다.
 
-[코드 기반 환경에 대해 자세히 알아보기](../../rp_landing_pages/code-based-experience-landing-page.md)
+[코드 기반 경험에 대해 자세히 알아보기](../../rp_landing_pages/code-based-experience-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg)
 
 콘텐츠 카드
 
-모바일 앱 및 웹 사이트에서 참여형 및 맞춤형 메시지를 위한 콘텐츠 카드를 구성, 제작 및 디자인하는 방법을 살펴봅니다.
+모바일 앱과 웹 사이트에서 매력적이고 개인에게 맞는 메시지를 게재하기 위한 콘텐츠 카드를 구성하고 만들고 디자인하는 방법을 살펴봅니다.
 
-[코드 기반 환경에 대해 자세히 알아보기](../../rp_landing_pages/content-card-landing-page.md)
+[코드 기반 경험에 대해 자세히 알아보기](../../rp_landing_pages/content-card-landing-page.md)
 :::
 
 ::::
@@ -119,7 +119,7 @@ SDK 및 API를 사용하여 디지털 플랫폼 간에 개인화된 콘텐츠를
 
 ## 추가 리소스
 
-- **[WhatsApp 메시지](../../rp_landing_pages/whatsapp-landing-page.md)** - Meta의 Cloud API를 통해 WhatsApp 메시지를 통합하고 사용하여 개인화되고 규정을 준수하는 커뮤니케이션 캠페인을 수행하는 방법에 대해 알아봅니다.
+- **[WhatsApp 메시지](../../rp_landing_pages/whatsapp-landing-page.md)** - Meta의 Cloud API를 통해 WhatsApp 메시지를 통합 및 사용하여 개인화되고 규정을 준수하는 커뮤니케이션 캠페인을 수행하는 방법에 대해 알아봅니다.
 - **[LINE 메시지](../../rp_landing_pages/line-landing-page.md)** - 캠페인 및 여정의 효과적인 커뮤니케이션을 위해 LINE 메시지를 구성하고 만들고 개인화하는 방법을 알아봅니다.
 
 ## 여정 및 캠페인의 채널 {#leverage}
