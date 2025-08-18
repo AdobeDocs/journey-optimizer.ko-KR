@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 9e76bfb65865ec7814493ad6e08834d367a9417a
 workflow-type: tm+mt
 source-wordcount: '2881'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -274,8 +274,8 @@ ht-degree: 98%
    + [충돌 관리 및 우선 순위 지정 시작](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [잠재적 충돌 확인](using/conflict-prioritization/conflicts.md)
    + [우선 순위 점수 할당](using/conflict-prioritization/priority-scores.md)
-   + 메시지 및 여정 한도 규칙 설정 {#capping-rules}
-      + [메시지 및 여정 한도 규칙 설정](/help/rp_landing_pages/capping-rules-landing-page.md)
+   + 메시지 및 여정 캡핑 규칙 설정 {#capping-rules}
+      + [메시지 및 여정 캡핑 규칙 설정](/help/rp_landing_pages/capping-rules-landing-page.md)
       + [규칙 세트 작업](using/conflict-prioritization/rule-sets.md)
       + [여정 캡핑 및 중재](using/conflict-prioritization/journey-capping.md)
       + [채널 및 커뮤니케이션 유형별 빈도 캡핑](using/conflict-prioritization/channel-capping.md)
@@ -312,8 +312,8 @@ ht-degree: 98%
             + [나만의 콘텐츠 코딩](using/email/code-content.md)
             + [이메일 템플릿 사용](using/email/use-email-templates.md)
             + [이메일 테마 활용](using/email/apply-email-themes.md)
-         + 이메일 콘텐츠 디자인 {#add-content}
-            + [이메일 콘텐츠 디자인](/help/rp_landing_pages/add-content-landing-page.md)
+         + 콘텐츠 디자인 {#add-content}
+            + [콘텐츠 디자인](/help/rp_landing_pages/add-content-landing-page.md)
             + [콘텐츠 구성 요소 사용](using/email/content-components.md)
             + [시각적 조각 활용](using/email/use-visual-fragments.md)
             + [링크 추가 및 메시지 추적](using/email/message-tracking.md)
@@ -364,7 +364,7 @@ ht-degree: 98%
       + [텍스트 메시지 시작](using/sms/get-started-sms.md)
       + [SMS / MMS / RCS 메시지 만들기](using/sms/create-sms.md)
       + [텍스트 메시지 확인 및 보내기](using/sms/send-sms.md)
-      + [문자 메시지 옵트아웃 관리](using/sms/sms-opt-out.md)
+      + [텍스트 메시지 옵트아웃 관리](using/sms/sms-opt-out.md)
       + [SMS 하위 도메인 설정](using/sms/sms-subdomains.md)
       + SMS / MMS / RCS 채널 구성 {#configure-sms}
          + [SMS / MMS / RCS 채널 구성](/help/rp_landing_pages/configure-sms-landing-page.md)
@@ -390,8 +390,8 @@ ht-degree: 98%
          + [웹 하위 도메인 구성](using/web/web-delegated-subdomains.md)
          + [웹 채널 구성 만들기](using/web/web-configuration.md)
       + [웹 경험 만들기 ](using/web/create-web.md)
-      + 웹 페이지 작성  {#author-web-pages}
-         + [웹 페이지 작성 ](/help/rp_landing_pages/author-web-pages-landing-page.md)
+      + 웹 페이지 작성 {#author-web-pages}
+         + [웹 페이지 작성](/help/rp_landing_pages/author-web-pages-landing-page.md)
          + [웹 디자이너를 사용하여 작업](using/web/web-visual-editor.md)
          + [비시각적 편집기 사용](using/web/web-non-visual-editor.md)
          + [수정 사항 관리](using/web/manage-web-modifications.md)
@@ -441,7 +441,7 @@ ht-degree: 98%
       + [개인화 시작](using/personalization/personalize.md)
       + [개인화 추가](using/personalization/personalization-build-expressions.md)
       + [개인화 구문](using/personalization/personalization-syntax.md)
-      + [표현식 조각 재사용](using/personalization/use-expression-fragments.md)
+      + [표현식 조각 다시 사용](using/personalization/use-expression-fragments.md)
       + [개인화에 Adobe Experience Platform 데이터 사용(Beta)](using/personalization/aep-data-perso.md)
       + 도우미 함수 목록 {#functions}
          + [도우미 함수 목록](/help/rp_landing_pages/functions-landing-page.md)
