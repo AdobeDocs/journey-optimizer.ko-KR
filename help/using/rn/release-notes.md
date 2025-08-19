@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5414f5a4c7bec643151f556375e0c58367d1c3bd
+source-git-commit: 6aac4c8aac9d1a7dbb3056b2e274927203ab6553
 workflow-type: tm+mt
-source-wordcount: '1749'
+source-wordcount: '1759'
 ht-degree: 65%
 
 ---
@@ -153,8 +153,8 @@ ht-degree: 65%
 <tbody>
 <tr>
 <td>
-<p><!--Journey Optimizer now empowers you with the tools to optimize your journeys by leveraging AI and experimentation frameworks while ensuring seamless usability and differentiation between condition and optimization functionalities.--></p>
-<p>새로운 최적화 활동을 사용하여 타깃팅하거나, 실험하거나, AI를 사용하여 통신의 순서, 통신 사이의 시간, 채널의 조합 및 여정 캔버스에서 꿈꿀 수 있는 모든 것을 결정합니다.</p>
+<p>새로운 최적화 노드를 사용하여 특정 대상을 타깃팅하거나 A/B 테스트를 실행하여 비즈니스 중심 KPI를 충족하는 최상의 경로를 결정하십시오.</p>
+<p>이 도구를 사용하여 테스트 및 변경을 수행하고 커뮤니케이션, 시퀀스 및 타이밍을 사용자 정의하여 고객에게 가장 효과적으로 다가갈 수 있습니다.</p>
 <p>이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.</p>
 <p><!--img src="assets/do-not-localize/optimize.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
