@@ -2,13 +2,13 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 오케스트레이션된 캠페인 시작하기
-description: 오케스트레이션된 캠페인으로 시작하는 방법 알아보기
-short-description: 오케스트레이션된 캠페인 주요 기능 및 사용 사례를 살펴보십시오.
+description: 오케스트레이션된 캠페인을 시작하는 방법 알아보기
+short-description: 오케스트레이션된 캠페인 주요 기능 및 사용 사례 살펴보기
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 source-git-commit: 4510cfde1579fbabe7deb1289f70f13ee21a3d4a
 workflow-type: tm+mt
 source-wordcount: '619'
-ht-degree: 30%
+ht-degree: 38%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 30%
 
 >[!IMPORTANT]
 >
->Campaign Orchestration에 액세스하려면 라이선스에 **Journey Optimizer - 캠페인 및 여정** 또는 **Journey Optimizer - 캠페인** 패키지가 포함되어야 합니다. 필요한 경우 Adobe 담당자에게 문의하여 라이선스를 확인하고 업데이트하십시오.
+>캠페인 오케스트레이션에 액세스하려면 라이선스에 **Journey Optimizer - 캠페인 및 여정** 또는 **Journey Optimizer - 캠페인** 패키지가 포함되어야 합니다. 필요한 경우 Adobe 담당자에게 문의하여 라이선스를 확인하고 업데이트하십시오.
 
 크로스 채널 마케팅은 필수적이지만 오케스트레이션된 캠페인을 통해 원활하게 이루어집니다. 드래그하여 놓는 시각적 인터페이스를 통해 세그먼테이션에서 메시지 게재에 이르기까지 여러 채널에 걸쳐 복잡한 마케팅 워크플로를 디자인하고 자동화할 수 있습니다. 속도, 제어 및 효율성을 위해 구축된 하나의 직관적인 환경에서 모든 작업이 수행됩니다.
 
