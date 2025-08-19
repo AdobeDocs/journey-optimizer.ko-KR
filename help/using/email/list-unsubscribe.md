@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 설정, 이메일, 구성
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '1371'
-ht-degree: 100%
+source-git-commit: 56fae76fe83871875464203c01ea070ff1dbc173
+workflow-type: tm+mt
+source-wordcount: '1458'
+ht-degree: 93%
 
 ---
 
@@ -124,11 +124,17 @@ Adobe 외부에서 동의를 관리하는 경우 **[!UICONTROL 고객 관리]** 
 >**[!UICONTROL 고객 관리]**&#x200B;옵션을 사용하는 경우 Adobe는 구독 취소 또는 동의 데이터를 저장하지 않습니다. **[!UICONTROL 고객 관리]** 옵션을 사용하면 조직은 외부 시스템을 사용하기로 선택한 것으로, 해당 외부 시스템에서 동의 데이터를 관리할 책임이 있습니다.  외부 시스템과 [!DNL Journey Optimizer] 간에 동의 데이터의 자동 동기화는 이루어지지 않습니다. [!DNL Journey Optimizer]의 사용자 동의 데이터를 업데이트하기 위해 외부 시스템에서 가져온 동의 데이터를 동기화하려면, 조직이 동의 데이터를 [!DNL Journey Optimizer]로 다시 푸시하는 데이터 전송으로 시작해야 합니다.
 
 
-### 암호 해독 API 구성 {#configure-decrypt-api}
+### 엔드포인트에 사용자 정의 속성 추가 {#custom-attributes}
 
 **[!UICONTROL 고객 관리]** 옵션을 선택한 상태에서 사용자 정의 엔드포인트를 입력하여 캠페인이나 여정에서 사용하는 경우 [!DNL Journey Optimizer]에서는 수신자가 구독 취소 링크를 클릭할 때 일부 기본 프로필별 매개 변수를 동의 업데이트 이벤트<!--sent to the custom endpoint -->에 추가합니다.
 
-이 매개 변수는 엔드포인트에 암호화된 형태로 전송됩니다. 따라서 외부 동의 시스템에서는 [Adobe Developer](https://developer.adobe.com){target="_blank"}를 통해 특정 API를 구현하여 Adobe에서 보낸 매개 변수를 해독해야 합니다.
+사용자 지정 **[!UICONTROL 한 번 클릭으로 구독 취소 URL]**&#x200B;을 추가로 개인화하려면 동의 이벤트에도 추가할 사용자 지정 특성을 정의할 수 있습니다.
+
+이렇게 하려면 **[!UICONTROL URL 추적 매개 변수]** 섹션을 사용하십시오. 해당 섹션에서 정의하는 모든 URL 추적 매개 변수는 기본 매개 변수 외에 사용자 지정 한 번의 클릭으로 구독 취소 URL의 끝에 추가됩니다. [사용자 지정 URL 추적을 설정하는 방법 알아보기](url-tracking.md)
+
+### 암호 해독 API 구성 {#configure-decrypt-api}
+
+수신자가 사용자 지정 구독 취소 링크를 클릭하면 동의 업데이트 이벤트에 추가된 매개 변수가 암호화된 방식으로 끝점으로 전송됩니다. 따라서 외부 동의 시스템에서는 [Adobe Developer](https://developer.adobe.com){target="_blank"}를 통해 특정 API를 구현하여 Adobe에서 보낸 매개 변수를 해독해야 합니다.
 
 이 매개 변수를 검색하는 GET 호출은 사용하는 목록 구독 취소 옵션(**[!UICONTROL 원클릭 구독 취소 URL]** 또는 **[!UICONTROL Mailto(구독 취소)]**)에 따라 다릅니다.
 
