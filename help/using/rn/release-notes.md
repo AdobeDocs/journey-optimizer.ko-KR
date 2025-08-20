@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: eefc6cd7804a14e289d2f1aa3a136f3e6215852c
 workflow-type: tm+mt
 source-wordcount: '1462'
 ht-degree: 62%
@@ -68,7 +68,7 @@ ht-degree: 62%
 <li>오래 실행되는 일정 항목을 숨기거나 표시하는 새로운 설정</li>
 </ul>
 <p><img src="assets/do-not-localize/calendar.gif"/></p>
-<p>자세한 내용은 <a href="../building-journeys/journey-ui.md#journeys-calendar">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../building-journeys/journey-ui.md#calendar">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
