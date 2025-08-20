@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 229fb3d120727b51e011d8056f8d914c7968f2d0
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '2495'
+source-wordcount: '2745'
 ht-degree: 11%
 
 ---
@@ -138,7 +138,7 @@ ht-degree: 11%
 
    이메일의 경우 **[!UICONTROL 반복 그리드]** 콘텐츠 구성 요소에서만 여러 항목을 반환할 수 있습니다. 자세한 내용을 보려면 아래 섹션을 확장하십시오.
 
-+++ 이메일에 여러 결정 항목 반환
+   +++ 이메일에 여러 결정 항목 반환
 
    1. **[!UICONTROL 반복 그리드]** 구성 요소를 캔버스로 드래그하고 **[!UICONTROL 설정]** 창을 사용하여 원하는 대로 구성합니다.
 
@@ -150,7 +150,7 @@ ht-degree: 11%
 
    ![](assets/decision-policy-repeat-number.png)
 
-+++
+   +++
 
 1. **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
 
@@ -172,7 +172,7 @@ ht-degree: 11%
 
 1. 여러 개의 의사 결정 항목 및/또는 전략을 추가할 때 특정 순서로 평가된다. 시퀀스에 추가된 첫 번째 객체가 먼저 평가됩니다. 기본 시퀀스를 변경하려면 개체 및/또는 그룹을 드래그 앤 드롭하여 원하는 대로 순서를 변경합니다. 자세한 내용을 보려면 아래 섹션을 확장하십시오.
 
-   +++의사 결정 정책의 평가 순서 관리
+   +++의사 결정 정책에서 평가 순서 관리
 
    정책에 결정 항목 및 선택 전략을 추가한 후에는 해당 순서를 정렬하여 평가 순서를 결정하고 선택 전략을 결합하여 함께 평가할 수 있습니다.
 
@@ -314,7 +314,7 @@ ht-degree: 11%
 >[!NOTE]
 >
 >결정 정책 항목 추적의 경우 결정 정책 콘텐츠에 대해 `trackingToken` 특성을 다음과 같이 추가해야 합니다.
->&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 1. 각 폴더를 클릭하여 확장합니다. 원하는 위치에 마우스 커서를 놓고 추가하려는 속성 옆에 있는 + 아이콘을 클릭합니다. 코드에 원하는 수만큼 속성을 추가할 수 있습니다.
 
@@ -327,6 +327,57 @@ ht-degree: 11%
 1. 프로필 속성과 같이 개인화 편집기에서 사용할 수 있는 다른 속성을 추가할 수도 있습니다.
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
+
+### 조각 활용 {#fragments}
+
+의사 결정 정책에 조각이 포함된 의사 결정 항목이 포함되어 있는 경우 의사 결정 정책 코드에서 이러한 조각을 활용할 수 있습니다. [조각에 대해 자세히 알아보기](../content-management/fragments.md)
+
+>[!AVAILABILITY]
+>
+>이 기능은 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
+
+예를 들어 여러 모바일 디바이스 모델에 대해 서로 다른 콘텐츠를 표시하려고 한다고 가정해 보겠습니다. 해당 디바이스에 해당하는 조각을 결정 정책에서 사용 중인 결정 항목에 추가했는지 확인하십시오. [방법을 알아보세요](items.md#attributes).
+
+![](assets/item-fragments.png){width=70%}
+
+완료되면 다음 방법 중 하나를 사용할 수 있습니다.
+
+>[!BEGINTABS]
+
+>[!TAB 직접 코드 삽입]
+
+아래의 코드 블록을 의사 결정 정책 코드에 복사하여 붙여넣기만 하면 됩니다. `variable`을(를) 조각 ID로 바꾸고 `placement`을(를) 조각 참조 키로 바꿉니다.
+
+```
+{% let variable =  get(item._experience.decisioning.offeritem.contentReferencesMap, "placement").id %}
+{{fragment id = variable}}
+```
+
+>[!TAB 자세한 단계 따르기]
+
+1. **[!UICONTROL 도우미 함수]**(으)로 이동하고 조각에 대한 변수를 선언할 수 있는 코드 창에 **Let** 함수 `{% let variable = expression %} {{variable}}`을(를) 추가합니다.
+
+   ![](assets/decision-let-function.png)
+
+1. **맵** > **Get** 함수 `{%= get(map, string) %}`을(를) 사용하여 식을 빌드합니다. 맵은 결정 항목에서 참조된 조각이며 문자열은 **[!UICONTROL 조각 참조 키]**(으)로 결정 항목에 입력한 장치 모델일 수 있습니다.
+
+   ![](assets/decision-map-function.png)
+
+1. 이 디바이스 모델 ID가 포함된 상황별 속성을 사용할 수도 있습니다.
+
+   ![](assets/decision-contextual-attribute.png)
+
+1. 조각에 대해 선택한 변수를 조각 ID로 추가합니다.
+
+   ![](assets/decision-fragment-id.png)
+
+>[!ENDTABS]
+
+결정 항목의 **[!UICONTROL 조각]** 섹션에서 조각 ID와 참조 키가 선택됩니다.
+
+>[!WARNING]
+>
+>조각 키가 올바르지 않거나 조각 컨텐츠가 유효하지 않은 경우 렌더링이 실패하여 Edge 호출에 오류가 발생합니다.
 
 ## 최종 단계 {#final-steps}
 

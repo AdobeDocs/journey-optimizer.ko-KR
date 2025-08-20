@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d6f74566-c913-4727-83b9-473a798a0158
-source-git-commit: 604af3a0ac9febb62f2e2b1705e2751b2c476e04
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '471'
 ht-degree: 2%
 
 ---
@@ -39,6 +39,16 @@ Journey Optimizer으로 Twilio를 구성하려면 Twilio에 사용되는 새 API
 1. **[!UICONTROL API 자격 증명]** 메뉴에서 bin 아이콘을 클릭하여 API 자격 증명을 삭제합니다.
 
 1. 기존 자격 증명을 수정하려면 원하는 API 자격 증명을 찾은 다음 **[!UICONTROL 편집]** 옵션을 클릭하여 필요한 변경을 수행합니다.
+
+1. 기존 API 자격 증명에서 **[!UICONTROL SMS 연결 확인]**&#x200B;을 클릭하여 샘플 메시지를 지정된 장치로 보내 SMS API 자격 증명을 테스트하고 확인합니다.
+
+1. **숫자** 및 **메시지** 필드를 입력하고 **[!UICONTROL 연결 확인]**&#x200B;을 클릭합니다.
+
+   >[!IMPORTANT]
+   >
+   >공급자의 페이로드 형식에 맞게 메시지를 구조화해야 합니다.
+
+   ![](assets/verify-connection.png)
 
 API 자격 증명을 만들고 구성한 후에는 SMS 및 MMS 메시지에 대한 채널 구성을 만들어야 합니다. [자세히 알아보기](sms-configuration-surface.md)
 

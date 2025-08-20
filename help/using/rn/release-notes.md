@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6aac4c8aac9d1a7dbb3056b2e274927203ab6553
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '1759'
-ht-degree: 65%
+source-wordcount: '1462'
+ht-degree: 62%
 
 ---
 
@@ -23,14 +23,9 @@ ht-degree: 65%
 [!DNL Adobe Journey Optimizer]은(는) 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 모든 변경 사항은 매달 마지막 주 여기 있는 릴리스 정보에 통합됩니다. [!DNL Adobe Journey Optimizer]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko){target="_blank"}를 참조하십시오.
 
 
-## 2025년 8월 사전 릴리스 정보 {#25-8-rn}
-
-**아래 사전 릴리스 정보는 릴리스 공개 당일까지 사전 통지 없이 변경될 수 있습니다**. 링크, 화면 및 업데이트된 설명서는 릴리스 날짜에 게시됩니다.
-
-[Adobe Experience Platform 사전 릴리스 정보](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}도 참조하십시오.
+## 2025년 8월 릴리스 정보 {#25-8-rn}
 
 **릴리스 일자**: 2025년 8월 19일
-
 
 ### 새로운 기능 {#Aug-25-8-features}
 
@@ -48,9 +43,9 @@ ht-degree: 65%
 <p>이제 여정을 일시 중단했다가 다시 시작할 수 있습니다. 이 기능을 사용하면 고객 경험을 중단하지 않고 라이브 여정을 일시적으로 중단할 수 있으므로 여정 실무자가 여정을 보다 자유롭게 제어하고 유연하게 조정할 수 있습니다. 일시 중단하면 커뮤니케이션이 전송되지 않으며 프로필은 여정이 다시 시작될 때까지 보류 상태로 유지됩니다.</p>
 <p>하나의 여정만 일시 중단했다가 다시 시작하거나, 여정 그룹에 일괄 일시 중단 및 다시 시작 작업을 수행할 수 있습니다.</p>
 <p>또한 일시 중단된 프로필에 전역 필터를 적용하여 속성에 따라 프로필을 제외할 수 있습니다.</p>
-<p><!--img src="assets/do-not-localize/PauseResume.gif"/>--></p>
+<p><img src="assets/do-not-localize/PauseResume.gif"/></p>
 <p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
-<p><!--For more information, refer to the <a href="../building-journeys/journey-pause.md">detailed documentation</a>--></p>
+<p>자세한 내용은 <a href="../building-journeys/journey-pause.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -72,8 +67,8 @@ ht-degree: 65%
 <li>시작 및 종료 날짜를 설정한 경우 초안 캠페인을 볼 수 있는 기능</li>
 <li>오래 실행되는 일정 항목을 숨기거나 표시하는 새로운 설정</li>
 </ul>
-<p><!--img src="assets/do-not-localize/calendar.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../building-journeys/journey-ui.md#journeys-calendar">detailed documentation</a>--></p>
+<p><img src="assets/do-not-localize/calendar.gif"/></p>
+<p>자세한 내용은 <a href="../building-journeys/journey-ui.md#journeys-calendar">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -102,29 +97,28 @@ ht-degree: 65%
 </tbody>
 </table-->
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>개인화에 Adobe Experience Platform 데이터 사용</strong><br/></th>
+<th><strong>Use Adobe Experience Platform data for personalization</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>개인화 편집기에서 [!DNL Adobe Experience Platform]의 데이터를 활용하여 콘텐츠와 의사 결정 특성을 개인화합니다. 특히, 속성을 한 번에 하나씩 수동으로 업데이트할 필요 없이 주기적으로 변경되는 벌크 업데이트에 대해 데이터 세트의 추가 데이터로 속성 정의를 확장할 수 있습니다.</p>
-<p>이번 릴리스에서는 다음과 같은 개선 사항이 도입되었습니다.</p>
+<p>Leverage data from [!DNL Adobe Experience Platform] in the personalization editor to personalize your content and decision attributes. In particular, this allows you to extend the definition of your attributes to additional data in datasets for bulk updates that change periodically without having to manually update the attributes one at a time.</p>
+<p>With this release, the following enhancements have been introduced:</p>
 <ul>
-<li>인바운드 채널 지원</li>
-<li>이제 “datasetLookup” 도우미 함수를 표현식 및 시각적 조각 내에서 사용하여 Adobe Experience Platform 데이터 세트의 데이터로 콘텐츠 개인화 가능</li>
-<li>데이터 세트에 추가된 옵션으로 API 호출을 수행하지 않고도 조회 개인화를 위한 데이터 세트 활성화 가능</li>
+<li>Support of inbound channels,</li>
+<li>The "datasetLookup" helper function can now be used within expression and visual fragments to personalize content using data from Adobe Experience Platform datasets,</li>
+<li>An option in the dataset now allows you to enable datasets for lookup personalization, without having to perform an API call.</li>
 </ul>
-<p>이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<p>This capability is available in Limited Availability. Contact your Adobe representative to gain access.</p>
+<p>For more information, refer to the <a href="../personalization/aep-data-perso.md">detailed documentation</a></p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <!--table>
 <thead>
@@ -144,48 +138,50 @@ ht-degree: 65%
 </tbody>
 </table-->
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>여정 경로 최적화</strong><br/></th>
+<th><strong>Journey path optimization</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>새로운 최적화 노드를 사용하여 특정 대상을 타깃팅하거나 A/B 테스트를 실행하여 비즈니스 중심 KPI를 충족하는 최상의 경로를 결정하십시오.</p>
-<p>이 도구를 사용하여 테스트 및 변경을 수행하고 커뮤니케이션, 시퀀스 및 타이밍을 사용자 정의하여 고객에게 가장 효과적으로 다가갈 수 있습니다.</p>
-<p>이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.</p>
-<p><!--img src="assets/do-not-localize/optimize.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<p>Use the new Optimize node to target specific audiences or run A/B tests to determine the best path to meet your business-centric KPIs.</p>
+<p>This tool allows you to test and vary, and customize communications, sequencing, and timing to best reach your customers.</p>
+<p>This capability is available in Limited Availability. Contact your Adobe representative to gain access.</p>
+<p><img src="assets/do-not-localize/optimize.gif"/></p>
+<p>For more information, refer to the detailed documentation</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>여정의 액션 활동</strong><br/></th>
+<th><strong>Action activity in journeys</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer은 단일 작업과 다중 작업 인바운드 작업 그룹을 모두 구성할 수 있는 새로운 일반 작업 활동을 지원하므로 여정 캔버스 내에서 간소화된 작업 구성을 사용할 수 있습니다. 특히 이 새로운 기능을 통해 다음과 같은 작업을 수행할 수 있습니다.</p>
+<p>Journey Optimizer supports a new generic Action activity that enables you to configure both single actions and multi-action inbound action groups, allowing for streamlined action configuration within the journey canvas. In particular, this new feature allows for:</p>
 <ul>
-<li>여정 캔버스 내의 간소화된 기본 작업 구성입니다.</li>
-<li>다중 작업 인바운드 노드를 만들 수 있는 용량입니다.</li>
-<li>모든 기본 제공 채널 작업에 최적화를 추가하는 기능.</li>
-<li>모든 작업에 실험과 다국어 옵션을 모두 추가하는 기능.</li>
+<li>A simplified native action configuration within the journey canvas.</li>
+<li>The capacity to create multi-action inbound nodes.</li>
+<li>The ability to add optimization to any built-in channel action.</li>
+<li>The ability to add both experimentation and multi-lingual options to any action.</li>
 </ul>
-<p>이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.</p>
-<p><!--img src="assets/do-not-localize/pdf-attachments.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<p>This capability is available in Limited Availability. Contact your Adobe representative to gain access.</p>
+<p><img src="assets/do-not-localize/action-activity.gif"/></p>
+<p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
 </td>
 </tr>
 </tbody>
 </table>
+-->
 
 <table>
 <thead>
@@ -203,32 +199,33 @@ ht-degree: 65%
 <li>추가 크기나 볼륨의 경우 첨부 파일 팩 추가 기능을 구입할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.</li>
 </ul>
 <p>이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
+<p>자세한 내용은 <a href="../email/pdf-attachments.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>랜딩 페이지 사용자 정의 양식</strong><br/></th>
+<th><strong>Landing page custom forms</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 [!DNL Journey Optimizer]을(를) 사용하여 랜딩 페이지를 통해 프로필 속성을 캡처할 수 있습니다.</p>
-<p>특정 데이터 세트를 기반으로 사용자 요구에 맞는 맞춤형 양식을 만들고 디자인하고 관리합니다. 그런 다음 랜딩 페이지에서 이러한 양식을 활용하여 선택한 프로필 속성을 각 양식에 대해 정의된 데이터 세트에 추가할 수 있습니다.</p>
-<p>이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.</p>
-<p><!--This capability is currently in beta version and only available to beta customers. To join the beta program, contact your Adobe representative.--></p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<p>With [!DNL Journey Optimizer], you can now capture profile attributes though your landing pages.</p>
+<p>Create, design and manage custom forms tailored to your needs based on a specific dataset. You can then leverage these forms in landing pages to add the profile attributes of your choice into the dataset defined for each form.</p>
+<p>This capability is currently in beta version and only available to beta customers. To join the beta program, contact your Adobe representative.</p>
+<p><img src="assets/do-not-localize/forms.gif"/></p>
+<p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
 </td>
 </tr>
 </tbody>
 </table>
+-->
 
 <table>
 <thead>
@@ -239,18 +236,18 @@ ht-degree: 65%
 <tbody>
 <tr>
 <td>
-<p>이제 Journey Optimizer는 캠페인 대상에 개인화되고 최적화된 콘텐츠를 전달할 수 있는 도구를 제공함으로써 콘텐츠 실험을 실행하고, 규칙 기반 타기팅을 만들고, 두 방법의 고급 조합을 사용하여 캠페인의 효과를 극대화할 수 있습니다.</p>
+<p>이제 Journey Optimizer은 대상자에게 개인화되고 최적화된 콘텐츠를 전달하는 도구를 제공하므로 콘텐츠 실험을 실행하고, 규칙 기반 타기팅을 만들고, 두 가지 방법의 고급 조합을 사용하여 캠페인의 효과를 극대화할 수 있습니다<!-- and journeys-->.</p>
 <p>최적화를 사용하면 다음을 할 수 있습니다.</p>
 <ul>
 <li>여러 콘텐츠 변형을 테스트하여 가장 효과적인 메시징을 식별합니다.</li>
 <li>사용자 특성 및 컨텍스트 데이터를 기반으로 개인화된 콘텐츠를 제공합니다.</li>
-<li>고급 캠페인 전략에 대한 타겟팅과 실험을 결합합니다.</li>
+<li>고급 전략에 대한 타깃팅과 실험을 결합합니다.</li>
 <li>변형 기준과 일치하지 않는 사용자를 필터링합니다.</li>
 <li>사용자 참여를 유지하기 위한 대체 메커니즘을 확인하십시오.</li>
 </ul>
-<P>캠페인이 라이브되면 정의된 기준에 따라 프로필이 평가되고, 일치하는 기준을 기반으로 캠페인의 적절한 경험 또는 콘텐츠와 함께 전달됩니다.</p>
+<P>여정 <!--/campaign is live-->이(가) 정의된 기준에 따라 프로필을 평가하고 일치하는 기준에 따라 적절한 경험 또는 콘텐츠와 함께 전달됩니다.</p>
 <p><img src="assets/do-not-localize/campaign-optimization.gif"/></p>
-<p>릴리스 일자: 2025년 8월 8일</p>
+<p><!--Previously released on August 8 in campaigns only, this capacity is now also available in journeys starting from August 19.-->사용 가능한 날짜: 2025년 8월 8일 토요일</p>
 <p>자세한 내용은 <a href="../campaigns/campaigns-message-optimization.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
@@ -263,11 +260,11 @@ ht-degree: 65%
 
 * **관리**
 
-   * **채널 구성 모니터링 경고** - 이제 <!--a channel configuration failure happens or if -->DNS 레코드가 누락된 경우 시스템 경고를 전자 메일 또는 Journey Optimizer 알림 센터에서 수신하도록 구독할 수 있습니다.
+   * **채널 구성 모니터링 경고** - 이제 <!--a channel configuration failure happens or if -->DNS 레코드가 누락된 경우 시스템 경고를 전자 메일 또는 Journey Optimizer 알림 센터에서 수신하도록 구독할 수 있습니다. [자세히 보기](../reports/alerts.md#alert-dns-record-missing)
 
 * **캠페인**
 
-   * **아웃바운드 캠페인의 비율 제어** - 이제 아웃바운드 캠페인(이메일, SMS, 푸시 알림)에 대한 비율 제어를 사용하도록 설정하여 랜딩 페이지나 고객 지원 플랫폼과 같은 다운스트림 시스템에서 오버로드를 방지할 수 있습니다.
+   * **아웃바운드 캠페인의 비율 제어** - 이제 아웃바운드 캠페인(이메일, SMS, 푸시 알림)에 대한 비율 제어를 사용하도록 설정하여 랜딩 페이지나 고객 지원 플랫폼과 같은 다운스트림 시스템에서 오버로드를 방지할 수 있습니다. [자세히 보기](../campaigns/campaign-schedule.md#rate-control)
 
    * **작업 캠페인 예약** - 캠페인 일별, 주별 및 월별 일정을 업데이트하여 반복 일정을 보다 자세히 제어할 수 있습니다.
 
@@ -279,29 +276,35 @@ ht-degree: 65%
 
    * **예약된 트랜잭션 액션 캠페인** - 이제 예약된 트랜잭션 액션 캠페인으로 이메일, SMS, 푸시 채널을 통해 대상자 기반 배치 트랜잭션 커뮤니케이션을 보낼 수 있습니다.
 
+* **채널 - 콘텐츠 카드**
+
+   * **콘텐츠 카드 레이아웃 템플릿** - 이제 콘텐츠 카드 채널은 작성 환경을 간소화하는 OOTB 메시지 레이아웃을 제공합니다. 이 릴리스에는 작은 이미지, 큰 이미지 및 이미지 전용 레이아웃 템플릿이 포함됩니다.
+
 * **채널 - 푸시**
 
    * **푸시 알림 만료일** - 이제 각 푸시 알림에 대해 만료일을 지정할 수 있습니다. 이 기능으로 시간에 민감한 메시지(예: 블랙 프라이데이 세일)가 특정 날짜 이후에 전송되지 않도록 설정해 고객에게 좋지 않은 경험을 전하는 것을 방지할 수 있습니다.
 
 * **채널 - SMS**
 
-   * **퍼지 옵트아웃** - **퍼지 옵트아웃** 옵션을 활성화하면 정의된 옵트아웃 키워드(예: &#39;CANCIL&#39;)와 유사한 인바운드 메시지를 감지하고 자동으로 확인 응답을 보내 사용자의 구독 취소 의도를 확인합니다. 사용자가 정의된 프롬프트를 통해 확인하는 경우 해당 사용자의 구독을 취소합니다.
+   * **퍼지 옵트아웃** - **퍼지 옵트아웃** 옵션을 활성화하면 정의된 옵트아웃 키워드(예: &#39;CANCIL&#39;)와 유사한 인바운드 메시지를 감지하고 자동으로 확인 응답을 보내 사용자의 구독 취소 의도를 확인합니다. 사용자가 정의된 프롬프트를 통해 확인하는 경우 가입을 취소합니다. [자세히 보기](../sms/sms-configuration-sinch.md)
 
-     **퍼지 옵트아웃**&#x200B;은(는) Sinch 및 Infobip에서만 사용할 수 있습니다.
+     >[!NOTE]
+     >
+     >**퍼지 옵트아웃**&#x200B;은(는) Sinch 및 Infobip에서만 사용할 수 있습니다.
 
-   * **SMS 연결 확인** - 이제 샘플 메시지를 지정된 장치로 전송하여 Adobe Journey Optimizer 내에서 SMS API 자격 증명을 쉽게 테스트하고 확인할 수 있습니다.
+   * **SMS 연결 확인** - 이제 샘플 메시지를 지정된 장치로 전송하여 Adobe Journey Optimizer 내에서 SMS API 자격 증명을 쉽게 테스트하고 확인할 수 있습니다. [자세히 보기](../sms/sms-configuration-sinch.md)
 
 * **구성**
 
-   * **동적 도메인 지원** - 이제 Journey Optimizer가 채널 구성 수준에서 사전 정의된 도메인의 URL 추적에 대한 개인화를 지원합니다.
+   * **동적 도메인 지원** - 이제 Journey Optimizer에서 Adobe에서 허용하는 사전 정의된 도메인에 대한 전체/기본 URL 개인 맞춤화를 지원합니다. 이 기능은 일부 고객에게는 제한된 가용성으로 제공됩니다. [자세히 보기](../personalization/personalization-build-expressions.md#where)
 
    * **원클릭 구독 취소 URL에 사용자 정의 특성 지원** - Journey Optimizer를 사용할 때 Adobe 외부에서 동의를 관리하는 경우 이메일 구성에서 원클릭 구독 취소 링크를 정의하여 외부 사용자 정의 엔드포인트를 설정할 수 있습니다. 수신자가 구독 취소 링크를 클릭하면 Journey Optimizer는 기본 프로필별 매개 변수 몇 가지를 동의 업데이트 이벤트에 추가합니다.
 
-     이제 원클릭 구독 취소 링크를 개인화하기 위해 동의 이벤트에도 추가될 사용자 지정 속성을 정의할 수 있습니다.
+     이제 원클릭 구독 취소 링크를 개인화하기 위해 동의 이벤트에도 추가될 사용자 지정 속성을 정의할 수 있습니다. [자세히 보기](../email/list-unsubscribe.md#custom-attributes)
 
 * **의사 결정**
 
-   * **의사 결정 항목에 조각 첨부** - 이제 Journey Optimizer에서 의사 결정 정책을 통해 코드 기반 경험 캠페인에서 활용할 수 있는 의사 결정 항목에 조각을 첨부할 수 있는 기능을 제공합니다.
+   * **의사 결정 항목에 조각 첨부** - 이제 Journey Optimizer에서 의사 결정 정책을 통해 코드 기반 경험 캠페인에서 활용할 수 있는 의사 결정 항목에 조각을 첨부할 수 있는 기능을 제공합니다. 이 기능은 일부 고객에게는 제한된 가용성으로 제공됩니다. [자세히 보기](../experience-decisioning/create-decision.md#fragments)
 
 * **여정**
 
@@ -311,7 +314,7 @@ ht-degree: 65%
 
 * **데이터 세트**
 
-   * **Experience Decisioning 개체 저장소 - 개인화된 오퍼 항목** - 이제 기본 제공 내보내기 데이터 세트가 모든 오퍼 특성 및 라이프사이클 상태를 캡처하여 완벽한 개인화 및 보고를 가능하게 합니다.
+   * **Experience Decisioning 개체 저장소 - 개인화된 오퍼 항목** - 이제 기본 제공 내보내기 데이터 세트가 모든 오퍼 특성 및 라이프사이클 상태를 캡처하여 완벽한 개인화 및 보고를 가능하게 합니다. [자세히 보기](../data/export-datasets.md)
 
 ## 캠페인 오케스트레이션
 

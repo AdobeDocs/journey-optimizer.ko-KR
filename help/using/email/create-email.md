@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 만들기, 이메일, 시작, 여정, 캠페인
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '1033'
-ht-degree: 8%
+source-wordcount: '1026'
+ht-degree: 9%
 
 ---
 
@@ -92,7 +92,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
    >[!AVAILABILITY]
    >
-   >현재 Adobe Healthcare Shield 또는 Privacy and Security Shield 추가 기능 서비스를 구입한 조직에서는 이메일의 의사 결정 정책을 만들 수 없습니다.
+   >현재 이메일의 의사 결정 정책 생성은 제한된 가용성에서 사용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.
 
 1. **[!UICONTROL 헤더]** 섹션에서 **[!UICONTROL 이름에서]**, **[!UICONTROL 전자 메일에서]** 및 **[!UICONTROL BCC]** 필드를 확인하십시오. 선택한 이메일 구성에서 구성됩니다. [자세히 알아보기](email-settings.md) <!--check if same for journey-->
 

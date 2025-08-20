@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 채널, 표면, 기술, 매개변수, optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '1800'
+source-wordcount: '1804'
 ht-degree: 12%
 
 ---
@@ -141,9 +141,11 @@ ht-degree: 12%
 * **[!UICONTROL 실패]**: 채널 구성을 확인하는 동안 하나 이상의 검사를 수행하지 못했습니다.
 * **[!UICONTROL 비활성화됨]**: 채널 구성이 비활성화되었습니다. 새 메시지를 만드는 데 사용할 수 없습니다.
 
+### 채널 구성 실패 이유 {#channel-config-failure}
+
 채널 구성 만들기에 실패한 경우 각 가능한 실패 이유에 대한 자세한 내용은 아래에 설명되어 있습니다.
 
-이러한 오류 중 하나가 발생하면 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}에 연락하여 도움을 받으십시오.
+이러한 오류 중 하나가 발생하면 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}에 문의하여 지원을 받으십시오.
 
 * **SPF 유효성 검사 실패**: SPF(Sender Policy Framework)는 지정된 하위 도메인에서 전자 메일을 보낼 수 있는 승인된 IP를 지정할 수 있는 전자 메일 인증 프로토콜입니다. SPF 유효성 검사 실패는 SPF 레코드의 IP 주소가 사서함 공급자에게 전자 메일을 보내는 데 사용되는 IP 주소와 일치하지 않음을 의미합니다.
 

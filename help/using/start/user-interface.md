@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 08408b987e5894912e357e78cacdb54bfb78a6a1
-workflow-type: ht
-source-wordcount: '1681'
-ht-degree: 100%
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+workflow-type: tm+mt
+source-wordcount: '1750'
+ht-degree: 94%
 
 ---
 
@@ -179,15 +179,19 @@ ht-degree: 100%
 ![](assets/do-not-localize/Context-help.gif)
 
 
-## 제품 내 경고
+## 제품 내 알림 {#in-product-notifications}
 
-Journey Optimizer 제품 릴리스에 대한 **이메일 및 제품 내 경고**&#x200B;를 구독할 수 있습니다.
+**제품 내 및 전자 메일 경고**&#x200B;에서 시스템, 승인 요청 및/또는 [!DNL Journey Optimizer] 제품 릴리스에서 감지된 오류와 같은 몇 가지 이벤트에 대한 알림을 받을 수 있습니다.
 
-구독하려면
+이러한 알림을 활성화하려면 아래 단계를 따르십시오.
 
-1. **Adobe Experience Cloud 환경 설정**&#x200B;으로 이동하십시오.
-1. **알림**&#x200B;에서 **Journey Optimizer 새 릴리스**&#x200B;를 찾습니다.
-1. 인앱 및 이메일 알림 활성화
+1. [!DNL Adobe Experience Cloud] **[!UICONTROL 환경 설정]**(으)로 이동합니다.
+1. **[!UICONTROL 알림]**&#x200B;에서 **[!UICONTROL Journey Optimizer]**&#x200B;을(를) 찾습니다.
+1. 필요에 따라 인앱 및/또는 이메일 알림 활성화:
+
+   * **[!UICONTROL 경고]**: 오류가 발생하면 구독한 경고에 대한 시스템 알림을 받을 수 있습니다. [자세히 알아보기](../reports/alerts.md)
+   * **[!UICONTROL 승인]**: 다른 사용자가 개체를 승인하거나 개체에 대한 액세스를 요청하면 알림을 받습니다.
+   * **[!UICONTROL 새로운 릴리스]**: 새로운 [!DNL Journey Optimizer] 제품 릴리스에 대한 정보를 받았습니다.
 
 ![](../rn/assets/do-not-localize/pulse-notif.png){width="70%" align="left"}
 
@@ -253,7 +257,7 @@ AI 어시스턴트에 액세스하려면 상단 표시줄에 있는 아이콘을
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_2"
 >title="다중 엔터티 데이터 활용"
->abstract="오케스트레이션된 캠페인이 관계형 데이터 세트를 활용하여 세분화 및 개인화를 위해 데이터를 강화하는 방법에 대해 알아보기"
+>abstract="오케스트레이션된 캠페인이 관계형 데이터 세트를 활용하여 세분화 및 개인화를 위해 데이터를 보강하는 방법에 대해 알아보기"
 
 
 
@@ -274,7 +278,7 @@ AI 어시스턴트에 액세스하려면 상단 표시줄에 있는 아이콘을
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_jo_camppaign_ovv_1"
->title="캠페인을 만들고 보내기 위한 안내식 UI"
+>title="캠페인을 만들고 보내기 위한 안내형 UI"
 >abstract="채널을 사용하여 액션을 하나 또는 여러 개 설정하고, 대상자를 선택하고, 콘텐츠를 설정하고, 일정을 정의하면 전송할 준비가 완료됩니다."
 
 

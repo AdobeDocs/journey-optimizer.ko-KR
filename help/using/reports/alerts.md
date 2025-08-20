@@ -8,46 +8,98 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: da2fb137a8af82a8487638dc3d762377dd5dc506
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 0%
+source-wordcount: '977'
+ht-degree: 1%
 
 ---
 
 # 시스템 경고 액세스 및 구독 {#alerts}
 
-여정 및 캠페인을 작성할 때 실행 또는 게시하기 전에 **경고** 단추를 사용하여 오류를 확인하고 해결하십시오. [이 페이지](../building-journeys/troubleshooting.md)에서 여정 문제를 해결하는 방법을 알아보세요. [이 페이지](../campaigns/review-activate-campaign.md)에서 캠페인을 검토하는 방법을 알아보세요.
+여정 및 캠페인을 작성할 때 실행 또는 게시하기 전에 **경고** 단추를 사용하여 오류를 확인하고 해결하십시오.
 
-이 페이지에 자세히 설명된 대로 Adobe Journey Optimizer 시스템 경고에 가입할 수도 있습니다.
+* [이 페이지](../building-journeys/troubleshooting.md)에서 여정 문제를 해결하는 방법을 알아보세요.
+* [이 페이지](../campaigns/review-activate-campaign.md)에서 캠페인을 검토하는 방법을 알아보세요.
 
-## 경고 액세스 및 구독 {#alerting-capabilities}
+전용 **[!UICONTROL 경고]** 메뉴에서 이 페이지에 설명된 대로 [!DNL Adobe Journey Optimizer] 시스템 경고를 구독할 수도 있습니다.
 
-오류가 발생하면 Journey Optimizer 알림 센터에서 시스템 경고(인앱 경고)를 받거나 이메일을 받을 수 있습니다.
+## 경고 액세스 {#access-alerts}
 
-**경고** 메뉴에서 사용 가능한 경고를 보고 구독할 수 있습니다. 작업의 특정 조건 세트에 도달하면(예: 시스템이 임계값을 위반한 경우 발생할 수 있는 문제) 경고 메시지가 이를 구독한 조직의 모든 사용자에게 전달됩니다.
+오류가 발생하면 Journey Optimizer 알림 센터에서 시스템 경고(인앱 경고)를 받거나 이메일을 받을 수 있습니다. 이러한 경고에 액세스하려면 아래 단계를 따르십시오.
 
 <!--These messages can repeat over a pre-defined time interval until the alert has been resolved.-->
 
-[Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=ko){target="_blank"}에서 Adobe Experience Platform의 경고에 대해 자세히 알아보세요.
+>[!NOTE]
+>
+>[Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=ko){target="_blank"}에서 Adobe Experience Platform의 경고에 대해 자세히 알아보세요.
 
-왼쪽 메뉴에서 **관리** 아래의 **경고**&#x200B;를 클릭합니다. Journey Optimizer에 대해 미리 구성된 두 개의 경고([여정 지정 작업 실패](#alert-custom-actions) 경고 및 [대상자 트리거 읽기 실패](#alert-read-audiences) 경고)를 사용할 수 있습니다. 이러한 경고는 아래에 자세히 설명되어 있습니다.
+왼쪽 메뉴에서 **[!UICONTROL 관리]** 아래의 **[!UICONTROL 경고]**&#x200B;를 클릭합니다. Journey Optimizer에 대해 사전 구성된 몇 가지 경고를 사용할 수 있습니다.
 
-**경고** 대시보드에서 **구독** 옵션을 선택하여 사용자 인터페이스에서 각 경고를 개별적으로 구독할 수 있습니다. 가입을 해지하려면 동일한 방법을 사용하십시오.
+이러한 경고는 다음과 같이 나열되며 각 경고는 아래에 자세히 설명되어 있습니다.
 
-![](assets/alert-subscribe.png)
+* 여정 관련 경고:
 
-[I/O 이벤트 알림](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=ko){target="_blank"}을 통해 알림을 구독할 수도 있습니다. 경고 규칙은 다른 구독 패키지로 구성됩니다. 특정 Journey Optimizer 경고에 해당하는 이벤트 구독은 아래에 자세히 설명되어 있습니다.
+   * [여정 사용자 지정 작업 실패](#alert-custom-actions) 경고
+   * [대상자 트리거 읽기 실패](#alert-read-audiences) 경고
 
-예기치 않은 동작이 발생하면 구독자에게 경고 알림이 전송됩니다. 사용자 환경 설정에 따라 경고는 이메일로 전송되거나 사용자 인터페이스의 오른쪽 상단 모서리에 있는 Journey Optimizer 알림 센터 내에서 직접 전송됩니다. 기본적으로 인앱 경고만 활성화됩니다. 전자 메일 알림을 사용하려면 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=ko#enable-email-alerts){target="_blank"}를 참조하세요.
+* 채널 구성과 관련된 경고:
+
+   * [AJO 도메인 DNS 레코드 누락](#alert-dns-record-missing) 경고
+  <!--* the [AJO channel configuration failure](#alert-channel-config-failure) alert
+   * the [AJO domain certificates renewal unsuccessful](#alert-certificates-renewal) alert-->
+
+## 경고 구독 {#subscribe-alerts}
+
+1. **[!UICONTROL 구독]** 옵션을 선택하여 사용자 인터페이스에서 각 경고를 개별적으로 구독할 수 있습니다.
+
+   ![](assets/alert-subscribe.png){width=80%}
+
+   >[!NOTE]
+   >
+   >구독은 특정 샌드박스에만 적용됩니다. 각 샌드박스에 대한 경고를 개별적으로 구독해야 합니다.
+
+1. **[!UICONTROL 구독 취소]**&#x200B;에 동일한 방법을 사용하십시오.
+
+1. [I/O 이벤트 알림](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}을 통해 알림을 구독할 수도 있습니다. 경고 규칙은 다른 구독 패키지로 구성됩니다. 특정 Journey Optimizer 경고에 해당하는 이벤트 구독은 [아래](#journey-alerts)에 자세히 설명되어 있습니다.
+
+1. 예기치 않은 동작이 발생하고/또는 작업의 특정 조건 세트에 도달하면(예: 시스템이 임계값을 위반한 경우 발생할 수 있는 문제), 경고 알림이 이를 구독한 조직의 모든 사용자에게 전달됩니다.
+
+가입자의 환경 설정에 따라 알림은 사용자 인터페이스(인앱 알림)의 오른쪽 상단 모서리에 있는 Journey Optimizer 알림 센터에서 이메일로 및/또는 직접 전송됩니다. [!DNL Adobe Experience Cloud] **[!UICONTROL 환경 설정]**&#x200B;에서 이러한 경고를 받을 방법을 선택하십시오. [자세히 알아보기](../start/user-interface.md#in-product-alerts)
+
+>[!NOTE]
+>
+>기본적으로 인앱 경고만 활성화됩니다.
+
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 경고가 해결되면 구독자에게 &quot;해결됨&quot; 알림이 전송됩니다.
+
+## 경고 관리 {#manage-alerts}
+
+경고를 관리하려면 항목을 선택하고 **[!UICONTROL 추가 작업]** 단추를 사용하십시오.
+
+![](assets/alert-more-actions.png){width=80%}
+
+기본적으로 모든 경고가 활성화됩니다. 경고를 사용하지 않으려면 **[!UICONTROL 추가 작업]** 메뉴에서 **[!UICONTROL 경고 사용 안 함]** 옵션을 선택하십시오. 이 경고의 모든 구독자는 더 이상 관련 알림을 받지 않습니다.
+
+경고를 구독한 사용자 목록을 보려면 **[!UICONTROL 경고 구독자 관리]**&#x200B;를 선택하십시오. 빈 필드를 사용하여 구독자를 더 추가합니다.
+
+![](assets/alert-subscribers.png){width=80%}
+
+가능한 경고 상태는 다음과 같습니다.
+
+* **[!UICONTROL 활성화됨]** - 경고가 활성화되었으며 현재 트리거 조건을 모니터링하고 있습니다.
+* **[!UICONTROL 사용 안 함]** - 경고가 사용하지 않도록 설정되어 있으며 현재 트리거 조건을 모니터링하고 있지 않습니다. 이 경고에 대한 알림이 수신되지 않습니다.
+* **[!UICONTROL 트리거됨]** - 경고의 트리거 조건이 현재 충족되고 있습니다.
+
+## 여정 경고 {#journey-alerts}
 
 >[!CAUTION]
 >
 >Adobe Journey Optimizer 관련 경고는 **live** 여정에 대해서만 적용됩니다. 테스트 모드의 여정에 대해서는 경고가 트리거되지 않습니다.
 
-## 여정 사용자 지정 작업 실패 {#alert-custom-actions}
+### 여정 사용자 지정 작업 실패 {#alert-custom-actions}
 
 이 경고는 사용자 지정 작업이 실패할 경우 경고합니다. 지난 5분 동안 특정 사용자 지정 작업에 대해 1% 이상의 오류가 발생한 오류가 있는 것으로 간주됩니다. 이는 30초마다 평가됩니다.
 
@@ -60,26 +112,6 @@ ht-degree: 0%
 * 또는 해당 사용자 지정 작업에 도달한 프로필이 없습니다.
 
 사용자 지정 작업 경고에 해당하는 I/O 여정 구독 이름은 **사용자 지정 작업 실패**&#x200B;입니다.
-
-## 대상자 읽기 트리거 실패 {#alert-read-audiences}
-
-이 경고는 **대상자 읽기** 활동이 예약된 실행 시간 10분 후에 어떤 프로필도 처리하지 않은 경우 경고합니다. 이 실패는 기술 문제 또는 대상이 비어 있기 때문에 발생할 수 있습니다. 이 실패가 기술적인 문제로 인해 발생한 경우 문제 유형에 따라 다시 시도가 계속 발생할 수 있습니다(예: 내보내기 작업 만들기가 실패한 경우 최대 1시간 동안 10밀리초마다 다시 시도).
-
-![](assets/alerts1.png)
-
-**대상자 읽기** 활동에 대한 경고는 반복 여정에 적용됩니다. **한 번** 또는 **가능한 한 빨리** 실행 일정이 있는 Live 여정의 **대상자 읽기** 활동은 무시됩니다.
-
-프로필이 **대상자 읽기** 노드에 들어가면 **대상자 읽기**&#x200B;에 대한 경고가 해결됩니다.
-
-**대상자 읽기 트리거 실패** 경고에 해당하는 I/O 이벤트 구독 이름은 **대상자 읽기 지연, 실패 및 오류 여정**&#x200B;입니다.
-
-## 문제 해결 {#alert-troubleshooting}
-
-**대상 읽기** 경고 문제를 해결하려면 Experience Platform 인터페이스에서 대상 수를 확인하십시오.
-
-![](assets/alert-troubleshooting-0.png)
-
-![](assets/alert-troubleshooting-1.png)
 
 **사용자 지정 작업** 경고의 문제를 해결하려면:
 
@@ -94,3 +126,101 @@ ht-degree: 0%
 * 여정 stepEvents를 확인하여 &quot;failureReason&quot;에 대한 자세한 정보를 찾으십시오.
 
 * 사용자 지정 작업 구성을 확인하고 인증이 여전히 유효한지 확인합니다. 예를 들어 Postman을 사용하여 수동 검사를 수행합니다.
+
+### 대상자 읽기 트리거 실패 {#alert-read-audiences}
+
+이 경고는 **대상자 읽기** 활동이 예약된 실행 시간 10분 후에 어떤 프로필도 처리하지 않은 경우 경고합니다. 이 실패는 기술 문제 또는 대상이 비어 있기 때문에 발생할 수 있습니다. 이 실패가 기술적인 문제로 인해 발생한 경우 문제 유형에 따라 다시 시도가 계속 발생할 수 있습니다(예: 내보내기 작업 만들기가 실패한 경우 최대 1시간 동안 10밀리초마다 다시 시도).
+
+![](assets/alerts1.png)
+
+**대상자 읽기** 활동에 대한 경고는 반복 여정에 적용됩니다. **한 번** 또는 **가능한 한 빨리** 실행 일정이 있는 Live 여정의 **대상자 읽기** 활동은 무시됩니다.
+
+프로필이 **대상자 읽기** 노드에 들어가면 **대상자 읽기**&#x200B;에 대한 경고가 해결됩니다.
+
+**대상자 읽기 트리거 실패** 경고에 해당하는 I/O 이벤트 구독 이름은 **대상자 읽기 지연, 실패 및 오류 여정**&#x200B;입니다.
+
+**대상 읽기** 경고 문제를 해결하려면 Experience Platform 인터페이스에서 대상 수를 확인하십시오.
+
+![](assets/alert-troubleshooting-0.png)
+
+![](assets/alert-troubleshooting-1.png)
+
+## 구성 경고 {#configuration-alerts}
+
+### AJO 도메인 DNS 레코드 누락 {#alert-dns-record-missing}
+
+이 경고는 적절한 전달성 구성에 필요한 중요 DNS 레코드(NS 또는 CNAME)가 누락되거나 잘못 구성된 경우 알려줍니다. 이러한 레코드가 없으면 이메일 전달성이 손상될 수 있습니다.
+
+>[!NOTE]
+>
+>* NS 레코드는 Adobe에 전체 하위 도메인을 위임하는 데 필수적입니다. [자세히 알아보기](../configuration/about-subdomain-delegation.md#full-subdomain-delegation)
+>
+>* CNAME 레코드는 CNAME 하위 도메인 설정을 지원합니다. [자세히 알아보기](../configuration/about-subdomain-delegation.md#cname-subdomain-setup)
+
+필요한 NS 또는 CNAME 레코드가 없거나 구성 표준과 일치하지 않음을 시스템에서 감지하면 **AJO 도메인 DNS 레코드 누락** 경고가 트리거됩니다.
+
+1. [ 인터페이스에서 영향을 받는 ](../configuration/delegate-subdomain.md)하위 도메인[!DNL Journey Optimizer]&#x200B;(으)로 보낼 경고를 클릭합니다.
+
+   <!--For guidance on editing delegated subdomains, see [this section](../configuration/delegate-subdomain.md).-->
+
+1. 레코드를 올바르게 설정하고 [하위 도메인을 제출](../configuration/delegate-subdomain.md#submit-subdomain) 위임하여 DNS 구성을 다시 수정하십시오.
+
+   >[!NOTE]
+   >
+   >계속하기 전에 도메인 호스팅 솔루션에 모든 레코드가 올바르게 생성되었는지 확인하십시오.
+
+1. 올바른 값을 모를 경우 영향을 받는 하위 도메인과 같은 이름으로 [!DNL Journey Optimizer]에 새 하위 도메인을 만들 수 있습니다. [새 하위 도메인을 설정하는 방법 알아보기](../configuration/delegate-subdomain.md#set-up-subdomain)
+
+변경 사항으로 문제가 해결되지 않으면 다음 날 동일한 경고가 다시 트리거됩니다.
+
+<!--The I/O event subscription name corresponding to this alert is xx. > Do we need to mention this?
+
+### AJO channel configuration failure {#alert-channel-config-failure}
+
+>[!IMPORTANT]
+>
+>This alert applies only to **email** channel configurations using the [custom subdomain](../configuration/delegate-custom-subdomain.md) delegation type. ///Other channel types (such as SMS, push, or in-app) are not covered by this alert.///
+
+This alert is triggered in case the system audit detects email channel configuration issues. These issues may include misconfigured channel settings, invalid DNS configuration, suppression list issue, IP inconsistency, or any other errors that can impact email delivery.
+
+If you receive such an alert, the resolution steps are listed below:
+
+1. Click the alert to be directed to the impacted [email channel configuration](../email/get-started-email-config.md) in the [!DNL Journey Optimizer] interface.
+
+   For guidance on editing channel configurations, see [this section](../configuration/channel-surfaces.md#edit-channel-surface).
+
+1. Review the configuration details and error messages provided. Common failure reasons include:
+
+   * SPF validation failed
+   * DKIM validation failed
+   * MX record validation failed
+   * Invalid DNS records
+
+   >[!NOTE]
+   >
+   >The possible configuration failure reasons are listed in [this section](../configuration/channel-surfaces.md).
+
+1. Resolve the issue:
+
+   * Update the channel configuration as needed.
+   * You may need to fix specific DNS issues mentioned in the alert.
+
+   >[!NOTE]
+   >
+   >As a single domain can be associated with multiple channel configurations, resolving DNS issues for one channel configuration may automatically fix related issues across several configurations.
+
+If the change does not resolve the issue, the same alert will be triggered again the next day.
+
+When resolving email configuration issues, keep in mind the best practices listed below:
+
+* Act promptly - Address configuration failures as soon as they are detected to avoid disruptions in email delivery.
+* Check all configurations - If the alert indicates multiple impacted email configurations, review and fix each of them.
+
+### AJO domain certificates renewal unsuccessful {#alert-certificates-renewal}
+
+This alert warns you if a domain certificate (CDN, tracking URL) renewal failed for a specific Journey Optimizer subdomain.-->
+
+
+
+
+

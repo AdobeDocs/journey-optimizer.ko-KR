@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: 표현식, 편집기, 정보, 시작
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '1536'
+source-wordcount: '1560'
 ht-degree: 10%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 10%
 
 ![](assets/perso_ee1.png)
 
-## 개인화를 추가할 수 있는 위치
+## 개인화를 추가할 수 있는 위치 {#where}
 
 **[!DNL Journey Optimizer]**&#x200B;개인화 추가 아이콘![ 아이콘을 사용하여 모든 필드의 ](assets/do-not-localize/add-perso-icon.svg)에 개인화를 추가할 수 있습니다. 자세한 내용을 보려면 아래 섹션을 확장하십시오.
 
@@ -44,7 +44,7 @@ ht-degree: 10%
 
 +++
 
-+++이메일 Designer
++++이메일 디자이너
 
 [전자 메일 Designer](../email/get-started-email-design.md)에서 전자 메일 콘텐츠를 편집할 때 상황별 도구 모음의 아이콘을 사용하여 텍스트 블록 및 URL에 개인화를 추가할 수 있습니다.
 
@@ -76,6 +76,18 @@ Journey Optimizer을 사용하면 메시지에서 **URL**&#x200B;을(를) 개인
 >개인화 편집기에서 개인화된 URL을 편집할 때 보안상의 이유로 도우미 함수와 대상자 멤버십이 비활성화됩니다.
 >
 >URL 내에서 사용되는 개인화 토큰에는 공백이 지원되지 않습니다.
+
+제한된 가용성에서는 Journey Optimizer이 전체/기본 URL 개인화도 지원합니다. 예:
+
+```
+<a href="{{profile.social.link}}" />
+<a href="{{profile.social.baseUrl}}/profile" />
+<a href="https://{{profile.social.baseUrl}}/profile" />
+```
+
+>[!WARNING]
+>
+>허용된 도메인 목록을 Adobe에 먼저 제공해야 합니다.
 
 +++
 

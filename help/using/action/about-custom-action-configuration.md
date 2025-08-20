@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 작업, 서드파티, 사용자 지정, 여정, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: f5baa901c4f9d1061837528007b2c3f048ecbf2a
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '1704'
-ht-degree: 20%
+source-wordcount: '1720'
+ht-degree: 19%
 
 ---
 
@@ -117,6 +117,8 @@ Journey Optimizer에서는 데이터 거버넌스 및 동의 정책을 사용자
    >
    > **DELETE** 메서드가 지원되지 않습니다. 기존 리소스를 업데이트하려면 **PUT** 메서드를 선택하십시오.
 
+1. 잠재적 리디렉션을 처리합니다(302 응답). **사용자 지정 작업**&#x200B;은(는) 요청별로 HTTP 302 리디렉션을 자동으로 따릅니다.
+
 1. 헤더 및 쿼리 매개 변수를 정의합니다.
 
    * **[!UICONTROL 헤더]** 섹션에서 **[!UICONTROL 헤더 필드 추가]**&#x200B;를 클릭하여 외부 서비스로 보낼 요청 메시지의 HTTP 헤더를 정의합니다. **[!UICONTROL Content-Type]** 및 **[!UICONTROL Charset]** 헤더 필드는 기본적으로 설정됩니다. 이러한 필드는 삭제할 수 없습니다. **[!UICONTROL 콘텐츠 형식]** 헤더만 수정할 수 있습니다. 해당 값은 JSON 형식을 준수해야 합니다. 기본값은 다음과 같습니다.
@@ -149,7 +151,7 @@ Adobe Journey Optimizer은 사용자 지정 작업에 대해 기본적으로 TLS
 
 mTLS(상호 전송 계층 보안)를 사용하여 Adobe Journey Optimizer 사용자 지정 작업에 대한 아웃바운드 연결에서 보안을 강화할 수 있습니다. mTLS는 상호 인증을 위한 종단간 보안 방법으로, 정보를 공유하는 양 당사자가 데이터를 공유하기 전에 자신이 주장하는 사람임을 보장합니다. mTLS에는 TLS와 비교하여 추가 단계가 포함되어 있으며, 이 단계에서 서버는 클라이언트의 인증서를 요청하고 마지막에 검증한다.
 
-사용자 지정 작업에서 상호 TLS(mTLS) 인증이 지원됩니다. mTLS를 활성화하기 위해 사용자 정의 작업 또는 여정에 구성을 추가할 필요는 없습니다. mTLS 활성화 엔드포인트가 감지되면 자동으로 활성화됩니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
+사용자 지정 작업에서 상호 TLS(mTLS) 인증이 지원됩니다. mTLS를 활성화하기 위해 사용자 정의 작업 또는 여정에 구성을 추가할 필요는 없습니다. mTLS 활성화 엔드포인트가 감지되면 자동으로 활성화됩니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
 
 ## 페이로드 매개 변수 정의 {#define-the-message-parameters}
 

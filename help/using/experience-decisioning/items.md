@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: b1de82a4fdba58880e21b114ec3d2b9c3c81df0c
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '1778'
+source-wordcount: '1907'
 ht-degree: 14%
 
 ---
@@ -51,6 +51,24 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
    >우선 순위는 정수 데이터 형식입니다. 정수 데이터 유형인 모든 속성에는 정수 값(소수점 없음)이 포함되어야 합니다.
 
 1. **태그** 필드를 사용하면 Adobe Experience Platform 통합 태그를 의사 결정 항목에 할당할 수 있습니다. 이를 통해 손쉽게 분류하고 검색을 개선할 수 있습니다. [태그 작업 방법 알아보기](../start/search-filter-categorize.md#tags)
+
+1. 여러 모바일 장치 모델에 대해 서로 다른 컨텐츠를 표시하려는 경우 등, 조각을 사용하여 의사 결정 항목에 여러 컨텐츠를 추가할 수 있습니다. [조각에 대해 자세히 알아보기](../content-management/fragments.md)
+
+   >[!AVAILABILITY]
+   >
+   >결정 항목의 조각은 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
+
+   **[!UICONTROL 조각]** 섹션에서 사용할 게시된 조각을 선택하고 참조 키를 할당하십시오. 그런 다음 의사 결정 정책에서 이러한 조각을 활용할 수 있습니다. [방법 알아보기](create-decision.md#fragments)
+
+   ![](assets/item-fragments.png){width=70%}
+
+   게시된 조각만 선택하고 결정 항목에 최대 6개의 조각을 추가할 수 있습니다.
+
+   >[!WARNING]
+   >
+   >현재 [식 조각](../personalization/use-expression-fragments.md)만 지원됩니다.
+   >
+   >중첩된 조각(다른 조각을 참조하는 조각)은 사용할 수 없습니다. 해당 조각을 추가하면 결정 항목의 [승인](#approve)이(가) 실패합니다.
 
 1. 사용자 지정 특성을 지정합니다(선택 사항). 사용자 정의 속성은 결정 항목에 할당할 수 있으며 필요에 맞게 조정된 특정 속성입니다. 의사 결정 항목의 카탈로그 스키마에 정의됩니다. [카탈로그 작업 방법 알아보기](catalogs.md)
 
@@ -137,14 +155,16 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
 
    ![](assets/item-capping-rules.png)
 
+<!--* Identifying how many times a given customer has been shown a decision item. 
+If a marketer wants to determine how many times a specific customer has been shown an offer, they can do that. Go to Profiles menu, Attributes tab. You'll see all counter values. The alphanumeric string is associated to the offer. To make the map, go to an item, in the URL check the last alphanumeric strings. D stands for day, w stands for week, m for month. "Ce" custom event-->
+
+## 결정 항목을 검토하고 승인합니다. {#approve}
+
 1. 결정 항목의 자격 및 최대 가용량 규칙이 정의되면 **[!UICONTROL 다음]**&#x200B;을 클릭하여 항목을 검토하고 저장합니다.
 
 1. 이제 결정 항목이 **[!UICONTROL 초안]** 상태로 목록에 나타납니다. 프로필을 표시할 준비가 되면 줄임표 버튼을 클릭하고 **[!UICONTROL 승인]**&#x200B;을 선택합니다.
 
    ![](assets/item-approve.png)
-
-<!--* Identifying how many times a given customer has been shown a decision item. 
-If a marketer wants to determine how many times a specific customer has been shown an offer, they can do that. Go to Profiles menu, Attributes tab. You'll see all counter values. The alphanumeric string is associated to the offer. To make the map, go to an item, in the URL check the last alphanumeric strings. D stands for day, w stands for week, m for month. "Ce" custom event-->
 
 ## 결정 항목 관리 {#manage}
 

@@ -8,9 +8,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Platform, Data Lake, 만들기, 레이크, 데이터 세트, 프로필
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: b27ddcc88ca4b4209c9d29974a0b0d0dbe98cc94
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '689'
 ht-degree: 13%
 
 ---
@@ -45,6 +45,7 @@ ht-degree: 13%
 | 의사 결정 개체 저장소 - 대체 오퍼 | 13개월 | 해당 사항 없음 |
 | 의사 결정 객체 저장소 - 배치 | 13개월 | 해당 사항 없음 |
 | 의사 결정 객체 저장소 - 활동 | 13개월 | 해당 사항 없음 |
+| Experience Decisioning 개체 저장소 - 개인화된 오퍼 항목 | 13개월 | 해당 사항 없음 |
 | ODE DecisionEvents - prod decisioning | 13개월 | 해당 사항 없음 |
 
 ## 자주 묻는 질문 {#faq}
@@ -63,29 +64,29 @@ ht-degree: 13%
 
 +++
 
-+++시스템 생성 데이터 세트 데이터가 [!DNL Customer Journey Analytics]&#x200B;(CJA)에 푸시된 경우 CJA의 데이터도 TTL의 영향을 받습니까?
++++시스템에서 생성한 데이터 세트 데이터가 [!DNL Customer Journey Analytics]&#x200B;(CJA)에 푸시되면 CJA의 데이터도 TTL의 영향을 받습니까?
 
 [!DNL Customer Journey Analytics]의 데이터가 Experience Platform과 계속 동기화됩니다. 따라서 시스템 생성 데이터 집합 데이터에 대한 TTL로 인해 데이터가 제거되면 [!DNL Customer Journey Analytics]의 데이터에도 영향을 줍니다.
 
 +++
 
-+++ 고객이 프로필 스토어의 [!DNL Journey Optimizer] 시스템 데이터 세트 데이터에 대한 TTL을 늘릴 수 있습니까?
++++ 고객이 프로필 스토어의 [!DNL Journey Optimizer] 시스템 데이터 세트 데이터에 대한 TTL을 늘릴 수 있습니까? 
 
 TTL 확장은 현재 지원되지 않습니다. 그러나 2025년 후반부터 이러한 확장 요청을 허용하도록 TTL 프로세스를 최적화하기 위한 작업이 계획되어 있습니다.
 
 >[!NOTE]
 >
->프로필에 저장된 데이터는 총 데이터 볼륨 권한에 속합니다. 따라서 TTL 확장으로 인한 프로필의 데이터 저장소 증가는 총 데이터 볼륨 권한에 대해 계산됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=ko){target=_blank}
+>프로필에 저장된 데이터는 총 데이터 볼륨 권한에 속합니다. 따라서 TTL 확장으로 인한 프로필의 데이터 저장소 증가는 총 데이터 볼륨 권한에 대해 계산됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html){target=&quot;_blank}
 
 +++
 
-+++고객이 데이터 레이크의 [!DNL Journey Optimizer] 시스템 데이터 세트 데이터에 대한 TTL을 늘릴 수 있습니까?
++++고객이 데이터 레이크에서 [!DNL Journey Optimizer] 시스템 데이터 세트 데이터의 TTL을 늘릴 수 있습니까? 
 
-TTL 확장은 현재 지원되지 않습니다. 고객은 대상 을 통해 데이터를 내보내 데이터를 더 오래 유지할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=ko){target=_blank}. 또한 **[!DNL Data Distiller]** 권한이 있는 고객은 파생 데이터 세트를 만들어 TTL 없이 데이터 레이크에 데이터를 저장할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=_blank}
+TTL 확장은 현재 지원되지 않습니다. 고객은 대상 을 통해 데이터를 내보내 데이터를 더 오래 유지할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target=&quot;_blank}. 또한 **[!DNL Data Distiller]** 권한이 있는 고객은 파생 데이터 세트를 만들어 TTL 없이 데이터 레이크에 데이터를 저장할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=&quot;_blank}
 
 +++
 
-+++다음 기능이 TTL의 영향을 받습니까?
++++다음 기능이 TTL의 영향을 받습니까? 
 
 * **조회 스토어**: 아니요
 * **여정 한도**: 아니요
@@ -105,7 +106,7 @@ TTL 확장은 현재 지원되지 않습니다. 고객은 대상 을 통해 데�
 
 +++
 
-+++TTL 적용에 어떤 타임스탬프가 사용됩니까(예: 채우기 사용 사례의 경우)?
++++TTL 적용에 어떤 타임스탬프가 사용됩니까(예: 채우기 사용 사례의 경우)? 
 
 이벤트 타임스탬프가 사용됩니다(즉, 수집 날짜가 아님).
 

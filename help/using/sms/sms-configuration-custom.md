@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1081'
 ht-degree: 9%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 9%
 사용자 지정 공급자를 구성하려면 아래 단계를 수행하십시오.
 
 1. [API 자격 증명 만들기](#api-credential)
-1. [Webhook 만들기](#webhook)
+1. [웹후크 만들기](#webhook)
 1. [채널 구성 만들기](sms-configuration-surface.md)
 1. [SMS 채널 작업으로 여정 또는 캠페인 만들기](create-sms.md)
 
@@ -62,7 +62,7 @@ Adobe에서 즉시 사용할 수 없는 사용자 정의 공급자(예: Sinch, I
 
    * **[!UICONTROL 공급자 URL]**: SMS 공급자의 URL을 입력하십시오.
 
-   * **인증 유형{&#x200B;1}: 인증 유형을 선택하고 [선택한 인증 방법에 따라 해당 필드를 완료](#auth-options)합니다.**
+   * **[!UICONTROL 인증 유형{&#x200B;1}: 인증 유형을 선택하고]**&#x200B;선택한 인증 방법에 따라 해당 필드를 완료[합니다.](#auth-options)
 
      ![](assets/sms-byop.png)
 
@@ -85,6 +85,16 @@ Adobe에서 즉시 사용할 수 없는 사용자 정의 공급자(예: Sinch, I
 1. 기존 자격 증명을 수정하려면 원하는 API 자격 증명을 찾은 다음 **[!UICONTROL 편집]** 옵션을 클릭하여 필요한 변경을 수행합니다.
 
    ![](assets/sms_byo_4.png)
+
+1. 기존 API 자격 증명에서 **[!UICONTROL SMS 연결 확인]**&#x200B;을 클릭하여 샘플 메시지를 지정된 장치로 보내 SMS API 자격 증명을 테스트하고 확인합니다.
+
+1. **숫자** 및 **메시지** 필드를 입력하고 **[!UICONTROL 연결 확인]**&#x200B;을 클릭합니다.
+
+   >[!IMPORTANT]
+   >
+   >공급자의 페이로드 형식에 맞게 메시지를 구조화해야 합니다.
+
+   ![](assets/verify-connection.png)
 
 API 자격 증명을 만들고 구성한 후에는 SMS 메시지에 대해 [Webhook에 대한 인바운드 설정](#webhook)을 설정해야 합니다.
 
@@ -145,7 +155,7 @@ API 자격 증명이 생성되면 JWT 인증에 필요한 필드를 작성합니
 
 >[!ENDTABS]
 
-## Webhook 만들기 {#webhook}
+## 웹후크 만들기 {#webhook}
 
 >[!BEGINSHADEBOX]
 
