@@ -48,7 +48,7 @@ ht-degree: 4%
 
    >[!NOTE]
    >
-   >메시지를 디자인할 때는 Journey Optimizer 인터페이스 내에서 Assets Essentials 저장소에 직접 액세스합니다. 포함된 [!DNL Assets Essentials] 사용자 인터페이스에 대한 자세한 내용은 [Experience Manager Assets Essentials 설명서](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=ko){target="_blank"}를 참조하세요.
+   >메시지를 디자인할 때는 Journey Optimizer 인터페이스 내에서 Assets Essentials 저장소에 직접 액세스합니다. 포함된 [!DNL Assets Essentials] 사용자 인터페이스에 대한 자세한 내용은 [Experience Manager Assets Essentials 설명서](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}를 참조하세요.
 
 1. **[!UICONTROL MIME 형식]** 섹션의 **[!UICONTROL PDF]** 필터를 사용하여 올바른 파일 형식으로 선택을 제한하십시오.
 
