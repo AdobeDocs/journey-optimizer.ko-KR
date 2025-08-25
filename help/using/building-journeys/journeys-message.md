@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 여정, 메시지, 푸시, sms, 이메일, 인앱, 웹, 콘텐츠 카드, 코드 기반 경험
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
+source-git-commit: 17ca5d47fbf20ee25c3728d85877adaccf82aea8
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '513'
 ht-degree: 18%
 
 ---
@@ -43,6 +43,7 @@ ht-degree: 18%
 
    ![](assets/journey-web-activity.png)
 
+1. **[!UICONTROL Action]** 활동을 선택하여 여러 인바운드 작업을 선택할 수도 있습니다. [자세히 알아보기](journey-action.md)
 
 1. 활동을 구성합니다. 자세한 구성 지침은 아래 링크에서 확인할 수 있습니다.
 
@@ -60,7 +61,7 @@ ht-degree: 18%
       </td>
       <td>
       <a href="../push/create-push.md">
-      <img alt="저빈도" src="../assets/do-not-localize/push.jpg">
+      <img alt="드물게" src="../assets/do-not-localize/push.jpg">
       </a>
       <div>
       <a href="../push/create-push.md"><strong>푸시 알림 만들기<strong></a>
@@ -109,7 +110,7 @@ ht-degree: 18%
       </td>
       <td>
       <a href="../code-based/create-code-based.md">
-      <img alt="저빈도" src="../assets/do-not-localize/web-design.jpg">
+      <img alt="드물게" src="../assets/do-not-localize/web-design.jpg">
       </a>
       <div>
       <a href="../code-based/create-code-based.md"><strong>코드 기반 경험 만들기<strong></a>

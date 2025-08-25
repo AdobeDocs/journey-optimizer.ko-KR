@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 17ca5d47fbf20ee25c3728d85877adaccf82aea8
 workflow-type: tm+mt
-source-wordcount: '2887'
+source-wordcount: '2886'
 ht-degree: 99%
 
 ---
@@ -81,6 +81,7 @@ ht-degree: 99%
       + [조건](using/building-journeys/condition-activity.md)
       + [대기](using/building-journeys/wait-activity.md)
       + [대상자 읽기](using/building-journeys/read-audience.md)
+      + [작업 활동](using/building-journeys/journey-action.md)
       + [기본 제공 채널 액션](using/building-journeys/journeys-message.md)
       + [사용자 정의 액션](using/building-journeys/using-custom-actions.md)
       + [콘텐츠 결정](using/building-journeys/content-decision.md)
@@ -210,7 +211,6 @@ ht-degree: 99%
       + [액션 캠페인 작업](using/campaigns/create-campaign.md)
       + [캠페인 속성 정의](using/campaigns/campaign-properties.md)
       + [캠페인 액션 구성](using/campaigns/campaign-action.md)
-      + [캠페인에서 메시지 최적화 활용](using/campaigns/campaigns-message-optimization.md)
       + [캠페인 콘텐츠 편집](using/campaigns/campaign-content.md)
       + [캠페인 대상자 정의](using/campaigns/campaign-audience.md)
       + [캠페인 예약](using/campaigns/campaign-schedule.md)
@@ -540,6 +540,7 @@ ht-degree: 99%
          + [기술 노트](/help/rp_landing_pages/technotes-landing-page.md)
          + [통계 계산 이해](using/content-management/experiment-calculations.md)
          + [실험 보고서의 통계 계산 이해](using/content-management/experiment-report-calculations.md)
+   + [메시지 최적화 활용](using/campaigns/campaigns-message-optimization.md)
 + 대상자, 프로필, ID {#audiences-profiles-identities}
    + [대상자, 프로필, ID](/help/rp_landing_pages/audiences-profiles-identities-landing-page.md)
    + 대상자 {#audiences}

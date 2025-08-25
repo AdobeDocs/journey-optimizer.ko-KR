@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 만들기, 최적화 도구, 캠페인, 표면, 메시지
 exl-id: fed96e48-2e54-4bd4-ae17-77434d1b90eb
-source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
+source-git-commit: 17ca5d47fbf20ee25c3728d85877adaccf82aea8
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 34%
+source-wordcount: '799'
+ht-degree: 35%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 34%
 
 1. **최적화 활용**
 
-   **[!UICONTROL 메시지 최적화]** 섹션을 사용하여 콘텐츠 실험을 실행하거나, 타깃팅 규칙을 활용하거나, 실험과 타깃팅을 모두 사용하는 고급 조합을 사용할 수 있습니다. 이러한 다양한 옵션과 따라야 할 단계는 이 섹션에 자세히 설명되어 있습니다. [캠페인의 최적화](campaigns-message-optimization.md).
+   **[!UICONTROL 최적화]** 섹션을 사용하여 콘텐츠 실험을 실행하거나, 타깃팅 규칙을 활용하거나, 실험과 타깃팅을 모두 사용하는 고급 조합을 사용할 수 있습니다. 이러한 다양한 옵션과 따라야 할 단계는 [이 섹션](campaigns-message-optimization.md)에 자세히 설명되어 있습니다.
 <!--
 1. **Create a content experiment**
 
@@ -49,7 +49,7 @@ ht-degree: 34%
 
 1. **다국어 콘텐츠 추가**
 
-   **[!UICONTROL 언어]** 섹션을 사용하여 캠페인 내에서 여러 언어로 콘텐츠를 만듭니다. 이렇게 하려면 **[!UICONTROL 언어 추가]** 버튼을 클릭하고 원하는 **[!UICONTROL 언어 설정]**&#x200B;을 선택합니다. 다국어 기능 설정 및 사용 방법에 대한 자세한 정보는 이 섹션에서 확인할 수 있습니다. [다국어 콘텐츠 시작](../content-management/multilingual-gs.md).
+   **[!UICONTROL 언어]** 섹션을 사용하여 캠페인 내에서 여러 언어로 콘텐츠를 만듭니다. 이렇게 하려면 **[!UICONTROL 언어 추가]** 버튼을 클릭하고 원하는 **[!UICONTROL 언어 설정]**&#x200B;을 선택합니다. 다국어 기능을 설정하고 사용하는 방법에 대한 자세한 내용은 [이 섹션](../content-management/multilingual-gs.md)을 참조하세요.
 
 선택한 통신 채널에 따라 추가 설정을 사용할 수 있습니다. 자세한 내용을 보려면 아래 섹션을 확장하십시오.
 
@@ -73,7 +73,7 @@ ht-degree: 34%
 
 +++**우선 순위 점수 할당**(웹, 인앱, 코드 기반)
 
-캠페인에 우선 순위 점수를 할당하면 빈도 상한과 같은 부과된 제한 사항이 있을 때 인바운드 및 캠페인의 우선 순위를 지정할 수 있습니다. 숫자 값(0~100)을 입력하십시오. 숫자가 높을수록 우선순위가 높다는 점에 유의하십시오. [여정 및 캠페인에 우선 순위 점수를 할당하는 방법 알아보기](../conflict-prioritization/priority-scores.md)
+캠페인에 우선 순위 점수를 할당하면 빈도 상한과 같은 부과된 제한 사항이 있을 때 인바운드 캠페인의 우선 순위를 지정할 수 있습니다. 숫자 값(0~100)을 입력하십시오. 숫자가 높을수록 우선순위가 높다는 점에 유의하십시오. [여정 및 캠페인에 우선 순위 점수를 할당하는 방법 알아보기](../conflict-prioritization/priority-scores.md)
 
 +++
 
