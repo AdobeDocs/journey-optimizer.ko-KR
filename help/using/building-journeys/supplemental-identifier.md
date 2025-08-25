@@ -1,22 +1,22 @@
 ---
-title: 여정에서 추가 식별자 사용
+title: 여정에서 보조 식별자 사용
 description: 여정에서 보조 식별자를 사용하는 방법을 알아봅니다.
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
+source-git-commit: efd39577a4836144c4ba41018e5750278e82c079
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1236'
 ht-degree: 5%
 
 ---
 
-# 여정에서 추가 식별자 사용 {#supplemental-id}
+# 여정에서 보조 식별자 사용 {#supplemental-id}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_parameters_supplemental_identifier"
 >title="추가 식별자 사용"
 >abstract="추가 식별자는 여정 실행을 위한 추가 컨텍스트를 제공하는 보조 식별자입니다. 이를 정의하려면 추가 식별자로 사용할 필드를 선택하고 이와 연결할 네임스페이스를 선택하십시오."
 
-기본적으로 여정은 **프로필 ID**&#x200B;의 컨텍스트에서 실행됩니다. 즉, 프로필이 주어진 여정에서 활성 상태인 한 다른 여정으로 다시 들어갈 수 없습니다. 이를 방지하기 위해 [!DNL Journey Optimizer]에서는 프로필 ID 외에 주문 ID, 구독 ID, 처방 ID와 같은 **보조 식별자**&#x200B;를 캡처할 수 있습니다.
+기본적으로 여정은 **프로필 ID**&#x200B;의 컨텍스트에서 실행됩니다. 즉, 프로필이 주어진 여정에서 활성 상태인 한 다른 여정으로 다시 들어갈 수 없습니다. 이를 방지하기 위해 [!DNL Journey Optimizer]에서는 프로필 ID 외에 주문 ID, 구독 ID, 처방 ID와 같은 **보조 식별자**를 캡처할 수 있습니다.
 이 예에서는 예약 ID를 보조 식별자로 추가했습니다.
 
 ![](assets/event-supplemental-id.png){width=40% zoomable}
@@ -66,6 +66,8 @@ ht-degree: 5%
 
    * 여정이 재참여가 아닌 경우 동일한 프로필 ID + 보조 ID 조합으로 여정을 다시 입력할 수 없습니다.
    * 여정이 시간 창으로 다시 들어가는 경우 정의된 시간 창 뒤에 동일한 프로필 ID + 보조 ID 조합을 다시 입력할 수 있습니다.
+
+* **DULE(Data Use Labeling and Enforcement)** - 보조 ID에 대해 DULE 유효성 검사가 수행되지 않습니다. 즉, 여정이 데이터 거버넌스 정책 위반을 찾을 때 이 속성이 고려되지 않습니다.
 
 * **다운스트림 이벤트 구성**
 
@@ -138,6 +140,10 @@ ht-degree: 5%
       >특성을 **기본 ID**(으)로 표시하지 않도록 하십시오.
 
    1. 보조 ID와 연결할 네임스페이스를 선택하십시오. 이는 비개인 식별자 네임스페이스여야 합니다.
+
+      >[!NOTE]
+      >
+      >스키마에 비개인 ID 네임스페이스를 적용한 후 보조 식별자를 사용하려면 새 이벤트(여정에서 트리거된 여정의 경우) 또는 새 필드 그룹(대상 그룹 읽기의 경우)을 만들어야 합니다. 새 식별자를 인식하기 위해 기존 엔티티를 새로 고칠 수 없습니다.
 
 <!--1. **Add the supplemental ID field to the data source**
 
@@ -244,4 +250,4 @@ ht-degree: 5%
 
 [!DNL Adobe Journey Optimizer]에서 보조 식별자를 활성화하고 적용하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464799?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
