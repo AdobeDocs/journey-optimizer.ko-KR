@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f59ee0ce2ad53717672d06519ce38141b69d4d90
+source-git-commit: c19c0df82ade193984710f6c2bdae6acd55a6fb5
 workflow-type: tm+mt
-source-wordcount: '1492'
-ht-degree: 75%
+source-wordcount: '1672'
+ht-degree: 73%
 
 ---
 
@@ -157,31 +157,29 @@ ht-degree: 75%
 </tbody>
 </table-->
 
-<!--
 <table>
 <thead>
 <tr>
-<th><strong>Action activity in journeys</strong><br/></th>
+<th><strong>여정의 액션 활동</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer supports a new generic Action activity that enables you to configure both single actions and multi-action inbound action groups, allowing for streamlined action configuration within the journey canvas. In particular, this new feature allows for:</p>
+<p>Journey Optimizer가 단일 액션과 여러 액션이 있는 인바운드 액션 그룹을 모두 구성할 수 있는 포괄적 액션 활동을 새롭게 지원하여 여정 캔버스 내 액션 구성을 간소화할 수 있습니다. 특히 이 새로운 기능에는 다음과 같은 이점이 있습니다.</p>
 <ul>
-<li>A simplified native action configuration within the journey canvas.</li>
-<li>The capacity to create multi-action inbound nodes.</li>
-<li>The ability to add optimization to any built-in channel action.</li>
-<li>The ability to add both experimentation and multi-lingual options to any action.</li>
+<li>여정 캔버스 내 기본 액션 구성 간소화.</li>
+<li>여러 작업 인바운드 작업 그룹을 만들 수 있는 용량입니다.</li>
+<li>모든 기본 제공 채널 액션에 최적화를 더하는 기능.</li>
+<li>모든 액션에 실험과 다국어 옵션을 모두 추가하는 기능.</li>
 </ul>
-<p>This capability is available in Limited Availability. Contact your Adobe representative to gain access.</p>
+<p>이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.</p>
 <p><img src="assets/do-not-localize/action-activity.gif"/></p>
-<p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
+<p>자세한 내용은 <a href="../building-journeys/journey-action.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
 </table>
--->
 
 <table>
 <thead>
@@ -236,7 +234,7 @@ ht-degree: 75%
 <tbody>
 <tr>
 <td>
-<p>이제 Journey Optimizer은 대상자에게 개인화되고 최적화된 콘텐츠를 전달하는 도구를 제공하므로 콘텐츠 실험을 실행하고, 규칙 기반 타기팅을 만들고, 두 가지 방법의 고급 조합을 사용하여 캠페인의 효과를 극대화할 수 있습니다<!-- and journeys-->.</p>
+<p>이제 Journey Optimizer은 대상자에게 개인화되고 최적화된 콘텐츠를 전달하는 도구를 제공하므로 콘텐츠 실험을 실행하고, 규칙 기반 타기팅을 만들고, 두 방법의 고급 조합을 사용하여 캠페인과 여정의 효과를 극대화할 수 있습니다.</p>
 <p>최적화를 사용하면 다음을 할 수 있습니다.</p>
 <ul>
 <li>여러 콘텐츠 변형을 테스트하여 가장 효과적인 메시징을 식별합니다.</li>
@@ -245,9 +243,9 @@ ht-degree: 75%
 <li>변형 기준과 일치하지 않는 사용자를 필터링합니다.</li>
 <li>사용자 참여를 유지하기 위한 대체 메커니즘을 확인하십시오.</li>
 </ul>
-<P>여정 <!--/campaign is live-->이(가) 정의된 기준에 따라 프로필을 평가하고 일치하는 기준에 따라 적절한 경험 또는 콘텐츠와 함께 전달됩니다.</p>
+<P>여정 또는 캠페인이 라이브되면 정의된 기준에 따라 프로필이 평가되고, 일치하는 기준을 기반으로 적절한 경험 또는 콘텐츠와 함께 전달됩니다.</p>
 <p><img src="assets/do-not-localize/campaign-optimization.gif"/></p>
-<p><!--Previously released on August 8 in campaigns only, this capacity is now also available in journeys starting from August 19.-->사용 가능한 날짜: 2025년 8월 8일 토요일</p>
+<p>이전에 캠페인에서만 8월 8일에 릴리스된 이 용량은 이제 8월 22일부터 여정에서도 사용할 수 있습니다.</p>
 <p>자세한 내용은 <a href="../campaigns/campaigns-message-optimization.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
@@ -302,6 +300,12 @@ ht-degree: 75%
 
      이제 원클릭 구독 취소 링크를 개인화하기 위해 동의 이벤트에도 추가될 사용자 지정 속성을 정의할 수 있습니다. [자세히 보기](../email/list-unsubscribe.md#custom-attributes)
 
+* **데이터 세트**
+
+   * **Experience Decisioning 개체 저장소 - 개인화된 오퍼 항목** - 이제 기본 제공 내보내기 데이터 세트가 모든 오퍼 특성 및 라이프사이클 상태를 캡처하여 완벽한 개인화 및 보고를 가능하게 합니다. [자세히 보기](../data/export-datasets.md)
+
+   * 일관성을 개선하고 변경 내용을 추적하여 오퍼 항목을 보다 안정적으로 제공하기 위해 `etag` 필드를 통해 버전 검사를 도입했습니다.
+
 * **의사 결정**
 
    * **의사 결정 항목에 조각 첨부** - 이제 Journey Optimizer에서 의사 결정 정책을 통해 코드 기반 경험 캠페인에서 활용할 수 있는 의사 결정 항목에 조각을 첨부할 수 있는 기능을 제공합니다. 이 기능은 일부 고객에게는 제한된 가용성으로 제공됩니다. [자세히 보기](../experience-decisioning/create-decision.md#fragments)
@@ -312,11 +316,7 @@ ht-degree: 75%
 
    * **사용자 정의 액션 리디렉션(302) 지원** - 이제 사용자 정의 액션에서 요청별로 HTTP 302 리디렉션을 처리할 수 있습니다. 이를 통해 요청을 현지화된 URL 또는 지역별 URL로 리디렉션하는 API를 여정에 통합할 수 있습니다. 리디렉션은 자동으로 수행되므로 추가 구성 없이도 정확한 콘텐츠가 전달됩니다.
 
-* **데이터 세트**
-
-   * **Experience Decisioning 개체 저장소 - 개인화된 오퍼 항목** - 이제 기본 제공 내보내기 데이터 세트가 모든 오퍼 특성 및 라이프사이클 상태를 캡처하여 완벽한 개인화 및 보고를 가능하게 합니다. [자세히 보기](../data/export-datasets.md)
-
-   * 일관성을 개선하고 변경 내용을 추적하여 오퍼 항목을 보다 안정적으로 제공하기 위해 `etag` 필드를 통해 버전 검사를 도입했습니다.
+   * **여정의 여러 인바운드 작업** - 이제 여정 오케스트레이션을 단순화하기 위해 단일 여정에서 여러 인바운드 작업을 정의할 수 있습니다. 이전에 캠페인에서 사용할 수 있었던 이 기능을 사용하면 여러 코드 기반 경험, 인앱 메시지, 콘텐츠 카드 또는 웹 작업을 동시에 다른 위치에 전달할 수 있으며 각 작업에는 특정 콘텐츠가 포함되어 있습니다. [자세히 보기](../building-journeys/journey-action.md#multi-action)
 
 ## 캠페인 오케스트레이션
 
