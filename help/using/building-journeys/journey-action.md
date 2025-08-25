@@ -1,17 +1,17 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 여정에 기본 제공 채널 작업 추가
-description: 여정에 기본 제공 채널 작업을 추가하는 방법 알아보기
+title: 작업 여정 활동 사용
+description: 일반 작업 활동을 추가하여 여정 캔버스 내에서 단일 작업 및 다중 작업 인바운드 작업 그룹을 구성하는 방법을 알아봅니다.
 feature: Journeys, Activities, Channels Activity
 topic: Content Management
 role: User
 level: Intermediate
 keywords: 여정, 메시지, 푸시, sms, 이메일, 인앱, 웹, 콘텐츠 카드, 코드 기반 경험
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
-source-git-commit: e74074702c82ede09dc311a16e0f67a84b931fa2
+source-git-commit: 6ca732dc6f784897d76dabb605e398497b2ffdd6
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '991'
 ht-degree: 21%
 
 ---
