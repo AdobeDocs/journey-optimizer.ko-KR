@@ -8,7 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 여정, 메시지, 푸시, sms, 이메일, 인앱, 웹, 콘텐츠 카드, 코드 기반 경험
-source-git-commit: 17ca5d47fbf20ee25c3728d85877adaccf82aea8
+exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
+source-git-commit: 0334d0b6d2fc9665ee1fe407502117679cf220f2
 workflow-type: tm+mt
 source-wordcount: '984'
 ht-degree: 21%
@@ -48,7 +49,7 @@ ht-degree: 21%
 
 1. 여정에서 활용할 기본 제공 채널 활동을 선택합니다.
 
-   ![](assets/journey-action-type-code-based.png)
+   ![](assets/journey-action-type-cbe.png)
 
 1. 작업에 레이블을 추가하고 **[!UICONTROL 작업 구성]**&#x200B;을(를) 선택합니다.
 
