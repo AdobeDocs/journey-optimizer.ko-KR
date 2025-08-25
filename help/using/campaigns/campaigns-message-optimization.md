@@ -2,14 +2,14 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 메시지 최적화
-description: 메시지 최적화를 활용하여 개인화되고 최적화된 마케팅 캠페인을 만들 수 있습니다.
+description: 메시지 최적화를 활용하여 개인화되고 최적화된 마케팅 여정 및 캠페인을 만들 수 있습니다.
 role: User
 level: Intermediate
 keywords: 캠페인 최적화, 실험, 타겟팅, A/B 테스트
 exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
-source-git-commit: 17ca5d47fbf20ee25c3728d85877adaccf82aea8
+source-git-commit: 270bc80cbd8cc1ebaba7449b344f32425759f66e
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1047'
 ht-degree: 6%
 
 ---
@@ -181,4 +181,4 @@ E.g. explaining how a marketer can look at the report to determine which treatme
 
 작업 또는 API 트리거 캠페인에서 메시지 최적화를 활용하는 방법을 알아봅니다. 하위 대상자를 타기팅하고, 위치별 메시지 베리에이션을 만들고, 대체 콘텐츠를 활성화하고, 단일 캠페인 내에서 여러 실험을 실행하는 방법을 알 수 있습니다. 이 튜토리얼에서는 메시지 일관성을 유지하면서 멀티채널 캠페인을 관리하는 방법도 다룹니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3470375?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)
