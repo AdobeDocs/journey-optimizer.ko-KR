@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+source-git-commit: f407c5d4c20aab50350588d89e9d7682f24f5c33
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '895'
 ht-degree: 1%
 
 ---
@@ -157,11 +157,15 @@ ht-degree: 1%
 
 * **[!UICONTROL 전환율]**: 사용자 작업(예: 클릭 수)을 발생시킨 디스플레이 백분율로, 사용자 참여를 위한 모델의 성공을 나타냅니다.
 
+>[!NOTE]
+>
+>현재 [상승도 측정](../experience-decisioning/ranking/auto-optimization-model.md#lift) 보고서는 [개인화된 최적화](../experience-decisioning/ranking/personalized-optimization-model.md) AI 모델에만 사용할 수 있습니다. 상승도 측정 보고가 필요한 경우 개인화된 최적화 모델을 대신 사용하십시오.
+
 ### 홀드아웃 및 모델 제어 트래픽에 대한 전환율 {#conversion-rate}
 
 >[!NOTE]
 >
->[AI 모델](../experience-decisioning/ranking/ai-models.md)이(가) 캠페인에 통합되는 경우에만 **[!UICONTROL 홀드아웃 및 모델 기반 트래픽에 대한 전환율]** 그래프를 사용할 수 있습니다. <!--[Learn more](../experience-decisioning/ranking/ranking-formulas.md)-->
+>**[!UICONTROL AI 모델]**&#x200B;이(가) 캠페인에 통합되는 경우에만 [홀드아웃 및 모델 기반 트래픽에 대한 전환율](../experience-decisioning/ranking/ai-models.md) 그래프를 사용할 수 있습니다. <!--[Learn more](../experience-decisioning/ranking/ranking-formulas.md)-->
 
 ![](assets/cja-decisioning-conversion.png)
 
