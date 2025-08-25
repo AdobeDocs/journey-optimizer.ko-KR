@@ -9,7 +9,7 @@ level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
 source-git-commit: d2cdafef6f2d69ea85d9d042c859a8b1e7654d7d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 100%
 
@@ -94,7 +94,7 @@ ht-degree: 100%
 
 Journey Optimizer의 주요 기능 및 가상 사용자에 대해 자세히 알아보려면 소개 비디오를 시청하십시오. 이 비디오는 사용자 인터페이스를 안내하고 역할별 워크플로를 기반으로 주요 기능을 설명합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430319?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 ## 추가 리소스
 
