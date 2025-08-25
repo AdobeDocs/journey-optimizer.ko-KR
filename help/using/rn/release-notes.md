@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 50317e37c536dc8f1a950172fda00590f8a9fa35
+source-git-commit: f59ee0ce2ad53717672d06519ce38141b69d4d90
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 76%
+source-wordcount: '1492'
+ht-degree: 75%
 
 ---
 
@@ -315,6 +315,8 @@ ht-degree: 76%
 * **데이터 세트**
 
    * **Experience Decisioning 개체 저장소 - 개인화된 오퍼 항목** - 이제 기본 제공 내보내기 데이터 세트가 모든 오퍼 특성 및 라이프사이클 상태를 캡처하여 완벽한 개인화 및 보고를 가능하게 합니다. [자세히 보기](../data/export-datasets.md)
+
+   * 일관성을 개선하고 변경 내용을 추적하여 오퍼 항목을 보다 안정적으로 제공하기 위해 `etag` 필드를 통해 버전 검사를 도입했습니다.
 
 ## 캠페인 오케스트레이션
 
