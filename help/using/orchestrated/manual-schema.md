@@ -4,9 +4,9 @@ product: journey optimizer
 title: 구성 단계
 description: 사용자 인터페이스를 통해 직접 관계형 스키마를 만드는 방법을 알아봅니다.
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 4f262d4cbbe2241ec8356333d9a3191081f58a6a
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '853'
 ht-degree: 3%
 
 ---
@@ -58,7 +58,7 @@ Adobe Experience Platform에서 수동으로 새 관계형 스키마를 생성�
 
 타깃팅에 사용되는 모든 스키마에는 연결된 ID 네임스페이스가 있는 `String` 유형의 ID 필드가 하나 이상 포함되어야 합니다. 이렇게 하면 Adobe Journey Optimizer의 타기팅 및 ID 해결 기능과의 호환성이 보장됩니다.
 
-+++Adobe Experience Platform에서 관계형 스키마를 생성할 때 다음 기능이 지원됩니다
++++Adobe Experience Platform에서 관계형 스키마를 생성할 때 지원되는 기능은 다음과 같습니다
 
 * **열거형**\
   ENUM 필드는 DDL 기반 및 수동 스키마 생성 모두에서 지원되므로 고정된 허용된 값 집합으로 속성을 정의할 수 있습니다.
@@ -79,7 +79,7 @@ Adobe Experience Platform에서 수동으로 새 관계형 스키마를 생성�
 
    이 예제에서는 아래 표에 설명된 특성을 **충성도 멤버십** 스키마에 추가했습니다.
 
-+++ 속성 예
+   +++ 속성 예
 
    | 속성 이름 | 데이터 유형 | 추가 속성 |
    |-|-|-|
@@ -92,7 +92,7 @@ Adobe Experience Platform에서 수동으로 새 관계형 스키마를 생성�
    | is_active | 부울 | 필수 여부 |
    | 마지막으로 수정됨 | 날짜/시간 | 필수 여부 |
 
-+++
+   +++ 
 
 1. 적절한 필드를 **[!UICONTROL 기본 키]** 및 **[!UICONTROL 버전 설명자]**(으)로 할당하십시오.
 
@@ -100,7 +100,7 @@ Adobe Experience Platform에서 수동으로 새 관계형 스키마를 생성�
 
    * 하나 이상의 기본 키
    * `datetime` 또는 `number` 유형의 `lastmodified` 필드와 같은 버전 식별자.
-   * CDC(변경 데이터 캡처) 수집의 경우, 데이터 변경 유형(예: 삽입, 업데이트, 삭제)을 나타내고 증분 처리를 가능하게 하는 `_change_request_type` 유형의 이름이 `String`인 특수 열입니다.
+   * CDC(변경 데이터 캡처) 수집의 경우, 데이터 변경 유형(예: 삽입, 업데이트, 삭제)을 나타내고 증분 처리를 가능하게 하는 `_change_request_type` 유형의 이름이 `String`인 특수 열입니다. `_change_request_type`은(는) 테이블 스키마에 포함되지 않아야 하며 수집 중에 데이터 파일에만 추가되어야 합니다.
 
    ![](assets/schema_manual_2.png){zoomable="yes"}
 

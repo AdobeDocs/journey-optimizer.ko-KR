@@ -4,7 +4,7 @@ product: journey optimizer
 title: 조정된 캠페인 보호 및 제한 사항
 description: 오케스트레이션된 캠페인 보호 및 제한 사항에 대해 알아봅니다
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
-source-git-commit: a4f3dce91af978bdff2de5beb8b1472f7704bdf2
+source-git-commit: 4f262d4cbbe2241ec8356333d9a3191081f58a6a
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 1%
@@ -36,7 +36,7 @@ ht-degree: 1%
 
 * 모든 수집은 **데이터 캡처 변경** 원본을 통해 수행되어야 합니다.
 
-   * **파일 기반**&#x200B;의 경우 `change_type` 필드가 필요합니다.
+   * **파일 기반**&#x200B;의 경우 `_change_request_type` 필드가 필요합니다.
 
    * **클라우드 기반**&#x200B;의 경우: 테이블 로깅을 사용하도록 설정해야 합니다.
 
