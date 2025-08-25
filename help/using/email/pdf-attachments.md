@@ -8,10 +8,11 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 이메일, 메시지, 첨부 파일, pdf, 편집기
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+exl-id: 71e218d0-5b3b-4db5-8b7b-d08df8f088c4
+source-git-commit: 2e394ea4ba6f3a46df997d48331cbe6ea09f0eb5
 workflow-type: tm+mt
 source-wordcount: '353'
-ht-degree: 4%
+ht-degree: 24%
 
 ---
 
@@ -20,7 +21,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_pdf_attachments"
 >title="PDF 첨부 추가"
->abstract="이메일에 첨부할 PDF 파일을 찾아 선택합니다.</br>프로필당 연간 최대 6개의 메시지를 PDF 첨부 파일로 보낼 수 있습니다. 각 첨부 파일의 최대 허용 파일 크기는 5MB입니다.</br>추가 크기 또는 볼륨의 경우 첨부 파일 팩 추가 기능을 구입할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오."
+>abstract="이메일에 첨부할 PDF 파일을 찾아 선택합니다.</br>프로필당 연간 최대 6개의 메시지를 PDF 첨부 파일로 보낼 수 있습니다. 각 첨부 파일의 최대 크기는 5MB입니다.</br>추가 크기 또는 볼륨의 경우 첨부 파일 팩 추가 기능을 구입할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오."
 
 >[!AVAILABILITY]
 >
@@ -30,11 +31,11 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->* 프로필당 연간 최대 6개의 PDF 첨부 파일을 사용하여 메시지를 보낼 수 있습니다.
+>* 매년 프로필별로 최대 6개의 PDF 첨부 파일을 사용하여 메시지를 보낼 수 있습니다.
 >
->* 각 첨부 파일의 최대 허용 파일 크기는 5MB입니다.
+>* 각 첨부 파일의 최대 크기는 5MB입니다.
 >
->추가 크기나 볼륨의 경우 첨부 파일 팩 추가 기능을 구입할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
+>크기나 볼륨이 더 필요하다면 첨부 파일 팩 추가 기능을 구매할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
 이메일 메시지에 PDF 파일을 첨부하려면 아래 단계를 따르십시오.
 
@@ -48,7 +49,7 @@ ht-degree: 4%
 
    >[!NOTE]
    >
-   >메시지를 디자인할 때는 Journey Optimizer 인터페이스 내에서 Assets Essentials 저장소에 직접 액세스합니다. 포함된 [!DNL Assets Essentials] 사용자 인터페이스에 대한 자세한 내용은 [Experience Manager Assets Essentials 설명서](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=ko){target="_blank"}를 참조하세요.
+   >메시지를 디자인할 때는 Journey Optimizer 인터페이스 내에서 Assets Essentials 저장소에 직접 액세스합니다. 포함된 [!DNL Assets Essentials] 사용자 인터페이스에 대한 자세한 내용은 [Experience Manager Assets Essentials 설명서](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}를 참조하세요.
 
 1. **[!UICONTROL MIME 형식]** 섹션의 **[!UICONTROL PDF]** 필터를 사용하여 올바른 파일 형식으로 선택을 제한하십시오.
 
@@ -61,7 +62,7 @@ ht-degree: 4%
 1. 선택한 파일을 선택합니다.
 
    * 한 번에 하나의 파일만 선택할 수 있습니다.
-   * 각 첨부 파일의 최대 허용 파일 크기는 5MB입니다.
+   * 각 첨부 파일의 최대 크기는 5MB입니다.
 
 1. 완료되면 선택한 파일의 이름과 크기가 **[!UICONTROL 첨부 파일]** 섹션에 표시됩니다.
 
