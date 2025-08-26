@@ -12,7 +12,7 @@ ht-degree: 74%
 ---
 
 
-# 대상자 작성 {#build-audience}
+# 대상자 빌드 {#build-audience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_build_audience"
