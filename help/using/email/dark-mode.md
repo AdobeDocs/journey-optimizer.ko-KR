@@ -15,7 +15,7 @@ exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
 source-git-commit: 23684c906d11c7f54eb28cac7c2697964e723a2e
 workflow-type: tm+mt
 source-wordcount: '1677'
-ht-degree: 10%
+ht-degree: 13%
 
 ---
 
@@ -28,8 +28,8 @@ ht-degree: 10%
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode_image"
->title="다크 모드용 이미지 사용"
->abstract="다크 모드가 켜져 있을 때 표시될 다른 이미지를 선택할 수 있습니다. <br>주의: 다크 모드용 이미지를 추가할 경우 모든 이메일 클라이언트에서의 올바른 렌더링을 보장하지는 않습니다. 모든 이메일 클라이언트가 사용자 정의 다크 모드를 지원하지는 않습니다."
+>title="다크 모드용 특정 이미지 사용"
+>abstract="다크 모드가 켜져 있을 때 표시될 다른 이미지를 선택할 수 있습니다. <br>주의: 다크 모드용 특정 이미지를 추가해도 모든 이메일 클라이언트에서의 올바른 렌더링을 보장하지는 않습니다. 모든 이메일 클라이언트가 사용자 정의 다크 모드를 지원하지는 않습니다."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode_preview"
@@ -46,7 +46,7 @@ ht-degree: 10%
 >
 >다크 모드 최종 렌더링은 수신자의 이메일 클라이언트에 따라 다릅니다.
 >
->모든 이메일 클라이언트가 사용자 지정 다크 모드를 지원하는 것은 아닙니다. <!--[See the list](#non-supporting-email-clients)-->또한 일부 전자 메일 클라이언트는 받은 모든 전자 메일에 대해 자신의 기본 어두운 모드만 적용합니다. 이 경우 이메일 Designer에서 정의한 사용자 지정 설정을 렌더링할 수 없습니다.
+>모든 이메일 클라이언트가 사용자 정의 다크모드를 지원하지는 않습니다. <!--[See the list](#non-supporting-email-clients)-->또한 일부 전자 메일 클라이언트는 받은 모든 전자 메일에 대해 자신의 기본 어두운 모드만 적용합니다. 이 경우 이메일 Designer에서 정의한 사용자 지정 설정을 렌더링할 수 없습니다.
 
 다크 모드를 지원하는 전자 메일 클라이언트 목록이 [이 섹션](#supporting-email-clients)에 표시됩니다.
 
@@ -72,7 +72,7 @@ ht-degree: 10%
 
 * 다른 전자 메일 클라이언트는 `@media (prefers-color-scheme: dark)` 메서드를 사용하는 경우와 같이 사용자 지정 다크 모드를 렌더링할 수 있는 옵션을 제공합니다. 이 경우 이메일 Designer에서 정의하는 특정 설정이 표시됩니다. [이 섹션](#define-custom-dark-mode)의 전자 메일 Designer에서 사용자 지정 다크 모드 설정을 정의하는 방법을 알아보세요.
 
-## 이메일 Designer의 다크 모드 {#dark-mode-email-designer}
+## 이메일 디자이너의 다크 모드 {#dark-mode-email-designer}
 
 이메일 Designer의 다크 모드와 관련하여 두 가지 측면을 고려해야 합니다.
 
@@ -131,7 +131,7 @@ Here you can see that we have applied a different background, defined another im
 
 >[!WARNING]
 >
->모든 이메일 클라이언트가 다크 모드를 지원하는 것은 아닙니다. 또한 일부 이메일 클라이언트는 수신되는 모든 이메일에 대해 자신의 기본 다크 모드만 적용합니다. 두 경우 모두 이메일 Designer에서 정의한 사용자 지정 설정을 렌더링할 수 없습니다.
+>모든 이메일 클라이언트가 다크 모드를 지원하는 것은 아닙니다. 또한 일부 이메일 클라이언트는 수신되는 모든 이메일에 대해 자신의 기본 다크모드만 적용합니다. 두 경우 모두 이메일 디자이너에서 정의한 사용자 지정 설정을 렌더링할 수 없습니다.
 
 이메일 Designer 사용자 지정 다크 모드 스타일을 활용하기 위해 Journey Optimizer에서는 <!-- `@media (prefers-color-scheme: dark)` method-->을(를) 사용합니다. `@media (prefers-color-scheme: dark)` CSS 쿼리로, 사용자의 전자 메일 클라이언트가 어두운 모드로 설정되어 있는지 검색하고 전자 메일에 정의된 어두운 테마 디자인을 적용합니다.
 

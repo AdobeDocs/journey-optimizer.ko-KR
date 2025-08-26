@@ -15,7 +15,7 @@ keywords: 메시지, 빈도, 규칙, 압력
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
-source-wordcount: '1267'
+source-wordcount: '1266'
 ht-degree: 14%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_message_frequency_rules"
 >title="비즈니스 규칙"
->abstract="메시지 빈도 규칙은 사용자가 메시지를 수신하거나 하나 또는 여러 채널에서 여정에 참여하는 횟수를 제한하는 비즈니스 규칙 유형입니다. 이러한 크로스 채널 규칙은 메시지와 작업에서 과도하게 요청된 프로필을 자동으로 제외합니다."
+>abstract="메시지 빈도 규칙은 사용자가 하나 이상의 채널을 통해 메시지를 수신하거나 여정에 진입하는 횟수를 제한하는 유형의 비즈니스 규칙입니다. 이러한 크로스 채널 규칙은 과도하게 요청된 프로필을 메시지와 액션에서 자동으로 제외합니다. "
 
 [!DNL Journey Optimizer]을(를) 통해 사용자가 메시지를 받거나 하나 또는 여러 채널에서 여정을 입력하는 빈도를 제어할 수 있습니다. 메시지 및 작업에서 과도하게 요청된 프로필을 자동으로 제외하는 메시지 빈도 규칙입니다.
 
@@ -134,7 +134,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->일일 빈도 제한 규칙의 정확도를 보장하려면 [스트리밍 세분화](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=ko){target="_blank"}를 사용하는 것이 좋습니다. [이 섹션](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)에서 대상 평가 방법에 대해 자세히 알아보세요.
+>일일 빈도 제한 규칙의 정확도를 보장하려면 [스트리밍 세분화](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"}를 사용하는 것이 좋습니다. [이 섹션](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)에서 대상 평가 방법에 대해 자세히 알아보세요.
 
 ## 비즈니스 규칙 활성화 {#activate-rule}
 
@@ -239,4 +239,4 @@ Create a direct mail and select the **[!UICONTROL Marketing]** category for that
 
 비즈니스 규칙을 만들고, 활성화하고, 테스트하고, 보고하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3411125?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/344451?quality=12)
