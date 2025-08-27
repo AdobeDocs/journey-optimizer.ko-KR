@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 keywords: 캠페인 최적화, 실험, 타겟팅, A/B 테스트
 exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
-source-git-commit: 270bc80cbd8cc1ebaba7449b344f32425759f66e
+source-git-commit: a770cbc1736e7add7e25f2cc8210d81bd8b2e375
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1045'
 ht-degree: 6%
 
 ---
@@ -113,7 +113,7 @@ ht-degree: 6%
    >
    >여정에 있는 경우 **[!UICONTROL 작업]** 활동을 추가하고 채널 활동을 선택한 다음 **[!UICONTROL 작업 구성]**&#x200B;을 선택하십시오. [자세히 알아보기](../building-journeys/journey-action.md#add-action)
 
-1. **[!UICONTROL 작업]** 탭에서 [코드 기반 경험](../code-based/get-started-code-based.md) 및 [인앱](../../rp_landing_pages/in-app-landing-page.md)과 같은 두 개 이상의 인바운드 작업을 선택하십시오.
+1. **[!UICONTROL 작업]** 탭에서 두 개의 인바운드 작업을 선택합니다. 예를 들어 [코드 기반 경험](../code-based/get-started-code-based.md) 및 [인앱](../../rp_landing_pages/in-app-landing-page.md)을 선택합니다.
 
 1. **[!UICONTROL 최적화]** 섹션에서 **[!UICONTROL 실험 만들기]**&#x200B;를 선택합니다.
 
@@ -181,4 +181,4 @@ E.g. explaining how a marketer can look at the report to determine which treatme
 
 작업 또는 API 트리거 캠페인에서 메시지 최적화를 활용하는 방법을 알아봅니다. 하위 대상자를 타기팅하고, 위치별 메시지 베리에이션을 만들고, 대체 콘텐츠를 활성화하고, 단일 캠페인 내에서 여러 실험을 실행하는 방법을 알 수 있습니다. 이 튜토리얼에서는 메시지 일관성을 유지하면서 멀티채널 캠페인을 관리하는 방법도 다룹니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3470375?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)

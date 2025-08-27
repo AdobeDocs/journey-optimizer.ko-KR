@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 여정, 활동, 시작하기, 이벤트, 작업
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 527a539272460aa6aa22de5bb3da2223521ee2a3
+source-git-commit: a770cbc1736e7add7e25f2cc8210d81bd8b2e375
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 15%
+source-wordcount: '690'
+ht-degree: 16%
 
 ---
 
@@ -42,11 +42,12 @@ ht-degree: 15%
 
 화면 왼쪽에 있는 팔레트에서 다음 오케스트레이션 활동을 사용할 수 있습니다.
 
-* [조건](../building-journeys/condition-activity.md)
-* [대기](../building-journeys/wait-activity.md)
-* [대상자 읽기](../building-journeys/read-audience.md)
+* [최적화](optimize.md)
+* [대상자 읽기](read-audience.md)
+* [대기](wait-activity.md)
+* [콘텐츠 결정](content-decision.md)
 
-![여정 디자이너의 오케스트레이션 활동 팔레트](assets/journey49.png)
+![여정 디자이너의 오케스트레이션 활동 팔레트](assets/journey-orchestration-activities.png)
 
 ## 작업 활동 {#action-activities}
 
@@ -55,7 +56,7 @@ ht-degree: 15%
 화면 왼쪽의 팔레트에서 **[!UICONTROL 이벤트]** 및 **[!UICONTROL 오케스트레이션]** 아래에 **[!UICONTROL 작업]** 범주가 있습니다. 다음 작업 활동을 사용할 수 있습니다.
 
 * [기본 제공 채널 액션](../building-journeys/journeys-message.md)
-* [사용자 정의 작업](../building-journeys/using-custom-actions.md)
+* [사용자 정의 액션](../building-journeys/using-custom-actions.md)
 * [점프](../building-journeys/jump.md)
 
 ![여정 디자이너의 작업 활동 팔레트](assets/journey58.png)
