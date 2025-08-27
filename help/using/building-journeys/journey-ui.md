@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 여정, 첫 번째, 시작, 빠른 시작, 대상, 이벤트, 작업
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 68cb46a45bf3fe8b8847109519889a9cf20157d3
 workflow-type: tm+mt
 source-wordcount: '1391'
 ht-degree: 11%
@@ -62,7 +62,7 @@ ht-degree: 11%
 * 시작 시간을 지정하지 않으면 가장 가까운 수동 활성화 시간이 달력에 배치됩니다.
 * 여정은 1시간 시간대로 표시되지만, 이는 실제 전송 또는 완료 시간을 반영하지 않습니다.
 
-여정 달력에서 탐색하려면:
+여정 캘린더에서 탐색하려면:
 
 1. 달력 보기에 액세스하려면 여정 목록을 열고 ![달력 아이콘](assets/do-not-localize/timeline-icon.svg) 아이콘을 클릭합니다.
 
