@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 여정, 활동, 시작하기, 이벤트, 작업
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: a770cbc1736e7add7e25f2cc8210d81bd8b2e375
+source-git-commit: 19130e9eb5a2144afccab9fa8e5632de67bc7157
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '689'
 ht-degree: 16%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 16%
 
 화면 왼쪽에 있는 팔레트에서 다음 오케스트레이션 활동을 사용할 수 있습니다.
 
-* [최적화](optimize.md)
+<!--* [Optimize](optimize.md)-->
 * [대상자 읽기](read-audience.md)
 * [대기](wait-activity.md)
 * [콘텐츠 결정](content-decision.md)

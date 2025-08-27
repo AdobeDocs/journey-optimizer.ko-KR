@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a770cbc1736e7add7e25f2cc8210d81bd8b2e375
+source-git-commit: 19130e9eb5a2144afccab9fa8e5632de67bc7157
 workflow-type: tm+mt
-source-wordcount: '1768'
-ht-degree: 73%
+source-wordcount: '1700'
+ht-degree: 72%
 
 ---
 
@@ -138,24 +138,24 @@ ht-degree: 73%
 </tbody>
 </table-->
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>여정 경로 최적화</strong><br/></th>
+<th><strong>Journey path optimization</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>새로운 최적화 노드를 사용하여 특정 대상자를 타기팅하거나 A/B 테스트를 실행하여 비즈니스 중심 KPI를 충족하는 최상의 경로를 결정합니다.</p>
-<p>이 도구를 사용하여 테스트 및 변경을 수행하고 커뮤니케이션, 시퀀스, 타이밍을 사용자 정의하여 고객에게 가장 효과적으로 다가갈 수 있습니다.</p>
-<p>이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.</p>
+<p>Use the new Optimize node to target specific audiences or run A/B tests to determine the best path to meet your business-centric KPIs.</p>
+<p>This tool allows you to test and vary, and customize communications, sequencing, and timing to best reach your customers.</p>
+<p>This capability is available in Limited Availability. Contact your Adobe representative to gain access.</p>
 <p><img src="assets/do-not-localize/optimize.gif"/></p>
-<p>자세한 내용은 <a href="../building-journeys/optimize.md">세부 설명서</a>를 참조하십시오.</p>
+<p>For more information, refer to the <a href="../building-journeys/optimize.md">detailed documentation</a></p>
 </td>
 </tr>
 </tbody>
-</table>
+</table>-->
 
 <table>
 <thead>
