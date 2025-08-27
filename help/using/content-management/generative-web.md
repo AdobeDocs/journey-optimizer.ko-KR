@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ebe2df77-4aaa-45b1-a8ce-931d4191cc67
-source-git-commit: 1f7fd3468d85852931c6a753c2363ebe5a293b33
+source-git-commit: 50933d991c6a337e6d1739652d680778759ef0d5
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1164'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
 >[!IMPORTANT]
 >
 >이 기능을 사용하기 전에 관련 [보호 및 제한 사항](gs-generative.md#generative-guardrails)을 읽어보십시오.
->&#x200B;></br>
+>></br>
 >
 >Journey Optimizer에서 AI Assistant를 사용하려면 [사용자 계약](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
@@ -55,7 +55,7 @@ Journey Optimizer의 AI 도우미는 대상자에게 반향을 일으킬 가능�
 1. **[!UICONTROL 텍스트 설정]** 옵션을 사용하여 메시지를 사용자 지정합니다.
 
    * **[!UICONTROL 커뮤니케이션 전략]**: 생성된 텍스트에 가장 적합한 커뮤니케이션 스타일을 선택합니다.
-   * **[!UICONTROL 언어]**: 스페인어, 이탈리아어, 스웨덴어 및 노르웨이어 언어 옵션은 개인 베타 버전으로 출시되며 향후 릴리스에서 모든 고객에게 점진적으로 제공될 예정입니다.
+   * **[!UICONTROL 언어]**: 생성된 콘텐츠의 언어를 선택합니다.
    * **[!UICONTROL 음색]**: 웹 페이지의 음색이 대상자에게 울려 퍼집니다. AI 어시스턴트는 유익하거나, 장난스럽거나, 설득력 있게 들리고자 하는 경우 해당 메시지를 적절하게 조정할 수 있습니다.
    * **텍스트 길이**: 슬라이더를 사용하여 원하는 텍스트 길이를 선택합니다.
 

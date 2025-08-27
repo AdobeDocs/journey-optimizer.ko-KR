@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
-source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
+source-git-commit: 50933d991c6a337e6d1739652d680778759ef0d5
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 4%
+source-wordcount: '607'
+ht-degree: 3%
 
 ---
 
@@ -110,5 +110,23 @@ ht-degree: 4%
 1. **[!UICONTROL 변형 제안]**&#x200B;을 검토하여 원하는 에셋을 찾으십시오.
 
 1. 선택한 변형을 전체 화면으로 보려면 **[!UICONTROL 미리 보기]**&#x200B;를 선택하십시오.
+
+1. 적절한 콘텐츠를 찾으면 **[!UICONTROL 선택]**&#x200B;을 클릭하세요.
+
+## 언어 간 콘텐츠 생성 {#languages}
+
+![](assets/do-not-localize/gen-ai-language.gif)
+
+1. 캠페인을 설정하고 구성했으면 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 클릭하세요.
+
+1. **[!UICONTROL AI Assistant]** 메뉴를 엽니다.
+
+1. 프랑스어, 스페인어, 독일어, 이탈리아어, 일본어, 스웨덴어, 네덜란드어 또는 노르웨이어 형식으로 **[!UICONTROL 프롬프트]** 상자에 원하는 요청을 입력하여 콘텐츠를 조정합니다.
+
+1. **[!UICONTROL 텍스트 설정]** 옵션을 사용하여 프롬프트를 구성하고 생성된 콘텐츠에 대해 원하는 **[!UICONTROL 언어]**&#x200B;를 선택하십시오.
+
+1. 필요에 따라 프롬프트를 추가로 개인화하고 **[!UICONTROL 생성]**&#x200B;을 클릭하세요.
+
+1. 선택한 언어로 **[!UICONTROL 변형 제안]**&#x200B;을 검토합니다.
 
 1. 적절한 콘텐츠를 찾으면 **[!UICONTROL 선택]**&#x200B;을 클릭하세요.

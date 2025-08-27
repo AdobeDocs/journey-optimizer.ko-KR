@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a9f9d8af-c762-4038-8bbc-bbd519e0ef3a
-source-git-commit: 1f7fd3468d85852931c6a753c2363ebe5a293b33
+source-git-commit: 50933d991c6a337e6d1739652d680778759ef0d5
 workflow-type: tm+mt
-source-wordcount: '1759'
+source-wordcount: '1725'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
 >[!IMPORTANT]
 >
 >이 기능을 사용하기 전에 관련 [보호 및 제한 사항](gs-generative.md#generative-guardrails)을 읽어보십시오.
->&#x200B;></br>
+>></br>
 >
 >Journey Optimizer에서 AI Assistant를 사용하려면 [사용자 계약](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
@@ -65,7 +65,7 @@ Journey Optimizer에서 AI Assistant를 사용하는 방법을 알려면 아래 
 1. **[!UICONTROL 텍스트 설정]** 옵션을 사용하여 메시지를 사용자 지정합니다.
 
    * **[!UICONTROL 커뮤니케이션 전략]**: 생성된 텍스트에 가장 적합한 커뮤니케이션 스타일을 선택합니다.
-   * **[!UICONTROL 언어]**: 스페인어, 이탈리아어, 스웨덴어 및 노르웨이어 언어 옵션은 개인 베타 버전으로 출시되며 향후 릴리스에서 모든 고객에게 점진적으로 제공될 예정입니다.
+   * **[!UICONTROL 언어]**: 생성된 콘텐츠의 언어를 선택합니다.
    * **[!UICONTROL 음색]**: 푸시 알림의 음색이 대상자에게 울려 퍼집니다. AI 어시스턴트는 유익하거나, 장난스럽거나, 설득력 있게 들리고자 하는 경우 해당 메시지를 적절하게 조정할 수 있습니다.
 
    ![](assets/push-genai-full-3.png){zoomable="yes"}
@@ -149,7 +149,7 @@ Journey Optimizer에서 AI Assistant를 사용하는 방법을 알려면 아래 
 1. **[!UICONTROL 텍스트 설정]** 옵션을 사용하여 메시지를 사용자 지정합니다.
 
    * **[!UICONTROL 커뮤니케이션 전략]**: 생성된 텍스트에 가장 적합한 커뮤니케이션 스타일을 선택합니다.
-   * **[!UICONTROL 언어]**: 스페인어, 이탈리아어, 스웨덴어 및 노르웨이어 언어 옵션은 개인 베타 버전으로 출시되며 향후 릴리스에서 모든 고객에게 점진적으로 제공될 예정입니다.
+   * **[!UICONTROL 언어]**: 생성된 콘텐츠의 언어를 선택합니다.
    * **[!UICONTROL 음색]**: 푸시 알림의 음색이 대상자에게 울려 퍼집니다. AI 어시스턴트는 유익하거나, 장난스럽거나, 설득력 있게 들리고자 하는 경우 해당 메시지를 적절하게 조정할 수 있습니다.
    * **[!UICONTROL 길이]**: 범위 슬라이더를 사용하여 콘텐츠의 길이를 선택합니다.
 

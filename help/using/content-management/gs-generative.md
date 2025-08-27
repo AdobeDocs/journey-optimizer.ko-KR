@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
-workflow-type: ht
-source-wordcount: '835'
+source-git-commit: 50933d991c6a337e6d1739652d680778759ef0d5
+workflow-type: tm+mt
+source-wordcount: '807'
 ht-degree: 100%
 
 ---
@@ -87,11 +87,10 @@ Adobe Journey Optimizer에서 이메일 생성을 위해 AI 어시스턴트를 �
 * Adobe Journey Optimizer의 AI 어시스턴트를 사용하여 이메일 콘텐츠를 만들 때 브랜드별 또는 사용자 정의 템플릿을 사용할 수 있습니다. 최대 8~10개의 이미지가 포함된 이메일 템플릿을 권장합니다.
 * 변형을 선택할 때 엄지손가락 위로, 엄지손가락 아래로 또는 플래그 아이콘을 사용하여 문제가 있는 출력을 보고하십시오.
 * AI 어시스턴트 사용 시 Adobe Experience Cloud 생성형 AI 사용자 지침이 적용됩니다. [자세히 알아보기](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
-* 미디어 제작에서 생성형 AI 도구 사용의 투명성을 증진하기 위한 Adobe의 약속의 일부로, Adobe는 Firefly 생성 자산이 포함된 콘텐츠 또는 프로젝트를 다운로드하거나 내보낼 때 Content Credentials를 적용합니다. [자세히 알아보기](https://helpx.adobe.com/kr/firefly/using/content-credentials.html)
+* 미디어 제작에서 생성형 AI 도구 사용의 투명성을 증진하기 위한 Adobe의 약속의 일부로, Adobe는 Firefly 생성 자산이 포함된 콘텐츠 또는 프로젝트를 다운로드하거나 내보낼 때 Content Credentials를 적용합니다. [자세히 알아보기](https://helpx.adobe.com/firefly/using/content-credentials.html)
 
 Adobe Journey Optimizer의 AI 어시스턴트에는 다음 제한 사항이 적용됩니다.
 
-* 영어로만 지원됩니다. 영어가 아닌 입력은 일관되지 않거나 잘못된 결과를 생성할 수 있습니다. 영어가 아닌 응답으로 인해 발생하는 문제는 현재로서는 해결되거나 개선되지 않습니다.
 * 이메일, 푸시, 웹 및 SMS 채널에서만 사용할 수 있습니다.
 * GenAI 콘텐츠가 항상 정확하지는 않을 수 있습니다. 엔지니어가 모델을 개선할 수 있도록 피드백을 공유해 주십시오.
 * 여러 브랜드 자산을 업로드할 수 있지만 특정 세대에 대해서는 하나의 활용할 수 있습니다.
