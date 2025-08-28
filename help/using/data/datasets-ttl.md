@@ -8,7 +8,7 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Platform, Data Lake, 만들기, 레이크, 데이터 세트, 프로필
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: fbd0280d293cef3548b48c2992b4f9f2793a7e1f
 workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 13%
@@ -76,13 +76,13 @@ TTL 확장은 현재 지원되지 않습니다. 그러나 2025년 후반부터 �
 
 >[!NOTE]
 >
->프로필에 저장된 데이터는 총 데이터 볼륨 권한에 속합니다. 따라서 TTL 확장으로 인한 프로필의 데이터 저장소 증가는 총 데이터 볼륨 권한에 대해 계산됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=ko){target=_blank}
+>프로필에 저장된 데이터는 총 데이터 볼륨 권한에 속합니다. 따라서 TTL 확장으로 인한 프로필의 데이터 저장소 증가는 총 데이터 볼륨 권한에 대해 계산됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html){target=&quot;_blank}
 
 +++
 
 +++고객이 데이터 레이크에서 [!DNL Journey Optimizer] 시스템 데이터 세트 데이터의 TTL을 늘릴 수 있습니까? 
 
-TTL 확장은 현재 지원되지 않습니다. 고객은 대상 을 통해 데이터를 내보내 데이터를 더 오래 유지할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=ko){target=_blank}. 또한 **[!DNL Data Distiller]** 권한이 있는 고객은 파생 데이터 세트를 만들어 TTL 없이 데이터 레이크에 데이터를 저장할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=_blank}
+TTL 확장은 현재 지원되지 않습니다. 고객은 대상 을 통해 데이터를 내보내 데이터를 더 오래 유지할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target=&quot;_blank}. 또한 **[!DNL Data Distiller]** 권한이 있는 고객은 파생 데이터 세트를 만들어 TTL 없이 데이터 레이크에 데이터를 저장할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=&quot;_blank}
 
 +++
 
@@ -99,7 +99,7 @@ TTL 확장은 현재 지원되지 않습니다. 고객은 대상 을 통해 데�
   >
   >TTL은 [!DNL Customer Journey Analytics]&#x200B;(CJA) 연결에 이미 구현되었으므로 영향을 받는 데이터 집합 데이터의 유효 최대 전환 확인 기간이 13개월로 줄어듭니다.
 
-* **Experience Platform 데이터 소스**: 예 - 경험 이벤트 검색은 90일 TTL의 적용을 받습니다.
+* **Experience Platform 데이터 원본**: 해당 사항 없음 - 데이터 원본을 통해 경험 이벤트 검색을 지원하지 않습니다.
 * **계산된 특성**: 예 - 초기 채우기 계산은 마지막 90일 데이터로 제한됩니다. 계산된 특성은 후속 업데이트에 대한 증분 이벤트를 기반으로 업데이트됩니다. 후속 업데이트가 전환 확인 기간(최대 6개월)에 도달하면 TTL은 기본적으로 계산된 속성에 더 이상 영향을 주지 않습니다. 추가 정보.
 * **세그먼테이션 및 재타겟팅**: 예 - 세그먼테이션은 프로필 저장소의 데이터에 따라 다르므로 영향을 받는 데이터 세트 데이터에서는 룩백을 90일로 제한합니다.
 * **추적**: 예 - 영향을 받는 데이터 세트 데이터의 유효 최대 전환 확인 기간을 90일로 줄입니다. 영향을 받는 데이터 세트의 데이터는 데이터 레이크에 13개월 동안 있습니다.
