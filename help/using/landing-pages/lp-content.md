@@ -105,7 +105,7 @@ ht-degree: 9%
 
    ![](assets/lp_designer-form-text-field.png)
 
-1. 원하는 확인란 및/또는 텍스트 필드를 모두 추가했으면 **[!UICONTROL 콜 투 액션을 클릭하여 해당 섹션을 확장합니다.]** 이를 통해 **[!UICONTROL Form]** 구성 요소에서 단추의 동작을 정의할 수 있습니다.
+1. 원하는 확인란 및/또는 텍스트 필드를 모두 추가했으면 **[!UICONTROL Call to action]**&#x200B;을 클릭하여 해당 섹션을 확장합니다. 이를 통해 **[!UICONTROL Form]** 구성 요소에서 단추의 동작을 정의할 수 있습니다.
 
    ![](assets/lp_designer-form-call-to-action.png)
 

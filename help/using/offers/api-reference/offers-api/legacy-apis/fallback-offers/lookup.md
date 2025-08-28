@@ -8,14 +8,14 @@ level: Experienced
 exl-id: e470d491-b30b-4d26-83a6-e5b34e49fe61
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '157'
 ht-degree: 3%
 
 ---
 
 # 대체 오퍼 조회 {#look-up-fallback-offers}
 
-대체 오퍼 `@id` 또는 요청 경로에 대체 오퍼의 이름이 포함된 [!DNL Offer Library] API에 대한 GET 요청을 수행하면 특정 대체 오퍼를 조회할 수 있습니다.
+대체 오퍼 [!DNL Offer Library] 또는 요청 경로에 대체 오퍼의 이름이 포함된 `@id` API에 대한 GET 요청을 수행하면 특정 대체 오퍼를 조회할 수 있습니다.
 
 **API 형식**
 
@@ -29,7 +29,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FALLBACK_
 | `{CONTAINER_ID}` | 대체 오퍼가 있는 컨테이너입니다. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_FALLBACK_OFFER}` | 대체 오퍼와 연결된 스키마를 정의합니다. | `https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1` |
 | `id` | 엔터티의 `@id` 속성과 일치하는 데 사용되는 문자열입니다. 문자열이 정확하게 일치합니다. `id` 및 `name` 매개 변수는 함께 사용할 수 없습니다. | `xcore:fallback-offer:122206064e0d98df` |
-| `name` | 엔티티의 xdm:name 속성과 일치하는 데 사용되는 문자열. 문자열은 대소문자를 사용하여 정확히 일치하지만 와일드카드 문자를 사용할 수 있습니다. `id` 및 `name` 매개 변수는 함께 사용할 수 없습니다. | `F1: Web fallback` |
+| `name` | 엔터티의 xdm:name 속성과 일치하는 데 사용되는 문자열입니다. 문자열은 대소문자를 사용하여 정확히 일치하지만 와일드카드 문자를 사용할 수 있습니다. `id` 및 `name` 매개 변수는 함께 사용할 수 없습니다. | `F1: Web fallback` |
 
 **요청**
 

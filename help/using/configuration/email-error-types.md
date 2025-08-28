@@ -10,13 +10,13 @@ level: Experienced
 keywords: 다시 시도, 바운스, 소프트, 무시됨, 하드, 최적화 프로그램, 오류
 hide: true
 hidefromtoc: true
-source-git-commit: 817f7c88bfc2b40a7ce39575b4ad02fb372d429d
+exl-id: a8908b11-2288-4d53-897c-3f99cb5ceab4
+source-git-commit: 0cb73489981659c3f231b9def40e0e483ed3aef8
 workflow-type: tm+mt
 source-wordcount: '422'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
-
 
 # 이메일 오류 유형 {#email-error-types}
 

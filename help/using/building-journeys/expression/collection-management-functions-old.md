@@ -75,7 +75,7 @@ ht-degree: 1%
 Data Source 조건 활동에서 **[!UICONTROL all]** 함수의 결과가 null인지 여부를 확인할 수 있습니다. 이 **[!UICONTROL all]** 함수를 **[!UICONTROL count]**&#x200B;와 같은 다른 함수와 결합할 수도 있습니다. 자세한 내용은 [데이터 Source 조건 활동](../condition-activity.md#data_source_condition)을 참조하세요.
 
 
-## 예시
+## 예
 
 >[!CAUTION]
 >

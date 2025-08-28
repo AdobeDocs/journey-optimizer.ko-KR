@@ -39,7 +39,7 @@ ht-degree: 20%
 
 샘플 또는 저장된 템플릿 중 하나를 사용하여 콘텐츠 작성을 시작하려면 아래 단계를 따르십시오.
 
-1. [전자 메일 **[!UICONTROL 콘텐츠 편집]** 화면에서 전자 메일 Designer에 액세스](get-started-email-design.md)합니다.
+1. [전자 메일 ](get-started-email-design.md)콘텐츠 편집&#x200B;**[!UICONTROL 화면에서 전자 메일 Designer에 액세스]**&#x200B;합니다.
 
 1. **[!UICONTROL 전자 메일 만들기]** 화면에서 기본적으로 **[!UICONTROL 샘플 템플릿]** 탭이 선택됩니다.
 

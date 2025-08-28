@@ -9,7 +9,7 @@ keywords: setHours, 함수, 표현식, 여정
 exl-id: ed78c2a9-d83a-4fac-a2e9-7383da131a1f
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '109'
 ht-degree: 9%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 9%
 
 ## 카테고리
 
-날짜
+Date
 
 ## 함수 구문
 
 `setHours(<parameter>)`
 
-## 매개 변수
+## 매개변수
 
 | 매개변수 | 유형 |
 |--- |--- |
@@ -44,7 +44,7 @@ ht-degree: 9%
 
 시간대를 고려하지 않고 날짜/시간을 반환합니다.
 
-## 예시
+## 예
 
 `setHours(toDateTime('2023-12-12T01:11:00Z'), 4)`
 
@@ -52,4 +52,4 @@ ht-degree: 9%
 
 `setHours(nowWithDelta(1, "days"), 20)`
 
-내일 오후 8시(XY)에 를 반환합니다. XY는 현재 시간 평가 시점의 분입니다. 오전 2시 45분에 평가가 이뤄지면 돌아오는 시간은 오후 8시 45분이다.
+내일 오후 8:XY에 반환합니다. XY는 현재 시간 평가 시점의 분입니다. 평가가 오전 2:45에 이루어지면 반환된 시간은 오후 8:45입니다.

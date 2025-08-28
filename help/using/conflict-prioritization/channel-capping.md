@@ -12,7 +12,7 @@ exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
 source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
 workflow-type: tm+mt
 source-wordcount: '1251'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 5%
 
      >[!AVAILABILITY]
      >
-     >이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 고객 지원 센터에 문의하여 활성화하십시오.
+     >이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 이 기능을 활성화하려면 고객 지원 센터에 문의하십시오.
 
    * **[!UICONTROL 일별]** - 일별 빈도 상한은 23:59:59 UTC까지 해당 일에 대해 유효하며 다음 날 시작 시 0으로 재설정됩니다.
    * **[!UICONTROL 주별]** - 달력 주가 일요일에 시작되기 때문에 빈도 상한은 해당 주의 토요일 23:59:59 UTC까지 유효합니다. 만료 날짜는 규칙이 만들어진 시기에 관계없이 적용됩니다. 예를 들어, 규칙이 목요일에 만들어지면 이 규칙은 토요일 23:59:59까지 유효합니다.
@@ -166,4 +166,4 @@ In this scenario, an individual profile:
 
 ## 사용 방법 비디오 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444733?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

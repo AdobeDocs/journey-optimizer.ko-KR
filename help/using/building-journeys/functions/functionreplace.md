@@ -28,7 +28,7 @@ ht-degree: 11%
 
 `replace(<parameters>)`
 
-## 매개 변수
+## 매개변수
 
 | 매개변수 | 유형 |
 |-----------|--------------|
@@ -56,7 +56,7 @@ ht-degree: 11%
 * 프로필 특성 `#{ExperiencePlatform.myFieldGroup.profile.myOffers}`에서 제공함
 * 바꿀 문자열: `|OFFER_A`
 * 문자열을 `''`(으)로 대체함
-* `|`자 앞에 `\\`을(를) 추가해야 합니다.
+* `\\`자 앞에 `|`을(를) 추가해야 합니다.
 
 표현식:
 

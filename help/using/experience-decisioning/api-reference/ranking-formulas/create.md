@@ -1,18 +1,19 @@
 ---
-title: 등급 수식 만들기
+title: 순위 공식 만들기
 description: 등급 수식 을 사용하면 항목의 등급을 매기는 데 사용되는 점수 함수를 정의할 수 있습니다.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 8fa34ebb7c853f9af5b3f58574374a3acb641dd9
+exl-id: 2eb3ca65-f9f2-4483-ac6a-7bd896b0e516
+source-git-commit: 6378c4a8cb911088c685166b9c1b29a1773d47b7
 workflow-type: tm+mt
 source-wordcount: '107'
-ht-degree: 7%
+ht-degree: 14%
 
 ---
 
-# 등급 수식 만들기 {#create-ranking-formula}
+# 순위 공식 만들기 {#create-ranking-formula}
 
 오퍼 라이브러리 API에 POST 요청을 하여 등급 공식을 만들 수 있습니다.
 

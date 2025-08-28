@@ -15,7 +15,7 @@ ht-degree: 12%
 
 # 컬렉션 수식어 만들기 {#create-tag}
 
-컨테이너 ID를 제공하는 동안 [!DNL Offer Library] API에 POST 요청을 하여 컬렉션 한정자(이전의 &quot;태그&quot;)를 만들 수 있습니다.
+컨테이너 ID를 제공하는 동안 [!DNL Offer Library] API에 대한 POST 요청을 수행하여 컬렉션 한정자(이전에 &quot;태그&quot;라고 함)를 만들 수 있습니다.
 
 ## Accept 및 Content-Type 헤더 {#accept-and-content-type-headers}
 

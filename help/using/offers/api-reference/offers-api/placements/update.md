@@ -15,7 +15,7 @@ ht-degree: 9%
 
 # 배치 업데이트 {#update-placement}
 
-[!DNL Offer Library] API에 PATCH 요청을 하여 배치를 수정하거나 업데이트할 수 있습니다.
+[!DNL Offer Library] API에 대한 PATCH 요청을 수행하여 배치를 수정하거나 업데이트할 수 있습니다.
 
 사용 가능한 작업을 포함하여 JSON 패치에 대한 자세한 내용은 공식 [JSON 패치 설명서](https://jsonpatch.com/)를 참조하세요.
 

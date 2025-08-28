@@ -4,13 +4,13 @@ description: 여정 및 캠페인을 게시하기 전에 승인을 요청하는 
 role: User
 level: Beginner
 feature: Approval
-source-git-commit: 509ebc377ac8c24db464728b7544eaa96e8e5da4
+exl-id: 75dafecd-805d-4aa2-86c6-99e6da4d378b
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 0%
 
 ---
-
 
 # 승인 요청 {#request-approval}
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
    * **캠페인**: 샌드박스의 Campaign 개체에 대해 활성화된 승인 정책이 없는 경우 캠페인에 **[!UICONTROL 활성화]** 단추가 표시되므로 승인 없이도 활성화할 수 있습니다.
 
-   * **여정**: 여정 개체에 대해 활성화된 승인 정책이 없으면 여정이 직접 게시할 수 있도록 **[!UICONTROL Publish]** 단추를 표시합니다.
+   * **여정**: 여정 개체에 대해 활성화된 승인 정책이 없으면 여정이 직접 게시할 수 있도록 **[!UICONTROL 게시]** 단추를 표시합니다.
 
 * **활성 승인 정책이 있음**
 
@@ -55,6 +55,3 @@ ht-degree: 0%
 ![](assets/changes-requested.png)
 
 변경 요청을 처리하려면 이메일 또는 경고에서 해당 여정을 열어 캠페인이나 캠페인에 액세스하고 요청된 변경 작업을 수행합니다. 여정/캠페인을 다시 검토할 준비가 되면 **[!UICONTROL 승인 요청]** 버튼을 사용하여 새 승인 요청을 보내십시오.
-
-
-

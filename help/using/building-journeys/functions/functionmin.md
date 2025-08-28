@@ -26,7 +26,7 @@ ht-degree: 7%
 
 `min(<parameters>)`
 
-## 매개 변수
+## 매개변수
 
 * listDuration
 * list정수
@@ -86,7 +86,7 @@ ht-degree: 7%
 
 정수 반환.
 
-## 예시
+## 예
 
 `min(@event{BarBeacon.inventory},5)`
 

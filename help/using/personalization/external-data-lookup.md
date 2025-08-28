@@ -12,7 +12,7 @@ exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
 source-git-commit: 5df643d2b0623d40779d155e406467d622d3d753
 workflow-type: tm+mt
 source-wordcount: '1198'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -218,4 +218,4 @@ First video description: {%=result.videos[0].description ?: "none found" %}
 
 * [!DNL Journey Optimizer]이(가) 외부 끝점 응답을 캐싱합니까?
 
-  현재는 지원되지 않습니다. 이 기능은 향후에 지원됩니다.
+  현재는 지원되지 않습니다. 향후 이 기능을 지원할 예정입니다.

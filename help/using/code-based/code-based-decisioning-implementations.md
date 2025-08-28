@@ -23,15 +23,15 @@ ht-degree: 1%
 
 Decisioning을 사용하여 [코드 기반 경험](create-code-based.md)을(를) 테스트할 때 `dryRun` 플래그를 사용하여 보고 및 최대 가용량 카운터 모두에 대한 피드백 이벤트를 억제할 수 있습니다.
 
-캠페인을 게시한 후 클라이언트 구현의 XDM 이벤트 `data` 블록에 `dryRun` 플래그를 추가하십시오.
+캠페인을 게시한 후 클라이언트 구현의 XDM 이벤트 `dryRun` 블록에 `data` 플래그를 추가하십시오.
 
     &quot;
-    &lbrace;
-    &quot;data&quot;: &lbrace;
-    &quot;__adobe&quot;: &lbrace;
-    &quot;ajo&quot;: &lbrace;
+    {
+    &quot;data&quot;: {
+    &quot;__adobe&quot;: {
+    &quot;ajo&quot;: {
     &quot;dryRun&quot;: true
-    &rbrace;
+    }
     
     
     
@@ -78,7 +78,7 @@ Konductor 요청에서 응답에 고유한 요소를 원하는 경우 중복 제
 }
 ```
 
-+++Decisioning 샘플 요청
++++의사 결정 샘플 요청
 
 ```
 curl --location 'https://edge-int.adobedc.net/ee/v1/interact?configId=2f21d344-b69f-4a4f-98e8-000282fc9552' \
@@ -137,7 +137,7 @@ curl --location 'https://edge-int.adobedc.net/ee/v1/interact?configId=2f21d344-b
 
       * 두 번째 제안에 대해 대체 결정 항목(고유함) 또는 빈 결정 항목이 전달됩니다.
 
-+++Decisioning 샘플 응답(`allowDuplicateDecisionItems` = `true`)
++++샘플 응답(`allowDuplicateDecisionItems` = `true`) 결정 중
 
 ```
 {
@@ -213,7 +213,7 @@ curl --location 'https://edge-int.adobedc.net/ee/v1/interact?configId=2f21d344-b
 
 +++
 
-+++Decisioning 샘플 응답(`allowDuplicateDecisionItems` = `false`)
++++샘플 응답(`allowDuplicateDecisionItems` = `false`) 결정 중
 
 ```
 {

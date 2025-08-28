@@ -46,7 +46,7 @@ ht-degree: 11%
 
 목록을 반환합니다.
 
-## 예시
+## 예
 
 ```json
 intersect(

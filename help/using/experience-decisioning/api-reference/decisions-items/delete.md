@@ -5,13 +5,13 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
+exl-id: 0fd608e0-df71-4e2d-8304-d7d5561c7c7a
+source-git-commit: 7bfbb88c2817d18b7897a7fe1657ebf11be6eb58
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 4%
 
 ---
-
 
 # 결정 항목 삭제 {#delete-decision-item}
 
@@ -44,4 +44,4 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/offer-items/offerItem123
 
 성공적인 응답은 HTTP 상태 200과 빈 본문을 반환합니다.
 
-결정 항목에 대한 조회(GET) 요청을 시도하여 삭제를 확인할 수 있습니다. 결정 항목이 제거되었기 때문에 HTTP 상태 404(찾을 수 없음)를 수신해야 합니다.
+의사 결정 항목에 대한 조회(GET) 요청을 시도하여 삭제를 확인할 수 있습니다. 결정 항목이 제거되었기 때문에 HTTP 상태 404(찾을 수 없음)를 수신해야 합니다.

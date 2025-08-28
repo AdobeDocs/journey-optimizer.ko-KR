@@ -17,13 +17,13 @@ ht-degree: 1%
 
 # 여정 보고서 {#journey-global-report}
 
-**여정 보고서**&#x200B;는 여정과 관련된 필수 지표에 대한 분석을 제공하는 모든 기능을 포함하는 대시보드로 작동합니다. 여기에는 입력된 프로필 수 및 실패한 개별 여정의 인스턴스 등 세부 정보가 포함되며, 이를 통해 여정의 효율성과 참여 수준에 대한 포괄적인 통찰력을 제공합니다.
+**여정 보고서**&#x200B;는 여정과 관련된 필수 지표에 대한 분석을 제공하는 모든 기능을 포함하는 대시보드로 작동합니다. 여기에는 입력된 프로필 수 및 실패한 개별 여정의 인스턴스 등 세부 정보가 포함되며, 이를 통해 여정의 효율성 및 참여 수준에 대한 포괄적인 insight을 제공합니다.
 
-**[!UICONTROL 보고서 보기]** 단추를 사용하면 여정에서 **여정 보고서**&#x200B;에 직접 액세스할 수 있습니다.
+**보고서 보기** 단추를 사용하면 여정에서 **[!UICONTROL 여정 보고서]**&#x200B;에 직접 액세스할 수 있습니다.
 
 ![](assets/gs-cja-report-3.png)
 
-Customer Journey Analytics Workspace과 데이터를 필터링하고 분석하는 방법에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/home)를 참조하세요.
+Customer Journey Analytics Workspace과 데이터를 필터링하고 분석하는 방법에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)를 참조하세요.
 
 ## 여정 개요 {#journey-global}
 
@@ -33,7 +33,7 @@ Customer Journey Analytics Workspace과 데이터를 필터링하고 분석하�
 
 ![](assets/cja-journey-kpis.png)
 
-**[!UICONTROL 여정]** 주요 성과 지표(KPI)는 모든 것을 포괄하는 대시보드로 작동하여 여정과 관련된 필수 지표에 대한 분석을 제공합니다. 여기에는 입력된 프로필 수 및 실패한 개별 여정 인스턴스 등의 세부 정보가 포함되며, 이를 통해 여정의 효율성 및 참여 수준에 대한 포괄적인 통찰력을 제공합니다.
+**[!UICONTROL 여정]** 주요 성과 지표(KPI)는 모든 것을 포괄하는 대시보드로 작동하여 여정과 관련된 필수 지표에 대한 분석을 제공합니다. 여기에는 입력된 프로필 수 및 실패한 개별 여정 인스턴스 등의 세부 정보가 포함되며, 이를 통해 여정의 효율성 및 참여 수준에 대한 포괄적인 insight을 제공할 수 있습니다.
 
 +++ 여정 KPI 지표에 대해 자세히 알아보기
 
@@ -85,7 +85,7 @@ Customer Journey Analytics Workspace과 데이터를 필터링하고 분석하�
 
 ![](assets/cja-journey-canvas.png)
 
-**[!UICONTROL 여정 캔버스]** 위젯을 사용하면 타겟팅된 프로필이 여정을 탐색할 때의 궤적을 시각적으로 추적할 수 있습니다. [Customer Journey Analytics 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)
+**[!UICONTROL 여정 캔버스]** 위젯을 사용하면 타겟팅된 프로필이 여정을 탐색할 때의 궤적을 시각적으로 추적할 수 있습니다. [Customer Journey Analytics 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)
 
 다음 옵션을 사용하여 캔버스 사용자 지정을 개선합니다.
 

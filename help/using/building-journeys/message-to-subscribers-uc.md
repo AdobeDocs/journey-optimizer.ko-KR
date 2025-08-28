@@ -20,7 +20,7 @@ ht-degree: 17%
 
 이 사용 사례의 목적은 목록 구독자에게 메시지를 보내는 여정을 만드는 것입니다.
 
-이 예제에서는 [!DNL Adobe Experience Platform]의 **[!UICONTROL 동의 및 환경 설정 세부 정보]** 필드 그룹이 사용됩니다. 이 필드 그룹을 찾으려면 **[!UICONTROL 데이터 관리]** 메뉴에서 **[!UICONTROL 스키마]**&#x200B;를 선택하십시오. **[!UICONTROL 필드 그룹]** 탭에서 검색 필드에 필드 그룹의 이름을 입력합니다.
+이 예제에서는 **[!UICONTROL 의]**&#x200B;동의 및 환경 설정 세부 정보[!DNL Adobe Experience Platform] 필드 그룹이 사용됩니다. 이 필드 그룹을 찾으려면 **[!UICONTROL 데이터 관리]** 메뉴에서 **[!UICONTROL 스키마]**&#x200B;를 선택하십시오. **[!UICONTROL 필드 그룹]** 탭에서 검색 필드에 필드 그룹의 이름을 입력합니다.
 
 ![이 필드 그룹에 구독 요소가 포함되어 있습니다](assets/consent-and-preference-details-field-group.png)
 

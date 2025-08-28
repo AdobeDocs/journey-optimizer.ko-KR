@@ -5,17 +5,17 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
+exl-id: 60b2990e-e3a6-4d4b-8851-889cf91b0eef
+source-git-commit: 7bfbb88c2817d18b7897a7fe1657ebf11be6eb58
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 5%
 
 ---
 
-
 # 항목 컬렉션 조회 {#lookup-item-collection}
 
-요청 경로에 ID가 포함된 GET 라이브러리 API에 대한 오퍼 요청을 수행하여 특정 항목 컬렉션을 조회할 수 있습니다.
+요청 경로에 ID가 포함된 오퍼 라이브러리 API에 대해 GET 요청을 수행하여 특정 항목 컬렉션을 조회할 수 있습니다.
 
 **API 형식**
 

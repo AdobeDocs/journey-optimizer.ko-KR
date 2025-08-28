@@ -11,7 +11,7 @@ exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
 source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 13%
+ht-degree: 19%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 13%
 
 ## 시작하기 전 {#fragment-prerequisites}
 
-조각을 만들고, 편집하고, 보관하고, 게시하려면 **[!DNL Manage library items]** 제품 프로필에 포함된 **[및]**&#x200B;조각 게시&#x200B;**[!DNL Content Library Manager]** 권한이 필요합니다. [자세히 알아보기](../administration/ootb-product-profiles.md#content-library-manager)
+조각을 만들고, 편집하고, 보관하고, 게시하려면 **[!DNL Content Library Manager]** 제품 프로필에 포함된 **[!DNL Manage library items]** 및 **[조각 게시]** 권한이 필요합니다. [자세히 알아보기](../administration/ootb-product-profiles.md#content-library-manager)
 
 이 버전에서는 다음 제한 사항이 적용됩니다.
 
@@ -64,4 +64,4 @@ ht-degree: 13%
 
 **에서**&#x200B;표현식 조각[!DNL Journey Optimizer]을(를) 관리, 작성 및 사용하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3438924/?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3424587/?quality=12)

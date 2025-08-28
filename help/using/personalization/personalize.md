@@ -51,7 +51,7 @@ Personalization은 Adobe Experience Platform에 정의된 **XDM 개인 프로필
 
 ![개인화 플레이그라운드](assets/playground.png)
 
-➡️ [개인화 플레이그라운드에 액세스](https://experienceleague.adobe.com/ko/apps/journey-optimizer/ajo-personalization){target="_blank"}
+➡️ [개인화 플레이그라운드에 액세스](https://experienceleague.adobe.com/en/apps/journey-optimizer/ajo-personalization){target="_blank"}
 
 ## 더 자세히 알아보기
 
@@ -97,11 +97,11 @@ Personalization은 Adobe Experience Platform에 정의된 **XDM 개인 프로필
 
 여정에서 얻은 컨텍스트 기반 이벤트 정보를 사용하여 메시지를 개인화하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448143?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
 메시지에 프로필 기반 개인 맞춤화를 추가하는 방법과 개인 맞춤화 블록의 전제 조건으로 대상자 멤버십을 사용하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416272?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)
 
 개인화 편집기 플레이그라운드를 활용하여 샘플 데이터를 사용하여 개인화 코드를 작성하고 테스트하는 방법을 알아봅니다.
 

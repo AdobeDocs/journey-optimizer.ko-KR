@@ -10,15 +10,15 @@ level: Intermediate
 keywords: 데이터, 관리, 플랫폼
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '655'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
 # 데이터 관리 시작 {#about-data}
 
-최종 고객 데이터의 풍부성과 적용 범위야말로 모든 고객 경험 솔루션의 강력함과 성공을 결정하는 요소입니다. 이 데이터는 불가침의 영역이며, 어떤 고객에게든 최고의 가치를 가지고 있습니다. 이제 기술 선택에 처음부터 데이터 관리 기능에 대한 엄격한 평가가 기본적으로 제공됩니다.
+최종 고객 데이터의 풍부성과 적용 범위야말로 모든 고객 경험 솔루션의 강력함과 성공을 결정하는 요소입니다. 이 데이터는 불가침의 영역이며, 어떤 고객에게든 최고의 가치를 가지고 있습니다. 이제 기술 선택에 처음부터 데이터 관리 기능에 대한 엄격한 평가가 기본 제공됩니다.
 
 [!DNL Adobe Journey Optimizer]에서는 이 데이터를 쉽게 관리하고 유지하며 기술 스택에 포함된 플랫폼 또는 시스템으로 내보낼 수 있습니다. 
 
@@ -65,14 +65,14 @@ ht-degree: 100%
 
 [!DNL Journey Optimizer]의 데이터 유연성을 활용하여 데이터 보존, 보관 또는 삭제와 관련된 특정 요구 사항을 충족할 수 있습니다.
 
-* **데이터 추출/내보내기**: 언제든지 데이터 액세스 API를 통해 페널티나 시간 지연 없이 소스 데이터 추출을 시작할 수 있습니다. [데이터 액세스 API](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html?lang=ko){target="_blank"}는 사용자에게 [!DNL Adobe Experience Platform] 내에서 수집된 데이터 세트의 검색 및 액세스 용이성에 중점을 둔 RESTful 인터페이스를 제공합니다. <!--In the future (on roadmap), you can use file-based destinations to export and migrate log data from Adobe Journey Optimizer. -->
+* **데이터 추출/내보내기**: 언제든지 데이터 액세스 API를 통해 페널티나 시간 지연 없이 소스 데이터 추출을 시작할 수 있습니다. [데이터 액세스 API](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html?lang=ko){target="_blank"}는 [!DNL Adobe Experience Platform] 내에서 수집된 데이터 세트의 검색 기능 및 접근성에 중점을 둔 RESTful 인터페이스를 사용자에게 제공합니다. <!--In the future (on roadmap), you can use file-based destinations to export and migrate log data from Adobe Journey Optimizer. -->
 
   단, 여정 또는 캠페인에 사용된 콘텐츠는 위에서 언급한 API 또는 대상 메서드를 통해 추출할 수 없습니다.
 
 <!--
 * **Profile Service Data Retention**: For Behavioral and Time series data appended to any Profile, you may choose to use Journey Optimizer's default setting of retaining this data for up to 91 days from the date of its addition to a Profile, or until an alternative time-period selected by the you. The time that Adobe keeps this data varies from contract to contract, and is outlined in an organization's data retention policy.
 
-  Learn more about Experience Event expirations in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/event-expirations.html?lang=ko){target="_blank"}.
+  Learn more about Experience Event expirations in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/event-expirations.html){target="_blank"}.
 -->
 
 * **제거 및 보관 메커니즘**: [!DNL Adobe Journey Optimizer]에서 데이터 삭제 및 보관 작업을 자유롭게 정의하고 자동화하여 데이터 보존 정책을 자동화할 수 있습니다. 다양한 데이터 엔터티에 대해 서로 다른 에이징 전략을 정의할 수 있습니다. 내보내기 메커니즘을 정의하여 오래된 데이터를 삭제하거나 보관 처리하기 전에 자동으로 내보낼 수도 있습니다.

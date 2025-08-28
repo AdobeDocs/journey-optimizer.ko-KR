@@ -76,7 +76,7 @@ ht-degree: 15%
 
 1. 랜딩 페이지 사전 설정이 만들어지면 목록에 **[!UICONTROL 활성]** 상태로 표시됩니다. 랜딩 페이지에 사용할 준비가 되었습니다.
 
-이제 [!DNL Journey Optimizer]에서 [랜딩 페이지를 만들](../landing-pages/create-lp.md)할 준비가 되었습니다.
+이제 [에서 ](../landing-pages/create-lp.md)랜딩 페이지를 만들[!DNL Journey Optimizer]할 준비가 되었습니다.
 <!--
 >[!NOTE]
 >

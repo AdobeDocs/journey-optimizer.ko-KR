@@ -44,13 +44,13 @@ ht-degree: 5%
 
    ![](assets/do-not-localize/access_control_2.png)
 
-1. **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
+1.  **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
 
    ![](assets/do-not-localize/access_control_3.png)
 
 1. 사용자 이름 또는 전자 메일 주소를 입력하거나 목록에서 사용자를 선택하고 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-   사용자가 이전에 [!DNL Admin Console]에서 만들어지지 않은 경우 [사용자 추가 설명서](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html?lang=ko){target="_blank"}를 참조하세요.
+   사용자가 이전에 [!DNL Admin Console]에서 만들어지지 않은 경우 [사용자 추가 설명서](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html){target="_blank"}를 참조하세요.
 
    ![](assets/do-not-localize/access_control_4.png)
 
@@ -72,7 +72,7 @@ ht-degree: 5%
 >
 >기본 제공 또는 사용자 지정 역할에 대한 변경 사항은 해당 역할에 할당된 모든 사용자에게 영향을 줍니다.
 
-1. [!DNL Permissions] 제품에서 역할을 편집하려면 **[!UICONTROL 역할]** 탭으로 이동하여 원하는 역할을 선택하십시오. 여정 뷰어 **[!UICONTROL 역할]**&#x200B;에서 선택하십시오.
+1. [!DNL Permissions] 제품에서 역할을 편집하려면 **[!UICONTROL 역할]** 탭으로 이동하여 원하는 역할을 선택하십시오. 여정 뷰어 **[!UICONTROL 역할]**에서 선택하십시오.
    ![](assets/do-not-localize/access_control_5.png)
 
 1. **[!UICONTROL 역할]** 대시보드에서 **[!UICONTROL 편집]**&#x200B;을(를) 클릭합니다.
@@ -97,7 +97,7 @@ ht-degree: 5%
 
 샌드박스를 만들고 관리하는 방법에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ko-KR){target="_blank"}를 참조하십시오.
 
-이 예제에서는 여정 기능에 읽기 전용 권한을 부여하는 **여정 읽기 전용** 역할을 만듭니다. 사용자는 여정에 액세스하고 볼 수만 있으며 [!DNL Journey Optimizer]의 **[!DNL Decision management]**&#x200B;과(와) 같은 다른 기능에는 액세스할 수 없습니다.
+이 예제에서는 여정 기능에 읽기 전용 권한을 부여하는 **여정 읽기 전용** 역할을 만듭니다. 사용자는 여정에 액세스하고 볼 수만 있으며 **[!DNL Decision management]**&#x200B;의 [!DNL Journey Optimizer]과(와) 같은 다른 기능에는 액세스할 수 없습니다.
 
 **여정 읽기 전용** **[!UICONTROL 역할]**&#x200B;을(를) 만들려면:
 
@@ -113,7 +113,7 @@ ht-degree: 5%
 
    ![](assets/do-not-localize/access_control_13.png)
 
-1. 왼쪽 메뉴에 나열된 [!DNL Journey Optimizer]에서 사용할 수 있는 **[!DNL Journeys]**, **[!DNL Segments]** 또는 **[!DNL Decision management]**&#x200B;과(와) 같은 다른 리소스에서 선택하십시오.
+1. 왼쪽 메뉴에 나열된 **[!DNL Journeys]**&#x200B;에서 사용할 수 있는 **[!DNL Segments]**, **[!DNL Decision management]** 또는 [!DNL Journey Optimizer]과(와) 같은 다른 리소스에서 선택하십시오.
 
    여기에서 **[!UICONTROL 여정]** 리소스를 선택합니다.
 
@@ -129,4 +129,4 @@ ht-degree: 5%
 
 이제 **[!UICONTROL 역할]**&#x200B;이 만들어지고 구성되었습니다. 이제 사용자에게 할당합니다.
 
-역할 만들기 및 관리에 대한 자세한 내용은 [Adobe Admin Console 설명서](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html?lang=ko){target="_blank"}를 참조하세요.
+역할 만들기 및 관리에 대한 자세한 내용은 [Adobe Admin Console 설명서](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html){target="_blank"}를 참조하세요.

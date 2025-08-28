@@ -11,8 +11,8 @@ keywords: 구성, 여정, 대시보드, 데이터 소스, 이벤트, 작업
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
 source-git-commit: 9eda5416ba72fae390fc7eca6d9a3c699cedde50
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 63%
+source-wordcount: '522'
+ht-degree: 59%
 
 ---
 
@@ -48,7 +48,7 @@ Journey Optimizer 메시지 기능 기본 제공: 여정에 채널 작업 활동
 
 [이벤트 페이로드](../event/about-creating.md#define-the-payload-fields)와 [필드 그룹 페이로드](../datasource/configure-data-sources.md#define-field-groups)를 정의하고 [표현식 편집기](../building-journeys/expression/expressionadvanced.md)에서 필드를 선택할 때는 필드 이름과 함께 표시 이름도 표시됩니다. 이 정보는 Experience Data Model의 스키마 정의에서 검색됩니다.
 
-스키마를 설정할 때 &quot;xdm:alternateDisplayInfo&quot;와 같은 설명자를 입력하면 사용자에게 친숙한 이름이 표시 이름 대신 표시됩니다. 이 변수는 &quot;eVar&quot; 및 일반 필드로 작업할 때 특히 유용합니다. API 호출을 통해 친숙한 이름 설명자를 구성할 수 있습니다. 자세한 내용은 [스키마 레지스트리 개발자 안내서](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=ko){target="_blank"}를 참조하십시오.
+스키마를 설정할 때 &quot;xdm:alternateDisplayInfo&quot;과 같은 설명자를 제공하면 사용자에게 친숙한 이름이 표시 이름을 대체합니다. 이 변수는 &quot;eVar&quot; 및 일반 필드로 작업할 때 특히 유용합니다. API 호출을 통해 친숙한 이름 설명자를 구성할 수 있습니다. 자세한 내용은 [스키마 레지스트리 개발자 안내서](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=ko){target="_blank"}를 참조하십시오.
 
 ![](assets/xdm-from-descriptors.png)
 

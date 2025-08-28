@@ -229,7 +229,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 {%= bottomN(orders,price, 5) %}
 ```
 
-## 안에 없음{#notin}
+## 다음에 없음{#notin}
 
 `notIn` 함수는 항목이 배열 또는 목록의 멤버가 아닌지 확인하는 데 사용됩니다.
 

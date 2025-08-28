@@ -27,7 +27,7 @@ Adobe Journey Optimizer을 사용하면 Adobe Experience Manager 사이트를 �
 >[!AVAILABILITY]
 >
 >Adobe Experience Manager과의 통합은 현재 사용자를 선택하는 베타 버전으로만 사용할 수 있습니다.
->&#x200B;>베타 사용자인 경우 [이 양식](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"}을(를) 사용하여 피드백을 공유하십시오.
+>>베타 사용자인 경우 [이 양식](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"}을(를) 사용하여 피드백을 공유하십시오.
 
 
 ### 전제 조건 {#prerequisites}
@@ -42,7 +42,7 @@ Adobe Journey Optimizer을 사용하면 Adobe Experience Manager 사이트를 �
 
 * **사용 권한**
 
-  Adobe Journey Optimizer에서 콘텐츠 템플릿을 만들고 편집하고 삭제하려면 **[!DNL Content Library Manager]** 제품 프로필에 **[!DNL Manage Library Items]** 권한이 포함되어 있어야 합니다. [자세히 알아보기](../administration/ootb-product-profiles.md#content-library-manager)
+  Adobe Journey Optimizer에서 콘텐츠 템플릿을 만들고 편집하고 삭제하려면 **[!DNL Manage Library Items]** 제품 프로필에 **[!DNL Content Library Manager]** 권한이 포함되어 있어야 합니다. [자세히 알아보기](../administration/ootb-product-profiles.md#content-library-manager)
 
 ### 가드레일 및 제한 사항{#aem-templates-limitations}
 
@@ -62,7 +62,7 @@ Adobe Experience Manager 템플릿을 Adobe Journey Optimizer으로 내보내려
 
    ![](assets/aem-outbound-menu.png)
 
-1. 콘텐츠 라이브러리에서 이전에 구성한 템플릿을 사용하거나 처음부터 새로 만들 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html?lang=ko#creating-a-new-page)
+1. 콘텐츠 라이브러리에서 이전에 구성한 템플릿을 사용하거나 처음부터 새로 만들 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html#creating-a-new-page)
 
 1. Journey Optimizer 개인화 구문을 템플릿에 통합하여 맞춤화 기능을 향상시킬 수 있습니다. [자세히 알아보기](../personalization/personalization-syntax.md)
 

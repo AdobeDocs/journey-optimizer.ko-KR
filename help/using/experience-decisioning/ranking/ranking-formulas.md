@@ -56,7 +56,7 @@ ht-degree: 4%
 
 1. 일치하는 결정 항목에 대한 순위 점수를 결정할 조건을 정의합니다. 다음을 수행할 수 있습니다.
 
-   * [사용자 인터페이스](#ranking-select-criteria)에서 **[!UICONTROL 기준]** 섹션을 채우십시오.
+   * **[!UICONTROL 사용자 인터페이스]**&#x200B;에서 [기준](#ranking-select-criteria) 섹션을 채우십시오.
    * 또는 [코드 편집기](#ranking-code-editor)(으)로 전환하십시오.
 
    >[!NOTE]
@@ -172,7 +172,7 @@ To leverage data from an AEP dataset, follow the steps below.
 
 필요에 따라 다양한 등급 수식을 만들 수 있습니다. 다음은 몇 가지 예입니다.
 
-+++프로필 속성에 따라 특정 오퍼 속성이 있는 오퍼 증폭
++++프로필 속성에 따라 특정 오퍼 속성을 사용하여 오퍼 증폭
 
 프로필이 오퍼에 해당하는 도시에 거주하는 경우 해당 도시의 모든 오퍼에 대한 우선 순위를 두 배로 늘립니다.
 
@@ -194,7 +194,7 @@ if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.p
 
 +++
 
-+++제공 중인 제품을 구매하려는 고객의 성향을 기반으로 오퍼를 증폭
++++제공 중인 제품을 구매하려는 고객 성향을 기반으로 오퍼를 증폭
 
 고객 성향 점수를 기반으로 오퍼에 대한 점수를 높일 수 있습니다.
 

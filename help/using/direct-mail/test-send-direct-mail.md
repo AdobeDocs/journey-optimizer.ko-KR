@@ -10,7 +10,7 @@ exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
 source-git-commit: c314d2e7a48f8eab1f32950e0e4e9056d11fd58b
 workflow-type: tm+mt
 source-wordcount: '460'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
@@ -53,7 +53,7 @@ DM을 전송하면 캠페인 보고서 내에서 DM 캠페인의 영향을 측�
 
 ## DM에 대한 동의 관리 {#dm-consent-management}
 
-[!DNL Journey Optimizer]에서 동의는 Experience Platform [동의 스키마](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=ko){target="_blank"}에 의해 처리됩니다. 기본적으로 동의 필드의 값은 비어 있으며 커뮤니케이션을 수신하기 위한 동의로 처리됩니다.
+[!DNL Journey Optimizer]에서 동의는 Experience Platform [동의 스키마](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=ko){target="_blank"}가 처리합니다. 기본적으로 동의 필드의 값은 비어 있으며 커뮤니케이션을 수신하기 위한 동의로 처리됩니다.
 
 프로필이 DM 수신을 옵트아웃한 경우 해당 Experience Platform 프로필 특성에서 `consents.marketing.postalMail.val`의 값은 `n`이(가) 되며 해당 프로필은 후속 게재에서 제외됩니다.
 

@@ -15,7 +15,7 @@ ht-degree: 5%
 
 # 컬렉션 한정자 조회 {#look-up-tag}
 
-요청 경로에 컬렉션 한정자 `id`이(가) 포함된 [!DNL Offer Library] API에 대한 GET 요청을 수행하면 특정 컬렉션 한정자(이전의 &quot;태그&quot;)를 조회할 수 있습니다.
+요청 경로에 컬렉션 한정자 [!DNL Offer Library]이(가) 포함된 `id` API에 대해 GET 요청을 수행하면 특정 컬렉션 한정자(이전의 &quot;태그&quot;라고 함)를 조회할 수 있습니다.
 
 **API 형식**
 

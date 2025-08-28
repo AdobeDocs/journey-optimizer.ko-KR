@@ -19,7 +19,7 @@ ht-degree: 11%
 
 부울 함수는 다른 요소에 부울 로직을 수행하는 데 사용됩니다.
 
-### 및{#and}
+### And{#and}
 
 `and` 함수는 논리 결합을 만드는 데 사용됩니다.
 
@@ -80,7 +80,7 @@ not (homeAddress.countryISO = "CA")
 
 비교 함수는 다른 표현식과 값을 비교하는 데 사용되며, 그에 따라 true 또는 false를 반환합니다.
 
-### 같음{#equals}
+### 다음과 같음{#equals}
 
 `=`(equals) 함수는 하나의 값 또는 식이 다른 값 또는 식과 같은지 확인합니다.
 
@@ -116,7 +116,7 @@ not (homeAddress.countryISO = "CA")
 {%= profile.homeAddress.country != "France" %}
 ```
 
-### 보다 큼{#greaterthan}
+### 다음보다 큼{#greaterthan}
 
 `>`(큼) 함수는 첫 번째 값이 두 번째 값보다 큰지 확인하는 데 사용합니다.
 
@@ -134,7 +134,7 @@ not (homeAddress.countryISO = "CA")
 {%= profile.person.birthYear > 1970 %}
 ```
 
-### 보다 크거나 같음{#greaterthanorequal}
+### 다음보다 크거나 같음{#greaterthanorequal}
 
 `>=`(크거나 같음) 함수는 첫 번째 값이 두 번째 값보다 크거나 같은지 확인하는 데 사용합니다.
 
@@ -152,7 +152,7 @@ not (homeAddress.countryISO = "CA")
 {%= profile.person.birthYear >= 1970 %}
 ```
 
-### 보다 작음{#lessthan}
+### 다음보다 작음{#lessthan}
 
 `<`(작음) 비교 함수는 첫 번째 값이 두 번째 값보다 작은지 확인하는 데 사용합니다.
 
@@ -170,7 +170,7 @@ not (homeAddress.countryISO = "CA")
 {%= profile.person.birthYear < 2000 %}
 ```
 
-### 보다 작거나 같음{#lessthanorequal}
+### 다음보다 작거나 같음{#lessthanorequal}
 
 `<=`(작거나 같음) 비교 함수는 첫 번째 값이 두 번째 값보다 작거나 같은지 확인하는 데 사용합니다.
 

@@ -26,7 +26,7 @@ ht-degree: 21%
 
 `containIgnoreCase(<parameters>)`
 
-## 매개 변수
+## 매개변수
 
 | 매개변수 | 유형 |
 |-----------|------------------|

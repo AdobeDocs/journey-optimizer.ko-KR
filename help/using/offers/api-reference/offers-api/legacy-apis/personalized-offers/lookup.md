@@ -8,7 +8,7 @@ level: Experienced
 exl-id: 679f2229-19c6-47f9-b293-e1c3c8dcb61e
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '177'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 맞춤형 오퍼는 자격 규칙 및 제한에 따라 사용자 정의 가능한 마케팅 메시지입니다.
 
-개인화된 오퍼 `@id`을(를) 포함하는 **GET 라이브러리** API에 대한 요청 또는 요청 경로에 개인화된 오퍼의 이름을 요청하여 개인화된 오퍼를 조회할 수 있습니다.
+개인화된 오퍼 **또는 요청 경로에 개인화된 오퍼의 이름이 포함된**&#x200B;오퍼 라이브러리`@id` API에 대한 GET 요청을 통해 개인화된 특정 오퍼를 조회할 수 있습니다.
 
 **API 형식**
 
@@ -31,7 +31,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PERSONALI
 | `{CONTAINER_ID}` | 개인화된 오퍼가 있는 컨테이너입니다. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_PERSONALIZED_OFFER}` | 개인화된 오퍼와 연결된 스키마를 정의합니다. | `https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5` |
 | `id` | 엔터티의 `@id` 속성과 일치하는 데 사용되는 문자열입니다. 문자열이 정확하게 일치합니다. 매개 변수 &quot;id&quot;와 &quot;name&quot;은 함께 사용할 수 없습니다. | `xcore:personalized-offer:124cc332095cfa74` |
-| `name` | 엔티티의 xdm:name 속성과 일치하는 데 사용되는 문자열. 문자열은 대소문자를 사용하여 정확히 일치하지만 와일드카드 문자를 사용할 수 있습니다. `id` 및 `name` 매개 변수는 함께 사용할 수 없습니다. | `Discount offer` |
+| `name` | 엔터티의 xdm:name 속성과 일치하는 데 사용되는 문자열입니다. 문자열은 대소문자를 사용하여 정확히 일치하지만 와일드카드 문자를 사용할 수 있습니다. `id` 및 `name` 매개 변수는 함께 사용할 수 없습니다. | `Discount offer` |
 
 **요청**
 

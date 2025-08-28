@@ -32,7 +32,7 @@ Journey Optimizer를 사용하면 시스템에서 여정, 메시지, 랜딩 페�
 
 ## 감사 로그로 캡처된 이벤트 유형 {#events}
 
-다음 표에서는 감사 로그에서 Journey Optimizer 리소스를 기록하는 작업을 간략하게 설명합니다. 감사 로그에 캡처된 전체 작업 목록은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html?lang=ko#category)를 참조하십시오.
+다음 테이블에서는 감사 로그에서 Journey Optimizer 리소스를 기록하는 작업을 간략하게 설명합니다. 감사 로그에 캡처된 전체 작업 목록은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html?lang=ko#category)를 참조하십시오.
 
 >[!NOTE]
 >

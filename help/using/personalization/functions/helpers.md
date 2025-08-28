@@ -25,7 +25,7 @@ ht-degree: 5%
 Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 ```
 
-이 예제에서는 이 프로필의 `firstName` 특성이 비어 있거나 null인 경우 값 `there`이(가) 표시됩니다.
+이 예제에서는 이 프로필의 `there` 특성이 비어 있거나 null인 경우 값 `firstName`이(가) 표시됩니다.
 
 ## 조건{#if-function}
 

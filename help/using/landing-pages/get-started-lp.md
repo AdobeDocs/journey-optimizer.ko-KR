@@ -10,9 +10,9 @@ level: Beginner
 keywords: 랜딩, 랜딩 페이지, 시작, 시작하기
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '209'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '208'
+ht-degree: 94%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 [!DNL Journey Optimizer]에서는 랜딩 페이지를 만들고 디자인하여 사용자를 커뮤니케이션 수신에 옵트인/옵트아웃하거나 뉴스레터와 같은 특정 서비스에 가입할 수 있는 온라인 양식으로 보낼 수 있습니다.
 
-➡️ [이 비디오에서 구독을 구성하고 랜딩 페이지를 만드는 자세한 방법을 알아보십시오](#video)
+➡️ [이 비디오에서 구독을 구성하고 랜딩 페이지를 만드는 방법에 대해 자세히 알아보세요](#video)
 
 * [!DNL Journey Optimizer] 콘텐츠 디자인 기능을 활용하여 손쉽게 **반응형 랜딩 페이지**&#x200B;를 만듭니다.
 * 빠르고 매끄럽게 **옵트인/옵트아웃 흐름**&#x200B;을 설정합니다.
@@ -71,4 +71,4 @@ ht-degree: 100%
 
 아래 비디오에서는 구독 목록을 만들고, 랜딩 페이지를 설정하여 서비스 구독/구독 취소 기능을 제공하고, 메시지에 구독(구독 취소) 옵션을 통합하고, 관련 여정을 구성하는 방법을 확인할 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/344401?quality=12&learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)

@@ -15,7 +15,7 @@ ht-degree: 7%
 
 # 선택 전략 업데이트 {#update-selection-strategy}
 
-오퍼 라이브러리 API에 PATCH 요청을 하여 선택 전략을 수정하거나 업데이트할 수 있습니다.
+PATCH 요청을 오퍼 라이브러리 API로 만들어 선택 전략을 수정하거나 업데이트할 수 있습니다.
 
 사용 가능한 작업을 포함하여 JSON 패치에 대한 자세한 내용은 공식 [JSON 패치 설명서](https://jsonpatch.com/)를 참조하세요.
 

@@ -15,7 +15,7 @@ ht-degree: 14%
 
 # 의사 결정 만들기 {#create-decision}
 
-[!DNL Offer Library] API에 대한 POST 요청을 통해 결정을 만들 수 있습니다.
+[!DNL Offer Library] API에 대한 POST 요청을 수행하여 결정을 만들 수 있습니다.
 
 ## Accept 및 Content-Type 헤더 {#accept-and-content-type-headers}
 

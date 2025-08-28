@@ -29,7 +29,7 @@ ht-degree: 4%
 
 ![](assets/cja-direct-sending-stat.png)
 
-**[!UICONTROL 전송 통계]** 표를 통해 DM 여정 성능을 파악할 수 있습니다. 타겟팅된 수신자 및 성공적으로 배달된 부분 수와 같은 주요 지표를 참조하여 우편물의 도달 범위와 효과를 측정할 수 있습니다.
+**[!UICONTROL 전송 통계]** 표는 DM 여정 성능에 대한 insight을 제공합니다. 타겟팅된 수신자 및 성공적으로 배달된 부분 수와 같은 주요 지표를 참조하여 우편물의 도달 범위와 효과를 측정할 수 있습니다.
 
 +++ 전송 통계 지표에 대해 자세히 알아보기
 
@@ -69,7 +69,7 @@ ht-degree: 4%
 
 ## 제외된 이유 {#exclude-reasons-directmail}
 
-[&#128279;](assets/cja-direct-excluded.png)
+[](assets/cja-direct-excluded.png)
 
 **[!UICONTROL 제외 이유]** 표는 대상 대상자에서 사용자 프로필을 제외하여 DM 메시지를 받지 못하게 한 다양한 요인을 시각적으로 보여줍니다.
 

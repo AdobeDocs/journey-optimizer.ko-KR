@@ -83,7 +83,7 @@ ht-degree: 50%
 >
 >[이 섹션](code-based-prerequisites.md#implementation-prerequisites)에서 구현 필수 구성 요소에 대해 자세히 알아보세요.
 
-코드 기반 경험을 사용하면 [표면 URI](#surface-uri)을(를) 사용하여 [!DNL Journey Optimizer]에 의해 고유하게 식별되는 세분화된 위치 <!--(such as a specific location on a page, or inside a mobile native app)-->의 콘텐츠를 수정할 수 있습니다.
+코드 기반 경험을 사용하면 <!--(such as a specific location on a page, or inside a mobile native app)-->표면 URI[!DNL Journey Optimizer]을(를) 사용하여 [에 의해 고유하게 식별되는 세분화된 위치 ](#surface-uri)의 콘텐츠를 수정할 수 있습니다.
 
 이러한 표면 URI는 구현 방법에 따라 구성되고 처리됩니다.
 
@@ -95,4 +95,4 @@ ht-degree: 50%
 
 * **[!UICONTROL Web]**, **[!UICONTROL iOS]** 및 **[!UICONTROL Android]** 플랫폼의 경우 **URL/앱 ID**&#x200B;와 **위치 또는 경로**&#x200B;를 입력하여 표면을 구성해야 합니다. [web](code-based-configuration.md#web) 및 [mobile](code-based-configuration.md#mobile) 플랫폼에 대한 코드 기반 경험 구성에 대해 자세히 알아보세요.
 
-* 플랫폼이 **[!UICONTROL 기타]**&#x200B;인 경우 [위](#surface-uri)의 예처럼 전체 **표면 URI**&#x200B;을 입력해야 합니다. [other](code-based-configuration.md#other) 플랫폼에 대한 코드 기반 경험을 구성하는 방법에 대해 자세히 알아보세요.
+* 플랫폼이 **[!UICONTROL 기타]**&#x200B;인 경우 **위**&#x200B;의 예처럼 전체 [표면 URI](#surface-uri)을 입력해야 합니다. [other](code-based-configuration.md#other) 플랫폼에 대한 코드 기반 경험을 구성하는 방법에 대해 자세히 알아보세요.

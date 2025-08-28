@@ -77,7 +77,7 @@ ht-degree: 12%
 
    1. **[!UICONTROL 트레이트]**&#x200B;를 추가하고 규칙을 보다 세밀하게 조정하려면 **[!UICONTROL And]** 조건을 선택하십시오.
 
-      +++사용 가능한 트레이트 를 참조하십시오.
+      +++사용 가능한 트레이트를 참조하십시오.
 
       | 패키지 | 특성 | 정의 |
       |---|---|---|
@@ -183,7 +183,7 @@ ht-degree: 12%
 
    1. **[!UICONTROL 트레이트]**&#x200B;를 추가하고 규칙을 보다 세밀하게 조정하려면 **[!UICONTROL And]** 조건을 선택하십시오.
 
-      +++사용 가능한 트레이트 를 참조하십시오.
+      +++사용 가능한 트레이트를 참조하십시오.
 
       | 패키지 | 특성 | 정의 |
       |---|---|---|
@@ -220,7 +220,7 @@ ht-degree: 12%
 
 1. 필요한 경우 인앱 메시지를 표시할 **[!UICONTROL 요일]** 또는 **[!UICONTROL 시간]**&#x200B;을(를) 선택하십시오.
 
-1. 캠페인은 특정 날짜 또는 되풀이되는 빈도로 실행되도록 디자인됩니다. [이 섹션](../campaigns/create-campaign.md#schedule)에서 캠페인의 **[!UICONTROL 일정]**&#x200B;을 구성하는 방법을 알아보세요.
+1. 캠페인은 특정 날짜 또는 되풀이되는 빈도로 실행되도록 디자인됩니다. **[!UICONTROL 이 섹션]**&#x200B;에서 캠페인의 [일정](../campaigns/create-campaign.md#schedule)을 구성하는 방법을 알아보세요.
 
    ![](assets/in-app-schedule.png)
 
@@ -234,23 +234,23 @@ ht-degree: 12%
 
 * 아래 비디오에서는 캠페인에서 인앱 메시지를 만들고, 구성하고, 게시하는 방법을 보여 줍니다.
 
-  +++비디오 참조
+  +++비디오 보기
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451889?quality=12&learn=on&captions=kor)
+  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
   +++
 
 * 아래 비디오에서는 A/B 테스트 인앱 메시지에 대한 콘텐츠 실험을 구성하고 분석하는 방법을 보여 줍니다.
 
-  +++비디오 참조
+  +++비디오 보기
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3445295/?learn=on&autoplay=true&captions=kor)
+  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
 
   +++
 
 * 아래 비디오에서는 여정에서 인앱 메시지를 만드는 방법과 여정을 테스트하고 게시하는 방법을 보여 줍니다.
 
-  +++비디오 참조
+  +++비디오 보기
 
   >[!VIDEO](https://video.tv.adobe.com/v/3423077/?learn=on&autoplay=true)
 

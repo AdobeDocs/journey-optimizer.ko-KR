@@ -22,7 +22,7 @@ ht-degree: 6%
 
 IP 준비 계획에 액세스, 만들기, 편집 및 삭제하려면 **[!UICONTROL 게재 가능성 컨설턴트]** 역할 또는 IP 준비 계획 관련 권한이 있어야 합니다.
 
-+++게재 가능성 컨설턴트 역할 또는 IP 웜업 계획 관련 권한을 할당하는 방법을 알아봅니다.
++++게재 가능성 컨설턴트 역할 또는 IP 준비 계획 관련 권한을 할당하는 방법을 알아봅니다.
 
 객체 수준 액세스 제어를 사용하면 데이터를 보호하고 특정 액세스 권한을 부여하여 계획을 보고 관리할 수 있습니다. IP 준비 계획에 레이블이 할당되지 않은 경우 모든 사용자가 보고 편집할 수 있도록 열립니다.
 
@@ -147,7 +147,7 @@ gmail.com;google.com;googlemail.com;googlemail.co.uk
 hotmail.com.tr;live.de;live.ru;live.nl;windowslive.com;live.jp;mts.net;xbox.com;hotmail.fr;hotmail.cl;hotmail.jp;live.cl;live.at;live.com.au;hotmail.co.th;live.hk;hotmail.com.au;hotmail.com;live.com.my;hotmail.co.kr;live.ie;outlook.com.br;hotmail.dk;hotmail.co.il;live.co.kr;live.co.uk;outlook.ie;live.cn;live.com.mx;hotmail.co.uk;hotmail.es;live.fr;live.no;live.dk;hotmail.it;live.com.sg;live.be;msn.com;hotmail.co.jp;live.in;hotmail.se;live.co.za;hotmail.ch;live.com.pt;outlook.com;hotmail.gr;live.it;live.com;live.com.ar;hotmail.com.br hotmail.com.ar;live.ca;live.ca;hotmail.de
 +++
 
-+++야후
++++Yahoo
 aol.fi;games.com;cs.com;yahoo.com.in;y7mail.com;yahoo.co.uk;yahoo.hu;yahoo.co.hu;yahoo.cn;yahoogroups.com.sg;yahoogroups.com.au;aol.pl;aolpoland.pl;aolnorge.no;yahoo.com.au;yahoo.fi;yahoo.com.vn;aol.co.nz;yahoo.com.br;yahoo.hr;aol.cz;yahoo.ee;aol.be;aoolcom.tr;yahoo.si;yahoo.ne.jp;aol.it;ymail.com;yahoo.es;yahoo.dk;yahoohoogroups.ca;netscape.com;aol.kr;aol.jp;yahoo.com.pe;yaol.lt;yahoo.co.id;aol.nl;yahoo.bg;citlink.net;aol.se;필수 구성;wmconnect.com;aol.cl;yahoo.com.jp;yahoo.no;yahoo.com.hk;aol.com.br;yahoo.cz;yahoo.co.kr;yahoo.sk;yahoo.com.ar;yahoogroups.de;yahoo.gr;ygm.com;yahoo.ro;yahoo.co.nz;aol.com;yahoo.at;goowy.com;rocketmail.com;aol.fr;aol.de;frontiernet.net;aim.com;yahoogroups.co.in;netscape.net;luckymail.com;yahoo.co.jp;yahoo.com.kr;yahoo.se;myaol.jp;yahoo.co.za;yahoo.pt;verizon.net;aol.com.ve;aol.com.ar;yahoogrupper.dk;yahoo.fr;aol.com.co;eoph.pl;wild4music.com;eol.ch;yahoo.it;yahoogroups.com.cn;yahoo.com.co;wow.com;저장소;yahoogruppi.it;yahoo.cl;yahoo.com;ehoo.be ol.tw;yahooxtra.co.nz;yahoo.com.mx;yahoo.com.ph;sky.com;aol.com.mx;aol.com.au;aolchina.com;yahoo.com.net;yahoo.com.tw;talk21.com;aol.ru;compuserve.com;yahoo.com.sg yahoogroups.com.tw frontier.com yahoo.co.in yahoo.co.il verizon.net.in yahoo.com.tr yahoogroups.com.hk yahoogroups.co.uk yahoo.com.biz yahoo.com.hr aol.co.uk ybb.ne.jp yahoogroups.co.kr yahoo.com.my rogers.com gte.net yahoogroups.com yahoo.co.th yahoo.com.cn love.com bellatlantic.net yahoo.com.ve yahoo.com.ua;yahoo.lv;aolpolska.pl;aol.at;yahoo.pl
 +++
 
@@ -159,7 +159,7 @@ mac.com;icloud.com;apple.com;me.com
 comcast.net
 +++
 
-+++주황색
++++주황
 voila.com;francetelecom.com;orange.com;orange.fr;wanadoo.fr;voila.fr
 +++
 
@@ -179,7 +179,7 @@ wp.pl;o2.pl
 gmx.de;1and1.com;gmx.fr;mail.com;1und1.de;gmx.com;gmx.net;gmx.at;web.de;gmx.ch
 +++
 
-+++비그폰드
++++빅폰드
 bigpond.com;bigpond.com.au;bigpond.net;telstra.com;bigpond.net.au
 +++
 
@@ -191,7 +191,7 @@ docomo.ne.jp
 c.vodafone.ne.jp;jp-h.ne.jp;k.vodafone.ne.jp;jp-d.ne.jp;jp-c.ne.jp;t.vodafone.ne.jp;h.vodafone.ne.jp;r.vodafone.ne.jp;q.vodafone.ne.jp;jp-t.ne.jp;jp-q.ne.jp;s.vodafone.ne.jp;jp-s.ne.jp;jp-r.ne.jp;jp-k.ne.jp;n.vodafone.ne.jp;d.vodafone.ne.jp;softbank.ne.jp;jp-n.ne.jp;;;;;;;;;;;;;;;
 +++
 
-+++KDI
++++KDDI
 au.com;ezweb.ne.jp;uqmobile.jp
 +++
 
@@ -208,7 +208,7 @@ Hotmail 외부 도메인과 도메인 그룹 Microsoft의 도메인은 **[!UICON
 
 1. 동일한 행에 모든 Hotmail 도메인을 추가합니다.
 
-   [OOTB 도메인 그룹 탭](#ootb-domain-groups-tab) 섹션에 나열된 모든 Hotmail 도메인을 [복사 및 붙여넣기](#copy-paste)할 수 있습니다.
+   [OOTB 도메인 그룹 탭](#copy-paste) 섹션에 나열된 모든 Hotmail 도메인을 [복사 및 붙여넣기](#ootb-domain-groups-tab)할 수 있습니다.
 
 1. 다른 행을 추가합니다.
 
@@ -226,7 +226,7 @@ Hotmail 외부 도메인과 도메인 그룹 Microsoft의 도메인은 **[!UICON
 
 ### 기본 도메인 복사-붙여넣기 {#copy-paste}
 
-예를 들어 모든 Hotmail 도메인을 포함하는 사용자 정의 도메인 그룹을 만들려면 [IP 준비 계획 템플릿](assets/IPWarmupPlan-Template.xlsx)의 **OOTB 도메인 그룹** 탭이나 [위](#ip-warmup-plan-tab)에 제공된 목록에서 도메인을 복사하여 붙여 넣을 수 있습니다.
+예를 들어 모든 Hotmail 도메인을 포함하는 사용자 정의 도메인 그룹을 만들려면 **IP 준비 계획 템플릿**&#x200B;의 [OOTB 도메인 그룹](assets/IPWarmupPlan-Template.xlsx) 탭이나 [위](#ip-warmup-plan-tab)에 제공된 목록에서 도메인을 복사하여 붙여 넣을 수 있습니다.
 
 그런 다음 Excel 변환 도구를 사용하여 텍스트를 열로 변환합니다.
 
@@ -267,14 +267,14 @@ Hotmail 외부 도메인과 도메인 그룹 Microsoft의 도메인은 **[!UICON
 >id="ajo_admin_ip_warmup_upload"
 >title="IP 워밍업 플랜 지정"
 >abstract="IP 워밍업 단계, 목표 프로필 수와 같이 플랜에 필요한 모든 데이터를 입력하여 Excel 템플릿을 작성하고 여기에 업로드합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html?lang=ko#prepare-file" text="IP 워밍업 플랜 파일 준비"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html#prepare-file" text="IP 워밍업 플랜 파일 준비"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_surface"
 >title="마케팅 구성 선택"
 >abstract="IP 워밍업 플랜과 연결하려는 캠페인에서 선택한 것과 동일한 구성을 선택해야 합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=ko" text="채널 구성 설정"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=ko" text="IP 워밍업 캠페인 만들기"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html" text="채널 구성 설정"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html" text="IP 워밍업 캠페인 만들기"
 
 IP 준비 계획을 만들려면 아래 단계를 수행합니다.
 

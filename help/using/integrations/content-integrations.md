@@ -12,7 +12,7 @@ exl-id: 3e72df85-ba80-4cec-848b-7441cb3e7fef
 source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
 workflow-type: tm+mt
 source-wordcount: '693'
-ht-degree: 18%
+ht-degree: 27%
 
 ---
 
@@ -46,7 +46,7 @@ Learn more about [Journey Optimizer + Adobe Experience Manager templates](../int
 
 ### 조각
 
-이제 Adobe Experience Manager을 Adobe Journey Optimizer과 통합하여 AEM 콘텐츠 조각을 Journey Optimizer 이메일 콘텐츠에 원활하게 통합할 수 있습니다. 이렇게 간소화된 연결을 통해 AEM 콘텐츠에 액세스하고 활용하는 프로세스를 간소화하여 개인화되고 동적인 캠페인 및 여정을 만들 수 있습니다.
+이제 Adobe Experience Manager을 Adobe Journey Optimizer과 통합하여 AEM 콘텐츠 조각을 Journey Optimizer 이메일 콘텐츠에 원활하게 통합할 수 있습니다. 이렇게 간소화된 연결을 통해 AEM 콘텐츠에 액세스하고 활용하는 프로세스가 간단해져 개인화되고 동적인 캠페인 및 여정을 만들 수 있게 됩니다.
 
 [Journey Optimizer + Adobe Experience Manager 조각](../integrations/aem-fragments.md)에 대해 자세히 알아보세요.
 
@@ -69,7 +69,7 @@ Learn more about [Journey Optimizer + Adobe Experience Manager templates](../int
 
 ## Adobe Express {#express}
 
-Adobe Journey Optimizer의 Adobe Express 통합을 통해 콘텐츠를 만드는 동안 Adobe Express의 강력한 편집 도구에 쉽게 액세스할 수 있습니다. 이 통합을 통해 솔루션 간에 전환할 필요 없이 이미지 크기를 조정하고, 배경을 제거하고, 시각적 개체를 자르고, 자산을 JPEG 또는 PNG로 변환할 수 있습니다.
+Adobe Journey Optimizer의 Adobe Express 통합을 통해 콘텐츠를 만드는 동안 Adobe Express의 강력한 편집 도구에 쉽게 액세스할 수 있습니다. 이 통합을 통해 여러 솔루션 간에 전환할 필요 없이 이미지 크기를 조정하고, 배경을 제거하고, 시각적 개체를 자르고, 자산을 JPEG 또는 PNG로 변환할 수 있습니다.
 
 **[!DNL Adobe Express]** 메뉴에 액세스하려면 이메일 Designer에서 **이미지 설정**&#x200B;에 액세스한 다음 **[!UICONTROL Adobe Express에서 편집]**&#x200B;을 클릭하세요.
 
@@ -81,6 +81,6 @@ Enterprise 라이선스를 사용하면 사용자가 Adobe Express 편집기에 
 
 Adobe GenStudio for Performance Marketing은 마케팅 팀이 자체 광고 및 이메일을 만들어 브랜드 표준을 준수하고 엔터프라이즈 정책을 준수하는 영향력이 큰 개인화된 마케팅 캠페인을 유도할 수 있는 생성 AI 우선 애플리케이션입니다. Adobe AI 기술을 활용함으로써 크리에이티브가 혁신에 집중할 수 있도록 콘텐츠 생성 및 관리의 복잡성을 간소화하는 포괄적인 도구 모음을 제공합니다.
 
-마케팅 효율성을 높이고 브랜드 일관성을 유지하기 위해 [!DNL **GenStudio for Performance Marketing**] 경험을 [!DNL **Adobe Journey Optimizer**]&#x200B;과(와) 원활하게 통합할 수 있습니다. 이를 통해 [!DNL Journey Optimizer]의 고급 오케스트레이션 기능과 함께 [!DNL GenStudio]의 AI 파워 콘텐츠 생성을 활용할 수 있습니다.
+마케팅 효율성을 높이고 브랜드 일관성을 유지하기 위해 [!DNL **GenStudio for Performance Marketing**] 경험을 [!DNL **Adobe Journey Optimizer**]&#x200B;과(와) 원활하게 통합할 수 있습니다. 이를 통해 [!DNL GenStudio]의 고급 오케스트레이션 기능과 함께 [!DNL Journey Optimizer]의 AI 파워 콘텐츠 생성을 활용할 수 있습니다.
 
 [Journey Optimizer + GenStudio for Performance Marketing](../integrations/genstudio.md)에 대해 자세히 알아보세요.

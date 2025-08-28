@@ -27,8 +27,8 @@ Adobe Experience Platform 대상 포털을 사용하면 CSV 파일을 사용하�
 
 ![](assets/import-audience.png)
 
-대상을 가져오는 방법에 대한 자세한 내용은 Adobe Experience Platform [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}를 참조하세요.
+대상을 가져오는 방법에 대한 자세한 내용은 Adobe Experience Platform [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}를 참조하세요.
 
 비디오에서 대상을 CSV 형식으로 업로드하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3423360?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3421714?quality=12)

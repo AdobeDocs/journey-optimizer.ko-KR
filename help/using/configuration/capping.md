@@ -10,7 +10,7 @@ keywords: 외부, API, 최적화 프로그램, 한도
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
 source-git-commit: 9f801b1fdcab38bffff851675eca5e2fb61dfbf9
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '735'
 ht-degree: 6%
 
 ---
@@ -112,7 +112,7 @@ ht-degree: 6%
 
 * **ERR_ENDPOINTCONFIG_100**: 최대 구성: 누락되었거나 잘못된 url
 * **ERR_ENDPOINTCONFIG_101**: 구성 제한: url 형식이 잘못되었습니다.
-* **ERR_ENDPOINTCONFIG_102**: 최대 구성: url 형식이 잘못되었습니다. host:port에서 url의 와일드문자를 사용할 수 없습니다.
+* **ERR_ENDPOINTCONFIG_102**: 최대 구성: url 형식이 잘못되었습니다. url의 wildchar가 호스트에 허용되지 않습니다.:port
 * **ERR_ENDPOINTCONFIG_103**: 최대 구성: HTTP 메서드가 없습니다.
 * **ERR_ENDPOINTCONFIG_104**: 최대 구성: 호출 등급이 정의되지 않았습니다.
 * **ERR_ENDPOINTCONFIG_107**: 최대 호출 수 제한 구성: 잘못된 최대 호출 수(maxCallsCount)
@@ -164,7 +164,7 @@ ht-degree: 6%
 
 +++
 
-+++한 단계에서 배포된 최대 가용량 구성 삭제
++++한 단계에서 배포된 최대 가용량 구성을 삭제합니다.
 
 하나의 API 호출에서만 `forceDelete` 매개 변수를 사용하여 구성을 배포 취소하고 삭제할 수 있습니다.
 

@@ -5,7 +5,8 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 8fa34ebb7c853f9af5b3f58574374a3acb641dd9
+exl-id: 4ea50481-b1b9-4e0c-ad4e-c4139891bfdf
+source-git-commit: 6378c4a8cb911088c685166b9c1b29a1773d47b7
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 4%
@@ -43,4 +44,3 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/ranking-formulas/ranking
 성공적인 응답은 HTTP 상태 200과 빈 본문을 반환합니다.
 
 등급 공식에 대한 조회(GET) 요청을 시도하여 삭제를 확인할 수 있습니다. 순위 공식이 제거되었기 때문에 HTTP 상태 404(찾을 수 없음)를 수신해야 합니다.
-

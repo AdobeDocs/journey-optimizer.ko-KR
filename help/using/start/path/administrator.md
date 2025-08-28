@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '671'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -33,10 +33,10 @@ ht-degree: 100%
 
 1. 역할에 **샌드박스**&#x200B;를 포함한 **권한을 설정**&#x200B;하고 팀원을 다른 역할에 할당하여 액세스 권한을 부여합니다. 권한은 **[!UICONTROL 역할]**&#x200B;에 할당된 사용 권한을 정의할 수 있는 단일 직권입니다. 각 권한은 [!DNL Journey Optimizer]의 다양한 기능 또는 개체를 나타내는 기능(예: 여정 또는 오퍼) 아래에 수집됩니다. 자세한 내용은 [권한 수준](../../administration/high-low-permissions.md) 섹션을 참조하십시오.
 
-또한 Assets Essentials에 액세스해야 하는 사용자를 **Assets Essentials 소비자 사용자**&#x200B;나 **Assets Essentials 사용자** 역할 또는 둘 다에 추가해야 합니다. [Assets Essentials 설명서에서 자세히 읽어 보십시오](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ko){target="_blank"}.
+또한 Assets Essentials에 액세스해야 하는 사용자를 **Assets Essentials 소비자 사용자**&#x200B;나 **Assets Essentials 사용자** 역할 또는 둘 다에 추가해야 합니다. [Assets Essentials 문서에서 자세히 읽어보세요](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ko){target="_blank"}.
 
 >[!NOTE]
->2022년 1월 6일 이전에 획득한 Journey Optimizer 제품의 경우 조직에 [!DNL Adobe Experience Manager Assets Essentials]을(를) 배포해야 합니다. [Assets Essentials 배포](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ko){target="_blank"} 섹션에서 자세히 알아보십시오.
+>2022년 1월 6일 이전에 획득한 Journey Optimizer 제품의 경우 조직에 [!DNL Adobe Experience Manager Assets Essentials]을(를) 배포해야 합니다. [Assets Essentials 배포](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ko){target="_blank"} 섹션에서 자세히 알아보세요.
 
 [!DNL Journey Optimizer]에 처음 액세스하면 프로덕션 샌드박스가 프로비저닝되고 계약에 따라 특정 수의 IP가 할당됩니다.
 

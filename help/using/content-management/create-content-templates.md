@@ -119,7 +119,7 @@ ht-degree: 11%
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-1. 템플릿이 [!DNL Journey Optimizer] 전용 메뉴에서 액세스할 수 있는 **[!UICONTROL 콘텐츠 템플릿]** 목록에 저장됩니다. 이 템플릿은 목록에 있는 다른 항목으로 액세스, 편집 및 삭제할 수 있는 독립 실행형 콘텐츠 템플릿이 됩니다. [자세히 알아보기](#access-manage-templates)
+1. 템플릿이 **[!UICONTROL 전용 메뉴에서 액세스할 수 있는]**&#x200B;콘텐츠 템플릿[!DNL Journey Optimizer] 목록에 저장됩니다. 이 템플릿은 목록에 있는 다른 항목으로 액세스, 편집 및 삭제할 수 있는 독립 실행형 콘텐츠 템플릿이 됩니다. [자세히 알아보기](#access-manage-templates)
 
 이제 [!DNL Journey Optimizer] 내에서 콘텐츠를 작성할 때 이 템플릿을 사용할 수 있습니다. [방법 알아보기](#use-content-templates)
 

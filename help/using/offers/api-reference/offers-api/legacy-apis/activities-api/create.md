@@ -15,7 +15,7 @@ ht-degree: 13%
 
 # 의사 결정 만들기 {#create-decision}
 
-POST ID를 제공하는 동안 [!DNL Offer Library] API에 대한 컨테이너를 요청하여 결정을 만들 수 있습니다.
+컨테이너 ID를 제공하는 동안 [!DNL Offer Library] API에 대한 POST 요청을 수행하여 결정을 만들 수 있습니다.
 
 ## Accept 및 Content-Type 헤더 {#accept-and-content-type-headers}
 

@@ -85,7 +85,7 @@ ht-degree: 11%
 
 1. 다른 규칙 간에 **[!UICONTROL Or]** 또는 **[!UICONTROL Exclude]** 연산자를 사용할 수 있습니다.
 
-   **[!UICONTROL Exclude]**&#x200B;은(는) 정의된 규칙과 일치하는 페이지 중 하나를 타깃팅해서는 안 되는 경우에 유용합니다. 예를 들어 `https://luma.com/blogs/productinfo` 페이지를 제외하고 `product`을(를) 포함하는 모든 `luma.com` 페이지를 타깃팅할 수 있습니다.
+   **[!UICONTROL Exclude]**&#x200B;은(는) 정의된 규칙과 일치하는 페이지 중 하나를 타깃팅해서는 안 되는 경우에 유용합니다. 예를 들어 `luma.com` 페이지를 제외하고 `product`을(를) 포함하는 모든 `https://luma.com/blogs/productinfo` 페이지를 타깃팅할 수 있습니다.
 
    ![](assets/web_config_4.png)
 
@@ -113,12 +113,12 @@ ht-degree: 11%
     <tr>
         <th><strong>연산자</th>
         <th><strong>설명</th>
-        <th><strong>예시</th>
+        <th><strong>예</th>
     </tr>
     </thead>
     <tbody>
     <tr>
-        <td>같음</td>
+        <td>다음과 같음</td>
         <td>경로의 정확한 일치. </td>
         <td></td>
     </tr>
@@ -143,7 +143,7 @@ ht-degree: 11%
         <td>예: "와일드카드 일치: /products/*/detail", 다음과 같은 모든 경로를 일치시킵니다. <ul><li>example.com/products/yoga/detail</li><li>example.com/products/surf/detail</li><li>example.com/products/tennis/detail</li><li>example.com/products/yoga/pants/detail</li></ul>예: "일치함: /prod*/detail, 다음과 같은 모든 경로와 일치합니다. <ul><li>example.com/products/detail</li><li>example.com/production/detail</li></ul>다음과 같은 경로와 일치하지 않음: <ul><li>example.com/products/yoga/detail</li></ul></td>
     </tr>
     <tr>
-        <td>다음 포함</td>
+        <td>다음을 포함</td>
         <td>"포함"은 "mystring"과 같은 와일드카드로 변환되고 이 문자 시퀀스를 포함하는 모든 경로와 일치합니다.</td>
         <td>예: "Contains: product", 다음과 같이 문자열 product가 포함된 모든 경로와 일치 <ul><li>example.com/products</li><li>example.com/yoga/perfproduct</li><li>example.com/surf/productdescription</li><li>example.com/home/product/page</li></ul></td>
     </tr>

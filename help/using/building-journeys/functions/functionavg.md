@@ -27,7 +27,7 @@ ht-degree: 12%
 
 `avg(<parameter>)`
 
-## 매개 변수
+## 매개변수
 
 지원되는 유형:
 
@@ -52,7 +52,7 @@ ht-degree: 12%
 
 십진수를 반환합니다.
 
-## 예시
+## 예
 
 `avg(@event{BarBeacon.inventory},5)`
 

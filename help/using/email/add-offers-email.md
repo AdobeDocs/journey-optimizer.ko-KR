@@ -11,7 +11,7 @@ keywords: 오퍼, 결정, 이메일, 개인화, 결정
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '621'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 * 오퍼를 만들고 관리하는 방법에 대한 자세한 내용은 [이 섹션](../offers/get-started/starting-offer-decisioning.md)을 참조하세요.
 * 오퍼를 구성하고 의사 결정에 사용하며 이 의사 결정을 전자 메일에 활용하는 방법을 보여 주는 **전체 전체 예제**&#x200B;의 경우 [이 섹션](../offers/offers-e2e.md#insert-decision-in-email)을(를) 확인하십시오.
 
-➡️[이 비디오에서 오퍼를 개인화로 추가하는 방법을 알아봅니다](#video-offers)
+➡️ [이 비디오에서 오퍼를 개인화로 추가하는 방법 알아보기](#video-offers)
 
 ## 이메일에 결정 삽입 {#insert-offers}
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 
       >[!NOTE]
       >
-      >이 예제에서는 **Email** 네임스페이스를 사용합니다. 이 섹션[&#128279;](../audience/get-started-identity.md)에서 Adobe Experience Platform ID 네임스페이스 에 대해 자세히 알아보세요.
+      >이 예제에서는 **Email** 네임스페이스를 사용합니다. 이 섹션[에서 Adobe Experience Platform ID 네임스페이스 ](../audience/get-started-identity.md)에 대해 자세히 알아보세요.
 
    1. **[!UICONTROL ID 값]** 필드에 테스트 프로필을 식별할 값을 입력하십시오. 이 예에서는 테스트 프로필의 이메일 주소를 입력합니다.
 
@@ -103,4 +103,4 @@ ht-degree: 0%
 
 [!DNL Journey Optimizer]의 메시지에 의사 결정 관리 구성 요소를 추가하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3415690?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/334088?quality=12)

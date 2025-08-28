@@ -10,8 +10,8 @@ keywords: 표현식, 데이터, 데이터 유형, 여정
 exl-id: fdfc3287-d733-45fb-ad11-b4238398820a
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 4%
+source-wordcount: '616'
+ht-degree: 5%
 
 ---
 
@@ -165,7 +165,7 @@ toDateTimeOnly 함수에 캡슐화할 수 있습니다.
 
 직렬화 포맷: ISO-8601 확장 오프셋 날짜-시간 포맷.
 
-DateTimeFormatter ISO_LOCAL_DATE_TIME을 사용하여 값을 deserialize 및 serialize합니다. [자세히 알아보기](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;){_blank}.
+DateTimeFormatter ISO_LOCAL_DATE_TIME을 사용하여 값을 deserialize 및 serialize합니다. [자세히 알아보기](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME"){_blank}.
 
 **리터럴 표시**
 

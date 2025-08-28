@@ -11,7 +11,7 @@ keywords: IP, 전달성
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
 source-git-commit: 5e0d683bf52df4992773c6147b9e418241777e5d
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '245'
 ht-degree: 73%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 73%
 
 스팸으로 표시되지 않도록 하기 위해 IP 준비 계획 기능을 사용하여 전송되는 볼륨을 점진적으로 늘릴 수 있습니다. **[!UICONTROL 관리]** 메뉴의 이 새로운 옵션을 사용하면 복잡한 일일 여정을 만드는 대신 통합된 방식으로 더 쉽게 작업을 수행할 수 있습니다.
 
-➡️[이 비디오에서 IP 준비 계획을 만들고 실행하는 방법을 알아봅니다](#video)
+➡️ [이 비디오에서 IP 준비 계획을 만들고 실행하는 방법을 알아봅니다.](#video)
 
 >[!AVAILABILITY]
 >
@@ -52,7 +52,7 @@ IP 준비 계획을 구현하는 주요 단계는 다음과 같습니다.
 
 IP 준비 계획을 만들고 실행하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453847/?learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3432637/?learn=on)
 
 >[!NOTE]
 >

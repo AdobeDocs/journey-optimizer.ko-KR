@@ -20,13 +20,13 @@ ht-degree: 7%
 
 ## 카테고리
 
-날짜
+Date
 
 ## 함수 구문
 
 `nowWithDelta(<parameters>)`
 
-## 매개 변수
+## 매개변수
 
 | 매개변수 | 설명 |
 |--- |--- |
@@ -42,7 +42,7 @@ ht-degree: 7%
 
 dateTime을 반환합니다.
 
-## 예시
+## 예
 
 `nowWithDelta(-2, "hours")`
 

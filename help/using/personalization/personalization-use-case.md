@@ -11,7 +11,7 @@ keywords: 표현식, 편집기, 사용 사례, 개인화
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
 source-git-commit: 1deb04490e53cbd5d67abda229bb4f850055510f
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '531'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 2%
 * 주문 번호, 상태 및 품목 이름을 포함하는 주문 이벤트를 구성합니다. 이 [섹션](../event/about-events.md)을 참조하십시오.
 * 결정을 만듭니다. 이 [섹션](../offers/offer-activities/create-offer-activities.md)을 참조하세요.
 
-➡️[비디오에서 유사한 사용 사례를 살펴보세요](#video)
+➡️ [비디오에서 유사한 사용 사례 검색](#video)
 
 ## 1단계 - 여정 만들기 {#create-journey}
 
@@ -63,7 +63,7 @@ ht-degree: 2%
 
    ![](assets/perso-uc9.png)
 
-1. **상황별 특성** 메뉴를 선택하십시오. 컨텍스트 속성은 여정이 컨텍스트 데이터를 메시지에 전달한 경우에만 사용할 수 있습니다. **Journey Orchestration**&#x200B;을 클릭합니다. 다음과 같은 상황별 정보가 나타납니다.
+1. **상황별 특성** 메뉴를 선택하십시오. 컨텍스트 속성은 여정이 컨텍스트 데이터를 메시지에 전달한 경우에만 사용할 수 있습니다. **Journey Orchestration**&#x200B;을(를) 클릭합니다. 다음과 같은 상황별 정보가 나타납니다.
 
    * **이벤트**: 이 범주는 여정에서 채널 작업 활동 전에 배치된 이벤트의 모든 필드를 다시 그룹화합니다.
    * **여정 속성**: 지정된 프로필의 여정과 관련된 기술 필드(예: 여정 ID 또는 발생한 특정 오류). 자세한 내용은 [Journey Orchestration 설명서](../building-journeys/expression/journey-properties.md)를 참조하세요.
@@ -106,8 +106,8 @@ ht-degree: 2%
 
 1. 오류가 없는지 확인하고 여정을 게시합니다.
 
-## 방법 비디오 {#video}
+## 사용 방법 비디오 {#video}
 
 아래 비디오에서는 여정의 컨텍스트 데이터를 활용하여 이메일을 개인화하는 유사한 사용 사례를 보여줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3428531?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3425027?quality=12)

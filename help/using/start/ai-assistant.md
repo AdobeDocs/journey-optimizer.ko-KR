@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: AI Assistant 작업
-description: AI Assistant를 활용하는 방법 알아보기
+title: AI 어시스턴트로 작업하기
+description: AI 어시스턴트 활용 방법에 대해 알아보기
 feature: Overview
 topic: Content Management
 role: User
@@ -11,22 +11,22 @@ exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
 source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
 source-wordcount: '343'
-ht-degree: 24%
+ht-degree: 47%
 
 ---
 
-# AI Assistant 작업 {#ai-assistant}
+# AI 어시스턴트로 작업하기 {#ai-assistant}
 
 AI 어시스턴트는 Adobe의 개념을 탐색 및 이해하고 사용자의 환경에 적절한 작업 인사이트를 얻는 데 사용할 수 있는 사용자 인터페이스 기능입니다. Adobe Journey Optimizer를 비롯한 Adobe Experience Cloud 전체의 여러 제품에서 사용할 수 있습니다.
 
-AI Assistant에 액세스하려면 상단 막대의 아이콘을 클릭합니다. AI 어시스턴트는 화면 오른쪽에 표시됩니다.
+AI 어시스턴트에 액세스하려면 상단 표시줄에 있는 아이콘을 클릭하십시오. AI 어시스턴트는 화면 오른쪽에 표시됩니다.
 
 ![](assets/do-not-localize/ai-assistant-open.png)
 
 
 >[!CAUTION]
 >
->AI 어시스턴트를 사용하려면 먼저 Adobe Experience Cloud 생성 AI 사용 지침에 동의해야 합니다. [이 페이지](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/home){target="_blank"}에서 계약에 대해 자세히 알아보세요.
+>AI 어시스턴트를 사용하려면 먼저 Adobe Experience Cloud 생성형 AI 사용자 가이드라인에 동의해야 합니다. [이 페이지](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/home){target="_blank"}에서 계약에 대해 자세히 알아보십시오.
 
 Adobe Journey Optimizer에서는 다음 사용 사례에 액세스할 수 있습니다.
 
@@ -62,4 +62,4 @@ Adobe Journey Optimizer에서는 다음 사용 사례에 액세스할 수 있습
 
 답변을 평가하려면 “좋아요” 또는 “싫어요”를 누릅니다.
 
-AI Assistant 사용 방법에 대해 알아보려면 AI Assistant를 사용하여 달성할 수 있는 목표 예제를 참조하고 AI Assistant 작동 방식에 대해 알아보려면 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/home){target="_blank"}를 참조하십시오.
+AI 어시스턴트 사용 방법에 대해 알아보려면 AI 어시스턴트로 달성할 수 있는 목표의 예를 참조하고, AI 어시스턴트의 작동 방식을 알아보려면 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/home){target="_blank"}를 참조하십시오.

@@ -38,13 +38,13 @@ Decisioning을 사용하는 주요 단계는 다음과 같습니다.
 
 1. **적절한 사용 권한을 할당**&#x200B;합니다. 의사 결정 관리자는 의사 결정 관리자와 같은 의사 결정 관련 **[!UICONTROL 역할]**&#x200B;에 액세스할 수 있는 사용자만 사용할 수 있습니다. Decisioning에 액세스할 수 없는 경우 권한을 확장해야 합니다.
 
-   +++의사 결정 관리자 역할을 할당하는 방법 알아보기
+   +++의사 결정 관리자 역할을 할당하는 방법을 알아봅니다
 
    1. [!DNL Permissions] 제품의 사용자에게 역할을 할당하려면 **[!UICONTROL 역할]** 탭으로 이동하여 [의사 결정 관리자]를 선택하십시오.
 
       ![](assets/decision_permission_1.png)
 
-   1. **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
+   1.  **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
 
       ![](assets/decision_permission_2.png)
 

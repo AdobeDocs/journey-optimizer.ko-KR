@@ -36,7 +36,7 @@ ht-degree: 6%
 >
 >현재 웹 채널에는 콘텐츠 템플릿을 사용할 수 없습니다.
 
-콘텐츠 템플릿을 만들고, 편집하고, 삭제하려면 **[!DNL Content Library Manager]** 제품 프로필에 **[!DNL Manage library items]** 권한이 포함되어 있는지 확인하십시오. [자세히 알아보기](../administration/ootb-product-profiles.md#content-library-manager)
+콘텐츠 템플릿을 만들고, 편집하고, 삭제하려면 **[!DNL Manage library items]** 제품 프로필에 **[!DNL Content Library Manager]** 권한이 포함되어 있는지 확인하십시오. [자세히 알아보기](../administration/ootb-product-profiles.md#content-library-manager)
 
 ➡️ [이 비디오에서 템플릿을 만들고 사용하는 방법을 알아보세요](#video-templates)
 
@@ -48,4 +48,4 @@ ht-degree: 6%
 
 [!DNL Journey Optimizer]에서 콘텐츠 템플릿을 만들고 편집하고 사용하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3418588/?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3413743/?quality=12)

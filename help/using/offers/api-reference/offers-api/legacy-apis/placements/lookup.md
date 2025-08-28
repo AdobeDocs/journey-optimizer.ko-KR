@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 42fb17a2-842e-4e20-9013-7227adba0105
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '146'
 ht-degree: 2%
 
 ---
 
 # 배치 조회 {#look-up-placement}
 
-`@id` 배치 또는 요청 경로에 있는 배치 이름을 포함하는 [!DNL Offer Library] API에 대한 GET 요청을 수행하여 특정 배치를 조회할 수 있습니다.
+[!DNL Offer Library] 배치 또는 요청 경로에 있는 배치 이름을 포함하는 `@id` API에 대한 GET 요청을 통해 특정 배치를 조회할 수 있습니다.
 
 **API 형식**
 
@@ -29,7 +29,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PLACEMENT
 | `{CONTAINER_ID}` | 배치가 위치한 컨테이너입니다. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `SCHEMA_PLACEMENT}` | 배치와 연관된 스키마를 정의합니다. | `https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4` |
 | `id` | 엔터티의 `@id` 속성과 일치하는 데 사용되는 문자열입니다. 문자열이 정확하게 일치합니다. `id` 및 `name` 매개 변수는 함께 사용할 수 없습니다. | `xcore:offer-placement:124541309805b7e8` |
-| `name` | 엔티티의 xdm:name 속성과 일치하는 데 사용되는 문자열. 문자열은 대소문자를 사용하여 정확히 일치하지만 와일드카드 문자를 사용할 수 있습니다. `id` 및 `name` 매개 변수는 함께 사용할 수 없습니다. | `Sales and Promotions Placement` |
+| `name` | 엔터티의 xdm:name 속성과 일치하는 데 사용되는 문자열입니다. 문자열은 대소문자를 사용하여 정확히 일치하지만 와일드카드 문자를 사용할 수 있습니다. `id` 및 `name` 매개 변수는 함께 사용할 수 없습니다. | `Sales and Promotions Placement` |
 
 ```shell
 curl -X GET \

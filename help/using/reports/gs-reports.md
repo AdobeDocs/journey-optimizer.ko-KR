@@ -5,10 +5,11 @@ title: ' [!DNL Adobe Journey Optimizer]에서 보고 기능 시작'
 description: ' [!DNL Adobe Journey Optimizer] 보고서에 액세스하고 작업하는 방법을 알아봅니다.'
 role: User
 level: Beginner
-source-git-commit: da2fb137a8af82a8487638dc3d762377dd5dc506
+exl-id: 7961dc5c-7918-4ae3-8361-0ed4bc4f145b
+source-git-commit: 158ae930fa87dc0476273bfbb14c96e780281491
 workflow-type: tm+mt
 source-wordcount: '432'
-ht-degree: 15%
+ht-degree: 24%
 
 ---
 
@@ -16,17 +17,17 @@ ht-degree: 15%
 
 Adobe Journey Optimizer은 강력한 보고 기능을 통해 실용적인 통찰력을 제공합니다. 캠페인, 여정, 랜딩 페이지, 구독 목록 등에 보고서를 사용할 수 있습니다. 사용 가능한 보고서는 아래에 나열되어 있습니다.
 
-또한 [!DNL Journey Optimizer] 경험의 전달성을 최적화하려면 이 섹션[&#128279;](deliverability.md)에 나열된 모범 사례를 사용하는 것이 좋습니다.
+또한 [!DNL Journey Optimizer] 경험의 전달성을 최적화하려면 이 섹션[에 나열된 모범 사례를 사용하는 것이 좋습니다.](deliverability.md)
 
 
 ## 보고서 유형 {#reporting-types}
 
-* **최근 24시간 라이브 보고서** - **[!UICONTROL 라이브 보고서]**&#x200B;를 사용하여 기본 제공 대시보드에서 여정 및 메시지의 영향과 성능을 실시간으로 측정하고 시각화할 수 있습니다. 게재를 보내거나 **[!UICONTROL 최근 24시간]** 탭에서 여정을 실행하는 즉시 **[!UICONTROL 실시간 보고서]**&#x200B;에서 데이터를 사용할 수 있습니다. 이 섹션[&#128279;](live-report.md)에서 실시간 보고서 에 대해 자세히 알아보세요.
+* **최근 24시간 라이브 보고서** - **[!UICONTROL 라이브 보고서]**&#x200B;를 사용하여 기본 제공 대시보드에서 여정 및 메시지의 영향과 성능을 실시간으로 측정하고 시각화할 수 있습니다. 게재를 보내거나 **[!UICONTROL 최근 24시간]** 탭에서 여정을 실행하는 즉시 **[!UICONTROL 실시간 보고서]**&#x200B;에서 데이터를 사용할 수 있습니다. [이 섹션](live-report.md)에서 라이브 보고서에 대해 자세히 알아보십시오.
 
   ![](assets/report_journey.png)
 
 
-* **Customer Journey Analytics을 사용한 모든 시간 보고서** - Journey Optimizer 보고는 Customer Journey Analytics 기능과 완전히 통합되어 두 플랫폼 간에 보고를 표준화하고 데이터 일관성과 안정성을 개선합니다. Journey Optimizer과 Customer Journey Analytics 간의 이러한 원활한 통합을 통해 성능 지표를 보다 명확하게 볼 수 있으므로 사용자가 보다 정보에 입각한 결정을 내릴 수 있습니다. 이 섹션[&#128279;](report-gs-cja.md)에서 실시간 보고서 에 대해 자세히 알아보세요.
+* **Customer Journey Analytics을 사용한 모든 시간 보고서** - Journey Optimizer 보고는 Customer Journey Analytics 기능과 완전히 통합되어 두 플랫폼 간에 보고를 표준화하고 데이터 일관성과 안정성을 개선합니다. 이렇게 Journey Optimizer와 Customer Journey Analytics가 원활하게 통합됨으로써 사용자가 성과 지표를 보다 명확하게 확인하여 더욱 정보에 근거한 결정을 내릴 수 있습니다. 이 섹션[에서 실시간 보고서 ](report-gs-cja.md)에 대해 자세히 알아보세요.
 
   ![](assets/gs-cja-report-1.png)
 

@@ -26,7 +26,7 @@ ht-degree: 12%
 
 `sum(<parameters>)`
 
-## 매개 변수
+## 매개변수
 
 * list정수
 * listDecimal
@@ -52,7 +52,7 @@ ht-degree: 12%
 
 십진수를 반환합니다.
 
-## 예시
+## 예
 
 `sum(@event{BarBeacon.inventory},5)`
 

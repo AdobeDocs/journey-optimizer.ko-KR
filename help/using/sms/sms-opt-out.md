@@ -69,8 +69,8 @@ Adobe Journey Optimizer에서 옵트아웃 상태(Twilio, Infoip 또는 Sinch와
 
 * 아래 비디오에서는 SMS에 대한 이중 옵트인을 구성하는 방법을 알아봅니다.
 
-+++ 비디오 보기
+  +++ 비디오 보기
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3440286/?learn=on&captions=kor)
+  >[!VIDEO](https://video.tv.adobe.com/v/3427129/?learn=on)
 
-+++
+  +++

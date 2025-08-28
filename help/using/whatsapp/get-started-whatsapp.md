@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
 source-git-commit: 31e25c511d8873e54c7b92e65511108a77f84941
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 100%
 
@@ -58,7 +58,7 @@ WhatsApp 채널에는 다음 제한 사항이 적용됩니다.
 
 +++ 비디오 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3470251?learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3470244?learn=on)
 
 +++
 

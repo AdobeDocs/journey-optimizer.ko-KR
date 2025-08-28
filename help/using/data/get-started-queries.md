@@ -11,7 +11,7 @@ exl-id: 6f32f068-429a-4039-bb76-d190069e7402
 source-git-commit: ceead77b1b0f03d853f69c763a09c9fbd0584723
 workflow-type: tm+mt
 source-wordcount: '101'
-ht-degree: 100%
+ht-degree: 83%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 ![](assets/queries-home.png)
 
-[쿼리 편집기]를 사용하는 방법은 [이 설명서](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html?lang=ko){target="_blank"}를 참조하십시오.
+[이 설명서](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html?lang=ko){target="_blank"}에서 쿼리 편집기를 사용하는 방법을 알아보세요.
 
 >[!MORELIKETHIS]
 >

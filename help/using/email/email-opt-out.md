@@ -12,7 +12,7 @@ exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '991'
-ht-degree: 23%
+ht-degree: 26%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 23%
 
 수신자가 옵트아웃 링크를 클릭하면 그에 따라 구독 취소 요청이 처리됩니다.
 
-해당 프로필의 선택 사항이 업데이트되었는지 확인하려면 Experience Platform으로 이동하여 [해당 프로필을 찾아봅니다](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/ui/user-guide#attributes-tab). **[!UICONTROL 특성]** 탭에서 **[!UICONTROL 선택]**&#x200B;의 값이 **[!UICONTROL 아니요]**(으)로 변경되었음을 확인할 수 있습니다. 자세한 내용은 [Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}를 참조하세요.
+해당 프로필의 선택 사항이 업데이트되었는지 확인하려면 Experience Platform으로 이동하여 [해당 프로필을 찾아봅니다](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#attributes-tab). **[!UICONTROL 특성]** 탭에서 **[!UICONTROL 선택]**&#x200B;의 값이 **[!UICONTROL 아니요]**(으)로 변경되었음을 확인할 수 있습니다. [Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}에서 자세한 내용을 알아보십시오.
 
 ![](assets/opt-out-profile-choice.png)
 
@@ -48,7 +48,7 @@ ht-degree: 23%
 
 ### 이메일 헤더의 원클릭 구독 취소 URL {#unsubscribe-header}
 
-원클릭 목록 구독 취소 URL은 이메일 발신자 정보 옆에 표시되는 구독 취소 링크 또는 단추이며 한 번의 클릭으로 수신자가 메일링 목록에서 즉시 옵트아웃할 수 있습니다. [이 섹션](list-unsubscribe.md)에서 **[!UICONTROL 구독 취소 목록]** 옵션을 관리하는 방법을 알아보세요.
+원클릭 목록 구독 취소 URL은 이메일 발신자 정보 옆에 표시되는 구독 취소 링크 또는 단추이며 한 번의 클릭으로 수신자가 메일링 목록에서 즉시 옵트아웃할 수 있습니다. **[!UICONTROL 이 섹션]**&#x200B;에서 [구독 취소 목록](list-unsubscribe.md) 옵션을 관리하는 방법을 알아보세요.
 
 ### 이메일 콘텐츠의 원클릭 옵트아웃 {#one-click-opt-out}
 
@@ -63,7 +63,7 @@ ht-degree: 23%
 
    >[!NOTE]
    >
-   >[채널 구성 수준](email-settings.md#list-unsubscribe)에서 **[!UICONTROL 목록 구독 취소]** 옵션을 사용하도록 설정하고 기본 **[!UICONTROL 한 번 클릭 구독 취소 URL]** 옵션을 선택하지 않은 경우 사용자가 이메일 헤더의 구독 취소 링크를 클릭할 때도 이 랜딩 페이지 URL이 사용됩니다. [자세히 알아보기](list-unsubscribe.md)
+   >**[!UICONTROL 채널 구성 수준]**&#x200B;에서 [목록 구독 취소](email-settings.md#list-unsubscribe) 옵션을 사용하도록 설정하고 기본 **[!UICONTROL 한 번 클릭 구독 취소 URL]** 옵션을 선택하지 않은 경우 사용자가 이메일 헤더의 구독 취소 링크를 클릭할 때도 이 랜딩 페이지 URL이 사용됩니다. [자세히 알아보기](list-unsubscribe.md)
 
    ![](assets/message-tracking-opt-out-confirmation.png)
 
@@ -89,7 +89,7 @@ ht-degree: 23%
 
 ### 전제 조건 {#prereq-lp}
 
-2단계 옵트아웃 메커니즘을 설정하려면 고유한 구독 취소 랜딩 페이지를 만들어야 합니다. 첫 번째 랜딩 페이지는 메시지에서 연결되며 콜 투 액션 버튼을 포함해야 합니다. 사용자가 버튼을 클릭하면 확인 메시지가 표시됩니다.
+2단계 옵트아웃 메커니즘을 설정하려면 고유한 구독 취소 랜딩 페이지를 만들어야 합니다. 첫 번째 랜딩 페이지는 메시지에서 연결되며 call-to-action 버튼을 포함해야 합니다. 사용자가 버튼을 클릭하면 확인 메시지가 표시됩니다.
 
 Adobe Journey Optimizer에서 랜딩 페이지를 만들어 [이 페이지](../landing-pages/lp-use-cases.md#opt-out)에서 구독 취소를 관리하는 방법을 알아봅니다.
 
@@ -117,7 +117,7 @@ Adobe Journey Optimizer에서 랜딩 페이지를 만들어 [이 페이지](../l
 * x-api-key
 * x-gw-ims-org-id
 * x-sandbox-name
-* 인증(기술 계정의 사용자 토큰)
+* 인증(기술 계정 인증용 사용자 토큰)
 
 요청 본문:
 

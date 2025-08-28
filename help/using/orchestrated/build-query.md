@@ -7,7 +7,7 @@ exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '1717'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 97%
 
 1. 속성 옆에 있는 ![액션 더 보기 버튼을 표시하는 이미지](assets/do-not-localize/rule-builder-icon-more.svg) 버튼을 클릭하여 다음 추가 옵션에 액세스합니다.
 
-+++ 값 분포
+   +++ 값 분포
 
    테이블 내에서 주어진 속성에 대한 값 분포를 분석합니다. 이 기능은 사용 가능한 값, 그 개수, 백분율을 이해하는 데 유용합니다. 또한 쿼리를 작성하거나 표현식을 만들 때 대문자 사용이나 맞춤법이 일관되지 않은 것과 같은 문제를 방지하는 데도 도움이 됩니다.
 
@@ -50,9 +50,9 @@ ht-degree: 97%
 
    ![값 분포 인터페이스를 보여 주는 이미지](assets/rule-builder-distribution-values.png)
 
-+++
+   +++
 
-+++ 즐겨찾기에 추가
+   +++ 즐겨찾기에 추가
 
    즐겨찾기 메뉴에 속성을 추가하면 가장 자주 사용하는 속성으로 바로 갈 수 있습니다. 최대 20개의 속성을 즐겨찾기에 추가할 수 있습니다. 즐겨 찾는 속성과 최근 속성은 조직 내 각 사용자와 연결되어 다양한 기기 간 접근성을 보장하고 여러 장치에 걸쳐 원활한 경험을 제공합니다.
 
@@ -60,7 +60,7 @@ ht-degree: 97%
 
    ![즐겨찾기 인터페이스를 보여 주는 이미지](assets/rule-builder-favorites.png)
 
-+++
+   +++
 
 1. 선택한 속성을 조건에 추가하려면 **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
 
@@ -127,7 +127,7 @@ ht-degree: 97%
 
 ![Brand 테이블의 스크린샷](assets/rule-builder-1-1-attribute-table.png)
 
-+++
++++ 
 
 **1-N 링크**&#x200B;의 경우 아래 예와 같이 쿼리를 구체화하기 위한 하위 조건을 정의할 수 있습니다.
 
@@ -145,7 +145,7 @@ ht-degree: 97%
 
    ![Purchase 테이블의 스크린샷](assets/rule-builder-1-n-collection.png)
 
-+++
++++ 
 
 ### 데이터 집계를 사용한 사용자 정의 조건 {#aggregate}
 

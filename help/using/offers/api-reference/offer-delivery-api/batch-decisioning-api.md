@@ -30,7 +30,7 @@ ht-degree: 3%
 
 * 데이터 세트를 메시지 게재 공급업체 API로 내보냅니다.
 
-<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=ko) to learn more about exporting audiences.) -->
+<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html) to learn more about exporting audiences.) -->
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ ht-degree: 3%
 * **데이터 집합당 실행 중인 일괄 처리 작업 수**: 데이터 집합당 한 번에 최대 5개의 일괄 처리 작업을 실행할 수 있습니다. 출력 데이터 세트가 동일한 다른 모든 일괄 처리 요청이 큐에 추가됩니다. 이전 작업 실행이 완료되면 대기 중인 작업이 선택되어 처리됩니다.
 * **빈도 제한**: 하루에 한 번 발생하는 프로필 스냅숏에서 일괄 처리가 실행됩니다. [!DNL Batch Decisioning] API는 빈도를 제한하며 항상 가장 최근 스냅숏의 프로필을 로드합니다.
 
-## 시작하기 {#getting-started}
+## 시작 {#getting-started}
 
 이 API를 사용하기 전에 다음 사전 요구 단계를 완료하십시오.
 

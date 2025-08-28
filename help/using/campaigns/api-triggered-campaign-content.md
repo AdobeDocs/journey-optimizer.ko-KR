@@ -8,13 +8,13 @@ topic: Content Management
 role: Developer
 level: Experienced
 keywords: 캠페인, API 트리거, REST, 최적화 도구, 메시지
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
+exl-id: b7f12c65-c1af-4c49-b126-c13a51940a43
+source-git-commit: 45c95d5682b35c8afb161b75c88942c010b36d1c
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 2%
 
 ---
-
 
 # API에서 트리거된 캠페인 콘텐츠 편집 {#api-content}
 

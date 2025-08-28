@@ -452,7 +452,7 @@ Datetimeonly는 Datetimeonly와 비교할 수 있습니다.
 
 &quot;abc1234&quot;를 반환합니다.
 
-## 날짜 {#date}
+## Date {#date}
 
 ### +
 

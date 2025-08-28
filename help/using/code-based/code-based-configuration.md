@@ -144,7 +144,7 @@ ht-degree: 22%
 
    미리보기 URL은 앱 내의 앱 개발자가 구성한 딥링크입니다. 이렇게 하면 딥링크 체계와 일치하는 모든 URL이 모바일 웹 브라우저가 아닌 앱 내에서 열립니다. 앱에 대해 구성된 딥링크 체계를 얻으려면 앱 개발자에게 문의하십시오.
 
-+++  다음 리소스는 앱 구현에 대한 딥링크를 구성하는 데 도움이 될 수 있습니다
+   +++  다음 리소스는 앱 구현에 대한 딥링크를 구성하는 데 도움이 될 수 있습니다
 
    * Android의 경우
 
@@ -156,11 +156,11 @@ ht-degree: 22%
 
       * [앱에서 범용 링크 지원](https://developer.apple.com/documentation/xcode/supporting-universal-links-in-your-app)
 
-+++
+   +++
 
    >[!NOTE]
    >
-   >환경을 미리 보는 동안 문제가 발생하는 경우 [이 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link)를 참조하세요.
+   >환경을 미리 보는 동안 문제가 발생하는 경우 [이 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link)를 참조하세요.
 
 ### 기타 플랫폼 {#other}
 

@@ -9,7 +9,7 @@ keywords: updateTimeZone, 함수, 표현식, 여정
 exl-id: 1bf4662e-55d0-4631-af93-1430ec7ed7e2
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '61'
 ht-degree: 9%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 9%
 
 ## 카테고리
 
-날짜
+Date
 
 ## 함수 구문
 
 `updateTimeZone(<parameters>)`
 
-## 매개 변수
+## 매개변수
 
 * 시간대 id: 문자열
 * dateTime
@@ -37,7 +37,7 @@ ht-degree: 9%
 
 날짜/시간을 반환합니다.
 
-## 예시
+## 예
 
 `updateTimeZone( toDateTime("2023-08-28T08:15:30.123-07:00"), "Europe/Paris"))`
 

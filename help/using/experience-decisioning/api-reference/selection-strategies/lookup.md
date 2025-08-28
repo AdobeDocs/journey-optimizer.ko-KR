@@ -5,17 +5,17 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: dcff8803404228bbed40e998d802bb6c0f4ac67e
+exl-id: db590963-b45b-4844-ac12-775cc955b03e
+source-git-commit: 7bfbb88c2817d18b7897a7fe1657ebf11be6eb58
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 6%
 
 ---
 
-
 # 선택 전략 조회 {#list-selection-strategy}
 
-요청 경로에 ID가 포함된 GET 라이브러리 API에 대한 오퍼 요청을 수행하여 특정 선택 전략을 조회할 수 있습니다.
+요청 경로에 ID를 포함하는 오퍼 라이브러리 API에 대한 GET 요청을 수행하여 특정 선택 전략을 조회할 수 있습니다.
 
 **API 형식**
 

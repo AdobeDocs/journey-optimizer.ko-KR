@@ -1,5 +1,5 @@
 ---
-title: 브랜드 일관성
+title: 브랜드 정렬
 description: 브랜드 점수를 사용하여 브랜드 내 콘텐츠를 만들고, 검증하고, 관리하는 방법에 대해 알아봅니다.
 topic: Content Management
 role: User
@@ -12,7 +12,7 @@ ht-degree: 18%
 
 ---
 
-# 브랜드 일관성 {#brands-score}
+# 브랜드 정렬 {#brands-score}
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_score"
@@ -76,6 +76,6 @@ ht-degree: 18%
 
 +++ 비디오 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3470553/?learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3470544/?learn=on)
 
 +++

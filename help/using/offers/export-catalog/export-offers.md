@@ -53,7 +53,7 @@ ht-degree: 0%
 
 +++
 
-+++ _experience > 의사 결정 > 달력 제약 조건
++++ _experience > 의사 결정 > 달력 제약 조건 
 
 **필드:** calendarConstraints
 **제목:** 일정 제약 조건 세부 정보
@@ -94,7 +94,7 @@ ht-degree: 0%
 
 +++
 
-+++_경험 > 의사 결정 > 콘텐츠 > 구성 요소
++++_experience > 의사 결정 > 컨텐츠 > 구성 요소
 
 **필드:** 구성 요소
 **설명:** 모든 언어 변형을 포함하여 결정 옵션을 나타내는 콘텐츠의 구성 요소입니다. 특정 구성 요소는 &#39;dx:format&#39;, &#39;dc:subject&#39; 및 &#39;dc:language&#39; 또는 이들의 조합으로 찾을 수 있습니다. 이 메타데이터는 오퍼와 연결된 콘텐츠를 찾거나 나타내고 배치 계약에 따라 통합하는 데 사용됩니다.
@@ -123,7 +123,6 @@ ht-degree: 0%
      **예:** &quot;application/vnd.adobe.photoshop&quot;
 
    * **언어**
-
      **필드:** 언어
      **제목:** 언어
      **설명:** 리소스의 언어입니다. \n언어는 XDM의 다른 곳에서 사용되는 BCP 47의 일부인 [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt)에 정의된 대로 언어 코드에 지정됩니다.
@@ -182,7 +181,7 @@ ht-degree: 0%
   **유형:** 문자열
   **예:** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
-+++_경험 > 의사 결정 > 내용 > 배치
++++_experience > 의사 결정 > 컨텐츠 > 배치
 
 **필드:** 배치
 **제목:** 배치
@@ -219,7 +218,7 @@ ht-degree: 0%
 
 +++
 
-+++_경험 > 의사 결정 > profileConstraints > 설명
++++_experience > 의사 결정 > profileConstraints > 설명
 
 **필드:** 설명
 **제목:** 설명
@@ -228,7 +227,7 @@ ht-degree: 0%
 
 +++
 
-+++_경험 > 의사 결정 > profileConstraints > 자격 규칙
++++_experience > 의사 결정 > profileConstraints > 자격 규칙
 
 **필드:** eligibilityRule
 **제목:** 자격 규칙
@@ -237,7 +236,7 @@ ht-degree: 0%
 
 +++
 
-+++_경험 > 의사 결정 > profileConstraints > 프로필 제약 유형
++++_experience > 의사 결정 > profileConstraints > 프로필 제약 유형
 
 **필드:** profileConstraintType
 **제목:** 프로필 제한 유형
@@ -252,7 +251,7 @@ ht-degree: 0%
 
 +++
 
-+++_경험 > 의사 결정 > profileConstraints > 세그먼트 식별자
++++_experience > 의사 결정 > profileConstraints > 세그먼트 식별자
 
 **필드:** segmentIdentities
 **제목:** 세그먼트 식별자
@@ -299,7 +298,7 @@ ht-degree: 0%
 
 +++
 
-+++_경험 > 의사 결정 > 순위 > 주문 평가
++++_experience > 의사 결정 > 순위 > 주문 평가
 
 **필드:** 순서
 **제목:** 순서 평가
@@ -330,7 +329,7 @@ ht-degree: 0%
 
 +++
 
-+++_경험 > 의사 결정 > 순위 > 우선 순위
++++_experience > 의사 결정 > 순위 > 우선 순위
 
 **필드:** 우선 순위
 **제목:** 우선 순위
@@ -352,12 +351,12 @@ ht-degree: 0%
 
 <!--Field without name under tags: Description: An identifier of a collection qualifier object. The value is the @id of the collection qualifier that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
 
-+++_
++++_repo
 
 **필드:** _repo
 **유형:** 개체
 
-+++
++++ 
 
 +++ _repo > 의사 결정 옵션 ETag
 

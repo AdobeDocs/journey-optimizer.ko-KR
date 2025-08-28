@@ -10,7 +10,8 @@ level: Beginner
 keywords: 통합
 hide: true
 hidefromtoc: true
-source-git-commit: e8512ddab2548c8b2156331c335632cde8686f80
+exl-id: 104f283e-f6a5-431b-919a-d97b83d19632
+source-git-commit: ad5fdefed71d75470dc243310e74372e0b08ba2a
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 1%
@@ -72,7 +73,7 @@ ht-degree: 1%
 
    * **[!UICONTROL 인증 없음]**: 자격 증명이 필요하지 않은 열린 API의 경우.
 
-   * **[!UICONTROL API 키]**: 정적 API 키를 사용하여 요청을 인증합니다. **[!UICONTROL API 키 이름{&#x200B;1},]** API 키 값{3&#x200B;}을(를) 입력하고 **[!UICONTROL 위치]**&#x200B;를 지정하십시오.**&#x200B;**
+   * **[!UICONTROL API 키]**: 정적 API 키를 사용하여 요청을 인증합니다. **[!UICONTROL API 키 이름{&#x200B;1},]** API 키 값{3&#x200B;}을(를) 입력하고 **[!UICONTROL 위치]**&#x200B;를 지정하십시오.****
 
    * **[!UICONTROL 기본 인증]**: 표준 HTTP 기본 인증을 사용합니다. **[!UICONTROL 사용자 이름]** 및 **[!UICONTROL 암호]**&#x200B;를 입력하십시오.
 
@@ -131,7 +132,3 @@ ht-degree: 1%
 이제 통합 개인화가 귀하의 콘텐츠에 성공적으로 적용되어 각 수신자가 귀하가 구성한 속성에 따라 맞춤형의 관련 경험을 받게 됩니다.
 
 ![](assets/external-integration-content-7.png)
-
-
-
-

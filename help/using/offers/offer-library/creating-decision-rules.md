@@ -1,5 +1,5 @@
 ---
-title: 의사 결정 규칙 만들기
+title: 결정 규칙 만들기
 description: 오퍼를 표시할 대상을 정의하는 의사 결정 규칙을 만드는 방법을 알아봅니다
 badge: label="레거시" type="Informative"
 feature: Decision Management
@@ -10,11 +10,11 @@ exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
 source-wordcount: '408'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
-# 의사 결정 규칙 만들기 {#create-decision-rules}
+# 결정 규칙 만들기 {#create-decision-rules}
 
 ## 의사 결정 규칙 기본 정보 {#about}
 
@@ -52,7 +52,7 @@ Adobe Experience Platform에서 사용할 수 있는 데이터를 기반으로 �
 
    >[!NOTE]
    >
-   >의사 결정 규칙을 만들기 위해 제공된 세그먼트 빌더는 **[!UICONTROL 세그먼테이션]** 서비스에 사용되는 것과 비교하여 몇 가지 특성을 제공합니다. 그러나 [세그먼트 빌더](../../audience/creating-a-segment-definition.md) 설명서에 설명된 전역 프로세스는 오퍼 결정 규칙을 작성하는 데 여전히 유효합니다. [Adobe Experience Platform Segmentation Service 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ko)에서 자세히 알아보세요.
+   >의사 결정 규칙을 만들기 위해 제공된 세그먼트 빌더는 **[!UICONTROL 세그먼테이션]** 서비스에 사용되는 것과 비교하여 몇 가지 특성을 제공합니다. 그러나 [세그먼트 빌더](../../audience/creating-a-segment-definition.md) 설명서에 설명된 전역 프로세스는 오퍼 결정 규칙을 작성하는 데 여전히 유효합니다. [Adobe Experience Platform Segmentation Service 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html)에서 자세히 알아보세요.
 
 1. 작업 영역에서 새 필드를 추가하고 구성할 때 **[!UICONTROL 대상 속성]** 창에 대상에 속하는 예상 프로필에 대한 정보가 표시됩니다. 데이터를 업데이트하려면 **[!UICONTROL 예상 새로 고침]**&#x200B;을 클릭하세요.
 
@@ -70,8 +70,8 @@ Adobe Experience Platform에서 사용할 수 있는 데이터를 기반으로 �
 
 >[!CAUTION]
 >
->이벤트 기반 오퍼는 현재 [!DNL Journey Optimizer]에서 지원되지 않습니다. [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ko#events){target="_blank"}을(를) 기반으로 의사 결정 규칙을 만드는 경우 오퍼에서 이를 활용할 수 없습니다.
+>이벤트 기반 오퍼는 현재 [!DNL Journey Optimizer]에서 지원되지 않습니다. [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}을(를) 기반으로 의사 결정 규칙을 만드는 경우 오퍼에서 이를 활용할 수 없습니다.
 
 ## 튜토리얼 비디오 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341375?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/329373?quality=12)

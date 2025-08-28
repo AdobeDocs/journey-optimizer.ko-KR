@@ -217,7 +217,7 @@ if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.p
 
 +++
 
-+++날씨 증가
++++기상 증대
 
 >[!BEGINTABS]
 

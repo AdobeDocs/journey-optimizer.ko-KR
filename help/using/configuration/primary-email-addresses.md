@@ -83,7 +83,7 @@ ht-degree: 20%
 
 ### 여정 매개 변수에서 {#journey-parameters}
 
-[여정](../email/create-email.md#create-email-journey-campaign)에 **[!UICONTROL 전자 메일]** 작업을 추가하면 기본 전자 메일 주소가 여정 고급 매개 변수 아래에 표시됩니다.
+**[!UICONTROL 여정]**&#x200B;에 [전자 메일](../email/create-email.md#create-email-journey-campaign) 작업을 추가하면 기본 전자 메일 주소가 여정 고급 매개 변수 아래에 표시됩니다.
 
 일부 특정 컨텍스트에서는 **[!UICONTROL address]** 필드 오른쪽에 있는 **[!UICONTROL 매개 변수 재정의 사용]** 아이콘을 사용하여 이 값을 재정의할 수 있습니다.
 

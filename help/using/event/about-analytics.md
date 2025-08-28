@@ -12,7 +12,7 @@ exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
 source-git-commit: 0be35e14dba32523a7f28aaaa28d41ee693d44ba
 workflow-type: tm+mt
 source-wordcount: '755'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -61,7 +61,7 @@ Adobe Analytics 또는 Adobe Experience Platform Web SDK에서 가져온 데이�
 
 ![](assets/ajo-aa_4.png)
 
-[Adobe Analytics 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko){target="_blank"} 및 [자습서](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko){target="_blank"}에서 Adobe Experience Platform 소스 커넥터에 대해 자세히 알아보세요.
+[Adobe Analytics 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html){target="_blank"} 및 [자습서](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html){target="_blank"}에서 Adobe Experience Platform 소스 커넥터에 대해 자세히 알아보세요.
 
 ## 이 구성 활성화 {#activate-analytics-data}
 
@@ -102,7 +102,7 @@ Adobe Analytics 또는 Adobe Experience Platform Web SDK에서 가져온 데이�
    * **[!UICONTROL 이름]**: **[!UICONTROL 이벤트]**&#x200B;의 이름을 개인화합니다.
    * **[!UICONTROL 유형]**: **[!UICONTROL 단일]** 유형을 선택합니다. [자세히 알아보기](../event/about-events.md)
    * **[!UICONTROL 이벤트 ID 유형]**: **[!UICONTROL 규칙 기반]** 이벤트 ID 유형을 선택합니다. [자세히 알아보기](../event/about-events.md#event-id-type)
-   * **[!UICONTROL 스키마]**: [&#128279;](#leverage-analytics-data) 전에 만든 Analytics 또는 WebSDK 스키마 을(를) 선택하십시오.
+   * **[!UICONTROL 스키마]**: [ 전에 만든 Analytics 또는 WebSDK 스키마 ](#leverage-analytics-data)을(를) 선택하십시오.
    * **[!UICONTROL 필드]**: 페이로드 필드를 선택합니다. [자세히 알아보기](../event/about-creating.md#define-the-payload-fields)
    * **[!UICONTROL 여정 ID 조건]**: 이벤트를 트리거할 이벤트를 식별하는 조건을 정의합니다.
 

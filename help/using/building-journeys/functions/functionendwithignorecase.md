@@ -26,7 +26,7 @@ ht-degree: 17%
 
 `endWithIgnoreCase(<parameters>)`
 
-## 매개 변수
+## 매개변수
 
 | 매개변수 | 유형 |
 |-----------|------------------|

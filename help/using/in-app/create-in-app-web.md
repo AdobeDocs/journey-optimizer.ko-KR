@@ -20,9 +20,9 @@ ht-degree: 7%
 
 웹 인앱 채널을 설정하려면 아래 단계를 따르십시오.
 
-* 웹 인앱 메시지를 지원하려면 웹 SDK 태그 확장 프로그램을 설치합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=ko)
+* 웹 인앱 메시지를 지원하려면 웹 SDK 태그 확장 프로그램을 설치합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=en)
 
-* 트리거를 사용자 지정합니다. 웹 인앱 메시지는 플랫폼으로 데이터를 전송하는 트리거와 수동 트리거의 두 가지 유형을 지원합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-in-app-messaging.html?lang=ko)
+* 트리거를 사용자 지정합니다. 웹 인앱 메시지는 플랫폼으로 데이터를 전송하는 트리거와 수동 트리거의 두 가지 유형을 지원합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-in-app-messaging.html)
 
 * 웹 인앱 구성을 만듭니다. [자세히 알아보기](inapp-configuration.md)
 
@@ -75,7 +75,7 @@ ht-degree: 7%
 
    1. 사용자 지정 **[!UICONTROL 트레이트]**&#x200B;를 추가하고 규칙을 보다 세밀하게 조정하려면 **[!UICONTROL And]** 조건을 선택하십시오.
 
-      +++사용 가능한 트레이트 를 참조하십시오.
+      +++사용 가능한 트레이트를 참조하십시오.
 
       | 패키지 | 트레이트 | 정의 |
       |---|---|---|
@@ -97,7 +97,7 @@ ht-degree: 7%
 
 1. 필요한 경우 인앱 메시지를 표시할 **[!UICONTROL 요일]** 또는 **[!UICONTROL 시간]**&#x200B;을(를) 선택하십시오.
 
-1. 캠페인은 특정 날짜 또는 되풀이되는 빈도로 실행되도록 디자인됩니다. [이 섹션](../campaigns/create-campaign.md#schedule)에서 캠페인의 **[!UICONTROL 일정]**&#x200B;을 구성하는 방법을 알아보세요.
+1. 캠페인은 특정 날짜 또는 되풀이되는 빈도로 실행되도록 디자인됩니다. **[!UICONTROL 이 섹션]**&#x200B;에서 캠페인의 [일정](../campaigns/create-campaign.md#schedule)을 구성하는 방법을 알아보세요.
 
    ![](assets/in_app_web_surface_6.png)
 

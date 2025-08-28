@@ -15,7 +15,7 @@ ht-degree: 6%
 
 # 결정 조회 {#look-up-decision}
 
-요청 경로에 결정 `id`을(를) 포함하는 [!DNL Offer Library] API에 대한 GET 요청을 수행하여 특정 결정을 조회할 수 있습니다.
+요청 경로에 결정 [!DNL Offer Library]을(를) 포함하는 `id` API에 대한 GET 요청을 수행하여 특정 결정을 조회할 수 있습니다.
 
 **API 형식**
 

@@ -17,7 +17,7 @@ ht-degree: 10%
 
 맞춤형 오퍼는 자격 규칙 및 제한에 따라 사용자 정의 가능한 마케팅 메시지입니다.
 
-컨테이너 ID를 제공하는 동안 [!DNL Offer Library] API에 대한 POST 요청을 만들어 개인화된 오퍼를 만들 수 있습니다.
+컨테이너 ID를 제공하는 동안 [!DNL Offer Library] API에 대한 POST 요청을 수행하여 개인화된 오퍼를 만들 수 있습니다.
 
 ## Accept 및 Content-Type 헤더 {#accept-and-content-type-headers}
 

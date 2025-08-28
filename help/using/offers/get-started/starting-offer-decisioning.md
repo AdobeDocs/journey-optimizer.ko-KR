@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '911'
 ht-degree: 100%
 
@@ -115,12 +115,12 @@ ht-degree: 100%
 
 아래 비디오에서는 의사 결정 관리의 주요 기능, 아키텍처 및 사용 사례에 대한 소개를 제공합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/340417?quality=12&learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/326961?quality=12&learn=on)
 
 ### 오퍼 정의 및 관리 {#use-offer-decisioning}
 
 아래 비디오에서는 의사 결정 관리를 사용하여 오퍼를 정의 및 관리하고 실시간 고객 데이터를 활용하는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/340354?quality=12&learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
 
 

@@ -15,7 +15,7 @@ ht-degree: 7%
 
 # 컬렉션 수식어 업데이트 {#update-collection-qualifier}
 
-[!DNL Offer Library] API에 대한 PATCH 요청을 통해 컨테이너에서 컬렉션 한정자(이전에 &quot;태그&quot;라고 함)를 수정하거나 업데이트할 수 있습니다.
+[!DNL Offer Library] API에 PATCH 요청을 수행하여 컨테이너에서 컬렉션 한정자(이전에 &quot;태그&quot;라고 함)를 수정하거나 업데이트할 수 있습니다.
 
 사용 가능한 작업을 포함하여 JSON 패치에 대한 자세한 내용은 공식 [JSON 패치 설명서](https://jsonpatch.com/)를 참조하세요.
 

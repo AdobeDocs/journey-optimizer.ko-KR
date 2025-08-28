@@ -6,7 +6,7 @@ role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
 source-git-commit: aa28d13b2ad874e4dc61510bfdc250415e8e8be1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 100%
 
@@ -68,4 +68,4 @@ Journey Optimizer는 콘텐츠를 테스트할 수 있는 두 가지 경험을 �
 
 테스트 프로필을 사용하여 받은 편지함 간에 이메일 렌더링을 테스트하고, 테스트 프로필로 개인화된 이메일을 미리 보고, 증명을 보내는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430340?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3425026?quality=12)

@@ -43,4 +43,4 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/placements/offerPlacemen
 
 성공적인 응답은 HTTP 상태 200과 빈 본문을 반환합니다.
 
-배치에 대한 조회(GET) 요청을 시도하여 삭제를 확인할 수 있으며 배치가 제거되었기 때문에 HTTP 상태 404(찾을 수 없음)를 수신해야 합니다.
+배치에 조회(GET) 요청을 시도하여 삭제를 확인할 수 있으며 배치가 제거되었기 때문에 HTTP 상태 404(찾을 수 없음)를 수신해야 합니다.

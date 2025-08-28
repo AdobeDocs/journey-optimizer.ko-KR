@@ -26,7 +26,7 @@ ht-degree: 3%
 
 `toDuration(<parameter>)`
 
-## 매개 변수
+## 매개변수
 
 | 매개변수 | 설명 |
 |--- |--- |
@@ -45,7 +45,7 @@ ht-degree: 3%
 
 기간을 반환합니다.
 
-## 예시
+## 예
 
 `toDuration("PT10H")`
 

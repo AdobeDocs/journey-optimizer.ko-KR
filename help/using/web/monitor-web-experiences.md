@@ -17,7 +17,7 @@ ht-degree: 3%
 
 ## 웹 보고서 확인 {#check-web-reports}
 
-웹 여정이 라이브되면 [캠페인 보고서](../reports/journey-global-report-cja-web.md) 및 [캠페인 보고서](../reports/campaign-global-report-cja-web.md)의 **[!UICONTROL 웹]** 탭을 확인하여 노출 횟수, 클릭률 및 웹 페이지와의 참여 수와 같은 요소를 비교할 수 있습니다.
+웹 여정이 라이브되면 **[!UICONTROL 캠페인 보고서]** 및 [캠페인 보고서](../reports/journey-global-report-cja-web.md)의 [웹](../reports/campaign-global-report-cja-web.md) 탭을 확인하여 노출 횟수, 클릭률 및 웹 페이지와의 참여 수와 같은 요소를 비교할 수 있습니다.
 
 <!--You can check the **[!UICONTROL Web]** tab of the campaign reports. Learn more about the campaign web [live report](../reports/campaign-live-report.md#web-tab) and [global report](../reports/campaign-global-report-cja.md#web).-->
 

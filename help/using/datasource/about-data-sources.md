@@ -11,8 +11,8 @@ keywords: 데이터, 소스, 여정, 플랫폼
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
 source-git-commit: d498f32a42b13bfdee20f32a589dd31c77d88fa8
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 52%
+source-wordcount: '343'
+ht-degree: 65%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 52%
 
 데이터 소스에는 다음의 두 가지 유형이 있습니다.
 
-* 실시간 고객 프로필 서비스에 대한 연결을 정의하는 **사전 구성된** Adobe Experience Platform 데이터 원본입니다. 데이터 소스(기본 데이터 소스). [이 페이지](../datasource/adobe-experience-platform-data-source.md)를 참조하십시오.
+* 실시간 고객 프로필 서비스에 대한 연결을 정의하는 **사전 구성된** Adobe Experience Platform 데이터 원본입니다. 데이터 소스(기본 제공 데이터 소스). [이 페이지](../datasource/adobe-experience-platform-data-source.md)를 참조하십시오.
 * 외부 시스템에 대한 연결을 정의할 수 있는 **external** 데이터 원본입니다. 이러한 소스는 직접 만들 수 있습니다. [이 페이지](../datasource/external-data-sources.md)를 참조하십시오.
 
 >[!NOTE]
@@ -49,11 +49,11 @@ ht-degree: 52%
 >
 >데이터 소스에 대해서는 스키마 관계가 지원되지 않습니다.
 
-Adobe Experience Platform Data Source 및 외부 데이터 소스를 구성하는 방법, 그리고 여정에서 데이터를 찾아서 사용하는 방법에 대한 자세한 내용을 보려면 이 [자습서 비디오](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html?lang=ko){target="_blank"}를 시청하십시오.
+Adobe Experience Platform 데이터 소스 및 외부 데이터 소스를 구성하는 방법, 그리고 여정에서 데이터를 찾아서 사용하는 방법과 관련된 자세한 내용을 확인하려면 이 [자습서 비디오](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target="_blank"}를 시청하십시오.
 
 ## 사용 방법 비디오 {#video}
 
 데이터 소스의 정의를 이해하고 Experience Platform 및 외부 데이터 소스를 구성하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416636?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/334256?quality=12)
 

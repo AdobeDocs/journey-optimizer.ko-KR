@@ -32,17 +32,17 @@ ht-degree: 16%
 
   예:
 
-+++ 마케팅 관리자인 경우:
+  +++ 마케팅 관리자인 경우:
 
   모든 팀원이 고객과 동시에 보낸 메시지의 사본을 받도록 할 수 있습니다. 이렇게 하면 팀이 예상 레이아웃, 활성 URL, 올바른 텍스트 및 이미지를 사용하여 메시지를 전송할 수 있습니다. 이러한 모든 작업은 실행 전에 계획대로 수행됩니다.
 
-+++
+  +++
 
-+++ 제품 소유자인 경우:
+  +++ 제품 소유자인 경우:
 
   고객에게 전송된 실제 메시지를 추적해야 합니다. 실제로 팀과 지도부는 일부 캠페인에 관심이 있을 수 있으며 게재 시간에 메시지 사본을 받기 위해 임시로 추가해야 할 수 있습니다.
 
-+++
+  +++
 
 * 시드 목록을 사용하는 또 다른 이유는 메일링 목록 보호 때문입니다. 메일링 목록에 시드 주소를 삽입하면 포함된 시드 주소가 메일링 목록으로 전송된 게재를 수신하므로 타사에서 시드 주소를 사용하고 있는지 여부를 알 수 있습니다.
 
@@ -83,7 +83,7 @@ ht-degree: 16%
 >id="ajo_seed_list_details"
 >title="시드 목록 정의"
 >abstract="보증 목적으로 특정 내부 주소를 게재 대상자에게 자동으로 추가하려면 시드 목록을 사용합니다. 시드 목록을 사용하면 발송된 메시지 사본을 모니터링하여 모든 표시 요소가 올바른지 확인하고 메일링 목록을 보호할 수 있습니다. 현재 이 기능은 이메일 채널에만 적용됩니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=ko#use-seed-list" text="시드 목록이란 무엇입니까?"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="시드 목록이란 무엇입니까?"
 
 >[!CONTEXTUALHELP]
 >id="ajo_seed_addresses"

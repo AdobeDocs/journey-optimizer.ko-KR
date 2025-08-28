@@ -27,7 +27,7 @@ ht-degree: 1%
 * [캠페인](#campaign)
 * [채널](#channel)
 
-Customer Journey Analytics Workspace과 데이터를 필터링하고 분석하는 방법에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/home)를 참조하세요.
+Customer Journey Analytics Workspace과 데이터를 필터링하고 분석하는 방법에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)를 참조하세요.
 
 ## 강조 표시 {#highlights}
 
@@ -79,7 +79,7 @@ Customer Journey Analytics Workspace과 데이터를 필터링하고 분석하�
 
 ![](assets/cja-channel-campaigns.png)
 
-**[!UICONTROL Campaign]** 테이블은 모든 항목을 포함하는 대시보드로 작동하며 캠페인에 대한 중요한 지표에 대한 자세한 개요를 제공합니다. 여기에는 프로필 및 전송 수와 같은 필수 데이터가 포함되어 있어 캠페인의 성능 및 참여 수준에 대한 포괄적인 통찰력을 제공합니다.
+**[!UICONTROL Campaign]** 테이블은 모든 항목을 포함하는 대시보드로 작동하며 캠페인에 대한 중요한 지표에 대한 자세한 개요를 제공합니다. 여기에는 프로필 및 전송 수와 같은 필수 데이터가 포함되어 있어 캠페인의 성능 및 참여 수준에 대한 포괄적인 insight을 제공합니다.
 
 이 표에 나열된 캠페인 이름을 클릭하면 각 캠페인을 개별적으로 쉽게 탐색할 수 있으며, 새 탭에서 포괄적인 보고서에 즉시 액세스할 수 있습니다.
 

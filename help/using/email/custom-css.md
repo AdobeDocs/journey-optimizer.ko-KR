@@ -12,7 +12,7 @@ exl-id: e4645bc7-fb99-4fcc-8d0e-bf8b9efc828e
 source-git-commit: 5593758448216efcc82971b1072b7fc8c9303572
 workflow-type: tm+mt
 source-wordcount: '733'
-ht-degree: 7%
+ht-degree: 10%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 7%
 >title="자체 CSS 입력"
 >abstract="콘텐츠의 모양을 보다 유연하게 제어하려면 이메일 디자이너 내에서 사용자 정의 CSS를 직접 추가하여 고급 및 특정 스타일을 적용할 수 있습니다."
 
-전자 메일을 디자인할 때 [!DNL Journey Optimizer] [전자 메일 Designer](get-started-email-design.md) 내에서 직접 사용자 지정 CSS를 추가할 수 있습니다. 이 기능을 사용하면 고급 및 특정 스타일을 적용하여 보다 유연하게 콘텐츠를 표시하고 제어할 수 있습니다.
+전자 메일을 디자인할 때 [!DNL Journey Optimizer] [전자 메일 Designer](get-started-email-design.md) 내에서 직접 사용자 지정 CSS를 추가할 수 있습니다. 이 기능을 사용하면 고급 및 특정 스타일을 적용하여 콘텐츠의 유연성을 높이고 외관을 제어할 수 있습니다.
 
 ## 사용자 지정 CSS 정의 {#define-custom-css}
 
@@ -174,7 +174,7 @@ body {
 
 사용자 지정 CSS는 아래 예와 같이 `<head>` 특성이 있는 `<style>` 태그의 일부로 `data-name="global-custom"` 섹션의 끝에 추가됩니다. 이렇게 하면 사용자 지정 스타일이 콘텐츠에 전체적으로 적용됩니다.
 
-+++ 샘플 참조
++++ 샘플 참조 
 
 ```html
 <!DOCTYPE html>
@@ -235,13 +235,13 @@ body {
 
 * `global-custom` 스타일 태그에 `data-disabled` 특성이 `true`(으)로 설정되어 있는지 확인하십시오. 이 경우 사용자 지정 CSS는 적용되지 않습니다.
 
-+++ 예:
+  +++ 예:
 
   ```html
   <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
   ```
 
-+++
+  +++
 
 * 콘텐츠에 적용된 [테마](apply-email-themes.md)를 포함한 다른 CSS 규칙으로 CSS가 재정의되지 않았는지 확인하십시오.
 
@@ -249,7 +249,7 @@ body {
 
    * 선언이 우선하도록 선언에 `!important`을(를) 추가해 보십시오.
 
-+++ 예:
+     +++ 예:
 
      ```css
      .acr-Form {
@@ -257,4 +257,4 @@ body {
      }
      ```
 
-+++
+     +++

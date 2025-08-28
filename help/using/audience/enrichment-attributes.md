@@ -39,7 +39,7 @@ ht-degree: 3%
 >
 >작성 워크플로우를 사용하여 만든 대상의 보강 속성을 사용하려면 &quot;ExperiencePlatform&quot; 데이터 Source 내의 필드 그룹에 추가되었는지 확인하십시오.
 >
->+++ 필드 그룹에 데이터 보강 속성을 추가하는 방법 알아보기>
+>+++ 필드 그룹에 데이터 보강 속성을 추가하는 방법 알아보기
 >
 >1. &quot;관리&quot; > &quot;구성&quot; > &quot;데이터 소스&quot;로 이동합니다.
 >1. &quot;Experience Platform&quot;를 선택하고 필드 그룹을 만들거나 편집합니다.

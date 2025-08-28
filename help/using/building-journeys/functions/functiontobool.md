@@ -29,7 +29,7 @@ ht-degree: 11%
 
 `toBool(<parameter>)`
 
-## 매개 변수
+## 매개변수
 
 * decimal
 * 부울
@@ -48,7 +48,7 @@ ht-degree: 11%
 
 부울 반환.
 
-## 예시
+## 예
 
 `toBool("true")`
 

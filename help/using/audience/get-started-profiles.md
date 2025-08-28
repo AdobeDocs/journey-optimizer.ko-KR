@@ -36,7 +36,7 @@ ht-degree: 25%
 >
 >* [실시간 고객 프로필 설명서](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ko){target="_blank"}
 >* [실시간 고객 프로필 데이터 및 세분화를 위한 기본 보호 기능](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails){target="_blank"}
->* {&#x200B;0}데이터 수집 설명서[&#128279;](https://experienceleague.adobe.com/ko/docs/experience-platform/ingestion/home){target="_blank"}
+>* {&#x200B;0}데이터 수집 설명서[](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home){target="_blank"}
 
 ## 프로필 대시보드
 
@@ -46,7 +46,7 @@ ht-degree: 25%
 >
 >조직에서 [!DNL Adobe Journey Optimizer]를 처음 사용할 때, 아직 활성 [프로필] 데이터 세트나 병합 정책을 만들지 않은 경우에는 **프로필** 대시보드가 보이지 않습니다. 대신 **개요** 탭에는 실시간 고객 프로필을 시작하는 데 도움이 되는 Adobe Experience Platform 설명서에 대한 링크가 표시됩니다. **프로필 대시보드**&#x200B;로 작업하는 방법과 대시보드에 표시된 지표에 대한 자세한 정보를 알아보려면 [이 섹션](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ko){target="_blank"}을 참조하세요.
 
-여러 소스에서 데이터 조각을 한데 모아 결합하여 각 개별 고객에 대한 전체 보기를 볼 수 있습니다. 이 데이터를 결합할 때 병합 정책은 데이터의 우선 순위 지정 방법과 어떤 데이터가 결합되어 통합 보기를 생성하는지 결정하는 데 사용되는 규칙입니다. 이 [설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ko){target="_blank"}에서 **병합 정책**&#x200B;에 대해 자세히 알아보세요.
+여러 소스에서 데이터 조각을 한데 모아 결합하여 각 개별 고객에 대한 전체 보기를 볼 수 있습니다. 이 데이터를 결합할 때 병합 정책은 데이터의 우선 순위 지정 방법과 어떤 데이터가 결합되어 통합 보기를 생성하는지 결정하는 데 사용되는 규칙입니다. 이 **설명서**&#x200B;에서 [병합 정책](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ko){target="_blank"}에 대해 자세히 알아보세요.
 
 ![](assets/profiles-home.png)
 
@@ -54,4 +54,4 @@ ht-degree: 25%
 
 Adobe Experience Platform에서 실시간 고객 프로필을 조합하고 업데이트하는 방법과 이러한 프로필에 액세스하여 사용하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/31709?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/27251?quality=12)

@@ -8,13 +8,13 @@ topic: Content Management
 role: Developer
 level: Experienced
 keywords: 캠페인, API 트리거, REST, 최적화 도구, 메시지
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
+exl-id: bda7e337-a246-4f01-b935-4a234d4c4baa
+source-git-commit: 45c95d5682b35c8afb161b75c88942c010b36d1c
 workflow-type: tm+mt
 source-wordcount: '213'
-ht-degree: 22%
+ht-degree: 24%
 
 ---
-
 
 # API에서 트리거된 캠페인 속성 정의 {#api-properties}
 
@@ -34,7 +34,7 @@ ht-degree: 22%
 
    ![](assets/create-campaign-properties.png)
 
-1. **태그** 필드를 사용하여 Adobe Experience Platform 통합 태그를 캠페인에 지정하십시오. 태그를 할당하면 캠페인을 간단히 분류하고 캠페인 목록에서 편하게 검색할 수 있습니다. [태그를 사용하여 작업하는 방법을 알아봅니다](../start/search-filter-categorize.md#tags).
+1. **태그** 필드를 사용하여 Adobe Experience Platform 통합 태그를 캠페인에 지정하십시오. 태그를 할당하면 캠페인을 간단히 분류하고 캠페인 목록에서 편하게 검색할 수 있습니다. [태그 작업 방법에 대해 알아보십시오](../start/search-filter-categorize.md#tags).
 
 1. 액세스 레이블에 따라 이 캠페인에 대한 액세스를 제한할 수 있습니다. 액세스 제한을 추가하려면 이 페이지 상단의 **[!UICONTROL 액세스 관리]** 버튼을 찾아보십시오. 사용 권한이 있는 레이블만 선택해야 합니다. [개체 수준 액세스 제어에 대해 자세히 알아보세요](../administration/object-based-access.md).
 

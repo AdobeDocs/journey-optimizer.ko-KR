@@ -17,7 +17,7 @@ ht-degree: 9%
 
 컬렉션은 오퍼의 카테고리와 같이 마케터가 정의한 사전 정의된 조건을 기반으로 하는 오퍼의 하위 집합입니다.
 
-POST ID를 제공하는 동안 [!DNL Offer Library] API에 대한 컨테이너를 요청하여 컬렉션을 만들 수 있습니다.
+컨테이너 ID를 제공하는 동안 [!DNL Offer Library] API에 대한 POST 요청을 수행하여 컬렉션을 만들 수 있습니다.
 
 ## Accept 및 Content-Type 헤더 {#accept-and-content-type-headers}
 

@@ -5,17 +5,17 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
+exl-id: 8a4e09ec-57bc-48ad-b626-6a15ba987791
+source-git-commit: 7bfbb88c2817d18b7897a7fe1657ebf11be6eb58
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 6%
 
 ---
 
-
 # 의사 결정 항목 조회 {#lookup-decision-items}
 
-요청 경로에 ID가 포함된 GET 라이브러리 API에 대한 오퍼 요청을 수행하여 특정 의사 결정 항목을 조회하려면 다음을 수행하십시오.
+요청 경로에 ID가 포함된 오퍼 라이브러리 API에 대해 GET 요청을 수행하여 특정 의사 결정 항목을 조회하려면 다음을 수행하십시오.
 
 **API 형식**
 

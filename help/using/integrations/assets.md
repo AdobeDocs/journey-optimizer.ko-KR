@@ -26,13 +26,13 @@ ht-degree: 6%
 
 * **[!DNL Assets as a Cloud Service]**: Adobe Experience Manager Assets as a Cloud Service은 효율적인 디지털 자산 관리 및 Dynamic Media 작업을 위해 사용하기 쉬운 클라우드 솔루션을 제공합니다. 인공 지능과 머신 러닝을 포함한 고급 기능을 매끄럽게 통합합니다.
 
-  자세한 내용은 [Adobe Experience Manager as a Cloud Service 설명서](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/overview.html?lang=ko){target="_blank"}를 참조하세요.
+  자세한 내용은 [Adobe Experience Manager as a Cloud Service 설명서](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/overview.html){target="_blank"}를 참조하세요.
 
 * **[!DNL Assets Essentials]**: Experience Manager Assets Essentials는 통합 에셋 관리 및 공동 작업을 위한 Assets as a Cloud Service 경량 솔루션입니다. 현대적이고 간소화된 인터페이스를 통해 크리에이티브 및 마케팅 팀이 디지털 에셋을 간편하게 저장, 검색 및 배포할 수 있습니다.
 
-  자세한 내용은 [Adobe Experience Manager Assets Essentials 설명서](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=ko){target="_blank"}를 참조하세요.
+  자세한 내용은 [Adobe Experience Manager Assets Essentials 설명서](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}를 참조하세요.
 
-계약에 따라 왼쪽 메뉴 **[!UICONTROL Assets]** 섹션을 통해 **[!DNL Adobe Journey Optimizer]**&#x200B;에서 직접 **[!DNL Adobe Experience Manager Assets Essentials]** 또는 **[!DNL Adobe Experience Manager Assets as a Cloud Service]**&#x200B;에 액세스할 수 있습니다. [전자 메일 콘텐츠를 디자인](../email/get-started-email-design.md)할 때 에셋 및 폴더에 액세스할 수도 있습니다.
+계약에 따라 왼쪽 메뉴 **[!DNL Adobe Experience Manager Assets Essentials]** Assets **[!DNL Adobe Experience Manager Assets as a Cloud Service]** 섹션을 통해 **[!DNL Adobe Journey Optimizer]**&#x200B;에서 직접 **[!UICONTROL 또는]**&#x200B;에 액세스할 수 있습니다. [전자 메일 콘텐츠를 디자인](../email/get-started-email-design.md)할 때 에셋 및 폴더에 액세스할 수도 있습니다.
 
 ## 전제 조건{#assets-prerequisites}
 
@@ -40,14 +40,14 @@ ht-degree: 6%
 
 >[!TAB Adobe Experience Manager Assets Essentials]
 
-[!DNL Adobe Experience Manager Assets Essentials]을(를) 사용하기 전에 **Assets Essentials 소비자 사용자** 또는/및 **Assets Essentials 사용자** 제품 프로필에 사용자를 추가해야 합니다. [Assets Essentials 설명서](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=ko#add-user-groups){target="_blank"}에서 자세히 알아보세요.
+[!DNL Adobe Experience Manager Assets Essentials]을(를) 사용하기 전에 **Assets Essentials 소비자 사용자** 또는/및 **Assets Essentials 사용자** 제품 프로필에 사용자를 추가해야 합니다. [Assets Essentials 설명서](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-user-groups){target="_blank"}에서 자세히 알아보세요.
 
 >[!NOTE]
 >2022년 1월 6일 이전에 획득한 Journey Optimizer 제품의 경우 조직에 **[!DNL Adobe Experience Manager Assets Essentials]**&#x200B;을(를) 배포해야 합니다. [Assets Essentials 배포](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ko){target="_blank"} 섹션에서 자세히 알아보세요.
 
 >[!TAB Adobe Experience Manager Assets as a Cloud Service]
 
-**[!DNL Adobe Experience Manager Assets as a Cloud Service]**&#x200B;을(를) 사용하기 전에 Assets Cloud Services에 사용자를 추가해야 합니다. [Adobe Experience Manager Assets as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/security/ims-support.html?lang=ko)에서 자세히 알아보세요.
+**[!DNL Adobe Experience Manager Assets as a Cloud Service]**&#x200B;을(를) 사용하기 전에 Assets Cloud Services에 사용자를 추가해야 합니다. [Adobe Experience Manager Assets as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/security/ims-support.html)에서 자세히 알아보세요.
 
 >[!ENDTABS]
 
@@ -63,13 +63,13 @@ ht-degree: 6%
 
    ![](assets/media_library_4.png)
 
-+++ Assets 저장소를 전환하는 방법에 대해 알아봅니다.
+   +++ Assets 저장소를 전환하는 방법에 대해 알아봅니다.
 
    Assets 저장소를 변경하려면 오른쪽 상단의 계정 아이콘을 선택하고 **[!UICONTROL 저장소 선택]**&#x200B;을 클릭합니다.
 
    ![](assets/media_library_3.png)
 
-+++
+   +++
 
 1. 중앙 섹션 또는 트리 보기에서 폴더를 두 번 클릭하여 엽니다.
 
@@ -83,9 +83,9 @@ ht-degree: 6%
 
 1. **[!UICONTROL 파일 업로드]**&#x200B;에서 **[!UICONTROL 찾아보기]**&#x200B;를 클릭하고 **[!UICONTROL 파일 찾아보기]** 또는 **[!UICONTROL 폴더 찾아보기]**&#x200B;를 원할 경우 선택합니다.
 
-1. 업로드할 파일을 선택합니다. 완료되면 **[!UICONTROL 업로드]**&#x200B;를 클릭합니다. 에셋 관리 방법에 대한 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=ko)를 참조하세요.
+1. 업로드할 파일을 선택합니다. 완료되면 **[!UICONTROL 업로드]**&#x200B;를 클릭합니다. 에셋 관리 방법에 대한 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html)를 참조하세요.
 
-1. Adobe Photoshop Express으로 에셋을 추가로 편집하려면 에셋을 더블 클릭합니다. 그런 다음 오른쪽 메뉴에서 **[!UICONTROL 편집 모드]** 아이콘을 선택합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html?lang=ko){target="_blank"}.
+1. Adobe Photoshop Express으로 에셋을 추가로 편집하려면 에셋을 더블 클릭합니다. 그런 다음 오른쪽 메뉴에서 **[!UICONTROL 편집 모드]** 아이콘을 선택합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html){target="_blank"}.
 
    ![](assets/media_library_12.png)
 

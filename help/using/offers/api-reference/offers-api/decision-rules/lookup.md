@@ -15,7 +15,7 @@ ht-degree: 5%
 
 # 의사 결정 규칙 조회 {#lookup-decision-rule}
 
-요청 경로에 결정 규칙 `id`을(를) 포함하는 [!DNL Offer Library] API에 대한 GET 요청을 수행하여 특정 결정 규칙을 조회할 수 있습니다.
+요청 경로에 결정 규칙 [!DNL Offer Library]을(를) 포함하는 `id` API에 대한 GET 요청을 수행하여 특정 결정 규칙을 조회할 수 있습니다.
 
 **API 형식**
 

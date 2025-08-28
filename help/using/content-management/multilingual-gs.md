@@ -52,11 +52,11 @@ Adobe Journey Optimizer은 현재 Adobe Journey Optimizer과 독립적으로 서
 
 다국어 콘텐츠의 경우 다음 설정을 정의해야 합니다.
 
-* Journey Optimizer에서 번역 기능을 사용하려면 해당 역할에 API를 할당해야 합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
+* Journey Optimizer에서 번역 기능을 사용하려면 해당 역할에 API를 할당해야 합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
 
 * 다국어 콘텐츠 만들기를 시작하려면 사용자에게 **[!UICONTROL 언어 설정 관리]** 권한이 부여되어야 합니다. 자동 흐름의 경우 사용자는 **[!UICONTROL 번역 서비스]** 기능과 관련된 권한도 필요합니다. [권한에 대해 자세히 알아보기](../administration/permissions.md)
 
-+++ 다국어 관련 권한을 할당하는 방법 알아보기
+  +++ 다국어 관련 권한을 할당하는 방법 알아보기
 
    1. **권한** 제품에서 **역할** 탭으로 이동하여 원하는 **역할**&#x200B;을 선택하십시오.
 
@@ -76,11 +76,11 @@ Adobe Journey Optimizer은 현재 Adobe Journey Optimizer과 독립적으로 서
 
    1. 이전에 사용자를 생성하지 않은 경우 [이 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/abac/permissions-ui/users)를 참조하십시오.
 
-+++
+  +++
 
 * 번역 페이지에 액세스할 수 없는 경우 번역 기능을 활성화하고 **[!UICONTROL 번역 서비스]** 관련 권한을 부여해야 합니다. [자세히 알아보기](../administration/ootb-permissions.md)
 
-+++ 번역 기능 활성화 방법 알아보기
+  +++ 번역 기능 활성화 방법 알아보기
 
    1. 다음 오류 페이지가 표시되면 **[!UICONTROL 번역]** 기능이 아직 활성화되지 않았음을 나타냅니다. 액세스를 요청하려면 조직 및 샌드박스 관리자에게 문의하십시오.
 
@@ -94,10 +94,10 @@ Adobe Journey Optimizer은 현재 Adobe Journey Optimizer과 독립적으로 서
 
    1. 이 절차가 실패해도 동일한 오류 페이지가 표시됩니다. 이 경우 추가 지원이 필요한 경우 Adobe 담당자에게 문의하십시오.
 
-+++
+  +++
 
 ## 사용 방법 비디오 {#video}
 
 단일 캠페인 또는 여정 내에서 여러 언어로 콘텐츠를 만드는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452120?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3430921/)

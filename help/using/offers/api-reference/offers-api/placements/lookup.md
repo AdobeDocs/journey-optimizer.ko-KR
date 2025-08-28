@@ -15,7 +15,7 @@ ht-degree: 5%
 
 # 배치 조회 {#look-up-placement}
 
-`id` 배치를 포함하는 [!DNL Offer Library] API에 대한 GET 요청을 수행하여 특정 배치를 조회할 수 있습니다.
+배치 [!DNL Offer Library]을(를) 포함하는 `id` API에 대한 GET 요청을 수행하여 특정 배치를 조회할 수 있습니다.
 
 **API 형식**
 

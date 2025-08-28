@@ -58,7 +58,7 @@ ht-degree: 28%
 
 ## 콘텐츠에 액세스 {#content-access}
 
-컨텐츠 액세스 가능성을 구성하려면 각 샌드박스에 컨텐츠 공유 폴더를 할당합니다. 관리자용 [!DNL Admin Console]에 표시된 **[!UICONTROL 저장소]** 탭에서 공유 폴더를 만들고 구성할 수 있습니다. 시스템 관리자로서 [!DNL Admin Console]에 액세스할 수 있는 경우 공유 폴더를 만들고 다른 액세스 수준의 위임자를 공유 폴더에 추가할 수 있습니다.
+컨텐츠 액세스 가능성을 구성하려면 각 샌드박스에 컨텐츠 공유 폴더를 할당합니다. 관리자용 **[!UICONTROL 에 표시된]**&#x200B;저장소[!DNL Admin Console] 탭에서 공유 폴더를 만들고 구성할 수 있습니다. 시스템 관리자로서 [!DNL Admin Console]에 액세스할 수 있는 경우 공유 폴더를 만들고 다른 액세스 수준의 위임자를 공유 폴더에 추가할 수 있습니다.
 
 ![](assets/do-not-localize/content_access.png)
 
@@ -70,4 +70,4 @@ ht-degree: 28%
 
 샌드박스의 정의, 그리고 개발과 프로덕션 샌드박스를 구분하는 방법을 이해합니다. 샌드박스를 만들고, 재설정하고, 삭제하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416656?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/334355?quality=12)

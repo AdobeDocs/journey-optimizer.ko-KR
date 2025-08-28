@@ -108,7 +108,7 @@ ht-degree: 13%
 
    >[!NOTE]
    >
-   >시스템 생성 이벤트의 경우 [!DNL Journey Optimizer]에서 이벤트를 식별할 수 있도록 선택한 필드 목록에 **[!UICONTROL eventID]** 필드가 자동으로 추가됩니다. 이벤트를 푸시하는 시스템은 ID를 생성하지 않아야 하며 페이로드 미리 보기에서 사용할 수 있는 ID를 사용해야 합니다. [이 섹션](../event/about-creating.md#preview-the-payload)을 참조하십시오.
+   >시스템 생성 이벤트의 경우 **[!UICONTROL 에서 이벤트를 식별할 수 있도록 선택한 필드 목록에]** eventID[!DNL Journey Optimizer] 필드가 자동으로 추가됩니다. 이벤트를 푸시하는 시스템은 ID를 생성하지 않아야 하며 페이로드 미리 보기에서 사용할 수 있는 ID를 사용해야 합니다. [이 섹션](../event/about-creating.md#preview-the-payload)을 참조하십시오.
 
 1. 필요한 필드 선택을 마쳤으면 **[!UICONTROL 확인]**&#x200B;을 클릭하거나 **[!UICONTROL Enter]**&#x200B;을 누릅니다.
 
@@ -127,7 +127,7 @@ ID 유형(이전의 &#39;네임스페이스&#39;)을 사용하면 이벤트와 �
 
 기존 ID 유형을 사용하거나 Adobe Experience Platform ID 서비스를 사용하여 새 ID 유형을 만들 수 있습니다. 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=ko-KR){target="_blank"}를 참조하세요.
 
-기본 ID가 있는 스키마를 선택하면 **[!UICONTROL 프로파일러 식별자]** 및 **[!UICONTROL ID 유형]** 필드가 미리 채워집니다. ID가 정의되지 않은 경우 _identityMap > id_&#x200B;을(를) 기본 키로 선택합니다. 그런 다음 ID 유형을 선택해야 하며, _identityMap > id_&#x200B;을(를) 사용하여 키가 **[!UICONTROL ID 유형]** 필드 아래에 미리 채워집니다.
+기본 ID가 있는 스키마를 선택하면 **[!UICONTROL 프로파일러 식별자]** 및 **[!UICONTROL ID 유형]** 필드가 미리 채워집니다. ID가 정의되지 않은 경우 _identityMap > id_&#x200B;을(를) 기본 키로 선택합니다. 그런 다음 ID 유형을 선택해야 하며, **[!UICONTROL identityMap > id]**&#x200B;을(를) 사용하여 키가 _ID 유형_ 필드 아래에 미리 채워집니다.
 
 필드를 선택하면 기본 ID 필드에 태그가 지정됩니다.
 

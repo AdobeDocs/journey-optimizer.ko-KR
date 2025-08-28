@@ -8,7 +8,7 @@ level: Experienced
 exl-id: 50f4119f-c730-4883-867e-eac83793dced
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '261'
 ht-degree: 5%
 
 ---
@@ -56,8 +56,8 @@ curl -X GET \
 | --------- | ----------- | ------- |
 | `q` | 선택한 필드에서 검색할 선택적 쿼리 문자열입니다. 쿼리 문자열은 소문자여야 하며 토큰화되지 않고 특수 문자를 이스케이프 처리할 수 있도록 큰따옴표로 묶을 수 있습니다. `+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` 문자는 특별한 의미가 있으므로 쿼리 문자열에 표시할 때 백슬래시로 이스케이프해야 합니다. | `discounted offers` |
 | `qop` | q 쿼리 문자열 매개 변수의 값에 AND 또는 OR 연산자를 적용합니다. | `AND` / `OR` |
-| `field` | 검색을 제한할 선택적 필드 목록입니다. 이 매개 변수는 다음과 같이 반복될 수 있습니다. field=field1[,field=field2,...] 및 (경로 표현식은 _instance.xdm:name과 같이 점으로 구분된 경로의 형태임) | `_instance.xdm:name` |
-| `orderBy` | 특정 속성별로 결과를 정렬합니다. 제목(`orderby=-title`) 앞에 `-`을(를) 추가하면 제목별로 내림차순(Z-A)으로 항목이 정렬됩니다. | `-repo:createdDate` |
+| `field` | 검색을 제한할 선택적 필드 목록입니다. 이 매개 변수는 다음과 같이 반복될 수 있습니다. field=field1[,field=field2,...] 및 (경로 표현식은 _instance.xdm:name과 같이 점으로 구분된 경로 형식입니다.) | `_instance.xdm:name` |
+| `orderBy` | 특정 속성별로 결과를 정렬합니다. 제목(`-`) 앞에 `orderby=-title`을(를) 추가하면 제목별로 내림차순(Z-A)으로 항목이 정렬됩니다. | `-repo:createdDate` |
 | `limit` | 반환되는 개인화된 오퍼의 수를 제한합니다. | `limit=5` |
 
 **응답**

@@ -26,7 +26,7 @@ ht-degree: 14%
 
 `round(<parameters>)`
 
-## 매개 변수
+## 매개변수
 
 * decimal
 * 정수

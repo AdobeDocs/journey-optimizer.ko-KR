@@ -20,13 +20,13 @@ ht-degree: 10%
 
 ## 카테고리
 
-날짜
+Date
 
 ## 함수 구문
 
 `currentTimeInMillis()`
 
-## 매개 변수
+## 매개변수
 
 이 함수는 매개 변수를 사용하지 않습니다.
 
@@ -36,7 +36,7 @@ ht-degree: 10%
 
 정수 반환.
 
-## 예시
+## 예
 
 `currentTimeInMillis()`
 

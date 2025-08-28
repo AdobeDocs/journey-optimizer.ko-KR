@@ -26,7 +26,7 @@ ht-degree: 7%
 
 `toString(<parameter>)`
 
-## 매개 변수
+## 매개변수
 
 | 매개변수 | 설명 |
 |--- |--- |

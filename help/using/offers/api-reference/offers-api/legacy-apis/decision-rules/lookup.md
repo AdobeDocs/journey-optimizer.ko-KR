@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 3099736d-7109-4c94-aea6-053a9b885278
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '164'
 ht-degree: 3%
 
 ---
 
 # 의사 결정 규칙 조회 {#lookup-decision-rule}
 
-결정 규칙 `@id`을(를) 포함하는 [!DNL Offer Library] API에 대한 GET 요청이나 요청 경로에 결정 규칙 이름을 지정하여 특정 결정 규칙을 조회할 수 있습니다.
+결정 규칙 [!DNL Offer Library]을(를) 포함하는 `@id` API에 대한 GET 요청 또는 요청 경로에 결정 규칙 이름을 지정하여 특정 결정 규칙을 조회할 수 있습니다.
 
 **API 형식**
 
@@ -29,7 +29,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ELIGIBILI
 | `{CONTAINER_ID}` | 결정 규칙이 있는 컨테이너입니다. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_ELIGIBILITY_RULE}` | 의사 결정 규칙과 연관된 스키마를 정의합니다. | `https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3` |
 | `id` | 엔터티의 `@id` 속성과 일치하는 데 사용되는 문자열입니다. 문자열이 정확하게 일치합니다. 매개 변수 `id`과(와) `name`은(는) 함께 사용할 수 없습니다. | `xcore:eligibility-rule:124e0faf5b8ee89b` |
-| `name` | 엔티티의 xdm:name 속성과 일치하는 데 사용되는 문자열. 문자열은 대소문자를 사용하여 정확히 일치하지만 와일드카드 문자를 사용할 수 있습니다. `id` 및 `name` 매개 변수는 함께 사용할 수 없습니다. | `Sales rule` |
+| `name` | 엔터티의 xdm:name 속성과 일치하는 데 사용되는 문자열입니다. 문자열은 대소문자를 사용하여 정확히 일치하지만 와일드카드 문자를 사용할 수 있습니다. `id` 및 `name` 매개 변수는 함께 사용할 수 없습니다. | `Sales rule` |
 
 **요청**
 

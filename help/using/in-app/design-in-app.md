@@ -87,7 +87,7 @@ ht-degree: 26%
 * **[!UICONTROL 원]**
 * 미디어 URL 또는 Assets의 **[!UICONTROL 사용자 지정 이미지]**.
 
-+++고급 서식이 있는 추가 옵션
++++고급 서식의 추가 옵션
 
 **[!UICONTROL 고급 서식 모드]**&#x200B;가 켜져 있으면 **[!UICONTROL 색상]** 옵션을 선택하여 단추의 색상과 불투명도를 선택할 수 있습니다.
 
@@ -107,7 +107,7 @@ ht-degree: 26%
 미디어 URL을 입력하거나 **[!UICONTROL Assets 선택]** 아이콘을 클릭하여 Assets 라이브러리에 저장된 자산을 인앱 메시지에 직접 추가합니다. [자산 관리에 대해 자세히 알아보세요](../integrations/assets.md).
 화면 읽기 응용 프로그램에 **[!UICONTROL 대체 텍스트]**&#x200B;를 추가할 수도 있습니다.
 
-+++고급 서식이 있는 추가 옵션
++++고급 서식의 추가 옵션
 
 **[!UICONTROL 고급 서식 모드]**&#x200B;가 켜져 있으면 미디어의 **[!UICONTROL 최대 높이]** 및 **[!UICONTROL 최대 너비]**&#x200B;를 사용자 지정할 수 있습니다.
 
@@ -126,7 +126,7 @@ ht-degree: 26%
 
 **[!UICONTROL Personalization]** 아이콘을 사용하여 개인화를 추가하십시오. Adobe Journey Optimizer 개인화 편집기 [의 개인화에 대한 자세한 내용은 이 섹션](../personalization/personalize.md)을 참조하세요.
 
-+++고급 서식이 있는 추가 옵션
++++고급 서식의 추가 옵션
 
 **[!UICONTROL 고급 서식 모드]**&#x200B;가 켜져 있으면 **[!UICONTROL 머리글]** 및 **[!UICONTROL 본문]**&#x200B;을 선택할 수 있습니다.
 
@@ -157,7 +157,7 @@ ht-degree: 26%
 
 1. 여러 단추를 추가하려면 **[!UICONTROL 단추 추가]**&#x200B;를 클릭하세요.
 
-+++고급 서식이 있는 추가 옵션
++++고급 서식의 추가 옵션
 
 **[!UICONTROL 고급 서식 모드]**&#x200B;가 켜져 있으면 **[!UICONTROL 단추]**&#x200B;를 선택할 수 있습니다.
 
@@ -222,7 +222,7 @@ ht-degree: 26%
 
 기본적으로 활성화되어 있는 UI 인계 옵션을 사용하면 인앱 메시지 뒤의 배경을 어둡게 하여 콘텐츠에 초점을 강조할 수 있습니다.
 
-+++고급 서식이 있는 추가 옵션
++++고급 서식의 추가 옵션
 
 **[!UICONTROL 고급 서식 모드]**&#x200B;가 켜져 있으면 다음 옵션을 사용하여 메시지를 개인화할 수 있습니다.
 
@@ -266,4 +266,4 @@ ht-degree: 26%
 
 아래 비디오에서는 인앱 메시지를 작성하고 테스트하는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3422079?quality=12&learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3410471?quality=12&learn=on)

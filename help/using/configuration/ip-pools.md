@@ -12,7 +12,7 @@ exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
 source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
 workflow-type: tm+mt
 source-wordcount: '721'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
@@ -62,7 +62,7 @@ IP 풀을 만들려면 다음 단계를 수행합니다.
    >
    >인스턴스와 함께 프로비저닝된 모든 IP 주소를 목록에서 사용할 수 있습니다.
 
-IP를 선택하면 목록에서 IP와 연결된 PTR 레코드를 볼 수 있습니다. 이렇게 하면 IP 풀을 만들 때 각 IP에 대한 브랜딩 정보를 확인하고 예를 들어 동일한 브랜딩 정보가 있는 IP를 선택할 수 있습니다. [PTR 레코드에 대해 자세히 알아보기](ptr-records.md)
+IP를 선택하면 목록에서 IP와 연결된 PTR 레코드를 볼 수 있습니다. 이렇게 하면 IP 풀을 만들 때 각 IP에 대한 브랜딩 정보를 확인하고 예를 들어 동일한 브랜딩 정보가 있는 IP를 선택할 수 있습니다. [PTR 기록에 대해 자세히 알아보기](ptr-records.md)
 
 ![](assets/ip-pool-ptr-record.png)
 

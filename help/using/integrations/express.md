@@ -13,7 +13,7 @@ exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
 source-git-commit: 070debe5c4fb5e39316b12a0788ec55abbf3c005
 workflow-type: tm+mt
 source-wordcount: '576'
-ht-degree: 10%
+ht-degree: 18%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 10%
 >title="Adobe Express 통합"
 >abstract="Adobe Express 통합 기능을 활용하여 자산을 개인화합니다. 이 기능을 사용하면 이미지 크기를 조정하고, 배경을 제거하고, 시각 자료를 자르고, 자산을 JPEG 또는 PNG로 변환할 수 있습니다."
 
-Adobe Journey Optimizer의 Adobe Express 통합을 통해 콘텐츠를 만드는 동안 Adobe Express의 강력한 편집 도구에 쉽게 액세스할 수 있습니다. 이 통합을 통해 솔루션 간에 전환할 필요 없이 이미지 크기를 조정하고, 배경을 제거하고, 시각적 개체를 자르고, 자산을 JPEG 또는 PNG로 변환할 수 있습니다.
+Adobe Journey Optimizer의 Adobe Express 통합을 통해 콘텐츠를 만드는 동안 Adobe Express의 강력한 편집 도구에 쉽게 액세스할 수 있습니다. 이 통합을 통해 여러 솔루션 간에 전환할 필요 없이 이미지 크기를 조정하고, 배경을 제거하고, 시각적 개체를 자르고, 자산을 JPEG 또는 PNG로 변환할 수 있습니다.
 
 <img src="../rn/assets/do-not-localize/express_resize.gif">
 
@@ -49,7 +49,7 @@ Enterprise 라이선스를 사용하면 사용자가 Adobe Express 웹 편집기
 
 ![](assets/express-licence.png)
 
-Adobe Express용 Enterprise 라이선스가 있는 사용자가 사용할 수 있는 사용 사례에 대한 자세한 내용은 [Adobe Express 웹 설명서](https://helpx.adobe.com/kr/express/web.html)를 참조하세요.
+Adobe Express용 Enterprise 라이선스가 있는 사용자가 사용할 수 있는 사용 사례에 대한 자세한 내용은 [Adobe Express 웹 설명서](https://helpx.adobe.com/express/web.html)를 참조하세요.
 
 ## Enterprise 라이선스 없이 Adobe Express 사용  {#edit}
 
@@ -148,7 +148,7 @@ Enterprise 라이센스가 없는 사용자는 Adobe Express에서 사용할 수
 
 Adobe Express 도구를 사용하여 Adobe Journey Optimizer에서 자산을 편집하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3455530/?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
 
 
 

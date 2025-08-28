@@ -1,14 +1,15 @@
 ---
-title: 등급 수식 업데이트
+title: 순위 공식 업데이트
 description: 등급 수식 을 사용하면 항목의 등급을 매기는 데 사용되는 점수 함수를 정의할 수 있습니다.
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 8fa34ebb7c853f9af5b3f58574374a3acb641dd9
+exl-id: 4ef1bfc2-e74f-4b44-b3b5-8a4f2fbd6438
+source-git-commit: 6378c4a8cb911088c685166b9c1b29a1773d47b7
 workflow-type: tm+mt
 source-wordcount: '153'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 

@@ -10,7 +10,7 @@ level: Experienced
 keywords: 하위 도메인, 도메인, 메일, DMARC, 레코드
 exl-id: 15b10a61-6ecd-4ffa-b1c2-21e862263f6d
 source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 100%
 

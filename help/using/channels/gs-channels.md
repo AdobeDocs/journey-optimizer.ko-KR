@@ -7,7 +7,7 @@ role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
 source-git-commit: d2cdafef6f2d69ea85d9d042c859a8b1e7654d7d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Adobe Journey Optimizer는 대상자와 효과적으로 교류할 수 있는 다
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 이메일 채널
 
@@ -37,7 +37,7 @@ Adobe Journey Optimizer는 대상자와 효과적으로 교류할 수 있는 다
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 푸시 알림 채널
 
@@ -47,7 +47,7 @@ Adobe Journey Optimizer는 대상자와 효과적으로 교류할 수 있는 다
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
 
 SMS / MMS / RCS 메시지
 
@@ -57,7 +57,7 @@ SMS / MMS / RCS 메시지
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
 
 다이렉트 메일 캠페인
 
@@ -75,7 +75,7 @@ SMS / MMS / RCS 메시지
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 인앱 메시지
 
@@ -85,7 +85,7 @@ SMS / MMS / RCS 메시지
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 웹
 
@@ -95,7 +95,7 @@ SMS / MMS / RCS 메시지
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 코드 기반 경험
 
@@ -105,7 +105,7 @@ SDK 및 API를 사용하여 여러 디지털 플랫폼에 걸쳐 개인화된 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg)
 
 콘텐츠 카드
 

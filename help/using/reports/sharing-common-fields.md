@@ -21,12 +21,12 @@ ht-degree: 0%
 
 [!DNL Journey Optimizer]이(가) Adobe Experience Platform으로 보내는 일반적인 XDM 필드입니다. 여정에서 처리되는 모든 단계에 대해 공통 필드가 전송됩니다. 사용자 지정 작업 및 보강에는 더 구체적인 필드가 사용됩니다.
 
-이러한 필드 중 일부는 특정 처리 패턴(작업 실행, 데이터 가져오기 등)에서만 사용할 수 있습니다 이벤트 크기를 제한하기 위해
+이러한 필드 중 일부는 이벤트 크기를 제한하기 위해 특정 처리 패턴(작업 실행, 데이터 가져오기 등)에서만 사용할 수 있습니다.
 
 
 >[!NOTE]
 >
->이 섹션[&#128279;](../building-journeys/expression/journey-properties.md#journey-propertoes-fields)에서 여정 속성 특성 에 대해 자세히 알아보세요.
+>이 섹션[에서 여정 속성 특성 ](../building-journeys/expression/journey-properties.md#journey-propertoes-fields)에 대해 자세히 알아보세요.
 
 
 ## 입구 {#entrance-field}

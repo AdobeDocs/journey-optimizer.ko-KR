@@ -15,7 +15,7 @@ ht-degree: 9%
 
 # 의사 결정 삭제 {#delete-decision}
 
-결정을 제거(DELETE)해야 하는 경우도 있습니다. 이 작업은 삭제할 결정의 `id`을(를) 사용하여 [!DNL Offer Library] API에 대한 DELETE 요청을 수행함으로써 수행됩니다.
+결정을 제거(DELETE)해야 하는 경우가 있습니다. 이 작업은 삭제할 결정의 [!DNL Offer Library]을(를) 사용하여 `id` API에 대한 DELETE 요청을 수행함으로써 수행됩니다.
 
 **API 형식**
 

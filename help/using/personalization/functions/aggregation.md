@@ -35,7 +35,7 @@ ht-degree: 9%
 {%=average(orders.order.price)%}
 ```
 
-## 횟수{#count}
+## Count{#count}
 
 `count` 함수는 특정 배열의 요소 수를 반환합니다.
 
@@ -89,7 +89,7 @@ ht-degree: 9%
 {%=min(orders.order.price) %}
 ```
 
-## 합계{#sum}
+## Sum{#sum}
 
 `sum` 함수는 배열에서 선택한 모든 값의 합계를 반환합니다.
 

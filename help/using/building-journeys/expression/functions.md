@@ -11,7 +11,7 @@ exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
 source-wordcount: '185'
-ht-degree: 68%
+ht-degree: 69%
 
 ---
 
@@ -47,20 +47,20 @@ ht-degree: 68%
 | 전환 | [toDuration](../functions/functiontoduration.md) |
 | 전환 | [toInteger](../functions/functiontointeger.md) |
 | 전환 | [toString](../functions/functiontostring.md) |
-| 날짜 | [currentTimeInMillis](../functions/functioncurrenttimeinmillis.md) |
-| 날짜 | [inLastDays](../functions/functioninlastdays.md) |
-| 날짜 | [inLastHours](../functions/functioninlasthours.md) |
-| 날짜 | [inLastMonths](../functions/functioninlastmonths.md) |
-| 날짜 | [inLastYears](../functions/functioninlastyears.md) |
-| 날짜 | [inNextDays](../functions/functioninnextdays.md) |
-| 날짜 | [inNextHours](../functions/functioninnexthours.md) |
-| 날짜 | [inNextMonths](../functions/functioninnextmonths.md) |
-| 날짜 | [inNextYears](../functions/functioninnextyears.md) |
-| 날짜 | [now](../functions/functionnow.md) |
-| 날짜 | [nowWithDelta](../functions/functionnowwithdelta.md) |
-| 날짜 | [setHours](../functions/functionsethours.md) |
-| 날짜 | [setDays](../functions/functionsetdays.md) |
-| 날짜 | [updateTimeZone](../functions/functionupdatetimezone.md) |
+| Date | [currentTimeInMillis](../functions/functioncurrenttimeinmillis.md) |
+| Date | [inLastDays](../functions/functioninlastdays.md) |
+| Date | [inLastHours](../functions/functioninlasthours.md) |
+| Date | [inLastMonths](../functions/functioninlastmonths.md) |
+| Date | [inLastYears](../functions/functioninlastyears.md) |
+| Date | [inNextDays](../functions/functioninnextdays.md) |
+| Date | [inNextHours](../functions/functioninnexthours.md) |
+| Date | [inNextMonths](../functions/functioninnextmonths.md) |
+| Date | [inNextYears](../functions/functioninnextyears.md) |
+| Date | [now](../functions/functionnow.md) |
+| Date | [nowWithDelta](../functions/functionnowwithdelta.md) |
+| Date | [setHours](../functions/functionsethours.md) |
+| Date | [setDays](../functions/functionsetdays.md) |
+| Date | [updateTimeZone](../functions/functionupdatetimezone.md) |
 | 목록 | [distinct](../functions/functiondistinct.md) |
 | 목록 | [distinctWithNull](../functions/functiondistinctwithnull.md) |
 | 목록 | [필터](../functions/functionfilter.md) |

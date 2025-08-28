@@ -34,7 +34,7 @@ ht-degree: 0%
 
 * **톰슨 샘플링**: 톰슨 샘플링은 즉각적인 성과를 최대화하는 것으로 알려진 것을 이용하는 것과 미래 성과를 향상시킬 수 있는 새로운 정보를 축적하는 투자 사이에서 균형을 이루어야 하는 방식으로 작업을 순차적으로 수행하는 온라인 의사 결정 문제에 대한 알고리즘입니다. [자세히 알아보기](#thompson-sampling)
 
-* [**Beta 배포**](https://en.wikipedia.org/wiki/Beta_distribution){target="_blank"}: 두 개의 양수 [모양 매개 변수](https://en.wikipedia.org/wiki/Shape_parameter){target="_blank"}에 의해 [0, 1] [매개 변수화된](https://en.wikipedia.org/wiki/Statistical_parameter){target="_blank"} 간격에 정의된 연속 [확률 배포](https://en.wikipedia.org/wiki/Probability_distribution){target="_blank"} 집합입니다.
+* [**Beta 배포**](https://en.wikipedia.org/wiki/Beta_distribution){target="_blank"}: 두 개의 양수 [모양 매개 변수](https://en.wikipedia.org/wiki/Probability_distribution){target="_blank"}에 의해 [0, 1] [매개 변수화된](https://en.wikipedia.org/wiki/Statistical_parameter){target="_blank"} 간격에 정의된 연속 [확률 배포](https://en.wikipedia.org/wiki/Shape_parameter){target="_blank"} 집합입니다.
 
 ## 톰슨 샘플링 {#thompson-sampling}
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 ![](../assets/ai-ranking-beta-distribution.png)
 
-위에서 설명한 것과 같은 Likelihood 함수는 성공(전환) 및 f 실패(전환 없음)가 있는 이항 분포로 모델링되며, q는 [베타 분포](https://en.wikipedia.org/wiki/Beta_distribution){target="_blank"}가 있는 [무작위 변수](https://en.wikipedia.org/wiki/Random_variable){target="_blank"}입니다.
+위에서 설명한 것과 같은 Likelihood 함수는 성공(전환) 및 f 실패(전환 없음)가 있는 이항 분포로 모델링되며, q는 [베타 분포](https://en.wikipedia.org/wiki/Random_variable){target="_blank"}가 있는 [무작위 변수](https://en.wikipedia.org/wiki/Beta_distribution){target="_blank"}입니다.
 
 이전 차원은 Beta 분포로 모델링되고 이후 분포는 다음 형식을 취합니다.
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 
 후위는 기존 매개 변수 ***α***, ***β***&#x200B;에 성공 및 실패 횟수를 추가하는 것만으로 계산됩니다.
 
-자동 최적화를 위해 위의 예제와 같이 모든 오퍼에 대한 이전 분포 ***Beta(1, 1)***(균일 분포)로 시작하고 주어진 오퍼에 대한 성공 및 f 실패를 가져온 후 후위는 해당 오퍼에 대한 매개 변수 ***(s+α, f+β)***을(를) 사용하는 Beta 분포가 됩니다.
+자동 최적화를 위해 위의 예제와 같이 모든 오퍼에 대한 이전 분포 ***Beta(1, 1)***(균일 분포)로 시작하고 주어진 오퍼에 대한 성공 및 f 실패를 가져온 후 후위는 해당 오퍼에 대한 매개 변수 ***(s+α, f+β)***&#x200B;을(를) 사용하는 Beta 분포가 됩니다.
 +++
 
 **관련 항목**:

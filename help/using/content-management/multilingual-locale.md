@@ -8,7 +8,8 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 시작하기, 시작, 콘텐츠, 실험
-source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
+exl-id: 0b0e9344-f1ca-4aed-b143-facaa74c9b29
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 29%
@@ -35,4 +36,3 @@ ht-degree: 29%
 1. 로케일을 만들려면 **[!UICONTROL 저장]**&#x200B;을 클릭하세요.
 
    ![](assets/locale_2.png)
-

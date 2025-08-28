@@ -11,7 +11,7 @@ exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
 source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
 workflow-type: tm+mt
 source-wordcount: '765'
-ht-degree: 13%
+ht-degree: 25%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->[컨텍스트 특성](../personalization/personalization-build-expressions.md)은(는) 조각 내에서 지원되지 않습니다.
+>[컨텍스트 특성](../personalization/personalization-build-expressions.md)은 조각 내에서 지원되지 않습니다.
 >
 >여정 또는 캠페인에서 추적이 활성화되면 조각에 링크를 추가하고 이 조각을 메시지에 사용하는 경우 메시지에 포함된 다른 모든 링크와 같이 이러한 링크가 추적됩니다. [링크 및 추적에 대해 자세히 알아보기](../email/message-tracking.md)
 

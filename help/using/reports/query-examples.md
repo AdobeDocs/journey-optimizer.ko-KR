@@ -33,7 +33,7 @@ ht-degree: 2%
 
 ## 기본 사용 사례/일반 쿼리 {#common-queries}
 
-+++특정 기간에 여정에 입력한 프로필 수
++++특정 시간대에 여정에 입력한 프로필 수
 
 이 쿼리는 주어진 시간대에 주어진 여정에 들어간 고유 프로필 수를 제공합니다.
 
@@ -49,7 +49,7 @@ AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 
 +++
 
-+++프로필이 지정된 여정에 들어가지 않게 한 규칙
++++프로필이 지정된 여정에 입력되지 않도록 한 규칙
 
 _예_
 
@@ -139,7 +139,7 @@ ORDER BY timestamp;
 
 +++
 
-+++두 노드 사이에 경과된 시간
++++두 노드 사이에 경과된 시간 
 
 예를 들어 이러한 쿼리는 대기 활동에 소요된 시간을 예상하는 데 사용할 수 있습니다. 대기 활동이 올바르게 구성되었는지 확인할 수 있습니다.
 
@@ -268,7 +268,7 @@ WHERE
 
 +++
 
-+++serviceEvent 세부 사항을 확인하는 방법
++++serviceEvent 세부 사항을 확인하는 방법 
 
 여정 단계 이벤트 데이터 세트에는 모든 stepEvents 및 serviceEvents가 포함되어 있습니다. stepEvents는 여정 프로필의 활동(이벤트, 작업 등)과 관련하여 보고에 사용됩니다. serviceEvents는 동일한 데이터 세트에 저장되며 디버깅 목적을 위한 추가 정보(예: 경험 이벤트가 삭제되는 이유)를 나타냅니다.
 
@@ -424,7 +424,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName
 
 +++
 
-+++프로필이 지난 30일 동안 입력한 모든 여정 찾기
++++지난 30일 동안 프로필이 입력한 모든 여정 찾기
 
 _데이터 레이크 쿼리_
 
@@ -478,7 +478,7 @@ ORDER BY DATE(timestamp) desc
 
 ## 대상자 읽기 관련 쿼리 {#read-segment-queries}
 
-+++대상 내보내기 작업을 완료하는 데 걸린 시간
++++대상자 내보내기 작업을 완료하는 데 걸린 시간
 
 _데이터 레이크 쿼리_
 
@@ -512,7 +512,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'finish
 
 +++
 
-+++중복 항목이므로 여정에서 버린 프로필 수
++++중복 항목이므로 여정에서 버린 프로필 수입니다.
 
 _데이터 레이크 쿼리_
 
@@ -536,7 +536,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 +++
 
-+++잘못된 네임스페이스로 인해 여정에서 삭제된 프로필 수
++++잘못된 네임스페이스로 인해 여정에서 삭제된 프로필 수입니다.
 
 _데이터 레이크 쿼리_
 
@@ -560,7 +560,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 +++
 
-+++ID 맵이 없어 여정에서 삭제된 프로필 수
++++ID 맵이 없어 여정에서 삭제된 프로필 수입니다.
 
 _데이터 레이크 쿼리_
 
@@ -584,7 +584,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 +++
 
-+++여정이 테스트 노드에 있고 프로필이 테스트 프로필이 아니기 때문에 여정이 삭제한 프로필 수입니다
++++여정이 테스트 여정에 있고 프로필이 테스트 프로필이 아니기 때문에 테스트 노드에서 삭제된 프로필 수입니다
 
 _데이터 레이크 쿼리_
 
@@ -608,7 +608,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 +++
 
-+++내부 오류로 인해 여정에서 삭제된 프로필 수
++++내부 오류로 인해 여정에서 삭제된 프로필 수입니다
 
 _데이터 레이크 쿼리_
 
@@ -732,7 +732,7 @@ WHERE
 
 +++
 
-+++각 내보내기 작업에 대한 디스카드 및 내보내기 작업 지표를 포함하여 내보낸 프로필에 대한 지표 가져오기
++++각 내보내기 작업에 대한 디스카드 및 내보내기 작업 지표를 포함하여 내보낸 프로필에 대한 지표를 가져옵니다
 
 _데이터 레이크 쿼리_
 
@@ -945,7 +945,7 @@ WHERE DATE(timestamp) > (now() - interval '6' hour)
 
 +++
 
-+++관련 여정을 찾을 수 없어 프로필의 외부 이벤트가 무시되었는지 확인
++++관련 여정을 찾을 수 없어 프로필의 외부 이벤트가 삭제되었는지 확인
 
 _데이터 레이크 쿼리_
 
@@ -999,7 +999,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SER
 
 +++
 
-+++errorCode로 stateMachine에서 삭제한 모든 이벤트의 수 확인
++++errorCode로 stateMachine에서 삭제한 모든 이벤트 수를 확인합니다.
 
 _데이터 레이크 쿼리_
 
@@ -1047,7 +1047,7 @@ _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard
 
 ## 일반적인 여정 기반 쿼리 {#journey-based-queries}
 
-+++일일 활성 여정 수
++++일별 활성 여정 수
 
 _데이터 레이크 쿼리_
 
@@ -1073,7 +1073,7 @@ ORDER BY DATE(timestamp) desc
 
 ## 여정 인스턴스의 쿼리 {#journey-instances-queries}
 
-+++특정 시간의 특정 상태에 있는 프로필 수
++++특정 시간 동안 특정 상태에 있는 프로필 수
 
 _데이터 레이크 쿼리_
 
@@ -1223,7 +1223,7 @@ ORDER BY
 
 +++
 
-+++특정 기간 동안 여정을 종료한 프로필 수
++++특정 기간에 여정을 종료한 프로필 수입니다.
 
 _데이터 레이크 쿼리_
 
@@ -1263,7 +1263,7 @@ ORDER BY
 
 +++
 
-+++노드/상태로 지정된 기간 내에 여정을 종료한 프로필 수
++++노드/상태에서 특정 기간 동안 여정을 종료한 프로필 수입니다.
 
 _데이터 레이크 쿼리_
 
