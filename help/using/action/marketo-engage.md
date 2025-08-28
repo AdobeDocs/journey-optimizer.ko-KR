@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: marketo, marketo engage 통합
 exl-id: 70d1ef5a-743b-4362-bb65-93a8c996209f
-source-git-commit: 1592c3ae28f1f7a5465c8fb236790a460e9afb25
+source-git-commit: aafd172fe24a4ecb300f5f4cf5561f38dfeadfc7
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 4%
@@ -39,14 +39,10 @@ Journey Optimizer에서 Marketo Engage에 대한 사용자 지정 작업을 구�
 1. 관리 메뉴 섹션에서 **[!UICONTROL 구성]**&#x200B;을(를) 선택합니다.
 1. **[!UICONTROL 작업]** 섹션에서 **[!UICONTROL 작업 만들기]**&#x200B;를 클릭합니다. 작업 구성 창이 화면 오른쪽에 열립니다.
 1. 이름, 설명을 입력하고 **Adobe Marketo Engage**&#x200B;을(를) **작업 유형**(으)로 선택합니다.
-
-![](assets/engage-customaction-creation.png){width="40%" align="left"}
-
+   ![](assets/engage-customaction-creation.png){width="40%" align="left"}
 1. **요청** 및 **응답** 페이로드에 대한 **페이로드 편집** 아이콘을 클릭합니다.
 1. 두 경우 모두 페이로드를 구성하고 전용 팝업에 붙여 넣습니다.
-
-![](assets/engage-customaction-payload.png){width="70%" align="left"}
-
+   ![](assets/engage-customaction-payload.png){width="70%" align="left"}
 1. 페이로드 값 검사 및 구성
 
 참고: 값을 동적으로 전달하려면 각 필드에 대해 **상수**&#x200B;를 **변수**(으)로 변경하십시오.
