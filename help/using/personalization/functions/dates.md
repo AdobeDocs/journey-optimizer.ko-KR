@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: 3eab04f28b1daab556c4b4395d67f28d292fc52b
+source-git-commit: ed4d50cbc488fb396c4fffec21d3f0062d3fc20a
 workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 13%
@@ -442,10 +442,10 @@ The following operation gets all the values for the map `identityMap`.
 
 **예**
 
-다음 작업은 MM/DD/YY 및 로케일 프랑스 형식으로 날짜를 반환합니다.
+다음 작업은 MM/dd/YY 및 로케일 FRANCE 형식으로 날짜를 반환합니다.
 
 ```sql
-{%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/DD/YY", "fr_FR") %}
+{%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/dd/YY", "fr_FR") %}
 ```
 
 ## CurrentZonedDateTime 가져오기 {#get-current-zoned-date-time}
