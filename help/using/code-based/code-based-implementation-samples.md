@@ -39,7 +39,7 @@ ht-degree: 2%
 
 ### 작동 방법 - 웹 SDK {#client-side-how}
 
-1. [웹 SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"}이(가) 페이지에 포함되어 있습니다.
+1. [웹 SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko){target="_blank"}이(가) 페이지에 포함되어 있습니다.
 
 1. 개인화 콘텐츠를 가져오려면 `sendEvent` 명령을 사용하고 [표면 URI](code-based-surface.md)<!--( or location/path)-->를 지정해야 합니다.
 
@@ -306,4 +306,4 @@ ht-degree: 2%
 하이브리드 구현이 있는 경우 아래 링크를 확인하십시오.
 
 * Adobe 기술 블로그: [Adobe Experience Platform 웹 SDK의 하이브리드 Personalization](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
-* SDK 설명서: [Web SDK 및 Edge Network Server API를 사용한 하이브리드 개인화](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html){target="_blank"}
+* SDK 설명서: [Web SDK 및 Edge Network Server API를 사용한 하이브리드 개인화](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html?lang=ko){target="_blank"}

@@ -52,7 +52,7 @@ ht-degree: 2%
 1. 스키마에 `productListItems` 배열이 포함된 이벤트를 만듭니다.
 1. 이 배열의 모든 필드를 이 이벤트의 페이로드 필드로 정의합니다.
 
-   [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}에서 제품 목록 항목 데이터 형식에 대해 자세히 알아보세요.
+   [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=ko){target="_blank"}에서 제품 목록 항목 데이터 형식에 대해 자세히 알아보세요.
 
 1. 이 이벤트로 시작하는 여정을 만듭니다.
 1. **전자 메일** 활동을 여정에 추가합니다.
@@ -105,7 +105,7 @@ ht-degree: 2%
 
       ![](assets/personalization-uc-helpers-5.png)
 
-      [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target="_blank"}에서 개인 이름 데이터 유형에 대해 자세히 알아보세요.
+      [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=ko){target="_blank"}에서 개인 이름 데이터 유형에 대해 자세히 알아보세요.
 
 1. **[!UICONTROL 유효성 검사]**&#x200B;를 클릭한 다음 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 

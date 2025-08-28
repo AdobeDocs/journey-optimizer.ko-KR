@@ -31,7 +31,7 @@ ht-degree: 6%
 * 실현됨: 엔티티가 세그먼트 정의에 적합합니다.
 * 종료됨: 엔티티가 세그먼트 정의를 종료하는 중입니다.
 
-대상자 참여 상태가 **실현됨**&#x200B;인 개인만 대상자의 구성원으로 간주됩니다. 대상자를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results)를 참조하세요.
+대상자 참여 상태가 **실현됨**&#x200B;인 개인만 대상자의 구성원으로 간주됩니다. 대상자를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ko#interpret-segment-results)를 참조하세요.
 
 `IF inSegment('segmentName') == true`은(는) 입력한/기존 상태의 segmentMembership이 있음을 의미합니다.
 

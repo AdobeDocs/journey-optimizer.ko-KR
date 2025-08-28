@@ -22,7 +22,7 @@ ht-degree: 3%
 
 * **태그 속성**&#x200B;에 **Adobe Experience Platform Web SDK** 확장을 설치하고 **Personalization 저장소** 옵션을 사용하도록 설정합니다.
 
-  이 구성은 클라이언트에서 이벤트 기록을 저장하는 데 필수적이며, 규칙 빌더에서 빈도 규칙을 구현하기 위한 전제 조건입니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=en)
+  이 구성은 클라이언트에서 이벤트 기록을 저장하는 데 필수적이며, 규칙 빌더에서 빈도 규칙을 구현하기 위한 전제 조건입니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=ko)
 
   ![](assets/configure_web_inapp_1.png)
 
@@ -62,7 +62,7 @@ ht-degree: 3%
 
 1. **변경 내용 유지**&#x200B;를 클릭하여 **작업** 구성을 저장합니다.
 
-1. **게시 흐름** 메뉴로 이동합니다. 새 **라이브러리**&#x200B;를 만들거나 기존 **라이브러리**&#x200B;를 선택하고 새로 만든 **규칙**&#x200B;을(를) 추가하십시오. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=en#create-a-library)
+1. **게시 흐름** 메뉴로 이동합니다. 새 **라이브러리**&#x200B;를 만들거나 기존 **라이브러리**&#x200B;를 선택하고 새로 만든 **규칙**&#x200B;을(를) 추가하십시오. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=ko#create-a-library)
 
 1. **라이브러리**&#x200B;에서 **개발에 저장 및 빌드**&#x200B;를 선택합니다.
 
@@ -104,7 +104,7 @@ ht-degree: 3%
 
 1. **결정 컨텍스트** 섹션에서 전달할 경험을 결정하는 **키** 및 **값** 쌍을 정의합니다.
 
-1. **게시 흐름** 메뉴에 액세스하거나 새 **라이브러리**&#x200B;를 만들거나 기존 **라이브러리**&#x200B;를 선택하고 새로 만든 **규칙**&#x200B;을(를) 추가하십시오. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=en#create-a-library)
+1. **게시 흐름** 메뉴에 액세스하거나 새 **라이브러리**&#x200B;를 만들거나 기존 **라이브러리**&#x200B;를 선택하고 새로 만든 **규칙**&#x200B;을(를) 추가하십시오. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=ko#create-a-library)
 
 1. **라이브러리**&#x200B;에서 **개발에 저장 및 빌드**&#x200B;를 선택합니다.
 

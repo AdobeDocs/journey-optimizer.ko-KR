@@ -120,27 +120,27 @@ ht-degree: 11%
 <td>
 <img alt="블로그 게시물" src="../assets/do-not-localize/community.jpeg">
 <div>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400" target="_blank">사용 사례: Adobe Journey Optimizer에서 평일에만 이메일을 보내는 방법</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-approval-strategies-in-adobe-journey-optimizer/ba-p/761396" target="_blank">사용 사례: 고급 승인 전략</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510" target="_blank">사용 사례: 일별 빈도 제한</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445" target="_blank">모범 사례: 대상 여정 읽기</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/from-plan-to-perfection-how-to-test-your-ajo-journeys-for-10/ba-p/761270" target="_blank">사용 사례: 여정 테스트</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/deliver-with-confidence-approval-workflows-across-adobe-journey/ba-p/760900" target="_blank">사용 사례: 승인 워크플로</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958" target="_blank">사용 사례: 여정 시작 및 종료 기준</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400?profile.language=ko" target="_blank">사용 사례: Adobe Journey Optimizer에서 평일에만 이메일을 보내는 방법</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-approval-strategies-in-adobe-journey-optimizer/ba-p/761396?profile.language=ko" target="_blank">사용 사례: 고급 승인 전략</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=ko" target="_blank">사용 사례: 일별 빈도 제한</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445?profile.language=ko" target="_blank">모범 사례: 대상 여정 읽기</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/from-plan-to-perfection-how-to-test-your-ajo-journeys-for-10/ba-p/761270?profile.language=ko" target="_blank">사용 사례: 여정 테스트</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/deliver-with-confidence-approval-workflows-across-adobe-journey/ba-p/760900?profile.language=ko" target="_blank">사용 사례: 승인 워크플로</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958?profile.language=ko" target="_blank">사용 사례: 여정 시작 및 종료 기준</a></p>
 </div>
 <p>
 </td>
 <td>
 <img alt="여정의 단계 이벤트" src="../assets/do-not-localize/list.jpeg">
 <div>
-<a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-step-events-in-adobe-journey-optimizer-fundamentals/ba-p/762024" target="_blank">Adobe Journey Optimizer에서 단계 이벤트 마스터하기: 데이터 기반 캠페인을 위한 기본, 스키마 및 필수 쿼리
+<a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-step-events-in-adobe-journey-optimizer-fundamentals/ba-p/762024?profile.language=ko" target="_blank">Adobe Journey Optimizer에서 단계 이벤트 마스터하기: 데이터 기반 캠페인을 위한 기본, 스키마 및 필수 쿼리
 </a>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/fast-external-audience-activation-with-custom-upload/ba-p/761658" target="_blank">사용 사례: 사용자 정의 업로드를 통한 빠른 외부 Audience Activation</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/fast-external-audience-activation-with-custom-upload/ba-p/761658?profile.language=ko" target="_blank">사용 사례: 사용자 정의 업로드를 통한 빠른 외부 Audience Activation</a></p>
 </div>
 <p></td>
 <td>
 <img alt="사용자 정의 액션" src="../assets/do-not-localize/step-event.jpeg">
-<div><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-extend-adobe-journey-optimizer-with-custom-actions/ba-p/761323" target="_blank">사용자 지정 작업으로 Adobe Journey Optimizer을 확장하는 방법: 통합 사용 사례
+<div><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-extend-adobe-journey-optimizer-with-custom-actions/ba-p/761323?profile.language=ko" target="_blank">사용자 지정 작업으로 Adobe Journey Optimizer을 확장하는 방법: 통합 사용 사례
 </a>
 </div>
 <p></td>
