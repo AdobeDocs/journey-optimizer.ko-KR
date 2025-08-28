@@ -44,7 +44,7 @@ Decisioning을 사용하는 주요 단계는 다음과 같습니다.
 
       ![](assets/decision_permission_1.png)
 
-   1.  **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
+   1. **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
 
       ![](assets/decision_permission_2.png)
 

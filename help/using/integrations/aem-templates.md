@@ -27,7 +27,7 @@ Adobe Journey Optimizer을 사용하면 Adobe Experience Manager 사이트를 �
 >[!AVAILABILITY]
 >
 >Adobe Experience Manager과의 통합은 현재 사용자를 선택하는 베타 버전으로만 사용할 수 있습니다.
->>베타 사용자인 경우 [이 양식](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"}을(를) 사용하여 피드백을 공유하십시오.
+>&#x200B;>베타 사용자인 경우 [이 양식](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"}을(를) 사용하여 피드백을 공유하십시오.
 
 
 ### 전제 조건 {#prerequisites}

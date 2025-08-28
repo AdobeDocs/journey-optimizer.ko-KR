@@ -69,7 +69,7 @@ ht-degree: 4%
 
 ## 제외된 이유 {#exclude-reasons-directmail}
 
-[](assets/cja-direct-excluded.png)
+[&#128279;](assets/cja-direct-excluded.png)
 
 **[!UICONTROL 제외 이유]** 표는 대상 대상자에서 사용자 프로필을 제외하여 DM 메시지를 받지 못하게 한 다양한 요인을 시각적으로 보여줍니다.
 

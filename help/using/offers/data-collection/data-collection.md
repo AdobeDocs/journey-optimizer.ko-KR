@@ -41,7 +41,7 @@ ht-degree: 1%
 
 사용된 [!DNL Journey Optimizer] 채널에 따라 노출 횟수 및 클릭 수에 대한 피드백이 캡처됩니다.
 
-****&#x200B;자동으로[!DNL Journey Optimizer]하여 작성한 **전자 메일** 노출 횟수 및 클릭 수를 추적합니다.
+**&#x200B;**&#x200B;자동으로[!DNL Journey Optimizer]하여 작성한 **전자 메일** 노출 횟수 및 클릭 수를 추적합니다.
 
 그러나 **대부분의 채널**&#x200B;에서는 노출 횟수 및 클릭 수를 **경험 이벤트**(으)로 Adobe Experience Platform에 전송해야 합니다. 여기에는 다음 항목이 포함되어 있습니다.
 
