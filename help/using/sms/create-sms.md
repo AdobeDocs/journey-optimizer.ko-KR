@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
+source-git-commit: 12dbe0031e9037d879e0d2309c7c26cc3c00cc4e
 workflow-type: tm+mt
 source-wordcount: '1069'
 ht-degree: 9%
@@ -129,7 +129,7 @@ Adobe Journey Optimizer에서 텍스트(SMS), 풍부한 커뮤니케이션(RCS) 
 
    >[!CAUTION]
    >
-   > 짧은 URL의 수명은 15일로 설정됩니다. 이 기간이 지나면 이러한 짧은 URL에 더 이상 액세스할 수 없으며 `404 short-code not found` 메시지를 표시합니다.
+   > 짧은 URL의 수명은 30일로 설정됩니다. 이 기간이 지나면 이러한 짧은 URL에 더 이상 액세스할 수 없으며 `404 short-code not found` 메시지를 표시합니다.
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭하고 미리 보기에서 메시지를 확인합니다. 이제 [이 섹션](#sms-mms-test)에 자세히 설명된 대로 메시지 콘텐츠를 테스트하고 확인할 수 있습니다.
 
