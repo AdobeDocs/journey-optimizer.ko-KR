@@ -4,10 +4,10 @@ product: journey optimizer
 title: Adobe Journey Optimizer을 사용하여 오케스트레이션된 캠페인 시작 및 모니터링
 description: Adobe Journey Optimizer을 사용하여 오케스트레이션된 캠페인을 시작 및 모니터링하는 방법을 알아봅니다.
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 24e767d6f146036c8c0a34193ed6d36e5d43e6b2
 workflow-type: tm+mt
 source-wordcount: '761'
-ht-degree: 55%
+ht-degree: 53%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 55%
 
 ![](assets/campaign-start.png){zoomable="yes"}
 
-다이어그램의 끝에 도달할 때까지 캠페인의 각 활동이 순차적으로 실행됩니다. 테스트 중에 캔버스에서 작업 표시줄을 사용하여 캠페인 실행을 제어할 수 있습니다. 여기에서는 다음을 수행할 수 있습니다.
+캠페인의 각 활동은 캔버스의 끝에 도달할 때까지 순차적으로 실행됩니다. 테스트 중에 캔버스에서 작업 표시줄을 사용하여 캠페인 실행을 제어할 수 있습니다. 여기에서는 다음을 수행할 수 있습니다.
 
 * 언제든지 실행을 **중지**&#x200B;합니다.
 * 실행을 다시 **시작**&#x200B;합니다.
@@ -115,4 +115,4 @@ ht-degree: 55%
 
 ## 다음 단계 {#next}
 
-오케스트레이션된 캠페인 다이어그램을 시작한 후 Journey Optimizer 보고 기능을 사용하여 대상자 행동을 이해하고, 고객 여정의 각 단계에 대한 성과를 측정하는 등의 통찰력을 얻을 수 있습니다. [오케스트레이션된 캠페인 보고에 대한 자세한 정보](../orchestrated/reporting-campaigns.md)
+오케스트레이션된 캠페인 캔버스를 시작한 후 Journey Optimizer 보고 기능을 사용하여 대상자 행동을 이해하고 고객 여정의 각 단계 성과를 측정하는 등의 통찰력을 얻을 수 있습니다. [오케스트레이션된 캠페인 보고에 대한 자세한 정보](../orchestrated/reporting-campaigns.md)
