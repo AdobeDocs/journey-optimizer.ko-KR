@@ -52,7 +52,7 @@ IP 준비 계획을 구현하는 주요 단계는 다음과 같습니다.
 
 IP 준비 계획을 만들고 실행하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3432637/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3453847/?learn=on&captions=kor)
 
 >[!NOTE]
 >

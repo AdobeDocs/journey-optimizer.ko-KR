@@ -31,4 +31,4 @@ Adobe Experience Platform 대상 포털을 사용하면 CSV 파일을 사용하�
 
 비디오에서 대상을 CSV 형식으로 업로드하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3421714?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3423360?quality=12&captions=kor)

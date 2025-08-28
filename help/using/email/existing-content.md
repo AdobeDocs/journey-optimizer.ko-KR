@@ -55,4 +55,4 @@ HTML 콘텐츠가 포함된 파일을 가져오려면 다음 단계를 따르십
 
 기존 HTML 콘텐츠를 가져오고, 디자인을 수정하고, 미러 페이지와 구독 취소 링크를 추가하고, 콘텐츠를 코딩하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/334102?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3421913?quality=12&captions=kor)
