@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: 오케스트레이션된 캠페인 활동
 description: 오케스트레이션된 캠페인 활동
 redpen-status: CREATED_||_2025-08-11_20-27-08
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
+exl-id: d6635d58-b618-4d92-b60f-c6fc63e473a6
+source-git-commit: 4270fbfb191700704d161f472abf62f7af79c208
 workflow-type: tm+mt
 source-wordcount: '347'
-ht-degree: 6%
+ht-degree: 4%
 
 ---
-
 
 # 오케스트레이션된 캠페인 활동{#section-overview}
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 오케스트레이션된 캠페인 활동을 통해 �
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 오케스트레이션된 캠페인 활동 작업
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 오케스트레이션된 캠페인 활동을 통해 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 AND-join 활동 사용
 
@@ -40,7 +40,7 @@ AND-join 활동 사용
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 대상자 작성 활동
 
@@ -50,7 +50,7 @@ AND-join 활동 사용
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 차원 활동 변경
 
@@ -60,7 +60,7 @@ AND-join 활동 사용
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 채널 활동
 
@@ -70,7 +70,7 @@ AND-join 활동 사용
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 활동 결합
 
