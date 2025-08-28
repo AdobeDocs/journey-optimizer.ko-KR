@@ -4,10 +4,10 @@ product: journey optimizer
 title: 오케스트레이션된 캠페인 활동 작업
 description: 캠페인 활동을 오케스트레이션하는 방법 알아보기
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: c1201025af216f8f3019e7696b6eb906962b681b
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 70%
+source-wordcount: '393'
+ht-degree: 66%
 
 ---
 
@@ -30,6 +30,8 @@ ht-degree: 70%
 
 ![타기팅 활동 목록](../assets/targeting-activities.png){width="40%" align="left"}
 
+사용 가능한 타겟팅 활동은 다음과 같습니다.
+
 * [대상자 작성](build-audience.md): 대상 집단을 정의합니다. 기존 대상자를 선택하거나 규칙 빌더를 사용하여 자체 쿼리를 정의할 수 있습니다.
 * [차원 변경](change-dimension.md): 오케스트레이션된 캠페인을 빌드할 때 타깃팅 차원을 변경합니다.
 * [결합](combine.md): 인바운드 집단에 세분화를 수행합니다. 합집합, 교차 또는 제외를 사용할 수 있습니다.
@@ -49,9 +51,11 @@ Adobe Journey Optimizer에서는 여러 채널에 걸쳐 마케팅 캠페인을 
 >title="종료 활동"
 >abstract="**종료** 활동을 사용하여 오케스트레이션된 캠페인의 끝을 그래픽으로 표시할 수 있습니다. 이 활동은 기능에 영향을 미치지 않으므로 선택 사항입니다."
 
-![흐름 제어 활동 목록](../assets/flow-control-activities.png){width="30%" align="left"}
+다음 활동은 오케스트레이션된 캠페인을 구성하고 실행하는 데 특정적입니다. 이들의 주요 임무는 다른 활동을 조정하는 것입니다.
 
-다음 활동은 오케스트레이션된 캠페인을 구성하고 실행하는 데 특정적입니다. 주요 작업은 다음과 같은 다른 활동을 조정하는 것입니다.
+![흐름 제어 활동 목록](../assets/flow-control-activities.png){width="20%" align="left"}
+
+사용 가능한 흐름 제어 활동은 다음과 같습니다.
 
 * [And-join](and-join.md): 오케스트레이션된 캠페인의 여러 실행 분기를 동기화합니다.
 * [포크](fork.md): 아웃바운드 전환을 만들어 여러 활동을 동시에 시작할 수 있습니다.

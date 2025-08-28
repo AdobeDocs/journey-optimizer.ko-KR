@@ -4,10 +4,10 @@ product: journey optimizer
 title: 구성 단계
 description: DDL을 업로드하여 Adobe Experience Platform 내에서 관계형 스키마를 만드는 방법을 알아봅니다
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
-source-git-commit: 1cd98a42d6d30b21ea5fb6f8d6c745bf735b0e6c
+source-git-commit: c1201025af216f8f3019e7696b6eb906962b681b
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 3%
+source-wordcount: '236'
+ht-degree: 31%
 
 ---
 
@@ -17,6 +17,11 @@ ht-degree: 3%
 이 안내서에서는 관계형 스키마를 만들고, 오케스트레이션된 캠페인에 대한 데이터 세트를 구성하고, 데이터를 수집하는 프로세스를 안내합니다.
 
 ![](assets/do-not-localize/schema_admin.png)
+
+데이터 세트는 스키마(열) 및 필드(행)를 포함하는 데이터 수집을 위한 저장소 및 관리 구조입니다. Experience Platform에 성공적으로 수집된 데이터는 데이터 세트로 데이터 레이크 내에 저장됩니다.
+
+스키마는 데이터의 구조와 형식을 나타내고 검증합니다. 실제 오브젝트(예: 사람)에 대한 추상적인 정의를 제공하고 해당 오브젝트의 각 인스턴스에 포함되어야 하는 데이터(예: 이름, 생일 등)를 간략하게 설명해 줍니다.
+
 
 1. [관계형 스키마를 수동으로 만들기](manual-schema.md) 또는 [DDL 파일 사용](file-upload-schema.md)
 
