@@ -4,10 +4,10 @@ product: journey optimizer
 title: 오케스트레이션된 캠페인 활동 작업
 description: 캠페인 활동을 오케스트레이션하는 방법 알아보기
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: c1201025af216f8f3019e7696b6eb906962b681b
+source-git-commit: 2e04d3022ff6e8427e80a5a22cae367c4995730a
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 66%
+source-wordcount: '407'
+ht-degree: 63%
 
 ---
 
@@ -23,6 +23,11 @@ ht-degree: 66%
 * [흐름 제어 활동](#flow-control)
 
 ![캔버스에서 사용 가능한 활동 목록](../assets/orchestrated-activities.png){width="80%" align="left"}
+
+
+>[!NOTE]
+>
+>라이선스 모델, 권한 및 구현에 따라 사용 가능한 활동이 다를 수 있습니다.
 
 ## 타기팅 활동 {#targeting}
 
