@@ -6,10 +6,10 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: b83bdade-7275-4eef-9c49-fc1d157cee0d
-source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
+source-git-commit: ff3511e55eb56d8d5448df6d5de92dfd29ea8718
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 3%
+source-wordcount: '510'
+ht-degree: 2%
 
 ---
 
@@ -19,9 +19,43 @@ ht-degree: 3%
 
 콘텐츠를 정의하고 개인화하면 검토하고 활성화할 수 있습니다. 캠페인은 정해진 일정에 따라 전송됩니다. [이 페이지에서 자세히 알아보기](../campaigns/review-activate-campaign.md).
 
+## 콘텐츠 카드 레이아웃
+
+![](assets/content-card-image.png)
+
+**[!UICONTROL 콘텐츠 카드 레이아웃]** 섹션에서 메시징 요구 사항에 따라 세 가지 이미지 레이아웃 옵션 중 하나를 선택합니다.
+
+* **[!UICONTROL 작은 이미지]**: 텍스트와 함께 컴팩트한 이미지를 표시하며 시각 이미지보다 콘텐츠가 우선시되는 메시지에 적합합니다.
+
+* **[!UICONTROL 큰 이미지]**: 텍스트 위나 옆에 눈에 띄는 이미지를 사용하여 시각적 개체를 메시지의 주요 초점으로 만듭니다.
+
+* **[!UICONTROL 이미지만]**: 텍스트 없이 이미지를 표시하며, 비주얼 기반 메시지나 독립 실행형 이미지에 적합합니다.
+
 ## 컨텐츠 탭 {#content-tab}
 
-**[!UICONTROL 콘텐츠]** 탭에서 콘텐츠와 **[!UICONTROL 닫기]** 단추의 디자인을 모두 정의하여 콘텐츠 카드를 사용자 지정할 수 있습니다. 또한 미디어로 콘텐츠를 개선하고 이 탭에서 직접 작업 버튼을 추가할 수 있습니다.
+**[!UICONTROL 콘텐츠]** 탭에서 콘텐츠를 정의하고 이 탭에서 직접 미디어 및 작업 단추를 추가하여 콘텐츠 카드를 사용자 지정할 수 있습니다.
+
+### 텍스트 컨텐츠 {#title-body}
+
+메시지를 작성하려면 **[!UICONTROL 제목]** 및 **[!UICONTROL 본문]** 필드에 텍스트를 입력하십시오.
+
+![](assets/content-card-design-2.png)
+
+메시지를 추가로 맞춤화하려면 **[!UICONTROL Personalization]** 아이콘을 사용하여 개인화된 요소를 추가하십시오. 개인화 기능을 사용하는 방법에 대한 자세한 지침은 [이 섹션](../personalization/personalize.md)을 참조하세요.
+
+### 미디어 {#add-media}
+
+**[!UICONTROL 미디어]** 필드를 사용하면 미디어를 추가하여 콘텐츠 카드를 향상시킬 수 있습니다. 이렇게 하면 최종 사용자의 프레젠테이션 참여도가 높아집니다.
+
+![](assets/content-card-design-3.png)
+
+미디어를 포함하려면 사용할 미디어의 URL을 입력하거나 **[!UICONTROL Assets 선택]** 아이콘을 클릭하여 Assets 라이브러리에 저장된 에셋 중에서 선택합니다. [자산 관리에 대해 자세히 알아보세요](../integrations/assets.md).
+
++++고급 서식의 추가 옵션
+
+**[!UICONTROL 고급 서식 모드]**&#x200B;가 켜져 있으면 **[!UICONTROL 어두운 모드 미디어 URL]** 필드에 화면 읽기 응용 프로그램 및 다른 에셋에 대해 **[!UICONTROL 대체 텍스트]**&#x200B;를 추가할 수 있습니다.
+
++++
 
 ### 닫기 버튼 {#close-button}
 
@@ -35,13 +69,7 @@ ht-degree: 3%
 * **[!UICONTROL 단순]**
 * **[!UICONTROL 원]**
 
-### 콘텐츠 {#title-body}
 
-메시지를 작성하려면 **[!UICONTROL 제목]** 및 **[!UICONTROL 본문]** 필드에 텍스트를 입력하십시오.
-
-![](assets/content-card-design-2.png)
-
-메시지를 추가로 맞춤화하려면 **[!UICONTROL Personalization]** 아이콘을 사용하여 개인화된 요소를 추가하십시오. 개인화 기능을 사용하는 방법에 대한 자세한 지침은 [이 섹션](../personalization/personalize.md)을 참조하세요.
 
 <!--
 +++More options with advanced formatting
@@ -55,21 +83,7 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose 
 +++
 -->
 
-### 미디어 {#add-media}
 
-**[!UICONTROL 미디어]** 필드를 사용하면 미디어를 추가하여 콘텐츠 카드를 향상시킬 수 있습니다. 이렇게 하면 최종 사용자의 프레젠테이션 참여도가 높아집니다.
-
-![](assets/content-card-design-3.png)
-
-미디어를 포함하려면 사용할 미디어의 URL을 입력하거나 **[!UICONTROL Assets 선택]** 아이콘을 클릭하여 Assets 라이브러리에 저장된 에셋 중에서 선택합니다. [자산 관리에 대해 자세히 알아보세요](../integrations/assets.md).
-
-<!--
-+++More options with advanced formatting
-
-If the **[!UICONTROL Advanced formatting mode]** is switched on, you can add an **[!UICONTROL Alternative text]** for screen reading applications and another asset in the **[!UICONTROL Dark Mode Media URL]** field.
-
-+++
--->
 
 ### 버튼 {#add-buttons}
 

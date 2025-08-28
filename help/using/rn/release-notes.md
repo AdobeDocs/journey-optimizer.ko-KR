@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 19130e9eb5a2144afccab9fa8e5632de67bc7157
+source-git-commit: ff3511e55eb56d8d5448df6d5de92dfd29ea8718
 workflow-type: tm+mt
-source-wordcount: '1700'
+source-wordcount: '1702'
 ht-degree: 72%
 
 ---
@@ -283,7 +283,7 @@ ht-degree: 72%
 
 * **채널 - 콘텐츠 카드**
 
-   * **콘텐츠 카드 레이아웃 템플릿** - 이제 콘텐츠 카드 채널은 작성 환경을 간소화하는 OOTB 메시지 레이아웃을 제공합니다. 이 릴리스에는 작은 이미지, 큰 이미지 및 이미지 전용 레이아웃 템플릿이 포함됩니다.
+   * **콘텐츠 카드 레이아웃 템플릿** - 이제 콘텐츠 카드 채널은 작성 환경을 간소화하는 OOTB 메시지 레이아웃을 제공합니다. 이 릴리스에는 작은 이미지, 큰 이미지 및 이미지 전용 레이아웃 템플릿이 포함됩니다. [자세히 보기](../content-card/design-content-card.md)
 
 * **채널 - 푸시**
 
