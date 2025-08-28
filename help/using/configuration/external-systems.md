@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: 외부, API, 최적화 프로그램, 한도
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 967713938ab0e3eaaaad7a86054ed1270a9cc1ca
+source-git-commit: e7908a328a14b307f0ea6914d2d06c5325ceb211
 workflow-type: tm+mt
-source-wordcount: '1499'
-ht-degree: 20%
+source-wordcount: '1615'
+ht-degree: 18%
 
 ---
 
@@ -119,3 +119,14 @@ API에 대한 자세한 설명은 [Adobe Journey Optimizer API 설명서](https:
 **시간 제한을 구성할 수 있는 위치는 어디입니까? 최대값이 있습니까?**
 
 각 여정에서 시간 제한 기간을 정의할 수 있습니다. 시간 제한 기간은 여정 속성에 구성됩니다. 시간 제한 기간은 1초에서 30초 사이여야 합니다. [이 섹션](../configuration/external-systems.md#timeout) 및 [이 페이지](../building-journeys/journey-properties.md#timeout_and_error)를 참조하세요.
+
+**사용자 지정 작업을 사용할 때 Journey Optimizer에서 연 최대 연결 수는 얼마입니까?**
+
+IP 프록시가 활성화되고 대상 끝점에 조절 구성이 정의된 경우 연결 수는 속도를 기반으로 합니다(예상된 수치이며 보장된 숫자가 아님).
+
+* 200~2000c/s: 50개 연결
+* 2000~3000: 75개 연결
+* 3000~4000: 100개 연결
+* 4000~5000: 125개 연결
+
+끝점에 전송률 조절 구성이 정의되지 않은 경우 Journey Optimizer 엔진은 확장되도록 설계되었으며 최대 연결 수(2,000개 이상)로 늘어날 수 있습니다. 제한된 연결 수를 얻으려면 조절 구성을 사용해야 합니다.
