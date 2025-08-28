@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: marketo, marketo engage 통합
 exl-id: 70d1ef5a-743b-4362-bb65-93a8c996209f
-source-git-commit: d92c280e40419d2e3ec62a7ba85cd492a0867fde
+source-git-commit: 1592c3ae28f1f7a5465c8fb236790a460e9afb25
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 4%
@@ -48,6 +48,7 @@ Journey Optimizer에서 Marketo Engage에 대한 사용자 지정 작업을 구�
 ![](assets/engage-customaction-payload.png){width="70%" align="left"}
 
 1. 페이로드 값 검사 및 구성
+
 참고: 값을 동적으로 전달하려면 각 필드에 대해 **상수**&#x200B;를 **변수**(으)로 변경하십시오.
 
 ![](assets/engage-customaction-payload-fields.png){width="70%" align="left"}
