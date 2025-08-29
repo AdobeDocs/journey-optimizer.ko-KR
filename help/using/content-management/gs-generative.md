@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 50933d991c6a337e6d1739652d680778759ef0d5
+source-git-commit: e038518296749b820c879f70a2272f936390a15f
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 100%
+source-wordcount: '814'
+ht-degree: 93%
 
 ---
 
@@ -38,9 +38,11 @@ ht-degree: 100%
 >기능을 직접 탐색하고 완전히 이해할 수 있도록 설계된 [라이브 기능 미리 보기](https://experienceleague.adobe.com/ko/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}를 통해 몰입형 실습 경험을 이용할 수 있습니다.
 
 
-Microsoft Azure OpenAI 및 Adobe Firefly를 기반으로 제공되는 Adobe Journey Optimizer의 AI 어시스턴트는 텍스트와 이미지에 대해 콘텐츠 변형을 먼저 제안합니다. 이메일, 푸시, SMS 채널에 사용 가능합니다. 이 새로운 기능은 프롬프트 기반의 텍스트 및 이미지 생성을 제공합니다. 이미지 생성은 Adobe Firefly로 관리됩니다.
+Microsoft Azure OpenAI 및 Adobe Firefly를 기반으로 제공되는 Adobe Journey Optimizer의 AI 어시스턴트는 텍스트와 이미지에 대해 콘텐츠 변형을 먼저 제안합니다. 이 새 기능은 **프롬프트 기반 텍스트 및 이미지 생성**&#x200B;을 제공합니다. 이미지 생성은 Adobe Firefly로 관리됩니다.
 
-Adobe Journey Optimizer의 AI 어시스턴트를 사용하여 다양한 주요 제목과 이미지를 실험해 보며 메시지의 영향을 최적화할 수 있습니다. 여러 변형을 생성하고 비교할 실험을 빌드합니다. Journey Optimizer 컨텐츠 실험을 활용하면 여러 메시지 처리를 정의하여 어느 메시지가 타깃 대상자에게 가장 적합한지 측정할 수 있습니다. 게재 콘텐츠 또는 제목을 변경하도록 선택할 수 있습니다. 메시지 대상자는 지정된 지표 측면에서 가장 적합한 처리를 결정하기 위해 각 처리에 임의로 할당됩니다. [이 섹션](../content-management/content-experiment.md)에서 콘텐츠 실험에 대해 자세히 알아보십시오.
+AI Assistant는 여러 언어로 **세대를 지원합니다**. 이를 통해 다양한 글로벌 대상자에게 도달하여 참여할 수 있습니다.
+
+Adobe Journey Optimizer의 AI 어시스턴트를 사용하여 다양한 주요 제목과 이미지를 실험해 보며 메시지의 영향을 최적화할 수 있습니다. 여러 변형을 생성하고 비교할 실험을 빌드합니다. **Journey Optimizer 콘텐츠 실험**&#x200B;을 활용하여 대상 대상에 가장 적합한 성과를 측정하기 위해 여러 메시지 처리를 정의할 수 있습니다. 게재 콘텐츠 또는 제목을 변경하도록 선택할 수 있습니다. 메시지 대상자는 지정된 지표 측면에서 가장 적합한 처리를 결정하기 위해 각 처리에 임의로 할당됩니다. [이 섹션](../content-management/content-experiment.md)에서 콘텐츠 실험에 대해 자세히 알아보십시오.
 
 >[!IMPORTANT]
 >
@@ -87,7 +89,7 @@ Adobe Journey Optimizer에서 이메일 생성을 위해 AI 어시스턴트를 �
 * Adobe Journey Optimizer의 AI 어시스턴트를 사용하여 이메일 콘텐츠를 만들 때 브랜드별 또는 사용자 정의 템플릿을 사용할 수 있습니다. 최대 8~10개의 이미지가 포함된 이메일 템플릿을 권장합니다.
 * 변형을 선택할 때 엄지손가락 위로, 엄지손가락 아래로 또는 플래그 아이콘을 사용하여 문제가 있는 출력을 보고하십시오.
 * AI 어시스턴트 사용 시 Adobe Experience Cloud 생성형 AI 사용자 지침이 적용됩니다. [자세히 알아보기](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
-* 미디어 제작에서 생성형 AI 도구 사용의 투명성을 증진하기 위한 Adobe의 약속의 일부로, Adobe는 Firefly 생성 자산이 포함된 콘텐츠 또는 프로젝트를 다운로드하거나 내보낼 때 Content Credentials를 적용합니다. [자세히 알아보기](https://helpx.adobe.com/kr/firefly/using/content-credentials.html)
+* 미디어 제작에서 생성형 AI 도구 사용의 투명성을 증진하기 위한 Adobe의 약속의 일부로, Adobe는 Firefly 생성 자산이 포함된 콘텐츠 또는 프로젝트를 다운로드하거나 내보낼 때 Content Credentials를 적용합니다. [자세히 알아보기](https://helpx.adobe.com/firefly/using/content-credentials.html)
 
 Adobe Journey Optimizer의 AI 어시스턴트에는 다음 제한 사항이 적용됩니다.
 
