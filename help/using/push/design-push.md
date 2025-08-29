@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 03af80bbaa347237059abe74f26274df5ab39caa
+source-git-commit: e7567a68425c8fba5fc0f0b84b494b20d9f4df89
 workflow-type: tm+mt
-source-wordcount: '1361'
-ht-degree: 17%
+source-wordcount: '1491'
+ht-degree: 16%
 
 ---
 
@@ -127,6 +127,8 @@ iOS 버전에서는 알림 범주 식별자가 지정됩니다. 표시할 버튼
 | **[!UICONTROL 알림 채널]**(Android 전용) | 푸시 알림에 알림 채널을 연결합니다.<br/>Android 8.0(API 레벨 26)부터 모든 알림을 채널에 할당해야 표시됩니다. 자세한 내용은 [Android 개발자 설명서](https://developer.android.com/guide/topics/ui/notifiers/notifications#ManageChannels)를 참조하세요. |
 | **[!UICONTROL 콘텐츠 가용성 플래그 추가]**(iOS 전용) | 푸시 알림을 받는 즉시 앱이 깨어날 수 있도록 푸시 페이로드에 사용 가능한 콘텐츠 플래그를 보내 앱이 페이로드 데이터에 액세스할 수 있도록 합니다.<br/> 앱이 백그라운드에서 실행 중이고 사용자 상호 작용(예: 푸시 알림을 누르는 경우)이 필요 없는 경우에도 작동합니다. 하지만 앱이 실행되고 있지 않으면 적용되지 않습니다. 자세한 내용은 [Apple 개발자 설명서](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html)를 참조하십시오. |
 | **[!UICONTROL 변경 가능한 콘텐츠 플래그 추가]**(iOS 전용) | 푸시 페이로드에서 변경 가능한 콘텐츠 플래그를 보내고 iOS SDK에 제공된 알림 서비스 애플리케이션 확장에 의해 푸시 알림 콘텐츠가 수정되도록 합니다. 자세한 내용은 [Apple 개발자 설명서](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html)를 참조하십시오.<br/>그런 다음 모바일 앱 확장을 활용하여 [!DNL Journey Optimizer]에서 보낸 푸시 알림의 내용 또는 프레젠테이션을 추가로 수정할 수 있습니다. 예를 들어 사용자는 이 옵션을 사용하여 데이터의 암호를 해독하고, 알림의 본문이나 제목 텍스트를 변경하고, 알림에 스레드 식별자를 추가할 수 있습니다. |
+| **[!UICONTROL 푸시 만료 추가]**(iOS 전용) | 푸시 만료의 **날짜 및 시간**&#x200B;을(를) 선택합니다. iOS에서 알림 만료는 하드 스톱으로 적용됩니다. 즉, 만료 시간이 지난 후 Apple 푸시 알림 서비스(APNS)에 도착하는 모든 메시지는 전달되지 않으므로 고객이 오래된 알림이나 관련 없는 알림을 받지 않도록 합니다. 자세한 내용은 [Apple 개발자 설명서](https://developer.apple.com/documentation/usernotifications/sending-notification-requests-to-apns)를 참조하십시오. |
 | **[!UICONTROL 알림 가시성]**(Android 전용) | 푸시 알림의 가시성을 정의합니다. <br/><b>개인</b>은(는) 모든 잠금 화면에 알림을 표시하지만 보안 잠금 화면에 중요한 정보나 개인 정보를 숨깁니다. <br/><b>공개</b>는 모든 잠금 화면에서 알림을 모두 표시합니다. <br/><b>암호</b>은(는) 보안 잠금 화면에서 알림의 일부를 표시하지 않습니다. <br/>자세한 내용은 [Android 개발자 설명서](https://developer.android.com/reference/android/app/Notification)를 참조하세요. |
 | **[!UICONTROL 알림 우선 순위]**(Android 전용) | 푸시 알림의 중요도를 낮음에서 최대로 정의합니다. 푸시 알림이 전달될 때 푸시 알림이 얼마나 &quot;간섭&quot;되는지를 결정합니다. 자세한 내용은 [Android 개발자 설명서](https://developer.android.com/guide/topics/ui/notifiers/notifications#importance)를 참조하세요. |
 | **[!UICONTROL 배달 우선 순위]**(Android만 해당) | 푸시 알림에 대해 높은 우선 순위 또는 일반적인 우선 순위를 설정합니다. 메시지 우선 순위에 대한 자세한 내용은 [Google 개발자 설명서](https://firebase.google.com/docs/cloud-messaging/concept-options#setting-the-priority-of-a-message)를 참조하십시오. |
+| **[!UICONTROL TTL]**(Android만 해당) | 메시지가 만료되는 시간(초)을 설정합니다. Android에서 만료는 배달 창으로 처리됩니다. FCM(Firebase Cloud Messaging)은 메시지를 받을 때부터 만료 시간을 TTL(Time-to-Live) 값으로 전환하므로 배달되지 않은 캠페인이 예상보다 늦거나 원하는 기간을 벗어나도 전송될 수 있습니다. 자세한 내용은 [Android 개발자 설명서](https://firebase.google.com/docs/cloud-messaging/concept-options#ttl)를 참조하세요. |
