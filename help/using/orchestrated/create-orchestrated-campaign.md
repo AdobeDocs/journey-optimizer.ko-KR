@@ -4,9 +4,9 @@ product: journey optimizer
 title: Journey Optimizer을 사용하여 오케스트레이션된 캠페인 만들기 및 예약
 description: Adobe Journey Optimizer을 사용하여 오케스트레이션된 캠페인을 만들고 예약하는 방법을 알아봅니다
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: a58d71b3cdb5e83f80b064673f0a6d087b7c191d
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1122'
 ht-degree: 66%
 
 ---
@@ -31,9 +31,7 @@ ht-degree: 66%
 
    ![](assets/create-modal.png)
 
-1. 캠페인 속성을 정의합니다. 이렇게 하려면 캠페인 이름 옆에 있는 ![캠페인 설정 아이콘](assets/do-not-localize/campaign-settings.svg) 단추를 클릭합니다.
-
-   ![](assets/inventory-create.png)
+1. 캠페인 속성을 정의합니다.
 
    1. 캠페인에 대한 **[!UICONTROL 이름]** 및 **[!UICONTROL 설명]**&#x200B;을 입력하십시오.
 
@@ -44,6 +42,11 @@ ht-degree: 66%
    1. **[!UICONTROL 태그]** 필드를 사용하여 Adobe Experience Platform 통합 태그를 캠페인에 지정하십시오. 이를 통해 오케스트레이션된 캠페인 목록에서 쉽게 분류하고 검색을 개선할 수 있습니다. [태그 작업 방법에 대해 알아보십시오](../start/search-filter-categorize.md#tags).
 
    1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+
+
+   캠페인 이름 옆에 있는 ![캠페인 설정 아이콘](assets/do-not-localize/campaign-settings.svg) 단추를 사용하여 언제든지 캠페인 속성에 액세스할 수 있습니다.
+
+   ![](assets/inventory-create.png)
 
 ## 캠페인 예약 {#schedule}
 
