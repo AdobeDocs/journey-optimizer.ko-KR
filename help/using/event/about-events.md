@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 이벤트, 이벤트, 여정, 정의, 시작
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 3764d7eebbe304e0773fa329db2755342ce64c85
+source-git-commit: 461bf985a890d0f2f2723241846df0666248eea0
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1079'
 ht-degree: 47%
 
 ---
@@ -76,9 +76,6 @@ POST API 호출인 이벤트는 이벤트는 스트리밍 수집 API를 통해 A
 ## 이벤트 업데이트 및 삭제 {#update-event}
 
 
-## 이벤트 업데이트 및 삭제 {#update-event}
-
-
 기존 여정이 손상되지 않도록 하기 위해 초안, 라이브 또는 마감된 여정에 사용된 이벤트를 편집할 때는 이름, 설명 또는 페이로드 필드만 변경할 수 있습니다.
 
 라이브, 초안 또는 마감된 여정에 사용된 모든 이벤트는 삭제할 수 없습니다. 사용된 이벤트를 삭제하려면 해당 이벤트를 사용하는 여정을 중지하거나 해당 이벤트가 사용되는 초안 여정에서 해당 이벤트를 제거해야 합니다. **[!UICONTROL 사용 위치]** 필드를 확인할 수 있습니다. 특정 이벤트를 사용하는 여정 수가 표시됩니다. **[!UICONTROL 여정 보기]** 버튼을 클릭하여 해당 여정의 목록을 표시할 수 있습니다.
@@ -87,8 +84,8 @@ POST API 호출인 이벤트는 이벤트는 스트리밍 수집 API를 통해 A
 
 이벤트를 구성하고 이벤트에 대한 스트리밍 엔드포인트 및 페이로드를 지정하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431519?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 비즈니스 이벤트의 사용 사례를 이해합니다. 비즈니스 이벤트를 사용하여 여정을 작성하는 방법과 상황에 따라 적합한 모범 사례를 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416327?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)
