@@ -5,10 +5,10 @@ title: 오케스트레이션된 캠페인 시작
 description: 오케스트레이션된 캠페인을 시작하는 방법 알아보기
 short-description: 오케스트레이션된 캠페인 주요 기능 및 사용 사례 살펴보기
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 24e767d6f146036c8c0a34193ed6d36e5d43e6b2
+source-git-commit: 94c7594e9a12b0bc91bb01989b5dd25afb662cfe
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 94%
+source-wordcount: '635'
+ht-degree: 92%
 
 ---
 
@@ -29,6 +29,8 @@ ht-degree: 94%
 크로스 채널 마케팅은 필수적이지만 오케스트레이션된 캠페인을 통해 원활하게 이루어집니다. 드래그하여 놓는 시각적 인터페이스를 통해 세그먼테이션에서 메시지 게재에 이르기까지 여러 채널에 걸쳐 복잡한 마케팅 워크플로를 디자인하고 자동화할 수 있습니다. 속도, 제어 및 효율성을 위해 구축된 하나의 직관적인 환경에서 모든 작업이 수행됩니다.
 
 ![](assets/canvas-example-diagram.png){zoomable="yes"}
+
+➡️ [비디오에서 오케스트레이션된 캠페인 살펴보기](#video-oc)
 
 ## 핵심 기능
 
@@ -71,6 +73,15 @@ ht-degree: 94%
 * **전환**: 전환은 원본 활동을 대상 활동에 연결하고 해당 시퀀스를 정의합니다.
 
 * **작업 테이블**: 작업 테이블에는 전환에 의해 전달되는 모든 정보가 포함됩니다. 오케스트레이션된 캠페인마다 여러 작업 테이블을 사용합니다. 이 테이블로 전달된 데이터는 오케스트레이션된 캠페인의 수명 주기 전체에서 사용할 수 있습니다.
+
+
+## 소개 비디오 {#video-oc}
+
+오케스트레이션된 캠페인에서 사용할 수 있는 주요 개념과 기능에 대해 알아봅니다.
+
+
+>[!VIDEO](https://video.tv.adobe.com/v/3471538/?learn=on&enablevpops)
+
 
 ## 더 자세히 알아보기
 
