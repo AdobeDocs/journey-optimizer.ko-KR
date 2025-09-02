@@ -14,7 +14,7 @@ exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 source-git-commit: 19130e9eb5a2144afccab9fa8e5632de67bc7157
 workflow-type: tm+mt
 source-wordcount: '1601'
-ht-degree: 16%
+ht-degree: 17%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_conditions"
 >title="조건"
->abstract="조건을 사용하면 특정 기준에 따라 여러 경로를 만들어 개인이 여정을 진행하는 방식을 정의할 수 있습니다. 또한 시간 초과나 오류를 처리하기 위한 대체 경로를 구성하여 원활한 환경을 보장할 수 있습니다."
+>abstract="조건을 통해 특정 기준에 따라 여러 경로를 만들어 개인 여정을 어떻게 진행하는지 정의할 수 있습니다. 또한 시간 초과나 오류를 처리하기 위한 대체 경로를 구성하여 원활한 환경을 보장할 수 있습니다."
 
 **conditions**&#x200B;을(를) 사용하면 특정 기준에 따라 여러 경로를 만들어 개인이 여정을 진행하는 방법을 정의할 수 있습니다. 또한 시간 초과나 오류를 처리하기 위한 대체 경로를 구성하여 원활한 환경을 보장할 수 있습니다.
 
@@ -191,4 +191,4 @@ ht-degree: 16%
 
    >[!NOTE]
    >
-   >대상자 참여 상태가 **실현됨**&#x200B;인 개인만 대상자의 구성원으로 간주됩니다. 대상자를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ko#interpret-segment-results){target="_blank"}를 참조하세요.
+   >대상자 참여 상태가 **실현됨**&#x200B;인 개인만 대상자의 구성원으로 간주됩니다. 대상자를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}를 참조하세요.

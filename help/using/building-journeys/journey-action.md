@@ -12,16 +12,16 @@ exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 source-git-commit: f407c5d4c20aab50350588d89e9d7682f24f5c33
 workflow-type: tm+mt
 source-wordcount: '991'
-ht-degree: 21%
+ht-degree: 25%
 
 ---
 
-# 작업 활동 사용 {#add-a-message-in-a-journey}
+# 액션 활동 사용 {#add-a-message-in-a-journey}
 
 >[!CONTEXTUALHELP]
 >id="ajo_action_activity"
->title="작업 활동"
->abstract="일반 **Action** 활동을 사용하면 기본 제공 채널 작업에 최적화를 추가하는 기능을 사용하여 단일 기본 채널 작업과 여러 인바운드 활동을 구성할 수 있습니다."
+>title="액션 활동"
+>abstract="일반 **액션** 활동을 사용하면 단일 네이티브 채널 액션과 여러 인바운드 활동을 구성하고 모든 기본 제공 채널 액션에 최적화를 추가할 수 있습니다."
 
 >[!AVAILABILITY]
 >
@@ -112,7 +112,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ajo_multi_action_journey"
 >title="여러 인바운드 액션 추가"
->abstract="단일 여정 내에서 여러 인바운드 작업을 선택할 수 있습니다. 이 기능을 사용하면 여러 코드 기반 경험, 인앱 메시지, 콘텐츠 카드 또는 웹 액션을 동시에 여러 위치에 게재할 수 있으며, 각 액션에는 특정 콘텐츠가 포함됩니다."
+>abstract="단일 여정 내에서 여러 인바운드 액션을 선택할 수 있습니다. 이 기능을 사용하면 여러 코드 기반 경험, 인앱 메시지, 콘텐츠 카드 또는 웹 액션을 동시에 여러 위치에 게재할 수 있으며, 각 액션에는 특정 콘텐츠가 포함됩니다."
 
 여정 오케스트레이션을 단순화하기 위해 단일 여정 작업 내에 여러 인바운드 작업을 정의할 수 있습니다.
 

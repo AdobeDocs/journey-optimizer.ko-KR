@@ -15,7 +15,7 @@ exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 source-git-commit: 19130e9eb5a2144afccab9fa8e5632de67bc7157
 workflow-type: tm+mt
 source-wordcount: '1024'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_optimize"
 >title="활동 최적화"
->abstract="**최적화** 활동을 사용하면 실험, 타기팅 및 특정 조건을 포함한 특정 기준에 따라 여러 경로를 만들어 개인이 여정을 진행하는 방법을 정의할 수 있습니다."
+>abstract="**최적화** 활동을 통해 실험, 타기팅, 특정 조건 등의 구체적인 기준에 따라 여러 경로를 만들어 개인이 여정을 어떻게 진행할지 정의할 수 있습니다."
 
 >[!AVAILABILITY]
 >

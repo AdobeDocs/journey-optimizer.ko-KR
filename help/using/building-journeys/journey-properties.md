@@ -263,7 +263,7 @@ Adobe Journey Optimizer은 전체 여정에 사용된 병합 정책을 적용합
 >[!CONTEXTUALHELP]
 >id="ajo_journey_exit_criterias"
 >title="종료 기준"
->abstract="이 섹션에는 종료 기준 옵션이 표시됩니다. 여정에 대해 하나 이상의 종료 기준 규칙 및 필터를 만들 수 있습니다."
+>abstract="이 섹션에는 종료 기준 옵션이 표시됩니다. 여정에 대해 하나 이상의 종료 기준 규칙과 필터를 만들 수 있습니다."
 
 ### 여정 종료 기준 {#exit-criteria-desc}
 
