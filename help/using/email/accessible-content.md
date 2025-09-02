@@ -31,7 +31,7 @@ ht-degree: 0%
 >
 >반면 [!DNL Journey Optimizer] 인터페이스 자체의 액세스 가능성은 [이 섹션](../start/accessibility.md)에 자세히 설명되어 있습니다.
 > 
-## 텍스트 가독성 확인 {#text-readability}
+>## 텍스트 가독성 확인 {#text-readability}
 
 **[!UICONTROL Text]** 구성 요소의 **[!UICONTROL Styles]** 탭을 사용하여 적절한 색상 대비 및 간단한 글꼴을 사용하는 등 텍스트를 읽을 수 있도록 합니다. [자세히 알아보기](content-components.md#text)
 
