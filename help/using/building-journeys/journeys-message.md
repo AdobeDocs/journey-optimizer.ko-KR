@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 여정, 메시지, 푸시, sms, 이메일, 인앱, 웹, 콘텐츠 카드, 코드 기반 경험
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: c39a71da901b888ff440a1488658b577ff72cc32
+source-git-commit: 25847b9252b54e63c9ceb4641fb53a80d3bf89bd
 workflow-type: tm+mt
 source-wordcount: '557'
 ht-degree: 17%
@@ -126,7 +126,7 @@ ht-degree: 17%
    >
    >* 이메일 및 푸시 알림의 경우 전송 시간 최적화를 활성화할 수 있습니다. [자세히 알아보기](send-time-optimization.md)
 
-1. 활동에 따라 선택한 채널에 대한 고급 매개 변수를 표시하고 실행 주소와 같은 일부 기본값을 무시할 수 있습니다. [자세히 알아보기](../about-journey-activities.md#advanced-parameters)
+1. 활동에 따라 선택한 채널에 대한 고급 매개 변수를 표시하고 실행 주소와 같은 일부 기본값을 무시할 수 있습니다. [자세히 알아보기](about-journey-activities.md#advanced-parameters)
 
    >[!NOTE]
    >
