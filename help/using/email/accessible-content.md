@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: 이메일, 디자인, 접근성
 hide: true
 hidefromtoc: true
-source-git-commit: 95e50386d4190d0b967d133a327c25ab1681b5c1
+source-git-commit: be87e47f7c3303575c2784af7ce76c138cb03154
 workflow-type: tm+mt
 source-wordcount: '1612'
 ht-degree: 0%
@@ -33,7 +33,6 @@ ht-degree: 0%
 
 <!--You can adjust a number of styling parameters and attributes from the Email Designer **[!UICONTROL Styles]** pane.-->
  
-
 ## 텍스트 가독성 확인 {#text-readability}
 
 **[!UICONTROL Text]** 구성 요소의 **[!UICONTROL Styles]** 탭을 사용하여 적절한 색상 대비 및 간단한 글꼴을 사용하는 등 텍스트를 읽을 수 있도록 합니다. [자세히 알아보기](content-components.md#text)
@@ -325,7 +324,9 @@ HTML 이메일에서 표는 종종 레이아웃에 사용됩니다. 기본적으
 >
 >Always ensure link text is discernible (visible) and descriptive (clear about purpose). Avoid vague labels like 'here' or 'more'.-->
 
-## 키보드 탐색 및 포커스 지원 제공 <!--for landing pages--> {#keyboard}
+## 키보드 탐색 및 포커스 지원 제공 {#keyboard}
+
+<!--for landing pages-->
 
 키보드 탐색 및 포커스 지원을 제공하면 마우스를 사용할 수 없는 사용자가 콘텐츠에 완전히 액세스하고 상호 작용할 수 있습니다. 또한 모든 사용자가 정보를 통해 명확하고 일관되게 이동할 수 있는 방법을 제공하여 전반적인 유용성을 향상시킵니다.
 
