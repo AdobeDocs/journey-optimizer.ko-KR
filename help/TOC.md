@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4270fbfb191700704d161f472abf62f7af79c208
+source-git-commit: 95e50386d4190d0b967d133a327c25ab1681b5c1
 workflow-type: tm+mt
-source-wordcount: '2889'
+source-wordcount: '2892'
 ht-degree: 99%
 
 ---
@@ -84,7 +84,7 @@ ht-degree: 99%
       + [대상자 읽기](using/building-journeys/read-audience.md)
       + [대기](using/building-journeys/wait-activity.md)
       + [콘텐츠 결정](using/building-journeys/content-decision.md)
-      + [작업 활동](using/building-journeys/journey-action.md)
+      + [액션 활동](using/building-journeys/journey-action.md)
       + [기본 제공 채널 액션](using/building-journeys/journeys-message.md)
       + [사용자 정의 액션](using/building-journeys/using-custom-actions.md)
       + [Adobe Campaign Standard 작업](using/building-journeys/using-adobe-campaign-standard.md)
@@ -331,6 +331,7 @@ ht-degree: 99%
             + [세로 정렬 및 패딩 조정](using/email/alignment-and-padding.md)
             + [인라인 스타일 속성 추가](using/email/inline-styling.md)
             + [다크 모드 콘텐츠 정의](using/email/dark-mode.md)
+         + [액세스 가능한 컨텐츠 만들기](using/email/accessible-content.md)
       + [이메일 옵트아웃 관리](using/email/email-opt-out.md)
       + 이메일 채널 구성 {#configure-email}
          + [이메일 채널 구성](/help/rp_landing_pages/configure-email-landing-page.md)
