@@ -3,29 +3,29 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 액세스 가능한 콘텐츠 디자인
 description: Journey Optimizer에서 이메일 및 랜딩 페이지에 대한 액세스 가능한 콘텐츠를 디자인하는 방법을 알아봅니다
-feature: Email Design
+feature: Email Design, Landing Pages
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: 이메일, 디자인, 접근성
-hide: true
-hidefromtoc: true
-source-git-commit: be87e47f7c3303575c2784af7ce76c138cb03154
+source-git-commit: fff37a5325eb99a5a484cad93c391cb92fef7526
 workflow-type: tm+mt
-source-wordcount: '1612'
+source-wordcount: '1642'
 ht-degree: 0%
 
 ---
 
 # 액세스 가능한 콘텐츠 디자인 {#accessible-content}
 
+>[!NOTE]
+>
+>이 페이지에서는 [!DNL Journey Optimizer]&#x200B;(으)로 디자인된 전자 메일 및 랜딩 페이지를 장애가 있는 사람이 읽고, 이해하고, 상호 작용할 수 있도록 모든 받는 사람이 콘텐츠에 액세스할 수 있도록 합니다.
+>
+>[!DNL Journey Optimizer] 인터페이스 자체의 액세스 가능성에 대해서는 [이 섹션](../start/accessibility.md)에 자세히 설명되어 있습니다.
+
 [유럽 접근성 법률](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}은(는) 회원국 간에 국가 규칙이 서로 달라 발생하는 장벽을 제거하여 액세스 가능한 제품 및 서비스의 내부 시장을 개선하기 위해 고안된 지침입니다.
 
 **에서**&#x200B;전자 메일&#x200B;**및**&#x200B;랜딩 페이지[!DNL Journey Optimizer]에 대한 콘텐츠를 만들 때 이 페이지에 나열된 전자 메일 마케터에 대한 액세스 가능성 모범 사례를 통해 이 지시문을 준수하는 데 도움이 될 수 있습니다. 이 규칙은 WCAG(Web Content Accessibility Guidelines) 2.1, 레벨 AA를 기반으로 합니다.
-
->[!NOTE]
->
->[!DNL Journey Optimizer] 인터페이스 자체를 사용할 때의 접근성 기능은 [이 섹션](../start/accessibility.md)에 자세히 설명되어 있습니다.
 
 유럽 접근성 법에는 이메일, 뉴스레터, PDF 및 다운로드 가능한 콘텐츠를 포함한 모든 디지털 통신에 액세스할 수 있어야 한다고 명시되어 있습니다. 따라서 액세스 가능한 글꼴, 읽을 수 있는 형식 사용과 같은 특정 지침을 따르고 이미지에 대한 대체 텍스트를 제공해야 합니다.
 
@@ -33,7 +33,6 @@ ht-degree: 0%
 
 <!--You can adjust a number of styling parameters and attributes from the Email Designer **[!UICONTROL Styles]** pane.-->
  
-
 ## 텍스트 가독성 확인 {#text-readability}
 
 **[!UICONTROL Text]** 구성 요소의 **[!UICONTROL Styles]** 탭을 사용하여 적절한 색상 대비 및 간단한 글꼴을 사용하는 등 텍스트를 읽을 수 있도록 합니다. [자세히 알아보기](content-components.md#text)
