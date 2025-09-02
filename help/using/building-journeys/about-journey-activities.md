@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 여정, 활동, 시작하기, 이벤트, 작업
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 19130e9eb5a2144afccab9fa8e5632de67bc7157
+source-git-commit: c39a71da901b888ff440a1488658b577ff72cc32
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 16%
+source-wordcount: '716'
+ht-degree: 15%
 
 ---
 
@@ -91,13 +91,19 @@ ht-degree: 16%
 
 ![여정 활동 속성의 고급 매개 변수 필드](assets/journey-advanced-parameters.png)
 
-가독성을 높이기 위해 **[!UICONTROL 읽기 전용 필드 숨기기]** 단추를 사용하여 이러한 매개 변수를 숨깁니다.
+가독성을 높이기 위해 오른쪽 창 상단의 **[!UICONTROL 읽기 전용 필드 숨기기]** 단추를 사용하여 이러한 매개 변수를 숨깁니다.
 
 ![여정 활동 속성에서 읽기 전용 필드 아이콘 숨기기](assets/journey-hide-read-only-fields.png)
 
 일부 특정 컨텍스트에서는 특정 용도로 이러한 매개 변수의 값을 재정의할 수 있습니다. 값을 강제 적용하려면 필드의 오른쪽에 있는 **[!UICONTROL 매개 변수 무시 활성화]** 아이콘을 클릭합니다. [자세히 알아보기](../configuration/primary-email-addresses.md#journey-parameters)
 
 ![전자 메일 활동 속성에서 매개 변수 재정의 옵션을 사용하도록 설정](assets/journey-enable-parameter-override.png)
+
+>[!NOTE]
+>
+>고급 매개 변수가 숨겨져 있으면 **[!UICONTROL 읽기 전용 필드 표시]** 단추를 클릭하십시오.
+>
+>![여정 활동 속성에 읽기 전용 필드 표시](assets/journey-show-read-only-fields.png){width=60%}
 
 ### 대체 경로 추가
 

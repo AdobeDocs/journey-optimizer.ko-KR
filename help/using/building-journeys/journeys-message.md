@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 여정, 메시지, 푸시, sms, 이메일, 인앱, 웹, 콘텐츠 카드, 코드 기반 경험
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 17ca5d47fbf20ee25c3728d85877adaccf82aea8
+source-git-commit: c39a71da901b888ff440a1488658b577ff72cc32
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 18%
+source-wordcount: '557'
+ht-degree: 17%
 
 ---
 
@@ -120,13 +120,17 @@ ht-degree: 18%
       </tr>
       </table>
 
->[!NOTE]
->
->* 각 인바운드 경험 활동에는 3일 **대기** 활동이 제공됩니다. [자세히 알아보기](wait-activity.md#auto-wait-node)
->
->* 이메일 및 푸시 알림의 경우 전송 시간 최적화를 활성화할 수 있습니다. [자세히 알아보기](send-time-optimization.md)
+   >[!NOTE]
+   >
+   >* 각 인바운드 경험 활동에는 3일 **대기** 활동이 제공됩니다. [자세히 알아보기](wait-activity.md#auto-wait-node)
+   >
+   >* 이메일 및 푸시 알림의 경우 전송 시간 최적화를 활성화할 수 있습니다. [자세히 알아보기](send-time-optimization.md)
 
+1. 활동에 따라 선택한 채널에 대한 고급 매개 변수를 표시하고 실행 주소와 같은 일부 기본값을 무시할 수 있습니다. [자세히 알아보기](../about-journey-activities.md#advanced-parameters)
 
+   >[!NOTE]
+   >
+   >고급 매개 변수가 숨겨져 있으면 오른쪽 창 상단의 **[!UICONTROL 읽기 전용 필드 표시]** 단추를 클릭합니다.
 
 ## 라이브 콘텐츠 업데이트 {#update-live-content}
 

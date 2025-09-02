@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 기본, 실행, 이메일, 타겟, 프로필, 최적화 도구
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 5b6543fd98b0457652374a34712e91501ace898c
+source-git-commit: c39a71da901b888ff440a1488658b577ff72cc32
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 20%
+source-wordcount: '522'
+ht-degree: 19%
 
 ---
 
@@ -68,6 +68,12 @@ ht-degree: 20%
 
 ## 기본 실행 필드 재정의 {#override-default-execution-address}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_execution_address"
+>title="사용자 지정 값 정의"
+>abstract="경우에 따라 기본 실행 주소를 재정의할 수 있습니다. 필드 오른쪽에 있는 **매개 변수 재정의 사용** 아이콘을 사용하여 사용자 지정 기본 주소를 정의합니다."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/primary-email-addresses#journey-parameters" text="실행 주소 정보"
+
 특정 사용 사례의 경우 전역적으로 설정된 실행 필드를 재정의하고 이메일 구성 수준 또는 여정 수준에서 다른 값을 정의할 수 있습니다.
 
 이 값을 재정의하는 것은 다음과 같은 경우에 유용합니다.
@@ -83,9 +89,9 @@ ht-degree: 20%
 
 ### 여정 매개 변수에서 {#journey-parameters}
 
-**[!UICONTROL 여정]**&#x200B;에 [전자 메일](../email/create-email.md#create-email-journey-campaign) 작업을 추가하면 기본 전자 메일 주소가 여정 고급 매개 변수 아래에 표시됩니다.
+**[!UICONTROL 여정]**&#x200B;에 **[!UICONTROL Email]** 또는 [SMS](../email/create-email.md#create-email-journey-campaign) 액션을 추가하면 기본 전자 메일 주소가 여정 고급 매개 변수 아래에 표시됩니다.
 
-일부 특정 컨텍스트에서는 **[!UICONTROL address]** 필드 오른쪽에 있는 **[!UICONTROL 매개 변수 재정의 사용]** 아이콘을 사용하여 이 값을 재정의할 수 있습니다.
+일부 특정 컨텍스트에서는 필드 오른쪽에 있는 **[!UICONTROL 매개 변수 재정의 활성화]** 아이콘을 사용하여 이 값을 재정의할 수 있습니다.
 
 ![](assets/journey-enable-parameter-override.png)
 
