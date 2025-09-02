@@ -8,32 +8,29 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: 이메일, 디자인, 접근성
-source-git-commit: fff37a5325eb99a5a484cad93c391cb92fef7526
+source-git-commit: 09a6ec5bf04a1252fea8724d587b46f688842906
 workflow-type: tm+mt
-source-wordcount: '1642'
+source-wordcount: '1610'
 ht-degree: 0%
 
 ---
 
 # 액세스 가능한 콘텐츠 디자인 {#accessible-content}
 
+[유럽 접근성 법률](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}은(는) 회원국 간에 국가 규칙이 서로 달라 발생하는 장벽을 제거하여 액세스 가능한 제품 및 서비스의 내부 시장을 개선하기 위해 고안된 지침입니다.
+
+이 규정은 이메일, 뉴스레터, PDF 및 다운로드 가능한 콘텐츠를 포함한 모든 디지털 통신에 액세스할 수 있어야 한다고 명시합니다. 따라서 수신자를 위한 콘텐츠를 만들 때는 액세스 가능한 글꼴, 읽을 수 있는 형식 사용 등의 특정 지침을 따르고 이미지에 대한 대체 텍스트를 제공해야 합니다.
+
+마케터가 [!DNL Journey Optimizer]이메일[ 및 ](content-from-scratch.md)랜딩 페이지&#x200B;**에 대한 콘텐츠를 모두 만들 수 있는** **이메일 Designer**&#x200B;을(를) 사용하면 WCAG(Web Content Accessibility Guidelines) 2.1, 레벨 AA를 기반으로 이 지시문을 쉽게 준수할 수 있습니다.
+
+이에 따라 [!DNL Journey Optimizer]을(를) 사용하여 액세스 가능한 콘텐츠를 디자인하는 모범 사례가 아래에 나와 있습니다.
+
 >[!NOTE]
 >
 >이 페이지에서는 [!DNL Journey Optimizer]&#x200B;(으)로 디자인된 전자 메일 및 랜딩 페이지를 장애가 있는 사람이 읽고, 이해하고, 상호 작용할 수 있도록 모든 받는 사람이 콘텐츠에 액세스할 수 있도록 합니다.
 >
->[!DNL Journey Optimizer] 인터페이스 자체의 액세스 가능성에 대해서는 [이 섹션](../start/accessibility.md)에 자세히 설명되어 있습니다.
-
-[유럽 접근성 법률](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}은(는) 회원국 간에 국가 규칙이 서로 달라 발생하는 장벽을 제거하여 액세스 가능한 제품 및 서비스의 내부 시장을 개선하기 위해 고안된 지침입니다.
-
-**에서**&#x200B;전자 메일&#x200B;**및**&#x200B;랜딩 페이지[!DNL Journey Optimizer]에 대한 콘텐츠를 만들 때 이 페이지에 나열된 전자 메일 마케터에 대한 액세스 가능성 모범 사례를 통해 이 지시문을 준수하는 데 도움이 될 수 있습니다. 이 규칙은 WCAG(Web Content Accessibility Guidelines) 2.1, 레벨 AA를 기반으로 합니다.
-
-유럽 접근성 법에는 이메일, 뉴스레터, PDF 및 다운로드 가능한 콘텐츠를 포함한 모든 디지털 통신에 액세스할 수 있어야 한다고 명시되어 있습니다. 따라서 액세스 가능한 글꼴, 읽을 수 있는 형식 사용과 같은 특정 지침을 따르고 이미지에 대한 대체 텍스트를 제공해야 합니다.
-
-마케터가 전자 메일과 랜딩 페이지에 대한 콘텐츠를 모두 만들 수 있는 [!DNL Journey Optimizer] [전자 메일 Designer](content-from-scratch.md)을(를) 사용하면 이러한 지침을 쉽게 따를 수 있습니다. [!DNL Journey Optimizer]을(를) 사용하여 액세스 가능한 콘텐츠를 디자인하는 모범 사례는 다음과 같습니다.
-
-<!--You can adjust a number of styling parameters and attributes from the Email Designer **[!UICONTROL Styles]** pane.-->
- 
-
+>반면 [!DNL Journey Optimizer] 인터페이스 자체의 액세스 가능성은 [이 섹션](../start/accessibility.md)에 자세히 설명되어 있습니다.
+> 
 ## 텍스트 가독성 확인 {#text-readability}
 
 **[!UICONTROL Text]** 구성 요소의 **[!UICONTROL Styles]** 탭을 사용하여 적절한 색상 대비 및 간단한 글꼴을 사용하는 등 텍스트를 읽을 수 있도록 합니다. [자세히 알아보기](content-components.md#text)
@@ -83,7 +80,7 @@ ht-degree: 0%
 
 또한 [!DNL Journey Optimizer] 이메일 Designer을 사용하면 다양한 장치와 화면 크기에 맞게 디자인을 미리 보고 최적화할 수 있습니다. 언제든지 **[!UICONTROL 실시간 보기로 전환]**&#x200B;하여 다양한 장치 크기에서 콘텐츠가 어떻게 렌더링되는지 확인할 수 있습니다.
 
-![](assets/accessible-live-view.png){width="70%"}
+![](assets/accessible-live-view.png){width="80%"}
 
 >[!CAUTION]
 >
@@ -146,7 +143,7 @@ ht-degree: 0%
 
 <!--TO PUBLISH WHEN DARK MODE IS RELEASED-->
 
-다크 모드는 광도 또는 시각적 장애가 있는 사용자의 시각적 접근성을 향상시켜 향상된 시청 경험을 제공합니다.
+다크 모드는 광도 또는 시각적 장애가 있는 사용자의 시각적 접근성을 향상시켜 향상된 시청 환경을 제공합니다.
 
 ![](assets/accessible-dark-mode.png){width="90%"}
 
@@ -154,11 +151,11 @@ ht-degree: 0%
 
 접근성을 보장하기 위한 지침을 포함하여 다크 모드와 관련된 자세한 모범 사례는 [이 섹션](dark-mode.md#best-practices)에 나열되어 있습니다. <!--KEEP dark mode accessibility best practices IN ONE SINGLE LOCATION - for now listed on the Dark mode page.-->
 
-## 액세스 가능한 이메일에 특정 속성 사용 {#attributes}
+## 접근성을 위해 특정 특성 사용 {#attributes}
 
-### `lang` 및 `dir` 특성
+### 언어 속성 {#language}
 
-액세스 가능한 전자 메일을 만들 때 전자 메일 본문에 `lang`(언어) 및 `dir`(텍스트 방향) 특성을 포함하십시오. 이러한 속성은 화면 판독기와 같은 보조 기술이 콘텐츠를 적절한 방식으로 해석하고 제공하는 데 도움이 됩니다.
+디자인을 만들 때 콘텐츠 본문에 `lang`(언어) 및 `dir`(텍스트 방향) 특성을 포함하십시오. 이러한 속성은 화면 판독기와 같은 보조 기술이 콘텐츠를 적절한 방식으로 해석하고 제공하는 데 도움이 됩니다.
 
 * `lang` 특성은 단어를 올바로 발음하도록 보조 기술에 대한 전자 메일의 언어를 나타냅니다.
 
@@ -202,13 +199,13 @@ ht-degree: 0%
 >
 >전자 메일에 여러 언어가 포함되어 있는 경우 각 부분이 올바르게 읽히도록 특정 섹션(예: `<table>` 또는 `<td>` 블록)에 적절한 언어 특성을 할당하십시오.
 
-### 레이아웃 표 및 `role="presentation"`
+### 테이블 {#tables}
 
-HTML 이메일에서 표는 종종 레이아웃에 사용됩니다. 기본적으로 화면 판독기는 행, 열 및 구조를 알리는 모든 `<table>`을(를) 데이터 테이블로 취급합니다. 이 경우 표를 포맷에만 사용하는 경우 혼동을 줄 수 있습니다.
+HTML 컨텐츠에서 테이블은 종종 레이아웃에 사용됩니다. 기본적으로 화면 판독기는 행, 열 및 구조를 알리는 모든 `<table>`을(를) 데이터 테이블로 취급합니다. 이 경우 표를 포맷에만 사용하는 경우 혼동을 줄 수 있습니다.
 
 레이아웃 표에 `role="presentation"`(또는 `role="none"`)을(를) 추가하여 보조 기술이 구조를 건너뛰고 실제 콘텐츠에만 집중할 수 있도록 합니다.
 
-+++예 - 레이아웃 표(role=&quot;presentation&quot; 사용): 
++++예제 - 레이아웃 표(`role="presentation"` 포함)
 
 ```
 <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%"> 
@@ -233,7 +230,7 @@ HTML 이메일에서 표는 종종 레이아웃에 사용됩니다. 기본적으
 
 +++
 
-+++예 - 데이터 테이블(role=&quot;presentation&quot; 제외): 
++++예 - 데이터 테이블(`role="presentation"` 없음)
 
 ```
 <table border="1" cellpadding="5" cellspacing="0"> 
@@ -268,25 +265,21 @@ HTML 이메일에서 표는 종종 레이아웃에 사용됩니다. 기본적으
 화면 판독기는 다음과 같이 읽습니다.
 &quot;2개의 열과 3개의 행이 있는 테이블&quot;
 
-&quot;이름, 앨리스&quot;
+&quot;이름, 앨리스. 95점&quot;
 
-&quot;95점&quot;
-
-&quot;이름, 밥&quot;
-
-&quot;88점&quot;
+&quot;이름, 밥 88점.&quot;
 
 +++
 
 >[!TIP]
 >
->레이아웃 테이블에만 `role="presentation"`을(를) 사용합니다. 데이터 테이블의 경우 화면 판독기에서 헤더와 관계를 올바르게 알릴 수 있도록 의미 체계`<table>` 구조를 유지합니다.
+>레이아웃 테이블에만 `role="presentation"`을(를) 사용합니다. 데이터 테이블의 경우 화면 판독기에서 헤더와 관계를 올바르게 알릴 수 있도록 의미 체계 `<table>` 구조를 유지합니다.
 
-### 링크에 대한 식별 가능하고 설명적인 텍스트
+### 링크 텍스트 {#links}
 
-화면 판독기는 텍스트를 사용하여 링크를 읽습니다. 링크에 &#39;여기를 클릭&#39; 또는 &#39;자세히 읽기&#39;만 레이블이 지정되면 보조 기술 사용자는 대상을 알 수 없습니다.
+화면 판독기는 텍스트를 사용하여 링크를 읽습니다. 링크에 &#39;여기를 클릭&#39; 또는 &#39;자세히 읽기&#39;만 레이블이 지정되면 보조 기술 사용자는 대상을 알 수 없습니다. 액세스 가능성을 보장하기 위해 대상이나 작업을 명확하게 나타내는 설명 텍스트가 필요합니다.
 
-접근성을 보장하려면 대상이나 작업을 명확하게 나타내는 설명 텍스트를 작성하십시오. 전자 메일 Designer을 사용하여 [콘텐츠에 링크를 추가](message-tracking.md#insert-links)하고 레이블을 편집하여 식별 가능(표시) 및 설명(목적에 대한 명확한 설명)을 할 수 있습니다. &#39;여기&#39; 또는 &#39;기타&#39;와 같은 모호한 레이블을 사용하지 마십시오.
+전자 메일 Designer을 사용하여 [콘텐츠에 링크를 추가](message-tracking.md#insert-links)하고 레이블을 편집하여 식별 가능(표시) 및 설명(목적에 대한 명확한 설명)을 할 수 있습니다. &#39;여기&#39; 또는 &#39;기타&#39;와 같은 모호한 레이블을 사용하지 마십시오.
 
 ![](assets/accessible-link.png){width="70%"}
 
@@ -305,7 +298,7 @@ HTML 이메일에서 표는 종종 레이아웃에 사용됩니다. 기본적으
 
 +++
 
-+++예 - 잘못된 링크(설명 아님): 
++++예 - 잘못된 링크(설명 아님)
 
 ```
 <p>Learn more about our new features.  
@@ -316,7 +309,7 @@ HTML 이메일에서 표는 종종 레이아웃에 사용됩니다. 기본적으
 ```
 
 화면 판독기는 다음과 같이 읽습니다.
-&quot;링크, 여기를 클릭하십시오.&quot; *(읽기 순서를 벗어난 컨텍스트를 제공하지 않습니다.)*
+&quot;링크, 여기를 클릭하십시오.&quot; *(읽기 순서에서 벗어난 컨텍스트를 제공하지 않음)*
 
 +++
 
@@ -331,7 +324,7 @@ HTML 이메일에서 표는 종종 레이아웃에 사용됩니다. 기본적으
 
 키보드 탐색 및 포커스 지원을 제공하면 마우스를 사용할 수 없는 사용자가 콘텐츠에 완전히 액세스하고 상호 작용할 수 있습니다. 또한 모든 사용자가 정보를 통해 명확하고 일관되게 이동할 수 있는 방법을 제공하여 전반적인 유용성을 향상시킵니다.
 
-* 키보드를 통해 포커스 활성화(탭/화살표 키)
+* 키보드를 통한 포커스
 
    * 모든 대화형 요소(예: 단추, 확인란, 링크)에 `tabindex="0"`이(가) 있으므로 기본 탭 순서에 포함되어야 합니다.
 
@@ -341,7 +334,7 @@ HTML 이메일에서 표는 종종 레이아웃에 사용됩니다. 기본적으
 
    * 실행 가능한 요소에 초점을 맞추기 위해 명확하고 구별 가능한 스타일을 적용합니다.
 
-     +++예(CSS):
+     +++예(CSS)
 
      ```
      [tabindex="0"] : focus { 
