@@ -72,7 +72,7 @@ ht-degree: 19%
 >id="ajo_journey_execution_address"
 >title="사용자 지정 값 정의"
 >abstract="경우에 따라 기본 실행 주소를 재정의할 수 있습니다. 필드 오른쪽에 있는 **매개 변수 재정의 사용** 아이콘을 사용하여 사용자 지정 기본 주소를 정의합니다."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/primary-email-addresses#journey-parameters" text="실행 주소 정보"
+>additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/configuration/primary-email-addresses#journey-parameters" text="실행 주소 정보"
 
 특정 사용 사례의 경우 전역적으로 설정된 실행 필드를 재정의하고 이메일 구성 수준 또는 여정 수준에서 다른 값을 정의할 수 있습니다.
 
