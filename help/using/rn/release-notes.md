@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d69b04be97951a5a57228ea839cb9b9c274a92c2
+source-git-commit: 45e50b7d9fa93bd1b01c25afcb358f67a789f90c
 workflow-type: tm+mt
-source-wordcount: '1817'
+source-wordcount: '1822'
 ht-degree: 68%
 
 ---
@@ -40,6 +40,7 @@ ht-degree: 68%
 <li>데이터 수집 상태를 추적하고 데이터 세트를 조회할 준비가 되었는지 알 수 있도록 모니터링을 개선했습니다.</li>
 <li>최적의 성능과 안정성을 보장하기 위해 사용 지침 및 보호 기능을 업데이트했습니다.</li></ul></p>
 <p>자세한 내용은 <a href="../data/lookup-aep-data.md">세부 설명서</a>를 참조하십시오.</p>
+<p>사용 가능한 날짜: 2025년 9월 1일</p>
 </td>
 </tr>
 </tbody>
