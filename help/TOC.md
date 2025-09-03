@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 95e50386d4190d0b967d133a327c25ab1681b5c1
+source-git-commit: 61a8d887b6dc81e21dfd3810684fd9c01db487a6
 workflow-type: tm+mt
-source-wordcount: '2892'
+source-wordcount: '2891'
 ht-degree: 99%
 
 ---
@@ -535,6 +535,7 @@ ht-degree: 99%
       + [언어 공급자 만들기](using/content-management/multilingual-provider.md)
       + [수동 번역을 사용하여 다국어 콘텐츠 만들기](using/content-management/multilingual-manual.md)
       + [자동 번역을 사용하여 다국어 콘텐츠 만들기](using/content-management/multilingual-automated.md)
+   + [메시지 최적화](using/campaigns/campaigns-message-optimization.md)
    + 콘텐츠 실험 {#content-experiment}
       + [콘텐츠 실험](/help/rp_landing_pages/content-experiment-landing-page.md)
       + [콘텐츠 실험 시작](using/content-management/get-started-experiment.md)
@@ -543,7 +544,6 @@ ht-degree: 99%
          + [기술 노트](/help/rp_landing_pages/technotes-landing-page.md)
          + [통계 계산 이해](using/content-management/experiment-calculations.md)
          + [실험 보고서의 통계 계산 이해](using/content-management/experiment-report-calculations.md)
-   + [메시지 최적화 활용](using/campaigns/campaigns-message-optimization.md)
 + 대상자, 프로필, ID {#audiences-profiles-identities}
    + [대상자, 프로필, ID](/help/rp_landing_pages/audiences-profiles-identities-landing-page.md)
    + 대상자 {#audiences}
