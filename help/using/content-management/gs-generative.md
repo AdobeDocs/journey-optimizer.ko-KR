@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 01fa6efc5c5717e15e1dbb618f5d65feb7ffaed6
+source-git-commit: 6e602312371934726370c3ae10cd13080459f6db
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 93%
@@ -42,12 +42,27 @@ Microsoft Azure OpenAI 및 Adobe Firefly를 기반으로 제공되는 Adobe Jour
 
 AI Assistant는 여러 언어로 **세대를 지원합니다**. 이를 통해 다양한 글로벌 대상자에게 도달하여 참여할 수 있습니다. AI Assistant는 다음 언어로 제공됩니다.
 
-<table style="table-layout:fixed"><tr style="border: 0; text-align: center;background-color: #FFFFFF;">
+<table style="table-layout:fixed; border: 0; text-align: center; background-color: #FFFFFF;">
   <tr>
-    <td><ul><li>프랑스어</li><li>스페인어</li><li>독일어</li><li>이탈리아어</li></ul></td>
-    <td><ul><li>일본어</li><li>스웨덴어</li><li>네덜란드어</li><li>노르웨이어</li></ul></td>
+    <td>
+      <ul>
+        <li>프랑스어</li>
+        <li>스페인어</li>
+        <li>독일어</li>
+        <li>이탈리아어</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>일본어</li>
+        <li>스웨덴어</li>
+        <li>네덜란드어</li>
+        <li>노르웨이어</li>
+      </ul>
+    </td>
   </tr>
 </table>
+
 
 Adobe Journey Optimizer의 AI 어시스턴트를 사용하여 다양한 주요 제목과 이미지를 실험해 보며 메시지의 영향을 최적화할 수 있습니다. 여러 변형을 생성하고 비교할 실험을 빌드합니다. **Journey Optimizer 콘텐츠 실험**&#x200B;을 활용하여 대상 대상에 가장 적합한 성과를 측정하기 위해 여러 메시지 처리를 정의할 수 있습니다. 게재 콘텐츠 또는 제목을 변경하도록 선택할 수 있습니다. 메시지 대상자는 지정된 지표 측면에서 가장 적합한 처리를 결정하기 위해 각 처리에 임의로 할당됩니다. [이 섹션](../content-management/content-experiment.md)에서 콘텐츠 실험에 대해 자세히 알아보십시오.
 
@@ -96,7 +111,7 @@ Adobe Journey Optimizer에서 이메일 생성을 위해 AI 어시스턴트를 �
 * Adobe Journey Optimizer의 AI 어시스턴트를 사용하여 이메일 콘텐츠를 만들 때 브랜드별 또는 사용자 정의 템플릿을 사용할 수 있습니다. 최대 8~10개의 이미지가 포함된 이메일 템플릿을 권장합니다.
 * 변형을 선택할 때 엄지손가락 위로, 엄지손가락 아래로 또는 플래그 아이콘을 사용하여 문제가 있는 출력을 보고하십시오.
 * AI 어시스턴트 사용 시 Adobe Experience Cloud 생성형 AI 사용자 지침이 적용됩니다. [자세히 알아보기](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
-* 미디어 제작에서 생성형 AI 도구 사용의 투명성을 증진하기 위한 Adobe의 약속의 일부로, Adobe는 Firefly 생성 자산이 포함된 콘텐츠 또는 프로젝트를 다운로드하거나 내보낼 때 Content Credentials를 적용합니다. [자세히 알아보기](https://helpx.adobe.com/kr/firefly/using/content-credentials.html)
+* 미디어 제작에서 생성형 AI 도구 사용의 투명성을 증진하기 위한 Adobe의 약속의 일부로, Adobe는 Firefly 생성 자산이 포함된 콘텐츠 또는 프로젝트를 다운로드하거나 내보낼 때 Content Credentials를 적용합니다. [자세히 알아보기](https://helpx.adobe.com/firefly/using/content-credentials.html)
 
 Adobe Journey Optimizer의 AI 어시스턴트에는 다음 제한 사항이 적용됩니다.
 
