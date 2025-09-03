@@ -6,7 +6,7 @@ description: Journey Optimizer 오케스트레이션 캠페인에 대한 FAQ
 hide: true
 hidefromtoc: true
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: f850cb5573c321d479fe956e8c9b9bf377e78dfc
+source-git-commit: 6a0b4f7da2794f6ffd9af51440f1bca8aa5e7fb1
 workflow-type: tm+mt
 source-wordcount: '1010'
 ht-degree: 1%
@@ -50,6 +50,7 @@ Adobe Journey Optimizer의 오케스트레이션된 캠페인은 브랜드가 �
 
 오케스트레이션된 캠페인은 **이메일, SMS 및 푸시 알림**&#x200B;을 지원합니다.
 
+
 >[!BEGINSHADEBOX]
 
 **Recommendations**
@@ -59,6 +60,7 @@ Adobe Journey Optimizer의 오케스트레이션된 캠페인은 브랜드가 �
 * 여러 디바이스 및 클라이언트에서 메시지 렌더링을 테스트하여 일관된 환경을 보장합니다.
 
 >[!ENDSHADEBOX]
+
 
 ## 오케스트레이션된 캠페인은 여정과 어떻게 다릅니까? {#oc-vs-journeys}
 
