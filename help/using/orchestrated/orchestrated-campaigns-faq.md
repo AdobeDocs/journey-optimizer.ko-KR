@@ -6,10 +6,10 @@ description: Journey Optimizer 오케스트레이션 캠페인에 대한 FAQ
 hide: true
 hidefromtoc: true
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 13bc5f91e0e47bf36b9b9921fa926f8a5e2a50d6
+source-git-commit: b7c1da838c7e87a9d8bc3ddf5ef09fa756d853b8
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 2%
+source-wordcount: '991'
+ht-degree: 1%
 
 ---
 
@@ -71,6 +71,18 @@ Adobe Journey Optimizer의 오케스트레이션된 캠페인은 브랜드가 �
 
 >[!ENDSHADEBOX]
 
+## 다중 엔티티 세그먼테이션이란 무엇입니까? {#multi-entity}
+
+Adobe Journey Optimizer의 Campaign Orchestration은 관계형 데이터베이스를 사용합니다. 이 유형의 데이터 모델에는 1:1 또는 1:many 관계를 통해 연결된 별도의 데이터 스키마가 있습니다. 이를 통해 사용자는 수신자 수준이 아닌 모든 스키마에서 쿼리를 시작한 다음 구매, 제품, 예약 또는 수신자 세부 정보 등 다른 관련 스키마로 앞뒤로 전환하여 세그먼트와 대상자를 만드는 방법을 유연하게 할 수 있습니다.
+세련되었습니다.
+
+>[!BEGINSHADEBOX]
+
+**예** - 다음 3ad-h0일 후에 만료되는 구독이 있는 모든 수신자를 대상으로 지정: Campaign Orchestration에서 쿼리는 구독 스키마로 시작할 수 있으며 해당 스키마의 만료 날짜 열만 검색하고 만료될 모든 구독을 반환한 다음 수신자 수준에서 각 쿼리를 시작하는 데이터 모델보다 더 빠르고 효율적으로 결과를 반환하는 특정 구독 ID와 관련된 수신자 데이터로 롤업합니다.
+
+>[!ENDSHADEBOX]
+
+
 ## 데이터 모델은 어떻게 작동합니까? {#data-model}
 
 캠페인은 **관계형 데이터베이스**&#x200B;를 사용합니다. 이를 통해 다양한 데이터 세트(예: 고객, 제품, 구독)를 쿼리하고 고급 세그먼테이션을 위해 유연하게 연결할 수 있습니다.
@@ -108,7 +120,7 @@ Adobe Journey Optimizer의 오케스트레이션된 캠페인은 브랜드가 �
 
 ## 권한 및 동의는 어떻게 됩니까? {#permissions}
 
-권한 및 동의는 Adobe Experience Platform에서 중앙에서 관리됩니다. 규정 준수를 보장하고 일관된 고객 경험을 제공하기 위해 여정과 오케스트레이션된 캠페인 모두에 동일한 규칙이 적용됩니다.
+오케스트레이션된 캠페인 및 여정에 대한 권한 및 동의는 Adobe Experience Platform에서 중앙에서 관리됩니다. 이러한 설정은 보내기 전에 각 수신자에 대해 두 솔루션 모두에 적용됩니다.
 
 >[!BEGINSHADEBOX]
 
@@ -122,7 +134,7 @@ Adobe Journey Optimizer의 오케스트레이션된 캠페인은 브랜드가 �
 
 ## 임시 세분화를 수행할 수 있습니까? {#ad-hoc}
 
-예. **실시간 세분화**&#x200B;를 사용하면 복잡한 쿼리를 즉석에서 빌드하고 아웃바운드 채널에서 즉시 활성화할 수 있습니다.
+Campaign Orchestration에서는 임시 세분화를 &#39;라이브 세분화&#39;라고 합니다. 이 세분화를 통해 관계형 저장소에서 실시간으로 사용 가능한 모든 데이터에 액세스하고, 복합 쿼리를 빌드하고, 아웃바운드 채널을 통해 즉시 활성화할 수 있습니다(예: 이메일 + SMS).
 
 >[!BEGINSHADEBOX]
 
@@ -133,6 +145,11 @@ Adobe Journey Optimizer의 오케스트레이션된 캠페인은 브랜드가 �
 * 활성화 전에 대상 카운트의 유효성을 검사하여 과소 또는 과다 전송을 방지하십시오.
 
 >[!ENDSHADEBOX]
+
+## 관계형 데이터베이스의 데이터를 메시지 개인화에 사용할 수 있습니까? {#relational-personalization}
+
+예. Campaign Orchestration에서 &#39;사람 엔티티&#39;라고 하는 수신자 프로필을 업데이트하고 해당 데이터를 개인화에 사용할 수 있습니다. 또한 관계형 데이터베이스에 있는 연결된 엔티티의 보강된 데이터를 개인화에 사용할 수도 있습니다.
+
 
 ## 이 지원 의사 결정? {#decisioning}
 
@@ -161,3 +178,4 @@ Adobe Journey Optimizer의 오케스트레이션된 캠페인은 브랜드가 �
 * 가능한 경우 너무 많은 다운스트림 시스템(예: 콜 센터, 웹 사이트)을 방지하기 위해 **전송 시간을 지연**&#x200B;합니다.
 * **모니터링 루틴**&#x200B;을 설정합니다. 전송할 때마다 게재 로그, 오류율 및 옵트아웃을 추적합니다.
 * Customer Journey Analytics에서 **사후 캠페인 분석**&#x200B;을 실행하여 다음 주기 동안 타깃팅 및 오케스트레이션을 개선합니다.
+
