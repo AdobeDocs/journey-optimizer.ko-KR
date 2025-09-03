@@ -4,9 +4,9 @@ product: journey optimizer
 title: 구성 단계
 description: 사용자 인터페이스를 통해 직접 관계형 스키마를 만드는 방법을 알아봅니다.
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: 4f262d4cbbe2241ec8356333d9a3191081f58a6a
+source-git-commit: 9984863e2c3f7fb8f74cefacfc026b70d27bddd7
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '868'
 ht-degree: 3%
 
 ---
@@ -149,6 +149,8 @@ Adobe Experience Platform에서 수동으로 새 관계형 스키마를 생성�
 ## 오케스트레이션된 캠페인에 대한 데이터 세트 활성화 {#enable}
 
 데이터 세트를 만든 후에는 오케스트레이션된 캠페인에 대해 명시적으로 활성화해야 합니다. 이 단계에서는 Adobe Journey Optimizer 내에서 데이터 세트를 실시간 오케스트레이션 및 개인화에 사용할 수 있습니다.
+
+데이터 집합에서 오케스트레이션된 Campaign 확장의 유효성을 검사하거나 사용하려면 [Adobe Developer 설명서](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset/#tag/DatasetEnablement)를 참조하세요.
 
 1. **[!UICONTROL 데이터 세트]** 목록에서 데이터 세트를 찾습니다.
 
