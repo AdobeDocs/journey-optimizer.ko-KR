@@ -1,46 +1,31 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 개인화에 Adobe Experience Platform 데이터 사용(Beta)
+title: 개인화에 Adobe Experience Platform 데이터 사용
 description: 개인화에 Adobe Experience Platform 데이터를 사용하는 방법을 알아봅니다.
-badge: label="Beta" type="Informative"
+badge: label="제한 공개" type="Informative"
 feature: Personalization, Rules
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 keywords: 표현식, 편집기
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: 07e855b1a334a226c34223e5dd034f88733d6e2e
+source-git-commit: 42f231a9b0b34a63d1601dcae653462f6321caed
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 3%
+source-wordcount: '648'
+ht-degree: 2%
 
 ---
 
-# 개인화에 Adobe Experience Platform 데이터 사용{#aep-data}
+# 개인화에 Adobe Experience Platform 데이터 사용 {#aep-data}
 
 >[!AVAILABILITY]
 >
->이 기능은 현재 모든 고객이 공개 베타로 사용할 수 있습니다.
->
->이 기능을 사용하려면 먼저 개인화 편집기에서 새 &quot;datasetLookup&quot; 도우미 함수를 추가할 때 표시되는 조직의 Beta 용어를 수락해야 합니다.
+>이 기능은 현재 모든 고객이 제한된 가용성 릴리스로 사용할 수 있습니다.
 
-Journey Optimizer을 사용하면 개인화 편집기에서 Adobe Experience Platform의 데이터를 활용하여 [콘텐츠를 개인 맞춤화](../personalization/personalize.md)할 수 있습니다. 이렇게 하려면 조회 개인화에 필요한 데이터 세트를 먼저 아래 설명된 대로 API 호출을 통해 활성화해야 합니다. 완료되면 해당 데이터를 사용하여 콘텐츠를 [!DNL Journey Optimizer]&#x200B;(으)로 개인화할 수 있습니다.
+Journey Optimizer을 사용하면 개인화 편집기에서 Adobe Experience Platform 레코드 데이터 세트의 데이터를 활용하여 [콘텐츠를 개인 맞춤화](../personalization/personalize.md)할 수 있습니다. 시작하기 전에 조회 개인화에 필요한 데이터 세트를 먼저 조회에 대해 활성화해야 합니다. 자세한 정보는 이 섹션에서 확인할 수 있습니다. [Adobe Experience Platform 데이터 사용](../data/lookup-aep-data.md).
 
-## Beta 제한 사항 및 지침 {#guidelines}
-
-시작하기 전에 다음 제한 사항 및 지침을 검토하십시오.
-
-* **지원되는 채널**: 현재 이 기능은 전자 메일, SMS 및 DM 채널 내에서만 사용할 수 있습니다.
-* **조각**: 지금은 식 또는 시각적 조각 내에 데이터 집합 조회 개인 설정을 배치할 수 없습니다.
-
-## 데이터 조회를 위해 데이터 세트 활성화 {#enable}
-
-개인화를 위해 데이터 세트의 데이터를 활용하려면 API 호출을 사용하여 상태를 검색하고 조회 서비스를 활성화해야 합니다. 자세한 정보는 이 섹션에서 확인할 수 있습니다. [다음 위치에서 Adobe Experience Platform 데이터 세트 활용 [!DNL Journey Optimizer]](../data/lookup-aep-data.md)
-
-## 개인화를 위한 데이터 세트 활용 {#leverage}
-
-API 호출을 사용하여 조회 개인화에 대한 데이터 집합을 활성화하면 해당 데이터를 사용하여 콘텐츠를 [!DNL Journey Optimizer]&#x200B;(으)로 개인화할 수 있습니다.
+조회 개인화를 위해 데이터 세트를 활성화하면 해당 데이터를 사용하여 콘텐츠를 [!DNL Journey Optimizer]&#x200B;(으)로 개인화할 수 있습니다.
 
 1. 메시지와 같은 개인화를 정의할 수 있는 모든 컨텍스트에서 사용할 수 있는 개인화 편집기를 엽니다. [개인화 편집기로 작업하는 방법을 알아보세요](../personalization/personalization-build-expressions.md)
 
@@ -69,7 +54,7 @@ API 호출을 사용하여 조회 개인화에 대한 데이터 집합을 활성
 
    +++데이터 세트 ID를 검색하는 위치
 
-   데이터 세트 ID는 Adobe Experience Platform 사용자 인터페이스에서 검색할 수 있습니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}에서 데이터 세트로 작업하는 방법을 알아보세요.
+   데이터 세트 ID는 Adobe Experience Platform 사용자 인터페이스에서 검색할 수 있습니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}에서 데이터 세트로 작업하는 방법을 알아보세요.
 
    ![](assets/aep-data-dataset.png)
 
@@ -100,7 +85,7 @@ API 호출을 사용하여 조회 개인화에 대한 데이터 집합을 활성
 
      +++필드 ID를 검색하는 위치
 
-     Adobe Experience Platform 사용자 인터페이스에서 데이터 세트를 미리 볼 때 필드 ID를 검색할 수 있습니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}에서 데이터 세트를 미리 보는 방법에 대해 알아보세요.
+     Adobe Experience Platform 사용자 인터페이스에서 데이터 세트를 미리 볼 때 필드 ID를 검색할 수 있습니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}에서 데이터 세트를 미리 보는 방법에 대해 알아보세요.
 
      ![](assets/aep-data-field.png)
 
