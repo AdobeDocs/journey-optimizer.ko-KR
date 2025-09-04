@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 하위 도메인, 최적화 도구, 위임
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: 7854de133ebcd3b29ca59b747aa89fae242f2ea5
+source-git-commit: 1746efa82611d232b5af07b271739417b4e36e8c
 workflow-type: tm+mt
-source-wordcount: '859'
-ht-degree: 32%
+source-wordcount: '982'
+ht-degree: 28%
 
 ---
 
@@ -86,21 +86,29 @@ CNAME 하위 도메인 설정을 사용하면 하위 도메인을 만들고 CNAM
 
 CNAME을 사용하여 [이 섹션](delegate-subdomain.md#cname-subdomain-setup)의 Adobe 관련 레코드를 가리키도록 하위 도메인을 만드는 방법을 알아봅니다.
 
+### 사용자 정의 하위 도메인 사용 {#custom-subdomain-delegation}
+
+사용자 지정 위임 방법을 사용하면 메시지 전달, 렌더링 및 추적에 필요한 DNS의 모든 측면을 완벽하게 제어하고 유지 관리할 수 있습니다.
+
+이 경우 자체 하위 도메인을 완전히 소유 및 관리하며, 이 프로세스의 일부로 생성된 인증서에 대한 모든 권한을 갖습니다.
+
+[이 섹션](delegate-custom-subdomain.md)에서 사용자 정의 도메인을 설정하는 방법을 알아봅니다.
+
 ## 구성 메서드 비교
 
 아래 테이블에는 이러한 두 가지 방법의 작동 방식과 각 방법을 사용하는 경우의 작업량이 간략하게 요약되어 있습니다.
+<!--
+| Configuration method | How it works | Level of effort |
+|---|---|---|
+| **Full delegation** | Create the subdomain and namespace record. Adobe will then configure all DNS records required for Adobe Campaign.<br/><br/>In this setup, Adobe is fully responsible for managing the subdomain and all the DNS records. | Low |
+| **CNAME method** |  Create the subdomain and namespace record. Adobe will then provide the records to be placed in your DNS servers and will configure the corresponding values in Adobe Campaign DNS servers.<br/><br/>In this setup, both you and Adobe share responsibility for maintaining DNS. | High |-->
+
 
 | 구성 방법 | 작동 방식 | 작업량 |
 |---|---|---|
 | **전체 위임** | 고객이 하위 도메인과 네임스페이스 레코드를 만들면 Adobe에서 Adobe Campaign에 필요한 모든 DNS 레코드를 구성합니다.<br/><br/>이 설정에서는 Adobe가 하위 도메인 및 모든 DNS 레코드를 관리를 전적으로 책임집니다. | 낮음 |
 | **CNAME 메서드** | 고객이 하위 도메인과 네임스페이스 레코드를 만들면 Adobe에서 DNS 서버에 배치할 레코드를 제공하고 Adobe Campaign DNS 서버에서 해당 값을 구성합니다.<br/><br/>이 설정에서는 사용자와 Adobe가 DNS 유지 관리를 공동으로 수행합니다. | 높음 |
-
-<!--
-| Configuration method | How it works | Level of effort |
-|---|---|---|
-| **Full delegation** | Create the subdomain and namespace record. Adobe will then configure all DNS records required for Adobe Campaign.<br/><br/>In this setup, Adobe is fully responsible for managing the subdomain and all the DNS records. | Low |
-| **CNAME method** |  Create the subdomain and namespace record. Adobe will then provide the records to be placed in your DNS servers and will configure the corresponding values in Adobe Campaign DNS servers.<br/><br/>In this setup, both you and Adobe share responsibility for maintaining DNS. | High |
-| **Custom delegation method** |  Create the subdomain and namespace record - Adobe will then provide the records to be placed in your DNS servers. Upload the SSL Certificate obtained from the Certificate Authority and complete the Feedback Loop steps by verifying domain ownership and reporting email address.<br/><br/>In this setup, you have full responsibility for maintaining DNS. | Very high |-->
+| **사용자 지정 위임 메서드** | 하위 도메인 및 네임스페이스 레코드 만들기 - 그러면 Adobe에서 DNS 서버에 배치할 레코드를 제공합니다. 인증 기관에서 받은 SSL 인증서를 업로드하고 도메인 소유권을 확인하고 이메일 주소를 보고하여 피드백 루프 단계를 완료합니다.<br/><br/>이 설정에서는 DNS를 유지 관리할 모든 권한이 있습니다. | 매우 높음 |
 
 도메인 구성에 대한 추가 정보는 [이 설명서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html?lang=ko){target="_blank"}에서 확인할 수 있습니다.
 

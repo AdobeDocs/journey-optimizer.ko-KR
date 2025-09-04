@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 하위 도메인, 위임, 도메인, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 1746efa82611d232b5af07b271739417b4e36e8c
 workflow-type: tm+mt
-source-wordcount: '1891'
+source-wordcount: '1906'
 ht-degree: 18%
 
 ---
@@ -106,6 +106,10 @@ ht-degree: 18%
    * CNAME 설정 - [자세히 알아보기](about-subdomain-delegation.md#cname-subdomain-setup)
 
      이 [전용 섹션](#cname-subdomain-setup)에서 CNAME을 사용하여 하위 도메인을 설정하는 방법을 알아보세요.
+
+   * 사용자 지정 위임 - [자세히 알아보기](about-subdomain-delegation.md#custom-subdomain-delegation)
+
+     이 [전용 섹션](delegate-custom-subdomain.md)에서 사용자 지정 하위 도메인을 설정하는 방법을 알아보세요.
 
    <!--![](assets/subdomain-method-full.png)-->
 
@@ -272,4 +276,4 @@ CNAME을 사용하여 하위 도메인을 설정하려면 아래 단계를 따�
 
 CNAME을 사용하여 Adobe 관련 레코드를 가리키도록 하위 도메인을 만드는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/342238?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)
