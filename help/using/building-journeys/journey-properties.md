@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 여정, 구성, 속성
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 3ab8957d0aec6f30853de5537e03f0e7bec2017c
 workflow-type: tm+mt
 source-wordcount: '2733'
 ht-degree: 15%
@@ -138,6 +138,7 @@ ht-degree: 15%
 2024년 6월 Adobe Journey Optimizer 릴리스부터 여정 전역 시간 제한이 30일에서 91일로 이동되었습니다. 영향은 아래 FAQ에 나열되어 있습니다.
 
 단일 여정 **의 경우**
+
 <table style="table-layout:auto">
   <tr style="border: 1;">
     <td>
