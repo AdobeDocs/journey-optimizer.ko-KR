@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 문제 해결, 문제 해결, 여정, 확인, 오류
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 61498b61f7f05e0553fe575c980fd1bee08500a3
+source-git-commit: 27ae100873fee1a790c7e1e757248f9c3af8e24a
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 40%
@@ -52,6 +52,6 @@ ht-degree: 40%
 
 ## 대체 경로 추가 {#canvas-add-path}
 
-다음 여정 활동에 대해 오류가 발생한 경우 대체 동작을 정의할 수 있습니다. **[!UICONTROL 조건]** 및 **[!UICONTROL 동작]**.
+다음 여정 활동에 대해 오류가 발생하는 경우 대체 동작을 정의할 수 있습니다. **[!UICONTROL 최적화]** 및 **[!UICONTROL 동작]**.
 
 작업 또는 조건에 오류가 발생하면 개별 여정이 중지됩니다. 이를 지속할 수 있는 유일한 방법은 문제를 해결하는 것이다. 여정이 중단되지 않도록 하기 위해 **[!UICONTROL 활동 속성에서 시간 초과 또는 오류 발생 시 대체 경로를 추가]** 옵션을 선택할 수도 있습니다. 자세한 내용은 [이 섹션](../building-journeys/using-the-journey-designer.md#paths)을 참조하십시오.
