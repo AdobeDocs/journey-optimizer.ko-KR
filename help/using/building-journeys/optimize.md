@@ -13,10 +13,10 @@ hidefromtoc: true
 hide: true
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: 7d57767fcfacbba3a4ec2d1279937ca63ffb8c48
+source-git-commit: 3cda7aad46e6961c7d19706bad060565b92d7b19
 workflow-type: tm+mt
-source-wordcount: '1226'
-ht-degree: 5%
+source-wordcount: '1202'
+ht-degree: 6%
 
 ---
 
@@ -122,7 +122,7 @@ ht-degree: 5%
 
 여정이 활성 상태가 되면 사용자가 임의로 할당되어 다른 경로를 통해 이동합니다. [!DNL Journey Optimizer]은(는) 성과가 가장 좋은 경로를 추적하고 실행 가능한 통찰력을 제공합니다.
 
-여정 경로 실험 보고서를 사용하여 여정의 성공을 추적하십시오.<!--Reporting page on Journey Path Experimentation to be created - such as what we have for [Experimentation campaign report](../reports/campaign-global-report-cja-experimentation.md)-->
+<!--Follow the success of your journey with the Journey Path Experiment report.Reporting page on Journey Path Experimentation to be created - such as what we have for [Experimentation campaign report](../reports/campaign-global-report-cja-experimentation.md)-->
 
 ### 실험 사용 사례 {#uc-experiment}
 
@@ -204,7 +204,7 @@ ht-degree: 5%
 
 여정이 라이브되면 각 세그먼트에 대해 지정된 경로가 처리되어 골드 멤버는 이메일 오퍼와 함께 경로를 입력하고 다른 멤버는 SMS 미리 알림과 함께 경로를 입력합니다.
 
-여정 경로 타깃팅 보고서를 사용하여 여정의 성공을 추적하십시오.<!--Reporting page on Journey Path Targeting to be created - such as what we have for [Experimentation campaign report](../reports/campaign-global-report-cja-experimentation.md)-->
+<!--Follow the success of your journey with the Journey Path Targeting report.Reporting page on Journey Path Targeting to be created - such as what we have for [Experimentation campaign report](../reports/campaign-global-report-cja-experimentation.md)-->
 
 ### 타깃팅 규칙 사용 사례 {#uc-targeting}
 
