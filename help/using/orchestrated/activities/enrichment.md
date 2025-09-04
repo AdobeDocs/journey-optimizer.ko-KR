@@ -4,10 +4,11 @@ product: journey optimizer
 title: 보강 활동 사용
 description: 보강 활동을 사용하는 방법 알아보기
 exl-id: 8a0aeae8-f4f2-4f1d-9b89-28ce573fadfd
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+version: Campaign Orchestration
+source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

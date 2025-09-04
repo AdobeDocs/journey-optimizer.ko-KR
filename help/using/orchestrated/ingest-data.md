@@ -4,7 +4,8 @@ product: journey optimizer
 title: 구성 단계
 description: SFTP, 클라우드 스토리지 또는 데이터베이스와 같이 지원되는 소스에서 Adobe Experience Platform으로 데이터를 가져오는 방법을 알아봅니다.
 exl-id: 7f1e7985-b68e-43d6-9c8f-fea2469f8af9
-source-git-commit: c1201025af216f8f3019e7696b6eb906962b681b
+version: Campaign Orchestration
+source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 21%
@@ -38,29 +39,29 @@ Adobe Experience Platform을 사용하면 외부 소스에서 데이터를 수�
   <tbody>
     <tr>
       <td rowspan="3">클라우드 스토리지</td>
-      <td><a href="https://experienceleague.adobe.com/ko/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3">Amazon S3</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3">Amazon S3</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/ko/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/google-cloud-storage">Google 클라우드 스토리지</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/google-cloud-storage">Google 클라우드 스토리지</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/ko/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/sftp">SFTP</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/sftp">SFTP</a></td>
     </tr>
       <td rowspan="4">클라우드 데이터 웨어하우스</td>
-      <td><a href="https://experienceleague.adobe.com/ko/docs/experience-platform/sources/ui-tutorials/create/databases/snowflake">Snowflake</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/snowflake">Snowflake</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/ko/docs/experience-platform/sources/ui-tutorials/create/databases/bigquery">Google BigQuery</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/bigquery">Google BigQuery</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/ko/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/data-landing-zone">데이터 랜딩 구역<a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/data-landing-zone">데이터 랜딩 구역<a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/ko/docs/experience-platform/sources/ui-tutorials/create/databases/databricks">Azure Databricks</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/databricks">Azure Databricks</a></td>
     </tr>
     <tr>
       <td rowspan="3">파일 기반 업로드</td>
-      <td><a href="https://experienceleague.adobe.com/ko/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload">로컬 파일 업로드<a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload">로컬 파일 업로드<a></td>
     </tr>
 
 </tbody>
@@ -84,7 +85,7 @@ Adobe Journey Optimizer Campaign에서 **[!UICONTROL 데이터 캡처 변경]**&
 
   라이선스가 부여된 경우 **Data Distiller**&#x200B;을(를) 사용하여 소스 시스템과 관계없이 Adobe Experience Platform 내에서 직접 삭제 작업을 지원할 수 있습니다.
 
-  [데이터 Distiller에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/query/data-distiller/overview)
+  [데이터 Distiller에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview)
 
 ## 데이터 흐름 구성
 

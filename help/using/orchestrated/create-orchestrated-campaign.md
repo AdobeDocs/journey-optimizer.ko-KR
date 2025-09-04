@@ -4,7 +4,8 @@ product: journey optimizer
 title: Journey Optimizer을 사용하여 오케스트레이션된 캠페인 만들기 및 예약
 description: Adobe Journey Optimizer을 사용하여 오케스트레이션된 캠페인을 만들고 예약하는 방법을 알아봅니다
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: a58d71b3cdb5e83f80b064673f0a6d087b7c191d
+version: Campaign Orchestration
+source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
 workflow-type: tm+mt
 source-wordcount: '1122'
 ht-degree: 66%
@@ -113,7 +114,7 @@ ht-degree: 66%
 
    +++
 
-   +++주간
+   +++매주
 
    캠페인을 매주 실행합니다. 특정 날짜에 대한 옵션을 사용할 수 있습니다.
 

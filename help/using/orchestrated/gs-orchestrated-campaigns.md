@@ -5,7 +5,8 @@ title: 오케스트레이션된 캠페인 시작
 description: 오케스트레이션된 캠페인을 시작하는 방법 알아보기
 short-description: 오케스트레이션된 캠페인 주요 기능 및 사용 사례 살펴보기
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 94c7594e9a12b0bc91bb01989b5dd25afb662cfe
+version: Campaign Orchestration
+source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 92%

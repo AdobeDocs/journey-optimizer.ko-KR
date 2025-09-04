@@ -4,7 +4,8 @@ product: journey optimizer
 title: 오케스트레이션된 캠페인을 만드는 주요 단계
 description: Adobe Journey Optimizer을 사용하여 오케스트레이션된 캠페인 만들기의 주요 원칙에 대해 알아봅니다.
 exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+version: Campaign Orchestration
+source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 67%

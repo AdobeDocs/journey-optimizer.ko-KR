@@ -4,10 +4,11 @@ product: journey optimizer
 title: 결합 활동 사용
 description: 결합 활동을 사용하는 방법 알아보기
 exl-id: af3c3a9c-8172-43b0-bba1-4a3d068b9a9e
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+version: Campaign Orchestration
+source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
 workflow-type: tm+mt
-source-wordcount: '1019'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

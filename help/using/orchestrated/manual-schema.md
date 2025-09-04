@@ -4,7 +4,8 @@ product: journey optimizer
 title: 구성 단계
 description: 사용자 인터페이스를 통해 직접 관계형 스키마를 만드는 방법을 알아봅니다.
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: 9984863e2c3f7fb8f74cefacfc026b70d27bddd7
+version: Campaign Orchestration
+source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
 workflow-type: tm+mt
 source-wordcount: '868'
 ht-degree: 3%

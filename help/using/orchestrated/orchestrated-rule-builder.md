@@ -4,7 +4,8 @@ product: journey optimizer
 title: 규칙 빌더를 사용하여 작업
 description: 오케스트레이션된 캠페인에 대한 규칙을 만드는 방법을 알아봅니다
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+version: Campaign Orchestration
+source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 76%

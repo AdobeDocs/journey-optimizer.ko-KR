@@ -4,7 +4,8 @@ product: journey optimizer
 title: Adobe Journey Optimizer을 사용하여 오케스트레이션된 캠페인 보고
 description: Adobe Journey Optimizer을 사용하여 오케스트레이션된 캠페인에 대한 보고서에 액세스하는 방법을 알아봅니다
 exl-id: 8cb569a2-a4a0-45a5-b7f9-f5a591e44335
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+version: Campaign Orchestration
+source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 64%

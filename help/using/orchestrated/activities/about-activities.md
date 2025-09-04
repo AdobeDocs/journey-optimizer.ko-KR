@@ -4,7 +4,8 @@ product: journey optimizer
 title: 오케스트레이션된 캠페인 활동 작업
 description: 캠페인 활동을 오케스트레이션하는 방법 알아보기
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: 2e04d3022ff6e8427e80a5a22cae367c4995730a
+version: Campaign Orchestration
+source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 63%

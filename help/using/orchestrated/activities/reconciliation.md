@@ -4,7 +4,8 @@ product: journey optimizer
 title: 조정 활동 사용
 description: 오케스트레이션된 캠페인에서 조정 활동을 사용하는 방법을 알아봅니다
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+version: Campaign Orchestration
+source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 87%
@@ -56,7 +57,7 @@ ht-degree: 87%
 >id="ajo_orchestration_reconciliation_targeting_selection"
 >title="타기팅 차원 선택"
 >abstract="조정할 인바운드 데이터의 타기팅 차원을 선택합니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html?lang=ko#targeting-dimensions" text="타기팅 차원"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html#targeting-dimensions" text="타기팅 차원"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_keep_unreconciled_data"
