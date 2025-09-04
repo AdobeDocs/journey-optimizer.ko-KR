@@ -11,9 +11,9 @@ keywords: 통합
 hide: true
 hidefromtoc: true
 exl-id: 104f283e-f6a5-431b-919a-d97b83d19632
-source-git-commit: ad5fdefed71d75470dc243310e74372e0b08ba2a
+source-git-commit: 26f0bdd9f67648d0a382fd67c296bf44f0ea42df
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '629'
 ht-degree: 1%
 
 ---
@@ -30,6 +30,18 @@ ht-degree: 1%
 * 제품에 대한 **가격 정보**.
 * 추천 엔진에서 **제품 추천**.
 * **물류 업데이트**(게재 상태 등).
+
+## Beta 제한 사항 {#limitations}
+
+베타 릴리스에는 다음과 같은 제한 사항이 있습니다.
+
+* 아웃바운드 채널만 지원됩니다.
+
+* API 호출 응답에 대해서는 JSON 형식만 지원됩니다. HTML 및 원시 이진 이미지 출력을 사용할 수 없습니다.
+
+* 특정 콘텐츠를 대상으로 하는 검색 API만 지원되며 목록 API는 사용할 수 없습니다.
+
+* 통합 기능은 여정과 캠페인 모두에 사용할 수 있지만, 조각에서는 지원되지 않습니다.
 
 ## 통합 구성 {#configure}
 
@@ -73,7 +85,7 @@ ht-degree: 1%
 
    * **[!UICONTROL 인증 없음]**: 자격 증명이 필요하지 않은 열린 API의 경우.
 
-   * **[!UICONTROL API 키]**: 정적 API 키를 사용하여 요청을 인증합니다. **[!UICONTROL API 키 이름{&#x200B;1},]** API 키 값{3&#x200B;}을(를) 입력하고 **[!UICONTROL 위치]**&#x200B;를 지정하십시오.**&#x200B;**
+   * **[!UICONTROL API 키]**: 정적 API 키를 사용하여 요청을 인증합니다. **[!UICONTROL API 키 이름{&#x200B;1},]** API 키 값{3&#x200B;}을(를) 입력하고 **[!UICONTROL 위치]**&#x200B;를 지정하십시오.****
 
    * **[!UICONTROL 기본 인증]**: 표준 HTTP 기본 인증을 사용합니다. **[!UICONTROL 사용자 이름]** 및 **[!UICONTROL 암호]**&#x200B;를 입력하십시오.
 
