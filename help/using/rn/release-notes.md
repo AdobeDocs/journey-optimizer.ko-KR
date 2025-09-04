@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: cd688d0c140404a846df09a53f37be8d0fe5633e
+source-git-commit: 152ff131334b5ad62df3e63e4ad529950f522f5a
 workflow-type: tm+mt
 source-wordcount: '1971'
 ht-degree: 70%
@@ -27,24 +27,6 @@ ht-degree: 70%
 <table>
 <thead>
 <tr>
-<th><strong>하위 도메인에 대한 사용자 정의 위임 방법</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 전체 위임과 CNAME 방법 외에 새로운 하위 도메인 구성 방법인 사용자 정의 위임 방법을 사용할 수 있습니다. 이 방법을 사용하면 메시지 게재, 렌더링, 추적에 필요한 DNS의 모든 측면을 사용자가 완전히 제어하고 유지 관리할 수 있습니다.</p>
-<p>이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.</p>
-<p>자세한 내용은 <a href="../configuration/delegate-custom-subdomain.md">세부 설명서</a>를 참조하십시오.</p>
-<p>사용 가능한 날짜: 2025년 9월 4일</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>여정 경로 최적화</strong><br/></th>
 </tr>
 </thead>
@@ -56,6 +38,24 @@ ht-degree: 70%
 <p>이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.</p>
 <p><img src="assets/do-not-localize/optimize.gif"/></p>
 <p>자세한 내용은 <a href="../building-journeys/optimize.md">세부 설명서</a>를 참조하십시오.</p>
+<p>사용 가능한 날짜: 2025년 9월 4일</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>하위 도메인에 대한 사용자 정의 위임 방법</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 전체 위임과 CNAME 방법 외에 새로운 하위 도메인 구성 방법인 사용자 정의 위임 방법을 사용할 수 있습니다. 이 방법을 사용하면 메시지 게재, 렌더링, 추적에 필요한 DNS의 모든 측면을 사용자가 완전히 제어하고 유지 관리할 수 있습니다.</p>
+<p>이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.</p>
+<p>자세한 내용은 <a href="../configuration/delegate-custom-subdomain.md">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2025년 9월 4일</p>
 </td>
 </tr>
