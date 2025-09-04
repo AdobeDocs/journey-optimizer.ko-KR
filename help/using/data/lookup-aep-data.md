@@ -11,10 +11,10 @@ level: Intermediate
 keywords: 표현식, 편집기
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 42f231a9b0b34a63d1601dcae653462f6321caed
+source-git-commit: ea40a13765be5ff603dd848df4fb02a4dbb9a426
 workflow-type: tm+mt
-source-wordcount: '791'
-ht-degree: 6%
+source-wordcount: '806'
+ht-degree: 5%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="lookup-aep-data"
 >title="조회를 위해 활성화"
->abstract="조회를 위해 활성화"
+>abstract="조회를 위해 데이터 세트를 활성화하면 Journey Optimizer 개인화 및 의사 결정 기능을 통해 해당 데이터를 활용할 수 있습니다."
 
 >[!AVAILABILITY]
 >
