@@ -9,7 +9,8 @@ role: User
 level: Intermediate
 keywords: 게시, 여정, 라이브, 유효성, 확인
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 42%
@@ -87,4 +88,4 @@ ht-degree: 42%
 
 이 비디오에서 여정을 게시하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3427937?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)

@@ -9,7 +9,8 @@ hidefromtoc: true
 role: Data Engineer, Architect
 level: Experienced
 keywords: 쿼리, 컬렉션, 함수, 페이로드, 여정
-source-git-commit: ff05675fb132becf092dc6b79bbbaa249f01af96
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 1%
