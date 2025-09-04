@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: e758e4f3532d9f1abb7a564431993c11032804ba
+source-git-commit: ab23386f22e6b585df412ccab039576a51a3ce20
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 95%
+source-wordcount: '847'
+ht-degree: 87%
 
 ---
 
@@ -61,8 +61,6 @@ You can also create audience-based campaigns to send messages.-->
 >* Adobe Experience Cloud 일반 개인 정보 보호 지침 및 절차는 [!DNL Journey Optimizer]에 적용됩니다. [Adobe Experience Cloud 개인 정보에 대한 자세한 내용을 살펴보십시오](https://www.adobe.com/kr/privacy/experience-cloud.html){target="_blank"}.
 
 
-
-
 ## 아키텍처 {#architecture}
 
 아래 다이어그램에서 [!DNL Adobe Journey Optimizer]의 기본 아키텍처, 통합 지점, [!DNL Journey Optimizer]와(과) [!DNL Experience Platform] 사이의 관계를 이해합니다.
@@ -78,6 +76,12 @@ Journey Optimizer의 핵심 기능 및 서비스는 실시간 고객 프로필�
 ![](assets/ajo-architecture-diagram.png){width="70%" zoomable="yes"}
 
 
+### Adobe Journey Optimizer 블루프린트
+
+Digital Experience 블루프린트는 시스템 및 데이터 흐름 아키텍처 다이어그램을 제공하여 Adobe Experience Platform 및 애플리케이션이 어떻게 통합되고 구현되는지 더 잘 이해할 수 있도록 합니다. 블루프린트는 Adobe Experience Platform 및 애플리케이션의 사용 사례 디자인 및 아키텍처를 알리는 데 도움이 되도록 시스템 간 및 구성 요소 데이터 및 콘텐츠 흐름, 작업 시퀀스 및 종속성을 시각적으로 표시합니다.
+
+[Adobe Journey Optimizer 블루프린트](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}를 참조하세요.
+
 
 >[!MORELIKETHIS]
 >
@@ -85,3 +89,4 @@ Journey Optimizer의 핵심 기능 및 서비스는 실시간 고객 프로필�
 >* [여정 디자인 및 메시지 보내기](../building-journeys/journey-gs.md)
 >* [라이브 보고서](../reports/live-report.md)
 >* [Journey Optimizer 보안 개요](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf)&#x200B;(PDF)
+>* [Journey Optimizer 제품 설명](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.htm){target="_blank"}

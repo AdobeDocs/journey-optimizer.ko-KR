@@ -7,8 +7,9 @@ feature: Journeys, Get Started, Overview
 role: User
 level: Beginner, Intermediate
 keywords: 여정, 검색, 시작
+version: Journey Orchestration
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 6c4bfc4544afc84d4a8685562f716c258a2acbab
+source-git-commit: 3eadf569fd98ac1b51a62e95f399c04f47fc5071
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 100%
@@ -50,4 +51,4 @@ Journey Optimizer 여정 디자이너는 마케터와 여정 실무자가 전체
 
 여정의 구성 요소를 살펴보고 캔버스에서 여정을 작성할 때의 기본을 이해합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430355?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
