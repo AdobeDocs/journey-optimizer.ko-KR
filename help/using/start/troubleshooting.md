@@ -20,7 +20,7 @@ ht-degree: 2%
 
 다음은 Adobe Journey Optimizer 문제 해결 문서 목록입니다. 각 문제 해결 섹션은 FAQ에 대한 답변과 문제에 대한 솔루션을 제공합니다.
 
-[Adobe Experience Platform FAQ 및 문제 해결 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/landing/troubleshooting#service-troubleshooting-directory){target="_blank"}도 참조하세요.
+[Adobe Experience Platform FAQ 및 문제 해결 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/troubleshooting#service-troubleshooting-directory){target="_blank"}도 참조하세요.
 
 ## 이메일 채널 {#ajo-troubleshooting-email}
 
@@ -30,7 +30,7 @@ ht-degree: 2%
 
 Adobe Journey Optimizer(AJO)에서 이메일 헤더의 기본 CSS 블록을 수정하면 예기치 않은 형식 문제가 발생할 수 있습니다(특히 콘텐츠 조각을 제거한 후). 이러한 문제는 모바일 디바이스에서 더 눈에 띄며 레이아웃 변경 또는 스타일 불일치를 초래할 수 있습니다. 이를 방지하려면 테마 기능을 사용하여 시스템에서 생성한 CSS 스타일을 변경하지 않고 사용자 지정 CSS를 안전하게 적용하십시오.
 
-이 문제를 해결하는 방법은 [이 문제 해결 문서](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27252){target="_blank"}를 참조하세요.
+이 문제를 해결하는 방법은 [이 문제 해결 문서](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-27252){target="_blank"}를 참조하세요.
 
 전자 메일 서식 [에 대한 자세한 내용은 이 페이지](../email/get-started-email-design.md)를 참조하세요.
 
@@ -135,7 +135,7 @@ SMS 옵트아웃 구성 [에 대해 자세히 알아보세요](../sms/sms-opt-ou
 
 Adobe Journey Optimizer에서 새 샌드박스를 프로비저닝하는 조직에서 TTL(Time-to-Live) 설정이 프로필 및 데이터 레이크 데이터 세트에 적용되는 방법에 대해 의문을 제기했습니다. 이 문서에서는 TTL 설정이 기존 샌드박스에 영향을 주지 않으며 새로 제공된 샌드박스에만 자동으로 적용됨을 명확히 설명합니다.
 
-TTL 처리 방법에 대해 알아보려면 [이 문제 해결 문서](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26135){target="_blank"}를 참조하세요.
+TTL 처리 방법에 대해 알아보려면 [이 문제 해결 문서](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-26135){target="_blank"}를 참조하세요.
 
 이 페이지의 [ 데이터 집합 Time-to-Live에 대해 자세히 알아보세요](../data/datasets-ttl.md).
 
@@ -148,7 +148,7 @@ TTL 처리 방법에 대해 알아보려면 [이 문제 해결 문서](https://e
 
 Adobe Journey Optimizer의 **대상자 읽기** 기능에서 처리된 항목 수는 예상 대상자 수보다 적을 수 있습니다. 이 문제는 잘못된 네임스페이스 구성으로 인해 프로필이 여정에서 제외되는 경우가 많습니다. 이 해결 방법에는 네임스페이스 구성 확인 및 수정, 관련 설명서 검토 및 Adobe Journey Optimizer에서의 원활한 작업을 위한 우선 순위 조정이 포함됩니다.
 
-이 문제를 해결하는 방법은 [이 문제 해결 문서](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26135){target="_blank"}를 참조하세요.
+이 문제를 해결하는 방법은 [이 문제 해결 문서](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-26135){target="_blank"}를 참조하세요.
 
 오래된 대상 수에 대한 [이 문서](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-26166){target="_blank"}도 참조하세요.
 
@@ -164,7 +164,7 @@ Adobe Journey Optimizer에서 여정에서 **프로필 업데이트** 활동을 
 
 이 페이지의 **&#x200B;**&#x200B;여정에서 [프로필 업데이트](../building-journeys/update-profiles.md) 활동에 대해 자세히 알아보세요.
 
-데이터 수집에 대한 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/tutorials/ingest-batch-data?lang=en#dataset-activity){target="_blank"}도 참조하세요.
+데이터 수집에 대한 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/ingestion/tutorials/ingest-batch-data?lang=en#dataset-activity){target="_blank"}도 참조하세요.
 
 +++
 
@@ -174,9 +174,9 @@ Adobe Journey Optimizer에서 여정에서 **프로필 업데이트** 활동을 
 
 이 문제를 해결하는 방법에 대해 알아보려면 [이 문제 해결 문서](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-26253){target="_blank"}를 참조하세요.
 
-[이 Journey Optimizer 커뮤니티 게시물](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998){target="_blank"}에서 자세히 알아보세요.
+[이 Journey Optimizer 커뮤니티 게시물](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998?profile.language=ko){target="_blank"}에서 자세히 알아보세요.
 
-매일 작업이 예약된 시간을 확인하려면 [Adobe Experience Platform 일정 API 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/api/schedules?lang=en){target="_blank"}를 참조하십시오.
+매일 작업이 예약된 시간을 확인하려면 [Adobe Experience Platform 일정 API 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/api/schedules?lang=en){target="_blank"}를 참조하십시오.
 
 +++
 
@@ -189,7 +189,7 @@ Adobe Journey Optimizer에서 여정에서 **프로필 업데이트** 활동을 
 
 이 페이지의 **&#x200B;**&#x200B;여정에서 [프로필 업데이트](../building-journeys/update-profiles.md) 활동에 대해 자세히 알아보세요.
 
-[Adobe Real-Time CDP 프로필 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide?lang=en#profile-detail){target="_blank"}도 참조하세요.
+[Adobe Real-Time CDP 프로필 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/ui/user-guide?lang=en#profile-detail){target="_blank"}도 참조하세요.
 
 +++
 
