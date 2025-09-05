@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c6179566226331d2169c3abc50a069262db80d85
+source-git-commit: f494b30608c7413e1b7fc8d6c38d46d60821ee1c
 workflow-type: tm+mt
-source-wordcount: '2011'
-ht-degree: 68%
+source-wordcount: '2051'
+ht-degree: 67%
 
 ---
 
@@ -23,6 +23,8 @@ ht-degree: 68%
 [!DNL Adobe Journey Optimizer]은(는) 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 모든 변경 사항은 매달 마지막 주 여기 있는 릴리스 정보에 통합됩니다. [!DNL Adobe Journey Optimizer]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko){target="_blank"}를 참조하십시오.
 
 ## 9월 25일 업데이트 {#sep-updates}
+
+### 새로운 기능 {#Sep-25-features}
 
 <table>
 <thead>
@@ -76,7 +78,8 @@ ht-degree: 68%
 <li>이제 "datasetLookup" 도우미 함수를 표현식 조각 내에서 사용할 수 있습니다.</li>
 <li>이제 데이터 세트 관리 인터페이스의 옵션을 통해 API 호출을 수행하지 않고도 조회 개인화에 대해 레코드 기반 데이터 세트를 활성화할 수 있습니다.</li>
 <li>데이터 수집 상태를 추적하고 데이터 세트를 조회할 준비가 되었는지 알 수 있도록 모니터링을 개선했습니다.</li>
-<li>최적의 성능과 안정성을 보장하기 위해 사용 지침 및 보호 기능을 업데이트했습니다.</li></ul></p>
+<li>최적의 성능과 안정성을 보장하기 위해 사용 지침 및 보호 기능을 업데이트했습니다.</li>
+<li>이제 의사 결정 최대 가용량 규칙에서 Adobe Experience Platform 데이터 세트를 활용할 수 있습니다.</li></ul></p>
 <p>자세한 내용은 <a href="../data/lookup-aep-data.md">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2025년 9월 1일</p>
 </td>
@@ -84,7 +87,9 @@ ht-degree: 68%
 </tbody>
 </table>
 
-### 개선 사항 {#Sept-25-8-improv}
+### 개선 사항 {#Sep-25-improv}
+
+* **의사 결정 최대 가용량 규칙에 대한 식** - 이제 의사 결정 항목에 대한 최대 가용량 규칙의 임계값을 정의하기 위해 자체 식을 만들 수 있습니다. [자세히 보기](../experience-decisioning/items.md#capping)
 
 * **관리**
 

@@ -10,10 +10,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 표현식, 편집기
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
-source-git-commit: 42f231a9b0b34a63d1601dcae653462f6321caed
+source-git-commit: f494b30608c7413e1b7fc8d6c38d46d60821ee1c
 workflow-type: tm+mt
-source-wordcount: '812'
-ht-degree: 24%
+source-wordcount: '1070'
+ht-degree: 19%
 
 ---
 
@@ -35,27 +35,45 @@ ht-degree: 24%
 
 [!DNL Journey Optimizer]을(를) 사용하면 의사 결정을 위해 [!DNL Adobe Experience Platform]의 데이터를 활용할 수 있습니다. 그러면 주기적으로 변경되는 일괄 업데이트 시 속성을 일일이 수동으로 업데이트할 필요 없이 결정 속성의 정의를 데이터 세트의 추가 데이터로 확장할 수 있습니다. 예를 들면 가용성, 대기 시간 등이 있습니다.
 
-시작하기 전에 조회 개인화에 필요한 데이터 세트를 먼저 조회에 대해 활성화해야 합니다. 자세한 정보는 이 섹션에서 확인할 수 있습니다. [Adobe Experience Platform 데이터 사용](../data/lookup-aep-data.md).
+>[!IMPORTANT]
+>
+>[!DNL Journey Optimizer]은(는) 단일 결정 정책에 대해 최대 1000개의 조회를 지원합니다.
 
-## 가드레일 및 제한 사항 {#guidelines}
+## 전제 조건
 
-시작하기 전에 다음 제한 사항 및 지침에 유의하십시오.
+### 조회에 데이터 세트 활성화
 
-* 의사 결정 정책은 결합된 모든 의사 결정 규칙 및 등급 수식 전체에서 최대 3개의 데이터 세트를 참조할 수 있습니다. 예를 들어, 규칙이 2개의 데이터 세트를 사용하는 경우 공식은 1개의 추가 데이터 세트만 사용할 수 있습니다.
-* 의사 결정 규칙은 3개의 데이터 세트를 사용할 수 있습니다.
-* 순위 공식은 3개의 데이터 세트를 사용할 수 있습니다.
-* 의사 결정 정책이 평가되면 시스템은 총 1000개의 데이터 세트 쿼리(조회)를 수행합니다. 의사 결정 항목에 사용되는 각 데이터 세트 매핑은 하나의 쿼리로 계산됩니다. 예: 의사 결정 항목이 2개의 데이터 세트를 사용하는 경우 해당 오퍼를 평가하는 것은 1000개 쿼리 제한에 대해 2개의 쿼리로 계산됩니다.
+시작하기 전에 의사 결정에 필요한 데이터 세트를 먼저 조회에 대해 활성화해야 합니다. 이 섹션에 자세히 설명된 단계를 따르십시오. [Adobe Experience Platform 데이터 사용](../data/lookup-aep-data.md).
+
+### 매핑 만들기
+
+의사 결정에 Adobe Experience Platform의 특성을 사용하려면 매핑을 만들어 Adobe Experience Platform 데이터 집합이 [!DNL Journey Optimizer]의 데이터와 결합하는 방법을 정의해야 합니다. 이렇게 하려면 다음 단계를 수행합니다.
+
+1. **[!UICONTROL 카탈로그]** / **[!UICONTROL 데이터 세트 조회]**(으)로 이동한 다음 **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
+
+   ![](assets/exd-lookup-mapping.png)
+
+1. 매핑을 구성합니다.
+
+   1. 조회가 활성화된 모든 Adobe Experience Platform을 표시하려면 **[!UICONTROL 데이터 세트 선택]**&#x200B;을 클릭합니다. 필요한 특성이 있는 데이터 세트를 선택합니다.
+
+   1. **[!UICONTROL 키 선택]**&#x200B;을 클릭하여 결정 항목 특성과 데이터 집합 모두에 있는 조인 키(예: 비행 편 번호 또는 고객 ID)를 선택합니다.
+
+   ![](assets/exd-lookup-mapping-create.png)
+
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 ## Adobe Experience Platform 데이터 활용 {#leverage-aep-data}
 
-조회에 대해 데이터 세트를 활성화하면 해당 속성을 사용하여 외부 데이터로 의사 결정 논리를 보강할 수 있습니다. 이 기능은 제품 가용성 또는 실시간 가격과 같이 자주 변경되는 속성에 특히 유용합니다.
+조회 및 매핑에 대해 데이터 세트를 활성화하면 이 데이터를 사용하여 외부 데이터로 의사 결정 논리를 보강할 수 있습니다. 이 기능은 제품 가용성 또는 실시간 가격과 같이 자주 변경되는 속성에 특히 유용합니다.
 
 Adobe Experience Platform 데이터 세트의 속성은 의사 결정 논리의 두 부분에서 사용할 수 있습니다.
 
 * **결정 규칙**: 결정 항목을 표시할 수 있는지 여부를 정의합니다.
 * **등급 수식**: 외부 데이터를 기반으로 결정 항목의 우선 순위를 지정합니다.
+* **최대 가용량 규칙**: 외부 데이터를 사용하여 최대 가용량 규칙에 대한 임계값을 계산합니다.
 
-다음 섹션에서는 두 컨텍스트에서 Adobe Experience Platform 데이터를 사용하는 방법에 대해 설명합니다.
+다음 섹션에서는 이러한 컨텍스트에서 Adobe Experience Platform 데이터를 사용하는 방법을 설명합니다.
 
 ### 결정 규칙 {#rules}
 
@@ -69,16 +87,9 @@ Adobe Experience Platform 데이터 세트의 속성은 의사 결정 논리의 
 
    ![](assets/exd-lookup-rule.png)
 
-1. **[!UICONTROL 매핑 만들기]**&#x200B;를 클릭하여 Adobe Experience Platform 데이터 집합이 [!DNL Journey Optimizer]의 데이터와 결합하는 방법을 정의합니다.
+1. **[!UICONTROL 데이터 집합 추가]**&#x200B;를 클릭한 다음 필요한 특성이 있는 데이터 집합을 선택하십시오.
 
-   * 필요한 특성이 있는 데이터 세트를 선택합니다.
-   * 의사 결정 항목 속성과 데이터 세트 모두에 있는 결합 키(예: 제품 ID 또는 스토어 ID)를 선택합니다.
-
-   ![](assets/exd-lookup-mapping.png)
-
-   >[!NOTE]
-   >
-   >규칙당 최대 3개의 매핑을 만들 수 있습니다.
+   ![](assets/exd-lookup-select-dataset.png)
 
 1. **[!UICONTROL 계속]**&#x200B;을 클릭합니다. 이제 **[!UICONTROL 데이터 집합 조회]** 메뉴에서 데이터 집합 특성에 액세스하여 규칙 조건에서 사용할 수 있습니다. [의사 결정 규칙을 만드는 방법을 알아봅니다](../experience-decisioning/rules.md#create)
 
@@ -92,19 +103,54 @@ Adobe Experience Platform 데이터 세트의 속성은 의사 결정 논리의 
 
 Adobe Experience Platform 데이터를 등급 공식에 사용하려면 다음 단계를 수행합니다.
 
-1. 등급 수식 만들기 또는 편집 **[!UICONTROL 데이터 집합 조회]** 섹션에서 **[!UICONTROL 매핑 만들기]**&#x200B;를 클릭합니다.
+1. 등급 수식 만들기 또는 편집
 
-1. 데이터 세트 매핑 정의:
+1. **[!UICONTROL 데이터 집합 조회]** 섹션에서 **[!UICONTROL 데이터 집합 추가]**&#x200B;를 클릭합니다.
 
-   * 적절한 데이터 세트를 선택합니다(예: 항공편을 이용한 좌석 이용 가능).
-   * 결정 항목 속성과 데이터 세트 모두에 있는 결합 키(예: 비행 번호 또는 고객 ID)를 선택합니다.
+1. 적절한 데이터 세트를 선택합니다.
 
-   ![](assets/exd-lookup-formula-mapping.png)
+   ![](assets/exd-lookup-formula-dataset.png)
 
    >[!NOTE]
    >
-   >등급 수식당 최대 3개의 매핑을 생성할 수 있습니다.
+   >찾고 있는 데이터 세트가 목록에 표시되지 않는 경우 조회에 대해 활성화했으며 데이터 세트 조회 매핑을 만들었는지 확인하십시오. 자세한 내용은 [필수 구성 요소](#prerequisites) 섹션을 참조하십시오.
 
 1. 데이터 세트 필드를 사용하여 평소와 같이 등급 공식을 만듭니다. [순위 공식을 만드는 방법을 알아봅니다](ranking/ranking-formulas.md#create-ranking-formula)
 
    ![](assets/exd-lookup-formula-criteria.png)
+
+### 최대 가용량 규칙 {#capping-rules}
+
+한도 규칙은 의사 결정 항목을 표시할 수 있는 최대 횟수를 정의하는 제약 조건으로 사용됩니다. 최대 가용량 규칙에 Adobe Experience Platform 데이터를 사용하면 동적 외부 속성에 따라 최대 가용량 기준을 정의할 수 있습니다. 이는 원하는 캡핑 임계값을 계산하기 위해 캡핑 규칙의 표현식을 사용하여 수행됩니다.
+
+예를 들어 retailer은 실시간 제품 인벤토리를 기반으로 오퍼를 제한할 수 있습니다. 고정 임계값 500을 설정하는 대신 Adobe Experience Platform 데이터 세트의 `inventory_count` 필드를 참조하는 식을 사용합니다. 데이터 세트에 275개 항목이 재고로 남아 있는 것으로 표시되면 오퍼는 해당 숫자까지만 전달됩니다.
+
+>[!NOTE]
+>
+>최대 가용량 규칙 **식**&#x200B;은(는) 현재 모든 사용자에게 제한된 가용성 기능으로 사용할 수 있으며 **[!UICONTROL 총]**&#x200B;개의 최대 가용량 유형에 대해서만 지원됩니다.
+
+Adobe Experience Platform 데이터를 사용하여 규칙 표현식을 제한하려면 다음 단계를 따르십시오.
+
+1. 의사 결정 항목을 만들거나 편집합니다.
+
+1. 항목 자격 조건을 정의할 때 **[!UICONTROL 데이터 집합 추가]**&#x200B;를 클릭하고 적절한 데이터 집합을 선택하십시오.
+
+   ![](assets/exd-lookup-capping.png)
+
+   >[!NOTE]
+   >
+   >찾고 있는 데이터 세트가 목록에 표시되지 않는 경우 조회에 대해 활성화했으며 데이터 세트 조회 매핑을 만들었는지 확인하십시오. 자세한 내용은 [필수 구성 요소](#prerequisites) 섹션을 참조하십시오.
+
+1. **[!UICONTROL 총]** 한도 유형을 선택한 다음 **[!UICONTROL 식]** 옵션을 활성화하십시오.
+
+   ![](assets/exd-lookup-capping-expression.png)
+
+   >[!NOTE]
+   >
+   >찾고 있는 데이터 세트가 목록에 표시되지 않는 경우 조회에 대해 활성화했으며 데이터 세트 조회 매핑을 만들었는지 확인하십시오. 자세한 내용은 [필수 구성 요소](#prerequisites) 섹션을 참조하십시오.
+
+1. 표현식을 편집하고 데이터 세트 필드를 사용하여 표현식을 작성합니다.
+
+   ![](assets/exd-lookup-capping-attribute.png)
+
+1. 평소대로 최대 가용량 및 규칙 결정 항목의 구성을 완료합니다. [최대 가용량 규칙을 설정하는 방법 알아보기](../experience-decisioning/items.md#capping)
