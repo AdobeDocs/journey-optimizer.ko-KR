@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
-source-git-commit: 16f6ccc83b357a1abf290244d3d4ab65b313b098
+source-git-commit: f622f81e3b31ca9eb4a4ae75c4edf6a10b4b286a
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 3%
@@ -113,7 +113,7 @@ ht-degree: 3%
 
 1. 적절한 콘텐츠를 찾으면 **[!UICONTROL 선택]**&#x200B;을 클릭하세요.
 
-## 지원되는 언어로 콘텐츠 생성{#languageS}
+## 지원되는 언어로 콘텐츠 생성{#languages}
 
 ![](assets/do-not-localize/gen-ai-language.gif)
 
