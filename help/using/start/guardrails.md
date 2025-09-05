@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 064d060dcb939a633b423bf4414506d8e4320c99
+source-git-commit: de338bcbd73b94ac004ee39106e50fe707afb19a
 workflow-type: tm+mt
 source-wordcount: '2648'
 ht-degree: 99%
@@ -211,7 +211,6 @@ Adobe Experience Platform에서 API 기반 프로필 만들기/업데이트와 �
 * 여정은 하나의 **대상자 읽기** 활동만 가질 수 있습니다.
 * [이 페이지](../building-journeys/read-audience.md)의 **대상자 읽기** 활동을 사용하는 방법에 대한 권장 사항도 참조하십시오.
 * 내보내기 작업을 검색하는 동안 대상이 트리거된 여정(**대상자 읽기** 또는 **비즈니스 이벤트**&#x200B;로 시작)에서 기본적으로 다시 시도가 적용됩니다. 내보내기 작업 생성 중 오류가 발생하면 최대 1시간 동안 10분마다 다시 시도됩니다. 그 후에는 실패로 간주합니다. 따라서 이러한 유형의 여정은 예정된 시간보다 최대 1시간 후에 실행될 수 있습니다.
-
 
 [이 페이지](../building-journeys/read-audience.md#must-read)도 참조하십시오.
 

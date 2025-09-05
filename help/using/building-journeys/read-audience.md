@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 활동, 여정, 읽기, 대상, 플랫폼
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: de338bcbd73b94ac004ee39106e50fe707afb19a
 workflow-type: tm+mt
-source-wordcount: '2333'
-ht-degree: 14%
+source-wordcount: '2400'
+ht-degree: 13%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 14%
 
    >[!NOTE]
    >
-   >또한 [대상 구성](../audience/get-started-audience-orchestration.md) 또는 [CSV 파일에서 업로드한](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko#import-audience){target="_blank"}을 사용하여 만든 Adobe Experience Platform 대상을 타깃팅할 수도 있습니다.
+   >또한 [대상 구성](../audience/get-started-audience-orchestration.md) 또는 [CSV 파일에서 업로드한](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}을 사용하여 만든 Adobe Experience Platform 대상을 타깃팅할 수도 있습니다.
 
    목록에 표시되는 열을 사용자 정의하고 정렬할 수 있습니다.
 
@@ -66,7 +66,7 @@ ht-degree: 14%
 
    >[!NOTE]
    >
-   >대상자 참가 상태가 **실현됨**&#x200B;인 개인만 여정에 들어갑니다. 대상자를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ko#interpret-segment-results){target="_blank"}를 참조하세요.
+   >대상자 참가 상태가 **실현됨**&#x200B;인 개인만 여정에 들어갑니다. 대상자를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}를 참조하세요.
 
 1. **[!UICONTROL 네임스페이스]** 필드에서 개인을 식별하기 위해 사용할 네임스페이스를 선택합니다. 기본적으로 필드는 마지막으로 사용된 네임스페이스로 미리 채워집니다. [네임스페이스에 대해 자세히 알아보기](../event/about-creating.md#select-the-namespace).
 
@@ -86,13 +86,17 @@ ht-degree: 14%
 
 * 가장 좋은 방법은 **대상자 읽기** 활동에서만 일괄 대상자를 사용하는 것입니다. 이렇게 하면 여정에 사용된 대상자에 대해 안정적이고 일관된 카운트를 제공합니다. 대상자 읽기는 일괄 사용 사례용으로 설계되었습니다. 사용 사례에 실시간 데이터가 필요한 경우 **[대상 자격](audience-qualification-events.md)** 활동을 사용하십시오.
 
-* CSV 파일에서 가져온 대상 [개](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko#import-audience) 또는 [컴포지션 워크플로](../audience/get-started-audience-orchestration.md)의 결과로 가져온 대상은 **대상 읽기** 활동에서 선택할 수 있습니다. 이러한 대상은 **대상 자격** 활동에서 사용할 수 없습니다.
+* CSV 파일에서 가져온 대상 [개](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) 또는 [컴포지션 워크플로](../audience/get-started-audience-orchestration.md)의 결과로 가져온 대상은 **대상 읽기** 활동에서 선택할 수 있습니다. 이러한 대상은 **대상 자격** 활동에서 사용할 수 없습니다.
 
 * 조직당 동시 읽기 대상 제한: 각 조직은 최대 5개의 읽기 대상 인스턴스를 동시에 실행할 수 있습니다. 여기에는 모든 샌드박스 및 여정에서 예약된 실행과 비즈니스 이벤트에 의해 트리거된 실행이 모두 포함됩니다. 이 제한은 모든 조직에서 공정하고 균형 잡힌 리소스 할당을 보장하기 위해 시행됩니다.
 
 * 샌드박스 처리량 관리: 시스템은 모든 Read Audience 활동에서 초당 최대 20,000개의 프로필을 공유하여 샌드박스당 처리 처리량을 동적으로 관리합니다. 개별 대상자 읽기 활동은 초당 최소 500개의 프로필로 구성할 수 있습니다. 공정한 리소스 할당을 위해 샌드박스 수준 처리량 제한에 도달하면 작업이 대기열에 걸릴 수 있습니다.
 
 * 작업 처리 시간 초과: 보호 제한으로 인해 12시간 이내에 처리할 수 없는 대상 읽기 작업은 자동으로 정리되며 실행되지 않습니다. 이를 통해 작업 축적을 방지하고 시스템 안정성을 확보할 수 있다.
+
+* 일괄 처리 세그먼트를 사용할 때는 여정이 시작되기 전에 수집 및 일별 스냅샷 업데이트가 완료되었는지 확인하십시오. 세그먼트가 같은 날 수집된 데이터를 반영해야 하는 경우 추가 대기 기간을 고려하십시오. 즉각적인 프로필 새로 고침이 중요한 경우 일별 일괄 처리 방식 대신 이벤트 기반 또는 스트리밍 사용 사례를 사용하거나 업데이트된 데이터가 여정 평가 전에 전파될 수 있도록 추가 대기 메커니즘을 삽입하십시오.
+
+
 
 **대상자 읽기** 활동과 관련된 보호 기능은 [이 페이지](../start/guardrails.md#read-segment-g)에 나열되어 있습니다.
 
