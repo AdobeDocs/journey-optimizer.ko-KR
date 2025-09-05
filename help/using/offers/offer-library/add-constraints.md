@@ -7,9 +7,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 923d9dfc4e281ea06ac1f5cd9c08d99a80617301
+source-git-commit: ef042e3a93dccc29d66eb9ab7d837f7914a8959d
 workflow-type: tm+mt
-source-wordcount: '2752'
+source-wordcount: '2753'
 ht-degree: 15%
 
 ---
@@ -76,7 +76,7 @@ ht-degree: 15%
 >title="오퍼 적격성 정보"
 >abstract="이 섹션에서는 결정 규칙을 사용하여 오퍼에 적합한 사용자를 결정할 수 있습니다."
 
-<!--additional-url="https://video.tv.adobe.com/v/341375?captions=kor" text="Watch demo video"-->
+<!--additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
@@ -105,7 +105,7 @@ ht-degree: 15%
 
   >[!CAUTION]
   >
-  >이벤트 기반 오퍼는 현재 [!DNL Journey Optimizer]에서 지원되지 않습니다. [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ko#events){target="_blank"}을(를) 기반으로 의사 결정 규칙을 만드는 경우 오퍼에서 이를 활용할 수 없습니다.
+  >이벤트 기반 오퍼는 현재 [!DNL Journey Optimizer]에서 지원되지 않습니다. [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}을(를) 기반으로 의사 결정 규칙을 만드는 경우 오퍼에서 이를 활용할 수 없습니다.
 
 대상자 또는 의사 결정 규칙을 선택하면 예상 적격 프로필에 대한 정보를 볼 수 있습니다. 데이터를 업데이트하려면 **[!UICONTROL 새로 고침]**&#x200B;을 클릭하세요.
 
@@ -273,7 +273,7 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->카운터가 에지로부터 허브로 또는 허브로부터 에지 영역들로 전파될 때, 수 분의 지연이 적용될 수 있다.
+>카운터가 에지로부터 허브로 또는 허브로부터 에지 영역들로 전파되는 경우, 최대 30분의 지연이 적용될 수 있다.
 
 조직과 연계된 허브 및 에지 영역에 대한 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
