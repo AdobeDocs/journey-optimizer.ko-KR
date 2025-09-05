@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f494b30608c7413e1b7fc8d6c38d46d60821ee1c
+source-git-commit: 831db9b83f1b7011cdd26f957195592b06160837
 workflow-type: tm+mt
-source-wordcount: '2051'
+source-wordcount: '2063'
 ht-degree: 67%
 
 ---
@@ -90,6 +90,10 @@ ht-degree: 67%
 ### 개선 사항 {#Sep-25-improv}
 
 * **의사 결정 최대 가용량 규칙에 대한 식** - 이제 의사 결정 항목에 대한 최대 가용량 규칙의 임계값을 정의하기 위해 자체 식을 만들 수 있습니다. [자세히 보기](../experience-decisioning/items.md#capping)
+
+  >[!NOTE]
+  >
+  >이 기능은 현재 모든 사용자에게 제한된 가용성으로 제공됩니다.
 
 * **관리**
 
