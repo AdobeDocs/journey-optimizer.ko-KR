@@ -8,10 +8,10 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 13623d28ba7b852f7267b5f800f2c9a3afda4a62
 workflow-type: tm+mt
-source-wordcount: '977'
-ht-degree: 1%
+source-wordcount: '1216'
+ht-degree: 0%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 1%
 
 1. **[!UICONTROL 구독 취소]**&#x200B;에 동일한 방법을 사용하십시오.
 
-1. [I/O 이벤트 알림](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=ko){target="_blank"}을 통해 알림을 구독할 수도 있습니다. 경고 규칙은 다른 구독 패키지로 구성됩니다. 특정 Journey Optimizer 경고에 해당하는 이벤트 구독은 [아래](#journey-alerts)에 자세히 설명되어 있습니다.
+1. [I/O 이벤트 알림](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}을 통해 알림을 구독할 수도 있습니다. 경고 규칙은 다른 구독 패키지로 구성됩니다. 특정 Journey Optimizer 경고에 해당하는 이벤트 구독은 [아래](#journey-alerts)에 자세히 설명되어 있습니다.
 
 1. 예기치 않은 동작이 발생하고/또는 작업의 특정 조건 세트에 도달하면(예: 시스템이 임계값을 위반한 경우 발생할 수 있는 문제), 경고 알림이 이를 구독한 조직의 모든 사용자에게 전달됩니다.
 
@@ -71,7 +71,7 @@ ht-degree: 1%
 >
 >기본적으로 인앱 경고만 활성화됩니다.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=ko#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 경고가 해결되면 구독자에게 &quot;해결됨&quot; 알림이 전송됩니다.
 
@@ -173,50 +173,50 @@ ht-degree: 1%
 
 변경 사항으로 문제가 해결되지 않으면 다음 날 동일한 경고가 다시 트리거됩니다.
 
-<!--The I/O event subscription name corresponding to this alert is xx. > Do we need to mention this?
+<!--The I/O event subscription name corresponding to this alert is xx. > Do we need to mention this?-->
 
-### AJO channel configuration failure {#alert-channel-config-failure}
+### AJO 채널 구성 실패 {#alert-channel-config-failure}
 
 >[!IMPORTANT]
 >
->This alert applies only to **email** channel configurations using the [custom subdomain](../configuration/delegate-custom-subdomain.md) delegation type. ///Other channel types (such as SMS, push, or in-app) are not covered by this alert.///
+>이 경고는 **사용자 지정 하위 도메인** 위임 유형을 사용하는 [전자 메일](../configuration/delegate-custom-subdomain.md) 채널 구성에만 적용됩니다. <!--Other channel types (such as SMS, push, or in-app) are not covered by this alert.-->
 
-This alert is triggered in case the system audit detects email channel configuration issues. These issues may include misconfigured channel settings, invalid DNS configuration, suppression list issue, IP inconsistency, or any other errors that can impact email delivery.
+이 경고는 시스템 감사가 이메일 채널 구성 문제를 감지하는 경우 트리거됩니다. 이러한 문제에는 잘못 구성된 채널 설정, 잘못된 DNS 구성, 제외 목록 문제, IP 불일치 또는 이메일 게재에 영향을 줄 수 있는 기타 모든 오류가 포함될 수 있습니다.
 
-If you receive such an alert, the resolution steps are listed below:
+이러한 경고를 받으면 해결 단계 가 아래에 나열됩니다.
 
-1. Click the alert to be directed to the impacted [email channel configuration](../email/get-started-email-config.md) in the [!DNL Journey Optimizer] interface.
+1. [ 인터페이스에서 영향을 받는 ](../email/get-started-email-config.md)전자 메일 채널 구성[!DNL Journey Optimizer]&#x200B;(으)로 보낼 경고를 클릭합니다.
 
-   For guidance on editing channel configurations, see [this section](../configuration/channel-surfaces.md#edit-channel-surface).
+   채널 구성 편집에 대한 지침은 [이 섹션](../configuration/channel-surfaces.md#edit-channel-surface)을 참조하세요.
 
-1. Review the configuration details and error messages provided. Common failure reasons include:
+1. 제공된 구성 세부 정보 및 오류 메시지를 검토하십시오. 일반적인 실패 원인은 다음과 같습니다.
 
-   * SPF validation failed
-   * DKIM validation failed
-   * MX record validation failed
-   * Invalid DNS records
-
-   >[!NOTE]
-   >
-   >The possible configuration failure reasons are listed in [this section](../configuration/channel-surfaces.md).
-
-1. Resolve the issue:
-
-   * Update the channel configuration as needed.
-   * You may need to fix specific DNS issues mentioned in the alert.
+   * SPF 유효성 검사 실패
+   * DKIM 유효성 검사 실패
+   * MX 레코드 유효성 검사 실패
+   * 잘못된 DNS 레코드
 
    >[!NOTE]
    >
-   >As a single domain can be associated with multiple channel configurations, resolving DNS issues for one channel configuration may automatically fix related issues across several configurations.
+   >가능한 구성 실패 이유는 [이 섹션](../configuration/channel-surfaces.md)에 나열되어 있습니다.
 
-If the change does not resolve the issue, the same alert will be triggered again the next day.
+1. 문제 해결:
 
-When resolving email configuration issues, keep in mind the best practices listed below:
+   * 필요에 따라 채널 구성을 업데이트합니다.
+   * 경고에 언급된 특정 DNS 문제를 수정해야 할 수 있습니다.
 
-* Act promptly - Address configuration failures as soon as they are detected to avoid disruptions in email delivery.
-* Check all configurations - If the alert indicates multiple impacted email configurations, review and fix each of them.
+   >[!NOTE]
+   >
+   >단일 도메인을 여러 채널 구성과 연결할 수 있으므로 한 채널 구성에 대한 DNS 문제를 해결하면 여러 구성에서 관련된 문제를 자동으로 해결할 수 있습니다.
 
-### AJO domain certificates renewal unsuccessful {#alert-certificates-renewal}
+변경 사항으로 문제가 해결되지 않으면 다음 날에 동일한 경고가 다시 트리거됩니다.
+
+이메일 구성 문제를 해결할 때에는 아래 나열된 모범 사례를 염두에 두십시오.
+
+* 즉시 조치 - 이메일 게재 중단을 방지하기 위해 구성 실패가 감지되면 즉시 해결합니다.
+* 모든 구성 확인 - 경고에 영향을 받는 여러 이메일 구성이 표시되면 각각의 구성을 검토하고 수정합니다.
+
+<!--### AJO domain certificates renewal unsuccessful {#alert-certificates-renewal}
 
 This alert warns you if a domain certificate (CDN, tracking URL) renewal failed for a specific Journey Optimizer subdomain.-->
 
