@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 152ff131334b5ad62df3e63e4ad529950f522f5a
+source-git-commit: c6179566226331d2169c3abc50a069262db80d85
 workflow-type: tm+mt
-source-wordcount: '1971'
-ht-degree: 70%
+source-wordcount: '2011'
+ht-degree: 68%
 
 ---
 
@@ -83,6 +83,12 @@ ht-degree: 70%
 </tr>
 </tbody>
 </table>
+
+### 개선 사항 {#Sept-25-8-improv}
+
+* **관리**
+
+  **채널 구성 모니터링 경고** - 이제 사용자 지정 하위 도메인 위임 유형을 사용하는 이메일 채널 구성 오류가 발생하는 경우 이메일 또는 Journey Optimizer 알림 센터에서 시스템 경고를 수신하도록 구독할 수 있습니다. [자세히 보기](../reports/alerts.md#alert-dns-record-missing)
 
 ## 2025년 8월 릴리스 정보 {#25-8-rn}
 
