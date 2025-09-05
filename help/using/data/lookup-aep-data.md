@@ -11,9 +11,9 @@ level: Intermediate
 keywords: 표현식, 편집기
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: ea40a13765be5ff603dd848df4fb02a4dbb9a426
+source-git-commit: 248aae7b2841086ef5a0ea73936c245963e8eae2
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '804'
 ht-degree: 5%
 
 ---
@@ -44,7 +44,7 @@ Journey Optimizer을 사용하면 개인화 및 의사 결정 기능을 통해 A
 
 ### 조회 서비스에 대한 권한 부여
 
-| 기능 구성 요소 | 프로덕션 샌드박스 제한 | 참고 |
+| 기능 구성 요소 | 제한 | 참고 |
 | ------- | ------- | ------- |
 | 조회 데이터 세트 활성화됨 | 조직당 최대 10개 | 지정된 시간에 조회를 위해 구성할 수 있는 최대 데이터 세트 수입니다. 이 제한은 고객 인스턴스 내의 프로덕션 및 개발 샌드박스 모두에서 조회 데이터 세트의 총 결합 수에 적용됩니다. |
 | 데이터 세트 레코드 수 | 데이터 세트당 최대 200만 개의 레코드 | 단일 데이터 세트에서 허용되는 최대 레코드 수로, 해당 데이터 세트 내의 모든 배치에서 총 카운트로 계산됩니다. |
