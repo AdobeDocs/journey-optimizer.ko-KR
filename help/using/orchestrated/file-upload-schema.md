@@ -5,10 +5,10 @@ title: 구성 단계
 description: DDL을 업로드하여 Adobe Experience Platform 내에서 관계형 스키마를 만드는 방법을 알아봅니다
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 35cd3aac01467b42d0cba22de507f11546f4feb9
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 58%
+source-wordcount: '1041'
+ht-degree: 52%
 
 ---
 
@@ -39,6 +39,19 @@ Excel 기반 스키마 파일 업로드가 지원됩니다. 스키마 정의를 
 
 * **열거형**\
   ENUM 필드는 DDL 기반 및 수동 스키마 생성 모두에서 지원되므로 고정된 허용된 값 집합으로 속성을 정의할 수 있습니다.
+다음은 한 예입니다.
+
+  ```
+  CREATE TABLE orders (
+  order_id     INT NOT NULL,
+  product_id   INT NOT NULL,
+  order_date   DATE NOT NULL,
+  customer_id  INT NOT NULL,
+  quantity     INT NOT NULL,
+  order_status enum ('PENDING', 'SHIPPED', 'DELIVERED', 'CANCELLED'),
+  PRIMARY KEY (order_id, product_id)
+  );
+  ```
 
 * **데이터 거버넌스용 스키마 레이블**\
   액세스 제어 및 사용 제한과 같은 데이터 거버넌스 정책을 적용하기 위해 스키마 필드 수준에서 레이블 지정이 지원됩니다. 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR)를 참조하세요.
@@ -61,9 +74,10 @@ Excel 기반 스키마 파일 업로드가 지원됩니다. 스키마 정의를 
 1. 엔티티 관계 다이어그램을 정의하고 스키마를 생성하려면 **[!UICONTROL DDL 파일 업로드]**&#x200B;를 선택합니다.
 
    테이블 구조에는 다음이 포함되어야 합니다.
-   * 하나 이상의 기본 키
+   * 하나 이상의 기본 키.
    * `datetime` 또는 `number` 유형의 `lastmodified` 필드와 같은 버전 식별자.
-   * CDC(변경 데이터 캡처) 수집의 경우, 데이터 변경 유형(예: 삽입, 업데이트, 삭제)을 나타내고 증분 처리를 사용하는 `_change_request_type` 유형의 이름이 `String`인 특수 열입니다
+   * CDC(변경 데이터 캡처) 수집의 경우, 데이터 변경 유형(예: 삽입, 업데이트, 삭제)을 나타내고 증분 처리를 가능하게 하는 `_change_request_type` 유형의 이름이 `String`인 특수 열입니다.
+   * DDL 파일은 200개 이상의 테이블을 정의하면 안 됩니다.
 
 
    >[!IMPORTANT]
@@ -79,9 +93,13 @@ Excel 기반 스키마 파일 업로드가 지원됩니다. 스키마 정의를 
 
 1. 기본 키가 지정되도록 각 스키마와 해당 열을 설정합니다.
 
-   `lastmodified` 등의 속성 하나를 버전 설명자로 지정해야 합니다. 이 속성은 일반적으로 `datetime`, `long` 또는 `int` 유형이며, 데이터 세트가 최신 데이터 버전으로 업데이트되도록 보장하는 수집 프로세스에 필수적입니다.
+   데이터 집합이 최신 데이터로 업데이트되도록 하려면 `lastmodified`과(와) 같은 특성 하나를 버전 설명자(`datetime`, `long` 또는 `int` 형식)로 지정해야 합니다. 버전 설명자는 사용자가 변경할 수 있으며, 설정된 버전 설명자는 필수가 됩니다. 속성은 기본 키(PK)와 버전 설명자 모두가 될 수 없습니다.
 
    ![](assets/admin_schema_2.png)
+
+1. 특성을 `identity`(으)로 표시하고 정의된 ID 네임스페이스에 매핑합니다.
+
+1. 각 테이블의 이름을 바꾸거나, 설명을 삭제하거나, 추가합니다.
 
 1. 끝났으면 **[!UICONTROL 완료]**&#x200B;를 클릭합니다.
 
@@ -94,6 +112,10 @@ Excel 기반 스키마 파일 업로드가 지원됩니다. 스키마 정의를 
 1. 데이터 모델의 캔버스 보기에 액세스하고 연결할 두 테이블을 선택합니다.
 
 1. 소스 조인 옆에 있는 ![](assets/do-not-localize/Smock_AddCircle_18_N.svg) 버튼을 클릭한 후 화살표를 드래그하여 대상 조인 방향으로 끌어서 연결합니다.
+
+   >[!NOTE]
+   >
+   >DDL 파일에 정의된 경우 복합 키가 지원됩니다.
 
    ![](assets/admin_schema_5.png)
 
