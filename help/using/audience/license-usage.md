@@ -25,7 +25,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->* 대시보드를 보려면 [라이선스 사용량 대시보드 보기](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html#available-permissions){target="_blank"} 권한이 있어야 합니다.
+>* 대시보드를 보려면 [라이선스 사용량 대시보드 보기](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html?lang=ko#available-permissions){target="_blank"} 권한이 있어야 합니다.
 >
 >* 할당량 열에 `N/A`로 표시된 대로 특정 지표(예: 계산 시간, 이메일)는 개발 샌드박스에 표시되지 않습니다. 대시보드에는 null이 아닌 값만 표시됩니다. 지표가 0이거나 0에 가까우면 값이 채워지지 않습니다.
 
@@ -34,6 +34,6 @@ ht-degree: 3%
 
 Adobe Experience Platform 설명서에서 자세히 알아보십시오.
 
-* [라이선스 사용 대시보드 개요](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html){target="_blank"}
-* [라이선스 사용 대시보드 살펴보기](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#exploring-the-license-usage-dashboard){target="_blank"}
+* [라이선스 사용 대시보드 개요](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=ko){target="_blank"}
+* [라이선스 사용 대시보드 살펴보기](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=ko#exploring-the-license-usage-dashboard){target="_blank"}
 * [사용 가능한 지표](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=ko#available-metrics){target="_blank"}
