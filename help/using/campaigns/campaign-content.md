@@ -10,7 +10,7 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 만들기, 최적화 도구, 캠페인, 표면, 메시지
 exl-id: bcb7a5e4-440d-4548-b305-c320bafe6ee7
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 8701afe345f0eeed1503e4765d4715398823b102
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 16%
@@ -23,7 +23,7 @@ ht-degree: 16%
 
 ![](assets/campaign-content.png)
 
-## 콘텐츠 디자인
+## 콘텐츠 디자인 {#action-campaign-channels}
 
 콘텐츠 만들기 프로세스는 선택한 채널에 따라 다릅니다. 다음 페이지에서 메시지 콘텐츠를 만드는 자세한 단계를 배웁니다.
 

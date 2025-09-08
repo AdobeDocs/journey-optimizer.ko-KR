@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: ab23386f22e6b585df412ccab039576a51a3ce20
+source-git-commit: 8701afe345f0eeed1503e4765d4715398823b102
 workflow-type: tm+mt
 source-wordcount: '847'
-ht-degree: 87%
+ht-degree: 85%
 
 ---
 
@@ -80,7 +80,7 @@ Journey Optimizer의 핵심 기능 및 서비스는 실시간 고객 프로필�
 
 Digital Experience 블루프린트는 시스템 및 데이터 흐름 아키텍처 다이어그램을 제공하여 Adobe Experience Platform 및 애플리케이션이 어떻게 통합되고 구현되는지 더 잘 이해할 수 있도록 합니다. 블루프린트는 Adobe Experience Platform 및 애플리케이션의 사용 사례 디자인 및 아키텍처를 알리는 데 도움이 되도록 시스템 간 및 구성 요소 데이터 및 콘텐츠 흐름, 작업 시퀀스 및 종속성을 시각적으로 표시합니다.
 
-[Adobe Journey Optimizer 블루프린트](https://experienceleague.adobe.com/ko/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}를 참조하세요.
+[Adobe Journey Optimizer 블루프린트](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}를 참조하세요.
 
 
 >[!MORELIKETHIS]

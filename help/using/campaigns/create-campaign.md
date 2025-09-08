@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 만들기, 최적화 도구, 캠페인, 표면, 메시지
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 8701afe345f0eeed1503e4765d4715398823b102
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 55%
+source-wordcount: '179'
+ht-degree: 46%
 
 ---
 
@@ -30,6 +30,13 @@ ht-degree: 55%
 액션 캠페인(또는 예약 캠페인)을 사용하면 프로모션 제안, 참여 캠페인, 공지, 법적 고지 또는 정책 업데이트와 같은 마케팅 사용 사례에 대한 간단한 임시 일괄 커뮤니케이션을 수행할 수 있습니다.
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
+
+
+>[!NOTE]
+>
+>지원되는 채널은 [이메일](../email/get-started-email.md), [SMS/MMS/RCS](../sms/get-started-sms.md), [푸시 알림](../push/get-started-push.md), [WhatsApp](../whatsapp/get-started-whatsapp.md), [LINE](../line/get-started-line.md), [다이렉트 메일](../direct-mail/get-started-direct-mail.md), [앱 내](../in-app/get-started-in-app.md), [웹](../web/get-started-web.md), [코드 기반 경험](../code-based/get-started-code-based.md)입니다.
+>
+>사용 가능한 채널은 라이선스 모델 및 추가 기능에 따라 다릅니다.
 
 ## 액션 캠페인 생성에 대한 주요 단계 {#steps}
 
@@ -48,4 +55,4 @@ ht-degree: 55%
 
 액션 캠페인을 만드는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3412406?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)
