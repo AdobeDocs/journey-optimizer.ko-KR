@@ -6,10 +6,10 @@ description: 오케스트레이션된 캠페인을 시작하는 방법 알아보
 short-description: 오케스트레이션된 캠페인 주요 기능 및 사용 사례 살펴보기
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: d4765f9084efac1fd241404dff365a66027ce5af
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 92%
+source-wordcount: '654'
+ht-degree: 89%
 
 ---
 
@@ -48,6 +48,13 @@ ht-degree: 92%
 <tr style="border: 0;">
 <td><img alt="여러 단계 캠페인 워크플로" src="assets/do-not-localize/icon-multistep.svg" width="150px"></a></td><td><b>여러 단계 캠페인 워크플로</b><br/>일별 메시지부터 시즌 프로모션 또는 주요 제품 출시와 같은 복잡한 캠페인에 이르기까지 여러 단계의 캠페인을 디자인합니다.</td></tr>
 </table>
+
+
+>[!NOTE]
+>
+>지원되는 채널: [이메일](../email/get-started-email.md), [SMS/MMS/RCS](../sms/get-started-sms.md), [푸시 알림](../push/get-started-push.md).
+>
+>사용 가능한 채널은 라이선스 모델 및 추가 기능에 따라 다릅니다.
 
 ## 오케스트레이션된 캠페인 여정
 

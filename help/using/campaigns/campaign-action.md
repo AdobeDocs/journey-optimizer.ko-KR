@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 만들기, 최적화 도구, 캠페인, 표면, 메시지
 exl-id: fed96e48-2e54-4bd4-ae17-77434d1b90eb
-source-git-commit: 17ca5d47fbf20ee25c3728d85877adaccf82aea8
+source-git-commit: d4765f9084efac1fd241404dff365a66027ce5af
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 35%
+source-wordcount: '816'
+ht-degree: 34%
 
 ---
 
@@ -21,13 +21,18 @@ ht-degree: 35%
 
 **[!UICONTROL 액션]** 탭을 사용하여 메시지의 채널 구성을 선택하고 추적, 콘텐츠 실험 또는 다국어 콘텐츠와 같은 추가 설정을 구성합니다.
 
+
+
 1. **채널 선택**
 
    **[!UICONTROL 작업]** 탭으로 이동하여 **[!UICONTROL 작업 추가]** 단추를 클릭하고 통신 채널을 선택합니다.
 
    ![](assets/create-campaign-add-action.png)
 
+
    >[!NOTE]
+   >
+   >지원되는 채널은 [이메일](../email/get-started-email.md), [SMS/MMS/RCS](../sms/get-started-sms.md), [푸시 알림](../push/get-started-push.md), [WhatsApp](../whatsapp/get-started-whatsapp.md), [LINE](../line/get-started-line.md), [다이렉트 메일](../direct-mail/get-started-direct-mail.md), [앱 내](../in-app/get-started-in-app.md), [웹](../web/get-started-web.md), [코드 기반 경험](../code-based/get-started-code-based.md)입니다.
    >
    >사용 가능한 채널은 라이선스 모델 및 추가 기능에 따라 다릅니다.
 
