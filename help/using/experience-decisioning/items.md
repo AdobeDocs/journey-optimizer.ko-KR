@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 825cffb38c366a7a93cd58da9d2439ff530c60e9
+source-git-commit: 58389860e5e0b07f32dd62b95a508e80579aaa73
 workflow-type: tm+mt
-source-wordcount: '2125'
+source-wordcount: '2186'
 ht-degree: 12%
 
 ---
@@ -108,6 +108,11 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
 >규칙 매개 변수에 컨텍스트 데이터와 같이 프로필에 없는 데이터가 포함되어 있으면 프로필 추정치를 사용할 수 없습니다. 예를 들어 현재 날씨가 ≥80도여야 하는 자격 규칙이 있습니다.
 
 ## 최대 가용량 규칙 설정 {#capping}
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_capping_expression"
+>title="표현식"
+>abstract="제한 임계값에 정적 값을 사용하는 대신 고유한 표현식을 정의할 수 있습니다. 이를 통해 Adobe Experience Platform 데이터 세트의 의사 결정 속성 및/또는 외부 속성을 사용하여 임계값을 동적으로 계산할 수 있습니다.<br/><br/>최대 가용량 규칙 **식**&#x200B;은(는) 현재 모든 사용자에게 제한된 가용성으로 사용할 수 있습니다. **[!UICONTROL 총]** 한도 유형에 대해서만 지원됩니다."
 
 한도는 오퍼 항목을 표시할 수 있는 최대 횟수를 정의하는 제약 조건으로 사용됩니다. 사용자가 특정 오퍼를 받는 횟수를 제한하면 고객에게 과다 청탁을 하지 않고 최상의 오퍼로 각 접점을 최적화할 수 있습니다. 특정 결정 항목에 대해 최대 10개의 캡션을 만들 수 있습니다.
 

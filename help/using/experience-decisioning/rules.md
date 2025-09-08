@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: ebefeb59a19e831ec7f86cee690a35fe71e14554
+source-git-commit: 58389860e5e0b07f32dd62b95a508e80579aaa73
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 20%
+source-wordcount: '549'
+ht-degree: 19%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_rules"
 >title="결정 규칙 만들기"
->abstract="결정 규칙을 사용하면 결정 항목 수준에서 직접 또는 특정 선택 전략 내에서 제한 사항을 적용하여 결정 항목의 대상자를 정의할 수 있습니다. 이를 통해 어떤 항목을 어떤 대상에게 제공할지 정확하게 제어할 수 있습니다."
+>abstract="결정 규칙을 사용하면 결정 항목 수준에서 직접 또는 특정 선택 전략 내에서 제한 사항을 적용하여 결정 항목의 대상자를 정의할 수 있습니다. 이를 통해 어떤 항목을 어떤 대상에게 제공할지 정확하게 제어할 수 있습니다.<br/><br/>의사 결정 규칙에서 Adobe Experience Platform 데이터를 사용하려면 **[!UICONTROL 데이터 집합으로 규칙 만들기]**&#x200B;를 선택하십시오. 이를 통해 동적인 외부 속성에 따라 자격 조건을 정의할 수 있으므로 결정 항목이 관련성이 있을 때만 표시되도록 합니다."
 
 ## 의사 결정 규칙 기본 정보 {#about}
 
