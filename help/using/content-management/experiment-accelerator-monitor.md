@@ -10,9 +10,9 @@ level: Beginner
 keywords: 내용, 실험, 복수, 대상자, 처리
 hide: true
 hidefromtoc: true
-source-git-commit: b52a0206e336185a8c630b7a6eace1fed14b1b66
+source-git-commit: e4d5631701c5c270af7aec931f6b98a567b4ed29
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1048'
 ht-degree: 1%
 
 ---
@@ -64,6 +64,8 @@ KPI 섹션은 생성된 총 실험 수와 현재 진행 중인 횟수를 포함�
 
 ![](assets/experiment-monitor-outcome.png)
 
+**[!UICONTROL 실험 결과]**&#x200B;를 통해 실험에서 가장 성과가 좋은 변형을 빠르게 볼 수 있습니다.
+
 ### 설정 {#set-up}
 
 ![](assets/experiment-monitor-hypothesis.png)
@@ -112,7 +114,7 @@ KPI 섹션은 생성된 총 실험 수와 현재 진행 중인 횟수를 포함�
 
 * **[!UICONTROL 대상]**: 실험 중에 타깃팅된 정의된 사용자 세그먼트입니다.
 
-## 기회 {#opportunities}
+### 기회 {#opportunities}
 
 >[!AVAILABILITY]
 >
@@ -175,7 +177,6 @@ KPI 섹션은 생성된 총 실험 수와 현재 진행 중인 횟수를 포함�
 >실험 인사이트 기능은 텍스트 기반 변경 사항이 있는 실험으로 제한됩니다.
 
 ![](assets/experiment-monitor-insights.png)
-
 
 **[!UICONTROL 실험 인사이트]**&#x200B;는 이 실험에서 파생된 AI 생성 학습입니다. 이러한 통찰력은 실험이 통계적 중요도에 도달하면 사용할 수 있으며 성공에 기여한 사항을 맥락적으로 이해할 수 있습니다. 이들은 결과에 영향을 미칠 수 있는 통제와 달리 승리 치료에 존재하는 주요 속성을 강조합니다.
 
