@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 keywords: 캠페인, API 트리거, REST, 최적화 도구, 메시지
 exl-id: 561f1215-d13d-4ffc-b6f1-396ae67774c8
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 4%
@@ -40,7 +40,7 @@ ht-degree: 4%
 
    **[!UICONTROL 완료됨]** 상태는 캠페인이 활성화된 후 3일 또는 캠페인 종료 날짜(반복 실행)에 자동으로 할당됩니다. [캠페인 상태에 대해 자세히 알아보기](get-started-with-campaigns.md#statuses).
 
-   종료 날짜가 지정되지 않은 경우 캠페인은 **[!UICONTROL Live]** 상태를 유지합니다. 변경하려면 캠페인을 수동으로 중지해야 합니다. [캠페인을 중지하는 방법 알아보기](modify-stop-campaign.md)
+   종료 날짜가 지정되지 않은 경우 캠페인은 **[!UICONTROL Live]** 상태를 유지합니다. 변경하려면 캠페인을 수동으로 중지해야 합니다. [캠페인을 중지하는 방법 알아보기](manage-campaigns.md)
 
 
 1. 캠페인이 활성화되면 언제든지 해당 정보를 열어 확인할 수 있습니다. 이 요약을 사용하면 타겟팅된 프로필 수와 게재됨 및 실패한 작업 수에 대한 통계를 가져올 수 있습니다.

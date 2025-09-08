@@ -4,23 +4,23 @@ product: Journey Optimizer
 title: 캠페인
 description: 캠페인
 redpen-status: CREATED_||_2025-08-11_20-28-03
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
+exl-id: 6fc5b0f4-95a5-431d-a80a-3a1f71b4dd0d
+source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
 workflow-type: tm+mt
 source-wordcount: '210'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
-
 # 캠페인{#section-overview}
 
-Adobe Journey Optimizer의 캠페인은 채널 간에 개인화되고, 시기적절하며, 영향력 있는 메시지를 전달하여 대상자를 보다 효과적으로 참여하도록 도와줍니다. 일회성 프로모션 이메일을 계획하고 있거나, 실시간 트랜잭션 메시지를 자동화하고 있거나, 복잡한 여러 단계로 구성된 여정을 오케스트레이션하고 있는 사용자의 요구 사항에 맞는 캠페인 유형이 있습니다. 이 섹션에서는 세 가지 주요 캠페인 유형(작업 캠페인, API 트리거 캠페인 및 오케스트레이션된 캠페인)을 소개하고, 고유한 강점과 사용 사례를 강조합니다. 또한 권한, 대상자 설정 및 채널 구성과 같은 필수 구성 요소에 대해 학습하여 고객에게 공감하는 캠페인을 만들고 관리할 수 있는 모든 것을 갖추도록 합니다.
+Adobe Journey Optimizer의 캠페인은 채널 간에 개인화되고, 시기적절하며, 영향력 있는 메시지를 전달하여 대상자를 보다 효과적으로 참여하도록 도와줍니다. 일회성 프로모션 이메일을 계획하고 있거나, 실시간 트랜잭션 메시지를 자동화하고 있거나, 복잡한 여러 단계로 구성된 여정을 오케스트레이션하고 있는 사용자의 요구 사항에 맞는 캠페인 유형이 있습니다. 이 섹션에서는 세 가지 주요 캠페인 유형(작업 캠페인, API 트리거 캠페인 및 오케스트레이션된 캠페인)을 소개하고, 고유한 강점과 사용 사례를 강조합니다. 또한 권한, 대상자 설정 및 채널 구성과 같은 필수 구성 요소에 대해 학습하여 고객에게 공감하는 캠페인을 만들고 관리할 수 있는 모든 것을 갖추게 됩니다.
 
 ## 캠페인 개요
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 캠페인 시작
 
@@ -30,17 +30,17 @@ Adobe Journey Optimizer의 캠페인은 채널 간에 개인화되고, 시기적
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 캠페인 액세스 및 관리
 
 캠페인을 액세스, 관리, 수정 또는 보관하는 방법을 알아보고 캠페인 달력 보기를 살펴봅니다.
 
-[캠페인 관리 방법 알아보기](../using/campaigns/modify-stop-campaign.md)
+[캠페인 관리 방법 알아보기](../using/campaigns/manage-campaigns.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 액션 캠페인
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer의 캠페인은 채널 간에 개인화되고, 시기적
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 API 트리거 캠페인
 
@@ -60,7 +60,7 @@ API 트리거 캠페인
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 오케스트레이션된 캠페인
 

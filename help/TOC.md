@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e46680497770a87da9ec4ce7d08e48d3a6a67acb
+source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
 workflow-type: tm+mt
 source-wordcount: '2889'
 ht-degree: 99%
@@ -208,7 +208,7 @@ ht-degree: 99%
 + 캠페인 {#campaigns}
    + [캠페인](/help/rp_landing_pages/campaigns-landing-page.md)
    + [캠페인 시작](using/campaigns/get-started-with-campaigns.md)
-   + [캠페인 액세스 및 관리](using/campaigns/modify-stop-campaign.md)
+   + [캠페인 액세스 및 관리](using/campaigns/manage-campaigns.md)
    + 액션 캠페인 {#action-campaigns}
       + [액션 캠페인](/help/rp_landing_pages/action-campaigns-landing-page.md)
       + [액션 캠페인 작업](using/campaigns/create-campaign.md)

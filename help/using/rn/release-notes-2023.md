@@ -10,7 +10,7 @@ hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
 workflow-type: tm+mt
 source-wordcount: '4377'
 ht-degree: 100%
@@ -82,7 +82,7 @@ ht-degree: 100%
 **캠페인**
 
 <!--* You can now stop a live one-time campaign, make modifications and resume it again. This improvement is available in Beta.-->
-* 이제 캠페인 중 하나에서 오류가 발생하면 캠페인 목록의 캠페인 상태 옆에 경고 아이콘이 표시됩니다. [자세히 보기](../campaigns/modify-stop-campaign.md#statuses)
+* 이제 캠페인 중 하나에서 오류가 발생하면 캠페인 목록의 캠페인 상태 옆에 경고 아이콘이 표시됩니다. [자세히 보기](../campaigns/manage-campaigns.md#statuses)
 
 **여정**
 
@@ -633,9 +633,9 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 **캠페인**
 
-* 이제 인벤토리 화면에서 줄임표 작업 메뉴를 사용하여 캠페인을 복제할 수 있습니다. [자세히 보기](../campaigns/modify-stop-campaign.md#duplicate)
+* 이제 인벤토리 화면에서 줄임표 작업 메뉴를 사용하여 캠페인을 복제할 수 있습니다. [자세히 보기](../campaigns/manage-campaigns.md#duplicate)
 * 이제 라이브 캠페인의 수정본 초안을 삭제할 수 있습니다.
-* 캠페인을 활성화하는 단계를 간소화했습니다. [자세히 보기](../campaigns/modify-stop-campaign.md)
+* 캠페인을 활성화하는 단계를 간소화했습니다. [자세히 보기](../campaigns/manage-campaigns.md)
 
 **의사 결정 관리**
 

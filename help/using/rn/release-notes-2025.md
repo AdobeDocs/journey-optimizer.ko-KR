@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 75c3db704853b8d2d8920ddd0086681d1fb02a93
+source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
 workflow-type: tm+mt
 source-wordcount: '5119'
 ht-degree: 100%
@@ -89,7 +89,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>여정 시험 실행은 Adobe Journey Optimizer에서 제공되는 특별한 여정 게시 모드로, 여정 실무자가 실제 고객에게 연락하거나 프로필 정보를 업데이트하지 않고도 실제 프로덕션 데이터를 사용해 여정을 테스트할 수 있도록 합니다. 이 기능은 여정 실무자가 여정을 게시하기 전에 여정 설계와 대상자 타기팅에 대한 자신감을 얻는 데 도움이 됩니다.</p>
+<p>여정 시험 실행은 Adobe Journey Optimizer의 특별한 여정 게시 모드로, 이를 통해 여정 실무자가 실제 고객과 연락하거나 프로필 정보를 업데이트하지 않고도 실제 프로덕션 데이터를 사용하여 여정을 테스트할 수 있습니다. 이 기능은 여정 실무자가 여정을 게시하기 전에 여정 설계와 대상자 타기팅에 대한 자신감을 얻는 데 도움이 됩니다.</p>
 <img src="assets/do-not-localize/DryRun.gif">
 <p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
 <p>자세한 내용은 <a href="../building-journeys/journey-dry-run.md">세부 설명서</a>를 참조하십시오.</p>
@@ -149,7 +149,7 @@ ht-degree: 100%
 
    * **캠페인 인벤토리 재구성** - 이제 예약된 캠페인 및 API 트리거 캠페인이 더 쉬운 탐색 및 관리를 위해 캠페인 인벤토리에서 별도의 탭으로 분할됩니다.
 
-[자세히 보기](../campaigns/modify-stop-campaign.md)
+[자세히 보기](../campaigns/manage-campaigns.md)
 
 * **데이터 관리**
    * **의사 결정 관리 시스템 데이터 세트 업데이트** - 이제 삭제된 개인화된 오퍼 및 대체 오퍼가 “decision_object_repository_personalized_offers” 및 “decision_object_repository_fallback_offers” 데이터 세트에 보관된 것으로 표시됩니다. 데이터 세트의 기존 레코드는 변경되지 않습니다.
@@ -295,7 +295,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>여정 시험 실행은 Adobe Journey Optimizer에서 제공되는 특별한 여정 게시 모드로, 여정 실무자가 실제 고객에게 연락하거나 프로필 정보를 업데이트하지 않고도 실제 프로덕션 데이터를 사용해 여정을 테스트할 수 있도록 합니다. 이 기능은 여정 실무자가 여정을 게시하기 전에 여정 설계와 대상자 타기팅에 대한 자신감을 얻는 데 도움이 됩니다.</p>
+<p>여정 시험 실행은 Adobe Journey Optimizer의 특별한 여정 게시 모드로, 이를 통해 여정 실무자가 실제 고객과 연락하거나 프로필 정보를 업데이트하지 않고도 실제 프로덕션 데이터를 사용하여 여정을 테스트할 수 있습니다. 이 기능은 여정 실무자가 여정을 게시하기 전에 여정 설계와 대상자 타기팅에 대한 자신감을 얻는 데 도움이 됩니다.</p>
 <img src="assets/do-not-localize/DryRun.gif">
 <p>이 기능은 일부 조직에서만 사용할 수 있으며(제한된 가용성) 향후 릴리스에서 전체 사용자를 대상으로 공개될 예정입니다.</p>
 <p>자세한 내용은 <a href="../building-journeys/journey-dry-run.md">세부 설명서</a>를 참조하십시오.</p>
@@ -423,7 +423,7 @@ ht-degree: 100%
 <p>이제 여정 및 캠페인 목록에서 캘린더 보기를 사용할 수 있습니다. 이를 통해 각 목록에 있는 모든 여정 및 캠페인의 활성화를 시각화할 수 있습니다.</p>
 <p>이 변경은 현재 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 요청하려면 <a href="https://forms.cloud.microsoft/r/FC49afuJVi" target="_blank">이 양식</a>을 사용하십시오.</p>
 <img src="assets/do-not-localize/calendar.gif">
-<p>자세한 내용은 <a href="../building-journeys/journey-ui.md">여정 찾아보기 및 필터링</a>, <a href="../campaigns/modify-stop-campaign.md">캠페인 액세스</a> 섹션을 참조하십시오.</p>
+<p>자세한 내용은 <a href="../building-journeys/journey-ui.md">여정 찾아보기 및 필터링</a>, <a href="../campaigns/manage-campaigns.md">캠페인 액세스</a> 섹션을 참조하십시오.</p>
 <p>사용 가능한 날짜: 2025년 5월 28일</p>
 </td>
 </tr>

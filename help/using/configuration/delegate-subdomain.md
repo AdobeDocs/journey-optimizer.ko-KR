@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 하위 도메인, 위임, 도메인, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 1746efa82611d232b5af07b271739417b4e36e8c
+source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
 workflow-type: tm+mt
 source-wordcount: '1906'
 ht-degree: 18%
@@ -253,7 +253,7 @@ CNAME을 사용하여 하위 도메인을 설정하려면 아래 단계를 따�
 
    각 [랜딩 페이지](../landing-pages/lp-subdomains.md#undelegate-subdomain), [SMS](../sms/sms-subdomains.md#undelegate-subdomain) 또는 [웹 하위 도메인](../web/web-delegated-subdomains.md#undelegate-subdomain)에 대해 전용 요청을 제기해야 합니다.
 
-1. 하위 도메인과 연관된 활성 캠페인을 중지합니다. [방법 알아보기](../campaigns/modify-stop-campaign.md#stop)
+1. 하위 도메인과 연관된 활성 캠페인을 중지합니다. [방법 알아보기](../campaigns/manage-campaigns.md#stop)
 
 1. 하위 도메인과 연관된 활성 여정을 중지합니다. [방법 알아보기](../building-journeys/end-journey.md#stop-journey)
 
@@ -276,4 +276,4 @@ CNAME을 사용하여 하위 도메인을 설정하려면 아래 단계를 따�
 
 CNAME을 사용하여 Adobe 관련 레코드를 가리키도록 하위 도메인을 만드는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/342238?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)

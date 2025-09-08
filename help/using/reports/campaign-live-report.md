@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
 workflow-type: tm+mt
 source-wordcount: '3521'
 ht-degree: 26%
@@ -608,5 +608,5 @@ Campaign **[!UICONTROL 라이브 보고서]**&#x200B;에서 **[!UICONTROL DM]** 
 * [캠페인 시작](../campaigns/get-started-with-campaigns.md)
 * [캠페인 만들기](../campaigns/create-campaign.md)
 * [API 트리거 캠페인 만들기](../campaigns/api-triggered-campaigns.md)
-* [캠페인 수정 또는 중지](../campaigns/modify-stop-campaign.md)
+* [캠페인 수정 또는 중지](../campaigns/manage-campaigns.md)
 * [캠페인 보고서](campaign-global-report-cja.md)
