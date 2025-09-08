@@ -59,4 +59,4 @@ API 트리거 캠페인에 사용할 수 있는 채널은 이메일, SMS 및 푸
 
 대화형 메시지 실행 REST API를 사용하여 사용자 상호 작용을 기반으로 외부 시스템에서 캠페인을 만들고 트리거하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3452732?quality=12&captions=kor)
