@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
+source-git-commit: b52a0206e336185a8c630b7a6eace1fed14b1b66
 workflow-type: tm+mt
-source-wordcount: '2889'
+source-wordcount: '2899'
 ht-degree: 99%
 
 ---
@@ -541,6 +541,9 @@ ht-degree: 99%
       + [콘텐츠 실험](/help/rp_landing_pages/content-experiment-landing-page.md)
       + [콘텐츠 실험 시작](using/content-management/get-started-experiment.md)
       + [콘텐츠 실험 만들기](using/content-management/content-experiment.md)
+      + 실험 가속기 {#experiment}
+         + [Experiment Accelerator 시작](using/content-management/experiment-accelerator.md)
+         + [실험 가속기 모니터](using/content-management/experiment-accelerator-monitor.md)
       + 기술 노트 {#technotes}
          + [기술 노트](/help/rp_landing_pages/technotes-landing-page.md)
          + [통계 계산 이해](using/content-management/experiment-calculations.md)
