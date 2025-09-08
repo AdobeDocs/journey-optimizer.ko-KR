@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d7a291fc8e203b2e5b77969b406591544882b26e
+source-git-commit: cbb96e60b5f3f18499380829c909ad5c4fb6bb37
 workflow-type: tm+mt
-source-wordcount: '2903'
+source-wordcount: '2913'
 ht-degree: 99%
 
 ---
@@ -357,6 +357,7 @@ ht-degree: 99%
       + [인앱 알림 확인 및 보내기](using/in-app/send-in-app.md)
    + 푸시 알림 채널 {#push}
       + [푸시 알림 채널](/help/rp_landing_pages/push-landing-page.md)
+      + [푸시 알림 시작하기](using/push/get-started-push.md)
       + [푸시 알림 만들기](using/push/create-push.md)
       + [푸시 알림 디자인](using/push/design-push.md)
       + [푸시 알림 확인 및 보내기](using/push/send-push.md)
@@ -437,6 +438,7 @@ ht-degree: 99%
       + [WhatsApp 메시지 확인 및 보내기](using/whatsapp/send-whatsapp.md)
    + LINE {#line}
       + [LINE](/help/rp_landing_pages/line-landing-page.md)
+      + [LINE 채널 시작](using/line/get-started-line.md)
       + [Journey Optimizer에서 LINE 채널 구성](using/line/line-configuration.md)
       + [LINE 메시지 만들기](using/line/create-line.md)
       + [LINE 메시지 확인 및 보내기](using/line/send-line.md)
