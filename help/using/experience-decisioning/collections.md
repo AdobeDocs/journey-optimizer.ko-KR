@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 7ecabe24cfb7e81e6760c9841c97353921c374bb
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 48%
+source-wordcount: '518'
+ht-degree: 36%
 
 ---
 
@@ -43,7 +43,16 @@ ht-degree: 48%
 1. 하나 이상의 규칙을 추가하여 컬렉션에 포함할 항목을 결정합니다. 방법은 다음과 같습니다.
 
    1. 기준으로 사용할 항목 속성을 선택합니다. 속성 목록에는 카탈로그 스키마에 정의된 모든 표준 및 사용자 지정 속성이 포함됩니다. [항목 카탈로그에 대해 자세히 알아보기](catalogs.md)
-   1. 원하는 연산자를 선택하고 필터링할 값을 입력합니다.
+   1. 원하는 연산자를 선택하고 필터링할 값을 입력합니다. 각 오퍼 이름을 명시적으로 확인하거나 &quot;luma-summer&quot; 태그를 만들어 각 오퍼에 할당합니다.
+
+      >[!NOTE]
+      >
+      >**CONTAINS** 연산자는 부분 일치 또는 와일드카드 일치를 지원하지 않습니다. 이는 **IN** 연산자처럼 작동합니다. 즉, 특성에 대한 정확한 값의 배열을 제공해야 합니다.
+      >
+      >예를 들어 컬렉션에 포함할 여러 여름 오퍼가 있다고 가정해 보겠습니다. *&quot;luma-summer-yoga&quot;*, *&quot;luma-summer-fitness&quot;* 및 *&quot;luma-summer-running&quot;*. 이러한 항목을 포함하려면 &quot;오퍼 이름&quot; CONTAINS &quot;luma-summer-yoga&quot;, &quot;luma-summer-fitness&quot;, &quot;luma-summer-running&quot;과 같은 규칙을 정의해야 합니다. 이 규칙은 목록에 있는 이름 중 하나와 정확히 일치하는 오퍼만 반환합니다.
+      >
+      >부분 일치가 필요한 경우(예: *&quot;luma-summer&quot;*&#x200B;을(를) 포함하는 모든 오퍼) 현재 지원되지 않습니다. 각 오퍼 이름을 명시적으로 지정하거나 각 오퍼에 *&quot;luma-summer&quot;* 태그를 할당하고 규칙에 해당 태그를 사용해야 합니다.
+
    1. 필요한 만큼 규칙을 추가하려면 이 단계를 반복하십시오. 여러 규칙이 추가되면 **And**&#x200B;와 **Or** 연산자 중에서 선택하여 결합할 수 있습니다. 이렇게 하려면 운영자 배지를 클릭하여 두 선택 항목 간을 전환합니다.
    1. **[!UICONTROL 컬렉션 미리 보기]** 단추를 클릭하여 정의한 규칙을 충족하는 항목을 표시합니다.
 
