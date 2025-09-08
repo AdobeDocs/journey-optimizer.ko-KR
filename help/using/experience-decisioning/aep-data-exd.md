@@ -21,13 +21,13 @@ ht-degree: 7%
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_catalogs_dataset"
->title="데이터 세트 조회"
+>title="데이터 세트 조회
 >abstract=In order to use attributes from Adobe Experience Platform for decisioning, you need to create a mapping to define how the Adobe Experience Platform dataset joins with data in [!DNL Journey Optimizer].”
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_catalogs_dataset_create"
 >title="데이터 세트 조회"
->abstract="조회가 활성화된 모든 Adobe Experience Platform 데이터 세트 중에서 필요한 특성이 있는 데이터 세트를 선택한 다음, 의사 결정 항목 속성과 데이터 세트 모두에 있는 매핑 키(예: 비행 번호 또는 고객 ID)를 선택합니다."
+>abstract="조회가 활성화된 모든 Adobe Experience Platform 데이터 세트 중에서 필요한 특성이 있는 데이터 세트를 선택한 다음, 의사 결정 항목 속성과 데이터 세트 모두에 있는 매핑 키(예: 비행 번호 또는 고객 ID)를 선택합니다.&quot;
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_rules_dataset_lookup"
@@ -41,8 +41,8 @@ ht-degree: 7%
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_capping_dataset"
->title="데이터 세트 추가"
->abstract="[!DNL Adobe Experience Platform] 데이터 세트 특성을 사용하여 동적, 외부 특성을 기반으로 한도 기준을 정의합니다. 필요한 특성이 있는 Adobe Experience Platform 데이터 집합을 선택하려면 **[!UICONTROL 데이터 집합 추가]**&#x200B;를 클릭하십시오. 데이터 세트가 목록에 표시되지 않으면 조회에 대해 활성화했으며 데이터 세트 조회 매핑을 만들었는지 확인하십시오."
+>title="데이터 세트 추가&quot;
+>abstract="[!DNL Adobe Experience Platform] 데이터 세트 특성을 사용하여 동적, 외부 특성을 기반으로 한도 기준을 정의합니다. 필요한 특성이 있는 Adobe Experience Platform 데이터 집합을 선택하려면 **[!UICONTROL 데이터 집합 추가]**&#x200B;를 클릭하십시오. 데이터 세트가 목록에 표시되지 않으면 조회에 대해 활성화했으며 데이터 세트 조회 매핑을 만들었는지 확인하십시오.&quot;
 
 >[!AVAILABILITY]
 >
