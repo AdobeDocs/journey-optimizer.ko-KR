@@ -4,9 +4,9 @@ description: 여정에 대한 최대 가용량 규칙을 만드는 방법과 여
 role: User
 level: Beginner
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: 316fdb4e581ea139c2914f395a5d1823c2ded3cc
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '911'
 ht-degree: 19%
 
 ---
@@ -113,8 +113,8 @@ ht-degree: 19%
 
 ![](assets/journey-report.png)
 
-또한 Adobe Experience Platform **쿼리 서비스**&#x200B;를 활용하여 특정 여정에 프로필이 입력되지 않는 규칙을 식별하는 쿼리를 작성할 수도 있습니다. [이 섹션](../reports/query-examples.md#common-queries)에서 쿼리 예제를 사용할 수 있습니다.
+또한 [Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}를 사용하여 특정 여정에 프로필이 입력되지 않은 규칙을 식별하는 쿼리를 작성할 수 있습니다. [이 섹션](../reports/query-examples.md#common-queries)에서 쿼리 예제를 사용할 수 있습니다.
 
 ## 사용 방법 비디오 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3447622?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)

@@ -9,9 +9,9 @@ level: Intermediate
 keywords: 게시, 여정, 라이브, 유효성, 확인
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 18611c721dfd1b189a9272f9c49a2c2e778584cc
 workflow-type: tm+mt
-source-wordcount: '2225'
+source-wordcount: '2429'
 ht-degree: 6%
 
 ---
@@ -24,8 +24,6 @@ ht-degree: 6%
 >abstract="라이브 여정을 일시 중지하여 새로운 프로필이 진입하지 않도록 합니다. 현재 여정에 있는 프로필을 삭제할지 아니면 그대로 유지할지 선택합니다. 유지할 경우, 여정이 재개되면 다음 액션 활동에서 실행이 재개됩니다.  업데이트 또는 긴급 중단 시에도 진행 과정을 그대로 유지하면서 사용할 수 있는 이상적인 방법입니다."
 
 라이브 여정을 일시 중지하고 필요한 모든 변경 사항을 수행한 다음 언제든지 다시 시작할 수 있습니다.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> 일시 중지 중에 [프로필 특성 종료 기준을 적용](#journey-exit-criteria)하여 특성을 기준으로 프로필을 제외할 수 있습니다. 여정은 일시 중지 기간이 끝나면 자동으로 다시 시작됩니다. [수동으로 다시 시작](#journey-resume-steps)할 수도 있습니다.
-
-
 
 ## 주요 이점 {#journey-pause-benefits}
 
@@ -92,6 +90,9 @@ ht-degree: 6%
 | [외부 데이터 Source](../datasource/external-data-sources.md) | 라이브 여정과 동일한 비헤이비어 |
 | [종료 기준](journey-properties.md#exit-criteria) | 라이브 여정과 동일한 비헤이비어 |
 
+
+[이 섹션](#discards-troubleshoot)에서 카드 문제를 해결하는 방법을 알아보세요.
+
 ## 일시 중지된 여정을 재개하는 방법 {#journey-resume-steps}
 
 >[!CONTEXTUALHELP]
@@ -150,7 +151,7 @@ ht-degree: 6%
 
 ## 가드레일 및 제한 사항 {#journey-pause-guardrails}
 
-* 최대 **14일** 동안 여정 버전을 일시 중지할 수 있으며, 조직 전체에서 일시 중지된 프로필에 최대 **1천만 개**&#x200B;의 여정이 허용됩니다.
+* 최대 **14일** 동안 여정 버전을 일시 중지할 수 있으며, 조직 전체에서 일시 중지된 프로필에 최대 **1천만 개**의 여정이 허용됩니다.
 이 제한은 30분마다 확인됩니다. 즉, 일시적으로 1,000만 임계값을 초과할 수 있지만, 시스템에서 이를 감지하면 추가 프로필이 자동으로 삭제됩니다.
 
   여정을 재개하여 보류된 프로필 수를 다시 한도 아래로 가져오는 경우 여정이 즉시 재개되지만, 프로필 수를 업데이트하는 데 최대 30분이 소요될 수 있습니다. 이 시간 동안 시스템은 해당 프로필을 일시 중지된 것으로 간주할 수 있습니다.
@@ -195,3 +196,50 @@ ht-degree: 6%
 
 1. 새로운 여정 입구는 1분 이내에 시작됩니다.
 1. **작업** 활동의 여정에서 현재 대기 중인 프로필이 5k tps 속도로 다시 시작됩니다. 그러면 대기 중이던 **Action**&#x200B;을(를) 입력하고 여정을 계속할 수 있습니다.
+
+## 일시 중지된 프로필의 여정 카드 문제 해결  {#discards-troubleshoot}
+
+[Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}를 사용하여 단계 이벤트를 쿼리할 수 있습니다. 이 이벤트는 발생한 시기에 따라 프로필 삭제에 대한 자세한 정보를 제공할 수 있습니다.
+
+* 프로필이 여정에 들어가기 전에 발생하는 폐기물의 경우 다음 코드를 사용하십시오.
+
+  ```sql
+  SELECT
+  TIMESTAMP,
+  _experience.journeyOrchestration.profile.ID,
+  to_json(_experience.journeyOrchestration)
+  FROM
+  journey_step_events
+  WHERE
+  _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'PAUSED_JOURNEY_VERSION'
+  AND _experience.journeyOrchestration.journey.versionID=<jvId>  
+  ```
+
+  여정 시작 지점에서 발생한 폐기 목록이 표시됩니다.
+
+   1. 대상 여정이 실행 중이고 첫 번째 노드가 아직 처리 중일 때 여정이 일시 중지되면 처리되지 않은 모든 프로필이 삭제됩니다.
+
+   1. 여정이 일시 중지된 동안 시작을 트리거하기 위해 새 단일 이벤트가 시작 노드에 도달하면 이벤트가 무시됩니다.
+
+* 프로필이 이미 여정에 있을 때 발생하는 버리기 이벤트의 경우 다음 코드를 사용하십시오.
+
+  ```sql
+  SELECT
+  TIMESTAMP,
+  _experience.journeyOrchestration.profile.ID,
+  to_json(_experience.journeyOrchestration)
+  FROM
+  journey_step_events
+  WHERE
+  _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'JOURNEY_IN_PAUSED_STATE'
+  AND _experience.journeyOrchestration.journey.versionID=<jvId> 
+  ```
+
+  이 명령은 프로필이 여정 상태일 때 발생한 폐기 목록을 표시합니다.
+
+   1. 무시 옵션이 활성화된 상태에서 여정이 일시 중지된 경우 일시 중지 전에 프로필이 이미 입력된 경우 다음 작업 노드에 도달하면 해당 프로필이 삭제됩니다.
+
+   1. 보류 옵션이 선택된 상태로 여정이 일시 중지되었지만 1천만 할당량을 초과하여 프로필이 삭제된 경우 해당 프로필은 다음 작업 노드에 도달하면 계속 삭제됩니다.
+
+
+

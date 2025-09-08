@@ -8,9 +8,9 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 29d6b881-35a3-4c62-9e7d-d0aeb206ea77
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 316fdb4e581ea139c2914f395a5d1823c2ded3cc
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '518'
 ht-degree: 4%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 4%
 >
 >실시간 프로필 서비스에 대해 데이터 세트를 켤 수 없습니다. **[!UICONTROL 프로필]** 토글이 꺼져 있는지 확인하세요.
 
-[!DNL Journey Optimizer]은(는) 스트리밍 방식으로 발생하는 대로 데이터를 보냅니다. 쿼리 서비스를 사용하여 이 데이터를 쿼리할 수 있습니다. Customer Journey Analytics 또는 기타 BI 도구에 연결하여 이러한 단계와 관련된 데이터를 볼 수 있습니다.
+[!DNL Journey Optimizer]이(가) 스트리밍 중에 발생하는 대로 데이터를 보냅니다. 쿼리 서비스를 사용하여 이 데이터를 쿼리할 수 있습니다. Customer Journey Analytics 또는 기타 BI 도구에 연결하여 이러한 단계와 관련된 데이터를 볼 수 있습니다.
 
 다음 스키마가 생성됩니다.
 
@@ -69,6 +69,6 @@ Adobe Experience Platform에 전달된 XDM 필드 목록은 여기에 자세히 
 
 * [!DNL Customer Journey Analytics]이(가) &quot;여정 단계 이벤트&quot; 데이터 집합을 수집합니다.
 * 연결된 &quot;Journey Orchestration에 대한 여정 단계 이벤트 스키마&quot;의 **profileID** 필드가 ID 필드로 정의되어 있습니다. 그런 다음 [!DNL Customer Journey Analytics]에서 이 데이터 세트를 개인 기반 식별자와 동일한 값을 가진 다른 데이터 세트에 연결할 수 있습니다.
-* [!DNL Customer Journey Analytics]에서 이 데이터 세트를 사용하려면 크로스 채널 여정 분석을 위해 [Customer Journey Analytics 설명서](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=ko){target="_blank"}를 참조하세요.
+* [!DNL Customer Journey Analytics]에서 이 데이터 세트를 사용하려면 크로스 채널 여정 분석을 위해 [Customer Journey Analytics 설명서](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html){target="_blank"}를 참조하세요.
 
 ➡️ [Customer Journey Analytics 작업](cja-ajo.md){target="_blank"}
