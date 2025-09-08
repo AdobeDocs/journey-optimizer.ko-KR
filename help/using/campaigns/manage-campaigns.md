@@ -10,10 +10,10 @@ mini-toc-levels: 1
 level: Beginner
 keywords: 캠페인, 상태, 일정, 액세스, 최적화 도구 관리
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 21d3fd6a182fe8ecce13b4216e03f93348955c14
+source-git-commit: 1215c7c2de090db7bcdb7943cc96599d9809972d
 workflow-type: tm+mt
-source-wordcount: '1772'
-ht-degree: 15%
+source-wordcount: '1863'
+ht-degree: 14%
 
 ---
 
@@ -37,11 +37,6 @@ ht-degree: 15%
 
 
 ## 캠페인 액세스 {#access}
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_view"
->title="캠페인 목록 및 캘린더 보기"
->abstract="캠페인 목록 외에도 [!DNL Journey Optimizer]는 캠페인에 대한 캘린더 보기를 제공하여 일정을 명확하게 시각적으로 보여 줍니다. 이들 버튼을 사용하여 언제든지 목록 보기와 캘린더 보기 사이를 전환할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_targeting_workflow_list"
@@ -85,19 +80,19 @@ API 트리거 캠페인 목록에 액세스하려면 **[!UICONTROL API 트리거
 
 또한 목록에서 쉽게 검색할 수 있도록 검색 창과 필터를 사용할 수 있습니다. 예를 들어 지정된 채널 또는 태그와 연결된 캠페인 또는 특정 날짜 범위 동안 만들어진 캠페인만 표시하도록 캠페인을 필터링할 수 있습니다.
 
-캠페인 인벤토리의 ![&#128279;](assets/do-not-localize/rule-builder-icon-more.svg)액션 더 보기 버튼을 표시하는 이미지 버튼을 사용하면 아래에서 설명하는 다양한 작업을 수행할 수 있습니다.
+캠페인 인벤토리의 ](assets/do-not-localize/rule-builder-icon-more.svg)액션 더 보기 버튼을 표시하는 이미지![ 버튼을 사용하면 아래에서 설명하는 다양한 작업을 수행할 수 있습니다.
 
 ![캠페인 인벤토리를 표시하는 이미지](assets/inventory-actions.png)
 
-* **[!UICONTROL 모든 시간 보고서 보기]** / **[!UICONTROL 최근 24시간 보고서 보기]** - 보고서에 액세스하여 캠페인의 영향과 성과를 측정하고 시각화할 수 있습니다.
-* **[!UICONTROL 태그 편집]** - 캠페인에 연결된 태그를 편집합니다.
-* **[!UICONTROL 복제]** - 경우에 따라 캠페인을 복제해야 할 수 있습니다. 예를 들어 중지된 오케스트레이션된 캠페인을 실행하기 위해 필요합니다.
-* **[!UICONTROL 삭제]** - 캠페인을 삭제합니다. 이 작업은 **[!UICONTROL 초안]** 캠페인에서만 사용할 수 있습니다.
-* **[!UICONTROL 보관]** - 캠페인을 보관합니다. 보관된 모든 캠페인은 마지막 수정일로부터 30일이 지나면 변경된 일정에 따라 삭제됩니다. 이 액션은 **[!UICONTROL 초안]** 캠페인을 제외한 모든 캠페인에 사용할 수 있습니다.
+* **[!UICONTROL 모든 시간 보고서 보기]** / **[!UICONTROL 최근 24시간 보고서 보기]** - 보고서에 액세스하여 캠페인의 영향과 성과를 측정하고 시각화할 수 있습니다. [캠페인 보고서](../reports/campaign-global-report-cja.md)에 대해 자세히 알아보세요.
+* **[!UICONTROL 태그 편집]** - 캠페인에 연결된 태그를 편집합니다. [캠페인에서 태그를 사용하는 방법](../start/search-filter-categorize.md#add-tags-to-an-object) 알아보기
+* **[!UICONTROL 복제]** - 이 옵션을 사용하여 캠페인을 복제합니다. 예를 들어 중지된 오케스트레이션된 캠페인을 실행할 수 있습니다. [자세히 알아보기](#duplicate-a-campaign)
+* **[!UICONTROL 삭제]** - 이 옵션을 사용하여 캠페인을 삭제합니다. [자세히 알아보기](#delete-a-campaign)
+* **[!UICONTROL 보관]** - 캠페인을 보관합니다. 보관된 모든 캠페인은 마지막 수정일로부터 30일이 지나면 변경된 일정에 따라 삭제됩니다. 이 작업은 **[!UICONTROL 초안]** 캠페인을 제외한 모든 캠페인에 사용할 수 있습니다. [캠페인 보관](#archive-a-campaign)에 대해 자세히 알아보세요.
 
 작업 및 API 트리거 캠페인의 경우 아래의 추가 작업을 사용할 수 있습니다.
 
-* **[!UICONTROL 패키지에 추가]** - 다른 샌드박스로 내보내려면 패키지에 캠페인을 추가하십시오. [다른 샌드박스로 개체 내보내기](../configuration/copy-objects-to-sandbox.md)
+* **[!UICONTROL 패키지에 추가]** - 다른 샌드박스로 내보내려면 패키지에 캠페인을 추가하십시오. [다른 샌드박스로 개체를 내보내는 방법](../configuration/copy-objects-to-sandbox.md)을 알아보세요.
 * **[!UICONTROL 초안 버전 열기]** - 캠페인의 새 버전이 만들어지고 아직 활성화되지 않은 경우 이 작업을 사용하여 해당 초안 버전에 액세스할 수 있습니다.
 
 ## 캠페인 라이프사이클 {#statuses}
@@ -154,6 +149,11 @@ Adobe Journey Optimizer에서 각 캠페인은 인터페이스에서의 상태�
 ![](assets/campaign-alerts.png)
 
 ## 캠페인 캘린더 {#calendar}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_view"
+>title="캠페인 목록 및 캘린더 보기"
+>abstract="캠페인 목록 외에도 [!DNL Journey Optimizer]는 캠페인에 대한 캘린더 보기를 제공하여 일정을 명확하게 시각적으로 보여 줍니다. 이들 버튼을 사용하여 언제든지 목록 보기와 캘린더 보기 사이를 전환할 수 있습니다."
 
 [!DNL Journey Optimizer]은(는) 캠페인 목록 외에 캠페인의 일정 보기를 제공하여 일정에 대한 명확한 시각적 표현을 제공합니다.
 
@@ -244,3 +244,23 @@ Adobe Journey Optimizer에서 각 캠페인은 인터페이스에서의 상태�
 ![](assets/create-campaign-archive.png)
 
 보관된 캠페인은 목록의 전용 필터를 사용하여 검색할 수 있습니다.
+
+
+## 캠페인 삭제 {#delete}
+
+캠페인을 삭제하려면 추가 작업 단추![ 단추를 표시하는 줄임표 ](assets/do-not-localize/rule-builder-icon-more.svg)이미지를 사용하고 **[!UICONTROL 삭제]**&#x200B;를 선택하십시오.
+
+![](assets/delete-a-campaign.png){width="70%" align="left"}
+
+>[!IMPORTANT]
+>
+>이 옵션은 **[!UICONTROL 초안]** 캠페인에만 사용할 수 있습니다.
+
+
+## 캠페인 복제 {#duplicate}
+
+캠페인을 복제하려면, 예를 들어 중단된 경우 추가 작업 단추![ 단추를 표시하는 줄임표 ](assets/do-not-localize/rule-builder-icon-more.svg)이미지를 사용하고 **[!UICONTROL 복제]**&#x200B;를 선택하십시오.
+
+캠페인 이름을 입력하고 확인합니다.
+
+캠페인이 만들어지고 캠페인 목록에 추가됩니다.
