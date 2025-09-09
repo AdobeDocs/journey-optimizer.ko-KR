@@ -12,7 +12,7 @@ exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 5821bc3f3c6e81ae1ae7389bbca1bdcec11cc805
 workflow-type: tm+mt
 source-wordcount: '809'
-ht-degree: 69%
+ht-degree: 70%
 
 ---
 
@@ -40,8 +40,8 @@ ht-degree: 69%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_throttling"
->title="요금 제어"
->abstract="원하는 요금 한도를 지정하여 캠페인에 대한 요금 제어를 설정합니다. 이 기능은 랜딩 페이지나 고객 지원 센터 플랫폼 등 다운스트림 시스템의 과부하를 방지하는 데 특히 유용합니다."
+>title="속도 제어"
+>abstract="원하는 속도 제한을 지정하여 캠페인에 대한 속도 제어를 설정합니다. 이 기능은 랜딩 페이지나 고객 지원 센터 플랫폼과 같은 다운스트림 시스템의 오버로드를 방지하는 데 특히 유용합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card3"
@@ -113,11 +113,11 @@ Journey Optimizer에서 다양한 유형의 캠페인을 만들 수 있습니다
 
 캠페인 기능에 액세스할 수 없는 경우 관리자에게 연락하여 필요한 권한을 요청하십시오.
 
-+++캠페인 관련 역할을 할당하는 방법 알아보기
++++캠페인 관련 역할 할당하는 방법 알아보기
 
 1. [!DNL Permissions] 제품에서 사용자에게 역할을 할당하려면 **[!UICONTROL 역할]** 탭으로 이동하여 위에 설명된 기본 제공 캠페인 관련 **[!UICONTROL 역할]** 중 하나를 선택하십시오.
 
-1. **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
+1.  **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
 
 1. 사용자 이름 또는 이메일 주소를 입력하거나 목록에서 사용자를 선택하고 **[!UICONTROL 저장]**&#x200B;합니다.
 

@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 8701afe345f0eeed1503e4765d4715398823b102
 workflow-type: tm+mt
 source-wordcount: '1758'
-ht-degree: 93%
+ht-degree: 99%
 
 ---
 
@@ -181,17 +181,17 @@ ht-degree: 93%
 
 ## 제품 내 알림 {#in-product-notifications}
 
-**제품 내 및 전자 메일 경고**&#x200B;에서 시스템, 승인 요청 및/또는 [!DNL Journey Optimizer] 제품 릴리스에서 감지된 오류와 같은 몇 가지 이벤트에 대한 알림을 받을 수 있습니다.
+**제품 내 및 이메일 경고**&#x200B;를 활성화하여 시스템에서 감지된 오류, 승인 요청 및/또는 [!DNL Journey Optimizer] 제품 릴리스와 같은 여러 이벤트에 대한 알림을 받을 수 있습니다.
 
-이러한 알림을 활성화하려면 아래 단계를 따르십시오.
+알림을 활성화하려면 아래 단계를 따릅니다.
 
-1. [!DNL Adobe Experience Cloud] **[!UICONTROL 환경 설정]**(으)로 이동합니다.
-1. **[!UICONTROL 알림]**&#x200B;에서 **[!UICONTROL Journey Optimizer]**&#x200B;을(를) 찾습니다.
-1. 필요에 따라 인앱 및/또는 이메일 알림 활성화:
+1. [!DNL Adobe Experience Cloud] **[!UICONTROL 환경 설정]**&#x200B;으로 이동합니다.
+1. **[!UICONTROL 알림]**&#x200B;에서 **[!UICONTROL Journey Optimizer]**&#x200B;를 찾습니다.
+1. 필요에 따라 인앱 및/또는 이메일 알림을 활성화합니다.
 
    * **[!UICONTROL 경고]**: 오류가 발생하면 구독한 경고에 대한 시스템 알림을 받을 수 있습니다. [자세히 알아보기](../reports/alerts.md)
-   * **[!UICONTROL 승인]**: 다른 사용자가 개체를 승인하거나 개체에 대한 액세스를 요청하면 알림을 받습니다.
-   * **[!UICONTROL 새로운 릴리스]**: 새로운 [!DNL Journey Optimizer] 제품 릴리스에 대한 정보를 받았습니다.
+   * **[!UICONTROL 승인]**: 다른 사용자가 오브젝트를 승인하거나 오브젝트에 대한 액세스를 요청하면 알림을 받습니다.
+   * **[!UICONTROL 새 릴리스]**: 새로운 [!DNL Journey Optimizer] 제품 릴리스에 대한 정보를 받습니다.
 
 ![](../rn/assets/do-not-localize/pulse-notif.png){width="70%" align="left"}
 
@@ -201,7 +201,7 @@ AI 어시스턴트는 Adobe의 개념을 탐색 및 이해하고 사용자의 �
 
 AI 어시스턴트에 액세스하려면 상단 표시줄에 있는 아이콘을 클릭하십시오. AI 어시스턴트는 화면 오른쪽에 표시됩니다.
 
-[&#128279;](ai-assistant.md)이 페이지에서 AI 어시스턴트에 액세스하고 사용하는 방법에 대해 알아봅니다.
+](ai-assistant.md)이 페이지에서[ AI 어시스턴트에 액세스하고 사용하는 방법에 대해 알아봅니다.
 
 ## 언어 환경 설정 {#language-pref}
 
@@ -224,10 +224,10 @@ AI 어시스턴트에 액세스하려면 상단 표시줄에 있는 아이콘을
 
 언어를 변경하려면 다음 단계를 수행합니다.
 
-1. 오른쪽 상단의 아바타에서 **환경 설정**&#x200B;을 클릭합니다.
+1. 오른쪽 상단의 아바타에서 **환경 설정**을 클릭합니다.
    ![](assets/preferences.png)
 1. 그런 다음 이메일 주소 아래에 표시되는 언어를 클릭합니다.
-1. 기본 언어를 선택하고 **저장**&#x200B;을 클릭합니다. 사용 중인 구성 요소가 첫 번째 언어로 현지화되지 않은 경우 두 번째 언어를 선택할 수 있습니다.
+1. 기본 언어를 선택하고 **저장**을 클릭합니다. 사용 중인 구성 요소가 첫 번째 언어로 현지화되지 않은 경우 두 번째 언어를 선택할 수 있습니다.
    ![](assets/select-language.png)
 
 +++
