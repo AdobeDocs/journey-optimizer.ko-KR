@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 831db9b83f1b7011cdd26f957195592b06160837
+source-git-commit: 6d603641a3565b1f1465fa881383f4d48611c786
 workflow-type: tm+mt
-source-wordcount: '2063'
-ht-degree: 90%
+source-wordcount: '2082'
+ht-degree: 89%
 
 ---
 
@@ -75,7 +75,7 @@ ht-degree: 90%
 <td>
 <p>이전에 공개 베타로 출시된 이 기능은 이제 제한된 가용성의 모든 환경에서 사용할 수 있습니다. 이번 릴리스에서는 다음과 같은 개선 사항이 도입되었습니다.</p>
 <ul><li>인바운드 채널에서 데이터 세트 조회 개인화를 지원합니다.</li>
-<li>이제 "datasetLookup" 도우미 함수를 표현식 조각 내에서 사용할 수 있습니다.</li>
+<li>이제 "datasetLookup" 도우미 함수를 표현식 조각 내에서 사용할 수 있습니다. 현재 제한된 고객 세트에서 이 기능을 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</li>
 <li>이제 데이터 세트 관리 인터페이스의 옵션을 통해 API 호출을 수행하지 않고도 조회 개인화에 대해 레코드 기반 데이터 세트를 활성화할 수 있습니다.</li>
 <li>데이터 수집 상태를 추적하고 데이터 세트를 조회할 준비가 되었는지 알 수 있도록 모니터링을 개선했습니다.</li>
 <li>최적의 성능과 안정성을 보장하기 위해 사용 지침 및 보호 기능을 업데이트했습니다.</li>

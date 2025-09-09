@@ -10,10 +10,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 표현식, 편집기
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: 42f231a9b0b34a63d1601dcae653462f6321caed
+source-git-commit: 6d603641a3565b1f1465fa881383f4d48611c786
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 2%
+source-wordcount: '673'
+ht-degree: 3%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 2%
 >[!AVAILABILITY]
 >
 >이 기능은 현재 모든 고객이 제한된 가용성 릴리스로 사용할 수 있습니다.
+>
+>지금은 &quot;datasetLookup&quot; 도우미 함수를 제한된 고객 집합의 표현식 조각 내에서 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
 
 Journey Optimizer을 사용하면 개인화 편집기에서 Adobe Experience Platform 레코드 데이터 세트의 데이터를 활용하여 [콘텐츠를 개인 맞춤화](../personalization/personalize.md)할 수 있습니다. 시작하기 전에 조회 개인화에 필요한 데이터 세트를 먼저 조회에 대해 활성화해야 합니다. 자세한 정보는 이 섹션에서 확인할 수 있습니다. [Adobe Experience Platform 데이터 사용](../data/lookup-aep-data.md).
 
@@ -54,7 +56,7 @@ Journey Optimizer을 사용하면 개인화 편집기에서 Adobe Experience Pla
 
    +++데이터 세트 ID를 검색하는 위치
 
-   데이터 세트 ID는 Adobe Experience Platform 사용자 인터페이스에서 검색할 수 있습니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}에서 데이터 세트로 작업하는 방법을 알아보세요.
+   데이터 세트 ID는 Adobe Experience Platform 사용자 인터페이스에서 검색할 수 있습니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}에서 데이터 세트로 작업하는 방법을 알아보세요.
 
    ![](assets/aep-data-dataset.png)
 
@@ -85,7 +87,7 @@ Journey Optimizer을 사용하면 개인화 편집기에서 Adobe Experience Pla
 
      +++필드 ID를 검색하는 위치
 
-     Adobe Experience Platform 사용자 인터페이스에서 데이터 세트를 미리 볼 때 필드 ID를 검색할 수 있습니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}에서 데이터 세트를 미리 보는 방법에 대해 알아보세요.
+     Adobe Experience Platform 사용자 인터페이스에서 데이터 세트를 미리 볼 때 필드 ID를 검색할 수 있습니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}에서 데이터 세트를 미리 보는 방법에 대해 알아보세요.
 
      ![](assets/aep-data-field.png)
 
