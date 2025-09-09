@@ -63,4 +63,4 @@ AI 모델을 만들고 사용하는 주요 단계는 다음과 같습니다.
 
 Offer Decisioning용 AI 모델을 만드는 방법과 이 모델을 의사 결정에 적용하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3419959?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3445651?quality=12&captions=kor)
