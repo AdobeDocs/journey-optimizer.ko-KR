@@ -10,9 +10,9 @@ level: Experienced
 keywords: 설정, 이메일, 구성
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
 source-git-commit: 56fae76fe83871875464203c01ea070ff1dbc173
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1458'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 93%
 
 * **[!UICONTROL 원구독 취소 URL]**&#x200B;은 기본적으로 [선택한 하위 도메인](email-settings.md#subdomains)에 따라 원클릭 구독 취소 URL에서 생성한 [목록 구독 취소] 헤더입니다. <!--With this method, clicking the Unsubscribe link directly unsubscribes the user, requiring only a single action to unsubscribe.-->
 
-해당 드롭다운 목록에서 **[!UICONTROL 동의 수준]**&#x200B;을 선택할 수 있습니다. 
+해당 드롭다운 목록에서 **[!UICONTROL 동의 수준]**을 선택할 수 있습니다. 
 채널 또는 프로필 ID별로 지정할 수 있습니다. 이 설정에 따라 사용자가 이메일 헤더에 있는 목록 구독 취소 URL을 사용하여 구독을 취소하는 경우[!DNL Adobe Journey Optimizer]에서 채널 수준 또는 ID 수준으로 동의 상태가 업데이트됩니다.
 
 ## 가드레일 및 추천 사항 {#list-unsubscribe-guardrails}
@@ -90,7 +90,7 @@ ht-degree: 93%
 
      ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
-   * 메시지 콘텐츠에 원클릭 옵트아웃 링크를 추가하지 않고 채널 구성 설정에서 기본 **[!UICONTROL 원클릭 구독 취소 URL]**&#x200B;이 선택 해제되어 있는 경우, URL이 이메일 헤더에 목록 구독 취소 헤더의 일부로  포함되지 않습니다.
+   * 메시지 콘텐츠에 원클릭 옵트아웃 링크를 추가하지 않고 채널 구성 설정에서 기본 **[!UICONTROL 원클릭 구독 취소 URL]**이 선택 해제되어 있는 경우, URL이 이메일 헤더에 목록 구독 취소 헤더의 일부로  포함되지 않습니다.
 
 
   >[!NOTE]
@@ -128,13 +128,13 @@ Adobe 외부에서 동의를 관리하는 경우 **[!UICONTROL 고객 관리]** 
 
 **[!UICONTROL 고객 관리]** 옵션을 선택한 상태에서 사용자 정의 엔드포인트를 입력하여 캠페인이나 여정에서 사용하는 경우 [!DNL Journey Optimizer]에서는 수신자가 구독 취소 링크를 클릭할 때 일부 기본 프로필별 매개 변수를 동의 업데이트 이벤트<!--sent to the custom endpoint -->에 추가합니다.
 
-사용자 지정 **[!UICONTROL 한 번 클릭으로 구독 취소 URL]**&#x200B;을 추가로 개인화하려면 동의 이벤트에도 추가할 사용자 지정 특성을 정의할 수 있습니다.
+이제 **[!UICONTROL 원클릭 구독 취소 URL]**&#x200B;의 개인화 수준을 높이기 위해 사용자 정의 속성을 지정할 수 있으며, 이는 동의 이벤트에도 추가됩니다.
 
-이렇게 하려면 **[!UICONTROL URL 추적 매개 변수]** 섹션을 사용하십시오. 해당 섹션에서 정의하는 모든 URL 추적 매개 변수는 기본 매개 변수 외에 사용자 지정 한 번의 클릭으로 구독 취소 URL의 끝에 추가됩니다. [사용자 지정 URL 추적을 설정하는 방법 알아보기](url-tracking.md)
+이 작업에는 **[!UICONTROL URL 추적 매개 변수]** 섹션을 사용하십시오. 해당 섹션에서 정의하는 모든 URL 추적 매개 변수는 사용자 정의 원클릭 구독 취소 URL의 끝에 기본 매개 변수와 함께 추가됩니다. [사용자 정의 URL 추적을 설정하는 방법 알아보기](url-tracking.md)
 
 ### 암호 해독 API 구성 {#configure-decrypt-api}
 
-수신자가 사용자 지정 구독 취소 링크를 클릭하면 동의 업데이트 이벤트에 추가된 매개 변수가 암호화된 방식으로 끝점으로 전송됩니다. 따라서 외부 동의 시스템에서는 [Adobe Developer](https://developer.adobe.com){target="_blank"}를 통해 특정 API를 구현하여 Adobe에서 보낸 매개 변수를 해독해야 합니다.
+수신자가 사용자 정의 구독 취소 링크를 클릭하면 동의 업데이트 이벤트에 추가된 매개 변수가 암호화 방식으로 엔드포인트로 전송됩니다. 따라서 외부 동의 시스템에서는 [Adobe Developer](https://developer.adobe.com){target="_blank"}를 통해 특정 API를 구현하여 Adobe에서 보낸 매개 변수를 해독해야 합니다.
 
 이 매개 변수를 검색하는 GET 호출은 사용하는 목록 구독 취소 옵션(**[!UICONTROL 원클릭 구독 취소 URL]** 또는 **[!UICONTROL Mailto(구독 취소)]**)에 따라 다릅니다.
 
