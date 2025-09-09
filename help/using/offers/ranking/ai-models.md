@@ -8,9 +8,9 @@ feature: Ranking, Decision Management
 role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
-source-git-commit: c79b860d4220b3125bbee2240e047552a04fe118
+source-git-commit: 58a5737a1eb56ab88aa71ba0a740dd51258e5248
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '396'
 ht-degree: 15%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 15%
 >[!IMPORTANT]
 >
 >현재 Journey Optimizer 작성 채널에서는 AI 모델이 지원되지 않습니다.
+
+➡️ [비디오에서 이 기능 살펴보기](#video)
 
 ## AI 모델 유형 {#ai-model-types}
 
@@ -56,3 +58,9 @@ AI 모델을 만들고 사용하는 주요 단계는 다음과 같습니다.
    >AI 모델을 수집하려면 피드백 이벤트를 경험 이벤트로 전송해야 합니다. [의사 결정 관리 데이터 수집에 대해 자세히 알아보기](../data-collection/data-collection.md)
 
 1. 적격 오퍼의 등급을 지정하기 위한 의사 결정의 배치에 AI 모델을 지정합니다. [자세히 알아보기](../offer-activities/configure-offer-selection.md)
+
+## 방법 비디오 {#video}
+
+Offer Decisioning용 AI 모델을 만드는 방법과 이 모델을 의사 결정에 적용하는 방법을 알아봅니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3419959?quality=12)
