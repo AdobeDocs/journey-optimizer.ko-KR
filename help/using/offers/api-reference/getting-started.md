@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 30fed481bb02fd25f1833e76ae94330aa51d153b
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 76%
+source-wordcount: '382'
+ht-degree: 70%
 
 ---
 
@@ -55,6 +55,10 @@ ht-degree: 76%
 
 * `Content-Type: application/json`
 
+>[!NOTE]
+>
+>권한 검사는 할당된 제품 프로필에 따라 적용됩니다. 연결된 제품 프로필에 부여된 권한만 API를 통해 액세스하거나 관리할 수 있는 리소스를 결정합니다.
+
 ## 다음 단계 {#next-steps}
 
 이 문서에서는 [!DNL Offer Library] API를 호출하는 데 필요한 사전 지식을 다뤘습니다. 이제 이 개발자 안내서에 제공된 샘플 호출로 진행하여 지침을 따를 수 있습니다.
@@ -68,5 +72,5 @@ ht-degree: 76%
 
 The following video is intended to support your understanding of the components of Decision Management.
 
->[!VIDEO](https://video.tv.adobe.com/v/342832?quality=12&captions=kor) -->
+>[!VIDEO](https://video.tv.adobe.com/v/329919?quality=12) -->
 
