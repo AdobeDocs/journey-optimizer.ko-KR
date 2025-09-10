@@ -7,7 +7,7 @@ hide: true
 hidefromtoc: true
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 9d1e9f22c7841f9d17e857f652d94dbd6a068c06
+source-git-commit: 96b8813ebad35f51986cc62d847d9d3d256b08be
 workflow-type: tm+mt
 source-wordcount: '1102'
 ht-degree: 4%
@@ -156,6 +156,7 @@ Campaign Orchestration에서는 임시 세분화를 &#39;라이브 세분화&#39
 * 활성화 전에 대상 카운트의 유효성을 검사하여 과소 또는 과다 전송을 방지하십시오.
 
 >[!ENDSHADEBOX]
+
 
 
 ## 이 지원 의사 결정? {#decisioning}

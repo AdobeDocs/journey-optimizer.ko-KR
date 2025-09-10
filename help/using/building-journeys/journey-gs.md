@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 여정, 첫 번째, 시작, 빠른 시작, 대상, 이벤트, 작업
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 96b8813ebad35f51986cc62d847d9d3d256b08be
 workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 27%
@@ -32,7 +32,6 @@ ht-degree: 27%
 Adobe Journey Optimizer에는 마케팅 활동과 일대일 고객 참여를 조화롭게 조정할 수 있는 옴니채널 오케스트레이션 캔버스가 포함되어 있습니다. 사용자 인터페이스를 사용하면 팔레트에서 캔버스로 활동을 쉽게 끌어다 놓아 여정을 빌드할 수 있습니다. 여정 사용자 인터페이스는 [이 페이지](journey-ui.md)에 자세히 설명되어 있습니다.
 
 ![여정 캔버스 샘플](assets/journey38.png)
-
 
 여정을 만드는 주요 단계는 이 페이지에 자세히 설명되어 있습니다. 다음과 같이 간소화됩니다.
 
