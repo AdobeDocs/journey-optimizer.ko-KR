@@ -1,22 +1,21 @@
 ---
-source-git-commit: 158d9d9a1070e1d842183e5bd6cb5ce8e38834c5
+solution: Journey Optimizer
+product: journey optimizer
+title: 캠페인 보고서
+description: 캠페인 보고서에서 실험 데이터를 사용하는 방법을 알아봅니다
+feature: Reporting
+topic: Content Management
+role: User
+level: Intermediate
+exl-id: 69742163-7378-49ab-929e-86213d6e65e3
+source-git-commit: 08d444f499229f0942e4dae17d87030225f34d5f
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 8%
+source-wordcount: '336'
+ht-degree: 9%
 
 ---
-@ -0,0 +1,71 @@
----
-솔루션: Journey Optimizer
-product: 여정 optimizer
-제목: 캠페인 보고서
-설명: Campaign 보고서에서 실험 데이터를 사용하는 방법을 알아봅니다
-기능: 보고
-항목: 컨텐츠 관리
-역할: 사용자
-level: 중간
-exl-id: 69742163-7378-49ab-929e-86213d6e65e3
----
+
+
 # 실험 캠페인 보고서 {#campaign-global-report-cja-experimentation}
 
 >[!CONTEXTUALHELP]
