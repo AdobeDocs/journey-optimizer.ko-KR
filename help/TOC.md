@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 31d9fbe6a25bb090e6a0c6e22096739d32b7bd3f
+source-git-commit: 598be5d2c5aca0262063c61e80e6b36020983131
 workflow-type: tm+mt
-source-wordcount: '2923'
+source-wordcount: '2920'
 ht-degree: 99%
 
 ---
@@ -201,7 +201,6 @@ ht-degree: 99%
       + [사용자 정의 작업을 사용하여 Experience Platform에 여정 이벤트 작성](using/building-journeys/custom-action-aep.md)
    + 문제 해결 {#troubleshoot-journey}
       + [문제 해결](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
-      + [여정 문제 해결](using/building-journeys/gs-troubleshooting.md)
       + [여정 오류 문제 해결](using/building-journeys/troubleshooting.md)
       + [여정 실행 문제 해결](using/building-journeys/troubleshooting-execution.md)
       + [인바운드 액션 문제 해결](using/building-journeys/troubleshooting-inbound.md)

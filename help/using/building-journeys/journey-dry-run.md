@@ -9,9 +9,9 @@ level: Intermediate
 keywords: 게시, 여정, 라이브, 유효성, 확인
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 598be5d2c5aca0262063c61e80e6b36020983131
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1127'
 ht-degree: 16%
 
 ---
@@ -31,6 +31,7 @@ ht-degree: 16%
 
 여정 시험 실행은 Adobe Journey Optimizer의 특별한 여정 게시 모드로, 이를 통해 여정 실무자가 실제 고객과 연락하거나 프로필 정보를 업데이트하지 않고도 실제 프로덕션 데이터를 사용하여 여정을 테스트할 수 있습니다.  이 기능은 여정 실무자가 여정을 게시하기 전에 여정 설계와 대상자 타기팅에 대한 자신감을 얻는 데 도움이 됩니다.
 
+➡️ [이 비디오에서 여정 시험 실행에 대해 자세히 알아보세요](#dry-run-video)
 
 ## 주요 이점 {#journey-dry-run-benefits}
 
@@ -144,3 +145,8 @@ stepEvent 데이터를 **외부 시스템**(으)로 내보내는 경우 `inDryRu
 
 Adobe Experience Platform 쿼리 서비스를 사용하여 **여정 보고 지표**&#x200B;를 분석할 때 시험 실행 생성 단계 이벤트를 제외해야 합니다. 이 작업을 수행하려면 `inDryRun` 플래그를 `false`(으)로 설정하십시오.
 
+## 사용 방법 비디오 {#dry-run-video}
+
+이 비디오에서는 여정을 시험 실행하는 방법을 알아봅니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)
