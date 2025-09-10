@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
+source-git-commit: 3ce799231e90828e8d061261e0ef69042e69daba
 workflow-type: tm+mt
-source-wordcount: '5119'
-ht-degree: 100%
+source-wordcount: '5027'
+ht-degree: 99%
 
 ---
 
@@ -220,15 +220,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>이제 Journey Optimizer에서 Rich Communication Services(RCS) 메시지가 지원되므로 공급자 및 통신사 지원이 필요한 다음의 향상된 메시지 기능을 사용할 수 있습니다.</p>
-<ul>
-<li>브랜디드 및 인증된 발신자 지원: 브랜딩 요소(로고, 발신자 이름 등)가 있는 인증된 비즈니스 프로필을 사용하여 메시지를 보냅니다.</li>
-<li>메시지 게재 인사이트: 메시지 상태 업데이트(예: 보냄, 전달됨, 읽음)를 포함한 자세한 게재 보고서를 받습니다.</li>
-<li>링크 추적: 참여 분석을 위해 RCS 메시지 내에 URL을 임베딩하고 추적합니다.</li>
-<li>SMS로 대체: 프로필의 디바이스가 RCS를 지원하지 않거나 일시적으로 RCS를 통해 연결할 수 없는 경우 SMS로 자동 대체합니다.</li>
-<li>기본 메시지 구성: 공급업체 지원에 따라 선택적으로 미디어 및 리치 요소를 포함할 수 있는 텍스트 기반 RCS 메시지를 전송합니다.</li>
-</ul>
-<p>자세한 내용은 <a href="../sms/sms-configuration.md">세부 설명서</a>를 참조하십시오.</p>
+<p>이제 사용자 정의 SMS 공급자 솔루션과 통합하여 서드파티 공급자를 통해 RCS(Rich Communication Services) 메시지를 구성, 사용자 정의 및 전달할 수 있습니다.</p>
 </td>
 </tr>
 </tbody>
