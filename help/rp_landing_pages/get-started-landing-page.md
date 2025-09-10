@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: 시작
 description: 시작
 redpen-status: CREATED_||_2025-08-11_20-05-24
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
+exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
+source-git-commit: d5d6903966b0c62095bfb5a17d94c4c3f4b18379
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 2%
+source-wordcount: '384'
+ht-degree: 5%
 
 ---
-
 
 # 시작{#section-overview}
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer은 기업이 여러 채널에서 개인화된 실시간 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Adobe Journey Optimizer의 주요 기능
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 주요 기능
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer 아키텍처 개요
 
@@ -40,17 +40,7 @@ Adobe Journey Optimizer을 Adobe Experience Platform과 통합하여 규모에 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
-
-핵심 개념: Adobe Journey Optimizer의 기능 영역
-
-Adobe Journey Optimizer의 주요 기능 영역과 이러한 영역이 고객 여정을 최적화하기 위해 함께 작동하는 방법에 대해 알아봅니다.
-
-[핵심 개념 살펴보기](../using/start/functional-areas-redpen.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Adobe Journey Optimizer의 역할 및 책임
 
@@ -60,7 +50,7 @@ Adobe Journey Optimizer을 효과적으로 구현하고 관리하는 데 필요�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Adobe Journey Optimizer 사용자 인터페이스 개요
 
@@ -70,7 +60,7 @@ Adobe Journey Optimizer 인터페이스를 탐색하고 여정 관리 및 의사
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Adobe Journey Optimizer에서 컨텐츠 검색, 필터링 및 구성
 
@@ -79,12 +69,24 @@ Adobe Journey Optimizer에서 컨텐츠 검색, 필터링 및 구성
 [검색 및 구성 방법 알아보기](../using/start/search-filter-categorize.md)
 :::
 
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+
+Adobe Journey Optimizer의 보호 및 제한 사항
+
+Adobe Journey Optimizer 기능을 효과적으로 사용하기 위한 제한 사항 및 권장 사례에 대해 알아봅니다.
+
+[핵심 개념 살펴보기](../using/start/guardrails.md)
+:::
+
 ::::
 
 
 ## 추가 리소스
 
+- **[핵심 개념에 대해 알아보기](../using/start/functional-areas-redpen.md)** - Adobe Journey Optimizer의 주요 기능 영역과 고객 여정을 최적화하기 위해 함께 작동하는 방법에 대해 알아봅니다.
 - **[Adobe Journey Optimizer: 주요 용어](../using/start/terminology-md-redpen.md)** - Adobe Journey Optimizer을 자신 있게 사용하고 마케팅 전략을 효과적으로 구현하기 위한 필수 용어와 개념을 이해합니다.
 - **[Adobe Journey Optimizer의 접근성 기능](../using/start/accessibility.md)** - 접근성 기능과 WCAG 표준 준수에 대해 학습하여 모든 사용자를 포괄적으로 사용할 수 있습니다.
 - **[Adobe Journey Optimizer에서 AI Assistant 시작하기](../using/start/ai-assistant.md)** - AI Assistant를 활용하여 Adobe Journey Optimizer 내에서 개념을 탐색하고 운영 통찰력을 얻을 수 있습니다.
-- **[Adobe Journey Optimizer의 보호 기능 및 제한 사항](../using/start/guardrails.md)** - Adobe Journey Optimizer 기능을 효과적으로 사용하기 위한 제한 사항 및 권장 사례에 대해 알아봅니다.
+- **[문제 해결](../using/start/troubleshooting.md)** - 각 문제 해결 섹션에서는 자주 묻는 질문에 대한 답변과 문제에 대한 해결 방법을 제공합니다.
+

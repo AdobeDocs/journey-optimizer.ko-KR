@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 598be5d2c5aca0262063c61e80e6b36020983131
+source-git-commit: d5d6903966b0c62095bfb5a17d94c4c3f4b18379
 workflow-type: tm+mt
-source-wordcount: '2920'
+source-wordcount: '2926'
 ht-degree: 99%
 
 ---
@@ -41,14 +41,14 @@ ht-degree: 99%
       + [데이터 엔지니어로 시작하기](using/start/path/data-engineer.md)
       + [관리자로 시작하기](using/start/path/administrator.md)
       + [개발자로 시작하기](using/start/path/developer.md)
-   + [사용자 인터페이스](using/start/user-interface.md)
-   + [검색, 필터, 분류](using/start/search-filter-categorize.md)
-   + [접근성](using/start/accessibility.md)
+   + 사용자 인터페이스 {#ui}
+      + [인터페이스 시작](using/start/user-interface.md)
+      + [검색, 필터, 분류](using/start/search-filter-categorize.md)
+      + [접근성](using/start/accessibility.md)
    + [AI 어시스턴트로 작업](using/start/ai-assistant.md)
-   + [가드레일](using/start/guardrails.md)
-   + [모범 사례](using/start/best-practices.md)
+   + [사용 사례 플레이북](using/start/playbooks.md)
+   + [가드레일 및 제한 사항](using/start/guardrails.md)
    + [문제 해결](using/start/troubleshooting.md)
-   + [플레이북](using/start/playbooks.md)
 + 여정 {#orchestrate-journeys}
    + [여정](/help/rp_landing_pages/orchestrate-journeys-landing-page.md)
    + [여정 시작](using/building-journeys/journey.md)
