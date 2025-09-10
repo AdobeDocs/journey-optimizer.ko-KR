@@ -14,7 +14,7 @@ exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
 source-git-commit: 248aae7b2841086ef5a0ea73936c245963e8eae2
 workflow-type: tm+mt
 source-wordcount: '804'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="lookup-aep-data"
 >title="조회를 위해 활성화"
->abstract="조회를 위해 데이터 세트를 활성화하면 Journey Optimizer 개인화 및 의사 결정 기능을 통해 해당 데이터를 활용할 수 있습니다."
+>abstract="데이터 세트를 조회용으로 활성화하면 Journey Optimizer 개인화 및 결정 기능으로 해당 데이터를 활용할 수 있습니다."
 
 >[!AVAILABILITY]
 >

@@ -12,7 +12,7 @@ exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: c39a71da901b888ff440a1488658b577ff72cc32
 workflow-type: tm+mt
 source-wordcount: '522'
-ht-degree: 19%
+ht-degree: 27%
 
 ---
 
@@ -70,8 +70,8 @@ ht-degree: 19%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_execution_address"
->title="사용자 지정 값 정의"
->abstract="경우에 따라 기본 실행 주소를 재정의할 수 있습니다. 필드 오른쪽에 있는 **매개 변수 재정의 사용** 아이콘을 사용하여 사용자 지정 기본 주소를 정의합니다."
+>title="사용자 정의 값 정의"
+>abstract="특정 경우에는 기본 실행 주소를 재정의할 수 있습니다. 필드 오른쪽에 있는 **매개변수 재정의 활성화** 아이콘을 사용하여 사용자 정의 기본 주소를 정의합니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/configuration/primary-email-addresses#journey-parameters" text="실행 주소 정보"
 
 특정 사용 사례의 경우 전역적으로 설정된 실행 필드를 재정의하고 이메일 구성 수준 또는 여정 수준에서 다른 값을 정의할 수 있습니다.

@@ -7,7 +7,7 @@ exl-id: f33ca0a8-ed33-4964-a85c-8705a4ff728e
 source-git-commit: e8f7f5862e3816481680fa999657ae90334ff888
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 34%
+ht-degree: 35%
 
 ---
 
@@ -49,7 +49,7 @@ Journey Optimizer을 사용하면 여정 **[!UICONTROL Action]** 활동 내에�
 >
 >두 여정 또는 캠페인의 우선 순위 점수가 동일한 경우 시스템에 타이 브레이킹 메커니즘이 없습니다. 충돌을 방지하기 위해 우선 순위 점수가 고유한지 확인합니다.
 
-## 인바운드 채널 작업에 우선 순위 점수 할당 {#priority-action}
+## 인바운드 채널 액션에 우선순위 점수 할당 {#priority-action}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_priority"
@@ -72,4 +72,4 @@ Journey Optimizer을 사용하면 **[!UICONTROL Action]** 활동 내에서 인�
 
 ## 사용 방법 비디오 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3445008?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)
