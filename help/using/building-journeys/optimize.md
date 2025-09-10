@@ -11,10 +11,10 @@ keywords: 활동, 조건, 캔버스, 여정, 최적화
 badge: label="제한된 가용성" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: cd688d0c140404a846df09a53f37be8d0fe5633e
+source-git-commit: 1c47c89ae86844399240d48c4d19f834d90c7598
 workflow-type: tm+mt
-source-wordcount: '1220'
-ht-degree: 6%
+source-wordcount: '1297'
+ht-degree: 7%
 
 ---
 
@@ -50,9 +50,9 @@ ht-degree: 6%
 ## 실험 사용 {#experimentation}
 
 >[!CONTEXTUALHELP]
->id="ajo_campaigns_path_experiment_success_metric"
+>id="ajo_path_experiment_success_metric"
 >title="성공 지표"
->abstract="성공 지표는 실험에서 가장 성과가 좋은 처리를 추적하고 평가하는 데 사용됩니다."
+>abstract="성공 지표는 실험에서 가장 효과적인 처리를 추적하고 평가하는 데 사용됩니다."
 
 실험을 통해 무작위 분할을 기반으로 서로 다른 경로를 테스트하여 사전 정의된 성공 지표를 기반으로 가장 뛰어난 성과를 결정할 수 있습니다.
 
@@ -70,7 +70,7 @@ ht-degree: 6%
 
 1. **[!UICONTROL 메서드]** 드롭다운 목록에서 **[!UICONTROL 실험]**&#x200B;을(를) 선택합니다.
 
-   ![](assets/journey-optimize-experiment.png){width=75%}
+   ![](assets/journey-optimize-experiment.png){width=65%}
 
 1. **[!UICONTROL 실험 만들기]**&#x200B;를 클릭합니다.
 
@@ -137,15 +137,17 @@ ht-degree: 6%
 
 ➡️ 전환율을 최적화 지표로 사용합니다(예: 구매, 등록).
 
-![](assets/journey-optimize-experiment-uc.png)
+![](assets/journey-optimize-experiment-uc-channel.png)
 
 +++
 
 +++메시지 빈도
 
-➡️ 실험을 실행하여 1주일에 한 개의 전자 메일을 보내는 것과 세 개의 전자 메일을 보내는 것이 더 많은 구매를 가져오는지 확인합니다.
+1주일에 한 개의 이메일을 보낼 때와 3개의 이메일을 보낼 때 더 많은 구매가 발생하는지 확인하는 실험을 실행하십시오.
 
-구매 또는 구독 취소 비율을 최적화 지표로 사용합니다.
+➡️ 최적화 지표로 구매 또는 구독 취소 속도를 사용합니다.
+
+![](assets/journey-optimize-experiment-uc-frequency.png)
 
 +++
 
@@ -155,9 +157,16 @@ ht-degree: 6%
 
 ➡️ 클릭스루 비율 또는 매출을 최적화 지표로 사용합니다.
 
+![](assets/journey-optimize-experiment-uc-wait.png)
+
 +++
 
 ## 타깃팅 활용 {#targeting}
+
+>[!CONTEXTUALHELP]
+>id="ajo_path_targeting_fallback"
+>title="대체 경로란 무엇입니까?"
+>abstract="폴백은 위에 정의된 타깃팅 규칙을 충족하지 않는 대상에 대해 새 경로를 만듭니다.</br>이 옵션을 선택하지 않으면 타깃팅 규칙에 적합하지 않은 대상은 대체 경로를 입력하지 않습니다."
 
 타깃팅 규칙을 사용하면 특정 대상 세그먼트<!-- depending on profile attributes or contextual attributes-->에 따라 고객이 여정 경로 중 하나를 입력할 수 있도록 충족해야 하는 특정 규칙이나 자격을 결정할 수 있습니다.
 
@@ -179,7 +188,7 @@ ht-degree: 6%
 
 1. **[!UICONTROL 메서드]** 드롭다운 목록에서 **[!UICONTROL 타깃팅 규칙]**&#x200B;을(를) 선택하십시오.
 
-   ![](assets/journey-optimize-targeting.png){width=70%}
+   ![](assets/journey-optimize-targeting.png){width=60%}
 
 1. **[!UICONTROL 타깃팅 규칙 만들기]**&#x200B;를 클릭합니다.
 
@@ -187,7 +196,11 @@ ht-degree: 6%
 
    ![](assets/journey-targeting-rule.png)
 
-1. 필요에 따라 **[!UICONTROL 대체 콘텐츠 사용]**&#x200B;을 선택합니다. 대체 콘텐츠 를 사용하면 타깃팅 규칙이 적격하지 않을 때 대상자가 기본 콘텐츠를 받을 수 있습니다. 이 옵션을 선택하지 않으면 위에서 정의한 타겟팅 규칙에 적합하지 않은 대상은 대체 경로를 입력하지 않습니다.
+1. 필요에 따라 **[!UICONTROL 대체 콘텐츠 사용]** 옵션을 선택하십시오. 이 작업을 수행하면 위에 정의된 타깃팅 규칙을 충족하지 않는 대상에 대한 대체 경로가 만들어집니다.
+
+   >[!NOTE]
+   >
+   >이 옵션을 선택하지 않으면 타깃팅 규칙에 적합하지 않은 대상은 대체 경로를 입력하지 않습니다.
 
 1. **[!UICONTROL 만들기]**&#x200B;를 클릭하여 타깃팅 규칙 설정을 저장합니다.
 
@@ -195,7 +208,11 @@ ht-degree: 6%
 
    ![](assets/journey-targeting-paths.png)
 
-1. 선택적으로 **[!UICONTROL 시간 초과 또는 오류 발생 시 대체 경로를 추가]**&#x200B;하여 대체 동작을 정의합니다. [자세히 알아보기](using-the-journey-designer.md#paths)
+1. 규칙 설정을 정의할 때 **[!UICONTROL 대체 콘텐츠 사용]** 옵션을 선택한 경우 자동으로 추가된 대체 경로에 대해 하나 이상의 동작을 정의하십시오.
+
+   ![](assets/journey-targeting-fallback.png){width=70%}
+
+1. 선택적으로 **[!UICONTROL 시간 초과 또는 오류 발생 시 대체 경로를 추가]**&#x200B;하여 문제가 발생할 경우 대체 작업을 정의합니다. [자세히 알아보기](using-the-journey-designer.md#paths)
 
 1. 타겟팅 규칙 설정에 정의된 각 그룹에 해당하는 각 작업에 적절한 콘텐츠를 디자인할 수 있습니다. 각 작업에 대해 서로 다른 콘텐츠 사이를 원활하게 탐색할 수 있습니다.
 
@@ -219,7 +236,7 @@ ht-degree: 6%
 
 ➡️ 프로필당 매출 또는 전환율을 최적화 지표로 사용합니다.
 
-![](assets/journey-optimize-targeting-uc.png)
+![](assets/journey-optimize-targeting-uc-segment.png)
 
 +++
 
@@ -229,6 +246,8 @@ ht-degree: 6%
 
 ➡️ 클릭스루 비율 또는 다운스트림 전환을 최적화 지표로 사용합니다.
 
+![](assets/journey-optimize-targeting-uc-behavior.png)
+
 +++
 
 +++구매 내역 타기팅
@@ -236,6 +255,8 @@ ht-degree: 6%
 최근 구매한 고객은 짧은 &#39;땡큐+크로스셀&#39; 길로 갈 수 있고, 구매 이력이 없는 고객은 더 긴 육성 여정으로 접어든다.
 
 ➡️ 반복 구매율 또는 참여 비율을 최적화 지표로 사용합니다.
+
+![](assets/journey-optimize-targeting-uc-purchase.png)
 
 +++
 
