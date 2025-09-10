@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b74d3137-2dd9-4302-a56e-73503d318d18
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 158d9d9a1070e1d842183e5bd6cb5ce8e38834c5
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 2%
+source-wordcount: '603'
+ht-degree: 1%
 
 ---
 
@@ -104,5 +104,23 @@ KPI는 캠페인에 사용된 채널에 따라 달라집니다.
 * **[!UICONTROL 고유 클릭 수]**: 메시지에서 콘텐츠를 클릭한 프로필 수입니다.
 
 * **[!UICONTROL 클릭 수]**: 메시지에서 콘텐츠를 클릭한 횟수입니다.
+
++++
+
+## 타깃팅 개요 {#targeting}
+
+![](assets/cja-journey-targeting-overview.png)
+
+콘텐츠에 대해 **[!UICONTROL 타깃팅 규칙]**&#x200B;을(를) 설정하는 경우 **[!UICONTROL 타깃팅 개요]** 표에는 각 규칙의 타깃팅된 프로필이 콘텐츠와 상호 작용하는 방법을 보여 주는 주요 참여 지표에 대한 자세한 보기가 제공됩니다.
+
+➡️ [타깃팅 규칙에 대해 자세히 알아보기](../campaigns/campaigns-message-optimization.md)
+
++++ 타겟팅 개요 지표에 대해 자세히 알아보기
+
+* **[!UICONTROL 사람]**: 이벤트의 대상 프로필로 적합한 사용자 프로필 수입니다.
+
+* **[!UICONTROL 고유 클릭 수]**: 전자 메일의 콘텐츠를 클릭한 프로필 수입니다.
+
+* **[!UICONTROL 고유 클릭률]**: 최소 한 번 이상 클릭한 대상 프로필의 비율입니다.
 
 +++

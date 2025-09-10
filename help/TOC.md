@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b4ed25390e9f499a12649713eb963799de55caa5
+source-git-commit: 158d9d9a1070e1d842183e5bd6cb5ce8e38834c5
 workflow-type: tm+mt
-source-wordcount: '2917'
+source-wordcount: '2920'
 ht-degree: 99%
 
 ---
@@ -610,6 +610,7 @@ ht-degree: 99%
          + [콘텐츠 카드 여정 보고서](using/reports/journey-global-report-cja-content.md)
          + [다이렉트 메일 여정 보고서](using/reports/journey-global-report-cja-direct.md)
          + [이메일 여정 보고서](using/reports/journey-global-report-cja-email.md)
+         + [실험 여정 보고서](using/reports/journey-global-report-cja-experimentation.md)
          + [인앱 여정 보고서](using/reports/journey-global-report-cja-inapp.md)
          + [푸시 여정 보고서](using/reports/journey-global-report-cja-push.md)
          + [SMS 여정 보고서](using/reports/journey-global-report-cja-sms.md)

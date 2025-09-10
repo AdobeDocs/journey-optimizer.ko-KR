@@ -1,42 +1,41 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
+title: 캠페인 보고서
+description: 여정 보고서에서 실험 데이터를 사용하는 방법을 알아봅니다
+feature: Reporting
+topic: Content Management
+role: User
+level: Intermediate
 source-git-commit: 158d9d9a1070e1d842183e5bd6cb5ce8e38834c5
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 8%
+source-wordcount: '386'
+ht-degree: 2%
 
 ---
-@ -0,0 +1,71 @@
----
-솔루션: Journey Optimizer
-product: 여정 optimizer
-제목: 캠페인 보고서
-설명: Campaign 보고서에서 실험 데이터를 사용하는 방법을 알아봅니다
-기능: 보고
-항목: 컨텐츠 관리
-역할: 사용자
-level: 중간
-exl-id: 69742163-7378-49ab-929e-86213d6e65e3
----
-# 실험 캠페인 보고서 {#campaign-global-report-cja-experimentation}
 
->[!CONTEXTUALHELP]
->id="ajo_campaigns_content_experiment_click"
->title="성공 지표"
->abstract="실험 생성 시 이전에 선택한 성공 지표의 합계 값을 프로필 수로 나눈 값입니다."
+# 실험 여정 보고서 {#campaign-global-report-cja-experimentation}
 
-## 실험 {#experimentation}
+여정 보고서는 실험의 효과를 이해하는 데 필요한 주요 지표와 함께 실험의 성과를 전체적으로 볼 수 있습니다.
 
-**[!UICONTROL 실험]** 탭은 각 변형의 성능에 대한 주요 인사이트를 제공하며 가장 성공적인 변형을 식별합니다.
+Journey Optimizer에서 여정 실험은 두 가지 유형으로 나뉩니다.
 
-최상의 수행자를 정의하는 데 약간의 시간이 걸릴 수 있습니다. 실험이 성공하지 못하면 **결론이 나지 않습니다**.
+* [콘텐츠 실험](../content-management/content-experiment.md)
+* [경로 실험](../building-journeys/optimize.md)
 
-![](assets/cja-experimentation-1.png)
+## 경로 실험 {#experimentation}
+
+>[!NOTE]
+>
+> 콘텐츠 실험에 대해 자세히 설명된 테이블 및 KPI는 경로 실험에 대한 테이블과 동일합니다. 콘텐츠 실험을 설정한 경우 아래 설명서를 참조하십시오.
 
 ### 실험 KPI {#experimentation-kpis}
 
-![](assets/cja-experimentation-kpis.png)
+![](assets/journey-report-experiment-1.png)
 
-**[!UICONTROL 실험]** 주요 성과 지표(KPI)는 모든 것을 포괄하는 대시보드로 작동하여 실험과 관련된 필수 지표에 대한 분석을 제공합니다.
+**실험 요약**&#x200B;은(는) 실험의 성과에 대한 주요 통찰력을 제공하고 가장 성공적인 실험을 식별합니다. 최상의 수행자를 정의하는 데 약간의 시간이 걸릴 수 있습니다. 실험이 성공하지 못하면 **결론이 나지 않습니다**.
+
+**실험 주요 성과 지표(KPI)**&#x200B;는 모든 것을 포괄하는 대시보드로 작동하여 실험과 관련된 필수 지표에 대한 분석을 제공합니다.
 
 +++ 실험 KPI 지표에 대해 자세히 알아보기
 
@@ -45,6 +44,8 @@ exl-id: 69742163-7378-49ab-929e-86213d6e65e3
 * **[!UICONTROL 신뢰도]**: 해당 처리가 기준 처리와 동일하다는 증거입니다. [자세히 알아보기](../content-management/experiment-calculations.md#understand-confidence)
 
 +++
+
+
 
 ### 성공 지표별 변형 {#variant-inbound}
 
@@ -74,6 +75,5 @@ exl-id: 69742163-7378-49ab-929e-86213d6e65e3
 ### 성공 지표에 대한 전환율 {#conversion-rate}
 
 ![](assets/cja-experimentation-conversion.png)
-
 
 **[!UICONTROL 신뢰 구간]** 그래프는 선택한 성공 지표에 대해 기준선과 가장 성과가 좋은 처리를 비교하여 가능한 개선 범위를 보여 줍니다. [자세히 알아보기](../content-management/experiment-calculations.md#confidence-intervals).
