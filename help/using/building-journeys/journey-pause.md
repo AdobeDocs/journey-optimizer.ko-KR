@@ -199,7 +199,7 @@ ht-degree: 6%
 
 ## 일시 중지된 프로필의 여정 카드 문제 해결 {#discards-troubleshoot}
 
-[Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}를 사용하여 단계 이벤트를 쿼리할 수 있습니다. 이 이벤트는 발생한 시기에 따라 프로필 삭제에 대한 자세한 정보를 제공할 수 있습니다.
+[Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ko){target="_blank"}를 사용하여 단계 이벤트를 쿼리할 수 있습니다. 이 이벤트는 발생한 시기에 따라 프로필 삭제에 대한 자세한 정보를 제공할 수 있습니다.
 
 * 프로필이 여정에 들어가기 전에 발생하는 폐기물의 경우 다음 코드를 사용하십시오.
 
