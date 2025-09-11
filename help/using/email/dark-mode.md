@@ -12,10 +12,10 @@ keywords: 다크 모드, 이메일, 색상, 편집기
 hide: true
 hidefromtoc: true
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
-source-git-commit: 95e50386d4190d0b967d133a327c25ab1681b5c1
+source-git-commit: 0501691c29d82dd1b8c94e0366e66cf5534cd1d2
 workflow-type: tm+mt
-source-wordcount: '1677'
-ht-degree: 13%
+source-wordcount: '1481'
+ht-degree: 11%
 
 ---
 
@@ -40,37 +40,82 @@ ht-degree: 13%
 >
 >이 기능은 현재 Beta 버전으로 Beta 고객에게만 제공됩니다. Beta 프로그램에 참여하려면 Adobe 담당자에게 문의하십시오.
 
-전자 메일을 디자인할 때 [!DNL Journey Optimizer] [전자 메일 Designer](get-started-email-design.md)를 사용하면 특정 사용자 지정 설정을 정의할 수 있는 **[!UICONTROL 어두운 모드]**(으)로 전환할 수 있습니다. 다크 모드가 설정되어 있으면 지원하는 이메일 클라이언트에 이 모드에 대해 정의한 설정이 표시됩니다.
+전자 메일을 디자인할 때 [!DNL Journey Optimizer] [전자 메일 Designer](get-started-email-design.md)을(를) 사용하면 **[!UICONTROL 어두운 모드]** 보기로 전환할 수 있습니다.
 
->[!WARNING]
->
->다크 모드 최종 렌더링은 수신자의 이메일 클라이언트에 따라 다릅니다.
->
->모든 이메일 클라이언트가 사용자 정의 다크모드를 지원하지는 않습니다. <!--[See the list](#non-supporting-email-clients)-->또한 일부 전자 메일 클라이언트는 받은 모든 전자 메일에 대해 자신의 기본 어두운 모드만 적용합니다. 이 경우 이메일 Designer에서 정의한 사용자 지정 설정을 렌더링할 수 없습니다.
+이 <!--Email Designer -->다크 모드 보기에서는 다크 모드가 켜져 있을 때 지원 전자 메일 클라이언트가 표시할 특정 사용자 지정 설정을 정의할 수도 있습니다.
 
-다크 모드를 지원하는 전자 메일 클라이언트 목록이 [이 섹션](#supporting-email-clients)에 표시됩니다.
+<!--When designing your emails, the Journey Optimizer Email Designer allows you to switch to Dark mode where you can define specific custom settings. When dark mode is on, the supporting email clients will display the settings that you defined for this mode.-->
 
 ## 다크 모드란? {#what-is-dark-mode}
 
-어두운 모드를 사용하면 지원되는 이메일 클라이언트 및 앱에서 텍스트, 버튼 및 기타 UI 요소에 대해 어두운 배경과 밝은 색상의 이메일을 표시할 수 있습니다. 눈의 피로를 줄이고, 배터리 수명을 절약하며, 저조도 환경에서 가독성을 향상시켜 보다 편안한 시청 환경을 제공합니다.
+다양한 이메일 클라이언트에서 다크 모드가 렌더링되는 방식은 복잡합니다. 먼저 어두운 모드를 정의하겠습니다.
+
+다크 모드를 사용하면 지원되는 이메일 클라이언트 및 앱에서 텍스트, 버튼 및 기타 UI 요소에 대해 배경이 어둡고 색상이 밝은 이메일을 표시할 수 있습니다. 눈의 피로를 줄이고, 배터리 수명을 절약하며, 저조도 환경에서 가독성을 향상시켜 보다 편안한 시청 환경을 제공합니다.
 
 <!--Dark Mode uses a dark color palette with light text and UI elements to reduce eye strain, save battery life, and improve readability in low-light environments.-->
 
-주요 운영 체제 및 앱(Apple Mail, Gmail, Outlook, Twitter, Slack)에서 콘텐츠가 모든 사용자에게 읽기 쉽고 시각적으로 매력적으로 보이도록 하는 것이 최신 이메일 디자인에서 중요한 고려 사항이 되었습니다.
+주요 운영 체제 및 앱<!-- (Apple Mail, Gmail, Outlook, Twitter, Slack)-->에서 증가하는 추세로, 콘텐츠를 읽기 쉽고 시각적으로 모든 사용자에게 어필할 수 있도록 하는 것이 최신 이메일 디자인에서 중요한 고려 사항이 되었습니다.
 
-그러나 모든 장치에서 어두운 모드에서 이메일이 정확히 동일하게 보일지는 장담할 수 없습니다. 일부 시각적 변경은 이메일 앱 또는 장치가 원래 디자인을 재정의하여 발생할 수도 있습니다.
+## 가드레일 {#guardrails}
 
-실제로 이메일 클라이언트가 다크 모드를 적용하는 방식은 다음과 같이 달라질 수 있습니다<!--between different devices and apps-->.
+다크모드 렌더링 측면에서의 기대는 다양한 이메일 클라이언트에서 적용하는 방식이 많이 달라질 수 있어 신중하게 고려해야 한다.
 
-* 모든 이메일 클라이언트가 이 기능을 지원하는 것은 아닙니다.
+<!--The dark mode final rendering depends on the recipient's email client. It is not possible to guarantee that your email will look the same in dark mode across all devices.-->
 
-  >[!NOTE]
-  >
-  >다크 모드를 지원하지 않는 전자 메일 클라이언트 목록이 [이 섹션](#non-supporting-email-clients)에 표시됩니다.
+[!DNL Journey Optimizer] 전자 메일 Designer에서 다크 모드를 사용하기 전에 기본 전자 메일 클라이언트가 이를 처리하는 방법을 이해하는 것이 중요합니다. 구별해야 할 세 가지 경우가 있습니다.
 
-* 일부 이메일 클라이언트는 색상, 배경 및 이미지를 자동으로 조정합니다. 이 경우 이메일 Designer에서 사용자 지정 설정을 정의하는 경우 해당 설정이 렌더링되지 않을 수 있습니다.
+<!--
+* Check out the list of [email clients supporting dark mode](https://www.caniemail.com/search/?s=dark){target="_blank"}
 
-* 다른 전자 메일 클라이언트는 `@media (prefers-color-scheme: dark)` 메서드를 사용하는 경우와 같이 사용자 지정 다크 모드를 렌더링할 수 있는 옵션을 제공합니다. 이 경우 이메일 Designer에서 정의하는 특정 설정이 표시됩니다. [이 섹션](#define-custom-dark-mode)의 전자 메일 Designer에서 사용자 지정 다크 모드 설정을 정의하는 방법을 알아보세요.
+* Learn more on Dark mode in this [Litmus blog post](https://www.litmus.com/blog/the-ultimate-guide-to-dark-mode-for-email-marketers){target="_blank"}
+-->
+
+### 클라이언트가 다크 모드를 지원하지 않음 {#not-supporting}
+
+일부 이메일 클라이언트는 다음과 같이 이 기능을 전혀 지원하지 않습니다.
+* Yahoo!Mail
+* AOL
+
+이메일 Designer에서 다크 모드 사용자 지정 설정을 정의하는지 여부에 관계없이 이러한 이메일 클라이언트에는 다크 모드 렌더링이 표시되지 않습니다. <!--Regardless of whether the interface is in light or dark mode, your email will render the same.-->
+
+### 자체 다크 모드를 적용하는 클라이언트 {#default-support}
+
+일부 이메일 클라이언트는 수신되는 모든 이메일에 대해 자체 기본 다크 모드를 체계적으로 적용합니다. 색상, 배경, 이미지 등 은 이메일 클라이언트별 다크 모드 설정에 따라 자동으로 조정됩니다.
+
+이러한 클라이언트의 예는 다음과 같습니다.
+
+* Gmail(데스크탑 웹 메일, iOS, Android, 모바일 웹 메일)
+* 창 보기
+* Outlook Windows 메일
+
+이 경우 이메일 Designer에서 사용자 정의 다크 모드 설정을 정의하는 경우 해당 설정은 이메일 클라이언트 설정으로 재정의됩니다.
+
+이러한 이메일 클라이언트가 다크 모드를 처리하지만 특정 다크 모드 디자인은 렌더링되지 않는다는 것을 이해하는 것이 중요합니다.
+
+<!--In this case, the custom settings that you defined in the Email Designer cannot be rendered.-->
+
+<!--Some visual changes may also be caused by the email app or device overriding the original design.-->
+
+### 사용자 정의 다크 모드를 지원하는 클라이언트 {#custom-support}
+
+다른 이메일 클라이언트는 `@media (prefers-color-scheme: dark)` 이메일 Designer에서 사용하는 메서드인 [!DNL Journey Optimizer] 쿼리를 사용하여 사용자 지정 다크 모드를 렌더링하는 옵션을 제공합니다.
+
+다음은 이 옵션을 처리하는 주 클라이언트 목록입니다.
+
+* Apple 메일 macOS
+* Apple 메일 iOS
+* macOS 보기
+* Outlook.com
+* iOS 보기
+* Android 보기
+
+이 경우 이메일 Designer에서 정의하는 특정 설정이 표시됩니다.
+
+>[!NOTE]
+>
+>[이 섹션](#define-custom-dark-mode)에서 전자 메일 Designer을 사용하여 사용자 지정 다크 모드 설정을 정의하는 방법을 알아봅니다.
+
+그러나 몇 가지 제한 사항이 적용될 수 있습니다. 예를 들어 Apple Mail 16(macOs 13)과 같은 일부 이메일 클라이언트는 이미지가 이메일 콘텐츠에 있는 경우 다크 모드를 생성하지 않습니다.
 
 ## 이메일 디자이너의 다크 모드 {#dark-mode-email-designer}
 
@@ -131,7 +176,12 @@ Here you can see that we have applied a different background, defined another im
 
 >[!WARNING]
 >
->모든 이메일 클라이언트가 다크 모드를 지원하는 것은 아닙니다. 또한 일부 이메일 클라이언트는 수신되는 모든 이메일에 대해 자신의 기본 다크모드만 적용합니다. 두 경우 모두 이메일 디자이너에서 정의한 사용자 지정 설정을 렌더링할 수 없습니다.
+>다크 모드 최종 렌더링은 각 이메일 클라이언트에 따라 다르므로 결과가 서로 다를 수 있습니다. [자세히 알아보기](#guardrails)
+
+<!--
+>[!WARNING]
+>
+>Not all email clients support dark mode. Moreover, some email clients only apply their own default dark mode for all emails that are received. In both cases, the custom settings that you defined in the Email Designer cannot be rendered.-->
 
 이메일 Designer 사용자 지정 다크 모드 스타일을 활용하기 위해 Journey Optimizer에서는 <!-- `@media (prefers-color-scheme: dark)` method-->을(를) 사용합니다. `@media (prefers-color-scheme: dark)` CSS 쿼리로, 사용자의 전자 메일 클라이언트가 어두운 모드로 설정되어 있는지 검색하고 전자 메일에 정의된 어두운 테마 디자인을 적용합니다.
 
@@ -173,9 +223,9 @@ Here you can see that we have applied a different background, defined another im
 
 **이미지 및 로고 최적화**
 
-* 흰색 또는 밝은 배경이 하드코딩된 이미지를 사용하지 마십시오.
-
 * 어두운 모드에서 흰색 상자가 보이지 않도록 로고와 아이콘을 투명 배경이 있는 PNG로 저장합니다.
+
+* 흰색 또는 밝은 배경이 하드코딩된 이미지를 사용하지 마십시오.
 
 * 투명도가 옵션이 아닌 경우 디자인에서 단색 배경에 이미지를 배치하여 어색한 색상 반전을 방지합니다.
 
@@ -184,6 +234,10 @@ Here you can see that we have applied a different background, defined another im
 * 밝은 모드와 어두운 모드 모두에서 가독성을 위해 텍스트와 배경색 간의 충분한 대비를 보장합니다.
 
 * 중요한 콘텐츠에 배경색에만 의존하지 마십시오. 일부 클라이언트는 어두운 모드에서 배경색을 재정의하므로 키 정보가 계속 표시되는지 확인합니다.
+
+<!--**Inline critical styles**
+
+Inline CSS helps maintain more control over styling, as some clients strip external styles in dark mode.-->
 
 **어두운 모드에서 액세스 가능한 콘텐츠 디자인**
 
@@ -209,65 +263,70 @@ The best practices for designing accesible content in dark mode are listed in [t
 
 * Litmus를 활용하는 [전자 메일 렌더링](../content-management/rendering.md) 옵션을 사용하여 주요 전자 메일 클라이언트(Apple Mail, Gmail, Outlook)의 디자인을 시뮬레이션하고 어두운 모드에서 색상과 이미지가 어떻게 작동하는지 확인합니다.
 
-<!--**Inline critical styles**
+<!--
 
-Inline CSS helps maintain more control over styling, as some clients strip external styles in dark mode.-->
+## Email clients supporting dark mode {#supporting-email-clients}
 
-## 다크 모드를 지원하는 이메일 클라이언트 {#supporting-email-clients}
-
-다음은 다크 모드를 지원하는 기본 이메일 클라이언트 목록입니다.
+Below is a list of the main email clients supporting dark mode using the with the `@media (prefers-color-scheme: dark)` query.
 
 >[!NOTE]
 >
->이러한 이메일 클라이언트의 일부 버전은 다크 모드를 지원하지 않으므로 명확성을 위해 이 표에도 표시됩니다.
+>Some versions of these email clients do not support dark mode, so they are also presented in this table for the sake of clarity.
 
-| 다크 모드를 지원하는 이메일 클라이언트 | 호환 버전 | *지원되지 않는 버전* |
+| Email clients supporting custom dark mode| Compatible versions | *Unsupported versions* |
 |---------|----------|---------|
-| Apple 메일 macOS | 12.4, 16.0 | *10.3* |
-| Apple 메일 iOS | 13.0, 16.1 | *12.2* |
-| macOS 보기 | 2019년 16.70, 16.80 | NA |
-| Outlook.com | 2019년 7월, 2022년 12월 | NA |
-| iOS 보기 | 2020-01, 2022-12 | NA |
-| Android 보기 | 2023-03 | *2020-01, 2022-12* |
-| Samsung 이메일(Android) | 6.1 | *6.0* |
-| Mozilla Thunderbird(macOS) | 68.4 | *60.8, 78.5, 91.13* |
-| Fastmail(데스크탑 웹 메일) | 2022-12 | *2021-07* |
-| HEY(데스크탑 웹 메일) | 2020-06 | *2022-12* |
-| 주황색 데스크톱 웹 메일 | 2019-08, 2021-03, 2022-12, 2024-04 | NA |
-| 오렌지 iOS | 2022-12, 2024-04 | *2020-01* |
-| 오렌지 Android | 2024-04 | *2020-01, 2022-12* |
+| Apple Mail macOS| 12.4, 16.0 | *10.3* |
+| Apple Mail iOS | 13.0, 16.1 | *12.2* |
+| Outloook macOS | 2019, 16.70, 16.80 | NA |
+| Outlook.com | 2019-07, 2022-12 | NA |
+| Outloook iOS | 2020-01, 2022-12 | NA |
+| Outloook Android | 2023-03 | *2020-01, 2022-12* |
+
+| Other email clients supporting custom dark mode| Compatible versions | *Unsupported versions* |
+|---------|----------|---------|
+| Samsung Email (Android) | 6.1 | *6.0* |
+| Mozilla Thunderbird (macOS) | 68.4 | *60.8, 78.5, 91.13* |
+| Fastmail (Desktop Webmail)| 2022-12 | *2021-07* |
+| HEY (Desktop Webmail)| 2020-06 | *2022-12* |
+| Orange Desktop Webmail| 2019-08, 2021-03, 2022-12, 2024-04 | NA |
+| Orange iOS | 2022-12, 2024-04 | *2020-01* |
+| Orange Android | 2024-04 | *2020-01, 2022-12* |
 | LaPoste.net | 2021-08, 2022-12 | NA |
-| SFR 데스크탑 웹 메일 | 2019-08, 2022-12 | NA |
-| GMX(iOs 및 Android) | 2022-06 | NA |
-| 1&amp;1(데스크탑 웹 메일 및 Android) | 2022-06 | NA |
-| WEB.DE (iOs 및 Android) | 2022-06 | NA |
+| SFR  Desktop Webmail | 2019-08, 2022-12 | NA |
+| GMX (iOs and Android) | 2022-06 | NA |
+| 1&1 (Desktop Webmail and Android) | 2022-06 | NA |
+| WEB.DE (iOs and Android) | 2022-06 | NA |
 | Free.fr | 2022-12 | NA |
 
 >[!WARNING]
 >
->다크 모드 최종 렌더링은 각 이메일 클라이언트에 따라 다르므로 결과가 서로 다를 수 있습니다.
+>The dark mode final rendering depends on each email client, so results can vary from one to another.
 
-<!--
-* Check out the list of [email clients supporting dark mode](https://www.caniemail.com/search/?s=dark){target="_blank"}
+## Email clients not supporting dark mode {#non-supporting-email-clients}
 
-* Learn more on Dark mode in this [Litmus blog post](https://www.litmus.com/blog/the-ultimate-guide-to-dark-mode-for-email-marketers){target="_blank"}
--->
+Some email clients allow users to switch their interface to dark mode, but this setting does not affect how HTML emails are displayed.  Here is a list of those clients:
 
-## 이메일 클라이언트가 다크 모드를 지원하지 않음 {#non-supporting-email-clients}
-
-일부 이메일 클라이언트에서는 사용자가 인터페이스를 다크 모드로 전환할 수 있지만, 이 설정은 HTML 이메일이 표시되는 방식에는 영향을 주지 않습니다. 인터페이스가 밝은 모드인지 어두운 모드인지에 관계없이 이메일이 동일하게 렌더링됩니다. 다음은 이러한 클라이언트의 목록입니다.
-
-| 이메일 클라이언트가 다크 모드를 지원하지 않음 |
+| Main email clients with their own dark mode| 
 |---------|
-| Gmail(데스크탑 웹 메일, iOS, Android, 모바일 웹 메일) |
-| 창 보기 |
-| Outlook Windows 메일 |
-| Yahoo!Mail |
-| AOL |
-| 프로톤메일 |
-| SFR IOS |
-| SFR ANDROID |
-| GMX 데스크탑 웹 메일 |
-| Mail.ru |
-| WEB.DE 데스크탑 웹 메일 |
+| Gmail (Desktop Webmail, iOS, Android, Mobile Webmail) | 
+| Outloook Windows |
+| Outlook Windows Mail |
+
+Other email clients do not support dark mode at all:
+
+| Main email clients not supporting dark mode| 
+|---------|
+| Yahoo!Mail | 
+| AOL | 
+
+| Other mail clients not supporting dark mode| 
+|---------|
+| ProtonMail |
+| SFR iOS |
+| SFR Android | 
+| GMX Desktop Webmail | 
+| Mail.ru | 
+| WEB.DE Desktop Webmail | 
 | T-online.de |
+
+-->
