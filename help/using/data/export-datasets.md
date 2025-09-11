@@ -8,7 +8,7 @@ role: User
 level: Beginner
 keywords: Platform, Data Lake, 만들기, 레이크, 데이터 세트, 프로필
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: 22bd3de66f027b1340285e1cb50140bdb78fe694
+source-git-commit: a542f3e757bffb437f0b6baebe70767c2e894d91
 workflow-type: tm+mt
 source-wordcount: '959'
 ht-degree: 4%
@@ -29,17 +29,17 @@ Journey Optimizer을 사용하면 데이터 세트의 콘텐츠를 내보내기 
 
 각 대상에 대한 자세한 내용은 Adobe Experience Platform 설명서에서 확인할 수 있습니다.
 
-* [Amazon S3](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3.html?lang=ko){target="_blank"}
-* [Azure Blob](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob.html?lang=ko){target="_blank"}
-* [Azure Data Lake Gen 2](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/adls-gen2.html?lang=ko){target="_blank"}
-* [데이터 랜딩 영역](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=ko){target="_blank"}
-* [Google 클라우드 저장소](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html?lang=ko){target="_blank"}
-* [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html?lang=ko){target="_blank"}
+* [Amazon S3](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3.html){target="_blank"}
+* [Azure Blob](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob.html){target="_blank"}
+* [Azure Data Lake Gen 2](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/adls-gen2.html){target="_blank"}
+* [데이터 랜딩 영역](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html){target="_blank"}
+* [Google 클라우드 저장소](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html){target="_blank"}
+* [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html){target="_blank"}
 
 
 ## 전제 조건 {#prerequisites}
 
-데이터 세트를 내보내려면 아래 나열된 [액세스 제어 권한](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ko#permissions){target="_blank"}이 필요합니다. [액세스 제어 개요](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html?lang=ko){target="_blank"}를 읽거나 제품 관리자에게 문의하여 필요한 권한을 받으십시오.
+데이터 세트를 내보내려면 아래 나열된 [액세스 제어 권한](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions){target="_blank"}이 필요합니다. [액세스 제어 개요](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html){target="_blank"}를 읽거나 제품 관리자에게 문의하여 필요한 권한을 받으십시오.
 
 | 카테고리 | 사용 권한 |
 |--|--|
@@ -53,9 +53,9 @@ Journey Optimizer을 사용하면 데이터 세트의 콘텐츠를 내보내기 
 
 ![](assets/dataset-export-process.png)
 
-각 단계에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=ko){target="_blank"}를 참조하세요.
+각 단계에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target="_blank"}를 참조하세요.
 
-1. **클라우드 저장소 대상을 설정**&#x200B;합니다. 아직 연결하지 않은 경우 대상 카탈로그에서 클라우드 스토리지 대상에 연결합니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=ko#setup){target="_blank"}에서 새 대상 연결을 만드는 방법을 알아보세요.
+1. **클라우드 저장소 대상을 설정**&#x200B;합니다. 아직 연결하지 않은 경우 대상 카탈로그에서 클라우드 스토리지 대상에 연결합니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html#setup){target="_blank"}에서 새 대상 연결을 만드는 방법을 알아보세요.
 
    <!--![](assets/dataset-export-setup.png)-->
 
@@ -79,7 +79,7 @@ Journey Optimizer을 사용하면 데이터 세트의 콘텐츠를 내보내기 
 
    <!--![](assets/dataset-export-review.png)-->
 
-내보내기가 완료되면 데이터 세트의 콘텐츠가 사용자가 구성한 일정에 따라 클라우드 저장소 위치에 저장됩니다. [데이터 세트 내보내기가 성공했는지 확인하는 방법을 알아보세요](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=ko#verify){target="_blank"}.
+내보내기가 완료되면 데이터 세트의 콘텐츠가 사용자가 구성한 일정에 따라 클라우드 저장소 위치에 저장됩니다. [데이터 세트 내보내기가 성공했는지 확인하는 방법을 알아보세요](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html#verify){target="_blank"}.
 
 ## 내보내기에 사용 가능한 데이터 세트 {#datasets}
 
@@ -103,9 +103,9 @@ Journey Optimizer을 사용하면 데이터 세트의 콘텐츠를 내보내기 
 | Audience Orchestration 프로필 데이터 세트 | 대상 구성 대상을 위한 대상 구성으로 생성되었습니다. 모든 대상 구성 대상, 해당 속성 및 데이터 보강 포함 |
 | 의사 결정 객체 저장소 - 활동 | 사용자 인터페이스에서 의사 결정이라고도 합니다. 하지만 이러한 요소들은 의사 결정 논리를 포함하여 모든 기본 요소를 함께 배치하는 사용자가 만드는 개체입니다. 예를 들어, 특정 배치(위치)의 경우, 오퍼를 고려할 위치(오퍼 컬렉션)와 해당 오퍼에 사용할 순위 지정 방법을 선택할 수 있습니다. |
 | 의사 결정 개체 저장소 - 대체 오퍼 | 사용자가 만드는 다른 유형의 오퍼에 대한 저장소입니다. 특히 개인화된 오퍼를 볼 자격이 없고 항목을 봐야 하는 경우 적어도 대체 오퍼가 표시됩니다. 이 데이터 세트에는 이 유형의 오퍼에 대한 특성이 포함되어 있습니다. |
-| 의사 결정 개체 저장소 - 개인화된 오퍼 | 사용자가 만드는 오퍼 유형에 대한 저장소입니다. 따라서 이 데이터 세트에는 이 유형의 오퍼에 대한 속성이 포함되어 있습니다.</br> 새 사용자 지정 특성 필드를 오퍼 항목 스키마에 추가한 후 이러한 새 특성이 데이터 집합에 표시되기 전에 최대 한 시간이 지연될 수 있습니다. 잠재적인 데이터 손실 또는 불일치를 방지하려면 새로 추가된 속성에 따라 변경 또는 업데이트하기 전에 적어도 한 시간을 기다리는 것이 좋습니다. |
+| 의사 결정 개체 저장소 - 개인화된 오퍼 | 사용자가 만드는 오퍼 유형에 대한 저장소입니다. 따라서 이 데이터 세트에는 이 유형의 오퍼에 대한 속성이 포함되어 있습니다. |
 | 의사 결정 객체 저장소 - 배치 | 오퍼가 표시되어야 하는 위치를 정의하는 오브젝트의 리포지토리. |
-| Experience Decisioning 개체 저장소 - 개인화된 오퍼 항목 | 채널 간 개인화 및 보고를 지원하기 위해 모든 속성 및 라이프사이클 상태를 포함하여 모든 오퍼 항목을 저장합니다. |
+| Experience Decisioning 개체 저장소 - 개인화된 오퍼 항목 | 채널 간 개인화 및 보고를 지원하기 위해 모든 속성 및 라이프사이클 상태를 포함하여 모든 오퍼 항목을 저장합니다. </br> 새 사용자 지정 특성 필드를 오퍼 항목 스키마에 추가한 후 이러한 새 특성이 데이터 집합에 표시되기 전에 최대 한 시간이 지연될 수 있습니다. 잠재적인 데이터 손실 또는 불일치를 방지하려면 새로 추가된 속성에 따라 변경 또는 업데이트하기 전에 적어도 한 시간을 기다리는 것이 좋습니다. |
 | 여정 단계 이벤트 | Journey Optimizer에서 생성된 모든 여정 단계 경험 이벤트를 캡처하여 보고와 같은 서비스에서 사용할 수 있습니다. |
 | 여정 | 여정 내 각 단계의 메타데이터 데이터 세트 하우징 정보 |
 | ODE DecisionEvents - prod decisioning | 우리가 요청에 따라 결정을 내릴 때마다, 우리는 그것을 결정 이벤트로 간주한다 |
