@@ -12,9 +12,9 @@ keywords: 다크 모드, 이메일, 색상, 편집기
 hide: true
 hidefromtoc: true
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
-source-git-commit: 0501691c29d82dd1b8c94e0366e66cf5534cd1d2
+source-git-commit: 623f882f5d63a2ea4edc2ec8ef30a65364ed2207
 workflow-type: tm+mt
-source-wordcount: '1481'
+source-wordcount: '1524'
 ht-degree: 11%
 
 ---
@@ -115,7 +115,9 @@ ht-degree: 11%
 >
 >[이 섹션](#define-custom-dark-mode)에서 전자 메일 Designer을 사용하여 사용자 지정 다크 모드 설정을 정의하는 방법을 알아봅니다.
 
-그러나 몇 가지 제한 사항이 적용될 수 있습니다. 예를 들어 Apple Mail 16(macOs 13)과 같은 일부 이메일 클라이언트는 이미지가 이메일 콘텐츠에 있는 경우 다크 모드를 생성하지 않습니다.
+단, 각 이메일 클라이언트에 따라 일부 제한 사항이 적용될 수 있습니다. 예를 들어 Apple Mail 16(macOs 13)과 같은 일부 클라이언트는 이미지가 이메일 콘텐츠에 있는 경우 다크 모드를 생성하지 않습니다.
+
+최적의 결과를 얻으려면 타겟팅하는 이메일 클라이언트로 콘텐츠를 테스트합니다. 각 클라이언트의 최종 결과에 최대한 근접한 시뮬레이션을 보려면 이메일 Designer에서 [이메일 렌더링](../content-management/rendering.md) 옵션을 사용하십시오.
 
 ## 이메일 디자이너의 다크 모드 {#dark-mode-email-designer}
 
