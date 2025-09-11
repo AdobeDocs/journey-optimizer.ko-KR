@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 41563414b2118ae1fcde65874c56f38daf4fa9ab
+source-git-commit: e6193d6204f722df7e6c02aaed80abc53b523755
 workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 24%
@@ -44,7 +44,7 @@ Decisioning을 사용하는 주요 단계는 다음과 같습니다.
 
       ![](assets/decision_permission_1.png)
 
-   1. **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
+   1.  **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
 
       ![](assets/decision_permission_2.png)
 
@@ -64,7 +64,7 @@ Decisioning을 사용하는 주요 단계는 다음과 같습니다.
 
 1. 타깃팅된 대상자에게 표시할 **결정 항목을 만듭니다**.
 
-   ➡️ [의사 결정 항목을 만드는 방법](items.md)을 사용자 인터페이스(및 [API 설명서](api-reference/decisions-items/create.md))에서 알아보세요.
+   ➡️ [사용자 인터페이스 및 ](items.md)API 설명서[에서 의사 결정 항목을 만드는 방법을 알아봅니다](api-reference/decisions-items/create.md)
 
 1. **컬렉션으로 구성**: 컬렉션을 사용하여 특성 기반 규칙에 따라 결정 항목을 분류합니다. 컬렉션을 선택 전략에 통합하여 고려해야 하는 결정 항목의 컬렉션을 결정합니다.
 
