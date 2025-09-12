@@ -11,10 +11,10 @@ keywords: 활동, 조건, 캔버스, 여정, 최적화
 badge: label="제한된 가용성" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: 1c47c89ae86844399240d48c4d19f834d90c7598
+source-git-commit: f1a44b91e8dfe28d0cf54c11a7912e568f3d176d
 workflow-type: tm+mt
-source-wordcount: '1297'
-ht-degree: 7%
+source-wordcount: '1257'
+ht-degree: 6%
 
 ---
 
@@ -135,7 +135,7 @@ ht-degree: 7%
 
 첫 번째 메시지를 이메일로 전송할지 SMS로 전송할지 여부를 테스트하면 전환율이 높아집니다.
 
-➡️ 전환율을 최적화 지표로 사용합니다(예: 구매, 등록).
+➡️ 전환율을 성공 지표로 사용합니다(예: 구매, 등록).
 
 ![](assets/journey-optimize-experiment-uc-channel.png)
 
@@ -145,7 +145,7 @@ ht-degree: 7%
 
 1주일에 한 개의 이메일을 보낼 때와 3개의 이메일을 보낼 때 더 많은 구매가 발생하는지 확인하는 실험을 실행하십시오.
 
-➡️ 최적화 지표로 구매 또는 구독 취소 속도를 사용합니다.
+➡️ 구매 또는 구독 취소 속도를 성공 지표로 사용합니다.
 
 ![](assets/journey-optimize-experiment-uc-frequency.png)
 
@@ -155,7 +155,7 @@ ht-degree: 7%
 
 24시간 대기 및 후속 조치 이전의 72시간 대기 를 비교하여 어느 타이밍이 참여를 극대화하는지 확인합니다.
 
-➡️ 클릭스루 비율 또는 매출을 최적화 지표로 사용합니다.
+➡️ 클릭스루 비율 또는 매출을 성공 지표로 사용합니다.
 
 ![](assets/journey-optimize-experiment-uc-wait.png)
 
@@ -166,7 +166,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_path_targeting_fallback"
 >title="대체 경로란 무엇입니까?"
->abstract="폴백은 위에 정의된 타깃팅 규칙을 충족하지 않는 대상에 대해 새 경로를 만듭니다.</br>이 옵션을 선택하지 않으면 타깃팅 규칙에 적합하지 않은 대상은 대체 경로를 입력하지 않습니다."
+>abstract="대체 경로를 사용하면 타깃팅 규칙이 적격하지 않을 때 대상자가 대체 경로를 입력할 수 있습니다. </br>이 옵션을 선택하지 않으면 타깃팅 규칙에 적합하지 않은 대상은 대체 경로로 들어가지 않고 여정을 종료합니다."
 
 타깃팅 규칙을 사용하면 특정 대상 세그먼트<!-- depending on profile attributes or contextual attributes-->에 따라 고객이 여정 경로 중 하나를 입력할 수 있도록 충족해야 하는 특정 규칙이나 자격을 결정할 수 있습니다.
 
@@ -196,11 +196,11 @@ ht-degree: 7%
 
    ![](assets/journey-targeting-rule.png)
 
-1. 필요에 따라 **[!UICONTROL 대체 콘텐츠 사용]** 옵션을 선택하십시오. 이 작업을 수행하면 위에 정의된 타깃팅 규칙을 충족하지 않는 대상에 대한 대체 경로가 만들어집니다.
+1. 필요에 따라 **[!UICONTROL 대체 경로 사용]** 옵션을 선택하십시오. 이 작업을 수행하면 위에 정의된 타깃팅 규칙을 충족하지 않는 대상에 대한 대체 경로가 만들어집니다.
 
    >[!NOTE]
    >
-   >이 옵션을 선택하지 않으면 타깃팅 규칙에 적합하지 않은 대상은 대체 경로를 입력하지 않습니다.
+   >이 옵션을 선택하지 않으면 타겟팅 규칙에 적합하지 않은 대상은 대체 경로로 들어가지 않고 여정을 종료합니다.
 
 1. **[!UICONTROL 만들기]**&#x200B;를 클릭하여 타깃팅 규칙 설정을 저장합니다.
 
@@ -234,7 +234,7 @@ ht-degree: 7%
 
 골드 상태 충성도 멤버는 이메일을 통해 개인화된 오퍼를 받을 수 있으며 다른 모든 멤버는 SMS 미리 알림으로 이동됩니다.
 
-➡️ 프로필당 매출 또는 전환율을 최적화 지표로 사용합니다.
+<!--➡️ Use the revenue per profile or conversion rate as the optimization metric.-->
 
 ![](assets/journey-optimize-targeting-uc-segment.png)
 
@@ -244,7 +244,7 @@ ht-degree: 7%
 
 이메일을 열었지만 클릭하지 않은 고객은 푸시 알림을 받을 수 있으며 열지 않은 고객은 SMS를 받습니다.
 
-➡️ 클릭스루 비율 또는 다운스트림 전환을 최적화 지표로 사용합니다.
+<!--➡️ Use the click-through rate or downstream conversions as the optimization metric.-->
 
 ![](assets/journey-optimize-targeting-uc-behavior.png)
 
@@ -254,15 +254,15 @@ ht-degree: 7%
 
 최근 구매한 고객은 짧은 &#39;땡큐+크로스셀&#39; 길로 갈 수 있고, 구매 이력이 없는 고객은 더 긴 육성 여정으로 접어든다.
 
-➡️ 반복 구매율 또는 참여 비율을 최적화 지표로 사용합니다.
+<!--➡️ Use the repeat purchase rate or engagement rate as the optimization metric.-->
 
 ![](assets/journey-optimize-targeting-uc-purchase.png)
 
 +++
 
-## 조건 추가 {#conditions}
+### 조건 추가 {#conditions}
 
-특정 기준에 따라 여러 경로를 만들어 개인이 여정을 진행하는 방식을 정의하는 조건을 추가할 수 있습니다. 또한 시간 초과나 오류를 처리하기 위한 대체 경로를 구성하여 원활한 환경을 보장할 수 있습니다.
+조건은 특정 기준에 따라 여러 경로를 만들어 개인 사용자가 여정을 진행하는 방법을 정의할 수 있는 [타깃팅](#targeting) 규칙 유형입니다.
 
 ![](assets/journey-condition.png)
 

@@ -12,10 +12,10 @@ keywords: 다크 모드, 이메일, 색상, 편집기
 hide: true
 hidefromtoc: true
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
-source-git-commit: 623f882f5d63a2ea4edc2ec8ef30a65364ed2207
+source-git-commit: 6106c2cbd77a9962a0d496cdda3a7e6118e90bf0
 workflow-type: tm+mt
-source-wordcount: '1524'
-ht-degree: 11%
+source-wordcount: '1527'
+ht-degree: 4%
 
 ---
 
@@ -24,21 +24,16 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode"
 >title="다크 모드로 전환"
->abstract="다크 모드로 전환하면 어떻게 렌더링되는지 미리 보고 특정 사용자 정의 설정을 정의할 수 있습니다. <br>주의: 최종 렌더링은 수신자의 이메일 클라이언트에 따라 다릅니다. 모든 이메일 클라이언트가 사용자 정의 다크 모드를 지원하지는 않습니다."
-
->[!CONTEXTUALHELP]
->id="ac_edition_darkmode_image"
->title="다크 모드용 특정 이미지 사용"
->abstract="다크 모드가 켜져 있을 때 표시될 다른 이미지를 선택할 수 있습니다. <br>주의: 다크 모드용 특정 이미지를 추가해도 모든 이메일 클라이언트에서의 올바른 렌더링을 보장하지는 않습니다. 모든 이메일 클라이언트가 사용자 정의 다크 모드를 지원하지는 않습니다."
+>abstract="렌더링 방법을 미리 보고 특정 사용자 지정 설정을 정의할 수 있는 다크 모드로 전환합니다. <br>최종 렌더링은 받는 사람의 전자 메일 클라이언트에 따라 다릅니다. 모든 이메일 클라이언트는 사용자 지정 다크 모드를 지원하지 않습니다."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode_preview"
 >title="다크 모드로 전환"
->abstract="다크 모드로 전환하여 지원되는 이메일 클라이언트에서 어떻게 렌더링되는지 미리 확인합니다. <br>주의: 최종 렌더링은 수신자의 이메일 클라이언트에 따라 다릅니다. 모든 이메일 클라이언트가 사용자 정의 다크 모드를 지원하지는 않습니다."
+>abstract="다크 모드로 전환하여 지원되는 이메일 클라이언트에서 어떻게 렌더링되는지 미리 확인합니다. <br>최종 렌더링은 받는 사람의 전자 메일 클라이언트에 따라 다릅니다. 모든 이메일 클라이언트가 다크 모드를 지원하지 않습니다."
 
 >[!AVAILABILITY]
 >
->이 기능은 현재 Beta 버전으로 Beta 고객에게만 제공됩니다. Beta 프로그램에 참여하려면 Adobe 담당자에게 문의하십시오.
+>이 기능은 현재 Beta 버전으로 Beta 고객에게만 제공됩니다. <!--To join the beta program, contact your Adobe representative.-->
 
 전자 메일을 디자인할 때 [!DNL Journey Optimizer] [전자 메일 Designer](get-started-email-design.md)을(를) 사용하면 **[!UICONTROL 어두운 모드]** 보기로 전환할 수 있습니다.
 
@@ -73,6 +68,7 @@ ht-degree: 11%
 ### 클라이언트가 다크 모드를 지원하지 않음 {#not-supporting}
 
 일부 이메일 클라이언트는 다음과 같이 이 기능을 전혀 지원하지 않습니다.
+
 * Yahoo!Mail
 * AOL
 
@@ -80,7 +76,9 @@ ht-degree: 11%
 
 ### 자체 다크 모드를 적용하는 클라이언트 {#default-support}
 
-일부 이메일 클라이언트는 수신되는 모든 이메일에 대해 자체 기본 다크 모드를 체계적으로 적용합니다. 색상, 배경, 이미지 등 은 이메일 클라이언트별 다크 모드 설정에 따라 자동으로 조정됩니다.
+일부 이메일 클라이언트는 수신되는 모든 이메일에 대해 자체 기본 다크 모드를 체계적으로 적용합니다. 색상, 배경, 이미지 등 은 이메일 클라이언트별 다크 모드 설정에 따라 자동으로 조정되며, 이는 외부 수정이 불가능함을 의미합니다.
+
+<!--It is important to note that less than 25% of email clients offer customization options for dark mode. Clients such as Gmail implement their own dark mode rendering, which is not subject to external modification.-->
 
 이러한 클라이언트의 예는 다음과 같습니다.
 
@@ -173,6 +171,11 @@ ht-degree: 11%
 Here you can see that we have applied a different background, defined another image and change the color of the text and button.-->
 
 ### 사용자 정의 다크 모드 정의 {#define-custom-dark-mode}
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_darkmode_image"
+>title="다크 모드용 특정 이미지 사용"
+>abstract="다크 모드가 켜져 있을 때 표시될 다른 이미지를 선택할 수 있습니다. <br>다크 모드에 대한 특정 이미지를 추가한다고 해서 모든 이메일 클라이언트에서 올바르게 렌더링되는 것은 아닙니다. 모든 이메일 클라이언트는 사용자 지정 다크 모드를 지원하지 않습니다."
 
 **[!UICONTROL 어두운 모드]**(으)로 전환한 후에는 받는 사람의 전자 메일 클라이언트에서 어두운 모드가 활성화된 경우에만 표시되는 콘텐츠의 특정 스타일 요소를 편집할 수 있습니다(해당 기능이 지원되는 경우).
 
