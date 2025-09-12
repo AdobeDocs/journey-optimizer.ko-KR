@@ -7,9 +7,9 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b63dea783a2f85d17aacc12c23a9f63d880aeeee
+source-git-commit: 14758fa4db49aed686c1554718337983d3812595
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '388'
 ht-degree: 1%
 
 ---
@@ -21,13 +21,12 @@ ht-degree: 1%
 Journey Optimizer에서 여정 실험은 두 가지 유형으로 나뉩니다.
 
 * [콘텐츠 실험](../content-management/content-experiment.md)
+
+  콘텐츠 실험에 대해 자세히 설명된 테이블 및 KPI는 경로 실험에 대한 테이블과 동일합니다. 콘텐츠 실험을 설정한 경우 아래 [설명서](#experimentation)를 참조하세요.
+
 * [경로 실험](../building-journeys/optimize.md)
 
 ## 경로 실험 {#experimentation}
-
->[!NOTE]
->
-> 콘텐츠 실험에 대해 자세히 설명된 테이블 및 KPI는 경로 실험에 대한 테이블과 동일합니다. 콘텐츠 실험을 설정한 경우 아래 설명서를 참조하십시오.
 
 ### 실험 KPI {#experimentation-kpis}
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 3ce799231e90828e8d061261e0ef69042e69daba
+source-git-commit: 14758fa4db49aed686c1554718337983d3812595
 workflow-type: tm+mt
-source-wordcount: '5027'
+source-wordcount: '5035'
 ht-degree: 99%
 
 ---
@@ -221,6 +221,7 @@ ht-degree: 99%
 <tr>
 <td>
 <p>이제 사용자 정의 SMS 공급자 솔루션과 통합하여 서드파티 공급자를 통해 RCS(Rich Communication Services) 메시지를 구성, 사용자 정의 및 전달할 수 있습니다.</p>
+<p>자세한 내용은 <a href="../sms/sms-configuration-custom.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
