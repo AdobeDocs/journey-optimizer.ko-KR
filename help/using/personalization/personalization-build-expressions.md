@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: 표현식, 편집기, 정보, 시작
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 50317e37c536dc8f1a950172fda00590f8a9fa35
+source-git-commit: 244d17a6c75eaee5b09fb82a9237db041a2650d1
 workflow-type: tm+mt
-source-wordcount: '1536'
+source-wordcount: '1565'
 ht-degree: 10%
 
 ---
@@ -77,10 +77,7 @@ Journey Optimizer을 사용하면 메시지에서 **URL**&#x200B;을(를) 개인
 >
 >URL 내에서 사용되는 개인화 토큰에는 공백이 지원되지 않습니다.
 
-<!--
-Update on August 21: Waiting for eng. to confirm when the capacity below will be deployed on prod.
-
-In Limited Availability, Journey Optimizer also supports complete/base URL personalization. For example:
+Journey Optimizer은 고객 집합에 대한 제한된 가용성에서도 전체/기본 URL 개인화를 지원합니다. 예:
 
 ```
 <a href="{{profile.social.link}}" />
@@ -90,7 +87,7 @@ In Limited Availability, Journey Optimizer also supports complete/base URL perso
 
 >[!WARNING]
 >
->The list of accepted domains must be provided to Adobe upfront.-->
+>허용된 도메인 목록을 Adobe에 먼저 제공해야 합니다.
 
 +++
 

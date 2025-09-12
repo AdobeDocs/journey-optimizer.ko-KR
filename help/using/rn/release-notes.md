@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6d603641a3565b1f1465fa881383f4d48611c786
+source-git-commit: 244d17a6c75eaee5b09fb82a9237db041a2650d1
 workflow-type: tm+mt
-source-wordcount: '2082'
-ht-degree: 89%
+source-wordcount: '2068'
+ht-degree: 88%
 
 ---
 
@@ -89,15 +89,19 @@ ht-degree: 89%
 
 ### 개선 사항 {#Sep-25-improv}
 
+* **동적 도메인 지원** - 이제 Journey Optimizer에서 Adobe에서 허용하는 사전 정의된 도메인에 대한 전체/기본 URL 개인 맞춤화를 지원합니다. [자세히 보기](../personalization/personalization-build-expressions.md#where) <!--Availability date: September 12-->
+
+  >[!NOTE]
+  >
+  >이 기능은 일부 고객에게는 제한된 가용성으로 제공됩니다.
+
 * **의사 결정 최대 가용량 규칙에 대한 식** - 이제 의사 결정 항목에 대한 최대 가용량 규칙의 임계값을 정의하기 위해 자체 식을 만들 수 있습니다. [자세히 보기](../experience-decisioning/items.md#capping)
 
   >[!NOTE]
   >
   >이 기능은 현재 모든 사용자에게 제한된 가용성으로 제공됩니다.
 
-* **관리**
-
-  **채널 구성 모니터링 경고** - 이제 사용자 지정 하위 도메인 위임 유형을 사용하는 이메일 채널 구성 오류가 발생하는 경우 이메일 또는 Journey Optimizer 알림 센터에서 시스템 경고를 수신하도록 구독할 수 있습니다. [자세히 보기](../reports/alerts.md#alert-dns-record-missing)
+* **채널 구성 모니터링 경고** - 이제 사용자 지정 하위 도메인 위임 유형을 사용하는 이메일 채널 구성 오류가 발생하는 경우 이메일 또는 Journey Optimizer 알림 센터에서 시스템 경고를 수신하도록 구독할 수 있습니다. [자세히 보기](../reports/alerts.md#alert-dns-record-missing)
 
 ## 25년 8월 릴리스 정보 {#25-8-rn}
 
@@ -357,8 +361,6 @@ ht-degree: 89%
    * **SMS 연결 확인** - 이제 샘플 메시지를 지정된 디바이스로 전송하여 Adobe Journey Optimizer 내에서 SMS API 자격 증명을 쉽게 테스트하고 확인할 수 있습니다. [자세히 보기](../sms/sms-configuration-sinch.md)
 
 * **구성**
-
-  &lt;!--* **동적 도메인 지원** - 이제 Journey Optimizer가 Adobe에서 허용하는 사전 정의된 도메인에 대한 전체/기본 URL 개인화를 지원합니다. 이 기능은 제한된 가용성으로 일부 고객에게만 제공됩니다. [자세히 읽기](../personalization/personalization-build-expressions.md#where)—8월 21일 업데이트: 영문본 프로덕션 배포 예정 확인 대기 중.-->
 
    * **원클릭 구독 취소 URL에 사용자 정의 특성 지원** - Journey Optimizer를 사용할 때 Adobe 외부에서 동의를 관리하는 경우 이메일 구성에서 원클릭 구독 취소 링크를 정의하여 외부 사용자 정의 엔드포인트를 설정할 수 있습니다. 수신자가 구독 취소 링크를 클릭하면 Journey Optimizer는 기본 프로필별 매개 변수 몇 가지를 동의 업데이트 이벤트에 추가합니다.
 
