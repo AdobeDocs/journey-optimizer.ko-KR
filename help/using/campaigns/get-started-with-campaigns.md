@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 캠페인, 방법 , 시작, Optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 5821bc3f3c6e81ae1ae7389bbca1bdcec11cc805
+source-git-commit: 4bd3e202935cfc971990faa7d1dd2f3d0d7cdc6d
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '879'
 ht-degree: 70%
 
 ---
@@ -57,6 +57,31 @@ ht-degree: 70%
 >id="ajo_campaigns_campaign_type"
 >title="캠페인 유형"
 >abstract="캠페인 유형을 선택합니다. 사용 가능한 채널은 선택한 유형에 따라 다릅니다. <br>**예약된 캠페인**(작업 캠페인) - 특정 시간에 실행하도록 예약할 수 있는 간단한 일회성 일괄 통신에 이상적입니다.<br>**API 트리거 캠페인** - API 호출을 통해 활성화되며, 외부 시스템에서 직접 자동화된 이벤트 기반 메시징을 사용할 수 있습니다.<br>**오케스트레이션된 캠페인** - 드래그하여 놓는 시각적 캔버스를 제공하여 대상자 세분화부터 채널 전반의 개인화된 메시지 게재에 이르기까지 복잡한 다단계 마케팅 워크플로를 디자인하고 자동화할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_create_orchestration"
+>title="캠페인"
+>abstract="세분화 플로우를 만들고 크로스 채널 메시지를 만들고 캠페인을 계획합니다. 지원되는 채널: 이메일, SMS, 푸시 알림."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_create_scheduled_marketing"
+>title="캠페인"
+>abstract="단일 또는 반복 아웃바운드 게재 또는 지속적인 인바운드 액션을 게재합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_create_scheduled_transactional"
+>title="캠페인"
+>abstract="단일 또는 반복 아웃바운드 트랜잭션 액션을 게재합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_create_api_marketing"
+>title="캠페인"
+>abstract="타깃 대상자에게 개인화된 마케팅 커뮤니케이션을 게재합니다. 지원 채널: 이메일, SMS, 푸시 알림."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_create_api_transactional"
+>title="캠페인"
+>abstract="개별 프로필이나 프로필 그룹에 트랜잭션 커뮤니케이션을 보내 보세요. 지원 채널: 이메일, SMS, 푸시 알림."
 
 Journey Optimizer 캠페인으로 다양한 채널을 사용하는 특정 대상자에 일회성 콘텐츠를 게재할 수 있습니다. 여정을 사용할 때 작업은 순서대로 실행됩니다. 캠페인을 사용하면 작업을 동시에 즉시 또는 지정한 일정에 따라 수행합니다.
 
@@ -117,7 +142,7 @@ Journey Optimizer에서 다양한 유형의 캠페인을 만들 수 있습니다
 
 1. [!DNL Permissions] 제품에서 사용자에게 역할을 할당하려면 **[!UICONTROL 역할]** 탭으로 이동하여 위에 설명된 기본 제공 캠페인 관련 **[!UICONTROL 역할]** 중 하나를 선택하십시오.
 
-1. **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
+1.  **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
 
 1. 사용자 이름 또는 이메일 주소를 입력하거나 목록에서 사용자를 선택하고 **[!UICONTROL 저장]**&#x200B;합니다.
 
