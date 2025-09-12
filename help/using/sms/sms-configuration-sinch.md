@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 85ae4e99e804e50451b3f108e1fddc041f269620
 workflow-type: tm+mt
-source-wordcount: '1107'
+source-wordcount: '1146'
 ht-degree: 2%
 
 ---
@@ -57,7 +57,7 @@ Journey Optimizer에서 SMS 메시지 및 MMS를 전송하도록 Sinch 공급자
    | 옵트아웃 메시지 | 옵트아웃 메시지로 자동 전송되는 사용자 지정 응답을 입력합니다. |
    | 도움말 키워드 | **도움말 메시지**&#x200B;를 자동으로 트리거할 기본 또는 사용자 지정 키워드를 입력하십시오. 여러 키워드의 경우 쉼표로 구분된 값을 사용하십시오. |
    | 도움말 메시지 | **도움말 메시지**(으)로 자동으로 전송되는 사용자 지정 응답을 입력하십시오. |
-   | 이중 옵트인 키워드 | 이중 옵트인 프로세스를 트리거하는 키워드를 입력합니다. 사용자 프로필이 존재하지 않으면 확인 후 생성됩니다. 여러 키워드의 경우 쉼표로 구분된 값을 사용하십시오. [SMS 이중 옵트인에 대해 자세히 알아보기](https://video.tv.adobe.com/v/3440286/?learn=on&captions=kor). |
+   | 이중 옵트인 키워드 | 이중 옵트인 프로세스를 트리거하는 키워드를 입력합니다. 사용자 프로필이 존재하지 않으면 확인 후 생성됩니다. 여러 키워드의 경우 쉼표로 구분된 값을 사용하십시오. [SMS 이중 옵트인에 대해 자세히 알아보기](https://video.tv.adobe.com/v/3427129/?learn=on). |
    | 이중 옵트인 메시지 | 이중 옵트인 확인에 대한 응답으로 자동으로 전송되는 사용자 지정 응답을 입력합니다. |
    | 인바운드 번호 | 고유한 인바운드 번호 또는 짧은 코드를 추가합니다. 이를 통해 서로 다른 샌드박스에서 동일한 API 자격 증명을 사용할 수 있습니다. 각 샌드박스는 고유한 인바운드 번호 또는 짧은 코드를 갖습니다. |
    | 사용자 지정 인바운드 키워드 | 특정 작업(예: 할인, 오퍼, 등록)에 대한 고유 키워드를 정의합니다. 이러한 키워드는 프로필의 속성으로 캡처 및 저장되므로 여정 내에서 스트리밍 세그먼트 자격을 트리거하고 사용자 지정된 응답 또는 작업을 제공할 수 있습니다. |
@@ -117,6 +117,7 @@ Journey Optimizer을 사용하여 MMS를 전송하도록 Sinch MMS를 구성하�
 
 API 자격 증명을 만들고 구성한 후에는 MMS 메시지에 대한 채널 구성을 만들어야 합니다. [자세히 알아보기](sms-configuration-surface.md)
 
+
 ## RCS에 대한 API 자격 증명 구성
 
 <!--![](assets/do-not-localize/rcs-sms.png)-->
@@ -125,19 +126,32 @@ RCS(Rich Communication Services) 메시징은 Sinch를 통해 Journey Optimizer�
 
 프로필의 장치가 RCS를 지원하지 않거나 일시적으로 RCS를 통해 연결할 수 없는 경우 메시지는 자동으로 SMS로 대체됩니다.
 
-➡️ [Sinch 설명서에서 Sinch가 RCS를 지원하는 방법을 살펴봅니다](https://sinch.com/blog/rcs-api-guide/)
+### 고급 RCS 메시지
 
-Sinch로 RCS를 구성하려면
+>[!AVAILABILITY]
+>
+> 고급 RCS 메시지는 Sinch가 관리하는 직접 계정에서만 사용할 수 있습니다.
 
 1. **브랜드 RCS 에이전트 설정**
 
-   Adobe 담당자에게 문의하여 브랜드 RCS 에이전트를 설정하십시오. [브랜드 RCS 에이전트에 대해 자세히 알아보기](https://community.sinch.com/t5/RCS/Getting-Started-with-RCS-using-Conversation-API/ta-p/17844)
+   Sinch 대시보드에서 브랜드 RCS 에이전트를 만듭니다. [브랜드 RCS 에이전트에 대해 자세히 알아보기](https://community.sinch.com/t5/RCS/Getting-Started-with-RCS-using-Conversation-API/ta-p/17844)
 
-1. **[Sinch API 자격 증명 설정](#create-api)**
+1. **사용자 지정 API 자격 증명 설정[](sms-configuration-custom.md)**
 
-   RCS 에이전트가 승인되면 액세스 키, 암호 및 서비스 플랜 ID가 포함된 Sinch API 자격 증명을 설정해야 합니다. Journey Optimizer은 이러한 자격 증명을 사용하여 Sinch의 플랫폼을 통해 메시지를 인증하고 전송합니다.
+   RCS 에이전트가 승인되면 AppId, 이름, URL 및 인증 유형을 포함하는 사용자 정의 API 자격 증명을 설정해야 합니다.
+
+1. **공급자 페이로드로 RCS를 구성합니다.**
+
+   [사용자 지정 API 자격 증명](sms-configuration-custom.md)에서 공급자 페이로드를 추가하여 RCS 메시지의 유효성을 검사하고 사용자 지정합니다.
 
 1. **RCS 메시지에 대한 [채널 구성](sms-configuration-surface.md)을 만듭니다**
 
    Sinch 자격 증명을 연결하고 메시징 매개 변수를 정의하여 Journey Optimizer에서 채널 표면을 구성합니다. 이 설정을 통해 Journey Optimizer에서 RCS 메시지를 구성하고 전송할 수 있습니다.
+
+1. **SMS 메시지 만들기 및 개인화[2}](../sms/create-sms.md)**
+
+   페이로드를 SMS 콘텐츠에 직접 붙여넣어 RCS(Rich Communication Services) 메시지를 임베드하고 전달합니다.
+
+   ➡️ [Sinch 설명서에서 Sinch가 RCS를 지원하는 방법을 살펴봅니다](https://sinch.com/blog/rcs-api-guide/)
+
 
