@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Experimentation Accelerator
+title: Experimentation Accelerator 모니터
 description: 실험을 효과적으로 수행하고 통찰력을 생성할 수 있는 역량 향상
 feature: Experimentation
 topic: Content Management
@@ -10,19 +10,22 @@ level: Beginner
 keywords: 내용, 실험, 복수, 대상자, 처리
 hide: true
 hidefromtoc: true
-source-git-commit: e4d5631701c5c270af7aec931f6b98a567b4ed29
+source-git-commit: 50dcdd30e21fe1b12d502a2b9c478f4ceb546c49
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1069'
 ht-degree: 1%
 
 ---
 
-# 실험 탭 {#monitor}
+# 실험 추적 {#monitor}
 
 >[!BEGINSHADEBOX]
 
 * [Experimentation Accelerator 시작](experiment-accelerator.md)
-* **[실험 탭](experiment-accelerator-monitor.md)**
+* [Experimentation Accelerator을 사용한 AI의 데이터 사용](experiment-accelerator-security.md)
+* [Experimentation Accelerator 우수 사례](experiment-accelerator-best-practices.md)
+* **[실험 모니터링](experiment-accelerator-monitor.md)**
+* [실험 지표](experiment-accelerator-metrics.md)
 
 >[!ENDSHADEBOX]
 
@@ -180,6 +183,6 @@ KPI 섹션은 생성된 총 실험 수와 현재 진행 중인 횟수를 포함�
 
 **[!UICONTROL 실험 인사이트]**&#x200B;는 이 실험에서 파생된 AI 생성 학습입니다. 이러한 통찰력은 실험이 통계적 중요도에 도달하면 사용할 수 있으며 성공에 기여한 사항을 맥락적으로 이해할 수 있습니다. 이들은 결과에 영향을 미칠 수 있는 통제와 달리 승리 치료에 존재하는 주요 속성을 강조합니다.
 
-실험 인사이트를 생성하려면 먼저 [가설 및 처리 세부 사항을 확인](#set-up)해야 합니다.
+실험 인사이트를 생성하려면 먼저 [가설 및 처리 세부 정보를 확인](#set-up)해야 하며 통계적 유의성에 도달해야 합니다.
 
 각 인사이트에 대한 자세한 내용을 보려면 **[!UICONTROL 세부 정보 보기]**&#x200B;를 클릭하십시오.
