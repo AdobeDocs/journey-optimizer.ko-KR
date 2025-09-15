@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: 이메일, 디자인, 접근성
-source-git-commit: 09a6ec5bf04a1252fea8724d587b46f688842906
+source-git-commit: 57890eede1d5a0de6002f31b9ce8807a903b84f7
 workflow-type: tm+mt
 source-wordcount: '1610'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 >
 >반면 [!DNL Journey Optimizer] 인터페이스 자체의 액세스 가능성은 [이 섹션](../start/accessibility.md)에 자세히 설명되어 있습니다.
 > 
->## 텍스트 가독성 확인 {#text-readability}
+## 텍스트 가독성 확인 {#text-readability}
 
 **[!UICONTROL Text]** 구성 요소의 **[!UICONTROL Styles]** 탭을 사용하여 적절한 색상 대비 및 간단한 글꼴을 사용하는 등 텍스트를 읽을 수 있도록 합니다. [자세히 알아보기](content-components.md#text)
 
@@ -102,7 +102,7 @@ ht-degree: 0%
 
 전자 메일 Designer 관련 구조 및 [콘텐츠 구성 요소](content-components.md)와 **[!UICONTROL 스타일]** 창의 옵션을 사용하여 모든 사용자가 액세스할 수 있는 명확하고 논리적이며 간결한 방법으로 콘텐츠를 구성하십시오.
 
-![](assets/accessible-components.png){width="1000%"}
+![](assets/accessible-components.png){width="100%"}
 
 * 적절한 제목, 단락, 목록 및 표와 함께 구조화된 의미 있는 HTML을 사용하십시오.
 * 컨텐츠가 논리적 왼쪽에서 오른쪽, 위에서 아래로 흐름을 따르는지 확인합니다.
