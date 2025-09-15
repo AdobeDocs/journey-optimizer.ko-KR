@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+source-git-commit: 6f4ec598a56b0e835e1e866f24dcc016f6835be8
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 4%
@@ -224,7 +224,7 @@ if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.p
 
 +++
 
-+++컨텍스트 데이터 {#context-data}을(를) 기반으로 오퍼 증폭
++++컨텍스트 데이터를 기반으로 오퍼 증폭
 
 [!DNL Journey Optimizer]을(를) 사용하면 호출에서 전달되는 컨텍스트 데이터를 기반으로 특정 오퍼를 늘릴 수 있습니다. 예를 들어 `contextData.weather=hot`이(가) 전달되면 `attribute=hot`이(가) 있는 모든 오퍼의 우선 순위를 높여야 합니다.
 
