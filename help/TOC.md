@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 50dcdd30e21fe1b12d502a2b9c478f4ceb546c49
+source-git-commit: 0e269babd228063d465e0790435d916e479701a7
 workflow-type: tm+mt
 source-wordcount: '2940'
 ht-degree: 98%
@@ -325,14 +325,14 @@ ht-degree: 98%
             + [개인화된 오퍼 삽입](using/email/add-offers-email.md)
             + [텍스트 버전 생성](using/email/text-version-email.md)
             + [메타데이터 추가](using/email/email-metadata.md)
-            + [사용자 정의 CSS 추가](using/email/custom-css.md)
          + 스타일 편집 {#edit-style}
             + [스타일 편집](/help/rp_landing_pages/edit-style-landing-page.md)
             + [이메일 스타일 시작](using/email/get-started-email-style.md)
             + [배경 설정 편집](using/email/backgrounds.md)
             + [세로 정렬 및 패딩 조정](using/email/alignment-and-padding.md)
             + [인라인 스타일 속성 추가](using/email/inline-styling.md)
-            + [다크 모드 콘텐츠 정의](using/email/dark-mode.md)
+            + [사용자 정의 CSS 추가](using/email/custom-css.md)
+            + [다크 모드 콘텐츠 관리](using/email/dark-mode.md)
          + [액세스 가능한 컨텐츠 만들기](using/email/accessible-content.md)
       + [이메일 옵트아웃 관리](using/email/email-opt-out.md)
       + 이메일 채널 구성 {#configure-email}
