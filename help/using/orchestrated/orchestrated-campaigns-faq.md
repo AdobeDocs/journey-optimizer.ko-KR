@@ -5,9 +5,9 @@ title: 오케스트레이션된 캠페인 FAQ
 description: Journey Optimizer 오케스트레이션 캠페인에 대한 FAQ
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 028f5d506d5fdbd2ed19ad7ded8c1fcd0a391702
+source-git-commit: aea8e1bc6f34400070234195f576fa7df59dca7d
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1000'
 ht-degree: 5%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 5%
 
 Adobe Journey Optimizer 오케스트레이션된 캠페인에 대한 FAQ는 다음과 같습니다.
 
-세부 정보가 필요하십니까? 이 페이지 하단의 피드백 옵션을 사용하여 질문을 제기하거나 [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"}에 연결하세요.
+세부 정보가 필요하십니까? 이 페이지 하단의 피드백 옵션을 사용하여 질문을 제기하거나 [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}에 연결하세요.
 
 ## Campaign 오케스트레이션이란? {#what-are-oc}
 
@@ -119,14 +119,14 @@ Adobe Journey Optimizer의 Campaign Orchestration은 관계형 데이터베이�
 
 >[!ENDSHADEBOX]
 
+<!--
+## Do Orchestrated campaigns integrate with other Adobe solutions? {#integrations}
 
-## 오케스트레이션된 캠페인이 다른 Adobe 솔루션과 통합됩니까? {#integrations}
+Yes. Campaign orchestration is natively integrated with:
 
-예. Campaign 오케스트레이션은 기본적으로 다음과 통합됩니다.
-
-* **Customer Journey Analytics**: Campaign 오케스트레이션 보고서를 사용할 수 있습니다.
-* **Real-Time CDP**: 캠페인에 빌드된 대상은 Real-Time CDP에서 읽을 수 있습니다.
-* **FAC(Federated Audience Composition)**: 추가 기능으로 사용할 수 있습니다.
+* **Customer Journey Analytics**: Campaign orchestration reports are available.  
+* **Real-Time CDP**: Audiences built in Campaigns can be read in Real-Time CDP.  
+* **Federated Audience Composition (FAC)**: Available as an add-on.  -->
 
 ## 권한 및 동의는 어떻게 됩니까? {#permissions}
 
