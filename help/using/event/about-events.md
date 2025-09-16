@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 이벤트, 이벤트, 여정, 정의, 시작
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 8701afe345f0eeed1503e4765d4715398823b102
+source-git-commit: 8205d248d986cdc1a2262705c58524c2434265f5
 workflow-type: tm+mt
 source-wordcount: '1079'
 ht-degree: 47%
@@ -54,7 +54,7 @@ ht-degree: 47%
 
   >[!CAUTION]
   >
-  >상한 설정 규칙은 규칙 기반 이벤트에 대해 정의됩니다. 여정이 처리할 수 있는 적격 이벤트 수를 주어진 조직에 대해 초당 5,000개로 제한합니다. Journey Optimizer SLA에 해당합니다. Journey Optimizer 라이선스 및 [Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html)을 참조하세요.
+  >상한 설정 규칙은 규칙 기반 이벤트에 대해 정의됩니다. 여정이 처리할 수 있는 적격 이벤트 수를 주어진 조직에 대해 초당 5,000개로 제한합니다. Journey Optimizer SLA에 해당합니다. Journey Optimizer 라이선스 및 [Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}을 참조하세요.
 
 * **시스템 생성** 이벤트: 이러한 이벤트에는 eventID가 필요합니다. 이 eventID 필드는 이벤트를 만들 때 자동으로 생성됩니다. 이벤트를 푸시하는 시스템은 ID를 생성하지 않아야 하며 페이로드 미리 보기에서 사용할 수 있는 ID를 전달해야 합니다.
 
@@ -83,8 +83,8 @@ POST API 호출인 이벤트는 이벤트는 스트리밍 수집 API를 통해 A
 
 이벤트를 구성하고 이벤트에 대한 스트리밍 엔드포인트 및 페이로드를 지정하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431519?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 비즈니스 이벤트의 사용 사례를 이해합니다. 비즈니스 이벤트를 사용하여 여정을 작성하는 방법과 상황에 따라 적합한 모범 사례를 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416327?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)

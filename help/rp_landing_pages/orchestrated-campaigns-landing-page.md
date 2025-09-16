@@ -5,22 +5,22 @@ title: 오케스트레이션된 캠페인
 description: 오케스트레이션된 캠페인
 redpen-status: CREATED_||_2025-08-11_20-27-33
 exl-id: 31f3668f-99fb-4388-a379-4979c63b7b3a
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
-source-wordcount: '247'
-ht-degree: 100%
+source-git-commit: 8205d248d986cdc1a2262705c58524c2434265f5
+workflow-type: tm+mt
+source-wordcount: '263'
+ht-degree: 77%
 
 ---
 
 # 오케스트레이션된 캠페인{#section-overview}
 
-Adobe Journey Optimizer의 오케스트레이션된 캠페인을 통해 대규모로 적절한 대상자에게 적절한 메시지를 제공하는 정교한 다단계 마케팅 캠페인을 디자인하고 실행할 수 있습니다. 이 배치 여정은 실시간 캠페인과 달리 대상자 세그먼트와 프로필을 함께 처리하므로 예약된 데이터 기반 마케팅 이니셔티브에 적합합니다. 대상자 세분화, 전환, 작업 테이블과 같은 활동이 상호 작용하여 매끄러운 워크플로를 형성하는 방식을 살펴봅니다. 그 과정에서 직관적인 시각적 캔버스를 통해 오케스트레이션된 캠페인이 여정과 어떻게 다른지 알아보고, 개인화를 위해 데이터를 구성하고, 캠페인을 작성 및 실행하고, 성능을 최적화하는 방법에 대해 알아봅니다. 여러분의 마케팅 자동화를 한 단계 끌어올릴 준비를 하세요!
+Adobe Journey Optimizer의 오케스트레이션된 캠페인을 통해 대규모로 적절한 대상자에게 적절한 메시지를 제공하는 정교한 다단계 마케팅 캠페인을 디자인하고 실행할 수 있습니다. 이 배치 여정은 실시간 캠페인과 달리 대상자 세그먼트와 프로필을 함께 처리하므로 예약된 데이터 기반 마케팅 이니셔티브에 적합합니다. 대상 세그멘테이션, 전환 및 작업 테이블과 같은 활동이 함께 작동하여 원활한 워크플로우를 만드는 방법을 살펴봅니다. 그 과정에서 직관적인 시각적 캔버스를 통해 오케스트레이션된 캠페인이 여정과 어떻게 다른지 배우고, 개인화를 위해 데이터를 구성하고, 캠페인을 빌드 및 실행하고, 성능을 최적화하는 방법에 대해 알아봅니다. 여러분의 마케팅 자동화를 한 단계 끌어올릴 준비를 하세요!
 
 ## 오케스트레이션된 캠페인 개요
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 오케스트레이션된 캠페인 소개
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 오케스트레이션된 캠페인의 핵심 기능, 구
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 가드레일 및 제한 사항
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 오케스트레이션된 캠페인의 핵심 기능, 구
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 오케스트레이션된 캠페인을 위한 데이터 구성
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 오케스트레이션된 캠페인의 핵심 기능, 구
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 오케스트레이션된 캠페인 시작 및 관리
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 오케스트레이션된 캠페인의 핵심 기능, 구
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 오케스트레이션된 캠페인을 위한 데이터베이스 쿼리
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 오케스트레이션된 캠페인의 핵심 기능, 구
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 캠페인 활동 종합 안내서
 
@@ -80,3 +80,8 @@ Adobe Journey Optimizer 오케스트레이션된 캠페인의 핵심 기능, 구
 :::
 
 ::::
+
+## 추가 리소스
+
+- **[자주 묻는 질문](../using/orchestrated/orchestrated-campaigns-faq.md)** - Adobe Journey Optimizer 오케스트레이션된 캠페인에 대한 FAQ 살펴보기
+.

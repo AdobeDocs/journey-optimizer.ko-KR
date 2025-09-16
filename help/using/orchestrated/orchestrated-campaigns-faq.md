@@ -3,13 +3,11 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 오케스트레이션된 캠페인 FAQ
 description: Journey Optimizer 오케스트레이션 캠페인에 대한 FAQ
-hide: true
-hidefromtoc: true
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 96b8813ebad35f51986cc62d847d9d3d256b08be
+source-git-commit: 8205d248d986cdc1a2262705c58524c2434265f5
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: '1124'
 ht-degree: 4%
 
 ---
@@ -18,7 +16,7 @@ ht-degree: 4%
 
 Adobe Journey Optimizer 오케스트레이션된 캠페인에 대한 FAQ는 다음과 같습니다.
 
-세부 정보가 필요하십니까? 이 페이지 하단의 피드백 옵션을 사용하여 질문을 제기하십시오.
+세부 정보가 필요하십니까? 이 페이지 하단의 피드백 옵션을 사용하여 질문을 제기하거나 [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}에 연결하세요.
 
 ## Campaign 오케스트레이션이란? {#what-are-oc}
 
@@ -52,6 +50,7 @@ Campaign Orchestration은 관계형 데이터 저장소를 활용하여 일괄 �
 
 캠페인 오케스트레이션에 액세스하려면 라이선스에 **Journey Optimizer - 캠페인 및 여정** 또는 **Journey Optimizer - 캠페인** 패키지가 포함되어야 합니다. 필요한 경우 Adobe 담당자에게 문의하여 라이선스를 확인하고 업데이트하십시오.
 
+[Adobe Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}에서 Campaign Orchestration 라이선스 모델에 대해 자세히 알아보세요.
 
 ## 지원되는 채널은 무엇입니까? {#channels}
 
