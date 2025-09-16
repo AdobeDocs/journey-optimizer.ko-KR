@@ -10,7 +10,7 @@ exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
 source-git-commit: 1c47c89ae86844399240d48c4d19f834d90c7598
 workflow-type: tm+mt
 source-wordcount: '1088'
-ht-degree: 5%
+ht-degree: 10%
 
 ---
 
@@ -35,12 +35,12 @@ ht-degree: 5%
 
 ➡️ [이 비디오에서 캠페인의 최적화에 대해 자세히 알아보세요](#video)
 
-## 타깃팅 활용 {#targeting}
+## 타기팅 활용 {#targeting}
 
 >[!CONTEXTUALHELP]
 >id="ajo_content_targeting_fallback"
 >title="대체 콘텐츠란 무엇입니까?"
->abstract="대체 콘텐츠 를 사용하면 타깃팅 규칙이 적격하지 않을 때 대상자가 기본 콘텐츠를 받을 수 있습니다.</br>이 옵션을 선택하지 않으면 위에서 정의한 타깃팅 규칙에 적합하지 않은 대상은 콘텐츠를 받지 않습니다."
+>abstract="대체 콘텐츠를 사용하면 타기팅 규칙을 충족하지 않는 대상자가 기본 콘텐츠를 받을 수 있습니다.</br>이 옵션을 선택하지 않으면 위에 정의된 타기팅 규칙에 적합하지 않은 대상자는 콘텐츠를 받지 못합니다."
 
 타깃팅은 사용자 프로필 속성 또는 컨텍스트 속성에 따라 개인화된 콘텐츠를 특정 대상 세그먼트에 전달합니다.
 
@@ -186,4 +186,4 @@ E.g. explaining how a marketer can look at the report to determine which treatme
 
 작업 또는 API 트리거 캠페인에서 메시지 최적화를 활용하는 방법을 알아봅니다. 하위 대상자를 타기팅하고, 위치별 메시지 베리에이션을 만들고, 대체 콘텐츠를 활성화하고, 단일 캠페인 내에서 여러 실험을 실행하는 방법을 알 수 있습니다. 이 튜토리얼에서는 메시지 일관성을 유지하면서 멀티채널 캠페인을 관리하는 방법도 다룹니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3470375?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)

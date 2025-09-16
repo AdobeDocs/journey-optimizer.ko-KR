@@ -13,7 +13,7 @@ exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
 source-git-commit: e411778cc873a24e4846e7acbe439222dd6e4c82
 workflow-type: tm+mt
 source-wordcount: '1161'
-ht-degree: 7%
+ht-degree: 25%
 
 ---
 
@@ -22,27 +22,27 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_catalogs_dataset"
 >title="데이터 세트 조회"
->abstract="의사 결정에 Adobe Experience Platform의 특성을 사용하려면 매핑을 만들어 Adobe Experience Platform 데이터 집합이 [!DNL Journey Optimizer]의 데이터와 결합하는 방법을 정의해야 합니다."
+>abstract="의사 결정을 위해 Adobe Experience Platform의 속성을 사용하려면 Adobe Experience Platform 데이터 세트가 [!DNL Journey Optimizer]의 데이터와 어떻게 결합되는지 정의하는 매핑을 만들어야 합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_catalogs_dataset_create"
 >title="데이터 세트 조회"
->abstract="조회가 활성화된 모든 Adobe Experience Platform 데이터 세트 중에서 필요한 특성이 있는 데이터 세트를 선택한 다음, 의사 결정 항목 속성과 데이터 세트 모두에 있는 매핑 키(예: 비행 번호 또는 고객 ID)를 선택합니다."
+>abstract="조회에 대해 활성화된 모든 Adobe Experience Platform 데이터 세트 중에서 필요한 속성이 포함된 데이터 세트를 선택한 다음, 결정 항목 속성 및 데이터 세트 모두에 있는 매핑 키(예: 비행 번호 또는 고객 ID)를 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_rules_dataset_lookup"
 >title="데이터 세트 조회"
->abstract="필요한 속성을 사용하여 Adobe Experience Platform 데이터 세트를 선택합니다. 데이터 세트가 목록에 표시되지 않으면 조회에 대해 활성화했으며 데이터 세트 조회 매핑을 만들었는지 확인하십시오."
+>abstract="필요한 속성이 포함된 Adobe Experience Platform 데이터 세트를 선택합니다. 목록에 데이터 세트가 표시되지 않으면 조회에 대해 데이터 세트를 활성화하고 데이터 세트 조회 매핑을 생성했는지 확인합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_formula_dataset_lookup"
 >title="데이터 세트 조회"
->abstract="[!DNL Adobe Experience Platform] 데이터 세트 특성을 사용하여 실제 상황을 반영하도록 순위 논리를 동적으로 조정합니다. 필요한 특성이 있는 Adobe Experience Platform 데이터 집합을 선택하려면 **[!UICONTROL 데이터 집합 추가]**&#x200B;를 클릭하십시오. 데이터 세트가 목록에 표시되지 않으면 조회에 대해 활성화했으며 데이터 세트 조회 매핑을 만들었는지 확인하십시오."
+>abstract="[!DNL Adobe Experience Platform] 데이터 세트 속성을 사용하여 실제 조건을 반영하도록 순위 논리를 동적으로 조정합니다. **[!UICONTROL 데이터 세트 추가]**&#x200B;를 클릭하여 필요한 속성이 포함된 Adobe Experience Platform 데이터 세트를 선택합니다. 목록에 데이터 세트가 표시되지 않으면 조회에 대해 데이터 세트를 활성화하고 데이터 세트 조회 매핑을 생성했는지 확인합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_capping_dataset"
 >title="데이터 세트 추가"
->abstract="[!DNL Adobe Experience Platform] 데이터 세트 특성을 사용하여 동적, 외부 특성을 기반으로 한도 기준을 정의합니다. 필요한 특성이 있는 Adobe Experience Platform 데이터 집합을 선택하려면 **[!UICONTROL 데이터 집합 추가]**&#x200B;를 클릭하십시오. 데이터 세트가 목록에 표시되지 않으면 조회에 대해 활성화했으며 데이터 세트 조회 매핑을 만들었는지 확인하십시오."
+>abstract="[!DNL Adobe Experience Platform] 데이터 세트 속성을 사용하여 동적 외부 속성을 기반으로 상한 기준을 정의합니다. **[!UICONTROL 데이터 세트 추가]**&#x200B;를 클릭하여 필요한 속성이 포함된 Adobe Experience Platform 데이터 세트를 선택합니다. 목록에 데이터 세트가 표시되지 않으면 조회에 대해 데이터 세트를 활성화하고 데이터 세트 조회 매핑을 생성했는지 확인합니다."
 
 >[!AVAILABILITY]
 >

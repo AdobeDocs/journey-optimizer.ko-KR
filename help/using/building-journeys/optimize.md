@@ -161,7 +161,7 @@ ht-degree: 6%
 
 +++
 
-## 타깃팅 활용 {#targeting}
+## 타기팅 활용 {#targeting}
 
 >[!CONTEXTUALHELP]
 >id="ajo_path_targeting_fallback"
