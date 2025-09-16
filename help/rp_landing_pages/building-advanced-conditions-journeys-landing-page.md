@@ -5,10 +5,10 @@ title: 표현식 작성
 description: 표현식 작성
 redpen-status: CREATED_||_2025-08-11_20-19-10
 exl-id: 6ccd0bc7-fb40-48de-abcb-0cb1eb2c6303
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
-source-wordcount: '183'
-ht-degree: 100%
+source-git-commit: a5f0b47b9af31c1ae1fd6ae3dffd4c260444297a
+workflow-type: tm+mt
+source-wordcount: '246'
+ht-degree: 95%
 
 ---
 
@@ -48,5 +48,27 @@ Adobe Journey Optimizer의 함수
 
 [사용 가능한 기능 살펴보기](main-functions-journey-landing-page.md)
 :::
+
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+
+Journey Optimizer 데이터 세트의 쿼리 샘플 및 관련 사용 사례
+
+다양한 사용 사례에 대한 Journey Optimizer 데이터 세트에서 데이터를 분석하고 관리하기 위한 실용적인 SQL 쿼리 예시에 액세스합니다.
+
+[사용 사례 살펴보기](../using/data/datasets-query-examples.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+
+데이터 분석을 위한 SQL 쿼리 예
+
+문제 해결부터 보고 및 대상자 세분화에 이르기까지 데이터 레이크에서 Journey Optimizer 데이터를 분석하기 위한 예시 SQL 쿼리를 확인해 보세요.
+
+[여정 생성 살펴보기](../using/reports/query-examples.md)
+:::
+
 
 ::::
