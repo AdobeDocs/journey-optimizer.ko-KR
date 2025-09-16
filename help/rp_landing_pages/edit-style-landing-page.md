@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: 스타일 편집
 description: 스타일 편집
 redpen-status: CREATED_||_2025-08-11_20-32-57
-source-git-commit: e8b71a7efe1ca05a33bc6f33253900a58fa6665c
-workflow-type: tm+mt
+exl-id: c4269d5d-95fa-4b00-add5-42a26ab0de9f
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '175'
-ht-degree: 12%
+ht-degree: 100%
 
 ---
-
 
 # 스타일 편집{#section-overview}
 
@@ -20,27 +20,27 @@ Adobe Journey Optimizer의 이메일 Designer에는 시각적으로 매력적인
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 이메일 스타일 사용자 지정
 
-Adobe Journey Optimizer을 사용하여 이메일 본문, 구조 및 콘텐츠 구성 요소와 같은 스타일 매개 변수를 조정하는 방법을 알아봅니다.
+Adobe Journey Optimizer를 사용하여 이메일 본문, 구조 및 콘텐츠 구성 요소와 같은 스타일 매개 변수를 조정하는 방법을 알아봅니다.
 
 [이메일 스타일 시작](../using/email/get-started-email-style.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-이메일 개인화 배경
+이메일 배경 개인화
 
-Adobe Journey Optimizer의 이메일 Designer에서 다양한 수준의 이메일 구조에서 배경색 및 이미지를 설정하는 방법을 알아봅니다.
+Adobe Journey Optimizer의 이메일 디자이너에서 다양한 수준의 이메일 구조에서 배경색 및 이미지를 설정하는 방법을 알아봅니다.
 
 [배경 설정 편집](../using/email/backgrounds.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 세로 정렬 및 패딩 조정
 
@@ -50,11 +50,11 @@ Adobe Journey Optimizer의 이메일 Designer에서 다양한 수준의 이메�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 인라인 스타일 속성 추가
 
-이메일 Designer 인터페이스를 사용하여 이메일 콘텐츠의 개별 요소에 대한 인라인 스타일 특성을 사용자 지정하는 방법을 알아봅니다.
+이메일 디자이너 인터페이스를 사용하여 이메일 콘텐츠의 개별 요소에 대한 인라인 스타일 특성을 사용자 지정하는 방법을 알아봅니다.
 
 [인라인 스타일 속성 추가](../using/email/inline-styling.md)
 :::

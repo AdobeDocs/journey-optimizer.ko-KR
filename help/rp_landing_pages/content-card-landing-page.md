@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: 콘텐츠 카드
 description: 콘텐츠 카드
 redpen-status: CREATED_||_2025-08-11_20-43-30
-source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
-workflow-type: tm+mt
+exl-id: 4916bc53-a6d7-4d11-9a7f-3acf920c7a93
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '155'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
-
 
 # 콘텐츠 카드{#section-overview}
 
@@ -23,31 +23,31 @@ ht-degree: 50%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 콘텐츠 카드 채널 구성
 
-동적 개인화를 통해 웹, 모바일 및 키오스크 플랫폼을 위한 Content Cards 채널을 설정하고 통합합니다.
+동적 개인화를 통해 웹, 모바일 및 키오스크 플랫폼에 사용하는 콘텐츠 카드 채널을 설정하고 통합합니다.
 
 [채널 구성](configure-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 콘텐츠 카드 만들기 및 구성
 
 여정 또는 캠페인에서 개인화된 메시지를 보낼 수 있도록 콘텐츠 카드를 만들고, 맞춤화하고, 구현하는 단계별 튜토리얼입니다.
 
-[콘텐츠 카드 만들기 시작](../using/content-card/create-content-card.md)
+[콘텐츠 만들기 시작](../using/content-card/create-content-card.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 콘텐츠 카드 디자인
 
-개인화된 메시지, 미디어, 작업 버튼 및 사용자 지정 데이터를 사용하여 콘텐츠 카드를 디자인하고 사용자 지정할 수 있습니다.
+개인화된 메시지, 미디어, 액션 버튼 및 사용자 정의 데이터를 사용하여 콘텐츠 카드를 디자인하고 사용자 지정할 수 있습니다.
 
 [콘텐츠 카드 디자인에 대해 알아보기](../using/content-card/design-content-card.md)
 :::

@@ -4,57 +4,57 @@ product: Journey Optimizer
 title: API를 사용하여 오퍼 게재
 description: API를 사용하여 오퍼 게재
 redpen-status: CREATED_||_2025-08-11_21-04-29
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: 4f959425-2b45-4257-a0a6-09738913bd68
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '222'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
-
 # API를 사용하여 오퍼 게재{#section-overview}
 
-Adobe Journey Optimizer의 오퍼 게재 API를 사용하면 개인화된 마케팅 오퍼를 적절한 시간에 적절한 대상자에게 제공할 수 있으므로 여러 채널에 걸쳐 참여도가 향상됩니다. Edge Decisioning API를 사용하여 실시간 경험을 디자인하거나, Decisioning API를 사용하여 특정 오퍼를 맞춤화하거나, Batch Decisioning API를 통해 범위를 확장하는 등, 이러한 도구는 다양한 사용 사례에 대한 다목적 솔루션을 제공합니다. 컨텍스트 데이터 처리부터 빈도 제한 구현까지 각 API의 작동 방식을 살펴보고 비즈니스 요구 사항에 맞는 워크플로우를 알아봅니다. 더욱 스마트한 의사 결정과 원활한 통합을 통해 효과적인 고객 경험을 자신 있게 제공할 수 있습니다.
+Adobe Journey Optimizer의 오퍼 게재 API를 사용하면 맞춤형 마케팅 오퍼를 적절한 시간에 적절한 대상자에게 제공할 수 있으므로 여러 채널에서 참여도가 향상됩니다. Edge Decisioning API를 사용하여 실시간 경험을 디자인하거나, Decisioning API를 사용하여 특정 오퍼를 맞춤화하거나, Batch Decisioning API를 통해 범위를 확장하는 등, 이러한 도구는 다양한 사용 사례에 맞는 다목적 솔루션을 제공합니다. 컨텍스트 데이터 처리부터 빈도 상한 구현까지 각 API의 작동 방식을 살펴보고 비즈니스 요구에 맞는 워크플로우를 알아봅니다. 더욱 스마트한 의사 결정과 원활한 통합을 통해 고객에게 인상적인 경험을 자신 있게 제공할 수 있습니다.
 
 ## API를 사용하여 오퍼 게재
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 오퍼 게재 API 시작
 
-Decisioning, Edge Decisioning 및 Batch Decisioning API를 포함하여 개인화된 오퍼를 제공하는 데 사용할 수 있는 API에 대해 알아봅니다.
+Decisioning, Edge Decisioning 및 Batch Decisioning API를 포함하여 맞춤형 오퍼를 게재하는 데 사용할 수 있는 API에 대해 알아봅니다.
 
 [소개 읽기](../using/offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Decisioning API를 사용하여 오퍼 게재
 
-헤더, 요청 및 응답에 대한 자세한 지침과 함께 Decisioning API를 사용하여 개인화된 마케팅 오퍼를 만들고 전달합니다.
+헤더, 요청 및 응답에 대한 자세한 지침과 함께 Decisioning API를 사용하여 맞춤형 마케팅 오퍼를 만들고 게재합니다.
 
 [Decisioning API 탐색](../using/offers/api-reference/offer-delivery-api/decisioning-api.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Edge Decisioning API를 사용하여 오퍼 게재
 
-Edge Decisioning API를 통해 Adobe Experience Platform Web SDK을 사용하여 개인화된 오퍼 게재를 구현합니다.
+Edge Decisioning API를 통해 Adobe Experience Platform Web SDK를 사용하여 맞춤형 오퍼 게재를 구현합니다.
 
 [Edge Decisioning에 대해 알아보기](../using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Batch Decisioning API를 사용하여 오퍼 게재
 
-Batch Decisioning API를 활용하여 의사 결정을 일괄 처리하고 대상 프로필에 오퍼를 제공합니다.
+Batch Decisioning API를 활용하여 일괄 처리 결정을 내리고 대상 프로필에 오퍼를 게재합니다.
 
 [일괄 처리 의사 결정 시작](../using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 :::

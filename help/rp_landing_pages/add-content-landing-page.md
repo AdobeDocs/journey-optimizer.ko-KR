@@ -1,18 +1,18 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: 이메일 콘텐츠 디자인
-description: 이메일 콘텐츠 디자인
+title: 콘텐츠 디자인
+description: 콘텐츠 디자인
 redpen-status: CREATED_||_2025-08-11_20-32-28
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: 407918ea-abc5-45b4-96b5-3afbdfa89238
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '255'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
-
-# 이메일 콘텐츠 디자인{#section-overview}
+# 콘텐츠 디자인{#section-overview}
 
 Adobe Journey Optimizer에서 콘텐츠를 디자인하는 것은 대상과 연결하는 개인화되고 영향을 주는 이메일 경험을 만드는 것입니다. 동적 레이아웃, 재사용 가능한 시각적 조각 또는 사용자 지정된 링크를 추가하는지에 관계없이 각 도구는 함께 작동하여 이메일 디자인을 완벽하게 제어합니다. 또한 접근성을 위해 메타데이터를 통합하고, 관련성을 높이기 위해 오퍼를 개인화하고, 사용자 지정 CSS를 사용하여 고급 스타일을 적용하는 방법을 알아봅니다. 이러한 기능은 단계별 지침을 통해 시각적으로 놀라운 것은 물론, 목표 및 대상자의 요구 사항에 맞게 조정된 이메일을 작성할 수 있도록 해줍니다.
 
@@ -20,17 +20,17 @@ Adobe Journey Optimizer에서 콘텐츠를 디자인하는 것은 대상과 연�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 콘텐츠 구성 요소 사용
 
 텍스트, 단추, 이미지 등과 같은 구성 요소를 추가 및 사용자 지정하여 동적 이메일 레이아웃을 제작하는 방법에 대해 알아봅니다.
 
-[콘텐츠 구성 요소 사용 시작](../using/email/content-components.md)
+[콘텐츠 구성 요소 사용](../using/email/content-components.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg)
 
 시각적 조각 활용
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 콘텐츠를 디자인하는 것은 대상과 연�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 링크 추가 및 메시지 추적
 
@@ -50,17 +50,17 @@ Adobe Journey Optimizer에서 콘텐츠를 디자인하는 것은 대상과 연�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 개인화된 오퍼 삽입
 
 의사 결정 관리를 사용하여 대상에 맞게 개인화된 오퍼를 동적으로 표시할 수 있습니다.
 
-[개인화된 오퍼 추가](../using/email/add-offers-email.md)
+[맞춤형 오퍼 추가](../using/email/add-offers-email.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg)
 
 텍스트 버전 생성
 
@@ -70,7 +70,7 @@ HTML 콘텐츠를 볼 수 없는 수신자를 위해 이메일의 일반 텍스�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 메타데이터 추가
 

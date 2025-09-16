@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: 새로운 기능
 description: 새로운 기능
 redpen-status: CREATED_||_2025-08-11_20-03-09
-source-git-commit: cadb4a66c23010cb663eb1e840d0568021690edf
-workflow-type: tm+mt
+exl-id: 24460cae-3944-4ac4-9076-aca521cfddbd
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '292'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
-
 
 # 새로운 기능{#section-overview}
 
@@ -35,7 +35,7 @@ Adobe Journey Optimizer의 Adobe Express 통합을 통해 콘텐츠를 만드는
 
 Immerse yourself in a hands-on experience with our [AI Assistant](../help/using/content-management/gs-generative.md) live feature preview, designed to let you explore its features firsthand and fully understand its capabilities.
 
-[![learn more](../using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/ko/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
+[![learn more](../using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
 
 >[!TAB AEM 콘텐츠 조각]
 
@@ -50,31 +50,31 @@ Immerse yourself in a hands-on experience with our [AI Assistant](../help/using/
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Adobe Journey Optimizer에 대한 최신 릴리스 노트
+Adobe Journey Optimizer 최신 릴리스 정보
 
-Campaign 오케스트레이션, 최적화 및 향상된 채널 지원을 포함하여 Adobe Journey Optimizer의 최신 기능, 개선 사항 및 업데이트를 살펴보십시오.
+캠페인 오케스트레이션, 최적화, 향상된 채널 지원을 포함하여 Adobe Journey Optimizer의 최신 기능, 향상된 기능, 업데이트를 알아봅니다.
 
 [최신 릴리스 정보 보기](../using/rn/release-notes.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Adobe Journey Optimizer에 대한 이전 릴리스 노트
 
-Adobe Journey Optimizer 전반의 기능, 통합 및 개선 사항에 대한 세부 업데이트를 통해 이전 해의 포괄적인 릴리스 정보를 살펴보십시오.
+Adobe Journey Optimizer의 기능, 통합, 개선 사항에 대한 자세한 업데이트와 함께 지난 몇 년의 포괄적인 릴리스 노트를 살펴봅니다.
 
 [이전 릴리스 정보 찾아보기](previous-rn-new-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
-Adobe Journey Optimizer 설명서에 대한 최신 업데이트
+Adobe Journey Optimizer 설명서의 최신 업데이트
 
-월별 및 연도별로 구성된 Adobe Journey Optimizer 설명서의 최근 업데이트 및 변경 사항에 대한 최신 정보를 제공합니다.
+월별, 연도별로 정리된 Adobe Journey Optimizer 설명서의 최신 업데이트와 변경 사항을 알아봅니다.
 
 [설명서 업데이트 보기](../using/rn/documentation-updates.md)
 :::
