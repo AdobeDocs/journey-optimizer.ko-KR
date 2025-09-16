@@ -3,18 +3,15 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 다크 모드로 전환
 description: 이메일 Designer에서 다크 모드를 사용하는 방법에 대해 알아봅니다.
-badge: label="Beta" type="Informative"
 feature: Email Design
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: 다크 모드, 이메일, 색상, 편집기
-hide: true
-hidefromtoc: true
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
-source-git-commit: 6106c2cbd77a9962a0d496cdda3a7e6118e90bf0
+source-git-commit: b6f0174b31b4ef317c18644a93a4ae38a712fb36
 workflow-type: tm+mt
-source-wordcount: '1527'
+source-wordcount: '1513'
 ht-degree: 4%
 
 ---
@@ -30,10 +27,6 @@ ht-degree: 4%
 >id="ac_edition_darkmode_preview"
 >title="다크 모드로 전환"
 >abstract="다크 모드로 전환하여 지원되는 이메일 클라이언트에서 어떻게 렌더링되는지 미리 확인합니다. <br>최종 렌더링은 받는 사람의 전자 메일 클라이언트에 따라 다릅니다. 모든 이메일 클라이언트가 다크 모드를 지원하지 않습니다."
-
->[!AVAILABILITY]
->
->이 기능은 현재 Beta 버전으로 Beta 고객에게만 제공됩니다. <!--To join the beta program, contact your Adobe representative.-->
 
 전자 메일을 디자인할 때 [!DNL Journey Optimizer] [전자 메일 Designer](get-started-email-design.md)을(를) 사용하면 **[!UICONTROL 어두운 모드]** 보기로 전환할 수 있습니다.
 
