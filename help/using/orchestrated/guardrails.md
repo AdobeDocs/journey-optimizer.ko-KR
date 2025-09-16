@@ -5,9 +5,9 @@ title: 조정된 캠페인 보호 및 제한 사항
 description: 오케스트레이션된 캠페인 보호 및 제한 사항에 대해 알아봅니다
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
-source-git-commit: 35cd3aac01467b42d0cba22de507f11546f4feb9
+source-git-commit: 359a2e5b60ba035e300f452e1211245f8f689609
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '459'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # 가드레일 및 제한 사항 {#guardrails}
 
-오케스트레이션된 캠페인을 사용할 때의 추가 보호 기능 및 제한 사항은 다음과 같습니다.
+오케스트레이션된 캠페인을 사용할 때는 다음과 같은 보호 기능 및 제한 사항이 있습니다.
 
 ## 데이터 흐름 제한
 
