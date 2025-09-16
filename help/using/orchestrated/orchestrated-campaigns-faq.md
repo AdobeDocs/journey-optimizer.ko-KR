@@ -5,10 +5,10 @@ title: 오케스트레이션된 캠페인 FAQ
 description: Journey Optimizer 오케스트레이션 캠페인에 대한 FAQ
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 8205d248d986cdc1a2262705c58524c2434265f5
+source-git-commit: 028f5d506d5fdbd2ed19ad7ded8c1fcd0a391702
 workflow-type: tm+mt
-source-wordcount: '1124'
-ht-degree: 4%
+source-wordcount: '1043'
+ht-degree: 5%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 Adobe Journey Optimizer 오케스트레이션된 캠페인에 대한 FAQ는 다음과 같습니다.
 
-세부 정보가 필요하십니까? 이 페이지 하단의 피드백 옵션을 사용하여 질문을 제기하거나 [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"}에 연결하세요.
+세부 정보가 필요하십니까? 이 페이지 하단의 피드백 옵션을 사용하여 질문을 제기하거나 [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}에 연결하세요.
 
 ## Campaign 오케스트레이션이란? {#what-are-oc}
 
@@ -105,7 +105,7 @@ Adobe Journey Optimizer의 Campaign Orchestration은 관계형 데이터베이�
 
 >[!ENDSHADEBOX]
 
-## 이 데이터로 메시지를 개인화할 수 있습니까? {#personalization}
+## 관계형 데이터를 사용하여 메시지를 개인화할 수 있습니까? {#personalization}
 
 예. Campaign Orchestration에서 &#39;사람 엔티티&#39;라고 하는 수신자 프로필을 업데이트하고 해당 데이터를 개인화에 사용할 수 있습니다. 또한 관계형 데이터베이스에 있는 연결된 엔티티의 보강된 데이터를 개인화에 사용할 수도 있습니다. 연결된 데이터(예: 구매 또는 구독)와 함께 고객 프로필을 사용하여 지원되는 모든 채널에서 콘텐츠를 개인화할 수 있습니다.
 
@@ -120,7 +120,7 @@ Adobe Journey Optimizer의 Campaign Orchestration은 관계형 데이터베이�
 >[!ENDSHADEBOX]
 
 
-## 다른 Adobe 솔루션과 통합됩니까? {#integrations}
+## 오케스트레이션된 캠페인이 다른 Adobe 솔루션과 통합됩니까? {#integrations}
 
 예. Campaign 오케스트레이션은 기본적으로 다음과 통합됩니다.
 
@@ -142,7 +142,7 @@ Adobe Journey Optimizer의 Campaign Orchestration은 관계형 데이터베이�
 
 >[!ENDSHADEBOX]
 
-## 임시 세분화를 수행할 수 있습니까? {#ad-hoc}
+## 오케스트레이션된 캠페인에서 임시 세분화를 수행할 수 있습니까? {#ad-hoc}
 
 Campaign Orchestration에서는 임시 세분화를 &#39;라이브 세분화&#39;라고 합니다. 이 세분화를 통해 관계형 저장소에서 실시간으로 사용 가능한 모든 데이터에 액세스하고, 복합 쿼리를 빌드하고, 아웃바운드 채널을 통해 즉시 활성화할 수 있습니다(예: 이메일 + SMS).
 
@@ -158,7 +158,7 @@ Campaign Orchestration에서는 임시 세분화를 &#39;라이브 세분화&#39
 
 
 
-## 이 지원 의사 결정? {#decisioning}
+## 오케스트레이션된 캠페인이 의사 결정을 지원합니까? {#decisioning}
 
 예. 의사 결정은 오케스트레이션된 캠페인의 관계형 데이터를 사용할 수 있습니다. 일단 관계형 스키마가 XDM 스키마와 연결되면, 의사 결정에 XDM 데이터를 사용할 수 있습니다.
 
@@ -176,16 +176,17 @@ Campaign Orchestration에서는 임시 세분화를 &#39;라이브 세분화&#39
 
 >[!ENDSHADEBOX]
 
-## 규모에 맞게 캠페인을 실행하는 데 권장되는 방법이 있습니까? {#scale}
+<!--
+## Are there recommended practices for running campaigns at scale? {#scale}
 
-예. 아래의 모범 사례를 따르십시오.
+Yes, follow the best practices below:  
 
-* **비즈니스 일정에 따라 캠페인을 계획**(제품 출시, 계절별 최대 기간)하여 볼륨 및 리소스를 조정할 수 있습니다.
-* 보내기 전에 **대상자 미리 보기**&#x200B;를 사용하여 예상 크기를 확인하고 예기치 않은 상황이 발생하지 않도록 하십시오.
-* 가능한 경우 너무 많은 다운스트림 시스템(예: 콜 센터, 웹 사이트)을 방지하기 위해 **전송 시간을 지연**&#x200B;합니다.
-* **모니터링 루틴**&#x200B;을 설정합니다. 전송할 때마다 게재 로그, 오류율 및 옵트아웃을 추적합니다.
-* Customer Journey Analytics에서 **사후 캠페인 분석**&#x200B;을 실행하여 다음 주기 동안 타깃팅 및 오케스트레이션을 개선합니다.
-
+* **Plan campaigns around business calendars** (product launches, seasonal peaks) to align volume and resources.  
+* Use **audience pre-views** before sending to confirm the expected size and avoid surprises.  
+* Where possible, **stagger send times** to avoid overwhelming downstream systems (e.g., call centers, websites).  
+* Establish a **monitoring routine**—track delivery logs, error rates, and opt-outs after each send.  
+* Run **post-campaign analysis** in Customer Journey Analytics to refine targeting and orchestration for the next cycle.  
+-->
 
 
 >[!MORELIKETHIS]
