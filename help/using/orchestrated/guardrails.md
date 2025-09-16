@@ -5,9 +5,9 @@ title: 조정된 캠페인 보호 및 제한 사항
 description: 오케스트레이션된 캠페인 보호 및 제한 사항에 대해 알아봅니다
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
-source-git-commit: 359a2e5b60ba035e300f452e1211245f8f689609
+source-git-commit: 1addd3386bfbfffaa63fb7a903738328f6f8082e
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '494'
 ht-degree: 1%
 
 ---
@@ -32,6 +32,8 @@ ht-degree: 1%
 * 타깃팅에 사용되는 스키마에는 정의된 ID 네임스페이스에 매핑된 **유형의 ID 필드가`String`**&#x200B;개 이상 있어야 합니다.
 
 * 관리 용이성과 성능을 유지하려면 스키마 **당 평균 특성 수가 50개 열**&#x200B;을(를) 초과할 수 없습니다.
+
+* Adobe Experience Platform **프로필**&#x200B;에 대해 관계형 스키마를 사용할 수 없습니다. Adobe Experience Platform **프로필**&#x200B;에 대해서는 표준 XDM 스키마만 지원됩니다. 오케스트레이션된 캠페인 또는 작업 캠페인에 대해 관계형 스키마를 활성화할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
 
 ### 데이터 수집
 
