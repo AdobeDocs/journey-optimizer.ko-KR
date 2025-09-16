@@ -50,7 +50,7 @@ API 트리거 캠페인 액션 구성
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 API 트리거 캠페인 콘텐츠 편집 및 개인화
 

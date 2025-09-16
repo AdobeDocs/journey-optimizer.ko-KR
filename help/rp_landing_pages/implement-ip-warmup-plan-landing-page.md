@@ -20,7 +20,7 @@ Adobe Journey Optimizer에서 IP 준비 계획을 구현하면 이메일 제공�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
 
 IP 준비 계획 시작
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 이메일 전달성을 개선하기 위한 IP 준�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 IP 준비 캠페인 만들기
 
@@ -40,7 +40,7 @@ IP 준비 캠페인 만들기
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 IP 준비 계획을 만들고 관리하는 방법
 
@@ -50,7 +50,7 @@ IP 준비 계획을 만들고 관리하는 방법
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 IP 준비 계획 실행 및 관리
 

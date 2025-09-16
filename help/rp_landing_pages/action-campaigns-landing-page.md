@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 액션 캠페인에서는 프로모션, 업데이트 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 션 캠페인 속성 정의
 

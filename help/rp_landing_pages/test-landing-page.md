@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 &#39;테스트 및 승인&#39; 기능을 사용하면
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 콘텐츠 미리 보기, 테스트 및 유효성 검사
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 &#39;테스트 및 승인&#39; 기능을 사용하면
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 여정과 캠페인을 위한 승인 워크플로우
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer의 &#39;테스트 및 승인&#39; 기능을 사용하면
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ko)
 
 시스템 경고 액세스 및 구독
 

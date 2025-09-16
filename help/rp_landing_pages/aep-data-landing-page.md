@@ -30,7 +30,7 @@ Adobe Experience Platform의 컨텍스트 데이터를 Adobe Journey Optimizer D
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 의사 결정을 위해 Adobe Experience Platform 데이터 사용
 

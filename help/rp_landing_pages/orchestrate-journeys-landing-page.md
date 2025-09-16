@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 여정을 사용하면 대상의 행동 및 요구에
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 Adobe Journey Optimizer 여정 시작
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 직관적인 드래그 앤 드롭 도구와 상황별
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 여정 생성 및 관리에 대한 종합 안내서
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer의 직관적인 드래그 앤 드롭 도구와 상황별
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 여정 관리 종합 안내서
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer의 직관적인 드래그 앤 드롭 도구와 상황별
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 Adobe Journey Optimizer의 활동
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer의 활동
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 Adobe Journey Optimizer의 표현식 작성
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer의 표현식 작성
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 Adobe Journey Optimizer의 실용적인 사용 사례
 

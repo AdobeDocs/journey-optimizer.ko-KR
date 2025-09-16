@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 순위를 사용하면 대상자에게 어떤 상품�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
 
 순위 시작
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 순위 기본 사항, 순위 공식 및 오퍼 배치
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 순위 공식 만들기 및 사용
 
@@ -40,7 +40,7 @@ PQL 구문과 상황별 데이터를 사용하여 순위 공식을 만드는 단
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
 
 오퍼 순위를 위한 AI 모델
 

@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 릴리스 정보는 고객 여정을 개선하기 위
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 2025 Adobe Journey Optimizer 릴리스 정보
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 릴리스 정보는 고객 여정을 개선하기 위
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 2024 Adobe Journey Optimizer 릴리스 정보
 

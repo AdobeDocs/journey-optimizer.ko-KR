@@ -60,7 +60,7 @@ Adobe Analytics 데이터를 통합하여 여정을 자동화하고 개인화된
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 비즈니스 이벤트 구성
 
@@ -70,7 +70,7 @@ Adobe Analytics 데이터를 통합하여 여정을 자동화하고 개인화된
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 스트리밍 API를 사용하여 이벤트 보내기
 

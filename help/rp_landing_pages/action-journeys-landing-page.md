@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 액션 구성을 통해 고객 여정을 서드파티
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 사용자 정의 액션 시작
 
