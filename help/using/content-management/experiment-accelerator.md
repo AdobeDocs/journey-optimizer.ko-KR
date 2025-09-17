@@ -10,7 +10,7 @@ level: Beginner
 keywords: 내용, 실험, 복수, 대상자, 처리
 hide: true
 hidefromtoc: true
-source-git-commit: eb5c9c949b89406cfe62f136bd6a52ab2692b6e4
+source-git-commit: 11c62deaf90b961233a35b9c4be8b81264b4c8e7
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 14%
@@ -68,7 +68,7 @@ ht-degree: 14%
 * **[!UICONTROL 실험 보기]**
 * **[!UICONTROL 실험 메타데이터 관리]**
 
-+++ 실험용 관련 권한을 할당하는 방법을 알아봅니다.
++++ 실험 관련 권한을 할당하는 방법 알아보기
 
 1. **[!DNL Permissions]** 제품에서 **[!UICONTROL 역할]** 탭으로 이동하여 원하는 **[!UICONTROL 역할]**&#x200B;을(를) 선택하십시오.
 
