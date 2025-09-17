@@ -6,10 +6,10 @@ description: 오케스트레이션된 캠페인을 시작하는 방법 알아보
 short-description: 오케스트레이션된 캠페인 주요 기능 및 사용 사례 살펴보기
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
-source-git-commit: d4765f9084efac1fd241404dff365a66027ce5af
+source-git-commit: 4d5505cbb46bdff846218bfc3657c6a6e5447af3
 workflow-type: tm+mt
 source-wordcount: '654'
-ht-degree: 94%
+ht-degree: 93%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 94%
 
 오케스트레이션된 캠페인마다 다음 항목이 포함됩니다.
 
-* **활동**: 활동은 수행할 작업입니다. 다양한 활동이 캔버스에 아이콘으로 표시됩니다. 각 활동에는 특정 속성과 모든 활동에 공통되는 다른 속성이 있습니다.
+* **활동**: 활동은 수행할 작업입니다. [다양한 활동](activities/about-activities.md)이 캔버스에 아이콘으로 표시됩니다. 각 활동에는 특정 속성과 모든 활동에 공통되는 다른 속성이 있습니다.
 
   오케스트레이션된 캠페인 캔버스에서는 특정 활동 하나가 여러 작업을 생성할 수 있습니다. 특히 루프 또는 반복 액션이 있는 경우에 그렇습니다.
 

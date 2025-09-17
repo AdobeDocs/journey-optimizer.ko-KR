@@ -5,10 +5,10 @@ title: 오케스트레이션된 캠페인 활동 작업
 description: 캠페인 활동을 오케스트레이션하는 방법 알아보기
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
 version: Campaign Orchestration
-source-git-commit: 8701afe345f0eeed1503e4765d4715398823b102
+source-git-commit: 4d5505cbb46bdff846218bfc3657c6a6e5447af3
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 63%
+ht-degree: 61%
 
 ---
 
@@ -28,7 +28,10 @@ ht-degree: 63%
 
 >[!NOTE]
 >
->라이선스 모델, 권한 및 구현에 따라 사용 가능한 활동이 다를 수 있습니다.
+>* 라이선스 모델, 권한 및 구현에 따라 사용 가능한 활동이 다를 수 있습니다.
+>
+>* 오케스트레이션된 캠페인의 활동 수는 500개로 제한됩니다.
+
 
 ## 타기팅 활동 {#targeting}
 
@@ -48,7 +51,9 @@ ht-degree: 63%
 
 ## 채널 활동 {#channel}
 
-Adobe Journey Optimizer에서는 여러 채널에 걸쳐 마케팅 캠페인을 자동화하고 실행할 수 있습니다. 채널 활동을 캔버스에 결합하여 고객 행동에 따라 작업을 트리거할 수 있는 크로스 채널 오케스트레이션된 캠페인을 만들 수 있습니다. 이메일 및 SMS **채널** 활동을 사용할 수 있습니다. [오케스트레이션된 캠페인의 컨텍스트에서 채널 작업을 만드는 방법을 알아봅니다](channels.md).
+Adobe Journey Optimizer에서는 여러 채널에 걸쳐 마케팅 캠페인을 자동화하고 실행할 수 있습니다. [채널 활동](channels.md)을 캔버스에 결합하여 고객 행동에 따라 작업을 트리거할 수 있는 크로스 채널 오케스트레이션된 캠페인을 만들 수 있습니다.
+
+오케스트레이션된 캠페인에서 [채널 작업을 만드는 방법](channels.md)을 알아보세요.
 
 ## 흐름 제어 활동 {#flow-control}
 
