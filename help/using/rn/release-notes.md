@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b6f0174b31b4ef317c18644a93a4ae38a712fb36
+source-git-commit: c4aa1a6ecabb7b742bce084bb96865f965531d77
 workflow-type: tm+mt
-source-wordcount: '2175'
+source-wordcount: '2180'
 ht-degree: 88%
 
 ---
@@ -43,6 +43,7 @@ ht-degree: 88%
 </ul>
 <p><img src="assets/do-not-localize/dark-mode.gif"/></p>
 <p>자세한 내용은 <a href="../email/dark-mode.md">세부 설명서</a>를 참조하십시오.</p>
+ <p>사용 가능한 날짜: 2025년 9월 16일</p>
 </td>
 </tr>
 </tbody>
