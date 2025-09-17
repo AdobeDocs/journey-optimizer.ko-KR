@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Experimentation Accelerator 모니터
+title: Journey Optimizer Experimentation Accelerator 모니터
 description: 실험을 효과적으로 수행하고 통찰력을 생성할 수 있는 역량 향상
 feature: Experimentation
 topic: Content Management
@@ -10,9 +10,9 @@ level: Beginner
 keywords: 내용, 실험, 복수, 대상자, 처리
 hide: true
 hidefromtoc: true
-source-git-commit: c28a322ec13de2a23ab5cffb4785b14425e4e6e9
+source-git-commit: ddeb3512fbe1d1de86456fe2c3ccd2b3805b5684
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1122'
 ht-degree: 1%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 1%
 
 >[!BEGINSHADEBOX]
 
-* [Experimentation Accelerator 시작](experiment-accelerator.md)
-* [Experimentation Accelerator을 사용한 AI의 데이터 사용](experiment-accelerator-security.md)
-* [Experimentation Accelerator 우수 사례](experiment-accelerator-best-practices.md)
+* [Journey Optimizer Experimentation Accelerator 시작](experiment-accelerator.md)
+* [Journey Optimizer Experimentation Accelerator을 사용한 AI의 데이터 사용](experiment-accelerator-security.md)
+* [Journey Optimizer Experimentation Accelerator 우수 사례](experiment-accelerator-best-practices.md)
 * **[실험 모니터링](experiment-accelerator-monitor.md)**
 * [실험 지표](experiment-accelerator-metrics.md)
 
@@ -135,11 +135,11 @@ KPI 섹션은 생성된 총 실험 수와 현재 진행 중인 횟수를 포함�
 
    ![](assets/experiment-monitor-opportunities.png)
 
-1. 영업 기회를 선택하면 **영업 기회 세부 정보** 창이 열립니다. 이 창에서는 Experimentation Accelerator에서 제안하는 특정 처리 또는 변형에 대해 간략하게 설명합니다. 이 보기에는 다음이 포함됩니다.
+1. 영업 기회를 선택하면 **영업 기회 세부 정보** 창이 열립니다. 이 창에서는 Journey Optimizer Experimentation Accelerator에서 제안하는 특정 처리 또는 변형에 대해 간략하게 설명합니다. 이 보기에는 다음이 포함됩니다.
 
    * **[!UICONTROL 가설]**: 제안된 치료의 예상 결과를 설명하는 AI 생성 가설입니다.
 
-   * **[!UICONTROL 이유]**: Experimentation Accelerator에서 이 기회를 제안한 이유에 대한 설명입니다.
+   * **[!UICONTROL 이유]**: Journey Optimizer Experimentation Accelerator에서 이 기회를 제안한 이유에 대한 설명입니다.
 
    * **[!UICONTROL 영업 기회 평가]**: 다음을 기반으로 하는 권장 사항의 이중 평가:
 
@@ -158,9 +158,9 @@ KPI 섹션은 생성된 총 실험 수와 현재 진행 중인 횟수를 포함�
 
    **[!DNL Adobe Target]**&#x200B;에서 시작된 실험의 경우 제안된 변경 내용이 대신 **[!DNL Adobe Target]**&#x200B;의 실험 워크플로에 로드됩니다.
 
-   ➡️ [Adobe Target 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/target/using/activities/abtest/test-ab)
+   ➡️ [Adobe Target 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/en/docs/target/using/activities/abtest/test-ab)
 
-1. 실험 보기 내에서 Experimentation Accelerator이 표면화한 동일한 AI **[!UICONTROL 실험 기회]**&#x200B;에 액세스할 수 있습니다.
+1. 실험 보기 내에서 Journey Optimizer Experimentation Accelerator이 표면화한 동일한 AI **[!UICONTROL 실험 기회]**&#x200B;에 액세스할 수 있습니다.
 
    **[!UICONTROL 보기]**&#x200B;를 선택하여 영업 기회 세부 정보를 엽니다.
 

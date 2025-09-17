@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Experimentation Accelerator
+title: Journey Optimizer Experimentation Accelerator
 description: 실험을 효과적으로 수행하고 통찰력을 생성할 수 있는 역량 향상
 feature: Experimentation
 topic: Content Management
@@ -10,20 +10,20 @@ level: Beginner
 keywords: 내용, 실험, 복수, 대상자, 처리
 hide: true
 hidefromtoc: true
-source-git-commit: 50dcdd30e21fe1b12d502a2b9c478f4ceb546c49
+source-git-commit: ddeb3512fbe1d1de86456fe2c3ccd2b3805b5684
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
 
-# Experimentation Accelerator 시작 {#content-experiment}
+# Journey Optimizer Experimentation Accelerator 시작 {#content-experiment}
 
 >[!BEGINSHADEBOX]
 
-* **[Experimentation Accelerator 시작](experiment-accelerator.md)**
-* [Experimentation Accelerator을 사용한 AI의 데이터 사용](experiment-accelerator-security.md)
-* [Experimentation Accelerator 우수 사례](experiment-accelerator-best-practices.md)
+* **[Journey Optimizer Experimentation Accelerator 시작](experiment-accelerator.md)**
+* [Journey Optimizer Experimentation Accelerator을 사용한 AI의 데이터 사용](experiment-accelerator-security.md)
+* [Journey Optimizer Experimentation Accelerator 우수 사례](experiment-accelerator-best-practices.md)
 * [실험 모니터링](experiment-accelerator-monitor.md)
 * [실험 지표](experiment-accelerator-metrics.md)
 
@@ -31,9 +31,9 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->**Experimentation Accelerator**&#x200B;을(를) 사용하려면 고객이 Adobe Target 또는 Adobe Journey Optimizer 라이선스가 있어야 합니다.
+>**Journey Optimizer Experimentation Accelerator**&#x200B;을(를) 사용하려면 고객이 Adobe Target 또는 Adobe Journey Optimizer 라이선스가 있어야 합니다.
 
-**Experimentation Accelerator**&#x200B;은(는) 실험 프로세스를 간소화하고 향상하기 위해 고안된 강력한 도구입니다. Adobe Target 및 Adobe Journey Optimizer과 통합하여 실험을 관리, 분석 및 최적화할 수 있는 중앙 집중식 플랫폼을 제공합니다. Experimentation Accelerator은 AI 기반 인사이트와 적응형 테스트를 활용하여 데이터 기반 의사 결정을 내리고 마케팅 전략을 개선하며 측정 가능한 결과를 도출하는 기능을 제공합니다.
+**Journey Optimizer Experimentation Accelerator**&#x200B;은(는) 실험 프로세스를 간소화하고 향상하기 위해 고안된 강력한 도구입니다. Adobe Target 및 Adobe Journey Optimizer과 통합하여 실험을 관리, 분석 및 최적화할 수 있는 중앙 집중식 플랫폼을 제공합니다. Journey Optimizer Experimentation Accelerator은 AI 기반 인사이트와 적응형 테스트를 활용하여 데이터 기반 의사 결정을 내리고 마케팅 전략을 개선하며 측정 가능한 결과를 도출하는 기능을 제공합니다.
 
 주요 이점은 다음과 같습니다.
 
@@ -49,21 +49,21 @@ ht-degree: 0%
 
 * **원활한 Collaboration**: 실시간 알림을 통해 결과를 쉽게 공유하고 팀 역할을 관리합니다.
 
-## Access Experimation Accelerator
+## Journey Optimizer Experimentation Accelerator 액세스
 
-[실험을 만들고 구성](content-experiment.md)한 후 캠페인이나 여정을 프로필에 전송하면 **[!UICONTROL Experimentation Accelerator]**&#x200B;에 액세스하여 실험의 성과를 자세히 살펴볼 수 있습니다.
+[실험을 만들고 구성](content-experiment.md)한 후 캠페인이나 여정을 프로필에 전송하면 **[!UICONTROL Journey Optimizer Experimentation Accelerator]**&#x200B;에 액세스하여 실험의 성과를 자세히 살펴볼 수 있습니다.
 
-**[!UICONTROL 실험]** 드롭다운의 왼쪽 메뉴에서 또는 앱 전환기를 통해 [!UICONTROL Experimentation Accelerator]에 액세스할 수 있습니다. Target 라이선스만 있는 사용자는 앱 전환기를 통해서만 액세스할 수 있습니다.
+**[!UICONTROL 실험]** 드롭다운의 왼쪽 메뉴에서 또는 앱 전환기를 통해 [!UICONTROL Journey Optimizer Experimentation Accelerator]에 액세스할 수 있습니다. Target 라이선스만 있는 사용자는 앱 전환기를 통해서만 액세스할 수 있습니다.
 
 사용 가능한 실험은 설정에 따라 다릅니다.
 
 * **Adobe Journey Optimizer 사용자의 경우**: 활성화된 조직의 샌드박스에서 설정된 실험이 자동으로 포함됩니다.
 
-* **Journey Optimizer을 사용하는 Adobe Target 사용자의 경우**: Target의 모든 A/B 활동이 Journey Optimizer의 프로덕션 샌드박스의 **[!UICONTROL Experimentation Accelerator]**&#x200B;에 표시됩니다.
+* **Journey Optimizer을 사용하는 Adobe Target 사용자의 경우**: Target의 모든 A/B 활동이 Journey Optimizer의 프로덕션 샌드박스의 **[!UICONTROL Journey Optimizer Experimentation Accelerator]**&#x200B;에 표시됩니다.
 
 * **Adobe Target 전용 사용자의 경우**: Target 조직의 모든 A/B 활동이 Journey Optimizer의 프로덕션 샌드박스에 포함됩니다.
 
-**[!UICONTROL Experimentation Accelerator]**&#x200B;을(를) 사용하려면 샌드박스 및 다음 관련 권한에 액세스해야 합니다.
+**[!UICONTROL Journey Optimizer Experimentation Accelerator]**&#x200B;을(를) 사용하려면 샌드박스 및 다음 관련 권한에 액세스해야 합니다.
 
 <!--table style="table-layout:fixed"><tr style="border: 0;">
 <td><img alt="Overview" href="experiment-accelerator-overview.md" src="assets/do-not-localize/experiments-2.jpeg">

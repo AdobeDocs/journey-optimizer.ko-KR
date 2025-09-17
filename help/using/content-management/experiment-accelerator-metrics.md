@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Experimentation Accelerator 지표
+title: Journey Optimizer Experimentation Accelerator 지표
 description: 실험을 효과적으로 수행하고 통찰력을 생성할 수 있는 역량 향상
 feature: Experimentation
 topic: Content Management
@@ -10,9 +10,9 @@ level: Beginner
 keywords: 내용, 실험, 복수, 대상자, 처리
 hide: true
 hidefromtoc: true
-source-git-commit: c28a322ec13de2a23ab5cffb4785b14425e4e6e9
+source-git-commit: ddeb3512fbe1d1de86456fe2c3ccd2b3805b5684
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '266'
 ht-degree: 2%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 2%
 
 >[!BEGINSHADEBOX]
 
-* [Experimentation Accelerator 시작](experiment-accelerator.md)
-* [Experimentation Accelerator을 사용한 AI의 데이터 사용](experiment-accelerator-security.md)
-* [Experimentation Accelerator 우수 사례](experiment-accelerator-best-practices.md)
+* [Journey Optimizer Experimentation Accelerator 시작](experiment-accelerator.md)
+* [Journey Optimizer Experimentation Accelerator을 사용한 AI의 데이터 사용](experiment-accelerator-security.md)
+* [Journey Optimizer Experimentation Accelerator 우수 사례](experiment-accelerator-best-practices.md)
 * [실험 모니터링](experiment-accelerator-monitor.md)
 * **[실험 지표](experiment-accelerator-metrics.md)**
 
