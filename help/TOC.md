@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0e269babd228063d465e0790435d916e479701a7
+source-git-commit: dc47da081601fdb019ffd98aa47803672fdef198
 workflow-type: tm+mt
-source-wordcount: '2940'
+source-wordcount: '2946'
 ht-degree: 98%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 98%
       + [2021](using/rn/release-notes-2021.md)
    + [설명서 업데이트](using/rn/documentation-updates.md)
    + [향상된 여정 캔버스](using/rn/new-canvas.md)
-+ 시작 {#get-started}
++ 시작하기 {#get-started}
    + [시작](/help/rp_landing_pages/get-started-landing-page.md)
    + [주요 기능](using/start/get-started.md)
    + [아키텍처](using/start/architecture-concepts-redpen.md)
@@ -131,8 +131,8 @@ ht-degree: 98%
             + [toDuration](using/building-journeys/functions/functiontoduration.md)
             + [toInteger](using/building-journeys/functions/functiontointeger.md)
             + [toString](using/building-journeys/functions/functiontostring.md)
-         + 일자 {#date}
-            + [일자](/help/rp_landing_pages/date-landing-page.md)
+         + Date {#date}
+            + [Date](/help/rp_landing_pages/date-landing-page.md)
             + [currentTime&#x200B;InMillis](using/building-journeys/functions/functioncurrenttimeinmillis.md)
             + [inLastDays](using/building-journeys/functions/functioninlastdays.md)
             + [inLastHours](using/building-journeys/functions/functioninlasthours.md)
@@ -443,7 +443,7 @@ ht-degree: 98%
       + [Journey Optimizer에서 LINE 채널 구성](using/line/line-configuration.md)
       + [LINE 메시지 만들기](using/line/create-line.md)
       + [LINE 메시지 확인 및 보내기](using/line/send-line.md)
-+ 콘텐츠 관리  {#content-management}
++ 콘텐츠 관리 {#content-management}
    + [콘텐츠 관리 ](/help/rp_landing_pages/content-management-landing-page.md)
    + 개인화 {#personalization}
       + [개인화](/help/rp_landing_pages/personalization-landing-page.md)
@@ -482,6 +482,7 @@ ht-degree: 98%
          + [랜딩 페이지 컨텐츠 만들기](using/landing-pages/lp-content.md)
          + [템플릿 만들기](using/landing-pages/lp-templates.md)
          + [사용자 지정 JavaScript 추가](using/landing-pages/lp-custom-js.md)
+      + [랜딩 페이지의 양식 활용](using/landing-pages/lp-forms.md)
       + [구독 목록 만들기](using/landing-pages/subscription-list.md)
       + [사용 사례를 통해 알아보기](using/landing-pages/lp-use-cases.md)
       + 랜딩 페이지 구성 {#lp-configuration}
@@ -508,8 +509,8 @@ ht-degree: 98%
       + [다이내믹 콘텐츠 시작](using/personalization/get-started-dynamic-content.md)
       + [조건부 규칙 만들기](using/personalization/create-conditions.md)
       + [다이내믹 콘텐츠 만들기](using/personalization/dynamic-content.md)
-   + 교차 솔루션 사용 사례 {#combine}
-      + [교차 솔루션 사용 사례](/help/rp_landing_pages/combine-landing-page.md)
+   + 솔루션 간 사용 사례 {#combine}
+      + [솔루션 간 사용 사례](/help/rp_landing_pages/combine-landing-page.md)
       + [솔루션을 결합하여 콘텐츠 관리](using/integrations/content-integrations.md)
       + [Experience Manager Assets 작업](using/integrations/assets.md)
       + [Adobe Stock 작업](using/integrations/stock.md)
@@ -519,8 +520,8 @@ ht-degree: 98%
       + [Dynamic Media 작업](using/integrations/aem-dynamic.md)
       + [GenStudio for Performance Marketing 작업](using/integrations/genstudio.md)
       + [통합 작업](using/integrations/external-sources.md)
-   + 콘텐츠 생성용 AI 어시스턴트 {#ai-assistant}
-      + [콘텐츠 생성용 AI 어시스턴트](/help/rp_landing_pages/ai-assistant-landing-page.md)
+   + 콘텐츠 생성을 위한 AI 어시스턴트 {#ai-assistant}
+      + [콘텐츠 생성을 위한 AI 어시스턴트](/help/rp_landing_pages/ai-assistant-landing-page.md)
       + [AI 어시스턴트 시작하기](using/content-management/gs-generative.md)
       + [AI를 사용한 이메일 생성](using/content-management/generative-email.md)
       + [AI를 사용한 푸시 생성](using/content-management/generative-push.md)
@@ -551,8 +552,8 @@ ht-degree: 98%
          + [Experiment Accelerator 우수 사례](using/content-management/experiment-accelerator-best-practices.md)
          + [실험 가속기 모니터](using/content-management/experiment-accelerator-monitor.md)
          + [Experience Accelerator 지표](using/content-management/experiment-accelerator-metrics.md)
-      + 기술 노트 {#technotes}
-         + [기술 노트](/help/rp_landing_pages/technotes-landing-page.md)
+      + 기술 문서 {#technotes}
+         + [기술 문서](/help/rp_landing_pages/technotes-landing-page.md)
          + [통계 계산 이해](using/content-management/experiment-calculations.md)
          + [실험 보고서의 통계 계산 이해](using/content-management/experiment-report-calculations.md)
 + 대상자, 프로필, ID {#audiences-profiles-identities}
@@ -586,8 +587,8 @@ ht-degree: 98%
       + [캠페인 실시간 보고서](using/reports/campaign-live-report.md)
       + [랜딩 페이지 실시간 보고서](using/reports/lp-report-live.md)
       + [구독 목록 실시간 보고서](using/reports/subscription-report-live.md)
-   + 전체 기간 보고서 {#channel-report}
-      + [전체 기간 보고서](/help/rp_landing_pages/channel-report-landing-page.md)
+   + 전체 시간 보고서 {#channel-report}
+      + [전체 시간 보고서](/help/rp_landing_pages/channel-report-landing-page.md)
       + [전체 기간 보고서 시작](using/reports/report-gs-cja.md)
       + [지표 목록](using/reports/global-report-components-cja.md)
       + [Customer Journey Analytics 수동 구성](using/reports/cja-ajo.md)
@@ -625,8 +626,8 @@ ht-degree: 98%
       + [사용자 정의 여정 보고서](/help/rp_landing_pages/reports-landing-page.md)
       + [여정 보고서 만들기](using/reports/sharing-overview.md)
       + [단계 이벤트 필드 목록](using/reports/sharing-field-list.md)
-      + 레거시 단계 이벤트 필드 {#legacy-step-event-fields}
-         + [레거시 단계 이벤트 필드](/help/rp_landing_pages/legacy-step-event-fields-landing-page.md)
+      + 기존 단계 이벤트 필드 {#legacy-step-event-fields}
+         + [기존 단계 이벤트 필드](/help/rp_landing_pages/legacy-step-event-fields-landing-page.md)
          + [레거시 필드 정보](using/reports/sharing-legacy-fields.md)
          + [여정 필드](using/reports/sharing-journey-fields.md)
          + [공통 필드](using/reports/sharing-common-fields.md)
@@ -738,8 +739,8 @@ ht-degree: 98%
             + [제한 추가](using/offers/offer-library/add-constraints.md)
          + [대체 오퍼 만들기](using/offers/offer-library/creating-fallback-offers.md)
          + [컬렉션 만들기](using/offers/offer-library/creating-collections.md)
-      + 결정 만들기 및 관리 {#create-manage-activities}
-         + [결정 만들기 및 관리](/help/rp_landing_pages/create-manage-activities-landing-page.md)
+      + 의사 결정 만들기 및 관리 {#create-manage-activities}
+         + [의사 결정 만들기 및 관리](/help/rp_landing_pages/create-manage-activities-landing-page.md)
          + [결정 만들기](using/offers/offer-activities/create-offer-activities.md)
          + [결정에서 오퍼 선택 구성](using/offers/offer-activities/configure-offer-selection.md)
          + [시뮬레이션 만들기](using/offers/offer-activities/simulation.md)
@@ -879,8 +880,8 @@ ht-degree: 98%
    + [채널 구성](/help/rp_landing_pages/configuration-landing-page.md)
    + [채널 구성 시작](using/configuration/get-started-configuration.md)
    + [채널 구성 설정](using/configuration/channel-surfaces.md)
-   + 안내형 채널 설정 {#guided-setup}
-      + [안내형 채널 설정](/help/rp_landing_pages/guided-setup-landing-page.md)
+   + 가이드 채널 설정 {#guided-setup}
+      + [가이드 채널 설정](/help/rp_landing_pages/guided-setup-landing-page.md)
       + [안내형 채널 설정 시작](using/configuration/set-mobile-config.md)
       + [채널 설정 만들기](using/configuration/create-channel-set-up.md)
    + 이메일 하위 도메인 위임 {#delegate-subdomains}
@@ -931,7 +932,7 @@ ht-degree: 98%
       + [사용자 정의 액션 시작](using/action/action.md)
       + [사용자 정의 작업 구성](using/action/about-custom-action-configuration.md)
       + [사용자 정의 작업에서 API 호출 응답 사용](using/action/action-response.md)
-+ 시스템 및 환경 연결 {#connect-systems}
++ 시스템과 환경 연결 {#connect-systems}
    + [시스템 및 환경 연결](/help/rp_landing_pages/connect-systems-landing-page.md)
    + [다른 솔루션과 통합](using/integrations/ajo-integrations.md)
    + [Journey Optimizer API 작업](using/configuration/ajo-apis.md)
@@ -960,7 +961,7 @@ ht-degree: 98%
    + [속성 기반 액세스 제어](using/administration/attribute-based-access.md)
    + [오브젝트 수준 액세스 제어](using/administration/object-based-access.md)
 + 개인 정보 보호 {#privacy}
-   + [개인 정보 보호](/help/rp_landing_pages/privacy-landing-page.md)
+   + [개인정보](/help/rp_landing_pages/privacy-landing-page.md)
    + [개인 정보 시작](using/privacy/get-started-privacy.md)
    + [개인 정보 요청](using/privacy/requests.md)
    + [리소스에 대한 작업 감사](using/privacy/audit-logs.md)
