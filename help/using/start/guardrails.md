@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: de338bcbd73b94ac004ee39106e50fe707afb19a
+source-git-commit: 4ce48f7929aa218908e8a1e25c37410c6ded6bde
 workflow-type: tm+mt
-source-wordcount: '2648'
-ht-degree: 100%
+source-wordcount: '2708'
+ht-degree: 97%
 
 ---
 
@@ -196,29 +196,10 @@ Adobe Experience Platform에서 API 기반 프로필 만들기/업데이트와 �
 
 * 프로필을 즉시 활용하지 않는 여정을 설정합니다. 예를 들어 여정이 계정 생성을 확인하도록 설계된 경우 경험 이벤트에는 첫 번째 확인 메시지(이름, 성, 이메일 주소 등)를 보내는 데 필요한 정보가 포함될 수 있습니다.
 
-### 프로필 업데이트 {#update-profile-g}
 
-**[!UICONTROL 프로필 업데이트]** 활동에 특정 가드레일이 적용됩니다. [이 페이지](../building-journeys/update-profiles.md)에 나열되어 있습니다.
+### 보조 식별자 {#supplemental}
 
-### 대상자 읽기 {#read-segment-g}
-
-[대상자 읽기](../building-journeys/read-audience.md) 여정 활동에 다음 가드레일이 적용됩니다.
-
-* 스트리밍 대상자는 항상 최신 상태이지만 일괄 처리 대상자는 검색하는 순간에 계산되지 않습니다. 일일 배치 평가 시간에만 매일 평가됩니다.
-* **대상자 읽기** 활동을 사용하는 여정의 경우 정확히 동시에 시작할 수 있는 여정의 최대 개수가 정해져 있습니다. 시스템에서 재시도를 수행하기는 하지만, 정확히 같은 시간에 다섯 개가 넘는 여정(**대상자 읽기** 활동이 있거나 예약했거나 “최대한 빨리” 시작하는 여정)을 실행하는 것을 피하기 위해 5~10분 간격을 두는 등 시간을 분산하는 것이 좋습니다.
-* **대상자 읽기** 활동은 Adobe Campaign 활동과 함께 사용할 수 없습니다.
-* **대상자 읽기** 활동은 비즈니스 이벤트 활동 이후의 여정의 첫 번째 활동으로만 사용할 수 있습니다.
-* 여정은 하나의 **대상자 읽기** 활동만 가질 수 있습니다.
-* [이 페이지](../building-journeys/read-audience.md)의 **대상자 읽기** 활동을 사용하는 방법에 대한 권장 사항도 참조하십시오.
-* 내보내기 작업을 검색하는 동안 대상이 트리거된 여정(**대상자 읽기** 또는 **비즈니스 이벤트**&#x200B;로 시작)에서 기본적으로 다시 시도가 적용됩니다. 내보내기 작업 생성 중 오류가 발생하면 최대 1시간 동안 10분마다 다시 시도됩니다. 그 후에는 실패로 간주합니다. 따라서 이러한 유형의 여정은 예정된 시간보다 최대 1시간 후에 실행될 수 있습니다.
-
-[이 페이지](../building-journeys/read-audience.md#must-read)도 참조하십시오.
-
-### 대상자 선별 {#audience-qualif-g}
-
-[대상자 선별](../building-journeys/audience-qualification-events.md) 여정 활동에 다음 가드레일이 적용됩니다.
-
-* 대상자 선별 활동은 Adobe Campaign 활동과 함께 사용할 수 없습니다.
+여정에서 보충 식별자를 사용할 때는 특정 보호 기능이 적용됩니다. [이 페이지](../building-journeys/supplemental-identifier.md#guardrails)에 나열됩니다.
 
 ### 표현식 편집기  {#expression-editor}
 
@@ -227,8 +208,23 @@ Adobe Experience Platform에서 API 기반 프로필 만들기/업데이트와 �
 * 경험 이벤트 필드 그룹은 대상자 읽기, 대상자 선별 또는 비즈니스 이벤트 활동으로 시작하는 여정에서 사용할 수 없습니다. 새 대상자를 만들고 여정에서 대상자 내 `inaudience` 조건을 사용해야 합니다.
 * `timeSeriesEvents` 속성은 표현식 편집기에서 사용할 수 없습니다. 프로필 수준에서 [경험 이벤트]에 액세스하려면 `XDM ExperienceEvent` 스키마를 기반으로 새 필드 그룹을 만드십시오.
 
+### 여정 활동 {#activities}
 
-### 인앱 활동 {#in-app-activity-limitations}
+#### 대상 자격 활동 {#audience-qualif-g}
+
+[대상자 선별](../building-journeys/audience-qualification-events.md) 여정 활동에 다음 가드레일이 적용됩니다.
+
+* 대상자 선별 활동은 Adobe Campaign 활동과 함께 사용할 수 없습니다.
+* 보조 식별자는 대상 자격 여정에서 지원되지 않습니다.
+
+#### Campaign 활동 {#ac-g}
+
+**[!UICONTROL Campaign v7/v8]** 및 **[!UICONTROL Campaign Standard]** 활동에는 다음 가드레일이 적용됩니다.
+
+* Adobe Campaign 활동은 [대상자 읽기] 또는 [대상자 선별] 활동과 함께 사용할 수 없습니다.
+* 캠페인 활동은 다른 채널 활동(카드, 코드 기반 경험, 이메일, 푸시, SMS, 인앱 메시지, 웹)과 함께 사용할 수 없습니다.
+
+#### 인앱 활동 {#in-app-activity-limitations}
 
 **[!UICONTROL 인앱 메시지]** 작업에 다음 가드레일이 적용됩니다. [이 페이지](../in-app/create-in-app.md)에서 인앱 메시지에 대해 자세히 알아보십시오.
 
@@ -248,16 +244,28 @@ Adobe Experience Platform에서 API 기반 프로필 만들기/업데이트와 �
 
 * 인앱 메시지 콘텐츠 크기는 2MB로 제한됩니다. 큰 이미지를 포함하면 게시 프로세스에 지장이 있을 수 있습니다.
 
-### 이동 활동 {#jump-g}
+#### 이동 활동 {#jump-g}
 
 **[!UICONTROL 이동]** 활동에는 특정 가드레일이 적용됩니다. [이 페이지](../building-journeys/jump.md#jump-limitations)에 나열되어 있습니다.
 
-### Campaign 활동 {#ac-g}
+#### 대상자 활동 읽기 {#read-segment-g}
 
-**[!UICONTROL Campaign v7/v8]** 및 **[!UICONTROL Campaign Standard]** 활동에는 다음 가드레일이 적용됩니다.
+[대상자 읽기](../building-journeys/read-audience.md) 여정 활동에 다음 가드레일이 적용됩니다.
 
-* Adobe Campaign 활동은 [대상자 읽기] 또는 [대상자 선별] 활동과 함께 사용할 수 없습니다.
-* 캠페인 활동은 다른 채널 활동(카드, 코드 기반 경험, 이메일, 푸시, SMS, 인앱 메시지, 웹)과 함께 사용할 수 없습니다.
+* 스트리밍 대상자는 항상 최신 상태이지만 일괄 처리 대상자는 검색하는 순간에 계산되지 않습니다. 일일 배치 평가 시간에만 매일 평가됩니다.
+* **대상자 읽기** 활동을 사용하는 여정의 경우 정확히 동시에 시작할 수 있는 여정의 최대 개수가 정해져 있습니다. 시스템에서 재시도를 수행하기는 하지만, 정확히 같은 시간에 다섯 개가 넘는 여정(**대상자 읽기** 활동이 있거나 예약했거나 “최대한 빨리” 시작하는 여정)을 실행하는 것을 피하기 위해 5~10분 간격을 두는 등 시간을 분산하는 것이 좋습니다.
+* **대상자 읽기** 활동은 Adobe Campaign 활동과 함께 사용할 수 없습니다.
+* **대상자 읽기** 활동은 비즈니스 이벤트 활동 이후의 여정의 첫 번째 활동으로만 사용할 수 있습니다.
+* 여정은 하나의 **대상자 읽기** 활동만 가질 수 있습니다.
+* [이 페이지](../building-journeys/read-audience.md)의 **대상자 읽기** 활동을 사용하는 방법에 대한 권장 사항도 참조하십시오.
+* 내보내기 작업을 검색하는 동안 대상이 트리거된 여정(**대상자 읽기** 또는 **비즈니스 이벤트**&#x200B;로 시작)에서 기본적으로 다시 시도가 적용됩니다. 내보내기 작업 생성 중 오류가 발생하면 최대 1시간 동안 10분마다 다시 시도됩니다. 그 후에는 실패로 간주합니다. 따라서 이러한 유형의 여정은 예정된 시간보다 최대 1시간 후에 실행될 수 있습니다.
+* 보조 ID를 사용하는 여정의 경우, 각 여정 인스턴스에 대한 대상 읽기 활동의 읽기 속도는 초당 최대 500개의 프로필로 제한됩니다.
+
+[이 페이지](../building-journeys/read-audience.md#must-read)도 참조하십시오.
+
+#### 프로필 활동 업데이트 {#update-profile-g}
+
+**[!UICONTROL 프로필 업데이트]** 활동에 특정 가드레일이 적용됩니다. [이 페이지](../building-journeys/update-profiles.md)에 나열되어 있습니다.
 
 ## 캠페인 오케스트레이션 가드레일 {#orchestration-guardrails}
 

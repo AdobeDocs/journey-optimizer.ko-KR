@@ -3,9 +3,9 @@ title: 여정에서 보조 식별자 사용
 description: 여정에서 보조 식별자를 사용하는 방법을 알아봅니다.
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 4ce48f7929aa218908e8a1e25c37410c6ded6bde
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1366'
 ht-degree: 4%
 
 ---
@@ -17,45 +17,37 @@ ht-degree: 4%
 >title="추가 식별자 사용"
 >abstract="추가 식별자는 여정 실행을 위한 추가 컨텍스트를 제공하는 보조 식별자입니다. 이를 정의하려면 추가 식별자로 사용할 필드를 선택하고 이와 연결할 네임스페이스를 선택하십시오."
 
-기본적으로 여정은 **프로필 ID**&#x200B;의 컨텍스트에서 실행됩니다. 즉, 프로필이 주어진 여정에서 활성 상태인 한 다른 여정으로 다시 들어갈 수 없습니다. 이를 방지하기 위해 [!DNL Journey Optimizer]에서는 프로필 ID 외에 주문 ID, 구독 ID, 처방 ID와 같은 **보조 식별자**&#x200B;를 캡처할 수 있습니다.
-이 예에서는 예약 ID를 보조 식별자로 추가했습니다.
+<!--
+By default, journeys are executed in the context of a **profile ID**. This means that, as long as the profile is active in a given journey, it won't be able to re-enter another journey. To prevent this, [!DNL Journey Optimizer] allows you to capture a **supplemental identifier**, such as an order ID, subscription ID, prescription ID, in addition to the profile ID. 
+In this example, we have added a booking ID as a supplemental identifier. 
 
 ![](assets/event-supplemental-id.png){width=40% zoomable}
 
-이렇게 하면 보조 식별자(여기서는 예약 ID)와 연결된 프로필 ID의 컨텍스트에서 여정이 실행됩니다. 여정의 하나의 인스턴스는 보조 식별자의 각 반복에 대해 실행된다. 이렇게 하면 서로 다른 예약을 한 경우 여정에 동일한 프로필 ID를 여러 번 넣을 수 있습니다.
+By doing so, journeys are executed in the context of the profile ID associated to the supplemental identifier (here, the booking ID). One instance of the journey is executed for each iteration of the supplemental identifier. This allows multiple entrances of the same profile ID in journeys if they have made different bookings. 
 
-또한 Journey Optimizer을 사용하면 메시지 맞춤화를 위해 보조 식별자의 속성(예: 예약 번호, 처방 갱신 날짜, 제품 유형)을 활용하여 관련성이 높은 커뮤니케이션을 보장할 수 있습니다. <!--Example: A healthcare provider can send renewal reminders for each prescription in a patient's profile.-->
+In addition, Journey Optimizer allows you to leverage attributes of the supplemental identifier (e.g., booking number, prescription renewal date, product type) for message customization, ensuring highly relevant communications.-->
+
+<table style="border-collapse: collapse; width: 100%;">
+  <tr>
+    <td style="vertical-align: top; padding-right: 20px; border: none;">
+      <p>기본적으로 여정은 <b>프로필 ID</b>의 컨텍스트에서 실행됩니다. 즉, 프로필이 주어진 여정에서 활성 상태인 한 다른 여정으로 다시 들어갈 수 없습니다. 이를 방지하기 위해 Journey Optimizer에서는 프로필 ID 외에 주문 ID, 구독 ID, 처방 ID와 같은 <b>보조 식별자</b>를 캡처할 수 있습니다.  
+      <p>이 예제에서는 보조 식별자로 <b>예약 ID</b>을(를) 추가했습니다.</p>
+      <p>이렇게 하면 보조 식별자(여기서는 예약 ID)와 연결된 프로필 ID의 컨텍스트에서 여정이 실행됩니다. 여정의 하나의 인스턴스는 보조 식별자의 각 반복에 대해 실행된다. 이렇게 하면 서로 다른 예약을 한 경우 여정에 동일한 프로필 ID를 여러 번 넣을 수 있습니다.</p>
+      <p>또한 Journey Optimizer을 사용하면 메시지 맞춤화를 위해 보조 식별자의 속성(예: 예약 번호, 처방 갱신 날짜, 제품 유형)을 활용하여 관련성이 높은 커뮤니케이션을 보장할 수 있습니다.</p>
+    </td>
+    <td style="vertical-align: top; border: none; text-align: center; width: 40%;">
+      <img src="assets/event-supplemental-id.png" alt="보충 식별자 예" style="max-width:100%;" />
+    </td>
+  </tr>
+</table>
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
 
 ## 가드레일 및 제한 사항 {#guardrails}
 
-* **지원되는 여정**: 지금은 **이벤트 트리거** 및 **대상 읽기** 여정에서 보조 식별자를 사용할 수 있습니다. 대상 자격 여정은 사용할 수 없습니다.
+* **지원되는 여정**: 보조 식별자는 **이벤트 트리거됨** 및 **대상 읽기** 여정에 대해 지원됩니다. 대상 자격 여정(예: 대상 자격 활동으로 시작하는 여정)에 대해 **지원되지 않음**&#x200B;입니다.
 
 * **동시 인스턴스 제한**: 프로필에는 동시 여정 인스턴스가 10개를 초과할 수 없습니다.
-
-<!--* **Array depth**: Supplemental identifier objects can have a maximum depth of 3 levels (2 levels of nesting).
-
-    +++Example
-
-    ```
-    [
-    (level 1) "Atorvastatin" : {
-    "description" : "used to lower cholesterol",
-    "renewal_date" : "11/20/25",
-    "dosage" : "10mg"
-    (level 2) "ingredients" : [
-    (level 3) "Atorvastatin calcium",
-    "lactose monohydrate",
-    "microcrystalline cellulose",
-    "other" ]
-    }
-    ]
-    ```
-
-    +++
--->
-* **종료 기준**: 종료 기준이 트리거되면 해당 시점에 여정에 있는 프로필의 모든 인스턴스가 종료됩니다. 프로필 ID + 보조 식별자 조합과 컨텍스트가 맞지 않습니다.
 
 * **빈도 규칙**: 보조 식별자 사용에서 만들어진 각 여정 인스턴스는 보조 식별자를 사용하면 여러 여정 인스턴스가 발생하는 경우에도 빈도 제한에 포함됩니다.
 
@@ -77,8 +69,20 @@ ht-degree: 4%
 * **대상 여정 읽기**
 
    * 비즈니스 이벤트를 사용하는 경우 보조 ID가 비활성화됩니다.
-
    * 보조 ID는 프로필의 필드여야 합니다(즉, 이벤트/컨텍스트 필드가 아님).
+   * 보조 ID를 사용하는 대상자 읽기 여정의 경우 각 여정 인스턴스에 대한 대상자 읽기 활동의 읽기 속도는 초당 최대 500개의 프로필로 제한됩니다.
+
+## 보조 ID가 있는 종료 기준 동작 {#exit-criteria}
+
+사전 조건: 보조 ID에 대해 여정이 활성화됨(단일 이벤트 또는 대상자 읽기 활동을 통해)
+
+아래 표에서는 종료 기준이 구성된 경우 보조 ID가 활성화된 여정에서 프로필의 동작을 설명합니다.
+
+| 종료 기준 구성 | 종료 기준이 충족될 때의 비헤이비어 |
+| ---------------------------- | ---------------------------------- |
+| 비보조 ID 이벤트 기반 | 해당 여정의 해당 프로필의 모든 인스턴스가 종료됩니다. |
+| 보조 ID 이벤트 <br/>*을(를) 기반으로 합니다. 참고: 보조 ID 네임스페이스는 초기 노드의 네임스페이스와 일치해야 합니다.* | 일치하는 프로필 + 보조 ID 인스턴스만 종료됩니다. |
+| 대상자 기반 | 해당 여정의 해당 프로필의 모든 인스턴스가 종료됩니다. |
 
 ## 보조 식별자를 추가하고 여정에서 활용합니다 {#add}
 
@@ -251,4 +255,4 @@ ht-degree: 4%
 
 [!DNL Adobe Journey Optimizer]에서 보조 식별자를 활성화하고 적용하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464799?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
