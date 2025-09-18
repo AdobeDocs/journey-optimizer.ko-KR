@@ -7,7 +7,7 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1db60eb4edd552c1a1b7379e06babbf3c6dd9d2f
+source-git-commit: 59a6413fb111c3ac595416d8e5933b981bc64d3c
 workflow-type: tm+mt
 source-wordcount: '1472'
 ht-degree: 28%
@@ -243,7 +243,7 @@ ht-degree: 28%
   이 기능은 Adobe 처리량 높은 트랜잭션 메시지 추가 기능 서비스를 구입한 조직의 이메일 채널에만 사용할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
 
-- **시간 단위 캡핑 빈도 재설정** - 이제 채널 규칙 세트에 대해 시간 단위로 캡핑을 적용할 수 있습니다. 이전에는 제한된 가용성에서 사용할 수 있었지만 이제 모든 환경에서 이 기능을 사용할 수 있으며 1시간(이전에는 3시간)을 선택할 수 있습니다. [자세한 내용](../conflict-prioritization/channel-capping.md). 가용성 날짜: 9월 17일
+- **시간 단위 캡핑 빈도 재설정** - 이제 채널 규칙 세트에 대해 시간 단위로 캡핑을 적용할 수 있습니다. 이전에는 제한된 가용성에서 사용할 수 있었지만 이제 모든 환경에서 이 기능을 사용할 수 있으며 1시간(이전에는 3시간)을 선택할 수 있습니다. [자세한 내용](../conflict-prioritization/channel-capping.md). 사용 가능한 날짜: 9월 17일
 
 - **동적 도메인 지원** - 이제 Journey Optimizer에서 Adobe에서 허용하는 사전 정의된 도메인에 대한 전체/기본 URL 개인 맞춤화를 지원합니다. [자세히 보기](../personalization/personalization-build-expressions.md#where) <!--Availability date: September 12-->
 
