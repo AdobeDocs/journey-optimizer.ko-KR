@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 180b517c311f1d9a19f8c185f4ce5acd824aa3d9
+source-git-commit: 1db60eb4edd552c1a1b7379e06babbf3c6dd9d2f
 workflow-type: tm+mt
 source-wordcount: '1472'
-ht-degree: 26%
+ht-degree: 28%
 
 ---
 
@@ -224,7 +224,7 @@ ht-degree: 26%
   보다 명확하고 직관적인 경험을 위해 이제 오케스트레이션된 캠페인에서 관계형 스키마를 모델 기반 스키마라고 합니다.
 
 - **여정에서 데이터 집합 조회 지원**\
-  여정의 새 활동인 **데이터 집합 조회**&#x200B;를 사용하면 런타임 중에 Adobe Experience Platform 레코드 데이터 집합에서 데이터를 동적으로 검색할 수 있습니다. 이 기능을 활용하면 프로필이나 이벤트 페이로드에 없을 수 있는 데이터에 액세스하여 상호 작용이 적절하고 적시에 이루어지도록 할 수 있습니다.
+  여정의 새 활동인 **데이터 집합 조회**&#x200B;를 사용하면 런타임 중에 Adobe Experience Platform 레코드 데이터 집합에서 데이터를 동적으로 검색할 수 있습니다. 이 기능을 활용하면 프로필 또는 이벤트 페이로드에 없는 데이터에 액세스할 수 있게 되어 고객 상호 작용이 더 관련성 있게 알맞은 시간에 이루어지도록 할 수 있습니다.
 
 - **모든 인바운드 채널에 대한 콘텐츠 변형 시뮬레이션**\
   이전에는 이메일, SMS 및 푸시 알림 채널에서만 사용할 수 있었지만 콘텐츠 변형 시뮬레이션은 이제 모든 인바운드 채널에도 적용됩니다.
