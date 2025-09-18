@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 59a6413fb111c3ac595416d8e5933b981bc64d3c
+source-git-commit: abb1da09160cd5454460588242c475b85f4adf6b
 workflow-type: tm+mt
-source-wordcount: '1472'
-ht-degree: 28%
+source-wordcount: '1540'
+ht-degree: 31%
 
 ---
 
@@ -77,13 +77,13 @@ ht-degree: 28%
 <table>
 <thead>
 <tr>
-<th><strong>Journey Agent</strong><br/></th>
+<th><strong>Journey Agent이 왔습니다!</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Agent을 사용하면 Journey Optimizer 사용자가 자연어 인터페이스를 사용하여 여정을 만들고, 분석하고, 최적화할 수 있습니다. Journey Agent을 통해 실무자는 스케줄 또는 대상 충돌을 신속하게 감지 및 해결하고, 성과 및 중단점을 분석하며, 향후 캠페인을 위해 복제할 최고 성과의 여정을 식별할 수 있습니다.</p>
+<p>이제 AI Assistant에는 Journey Optimizer을 위한 기본 Journey Agent 기술이 포함되어 있어 전문가가 자연어 인터페이스를 통해 여정을 분석할 수 있습니다. 이러한 새로운 기술을 통해 사용자는 여정을 분석하고 만들어 잠재적인 일정 또는 대상 충돌을 감지하고 해결할 수 있습니다.</p>
 </td>
 </tr>
 </tbody>
@@ -110,6 +110,24 @@ ht-degree: 28%
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>랜딩 페이지 사용자 정의 양식</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 [!DNL Journey Optimizer]에서 랜딩 페이지를 통해 프로필 속성을 캡처할 수 있습니다.</p>
+<p>특정 데이터 세트를 기반으로 필요에 맞는 사용자 정의 양식을 만들고 디자인하고 관리합니다. 그런 다음 랜딩 페이지에서 이 양식을 활용하여 선택한 프로필 속성을 각 양식별로 정의한 데이터 세트에 추가할 수 있습니다.</p>
+<p>이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.</p>
+<!--p><img src="assets/do-not-localize/forms.gif"/></p>
+<p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p-->
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
