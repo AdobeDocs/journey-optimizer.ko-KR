@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 87406499a11060bceffd2709b7a907b97d72c8a9
+source-git-commit: 2ebdb37b390988941f29a5e6ecfe147984450d51
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1548'
 ht-degree: 31%
 
 ---
@@ -58,6 +58,22 @@ ht-degree: 31%
 </tr>
 </tbody>
 </table-->
+
+<table>
+<thead>
+<tr>
+<th><strong>사용자 지정 작업 모니터링 및 보고</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 사용자 지정 작업 모니터링 및 보고를 사용할 수 있습니다. 이 기능은 라이프사이클 상태 및 성능 경고를 포함하여 여정 상태 및 실행에 대한 가시성을 향상시킵니다. 이제 사용자 지정 작업에서 예외 상황이 발생하는 시기, 장소 및 이유를 빠르게 이해할 수 있습니다.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 <table>
 <thead>
@@ -246,9 +262,6 @@ ht-degree: 31%
 
 - **모든 인바운드 채널에 대한 콘텐츠 변형 시뮬레이션**\
   이전에는 이메일, SMS 및 푸시 알림 채널에서만 사용할 수 있었지만 콘텐츠 변형 시뮬레이션은 이제 모든 인바운드 채널에도 적용됩니다.
-
-- **사용자 지정 작업 모니터링 및 보고**\
-  이 기능은 라이프사이클 상태 및 성능 경고를 포함하여 여정 상태 및 실행에 대한 가시성을 향상시킵니다. 이제 사용자 지정 작업에서 예외 상황이 발생하는 시기, 장소 및 이유를 빠르게 이해할 수 있습니다.
 
 - **API 트리거 캠페인에 대한 웹후크 지원**\
   이제 API 트리거 캠페인이 웹후크를 지원합니다. 모든 메시지에 대한 실시간 상태 업데이트를 받도록 웹후크 URL을 구성하여 가시성을 향상시키고 원활한 모니터링 및 자동화를 가능하게 합니다.
