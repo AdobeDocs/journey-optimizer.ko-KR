@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 75c3db704853b8d2d8920ddd0086681d1fb02a93
+source-git-commit: 180b517c311f1d9a19f8c185f4ce5acd824aa3d9
 workflow-type: tm+mt
-source-wordcount: '1033'
-ht-degree: 100%
+source-wordcount: '1472'
+ht-degree: 26%
 
 ---
 
@@ -18,56 +18,26 @@ ht-degree: 100%
 
 [!DNL Adobe Journey Optimizer]은 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 모든 변경 사항은 매월 말 [릴리스 정보](release-notes.md)에 통합됩니다.
 
-
-## 25년 8월 사전 릴리스 정보 {#25-8-rn}
+## 2025년 9월 프리릴리스 정보 {#25-9-rn}
 
 **아래 사전 릴리스 정보는 릴리스 공개 당일까지 사전 통지 없이 변경될 수 있습니다**. 링크, 화면, 업데이트된 설명서는 릴리스 일자에 릴리스 정보에 게시됩니다.
 
 [Adobe Experience Platform 사전 릴리스 정보](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}도 참조하십시오.
 
-**릴리스 일자**: 2025년 8월 19일
+**릴리스 날짜**: 2025년 9월 23~24일
 
-
-### 새로운 기능 {#Aug-25-8-features}
+### 새로운 기능 {#sept-25-9-features}
 
 <table>
 <thead>
 <tr>
-<th><strong>여정 일시 중단 및 다시 시작</strong><br/></th>
+<th><strong>여정 검색을 위한 공개 API</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 여정을 일시 중단했다가 다시 시작할 수 있습니다. 이 기능을 사용하면 고객 경험을 중단하지 않고 라이브 여정을 일시적으로 중단할 수 있으므로 여정 실무자가 여정을 보다 자유롭게 제어하고 유연하게 조정할 수 있습니다. 일시 중단하면 커뮤니케이션이 전송되지 않으며 프로필은 여정이 다시 시작될 때까지 보류 상태로 유지됩니다.</p>
-<p>하나의 여정만 일시 중단했다가 다시 시작하거나, 여정 그룹에 일괄 일시 중단 및 다시 시작 작업을 수행할 수 있습니다.</p>
-<p>또한 일시 중단된 프로필에 전역 필터를 적용하여 속성에 따라 프로필을 제외할 수 있습니다.</p>
-<p><!--img src="assets/do-not-localize/PauseResume.gif"/>--></p>
-<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
-<p><!--For more information, refer to the <a href="../building-journeys/journey-pause.md">detailed documentation</a>--></p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>캘린더 보기</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 여정 및 캠페인 목록에서 캘린더 보기를 사용할 수 있습니다. 이를 통해 각 목록에 있는 모든 여정 및 캠페인의 활성화를 시각화할 수 있습니다.</p>
-<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다. 이번 GA 릴리스에서는 다음과 같은 기능이 제공됩니다.</p>
-<ul>
-<li>날짜 내 탐색에 대한 디자인 개선 사항</li>
-<li>시작 및 종료 날짜를 설정한 경우 초안 캠페인을 볼 수 있는 기능</li>
-<li>오래 실행되는 일정 항목을 숨기거나 표시하는 새로운 설정</li>
-</ul>
-<p><!--img src="assets/do-not-localize/calendar.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../building-journeys/journey-ui.md#journeys-calendar">detailed documentation</a>--></p>
+<p>이제 새로운 Journey Optimizer API를 사용하여 캠페인과 표면 등 여정 및 관련 개체를 검색할 수 있습니다.</p>
 </td>
 </tr>
 </tbody>
@@ -76,66 +46,93 @@ ht-degree: 100%
 <!--table>
 <thead>
 <tr>
-<th><strong>Dark mode in the Email Designer</strong><br/></th>
+<th><strong>New Web Push notifications channel</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>The Journey Optimizer Email Designer now offers the ability to switch to dark mode view, where you can additionally define specific custom settings that will display only for recipients reading their emails in dark mode.</p>
-<p>Note the following:</p>
+<p>Adobe Journey Optimizer now supports Web Push notifications, expanding the push channel beyond mobile. You can seamlessly deliver notifications to both mobile and desktop browsers, enabling you to reach customers directly on their devices without requiring an app.</p>
+<p>This enhancement allows you to engage users with timely, personalized messages in real time, leveraging the same authoring workflows and targeting capabilities already available for mobile push.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<table>
+<thead>
+<tr>
+<th><strong>충성도 앱을 위한 새로운 소스 커넥터</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 Adobe Experience Platform에서 Talon.One, Capillary 및 Kobie 충성도 앱에 대한 새로운 소스 커넥터를 사용할 수 있습니다. 이러한 커넥터를 사용하면 충성도 데이터를 Adobe Experience Platform으로 원활하게 스트리밍하고 Journey Optimizer에서 이러한 데이터를 활용할 수 있습니다.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey Agent</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Agent을 사용하면 Journey Optimizer 사용자가 자연어 인터페이스를 사용하여 여정을 만들고, 분석하고, 최적화할 수 있습니다. Journey Agent을 통해 실무자는 스케줄 또는 대상 충돌을 신속하게 감지 및 해결하고, 성과 및 중단점을 분석하며, 향후 캠페인을 위해 복제할 최고 성과의 여정을 식별할 수 있습니다.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey Optimizer Experimentation Accelerator</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer Experimentation Accelerator은 실험을 한 단계 더 발전시키기 위해 설계된 AI 최초 제품입니다. Adobe Journey Optimizer 및 Adobe Target 사용자를 위해 구축된 이 솔루션은 실험 관리를 통합하고, AI 기반의 통찰력과 기회를 제공하며, 새로운 실험 에이전트를 도입합니다.</p>
+<p>다음을 기대할 수 있습니다.</p>
 <ul>
-<li>The dark mode final rendering may vary and depends on the recipient's email client.</li>
-<li>Not all email clients support custom dark mode. Moreover, some email clients only apply their own default dark mode for all emails that are received. In both cases, the custom settings that you defined in the Email Designer cannot be rendered.</li>
+<li><strong>통합 실험 인벤토리:</strong> 하나의 중앙 작업 공간에서 Adobe Journey Optimizer 및 Adobe Target의 모든 실험을 빠르게 보고, 필터링하고, 관리합니다. 새로운 팀 전환기를 사용하면 사용자가 팀 및 역할별로 보기를 맞춤화할 수 있으므로 적합한 사람에게 가장 적합한 실험을 볼 수 있습니다.</li>
+<li><strong>AI 실험 인사이트 및 기회:</strong> GenAI 기반 인사이트 및 권장 사항을 사용하여 통계적 미리 보기 수준을 넘어서십시오. 이제 각 실험은 지원 근거와 함께 실행 가능한 기회를 표시하므로 팀은 다음에 테스트할 항목을 보다 자신 있게 결정할 수 있습니다.</li>
+<li><strong>MAB(Multi-Armed Bandit) 지원:</strong> Multi-Armed Bandit 실험으로 낭비되는 트래픽을 줄이면서 효과를 극대화합니다. MAB은 대상을 균등하게 분할하는 대신 더 많은 방문자를 성과가 가장 좋은 변형에 실시간으로 자동 할당하므로 더 많은 고객에게 더 나은 경험을 전달할 수 있으면서도 어떤 기능이 작동하는지 학습할 수 있습니다.</li>
 </ul>
-<P>This capability is currently in beta version and only available to beta customers. To join the beta program, contact your Adobe representative.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>이메일 디자이너의 다크 모드</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 Journey Optimizer 이메일 디자이너에서 다크모드 보기로 전환할 수 있는 기능을 제공합니다. 이 기능에서는 다크모드에서 이메일을 읽는 수신자에게만 표시되는 특정 사용자 지정 설정을 추가로 정의할 수 있습니다.</p>
+<p>다음 사항에 유의하십시오.</p>
+<ul>
+<li>다크모드 최종 렌더링은 수신자의 이메일 클라이언트에 따라 다를 수 있습니다.</li>
+<li>모든 이메일 클라이언트가 사용자 정의 다크모드를 지원하지는 않습니다. 또한 일부 이메일 클라이언트는 수신되는 모든 이메일에 대해 자신의 기본 다크모드만 적용합니다. 두 경우 모두 이메일 디자이너에서 정의한 사용자 지정 설정을 렌더링할 수 없습니다.</li>
+</ul>
 <p><img src="assets/do-not-localize/dark-mode.gif"/></p>
-<p>For more information, refer to the <a href="../email/dark-mode.md">detailed documentation</a></p>
-</td>
-</tr>
-</tbody>
-</table-->
-
-<table>
-<thead>
-<tr>
-<th><strong>개인화에 Adobe Experience Platform 데이터 사용</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>개인화 편집기에서 Adobe Experience Platform의 데이터를 활용하여 콘텐츠를 개인화할 수 있습니다. 이렇게 하려면 조회 개인화에 필요한 데이터 세트를 먼저 API 호출을 통해 활성화해야 합니다. 완료되면 해당 데이터를 사용하여 콘텐츠를 [!DNL Journey Optimizer]​(으)로 개인화할 수 있습니다.</p>
-<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다. 이번 일반 가용성 릴리스에서는 다음과 같은 개선 사항이 도입되었습니다.</p>
-<ul>
-<li>인바운드 채널 지원</li>
-<li>이제 “datasetLookup” 도우미 함수를 표현식 및 시각적 조각 내에서 사용하여 Adobe Experience Platform 데이터 세트의 데이터로 콘텐츠 개인화 가능</li>
-<li>데이터 세트에 추가된 옵션으로 API 호출을 수행하지 않고도 조회 개인화를 위한 데이터 세트 활성화 가능</li>
-</ul>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<p>자세한 내용은 <a href="../email/dark-mode.md">세부 설명서</a>를 참조하십시오.</p>
+ <p>사용 가능한 날짜: 2025년 9월 16일</p>
 </td>
 </tr>
 </tbody>
 </table>
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Use Decisioning in email channel</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now add Decision policies into email journeys and campaigns. Decision policies are containers for your offers that leverage the Decisioning engine to dynamically return the best content to deliver for each audience member.</p>
-<p>Previously released in Limited Availability, this capability is now available to all environments (General Availability).</p>
-<p><img src="assets/do-not-localize/FILE.gif"/></p>
-<p><For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
-</td>
-</tr>
-</tbody>
-</table-->
 
 <table>
 <thead>
@@ -146,10 +143,12 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>이제 Journey Optimizer는 AI 및 실험 프레임워크를 활용하여 여정을 최적화할 수 있는 도구를 제공하는 동시에 원활한 유용성과 조건 및 최적화 기능 간 차별화를 보장합니다.</p>
+<p>새로운 최적화 노드를 사용하여 특정 대상자를 타기팅하거나 A/B 테스트를 실행하여 비즈니스 중심 KPI를 충족하는 최상의 경로를 결정합니다.</p>
+<p>이 도구를 사용하여 테스트 및 변경을 수행하고 커뮤니케이션, 시퀀스, 타이밍을 사용자 정의하여 고객에게 가장 효과적으로 다가갈 수 있습니다.</p>
 <p>이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<p><img src="assets/do-not-localize/optimize.gif"/></p>
+<p>자세한 내용은 <a href="../building-journeys/optimize.md">세부 설명서</a>를 참조하십시오.</p>
+<p>사용 가능한 날짜: 2025년 9월 4일</p>
 </td>
 </tr>
 </tbody>
@@ -158,22 +157,16 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>여정의 액션 활동</strong><br/></th>
+<th><strong>하위 도메인에 대한 사용자 정의 위임 방법</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer가 단일 액션과 여러 액션이 있는 인바운드 액션 그룹을 모두 구성할 수 있는 포괄적 액션 활동을 새롭게 지원하여 여정 캔버스 내 액션 구성을 간소화할 수 있습니다. 특히 이 새로운 기능에는 다음과 같은 이점이 있습니다.</p>
-<ul>
-<li>여정 캔버스 내 기본 액션 구성 간소화.</li>
-<li>다중 액션 인바운드 노드를 만들 수 있는 용량.</li>
-<li>모든 기본 제공 채널 액션에 최적화를 더하는 기능.</li>
-<li>모든 액션에 실험과 다국어 옵션을 모두 추가하는 기능.</li>
-</ul>
+<p>이제 전체 위임과 CNAME 방법 외에 새로운 하위 도메인 구성 방법인 사용자 정의 위임 방법을 사용할 수 있습니다. 이 방법을 사용하면 메시지 게재, 렌더링, 추적에 필요한 DNS의 모든 측면을 사용자가 완전히 제어하고 유지 관리할 수 있습니다.</p>
 <p>이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<p>자세한 내용은 <a href="../configuration/delegate-custom-subdomain.md">세부 설명서</a>를 참조하십시오.</p>
+<p>사용 가능한 날짜: 2025년 9월 4일</p>
 </td>
 </tr>
 </tbody>
@@ -182,67 +175,87 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>랜딩 페이지 사용자 정의 양식</strong><br/></th>
+<th><strong>개인화 및 의사 결정에 Adobe Experience Platform 데이터 사용</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 Journey Optimizer에서 사용자 정의 양식을 만들고 랜딩 페이지에서 활용하여 각 양식에 대해 정의된 데이터 세트에 프로필 속성을 캡처할 수 있습니다.</p>
-<p>이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.</p>
-<p><!--This capability is currently in beta version and only available to beta customers. To join the beta program, contact your Adobe representative.--></p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<p>이전에 공개 베타로 출시된 이 기능은 이제 제한된 가용성의 모든 환경에서 사용할 수 있습니다. 이번 릴리스에서는 다음과 같은 개선 사항이 도입되었습니다.</p>
+<ul><li>인바운드 채널에서 데이터 세트 조회 개인화를 지원합니다.</li>
+<li>이제 "datasetLookup" 도우미 함수를 표현식 조각 내에서 사용할 수 있습니다. 현재 제한된 고객 세트에서 이 기능을 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</li>
+<li>이제 데이터 세트 관리 인터페이스의 옵션을 통해 API 호출을 수행하지 않고도 조회 개인화에 대해 레코드 기반 데이터 세트를 활성화할 수 있습니다.</li>
+<li>데이터 수집 상태를 추적하고 데이터 세트를 조회할 준비가 되었는지 알 수 있도록 모니터링을 개선했습니다.</li>
+<li>최적의 성능과 안정성을 보장하기 위해 사용 지침 및 보호 기능을 업데이트했습니다.</li>
+<li>이제 의사 결정 최대 가용량 규칙에서 Adobe Experience Platform 데이터 세트를 활용할 수 있습니다.</li></ul></p>
+<p>자세한 내용은 <a href="../data/lookup-aep-data.md">세부 설명서</a>를 참조하십시오.</p>
+<p>사용 가능한 날짜: 2025년 9월 1일</p>
 </td>
 </tr>
 </tbody>
 </table>
 
+### 개선 사항
 
-### 개선 사항 {#Aug-25-8-improv}
+- **승인 정책 권한**
+여정/캠페인 작성자가 자신의 개체를 승인하지 못하도록 승인 정책을 만들거나 설정할 때 옵션을 추가했습니다.
 
-다음은 이번 릴리스의 개선 사항 목록입니다.
+- **새 여정 알림**\
+  여정에 대해 사전 구성된 새 경고를 사용할 수 있습니다.
+   - 프로필 폐기 비율 초과: 지난 5분 동안 임계값을 초과한 입력된 프로필에 대한 프로필 폐기 비율입니다.
+   - 사용자 지정 작업 오류율 초과: 지난 5분 동안 임계값보다 높은 성공적인 HTTP 호출에 대한 사용자 지정 작업 오류의 비율입니다.
+   - 프로필 오류율 초과: 지난 5분 동안 입력한 프로필 대비 오류가 발생한 프로필 비율이 임계값을 초과했습니다.
 
-* **관리**
+- **이제 사용자 지정 인증에서 중첩된 JSON 본문 매개 변수가 지원됩니다**\
+  사용자 지정 작업에 대한 사용자 지정 인증을 구성할 때 중첩 JSON 개체(예: `bodyParams` 내의 하위 개체)가 지원됩니다.
 
-   * **채널 구성 모니터링 경고** - 이제 구독 설정을 통해 채널 구성 오류가 발생하거나 DNS 레코드가 누락된 경우 이메일 또는 Journey Optimizer 알림 센터에서 시스템 경고를 받을 수 있습니다.
+- **결정 항목에 조각 첨부**\
+  이제 Journey Optimizer에서는 의사 결정 정책을 통해 코드 기반 경험 캠페인에서 활용할 수 있는 의사 결정 항목에 조각을 첨부할 수 있는 기능을 제공합니다.
 
-* **캠페인**
+- **한 번의 클릭으로 구독 취소 URL을 지원하는 사용자 지정 특성**\
+  Journey Optimizer을 사용하면 Adobe 외부에서 동의를 관리하는 경우 이메일 구성에서 클릭 한 번으로 구독 취소 링크를 정의하여 외부 사용자 지정 엔드포인트를 설정할 수 있습니다. 수신자가 구독 취소 링크를 클릭하면 Journey Optimizer는 기본 프로필별 매개 변수 몇 가지를 동의 업데이트 이벤트에 추가합니다.
 
-   * **아웃바운드 캠페인의 속도 제어** - 이제 아웃바운드 캠페인(이메일, SMS, 푸시 알림)에 대한 스로틀링 속도 제어를 활성화하여 랜딩 페이지나 고객 지원 플랫폼과 같은 다운스트림 시스템의 과부하를 방지할 수 있습니다.
+  이제 구독 취소 이메일 주소를 추가로 개인화하기 위해 동의 이벤트에 추가할 사용자 지정 속성을 정의할 수 있습니다. 이 기능은 8월 25일 릴리스부터 사용자 정의 원클릭 구독 취소 링크에 이미 사용할 수 있습니다.
 
-   * **액션 캠페인 예약** - 세부 기간 설정을 개선하기 위해 일별, 주별, 월별 캠페인 스케줄러를 업데이트했습니다. 예를 들어 이제 일정 사이 기간을 주/개월 단위로 설정하고, 실행할 날짜를 정의하고, 특정 발생 횟수 이후 또는 특정 날짜에 중단하도록 결정할 수 있습니다.
+- SMS BYOP에 대한 **mTLS 지원**\
+  이제 사용자 지정 SMS 공급자를 설정할 때 상호 TLS(mTLS) 인증을 활성화하는 옵션이 있으므로 보안 연결이 설정되기 전에 클라이언트와 서버가 서로의 ID를 확인해야 합니다.
 
-   * **예약된 트랜잭션 액션 캠페인** - 이제 예약된 트랜잭션 액션 캠페인으로 이메일, SMS, 푸시 채널을 통해 대상자 기반 배치 트랜잭션 커뮤니케이션을 보낼 수 있습니다.
+- **모델 기반 스키마**\
+  보다 명확하고 직관적인 경험을 위해 이제 오케스트레이션된 캠페인에서 관계형 스키마를 모델 기반 스키마라고 합니다.
 
-* **채널 - 푸시**
+- **여정에서 데이터 집합 조회 지원**\
+  여정의 새 활동인 **데이터 집합 조회**&#x200B;를 사용하면 런타임 중에 Adobe Experience Platform 레코드 데이터 집합에서 데이터를 동적으로 검색할 수 있습니다. 이 기능을 활용하면 프로필이나 이벤트 페이로드에 없을 수 있는 데이터에 액세스하여 상호 작용이 적절하고 적시에 이루어지도록 할 수 있습니다.
 
-   * **푸시 알림 만료일** - 이제 각 푸시 알림에 대해 만료일을 지정할 수 있습니다. 이 기능으로 시간에 민감한 메시지(예: 블랙 프라이데이 세일)가 특정 날짜 이후에 전송되지 않도록 설정해 고객에게 좋지 않은 경험을 전하는 것을 방지할 수 있습니다.
+- **모든 인바운드 채널에 대한 콘텐츠 변형 시뮬레이션**\
+  이전에는 이메일, SMS 및 푸시 알림 채널에서만 사용할 수 있었지만 콘텐츠 변형 시뮬레이션은 이제 모든 인바운드 채널에도 적용됩니다.
 
-* **채널 - 이메일**
+- **사용자 지정 작업 모니터링 및 보고**\
+  이 기능은 라이프사이클 상태 및 성능 경고를 포함하여 여정 상태 및 실행에 대한 가시성을 향상시킵니다. 이제 사용자 지정 작업에서 예외 상황이 발생하는 시기, 장소 및 이유를 빠르게 이해할 수 있습니다.
 
-   * **이메일에 PDF 파일 첨부** - 이제 Journey Optimizer로 보내는 이메일 메시지에 정적 PDF 파일을 첨부할 수 있습니다.
+- **API 트리거 캠페인에 대한 웹후크 지원**\
+  이제 API 트리거 캠페인이 웹후크를 지원합니다. 모든 메시지에 대한 실시간 상태 업데이트를 받도록 웹후크 URL을 구성하여 가시성을 향상시키고 원활한 모니터링 및 자동화를 가능하게 합니다.
 
-* **채널 - SMS**
+- **여정 사용자 지정 작업에서 리디렉션 지원**\
+  이제 리디렉션(302)이 여정 사용자 지정 작업에서 지원됩니다.
 
-   * **퍼지 옵트아웃** - **퍼지 옵트아웃** 옵션을 활성화하면 정의된 옵트아웃 키워드(예: &#39;CANCIL&#39;)와 유사한 인바운드 메시지를 감지하고 자동으로 확인 응답을 보내 사용자의 구독 취소 의도를 확인합니다. 사용자가 정의된 프롬프트를 통해 확인하는 경우 해당 사용자의 구독을 취소합니다.
+- **API 트리거 전자 메일 캠페인에 대한 높은 처리량 모드**\
+  이제 API가 트리거된 캠페인에서 새로운 높은 처리량 모드를 사용할 수 있습니다. 이 모드는 대규모 실시간 메시지(초당 최대 5000개의 트랜잭션)를 위해 설계되었으며 대기 시간이 짧을수록 높은 가용성을 제공합니다.\
+  이 기능은 Adobe 처리량 높은 트랜잭션 메시지 추가 기능 서비스를 구입한 조직의 이메일 채널에만 사용할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
-     **퍼지 옵트아웃**&#x200B;은 Sinch 및 Infobip에서만 사용할 수 있습니다.
 
-   * **SMS 연결 확인** - 이제 샘플 메시지를 지정된 디바이스로 전송하여 Adobe Journey Optimizer 내에서 SMS API 자격 증명을 쉽게 테스트하고 확인할 수 있습니다.
+- **시간 단위 캡핑 빈도 재설정** - 이제 채널 규칙 세트에 대해 시간 단위로 캡핑을 적용할 수 있습니다. 이전에는 제한된 가용성에서 사용할 수 있었지만 이제 모든 환경에서 이 기능을 사용할 수 있으며 1시간(이전에는 3시간)을 선택할 수 있습니다. [자세한 내용](../conflict-prioritization/channel-capping.md). 가용성 날짜: 9월 17일
 
-* **구성**
+- **동적 도메인 지원** - 이제 Journey Optimizer에서 Adobe에서 허용하는 사전 정의된 도메인에 대한 전체/기본 URL 개인 맞춤화를 지원합니다. [자세히 보기](../personalization/personalization-build-expressions.md#where) <!--Availability date: September 12-->
 
-   * **동적 도메인 지원** - 이제 Journey Optimizer가 채널 구성 수준에서 사전 정의된 도메인의 URL 추적에 대한 개인화를 지원합니다.
+  >[!NOTE]
+  >
+  >이 기능은 일부 고객에게는 제한된 가용성으로 제공됩니다.
 
-   * **원클릭 구독 취소 URL에 사용자 정의 특성 지원** - Journey Optimizer를 사용할 때 Adobe 외부에서 동의를 관리하는 경우 이메일 구성에서 원클릭 구독 취소 링크를 정의하여 외부 사용자 정의 엔드포인트를 설정할 수 있습니다. 수신자가 구독 취소 링크를 클릭하면 Journey Optimizer는 기본 프로필별 매개 변수 몇 가지를 동의 업데이트 이벤트에 추가합니다.
+- **의사 결정 최대 가용량 규칙에 대한 식** - 이제 의사 결정 항목에 대한 최대 가용량 규칙의 임계값을 정의하기 위해 자체 식을 만들 수 있습니다. [자세히 보기](../experience-decisioning/items.md#capping)
 
-     이제 원클릭 구독 취소 링크의 개인화 수준을 높이기 위해 동의 이벤트에 추가할 사용자 정의 속성을 지정할 수 있습니다.
+>[!NOTE]
+>
+>이 기능은 현재 모든 사용자에게 제한된 가용성으로 제공됩니다.
 
-* **의사 결정**
+- **채널 구성 모니터링 경고** - 이제 사용자 지정 하위 도메인 위임 유형을 사용하는 이메일 채널 구성 오류가 발생하는 경우 이메일 또는 Journey Optimizer 알림 센터에서 시스템 경고를 수신하도록 구독할 수 있습니다. [자세히 보기](../reports/alerts.md#alert-dns-record-missing)
 
-   * **결정 항목에 조각 첨부** - 이제 Journey Optimizer가 결정 항목에 조각을 첨부할 수 있는 기능을 제공합니다. 따라서 결정 정책을 통해 코드 기반 경험 캠페인에서 활용할 수 있습니다.
-
-* **여정**
-
-   * **여정 일괄 작업** - 이제 여정 목록에서 여러 항목을 선택할 수 있습니다. 선택하면 한 번에 최대 10개의 여정을 일시 중지하거나 다시 시작할 수 있습니다.
