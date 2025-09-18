@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c4aa1a6ecabb7b742bce084bb96865f965531d77
+source-git-commit: 64228dfbd0e8c2884df179767d0ec9fe13d6fdf6
 workflow-type: tm+mt
-source-wordcount: '2180'
-ht-degree: 88%
+source-wordcount: '2226'
+ht-degree: 87%
 
 ---
 
@@ -111,6 +111,8 @@ ht-degree: 88%
 </table>
 
 ### 개선 사항 {#Sep-25-improv}
+
+* **시간 단위 캡핑 빈도 재설정** - 이제 채널 규칙 세트에 대해 시간 단위로 캡핑을 적용할 수 있습니다. 이전에는 제한된 가용성에서 사용할 수 있었지만 이제 모든 환경에서 이 기능을 사용할 수 있으며 1시간(이전에는 3시간)을 선택할 수 있습니다. [자세한 내용](../conflict-prioritization/channel-capping.md). 가용성 날짜: 9월 17일
 
 * **동적 도메인 지원** - 이제 Journey Optimizer에서 Adobe에서 허용하는 사전 정의된 도메인에 대한 전체/기본 URL 개인 맞춤화를 지원합니다. [자세히 보기](../personalization/personalization-build-expressions.md#where) <!--Availability date: September 12-->
 
