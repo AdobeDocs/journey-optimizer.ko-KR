@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 64228dfbd0e8c2884df179767d0ec9fe13d6fdf6
+source-git-commit: 09b56bacb61f64e5292a6c1b9b7706b9fa390d0c
 workflow-type: tm+mt
 source-wordcount: '2226'
 ht-degree: 87%
@@ -376,7 +376,7 @@ ht-degree: 87%
 
 * **의사 결정**
 
-   * **결정 항목에 조각 첨부** - 이제 Journey Optimizer가 결정 항목에 조각을 첨부할 수 있는 기능을 제공합니다. 따라서 결정 정책을 통해 코드 기반 경험 캠페인에서 활용할 수 있습니다. 이 기능은 제한된 가용성으로 일부 고객에게만 제공됩니다. [자세히 보기](../experience-decisioning/create-decision.md#fragments)
+   * **결정 항목에 조각 첨부** - 이제 Journey Optimizer가 결정 항목에 조각을 첨부할 수 있는 기능을 제공합니다. 따라서 결정 정책을 통해 코드 기반 경험 캠페인에서 활용할 수 있습니다. 이 기능은 일부 고객에게는 제한된 가용성으로 제공됩니다. [자세히 보기](../experience-decisioning/create-decision.md#fragments)
 
 * **여정**
 
