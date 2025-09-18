@@ -11,10 +11,10 @@ keywords: 랜딩, 랜딩 페이지, 작성, 페이지, 양식
 badge: label="제한된 가용성" type="Informative"
 hidefromtoc: true
 hide: true
-source-git-commit: dc47da081601fdb019ffd98aa47803672fdef198
+source-git-commit: 67283fe92282ce23c97c29fa2c0ad78132cc184a
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 3%
 >id="ajo_lp_form_connection"
 >title="사용할 엔드포인트 선택"
 >abstract="양식 제출 시 데이터가 전송되는 스트리밍 끝점을 정의합니다."
->additional-url="https://experienceleague.adobe.com/ko/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="HTTP API 스트리밍 연결 만들기"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="HTTP API 스트리밍 연결 만들기"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
@@ -68,7 +68,7 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >[Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}에서 스트리밍 소스 연결을 만드는 방법에 대해 자세히 알아보세요.
+   >[Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}에서 스트리밍 소스 연결을 만드는 방법에 대해 자세히 알아보세요.
 
 1. 양식에 연결할 **[!UICONTROL 데이터 집합]**&#x200B;을(를) 선택하십시오. 여기에서 양식 응답이 저장되고 반영됩니다. 특정 데이터 세트를 검색하도록 입력하거나 목록에서 선택할 수 있습니다.
 
@@ -85,6 +85,12 @@ ht-degree: 3%
 모든 기존 양식이 표시됩니다. 상태, 작성 또는 수정 날짜에 따라 양식을 필터링할 수 있습니다.
 
 ## 양식 만들기 및 디자인 {#create-form}
+
+>[!CONTEXTUALHELP]
+>id="ajo_lp_form_preset"
+>title="사전 설정 선택"
+>abstract="사용할 연결 및 양식에 대한 사전 정의된 데이터 세트가 포함된 사전 정의된 사전 설정을 선택합니다."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="양식 사전 설정 만들기"
 
 양식을 만들려면 아래 단계를 수행합니다.
 
@@ -129,7 +135,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_lp_forms_thankyou_page"
 >title="감사 인사 페이지"
->abstract="다른 사용자가 양식을 작성하거나 전달할 때 수행되는 작업을 구성합니다."
+>abstract="누군가가 양식을 작성하거나 전송할 때 발생하는 작업을 구성합니다."
 
 **[!UICONTROL 감사 페이지]** 섹션에서 사용자가 양식을 작성할 때 수행되는 작업을 구성합니다.
 
