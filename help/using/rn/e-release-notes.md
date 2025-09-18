@@ -7,7 +7,7 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: abb1da09160cd5454460588242c475b85f4adf6b
+source-git-commit: 87406499a11060bceffd2709b7a907b97d72c8a9
 workflow-type: tm+mt
 source-wordcount: '1540'
 ht-degree: 31%
@@ -235,8 +235,8 @@ ht-degree: 31%
 
   이제 구독 취소 이메일 주소를 추가로 개인화하기 위해 동의 이벤트에 추가할 사용자 지정 속성을 정의할 수 있습니다. 이 기능은 8월 25일 릴리스부터 사용자 정의 원클릭 구독 취소 링크에 이미 사용할 수 있습니다.
 
-- SMS BYOP에 대한 **mTLS 지원**\
-  이제 사용자 지정 SMS 공급자를 설정할 때 상호 TLS(mTLS) 인증을 활성화하는 옵션이 있으므로 보안 연결이 설정되기 전에 클라이언트와 서버가 서로의 ID를 확인해야 합니다.
+- SMS 채널에 대한 ***mTLS 지원**
+이제 사용자 지정 SMS 공급자를 설정할 때 상호 TLS(mTLS) 인증을 활성화하는 옵션이 있으므로 보안 연결이 설정되기 전에 클라이언트와 서버가 서로의 ID를 확인해야 합니다.
 
 - **모델 기반 스키마**\
   보다 명확하고 직관적인 경험을 위해 이제 오케스트레이션된 캠페인에서 관계형 스키마를 모델 기반 스키마라고 합니다.
