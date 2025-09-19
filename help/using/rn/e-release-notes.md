@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 2ebdb37b390988941f29a5e6ecfe147984450d51
+source-git-commit: 8d732c417d23e47a16d58999e00a2019b9db34a8
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1529'
 ht-degree: 31%
 
 ---
@@ -117,9 +117,9 @@ ht-degree: 31%
 <p>Journey Optimizer Experimentation Accelerator은 실험을 한 단계 더 발전시키기 위해 설계된 AI 최초 제품입니다. Adobe Journey Optimizer 및 Adobe Target 사용자를 위해 구축된 이 솔루션은 실험 관리를 통합하고, AI 기반의 통찰력과 기회를 제공하며, 새로운 실험 에이전트를 도입합니다.</p>
 <p>다음을 기대할 수 있습니다.</p>
 <ul>
-<li><strong>통합 실험 인벤토리:</strong> 하나의 중앙 작업 공간에서 Adobe Journey Optimizer 및 Adobe Target의 모든 실험을 빠르게 보고, 필터링하고, 관리합니다. 새로운 팀 전환기를 사용하면 사용자가 팀 및 역할별로 보기를 맞춤화할 수 있으므로 적합한 사람에게 가장 적합한 실험을 볼 수 있습니다.</li>
+<li><strong>통합 실험 인벤토리:</strong> 하나의 중앙 작업 공간에서 Adobe Journey Optimizer 및 Adobe Target의 모든 실험을 빠르게 보고, 필터링하고, 관리합니다.</li>
 <li><strong>AI 실험 인사이트 및 기회:</strong> GenAI 기반 인사이트 및 권장 사항을 사용하여 통계적 미리 보기 수준을 넘어서십시오. 이제 각 실험은 지원 근거와 함께 실행 가능한 기회를 표시하므로 팀은 다음에 테스트할 항목을 보다 자신 있게 결정할 수 있습니다.</li>
-<li><strong>MAB(Multi-Armed Bandit) 지원:</strong> Multi-Armed Bandit 실험으로 낭비되는 트래픽을 줄이면서 효과를 극대화합니다. MAB은 대상을 균등하게 분할하는 대신 더 많은 방문자를 성과가 가장 좋은 변형에 실시간으로 자동 할당하므로 더 많은 고객에게 더 나은 경험을 전달할 수 있으면서도 어떤 기능이 작동하는지 학습할 수 있습니다.</li>
+<li><strong>Journey Optimizer에서 MAB(Multi-Armed Bandit) 지원:</strong> Multi-Armed Bandit 실험으로 낭비되는 트래픽을 줄이면서 효과를 극대화합니다. MAB은 대상을 균등하게 분할하는 대신 더 많은 방문자를 성과가 가장 좋은 변형에 실시간으로 자동 할당하므로 더 많은 고객에게 더 나은 경험을 전달할 수 있으면서도 어떤 기능이 작동하는지 학습할 수 있습니다.</li>
 </ul>
 </td>
 </tr>
