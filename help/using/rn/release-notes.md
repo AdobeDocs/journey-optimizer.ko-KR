@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 86522e2562d1504bb9a67836cfabccbe3fbda4c0
+source-git-commit: a05d7e022a0b154848405a6b5d27d399a24161db
 workflow-type: tm+mt
-source-wordcount: '3064'
-ht-degree: 68%
+source-wordcount: '3093'
+ht-degree: 67%
 
 ---
 
@@ -103,7 +103,7 @@ ht-degree: 68%
 <tbody>
 <tr>
 <td>
-<p>이제 AI Assistant에는 Journey Optimizer을 위한 기본 Journey Agent 기술이 포함되어 있어 전문가가 자연어 인터페이스를 통해 여정을 분석할 수 있습니다. 이러한 새로운 기술을 통해 사용자는 여정을 분석하고 만들어 잠재적인 일정 또는 대상 충돌을 감지하고 해결할 수 있습니다.</p>
+<p>Adobe Experience Platform Agent Orchestrator에서 제공하는 Journey Agent은 Journey Optimizer에서 사용할 수 있습니다. 자연어 인터페이스를 통해 여정을 분석할 수 있도록 합니다. 에이전트는 여정에서 대상 또는 일정 충돌 및 프로필 드롭오프를 감지하여 이를 해결하기 위한 단계를 수행합니다. 곧, 당신은 무의미한 지원을 통해 여정을 만들 수 있을 것이다.</p>
 </td>
 </tr>
 </tbody>
@@ -240,9 +240,12 @@ ht-degree: 68%
 
 * **새 여정 알림**\
   여정에 대해 사전 구성된 새 경고를 사용할 수 있습니다.
+
    * 프로필 폐기 비율 초과: 지난 5분 동안 임계값을 초과한 입력된 프로필에 대한 프로필 폐기 비율입니다.
    * 사용자 지정 작업 오류율 초과: 지난 5분 동안 임계값보다 높은 성공적인 HTTP 호출에 대한 사용자 지정 작업 오류의 비율입니다.
    * 프로필 오류율 초과: 지난 5분 동안 입력한 프로필 대비 오류가 발생한 프로필 비율이 임계값을 초과했습니다.
+
+  임계값을 수정하고 개별 여정 수준 경고를 전역으로 구독할 수 있습니다.
 
 * **이제 사용자 지정 인증에서 중첩된 JSON 본문 매개 변수가 지원됩니다**\
   사용자 지정 작업에 대한 사용자 지정 인증을 구성할 때 중첩 JSON 개체(예: `bodyParams` 내의 하위 개체)가 지원됩니다.
@@ -252,7 +255,7 @@ ht-degree: 68%
 
   이제 구독 취소 이메일 주소를 추가로 개인화하기 위해 동의 이벤트에 추가할 사용자 지정 속성을 정의할 수 있습니다. 이 기능은 8월 25일 릴리스부터 사용자 정의 원클릭 구독 취소 링크에 이미 사용할 수 있습니다.
 
-* SMS 채널에 대한 ***mTLS 지원**
+* SMS 채널에 대한 **mTLS 지원**
 이제 사용자 지정 SMS 공급자를 설정할 때 상호 TLS(mTLS) 인증을 활성화하는 옵션이 있으므로 보안 연결이 설정되기 전에 클라이언트와 서버가 서로의 ID를 확인해야 합니다.
 
 * **모델 기반 스키마**\
