@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5f601a79244a9f10bb9762656449729184b887ec
+source-git-commit: 69328c4ba2be1b842074ea88e6230f227c91e166
 workflow-type: tm+mt
-source-wordcount: '2975'
-ht-degree: 70%
+source-wordcount: '3045'
+ht-degree: 68%
 
 ---
 
@@ -270,9 +270,9 @@ ht-degree: 70%
 * **여정 사용자 지정 작업에서 리디렉션 지원**\
   이제 리디렉션(302)이 여정 사용자 지정 작업에서 지원됩니다.
 
-<!--* **High throughput mode for API triggered email campaigns**  
-  A new High throughput mode is now available in API triggered campaigns. This mode is designed for large-scale, real-time messaging (up to 5000 transactions per second) and provides higher availability with lower latency.  
-  This capability is only available for the email channel, for organizations that have purchased the Adobe High throughput transactional messaging add-on offering. Contact your Adobe representative for more details.-->
+* **API 트리거 전자 메일 캠페인에 대한 높은 처리량 모드**\
+  이제 API가 트리거된 캠페인에서 새로운 높은 처리량 모드를 사용할 수 있습니다. 이 모드는 대규모 실시간 메시지(초당 최대 5000개의 트랜잭션)를 위해 설계되었으며 대기 시간이 짧을수록 높은 가용성을 제공합니다.\
+  이 기능은 Adobe 처리량 높은 트랜잭션 메시지 추가 기능 서비스를 구입한 조직의 이메일 채널에만 사용할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
 * **시간 단위 캡핑 빈도 재설정** - 이제 채널 규칙 세트에 대해 시간 단위로 캡핑을 적용할 수 있습니다. 이전에는 제한된 가용성에서 사용할 수 있었지만 이제 모든 환경에서 이 기능을 사용할 수 있으며 1시간(이전에는 3시간)을 선택할 수 있습니다. [자세한 내용](../conflict-prioritization/channel-capping.md). 사용 가능한 날짜: 9월 17일
 
