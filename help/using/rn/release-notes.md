@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: dc2a984a093ee1bf5a856658d6c6f43c7d617823
+source-git-commit: e7db0386b4616828ed5282cfd45e080455d1c22a
 workflow-type: tm+mt
-source-wordcount: '3148'
-ht-degree: 66%
+source-wordcount: '3120'
+ht-degree: 67%
 
 ---
 
@@ -248,9 +248,6 @@ ht-degree: 66%
 * **이제 사용자 지정 인증에서 중첩된 JSON 본문 매개 변수가 지원됩니다**\
   사용자 지정 작업에 대한 사용자 지정 인증을 구성할 때 중첩 JSON 개체(예: `bodyParams` 내의 하위 개체)가 지원됩니다.
 
-* **결정 항목에 조각 첨부**\
-  이제 Journey Optimizer에서는 의사 결정 정책을 통해 코드 기반 경험 캠페인에서 활용할 수 있는 의사 결정 항목에 조각을 첨부할 수 있는 기능을 제공합니다.
-
 * **한 번의 클릭으로 구독 취소 URL을 지원하는 사용자 지정 특성**\
   Journey Optimizer을 사용하면 Adobe 외부에서 동의를 관리하는 경우 이메일 구성에서 클릭 한 번으로 구독 취소 링크를 정의하여 외부 사용자 지정 엔드포인트를 설정할 수 있습니다. 수신자가 구독 취소 링크를 클릭하면 Journey Optimizer는 기본 프로필별 매개 변수 몇 가지를 동의 업데이트 이벤트에 추가합니다.
 
@@ -278,20 +275,15 @@ ht-degree: 66%
   이제 API가 트리거된 캠페인에서 새로운 높은 처리량 모드를 사용할 수 있습니다. 이 모드는 대규모 실시간 메시지(초당 최대 5000개의 트랜잭션)를 위해 설계되었으며 대기 시간이 짧을수록 높은 가용성을 제공합니다.\
   이 기능은 Adobe 처리량 높은 트랜잭션 메시지 추가 기능 서비스를 구입한 조직의 이메일 채널에만 사용할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
-
 * **시간 단위 캡핑 빈도 재설정** - 이제 채널 규칙 세트에 대해 시간 단위로 캡핑을 적용할 수 있습니다. 이전에는 제한된 가용성에서 사용할 수 있었지만 이제 모든 환경에서 이 기능을 사용할 수 있으며 1시간(이전에는 3시간)을 선택할 수 있습니다. [자세한 내용](../conflict-prioritization/channel-capping.md). 사용 가능한 날짜: 9월 17일
 
 * **동적 도메인 지원** - 이제 Journey Optimizer에서 Adobe에서 허용하는 사전 정의된 도메인에 대한 전체/기본 URL 개인 맞춤화를 지원합니다. [자세히 보기](../personalization/personalization-build-expressions.md#where) <!--Availability date: September 12-->
 
-  >[!NOTE]
-  >
-  >이 기능은 일부 고객에게는 제한된 가용성으로 제공됩니다.
+  이 기능은 일부 고객에게는 제한된 가용성으로 제공됩니다.
 
 * **의사 결정 최대 가용량 규칙에 대한 식** - 이제 의사 결정 항목에 대한 최대 가용량 규칙의 임계값을 정의하기 위해 자체 식을 만들 수 있습니다. [자세히 보기](../experience-decisioning/items.md#capping)
 
-  >[!NOTE]
-  >
-  >이 기능은 현재 모든 사용자에게 제한된 가용성으로 제공됩니다.
+  이 기능은 현재 모든 사용자에게 제한된 가용성으로 제공됩니다.
 
 * **채널 구성 모니터링 경고** - 이제 사용자 지정 하위 도메인 위임 유형을 사용하는 이메일 채널 구성 오류가 발생하는 경우 이메일 또는 Journey Optimizer 알림 센터에서 시스템 경고를 수신하도록 구독할 수 있습니다. [자세히 보기](../reports/alerts.md#alert-dns-record-missing)
 
