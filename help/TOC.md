@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9155a16a0557a32c1d59b66b03fc84c5bc7b8463
+source-git-commit: c472ce00623b810dea60dd5d9e34ca4d516447ad
 workflow-type: tm+mt
-source-wordcount: '2950'
+source-wordcount: '2948'
 ht-degree: 98%
 
 ---
@@ -80,12 +80,12 @@ ht-degree: 98%
       + [반응](using/building-journeys/reaction-events.md)
       + [대상자 선별](using/building-journeys/audience-qualification-events.md)
       + [최적화](using/building-journeys/optimize.md)
-      + [조건](using/building-journeys/conditions.md)
-      + [조건 활동](using/building-journeys/condition-activity.md)
       + [대상자 읽기](using/building-journeys/read-audience.md)
       + [대기](using/building-journeys/wait-activity.md)
+      + [조건](using/building-journeys/conditions.md)
+      + [조건](using/building-journeys/condition-activity.md)
       + [콘텐츠 결정](using/building-journeys/content-decision.md)
-      + [액션 활동](using/building-journeys/journey-action.md)
+      + [작업](using/building-journeys/journey-action.md)
       + [기본 제공 채널 액션](using/building-journeys/journeys-message.md)
       + [사용자 정의 액션](using/building-journeys/using-custom-actions.md)
       + [Adobe Campaign Standard 작업](using/building-journeys/using-adobe-campaign-standard.md)

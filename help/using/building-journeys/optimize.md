@@ -11,10 +11,10 @@ keywords: 활동, 조건, 캔버스, 여정, 최적화
 badge: label="제한된 가용성" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: f1a44b91e8dfe28d0cf54c11a7912e568f3d176d
+source-git-commit: c472ce00623b810dea60dd5d9e34ca4d516447ad
 workflow-type: tm+mt
-source-wordcount: '1257'
-ht-degree: 6%
+source-wordcount: '1298'
+ht-degree: 9%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 6%
 
 1. **[!UICONTROL 실험 만들기]**&#x200B;를 클릭합니다.
 
-1. 실험에 대해 설정할 **[!UICONTROL 성공 지표]**&#x200B;를 선택하십시오.
+1. 실험에 대해 설정할 **[!UICONTROL 성공 지표]**&#x200B;를 선택하십시오. 사용 가능한 지표와 [이 섹션](success-metrics.md)에서 목록을 구성하는 방법에 대해 자세히 알아보세요.
 
    <!--Need to have the list of all default metrics + a description for each.
     Explain why the metric selection is important.
@@ -125,7 +125,7 @@ ht-degree: 6%
 
 여정이 활성 상태가 되면 사용자가 임의로 할당되어 다른 경로를 통해 이동합니다. [!DNL Journey Optimizer]은(는) 성과가 가장 좋은 경로를 추적하고 실행 가능한 통찰력을 제공합니다.
 
-<!--Follow the success of your journey with the Journey Path Experiment report.Reporting page on Journey Path Experimentation to be created - such as what we have for [Experimentation campaign report](../reports/campaign-global-report-cja-experimentation.md)-->
+여정 경로 실험 보고서를 통해 여정의 성공 여부를 확인하십시오. [자세히 알아보기](../reports/journey-global-report-cja-experimentation.md)
 
 ### 실험 사용 사례 {#uc-experiment}
 
@@ -166,7 +166,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_path_targeting_fallback"
 >title="대체 경로란 무엇입니까?"
->abstract="대체 경로를 사용하면 타깃팅 규칙이 적격하지 않을 때 대상자가 대체 경로를 입력할 수 있습니다. </br>이 옵션을 선택하지 않으면 타깃팅 규칙에 적합하지 않은 대상은 대체 경로로 들어가지 않고 여정을 종료합니다."
+>abstract="대체 경로를 사용하여 타기팅 규칙이 적격하지 않을 때 대상자가 대체 경로로 입장할 수 있도록 합니다. </br>이 옵션을 선택하지 않으면 타기팅 규칙에 적합하지 않은 대상자는 대체 경로로 들어가지 않고 여정을 나가게 됩니다."
 
 타깃팅 규칙을 사용하면 특정 대상 세그먼트<!-- depending on profile attributes or contextual attributes-->에 따라 고객이 여정 경로 중 하나를 입력할 수 있도록 충족해야 하는 특정 규칙이나 자격을 결정할 수 있습니다.
 
@@ -224,7 +224,7 @@ ht-degree: 6%
 
 여정이 라이브되면 각 세그먼트에 대해 지정된 경로가 처리되어 골드 멤버는 이메일 오퍼와 함께 경로를 입력하고 다른 멤버는 SMS 미리 알림과 함께 경로를 입력합니다.
 
-<!--Follow the success of your journey with the Journey Path Targeting report.Reporting page on Journey Path Targeting to be created - such as what we have for [Experimentation campaign report](../reports/campaign-global-report-cja-experimentation.md)-->
+여정 보고서를 사용하여 여정 성공 여부를 확인합니다. [자세히 알아보기](../reports/journey-global-report-cja.md#targeting)
 
 ### 타깃팅 규칙 사용 사례 {#uc-targeting}
 
