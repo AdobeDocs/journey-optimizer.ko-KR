@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 69328c4ba2be1b842074ea88e6230f227c91e166
+source-git-commit: 86522e2562d1504bb9a67836cfabccbe3fbda4c0
 workflow-type: tm+mt
-source-wordcount: '3045'
+source-wordcount: '3064'
 ht-degree: 68%
 
 ---
@@ -260,6 +260,8 @@ ht-degree: 68%
 
 * **여정에서 데이터 집합 조회 지원**\
   여정의 새 활동인 **데이터 집합 조회**&#x200B;를 사용하면 런타임 중에 Adobe Experience Platform 레코드 데이터 집합에서 데이터를 동적으로 검색할 수 있습니다. 이 기능을 활용하면 프로필 또는 이벤트 페이로드에 없는 데이터에 액세스할 수 있게 되어 고객 상호 작용이 더 관련성 있게 알맞은 시간에 이루어지도록 할 수 있습니다.
+
+  이 활동은 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
 
 * **모든 인바운드 채널에 대한 콘텐츠 변형 시뮬레이션**\
   이전에는 이메일, SMS 및 푸시 알림 채널에서만 사용할 수 있었지만 콘텐츠 변형 시뮬레이션은 이제 모든 인바운드 채널에도 적용됩니다.
