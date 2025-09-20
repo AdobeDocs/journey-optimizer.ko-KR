@@ -60,7 +60,7 @@ Adobe Journey Optimizer의 개인 정보 보호 도구를 사용하면 민감한
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 동의 관리
 

@@ -20,7 +20,7 @@ Adobe Journey Optimizer에서 콘텐츠를 디자인하는 것은 대상과 연�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 콘텐츠 구성 요소 사용
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 콘텐츠를 디자인하는 것은 대상과 연�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg?lang=ko)
 
 시각적 조각 활용
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 콘텐츠를 디자인하는 것은 대상과 연�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
 
 링크 추가 및 메시지 추적
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer에서 콘텐츠를 디자인하는 것은 대상과 연�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 개인화된 오퍼 삽입
 
@@ -70,7 +70,7 @@ HTML 콘텐츠를 볼 수 없는 수신자를 위해 이메일의 일반 텍스�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 메타데이터 추가
 

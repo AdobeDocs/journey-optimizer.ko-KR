@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 SMS/MMS/RCS 채널을 사용하면 트랜잭션 알�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 SMS/MMS/RCS 채널 구성 시작
 
@@ -30,7 +30,7 @@ SMS/MMS/RCS 채널 구성 시작
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 SMS/MMS/RCS 메시지를 보내기 위한 Sinch 제공자 구성
 
@@ -40,7 +40,7 @@ SMS, MMS, RCS 메시지를 보낼 수 있도록 Sinch API 자격 증명을 설�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 Infobip SMS, MMS, RCS 제공자 구성
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer에서 Infobip을 SMS, MMS, RCS 메시지 제공자로 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 SMS/MMS/RCS 메시지를 보내기 위한 Twilio 제공자 구성
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer에서 Twilio API 자격 증명을 설정하고 SMS, MMS,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 사용자 정의 SMS 제공자 구성
 
@@ -70,7 +70,7 @@ API 자격 증명을 만고, 웹후크를 관리하고 보안이 적용된 커�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 SMS/MMS/RCS 채널 구성 만들기
 
