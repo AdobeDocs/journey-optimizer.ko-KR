@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 keywords: 캠페인, API 트리거, REST, 최적화 도구, 메시지
 exl-id: e04b0d38-6b3d-4086-a0f0-c1b8f6d9634f
-source-git-commit: eeacfacf3068f831afb7b7ad78214941a9259c93
+source-git-commit: d3570e2c3d6340deaba8ca0f342161ab43ad1c43
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 1%
@@ -51,4 +51,4 @@ ht-degree: 1%
 
 ## 다음 단계 {#next}
 
-캠페인 구성 및 콘텐츠가 준비되면 이를 검토하고 활성화할 수 있습니다. [자세히 알아보기](review-activate-campaign.md)
+캠페인 구성 및 콘텐츠가 준비되면 이를 검토하고 활성화할 수 있습니다. [자세히 알아보기](../campaigns/review-activate-api-triggered-campaign.md)

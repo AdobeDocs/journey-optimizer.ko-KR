@@ -6,16 +6,16 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 008d42c7-a523-4857-b34e-0e8dd1dfa507
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+source-git-commit: 9bf642227facd44401a33a1047b53018478ed35a
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 20%
+source-wordcount: '287'
+ht-degree: 31%
 
 ---
 
 # [!DNL Journey Optimizer]에서 의사 결정 기능 시작 {#gs-decision}
 
-[!DNL Journey Optimizer]의 의사 결정 기능을 통해 모든 접점에서 고객에게 최적의 오퍼와 개인화된 경험을 적시에 제공할 수 있습니다. 이러한 기능은 중앙 집중식 마케팅 오퍼 카탈로그 및 규칙 및 등급 기준을 사용하여 각 개인에게 가장 적합한 콘텐츠를 제공하는 고급 의사 결정 엔진을 통해 개인화를 간소화합니다.
+[!DNL Journey Optimizer]의 의사 결정 기능을 통해 모든 접점에서 고객에게 최적의 오퍼와 개인화된 경험을 적시에 제공할 수 있습니다. 이러한 기능은 중앙 집중식 마케팅 오퍼 카탈로그와 규칙 및 등급 기준을 사용하여 각 개인에게 가장 적합한 콘텐츠를 제공하는 고급 의사 결정 엔진을 통해 개인화를 간소화합니다.
 
 컨트롤 패널에서 제공되는 주요 이점은 다음과 같습니다.
 
@@ -46,6 +46,6 @@ ht-degree: 20%
 
 Journey Optimizer에서 확립된 기능인 의사 결정 관리는 마케팅 오퍼의 중앙 라이브러리와 실시간 고객 프로필에 규칙과 제한을 적용하는 의사 결정 엔진을 사용하여 Adobe Experience Platform 데이터를 활용하여 적절한 시기에 적절한 오퍼를 제공합니다.
 
-의사 결정 관리는 현재 이메일, 인앱 메시지, 푸시 알림 및 SMS의 네 가지 채널을 지원합니다.
+의사 결정 관리는 이메일, 인앱 메시지, 푸시 알림, SMS 및 DM 채널을 지원합니다.
 
 ➡️ [의사 결정 관리 시작](../offers/get-started/starting-offer-decisioning.md)
