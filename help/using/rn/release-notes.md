@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a05d7e022a0b154848405a6b5d27d399a24161db
+source-git-commit: 085afa8223330bf695167d6d203d3c44948910ac
 workflow-type: tm+mt
-source-wordcount: '3093'
-ht-degree: 67%
+source-wordcount: '3072'
+ht-degree: 68%
 
 ---
 
@@ -258,8 +258,9 @@ ht-degree: 67%
 * SMS 채널에 대한 **mTLS 지원**
 이제 사용자 지정 SMS 공급자를 설정할 때 상호 TLS(mTLS) 인증을 활성화하는 옵션이 있으므로 보안 연결이 설정되기 전에 클라이언트와 서버가 서로의 ID를 확인해야 합니다.
 
-* **모델 기반 스키마**\
-  보다 명확하고 직관적인 경험을 위해 이제 오케스트레이션된 캠페인에서 관계형 스키마를 모델 기반 스키마라고 합니다.
+<!--* **Model-based Schemas**  
+  For a clearer and more intuitive experience, Relational Schemas are now referred to as Model-based Schemas in Orchestrated campaigns.
+-->
 
 * **여정에서 데이터 집합 조회 지원**\
   여정의 새 활동인 **데이터 집합 조회**&#x200B;를 사용하면 런타임 중에 Adobe Experience Platform 레코드 데이터 집합에서 데이터를 동적으로 검색할 수 있습니다. 이 기능을 활용하면 프로필 또는 이벤트 페이로드에 없는 데이터에 액세스할 수 있게 되어 고객 상호 작용이 더 관련성 있게 알맞은 시간에 이루어지도록 할 수 있습니다.
