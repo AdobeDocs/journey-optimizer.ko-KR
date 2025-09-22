@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 085afa8223330bf695167d6d203d3c44948910ac
+source-git-commit: 0c27f2cec8200e6f65c22caec560dbea5bc80042
 workflow-type: tm+mt
-source-wordcount: '3072'
-ht-degree: 68%
+source-wordcount: '3097'
+ht-degree: 67%
 
 ---
 
@@ -532,6 +532,8 @@ ht-degree: 68%
    * **원클릭 구독 취소 URL에 사용자 정의 특성 지원** - Journey Optimizer를 사용할 때 Adobe 외부에서 동의를 관리하는 경우 이메일 구성에서 원클릭 구독 취소 링크를 정의하여 외부 사용자 정의 엔드포인트를 설정할 수 있습니다. 수신자가 구독 취소 링크를 클릭하면 Journey Optimizer는 기본 프로필별 매개 변수 몇 가지를 동의 업데이트 이벤트에 추가합니다.
 
      이제 원클릭 구독 취소 링크의 개인화 수준을 높이기 위해 사용자 정의 속성을 지정할 수 있으며, 이는 동의 이벤트에도 추가됩니다. [자세히 보기](../email/list-unsubscribe.md#custom-attributes)
+
+   * **한 번의 클릭으로 구독 취소 요청** - Adobe 관리에서 구성한 한 번의 클릭으로 구독 취소 요청을 더욱 강력하게 처리하여 안정적이고 일관된 처리를 가능하게 하는 개선 사항이 도입되었습니다.
 
 * **데이터 세트**
 
