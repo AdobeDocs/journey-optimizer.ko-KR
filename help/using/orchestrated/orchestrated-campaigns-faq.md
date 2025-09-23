@@ -5,9 +5,9 @@ title: 오케스트레이션된 캠페인 FAQ
 description: Journey Optimizer 오케스트레이션 캠페인에 대한 FAQ
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: f82e725b58dbb2fdea70455a203d83b13b0e4a2b
+source-git-commit: 0a80d8df834c48b6a5e6f4fafae89006b64bca11
 workflow-type: tm+mt
-source-wordcount: '1419'
+source-wordcount: '1430'
 ht-degree: 3%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 Adobe Journey Optimizer 오케스트레이션된 캠페인에 대한 FAQ는 다음과 같습니다.
 
-세부 정보가 필요하십니까? 이 페이지 하단의 피드백 옵션을 사용하여 질문을 제기하거나 [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"}에 연결하세요.
+세부 정보가 필요하십니까? 이 페이지 하단의 피드백 옵션을 사용하여 질문을 제기하거나 [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}에 연결하세요.
 
 +++ Campaign 오케스트레이션이란?
 
@@ -253,11 +253,11 @@ Yes, follow the best practices below:
 +++
 
 
+## 추가 리소스
 
+추가 학습 및 업데이트를 보려면 다음 리소스를 살펴보십시오.
 
->[!MORELIKETHIS]
->
->* [오케스트레이션된 캠페인 보호 및 제한 사항](../orchestrated/guardrails.md)
->* [오케스트레이션된 캠페인에서 스키마 및 데이터 세트 시작](../orchestrated/gs-schemas.md)
->* [오케스트레이션된 첫 번째 캠페인 만들기](../orchestrated/gs-campaign-creation.md)
->* [Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
+* [조정된 캠페인 보호 및 제한 사항](../orchestrated/guardrails.md)
+* [오케스트레이션된 캠페인에서 스키마 및 데이터 세트 시작](../orchestrated/gs-schemas.md)
+* [오케스트레이션된 첫 번째 캠페인 만들기](../orchestrated/gs-campaign-creation.md)
+* [Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}

@@ -8,9 +8,9 @@ role: Admin, Data Engineer, Developer, User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
-source-git-commit: d2cdafef6f2d69ea85d9d042c859a8b1e7654d7d
+source-git-commit: 0a80d8df834c48b6a5e6f4fafae89006b64bca11
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '633'
 ht-degree: 100%
 
 ---
@@ -92,12 +92,13 @@ ht-degree: 100%
 
 ## 사용 방법 비디오 {#video}
 
-Journey Optimizer의 주요 기능 및 가상 사용자에 대해 자세히 알아보려면 소개 비디오를 시청하십시오. 이 비디오는 사용자 인터페이스를 안내하고 역할별 워크플로를 기반으로 주요 기능을 설명합니다.
+Journey Optimizer의 주요 기능 및 페르소나에 대해 자세히 알아보려면 소개 비디오를 시청하십시오. 이 비디오는 사용자 인터페이스를 안내하고 역할별 워크플로를 기반으로 주요 기능을 설명합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430319?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 ## 추가 리소스
 
 보다 심층적인 학습 및 업데이트가 필요한 경우 다음 리소스를 살펴보십시오.
-* [릴리스 정보](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/whats-new/release-notes)
+
+* [릴리스 정보](../rn/release-notes.md)
 * [튜토리얼 비디오](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=ko)

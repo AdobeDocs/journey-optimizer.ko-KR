@@ -5,9 +5,9 @@ title: 사용 사례
 description: 사용 사례
 redpen-status: CREATED_||_2025-08-11_20-20-12
 exl-id: 09b60e6e-8874-4950-a37a-fc807d3b39b1
-source-git-commit: 8218c4666588bb58e0529a73eebcddef3209cbd0
+source-git-commit: 0a80d8df834c48b6a5e6f4fafae89006b64bca11
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '335'
 ht-degree: 87%
 
 ---
@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 사용 사례를 활용하면 마케팅 전략, 기�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 사용 사례를 통해 알아보기
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 사용 사례를 활용하면 마케팅 전략, 기�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 경험 이벤트 조회
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer의 사용 사례를 활용하면 마케팅 전략, 기�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 다중 채널 메시지 보내기
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer의 사용 사례를 활용하면 마케팅 전략, 기�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Campaign v7/v8을 사용하여 메시지 보내기
 
@@ -60,7 +60,7 @@ Adobe Campaign을 Journey Optimizer와 통합하면 트랜잭션 템플릿과 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 구독자에게 메시지 보내기
 
@@ -70,7 +70,7 @@ Adobe Campaign을 Journey Optimizer와 통합하면 트랜잭션 템플릿과 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 사용자 정의 작업으로 컬렉션을 동적으로 보내기
 
@@ -86,4 +86,4 @@ Adobe Campaign을 Journey Optimizer와 통합하면 트랜잭션 템플릿과 �
 
 - **[외부 데이터 소스 및 사용자 정의 액션으로 처리량 제한](../using/building-journeys/limit-throughput.md)** - 데이터 소스와 사용자 정의 액션을 사용하여 여정 처리량을 최적화하고 외부 시스템의 제한 사항을 관리합니다.
 - **[사용자 정의 액션을 사용하여 Experience Platform에서 여정 이벤트 기록](../using/building-journeys/custom-action-aep.md)** - 인증된 호출과 HTTP API 엔드포인트를 구성하여 Adobe Experience Platform에 여정 이벤트를 작성합니다.
-- **[라이브 여정에서 프로필 제거](../using/building-journeys/journey-pause.md#apply-an-exit-criteria-in-a-paused-journey)** - 비즈니스 또는 작업 상의 이유로 라이브 여정에서 일부 프로필을 제거하고 현재 여정에 있는 특정 기준과 일치하는 프로필을 제외해야 할 수 있습니다. 이 작업은 여정을 일시 중지하여 수행할 수 있습니다.
+- **[라이브 여정에서 프로필 제거](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-pause#journey-exit-criteria)** - 비즈니스 또는 작업 상의 이유로 라이브 여정에서 일부 프로필을 제거하고 현재 여정에 있는 특정 기준과 일치하는 프로필을 제외해야 할 수 있습니다. 이 작업은 여정을 일시 중지하여 수행할 수 있습니다.
