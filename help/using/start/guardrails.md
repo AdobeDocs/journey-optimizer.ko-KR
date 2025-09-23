@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 4ce48f7929aa218908e8a1e25c37410c6ded6bde
+source-git-commit: 5da036a6b352eecaf6a14f5d21bf5391fc5ed3fa
 workflow-type: tm+mt
-source-wordcount: '2708'
-ht-degree: 97%
+source-wordcount: '2817'
+ht-degree: 91%
 
 ---
 
@@ -52,10 +52,9 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 
 ### 이메일 가드레일 {#message-guardrails}
 
-[이메일 채널](../../rp_landing_pages/email-landing-page.md)에 다음 가드레일이 적용됩니다.
+<!--The following guardrails apply to the [email channel](../../rp_landing_pages/email-landing-page.md):-->
 
-* [!DNL Journey Optimizer]에서는 이메일에 첨부 파일을 추가할 수 없습니다.
-* 동일한 발신 도메인을 사용하여 [!DNL Adobe Journey Optimizer] 및 다른 제품(예: [!DNL Adobe Campaign] 또는 [!DNL Adobe Marketo Engage])에서 메시지를 보낼 수 없습니다.
+같은 발신 도메인을 사용하여 [!DNL Adobe Journey Optimizer] 및 다른 제품(예: [!DNL Adobe Campaign] 또는 [!DNL Adobe Marketo Engage])에서 이메일 메시지를 보낼 수 없습니다.
 
 ### SMS 가드레일 {#sms-guardrails}
 
@@ -65,15 +64,21 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 * 현재 MMS에는 메시지 피드백 동기화를 사용할 수 없습니다.
 * MMS에 대한 동의 관리는 SMS 채널 수준에서 작동합니다.
 
-### 웹 채널 가드레일 {#web-guardrails}
+### 인바운드 채널 보호 {#inbound-guardrails}
 
-[!DNL Journey Optimizer] [웹 캠페인](../web/get-started-web.md)은 다른 채널에서 이전에 참여하지 않은 새 프로필을 타기팅합니다. 이렇게 하면 총 참여 가능 프로필 수가 증가하므로, 사용자가 계약 시 구입한 참여 가능 프로필 수를 초과하는 경우 비용이 발생할 수 있습니다. 
+* Journey Optimizer은 초당 최대 5,000개의 인바운드 요청을 지원합니다. 이 가드레일은 Journey Optimizer에서 지원하는 인바운드 채널([web](../web/get-started-web.md), [인앱](../in-app/get-started-in-app.md), [코드 기반 경험](../code-based/get-started-code-based.md), [콘텐츠 카드](../../rp_landing_pages/content-card-landing-page.md))에서 발생할 수 있는 모든 인바운드 요청에 적용됩니다.
 
-각 패키지별 라이선스 지표 목록은 [Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} 페이지에서 확인할 수 있습니다.
+  Journey Optimizer 인바운드 채널은 다른 채널에서 이전에 참여하지 않았을 수 있는 새 프로필을 타겟팅합니다. 이렇게 하면 총 참여 가능 프로필 수가 증가하므로, 사용자가 계약 시 구입한 참여 가능 프로필 수를 초과하는 경우 비용이 발생할 수 있습니다. 
 
-### 코드 기반 채널 가드레일 {#code-based-guardrails}
+  각 패키지별 라이선스 지표 목록은 [Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} 페이지에서 확인할 수 있습니다.
 
-[!DNL Journey Optimizer]에서 코드 기반 경험 작업을 사용하고 애플리케이션에서 사용할 수 있는 코드 콘텐츠 페이로드를 전달하려면 [이 페이지](../code-based/code-based-prerequisites.md)에 설명된 전제 조건을 따르십시오.
+* Journey Optimizer은 언제든지 최대 500개의 활성 인바운드 작업을 지원합니다. 이러한 인바운드 작업([웹](../web/get-started-web.md), [인앱](../in-app/get-started-in-app.md), [코드 기반 경험](../code-based/get-started-code-based.md), [여정 카드](../../rp_landing_pages/content-card-landing-page.md))은 실시간 캠페인의 일부이거나 실시간 캠페인에 사용되는 노드인 경우 계산됩니다. 이 번호에 도달하면 새 캠페인을 시작하기 전에 인바운드 작업을 사용하는 이전 캠페인이나 여정을 비활성화해야 합니다.
+
+* [에서 ](../code-based/get-started-code-based.md)코드 기반 경험[!DNL Journey Optimizer] 작업을 사용하고 응용 프로그램에서 사용할 수 있는 코드 콘텐츠 페이로드를 전달하려면 [이 페이지](../code-based/code-based-prerequisites.md)에 설명된 필수 구성 요소를 따르십시오.
+
+### 트랜잭션 메시지 보호 {#transactional-message-guardrails}
+
+Journey Optimizer은 캠페인에서 초당 최대 500개의 트랜잭션 메시지 볼륨을 지원합니다.
 
 ## 랜딩 페이지 보호 {#lp-guardrails}
 
@@ -199,7 +204,7 @@ Adobe Experience Platform에서 API 기반 프로필 만들기/업데이트와 �
 
 ### 보조 식별자 {#supplemental}
 
-여정에서 보충 식별자를 사용할 때는 특정 보호 기능이 적용됩니다. [이 페이지](../building-journeys/supplemental-identifier.md#guardrails)에 나열됩니다.
+여정에서 보충 식별자를 사용할 때는 특정 보호 기능이 적용됩니다. [이 페이지](../building-journeys/supplemental-identifier.md#guardrails)에 나열되어 있습니다.
 
 ### 표현식 편집기  {#expression-editor}
 
