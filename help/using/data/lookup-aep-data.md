@@ -11,10 +11,10 @@ level: Intermediate
 keywords: 표현식, 편집기
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 248aae7b2841086ef5a0ea73936c245963e8eae2
+source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
 workflow-type: tm+mt
-source-wordcount: '804'
-ht-degree: 8%
+source-wordcount: '816'
+ht-degree: 5%
 
 ---
 
@@ -23,13 +23,13 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="lookup-aep-data"
 >title="조회를 위해 활성화"
->abstract="데이터 세트를 조회용으로 활성화하면 Journey Optimizer 개인화 및 결정 기능으로 해당 데이터를 활용할 수 있습니다."
+>abstract="조회를 위해 데이터 세트를 활성화하면 Journey Optimizer 개인화, 의사 결정 및 여정 오케스트레이션 기능 내에서 해당 데이터를 활용할 수 있습니다."
 
 >[!AVAILABILITY]
 >
 >이 기능은 현재 모든 고객이 제한된 가용성 릴리스로 사용할 수 있습니다.
 
-Journey Optimizer을 사용하면 개인화 및 의사 결정 기능을 통해 Adobe Experience Platform 데이터의 데이터를 활용할 수 있습니다. 이렇게 하려면 조회 개인화에 필요한 레코드 기반 데이터 세트를 먼저 아래 설명된 대로 조회 서비스에 대해 활성화해야 합니다.
+Journey Optimizer을 사용하면 개인화, 의사 결정 및 여정 오케스트레이션 기능을 통해 Adobe Experience Platform 데이터의 데이터를 활용할 수 있습니다. 이렇게 하려면 조회 개인화에 필요한 레코드 기반 데이터 세트를 먼저 아래 설명된 대로 조회 서비스에 대해 활성화해야 합니다.
 
 ## 반드시 알아야 할 사항
 
@@ -150,12 +150,10 @@ curl -s -XPATCH "https://platform.adobe.io/data/core/entity/lookup/dataSets/${DA
 
 ![](assets/aep-data-monitoring.png)
 
-<!--Ivan Mironchuk
-Note - we have a bug here currently. Will need to update screenshot once the lookup service will accurately reflect the progress.-->
-
 ## 다음 단계
 
 API 호출을 사용하여 데이터 집합을 조회에 사용하도록 설정한 후에는 [!DNL Journey Optimizer] 개인화 및 의사 결정 기능과 함께 데이터를 사용할 수 있습니다. 자세한 내용은 다음 섹션을 참조하십시오.
 
 * [개인화에 Adobe Experience Platform 데이터 사용](../personalization/aep-data-perso.md)
 * [결정을 위해 Adobe Experience Platform 데이터 사용](../experience-decisioning/aep-data-exd.md)
+* [여정 오케스트레이션에 Adobe Experience Platform 데이터 사용](../building-journeys/dataset-lookup.md)

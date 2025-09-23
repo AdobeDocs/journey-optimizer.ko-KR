@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
+source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
 workflow-type: tm+mt
-source-wordcount: '2954'
+source-wordcount: '2956'
 ht-degree: 99%
 
 ---
@@ -80,18 +80,19 @@ ht-degree: 99%
       + [반응](using/building-journeys/reaction-events.md)
       + [대상자 선별](using/building-journeys/audience-qualification-events.md)
       + [최적화](using/building-journeys/optimize.md)
-      + [대상자 읽기](using/building-journeys/read-audience.md)
-      + [대기](using/building-journeys/wait-activity.md)
       + [조건](using/building-journeys/conditions.md)
       + [조건](using/building-journeys/condition-activity.md)
+      + [대상자 읽기](using/building-journeys/read-audience.md)
+      + [대기](using/building-journeys/wait-activity.md)
       + [콘텐츠 결정](using/building-journeys/content-decision.md)
+      + [데이터 세트 조회](using/building-journeys/dataset-lookup.md)
       + [작업](using/building-journeys/journey-action.md)
       + [기본 제공 채널 액션](using/building-journeys/journeys-message.md)
+      + [점프](using/building-journeys/jump.md)
+      + [프로필 업데이트](using/building-journeys/update-profiles.md)
       + [사용자 정의 액션](using/building-journeys/using-custom-actions.md)
       + [Adobe Campaign Standard 작업](using/building-journeys/using-adobe-campaign-standard.md)
       + [Adobe Campaign v7/v8 작업](using/building-journeys/using-adobe-campaign-v7-v8.md)
-      + [점프](using/building-journeys/jump.md)
-      + [프로필 업데이트](using/building-journeys/update-profiles.md)
    + 표현식 작성 {#building-advanced-conditions-journeys}
       + [표현식 작성](/help/rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
       + [고급 표현식 편집기 작업](using/building-journeys/expression/expressionadvanced.md)

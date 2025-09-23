@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: 여정, 활동, 시작하기, 이벤트, 작업
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '718'
 ht-degree: 15%
 
 ---
@@ -47,6 +47,7 @@ ht-degree: 15%
 * [대상자 읽기](read-audience.md)
 * [대기](wait-activity.md)
 * [콘텐츠 결정](content-decision.md)
+* [데이터 세트 조회](dataset-lookup.md)
 
 ![여정 디자이너의 오케스트레이션 활동 팔레트](assets/journey-orchestration-activities.png)
 

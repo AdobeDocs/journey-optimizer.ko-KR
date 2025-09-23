@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 2b342c80623416a7e54ac96d777da7a4aaefb3b8
-workflow-type: ht
-source-wordcount: '1807'
+source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
+workflow-type: tm+mt
+source-wordcount: '1758'
 ht-degree: 100%
 
 ---
@@ -355,10 +355,3 @@ AI 어시스턴트에 액세스하려면 상단 표시줄에 있는 아이콘을
 >id="ajo_journey_business_rules"
 >title="규칙 세트"
 >abstract="규칙 세트"
-
-<!-- DATASET LOOKUP IN JOURNEYS -->
-
->[!CONTEXTUALHELP]
->id="ajo_journey_dataset_lookup"
->title="데이터 세트 조회 활동"
->abstract="**[!UICONTROL 데이터 세트 조회]** 활동을 사용하면 런타임 중에 Adobe Experience Platform 레코드 데이터 세트의 데이터를 동적으로 검색할 수 있습니다. 이 기능을 활용하면 프로필이나 이벤트 페이로드에 없을 수 있는 데이터에 액세스하여 고객 상호 작용이 적시에 적절하게 이루어질 수 있습니다."
