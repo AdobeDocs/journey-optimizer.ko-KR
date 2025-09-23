@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8ef9b3b886e9856c6c2dac55e33a7ca6ce86b414
+source-git-commit: deafaf331edb1df9a3417a0e85d641a62fa682d2
 workflow-type: tm+mt
-source-wordcount: '3097'
+source-wordcount: '3111'
 ht-degree: 67%
 
 ---
@@ -237,7 +237,7 @@ ht-degree: 67%
 
 * **승인 정책 권한**
 여정/캠페인 작성자가 자신의 개체를 승인하지 못하도록 승인 정책을 만들거나 설정할 때 옵션을 추가했습니다.
-
+<!-->
 * **새 여정 알림**\
   여정에 대해 사전 구성된 새 경고를 사용할 수 있습니다.
 
@@ -246,6 +246,7 @@ ht-degree: 67%
    * 프로필 오류율 초과: 지난 5분 동안 입력한 프로필 대비 오류가 발생한 프로필 비율이 임계값을 초과했습니다.
 
   임계값을 수정하고 개별 여정 수준 경고를 전역으로 구독할 수 있습니다.
+-->
 
 * **이제 사용자 지정 인증에서 중첩된 JSON 본문 매개 변수가 지원됩니다**\
   사용자 지정 작업에 대한 사용자 지정 인증을 구성할 때 중첩 JSON 개체(예: `bodyParams` 내의 하위 개체)가 지원됩니다.
@@ -258,9 +259,9 @@ ht-degree: 67%
 * SMS 채널에 대한 **mTLS 지원**
 이제 사용자 지정 SMS 공급자를 설정할 때 상호 TLS(mTLS) 인증을 활성화하는 옵션이 있으므로 보안 연결이 설정되기 전에 클라이언트와 서버가 서로의 ID를 확인해야 합니다.
 
-<!--* **Model-based Schemas**  
-  For a clearer and more intuitive experience, Relational Schemas are now referred to as Model-based Schemas in Orchestrated campaigns.
--->
+
+* **모델 기반 스키마**\
+  이제 오케스트레이션된 캠페인에서 관계형 스키마를 모델 기반 스키마라고 합니다.
 
 * **여정에서 데이터 집합 조회 지원**\
   여정의 새 활동인 **데이터 집합 조회**&#x200B;를 사용하면 런타임 중에 Adobe Experience Platform 레코드 데이터 집합에서 데이터를 동적으로 검색할 수 있습니다. 이 기능을 활용하면 프로필 또는 이벤트 페이로드에 없는 데이터에 액세스할 수 있게 되어 고객 상호 작용이 더 관련성 있게 알맞은 시간에 이루어지도록 할 수 있습니다.
