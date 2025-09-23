@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0d58a5075e6459ee7d46192f7bc1c9ee0b8b70bf
+source-git-commit: 40b0ad9ce1a4d9a4cbb120a600de2da78988aae8
 workflow-type: tm+mt
 source-wordcount: '3032'
 ht-degree: 69%
@@ -237,6 +237,7 @@ ht-degree: 69%
 
 * **승인 정책 권한**
 여정/캠페인 작성자가 자신의 개체를 승인하지 못하도록 승인 정책을 만들거나 설정할 때 옵션을 추가했습니다.
+
 <!--
 * **New Journey Alerts**  
   New pre-configured alerts are available for journeys:
