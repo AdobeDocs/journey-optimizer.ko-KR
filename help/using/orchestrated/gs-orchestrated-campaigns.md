@@ -9,7 +9,7 @@ version: Campaign Orchestration
 source-git-commit: 4d5505cbb46bdff846218bfc3657c6a6e5447af3
 workflow-type: tm+mt
 source-wordcount: '654'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -52,9 +52,9 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->지원되는 채널: [이메일](../email/get-started-email.md), [SMS/MMS/RCS](../sms/get-started-sms.md), [푸시 알림](../push/get-started-push.md).
+>지원 채널: [이메일](../email/get-started-email.md), [SMS/MMS/RCS](../sms/get-started-sms.md), [푸시 알림](../push/get-started-push.md).
 >
->사용 가능한 채널은 라이선스 모델 및 추가 기능에 따라 다릅니다.
+>사용 가능한 채널은 사용하는 라이선스 모델 및 추가 기능에 따라 다릅니다.
 
 ## 오케스트레이션된 캠페인 여정
 
@@ -85,7 +85,7 @@ ht-degree: 93%
 
 ## 소개 비디오 {#video-oc}
 
-오케스트레이션된 캠페인에서 사용할 수 있는 주요 개념과 기능에 대해 알아봅니다.
+오케스트레이션된 캠페인의 주요 개념과 사용할 수 있는 기능에 대해 알아봅니다.
 
 
 >[!VIDEO](https://video.tv.adobe.com/v/3471538/?learn=on&enablevpops)
