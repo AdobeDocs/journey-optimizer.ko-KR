@@ -33,7 +33,7 @@ ht-degree: 2%
 >id="ajo_lp_form_connection"
 >title="사용할 엔드포인트 선택"
 >abstract="양식 제출 시 데이터가 전송되는 스트리밍 끝점을 정의합니다."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="HTTP API 스트리밍 연결 만들기"
+>additional-url="https://experienceleague.adobe.com/ko/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="HTTP API 스트리밍 연결 만들기"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
@@ -69,7 +69,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >[Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}에서 스트리밍 소스 연결을 만드는 방법에 대해 자세히 알아보세요.
+   >[Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}에서 스트리밍 소스 연결을 만드는 방법에 대해 자세히 알아보세요.
 
 1. 양식에 연결할 **[!UICONTROL 데이터 집합]**&#x200B;을(를) 선택하십시오. 여기에서 양식 응답이 저장되고 반영됩니다. 특정 데이터 세트를 검색하도록 입력하거나 목록에서 선택할 수 있습니다.
 
@@ -91,7 +91,7 @@ ht-degree: 2%
 >id="ajo_lp_form_preset"
 >title="사전 설정 선택"
 >abstract="사용할 연결 및 양식에 대한 사전 정의된 데이터 세트가 포함된 사전 정의된 사전 설정을 선택합니다."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="양식 사전 설정 만들기"
+>additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="양식 사전 설정 만들기"
 
 양식을 만들려면 아래 단계를 수행합니다.
 
