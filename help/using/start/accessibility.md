@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
 source-git-commit: 95e50386d4190d0b967d133a327c25ab1681b5c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '486'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->전자 메일 및 랜딩 페이지의 액세스 가능한 콘텐츠를 디자인하는 지침은 [이 섹션](../email/accessible-content.md)에 자세히 설명되어 있습니다.
+>이메일 및 랜딩 페이지에 사용할 접근 가능한 콘텐츠를 디자인하는 지침은 [이 섹션](../email/accessible-content.md)에 자세히 설명되어 있습니다.
 
 [!DNL Adobe Journey Optimizer]의 접근성 기능은 Adobe Experience Platform의 기능을 가져온 것으로 다음과 같은 기능이 제공됩니다.
 

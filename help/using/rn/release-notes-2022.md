@@ -11,7 +11,7 @@ hidefromtoc: true
 hide: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3599'
 ht-degree: 100%
 
@@ -262,7 +262,7 @@ ht-degree: 100%
 <td>
 <p>Journey Optimizer 캠페인으로 다양한 채널을 사용하는 특정 대상자에 일회성 콘텐츠를 게재할 수 있습니다. 여정을 사용할 때 작업은 순서대로 실행되도록 디자인됩니다. 캠페인을 사용하면 작업을 동시에 즉시 또는 지정한 일정에 따라 수행합니다. </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
-<p><a href="../campaigns/get-started-with-campaigns.md">세부 설명서</a> 및 <a href="https://video.tv.adobe.com/v/3412406?captions=kor">기능 비디오</a>에서 캠페인을 만드는 방법을 알아보세요.
+<p><a href="../campaigns/get-started-with-campaigns.md">세부 설명서</a> 및 <a href="https://video.tv.adobe.com/v/346680">기능 비디오</a>에서 캠페인을 만드는 방법을 알아보세요.
 </td>
 </tr>
 </tbody>

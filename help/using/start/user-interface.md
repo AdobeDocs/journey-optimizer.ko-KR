@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 2b342c80623416a7e54ac96d777da7a4aaefb3b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1807'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->* 환경에서 사용할 수 있는 구성 요소 및 기능은 [사용 권한](../administration/permissions.md) 및 [라이선스 패키지](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}에 따라 다릅니다. 질문이 있는 경우 Adobe 고객 성공 관리자 또는 Adobe 담당자에게 문의하세요.
+>* 사용자 환경에서 사용할 수 있는 구성 요소 및 기능은 [사용 권한](../administration/permissions.md) 및 [라이선스 패키지](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}에 따라 다릅니다. 질문이 있는 경우 Adobe 고객 성공 관리자 또는 Adobe 담당자에게 문의하세요.
 >
 >* 이 설명서는 사용자 인터페이스 제품의 최근 변경 사항을 반영하여 자주 업데이트됩니다. 하지만 어떤 스크린샷은 실제 사용자 인터페이스와 약간 다를 수 있습니다.
 >
@@ -201,7 +201,7 @@ AI 어시스턴트는 Adobe의 개념을 탐색 및 이해하고 사용자의 �
 
 AI 어시스턴트에 액세스하려면 상단 표시줄에 있는 아이콘을 클릭하십시오. AI 어시스턴트는 화면 오른쪽에 표시됩니다.
 
-[&#128279;](ai-assistant.md)이 페이지에서 AI 어시스턴트에 액세스하고 사용하는 방법에 대해 알아봅니다.
+](ai-assistant.md)이 페이지에서[ AI 어시스턴트에 액세스하고 사용하는 방법에 대해 알아봅니다.
 
 ## 언어 환경 설정 {#language-pref}
 
@@ -224,10 +224,10 @@ AI 어시스턴트에 액세스하려면 상단 표시줄에 있는 아이콘을
 
 언어를 변경하려면 다음 단계를 수행합니다.
 
-1. 오른쪽 상단의 아바타에서 **환경 설정**&#x200B;을 클릭합니다.
+1. 오른쪽 상단의 아바타에서 **환경 설정**을 클릭합니다.
    ![](assets/preferences.png)
 1. 그런 다음 이메일 주소 아래에 표시되는 언어를 클릭합니다.
-1. 기본 언어를 선택하고 **저장**&#x200B;을 클릭합니다. 사용 중인 구성 요소가 첫 번째 언어로 현지화되지 않은 경우 두 번째 언어를 선택할 수 있습니다.
+1. 기본 언어를 선택하고 **저장**을 클릭합니다. 사용 중인 구성 요소가 첫 번째 언어로 현지화되지 않은 경우 두 번째 언어를 선택할 수 있습니다.
    ![](assets/select-language.png)
 
 +++
@@ -361,4 +361,4 @@ AI 어시스턴트에 액세스하려면 상단 표시줄에 있는 아이콘을
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dataset_lookup"
 >title="데이터 세트 조회 활동"
->abstract="**[!UICONTROL 데이터 세트 조회]** 활동을 통해 런타임 중에 Adobe Experience Platform 레코드 데이터 세트에서 동적으로 데이터를 가져올 수 있습니다. 이 기능을 활용하면 프로필 또는 이벤트 페이로드에 없는 데이터에 액세스할 수 있게 되어 고객 상호 작용이 더 관련성 있게 알맞은 시간에 이루어지도록 할 수 있습니다."
+>abstract="**[!UICONTROL 데이터 세트 조회]** 활동을 사용하면 런타임 중에 Adobe Experience Platform 레코드 데이터 세트의 데이터를 동적으로 검색할 수 있습니다. 이 기능을 활용하면 프로필이나 이벤트 페이로드에 없을 수 있는 데이터에 액세스하여 고객 상호 작용이 적시에 적절하게 이루어질 수 있습니다."

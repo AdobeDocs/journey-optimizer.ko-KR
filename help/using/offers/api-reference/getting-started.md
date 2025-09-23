@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
 source-git-commit: 30fed481bb02fd25f1833e76ae94330aa51d153b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '382'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -27,24 +27,24 @@ ht-degree: 70%
 
 이 개발자 안내서에서는 [!DNL Offer Library] API 사용을 시작하는 데 도움이 되는 단계를 제공합니다. 그런 다음 이 안내서에서는 의사 결정 엔진을 사용하여 주요 작업을 수행하기 위한 샘플 API 호출을 제공합니다.
 
-➡️ [이 비디오에서 의사 결정 관리의 구성 요소에 대해 자세히 알아보세요](#video)
+➡️ [이 비디오에서 의사 결정 관리의 구성 요소에 대해 자세히 알아보기](#video)
 
 ## 전제 조건 {#prerequisites}
 
 이 안내서를 사용하려면 Adobe Experience Platform의 다음 구성 요소에 대해 이해하고 있어야 합니다.
 
-* [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR){target="_blank"}: [!DNL Experience Platform]에서 고객 경험 데이터를 구성하는 표준화된 프레임워크입니다.
-   * [스키마 컴포지션의 기본 사항](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ko-KR){target="_blank"}: XDM 스키마의 기본 구성 요소에 대해 알아봅니다.
+* [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR){target="_blank"}: [!DNL Experience Platform]이 고객 경험 데이터를 구성하는 표준화된 프레임워크입니다.
+   * [스키마 컴포지션 기본 사항](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ko-KR){target="_blank"}: XDM 스키마의 기본 구성 요소에 대해 알아봅니다.
 * [의사 결정 관리](../../../using/offers/get-started/starting-offer-decisioning.md): 일반적인 Decisioning, 특히 의사 결정 관리에 사용되는 개념과 구성 요소를 설명합니다. 고객 경험 중에 제공할 최상의 옵션을 선택하는 데 사용되는 전략을 보여 줍니다.
 * [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=ko){target="_blank"}: PQL은 XDM 인스턴스를 통해 표현식을 작성할 수 있는 강력한 언어입니다. PQL은 의사 결정 규칙을 정의하는 데 사용됩니다.
 
 ## 샘플 API 호출 읽기 {#reading-sample-api-calls}
 
-이 안내서에서는 요청 형식을 지정하는 방법을 보여 주는 예제 API 호출을 제공합니다. 여기에는 경로, 필수 헤더 및 적절한 형식의 요청 페이로드가 포함됩니다. API 응답에서 반환되는 샘플 JSON도 제공됩니다. 샘플 API 호출에 대한 설명서에 사용된 규칙에 대한 자세한 내용은 [ 문제 해결 안내서의 ](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html?lang=ko#how-do-i-format-an-api-request){target="_blank"}예제 API 호출을 읽는 방법[!DNL Experience Platform]에 대한 섹션을 참조하십시오.
+이 안내서에서는 요청 형식을 지정하는 방법을 보여 주는 예제 API 호출을 제공합니다. 여기에는 경로, 필수 헤더 및 적절한 형식의 요청 페이로드가 포함됩니다. API 응답에서 반환되는 샘플 JSON도 제공됩니다. 샘플 API 호출에 대한 문서에 사용된 규칙에 대한 자세한 내용은 [!DNL Experience Platform] 문제 해결 안내서의 [예제 API 호출을 읽는 방법](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html?lang=ko#how-do-i-format-an-api-request){target="_blank"} 섹션을 참조하십시오.
 
 ## 필수 헤더에 대한 값 수집 {#gather-values-for-required-headers}
 
-[!DNL Adobe Experience Platform] API를 호출하려면 먼저 [인증 자습서](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=ko){target="_blank"}를 완료해야 합니다. 인증 튜토리얼을 완료하면 아래와 같이 모든 [!DNL Experience Platform] API 호출의 필수 헤더 각각에 대한 값이 제공됩니다.
+[!DNL Adobe Experience Platform] API를 호출하려면 먼저 [인증 튜토리얼](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=ko){target="_blank"}을 완료해야 합니다. 인증 튜토리얼을 완료하면 아래와 같이 모든 [!DNL Experience Platform] API 호출의 필수 헤더 각각에 대한 값이 제공됩니다.
 
 * `Authorization: Bearer {ACCESS_TOKEN}`
 * `x-api-key: {API_KEY}`
@@ -57,7 +57,7 @@ ht-degree: 70%
 
 >[!NOTE]
 >
->권한 검사는 할당된 제품 프로필에 따라 적용됩니다. 연결된 제품 프로필에 부여된 권한만 API를 통해 액세스하거나 관리할 수 있는 리소스를 결정합니다.
+>권한 검사는 할당된 제품 프로필에 따라 적용됩니다. 연결된 제품 프로필에 부여된 권한만이 API를 통해 액세스하거나 관리할 수 있는 리소스를 결정합니다.
 
 ## 다음 단계 {#next-steps}
 
@@ -72,5 +72,5 @@ ht-degree: 70%
 
 The following video is intended to support your understanding of the components of Decision Management.
 
->[!VIDEO](https://video.tv.adobe.com/v/342832?quality=12&captions=kor) -->
+>[!VIDEO](https://video.tv.adobe.com/v/329919?quality=12) -->
 
