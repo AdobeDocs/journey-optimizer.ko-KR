@@ -4,10 +4,10 @@ description: 여정에 대한 최대 가용량 규칙을 만드는 방법과 여
 role: User
 level: Beginner
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: 316fdb4e581ea139c2914f395a5d1823c2ded3cc
+source-git-commit: 450a6accf11d72d56e6b93cec9ec89dc8cf3c8f3
 workflow-type: tm+mt
-source-wordcount: '911'
-ht-degree: 19%
+source-wordcount: '944'
+ht-degree: 18%
 
 ---
 
@@ -80,7 +80,9 @@ ht-degree: 19%
 
    1. **[!UICONTROL 최대]** 필드에서 프로필을 동시에 등록할 수 있는 최대 여정 수를 설정합니다.
 
-   1. **[!UICONTROL 우선 순위 미리 보기]** 필드를 사용하여 선택한 기간(예: 1일, 7일, 30일)에 대한 우선 순위 점수를 기반으로 여정 항목을 중재합니다. 이렇게 하면 프로필이 여러 여정에 적합한 경우 더 높은 가치의 여정에 우선 순위를 지정하는 데 도움이 됩니다.
+   1. **[!UICONTROL 우선 순위 미리 보기]** 필드를 사용하여 선택한 기간(예: 1일, 7일, 30일)에 대한 우선 순위 점수를 기반으로 여정 항목을 중재합니다.
+
+      이 옵션은 남은 주 동안 예정된 읽기 대상 여정을 검사하여 우선순위가 더 높은 여정으로 인해 프로필이 여정에 들어가지 않도록 해야 하는지 결정합니다. 프로필이 여러 여정에 적합한 경우 더 높은 가치의 여정에 우선 순위를 지정하는 데 도움이 됩니다.
 
    이 예제에서는 프로필이 동일한 여정 세트를 포함하는 다른 여정에 이미 등록되어 있는 경우 해당 프로필로 들어가지 못하도록 제한하려고 합니다. 앞으로 7일 이내에 다른 여정에 더 높은 우선 순위 점수가 있는 경우 프로필이 이 여정을 입력하지 않습니다.
 
@@ -113,8 +115,8 @@ ht-degree: 19%
 
 ![](assets/journey-report.png)
 
-또한 [Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ko){target="_blank"}를 사용하여 특정 여정에 프로필이 입력되지 않은 규칙을 식별하는 쿼리를 작성할 수 있습니다. [이 섹션](../reports/query-examples.md#common-queries)에서 쿼리 예제를 사용할 수 있습니다.
+또한 [Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}를 사용하여 특정 여정에 프로필이 입력되지 않은 규칙을 식별하는 쿼리를 작성할 수 있습니다. [이 섹션](../reports/query-examples.md#common-queries)에서 쿼리 예제를 사용할 수 있습니다.
 
 ## 사용 방법 비디오 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3447622?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)
