@@ -12,9 +12,9 @@ badge: label="제한된 가용성" type="Informative"
 hidefromtoc: true
 hide: true
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: 45ebae048a748429a1918326526f3756a3e93c4c
+source-git-commit: 60a4fb6b88fe94119bcbd209a5f893e12142c0f0
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1262'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 2%
 >id="ajo_lp_form_connection"
 >title="사용할 엔드포인트 선택"
 >abstract="양식 제출 시 데이터가 전송되는 스트리밍 끝점을 정의합니다."
->additional-url="https://experienceleague.adobe.com/ko/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="HTTP API 스트리밍 연결 만들기"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="HTTP API 스트리밍 연결 만들기"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
@@ -69,7 +69,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >[Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}에서 스트리밍 소스 연결을 만드는 방법에 대해 자세히 알아보세요.
+   >[Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}에서 스트리밍 소스 연결을 만드는 방법에 대해 자세히 알아보세요.
 
 1. 양식에 연결할 **[!UICONTROL 데이터 집합]**&#x200B;을(를) 선택하십시오. 여기에서 양식 응답이 저장되고 반영됩니다. 특정 데이터 세트를 검색하도록 입력하거나 목록에서 선택할 수 있습니다.
 
@@ -91,7 +91,7 @@ ht-degree: 2%
 >id="ajo_lp_form_preset"
 >title="사전 설정 선택"
 >abstract="사용할 연결 및 양식에 대한 사전 정의된 데이터 세트가 포함된 사전 정의된 사전 설정을 선택합니다."
->additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="양식 사전 설정 만들기"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="양식 사전 설정 만들기"
 
 양식을 만들려면 아래 단계를 수행합니다.
 
@@ -156,6 +156,32 @@ ht-degree: 2%
   >규칙에 정의된 조건은 순차적으로 읽혀집니다.
 
   ![](assets/lp_create-form-thank-you-conditional.png){width=40%}
+
+## 게시된 양식 편집 {#edit-form}
+
+양식이 게시되면 편집할 수 있습니다. 아래 단계를 수행합니다.
+
+1. [양식 목록](#access-forms)에 액세스하여 게시된 양식을 선택하십시오.
+
+1. **[!UICONTROL 양식 편집]** 단추를 클릭합니다.
+
+   ![](assets/lp_edit-form-button.png){width=90%}
+
+1. 초안 상태로 양식의 새 버전이 만들어집니다. **[!UICONTROL 초안 버전 만들기]**&#x200B;를 클릭합니다.
+
+1. 필요에 따라 양식을 업데이트하고 **[!UICONTROL 저장]**&#x200B;을 클릭합니다. 이제 양식이 **[!UICONTROL 게시됨(초안 있음)]** 상태입니다.
+
+   * 업데이트된 버전을 게시하기 전까지 현재 버전은 계속 **[!UICONTROL 게시됨]** 상태입니다.
+
+   * 업데이트된 버전의 상태가 **[!UICONTROL 초안]**&#x200B;입니다.
+
+1. 양식 요약으로 돌아가서 양식의 두 버전 간을 탐색할 수 있습니다.
+
+   ![](assets/lp_published-with-draft-form.png){width=70%}
+
+1. **[!UICONTROL 초안]** 섹션에서 초안을 게시하거나 삭제하고 양식의 세부 사항이나 내용을 편집할 수 있습니다.
+
+   ![](assets/lp_edit-draft-form.png){width=75%}
 
 ## 랜딩 페이지에서 양식 활용 {#leverage-form-in-lp}
 
