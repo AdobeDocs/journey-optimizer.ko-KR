@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 데이터 세트, 최적화 도구, 사용 사례
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 967e5ed75a7a3d37b37749f464a3b96e10b1f35a
+source-git-commit: c517e7faa027b5c1fe3b130f45fc7bf5020c454a
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '925'
 ht-degree: 2%
 
 ---
@@ -241,7 +241,7 @@ group by
 
 여정 단계 이벤트를 쿼리하기 위해 일반적으로 사용되는 [예제](../reports/query-examples.md)를 참조하십시오.
 
-
+[여정_step_events](../reports/sharing-field-list.md#discarded-events)에서 삭제된 이벤트 유형 문제를 해결하는 방법을 알아봅니다.
 
 ## 의사 결정 이벤트 데이터 세트{#ode-decisionevents}
 

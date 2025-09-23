@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: e6193d6204f722df7e6c02aaed80abc53b523755
+source-git-commit: c517e7faa027b5c1fe3b130f45fc7bf5020c454a
 workflow-type: tm+mt
-source-wordcount: '2186'
+source-wordcount: '2179'
 ht-degree: 17%
 
 ---
@@ -79,9 +79,13 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_constraints"
 >title="대상자 또는 의사 결정 규칙 추가"
->abstract="기본적으로 모든 프로필은 결정 항목을 수신할 수 있지만 대상자 또는 규칙을 사용하여 항목을 특정 프로필로만 제한할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="대상자 사용"
->additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="결정 규칙 사용"
+>abstract="기본적으로 모든 프로필은 결정 항목을 수신할 수 있지만 대상자 또는 규칙을 사용하여 항목을 특정 프로필로만 제한할 수 있습니다.
+
+<!--
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+-->
+
 
 기본적으로 모든 프로필은 의사 결정 항목을 받을 수 있지만, 대상자 또는 규칙을 사용하여 항목을 특정 프로필로만 제한할 수 있습니다. 두 솔루션은 서로 다른 사용법에 해당합니다. 자세한 내용을 보려면 아래 섹션을 확장하십시오.
 

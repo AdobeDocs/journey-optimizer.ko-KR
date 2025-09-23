@@ -8,9 +8,9 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 967e5ed75a7a3d37b37749f464a3b96e10b1f35a
+source-git-commit: c517e7faa027b5c1fe3b130f45fc7bf5020c454a
 workflow-type: tm+mt
-source-wordcount: '1500'
+source-wordcount: '1554'
 ht-degree: 2%
 
 ---
@@ -46,6 +46,8 @@ AND _experience.journeyOrchestration.stepEvents.nodeType='start'
 AND _experience.journeyOrchestration.stepEvents.instanceType = 'unitary'
 AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 ```
+
+[여정_step_events](../reports/sharing-field-list.md#discarded-events)에서 삭제된 이벤트 유형 문제를 해결하는 방법을 알아봅니다.
 
 +++
 
@@ -473,6 +475,9 @@ ORDER BY DATE(timestamp) desc
 ```
 
 쿼리는 정의된 기간 동안 매일 여정에 입력한 프로필 수를 반환합니다. 프로필이 여러 ID를 통해 입력된 경우 두 번 계산됩니다. 재입력이 활성화된 경우 다른 날에 여정을 다시 입력한 경우 다른 날에 프로필 수가 중복될 수 있습니다.
+
+[여정_step_events](../reports/sharing-field-list.md#discarded-events)에서 삭제된 이벤트 유형 문제를 해결하는 방법을 알아봅니다.
+
 
 +++
 
@@ -969,6 +974,8 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
 ```
 
+[여정_step_events](../reports/sharing-field-list.md#discarded-events)에서 삭제된 이벤트 유형 문제를 해결하는 방법을 알아봅니다.
+
 +++
 
 +++다른 이유로 인해 프로필의 외부 이벤트가 무시되었는지 확인
@@ -997,6 +1004,8 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
 ```
 
+[여정_step_events](../reports/sharing-field-list.md#discarded-events)에서 삭제된 이벤트 유형 문제를 해결하는 방법을 알아봅니다.
+
 +++
 
 +++errorCode로 stateMachine에서 삭제한 모든 이벤트 수를 확인합니다.
@@ -1016,6 +1025,8 @@ SELECT _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode, CO
 where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
 ```
+
+[여정_step_events](../reports/sharing-field-list.md#discarded-events)에서 삭제된 이벤트 유형 문제를 해결하는 방법을 알아봅니다.
 
 +++
 
@@ -1043,6 +1054,8 @@ where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' AND _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode='reentranceNotAllowed'
 ```
 
+[여정_step_events](../reports/sharing-field-list.md#discarded-events)에서 삭제된 이벤트 유형 문제를 해결하는 방법을 알아봅니다.
+
 +++
 
 ## 일반적인 여정 기반 쿼리 {#journey-based-queries}
@@ -1068,6 +1081,7 @@ ORDER BY DATE(timestamp) desc
 ```
 
 쿼리는 정의된 기간 동안 매일 트리거된 고유한 여정 수를 반환합니다. 여러 날에 트리거되는 단일 여정은 하루에 한 번 계산됩니다.
+
 
 +++
 
