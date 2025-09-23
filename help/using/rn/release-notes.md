@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: deafaf331edb1df9a3417a0e85d641a62fa682d2
+source-git-commit: 0d58a5075e6459ee7d46192f7bc1c9ee0b8b70bf
 workflow-type: tm+mt
-source-wordcount: '3111'
-ht-degree: 67%
+source-wordcount: '3032'
+ht-degree: 69%
 
 ---
 
@@ -237,15 +237,15 @@ ht-degree: 67%
 
 * **승인 정책 권한**
 여정/캠페인 작성자가 자신의 개체를 승인하지 못하도록 승인 정책을 만들거나 설정할 때 옵션을 추가했습니다.
-<!-->
-* **새 여정 알림**\
-  여정에 대해 사전 구성된 새 경고를 사용할 수 있습니다.
+<!--
+* **New Journey Alerts**  
+  New pre-configured alerts are available for journeys:
 
-   * 프로필 폐기 비율 초과: 지난 5분 동안 임계값을 초과한 입력된 프로필에 대한 프로필 폐기 비율입니다.
-   * 사용자 지정 작업 오류율 초과: 지난 5분 동안 임계값보다 높은 성공적인 HTTP 호출에 대한 사용자 지정 작업 오류의 비율입니다.
-   * 프로필 오류율 초과: 지난 5분 동안 입력한 프로필 대비 오류가 발생한 프로필 비율이 임계값을 초과했습니다.
+  * Profile Discard Rate Exceeded: Ratio of profile discards to entered profiles over the last 5 mins exceeded threshold.  
+  * Custom Action Error Rate Exceeded: Ratio of custom action errors to successful HTTP calls over the last 5 mins exceeded threshold.  
+  * Profile Error Rate Exceeded: Ratio of profiles-in-error to entered profiles over the last 5 mins exceeded threshold.
 
-  임계값을 수정하고 개별 여정 수준 경고를 전역으로 구독할 수 있습니다.
+  You can modify threshold values and subscribe to individual journey-level alerts vs globally.
 -->
 
 * **이제 사용자 지정 인증에서 중첩된 JSON 본문 매개 변수가 지원됩니다**\
