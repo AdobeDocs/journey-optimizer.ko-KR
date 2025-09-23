@@ -8,26 +8,15 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 내용, 실험, 복수, 대상자, 처리
-hide: true
-hidefromtoc: true
-source-git-commit: ddeb3512fbe1d1de86456fe2c3ccd2b3805b5684
+exl-id: b7c00cdc-430c-40a2-90c9-6dd891d2563b
+source-git-commit: 61ae9196f699c3b6aa1d9a5bb2259d36aaebc0e3
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
 
 # Journey Optimizer Experimentation Accelerator을 사용한 AI의 데이터 사용{#experiment-accelerator-security}
-
->[!BEGINSHADEBOX]
-
-* [Journey Optimizer Experimentation Accelerator 시작](experiment-accelerator.md)
-* [Journey Optimizer Experimentation Accelerator을 사용한 AI의 데이터 사용](experiment-accelerator-security.md)
-* [Journey Optimizer Experimentation Accelerator 우수 사례](experiment-accelerator-best-practices.md)
-* [실험 모니터링](experiment-accelerator-monitor.md)
-* [실험 지표](experiment-accelerator-metrics.md)
-
->[!ENDSHADEBOX]
 
 **Adobe Journey Optimizer Journey Optimizer Experimentation Accelerator**&#x200B;을(를) 사용하면 인사이트를 자동으로 검색하고 실험 및 실험 프로그램을 개선할 수 있는 기회를 추천할 수 있습니다. 이 솔루션은 AI와 머신 러닝을 활용하여 이러한 권장 사항을 제공합니다. 이 문은 고객의 데이터가 **Journey Optimizer Experimentation Accelerator**&#x200B;에서 사용되는 방식을 명확히 설명합니다.
 

@@ -8,27 +8,15 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 내용, 실험, 복수, 대상자, 처리
-hide: true
-hidefromtoc: true
 exl-id: 74868625-f4ea-44f9-ae2a-8e5fdd22a081
-source-git-commit: 70fce6fae4db58c72496945c50155dbd0b4986b4
+source-git-commit: 61ae9196f699c3b6aa1d9a5bb2259d36aaebc0e3
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '347'
 ht-degree: 2%
 
 ---
 
 # 지표 {#experiment-accelerator-metrics}
-
->[!BEGINSHADEBOX]
-
-* [Journey Optimizer Experimentation Accelerator 시작](experiment-accelerator.md)
-* [Journey Optimizer Experimentation Accelerator을 사용한 AI의 데이터 사용](experiment-accelerator-security.md)
-* [Journey Optimizer Experimentation Accelerator 우수 사례](experiment-accelerator-best-practices.md)
-* [실험 모니터링](experiment-accelerator-monitor.md)
-* **[실험 지표](experiment-accelerator-metrics.md)**
-
->[!ENDSHADEBOX]
 
 **[!UICONTROL 지표]** 페이지에는 Journey Optimizer 및 Target 실험의 성공 지표가 한 곳에 표시되어 성능 모니터링, 비교 및 더 자세한 통찰력을 사용할 수 있습니다.
 

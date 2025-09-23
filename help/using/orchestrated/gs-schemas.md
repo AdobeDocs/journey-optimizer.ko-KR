@@ -2,10 +2,10 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 구성 단계
-description: DDL을 업로드하여 Adobe Experience Platform 내에서 관계형 스키마를 만드는 방법을 알아봅니다
+description: DDL을 업로드하여 Adobe Experience Platform 내에서 모델 기반 스키마를 만드는 방법을 알아봅니다
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
 version: Campaign Orchestration
-source-git-commit: 387aa023b4cb999ae4c27cbca4a2f7bcb5edf009
+source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 2%
@@ -13,9 +13,9 @@ ht-degree: 2%
 ---
 
 
-# 관계형 스키마 및 데이터 세트 시작{#gs-schemas}
+# 모델 기반 스키마 및 데이터 세트 시작{#gs-schemas}
 
-이 안내서에서는 관계형 스키마를 만들고, 오케스트레이션된 캠페인에 대한 데이터 세트를 구성하고, 데이터를 수집하는 프로세스를 안내합니다.
+이 안내서에서는 모델 기반 스키마를 만들고, 오케스트레이션된 캠페인에 대한 데이터 세트를 구성하고, 데이터를 수집하는 프로세스를 안내합니다.
 
 ![스키마](assets/do-not-localize/schema_admin.png){zoomable="yes"}
 
@@ -35,13 +35,13 @@ ht-degree: 2%
 
 데이터 모델은 논리적이고 개념적이므로 오케스트레이션된 Campaign의 물리적 구현에 연결되지 않습니다
 
-**관계형 데이터 모델**&#x200B;에서 데이터는 다른 테이블과 관련된 테이블로 구성됩니다.
+**모델 기반 데이터 모델**&#x200B;에서 데이터는 다른 테이블과 관련된 테이블로 구성됩니다.
 
 * 각 테이블에는 행(레코드)과 열(속성)이 있습니다
 * 모든 테이블에는 행을 고유하게 식별하는 기본 키가 있습니다
 * 테이블 간의 관계는 외래 키를 사용하여 표현됩니다
 
-**관계형 스키마**&#x200B;는 관계형 데이터 모델의 정식 정의입니다.
+**모델 기반 스키마**&#x200B;는 모델 기반 데이터 모델의 정식 정의입니다.
 
 다음을 지정합니다.
 
@@ -50,13 +50,13 @@ ht-degree: 2%
 * 제한
 * 테이블 간의 관계
 
-관계형 데이터 모델에서 스키마 또는 테이블 구성은 데이터를 여러 테이블로 구조화하는 것입니다. 각 테이블에 한 가지 유형의 엔티티/스키마가 저장되는지 확인
+모델 기반 데이터 모델에서 스키마 또는 테이블 구성은 데이터를 여러 테이블로 구조화하는 것입니다. 각 테이블에 한 가지 유형의 엔티티/스키마가 저장되는지 확인
 
 ## 구현 단계 {#implementation}
 
-데이터를 수집하고 관계형 스키마를 생성하려면 다음 단계를 수행합니다.
+데이터를 수집하고 모델 기반 스키마를 생성하려면 다음 단계를 수행합니다.
 
-1. [관계형 스키마를 수동으로 만들기](manual-schema.md) 또는 [DDL 파일 사용](file-upload-schema.md)
+1. [모델 기반 스키마를 수동으로 만들기](manual-schema.md) 또는 [DDL 파일 사용](file-upload-schema.md)
 
    테이블, 속성 및 관계를 포함한 데이터 모델의 구조를 정의합니다. 빠른 설정을 위해 사용자 인터페이스에서 스키마를 수동으로 작성하거나 DDL 파일을 업로드하도록 선택하십시오.
 

@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 이메일, 메시지, 첨부 파일, pdf, 편집기
 exl-id: 71e218d0-5b3b-4db5-8b7b-d08df8f088c4
-source-git-commit: 2e394ea4ba6f3a46df997d48331cbe6ea09f0eb5
+source-git-commit: 504b038a5f0a1f40304e355325843c238ab56da5
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 41%
+source-wordcount: '339'
+ht-degree: 34%
 
 ---
 
@@ -23,10 +23,6 @@ ht-degree: 41%
 >title="PDF 첨부 파일 추가"
 >abstract="이메일에 첨부할 PDF 파일을 찾아보십시오.</br>매년 프로필별로 최대 6개의 PDF 첨부 파일을 사용하여 메시지를 보낼 수 있습니다. 각 첨부 파일의 최대 크기는 5MB입니다.</br>크기나 볼륨이 더 필요하다면 첨부 팩 추가 기능을 구매할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오."
 
->[!AVAILABILITY]
->
->이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.
-
 [!DNL Journey Optimizer]&#x200B;(으)로 보내는 전자 메일 메시지에 정적 PDF 파일을 첨부할 수 있습니다.
 
 >[!IMPORTANT]
@@ -35,7 +31,7 @@ ht-degree: 41%
 >
 >* 각 첨부 파일의 최대 크기는 5MB입니다.
 >
->크기나 볼륨이 더 필요하다면 첨부 파일 팩 추가 기능을 구매할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
+>추가 크기나 볼륨의 경우 PDF 첨부 파일 추가 기능을 구입할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
 이메일 메시지에 PDF 파일을 첨부하려면 아래 단계를 따르십시오.
 
@@ -49,7 +45,7 @@ ht-degree: 41%
 
    >[!NOTE]
    >
-   >메시지를 디자인할 때는 Journey Optimizer 인터페이스 내에서 Assets Essentials 저장소에 직접 액세스합니다. 포함된 [!DNL Assets Essentials] 사용자 인터페이스에 대한 자세한 내용은 [Experience Manager Assets Essentials 설명서](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=ko){target="_blank"}를 참조하세요.
+   >메시지를 디자인할 때는 Journey Optimizer 인터페이스 내에서 Assets Essentials 저장소에 직접 액세스합니다. 포함된 [!DNL Assets Essentials] 사용자 인터페이스에 대한 자세한 내용은 [Experience Manager Assets Essentials 설명서](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}를 참조하세요.
 
 1. **[!UICONTROL MIME 형식]** 섹션의 **[!UICONTROL PDF]** 필터를 사용하여 올바른 파일 형식으로 선택을 제한하십시오.
 

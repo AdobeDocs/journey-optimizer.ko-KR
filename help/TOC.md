@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c472ce00623b810dea60dd5d9e34ca4d516447ad
+source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
 workflow-type: tm+mt
-source-wordcount: '2948'
-ht-degree: 98%
+source-wordcount: '2954'
+ht-degree: 99%
 
 ---
 
@@ -235,8 +235,8 @@ ht-degree: 98%
       + [FAQ](using/orchestrated/orchestrated-campaigns-faq.md)
       + 데이터 구성 {#data-configuration}
          + [데이터 구성](/help/rp_landing_pages/data-configuration-landing-page.md)
-         + 관계형 스키마 및 데이터 세트 관리 {#schemas-datasets}
-            + [관계형 스키마 및 데이터 세트 관리](/help/rp_landing_pages/schemas-datasets-landing-page.md)
+         + 모델 기반 스키마 및 데이터 세트 관리 {#schemas-datasets}
+            + [모델 기반 스키마 및 데이터 세트 관리](/help/rp_landing_pages/schemas-datasets-landing-page.md)
             + [스키마 및 데이터 세트 시작](using/orchestrated/gs-schemas.md)
             + [수동 스키마](using/orchestrated/manual-schema.md)
             + [파일 업로드 스키마](using/orchestrated/file-upload-schema.md)
@@ -334,7 +334,7 @@ ht-degree: 98%
             + [인라인 스타일 속성 추가](using/email/inline-styling.md)
             + [사용자 정의 CSS 추가](using/email/custom-css.md)
             + [다크 모드 콘텐츠 관리](using/email/dark-mode.md)
-         + [액세스 가능한 컨텐츠 만들기](using/email/accessible-content.md)
+         + [접근성 높은 콘텐츠 만들기](using/email/accessible-content.md)
       + [이메일 옵트아웃 관리](using/email/email-opt-out.md)
       + 이메일 채널 구성 {#configure-email}
          + [이메일 채널 구성](/help/rp_landing_pages/configure-email-landing-page.md)
@@ -547,14 +547,15 @@ ht-degree: 98%
       + [콘텐츠 실험](/help/rp_landing_pages/content-experiment-landing-page.md)
       + [콘텐츠 실험 시작](using/content-management/get-started-experiment.md)
       + [콘텐츠 실험 만들기](using/content-management/content-experiment.md)
-      + 실험 가속기 {#experiment}
+      + Experiment Accelerator {#experiment}
          + [Experiment Accelerator 시작](using/content-management/experiment-accelerator.md)
-         + [Experimentation Accelerator을 사용한 AI의 데이터 사용](using/content-management/experiment-accelerator-security.md)
-         + [Experiment Accelerator 우수 사례](using/content-management/experiment-accelerator-best-practices.md)
-         + [실험 가속기 모니터](using/content-management/experiment-accelerator-monitor.md)
+         + [Experimentation Accelerator를 통한 AI의 데이터 사용](using/content-management/experiment-accelerator-security.md)
+         + [Experiment Accelerator 모범 사례](using/content-management/experiment-accelerator-best-practices.md)
+         + [Experiment Accelerator 모니터](using/content-management/experiment-accelerator-monitor.md)
          + [Experience Accelerator 지표](using/content-management/experiment-accelerator-metrics.md)
       + 기술 문서 {#technotes}
          + [기술 문서](/help/rp_landing_pages/technotes-landing-page.md)
+         + [A/B 테스트와 Multi-armed bandit 비교](using/content-management/mab-vs-ab.md)
          + [통계 계산 이해](using/content-management/experiment-calculations.md)
          + [실험 보고서의 통계 계산 이해](using/content-management/experiment-report-calculations.md)
 + 대상자, 프로필, ID {#audiences-profiles-identities}

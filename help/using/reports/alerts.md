@@ -8,9 +8,9 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 13623d28ba7b852f7267b5f800f2c9a3afda4a62
+source-git-commit: 21adeb5128b22bf7b2e7e6c2cff9c31159741cee
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1313'
 ht-degree: 0%
 
 ---
@@ -19,8 +19,7 @@ ht-degree: 0%
 
 여정 및 캠페인을 작성할 때 실행 또는 게시하기 전에 **경고** 단추를 사용하여 오류를 확인하고 해결하십시오.
 
-* [이 페이지](../building-journeys/troubleshooting.md)에서 여정 문제를 해결하는 방법을 알아보세요.
-* [이 페이지](../campaigns/review-activate-campaign.md)에서 캠페인을 검토하는 방법을 알아보세요.
+
 
 전용 **[!UICONTROL 경고]** 메뉴에서 이 페이지에 설명된 대로 [!DNL Adobe Journey Optimizer] 시스템 경고를 구독할 수도 있습니다.
 
@@ -42,18 +41,34 @@ ht-degree: 0%
 
    * [여정 사용자 지정 작업 실패](#alert-custom-actions) 경고
    * [대상자 트리거 읽기 실패](#alert-read-audiences) 경고
+<!--DOCAC-13465   * the [Profile Discard Rate Exceeded](#alert-discard-rate) alert
+   * the [Custom Action Error Rate Exceeded](#alert-custom-action-error-rate) alert
+   * the [Profile Error Rate Exceeded](#alert-profile-error-rate) alert-->
 
 * 채널 구성과 관련된 경고:
 
    * [AJO 도메인 DNS 레코드 누락](#alert-dns-record-missing) 경고
-  <!--* the [AJO channel configuration failure](#alert-channel-config-failure) alert
-   * the [AJO domain certificates renewal unsuccessful](#alert-certificates-renewal) alert-->
+   * [AJO 채널 구성 실패](#alert-channel-config-failure) 경고
+     <!--* the [AJO domain certificates renewal unsuccessful](#alert-certificates-renewal) alert-->
 
 ## 경고 구독 {#subscribe-alerts}
 
-1. **[!UICONTROL 구독]** 옵션을 선택하여 사용자 인터페이스에서 각 경고를 개별적으로 구독할 수 있습니다.
+예기치 않은 동작이 발생하고/또는 작업의 특정 조건 세트에 도달하면(예: 시스템이 임계값을 위반한 경우 발생할 수 있는 문제), 경고 알림이 이를 구독한 조직의 모든 사용자에게 전달됩니다.
 
-   ![](assets/alert-subscribe.png){width=80%}
+사용자 인터페이스에서 각 경고를 개별적으로 구독할 수 있습니다. **[!UICONTROL 경고]** 남성의 전체 구독([전역 구독](#global-subscription) 참조)<!--DOCAC-13465, or unitary for a specific journey (see [Unitary subscription](#unitary-subscription))-->에서 구독할 수 있습니다.
+
+가입자의 환경 설정에 따라 알림은 사용자 인터페이스(인앱 알림)의 오른쪽 상단 모서리에 있는 Journey Optimizer 알림 센터에서 이메일로 및/또는 직접 전송됩니다. [!DNL Adobe Experience Cloud] **[!UICONTROL 환경 설정]**&#x200B;에서 이러한 경고를 받을 방법을 선택하십시오. [자세히 알아보기](../start/user-interface.md#in-product-alerts)
+
+경고가 해결되면 구독자에게 &quot;해결됨&quot; 알림이 전송됩니다.
+
+
+### 전역 구독 {#global-subscription}
+
+모든 여정 및 캠페인에 대한 경고를 구독/구독 취소하려면 다음 단계를 따르십시오.
+
+1. 왼쪽 메뉴에서 **[!UICONTROL 경고]** 대시보드로 이동하여 구독하려는 경고에 대한 **[!UICONTROL 구독]** 옵션을 선택하십시오.
+
+   ![경고 구독 중](assets/alert-subscribe.png){width=80%}
 
    >[!NOTE]
    >
@@ -61,37 +76,28 @@ ht-degree: 0%
 
 1. **[!UICONTROL 구독 취소]**&#x200B;에 동일한 방법을 사용하십시오.
 
-1. [I/O 이벤트 알림](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=ko){target="_blank"}을 통해 알림을 구독할 수도 있습니다. 경고 규칙은 다른 구독 패키지로 구성됩니다. 특정 Journey Optimizer 경고에 해당하는 이벤트 구독은 [아래](#journey-alerts)에 자세히 설명되어 있습니다.
+[I/O 이벤트 알림](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}을 통해 구독할 수도 있습니다. 경고 규칙은 다른 구독 패키지로 구성됩니다. 특정 Journey Optimizer 경고에 해당하는 이벤트 구독은 [아래](#journey-alerts)에 자세히 설명되어 있습니다.
 
-1. 예기치 않은 동작이 발생하고/또는 작업의 특정 조건 세트에 도달하면(예: 시스템이 임계값을 위반한 경우 발생할 수 있는 문제), 경고 알림이 이를 구독한 조직의 모든 사용자에게 전달됩니다.
+<!--DOCAC-13465
+### Unitary subscription {#unitary-subscription}
 
-가입자의 환경 설정에 따라 알림은 사용자 인터페이스(인앱 알림)의 오른쪽 상단 모서리에 있는 Journey Optimizer 알림 센터에서 이메일로 및/또는 직접 전송됩니다. [!DNL Adobe Experience Cloud] **[!UICONTROL 환경 설정]**&#x200B;에서 이러한 경고를 받을 방법을 선택하십시오. [자세히 알아보기](../start/user-interface.md#in-product-alerts)
+To subscribe/unsubscribe to an alert for a specific journey, follow these steps:
 
->[!NOTE]
->
->기본적으로 인앱 경고만 활성화됩니다.
+1. Browse to the journey inventory and select the **[!UICONTROL Subscribe to alerts]** option for a specific journey.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=ko#enable-email-alerts){target="_blank"}.-->
+      ![Subscribing to an alert for a specific journey](assets/subscribe-journey-alert.png){width=80%}
 
-경고가 해결되면 구독자에게 &quot;해결됨&quot; 알림이 전송됩니다.
+1. Choose the alert(s). The following alerts are available: [Profile Discard Rate Exceeded](#alert-discard-rate), [Custom Action Error Rate Exceeded](#alert-custom-action-error-rate), and [Profile Error Rate Exceeded](#alert-profile-error-rate).
+   
+1. To unsubscribe to an alert, unselect it from the same screen.
 
-## 경고 관리 {#manage-alerts}
+1. Click **[!UICONTROL Save]** to confirm.
+-->
 
-경고를 관리하려면 항목을 선택하고 **[!UICONTROL 추가 작업]** 단추를 사용하십시오.
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
-![](assets/alert-more-actions.png){width=80%}
 
-기본적으로 모든 경고가 활성화됩니다. 경고를 사용하지 않으려면 **[!UICONTROL 추가 작업]** 메뉴에서 **[!UICONTROL 경고 사용 안 함]** 옵션을 선택하십시오. 이 경고의 모든 구독자는 더 이상 관련 알림을 받지 않습니다.
 
-경고를 구독한 사용자 목록을 보려면 **[!UICONTROL 경고 구독자 관리]**&#x200B;를 선택하십시오. 빈 필드를 사용하여 구독자를 더 추가합니다.
-
-![](assets/alert-subscribers.png){width=80%}
-
-가능한 경고 상태는 다음과 같습니다.
-
-* **[!UICONTROL 활성화됨]** - 경고가 활성화되었으며 현재 트리거 조건을 모니터링하고 있습니다.
-* **[!UICONTROL 사용 안 함]** - 경고가 사용하지 않도록 설정되어 있으며 현재 트리거 조건을 모니터링하고 있지 않습니다. 이 경고에 대한 알림이 수신되지 않습니다.
-* **[!UICONTROL 트리거됨]** - 경고의 트리거 조건이 현재 충족되고 있습니다.
 
 ## 여정 경고 {#journey-alerts}
 
@@ -99,9 +105,12 @@ ht-degree: 0%
 >
 >Adobe Journey Optimizer 관련 경고는 **live** 여정에 대해서만 적용됩니다. 테스트 모드의 여정에 대해서는 경고가 트리거되지 않습니다.
 
+
 ### 여정 사용자 지정 작업 실패 {#alert-custom-actions}
 
 이 경고는 사용자 지정 작업이 실패할 경우 경고합니다. 지난 5분 동안 특정 사용자 지정 작업에 대해 1% 이상의 오류가 발생한 오류가 있는 것으로 간주됩니다. 이는 30초마다 평가됩니다.
+
+경고 세부 정보 및 구성을 확인하려면 경고 이름을 클릭합니다.
 
 ![](assets/alerts-custom-action.png)
 
@@ -144,6 +153,26 @@ ht-degree: 0%
 ![](assets/alert-troubleshooting-0.png)
 
 ![](assets/alert-troubleshooting-1.png)
+
+<!--DOCAC-13465
+
+### Profile Discard Rate Exceeded {#alert-discard-rate}
+
+This alert warns you if the ratio of profile discards to entered profiles over the last 5 minutes exceeded threshold. The defaut threshold is set to 20% but you can [define a custom theshold](#custom-threshold).
+
+Click the name of the alert to check the alert details and configuration.
+
+
+### Custom Action Error Rate Exceeded {#alert-custom-action-error-rate}
+
+This alert warns you if the ratio of custom action errors to successful HTTP calls over the last 5 minutes exceeded threshold. The defaut threshold is set to 20% but you can [define a custom theshold](#custom-threshold).
+
+### Profile Error Rate Exceeded {#alert-profile-error-rate}
+
+This alert warns you if the ratio of custom action errors to successful HTTP calls over the last 5 minutes exceeded threshold. The defaut threshold is set to 20% but you can [define a custom theshold](#custom-threshold).
+
+Click the name of the alert to check the alert details and configuration.
+-->
 
 ## 구성 경고 {#configuration-alerts}
 
@@ -220,7 +249,61 @@ ht-degree: 0%
 
 This alert warns you if a domain certificate (CDN, tracking URL) renewal failed for a specific Journey Optimizer subdomain.-->
 
+## 경고 관리 {#manage-alerts}
+
+### 경고 편집
+
+해당 줄을 클릭하여 경고의 세부 정보를 확인할 수 있습니다. 이름, 상태 및 알림 채널이 왼쪽 패널에 표시됩니다.
+<!--DOCAC-13465
+For Journey alerts, use the **[!UICONTROL More actions]** button to edit them. You can then define a [custom theshold](#custom-threshold) for these alerts.-->
+
+![](assets/alert-more-actions.png){width=60%}
+
+<!--DOCAC-13465
+#### Define a custom threshold {#custom-threshold}
+
+You can set thresholds for the [Journey alerts](#journey-alerts). The threshold alerts above default to 20%. 
+
+To change the threshold:
+
+1. Browse to the **Alerts** screen
+1. Click the **[!UICONTROL More actions]** button of the alert to update
+1. Enter the new threshold and confirm. The new threshold applies to **all** journeys
 
 
+![](assets/alert-threshold.png){width=60%}
+
+>[!CAUTION]
+>
+>The threshold levels are global across all journeys and cannot be individually modified per journey.
+-->
+
+### 경고 비활성화
+
+기본적으로 모든 경고가 활성화됩니다. 경고를 사용하지 않으려면 **[!UICONTROL 경고 사용 안 함]** 옵션을 선택하십시오. 이 경고에 대한 모든 구독자는 더 이상 관련 알림을 받지 않습니다.
 
 
+### 경고 상태
+
+가능한 경고 상태는 다음과 같습니다.
+
+* **[!UICONTROL 활성화됨]** - 경고가 활성화되었으며 현재 트리거 조건을 모니터링하고 있습니다.
+* **[!UICONTROL 사용 안 함]** - 경고가 사용하지 않도록 설정되어 있으며 현재 트리거 조건을 모니터링하고 있지 않습니다. 이 경고에 대한 알림이 수신되지 않습니다.
+* **[!UICONTROL 트리거됨]** - 경고의 트리거 조건이 현재 충족되고 있습니다.
+
+
+### 구독자 보기 및 업데이트 {#manage-subscribers}
+
+경고를 구독한 사용자 목록을 보려면 **[!UICONTROL 경고 구독자 관리]**&#x200B;를 선택하십시오.
+
+![](assets/alert-subscribers.png){width=80%}
+
+구독자를 추가하려면 쉼표로 구분된 전자 메일을 입력하고 **[!UICONTROL 업데이트]**&#x200B;를 선택하세요.
+
+구독자를 제거하려면 현재 구독자에서 해당 전자 메일 주소를 삭제하고 **[!UICONTROL 업데이트]**&#x200B;를 선택하세요.
+
+## 추가 리소스 {#additional-resources-alerts}
+
+
+* [이 페이지](../building-journeys/troubleshooting.md)에서 여정 문제를 해결하는 방법을 알아보세요.
+* [이 페이지](../campaigns/review-activate-campaign.md)에서 캠페인을 검토하는 방법을 알아보세요.

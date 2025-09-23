@@ -2,32 +2,32 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 구성 단계
-description: DDL을 업로드하여 Adobe Experience Platform 내에서 관계형 스키마를 만드는 방법을 알아봅니다
+description: DDL을 업로드하여 Adobe Experience Platform 내에서 모델 기반 스키마를 만드는 방법을 알아봅니다
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: 35cd3aac01467b42d0cba22de507f11546f4feb9
+source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 52%
+source-wordcount: '1043'
+ht-degree: 50%
 
 ---
 
 
-# DDL 파일을 사용하여 관계형 스키마 생성 {#file-upload-schema}
+# DDL 파일을 사용하여 모델 기반 스키마 생성 {#file-upload-schema}
 
-**충성도 멤버십**, **충성도 트랜잭션** 및 **충성도 보상**&#x200B;과 같은 스키마를 만들어 오케스트레이션된 캠페인에 필요한 관계형 데이터 모델을 정의합니다. 각 스키마에는 기본 키, 버전 관리 특성 및 **수신자** 또는 **브랜드**&#x200B;와 같은 참조 엔터티에 대한 적절한 관계가 포함되어야 합니다.
+**충성도 멤버십**, **충성도 트랜잭션** 및 **충성도 보상**&#x200B;과 같은 스키마를 만들어 오케스트레이션된 캠페인에 필요한 모델 기반 데이터 모델을 정의하세요. 각 스키마에는 기본 키, 버전 관리 특성 및 **수신자** 또는 **브랜드**&#x200B;와 같은 참조 엔터티에 대한 적절한 관계가 포함되어야 합니다.
 
 스키마를 인터페이스를 통해 수동으로 생성하거나 DDL 파일을 사용하여 일괄로 가져올 수 있습니다.
 
-이 섹션에서는 DDL(데이터 정의 언어) 파일을 업로드하여 Adobe Experience Platform 내에서 관계형 스키마를 생성하는 방법에 대한 단계별 지침을 제공합니다. DDL 파일을 사용하면 테이블, 속성, 키 및 관계를 포함하여 데이터 모델의 구조를 미리 정의할 수 있습니다.
+이 섹션에서는 DDL(데이터 정의 언어) 파일을 업로드하여 Adobe Experience Platform 내에서 모델 기반 스키마를 생성하는 방법에 대한 단계별 지침을 제공합니다. DDL 파일을 사용하면 테이블, 속성, 키 및 관계를 포함하여 데이터 모델의 구조를 미리 정의할 수 있습니다.
 
-1. [DDL 파일을 업로드](#ddl-upload)하여 관계형 스키마를 만들고 구조를 정의합니다.
+1. [DDL 파일을 업로드](#ddl-upload)하여 모델 기반 스키마를 만들고 구조를 정의합니다.
 
 1. 데이터 모델의 테이블 간 [관계를 정의](#relationships)합니다.
 
-1. [스키마를 연결](#link-schema)하여 받는 사람 또는 브랜드와 같은 기존 프로필 엔터티와 관계형 데이터를 연결합니다.
+1. [스키마 연결](#link-schema) - 모델 기반 데이터를 수신자 또는 브랜드와 같은 기존 프로필 엔터티와 연결합니다.
 
-1. [지원되는 소스에서 데이터 집합에 데이터 수집](ingest-data.md).
+1. 지원되는 소스에서 데이터 세트로 [데이터를 수집](ingest-data.md)합니다.
 
 ## DDL 파일 업로드{#ddl-upload}
 
@@ -35,7 +35,7 @@ DDL 파일을 업로드하여 테이블, 속성, 키, 관계 등 데이터 모�
 
 Excel 기반 스키마 파일 업로드가 지원됩니다. 스키마 정의를 쉽게 준비하려면 [제공된 템플릿](assets/template.zip)을 다운로드하십시오.
 
-+++Adobe Experience Platform에서 관계형 스키마를 생성할 때 지원되는 기능은 다음과 같습니다
++++Adobe Experience Platform에서 모델 기반 스키마를 생성할 때 다음 기능이 지원됩니다
 
 * **열거형**\
   ENUM 필드는 DDL 기반 및 수동 스키마 생성 모두에서 지원되므로 고정된 허용된 값 집합으로 속성을 정의할 수 있습니다.
@@ -57,7 +57,7 @@ Excel 기반 스키마 파일 업로드가 지원됩니다. 스키마 정의를 
   액세스 제어 및 사용 제한과 같은 데이터 거버넌스 정책을 적용하기 위해 스키마 필드 수준에서 레이블 지정이 지원됩니다. 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR)를 참조하세요.
 
 * **합성 키**\
-  관계형 스키마 정의에서 복합 기본 키가 지원되므로 여러 필드를 함께 사용하여 레코드를 고유하게 식별할 수 있습니다.
+  모델 기반 스키마 정의에서 복합 기본 키가 지원되므로 여러 필드를 함께 사용하여 레코드를 고유하게 식별할 수 있습니다.
 
 +++
 
@@ -67,7 +67,7 @@ Excel 기반 스키마 파일 업로드가 지원됩니다. 스키마 정의를 
 
 1. **스키마 만들기**&#x200B;를 클릭합니다.
 
-1. **[!UICONTROL 관계형]**&#x200B;을(를) **스키마 형식**(으)로 선택합니다.
+1. **[!UICONTROL 모델 기반]**&#x200B;을(를) **스키마 형식**(으)로 선택합니다.
 
    ![](assets/admin_schema_1.png)
 
@@ -155,7 +155,7 @@ Excel 기반 스키마 파일 업로드가 지원됩니다. 스키마 정의를 
 
 1. **[!UICONTROL 작업 열기]**&#x200B;를 클릭하여 생성 작업의 진행 상황을 모니터링합니다. 이 프로세스는 DDL 파일에 정의된 테이블 수에 따라 몇 분 정도 걸릴 수 있습니다.
 
-   **[!UICONTROL DDL 파일 업로드]** 창을 열고 **[!UICONTROL 모든 관계형 작업 보기]**&#x200B;를 선택하여 관계형 작업에 액세스할 수도 있습니다.
+   **[!UICONTROL DDL 파일 업로드]** 창을 열고 **[!UICONTROL 모든 DDL 가져오기 작업 보기]**&#x200B;를 선택하여 DDL 가져오기 작업에 액세스할 수도 있습니다.
 
    ![](assets/admin_schema_4.png)
 

@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 외부, 소스, 데이터, 구성, 연결, 서드파티
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 92247adabc56f369c9b11cdc519cdc7bf30c99f1
+source-git-commit: 4d979ccc421221993a752dd41bc22ea3d83e7555
 workflow-type: tm+mt
-source-wordcount: '1677'
-ht-degree: 36%
+source-wordcount: '1647'
+ht-degree: 37%
 
 ---
 
@@ -272,4 +272,4 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 
 >[!CAUTION]
 >
->사용자 지정 작업에 대한 사용자 지정 인증을 구성할 때 중첩된 JSON 개체(예: `bodyParams` 내의 하위 개체)는 현재 **지원되지 않습니다**. 플랫 키-값 쌍만 최종 요청 페이로드에 포함됩니다. 인증 끝점에 중첩된 오브젝트가 필요한 경우 필드가 누락되고 인증 오류가 발생할 수 있습니다.
+>사용자 지정 작업에 대한 사용자 지정 인증을 구성할 때 중첩된 JSON 개체(예: `bodyParams` 내의 하위 개체)는 **지원됨**&#x200B;입니다.

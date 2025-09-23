@@ -8,26 +8,15 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 내용, 실험, 복수, 대상자, 처리
-hide: true
-hidefromtoc: true
-source-git-commit: ddeb3512fbe1d1de86456fe2c3ccd2b3805b5684
+exl-id: 001e05db-e343-4a95-9694-274a8c50d08c
+source-git-commit: 61ae9196f699c3b6aa1d9a5bb2259d36aaebc0e3
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '742'
 ht-degree: 2%
 
 ---
 
 # Journey Optimizer Experimentation Accelerator 우수 사례 {#content-experiment-best-practices}
-
->[!BEGINSHADEBOX]
-
-* [Journey Optimizer Experimentation Accelerator 시작](experiment-accelerator.md)
-* **[Journey Optimizer Experimentation Accelerator 모범 사례](experiment-accelerator-best-practices.md)**
-* [Journey Optimizer Experimentation Accelerator의 개인 정보, 보안 및 거버넌스](experiment-accelerator-security.md)
-* [실험 모니터링](experiment-accelerator-monitor.md)
-* [실험 지표](experiment-accelerator-metrics.md)
-
->[!ENDSHADEBOX]
 
 ## A/B 테스트란 무엇입니까?
 
@@ -98,11 +87,11 @@ A/B 테스트는 정의된 목표에 대해 성과가 더 좋은 항목을 결�
 좋은 실험은 단지 승리를 만들어내는 것이 아니라, 분명하고 실행 가능한 학습을 만들어낸다.
 찾을 내용은 다음과 같습니다.
 
-&check; **통계적 신뢰도**: 변형 간의 차이는 우연한 기회에 의한 것일 가능성이 없습니다.
-&check; **목표와 정렬**: 기본 지표는 비즈니스 목표에 대한 의미 있는 진행률을 반영합니다.
-&check; **2차 영향**: 관련 지표에 심각한 부정적인 부작용이 없습니다.
-&check; **확장성**: 이 결과는 향후 의사 결정에 영향을 주거나 다른 영역으로 일반화될 수 있습니다.
-&check; **명확성**: 결과의 원인은 합리적으로 격리되고 이해됩니다.
+&amp;check; **통계적 신뢰도**: 변형 간의 차이는 우연한 기회에 의한 것일 가능성이 없습니다.
+&amp;check; **목표와 정렬**: 기본 지표는 비즈니스 목표에 대한 의미 있는 진행률을 반영합니다.
+&amp;check; **2차 영향**: 관련 지표에 심각한 부정적인 부작용이 없습니다.
+&amp;check; **확장성**: 이 결과는 향후 의사 결정에 영향을 주거나 다른 영역으로 일반화될 수 있습니다.
+&amp;check; **명확성**: 결과의 원인은 합리적으로 격리되고 이해됩니다.
 
 실험은 단지 &quot;최상의&quot; 버전을 찾는 것이 아니라, 테스트와 반복을 통해 지식을 쌓는 것입니다. 잘 수행되면 실험은 더 현명한 의사 결정, 더 나은 사용자 경험 및 향상된 결과를 도출하는 통찰력을 보여줍니다.
 

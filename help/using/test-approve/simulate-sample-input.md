@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8462c75e-4f4b-4c4f-8734-19efbbc70c7a
-source-git-commit: 03b22446ee06b5a6c20145c4b9abed95ac24e8bb
+source-git-commit: de1a8f0136dad476b1bd0e2cb3468da9271e66d0
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '956'
 ht-degree: 4%
 
 ---
@@ -34,7 +34,10 @@ ht-degree: 4%
 
 샘플 입력 데이터를 사용하여 콘텐츠 테스트를 시작하기 전에 다음 보호 기능 및 사전 요구 사항을 고려하십시오.
 
-* **채널** - 콘텐츠 변형 시뮬레이션은 전자 메일, SMS 및 푸시 알림 채널에서만 사용할 수 있습니다.
+* **채널** - 콘텐츠 변형 시뮬레이션을 사용할 수 있는 대상:
+
+   * 이메일, SMS 및 푸시 알림 채널
+   * 모든 인바운드 채널(웹, 코드 기반 경험, 인앱, 콘텐츠 카드).
 
 * **지원되는 기능** - 콘텐츠 변형을 [!DNL Journey Optimizer] 다국어 콘텐츠 및 콘텐츠 실험 기능과 함께 사용할 수 있습니다. 이를 통해 여러 언어로 메시지를 테스트하고 실험을 통해 콘텐츠를 최적화할 수 있습니다.
 

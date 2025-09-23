@@ -8,9 +8,9 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: c517e7faa027b5c1fe3b130f45fc7bf5020c454a
+source-git-commit: 11b2141db8d0e6dd44987d5f7941430fbe3e48f8
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '601'
 ht-degree: 10%
 
 ---
@@ -77,11 +77,11 @@ journeyStepEvent의 경우 ID와 관련된 필드도 추가해야 합니다.
 이 카테고리에는 원래 단계 이벤트 필드가 포함되어 있습니다. 이 [섹션](../reports/sharing-legacy-fields.md)을 참조하십시오.
 
 
-## 여정_step_events에서 삭제된 이벤트 유형 문제 해결  {#discarded-events}
+## 여정 단계 이벤트에서 삭제된 이벤트 유형 문제 해결  {#discarded-events}
 
-`eventCode = 'discard'`이(가) 있는 레코드에 대해 여정_step_events를 쿼리할 때 여러 eventTypes가 발생할 수 있습니다.
+`eventCode = 'discard'`이(가) 있는 레코드에 대해 여정 단계 이벤트를 쿼리하는 경우 여러 eventTypes가 발생할 수 있습니다.
 
-다음은 가장 빈번한 discard eventTypes에 대한 정의, 일반적인 원인 및 문제 해결 단계입니다.
+다음은 가장 자주 삭제되는 `eventTypes`에 대한 정의, 일반적인 원인 및 문제 해결 단계입니다.
 
 * EXTERNAL_KEY_COMPUTATION_ERROR: 시스템이 이벤트 데이터에서 고객에 대한 고유 식별자(외부 키)를 계산할 수 없습니다.
 일반적인 원인: 이벤트 페이로드에서 고객 식별자(예: 이메일, 고객 ID)가 누락되었거나 잘못되었습니다.

@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 내용, 실험, 복수, 대상자, 처리
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 348a1c0bfaca1abe7fd5705b36879af30da18e54
+source-git-commit: 397fad9c95e0c11c0496ab5c9adfb6f8169de4f6
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 9%
+source-wordcount: '1846'
+ht-degree: 6%
 
 ---
 
@@ -68,7 +68,21 @@ Journey Optimizer 컨텐츠 실험 을 사용하면 타겟 대상자에게 가�
 >title="성공 지표"
 >abstract="성공 지표는 실험에서 가장 효과적인 처리를 추적하고 평가하는 데 사용됩니다. 성공 지표를 사용하기 전에 데이터 세트를 특정 지표에 맞게 설정해야 합니다."
 
-1. 메시지가 개인화되면 캠페인 요약 페이지에서 **[!UICONTROL 실험 만들기]**&#x200B;를 클릭하여 콘텐츠 실험 구성을 시작합니다.
+콘텐츠 실험의 경우 세 가지 실험 유형 중에서 선택할 수 있습니다.
+
+* **[!UICONTROL A/B 실험]**: 테스트 시작 시 처리 간 트래픽 분할을 정의합니다. 선택한 기본 지표인 Experimentation Accelerator을 기반으로 성능을 평가한 다음, 처리 간 관찰된 상승도를 보고합니다.
+
+* **[!UICONTROL Multi-armed bandit]**: 처리 간 트래픽 분할이 자동으로 처리됩니다. 7일마다 기본 지표의 성능을 검토하고 그에 따라 가중치를 조정합니다. Experimentation Accelerator에서의 보고는 A/B 테스트로서 상승도를 계속 표시합니다.
+
+* **[!UICONTROL 자체 Multi-armed bandit 가져오기]**: 처리 간 트래픽 분할이 자동으로 처리됩니다. 실험 API를 사용하여 할당을 실시간으로 조정하여 변경 시기와 방법을 유연하게 결정할 수 있습니다.
+
+➡️ [A/B와 Multi-armed bandit 실험의 차이점에 대해 자세히 알아보기](mab-vs-ab.md)
+
+>[!BEGINTABS]
+
+>[!TAB A/B 실험]
+
+1. 메시지가 개인화되면 **[!UICONTROL 작업]** 탭에서 **[!UICONTROL 실험 만들기]**&#x200B;를 클릭하여 콘텐츠 실험 구성을 시작합니다.
 
    ![](assets/content_experiment_3.png)
 
@@ -78,9 +92,11 @@ Journey Optimizer 컨텐츠 실험 을 사용하면 타겟 대상자에게 가�
 
    ![](assets/content_experiment_11.png)
 
-1. 인앱 또는 웹 채널을 사용하여 실험을 설정하고 **[!UICONTROL 인바운드 클릭수]**, **[!UICONTROL 고유 인바운드 클릭수]**, **[!UICONTROL 페이지 보기 수]** 또는 **[!UICONTROL 고유 페이지 보기 수 지표]**&#x200B;를 선택할 때 **[!UICONTROL 클릭 동작]** 드롭다운을 사용하면 특정 페이지에서 클릭수 및 보기를 정확하게 추적하고 모니터링할 수 있습니다.
+1. 인앱 또는 웹 채널을 사용하여 실험을 설정하고 **[!UICONTROL 인바운드 클릭수]**, **[!UICONTROL 고유 인바운드 클릭수]**, **[!UICONTROL 페이지 보기 수]** 또는 **[!UICONTROL 고유 페이지 보기 수 지표]** 를 선택할 때 **[!UICONTROL 차원]** 필드를 사용하여 특정 페이지에서 클릭수 및 보기를 정확하게 추적하고 모니터링할 수 있습니다.
 
    ![](assets/content_experiment_20.png)
+
+1. API 트리거 캠페인을 만든 경우 **[!UICONTROL 실험 유형]** 드롭다운에서 **[!UICONTROL A/B 실험]**&#x200B;을(를) 선택합니다.
 
 1. **[!UICONTROL 치료 추가]**&#x200B;를 클릭하여 필요한 수만큼 새 치료를 만듭니다.
 
@@ -104,7 +120,89 @@ Journey Optimizer 컨텐츠 실험 을 사용하면 타겟 대상자에게 가�
 
 1. 자동 크기 조정 실험을 활성화하여 실험의 가장 성과가 좋은 변형을 자동으로 롤아웃합니다. [우승자를 평가하는 방법에 대해 자세히 알아보기](#scale-winner)
 
+   ![](assets/content_experiment_14.png)
+
 1. 구성이 설정되면 **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
+
+>[!TAB Multi-armed bandit]
+
+Multi-armed bandit 실험은 다음에서만 사용할 수 있습니다.
+
+* 인바운드 채널
+* 단일 여정
+* API 트리거 캠페인(트랜잭션 및 운영 모두)
+* 일정이 다시 발생하는 경우 아웃바운드 채널
+
+1. 메시지가 개인화되면 **[!UICONTROL 작업]** 탭에서 **[!UICONTROL 실험 만들기]**&#x200B;를 클릭하여 콘텐츠 실험 구성을 시작합니다.
+
+   ![](assets/content_experiment_3.png)
+
+1. 실험에 대해 설정할 **[!UICONTROL 성공 지표]**&#x200B;를 선택하십시오.
+
+   이 예제에서는 **[!UICONTROL 이메일 열기]**&#x200B;를 선택하여 프로모션 코드가 제목 줄에 있는 경우 프로필이 이메일을 열는지 테스트합니다.
+
+   ![](assets/content_experiment_11.png)
+
+1. API 트리거 캠페인을 만든 경우 **[!UICONTROL 실험 유형]** 드롭다운에서 **[!UICONTROL Multi-armed bandit]**&#x200B;을(를) 선택합니다.
+
+   ![](assets/content-experiment-mab-1.png)
+
+1. **[!UICONTROL 치료 추가]**&#x200B;를 클릭하여 필요한 수만큼 새 치료를 만듭니다.
+
+   ![](assets/content-experiment-mab-2.png)
+
+1. 구분을 더 잘 하려면 치료의 **[!UICONTROL 제목]**&#x200B;을 변경하십시오.
+
+1. **[!UICONTROL 보류 중]** 그룹을 게재에 추가하도록 선택하십시오. 이 그룹은 이 캠페인으로부터 어떤 콘텐트도 받지 않습니다.
+
+   토글 막대를 켜면 인구의 10%가 자동으로 사용됩니다. 필요한 경우 이 비율을 조정할 수 있습니다.
+
+   >[!IMPORTANT]
+   >
+   >홀드아웃 그룹을 콘텐츠 실험을 위한 작업에 사용하는 경우 홀드아웃 할당은 해당 특정 작업에만 적용됩니다. 작업이 완료되면 홀드아웃 그룹의 프로필은 여정 경로를 계속 사용하며 다른 작업에서 메시지를 받을 수 있습니다. 따라서 후속 메시지가 홀드아웃 그룹에 있을 수 있는 프로필의 메시지 수신에 의존하지 않도록 하십시오. 보류 중인 할당을 제거해야 할 수도 있습니다.
+
+   ![](assets/content-experiment-mab-3.png)
+
+>[!TAB Multi-armed bandit 가져오기]
+
+Bring your own Multi-armed bandit 실험은 다음에서만 사용할 수 있습니다.
+
+* 인바운드 채널
+* 단일 여정
+* API 트리거 캠페인(트랜잭션 및 운영 모두)
+* 일정이 다시 발생하는 경우 아웃바운드 채널
+
+1. 메시지가 개인화되면 **[!UICONTROL 작업]** 탭에서 **[!UICONTROL 실험 만들기]**&#x200B;를 클릭하여 콘텐츠 실험 구성을 시작합니다.
+
+   ![](assets/content_experiment_3.png)
+
+1. 실험에 대해 설정할 **[!UICONTROL 성공 지표]**&#x200B;를 선택하십시오.
+
+   이 예제에서는 **[!UICONTROL 이메일 열기]**&#x200B;를 선택하여 프로모션 코드가 제목 줄에 있는 경우 프로필이 이메일을 열는지 테스트합니다.
+
+   ![](assets/content_experiment_11.png)
+
+1. API 트리거 캠페인을 만든 경우 **[!UICONTROL 실험 유형]** 드롭다운에서 **[!UICONTROL Multi-armed bandit 가져오기]**&#x200B;를 선택합니다.
+
+   ![](assets/content-experiment-mab-4.png)
+
+1. **[!UICONTROL 치료 추가]**&#x200B;를 클릭하여 필요한 수만큼 새 치료를 만듭니다.
+
+   ![](assets/content-experiment-mab-5.png)
+
+1. 구분을 더 잘 하려면 치료의 **[!UICONTROL 제목]**&#x200B;을 변경하십시오.
+
+1. **[!UICONTROL 보류 중]** 그룹을 게재에 추가하도록 선택하십시오. 이 그룹은 이 캠페인으로부터 어떤 콘텐트도 받지 않습니다.
+
+   토글 막대를 켜면 인구의 10%가 자동으로 사용됩니다. 필요한 경우 이 비율을 조정할 수 있습니다.
+
+   >[!IMPORTANT]
+   >
+   >홀드아웃 그룹을 콘텐츠 실험을 위한 작업에 사용하는 경우 홀드아웃 할당은 해당 특정 작업에만 적용됩니다. 작업이 완료되면 홀드아웃 그룹의 프로필은 여정 경로를 계속 사용하며 다른 작업에서 메시지를 받을 수 있습니다. 따라서 후속 메시지가 홀드아웃 그룹에 있을 수 있는 프로필의 메시지 수신에 의존하지 않도록 하십시오. 보류 중인 할당을 제거해야 할 수도 있습니다.
+
+   ![](assets/content-experiment-mab-6.png)
+
+>[!ENDTABS]
 
 ## 트리트먼트 디자인 {#treatment-experiment}
 
@@ -147,7 +245,6 @@ Journey Optimizer 컨텐츠 실험 을 사용하면 타겟 대상자에게 가�
 
 * **수동 크기 조정**: 수동으로 실험 결과를 검토하고 가장 성과가 좋은 치료의 롤아웃을 시작하여 시기와 결정에 대한 모든 권한을 유지합니다.
 
-
 ### 자동 확장 {#autoscaling}
 
 자동 크기 조절을 사용하면 실험 결과에 따라 채택 처리 또는 대체 처리 롤아웃 시기에 대한 사전 정의된 규칙을 설정할 수 있습니다.
@@ -167,9 +264,9 @@ Journey Optimizer 컨텐츠 실험 을 사용하면 타겟 대상자에게 가�
    * 우승자를 찾는 즉시.
    * 선택한 시간 동안 실험이 라이브 상태가 됩니다.
 
-     자동 크기 조정 시간은 실험 종료일 전에 예약해야 합니다. 종료 날짜 이후 시간으로 설정하면 유효성 검사 경고가 표시되고 캠페인이나 여정이 게시되지 않습니다.
+자동 크기 조정 시간은 실험 종료일 전에 예약해야 합니다. 종료 날짜 이후 시간으로 설정하면 유효성 검사 경고가 표시되고 캠페인이나 여정이 게시되지 않습니다.
 
-   ![](assets/scale-winner-2.png)
+    ![](assets/scale-winner-2.png)
 
 1. 배율 시간별 우승자를 찾을 수 없는 경우 대체 동작을 선택하십시오.
 

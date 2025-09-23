@@ -8,26 +8,15 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 내용, 실험, 복수, 대상자, 처리
-hide: true
-hidefromtoc: true
-source-git-commit: ddeb3512fbe1d1de86456fe2c3ccd2b3805b5684
+exl-id: 40a57083-d7b1-416b-af87-4b603b83052d
+source-git-commit: 61ae9196f699c3b6aa1d9a5bb2259d36aaebc0e3
 workflow-type: tm+mt
-source-wordcount: '1122'
+source-wordcount: '1095'
 ht-degree: 1%
 
 ---
 
 # 실험 추적 {#monitor}
-
->[!BEGINSHADEBOX]
-
-* [Journey Optimizer Experimentation Accelerator 시작](experiment-accelerator.md)
-* [Journey Optimizer Experimentation Accelerator을 사용한 AI의 데이터 사용](experiment-accelerator-security.md)
-* [Journey Optimizer Experimentation Accelerator 우수 사례](experiment-accelerator-best-practices.md)
-* **[실험 모니터링](experiment-accelerator-monitor.md)**
-* [실험 지표](experiment-accelerator-metrics.md)
-
->[!ENDSHADEBOX]
 
 **[!UICONTROL 실험]** 탭은 Adobe Journey Optimizer 및 Adobe Target의 테스트 추적 및 분석을 중앙 집중화합니다. 모든 실험을 보고, KPI를 검토하고, 특정 테스트를 찾기 위해 필터링하거나 검색할 수 있습니다.
 
@@ -158,7 +147,7 @@ KPI 섹션은 생성된 총 실험 수와 현재 진행 중인 횟수를 포함�
 
    **[!DNL Adobe Target]**&#x200B;에서 시작된 실험의 경우 제안된 변경 내용이 대신 **[!DNL Adobe Target]**&#x200B;의 실험 워크플로에 로드됩니다.
 
-   ➡️ [Adobe Target 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/target/using/activities/abtest/test-ab)
+   ➡️ [Adobe Target 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/en/docs/target/using/activities/abtest/test-ab)
 
 1. 실험 보기 내에서 Journey Optimizer Experimentation Accelerator이 표면화한 동일한 AI **[!UICONTROL 실험 기회]**&#x200B;에 액세스할 수 있습니다.
 

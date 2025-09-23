@@ -8,26 +8,15 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 내용, 실험, 복수, 대상자, 처리
-hide: true
-hidefromtoc: true
-source-git-commit: 11c62deaf90b961233a35b9c4be8b81264b4c8e7
+exl-id: 938b148e-b2cd-4d8b-9f73-dd62420d6184
+source-git-commit: 61ae9196f699c3b6aa1d9a5bb2259d36aaebc0e3
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 14%
+source-wordcount: '464'
+ht-degree: 15%
 
 ---
 
 # Journey Optimizer Experimentation Accelerator 시작 {#content-experiment}
-
->[!BEGINSHADEBOX]
-
-* **[Journey Optimizer Experimentation Accelerator 시작](experiment-accelerator.md)**
-* [Journey Optimizer Experimentation Accelerator을 사용한 AI의 데이터 사용](experiment-accelerator-security.md)
-* [Journey Optimizer Experimentation Accelerator 우수 사례](experiment-accelerator-best-practices.md)
-* [실험 모니터링](experiment-accelerator-monitor.md)
-* [실험 지표](experiment-accelerator-metrics.md)
-
->[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
