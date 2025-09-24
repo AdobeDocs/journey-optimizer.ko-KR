@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c708f33079da6d3e739dcec86870623fad40a69b
+source-git-commit: 4bb9b6d614a434f3906fded06cbcaef14f1cb255
 workflow-type: tm+mt
-source-wordcount: '1806'
+source-wordcount: '1798'
 ht-degree: 44%
 
 ---
@@ -276,7 +276,7 @@ ht-degree: 44%
 <p>특정 데이터 세트를 기반으로 필요에 맞는 사용자 정의 양식을 만들고 디자인하고 관리합니다. 그런 다음 랜딩 페이지에서 이 양식을 활용하여 선택한 프로필 속성을 각 양식별로 정의한 데이터 세트에 추가할 수 있습니다.</p>
 <p>이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.</p>
 <p><img src="assets/do-not-localize/forms.gif"/></p>
-<p>자세한 내용은 <a href="../landing-pages/lp-forms.md">세부 설명서</a>를 참조하십시오.</p>
+<!--p>For more information, refer to the <a href="../landing-pages/lp-forms.md">detailed documentation</a></p-->
 </td>
 </tr>
 </tbody>
@@ -310,11 +310,15 @@ ht-degree: 44%
 * **새 여정 알림**\
   여정에 대해 사전 구성된 새 경고를 사용할 수 있습니다.
 
-   * [프로필 삭제 비율 초과](../reports/alerts.md#profile-discard-rate-exceeded): 지난 5분 동안 입력한 프로필에 대한 프로필 삭제 비율이 임계값을 초과했습니다.
-   * [사용자 지정 작업 오류율 초과](../reports/alerts.md#custom-action-error-rate-exceeded): 지난 5분 동안 임계값이 초과된 성공적인 HTTP 호출에 대한 사용자 지정 작업 오류의 비율입니다.
-   * [프로필 오류율 초과](../reports/alerts.md#profile-error-rate-exceeded): 지난 5분 동안 입력한 프로필에 대한 오류가 있는 프로필의 비율이 임계값을 초과했습니다.
+   * 프로필 폐기 비율 초과: 지난 5분 동안 임계값을 초과한 입력된 프로필에 대한 프로필 폐기 비율입니다.
+   * 사용자 지정 작업 오류율 초과: 지난 5분 동안 임계값보다 높은 성공적인 HTTP 호출에 대한 사용자 지정 작업 오류의 비율입니다.
+   * 프로필 오류율 초과: 지난 5분 동안 입력한 프로필 대비 오류가 발생한 프로필 비율이 임계값을 초과했습니다.
+<!--
+  * [Profile Discard Rate Exceeded](../reports/alerts.md#profile-discard-rate-exceeded): Ratio of profile discards to entered profiles over the last 5 mins exceeded threshold.  
+  * [Custom Action Error Rate Exceeded](../reports/alerts.md#custom-action-error-rate-exceeded): Ratio of custom action errors to successful HTTP calls over the last 5 mins exceeded threshold.  
+  * [Profile Error Rate Exceeded](../reports/alerts.md#profile-error-rate-exceeded): Ratio of profiles-in-error to entered profiles over the last 5 mins exceeded threshold.-->
 
-  임계값을 수정하고 개별 여정 수준 경고를 전역으로 구독할 수 있습니다.
+임계값을 수정하고 개별 여정 수준 경고를 전역으로 구독할 수 있습니다.
 
 
 * **한 번의 클릭으로 구독 취소 URL을 지원하는 사용자 지정 특성**\
