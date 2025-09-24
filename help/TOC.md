@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
+source-git-commit: bc779f732b865d5c178141f0b660d5c75f95a237
 workflow-type: tm+mt
-source-wordcount: '2956'
+source-wordcount: '2953'
 ht-degree: 99%
 
 ---
@@ -912,7 +912,6 @@ ht-degree: 99%
    + [시드 목록 사용](using/configuration/seed-lists.md)
    + [아카이브 지원](using/configuration/archiving-support.md)
    + [실행 주소 변경](using/configuration/primary-email-addresses.md)
-   + [비즈니스 규칙 구성](using/configuration/frequency-rules.md)
 + 여정 구성 {#configure-journeys}
    + [여정 구성](/help/rp_landing_pages/configure-journeys-landing-page.md)
    + [여정 구성 시작](using/configuration/about-data-sources-events-actions.md)
