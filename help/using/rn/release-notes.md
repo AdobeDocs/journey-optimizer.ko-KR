@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
+source-git-commit: 10fb1975aa5dcab1ad7f39815fcc5dd5ef0c187d
 workflow-type: tm+mt
-source-wordcount: '1088'
-ht-degree: 57%
+source-wordcount: '1151'
+ht-degree: 55%
 
 ---
 
@@ -90,20 +90,7 @@ ht-degree: 57%
 </tbody>
 </table>-->
 
-<!--table>
-<thead>
-<tr>
-<th><strong>Journey Agent is here!</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Powered by Adobe Experience Platform Agent Orchestrator, Journey Agent is available in Journey Optimizer. It enables you to analyze journeys through a natural language interface. The agent will detect audience or schedule conflicts and profile drop-offs in a journey to help you take steps to resolve them. Soon, you will be able to create journeys with agentic support.</p>
-</td>
-</tr>
-</tbody>
-</table-->
+
 
 <table>
 <thead>
@@ -172,6 +159,22 @@ ht-degree: 57%
 <table>
 <thead>
 <tr>
+<th><strong>Journey Agent이 왔습니다!</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>에서 제공하는 Journey Agent은 Journey Optimizer에서 사용할 수 있습니다. 자연어 인터페이스를 통해 여정을 분석할 수 있도록 합니다. 에이전트는 여정에서 대상 또는 일정 충돌 및 프로필 드롭오프를 감지하여 이를 해결하기 위한 단계를 수행합니다. 곧, 당신은 무의미한 지원을 통해 여정을 만들 수 있을 것이다.</p>
+<!--p>For more information, refer to the <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">detailed documentation</a></p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>이메일 디자이너의 다크 모드</strong><br/></th>
 </tr>
 </thead>
@@ -234,7 +237,7 @@ ht-degree: 57%
 <table>
 <thead>
 <tr>
-<th><strong>개인화 및 의사 결정에 Adobe Experience Platform 데이터 사용</strong><br/></th>
+<th><strong>개인화 및 결정을 위해 Adobe Experience Platform 데이터 사용</strong><br/></th>
 </tr>
 </thead>
 <tbody>
