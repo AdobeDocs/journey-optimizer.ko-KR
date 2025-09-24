@@ -12,9 +12,9 @@ badge: label="제한된 가용성" type="Informative"
 hidefromtoc: true
 hide: true
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: 7cbc4c7964d3fe9b79cbbff3917216f624286dba
+source-git-commit: 58c9fb91bac95e343ddaee93eca24181b80c3894
 workflow-type: tm+mt
-source-wordcount: '1520'
+source-wordcount: '1575'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 2%
 >id="ajo_lp_form_connection"
 >title="사용할 엔드포인트 선택"
 >abstract="양식 제출 시 데이터가 전송되는 스트리밍 끝점을 정의합니다."
->additional-url="https://experienceleague.adobe.com/ko/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="HTTP API 스트리밍 연결 만들기"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="HTTP API 스트리밍 연결 만들기"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
@@ -69,7 +69,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >[Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}에서 스트리밍 소스 연결을 만드는 방법에 대해 자세히 알아보세요.
+   >[Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}에서 스트리밍 소스 연결을 만드는 방법에 대해 자세히 알아보세요.
 
 1. 양식에 연결할 **[!UICONTROL 데이터 집합]**&#x200B;을(를) 선택하십시오. 여기에서 양식 응답이 저장되고 반영됩니다. 특정 데이터 세트를 검색하도록 입력하거나 목록에서 선택할 수 있습니다.
 
@@ -93,7 +93,7 @@ ht-degree: 2%
 >id="ajo_lp_form_preset"
 >title="사전 설정 선택"
 >abstract="사용할 연결 및 양식에 대한 사전 정의된 데이터 세트가 포함된 사전 정의된 사전 설정을 선택합니다."
->additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="양식 사전 설정 만들기"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="양식 사전 설정 만들기"
 
 양식을 만들려면 아래 단계를 수행합니다.
 
@@ -107,39 +107,57 @@ ht-degree: 2%
 
 1. Click **[!UICONTROL Create]**. 양식 디자이너가 열리고 구조체 및 콘텐츠 [구성 요소](../email/content-components.md#add-content-components)를 추가하여 콘텐츠를 작성할 수 있습니다. [텍스트](../email/content-components.md#text) 및 **[!UICONTROL 필드]** 구성 요소를 사용할 수 있습니다.
 
-1. 양식에 특정 필드를 추가하려면 구조를 캔버스에 끌어다 놓고 내부에 **[!UICONTROL 필드]** 구성 요소를 끌어옵니다.<!--**[!UICONTROL Select field attribute]** or **[!UICONTROL Add custom field]**.-->
+1. 프로필 데이터 및 속성을 캡처하려면 양식에 특정 필드를 추가합니다. [자세히 알아보기](#define-fields)
 
-   ![](assets/lp_create-form-field.png)
+1. 이러한 필드를 구성하고 디자인합니다. [자세히 알아보기](#configure-fields)
 
-   그런 다음 다음 옵션 중 하나를 선택합니다.
+1. **[!UICONTROL 스타일]** 창을 사용하여 필요에 따라 양식의 레이아웃, 스타일 및 차원을 조정할 수 있습니다. [스타일에 대해 자세히 알아보기](../email/get-started-email-style.md)
 
-   >[!BEGINTABS]
+1. 모든 필드를 구성했으면 **[!UICONTROL 저장 및 닫기]**&#x200B;를 클릭합니다.
 
-   >[!TAB 필드 특성 선택]
+1. 감사 인사 페이지를 구성합니다. [방법 알아보기](#thank-you-page)
 
-   이 옵션을 사용하여 양식에 연결된 데이터 세트 스키마를 기반으로 속성을 선택합니다.
+1. 양식을 **[!UICONTROL 게시]**&#x200B;하여 랜딩 페이지에서 선택할 수 있도록 합니다.
 
-   >[!NOTE]
-   >
-   >데이터 세트는 양식에 대해 선택한 사전 설정에 정의됩니다. [자세히 알아보기](#create-form-preset)
+### 특정 필드 정의 {#define-fields}
 
-   ![](assets/lp_select-field-attribute.png){width=100%}
+양식에 특정 필드를 추가하려면 구조를 캔버스에 끌어다 놓고 내부에 **[!UICONTROL 필드]** 구성 요소를 끌어옵니다.<!--**[!UICONTROL Select field attribute]** or **[!UICONTROL Add custom field]**.-->
 
-   예를 들어 이메일 및 개인 ID를 설정할 수 있습니다. 사용자가 이러한 필드를 채우면 입력한 정보가 선택한 데이터 세트에 저장됩니다.
+![](assets/lp_create-form-field.png)
 
-   ![](assets/lp_create-form-field-attributes.png){width=55%}
+그런 다음 다음 옵션 중 하나를 선택합니다.
 
-   수집된 데이터를 프로필에 매핑하려면 프로필 ID 필드를 선택합니다. ID 필드가 특성 목록에서 **[!UICONTROL 필수]**(으)로 표시되어 있습니다. 필터링할 수 있습니다.
+>[!BEGINTABS]
 
-   ![](assets/lp_create-form-required-attributes.png){width=65%}
+>[!TAB 필드 특성 선택]
 
-   >[!TAB 사용자 지정 필드 추가]
+이 옵션을 사용하여 양식에 연결된 데이터 세트 스키마를 기반으로 속성을 선택합니다.
 
-   이 옵션을 사용하면 연결된 데이터 세트의 필드에 매핑하지 않고 자유 필드를 정의할 수 있습니다.
+>[!NOTE]
+>
+>데이터 세트는 양식에 대해 선택한 사전 설정에 정의됩니다. [자세히 알아보기](#create-form-preset)
 
-   ![](assets/lp_create-form-custom-field.png){width=85%}
+![](assets/lp_select-field-attribute.png){width=100%}
 
-   >[!ENDTABS]
+예를 들어 이메일 및 개인 ID를 설정할 수 있습니다. 사용자가 이러한 필드를 채우면 입력한 정보가 선택한 데이터 세트에 저장됩니다.
+
+![](assets/lp_create-form-field-attributes.png){width=55%}
+
+수집된 데이터를 프로필에 매핑하려면 프로필 ID 필드를 선택합니다. ID 필드가 특성 목록에서 **[!UICONTROL 필수]**(으)로 표시되어 있습니다. 필터링할 수 있습니다.
+
+![](assets/lp_create-form-required-attributes.png){width=65%}
+
+>[!TAB 사용자 지정 필드 추가]
+
+이 옵션을 사용하면 연결된 데이터 세트의 필드에 매핑하지 않고 자유 필드를 정의할 수 있습니다.
+
+![](assets/lp_create-form-custom-field.png){width=85%}
+
+>[!ENDTABS]
+
+### 필드 구성 및 디자인 {#configure-fields}
+
+필드 속성을 선택하거나 사용자 지정 필드를 추가한 후에는 양식을 제출할 때 세부 정보와 동작을 추가로 조정할 수 있습니다.
 
 1. 오른쪽의 **[!UICONTROL 콘텐츠]** 탭에 있는 **[!UICONTROL 필드 세부 정보]** 섹션에서 필요에 따라 다음 요소를 지정할 수 있습니다.
 
@@ -166,14 +184,6 @@ ht-degree: 2%
    * **[!UICONTROL 입력 마스크 사용]**&#x200B;을 선택하여 사용자의 입력을 일반 문자로 바꿉니다. *9*&#x200B;은(는) 임의의 숫자를 의미하고 *a*&#x200B;은(는) 임의의 문자를 의미하며 *는 임의의 숫자나 문자를 의미합니다.<!--Not sure how you define that in the form-->
 
    ![](assets/lp_create-form-field-behaviors.png){width=75%}
-
-1. **[!UICONTROL 스타일]** 창을 사용하여 필요에 따라 양식의 레이아웃, 스타일 및 차원을 조정할 수 있습니다. [스타일에 대해 자세히 알아보기](../email/get-started-email-style.md)
-
-1. 모든 필드를 구성했으면 **[!UICONTROL 저장 및 닫기]**&#x200B;를 클릭합니다.
-
-1. 감사 인사 페이지를 구성합니다. [방법 알아보기](#thank-you-page)
-
-1. 양식을 **[!UICONTROL 게시]**&#x200B;하여 랜딩 페이지에서 선택할 수 있도록 합니다.
 
 ### 감사 인사 페이지 구성 {#thank-you-page}
 
