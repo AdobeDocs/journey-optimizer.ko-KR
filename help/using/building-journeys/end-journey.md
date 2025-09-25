@@ -9,9 +9,9 @@ level: Intermediate
 keywords: 재입력, 여정, 종료, 라이브, 중지
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 2a5db6950ac82fd18deb2e4009c9a43247444d6a
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '775'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,6 @@ ht-degree: 0%
 
 여정 내 모든 개인의 진행을 중단해야 하는 경우에는 중단할 수 있습니다. 여정 시간 제한을 중지하면 여정에 있는 모든 개인이 제한 시간을 초과합니다. 그러나 여정을 중지하면 이미 여정에 들어간 사람들이 모두 진행 중에 중지됩니다. 여정은 기본적으로 꺼져 있습니다. 여정을 종료하려면 [닫는 것이 좋습니다](#close-journey).
 
-
 예를 들어, 마케터가 여정이 잘못된 대상을 타기팅하거나 메시지를 전달해야 하는 사용자 지정 작업이 제대로 작동하지 않는다는 것을 인식하는 경우 여정을 중지할 수 있습니다. 여정 목록에서 여정을 중지하려면 여정 이름 오른쪽에 있는 **[!UICONTROL 줄임표]** 단추를 클릭하고 **[!UICONTROL 중지]**&#x200B;를 선택합니다.
 
 ![](assets/journey-finish-quick-action.png)
@@ -102,3 +101,7 @@ ht-degree: 0%
 1. **[!UICONTROL 중지]**&#x200B;를 클릭하고 대화 상자에서 확인합니다.
 
 중지되면 여정 상태가 **[!UICONTROL 중지됨]**(으)로 설정됩니다.
+
+>[!CAUTION]
+>
+>**[!DNL Manage journeys]** 높은 수준의 권한을 가진 사용자로 제한된 여정을 중지할 수 있는 권한. [!DNL Journey Optimizer]이 섹션[에서 ](../administration/permissions-overview.md) 사용자의 액세스 권한 관리에 대해 자세히 알아보세요.

@@ -9,9 +9,9 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: 권한, 높은 수준, 낮은 수준, 프로필, admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 2a5db6950ac82fd18deb2e4009c9a43247444d6a
 workflow-type: tm+mt
-source-wordcount: '1301'
+source-wordcount: '1303'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 ## 여정 리소스 {#journey-capability}
 
-* **[!DNL Manage journeys]** 높은 수준의 권한을 통해 사용자는 새 여정을 만들고 기존 여정을 편집/삭제할 수 있을 뿐만 아니라 여정 흐름을 만들기 위해 캔버스에 사용되는 개체에 액세스할 수 있습니다.
+* **[!DNL Manage journeys]** 높은 수준의 권한을 통해 사용자가 새 여정을 만들고 기존 여정을 편집/삭제/중지/일시 중지할 수 있을 뿐만 아니라 여정 흐름을 만들기 위해 캔버스에서 사용되는 개체에 액세스할 수 있습니다.
 
   +++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다.  
 

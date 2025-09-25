@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 badge: label="제한된 가용성" type="Informative"
 exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
-source-git-commit: 5df643d2b0623d40779d155e406467d622d3d753
+source-git-commit: 2a5db6950ac82fd18deb2e4009c9a43247444d6a
 workflow-type: tm+mt
-source-wordcount: '1198'
+source-wordcount: '1202'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 2%
 * 여정에서 콘텐츠를 가져오기 위한 사용자 지정 작업 활동
 * 여정 및 인바운드 캠페인에서 externalDataLookup 도우미에서 인바운드 작업에서 데이터를 가져옵니다.
 
-## 보호 및 제한 사항
+## 가드레일 및 제한 사항
 
 [!DNL Journey Optimizer] 인바운드 채널 캠페인 및 여정의 사용자 지정 #GuardrailsandGuidelines을 참조하십시오.
 
@@ -172,7 +172,7 @@ First video description: <b>result.videos[0].description</b>
 
 ### 시간 초과 및 오류 처리
 
-[!DNL Journey Optimizer]은(는) AEP Edge Network에 대해 대기 시간이 짧고 처리량이 많은 성능 특성을 유지하기 위해 외부 끝점을 호출할 때 엄격한 시간 제한을 사용합니다.
+[!DNL Journey Optimizer]은(는) Adobe Experience Platform Edge Network에 대해 대기 시간이 짧고 처리량이 많은 성능 특성을 유지하기 위해 외부 끝점을 호출할 때 엄격한 시간 제한을 사용합니다.
 
 끝점이 시간 초과되거나 끝점에 도달하는 다른 종류의 오류가 있는 경우 결과 변수는 비어 있습니다. 이 경우 결과 변수 내의 속성에 대한 모든 참조도 비어 있게 됩니다. 콘텐츠에 속성을 단순히 표시하는 경우 공백으로 표시됩니다. 결과에서 배열 특성을 반복하려고 하면 항목이 반환되지 않습니다.
 
@@ -198,7 +198,7 @@ First video description: {%=result.videos[0].description ?: "none found" %}
 
 ### 디버깅
 
-디버깅에 도움이 되도록 외부 데이터 조회에 대한 시간 제한 및 오류 세부 정보가 AEP Assurance의 Edge Delivery 보기에 포함되어 있습니다. 인바운드 작업에서 externalDataLookup 도우미에 대한 예상 결과가 표시되지 않는 경우 Assurance 세션을 시작하고, 웹 또는 모바일 구현에서 [!DNL Journey Optimizer] 호출을 시작하고, Edge Delivery 보기를 사용하여 시간 초과 또는 오류 세부 정보를 확인할 수 있습니다.
+디버깅에 도움이 되도록 외부 데이터 조회에 대한 시간 초과 및 오류 세부 정보가 Adobe Experience Platform Assurance의 Edge Delivery 보기에 포함되어 있습니다. 인바운드 작업에서 externalDataLookup 도우미에 대한 예상 결과가 표시되지 않는 경우 Assurance 세션을 시작하고, 웹 또는 모바일 구현에서 [!DNL Journey Optimizer] 호출을 시작하고, Edge Delivery 보기를 사용하여 시간 초과 또는 오류 세부 정보를 확인할 수 있습니다.
 
 예:
 
