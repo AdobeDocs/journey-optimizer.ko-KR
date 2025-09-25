@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
+source-git-commit: daa4ab45623f3c175cf3ac1e818eb33fff835f1d
 workflow-type: tm+mt
-source-wordcount: '1758'
-ht-degree: 100%
+source-wordcount: '1903'
+ht-degree: 92%
 
 ---
 
@@ -355,3 +355,30 @@ AI 어시스턴트에 액세스하려면 상단 표시줄에 있는 아이콘을
 >id="ajo_journey_business_rules"
 >title="규칙 세트"
 >abstract="규칙 세트"
+
+<!-- WEBHOOKS -->
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_settings"
+>title="Webhook 활성화"
+>abstract="웹후크를 활성화하여 메시지 실행 상태에 대한 실시간 피드백을 받을 수 있습니다. 이 옵션을 활성화하기 전에 **관리** / **채널** / **피드백 웹후크** 메뉴에서 웹후크를 구성했는지 확인하십시오."
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_settings_create"
+>title="피드백 웹후크"
+>abstract="피드백 웹후크를 사용하면 트랜잭션 API 트리거 캠페인을 통해 보낸 메시지의 실행 상태에 대한 실시간 피드백을 받을 수 있습니다. 조직 + 샌드박스 조합당 하나의 웹후크 구성만 허용됩니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_settings_configuration"
+>title="기본 구성"
+>abstract="이 섹션에서 웹후크를 식별하는 수사적 이름을 입력하고 이 웹후크가 피드백을 받을 채널(이메일 및/또는 SMS)을 선택합니다. Webhook URL 필드에서 피드백 이벤트를 전달해야 하는 HTTPS 엔드포인트를 제공합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_settings_authentication"
+>title="인증"
+>abstract="끝점에 JWT 인증이 필요한 경우 목록에서 **JWT 인증**&#x200B;을 선택하고 필요한 세부 정보를 제공합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_settings_header_parameters"
+>title="헤더 매개 변수"
+>abstract="이 섹션에서는 각 웹후크 요청과 함께 전송할 추가 사용자 지정 헤더를 구성할 수 있습니다."
