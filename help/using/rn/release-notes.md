@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 34649ab411823f1aa09d390d23484697e80763c5
+source-git-commit: 83ed772d25cbf3e54c5ab45cff3803cb062cdfd6
 workflow-type: tm+mt
-source-wordcount: '1803'
+source-wordcount: '1812'
 ht-degree: 44%
 
 ---
@@ -28,6 +28,22 @@ ht-degree: 44%
 **릴리스 날짜**: 2025년 9월 23~24일
 
 ### 새로운 기능 {#sept-25-9-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>여정 검색을 위한 공개 API</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 새로운 Journey Optimizer API를 사용하여 캠페인과 표면 등 여정 및 관련 개체를 검색할 수 있습니다.</p>
+<p>자세한 내용은 <a href="https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve/">세부 설명서</a>를 참조하십시오.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -198,21 +214,6 @@ ht-degree: 44%
 ### 준비 중 {#sept-25-9-soon}
 
 다음 며칠 내에 다음 기능 및 개선 사항이 릴리스될 예정입니다. **정보가 변경될 수 있습니다**. 업데이트된 링크, 화면 및 설명서는 프로덕션 상태에 있게 되면 공유됩니다.
-
-<table>
-<thead>
-<tr>
-<th><strong>여정 검색을 위한 공개 API</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 새로운 Journey Optimizer API를 사용하여 캠페인과 표면 등 여정 및 관련 개체를 검색할 수 있습니다.</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
