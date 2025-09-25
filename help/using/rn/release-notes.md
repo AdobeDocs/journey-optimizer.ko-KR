@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 21765901738001a8a702bf15d5d2a9d5d930f774
+source-git-commit: c3700e139451cbd3a33af751d5715750a0e8675e
 workflow-type: tm+mt
-source-wordcount: '1815'
+source-wordcount: '1776'
 ht-degree: 42%
 
 ---
@@ -29,22 +29,22 @@ ht-degree: 42%
 
 ### 새로운 기능 {#sept-25-9-features}
 
-<table>
+<!-- table>
 <thead>
 <tr>
-<th><strong>여정 검색을 위한 공개 API</strong><br/></th>
+<th><strong>Public API to retrieve journeys</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 새로운 Journey Optimizer API를 사용하여 캠페인과 표면 등 여정 및 관련 개체를 검색할 수 있습니다.</p>
-<p>자세한 내용은 <a href="https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve/">세부 설명서</a>를 참조하십시오.</p>
-<p>사용 가능한 날짜: 2025년 9월 25일</p>
+<p>A new Journey Optimizer API is now available to retrieve journeys and their associated objects such as campaigns and surfaces.</p>
+<p>For more information, refer to the <a href="https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve/">detailed documentation</a></p>
+<p>Availability date: Sept 25, 2025</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
@@ -78,8 +78,8 @@ ht-degree: 42%
 <tbody>
 <tr>
 <td>
-<p><a href="https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>에서 제공하는 Journey Agent은 Journey Optimizer에서 사용할 수 있습니다. 자연어 인터페이스를 통해 여정을 분석할 수 있도록 합니다. 에이전트는 여정에서 대상 또는 일정 충돌 및 프로필 드롭오프를 감지하여 이를 해결하기 위한 단계를 수행합니다. 곧, 당신은 무의미한 지원을 통해 여정을 만들 수 있을 것이다.</p>
-<p>자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">세부 설명서</a>를 참조하십시오.</p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>에서 제공하는 Journey Agent은 Journey Optimizer에서 사용할 수 있습니다. 자연어 인터페이스를 통해 여정을 분석할 수 있도록 합니다. 에이전트는 여정에서 대상 또는 일정 충돌 및 프로필 드롭오프를 감지하여 이를 해결하기 위한 단계를 수행합니다. 곧, 당신은 무의미한 지원을 통해 여정을 만들 수 있을 것이다.</p>
+<p>자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2025년 9월 24일</p>
 </td>
 </tr>
