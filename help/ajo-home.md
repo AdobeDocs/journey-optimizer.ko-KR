@@ -5,7 +5,7 @@ title: Adobe Journey Optimizer 설명서
 description: Adobe Journey Optimizer 설명서
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: a73bf80fa61c6ce7c9be054e013e9a59ef3d9ba8
+source-git-commit: 65b994873e2e8202de20876c2c83868f145e2d90
 workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 85%
@@ -16,7 +16,7 @@ ht-degree: 85%
 
 Adobe Journey Optimizer는 팀이 이메일, SMS 등 여러 채널에 걸쳐 개인화된 매끄러운 고객 경험을 디자인하고 제공할 수 있도록 해줍니다. 캠페인 오케스트레이션, 데이터 관리, 의사 결정을 위한 고급 도구를 결합함으로써 고객 요구에 실시간으로 적응하는 여정을 만들 수 있습니다. 이 설명서는 최신 기능 및 통합 탐색에서부터 대상자 관리, 여정 구성, 성능 분석 방법에 대한 학습에 이르기까지 플랫폼 숙달을 위한 로드맵을 제공합니다. 마케터, 데이터 분석가 또는 캠페인 관리자이든, 자신 있게 목표를 달성하는 데 도움이 되는 단계별 안내서, 모범 사례 및 리소스를 찾을 수 있습니다.
 
-## 새로운 기능 {#section-overview}
+## 새로운 기능 {#section-new}
 
 Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보십시오! 기능, 개선 사항, 수정 사항을 종합한 목록은 상세한 [릴리스 정보](../using/rn/release-notes.md)에서 확인할 수 있습니다.
 
@@ -45,11 +45,11 @@ Adobe Journey Optimizer의 Adobe Express 통합을 통해 콘텐츠를 만드는
 >[!ENDTABS]
 
 
-## 탐색 시작
+## 탐색 시작 {#section-explore}
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 최신 릴리스 정보
 
@@ -59,7 +59,7 @@ Adobe Journey Optimizer의 최신 릴리스 정보, 새로운 기능 및 개선 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 시작하기
 
@@ -69,7 +69,7 @@ Adobe Journey Optimizer의 최신 릴리스 정보, 새로운 기능 및 개선 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 여정 종합 안내서
 
@@ -79,7 +79,7 @@ Adobe Journey Optimizer의 최신 릴리스 정보, 새로운 기능 및 개선 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 캠페인 이해 및 관리
 
@@ -89,7 +89,7 @@ Adobe Journey Optimizer의 최신 릴리스 정보, 새로운 기능 및 개선 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 커뮤니케이션 채널
 
@@ -99,7 +99,7 @@ Adobe Journey Optimizer의 최신 릴리스 정보, 새로운 기능 및 개선 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 충돌 관리 및 우선순위 지정
 
