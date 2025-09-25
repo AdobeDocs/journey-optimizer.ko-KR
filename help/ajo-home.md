@@ -5,42 +5,71 @@ title: Adobe Journey Optimizer 설명서
 description: Adobe Journey Optimizer 설명서
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
-source-wordcount: '425'
-ht-degree: 100%
+source-git-commit: a73bf80fa61c6ce7c9be054e013e9a59ef3d9ba8
+workflow-type: tm+mt
+source-wordcount: '560'
+ht-degree: 85%
 
 ---
 
 # Adobe Journey Optimizer 설명서{#section-overview}
 
-Adobe Journey Optimizer는 팀이 이메일, SMS 등 여러 채널에 걸쳐 개인화된 매끄러운 고객 경험을 디자인하고 제공할 수 있도록 해줍니다. 캠페인 오케스트레이션, 데이터 관리, 의사 결정을 위한 고급 도구를 결합함으로써 고객 요구에 실시간으로 적응하는 여정을 만들 수 있습니다. 이 설명서는 최신 기능 및 통합 탐색에서부터 대상자 관리, 여정 구성, 성능 분석 방법에 대한 학습에 이르기까지 플랫폼 숙달을 위한 로드맵을 제공합니다. 마케터이든 데이터 분석가나 캠페인 관리자이든, 자신 있게 목표를 달성하는 데 도움이 되는 단계별 안내서, 모범 사례, 리소스를 찾을 수 있습니다.
+Adobe Journey Optimizer는 팀이 이메일, SMS 등 여러 채널에 걸쳐 개인화된 매끄러운 고객 경험을 디자인하고 제공할 수 있도록 해줍니다. 캠페인 오케스트레이션, 데이터 관리, 의사 결정을 위한 고급 도구를 결합함으로써 고객 요구에 실시간으로 적응하는 여정을 만들 수 있습니다. 이 설명서는 최신 기능 및 통합 탐색에서부터 대상자 관리, 여정 구성, 성능 분석 방법에 대한 학습에 이르기까지 플랫폼 숙달을 위한 로드맵을 제공합니다. 마케터, 데이터 분석가 또는 캠페인 관리자이든, 자신 있게 목표를 달성하는 데 도움이 되는 단계별 안내서, 모범 사례 및 리소스를 찾을 수 있습니다.
+
+## 새로운 기능 {#section-overview}
+
+Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보십시오! 기능, 개선 사항, 수정 사항을 종합한 목록은 상세한 [릴리스 정보](../using/rn/release-notes.md)에서 확인할 수 있습니다.
+
+>[!BEGINTABS]
+
+>[!TAB 25년 9월 릴리스]
+
+Journey Optimizer 9월 릴리스가 공개되었습니다! 릴리스 정보에서 이번 달에 릴리스된 새로운 기능 및 개선 사항을 알아보십시오.
+
+[![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+
+
+>[!TAB 캠페인 오케스트레이션]
+
+이제 Journey Optimizer에 브랜드 주도 일괄 캠페인을 위해 특별히 설계된 새로운 기능인 **캠페인 오케스트레이션**&#x200B;이 포함됩니다. 이 릴리스에서는 캠페인 오케스트레이션 캔버스 및 향상된 데이터 모델링을 도입하여 마케터가 개인화된 크로스 채널 캠페인을 계획하고, 타깃팅하고, 제공할 수 있도록 함께 작업합니다.
+
+[![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/orchestrated/gs-orchestrated-campaigns.md)
+
+>[!TAB Adobe Express]
+
+Adobe Journey Optimizer의 Adobe Express 통합을 통해 콘텐츠를 만드는 동안 Adobe Express의 강력한 편집 도구에 쉽게 액세스할 수 있습니다. 이 통합을 통해 여러 솔루션 간에 전환할 필요 없이 이미지 크기를 조정하고, 배경을 제거하고, 시각적 개체를 자르고, 자산을 JPEG 또는 PNG로 변환할 수 있습니다.
+
+[![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/integrations/express.md)
+
+
+>[!ENDTABS]
+
 
 ## 탐색 시작
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Adobe Journey Optimizer의 새로운 기능
+최신 릴리스 정보
 
-Adobe Journey Optimizer의 최신 릴리스 정보, 신규 기능, 설명서 변경에 대한 최신 정보를 확인합니다.
+Adobe Journey Optimizer의 최신 릴리스 정보, 새로운 기능 및 개선 사항을 지속적으로 업데이트하십시오.
 
-[새로운 기능 보기](./rp_landing_pages/whats-new-landing-page.md)
+[릴리스 정보 보기](using/rn/release-notes.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Adobe Journey Optimizer 시작
+시작하기
 
-Adobe Journey Optimizer의 기능, 아키텍처, 사용자 인터페이스 등 기본 사항에 대해 알아봅니다.
+기능, 아키텍처 및 사용자 인터페이스를 포함하여 Journey Optimizer의 기본 사항에 대해 알아봅니다.
 
 [시작하기](./rp_landing_pages/get-started-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 여정 종합 안내서
 
@@ -50,7 +79,7 @@ Adobe Journey Optimizer의 기능, 아키텍처, 사용자 인터페이스 등 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 캠페인 이해 및 관리
 
@@ -60,7 +89,7 @@ Adobe Journey Optimizer의 기능, 아키텍처, 사용자 인터페이스 등 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 커뮤니케이션 채널
 
@@ -70,7 +99,7 @@ Adobe Journey Optimizer의 기능, 아키텍처, 사용자 인터페이스 등 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 충돌 관리 및 우선순위 지정
 
@@ -91,7 +120,7 @@ Adobe Journey Optimizer의 기능, 아키텍처, 사용자 인터페이스 등 �
 - **[종합 데이터 관리](./rp_landing_pages/data-management-landing-page.md)** - 거버넌스, 스키마 사용, 쿼리 기능을 위한 도구를 사용하여 데이터를 효과적으로 관리합니다.
 - **[채널 구성](./rp_landing_pages/configuration-landing-page.md)** - 규정 준수 및 캠페인 성과 향상을 위해 커뮤니케이션 채널을 설정하고 최적화합니다.
 - **[여정 구성](./rp_landing_pages/configure-journeys-landing-page.md)** - 데이터 소스, 이벤트, 액션을 구성하여 원활한 고객 여정을 만듭니다.
-- **[시스템 및 환경 연결](./rp_landing_pages/connect-systems-landing-page.md)** - Adobe Journey Optimizer를 외부 시스템, API, Adobe 솔루션과 통합합니다.
+- **[시스템과 환경 연결](./rp_landing_pages/connect-systems-landing-page.md)** - Adobe Journey Optimizer를 외부 시스템, API, Adobe 솔루션과 통합합니다.
 - **[액세스 제어 관리](./rp_landing_pages/access-control-landing-page.md)** - 데이터를 보호하고 거버넌스를 보장하기 위해 사용자 액세스, 역할, 권한을 제어합니다.
 - **[개인 정보, 동의, 데이터 거버넌스](./rp_landing_pages/privacy-landing-page.md)** - 규정을 준수하고 중요한 정보를 보호하기 위해 데이터 개인 정보, 동의, 거버넌스를 관리합니다.
 
