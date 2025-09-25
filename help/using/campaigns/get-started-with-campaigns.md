@@ -10,7 +10,7 @@ level: Beginner
 keywords: 캠페인, 방법 , 시작, Optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 4bd3e202935cfc971990faa7d1dd2f3d0d7cdc6d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '879'
 ht-degree: 100%
 
@@ -20,8 +20,8 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule"
->title="캠페인 일정"
->abstract="기본적으로 캠페인은 수동 활성화 시 시작되고 메시지가 전송된 후에 즉시 종료됩니다. 메시지를 보낼 특정 날짜와 시간을 유연하게 설정할 수 있습니다. 또한 반복적인 액션 캠페인의 종료 날짜를 지정할 수 있습니다. 액션 트리거에서 환경 설정에 맞게 메시지 전송 빈도를 구성할 수도 있습니다."
+>title="캠페인 예약"
+>abstract="기본적으로 캠페인은 수동 활성화를 통해 시작되고 메시지가 한 번 발송되는 즉시 종료됩니다. 메시지를 전송할 특정 날짜와 시간을 유연하게 설정할 수 있습니다. 또한 반복적인 액션 캠페인의 종료 날짜를 지정할 수 있습니다. 액션 트리거에서는 환경 설정에 따라 메시지 전송 빈도를 구성할 수도 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"
