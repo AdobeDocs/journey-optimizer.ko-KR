@@ -8,10 +8,10 @@ feature: SMS, Channel Configuration
 level: Intermediate
 keywords: SMS, 하위 도메인, 구성
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
-source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
+source-git-commit: 9f66606e2673554f7dfb40dd48cfc17eca2ca06b
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 20%
+source-wordcount: '1008'
+ht-degree: 18%
 
 ---
 
@@ -133,14 +133,23 @@ SMS 하위 도메인에 액세스하고 편집하려면 프로덕션 샌드박�
 
 호스팅 솔루션에서 유효성 검사 레코드를 만들지 못하면 하위 도메인이 **[!UICONTROL 실패]**(으)로 표시됩니다.
 
+## 가드레일 {#guardrails}
+
+현재 [!DNL Journey Optimizer] 사용자 인터페이스는 SMS 하위 도메인을 설정한 후에는 해당 하위 도메인을 삭제하거나 위임을 해제할 수 없습니다.
+
+그러나 [!DNL Journey Optimizer] 내의 기능을 테스트할 때는 SMS 하위 도메인을 만들어야 할 수 있습니다. 테스트가 완료되면 UI에서 SMS 하위 도메인을 제거하거나 위임 해제할 수 없으므로 불필요한 구성이 있는 환경이 어수선해질 수 있습니다.
+
+다음은 몇 가지 권장 단계 및 고려 사항입니다.
+
+<!--As an alternative action, create a new SMS subdomain for future use cases and avoid using the existing one if it is no longer needed.-->
+
+* 가장 좋은 방법은 필요한 구성 요소와 구성만 만들어 깔끔한 환경을 유지하는 것입니다.
+* 비즈니스에 영향을 미치는 경우, SMS 하위 도메인의 제거/위임 취소를 지원할 수 있는 Adobe 담당자에게 문의하십시오. [자세히 알아보기](#undelegate-subdomain)
+* 추가 지원이 필요한 경우 Adobe에 연락하여 인스턴스를 효과적으로 관리하는 방법을 확인하십시오.
+
 ## 하위 도메인 위임 취소 {#undelegate-subdomain}
 
 SMS 하위 도메인을 위임해제하려면 위임해제할 하위 도메인을 사용하여 Adobe 담당자에게 문의하십시오.
-
-<!--
-1. Stop the active campaigns associated with the subdomains. [Learn how](../campaigns/manage-campaigns.md#stop)
-
-1. Stop the active journeys associated with the subdomains. [Learn how](../building-journeys/end-journey.md#stop-journey)-->
 
 SMS 하위 도메인이 CNAME 레코드를 가리키면 SMS 하위 도메인에 대해 만든 CNAME DNS 레코드를 호스팅 솔루션에서 삭제할 수 있습니다(원본 이메일 하위 도메인이 있는 경우 삭제하지 마십시오).
 
