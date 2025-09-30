@@ -4,29 +4,23 @@ description: A/B 테스트와 multi-armed bandit 비교 자세히 알아보기
 feature: A/B Testing, Experimentation
 role: User
 level: Experienced
-source-git-commit: 397fad9c95e0c11c0496ab5c9adfb6f8169de4f6
+exl-id: 1f7b74d2-77c3-4113-8e6a-1e2a95117748
+source-git-commit: a659f596c0d37f4b91ec41e52c02c8385f6ae16b
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 2%
+source-wordcount: '607'
+ht-degree: 1%
 
 ---
 
 # A/B vs Multi-armed bandit 실험 {#mab-vs-ab}
 
-<!--
 >[!CONTEXTUALHELP]
 >id="ajo_ab_test_mab"
->title="Experiment type"
->abstract="Experiment type determines how traffic is allocated between treatments during your test. Choose the method that best aligns with your goals:</br>
->
->* **A/B Experiment**: Splits traffic as you define between treatments and measures performance until results are statistically significant. Best for learning which treatment performs better in a controlled comparison.
->
->* **Multi-armed Bandit**: Shifts traffic toward higher-performing treatments as data is collected, balancing speed and optimization. Useful when you want to maximize conversions during the experiment.
->
->* **Bring your own Multi-armed Bandit**: Use your own algorithm to decide traffic allocation, giving you flexibility if you have a custom model or strategy."
--->
+>title="실험 유형"
+>abstract="실험 유형은 테스트 중에 처리 간에 트래픽이 할당되는 방법을 결정합니다. 목표에 가장 잘 맞는 방법을 선택하십시오.</br><b>A/B 실험</b>: 처리 간에 정의한 대로 트래픽을 분할하고 결과가 통계적으로 중요해질 때까지 성능을 측정합니다. 통제된 비교에서 어떤 치료가 더 잘 수행되는지 학습하는 데 가장 적합합니다.</br><b>Multi-armed Bandit</b>: 데이터가 수집되면 트래픽을 더 높은 성능의 처리로 이동하여 속도와 최적화의 균형을 조정합니다. 실험 중에 전환을 극대화하려는 경우에 유용합니다.</br><b>고유한 Multi-armed Bandit 가져오기</b>: 고유한 알고리즘을 사용하여 트래픽 할당을 결정함으로써 사용자 지정 모델이나 전략이 있는 경우 유연성을 제공합니다."
 
 이 페이지에서는 **A/B**&#x200B;와(과) **Multi-Armed Bandit** 실험을 자세히 비교하여 각각의 강점, 제한 사항 및 각 접근 방식이 가장 효과적인 시나리오를 설명합니다.
+
 
 ## A/B {#ab-test}
 
@@ -132,4 +126,3 @@ Multi-armed bandit 메서드의 주요 제한 사항은 다음과 같습니다.
 | 트래픽이 제한되어 있으므로 ROI를 신속하게 최적화하려고 합니다. | Multi-Armed Bandit |
 | 트래픽이 많고 학습 속도가 느려질 수 있습니다 | A/B |
 | 이해 당사자는 명확한 의사 결정 지점을 필요로 합니다. | A/B |
-
