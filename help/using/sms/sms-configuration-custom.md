@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 71b4c2b711858731cfd0f627a5ff97fe9eb817a2
+source-git-commit: 29d1aab42bf34adfb8ae8f28d1204d1980487cf4
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 9%
+source-wordcount: '1352'
+ht-degree: 7%
 
 ---
 
@@ -175,6 +175,16 @@ API 자격 증명이 생성되면 JWT 인증에 필요한 필드를 작성합니
 
 API 자격 증명이 정상적으로 생성되면 다음 단계는 웹후크를 만들고 인바운드 설정을 구성하는 것입니다. 이 구성은 시스템에서 들어오는 데이터 또는 메시지를 제대로 수신하고 처리할 수 있도록 합니다.
 
+웹후크를 설정할 때 캡처할 데이터 유형을 기반으로 용도를 정의할 수 있습니다.
+
+* **[!UICONTROL 인바운드]**: 옵트인 또는 옵트아웃과 같은 동의 응답을 캡처하고 사용자 환경 설정을 수집하려면 이 옵션을 사용합니다.
+
+* **[!UICONTROL 피드백]**: 보고 및 분석을 지원하기 위해 읽기 확인 및 사용자 상호 작용을 포함한 게재 및 참여 이벤트를 추적하려면 이 옵션을 선택하십시오.
+
+>[!BEGINTABS]
+
+>[!TAB 인바운드]
+
 1. 왼쪽 레일에서 **[!UICONTROL 관리]** `>` **[!UICONTROL 채널]**(으)로 이동하고 **[!UICONTROL SMS 설정]**&#x200B;에서 **[!UICONTROL SMS 웹후크]** 메뉴를 선택한 다음 **[!UICONTROL 웹후크 만들기]** 단추를 클릭합니다.
 
    ![](assets/sms_byo_5.png)
@@ -185,17 +195,21 @@ API 자격 증명이 정상적으로 생성되면 다음 단계는 웹후크를 
 
    * **[!UICONTROL SMS 공급업체 선택]**: 사용자 지정.
 
-   * **[!UICONTROL API 자격 증명 선택]**: 드롭다운에서 [이전에 구성한 API 자격 증명을 선택](#api-credential)합니다.
+   * **[!UICONTROL 유형]**: 인바운드.
 
-   * **[!UICONTROL 옵트인 키워드]**: 옵트인 메시지를 자동으로 트리거할 기본 또는 사용자 지정 키워드를 입력합니다. 여러 키워드의 경우 쉼표로 구분된 값을 사용하십시오.
+   * **[!UICONTROL API 자격 증명]**: 드롭다운에서 [이전에 구성한 API 자격 증명](#api-credential)을 선택합니다.
 
-   * **[!UICONTROL 옵트인 메시지]**: 옵트인 메시지로 자동 전송되는 사용자 지정 응답을 입력하십시오.
+1. ![](assets/do-not-localize/Smock_Add_18_N.svg)을(를) 클릭하여 키워드 범주를 추가한 다음 다음과 같이 구성합니다.
 
-   * **[!UICONTROL 옵트아웃 키워드]**: 옵트아웃 메시지를 자동으로 트리거할 기본 또는 사용자 지정 키워드를 입력합니다. 여러 키워드의 경우 쉼표로 구분된 값을 사용하십시오.
+   * **[!UICONTROL 인바운드 키워드 범주]**: 키워드 범주를 **[!UICONTROL 옵트인]**, **[!UICONTROL 옵트아웃]**, **[!UICONTROL 도움말]** 또는 **[!UICONTROL 기본값]** 중에서 선택합니다.
 
-   * **[!UICONTROL 옵트아웃 메시지]**: 옵트아웃 메시지로 자동 전송되는 사용자 지정 응답을 입력하십시오.
+   * **[!UICONTROL 키워드 입력]**: 메시지를 자동으로 트리거할 기본 또는 사용자 지정 키워드를 입력합니다. 여러 키워드의 경우 쉼표로 구분된 값을 사용하십시오.
+
+   * **[!UICONTROL 응답 메시지]**: 자동으로 전송되는 사용자 지정 응답을 입력하십시오.
 
    ![](assets/sms_byo_6.png)
+
+1. **[!UICONTROL 유사 옵트아웃]** 옵션을 활성화하여 옵트아웃 키워드와 유사한 메시지(예: &#39;CANCIL&#39;)를 감지합니다.
 
 1. 요청 페이로드의 유효성을 검사하고 사용자 지정하려면 **[!UICONTROL 페이로드 편집기 보기]**&#x200B;를 클릭하십시오.
 
@@ -214,6 +228,41 @@ API 자격 증명이 정상적으로 생성되면 다음 단계는 웹후크를 
 Webhook에 대한 인바운드 설정을 만들고 구성한 후 SMS 메시지에 대해 [채널 구성](sms-configuration-surface.md)을 만들어야 합니다.
 
 구성하고 나면 메시지 작성, 개인화, 링크 추적 및 보고와 같은 기본 제공 채널 기능을 모두 활용할 수 있습니다.
+
+>[!TAB 피드백]
+
+1. 왼쪽 레일에서 **[!UICONTROL 관리]** `>` **[!UICONTROL 채널]**(으)로 이동하고 **[!UICONTROL SMS 설정]**&#x200B;에서 **[!UICONTROL SMS 웹후크]** 메뉴를 선택한 다음 **[!UICONTROL 웹후크 만들기]** 단추를 클릭합니다.
+
+   ![](assets/sms_byo_5.png)
+
+1. 아래에 자세히 설명된 대로 Webhook 설정을 구성합니다.
+
+   * **[!UICONTROL 이름]**: Webhook의 이름을 입력하십시오.
+
+   * **[!UICONTROL SMS 공급업체 선택]**: 사용자 지정.
+
+   * **[!UICONTROL 유형]**: 피드백.
+
+1. 요청 페이로드의 유효성을 검사하고 사용자 지정하려면 **[!UICONTROL 페이로드 편집기 보기]**&#x200B;를 클릭하십시오.
+
+   프로필 속성을 사용하여 페이로드를 동적으로 개인화할 수 있으며, 내장된 도우미 함수를 사용하여 처리 및 응답 생성을 위해 정확한 데이터가 전송되도록 할 수 있습니다.
+
+1. Webhook 구성을 마치면 **[!UICONTROL 제출]**&#x200B;을 클릭합니다.
+
+1. **[!UICONTROL Webhooks]** 메뉴에서 ![bin 아이콘](assets/do-not-localize/Smock_Delete_18_N.svg)을 클릭하여 Webhook을 삭제합니다.
+
+1. 기존 구성을 수정하려면 원하는 웹후크를 찾은 다음 **[!UICONTROL 편집]** 옵션을 클릭하여 필요한 내용을 변경합니다.
+
+1. 이전에 제출한 **[!UICONTROL Webhook]**&#x200B;에서 새 **[!UICONTROL Webhook URL]**&#x200B;에 액세스하여 복사합니다.
+
+   ![](assets/sms_byo_7.png)
+
+Webhook에 대한 인바운드 설정을 만들고 구성한 후 SMS 메시지에 대해 [채널 구성](sms-configuration-surface.md)을 만들어야 합니다.
+
+구성하고 나면 메시지 작성, 개인화, 링크 추적 및 보고와 같은 기본 제공 채널 기능을 모두 활용할 수 있습니다.
+
+>[!ENDTABS]
+
 
 ## 사용 방법 비디오 {#video}
 
