@@ -4,13 +4,13 @@ product: journey optimizer
 title: Capping API
 description: 최대 가용량 API로 작업하는 방법을 알아봅니다
 feature: Journeys, API
-role: User
+role: Developer
 level: Beginner
 keywords: 외부, API, 최적화 프로그램, 한도
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: 9f801b1fdcab38bffff851675eca5e2fb61dfbf9
+source-git-commit: 13af123030449d870f44f3470710b0da2c6f4775
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '730'
 ht-degree: 6%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 6%
 
 최대 가용량 API를 사용하면 최대 가용량 구성을 만들고, 구성하고, 모니터링할 수 있습니다.
 
-이 섹션에서는 API 작업 방법에 대한 전역 정보를 제공합니다. 자세한 API 설명은 [Adobe Journey Optimizer API 설명서](https://developer.adobe.com/journey-optimizer-apis/)에서 확인할 수 있습니다.
+이 섹션에서는 API 작업 방법에 대한 전역 정보를 제공합니다. 자세한 API 설명은 [Adobe Journey Optimizer API 설명서](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}에서 확인할 수 있습니다.
 
 ## 최대 가용량 API 설명 및 Postman 컬렉션 {#description}
 
-아래 표에는 최대 가용량 API에 사용할 수 있는 명령이 나열되어 있습니다. 요청 샘플, 매개 변수 및 응답 형식을 포함한 자세한 정보는 [Adobe Journey Optimizer API 설명서](https://developer.adobe.com/journey-optimizer-apis/references/journeys/)에서 확인할 수 있습니다.
+아래 표에는 최대 가용량 API에 사용할 수 있는 명령이 나열되어 있습니다. 요청 샘플, 매개 변수 및 응답 형식을 포함한 자세한 정보는 [Adobe Journey Optimizer API 설명서](https://developer.adobe.com/journey-optimizer-apis/references/journeys/){target="_blank"}에서 확인할 수 있습니다.
 
 | 메서드 | 경로 | 설명 |
 |---|---|---|
@@ -46,13 +46,13 @@ ht-degree: 6%
 다운로드하여 Postman에 업로드한 다음에는 `{JO_HOST}`, `{BASE_PATH}`, `{SANDBOX_NAME}` 세 가지 변수를 추가해야 합니다.
 * `{JO_HOST}` : [!DNL Journey Optimizer] 게이트웨이 URL.
 * `{BASE_PATH}` : API의 진입점입니다.
-* `{SANDBOX_NAME}`: API 작업이 발생할 샌드박스 이름에 해당하는 헤더 **x-sandbox-name**(예: ‘prod’)입니다.  자세한 내용은 [샌드박스 개요](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ko)를 참조하십시오.
+* `{SANDBOX_NAME}`: API 작업이 발생할 샌드박스 이름에 해당하는 헤더 **x-sandbox-name**(예: ‘prod’)입니다.  자세한 내용은 [샌드박스 개요](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ko){target="_blank"}를 참조하십시오.
 
 ## 끝점 구성
 
 다음은 끝점 구성의 기본 구조입니다.
 
-```
+```json
 {
     "url": "<endpoint URL>",  //wildcards are allowed in the endpoint URL
     "methods": [ "<HTTP method such as GET, POST, >, ...],
@@ -75,12 +75,12 @@ ht-degree: 6%
 >
 >설정할 수 있는 최대값은 400입니다. 아무 것도 지정되지 않은 경우, 시스템은 시스템의 동적 확장에 따라 최대 수천 개의 연결을 열 수 있습니다.
 >
->최대 가용량 구성이 배포될 때 &#39;maxHttpConnection&#39; 값이 제공되지 않으면 기본 &quot;maxHttpConnection = -1&quot;이 배포된 구성에 추가됩니다. 이는 Journey Optimizer이 기본 시스템 값을 사용함을 의미합니다.
+>최대 가용량 구성이 배포될 때 `maxHttpConnections` 값이 설정되지 않은 경우 배포된 구성에 기본 `maxHttpConnections = -1`이(가) 추가되고 Journey Optimizer에서 기본 시스템 값을 사용합니다.
 
 예:
 
-```
-`{
+```json
+{
   "url": "https://api.example.org/data/2.5/*",
   "methods": [
     "GET"
@@ -104,7 +104,7 @@ ht-degree: 6%
 
 **canDeploy** 메서드가 호출되면 이 프로세스는 구성을 확인하고 다음 중 하나의 고유 ID로 확인된 유효성 검사 상태를 반환합니다.
 
-```
+```json
 "ok" or "error"
 ```
 

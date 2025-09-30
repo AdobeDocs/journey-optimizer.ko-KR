@@ -4,13 +4,13 @@ product: journey optimizer
 title: Throttling API
 description: Throttling API로 작업하는 방법을 알아봅니다
 feature: Journeys, API
-role: User
+role: Developer
 level: Beginner
 keywords: 외부, API, 최적화 프로그램, 한도
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
-source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
+source-git-commit: 13af123030449d870f44f3470710b0da2c6f4775
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1024'
 ht-degree: 48%
 
 ---
@@ -19,14 +19,14 @@ ht-degree: 48%
 
 Throttling API는 초당 전송되는 이벤트 수를 제한하기 위해 제한 구성을 만들고 구성하고 모니터링하는 데 도움이 됩니다.
 
-이 섹션에서는 API 작업 방법에 대한 전역 정보를 제공합니다. 자세한 API 설명은 [Adobe Journey Optimizer API 설명서](https://developer.adobe.com/journey-optimizer-apis/)에서 확인할 수 있습니다.
+이 섹션에서는 API 작업 방법에 대한 전역 정보를 제공합니다. 자세한 API 설명은 [Adobe Journey Optimizer API 설명서](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}에서 확인할 수 있습니다.
 
 ## 반드시 알아야 할 사항
 
 * **조직당 하나의 구성:** 현재 조직당 하나의 구성만 허용됩니다. 구성은 프로덕션 샌드박스(헤더에서 `x-sandbox-name`을(를) 통해 제공됨)에 정의되어야 합니다.
 * **조직 수준 응용 프로그램:** 구성이 조직 수준에서 적용됩니다.
 * **API 제한 처리:** API에 설정된 제한에 도달하면 추가 이벤트가 최대 6시간 동안 큐에 대기됩니다. 이 값은 수정할 수 없습니다.
-* **`maxHttpConnections`매개 변수:** &#39;maxHttpConnections&#39; 매개 변수는 최대 가용량 API에서만 사용할 수 있는 선택적 매개 변수이므로 Journey Optimizer에서 외부 시스템에 대해 여는 연결 수를 제한할 수 있습니다. [최대 가용량 API로 작업하는 방법을 알아봅니다](../configuration/capping.md)
+* **`maxHttpConnections`매개 변수:** `maxHttpConnections` 매개 변수는 Journey Optimizer이 외부 시스템에 대해 여는 연결 수를 제한할 수 있도록 API 제한에서만 사용할 수 있는 선택적 매개 변수입니다. [최대 가용량 API로 작업하는 방법을 알아봅니다](../configuration/capping.md)
 
   연결 수를 제한하고 이러한 외부 호출을 조절하려는 경우 동일한 끝점에 대해 두 개의 구성(한 개의 조절 및 한 개의 제한)을 구성할 수 있습니다. 하나의 엔드포인트에 대해 두 구성이 공존할 수 있습니다. 제한 종단점에 대해 &#39;maxHttpConnections&#39;를 설정하려면 제한 API를 사용하여 제한 임계값을 설정하고 제한 API를 사용하여 &#39;maxHttpConnections&#39;를 설정하십시오. 최대 가용량 API를 호출할 때 최대 가용량 임계값을 제한 임계값보다 높게 설정할 수 있으므로 최대 가용량 규칙이 효과적으로 실행되지 않습니다.
 
@@ -45,20 +45,21 @@ Throttling API는 초당 전송되는 이벤트 수를 제한하기 위해 제�
 | [!DNL GET] | /throttlingConfigs/`{uid}` | 스로틀링 구성 검색 |
 | [!DNL DELETE] | /throttlingConfigs/`{uid}` | 스로틀링 구성 삭제 |
 
-또한 테스트 구성에 도움이 되도록 [여기](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Throttling-API_postman-collection.json)에서 Postman 컬렉션을 사용할 수 있습니다.
+또한 테스트 구성에 도움이 되도록 [여기](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Throttling-API_postman-collection.json){target="_blank"}에서 Postman 컬렉션을 사용할 수 있습니다.
 
-이 컬렉션은 __[Postman 콘솔의 통합](https://console.adobe.io/integrations) > 사용해 보기 > Postman 다운로드__&#x200B;를 통해 생성된 Adobe I/O 변수 컬렉션을 공유하도록 설정되었습니다. 이 컬렉션은 선택한 통합 값으로 Postman 환경 파일을 생성합니다.
+이 컬렉션은 **[Postman 콘솔의 통합](https://console.adobe.io/integrations) > 사용해 보기 > Postman 다운로드**&#x200B;를 통해 생성된 Adobe I/O 변수 컬렉션을 공유하도록 설정되었습니다. 이 컬렉션은 선택한 통합 값으로 Postman 환경 파일을 생성합니다.
 
 다운로드하여 Postman에 업로드한 다음에는 `{JO_HOST}`, `{BASE_PATH}`, `{SANDBOX_NAME}` 세 가지 변수를 추가해야 합니다.
+
 * `{JO_HOST}` : [!DNL Journey Optimizer] 게이트웨이 URL.
 * `{BASE_PATH}` : API의 진입점입니다.
-* `{SANDBOX_NAME}`: API 작업이 발생할 샌드박스 이름에 해당하는 헤더 **x-sandbox-name**(예: ‘prod’)입니다.  자세한 내용은 [샌드박스 개요](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ko)를 참조하십시오.
+* `{SANDBOX_NAME}`: API 작업이 발생할 샌드박스 이름에 해당하는 헤더 **x-sandbox-name**(예: ‘prod’)입니다.  자세한 내용은 [샌드박스 개요](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ko){target="_blank"}를 참조하십시오.
 
 ## 스로틀링 구성 {#configuration}
 
 다음은 스로틀링 구성의 구조입니다. **name** 및 **description** 속성은 선택 사항입니다.
 
-```
+```json
 {
     "name": "<given name - free text>",
     "description": "<given description - free text>"
@@ -70,7 +71,7 @@ Throttling API는 초당 전송되는 이벤트 수를 제한하기 위해 제�
 
 예:
 
-```
+```json
 {
   "name": "throttling-config-external",
   "description": "example of throttling config for an external endpoint",
@@ -88,7 +89,7 @@ Throttling API는 초당 전송되는 이벤트 수를 제한하기 위해 제�
 
 구성을 만들거나 업데이트하면 프로세스는 해당 구성을 확인하고 고유 ID로 식별되는 검증 상태를 반환합니다.
 
-```
+```json
 "ok" or "error"
 ```
 
@@ -123,7 +124,7 @@ Throttling API는 초당 전송되는 이벤트 수를 제한하기 위해 제�
 
 비프로덕션 샌드박스에서 구성을 작성하려는 경우:
 
-```
+```json
 {
     "status": 400,
     "error": "{\"code\":1463,\"family\":\"INPUT_OUTPUT_ERROR\",\"message\":\"Operation not allowed on throttling config: non prod sandbox\",\"service\":\"vyg-authoring-api\",\"version\":\"ed87515\",\"context\":\"com.adobe.voyager.service.authoring.restapis.v1_0.ThrottlingConfigService:384\",\"schema\":\"throttlingConfigs$ui-tests\"}",
@@ -133,7 +134,7 @@ Throttling API는 초당 전송되는 이벤트 수를 제한하기 위해 제�
 
 지정한 샌드박스가 존재하지 않는 경우:
 
-```
+```json
 {
     "status": 500,
     "error": "{\"code\":4000,\"family\":\"INTERNAL_ERROR\",\"message\":\"INTERNAL ERROR\",\"service\":\"vyg-authoring-api\",\"version\":\"ed87515\",\"context\":\"com.adobe.voyager.common.exceptions.ApiErrorException:43\"}",
@@ -143,7 +144,7 @@ Throttling API는 초당 전송되는 이벤트 수를 제한하기 위해 제�
 
 다른 구성을 만들려는 경우:
 
-```
+```json
 {
     "status": 400,
     "error": "{\"code\":1465,\"family\":\"INPUT_OUTPUT_ERROR\",\"message\":\"Can't create throttling config: only one config allowed per org\",\"service\":\"vyg-authoring-api\",\"version\":\"ed87515\",\"context\":\"com.adobe.voyager.service.authoring.restapis.v1_0.ThrottlingConfigService:108\",\"schema\":\"throttlingConfigs$prod\"}",
@@ -163,7 +164,7 @@ Throttling API는 초당 전송되는 이벤트 수를 제한하기 위해 제�
 
 **만들기 - POST**
 
-```
+```json
 {
     "canDeploy": {
         "validationStatus": "ok"
@@ -200,7 +201,7 @@ Throttling API는 초당 전송되는 이벤트 수를 제한하기 위해 제�
 
 **업데이트 - PUT**
 
-```
+```json
 {
     "updatedElement": {
         "_id": "043a1aea-2dfd-4965-b93a-cb9a1eced0e6_8872a010-f91e-11ea-895c-11ef8f98ba52",
@@ -238,7 +239,7 @@ Throttling API는 초당 전송되는 이벤트 수를 제한하기 위해 제�
 
 **읽기(업데이트 후) - GET**
 
-```
+```json
 {
     "result": {
         "_id": "043a1aea-2dfd-4965-b93a-cb9a1eced0e6_8872a010-f91e-11ea-895c-11ef8f98ba52",
@@ -270,7 +271,7 @@ Throttling API는 초당 전송되는 이벤트 수를 제한하기 위해 제�
 
 **읽기(배포 후) - GET**
 
-```
+```json
 {
     "result": {
         "_id": "043a1aea-2dfd-4965-b93a-cb9a1eced0e6_8872a010-f91e-11ea-895c-11ef8f98ba52",
