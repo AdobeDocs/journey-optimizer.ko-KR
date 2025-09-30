@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 29d1aab42bf34adfb8ae8f28d1204d1980487cf4
+source-git-commit: c25e3898e02342c90c6495cd979b91657fb03379
 workflow-type: tm+mt
-source-wordcount: '1926'
+source-wordcount: '1946'
 ht-degree: 39%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 39%
 <tr>
 <td>
 <p><a href="https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>에서 제공하는 Journey Agent은 Journey Optimizer에서 사용할 수 있습니다. 자연어 인터페이스를 통해 여정을 분석할 수 있도록 합니다. 에이전트는 여정에서 대상 또는 일정 충돌 및 프로필 드롭오프를 감지하여 이를 해결하기 위한 단계를 수행합니다. 곧, 당신은 무의미한 지원을 통해 여정을 만들 수 있을 것이다.</p>
-<p>자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2025년 9월 24일</p>
 </td>
 </tr>
@@ -215,15 +215,15 @@ ht-degree: 39%
 
 * **Webhooks** - 이 릴리스에서는 사용자 지정 SMS 공급자를 구성할 때 Webhooks에 대해 다음과 같은 개선 사항이 도입되었습니다.
 
-   * 이제 캡처하려는 데이터 유형에 따라 웹후크의 목적( 인바운드 또는 피드백)을 정의할 수 있습니다.
+   * 이제 캡처하려는 데이터 유형 - 가용성 날짜: 2025년 9월 23일에 따라 웹후크의 목적(인바운드 또는 피드백)을 정의할 수 있습니다
 
-   * 쉽게 설정할 수 있도록 키워드를 구성하는 인터페이스가 개선되었습니다.
+   * 보다 쉬운 설정을 위해 키워드 구성 인터페이스가 개선되었습니다. - 사용 가능 날짜: 2025년 9월 23일
 
 * **SMS**
 
-   * 이제 사용자 지정 SMS 공급자를 설정할 때 들어오는 SMS에 인식할 수 없는 키워드가 포함되어 있을 때 사용되는 **Default** 키워드를 정의할 수 있습니다. 특정 작업에 대해 **사용자 지정** 키워드를 만들 수도 있습니다.
+   * 이제 사용자 지정 SMS 공급자를 설정할 때 들어오는 SMS에 인식할 수 없는 키워드가 포함되어 있을 때 사용되는 **Default** 키워드를 정의할 수 있습니다. 특정 작업에 대해 **사용자 지정** 키워드를 만들 수도 있습니다. 사용 가능한 날짜: 2025년 9월 23일
 
-   * 이제 구성에 명시적으로 정의되지 않은 오타, 단어 또는 문장 등 SMS 메시지를 통해 전송되는 정의되지 않은 인바운드 키워드 응답에 액세스할 수 있습니다. 이 데이터는 13개월 동안 **AJO 전자 메일 추적 경험 이벤트** 데이터 세트 **InboundMessage**&#x200B;에 저장됩니다.
+   * 이제 구성에 명시적으로 정의되지 않은 오타, 단어 또는 문장 등 SMS 메시지를 통해 전송되는 정의되지 않은 인바운드 키워드 응답에 액세스할 수 있습니다. **InboundMessage** 아래에 있는 **AJO 전자 메일 추적 경험 이벤트** 데이터 집합에 13개월 동안 저장됩니다. 사용 가능 날짜: 2025년 9월 23일
 
 * **WhatsApp** - 이제 WhatsApp의 기본 실행 주소를 사용하도록 선택하거나 사용자 지정 주소를 설정할 수 있습니다.
 
