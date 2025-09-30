@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c3700e139451cbd3a33af751d5715750a0e8675e
+source-git-commit: be07b0dfec31d23f741bfc2a9f89fe1a7891ef0b
 workflow-type: tm+mt
-source-wordcount: '1776'
+source-wordcount: '1783'
 ht-degree: 42%
 
 ---
@@ -21,7 +21,6 @@ ht-degree: 42%
 >abstract="**Adobe Journey Optimizer**&#x200B;는 지속적으로 새로운 기능, 기존 기능 개선, 버그 수정을 제공합니다. 모든 변경 사항은 매달 마지막 주에 여기 있는 릴리스 정보에 통합됩니다."
 
 [!DNL Adobe Journey Optimizer]은(는) 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 모든 변경 사항은 매달 마지막 주 여기 있는 릴리스 정보에 통합됩니다. [!DNL Adobe Journey Optimizer]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko){target="_blank"}를 참조하십시오.
-
 
 ## 2025년 9월 릴리스 정보 {#25-9-rn}
 
@@ -79,7 +78,7 @@ ht-degree: 42%
 <tr>
 <td>
 <p><a href="https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>에서 제공하는 Journey Agent은 Journey Optimizer에서 사용할 수 있습니다. 자연어 인터페이스를 통해 여정을 분석할 수 있도록 합니다. 에이전트는 여정에서 대상 또는 일정 충돌 및 프로필 드롭오프를 감지하여 이를 해결하기 위한 단계를 수행합니다. 곧, 당신은 무의미한 지원을 통해 여정을 만들 수 있을 것이다.</p>
-<p>자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2025년 9월 24일</p>
 </td>
 </tr>
@@ -173,6 +172,11 @@ ht-degree: 42%
 
 
 ### 개선 사항 {#sept-25-9-improvements}
+
+* **API 트리거 캠페인에 대한 웹후크 지원**\
+  이제 API 트리거 캠페인이 웹후크를 지원합니다. 모든 메시지에 대한 실시간 상태 업데이트를 받도록 웹후크 URL을 구성하여 가시성을 향상시키고 원활한 모니터링 및 자동화를 가능하게 합니다. [자세히 보기](../configuration/feedback-webhooks.md)
+
+  사용 가능한 날짜: 2025년 9월 29일
 
 * **승인 정책 권한**
 여정/캠페인 작성자가 자신의 개체를 승인하지 못하도록 승인 정책을 만들거나 설정할 때 옵션을 추가했습니다. [자세히 보기](../test-approve/approval-policies.md) - 사용 가능한 날짜: 2025년 9월 23일
@@ -340,10 +344,5 @@ ht-degree: 42%
 * **API 트리거 전자 메일 캠페인에 대한 높은 처리량 모드**\
   이제 API가 트리거된 캠페인에서 새로운 높은 처리량 모드를 사용할 수 있습니다. 이 모드는 대규모 실시간 메시지(초당 최대 5000개의 트랜잭션)를 위해 설계되었으며 대기 시간이 짧을수록 높은 가용성을 제공합니다.\
   이 기능은 Adobe 처리량 높은 트랜잭션 메시지 추가 기능 서비스를 구입한 조직의 이메일 채널에만 사용할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
-
-  <!-- Availability date: Sept XX, 2025-->
-
-* **API 트리거 캠페인에 대한 웹후크 지원**\
-  이제 API 트리거 캠페인이 웹후크를 지원합니다. 모든 메시지에 대한 실시간 상태 업데이트를 받도록 웹후크 URL을 구성하여 가시성을 향상시키고 원활한 모니터링 및 자동화를 가능하게 합니다.
 
   <!-- Availability date: Sept XX, 2025-->
