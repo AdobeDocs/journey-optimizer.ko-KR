@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 29d1aab42bf34adfb8ae8f28d1204d1980487cf4
+source-git-commit: 1d869ee8bf1c76e182a3f6b0433e5ab2eec2a8fb
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1357'
 ht-degree: 7%
 
 ---
@@ -199,17 +199,19 @@ API 자격 증명이 정상적으로 생성되면 다음 단계는 웹후크를 
 
    * **[!UICONTROL API 자격 증명]**: 드롭다운에서 [이전에 구성한 API 자격 증명](#api-credential)을 선택합니다.
 
+   * **[!UICONTROL 보낸 사람 전화 번호{&#x200B;1}: 통신에 사용할 보낸 사람 전화 번호&#x200B;을 입력합니다.]**
+
+     ![](assets/webhook-inbound.png)
+
 1. ![](assets/do-not-localize/Smock_Add_18_N.svg)을(를) 클릭하여 키워드 범주를 추가한 다음 다음과 같이 구성합니다.
 
    * **[!UICONTROL 인바운드 키워드 범주]**: 키워드 범주를 **[!UICONTROL 옵트인]**, **[!UICONTROL 옵트아웃]**, **[!UICONTROL 도움말]** 또는 **[!UICONTROL 기본값]** 중에서 선택합니다.
 
-   * **[!UICONTROL 키워드 입력]**: 메시지를 자동으로 트리거할 기본 또는 사용자 지정 키워드를 입력합니다. 여러 키워드의 경우 쉼표로 구분된 값을 사용하십시오.
+   * **[!UICONTROL 키워드 입력]**: 메시지를 자동으로 트리거할 기본 또는 사용자 지정 키워드를 입력합니다. 여러 키워드를 추가하려면 ![](assets/do-not-localize/Smock_Add_18_N.svg)을(를) 클릭하십시오.
 
-   * **[!UICONTROL 응답 메시지]**: 자동으로 전송되는 사용자 지정 응답을 입력하십시오.
+   * **[!UICONTROL 응답 메시지]**: 자동으로 전송되는 사용자 지정 응답을 드롭다운에서 선택합니다.
 
    ![](assets/sms_byo_6.png)
-
-1. **[!UICONTROL 유사 옵트아웃]** 옵션을 활성화하여 옵트아웃 키워드와 유사한 메시지(예: &#39;CANCIL&#39;)를 감지합니다.
 
 1. 요청 페이로드의 유효성을 검사하고 사용자 지정하려면 **[!UICONTROL 페이로드 편집기 보기]**&#x200B;를 클릭하십시오.
 
@@ -243,6 +245,8 @@ Webhook에 대한 인바운드 설정을 만들고 구성한 후 SMS 메시지�
 
    * **[!UICONTROL 유형]**: 피드백.
 
+   ![](assets/webhook-feedback.png)
+
 1. 요청 페이로드의 유효성을 검사하고 사용자 지정하려면 **[!UICONTROL 페이로드 편집기 보기]**&#x200B;를 클릭하십시오.
 
    프로필 속성을 사용하여 페이로드를 동적으로 개인화할 수 있으며, 내장된 도우미 함수를 사용하여 처리 및 응답 생성을 위해 정확한 데이터가 전송되도록 할 수 있습니다.
@@ -255,7 +259,7 @@ Webhook에 대한 인바운드 설정을 만들고 구성한 후 SMS 메시지�
 
 1. 이전에 제출한 **[!UICONTROL Webhook]**&#x200B;에서 새 **[!UICONTROL Webhook URL]**&#x200B;에 액세스하여 복사합니다.
 
-   ![](assets/sms_byo_7.png)
+   ![](assets/sms_byo_8.png)
 
 Webhook에 대한 인바운드 설정을 만들고 구성한 후 SMS 메시지에 대해 [채널 구성](sms-configuration-surface.md)을 만들어야 합니다.
 
