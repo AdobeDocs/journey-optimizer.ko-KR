@@ -5,10 +5,10 @@ title: 구성 단계
 description: DDL을 업로드하여 Adobe Experience Platform 내에서 모델 기반 스키마를 만드는 방법을 알아봅니다
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
+source-git-commit: e189bb6a52691770655a436e45c6788d1011a8ca
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 50%
+source-wordcount: '1080'
+ht-degree: 46%
 
 ---
 
@@ -28,6 +28,8 @@ ht-degree: 50%
 1. [스키마 연결](#link-schema) - 모델 기반 데이터를 수신자 또는 브랜드와 같은 기존 프로필 엔터티와 연결합니다.
 
 1. 지원되는 소스에서 데이터 세트로 [데이터를 수집](ingest-data.md)합니다.
+
+➡️ [Adobe Experience Platform 설명서에서 모델 기반 스키마에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/model-based)
 
 ## DDL 파일 업로드{#ddl-upload}
 
@@ -91,7 +93,7 @@ Excel 기반 스키마 파일 업로드가 지원됩니다. 스키마 정의를 
 
 1. **[!UICONTROL 스키마 이름]**&#x200B;을 입력합니다.
 
-1. 기본 키가 지정되도록 각 스키마와 해당 열을 설정합니다.
+1. 기본 키와 버전 설명자가 지정되도록 각 스키마와 해당 열을 설정합니다.
 
    데이터 집합이 최신 데이터로 업데이트되도록 하려면 `lastmodified`과(와) 같은 특성 하나를 버전 설명자(`datetime`, `long` 또는 `int` 형식)로 지정해야 합니다. 버전 설명자는 사용자가 변경할 수 있으며, 설정된 버전 설명자는 필수가 됩니다. 속성은 기본 키(PK)와 버전 설명자 모두가 될 수 없습니다.
 
@@ -107,7 +109,7 @@ Excel 기반 스키마 파일 업로드가 지원됩니다. 스키마 정의를 
 
 ## 관계 정의 {#relationships}
 
-스키마 내의 테이블 간에 논리적 연결을 정의하려면 아래 단계를 따릅니다.
+스키마를 생성할 때 DDL 파일 내에서 직접 관계를 지정할 수 있습니다. 파일 외부의 관계를 정의하려는 경우 아래 단계에 따라 인터페이스에서 이 작업을 수행할 수 있습니다.
 
 1. 데이터 모델의 캔버스 보기에 액세스하고 연결할 두 테이블을 선택합니다.
 

@@ -5,10 +5,10 @@ title: 구성 단계
 description: DDL을 업로드하여 Adobe Experience Platform 내에서 모델 기반 스키마를 만드는 방법을 알아봅니다
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
 version: Campaign Orchestration
-source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
+source-git-commit: e189bb6a52691770655a436e45c6788d1011a8ca
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 2%
+source-wordcount: '470'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 ## 주요 개념
 
-오케스트레이션된 캠페인의 컨텍스트에서 **dataset**&#x200B;은(는) 스키마(열) 및 필드(행)를 포함하는 데이터 컬렉션(일반적으로 테이블)에 대한 저장소 및 관리 구성입니다. Experience Platform에 성공적으로 수집된 데이터는 데이터 세트로 데이터 레이크 내에 저장됩니다.
+오케스트레이션된 캠페인의 컨텍스트에서 **dataset**&#x200B;은(는) 스키마(행) 및 필드(열)를 포함하는 데이터 컬렉션(일반적으로 테이블)에 대한 저장소 및 관리 구성입니다. Experience Platform에 성공적으로 수집된 데이터는 데이터 세트로 데이터 레이크 내에 저장됩니다.
 
 **스키마**&#x200B;은(는) 데이터의 구조와 형식을 나타내고 유효성을 검사합니다. 이 안내서에서는 실제 객체(예: 사람)에 대한 추상적인 정의를 제공하고 해당 객체의 각 인스턴스에 포함되어야 하는 데이터(예: 이름, 생일 등)에 대해 간략하게 설명합니다.
 
@@ -51,6 +51,8 @@ ht-degree: 2%
 * 테이블 간의 관계
 
 모델 기반 데이터 모델에서 스키마 또는 테이블 구성은 데이터를 여러 테이블로 구조화하는 것입니다. 각 테이블에 한 가지 유형의 엔티티/스키마가 저장되는지 확인
+
+➡️ [Adobe Experience Platform 설명서에서 스키마에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
 
 ## 구현 단계 {#implementation}
 
