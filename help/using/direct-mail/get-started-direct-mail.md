@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 다이렉트 메일, 메시지, 캠페인
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
-source-git-commit: d4b300f09a2e0b68ae1b5ba44995dad473ff67b3
+source-git-commit: 73f5cfdedd5a472cf922a5dfd950f3361896ba8d
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 78%
+source-wordcount: '235'
+ht-degree: 100%
 
 ---
 
@@ -18,11 +18,7 @@ ht-degree: 78%
 
 다이렉트 메일은 서드파티 다이렉트 메일 공급자가 고객에게 메일을 보내는 데 필요한 추출 파일을 개인화하고 생성할 수 있는 오프라인 채널입니다.
 
->[!AVAILABILITY]
->
->DM 메시지는 예약된 캠페인 및 여정 컨텍스트에서만 만들 수 있습니다. API에서 트리거되고 오케스트레이션된 캠페인에서는 사용할 수 없습니다.
-
-DM 캠페인을 만들 때 [!DNL Journey Optimizer]은(는) 대상 프로필과 선택한 데이터(예: 우편 주소 및 프로필 특성)가 포함된 파일을 자동으로 생성합니다. 이 파일은 선택한 서드파티 다이렉트 메일 공급자가 액세스할 수 있도록 선택한 서버로 전송되며, 이 공급자가 실제 메일링 프로세스를 처리합니다.
+다이렉트 메일 캠페인을 만들 때 Journey Optimizer는 대상 프로필과 선택한 데이터(예: 우편 주소 및 프로필 속성)가 포함된 파일을 자동으로 생성합니다. 이 파일은 선택한 서드파티 다이렉트 메일 공급자가 액세스할 수 있도록 선택한 서버로 전송되며, 이 공급자가 실제 메일링 프로세스를 처리합니다.
 
 사용자는 선택한 서드파티 다이렉트 메일 공급자와 협력하여 고객이 사용자의 메일을 받는 데 필요한 동의(해당하는 경우)를 고객으로부터 받아야 합니다.
 
@@ -32,4 +28,10 @@ DM 캠페인을 만들 때 [!DNL Journey Optimizer]은(는) 대상 프로필과 
 
 ![](assets/dm-creation-process.png)
 
+>[!AVAILABILITY]
+>
+>다이렉트 메일 메시지는 예약된 캠페인 내에서만 만들 수 있습니다. API 트리거 캠페인 또는 여정에서는 사용할 수 없습니다.
+
 ![](../rn/assets/do-not-localize/gif-dm.gif)
+
+
