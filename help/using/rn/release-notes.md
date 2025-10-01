@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8def78063b8477eb2eaf0a95602b7d311eb1ad2e
+source-git-commit: 471fb04fd1cbaff0db827d1f5320577103b35d33
 workflow-type: tm+mt
-source-wordcount: '1891'
+source-wordcount: '1862'
 ht-degree: 40%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 40%
 <tr>
 <td>
 <p><a href="https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>에서 제공하는 Journey Agent은 Journey Optimizer에서 사용할 수 있습니다. 자연어 인터페이스를 통해 여정을 분석할 수 있도록 합니다. 에이전트는 여정에서 대상 또는 일정 충돌 및 프로필 드롭오프를 감지하여 이를 해결하기 위한 단계를 수행합니다. 곧, 당신은 무의미한 지원을 통해 여정을 만들 수 있을 것이다.</p>
-<p>자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2025년 9월 24일</p>
 </td>
 </tr>
@@ -178,9 +178,6 @@ ht-degree: 40%
 
   사용 가능한 날짜: 2025년 9월 29일
 
-* **승인 정책 권한**
-여정/캠페인 작성자가 자신의 개체를 승인하지 못하도록 승인 정책을 만들거나 설정할 때 옵션을 추가했습니다. [자세히 보기](../test-approve/approval-policies.md) - 사용 가능한 날짜: 2025년 9월 23일
-
 * SMS 채널에 대한 **mTLS 지원**
 이제 사용자 지정 SMS 공급자를 설정할 때 상호 TLS(mTLS) 인증을 활성화하는 옵션이 있으므로 보안 연결이 설정되기 전에 클라이언트와 서버가 서로의 ID를 확인해야 합니다. [자세히 보기](../sms/sms-configuration-custom.md) - 사용 가능한 날짜: 2025년 9월 23일
 
@@ -226,6 +223,11 @@ ht-degree: 40%
    * 이제 구성에 명시적으로 정의되지 않은 오타, 단어 또는 문장 등 SMS 메시지를 통해 전송되는 정의되지 않은 인바운드 키워드 응답에 액세스할 수 있습니다. 이 데이터는 13개월 동안 **AJO 전자 메일 추적 경험 이벤트** 데이터 세트 **InboundMessage**&#x200B;에 저장됩니다. Sinch, Infobip 및 사용자 지정 SMS 공급자에서만 사용할 수 있습니다. - 사용 가능한 날짜: 2025년 9월 23일
 
 * **WhatsApp** - 이제 WhatsApp의 기본 실행 주소를 사용하도록 선택하거나 사용자 지정 주소를 설정할 수 있습니다.
+
+<!--
+* **Approval policy permissions**
+  Added an option when creating or setting Approval Policy to prevent Journey/Campaign creators from approving their own objects. [Read more](../test-approve/approval-policies.md) - Availability date: Sept 23, 2025 
+-->
 
 ### 준비 중 {#sept-25-9-soon}
 
