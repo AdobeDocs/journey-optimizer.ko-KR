@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c25e3898e02342c90c6495cd979b91657fb03379
+source-git-commit: 0b7adefe5eb2a2f89330437cc09a1361870c6041
 workflow-type: tm+mt
-source-wordcount: '1946'
-ht-degree: 39%
+source-wordcount: '1876'
+ht-degree: 40%
 
 ---
 
@@ -78,7 +78,7 @@ ht-degree: 39%
 <tr>
 <td>
 <p><a href="https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>에서 제공하는 Journey Agent은 Journey Optimizer에서 사용할 수 있습니다. 자연어 인터페이스를 통해 여정을 분석할 수 있도록 합니다. 에이전트는 여정에서 대상 또는 일정 충돌 및 프로필 드롭오프를 감지하여 이를 해결하기 위한 단계를 수행합니다. 곧, 당신은 무의미한 지원을 통해 여정을 만들 수 있을 것이다.</p>
-<p>자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2025년 9월 24일</p>
 </td>
 </tr>
@@ -349,12 +349,5 @@ ht-degree: 39%
   Journey Optimizer을 사용하면 Adobe 외부에서 동의를 관리하는 경우 이메일 구성에서 클릭 한 번으로 구독 취소 링크를 정의하여 외부 사용자 지정 엔드포인트를 설정할 수 있습니다. 수신자가 구독 취소 링크를 클릭하면 Journey Optimizer는 기본 프로필별 매개 변수 몇 가지를 동의 업데이트 이벤트에 추가합니다.
 
   이제 구독 취소 이메일 주소를 추가로 개인화하기 위해 동의 이벤트에 추가할 사용자 지정 속성을 정의할 수 있습니다. 이 기능은 8월 25일 릴리스부터 사용자 정의 원클릭 구독 취소 링크에 이미 사용할 수 있습니다.
-
-  <!-- Availability date: Sept XX, 2025-->
-
-
-* **API 트리거 전자 메일 캠페인에 대한 높은 처리량 모드**\
-  이제 API가 트리거된 캠페인에서 새로운 높은 처리량 모드를 사용할 수 있습니다. 이 모드는 대규모 실시간 메시지(초당 최대 5000개의 트랜잭션)를 위해 설계되었으며 대기 시간이 짧을수록 높은 가용성을 제공합니다.\
-  이 기능은 Adobe 처리량 높은 트랜잭션 메시지 추가 기능 서비스를 구입한 조직의 이메일 채널에만 사용할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
   <!-- Availability date: Sept XX, 2025-->
