@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: 1ad534b7877f0ac6c1f50e29f41af708e83b34c9
+source-git-commit: 62c0c1f46b5bd575102d9f27037cb6add1355ba2
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '640'
 ht-degree: 22%
 
 ---
@@ -35,11 +35,11 @@ ht-degree: 22%
 
 * **미리 보기 및 증명 지원:** 현재 미리 보기 및 증명은 CSV 업로드 또는 Federated Audience Composition을 사용하여 만든 대상에 대해 지원되지 않습니다. 캠페인을 계획할 때는 이 점을 염두에 두십시오.
 
-* **새 프로필 타깃팅:** 레코드와 UPS 프로필 간에 일치하는 항목을 찾을 수 없으면 새 빈 프로필이 만들어집니다. 이 프로필은 데이터 레이크에 저장된 데이터 보강 속성에 연결됩니다. 이 새 프로필은 비어 있으므로 Journey Optimizer에서 일반적으로 사용되는 타겟팅 필드(예: personalEmail.address, mobilePhone.number)는 비어 있으므로 타겟팅에 사용할 수 없습니다.
+* **새 프로필 타깃팅:** 레코드와 통합 프로필 서비스 프로필 간에 일치하는 항목을 찾을 수 없으면 빈 새 프로필이 만들어집니다. 이 프로필은 데이터 레이크에 저장된 데이터 보강 속성에 연결됩니다. 이 새 프로필은 비어 있으므로 Journey Optimizer에서 일반적으로 사용되는 타겟팅 필드(예: personalEmail.address, mobilePhone.number)는 비어 있으므로 타겟팅에 사용할 수 없습니다.
 
   이를 해결하려면 채널 구성에서 &quot;실행 필드&quot;(또는 채널에 따른 &quot;실행 주소&quot;)를 &quot;identityMap&quot;으로 지정할 수 있습니다. 이렇게 하면 대상을 만들 때 ID로 선택한 속성이 Journey Optimizer에서 타깃팅에 사용되는 속성이 됩니다.
 
-* **활성화된 레코드 및 ID 결합:** 대상자의 모든 레코드는 모든 중복을 포함하여 활성화됩니다. 다음 UPS 프로필 내보내기 동안 이러한 레코드는 ID 결합을 거칩니다. 그 결과 활성화된 레코드 수는 ID 결합 후 프로필 수와 다를 수 있습니다.
+* **활성화된 레코드 및 ID 결합:** 대상자의 모든 레코드는 모든 중복을 포함하여 활성화됩니다. 다음 통합 프로필 서비스 프로필 내보내기 동안 이러한 레코드는 ID 결합을 거칩니다. 그 결과 활성화된 레코드 수는 ID 결합 후 프로필 수와 다를 수 있습니다.
 
 ## [!DNL Journey Optimizer]의 대상
 

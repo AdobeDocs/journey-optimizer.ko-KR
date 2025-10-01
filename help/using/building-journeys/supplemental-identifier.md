@@ -1,31 +1,21 @@
 ---
-title: 여정에서 보조 식별자 사용
+title: 여정에서 추가 식별자 사용
 description: 여정에서 보조 식별자를 사용하는 방법을 알아봅니다.
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
-source-git-commit: 6c23b920787a1b39d60b397e9c74094695e59295
+source-git-commit: 62c0c1f46b5bd575102d9f27037cb6add1355ba2
 workflow-type: tm+mt
-source-wordcount: '1366'
+source-wordcount: '1381'
 ht-degree: 4%
 
 ---
 
-# 여정에서 보조 식별자 사용 {#supplemental-id}
+# 여정에서 추가 식별자 사용 {#supplemental-id}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_parameters_supplemental_identifier"
 >title="추가 식별자 사용"
 >abstract="추가 식별자는 여정 실행을 위한 추가 컨텍스트를 제공하는 보조 식별자입니다. 이를 정의하려면 추가 식별자로 사용할 필드를 선택하고 이와 연결할 네임스페이스를 선택하십시오."
-
-<!--
-By default, journeys are executed in the context of a **profile ID**. This means that, as long as the profile is active in a given journey, it won't be able to re-enter another journey. To prevent this, [!DNL Journey Optimizer] allows you to capture a **supplemental identifier**, such as an order ID, subscription ID, prescription ID, in addition to the profile ID. 
-In this example, we have added a booking ID as a supplemental identifier. 
-
-![](assets/event-supplemental-id.png){width=40% zoomable}
-
-By doing so, journeys are executed in the context of the profile ID associated to the supplemental identifier (here, the booking ID). One instance of the journey is executed for each iteration of the supplemental identifier. This allows multiple entrances of the same profile ID in journeys if they have made different bookings. 
-
-In addition, Journey Optimizer allows you to leverage attributes of the supplemental identifier (e.g., booking number, prescription renewal date, product type) for message customization, ensuring highly relevant communications.-->
 
 <table style="border-collapse: collapse; width: 100%;">
   <tr>
@@ -71,6 +61,7 @@ In addition, Journey Optimizer allows you to leverage attributes of the suppleme
    * 비즈니스 이벤트를 사용하는 경우 보조 ID가 비활성화됩니다.
    * 보조 ID는 프로필의 필드여야 합니다(즉, 이벤트/컨텍스트 필드가 아님).
    * 보조 ID를 사용하는 대상자 읽기 여정의 경우 각 여정 인스턴스에 대한 대상자 읽기 활동의 읽기 속도는 초당 최대 500개의 프로필로 제한됩니다.
+   * 보조 ID가 있는 대상자 여정 읽기를 사용할 경우 통합 프로필 서비스 대상만 지원됩니다.
 
 ## 보조 ID가 있는 종료 기준 동작 {#exit-criteria}
 
@@ -255,4 +246,4 @@ In addition, Journey Optimizer allows you to leverage attributes of the suppleme
 
 [!DNL Adobe Journey Optimizer]에서 보조 식별자를 활성화하고 적용하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464799?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)

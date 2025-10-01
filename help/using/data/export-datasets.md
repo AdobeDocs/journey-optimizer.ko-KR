@@ -8,9 +8,9 @@ role: User
 level: Beginner
 keywords: Platform, Data Lake, 만들기, 레이크, 데이터 세트, 프로필
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: a542f3e757bffb437f0b6baebe70767c2e894d91
+source-git-commit: 62c0c1f46b5bd575102d9f27037cb6add1355ba2
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '961'
 ht-degree: 4%
 
 ---
@@ -29,17 +29,17 @@ Journey Optimizer을 사용하면 데이터 세트의 콘텐츠를 내보내기 
 
 각 대상에 대한 자세한 내용은 Adobe Experience Platform 설명서에서 확인할 수 있습니다.
 
-* [Amazon S3](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3.html?lang=ko){target="_blank"}
-* [Azure Blob](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob.html?lang=ko){target="_blank"}
-* [Azure Data Lake Gen 2](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/adls-gen2.html?lang=ko){target="_blank"}
-* [데이터 랜딩 영역](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=ko){target="_blank"}
-* [Google 클라우드 저장소](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html?lang=ko){target="_blank"}
-* [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html?lang=ko){target="_blank"}
+* [Amazon S3](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3.html){target="_blank"}
+* [Azure Blob](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob.html){target="_blank"}
+* [Azure Data Lake Gen 2](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/adls-gen2.html){target="_blank"}
+* [데이터 랜딩 영역](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html){target="_blank"}
+* [Google 클라우드 저장소](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html){target="_blank"}
+* [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html){target="_blank"}
 
 
 ## 전제 조건 {#prerequisites}
 
-데이터 세트를 내보내려면 아래 나열된 [액세스 제어 권한](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ko#permissions){target="_blank"}이 필요합니다. [액세스 제어 개요](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html?lang=ko){target="_blank"}를 읽거나 제품 관리자에게 문의하여 필요한 권한을 받으십시오.
+데이터 세트를 내보내려면 아래 나열된 [액세스 제어 권한](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions){target="_blank"}이 필요합니다. [액세스 제어 개요](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html){target="_blank"}를 읽거나 제품 관리자에게 문의하여 필요한 권한을 받으십시오.
 
 | 카테고리 | 사용 권한 |
 |--|--|
@@ -53,9 +53,9 @@ Journey Optimizer을 사용하면 데이터 세트의 콘텐츠를 내보내기 
 
 ![](assets/dataset-export-process.png)
 
-각 단계에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=ko){target="_blank"}를 참조하세요.
+각 단계에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target="_blank"}를 참조하세요.
 
-1. **클라우드 저장소 대상을 설정**&#x200B;합니다. 아직 연결하지 않은 경우 대상 카탈로그에서 클라우드 스토리지 대상에 연결합니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=ko#setup){target="_blank"}에서 새 대상 연결을 만드는 방법을 알아보세요.
+1. **클라우드 저장소 대상을 설정**&#x200B;합니다. 아직 연결하지 않은 경우 대상 카탈로그에서 클라우드 스토리지 대상에 연결합니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html#setup){target="_blank"}에서 새 대상 연결을 만드는 방법을 알아보세요.
 
    <!--![](assets/dataset-export-setup.png)-->
 
@@ -79,7 +79,7 @@ Journey Optimizer을 사용하면 데이터 세트의 콘텐츠를 내보내기 
 
    <!--![](assets/dataset-export-review.png)-->
 
-내보내기가 완료되면 데이터 세트의 콘텐츠가 사용자가 구성한 일정에 따라 클라우드 저장소 위치에 저장됩니다. [데이터 세트 내보내기가 성공했는지 확인하는 방법을 알아보세요](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=ko#verify){target="_blank"}.
+내보내기가 완료되면 데이터 세트의 콘텐츠가 사용자가 구성한 일정에 따라 클라우드 저장소 위치에 저장됩니다. [데이터 세트 내보내기가 성공했는지 확인하는 방법을 알아보세요](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html#verify){target="_blank"}.
 
 ## 내보내기에 사용 가능한 데이터 세트 {#datasets}
 
@@ -99,7 +99,7 @@ Journey Optimizer을 사용하면 데이터 세트의 콘텐츠를 내보내기 
 | AJO 푸시 프로필 데이터 세트 | 프로필의 푸시 토큰을 저장합니다. |
 | AJO 푸시 추적 경험 이벤트 데이터 세트 | 보고 및 대상자 만들기 목적으로 사용되는 푸시 채널에 대한 상호 작용 로그  |
 | AJO 표면 데이터 세트 | Journey Optimizer 인바운드 표면 스키마와 관련된 빈 데이터 세트 |
-| AOOutputForUPSDataset | UPS에 다시 기록할 모든 AO 대상자 멤버십을 포함합니다. |
+| AOOutputForUPSDataset | 통합 프로필 서비스에 다시 기록할 모든 AO 대상자 멤버십을 포함합니다. |
 | Audience Orchestration 프로필 데이터 세트 | 대상 구성 대상을 위한 대상 구성으로 생성되었습니다. 모든 대상 구성 대상, 해당 속성 및 데이터 보강 포함 |
 | 의사 결정 객체 저장소 - 활동 | 사용자 인터페이스에서 의사 결정이라고도 합니다. 하지만 이러한 요소들은 의사 결정 논리를 포함하여 모든 기본 요소를 함께 배치하는 사용자가 만드는 개체입니다. 예를 들어, 특정 배치(위치)의 경우, 오퍼를 고려할 위치(오퍼 컬렉션)와 해당 오퍼에 사용할 순위 지정 방법을 선택할 수 있습니다. |
 | 의사 결정 개체 저장소 - 대체 오퍼 | 사용자가 만드는 다른 유형의 오퍼에 대한 저장소입니다. 특히 개인화된 오퍼를 볼 자격이 없고 항목을 봐야 하는 경우 적어도 대체 오퍼가 표시됩니다. 이 데이터 세트에는 이 유형의 오퍼에 대한 특성이 포함되어 있습니다. |
