@@ -5,10 +5,10 @@ title: 여러 단계로 구성된 캠페인에 채널 활동 추가
 description: 여러 단계로 구성된 캠페인에 채널 활동을 추가하는 방법 알아보기
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: 8c3ff6c60f846af2cddc8c84507cd64fd457cbbb
+source-git-commit: 3931b1d6fd97b92c79aff2c003f8cb692fc52e47
 workflow-type: tm+mt
-source-wordcount: '1107'
-ht-degree: 74%
+source-wordcount: '1111'
+ht-degree: 72%
 
 ---
 
@@ -60,16 +60,15 @@ UNUSED IDs in BJ
 
 채널 활동을 사용하여 여러 터치포인트에서 고객을 참여시키고 전환을 유도하는 포괄적인 맞춤형 캠페인을 만들 수 있습니다.
 
-
 >[!CAUTION]
 >
 >오케스트레이션된 캠페인에서는 SMS, 푸시 및 이메일 채널만 지원됩니다.
 
+## 채널 활동 추가 및 속성 정의 {#add}
+
 >[!PREREQUISITES]
 >
->채널 활동을 추가하기 전에 [대상자 작성 활동](build-audience.md)을 사용하여 타깃 대상자를 정의합니다.
-
-## 채널 활동 추가 및 속성 정의 {#add}
+>채널 활동을 추가하기 전에 [대상 작성](build-audience.md) 또는 [대상 읽기](read-audience.md) 활동을 사용하여 대상 대상을 정의하십시오.
 
 1. 캔버스에 채널 활동을 추가합니다. 사용 가능한 채널 활동은 **[!UICONTROL 이메일]**, **[!UICONTROL SMS]**, **[!UICONTROL 푸시]**&#x200B;입니다.
 
