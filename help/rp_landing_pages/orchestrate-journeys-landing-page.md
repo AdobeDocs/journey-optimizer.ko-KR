@@ -6,21 +6,21 @@ description: 여정
 redpen-status: CREATED_||_2025-08-11_20-21-13
 exl-id: c148c9e8-8b1d-4c64-8bb6-dc86898cb672
 source-git-commit: 21364f17c8a09d564e97cfc5f29f742dd8f32f4a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '296'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 # 여정{#section-overview}
 
-Adobe Journey Optimizer의 여정을 사용하면 대상의 비헤이비어와 요구에 실시간으로 적응하는 개인화된 여러 단계로 구성된 고객 여정을 만들 수 있습니다. 직관적인 드래그 앤 드롭 캔버스를 사용하여 여러 채널에서 메시지와 액션을 오케스트레이션할 수 있으며, 상황별 데이터와 대상 타겟팅을 활용하여 최대의 효과를 얻을 수 있습니다. 실시간 트리거 탐색, 여정 속성 관리 또는 사용자 정의 액션 및 표현식과 같은 고급 도구를 사용하는 등, 이 섹션에서는 명확한 로드맵을 제공합니다. 안내서 사용 방법, 사용 사례 및 문제 해결 팁을 자세히 살펴보고 의미 있고 시의적절한 고객 경험을 제공하는 여정을 자신 있게 디자인하고 수정해 보세요.
+Adobe Journey Optimizer의 여정을 사용하면 대상자의 행동 및 요구에 실시간으로 적응하는 여러 단계의 개인화된 고객 여정을 만들 수 있습니다. 직관적인 드래그 앤 드롭 캔버스를 사용하여 여러 채널에서 메시지와 액션을 오케스트레이션할 수 있으며, 상황별 데이터와 대상 타겟팅을 활용하여 최대의 효과를 얻을 수 있습니다. 실시간 트리거 탐색, 여정 속성 관리 또는 사용자 정의 액션 및 표현식과 같은 고급 도구를 사용하는 등, 이 섹션에서는 명확한 로드맵을 제공합니다. 안내서 사용 방법, 사용 사례 및 문제 해결 팁을 자세히 살펴보고 의미 있고 시의적절한 고객 경험을 제공하는 여정을 자신 있게 디자인하고 수정해 보세요.
 
 ## 여정 개요
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Adobe Journey Optimizer 여정 시작
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 직관적인 드래그 앤 드롭 도구와 상황별
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 여정 생성 및 관리에 대한 종합 안내서
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer의 직관적인 드래그 앤 드롭 도구와 상황별
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 여정 관리 종합 안내서
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer의 직관적인 드래그 앤 드롭 도구와 상황별
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Adobe Journey Optimizer의 활동
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer의 활동
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer의 표현식 작성
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer의 표현식 작성
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Adobe Journey Optimizer의 실용적인 사용 사례
 
@@ -86,6 +86,6 @@ Adobe Journey Optimizer의 실용적인 사용 사례
 
 - **[고객 여정 문제 해결](troubleshoot-journey-landing-page.md)** - 디버깅 및 최적화를 위한 도구, 오류 코드 및 모범 사례를 통해 여정 실행 문제를 진단하고 해결합니다.
 
-- **[여정 경고 구독](../using/reports/alerts.md)** - 시스템 경고를 관리하고, 알림을 구독하고, 여정 및 캠페인의 문제를 해결하는 방법을 알아봅니다.
+- **[여정 경고 구독](../using/reports/alerts.md)** - 시스템 경고를 관리하고, 알림을 구독하고, 여정과 캠페인의 문제를 해결하는 방법을 알아봅니다.
 
 

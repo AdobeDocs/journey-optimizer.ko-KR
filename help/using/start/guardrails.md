@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 26212ade689477154e4ea33dbc1970e3acea0a12
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2825'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 
 <!--The following guardrails apply to the [email channel](../../rp_landing_pages/email-landing-page.md):-->
 
-같은 발신 도메인을 사용하여 [!DNL Adobe Journey Optimizer] 및 다른 제품(예: [!DNL Adobe Campaign] 또는 [!DNL Adobe Marketo Engage])에서 이메일 메시지를 보낼 수 없습니다.
+동일한 발신 도메인을 사용하여 [!DNL Adobe Journey Optimizer] 및 다른 제품(예: [!DNL Adobe Campaign] 또는 [!DNL Adobe Marketo Engage])에서 이메일 메시지를 보낼 수 없습니다.
 
 ### SMS 가드레일 {#sms-guardrails}
 
@@ -64,21 +64,21 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 * 현재 MMS에는 메시지 피드백 동기화를 사용할 수 없습니다.
 * MMS에 대한 동의 관리는 SMS 채널 수준에서 작동합니다.
 
-### 인바운드 채널 보호 {#inbound-guardrails}
+### 인바운드 채널 가드레일 {#inbound-guardrails}
 
-* Journey Optimizer은 초당 최대 5,000개의 인바운드 요청을 지원합니다. 이 가드레일은 Journey Optimizer에서 지원하는 인바운드 채널([web](../web/get-started-web.md), [인앱](../in-app/get-started-in-app.md), [코드 기반 경험](../code-based/get-started-code-based.md), [콘텐츠 카드](../../rp_landing_pages/content-card-landing-page.md))에서 발생할 수 있는 모든 인바운드 요청에 적용됩니다.
+* Journey Optimizer가 지원하는 인바운드 요청의 최대 볼륨은 초당 5,000개입니다. 이 가드레일은 Journey Optimizer에서 지원하는 인바운드 채널([웹](../web/get-started-web.md), [인앱](../in-app/get-started-in-app.md), [코드 기반 경험](../code-based/get-started-code-based.md), [콘텐츠 카드](../../rp_landing_pages/content-card-landing-page.md))에서 발생할 수 있는 모든 인바운드 요청에 적용됩니다.
 
-  Journey Optimizer 인바운드 채널은 다른 채널에서 이전에 참여하지 않았을 수 있는 새 프로필을 타겟팅합니다. 이렇게 하면 총 참여 가능 프로필 수가 증가하므로, 사용자가 계약 시 구입한 참여 가능 프로필 수를 초과하는 경우 비용이 발생할 수 있습니다. 
+  Journey Optimizer 인바운드 채널은 다른 채널에서 이전에 참여하지 않은 새 프로필을 타기팅합니다. 이렇게 하면 총 참여 가능 프로필 수가 증가하므로, 사용자가 계약 시 구입한 참여 가능 프로필 수를 초과하는 경우 비용이 발생할 수 있습니다. 
 
   각 패키지별 라이선스 지표 목록은 [Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} 페이지에서 확인할 수 있습니다.
 
-* Journey Optimizer은 언제든지 최대 500개의 활성 인바운드 작업을 지원합니다. 이러한 인바운드 작업([웹](../web/get-started-web.md), [인앱](../in-app/get-started-in-app.md), [코드 기반 경험](../code-based/get-started-code-based.md), [여정 카드](../../rp_landing_pages/content-card-landing-page.md))은 실시간 캠페인의 일부이거나 실시간 캠페인에 사용되는 노드인 경우 계산됩니다. 이 번호에 도달하면 새 캠페인을 시작하기 전에 인바운드 작업을 사용하는 이전 캠페인이나 여정을 비활성화해야 합니다.
+* Journey Optimizer는 언제든지 최대 500개의 활성 인바운드 액션을 지원합니다. 이 인바운드 액션([웹](../web/get-started-web.md), [인앱](../in-app/get-started-in-app.md), [코드 기반 경험](../code-based/get-started-code-based.md), [콘텐츠 카드](../../rp_landing_pages/content-card-landing-page.md))은 라이브 캠페인의 일부이거나 라이브 여정에 사용되는 노드인 경우 계산됩니다. 이 수에 도달하면 새 캠페인을 시작하기 전에 인바운드 액션을 사용하는 이전 캠페인이나 여정을 비활성화해야 합니다.
 
-* [에서 ](../code-based/get-started-code-based.md)코드 기반 경험[!DNL Journey Optimizer] 작업을 사용하고 응용 프로그램에서 사용할 수 있는 코드 콘텐츠 페이로드를 전달하려면 [이 페이지](../code-based/code-based-prerequisites.md)에 설명된 필수 구성 요소를 따르십시오.
+* [!DNL Journey Optimizer]에서 [코드 기반 경험](../code-based/get-started-code-based.md) 액션을 사용하고 애플리케이션에서 사용할 수 있는 코드 콘텐츠 페이로드를 전달하려면 [이 페이지](../code-based/code-based-prerequisites.md)에서 설명하는 전제 조건을 따라야 합니다.
 
-### 트랜잭션 메시지 보호 {#transactional-message-guardrails}
+### 트랜잭션 메시지 가드레일 {#transactional-message-guardrails}
 
-Journey Optimizer은 캠페인에서 초당 최대 500개의 트랜잭션 메시지 볼륨을 지원합니다.
+Journey Optimizer가 캠페인에서 지원하는 트랜잭션 메시지의 최대 볼륨은 초당 500개입니다.
 
 ## 랜딩 페이지 보호 {#lp-guardrails}
 
@@ -171,7 +171,7 @@ Journey Optimizer의 하위 도메인 위임에 적용되는 가드레일 및 �
 
 여정의 [이벤트](../event/about-events.md)에 다음 가드레일이 적용됩니다.
 
-* Journey Optimizer은 모든 샌드박스에서 초당 최대 5,000개의 인바운드 여정 이벤트 볼륨을 지원합니다. 이 [&#128279;](../event/about-events.md#event-thoughput) 페이지에서 이 제한에 대해 자세히 알아보세요.
+* Journey Optimizer가 지원하는 인바운드 여정 이벤트의 최대 볼륨은 모든 샌드박스를 통틀어 초당 5,000개입니다. [이 페이지](../event/about-events.md#event-thoughput)에서 이 제한에 대해 자세히 알아보십시오.
 * 이벤트 트리거 여정의 첫 번째 액션을 처리하는 데에는 최대 5분이 걸릴 수 있습니다.
 * 시스템 생성 이벤트의 경우 고유한 오케스트레이션 ID를 얻으려면 먼저 고객 여정을 시작하는 데 사용되는 스트리밍 데이터를 Journey Optimizer 내에서 구성해야 합니다.. 이 오케스트레이션 ID는 Adobe Experience Platform으로 들어오는 스트리밍 페이로드에 추가되어야 합니다. 이 제한은 규칙 기반 이벤트에는 적용되지 않습니다. 
 * 비즈니스 이벤트는 단일 이벤트 또는 대상자 선별 활동과 함께 사용할 수 없습니다. 
@@ -204,7 +204,7 @@ Adobe Experience Platform에서 API 기반 프로필 만들기/업데이트와 �
 
 ### 보조 식별자 {#supplemental}
 
-여정에서 보충 식별자를 사용할 때는 특정 보호 기능이 적용됩니다. [이 페이지](../building-journeys/supplemental-identifier.md#guardrails)에 나열되어 있습니다.
+여정에서 보조 식별자를 사용할 때는 특정 가드레일이 적용됩니다. [이 페이지](../building-journeys/supplemental-identifier.md#guardrails)에 나열되어 있습니다.
 
 ### 표현식 편집기  {#expression-editor}
 
@@ -215,12 +215,12 @@ Adobe Experience Platform에서 API 기반 프로필 만들기/업데이트와 �
 
 ### 여정 활동 {#activities}
 
-#### 대상 자격 활동 {#audience-qualif-g}
+#### 대상자 선별 활동 {#audience-qualif-g}
 
 [대상자 선별](../building-journeys/audience-qualification-events.md) 여정 활동에 다음 가드레일이 적용됩니다.
 
 * 대상자 선별 활동은 Adobe Campaign 활동과 함께 사용할 수 없습니다.
-* 보조 식별자는 대상 자격 여정에서 지원되지 않습니다.
+* 보조 식별자는 대상자 자격 여정에서 지원되지 않습니다.
 
 #### Campaign 활동 {#ac-g}
 
@@ -253,7 +253,7 @@ Adobe Experience Platform에서 API 기반 프로필 만들기/업데이트와 �
 
 **[!UICONTROL 이동]** 활동에는 특정 가드레일이 적용됩니다. [이 페이지](../building-journeys/jump.md#jump-limitations)에 나열되어 있습니다.
 
-#### 대상자 활동 읽기 {#read-segment-g}
+#### 대상자 읽기 활동 {#read-segment-g}
 
 [대상자 읽기](../building-journeys/read-audience.md) 여정 활동에 다음 가드레일이 적용됩니다.
 
@@ -264,7 +264,7 @@ Adobe Experience Platform에서 API 기반 프로필 만들기/업데이트와 �
 * 여정은 하나의 **대상자 읽기** 활동만 가질 수 있습니다.
 * [이 페이지](../building-journeys/read-audience.md)의 **대상자 읽기** 활동을 사용하는 방법에 대한 권장 사항도 참조하십시오.
 * 내보내기 작업을 검색하는 동안 대상이 트리거된 여정(**대상자 읽기** 또는 **비즈니스 이벤트**&#x200B;로 시작)에서 기본적으로 다시 시도가 적용됩니다. 내보내기 작업 생성 중 오류가 발생하면 최대 1시간 동안 10분마다 다시 시도됩니다. 그 후에는 실패로 간주합니다. 따라서 이러한 유형의 여정은 예정된 시간보다 최대 1시간 후에 실행될 수 있습니다.
-* 보조 ID를 사용하는 여정의 경우, 각 여정 인스턴스에 대한 대상 읽기 활동의 읽기 속도는 초당 최대 500개의 프로필로 제한됩니다.
+* 보조 ID를 사용하는 여정의 경우, 대상자 읽기 활동의 읽기 속도는 여정 인스턴스별로 초당 최대 500개의 프로필로 제한됩니다.
 
 [이 페이지](../building-journeys/read-audience.md#must-read)도 참조하십시오.
 

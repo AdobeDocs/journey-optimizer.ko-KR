@@ -5,33 +5,33 @@ title: Adobe Journey Optimizer 도움말
 description: Adobe Journey Optimizer 도움말
 redpen-status: CREATED_||_2025-08-11_21-21-01
 source-git-commit: a73bf80fa61c6ce7c9be054e013e9a59ef3d9ba8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '398'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
 # Adobe Journey Optimizer 도움말{#section-overview}
 
-Adobe Journey Optimizer는 팀이 이메일, SMS 등 여러 채널에 걸쳐 개인화된 매끄러운 고객 경험을 디자인하고 제공할 수 있도록 해줍니다. 캠페인 오케스트레이션, 데이터 관리, 의사 결정을 위한 고급 도구를 결합함으로써 고객 요구에 실시간으로 적응하는 여정을 만들 수 있습니다. 이 설명서는 최신 기능 및 통합 탐색에서부터 대상자 관리, 여정 구성, 성능 분석 방법에 대한 학습에 이르기까지 플랫폼 숙달을 위한 로드맵을 제공합니다. 마케터, 데이터 분석가 또는 캠페인 관리자이든, 자신 있게 목표를 달성하는 데 도움이 되는 단계별 안내서, 모범 사례 및 리소스를 찾을 수 있습니다.
+Adobe Journey Optimizer는 팀이 이메일, SMS 등 여러 채널에 걸쳐 개인화된 매끄러운 고객 경험을 디자인하고 제공할 수 있도록 해줍니다. 캠페인 오케스트레이션, 데이터 관리, 의사 결정을 위한 고급 도구를 결합함으로써 고객 요구에 실시간으로 적응하는 여정을 만들 수 있습니다. 이 설명서는 최신 기능 및 통합 탐색에서부터 대상자 관리, 여정 구성, 성능 분석 방법에 대한 학습에 이르기까지 플랫폼 숙달을 위한 로드맵을 제공합니다. 마케터이든 데이터 분석가나 캠페인 관리자이든, 자신 있게 목표를 달성하는 데 도움이 되는 단계별 안내서, 모범 사례, 리소스를 찾을 수 있습니다.
 
 ## Adobe Journey Optimizer 도움말
 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Adobe Journey Optimizer 시작
 
 Adobe Journey Optimizer의 기능, 아키텍처, 사용자 인터페이스 등 기본 사항에 대해 알아봅니다.
 
-[시작하기](get-started-landing-page.md)
+[시작](get-started-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 여정 종합 안내서
 
@@ -41,7 +41,7 @@ Adobe Journey Optimizer의 기능, 아키텍처, 사용자 인터페이스 등 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 캠페인 이해 및 관리
 
@@ -51,7 +51,7 @@ Adobe Journey Optimizer의 기능, 아키텍처, 사용자 인터페이스 등 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 충돌 관리 및 우선순위 지정
 
