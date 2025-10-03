@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 0d32f1f79314694a34e1e996ed405a4484dc863d
 workflow-type: tm+mt
 source-wordcount: '1726'
-ht-degree: 44%
+ht-degree: 90%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 44%
 
 [!DNL Adobe Journey Optimizer]은(는) 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 모든 변경 사항은 매달 마지막 주 여기 있는 릴리스 정보에 통합됩니다. [!DNL Adobe Journey Optimizer]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko){target="_blank"}를 참조하십시오.
 
-## 2025년 9월 릴리스 정보 {#25-9-rn}
+## 25년 9월 릴리스 정보 {#25-9-rn}
 
-**릴리스 날짜**: 2025년 9월 23~24일
+**릴리스 일자**: 2025년 9월 23~24일
 
 ### 새로운 기능 {#sept-25-9-features}
 
@@ -54,12 +54,12 @@ ht-degree: 44%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer Experimentation Accelerator은 실험을 한 단계 더 발전시키기 위해 설계된 AI 최초 제품입니다. Adobe Journey Optimizer 및 Adobe Target 사용자를 위해 구축된 이 솔루션은 실험 관리를 통합하고, AI 기반의 통찰력과 기회를 제공하며, 새로운 실험 에이전트를 도입합니다.</p>
-<p>다음을 기대할 수 있습니다.</p>
+<p>Journey Optimizer Experimentation Accelerator는 실험을 한 단계 더 발전시키기 위해 설계된 AI 중심 제품입니다. Adobe Journey Optimizer 및 Adobe Target 사용자를 위해 구축된 이 솔루션은 실험 관리를 통합하고, AI 기반 인사이트와 기회를 제공하며, 새로운 실험 에이전트를 도입합니다.</p>
+<p>다음과 같은 기능을 기대할 수 있습니다.</p>
 <ul>
-<li><strong>통합 실험 인벤토리:</strong> 하나의 중앙 작업 공간에서 Adobe Journey Optimizer 및 Adobe Target의 모든 실험을 빠르게 보고, 필터링하고, 관리합니다.</li>
-<li><strong>AI 실험 인사이트 및 기회:</strong> GenAI 기반 인사이트 및 권장 사항을 사용하여 통계적 미리 보기 수준을 넘어서십시오. 이제 각 실험은 지원 근거와 함께 실행 가능한 기회를 표시하므로 팀은 다음에 테스트할 항목을 보다 자신 있게 결정할 수 있습니다.</li>
-<li><strong>Journey Optimizer에서 MAB(Multi-Armed Bandit) 지원:</strong> Multi-Armed Bandit 실험으로 낭비되는 트래픽을 줄이면서 효과를 극대화합니다. MAB은 대상을 균등하게 분할하는 대신 더 많은 방문자를 성과가 가장 좋은 변형에 실시간으로 자동 할당하므로 더 많은 고객에게 더 나은 경험을 전달할 수 있으면서도 어떤 기능이 작동하는지 학습할 수 있습니다.</li></ul>
+<li><strong>통합 실험 인벤토리:</strong> 하나의 중앙 작업 공간에서 Adobe Journey Optimizer 및 Adobe Target의 모든 실험을 빠르게 보고 필터링하고 관리합니다.</li>
+<li><strong>AI 실험 인사이트 및 기회:</strong> 단순한 통계 읽기를 넘어 생성형 AI 기반 인사이트와 추천을 이용할 수 있습니다. 이제 실험별로 실행 가능한 기회를 근거와 함께 표시하므로 팀에서 다음에 테스트할 항목을 보다 자신 있게 결정할 수 있습니다.</li>
+<li><strong>Journey Optimizer의 Multi-Armed Bandit(MAB) 지원:</strong> Multi-Armed Bandit 실험으로 트래픽 낭비를 줄이면서 효과를 극대화할 수 있습니다. MAB는 대상자를 균등하게 분할하지 않고 실시간으로 성과가 가장 좋은 베리에이션에 더 많은 방문자를 자동 할당하므로 더 많은 고객에게 더 나은 경험을 제공하면서 효과가 있는 변수를 파악할 수 있습니다.</li></ul>
 <p><img src="assets/do-not-localize/experimentation-accelerator.gif"/></p>
 <p>자세한 내용은 <a href="../content-management/experiment-accelerator.md">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2025년 9월 23일</p>
@@ -71,13 +71,13 @@ ht-degree: 44%
 <table>
 <thead>
 <tr>
-<th><strong>Journey Agent이 왔습니다!</strong><br/></th>
+<th><strong>Journey 에이전트가 등장했습니다!</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p><a href="https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>에서 제공하는 Journey Agent은 Journey Optimizer에서 사용할 수 있습니다. 자연어 인터페이스를 통해 여정을 분석할 수 있도록 합니다. 에이전트는 여정에서 대상 또는 일정 충돌 및 프로필 드롭오프를 감지하여 이를 해결하기 위한 단계를 수행합니다. 곧, 당신은 무의미한 지원을 통해 여정을 만들 수 있을 것이다.</p>
+<p><a href="https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a> 기반 Journey 에이전트를 Journey Optimizer에서 사용할 수 있습니다. 이 에이전트를 사용하면 자연어 인터페이스를 통해 여정을 분석할 수 있습니다. 에이전트는 여정에서 대상자 또는 일정 충돌 및 프로필 감소를 감지하여 이를 해결하기 위한 단계를 수행합니다. 곧 에이전틱 지원을 통해 여정을 만들 수 있게 될 것입니다.</p>
 <p>자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2025년 9월 24일</p>
 </td>
@@ -156,7 +156,7 @@ ht-degree: 44%
 <tbody>
 <tr>
 <td>
-<p>이전에 공개 베타로 출시된 이 기능은 이제 모든 환경에서 사용할 수 있습니다. 이번 릴리스에서는 다음과 같은 개선 사항이 도입되었습니다.</p>
+<p>이전에 공개 Beta로 릴리스된 이 기능을 이제 모든 환경에서 사용할 수 있습니다. 이번 릴리스에서는 다음과 같은 개선 사항이 도입되었습니다.</p>
 <ul><li>인바운드 채널에서 데이터 세트 조회 개인화를 지원합니다.</li>
 <li>이제 “datasetLookup” 도우미 함수를 표현식 조각 내에서 사용할 수 있습니다. 현재 이 기능은 제한된 고객들만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</li>
 <li>이제 API 호출을 수행하지 않고도 데이터 세트 관리 인터페이스의 옵션을 통해 조회 개인화를 위한 레코드 기반 데이터 세트를 활성화할 수 있습니다.</li>
@@ -173,42 +173,42 @@ ht-degree: 44%
 
 ### 개선 사항 {#sept-25-9-improvements}
 
-* **API 트리거 캠페인에 대한 웹후크 지원**\
-  이제 API 트리거 캠페인이 웹후크를 지원합니다. 모든 메시지에 대한 실시간 상태 업데이트를 받도록 웹후크 URL을 구성하여 가시성을 향상시키고 원활한 모니터링 및 자동화를 가능하게 합니다. [자세히 보기](../configuration/feedback-webhooks.md)
+* **API 트리거 캠페인에서 Webhook 지원**\
+  이제 API 트리거 캠페인이 Webhook를 지원합니다. 모든 메시지에 대한 실시간 상태 업데이트를 받도록 웹후크 URL을 구성하여 가시성을 향상시키고 원활한 모니터링 및 자동화를 가능하게 합니다. [자세히 보기](../configuration/feedback-webhooks.md)
 
   사용 가능한 날짜: 2025년 9월 29일
 
-* SMS 채널에 대한 **mTLS 지원**
-이제 사용자 지정 SMS 공급자를 설정할 때 상호 TLS(mTLS) 인증을 활성화하는 옵션이 있으므로 보안 연결이 설정되기 전에 클라이언트와 서버가 서로의 ID를 확인해야 합니다. [자세히 보기](../sms/sms-configuration-custom.md) - 사용 가능한 날짜: 2025년 9월 23일
+* **SMS 채널에 대한 mTLS 지원**
+이제 사용자 정의 SMS 공급자를 설정할 때 상호 TLS(mTLS) 인증을 활성화하는 옵션이 있습니다. 이 옵션을 선택하면 보안 연결이 설정되기 전에 클라이언트와 서버가 서로의 ID를 확인하도록 요구합니다. [자세히 보기](../sms/sms-configuration-custom.md) - 사용 가능한 날짜: 2025년 9월 23일
 
 * **모델 기반 스키마**\
-  이제 모델 기반 스키마는에서 오케스트레이션된 캠페인에서 관계형 모델링 요구 사항을 지원하는 데 사용할 수 있습니다. [자세히 보기](../orchestrated/gs-schemas.md) - 사용 가능한 날짜: 2025년 9월 23일
+  이제 오케스트레이션된 캠페인에서 관계형 모델링 요구 사항을 지원하기 위해 모델 기반 스키마를 사용할 수 있습니다. [자세히 보기](../orchestrated/gs-schemas.md) - 사용 가능한 날짜: 2025년 9월 23일
 
-* **여정에서 데이터 집합 조회 지원**\
-  여정의 새 활동인 **데이터 집합 조회**&#x200B;를 사용하면 런타임 중에 Adobe Experience Platform 레코드 데이터 집합에서 데이터를 동적으로 검색할 수 있습니다. 이 기능을 활용하면 프로필이나 이벤트 페이로드에 없을 수 있는 데이터에 액세스하여 상호 작용이 적절하고 적시에 이루어지도록 할 수 있습니다. [자세히 보기](../building-journeys/dataset-lookup.md) - 사용 가능한 날짜: 2025년 9월 23일
+* **여정에서 데이터 세트 조회 지원**\
+  여정에 새로 추가된 **데이터 세트 조회** 활동을 사용하면 런타임 중에 Adobe Experience Platform 레코드 데이터 세트의 데이터를 동적으로 검색할 수 있습니다. 이 기능을 활용하면 프로필이나 이벤트 페이로드에 없을 수 있는 데이터에 액세스하여 고객 상호 작용이 적시에 적절하게 이루어질 수 있습니다. [자세히 보기](../building-journeys/dataset-lookup.md) - 사용 가능한 날짜: 2025년 9월 23일
 
-  이 활동은 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
+  이 활동은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
 
-* **여정 사용자 지정 작업에서 리디렉션 지원**\
-  이제 리디렉션(302)이 여정 사용자 지정 작업에서 지원됩니다. - 사용 가능한 날짜: 2025년 9월 23일
+* **여정 사용자 정의 액션에서 리디렉션 지원**\
+  이제 여정 사용자 정의 액션에서 리디렉션(302)이 지원됩니다. - 사용 가능한 날짜: 2025년 9월 23일
 
-* **채널 구성 모니터링 경고** - 이제 구독 설정을 통해 사용자 정의 하위 도메인 위임 유형을 사용하는 이메일 채널 구성 오류가 발생한 경우 이메일 또는 Journey Optimizer 알림 센터에서 시스템 경고를 받을 수 있습니다. [자세히 보기](../reports/alerts.md#alert-channel-config-failure) - 사용 가능한 날짜: 2025년 9월 23일
+* **채널 구성 모니터링 경고** - 이제 사용자 정의 하위 도메인 위임 유형을 사용하는 이메일 채널 구성 오류가 발생한 경우 이메일 또는 Journey Optimizer 알림 센터에서 구독 설정을 통해 시스템 경고를 받을 수 있습니다. [자세히 보기](../reports/alerts.md#alert-channel-config-failure) - 사용 가능한 날짜: 2025년 9월 23일
 
-* **한 번의 클릭으로 구독 취소 요청** - Adobe 관리에서 구성한 한 번의 클릭으로 구독 취소 요청을 더욱 강력하게 처리하여 안정적이고 일관된 처리를 가능하게 하는 개선 사항이 도입되었습니다. - 사용 가능한 날짜: 2025년 9월 23일
+* **원클릭 구독 취소 요청** - Adobe 관리에서 구성한 원클릭 구독 취소 요청을 더욱 강력하게 처리하여 안정적이고 일관된 처리를 가능하게 하는 개선 업데이트를 진행했습니다. - 사용 가능한 날짜: 2025년 9월 23일
 
-* **이제 사용자 지정 인증에서 중첩된 JSON 본문 매개 변수가 지원됩니다**\
-  사용자 지정 작업에 대한 사용자 지정 인증을 구성할 때 중첩 JSON 개체(예: `bodyParams` 내의 하위 개체)가 지원됩니다. [자세히 보기](../datasource/external-data-sources.md#custom-authentication-mode) - 사용 가능한 날짜: 2025년 9월 18일
+* **이제 사용자 정의 인증에서 중첩된 JSON 본문 매개 변수 지원**\
+  사용자 정의 액션에 대한 사용자 정의 인증을 구성할 때 중첩 JSON 오브젝트(예: `bodyParams` 내 하위 오브젝트)가 지원됩니다. [자세히 보기](../datasource/external-data-sources.md#custom-authentication-mode) - 사용 가능한 날짜: 2025년 9월 18일
 
-* **시간 단위 캡핑 빈도 재설정** - 이제 채널 규칙 세트에 대해 시간 단위로 캡핑을 적용할 수 있습니다. 이전에는 제한된 가용성에서 사용할 수 있었지만 이제 모든 환경에서 이 기능을 사용할 수 있으며 1시간(이전에는 3시간)을 선택할 수 있습니다. [자세히 보기](../conflict-prioritization/channel-capping.md) - 사용 가능한 날짜: 2025년 9월 17일
+* **시간 단위 캡핑 빈도 재설정** - 이제 채널 규칙 세트에 대해 시간 단위로 캡핑을 적용할 수 있습니다. 이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있으며 1시간을 선택할 수 있습니다(이전에는 3시간). [자세히 보기](../conflict-prioritization/channel-capping.md) - 사용 가능한 날짜: 2025년 9월 17일
 
-* **모든 인바운드 채널에 대한 콘텐츠 변형 시뮬레이션**\
-  이전에는 이메일, SMS 및 푸시 알림 채널에서만 사용할 수 있었지만 콘텐츠 변형 시뮬레이션은 이제 모든 인바운드 채널에도 적용됩니다. [자세히 보기](../test-approve/simulate-sample-input.md) - 사용 가능한 날짜: 2025년 9월 17일
+* **모든 인바운드 채널에 대한 콘텐츠 베리에이션 시뮬레이션**\
+  이전에는 이메일, SMS, 푸시 알림 채널에서만 사용할 수 있던 콘텐츠 베리에이션 시뮬레이션이 이제 모든 인바운드 채널에도 적용됩니다. [자세히 보기](../test-approve/simulate-sample-input.md) - 사용 가능한 날짜: 2025년 9월 17일
 
 * **결정 캡핑 규칙에 표현식 사용** - 이제 결정 항목에 대한 캡핑 규칙의 임계값을 정의하기 위해 자체 표현식을 작성할 수 있습니다. [자세히 보기](../experience-decisioning/items.md#capping) - 사용 가능한 날짜: 2025년 9월 16일
 
 * **동적 도메인 지원** - 이제 Journey Optimizer가 Adobe에서 허용하는 사전 정의된 도메인에 대한 전체/기본 URL 개인화를 지원합니다. [자세히 보기](../personalization/personalization-build-expressions.md#where) - 사용 가능한 날짜: 2025년 9월 12일
 
-  이 기능은 일부 고객에게는 제한된 가용성으로 제공됩니다.
+  이 기능은 제한된 가용성으로 일부 고객에게만 제공됩니다.
 
 * **Webhooks** - 이 릴리스에서는 사용자 지정 SMS 공급자를 구성할 때 Webhooks에 대해 다음과 같은 개선 사항이 도입되었습니다.
 
@@ -227,9 +227,9 @@ ht-degree: 44%
   Added an option when creating or setting Approval Policy to prevent Journey/Campaign creators from approving their own objects. [Read more](../test-approve/approval-policies.md) - Availability date: Sept 23, 2025 
 -->
 
-### 준비 중 {#sept-25-9-soon}
+### 곧 출시 예정 {#sept-25-9-soon}
 
-다음 며칠 내에 다음 기능 및 개선 사항이 릴리스될 예정입니다. **정보가 변경될 수 있습니다**. 업데이트된 링크, 화면 및 설명서는 프로덕션 상태에 있게 되면 공유됩니다.
+조만간 다음 기능 및 개선 업데이트가 릴리스될 예정입니다. **이 정보는 변경될 수 있습니다**. 업데이트된 링크, 화면, 설명서는 업데이트가 프로덕션에서 제공될 때 공유 예정입니다.
 
 <!--table>
 <thead>
@@ -316,7 +316,7 @@ ht-degree: 44%
 <ul>
 <li>매년 프로필별로 최대 6개의 PDF 첨부 파일을 사용하여 메시지를 보낼 수 있습니다.</li>
 <li>각 첨부 파일의 최대 크기는 5MB입니다.</li>
-<li>추가 크기나 볼륨의 경우 PDF 첨부 파일 추가 기능을 구입할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.</li>
+<li>용량이나 수량이 더 필요하다면 PDF 첨부 파일 추가 기능을 구매할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.</li>
 </ul>
 <p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
 <p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
@@ -329,25 +329,25 @@ ht-degree: 44%
 
 
 
-* **새 여정 알림**\
-  여정에 대해 사전 구성된 새 경고를 사용할 수 있습니다.
+* **새로운 여정 경고**\
+  여정에 대해 새로운 사전 구성 경고를 사용할 수 있습니다.
 
-   * 프로필 폐기 비율 초과: 지난 5분 동안 임계값을 초과한 입력된 프로필에 대한 프로필 폐기 비율입니다.
-   * 사용자 지정 작업 오류율 초과: 지난 5분 동안 임계값보다 높은 성공적인 HTTP 호출에 대한 사용자 지정 작업 오류의 비율입니다.
+   * 프로필 삭제율 초과: 지난 5분 동안 입력한 프로필에 대한 프로필 삭제율이 임계값을 초과했습니다.
+   * 사용자 정의 액션 오류율 초과: 지난 5분 동안 성공적인 HTTP 호출에 대한 사용자 정의 액션 오류율이 임계값을 초과했습니다.
    * 프로필 오류율 초과: 지난 5분 동안 입력한 프로필 대비 오류가 발생한 프로필 비율이 임계값을 초과했습니다.
 <!--
   * [Profile Discard Rate Exceeded](../reports/alerts.md#profile-discard-rate-exceeded): Ratio of profile discards to entered profiles over the last 5 mins exceeded threshold.  
   * [Custom Action Error Rate Exceeded](../reports/alerts.md#custom-action-error-rate-exceeded): Ratio of custom action errors to successful HTTP calls over the last 5 mins exceeded threshold.  
   * [Profile Error Rate Exceeded](../reports/alerts.md#profile-error-rate-exceeded): Ratio of profiles-in-error to entered profiles over the last 5 mins exceeded threshold.-->
 
-임계값을 수정하고 개별 여정 수준 경고를 전역으로 구독할 수 있습니다.
+임계값을 수정하고 개별 여정 수준에서 경고를 받거나 전체적으로 구독할 수 있습니다.
 
 <!-- Availability date: Sept XX, 2025-->
 
 
-* **한 번의 클릭으로 구독 취소 URL을 지원하는 사용자 지정 특성**\
-  Journey Optimizer을 사용하면 Adobe 외부에서 동의를 관리하는 경우 이메일 구성에서 클릭 한 번으로 구독 취소 링크를 정의하여 외부 사용자 지정 엔드포인트를 설정할 수 있습니다. 수신자가 구독 취소 링크를 클릭하면 Journey Optimizer는 기본 프로필별 매개 변수 몇 가지를 동의 업데이트 이벤트에 추가합니다.
+* **원클릭 구독 취소 URL에 사용자 정의 속성 지원**\
+  Journey Optimizer를 사용할 때 Adobe 외부에서 동의를 관리하는 경우 이메일 구성에서 원클릭 구독 취소 링크를 정의하여 외부 사용자 정의 엔드포인트를 설정할 수 있습니다. 수신자가 구독 취소 링크를 클릭하면 Journey Optimizer는 기본 프로필별 매개 변수 몇 가지를 동의 업데이트 이벤트에 추가합니다.
 
-  이제 구독 취소 이메일 주소를 추가로 개인화하기 위해 동의 이벤트에 추가할 사용자 지정 속성을 정의할 수 있습니다. 이 기능은 8월 25일 릴리스부터 사용자 정의 원클릭 구독 취소 링크에 이미 사용할 수 있습니다.
+  이제 구독 취소 이메일 주소의 개인화 수준을 더욱 높이기 위해 동의 이벤트에 추가할 사용자 정의 속성을 지정할 수 있습니다. 이 기능은 이미 8월 25일 릴리스부터 사용자 정의 원클릭 구독 취소 링크에 사용할 수 있습니다.
 
   <!-- Availability date: Sept XX, 2025-->

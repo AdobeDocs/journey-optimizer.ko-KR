@@ -86,7 +86,7 @@ ht-degree: 99%
       + [콘텐츠 결정](using/building-journeys/content-decision.md)
       + [데이터 세트 조회](using/building-journeys/dataset-lookup.md)
       + [작업](using/building-journeys/journey-action.md)
-      + [기본 제공 채널 액션](using/building-journeys/journeys-message.md)
+      + [기본 제공 채널 작업](using/building-journeys/journeys-message.md)
       + [점프](using/building-journeys/jump.md)
       + [프로필 업데이트](using/building-journeys/update-profiles.md)
       + [사용자 정의 액션](using/building-journeys/using-custom-actions.md)
@@ -292,7 +292,7 @@ ht-degree: 99%
       + [테스트 프로필 데이터를 사용한 증명 전송](using/content-management/proofs.md)
       + [이메일 렌더링 테스트](using/content-management/rendering.md)
       + [콘텐츠 베리에이션 시뮬레이션](using/test-approve/simulate-sample-input.md)
-      + [콘텐츠 변형 자동 생성](using/test-approve/simulate-sample-input-generated.md)
+      + [콘텐츠 베리에이션 자동 생성](using/test-approve/simulate-sample-input-generated.md)
       + [이메일 스팸 보고서](using/content-management/spam-report.md)
    + 여정 및 캠페인 승인 {#approve}
       + [여정 및 캠페인 승인](/help/rp_landing_pages/approve-landing-page.md)
@@ -483,7 +483,7 @@ ht-degree: 99%
          + [랜딩 페이지 컨텐츠 만들기](using/landing-pages/lp-content.md)
          + [템플릿 만들기](using/landing-pages/lp-templates.md)
          + [사용자 지정 JavaScript 추가](using/landing-pages/lp-custom-js.md)
-      + [랜딩 페이지의 양식 활용](using/landing-pages/lp-forms.md)
+      + [랜딩 페이지 양식 활용](using/landing-pages/lp-forms.md)
       + [구독 목록 만들기](using/landing-pages/subscription-list.md)
       + [사용 사례를 통해 알아보기](using/landing-pages/lp-use-cases.md)
       + 랜딩 페이지 구성 {#lp-configuration}
@@ -746,7 +746,7 @@ ht-degree: 99%
          + [결정 만들기](using/offers/offer-activities/create-offer-activities.md)
          + [결정에서 오퍼 선택 구성](using/offers/offer-activities/configure-offer-selection.md)
          + [시뮬레이션 만들기](using/offers/offer-activities/simulation.md)
-      + [배치 결정 사용](using/offers/batch-delivery.md)
+      + [배치 의사결정 사용](using/offers/batch-delivery.md)
       + 이벤트 데이터 수집 {#collect-event-data}
          + [이벤트 데이터 수집](/help/rp_landing_pages/collect-event-data-landing-page.md)
          + [데이터 수집 시작하기](using/offers/data-collection/data-collection.md)
