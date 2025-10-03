@@ -5,9 +5,9 @@ title: 타겟팅 차원 만들기
 description: 고객 프로필에 관계형 스키마를 매핑하는 방법에 대해 알아봅니다
 exl-id: 2479c109-cd6f-407e-8a53-77e4477dc36f
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: aa075c1ca2feb3b6ef406089ab9fffd704fd95e2
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '742'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 0%
 
    이 예제에서 고객 프로필은 `crmID` 스키마에서 각각 고유한 `Recipient`(으)로 표시되는 여러 구독에 연결됩니다. **[!UICONTROL 스키마와 해당]** ID를 사용하도록 `Recipient`Target Dimension`crmID`을(를) 설정하여 기본 고객 프로필이 아닌 구독 수준에서 메시지를 보내어 각 계약 또는 줄이 개인화된 메시지를 받도록 할 수 있습니다.
 
-   [Adobe Experience Platform 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/composition#identity)
+   [Adobe Experience Platform 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity)
 
    ![](assets/target-dimension-2.png)
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 ## 채널 구성 {#channel-configuration}
 
-**[!UICONTROL Target Dimension]**&#x200B;을 설정한 후에는 전자 메일 또는 SMS를 **[!UICONTROL 채널 구성]**&#x200B;을 구성하고 적절한 **[!UICONTROL 실행 세부 정보]**&#x200B;를 정의해야 합니다. 이를 통해 을(를) 정의할 수 있습니다.
+**[!UICONTROL Target Dimension]**&#x200B;을 설정한 후에는 **[!UICONTROL 채널 구성]**&#x200B;을 구성하고 적절한 **[!UICONTROL 실행 세부 정보]**&#x200B;를 정의해야 합니다. 이를 통해 을(를) 정의할 수 있습니다.
 
 * **메시지 게재 수준**: 예를 들어, 개인당 하나의 전자 메일과 같이 받는 사람당 하나의 메시지를 보내는 경우입니다.
 
