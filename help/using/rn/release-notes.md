@@ -42,7 +42,7 @@ ht-degree: 88%
 <p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
 <p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
 <p>자세한 내용은 <a href="../email/pdf-attachments.md">세부 설명서</a>를 참조하십시오.</p>
-<p>사용 가능한 날짜: 2025년 9월 30일</p-->
+<p>사용 가능한 날짜: 2025년 9월 30일&lt;/p-->
 </td>
 </tr>
 </tbody>
