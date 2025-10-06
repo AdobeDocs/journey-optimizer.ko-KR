@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 version: Journey Orchestration
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: 189a5e1c31946e05ef88161f0b5d678b95dd2064
+source-git-commit: 3a682f0fc6a6f9a3a505dfd99bd8d54dfd41a077
 workflow-type: tm+mt
 source-wordcount: '750'
-ht-degree: 14%
+ht-degree: 15%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 14%
 
 >[!AVAILABILITY]
 >
->이 활동은 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
+>이 활동은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
 
 ## 반드시 알아야 할 사항 {#must-read}
 
@@ -124,6 +124,7 @@ Adobe Experience Platform에서 조회를 위해 데이터 세트를 활성화�
 1. **구매 이벤트**: 사용자의 장바구니에서 SKU를 캡처합니다.
 
 1. **데이터 집합 조회 활동**:
+
 * 데이터 집합: `products-dataset`(기본 키로 SKU).
 * 조회 키: `list(@event{purchase_event.products.sku})`.
 * 반환할 필드: `["SKU", "category", "price"]`.
@@ -133,7 +134,7 @@ Adobe Experience Platform에서 조회를 위해 데이터 세트를 활성화�
    * 범주가 &quot;세대&quot;인 SKU를 필터링합니다.
 
      ```
-     @event{purchase_event.products.all( in(currentEventField.sku, @datasetlookup{MyDatasetLookupActivity1.entities.all(currentDatasetLookupField.category == ‘household’).sku} ) )} 
+     @event{purchase_event.products.all( in(currentEventField.sku, @datasetlookup{MyDatasetLookupActivity1.entities.all(currentDatasetLookupField.category == 'household').sku} ) )} 
      ```
 
    또는
@@ -141,7 +142,7 @@ Adobe Experience Platform에서 조회를 위해 데이터 세트를 활성화�
    * 가정용품에 대한 총 지출을 집계하여 $40 임계값과 비교합니다.
 
      ```
-     sum(@event{purchase_event.products.all( in(currentEventField.sku, @datasetlookup{MyDatasetLookUpActivity1.entities.all(currentDatasetLookupField.category == ‘household’).sku} ) )}.price}, ',', true ) > 40
+     sum(@event{purchase_event.products.all( in(currentEventField.sku, @datasetlookup{MyDatasetLookUpActivity1.entities.all(currentDatasetLookupField.category == 'household').sku} ) )}.price}, ',', true ) > 40
      ```
 
 1. **Personalization 편집기**:
