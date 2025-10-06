@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 version: Journey Orchestration
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: 3a682f0fc6a6f9a3a505dfd99bd8d54dfd41a077
+source-git-commit: 5b7847957cc0fa176a32c7e0b01d5f41fd424610
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 15%
@@ -125,9 +125,9 @@ Adobe Experience Platform에서 조회를 위해 데이터 세트를 활성화�
 
 1. **데이터 집합 조회 활동**:
 
-* 데이터 집합: `products-dataset`(기본 키로 SKU).
-* 조회 키: `list(@event{purchase_event.products.sku})`.
-* 반환할 필드: `["SKU", "category", "price"]`.
+   * 데이터 집합: `products-dataset`(기본 키로 SKU).
+   * 조회 키: `list(@event{purchase_event.products.sku})`.
+   * 반환할 필드: `["SKU", "category", "price"]`.
 
 1. **조건 활동**:
 
