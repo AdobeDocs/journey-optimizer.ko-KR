@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 메시지, 빈도, 규칙, 압력
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
+source-git-commit: 9cd21ef6552ce8f6ddb2097de883ec1a1bbf06e2
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 29%
+source-wordcount: '1018'
+ht-degree: 27%
 
 ---
 
@@ -74,6 +74,11 @@ ht-degree: 29%
 >abstract="Specify the maximum number of messages sent to a customer profile within the chosen time frame. The frequency cap will be based on the selected calendar period and will be reset at the beginning of the corresponding time frame."-->
 
 >[!CONTEXTUALHELP]
+>id="ajo_rule_type"
+>title="규칙 유형"
+>abstract="채널 규칙 집합에 대해 원하는 규칙 유형을 선택하십시오. **빈도 제한** 유형을 사용하여 통신 채널에 제한 규칙을 적용하십시오. 예를 들어 하루에 1개 이상의 이메일 또는 SMS 커뮤니케이션을 보내지 마십시오. 특정 기간 동안 메시지가 전송되지 않도록 시간 기반 제외를 정의하려면 **조용한 시간**(제한된 가용성으로 사용 가능)을 선택하십시오.&quot;
+
+>[!CONTEXTUALHELP]
 >id="ajo_rule_sets_duration"
 >title="메시지 규칙 카테고리 선택"
 >abstract="활성화되어 메시지에 적용되면 선택한 카테고리와 일치하는 모든 빈도 규칙은 이 메시지에 자동으로 적용됩니다. 현재 마케팅 카테고리만 사용할 수 있습니다."
@@ -82,6 +87,11 @@ ht-degree: 29%
 >id="ajo_rule_set_rule_capping"
 >title="규칙 캡핑"
 >abstract="규칙에 대한 상한을 설정하십시오. 규칙 세트 도메인과 규칙 유형 필드에서의 선택에 따라 이 필드는 프로필로 보낼 수 있는 최대 메시지 수 또는 프로필이 동시에 입력되거나 등록될 수 있는 최대 여정 수를 정의할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_business_rules"
+>title="규칙 세트"
+>abstract="사용자 지정 작업에 적용할 규칙 세트를 선택합니다."
 
 규칙 세트를 만들려면 아래 단계를 수행합니다.
 
@@ -164,4 +174,4 @@ ht-degree: 29%
 
 ## 사용 방법 비디오 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444733?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
