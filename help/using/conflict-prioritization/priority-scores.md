@@ -4,7 +4,7 @@ description: 여정 및 캠페인에 우선 순위 점수를 할당하는 방법
 role: User
 level: Beginner
 exl-id: f33ca0a8-ed33-4964-a85c-8705a4ff728e
-source-git-commit: e8f7f5862e3816481680fa999657ae90334ff888
+source-git-commit: be1538495ea7427fd8c4b8ea781db74bf557c22f
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 35%
@@ -56,7 +56,7 @@ Journey Optimizer을 사용하면 여정 **[!UICONTROL Action]** 활동 내에�
 >title="우선 순위"
 >abstract="여정 액션에 우선순위 점수를 할당합니다. 동일한 채널 구성을 사용하는 여러 여정 액션이나 캠페인이 있는 경우 인바운드 작업의 우선순위를 지정하는 것이 중요합니다.</br>숫자 값(0~100)을 입력하십시오. 숫자가 높을수록 우선순위가 높다는 점에 유의하십시오. 기본적으로 액션의 우선순위 점수는 여정의 전반적인 우선순위 점수에서 상속됩니다."
 
-Journey Optimizer을 사용하면 **[!UICONTROL Action]** 활동 내에서 인바운드 채널 작업에 우선 순위 점수를 할당할 수도 있습니다.
+Journey Optimizer을 사용하면 [Action](../building-journeys/journey-action.md) 활동 내에서 인바운드 채널 작업에 우선 순위 점수를 할당할 수도 있습니다.
 
 이렇게 하면 동일한 채널 구성을 사용하는 캠페인이나 여정 작업이 여러 개 있는 경우 인바운드 작업의 우선 순위를 지정할 수 있습니다.
 
@@ -72,4 +72,4 @@ Journey Optimizer을 사용하면 **[!UICONTROL Action]** 활동 내에서 인�
 
 ## 사용 방법 비디오 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3445008?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)
