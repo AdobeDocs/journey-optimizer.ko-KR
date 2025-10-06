@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 내용, 실험, 복수, 대상자, 처리
 exl-id: 938b148e-b2cd-4d8b-9f73-dd62420d6184
-source-git-commit: 61ae9196f699c3b6aa1d9a5bb2259d36aaebc0e3
+source-git-commit: 09a0b24c7e6ae071851a60f35f50e3f5048b0148
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '465'
 ht-degree: 15%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 15%
 
 >[!AVAILABILITY]
 >
->**Journey Optimizer Experimentation Accelerator**&#x200B;을(를) 사용하려면 고객이 Adobe Target 또는 Adobe Journey Optimizer 라이선스가 있어야 합니다.
+>**Journey Optimizer Experimentation Accelerator**&#x200B;에는 유료 라이선스가 필요하며 Adobe Target 또는 Adobe Journey Optimizer에서 작업할 수 있습니다.
 
 **Journey Optimizer Experimentation Accelerator**&#x200B;은(는) 실험 프로세스를 간소화하고 향상하기 위해 고안된 강력한 도구입니다. Adobe Target 및 Adobe Journey Optimizer과 통합하여 실험을 관리, 분석 및 최적화할 수 있는 중앙 집중식 플랫폼을 제공합니다. Journey Optimizer Experimentation Accelerator은 AI 기반 인사이트와 적응형 테스트를 활용하여 데이터 기반 의사 결정을 내리고 마케팅 전략을 개선하며 측정 가능한 결과를 도출하는 기능을 제공합니다.
 
