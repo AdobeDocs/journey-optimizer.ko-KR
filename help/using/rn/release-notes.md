@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f534edb8d4709c74f42bf6b2456d83de128196eb
+source-git-commit: 8be7a537781331fdc8cf198c366868ab1c886b38
 workflow-type: tm+mt
-source-wordcount: '1768'
+source-wordcount: '1781'
 ht-degree: 88%
 
 ---
@@ -23,6 +23,30 @@ ht-degree: 88%
 [!DNL Adobe Journey Optimizer]은(는) 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 모든 변경 사항은 매달 마지막 주 여기 있는 릴리스 정보에 통합됩니다. [!DNL Adobe Journey Optimizer]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko){target="_blank"}를 참조하십시오.
 
 ## 2025년 10월 업데이트 {#25-10-rn}
+
+<table>
+<thead>
+<tr>
+<th><strong>이메일에 PDF 파일 첨부</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 Journey Optimizer로 보내는 이메일 메시지에 정적 PDF 파일을 첨부할 수 있습니다.</p>
+<ul>
+<li>매년 프로필별로 최대 6개의 PDF 첨부 파일을 사용하여 메시지를 보낼 수 있습니다.</li>
+<li>각 첨부 파일의 최대 크기는 5MB입니다.</li>
+<li>용량이나 수량이 더 필요하다면 PDF 첨부 파일 추가 기능을 구매할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.</li>
+</ul>
+<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
+<p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
+<p>자세한 내용은 <a href="../email/pdf-attachments.md">세부 설명서</a>를 참조하십시오.</p>
+<p>사용 가능한 날짜: 2025년 9월 30일</p-->
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -304,31 +328,6 @@ ht-degree: 88%
 </tr>
 </tbody>
 </table>
-
-<table>
-<thead>
-<tr>
-<th><strong>이메일에 PDF 파일 첨부</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 Journey Optimizer로 보내는 이메일 메시지에 정적 PDF 파일을 첨부할 수 있습니다.</p>
-<ul>
-<li>매년 프로필별로 최대 6개의 PDF 첨부 파일을 사용하여 메시지를 보낼 수 있습니다.</li>
-<li>각 첨부 파일의 최대 크기는 5MB입니다.</li>
-<li>용량이나 수량이 더 필요하다면 PDF 첨부 파일 추가 기능을 구매할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.</li>
-</ul>
-<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
-<p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
-<!--p>For more information, refer to the <a href="../email/pdf-attachments.md">detailed documentation</a></p>
-<p>Availability date: Sept XX, 2025</p-->
-</td>
-</tr>
-</tbody>
-</table>
-
 
 
 * **새로운 여정 경고**\
