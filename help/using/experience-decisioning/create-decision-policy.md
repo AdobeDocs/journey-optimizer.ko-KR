@@ -5,7 +5,7 @@ feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
-source-git-commit: 7896dc3450f499e0889f6e32df5958ae9868d9e6
+source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
 workflow-type: tm+mt
 source-wordcount: '1644'
 ht-degree: 8%
@@ -234,3 +234,4 @@ ht-degree: 8%
 의사 결정 정책을 만드는 방법을 이해했으므로 [!DNL Journey Optimizer] 채널에서 오퍼를 제공할 준비가 되었습니다.
 
 ➡️ [메시지에서 의사 결정 정책을 사용하는 방법 알아보기](../experience-decisioning/use-decision-policy.md)
+

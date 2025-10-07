@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 7896dc3450f499e0889f6e32df5958ae9868d9e6
+source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 28%
@@ -83,3 +83,4 @@ ht-degree: 28%
 의사 결정 정책의 작동 방식과 맞춤형 오퍼를 제공하는 데 도움이 되는 방법을 이해했으므로 이제 첫 번째 의사 결정 정책을 만들 준비가 되었습니다.
 
 ➡️ [의사 결정 정책을 만드는 방법 알아보기](../experience-decisioning/create-decision-policy.md)
+
