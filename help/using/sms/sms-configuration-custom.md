@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 1d869ee8bf1c76e182a3f6b0433e5ab2eec2a8fb
+source-git-commit: 21eebaaa0193164ac70dd819b25ad6547446397f
 workflow-type: tm+mt
-source-wordcount: '1357'
+source-wordcount: '1355'
 ht-degree: 7%
 
 ---
@@ -173,7 +173,7 @@ API 자격 증명이 생성되면 JWT 인증에 필요한 필드를 작성합니
 
 >[!ENDSHADEBOX]
 
-API 자격 증명이 정상적으로 생성되면 다음 단계는 웹후크를 만들고 인바운드 설정을 구성하는 것입니다. 이 구성은 시스템에서 들어오는 데이터 또는 메시지를 제대로 수신하고 처리할 수 있도록 합니다.
+API 자격 증명이 정상적으로 생성되면 이제 옵트인 및 옵트아웃 동의 관리를 위한 인바운드 응답을 캡처하고, 사용 가능한 경우 읽기 확인을 포함한 게재 보고서를 수신하도록 웹후크를 구성할 수 있습니다.
 
 웹후크를 설정할 때 캡처할 데이터 유형을 기반으로 용도를 정의할 수 있습니다.
 
