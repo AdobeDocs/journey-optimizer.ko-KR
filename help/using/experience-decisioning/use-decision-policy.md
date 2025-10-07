@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 mini-toc-levels: 1
-source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
+source-git-commit: 5c8afc78e14a358b2d6baebfca7dbb76991894c8
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '936'
 ht-degree: 1%
 
 ---
@@ -19,29 +19,39 @@ ht-degree: 1%
 
 ## 의사 결정 정책 코드 삽입 {#insert-code}
 
+>[!BEGINTABS]
+
+>[!TAB 코드 기반 경험]
+
 1. 개인화 편집기를 열고 **[!UICONTROL 의사 결정 정책]** 메뉴에 액세스합니다.
 
-1. 결정 정책에 해당하는 코드를 추가하려면 **[!UICONTROL 정책 삽입]**(코드 기반 경험) 또는 **[!UICONTROL 구문 삽입]**(전자 메일)을 선택하십시오.
-
-   +++이메일에 의사 결정 정책 코드 삽입
-
-   ![](assets/decision-policy-add.png)
-
-   전자 메일의 경우, 미리 구성 요소에 연결된 배치가 없으면 목록에서 배치를 선택하고 **[!UICONTROL 할당]**&#x200B;을 클릭합니다.
-
-   ![](assets/decision-policy-placement.png)
-
-   +++
-
-   +++코드 기반 환경에 의사 결정 정책 코드 삽입
+1. 결정 정책에 해당하는 코드를 추가하려면 **[!UICONTROL 정책 삽입]**&#x200B;을 선택하십시오.
 
    ![](assets/decision-code-based-add-decision.png)
-
-   +++
 
    >[!NOTE]
    >
    >코드 삽입 단추가 표시되지 않으면 상위 구성 요소에 대해 의사 결정 정책이 이미 구성되어 있을 수 있습니다.
+
+1. 결정 정책에 대한 코드가 추가됩니다. 이 순서는 결정 정책이 반환될 횟수를 반복합니다. 예를 들어 [결정을 만들](#add-decision) 때 다시 2개 항목을 반환하도록 선택한 경우 동일한 시퀀스가 두 번 반복됩니다.
+
+>[!TAB 이메일]
+
+1. 개인화 편집기를 열고 **[!UICONTROL 의사 결정 정책]** 메뉴에 액세스합니다.
+
+1. 결정 정책에 해당하는 코드를 추가하려면 **[!UICONTROL 구문 삽입]**&#x200B;을 선택하십시오.
+
+   ![](assets/decision-policy-add.png)
+
+   >[!NOTE]
+   >
+   >코드 삽입 단추가 표시되지 않으면 상위 구성 요소에 대해 의사 결정 정책이 이미 구성되어 있을 수 있습니다.
+
+1. 미리 구성 요소와 연결된 배치가 없으면 목록에서 배치를 선택하고 **[!UICONTROL 할당]**&#x200B;을 클릭합니다.
+
+   ![](assets/decision-policy-placement.png)
+
+>[!ENDTABS]
 
 1. 결정 정책에 대한 코드가 추가됩니다. 이 순서는 결정 정책이 반환될 횟수를 반복합니다. 예를 들어 [결정을 만들](#add-decision) 때 다시 2개 항목을 반환하도록 선택한 경우 동일한 시퀀스가 두 번 반복됩니다.
 
@@ -54,7 +64,7 @@ ht-degree: 1%
 >[!NOTE]
 >
 >결정 정책 항목 추적의 경우 결정 정책 콘텐츠에 대해 `trackingToken` 특성을 다음과 같이 추가해야 합니다.
->&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 속성을 추가하려면 속성 옆에 있는 &#39;+&#39; 아이콘을 클릭합니다. 코드에 원하는 수만큼 속성을 추가할 수 있습니다.
 
