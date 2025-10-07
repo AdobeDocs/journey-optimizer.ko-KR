@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 mini-toc-levels: 1
-source-git-commit: 5c8afc78e14a358b2d6baebfca7dbb76991894c8
+source-git-commit: 2960ed9c9f7a65cbd7122424c2438a461ee8beab
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '937'
 ht-degree: 1%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 1%
 
 >[!ENDTABS]
 
-1. 결정 정책에 대한 코드가 추가됩니다. 이 순서는 결정 정책이 반환될 횟수를 반복합니다. 예를 들어 [결정을 만들](#add-decision) 때 다시 2개 항목을 반환하도록 선택한 경우 동일한 시퀀스가 두 번 반복됩니다.
+의사 결정 정책에 대한 코드가 추가되면 의사 결정 정책을 반환할 횟수만큼 이 시퀀스가 반복됩니다. 예를 들어 [결정을 만들](#add-decision) 때 다시 2개 항목을 반환하도록 선택한 경우 동일한 시퀀스가 두 번 반복됩니다.
 
 ## 의사 결정 항목 속성 활용 {#attributes}
 
@@ -64,7 +64,7 @@ ht-degree: 1%
 >[!NOTE]
 >
 >결정 정책 항목 추적의 경우 결정 정책 콘텐츠에 대해 `trackingToken` 특성을 다음과 같이 추가해야 합니다.
->&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 속성을 추가하려면 속성 옆에 있는 &#39;+&#39; 아이콘을 클릭합니다. 코드에 원하는 수만큼 속성을 추가할 수 있습니다.
 

@@ -5,9 +5,9 @@ feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
-source-git-commit: 5c8afc78e14a358b2d6baebfca7dbb76991894c8
+source-git-commit: 2960ed9c9f7a65cbd7122424c2438a461ee8beab
 workflow-type: tm+mt
-source-wordcount: '1745'
+source-wordcount: '1721'
 ht-degree: 7%
 
 ---
@@ -88,9 +88,9 @@ ht-degree: 7%
 
    ![](assets/decision-code-based-details.png)
 
-   이메일 채널의 경우 **[!UICONTROL 항목 수]** 필드는 기본적으로 1로 설정되어 있으며, **[!UICONTROL 반복 그리드]** 구성 요소 내에서 결정 정책을 추가하지 않으면 수정할 수 없습니다. 전자 메일에서 여러 항목을 반환하려면 **[!UICONTROL 항목 수]** 필드에서 여러 항목을 선택할 수 있도록 **[!UICONTROL 반복 그리드]** 콘텐츠 구성 요소를 추가해야 합니다. 자세한 내용을 보려면 아래 섹션을 확장하십시오.
+   이메일 채널의 경우 **[!UICONTROL 항목 수]** 필드는 기본적으로 1로 설정되어 있으며, **[!UICONTROL 반복 그리드]** 구성 요소 내에서 결정 정책을 추가하지 않으면 수정할 수 없습니다. 자세한 내용을 보려면 아래 섹션을 확장하십시오.
 
-   +++이메일에 여러 결정 항목 반환
+   +++**[!UICONTROL 반복 그리드]** 구성 요소를 사용하여 전자 메일에 여러 결정 항목 반환
 
    1. 이메일의 **[!UICONTROL 반복 그리드]** 구성 요소를 드래그하고 **[!UICONTROL 설정]** 창을 사용하여 원하는 대로 구성하십시오.
 
@@ -114,13 +114,9 @@ ht-degree: 7%
 
    ![](assets/decision-code-based-strategy-sequence.png)
 
-   * **[!UICONTROL 선택 전략]** - 의사 결정 전략은 자격 조건 및 순위 방법과 관련된 컬렉션을 활용하여 표시할 항목을 결정합니다.
+   * **[!UICONTROL 선택 전략]** - 의사 결정 전략은 자격 조건 및 순위 방법과 관련된 컬렉션을 활용하여 표시할 항목을 결정합니다. 하나 이상의 기존 선택 전략을 선택하거나 **[!UICONTROL 선택 전략 만들기]** 단추를 사용하여 새 선택 전략을 만들 수 있습니다. [선택 전략을 만드는 방법을 알아봅니다](selection-strategies.md)
 
-     하나 이상의 기존 선택 전략을 선택하거나 **[!UICONTROL 선택 전략 만들기]** 단추를 사용하여 새 선택 전략을 만들 수 있습니다. [선택 전략을 만드는 방법을 알아봅니다](selection-strategies.md)
-
-   * **[!UICONTROL 결정 항목]** - 선택 전략을 실행하지 않고도 단일 결정 항목을 선택합니다.
-
-     한 번에 하나의 결정 항목만 선택할 수 있습니다. 품목에 대해 설정된 모든 자격 제한이 적용됩니다.
+   * **[!UICONTROL 결정 항목]** - 선택 전략을 실행하지 않고도 단일 결정 항목을 선택합니다. 한 번에 하나의 결정 항목만 선택할 수 있습니다. 품목에 대해 설정된 모든 자격 제한이 적용됩니다.
 
    >[!NOTE]
    >
@@ -227,9 +223,7 @@ ht-degree: 7%
 
 ## 배치 할당(이메일) {#placement}
 
-이메일의 경우 의사 결정 정책과 연관된 구성 요소에 대한 배치를 정의해야 합니다.
-
-이렇게 하려면 구성 요소 속성 창에서 **[!UICONTROL 의사 결정]** 단추를 클릭하고 **[!UICONTROL 배치 할당]**&#x200B;을 선택합니다. [배치 작업 방법 알아보기](../experience-decisioning/placements.md)
+이메일의 경우 의사 결정 정책과 연관된 구성 요소에 대한 배치를 정의해야 합니다. 이렇게 하려면 구성 요소 속성 창에서 **[!UICONTROL 의사 결정]** 단추를 클릭하고 **[!UICONTROL 배치 할당]**&#x200B;을 선택합니다. [배치 작업 방법 알아보기](../experience-decisioning/placements.md)
 
 ![](assets/decision-policy-rail.png)
 

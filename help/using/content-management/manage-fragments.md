@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
+source-git-commit: 3cb16d48c8f478643e8c9891e4fd8c0c3b18f2c5
 workflow-type: tm+mt
 source-wordcount: '1428'
 ht-degree: 17%
@@ -21,7 +21,7 @@ ht-degree: 17%
 
 조각을 관리하려면 **[!UICONTROL 콘텐츠 관리]** > **[!UICONTROL 조각]** 왼쪽 메뉴에서 조각 목록에 액세스하십시오.
 
-[조각으로 저장&#x200B;**[!UICONTROL 옵션을 사용하여]**&#x200B;조각](#create-fragments) 메뉴[의 ](#save-as-fragment)현재 샌드박스에서 만든 모든 조각이 표시됩니다.
+[조각으로 저장&#x200B;**[!UICONTROL 옵션을 사용하여]**&#x200B;조각](create-fragments.md#create-fragments) 메뉴[의 ](save-fragments.md)현재 샌드박스에서 만든 모든 조각이 표시됩니다.
 
 왼쪽 창에서 조각을 폴더로 구성할 수 있습니다. 기본적으로 모든 조각이 표시됩니다. 폴더를 선택할 때는 선택한 폴더에 포함된 조각과 폴더만 표시됩니다. [자세히 알아보기](#folders)
 

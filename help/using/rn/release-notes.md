@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3dfe3887edf4bd55402e849e8fea239e918fa930
+source-git-commit: b0198df405217c7870a471d271987da08d0e2308
 workflow-type: tm+mt
-source-wordcount: '1781'
-ht-degree: 88%
+source-wordcount: '1505'
+ht-degree: 86%
 
 ---
 
@@ -250,14 +250,14 @@ ht-degree: 88%
 
 <!--
 * **Approval policy permissions**
-  Added an option when creating or setting Approval Policy to prevent Journey/Campaign creators from approving their own objects. [Read more](../test-approve/approval-policies.md) - Availability date: Sept 23, 2025 
--->
+  Added an option when creating or setting Approval Policy to prevent Journey/Campaign creators from approving their own objects. [Read more](../test-approve/approval-policies.md) - Availability date: Sept 23, 2025-->
 
-### 곧 출시 예정 {#sept-25-9-soon}
+<!--
+### Coming soon {#sept-25-9-soon}
 
-조만간 다음 기능 및 개선 업데이트가 릴리스될 예정입니다. **이 정보는 변경될 수 있습니다**. 업데이트된 링크, 화면, 설명서는 업데이트가 프로덕션에서 제공될 때 공유 예정입니다.
+In the next few days, the following capabilities and enhancements are scheduled for release. **Information is subject to change**. Updated links, screens, and documentation will be shared once these updates are live in production.
 
-<!--table>
+<table>
 <thead>
 <tr>
 <th><strong>New Web Push notifications channel</strong><br/></th>
@@ -273,9 +273,9 @@ ht-degree: 88%
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
-<!--table>
+<table>
 <thead>
 <tr>
 <th><strong>Custom action monitoring and reporting</strong><br/></th>
@@ -291,9 +291,9 @@ ht-degree: 88%
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
-<!--table>
+<table>
 <thead>
 <tr>
 <th><strong>New source connectors for loyalty apps</strong><br/></th>
@@ -306,49 +306,52 @@ ht-degree: 88%
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
 
 <table>
 <thead>
 <tr>
-<th><strong>랜딩 페이지 사용자 정의 양식</strong><br/></th>
+<th><strong>Landing page custom forms</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 [!DNL Journey Optimizer]에서 랜딩 페이지를 통해 프로필 속성을 캡처할 수 있습니다.</p>
-<p>특정 데이터 세트를 기반으로 필요에 맞는 사용자 정의 양식을 만들고 디자인하고 관리합니다. 그런 다음 랜딩 페이지에서 이 양식을 활용하여 선택한 프로필 속성을 각 양식별로 정의한 데이터 세트에 추가할 수 있습니다.</p>
-<p>이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.</p>
+<p>With [!DNL Journey Optimizer], you can now capture profile attributes though your landing pages.</p>
+<p>Create, design and manage custom forms tailored to your needs based on a specific dataset. You can then leverage these forms in landing pages to add the profile attributes of your choice into the dataset defined for each form.</p>
+<p>This capability is available in Limited Availability. Contact your Adobe representative to gain access.</p>
 <p><img src="assets/do-not-localize/forms.gif"/></p>
-<!--p>For more information, refer to the <a href="../landing-pages/lp-forms.md">detailed documentation</a></p>
-<p>Availability date: Sept XX, 2025</p-->
+<p>For more information, refer to the <a href="../landing-pages/lp-forms.md">detailed documentation</a></p>
+<p>Availability date: Sept XX, 2025</p>
 </td>
 </tr>
 </tbody>
 </table>
 
 
-* **새로운 여정 경고**\
-  여정에 대해 새로운 사전 구성 경고를 사용할 수 있습니다.
+* **New Journey Alerts**  
+  New pre-configured alerts are available for journeys:
 
-   * 프로필 삭제율 초과: 지난 5분 동안 입력한 프로필에 대한 프로필 삭제율이 임계값을 초과했습니다.
-   * 사용자 정의 액션 오류율 초과: 지난 5분 동안 성공적인 HTTP 호출에 대한 사용자 정의 액션 오류율이 임계값을 초과했습니다.
-   * 프로필 오류율 초과: 지난 5분 동안 입력한 프로필 대비 오류가 발생한 프로필 비율이 임계값을 초과했습니다.
-<!--
+  * Profile Discard Rate Exceeded: Ratio of profile discards to entered profiles over the last 5 mins exceeded threshold.  
+  * Custom Action Error Rate Exceeded: Ratio of custom action errors to successful HTTP calls over the last 5 mins exceeded threshold.  
+  * Profile Error Rate Exceeded: Ratio of profiles-in-error to entered profiles over the last 5 mins exceeded threshold.
+
+
   * [Profile Discard Rate Exceeded](../reports/alerts.md#profile-discard-rate-exceeded): Ratio of profile discards to entered profiles over the last 5 mins exceeded threshold.  
   * [Custom Action Error Rate Exceeded](../reports/alerts.md#custom-action-error-rate-exceeded): Ratio of custom action errors to successful HTTP calls over the last 5 mins exceeded threshold.  
-  * [Profile Error Rate Exceeded](../reports/alerts.md#profile-error-rate-exceeded): Ratio of profiles-in-error to entered profiles over the last 5 mins exceeded threshold.-->
+  * [Profile Error Rate Exceeded](../reports/alerts.md#profile-error-rate-exceeded): Ratio of profiles-in-error to entered profiles over the last 5 mins exceeded threshold.
 
-임계값을 수정하고 개별 여정 수준에서 경고를 받거나 전체적으로 구독할 수 있습니다.
+  You can modify threshold values and subscribe to individual journey-level alerts vs globally.
 
-<!-- Availability date: Sept XX, 2025-->
+  Availability date: Sept XX, 2025
 
 
-* **원클릭 구독 취소 URL에 사용자 정의 속성 지원**\
-  Journey Optimizer를 사용할 때 Adobe 외부에서 동의를 관리하는 경우 이메일 구성에서 원클릭 구독 취소 링크를 정의하여 외부 사용자 정의 엔드포인트를 설정할 수 있습니다. 수신자가 구독 취소 링크를 클릭하면 Journey Optimizer는 기본 프로필별 매개 변수 몇 가지를 동의 업데이트 이벤트에 추가합니다.
+* **Custom attributes support with One-click unsubscribe URL**  
+  With Journey Optimizer, if you are managing consent outside of Adobe, you can set an external custom endpoint by defining your own one-click unsubscribe link in the email configuration. When your recipients click the unsubscribe link, Journey Optimizer appends some default profile-specific parameters to the consent update event. 
 
-  이제 구독 취소 이메일 주소의 개인화 수준을 더욱 높이기 위해 동의 이벤트에 추가할 사용자 정의 속성을 지정할 수 있습니다. 이 기능은 이미 8월 25일 릴리스부터 사용자 정의 원클릭 구독 취소 링크에 사용할 수 있습니다.
+  To further personalize the unsubscribe email address, you can now define custom attributes that will be appended to the consent event. This capability has already been available for the custom one-click unsubscribe link since the August 25 release.
 
-  <!-- Availability date: Sept XX, 2025-->
+  Availability date: Sept XX, 2025
+
+-->

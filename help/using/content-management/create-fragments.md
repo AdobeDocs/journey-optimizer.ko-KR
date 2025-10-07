@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
+source-git-commit: 3cb16d48c8f478643e8c9891e4fd8c0c3b18f2c5
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 25%
@@ -29,7 +29,7 @@ ht-degree: 25%
 >abstract="여러 여정과 캠페인 전반에서 콘텐츠를 재사용할 수 있도록 독립 실행형 표현식 조각을 만듭니다. 개인화 편집기를 사용하면 현재 샌드박스에서 생성된 모든 표현식 조각을 활용할 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/personalization/personalization-build-expressions" text="개인화 편집기 작업"
 
-**[!UICONTROL 조각]** 왼쪽 메뉴에서 조각을 처음부터 만들 수 있습니다. 또한 콘텐츠를 디자인할 때 기존 콘텐츠의 일부를 조각으로 저장할 수도 있습니다. [방법 알아보기](#save-as-fragment)
+**[!UICONTROL 조각]** 왼쪽 메뉴에서 조각을 처음부터 만들 수 있습니다. 또한 콘텐츠를 디자인할 때 기존 콘텐츠의 일부를 조각으로 저장할 수도 있습니다. [방법 알아보기](save-fragments.md#)
 
 저장되면 여정, 캠페인 또는 템플릿에서 조각을 사용할 수 있습니다. 여정 및 캠페인 내에서 콘텐츠를 작성할 때 이 조각을 사용할 수 있습니다. [시각적 조각 추가](../email/use-visual-fragments.md) 및 [식 조각 활용](../personalization/use-expression-fragments.md)을 참조하십시오.
 

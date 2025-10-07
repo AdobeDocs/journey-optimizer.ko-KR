@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 표현식, 편집기, 라이브러리, 개인화
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
+source-git-commit: 24baaa2438c6bbdddd582c71dbdd36188d12f905
 workflow-type: tm+mt
-source-wordcount: '961'
+source-wordcount: '994'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 **개인화 편집기**&#x200B;를 사용하는 경우 현재 샌드박스에 만들거나 저장한 모든 표현식 조각을 활용할 수 있습니다.
 
-조각은 [!DNL Journey Optimizer] 캠페인 및 여정에서 참조할 수 있는 재사용 가능한 구성 요소입니다. 이 기능을 사용하면 마케팅 사용자가 개선된 디자인 프로세스에서 콘텐츠를 빠르게 조합하는 데 사용할 수 있는 여러 사용자 지정 콘텐츠 블록을 미리 빌드할 수 있습니다. [조각을 만들고 관리하는 방법을 알아보세요](../content-management/fragments.md).
+조각은 [!DNL Journey Optimizer] 캠페인 및 여정에서 참조할 수 있는 재사용 가능한 구성 요소입니다. 이 기능을 사용하면 마케팅 사용자가 개선된 디자인 프로세스에서 콘텐츠를 빠르게 조합하는 데 사용할 수 있는 여러 사용자 지정 콘텐츠 블록을 미리 빌드할 수 있습니다. [조각에 대해 자세히 알아보기](../content-management/fragments.md)
 
 ➡️ [이 비디오에서 조각을 관리, 작성 및 사용하는 방법을 알아봅니다.](../content-management/fragments.md#video-fragments)
 
@@ -34,7 +34,8 @@ ht-degree: 0%
 
 1. [개인화 편집기](personalization-build-expressions.md)를 열고 왼쪽 창에서 **[!UICONTROL 조각]** 단추를 선택합니다.
 
-   목록에는 현재 샌드박스에서 조각으로 생성되거나 저장된 모든 표현식 조각이 표시됩니다. 만든 날짜별로 정렬됩니다. 최근에 추가된 표현식 조각이 목록에 먼저 표시됩니다. [자세히 알아보기](../content-management/fragments.md#create-expression-fragment)
+   목록에는 현재 샌드박스에서 조각으로 생성되거나 저장된 모든 표현식 조각이 표시됩니다. [조각을 만드는 방법을 알아봅니다](../content-management/create-fragments.md)
+만든 날짜별로 정렬됩니다. 최근에 추가된 표현식 조각이 목록에 먼저 표시됩니다.
 
    ![](assets/expression-fragments-pane.png)
 
@@ -52,17 +53,23 @@ ht-degree: 0%
    >
    >콘텐츠에 **초안** 또는 **라이브** 조각을 추가할 수 있습니다. 그러나 **초안** 상태의 조각을 사용 중인 경우에는 여정 또는 캠페인을 활성화할 수 없습니다. 여정 또는 캠페인 게시 시 초안 조각에 오류가 표시되며 이를 승인해야 게시할 수 있습니다.
 
-1. 조각 ID가 추가되면 해당 식 조각을 열고 인터페이스에서 [편집](../content-management/fragments.md#edit-fragments)하면 변경 내용이 동기화됩니다. 해당 조각 ID를 포함하는 모든 초안 또는 라이브 여정/캠페인에 자동으로 전파됩니다.
+1. 조각 ID가 추가되면 해당 식 조각을 열고 인터페이스에서 [편집](../content-management/manage-fragments.md#edit-fragments)하면 변경 내용이 동기화됩니다. 해당 조각 ID를 포함하는 모든 초안 또는 라이브 여정/캠페인에 자동으로 전파됩니다.
 
 1. 조각 옆에 있는 **[!UICONTROL 추가 작업]** 단추를 클릭합니다. 화면에 표시되는 메뉴에서 **[!UICONTROL 조각 보기]**&#x200B;를 선택하여 해당 조각에 대한 자세한 정보를 확인합니다. **[!UICONTROL 조각 ID]**&#x200B;도 표시되며 여기에서 복사할 수 있습니다.
 
    ![](assets/expression-fragment-view.png)
 
-1. 상황별 메뉴에서 **[!UICONTROL 조각 열기]** 옵션을 사용하거나 **[!UICONTROL 조각 정보]** 창에서 해당 콘텐츠 및 속성을 편집할 수 있습니다. [조각을 편집하는 방법을 알아보세요](../content-management/fragments.md#edit-fragments)
+1. 상황별 메뉴에서 **[!UICONTROL 조각 열기]** 옵션을 사용하거나 **[!UICONTROL 조각 정보]** 창에서 해당 콘텐츠 및 속성을 편집할 수 있습니다. [조각을 편집하는 방법을 알아보세요](../content-management/manage-fragments.md#edit-fragments)
 
    ![](assets/expression-fragment-open.png)
 
 1. 그런 다음 [개인화 편집기](personalization-build-expressions.md)의 모든 개인화 및 작성 기능을 사용하여 평소와 같이 콘텐츠를 사용자 지정하고 유효성을 검사할 수 있습니다.
+
+1. 일부 경우에는 변수만 계산하면 되므로 표현식 조각의 콘텐츠를 숨길 수 있습니다. 이렇게 하려면 `render` 특성을 사용하고 `false`(으)로 설정합니다. 예:
+
+   ```
+   Hi {{profile.person.name.firstName|fragment id='ajo:fragmentId/variantId' mode ='inline' render=false}}
+   ```
 
 >[!NOTE]
 >
@@ -76,7 +83,7 @@ ht-degree: 0%
 
 다음과 같은 사용 사례가 가능합니다.
 
-1. 조각에서 입력 변수 사용
+1. **조각에 입력 변수를 사용합니다.**
 
    조각이 캠페인/여정 작업 컨텐츠에서 사용되는 경우 조각 외부에 선언된 변수를 활용할 수 있습니다. 아래는 한 예입니다.
 
@@ -84,13 +91,13 @@ ht-degree: 0%
 
    캠페인 콘텐츠에서 선언된 `utm_content` 변수 위에 있는 것을 볼 수 있습니다. **Hero 블록** 조각을 사용하면 `utm_content` 매개 변수 값을 추가할 링크가 표시됩니다. 최종 결과는 `https://luma.enablementadobe.com?utm_campaign= Product_launch&utm_content= start_shopping`입니다.
 
-1. 조각의 출력 변수 사용
+1. **조각의 출력 변수를 사용합니다.**
 
    조각 내에서 계산되거나 정의된 변수는 콘텐츠에서 사용할 수 있습니다. 다음 예에서 조각 **F1**&#x200B;은(는) 변수 집합을 선언합니다.
 
    ![](../personalization/assets/personalize-with-variables.png)
 
-   이메일 콘텐츠에서는 다음과 같은 개인화를 가질 수 있습니다.
+   이메일 콘텐츠에서 다음과 같은 개인화를 가질 수 있습니다.
 
    ![](../personalization/assets/use-fragment-variable.png)
 
@@ -107,7 +114,7 @@ ht-degree: 0%
 
 필드를 사용자 정의하려면 다음 단계를 수행합니다.
 
-1. **조각** 메뉴에서 코드에 조각을 삽입합니다.
+1. **[!UICONTROL 조각]** 메뉴에서 코드에 조각을 삽입합니다.
 
 1. 변수의 기본값을 재정의하려면 구문 끝에 있는 `<fieldId>="<value>"` 코드를 사용하십시오.
 
