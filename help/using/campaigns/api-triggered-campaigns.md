@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: 캠페인, API 트리거, REST, 최적화 도구, 메시지
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: d4765f9084efac1fd241404dff365a66027ce5af
+source-git-commit: 801b90201c3ffcbfb7b038abac2bf99209a14c7a
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 53%
+source-wordcount: '275'
+ht-degree: 58%
 
 ---
 
@@ -37,11 +37,13 @@ API 트리거 캠페인에 사용할 수 있는 채널은 이메일, SMS 및 푸
 
 >[!NOTE]
 >
->지원되는 채널: [이메일](../email/get-started-email.md), [SMS/MMS/RCS](../sms/get-started-sms.md), [푸시 알림](../push/get-started-push.md).
+>지원 채널: [이메일](../email/get-started-email.md), [SMS/MMS/RCS](../sms/get-started-sms.md), [푸시 알림](../push/get-started-push.md).
 >
->사용 가능한 채널은 라이선스 모델 및 추가 기능에 따라 다릅니다.
+>사용 가능한 채널은 사용하는 라이선스 모델 및 추가 기능에 따라 다릅니다.
 
 ## API 트리거 캠페인 만들기에 대한 주요 단계 {#steps}
+
+캠페인을 시작하기 전에 [이 섹션에 나열된 다음 필수 구성 요소를 확인](get-started-with-campaigns.md#permissions)하세요. 이러한 전제 조건이 충족되면 캠페인 생성을 시작할 수 있습니다.
 
 1. [캠페인 속성 정의](api-triggered-campaign-properties.md)
 1. [캠페인 액션 구성](api-triggered-campaign-action.md)
@@ -51,12 +53,8 @@ API 트리거 캠페인에 사용할 수 있는 채널은 이메일, SMS 및 푸
 1. [캠페인 검토 및 활성화](review-activate-api-triggered-campaign.md)
 1. [캠페인 실행 트리거](trigger-campaigns.md)
 
->[!IMPORTANT]
->
->캠페인을 만들기 전에 일반적인 [캠페인 필수 구성 요소](../campaigns/get-started-with-campaigns.md#prerequisites)를 검토했는지 확인하세요.
-
 ## 방법 비디오 {#video}
 
 대화형 메시지 실행 REST API를 사용하여 사용자 상호 작용을 기반으로 외부 시스템에서 캠페인을 만들고 트리거하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452732?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)

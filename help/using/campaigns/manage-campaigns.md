@@ -10,33 +10,14 @@ mini-toc-levels: 1
 level: Beginner
 keywords: 캠페인, 상태, 일정, 액세스, 최적화 도구 관리
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 1215c7c2de090db7bcdb7943cc96599d9809972d
+source-git-commit: 801b90201c3ffcbfb7b038abac2bf99209a14c7a
 workflow-type: tm+mt
-source-wordcount: '1863'
-ht-degree: 14%
+source-wordcount: '1709'
+ht-degree: 15%
 
 ---
 
 # 캠페인 액세스 및 관리 {#manage-campaigns}
-
-캠페인을 시작하기 전에 [이 섹션에 나열된 다음 필수 구성 요소를 확인](get-started-with-campaigns.md#permissions)하세요. 이러한 전제 조건이 충족되면 캠페인 생성을 시작할 수 있습니다.
-
-* **캠페인에 액세스**. [캠페인 목록](#access) 또는 [캠페인 일정](#calendar)에서 캠페인에 액세스할 수 있습니다.
-
-* **캠페인을 만듭니다**. 만들기 단계는 [캠페인 유형](get-started-with-campaigns.md#get-started-with-campaigns)에 따라 다릅니다. [작업 캠페인](../campaigns/create-campaign.md), [API 트리거 캠페인](../campaigns/api-triggered-campaigns.md) 또는 [오케스트레이션된 캠페인](../orchestrated/create-orchestrated-campaign.md)을 만드는 방법을 알아봅니다.
-
-* **캠페인 속성을 정의**&#x200B;합니다. [작업 캠페인](../campaigns/campaign-properties.md), [API 트리거 캠페인](../campaigns/api-triggered-campaign-properties.md) 또는 [오케스트레이션된 캠페인](../orchestrated/create-orchestrated-campaign.md)에 대한 속성을 설정하는 방법을 알아봅니다.
-
-* **캠페인 채널 및 콘텐츠를 정의**&#x200B;합니다. [액션 캠페인](../campaigns/campaign-content.md), [API 트리거 캠페인](../campaigns/api-triggered-campaign-content.md) 또는 [오케스트레이션된 캠페인](../orchestrated/orchestrate-activities.md)의 콘텐츠를 정의하는 방법을 알아봅니다.
-
-* **캠페인을 예약하세요** - 캠페인 일정에서 예약된 캠페인 [을(를) 확인할 수 있습니다](#calendar).
-
-그런 다음 테스트를 시작하고, 캠페인을 개선하고, 세분화한 후 실행하십시오. 캠페인이 활성 상태가 되면 이를 모니터링하고 보고서에 액세스할 수 있습니다.
-
-이 섹션[에서 모든 캠페인 상태 및 경고 ](#statuses)을(를) 봅니다.
-
-
-## 캠페인 액세스 {#access}
 
 >[!CONTEXTUALHELP]
 >id="ajo_targeting_workflow_list"
@@ -80,7 +61,7 @@ API 트리거 캠페인 목록에 액세스하려면 **[!UICONTROL API 트리거
 
 또한 목록에서 쉽게 검색할 수 있도록 검색 창과 필터를 사용할 수 있습니다. 예를 들어 지정된 채널 또는 태그와 연결된 캠페인 또는 특정 날짜 범위 동안 만들어진 캠페인만 표시하도록 캠페인을 필터링할 수 있습니다.
 
-캠페인 인벤토리의 ![&#128279;](assets/do-not-localize/rule-builder-icon-more.svg)액션 더 보기 버튼을 표시하는 이미지 버튼을 사용하면 아래에서 설명하는 다양한 작업을 수행할 수 있습니다.
+캠페인 인벤토리의 ](assets/do-not-localize/rule-builder-icon-more.svg)액션 더 보기 버튼을 표시하는 이미지![ 버튼을 사용하면 아래에서 설명하는 다양한 작업을 수행할 수 있습니다.
 
 ![캠페인 인벤토리를 표시하는 이미지](assets/inventory-actions.png)
 

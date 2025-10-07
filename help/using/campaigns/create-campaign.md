@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 만들기, 최적화 도구, 캠페인, 표면, 메시지
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 8701afe345f0eeed1503e4765d4715398823b102
+source-git-commit: 801b90201c3ffcbfb7b038abac2bf99209a14c7a
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 46%
+source-wordcount: '189'
+ht-degree: 51%
 
 ---
 
@@ -36,9 +36,11 @@ ht-degree: 46%
 >
 >지원되는 채널은 [이메일](../email/get-started-email.md), [SMS/MMS/RCS](../sms/get-started-sms.md), [푸시 알림](../push/get-started-push.md), [WhatsApp](../whatsapp/get-started-whatsapp.md), [LINE](../line/get-started-line.md), [다이렉트 메일](../direct-mail/get-started-direct-mail.md), [앱 내](../in-app/get-started-in-app.md), [웹](../web/get-started-web.md), [코드 기반 경험](../code-based/get-started-code-based.md)입니다.
 >
->사용 가능한 채널은 라이선스 모델 및 추가 기능에 따라 다릅니다.
+>사용 가능한 채널은 사용하는 라이선스 모델 및 추가 기능에 따라 다릅니다.
 
 ## 액션 캠페인 생성에 대한 주요 단계 {#steps}
+
+캠페인을 시작하기 전에 [이 섹션에 나열된 다음 필수 구성 요소를 확인](get-started-with-campaigns.md#permissions)하세요. 이러한 전제 조건이 충족되면 캠페인 생성을 시작할 수 있습니다.
 
 1. [액션 캠페인 속성 정의](campaign-properties.md)
 1. [캠페인 액션 구성](campaign-action.md)
@@ -47,12 +49,8 @@ ht-degree: 46%
 1. [작업 캠페인 예약](campaign-schedule.md)
 1. [액션 캠페인 검토 및 활성화](review-activate-campaign.md)
 
->[!IMPORTANT]
->
->캠페인을 만들기 전에 일반적인 [캠페인 필수 구성 요소](../campaigns/get-started-with-campaigns.md#prerequisites)를 검토했는지 확인하세요.
-
 ## 방법 비디오 {#video}
 
 액션 캠페인을 만드는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3412406?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)
