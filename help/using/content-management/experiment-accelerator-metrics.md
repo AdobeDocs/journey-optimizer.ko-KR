@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 내용, 실험, 복수, 대상자, 처리
 exl-id: 74868625-f4ea-44f9-ae2a-8e5fdd22a081
-source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
+source-git-commit: 664f6bafd4cfb4d86b7a449c279484ca49933247
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 2%
@@ -49,6 +49,8 @@ ht-degree: 2%
 각 값은 이전 기간보다 백분율 변경이 포함되어 있어, 성과가 개선되고 있는지, 하락하고 있는지, 아니면 안정적으로 유지되고 있는지 쉽게 알 수 있습니다.
 
 ### 실험 효과
+
+![](assets/experiment-monitor-metrics-3.png)
 
 이 섹션에는 선택한 시간대(최근 90일, 최근 30일 또는 최근 7일) 내의 모든 활성 실험이 표시되고 지표에 대한 해당 기여도가 강조 표시됩니다.
 
