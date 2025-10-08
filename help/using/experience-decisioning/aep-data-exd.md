@@ -10,9 +10,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 표현식, 편집기
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
-source-git-commit: e411778cc873a24e4846e7acbe439222dd6e4c82
+source-git-commit: 813e7a61a69e73afe3f2f9fc808c551d85bd22a0
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1200'
 ht-degree: 25%
 
 ---
@@ -44,15 +44,17 @@ ht-degree: 25%
 >title="데이터 세트 추가"
 >abstract="[!DNL Adobe Experience Platform] 데이터 세트 속성을 사용하여 동적 외부 속성을 기반으로 상한 기준을 정의합니다. **[!UICONTROL 데이터 세트 추가]**&#x200B;를 클릭하여 필요한 속성이 포함된 Adobe Experience Platform 데이터 세트를 선택합니다. 목록에 데이터 세트가 표시되지 않으면 조회에 대해 데이터 세트를 활성화하고 데이터 세트 조회 매핑을 생성했는지 확인합니다."
 
+[!DNL Journey Optimizer]을(를) 사용하면 의사 결정을 위해 [!DNL Adobe Experience Platform]의 데이터를 활용할 수 있습니다. 그러면 주기적으로 변경되는 일괄 업데이트 시 속성을 일일이 수동으로 업데이트할 필요 없이 결정 속성의 정의를 데이터 세트의 추가 데이터로 확장할 수 있습니다. 예를 들면 가용성, 대기 시간 등이 있습니다.
+
 >[!AVAILABILITY]
 >
 >이 기능은 현재 모든 고객이 제한된 가용성 릴리스로 사용할 수 있습니다.
 
-[!DNL Journey Optimizer]을(를) 사용하면 의사 결정을 위해 [!DNL Adobe Experience Platform]의 데이터를 활용할 수 있습니다. 그러면 주기적으로 변경되는 일괄 업데이트 시 속성을 일일이 수동으로 업데이트할 필요 없이 결정 속성의 정의를 데이터 세트의 추가 데이터로 확장할 수 있습니다. 예를 들면 가용성, 대기 시간 등이 있습니다.
+## 가드레일 및 제한 사항 {#guardrails}
 
->[!IMPORTANT]
->
->[!DNL Journey Optimizer]은(는) 단일 결정 정책에 대해 최대 1000개의 조회를 지원합니다.
+* **지원되는 채널** - 의사 결정을 사용한 데이터 세트 조회는 현재 전자 메일 및 여정 사용자 지정 작업에 대해 작동합니다. <!--Support for code-based experience channels is coming soon.-->
+* **특성 사용** - 의사 결정을 위한 데이터 집합 조회 기능은 결정 항목 정의를 추가 특성으로 확장합니다. 특성이 프로필로 확장되지 않습니다.
+* 조회 제한: [!DNL Journey Optimizer]은(는) 단일 결정 정책당 최대 1,000개의 조회를 지원합니다.
 
 ## 전제 조건
 
