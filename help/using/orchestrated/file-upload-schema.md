@@ -5,10 +5,10 @@ title: 구성 단계
 description: DDL을 업로드하여 Adobe Experience Platform 내에서 모델 기반 스키마를 만드는 방법을 알아봅니다
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
+source-git-commit: a9b790bc833b5819862bf2f3284968d81f595f28
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 47%
+source-wordcount: '1084'
+ht-degree: 46%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 47%
 
 1. 지원되는 소스에서 데이터 세트로 [데이터를 수집](ingest-data.md)합니다.
 
-➡️ [Adobe Experience Platform 설명서에서 모델 기반 스키마에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/model-based)
+➡️ [Adobe Experience Platform 설명서에서 모델 기반 스키마에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/model-based)
 
 ## DDL 파일 업로드{#ddl-upload}
 
@@ -149,6 +149,10 @@ Excel 기반 스키마 파일 업로드가 지원됩니다. 스키마 정의를 
    * **자동 레이아웃 강제 적용**: 더 나은 구성을 위해 스키마를 자동으로 정렬합니다.
 
    * **맵 표시**: 미니맵 오버레이를 전환하면 크거나 복잡한 스키마 레이아웃을 더 쉽게 탐색할 수 있습니다.
+
+   * **모두 확장/모두 축소**: 모든 스키마 노드를 빠르게 확장 또는 축소하여 해당 특성을 표시하거나 숨깁니다.
+
+   * **다운로드**: ER 다이어그램을 .png 파일로 다운로드합니다.
 
 1. 완료되면 **저장**&#x200B;을 클릭합니다. 이 작업은 스키마와 관련 데이터 세트를 만들고 오케스트레이션된 캠페인에서 사용할 데이터 세트를 활성화합니다.
 
