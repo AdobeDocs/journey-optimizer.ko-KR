@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 26212ade689477154e4ea33dbc1970e3acea0a12
-workflow-type: ht
-source-wordcount: '2825'
-ht-degree: 100%
+source-git-commit: 5bc1a3a3e41d50890237fbc431bffab921d7d19f
+workflow-type: tm+mt
+source-wordcount: '2823'
+ht-degree: 99%
 
 ---
 
@@ -257,7 +257,7 @@ Adobe Experience Platform에서 API 기반 프로필 만들기/업데이트와 �
 
 [대상자 읽기](../building-journeys/read-audience.md) 여정 활동에 다음 가드레일이 적용됩니다.
 
-* 스트리밍 대상자는 항상 최신 상태이지만 일괄 처리 대상자는 검색하는 순간에 계산되지 않습니다. 일일 배치 평가 시간에만 매일 평가됩니다.
+* 스트리밍 대상자는 항상 최신 상태이지만 배치 대상자는 검색하는 순간에 계산되지 않습니다. 일일 배치 평가 시간에만 매일 평가됩니다.
 * **대상자 읽기** 활동을 사용하는 여정의 경우 정확히 동시에 시작할 수 있는 여정의 최대 개수가 정해져 있습니다. 시스템에서 재시도를 수행하기는 하지만, 정확히 같은 시간에 다섯 개가 넘는 여정(**대상자 읽기** 활동이 있거나 예약했거나 “최대한 빨리” 시작하는 여정)을 실행하는 것을 피하기 위해 5~10분 간격을 두는 등 시간을 분산하는 것이 좋습니다.
 * **대상자 읽기** 활동은 Adobe Campaign 활동과 함께 사용할 수 없습니다.
 * **대상자 읽기** 활동은 비즈니스 이벤트 활동 이후의 여정의 첫 번째 활동으로만 사용할 수 있습니다.
@@ -274,4 +274,4 @@ Adobe Experience Platform에서 API 기반 프로필 만들기/업데이트와 �
 
 ## 캠페인 오케스트레이션 가드레일 {#orchestration-guardrails}
 
-캠페인 오케스트레이션을 사용할 때 염두에 두어야 할 가드레일 및 제한 사항은 [의사 결정 관리 가드레일 및 제한 사항](../orchestrated/guardrails.md) 섹션에 자세히 설명되어 있습니다.
+Campaign Orchestration을 사용할 때 염두에 두어야 할 보호 기능 및 제한 사항은 이 섹션에 자세히 설명되어 있습니다. [보호 기능 및 제한 사항](../orchestrated/guardrails.md).
