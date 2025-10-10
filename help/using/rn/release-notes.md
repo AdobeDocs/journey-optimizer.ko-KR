@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b0198df405217c7870a471d271987da08d0e2308
+source-git-commit: 673a7f58f49afcc12ef9823db6ec68dbee4e77db
 workflow-type: tm+mt
-source-wordcount: '1505'
-ht-degree: 86%
+source-wordcount: '1625'
+ht-degree: 81%
 
 ---
 
@@ -23,6 +23,8 @@ ht-degree: 86%
 [!DNL Adobe Journey Optimizer]은(는) 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 모든 변경 사항은 매달 마지막 주 여기 있는 릴리스 정보에 통합됩니다. [!DNL Adobe Journey Optimizer]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko){target="_blank"}를 참조하십시오.
 
 ## 2025년 10월 업데이트 {#25-10-rn}
+
+### 새로운 기능 {#25-10-features}
 
 <table>
 <thead>
@@ -64,6 +66,20 @@ ht-degree: 86%
 </tr>
 </tbody>
 </table>
+
+### 개선 사항 {#25-10-improvements}
+
+**Mailto(구독 취소)에 대한 사용자 지정 특성 지원**
+
+Journey Optimizer을 사용하여 Adobe 외부에서 동의를 관리하는 경우 이메일 구성에서 사용자 지정 구독 취소 이메일 주소와 원클릭 구독 취소 링크를 정의하여 외부 사용자 지정 엔드포인트를 설정할 수 있습니다. 수신자가 구독 취소 링크를 클릭하면 Journey Optimizer는 기본 프로필별 매개 변수 몇 가지를 동의 업데이트 이벤트에 추가합니다.
+
+이제 사용자 지정 끝점을 추가로 개인화하기 위해 동의 이벤트에도 추가될 사용자 지정 특성을 정의할 수 있습니다.
+
+>[!AVAILABILITY]
+>
+>이 기능은 2025년 8월 이후 사용자 지정 **[!UICONTROL 한 번의 클릭으로 구독 취소 URL]**&#x200B;에 이미 사용할 수 있으며, 이제 [제한된 가용성]의 **[!UICONTROL Mailto(구독 취소)]** 옵션에 대해 릴리스되었습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.
+
+사용 가능한 날짜: 2025년 10월 6일
 
 ## 25년 9월 릴리스 정보 {#25-9-rn}
 
@@ -343,14 +359,6 @@ In the next few days, the following capabilities and enhancements are scheduled 
   * [Profile Error Rate Exceeded](../reports/alerts.md#profile-error-rate-exceeded): Ratio of profiles-in-error to entered profiles over the last 5 mins exceeded threshold.
 
   You can modify threshold values and subscribe to individual journey-level alerts vs globally.
-
-  Availability date: Sept XX, 2025
-
-
-* **Custom attributes support with One-click unsubscribe URL**  
-  With Journey Optimizer, if you are managing consent outside of Adobe, you can set an external custom endpoint by defining your own one-click unsubscribe link in the email configuration. When your recipients click the unsubscribe link, Journey Optimizer appends some default profile-specific parameters to the consent update event. 
-
-  To further personalize the unsubscribe email address, you can now define custom attributes that will be appended to the consent event. This capability has already been available for the custom one-click unsubscribe link since the August 25 release.
 
   Availability date: Sept XX, 2025
 

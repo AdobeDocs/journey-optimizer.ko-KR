@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 설정, 이메일, 구성
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: 56fae76fe83871875464203c01ea070ff1dbc173
-workflow-type: ht
-source-wordcount: '1458'
-ht-degree: 100%
+source-git-commit: 673a7f58f49afcc12ef9823db6ec68dbee4e77db
+workflow-type: tm+mt
+source-wordcount: '1691'
+ht-degree: 85%
 
 ---
 
@@ -128,9 +128,13 @@ Adobe 외부에서 동의를 관리하는 경우 **[!UICONTROL 고객 관리]** 
 
 **[!UICONTROL 고객 관리]** 옵션을 선택한 상태에서 사용자 정의 엔드포인트를 입력하여 캠페인이나 여정에서 사용하는 경우 [!DNL Journey Optimizer]에서는 수신자가 구독 취소 링크를 클릭할 때 일부 기본 프로필별 매개 변수를 동의 업데이트 이벤트<!--sent to the custom endpoint -->에 추가합니다.
 
-이제 **[!UICONTROL 원클릭 구독 취소 URL]**&#x200B;의 개인화 수준을 높이기 위해 사용자 정의 속성을 지정할 수 있으며, 이는 동의 이벤트에도 추가됩니다.
+엔드포인트 <!-- (**[!UICONTROL Mailto (unsubscribe)]** and **[!UICONTROL One-click Unsubscribe URL]**)-->을(를) 추가로 개인화하기 위해 동의 이벤트에도 추가할 사용자 지정 특성을 정의할 수 있습니다.
 
-이 작업에는 **[!UICONTROL URL 추적 매개 변수]** 섹션을 사용하십시오. 해당 섹션에서 정의하는 모든 URL 추적 매개 변수는 사용자 정의 원클릭 구독 취소 URL의 끝에 기본 매개 변수와 함께 추가됩니다. [사용자 정의 URL 추적을 설정하는 방법 알아보기](url-tracking.md)
+>[!AVAILABILITY]
+>
+>**[!UICONTROL Mailto(구독 취소)]** 옵션의 경우 제한된 가용성으로 이 기능을 사용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오. 이 경우 사용자 지정 특성(제한된 가용성)을 가진 **Mailto(구독 취소)** 섹션 [아래](#configure-decrypt-api)에 설명된 새 쿼리 매개 변수를 사용해야 합니다.
+
+끝점에 대한 사용자 지정 특성을 정의하려면 **[!UICONTROL URL 추적 매개 변수]** 섹션을 사용하십시오. 해당 섹션에서 정의하는 모든 URL 추적 매개 변수는 기본 매개 변수 외에 사용자 지정 엔드포인트의 끝에 추가됩니다. [사용자 정의 URL 추적을 설정하는 방법 알아보기](url-tracking.md)
 
 ### 암호 해독 API 구성 {#configure-decrypt-api}
 
@@ -225,5 +229,47 @@ GET 호출은 다음과 같습니다.
     "timestamp": "2024-11-26T14:25:09.316930Z"
 }
 ```
+
++++
+
++++ 사용자 지정 속성(제한된 가용성)이 있는 Mailto(구독 취소)
+
+**[!UICONTROL Mailto(구독 취소)]** 옵션을 사용하는 경우 구독 취소 링크를 클릭하면 지정된 구독 취소 주소로 미리 채워진 이메일이 보내집니다.
+
+2025년 10월부터 **[!UICONTROL Mailto(구독 취소)]** 끝점에 대해 **[!UICONTROL 고객 관리]** 옵션을 사용하는 경우 동의 이벤트에 추가할 사용자 지정 특성을 정의할 수 있습니다. 이 경우 아래에 설명된 쿼리 매개 변수를 사용해야 합니다.
+
+>[!AVAILABILITY]
+>
+>이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.
+
+GET 호출은 다음과 같습니다.
+
+엔드포인트: https://platform.adobe.io/journey/imp/consent/decrypt
+
+쿼리 매개 변수:
+
+* **emailParamsSub**: Mailto 주소에서 받은 전자 메일의 제목에서 추출된 문자열입니다.
+
+   * 예: *unsubscribev1.abc*
+
+   * 구문 분석된 값: *v1.abc*
+
+* **emailParamsBody**: 이메일 본문(있는 경우)에서 *unsubscribev1.xyz* 형식으로 추출된 문자열입니다.
+
+   * 구문 분석된 값: *v1.xyz*
+
+API 예: https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&amp;emailParamsBody=v1.xyz
+
+>[!CAUTION]
+>
+>이전 구현(예: https://platform.adobe.io/journey/imp/consent/decrypt?emailParams=&lt;v1.xxx>)을 사용하는 경우 **emailParams** 대신 새 **emailParamsSub** 및 **emailParamsBody** 매개 변수를 사용해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
+
+**emailParamsSub** 및 **emailParamsBody** 매개 변수는 사용자 지정 끝점에 전송되는 동의 업데이트 이벤트에 포함됩니다.
+
+헤더 요구 사항:
+
+* x-api-key
+* x-gw-ims-org-id
+* 인증(기술 계정 인증용 사용자 토큰)
 
 +++
