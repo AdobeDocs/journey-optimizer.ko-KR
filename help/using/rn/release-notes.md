@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 673a7f58f49afcc12ef9823db6ec68dbee4e77db
+source-git-commit: 5a530a183c3eba87dcee59d42162fad9c0c32942
 workflow-type: tm+mt
-source-wordcount: '1625'
+source-wordcount: '1628'
 ht-degree: 81%
 
 ---
@@ -69,11 +69,11 @@ ht-degree: 81%
 
 ### 개선 사항 {#25-10-improvements}
 
-**Mailto(구독 취소)에 대한 사용자 지정 특성 지원**
+**Mailto(구독 취소) 주소에 대한 사용자 지정 특성 지원**
 
 Journey Optimizer을 사용하여 Adobe 외부에서 동의를 관리하는 경우 이메일 구성에서 사용자 지정 구독 취소 이메일 주소와 원클릭 구독 취소 링크를 정의하여 외부 사용자 지정 엔드포인트를 설정할 수 있습니다. 수신자가 구독 취소 링크를 클릭하면 Journey Optimizer는 기본 프로필별 매개 변수 몇 가지를 동의 업데이트 이벤트에 추가합니다.
 
-이제 사용자 지정 끝점을 추가로 개인화하기 위해 동의 이벤트에도 추가될 사용자 지정 특성을 정의할 수 있습니다.
+이제 사용자 지정 끝점을 추가로 개인화하기 위해 동의 이벤트에도 추가될 사용자 지정 특성을 정의할 수 있습니다. [자세히 보기](../email/list-unsubscribe.md#custom-attributes)
 
 >[!AVAILABILITY]
 >
