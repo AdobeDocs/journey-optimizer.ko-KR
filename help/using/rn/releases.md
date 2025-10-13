@@ -6,9 +6,9 @@ feature: Release Notes
 description: Adobe Journey Optimizer 릴리스 주기 이해
 hide: true
 hidefromtoc: true
-source-git-commit: f00deec2db697dccca161d82fe80b7f3f451c172
+source-git-commit: 0de90d707c02e11bfb8a6af7b22d4273a8b6b88d
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '846'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 0%
 >
 > 각 분기가 끝날 때 릴리스를 예측하고 분기별 일정 또는 종속 제품 릴리스와 맞추기 위해 월말 2주 전까지 롤아웃할 수 있습니다.
 
-월별 릴리스에서는 새로운 기능 및 수정 사항의 주요 세트를 도입하지만 연속 제공 접근 방식을 사용하면 준비가 완료된 주기 사이에 추가 업데이트를 배포할 수 있습니다. 릴리스 노트 및 관련 설명서는 그에 따라 업데이트됩니다.
+월별 릴리스에서는 새로운 기능 및 수정 사항의 주요 세트를 도입하지만 연속 제공 접근 방식을 사용하면 준비가 완료된 주기 사이에 추가 업데이트를 배포할 수 있습니다. 릴리스 노트 및 관련 설명서가 그에 따라 업데이트되며 사용 가능한 날짜가 언급됩니다. 한 달 동안 릴리스된 모든 변경 사항은 릴리스 날짜의 월별 릴리스 정보에 통합됩니다.
 
 
 ## 릴리스 경로 {#release-paths}
