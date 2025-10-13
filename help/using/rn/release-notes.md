@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5a530a183c3eba87dcee59d42162fad9c0c32942
+source-git-commit: c70cdb0f12b484844ab0222cec8922f30b0ee7dc
 workflow-type: tm+mt
-source-wordcount: '1628'
-ht-degree: 81%
+source-wordcount: '1712'
+ht-degree: 76%
 
 ---
 
@@ -20,11 +20,17 @@ ht-degree: 81%
 >title="새로운 기능"
 >abstract="**Adobe Journey Optimizer**&#x200B;는 지속적으로 새로운 기능, 기존 기능 개선, 버그 수정을 제공합니다. 모든 변경 사항은 매달 마지막 주에 여기 있는 릴리스 정보에 통합됩니다."
 
-[!DNL Adobe Journey Optimizer]은(는) 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 모든 변경 사항은 매달 마지막 주 여기 있는 릴리스 정보에 통합됩니다. [!DNL Adobe Journey Optimizer]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko){target="_blank"}를 참조하십시오.
+[!DNL Adobe Journey Optimizer]은(는) **연속 게재 모델**&#x200B;을(를) 따르며 Adobe에서 새로운 기능, 개선 사항 및 수정 사항을 지속적으로 제공할 수 있습니다. 이 접근 방식을 사용하면 **확장 가능한 단계별 롤아웃** 기능을 통해 모든 환경에서 성능과 안정성을 보장할 수 있습니다.
 
-## 2025년 10월 업데이트 {#25-10-rn}
+이 모델 때문에 릴리스 노트는 **월별 릴리스 사이에 업데이트**&#x200B;됩니다.  전용 [최신 업데이트](#updates-rn) 섹션에서는 프로덕션에 배포할 때 새로운 기능과 향상된 기능을 강조하므로 항상 모든 변경 내용을 실시간으로 알려줍니다. <!--For full details about the release cycle and availability phases, see [Journey Optimizer release cycle](#releases.md).-->
 
-### 새로운 기능 {#25-10-features}
+[!DNL Adobe Journey Optimizer]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko){target="_blank"}를 참조하십시오.
+
+## 최신 업데이트 {#updates-rn}
+
+지난 주에 릴리스된 새로운 기능 및 개선 사항은 아래에 나열되어 있으며 해당 사용 가능 날짜가 표시됩니다. 월말에 다음 릴리스 노트 콘텐츠로 그룹화됩니다. 아래의 최신 [릴리스 정보](#latest-rn)도 참조하세요.
+
+### 새로운 기능 {#updates-features}
 
 <table>
 <thead>
@@ -67,7 +73,7 @@ ht-degree: 81%
 </tbody>
 </table>
 
-### 개선 사항 {#25-10-improvements}
+### 개선 사항 {#updates-improvements}
 
 **Mailto(구독 취소) 주소에 대한 사용자 지정 특성 지원**
 
@@ -81,7 +87,7 @@ Journey Optimizer을 사용하여 Adobe 외부에서 동의를 관리하는 경�
 
 사용 가능한 날짜: 2025년 10월 6일
 
-## 25년 9월 릴리스 정보 {#25-9-rn}
+## 25년 9월 릴리스 정보 {#latest-rn}
 
 **릴리스 일자**: 2025년 9월 23~24일
 
