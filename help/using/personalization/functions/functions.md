@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: e255751e411d8b623a12780a52a54551b5d65182
+source-git-commit: b08f996d9871f59665c2d329b493fd6e61030fac
 workflow-type: tm+mt
-source-wordcount: '2399'
+source-wordcount: '2422'
 ht-degree: 27%
 
 ---
@@ -438,6 +438,9 @@ ht-degree: 27%
         <td><a href="helpers.md#each">Each</a></td><td>이 함수는 배열을 반복하는 데 사용합니다.</td>
     </tr>
     <tr>
+        <td><a href="helpers.md#execution-metadata">실행 메타데이터</a></td><td>이 도우미는 런타임 실행 메타데이터 개체에 저장할 수 있도록 메시지 렌더링 동안 사용자 지정 키-값 메타데이터를 캡처합니다</td>
+    </tr>
+    <tr>
         <td><a href="helpers.md#if-function">조건</a></td><td>이 함수는 조건부 블록을 정의하는 데 사용합니다. 식 계산이 true를 반환하면 블록이 렌더링됩니다.</td>
     </tr>
     <tr>
@@ -516,4 +519,4 @@ ht-degree: 27%
 
 개인화 도우미 기능을 사용하여 개인화 값을 변형하는 방법을 알아보고 도우미 기능의 다양한 사용 사례를 이해합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416646?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

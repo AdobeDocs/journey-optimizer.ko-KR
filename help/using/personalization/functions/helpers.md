@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 110c4895ac7f0b683a695e9705a8f8ac54d09637
+source-git-commit: b08f996d9871f59665c2d329b493fd6e61030fac
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 5%
+source-wordcount: '616'
+ht-degree: 6%
 
 ---
 
@@ -106,7 +106,7 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 
 >[!NOTE]
 >
->대상 및 세분화 서비스에 대한 자세한 내용은 이 [섹션](../../audience/about-audiences.md)을 참조하세요.
+>대상자 및 세분화 서비스에 대한 자세한 내용은 [이 섹션](../../audience/about-audiences.md)을 참조하세요.
 
 
 ## Unless{#unless}
@@ -211,3 +211,78 @@ Some edu specific content Content
     {{/each}}
 {{sum}}
 ```
+
+## 실행 메타데이터 {#execution-metadata}
+
+>[!AVAILABILITY]
+>
+>이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.
+
+`executionMetadata` 도우미를 통해 사용자 지정 키-값 쌍을 동적으로 캡처하고 메시지 실행 컨텍스트에 저장할 수 있습니다.
+
+**구문**
+
+```
+{{executionMetadata key="your_key" value="your_value"}}
+```
+
+이 구문에서 `key`은(는) 메타데이터 이름을 참조하며 `value`은(는) 유지할 메타데이터입니다.
+
+**사용 사례**
+
+이 함수를 사용하면 캠페인 또는 여정의 모든 기본 작업에 컨텍스트 정보를 추가할 수 있습니다. 이렇게 하면 추적, 분석, 개인화 및 다운스트림 처리와 같은 다양한 목적을 위해 실시간 게재 컨텍스트 데이터를 외부 시스템으로 내보낼 수 있습니다.
+
+>[!NOTE]
+>
+>실행 메타데이터 함수는 [사용자 지정 작업](../../action/action.md)에서 지원되지 않습니다.
+
+예를 들어 실행 메타데이터 도우미를 사용하여 각 프로필로 전송된 각 게재에 특정 ID를 추가할 수 있습니다. 이 정보는 런타임 중에 생성되며, 그런 다음 외부 보고 플랫폼과의 다운스트림 조정을 위해 보강된 실행 메타데이터를 내보낼 수 있습니다.
+
+**작동 방식**
+
+캠페인 또는 여정 내의 채널 콘텐츠에서 요소를 선택하고 개인화 편집기를 사용하여 이 요소에 `executionMetadata` 도우미를 추가하십시오.
+
+>[!NOTE]
+>
+>컨텐츠 자체가 표시되면 실행 메타데이터 기능이 표시되지 않습니다.
+
+
+런타임 시 메타데이터 값이 다음 스키마를 추가하여 기존 **[!UICONTROL 메시지 피드백 이벤트 데이터 세트]**&#x200B;에 추가됩니다.
+
+```
+"_experience": {
+  "customerJourneyManagement": {
+    "messageExecution": {
+      "metadata": {
+        "your_key": "your_value"
+      }
+    }
+  }
+}
+```
+
+>[!NOTE]
+>
+>[이 섹션](../../data/get-started-datasets.md)의 데이터 세트에 대해 자세히 알아보세요.
+
+**제한**
+
+작업당 키 값 쌍에는 2kb의 상한이 있습니다.
+
+2Kb 제한을 초과하는 경우 메시지가 계속 전달되지만 키 값 쌍은 잘릴 수 있습니다.
+
+**예**
+
+```
+{{executionMetadata key="firstName" value=profile.person.name.firstName}}
+```
+
+이 예에서 `profile.person.name.firstName` = &quot;Alex&quot;라고 가정하면 결과 엔터티는 다음과 같습니다.
+
+```
+{
+  "key": "firstName",
+  "value": "Alex"
+}
+```
+
