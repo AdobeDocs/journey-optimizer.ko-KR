@@ -11,10 +11,10 @@ keywords: 활동, 조건, 캔버스, 여정, 최적화
 badge: label="제한된 가용성" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: c472ce00623b810dea60dd5d9e34ca4d516447ad
+source-git-commit: 15a143956156458cf78d02a4cf92300e97cef949
 workflow-type: tm+mt
-source-wordcount: '1298'
-ht-degree: 9%
+source-wordcount: '1305'
+ht-degree: 10%
 
 ---
 
@@ -53,6 +53,7 @@ ht-degree: 9%
 >id="ajo_path_experiment_success_metric"
 >title="성공 지표"
 >abstract="성공 지표는 실험에서 가장 효과적인 처리를 추적하고 평가하는 데 사용됩니다."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="여정 지표 구성 및 추적"
 
 실험을 통해 무작위 분할을 기반으로 서로 다른 경로를 테스트하여 사전 정의된 성공 지표를 기반으로 가장 뛰어난 성과를 결정할 수 있습니다.
 
@@ -75,13 +76,6 @@ ht-degree: 9%
 1. **[!UICONTROL 실험 만들기]**&#x200B;를 클릭합니다.
 
 1. 실험에 대해 설정할 **[!UICONTROL 성공 지표]**&#x200B;를 선택하십시오. 사용 가능한 지표와 [이 섹션](success-metrics.md)에서 목록을 구성하는 방법에 대해 자세히 알아보세요.
-
-   <!--Need to have the list of all default metrics + a description for each.
-    Explain why the metric selection is important.
-    Are there custom metrics? If so explain.
-    If possible, add best practices and examples for each metrics (could even be a dedicated section).
-    Consider adding an example in this step: For this example, select this metric to test xxx.
-    -->
 
    ![](assets/journey-optimize-experiment-metrics.png){width=80%}
 
