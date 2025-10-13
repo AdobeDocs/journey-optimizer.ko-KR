@@ -9,9 +9,9 @@ level: Intermediate
 keywords: 게시, 여정, 라이브, 유효성, 확인
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: 598be5d2c5aca0262063c61e80e6b36020983131
+source-git-commit: b1598fe695a53fd5261b3067f220dc3eea295dfb
 workflow-type: tm+mt
-source-wordcount: '2429'
+source-wordcount: '2481'
 ht-degree: 6%
 
 ---
@@ -57,6 +57,8 @@ ht-degree: 6%
 
    * **여정 보류**&#x200B;개 프로필 - 프로필은 다시 시작할 다음 **작업** 노드에서 대기합니다.
    * **여정 무시**&#x200B;개 - 프로필이 다음 **작업** 노드의 프로필에서 제외됩니다.
+
+   여정을 일시 중지하면 어느 시점에서 다시 시작할 계획인 것으로 간주됩니다. 그러나 여정은 무기한 일시 중지 상태를 유지할 수 없습니다. 이를 방지하기 위해 여정이 일시 중지된 상태로 유지되는 기간(1일에서 14일 사이)을 정의할 수 있습니다. 선택한 일 수가 지나면 여정이 자동으로 다시 시작됩니다.
 
 1. 확인하려면 **일시 중지** 단추를 클릭하세요.
 
@@ -151,7 +153,7 @@ ht-degree: 6%
 
 ## 가드레일 및 제한 사항 {#journey-pause-guardrails}
 
-* 최대 **14일** 동안 여정 버전을 일시 중지할 수 있으며, 조직 전체에서 일시 중지된 프로필에 최대 **1천만 개**&#x200B;의 여정이 허용됩니다.
+* 최대 **14일** 동안 여정 버전을 일시 중지할 수 있으며, 조직 전체에서 일시 중지된 프로필에 최대 **1천만 개**의 여정이 허용됩니다.
 이 제한은 30분마다 확인됩니다. 즉, 일시적으로 1,000만 임계값을 초과할 수 있지만, 시스템에서 이를 감지하면 추가 프로필이 자동으로 삭제됩니다.
 
   여정을 재개하여 보류된 프로필 수를 다시 한도 아래로 가져오는 경우 여정이 즉시 재개되지만, 프로필 수를 업데이트하는 데 최대 30분이 소요될 수 있습니다. 이 시간 동안 시스템은 해당 프로필을 일시 중지된 것으로 간주할 수 있습니다.
@@ -199,7 +201,7 @@ ht-degree: 6%
 
 ## 일시 중지된 프로필의 여정 카드 문제 해결 {#discards-troubleshoot}
 
-[Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ko){target="_blank"}를 사용하여 단계 이벤트를 쿼리할 수 있습니다. 이 이벤트는 발생한 시기에 따라 프로필 삭제에 대한 자세한 정보를 제공할 수 있습니다.
+[Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}를 사용하여 단계 이벤트를 쿼리할 수 있습니다. 이 이벤트는 발생한 시기에 따라 프로필 삭제에 대한 자세한 정보를 제공할 수 있습니다.
 
 * 프로필이 여정에 들어가기 전에 발생하는 폐기물의 경우 다음 코드를 사용하십시오.
 
