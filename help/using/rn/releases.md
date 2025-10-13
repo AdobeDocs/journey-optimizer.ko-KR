@@ -6,7 +6,7 @@ feature: Release Notes
 description: Adobe Journey Optimizer 릴리스 주기 이해
 hide: true
 hidefromtoc: true
-source-git-commit: c70cdb0f12b484844ab0222cec8922f30b0ee7dc
+source-git-commit: f00deec2db697dccca161d82fe80b7f3f451c172
 workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 [!DNL Adobe Journey Optimizer]은(는) 연속 게재 모델에서 작동하므로 기능 배포에 대한 확장 가능한 단계별 접근 방식을 활성화합니다. 이 모델을 통해 Adobe은 보다 빠르게 혁신을 제공하고 롤아웃 중에 지속적인 안정성과 성능을 보장할 수 있습니다.
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 > [!DNL Adobe Journey Optimizer]에서 연속 게재를 사용하므로 조직 또는 지역 전반에 걸쳐 새로운 기능이 점진적으로 나타날 수 있습니다.
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 [!DNL Adobe Journey Optimizer]은(는) 일반적으로 월간 릴리스 케이던스를 따르며, 배포는 일반적으로 매월 마지막 주에 수행됩니다. 월별 릴리스 정보 및 관련 설명서는 화요일에 게시됩니다. 프리릴리스 노트는 릴리스 주 전인 금요일에 게시됩니다.
 
-&#x200B;> [!TIP]
+>[!TIP]
 >
 > 각 분기가 끝날 때 릴리스를 예측하고 분기별 일정 또는 종속 제품 릴리스와 맞추기 위해 월말 2주 전까지 롤아웃할 수 있습니다.
 
@@ -53,7 +53,7 @@ Journey Optimizer의 기능은 복잡성, 종속성 및 범위에 따라 다른 
 * **Beta → LA → GA** — 테스트 및 유효성 검사를 위한 모든 단계에서 더 크거나 실험적인 기능이 진행됩니다.
 * **Beta → GA** - 안정적인 특정 Beta 기능은 중간 LA 단계 없이 GA로 직접 이동할 수 있습니다.
 
-&#x200B;> [!TIP]
+>[!TIP]
 >
 > Beta 또는 제한된 가용성의 기능에 일찍 액세스하려는 경우 Adobe 담당자에게 문의하여 참가 옵션에 대해 논의하십시오.
 
