@@ -9,10 +9,10 @@ role: Developer, Data Engineer
 level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 8f25fd5110777c148246864b364d02e4c6bf00da
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 7%
+source-wordcount: '563'
+ht-degree: 6%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 7%
 
 런타임 시 동적으로 채워지는 사용자 지정 작업 매개 변수에서 컬렉션을 전달할 수 있습니다. 지원되는 컬렉션은 두 가지입니다.
 
-* 단순 컬렉션: listString과 같은 단순 데이터 유형 배열:
+* **단순 컬렉션**: listString과 같은 단순 데이터 형식 배열:
 
-  ```
+  ```json
   {
    "deviceTypes": [
        "android",
@@ -32,9 +32,9 @@ ht-degree: 7%
   }
   ```
 
-* 개체 컬렉션: JSON 개체의 배열(예: ).
+* o **개체 컬렉션**: JSON 개체 배열, 예:
 
-  ```
+  ```json
   {
   "products":[
      {
@@ -56,30 +56,12 @@ ht-degree: 7%
   }
   ```
 
-## 제한 사항 {#limitations}
-
-* 개체 배열 내의 중첩된 개체 배열은 현재 지원되지 않습니다. 예:
-
-  ```
-  {
-  "products":[
-    {
-       "id":"productA",
-       "name":"A",
-       "price":20,
-       "locations": [{"name": "Paris"}, {"name": "London"}]
-    },
-   ]
-  }
-  ```
-
-* 테스트 모드를 사용하여 컬렉션을 테스트하려면 코드 보기 모드를 사용해야 합니다. 코드 보기 모드는 현재 비즈니스 이벤트에 대해 지원되지 않습니다. 단일 요소가 있는 컬렉션만 보낼 수 있습니다.
 
 ## 일반 절차 {#general-procedure}
 
 이 섹션에서는 다음의 JSON 페이로드 예제를 사용합니다. 단순 컬렉션인 필드가 있는 오브젝트 배열입니다.
 
-```
+```json
 {
   "ctxt": {
     "products": [
@@ -103,9 +85,9 @@ ht-degree: 7%
 }
 ```
 
-&quot;products&quot;는 두 개체의 배열입니다. 하나 이상의 개체가 있어야 합니다.
+`products`이(가) 두 개체의 배열임을 확인할 수 있습니다. 하나 이상의 개체가 있어야 합니다.
 
-1. 사용자 지정 작업을 만듭니다. [이 페이지](../action/about-custom-action-configuration.md)를 참조하십시오.
+1. 사용자 지정 작업을 만듭니다. [이 페이지](../action/about-custom-action-configuration.md)에서 자세히 알아보십시오.
 
 1. **[!UICONTROL 작업 매개 변수]** 섹션에 JSON 예제를 붙여 넣습니다. 표시된 구조는 정적입니다. 페이로드를 붙여 넣을 때 모든 필드가 상수로 정의됩니다.
 
@@ -117,7 +99,7 @@ ht-degree: 7%
    >
    >페이로드 예제에 따라 필드 유형이 자동으로 유추됩니다.
 
-1. 개체를 동적으로 전달하려면 변수로 설정해야 합니다. 이 예제에서는 &quot;products&quot;를 변수로 설정합니다. 객체에 포함된 모든 객체 필드는 자동으로 변수로 설정됩니다.
+1. 개체를 동적으로 전달하려면 변수로 설정해야 합니다. 이 예제에서는 `products`을(를) 변수로 설정합니다. 객체에 포함된 모든 객체 필드는 자동으로 변수로 설정됩니다.
 
    >[!NOTE]
    >
@@ -125,31 +107,83 @@ ht-degree: 7%
 
 1. 각 필드에 대해 여정 캔버스에 표시될 레이블을 정의합니다.
 
-   ![](assets/uc-collection-2.png)
+   ![](assets/uc-collection-2.png){width="70%" align="left"}
 
-1. 여정을 만들고 만든 사용자 지정 작업을 추가합니다. [이 페이지](../building-journeys/using-custom-actions.md)를 참조하십시오.
+1. 여정을 만들고 만든 사용자 지정 작업을 추가합니다. [이 페이지](../building-journeys/using-custom-actions.md)에서 자세히 알아보십시오.
 
-1. **[!UICONTROL 작업 매개 변수]** 섹션에서 고급 표현식 편집기를 사용하여 배열 매개 변수(이 예제에서는 &quot;products&quot;)를 정의합니다.
+1. **[!UICONTROL 작업 매개 변수]** 섹션에서 고급 표현식 편집기를 사용하여 배열 매개 변수(`products`)를 정의합니다.
 
    ![](assets/uc-collection-3.png)
 
-1. 다음 각 오브젝트 필드에 대해 소스 XDM 스키마의 해당 필드 이름을 입력합니다. 이름이 동일한 경우 이 작업이 필요하지 않습니다. 이 예제에서는 &quot;product id&quot;와 &quot;color&quot;만 정의하면 됩니다.
+1. 다음 각 오브젝트 필드에 대해 소스 XDM 스키마의 해당 필드 이름을 입력합니다. 이름이 동일한 경우 이 작업이 필요하지 않습니다. 이 예제에서는 `product id`과(와) &quot;color&quot;만 정의하면 됩니다.
 
-   ![](assets/uc-collection-4.png)
+   ![](assets/uc-collection-4.png){width="50%" align="left"}
 
 배열 필드의 경우 고급 표현식 편집기를 사용하여 데이터 조작을 수행할 수도 있습니다. 다음 예제에서는 [filter](functions/functionfilter.md) 및 [intersect](functions/functionintersect.md) 함수를 사용합니다.
 
 ![](assets/uc-collection-5.png)
 
+## 제한 사항 {#limitations}
+
+* **사용자 지정 작업에서 중첩된 배열 지원**
+
+  Adobe Journey Optimizer은 사용자 지정 작업 **응답 페이로드**&#x200B;에서 중첩된 오브젝트 배열을 지원하지만, 이 지원은 **요청 페이로드**&#x200B;에서 제한됩니다.
+
+  요청 페이로드에서 중첩된 배열은 사용자 지정 작업 구성에 정의된 대로 고정 수의 항목이 포함된 경우에만 지원됩니다. 예를 들어 중첩된 배열에 항상 정확히 세 개의 항목이 포함되어 있으면 상수로 구성할 수 있습니다. 항목 수가 동적이어야 하는 경우, 중첩되지 않은 배열(맨 아래 수준의 배열)만 변수로 정의할 수 있습니다.
+
+  예:
+
+   1. 다음 예제에서는 **지원되지 않는 사용 사례**&#x200B;를 보여 줍니다.
+
+      이 예제에서 제품 배열에는 동적 항목 수가 포함된 중첩된 배열(`locations`)이 포함되어 있습니다. 이 배열은 요청 페이로드에서 지원되지 않습니다.
+
+      ```json
+      {
+      "products": [
+         {
+            "id": "productA",
+            "name": "A",
+            "price": 20,
+            "locations": [
+            { "name": "Paris" },
+            { "name": "London" }
+            ]
+         }
+      ]
+      }
+      ```
+
+   2. 고정 항목이 상수로 정의된 지원되는 예입니다.
+
+      이 경우 중첩된 위치가 고정 필드(`location1`, `location2`)로 대체되므로 페이로드가 지원되는 구성 내에서 유효한 상태로 유지될 수 있습니다.
+
+      ```json
+      {
+      "products": [
+         {
+            "id": "productA",
+            "name": "A",
+            "price": 20,
+            "location1": { "name": "Paris" },
+            "location2": { "name": "London" }
+         }
+      ]
+      }
+      ```
+
+
+* 테스트 모드를 사용하여 컬렉션을 테스트하려면 코드 보기 모드를 사용해야 합니다. 코드 보기 모드는 현재 비즈니스 이벤트에 대해 지원되지 않습니다. 단일 요소가 있는 컬렉션만 보낼 수 있습니다.
+
+
 ## 특별한 경우{#examples}
 
 이기종 유형 및 배열 배열의 경우 배열은 listAny 형식으로 정의됩니다. 개별 항목만 매핑할 수 있지만 배열을 변수로 변경할 수는 없습니다.
 
-![](assets/uc-collection-heterogeneous.png)
+![](assets/uc-collection-heterogeneous.png){width="70%" align="left"}
 
 형식이 다른 형식의 예:
 
-```
+```json
 {
     "data_mixed-types": [
         "test",
@@ -162,7 +196,7 @@ ht-degree: 7%
 
 배열 배열의 예:
 
-```
+```json
 {
     "data_multiple-arrays": [
         [
