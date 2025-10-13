@@ -1,27 +1,33 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 사용자 정의 작업으로 컬렉션을 동적으로 보내기
-description: Campaign v7/v8을 사용하여 메시지 보내기
+title: 사용자 지정 작업 매개 변수에 컬렉션 전달
+description: 사용자 지정 작업을 사용하여 Journey Optimizer에서 컬렉션을 동적으로 전달하는 방법을 알아봅니다
 feature: Journeys, Use Cases, Custom Actions, Collections
 topic: Content Management
 role: Developer, Data Engineer
 level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 version: Journey Orchestration
-source-git-commit: 8f25fd5110777c148246864b364d02e4c6bf00da
+source-git-commit: 8a94f9081c4f7fe158c084d02642d5bbba33dca2
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 6%
+source-wordcount: '723'
+ht-degree: 2%
 
 ---
 
 
-# 사용자 정의 작업으로 컬렉션을 동적으로 보내기{#passing-collection}
+# 사용자 지정 작업 매개 변수에 컬렉션 전달 {#passing-collection}
 
-런타임 시 동적으로 채워지는 사용자 지정 작업 매개 변수에서 컬렉션을 전달할 수 있습니다. 지원되는 컬렉션은 두 가지입니다.
+런타임 시 동적으로 채워진 사용자 지정 작업 매개 변수에서 컬렉션을 전달할 수 있습니다.
 
-* **단순 컬렉션**: listString과 같은 단순 데이터 형식 배열:
+지원되는 컬렉션은 두 가지입니다.
+
+* **단순 컬렉션**
+
+  문자열, 숫자 또는 부울 같은 기본 값 목록에 간단한 컬렉션을 사용합니다. 이러한 기능은 추가 속성 없이 항목 목록을 전달하기만 하면 되는 경우에 유용합니다.
+
+  예를 들어 디바이스 유형 목록은 다음과 같습니다.
 
   ```json
   {
@@ -32,7 +38,11 @@ ht-degree: 6%
   }
   ```
 
-* o **개체 컬렉션**: JSON 개체 배열, 예:
+* **개체 컬렉션**
+
+  각 항목에 여러 필드 또는 속성이 포함된 경우 개체 컬렉션을 사용합니다. 일반적으로 제품 세부 사항, 이벤트 레코드 또는 항목 속성과 같은 구조화된 데이터를 전달하는 데 사용됩니다.
+
+  예:
 
   ```json
   {
@@ -56,6 +66,9 @@ ht-degree: 6%
   }
   ```
 
+>[!NOTE]
+>
+>컬렉션 내의 중첩된 배열은 사용자 지정 작업 요청 페이로드에서 일부만 지원됩니다. 자세한 내용은 [제한 사항](#limitations)을 참조하세요.
 
 ## 일반 절차 {#general-procedure}
 
@@ -125,6 +138,8 @@ ht-degree: 6%
 
 ## 제한 사항 {#limitations}
 
+사용자 지정 작업의 컬렉션은 동적 데이터를 유연하게 전달할 수 있지만 다음과 같은 특정 구조적 제약 조건이 있습니다.
+
 * **사용자 지정 작업에서 중첩된 배열 지원**
 
   Adobe Journey Optimizer은 사용자 지정 작업 **응답 페이로드**&#x200B;에서 중첩된 오브젝트 배열을 지원하지만, 이 지원은 **요청 페이로드**&#x200B;에서 제한됩니다.
@@ -172,7 +187,7 @@ ht-degree: 6%
       ```
 
 
-* 테스트 모드를 사용하여 컬렉션을 테스트하려면 코드 보기 모드를 사용해야 합니다. 코드 보기 모드는 현재 비즈니스 이벤트에 대해 지원되지 않습니다. 단일 요소가 있는 컬렉션만 보낼 수 있습니다.
+* **컬렉션 테스트**: 테스트 모드를 사용하여 컬렉션을 테스트하려면 코드 보기 모드를 사용해야 합니다. 코드 보기 모드는 비즈니스 이벤트에 대해 지원되지 않으므로 이 경우 단일 요소가 포함된 컬렉션만 보낼 수 있습니다.
 
 
 ## 특별한 경우{#examples}
@@ -208,6 +223,12 @@ ht-degree: 6%
 }
 ```
 
-**관련 항목**
+## 추가 리소스
 
-[사용자 정의 액션 사용](../building-journeys/using-custom-actions.md)
+사용자 지정 작업의 구성, 사용 및 문제 해결에 대한 자세한 내용을 보려면 아래 섹션을 찾아보십시오.
+
+* [사용자 지정 작업 시작](../action/action.md) - 사용자 지정 작업이 무엇이고 이러한 작업이 서드파티 시스템에 연결하는 데 어떻게 도움이 되는지 알아봅니다.
+* [사용자 지정 작업 구성](../action/about-custom-action-configuration.md) - 사용자 지정 작업을 만들고 구성하는 방법에 대해 알아봅니다.
+* [사용자 지정 작업 사용](../building-journeys/using-custom-actions.md) - 여정에서 사용자 지정 작업을 사용하는 방법에 대해 알아봅니다.
+* [사용자 지정 작업 문제 해결](../action/troubleshoot-custom-action.md) - 사용자 지정 작업 문제를 해결하는 방법 알아보기
+

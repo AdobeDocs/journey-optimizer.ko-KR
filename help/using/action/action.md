@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 작업, 여정, 메시지, 보내기, 연결
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
+source-git-commit: 8a94f9081c4f7fe158c084d02642d5bbba33dca2
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 49%
+source-wordcount: '358'
+ht-degree: 40%
 
 ---
 
@@ -49,4 +49,14 @@ ht-degree: 49%
 
 사용자 지정 작업을 구성하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430279?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)
+
+## 추가 리소스
+
+사용자 지정 작업 구성 및 사용에 대한 자세한 내용은 아래 섹션을 참조하십시오.
+
+* [사용자 지정 작업 구성](../action/about-custom-action-configuration.md) - 사용자 지정 작업을 만들고 구성하는 방법에 대해 알아봅니다.
+* [사용자 지정 작업 사용](../building-journeys/using-custom-actions.md) - 여정에서 사용자 지정 작업을 사용하는 방법에 대해 알아봅니다.
+* [사용자 지정 작업 매개 변수에 컬렉션 전달](../building-journeys/collections.md) - 런타임에 동적으로 채워진 사용자 지정 작업 매개 변수에서 컬렉션을 전달하는 방법을 알아봅니다.
+* [사용자 지정 작업 문제 해결](../action/troubleshoot-custom-action.md) - 사용자 지정 작업 문제를 해결하는 방법 알아보기
+

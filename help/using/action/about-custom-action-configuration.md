@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 작업, 서드파티, 사용자 지정, 여정, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 967713938ab0e3eaaaad7a86054ed1270a9cc1ca
+source-git-commit: 8a94f9081c4f7fe158c084d02642d5bbba33dca2
 workflow-type: tm+mt
-source-wordcount: '1749'
-ht-degree: 19%
+source-wordcount: '1829'
+ht-degree: 18%
 
 ---
 
@@ -26,6 +26,34 @@ ht-degree: 19%
 서드파티 시스템을 사용하여 메시지를 보내거나 서드파티 시스템으로 API 호출을 보내려는 경우, 사용자 정의 액션을 사용하여 여정에 대한 연결을 구성합니다. 예를 들어 사용자 정의 액션으로 Epsilon, Slack, [Adobe Developer](https://developer.adobe.com){target="_blank"}, Firebase 등의 시스템에 연결할 수 있습니다.
 
 사용자 지정 작업은 기술 사용자가 정의하고 마케터가 사용할 수 있는 추가 작업입니다. 구성하고 나면 여정 왼쪽 팔레트의 **[!UICONTROL Action]** 카테고리에 표시됩니다. [이 페이지](../building-journeys/about-journey-activities.md#action-activities)에서 자세히 알아보십시오.
+
+
+## 구성 단계 {#configuration-steps}
+
+사용자 지정 작업을 구성하는 데 필요한 주요 단계는 다음과 같습니다.
+
+1. 관리 메뉴 섹션에서 **[!UICONTROL 구성]**&#x200B;을 선택합니다. **[!UICONTROL 작업]** 섹션에서 **[!UICONTROL 관리]**&#x200B;를 클릭합니다. 새 작업을 만들려면 **[!UICONTROL 작업 만들기]**&#x200B;를 클릭하십시오. 작업 구성 창이 화면 오른쪽에 열립니다.
+
+   ![](assets/custom2.png)
+
+1. 작업 이름을 입력합니다.
+
+   >[!NOTE]
+   >
+   >영숫자와 밑줄만 허용됩니다. 최대 길이는 30자입니다.
+
+1. 작업에 설명을 추가합니다. 데이터 소스에 이벤트에 설명을 추가합니다.
+1. 이 작업을 사용하는 여정 수는 **[!UICONTROL 다음 항목에서 사용됨]** 필드에 표시됩니다. **[!UICONTROL 여정 보기]** 단추를 클릭하여 이 동작을 사용하여 여정 목록을 표시할 수 있습니다.
+1. 다른 **[!UICONTROL URL 구성]** 매개 변수를 정의하십시오. [이 페이지](../action/about-custom-action-configuration.md#url-configuration)를 참조하십시오.
+1. **[!UICONTROL 인증]** 섹션을 구성합니다. 이 구성은 데이터 소스의 경우와 동일합니다.  [이 섹션](../datasource/external-data-sources.md#custom-authentication-mode)을 참조하십시오.
+1. **[!UICONTROL 작업 매개 변수]**&#x200B;을(를) 정의합니다. [이 페이지](../action/about-custom-action-configuration.md#define-the-message-parameters)를 참조하십시오.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+
+   이제 사용자 지정 작업이 구성되었으며 여정에서 사용할 준비가 되었습니다. [이 페이지](../building-journeys/about-journey-activities.md#action-activities)를 참조하십시오.
+
+   >[!NOTE]
+   >
+   >여정에서 사용자 지정 작업을 사용하는 경우 대부분의 매개 변수는 읽기 전용입니다. **[!UICONTROL 이름]**, **[!UICONTROL 설명]**, **[!UICONTROL URL]** 필드 및 **[!UICONTROL 인증]** 섹션만 수정할 수 있습니다.
 
 ## 제한 사항{#custom-actions-limitations}
 
@@ -66,33 +94,6 @@ Journey Optimizer에서는 데이터 거버넌스 및 동의 정책을 사용자
 * [데이터 거버넌스](../action/action-privacy.md)
 * [동의](../action/action-privacy.md).
 
-
-## 구성 단계 {#configuration-steps}
-
-사용자 지정 작업을 구성하는 데 필요한 주요 단계는 다음과 같습니다.
-
-1. 관리 메뉴 섹션에서 **[!UICONTROL 구성]**&#x200B;을 선택합니다. **[!UICONTROL 작업]** 섹션에서 **[!UICONTROL 관리]**&#x200B;를 클릭합니다. 새 작업을 만들려면 **[!UICONTROL 작업 만들기]**&#x200B;를 클릭하십시오. 작업 구성 창이 화면 오른쪽에 열립니다.
-
-   ![](assets/custom2.png)
-
-1. 작업 이름을 입력합니다.
-
-   >[!NOTE]
-   >
-   >영숫자와 밑줄만 허용됩니다. 최대 길이는 30자입니다.
-
-1. 작업에 설명을 추가합니다. 데이터 소스에 이벤트에 설명을 추가합니다.
-1. 이 작업을 사용하는 여정 수는 **[!UICONTROL 다음 항목에서 사용됨]** 필드에 표시됩니다. **[!UICONTROL 여정 보기]** 단추를 클릭하여 이 동작을 사용하여 여정 목록을 표시할 수 있습니다.
-1. 다른 **[!UICONTROL URL 구성]** 매개 변수를 정의하십시오. [이 페이지](../action/about-custom-action-configuration.md#url-configuration)를 참조하십시오.
-1. **[!UICONTROL 인증]** 섹션을 구성합니다. 이 구성은 데이터 소스의 경우와 동일합니다.  [이 섹션](../datasource/external-data-sources.md#custom-authentication-mode)을 참조하십시오.
-1. **[!UICONTROL 작업 매개 변수]**&#x200B;을(를) 정의합니다. [이 페이지](../action/about-custom-action-configuration.md#define-the-message-parameters)를 참조하십시오.
-1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
-
-   이제 사용자 지정 작업이 구성되었으며 여정에서 사용할 준비가 되었습니다. [이 페이지](../building-journeys/about-journey-activities.md#action-activities)를 참조하십시오.
-
-   >[!NOTE]
-   >
-   >여정에서 사용자 지정 작업을 사용하는 경우 대부분의 매개 변수는 읽기 전용입니다. **[!UICONTROL 이름]**, **[!UICONTROL 설명]**, **[!UICONTROL URL]** 필드 및 **[!UICONTROL 인증]** 섹션만 수정할 수 있습니다.
 
 ## 끝점 구성 {#url-configuration}
 
@@ -156,7 +157,7 @@ Adobe Journey Optimizer은 사용자 지정 작업에 대해 기본적으로 TLS
 
 mTLS(상호 전송 계층 보안)를 사용하여 Adobe Journey Optimizer 사용자 지정 작업에 대한 아웃바운드 연결에서 보안을 강화할 수 있습니다. mTLS는 상호 인증을 위한 종단간 보안 방법으로, 정보를 공유하는 양 당사자가 데이터를 공유하기 전에 자신이 주장하는 사람임을 보장합니다. mTLS에는 TLS와 비교하여 추가 단계가 포함되어 있으며, 이 단계에서 서버는 클라이언트의 인증서를 요청하고 마지막에 검증한다.
 
-사용자 지정 작업에서 상호 TLS(mTLS) 인증이 지원됩니다. mTLS를 활성화하기 위해 사용자 정의 작업 또는 여정에 구성을 추가할 필요는 없습니다. mTLS 활성화 엔드포인트가 감지되면 자동으로 활성화됩니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
+사용자 지정 작업에서 상호 TLS(mTLS) 인증이 지원됩니다. mTLS를 활성화하기 위해 사용자 정의 작업 또는 여정에 구성을 추가할 필요는 없습니다. mTLS 활성화 엔드포인트가 감지되면 자동으로 활성화됩니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
 
 ## 페이로드 매개 변수 정의 {#define-the-message-parameters}
 
@@ -195,6 +196,15 @@ mTLS(상호 전송 계층 보안)를 사용하여 Adobe Journey Optimizer 사용
 >
 
 
-## 문제 해결
+* [사용자 지정 작업 문제 해결](../action/troubleshoot-custom-action.md) - 사용자 지정 작업 문제를 해결하는 방법 알아보기
 
-이 전용 페이지[에서 사용자 지정 작업 ](../action/troubleshoot-custom-action.md)의 문제를 해결하는 방법을 알아보세요.
+
+## 추가 리소스
+
+사용자 지정 작업의 구성, 사용 및 문제 해결에 대한 자세한 내용을 보려면 아래 섹션을 찾아보십시오.
+
+* [사용자 지정 작업 시작](../action/action.md) - 사용자 지정 작업이 무엇이고 이러한 작업이 서드파티 시스템에 연결하는 데 어떻게 도움이 되는지 알아봅니다.
+* [사용자 지정 작업 사용](../building-journeys/using-custom-actions.md) - 여정에서 사용자 지정 작업을 사용하는 방법에 대해 알아봅니다.
+* [사용자 지정 작업 문제 해결](../action/troubleshoot-custom-action.md) - 사용자 지정 작업 문제를 해결하는 방법 알아보기
+* [사용자 지정 작업 매개 변수에 컬렉션 전달](../building-journeys/collections.md) - 런타임에 동적으로 채워진 사용자 지정 작업 매개 변수에서 컬렉션을 전달하는 방법을 알아봅니다.
+
