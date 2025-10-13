@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 3d4b4fce529db70c53daea3d15d4af9a14b57424
+source-git-commit: 89955157e37f3312ccc8d033a26f5a8664aebfe1
 workflow-type: tm+mt
 source-wordcount: '1112'
 ht-degree: 8%
@@ -22,12 +22,13 @@ ht-degree: 8%
 >title="텍스트 메시지 만들기"
 >abstract="문자 메시지(SMS/MMS/RCS)를 만들려면 여정이나 캠페인에 SMS 액션을 추가하고 개인화 편집기로 개인화를 시작합니다."
 
+>[!AVAILABILITY]
+>
+>RCS Upscale은 HIPAA 준비 서비스가 아니며, 조직에서 Journey Optimizer에서 처리하는 것이 허용될 수 있는 허용된 상태 데이터(예: 개인 건강 정보 또는 PHI)를 포함하여 민감한 개인 데이터를 수집, 저장 또는 처리하는 데 사용되어서는 안 됩니다.
+
 Adobe Journey Optimizer에서 텍스트(SMS), 풍부한 커뮤니케이션(RCS) 및 멀티미디어(MMS) 메시지를 디자인하고 보낼 수 있습니다. 먼저 여정 또는 캠페인에 SMS 작업을 추가한 다음 아래에 설명된 대로 텍스트 메시지의 콘텐츠를 정의해야 합니다. Adobe Journey Optimizer은 전송 전에 텍스트 메시지를 테스트하여 렌더링, 개인화 속성 및 기타 모든 설정을 확인할 수 있는 기능도 제공합니다.
 
->[!NOTE]
->
->업계 표준 및 규정에 따라 모든 SMS/MMS 마케팅 메시지에는 수신자가 간편하게 구독을 취소할 수 있는 방법이 포함되어야 합니다. 이를 위해 SMS 수신자는 옵트인 및 옵트아웃 키워드로 회신할 수 있습니다. [옵트아웃 관리 방법 알아보기](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
-
+업계 표준 및 규정에 따라 모든 SMS/MMS 마케팅 메시지에는 수신자가 간편하게 구독을 취소할 수 있는 방법이 포함되어야 합니다. 이를 위해 SMS 수신자는 옵트인 및 옵트아웃 키워드로 회신할 수 있습니다. [옵트아웃 관리 방법 알아보기](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
 
 ## 문자 메시지 추가 {#create-sms-journey-campaign}
 
@@ -96,10 +97,6 @@ Adobe Journey Optimizer에서 텍스트(SMS), 풍부한 커뮤니케이션(RCS) 
 >id="ajo_message_sms_content"
 >title="SMS 콘텐츠 정의"
 >abstract="개인화 편집기를 사용하여 콘텐츠를 정의하고 동적 요소를 통합하여 문자 메시지(SMS/MMS/RCS)를 사용자 정의하고 개인화합니다."
-
->[!AVAILABILITY]
->
->RCS Upscale은 HIPAA 준비 서비스가 아니며, 조직에서 Journey Optimizer에서 처리하는 것이 허용될 수 있는 허용된 상태 데이터(예: 개인 건강 정보 또는 PHI)를 포함하여 민감한 개인 데이터를 수집, 저장 또는 처리하는 데 사용되어서는 안 됩니다.
 
 메시지 콘텐츠를 구성하려면 아래 단계를 따르십시오. MMS 설정에 대한 자세한 내용은 [이 섹션](#mms-content)을 참조하세요.
 
