@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 881cae4638082f804a5e2a768dfa135193959191
 workflow-type: tm+mt
 source-wordcount: '1354'
 ht-degree: 2%
@@ -29,7 +29,7 @@ ht-degree: 2%
 
 이 강력한 옵션을 사용하면 **[!DNL Customer Journey Analytics]** 환경으로 원활하게 리디렉션되어 보고서를 광범위하게 개인화할 수 있습니다. 전문 Customer Journey Analytics 지표로 위젯을 보강하여 통찰력을 완전히 새로운 수준으로 끌어올릴 수 있습니다.
 
-[Customer Journey Analytics 인터페이스에 대해 자세히 알아보세요.](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-getting-started)
+[Customer Journey Analytics 인터페이스에 대해 자세히 알아보세요.](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-getting-started)
 
 ## 보고서 기간 정의 {#report-period}
 
@@ -137,7 +137,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >Customer Journey Analytics을 소유하고 있는 경우 추가 옵션을 사용하여 지표를 추가로 개인화할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-build-metrics#areas-of-the-calculated-metrics-builder)
+   >Customer Journey Analytics을 소유하고 있는 경우 추가 옵션을 사용하여 지표를 추가로 개인화할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-build-metrics#areas-of-the-calculated-metrics-builder)
 
 1. 적절한 **[!UICONTROL 소수점 이하 자리 수]**&#x200B;를 선택하고 지표를 표시할 방법을 기준으로 **[!UICONTROL 형식]**(소수점, 시간, 백분율 또는 통화)을 선택합니다.
 
@@ -155,13 +155,13 @@ ht-degree: 2%
 
 보고서를 PDF 또는 CSV로 내보낼 때 새로 만든 지표가 포함됩니다. 하지만 보고서를 종료하면 보고서에서 제거됩니다.
 
-## 탐색적 분석을 사용하여 데이터 탐색 {#exploratory}
+## insight 빌더로 데이터 탐색 {#exploratory}
 
-Exploratory Analysis 도구를 사용하여 선택한 **[!UICONTROL 차원]** 및 **[!UICONTROL 지표]**&#x200B;에서 표와 시각화를 쉽게 만들 수 있습니다. 이 도구를 사용하면 데이터 탐색을 간소화하여 정보를 쉽게 자동으로 사용자 정의하고 분석할 수 있습니다. 자세한 내용은 [이 설명서](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/panels/quickinsight)를 참조하세요.
+insight 빌더 도구를 사용하여 선택한 **[!UICONTROL 차원]** 및 **[!UICONTROL 지표]**&#x200B;에서 표와 시각화를 쉽게 만들 수 있습니다. 이 도구를 사용하면 데이터 탐색을 간소화하여 정보를 쉽게 자동으로 사용자 정의하고 분석할 수 있습니다. 자세한 내용은 [이 설명서](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/quickinsight)를 참조하세요.
 
-1. Exploratory Analysis를 사용할 보고서에 액세스해 보십시오.
+1. insight 빌더를 사용할 보고서에 액세스해 보십시오.
 
-1. 왼쪽 레일 메뉴에서 Exploratory Analysis 메뉴를 선택합니다.
+1. 왼쪽 레일 메뉴에서 Insight 빌더 메뉴를 선택합니다.
 
    ![](assets/exploratory_analysis_1.png)
 
@@ -193,7 +193,7 @@ d. Open the report for the journey that you added the metric to and ensure that 
 >[!IMPORTANT]
 >
 >각 조직은 25개의 대상자를 게시하는 것으로 제한됩니다. 또한 사용자는 시간당 최대 5개, 일별 20개의 대상을 게시할 수 있습니다.
->&#x200B;> 일회성 대상의 수명은 48시간입니다. 따라서 25개의 대상이 해당 기간 내에 게시되는 경우 추가 대상은 48시간 기간이 경과한 후에만 게시할 수 있습니다.
+>> 일회성 대상의 수명은 48시간입니다. 따라서 25개의 대상이 해당 기간 내에 게시되는 경우 추가 대상은 48시간 기간이 경과한 후에만 게시할 수 있습니다.
 
 이제 테이블 내에서 특정 데이터를 선택하고 이러한 선택 항목으로 대상을 직접 만들 수 있으므로 대상 만들기 프로세스를 간소화하고 단순화할 수 있습니다.
 
@@ -207,7 +207,7 @@ d. Open the report for the journey that you added the metric to and ensure that 
 
    >[!NOTE]
    >
-   >Customer Journey Analytics을 소유하고 있는 경우 추가 옵션을 사용하여 지표를 추가로 개인화할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/audiences/publish)
+   >Customer Journey Analytics을 소유하고 있는 경우 추가 옵션을 사용하여 지표를 추가로 개인화할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/publish)
 
    ![](assets/audience_1.png)
 
@@ -221,7 +221,7 @@ d. Open the report for the journey that you added the metric to and ensure that 
 >
 > **템플릿** 기능은 단계적으로 배포되며 1월 말까지 전체 일반 가용성이 계획되고 [!DNL Customer Journey Analytics] 라이선스를 가진 사용자만 사용할 수 있습니다.
 
-이제 Customer Journey Analytics 템플릿을 활용하여 Journey Optimizer 보고서를 향상시킬 수 있는 옵션이 제공됩니다. [Customer Journey Analytics 템플릿에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/templates/use-templates#use-reports)
+이제 Customer Journey Analytics 템플릿을 활용하여 Journey Optimizer 보고서를 향상시킬 수 있는 옵션이 제공됩니다. [Customer Journey Analytics 템플릿에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates#use-reports)
 
 보고서에 액세스할 때 **[!UICONTROL 템플릿 선택]** 드롭다운에서 두 가지 템플릿 유형 중 하나를 선택할 수 있습니다.
 
@@ -234,19 +234,19 @@ d. Open the report for the journey that you added the metric to and ensure that 
 
 템플릿을 만들려면 아래 단계를 수행하십시오.
 
-1. [!DNL Customer Journey Analytics]에서 **[!UICONTROL Workspace]** 메뉴로 이동한 다음 **[!UICONTROL Adobe 템플릿]**&#x200B;을 선택합니다. [사용 가능한 템플릿에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/templates/use-templates#available-templates)
+1. [!DNL Customer Journey Analytics]에서 **[!UICONTROL Workspace]** 메뉴로 이동한 다음 **[!UICONTROL Adobe 템플릿]**&#x200B;을 선택합니다. [사용 가능한 템플릿에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates#available-templates)
 
 1. 미리 빌드된 사용 가능한 템플릿을 찾은 다음 **[!UICONTROL 템플릿 사용]**&#x200B;을 클릭하여 선택합니다.
 
    ![](assets/cja_template_1.png)
 
-1. 필요에 맞게 보고서를 조정하십시오. [Customer Journey Analytics 설명서](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/home)를 참조하세요.
+1. 필요에 맞게 보고서를 조정하십시오. [Customer Journey Analytics 설명서](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)를 참조하세요.
 
 1. 사용자 지정 템플릿이 완성되면 **[!UICONTROL 프로젝트]** 메뉴에 액세스하고 **[!UICONTROL 템플릿으로 저장]**&#x200B;을(를) 선택하십시오.
 
    ![](assets/cja_template_2.png)
 
-1. 템플릿에 필요한 세부 정보를 입력합니다. 자세한 내용은 [Customer Journey Analytics 설명서](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/templates/create-templates#edit-or-delete-a-template)를 참조하세요.
+1. 템플릿에 필요한 세부 정보를 입력합니다. 자세한 내용은 [Customer Journey Analytics 설명서](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/create-templates#edit-or-delete-a-template)를 참조하세요.
 
    >[!IMPORTANT]
    >
