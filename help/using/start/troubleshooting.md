@@ -6,9 +6,10 @@ description: Journey Optimizer 문제 해결 질문
 feature: Get Started
 role: User
 level: Intermediate
-source-git-commit: d5d6903966b0c62095bfb5a17d94c4c3f4b18379
+exl-id: f8acb987-5c6e-4545-93b9-fdfc0d74db57
+source-git-commit: f46cc01dce5ab0a30c1f0907b2a4684802b216be
 workflow-type: tm+mt
-source-wordcount: '2674'
+source-wordcount: '2746'
 ht-degree: 2%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 2%
 
 다음은 Adobe Journey Optimizer 문제 해결 문서 목록입니다. 각 문제 해결 섹션은 FAQ에 대한 답변과 문제에 대한 솔루션을 제공합니다.
 
-[Adobe Experience Platform FAQ 및 문제 해결 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/troubleshooting){target="_blank"}도 참조하세요.
+[Adobe Experience Platform FAQ 및 문제 해결 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/landing/troubleshooting){target="_blank"}도 참조하세요.
 
 ## 이메일 채널 {#ajo-troubleshooting-email}
 
@@ -148,7 +149,7 @@ Adobe Customer Journey Analytics의 **인앱 채널**&#x200B;에 대한 보고�
 
 이 문제에 대한 자세한 내용은 [이 문제 해결 문서](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-26206){target="_blank"}를 참조하세요.
 
-Customer Journey Analytics에서 Journey Optimizer 분석 데이터를 통합하는 방법에 대해 자세히 알아보세요. [이 페이지](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/integrations/ajo?lang=en#automatically-configure-journey-optimizer-integration){target="_blank"}.
+Customer Journey Analytics에서 Journey Optimizer 분석 데이터를 통합하는 방법에 대해 자세히 알아보세요. [이 페이지](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/ajo?lang=en#automatically-configure-journey-optimizer-integration){target="_blank"}.
 
 [Journey Optimizer 전체 보고서 설명서](../reports/report-gs-cja.md)도 참조하세요.
 
@@ -188,9 +189,9 @@ Adobe Journey Optimizer에서 여정에서 **프로필 업데이트** 활동을 
 
 이 문제를 해결하는 방법에 대해 알아보려면 [이 문제 해결 문서](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-26352){target="_blank"}를 참조하세요.
 
-이 페이지의 **&#x200B;**&#x200B;여정에서 [프로필 업데이트](../building-journeys/update-profiles.md) 활동에 대해 자세히 알아보세요.
+이 페이지의 **** 여정에서 [프로필 업데이트](../building-journeys/update-profiles.md) 활동에 대해 자세히 알아보세요.
 
-데이터 수집에 대한 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/ingestion/tutorials/ingest-batch-data?lang=en#dataset-activity){target="_blank"}도 참조하세요.
+데이터 수집에 대한 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/tutorials/ingest-batch-data?lang=en#dataset-activity){target="_blank"}도 참조하세요.
 
 +++
 
@@ -200,9 +201,9 @@ Adobe Journey Optimizer에서 여정에서 **프로필 업데이트** 활동을 
 
 이 문제를 해결하는 방법에 대해 알아보려면 [이 문제 해결 문서](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-26253){target="_blank"}를 참조하세요.
 
-[이 Journey Optimizer 커뮤니티 게시물](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998?profile.language=ko){target="_blank"}에서 자세히 알아보세요.
+[이 Journey Optimizer 커뮤니티 게시물](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998){target="_blank"}에서 자세히 알아보세요.
 
-매일 작업이 예약된 시간을 확인하려면 [Adobe Experience Platform 일정 API 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/api/schedules?lang=en){target="_blank"}를 참조하십시오.
+매일 작업이 예약된 시간을 확인하려면 [Adobe Experience Platform 일정 API 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/api/schedules?lang=en){target="_blank"}를 참조하십시오.
 
 +++
 
@@ -213,9 +214,9 @@ Adobe Journey Optimizer에서 여정에서 **프로필 업데이트** 활동을 
 
 이 문제를 해결하는 방법에 대해 알아보려면 [이 문제 해결 문서](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-26333){target="_blank"}를 참조하세요.
 
-이 페이지의 **&#x200B;**&#x200B;여정에서 [프로필 업데이트](../building-journeys/update-profiles.md) 활동에 대해 자세히 알아보세요.
+이 페이지의 **** 여정에서 [프로필 업데이트](../building-journeys/update-profiles.md) 활동에 대해 자세히 알아보세요.
 
-[Adobe Real-Time CDP 프로필 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/ui/user-guide?lang=en#profile-detail){target="_blank"}도 참조하세요.
+[Adobe Real-Time CDP 프로필 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide?lang=en#profile-detail){target="_blank"}도 참조하세요.
 
 +++
 
@@ -227,7 +228,7 @@ Adobe Journey Optimizer에서 여정에서 **프로필 업데이트** 활동을 
 
 [라이선스 사용 대시보드](../audience/license-usage.md)를 사용하여 조직의 라이선스 사용 및 참여 가능한 프로필 모니터링
 
-[Adobe Experience Platform 쿼리 서비스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/query/home?lang=en){target="_blank"}도 참조하세요.
+[Adobe Experience Platform 쿼리 서비스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/query/home?lang=en){target="_blank"}도 참조하세요.
 
 +++
 
@@ -257,7 +258,6 @@ Adobe Journey Optimizer에서 여정에서 **프로필 업데이트** 활동을 
 * [여정의 인바운드 동작 문제 해결](../building-journeys/troubleshooting-inbound.md)
 * [실시간 여정 실행 문제 해결](../building-journeys/troubleshooting-execution.md)
 * [사용자 정의 액션 문제 해결](../action/troubleshoot-custom-action.md)
-
 
 
 +++ 새 여정 버전을 만들 때 표현식이 손실되는 이유는 무엇입니까?  
@@ -324,6 +324,14 @@ Adobe Journey Optimizer에서 여정에서 **프로필 업데이트** 활동을 
 이 페이지[에서 여정 조절 API ](../configuration/throttling.md)에 대해 자세히 알아보세요.
 
 [외부 시스템과 통합](../configuration/external-systems.md)도 참조하세요.
+
++++
+
++++ 화살표를 통해 대상자를 게시할 때 **invalid_access** 또는 **이 dataId=XX에 대한 액세스 권한 없음**&#x200B;이 부여되는 메시지와 함께 403 오류가 발생하는 경우 어떤 단계를 수행해야 합니까?
+
+이 오류를 해결하려면 관리자에게 문의하여 사용자 프로필이 대상자 게시를 위한 필수 데이터 보기에 액세스할 수 있는지 확인한 다음 대상자를 다시 게시해 보십시오.
+
+이 문제를 해결하는 방법에 대해 알아보려면 [권한 설명서](../administration/permissions.md){target="_blank"}를 참조하세요.
 
 +++
 
@@ -405,7 +413,6 @@ Postman 또는 유사한 도구를 통해 **쿼리 서비스 API**&#x200B;를 �
 
 자세한 내용은 [이 문제 해결 문서](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-26196){target="_blank"}를 참조하세요.
 
-[API 자격 증명 관리 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/abac/permissions-ui/permissions?lang=en#manage-api-credentials-for-role){target="_blank"}도 참조하세요.
+[API 자격 증명 관리 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions?lang=en#manage-api-credentials-for-role){target="_blank"}도 참조하세요.
 
 +++
-
