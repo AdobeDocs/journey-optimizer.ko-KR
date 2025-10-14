@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 내용, 실험, 복수, 대상자, 처리
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 397fad9c95e0c11c0496ab5c9adfb6f8169de4f6
+source-git-commit: e1e7badf7a0539d49b0eb1d9668f945503f84ba6
 workflow-type: tm+mt
-source-wordcount: '1846'
+source-wordcount: '1843'
 ht-degree: 6%
 
 ---
@@ -264,9 +264,9 @@ Bring your own Multi-armed bandit 실험은 다음에서만 사용할 수 있습
    * 우승자를 찾는 즉시.
    * 선택한 시간 동안 실험이 라이브 상태가 됩니다.
 
-자동 크기 조정 시간은 실험 종료일 전에 예약해야 합니다. 종료 날짜 이후 시간으로 설정하면 유효성 검사 경고가 표시되고 캠페인이나 여정이 게시되지 않습니다.
+   자동 크기 조정 시간은 실험 종료일 전에 예약해야 합니다. 종료 날짜 이후 시간으로 설정하면 유효성 검사 경고가 표시되고 캠페인이나 여정이 게시되지 않습니다.
 
-    ![](assets/scale-winner-2.png)
+   ![](assets/scale-winner-2.png)
 
 1. 배율 시간별 우승자를 찾을 수 없는 경우 대체 동작을 선택하십시오.
 
