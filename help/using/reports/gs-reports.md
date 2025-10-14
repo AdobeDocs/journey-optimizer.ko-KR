@@ -27,7 +27,7 @@ Adobe Journey Optimizer은 강력한 보고 기능을 통해 실용적인 통찰
   ![](assets/report_journey.png)
 
 
-* **Customer Journey Analytics을 사용한 모든 시간 보고서** - Journey Optimizer 보고는 Customer Journey Analytics 기능과 완전히 통합되어 두 플랫폼 간에 보고를 표준화하고 데이터 일관성과 안정성을 개선합니다. 이렇게 Journey Optimizer와 Customer Journey Analytics가 원활하게 통합됨으로써 사용자가 성과 지표를 보다 명확하게 확인하여 더욱 정보에 근거한 결정을 내릴 수 있습니다. 이 섹션[에서 실시간 보고서 ](report-gs-cja.md)에 대해 자세히 알아보세요.
+* **Customer Journey Analytics을 사용한 모든 시간 보고서** - Journey Optimizer 보고는 Customer Journey Analytics 기능과 완전히 통합되어 두 플랫폼 간에 보고를 표준화하고 데이터 일관성과 안정성을 개선합니다. 이렇게 Journey Optimizer와 Customer Journey Analytics가 원활하게 통합됨으로써 사용자가 성과 지표를 보다 명확하게 확인하여 더욱 정보에 근거한 결정을 내릴 수 있습니다. 이 섹션[에서 실시간 보고서 &#x200B;](report-gs-cja.md)에 대해 자세히 알아보세요.
 
   ![](assets/gs-cja-report-1.png)
 

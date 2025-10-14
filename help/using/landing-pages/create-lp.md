@@ -271,7 +271,7 @@ ht-degree: 23%
 
 랜딩 페이지가 게시되면 **[!UICONTROL 게시됨]** 상태로 랜딩 페이지 목록에 추가됩니다.
 
-이제 실시간 상태로 [!DNL Journey Optimizer]여정[을(를) 통해 전송되는 ](../building-journeys/journey.md) 메시지에 사용할 준비가 되었습니다.
+이제 실시간 상태로 [!DNL Journey Optimizer]여정[을(를) 통해 전송되는 &#x200B;](../building-journeys/journey.md) 메시지에 사용할 준비가 되었습니다.
 
 >[!NOTE]
 >

@@ -83,7 +83,7 @@ ht-degree: 50%
 >
 >[이 섹션](code-based-prerequisites.md#implementation-prerequisites)에서 구현 필수 구성 요소에 대해 자세히 알아보세요.
 
-코드 기반 경험을 사용하면 <!--(such as a specific location on a page, or inside a mobile native app)-->표면 URI[!DNL Journey Optimizer]을(를) 사용하여 [에 의해 고유하게 식별되는 세분화된 위치 ](#surface-uri)의 콘텐츠를 수정할 수 있습니다.
+코드 기반 경험을 사용하면 <!--(such as a specific location on a page, or inside a mobile native app)-->표면 URI[!DNL Journey Optimizer]을(를) 사용하여 [에 의해 고유하게 식별되는 세분화된 위치 &#x200B;](#surface-uri)의 콘텐츠를 수정할 수 있습니다.
 
 이러한 표면 URI는 구현 방법에 따라 구성되고 처리됩니다.
 

@@ -133,8 +133,8 @@ Journey Optimizer에서 인앱 구성을 만들려면 다음 단계를 수행하
 
 **관련 항목:**
 
-* [인앱 메시지 만들기 ](create-in-app.md)
+* [인앱 메시지 만들기 &#x200B;](create-in-app.md)
 * [캠페인 만들기](../campaigns/create-campaign.md)
 * [인앱 메시지 디자인](design-in-app.md)
-* [인앱 보고서 ](../reports/campaign-global-report-cja-inapp.md)
+* [인앱 보고서 &#x200B;](../reports/campaign-global-report-cja-inapp.md)
 

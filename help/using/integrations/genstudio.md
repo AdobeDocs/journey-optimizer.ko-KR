@@ -39,7 +39,7 @@ ht-degree: 15%
 
 >[!INFO]
 >
->더 자세히 알아보려면 이 [개요](https://business.adobe.com/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"}와 [의 ](https://business.adobe.com/products/genstudio-for-performance-marketing.html#demo){target="_blank"}데모[!DNL Adobe GenStudio for Performance Marketing]을(를) 확인하십시오.
+>더 자세히 알아보려면 이 [개요](https://business.adobe.com/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"}와 [의 &#x200B;](https://business.adobe.com/products/genstudio-for-performance-marketing.html#demo){target="_blank"}데모[!DNL Adobe GenStudio for Performance Marketing]을(를) 확인하십시오.
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
 
@@ -82,7 +82,7 @@ The following limitations apply to GenStudio integration in [!DNL Adobe Journey 
 
    >[!NOTE]
    >
-   >HTML 템플릿을 [!DNL GenStudio]Adobe GenStudio for Performance Marketing 사용 안내서[ 전용 섹션에서 ](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"}에 업로드하는 방법을 알아봅니다.
+   >HTML 템플릿을 [!DNL GenStudio]Adobe GenStudio for Performance Marketing 사용 안내서[&#x200B; 전용 섹션에서 &#x200B;](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"}에 업로드하는 방법을 알아봅니다.
 
 1. GenStudio에서 이 템플릿을 사용하여 AI 프롬프트가 있는 여러 이메일 변형을 만들고 저장합니다.
 
@@ -120,7 +120,7 @@ The following limitations apply to GenStudio integration in [!DNL Adobe Journey 
 
    >[!NOTE]
    >
-   >[템플릿 [!DNL Journey Optimizer] 에서 만든 GenStudio 경험 ](#export-from-ajo-to-genstudio)을(를) 이메일 Designer으로 직접 가져옵니다. [!DNL Journey Optimizer] 템플릿 없이 만든 GenStudio 경험을 [호환성 모드](../email/existing-content.md)(으)로 가져옵니다.
+   >[템플릿 [!DNL Journey Optimizer] 에서 만든 GenStudio 경험 &#x200B;](#export-from-ajo-to-genstudio)을(를) 이메일 Designer으로 직접 가져옵니다. [!DNL Journey Optimizer] 템플릿 없이 만든 GenStudio 경험을 [호환성 모드](../email/existing-content.md)(으)로 가져옵니다.
 
    [전자 메일 콘텐츠 편집 도구](../email/content-from-scratch.md) 및 [개인화 필드](../personalization/personalize.md)를 사용하여 전자 메일을 원하는 대로 편집하세요. 콘텐츠를 저장합니다.
 

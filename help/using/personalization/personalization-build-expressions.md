@@ -32,7 +32,7 @@ ht-degree: 10%
 
 ## 개인화를 추가할 수 있는 위치 {#where}
 
-**[!DNL Journey Optimizer]**&#x200B;개인화 추가 아이콘![ 아이콘을 사용하여 모든 필드의 ](assets/do-not-localize/add-perso-icon.svg)에 개인화를 추가할 수 있습니다. 자세한 내용을 보려면 아래 섹션을 확장하십시오.
+**[!DNL Journey Optimizer]**&#x200B;개인화 추가 아이콘![&#x200B; 아이콘을 사용하여 모든 필드의 &#x200B;](assets/do-not-localize/add-perso-icon.svg)에 개인화를 추가할 수 있습니다. 자세한 내용을 보려면 아래 섹션을 확장하십시오.
 
 +++메시지
 
