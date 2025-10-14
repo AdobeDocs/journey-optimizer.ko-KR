@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b08f996d9871f59665c2d329b493fd6e61030fac
+source-git-commit: 0a014d90c8a6654afcbfbd115db9a805c793cef5
 workflow-type: tm+mt
-source-wordcount: '1774'
+source-wordcount: '1773'
 ht-degree: 74%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 74%
 <td>
 <p>개인화 편집기에서 새로운 'executionMetadata' 도우미 기능을 사용할 수 있습니다. 이를 통해 컨텍스트 정보를 모든 기본 작업에 추가하고 데이터 세트에 캡처하여 외부 시스템으로 내보낼 수 있습니다.</p>
 <p>이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.</p>
-<p>자세한 내용은 <a href="https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve/">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../personalization/functions/helpers.md#execution-metadata">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2025년 10월 13일</p>
 </td>
 </tr>
