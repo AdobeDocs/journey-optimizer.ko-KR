@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8a94f9081c4f7fe158c084d02642d5bbba33dca2
+source-git-commit: 36056208cd1e435c4801bd178bdc5f2d74068dc5
 workflow-type: tm+mt
-source-wordcount: '2972'
-ht-degree: 99%
+source-wordcount: '2981'
+ht-degree: 98%
 
 ---
 
@@ -363,11 +363,13 @@ ht-degree: 99%
       + [푸시 알림 시작하기](using/push/get-started-push.md)
       + [푸시 알림 만들기](using/push/create-push.md)
       + [푸시 알림 디자인](using/push/design-push.md)
+      + [웹 푸시 알림 디자인](using/push/design-push-web.md)
       + [푸시 알림 확인 및 보내기](using/push/send-push.md)
       + 푸시 알림 구성 {#push-config}
          + [푸시 알림 구성](/help/rp_landing_pages/push-config-landing-page.md)
          + [푸시 알림 흐름](using/push/push-gs.md)
          + [푸시 알림 채널 구성](using/push/push-configuration.md)
+         + [푸시 알림 채널 구성](using/push/push-configuration-web.md)
          + [모바일 온보딩 빠른 시작 워크플로](using/push/mobile-onboarding-wf.md)
    + SMS / MMS / RCS 채널 {#sms}
       + [SMS / MMS / RCS 채널](/help/rp_landing_pages/sms-landing-page.md)
@@ -399,7 +401,7 @@ ht-degree: 99%
          + [웹 채널 전제 조건](using/web/web-prerequisites.md)
          + [웹 하위 도메인 구성](using/web/web-delegated-subdomains.md)
          + [웹 채널 구성 만들기](using/web/web-configuration.md)
-      + [웹 경험 만들기 &#x200B;](using/web/create-web.md)
+      + [웹 경험 만들기 ](using/web/create-web.md)
       + 웹 페이지 작성 {#author-web-pages}
          + [웹 페이지 작성](/help/rp_landing_pages/author-web-pages-landing-page.md)
          + [웹 디자이너를 사용하여 작업](using/web/web-visual-editor.md)
@@ -446,7 +448,7 @@ ht-degree: 99%
       + [LINE 메시지 만들기](using/line/create-line.md)
       + [LINE 메시지 확인 및 보내기](using/line/send-line.md)
 + 콘텐츠 관리 {#content-management}
-   + [콘텐츠 관리 &#x200B;](/help/rp_landing_pages/content-management-landing-page.md)
+   + [콘텐츠 관리 ](/help/rp_landing_pages/content-management-landing-page.md)
    + 개인화 {#personalization}
       + [개인화](/help/rp_landing_pages/personalization-landing-page.md)
       + [개인화 시작](using/personalization/personalize.md)

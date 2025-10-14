@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6782fabc6cb268218f55469298758272f887156a
+source-git-commit: 36056208cd1e435c4801bd178bdc5f2d74068dc5
 workflow-type: tm+mt
 source-wordcount: '1853'
 ht-degree: 72%
@@ -251,8 +251,6 @@ Journey Optimizer을 사용하여 Adobe 외부에서 동의를 관리하는 경�
 <p>사용 가능한 날짜: 2025년 9월 1일</p>
 </td>
 </tr>
-</tbody>
-</table>
 
 
 ### 개선 사항 {#sept-25-9-improvements}

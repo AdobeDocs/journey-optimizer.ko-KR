@@ -6,10 +6,11 @@ description: Journey Optimizer을 사용하여 푸시 알림을 전송하도록 
 feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
-exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
+hidefromtoc: true
+hide: true
 source-git-commit: 36056208cd1e435c4801bd178bdc5f2d74068dc5
 workflow-type: tm+mt
-source-wordcount: '1843'
+source-wordcount: '1890'
 ht-degree: 5%
 
 ---
@@ -132,8 +133,7 @@ Adobe Experience Platform Mobile SDK은 Android 및 iOS 호환 SDK를 통해 모
 
 이 작업이 끝날 때까지 [!DNL Adobe Experience Platform Data Collection]에서 모바일 속성도 만들고 구성해야 합니다. 일반적으로 관리하려는 각 모바일 애플리케이션에 대해 모바일 속성을 만듭니다. [Adobe Experience Platform Mobile SDK 설명서](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}에서 모바일 속성을 만들고 구성하는 방법에 대해 알아봅니다.
 
-<!--To enable **Web push notifications**, ensure that the [pushNotifications property](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/pushnotifications) is properly configured within the Web SDK. Then, use [the sendPushSubscription command](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendpushsubscription) to register push subscriptions with Adobe Experience Platform.
--->
+**웹 푸시 알림**&#x200B;을 사용하려면 [pushNotifications 속성](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/pushnotifications)이 웹 SDK 내에서 올바르게 구성되어 있는지 확인하십시오. 그런 다음 [sendPushSubscription 명령](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendpushsubscription)을(를) 사용하여 Adobe Experience Platform에 푸시 구독을 등록합니다.
 
 ## 1단계: Journey Optimizer에서 앱 푸시 자격 증명 추가 {#push-credentials-launch}
 
@@ -175,15 +175,13 @@ Adobe이 사용자를 대신하여 푸시 알림을 전송하도록 승인하려
 
       1. FCM 푸시 자격 증명을 끌어서 놓습니다. 푸시 자격 증명을 가져오는 방법에 대한 자세한 내용은 [Google 설명서](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}를 참조하세요.
 
-<!--
-    * **For Web**
+   * **웹용**
 
-        ![](assets/add-app-config-web.png)
+     ![](assets/add-app-config-web.png)
 
-        1. Provide the **[!UICONTROL App ID]**.
+      1. **[!UICONTROL 앱 ID]**&#x200B;를 제공하십시오.
 
-        1. Enter your **[!UICONTROL VAPID public key]** and **[!UICONTROL private key]**.
--->
+      1. **[!UICONTROL VAPID 공개 키]** 및 **[!UICONTROL 개인 키]**&#x200B;를 입력하십시오.
 
 1. 앱 구성을 만들려면 **[!UICONTROL 제출]**&#x200B;을 클릭합니다.
 
@@ -228,7 +226,7 @@ Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Ex
 
 1. 이 구성을 사용하여 동의 정책을 메시지에 연결하려면 **[!UICONTROL 마케팅 액션]**&#x200B;을 선택하십시오. 마케팅 액션과 관련된 모든 동의 정책은 고객의 선호도를 존중하기 위해 활용됩니다. [자세히 알아보기](../action/consent.md#surface-marketing-actions)
 
-1. **[!UICONTROL 플랫폼]**: Android 및/또는 iOS <!--and/or Web-->을(를) 선택하십시오.
+1. **[!UICONTROL 플랫폼]**: Android, iOS 및/또는 웹을 선택하세요.
 
 1. 위에 구성된 **[!UICONTROL 푸시 자격 증명]**&#x200B;과 동일한 [앱 ID](#push-credentials-launch)을(를) 선택하십시오.
 

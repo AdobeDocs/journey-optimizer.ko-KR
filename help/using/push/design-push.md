@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: e7567a68425c8fba5fc0f0b84b494b20d9f4df89
+source-git-commit: 36056208cd1e435c4801bd178bdc5f2d74068dc5
 workflow-type: tm+mt
 source-wordcount: '1491'
 ht-degree: 16%
@@ -75,7 +75,7 @@ Android 버전에서는 이미지 아이콘과 확장된 알림에 대한 이미
 
 푸시 콘텐츠에 버튼을 추가하여 실행 가능한 알림을 만듭니다.
 
-장치 화면이 잠겨 있으면 알림의 **제목** 및 **메시지** 단추만 표시됩니다. 장치가 잠금 해제되면 수신자에게 버튼이 표시됩니다.
+장치 화면이 잠겨 있는 경우 알림의 **제목** 및 **메시지**&#x200B;만 표시됩니다. 장치가 잠금 해제되면 수신자에게 버튼이 표시됩니다.
 
 Android 버전에서는 최대 3개의 버튼을 추가할 수 있습니다.
 
