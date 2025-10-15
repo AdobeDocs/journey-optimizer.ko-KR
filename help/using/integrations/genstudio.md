@@ -39,7 +39,7 @@ ht-degree: 15%
 
 >[!INFO]
 >
->더 자세히 알아보려면 이 [개요](https://business.adobe.com/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"}와 [의 &#x200B;](https://business.adobe.com/products/genstudio-for-performance-marketing.html#demo){target="_blank"}데모[!DNL Adobe GenStudio for Performance Marketing]을(를) 확인하십시오.
+>더 자세히 알아보려면 이 [개요](https://business.adobe.com/kr/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"}와 [의 &#x200B;](https://business.adobe.com/kr/products/genstudio-for-performance-marketing.html#demo){target="_blank"}데모[!DNL Adobe GenStudio for Performance Marketing]을(를) 확인하십시오.
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
 
