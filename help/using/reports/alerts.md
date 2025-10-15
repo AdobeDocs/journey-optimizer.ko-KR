@@ -8,9 +8,9 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 6e436424d0b7bd4f6172f4a4c00cc8c74c9570af
+source-git-commit: 0827bd0339b2574c1ded2e47e57af009326bdd0f
 workflow-type: tm+mt
-source-wordcount: '1650'
+source-wordcount: '1836'
 ht-degree: 1%
 
 ---
@@ -18,8 +18,6 @@ ht-degree: 1%
 # 시스템 경고 액세스 및 구독 {#alerts}
 
 여정 및 캠페인을 작성할 때 실행 또는 게시하기 전에 **경고** 단추를 사용하여 오류를 확인하고 해결하십시오.
-
-
 
 전용 **[!UICONTROL 경고]** 메뉴에서 이 페이지에 설명된 대로 [!DNL Adobe Journey Optimizer] 시스템 경고를 구독할 수도 있습니다.
 
@@ -76,7 +74,7 @@ ht-degree: 1%
 
 1. **[!UICONTROL 구독 취소]**&#x200B;에 동일한 방법을 사용하십시오.
 
-[I/O 이벤트 알림](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=ko){target="_blank"}을 통해 구독할 수도 있습니다. 경고 규칙은 다른 구독 패키지로 구성됩니다. 특정 Journey Optimizer 경고에 해당하는 이벤트 구독은 [아래](#journey-alerts)에 자세히 설명되어 있습니다.
+[I/O 이벤트 알림](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}을 통해 구독할 수도 있습니다. 경고 규칙은 다른 구독 패키지로 구성됩니다. 특정 Journey Optimizer 경고에 해당하는 이벤트 구독은 [아래](#journey-alerts)에 자세히 설명되어 있습니다.
 
 ### 단일 구독 {#unitary-subscription}
 
@@ -92,10 +90,7 @@ ht-degree: 1%
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭하여 확인합니다.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=ko#enable-email-alerts){target="_blank"}.-->
-
-
-
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## 여정 경고 {#journey-alerts}
 
@@ -158,16 +153,30 @@ ht-degree: 1%
 
 경고 세부 정보 및 구성을 확인하려면 경고 이름을 클릭합니다.
 
+프로필을 삭제할 수 있는 몇 가지 이유가 있으며, 이는 문제 해결 방법을 알려줍니다. 몇 가지 일반적인 이유는 다음과 같습니다.
+
+* 해당 단일 여정에서 이미 라이브되므로 시작 시 프로필이 삭제되었습니다. 이 문제를 해결하려면 프로필에 다음 이벤트가 도달하기 전에 여정을 종료할 시간이 충분한지 확인합니다.
+* 프로필에 대해 ID가 설정되지 않았거나 대상자 읽기 여정에서 사용하는 네임스페이스가 해당 프로필에서 사용되지 않습니다. 이를 해결하려면 여정의 네임스페이스가 프로필에서 사용하는 ID 네임스페이스와 일치하는지 확인합니다.
+* 이벤트 처리량이 초과되었습니다. 이를 해결하려면 시스템으로 들어오는 이벤트가 이러한 제한을 초과하지 않도록 하십시오.
+
 
 ### 사용자 정의 액션 오류율 초과 {#alert-custom-action-error-rate}
 
 이 경고는 최근 5분 동안 성공한 HTTP 호출에 대한 사용자 지정 작업 오류의 비율이 임계값을 초과하는 경우 경고합니다. 기본 임계값이 20%로 설정되어 있지만 [사용자 지정 임계값을 정의](#custom-threshold)할 수 있습니다.
+
+사용자 지정 작업 오류는 다양한 이유로 발생할 수 있습니다. 다음과 같은 작업을 수행할 수 있습니다.
+
+* 사용자 지정 작업이 올바르게 구성되었는지 확인
+* 끝점에 연결할 수 있고 사용자 지정 작업이 사용자 지정 작업 연결 검사기를 통해 끝점에 도달할 수 있는지 확인하십시오
+* 인증 자격 증명을 확인하고 인터넷 연결을 확인합니다.
 
 ### 프로필 오류율 초과 {#alert-profile-error-rate}
 
 이 경고는 최근 5분 동안 성공한 HTTP 호출에 대한 사용자 지정 작업 오류의 비율이 임계값을 초과하는 경우 경고합니다. 기본 임계값이 20%로 설정되어 있지만 [사용자 지정 임계값을 정의](#custom-threshold)할 수 있습니다.
 
 경고 세부 정보 및 구성을 확인하려면 경고 이름을 클릭합니다.
+
+이를 방지하기 위해 단계 이벤트에서 데이터를 쿼리하여 여정에서 프로필이 실패한 위치와 이유를 파악할 수 있습니다.
 
 ## 구성 경고 {#configuration-alerts}
 
@@ -183,7 +192,7 @@ ht-degree: 1%
 
 필요한 NS 또는 CNAME 레코드가 없거나 구성 표준과 일치하지 않음을 시스템에서 감지하면 **AJO 도메인 DNS 레코드 누락** 경고가 트리거됩니다.
 
-1. [&#x200B; 인터페이스에서 영향을 받는 &#x200B;](../configuration/delegate-subdomain.md)하위 도메인[!DNL Journey Optimizer]&#x200B;(으)로 보낼 경고를 클릭합니다.
+1. [ 인터페이스에서 영향을 받는 ](../configuration/delegate-subdomain.md)하위 도메인[!DNL Journey Optimizer]&#x200B;(으)로 보낼 경고를 클릭합니다.
 
    <!--For guidance on editing delegated subdomains, see [this section](../configuration/delegate-subdomain.md).-->
 
@@ -209,7 +218,7 @@ ht-degree: 1%
 
 이러한 경고를 받으면 해결 단계 가 아래에 나열됩니다.
 
-1. [&#x200B; 인터페이스에서 영향을 받는 &#x200B;](../email/get-started-email-config.md)전자 메일 채널 구성[!DNL Journey Optimizer]&#x200B;(으)로 보낼 경고를 클릭합니다.
+1. [ 인터페이스에서 영향을 받는 ](../email/get-started-email-config.md)전자 메일 채널 구성[!DNL Journey Optimizer]&#x200B;(으)로 보낼 경고를 클릭합니다.
 
    채널 구성 편집에 대한 지침은 [이 섹션](../configuration/channel-surfaces.md#edit-channel-surface)을 참조하세요.
 
@@ -295,7 +304,6 @@ This alert warns you if a domain certificate (CDN, tracking URL) renewal failed 
 구독자를 제거하려면 현재 구독자에서 해당 전자 메일 주소를 삭제하고 **[!UICONTROL 업데이트]**&#x200B;를 선택하세요.
 
 ## 추가 리소스 {#additional-resources-alerts}
-
 
 * [이 페이지](../building-journeys/troubleshooting.md)에서 여정 문제를 해결하는 방법을 알아보세요.
 * [이 페이지](../campaigns/review-activate-campaign.md)에서 캠페인을 검토하는 방법을 알아보세요.
