@@ -8,10 +8,10 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 34649ab411823f1aa09d390d23484697e80763c5
+source-git-commit: 6e436424d0b7bd4f6172f4a4c00cc8c74c9570af
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 0%
+source-wordcount: '1650'
+ht-degree: 1%
 
 ---
 
@@ -41,9 +41,9 @@ ht-degree: 0%
 
    * [여정 사용자 지정 작업 실패](#alert-custom-actions) 경고
    * [대상자 트리거 읽기 실패](#alert-read-audiences) 경고
-<!--DOCAC-13465   * the [Profile Discard Rate Exceeded](#alert-discard-rate) alert
-   * the [Custom Action Error Rate Exceeded](#alert-custom-action-error-rate) alert
-   * the [Profile Error Rate Exceeded](#alert-profile-error-rate) alert-->
+   * [프로필 삭제 비율 초과](#alert-discard-rate) 경고
+   * [사용자 지정 작업 오류율 초과](#alert-custom-action-error-rate) 경고
+   * [프로필 오류율 초과](#alert-profile-error-rate) 경고
 
 * 채널 구성과 관련된 경고:
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 예기치 않은 동작이 발생하고/또는 작업의 특정 조건 세트에 도달하면(예: 시스템이 임계값을 위반한 경우 발생할 수 있는 문제), 경고 알림이 이를 구독한 조직의 모든 사용자에게 전달됩니다.
 
-사용자 인터페이스에서 각 경고를 개별적으로 구독할 수 있습니다(**[!UICONTROL 경고]** 메뉴에서 전체적으로)([전역 구독](#global-subscription) 참조)<!--DOCAC-13465, or unitary for a specific journey (see [Unitary subscription](#unitary-subscription))-->.
+사용자 인터페이스에서 각 경고를 개별적으로 구독할 수 있습니다. **[!UICONTROL 경고]** 메뉴에서 전체적으로 구독하거나([전역 구독](#global-subscription) 참조), 특정 여정에 대해 단일 경고를 구독하거나([단일 구독](#unitary-subscription) 참조).
 
 가입자의 환경 설정에 따라 알림은 사용자 인터페이스(인앱 알림)의 오른쪽 상단 모서리에 있는 Journey Optimizer 알림 센터에서 이메일로 및/또는 직접 전송됩니다. [!DNL Adobe Experience Cloud] **[!UICONTROL 환경 설정]**&#x200B;에서 이러한 경고를 받을 방법을 선택하십시오. [자세히 알아보기](../start/user-interface.md#in-product-alerts)
 
@@ -76,25 +76,23 @@ ht-degree: 0%
 
 1. **[!UICONTROL 구독 취소]**&#x200B;에 동일한 방법을 사용하십시오.
 
-[I/O 이벤트 알림](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=ko){target="_blank"}을 통해 구독할 수도 있습니다. 경고 규칙은 다른 구독 패키지로 구성됩니다. 특정 Journey Optimizer 경고에 해당하는 이벤트 구독은 [아래](#journey-alerts)에 자세히 설명되어 있습니다.
+[I/O 이벤트 알림](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}을 통해 구독할 수도 있습니다. 경고 규칙은 다른 구독 패키지로 구성됩니다. 특정 Journey Optimizer 경고에 해당하는 이벤트 구독은 [아래](#journey-alerts)에 자세히 설명되어 있습니다.
 
-<!--DOCAC-13465
-### Unitary subscription {#unitary-subscription}
+### 단일 구독 {#unitary-subscription}
 
-To subscribe/unsubscribe to an alert for a specific journey, follow these steps:
+특정 여정에 대한 경고를 구독/구독 취소하려면 다음 단계를 따르십시오.
 
-1. Browse to the journey inventory and select the **[!UICONTROL Subscribe to alerts]** option for a specific journey.
+1. 여정 인벤토리로 이동하여 특정 여정에 대한 **[!UICONTROL 경고 구독]** 옵션을 선택하십시오.
 
-      ![Subscribing to an alert for a specific journey](assets/subscribe-journey-alert.png){width=80%}
+   ![특정 여정에 대한 경고를 구독하는 중](assets/subscribe-journey-alert.png){width=80%}
 
-1. Choose the alert(s). The following alerts are available: [Profile Discard Rate Exceeded](#alert-discard-rate), [Custom Action Error Rate Exceeded](#alert-custom-action-error-rate), and [Profile Error Rate Exceeded](#alert-profile-error-rate).
-   
-1. To unsubscribe to an alert, unselect it from the same screen.
+1. 경고를 선택합니다. 다음 경고를 사용할 수 있습니다. [프로필 삭제 비율 초과](#alert-discard-rate), [사용자 지정 작업 오류 비율 초과](#alert-custom-action-error-rate), [프로필 오류 비율 초과](#alert-profile-error-rate).
 
-1. Click **[!UICONTROL Save]** to confirm.
--->
+1. 경고 구독을 취소하려면 동일한 화면에서 경고를 선택 취소합니다.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=ko#enable-email-alerts){target="_blank"}.-->
+1. **[!UICONTROL 저장]**&#x200B;을 클릭하여 확인합니다.
+
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 
 
@@ -154,25 +152,22 @@ To subscribe/unsubscribe to an alert for a specific journey, follow these steps:
 
 ![](assets/alert-troubleshooting-1.png)
 
-<!--DOCAC-13465
+### 프로필 삭제율 초과 {#alert-discard-rate}
 
-### Profile Discard Rate Exceeded {#alert-discard-rate}
+이 경고는 지난 5분 동안 입력한 프로필에 대한 프로필 폐기 비율이 임계값을 초과하는 경우 경고합니다. 기본 임계값이 20%로 설정되어 있지만 [사용자 지정 임계값을 정의](#custom-threshold)할 수 있습니다.
 
-This alert warns you if the ratio of profile discards to entered profiles over the last 5 minutes exceeded threshold. The defaut threshold is set to 20% but you can [define a custom theshold](#custom-threshold).
-
-Click the name of the alert to check the alert details and configuration.
+경고 세부 정보 및 구성을 확인하려면 경고 이름을 클릭합니다.
 
 
-### Custom Action Error Rate Exceeded {#alert-custom-action-error-rate}
+### 사용자 정의 액션 오류율 초과 {#alert-custom-action-error-rate}
 
-This alert warns you if the ratio of custom action errors to successful HTTP calls over the last 5 minutes exceeded threshold. The defaut threshold is set to 20% but you can [define a custom theshold](#custom-threshold).
+이 경고는 최근 5분 동안 성공한 HTTP 호출에 대한 사용자 지정 작업 오류의 비율이 임계값을 초과하는 경우 경고합니다. 기본 임계값이 20%로 설정되어 있지만 [사용자 지정 임계값을 정의](#custom-threshold)할 수 있습니다.
 
-### Profile Error Rate Exceeded {#alert-profile-error-rate}
+### 프로필 오류율 초과 {#alert-profile-error-rate}
 
-This alert warns you if the ratio of custom action errors to successful HTTP calls over the last 5 minutes exceeded threshold. The defaut threshold is set to 20% but you can [define a custom theshold](#custom-threshold).
+이 경고는 최근 5분 동안 성공한 HTTP 호출에 대한 사용자 지정 작업 오류의 비율이 임계값을 초과하는 경우 경고합니다. 기본 임계값이 20%로 설정되어 있지만 [사용자 지정 임계값을 정의](#custom-threshold)할 수 있습니다.
 
-Click the name of the alert to check the alert details and configuration.
--->
+경고 세부 정보 및 구성을 확인하려면 경고 이름을 클릭합니다.
 
 ## 구성 경고 {#configuration-alerts}
 
@@ -188,7 +183,7 @@ Click the name of the alert to check the alert details and configuration.
 
 필요한 NS 또는 CNAME 레코드가 없거나 구성 표준과 일치하지 않음을 시스템에서 감지하면 **AJO 도메인 DNS 레코드 누락** 경고가 트리거됩니다.
 
-1. [&#x200B; 인터페이스에서 영향을 받는 &#x200B;](../configuration/delegate-subdomain.md)하위 도메인[!DNL Journey Optimizer]&#x200B;(으)로 보낼 경고를 클릭합니다.
+1. [ 인터페이스에서 영향을 받는 ](../configuration/delegate-subdomain.md)하위 도메인[!DNL Journey Optimizer]&#x200B;(으)로 보낼 경고를 클릭합니다.
 
    <!--For guidance on editing delegated subdomains, see [this section](../configuration/delegate-subdomain.md).-->
 
@@ -214,7 +209,7 @@ Click the name of the alert to check the alert details and configuration.
 
 이러한 경고를 받으면 해결 단계 가 아래에 나열됩니다.
 
-1. [&#x200B; 인터페이스에서 영향을 받는 &#x200B;](../email/get-started-email-config.md)전자 메일 채널 구성[!DNL Journey Optimizer]&#x200B;(으)로 보낼 경고를 클릭합니다.
+1. [ 인터페이스에서 영향을 받는 ](../email/get-started-email-config.md)전자 메일 채널 구성[!DNL Journey Optimizer]&#x200B;(으)로 보낼 경고를 클릭합니다.
 
    채널 구성 편집에 대한 지침은 [이 섹션](../configuration/channel-surfaces.md#edit-channel-surface)을 참조하세요.
 
@@ -254,29 +249,26 @@ This alert warns you if a domain certificate (CDN, tracking URL) renewal failed 
 ### 경고 편집
 
 해당 줄을 클릭하여 경고의 세부 정보를 확인할 수 있습니다. 이름, 상태 및 알림 채널이 왼쪽 패널에 표시됩니다.
-<!--DOCAC-13465
-For Journey alerts, use the **[!UICONTROL More actions]** button to edit them. You can then define a [custom theshold](#custom-threshold) for these alerts.-->
+여정 경고의 경우 **[!UICONTROL 추가 작업]** 단추를 사용하여 편집하십시오. 그런 다음 이러한 경고에 대해 [사용자 지정 보류](#custom-threshold)를 정의할 수 있습니다.
 
 ![](assets/alert-more-actions.png){width=60%}
 
-<!--DOCAC-13465
-#### Define a custom threshold {#custom-threshold}
+#### 사용자 지정 임계값 정의 {#custom-threshold}
 
-You can set thresholds for the [Journey alerts](#journey-alerts). The threshold alerts above default to 20%. 
+[여정 경고](#journey-alerts)에 대한 임계값을 설정할 수 있습니다. 위의 임계값 경고는 기본적으로 20%입니다.
 
-To change the threshold:
+임계값을 변경하려면 다음과 같이 하십시오.
 
-1. Browse to the **Alerts** screen
-1. Click the **[!UICONTROL More actions]** button of the alert to update
-1. Enter the new threshold and confirm. The new threshold applies to **all** journeys
+1. **경고** 화면으로 이동
+1. 업데이트할 경고의 **[!UICONTROL 추가 작업]** 단추를 클릭하십시오.
+1. 새 임계값을 입력하고 확인합니다. 새 임계값은 **모두** 여정에 적용됩니다.
 
 
 ![](assets/alert-threshold.png){width=60%}
 
 >[!CAUTION]
 >
->The threshold levels are global across all journeys and cannot be individually modified per journey.
--->
+>임계값 수준은 모든 여정에 걸쳐 전역적이며 각 여정에 대해 개별적으로 수정할 수 없습니다.
 
 ### 경고 비활성화
 

@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 36056208cd1e435c4801bd178bdc5f2d74068dc5
+source-git-commit: 6e436424d0b7bd4f6172f4a4c00cc8c74c9570af
 workflow-type: tm+mt
-source-wordcount: '1853'
-ht-degree: 72%
+source-wordcount: '1938'
+ht-degree: 69%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 72%
 <td>
 <p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator.html" target="_blank">Adobe Experience Platform Agent Orchestrator</a>에서 제공하는 실험 에이전트는 Journey Optimizer에서 사용할 수 있습니다. </p>
 <p>실험 에이전트는 웹 사이트, 이메일, 푸시 메시지 및 애플리케이션에서 디지털 실험을 실행하고 관리할 수 있는 방법을 현대화한 AI 기반 도구입니다. 실험을 보다 효율적으로 실행하고, 비즈니스 목표를 구성하고, 실행 가능한 통찰력을 생성하여, 무엇이 작동하고, 무엇이 작동하지 않았으며, 다음 실험할 위치를 강조 표시하는 데 도움이 됩니다.</p>
-<p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=ko" target="_blank">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2025년 10월 10일</p>
 </td>
 </tr>
@@ -110,6 +110,12 @@ ht-degree: 72%
 </table>
 
 ### 개선 사항 {#updates-improvements}
+
+**새로운 여정 경고**
+
+여정에 대해 미리 구성된 새 경고를 사용할 수 있습니다. [프로필 삭제 비율 초과](../reports/alerts.md#alert-discard-rate)(지난 5분 동안 입력한 프로필에 대한 프로필 삭제 비율 임계값 초과), [사용자 지정 작업 오류 비율 초과](../reports/alerts.md#alert-custom-action-error-rate)(지난 5분 동안 성공한 HTTP 호출에 대한 사용자 지정 작업 오류 비율 초과), [프로필 오류 비율 초과](../reports/alerts.md#alert-profile-error-rate)(지난 5분 동안 입력한 프로필에 대한 프로필 오류 비율 초과). 임계값을 수정하고 개별 여정 수준에서 경고를 받거나 전체적으로 구독할 수 있습니다.
+
+사용 가능한 날짜: 2025년 10월 14일
 
 **Mailto(구독 취소) 주소에 대한 사용자 지정 특성 지원**
 
@@ -384,22 +390,4 @@ In the next few days, the following capabilities and enhancements are scheduled 
 </tr>
 </tbody>
 </table>
-
-
-* **New Journey Alerts**  
-  New pre-configured alerts are available for journeys:
-
-  * Profile Discard Rate Exceeded: Ratio of profile discards to entered profiles over the last 5 mins exceeded threshold.  
-  * Custom Action Error Rate Exceeded: Ratio of custom action errors to successful HTTP calls over the last 5 mins exceeded threshold.  
-  * Profile Error Rate Exceeded: Ratio of profiles-in-error to entered profiles over the last 5 mins exceeded threshold.
-
-
-  * [Profile Discard Rate Exceeded](../reports/alerts.md#profile-discard-rate-exceeded): Ratio of profile discards to entered profiles over the last 5 mins exceeded threshold.  
-  * [Custom Action Error Rate Exceeded](../reports/alerts.md#custom-action-error-rate-exceeded): Ratio of custom action errors to successful HTTP calls over the last 5 mins exceeded threshold.  
-  * [Profile Error Rate Exceeded](../reports/alerts.md#profile-error-rate-exceeded): Ratio of profiles-in-error to entered profiles over the last 5 mins exceeded threshold.
-
-  You can modify threshold values and subscribe to individual journey-level alerts vs globally.
-
-  Availability date: Sept XX, 2025
-
 -->
