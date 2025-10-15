@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 다이렉트 메일, 메시지, 캠페인
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 9324de79b7a1e787c3a23338c4292cd4ff2bb6df
+source-git-commit: 4f1ae3a812b75c180716c5af0d6f87ef58bc2a13
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 18%
+source-wordcount: '761'
+ht-degree: 17%
 
 ---
 
@@ -32,6 +32,10 @@ DM 메시지를 만들려면 예약된 캠페인을 만들고 추출 파일을 �
 
 
 ## DM 캠페인 만들기{#create-dm-campaign}
+
+>[!AVAILABILITY]
+>
+>Dm은 홀드아웃 기능을 지원하지만 현재는 처리를 지원하지 않습니다.
 
 DM 캠페인을 만들려면 다음 단계를 수행합니다.
 

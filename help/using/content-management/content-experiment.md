@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 내용, 실험, 복수, 대상자, 처리
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: e1e7badf7a0539d49b0eb1d9668f945503f84ba6
+source-git-commit: 4f1ae3a812b75c180716c5af0d6f87ef58bc2a13
 workflow-type: tm+mt
-source-wordcount: '1843'
+source-wordcount: '1855'
 ht-degree: 6%
 
 ---
@@ -67,6 +67,10 @@ Journey Optimizer 컨텐츠 실험 을 사용하면 타겟 대상자에게 가�
 >id="ajo_campaigns_content_experiment_success_metric"
 >title="성공 지표"
 >abstract="성공 지표는 실험에서 가장 효과적인 처리를 추적하고 평가하는 데 사용됩니다. 성공 지표를 사용하기 전에 데이터 세트를 특정 지표에 맞게 설정해야 합니다."
+
+>[!AVAILABILITY]
+>
+>Dm은 홀드아웃 기능을 지원하지만 현재는 처리를 지원하지 않습니다.
 
 콘텐츠 실험의 경우 세 가지 실험 유형 중에서 선택할 수 있습니다.
 
