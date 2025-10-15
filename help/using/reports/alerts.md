@@ -8,9 +8,9 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 074390ccd77d3753d9b347a67dcbad0611cb3e49
+source-git-commit: 0cace4defb2c52b729f1427e856b2fc87df5ec50
 workflow-type: tm+mt
-source-wordcount: '1865'
+source-wordcount: '1893'
 ht-degree: 1%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 1%
 
 1. **[!UICONTROL 구독 취소]**&#x200B;에 동일한 방법을 사용하십시오.
 
-[I/O 이벤트 알림](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=ko){target="_blank"}을 통해 구독할 수도 있습니다. 경고 규칙은 다른 구독 패키지로 구성됩니다. 특정 Journey Optimizer 경고에 해당하는 이벤트 구독은 [아래](#journey-alerts)에 자세히 설명되어 있습니다.
+[I/O 이벤트 알림](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}을 통해 구독할 수도 있습니다. 경고 규칙은 다른 구독 패키지로 구성됩니다. 특정 Journey Optimizer 경고에 해당하는 이벤트 구독은 [아래](#journey-alerts)에 자세히 설명되어 있습니다.
 
 ### 단일 구독 {#unitary-subscription}
 
@@ -80,7 +80,7 @@ ht-degree: 1%
 
 1. 여정 인벤토리로 이동하여 특정 여정에 대한 **[!UICONTROL 경고 구독]** 옵션을 선택하십시오.
 
-   ![특정 여정에 대한 경고를 구독하는 중](assets/subscribe-journey-alert.png){width=80%}
+   ![특정 여정에 대한 경고를 구독하는 중](assets/subscribe-journey-alert.png){width=75%}
 
 1. 경고를 선택합니다. 다음 경고를 사용할 수 있습니다. [프로필 삭제 비율 초과](#alert-discard-rate), [사용자 지정 작업 오류 비율 초과](#alert-custom-action-error-rate), [프로필 오류 비율 초과](#alert-profile-error-rate).
 
@@ -88,13 +88,30 @@ ht-degree: 1%
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭하여 확인합니다.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=ko#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## 여정 경고 {#journey-alerts}
+
+
+사용자 인터페이스에서 사용할 수 있는 모든 여정 알림이 아래에 나열되어 있습니다.
 
 >[!CAUTION]
 >
 >Adobe Journey Optimizer 관련 경고는 **live** 여정에 대해서만 적용됩니다. 테스트 모드의 여정에 대해서는 경고가 트리거되지 않습니다.
+
+### 대상자 읽기 트리거 실패 {#alert-read-audiences}
+
+이 경고는 **대상자 읽기** 활동이 예약된 실행 시간 10분 후에 어떤 프로필도 처리하지 않은 경우 경고합니다. 이 실패는 기술 문제 또는 대상이 비어 있기 때문에 발생할 수 있습니다. 이 실패가 기술적인 문제로 인해 발생한 경우 문제 유형에 따라 다시 시도가 계속 발생할 수 있습니다(예: 내보내기 작업 만들기가 실패한 경우 최대 1시간 동안 10밀리초마다 다시 시도).
+
+![](assets/read-audience-alert.png)
+
+**대상자 읽기** 활동에 대한 경고는 반복 여정에 적용됩니다. **한 번** 또는 **가능한 한 빨리** 실행 일정이 있는 Live 여정의 **대상자 읽기** 활동은 무시됩니다.
+
+프로필이 **대상자 읽기** 노드에 들어가면 **대상자 읽기**&#x200B;에 대한 경고가 해결됩니다.
+
+**대상자 읽기 트리거 실패** 경고에 해당하는 I/O 이벤트 구독 이름은 **대상자 읽기 지연, 실패 및 오류 여정**&#x200B;입니다.
+
+**대상 읽기** 경고 문제를 해결하려면 Experience Platform 인터페이스에서 대상 수를 확인하십시오.
 
 
 ### 여정 사용자 지정 작업 실패 {#alert-custom-actions}
@@ -103,7 +120,8 @@ ht-degree: 1%
 
 경고 세부 정보 및 구성을 확인하려면 경고 이름을 클릭합니다.
 
-![](assets/alerts-custom-action.png)
+<!--
+![](assets/alerts-custom-action.png)-->
 
 사용자 지정 작업에 대한 경고는 지난 5분 동안 다음과 같은 경우에 해결됩니다.
 
@@ -115,41 +133,21 @@ ht-degree: 1%
 
 **사용자 지정 작업** 경고의 문제를 해결하려면:
 
-* 다른 여정에서 테스트 모드를 사용하여 사용자 지정 작업을 확인하십시오.
+* 다른 여정에서 [테스트 모드](../building-journeys/testing-the-journey.md)를 사용하여 사용자 지정 작업을 확인하세요.
 
-  ![](assets/alert-troubleshooting-2.png)
-
-* 여정 보고서를 확인하여 작업에 대한 오류 원인을 확인하십시오.
-
-  ![](assets/alert-troubleshooting-3.png)
+* 작업에 대한 오류 이유를 보려면 [여정 보고서](../reports/journey-live-report.md)를 확인하십시오.
 
 * 여정 stepEvents를 확인하여 &quot;failureReason&quot;에 대한 자세한 정보를 찾으십시오.
 
-* 사용자 지정 작업 구성을 확인하고 인증이 여전히 유효한지 확인합니다. 예를 들어 Postman을 사용하여 수동 검사를 수행합니다.
-
-### 대상자 읽기 트리거 실패 {#alert-read-audiences}
-
-이 경고는 **대상자 읽기** 활동이 예약된 실행 시간 10분 후에 어떤 프로필도 처리하지 않은 경우 경고합니다. 이 실패는 기술 문제 또는 대상이 비어 있기 때문에 발생할 수 있습니다. 이 실패가 기술적인 문제로 인해 발생한 경우 문제 유형에 따라 다시 시도가 계속 발생할 수 있습니다(예: 내보내기 작업 만들기가 실패한 경우 최대 1시간 동안 10밀리초마다 다시 시도).
-
-![](assets/alerts1.png)
-
-**대상자 읽기** 활동에 대한 경고는 반복 여정에 적용됩니다. **한 번** 또는 **가능한 한 빨리** 실행 일정이 있는 Live 여정의 **대상자 읽기** 활동은 무시됩니다.
-
-프로필이 **대상자 읽기** 노드에 들어가면 **대상자 읽기**&#x200B;에 대한 경고가 해결됩니다.
-
-**대상자 읽기 트리거 실패** 경고에 해당하는 I/O 이벤트 구독 이름은 **대상자 읽기 지연, 실패 및 오류 여정**&#x200B;입니다.
-
-**대상 읽기** 경고 문제를 해결하려면 Experience Platform 인터페이스에서 대상 수를 확인하십시오.
-
-![](assets/alert-troubleshooting-0.png)
-
-![](assets/alert-troubleshooting-1.png)
+* 사용자 지정 작업 구성을 확인하고 인증이 여전히 유효한지 확인하십시오. 예를 들어 Postman을 사용하여 수동 검사를 수행합니다.
 
 ### 프로필 삭제율 초과 {#alert-discard-rate}
 
 이 경고는 지난 5분 동안 입력한 프로필에 대한 프로필 폐기 비율이 임계값을 초과하는 경우 경고합니다. 기본 임계값이 20%로 설정되어 있지만 [사용자 지정 임계값을 정의](#custom-threshold)할 수 있습니다.
 
 경고 세부 정보 및 구성을 확인하려면 경고 이름을 클릭합니다.
+
+![](assets/profile-discard-alert.png)
 
 프로필을 삭제할 수 있는 몇 가지 이유가 있으며, 이는 문제 해결 방법을 알려줍니다. 몇 가지 일반적인 이유는 다음과 같습니다.
 
@@ -162,7 +160,7 @@ ht-degree: 1%
 
 이 경고는 최근 5분 동안 성공한 HTTP 호출에 대한 사용자 지정 작업 오류의 비율이 임계값을 초과하는 경우 경고합니다. 기본 임계값이 20%로 설정되어 있지만 [사용자 지정 임계값을 정의](#custom-threshold)할 수 있습니다.
 
-사용자 지정 작업 오류는 다양한 이유로 발생할 수 있습니다. 다음과 같은 작업을 수행할 수 있습니다.
+사용자 지정 작업 오류는 다양한 이유로 발생할 수 있습니다. 이러한 오류를 해결하려면 다음을 수행할 수 있습니다.
 
 * 사용자 지정 작업이 올바르게 구성되었는지 확인
 * 끝점에 연결할 수 있고 사용자 지정 작업이 사용자 지정 작업 연결 검사기를 통해 끝점에 도달할 수 있는지 확인하십시오
@@ -174,9 +172,11 @@ ht-degree: 1%
 
 경고 세부 정보 및 구성을 확인하려면 경고 이름을 클릭합니다.
 
-이를 방지하기 위해 단계 이벤트에서 데이터를 쿼리하여 여정에서 프로필이 실패한 위치와 이유를 파악할 수 있습니다.
+프로필 오류를 해결하려면 여정에서 프로필이 실패한 위치와 이유를 파악하기 위해 단계 이벤트의 데이터를 쿼리할 수 있습니다.
 
 ## 구성 경고 {#configuration-alerts}
+
+사용자 인터페이스에서 사용할 수 있는 채널 구성 모니터링 경고 목록은 다음과 같습니다.
 
 ### AJO 도메인 DNS 레코드 누락 {#alert-dns-record-missing}
 
@@ -190,7 +190,7 @@ ht-degree: 1%
 
 필요한 NS 또는 CNAME 레코드가 없거나 구성 표준과 일치하지 않음을 시스템에서 감지하면 **AJO 도메인 DNS 레코드 누락** 경고가 트리거됩니다.
 
-1. [&#x200B; 인터페이스에서 영향을 받는 &#x200B;](../configuration/delegate-subdomain.md)하위 도메인[!DNL Journey Optimizer]&#x200B;(으)로 보낼 경고를 클릭합니다.
+1. [ 인터페이스에서 영향을 받는 ](../configuration/delegate-subdomain.md)하위 도메인[!DNL Journey Optimizer]&#x200B;(으)로 보낼 경고를 클릭합니다.
 
    <!--For guidance on editing delegated subdomains, see [this section](../configuration/delegate-subdomain.md).-->
 
@@ -216,7 +216,7 @@ ht-degree: 1%
 
 이러한 경고를 받으면 해결 단계 가 아래에 나열됩니다.
 
-1. [&#x200B; 인터페이스에서 영향을 받는 &#x200B;](../email/get-started-email-config.md)전자 메일 채널 구성[!DNL Journey Optimizer]&#x200B;(으)로 보낼 경고를 클릭합니다.
+1. [ 인터페이스에서 영향을 받는 ](../email/get-started-email-config.md)전자 메일 채널 구성[!DNL Journey Optimizer]&#x200B;(으)로 보낼 경고를 클릭합니다.
 
    채널 구성 편집에 대한 지침은 [이 섹션](../configuration/channel-surfaces.md#edit-channel-surface)을 참조하세요.
 
