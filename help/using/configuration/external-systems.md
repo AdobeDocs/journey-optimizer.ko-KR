@@ -8,7 +8,7 @@ role: User
 level: Beginner
 keywords: 외부, API, 최적화 프로그램, 한도
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: e7908a328a14b307f0ea6914d2d06c5325ceb211
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '1615'
 ht-degree: 18%
@@ -70,7 +70,7 @@ API에 대한 자세한 설명은 [Adobe Journey Optimizer API 설명서](https:
 >
 >데이터 소스에서 해당 데이터 소스에 사용한 것과 다른 엔드포인트를 사용하는 사용자 정의 인증을 사용하는 경우에는 Adobe 문의를 통해 해당 엔드포인트도 허용 목록에 추가해야 합니다.
 
-**사용자 정의 작업**&#x200B;을 구성할 때는 외부 API의 용량을 예상해야 합니다. 예를 들어 Journey Optimizer이 초당 1000개의 호출을 전송하고 시스템이 초당 200개의 호출만 지원할 수 있는 경우 시스템이 포화되지 않도록 최대 가용량 또는 스로틀 구성을 정의해야 합니다. [작업을 구성하는 방법 알아보기](../action/action.md)
+**사용자 정의 작업**&#x200B;을 구성할 때는 외부 API의 용량을 예상해야 합니다. 예를 들어 Journey Optimizer이 초당 1000개의 호출을 전송하고 시스템이 초당 200개의 호출만 지원할 수 있는 경우 시스템이 포화되지 않도록 최대 가용량 또는 제한 구성을 정의해야 합니다. [작업을 구성하는 방법 알아보기](../action/action.md)
 
 >[!NOTE]
 >

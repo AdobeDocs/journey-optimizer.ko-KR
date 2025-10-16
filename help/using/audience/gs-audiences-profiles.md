@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 프로필 및 대상자 시작
-description: ' [!DNL Journey Optimzier] 내에서 프로필 및 대상자를 사용하여 작업하는 방법을 알아봅니다.'
+description: ' [!DNL Journey Optimizer] 내에서 프로필 및 대상자를 사용하여 작업하는 방법을 알아봅니다.'
 feature: Audiences, Profiles
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 435898d7e806e93ee0154c3da22f6a011fc78175
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 6%

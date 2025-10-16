@@ -7,7 +7,7 @@ feature: Whatsapp, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: 21eebaaa0193164ac70dd819b25ad6547446397f
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '836'
 ht-degree: 15%
@@ -41,7 +41,7 @@ WhatsApp 메시지를 보내기 전에 Adobe Journey Optimizer 환경을 구성�
 
    ![](assets/whatsapp-api-2.png)
 
-1. Whatsapp 메시지를 보내는 데 사용되는 **보낸 사람 이름**&#x200B;을(를) 선택하십시오.
+1. WhatsApp 메시지를 보내는 데 사용되는 **보낸 사람 이름**&#x200B;을(를) 선택하십시오.
 
 1. 전화 번호 설정이 자동으로 채워집니다.
 
@@ -180,6 +180,6 @@ WhatsApp API 자격 증명이 정상적으로 생성되면 이제 옵트인 및 
 
 +++ 비디오 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3470275/?learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++

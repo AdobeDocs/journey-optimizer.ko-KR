@@ -6,14 +6,14 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
-source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 100%
 
 ---
 
-# 웹 채널 시작하기 {#get-sarted-web}
+# 웹 채널 시작하기 {#get-started-web}
 
 [!DNL Journey Optimizer]에서는 개인화된 웹 경험을 시각적으로 작성하여 고객에게 제공할 수 있습니다.
 

@@ -9,9 +9,9 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: 샌드박스, 가상, 환경, 조직, 플랫폼
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: 8093af8c3e7484f9ebed8dbc50065bcff0459581
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '323'
 ht-degree: 28%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 28%
 
    ![](assets/sandbox_3.png)
 
-1. 필요한 경우 **[!UICONTROL 역할]**&#x200B;에 대한 액세스 권한을 제거하기 위해 옆에 있는 X 아이콘을 클릭합니다.
+1. 필요한 경우 옆에 있는 X 아이콘을 클릭하여 **[!UICONTROL 역할]**&#x200B;에서 샌드박스 액세스를 제거합니다.
 
    ![](assets/sandbox_4.png)
 
@@ -70,4 +70,4 @@ ht-degree: 28%
 
 샌드박스의 정의, 그리고 개발과 프로덕션 샌드박스를 구분하는 방법을 이해합니다. 샌드박스를 만들고, 재설정하고, 삭제하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416656?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/334355?quality=12)

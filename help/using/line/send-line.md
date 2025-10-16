@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: fd8437c6-0052-4116-af60-5624569bda65
-source-git-commit: d11d389259057b20c3803643ca40266b9cb4302c
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 * **경고**&#x200B;는 권장 사항과 모범 사례를 참조합니다. 예를 들어 텍스트 메시지가 비어 있는 경우 경고 메시지가 표시됩니다.
 
-* **오류**&#x200B;로 인해 여정을 테스트 또는 활성화하거나 캠페인을 게시하지 못할 수 있습니다. 단, 해결되지 않는 한 가능합니다. 예를 들어 제목 LINE이 누락된 경우 경고 메시지가 표시됩니다.
+* **오류**&#x200B;로 인해 여정을 테스트 또는 활성화하거나 캠페인을 게시하지 못할 수 있습니다. 단, 해결되지 않는 한 가능합니다. 예를 들어 제목 줄이 누락된 경우 경고 메시지가 표시됩니다.
 
 ## LINE 메시지 보내기 {#line-send}
 

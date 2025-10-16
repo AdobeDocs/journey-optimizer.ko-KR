@@ -10,10 +10,10 @@ mini-toc-levels: 1
 level: Beginner
 keywords: 캠페인, 상태, 일정, 액세스, 최적화 도구 관리
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
-source-wordcount: '1708'
-ht-degree: 15%
+source-wordcount: '1707'
+ht-degree: 14%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 15%
 >title="작업"
 >abstract="이 섹션에는 오케스트레이션된 캠페인 내부에서 사용되는 모든 액션이 나열됩니다."
 
-캠페인은 **[!UICONTROL 캠페인]** 메뉴에서 액세스할 수 있습니다. 탭을 사용하여 유형별로 캠페인을 찾아봅니다. **작업** 캠페인, **API 트리거** 캠페인 및 **오케스트레이션** 캠페인. [캠페인 유형](get-started-with-campaigns.md#get-started-with-campaigns)에 대해 자세히 알아보세요. 사용 가능한 유형은 사용권 계약 및 사용 권한에 따라 다릅니다.
+캠페인은 **[!UICONTROL 캠페인]** 메뉴에서 액세스할 수 있습니다. 탭을 사용하여 유형별로 캠페인을 찾아보세요. **작업** 캠페인, **API 트리거** 캠페인 및 **오케스트레이션** 캠페인. [캠페인 유형](get-started-with-campaigns.md#get-started-with-campaigns)에 대해 자세히 알아보세요. 사용 가능한 유형은 사용권 계약 및 사용 권한에 따라 다릅니다.
 
 >[!BEGINTABS]
 
@@ -61,7 +61,7 @@ API 트리거 캠페인 목록에 액세스하려면 **[!UICONTROL API 트리거
 
 또한 목록에서 쉽게 검색할 수 있도록 검색 창과 필터를 사용할 수 있습니다. 예를 들어 지정된 채널 또는 태그와 연결된 캠페인 또는 특정 날짜 범위 동안 만들어진 캠페인만 표시하도록 캠페인을 필터링할 수 있습니다.
 
-캠페인 인벤토리의 ![&#128279;](assets/do-not-localize/rule-builder-icon-more.svg)액션 더 보기 버튼을 표시하는 이미지 버튼을 사용하면 아래에서 설명하는 다양한 작업을 수행할 수 있습니다.
+캠페인 인벤토리의 ](assets/do-not-localize/rule-builder-icon-more.svg)액션 더 보기 버튼을 표시하는 이미지![ 버튼을 사용하면 아래에서 설명하는 다양한 작업을 수행할 수 있습니다.
 
 ![캠페인 인벤토리를 표시하는 이미지](assets/inventory-actions.png)
 
@@ -69,7 +69,7 @@ API 트리거 캠페인 목록에 액세스하려면 **[!UICONTROL API 트리거
 * **[!UICONTROL 태그 편집]** - 캠페인에 연결된 태그를 편집합니다. [캠페인에서 태그를 사용하는 방법](../start/search-filter-categorize.md#add-tags-to-an-object) 알아보기
 * **[!UICONTROL 복제]** - 이 옵션을 사용하여 캠페인을 복제합니다. 예를 들어 중지된 오케스트레이션된 캠페인을 실행할 수 있습니다. [자세히 알아보기](#duplicate-a-campaign)
 * **[!UICONTROL 삭제]** - 이 옵션을 사용하여 캠페인을 삭제합니다. [자세히 알아보기](#delete-a-campaign)
-* **[!UICONTROL 보관]** - 캠페인을 보관합니다. 보관된 모든 캠페인은 마지막 수정일로부터 30일이 지나면 변경된 일정에 따라 삭제됩니다. 이 작업은 **[!UICONTROL 초안]** 캠페인을 제외한 모든 캠페인에 사용할 수 있습니다. [캠페인 보관](#archive-a-campaign)에 대해 자세히 알아보세요.
+* **[!UICONTROL 보관]** - 캠페인을 보관합니다. 보관된 모든 캠페인은 마지막 수정 날짜 30일 후 롤링 일정에서 삭제됩니다. 이 작업은 **[!UICONTROL 초안]** 캠페인을 제외한 모든 캠페인에 사용할 수 있습니다. [캠페인 보관](#archive-a-campaign)에 대해 자세히 알아보세요.
 
 작업 및 API 트리거 캠페인의 경우 아래의 추가 작업을 사용할 수 있습니다.
 
@@ -229,7 +229,7 @@ Adobe Journey Optimizer에서 각 캠페인은 인터페이스에서의 상태�
 
 ## 캠페인 삭제 {#delete}
 
-캠페인을 삭제하려면 추가 작업 단추![&#x200B; 단추를 표시하는 줄임표 &#x200B;](assets/do-not-localize/rule-builder-icon-more.svg)이미지를 사용하고 **[!UICONTROL 삭제]**&#x200B;를 선택하십시오.
+캠페인을 삭제하려면 추가 작업 단추![ 단추를 표시하는 줄임표 ](assets/do-not-localize/rule-builder-icon-more.svg)이미지를 사용하고 **[!UICONTROL 삭제]**&#x200B;를 선택하십시오.
 
 ![](assets/delete-a-campaign.png){width="70%" align="left"}
 
@@ -240,7 +240,7 @@ Adobe Journey Optimizer에서 각 캠페인은 인터페이스에서의 상태�
 
 ## 캠페인 복제 {#duplicate}
 
-캠페인을 복제하려면, 예를 들어 중단된 경우 추가 작업 단추![&#x200B; 단추를 표시하는 줄임표 &#x200B;](assets/do-not-localize/rule-builder-icon-more.svg)이미지를 사용하고 **[!UICONTROL 복제]**&#x200B;를 선택하십시오.
+캠페인을 복제하려면, 예를 들어 중단된 경우 추가 작업 단추![ 단추를 표시하는 줄임표 ](assets/do-not-localize/rule-builder-icon-more.svg)이미지를 사용하고 **[!UICONTROL 복제]**&#x200B;를 선택하십시오.
 
 캠페인 이름을 입력하고 확인합니다.
 

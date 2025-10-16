@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a93d4dc9-f0e9-400c-b9a4-6cdac84390fd
-source-git-commit: 12dbe0031e9037d879e0d2309c7c26cc3c00cc4e
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 5%
@@ -35,7 +35,7 @@ ht-degree: 5%
 
    **[!UICONTROL 구성]** 필드는 기본적으로 미리 채워져 있으며 사용자가 해당 채널에 대해 마지막으로 사용한 구성입니다.
 
-이제 **[!UICONTROL 콘텐츠 편집]** 단추에서 SMS 메시지의 콘텐츠 디자인을 시작할 수 있습니다. 자세한 내용은 다음과 같습니다.
+이제 **[!UICONTROL 콘텐츠 편집]** 단추에서 LINE 메시지의 콘텐츠 디자인을 시작할 수 있습니다. 자세한 내용은 다음과 같습니다.
 
 >[!TAB LINE 메시지를 캠페인에 추가]
 
@@ -69,7 +69,7 @@ ht-degree: 5%
 
    * 한 번
    * 일별
-   * 주간
+   * 매주
    * Month
 
 이제 아래 자세히 설명된 대로 **[!UICONTROL 콘텐츠 편집]** 단추에서 문자 메시지의 콘텐츠 디자인을 시작할 수 있습니다.

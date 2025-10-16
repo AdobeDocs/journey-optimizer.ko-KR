@@ -9,14 +9,14 @@ role: User
 level: Beginner
 keywords: 랜딩, 랜딩 페이지, 시작, 시작하기
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 94%
 
 ---
 
-# 랜딩 페이지 시작 {#get-sarted-lp}
+# 랜딩 페이지 시작 {#get-started-lp}
 
 랜딩 페이지는 사용자가 이메일이나 웹 사이트, 광고 또는 기타 디지털 위치를 클릭하면 이동하게 되는 독립형 웹 페이지입니다.
 
@@ -71,4 +71,4 @@ ht-degree: 94%
 
 아래 비디오에서는 구독 목록을 만들고, 랜딩 페이지를 설정하여 서비스 구독/구독 취소 기능을 제공하고, 메시지에 구독(구독 취소) 옵션을 통합하고, 관련 여정을 구성하는 방법을 확인할 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/344401?quality=12&learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)

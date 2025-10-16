@@ -4,7 +4,7 @@ description: 여정 및 캠페인에서 발생할 수 있는 충돌을 식별하
 role: User
 level: Beginner
 exl-id: efbb5ac4-4c07-4c62-9460-39eb4fed129a
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 16%
@@ -13,7 +13,7 @@ ht-degree: 16%
 
 # 여정 및 캠페인에서 발생할 수 있는 충돌 감지 {#conflict}
 
-마케터가 Journey Optimizer에서 캠페인 및 여정의 볼륨을 증가시키면 마케터가 고객에게 너무 많은 마케팅 상호 작용을 하는지 여부를 알기가 점점 어려워집니다. 따라서 캠페인과 여정이 겹치는 시점을 쉽게 파악하여 고객 피로감의 위험을 완화하면서 마케팅 커뮤니케이션의 적절한 균형을 달성하고 있는지 확인하는 것이 중요합니다.
+마케터가 Journey Optimizer에서 캠페인 및 여정의 볼륨을 증가시키면 마케터가 고객에게 너무 많은 마케팅 상호 작용을 하는지 여부를 알기가 점점 어려워집니다. 따라서 캠페인과 여정이 겹치는 시점을 쉽게 파악하여 고객 피로의 위험을 줄이면서 마케팅 커뮤니케이션의 적절한 균형을 달성하고 있는지 확인하는 것이 중요합니다.
 
 잠재적 중복을 모니터링하는 주요 영역은 다음과 같습니다.
 

@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: 캠페인, 표준, 통합, 최대 가용량, 작업
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
-source-git-commit: d92c280e40419d2e3ec62a7ba85cd492a0867fde
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 3%
@@ -58,7 +58,7 @@ Campaign Standard 작업을 구성하려면 다음 단계를 수행합니다.
    >
    >* URL은 https로 시작합니다
    >
-   >* 이 Adobe Campaign Standard 인스턴스와 연결된 조직은 Journey Optimizer 조직 RG와 동일합니다
+   >* 이 Adobe Campaign Standard 인스턴스와 연결된 조직은 Journey Optimizer 조직과 동일합니다
 
 이 구성이 완료되면 여정을 디자인할 때 **[!UICONTROL Action]** 범주에서 다음 세 가지 작업을 사용할 수 있습니다. **[!UICONTROL 이메일]**, **[!UICONTROL 푸시]**, **[!UICONTROL SMS]**. [사용 방법을 알아보세요](../building-journeys/using-adobe-campaign-standard.md).
 

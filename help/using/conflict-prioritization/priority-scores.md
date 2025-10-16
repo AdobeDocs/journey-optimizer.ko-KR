@@ -4,7 +4,7 @@ description: 여정 및 캠페인에 우선 순위 점수를 할당하는 방법
 role: User
 level: Beginner
 exl-id: f33ca0a8-ed33-4964-a85c-8705a4ff728e
-source-git-commit: be1538495ea7427fd8c4b8ea781db74bf557c22f
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 35%
@@ -72,4 +72,4 @@ Journey Optimizer을 사용하면 [Action](../building-journeys/journey-action.m
 
 ## 사용 방법 비디오 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3445008?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)

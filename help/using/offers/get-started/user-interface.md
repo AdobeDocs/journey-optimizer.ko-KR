@@ -7,7 +7,7 @@ topic: Integrations
 role: User
 level: Beginner, Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 33%
@@ -41,7 +41,7 @@ ht-degree: 33%
 
 >[!NOTE]
 >
->의사 결정 관리 또는 일부 기능에 액세스하는 데 문제가 있는 경우 관리 사용자에게 필요한 권한이 부여되었는지 확인하십시오. [의사 결정 관리에 대한 액세스 권한 부여](starting-offer-decisioning.md#granting-acess-to-decision-management)를 참조하십시오.
+>의사 결정 관리 또는 일부 기능에 액세스하는 데 문제가 있는 경우 관리 사용자에게 필요한 권한이 부여되었는지 확인하십시오. [의사 결정 관리에 대한 액세스 권한 부여](starting-offer-decisioning.md#granting-access-to-decision-management)를 참조하십시오.
 
 ## 개요 {#overview}
 

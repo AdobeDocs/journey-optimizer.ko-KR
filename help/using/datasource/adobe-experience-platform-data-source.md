@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 내장, 소스, 데이터, 플랫폼, 통합
 exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
-source-git-commit: 8e020f79e0f44e6fc804fcceb149146f9644c777
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 27%
@@ -37,7 +37,7 @@ Adobe Experience Platform 데이터 소스는 Adobe 실시간 고객 프로필�
 
 기본 제공 데이터 소스에 필드 그룹을 추가하는 주요 단계는 아래에 자세히 설명되어 있습니다.
 
-1. 데이터 원본 목록에서 기본 제공 **Adobe Experience Platform** 데이터 원본을 선택합니다.
+1. 데이터 원본 목록에서 기본 제공 **Adobe Experience Platform** 데이터 원본을 선택하십시오.
 
    화면 오른쪽에 데이터 소스 구성 창이 열립니다.
 

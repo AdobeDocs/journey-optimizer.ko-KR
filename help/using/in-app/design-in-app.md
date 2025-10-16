@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: 인앱, 메시지, 디자인, 서식
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 61a30dcc93823dc5e8b647e683bfa2ebf5bfa01b
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '1222'
 ht-degree: 26%
@@ -23,7 +23,7 @@ ht-degree: 26%
 
 인앱 컨텐츠를 편집하여 경험 선택 사항을 구성할 수 있습니다.
 
-* **[!UICONTROL Campaign]**&#x200B;의 **[!UICONTROL 작업]** 메뉴에서 메시지 콘텐츠를 구성하려면 **[!UICONTROL 콘텐츠 편집]** 단추를 클릭하십시오.
+* **[!UICONTROL Campaign]**&#x200B;의 **[!UICONTROL 작업]** 메뉴에서 **[!UICONTROL 콘텐츠 편집]** 단추를 클릭하여 메시지 콘텐츠를 구성합니다.
 
   ![](assets/edit-in-app-content.png)
 
@@ -259,11 +259,11 @@ ht-degree: 26%
 **관련 항목:**
 
 * [인앱 메시지 만들기](create-in-app.md)
-* [인앱 보고서 &#x200B;](../reports/campaign-global-report-cja-inapp.md)
+* [인앱 보고서 ](../reports/campaign-global-report-cja-inapp.md)
 * [인앱 구성](inapp-configuration.md)
 
 ## 사용 방법 비디오{#video}
 
 아래 비디오에서는 인앱 메시지를 작성하고 테스트하는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3422079?quality=12&learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3410471?quality=12&learn=on)

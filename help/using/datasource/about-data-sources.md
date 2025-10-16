@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 데이터, 소스, 여정, 플랫폼
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: d498f32a42b13bfdee20f32a589dd31c77d88fa8
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 65%
@@ -49,11 +49,11 @@ ht-degree: 65%
 >
 >데이터 소스에 대해서는 스키마 관계가 지원되지 않습니다.
 
-Adobe Experience Platform 데이터 소스 및 외부 데이터 소스를 구성하는 방법, 그리고 여정에서 데이터를 찾아서 사용하는 방법과 관련된 자세한 내용을 확인하려면 이 [자습서 비디오](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html?lang=ko){target="_blank"}를 시청하십시오.
+Adobe Experience Platform 데이터 소스 및 외부 데이터 소스를 구성하는 방법, 그리고 여정에서 데이터를 찾아서 사용하는 방법과 관련된 자세한 내용을 확인하려면 이 [자습서 비디오](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target="_blank"}를 시청하십시오.
 
 ## 사용 방법 비디오 {#video}
 
 데이터 소스의 정의를 이해하고 Experience Platform 및 외부 데이터 소스를 구성하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416636?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/334256?quality=12)
 

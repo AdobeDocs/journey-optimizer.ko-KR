@@ -9,10 +9,10 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: 구성, 구성하기, 메시지, 채널, 샌드박스, optimizer
-source-git-commit: 21e2ea3e6a72d2a0eb0338df5665282d814501ac
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '303'
-ht-degree: 48%
+ht-degree: 43%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 48%
 
    * 금지 목록에 이메일 주소를 보내기 전에 재시도를 하는 기간(일)을 관리합니다. [자세히 알아보기](manage-suppression-list.md)
 
-   * 개인 사용자에게 보내는 메시지의 사본을 보관하려면 **BBC 이메일 옵션**&#x200B;을 활성화합니다. [자세히 알아보기](archiving-support.md#enable-bcc)
+   * 개인에게 보낸 메시지의 복사본을 유지하려면 **BCC 전자 메일 옵션**&#x200B;을 사용하도록 설정하십시오. [자세히 알아보기](archiving-support.md#enable-bcc)
 
    * 받는 사람을 너무 많이 사용하지 않도록 **비즈니스 규칙**&#x200B;을 구성하세요. [자세히 알아보기](../conflict-prioritization/rule-sets.md)
 

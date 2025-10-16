@@ -6,14 +6,14 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '771'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
-# 코드 기반 채널 시작 {#get-sarted-code-based}
+# 코드 기반 채널 시작 {#get-started-code-based}
 
 [!DNL Journey Optimizer]을(를) 사용하면 웹 앱, 모바일 앱, 데스크탑 앱, 비디오 콘솔, TV 연결 장치, 스마트 TV, 키오스크, ATM, 음성 지원, IoT 장치 등과 같은 모든 터치포인트에서 고객에게 제공할 경험을 개인화하고 테스트할 수 있습니다.
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 <!--[Learn how to create a code-based campaign in this video](#video)-->
 
-➡️ 콘텐츠 실험을 사용하여 의사 결정을 코드 기반 경험 채널과 비교하는 방법을 보여주는 엔드투엔드 사용 사례가 [이 섹션](../experience-decisioning/experience-decisioning-uc.md)에 나와 있습니다.
+➡️ 콘텐츠 실험을 사용하여 결정을 코드 기반 경험 채널과 비교하는 방법을 보여 주는 전체적인 사용 사례가 [이 섹션](../experience-decisioning/experience-decisioning-uc.md)에 나와 있습니다.
 
 ## 코드 기반 채널과 기타 채널을 사용할 경우 비교 {#code-based-vs-other-channels}
 
@@ -57,7 +57,7 @@ ht-degree: 100%
   <!--* You need the [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} extension installed on your web browser. [Learn more](../web/web-prerequisites.md){target="_blank"}-->
 * 웹 채널에서는 페이지의 모든 내용을 수정할 수 있으며 변경할 수 있는 사전 정의된 작업 목록이 있습니다. [자세히 알아보기](../web/web-visual-editor.md){target="_blank"}
 * 쉽게 설정하고 빠르게 진행할 수 있습니다.
-* 마케팅 담당자 중심입니다.
+* 마케팅 페르소나 중심입니다.
 
 **코드 기반 경험**
 
@@ -66,13 +66,13 @@ ht-degree: 100%
 * 코드 기반 경험에서는 구현에 대해 기존 개발 작업이 필요합니다. 이는 애플리케이션이 [!DNL Journey Optimizer]에서 해당 위치에 대해 Edge로 게시된 콘텐츠를 해석 및 게재할 수 있게 하기 위해서입니다. [자세히 알아보기](code-based-surface.md)
 * 더 많은 계획이 필요하고 개발자가 지정하는 사항만 변경할 수 있습니다. 따라서 개인화 또는 테스트를 위해 수정해야 하는 애플리케이션의 구성 요소(홈 배너, 히어로 이미지, 메뉴 표시줄 등)를 식별하고 개발 팀과 협력하여 이러한 변경 사항을 처리하는 데 필요한 구현을 구축하는 것이 중요합니다.
 * JSON 코드 콘텐츠를 사용할 수 있습니다.
-* 개발자에 초점을 맞춥니다.
+* 개발자 페르소나 중심입니다.
 
 ## 작동 방식 {#how-it-works}
 
 >[!CAUTION]
 >
->이 기능은 개발자 및/또는 숙련된 사용자를 위한 것입니다. 개발 팀에서 채널 구성과 초기 설정을 처리하면 약간의 코드 작성 기술을 갖춘 마케팅 담당자가 이 기능을 사용할 수 있습니다.
+>이 기능은 개발자 페르소나 및/또는 숙련된 사용자를 위한 것입니다. 개발 팀에서 채널 구성과 초기 설정을 처리하면 약간의 코드 작성 기술을 갖춘 마케팅 담당자가 이 기능을 사용할 수 있습니다.
 
 [!DNL Journey Optimizer] 코드 기반 경험 기능을 사용하여 콘텐츠를 편집하려면 페이지 또는 앱을 계측해야 합니다. 이렇게 하려면 콘텐츠를 삽입하거나 바꾸려는 특정 개별 위치(&quot;[표면](code-based-surface.md)&quot;이라고 함)를 미리 선언해야 합니다.
 

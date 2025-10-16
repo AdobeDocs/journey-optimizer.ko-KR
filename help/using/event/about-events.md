@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 이벤트, 이벤트, 여정, 정의, 시작
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: a766eee95490660b013cae5378903d0ab3001e64
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
-source-wordcount: '1538'
+source-wordcount: '1537'
 ht-degree: 33%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 33%
 
 ## 단일 이벤트 {#unitary-events}
 
-**단일** 이벤트 이벤트가 사용자에게 연결되어 있습니다. 사용자의 비헤이비어(예: 사용자가 제품 구매, 상점 방문, 웹 사이트 종료 등) 또는 사용자와 관련하여 발생하는 상황(예: 사용자가 10,000개의 충성도 포인트에 도달함)과 관련됩니다. [!DNL Journey Optimizer]이(가) 여정에서 이러한 이벤트를 수신하여 최적의 다음 작업을 조율합니다. 단일 이벤트는 규칙 기반 또는 시스템 생성 이벤트가 될 수 있습니다. 단일 이벤트를 만드는 방법에 대해 알아보려면 이 [페이지](../event/about-creating.md)를 참조하세요.
+**단일** 이벤트가 사용자에 연결되어 있습니다. 사용자의 비헤이비어(예: 사용자가 제품 구매, 상점 방문, 웹 사이트 종료 등) 또는 사용자와 관련하여 발생하는 상황(예: 사용자가 10,000개의 충성도 포인트에 도달함)과 관련됩니다. [!DNL Journey Optimizer]이(가) 여정에서 이러한 이벤트를 수신하여 최적의 다음 작업을 조율합니다. 단일 이벤트는 규칙 기반 또는 시스템 생성 이벤트가 될 수 있습니다. 단일 이벤트를 만드는 방법에 대해 알아보려면 이 [페이지](../event/about-creating.md)를 참조하세요.
 
 단일 여정(이벤트 또는 대상자 선별로 시작)에는 동일한 이벤트에 대해 여정이 여러 번 잘못 트리거되는 것을 방지하는 가드레일이 포함됩니다. 프로필 재진입은 기본적으로 5분 동안 일시적으로 차단됩니다. 예를 들어 이벤트가 특정 프로필에 대해 12:01에 여정을 트리거하고 다른 이벤트가 12:03에 도착하는 경우(동일한 이벤트이든 동일한 여정을 트리거하는 다른 이벤트이든) 해당 여정은 이 프로필에 대해 다시 시작되지 않습니다.
 
@@ -120,8 +120,8 @@ Adobe Journey Optimizer은 모든 샌드박스에서 조직 수준에서 초당 
 
 이벤트를 구성하고 이벤트에 대한 스트리밍 엔드포인트 및 페이로드를 지정하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431519?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 비즈니스 이벤트의 사용 사례를 이해합니다. 비즈니스 이벤트를 사용하여 여정을 작성하는 방법과 상황에 따라 적합한 모범 사례를 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416327?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)

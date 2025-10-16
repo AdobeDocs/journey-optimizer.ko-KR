@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: marketo, marketo engage 통합
 exl-id: 70d1ef5a-743b-4362-bb65-93a8c996209f
-source-git-commit: dec575162b6db7e7d4f32f5f170de9673b979e5c
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 4%
@@ -118,6 +118,6 @@ Journey Optimizer에서 Marketo Engage에 대한 사용자 지정 작업을 구�
 
 1. 이 작업의 레이블과 설명을 입력합니다.
 
-1. **요청 매개 변수** 섹션에서 각 매개 변수에 대한 **편집** 아이콘을 클릭하고 페이로드에서 구성한 동적 값을 선택합니다.
+1. **요청 매개 변수** 섹션에서 각 매개 변수에 대한 **편집** 아이콘을 클릭하고 페이로드에 구성한 동적 값을 선택합니다.
 
 ![](assets/engage-use-canvas.png){width="70%" align="left"}

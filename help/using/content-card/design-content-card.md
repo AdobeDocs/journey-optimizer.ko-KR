@@ -6,20 +6,20 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: b83bdade-7275-4eef-9c49-fc1d157cee0d
-source-git-commit: dccaaa0588b504c1c00ce25fd6bbb4f34652ec91
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 2%
+source-wordcount: '552'
+ht-degree: 1%
 
 ---
 
 # 콘텐츠 카드 콘텐츠 디자인 {#design-content-card}
 
-카드용 작성 구문은 마케터에게 개발자가 렌더링하는 데 사용할 수 있는 기본 입력을 제공하는 양식 기반 작성 경험을 제공합니다.
+카드용 작성 구문은 개발자가 렌더링할 수 있는 기본 입력을 마케터에게 제공하는 양식 기반 작성 경험을 제공합니다.
 
 콘텐츠를 정의하고 개인화하면 검토하고 활성화할 수 있습니다. 캠페인은 정해진 일정에 따라 전송됩니다. [이 페이지에서 자세히 알아보기](../campaigns/review-activate-campaign.md).
 
-## 콘텐츠 카드 레이아웃
+## 컨텐츠 카드 레이아웃
 
 ![](assets/content-card-image.png)
 
@@ -90,7 +90,7 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose 
 +++
 -->
 
-### 닫기 버튼 {#close-button}
+### 닫기 단추 {#close-button}
 
 ![](assets/content-card-design-1.png)
 
@@ -118,7 +118,7 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose 
 
 
 
-### 클릭 시 동작
+### 클릭 시 비헤이비어
 
 ![](assets/content-card-design-5.png)
 

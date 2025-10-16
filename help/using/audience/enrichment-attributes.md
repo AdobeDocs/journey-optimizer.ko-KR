@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3ec496ba-7555-49e2-992c-403c33302a90
-source-git-commit: b6fe3fec0c64983fc2317027a5748a0d44c18469
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 3%
@@ -27,7 +27,7 @@ ht-degree: 3%
 
 다음은 대상의 데이터 보강 속성을 사용하여 수행할 수 있는 작업입니다.
 
-* 대상 대상의 강화 특성을 활용하는 규칙을 기반으로 하여 **여정에 여러 경로를 만듭니다**. 이렇게 하려면 [대상 읽기](../building-journeys/read-audience.md) 활동을 사용하여 대상을 타깃팅한 다음 대상의 데이터 보강 특성을 기반으로 [조건](../building-journeys/condition-activity.md) 활동에서 규칙을 만듭니다.
+* 대상 대상의 데이터 보강 특성을 활용하는 규칙을 기준으로 **여정에 여러 경로를 만듭니다**. 이렇게 하려면 [대상 읽기](../building-journeys/read-audience.md) 활동을 사용하여 대상을 타깃팅한 다음 대상의 데이터 보강 특성을 기반으로 [조건](../building-journeys/condition-activity.md) 활동에서 규칙을 만듭니다.
 
   ![](assets/audience-enrichment-attribute-condition.png){width="70%" zoomable="yes"}
 
