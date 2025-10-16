@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 7973f56c26c01d4845138f70cd00bce8ab7fc09c
+source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 16%
@@ -71,6 +71,6 @@ Adobe Journey Optimizer에서 옵트아웃 상태(Twilio, Infoip 또는 Sinch와
 
   +++ 비디오 보기
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3440286/?learn=on&captions=kor)
+  >[!VIDEO](https://video.tv.adobe.com/v/3427129/?learn=on)
 
   +++

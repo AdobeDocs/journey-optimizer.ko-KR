@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: c52821a657aead38a4d08540e60686cfe117a95e
+source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1105'
 ht-degree: 8%
 
 ---
@@ -112,7 +112,7 @@ Adobe Journey Optimizer에서 텍스트(SMS), 풍부한 커뮤니케이션(RCS) 
 
 1. 콘텐츠를 정의한 후 추적된 URL을 메시지에 추가할 수 있습니다. 이렇게 하려면 **[!UICONTROL 도우미 함수]** 메뉴에 액세스하고 **[!UICONTROL 도우미]**&#x200B;를 선택하세요.
 
-   URL 단축 기능을 사용하려면 먼저 구성에 연결될 하위 도메인을 구성해야 합니다. [자세히 알아보기](sms-subdomains.md)
+   URL 단축 기능을 사용하려면 먼저 구성에 연결할 하위 도메인을 구성해야 합니다. [자세히 알아보기](sms-subdomains.md)
 
    >[!NOTE]
    >

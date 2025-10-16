@@ -8,7 +8,7 @@ feature: SMS, Channel Configuration
 level: Intermediate
 keywords: SMS, 하위 도메인, 구성
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
-source-git-commit: 9f66606e2673554f7dfb40dd48cfc17eca2ca06b
+source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
 workflow-type: tm+mt
 source-wordcount: '1008'
 ht-degree: 18%
@@ -157,4 +157,4 @@ SMS 하위 도메인이 CNAME 레코드를 가리키면 SMS 하위 도메인에 
 >
 >SMS 하위 도메인은 CNAME 레코드를 지정할 수 있습니다. CNAME 레코드는 [CNAME 메서드](#sms-use-existing-subdomain)를 사용하여 Adobe에 위임된 [기존 하위 도메인](../configuration/delegate-subdomain.md#cname-subdomain-setup)이거나, 사용자가 구성한 [새 SMS 하위 도메인](#sms-configure-new-subdomain)입니다.
 
-요청이 Adobe에 의해 처리되면 위임되지 않은 도메인이 더 이상 하위 도메인 인벤토리 페이지에 표시되지 않습니다.
+Adobe에서 요청을 처리한 후 위임되지 않은 도메인이 더 이상 하위 도메인 인벤토리 페이지에 표시되지 않습니다.
