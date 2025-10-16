@@ -10,10 +10,9 @@ level: Intermediate, Experienced
 keywords: 여정, 단계 이벤트, 분석, 보고, 모니터링, XDM
 hide: true
 hidefromtoc: true
-exl-id: 9f8e7d6c-5b4a-3928-1756-849302a11c2b
-source-git-commit: 17ea20a6b16965775bda98d7db1f12e28b037aaf
+source-git-commit: a7da542320a38dbc739ec42ee4926fce1dea1df0
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '898'
 ht-degree: 1%
 
 ---
@@ -35,7 +34,7 @@ ht-degree: 1%
 
 여정 단계 이벤트는 다양한 여정 활동에 대해 자동으로 생성됩니다.
 
-- **시작 여정**: [&#x200B; 프로필이 이벤트에 들어갈 때](../building-journeys/entry-management.md)
+- **시작 여정**: [ 프로필이 이벤트에 들어갈 때](../building-journeys/entry-management.md)
 - **작업 실행**: [메시지를 보낼 때](../building-journeys/journeys-message.md) 또는 [사용자 지정 작업](../building-journeys/using-custom-actions.md)을 수행할 때
 - **조건 평가**: 프로필이 [조건](../building-journeys/condition-activity.md) 및 결정 지점을 통과할 때
 - **대기 활동**: 프로필이 [대기 노드](../building-journeys/wait-activity.md)를 시작하고 종료할 때
@@ -76,7 +75,7 @@ ht-degree: 1%
 
 여정 단계 이벤트 데이터는 자동으로 Adobe Experience Platform에 저장되고 다음을 통해 액세스할 수 있습니다.
 
-1. **데이터 레이크 쿼리**: SQL을 사용하여 `journey_step_events`쿼리 서비스[로 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ko){target="_blank"} 데이터 집합을 쿼리합니다.
+1. **데이터 레이크 쿼리**: SQL을 사용하여 `journey_step_events`쿼리 서비스[로 ](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ko){target="_blank"} 데이터 집합을 쿼리합니다.
 2. **Customer Journey Analytics**: [고급 분석 도구](cja-ajo.md)를 통해 여정 데이터 분석
 3. **실시간 보고**: Journey Optimizer의 [기본 제공 보고 기능을 통해 데이터에 액세스](gs-reports.md)
 4. **API**: 사용자 지정 응용 프로그램의 이벤트 데이터에 프로그래밍 방식으로 액세스합니다.
@@ -165,7 +164,6 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
 
 - 전체 속성을 위해 여정 단계 이벤트를 [메시지 피드백 데이터](../data/datasets-query-examples.md#message-feedback-event-dataset)와(과) 결합
 - 시간 기반 분석을 사용하여 여정 속도 및 병목 현상 파악
-- 다른 [여정 변형](../building-journeys/testing-the-journey.md)을 비교하기 위해 집단 분석을 만듭니다.
 
 ### 고급 분석 기능 {#advanced-analytics}
 
@@ -177,13 +175,6 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
 - 여정 결과에 대한 예측 분석
 
 Journey Optimizer 데이터에 대해 [Customer Journey Analytics을 구성](report-gs-cja.md)하는 방법을 알아봅니다.
-
-**실시간 의사 결정**
-여정 단계 이벤트 패턴을 사용하여 다음을 수행할 수 있습니다.
-
-- 실시간 [개인화](../personalization/personalize.md) 트리거
-- [동적 여정 최적화 구현](../building-journeys/optimize.md)
-- [의사 결정 관리](../offers/get-started/starting-offer-decisioning.md)를 통해 상황에 맞는 최적의 다음 작업 권장 사항 사용
 
 ## 추가 리소스 {#additional-resources}
 
@@ -199,7 +190,6 @@ Journey Optimizer 데이터에 대해 [Customer Journey Analytics을 구성](rep
 - **[데이터 관리](../data/export-datasets.md)**: 여정 데이터 내보내기 및 관리
 - **[개인 정보 및 거버넌스](../privacy/audit-logs.md)**: 여정 이벤트에 대한 데이터 거버넌스 고려 사항
 
-여정 단계 이벤트는 Adobe Journey Optimizer의 고급 여정 분석의 기초를 형성합니다. 이러한 이벤트를 효과적으로 이해하고 활용함으로써 고객 행동에 대한 심도 있는 통찰력을 얻고, [여정 성능을 최적화](../building-journeys/optimize.md)할 수 있으며, 고객을 위해 더 많은 [개인화된 경험](../personalization/personalize.md)을 만들 수 있습니다.
 
 **다음 단계:**
 
