@@ -11,9 +11,9 @@ hidefromtoc: true
 keywords: 표현식, 조건, 사용 사례, 이벤트
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7ac246c0aa6776d3ec67223c4b07536b8ed0c881
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '547'
 ht-degree: 2%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 2%
 
 **이 식은 지난 7일 동안 지정한 이 사용자의 모든 이벤트를 찾습니다.**
 
-그런 다음 completePurchase로 변환되지 않은 모든 addtocart 이벤트를 선택합니다.
+그런 다음 completePurchase로 변환되지 않은 장바구니에 추가 이벤트를 모두 선택합니다.
 
 >[!NOTE]
 >
@@ -119,7 +119,7 @@ ht-degree: 2%
 
 **조건**
 
-이 조건은 &quot;Arlington&quot;에서 트리거된 지오펜스 이벤트만 검색합니다.
+이 조건은 &quot;Arlington&quot;에서 트리거된 geofence 이벤트만 검색합니다.
 
 ```json
         @event{GeofenceEntry

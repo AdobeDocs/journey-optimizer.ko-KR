@@ -9,7 +9,7 @@ level: Experienced
 keywords: 쿼리, 컬렉션, 함수, 페이로드, 여정
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7ac246c0aa6776d3ec67223c4b07536b8ed0c881
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 3%
@@ -113,7 +113,7 @@ count(@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTo
 
 >[!NOTE]
 >
->* **all()** 함수의 필터링 조건이 비어 있으면 필터가 목록에 있는 모든 요소를 반환합니다. **그러나 컬렉션의 요소 수를 계산하려면 all 함수가 필요하지 않습니다.
+>* **all()** 함수의 필터링 조건이 비어 있으면 필터가 목록에 있는 모든 요소를 반환합니다. **그러나 컬렉션의 요소 수를 계산하려면 all 함수가 필요하지 않습니다.**
 >
 >* `currentEventField`은(는) 이벤트 컬렉션을 조작할 때만 사용할 수 있으며, `currentDataPackField`은(는) 데이터 소스 컬렉션을 조작할 때 사용할 수 있고 `currentActionField`은(는) 사용자 지정 작업 응답 컬렉션을 조작할 때만 사용할 수 있습니다.
 >
@@ -163,7 +163,7 @@ _`<listExpression>`.at(`<index>`)_
 
 
 ```json
-@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.at(1).token}`
+@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.at(1).token}
 ```
 
 결과는 `token_2`입니다.

@@ -9,7 +9,7 @@ level: Experienced
 keywords: 표현식, 구문, 연산자, 편집기, 여정
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7ac246c0aa6776d3ec67223c4b07536b8ed0c881
 workflow-type: tm+mt
 source-wordcount: '551'
 ht-degree: 5%
@@ -43,7 +43,7 @@ not (@event{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
    * 다음 예제는 올바릅니다. `3.0 * 4.0`
    * `3 * 4.0`에 오류가 발생합니다.
 
-* `+` 연산자를 사용하는 경우 괄호 사이에 식을 캡슐화해야 합니다. 예:
+* `+` 연산자를 사용하는 경우 식을 괄호로 묶어야 합니다. 예:
    * `toDateTimeOnly(toDateTime((currentTimeInMillis()) + 1))`이(가) 올바릅니다.
    * `toDateTimeOnly(toDateTime(currentTimeInMillis() + 1))`에 오류가 발생합니다.
 
