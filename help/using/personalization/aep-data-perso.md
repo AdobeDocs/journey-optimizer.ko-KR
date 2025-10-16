@@ -10,9 +10,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 표현식, 편집기
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: e9ed993dd5957adb305b582b30e6675d2bb4526f
+source-git-commit: 87245fffb3ad10d51a7500d006dbe69b1905640e
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '707'
 ht-degree: 3%
 
 ---
@@ -46,7 +46,7 @@ Journey Optimizer을 사용하면 개인화 편집기에서 Adobe Experience Pla
 
      >[!NOTE]
      >
-     >이 필드에 입력한 값은 필드 ID(*profile.packages.packageSKU*), 여정 여정 이벤트에서 전달된 필드(*context.profile.events.event_ID.productSKU*) 또는 정적 값(*sku007653*)일 수 있습니다. 어떤 경우든 시스템은 값을 사용하고 데이터 세트를 조회하여 키가 일치하는지 확인합니다.
+     >이 필드에 입력한 값은 필드 ID(`profile.packages.packageSKU`), 여정 이벤트에서 전달된 필드(`context.journey.events.event_ID.productSKU`) 또는 정적 값(`sku007653`)일 수 있습니다. 어떤 경우든 시스템은 값을 사용하고 데이터 세트를 조회하여 키가 일치하는지 확인합니다.
      >
      >키에 리터럴 문자열 값을 사용하는 경우 텍스트를 따옴표로 묶습니다. 예: `{{datasetLookup datasetId="datasetId" id="SKU1234" result="store" required=false}}`. 속성 값을 동적 키로 사용하는 경우 따옴표를 제거합니다. 예: `{{datasetLookup datasetId="datasetId" id=category.product.SKU result="SKU" required=false}}`
 
@@ -56,7 +56,7 @@ Journey Optimizer을 사용하면 개인화 편집기에서 Adobe Experience Pla
 
    +++데이터 세트 ID를 검색하는 위치
 
-   데이터 세트 ID는 Adobe Experience Platform 사용자 인터페이스에서 검색할 수 있습니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}에서 데이터 세트로 작업하는 방법을 알아보세요.
+   데이터 세트 ID는 Adobe Experience Platform 사용자 인터페이스에서 검색할 수 있습니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}에서 데이터 세트로 작업하는 방법을 알아보세요.
 
    ![](assets/aep-data-dataset.png)
 
@@ -84,12 +84,12 @@ Journey Optimizer을 사용하면 개인화 편집기에서 Adobe Experience Pla
    >
    >도우미 함수를 사용하여 가져올 수 있는 필드의 수에는 엄격한 제한이 없습니다. 그러나 최상의 성능을 위해서는 처리량에 영향을 주지 않도록 필드 수를 50 미만으로 유지하는 것이 좋습니다.
 
-   * **result**&#x200B;은(는) **MultiEntity** 도우미 함수에서 **result** 매개 변수에 할당한 값입니다. 이 예에서는 &quot;플라이트&quot;입니다.
+   * **result**&#x200B;은(는) **datasetLookup** 도우미 함수에서 **result** 매개 변수에 할당한 값입니다. 이 예에서는 &quot;flight&quot;입니다.
    * **fieldID**&#x200B;은(는) 검색할 필드의 ID입니다. 이 ID는 데이터 집합과 관련된 레코드 스키마를 검색할 때 [!DNL Adobe Experience Platform] 사용자 인터페이스에 표시됩니다.
 
      +++필드 ID를 검색하는 위치
 
-     Adobe Experience Platform 사용자 인터페이스에서 데이터 세트를 미리 볼 때 필드 ID를 검색할 수 있습니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}에서 데이터 세트를 미리 보는 방법에 대해 알아보세요.
+     Adobe Experience Platform 사용자 인터페이스에서 데이터 세트를 미리 볼 때 필드 ID를 검색할 수 있습니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}에서 데이터 세트를 미리 보는 방법에 대해 알아보세요.
 
      ![](assets/aep-data-field.png)
 
