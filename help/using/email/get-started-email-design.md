@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 이메일, 디자인, Stock, 자산
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: da82432dd15f19ac7db52f491e5afd5ba6d4e3d7
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '609'
 ht-degree: 100%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 100%
 
    * 파일이나 .zip 폴더의 **기존 HTML 콘텐츠를 가져옵니다**. 이메일 콘텐츠를 가져오는 방법은 [이 섹션](existing-content.md)을 참조하십시오.
 
-   * 기본 제공 또는 사용자 정의 템플릿 목록에서 **기존 콘텐츠를 선택합니다**. 이메일 템플릿으로 작업하는 방법은 [이 섹션](../email/use-email-templates.md)을 참조하십시오.
+   * 기본 제공 또는 사용자 정의 템플릿 목록에서 **기존 콘텐츠를 선택합니다**. [이 섹션](../email/use-email-templates.md)에서 이메일 템플릿으로 작업하는 방법에 대해 알아봅니다.
 
    ![](assets/email_designer_create_options.png)
 
@@ -74,8 +74,8 @@ ht-degree: 100%
 
 메시지 편집기로 이메일 콘텐츠를 만드는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416234?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
 A/B 테스트를 위한 콘텐츠 실험을 구성하여 비즈니스 목표 달성에 가장 도움이 되는 이메일 콘텐츠를 탐색하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447338?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)
