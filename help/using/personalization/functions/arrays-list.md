@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 98202be781bec0b03a9a9f33e93f1b01b7830a37
 workflow-type: tm+mt
 source-wordcount: '564'
-ht-degree: 9%
+ht-degree: 6%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 9%
 {%= distinct(person.orders.storeId).count() > 1 %}
 ```
 
-## null이 포함된 고유 개수 {#distinct-count-with-null}
+## Null이 포함된 고유 개수 {#distinct-count-with-null}
 
 `distinctCountWithNull` 함수는 null 값을 포함하는 목록의 다른 값 수를 계산하는 데 사용됩니다.
 
@@ -131,7 +131,7 @@ ht-degree: 9%
 {%= topN(orders,price, 5) %}
 ```
 
-## 안에 있음{#in}
+## 위치{#in}
 
 `in` 함수는 항목이 배열의 멤버인지 또는 목록의 멤버인지 확인하는 데 사용합니다.
 
@@ -149,7 +149,7 @@ ht-degree: 9%
 {%= in (person.birthMonth, [3, 6, 9]) %}
 ```
 
-## 다음을 포함{#includes}
+## 포함{#includes}
 
 `includes` 함수는 배열 또는 목록에 지정된 항목이 포함되어 있는지 확인하는 데 사용됩니다.
 
@@ -285,5 +285,5 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 다음 작업은 스시와 피자를 한 번이라도 먹은 사람들을 정의합니다.
 
 ```sql
-{%= supersetOf(person.eatenFoods,["sushi", "pizza"] %}
+{%= supersetOf(person.eatenFoods,["sushi", "pizza"]) %}
 ```

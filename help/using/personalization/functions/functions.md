@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: b08f996d9871f59665c2d329b493fd6e61030fac
+source-git-commit: 98202be781bec0b03a9a9f33e93f1b01b7830a37
 workflow-type: tm+mt
 source-wordcount: '2422'
-ht-degree: 27%
+ht-degree: 2%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 27%
         <td><a href="aggregation.md#count">Count</a></td><td>이 함수는 특정 배열에서 요소의 수를 반환합니다.</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#count-only-null">null만 계산</a></td><td>이 함수는 목록의 null 값 숫자를 계산합니다.</td>
+        <td><a href="aggregation.md#count-only-null">null만 계산</a></td><td>이 함수는 목록의 null 값 수를 계산합니다.</td>
     </tr>
     <tr>
         <td><a href="aggregation.md#count-with-null">null이 포함된 개수</a></td><td>이 함수는 null 값을 포함하여 목록의 모든 요소를 계산합니다.</td>
@@ -56,7 +56,7 @@ ht-degree: 27%
         <td><a href="arrays-list.md#distinct">고유</a></td><td>이 함수는 중복 값이 제거된 배열 또는 목록에서 값을 가져옵니다.</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#distinct-count-with-null">null이 포함된 고유 개수</a></td><td>이 함수는 null 값을 포함한 다른 값의 수를 계산합니다.</td>
+        <td><a href="arrays-list.md#distinct-count-with-null">Null이 포함된 고유 개수</a></td><td>이 함수는 null 값을 포함한 다른 값의 수를 계산합니다.</td>
     </tr>
     <tr>
         <td><a href="arrays-list.md#head">첫 번째 항목</a></td><td>이 함수는 배열 또는 목록의 첫 번째 항목을 반환합니다.</td>
@@ -65,10 +65,10 @@ ht-degree: 27%
         <td><a href="arrays-list.md#first-n">배열의 첫 번째 n</a></td><td>이 함수는 특정 수식에 따라 내림차순으로 정렬되면 배열에서 첫 번째 'N' 항목을 반환합니다</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#in">안에 있음</a></td><td>이 함수는 항목이 배열의 멤버인지 또는 목록의 멤버인지 확인하는 데 사용합니다.</td>
+        <td><a href="arrays-list.md#in">위치</a></td><td>이 함수는 항목이 배열의 멤버인지 또는 목록의 멤버인지 확인하는 데 사용합니다.</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#includes">다음을 포함</a></td><td>이 함수는 배열 또는 목록에 지정된 항목이 포함되어 있는지 확인합니다.</td>
+        <td><a href="arrays-list.md#includes">포함</a></td><td>이 함수는 배열 또는 목록에 지정된 항목이 포함되어 있는지 확인합니다.</td>
     </tr>
     <tr>
         <td><a href="arrays-list.md#intersects">교차</a></td><td>이 함수는 두 배열 또는 목록에 최소 하나 이상의 공통 멤버가 있는지 확인합니다.</td>
@@ -115,61 +115,61 @@ ht-degree: 27%
         <td><a href="dates.md#add-seconds">초 추가</a></td><td>이 함수는 양수 값을 사용하여 증분 및 음수 값을 사용하여 지정된 시간(초)만큼 지정된 날짜를 조정합니다.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#add-years">년 추가</a></td><td>이 함수는 양수 값을 사용하여 증가 값을 하고 음수 값을 사용하여 지정된 연도 수만큼 지정된 날짜를 조정합니다.</td>
+        <td><a href="dates.md#add-years">연도 추가</a></td><td>이 함수는 양수 값을 사용하여 증가 값을 하고 음수 값을 사용하여 지정된 연도 수만큼 지정된 날짜를 조정합니다.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#age">처리 시간</a></td><td>이 함수는 특정 날짜의 연령을 검색합니다.</td>
+        <td><a href="dates.md#age">나이</a></td><td>이 함수는 특정 날짜의 연령을 검색합니다.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#age-days">나이 (일 기준)</a></td><td>이 함수는 특정 일자의 기간(예: 특정 일자와 현재 일자 사이에 경과된 일 수)을 계산합니다. 이 수치는 미래 일자의 경우 음수이고, 과거 일자의 경우 양수입니다.</td>
+        <td><a href="dates.md#age-days">나이(일)</a></td><td>이 함수는 특정 일자의 기간(예: 특정 일자와 현재 일자 사이에 경과된 일 수)을 계산합니다. 이 수치는 미래 일자의 경우 음수이고, 과거 일자의 경우 양수입니다.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#age-months">나이 (월 기준)</a></td><td>이 함수는 특정 날짜의 기간(예: 특정 날짜와 현재 날짜 사이에 경과된 개월 수)을 월 단위로 계산합니다. 이 수는 미래 날짜의 경우 음수이고, 과거 날짜의 경우 양수입니다.</td>
+        <td><a href="dates.md#age-months">나이(월)</a></td><td>이 함수는 특정 날짜의 기간(예: 특정 날짜와 현재 날짜 사이에 경과된 개월 수)을 월 단위로 계산합니다. 이 수는 미래 날짜의 경우 음수이고, 과거 날짜의 경우 양수입니다.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#compare-dates">날짜 비교</a></td><td>이 함수는 첫 번째 입력 날짜를 다른 날짜와 비교합니다. date1이 date2와 같으면 0을 반환하고, date1이 date2보다 앞에 오면 -1을 반환하고, date1이 date2보다 뒤에 오면 1을 반환합니다.</td>
+        <td><a href="dates.md#compare-dates">날짜 비교</a></td><td>이 함수는 첫 번째 입력 날짜를 다른 입력 날짜와 비교합니다. date1이 date2와 같으면 0을 반환하고, date1이 date2 전에 오면 -1을 반환하고, date1이 date2 후에 오면 1을 반환합니다.</td>
     </tr>
     <tr>
         <td><a href="dates.md#convert-zoned-date-time">ZonedDateTime 변환</a></td><td>이 함수는 날짜-시간을 지정된 시간대로 변환합니다.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#current">현재 시간(밀리초)</a></td><td>이 함수는 현재 시간을 에포크 밀리초 단위로 검색합니다.</td>
+        <td><a href="dates.md#current">현재 시간(밀리초)</a></td><td>이 함수는 에포크 밀리초로 현재 시간을 검색합니다.</td>
     </tr>
     <tr>
         <td><a href="dates.md#date-diff">날짜 차이</a></td><td>이 함수는 일 수로 두 날짜 간의 차이를 검색합니다.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#day-month">월일</a></td><td>이 함수는 해당 월의 일자를 나타내는 숫자를 반환합니다.</td>
+        <td><a href="dates.md#day-month">월일</a></td><td>이 함수는 해당 월의 일을 나타내는 숫자를 반환합니다.</td>
     </tr>
     <tr>
         <td><a href="dates.md#day-week">요일</a></td><td>이 함수는 요일을 검색합니다.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#day-year">연간 일자</a></td><td>이 함수는 연간 일자를 검색합니다.</td>
+        <td><a href="dates.md#day-year">일(한 해 기준)</a></td><td>이 함수는 연간 일자를 검색합니다.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#diff-seconds">초 단위 차이</a></td><td>이 함수는 초 단위로 두 날짜의 차이를 반환합니다.</td>
+        <td><a href="dates.md#diff-seconds">초 단위 차이</a></td><td>이 함수는 초 단위로 두 날짜 간의 차이를 반환합니다.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#extract-hours">시간 추출</a></td><td>이 함수는 주어진 타임스탬프에서 시간 구성 요소를 추출합니다.</td>
+        <td><a href="dates.md#extract-hours">시간 추출</a></td><td>이 함수는 특정 타임스탬프에서 시간 구성 요소를 추출합니다.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#extract-minutes">분 추출</a></td><td>이 함수는 주어진 타임스탬프에서 분 구성 요소를 추출합니다.</td>
+        <td><a href="dates.md#extract-minutes">시간(분) 추출</a></td><td>이 함수는 특정 타임스탬프에서 분 구성 요소를 추출합니다.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#extract-months">월 추출</a></td><td>이 함수는 주어진 타임스탬프에서 월 구성 요소를 추출합니다.</td>
+        <td><a href="dates.md#extract-months">월 추출</a></td><td>이 함수는 특정 타임스탬프에서 월 구성 요소를 추출합니다.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#extract-seconds">초 추출</a></td><td>이 함수는 주어진 타임스탬프에서 초 구성 요소를 추출합니다.</td>
+        <td><a href="dates.md#extract-seconds">초 추출</a></td><td>이 함수는 특정 타임스탬프에서 두 번째 구성 요소를 추출합니다.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#format-date">날짜 포맷</a></td><td>이 함수는 날짜 시간 값의 형식을 지정합니다.</td>
+        <td><a href="dates.md#format-date">날짜 형식 지정</a></td><td>이 함수는 날짜 시간 값의 형식을 지정합니다.</td>
     </tr>
     <tr>
         <td><a href="dates.md#format-date-locale">로케일 지원을 사용하여 날짜 형식 지정</a></td><td>이 함수는 날짜 시간 값의 형식을 해당 언어 구분 표시, 즉 원하는 로케일로 지정합니다.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#get-current-zoned-date-time">CurrentZonedDateTime 가져오기</a></td><td>이 함수는 표준 시간대 정보와 함께 현재 날짜와 시간을 반환합니다.</td>
+        <td><a href="dates.md#get-current-zoned-date-time">CurrentZonedDateTime 가져오기</a></td><td>이 함수는 시간대 정보와 함께 현재 날짜 및 시간을 반환합니다.</td>
     </tr>
     <tr>
         <td><a href="dates.md#hours-difference">시간 차이</a></td><td>이 함수는 시간 측면에서 두 날짜 간의 차이를 반환합니다.</td>
@@ -181,44 +181,43 @@ ht-degree: 27%
         <td><a href="dates.md#months-difference">월 차이</a></td><td>이 함수는 월 단위로 두 날짜 간의 차이를 반환합니다.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#set-days">요일 설정</a></td><td>이 함수는 특정 날짜-시간에 대한 월 중 특정 일을 설정합니다.</td>
+        <td><a href="dates.md#set-days">일 설정</a></td><td>이 함수는 특정 날짜-시간에 대한 월 중 특정 일을 설정합니다.</td>
     </tr>
     <tr>
         <td><a href="dates.md#set-hours">시간 설정</a></td><td>이 함수는 날짜-시간의 시간을 설정합니다.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#to-date-time">날짜로 변환</a></td><td>이 함수는 문자열을 날짜로 변환합니다. 잘못된 입력에 대한 출력으로 에포크 날짜를 반환합니다.</td>
+        <td><a href="dates.md#to-date-time">종료 날짜/시간</a></td><td>이 함수는 문자열을 날짜로 변환합니다. 잘못된 입력에 대한 출력으로 에포크 날짜를 반환합니다.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#to-utc">UTC로 변환</a></td><td>이 함수는 날짜/시간을 UTC로 변환합니다.</td>
+        <td><a href="dates.md#to-utc">UTC로</a></td><td>이 함수는 날짜/시간을 UTC로 변환합니다.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#truncate-day">일의 시작으로 잘라내기</a></td><td>이 함수는 주어진 날짜-시간을 하루의 시작 시간으로 설정하고 시간을 00:00으로 설정합니다.</td>
+        <td><a href="dates.md#truncate-day">당일의 시작으로 자르기</a></td><td>이 함수는 특정 날짜-시간을 시간이 00:00으로 설정된 하루의 시작으로 설정하여 수정합니다.</td>
     </tr>
     <tr>
         <td><a href="dates.md#truncate-quarter">truncateToStartOfQuarter</a></td><td>이 함수는 00:00에 분기 첫째 날(예: 1월 1일, 4월 1일, 7월 1일, 10월 1일)까지 날짜-시간을 자릅니다.
 </td>
     </tr>
     <tr>
-        <td><a href="dates.md#truncate-week">truncateToStartOfWeek</a></td><td>이 함수는 주어진 날짜-시간을 주 시작(월요일 00:00)으로 설정하여 수정합니다.</td>
+        <td><a href="dates.md#truncate-week">truncateToStartOfWeek</a></td><td>이 함수는 특정 날짜-시간을 주의 시작(월요일 00:00)으로 설정하여 수정합니다.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#truncate-year">truncateToStartOfYear</a></td><td>이 함수는 주어진 날짜-시간을 해당 연도의 첫날(1월 1일) 00:00으로 잘라 수정합니다.</td>
+        <td><a href="dates.md#truncate-year">truncateToStartOfYear</a></td><td>이 함수는 00:00에 연도의 첫 날(1월 1일)까지 잘라내어 지정된 날짜-시간을 수정합니다.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#week-of-year">연간 주</a></td><td>이 함수는 연간 주를 반환합니다.</td>
+        <td><a href="dates.md#week-of-year">주(한 해 기준)</a></td><td>이 함수는 연간 주를 반환합니다.</td>
     </tr>
     <tr>
         <td><a href="dates.md#diff-years">연도 차이</a></td><td>이 함수는 연도 단위로 두 날짜 간의 차이를 반환합니다.</td>
     </tr>
-</table>
 </table>
 
 ### 맵 함수 {#map-functions}
 
 <table>
     <tr>
-        <td><a href="maps.md#get">다운로드</a></td><td>이 함수는 특정 키에 대한 맵의 값을 검색하는 데 사용합니다.</td>
+        <td><a href="maps.md#get">Get</a></td><td>이 함수는 특정 키에 대한 맵의 값을 검색하는 데 사용합니다.</td>
     </tr>
     <tr>
         <td><a href="maps.md#keys">키</a></td><td>이 함수는 특정 맵에 대한 모든 키를 검색하는 데 사용합니다.</td>
@@ -241,13 +240,13 @@ ht-degree: 27%
         <td><a href="math.md#random">무작위</a></td><td>이 함수는 0과 1 사이의 임의 값을 반환합니다.</td>
     </tr>
     <tr>
-        <td><a href="math.md#round-down">내림</a></td><td>이 함수는 숫자를 내림합니다.</td>
+        <td><a href="math.md#round-down">내림</a></td><td>이 함수는 숫자를 내림합니다</td>
     </tr>
     <tr>
         <td><a href="math.md#round-up">올림</a></td><td>이 함수는 숫자를 올림합니다.</td>
     </tr>
     <tr>
-    <td><a href="math.md#to-hex-string">16진수 문자열로 변환</a></td><td>는 임의의 숫자를 16진수 문자열로 변환합니다.</td>
+    <td><a href="math.md#to-hex-string">16진수 문자열로 변환</a></td><td>모든 숫자를 16진수 문자열로 변환합니다.</td>
     </tr>
     <tr>
     <td><a href="math.md#to-int">대상 정수</a></td><td>이러한 유형(숫자, 더블, int, long, float, short, 바이트, 부울, 문자열) 중 하나를 정수로 변환합니다.</td>
@@ -263,7 +262,7 @@ ht-degree: 27%
     </tr>
 </table>
 
-### 오브젝트 함수 {#object-functions}
+### 개체 함수 {#object-functions}
 
 <table>
     <tr>
@@ -309,7 +308,7 @@ ht-degree: 27%
         <td><a href="string.md#equals">다음과 같음</a></td><td>이 함수는 대/소문자 구분을 통해 문자열이 지정된 하위 문자열로 시작되지 않는지 확인하는 데 사용합니다.</td>
     </tr>
     <tr>
-        <td><a href="string.md#equalsIgnoreCase">대/소문자 무시와 같음</a></td><td>이 함수는 대/소문자를 구분하지 않고 문자열이 지정된 하위 문자열로 시작되지 않는지 확인하는 데 사용합니다.</td>
+        <td><a href="string.md#equalsIgnoreCase">같음 대/소문자 무시</a></td><td>이 함수는 대/소문자를 구분하지 않고 문자열이 지정된 하위 문자열로 시작되지 않는지 확인하는 데 사용합니다.</td>
     </tr>
     <tr>
         <td><a href="string.md#extractEmailDomain">이메일 도메인 추출</a></td><td>이 함수는 이메일 주소의 도메인을 추출하는 데 사용합니다.</td>
@@ -318,13 +317,13 @@ ht-degree: 27%
         <td><a href="string.md#format-currency">통화 포맷</a></td><td>이 함수는 두 번째 인수에서 문자열로 전달된 로케일에 따라 모든 숫자를 해당 언어 구분 통화 표시로 변환합니다</td>
     </tr>
     <tr>
-        <td><a href="string.md#get-url-host">URL 호스트 다운로드</a></td><td>이 함수는 URL 호스트를 다운로드하는 데 사용합니다.</td>
+        <td><a href="string.md#get-url-host">URL 호스트 가져오기</a></td><td>이 함수는 URL 호스트를 가져오는 데 사용합니다.</td>
     </tr>
     <tr>
-        <td><a href="string.md#get-url-path">URL 경로 다운로드</a></td><td>이 함수는 URL 경로를 가져오는 데 사용합니다.</td>
+        <td><a href="string.md#get-url-path">URL 경로 가져오기</a></td><td>이 함수는 URL 경로를 가져오는 데 사용합니다.</td>
     </tr>
     <tr>
-        <td><a href="string.md#get-url-protocol">URL 프로토콜 다운로드</a></td><td>이 함수는 URL 프로토콜을 가져오는 데 사용합니다.</td>
+        <td><a href="string.md#get-url-protocol">URL 프로토콜 가져오기</a></td><td>이 함수는 URL 프로토콜을 가져오는 데 사용합니다.</td>
     </tr>
     <tr>
         <td><a href="string.md#index-of">색인</a></td><td>이 함수는 (첫 번째 인수에서) 두 번째 매개 변수의 첫 번째 발생 횟수 위치를 반환합니다. 일치하는 항목이 없으면 -1을 반환합니다.</td>
@@ -336,13 +335,13 @@ ht-degree: 27%
         <td><a href="string.md#is-not-empty">비어 있지 않음</a></td><td>이 함수는 매개 변수의 문자열이 비어 있지 않으면 true를 반환합니다.</td>
     </tr>
     <tr>
-        <td><a href="string.md#last-index-of">마지막 색인</a></td><td>이 함수는 (첫 번째 인수에서) 두 번째 매개 변수의 마지막 발생 횟수 위치를 반환합니다. 일치하는 위치가 없는 경우 -1을 반환합니다.</td>
+        <td><a href="string.md#last-index-of">마지막 색인</a></td><td>이 함수는 (첫 번째 인수에서) 두 번째 매개 변수의 마지막 발생 횟수 위치를 반환합니다. 일치하는 항목이 없으면 -1을 반환합니다.</td>
     </tr>
     <tr>
         <td><a href="string.md#leftTrim">Left trim</a></td><td>이 함수는 문자열의 시작에서 공백을 제거합니다.</td>
     </tr>
     <tr>
-        <td><a href="string.md#length">길이</a></td><td>이 함수는 문자열 또는 표현식의 문자 수를 가져오는 데 사용합니다.</td>
+        <td><a href="string.md#length">Length</a></td><td>이 함수는 문자열 또는 표현식의 문자 수를 가져오는 데 사용합니다.</td>
     </tr>
     <tr>
         <td><a href="string.md#like">다음과 유사</a></td><td>이 함수는 문자열이 지정된 패턴과 일치하는지 확인하는 데 사용합니다.</td>
@@ -357,7 +356,7 @@ ht-degree: 27%
         <td><a href="string.md#matches">일치</a></td><td>이 함수는 문자열이 특정 정규 표현식과 일치하는지 확인하는 데 사용합니다.</td>
     </tr>
     <tr>
-        <td><a href="string.md#md5">MD5</a></td><td>이 함수는 입력 문자열의 MD5 해시를 반환합니다.</td>
+        <td><a href="string.md#md5">MD5</a></td><td>이 함수는 입력 문자열의 md5 해시를 반환합니다.</td>
     </tr>
     <tr>
         <td><a href="string.md#notEqualTo">다음과 같지 않음</a></td><td>이 함수는 문자열이 지정된 문자열과 같지 않은지 확인하는 데 사용합니다.</td>
@@ -387,25 +386,25 @@ ht-degree: 27%
         <td><a href="string.md#startsWith">다음으로 시작</a></td><td>이 함수는 문자열이 지정된 하위 문자열로 시작하는지 확인하는 데 사용합니다.</td>
     </tr>
     <tr>
-        <td><a href="string.md#string-to-date">문자열을 날짜로 변환</a></td><td>이 함수는 문자열 값을 날짜-시간 값으로 변환합니다.</td>
+        <td><a href="string.md#string-to-date">문자열을 현재까지</a></td><td>이 함수는 문자열 값을 날짜-시간 값으로 변환합니다.</td>
     </tr>
     <tr>
         <td><a href="string.md#string-to-integer">문자열을 정수로 변환</a></td><td>이 함수는 문자열 값을 정수 값으로 변환합니다.</td>
     </tr>
     <tr>
-        <td><a href="string.md#string-to-number">문자열을 숫자로 변환</a></td><td>이 함수는 문자열을 숫자로 변환하는 데 사용합니다. 잘못된 입력에 대한 출력으로 동일한 문자열을 반환합니다.</td>
+        <td><a href="string.md#string-to-number">문자열을 숫자로 변환</a></td><td>이 함수는 문자열을 숫자로 변환하는 데 사용합니다. 잘못된 입력에 대한 출력과 동일한 문자열을 반환합니다.</td>
     </tr>
     <tr>
-        <td><a href="string.md#sub-string">하위 문자열</a></td><td>이 함수는 시작 색인과 종료 색인 사이에서 문자열 표현식의 하위 문자열을 반환합니다.</td>
+        <td><a href="string.md#sub-string">하위 문자열</a></td><td>이 함수는 시작 색인과 종료 색인 사이에 있는 문자열 식의 하위 문자열을 반환합니다.</td>
     </tr>
     <tr>
         <td><a href="string.md#titleCase">제목 대/소문자</a></td><td>이 함수는 문자열의 각 단어의 첫 문자를 대문자로 사용하는 데 사용합니다</td>
     </tr>
     <tr>
-        <td><a href="string.md#to-bool">부울로 변환</a></td><td>이 함수는 인수 유형에 따라 인수 값을 부울 값으로 변환합니다.</td>
+        <td><a href="string.md#to-bool">부울로</a></td><td>이 함수는 인수 유형에 따라 인수 값을 부울 값으로 변환합니다.</td>
     </tr>
     <tr>
-        <td><a href="string.md#to-date-time">날짜로 변환</a></td><td>이 함수는 문자열을 날짜로 변환하는 데 사용합니다. 잘못된 입력에 대한 출력으로 에포크 날짜를 반환합니다.</td>
+        <td><a href="string.md#to-date-time">종료 날짜/시간</a></td><td>이 함수는 문자열을 날짜로 변환하는 데 사용합니다. 잘못된 입력에 대한 출력으로 에포크 날짜를 반환합니다.</td>
     </tr>
     <tr>
         <td><a href="string.md#to-date-time-only">종료 날짜/시간만</a></td><td>이 함수는 인수 값을 날짜/시간 전용 값으로 변환합니다. 잘못된 입력에 대한 출력으로 에포크 날짜를 반환합니다.</td>
@@ -420,7 +419,7 @@ ht-degree: 27%
         <td><a href="string.md#url-decode">URL 디코드</a></td><td>이 함수는 URL로 인코딩된 문자열을 디코딩하는 데 사용합니다.</td>
     </tr>
     <tr>
-        <td><a href="string.md#url-encode">URL 인코드</a></td><td>이 함수는 문자열을 URL 인코딩하는 데 사용합니다.</td>
+        <td><a href="string.md#url-encode">Url 인코딩</a></td><td>이 함수는 문자열을 URL 인코딩하는 데 사용합니다.</td>
     </tr>
 </table>
 
@@ -435,7 +434,7 @@ ht-degree: 27%
         <td><a href="helpers.md#default">기본 대체 값</a></td><td>이 함수는 기본값으로 변수를 렌더링하는 데 사용합니다.</td>
     </tr>
     <tr>
-        <td><a href="helpers.md#each">Each</a></td><td>이 함수는 배열을 반복하는 데 사용합니다.</td>
+        <td><a href="helpers.md#each">각</a></td><td>이 함수는 배열을 반복하는 데 사용합니다.</td>
     </tr>
     <tr>
         <td><a href="helpers.md#execution-metadata">실행 메타데이터</a></td><td>이 도우미는 런타임 실행 메타데이터 개체에 저장할 수 있도록 메시지 렌더링 동안 사용자 지정 키-값 메타데이터를 캡처합니다</td>
@@ -450,7 +449,7 @@ ht-degree: 27%
         <td><a href="helpers.md#unless">Unless</a></td><td>이 함수는 조건부 블록을 정의하는 데 사용합니다. 표현식 평가에서 false를 반환하면 블록이 렌더링됩니다.</td>
     </tr>
     <tr>
-        <td><a href="helpers.md#with">With</a></td><td>이 함수는 템플릿 일부의 평가 토큰을 변경하는 데 사용합니다.</td>
+        <td><a href="helpers.md#with">포함</a></td><td>이 함수는 템플릿 일부의 평가 토큰을 변경하는 데 사용합니다.</td>
     </tr>
 </table>
 
@@ -519,4 +518,4 @@ ht-degree: 27%
 
 개인화 도우미 기능을 사용하여 개인화 값을 변형하는 방법을 알아보고 도우미 기능의 다양한 사용 사례를 이해합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416646?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

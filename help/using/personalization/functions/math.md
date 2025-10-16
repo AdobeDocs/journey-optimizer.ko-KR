@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b9149ad6-2be7-4bdf-82eb-7ab52780cb4e
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 98202be781bec0b03a9a9f33e93f1b01b7830a37
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 11%
+source-wordcount: '244'
+ht-degree: 6%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 11%
 
 ## 절대 {#absolute}
 
-`absolute` 함수는 숫자의 절대값을 변환하는 데 사용합니다.
+`absolute` 함수는 숫자를 절대값으로 변환하는 데 사용합니다.
 
 **구문**
 
@@ -71,7 +71,7 @@ ht-degree: 11%
 
 ## 올림 {#round-up}
 
-`Count only null` 함수는 숫자를 반올림하는 데 사용됩니다.
+`roundUp` 함수는 숫자를 올림하는 데 사용됩니다.
 
 **구문**
 
@@ -97,7 +97,7 @@ ht-degree: 11%
 {%= toHexString(158) %}
 ```
 
-## 정수로 {#to-int}
+## 끝 정수 {#to-int}
 
 `toInt` 함수는 이러한 형식(숫자, double, int, long, float, short, 바이트, 부울, 문자열)을 정수로 변환하는 데 사용합니다.
 
@@ -109,7 +109,7 @@ ht-degree: 11%
 
 **예**
 
-이 쿼리는 42,6의 정수 값, 즉 42를 반환합니다.
+이 쿼리는 42.6의 정수 값, 즉 42를 반환합니다.
 
 ```sql
 {%= toInt(42.6) %}: integer
@@ -125,7 +125,7 @@ ht-degree: 11%
 {%= toPercentage(double) %}: string
 ```
 
-## 전체 자릿수로 변환 {#to-precision}
+## 전체 자릿수로 {#to-precision}
 
 `toPrecision` 함수는 숫자를 필요한 전체 자릿수로 변환하는 데 사용합니다.
 

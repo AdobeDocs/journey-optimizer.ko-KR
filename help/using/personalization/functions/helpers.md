@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: b08f996d9871f59665c2d329b493fd6e61030fac
+source-git-commit: 98202be781bec0b03a9a9f33e93f1b01b7830a37
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 6%
@@ -99,7 +99,7 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
    ```sql
    {%#if profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8b").status = "existing"%}
    Hi! Esteemed gold member. <a href="https://www.somedomain.com/gold">Checkout your exclusive perks </a>
-   {%else%} if 'profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8c").status = "existing"'%}
+   {%else if profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8c").status = "existing"%}
    Hi! Esteemed silver member. <a href="https://www.somedomain.com/silver">Checkout your exclusive perks </a>
    {%/if%}
    ```
@@ -127,11 +127,11 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 {%#unless endsWith(profile.personalEmail.address, ".edu")%}
 Some Normal Content
 {%else%}
-Some edu specific content Content
+Some edu specific content
 {%/unless%}
 ```
 
-## Each{#each}
+## 각{#each}
 
 `each` 도우미는 배열을 반복하는 데 사용됩니다.
 도우미의 구문은 ```{{#each ArrayName}}``` YourContent {{/each}}입니다.
@@ -163,7 +163,7 @@ Some edu specific content Content
 {{/each}}
 ```
 
-## With{#with}
+## 포함{#with}
 
 `with` 도우미는 템플릿 부분의 평가 토큰을 변경하는 데 사용됩니다.
 

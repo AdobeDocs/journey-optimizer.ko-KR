@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: ed4d50cbc488fb396c4fffec21d3f0062d3fc20a
+source-git-commit: 98202be781bec0b03a9a9f33e93f1b01b7830a37
 workflow-type: tm+mt
-source-wordcount: '1032'
-ht-degree: 13%
+source-wordcount: '1034'
+ht-degree: 6%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 13%
 
 ## 분 추가 {#add-minutes}
 
-`addMinutes` 함수는 양수 값을 사용하여 증가되고 음수 값을 사용하여 지정된 시간(분)만큼 조정됩니다.
+`addMinutes` 함수는 양수 값을 사용하여 증가 및 음수 값을 사용하여 지정된 시간(분)만큼 지정된 날짜를 조정합니다.
 
 **구문**
 
@@ -87,7 +87,7 @@ ht-degree: 13%
 
 ## 초 추가 {#add-seconds}
 
-`addSeconds`은(는) 양수 값을 사용하여 증가 및 음수 값을 사용하여 지정된 시간(초)만큼 날짜를 조정합니다.
+`addSeconds` 함수는 양수 값을 사용하여 증가되고 음수 값을 사용하여 지정된 시간(초)만큼 날짜를 조정합니다.
 
 **구문**
 
@@ -102,9 +102,9 @@ ht-degree: 13%
 
 +++
 
-## 년 추가 {#add-years}
+## 연도 추가 {#add-years}
 
-`addYears`은(는) 양수 값을 사용하여 증가 값을 하고 음수 값을 사용하여 감소 값을 지정하여 지정된 연도 수만큼 날짜를 조정합니다.
+`addYears` 함수는 양수 값을 사용하여 증가되고 음수 값을 사용하여 지정된 연도 수만큼 지정된 날짜를 조정합니다.
 
 **구문**
 
@@ -119,7 +119,7 @@ ht-degree: 13%
 
 +++
 
-## 처리 시간{#age}
+## 나이{#age}
 
 `age` 함수는 특정 날짜에서 기간을 검색하는 데 사용됩니다.
 
@@ -139,7 +139,7 @@ The following operation gets the value of the identity map for the key `example@
 ```
 -->
 
-## 나이 (일 기준) {#age-days}
+## 나이(일) {#age-days}
 
 `ageInDays` 함수는 특정 날짜의 기간(예: 특정 날짜와 현재 날짜 사이에 경과된 일 수)을 계산합니다. 이후 날짜의 경우에는 음수이고 이전 날짜의 경우에는 양수입니다.
 
@@ -158,7 +158,7 @@ currentDate = 2025-01-07T12:17:10.720122+05:30(아시아/콜카타)
 
 +++
 
-## 나이 (월 기준) {#age-months}
+## 나이(월) {#age-months}
 
 `ageInMonths` 함수는 특정 날짜의 기간(예: 특정 날짜와 현재 날짜 사이에 경과된 개월 수)을 개월 단위로 계산합니다. 미래 날짜의 경우 음수, 과거 날짜의 경우 양수.
 
@@ -253,7 +253,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## 월일 {#day-month}
 
-`dayOfWeek`은(는) 그 달의 요일을 나타내는 숫자를 반환합니다.
+`dayOfMonth`은(는) 그 달의 요일을 나타내는 숫자를 반환합니다.
 
 **구문**
 
@@ -289,7 +289,7 @@ The following operation gets all the values for the map `identityMap`.
 ```
 -->
 
-## 연간 일자{#day-year}
+## 일(한 해 기준){#day-year}
 
 `dayOfYear` 함수는 연간 일자를 검색하는 데 사용됩니다.
 
@@ -343,7 +343,7 @@ The following operation gets all the values for the map `identityMap`.
 
 +++
 
-## 분 추출 {#extract-minutes}
+## 시간(분) 추출 {#extract-minutes}
 
 `extractMinutes` 함수는 특정 타임스탬프에서 분 구성 요소를 추출합니다.
 
@@ -355,7 +355,7 @@ The following operation gets all the values for the map `identityMap`.
 
 +++예
 
-* 입력: `{%= extractMinute(stringToDate("2024-11-01T17:19:51Z"))%}`
+* 입력: `{%= extractMinutes(stringToDate("2024-11-01T17:19:51Z"))%}`
 * 출력: `19`
 
 +++
@@ -394,7 +394,7 @@ The following operation gets all the values for the map `identityMap`.
 
 +++
 
-## 날짜 포맷{#format-date}
+## 날짜 형식 지정{#format-date}
 
 `formatDate` 함수는 날짜/시간 값의 형식을 지정하는 데 사용됩니다. 형식은 유효한 Java DateTimeFormat 패턴이어야 합니다.
 
@@ -556,7 +556,7 @@ The following operation gets all the values for the map `identityMap`.
 ```
 -->
 
-## 날짜로 변환 {#to-date-time}
+## 종료 날짜/시간 {#to-date-time}
 
 `ToDateTime` 함수는 문자열을 날짜로 변환합니다. 잘못된 입력에 대한 출력으로 에포크 날짜를 반환합니다.
 
@@ -573,7 +573,7 @@ The following operation gets all the values for the map `identityMap`.
 
 +++
 
-## UTC로 변환{#to-utc}
+## UTC로{#to-utc}
 
 `toUTC` 함수는 날짜/시간을 UTC로 변환하는 데 사용됩니다.
 
@@ -593,7 +593,7 @@ The following operation gets all the values for the map `identityMap`.
 ```
 -->
 
-## 일의 시작으로 잘라내기 {#truncate-day}
+## 당일의 시작으로 자르기 {#truncate-day}
 
 `truncateToStartOfDay` 함수는 특정 날짜-시간을 00:00(으)로 설정된 하루의 시작으로 설정하는 데 사용됩니다.
 
@@ -639,7 +639,7 @@ The following operation gets all the values for the map `identityMap`.
 
 +++예
 
-* 입력: `truncateToStartOfWeek(stringToDate("2024-11-19T17:19:51Z"))%} // tuesday`
+* 입력: `{%= truncateToStartOfWeek(stringToDate("2024-11-19T17:19:51Z"))%} // tuesday`
 * 출력: `2024-11-18T00:00Z // monday`
 
 +++
@@ -661,7 +661,7 @@ The following operation gets all the values for the map `identityMap`.
 
 +++
 
-## 연간 주 {#week-of-year}
+## 주(한 해 기준) {#week-of-year}
 
 `weekOfYear` 함수는 연간 주를 검색하는 데 사용됩니다.
 
