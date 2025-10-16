@@ -10,9 +10,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 이메일 테마, 모듈, 재사용 가능성, 브랜드 일관성, 이메일 디자인, 사용자 지정 CSS, 모바일 최적화
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
-source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
+source-git-commit: 12d0869e323a1b3b892bac91ba423029f9c123a5
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '831'
 ht-degree: 6%
 
 ---
@@ -127,7 +127,7 @@ If you apply a theme to a content using a [fragment](../content-management/fragm
 
    * 기본 제공 [전자 메일 템플릿](use-email-templates.md)을(를) 선택하여 전자 메일 Designer을 엽니다. 각 템플릿에 해당하는 기본 테마는 자동으로 적용됩니다.
 
-   * [새로운 콘텐츠를 처음부터 디자인하고](content-from-scratch.md) **[!UICONTROL 테마 사용]을 선택하여 미리 정의된 스타일 테마로 시작합니다.**
+   * [새로운 콘텐츠를 처음부터 디자인하고](content-from-scratch.md) **[!UICONTROL 테마 사용]**&#x200B;을 선택하여 미리 정의된 스타일 테마로 시작합니다.
 
      ![](assets/theme-from-scratch.png)
 
