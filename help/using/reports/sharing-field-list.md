@@ -8,7 +8,7 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: 990ecd8a9fd89f0cc15dc41e7e38490aba539784
+source-git-commit: faf6e63e3951b67997836107ae518b294526206b
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 10%
@@ -70,7 +70,7 @@ journeyStepEvent의 경우 ID와 관련된 필드도 추가해야 합니다.
 | eventType | 문자열 | 오류 이벤트인지 정보 이벤트인지를 나타내는 이벤트 유형: 정보, 오류 |
 | eventCode | 문자열 | 해당 eventType의 이유를 나타내는 오류 코드 |
 
-이 섹션[에서 eventTypes &#x200B;](#discarded-events)에 대해 자세히 알아보세요.
+이 섹션[에서 eventTypes ](#discarded-events)에 대해 자세히 알아보세요.
 
 ## stepEvent {#stepevents-field}
 
@@ -83,25 +83,25 @@ journeyStepEvent의 경우 ID와 관련된 필드도 추가해야 합니다.
 
 다음은 가장 자주 삭제되는 `eventTypes`에 대한 정의, 일반적인 원인 및 문제 해결 단계입니다.
 
-* EXTERNAL_KEY_COMPUTATION_ERROR: 시스템이 이벤트 데이터에서 고객에 대한 고유 식별자(외부 키)를 계산할 수 없습니다.
+* **EXTERNAL_KEY_COMPUTATION_ERROR**: 시스템이 이벤트 데이터에서 고객에 대한 고유 식별자(외부 키)를 계산할 수 없습니다.
 
   **일반적인 원인**: 이벤트 페이로드에 고객 식별자(예: 이메일, 고객 ID)가 없거나 잘못되었습니다.
 
   **문제 해결**: 필요한 식별자에 대한 이벤트 구성을 확인하고 이벤트 데이터가 완전하고 올바른 형식인지 확인하십시오.
 
-* NO_INTEREST_SEGMENTS_FOR_SEGMENTMEMBERSHIP_EVENT: 여정 자격 이벤트를 받았지만 이 여정에 응답하도록 구성된 세그먼트가 없습니다.
+* **NO_INTEREST_SEGMENTS_FOR_SEGMENTMEMBERSHIP_EVENT**: 여정 자격 이벤트를 받았지만 이 여정에 응답하도록 구성된 세그먼트가 없습니다.
 
   **일반적인 원인**: 세그먼트를 트리거로 사용하는 여정이 없거나, 여정이 초안/중지 상태이거나, 세그먼트 ID가 일치하지 않습니다.
 
   **문제 해결**: 하나 이상의 세그먼트가 라이브되고 여정에 대해 구성되어 있는지 확인하고 세그먼트 ID를 확인하십시오.
 
-* 여정_인스턴스_ID_NOT_CREATE: 시스템이 고객에 대한 여정 인스턴스를 생성하지 못했습니다.
+* **여정_INSTANCE_ID_NOT_CREATE**: 시스템에서 고객에 대한 여정 인스턴스를 만들지 못했습니다.
 
   **일반적인 원인**: 이벤트가 중복되고, 이벤트 볼륨이 많으며, 시스템 리소스 제약 조건이 있습니다.
 
   **문제 해결**: 중복 제거를 구현하고, 트래픽 스파이크를 방지하고, 여정 디자인을 최적화하고, 영구적인 경우 지원 팀에 문의하십시오.
 
-* EVENT_WITH_NO_EVENT: 여정을 받았지만 이 이벤트에 응답하도록 구성된 활성 여정이 없습니다.
+* **EVENT_WITH_NO_EVENT**: 여정을 받았지만 이 이벤트에 응답하도록 구성된 활성 여정이 없습니다.
 
   **일반적인 원인**: 이벤트 이름/ID 불일치, 여정이 게시되지 않음, 잘못된 샌드박스/조직, 테스트 모드/프로필 불일치.
 
