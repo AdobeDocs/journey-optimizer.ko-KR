@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1a5f6be689c9e91ee0dc0b5f024dbe8020424337
+source-git-commit: f06a9d01721ff23dfdf95db8d984143bb36fe85c
 workflow-type: tm+mt
-source-wordcount: '1281'
-ht-degree: 29%
+source-wordcount: '1209'
+ht-degree: 40%
 
 ---
 
@@ -29,40 +29,7 @@ ht-degree: 29%
 
 ### 새로운 기능 {#oct-25-10-features}
 
-<table>
-<thead>
-<tr>
-<th><strong>여정의 DM 채널</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이전에는 캠페인으로 제한되었던 DM 채널 을 이제 여정 캔버스에서 사용할 수 있으므로 DM 을 여정에 통합할 수 있습니다. 이제 파일 추출 구성 및 시간 기반 빈도 설정을 지원하여 DM을 일괄 처리 및 1:1 여정 시나리오 모두에서 사용할 수 있습니다.</p>
-<p> 이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
-</td>
-</tr>
-</tbody>
-</table>
 
-<table>
-<thead>
-<tr>
-<th><strong>작업 캠페인을 검색하는 새 API</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 새로운 Journey Optimizer API를 사용할 수 있으므로 세부 정보, 버전 및 구성과 같은 캠페인 관련 데이터를 프로그래밍 방식으로 검색하고 검사할 수 있습니다.</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
@@ -115,6 +82,41 @@ ht-degree: 29%
 <tr>
 <td>
 <p>이제 오케스트레이션된 캠페인에서 DM 채널을 사용할 수 있습니다. 다이렉트 메일 활동은 오케스트레이션된 캠페인 내에서 다이렉트 메일 전송 과정을 원활하게 하며 일회성 메시지와 반복 메시지를 모두 전송할 수 있습니다. 이는 다이렉트 메일 제공업체에 필요한 추출 파일 생성 프로세스를 자동화하는 역할을 합니다. 채널 활동을 오케스트레이션된 캠페인 캔버스에 결합하여 고객 행동 및 데이터에 따라 액션을 트리거할 수 있는 크로스 채널 캠페인을 만들 수 있습니다.</p>
+<!--img src="assets/do-not-localize/FILE.gif"-->
+<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>여정의 DM 채널</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이전에는 캠페인으로 제한되었던 DM 채널 을 이제 여정 캔버스에서 사용할 수 있으므로 DM 을 여정에 통합할 수 있습니다. 이제 파일 추출 구성 및 시간 기반 빈도 설정을 지원하여 DM을 일괄 처리 및 1:1 여정 시나리오 모두에서 사용할 수 있습니다.</p>
+<p> 이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
+<!--img src="assets/do-not-localize/FILE.gif"-->
+<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>작업 캠페인을 검색하는 새 API</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 새로운 Journey Optimizer API를 사용할 수 있으므로 세부 정보, 버전 및 구성과 같은 캠페인 관련 데이터를 프로그래밍 방식으로 검색하고 검사할 수 있습니다.</p>
 <!--img src="assets/do-not-localize/FILE.gif"-->
 <!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
 </td>
@@ -193,20 +195,18 @@ ht-degree: 29%
 </tr>
 </tbody>
 </table>
-
 <table>
 <thead>
 <tr>
-<th><strong>새 실행 메타데이터 도우미 함수</strong><br/></th>
+<th><strong>실행 메타데이터 도우미</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>개인화 편집기에서 새로운 executionMetadata 도우미 함수를 사용할 수 있습니다. 이를 통해 컨텍스트 정보를 모든 기본 작업에 추가하고 데이터 세트에 캡처하여 외부 시스템으로 내보낼 수 있습니다.</p>
-<p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+<p>개인화 편집기에서 새로운 'executionMetadata' 도우미 기능을 사용할 수 있습니다. 이를 통해 컨텍스트 정보를 모든 기본 작업에 추가하고 데이터 세트에 캡처하여 외부 시스템으로 내보낼 수 있습니다.</p>
+<p>이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.</p>
+<p>자세한 내용은 <a href="../personalization/functions/helpers.md#execution-metadata">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2025년 10월 13일</p>
 </td>
 </tr>
@@ -216,22 +216,40 @@ ht-degree: 29%
 <table>
 <thead>
 <tr>
-<th><strong>실험 에이전트</strong><br/></th>
+<th><strong>실험 요원이 여기 있습니다!</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>실험 에이전트는 웹 사이트, 이메일, 푸시 메시지 및 애플리케이션에서 디지털 실험을 실행하고 관리할 수 있는 방법을 현대화한 AI 기반 도구입니다. Adobe Experience Platform AI 플랫폼과 실험 도구를 기반으로 구축된 실험 에이전트는 실험을 보다 효율적으로 실행하고, 비즈니스 목표를 구성하고, 실행 가능한 통찰력을 생성하여 무엇이 작동하고, 무엇을 하지 않았으며, 다음 실험을 수행할 위치를 강조 표시할 수 있도록 해줍니다.</p>
-<p>새로운 Experimentation Accelerator 기능의 일부로 에이전트는 다음을 제공합니다.</p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator.html" target="_blank">Adobe Experience Platform Agent Orchestrator</a>에서 제공하는 실험 에이전트는 Journey Optimizer에서 사용할 수 있습니다. </p>
+<p>실험 에이전트는 웹 사이트, 이메일, 푸시 메시지 및 애플리케이션에서 디지털 실험을 실행하고 관리할 수 있는 방법을 현대화한 AI 기반 도구입니다. 실험을 보다 효율적으로 실행하고, 비즈니스 목표를 구성하고, 실행 가능한 통찰력을 생성하여, 무엇이 작동하고, 무엇이 작동하지 않았으며, 다음 실험할 위치를 강조 표시하는 데 도움이 됩니다.</p>
+<p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">세부 설명서</a>를 참조하십시오.</p>
+<p>사용 가능한 날짜: 2025년 10월 10일</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>이메일에 PDF 파일 첨부</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 Journey Optimizer로 보내는 이메일 메시지에 정적 PDF 파일을 첨부할 수 있습니다.</p>
 <ul>
-<li><strong>성능:</strong> 실험에서 발생한 내용에 대한 명확한 보기</li>
-<li><strong>인사이트:</strong> 결과가 발생한 이유에 대한 설명</li>
-<li><strong>기회:</strong> 수행할 다음 작업에 대한 지침</li>
+<li>매년 프로필별로 최대 6개의 PDF 첨부 파일을 사용하여 메시지를 보낼 수 있습니다.</li>
+<li>각 첨부 파일의 최대 크기는 5MB입니다.</li>
+<li>용량이나 수량이 더 필요하다면 PDF 첨부 파일 추가 기능을 구매할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.</li>
 </ul>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
-<p>사용 가능한 날짜: 2025년 10월 9일</p>
+<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
+<p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
+<p>자세한 내용은 <a href="../email/pdf-attachments.md">세부 설명서</a>를 참조하십시오.</p>
+<p>사용 가능한 날짜: 2025년 9월 30일</p>
 </td>
 </tr>
 </tbody>
@@ -247,43 +265,40 @@ ht-degree: 29%
 <tr>
 <td>
 <p>이제 새로운 Journey Optimizer API를 사용하여 캠페인과 표면 등 여정 및 관련 개체를 검색할 수 있습니다.</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+<p>자세한 내용은 <a href="https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve/">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2025년 9월 25일</p>
 </td>
 </tr>
 </tbody>
 </table>
 
+
 ### 개선 사항
 
-- **캠페인, Experience Decisioning, 여정**
-   - **타깃팅에서 재사용 가능한 규칙 선택** - 이제 여정 및 캠페인의 메시지 최적화 기능과 함께 타깃팅 규칙을 사용할 때 규칙 빌더를 활용할 수 있습니다. <!-- [Read more](../FILE.md) -->
+**타깃팅에서 재사용 가능한 규칙 선택**
 
-- **채널 - WhatsApp**
-   - **WhatsApp 채널의 실행 필드** - 이제 전자 메일과 SMS 외에도 WhatsApp 기본 실행 필드를 업데이트할 수 있습니다. WhatsApp 여정 활동 고급 매개 변수 또는 WhatsApp 채널 구성에서 전역적으로 설정된 실행 필드를 재정의할 수도 있습니다. <!-- [Read more](../FILE.md) -->
+이제 여정 및 캠페인의 메시지 최적화 기능과 함께 타깃팅 규칙을 사용할 때 규칙 빌더를 활용할 수 있습니다. <!-- [Read more](../FILE.md) -->
 
-- **사용 권한**
-   - **여정/캠페인 작성자가 승인할 수 없습니다.** - 승인 정책을 만들거나 설정할 때 여정/캠페인 작성자가 자신의 개체를 승인하지 못하도록 하는 옵션이 추가되었습니다. <!-- [Read more](../FILE.md) -->
+**WhatsApp 채널의 실행 필드**
 
-- **채널 - 푸시**
-   - **모바일 라이브 활동 - 비공개 베타** - 라이브 활동은 모바일 앱 내에서 실시간 업데이트와 대화형 경험을 제공하므로 사용자는 디바이스의 화면에서 직접 진행 중인 이벤트 또는 작업에 대한 정보를 얻을 수 있습니다. 이 기능은 사용자가 앱을 열지 않아도 진행 추적, 이벤트 업데이트 또는 대화형 컨텐츠와 같은 라이브 정보를 전달하여 참여를 향상시킵니다. <!-- [Read more](../FILE.md) -->
+이제 이메일 및 SMS 외에도 WhatsApp 기본 실행 필드를 업데이트할 수 있습니다. WhatsApp 여정 활동 고급 매개 변수 또는 WhatsApp 채널 구성에서 전역적으로 설정된 실행 필드를 재정의할 수도 있습니다. <!-- [Read more](../FILE.md) -->
 
-- **여정**
-   - **새 여정 알림** - 사용 가능한 날짜: 2025년 10월 14일
-여정에 대해 새로운 사전 구성된 경고를 사용할 수 있습니다. 프로필 폐기 비율 초과(최근 5분 초과 임계값에 대해 입력된 프로필에 대한 프로필 폐기물의 비율), 사용자 지정 작업 오류율 초과(최근 5분 초과 임계값에 대해 성공한 HTTP 호출에 대한 사용자 지정 작업 오류의 비율), 프로필 오류율 초과(최근 5분 초과 임계값에 대해 입력된 프로필에 대한 오류 상태의 비율). <!-- [Read more](../FILE.md) -->
+**사용 권한**
 
-- **구성**
-   - **한 번의 클릭으로 구독 취소 URL을 통해 사용자 지정 특성 지원** - 사용 가능한 날짜: 2025년 10월 6일
-Journey Optimizer을 사용하면 Adobe 외부에서 동의를 관리하는 경우 이메일 구성에서 클릭 한 번으로 구독 취소 링크를 정의하여 외부 사용자 지정 엔드포인트를 설정할 수 있습니다. 수신자가 구독 취소 링크를 클릭하면 Journey Optimizer이 일부 기본 프로필별 매개 변수를 동의 업데이트 이벤트에 추가합니다. 이제 구독 취소 이메일 주소의 개인화 수준을 더욱 높이기 위해 동의 이벤트에 추가할 사용자 정의 속성을 지정할 수 있습니다. 이 기능은 2025년 8월 이후 사용자 정의 원클릭 구독 취소 URL에 이미 사용할 수 있었으며 이제 제한된 가용성의 Mailto(구독 취소) 옵션에 대해 릴리스되었습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오. <!-- [Read more](../FILE.md) -->
+**새로운 여정 경고**
 
-- **채널 - 이메일**
-   - **전자 메일에 대한 PDF 첨부 파일** - 사용 가능한 날짜: 2025년 9월 30일
-이제 Journey Optimizer으로 보낸 이메일 메시지에 정적 PDF 파일을 첨부할 수 있습니다. 프로필당 연간 최대 6개의 PDF 첨부 파일이 있는 메시지를 보낼 수 있습니다. 각 첨부 파일의 최대 허용 파일 크기는 5MB입니다. 추가 크기나 볼륨에 대해서는 PDF 첨부 파일 추가 기능을 구입할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
+여정에 대해 미리 구성된 새 경고를 사용할 수 있습니다. [프로필 삭제 비율 초과](../reports/alerts.md#alert-discard-rate)(지난 5분 동안 입력한 프로필에 대한 프로필 삭제 비율 임계값 초과), [사용자 지정 작업 오류 비율 초과](../reports/alerts.md#alert-custom-action-error-rate)(지난 5분 동안 성공한 HTTP 호출에 대한 사용자 지정 작업 오류 비율 초과), [프로필 오류 비율 초과](../reports/alerts.md#alert-profile-error-rate)(지난 5분 동안 입력한 프로필에 대한 프로필 오류 비율 초과). 임계값을 수정하고 개별 여정 수준에서 경고를 받거나 전체적으로 구독할 수 있습니다.
 
-  >[!AVAILABILITY]
-  >
-  >이전에 제한된 가용성으로 릴리스된 이번 개선 사항은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).
+사용 가능한 날짜: 2025년 10월 14일
 
-  <!-- [Read more](../FILE.md) -->
+**Mailto(구독 취소) 주소에 대한 사용자 지정 특성 지원**
 
+Journey Optimizer을 사용하여 Adobe 외부에서 동의를 관리하는 경우 이메일 구성에서 사용자 지정 구독 취소 이메일 주소와 원클릭 구독 취소 링크를 정의하여 외부 사용자 지정 엔드포인트를 설정할 수 있습니다. 수신자가 구독 취소 링크를 클릭하면 Journey Optimizer는 기본 프로필별 매개 변수 몇 가지를 동의 업데이트 이벤트에 추가합니다.
+
+이제 사용자 지정 끝점을 추가로 개인화하기 위해 동의 이벤트에도 추가될 사용자 지정 특성을 정의할 수 있습니다. [자세히 보기](../email/list-unsubscribe.md#custom-attributes)
+
+>[!AVAILABILITY]
+>
+>이 기능은 2025년 8월 이후 사용자 지정 **[!UICONTROL 한 번의 클릭으로 구독 취소 URL]**&#x200B;에 이미 사용할 수 있으며, 이제 [제한된 가용성]의 **[!UICONTROL Mailto(구독 취소)]** 옵션에 대해 릴리스되었습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.
+
+사용 가능한 날짜: 2025년 10월 6일
