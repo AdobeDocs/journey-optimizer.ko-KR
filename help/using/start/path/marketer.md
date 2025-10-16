@@ -2,21 +2,21 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 마케터를 위한 Journey Optimizer 시작
-description: 여정 실무자로서 Journey Optimizer를 사용하여 작업하는 방법에 대해 자세히 알아보십시오
+description: 여정 전문가의 경우 Journey Optimizer 작업 방법에 대해 자세히 알아보십시오
 level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
 workflow-type: tm+mt
 source-wordcount: '466'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # 마케터를 위한 시작 {#get-started-marketers}
 
-**마케터**&#x200B;로서 또는 **여정 실무자**&#x200B;로서, 오퍼 및 여정을 만들고 컨텐츠를 디자인할 책임이 있습니다. [시스템 관리자](administrator.md) 및 [데이터 엔지니어](data-engineer.md)에 액세스 권한을 부여하고 환경을 준비하면 [!DNL Adobe Journey Optimizer] (으)로 작업을 시작할 수 있습니다.
+**마케터** 또는 **여정 실무자**&#x200B;로서, 오퍼 및 여정을 만들고 콘텐츠를 디자인할 책임이 있습니다. [시스템 관리자](administrator.md) 및 [데이터 엔지니어](data-engineer.md)에 액세스 권한을 부여하고 환경을 준비하면 [!DNL Adobe Journey Optimizer] (으)로 작업을 시작할 수 있습니다.
 
 첫 번째 여정을 설정하고 오퍼 및 자산을 추가하고 메시지를 보내려면 다음 섹션을 참조하십시오:
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 1. **고객 여정 설계**&#x200B;를 통해 개인화된 컨텍스트 기반의 경험을 제공할 수 있습니다. [!DNL Journey Optimizer]을(를) 사용하면 이벤트 또는 데이터 소스에 저장된 상황별 데이터를 활용하여 실시간 오케스트레이션 사용 사례를 구축할 수 있습니다. 다음 기능을 통해 여러 단계로 구성된 고급 시나리오를 설계할 수 있습니다.
 
-   * 이벤트 수신 시 트리거되는 실시간 **단일 게재**&#x200B;를 보내거나 Adobe Experience Platform 대상자를 사용하여 **일괄적으로** 게재를 보냅니다.
+   * 이벤트 수신 시 트리거되는 실시간 **단일 게재**&#x200B;를 보내거나 Adobe Experience Platform 대상자를 사용하여 **일괄** 게재를 보냅니다.
 
    * 이벤트의 **컨텍스트 기반 데이터**, Adobe Experience Platform의 정보 또는 서드파티 API 서비스의 데이터를 활용합니다.
 

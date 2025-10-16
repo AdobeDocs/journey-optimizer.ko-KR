@@ -9,16 +9,16 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 5bc1a3a3e41d50890237fbc431bffab921d7d19f
+source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
 workflow-type: tm+mt
 source-wordcount: '2823'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
 # 가드레일 및 제한 사항 {#limitations}
 
-[!DNL Adobe Journey Optimizer] 사용 시 다음과 같은 추가 가드레일 및 제한 사항이 있습니다.
+[!DNL Adobe Journey Optimizer]을(를) 사용할 때 추가 보호 기능 및 제한 사항이 있습니다.
 
 자격, 제품 제한 사항, 성능 가드레일 목록은 [Adobe Journey Optimizer 제품 설명 페이지](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}에서 확인하실 수 있습니다.
 

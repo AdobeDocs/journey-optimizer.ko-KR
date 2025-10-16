@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
-source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
+source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
 workflow-type: tm+mt
 source-wordcount: '343'
-ht-degree: 47%
+ht-degree: 41%
 
 ---
 
@@ -56,7 +56,7 @@ Adobe Journey Optimizer에서는 다음 사용 사례에 액세스할 수 있습
 
 ![](assets/do-not-localize/ai-assistant-ask.png){width="30%" align="left"}
 
-답변을 확인하고 **출처 보기** 버튼을 클릭하면 제품 설명서로 직접 연결되는 링크를 받아 자세한 정보를 확인할 수 있습니다.
+답변을 확인하고 **소스 표시** 단추를 사용하여 제품 설명서에 직접 연결하고 자세히 알아보십시오.
 
 ![](assets/do-not-localize/ai-assistant-answer.png){width="30%" align="left"}
 
