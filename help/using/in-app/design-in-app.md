@@ -259,7 +259,7 @@ ht-degree: 26%
 **관련 항목:**
 
 * [인앱 메시지 만들기](create-in-app.md)
-* [인앱 보고서 ](../reports/campaign-global-report-cja-inapp.md)
+* [인앱 보고서 &#x200B;](../reports/campaign-global-report-cja-inapp.md)
 * [인앱 구성](inapp-configuration.md)
 
 ## 사용 방법 비디오{#video}
