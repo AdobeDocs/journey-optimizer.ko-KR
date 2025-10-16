@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 keywords: 캠페인, API 트리거, REST, 최적화 도구, 메시지
 exl-id: b7f12c65-c1af-4c49-b126-c13a51940a43
-source-git-commit: 45c95d5682b35c8afb161b75c88942c010b36d1c
+source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 2%
@@ -49,7 +49,7 @@ ht-degree: 2%
 
 **읽어야 함**
 
-* 요청에 전달된 컨텍스트 속성은 200kb를 초과할 수 없으며 항상 유형 문자열을 고려합니다.
+* 요청에 전달된 컨텍스트 속성은 200kb를 초과할 수 없으며 항상 유형 문자열로 간주됩니다.
 * `context.system` 구문은 Adobe 내부 사용으로만 제한되며 컨텍스트 특성을 전달하는 데 사용해서는 안 됩니다.
 * 프로필 활성화 이벤트와 달리 REST API에서 전달된 컨텍스트 데이터는 일회성 통신에 사용되며 프로필에 대해 저장되지 않습니다. 네임스페이스가 누락된 경우 최대 네임스페이스 세부 정보로 프로필이 만들어집니다.
 * 콘텐츠에 수많은 상황별 데이터 또는 방대한 컨텍스트 데이터를 사용하면 성능에 영향을 줄 수 있습니다.

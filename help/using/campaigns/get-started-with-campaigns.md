@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 캠페인, 방법 , 시작, Optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 801b90201c3ffcbfb7b038abac2bf99209a14c7a
+source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
 workflow-type: tm+mt
 source-wordcount: '956'
-ht-degree: 60%
+ht-degree: 58%
 
 ---
 
@@ -115,7 +115,7 @@ ht-degree: 60%
 
 >[!TAB API 트리거 캠페인]
 
-**API 트리거 캠페인**&#x200B;을(를) 사용하면 API 호출을 사용하여 캠페인 실행을 트리거할 수 있습니다. 이러한 커뮤니케이션은 필요한 경우 프로필 속성을 재설정하는 암호뿐만 아니라 REST API 페이로드인 트리거에 있는 실시간 컨텍스트 데이터를 사용하여 개인화할 수 있는 위치에 보낼 수 있습니다.
+**API 트리거 캠페인**&#x200B;을(를) 사용하면 API 호출을 사용하여 캠페인 실행을 트리거할 수 있습니다. 이러한 커뮤니케이션은 암호 재설정 프로필 속성뿐만 아니라 REST API 페이로드인 트리거의 실시간 컨텍스트 데이터를 통해 필요에 따라 개인화할 수 있는 경우 전송될 수 있습니다.
 
 * **API가 트리거됨 - 마케팅** - 개인화된 마케팅 커뮤니케이션을 타깃팅된 대상자에게 보냅니다.
 * **API 트리거됨 - 트랜잭션** - 암호 재설정 요청, 장바구니 구매 등과 같이 개인이 수행한 작업에 따라 메시지를 보냅니다.
@@ -162,9 +162,9 @@ ht-degree: 60%
 
    1. [!DNL Permissions] 제품에서 사용자에게 역할을 할당하려면 **[!UICONTROL 역할]** 탭으로 이동하여 위에 설명된 기본 제공 캠페인 관련 **[!UICONTROL 역할]** 중 하나를 선택하십시오.
 
-   1. **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
+   1.  **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
 
-   1. 사용자 이름 또는 이메일 주소를 입력하거나 목록에서 사용자를 선택하고 **[!UICONTROL 저장]**&#x200B;합니다.
+   1. 사용자 이름 또는 전자 메일 주소를 입력하거나 목록에서 사용자를 선택하고 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
       이전에 사용자를 생성하지 않은 경우 [사용자 설명서 추가](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/ui/users)를 참조하십시오.
 

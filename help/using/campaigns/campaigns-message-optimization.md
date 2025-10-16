@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 keywords: 캠페인 최적화, 실험, 타겟팅, A/B 테스트
 exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
-source-git-commit: 1c47c89ae86844399240d48c4d19f834d90c7598
+source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
 workflow-type: tm+mt
 source-wordcount: '1088'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 10%
 
    ![](assets/msg-optimization-create-targeting.png){width=85%}
 
-1. 필요에 따라 **[!UICONTROL 대체 콘텐츠 사용]** 옵션을 선택하십시오. 대체 콘텐츠 를 사용하면 타깃팅 규칙이 적격하지 않을 때 대상자가 기본 콘텐츠를 받을 수 있습니다.
+1. 필요에 따라 **[!UICONTROL 대체 콘텐츠 사용]** 옵션을 선택하십시오. 대체 콘텐츠를 사용하면 타기팅 규칙을 충족하지 않는 대상자가 기본 콘텐츠를 받을 수 있습니다.
 
    >[!NOTE]
    >
@@ -90,7 +90,7 @@ ht-degree: 10%
 
 1. 여정 또는 캠페인을 [활성화](review-activate-campaign.md)합니다.
 
-여정/캠페인이 라이브되면 미국 거주자는 특정 메시지를, 프랑스 거주자는 다른 메시지를 얻을 수 있도록 타겟팅한 각 콘텐츠에 맞는 콘텐츠가 전송됩니다.
+여정/캠페인이 라이브되면 미국 거주자는 특정 메시지를, 프랑스 거주자는 다른 메시지를 얻을 수 있도록 각 대상에 맞게 조정된 콘텐츠가 전송됩니다.
 
 <!--Default content:
 
@@ -186,4 +186,4 @@ E.g. explaining how a marketer can look at the report to determine which treatme
 
 작업 또는 API 트리거 캠페인에서 메시지 최적화를 활용하는 방법을 알아봅니다. 하위 대상자를 타기팅하고, 위치별 메시지 베리에이션을 만들고, 대체 콘텐츠를 활성화하고, 단일 캠페인 내에서 여러 실험을 실행하는 방법을 알 수 있습니다. 이 튜토리얼에서는 메시지 일관성을 유지하면서 멀티채널 캠페인을 관리하는 방법도 다룹니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3470375?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)
