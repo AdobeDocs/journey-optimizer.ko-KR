@@ -8,10 +8,10 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: faf6e63e3951b67997836107ae518b294526206b
+source-git-commit: efae7f7d366690af71430bb9eb62523d1881c50e
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 10%
+source-wordcount: '649'
+ht-degree: 9%
 
 ---
 
@@ -57,7 +57,7 @@ journeyStepEvent의 경우 ID와 관련된 필드도 추가해야 합니다.
 
 ## 서비스 이벤트 {#servicevents-field}
 
-이 mixin에는 프로필 내보내기 작업에 해당하는 모든 필드가 포함되어 있습니다.
+이 mixin에는 프로필 내보내기 작업에 해당하는 모든 필드가 포함되어 있습니다. 이러한 이벤트는 대상 내보내기 작업(대기 중, 시작, 완료, 오류)의 라이프사이클을 추적하기 위해 **대상 읽기** 활동별로 생성됩니다. 일반적인 단계 이벤트와 달리 serviceEvents는 개별 프로필에 연결되지 않고 대상 읽기 노드 자체에 연결되므로 연결된 프로필 식별자가 없을 수 있습니다.
 
 | 필드 이름 | 유형 | 설명 |
 |---|---|------------|
@@ -70,7 +70,7 @@ journeyStepEvent의 경우 ID와 관련된 필드도 추가해야 합니다.
 | eventType | 문자열 | 오류 이벤트인지 정보 이벤트인지를 나타내는 이벤트 유형: 정보, 오류 |
 | eventCode | 문자열 | 해당 eventType의 이유를 나타내는 오류 코드 |
 
-이 섹션[에서 eventTypes &#x200B;](#discarded-events)에 대해 자세히 알아보세요.
+이 섹션[에서 eventTypes ](#discarded-events)에 대해 자세히 알아보세요.
 
 ## stepEvent {#stepevents-field}
 

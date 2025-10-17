@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 활동, 여정, 읽기, 대상, 플랫폼
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
-source-git-commit: de338bcbd73b94ac004ee39106e50fe707afb19a
+source-git-commit: efae7f7d366690af71430bb9eb62523d1881c50e
 workflow-type: tm+mt
-source-wordcount: '2400'
+source-wordcount: '2450'
 ht-degree: 13%
 
 ---
@@ -31,6 +31,10 @@ ht-degree: 13%
 [대상자 빌드](../audience/about-audiences.md) 사용 사례에서 만든 &quot;Luma 앱 열기 및 체크 아웃&quot; 대상을 예로 들어 보겠습니다. 대상자 읽기 활동을 사용하면 이 대상자에 속하는 모든 개인에게 여정을 입력하고 조건, 타이머, 이벤트, 작업과 같은 모든 여정 기능을 활용하는 개별화된 여정으로 흐르도록 할 수 있습니다.
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
+
+>[!NOTE]
+>
+>대상 읽기 활동이 실행되면 시스템은 대상 내보내기 작업의 라이프사이클을 추적하기 위해 내부 이벤트(`segmentExportJob` 이벤트)를 생성합니다. 이러한 이벤트는 개별 프로필이 아닌 활동 수준에서 기록되며 모니터링 및 문제 해결을 위해 쿼리할 수 있습니다. [대상자 읽기 이벤트 쿼리](../reports/query-examples.md#read-segment-queries)에 대해 자세히 알아보세요.
 
 >[!CAUTION]
 >
@@ -52,7 +56,7 @@ ht-degree: 13%
 
    >[!NOTE]
    >
-   >또한 [대상 구성](../audience/get-started-audience-orchestration.md) 또는 [CSV 파일에서 업로드한](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko#import-audience){target="_blank"}을 사용하여 만든 Adobe Experience Platform 대상을 타깃팅할 수도 있습니다.
+   >또한 [대상 구성](../audience/get-started-audience-orchestration.md) 또는 [CSV 파일에서 업로드한](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}을 사용하여 만든 Adobe Experience Platform 대상을 타깃팅할 수도 있습니다.
 
    목록에 표시되는 열을 사용자 정의하고 정렬할 수 있습니다.
 
@@ -66,7 +70,7 @@ ht-degree: 13%
 
    >[!NOTE]
    >
-   >대상자 참가 상태가 **실현됨**&#x200B;인 개인만 여정에 들어갑니다. 대상자를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ko#interpret-segment-results){target="_blank"}를 참조하세요.
+   >대상자 참가 상태가 **실현됨**&#x200B;인 개인만 여정에 들어갑니다. 대상자를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}를 참조하세요.
 
 1. **[!UICONTROL 네임스페이스]** 필드에서 개인을 식별하기 위해 사용할 네임스페이스를 선택합니다. 기본적으로 필드는 마지막으로 사용된 네임스페이스로 미리 채워집니다. [네임스페이스에 대해 자세히 알아보기](../event/about-creating.md#select-the-namespace).
 
@@ -86,7 +90,7 @@ ht-degree: 13%
 
 * 가장 좋은 방법은 **대상자 읽기** 활동에서만 일괄 대상자를 사용하는 것입니다. 이렇게 하면 여정에 사용된 대상자에 대해 안정적이고 일관된 카운트를 제공합니다. 대상자 읽기는 일괄 사용 사례용으로 설계되었습니다. 사용 사례에 실시간 데이터가 필요한 경우 **[대상 자격](audience-qualification-events.md)** 활동을 사용하십시오.
 
-* CSV 파일에서 가져온 대상 [개](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko#import-audience) 또는 [컴포지션 워크플로](../audience/get-started-audience-orchestration.md)의 결과로 가져온 대상은 **대상 읽기** 활동에서 선택할 수 있습니다. 이러한 대상은 **대상 자격** 활동에서 사용할 수 없습니다.
+* CSV 파일에서 가져온 대상 [개](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) 또는 [컴포지션 워크플로](../audience/get-started-audience-orchestration.md)의 결과로 가져온 대상은 **대상 읽기** 활동에서 선택할 수 있습니다. 이러한 대상은 **대상 자격** 활동에서 사용할 수 없습니다.
 
 * 조직당 동시 읽기 대상 제한: 각 조직은 최대 5개의 읽기 대상 인스턴스를 동시에 실행할 수 있습니다. 여기에는 모든 샌드박스 및 여정에서 예약된 실행과 비즈니스 이벤트에 의해 트리거된 실행이 모두 포함됩니다. 이 제한은 모든 조직에서 공정하고 균형 잡힌 리소스 할당을 보장하기 위해 시행됩니다.
 
@@ -301,6 +305,6 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 ## 방법 비디오 {#video}
 
-대상자 읽기 활동으로 트리거되는 여정에 적용할 수 있는 사용 사례를 이해합니다. 일괄 처리 단위 기반 여정을 작성하는 방법과 상황에 따라 적용할 모범 사례를 알아봅니다.
+대상자 읽기 활동으로 트리거되는 여정에 적용할 수 있는 사용 사례를 이해합니다. 배치 기반 여정을 작성하는 방법과 적용할 모범 사례를 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430365?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)
