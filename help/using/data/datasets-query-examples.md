@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 데이터 세트, 최적화 도구, 사용 사례
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 90b8f69f3849418eaec1b65b14e0362980c43e9a
+source-git-commit: f1a00e734f22cb660e442ebe8c0dde3468e29768
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '1066'
 ht-degree: 2%
 
 ---
@@ -175,6 +175,10 @@ ORDER BY timestamp DESC;
 여기서 날짜 형식은 `YYYY-MM-DD HH:MM:SS`입니다.
 
 식별되면 Journey Optimizer 제외 목록에서 해당 주소를 제거합니다. [자세히 알아보기](../configuration/manage-suppression-list.md#remove-from-suppression-list).
+
+>[!NOTE]
+>
+>메시지 피드백 이벤트 데이터 세트에서 identityMap을 참조할 때는 런타임 시 사용된 ID만 반영한다는 점을 유의하십시오. 푸시 알림의 경우 &#39;전송됨&#39; 이벤트는 이 알림을 전송하는 데 사용되는 푸시 토큰에 연결된 ECID에만 의존하고 &#39;제외&#39; 이벤트는 사용자 지정 ID에 의존할 수 있습니다. 예를 들어 푸시 토큰을 찾을 수 없어서 프로필이 제외된 경우 여정 또는 작업 캠페인 수준에서 사용되는 ID가 선택되어 이 이벤트를 등록합니다. 추가 네임스페이스(예: 사용자 지정 ID)가 필요한 경우 이러한 피드백 레코드를 프로필 관련 데이터 세트(예: profile_snapshot one)로 연결하여 전체 ID 목록을 검색합니다.
 
 
 
