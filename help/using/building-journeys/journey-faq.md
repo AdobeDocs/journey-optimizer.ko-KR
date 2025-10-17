@@ -11,9 +11,9 @@ keywords: 여정, 질문, 답변, 문제 해결, 도움말, 안내서
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 32848633cdfb5683b45286fcdd22711a82d591b5
+source-git-commit: d55aff6dd3773ad59ab45d2b6d7ced7b9a64de5d
 workflow-type: tm+mt
-source-wordcount: '4094'
+source-wordcount: '4189'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 Adobe Journey Optimizer 여정에 대한 FAQ는 다음과 같습니다.
 
-세부 정보가 필요하십니까? 이 페이지 하단의 피드백 옵션을 사용하여 질문을 제기하거나 [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"}에 연결하세요.
+세부 정보가 필요하십니까? 이 페이지 하단의 피드백 옵션을 사용하여 질문을 제기하거나 [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}에 연결하세요.
 
 ## 일반 개념
 
@@ -37,10 +37,11 @@ Adobe Journey Optimizer 여정에 대한 FAQ는 다음과 같습니다.
 
 +++ 다양한 유형의 여정은 무엇입니까?
 
-Adobe Journey Optimizer은 세 가지 유형의 여정을 지원합니다.
+Adobe Journey Optimizer은 네 가지 유형의 여정을 지원합니다.
 
 * **단일 여정**: 이벤트(예: 구매, 앱 로그인)에 의해 개별적으로 트리거됩니다. 프로필은 이벤트가 발생할 때 한 번에 하나씩 여정을 입력합니다.
 * **대상 여정 읽기**: Adobe Experience Platform의 대상으로 시작하여 해당 대상의 모든 프로필에 메시지를 일괄적으로 보냅니다.
+* **대상 자격 여정**: 프로필이 특정 대상 세그먼트에 대해 자격이 되거나 종료되는 경우 트리거됩니다. 프로필은 대상자 기준을 충족하면 여정을 입력합니다.
 * **비즈니스 이벤트 여정**: 여러 프로필에 동시에 영향을 주는 비즈니스 이벤트(예: 재고 업데이트, 날씨 알림)에 의해 트리거됩니다.
 
 [여정 유형](entry-management.md#types-of-journeys)에 대해 자세히 알아보세요.
@@ -51,9 +52,13 @@ Adobe Journey Optimizer은 세 가지 유형의 여정을 지원합니다.
 
 **여정**&#x200B;은(는) 이벤트 또는 대상 대상에 반응하는 여러 단계 오케스트레이션이며, 고객 라이프사이클에서 복잡한 논리, 조건, 대기 시간 및 여러 접점을 허용합니다.
 
-**캠페인**&#x200B;은(는) 특정 대상자에게 보내는 일회성 또는 반복 커뮤니케이션이며, 프로모션 공지 또는 뉴스레터와 같은 독립 실행형 메시지에 이상적입니다.
+**캠페인**&#x200B;은(는) 다음 세 가지 유형으로 제공됩니다.
 
-**모범 사례**: 진행 중인 여러 단계 참여에 여정을 사용하고 타기팅된 독립 실행형 커뮤니케이션에 캠페인을 사용하십시오.
+* **작업 캠페인**: 특정 대상자에게 보내는 일회성 또는 반복 커뮤니케이션으로, 프로모션 공지 또는 뉴스레터와 같은 독립 실행형 메시지에 이상적입니다.
+* **API 트리거 캠페인**: API 호출을 통해 트리거된 캠페인으로, 외부 시스템과 통합하여 실시간 이벤트 또는 비즈니스 논리를 기반으로 메시지를 보낼 수 있습니다.
+* **오케스트레이션된 캠페인**: 조건, 대기 시간 및 여러 작업을 포함하여 일정하고 조정된 경험을 만들 수 있는 캔버스에 다단계 대상자 기반 캠페인을 빌드했습니다.
+
+**우수 사례**: 고급 오케스트레이션을 사용한 복잡한 이벤트 트리거 참여, 예약된 대상 기반 커뮤니케이션에 대한 작업 캠페인, 외부 시스템에서 프로그래밍 방식 트리거에 대한 API 트리거 캠페인, 캠페인별 요구 사항을 갖춘 다단계 커뮤니케이션에 대한 오케스트레이션된 캠페인에 여정을 사용합니다.
 
 +++
 
