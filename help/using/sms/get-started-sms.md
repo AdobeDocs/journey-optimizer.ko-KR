@@ -201,7 +201,7 @@ SMS를 고객 여정 및 캠페인에 통합하는 방법을 알아봅니다.
 
 +++비디오 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3422697?captions=kor&learn=on)
 
 +++
 
@@ -211,7 +211,7 @@ Adobe Journey Optimizer이 마케터에게 제공하는 포괄적인 모바일 �
 
 +++비디오 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3430374?captions=kor&quality=12&learn=on)
 
 +++
 
@@ -221,7 +221,7 @@ Adobe Journey Optimizer이 마케터에게 제공하는 포괄적인 모바일 �
 
 +++비디오 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3464755)
+>[!VIDEO](https://video.tv.adobe.com/v/3464762?captions=kor)
 
 +++
 
