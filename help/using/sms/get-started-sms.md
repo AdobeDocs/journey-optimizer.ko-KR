@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: 0a9c36b75f7433eadbc8894fb7252a8f846c78b2
+source-git-commit: 13552b3731a20fc9ca2d93a18c0a2c9fdf9378fa
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 29%
+source-wordcount: '812'
+ht-degree: 27%
 
 ---
 
@@ -132,40 +132,66 @@ Adobe Journey Optimizer은 주요 SMS 서비스 공급자와 통합됩니다.
 
 ## 추가 리소스 {#additional-resources}
 
-**구성 가이드**
+Journey Optimizer의 텍스트 메시지에 대한 자세한 내용은 아래 항목을 참조하십시오.
+
++++구성 안내서
+
+SMS 환경을 설정하고 구성하는 방법을 알아봅니다.
 
 * [SMS 채널 구성 개요](sms-configuration.md)
 * [SMS 채널 구성 만들기](sms-configuration-surface.md)
 * [URL 단축에 대한 SMS 하위 도메인 구성](sms-subdomains.md)
 
-**공급자 설치 가이드**
++++
+
++++공급자 설정 안내서
+
+각 SMS 서비스 공급자에 대한 단계별 구성:
 
 * [Sinch 공급자 구성](sms-configuration-sinch.md)
 * [Twilio 공급자 구성](sms-configuration-twilio.md)
 * [Infobip 공급자 구성](sms-configuration-infobip.md)
 * [사용자 지정 SMS 공급자 구성](sms-configuration-custom.md)
 
-**콘텐츠 만들기 및 관리**
++++
+
++++콘텐츠 제작 및 관리
+
+문자 메시지 콘텐츠를 만들고, 개인화하고, 관리합니다.
 
 * [SMS/MMS 메시지 만들기](create-sms.md)
 * [메시지 미리 보기, 테스트 및 보내기](send-sms.md)
 * [텍스트 메시지의 Personalization](../personalization/personalize.md)
 * [다이내믹 콘텐츠](../personalization/get-started-dynamic-content.md)
 
-**규정 준수 및 개인 정보**
++++
+
++++규정 준수 및 개인정보 보호
+
+문자 메시지가 규정 및 개인 정보 보호 표준을 준수하는지 확인합니다.
 
 * [옵트아웃 관리](sms-opt-out.md)
 * [개인 정보 보호 및 동의](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
 
-**성능 추적**
++++
+
++++성능 추적
+
+SMS 캠페인 및 여정 성과 모니터링 및 분석:
 
 * [SMS 캠페인 보고서](../reports/campaign-global-report-cja-sms.md)
 * [SMS 여정 보고서](../reports/journey-global-report-cja-sms.md)
 
-**여정 및 캠페인 통합**
++++
+
++++여정 및 캠페인 통합
+
+SMS를 고객 여정 및 캠페인에 통합하는 방법을 알아봅니다.
 
 * [여정에 SMS 메시지 추가](../building-journeys/journeys-message.md)
 * [SMS 캠페인 만들기](../campaigns/create-campaign.md)
+
++++
 
 ## 방법 비디오 {#videos}
 
@@ -175,7 +201,7 @@ Adobe Journey Optimizer은 주요 SMS 서비스 공급자와 통합됩니다.
 
 +++비디오 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3422697?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
@@ -185,7 +211,7 @@ Adobe Journey Optimizer이 마케터에게 제공하는 포괄적인 모바일 �
 
 +++비디오 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3430374?captions=kor&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
 +++
 
@@ -195,7 +221,7 @@ Adobe Journey Optimizer이 마케터에게 제공하는 포괄적인 모바일 �
 
 +++비디오 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3464762?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
 +++
 
