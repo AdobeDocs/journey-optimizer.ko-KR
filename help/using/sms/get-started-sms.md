@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: 13552b3731a20fc9ca2d93a18c0a2c9fdf9378fa
+source-git-commit: 243d4e74c15057bc4bd334876a1bc87969d396e0
 workflow-type: tm+mt
 source-wordcount: '812'
 ht-degree: 27%
@@ -106,7 +106,7 @@ Adobe Journey Optimizer은 주요 SMS 서비스 공급자와 통합됩니다.
 <a href="create-sms.md">
 <img alt="리드" src="../assets/do-not-localize/sms-create.jpeg">
 </a>
-<div><a href="create-sms.md"><strong>문자 메시지 만들기</strong>
+<div><a href="create-sms.md"><strong>문자 메시지 만들기</strong></a>
 </div>
 <p>SMS, MMS 또는 RCS 콘텐츠 디자인 및 개인화</p>
 </td>
@@ -201,7 +201,7 @@ SMS를 고객 여정 및 캠페인에 통합하는 방법을 알아봅니다.
 
 +++비디오 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3422697?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
@@ -211,7 +211,7 @@ Adobe Journey Optimizer이 마케터에게 제공하는 포괄적인 모바일 �
 
 +++비디오 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3430374?captions=kor&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
 +++
 
@@ -221,7 +221,7 @@ Adobe Journey Optimizer이 마케터에게 제공하는 포괄적인 모바일 �
 
 +++비디오 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3464762?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
 +++
 
