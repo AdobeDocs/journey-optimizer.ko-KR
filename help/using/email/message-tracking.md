@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 링크, 추적, 모니터링, 이메일
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 65a6afddfbc53afb88c6e69449720ac67f8f8f39
+source-git-commit: b1a16fa6c194d2bd352c4c287bc96d56ced122ba
 workflow-type: tm+mt
-source-wordcount: '1274'
-ht-degree: 28%
+source-wordcount: '1344'
+ht-degree: 27%
 
 ---
 
@@ -114,6 +114,8 @@ Adobe Journey Optimizer에서 생성한 미러 페이지에는 모든 개인화 
 >[!CAUTION]
 >
 >* 미러 페이지 링크는 자동 생성되며 편집할 수 없습니다. 여기에는 원본 이메일을 렌더링하는 데 필요한 모든 암호화 및 개인화된 데이터가 포함되어 있습니다. 따라서 값이 큰 개인화된 속성을 사용하면 미러 페이지 URL이 길어질 수 있으며 이로 인해 최대 URL 길이 제한이 있는 웹 브라우저에서 링크가 작동하지 않을 수 있습니다.
+>
+>* 런타임 개인화에 크게 의존하는 전자 메일(예: `#each` 루프, 중첩된 오브젝트, 큰 페이로드 데이터)을 만들 때 특히 페이로드의 광범위한 컨텍스트 데이터를 사용하는 API 트리거 캠페인에서 미러 페이지 URL이 과도하게 커질 수 있습니다. 이로 인해 브라우저나 메일 클라이언트에서 HTTP 오류(404, 422, 502)가 발생할 수 있습니다. Adobe에서는 동적 필드의 폭과 깊이를 제한하고, 복잡한 조각에 대한 의존도를 줄이며, 링크 실패를 방지하기 위해 개인화 구조를 병합할 것을 권장합니다.
 >
 >* 테스트 프로필로 보낸 [증명](../content-management/proofs.md)에서 미러 페이지 링크가 활성화되지 않았습니다. 최종 메시지에서만 활성화됩니다.
 
