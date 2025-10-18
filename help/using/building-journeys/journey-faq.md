@@ -11,7 +11,7 @@ keywords: 여정, 질문, 답변, 문제 해결, 도움말, 안내서
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 31da84ab3fe4edabaf49f7b078ef0b2fdae3f6c5
+source-git-commit: b53080c5a4100c66b91fe10f156a18e932a5e68b
 workflow-type: tm+mt
 source-wordcount: '4446'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 Adobe Journey Optimizer 여정에 대한 FAQ는 다음과 같습니다.
 
-세부 정보가 필요하십니까? 이 페이지 하단의 피드백 옵션을 사용하여 질문을 제기하거나 [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"}에 연결하세요.
+세부 정보가 필요하십니까? 이 페이지 하단의 피드백 옵션을 사용하여 질문을 제기하거나 [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}에 연결하세요.
 
 ## 일반 개념
 
@@ -50,15 +50,15 @@ Adobe Journey Optimizer은 네 가지 유형의 여정을 지원합니다.
 
 +++ 여정과 캠페인의 차이점은 무엇입니까?
 
-**여정**&#x200B;은(는) 이벤트 또는 대상 대상에 반응하는 여러 단계 오케스트레이션이며, 고객 라이프사이클에서 복잡한 논리, 조건, 대기 시간 및 여러 접점을 허용합니다.
+**[여정](journey.md)**&#x200B;은(는) 이벤트 또는 대상 대상에 반응하는 여러 단계 오케스트레이션이며, 고객 라이프사이클에서 복잡한 논리, 조건, 대기 시간 및 여러 접점을 허용합니다.
 
-**캠페인**&#x200B;은(는) 다음 세 가지 유형으로 제공됩니다.
+**[캠페인](../campaigns/get-started-with-campaigns.md)**&#x200B;은(는) 다음 세 가지 유형으로 제공됩니다.
 
-* **작업 캠페인**: 특정 대상자에게 보내는 일회성 또는 반복 커뮤니케이션으로, 프로모션 공지 또는 뉴스레터와 같은 독립 실행형 메시지에 이상적입니다.
-* **API 트리거 캠페인**: API 호출을 통해 트리거된 캠페인으로, 외부 시스템과 통합하여 실시간 이벤트 또는 비즈니스 논리를 기반으로 메시지를 보낼 수 있습니다.
-* **오케스트레이션된 캠페인**: 조건, 대기 시간 및 여러 작업을 포함하여 일정하고 조정된 경험을 만들 수 있는 캔버스에 다단계 대상자 기반 캠페인을 빌드했습니다.
+* **[작업 캠페인](../campaigns/create-campaign.md)**: 특정 대상자에게 보내는 일회성 또는 반복 커뮤니케이션으로, 프로모션 공지 또는 뉴스레터와 같은 독립 실행형 메시지에 이상적입니다.
+* **[API 트리거 캠페인](../campaigns/api-triggered-campaigns.md)**: API 호출을 통해 트리거된 캠페인으로, 외부 시스템과 통합하여 실시간 이벤트 또는 비즈니스 논리를 기반으로 메시지를 보낼 수 있습니다.
+* **[오케스트레이션된 캠페인](../orchestrated/get-started-orchestrated.md)**: 조건, 대기 시간 및 여러 작업을 포함하여 일정하고 조정된 경험을 만들 수 있는 캔버스에 다단계 대상자 기반 캠페인을 빌드했습니다.
 
-**우수 사례**: 고급 오케스트레이션을 사용한 복잡한 이벤트 트리거 참여, 예약된 대상 기반 커뮤니케이션에 대한 작업 캠페인, 외부 시스템에서 프로그래밍 방식 트리거에 대한 API 트리거 캠페인, 캠페인별 요구 사항을 갖춘 다단계 커뮤니케이션에 대한 오케스트레이션된 캠페인에 여정을 사용합니다.
+**우수 사례**: 고급 오케스트레이션을 사용한 복잡한 이벤트 트리거 참여에는 [여정](journey.md), 예약된 대상 기반 커뮤니케이션에는 [작업 캠페인](../campaigns/create-campaign.md), 외부 시스템에서 프로그래밍 방식 트리거에는 [API 트리거 캠페인](../campaigns/api-triggered-campaigns.md), 캠페인별 요구 사항이 있는 다단계 커뮤니케이션에는 [오케스트레이션된 캠페인](../orchestrated/get-started-orchestrated.md)을 사용합니다.
 
 +++
 
