@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 keywords: 콘텐츠, 디자인, 이메일, 푸시, sms, 개인화, 템플릿
-source-git-commit: ef12790e3199457d94c2c7d56c60bb9571921f77
+source-git-commit: 945f684f4ad30da38907ff967692a3d359f56bf0
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 2%
@@ -25,7 +25,7 @@ Adobe Journey Optimizer의 메시지 콘텐츠를 디자인하면 모든 채널�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/email.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 이메일 콘텐츠 디자인
 
@@ -35,7 +35,7 @@ Adobe Journey Optimizer의 메시지 콘텐츠를 디자인하면 모든 채널�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg)
 
 푸시 알림 디자인
 
@@ -45,7 +45,7 @@ iOS 및 Android에 대한 매력적인 푸시 알림을 만들고, 제목 및 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chat.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 SMS 및 MMS 메시지 디자인
 
@@ -55,7 +55,7 @@ SMS를 사용하여 개인화된 텍스트 메시지를 작성하고, MMS를 사
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/device-mobile.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 인앱 메시지 디자인
 
@@ -65,7 +65,7 @@ SMS를 사용하여 개인화된 텍스트 메시지를 작성하고, MMS를 사
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/personalization.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 콘텐츠 개인화
 
@@ -75,7 +75,7 @@ SMS를 사용하여 개인화된 텍스트 메시지를 작성하고, MMS를 사
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/duplicate.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 템플릿 및 조각 사용
 
