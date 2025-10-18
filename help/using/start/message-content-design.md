@@ -35,7 +35,7 @@ Adobe Journey Optimizer의 메시지 콘텐츠를 디자인하면 모든 채널�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=ko)
 
 푸시 알림 디자인
 
