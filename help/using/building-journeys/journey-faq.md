@@ -11,7 +11,7 @@ keywords: 여정, 질문, 답변, 문제 해결, 도움말, 안내서
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 51a609091b0c6cea2d92b22b265e6106973ba16a
+source-git-commit: 50c609b3d5c90e64800fb96d9c57d6c2bfa35a66
 workflow-type: tm+mt
 source-wordcount: '4531'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 Adobe Journey Optimizer 여정에 대한 FAQ는 다음과 같습니다.
 
-세부 정보가 필요하십니까? 이 페이지 하단의 피드백 옵션을 사용하여 질문을 제기하거나 [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"}에 연결하세요.
+세부 정보가 필요하십니까? 이 페이지 하단의 피드백 옵션을 사용하여 질문을 제기하거나 [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}에 연결하세요.
 
 ## 일반 개념
 
@@ -56,9 +56,9 @@ Adobe Journey Optimizer은 네 가지 유형의 여정을 지원합니다.
 
 * **[작업 캠페인](../campaigns/create-campaign.md)**: 특정 대상자에게 보내는 일회성 또는 반복 커뮤니케이션으로, 프로모션 공지 또는 뉴스레터와 같은 독립 실행형 메시지에 이상적입니다.
 * **[API 트리거 캠페인](../campaigns/api-triggered-campaigns.md)**: API 호출을 통해 트리거된 캠페인으로, 외부 시스템과 통합하여 실시간 이벤트 또는 비즈니스 논리를 기반으로 메시지를 보낼 수 있습니다.
-* **[오케스트레이션된 캠페인](../orchestrated/get-started-orchestrated.md)**: 조건, 대기 시간 및 여러 작업을 포함하여 일정하고 조정된 경험을 만들 수 있는 캔버스에 다단계 대상자 기반 캠페인을 빌드했습니다.
+* **[오케스트레이션된 캠페인](../orchestrated/gs-orchestrated-campaigns.md)**: 조건, 대기 시간 및 여러 작업을 포함하여 일정하고 조정된 경험을 만들 수 있는 캔버스에 다단계 대상자 기반 캠페인을 빌드했습니다.
 
-**우수 사례**: 고급 오케스트레이션을 사용한 복잡한 이벤트 트리거 참여에는 [여정](journey.md), 예약된 대상 기반 커뮤니케이션에는 [작업 캠페인](../campaigns/create-campaign.md), 외부 시스템에서 프로그래밍 방식 트리거에는 [API 트리거 캠페인](../campaigns/api-triggered-campaigns.md), 캠페인별 요구 사항이 있는 다단계 커뮤니케이션에는 [오케스트레이션된 캠페인](../orchestrated/get-started-orchestrated.md)을 사용합니다.
+**우수 사례**: 고급 오케스트레이션을 사용한 복잡한 이벤트 트리거 참여에는 [여정](journey.md), 예약된 대상 기반 커뮤니케이션에는 [작업 캠페인](../campaigns/create-campaign.md), 외부 시스템에서 프로그래밍 방식 트리거에는 [API 트리거 캠페인](../campaigns/api-triggered-campaigns.md), 캠페인별 요구 사항이 있는 다단계 커뮤니케이션에는 [오케스트레이션된 캠페인](../orchestrated/gs-orchestrated-campaigns.md)을 사용합니다.
 
 +++
 
