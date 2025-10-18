@@ -105,4 +105,4 @@ Personalization은 Adobe Experience Platform에 정의된 **XDM 개인 프로필
 
 개인화 편집기 플레이그라운드를 활용하여 샘플 데이터를 사용하여 개인화 코드를 작성하고 테스트하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3457868?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475959?captions=kor&quality=12)
