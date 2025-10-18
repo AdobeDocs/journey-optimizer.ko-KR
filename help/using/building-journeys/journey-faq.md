@@ -11,9 +11,9 @@ keywords: 여정, 질문, 답변, 문제 해결, 도움말, 안내서
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: b53080c5a4100c66b91fe10f156a18e932a5e68b
+source-git-commit: 51a609091b0c6cea2d92b22b265e6106973ba16a
 workflow-type: tm+mt
-source-wordcount: '4446'
+source-wordcount: '4531'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 Adobe Journey Optimizer 여정에 대한 FAQ는 다음과 같습니다.
 
-세부 정보가 필요하십니까? 이 페이지 하단의 피드백 옵션을 사용하여 질문을 제기하거나 [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"}에 연결하세요.
+세부 정보가 필요하십니까? 이 페이지 하단의 피드백 옵션을 사용하여 질문을 제기하거나 [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}에 연결하세요.
 
 ## 일반 개념
 
@@ -510,19 +510,25 @@ Learn more about [action responses](../action/action-response.md).
 
 +++ 기본 채널을 기반으로 다른 메시지를 보낼 수 있습니까?
 
-예. **조건 활동**&#x200B;을 사용하여 기본 채널을 확인하세요.
+예. **[조건 활동](condition-activity.md)**&#x200B;을 사용하여 선호하는 채널을 기준으로 프로필을 라우팅합니다.
 
-1. 조건 검사 profile.preferredChannel 추가
-2. 각 채널에 대해 별도의 경로를 만듭니다.
-   * **전자 메일 경로**: 전자 메일 메시지 보내기
-   * **SMS 경로**: SMS 메시지 보내기
-   * **푸시 경로**: 푸시 알림 보내기
-3. 환경 설정 없이 프로필의 기본 경로 추가
+1. 여정에 [조건 활동](condition-activity.md) 추가
+2. 기본 채널 프로필 특성(예: `profile.preferredChannel`)을 확인하여 각 채널의 경로를 만듭니다.
+3. 채널별 경로 구성:
+   * **전자 메일 경로**: 전자 메일에 최적화된 콘텐츠로 [전자 메일 동작](../email/create-email.md) 추가
+   * **SMS 경로**: 간결한 메시징을 사용하여 [SMS 작업](../sms/create-sms.md) 추가
+   * **푸시 경로**: 짧고 실행 가능한 콘텐츠로 [푸시 알림 동작](../push/create-push.md)을 추가합니다.
+   * **앱 내 경로**: 참여 앱 사용자에 대한 [앱 내 메시지 작업](../in-app/create-in-app.md) 추가
+4. 환경 설정 없이 프로필의 기본 경로를 추가하여 기본 채널로 라우팅
 
-<!--
-**Alternative approach**: Use **multi-channel actions** where Journey Optimizer automatically selects the best channel based on profile preferences and availability.-->
+**모범 사례**:
 
-[채널 작업](journeys-message.md)에 대해 자세히 알아보세요.
+* 프로필 데이터에 정확한 채널 환경 설정이 포함되어 있는지 확인합니다.
+* 각 채널의 강점과 제한 사항에 적합한 콘텐츠 디자인
+* 채널 구성을 관리하려면 [채널 표면](../configuration/channel-surfaces.md)을 사용하십시오.
+* 모든 경로를 테스트하여 적절한 메시지 전달 보장
+
+[조건](condition-activity.md), [메시지 동작](journeys-message.md) 및 [채널 선택](../channels/gs-channels.md)에 대해 자세히 알아보세요.
 
 +++
 
