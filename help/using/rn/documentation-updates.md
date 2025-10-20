@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 3cb16d48c8f478643e8c9891e4fd8c0c3b18f2c5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2349'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -21,17 +21,17 @@ ht-degree: 93%
 
 ## 2025년 10월 {#october-2025}
 
-* 개인화 편집기에 새 `render` 특성이 도입되었습니다. 표현식 조각의 콘텐츠를 숨기려는 경우 `false`(으)로 설정합니다. [자세히 보기](../personalization/use-expression-fragments.md#use-expression-fragment)
+* 개인화 편집기에 새 `render` 속성이 도입되었습니다. 표현식 조각의 콘텐츠를 숨기려는 경우 `false`(으)로 설정합니다. [자세히 보기](../personalization/use-expression-fragments.md#use-expression-fragment)
 
-* 의사 결정 정책 내 의사 결정 항목에 첨부된 조각을 활용하는 방법을 설명하는 섹션에 보호 기능 목록이 추가되었습니다. [자세히 보기](../experience-decisioning/create-decision.md#fragments-guardrails)
+* 의사 결정 정책 내 의사 결정 항목에 첨부된 조각을 활용하는 방법을 설명하는 섹션에 가드레일 목록이 추가되었습니다. [자세히 보기](../experience-decisioning/create-decision.md#fragments-guardrails)
 
-* 데이터 세트 조회에 대한 모범 사례 추가: 색인 지정 문제를 방지하기 위해 계속 켜고 일괄 삭제 시 조회 데이터에 미치는 영향을 파악합니다. [자세히 보기](../data/lookup-aep-data.md#guardrails--guidelines-guidelines)
+* 데이터 세트 조회에 대한 모범 사례 추가: 색인화 문제를 방지하기 위해 토글을 계속 켜 두고, 배치 삭제가 조회 데이터에 미치는 영향을 이해합니다. [자세히 보기](../data/lookup-aep-data.md#guardrails--guidelines-guidelines)
 
-* 보충 식별자가 있는 대상자 읽기 여정을 사용할 때 통합 프로필 서비스 대상만 지원된다는 제한 사항을 추가했습니다. [자세히 보기](../building-journeys/supplemental-identifier.md#guardrails--limitations-guardrails)
+* 보조 식별자가 있는 대상자 읽기 여정을 사용할 때 통합 프로필 서비스 대상자만 지원된다는 제한 사항을 추가했습니다. [자세히 보기](../building-journeys/supplemental-identifier.md#guardrails--limitations-guardrails)
 
 ## 2025년 9월 {#september-2025}
 
-* 웹, 인앱, 코드 기반 경험 및 콘텐츠 카드 채널에 적용되는 모든 제한 사항을 수집하기 위해 보호 및 제한 사항 페이지에 새로운 인바운드 채널 섹션이 추가되었습니다. 여기에는 모든 인바운드 요청에 대한 초당 5,000개의 인바운드 요청이라는 최대 볼륨 제한과 최대 500개의 활성 인바운드 작업이 포함됩니다. [자세히 보기](../start/guardrails.md#inbound-guardrails)
+* 가드레일 및 제한 사항 페이지에 새로운 인바운드 채널 섹션을 추가해 웹, 인앱, 코드 기반 경험, 콘텐츠 카드 채널에 적용되는 제한 사항을 모두 모았습니다. 여기에는 모든 인바운드 요청에 대해 초당 인바운드 요청 5,000개라는 최대 볼륨 제한과 활성 인바운드 액션 최대 500개라는 제한이 포함됩니다. [자세히 보기](../start/guardrails.md#inbound-guardrails)
 
 * 오케스트레이션된 캠페인에 대해 자주 묻는 질문 페이지가 릴리스되었습니다. [자세히 보기](../orchestrated/orchestrated-campaigns-faq.md)
 
@@ -304,7 +304,7 @@ ht-degree: 93%
 * Information has been added regarding the behaviour of timeouts on event activities in journeys. When no event is received during the specified timeout period, individuals will continue the journey if no timeout path is defined. [Read more](../building-journeys/general-events.md#events-specific-time)
 * In-app channel configuration prerequisites have been updated with a note about the usage of a custom Dataset preference merge policy. [Read more](../in-app/inapp-configuration.md)
 * More details have been added about how to manipulate collections in a custom action response. [Read more](../action/action-response.md#exp-syntax).
-* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko) has been added to the home page.
+* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html) has been added to the home page.
 * An outdated reference to the AJO Message resource has been removed from the list of resources available in the Audit Log. When an update is done on a message in a journey, a **Journey** log is created. [Read more](../privacy/audit-logs.md)
 * Additional recommendations have been added about the usage of the **Read Audience** activity. [Read more](../building-journeys/read-audience.md#must-read)
 * The Get started with Adobe Experience Platform audiences page has been improved with a list of audience generation methods. [Read more](../audience/about-audiences.md)
@@ -334,7 +334,7 @@ ht-degree: 93%
 * Decision Management guardrails have been added to the Guardrails and limitations page. [Read more](../start/guardrails.md#decision-management)
 * The Header parameters section has been updated to reflect how out-of-office notifications and challenge responses are handled (they are received on the **[!UICONTROL Error email]**). [Read more](../email/email-settings.md#email-header)
 * A new section on how to preview and test your content has been created. [Read more](../content-management/preview-test.md)
-* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=ko){target="_blank"}
+* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
 * The Capping section has been updated to reflect the label changes relating to offer capping in the decision management interface. [Read more](../offers/offer-library/add-constraints.md#capping)
 * The Add dynamic content into emails has been updated with details on how to delete a variant. [Read more](../personalization/dynamic-content.md#emails)
 * The example for capping & throttling configurations has been updated. [Read more](../configuration/external-systems.md)
@@ -409,7 +409,7 @@ ht-degree: 93%
 
 ## March 2023 {#march-2023}
 
-* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko)
+* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
 * All new features and improvements coming with [!DNL Journey Optimizer] March '23 release have been detailed in the documentation. [Read more](release-notes.md)
 * Added a step to enable Adobe Analytics events in your journeys. [Read more](../event/about-analytics.md)
 * A new section has been created in the Decision management guide on how to collect offer decisioning feedback in Adobe Experience Platform, including which offers are displayed and how users interact with them. [Read more](../offers/data-collection/data-collection.md)
@@ -537,7 +537,7 @@ ht-degree: 93%
 * The **reactions** event documentation page has been updated. [Read more](../building-journeys/reaction-events.md)
 * Videos for Decision Management capabilities have been updated to reflect Journey Optimizer user interface. [Read more](../offers/get-started/starting-offer-decisioning.md)
 * The **Get Started with Datasets** section has been improved to detail how to access and create datasets. [Read more](../data/get-started-datasets.md)
-* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=ko)
+* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html)
 * The **Create message presets** section now specifies that you cannot proceed with preset creation while the selected IP pool is under edition (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. [Read more](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * The message presets **URL tracking** section has been updated to reflect minor changes in the user interface. [Read more](../configuration/channel-surfaces.md#url-tracking)
 
