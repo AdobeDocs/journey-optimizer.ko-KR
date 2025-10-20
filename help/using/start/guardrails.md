@@ -11,8 +11,8 @@ mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
 workflow-type: tm+mt
-source-wordcount: '2823'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -274,4 +274,4 @@ Adobe Experience Platform에서 API 기반 프로필 만들기/업데이트와 �
 
 ## 캠페인 오케스트레이션 가드레일 {#orchestration-guardrails}
 
-Campaign Orchestration을 사용할 때 염두에 두어야 할 보호 기능 및 제한 사항은 이 섹션에 자세히 설명되어 있습니다. [보호 기능 및 제한 사항](../orchestrated/guardrails.md).
+캠페인 오케스트레이션을 사용할 때 염두에 두어야 할 가드레일과 제한 사항은 [가드레일 및 제한 사항](../orchestrated/guardrails.md) 섹션에 자세히 설명되어 있습니다.

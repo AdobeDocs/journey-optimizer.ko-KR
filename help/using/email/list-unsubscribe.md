@@ -11,8 +11,8 @@ keywords: 설정, 이메일, 구성
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
 source-git-commit: ae971aac1a44b11a19435577d1c17530a91a2ed5
 workflow-type: tm+mt
-source-wordcount: '1693'
-ht-degree: 85%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 85%
 
 * **[!UICONTROL 원구독 취소 URL]**&#x200B;은 기본적으로 [선택한 하위 도메인](email-settings.md#subdomains)에 따라 원클릭 구독 취소 URL에서 생성한 [목록 구독 취소] 헤더입니다. <!--With this method, clicking the Unsubscribe link directly unsubscribes the user, requiring only a single action to unsubscribe.-->
 
-해당 드롭다운 목록에서 **[!UICONTROL 동의 수준]**&#x200B;을 선택할 수 있습니다. 
+해당 드롭다운 목록에서 **[!UICONTROL 동의 수준]**을 선택할 수 있습니다. 
 채널 또는 프로필 ID별로 지정할 수 있습니다. 이 설정에 따라 사용자가 이메일 헤더에 있는 목록 구독 취소 URL을 사용하여 구독을 취소하는 경우[!DNL Adobe Journey Optimizer]에서 채널 수준 또는 ID 수준으로 동의 상태가 업데이트됩니다.
 
 ## 가드레일 및 추천 사항 {#list-unsubscribe-guardrails}
@@ -90,7 +90,7 @@ ht-degree: 85%
 
      ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
-   * 메시지 콘텐츠에 원클릭 옵트아웃 링크를 추가하지 않고 채널 구성 설정에서 기본 **[!UICONTROL 원클릭 구독 취소 URL]**&#x200B;이 선택 해제되어 있는 경우, URL이 이메일 헤더에 목록 구독 취소 헤더의 일부로  포함되지 않습니다.
+   * 메시지 콘텐츠에 원클릭 옵트아웃 링크를 추가하지 않고 채널 구성 설정에서 기본 **[!UICONTROL 원클릭 구독 취소 URL]**이 선택 해제되어 있는 경우, URL이 이메일 헤더에 목록 구독 취소 헤더의 일부로  포함되지 않습니다.
 
 
   >[!NOTE]
@@ -128,13 +128,13 @@ Adobe 외부에서 동의를 관리하는 경우 **[!UICONTROL 고객 관리]** 
 
 **[!UICONTROL 고객 관리]** 옵션을 선택한 상태에서 사용자 정의 엔드포인트를 입력하여 캠페인이나 여정에서 사용하는 경우 [!DNL Journey Optimizer]에서는 수신자가 구독 취소 링크를 클릭할 때 일부 기본 프로필별 매개 변수를 동의 업데이트 이벤트<!--sent to the custom endpoint -->에 추가합니다.
 
-엔드포인트 <!-- (**[!UICONTROL Mailto (unsubscribe)]** and **[!UICONTROL One-click Unsubscribe URL]**)-->을(를) 추가로 개인화하기 위해 동의 이벤트에도 추가할 사용자 지정 특성을 정의할 수 있습니다.
+이제 엔드포인트<!-- (**[!UICONTROL Mailto (unsubscribe)]** and **[!UICONTROL One-click Unsubscribe URL]**)-->의 개인화 수준을 높이기 위해 사용자 정의 속성을 지정할 수 있으며, 이는 동의 이벤트에도 추가됩니다.
 
 >[!AVAILABILITY]
 >
 >**[!UICONTROL Mailto(구독 취소)]** 옵션의 경우 제한된 가용성으로 이 기능을 사용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오. 이 경우 사용자 지정 특성(제한된 가용성)을 가진 **Mailto(구독 취소)** 섹션 [아래](#configure-decrypt-api)에 설명된 새 쿼리 매개 변수를 사용해야 합니다.
 
-끝점에 대한 사용자 지정 특성을 정의하려면 **[!UICONTROL URL 추적 매개 변수]** 섹션을 사용하십시오. 해당 섹션에서 정의하는 모든 URL 추적 매개 변수는 기본 매개 변수 외에 사용자 지정 엔드포인트의 끝에 추가됩니다. [사용자 정의 URL 추적을 설정하는 방법 알아보기](url-tracking.md)
+엔드포인트에 대한 사용자 지정 특성을 정의하려면 **[!UICONTROL URL 추적 매개 변수]** 섹션을 사용하십시오. 해당 섹션에서 정의하는 모든 URL 추적 매개 변수는 사용자 정의 엔드포인트 끝에 기본 매개 변수와 함께 추가됩니다. [사용자 정의 URL 추적을 설정하는 방법 알아보기](url-tracking.md)
 
 ### 암호 해독 API 구성 {#configure-decrypt-api}
 
@@ -242,11 +242,11 @@ GET 호출은 다음과 같습니다.
 
 **[!UICONTROL Mailto(구독 취소)]** 옵션을 사용하는 경우 구독 취소 링크를 클릭하면 지정된 구독 취소 주소로 미리 채워진 이메일이 보내집니다.
 
-2025년 10월부터 **[!UICONTROL Mailto(구독 취소)]** 끝점에 대해 **[!UICONTROL 고객 관리]** 옵션을 사용하는 경우 동의 이벤트에 추가할 사용자 지정 특성을 정의할 수 있습니다. 이 경우 아래에 설명된 쿼리 매개 변수를 사용해야 합니다.
+2025년 10월부터 **[!UICONTROL Mailto(구독 취소)]** 엔드포인트에 대해 **[!UICONTROL 고객 관리]** 옵션을 사용하는 경우 동의 이벤트에 추가할 사용자 지정 특성을 정의할 수 있습니다. 이 경우 아래에서 설명하는 쿼리 매개 변수를 사용해야 합니다.
 
 >[!AVAILABILITY]
 >
->이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.
+>이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하세요.
 
 GET 호출은 다음과 같습니다.
 
@@ -254,23 +254,23 @@ GET 호출은 다음과 같습니다.
 
 쿼리 매개 변수:
 
-* **emailParamsSub**: Mailto 주소에서 받은 전자 메일의 제목에서 추출된 문자열입니다.
+* **emailParamsSub**: Mailto 주소에서 받은 이메일 제목에서 추출한 문자열입니다.
 
    * 예: *unsubscribev1.abc*
 
    * 구문 분석된 값: *v1.abc*
 
-* **emailParamsBody**: 이메일 본문(있는 경우)에서 *unsubscribev1.xyz* 형식으로 추출된 문자열입니다.
+* **emailParamsBody**: 이메일 본문(있는 경우)에서 추출한 문자열로 *unsubscribev1.xyz* 형식으로 표시됩니다.
 
    * 구문 분석된 값: *v1.xyz*
 
-API 예: https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&emailParamsBody=v1.xyz
+API 예: https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&amp;emailParamsBody=v1.xyz
 
 >[!CAUTION]
 >
->이전 구현(예: https://platform.adobe.io/journey/imp/consent/decrypt?emailParams=&lt;v1.xxx>)을 사용하는 경우 **emailParams** 대신 새 **emailParamsSub** 및 **emailParamsBody** 매개 변수를 사용해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
+>이전 구현(예: https://platform.adobe.io/journey/imp/consent/decrypt?emailParams=&lt;v1.xxx>)을 사용하는 경우 **emailParams** 대신 새로운 **emailParamsSub** 및 **emailParamsBody** 매개 변수를 사용해야 합니다. 더 많은 내용은 Adobe 담당자에게 문의하십시오.
 
-**emailParamsSub** 및 **emailParamsBody** 매개 변수는 사용자 지정 끝점에 전송되는 동의 업데이트 이벤트에 포함됩니다.
+**emailParamsSub** 및 **emailParamsBody** 매개 변수는 사용자 정의 엔드포인트로 전송되는 동의 업데이트 이벤트에 포함됩니다.
 
 헤더 요구 사항:
 

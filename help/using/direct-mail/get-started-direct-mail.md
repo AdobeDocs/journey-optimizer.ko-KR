@@ -9,8 +9,8 @@ keywords: 다이렉트 메일, 메시지, 캠페인
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
 source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 89%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 89%
 
 >[!AVAILABILITY]
 >
->다이렉트 메일 메시지는 예약된 캠페인 내에서만 만들 수 있습니다. 오케스트레이션 및 API 트리거 캠페인 또는 여정에서 사용할 수 없습니다.
+>다이렉트 메일 메시지는 예약된 캠페인 내에서만 만들 수 있습니다. 오케스트레이션된 API 트리거 캠페인 또는 여정에서는 사용할 수 없습니다.
 
 ![](../rn/assets/do-not-localize/gif-dm.gif)
 
