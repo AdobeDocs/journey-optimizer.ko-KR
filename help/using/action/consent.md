@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: 정책, 거버넌스, 플랫폼, Healthcare Shield, 동의
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 0aa29a163e337359ea4455edee57bc49fd06a020
 workflow-type: tm+mt
-source-wordcount: '1242'
-ht-degree: 93%
+source-wordcount: '1244'
+ht-degree: 89%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 93%
 
 사용자의 데이터에는 조직 규정이나 법적 규정에 따른 사용 제한이 적용될 수 있습니다. 따라서 Journey Optimizer 내의 데이터 작업이 [데이터 사용 정책](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ko){target="_blank"}을 준수하는지 확인하는 것이 중요합니다. 정책은 데이터에 대해 수행할 수 있는 마케팅 액션을 정의하는 Adobe Experience Platform의 규칙입니다.
 
-기본적으로 프로필이 사용자의 커뮤니케이션 수신을 옵트아웃한 경우 해당 프로필은 후속 게재 대상에서 제외됩니다. 이 기본 논리를 재정의하는 **동의 정책**&#x200B;을 만들 수 있습니다. 예를 들어 Experience Platform에서 동의 정책을 만들어 특정 채널의 커뮤니케이션 수신에 동의하지 않은 고객을 제외할 수 있습니다. 사용자 정의 정책이 없으면 기본 정책이 적용됩니다.
+기본적으로 프로필이 사용자의 커뮤니케이션 수신을 옵트아웃한 경우 해당 프로필은 후속 게재 대상에서 제외됩니다. 이 기본 논리를 재정의하는 **동의 정책**&#x200B;을 만들 수 있습니다. 예를 들어, Experience Platform에서 특정 채널에 대한 커뮤니케이션 수신에 동의하지 않은 고객을 제외하는 동의 정책을 만들 수 있습니다. 사용자 정의 정책이 없으면 기본 정책이 적용됩니다.
 
 >[!IMPORTANT]
 >
@@ -30,7 +30,7 @@ ht-degree: 93%
 
 1. Adobe Experience Platform에서 연결된 마케팅 액션이 있는 동의 정책을 만듭니다. [동의 정책을 만드는 방법을 알아보세요](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=ko#consent-policy){target="_blank"}
 
-2. Adobe Journey Optimizer에서 채널 구성 또는 여정 사용자 정의 액션을 사용하여 동의 정책을 적용합니다.
+2. 채널 구성 또는 여정 지정 작업을 사용하여 Adobe Journey Optimizer에서 동의 정책을 적용합니다.
 
    * 연결된 마케팅 액션이 있는 채널 구성을 만듭니다. 채널 구성을 사용하여 커뮤니케이션을 만들면 이 커뮤니케이션은 연결된 마케팅 액션을 상속하고 Adobe Experience Platform에 정의된 해당 동의 정책을 적용하게 됩니다. [채널 구성을 통해 동의 정책을 활용하는 방법 알아보기](#surface-marketing-actions)
 
@@ -69,7 +69,7 @@ ht-degree: 93%
 
 1. 이 정책을 저장하고 [사용](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=ko#enable){target="_blank"}하세요.
 
-1. Journey Optimizer에서 이메일 표면을 생성합니다. [방법 알아보기](../configuration/channel-surfaces.md#create-channel-surface)
+1. Journey Optimizer에서 이메일 채널 구성을 만듭니다. [방법 알아보기](../configuration/channel-surfaces.md#create-channel-surface)
 
 1. 이메일 구성 세부 정보에서 **[!UICONTROL 이메일 타기팅]** 마케팅 액션을 선택합니다.
 
