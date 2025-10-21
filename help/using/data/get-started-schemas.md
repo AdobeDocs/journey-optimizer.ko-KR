@@ -9,7 +9,7 @@ level: Experienced
 keywords: 스키마, 플랫폼, 데이터, 구조
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '394'
 ht-degree: 100%
 
@@ -56,7 +56,7 @@ Adobe Experience Platform에는 두 가지 유형의 스키마가 있습니다.
 
 표준 스키마를 만들고, 필드 그룹을 추가하고, 사용자 정의 필드 그룹을 만들고 구성하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416872?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334461?quality=12)
 
 >[!MORELIKETHIS]
 >
