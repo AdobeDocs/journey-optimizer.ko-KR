@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 exl-id: ec1af88c-7b0a-4eaf-97e1-0d9676268fed
 badge: label="Beta" type="Informative"
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '477'
 ht-degree: 4%
 
 ---
@@ -22,15 +22,17 @@ ht-degree: 4%
 
 **[!UICONTROL 보고서 보기]** 단추를 사용하면 Campaign에서 Campaign 글로벌 보고서에 직접 액세스할 수 있습니다.
 
-Campaign **[!UICONTROL 글로벌 보고서]**&#x200B;는 캠페인의 성공 및 오류를 자세히 설명하는 다양한 위젯으로 나뉩니다. 필요한 경우 각 위젯의 크기를 조정하고 삭제할 수 있습니다. 자세한 내용은 이 [섹션](../reports/global-report.md#modify-dashboard)을 참조하세요.
+Campaign **[!UICONTROL 글로벌 보고서]**&#x200B;는 캠페인의 성공 및 오류를 자세히 설명하는 다양한 위젯으로 나뉩니다. 필요한 경우 각 위젯의 크기를 조정하고 삭제할 수 있습니다. 자세한 내용은 이 <!--[section](../reports/global-report.md#modify-dashboard)-->을(를) 참조하세요.
 
-Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 목록은 [이 페이지](global-report.md#list-of-components-global.md)를 참조하세요.
+Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 목록은 <!--[this page](global-report.md#list-of-components-global.md)-->을(를) 참조하십시오.
 
 ## 캠페인 탭 {#campaign-global-objectives}
 
 ### 게재 {#delivery-global-objectives}
 
+<!--
 ![](assets/campaign_report_global_1.png)
+-->
 
 **[!UICONTROL 캠페인 통계]** 위젯은 캠페인과 관련된 기본 정보를 자세히 설명합니다.
 
@@ -58,7 +60,9 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 
 ### 실험 보고서 {#experimentation-global-objectives}
 
+<!--
 ![](assets/experimentation_report_3.png)
+-->
 
 **[!UICONTROL 실험]** 탭은 각 변형의 성능에 대한 주요 인사이트를 제공하며 가장 성공적인 변형을 식별합니다.
 

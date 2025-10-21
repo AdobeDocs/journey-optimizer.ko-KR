@@ -6,7 +6,7 @@ topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
 source-wordcount: '1051'
 ht-degree: 2%
@@ -107,19 +107,19 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
 
 | 속성 | 설명 | 예 |
 | -------- | ----------- | ------- |
-| `xdm:propositionRequests` | 이 개체에는 배치 및 의사 결정 식별자가 포함되어 있습니다. |
+| `xdm:propositionRequests` | 이 개체에는 배치 및 의사 결정 식별자가 포함되어 있습니다. |  |
 | `xdm:propositionRequests.xdm:placementId` | 고유 배치 식별자. | `"xdm:placementId": "dps:offer-placement:ffed0456"` |
 | `xdm:propositionRequests.xdm:activityId` | 고유 의사 결정 식별자. | `"xdm:activityId": "dps:offer-activity:ffed0123"` |
 | `xdm:itemCount` | 반환할 오퍼 수입니다. 최대 숫자는 30입니다. | `"xdm:itemCount": 2` |
-| `xdm:profiles` | 이 개체에는 결정이 요청된 프로필에 대한 정보가 들어 있습니다. API 요청의 경우 하나의 프로필이 포함됩니다. |
+| `xdm:profiles` | 이 개체에는 결정이 요청된 프로필에 대한 정보가 들어 있습니다. API 요청의 경우 하나의 프로필이 포함됩니다. |  |
 | `xdm:profiles.xdm:identityMap` | 이 개체에는 ID의 네임스페이스 통합 코드를 기반으로 하는 최종 사용자 ID 세트가 들어 있습니다. ID 맵에는 각 네임스페이스의 ID가 두 개 이상 포함될 수 있습니다. 네임스페이스에 대한 자세한 내용은 [이 페이지](../../../audience/get-started-identity.md)를 참조하세요. | `Email: [{"xdm:id": "123@abc.com"}]` |
 | `xdm:profiles.xdm:decisionRequestId` | 프로필 결정 요청을 고유하게 식별하는 데 사용될 수 있는 클라이언트가 생성한 ID입니다. 이 ID는 응답에서 다시 에코백되며 결정 결과에 영향을 주지 않습니다. | `"xdm:decisionRequestId": "0AA00002-0000-1224-c0de-cjf98Csj43"` |
-| `xdm:allowDuplicatePropositions` | 이 객체는 데이터 중복 제거 규칙의 제어 구조를 의미합니다. 이는 특정 차원에 대해 동일한 옵션을 제안할 수 있는지 여부를 나타내는 일련의 플래그로 구성됩니다. true로 설정된 플래그는 복제가 허용되고 플래그가 지정한 범주 내에서 제거되어서는 안 됨을 의미합니다. false로 설정된 플래그는 의사 결정 엔진이 차원에서 동일한 제안을 하지 않고 대신 하위 의사 결정 중 하나에 대해 다음 최적 옵션을 선택해야 함을 의미합니다. |
+| `xdm:allowDuplicatePropositions` | 이 객체는 데이터 중복 제거 규칙의 제어 구조를 의미합니다. 이는 특정 차원에 대해 동일한 옵션을 제안할 수 있는지 여부를 나타내는 일련의 플래그로 구성됩니다. true로 설정된 플래그는 복제가 허용되고 플래그가 지정한 범주 내에서 제거되어서는 안 됨을 의미합니다. false로 설정된 플래그는 의사 결정 엔진이 차원에서 동일한 제안을 하지 않고 대신 하위 의사 결정 중 하나에 대해 다음 최적 옵션을 선택해야 함을 의미합니다. |  |
 | `xdm:allowDuplicatePropositions.xdm:acrossActivities` | true로 설정하면 여러 개의 결정에 동일한 옵션이 할당될 수 있습니다. | `"xdm:acrossActivities": true` |
 | `xdm:allowDuplicatePropositions.xdm:acrossPlacements` | true로 설정하면 여러 배치에 동일한 옵션이 할당될 수 있습니다. | `"xdm:acrossPlacements": true` |
 | `xdm:enrichedAudience` | CSV 대상자를 타깃팅하는 경우 이 매개 변수를 추가하고 &quot;true&quot;로 설정합니다. | `"xdm:enrichedAudience": true` |
 | `xdm:mergePolicy.xdm:id` | 프로필 액세스 서비스에서 반환한 데이터를 제어하는 병합 정책을 식별합니다. 요청에 ID가 지정되지 않은 경우 의사 결정 관리 는 프로필 액세스 서비스를 전달하지 않고 호출자가 제공한 ID를 전달합니다. | `"xdm:id": "5f3ed32f-eaf1-456c-b0f0-7b338c4cb18a"` |
-| `xdm:responseFormat` | 응답 콘텐츠의 형식을 지정하는 플래그 세트입니다. |
+| `xdm:responseFormat` | 응답 콘텐츠의 형식을 지정하는 플래그 세트입니다. |  |
 | `xdm:responseFormat.xdm:includeContent` | `true`(으)로 설정된 경우 응답에 콘텐츠를 포함하는 부울 값. | `"xdm:includeContent": true` |
 | `xdm:responseFormat.xdm:includeMetadata` | 반환되는 추가 메타데이터를 지정하는 데 사용되는 개체입니다. 이 속성이 포함되지 않으면 기본적으로 `xdm:id` 및 `repo:etag`이(가) 반환됩니다. | `name` |
 | `xdm:responseFormat.xdm:activity` | 이 플래그는 `xdm:activity`에 대해 반환된 특정 메타데이터 정보를 식별합니다. | `name` |
@@ -185,7 +185,7 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
 | 속성 | 설명 | 예 |
 | -------- | ----------- | ------- |
 | `xdm:propositionId` | XDM DecisionEvent와 연계된 제안 엔티티에 대한 고유 식별자. | `"xdm:propositionId": "5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8"` |
-| `xdm:propositions` | 이 대상은 단일 결정 제안을 포함합니다. 결정을 위해 여러 옵션이 반환될 수 있습니다. 옵션을 찾을 수 없으면 의사 결정의 대체 오퍼가 반환됩니다. 단일 결정 제안에 항상 `options` 속성 또는 `fallback` 속성이 포함됩니다. 존재하는 경우 `options` 속성은 비워 둘 수 없습니다. |
+| `xdm:propositions` | 이 대상은 단일 결정 제안을 포함합니다. 결정을 위해 여러 옵션이 반환될 수 있습니다. 옵션을 찾을 수 없으면 의사 결정의 대체 오퍼가 반환됩니다. 단일 결정 제안에 항상 `options` 속성 또는 `fallback` 속성이 포함됩니다. 존재하는 경우 `options` 속성은 비워 둘 수 없습니다. |  |
 | `xdm:propositions.xdm:activity` | 이 개체에는 의사 결정에 대한 고유 식별자가 들어 있습니다. | `"xdm:id": "dps:activity:ffed0123"` |
 | `xdm:propositions.xdm:placement` | 이 개체에는 오퍼 배치에 대한 고유 식별자가 들어 있습니다. | `"xdm:id": "dps:placement:ffed0456"` |
 | `xdm:propositions.xdm:options` | 이 개체에는 고유 식별자를 포함한 단일 옵션이 있습니다. 존재하는 경우 해당 객체는 비워둘 수 없습니다. | `xdm:id": "dps:personalized-option:ccc0111` |
@@ -219,7 +219,7 @@ The following video is intended to support your understanding of the components 
 >
 >This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/342832/?captions=kor&quality=12) -->
+>[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12) -->
 
 ## 다음 단계 {#next-steps}
 

@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 채널, 표면, 기술, 매개변수, optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
 source-wordcount: '1804'
 ht-degree: 12%
@@ -238,6 +238,7 @@ ht-degree: 12%
 #### 성공 {#success}
 
 유효성 검사 프로세스가 성공하면 이 구성을 사용하는 모든 메시지에 구성의 새 버전이 자동으로 사용됩니다. 그러나 다음을 기다려야 할 수 있습니다.
+
 * 단일 메시지에 소비되기 몇 분 전에
 * 구성을 배치 메시지에 적용하기 위한 다음 배치까지.
 

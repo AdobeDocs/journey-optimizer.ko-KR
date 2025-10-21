@@ -7,7 +7,7 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 6%
@@ -35,7 +35,9 @@ ht-degree: 6%
 
 ## 표시 및 클릭 트렌드 {#display-click}
 
+<!--
 ![](assets/content-card-report-1.png)
+-->
 
 **[!UICONTROL 표시 및 클릭 트렌드]** 그래프는 메시지의 전체 도달 범위와 관련된 고유 프로필의 수를 모두 이해하는 데 도움이 됩니다.
 
@@ -51,7 +53,9 @@ ht-degree: 6%
 
 ## 추적 데이터 {#tracking-data}
 
+<!--
 ![](assets/content-card-report-2.png)
+-->
 
 **[!UICONTROL 추적 데이터]** 테이블은 콘텐츠 카드에 연결된 프로필 활동에 대한 자세한 스냅숏을 제공하여 참여 및 콘텐츠 카드 효과에 대한 중요한 통찰력을 제공합니다.
 

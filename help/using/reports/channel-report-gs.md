@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 247b966d-4f84-453b-8178-9c9ebcd494ef
-source-git-commit: 64e225cdc8615e51655ef550866b67ca249a7572
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '637'
 ht-degree: 7%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 7%
 
 채널 보고서는 완전히 맞춤화가 가능하므로 위젯의 크기를 조정하거나 제거하여 특정 요구 사항을 충족하는 대시보드를 만들 수 있습니다. 추가 분석을 위해 보고서 데이터를 PDF 또는 CSV 파일로 내보낼 수도 있습니다.
 
-[이 페이지](channel-report.md)에서 채널 보고서에 사용할 수 있는 다양한 지표 및 위젯에 대해 자세히 알아보세요.
+<!--[this page](channel-report.md)-->의 채널 보고서에 사용할 수 있는 다양한 지표 및 위젯에 대해 자세히 알아보십시오.
 
 ## 시작하기 전 {#manage-reports-prereq}
 

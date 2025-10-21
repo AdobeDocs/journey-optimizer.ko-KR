@@ -8,9 +8,9 @@ level: Beginner
 keywords: 인앱, 메시지, 만들기, 시작
 hide: true
 hidefromtoc: true
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
-source-wordcount: '780'
+source-wordcount: '775'
 ht-degree: 7%
 
 ---
@@ -89,7 +89,8 @@ ht-degree: 7%
 
 ![](assets/in_app_web_design_3.png)
 
-미디어 URL을 입력하거나 **[!UICONTROL Assets 선택]** 아이콘을 클릭하여 Assets 라이브러리에 저장된 자산을 인앱 메시지에 직접 추가합니다. [자산 관리에 대해 자세히 알아보세요](../content-management/assets-essentials.md).
+미디어 URL을 입력하거나 **[!UICONTROL Assets 선택]** 아이콘을 클릭하여 Assets 라이브러리에 저장된 자산을 인앱 메시지에 직접 추가합니다. <!--[Learn more about asset management](../content-management/assets-essentials.md).-->
+
 화면 읽기 응용 프로그램에 **[!UICONTROL 대체 텍스트]**&#x200B;를 추가할 수도 있습니다.
 
 +++고급 서식의 추가 옵션
@@ -183,5 +184,5 @@ ht-degree: 7%
 **관련 항목:**
 
 * [인앱 메시지 테스트 및 보내기](send-in-app.md)
-* [인앱 보고서 &#x200B;](../reports/campaign-global-report-cja-inapp.md)
+* [인앱 보고서 ](../reports/campaign-global-report-cja-inapp.md)
 * [인앱 구성](inapp-configuration.md)

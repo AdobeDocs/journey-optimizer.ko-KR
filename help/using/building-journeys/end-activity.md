@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 여정, 활동, 종료
 exl-id: 76c74ca3-edaa-48c5-8d6a-0906120e31a1
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 57%
@@ -26,4 +26,6 @@ ht-degree: 57%
 
 **[!UICONTROL End]** 활동을 통해 여정의 각 경로의 끝을 표시할 수 있습니다. 종료 활동은 필수는 아니지만 시각적 명확성을 위해 권장됩니다. 실제로 여정에 여러 개의 종료 활동이 있는 경우 보고서를 더 쉽게 읽을 수 있도록 각 끝에 레이블을 추가하는 것이 좋습니다. [이 페이지](../reports/live-report.md)를 참조하십시오.
 
+<!--
 ![](assets/journey54.png)
+-->
