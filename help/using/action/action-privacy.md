@@ -5,11 +5,11 @@ title: 데이터 거버넌스
 description: 레이블 및 마케팅 작업에 연결된 거버넌스 정책 정의
 feature: Journeys, Actions, Custom Actions, Privacy
 topic: Administration
-role: Engineer, Admin
+role: Developer, Admin
 level: Experienced
 keywords: 데이터, 거버넌스, DULE, 레이블, 레이블 지정, 플랫폼, 정책
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '1290'
 ht-degree: 98%

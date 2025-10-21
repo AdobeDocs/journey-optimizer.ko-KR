@@ -3,12 +3,12 @@ product: journey optimizer
 title: distinctCount
 description: distinctCount 함수에 대해 알아봅니다
 feature: Journeys
-role: Engineer
+role: Developer
 level: Experienced
 keywords: distinctCount, 함수, 표현식, 여정
 exl-id: 8796ba91-5c64-43c2-a444-27ac8b719c86
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 7%

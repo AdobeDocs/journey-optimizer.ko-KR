@@ -5,11 +5,11 @@ title: 여정 이벤트 작업
 description: 여정에서 이벤트를 사용하여 작업하는 방법을 알아봅니다
 feature: Journeys, Events
 topic: Administration
-role: Engineer, Admin
+role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 이벤트, 이벤트, 여정, 정의, 시작
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '1537'
 ht-degree: 33%
@@ -120,8 +120,8 @@ Adobe Journey Optimizer은 모든 샌드박스에서 조직 수준에서 초당 
 
 이벤트를 구성하고 이벤트에 대한 스트리밍 엔드포인트 및 페이로드를 지정하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431519?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 비즈니스 이벤트의 사용 사례를 이해합니다. 비즈니스 이벤트를 사용하여 여정을 작성하는 방법과 상황에 따라 적합한 모범 사례를 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416327?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)

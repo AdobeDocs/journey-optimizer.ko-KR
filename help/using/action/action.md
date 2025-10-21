@@ -5,11 +5,11 @@ title: 작업 시작
 description: 작업 방법 알아보기
 feature: Journeys, Actions, Custom Actions
 topic: Administration
-role: Engineer, Admin
+role: Developer, Admin
 level: Experienced
 keywords: 작업, 여정, 메시지, 보내기, 연결
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 40%
@@ -43,13 +43,13 @@ ht-degree: 40%
 
 ![](assets/custom1.png)
 
-이 전용 페이지[에서 사용자 지정 작업 &#x200B;](../action/troubleshoot-custom-action.md)의 문제를 해결하는 방법을 알아보세요.
+이 전용 페이지[에서 사용자 지정 작업 ](../action/troubleshoot-custom-action.md)의 문제를 해결하는 방법을 알아보세요.
 
 ## 사용 방법 비디오 {#video}
 
 사용자 지정 작업을 구성하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430279?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)
 
 ## 추가 리소스
 

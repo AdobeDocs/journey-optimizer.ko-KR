@@ -4,12 +4,12 @@ product: journey optimizer
 title: 데이터 유형
 description: 고급 표현식의 데이터 유형에 대해 알아보기
 feature: Journeys
-role: Engineer
+role: Developer
 level: Experienced
 keywords: 표현식, 데이터, 데이터 유형, 여정
 exl-id: fdfc3287-d733-45fb-ad11-b4238398820a
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 5%

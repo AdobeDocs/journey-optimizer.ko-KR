@@ -5,11 +5,11 @@ title: 데이터 세트 쿼리 예
 description: 데이터 세트 쿼리 예
 feature: Journeys, Reporting, Use Cases, Datasets, Data Management
 topic: Content Management
-role: Engineer, Admin
+role: Developer, Admin
 level: Experienced
 keywords: 데이터 세트, 최적화 도구, 사용 사례
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '1066'
 ht-degree: 2%

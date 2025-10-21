@@ -3,12 +3,12 @@ product: journey optimizer
 title: startWith
 description: startWith 함수에 대해 알아보기
 feature: Journeys
-role: Engineer
+role: Developer
 level: Experienced
 keywords: startWith, 함수, 표현식, 여정
 exl-id: 1abdf947-2873-4e45-a26c-cb895980e76a
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '47'
 ht-degree: 23%

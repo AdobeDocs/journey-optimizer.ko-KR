@@ -5,11 +5,11 @@ title: 여정에 이벤트를 보내는 추가 단계
 description: 이벤트를 여정에 전송하는 추가 단계 알아보기
 feature: Journeys, Events
 topic: Administration
-role: Engineer, Admin
+role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 단계, 구성, 여정, 이벤트, 스트림, API
 exl-id: e0144151-6c54-4656-9650-b544d8e7be16
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 3%
@@ -90,4 +90,4 @@ ht-degree: 3%
 
 &quot;데이터&quot; 부분을 붙여넣을 위치를 쉽게 확인하려면 [JSON 포맷터](https://jsonformatter.curiousconcept.com){target="_blank"}와 같은 JSON 시각화 도구를 사용할 수 있습니다.
 
-스트리밍 수집 API의 문제를 해결하려면 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=ko){target="_blank"}를 참조하세요.
+스트리밍 수집 API의 문제를 해결하려면 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"}를 참조하세요.

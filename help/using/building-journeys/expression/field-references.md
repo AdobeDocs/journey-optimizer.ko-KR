@@ -4,12 +4,12 @@ product: journey optimizer
 title: 필드 참조
 description: 고급 표현식의 필드 참조에 대해 알아보기
 feature: Journeys
-role: Engineer
+role: Developer
 level: Experienced
 keywords: 여정, 필드, 표현식, 이벤트
 exl-id: 2348646a-b205-4b50-a08f-6625e92f44d7
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 2%

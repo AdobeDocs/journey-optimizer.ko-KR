@@ -3,12 +3,12 @@ product: journey optimizer
 title: filter
 description: 함수 필터에 대해 알아보기
 feature: Journeys
-role: Engineer
+role: Developer
 level: Experienced
 keywords: 필터, 함수, 표현식, 여정
 exl-id: 05e3d2ba-1a27-4f27-88cc-3d83eb3b14af
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 9%

@@ -5,12 +5,12 @@ title: 여정 단계 이벤트 작업
 description: Adobe Journey Optimizer에서 여정 단계 이벤트로 작업하는 방법 - 이벤트 유형, 중요한 이유, 분석 및 최적화에 이를 사용하는 방법을 알아봅니다
 feature: Journeys, Reporting
 topic: Content Management
-role: Engineer, Admin, User
+role: Developer, Admin, User
 level: Intermediate, Experienced
 keywords: 여정, 단계 이벤트, 분석, 보고, 모니터링, XDM
 hide: true
 hidefromtoc: true
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 1%
@@ -34,7 +34,7 @@ ht-degree: 1%
 
 여정 단계 이벤트는 다양한 여정 활동에 대해 자동으로 생성됩니다.
 
-- **시작 여정**: [&#x200B; 프로필이 이벤트에 들어갈 때](../building-journeys/entry-management.md)
+- **시작 여정**: [ 프로필이 이벤트에 들어갈 때](../building-journeys/entry-management.md)
 - **작업 실행**: [메시지를 보낼 때](../building-journeys/journeys-message.md) 또는 [사용자 지정 작업](../building-journeys/using-custom-actions.md)을 수행할 때
 - **조건 평가**: 프로필이 [조건](../building-journeys/condition-activity.md) 및 결정 지점을 통과할 때
 - **대기 활동**: 프로필이 [대기 노드](../building-journeys/wait-activity.md)를 시작하고 종료할 때
@@ -75,7 +75,7 @@ ht-degree: 1%
 
 여정 단계 이벤트 데이터는 자동으로 Adobe Experience Platform에 저장되고 다음을 통해 액세스할 수 있습니다.
 
-1. **데이터 레이크 쿼리**: SQL을 사용하여 `journey_step_events`쿼리 서비스[로 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ko){target="_blank"} 데이터 집합을 쿼리합니다.
+1. **데이터 레이크 쿼리**: SQL을 사용하여 `journey_step_events`쿼리 서비스[로 ](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ko){target="_blank"} 데이터 집합을 쿼리합니다.
 2. **Customer Journey Analytics**: [고급 분석 도구](cja-ajo.md)를 통해 여정 데이터 분석
 3. **실시간 보고**: Journey Optimizer의 [기본 제공 보고 기능을 통해 데이터에 액세스](gs-reports.md)
 4. **API**: 사용자 지정 응용 프로그램의 이벤트 데이터에 프로그래밍 방식으로 액세스합니다.

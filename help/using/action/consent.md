@@ -5,11 +5,11 @@ title: 동의 정책 사용
 description: Adobe Experience Platform 동의 정책 사용 방법 알아보기
 feature: Journeys, Actions, Custom Actions, Privacy, Consent Management
 topic: Administration
-role: Engineer, Admin
+role: Developer, Admin
 level: Experienced
 keywords: 정책, 거버넌스, 플랫폼, Healthcare Shield, 동의
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '1242'
 ht-degree: 93%
