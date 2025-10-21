@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1ecf54bbcb2cc62b5f13434cfbf1e369cd145d93
+source-git-commit: d09fc3ed670a50b6a99bcf660353ee37d31c7501
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 44%
+source-wordcount: '1089'
+ht-degree: 52%
 
 ---
 
@@ -160,23 +160,23 @@ ht-degree: 44%
 </tbody>
 </table>
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>이메일 채널에서 의사 결정 지원</strong><br/></th>
+<th><strong>Decisioning support in email channel</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 이메일 여정 및 캠페인에 의사 결정 정책을 추가할 수 있습니다. 의사 결정 정책은 의사 결정 엔진을 활용하여 각 대상 구성원에 대해 제공할 최상의 콘텐츠를 동적으로 반환하는 오퍼에 대한 컨테이너입니다.</p>
-<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+<p>You can now add Decision policies into email journeys and campaigns. Decision policies are containers for your offers that leverage the Decisioning engine to dynamically return the best content to deliver for each audience member.</p>
+<p>Previously released in Limited Availability, this capability is now available to all environments (General Availability).</p>
+<img src="assets/do-not-localize/FILE.gif">
+<p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
@@ -206,7 +206,7 @@ ht-degree: 44%
 <tr>
 <td>
 <p>이제 Journey Optimizer을 사용하여 전용 UI 메뉴에서 규칙을 만들고 여정 최적화 활동에서 여정 또는 캠페인의 콘텐츠 최적화의 일부로 타깃팅을 작성할 때 활용할 수 있습니다.</p>
-<p>타깃팅 규칙은 현재 제한된 가용성입니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.</p>
+<p>타깃팅 규칙은 현재 제한된 가용성입니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하세요.</p>
 <p>이 기능은 Decisioning 추가 기능 서비스를 구입한 조직에서만 사용할 수 있습니다. 모든 고객에게 점진적으로 제공될 예정입니다.</p>
 <!--img src="assets/do-not-localize/FILE.gif"-->
 <!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
@@ -248,7 +248,7 @@ ht-degree: 44%
 <li><a href="../reports/alerts.md#alert-custom-action-error-rate">사용자 지정 작업 오류율 초과</a>: 지난 5분 동안 임계값에 대한 성공한 HTTP 호출에 대한 사용자 지정 작업 오류의 비율</li>
 <li><a href="../reports/alerts.md#alert-profile-error-rate">프로필 오류율 초과</a>: 지난 5분 동안 입력한 프로필에 대한 오류가 있는 프로필의 비율이 임계값을 초과했습니다.</li></ul> <p>임계값을 수정하고 개별 여정 수준에서 경고를 받거나 전체적으로 구독할 수 있습니다.</p>
 <p>자세한 내용은 <a href="../reports/alerts.md">세부 설명서</a>를 참조하십시오.</p>
-<p>사용 가능한 날짜: 2025년 10월 14일</p>
+<p>사용 가능한 날짜: 2025년 10월 14일 수요일</p>
 </td>
 </tr>
 </tbody>
@@ -264,9 +264,9 @@ ht-degree: 44%
 <tr>
 <td>
 <p>개인화 편집기에서 새로운 'executionMetadata' 도우미 기능을 사용할 수 있습니다. 이를 통해 컨텍스트 정보를 모든 기본 작업에 추가하고 데이터 세트에 캡처하여 외부 시스템으로 내보낼 수 있습니다.</p>
-<p>이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.</p>
+<p>이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하세요.</p>
 <p>자세한 내용은 <a href="../personalization/functions/helpers.md#execution-metadata">세부 설명서</a>를 참조하십시오.</p>
-<p>사용 가능한 날짜: 2025년 10월 13일</p>
+<p>사용 가능한 날짜: 2025년 10월 13일 화요일</p>
 </td>
 </tr>
 </tbody>
@@ -283,8 +283,8 @@ ht-degree: 44%
 <td>
 <p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator.html" target="_blank">Adobe Experience Platform Agent Orchestrator</a>에서 제공하는 실험 에이전트는 Journey Optimizer에서 사용할 수 있습니다. </p>
 <p>실험 에이전트는 웹 사이트, 이메일, 푸시 메시지 및 애플리케이션에서 디지털 실험을 실행하고 관리할 수 있는 방법을 현대화한 AI 기반 도구입니다. 실험을 보다 효율적으로 실행하고, 비즈니스 목표를 구성하고, 실행 가능한 통찰력을 생성하여, 무엇이 작동하고, 무엇이 작동하지 않았으며, 다음 실험할 위치를 강조 표시하는 데 도움이 됩니다.</p>
-<p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=ko" target="_blank">세부 설명서</a>를 참조하십시오.</p>
-<p>사용 가능한 날짜: 2025년 10월 10일</p>
+<p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">세부 설명서</a>를 참조하십시오.</p>
+<p>사용 가능한 날짜: 2025년 10월 10일 토요일</p>
 </td>
 </tr>
 </tbody>
@@ -334,18 +334,22 @@ ht-degree: 44%
 
 ### 개선 사항
 
+AI 모델을 통한 이메일 **의사 결정**
+
+이제 Decisioning을 사용하여 AI 모델을 사용하여 이메일의 최상의 콘텐츠를 최적화할 수 있습니다. 예를 들어 이 기능을 사용하면 구매, 버튼 클릭 수, 장바구니에 추가 등과 같은 사용자 지정 이벤트에 따라 최상의 콘텐츠를 최적화할 수 있습니다.
+
 **WhatsApp 채널의 실행 필드**
 
 이메일 및 SMS 외에도 샌드박스 수준에서 WhatsApp 게재에 대한 기본 실행 필드 업데이트를 알 수 있습니다. 또한 WhatsApp 여정 활동 고급 매개 변수 또는 WhatsApp 채널 구성에서 변경하여 전역적으로 설정된 실행 필드를 재정의할 수 있습니다. <!-- [Read more](../FILE.md) -->
 
-**Mailto(구독 취소) 주소에 대한 사용자 지정 특성 지원**
+**Mailto(구독 취소) 주소에 대한 사용자 정의 속성 지원**
 
-Journey Optimizer을 사용하여 Adobe 외부에서 동의를 관리하는 경우 이메일 구성에서 사용자 지정 구독 취소 이메일 주소와 원클릭 구독 취소 링크를 정의하여 외부 사용자 지정 엔드포인트를 설정할 수 있습니다. 수신자가 구독 취소 링크를 클릭하면 Journey Optimizer는 기본 프로필별 매개 변수 몇 가지를 동의 업데이트 이벤트에 추가합니다.
+Journey Optimizer를 사용하면 Adobe 외부에서 동의를 관리하는 경우 이메일 구성에서 원클릭 구독 취소 링크와 사용자 정의 구독 취소 이메일 주소를 정의하여 외부 사용자 정의 엔드포인트를 설정할 수 있습니다. 수신자가 구독 취소 링크를 클릭하면 Journey Optimizer는 기본 프로필별 매개 변수 몇 가지를 동의 업데이트 이벤트에 추가합니다.
 
-이제 사용자 지정 끝점을 추가로 개인화하기 위해 동의 이벤트에도 추가될 사용자 지정 특성을 정의할 수 있습니다. [자세히 보기](../email/list-unsubscribe.md#custom-attributes)
+사용자 정의 엔드포인트를 더욱 개인화하기 위해 이제 동의 이벤트에 추가될 사용자 정의 속성을 정의할 수 있습니다. [자세히 보기](../email/list-unsubscribe.md#custom-attributes)
 
 >[!AVAILABILITY]
 >
->이 기능은 2025년 8월 이후 사용자 지정 **[!UICONTROL 한 번의 클릭으로 구독 취소 URL]**&#x200B;에 이미 사용할 수 있으며, 이제 [제한된 가용성]의 **[!UICONTROL Mailto(구독 취소)]** 옵션에 대해 릴리스되었습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.
+>이 기능은 이미 2025년 8월부터 사용자 정의 **[!UICONTROL 원클릭 구독 취소 URL]**&#x200B;에 사용할 수 있었으며, 이제 제한된 가용성으로 **[!UICONTROL Mailto(구독 취소)]** 옵션이 릴리스되었습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하세요.
 
 사용 가능한 날짜: 2025년 10월 6일
