@@ -5,12 +5,12 @@ title: 개인화 추가
 description: 개인화 편집기로 작업하여 개인화를 추가하는 방법을 알아봅니다.
 feature: Personalization
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Intermediate
 mini-toc-levels: 1
 keywords: 표현식, 편집기, 정보, 시작
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 87245fffb3ad10d51a7500d006dbe69b1905640e
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1565'
 ht-degree: 10%
@@ -32,7 +32,7 @@ ht-degree: 10%
 
 ## 개인화를 추가할 수 있는 위치 {#where}
 
-**[!DNL Journey Optimizer]**&#x200B;개인화 추가 아이콘![&#x200B; 아이콘을 사용하여 모든 필드의 &#x200B;](assets/do-not-localize/add-perso-icon.svg)에 개인화를 추가할 수 있습니다. 자세한 내용을 보려면 아래 섹션을 확장하십시오.
+**[!DNL Journey Optimizer]**&#x200B;개인화 추가 아이콘![ 아이콘을 사용하여 모든 필드의 ](assets/do-not-localize/add-perso-icon.svg)에 개인화를 추가할 수 있습니다. 자세한 내용을 보려면 아래 섹션을 확장하십시오.
 
 +++메시지
 

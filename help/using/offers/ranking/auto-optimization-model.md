@@ -8,7 +8,7 @@ feature: Ranking, Decision Management
 role: User
 level: Experienced
 exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
-source-git-commit: 0e9d8335bed8d8157a0f2302a5ff2b0a74257218
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1492'
 ht-degree: 0%
@@ -96,6 +96,7 @@ ht-degree: 0%
 **관련 항목**:
 
 Thompson 샘플링에 대한 자세한 내용은 다음 연구 논문을 참조하십시오.
+
 * [Thompson 샘플링의 경험적 평가](https://proceedings.neurips.cc/paper/2011/file/e53a0a2978c28872a4505bdb51db06dc-Paper.pdf){target="_blank"}
 * [Multi-armed Bandit 문제에 대한 Thompson 샘플링 분석](https://proceedings.mlr.press/v23/agrawal12/agrawal12.pdf){target="_blank"}
 

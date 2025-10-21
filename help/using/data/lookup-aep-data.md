@@ -5,12 +5,12 @@ title: Adobe Experience Platform 데이터 사용
 description: ' [!DNL Journey Optimizer] 의사 결정 및 개인화 기능에서 Adobe Experience Platform 데이터 세트를 사용하는 방법을 알아봅니다.'
 feature: Personalization, Rules
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Intermediate
 keywords: 표현식, 편집기
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 5%
@@ -34,7 +34,7 @@ Journey Optimizer을 사용하면 개인화, 의사 결정 및 여정 오케스�
 
 * **데이터 세트에 PII 없음** - 조회를 위해 활성화된 데이터 세트에는 PII(개인 식별 정보)가 없어야 합니다.
 
-* &#x200B;
+* 
    * **삭제 위험** - 개인화에 사용된 데이터 세트는 삭제로부터 보호되지 않습니다. 어느 데이터 세트가 사용되고 있는지 추적하여 제거되지 않도록 해야 합니다.
 
 * **스키마 형식** - 데이터 집합은 프로필 또는 이벤트 형식의 **NOT**&#x200B;인 스키마와 연결되어야 합니다.

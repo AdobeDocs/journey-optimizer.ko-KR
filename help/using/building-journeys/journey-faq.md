@@ -11,7 +11,7 @@ keywords: 여정, 질문, 답변, 문제 해결, 도움말, 안내서
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 50c609b3d5c90e64800fb96d9c57d6c2bfa35a66
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '4531'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 Adobe Journey Optimizer 여정에 대한 FAQ는 다음과 같습니다.
 
-세부 정보가 필요하십니까? 이 페이지 하단의 피드백 옵션을 사용하여 질문을 제기하거나 [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"}에 연결하세요.
+세부 정보가 필요하십니까? 이 페이지 하단의 피드백 옵션을 사용하여 질문을 제기하거나 [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}에 연결하세요.
 
 ## 일반 개념
 
@@ -500,8 +500,8 @@ Learn more about [action responses](../action/action-response.md).
 
 **개인화 예제**:
 
-* &quot;{{profile.firstName}}님 안녕하세요, {{event.productName}}을(를) 구매해 주셔서 감사합니다.&quot;
-* &quot;충성도 계층({{profile.loyaltyTier}})을 기반으로 특별 오퍼를 제공합니다.&quot;
+* &quot;`{{profile.firstName}}`님 안녕하세요, `{{event.productName}}`을(를) 구매해 주셔서 감사합니다.&quot;
+* &quot;충성도 계층(`{{profile.loyaltyTier}}`)을 기반으로 특별 오퍼를 제공합니다.&quot;
 * 고객 환경 설정에 따라 변경되는 다이내믹 콘텐츠 블록
 
 [개인화](../personalization/personalize.md)에 대해 자세히 알아보세요.

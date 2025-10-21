@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: IP, 풀, 그룹, 하위 도메인, 전달성
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 11%
@@ -112,6 +112,7 @@ IP 풀 업데이트 상태를 확인하려면 **[!UICONTROL 추가 작업]** 단
 >[!NOTE]
 >
 >IP 풀이 성공적으로 업데이트되면 다음을 기다려야 할 수 있습니다.
+>
 >* 단일 메시지에 소비되기 몇 분 전에
 >* 다음 배치(IP 풀 배치 시)가 배치 메시지에 유효할 때까지.
 

@@ -4,12 +4,12 @@ product: journey optimizer
 title: 고급 표현식 편집기 구문
 description: 고급 표현식 편집기에 사용되는 구문에 대해 알아봅니다
 feature: Journeys
-role: Data Engineer, Architect
+role: Engineer
 level: Experienced
 keywords: 구문, 편집기, 여정
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 5%
@@ -30,7 +30,7 @@ ht-degree: 5%
 
 | 표현식 | 평가 |
 |--- |--- |
-| `4 + 2 * 10` | <ul><li>&#39;*&#39;가 &#39;+&#39;보다 우선함: 2 * 10은 20→ 평가됨</li><li>4 + 20 → 24</li></ul> |
+| `4 + 2 * 10` | <ul><li>&#39;*&#39;가 &#39;+&#39;보다 우선함: 2 \* 10은 20→ 평가됩니다.</li><li>4 + 20 → 24</li></ul> |
 | `(4 + 2) * 10` | <ul><li>괄호는 우선 순위를 변경합니다. (4 + 2)는 6→ 평가됩니다.</li><li> 6 * 10 → 60</li></ul> |
 
 ## 대/소문자 구분 {#case-sensitivity}

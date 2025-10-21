@@ -3,10 +3,10 @@ title: 자격 규칙 만들기
 description: 자격 규칙을 사용하면 프로필 속성 및 대상과 같이 타깃팅하려는 항목을 기반으로 적격 후보를 정의할 수 있습니다.
 feature: Decision Management, API, Collections
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 39c6e82e-c1b1-4dda-a941-3db6324cef37
-source-git-commit: 6378c4a8cb911088c685166b9c1b29a1773d47b7
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 5%

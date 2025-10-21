@@ -5,10 +5,10 @@ title: journeysteps 이벤트 공통 필드
 description: journeysteps 이벤트 공통 필드
 feature: Journeys, Reporting
 topic: Content Management
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Experienced
 exl-id: 42aec986-2352-456a-a725-7f1585ae01f8
-source-git-commit: 0bf1636f527aeefe8ce54ee97389fe8658e716f0
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->이 섹션[에서 여정 속성 특성 &#x200B;](../building-journeys/expression/journey-properties.md#journey-propertoes-fields)에 대해 자세히 알아보세요.
+>이 섹션[에서 여정 속성 특성 ](../building-journeys/expression/journey-properties.md#journey-propertoes-fields)에 대해 자세히 알아보세요.
 
 
 ## 입구 {#entrance-field}

@@ -3,13 +3,13 @@ title: 문자열 함수 라이브러리
 description: 문자열 함수 라이브러리
 feature: Personalization
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 1f16b095b3b063f3fb881aee0b2a928644e19143
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1859'
-ht-degree: 9%
+ht-degree: 6%
 
 ---
 
@@ -232,7 +232,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%=equals(profile.person.name,"John") %}
 ```
 
-## 대/소문자 무시와 같음{#equalsIgnoreCase}
+## 같음 대/소문자 무시{#equalsIgnoreCase}
 
 `equalsIgnoreCase` 함수는 대/소문자를 구분하지 않고 문자열이 지정된 문자열과 같은지 확인하는 데 사용합니다.
 
@@ -291,7 +291,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= formatCurrency(56L,"en_GB") %}
 ```
 
-## URL 호스트 다운로드 {#get-url-host}
+## URL 호스트 가져오기 {#get-url-host}
 
 `getUrlHost` 함수는 URL의 호스트 이름을 검색하는 데 사용됩니다.
 
@@ -309,7 +309,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 &quot;www.myurl.com&quot; 반환
 
-## URL 경로 다운로드 {#get-url-path}
+## URL 경로 가져오기 {#get-url-path}
 
 `getUrlPath` 함수는 URL의 도메인 이름 뒤에 있는 경로를 검색하는 데 사용됩니다.
 
@@ -327,7 +327,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 &quot;/contact.html&quot; 반환
 
-## URL 프로토콜 다운로드 {#get-url-protocol}
+## URL 프로토콜 가져오기 {#get-url-protocol}
 
 `getUrlProtocol` 함수는 URL의 프로토콜을 검색하는 데 사용됩니다.
 
@@ -437,7 +437,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= leftTrim(string) %}
 ```
 
-## 길이 {#length}
+## Length {#length}
 
 `length` 함수는 문자열 또는 식의 문자 수를 가져오는 데 사용됩니다.
 
@@ -725,7 +725,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= startsWith(person.name,"Joe") %}
 ```
 
-## 문자열을 날짜로 변환 {#string-to-date}
+## 문자열을 현재까지 {#string-to-date}
 
 `stringToDate` 함수는 문자열 값을 날짜-시간 값으로 변환합니다. 이 메서드에는 날짜-시간의 문자열 표현과 포맷터의 문자열 표현이라는 두 가지 인수가 사용됩니다.
 
@@ -788,7 +788,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= titleCase(profile.person.location.Street) %}
 ```
 
-## 부울로 변환 {#to-bool}
+## 부울로 {#to-bool}
 
 `toBool` 함수는 인수 유형에 따라 인수 값을 부울 값으로 변환하는 데 사용합니다.
 
@@ -798,7 +798,7 @@ doesNotEndWith(person.emailAddress,".com")
 {= toBool(string) %}: boolean
 ```
 
-## 날짜로 변환 {#to-date-time}
+## 종료 날짜/시간 {#to-date-time}
 
 `toDateTime` 함수는 문자열을 날짜로 변환하는 데 사용합니다. 잘못된 입력에 대한 출력으로 에포크 날짜를 반환합니다.
 
@@ -808,7 +808,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= toDateTime(string, string) %}: date-time
 ```
 
-## 날짜/시간로만 변환 {#to-date-time-only}
+## 종료 날짜/시간만 {#to-date-time-only}
 
 `toDateTimeOnly` 함수는 인수 값을 날짜/시간 전용 값으로 변환하는 데 사용합니다. 잘못된 입력에 대한 출력으로 에포크 날짜를 반환합니다. 이 함수는 문자열, 날짜, long 및 int 필드 유형을 수락합니다.
 
@@ -856,7 +856,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= urlDecode(string) %}: string
 ```
 
-## URL 인코드 {#url-encode}
+## Url 인코딩 {#url-encode}
 
 `Count only null` 함수는 문자열을 URL 인코딩하는 데 사용됩니다.
 

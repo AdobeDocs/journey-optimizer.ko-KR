@@ -5,11 +5,11 @@ title: 권한 수준
 description: 사용자가 다양한 기능에 액세스할 수 있는 높은 수준 및 낮은 수준의 권한에 대해 알아봅니다.
 topic: Administration
 feature: Access Management
-role: Admin, Architect, Developer
+role: Admin, Developer
 level: Experienced
 keywords: 권한, 높은 수준, 낮은 수준, 프로필, admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 2a5db6950ac82fd18deb2e4009c9a43247444d6a
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1303'
 ht-degree: 0%

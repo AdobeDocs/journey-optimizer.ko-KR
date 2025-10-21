@@ -3,10 +3,10 @@ title: 오퍼 제공
 description: 의사 결정 관리는 비즈니스 로직 및 의사 결정 규칙을 사용하여 마케터가 채널 및 애플리케이션에서 최종 사용자에게 개인화된 오퍼 경험을 만들어 제공할 수 있는 서비스 및 UI 프로그램의 컬렉션입니다.
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: 30fed481bb02fd25f1833e76ae94330aa51d153b
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1051'
 ht-degree: 2%
@@ -219,7 +219,7 @@ The following video is intended to support your understanding of the components 
 >
 >This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/342832/?quality=12&captions=kor) -->
+>[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12) -->
 
 ## 다음 단계 {#next-steps}
 

@@ -3,10 +3,10 @@ title: 코드 기반 경험 채널을 사용하여 오퍼 게재
 description: 코드 기반 경험 채널을 사용하여 오퍼를 제공합니다.
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 6e603bc1-0813-435a-9349-d8585a7a0997
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 10%

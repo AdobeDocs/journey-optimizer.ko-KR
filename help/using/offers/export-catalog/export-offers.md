@@ -4,10 +4,10 @@ description: 이 섹션에는 오퍼를 위해 내보낸 데이터 세트에 사
 badge: label="레거시" type="Informative"
 feature: Decision Management, Datasets
 topic: Integrations
-role: User, Data Engineer
+role: User, Developer
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 2a5591617838e76e9cae99c0f97e8aff59311a69
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1950'
 ht-degree: 0%
@@ -179,7 +179,7 @@ ht-degree: 0%
   **필드:** linkURL
   **설명:** 사용자 상호 작용을 위한 선택적 고유 리소스 로케이터입니다. 이 URL은 사용자 에이전트에서 최종 사용자를에 연결하는 데 사용되며 추적할 수 있습니다.
   **유형:** 문자열
-  **예:** &quot;https://cdn.adobe.io/tracker?code=23432&redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
+  **예:** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 +++_experience > 의사 결정 > 컨텐츠 > 배치
 
@@ -243,6 +243,7 @@ ht-degree: 0%
 **설명:** 현재 설정된 제약 조건이 있는지 여부와 제약 조건이 표현되는 방법을 결정합니다. 규칙 또는 하나 이상의 대상 멤버십을 통해 실행될 수 있습니다.
 **유형:** 문자열
 **가능한 값:**
+
 * &quot;없음&quot;(기본값)
 * &quot;eligibilityRule&quot;: &quot;프로필 제약 조건은 제한된 작업이 허용되기 전에 true로 평가되어야 하는 단일 규칙으로 표시됩니다.&quot;
 * &quot;anySegments&quot;: &quot;프로필 제약 조건이 하나 이상의 대상으로 표시되며, 프로필은 제약 조건이 있는 작업이 허용되기 전에 하나 이상의 대상으로 구성되어야 합니다.&quot;

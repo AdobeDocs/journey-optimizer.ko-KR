@@ -5,13 +5,13 @@ title: journeyStep 이벤트 작업 실행 필드
 description: journeyStep 이벤트 작업 실행 필드
 feature: Journeys, Reporting
 topic: Content Management
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Experienced
 exl-id: 273cda84-0261-4c5b-b5f4-0202e8874d05
-source-git-commit: 91835d5b8b1f129c83c79613df30d9413db98ffe
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '416'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -67,6 +67,7 @@ ht-degree: 4%
 유형: 문자열
 
 값:
+
 * http
 * 캡핑
 * timeout
@@ -113,12 +114,12 @@ actionExecOrigError의 오류 코드입니다.
 값:
 
 * 기본
-* ACS 이메일
-* ACS SMS
-* ACS 푸시
+   * ACS 이메일
+   * ACS SMS
+   * ACS 푸시
 * 고객
-* 엡실론
-* ...
+   * 엡실론
+   * ...
 
 유형: 문자열
 

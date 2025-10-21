@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 하위 도메인, PTR, 레코드, DNS, 도메인, 메일
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 9%
@@ -36,7 +36,7 @@ PTR 기록을 사용하여 수신 메일 서버는 해당 IP 주소가 서버가
 
 ## 하위 도메인의 PTR 레코드 액세스 {#access-ptr-records}
 
-[에서 첫 번째 하위 도메인을 Adobe에 &#x200B;](delegate-subdomain.md)위임[!DNL Journey Optimizer]하면 IP에 대한 PTR 레코드가 자동으로 만들어집니다. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL 전자 메일 설정]** > **[!UICONTROL PTR 레코드]** 메뉴에서 액세스할 수 있습니다.
+[에서 첫 번째 하위 도메인을 Adobe에 ](delegate-subdomain.md)위임[!DNL Journey Optimizer]하면 IP에 대한 PTR 레코드가 자동으로 만들어집니다. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL 전자 메일 설정]** > **[!UICONTROL PTR 레코드]** 메뉴에서 액세스할 수 있습니다.
 
 ![](assets/ptr-records.png)
 
@@ -153,6 +153,7 @@ IP 주소와 연결할 새 하위 도메인이 유효한지 확인하기 위해 
 유효성 검사 프로세스가 실패하면 이전 PTR 레코드가 표시됩니다. 이전에 IP 주소와 연결된 유효한 하위 도메인은 변경되지 않습니다.
 
 가능한 업데이트 오류 유형은 다음과 같습니다.
+
 * PTR 레코드에 대한 새 순방향 DNS를 만들지 못했습니다.
 * 레코드 업데이트 실패
 * 관심도를 다시 온보딩하지 못함

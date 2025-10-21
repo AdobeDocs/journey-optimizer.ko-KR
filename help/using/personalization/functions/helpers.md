@@ -3,10 +3,10 @@ title: 도우미
 description: 도우미
 feature: Personalization
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 98202be781bec0b03a9a9f33e93f1b01b7830a37
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 6%
@@ -134,8 +134,8 @@ Some edu specific content
 ## 각{#each}
 
 `each` 도우미는 배열을 반복하는 데 사용됩니다.
-도우미의 구문은 ```{{#each ArrayName}}``` YourContent {{/each}}입니다.
-블록 내에서 **this** 키워드를 사용하여 개별 배열 항목을 참조할 수 있습니다. {{@index}}을(를) 사용하여 배열 요소의 인덱스를 렌더링할 수 있습니다.
+도우미의 구문은 ```{{#each ArrayName}}``` YourContent `{{/each}}`입니다.
+블록 내에서 **this** 키워드를 사용하여 개별 배열 항목을 참조할 수 있습니다. `{{@index}}`을(를) 사용하여 배열 요소의 인덱스를 렌더링할 수 있습니다.
 
 **구문**
 
@@ -216,7 +216,7 @@ Some edu specific content
 
 >[!AVAILABILITY]
 >
->이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.
+>이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하세요.
 
 `executionMetadata` 도우미를 통해 사용자 지정 키-값 쌍을 동적으로 캡처하고 메시지 실행 컨텍스트에 저장할 수 있습니다.
 

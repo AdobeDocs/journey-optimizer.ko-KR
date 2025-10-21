@@ -3,10 +3,10 @@ title: Batch Decisioning API
 description: Batch Decisioning API를 사용하여 사전 정의된 결정 범위 내에서 대상자 프로필에 대한 최상의 오퍼를 선택하는 방법을 알아봅니다.
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: d629367413f106a00d0e940c90bd6d77e6f33a5c
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 3%
@@ -30,7 +30,7 @@ ht-degree: 3%
 
 * 데이터 세트를 메시지 게재 공급업체 API로 내보냅니다.
 
-<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=ko) to learn more about exporting audiences.) -->
+<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html) to learn more about exporting audiences.) -->
 
 >[!NOTE]
 >
@@ -102,12 +102,12 @@ curl -X POST 'https://platform.adobe.io/data/core/dwm/workloads/decisions' \
 
 | 속성 | 설명 | 예 |
 | -------- | ----------- | ------- |
-| `xdm:activityId` | 결정에 대한 고유 식별자. |
+| `xdm:activityId` | 결정에 대한 고유 식별자. |  |
 | `xdm:dataSetId` | 결정 이벤트를 쓸 수 있는 출력 데이터 집합입니다. | `6196b4a1a63bd118dafe093c` |
 | `xdm:includeContent` | 선택적 필드이며 기본적으로 `false`입니다. `true`이면 오퍼 콘텐츠가 데이터 집합의 결정 이벤트에 포함됩니다. | `false` |
-| `xdm:itemCount` | 결정 범위에 대해 요청된 옵션과 같은 항목의 수를 표시하는 선택적 필드입니다. 기본적으로 API는 범위당 하나의 옵션을 반환하지만 이 필드를 지정하여 추가 옵션을 명시적으로 요청할 수 있습니다. 범위당 최소 1개에서 최대 30개의 옵션을 요청할 수 있습니다. | `1` | `xcore:offer-activity:1410cdcda196707b` |
+| `xdm:itemCount` | 결정 범위에 대해 요청된 옵션과 같은 항목의 수를 표시하는 선택적 필드입니다. 기본적으로 API는 범위당 하나의 옵션을 반환하지만 이 필드를 지정하여 추가 옵션을 명시적으로 요청할 수 있습니다. 범위당 최소 1개에서 최대 30개의 옵션을 요청할 수 있습니다. | `xcore:offer-activity:1410cdcda196707b` |
 | `xdm:placementId` | 고유 배치 식별자. | `xcore:offer-placement:1410c4117306488a` |
-| `xdm:propositionRequests` | `placementId` 및 `activityId`이(가) 포함된 래퍼입니다. |
+| `xdm:propositionRequests` | `placementId` 및 `activityId`이(가) 포함된 래퍼입니다. |  |
 | `xdm:segmentIds` | 값은 대상자의 고유 식별자를 포함하는 배열입니다. 하나의 값만 포함할 수 있습니다. | `609028e4-e66c-4776-b0d9-c782887e2273` |
 
 주요 개념 및 속성에 대한 개요는 [의사 결정 관리 설명서](../../get-started/starting-offer-decisioning.md)를 참조하세요.

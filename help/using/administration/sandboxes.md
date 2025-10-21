@@ -5,11 +5,11 @@ title: 샌드박스 사용 및 할당
 description: 샌드박스를 관리하는 방법 알아보기
 feature: Sandboxes
 topic: Administration
-role: Admin, Architect, Developer
+role: Admin, Developer
 level: Experienced
 keywords: 샌드박스, 가상, 환경, 조직, 플랫폼
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 28%
@@ -70,4 +70,4 @@ ht-degree: 28%
 
 샌드박스의 정의, 그리고 개발과 프로덕션 샌드박스를 구분하는 방법을 이해합니다. 샌드박스를 만들고, 재설정하고, 삭제하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416656?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334355?quality=12)

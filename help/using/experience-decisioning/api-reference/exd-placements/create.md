@@ -3,9 +3,9 @@ title: exd 배치 만들기
 description: 확장 전략은 오퍼를 결정하는 제한 및 등급 방법과 연관된 컬렉션으로 구성됩니다.
 feature: Decision Management, API, Collections
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
-source-git-commit: 8fa34ebb7c853f9af5b3f58574374a3acb641dd9
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 6%

@@ -5,11 +5,11 @@ title: 표현식 조각 사용
 description: ' [!DNL Journey Optimizer] 개인화 편집기에서 식 조각을 사용하는 방법을 알아봅니다.'
 feature: Personalization, Fragments
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Intermediate
 keywords: 표현식, 편집기, 라이브러리, 개인화
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 87245fffb3ad10d51a7500d006dbe69b1905640e
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '994'
 ht-degree: 0%

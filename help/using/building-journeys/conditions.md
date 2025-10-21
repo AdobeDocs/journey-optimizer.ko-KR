@@ -12,7 +12,7 @@ hidefromtoc: true
 hide: true
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1601'
 ht-degree: 17%
@@ -30,7 +30,7 @@ ht-degree: 17%
 
 >[!AVAILABILITY]
 >
->이러한 조건은 제한된 가용성의 요청 시 액세스할 수 있는 **최적화** 활동을 통해 사용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.
+>이러한 조건은 제한된 가용성의 요청 시 액세스할 수 있는 **최적화** 활동을 통해 사용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하세요.
 >
 >이 용량에 액세스할 수 없는 경우에도 기존 [조건 활동](condition-activity.md)을 사용할 수 있습니다.
 
@@ -192,4 +192,4 @@ ht-degree: 17%
 
    >[!NOTE]
    >
-   >대상자 참여 상태가 **실현됨**&#x200B;인 개인만 대상자의 구성원으로 간주됩니다. 대상자를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ko#interpret-segment-results){target="_blank"}를 참조하세요.
+   >대상자 참여 상태가 **실현됨**&#x200B;인 개인만 대상자의 구성원으로 간주됩니다. 대상자를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}를 참조하세요.

@@ -3,13 +3,13 @@ title: 맵 함수 라이브러리
 description: 맵 함수 라이브러리
 feature: Personalization
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: de6a8da2-55cf-4105-ba93-40c556732626
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '102'
-ht-degree: 8%
+ht-degree: 6%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 8%
 
 개인화에 맵 함수를 사용하여 맵과의 상호 작용을 보다 쉽게 만듭니다.
 
-## 다운로드{#get}
+## Get{#get}
 
 `get` 함수는 특정 키에 대한 맵의 값을 검색하는 데 사용됩니다.
 

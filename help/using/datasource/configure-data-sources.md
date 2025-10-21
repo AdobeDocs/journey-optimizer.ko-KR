@@ -5,11 +5,11 @@ title: 데이터 소스 구성
 description: 데이터 소스 구성 방법 알아보기
 feature: Journeys, Data Sources
 topic: Administration
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Intermediate, Experienced
 keywords: 데이터, 소스, 구성, 필드
 exl-id: 9b0dcffb-f543-4066-850c-67ec33f74a31
-source-git-commit: 521b643dfea095c2e9499db60038dc7202fc8648
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 14%

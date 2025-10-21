@@ -5,10 +5,10 @@ title: 여정 필드
 description: 여정 필드
 feature: Journeys, Reporting
 topic: Content Management
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Experienced
 exl-id: 177b4a97-c757-40ca-a190-fbd88169e5e2
-source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '78'
 ht-degree: 10%
@@ -22,7 +22,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->이 섹션[에서 여정 속성 특성 &#x200B;](../building-journeys/expression/journey-properties.md#journey-propertoes-fields)에 대해 자세히 알아보세요.
+>이 섹션[에서 여정 속성 특성 ](../building-journeys/expression/journey-properties.md#journey-propertoes-fields)에 대해 자세히 알아보세요.
 
 
 ## journeyID {#journeyid-field}

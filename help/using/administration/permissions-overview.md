@@ -5,11 +5,11 @@ title: 사용자 관리 개요
 description: 권한 정의 및 관리 방법 알아보기
 feature: Access Management
 topic: Administration
-role: Admin, Architect
+role: Admin, Developer
 level: Intermediate
 keywords: 권한, 권한, 제한, 액세스, 샌드박스
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 8%
@@ -22,7 +22,7 @@ ht-degree: 8%
 
 [!DNL Journey Optimizer]에 대한 액세스 제어는 Adobe Experience Cloud의 **권한**&#x200B;을 통해 제공됩니다. 이 기능은 권한 및 샌드박스를 사용자와 연결하는 역할 및 정책을 활용합니다.
 
-Journey Optimizer에 대한 액세스 제어를 구성하려면 조직에 대한 시스템 또는 제품 관리자 권한이 있어야 합니다. 권한을 부여하거나 철회할 수 있는 최소 역할은 제품 관리자입니다. 권한을 관리할 수 있는 다른 관리자 역할은 시스템 관리자(제한 없음)입니다. 자세한 내용은 관리자 역할에 대한 [Adobe 도움말 센터 문서](https://helpx.adobe.com/kr/enterprise/using/admin-roles.html){target="_blank"}를 참조하십시오.
+Journey Optimizer에 대한 액세스 제어를 구성하려면 조직에 대한 시스템 또는 제품 관리자 권한이 있어야 합니다. 권한을 부여하거나 철회할 수 있는 최소 역할은 제품 관리자입니다. 권한을 관리할 수 있는 다른 관리자 역할은 시스템 관리자(제한 없음)입니다. 자세한 내용은 관리자 역할에 대한 [Adobe 도움말 센터 문서](https://helpx.adobe.com/enterprise/using/admin-roles.html){target="_blank"}를 참조하십시오.
 
 <!-- A high-level workflow for gaining and assigning access permissions can be summarized as follows:
 

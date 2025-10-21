@@ -8,7 +8,7 @@ feature: Ranking, Decision Management
 role: User
 level: Experienced
 exl-id: c73b3092-e96d-4957-88e6-500e99542782
-source-git-commit: 0e9d8335bed8d8157a0f2302a5ff2b0a74257218
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 5%
@@ -60,6 +60,7 @@ ht-degree: 5%
 * **온라인 추론** 단계에서는 모델에서 생성한 실시간 점수를 기반으로 후보 오퍼의 순위가 지정됩니다. 개인화된 최적화는 사용자와 오퍼를 위한 특징을 담기 어려운 기존의 협업 필터링 기법과 달리, 딥러닝 기반의 추천 방법으로, 복잡하고 비선형적인 특징 상호 작용 패턴을 포함하고 학습할 수 있다.
 
 다음은 개인화된 최적화의 기본 아이디어를 설명하는 간단한 예입니다. 사용자와 오퍼 간의 과거 상호 작용을 저장하는 데이터 세트가 있다고 가정해 봅시다(그림 1 참조). 다음이 있습니다.
+
 * 두 개의 오퍼, offer_1 및 offer_2,
 * feature_1 및 feature_2, 두 피쳐
 * 응답 열.

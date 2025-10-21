@@ -3,12 +3,12 @@ product: journey optimizer
 title: inLastDays
 description: inLastDays 함수에 대해 알아보기
 feature: Journeys
-role: Data Engineer, Architect
+role: Engineer
 level: Experienced
 keywords: inLastDays, 함수, 표현식, 여정
 exl-id: 1b150568-17c2-454d-847e-17bac3d0b35d
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '46'
 ht-degree: 19%

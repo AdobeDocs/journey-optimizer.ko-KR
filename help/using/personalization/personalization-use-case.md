@@ -5,11 +5,11 @@ title: Personalization 사용 사례&콜론; 주문 상태 알림
 description: 프로필, 오퍼 결정 및 컨텍스트 정보를 사용하여 메시지를 개인화하는 방법을 알아봅니다.
 feature: Personalization
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Intermediate
 keywords: 표현식, 편집기, 사용 사례, 개인화
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: 1deb04490e53cbd5d67abda229bb4f850055510f
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 2%
@@ -110,4 +110,4 @@ ht-degree: 2%
 
 아래 비디오에서는 여정의 컨텍스트 데이터를 활용하여 이메일을 개인화하는 유사한 사용 사례를 보여줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3428531?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3425027?quality=12)

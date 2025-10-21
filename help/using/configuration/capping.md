@@ -8,7 +8,7 @@ role: Developer
 level: Beginner
 keywords: 외부, API, 최적화 프로그램, 한도
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: 13af123030449d870f44f3470710b0da2c6f4775
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 6%
@@ -44,6 +44,7 @@ ht-degree: 6%
 이 컬렉션은 __[Postman 콘솔의 통합](https://console.adobe.io/integrations) > 사용해 보기 > Postman 다운로드__&#x200B;를 통해 생성된 Adobe I/O 변수 컬렉션을 공유하도록 설정되었습니다. 이 컬렉션은 선택한 통합 값으로 Postman 환경 파일을 생성합니다.
 
 다운로드하여 Postman에 업로드한 다음에는 `{JO_HOST}`, `{BASE_PATH}`, `{SANDBOX_NAME}` 세 가지 변수를 추가해야 합니다.
+
 * `{JO_HOST}` : [!DNL Journey Optimizer] 게이트웨이 URL.
 * `{BASE_PATH}` : API의 진입점입니다.
 * `{SANDBOX_NAME}`: API 작업이 발생할 샌드박스 이름에 해당하는 헤더 **x-sandbox-name**(예: ‘prod’)입니다.  자세한 내용은 [샌드박스 개요](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ko){target="_blank"}를 참조하십시오.
@@ -182,6 +183,7 @@ ht-degree: 6%
 >이미 배포된 구성을 업데이트한 후 재배포가 필요합니다.
 
 사용할 API 호출:
+
 1. **`list`** - 기존 구성을 검색합니다.
 1. **`get`** - 특정 구성의 세부 정보를 가져옵니다.
 1. **`update`** - 구성을 수정합니다.

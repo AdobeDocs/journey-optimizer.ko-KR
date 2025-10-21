@@ -5,11 +5,11 @@ title: AEP으로 데이터 보내기
 description: AEP으로 데이터를 전송하는 방법 알아보기
 feature: Journeys, Use Cases
 topic: Content Management
-role: User, Data Engineer
+role: User, Developer
 level: Intermediate, Experienced
 keywords: 여정, 사용 사례
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 2%

@@ -5,11 +5,11 @@ title: 다이내믹 콘텐츠 시작
 description: 다이내믹 콘텐츠에 대해 자세히 알아보기
 feature: Personalization
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Intermediate
 keywords: 표현식, 편집기, 시작하기, 조건, 시작
 exl-id: be9a3f83-8e22-4efa-9d48-37bf554018fa
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 60%
@@ -36,4 +36,4 @@ ht-degree: 60%
 
 조건부 규칙 빌더로 다이내믹 콘텐츠를 만드는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3413674?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3409815?quality=12)

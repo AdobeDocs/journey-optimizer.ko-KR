@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 2161baf0-38b7-4397-bffe-083929e8033a
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '935'
 ht-degree: 11%
@@ -99,11 +99,11 @@ ht-degree: 11%
 
   | 연산자  | 설명  | 예  |
   |---|---|---|
-  | 다음과 같음  | 도메인의 정확한 일치  |
+  | 다음과 같음  | 도메인의 정확한 일치  | |
   | 다음으로 시작  | 입력한 문자열로 시작하는 모든 도메인(하위 도메인 포함)과 일치합니다.  | 예: &quot;다음으로 시작: dev&quot; -> dev.example.com, dev.products.example.com, developer.example.com과 같이 &quot;dev&quot;로 시작하는 모든 도메인 및 하위 도메인과 일치  |
   | 다음으로 끝남  | 입력한 문자열로 끝나는 모든 도메인(하위 도메인 포함)과 일치합니다.  | 예: &quot;example.com으로 끝남&quot; -> stage.example.com, prod.example.com, myexample.com 등 &quot;example.com&quot;으로 끝나는 모든 도메인 및 하위 도메인과 일치  |
   | 와일드카드 일치  | &quot;와일드카드 일치&quot; 연산자를 사용하면 사용자가 &quot;dev&quot;와 같이 문자열 중간에 와일드카드 일치를 정의할 수 있습니다.*.example.com&quot;. 유효성 검사 규칙은 연산자가 &quot;와일드카드 일치&quot;인 경우 값에 와일드카드(별표)를 하나만 포함해야 합니다.  | 예: &quot;와일드카드 일치: dev.*.example.com&quot; -> dev.products.example.com, dev.mytest.products.example.com, dev.blog.example.com 등의 도메인과 일치합니다.  |
-  | 임의  | 모든 도메인에 일치 - 도메인 간 특정 경로를 테스트할 때 유용함  |
+  | 임의  | 모든 도메인에 일치 - 도메인 간 특정 경로를 테스트할 때 유용함  |  |
 
 
 * **경로**

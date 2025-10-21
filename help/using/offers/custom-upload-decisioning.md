@@ -6,7 +6,7 @@ feature: Decision Management
 role: User
 level: Intermediate
 exl-id: bd950410-691b-49d8-8851-8c6c448c00fd
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 2%
@@ -23,14 +23,14 @@ Journey Optimizer을 사용하면 Adobe Experience Platform으로의 사용자 �
 2. 오퍼 표시에서 컨텐츠 개인화.
 
 사용자 지정 업로드 대상자에 대한 자세한 내용은 다음 섹션을 참조하십시오.
+
 * [대상자 및 Journey Optimizer 시작](../audience/about-audiences.md)
-* [Adobe Experience Platform에서 대상 가져오기](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
+* [Adobe Experience Platform에서 대상 가져오기](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
 
 ## 반드시 알아야 할 사항 {#must-read}
 
 * 이 기능은 Decisioning(이전의 &quot;Experience Decisioning&quot;)이 아닌 **의사 결정 관리**&#x200B;에서만 지원됩니다.
 * **Decisioning API(허브)** 요청을 통해서만 사용할 수 있으며 **Edge Decisioning API** 또는 **batch decisioning**&#x200B;에서 지원하지 않습니다.
- 
 
 ## 사용자 정의 업로드 대상자를 자격 기준으로 사용 {#eligibilty}
 
