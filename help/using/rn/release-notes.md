@@ -268,7 +268,7 @@ ht-degree: 49%
 <tr>
 <td>
 <p>Journey Optimizer Experimentation Accelerator에는 이제 실험, 통찰력 및 기회와 상호 작용할 수 있는 AI 기반의 대화 도구인 실험 에이전트가 포함됩니다. Journey Optimizer Experimentation Accelerator 경험을 향상시켜 실험을 보다 효율적으로 실행하고, 작동 방식을 파악하고, 다음 프로젝트를 최적화할 위치를 찾는 데 도움이 됩니다.</p>
-<p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=ko" target="_blank">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2025년 10월 10일 토요일</p>
 </td>
 </tr>
