@@ -7,16 +7,16 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: be3936e4-8185-4031-9daf-95eea58077d0
-source-git-commit: 1ad534b7877f0ac6c1f50e29f41af708e83b34c9
+source-git-commit: 1247742550ab5fbd22ab8efc4300fd5c0d1a5c12
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 25%
+source-wordcount: '462'
+ht-degree: 24%
 
 ---
 
 # 프로필 시작 {#profiles-gs}
 
-## 프로필 기본 정보
+## 프로필 정보
 
 [!DNL Adobe Journey Optimizer]의 실시간 고객 프로필을 사용하면 온라인과 오프라인, CRM, 서드파티를 비롯한 여러 채널의 데이터를 결합하여 각각의 고객을 거시적인 관점에서 확인할 수 있습니다. **프로필**&#x200B;로 고객 데이터를 통합하여 모든 고객 상호 작용에 대해 실행 가능하며 시점까지 포함한 통합적인 설명을 확인할 수 있습니다.
 
@@ -25,6 +25,10 @@ ht-degree: 25%
 **실시간 고객 프로필{&#x200B;1} - 온라인, 오프라인 및 익명 소스의 고객 특성 및 이벤트를 하나의 통합 프로필에 통합합니다. &#x200B;**&#x200B;프로필을 사용하여 여러 접점에서 개인화된 실시간 경험으로 고객 참여를 유도합니다. &#x200B;
 
 **데이터 수집** - 동작, 트랜잭션, 재무 및 운영 데이터를 수집하려면 다양한 데이터 소스에 연결합니다. 실시간으로 또는 일괄 업로드를 통해 데이터를 수집하여 프로필을 지속적으로 업데이트합니다.
+
+>[!NOTE]
+>
+>데이터를 수집할 때 이메일은 대소문자를 구분합니다. 즉, 중복 프로필을 만들어 [!DNL Journey Optimizer] 여정 및 캠페인에서 이러한 프로필을 타겟팅할 때 사용할 수 있습니다(예: John.Greene@luma.com용 프로필 하나, john.green@luma.com용 프로필 하나).
 
 **ID 그래프** - 충성도 ID 또는 CRM 시스템 ID와 같은 고객 ID를 사용하여 다른 소스의 데이터를 결합합니다. &#x200B;브랜드 데이터 세트 내의 다양한 ID 간 관계를 매핑하여 고객에 대한 포괄적인 보기를 만듭니다. &#x200B;
 
@@ -36,7 +40,7 @@ ht-degree: 25%
 >
 >* [실시간 고객 프로필 설명서](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ko){target="_blank"}
 >* [실시간 고객 프로필 데이터 및 세분화를 위한 기본 보호 기능](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails){target="_blank"}
->* {&#x200B;0}데이터 수집 설명서[&#128279;](https://experienceleague.adobe.com/ko/docs/experience-platform/ingestion/home){target="_blank"}
+>* {&#x200B;0}데이터 수집 설명서[](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home){target="_blank"}
 
 ## 프로필 대시보드
 
@@ -54,4 +58,4 @@ ht-degree: 25%
 
 Adobe Experience Platform에서 실시간 고객 프로필을 조합하고 업데이트하는 방법과 이러한 프로필에 액세스하여 사용하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/31709?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/27251?quality=12)
