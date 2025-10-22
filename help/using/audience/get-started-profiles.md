@@ -7,9 +7,9 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: be3936e4-8185-4031-9daf-95eea58077d0
-source-git-commit: d983d10124be2bad645ad3d8f14c38c26a453d5a
+source-git-commit: 9ef761d216867c302a9c367dc509a52dc08fb06c
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '464'
 ht-degree: 23%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 23%
 
 >[!NOTE]
 >
->데이터를 수집할 때 이메일은 대소문자를 구분합니다. 즉, 중복된 프로필(예: John.Greene@luma.com용 프로필 하나, john.greene@luma.com용 프로필 하나)을 만들어 [!DNL Journey Optimizer] 여정 및 캠페인에서 이러한 프로필을 타깃팅할 때 사용할 수 있습니다.
+>데이터를 수집할 때 이메일은 대소문자를 구분합니다. 즉, 중복 프로필을 만들어 [!DNL Journey Optimizer] 여정 및 캠페인에서 해당 수신자를 타겟팅할 때 사용할 수 있습니다(예: John.Greene@luma.com용 프로필 하나, john.greene@luma.com용 프로필 하나).
 
 **ID 그래프** - 충성도 ID 또는 CRM 시스템 ID와 같은 고객 ID를 사용하여 다른 소스의 데이터를 결합합니다. &#x200B;브랜드 데이터 세트 내의 다양한 ID 간 관계를 매핑하여 고객에 대한 포괄적인 보기를 만듭니다. &#x200B;
 
@@ -40,7 +40,7 @@ ht-degree: 23%
 >
 >* [실시간 고객 프로필 설명서](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ko){target="_blank"}
 >* [실시간 고객 프로필 데이터 및 세분화를 위한 기본 보호 기능](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails){target="_blank"}
->* {&#x200B;0}데이터 수집 설명서[&#128279;](https://experienceleague.adobe.com/ko/docs/experience-platform/ingestion/home){target="_blank"}
+>* {&#x200B;0}데이터 수집 설명서[](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home){target="_blank"}
 
 ## 프로필 대시보드
 
@@ -58,4 +58,4 @@ ht-degree: 23%
 
 Adobe Experience Platform에서 실시간 고객 프로필을 조합하고 업데이트하는 방법과 이러한 프로필에 액세스하여 사용하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/31709?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27251?quality=12)
