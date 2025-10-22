@@ -111,16 +111,16 @@ ht-degree: 4%
 
     예를 들어 이메일 뉴스레터 수신을 옵트아웃하지 않은 고객에게만 커뮤니케이션을 보내려면 사용자 지정 정책을 만들고 다음 조건을 정의합니다.
     
-    * **[!UICONTROL 마케팅 액션]**이 **[!UICONTROL 이메일]**
+    * **[!UICONTROL 마케팅 액션]**&#x200B;이 **[!UICONTROL 이메일]**
     
-    인 경우 **[!UICONTROL 뉴스레터_이메일]**이 존재하지 않습니다 **[!UICONTROL false]** 또는 **[!UICONTROL 뉴스레터_이메일]**이(가) 존재하지 않습니다 **[!UICONTROL false]**
+    인 경우 **[!UICONTROL 뉴스레터_이메일]**&#x200B;이 존재하지 않습니다 **[!UICONTROL false]** 또는 **[!UICONTROL 뉴스레터_이메일]**&#x200B;이(가) 존재하지 않습니다 **[!UICONTROL false]**
     
     ![](assets/consent-policy-email-newsletter.png){width=80%}
     
     >[!TIP]
     >
-    >프로필 사용 데이터 세트에는 프로필 속성 **[!UICONTROL Newsletter_Email]**이 포함되며 값은 &#39;true&#39;로 설정되어야 합니다(예: 1단계에서 설명)
+    >프로필 사용 데이터 세트에는 프로필 속성 **[!UICONTROL Newsletter_Email]**&#x200B;이 포함되며 값은 &#39;true&#39;로 설정되어야 합니다(예: 1단계에서 설명)
 
-1. 동의 정책을 만든 후에는 [!DNL Journey Optimizer]채널 구성[ 또는 ](consent.md#surface-marketing-actions)사용자 지정 작업 여정[을 사용하여 ](consent.md#journey-custom-actions)에서 활용하십시오.
+1. 동의 정책을 만든 후에는 [!DNL Journey Optimizer]채널 구성[&#x200B; 또는 &#x200B;](consent.md#surface-marketing-actions)사용자 지정 작업 여정[을 사용하여 &#x200B;](consent.md#journey-custom-actions)에서 활용하십시오.
 
 1. 이제 여정 및 캠페인에서 이러한 채널 구성 또는 사용자 지정 작업을 사용하여 <!--targeted--> 고객의 환경 설정을 적용할 수 있습니다.
