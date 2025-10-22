@@ -10,9 +10,9 @@ level: Experienced
 keywords: 정책, 거버넌스, 플랫폼, 동의, 헬스케어 실드
 hide: true
 hidefromtoc: true
-source-git-commit: 0aa29a163e337359ea4455edee57bc49fd06a020
+source-git-commit: 95f101c3d8f875dbf7988f10b106fc58f705e926
 workflow-type: tm+mt
-source-wordcount: '865'
+source-wordcount: '852'
 ht-degree: 4%
 
 ---
@@ -49,9 +49,9 @@ ht-degree: 4%
 
 1. 프로필 수준 <!--how??-->에서 부울 연산자로 환경 설정 특성을 정의합니다. 예를 들어 다음을 지정할 수 있습니다.
 
-   * Newsletter_Email - 부울(True/False)
-   * 오퍼 - 부울(True/False)
-   * 새 제품 출시 - 부울(True/False)
+   * *Newsletter_Email* - 부울(true/false)
+   * *Offers_Push* - 부울(True/False)
+   * *새 제품 출시* - 부울(True/False)
 
    이러한 특성은 프로필이 활성화된 [데이터 세트](../data/get-started-datasets.md)의 스키마에서 캡처되고 [통합 고객 프로필](../audience/get-started-profiles.md)에 매핑됩니다.
 
@@ -59,13 +59,13 @@ ht-degree: 4%
    >
    >고객 동의 및 연락처 환경 설정은 복잡한 주제입니다. 동의 및 컨텍스트 환경 설정을 [!DNL Experience Platform]에서 수집, 처리 및 필터링하는 방법에 대해 알아보려면 다음 문서를 읽는 것이 좋습니다.
    >
-   >* 동의 데이터를 수집하는 데 필요한 스키마 필드 그룹에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview){target="_blank"}를 참조하세요. 고객으로부터 수집한 동의 데이터를 처리하고 저장된 고객 프로필에 통합하는 방법에 대해 자세히 설명합니다.
-   >* 동의 및 환경 설정 필드 그룹에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/field-groups/profile/consents#ingest){target="_blank"}를 참조하세요.
-   >* 사용자 지정 환경 설정 필드를 스키마에 추가하려면 [이 섹션](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/governance-privacy-security/consent/adobe/dataset#custom-consent){target="_blank"}의 단계를 따르십시오.
+   >* 동의 데이터를 수집하는 데 필요한 스키마 필드 그룹에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview){target="_blank"}를 참조하세요. 고객으로부터 수집한 동의 데이터를 처리하고 저장된 고객 프로필에 통합하는 방법에 대해 자세히 설명합니다.
+   >* 동의 및 환경 설정 필드 그룹에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/consents#ingest){target="_blank"}를 참조하세요.
+   >* 사용자 지정 환경 설정 필드를 스키마에 추가하려면 [이 섹션](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/adobe/dataset#custom-consent){target="_blank"}의 단계를 따르십시오.
 
 1. 고객의 환경 설정을 캡처할 페이지를 만듭니다. 다음 방법 중 하나를 사용하십시오.
 
-   * [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/home){target="_blank"}를 사용하여 고객의 환경 설정을 기록할 웹 페이지를 만듭니다.
+   * [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home){target="_blank"}를 사용하여 고객의 환경 설정을 기록할 웹 페이지를 만듭니다.
 
    * 프로필 데이터를 통해 고객의 환경 설정을 캡처하는 양식을 포함하는 [!DNL Journey Optimizer] [랜딩 페이지](../landing-pages/create-lp.md)를 사용합니다.  [양식에 대해 자세히 알아보기](../landing-pages/lp-forms.md) <!--Forms not released/announced yet - TBC-->
 
@@ -75,21 +75,23 @@ ht-degree: 4%
 
 1. 이 페이지에서 고객은 확인란을 선택하거나 선택 취소하여 주제 단위 구독과 같은 환경 설정을 업데이트할 수 있습니다.
 
-   각 작업은 프로필 사용 데이터 세트 스키마`True`에 데이터를 수집하여 해당 프로필 특성(`False`(옵트인, <!-- that contains the corresponding preference fields-->(옵트아웃)에 대해 저장된 동의 이벤트를 트리거합니다.
+   각 작업은 프로필 사용 데이터 세트 스키마`true`에 데이터를 수집하여 해당 프로필 특성(`false`(옵트인, <!-- that contains the corresponding preference fields-->(옵트아웃)에 대해 저장된 동의 이벤트를 트리거합니다.
 
    <!--Record your users' preferences through the web page or landing page that you created. The data is saved against the corresponding profile, meaning that the preference data is ingested into a Profile-enabled dataset whose schema contains consent/preference fields.-->
 
-   예를 들어 이메일 주소가 john.black@lumamail.com 인 사용자는 오퍼를 받는 데 동의하지만 뉴스레터를 받고 싶지 않을 수 있습니다.
+   예를 들어 <!--whose email address is john.black@lumamail.com--> 사용자는 푸시 오퍼를 받는 데 동의하지만 이메일 뉴스레터를 받지 않으려고 합니다. 해당 프로필은 다음과 같이 업데이트됩니다.
 
-   해당 프로필 데이터 세트가 다음과 같이 업데이트됩니다.
+   ![](assets/profile-preference-attributes.png){width=80%}
 
-   | 속성 = 이메일 ID | 속성 = 오퍼 | 속성 = 뉴스레터 |
-   |---------|----------|---------|
-   | john.black@lumamail.com | Y | N |
+<!--The corresponding profile dataset is updated as follows:
 
-   >[!NOTE]
-   >
-   >수신 동의 이벤트는 고객 프로필에 전달되어 실시간 업데이트를 보장합니다. 각 프로필은 구독 환경 설정 전반에 걸쳐 가장 최근의 선택 사항을 반영합니다.
+|Attribute = Email id | Attribute = Offers_Push | Attribute = Newsletters_Email |
+|---------|----------|---------|
+| john.black@lumamail.com | Y | N |-->
+
+    >[!NOTE]
+    >
+    >들어오는 동의 이벤트는 고객 프로필에 전달되어 실시간 업데이트를 보장합니다. 각 프로필은 구독 환경 설정에서 가장 최근에 선택한 항목을 반영합니다.
 
 1. Adobe Experience Platform에서 사용자 정의 정책(**[!UICONTROL 개인 정보]** > **[!UICONTROL 정책]** 메뉴)을 생성합니다. [방법 알아보기](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=ko#create-policy){target="_blank"}
 
@@ -109,16 +111,16 @@ ht-degree: 4%
 
     예를 들어 이메일 뉴스레터 수신을 옵트아웃하지 않은 고객에게만 커뮤니케이션을 보내려면 사용자 지정 정책을 만들고 다음 조건을 정의합니다.
     
-    * **[!UICONTROL 마케팅 액션]**&#x200B;이 **[!UICONTROL 이메일]**
+    * **[!UICONTROL 마케팅 액션]**이 **[!UICONTROL 이메일]**
     
-    인 경우 **[!UICONTROL 뉴스레터_이메일]**&#x200B;이 존재하지 않습니다 **[!UICONTROL false]** 또는 **[!UICONTROL 뉴스레터_이메일]**&#x200B;이(가) 존재하지 않습니다 **[!UICONTROL false]**
+    인 경우 **[!UICONTROL 뉴스레터_이메일]**이 존재하지 않습니다 **[!UICONTROL false]** 또는 **[!UICONTROL 뉴스레터_이메일]**이(가) 존재하지 않습니다 **[!UICONTROL false]**
     
-    ![](assets/consent-policy-email-newsletter.png){width=100%}
+    ![](assets/consent-policy-email-newsletter.png){width=80%}
     
     >[!TIP]
     >
-    >프로필 사용 데이터 세트에는 &#39;true&#39;(예: 1단계에서 설명)로 설정된 프로필 속성 **[!UICONTROL Newsletter_Email]**&#x200B;이(가) 포함되어야 합니다.
+    >프로필 사용 데이터 세트에는 프로필 속성 **[!UICONTROL Newsletter_Email]**이 포함되며 값은 &#39;true&#39;로 설정되어야 합니다(예: 1단계에서 설명)
 
-1. 동의 정책을 만든 후에는 [!DNL Journey Optimizer]채널 구성[&#x200B; 또는 &#x200B;](consent.md#surface-marketing-actions)사용자 지정 작업 여정[을 사용하여 &#x200B;](consent.md#journey-custom-actions)에서 활용하십시오.
+1. 동의 정책을 만든 후에는 [!DNL Journey Optimizer]채널 구성[ 또는 ](consent.md#surface-marketing-actions)사용자 지정 작업 여정[을 사용하여 ](consent.md#journey-custom-actions)에서 활용하십시오.
 
 1. 이제 여정 및 캠페인에서 이러한 채널 구성 또는 사용자 지정 작업을 사용하여 <!--targeted--> 고객의 환경 설정을 적용할 수 있습니다.
