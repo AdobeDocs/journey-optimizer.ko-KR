@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 설정, 이메일, 구성
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: da82432dd15f19ac7db52f491e5afd5ba6d4e3d7
+source-git-commit: ea8f77c2821bfae7b853b3ac39ea22f0d19ae43d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1419'
+ht-degree: 96%
 
 ---
 
@@ -24,6 +24,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >이메일 구성을 만들기 전에 이메일 전송에 사용할 하위 도메인을 설정하여 신뢰도를 유지하고 전달성을 향상시킬 수 있습니다. [자세히 알아보기](../configuration/about-subdomain-delegation.md)
+>
+>이메일 채널 구성을 만들기 전에 먼저 하나 이상의 IP 풀을 만들어야 합니다. [자세히 알아보기](../configuration/ip-pools.md)
 
 이메일 설정은 아래 설명과 같이 채널 구성의 전용 섹션에서 정의합니다.
 
@@ -148,7 +150,7 @@ IP 풀을 선택한 후, IP 풀 드롭다운 목록 아래에 표시된 IP 주�
 >id="ajo_surface_seed_list"
 >title="시드 목록 추가"
 >abstract="특정 내부 주소를 대상자에게 자동으로 추가하려면 원하는 시드 목록을 선택합니다. 이러한 시드 주소는 게재 실행 시간에 포함되며 확인 목적으로 메시지와 동일한 사본을 수신합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=ko#use-seed-list" text="시드 목록이란 무엇입니까?"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="시드 목록이란 무엇입니까?"
 
 [!DNL Journey Optimizer]의 시드 목록을 사용하면 특정 이메일 시드 주소를 게재에 자동으로 포함할 수 있습니다. [자세히 알아보기](../configuration/seed-lists.md)
 
@@ -175,7 +177,7 @@ IP 풀을 선택한 후, IP 풀 드롭다운 목록 아래에 표시된 IP 주�
 >id="ajo_admin_presets_retryperiod"
 >title="재시도 기간 조정"
 >abstract="일시적인 소프트 바운스 오류로 인해 이메일을 게재하지 못하면 3.5일(84시간)간 재시도를 수행합니다. 필요에 맞게 이 기본 재시도 기간을 조정할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html?lang=ko" text="재시도 정보"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html" text="재시도 정보"
 
 **이메일 재시도 매개변수**&#x200B;를 구성할 수 있습니다.
 
