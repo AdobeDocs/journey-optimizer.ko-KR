@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 1247742550ab5fbd22ab8efc4300fd5c0d1a5c12
+source-git-commit: d983d10124be2bad645ad3d8f14c38c26a453d5a
 workflow-type: tm+mt
 source-wordcount: '2860'
 ht-degree: 98%
@@ -112,7 +112,7 @@ Journey Optimizer의 하위 도메인 위임에 적용되는 가드레일 및 �
 
   [이 페이지](../audience/get-started-audience-orchestration.md)에서 대상자 컴포지션에 대해 자세히 알아보십시오.
 
-* 데이터를 수집할 때 이메일은 대소문자를 구분합니다. 즉, 중복된 프로필(예: John.Greene@luma.com용 프로필 하나, john.green@luma.com용 프로필 하나)을 만들어 [!DNL Journey Optimizer] 여정 및 캠페인에서 이러한 프로필을 타깃팅할 때 사용할 수 있습니다.
+* 데이터를 수집할 때 이메일은 대소문자를 구분합니다. 즉, 중복된 프로필(예: John.Greene@luma.com용 프로필 하나, john.greene@luma.com용 프로필 하나)을 만들어 [!DNL Journey Optimizer] 여정 및 캠페인에서 이러한 프로필을 타깃팅할 때 사용할 수 있습니다.
 
 ## 의사 결정 및 의사 결정 관리 가드레일 {#decisioning-guardrails}
 
