@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 메시지, 빈도, 규칙, 압력
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 9cd21ef6552ce8f6ddb2097de883ec1a1bbf06e2
+source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 27%
+source-wordcount: '1062'
+ht-degree: 25%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_rule_sets"
 >title="규칙 세트"
->abstract="규칙 세트를 사용하여 다양한 유형의 마케팅 커뮤니케이션에 빈도 상한 설정을 적용합니다. 빈도 캡핑 설정 규칙에 따라 대상자의 일부로 향하는 여정을 제외하는 규칙 세트를 만들 수도 있습니다."
+>abstract="규칙 세트를 사용하여 빈도 제한 또는 자동 시간 규칙을 다양한 유형의 마케팅 커뮤니케이션에 적용합니다. 빈도 캡핑 설정 규칙에 따라 대상자의 일부로 향하는 여정을 제외하는 규칙 세트를 만들 수도 있습니다."
 
 ## 규칙 세트 시작 {#gs}
 
@@ -31,7 +31,11 @@ ht-degree: 27%
 
 다음 두 가지 유형의 규칙 세트를 만들 수 있습니다.
 
-* **채널** 규칙 집합은 최대 가용량 규칙을 통신 채널에 적용합니다. 예를 들어 하루에 1개 이상의 이메일 또는 SMS 커뮤니케이션을 보내지 마십시오.
+* **채널** 규칙 집합은 통신 채널에 규칙을 적용합니다. 이를 통해 다음을 설정할 수 있습니다.
+
+   * **빈도 제한 규칙** - *하루에 1개 이상의 전자 메일 또는 SMS 메시지를 보내지 마십시오.*
+   * **방해 금지 시간 규칙**(제한된 가용성) - *오전 8시~오후 9시 타임슬롯 외부에서 전자 메일 메시지를 보내지 마십시오.*
+
 * **여정** 규칙 집합은 시작 및 동시성 최대 가용량 규칙을 여정에 적용합니다. 예를 들어 두 개 이상의 여정에 동시에 프로필을 입력하지 마십시오.
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
@@ -76,7 +80,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_rule_type"
 >title="규칙 유형"
->abstract="채널 규칙 집합에 대해 원하는 규칙 유형을 선택하십시오. **빈도 제한** 유형을 사용하여 통신 채널에 제한 규칙을 적용하십시오. 예를 들어 하루에 1개 이상의 이메일 또는 SMS 커뮤니케이션을 보내지 마십시오. 특정 기간 동안 메시지가 전송되지 않도록 시간 기반 제외를 정의하려면 **조용한 시간**(제한된 가용성으로 사용 가능)을 선택하십시오."
+>abstract="채널 규칙 집합에 대해 원하는 규칙 유형을 선택하십시오. **빈도 제한** 유형을 사용하여 통신 채널에 제한 규칙을 적용하십시오. 예를 들어 하루에 1개 이상의 이메일 또는 SMS 커뮤니케이션을 보내지 마십시오. 특정 기간 동안 메시지가 전송되지 않도록 시간 기반 제외를 정의하려면 **조용한 시간**(제한된 가용성으로 사용 가능)을 선택하십시오.&quot;
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_duration"
@@ -107,7 +111,7 @@ ht-degree: 27%
 
 1. 규칙 집합의 도메인을 선택하고 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-   * **채널** 도메인: 통신 채널의 최대 가용량 규칙을 적용합니다.
+   * **채널** 도메인: 최대 가용량 규칙 또는 자동 시간 규칙을 통신 채널에 적용합니다.
    * **여정** 여정: 시작 및 동시성 제한 규칙을 도메인에 적용합니다.
 
    ![](assets/rule-sets-create.png)
@@ -116,10 +120,11 @@ ht-degree: 27%
 
 1. 필요에 맞게 규칙 매개 변수를 구성합니다. 규칙에 사용할 수 있는 매개 변수는 만들 때 선택한 규칙 세트 도메인에 따라 다릅니다.
 
-   여정 및 채널 제한 규칙을 구성하는 방법에 대한 자세한 내용은 다음 섹션에서 확인할 수 있습니다.
+   여정 및 채널 규칙을 구성하는 방법에 대한 자세한 내용은 다음 섹션에서 확인할 수 있습니다.
 
    * [여정 한도](../conflict-prioritization/journey-capping.md)
    * [채널 및 커뮤니케이션 유형별 빈도 캡핑](../conflict-prioritization/channel-capping.md)
+   * [조용한 시간](../conflict-prioritization/quiet-hours.md)(제한된 가용성으로 사용 가능)
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭하여 규칙 만들기를 확인합니다. 메시지가 **[!UICONTROL 초안]** 상태로 규칙 집합에 추가됩니다.
 
@@ -146,7 +151,8 @@ ht-degree: 27%
    규칙 세트를 적용하는 방법에 대한 자세한 내용은 다음 섹션에서 확인할 수 있습니다.
 
    * [여정에 규칙 세트 적용](../conflict-prioritization/journey-capping.md#apply-capping)
-   * [메시지에 최대 가용량 규칙 적용](../conflict-prioritization/channel-capping.md#apply)
+   * [여정 및 캠페인 작업에 최대 가용량 규칙 적용](../conflict-prioritization/channel-capping.md#apply)
+   * [여정 및 캠페인에 자동 시간 규칙 적용](../conflict-prioritization/quiet-hours.md#apply)
 
 ## 규칙 집합 액세스 및 관리 {#access-rule-sets}
 
@@ -174,4 +180,4 @@ ht-degree: 27%
 
 ## 사용 방법 비디오 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444733?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

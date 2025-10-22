@@ -7,10 +7,10 @@ feature: Whatsapp, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
 workflow-type: tm+mt
-source-wordcount: '836'
-ht-degree: 15%
+source-wordcount: '902'
+ht-degree: 14%
 
 ---
 
@@ -149,15 +149,21 @@ WhatsApp API 자격 증명이 정상적으로 생성되면 이제 옵트인 및 
 
 1. **[!DNL WhatsApp]**&#x200B;을(를) 채널로 선택합니다.
 
-   ![](assets/whatsapp-config-2.png)
+   ![](assets/whatsapp-config-2.png){width=80%}
 
-1. 이 구성을 사용하여 동의 정책을 메시지에 연결하려면 **[!UICONTROL 마케팅 액션]**&#x200B;을 선택하세요. 마케팅 액션과 관련된 모든 동의 정책은 고객의 선호도를 존중하기 위해 활용됩니다. 자세히 알아보기
+1. 이 구성을 사용하여 동의 정책을 메시지에 연결하려면 **[!UICONTROL 마케팅 액션]**&#x200B;을 선택하세요. 마케팅 액션과 관련된 모든 동의 정책은 고객의 선호도를 존중하기 위해 활용됩니다. [자세히 알아보기](../action/consent.md#surface-marketing-actions)
 
-1. 이전에 만든 **[!UICONTROL WhatsApp API 구성]**&#x200B;을(를) 선택하십시오.
+1. **[!UICONTROL WhatsApp 설정]** 섹션에서 이전에 만든 **[!UICONTROL WhatsApp 구성]**&#x200B;을(를) 선택하십시오.
 
-   ![](assets/whatsapp-config-3.png)
+   ![](assets/whatsapp-config-3.png){width=80%}
 
-1. 통신에 사용할 **[!UICONTROL 발신자 이름]**&#x200B;을(를) 입력하십시오.
+1. 통신에 사용할 **[!UICONTROL 발신자 전화 번호]**&#x200B;을(를) 입력하십시오.
+
+1. **[!UICONTROL WhatsApp 실행 필드]**&#x200B;를 사용하여 데이터베이스에서 여러 번호를 사용할 수 있는 경우 우선 순위로 사용할 전화 번호를 프로필 특성 중에서 선택합니다. [자세히 알아보기](../configuration/primary-email-addresses.md#override-execution-address-channel-config)
+
+   >[!NOTE]
+   >
+   >기본적으로 [!DNL Journey Optimizer]은(는) 샌드박스 수준의 [일반 설정](../configuration/primary-email-addresses.md)에 지정된 전화 번호를 사용합니다. 이 필드를 업데이트하면 이 구성을 사용하는 여정 및 캠페인에 대한 기본값이 재정의됩니다.
 
 1. 모든 매개 변수가 구성되면 **[!UICONTROL 제출]**&#x200B;을 클릭하여 확인합니다. 채널 구성을 초안으로 저장하고 나중에 구성을 다시 시작할 수도 있습니다.
 
@@ -180,6 +186,6 @@ WhatsApp API 자격 증명이 정상적으로 생성되면 이제 옵트인 및 
 
 +++ 비디오 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3470275/?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++

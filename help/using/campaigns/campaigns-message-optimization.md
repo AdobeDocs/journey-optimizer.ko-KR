@@ -1,16 +1,16 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 메시지 최적화
+title: 캠페인 및 여정의 최적화
 description: 메시지 최적화를 활용하여 개인화되고 최적화된 마케팅 여정 및 캠페인을 만들 수 있습니다.
 role: User
 level: Intermediate
 keywords: 캠페인 최적화, 실험, 타겟팅, A/B 테스트
 exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
-source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
+source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
 workflow-type: tm+mt
-source-wordcount: '1088'
-ht-degree: 11%
+source-wordcount: '1253'
+ht-degree: 8%
 
 ---
 
@@ -68,11 +68,35 @@ ht-degree: 11%
 
    ![](assets/msg-optimization-select-targeting.png){width=85%}
 
-1. 규칙 빌더를 사용하여 기준을 정의합니다. 예를 들어 미국 거주자를 위한 규칙, 프랑스 거주자를 위한 규칙, 인도 거주자를 위한 규칙을 정의합니다.
+1. **[!UICONTROL 규칙 만들기]** > **[!UICONTROL 새로 만들기]**&#x200B;를 클릭하고 규칙 빌더를 사용하여 이동 중에 기준을 정의합니다.
+
+   ![](assets/msg-optimization-create-rule.png){width=100%}
+
+   예를 들어 미국 거주자를 위한 규칙, 프랑스 거주자를 위한 규칙, 인도 거주자를 위한 규칙을 정의합니다.
 
    ![](assets/msg-optimization-create-targeting.png){width=85%}
 
-1. 필요에 따라 **[!UICONTROL 대체 콘텐츠 사용]** 옵션을 선택하십시오. 대체 콘텐츠를 사용하면 타기팅 규칙을 충족하지 않는 대상자가 기본 콘텐츠를 받을 수 있습니다.
+1. **[!UICONTROL 규칙 만들기]** > **[!UICONTROL 규칙 선택]**&#x200B;을 클릭하여 **[!UICONTROL 규칙]** 메뉴에서 만든 기존 타깃팅 규칙을 선택할 수도 있습니다. [자세히 알아보기](../experience-decisioning/rules.md)
+
+   ![](assets/msg-optimization-select-rule.png){width=70%}
+
+   이 경우 규칙을 구성하는 공식은 단순히 여정 또는 캠페인에 복사됩니다. **[!UICONTROL 규칙]** 메뉴에서 해당 규칙을 추가로 변경해도 여정 또는 캠페인의 복사에는 영향을 주지 않습니다.
+
+   >[!AVAILABILITY]
+   >
+   >[전용 ](../experience-decisioning/rules.md#create) 메뉴에서 타깃팅 규칙을 만드는 중[!DNL Journey Optimizer]은(는) 현재 Decisioning 추가 기능 서비스를 구입한 조직에서 사용할 수 있으며 다른 조직에 대해 필요할 때 사용할 수 있습니다(제한된 가용성).
+   >
+   >이 용량은 모든 고객에게 점진적으로 제공될 예정입니다. 그동안 Adobe 담당자에게 문의하여 액세스 권한을 얻으십시오.
+
+1. 규칙을 추가한 후에도 수정할 수 있습니다. 규칙 빌더를 사용하여 이동 중에 업데이트하려면 **[!UICONTROL 인라인 편집]**&#x200B;을 선택하고, 다른 기존 규칙을 선택하려면 **[!UICONTROL 규칙 선택]**&#x200B;을 선택하십시오.
+
+   ![](assets/msg-optimization-modify-rule.png){width=100%}
+
+   >[!NOTE]
+   >
+   >인라인 규칙을 편집해도 기존의 원본 규칙에는 영향을 주지 않습니다.
+
+1. 필요에 따라 **[!UICONTROL 대체 콘텐츠 사용]** 옵션을 선택하십시오. 대체 콘텐츠 를 사용하면 타깃팅 규칙이 적격하지 않을 때 대상자가 기본 콘텐츠를 받을 수 있습니다.
 
    >[!NOTE]
    >
@@ -186,4 +210,4 @@ E.g. explaining how a marketer can look at the report to determine which treatme
 
 작업 또는 API 트리거 캠페인에서 메시지 최적화를 활용하는 방법을 알아봅니다. 하위 대상자를 타기팅하고, 위치별 메시지 베리에이션을 만들고, 대체 콘텐츠를 활성화하고, 단일 캠페인 내에서 여러 실험을 실행하는 방법을 알 수 있습니다. 이 튜토리얼에서는 메시지 일관성을 유지하면서 멀티채널 캠페인을 관리하는 방법도 다룹니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3470375?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
 workflow-type: tm+mt
-source-wordcount: '1351'
+source-wordcount: '1082'
 ht-degree: 3%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 3%
 
   Adobe Journey Optimizer은 테스트 프로필을 쉽게 만들 수 있도록 특정 [제품 내 사용 사례](#use-case-1)도 제공합니다.
 
-JSON 파일을 기존 데이터 세트에 업로드할 수 있습니다. 자세한 내용은 [데이터 수집 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=ko#add-data-to-dataset){target="_blank"}를 참조하세요.
+JSON 파일을 기존 데이터 세트에 업로드할 수 있습니다. 자세한 내용은 [데이터 수집 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset){target="_blank"}를 참조하세요.
 
 테스트 프로필을 만드는 것은 Adobe Experience Platform에서 일반 프로필을 만드는 것과 비슷합니다. 자세한 내용은 [실시간 고객 프로필 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target="_blank"}를 참조하세요.
 
@@ -46,15 +46,15 @@ JSON 파일을 기존 데이터 세트에 업로드할 수 있습니다. 자세�
 
 **스키마를 만들려면** 다음 단계를 수행하십시오.
 
-1. 데이터 관리 메뉴 섹션에서 **[!UICONTROL 스키마]**&#x200B;를 클릭합니다.
+1. 데이터 관리 메뉴 섹션에서 **[!UICONTROL 스키마]**를 클릭합니다.
    ![](assets/test-profiles-0.png)
-1. 오른쪽 상단에서 **[!UICONTROL 스키마 만들기]**&#x200B;를 클릭하고 스키마 유형(예: **개인 프로필**)을 선택한 후 **다음**&#x200B;을 클릭합니다.
+1. 오른쪽 상단에서 **[!UICONTROL 스키마 만들기]**&#x200B;를 클릭하고 스키마 유형(예: **개인 프로필**)을 선택한 후 **다음**을 클릭합니다.
    ![](assets/test-profiles-1.png)
-1. 스키마 이름을 입력하고 **마침**&#x200B;을 클릭합니다.
+1. 스키마 이름을 입력하고 **마침**을 클릭합니다.
    ![](assets/test-profiles-1-bis.png)
 1. **필드 그룹** 섹션에서 왼쪽의 **추가**&#x200B;를 클릭하고 적절한 필드 그룹을 선택합니다. **프로필 테스트 세부 정보** 필드 그룹을 추가해야 합니다.
    ![](assets/test-profiles-1-ter.png)
-완료되면 **[!UICONTROL 필드 그룹 추가]**&#x200B;를 클릭합니다. 필드 그룹 목록이 스키마 개요 화면에 표시됩니다.
+완료되면 **[!UICONTROL 필드 그룹 추가]**를 클릭합니다. 필드 그룹 목록이 스키마 개요 화면에 표시됩니다.
    ![](assets/test-profiles-2.png)
 
    >[!NOTE]
@@ -63,7 +63,7 @@ JSON 파일을 기존 데이터 세트에 업로드할 수 있습니다. 자세�
 
 1. 필드 목록에서 기본 ID로 정의할 필드를 클릭합니다.
    ![](assets/test-profiles-3.png)
-1. **[!UICONTROL 필드 속성]** 오른쪽 창에서 **[!UICONTROL ID]** 및 **[!UICONTROL 기본 ID]** 옵션을 확인하고 네임스페이스를 선택하십시오. 기본 ID를 전자 메일 주소로 설정하려면 **[!UICONTROL 전자 메일]** 네임스페이스를 선택하세요. **[!UICONTROL 적용]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 필드 속성]** 오른쪽 창에서 **[!UICONTROL ID]** 및 **[!UICONTROL 기본 ID]** 옵션을 확인하고 네임스페이스를 선택하십시오. 기본 ID를 전자 메일 주소로 설정하려면 **[!UICONTROL 전자 메일]** 네임스페이스를 선택하세요. **[!UICONTROL 적용]**을 클릭합니다.
    ![](assets/test-profiles-4bis.png)
 1. 스키마를 선택하고 **[!UICONTROL 스키마 속성]** 창에서 **[!UICONTROL 프로필]** 옵션을 활성화하십시오.
    ![](assets/test-profiles-5.png)
@@ -71,26 +71,26 @@ JSON 파일을 기존 데이터 세트에 업로드할 수 있습니다. 자세�
 
 >[!NOTE]
 >
->스키마 만들기에 대한 자세한 내용은 [XDM 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=ko#prerequisites){target="_blank"}를 참조하세요.
+>스키마 만들기에 대한 자세한 내용은 [XDM 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites){target="_blank"}를 참조하세요.
 
 ### 데이터 세트 만들기
 
 프로필을 가져올 데이터 집합을 **만들어야** 합니다. 다음 단계를 수행하십시오.
 
-1. **[!UICONTROL 데이터 세트]**(으)로 이동한 다음 **[!UICONTROL 데이터 세트 만들기]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 데이터 세트]**(으)로 이동한 다음 **[!UICONTROL 데이터 세트 만들기]**를 클릭합니다.
    ![](assets/test-profiles-6.png)
-1. **[!UICONTROL 스키마에서 데이터 집합 만들기]**&#x200B;를 선택합니다.
+1. **[!UICONTROL 스키마에서 데이터 집합 만들기]**를 선택합니다.
    ![](assets/test-profiles-7.png)
-1. 이전에 만든 스키마를 선택한 다음 **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
+1. 이전에 만든 스키마를 선택한 다음 **[!UICONTROL 다음]**을 클릭합니다.
    ![](assets/test-profiles-8.png)
-1. 이름을 선택한 다음 **[!UICONTROL 마침]**&#x200B;을 클릭하세요.
+1. 이름을 선택한 다음 **[!UICONTROL 마침]**을 클릭하세요.
    ![](assets/test-profiles-9.png)
 1. **[!UICONTROL 프로필]** 옵션을 사용하도록 설정합니다.
    ![](assets/test-profiles-10.png)
 
 >[!NOTE]
 >
-> 데이터 집합 만들기에 대한 자세한 내용은 [카탈로그 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ko#getting-started){target="_blank"}를 참조하세요.
+> 데이터 집합 만들기에 대한 자세한 내용은 [카탈로그 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started){target="_blank"}를 참조하세요.
 
 ## 제품 내 사용 사례{#use-case-1}
 
@@ -120,42 +120,44 @@ ID 네임스페이스를 선택하고 위의 형식을 기반으로 CSV 파일�
 >
 >테스트 프로필이 기존 프로필을 재정의할 수 있습니다. 사용 사례를 실행하기 전에 CSV에 테스트 프로필만 포함되어 있는지 그리고 올바른 샌드박스에 대해 CSV가 실행되는지 확인하십시오.
 
-## 프로필을 테스트 프로필로 만들기{#turning-profile-into-test}
+<!-- Removed as asked in DOCAC-13605 AJO Test Profiles Using a Journey should be removed
+## Turn a profile into a test profile{#turning-profile-into-test}
 
-기존 프로필을 테스트 프로필로 만들 수 있습니다. 프로필을 만들 때와 동일한 방법으로 프로필 속성을 업데이트할 수 있습니다.
+You can turn an existing profile into a test profile: you can update profiles attributes in the same way as when you create a profile. 
 
-이를 위해 여정에서 **[!UICONTROL 프로필 업데이트]** 작업 활동을 사용하고 **testProfile** 부울 필드를 false에서 true로 변경하는 간단한 방법이 있습니다.
+A simple way to do this is by using an **[!UICONTROL Update Profile]** action activity in a journey and change the **testProfile** boolean field from false to true.
 
-여정은 **[!UICONTROL 대상자 읽기]** 및 **[!UICONTROL 프로필 업데이트]** 활동으로 구성됩니다. 먼저 테스트 프로필로 전환할 프로필을 타겟팅하는 대상을 만들어야 합니다.
+Your journey will be composed of a **[!UICONTROL Read Audience]** and an **[!UICONTROL Update Profile]** activity. You first need to create an audience targeting the profiles you want to turn into test profiles. 
 
 >[!NOTE]
 >
-> **testProfile** 필드를 업데이트하게 되므로 선택한 프로필에 이 필드가 포함되어야 합니다. 관련 스키마에 **프로필 테스트 정보** 필드 그룹이 있어야 합니다. [이 섹션](../audience/creating-test-profiles.md#test-profiles-prerequisites)을 참조하십시오.
+> Since you will be updating the **testProfile** field, the chosen profiles must include this field. The related schema must have the **Profile test details** field group. See [this section](../audience/creating-test-profiles.md#test-profiles-prerequisites).
 
-1. 오른쪽 상단에서 **대상**&#x200B;을 찾은 다음 **대상 만들기**&#x200B;를 찾습니다.
-   ![](assets/test-profiles-22.png)
-1. 대상자의 이름을 정의하고 대상자를 구성합니다. 원하는 프로필을 타겟팅할 필드 및 값을 선택합니다.
-   ![](assets/test-profiles-23.png)
-1. **저장**&#x200B;을 클릭하고 대상자에 의해 프로필이 올바르게 타겟팅되었는지 확인하십시오.
-   ![](assets/test-profiles-24.png)
+1. Browse to **Audiences**, then **Create audience**, in the top right.
+    ![](assets/test-profiles-22.png) 
+1. Define a name for your audience and build the audience: choose the field(s) and value(s) to target the profiles you want.
+    ![](assets/test-profiles-23.png) 
+1. Click **Save** and check that the profiles are correctly targeted by the audience.
+    ![](assets/test-profiles-24.png) 
 
-   >[!NOTE]
-   >
-   > 대상 계산에는 시간이 걸릴 수 있습니다. [이 섹션](../audience/about-audiences.md)에서 대상자에 대해 자세히 알아보십시오.
+    >[!NOTE]
+    >
+    > Audience calculation can take some time. Learn more about audiences in [this section](../audience/about-audiences.md).
 
-1. 이제 새 여정을 만들고 **[!UICONTROL 대상자 읽기]** 오케스트레이션 활동으로 시작합니다.
-1. 이전에 만든 대상자와 프로필에서 사용하는 네임스페이스를 선택합니다.
-   ![](assets/test-profiles-25.png)
-1. **[!UICONTROL 프로필 업데이트]** 작업 활동을 추가합니다.
-1. 스키마, **testProfiles** 필드, 데이터 세트를 선택하고 값을 **True**(으)로 설정하십시오. 이렇게 하려면 **[!UICONTROL VALUE]** 필드에서 오른쪽의 **Pen** 아이콘을 클릭하고 **[!UICONTROL 고급 모드]**&#x200B;를 선택한 다음 **true**&#x200B;을(를) 입력합니다.
-   ![](assets/test-profiles-26.png)
-1. **[!UICONTROL 게시]**&#x200B;를 클릭합니다.
-1. **[!UICONTROL 대상]** 섹션에서 프로필이 올바르게 업데이트되었는지 확인합니다.
-   ![](assets/test-profiles-28.png)
+1. Now create a new journey and start with a **[!UICONTROL Read Audience]** orchestration activity.
+1. Choose the previously created audience and the namespace that your profiles use.
+    ![](assets/test-profiles-25.png)
+1. Add an **[!UICONTROL Update Profile]** action activity. 
+1. Select the schema, the **testProfiles** field, the dataset and set the value to **True**. To perform this, in the **[!UICONTROL VALUE]** field, click the **Pen** icon on the right, select **[!UICONTROL Advanced mode]** and enter **true**.
+    ![](assets/test-profiles-26.png)
+1. Click **[!UICONTROL Publish]**.
+1. In the **[!UICONTROL Audiences]** section, check that the profiles have been correctly updated.
+    ![](assets/test-profiles-28.png)
 
-   >[!NOTE]
-   >
-   > **[!UICONTROL 프로필 업데이트]** 활동에 대한 자세한 내용은 [이 섹션](../building-journeys/update-profiles.md)을 참조하세요.
+    >[!NOTE]
+    >
+    > For more information on the **[!UICONTROL Update Profile]** activity, refer to [this section](../building-journeys/update-profiles.md).
+-->
 
 ## csv 파일을 사용하여 테스트 프로필 만들기{#create-test-profiles-csv}
 
@@ -169,15 +171,15 @@ Adobe Experience Platform에서는 다른 프로필 필드가 포함된 csv 파�
 1. 스프레드시트를 csv 파일로 저장합니다. 쉼표를 구분 기호로 사용해야 합니다.
 1. Adobe Experience Platform **워크플로**(으)로 이동합니다.
    ![](assets/test-profiles-14.png)
-1. **XDM 스키마에 CSV 매핑**&#x200B;을 선택한 다음 **시작**&#x200B;을 클릭합니다.
+1. **XDM 스키마에 CSV 매핑**&#x200B;을 선택한 다음 **시작**을 클릭합니다.
    ![](assets/test-profiles-16.png)
-1. 프로필을 가져올 데이터 세트를 선택합니다. **다음**&#x200B;을 클릭합니다.
+1. 프로필을 가져올 데이터 세트를 선택합니다. **다음**을 클릭합니다.
    ![](assets/test-profiles-17.png)
-1. **파일 선택**&#x200B;을 클릭하고 csv 파일을 선택하십시오. 파일이 업로드되면 **다음**&#x200B;을(를) 클릭합니다.
+1. **파일 선택**&#x200B;을 클릭하고 csv 파일을 선택하십시오. 파일이 업로드되면 **다음**을(를) 클릭합니다.
    ![](assets/test-profiles-18.png)
-1. 소스 csv 필드를 스키마 필드에 매핑한 다음 **마침**&#x200B;을 클릭합니다.
+1. 소스 csv 필드를 스키마 필드에 매핑한 다음 **마침**을 클릭합니다.
    ![](assets/test-profiles-19.png)
-1. 데이터 가져오기가 시작됩니다. 상태가 **처리 중**&#x200B;에서 **성공**(으)로 이동합니다. 오른쪽 상단에서 **데이터 집합 미리 보기**&#x200B;를 클릭합니다.
+1. 데이터 가져오기가 시작됩니다. 상태가 **처리 중**&#x200B;에서 **성공**(으)로 이동합니다. 오른쪽 상단에서 **데이터 집합 미리 보기**를 클릭합니다.
    ![](assets/test-profiles-20.png)
 1. 테스트 프로필이 올바르게 추가되었는지 확인합니다.
    ![](assets/test-profiles-21.png)
@@ -187,7 +189,7 @@ Adobe Experience Platform에서는 다른 프로필 필드가 포함된 csv 파�
 
 >[!NOTE]
 >
->csv 가져오기에 대한 자세한 내용은 [데이터 수집 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=ko#tutorials){target="_blank"}를 참조하세요.
+>csv 가져오기에 대한 자세한 내용은 [데이터 수집 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials){target="_blank"}를 참조하세요.
 >
 
 
@@ -248,4 +250,4 @@ curl -X POST \
 
 테스트 프로필을 만드는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416333?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/334236?quality=12)
