@@ -5,9 +5,9 @@ title: 구성 단계
 description: 사용자 인터페이스를 통해 직접 모델 기반 스키마를 만드는 방법을 알아봅니다.
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
-source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
+source-git-commit: ac80d1cec351a3029c8b2bf862275ffe7fd5c86d
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '882'
 ht-degree: 4%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 4%
 
 1. 지원되는 소스에서 데이터 세트로 [데이터를 수집](ingest-data.md)합니다.
 
-➡️ [Adobe Experience Platform 설명서에서 수동 모델 기반 스키마에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
+➡️ [Adobe Experience Platform 설명서에서 수동 모델 기반 스키마에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
 
 ## 스키마 만들기 {#schema}
 
@@ -109,6 +109,8 @@ Adobe Experience Platform에서 수동으로 새 모델 기반 스키마를 만�
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 속성을 만들고 저장한 후 관계를 정의하여 스키마를 다른 관계형 스키마와 연결할 수 있습니다.
+
+➡️ [Adobe Experience Platform 설명서에서 관계형 스키마에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
 
 ## 스키마 연결 {#link-schema}
 

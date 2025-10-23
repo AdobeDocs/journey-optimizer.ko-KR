@@ -5,9 +5,9 @@ title: 타겟팅 차원 만들기
 description: 고객 프로필에 관계형 스키마를 매핑하는 방법에 대해 알아봅니다
 exl-id: 2479c109-cd6f-407e-8a53-77e4477dc36f
 version: Campaign Orchestration
-source-git-commit: 0b92d0e806c47b0d87ba53b7c7f1d56ee4453abb
+source-git-commit: ac80d1cec351a3029c8b2bf862275ffe7fd5c86d
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '383'
 ht-degree: 1%
 
 ---
@@ -33,6 +33,8 @@ ht-degree: 1%
 
   대상 스키마가 `Profile` 스키마에 매핑되는 방식을 이해해야 합니다. 대상 스키마와 `Profile` 스키마에 모두 존재하며 ID 네임스페이스로 구성된 공유 ID 필드를 통해 수행됩니다.
 
+➡️ [Adobe Experience Platform 설명서에서 관계형 스키마에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
+
 ## 타겟팅 차원 만들기 {#targeting-dimension}
 
 먼저 고객 프로필에 관계형 스키마를 매핑하여 캠페인 오케스트레이션을 설정합니다.
@@ -51,7 +53,7 @@ ht-degree: 1%
 
    이 예제에서 고객 프로필은 `crmID` 스키마에서 각각 고유한 `Recipient`(으)로 표시되는 여러 구독에 연결됩니다. **[!UICONTROL 스키마와 해당]** ID를 사용하도록 `Recipient`Target Dimension`crmID`을(를) 설정하여 기본 고객 프로필이 아닌 구독 수준에서 메시지를 보내어 각 계약 또는 줄이 개인화된 메시지를 받도록 할 수 있습니다.
 
-   [Adobe Experience Platform 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/composition#identity)
+   [Adobe Experience Platform 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity)
 
    ![](assets/target-dimension-2.png)
 

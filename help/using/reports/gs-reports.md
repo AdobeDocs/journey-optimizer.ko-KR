@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Journey Optimizer] 보고서에 액세스하고 작�
 role: User
 level: Beginner
 exl-id: 7961dc5c-7918-4ae3-8361-0ed4bc4f145b
-source-git-commit: 158ae930fa87dc0476273bfbb14c96e780281491
+source-git-commit: ac80d1cec351a3029c8b2bf862275ffe7fd5c86d
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '448'
 ht-degree: 24%
 
 ---
@@ -27,7 +27,7 @@ Adobe Journey Optimizer은 강력한 보고 기능을 통해 실용적인 통찰
   ![](assets/report_journey.png)
 
 
-* **Customer Journey Analytics을 사용한 모든 시간 보고서** - Journey Optimizer 보고는 Customer Journey Analytics 기능과 완전히 통합되어 두 플랫폼 간에 보고를 표준화하고 데이터 일관성과 안정성을 개선합니다. 이렇게 Journey Optimizer와 Customer Journey Analytics가 원활하게 통합됨으로써 사용자가 성과 지표를 보다 명확하게 확인하여 더욱 정보에 근거한 결정을 내릴 수 있습니다. 이 섹션[에서 실시간 보고서 &#x200B;](report-gs-cja.md)에 대해 자세히 알아보세요.
+* **Customer Journey Analytics을 사용한 모든 시간 보고서** - Journey Optimizer 보고는 Customer Journey Analytics 기능과 완전히 통합되어 두 플랫폼 간에 보고를 표준화하고 데이터 일관성과 안정성을 개선합니다. 이렇게 Journey Optimizer와 Customer Journey Analytics가 원활하게 통합됨으로써 사용자가 성과 지표를 보다 명확하게 확인하여 더욱 정보에 근거한 결정을 내릴 수 있습니다. 이 섹션[에서 실시간 보고서 ](report-gs-cja.md)에 대해 자세히 알아보세요.
 
   ![](assets/gs-cja-report-1.png)
 
@@ -133,3 +133,13 @@ Adobe Journey Optimizer은 강력한 보고 기능을 통해 실용적인 통찰
 <td><img alt="콘텐츠 카드" src="../channels/assets/do-not-localize/cards.png">
 <div align="center"><p><strong>콘텐츠 카드</strong></p><p><a href="campaign-global-report-cja-content.md"><strong>캠페인 보고서</strong></a></p><p><a href="journey-global-report-cja-content.md"><strong>여정 보고서</strong></a></p></div></td>
 </tr></table>
+
+### 사용 방법 비디오 {#video}
+
+Adobe Journey Optimizer에서 실시간 보고서를 효과적으로 사용하는 방법을 알아봅니다.
+
++++비디오 보기
+
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
+
++++
