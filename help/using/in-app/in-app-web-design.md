@@ -184,5 +184,5 @@ ht-degree: 7%
 **관련 항목:**
 
 * [인앱 메시지 테스트 및 보내기](send-in-app.md)
-* [인앱 보고서 ](../reports/campaign-global-report-cja-inapp.md)
+* [인앱 보고서 &#x200B;](../reports/campaign-global-report-cja-inapp.md)
 * [인앱 구성](inapp-configuration.md)
