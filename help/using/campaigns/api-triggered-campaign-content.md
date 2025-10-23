@@ -9,9 +9,9 @@ role: Developer
 level: Experienced
 keywords: 캠페인, API 트리거, REST, 최적화 도구, 메시지
 exl-id: b7f12c65-c1af-4c49-b126-c13a51940a43
-source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
+source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '424'
 ht-degree: 2%
 
 ---
@@ -35,11 +35,15 @@ ht-degree: 2%
 <div align="center"><a href="../push/create-push.md"><strong>푸시 알림</strong></a></div></td>
 </tr></table>
 
+>[!IMPORTANT]
+>
+>[처리량이 많은 캠페인](../campaigns/api-triggered-high-throughput.md)은(는) Adobe 프로필을 사용하지 않습니다. 모든 개인화는 아래에 설명된 대로 컨텍스트 데이터로 API 페이로드에 포함되어야 합니다. 이 모드는 이메일 채널 및 미국 지역에서만 사용할 수 있습니다.
+
 ## 컨텍스트 기반 데이터를 사용하여 콘텐츠 개인화 {#contextual}
 
 메시지를 개인화하는 데 활용할 수 있는 API 페이로드에 추가 데이터를 전달할 수 있습니다.
 
-고객이 암호를 재설정하고자 하고 서드파티 도구에서 생성된 암호 재설정 URL을 전송하고자 하는 이 예를 살펴보겠습니다. API 트리거된 캠페인을 사용하면 이렇게 생성된 URL을 API 페이로드에 전달하고 이를 캠페인에 활용하여 메시지에 추가할 수 있습니다.
+고객이 암호를 재설정하고자 하고 서드파티 도구에서 생성된 암호 재설정 URL을 전송하고자 하는 이 예를 살펴보겠습니다. API가 트리거된 캠페인을 사용하면 이 생성된 URL을 API 페이로드에 전달하고 이를 캠페인에 활용하여 메시지에 추가할 수 있습니다.
 
 이렇게 하려면 API 페이로드에 전달하고 개인화 편집기를 사용하여 메시지에 추가해야 합니다. `{{context.<contextualAttribute>}}` 구문을 사용하십시오. 여기서 `<contextualAttribute>`은(는) 전달할 데이터를 포함하는 API 페이로드의 변수 이름과 일치해야 합니다.
 

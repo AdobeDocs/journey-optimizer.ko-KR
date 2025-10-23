@@ -8,9 +8,9 @@ role: Developer
 level: Experienced
 keywords: 캠페인, API 트리거, REST, 최적화 도구, 메시지
 exl-id: 6dda5687-3742-4e88-be7c-c4969b183161
-source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
+source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '517'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 2%
 
 ## ID 유형 선택
 
-**[!UICONTROL ID 유형]** 필드에서 선택한 대상에서 개인을 식별하는 데 사용할 키 유형을 선택합니다. 기존 ID 유형을 사용하거나 Adobe Experience Platform ID 서비스를 사용하여 새 ID 유형을 만들 수 있습니다. 표준 ID 네임스페이스는 [이 페이지](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}에 나열됩니다.
+**[!UICONTROL ID 유형]** 필드에서 선택한 대상에서 개인을 식별하는 데 사용할 키 유형을 선택합니다. 기존 ID 유형을 사용하거나 Adobe Experience Platform ID 서비스를 사용하여 새 ID 유형을 만들 수 있습니다. 표준 ID 네임스페이스는 [이 페이지](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}에 나열됩니다.
 
 캠페인당 하나의 ID 유형만 허용됩니다. 다른 ID 중에서 선택한 ID 유형이 없는 세그먼트에 속하는 개인은 캠페인에서 타깃팅할 수 없습니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=ko-KR){target="_blank"}에서 ID 유형 및 네임스페이스에 대해 자세히 알아보세요.
 
@@ -50,6 +50,8 @@ ht-degree: 2%
 >이 옵션은 플랫폼에 이미 존재하는 많은 프로필이 있는 대용량 트랜잭션 전송 사용 사례에서 **매우 작은 볼륨 프로필 만들기**&#x200B;에 제공됩니다.
 >
 >**AJO 대화형 메시징 프로필 데이터 집합** 데이터 집합에서 각 아웃바운드 채널(이메일, SMS 및 푸시)에 대해 각각 세 개의 기본 네임스페이스(이메일, 전화 및 ECID)에 알 수 없는 프로필이 만들어집니다. 그러나 사용자 지정 네임스페이스를 사용하는 경우 동일한 사용자 지정 네임스페이스로 ID가 만들어집니다.
+>
+>[높은 처리량 캠페인](../campaigns/api-triggered-high-throughput.md)은(는) Adobe 프로필에 의존하지 않으므로 실행 시 프로필을 만들 수 없습니다. 시스템은 프로필이 있는지 여부를 확인하지 않습니다.
 
 ## Webhook 활성화 {#webhook}
 

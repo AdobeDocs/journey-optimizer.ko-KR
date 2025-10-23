@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: 캠페인, API 트리거, REST, 최적화 도구, 메시지
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 38%
+source-wordcount: '271'
+ht-degree: 35%
 
 ---
 
@@ -30,14 +30,11 @@ API 트리거 캠페인을 사용하면 마케팅 커뮤니케이션이 적시�
 
 이렇게 하려면 먼저 Journey Optimizer에서 API 트리거 캠페인을 만든 다음 [대화형 메시지 실행 REST API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution)를 사용하여 API 호출을 통해 실행을 시작해야 합니다.
 
-API 트리거 캠페인에 사용할 수 있는 채널은 이메일, SMS 및 푸시 메시지입니다.
-
 ➡️ [비디오에서 이 기능 살펴보기](#video)
-
 
 >[!NOTE]
 >
->지원 채널: [이메일](../email/get-started-email.md), [SMS/MMS/RCS](../sms/get-started-sms.md), [푸시 알림](../push/get-started-push.md).
+>지원되는 채널: [이메일](../email/get-started-email.md), [SMS](../sms/get-started-sms.md), [푸시 알림](../push/get-started-push.md). 처리량이 많은 API 트리거 캠페인은 현재 이메일 채널만 지원합니다.
 >
 >사용 가능한 채널은 사용하는 라이선스 모델 및 추가 기능에 따라 다릅니다.
 
@@ -57,4 +54,4 @@ API 트리거 캠페인에 사용할 수 있는 채널은 이메일, SMS 및 푸
 
 대화형 메시지 실행 REST API를 사용하여 사용자 상호 작용을 기반으로 외부 시스템에서 캠페인을 만들고 트리거하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452732?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)
