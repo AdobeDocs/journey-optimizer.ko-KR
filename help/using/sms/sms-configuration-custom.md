@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 21eebaaa0193164ac70dd819b25ad6547446397f
+source-git-commit: cd47db2e8fd20049cb7598160e99555b448c7012
 workflow-type: tm+mt
-source-wordcount: '1355'
+source-wordcount: '1386'
 ht-degree: 7%
 
 ---
@@ -79,6 +79,11 @@ Adobe에서 즉시 사용할 수 없는 사용자 정의 공급자(예: Sinch, I
 1. **[!UICONTROL 공급자 페이로드]**&#x200B;를 추가하여 요청 페이로드의 유효성을 검사하고 사용자 지정합니다.
 
    RCS 메시지의 경우 이 페이로드는 나중에 [콘텐츠 디자인](create-sms.md#sms-content) 중에 사용됩니다.
+
+   >[!NOTE]
+   >
+   >기본 또는 전달자 인증을 사용하여 사용자 지정 SMS 공급자를 구성할 때는 JSON 페이로드에 `authOption` 매개 변수를 포함해야 합니다. 또한 **공급자 페이로드**&#x200B;는 템플릿 변수 `{{fromNumber}}`, `{{toNumber}}` 및 `{{message}}`을(를) 참조해야 합니다.
+
 
 1. API 자격 증명 구성을 마치면 **[!UICONTROL 제출]**&#x200B;을 클릭합니다.
 
