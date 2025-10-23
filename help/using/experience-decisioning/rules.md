@@ -6,9 +6,9 @@ topic: Integrations, Content Management
 role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
+source-git-commit: 9bd0b149acdce17b8157e6c0e747353e0dd00cc8
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '958'
 ht-degree: 7%
 
 ---
@@ -53,6 +53,8 @@ ht-degree: 7%
 
 * 여정 또는 캠페인에서 [콘텐츠 최적화 타깃팅](../campaigns/campaigns-message-optimization.md#targeting)을(를) 만드는 경우;
 * [여정 경로 최적화](../building-journeys/optimize.md#targeting)을(를) 빌드하는 중입니다.
+
+➡️ [비디오에서 이 기능 살펴보기](#video)
 
 ## 액세스 규칙 {#access}
 
@@ -129,3 +131,9 @@ ht-degree: 7%
 >규칙 문자열의 크기는 UTF-8 인코딩 문자의 경우 최대 15KB까지 가능합니다. 이는 15,000개의 ASCII 문자(각각 1바이트) 또는 3,750-7,500개의 비 ASCII 문자(각각 2-4바이트)에 해당합니다.
 >
 >[자격 규칙 보호 및 제한에 대해 자세히 알아보기](decisioning-guardrails.md#eligibility-rules)
+
+## 사용 방법 비디오 {#video}
+
+Adobe Journey Optimizer에서 재사용 가능한 **타깃팅 규칙**&#x200B;을(를) 만들고, 복제하고, 적용하여 지역, 언어 및 동작과 같은 고객 특성을 기반으로 캠페인을 효율적으로 개인화하여 시간을 절약하고 대상 정밀도를 향상시키는 방법을 알아봅니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3476127/?quality=12)
