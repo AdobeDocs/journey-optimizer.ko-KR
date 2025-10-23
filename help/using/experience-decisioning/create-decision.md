@@ -9,11 +9,11 @@ exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
 workflow-type: tm+mt
 source-wordcount: '612'
-ht-degree: 28%
+ht-degree: 29%
 
 ---
 
-# 의사 결정 정책 시작 {#create-decision}
+# 결정 정책 시작 {#create-decision}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_decision"
@@ -46,7 +46,7 @@ ht-degree: 28%
 
 >[!AVAILABILITY]
 >
->현재 모든 고객은 코드 기반 경험 채널의 의사 결정 정책을 사용할 수 있습니다. 제한된 가용성으로 이메일 채널에 사용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.
+>현재 모든 고객은 코드 기반 경험 채널의 의사 결정 정책을 사용할 수 있습니다. 제한된 가용성으로 이메일 채널에 사용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하세요.
 
 ## 주요 단계 {#key}
 
