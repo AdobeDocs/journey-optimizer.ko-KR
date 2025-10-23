@@ -84,7 +84,7 @@ ht-degree: 8%
 
    >[!AVAILABILITY]
    >
-   >[전용 &#x200B;](../experience-decisioning/rules.md#create) 메뉴에서 타깃팅 규칙을 만드는 중[!DNL Journey Optimizer]은(는) 현재 Decisioning 추가 기능 서비스를 구입한 조직에서 사용할 수 있으며 다른 조직에 대해 필요할 때 사용할 수 있습니다(제한된 가용성).
+   >[전용 ](../experience-decisioning/rules.md#create) 메뉴에서 타깃팅 규칙을 만드는 중[!DNL Journey Optimizer]은(는) 현재 Decisioning 추가 기능 서비스를 구입한 조직에서 사용할 수 있으며 다른 조직에 대해 필요할 때 사용할 수 있습니다(제한된 가용성).
    >
    >이 용량은 모든 고객에게 점진적으로 제공될 예정입니다. 그동안 Adobe 담당자에게 문의하여 액세스 권한을 얻으십시오.
 
@@ -210,4 +210,4 @@ E.g. explaining how a marketer can look at the report to determine which treatme
 
 작업 또는 API 트리거 캠페인에서 메시지 최적화를 활용하는 방법을 알아봅니다. 하위 대상자를 타기팅하고, 위치별 메시지 베리에이션을 만들고, 대체 콘텐츠를 활성화하고, 단일 캠페인 내에서 여러 실험을 실행하는 방법을 알 수 있습니다. 이 튜토리얼에서는 메시지 일관성을 유지하면서 멀티채널 캠페인을 관리하는 방법도 다룹니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3470375?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)

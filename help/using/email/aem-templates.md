@@ -23,7 +23,7 @@ ht-degree: 2%
 >[!AVAILABILITY]
 >
 >Adobe Experience Manager과의 통합은 현재 사용자를 선택하는 베타 버전으로만 사용할 수 있습니다.
->&#x200B;> 베타 사용자인 경우 [이 양식](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"}을(를) 사용하여 피드백을 공유하십시오.
+>> 베타 사용자인 경우 [이 양식](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"}을(를) 사용하여 피드백을 공유하십시오.
 
 Adobe Journey Optimizer을 사용하면 Adobe Experience Manager 사이트를 통해 사용자 지정 메시지를 만들 수 있습니다. Adobe Experience Manager의 콘텐츠 소스를 사용하여 템플릿을 디자인한 다음 Adobe Journey Optimizer으로 전송합니다. 이렇게 공유된 템플릿은 Adobe Journey Optimizer의 이메일 Designer에서 액세스할 수 있으므로 원하는 대상자에게 메시지를 만들고 보내는 프로세스를 단순화할 수 있습니다.
 
@@ -61,7 +61,7 @@ Adobe Experience Manager 템플릿을 Adobe Journey Optimizer으로 내보내려
     ![](assets/aem-outbound-menu.png)
 -->
 
-1. 콘텐츠 라이브러리에서 이전에 구성한 템플릿을 사용하거나 처음부터 새로 만들 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html?lang=ko#creating-a-new-page)
+1. 콘텐츠 라이브러리에서 이전에 구성한 템플릿을 사용하거나 처음부터 새로 만들 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html#creating-a-new-page)
 
 1. Journey Optimizer 개인화 구문을 템플릿에 통합하여 맞춤화 기능을 향상시킬 수 있습니다. [자세히 알아보기](../personalization/personalization-syntax.md)
 

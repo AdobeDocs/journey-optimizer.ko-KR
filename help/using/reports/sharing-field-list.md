@@ -70,7 +70,7 @@ journeyStepEvent의 경우 ID와 관련된 필드도 추가해야 합니다.
 | eventType | 문자열 | 오류 이벤트인지 정보 이벤트인지를 나타내는 이벤트 유형: 정보, 오류 |
 | eventCode | 문자열 | 해당 eventType의 이유를 나타내는 오류 코드 |
 
-이 섹션[에서 eventTypes &#x200B;](#discarded-events)에 대해 자세히 알아보세요.
+이 섹션[에서 eventTypes ](#discarded-events)에 대해 자세히 알아보세요.
 
 ## stepEvent {#stepevents-field}
 

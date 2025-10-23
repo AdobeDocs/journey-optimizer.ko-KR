@@ -179,7 +179,7 @@ ht-degree: 0%
   **필드:** linkURL
   **설명:** 사용자 상호 작용을 위한 선택적 고유 리소스 로케이터입니다. 이 URL은 사용자 에이전트에서 최종 사용자를에 연결하는 데 사용되며 추적할 수 있습니다.
   **유형:** 문자열
-  **예:** &quot;https://cdn.adobe.io/tracker?code=23432&redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
+  **예:** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 +++_experience > 의사 결정 > 컨텐츠 > 배치
 

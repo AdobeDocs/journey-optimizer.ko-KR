@@ -22,7 +22,7 @@ ht-degree: 1%
 
 이 규정은 이메일, 뉴스레터, PDF 및 다운로드 가능한 콘텐츠를 포함한 모든 디지털 통신에 액세스할 수 있어야 한다고 명시합니다. 따라서 수신자를 위한 컨텐츠를 만들 때는 액세스 가능한 글꼴, 읽을 수 있는 형식 및 이미지에 대한 대체 텍스트 제공과 같은 특정 지침을 따라야 합니다.
 
-마케터가 [!DNL Journey Optimizer]이메일[&#x200B; 및 &#x200B;](content-from-scratch.md)랜딩 페이지&#x200B;**에 대한 콘텐츠를 모두 만들 수 있는** **이메일 Designer**&#x200B;을(를) 사용하면 WCAG(Web Content Accessibility Guidelines) 2.1, 레벨 AA를 기반으로 이 지시문을 쉽게 준수할 수 있습니다.
+마케터가 [!DNL Journey Optimizer]이메일[ 및 ](content-from-scratch.md)랜딩 페이지&#x200B;**에 대한 콘텐츠를 모두 만들 수 있는** **이메일 Designer**&#x200B;을(를) 사용하면 WCAG(Web Content Accessibility Guidelines) 2.1, 레벨 AA를 기반으로 이 지시문을 쉽게 준수할 수 있습니다.
 
 이에 따라 [!DNL Journey Optimizer]을(를) 사용하여 액세스 가능한 콘텐츠를 디자인하는 모범 사례가 아래에 나와 있습니다.
 

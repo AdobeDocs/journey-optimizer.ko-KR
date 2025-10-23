@@ -11,9 +11,9 @@ keywords: 여정, 질문, 답변, 문제 해결, 도움말, 안내서
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 4afd8e455ca0d61ad860ec735c30f1b36bb54e1b
 workflow-type: tm+mt
-source-wordcount: '4531'
+source-wordcount: '4526'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 Adobe Journey Optimizer 여정에 대한 FAQ는 다음과 같습니다.
 
-세부 정보가 필요하십니까? 이 페이지 하단의 피드백 옵션을 사용하여 질문을 제기하거나 [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"}에 연결하세요.
+세부 정보가 필요하십니까? 이 페이지 하단의 피드백 옵션을 사용하여 질문을 제기하거나 [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}에 연결하세요.
 
 ## 일반 개념
 
@@ -744,19 +744,12 @@ Journey Optimizer은 기본적으로 Adobe Campaign과 통합되어 고급 기�
 
 +++ 조건과 대기 활동의 차이점은 무엇입니까?
 
-**조건 활동**:
-
-* **목적**: 논리를 기반으로 다른 경로를 만듭니다(if/then).
-* **함수**: 데이터를 평가하고 그에 따라 프로필을 라우팅합니다.
-* **사용 사례**: 고객을 세그먼트화하고, 상태를 확인하고, 동작을 기준으로 분기합니다.
-* **예**: 고객이 VIP인 경우 premium 오퍼를 보내고, 그렇지 않으면 표준 오퍼를 보냅니다.
-
-**대기 활동**:
-
-* **목적**: 일정 기간 동안 여정을 일시 중지합니다.
-* **함수**: 계속하기 전에 특정 지점에 프로필을 보관합니다.
-* **사용 사례**: 메시지 사이의 시간, 업무 시간 대기, 지연 생성
-* **예**: 환영 전자 메일 후 3일 후에 다음 메시지를 보냅니다.
+| | **조건 활동** | **대기 활동** |
+|---|---|---|
+| **용도** | 논리를 기반으로 다른 경로 생성(if/then) | 일정 기간 동안 여정 일시 중지 |
+| **함수** | 데이터를 평가하고 그에 따라 프로필을 라우팅합니다. | 계속하기 전에 특정 지점에 프로필을 보관합니다. |
+| **사용 사례** | 세그먼트 고객, 상태 확인, 행동을 기반으로 분기 | 메시지 사이의 타이밍, 업무 시간 대기, 지연 발생 |
+| **예** | 고객이 VIP인 경우 프리미엄 오퍼를 보내고, 그렇지 않으면 표준 오퍼를 보냅니다. | 환영 이메일 후 3일 후에 다음 메시지를 전송합니다. |
 
 **함께 작업합니다**:
 

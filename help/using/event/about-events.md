@@ -120,8 +120,8 @@ Adobe Journey Optimizer은 모든 샌드박스에서 조직 수준에서 초당 
 
 이벤트를 구성하고 이벤트에 대한 스트리밍 엔드포인트 및 페이로드를 지정하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431519?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 비즈니스 이벤트의 사용 사례를 이해합니다. 비즈니스 이벤트를 사용하여 여정을 작성하는 방법과 상황에 따라 적합한 모범 사례를 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416327?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)

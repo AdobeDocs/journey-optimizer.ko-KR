@@ -22,7 +22,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->이 섹션[에서 여정 속성 특성 &#x200B;](../building-journeys/expression/journey-properties.md#journey-propertoes-fields)에 대해 자세히 알아보세요.
+>이 섹션[에서 여정 속성 특성 ](../building-journeys/expression/journey-properties.md#journey-propertoes-fields)에 대해 자세히 알아보세요.
 
 
 ## journeyID {#journeyid-field}
