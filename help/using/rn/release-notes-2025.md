@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
+source-git-commit: 23a6a0d0766959a2a073512e805b14edb1a323f0
 workflow-type: tm+mt
-source-wordcount: '6603'
+source-wordcount: '7883'
 ht-degree: 100%
 
 ---
@@ -19,6 +19,189 @@ ht-degree: 100%
 
 이 페이지에서는 2025년에 릴리스된 [!DNL Journey Optimizer]의 모든 기능과 개선 사항 목록을 확인할 수 있습니다.
 
+
+## 25년 9월 릴리스 정보 {#25-9-rn}
+
+**릴리스 일자**: 2025년 9월 23~24일
+
+### 새로운 기능 {#sept-25-9-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey Optimizer Experimentation Accelerator</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer Experimentation Accelerator는 실험을 한 단계 더 발전시키기 위해 설계된 AI 중심 제품입니다. Adobe Journey Optimizer 및 Adobe Target 사용자를 위해 구축된 이 솔루션은 실험 관리를 통합하고, AI 기반 인사이트와 기회를 제공하며, 새로운 실험 에이전트를 도입합니다.</p>
+<p>다음과 같은 기능을 기대할 수 있습니다.</p>
+<ul>
+<li><strong>통합 실험 인벤토리:</strong> 하나의 중앙 작업 공간에서 Adobe Journey Optimizer 및 Adobe Target의 모든 실험을 빠르게 보고 필터링하고 관리합니다.</li>
+<li><strong>AI 실험 인사이트 및 기회:</strong> 단순한 통계 읽기를 넘어 생성형 AI 기반 인사이트와 추천을 이용할 수 있습니다. 이제 실험별로 실행 가능한 기회를 근거와 함께 표시하므로 팀에서 다음에 테스트할 항목을 보다 자신 있게 결정할 수 있습니다.</li>
+<li><strong>Journey Optimizer의 Multi-Armed Bandit(MAB) 지원:</strong> Multi-Armed Bandit 실험으로 트래픽 낭비를 줄이면서 효과를 극대화할 수 있습니다. MAB는 대상자를 균등하게 분할하지 않고 실시간으로 성과가 가장 좋은 베리에이션에 더 많은 방문자를 자동 할당하므로 더 많은 고객에게 더 나은 경험을 제공하면서 효과가 있는 변수를 파악할 수 있습니다.</li></ul>
+<p><img src="assets/do-not-localize/experimentation-accelerator.gif"/></p>
+<p>자세한 내용은 <a href="../content-management/experiment-accelerator.md">세부 설명서</a>를 참조하십시오.</p>
+<p>사용 가능한 날짜: 2025년 10월 3일</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey 에이전트가 등장했습니다!</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><a href="https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a> 기반 Journey 에이전트를 Journey Optimizer에서 사용할 수 있습니다. 이 에이전트를 사용하면 자연어 인터페이스를 통해 여정을 분석할 수 있습니다. 에이전트는 여정에서 대상자 또는 일정 충돌 및 프로필 감소를 감지하여 이를 해결하기 위한 단계를 수행합니다. 곧 에이전틱 지원을 통해 여정을 만들 수 있게 될 것입니다.</p>
+<p>자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">세부 설명서</a>를 참조하십시오.</p>
+<p>사용 가능한 날짜: 2025년 9월 24일</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>이메일 디자이너의 다크 모드</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 Journey Optimizer 이메일 디자이너에서 다크모드 보기로 전환할 수 있는 기능을 제공합니다. 이 기능에서는 다크모드에서 이메일을 읽는 수신자에게만 표시되는 특정 사용자 지정 설정을 추가로 정의할 수 있습니다.</p>
+<p>다음 사항에 유의하십시오.</p>
+<ul>
+<li>다크모드 최종 렌더링은 수신자의 이메일 클라이언트에 따라 다를 수 있습니다.</li>
+<li>모든 이메일 클라이언트가 사용자 정의 다크모드를 지원하지는 않습니다. 또한 일부 이메일 클라이언트는 수신되는 모든 이메일에 대해 자신의 기본 다크모드만 적용합니다. 두 경우 모두 이메일 디자이너에서 정의한 사용자 지정 설정을 렌더링할 수 없습니다.</li>
+</ul>
+<p><img src="assets/do-not-localize/dark-mode.gif"/></p>
+<p>자세한 내용은 <a href="../email/dark-mode.md">세부 설명서</a>를 참조하십시오.</p>
+ <p>사용 가능한 날짜: 2025년 9월 16일</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>여정 경로 최적화</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>새로운 최적화 노드를 사용하여 특정 대상자를 타기팅하거나 A/B 테스트를 실행하여 비즈니스 중심 KPI를 충족하는 최상의 경로를 결정합니다.</p>
+<p>이 도구를 사용하여 테스트 및 변경을 수행하고 커뮤니케이션, 시퀀스, 타이밍을 사용자 정의하여 고객에게 가장 효과적으로 다가갈 수 있습니다.</p>
+<p>이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하세요.</p>
+<p><img src="assets/do-not-localize/optimize.gif"/></p>
+<p>자세한 내용은 <a href="../building-journeys/optimize.md">세부 설명서</a>를 참조하십시오.</p>
+<p>사용 가능한 날짜: 2025년 9월 4일</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>하위 도메인에 대한 사용자 정의 위임 방법</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 전체 위임과 CNAME 방법 외에 새로운 하위 도메인 구성 방법인 사용자 정의 위임 방법을 사용할 수 있습니다. 이 방법을 사용하면 메시지 게재, 렌더링, 추적에 필요한 DNS의 모든 측면을 사용자가 완전히 제어하고 유지 관리할 수 있습니다.</p>
+<p>이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하세요.</p>
+<p><img src="assets/do-not-localize/custom-delegation.gif"/></p>
+<p>자세한 내용은 <a href="../configuration/delegate-custom-subdomain.md">세부 설명서</a>를 참조하십시오.</p>
+<p>사용 가능한 날짜: 2025년 9월 4일</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>개인화 및 결정을 위해 Adobe Experience Platform 데이터 사용</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이전에 공개 Beta로 릴리스된 이 기능을 이제 모든 환경에서 사용할 수 있습니다. 이번 릴리스에서는 다음과 같은 개선 사항이 도입되었습니다.</p>
+<ul><li>인바운드 채널에서 데이터 세트 조회 개인화를 지원합니다.</li>
+<li>이제 “datasetLookup” 도우미 함수를 표현식 조각 내에서 사용할 수 있습니다. 현재 이 기능은 제한된 고객들만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</li>
+<li>이제 API 호출을 수행하지 않고도 데이터 세트 관리 인터페이스의 옵션을 통해 조회 개인화를 위한 레코드 기반 데이터 세트를 활성화할 수 있습니다.</li>
+<li>데이터 수집 상태를 추적하고 데이터 세트를 조회할 준비가 되었는지 알 수 있도록 모니터링을 개선했습니다.</li>
+<li>최적의 성능과 안정성을 보장하기 위해 사용 지침 및 가드레일을 업데이트했습니다.</li>
+<li>이제 결정 캡핑 규칙에 Adobe Experience Platform 데이터 세트를 활용할 수 있습니다.</li></ul></p>
+<p>자세한 내용은 <a href="../data/lookup-aep-data.md">세부 설명서</a>를 참조하십시오.</p>
+<p>사용 가능한 날짜: 2025년 9월 1일</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+### 개선 사항 {#sept-25-9-improvements}
+
+* **API 트리거 캠페인에서 Webhook 지원**\
+  이제 API 트리거 캠페인이 Webhook를 지원합니다. 모든 메시지에 대한 실시간 상태 업데이트를 받을 수 있는 웹후크 URL을 구성하여 가시성을 높이고 원활한 모니터링과 자동화를 구현합니다. [자세히 보기](../configuration/feedback-webhooks.md)
+
+  사용 가능한 날짜: 2025년 9월 29일
+
+* **SMS 채널에 대한 mTLS 지원**
+이제 사용자 정의 SMS 공급자를 설정할 때 상호 TLS(mTLS) 인증을 활성화하는 옵션이 있습니다. 이 옵션을 선택하면 보안 연결이 설정되기 전에 클라이언트와 서버가 서로의 ID를 확인하도록 요구합니다. [자세히 보기](../sms/sms-configuration-custom.md) - 사용 가능한 날짜: 2025년 9월 23일
+
+* **모델 기반 스키마**\
+  이제 오케스트레이션된 캠페인에서 관계형 모델링 요구 사항을 지원하기 위해 모델 기반 스키마를 사용할 수 있습니다. [자세히 보기](../orchestrated/gs-schemas.md) - 사용 가능한 날짜: 2025년 9월 23일
+
+* **여정에서 데이터 세트 조회 지원**\
+  여정에 새로 추가된 **데이터 세트 조회** 활동을 사용하면 런타임 중에 Adobe Experience Platform 레코드 데이터 세트의 데이터를 동적으로 검색할 수 있습니다. 이 기능을 활용하면 프로필이나 이벤트 페이로드에 없을 수 있는 데이터에 액세스하여 고객 상호 작용이 적시에 적절하게 이루어질 수 있습니다. [자세히 보기](../building-journeys/dataset-lookup.md) - 사용 가능한 날짜: 2025년 9월 23일
+
+  이 활동은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
+
+* **여정 사용자 정의 액션에서 리디렉션 지원**\
+  이제 여정 사용자 정의 액션에서 리디렉션(302)이 지원됩니다. - 사용 가능한 날짜: 2025년 9월 23일
+
+* **채널 구성 모니터링 경고** - 이제 사용자 정의 하위 도메인 위임 유형을 사용하는 이메일 채널 구성 오류가 발생한 경우 이메일 또는 Journey Optimizer 알림 센터에서 구독 설정을 통해 시스템 경고를 받을 수 있습니다. [자세히 보기](../reports/alerts.md#alert-channel-config-failure) - 사용 가능한 날짜: 2025년 9월 23일
+
+* **원클릭 구독 취소 요청** - Adobe 관리에서 구성한 원클릭 구독 취소 요청을 더욱 강력하게 처리하여 안정적이고 일관된 처리를 가능하게 하는 개선 업데이트를 진행했습니다. - 사용 가능한 날짜: 2025년 9월 23일
+
+* **이제 사용자 정의 인증에서 중첩된 JSON 본문 매개 변수 지원**\
+  사용자 정의 액션에 대한 사용자 정의 인증을 구성할 때 중첩 JSON 오브젝트(예: `bodyParams` 내 하위 오브젝트)가 지원됩니다. [자세히 보기](../datasource/external-data-sources.md#custom-authentication-mode) - 사용 가능한 날짜: 2025년 9월 18일
+
+* **시간 단위 캡핑 빈도 재설정** - 이제 채널 규칙 세트에 대해 시간 단위로 캡핑을 적용할 수 있습니다. 이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있으며 1시간을 선택할 수 있습니다(이전에는 3시간). [자세히 보기](../conflict-prioritization/channel-capping.md) - 사용 가능한 날짜: 2025년 9월 17일
+
+* **모든 인바운드 채널에 대한 콘텐츠 베리에이션 시뮬레이션**\
+  이전에는 이메일, SMS, 푸시 알림 채널에서만 사용할 수 있던 콘텐츠 베리에이션 시뮬레이션이 이제 모든 인바운드 채널에도 적용됩니다. [자세히 보기](../test-approve/simulate-sample-input.md) - 사용 가능한 날짜: 2025년 9월 17일
+
+* **결정 캡핑 규칙에 표현식 사용** - 이제 결정 항목에 대한 캡핑 규칙의 임계값을 정의하기 위해 자체 표현식을 작성할 수 있습니다. [자세히 보기](../experience-decisioning/items.md#capping) - 사용 가능한 날짜: 2025년 9월 16일
+
+* **동적 도메인 지원** - 이제 Journey Optimizer가 Adobe에서 허용하는 사전 정의된 도메인에 대한 전체/기본 URL 개인화를 지원합니다. [자세히 보기](../personalization/personalization-build-expressions.md#where) - 사용 가능한 날짜: 2025년 9월 12일
+
+  이 기능은 제한된 가용성으로 일부 고객에게만 제공됩니다.
+
+* **웹후크** - 이 릴리스에서는 사용자 정의 SMS 공급자를 구성할 때 웹후크에 대해 다음과 같은 개선 사항이 도입되었습니다.
+
+   * 이제 수집하려는 데이터 유형에 따라 인바운드 또는 피드백 중 웹후크의 목적을 정의할 수 있습니다. [자세히 보기](../sms/sms-configuration-custom.md#webhook) - 사용 가능한 날짜: 2025년 9월 23일
+
+   * 키워드 구성을 위한 인터페이스가 개선되어 설정이 더욱 쉬워졌습니다. [자세히 보기](../sms/sms-configuration-custom.md#webhook) - 사용 가능한 날짜: 2025년 9월 23일
+
+* **SMS**
+
+   * 사용자 정의 SMS 공급자를 설정할 때, 수신 SMS에 인식할 수 없는 키워드가 포함된 경우 사용되는 **기본값** 키워드를 정의할 수 있습니다. 특정 작업에 대해 **사용자 정의** 키워드를 만들 수도 있습니다. [자세히 보기](../sms/sms-configuration-custom.md) - 사용 가능한 날짜: 2025년 9월 23일
+
+   * 이제 SMS 메시지를 통해 전송되는 정의되지 않은 인바운드 키워드 응답에 액세스할 수 있습니다. 여기에는 구성에서 명시적으로 정의되지 않은 오타, 단어 또는 문장이 포함됩니다. 해당 응답은 **AJO 이메일 추적 경험 이벤트** 데이터 세트의 **InboundMessage**&#x200B;에 13개월 동안 저장됩니다. Sinch, Infobip 및 사용자 정의 SMS 공급자를 통해서만 사용할 수 있습니다. - 사용 가능한 날짜: 2025년 9월 23일
 
 ## 25년 8월 릴리스 정보 {#25-8-rn}
 
