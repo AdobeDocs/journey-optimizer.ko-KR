@@ -9,13 +9,11 @@ role: User
 level: Beginner
 keywords: 랜딩, 랜딩 페이지, 작성, 페이지, 양식
 badge: label="제한된 가용성" type="Informative"
-hidefromtoc: true
-hide: true
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: 58c9fb91bac95e343ddaee93eca24181b80c3894
+source-git-commit: 913104934e78b61b91ea3fca21ee80372050a1fb
 workflow-type: tm+mt
-source-wordcount: '1575'
-ht-degree: 2%
+source-wordcount: '1572'
+ht-degree: 1%
 
 ---
 
@@ -23,7 +21,7 @@ ht-degree: 2%
 
 >[!AVAILABILITY]
 >
->이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.
+>이 기능은 현재 미국 및 호주 고객에게는 제한된 가용성입니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하세요.
 
 [!DNL Journey Optimizer] 랜딩 페이지로 프로필 데이터를 캡처하고 [!DNL Experience Platform] 데이터 세트를 보강하려면 랜딩 페이지의 양식을 활용할 수 있습니다.
 
@@ -33,7 +31,7 @@ ht-degree: 2%
 >id="ajo_lp_form_connection"
 >title="사용할 엔드포인트 선택"
 >abstract="양식 제출 시 데이터가 전송되는 스트리밍 끝점을 정의합니다."
->additional-url="https://experienceleague.adobe.com/ko/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="HTTP API 스트리밍 연결 만들기"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="HTTP API 스트리밍 연결 만들기"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
@@ -53,9 +51,13 @@ ht-degree: 2%
    * **대상 연결** - 데이터가 저장되거나 사용되는 위치입니다.
    * **Source 흐름** - 매핑, 변환 및 유효성 검사를 처리하고 소스 연결에서 [!DNL Experience Platform]&#x200B;(으)로 데이터를 이동하는 파이프라인.
 
+<!--
 >[!NOTE]
 >
-> 양식 사전 설정에 액세스하고 편집하려면 프로덕션 샌드박스에 대한 **[!UICONTROL 양식 사전 설정 관리]** 권한이 있어야 합니다. [이 섹션](../administration/high-low-permissions.md#administration-permissions)에서 사용 권한에 대해 자세히 알아보세요.<!--TBC-->
+> To access and edit form presets, you must have the **[!UICONTROL Manage form presets]** permission on the production sandbox. Learn more about permissions in [this section](../administration/high-low-permissions.md#administration-permissions).TBC
+-->
+
+양식 사전 설정을 만들려면 아래 단계를 수행합니다.
 
 1. **[!UICONTROL 양식 사전 설정]** 인벤토리에 액세스하려면 왼쪽 메뉴에서 **[!UICONTROL 관리]** > **[!UICONTROL 채널]** >**[!UICONTROL 양식 설정]**&#x200B;을 선택하십시오.
 
@@ -69,13 +71,13 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >[Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}에서 스트리밍 소스 연결을 만드는 방법에 대해 자세히 알아보세요.
+   >[Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}에서 스트리밍 소스 연결을 만드는 방법에 대해 자세히 알아보세요.
 
 1. 양식에 연결할 **[!UICONTROL 데이터 집합]**&#x200B;을(를) 선택하십시오. 여기에서 양식 응답이 저장되고 반영됩니다. 특정 데이터 세트를 검색하도록 입력하거나 목록에서 선택할 수 있습니다.
 
    >[!NOTE]
    >
-   >현재 [!DNL Adobe Experience Platform]개의 데이터 세트만 선택할 수 있습니다. 한 번에 하나의 데이터 세트만 선택할 수 있습니다.
+   >현재 [!DNL Adobe Experience Platform]개의 데이터 세트만 선택할 수 있습니다. 한 번에 하나의 데이터 세트를 선택할 수 있습니다. [데이터 세트에 대해 자세히 알아보기](../../data/get-started-datasets.md)
 
 1. **[!UICONTROL 게시]**&#x200B;를 클릭합니다. 이제 사전 설정을 양식에서 사용할 준비가 되었습니다.
 
@@ -93,7 +95,7 @@ ht-degree: 2%
 >id="ajo_lp_form_preset"
 >title="사전 설정 선택"
 >abstract="사용할 연결 및 양식에 대한 사전 정의된 데이터 세트가 포함된 사전 정의된 사전 설정을 선택합니다."
->additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="양식 사전 설정 만들기"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="양식 사전 설정 만들기"
 
 양식을 만들려면 아래 단계를 수행합니다.
 
@@ -192,7 +194,7 @@ ht-degree: 2%
 >title="감사 인사 페이지"
 >abstract="누군가가 양식을 작성하거나 전송할 때 발생하는 작업을 구성합니다."
 
-**[!UICONTROL 감사 페이지]** 섹션에서 사용자가 양식을 작성할 때 수행되는 작업을 구성합니다.
+**[!UICONTROL 감사 페이지]** 섹션에서 양식 세부 정보로 돌아가서 사용자가 양식을 작성할 때 수행되는 작업을 구성하십시오.
 
 ![](assets/lp_create-form-thank-you.png){width=70%}
 
@@ -239,7 +241,7 @@ ht-degree: 2%
 
 ## 랜딩 페이지에서 양식 활용 {#leverage-form-in-lp}
 
-이제 양식에 정의한 속성에 해당하는 데이터를 캡처하여 선택한 데이터 세트에 저장하기 위해 이 양식을 랜딩 페이지에 포함할 수 있습니다. 아래 단계를 수행합니다.
+이제 양식에 정의한 속성에 해당하는 데이터를 캡처하고 선택한 데이터 세트에 저장하기 위해 이 양식을 랜딩 페이지에 포함할 수 있습니다. 아래 단계를 수행합니다.
 
 1. 랜딩 페이지를 만듭니다. [방법 알아보기](create-lp.md#create-landing-page)
 
@@ -263,7 +265,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >**[!UICONTROL 양식 편집]** 단추를 사용하여 선택한 양식을 업데이트할 수 있습니다. 양식이 새 탭에서 열립니다. 양식 콘텐츠를 편집하는 단계는 [이 섹션](#create-form)에 설명된 것과 동일합니다.
+   >**[!UICONTROL 양식 편집]** 단추를 사용하여 선택한 양식을 업데이트할 수 있습니다. 양식이 새 탭에서 열립니다. 양식 콘텐츠를 편집하는 단계는 [이 섹션](#create-form)에 자세히 설명되어 있습니다.
 
 1. **[!UICONTROL 추가 작업 형식]** 섹션에서 사용자가 양식을 작성할 때 수행할 작업을 구성합니다.
 
