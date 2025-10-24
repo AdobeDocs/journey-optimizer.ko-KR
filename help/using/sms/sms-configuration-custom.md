@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: cd47db2e8fd20049cb7598160e99555b448c7012
+source-git-commit: 9b7e10643aaa4cd6c82e0355c45fa810352f21c0
 workflow-type: tm+mt
-source-wordcount: '1386'
+source-wordcount: '1400'
 ht-degree: 7%
 
 ---
@@ -210,9 +210,11 @@ API 자격 증명이 정상적으로 생성되면 이제 옵트인 및 옵트아
 
 1. ![](assets/do-not-localize/Smock_Add_18_N.svg)을(를) 클릭하여 키워드 범주를 추가한 다음 다음과 같이 구성합니다.
 
-   * **[!UICONTROL 인바운드 키워드 범주]**: 키워드 범주를 **[!UICONTROL 옵트인]**, **[!UICONTROL 옵트아웃]**, **[!UICONTROL 도움말]** 또는 **[!UICONTROL 기본값]** 중에서 선택합니다.
+   * **[!UICONTROL 인바운드 키워드 범주]**: 키워드 범주를 **[!UICONTROL 옵트인]**, **[!UICONTROL 옵트아웃]**, **[!UICONTROL 이중 옵트인]**, **[!UICONTROL 도움말]** 또는 **[!UICONTROL 사용자 지정]** 중에서 선택합니다.
 
    * **[!UICONTROL 키워드 입력]**: 메시지를 자동으로 트리거할 기본 또는 사용자 지정 키워드를 입력합니다. 여러 키워드를 추가하려면 ![](assets/do-not-localize/Smock_Add_18_N.svg)을(를) 클릭하십시오.
+
+     **[!UICONTROL 사용자 지정 키워드]**&#x200B;의 경우 여정 내의 일괄 처리 기반 작업에 동의 없는 관련 키워드를 사용하십시오.
 
    * **[!UICONTROL 응답 메시지]**: 자동으로 전송되는 사용자 지정 응답을 드롭다운에서 선택합니다.
 
