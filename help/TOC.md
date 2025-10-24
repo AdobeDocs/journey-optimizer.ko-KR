@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
+source-git-commit: 460ac269404842001f320df6404db474a34c30b7
 workflow-type: tm+mt
-source-wordcount: '3011'
+source-wordcount: '2992'
 ht-degree: 98%
 
 ---
@@ -407,7 +407,7 @@ ht-degree: 98%
          + [웹 채널 전제 조건](using/web/web-prerequisites.md)
          + [웹 하위 도메인 구성](using/web/web-delegated-subdomains.md)
          + [웹 채널 구성 만들기](using/web/web-configuration.md)
-      + [웹 경험 만들기 &#x200B;](using/web/create-web.md)
+      + [웹 경험 만들기 ](using/web/create-web.md)
       + 웹 페이지 작성 {#author-web-pages}
          + [웹 페이지 작성](/help/rp_landing_pages/author-web-pages-landing-page.md)
          + [웹 디자이너를 사용하여 작업](using/web/web-visual-editor.md)
@@ -454,7 +454,7 @@ ht-degree: 98%
       + [LINE 메시지 만들기](using/line/create-line.md)
       + [LINE 메시지 확인 및 보내기](using/line/send-line.md)
 + 콘텐츠 관리 {#content-management}
-   + [콘텐츠 관리 &#x200B;](/help/rp_landing_pages/content-management-landing-page.md)
+   + [콘텐츠 관리 ](/help/rp_landing_pages/content-management-landing-page.md)
    + 개인화 {#personalization}
       + [개인화](/help/rp_landing_pages/personalization-landing-page.md)
       + [개인화 시작](using/personalization/personalize.md)
@@ -555,13 +555,8 @@ ht-degree: 98%
    + 콘텐츠 실험 {#content-experiment}
       + [콘텐츠 실험](/help/rp_landing_pages/content-experiment-landing-page.md)
       + [콘텐츠 실험 시작](using/content-management/get-started-experiment.md)
+      + [Experiment Accelerator 시작](using/content-management/experiment-accelerator-gs.md)
       + [콘텐츠 실험 만들기](using/content-management/content-experiment.md)
-      + Experiment Accelerator {#experiment}
-         + [Experiment Accelerator 시작](using/content-management/experiment-accelerator.md)
-         + [Experimentation Accelerator를 통한 AI의 데이터 사용](using/content-management/experiment-accelerator-security.md)
-         + [Experiment Accelerator 모범 사례](using/content-management/experiment-accelerator-best-practices.md)
-         + [Experiment Accelerator 모니터](using/content-management/experiment-accelerator-monitor.md)
-         + [Experience Accelerator 지표](using/content-management/experiment-accelerator-metrics.md)
       + 기술 문서 {#technotes}
          + [기술 문서](/help/rp_landing_pages/technotes-landing-page.md)
          + [A/B 테스트와 Multi-armed bandit 비교](using/content-management/mab-vs-ab.md)

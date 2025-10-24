@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 23a6a0d0766959a2a073512e805b14edb1a323f0
+source-git-commit: 460ac269404842001f320df6404db474a34c30b7
 workflow-type: tm+mt
-source-wordcount: '7883'
-ht-degree: 100%
+source-wordcount: '7884'
+ht-degree: 99%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 <li><strong>AI 실험 인사이트 및 기회:</strong> 단순한 통계 읽기를 넘어 생성형 AI 기반 인사이트와 추천을 이용할 수 있습니다. 이제 실험별로 실행 가능한 기회를 근거와 함께 표시하므로 팀에서 다음에 테스트할 항목을 보다 자신 있게 결정할 수 있습니다.</li>
 <li><strong>Journey Optimizer의 Multi-Armed Bandit(MAB) 지원:</strong> Multi-Armed Bandit 실험으로 트래픽 낭비를 줄이면서 효과를 극대화할 수 있습니다. MAB는 대상자를 균등하게 분할하지 않고 실시간으로 성과가 가장 좋은 베리에이션에 더 많은 방문자를 자동 할당하므로 더 많은 고객에게 더 나은 경험을 제공하면서 효과가 있는 변수를 파악할 수 있습니다.</li></ul>
 <p><img src="assets/do-not-localize/experimentation-accelerator.gif"/></p>
-<p>자세한 내용은 <a href="../content-management/experiment-accelerator.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/experimentation-accelerator/using/overview">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2025년 10월 3일</p>
 </td>
 </tr>
