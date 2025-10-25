@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 설정, 이메일, 구성
 exl-id: 5a12280c-b937-4cd9-a1ef-563bab48e42e
-source-git-commit: 87d60ddafb8b3793ef774528a96f60501bb5a1b5
+source-git-commit: ffcf4711d733dad725cbb95fd30438535c922bda
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 78%
+source-wordcount: '397'
+ht-degree: 75%
 
 ---
 
@@ -44,6 +44,10 @@ URL 추적 매개변수를 구성하기 위해 **[!UICONTROL 이름]** 및 **[!U
 
 개인화 편집기를 통해 다음과 같은 사전 정의된 값을 사용할 수 있습니다.
 
+* **메시지 프로필 ID**: 게재의 각 대상 프로필에 전송된 각 메시지를 고유하게 식별하는 메시지 지향 특성입니다.
+
+* **오퍼 ID**: 이메일에 사용된 오퍼의 ID입니다.
+
 * **소스 액션 ID**: 여정 또는 캠페인에 추가된 이메일 액션의 ID입니다.
 
 * **소스 액션 이름**: 여정 또는 캠페인에 추가된 이메일 액션의 이름입니다.
@@ -53,8 +57,6 @@ URL 추적 매개변수를 구성하기 위해 **[!UICONTROL 이름]** 및 **[!U
 * **소스 이름**: 이메일을 보낸 여정 또는 캠페인의 이름입니다.
 
 * **소스 버전 ID**: 이메일을 보낸 여정 또는 캠페인 버전의 ID입니다.
-
-* **오퍼 ID**: 이메일에 사용된 오퍼의 ID입니다.
 
 >[!NOTE]
 >
