@@ -5,10 +5,10 @@ feature: Decisioning
 role: User
 level: Intermediate
 exl-id: 73548973-ff8d-4d6c-b383-dd3679fa159a
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+source-git-commit: b9a515156e9a79519be59fb52b67762a32c9d03e
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 18%
+source-wordcount: '237'
+ht-degree: 16%
 
 ---
 
@@ -67,3 +67,9 @@ Decisioning을 최적으로 사용하려면 다음 보호 기능 및 제한 사�
 | 총 배치 | 1K |
 | AI 등급 모델 | 5 |
 | 빈도 규칙 - 오퍼당 최대 한도 규칙 수 | 10 |
+
+## 구성 {#configurations}
+
+Decisioning이 지원하는 총 구성 수는 20,000개를 초과할 수 없습니다.
+
+총 구성 수는 샌드박스에 있는 총 [한도 규칙](items.md#capping) 수입니다.

@@ -6,10 +6,10 @@ feature: Decisioning
 role: User
 level: Intermediate
 exl-id: d2872bd3-42f8-4744-bb5b-41c49340098a
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: b9a515156e9a79519be59fb52b67762a32c9d03e
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 16%
+source-wordcount: '348'
+ht-degree: 14%
 
 ---
 
@@ -89,3 +89,9 @@ ht-degree: 16%
 | 배치 | 1000 |
 | AI 순위 모델 | 5 |
 | 빈도 제한 - 오퍼당 최대 제한 규칙 수 | 10 |
+
+## 구성 {#configurations}
+
+의사 결정 관리가 지원하는 총 구성 수는 20,000개를 초과할 수 없습니다.
+
+총 구성 수는 샌드박스에 있는 총 [한도 규칙](offer-library/add-constraints.md#capping) 수입니다. 모든 [배치](offer-library/creating-placements.md)에 적용되는 각 최대 가용량 규칙에 대해 지정된 오퍼와 연결된 모든 배치에서 규칙을 곱해야 합니다.
