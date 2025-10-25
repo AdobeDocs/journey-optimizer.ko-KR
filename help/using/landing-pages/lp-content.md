@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 랜딩, 랜딩 페이지, 작성, 페이지, 양식, 구성 요소
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1336'
 ht-degree: 9%
 
 ---
@@ -33,6 +33,10 @@ ht-degree: 9%
 >**[!UICONTROL 양식]** 구성 요소 없이 클릭스루 랜딩 페이지를 만들 수도 있습니다. 이 경우 랜딩 페이지가 사용자에게 표시되지만 양식을 제출할 필요는 없습니다. 이 기능은 옵트인 또는 옵트아웃과 같은 수신자의 작업 없이 랜딩 페이지를 표시하거나 사용자 입력이 필요하지 않은 정보를 제공하려는 경우에만 유용할 수 있습니다.
 
 랜딩 페이지 콘텐츠 디자이너를 사용하여 하위 페이지의 기본 페이지에서 가져온 컨텍스트 데이터를 활용할 수도 있습니다. [자세히 알아보기](#use-primary-page-context)
+
+>[!NOTE]
+>
+>[유럽 접근성 법률](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}에는 모든 디지털 통신에 액세스할 수 있어야 한다고 명시되어 있습니다. [에서 콘텐츠를 디자인할 때는 ](../email/accessible-content.md)이 페이지[!DNL Journey Optimizer]에 나열된 특정 지침을 따라야 합니다.
 
 ## 양식 구성 요소 사용 {#use-form-component}
 

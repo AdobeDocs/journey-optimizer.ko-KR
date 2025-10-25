@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 콘텐츠, 편집자, 이메일, 시작
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 50491d039f2baf8c30a6af0c1b59fe9041244ac7
+source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 52%
+source-wordcount: '700'
+ht-degree: 50%
 
 ---
 
@@ -60,7 +60,11 @@ ht-degree: 52%
 >abstract="디자이너를 통해 열 구조를 선택하여 템플릿 레이아웃을 쉽게 정의할 수 있습니다."
 
 
-Adobe Journey Optimizer Designer을 사용하여 콘텐츠의 구조를 쉽게 정의할 수 있습니다. 간단한 드래그 앤 드롭 작업으로 구조 요소를 추가 및 이동하여 콘텐츠의 형태를 몇 초 이내에 디자인할 수 있습니다.
+[!DNL Adobe Journey Optimizer] 전자 메일 Designer을 사용하여 콘텐츠의 구조를 쉽게 정의할 수 있습니다. 간단한 드래그 앤 드롭 작업으로 구조 요소를 추가 및 이동하여 콘텐츠의 형태를 몇 초 이내에 디자인할 수 있습니다.
+
+>[!NOTE]
+>
+>[유럽 접근성 법률](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}에는 모든 디지털 통신에 액세스할 수 있어야 한다고 명시되어 있습니다. [에서 콘텐츠를 디자인할 때는 ](accessible-content.md)이 페이지[!DNL Journey Optimizer]에 나열된 특정 지침을 따라야 합니다.
 
 콘텐츠 작성을 시작하려면 아래 단계를 따르십시오.
 

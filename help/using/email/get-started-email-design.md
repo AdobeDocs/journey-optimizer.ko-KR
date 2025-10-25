@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 이메일, 디자인, Stock, 자산
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: da82432dd15f19ac7db52f491e5afd5ba6d4e3d7
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
+workflow-type: tm+mt
+source-wordcount: '654'
+ht-degree: 93%
 
 ---
 
@@ -41,6 +41,10 @@ ht-degree: 100%
 | 권장 | 주의하여 사용 | 권장하지 않음 |
 |-|-|-|
 | <ul><li>구조화를 위한 <b>정적, 테이블 기반 레이아웃</b></li> <li>레이아웃 일관성을 위한 <b>HTML 테이블 및 중첩 테이블</b></li> <li>600px~800픽셀 사이의 <b>템플릿 너비</b> </li> <li>스타일 지정을 위한 <b>간단한 인라인 CSS</b> </li> <li>범용 호환성을 위한 <b>웹 지원 글꼴</b></li> | <ul><li><b>배경 이미지</b>의 경우 특정 이메일 플랫폼에서는 표시되지 않을 수 있습니다.</li><li><b>사용자 정의 웹 글꼴</b>은 범용으로 지원되지 않습니다.</li><li><b>넓은 레이아웃</b>의 경우 작은 화면에서는 제대로 표시되지 않을 수 있습니다.</li><li><b>이미지 맵</b>은 제한된 기능만 제공합니다.</li><li><b>임베드된 CSS</b>는 이메일 게재 중에 제거되는 경우가 있습니다.</li> | <ul><li><b>JavaScript</b>는 일반적으로 이메일 환경에서 지원되지 않습니다.</li> <li> <b>`<iframe>`</b> 태그는 대부분의 플랫폼에서 차단되어 있습니다. </li> <li><b>Flash</b>는 오래되어 더 이상 지원되지 않습니다.</li> <li><b>임베드된 오디오</b>는 재생되지 않는 경우가 많습니다.</li> <li><b>임베드된 비디오</b>는 많은 이메일 플랫폼과 호환되지 않습니다.</li> <li> <b>Forms</b>는 이메일 내에서 작동하지 않습니다.</li> <li> `<div>` 계층화로 인해 렌더링 문제가 발생할 수 있습니다.</li> |
+
+>[!NOTE]
+>
+>[유럽 접근성 법률](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}에는 모든 디지털 통신에 액세스할 수 있어야 한다고 명시되어 있습니다. 이 섹션에 나열된 전자 메일 디자인 모범 사례 외에도 전자 메일 Designer을 사용하여 액세스 가능한 콘텐츠를 작성하는 데 필요한 [이 페이지](accessible-content.md)에 나열된 지침도 따라야 합니다.
 
 ## 이메일 콘텐츠를 만드는 주요 단계 {#key-steps}
 
@@ -74,8 +78,8 @@ ht-degree: 100%
 
 메시지 편집기로 이메일 콘텐츠를 만드는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416234?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
 A/B 테스트를 위한 콘텐츠 실험을 구성하여 비즈니스 목표 달성에 가장 도움이 되는 이메일 콘텐츠를 탐색하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447338?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)
