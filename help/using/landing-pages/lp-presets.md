@@ -8,10 +8,10 @@ role: Admin
 level: Experienced
 keywords: 랜딩, 랜딩 페이지, 구성, 환경, 하위 도메인, 사전 설정
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 8e5a904f9310385f5a8186159dedde9942624268
+source-git-commit: 18ff50d9625e3e5be555b6ca274b2d7f61dd126e
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 15%
+source-wordcount: '411'
+ht-degree: 13%
 
 ---
 
@@ -60,15 +60,23 @@ ht-degree: 15%
 
    ![](assets/lp_preset-subdomain.png)
 
-   하위 도메인을 선택하려면 최소 하나 이상의 랜딩 페이지 하위 도메인을 이전에 구성했는지 확인합니다. [방법 알아보기](#lp-subdomains)
+   >[!NOTE]
+   >
+   >하위 도메인을 선택하려면 최소 하나 이상의 랜딩 페이지 하위 도메인을 이전에 구성했는지 확인합니다. [방법 알아보기](lp-subdomains.md)
 
    선택한 하위 도메인에 해당하는 설정이 표시됩니다.
 
-1. **[!UICONTROL 랜딩 페이지 하위 도메인과 동일]** 옵션을 선택하여 추적 URL에 대한 랜딩 페이지 하위 도메인을 선택할 수 있습니다. [추적에 대해 자세히 알아보기](../email/message-tracking.md)
+1. **[!UICONTROL 랜딩 페이지 하위 도메인과 동일]** 옵션을 선택하여 **[!UICONTROL 추적 URL]**&#x200B;에 대한 랜딩 페이지 하위 도메인을 선택할 수 있습니다. [추적에 대해 자세히 알아보기](../email/message-tracking.md)
 
    ![](assets/lp_preset-subdomain-settings-same.png)
 
    예를 들어 랜딩 페이지 URL이 &#39;pages.mail.luma.com&#39;이고 추적 URL이 &#39;data.mail.luma.com&#39;인 경우 추적 하위 도메인으로 사용할 &#39;pages.mail.luma.com&#39;을 선택할 수 있습니다.
+
+   >[!CAUTION]
+   >
+   >선택한 랜딩 페이지 하위 도메인은 **[!UICONTROL 추적 URL]** <!--and **[!UICONTROL Image Delivery URL]** -->이(가) [기존 하위 도메인](lp-subdomains.md#lp-use-existing-subdomain)을(를) 사용하여 만들어진 경우 지정하는 데 사용됩니다.
+   >
+   >[고유한 도메인 추가](lp-subdomains.md#lp-configure-new-subdomain) 옵션을 사용하여 하위 도메인을 만든 경우 주 하위 도메인(즉, 첫 번째 위임된 하위 도메인)이 대신 사용됩니다.
 
 1. **[!UICONTROL 제출]**&#x200B;을 클릭하여 랜딩 페이지 사전 설정 만들기를 확인합니다. <!--You can also save the preset as draft and resume its configuration later on.-->
 
@@ -76,7 +84,7 @@ ht-degree: 15%
 
 1. 랜딩 페이지 사전 설정이 만들어지면 목록에 **[!UICONTROL 활성]** 상태로 표시됩니다. 랜딩 페이지에 사용할 준비가 되었습니다.
 
-이제 [에서 &#x200B;](../landing-pages/create-lp.md)랜딩 페이지를 만들[!DNL Journey Optimizer]할 준비가 되었습니다.
+이제 [에서 ](../landing-pages/create-lp.md)랜딩 페이지를 만들[!DNL Journey Optimizer]할 준비가 되었습니다.
 <!--
 >[!NOTE]
 >
