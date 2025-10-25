@@ -34,4 +34,4 @@ ht-degree: 62%
 
 >[!NOTE]
 >
->[유럽 접근성 법률](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}에는 모든 디지털 통신에 액세스할 수 있어야 한다고 명시되어 있습니다. [에서 콘텐츠를 디자인할 때는 명확성을 위해 색상, 레이블 및 아이콘을 조정하고, 모바일 및 응답형 레이아웃으로 디자인을 최적화하는 등 ](../email/accessible-content.md)이 페이지[!DNL Journey Optimizer]에 나열된 특정 스타일 지침을 따라야 합니다.
+>[유럽 접근성 법률](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}에는 모든 디지털 통신에 액세스할 수 있어야 한다고 명시되어 있습니다. [에서 콘텐츠를 디자인할 때는 명확성을 위해 색상, 레이블 및 아이콘을 조정하고, 모바일 및 응답형 레이아웃으로 디자인을 최적화하는 등 &#x200B;](../email/accessible-content.md)이 페이지[!DNL Journey Optimizer]에 나열된 특정 스타일 지침을 따라야 합니다.
