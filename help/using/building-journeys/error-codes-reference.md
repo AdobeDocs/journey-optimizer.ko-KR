@@ -164,6 +164,6 @@ Adobe Journey Optimizer 오류 코드는 구성 요소 및 문제 유형을 식�
 
 **관련 항목**
 
-* [Adobe Journey Optimizer 오류 코드 식별: 1부](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884){target="_blank"}
-* [Adobe Journey Optimizer 오류 코드 식별: Part 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661){target="_blank"}
+* [Adobe Journey Optimizer 오류 코드 식별: 1부](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=ko){target="_blank"}
+* [Adobe Journey Optimizer 오류 코드 식별: Part 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661?profile.language=ko){target="_blank"}
 

@@ -21,7 +21,7 @@ ht-degree: 87%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 여정 테스트 또는 게시 전 오류 문제 해결
 
@@ -31,7 +31,7 @@ ht-degree: 87%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 Adobe Journey Optimizer에서 실시간 여정 실행 문제 해결
 
@@ -41,7 +41,7 @@ Adobe Journey Optimizer에서 실시간 여정 실행 문제 해결
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 Adobe Journey Optimizer 여정의 인바운드 작업 문제 해결
 
@@ -51,7 +51,7 @@ Adobe Journey Optimizer 여정의 인바운드 작업 문제 해결
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 Adobe Journey Optimizer에서 사용자 정의 작업 문제 해결
 
@@ -61,7 +61,7 @@ API 호출과 인증 설정이 올바른지 확인하기 위해 &#39;테스트 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
 
 오류 코드 참조
 
