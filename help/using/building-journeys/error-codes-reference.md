@@ -153,15 +153,15 @@ Adobe Journey Optimizer 오류 코드는 구성 요소 및 문제 유형을 식�
 1. **정보 수집**: 오류 코드, 요청 ID, 타임스탬프 및 재현 단계를 수집합니다.
 2. **시스템 상태 확인**: 알려진 서비스 문제에 대해서는 [Adobe 상태](https://status.adobe.com/){target="_blank"}를 방문하세요.
 3. **설명서 검색**: 솔루션에 대한 [Adobe Experience League](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=ko){target="_blank"} 검토
-4. **커뮤니티 참여**: [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}에 질문 게시
+4. **커뮤니티 참여**: [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"}에 질문 게시
 5. **Adobe 지원에 문의**: 모든 관련 세부 정보를 포함한 지원 티켓을 제출합니다.
 
 >[!NOTE]
 >
->이 오류 코드 참조는 새 코드가 식별되고 문서화됨에 따라 계속 업데이트됩니다. 최신 정보는 [Adobe Journey Optimizer 커뮤니티 블로그](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs){target="_blank"}를 정기적으로 확인하십시오.
+>이 오류 코드 참조는 새 코드가 식별되고 문서화됨에 따라 계속 업데이트됩니다. 최신 정보는 [Adobe Journey Optimizer 커뮤니티 블로그](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs?profile.language=ko){target="_blank"}를 정기적으로 확인하십시오.
 
 **관련 항목**
 
-* [Adobe Journey Optimizer 오류 코드 식별: 1부](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884){target="_blank"}
-* [Adobe Journey Optimizer 오류 코드 식별: Part 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661){target="_blank"}
+* [Adobe Journey Optimizer 오류 코드 식별: 1부](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=ko){target="_blank"}
+* [Adobe Journey Optimizer 오류 코드 식별: Part 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661?profile.language=ko){target="_blank"}
 
