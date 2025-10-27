@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 오류, 코드, 문제 해결, 여정, 캠페인, 메시지
-source-git-commit: 584d860d0908f354389037be860757dabe1c1e3f
+source-git-commit: d9d0ca98d5f86a32653c9cb73197873cb31a2c6f
 workflow-type: tm+mt
-source-wordcount: '1513'
+source-wordcount: '1532'
 ht-degree: 1%
 
 ---
@@ -118,8 +118,9 @@ Adobe Journey Optimizer 오류 코드는 구성 요소 및 문제 유형을 식�
 
 ### 여정 활성화 전 {#journey-best-practices}
 
-* **모든 리소스의 유효성을 검사합니다**: 참조된 모든 대상, 데이터 원본 및 사용자 지정 작업이 활성 상태인지 확인하세요.
+* **모든 리소스의 유효성을 검사합니다**: 참조된 모든 대상, 이벤트, 데이터 원본 및 사용자 지정 작업이 올바르게 구성되었는지 확인합니다.
 * **철저하게 테스트**: 게시하기 전에 테스트 모드를 사용하여 문제를 식별합니다([자세히 알아보기](testing-the-journey.md))
+* **볼륨 유효성 검사**: 라이브로 전환되기 전에 시험 실행을 사용하여 대상 도달 및 분기 논리의 유효성을 검사합니다([자세히 알아보기](journey-dry-run.md)).
 * **권한 확인**: 모든 구성 요소에 필요한 액세스 권한이 있는지 확인하십시오.
 * **종속성 검토**: 연결된 모든 메시지와 콘텐츠가 게시되었는지 확인
 
@@ -153,15 +154,15 @@ Adobe Journey Optimizer 오류 코드는 구성 요소 및 문제 유형을 식�
 1. **정보 수집**: 오류 코드, 요청 ID, 타임스탬프 및 재현 단계를 수집합니다.
 2. **시스템 상태 확인**: 알려진 서비스 문제에 대해서는 [Adobe 상태](https://status.adobe.com/){target="_blank"}를 방문하세요.
 3. **설명서 검색**: 솔루션에 대한 [Adobe Experience League](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=ko){target="_blank"} 검토
-4. **커뮤니티 참여**: [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"}에 질문 게시
+4. **커뮤니티 참여**: [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}에 질문 게시
 5. **Adobe 지원에 문의**: 모든 관련 세부 정보를 포함한 지원 티켓을 제출합니다.
 
 >[!NOTE]
 >
->이 오류 코드 참조는 새 코드가 식별되고 문서화됨에 따라 계속 업데이트됩니다. 최신 정보는 [Adobe Journey Optimizer 커뮤니티 블로그](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs?profile.language=ko){target="_blank"}를 정기적으로 확인하십시오.
+>이 오류 코드 참조는 새 코드가 식별되고 문서화됨에 따라 계속 업데이트됩니다. 최신 정보는 [Adobe Journey Optimizer 커뮤니티 블로그](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs){target="_blank"}를 정기적으로 확인하십시오.
 
 **관련 항목**
 
-* [Adobe Journey Optimizer 오류 코드 식별: 1부](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=ko){target="_blank"}
-* [Adobe Journey Optimizer 오류 코드 식별: Part 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661?profile.language=ko){target="_blank"}
+* [Adobe Journey Optimizer 오류 코드 식별: 1부](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884){target="_blank"}
+* [Adobe Journey Optimizer 오류 코드 식별: Part 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661){target="_blank"}
 
