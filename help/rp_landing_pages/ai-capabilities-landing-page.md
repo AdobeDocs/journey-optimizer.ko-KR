@@ -20,7 +20,7 @@ Adobe Journey Optimizer은 인공 지능과 머신 러닝의 힘을 활용하여
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 콘텐츠 생성을 위한 AI 어시스턴트
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer은 인공 지능과 머신 러닝의 힘을 활용하여
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
 
 전송 시간 최적화
 
@@ -40,7 +40,7 @@ AI를 사용하여 메시지를 보내는 최적의 시간을 예측하고 이�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 의사 결정을 위한 AI 모델
 
@@ -50,7 +50,7 @@ AI를 사용하여 메시지를 보내는 최적의 시간을 예측하고 이�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
 
 AI Assistant 제품 지식
 
@@ -60,7 +60,7 @@ AI Assistant 제품 지식
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 AI를 사용한 콘텐츠 실험
 
@@ -70,7 +70,7 @@ AI를 사용한 콘텐츠 실험
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 고객 AI 통합
 
