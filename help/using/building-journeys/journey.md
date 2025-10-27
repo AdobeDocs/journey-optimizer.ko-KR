@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: 여정, 검색, 시작
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
-workflow-type: ht
-source-wordcount: '385'
-ht-degree: 100%
+source-git-commit: 05b8e6c4500d5ec3b6c2c3b0230499a369c8d8ac
+workflow-type: tm+mt
+source-wordcount: '416'
+ht-degree: 93%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 [!DNL Journey Optimizer]를 통해 이벤트 또는 데이터 소스에 저장된 상황별 데이터를 활용하여 실시간 오케스트레이션 사용 사례를 빌드할 수 있습니다. 다음 기능을 사용하여 여러 단계로 구성된 고급 시나리오를 설계할 수 있습니다.
 
-* 이벤트 수신 시 트리거되는 실시간 **단일 게재**&#x200B;를 보내거나 Adobe Experience Platform 대상자를 사용하여 **일괄적으로** 게재를 보냅니다.
+* 이벤트 수신 시 트리거되는 실시간 **단일 게재**&#x200B;를 보내거나 Adobe Experience Platform 대상자를 사용하여 **일괄** 게재를 보냅니다.
 
 * 이벤트의 **컨텍스트 기반 데이터**, Adobe Experience Platform의 정보 또는 서드파티 API 서비스의 데이터를 활용합니다.
 
@@ -51,4 +51,11 @@ Journey Optimizer 여정 디자이너는 마케터와 여정 실무자가 전체
 
 여정의 구성 요소를 살펴보고 캔버스에서 여정을 작성할 때의 기본을 이해합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430355?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
+
+## 추가 리소스 {#additional-resources}
+
+* [여정 FAQ](journey-faq.md) - 여정 관련 자주 묻는 질문
+* [오류 코드 참조](error-codes-reference.md) - 여정 오류 코드 및 문제 해결 단계
+* [경고](../reports/alerts.md) - 여정 모니터링을 위한 경고 설정
+* [문제 해결](troubleshooting.md) - 일반적인 여정 문제 및 해결 방법
