@@ -5,10 +5,10 @@ title: 문제 해결
 description: 문제 해결
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
-source-wordcount: '197'
-ht-degree: 100%
+source-git-commit: bf6cc008acba9df44b239e8ac2425c9ffe700229
+workflow-type: tm+mt
+source-wordcount: '203'
+ht-degree: 87%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 여정 테스트 또는 게시 전 오류 문제 해결
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer에서 실시간 여정 실행 문제 해결
 
@@ -41,7 +41,7 @@ Adobe Journey Optimizer에서 실시간 여정 실행 문제 해결
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Adobe Journey Optimizer 여정의 인바운드 작업 문제 해결
 
@@ -51,7 +51,7 @@ Adobe Journey Optimizer 여정의 인바운드 작업 문제 해결
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Adobe Journey Optimizer에서 사용자 정의 작업 문제 해결
 
@@ -60,8 +60,14 @@ API 호출과 인증 설정이 올바른지 확인하기 위해 &#39;테스트 �
 [사용자 정의 작업 유효성 검사](../using/action/troubleshoot-custom-action.md)
 :::
 
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+
+오류 코드 참조
+
+Adobe Journey Optimizer의 일반적인 오류 코드를 이해하고 여정, 캠페인 및 메시지 전반에 걸친 문제에 대한 빠른 해결 방법을 찾을 수 있습니다.
+
+[오류 코드 참조 보기](../using/building-journeys/error-codes-reference.md)
+:::
+
 ::::
-
-### 추가 리소스
-
-또한 일반적인 오류 코드와 해당 오류 코드를 효과적으로 해결하는 방법을 자세히 설명하는 [이 Adobe 커뮤니티 블로그 게시물](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=ko)을 확인하세요.
