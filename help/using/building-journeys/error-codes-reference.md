@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: 오류, 코드, 문제 해결, 여정, 캠페인, 메시지
-source-git-commit: bf6cc008acba9df44b239e8ac2425c9ffe700229
+source-git-commit: 012efffe4b38ccfdc88545566bc49b519c796ad2
 workflow-type: tm+mt
 source-wordcount: '1513'
 ht-degree: 1%
@@ -146,7 +146,7 @@ Adobe Journey Optimizer 오류 코드는 구성 요소 및 문제 유형을 식�
 * [인바운드 활동 문제 해결](troubleshooting-inbound.md)
 * [사용자 지정 작업 문제 해결](../action/troubleshoot-custom-action.md)
 * [여정 FAQ](journey-faq.md)
-* [가드레일 및 제한 사항](limitations.md)
+* [가드레일 및 제한 사항](../start/guardrails.md)
 
 ## 지원 받기 {#getting-support}
 
@@ -164,6 +164,6 @@ Adobe Journey Optimizer 오류 코드는 구성 요소 및 문제 유형을 식�
 
 **관련 항목**
 
-* [Adobe Journey Optimizer 오류 코드 식별: 1부](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=ko){target="_blank"}
-* [Adobe Journey Optimizer 오류 코드 식별: Part 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661?profile.language=ko){target="_blank"}
+* [Adobe Journey Optimizer 오류 코드 식별: 1부](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884){target="_blank"}
+* [Adobe Journey Optimizer 오류 코드 식별: Part 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661){target="_blank"}
 
