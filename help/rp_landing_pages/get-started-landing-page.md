@@ -5,22 +5,24 @@ title: 시작하기
 description: 시작하기
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
-source-git-commit: 08599d8a9249115a4ce7f339b3565b7805db83e4
+source-git-commit: f116775dfa5bb46857c5e9401a291b46105ebcca
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 78%
+source-wordcount: '352'
+ht-degree: 54%
 
 ---
 
 # 시작하기{#section-overview}
 
-Adobe Journey Optimizer는 기업이 여러 채널에 걸쳐 개인화된 실시간 고객 경험을 만들어 고객이 있는 곳에서 적시에 적절한 메시지로 고객을 만날 수 있도록 지원합니다. 복잡한 고객 여정을 조정하든, AI 기반 의사 결정을 활용하든, 콘텐츠와 데이터를 원활하게 관리하든, 이 플랫폼은 모든 상호 작용을 최적화하는 도구를 제공합니다. 이 섹션에서는 옴니채널 오케스트레이션, 실시간 인사이트, 지능형 의사 결정과 같은 핵심 기능이 어떻게 서로 결합되어 효과적인 결과를 제공하는지 살펴봅니다. 각 주제마다 단계별로 이해를 구축하며 Adobe Journey Optimizer가 고객 참여를 동적인 데이터 기반 프로세스로 전환하는 방법을 쉽게 파악할 수 있습니다.
+Adobe Journey Optimizer은 모든 채널에서 개인화된 실시간 고객 경험을 제공할 수 있습니다. 적절한 시간에 적절한 메시지를 사용하여 고객이 있는 곳에서 만나보십시오.
+
+이 섹션에서는 옴니채널 오케스트레이션 및 AI 기반 의사 결정에서 원활한 콘텐츠 및 데이터 관리에 이르기까지 플랫폼의 핵심 기능을 소개합니다. 모든 고객 상호 작용을 최적화하기 위해 이 강력한 도구들이 함께 작동하는 방식을 알아봅니다. 각 주제는 마지막을 기반으로 하여 동적 데이터 기반 방식으로 고객 참여를 마스터하는 방향으로 단계별 안내합니다.
 
 ## Adobe Journey Optimizer 시작
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 주요 기능
 
@@ -30,7 +32,7 @@ Adobe Journey Optimizer는 기업이 여러 채널에 걸쳐 개인화된 실시
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 아키텍처 개요
 
@@ -40,7 +42,7 @@ Adobe Journey Optimizer를 Adobe Experience Platform과 통합하여 대규모 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 역할 및 책임
 
@@ -50,7 +52,7 @@ Adobe Journey Optimizer를 효과적으로 구현하고 관리하는 데 필요�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 사용자 인터페이스 개요
 
@@ -60,7 +62,7 @@ Adobe Journey Optimizer 인터페이스를 탐색하고 여정 관리 및 결정
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 콘텐츠 검색, 필터링 및 구성
 
@@ -70,7 +72,7 @@ Adobe Journey Optimizer 인터페이스를 탐색하고 여정 관리 및 결정
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 가드레일 및 제한 사항
 
