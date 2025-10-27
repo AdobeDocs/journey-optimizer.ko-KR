@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ef395b65a92fea235811b595cca9bf73f9e78022
+source-git-commit: b3a10c607f13ab9a4b8f0a269f91e9f97d8c8c47
 workflow-type: tm+mt
-source-wordcount: '2999'
+source-wordcount: '3003'
 ht-degree: 97%
 
 ---
@@ -46,6 +46,7 @@ ht-degree: 97%
       + [검색, 필터, 분류](using/start/search-filter-categorize.md)
       + [접근성](using/start/accessibility.md)
    + [AI 어시스턴트로 작업](using/start/ai-assistant.md)
+   + [AJO의 AI 기능](/help/rp_landing_pages/ai-capabilities-landing-page.md)
    + [사용 사례 플레이북](using/start/playbooks.md)
    + [가드레일 및 제한 사항](using/start/guardrails.md)
 + 여정 {#orchestrate-journeys}
@@ -409,7 +410,7 @@ ht-degree: 97%
          + [웹 채널 전제 조건](using/web/web-prerequisites.md)
          + [웹 하위 도메인 구성](using/web/web-delegated-subdomains.md)
          + [웹 채널 구성 만들기](using/web/web-configuration.md)
-      + [웹 경험 만들기 &#x200B;](using/web/create-web.md)
+      + [웹 경험 만들기 ](using/web/create-web.md)
       + 웹 페이지 작성 {#author-web-pages}
          + [웹 페이지 작성](/help/rp_landing_pages/author-web-pages-landing-page.md)
          + [웹 디자이너를 사용하여 작업](using/web/web-visual-editor.md)
@@ -456,7 +457,7 @@ ht-degree: 97%
       + [LINE 메시지 만들기](using/line/create-line.md)
       + [LINE 메시지 확인 및 보내기](using/line/send-line.md)
 + 콘텐츠 관리 {#content-management}
-   + [콘텐츠 관리 &#x200B;](/help/rp_landing_pages/content-management-landing-page.md)
+   + [콘텐츠 관리 ](/help/rp_landing_pages/content-management-landing-page.md)
    + 개인화 {#personalization}
       + [개인화](/help/rp_landing_pages/personalization-landing-page.md)
       + [개인화 시작](using/personalization/personalize.md)
