@@ -8,9 +8,9 @@ topic: Content Management
 role: Developer
 level: Experienced
 keywords: 캠페인, API 트리거, REST, 최적화 도구, 메시지
-source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
+source-git-commit: 5a6abcd48495a66496495e62c6027c2fd0fdd4c4
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '532'
 ht-degree: 2%
 
 ---
@@ -33,9 +33,11 @@ ht-degree: 2%
    * 모든 개인화는 **컨텍스트 데이터**(으)로 API 페이로드에 포함되어야 합니다. [컨텍스트 데이터를 사용하여 콘텐츠를 개인화하는 방법 알아보기](../campaigns/api-triggered-campaign-action.md#contextual)
    * 프로필 기반 개인화는 지원되지 않습니다. 프로필 변수를 사용하면 유효성 검사 오류가 발생합니다.
 
+* **개인화된 채널 구성** - [프로필 기반 개인화](../email/surface-personalization.md)를 사용하는 채널 구성은 처리량이 많은 캠페인과 함께 사용할 수 없습니다. 프로필 개인화가 없는 서피스만 사용할 수 있습니다.
+
 * **API 끝점** - 높은 처리량의 캠페인은 표준 API 트리거 캠페인과 다른 끝점을 사용합니다. 자세한 내용은 [API 트리거 캠페인 실행](../campaigns/trigger-campaigns.md#trigger)을 참조하세요.
 
-* **캠페인 독점성**: 높은 처리량 캠페인에서는 Adobe 프로필을 사용하지 않습니다. 프로필이 있는지 여부에 관계없이 메시지가 전달됩니다.
+* **캠페인 독점성** - 높은 처리량 캠페인에서는 Adobe 프로필을 사용하지 않습니다. 프로필이 있는지 여부에 관계없이 메시지가 전달됩니다.
 
   또한 프로필이 활성화된 경우와 아닌 경우 모두에 캠페인을 사용할 수 없습니다. 둘 다 필요한 경우 두 개의 별도 캠페인을 만들고 호출 시스템이 컨텍스트를 기반으로 트리거할 캠페인을 결정하는지 확인합니다.
 
