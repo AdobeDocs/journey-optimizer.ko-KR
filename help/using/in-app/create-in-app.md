@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: 인앱, 메시지, 만들기, 시작
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: da7d895fcc724e6b1c0d6480f6a8693037a03752
+source-git-commit: 71b12ea083d72597c65e8fb2dc3424ffafa77462
 workflow-type: tm+mt
-source-wordcount: '2056'
+source-wordcount: '2076'
 ht-degree: 12%
 
 ---
@@ -110,7 +110,7 @@ ht-degree: 12%
    1. 인앱 메시지가 활성 상태일 때 트리거 빈도를 선택합니다.
 
       * **[!UICONTROL 항상 표시]**: **[!UICONTROL 모바일 앱 트리거]** 드롭다운에서 선택한 이벤트가 발생하면 항상 메시지를 표시합니다.
-      * **[!UICONTROL 한 번 표시]**: **[!UICONTROL 모바일 앱 트리거]** 드롭다운에서 선택한 이벤트가 처음 발생할 때만 이 메시지를 표시합니다.
+      * **[!UICONTROL 한 번 표시]**: 이 메시지는 사용자 세션당 한 번만 표시되며 닫힐 때까지 모든 창 또는 활동에서 계속 표시됩니다. 특정 화면으로 제한하거나 자동으로 해제하려면 메시징 위임에 사용자 지정 로직을 사용하십시오.
       * **[!UICONTROL 클릭할 때까지 표시]**: **[!UICONTROL 모바일 앱 트리거]** 드롭다운에서 선택한 이벤트가 &quot;클릭함&quot; 동작을 사용하여 SDK에서 상호 작용 이벤트를 보낼 때까지 발생할 때 이 메시지를 표시합니다.
 
 1. 필요한 경우 추가 작업 또는 이벤트를 끌어다 놓아 여정 흐름을 완료합니다. [자세히 알아보기](../building-journeys/about-journey-activities.md)
@@ -236,7 +236,7 @@ ht-degree: 12%
 
   +++비디오 보기
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451889?quality=12&learn=on&captions=kor)
+  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
   +++
 
@@ -244,7 +244,7 @@ ht-degree: 12%
 
   +++비디오 보기
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3445295/?learn=on&autoplay=true&captions=kor)
+  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
 
   +++
 
@@ -260,5 +260,5 @@ ht-degree: 12%
 
 * [인앱 메시지 디자인](design-in-app.md)
 * [인앱 메시지 테스트 및 보내기](send-in-app.md)
-* [인앱 보고서 &#x200B;](../reports/campaign-global-report-cja-inapp.md)
+* [인앱 보고서 ](../reports/campaign-global-report-cja-inapp.md)
 * [인앱 구성](inapp-configuration.md)
