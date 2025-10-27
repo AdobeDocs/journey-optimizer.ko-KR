@@ -5,10 +5,10 @@ title: 문제 해결
 description: 문제 해결
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
-source-git-commit: bf6cc008acba9df44b239e8ac2425c9ffe700229
+source-git-commit: 6ab58b82f5c18f54d8857452d1f91ea96a55933b
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 87%
+source-wordcount: '270'
+ht-degree: 68%
 
 ---
 
@@ -21,7 +21,27 @@ ht-degree: 87%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+
+시스템 경고 액세스 및 구독
+
+시스템 경고에 액세스하고, 알림을 구독하고, 여정 및 캠페인의 중요한 이벤트를 모니터링하는 방법을 알아봅니다.
+
+[시스템 경고 액세스](../using/reports/alerts.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+
+오류 코드 참조
+
+Adobe Journey Optimizer의 일반적인 오류 코드를 이해하고 여정, 캠페인 및 메시지 전반에 걸친 문제에 대한 빠른 해결 방법을 찾을 수 있습니다.
+
+[오류 코드 참조 보기](../using/building-journeys/error-codes-reference.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 여정 테스트 또는 게시 전 오류 문제 해결
 
@@ -31,7 +51,7 @@ ht-degree: 87%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer에서 실시간 여정 실행 문제 해결
 
@@ -41,7 +61,7 @@ Adobe Journey Optimizer에서 실시간 여정 실행 문제 해결
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Adobe Journey Optimizer 여정의 인바운드 작업 문제 해결
 
@@ -51,7 +71,7 @@ Adobe Journey Optimizer 여정의 인바운드 작업 문제 해결
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Adobe Journey Optimizer에서 사용자 정의 작업 문제 해결
 
@@ -60,14 +80,10 @@ API 호출과 인증 설정이 올바른지 확인하기 위해 &#39;테스트 �
 [사용자 정의 작업 유효성 검사](../using/action/troubleshoot-custom-action.md)
 :::
 
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
-
-오류 코드 참조
-
-Adobe Journey Optimizer의 일반적인 오류 코드를 이해하고 여정, 캠페인 및 메시지 전반에 걸친 문제에 대한 빠른 해결 방법을 찾을 수 있습니다.
-
-[오류 코드 참조 보기](../using/building-journeys/error-codes-reference.md)
-:::
-
 ::::
+
+## 추가 리소스
+
+* [여정 FAQ](../using/building-journeys/journey-faq.md) - 여정 유형, 실행, 구성 및 문제 해결 모범 사례에 대해 다루는 여정에 대한 일반적인 질문에 대한 포괄적인 답변입니다.
+
+* [보호 기능 및 제한 사항](../using/start/guardrails.md) - 최적의 사용을 위해 Journey Optimizer 보호 기능, 제품 제한 사항, 성능 고려 사항 및 지원되는 브라우저에 대해 알아봅니다.

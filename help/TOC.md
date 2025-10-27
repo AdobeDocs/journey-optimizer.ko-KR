@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: bf6cc008acba9df44b239e8ac2425c9ffe700229
+source-git-commit: 6ab58b82f5c18f54d8857452d1f91ea96a55933b
 workflow-type: tm+mt
-source-wordcount: '2995'
-ht-degree: 98%
+source-wordcount: '2998'
+ht-degree: 97%
 
 ---
 
@@ -202,13 +202,6 @@ ht-degree: 98%
       + [게재 램프 업](using/building-journeys/ramp-up-deliveries-uc.md)
       + [외부 데이터 원본 및 사용자 정의 작업으로 처리량 제한](using/building-journeys/limit-throughput.md)
       + [사용자 정의 작업을 사용하여 Experience Platform에 여정 이벤트 작성](using/building-journeys/custom-action-aep.md)
-   + 문제 해결 {#troubleshoot-journey}
-      + [문제 해결](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
-      + [오류 코드 참조](using/building-journeys/error-codes-reference.md)
-      + [여정 오류 문제 해결](using/building-journeys/troubleshooting.md)
-      + [여정 실행 문제 해결](using/building-journeys/troubleshooting-execution.md)
-      + [인바운드 액션 문제 해결](using/building-journeys/troubleshooting-inbound.md)
-      + [사용자 정의 액션 문제 해결](using/action/troubleshoot-custom-action.md)
 + 캠페인 {#campaigns}
    + [캠페인](/help/rp_landing_pages/campaigns-landing-page.md)
    + [캠페인 시작](using/campaigns/get-started-with-campaigns.md)
@@ -278,7 +271,7 @@ ht-degree: 98%
          + [분할](using/orchestrated/activities/split.md)
          + [테스트](using/orchestrated/activities/test.md)
          + [대기](using/orchestrated/activities/wait.md)
-+ 충돌 관리 및 우선순위 지정 {#conflict-prioritization}
++ 충돌 및 우선순위 지정 {#conflict-prioritization}
    + [충돌 관리 및 우선순위 지정](/help/rp_landing_pages/conflict-prioritization-landing-page.md)
    + [충돌 관리 및 우선 순위 지정 시작](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [잠재적 충돌 확인](using/conflict-prioritization/conflicts.md)
@@ -307,7 +300,15 @@ ht-degree: 98%
       + [승인 정책 만들기 및 관리](using/test-approve/approval-policies.md)
       + [승인 요청](using/test-approve/request-approval.md)
       + [요청 승인](using/test-approve/review-approve-request.md)
++ 모니터링 및 문제 해결 {#monitor}
+   + [모니터링 및 문제 해결](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
    + [시스템 경고](using/reports/alerts.md)
+   + [오류 코드 참조](using/building-journeys/error-codes-reference.md)
+   + 여정 문제 해결 {#troubleshoot-journey}
+      + [여정 오류 문제 해결](using/building-journeys/troubleshooting.md)
+      + [여정 실행 문제 해결](using/building-journeys/troubleshooting-execution.md)
+      + [인바운드 액션 문제 해결](using/building-journeys/troubleshooting-inbound.md)
+      + [사용자 정의 액션 문제 해결](using/action/troubleshoot-custom-action.md)
 + 커뮤니케이션 채널 {#channels}
    + [소통 채널 시작](using/channels/gs-channels.md)
    + 이메일 채널 {#email}
@@ -408,7 +409,7 @@ ht-degree: 98%
          + [웹 채널 전제 조건](using/web/web-prerequisites.md)
          + [웹 하위 도메인 구성](using/web/web-delegated-subdomains.md)
          + [웹 채널 구성 만들기](using/web/web-configuration.md)
-      + [웹 경험 만들기 &#x200B;](using/web/create-web.md)
+      + [웹 경험 만들기 ](using/web/create-web.md)
       + 웹 페이지 작성 {#author-web-pages}
          + [웹 페이지 작성](/help/rp_landing_pages/author-web-pages-landing-page.md)
          + [웹 디자이너를 사용하여 작업](using/web/web-visual-editor.md)
@@ -455,7 +456,7 @@ ht-degree: 98%
       + [LINE 메시지 만들기](using/line/create-line.md)
       + [LINE 메시지 확인 및 보내기](using/line/send-line.md)
 + 콘텐츠 관리 {#content-management}
-   + [콘텐츠 관리 &#x200B;](/help/rp_landing_pages/content-management-landing-page.md)
+   + [콘텐츠 관리 ](/help/rp_landing_pages/content-management-landing-page.md)
    + 개인화 {#personalization}
       + [개인화](/help/rp_landing_pages/personalization-landing-page.md)
       + [개인화 시작](using/personalization/personalize.md)

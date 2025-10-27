@@ -11,9 +11,9 @@ keywords: 여정, 질문, 답변, 문제 해결, 도움말, 안내서
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 4afd8e455ca0d61ad860ec735c30f1b36bb54e1b
+source-git-commit: d1b031dffa860eb4618d985a53ed13b66f136654
 workflow-type: tm+mt
-source-wordcount: '4526'
+source-wordcount: '4568'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 Adobe Journey Optimizer 여정에 대한 FAQ는 다음과 같습니다.
 
-세부 정보가 필요하십니까? 이 페이지 하단의 피드백 옵션을 사용하여 질문을 제기하거나 [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"}에 연결하세요.
+세부 정보가 필요하십니까? 이 페이지 하단의 피드백 옵션을 사용하여 질문을 제기하거나 [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}에 연결하세요.
 
 ## 일반 개념
 
@@ -729,7 +729,11 @@ Journey Optimizer은 기본적으로 Adobe Campaign과 통합되어 고급 기�
 **여정에 미치는 영향**:
 
 * 여정은 대상 또는 이벤트와 연결된 병합 정책을 사용하여 사용 가능한 프로필 데이터를 결정합니다
-* 병합 정책은 여정 조건, 개인화 및 작업에서 액세스할 수 있는 특성 및 ID에 영향을 줍니다
+   * 대상자 읽기 또는 대상자 자격 여정: 대상자의 병합 정책이 사용됩니다
+   * 단일 이벤트 여정에서: 기본 병합 정책이 사용됩니다
+   * 비즈니스 이벤트 여정: 다음 대상 읽기 활동에서 타깃팅된 대상의 병합 정책이 사용됩니다
+
+* 병합 정책은 여정 조건, 개인화 및 작업에서 액세스할 수 있는 속성에 영향을 줍니다
 * 병합 정책이 다르면 여정에서 다른 프로필 데이터가 사용될 수 있습니다
 
 **모범 사례**:
