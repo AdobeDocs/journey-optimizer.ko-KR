@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 전송 시간, 전송, 메시지, 최적화, 여정, AI, 지능형
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
 workflow-type: tm+mt
-source-wordcount: '1485'
+source-wordcount: '1520'
 ht-degree: 9%
 
 ---
@@ -98,6 +98,10 @@ Adobe Journey Optimizer의 여정 AI 서비스를 기반으로 하는 Adobe의 �
 
 
 ## 자주 묻는 질문 {#faq-send-time}
+
+전송 시간 최적화에 대한 FAQ는 다음과 같습니다.
+
+세부 정보가 필요하십니까? 이 페이지 하단의 피드백 옵션을 사용하여 질문을 제기하거나 [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}에 연결하세요.
 
 +++전송 시간 최적화를 사용하기 전에 얼마나 기다려야 합니까?
 

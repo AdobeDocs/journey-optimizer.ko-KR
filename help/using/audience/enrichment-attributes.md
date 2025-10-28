@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3ec496ba-7555-49e2-992c-403c33302a90
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '550'
 ht-degree: 3%
 
 ---
@@ -56,10 +56,11 @@ ht-degree: 3%
 >+++
 
 
+## 자주 묻는 질문 {#faq-enrichment}
 
+데이터 보강 속성에 대한 FAQ는 다음과 같습니다.
 
-
-
+세부 정보가 필요하십니까? 이 페이지 하단의 피드백 옵션을 사용하여 질문을 제기하거나 [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}에 연결하세요.
 
 +++ 데이터 보강 속성이란 무엇입니까?
 

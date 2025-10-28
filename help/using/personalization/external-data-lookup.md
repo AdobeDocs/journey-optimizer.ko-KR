@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="제한된 가용성" type="Informative"
 exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
 workflow-type: tm+mt
-source-wordcount: '1202'
-ht-degree: 1%
+source-wordcount: '1241'
+ht-degree: 2%
 
 ---
 
@@ -206,16 +206,24 @@ First video description: {%=result.videos[0].description ?: "none found" %}
 
 ![](assets/external-data-troubleshoot.png "너비=50%")
 
-## FAQ
+## 자주 묻는 질문 {#faq-external-data}
 
-* 요청의 컨텍스트 속성을 매개 변수로 외부 데이터 조회에 전달하는 방법
+외부 데이터 조회 도우미에 대한 FAQ는 다음과 같습니다.
 
-  컨텍스트 속성 > 데이터스트림 > 이벤트 메뉴를 사용하여 사용 중인 경험 이벤트 스키마를 검색하고 관련 속성을 다음과 같은 매개 변수 값으로 삽입합니다.
+세부 정보가 필요하십니까? 이 페이지 하단의 피드백 옵션을 사용하여 질문을 제기하거나 [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}에 연결하세요.
 
-  ```
-  {{externalDataLookup actionId="..." result="result" query.myQueryParameter=context.datastream.event.<schemaId>.my.xdm.attribute}}
-  ```
++++ 요청의 컨텍스트 속성을 매개 변수로 외부 데이터 조회에 전달하는 방법
 
-* [!DNL Journey Optimizer]이(가) 외부 끝점 응답을 캐싱합니까?
+컨텍스트 속성 > 데이터스트림 > 이벤트 메뉴를 사용하여 사용 중인 경험 이벤트 스키마를 검색하고 관련 속성을 다음과 같은 매개 변수 값으로 삽입합니다.
 
-  현재는 지원되지 않습니다. 이 기능은 향후에 지원됩니다.
+```
+{{externalDataLookup actionId="..." result="result" query.myQueryParameter=context.datastream.event.<schemaId>.my.xdm.attribute}}
+```
+
++++
+
++++ [!DNL Journey Optimizer]이(가) 외부 끝점 응답을 캐싱합니까?
+
+현재는 지원되지 않습니다. 이 기능은 향후에 지원됩니다.
+
++++
