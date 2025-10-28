@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: 표현식, 편집기, 정보, 시작
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 6b3005dd9483ff5311e4bf6b4f13d254c6be41d6
 workflow-type: tm+mt
-source-wordcount: '1565'
+source-wordcount: '1550'
 ht-degree: 10%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 10%
 
 ## 개인화를 추가할 수 있는 위치 {#where}
 
-**[!DNL Journey Optimizer]**&#x200B;개인화 추가 아이콘![&#x200B; 아이콘을 사용하여 모든 필드의 &#x200B;](assets/do-not-localize/add-perso-icon.svg)에 개인화를 추가할 수 있습니다. 자세한 내용을 보려면 아래 섹션을 확장하십시오.
+**[!DNL Journey Optimizer]**&#x200B;개인화 추가 아이콘![ 아이콘을 사용하여 모든 필드의 ](assets/do-not-localize/add-perso-icon.svg)에 개인화를 추가할 수 있습니다. 자세한 내용을 보려면 아래 섹션을 확장하십시오.
 
 +++메시지
 
@@ -162,8 +162,6 @@ Journey Optimizer은 일부 고객에 대해 제한된 가용성에서도 전체
 1. **[!UICONTROL 알약]**: 특성을 작은 &quot;알약&quot;으로 표시하여 긴 특성 경로를 숨겨서 가독성을 향상시킵니다. 속성을 클릭하여 전체 경로를 표시합니다.
 
    >[!NOTE]
-   >
-   >알약 디스플레이는 향후 30일 동안 모든 환경으로 점진적으로 배포될 예정입니다.
    >
    >이 옵션은 프로필 속성, 컨텍스트 속성 및 다이내믹 미디어에만 사용할 수 있습니다.
 
