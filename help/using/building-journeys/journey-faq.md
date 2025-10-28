@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 여정, 질문, 답변, 문제 해결, 도움말, 안내서
 version: Journey Orchestration
-source-git-commit: 584d860d0908f354389037be860757dabe1c1e3f
+source-git-commit: fa4849cfbb43d74ab85437f00acf6da750080cca
 workflow-type: tm+mt
-source-wordcount: '4568'
+source-wordcount: '5125'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Adobe Journey Optimizer 여정에 대한 FAQ는 다음과 같습니다.
 
-세부 정보가 필요하십니까? 이 페이지 하단의 피드백 옵션을 사용하여 질문을 제기하거나 [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"}에 연결하세요.
+세부 정보가 필요하십니까? 이 페이지 하단의 피드백 옵션을 사용하여 질문을 제기하거나 [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}에 연결하세요.
 
 ## 일반 개념
 
@@ -74,65 +74,79 @@ Adobe Journey Optimizer은 네 가지 유형의 여정을 지원합니다.
 
 +++
 
-<!-- WAITING FOR VALIDATION
++++ 여정에서 지원되는 대상자 유형은 무엇이며 제한 사항은 무엇입니까?
 
-+++ What types of audiences are supported in journeys and what are their limitations?
+Adobe Journey Optimizer은 각기 다른 특성과 보호 기능을 가진 네 가지 유형의 대상을 지원합니다.
 
-Adobe Journey Optimizer supports three types of audiences, each with different characteristics and guardrails:
+**1. 스트리밍 대상**
 
-**1. Streaming audiences**
+* **설명**: 프로필 데이터가 변경될 때 실시간으로 평가되는 대상입니다
+* **평가**: 프로필 특성 또는 이벤트가 세그먼트 기준과 일치하는 경우 지속적인 평가
+* **여정 사용량**: 대상자 읽기, 대상자 자격 및 조건 활동에서 지원됩니다
+* **우수 사례**: 동작 변경 또는 프로필 업데이트에 따른 실시간 참여
+* **보호 기능**:
+   * 최대 대상자 크기는 Journey Optimizer 라이선스에 따라 다릅니다.
+   * 평가 지연 시간은 일반적으로 5분 미만입니다.
+   * 복잡한 세그먼트 로직이 평가 성능에 영향을 줄 수 있음
 
-* **Description**: Audiences that evaluate in real-time as profile data changes
-* **Evaluation**: Continuous evaluation when profile attributes or events match segment criteria
-* **Journey usage**: Supported in Read Audience, Audience Qualification, and Condition activities
-* **Best for**: Real-time engagement based on behavioral changes or profile updates
-* **Guardrails**:
-  * Maximum audience size depends on your Journey Optimizer license
-  * Evaluation latency typically under 5 minutes
-  * Complex segment logic may impact evaluation performance
+**2. 대상자 일괄 처리**
 
-**2. Batch audiences**
+* **설명**: 예약된 시간에 따라 평가된 대상입니다(일반적으로 매일).
+* **평가**: 예약된 간격으로 일괄 처리 작업에서 처리됨
+* **여정 사용량**: 대상자 읽기 및 조건 활동에서 지원되며 대상자 자격 여정에서 제한된 지원을 받습니다
+* **우수 사례**: 정기 캠페인, 뉴스레터, 예약된 커뮤니케이션
+* **보호 기능**:
+   * 평가는 하루에 한 번(기본값) 또는 구성된 일정에 따라 수행됩니다.
+   * 프로필은 다음 평가 전까지 실시간 변경 사항을 반영하지 않을 수 있습니다
+   * 대상자 읽기 활동을 통해 대용량 일괄 대상자를 효율적으로 처리할 수 있습니다.
 
-* **Description**: Audiences evaluated on a scheduled basis (typically daily)
-* **Evaluation**: Processed in batch jobs at scheduled intervals
-* **Journey usage**: Supported in Read Audience and Condition activities; limited support in Audience Qualification journeys
-* **Best for**: Regular campaigns, newsletters, scheduled communications
-* **Guardrails**:
-  * Evaluation occurs once per day (default) or at configured schedule
-  * Profiles may not reflect real-time changes until next evaluation
-  * Read Audience activity can process large batch audiences efficiently
+**3. 대상자 업로드(사용자 지정 업로드)**
 
-**3. Upload audiences (Custom upload)**
+* **설명**: 프로필 식별자가 있는 CSV 파일을 업로드하여 만든 대상자입니다.
+* **평가**: 새 파일을 업로드할 때만 정적 목록이 업데이트되었습니다
+* **여정 사용**: 대상자 읽기 및 조건 활동에서 지원됨; 대상자 자격 여정에서 **지원되지 않음**
+* **우수 사례**: 일회성 캠페인, 외부 목록 가져오기, 대상 통신
+* **보호 기능**:
+   * CSV 파일 크기 제한이 적용됩니다(현재 제한에 대해서는 제품 설명서 확인)
+   * 대상 구성원은 새 업로드로 새로 고쳐질 때까지 정적입니다
+   * ID 네임스페이스는 여정 네임스페이스와 일치해야 함
+   * Adobe Experience Platform에 프로필이 있어야 합니다.
 
-* **Description**: Audiences created by uploading CSV files with profile identifiers
-* **Evaluation**: Static list updated only when new files are uploaded
-* **Journey usage**: Supported in Read Audience and Condition activities; **not supported** in Audience Qualification journeys
-* **Best for**: One-time campaigns, external list imports, targeted communications
-* **Guardrails**:
-  * CSV file size limits apply (check product documentation for current limits)
-  * Audience members are static until refreshed with new upload
-  * Identity namespace must match journey namespace
-  * Profiles must exist in Adobe Experience Platform
+**4. FAC(Federated Audience Composition) 대상**
 
-**Journey-specific considerations**:
+* **설명**: 페더레이션 데이터를 사용하여 만든 대상자로, Adobe Experience Platform에 데이터를 복사하지 않고 외부 데이터 웨어하우스에서 대상을 쿼리하고 구성할 수 있습니다
+* **평가**: 페더레이션 대상 컴포지션이 실행될 때 정적 컴포지션이 업데이트되었습니다
+* **여정 사용**: 대상 및 조건 읽기 활동에서 지원됨; 대상 자격 여정에서 **지원되지 않음**(백 엔드 관점에서 대상을 업로드하는 것과 유사)
+* **최적의 대상**: 엔터프라이즈 데이터 웨어하우스 통합, 외부 데이터 소스를 사용한 대상 구성, 외부 시스템에 데이터를 유지해야 하는 시나리오
+* **보호 기능**:
+   * 다음 페더레이션 컴포지션 실행까지 대상 멤버는 정적입니다
+   * ID 네임스페이스는 여정 네임스페이스와 일치해야 함
+   * 성능은 외부 데이터 웨어하우스 쿼리 기능에 따라 다릅니다
+   * Federated Audience Composition 추가 기능 필요
 
-* **Read Audience journeys**: All three audience types supported; batch export occurs when journey runs
-* **Audience Qualification journeys**: Streaming audiences recommended; batch audiences have delayed qualification detection; upload audiences not supported
-* **Condition activities**: All audience types can be used to check membership
-* **Namespace alignment**: Audience identity namespace must match the journey's namespace for proper profile identification
+**Customer Journey Analytics(CJA) 대상**:
 
-**Best practices**:
+CJA 대상은 여정에서 직접 지원되지 않지만, 세분화 규칙에서 CJA 대상을 &quot;래핑&quot;하여 **해결 방법**&#x200B;을 사용할 수 있습니다. 이렇게 하면 CJA 대상을 참조하는 일괄 UPS(통합 프로필 서비스) 대상이 생성되므로 여정에서 일괄 대상 유형으로 사용할 수 있습니다.
 
-* Use **streaming audiences** for real-time, event-driven journeys requiring immediate response
-* Use **batch audiences** for scheduled communications where daily evaluation is sufficient
-* Use **upload audiences** for targeted one-time campaigns with external lists
-* Monitor audience size and evaluation performance in large-scale deployments
-* Consider audience refresh rates when designing journey timing and entry conditions
+**여정 관련 고려 사항**:
 
-Learn more about [audiences](../audience/about-audiences.md), [creating segments](../audience/creating-a-segment-definition.md), and [custom upload audiences](../audience/custom-upload.md).
+* **대상 여정 읽기**: 네 가지 대상 유형이 모두 지원됩니다. 여정 실행 시 일괄 내보내기가 수행됩니다.
+* **대상 자격 여정**: 스트리밍 대상 권장, 일괄 처리 대상에 자격 탐지가 지연됨, 업로드 및 FAC 대상은 지원되지 않음
+* **조건 활동**: 모든 대상 형식을 사용하여 구성원 자격을 확인할 수 있습니다.
+* **네임스페이스 정렬**: 올바른 프로필 식별을 위해 대상 ID 네임스페이스가 여정 네임스페이스와 일치해야 합니다.
+
+**모범 사례**:
+
+* 즉각적인 응답이 필요한 실시간 이벤트 기반 여정에 **스트리밍 대상**&#x200B;을 사용하십시오.
+* 일별 평가가 충분한 예약된 통신에 **일괄 대상자**&#x200B;를 사용합니다.
+* 외부 목록이 있는 타겟팅된 일회성 캠페인에 **대상자 업로드** 사용
+* 데이터 중복 없이 엔터프라이즈 데이터 웨어하우스 기능을 활용해야 하는 경우 **FAC 대상**&#x200B;을 사용합니다.
+* 대규모 배포에서 대상 크기 및 평가 성능 모니터링
+* 여정 타이밍 및 입력 조건을 디자인할 때 대상 새로 고침 빈도 고려
+
+[대상](../audience/about-audiences.md), [세그먼트 만들기](../audience/creating-a-segment-definition.md), [사용자 지정 업로드 대상](../audience/custom-upload.md) 및 [페더레이션 대상 구성](../audience/federated-audience-composition.md)에 대해 자세히 알아보세요.
 
 +++
--->
 
 +++ 단일 여정과 대상자 읽기 여정 중에서 선택하려면 어떻게 해야 합니까?
 
