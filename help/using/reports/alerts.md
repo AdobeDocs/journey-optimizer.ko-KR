@@ -8,9 +8,9 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 663292f83538707effeb992a0602b1f40d8c1663
+source-git-commit: cc38101d0745770cca196372fc5fdbb64318e601
 workflow-type: tm+mt
-source-wordcount: '1898'
+source-wordcount: '1815'
 ht-degree: 1%
 
 ---
@@ -35,10 +35,9 @@ ht-degree: 1%
 
 * 여정 관련 경고:
 
-   * [여정 사용자 지정 작업 실패](#alert-custom-actions) 경고
    * [대상자 트리거 읽기 실패](#alert-read-audiences) 경고
+   * [사용자 지정 작업 오류율 초과](#alert-custom-action-error-rate) 경고(이전 여정 사용자 지정 작업 실패 경고를 대체)
    * [프로필 삭제 비율 초과](#alert-discard-rate) 경고
-   * [사용자 지정 작업 오류율 초과](#alert-custom-action-error-rate) 경고
    * [프로필 오류율 초과](#alert-profile-error-rate) 경고
 
 * 채널 구성과 관련된 경고:
@@ -55,7 +54,7 @@ ht-degree: 1%
 
 가입자의 환경 설정에 따라 알림은 사용자 인터페이스(인앱 알림)의 오른쪽 상단 모서리에 있는 Journey Optimizer 알림 센터에서 이메일로 및/또는 직접 전송됩니다. [!DNL Adobe Experience Cloud] **[!UICONTROL 환경 설정]**&#x200B;에서 이러한 경고를 받을 방법을 선택하십시오. [자세히 알아보기](../start/user-interface.md#in-product-alerts)
 
-경고가 해결되면 구독자에게 &quot;해결됨&quot; 알림이 전송됩니다.
+경고가 해결되면 구독자에게 &quot;해결됨&quot; 알림이 전송됩니다. 값 전환으로부터 보호하기 위해 1시간 후 경고가 해결됩니다.
 
 
 ### 전역 구독 {#global-subscription}
@@ -72,7 +71,7 @@ ht-degree: 1%
 
 1. **[!UICONTROL 구독 취소]**&#x200B;에 동일한 방법을 사용하십시오.
 
-[I/O 이벤트 알림](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=ko){target="_blank"}을 통해 구독할 수도 있습니다. 경고 규칙은 다른 구독 패키지로 구성됩니다. 특정 Journey Optimizer 경고에 해당하는 이벤트 구독은 [아래](#journey-alerts)에 자세히 설명되어 있습니다.
+[I/O 이벤트 알림](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}을 통해 구독할 수도 있습니다. 경고 규칙은 다른 구독 패키지로 구성됩니다. 특정 Journey Optimizer 경고에 해당하는 이벤트 구독은 [아래](#journey-alerts)에 자세히 설명되어 있습니다.
 
 ### 단일 구독 {#unitary-subscription}
 
@@ -88,7 +87,7 @@ ht-degree: 1%
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭하여 확인합니다.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=ko#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## 여정 경고 {#journey-alerts}
 
@@ -107,39 +106,11 @@ ht-degree: 1%
 
 **대상자 읽기** 활동에 대한 경고는 반복 여정에 적용됩니다. **한 번** 또는 **가능한 한 빨리** 실행 일정이 있는 Live 여정의 **대상자 읽기** 활동은 무시됩니다.
 
-프로필이 **대상자 읽기** 노드에 들어가면 **대상자 읽기**&#x200B;에 대한 경고가 해결됩니다.
+**대상자 읽기**&#x200B;에 대한 경고는 프로필이 **대상자 읽기** 노드에 들어갈 때 또는 1시간 후에 해결됩니다.
 
 **대상자 읽기 트리거 실패** 경고에 해당하는 I/O 이벤트 구독 이름은 **대상자 읽기 지연, 실패 및 오류 여정**&#x200B;입니다.
 
 **대상 읽기** 경고 문제를 해결하려면 Experience Platform 인터페이스에서 대상 수를 확인하십시오.
-
-
-### 여정 사용자 지정 작업 실패 {#alert-custom-actions}
-
-이 경고는 사용자 지정 작업이 실패할 경우 경고합니다. 지난 5분 동안 특정 사용자 지정 작업에 대해 1% 이상의 오류가 발생한 오류가 있는 것으로 간주됩니다. 이는 30초마다 평가됩니다.
-
-경고 세부 정보 및 구성을 확인하려면 경고 이름을 클릭합니다.
-
-<!--
-![](assets/alerts-custom-action.png)-->
-
-사용자 지정 작업에 대한 경고는 지난 5분 동안 다음과 같은 경우에 해결됩니다.
-
-* 해당 사용자 지정 작업에 오류가 없습니다(또는 1% 임계값 아래의 오류).
-
-* 또는 해당 사용자 지정 작업에 도달한 프로필이 없습니다.
-
-사용자 지정 작업 경고에 해당하는 I/O 여정 구독 이름은 **사용자 지정 작업 실패**&#x200B;입니다.
-
-**사용자 지정 작업** 경고의 문제를 해결하려면:
-
-* 다른 여정에서 [테스트 모드](../building-journeys/testing-the-journey.md)를 사용하여 사용자 지정 작업을 확인하세요.
-
-* 작업에 대한 오류 이유를 보려면 [여정 보고서](../reports/journey-live-report.md)를 확인하십시오.
-
-* 여정 stepEvents를 확인하여 &quot;failureReason&quot;에 대한 자세한 정보를 찾으십시오.
-
-* 사용자 지정 작업 구성을 확인하고 인증이 여전히 유효한지 확인하십시오. 예를 들어 Postman을 사용하여 수동 검사를 수행합니다.
 
 ### 프로필 삭제율 초과 {#alert-discard-rate}
 
@@ -160,15 +131,24 @@ ht-degree: 1%
 
 이 경고는 최근 5분 동안 성공한 HTTP 호출에 대한 사용자 지정 작업 오류의 비율이 임계값을 초과하는 경우 경고합니다. 기본 임계값이 20%로 설정되어 있지만 [사용자 지정 임계값을 정의](#custom-threshold)할 수 있습니다.
 
+>[!NOTE]
+>
+>이 경고는 이전 **여정 사용자 지정 작업 실패** 경고를 대체합니다.
+
+경고 세부 정보 및 구성을 확인하려면 경고 이름을 클릭합니다.
+
 사용자 지정 작업 오류는 다양한 이유로 발생할 수 있습니다. 이러한 오류를 해결하려면 다음을 수행할 수 있습니다.
 
-* 사용자 지정 작업이 올바르게 구성되었는지 확인
-* 끝점에 연결할 수 있고 사용자 지정 작업이 사용자 지정 작업 연결 검사기를 통해 끝점에 도달할 수 있는지 확인하십시오
+* 다른 여정에서 [테스트 모드](../building-journeys/testing-the-journey.md)를 사용하여 사용자 지정 작업을 확인하세요.
+* 작업에 대한 오류 이유를 보려면 [여정 보고서](../reports/journey-live-report.md)를 확인하십시오.
+* 여정 stepEvents를 확인하여 &quot;failureReason&quot;에 대한 자세한 정보를 찾으십시오.
+* 사용자 지정 작업이 올바르게 구성되었는지 확인하고 인증이 여전히 유효한지 확인하십시오. 예를 들어 Postman을 사용하여 수동 검사를 수행합니다.
+* 끝점에 연결할 수 있고 사용자 지정 작업이 사용자 지정 작업 연결 검사기를 통해 끝점에 도달할 수 있는지 확인하십시오.
 * 인증 자격 증명을 확인하고 인터넷 연결을 확인합니다.
 
 ### 프로필 오류율 초과 {#alert-profile-error-rate}
 
-이 경고는 최근 5분 동안 성공한 HTTP 호출에 대한 사용자 지정 작업 오류의 비율이 임계값을 초과하는 경우 경고합니다. 기본 임계값이 20%로 설정되어 있지만 [사용자 지정 임계값을 정의](#custom-threshold)할 수 있습니다.
+이 경고는 지난 5분 동안 입력한 프로필에 대한 오류가 있는 프로필의 비율이 임계값을 초과한 경우 경고합니다. 기본 임계값이 20%로 설정되어 있지만 [사용자 지정 임계값을 정의](#custom-threshold)할 수 있습니다.
 
 경고 세부 정보 및 구성을 확인하려면 경고 이름을 클릭합니다.
 
@@ -190,7 +170,7 @@ ht-degree: 1%
 
 필요한 NS 또는 CNAME 레코드가 없거나 구성 표준과 일치하지 않음을 시스템에서 감지하면 **AJO 도메인 DNS 레코드 누락** 경고가 트리거됩니다.
 
-1. [&#x200B; 인터페이스에서 영향을 받는 &#x200B;](../configuration/delegate-subdomain.md)하위 도메인[!DNL Journey Optimizer]&#x200B;(으)로 보낼 경고를 클릭합니다.
+1. [ 인터페이스에서 영향을 받는 ](../configuration/delegate-subdomain.md)하위 도메인[!DNL Journey Optimizer]&#x200B;(으)로 보낼 경고를 클릭합니다.
 
    <!--For guidance on editing delegated subdomains, see [this section](../configuration/delegate-subdomain.md).-->
 
@@ -216,7 +196,7 @@ ht-degree: 1%
 
 이러한 경고를 받으면 해결 단계 가 아래에 나열됩니다.
 
-1. [&#x200B; 인터페이스에서 영향을 받는 &#x200B;](../email/get-started-email-config.md)전자 메일 채널 구성[!DNL Journey Optimizer]&#x200B;(으)로 보낼 경고를 클릭합니다.
+1. [ 인터페이스에서 영향을 받는 ](../email/get-started-email-config.md)전자 메일 채널 구성[!DNL Journey Optimizer]&#x200B;(으)로 보낼 경고를 클릭합니다.
 
    채널 구성 편집에 대한 지침은 [이 섹션](../configuration/channel-surfaces.md#edit-channel-surface)을 참조하세요.
 
@@ -256,7 +236,7 @@ This alert warns you if a domain certificate (CDN, tracking URL) renewal failed 
 ### 경고 편집
 
 해당 줄을 클릭하여 경고의 세부 정보를 확인할 수 있습니다. 이름, 상태 및 알림 채널이 왼쪽 패널에 표시됩니다.
-여정 경고의 경우 **[!UICONTROL 추가 작업]** 단추를 사용하여 편집하십시오. 그런 다음 이러한 경고에 대해 [사용자 지정 보류](#custom-threshold)를 정의할 수 있습니다.
+여정 경고의 경우 **[!UICONTROL 추가 작업]** 단추를 사용하여 편집하십시오. 그런 다음 이러한 경고에 대해 [사용자 지정 임계값](#custom-threshold)을(를) 정의할 수 있습니다.
 
 ![](assets/alert-more-actions.png){width=60%}
 
