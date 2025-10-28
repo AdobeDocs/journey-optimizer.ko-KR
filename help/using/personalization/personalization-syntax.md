@@ -9,9 +9,9 @@ role: Developer
 level: Intermediate
 keywords: 표현식, 편집기, 구문, 개인화
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 50eff8b6c4aaa432595bf16ef1d567c272d6b084
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '588'
 ht-degree: 3%
 
 ---
@@ -44,6 +44,8 @@ ht-degree: 3%
 * **true**, **false**, **null** 및 **정의되지 않음**&#x200B;은(는) 경로 식의 첫 부분에서만 사용할 수 있습니다.
 
 * Handlebars에서 {{expression}}이(가) 반환한 값은 **HTML 이스케이프**&#x200B;입니다. 식에 `&`이(가) 포함된 경우 반환된 HTML 이스케이프 출력은 `&amp;`(으)로 생성됩니다. Handlebars가 값을 이스케이프 처리하지 않게 하려면 &quot;triple-stash&quot;를 사용합니다.
+
+  필드 `profile.person.name`의 값이 &quot;Mark &amp; Mary&quot;라고 가정합니다. `{{profile.person.name}}` 구문은 `Mark &amp; Mary`을(를) 표시하지만 `{{{profile.person.name}}}`은(는) `Mark & Mary`을(를) 표시합니다.
 
 * 리터럴 함수 인수와 관련하여 템플릿 언어 파서는 이스케이프 처리되지 않은 단일 백슬래시(`\`) 기호를 지원하지 않습니다. 이 문자는 추가 백슬래시(`\`) 기호로 이스케이프해야 합니다. 예 :
 
