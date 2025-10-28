@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 version: Journey Orchestration
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: 5b7847957cc0fa176a32c7e0b01d5f41fd424610
+source-git-commit: ccd9f1aa3359875796104d9789d5dd8c0279c0c1
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 15%
@@ -45,7 +45,7 @@ Adobe Experience Platform에서 조회를 위해 데이터 세트를 활성화�
 
 * 데이터 세트당 최대 10개의 여정 조회 활동.
 * 최대 20개의 선택된 필드.
-* 조회 키 배열의 최대 500개 키.
+* 조회 키 배열의 최대 50개 키.
 * 보강된 데이터 크기는 10KB로 제한됩니다.
 
 ### 추가 성능 고려 사항
