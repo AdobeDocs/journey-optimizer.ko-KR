@@ -8,9 +8,9 @@ role: User
 level: Beginner
 keywords: 외부, API, 최적화 프로그램, 한도
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: cef105e55f3353c616e18be84faa0ee774aeac06
 workflow-type: tm+mt
-source-wordcount: '1615'
+source-wordcount: '1654'
 ht-degree: 18%
 
 ---
@@ -106,21 +106,31 @@ API에 대한 자세한 설명은 [Adobe Journey Optimizer API 설명서](https:
    * 5초가 끝나기 전에 세 번의 재시도 중 하나가 성공하면 호출이 수행되며 오류가 없습니다.
    * 재시도 중 시간 초과 기간 끝에 도달하면 호출이 취소되고 보고의 시간 초과 오류로 계산됩니다.
 
-## 자주 묻는 질문{#faq}
+## 자주 묻는 질문 {#faq}
 
-**최대 가용량 또는 제한 규칙을 구성하려면 어떻게 해야 합니까? 기본 규칙이 있습니까?**
+Journey Optimizer과 외부 시스템 통합에 대한 FAQ는 다음과 같습니다.
+
+세부 정보가 필요하십니까? 이 페이지 하단의 피드백 옵션을 사용하여 질문을 제기하거나 [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}에 연결하세요.
+
++++ 캡핑 또는 조절 규칙을 구성하려면 어떻게 해야 합니까? 기본 규칙이 있습니까?
 
 제한 또는 제한 규칙을 만들려면 [이 섹션](../configuration/external-systems.md#capping)을 참조하세요. 기본적으로 제한 규칙은 없으며 모든 사용자 지정 작업, 호스트 및 샌드박스에 대해 1분 동안 정의된 최대 호출 수인 300,000개입니다. 이 제한은 사용자 정의 작업으로 타깃팅된 외부 끝점을 보호하기 위해 고객 사용량을 기준으로 설정되었습니다. 필요한 경우 최대 가용량/최대 가용량 API를 통해 더 큰 최대 가용량 또는 최대 가용량 제한을 정의하여 이 설정을 재정의할 수 있습니다.
 
-**몇 번 다시 시도합니까? 다시 시도 횟수를 변경하거나 다시 시도 사이의 최소 대기 기간을 정의할 수 있습니까?**
++++
+
++++ 몇 번이나 다시 시도합니까? 재시도 횟수를 변경하거나 재시도 사이의 최소 대기 기간을 정의할 수 있습니까?
 
 주어진 호출의 경우 첫 번째 호출 후 시간 초과 기간 종료에 도달할 때까지 최대 3회의 재시도를 수행할 수 있습니다. 다시 시도 횟수와 각 다시 시도 사이의 시간은 변경할 수 없습니다. [이 섹션](../configuration/external-systems.md#timeout)을 참조하십시오.
 
-**시간 제한을 구성할 수 있는 위치는 어디입니까? 최대값이 있습니까?**
++++
+
++++ 시간 초과는 어디에서 구성할 수 있습니까? 최대값이 있습니까?
 
 각 여정에서 시간 제한 기간을 정의할 수 있습니다. 시간 제한 기간은 여정 속성에 구성됩니다. 시간 제한 기간은 1초에서 30초 사이여야 합니다. [이 섹션](../configuration/external-systems.md#timeout) 및 [이 페이지](../building-journeys/journey-properties.md#timeout_and_error)를 참조하세요.
 
-**사용자 지정 작업을 사용할 때 Journey Optimizer에서 연 최대 연결 수는 얼마입니까?**
++++
+
++++ 사용자 지정 작업을 사용할 때 Journey Optimizer에서 연 최대 연결 수는 얼마입니까?
 
 IP 프록시가 활성화되고 대상 끝점에 조절 구성이 정의된 경우 연결 수는 속도를 기반으로 합니다(예상된 수치이며 보장된 숫자가 아님).
 
@@ -130,3 +140,5 @@ IP 프록시가 활성화되고 대상 끝점에 조절 구성이 정의된 경�
 * 4000~5000: 125개 연결
 
 끝점에 전송률 조절 구성이 정의되지 않은 경우 Journey Optimizer 엔진은 확장되도록 설계되었으며 최대 연결 수(2,000개 이상)로 늘어날 수 있습니다. 제한된 연결 수를 얻으려면 조절 구성을 사용해야 합니다.
+
++++
