@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
-source-git-commit: 6f4ec598a56b0e835e1e866f24dcc016f6835be8
+source-git-commit: af4a5965c9268baf88c5306f1aa20d305ee7e501
 workflow-type: tm+mt
-source-wordcount: '1342'
+source-wordcount: '1457'
 ht-degree: 4%
 
 ---
@@ -221,6 +221,22 @@ if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.p
                     ]}
 }
 ```
+
++++
+
++++프로필의 우편 번호 및 연간 소득을 기반으로 한 오퍼 활성화
+
+이 예에서, 시스템은 항상 먼저 ZIP 일치 오퍼를 표시하려고 하며, 일치하는 항목이 없는 경우 일반 오퍼로 대체되어 다른 ZIP 코드에 대한 오퍼가 표시되지 않습니다.
+
+```pql
+if( offer._luma.offerDetails.zipCode = _luma.zipCode,luma.annualIncome / 1000 + 10000, if( not offer.luma.offerDetails.zipCode,_luma.annualIncome / 1000, -9999) )
+```
+
+공식의 기능:
+
+* 오퍼의 우편 번호가 사용자와 동일한 경우, 우선 선택되도록 매우 높은 점수를 제공하십시오.
+* 오퍼에 우편 번호가 전혀 없다면(일반 오퍼인 경우) 사용자의 수입을 기준으로 일반 점수를 부여합니다.
+* 오퍼에 사용자와 다른 우편 번호가 있는 경우, 오퍼가 선택되지 않도록 매우 낮은 점수를 제공합니다.
 
 +++
 
