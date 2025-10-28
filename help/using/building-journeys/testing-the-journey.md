@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 테스트, 여정, 확인, 오류, 문제 해결
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: 84f4bdf3f79d8f19b615c68a03e25b24f435f952
+source-git-commit: 46fe967c55db9f37221a616e7979bd3fafd6b070
 workflow-type: tm+mt
-source-wordcount: '1800'
-ht-degree: 8%
+source-wordcount: '1842'
+ht-degree: 7%
 
 ---
 
@@ -68,6 +68,10 @@ ht-degree: 8%
 1. 테스트 모드를 활성화하려면 오른쪽 상단 모서리에 있는 **[!UICONTROL 테스트 모드]** 단추를 클릭하십시오.
 
    ![](assets/journeytest1.png)
+
+   >[!NOTE]
+   >
+   >테스트 모드를 활성화한 후 프로필 시작을 트리거하기 전에 약 1~2분 정도 기다리십시오. 이를 통해 결정 패키지가 결정 시스템을 통해 완전히 전파될 수 있다. 테스트 모드를 활성화한 직후에 여정 시작을 트리거하면 프로필이 간혹 실패할 수 있습니다.
 
 1. 여정에 하나 이상의 **대기** 활동이 있는 경우 **[!UICONTROL 대기 시간]** 매개 변수를 설정하여 각 대기 활동 및 이벤트 시간 제한이 테스트 모드에서 지속되는 시간을 정의합니다. 대기 및 이벤트 시간 초과에 대한 기본 시간은 10초입니다. 이렇게 하면 테스트 결과를 빠르게 얻을 수 있습니다.
 
