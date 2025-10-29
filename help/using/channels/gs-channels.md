@@ -6,10 +6,10 @@ description: 커뮤니케이션 채널로 [!DNL Adobe Journey Optimizer] 작업�
 role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 96%
+source-wordcount: '586'
+ht-degree: 85%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Journey Optimizer는 대상자와 효과적으로 교류할 수 있는 다
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 이메일 채널
 
@@ -37,7 +37,7 @@ Adobe Journey Optimizer는 대상자와 효과적으로 교류할 수 있는 다
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 푸시 알림 채널
 
@@ -47,7 +47,7 @@ Adobe Journey Optimizer는 대상자와 효과적으로 교류할 수 있는 다
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
 
 SMS / MMS / RCS 메시지
 
@@ -57,7 +57,7 @@ SMS / MMS / RCS 메시지
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
 
 다이렉트 메일 캠페인
 
@@ -75,7 +75,7 @@ SMS / MMS / RCS 메시지
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 인앱 메시지
 
@@ -85,7 +85,7 @@ SMS / MMS / RCS 메시지
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 웹
 
@@ -95,7 +95,7 @@ SMS / MMS / RCS 메시지
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 코드 기반 경험
 
@@ -105,7 +105,7 @@ SDK 및 API를 사용하여 여러 디지털 플랫폼에 걸쳐 개인화된 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg)
 
 콘텐츠 카드
 
@@ -122,10 +122,30 @@ SDK 및 API를 사용하여 여러 디지털 플랫폼에 걸쳐 개인화된 �
 - **[WhatsApp 메시지](../../rp_landing_pages/whatsapp-landing-page.md)** - Meta의 Cloud API를 통해 WhatsApp 메시지를 통합 및 사용하여 개인화되고 규정을 준수하는 커뮤니케이션 캠페인을 수행하는 방법에 대해 알아봅니다.
 - **[LINE 메시지](../../rp_landing_pages/line-landing-page.md)** - 캠페인 및 여정의 효과적인 커뮤니케이션을 위해 LINE 메시지를 구성하고 만들고 개인화하는 방법을 알아봅니다.
 
-## 여정 및 캠페인의 채널 {#leverage}
+## 여정 및 캠페인의 채널 {#channels}
 
 Adobe Journey Optimizer에서는 다음 두 가지 기본 컨텍스트에서 커뮤니케이션 채널을 활용할 수 있습니다.
 
 - **여정**: 여러 접점에 걸쳐 원활한 고객 경험을 만듭니다. 사용자의 행동 및 선호에 따라 상호 작용을 자동화하여 사용자에게 브랜드와의 여정을 안내하는 커뮤니케이션을 적시에 적절하게 보내도록 합니다. [고객 여정을 만들고 실행하는 방법을 알아봅니다](../building-journeys/journey-gs.md).
 
 - **캠페인**: 타기팅된 목표를 달성하기 위해 지정된 채널을 활용하는 특정 마케팅 캠페인을 배포합니다. 새 제품을 홍보하는 것이든 시즌 매출을 촉진하는 것이든, 캠페인을 통해 대상자에게 맞춘 집중적 메시지 전략을 구축할 수 있습니다. [캠페인을 만들고 실행하는 방법에 대해 알아봅니다](../campaigns/get-started-with-campaigns.md).
+
+아래 표는 지원되는 위치를 나타내는 다양한 여정 및 캠페인에서 각 채널의 가용성을 보여줍니다.
+
+&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt; 업스트림 업데이트됨
+| 채널              | 여정 | 작업(마케팅) 캠페인 | 액션(트랜잭션) 캠페인 | API 트리거(마케팅) 캠페인 | API 트리거(트랜잭션) 캠페인 | 오케스트레이션된 캠페인 |
+=======
+| 채널              | 여정 | 액션 캠페인(마케팅) | 액션 캠페인(트랜잭션) | API 트리거된 캠페인 | 오케스트레이션된 캠페인 |
+>>>>>>>>>>저장된 변경 사항
+>>>>>>>>>>---------------------------------------------------------------------------------------------------------------------------------------------- --------------
+>>>>>>>>>>| 이메일                | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+>>>>>>>>>>| SMS                  | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+>>>>>>>>>>| 푸시 알림    | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+>>>>>>>>>>| 인앱               | ✅ | ✅ | — | — | — | — |
+>>>>>>>>>>| 다이렉트 메일          | ✅ | ✅ | — | — | — | — |
+>>>>>>>>>>| 웹                  | ✅ | ✅ | — | — | — | — |
+>>>>>>>>>>| 코드 기반 표현식.      | ✅ | ✅ | — | — | — | — |
+>>>>>>>>>>| 콘텐츠 카드        | ✅ | ✅ | — | — | — | — |
+>>>>>>>>>>| 와츠앱             | ✅ | ✅ | — | — | — | — |
+>>>>>>>>>>| 라인                 | ✅ | ✅ | — | — | — | — |
+> 

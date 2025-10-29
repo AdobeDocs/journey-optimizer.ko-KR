@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 여정, 메시지, 푸시, sms, 이메일, 인앱, 웹, 콘텐츠 카드, 코드 기반 경험
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '554'
 ht-degree: 17%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 17%
 
 ## 여정에 메시지 추가  {#add-msg-in-journey}
 
-기본 제공 채널 작업으로 아웃바운드 또는 인바운드 메시지를 구성할 수 있습니다. 지원되는 인바운드 채널은 이메일, 문자 메시지(SMS/MMS) 및 푸시 알림입니다. 지원되는 아웃바운드 채널은 인앱, 웹, 코드 기반 경험 및 콘텐츠 카드입니다.
+기본 제공 채널 작업으로 아웃바운드 또는 인바운드 메시지를 구성할 수 있습니다. 여정에서 사용할 수 있는 채널에 대한 자세한 내용은 [여정 및 캠페인의 채널](../channels/gs-channels.md#channels) 섹션의 표를 참조하십시오.
 
 여정에 기본 제공 채널 작업을 추가하려면 아래 단계를 수행합니다.
 
