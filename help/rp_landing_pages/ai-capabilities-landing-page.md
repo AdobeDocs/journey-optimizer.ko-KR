@@ -5,9 +5,9 @@ title: Adobe Journey Optimizer의 AI 기능
 description: Adobe Journey Optimizer의 AI 기능
 hide: true
 hidefromtoc: true
-source-git-commit: 2b377fea2f54c15d04fd0fc16633951c58598580
+source-git-commit: e06876a2f7f6e7145f08f725c1bfd4fdf59caf5c
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '1218'
 ht-degree: 4%
 
 ---
@@ -20,7 +20,7 @@ Adobe Journey Optimizer은 인공 지능과 머신 러닝의 힘을 활용하여
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 콘텐츠 생성을 위한 AI 어시스턴트
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer은 인공 지능과 머신 러닝의 힘을 활용하여
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 전송 시간 최적화
 
@@ -40,7 +40,7 @@ AI를 사용하여 메시지를 보내는 최적의 시간을 예측하고 이�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 의사 결정을 위한 AI 모델
 
@@ -50,7 +50,7 @@ AI를 사용하여 메시지를 보내는 최적의 시간을 예측하고 이�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 AI Assistant 제품 지식
 
@@ -60,7 +60,7 @@ AI Assistant 제품 지식
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 AI를 사용한 콘텐츠 실험
 
@@ -70,13 +70,53 @@ AI를 사용한 콘텐츠 실험
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 고객 AI 통합
 
 Adobe Intelligent Services와 통합하여 고객 행동을 예측하고 여정에서 이탈 및 전환 점수를 사용합니다.
 
 [인텔리전트 서비스 탐색](../using/building-journeys/ai-services-overview.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/analytics.svg)
+
+여정 분석 에이전트
+
+자연어를 사용하여 여정을 분석하고 최적화합니다. 폴아웃 지점을 식별하고, 대상자 및 일정 충돌을 감지하고, 실행 가능한 권장 사항을 얻을 수 있습니다.
+
+[Journey Agent 탐색](https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/beaker.svg)
+
+실험용 에이전트
+
+AI 기반 인사이트로 디지털 실험을 실행하고 관리합니다. 다음 테스트에 대한 성능 요약, 콘텐츠 분석 및 권장 사항을 얻을 수 있습니다.
+
+[실험 에이전트 검색](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
+
+Audience 에이전트
+
+대화형 AI를 사용하여 대상 세그먼트를 만들고, 분석하고 최적화합니다. 자연어 쿼리를 통해 복잡한 세그먼트를 작성하고 대상자 중첩에 대한 통찰력을 얻으십시오.
+
+[Audience Agent에 대해 알아보기](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/audience-agent){target="_blank"}
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/workflow.svg)
+
+Agent Orchestrator
+
+여러 AI 에이전트가 원활하게 작동하도록 조정합니다. 여정, 실험, 대상 및 데이터 통찰력 에이전트를 결합하여 복잡한 작업을 해결합니다.
+
+[Agent Orchestrator 탐색](https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}
 :::
 
 ::::
@@ -87,6 +127,15 @@ Adobe Intelligent Services와 통합하여 고객 행동을 예측하고 여정�
 - **[브랜드 정렬 점수](../using/content-management/brands-score.md)** - AI 기반 점수를 사용하여 AI 생성 콘텐츠가 브랜드 지침에 얼마나 잘 부합하는지 평가합니다.
 - **[Experiment Accelerator](../using/content-management/experiment-accelerator-gs.md)** - AI 기반 인사이트 및 권장 사항을 통해 콘텐츠 실험 프로세스를 가속화합니다.
 - **[AI 기반 API](../using/configuration/ajo-apis.md)** - API를 통해 프로그래밍 방식으로 Journey Optimizer의 AI 및 머신 러닝 기능에 액세스합니다.
+
+## Adobe Experience Cloud의 AI 에이전트
+
+Adobe Experience Cloud AI 에이전트는 AI 기능을 Journey Optimizer 이상으로 확장하여 복잡한 마케팅 작업을 위한 자연어 상호 작용을 가능하게 합니다.
+
+- **[여정 분석 에이전트](https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}** - 여정 폴아웃 분석을 수행하고, 대상 및 일정 중복을 감지하고, 여정 성능을 최적화하기 위해 실행 가능한 권장 사항을 받습니다.
+- **[실험 에이전트](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}** - 실험 결과를 분석하고, 가장 성과가 좋은 패턴을 식별하며, 여러 채널에서 테스트할 새로운 기회를 찾습니다.
+- **[Audience Agent](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/audience-agent){target="_blank"}** - 대화형 AI를 통해 대상 세그먼트를 만들고 관리하며, 대상 구성을 분석하고, 세그멘테이션 전략을 최적화합니다.
+- **[Agent Orchestrator](https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}** - 여러 전문 에이전트를 조정하여 복잡하고 여러 단계로 진행되는 마케팅 문제를 효율적으로 해결합니다.
 
 ## 자주 묻는 질문
 
