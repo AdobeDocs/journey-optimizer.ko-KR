@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 07a582db495ecbfae97b6d299b65b06c0cdf8c14
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1091'
 ht-degree: 6%
 
 ---
@@ -420,9 +420,22 @@ The following operation gets all the values for the map `identityMap`.
 {%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/dd/YY") %}
 ```
 
-## 로케일 지원을 사용하여 날짜 형식 지정{#format-date-locale}
+### 패턴 문자 {#pattern-characters}
 
-`formatDate` 함수는 날짜 시간 값의 형식을 해당 언어 구분 표시(즉, 원하는 로케일)로 지정하는 데 사용합니다. 형식은 유효한 Java DateTimeFormat 패턴이어야 합니다.
+일부 패턴 문자는 비슷해 보이지만 다른 개념을 나타냅니다.
+
+| 패턴 | 의미 | 예(예: `2023-12-31T10:15:30Z`) |
+|---------|---------|--------------------------------------|
+| `y` | 달력 연도(표준 연도) | `2023` |
+| `Y` | 주 기준 연도(ISO 8601). 연도 경계가 다를 수 있습니다. | `2024`(2023년 12월 31일 이후, 2024년 첫 주에 해당) |
+| `M` | 월(1-12 또는 `Jan`, `January` 같은 텍스트) | `12` 또는 `Dec` |
+| `m` | 분/시간(0-59) | `15` |
+| `d` | 날짜(1-31) | `31` |
+| `D` | 일(1-366) | `365` |
+
+### 로케일 지원을 사용하여 날짜 형식 지정{#format-date-locale}
+
+`formatDate` 함수를 사용하여 날짜 시간 값의 형식을 해당 언어 구분 표시(즉, 원하는 로케일)로 지정할 수 있습니다. 형식은 유효한 Java DateTimeFormat 패턴이어야 합니다.
 
 **구문**
 

@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 07a582db495ecbfae97b6d299b65b06c0cdf8c14
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 6%
+source-wordcount: '592'
+ht-degree: 5%
 
 ---
 
@@ -107,10 +107,11 @@ ht-degree: 6%
 {%= head(topN(orders,price, 5)) %}
 ```
 
-## 배열의 첫 `n` {#first-n}
+## 정렬하고 배열에서 첫 번째 N을 가져옵니다. {#first-n}
 
-`topN` 함수는 특정 수식에 따라 오름차순으로 정렬되면 배열에서 첫 번째 `N` 항목을 반환하는 데 사용됩니다.
+`topN` 함수는 지정된 수식을 기반으로 내림차순으로 배열을 정렬하고 첫 번째 `N`개 항목을 반환합니다. 배열 크기가 `N`보다 작으면 정렬된 전체 배열을 반환합니다.
 
+이 함수
 **구문**
 
 ```sql
@@ -205,9 +206,9 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 ```
 -->
 
-## 배열의 마지막 `n`{#last-n}
+## 배열에서 마지막 N 정렬 및 가져오기 {#last-n}
 
-`bottomN` 함수는 특정 수식에 따라 내림차순으로 정렬되면 배열에서 마지막 `N` 항목을 반환하는 데 사용됩니다.
+`bottomN` 함수는 지정된 수식을 기반으로 배열을 오름차순으로 정렬하고 첫 번째 `N`개 항목을 반환합니다. 배열 크기가 `N`보다 작으면 정렬된 전체 배열을 반환합니다.
 
 **구문**
 
