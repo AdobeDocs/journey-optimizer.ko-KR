@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 8045b559-bf5e-4b5f-9da4-accd44641a68
 source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '221'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -38,4 +38,4 @@ Adobe Experience Platform에서는 데이터를 지속적으로 수집하므로 
 Privacy Service 및 데이터 수명주기 작업을 수행하는 방법에 대한 자세한 내용은 Adobe Experience Platform 설명서를 참조하세요.
 
 * [Privacy Service 개요](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko)
-* Adobe Experience Platform의 [데이터 수명 주기](https://experienceleague.adobe.com/docs/experience-platform/hygiene/home.html?lang=ko)
+* [Adobe Experience Platform의 데이터 라이프사이클](https://experienceleague.adobe.com/docs/experience-platform/hygiene/home.html?lang=ko)

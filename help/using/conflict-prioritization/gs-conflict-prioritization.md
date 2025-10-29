@@ -5,9 +5,9 @@ role: User
 level: Beginner
 exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
 source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '629'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Journey Optimizer에서 너무 많은 상호 작용으로 고객에게 부담 �
 
 **충돌 감지 도구**&#x200B;를 사용하면 여정 및 캠페인에서 중복될 가능성이 있는 부분을 식별할 수 있습니다. 동시에 너무 많은 커뮤니케이션을 보내면 고객이 피로해질 수 있으므로 이는 매우 중요합니다. Journey Optimizer에서 타임라인, 대상자 중복, 채널 구성과 같은 요소를 모니터링할 수 있습니다. 충돌을 조기에 식별하여 캠페인을 다듬으면 고객에게 동시에 여러 메시지를 퍼붓는 상황을 피할 수 있습니다.
 
-➡️ [여정 및 캠페인에서 잠재적인 충돌을 감지하는 방법을 알아보세요](conflicts.md)
+➡️ [여정 및 캠페인에서 잠재적인 충돌을 감지하는 방법 알아보기](conflicts.md)
 
 ### 우선순위 점수
 

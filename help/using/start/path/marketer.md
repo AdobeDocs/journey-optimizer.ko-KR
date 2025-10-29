@@ -2,21 +2,21 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 마케터를 위한 Journey Optimizer 시작
-description: 여정 전문가의 경우 Journey Optimizer 작업 방법에 대해 자세히 알아보십시오
+description: 여정 실무자로서 Journey Optimizer를 사용하여 작업하는 방법에 대해 자세히 알아보십시오
 level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
 source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '466'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # 마케터를 위한 시작 {#get-started-marketers}
 
-**마케터** 또는 **여정 실무자**&#x200B;로서, 오퍼 및 여정을 만들고 콘텐츠를 디자인할 책임이 있습니다. [시스템 관리자](administrator.md) 및 [데이터 엔지니어](data-engineer.md)에 액세스 권한을 부여하고 환경을 준비하면 [!DNL Adobe Journey Optimizer] (으)로 작업을 시작할 수 있습니다.
+**마케터** 또는 **여정 실무자**&#x200B;는 오퍼 및 여정을 만들고 콘텐츠를 디자인할 책임이 있습니다. [시스템 관리자](administrator.md) 및 [데이터 엔지니어](data-engineer.md)에 액세스 권한을 부여하고 환경을 준비하면 [!DNL Adobe Journey Optimizer] (으)로 작업을 시작할 수 있습니다.
 
 첫 번째 여정을 설정하고 오퍼 및 자산을 추가하고 메시지를 보내려면 다음 섹션을 참조하십시오:
 

@@ -9,15 +9,15 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1894'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 # 사용자 인터페이스 {#cjm-user-interface}
 
-[!DNL Adobe Journey Optimizer]에 액세스하려면 Adobe ID으로 [Adobe Experience Cloud](https://experience.adobe.com)에 연결한 다음 [!DNL Journey Optimizer]을(를) 선택하십시오.
+[!DNL Adobe Journey Optimizer]에 액세스하려면 Adobe ID로 [Adobe Experience Cloud](https://experience.adobe.com)에 접속하고 [!DNL Journey Optimizer]을(를) 선택합니다.
 
 사용자 인터페이스를 검색할 때의 주요 개념은 Adobe Experience Platform과 공통됩니다. 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=ko#adobe-experience-platform-ui-guide){target="_blank"}를 참조하십시오.
 
@@ -201,7 +201,7 @@ AI 어시스턴트는 Adobe의 개념을 탐색 및 이해하고 사용자의 �
 
 AI 어시스턴트에 액세스하려면 상단 표시줄에 있는 아이콘을 클릭하십시오. AI 어시스턴트는 화면 오른쪽에 표시됩니다.
 
-[&#128279;](ai-assistant.md)이 페이지에서 AI 어시스턴트에 액세스하고 사용하는 방법에 대해 알아봅니다.
+](ai-assistant.md)이 페이지에서[ AI 어시스턴트에 액세스하고 사용하는 방법에 대해 알아봅니다.
 
 ## 언어 환경 설정 {#language-pref}
 
@@ -224,10 +224,10 @@ AI 어시스턴트에 액세스하려면 상단 표시줄에 있는 아이콘을
 
 언어를 변경하려면 다음 단계를 수행합니다.
 
-1. 오른쪽 상단의 아바타에서 **환경 설정**&#x200B;을 클릭합니다.
+1. 오른쪽 상단의 아바타에서 **환경 설정**을 클릭합니다.
    ![](assets/preferences.png)
 1. 그런 다음 이메일 주소 아래에 표시되는 언어를 클릭합니다.
-1. 기본 언어를 선택하고 **저장**&#x200B;을 클릭합니다. 사용 중인 구성 요소가 첫 번째 언어로 현지화되지 않은 경우 두 번째 언어를 선택할 수 있습니다.
+1. 기본 언어를 선택하고 **저장**을 클릭합니다. 사용 중인 구성 요소가 첫 번째 언어로 현지화되지 않은 경우 두 번째 언어를 선택할 수 있습니다.
    ![](assets/select-language.png)
 
 +++

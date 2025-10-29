@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
 source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '847'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ You can also create audience-based campaigns to send messages.-->
 
 * **최신 옴니채널 오케스트레이션 및 실행** - 1:1 고객 참여 및 마케팅 제공을 위한 고객 여정을 조화롭게 결합하고 최적화하여 브랜드가 고객 라이프사이클 전반에 걸쳐 더 많은 가치를 제공할 수 있도록 지원하는 단일 캔버스입니다. [!DNL Adobe Journey Optimizer]에 디자인된 고객 여정은 브랜드가 실시간 신호에 반응하고 이러한 상호 작용을 예약된 캠페인과 연결할 수 있도록 동적 및 이벤트를 기반으로 할 수 있으므로 고객이 언제 어떤 채널을 통해 보낼 커뮤니케이션에 대해 올바른 결정을 내릴 수 있습니다.
 
-* **지능형 의사 결정 및 Personalization** - 브랜드는 중앙 집중식 의사 결정을 적용하고 인텔리전스 및 머신 러닝을 통합하여 고객 경험 전반에 대한 예측 인사이트를 구성할 수 있으므로 의사 결정을 보다 쉽게 자동화하고 경험을 규모에 맞게 최적화할 수 있습니다. 의사 결정은 [!DNL Adobe Journey Optimizer]를 통해 대규모로 채널 전반에서 중앙 집중식 오퍼를 제공합니다.
+* **지능형 의사 결정 및 개인화** - 브랜드는 중앙 집중식 의사 결정을 적용하고 인공 지능 및 머신 러닝을 통합하여 고객 경험 전반에 대한 예측 인사이트를 구성함으로써 의사 결정을 보다 쉽게 자동화하고 경험을 대규모로 최적화할 수 있습니다. 의사 결정은 [!DNL Adobe Journey Optimizer]을(를) 통해 대규모로 채널 전반에서 중앙 집중식 오퍼를 제공합니다.
 
 
 >[!NOTE]

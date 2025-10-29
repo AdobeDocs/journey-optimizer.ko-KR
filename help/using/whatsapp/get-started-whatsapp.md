@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
 source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '320'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ WhatsApp을 Journey Optimizer와 통합하려면 다음 항목이 필요합니�
 * [적절한 권한이 있는 사용자 인증 토큰](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)
 * [승인된 Meta 템플릿](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/)
 
-또한 통합을 진행하기 전에 다음 사항을 확인해야 합니다.
+또한 통합을 진행하기 전에 다음 사항을 알고 있어야 합니다.
 
 * [WhatsApp 콘텐츠 규칙](https://www.whatsapp.com/legal/messaging-guidelines)
 * [Meta 정책 준수](https://www.whatsapp.com/legal)
@@ -58,7 +58,7 @@ WhatsApp 채널에는 다음 제한 사항이 적용됩니다.
 
 +++ 비디오 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3470251?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470244?learn=on)
 
 +++
 
