@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: b93d2288156713ac7479eef491f6104df1955a18
+source-git-commit: 30a7ebde95f2cb1ddecf3dc48420076914db4b12
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '459'
 ht-degree: 1%
 
 ---
@@ -35,6 +35,8 @@ ht-degree: 1%
 ![](assets/monitor-1.png)
 
 ➡️ [사용자 지정 작업을 구성하는 방법에 대해 자세히 알아보기](../action/about-custom-action-configuration.md)
+
+**[!UICONTROL 사용자 지정 작업]** 보고 페이지 외에도 **[!DNL Adobe Experience Platform Query Service]**&#x200B;을(를) 사용하여 사용자 지정 작업 성능 지표에 대해 보고할 쿼리를 작성할 수 있습니다. 쿼리 예제는 [이 섹션](../reports/query-examples.md)에서 사용할 수 있습니다.
 
 ## KPI {#kpis}
 
