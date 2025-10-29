@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 이메일, 가져오기, 콘텐츠, html, zip, css
 exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
-source-git-commit: ddbab603e4ac612a49a3853fcac428950def1d98
+source-git-commit: 95701732933fabd37c7de0420438e180ee6fe5d2
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 34%
@@ -30,7 +30,7 @@ ht-degree: 34%
 <!--DOCAC-13676
 >[!TIP]
 >
->If you have image designs (JPEG or PNG) instead of HTML files, you can use the [Template Accelerator](image-to-html.md) to automatically convert them into editable HTML email templates using AI.-->
+>If you have image designs (JPEG or PNG) instead of HTML files, you can use the [image to HTML converter](image-to-html.md) to automatically convert them into editable HTML email templates using AI.-->
 
 HTML 콘텐츠가 포함된 파일을 가져오려면 다음 단계를 따르십시오.
 
@@ -60,4 +60,4 @@ HTML 콘텐츠가 포함된 파일을 가져오려면 다음 단계를 따르십
 
 기존 HTML 콘텐츠를 가져오고, 디자인을 수정하고, 미러 페이지와 구독 취소 링크를 추가하고, 콘텐츠를 코딩하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3421913?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334102?quality=12)

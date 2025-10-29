@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: 이메일, 디자인, Stock, 자산
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: ddbab603e4ac612a49a3853fcac428950def1d98
+source-git-commit: 95701732933fabd37c7de0420438e180ee6fe5d2
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 89%
@@ -66,7 +66,7 @@ ht-degree: 89%
 
    * 파일이나 .zip 폴더의 **기존 HTML 콘텐츠를 가져옵니다**. 이메일 콘텐츠를 가져오는 방법은 [이 섹션](existing-content.md)을 참조하십시오.
 <!-- DOCAC-13676
-    * **Convert image designs to HTML templates** using the AI-powered Template Accelerator feature. Learn how to transform static images into editable email templates in [this section](image-to-html.md).-->
+    * **Convert image designs to HTML templates** using the AI-powered image to HTML converter. Learn how to transform static images into editable email templates in [this section](image-to-html.md).-->
 
     * **기본 제공 템플릿 또는 사용자 지정 템플릿 목록에서 기존 콘텐츠를 선택합니다** [이 섹션](../email/use-email-templates.md)에서 이메일 템플릿으로 작업하는 방법을 알아봅니다.
     
@@ -80,8 +80,8 @@ ht-degree: 89%
 
 메시지 편집기로 이메일 콘텐츠를 만드는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416234?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
 A/B 테스트를 위한 콘텐츠 실험을 구성하여 비즈니스 목표 달성에 가장 도움이 되는 이메일 콘텐츠를 탐색하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447338?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)
