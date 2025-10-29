@@ -118,7 +118,7 @@ API를 통해 프로그래밍 방식으로 Journey Optimizer의 AI 및 머신 �
 Adobe Experience Cloud AI 에이전트는 AI 기능을 Journey Optimizer 이상으로 확장하여 복잡한 마케팅 작업을 위한 자연어 상호 작용을 가능하게 합니다.
 
 - **[여정 분석 에이전트](https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}** - 여정 폴아웃 분석을 수행하고, 대상 및 일정 중복을 감지하고, 여정 성능을 최적화하기 위해 실행 가능한 권장 사항을 받습니다.
-- **[실험 에이전트](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}** - 실험 결과를 분석하고, 가장 성과가 좋은 패턴을 식별하며, 여러 채널에서 테스트할 새로운 기회를 찾습니다.
+- **[실험 에이전트](https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}** - 실험 결과를 분석하고, 가장 성과가 좋은 패턴을 식별하며, 여러 채널에서 테스트할 새로운 기회를 찾습니다.
 - **[Audience Agent](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/audience-agent){target="_blank"}** - 대화형 AI를 통해 대상 세그먼트를 만들고 관리하며, 대상 구성을 분석하고, 세그멘테이션 전략을 최적화합니다.
 - **[Agent Orchestrator](https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}** - 여러 전문 에이전트를 조정하여 복잡하고 여러 단계로 진행되는 마케팅 문제를 효율적으로 해결합니다.
 
