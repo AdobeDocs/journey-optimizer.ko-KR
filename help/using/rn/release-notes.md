@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 913104934e78b61b91ea3fca21ee80372050a1fb
+source-git-commit: b93d2288156713ac7479eef491f6104df1955a18
 workflow-type: tm+mt
-source-wordcount: '1209'
-ht-degree: 48%
+source-wordcount: '1297'
+ht-degree: 47%
 
 ---
 
@@ -31,6 +31,24 @@ ht-degree: 48%
 **릴리스 일자**: 2025년 10월 22일 목요일
 
 ### 새로운 기능 {#oct-25-10-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>사용자 정의 액션 모니터링 및 보고</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이 기능을 사용하면 사용자 지정 작업 엔드포인트 상태 및 성능에 대한 가시성이 향상됩니다. 여정 단계 이벤트 데이터 세트의 새로운 사용자 지정 작업 모니터링 대시보드 및 해당 필드는 사용자 지정 작업 엔드포인트에 대한 성공적인 호출, 오류, 처리량, 응답 시간 및 큐 대기 시간을 모니터링하는 데 도움이 됩니다. 이제 사용자 정의 액션에서 예외적인 상황이 발생한 시점, 위치, 이유를 빠르게 이해할 수 있습니다.</p>
+<p>이 기능은 현재 고객에 대해 제한된 가용성입니다.</p>
+<p>자세한 내용은 <a href="../action/reporting.md">세부 설명서</a>를 참조하십시오.</p>
+<p>사용 가능한 날짜: 2025년 10월 28일 수요일</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -71,24 +89,6 @@ ht-degree: 48%
 </tr>
 </tbody>
 </table>
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Custom action monitoring and reporting</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>This capability provides better visibility into journey health and execution, including lifecycle status and performance alerts. You can now quickly understand when, where, and why an anomalous situation is occurring in a custom action.</p>
-<img src="assets/do-not-localize/FILE.gif">
-<p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p>
-<p>Availability date: October 22, 2025</p>
-</td>
-</tr>
-</tbody>
-</table-->
 
 <!--table>
 <thead>
@@ -288,7 +288,7 @@ ht-degree: 48%
 <tr>
 <td>
 <p>Journey Optimizer Experimentation Accelerator에는 이제 실험, 통찰력 및 기회와 상호 작용할 수 있는 AI 기반의 대화 도구인 실험 에이전트가 포함됩니다. Journey Optimizer Experimentation Accelerator 경험을 향상시켜 실험을 보다 효율적으로 실행하고, 작동 방식을 파악하고, 다음 프로젝트를 최적화할 위치를 찾는 데 도움이 됩니다.</p>
-<p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=ko" target="_blank">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2025년 10월 10일 토요일</p>
 </td>
 </tr>

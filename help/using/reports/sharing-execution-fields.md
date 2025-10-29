@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 273cda84-0261-4c5b-b5f4-0202e8874d05
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: b93d2288156713ac7479eef491f6104df1955a18
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 3%
+source-wordcount: '663'
+ht-degree: 2%
 
 ---
 
@@ -56,8 +56,6 @@ ht-degree: 3%
 `Timestamp` 필드는 작업 실행의 종료 시간을 나타냅니다. 프로필이 사용자 지정 작업 노드에 언제 입력되었는지 확인하려면 `actionExecutionTime`에서 `Timestamp`을(를) 뺍니다.
 
 예를 들어 `Timestamp`이(가) &quot;2025-02-04 09:39:03 UTC&quot;이고 `actionExecutionTime`이(가) 1,813,227ms(~31분)인 경우 프로필이 약 &quot;2025-02-04 09:08:32 UTC&quot;에 노드에 입장했습니다.
-
-
 
 
 ## actionExecutionError {#actionexecutionerror-field}
@@ -106,6 +104,56 @@ ht-degree: 3%
 actionExecOrigError의 오류 코드입니다.
 
 유형: 문자열
+
+## actionOriginEndpoint {#actionoriginendpoint}
+
+작업에 사용된 사용자 지정 작업 끝점의 URI입니다.
+
+유형: 문자열
+
+## actionOriginMethod {#actionoriginmethod}
+
+HTTP 요청(GET 또는 POST)에 사용되는 메서드에 대해 설명합니다.
+
+유형: 문자열
+
+## actionOriginIsMTLS {#actionoriginismtls}
+
+끝점에 대해 MTLS가 활성화되어 있는지 여부를 설명합니다.
+
+유형: 부울
+
+## actionIsProxy {#actionisproxy}
+
+IP 주소 범위가 정의된 HTTP 프록시가 호출에 사용되는지 여부를 설명합니다.
+
+유형: 부울
+
+## actionExecutionOriginStartTime {#actionexecutionoriginstarttime}
+
+HTTP 요청이 시작되는 타임스탬프를 설명합니다. 다시 시도하는 경우 최종 다시 시도 시도가 시작되는 타임스탬프입니다. 타임스탬프는 UTC 시간대의 ISO8601 형식을 사용합니다.
+
+이 타임스탬프는 일반적으로 프로필이 사용자 지정 작업 노드에 들어간 후 약간 지나거나, 제한이 있는 경우 노드에 들어간 후 상당히 지나야 합니다.
+
+유형: 타임스탬프
+
+## actionExecutionOriginTime {#actionexecutionorigintime}
+
+HTTP 호출의 응답 시간을 설명합니다. 다시 시도하는 경우 최종 다시 시도 시 걸리는 시간입니다. HTTP 요청이 시작된 후부터 서버에서 전체 응답이 반환될 때까지의 시간을 측정합니다. 제한이 있는 경우 대기열에서 대기하는 데 걸린 시간은 제외됩니다.
+
+유형: long
+
+## actionIsThrottled {#actionisthrottled}
+
+끝점에 대해 전송률 조절을 사용할지 여부를 설명합니다.
+
+유형: 부울
+
+## actionWaitTime {#actionwaittime}
+
+스로틀 종단점에 대해 구성된 속도 제한에 도달하고 호출이 큐에 올라가 구성된 속도로 처리되는 경우를 설명합니다. 이 필드는 호출이 실행되기 전에 대기열에서 대기하는 데 걸린 시간을 보고합니다. actionIsThrottled가 true인 경우에만 ==.
+
+유형: long
 
 ## actionBusinessType {#actionbusinesstype-field}
 
