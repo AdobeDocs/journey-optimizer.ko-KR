@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: b93d2288156713ac7479eef491f6104df1955a18
 workflow-type: tm+mt
 source-wordcount: '3010'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -198,7 +198,7 @@ ht-degree: 97%
       + [다중 채널 메시지 보내기](using/building-journeys/journeys-uc.md)
       + [Campaign v7/v8을 사용하여 메시지 보내기](using/building-journeys/ajo-ac.md)
       + [구독자에게 메시지 보내기](using/building-journeys/message-to-subscribers-uc.md)
-      + [사용자 지정 작업 매개 변수에 컬렉션 전달](using/building-journeys/collections.md)
+      + [사용자 정의 액션 매개 변수에 컬렉션 전달](using/building-journeys/collections.md)
       + [게재 램프 업](using/building-journeys/ramp-up-deliveries-uc.md)
       + [외부 데이터 원본 및 사용자 정의 작업으로 처리량 제한](using/building-journeys/limit-throughput.md)
       + [사용자 정의 작업을 사용하여 Experience Platform에 여정 이벤트 작성](using/building-journeys/custom-action-aep.md)
@@ -225,7 +225,7 @@ ht-degree: 97%
       + [캠페인 예약](using/campaigns/api-triggered-campaign-schedule.md)
       + [캠페인 검토 및 활성화](using/campaigns/review-activate-api-triggered-campaign.md)
       + [캠페인 실행 트리거](using/campaigns/trigger-campaigns.md)
-      + [API 트리거 캠페인에 대한 높은 처리량 모드 활성화](using/campaigns/api-triggered-high-throughput.md)
+      + [API 트리거 캠페인에 대해 높은 처리량 모드 활성화](using/campaigns/api-triggered-high-throughput.md)
    + 오케스트레이션된 캠페인 {#orchestrated-campaigns}
       + [오케스트레이션된 캠페인](/help/rp_landing_pages/orchestrated-campaigns-landing-page.md)
       + [오케스트레이션된 캠페인 시작](using/orchestrated/gs-orchestrated-campaigns.md)
@@ -240,7 +240,7 @@ ht-degree: 97%
             + [파일 업로드 스키마](using/orchestrated/file-upload-schema.md)
             + [데이터 수집](using/orchestrated/ingest-data.md)
          + [타기팅 차원 만들기](using/orchestrated/target-dimension.md)
-         + [채널 구성](using/orchestrated/channel-config.md)
+         + [채널 구성 설정](using/orchestrated/channel-config.md)
       + 첫 오케스트레이션된 캠페인 시작 {#launch}
          + [첫 오케스트레이션된 캠페인 시작](/help/rp_landing_pages/launch-landing-page.md)
          + [오케스트레이션된 캠페인을 만드는 주요 단계](using/orchestrated/gs-campaign-creation.md)
@@ -279,9 +279,9 @@ ht-degree: 97%
    + 메시지 및 여정 캡핑 규칙 설정 {#capping-rules}
       + [메시지 및 여정 캡핑 규칙 설정](/help/rp_landing_pages/capping-rules-landing-page.md)
       + [규칙 세트 작업](using/conflict-prioritization/rule-sets.md)
-      + [여정 한도 및 중재 관리](using/conflict-prioritization/journey-capping.md)
-      + [채널 및 유형별 빈도 설정](using/conflict-prioritization/channel-capping.md)
-      + [자동 시간 설정](using/conflict-prioritization/quiet-hours.md)
+      + [여정 캡핑 및 중재 관리](using/conflict-prioritization/journey-capping.md)
+      + [채널 및 유형별 빈도 캡핑 설정](using/conflict-prioritization/channel-capping.md)
+      + [방해 금지 시간 설정](using/conflict-prioritization/quiet-hours.md)
 + 테스트 및 승인 {#test}
    + [테스트 및 승인](/help/rp_landing_pages/test-landing-page.md)
    + 콘텐츠 미리 보기 및 테스트 {#preview-test}
@@ -391,9 +391,9 @@ ht-degree: 97%
       + SMS / MMS / RCS 채널 구성 {#configure-sms}
          + [SMS / MMS / RCS 채널 구성](/help/rp_landing_pages/configure-sms-landing-page.md)
          + [SMS / MMS / RCS 구성 시작](using/sms/sms-configuration.md)
-         + [Sinch 공급자 구성](using/sms/sms-configuration-sinch.md)
-         + [Infobip 공급자 구성](using/sms/sms-configuration-infobip.md)
-         + [Twilio 공급자 구성](using/sms/sms-configuration-twilio.md)
+         + [Sinch 제공자 구성](using/sms/sms-configuration-sinch.md)
+         + [Infobip 제공자 구성](using/sms/sms-configuration-infobip.md)
+         + [Twilio 제공자 구성](using/sms/sms-configuration-twilio.md)
          + [사용자 정의 공급자 구성](using/sms/sms-configuration-custom.md)
          + [SMS / MMS / RCS 구성 만들기](using/sms/sms-configuration-surface.md)
    + 다이렉트 메일 {#direct-mail}
@@ -411,7 +411,7 @@ ht-degree: 97%
          + [웹 채널 전제 조건](using/web/web-prerequisites.md)
          + [웹 하위 도메인 구성](using/web/web-delegated-subdomains.md)
          + [웹 채널 구성 만들기](using/web/web-configuration.md)
-      + [웹 경험 만들기 &#x200B;](using/web/create-web.md)
+      + [웹 경험 만들기 ](using/web/create-web.md)
       + 웹 페이지 작성 {#author-web-pages}
          + [웹 페이지 작성](/help/rp_landing_pages/author-web-pages-landing-page.md)
          + [웹 디자이너를 사용하여 작업](using/web/web-visual-editor.md)
@@ -458,7 +458,7 @@ ht-degree: 97%
       + [LINE 메시지 만들기](using/line/create-line.md)
       + [LINE 메시지 확인 및 보내기](using/line/send-line.md)
 + 콘텐츠 관리 {#content-management}
-   + [콘텐츠 관리 &#x200B;](/help/rp_landing_pages/content-management-landing-page.md)
+   + [콘텐츠 관리 ](/help/rp_landing_pages/content-management-landing-page.md)
    + 개인화 {#personalization}
       + [개인화](/help/rp_landing_pages/personalization-landing-page.md)
       + [개인화 시작](using/personalization/personalize.md)

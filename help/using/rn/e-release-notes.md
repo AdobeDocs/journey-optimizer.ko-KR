@@ -10,7 +10,7 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: d09fc3ed670a50b6a99bcf660353ee37d31c7501
 workflow-type: tm+mt
 source-wordcount: '1089'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 52%
 [!DNL Adobe Journey Optimizer]은 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 모든 변경 사항은 매월 말 [릴리스 정보](release-notes.md)에 통합됩니다.
 
 
-## 2025년 10월 프리릴리스 정보 {#oct-25-10-rn}
+## 25년 10월 사전 릴리스 정보 {#oct-25-10-rn}
 
 **아래 사전 릴리스 정보는 릴리스 공개 당일까지 사전 통지 없이 변경될 수 있습니다**. 링크, 화면, 업데이트된 설명서는 릴리스 일자에 릴리스 정보에 게시됩니다.
 
 [Adobe Experience Platform 사전 릴리스 정보](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}도 참조하십시오.
 
-**릴리스 일자**: 2025년 10월 22일 목요일
+**릴리스 일자**: 2025년 10월 22일
 
 ### 새로운 기능 {#oct-25-10-features}
 
@@ -34,14 +34,14 @@ ht-degree: 52%
 <table>
 <thead>
 <tr>
-<th><strong>방해 금지 모드 시간/시간 기반 제외</strong><br/></th>
+<th><strong>방해 금지 시간/시간 기반 제외</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>자동 시간에서는 이메일, SMS, 푸시 및 WhatsApp 채널에 대한 시간 기반 제외를 정의할 수 있습니다. 특정 기간 동안 메시지가 전송되지 않도록 하여 고객 선호도 및 규정 준수 요구 사항을 준수할 수 있습니다.</p>
-<p>규칙 세트를 통해 방해 금지 시간을 적용할 수 있으며, 이를 정확한 제어를 위해 캠페인이나 여정의 개별 작업에 할당할 수 있습니다. 이러한 프로세스를 간소화함으로써</p>
+<p>방해 금지 시간 기능으로 이메일, SMS, 푸시, WhatsApp 채널에 대한 시간 기반 제외를 정의할 수 있습니다. 특정 시간 동안 메시지가 전송되지 않도록 하여 고객 환경 설정과 및 규정 요건을 준수할 수 있습니다.</p>
+<p>규칙 세트를 통해 방해 금지 시간을 적용할 수 있으며, 정확한 제어를 위해 이 규칙 세트를 캠페인이나 여정의 개별 액션에 할당할 수 있습니다. 이 프로세스를 간소화합니다.</p>
 <p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
 <!--img src="assets/do-not-localize/FILE.gif"-->
 <!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
@@ -129,13 +129,13 @@ ht-degree: 52%
 <table>
 <thead>
 <tr>
-<th><strong>작업 캠페인을 검색하는 새 API</strong><br/></th>
+<th><strong>새로운 액션 캠페인 검색용 API</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 새로운 Journey Optimizer API를 사용할 수 있으므로 세부 정보, 버전 및 구성과 같은 캠페인 관련 데이터를 프로그래밍 방식으로 검색하고 검사할 수 있습니다.</p>
+<p>이제 새로운 Journey Optimizer API를 사용하여 캠페인의 세부 정보, 버전, 구성 등 캠페인 관련 데이터를 프로그램 방식으로 검색하고 확인할 수 있습니다.</p>
 <!--img src="assets/do-not-localize/FILE.gif"-->
 <!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
 </td>
@@ -146,13 +146,13 @@ ht-degree: 52%
 <table>
 <thead>
 <tr>
-<th><strong>충성도 앱을 위한 새로운 소스 커넥터</strong><br/></th>
+<th><strong>새로운 충성도 앱 소스 커넥터</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 Adobe Experience Platform에서 Talon.One, Capillary 및 Kobie 충성도 앱에 대한 새로운 소스 커넥터를 사용할 수 있습니다. 이러한 커넥터를 사용하면 충성도 데이터를 Adobe Experience Platform으로 원활하게 스트리밍하고 Journey Optimizer에서 이러한 데이터를 활용할 수 있습니다.</p>
+<p>이제 Adobe Experience Platform에서 Talon.One, Capillary, Kobie 충성도 앱에 대한 새로운 소스 커넥터를 사용할 수 있습니다. 이 커넥터를 사용하면 충성도 데이터를 Adobe Experience Platform으로 원활하게 스트리밍하고 Journey Optimizer에서 이 데이터를 활용할 수 있습니다.</p>
 <!--img src="assets/do-not-localize/FILE.gif"-->
 <!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
 </td>
@@ -181,7 +181,7 @@ ht-degree: 52%
 <table>
 <thead>
 <tr>
-<th><strong>API 트리거 이메일 캠페인에 대한 높은 처리량 모드</strong><br/></th>
+<th><strong>API 트리거 이메일 캠페인의 높은 처리량 모드</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -199,15 +199,15 @@ ht-degree: 52%
 <table>
 <thead>
 <tr>
-<th><strong>재사용 가능한 타겟팅 규칙</strong><br/></th>
+<th><strong>재사용 가능한 타기팅 규칙</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 Journey Optimizer을 사용하여 전용 UI 메뉴에서 규칙을 만들고 여정 최적화 활동에서 여정 또는 캠페인의 콘텐츠 최적화의 일부로 타깃팅을 작성할 때 활용할 수 있습니다.</p>
-<p>타깃팅 규칙은 현재 제한된 가용성입니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하세요.</p>
-<p>이 기능은 Decisioning 추가 기능 서비스를 구입한 조직에서만 사용할 수 있습니다. 모든 고객에게 점진적으로 제공될 예정입니다.</p>
+<p>이제 Journey Optimizer의 전용 UI 메뉴에서 규칙을 만들고 캠페인이나 여정 내 콘텐츠 최적화의 일부로서, 또는 여정 최적화 활동에서 타기팅을 작성할 때 활용할 수 있습니다.</p>
+<p>타기팅 규칙은 현재 제한된 가용성으로 제공됩니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.</p>
+<p>이 기능은 결정 추가 기능 서비스를 구입한 조직에서만 사용할 수 있습니다. 점진적으로 모든 고객을 대상으로 롤아웃될 예정입니다.</p>
 <!--img src="assets/do-not-localize/FILE.gif"-->
 <!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
 </td>
@@ -225,7 +225,7 @@ ht-degree: 52%
 <tr>
 <td>
 <p>이제 사전 승인된 테마를 빠르게 적용하여 모든 이메일에 대한 브랜드 일관성을 보장하고, 캠페인을 만드는 프로세스의 속도를 높이고, 디자인 팀에 대한 의존도를 줄이면서 고품질 이메일을 독립적으로 만들 수 있습니다.</p>
-<p>이전에 Beta 버전으로 릴리스된 이 기능은 이제 조직 집합(제한된 가용성)에서 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
+<p>이전에 Beta 버전으로 릴리스된 이 기능을 이제 일부 조직에서 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
 <img src="assets/do-not-localize/themes.gif">
 <p>자세한 내용은 <a href="../email/apply-email-themes.md">세부 설명서</a>를 참조하십시오.</p>
 <!--p>Availability date: October 22, 2025</p-->
@@ -237,18 +237,18 @@ ht-degree: 52%
 <table>
 <thead>
 <tr>
-<th><strong>새 여정 경고</strong><br/></th>
+<th><strong>새로운 여정 경고</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>여정 실행을 모니터링하는 데 사전 구성된 새 경고를 사용할 수 있습니다.</p>
-<ul><li><a href="../reports/alerts.md#alert-discard-rate">프로필 삭제 비율 초과</a>: 지난 5분 동안 입력한 프로필에 대한 프로필 삭제 비율 임계값 초과</li>
-<li><a href="../reports/alerts.md#alert-custom-action-error-rate">사용자 지정 작업 오류율 초과</a>: 지난 5분 동안 임계값에 대한 성공한 HTTP 호출에 대한 사용자 지정 작업 오류의 비율</li>
-<li><a href="../reports/alerts.md#alert-profile-error-rate">프로필 오류율 초과</a>: 지난 5분 동안 입력한 프로필에 대한 오류가 있는 프로필의 비율이 임계값을 초과했습니다.</li></ul> <p>임계값을 수정하고 개별 여정 수준에서 경고를 받거나 전체적으로 구독할 수 있습니다.</p>
+<p>여정 실행을 모니터링하기 위해 새로운 사전 구성된 경고를 사용할 수 있습니다.</p>
+<ul><li><a href="../reports/alerts.md#alert-discard-rate">프로필 삭제율 초과</a>: 지난 5분 동안 입력된 프로필에 대한 프로필 삭제율이 임계값 초과</li>
+<li><a href="../reports/alerts.md#alert-custom-action-error-rate">사용자 정의 액션 오류율 초과</a>: 지난 5분 동안 성공적인 HTTP 호출에 대한 사용자 정의 액션 오류율이 임계값 초과</li>
+<li><a href="../reports/alerts.md#alert-profile-error-rate">프로필 오류율 초과</a>: 지난 5분 동안 입력된 프로필 대비 오류가 발생한 프로필 비율이 임계값 초과</li></ul> <p>임계값을 수정하고 개별 여정 수준에서 경고를 받거나 전체적으로 구독할 수 있습니다.</p>
 <p>자세한 내용은 <a href="../reports/alerts.md">세부 설명서</a>를 참조하십시오.</p>
-<p>사용 가능한 날짜: 2025년 10월 14일 수요일</p>
+<p>사용 가능한 날짜: 2025년 10월 14일</p>
 </td>
 </tr>
 </tbody>
@@ -257,16 +257,16 @@ ht-degree: 52%
 <table>
 <thead>
 <tr>
-<th><strong>실행 메타데이터 도우미</strong><br/></th>
+<th><strong>실행 메타데이터 도우미 함수</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>개인화 편집기에서 새로운 'executionMetadata' 도우미 기능을 사용할 수 있습니다. 이를 통해 컨텍스트 정보를 모든 기본 작업에 추가하고 데이터 세트에 캡처하여 외부 시스템으로 내보낼 수 있습니다.</p>
-<p>이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하세요.</p>
+<p>새로운 `executionMetadata` 도우미 함수를 개인화 편집기에서 사용할 수 있습니다. 이를 통해 컨텍스트 정보를 모든 기본 액션에 추가하고 데이터 세트에 캡처하여 외부 시스템으로 내보낼 수 있습니다.</p>
+<p>이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.</p>
 <p>자세한 내용은 <a href="../personalization/functions/helpers.md#execution-metadata">세부 설명서</a>를 참조하십시오.</p>
-<p>사용 가능한 날짜: 2025년 10월 13일 화요일</p>
+<p>사용 가능한 날짜: 2025년 10월 13일</p>
 </td>
 </tr>
 </tbody>
@@ -275,16 +275,16 @@ ht-degree: 52%
 <table>
 <thead>
 <tr>
-<th><strong>실험 요원이 여기 있습니다!</strong><br/></th>
+<th><strong>Experimentation Agent가 등장했습니다!</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator.html" target="_blank">Adobe Experience Platform Agent Orchestrator</a>에서 제공하는 실험 에이전트는 Journey Optimizer에서 사용할 수 있습니다. </p>
-<p>실험 에이전트는 웹 사이트, 이메일, 푸시 메시지 및 애플리케이션에서 디지털 실험을 실행하고 관리할 수 있는 방법을 현대화한 AI 기반 도구입니다. 실험을 보다 효율적으로 실행하고, 비즈니스 목표를 구성하고, 실행 가능한 통찰력을 생성하여, 무엇이 작동하고, 무엇이 작동하지 않았으며, 다음 실험할 위치를 강조 표시하는 데 도움이 됩니다.</p>
+<p><a href="https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a> 기반 Experimentation Agent를 Journey Optimizer에서 사용할 수 있습니다. </p>
+<p>Experimentation Agent는 웹 사이트, 이메일, 푸시 메시지, 애플리케이션에서 디지털 실험을 실행하고 관리하는 방법을 최신화하는 AI 기반 도구입니다. 실험을 보다 효율적으로 실행하고 비즈니스 목표를 구성하고 실행 가능한 인사이트를 생성하여 무엇이 효과가 있고 무엇이 효과가 없으며 다음 실험은 어디서 진행해야 하는지 확인하는 데 도움이 됩니다.</p>
 <p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=ko" target="_blank">세부 설명서</a>를 참조하십시오.</p>
-<p>사용 가능한 날짜: 2025년 10월 10일 토요일</p>
+<p>사용 가능한 날짜: 2025년 10월 10일</p>
 </td>
 </tr>
 </tbody>
@@ -334,13 +334,13 @@ ht-degree: 52%
 
 ### 개선 사항
 
-AI 모델을 통한 이메일 **의사 결정**
+**AI 모델을 통한 이메일 결정**
 
-이제 Decisioning을 사용하여 AI 모델을 사용하여 이메일의 최상의 콘텐츠를 최적화할 수 있습니다. 예를 들어 이 기능을 사용하면 구매, 버튼 클릭 수, 장바구니에 추가 등과 같은 사용자 지정 이벤트에 따라 최상의 콘텐츠를 최적화할 수 있습니다.
+이제 Decisioning을 사용하여 AI 모델을 사용하여 이메일의 최상의 콘텐츠를 최적화할 수 있습니다. 예를 들어 이 기능으로 구매, 버튼 클릭, 장바구니 추가 등 사용자 정의 이벤트에 따라 최상의 콘텐츠를 최적화할 수 있습니다.
 
 **WhatsApp 채널의 실행 필드**
 
-이메일 및 SMS 외에도 샌드박스 수준에서 WhatsApp 게재에 대한 기본 실행 필드 업데이트를 알 수 있습니다. 또한 WhatsApp 여정 활동 고급 매개 변수 또는 WhatsApp 채널 구성에서 변경하여 전역적으로 설정된 실행 필드를 재정의할 수 있습니다. <!-- [Read more](../FILE.md) -->
+이메일 및 SMS 외에도 샌드박스 수준에서 WhatsApp 게재에 대한 기본 실행 필드 업데이트를 알 수 있습니다. 또한 전역적으로 설정된 실행 필드를 재정의할 수도 있습니다. WhatsApp 여정 활동 고급 매개 변수 또는 WhatsApp 채널 구성에서 변경하면 됩니다. <!-- [Read more](../FILE.md) -->
 
 **Mailto(구독 취소) 주소에 대한 사용자 정의 속성 지원**
 
@@ -350,6 +350,6 @@ Journey Optimizer를 사용하면 Adobe 외부에서 동의를 관리하는 경�
 
 >[!AVAILABILITY]
 >
->이 기능은 이미 2025년 8월부터 사용자 정의 **[!UICONTROL 원클릭 구독 취소 URL]**&#x200B;에 사용할 수 있었으며, 이제 제한된 가용성으로 **[!UICONTROL Mailto(구독 취소)]** 옵션이 릴리스되었습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하세요.
+>이 기능은 이미 2025년 8월부터 사용자 정의 **[!UICONTROL 원클릭 구독 취소 URL]**&#x200B;에 사용할 수 있었으며, 이제 제한된 가용성으로 **[!UICONTROL Mailto(구독 취소)]** 옵션이 릴리스되었습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.
 
 사용 가능한 날짜: 2025년 10월 6일

@@ -12,7 +12,7 @@ exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '1290'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ Journey Optimizer에서 데이터 거버넌스 정책을 적용하려면 여정,
 
 ### 여정 및 캠페인에 마케팅 액션 적용 {#journeys-campaigns}
 
-거버넌스 정책을 만든 후에는 관련 마케팅 작업을 Journey Optimizer **채널 구성**&#x200B;에 적용해야 합니다. 이렇게 하려면 다음 단계를 수행합니다.
+거버넌스 정책을 만든 후에는 Journey Optimizer **채널 구성**&#x200B;에 관련 마케팅 액션을 적용해야 합니다. 이렇게 하려면 다음 단계를 수행합니다.
 
 1. **[!UICONTROL 채널]** > **[!UICONTROL 일반 설정]** > **[!UICONTROL 채널 구성]** 메뉴에 액세스합니다.
 
