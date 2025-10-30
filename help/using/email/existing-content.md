@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 이메일, 가져오기, 콘텐츠, html, zip, css
 exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
-source-git-commit: 95701732933fabd37c7de0420438e180ee6fe5d2
+source-git-commit: 7176f5a1fa4c1b6c564fdb5d65f4e9208a1dce30
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 34%
+source-wordcount: '259'
+ht-degree: 30%
 
 ---
 
@@ -27,10 +27,10 @@ ht-degree: 34%
   >
   >.zip 파일 구조에는 제한 사항이 없습니다. 그러나 참조는 상대적이어야 하며 .zip 폴더의 트리 구조와 일치해야 합니다.
 
-<!--DOCAC-13676
+
 >[!TIP]
 >
->If you have image designs (JPEG or PNG) instead of HTML files, you can use the [image to HTML converter](image-to-html.md) to automatically convert them into editable HTML email templates using AI.-->
+>HTML 파일 대신 이미지 디자인(JPEG 또는 PNG)이 있는 경우 [이미지를 HTML으로 변환](image-to-html.md)하여 AI를 사용하여 편집 가능한 HTML 이메일 템플릿으로 자동으로 변환할 수 있습니다.
 
 HTML 콘텐츠가 포함된 파일을 가져오려면 다음 단계를 따르십시오.
 
@@ -60,4 +60,4 @@ HTML 콘텐츠가 포함된 파일을 가져오려면 다음 단계를 따르십
 
 기존 HTML 콘텐츠를 가져오고, 디자인을 수정하고, 미러 페이지와 구독 취소 링크를 추가하고, 콘텐츠를 코딩하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3421913?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334102?quality=12)

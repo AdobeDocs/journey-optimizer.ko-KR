@@ -9,9 +9,7 @@ role: User
 level: Beginner
 badge: label="제한된 가용성" type="Informative"
 keywords: 이메일, 템플릿, 이미지, HTML, AI, 디자인, 변환기
-hide: true
-hidefromtoc: true
-source-git-commit: 8a504f02de0d438213025f9741a31e66e318a5da
+source-git-commit: 7176f5a1fa4c1b6c564fdb5d65f4e9208a1dce30
 workflow-type: tm+mt
 source-wordcount: '1769'
 ht-degree: 3%
@@ -28,7 +26,7 @@ HTML으로 이미지 전환기는 **콘텐츠 템플릿** 메뉴에서 사용할
 
 >[!AVAILABILITY]
 >
->이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하세요.
+>이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.
 
 생성 AI 기술을 활용하여 이미지를 HTML으로 전환하면 이미지의 레이아웃, 타이포그래피, 색상 및 시각적 요소를 분석하고 깔끔한 모듈식 HTML 코드를 생성하여 이메일 Designer과의 완벽한 편집 가능성 및 호환성을 보장하면서도 디자인의 충실도를 유지할 수 있습니다. 따라서 목업을 HTML으로 변환하는 데 시간이 오래 걸리는 수작업 프로세스를 생략할 수 있으며 개발 리소스에 대한 의존도를 줄일 수 있습니다.
 

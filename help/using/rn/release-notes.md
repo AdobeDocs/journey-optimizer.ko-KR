@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9d58e16bb6717c4aeccede84b1ccc5b4e777fad8
+source-git-commit: 7176f5a1fa4c1b6c564fdb5d65f4e9208a1dce30
 workflow-type: tm+mt
-source-wordcount: '1164'
-ht-degree: 90%
+source-wordcount: '1243'
+ht-degree: 86%
 
 ---
 
@@ -26,37 +26,40 @@ ht-degree: 90%
 
 [!DNL Adobe Journey Optimizer]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko){target="_blank"}를 참조하십시오.
 
-<!-- DOCAC-13676
+<!--
 ## Latest updates {#latest-updates}
 
-New capabilities and improvements released recently are listed below, with their availability date.
 
-### New capabilities {#latest-features}
+New capabilities and improvements released in the past weeks are listed below, with their availability date. They will be grouped with the next release notes content at the end of the month. See also the latest [release notes below](#latest-rn).
+
+-->
+
+
+
+## 25년 10월 릴리스 정보 {#oct-25-10-rn}
+
+### 새로운 기능 {#oct-25-10-features}
+
 
 <table>
 <thead>
 <tr>
-<th><strong>Image to HTML converter</strong><br/></th>
+<th><strong>HTML으로 이미지 변환기</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>The image to HTML converter is an AI-powered feature that converts static image designs into fully customizable, modular HTML email content templates. This no-code tool enables marketers to transform visual designs into responsive, editable email templates without requiring technical expertise—perfect for platform migration, rapid template creation, and building reusable template libraries.</p>
-<p>This capability is available in Limited Availability. Contact your Adobe representative to gain access.</p>
-<p>For more information, refer to the <a href="../email/image-to-html.md">detailed documentation</a>.</p>
-<p>Availability date: November 3, 2025</p>
+<p>이미지 투 HTML 변환기는 정적 이미지 디자인을 완전히 사용자 지정 가능한 모듈식 HTML 이메일 콘텐츠 템플릿으로 변환하는 AI 기반 기능입니다. 이 코드 없는 도구를 사용하는 마케터는 기술 전문 지식 없이도 시각적 디자인을 반응형 편집 가능한 이메일 템플릿으로 변환하여 플랫폼 마이그레이션, 신속한 템플릿 작성 및 재사용 가능한 템플릿 라이브러리 구축에 이상적입니다.</p>
+<p><img src="../email/assets/email_designer_converted_img.png"/></p>
+<p>이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.</p>
+<p>자세한 내용은 <a href="../email/image-to-html.md">세부 설명서</a>를 참조하십시오.</p>
+<p>사용 가능한 날짜: 2025년 10월 30일</p>
 </td>
 </tr>
 </tbody>
 </table>
--->
 
-## 25년 10월 릴리스 정보 {#oct-25-10-rn}
-
-**릴리스 일자**: 2025년 10월 22일
-
-### 새로운 기능 {#oct-25-10-features}
 
 <table>
 <thead>
@@ -362,15 +365,9 @@ New capabilities and improvements released recently are listed below, with their
 </tbody>
 </table>
 
-<!--
-## Latest updates {#updates-rn}
 
-New capabilities and improvements released in the past weeks are listed below, with their availability date. They will be grouped with the next release notes content at the end of the month. See also the latest [release notes below](#latest-rn).
--->
 
 ### 개선 사항 {#updates-improvements}
-
-<!--Availability date: October 22, 2025-->
 
 **WhatsApp 채널의 실행 필드**
 
