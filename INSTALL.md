@@ -1,8 +1,8 @@
 ---
-source-git-commit: 80d5f294491b35dcdbfe4976cb3ec4cf14384858
+source-git-commit: 505810d58d7db1682cc434b0df6d1ec5f5edd23e
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 2%
+source-wordcount: '293'
+ht-degree: 1%
 
 ---
 # 🚀 커서 에이전트를 설치하는 중
@@ -21,9 +21,13 @@ ht-degree: 2%
    ```
    @setup-agents
    ```
-
-3. 나타나는 메시지를 따릅니다
+3. 에이전트는 자동으로 다음을 수행합니다.
+   - SSH 및 HTTPS 액세스 테스트
+   - 작업 메서드 사용
+   - 필요한 경우 설정 과정을 안내합니다.
 4. 완료! ✨
+
+**참고:** 에이전트가 `git.corp.adobe.com`에 대한 SSH 또는 HTTPS 액세스 권한이 있는지 자동으로 감지하여 적절한 메서드를 사용합니다. 둘 다 작동하지 않는 경우 안내식 설정을 제공합니다.
 
 ### 옵션 2: 터미널 사용
 
@@ -34,7 +38,12 @@ ht-degree: 2%
    ./setup-agents.sh
    ```
 
-   또는 수동으로:
+   스크립트는 자동으로
+   - SSH 및 HTTPS 액세스 테스트
+   - 작업 메서드 사용
+   - 필요한 경우 설치 지침 표시
+
+   또는 수동으로(git이 구성된 것을 알고 있는 경우):
 
    ```bash
    git submodule update --init --recursive
@@ -64,7 +73,7 @@ ls .cursor-agents/agents/
 @fix-grammar     # Fix grammar in current file
 ```
 
-사용 가능한 에이전트의 전체 목록은 `.cursor-agents/AGENTS.md`을(를) 참조하십시오.
+사용 가능한 에이전트의 전체 목록은 [AGENTS.md](AGENTS.md)을(를) 참조하십시오.
 
 ## 에이전트 업데이트
 
@@ -123,15 +132,14 @@ chmod +x setup-agents.sh
 커서 에이전트가 **git 하위 모듈**(으)로 배포됩니다.
 
 ```
-journey-optimizer.en/
+your-repo/
   ├── .cursor-agents/          ← Git submodule
   │   ├── agents/
   │   │   ├── draft-page-generator.md
   │   │   └── fix-grammar.md
   │   └── AGENTS.md
   ├── setup-agents.sh          ← Setup script
-  ├── setup-agent.md           ← Bootstrap agent
-  └── help/                    ← Your documentation
+  └── your-content/
 ```
 
 하위 모듈은 다음을 가리킵니다.
@@ -139,5 +147,35 @@ journey-optimizer.en/
 
 이를 통해 모든 사용자가 동일한 최신 에이전트를 사용할 수 있습니다.
 
-**도움이 필요하십니까?** 설명서 팀장에게 문의하거나 내부 wiki를 확인하십시오.
+## 유지 관리용
 
+### 새 저장소에 추가
+
+1. 하위 모듈을 추가합니다.
+
+   ```bash
+   git submodule add https://git.corp.adobe.com/AdobeDocs/CursorAgents.git .cursor-agents
+   ```
+
+2. 설치 파일 복사:
+   - `setup-agents.sh`
+   - `setup-agent.md`(하위 모듈이 아니라 루트에 배치)
+   - `INSTALL.md`
+
+3. 커밋:
+
+   ```bash
+   git add .gitmodules .cursor-agents setup-agents.sh
+   git commit -m "Add Cursor Agents submodule"
+   ```
+
+### 중앙 저장소 업데이트
+
+에이전트에 대한 변경 내용은 다음 위치에서 이루어져야 합니다.
+**https://git.corp.adobe.com/AdobeDocs/CursorAgents**
+
+모든 리포지토리는 `git submodule update --remote`을(를) 통해 업데이트를 받습니다.
+
+---
+
+**도움이 필요하십니까?** 설명서 팀장에게 문의하거나 내부 wiki를 확인하십시오.
