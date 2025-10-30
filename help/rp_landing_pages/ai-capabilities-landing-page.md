@@ -5,9 +5,9 @@ title: Adobe Journey Optimizer의 AI 기능
 description: Adobe Journey Optimizer의 AI 기능
 hide: true
 hidefromtoc: true
-source-git-commit: 7db2932d6f4c6455cc323103c89e6d673d50efd0
+source-git-commit: f3c1cfcbc2a76b698399de70493d3fd5136f11d5
 workflow-type: tm+mt
-source-wordcount: '1436'
+source-wordcount: '1443'
 ht-degree: 3%
 
 ---
@@ -90,7 +90,7 @@ AI 기반 점수를 사용하여 AI 생성 콘텐츠가 브랜드 지침을 얼�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 실험 가속기
 
@@ -100,13 +100,13 @@ AI 기반 인사이트 및 추천을 통해 콘텐츠 실험 프로세스를 가
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-AI 기반 API
+여정 Operational Insights(Beta)
 
-API를 통해 프로그래밍 방식으로 Journey Optimizer의 AI 및 머신 러닝 기능에 액세스합니다.
+자연어 쿼리를 사용하여 AI Assistant에서 직접 여정에 대한 즉각적인 운영 통찰력을 얻으십시오.
 
-[AI 기반 API 살펴보기](../using/configuration/ajo-apis.md)
+[여정 통찰력에 대해 알아보기](../using/start/ai-assistant.md)
 :::
 
 ::::
@@ -118,7 +118,7 @@ API를 통해 프로그래밍 방식으로 Journey Optimizer의 AI 및 머신 �
 Adobe Experience Cloud AI 에이전트는 AI 기능을 Journey Optimizer 이상으로 확장하여 복잡한 마케팅 작업을 위한 자연어 상호 작용을 가능하게 합니다.
 
 - **[여정 분석 에이전트](https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}** - 여정 폴아웃 분석을 수행하고, 대상 및 일정 중복을 감지하고, 여정 성능을 최적화하기 위해 실행 가능한 권장 사항을 받습니다.
-- **[실험 에이전트](https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}** - 실험 결과를 분석하고, 가장 성과가 좋은 패턴을 식별하며, 여러 채널에서 테스트할 새로운 기회를 찾습니다.
+- **[실험 에이전트](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}** - 실험 결과를 분석하고, 가장 성과가 좋은 패턴을 식별하며, 여러 채널에서 테스트할 새로운 기회를 찾습니다.
 - **[Audience Agent](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/audience-agent){target="_blank"}** - 대화형 AI를 통해 대상 세그먼트를 만들고 관리하며, 대상 구성을 분석하고, 세그멘테이션 전략을 최적화합니다.
 - **[Agent Orchestrator](https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}** - 여러 전문 에이전트를 조정하여 복잡하고 여러 단계로 진행되는 마케팅 문제를 효율적으로 해결합니다.
 
