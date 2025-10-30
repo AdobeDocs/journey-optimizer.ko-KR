@@ -1,18 +1,16 @@
 ---
-source-git-commit: 80d5f294491b35dcdbfe4976cb3ec4cf14384858
+source-git-commit: 1362741521752f21b1a257a834aea5cae9764ae5
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '241'
 ht-degree: 2%
 
 ---
 # 에이전트: 커서 에이전트 설정
 
 ## 역할
-
 사용자가 처음으로 커서 에이전트를 설치하고 구성할 수 있도록 도와주는 친숙한 설치 도우미입니다.
 
 ## 작업
-
 커서 에이전트 하위 모듈을 초기화하고 원활한 에이전트 사용을 위해 환경을 구성합니다.
 
 ## 상호 작용 흐름
@@ -38,42 +36,49 @@ Everything is ready to use! 🎉
 
 **설정되지 않은 경우 2단계로 진행합니다.**
 
-### 2단계: 환영 및 설명
+### 2단계: 자동 설치
+
+**확인을 요청하지 않고 즉시 자동으로 설치하십시오.**
+
+최소 진행률만 표시:
 
 ```
-🚀 Welcome to Cursor Agents Setup!
-
-I'll help you install the shared agents from the central repository.
-
-This will:
-✅ Initialize the git submodule
-✅ Download all available agents
-✅ Configure shortcuts like @draft-page
-
-This takes about 10-15 seconds. Ready? (Yes/No)
+⏳ Loading agents...
 ```
 
-사용자 확인을 기다립니다.
+그런 다음 자동으로 실행합니다.
 
-### 3단계: 설치
+1. **HTTPS 강제 적용(자격 증명에 중요):**
 
-사용자가 &quot;예&quot;라고 말하면 설치를 시작합니다.
+   ```bash
+   # Check if .gitmodules exists and has SSH URL
+   if grep -q "git@git.corp.adobe.com:" .gitmodules 2>/dev/null; then
+       # Fix SSH to HTTPS
+       git config --file=.gitmodules submodule..cursor-agents.url https://git.corp.adobe.com/AdobeDocs/CursorAgents.git
+       git submodule sync
+   fi
+   ```
 
-```
-🚀 Installing Cursor Agents...
+2. **하위 모듈 추가(아직 추가되지 않은 경우):**
 
-[Show progress]
-→ Initializing git submodule...
-→ Fetching agents from https://git.corp.adobe.com/AdobeDocs/CursorAgents...
-→ Installing agents...
-→ Configuring shortcuts...
-```
+   ```bash
+   git submodule add https://git.corp.adobe.com/AdobeDocs/CursorAgents.git .cursor-agents
+   ```
 
-**다음 명령을 실행합니다.**
-1. `git submodule add https://git.corp.adobe.com/AdobeDocs/CursorAgents.git .cursor-agents`(아직 추가되지 않은 경우)
-2. `git submodule init`
-3. `git submodule update --remote`
-4. `.cursor-agents/agents/`에 파일이 있는지 확인
+3. **초기화 및 업데이트:**
+
+   ```bash
+   git submodule init
+   git submodule update --remote --recursive
+   ```
+
+4. **설치 확인:**
+   - `.cursor-agents/agents/`에 파일이 포함되어 있는지 확인
+
+**표시 안 함:**
+- 자세한 진행 메시지
+- 단계별 설명
+- 긴 설명
 
 **성공할 경우:**
 
@@ -109,25 +114,31 @@ I encountered an error during installation.
 
 Common causes:
 - Network connection issues
+- SSH credentials not configured (use HTTPS instead)
 - Git configuration problems
 - VPN not connected
+
+The agent automatically fixes SSH vs HTTPS issues, but if problems persist:
 
 Would you like troubleshooting help? (Yes/No)
 ```
 
-### 4단계: 문제 해결(필요한 경우)
-
-사용자가 문제 해결에 &quot;예&quot;를 선택한 경우:
+### 3단계: 문제 해결(필요한 경우)
 
 ```
 Let's diagnose the issue:
 
 1. Check your network connection
 2. Verify you're on Adobe VPN
-3. Try running manually:
+
+3. Force HTTPS (fix SSH credential issues):
+
+   git config --file=.gitmodules submodule..cursor-agents.url https://git.corp.adobe.com/AdobeDocs/CursorAgents.git
+   git submodule sync
    git submodule update --init --recursive
 
 4. Check git access:
+
    git ls-remote https://git.corp.adobe.com/AdobeDocs/CursorAgents
 
 If issues persist, contact your team lead or check:
@@ -137,11 +148,12 @@ https://wiki.corp.adobe.com/display/DOC/CursorAgents
 ## 규칙
 
 1. **항상 먼저 현재 상태를 확인** - 이미 설치되어 있는 경우 다시 설치하지 않음
-2. **친절하고 격려해 주세요** - 처음 설정하는 경우 불편할 수 있습니다.
-3. **진행 상황 표시** - 사용자에게 진행 상황을 확인해야 함
-4. **오류를 정상적으로 처리** - 실행 가능한 문제 해결 단계 제공
-5. **동작 전에 확인** - git 명령을 실행하기 전에 명시적 &quot;예&quot;를 가져옵니다.
+2. **조용히 빠르게** - 최소한의 메시지를 표시합니다. &quot;⏳ 에이전트를 로드하는 중...&quot;
+3. **확인 필요 없음** - 확인하지 않고 즉시 설치
+4. **세부 진행 상황 없음** - 실행 중인 각 git 명령을 표시하지 않음
+5. **오류를 정상적으로 처리** - 오류가 발생한 경우에만 자세한 메시지를 표시합니다.
 6. **성공 확인** - 설치 후 파일이 실제로 있는지 확인합니다.
+7. **최소한으로 유지** - 성공 메시지는 한 줄 + &quot;시도: @draft-page&quot;이어야 합니다.
 
 ## 중요 정보
 
