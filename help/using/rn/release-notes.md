@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7176f5a1fa4c1b6c564fdb5d65f4e9208a1dce30
+source-git-commit: 181999b096f6f65f25ba5220868aab3aaeafb807
 workflow-type: tm+mt
 source-wordcount: '1243'
 ht-degree: 86%
@@ -22,7 +22,7 @@ ht-degree: 86%
 
 [!DNL Adobe Journey Optimizer]은(는) 지속적 제공 모델을 따르므로 Adobe에서 새로운 기능, 개선 사항, 버그 해결 업데이트를 지속적으로 제공할 수 있습니다. 이 접근 방식을 사용하면 확장 가능한 단계별 기능 롤아웃을 통해 모든 환경에서 성능과 안정성을 보장할 수 있습니다.
 
-이 모델로 인해 월별 릴리스 사이에 릴리스 정보가 업데이트됩니다.  전용 [최신 업데이트](#latest-updates) 섹션에서는 프로덕션에 배포할 때 새로운 기능과 향상된 기능을 강조하므로 항상 모든 변경 내용을 실시간으로 알려줍니다. 릴리스 주기 및 가용성 단계에 대한 자세한 내용은 [Journey Optimizer 릴리스 주기](#releases.md)를 참조하십시오.
+이 모델로 인해 월별 릴리스 사이에 릴리스 정보가 업데이트됩니다.  전용 [최신 업데이트](#latest-updates) 섹션에서는 프로덕션에 배포할 때 새로운 기능과 향상된 기능을 강조하므로 항상 모든 변경 내용을 실시간으로 알려줍니다. 릴리스 주기 및 가용성 단계에 대한 자세한 내용은 [Journey Optimizer 릴리스 주기](releases.md)를 참조하십시오.
 
 [!DNL Adobe Journey Optimizer]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko){target="_blank"}를 참조하십시오.
 
