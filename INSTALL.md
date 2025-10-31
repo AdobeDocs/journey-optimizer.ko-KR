@@ -1,5 +1,5 @@
 ---
-source-git-commit: 08eaa7ae974c134ea2e920a1fa854dcf6a971e18
+source-git-commit: 7e2ed972b85255ccd64cd04d306f7de602b41165
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 1%
@@ -177,6 +177,6 @@ your-repo/
 
 모든 리포지토리는 `git submodule update --remote`을(를) 통해 업데이트를 받습니다.
 
-&#x200B;---
+---
 
 **도움이 필요하십니까?** 설명서 팀장에게 문의하거나 내부 wiki를 확인하십시오.
