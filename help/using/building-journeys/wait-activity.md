@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 대기, 활동, 여정, 다음, 캔버스
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '664'
 ht-degree: 17%
 
 ---
@@ -81,7 +81,7 @@ Select the date for the execution of the next activity.
 
 편집기의 식은 `dateTimeOnly` 형식을 제공해야 합니다. [이 페이지](expression/expressionadvanced.md)를 참조하십시오. dateTimeOnly 형식에 대한 자세한 내용은 [이 페이지](expression/data-types.md)를 참조하세요.
 
-가장 좋은 방법은 프로필에만 해당되는 사용자 지정 날짜를 사용하고 모든 항목에 동일한 날짜를 사용하지 않는 것입니다. 예를 들어 `toDateTimeOnly('2024-01-01T01:11:00Z')`을(를) 정의하지 않고 각 프로필에 해당하는 `toDateTimeOnly(@event{Event.productDeliveryDate})`을(를) 정의하십시오. 고정 날짜를 사용하면 여정 실행에 문제가 발생할 수 있습니다.
+가장 좋은 방법은 프로필에만 해당되는 사용자 지정 날짜를 사용하고 모든 항목에 동일한 날짜를 사용하지 않는 것입니다. 예를 들어 `toDateTimeOnly('2024-01-01T01:11:00Z')`을(를) 정의하지 않고 각 프로필에 해당하는 `toDateTimeOnly(@event{Event.productDeliveryDate})`을(를) 정의하십시오. 고정 날짜를 사용하면 여정 실행에 문제가 발생할 수 있습니다. [이 섹션](entry-management.md#wait-activities-impact)에서 대기 활동이 여정 처리 속도에 미치는 영향에 대해 자세히 알아보세요.
 
 
 >[!NOTE]

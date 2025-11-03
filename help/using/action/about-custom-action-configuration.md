@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: 작업, 서드파티, 사용자 지정, 여정, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
 workflow-type: tm+mt
-source-wordcount: '1829'
-ht-degree: 16%
+source-wordcount: '1838'
+ht-degree: 15%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 16%
 
 사용자 정의 작업을 사용하여 타깃팅할 엔드포인트를 선택할 때 다음을 확인하십시오.
 
-* 이 엔트포인트는 제한하는 [Throttling API](../configuration/throttling.md) 또는 [Capping API](../configuration/capping.md)의 구성을 사용하여 여정의 처리량을 지원할 수 있습니다. 스로틀링 구성은 200TPS 미만일 수 없습니다. 타겟팅된 모든 엔드포인트는 최소 200개의 TPS를 지원해야 합니다.
+* 이 엔트포인트는 제한하는 [Throttling API](../configuration/throttling.md) 또는 [Capping API](../configuration/capping.md)의 구성을 사용하여 여정의 처리량을 지원할 수 있습니다. 스로틀링 구성은 200TPS 미만일 수 없습니다. 타겟팅된 모든 엔드포인트는 최소 200개의 TPS를 지원해야 합니다. [이 섹션](../building-journeys/entry-management.md#journey-processing-rate)에서 여정 처리 속도에 대해 자세히 알아보세요.
 * 이 엔드포인트는 가능한 한 낮은 응답 시간을 가져야 합니다. 예상 처리량에 따라 응답 시간이 길면 실제 처리량에 영향을 줄 수 있습니다.
 
 모든 사용자 지정 작업에 대해 1분 동안 30만 번의 최대 호출 제한이 정의됩니다. 또한 기본 캡핑은 호스트 및 샌드박스 별로 수행됩니다. 예를 들어 샌드박스에서 동일한 호스트를 사용하는 두 개의 끝점이 있는 경우(예: `https://www.adobe.com/endpoint1` 및 `https://www.adobe.com/endpoint2`) 캡핑은 adobe.com 호스트 아래의 모든 끝점에 적용됩니다. &quot;endpoint1&quot;과 &quot;endpoint2&quot;는 동일한 최대 가용량 구성을 공유하며 한 끝점이 한도에 도달하면 다른 끝점에 영향을 줍니다.
@@ -157,7 +157,7 @@ Adobe Journey Optimizer은 사용자 지정 작업에 대해 기본적으로 TLS
 
 mTLS(상호 전송 계층 보안)를 사용하여 Adobe Journey Optimizer 사용자 지정 작업에 대한 아웃바운드 연결에서 보안을 강화할 수 있습니다. mTLS는 상호 인증을 위한 종단간 보안 방법으로, 정보를 공유하는 양 당사자가 데이터를 공유하기 전에 자신이 주장하는 사람임을 보장합니다. mTLS에는 TLS와 비교하여 추가 단계가 포함되어 있으며, 이 단계에서 서버는 클라이언트의 인증서를 요청하고 마지막에 검증한다.
 
-사용자 지정 작업에서 상호 TLS(mTLS) 인증이 지원됩니다. mTLS를 활성화하기 위해 사용자 정의 작업 또는 여정에 구성을 추가할 필요는 없습니다. mTLS 활성화 엔드포인트가 감지되면 자동으로 활성화됩니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
+사용자 지정 작업에서 상호 TLS(mTLS) 인증이 지원됩니다. mTLS를 활성화하기 위해 사용자 정의 작업 또는 여정에 구성을 추가할 필요는 없습니다. mTLS 활성화 엔드포인트가 감지되면 자동으로 활성화됩니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
 
 ## 페이로드 매개 변수 정의 {#define-the-message-parameters}
 

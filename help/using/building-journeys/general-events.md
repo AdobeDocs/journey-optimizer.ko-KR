@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 사용자 정의, 일반, 이벤트, 여정
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 21%
+source-wordcount: '615'
+ht-degree: 20%
 
 ---
 
@@ -32,6 +32,8 @@ ht-degree: 21%
 이벤트를 사용하면 여정을 통합적으로 트리거하여 여정에 참여하는 개인에게 실시간으로 메시지를 보낼 수 있습니다.
 
 이 유형의 이벤트에 대해 레이블과 설명만 추가할 수 있습니다. 나머지 구성은 편집할 수 없습니다. 기술 사용자가 수행했습니다. [이 페이지](../event/about-events.md)를 참조하십시오.
+
+[이 섹션](entry-management.md#journey-processing-rate)에서 이벤트 처리량 및 여정 처리 속도에 대해 자세히 알아보세요.
 
 ![](assets/general-events.png)
 

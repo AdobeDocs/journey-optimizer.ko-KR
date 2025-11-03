@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 148fde1fd0a7d8f4b24fab11a398ce6ac0a0c807
+source-git-commit: e83b49e887e60d12f15252360062c749ed8bd641
 workflow-type: tm+mt
-source-wordcount: '2908'
-ht-degree: 98%
+source-wordcount: '2929'
+ht-degree: 96%
 
 ---
 
@@ -228,6 +228,8 @@ Adobe Experience Platform에서 API 기반 프로필 만들기/업데이트와 �
 * 대상자 선별 활동은 Adobe Campaign 활동과 함께 사용할 수 없습니다.
 * 보조 식별자는 대상자 자격 여정에서 지원되지 않습니다.
 
+[이 섹션](../building-journeys/entry-management.md#journey-processing-rate)에서 여정 처리 속도 및 처리량 제한에 대해 자세히 알아보세요.
+
 #### Campaign 활동 {#ac-g}
 
 **[!UICONTROL Campaign v7/v8]** 및 **[!UICONTROL Campaign Standard]** 활동에는 다음 가드레일이 적용됩니다.
@@ -264,7 +266,7 @@ Adobe Experience Platform에서 API 기반 프로필 만들기/업데이트와 �
 [대상자 읽기](../building-journeys/read-audience.md) 여정 활동에 다음 가드레일이 적용됩니다.
 
 * 스트리밍 대상자는 항상 최신 상태이지만 배치 대상자는 검색하는 순간에 계산되지 않습니다. 일일 배치 평가 시간에만 매일 평가됩니다.
-* **대상자 읽기** 활동을 사용하는 여정의 경우 정확히 동시에 시작할 수 있는 여정의 최대 개수가 정해져 있습니다. 시스템에서 재시도를 수행하기는 하지만, 정확히 같은 시간에 다섯 개가 넘는 여정(**대상자 읽기** 활동이 있거나 예약했거나 “최대한 빨리” 시작하는 여정)을 실행하는 것을 피하기 위해 5~10분 간격을 두는 등 시간을 분산하는 것이 좋습니다.
+* **대상자 읽기** 활동을 사용하는 여정의 경우 정확히 동시에 시작할 수 있는 여정의 최대 개수가 정해져 있습니다. 다시 시도는 시스템에서 수행되지만 5분에서 10분 간격과 같이 시간에 따라 분산하여 정확히 같은 시간에 시작하는 5개 이상의 여정(**대상자 읽기**, 예약됨 또는 &quot;가능한 한 빨리&quot; 시작)를 사용하지 마십시오. [이 섹션](../building-journeys/entry-management.md#journey-processing-rate)에서 여정 처리 속도에 대해 자세히 알아보세요.
 * **대상자 읽기** 활동은 Adobe Campaign 활동과 함께 사용할 수 없습니다.
 * **대상자 읽기** 활동은 비즈니스 이벤트 활동 이후의 여정의 첫 번째 활동으로만 사용할 수 있습니다.
 * 여정은 하나의 **대상자 읽기** 활동만 가질 수 있습니다.

@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 여정, 구성, 속성
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
 workflow-type: tm+mt
-source-wordcount: '2733'
+source-wordcount: '2748'
 ht-degree: 15%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 15%
 
 프로필 시작 모드는 오른쪽 구성 창의 여정 수준에서 정의됩니다. 설정은 아래에 설명되어 있습니다.
 
-여정 등록 관리는 프로필 유형에 따라 다릅니다. [이 페이지](entry-management.md)에서 프로필 시작 및 재시작 관리에 대해 자세히 알아보세요.
+여정 등록 관리는 프로필 유형에 따라 다릅니다. [이 페이지](entry-management.md)에서 프로필 시작 및 재시작 관리에 대해 자세히 알아보세요. [이 섹션](entry-management.md#journey-processing-rate)에서 여정 처리 속도와 프로필이 여정을 통해 이동하는 방식에 대해 자세히 알아보세요.
 
 ### 재진입 허용  {#allow-reentrance}
 

@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 자격, 이벤트, 대상, 여정, 플랫폼
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
-source-git-commit: 118bf89f56d26213fde71fa795fc6576ce764ef2
+source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 7%
+source-wordcount: '1226'
+ht-degree: 6%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 7%
 
    >[!NOTE]
    >
-   >**[!UICONTROL Enter]** 및 **[!UICONTROL Exit]**&#x200B;은(는) Adobe Experience Platform의 **실현됨** 및 **종료됨** 대상자 참여 상태에 해당합니다. 대상자를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ko#interpret-segment-results){target="_blank"}를 참조하세요.
+   >**[!UICONTROL Enter]** 및 **[!UICONTROL Exit]**&#x200B;은(는) Adobe Experience Platform의 **실현됨** 및 **종료됨** 대상자 참여 상태에 해당합니다. 대상자를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}를 참조하세요.
 
 1. 네임스페이스를 선택합니다. 이는 이벤트가 여정의 첫 번째 단계로 배치되는 경우에만 필요합니다. 기본적으로 필드는 마지막으로 사용된 네임스페이스로 미리 채워집니다.
 
@@ -96,7 +96,7 @@ ht-degree: 7%
 
 **[!UICONTROL 대상 자격]** 활동을 통해 Adobe Experience Platform 대상에서 자격을 얻거나 자격을 박탈당한 개인 여정을 즉시 시작할 수 있습니다.
 
-이 정보는 수신 속도가 빠르다. 측정 결과 초당 수신된 10,000개의 이벤트 속도가 측정되었습니다. 그 결과, 출입구 정점이 어떻게 발생할 수 있는지, 어떻게 방지해야 하는지, 여정을 준비해야 하는지 이해해야 합니다.
+이 정보는 수신 속도가 빠르다. 측정 결과 초당 수신된 10,000개의 이벤트 속도가 측정되었습니다. 그 결과, 출입구 정점이 어떻게 발생할 수 있는지, 어떻게 방지해야 하는지, 여정을 준비해야 하는지 이해해야 합니다. [이 섹션](entry-management.md#journey-processing-rate)에서 여정 처리 속도 및 처리량 제한에 대해 자세히 알아보세요.
 
 ### 대상자 일괄 처리 {#batch-speed-segment-qualification}
 
@@ -110,7 +110,7 @@ ht-degree: 7%
 
 스트리밍 세분화를 통해 열기 및 보내기 이벤트를 사용하지 마십시오. 대신 클릭, 구매 또는 비콘 데이터와 같은 실제 사용자 활동 신호를 사용합니다. 빈도 또는 제외 논리의 경우 이벤트를 보내는 대신 비즈니스 규칙을 사용합니다. [자세히 알아보기](../audience/about-audiences.md#open-and-send-event-guardrails)
 
-스트리밍 세분화에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}를 참조하세요.
+스트리밍 세분화에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}를 참조하세요.
 
 ### 오버로드를 방지하는 방법 {#overloads-speed-segment-qualification}
 
@@ -120,11 +120,13 @@ ht-degree: 7%
 
   ![](assets/segment-error.png)
 
-* 여정에서 사용되는 데이터 소스 및 작업에 대한 최대 가용량 규칙을 적용하여 오버로드를 방지합니다. 자세한 내용은 [Journey Orchestration 설명서](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=ko){target="_blank"}를 참조하세요. 최대 가용량 규칙에는 재시도가 없습니다. 다시 시도해야 하는 경우 **[!UICONTROL 조건 또는 작업에서 시간 초과 또는 오류 발생 시 대체 경로를 추가]** 상자를 선택하여 여정에서 대체 경로를 사용하십시오.
+* 여정에서 사용되는 데이터 소스 및 작업에 대한 최대 가용량 규칙을 적용하여 오버로드를 방지합니다. 자세한 내용은 [Journey Orchestration 설명서](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}를 참조하세요. 최대 가용량 규칙에는 재시도가 없습니다. 다시 시도해야 하는 경우 **[!UICONTROL 조건 또는 작업에서 시간 초과 또는 오류 발생 시 대체 경로를 추가]** 상자를 선택하여 여정에서 대체 경로를 사용하십시오.
 
 * 프로덕션 여정에서 대상을 사용하기 전에 매일 이 대상에 대해 자격이 있는 개인의 양을 평가하십시오. 이렇게 하려면 **[!UICONTROL 대상자]** 메뉴를 확인하고 대상자를 연 다음 **[!UICONTROL 시간 경과에 따른 프로필]** 그래프를 보십시오.
 
   ![](assets/segment-overload.png)
+
+[이 섹션](entry-management.md#profile-entrance-rate)에서 진입률 제한 및 처리량에 대해 자세히 알아보세요.
 
 ## 가드레일 및 제한 사항 {#audience-qualification-guardrails}
 
@@ -162,4 +164,4 @@ ht-degree: 7%
 
 이 비디오에서 대상 자격 여정에 적용할 수 있는 사용 사례를 이해합니다. 대상 검증을 사용하여 여정을 구축하는 방법 및 적용할 모범 사례를 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446211?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
