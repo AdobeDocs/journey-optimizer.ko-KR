@@ -111,7 +111,7 @@ help/using/start/guardrails.md
 help/using/start/troubleshooting.md
 help/using/whatsapp/whatsapp-configuration.md
 
----
+&#x200B;---
 
 *2025년 11월 3일에 생성된 보고서*
 *제외: 서식 변경, 메타데이터 업데이트, 린터 수정, 목차 탐색 업데이트 및 마이그레이션 정리*
