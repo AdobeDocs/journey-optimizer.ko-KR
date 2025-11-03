@@ -3,12 +3,9 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 월별 설명서 업데이트 보고서
 description: 새 설명서 페이지 및 업데이트된 설명서 페이지 목록
-topic: Documentation
-role: User
-level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 20213360b872c36649e81bbdb2d2c4307935d706
+source-git-commit: 5823be7a7717739b43cdc1e5877053d21ce4b5da
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 0%
