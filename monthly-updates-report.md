@@ -5,9 +5,9 @@ title: 월별 설명서 업데이트 보고서
 description: 새 설명서 페이지 및 업데이트된 설명서 페이지 목록
 hide: true
 hidefromtoc: true
-source-git-commit: d49ae810865603a083bed3072f68473e93ec6ad4
+source-git-commit: da691f761a691eda8f2f88947a9e3c407830426f
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '889'
 ht-degree: 0%
 
 ---
@@ -89,8 +89,6 @@ ht-degree: 0%
 - [규칙 집합 작업](help/using/conflict-prioritization/rule-sets.md) - 10월 27일
 - [콘텐츠 실험 만들기](help/using/content-management/content-experiment.md) - 10월 15일
 - [조각 만들기](help/using/content-management/create-fragments.md) - 10월 7일
-- [실험 가속기 지표](help/using/content-management/experiment-accelerator-metrics.md) - 10월 24일
-- [실험 가속기](help/using/content-management/experiment-accelerator.md) - 10월 24일
 - [조각 관리](help/using/content-management/manage-fragments.md) - 10월 7일
 - [데이터 집합 쿼리 예제](help/using/data/datasets-query-examples.md) - 10월 17일
 - [데이터 세트 TTL(Time-to-Live) 보호 기능 정보](help/using/data/datasets-ttl.md) - 10월 28일
