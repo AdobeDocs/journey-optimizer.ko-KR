@@ -5,7 +5,7 @@ title: 월별 설명서 업데이트 보고서
 description: 새 설명서 페이지 및 업데이트된 설명서 페이지 목록
 hide: true
 hidefromtoc: true
-source-git-commit: 2bbb733577d8aeb09a8cbd8e49f2665acaa2c794
+source-git-commit: 2d81708b4829c330732de62177fc781d892d416d
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 ---
 
 
-# 설명서 업데이트 - 새로운 콘텐츠 및 지침
+# 설명서 업데이트 - 신규 및 업데이트 콘텐츠
 
 **기간:** 2025년 10월 15일 - 11월 3일
 
