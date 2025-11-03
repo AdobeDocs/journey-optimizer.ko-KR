@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 9ef761d216867c302a9c367dc509a52dc08fb06c
+source-git-commit: 148fde1fd0a7d8f4b24fab11a398ce6ac0a0c807
 workflow-type: tm+mt
-source-wordcount: '2861'
-ht-degree: 100%
+source-wordcount: '2908'
+ht-degree: 98%
 
 ---
 
@@ -54,7 +54,11 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 
 <!--The following guardrails apply to the [email channel](../../rp_landing_pages/email-landing-page.md):-->
 
-동일한 발신 도메인을 사용하여 [!DNL Adobe Journey Optimizer] 및 다른 제품(예: [!DNL Adobe Campaign] 또는 [!DNL Adobe Marketo Engage])에서 이메일 메시지를 보낼 수 없습니다.
+[이메일 채널](../email/get-started-email.md)에 다음 가드레일이 적용됩니다.
+
+* 동일한 발신 도메인을 사용하여 [!DNL Adobe Journey Optimizer] 및 다른 제품(예: [!DNL Adobe Campaign] 또는 [!DNL Adobe Marketo Engage])에서 이메일 메시지를 보낼 수 없습니다.
+
+이메일 메시지를 디자인할 때 시스템은 주요 설정을 확인하고 경고(권장 사항 및 모범 사례)와 오류(테스트 또는 활성화를 방해하는 차단 문제)에 대한 경고를 표시합니다. [이 섹션](../email/create-email.md#check-email-alerts)에서 전자 메일 경고 및 유효성 검사 요구 사항에 대해 자세히 알아보세요.
 
 ### SMS 가드레일 {#sms-guardrails}
 
