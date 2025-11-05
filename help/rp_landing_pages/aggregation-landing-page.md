@@ -5,7 +5,9 @@ title: 집계
 description: 집계
 redpen-status: CREATED_||_2025-08-11_20-12-06
 exl-id: fd46c749-c77a-4cda-94ec-58c58d136595
-source-git-commit: af1babe501a5b2c6a67730396a8f5e2c5d85e60a
+hide: true
+hidefromtoc: true
+source-git-commit: 7d75abf6b428becc8b535a63421e85cca417daac
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 100%
@@ -20,7 +22,7 @@ Adobe Journey Optimizer의 집계 함수를 사용하면 복잡한 데이터 세
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer의 avg 함수
 
@@ -30,7 +32,7 @@ Adobe Journey Optimizer의 avg 함수
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Count 함수 설명서
 
@@ -40,7 +42,7 @@ Count 함수 설명서
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 countOnlyNull 함수 - 목록의 Null 값 계산
 
@@ -50,7 +52,7 @@ countOnlyNull 함수 - 목록의 Null 값 계산
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 countWithNull 함수 개요
 
@@ -60,7 +62,7 @@ countWithNull 함수 개요
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer의 distinctCount 함수
 
@@ -70,7 +72,7 @@ Adobe Journey Optimizer의 distinctCount 함수
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 distinctCountWithNull 함수: 고유 값 계산(Null 포함)
 

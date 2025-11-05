@@ -5,8 +5,10 @@ title: 전환
 description: 전환
 redpen-status: CREATED_||_2025-08-11_20-13-12
 exl-id: c3b49adc-40d9-40e2-8496-e3037621f522
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+hide: true
+hidefromtoc: true
+source-git-commit: 7d75abf6b428becc8b535a63421e85cca417daac
+workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 100%
 
@@ -20,63 +22,63 @@ Adobe Journey Optimizer의 전환 섹션을 통해 데이터를 워크플로 요
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 toBool 함수
 
 toBool 함수를 사용하여 다양한 데이터 형식을 부울 값으로 변환합니다.
 
-[toBool 함수를 사용하는 방법 알아보기](../using/building-journeys/functions/functiontobool.md)
+[toBool 함수를 사용하는 방법 알아보기](../using/building-journeys/functions/conversion-functions.md#toBool)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 toDateOnly 함수
 
 toDateOnly 함수를 사용하여 날짜 표현을 dateOnly 형식으로 변환합니다.
 
-[toDateOnly 함수를 사용하는 방법 알아보기](../using/building-journeys/functions/functiontodateonly.md)
+[toDateOnly 함수를 사용하는 방법 알아보기](../using/building-journeys/functions/conversion-functions.md#toDateOnly)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 toDateTime 함수
 
 toDateTime 함수를 사용하여 다양한 입력을 날짜-시간 값으로 변환합니다.
 
-[toDateTime 함수를 사용하는 방법 알아보기](../using/building-journeys/functions/functiontodatetime.md)
+[toDateTime 함수를 사용하는 방법 알아보기](../using/building-journeys/functions/conversion-functions.md#toDateTime)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 toDateTimeOnly 함수
 
 toDateTimeOnly 함수를 사용하여 표준 시간대 없이 날짜-시간 형식으로 값을 변환합니다.
 
-[toDateTimeOnly 함수를 사용하는 방법 알아보기](../using/building-journeys/functions/functiontodatetimeonly.md)
+[toDateTimeOnly 함수를 사용하는 방법 알아보기](../using/building-journeys/functions/conversion-functions.md#toDateTimeOnly)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 toDecimal 함수
 
 toDecimal 함수를 사용하여 다양한 데이터 형식을 십진수 값으로 변환합니다.
 
-[toDecimal 함수를 사용하는 방법 알아보기](../using/building-journeys/functions/functiontodecimal.md)
+[toDecimal 함수를 사용하는 방법 알아보기](../using/building-journeys/functions/conversion-functions.md#toDecimal)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 toDuration 함수
 
 toDuration 함수를 사용하여 인수를 문자열 또는 밀리초를 사용한 기간 값으로 변환합니다.
 
-[toDuration 함수를 사용하는 방법 알아보기](../using/building-journeys/functions/functiontoduration.md)
+[toDuration 함수를 사용하는 방법 알아보기](../using/building-journeys/functions/conversion-functions.md#toDuration)
 :::
 
 ::::
@@ -84,5 +86,5 @@ toDuration 함수를 사용하여 인수를 문자열 또는 밀리초를 사용
 
 ## 추가 리소스
 
-- **[toInteger 함수](../using/building-journeys/functions/functiontointeger.md)** - toInteger 함수를 사용하여 다양한 데이터 형식을 정수로 변환합니다.
-- **[toString 함수](../using/building-journeys/functions/functiontostring.md)** - toString 함수를 사용하여 데이터 형식을 문자열 표현으로 변환합니다.
+- **[toInteger 함수](../using/building-journeys/functions/conversion-functions.md#toInteger)** - toInteger 함수를 사용하여 다양한 데이터 형식을 정수로 변환합니다.
+- **[toString 함수](../using/building-journeys/functions/conversion-functions.md#toString)** - toString 함수를 사용하여 데이터 형식을 문자열 표현으로 변환합니다.

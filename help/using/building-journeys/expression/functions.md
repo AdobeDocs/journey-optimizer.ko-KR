@@ -9,7 +9,7 @@ level: Experienced
 keywords: 함수, 표현식, 편집기, 여정
 exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 version: Journey Orchestration
-source-git-commit: af1babe501a5b2c6a67730396a8f5e2c5d85e60a
+source-git-commit: 7d75abf6b428becc8b535a63421e85cca417daac
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 69%
@@ -40,14 +40,14 @@ ht-degree: 69%
 | 집계 | [max](../functions/aggregation-functions.md#max) |
 | 집계 | [min](../functions/aggregation-functions.md#min) |
 | 집계 | [sum](../functions/aggregation-functions.md#sum) |
-| 전환 | [toBool](../functions/functiontobool.md) |
-| 전환 | [toDateOnly](../functions/functiontodateonly.md) |
-| 전환 | [toDateTime](../functions/functiontodatetime.md) |
-| 전환 | [toDateTimeOnly](../functions/functiontodatetimeonly.md) |
-| 전환 | [toDecimal](../functions/functiontodecimal.md) |
-| 전환 | [toDuration](../functions/functiontoduration.md) |
-| 전환 | [toInteger](../functions/functiontointeger.md) |
-| 전환 | [toString](../functions/functiontostring.md) |
+| 전환 | [toBool](../functions/conversion-functions.md#toBool) |
+| 전환 | [toDateOnly](../functions/conversion-functions.md#toDateOnly) |
+| 전환 | [toDateTime](../functions/conversion-functions.md#toDateTime) |
+| 전환 | [toDateTimeOnly](../functions/conversion-functions.md#toDateTimeOnly) |
+| 전환 | [toDecimal](../functions/conversion-functions.md#toDecimal) |
+| 전환 | [toDuration](../functions/conversion-functions.md#toDuration) |
+| 전환 | [toInteger](../functions/conversion-functions.md#toInteger) |
+| 전환 | [toString](../functions/conversion-functions.md#toString) |
 | Date | [currentTimeInMillis](../functions/functioncurrenttimeinmillis.md) |
 | Date | [inLastDays](../functions/functioninlastdays.md) |
 | Date | [inLastHours](../functions/functioninlasthours.md) |
