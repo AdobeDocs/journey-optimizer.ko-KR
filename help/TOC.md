@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7d75abf6b428becc8b535a63421e85cca417daac
+source-git-commit: 42abfcc9711d87b2dc00df47e964dad07443f0ed
 workflow-type: tm+mt
-source-wordcount: '3000'
+source-wordcount: '2987'
 ht-degree: 98%
 
 ---
@@ -119,21 +119,7 @@ ht-degree: 98%
          + 전환 {#conversion}
             + [전환 함수](using/building-journeys/functions/conversion-functions.md)
          + Date {#date}
-            + [Date](/help/rp_landing_pages/date-landing-page.md)
-            + [currentTime&#x200B;InMillis](using/building-journeys/functions/functioncurrenttimeinmillis.md)
-            + [inLastDays](using/building-journeys/functions/functioninlastdays.md)
-            + [inLastHours](using/building-journeys/functions/functioninlasthours.md)
-            + [inLastMonths](using/building-journeys/functions/functioninlastmonths.md)
-            + [inLastYears](using/building-journeys/functions/functioninlastyears.md)
-            + [inNextDays](using/building-journeys/functions/functioninnextdays.md)
-            + [inNextHours](using/building-journeys/functions/functioninnexthours.md)
-            + [inNextMonths](using/building-journeys/functions/functioninnextmonths.md)
-            + [inNextYears](using/building-journeys/functions/functioninnextyears.md)
-            + [now](using/building-journeys/functions/functionnow.md)
-            + [nowWithDelta](using/building-journeys/functions/functionnowwithdelta.md)
-            + [setHours](using/building-journeys/functions/functionsethours.md)
-            + [setDays](using/building-journeys/functions/functionsetdays.md)
-            + [updateTimeZone](using/building-journeys/functions/functionupdatetimezone.md)
+            + [날짜 함수](using/building-journeys/functions/date-functions.md)
          + 목록 {#list}
             + [목록](/help/rp_landing_pages/list-landing-page.md)
             + [distinct](using/building-journeys/functions/functiondistinct.md)
@@ -396,7 +382,7 @@ ht-degree: 98%
          + [웹 채널 전제 조건](using/web/web-prerequisites.md)
          + [웹 하위 도메인 구성](using/web/web-delegated-subdomains.md)
          + [웹 채널 구성 만들기](using/web/web-configuration.md)
-      + [웹 경험 만들기 &#x200B;](using/web/create-web.md)
+      + [웹 경험 만들기 ](using/web/create-web.md)
       + 웹 페이지 작성 {#author-web-pages}
          + [웹 페이지 작성](/help/rp_landing_pages/author-web-pages-landing-page.md)
          + [웹 디자이너를 사용하여 작업](using/web/web-visual-editor.md)
@@ -443,7 +429,7 @@ ht-degree: 98%
       + [LINE 메시지 만들기](using/line/create-line.md)
       + [LINE 메시지 확인 및 보내기](using/line/send-line.md)
 + 콘텐츠 관리 {#content-management}
-   + [콘텐츠 관리 &#x200B;](/help/rp_landing_pages/content-management-landing-page.md)
+   + [콘텐츠 관리 ](/help/rp_landing_pages/content-management-landing-page.md)
    + 개인화 {#personalization}
       + [개인화](/help/rp_landing_pages/personalization-landing-page.md)
       + [개인화 시작](using/personalization/personalize.md)
