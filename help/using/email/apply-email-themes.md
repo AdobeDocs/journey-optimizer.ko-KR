@@ -10,7 +10,7 @@ role: User
 level: Beginner, Intermediate
 keywords: 이메일 테마, 모듈, 재사용 가능성, 브랜드 일관성, 이메일 디자인, 사용자 지정 CSS, 모바일 최적화
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
-source-git-commit: a051f93a02cd90af65e62fd97ea437d07a964d7c
+source-git-commit: 4d12c36391c2546788d49cca6e2468a29fc1e74f
 workflow-type: tm+mt
 source-wordcount: '1567'
 ht-degree: 3%
@@ -146,7 +146,7 @@ ht-degree: 3%
 
 1. 콘텐츠 템플릿에서 테마를 선택하면 **[!UICONTROL 테마 편집]** 단추를 클릭하여 업데이트할 수 있습니다. [자세히 알아보기](#create-and-edit-themes)
 
-   ![](assets/theme-edit-in-template.png){width="40%" align="center" zoomable="yes"}
+   ![](assets/theme-edit-in-template.png){width="40%"}
 
    >[!NOTE]
    >
@@ -170,7 +170,7 @@ ht-degree: 3%
 
 구성 요소를 선택하면 **[!UICONTROL 스타일]** 탭의 전용 아이콘을 사용하여 해당 스타일 잠금을 해제할 수 있습니다.
 
-![](assets/theme-unlock-style.png){width="90%" align="center" zoomable="yes"}
+![](assets/theme-unlock-style.png){width="90%"}
 
 선택한 테마는 해당 구성 요소에 계속 적용되지만 해당 스타일 요소를 무시할 수 있습니다. 테마를 변경하면 새 테마는 재정의되지 않은 스타일 지정 요소에만 적용됩니다.<!--can you revert this action?-->
 
@@ -180,7 +180,7 @@ ht-degree: 3%
 
 테마를 변경할 경우 <!--the font size is still 14 and -->해당 구성 요소의 글꼴 색상은 여전히 빨간색이지만 새 테마에 따라 이 구성 요소의 배경색이 변경됩니다.
 
-![](assets/theme-unlock-style-ex-colored.png){width="80%" align="center" zoomable="yes"}
+![](assets/theme-unlock-style-ex-colored.png){width="80%"}
 
 ## 조각의 테마 활용 {#leverage-themes-fragment}
 
@@ -192,7 +192,7 @@ ht-degree: 3%
 
 1. 미리 정의된 스타일 테마로 시작하려면 **[!UICONTROL 테마 사용]**&#x200B;을 선택하세요.
 
-   ![](assets/fragment-use-themes.png){width="100%" align="center" zoomable="yes"}
+   ![](assets/fragment-use-themes.png){width="100%"}
 
    >[!CAUTION]
    >
@@ -206,11 +206,11 @@ ht-degree: 3%
 
 1. 다른 테마를 선택하여 조각 콘텐츠를 미리 볼 수 있습니다. 이렇게 하려면 기본 테마 옆에 있는 화살표를 선택하고 **[!UICONTROL 테마 선택]**&#x200B;을 클릭합니다.
 
-   ![](assets/fragment-select-themes.png){width="40%" align="center" zoomable="yes"}
+   ![](assets/fragment-select-themes.png){width="40%"}
 
 1. **[!UICONTROL Adobe 테마]**&#x200B;와(과) **[!UICONTROL 내 테마]** 탭 사이를 탐색하고 조각에 대해 호환되는 테마를 최대 5개(두 탭 모두에서) 선택할 수 있습니다.
 
-   ![](assets/fragment-select-compatible-themes.png){width=70% align="center" zoomable="yes"}
+   ![](assets/fragment-select-compatible-themes.png){width=70%}
 
    >[!CAUTION]
    >
@@ -220,7 +220,7 @@ ht-degree: 3%
 
 1. **[!UICONTROL 기본 테마]** 옆에 있는 화살표를 다시 선택하십시오. 이제 방금 선택한 여러 테마 사이를 전환하여 각 스타일 렌더링을 미리 볼 수 있습니다.
 
-   ![](assets/fragment-selected-themes.png){width=90% align="center" zoomable="yes"}
+   ![](assets/fragment-selected-themes.png){width=90%}
 
 1. 테마를 더 추가하거나 선택 항목을 변경하려면 **[!UICONTROL 테마 선택]**&#x200B;을 다시 클릭합니다.
 
@@ -232,16 +232,16 @@ ht-degree: 3%
 
 1. 오른쪽 레일에서 **[!UICONTROL 테마]** 아이콘을 선택하고 **[!UICONTROL 콘텐츠에서 테마 생성]** 단추를 클릭합니다.
 
-   ![](assets/generate-theme.png){width=100% align="center" zoomable="yes"}
+   ![](assets/generate-theme.png){width=100%}
 
 1. **[!UICONTROL 테마 만들기]** 창이 열립니다. [!DNL Journey Optimizer]은(는) 스타일 요소를 자동으로 감지하여 새 테마로 통합합니다.
 
-   ![](assets/generate-theme-create-window.png){width=100% align="center" zoomable="yes"}
+   ![](assets/generate-theme-create-window.png){width=90%}
 
 1. 테마의 이름을 입력합니다.
 
 1. 색상 변형 추가, 글꼴 편집 등과 같이 테마를 처음부터 새로 만들 때와 마찬가지로 필요에 따라 직접 조정합니다. [방법 알아보기](#create-and-edit-themes)
 
-   ![](assets/generate-theme-colors.png){width=100% align="center" zoomable="yes"}
+   ![](assets/generate-theme-colors.png){width=90%}
 
 1. 재사용할 새 테마를 저장하려면 **[!UICONTROL 저장]**&#x200B;을 클릭하세요. 이제 이 테마를 다른 테마와 같은 콘텐츠에 적용할 수 있습니다. [방법 알아보기](#leverage-themes-fragment)
