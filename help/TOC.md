@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d58319d687d113ce680c415524fdea0400cb38f0
+source-git-commit: a866442aa073c648d4455754e9945f0dddfb079d
 workflow-type: tm+mt
-source-wordcount: '2956'
+source-wordcount: '2947'
 ht-degree: 98%
 
 ---
@@ -112,22 +112,13 @@ ht-degree: 98%
       + 함수 {#main-functions-journey}
          + [함수](/help/rp_landing_pages/main-functions-journey-landing-page.md)
          + [주요 함수](using/building-journeys/expression/functions.md)
-         + Adobe Experience Platform {#adobe-experience-platform}
-            + [inAudience](using/building-journeys/functions/functioninaudience.md)
-         + 집계 {#aggregation}
-            + [집계 함수](using/building-journeys/functions/aggregation-functions.md)
-         + 전환 {#conversion}
-            + [전환 함수](using/building-journeys/functions/conversion-functions.md)
-         + Date {#date}
-            + [날짜 함수](using/building-journeys/functions/date-functions.md)
-         + 목록 {#list}
-            + [목록 함수](using/building-journeys/functions/list-functions.md)
-         + 수학 {#math}
-            + [수학](/help/rp_landing_pages/math-landing-page.md)
-            + [random](using/building-journeys/functions/functionrandom.md)
-            + [round](using/building-journeys/functions/functionround.md)
-         + 문자열 {#string}
-            + [문자열 함수](using/building-journeys/functions/string-functions.md)
+         + [inAudience 함수](using/building-journeys/functions/functioninaudience.md)
+         + [집계 함수](using/building-journeys/functions/aggregation-functions.md)
+         + [전환 함수](using/building-journeys/functions/conversion-functions.md)
+         + [날짜 함수](using/building-journeys/functions/date-functions.md)
+         + [목록 함수](using/building-journeys/functions/list-functions.md)
+         + [수학 함수](using/building-journeys/functions/math-functions.md)
+         + [문자열 함수](using/building-journeys/functions/string-functions.md)
    + 사용 사례 {#journey-use-cases}
       + [사용 사례](/help/rp_landing_pages/journey-use-cases-landing-page.md)
       + [사용 사례를 통해 알아보기](using/building-journeys/jo-use-cases.md)
@@ -349,7 +340,7 @@ ht-degree: 98%
          + [웹 채널 전제 조건](using/web/web-prerequisites.md)
          + [웹 하위 도메인 구성](using/web/web-delegated-subdomains.md)
          + [웹 채널 구성 만들기](using/web/web-configuration.md)
-      + [웹 경험 만들기 &#x200B;](using/web/create-web.md)
+      + [웹 경험 만들기 ](using/web/create-web.md)
       + 웹 페이지 작성 {#author-web-pages}
          + [웹 페이지 작성](/help/rp_landing_pages/author-web-pages-landing-page.md)
          + [웹 디자이너를 사용하여 작업](using/web/web-visual-editor.md)
@@ -396,7 +387,7 @@ ht-degree: 98%
       + [LINE 메시지 만들기](using/line/create-line.md)
       + [LINE 메시지 확인 및 보내기](using/line/send-line.md)
 + 콘텐츠 관리 {#content-management}
-   + [콘텐츠 관리 &#x200B;](/help/rp_landing_pages/content-management-landing-page.md)
+   + [콘텐츠 관리 ](/help/rp_landing_pages/content-management-landing-page.md)
    + 개인화 {#personalization}
       + [개인화](/help/rp_landing_pages/personalization-landing-page.md)
       + [개인화 시작](using/personalization/personalize.md)
