@@ -5,7 +5,9 @@ title: 함수
 description: 함수
 redpen-status: CREATED_||_2025-08-11_20-18-53
 exl-id: d82e30d6-abe5-4522-a8c4-a11ff5c9bd91
-source-git-commit: d58319d687d113ce680c415524fdea0400cb38f0
+hide: true
+hidefromtoc: true
+source-git-commit: 6c07fcc79c49698df748c6fc6fbd75a59c5b11c1
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 80%
@@ -20,7 +22,7 @@ Adobe Journey Optimizer의 함수를 사용하면 고객 여정을 맞춤화하�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer의 주요 함수
 
@@ -30,7 +32,7 @@ Adobe Journey Optimizer의 주요 함수
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 inAudience 함수 사용
 
@@ -40,7 +42,7 @@ inAudience 함수 사용
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 집계 함수 참조
 
@@ -50,7 +52,7 @@ inAudience 함수 사용
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg)
 
 변환 함수
 
@@ -60,7 +62,7 @@ inAudience 함수 사용
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 Adobe Journey Optimizer의 Date 함수
 
@@ -70,7 +72,7 @@ Adobe Journey Optimizer의 Date 함수
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Adobe Journey Optimizer의 목록 기능
 
@@ -85,4 +87,4 @@ Adobe Journey Optimizer의 목록 기능
 ## 추가 리소스
 
 - **[수학 함수](math-landing-page.md)** - 여정 표현식에서 숫자를 계산하기 위한 무작위, 반올림 등 수학적 함수를 탐색합니다.
-- **[Adobe Journey Optimizer의 문자열 함수](string-landing-page.md)** - 여정 표현식에서 연결, 하위 문자열 추출, 서식 지정 등을 위한 함수를 사용하여 문자열을 조작합니다.
+- **[Adobe Journey Optimizer의 문자열 함수](../using/building-journeys/functions/string-functions.md)** - 여정 표현식에서 연결, 하위 문자열 추출, 서식 지정 등을 위한 함수를 사용하여 문자열을 조작합니다.
