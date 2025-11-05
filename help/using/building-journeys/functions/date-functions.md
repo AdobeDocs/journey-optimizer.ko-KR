@@ -7,9 +7,9 @@ role: Developer
 level: Experienced
 keywords: 날짜, 함수, 표현식, 여정, 시간
 version: Journey Orchestration
-source-git-commit: 42abfcc9711d87b2dc00df47e964dad07443f0ed
+source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '791'
 ht-degree: 12%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 12%
 
 다음을 수행해야 하는 경우 날짜 함수 사용:
 
-* 특정 시간대 처리를 통해 현재 시간 또는 날짜 가져오기
-* 날짜가 특정 시간 범위(과거 또는 미래) 내에 있는지 확인
-* 날짜 및 시간 구성 요소(시간, 일, 시간대) 수정
+* 특정 시간대 처리([now](#now), [nowWithDelta](#nowWithDelta), [currentTimeInMillis](#currentTimeInMillis))를 사용하여 현재 시간 또는 날짜 가져오기
+* 날짜가 특정 시간 범위([inLastDays](#inLastDays), [inLastHours](#inLastHours), [inLastMonths](#inLastMonths), [inLastYears](#inLastYears), [inNextDays](#inNextDays), [inNextHours](#inNextHours), [inNextMonths](#inNextMonths), [inNextYears](#inNextYears)) 내에 있는지 확인
+* 날짜 및 시간 구성 요소([setHours](#setHours), [setDays](#setDays), [updateTimeZone](#updateTimeZone)) 수정
 * 시간 기반 계산 및 비교 수행
 * 다양한 시간 형식과 표현 간 변환
 

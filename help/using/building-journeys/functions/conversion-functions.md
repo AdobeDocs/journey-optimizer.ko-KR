@@ -7,9 +7,9 @@ role: Developer
 level: Experienced
 keywords: 전환, 함수, 표현식, 여정, 유형, 캐스트
 version: Journey Orchestration
-source-git-commit: 7d75abf6b428becc8b535a63421e85cca417daac
+source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '957'
 ht-degree: 6%
 
 ---
@@ -20,9 +20,10 @@ ht-degree: 6%
 
 다음과 같은 작업을 수행할 때 변환 함수를 사용합니다.
 
-* 문자열 값을 숫자, 부울 또는 날짜 유형으로 변환
-* 다양한 형식과 표현 간에 날짜 및 시간 변환
-* 정수 및 십진수 유형 간 숫자 값 캐스트
+* 문자열 값을 숫자, 부울 또는 날짜 형식([toInteger](#toInteger), [toDecimal](#toDecimal), [toBool](#toBool))으로 변환합니다.
+* 다른 형식과 표시([toDateTime](#toDateTime), [toDateTimeOnly](#toDateTimeOnly), [toDateOnly](#toDateOnly)) 간의 날짜 및 시간 변환
+* 정수 및 십진수 형식([toInteger](#toInteger), [toDecimal](#toDecimal)) 간에 숫자 값을 캐스팅합니다.
+* 값을 문자열 형식([toString](#toString)) 또는 기간([toDuration](#toDuration))으로 변환
 * 비교 및 작업을 위한 유형 호환성 보장
 * 다른 형식 형식을 가질 수 있는 외부 소스의 데이터 처리
 

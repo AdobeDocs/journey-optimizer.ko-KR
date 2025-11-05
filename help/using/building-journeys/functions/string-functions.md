@@ -7,9 +7,9 @@ role: Developer
 level: Experienced
 keywords: 문자열, 함수, 표현식, 여정, 텍스트, 조작
 version: Journey Orchestration
-source-git-commit: d58319d687d113ce680c415524fdea0400cb38f0
+source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1127'
 ht-degree: 15%
 
 ---
@@ -20,15 +20,16 @@ ht-degree: 15%
 
 다음을 수행해야 하는 경우 문자열 함수 사용:
 
-* 여러 텍스트 값 연결 및 결합
-* 특정 텍스트 패턴 또는 하위 문자열 검색
-* 대/소문자 구분 또는 대/소문자를 구분하지 않는 일치를 사용하여 문자열 비교
-* 하위 문자열 작업을 사용하여 텍스트 부분 추출
-* 텍스트를 대문자 또는 소문자로 변환
-* 문자열이 비어 있거나 특정 값을 포함하는지 확인
-* 텍스트 패턴을 새 값으로 바꾸기
-* 추가 처리를 위해 문자열을 배열로 분할
-* 정규 표현식에 대한 텍스트 유효성 검사
+* 여러 텍스트 값 연결 및 결합([concat](#concat))
+* 특정 텍스트 패턴 또는 하위 문자열 검색([contain](#contain), [containIgnoreCase](#containIgnoreCase), [indexOf](#indexOf), [lastIndexOf](#lastIndexOf), [matchRegExp](#matchRegExp))
+* 대/소문자를 구분하지 않거나 대/소문자를 구분하지 않는 일치와 문자열 비교([equalIgnoreCase](#equalIgnoreCase), [notEqualIgnoreCase](#notEqualIgnoreCase))
+* 확인 문자열 시작 및 종료([startWith](#startWith), [startWithIgnoreCase](#startWithIgnoreCase), [endWith](#endWith), [endWithIgnoreCase](#endWithIgnoreCase))
+* 하위 문자열 작업([substr](#substr))을 사용하여 텍스트 일부 추출
+* 텍스트를 대문자 또는 소문자로 변환([upper](#upper), [lower](#lower), [trim](#trim))
+* 문자열이 비어 있거나 특정 값([isEmpty](#isEmpty), [isNotEmpty](#isNotEmpty))을 포함하는지 확인하십시오.
+* 텍스트 패턴을 새 값으로 바꾸기([replace](#replace), [replaceAll](#replaceAll))
+* 추가 처리를 위해 문자열을 배열로 분할([split](#split))
+* 문자열 길이([length](#length))를 가져오거나 고유 식별자([uuid](#uuid))를 생성합니다.
 
 문자열 함수는 포괄적인 텍스트 조작 기능을 제공하여 여정 표현식의 텍스트 콘텐츠를 기반으로 하는 정교한 데이터 처리 및 조건부 논리를 가능하게 합니다.
 

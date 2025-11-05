@@ -7,10 +7,10 @@ role: Developer
 level: Experienced
 keywords: 집계, 함수, 표현식, 여정, avg, count, max, min, sum
 version: Journey Orchestration
-source-git-commit: 6102fba3ba30b462654e218f08835be53b75e2cc
+source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 8%
+source-wordcount: '717'
+ht-degree: 7%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 8%
 
 다음을 수행해야 하는 경우 집계 함수를 사용합니다.
 
-* 목록 또는 배열에서 통계값 계산(평균, 합계, 최소, 최대)
-* null 값을 포함하거나 제외할 수 있는 옵션과 함께 컬렉션의 요소 계산
-* 데이터 세트 내에서 고유 값 결정
+* 목록 또는 배열에서 통계값 계산([avg](#avg), [합계](#sum), [min](#min), [max](#max))
+* null 값을 포함하거나 제외하는 옵션이 있는 컬렉션의 요소 계산([count](#count), [countOnlyNull](#countOnlyNull), [countWithNull](#countWithNull))
+* 데이터 집합([distinctCount](#distinctCount), [distinctCountWithNull](#distinctCountWithNull)) 내에서 고유한 값 확인
 * 계산된 지표를 기반으로 데이터 기반 의사 결정
 
 집계 함수는 특정 동작에 따라 Null 값을 자동으로 처리하므로 누락되거나 정의되지 않은 값이 포함될 수 있는 실제 데이터를 보다 쉽게 사용할 수 있습니다.

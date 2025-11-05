@@ -7,9 +7,9 @@ role: Developer
 level: Experienced
 keywords: 목록, 함수, 표현식, 여정, 배열, 컬렉션
 version: Journey Orchestration
-source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
+source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1158'
 ht-degree: 9%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 9%
 
 다음과 같은 작업을 수행할 때 목록 함수를 사용합니다.
 
-* 기준에 따라 컬렉션에서 특정 항목 필터링 및 추출
-* 목록 요소를 오름차순 또는 내림차순으로 정렬 및 구성
-* 중복 항목을 제거하고 목록에서 고유 값을 가져옵니다.
-* 컬렉션 내에 값이 있는지 확인
-* 목록에서 반환되는 항목 수 제한
-* 목록을 다른 형식 또는 데이터 형식으로 변환
-* 목록 간 공통 요소 찾기와 같은 집합 작업 수행
+* 기준([filter](#filter), [getListItem](#getListItem))을 기반으로 컬렉션에서 특정 항목 필터링 및 추출
+* 목록 요소를 오름차순 또는 내림차순으로 정렬 및 구성([정렬](#sort))
+* 중복 항목을 제거하고 목록에서 고유 값을 가져옵니다([distinct](#distinct), [distinctWithNull](#distinctWithNull)).
+* 값이 컬렉션([in](#in)) 내에 있는지 확인
+* 목록에서 반환되는 항목 수 제한([limit](#limit))
+* 목록 크기([listSize](#listSize))를 가져오거나 목록을 다른 형식으로 변환([serializeList](#serializeList))
+* 목록([intersect](#intersect)) 간에 공통 요소를 찾는 것과 같은 집합 작업을 수행합니다.
 
 목록 함수는 복잡한 데이터 구조 작업을 위한 강력한 도구를 제공하며 복잡한 데이터 조작과 수집 콘텐츠를 기반으로 하는 조건부 논리를 가능하게 합니다.
 
