@@ -1,20 +1,20 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Infobip 공급자 구성
+title: Infobip 제공자 구성
 description: Infobip을 사용하여 Journey Optimizer으로 문자 메시지 및 MMS를 전송하도록 환경을 구성하는 방법에 대해 알아봅니다
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
-source-git-commit: 5b719ccfb38ea51d6f6c6a9204e235c022b01b4f
+source-git-commit: bd925e1fd053a19e2102536049278e48b0784960
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '902'
 ht-degree: 2%
 
 ---
 
-# Infobip 공급자 구성 {#sms-configuration-infobip}
+# Infobip 제공자 구성 {#sms-configuration-infobip}
 
 >[!BEGINSHADEBOX]
 
@@ -42,14 +42,14 @@ Journey Optimizer을 사용하여 Infobip을 구성하려면 다음 단계를 �
    |---|---|    
    | SMS 공급업체 | 정보 피드 |
    | 이름 | API 자격 증명의 이름을 선택합니다. |
-   | API 기본 URL 및 API 키 | 웹 인터페이스 홈 페이지 또는 API 키 관리 페이지에 액세스하여 자격 증명을 찾을 수 있습니다. [Infobip 설명서](https://www.infobip.com/docs/api){target="_blank"}에서 자세히 알아보기 |
+   | API 기본 URL 및 API 키 | 웹 인터페이스 홈 페이지 또는 API 키 관리 페이지에 액세스하여 자격 증명을 찾을 수 있습니다. 지역 또는 대체 도메인 끝점(예: `api-ny2.infobip.com`)의 경우 전체 기본 URL을 지정하고 Infobip 지원을 통해 인증 토큰을 확인합니다. </br>자세한 내용은 [Infobip 설명서를 참조하세요](https://www.infobip.com/docs/api){target="_blank"} |
    | 옵트인 키워드 | 옵트인 메시지를 자동으로 트리거할 기본 또는 사용자 지정 키워드를 입력합니다. 여러 키워드의 경우 쉼표로 구분된 값을 사용하십시오. |
    | 옵트인 메시지 | 옵트인 메시지로 자동 전송되는 사용자 지정 응답을 입력합니다. |
    | 옵트아웃 키워드 | 옵트아웃 메시지를 자동으로 트리거할 기본 또는 사용자 지정 키워드를 입력합니다. 여러 키워드의 경우 쉼표로 구분된 값을 사용하십시오. |
    | 옵트아웃 메시지 | 옵트아웃 메시지로 자동 전송되는 사용자 지정 응답을 입력합니다. |
    | 도움말 키워드 | **도움말 메시지**&#x200B;를 자동으로 트리거할 기본 또는 사용자 지정 키워드를 입력하십시오. 여러 키워드의 경우 쉼표로 구분된 값을 사용하십시오. |
    | 도움말 메시지 | **도움말 메시지**(으)로 자동으로 전송되는 사용자 지정 응답을 입력하십시오. |
-   | 이중 옵트인 키워드 | 이중 옵트인 프로세스를 트리거하는 키워드를 입력합니다. 사용자 프로필이 존재하지 않으면 확인 후 생성됩니다. 여러 키워드의 경우 쉼표로 구분된 값을 사용하십시오. [SMS 이중 옵트인에 대해 자세히 알아보기](https://video.tv.adobe.com/v/3440286/?captions=kor&learn=on). |
+   | 이중 옵트인 키워드 | 이중 옵트인 프로세스를 트리거하는 키워드를 입력합니다. 사용자 프로필이 존재하지 않으면 확인 후 생성됩니다. 여러 키워드의 경우 쉼표로 구분된 값을 사용하십시오. [SMS 이중 옵트인에 대해 자세히 알아보기](https://video.tv.adobe.com/v/3427129/?learn=on). |
    | 이중 옵트인 메시지 | 이중 옵트인 확인에 대한 응답으로 자동으로 전송되는 사용자 지정 응답을 입력합니다. |
    | 주체 엔티티 ID | 할당된 DLT 주체 엔티티 ID를 입력합니다. |
    | 컨텐츠 템플릿 ID | 등록된 DLT 콘텐츠 템플릿 ID를 입력합니다. |
