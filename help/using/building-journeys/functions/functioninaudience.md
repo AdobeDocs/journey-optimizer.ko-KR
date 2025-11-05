@@ -36,7 +36,7 @@ ht-degree: 2%
 * **실현됨**: 개인이 대상 정의에 적합하며 활성 멤버입니다.
 * **종료됨**: 개인이 대상을 떠났으므로 더 이상 자격이 없습니다.
 
-**실현됨** 상태의 개인만 활성 대상 구성원으로 간주됩니다. 함수가 `true`을(를) 반환하면 개인이 실현된 상태를 확인하고 `false`을(를) 반환하면 종료된 상태를 나타냅니다. 대상 평가에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}를 참조하세요.
+**실현됨** 상태의 개인만 활성 대상 구성원으로 간주됩니다. 함수가 `true`을(를) 반환하면 개인이 실현된 상태를 확인하고 `false`을(를) 반환하면 종료된 상태를 나타냅니다. 대상 평가에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ko#interpret-segment-results){target="_blank"}를 참조하세요.
 
 +++구문
 
