@@ -4,9 +4,11 @@ product: Journey Optimizer
 title: 수학
 description: 수학
 redpen-status: CREATED_||_2025-08-11_20-16-12
+hide: true
+hidefromtoc: true
 exl-id: 2df9c6ea-be94-475f-9997-16f10db22f03
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+source-git-commit: 18697bd59466a41ffa3fa55f758222ce61415f42
+workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 100%
 
@@ -20,23 +22,23 @@ Adobe Journey Optimizer의 수학 섹션을 통해 여정 내에서 정확한 �
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 random 함수
 
 Adobe Journey Optimizer에서 &#39;random&#39; 함수를 사용하여 0과 1 사이의 난수를 생성하는 방법에 대해 알아봅니다.
 
-[random 함수 탐색](../using/building-journeys/functions/functionrandom.md)
+[random 함수 탐색](../using/building-journeys/functions/math-functions.md#random)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 round 함수
 
 &#39;round&#39; 함수와 그 구문 및 숫자를 Adobe Journey Optimizer에서 가장 가까운 정수로 반올림하는 방법을 이해합니다.
 
-[round 함수에 대해 알아보기](../using/building-journeys/functions/functionround.md)
+[round 함수에 대해 알아보기](../using/building-journeys/functions/math-functions.md#round)
 :::
 
 ::::

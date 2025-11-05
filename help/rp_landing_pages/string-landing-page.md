@@ -4,8 +4,10 @@ product: Journey Optimizer
 title: 문자열
 description: 문자열
 redpen-status: CREATED_||_2025-08-11_20-18-34
+hide: true
+hidefromtoc: true
 exl-id: 1085e570-10b8-4d96-912a-994979358b65
-source-git-commit: d58319d687d113ce680c415524fdea0400cb38f0
+source-git-commit: 18697bd59466a41ffa3fa55f758222ce61415f42
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 100%
@@ -20,7 +22,7 @@ ht-degree: 100%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 concat 함수 참조
 
@@ -30,7 +32,7 @@ concat 함수 참조
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 &#39;contain&#39; 함수 사용
 
@@ -40,7 +42,7 @@ concat 함수 참조
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 containIgnoreCase 함수
 
@@ -50,7 +52,7 @@ containIgnoreCase 함수
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 endWith 함수 참조
 
@@ -60,7 +62,7 @@ endWith 함수 참조
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 endWithIgnoreCase 함수
 
@@ -70,7 +72,7 @@ endWithIgnoreCase 함수
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 equalIgnoreCase 함수 참조
 
