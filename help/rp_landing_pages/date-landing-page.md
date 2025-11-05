@@ -5,7 +5,9 @@ title: Date
 description: Date
 redpen-status: CREATED_||_2025-08-11_20-14-40
 exl-id: 38bf1898-9de0-470d-abd6-a9240e83e87f
-source-git-commit: 42abfcc9711d87b2dc00df47e964dad07443f0ed
+hide: true
+hidefromtoc: true
+source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 100%
@@ -20,7 +22,7 @@ Adobe Journey Optimizer의 Date 함수를 사용하면 시간 관련 데이터�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 currentTimeInMillis 함수 참조
 
@@ -30,7 +32,7 @@ currentTimeInMillis 함수 참조
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 inLastDays 함수
 
@@ -40,7 +42,7 @@ inLastDays 함수
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 inLastHours 함수 사용
 
@@ -50,7 +52,7 @@ inLastHours 함수 사용
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 inLastMonths 함수 사용
 
@@ -60,7 +62,7 @@ Adobe Journey Optimizer에서 &#39;inLastMonths&#39;를 사용하여 날짜가 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 inLastYears 함수 사용
 
@@ -70,7 +72,7 @@ inLastYears 함수 사용
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 inNextDays 함수
 

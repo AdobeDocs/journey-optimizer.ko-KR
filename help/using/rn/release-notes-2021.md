@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
 workflow-type: tm+mt
 source-wordcount: '2035'
 ht-degree: 100%
@@ -152,7 +152,7 @@ ht-degree: 100%
 <p>이제 사용자 지정 작업 매개 변수에 컬렉션이나 데이터 목록을 전달할 수 있으며 그 내용은 실시간으로, 동적으로 채워집니다. 지원되는 컬렉션은 단순 컬렉션과 개체 컬렉션, 두 가지입니다. 이전에 만든 사용자 지정 작업은 계속 작동합니다. </p>
 <p>컬렉션에 대한 자세한 내용은 <a href="../building-journeys/collections.md">자세한 설명서</a>를 참조하세요. </p>
 <p>고급 표현식 편집기에서 사용할 수 있는 함수 목록에 필터링 및 교차 함수가 추가되었습니다. 이 함수를 통해 컬렉션을 더욱 다양하게 필터링 및 비교할 수 있습니다.</p>
-<p><a href="../building-journeys/functions/functionfilter.md">필터링</a> 및 <a href="../building-journeys/functions/functionintersect.md">교차</a> 함수에 대한 설명서를 참조하세요.</p>
+<p><a href="../building-journeys/functions/list-functions.md#filter">필터링</a> 및 <a href="../building-journeys/functions/list-functions.md#intersect">교차</a> 함수에 대한 설명서를 참조하세요.</p>
 </td>
 </tr>
 </tbody>

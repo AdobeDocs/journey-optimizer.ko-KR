@@ -5,22 +5,22 @@ title: 함수
 description: 함수
 redpen-status: CREATED_||_2025-08-11_20-18-53
 exl-id: d82e30d6-abe5-4522-a8c4-a11ff5c9bd91
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
+workflow-type: tm+mt
 source-wordcount: '284'
-ht-degree: 100%
+ht-degree: 80%
 
 ---
 
 # 함수{#section-overview}
 
-Adobe Journey Optimizer의 함수를 사용하면 고객 여정을 맞춤화하기 위해 동적이고 정확한 표현식을 작성할 수 있습니다. 대상자 멤버십을 평가하든, 데이터를 집계하든, 형식을 변환하든, 날짜를 조작하든, 목록을 처리하든 각 함수 카테고리는 워크플로를 최적화하는 데 각기 고유한 목적을 충족하는 역할을 합니다. 이 함수들은 산수, 문자열 사용자 정의 등을 위한 도구를 제공해 고급 조건을 만드는 데 무한한 가능성을 열어 줍니다. 앞으로 나올 섹션을 살펴보면서 복잡한 작업을 단순화하는 실용적인 예제와 자세한 지침을 찾아 손쉽게 개인화된 여정 오케스트레이션의 잠재력을 최대한 활용할 수 있습니다.
+Adobe Journey Optimizer의 함수를 사용하면 고객 여정을 맞춤화하기 위해 동적이고 정확한 표현식을 작성할 수 있습니다. 대상 멤버십을 평가하든, 데이터를 집계하든, 형식을 변환하든, 날짜를 조작하든, 목록을 처리하든 관계없이 각 함수 카테고리는 워크플로우를 최적화하는 데 고유한 목적을 제공합니다. 이 함수들은 산수, 문자열 사용자 정의 등을 위한 도구를 제공해 고급 조건을 만드는 데 무한한 가능성을 열어 줍니다. 앞의 섹션을 살펴보면 복잡한 작업을 단순화하는 실용적인 예와 자세한 지침을 발견하여 개인화된 여정 오케스트레이션의 잠재력을 쉽게 최대한 발휘할 수 있습니다.
 
 ## Adobe Journey Optimizer의 함수
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer의 주요 함수
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 주요 함수
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 inAudience 함수 사용
 
@@ -40,37 +40,37 @@ inAudience 함수 사용
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 집계 함수 참조
 
 기본 집계 함수를 사용하여 여정 표현식에서 평균, 수 세기, 고유 값, 합계와 같은 작업을 수행할 수 있습니다.
 
-[집계 함수 자세히 알아보기](aggregation-landing-page.md)
+[집계 함수 자세히 알아보기](../using/building-journeys/functions/aggregation-functions.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg)
 
 변환 함수
 
 입력 내용을 효과적으로 여정 오케스트레이션용으로 조작하기 위해 변환 함수로 데이터 형식을 변환합니다.
 
-[변환 함수 탐색](conversion-landing-page.md)
+[변환 함수 탐색](../using/building-journeys/functions/conversion-functions.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 Adobe Journey Optimizer의 Date 함수
 
 여정 표현식에서 강력한 날짜 관련 함수를 사용하여 날짜 및 시간 값을 조작하고 평가하는 방법에 대해 알아봅니다.
 
-[날짜 함수 설명서 보기](date-landing-page.md)
+[날짜 함수 설명서 보기](../using/building-journeys/functions/date-functions.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Adobe Journey Optimizer의 목록 기능
 

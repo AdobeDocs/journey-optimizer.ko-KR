@@ -5,8 +5,8 @@ title: 목록
 description: 목록
 redpen-status: CREATED_||_2025-08-11_20-15-54
 exl-id: 5cb96709-c1bf-415e-bcdf-217c1ae7c34d
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
+workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 100%
 
@@ -20,63 +20,63 @@ Adobe Journey Optimizer의 &#39;목록&#39; 기능을 사용하면 워크플로 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer에서 &#39;distinct&#39; 함수 사용
 
 &#39;distinct&#39; 함수를 사용하여 고유 값이나 개체를 반환하고 null 항목을 무시하여 목록의 중복을 제거하는 방법을 알아봅니다.
 
-[&#39;distinct&#39;에 대해 자세히 알아보기](../using/building-journeys/functions/functiondistinct.md)
+[&#39;distinct&#39;에 대해 자세히 알아보기](../using/building-journeys/functions/list-functions.md#distinct)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 distinctWithNull 함수 - Adobe Journey Optimizer
 
 null 항목을 포함하면서 목록에서 고유 값 또는 개체를 가져올 때 &#39;distinctWithNull&#39;을 사용하는 방법을 알아봅니다.
 
-[&#39;distinctWithNull&#39;에 대해 알아보기](../using/building-journeys/functions/functiondistinctwithnull.md)
+[&#39;distinctWithNull&#39;에 대해 알아보기](../using/building-journeys/functions/list-functions.md#distinctWithNull)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer에서 &#39;filter&#39; 함수 사용
 
 &#39;filter&#39; 함수를 사용하여 특정 키 값을 기반으로 개체 목록에 필터를 적용하는 방법을 알아봅니다.
 
-[&#39;filter&#39; 함수 세부 정보 탐색](../using/building-journeys/functions/functionfilter.md)
+[&#39;filter&#39; 함수 세부 정보 탐색](../using/building-journeys/functions/list-functions.md#filter)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer에서 getListItem 함수 사용
 
 &#39;getListItem&#39; 함수를 사용하여 특정 인덱스의 목록에서 항목을 가져오는 방법에 대해 알아봅니다.
 
-[&#39;getListItem&#39; 이해](../using/building-journeys/functions/functiongetlistitem.md)
+[&#39;getListItem&#39; 이해](../using/building-journeys/functions/list-functions.md#getListItem)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer에서 &#39;in&#39; 함수 사용
 
 &#39;in&#39; 함수를 사용하여 목록에 값이 있는지 확인하는 방법을 알아봅니다.
 
-[&#39;in&#39;에 대해 자세히 알아보기](../using/building-journeys/functions/functionin.md)
+[&#39;in&#39;에 대해 자세히 알아보기](../using/building-journeys/functions/list-functions.md#in)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer의 Intersect 함수
 
 &#39;intersect&#39; 함수가 두 입력 목록 간의 공통 값을 검색하는 방법을 이해합니다.
 
-[&#39;intersect&#39;에 대해 자세히 알아보기](../using/building-journeys/functions/functionintersect.md)
+[&#39;intersect&#39;에 대해 자세히 알아보기](../using/building-journeys/functions/list-functions.md#intersect)
 :::
 
 ::::
@@ -84,7 +84,7 @@ Adobe Journey Optimizer의 Intersect 함수
 
 ## 추가 리소스
 
-- **[Adobe Journey Optimizer에서`limit` 함수 사용](../using/building-journeys/functions/functionlimit.md)** - &#39;limit&#39; 함수를 사용하여 목록을 첫 번째 또는 마지막 N 요소로 제한하는 방법에 대해 알아봅니다.
-- **[listSize 함수 참조](../using/building-journeys/functions/functionlistsize.md)** - &#39;listSize&#39; 함수를 사용하여 목록의 요소 수를 계산하는 방법을 알아봅니다.
-- **[Adobe Journey Optimizer의 serializeList 함수](../using/building-journeys/functions/functionserializelist.md)** - &#39;serializeList&#39; 함수를 사용하여 목록을 사용자 지정 가능한 형식의 문자열로 변환합니다.
-- **[Adobe Journey Optimizer의 정렬 함수](../using/building-journeys/functions/functionsort.md)** - &#39;정렬&#39; 함수를 사용하여 값 또는 개체 목록을 자연순으로 정렬하는 방법에 대해 알아봅니다.
+- **[Adobe Journey Optimizer에서`limit` 함수 사용](../using/building-journeys/functions/list-functions.md#limit)** - &#39;limit&#39; 함수를 사용하여 목록을 첫 번째 또는 마지막 N 요소로 제한하는 방법에 대해 알아봅니다.
+- **[listSize 함수 참조](../using/building-journeys/functions/list-functions.md#listSize)** - &#39;listSize&#39; 함수를 사용하여 목록의 요소 수를 계산하는 방법을 알아봅니다.
+- **[Adobe Journey Optimizer의 serializeList 함수](../using/building-journeys/functions/list-functions.md#serializeList)** - &#39;serializeList&#39; 함수를 사용하여 목록을 사용자 지정 가능한 형식의 문자열로 변환합니다.
+- **[Adobe Journey Optimizer의 정렬 함수](../using/building-journeys/functions/list-functions.md#sort)** - &#39;정렬&#39; 함수를 사용하여 값 또는 개체 목록을 자연순으로 정렬하는 방법에 대해 알아봅니다.

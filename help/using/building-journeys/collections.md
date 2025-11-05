@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 사용자 지정 작업 매개 변수에 컬렉션 전달
+title: 사용자 정의 액션 매개 변수에 컬렉션 전달
 description: 사용자 지정 작업을 사용하여 Journey Optimizer에서 컬렉션을 동적으로 전달하는 방법을 알아봅니다
 feature: Journeys, Use Cases, Custom Actions, Collections
 topic: Content Management
@@ -9,15 +9,15 @@ role: Developer
 level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
 workflow-type: tm+mt
 source-wordcount: '723'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
 
-# 사용자 지정 작업 매개 변수에 컬렉션 전달 {#passing-collection}
+# 사용자 정의 액션 매개 변수에 컬렉션 전달 {#passing-collection}
 
 런타임 시 동적으로 채워진 사용자 지정 작업 매개 변수에서 컬렉션을 전달할 수 있습니다.
 
@@ -132,7 +132,7 @@ ht-degree: 2%
 
    ![](assets/uc-collection-4.png){width="50%" align="left"}
 
-배열 필드의 경우 고급 표현식 편집기를 사용하여 데이터 조작을 수행할 수도 있습니다. 다음 예제에서는 [filter](functions/functionfilter.md) 및 [intersect](functions/functionintersect.md) 함수를 사용합니다.
+배열 필드의 경우 고급 표현식 편집기를 사용하여 데이터 조작을 수행할 수도 있습니다. 다음 예제에서는 [filter](functions/list-functions.md#filter) 및 [intersect](functions/list-functions.md#intersect) 함수를 사용합니다.
 
 ![](assets/uc-collection-5.png)
 

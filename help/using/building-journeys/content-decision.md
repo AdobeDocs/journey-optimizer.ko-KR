@@ -11,7 +11,7 @@ badge: label="제한된 가용성" type="Informative"
 keywords: 활동, 의사 결정, 컨텐츠 결정, 의사 결정 정책, 캔버스, 여정
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
 workflow-type: tm+mt
 source-wordcount: '1120'
 ht-degree: 3%
@@ -116,7 +116,7 @@ ht-degree: 3%
    >
    >의사 결정 규칙에 사용되는 여정 경험 이벤트(컨텍스트 데이터) 또는 [오퍼 스키마](../experience-decisioning/catalogs.md#access-catalog-schema)에서 특성에 정의된 모든 제한된 레이블은 DULE 또는 동의에 대한 정책을 위반합니다. [이 섹션](../action/action-privacy.md)에서 데이터 거버넌스 정책에 대해 자세히 알아보기
 
-1. 여정을 입력한 프로필에 대해 반환된 오퍼가 있는지 확인하려면 다음 구문과 함께 [listSize](functions/functionlistsize.md) 함수를 사용하십시오. `listSize(@decision{ContentdecisionName.items})>0`
+1. 여정을 입력한 프로필에 대해 반환된 오퍼가 있는지 확인하려면 다음 구문과 함께 [listSize](functions/list-functions.md#listSize) 함수를 사용하십시오. `listSize(@decision{ContentdecisionName.items})>0`
 
    >[!NOTE]
    >
@@ -152,7 +152,7 @@ ht-degree: 3%
    >
    >콘텐츠 결정 노드의 출력은 **[!UICONTROL 고급 모드]**&#x200B;에서만 사용할 수 있습니다.
 
-1. [&#x200B; 배열을 사용하여 &#x200B;](../experience-decisioning/catalogs.md#access-catalog-schema)오퍼 카탈로그 스키마`items`를 찾아봅니다. 예를 들어 검색된 첫 번째 오퍼의 `itemName`과(와) 검색된 두 번째 오퍼의 `itemName`을(를) 사용합니다.
+1. [ 배열을 사용하여 ](../experience-decisioning/catalogs.md#access-catalog-schema)오퍼 카탈로그 스키마`items`를 찾아봅니다. 예를 들어 검색된 첫 번째 오퍼의 `itemName`과(와) 검색된 두 번째 오퍼의 `itemName`을(를) 사용합니다.
 
    ![결정 정책을 포함하는 사용자 지정 작업의 요청 매개 변수](assets/journey-content-decision-custom-action-param-ex.png)
 

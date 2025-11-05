@@ -10,8 +10,8 @@ level: Beginner, Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
-workflow-type: ht
+source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
+workflow-type: tm+mt
 source-wordcount: '3599'
 ht-degree: 100%
 
@@ -262,7 +262,7 @@ ht-degree: 100%
 <td>
 <p>Journey Optimizer 캠페인으로 다양한 채널을 사용하는 특정 대상자에 일회성 콘텐츠를 게재할 수 있습니다. 여정을 사용할 때 작업은 순서대로 실행되도록 디자인됩니다. 캠페인을 사용하면 작업을 동시에 즉시 또는 지정한 일정에 따라 수행합니다. </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
-<p><a href="../campaigns/get-started-with-campaigns.md">세부 설명서</a> 및 <a href="https://video.tv.adobe.com/v/3412406?captions=kor">기능 비디오</a>에서 캠페인을 만드는 방법을 알아보세요.
+<p><a href="../campaigns/get-started-with-campaigns.md">세부 설명서</a> 및 <a href="https://video.tv.adobe.com/v/346680">기능 비디오</a>에서 캠페인을 만드는 방법을 알아보세요.
 </td>
 </tr>
 </tbody>
@@ -357,13 +357,13 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>일괄 의사 결정 작업</strong><br/></th>
+<th><strong>배치 의사결정 작업</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 사용자 인터페이스에서 일괄 의사 결정 작업을 실행할 수 있으므로 일괄 API 작업을 실행하는 개발자가 필요하지 않으며 마케팅 관련 시간을 줄일 수 있습니다. 이 새 인터페이스를 사용하면 작업을 만들고 현재/과거 작업을 관리할 수 있습니다.</p>
+<p>이제 사용자 인터페이스에서 배치 의사결정 작업을 실행할 수 있으므로 일괄 API 작업을 실행하는 개발자가 필요하지 않으며 마케팅 관련 시간을 줄일 수 있습니다. 이 새 인터페이스를 사용하면 작업을 만들고 현재/과거 작업을 관리할 수 있습니다.</p>
 <img src="assets/do-not-localize/batch.gif"/>
 <p>자세한 내용은 <a href="../offers/batch-delivery.md">세부 설명서를 참조하세요.</p>
 </td>
@@ -617,7 +617,7 @@ ht-degree: 100%
 **여정**
 
 * **대상자 읽기** - 이제 일회성 대상자 읽기 여정을 실행한 후 30일이 지나면 여정이 완료 상태로 이동합니다. 예약된 대상자 읽기의 경우 마지막 읽기를 실행한 후 30일이 경과한 시점에 이동합니다. [자세히 보기](../building-journeys/read-audience.md)
-* **표현식 편집기** - 목록의 항목 수를 제한할 수 있도록 [limit](../building-journeys/functions/functionlimit.md) 함수가 추가되었습니다. 이제 [sort](../building-journeys/functions/functionsort.md) 함수를 사용하여 목록 개체를 정렬할 수 있습니다. 또한 [disctinct](../building-journeys/functions/functiondistinct.md) 및 [distinctWithNull](../building-journeys/functions/functiondistinctwithnull.md) 함수에 listObject에 대한 지원도 추가되었습니다.
+* **표현식 편집기** - 목록의 항목 수를 제한할 수 있도록 [limit](../building-journeys/functions/list-functions.md#limit) 함수가 추가되었습니다. 이제 [sort](../building-journeys/functions/list-functions.md#sort) 함수를 사용하여 목록 개체를 정렬할 수 있습니다. 또한 [disctinct](../building-journeys/functions/list-functions.md#distinct) 및 [distinctWithNull](../building-journeys/functions/list-functions.md#distinctWithNull) 함수에 listObject에 대한 지원도 추가되었습니다.
 
 **관리**
 
