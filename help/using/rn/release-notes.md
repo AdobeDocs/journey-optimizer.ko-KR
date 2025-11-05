@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8984a055ef8235d554b6772b0afa0b10e899b2a7
+source-git-commit: b24c89f966fe6eeb58d019bc85cedc89ee13f113
 workflow-type: tm+mt
 source-wordcount: '1357'
 ht-degree: 84%
@@ -30,7 +30,7 @@ ht-degree: 84%
 
 지난 주에 릴리스된 새로운 기능 및 개선 사항은 아래에 나열되어 있으며 해당 사용 가능 날짜가 표시됩니다. 월말에 다음 릴리스 노트 콘텐츠로 그룹화됩니다. 아래의 최신 [릴리스 정보](#latest-rn)도 참조하세요.
 
-### 새로운 기능 {#oct-25-10-soon-features}
+### 새로운 기능 {#features}
 
 <table>
 <thead>
