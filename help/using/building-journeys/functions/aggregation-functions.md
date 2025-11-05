@@ -7,16 +7,26 @@ role: Developer
 level: Experienced
 keywords: 집계, 함수, 표현식, 여정, avg, count, max, min, sum
 version: Journey Orchestration
-source-git-commit: af1babe501a5b2c6a67730396a8f5e2c5d85e60a
+source-git-commit: 6102fba3ba30b462654e218f08835be53b75e2cc
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '712'
 ht-degree: 8%
 
 ---
 
 # 집계 함수 {#aggregation-functions}
 
-집계 함수는 값 집합에 대해 계산을 수행하고 단일 값을 반환하는 데 사용됩니다. 이러한 함수는 여정 표현식에서 목록 및 배열로 작업할 때 특히 유용합니다.
+집계 함수는 값 집합에 대해 계산을 수행하고 요약된 단일 결과를 반환합니다. 이러한 함수를 사용하면 평균을 계산하고, 최소값과 최대값을 찾고, 요소를 계산하고, 숫자 값을 합하여 여정 표현식 내에서 데이터를 분석할 수 있습니다.
+
+다음을 수행해야 하는 경우 집계 함수를 사용합니다.
+
+* 목록 또는 배열에서 통계값 계산(평균, 합계, 최소, 최대)
+* null 값을 포함하거나 제외할 수 있는 옵션과 함께 컬렉션의 요소 계산
+* 데이터 세트 내에서 고유 값 결정
+* 계산된 지표를 기반으로 데이터 기반 의사 결정
+
+집계 함수는 특정 동작에 따라 Null 값을 자동으로 처리하므로 누락되거나 정의되지 않은 값이 포함될 수 있는 실제 데이터를 보다 쉽게 사용할 수 있습니다.
+
 
 ## avg {#avg}
 
@@ -115,8 +125,6 @@ null 값을 고려하지 않는 목록의 요소를 계산합니다.
 
 목록의 null 값 수를 계산합니다.
 
-**참고:** 매개 변수 `<listObject>`은(는) 이 함수에서 지원되지 않습니다.
-
 +++구문
 
 `countOnlyNull(<listAny>)`
@@ -147,11 +155,11 @@ null 값을 고려하지 않는 목록의 요소를 계산합니다.
 
 +++
 
+**참고:** 매개 변수 `<listObject>`은(는) 이 함수에서 지원되지 않습니다.
+
 ## countWithNull {#countWithNull}
 
 null 값을 포함하여 목록의 모든 요소를 계산합니다.
-
-**참고:** 매개 변수 `<listObject>`은(는) 이 함수에서 지원되지 않습니다.
 
 +++구문
 
@@ -182,6 +190,8 @@ null 값을 포함하여 목록의 모든 요소를 계산합니다.
 4를 반환합니다.
 
 +++
+
+**참고:** 매개 변수 `<listObject>`은(는) 이 함수에서 지원되지 않습니다.
 
 ## distinctCount {#distinctCount}
 
@@ -236,8 +246,6 @@ null 값을 무시하는 다른 값의 수를 계산합니다.
 
 null 값을 포함하여 다른 값의 수를 계산합니다.
 
-**참고:** 매개 변수 `<listObject>`은(는) 이 함수에서 지원되지 않습니다.
-
 +++구문
 
 `distinctCountWithNull(<listAny>)`
@@ -267,6 +275,8 @@ null 값을 포함하여 다른 값의 수를 계산합니다.
 3을 반환합니다.
 
 +++
+
+**참고:** 매개 변수 `<listObject>`은(는) 이 함수에서 지원되지 않습니다.
 
 ## max {#max}
 
