@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
+source-git-commit: d58319d687d113ce680c415524fdea0400cb38f0
 workflow-type: tm+mt
-source-wordcount: '2978'
+source-wordcount: '2956'
 ht-degree: 98%
 
 ---
@@ -127,30 +127,7 @@ ht-degree: 98%
             + [random](using/building-journeys/functions/functionrandom.md)
             + [round](using/building-journeys/functions/functionround.md)
          + 문자열 {#string}
-            + [문자열](/help/rp_landing_pages/string-landing-page.md)
-            + [concat](using/building-journeys/functions/functionconcat.md)
-            + [contain](using/building-journeys/functions/functioncontain.md)
-            + [containIgnoreCase](using/building-journeys/functions/functioncontainwithignorecase.md)
-            + [endWith](using/building-journeys/functions/functionendwith.md)
-            + [endWithIgnorecase](using/building-journeys/functions/functionendwithignorecase.md)
-            + [equalIgnoreCase](using/building-journeys/functions/functionequalignorecase.md)
-            + [indexOf](using/building-journeys/functions/functionindexof.md)
-            + [isEmpty](using/building-journeys/functions/functionisempty.md)
-            + [isNotEmpty](using/building-journeys/functions/functionisnotempty.md)
-            + [lastIndexOf](using/building-journeys/functions/functionlastindexof.md)
-            + [length](using/building-journeys/functions/functionlength.md)
-            + [lower](using/building-journeys/functions/functionlower.md)
-            + [matchRegExp](using/building-journeys/functions/functionmatchregexp.md)
-            + [notequalIgnoreCase](using/building-journeys/functions/functionnotequalignorecase.md)
-            + [replace](using/building-journeys/functions/functionreplace.md)
-            + [replaceAll](using/building-journeys/functions/functionreplaceall.md)
-            + [split](using/building-journeys/functions/functionsplit.md)
-            + [startWith](using/building-journeys/functions/functionstartwith.md)
-            + [startWithIgnoreCase](using/building-journeys/functions/functionstartwithignorecase.md)
-            + [substr](using/building-journeys/functions/functionsubstr.md)
-            + [trim](using/building-journeys/functions/functiontrim.md)
-            + [upper](using/building-journeys/functions/functionupper.md)
-            + [uuid](using/building-journeys/functions/functionuuid.md)
+            + [문자열 함수](using/building-journeys/functions/string-functions.md)
    + 사용 사례 {#journey-use-cases}
       + [사용 사례](/help/rp_landing_pages/journey-use-cases-landing-page.md)
       + [사용 사례를 통해 알아보기](using/building-journeys/jo-use-cases.md)
@@ -372,7 +349,7 @@ ht-degree: 98%
          + [웹 채널 전제 조건](using/web/web-prerequisites.md)
          + [웹 하위 도메인 구성](using/web/web-delegated-subdomains.md)
          + [웹 채널 구성 만들기](using/web/web-configuration.md)
-      + [웹 경험 만들기 &#x200B;](using/web/create-web.md)
+      + [웹 경험 만들기 ](using/web/create-web.md)
       + 웹 페이지 작성 {#author-web-pages}
          + [웹 페이지 작성](/help/rp_landing_pages/author-web-pages-landing-page.md)
          + [웹 디자이너를 사용하여 작업](using/web/web-visual-editor.md)
@@ -419,7 +396,7 @@ ht-degree: 98%
       + [LINE 메시지 만들기](using/line/create-line.md)
       + [LINE 메시지 확인 및 보내기](using/line/send-line.md)
 + 콘텐츠 관리 {#content-management}
-   + [콘텐츠 관리 &#x200B;](/help/rp_landing_pages/content-management-landing-page.md)
+   + [콘텐츠 관리 ](/help/rp_landing_pages/content-management-landing-page.md)
    + 개인화 {#personalization}
       + [개인화](/help/rp_landing_pages/personalization-landing-page.md)
       + [개인화 시작](using/personalization/personalize.md)

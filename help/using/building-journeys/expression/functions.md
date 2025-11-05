@@ -9,7 +9,7 @@ level: Experienced
 keywords: 함수, 표현식, 편집기, 여정
 exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 version: Journey Orchestration
-source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
+source-git-commit: d58319d687d113ce680c415524fdea0400cb38f0
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 69%
@@ -74,26 +74,26 @@ ht-degree: 69%
 | 목록 | [sort](../functions/list-functions.md#sort) |
 | 수학 | [random](../functions/functionrandom.md) |
 | 수학 | [round](../functions/functionround.md) |
-| 문자열 | [concat](../functions/functionconcat.md) |
-| 문자열 | [contain](../functions/functioncontain.md) |
-| 문자열 | [containIgnoreCase](../functions/functioncontainwithignorecase.md) |
-| 문자열 | [endWith](../functions/functionendwith.md) |
-| 문자열 | [endWithIgnoreCase](../functions/functionendwithignorecase.md) |
-| 문자열 | [equalIgnoreCase](../functions/functionequalignorecase.md) |
-| 문자열 | [indexOf](../functions/functionindexof.md) |
-| 문자열 | [isEmpty](../functions/functionisempty.md) |
-| 문자열 | [isNotEmpty](../functions/functionisnotempty.md) |
-| 문자열 | [lastIndexOf](../functions/functionlastindexof.md) |
-| 문자열 | [length](../functions/functionlength.md) |
-| 문자열 | [lower](../functions/functionlower.md) |
-| 문자열 | [matchRegExp](../functions/functionmatchregexp.md) |
-| 문자열 | [notEqualIgnoreCase](../functions/functionnotequalignorecase.md) |
-| 문자열 | [replace](../functions/functionreplace.md) |
-| 문자열 | [replaceAll](../functions/functionreplaceall.md) |
-| 문자열 | [split](../functions/functionsplit.md) |
-| 문자열 | [startWith](../functions/functionstartwith.md) |
-| 문자열 | [startWithIgnoreCase](../functions/functionstartwithignorecase.md) |
-| 문자열 | [substr](../functions/functionsubstr.md) |
-| 문자열 | [trim](../functions/functiontrim.md) |
-| 문자열 | [upper](../functions/functionupper.md) |
-| 문자열 | [uuid](../functions/functionuuid.md) |
+| 문자열 | [concat](../functions/string-functions.md#concat) |
+| 문자열 | [contain](../functions/string-functions.md#contain) |
+| 문자열 | [containIgnoreCase](../functions/string-functions.md#containIgnoreCase) |
+| 문자열 | [endWith](../functions/string-functions.md#endWith) |
+| 문자열 | [endWithIgnoreCase](../functions/string-functions.md#endWithIgnoreCase) |
+| 문자열 | [equalIgnoreCase](../functions/string-functions.md#equalIgnoreCase) |
+| 문자열 | [indexOf](../functions/string-functions.md#indexOf) |
+| 문자열 | [isEmpty](../functions/string-functions.md#isEmpty) |
+| 문자열 | [isNotEmpty](../functions/string-functions.md#isNotEmpty) |
+| 문자열 | [lastIndexOf](../functions/string-functions.md#lastIndexOf) |
+| 문자열 | [length](../functions/string-functions.md#length) |
+| 문자열 | [lower](../functions/string-functions.md#lower) |
+| 문자열 | [matchRegExp](../functions/string-functions.md#matchRegExp) |
+| 문자열 | [notEqualIgnoreCase](../functions/string-functions.md#notEqualIgnoreCase) |
+| 문자열 | [replace](../functions/string-functions.md#replace) |
+| 문자열 | [replaceAll](../functions/string-functions.md#replaceAll) |
+| 문자열 | [split](../functions/string-functions.md#split) |
+| 문자열 | [startWith](../functions/string-functions.md#startWith) |
+| 문자열 | [startWithIgnoreCase](../functions/string-functions.md#startWithIgnoreCase) |
+| 문자열 | [substr](../functions/string-functions.md#substr) |
+| 문자열 | [trim](../functions/string-functions.md#trim) |
+| 문자열 | [upper](../functions/string-functions.md#upper) |
+| 문자열 | [uuid](../functions/string-functions.md#uuid) |

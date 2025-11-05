@@ -5,7 +5,7 @@ title: 함수
 description: 함수
 redpen-status: CREATED_||_2025-08-11_20-18-53
 exl-id: d82e30d6-abe5-4522-a8c4-a11ff5c9bd91
-source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
+source-git-commit: d58319d687d113ce680c415524fdea0400cb38f0
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 80%
@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 함수를 사용하면 고객 여정을 맞춤화하�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer의 주요 함수
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 주요 함수
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 inAudience 함수 사용
 
@@ -40,7 +40,7 @@ inAudience 함수 사용
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 집계 함수 참조
 
@@ -50,7 +50,7 @@ inAudience 함수 사용
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg)
 
 변환 함수
 
@@ -60,7 +60,7 @@ inAudience 함수 사용
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 Adobe Journey Optimizer의 Date 함수
 
@@ -70,13 +70,13 @@ Adobe Journey Optimizer의 Date 함수
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Adobe Journey Optimizer의 목록 기능
 
 표현식의 중복 제거, 필터링, 정렬, 멤버십 확인과 같은 작업에 목록 함수를 활용할 수 있습니다.
 
-[목록 함수에 대해 읽어보기](list-landing-page.md)
+[목록 함수에 대해 읽어보기](../using/building-journeys/functions/list-functions.md)
 :::
 
 ::::
