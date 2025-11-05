@@ -8,10 +8,10 @@ level: Experienced
 keywords: inAudience, 함수, 표현식, 여정, 대상, 세그멘테이션
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 version: Journey Orchestration
-source-git-commit: a866442aa073c648d4455754e9945f0dddfb079d
+source-git-commit: 4f653c0bd3f6998dd54deeae996b7b0427a1744e
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 1%
+source-wordcount: '600'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 다음을 수행해야 하는 경우 `inAudience` 함수를 사용합니다.
 
-* [대상자 멤버십을 기반으로 한 분기 여정 경로](../condition-activity.md#using-a-segment)
+* 대상자 멤버십을 기반으로 여정 경로를 분기합니다. [자세히 알아보기](../condition-activity.md#using-a-segment)
 * 프로필이 특정 세그먼트에 속하는지 여부에 따라 달라지는 조건부 논리 적용
 * 개인화된 경험을 가진 특정 고객 그룹 타기팅
 * 여정 조건 내에서 실시간 대상 참여 평가
@@ -36,7 +36,7 @@ ht-degree: 1%
 * **실현됨**: 개인이 대상 정의에 적합하며 활성 멤버입니다.
 * **종료됨**: 개인이 대상을 떠났으므로 더 이상 자격이 없습니다.
 
-**실현됨** 상태의 개인만 활성 대상 구성원으로 간주됩니다. 함수가 `true`을(를) 반환하면 개인이 실현된 상태를 확인하고 `false`을(를) 반환하면 종료된 상태를 나타냅니다. 대상 평가에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ko#interpret-segment-results){target="_blank"}를 참조하세요.
+**실현됨** 상태의 개인만 활성 대상 구성원으로 간주됩니다. 함수가 `true`을(를) 반환하면 개인이 실현된 상태를 확인하고 `false`을(를) 반환하면 종료된 상태를 나타냅니다. 대상 평가에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}를 참조하세요.
 
 +++구문
 
