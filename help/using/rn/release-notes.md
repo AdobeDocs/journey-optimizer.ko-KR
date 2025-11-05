@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 181999b096f6f65f25ba5220868aab3aaeafb807
+source-git-commit: a051f93a02cd90af65e62fd97ea437d07a964d7c
 workflow-type: tm+mt
-source-wordcount: '1243'
-ht-degree: 86%
+source-wordcount: '1357'
+ht-degree: 84%
 
 ---
 
@@ -26,15 +26,30 @@ ht-degree: 86%
 
 [!DNL Adobe Journey Optimizer]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko){target="_blank"}를 참조하십시오.
 
-<!--
-## Latest updates {#latest-updates}
+## 최신 업데이트 {#latest-updates}
 
+지난 주에 릴리스된 새로운 기능 및 개선 사항은 아래에 나열되어 있으며 해당 사용 가능 날짜가 표시됩니다. 월말에 다음 릴리스 노트 콘텐츠로 그룹화됩니다. 아래의 최신 [릴리스 정보](#latest-rn)도 참조하세요.
 
-New capabilities and improvements released in the past weeks are listed below, with their availability date. They will be grouped with the next release notes content at the end of the month. See also the latest [release notes below](#latest-rn).
+#### 새로운 기능 {#oct-25-10-soon-features}
 
--->
-
-
+<table>
+<thead>
+<tr>
+<th><strong>이메일 디자이너 테마</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 사전 승인된 테마를 빠르게 적용하여 모든 이메일에 대한 브랜드 일관성을 보장하고, 캠페인을 만드는 프로세스의 속도를 높이고, 디자인 팀에 대한 의존도를 줄이면서 고품질 이메일을 독립적으로 만들 수 있습니다.</p>
+<p>이전에 Beta 버전으로 릴리스된 이 기능을 이제 일부 조직에서 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
+<img src="assets/do-not-localize/themes.gif">
+<p>자세한 내용은 <a href="../email/apply-email-themes.md">세부 설명서</a>를 참조하십시오.</p>
+<p>사용 가능한 날짜: 2025년 11월 5일 목요일</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## 25년 10월 릴리스 정보 {#oct-25-10-rn}
 

@@ -3,17 +3,17 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 향상된 이메일 작성 환경
 description: 재사용 가능한 테마 및 모듈로 이메일 생성을 간소화하여 캠페인에서 디자인 일관성과 효율성을 보장하는 방법을 알아봅니다.
-badge: label="Beta" type="Informative"
+badge: label="제한된 가용성" type="Informative"
 feature: Email Design
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: 이메일 테마, 모듈, 재사용 가능성, 브랜드 일관성, 이메일 디자인, 사용자 지정 CSS, 모바일 최적화
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
-source-git-commit: 12d0869e323a1b3b892bac91ba423029f9c123a5
+source-git-commit: a051f93a02cd90af65e62fd97ea437d07a964d7c
 workflow-type: tm+mt
-source-wordcount: '831'
-ht-degree: 6%
+source-wordcount: '1567'
+ht-degree: 3%
 
 ---
 
@@ -24,30 +24,13 @@ ht-degree: 6%
 >title="이메일에 테마 적용"
 >abstract="이메일 테마를 선택하여 브랜드와 디자인에 맞는 특정 스타일을 빠르게 적용할 수 있습니다."
 
-<!--This documentation provides a comprehensive guide to using themes to streamline your email creation process. With the ability to define reusable themes and leverage pre-designed modules, marketers can create professional, brand-aligned emails faster and with less effort.-->
-
 >[!AVAILABILITY]
 >
->이 기능은 현재 Beta 버전으로 Beta 고객에게만 제공됩니다. Beta 프로그램에 참여하려면 Adobe 담당자에게 문의하십시오.
+>이 기능은 제한된 가용성입니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.
 
 테마를 사용하면 기술 전문가가 아닌 사용자도 표준 템플릿<!-- to achieve brand specific results--> 위에 사용자 지정 스타일을 추가하여 특정 브랜드 및 디자인 언어에 맞는 재사용 가능한 콘텐츠를 만들 수 있습니다.
 
 이 기능을 통해 마케터는 시각적으로 호소력 있고 브랜드 일관성이 있는 이메일을 적은 노력으로 더 빠르고 활용할 수 있으며, 고유한 디자인 요구 사항에 대한 고급 사용자 지정 옵션을 제공할 수 있습니다.
-
-<!--What is the Enhanced Email Authoring Experience?
-
-This feature introduces two key components to simplify and enhance email creation:
-
-* **Theme Management System**: A centralized system for creating, customizing, and applying reusable themes to emails. Themes ensure consistent styling across campaigns and eliminate the need for repetitive manual styling.
-
-* **Modules**: Pre-designed, reusable content blocks that abstract common email elements (e.g., titles, descriptions, images, and links). Modules are built using customizable low-level components, offering flexibility while maintaining design standards.
-
-Key Benefits:
-
-- **Consistency**: Ensure all emails align with your brand's design guidelines.
-- **Efficiency**: Save time by reusing themes and modules across campaigns.
-- **Customization**: Add custom CSS and mobile-specific styles for advanced designs.
-- **Scalability**: Eliminate repetitive styling tasks, enabling faster email creation.-->
 
 ## 가드레일 및 제한 사항 {#themes-guardrails}
 
@@ -57,15 +40,19 @@ Key Benefits:
 
 * [조각](../content-management/fragments.md)은(는) 테마 사용 모드와 수동 스타일 지정 모드 간에 서로 호환되지 않습니다.
 
-  테마가 적용되는 콘텐츠에서 조각을 사용할 수 있으려면 테마 사용 모드에서 이 조각을 만들어야 합니다.
+   * 테마 콘텐츠에서 [조각](../content-management/fragments.md)을 활용하려면 테마를 사용하여 이 조각을 직접 만들어야 합니다. [자세히 알아보기](#leverage-themes-fragment)
 
-* HTML에서 만든 콘텐츠를 사용하는 경우 [호환성 모드](existing-content.md)가 되며 이 콘텐츠에 테마를 적용할 수 없습니다.
+   * 이메일 콘텐츠에서 조각을 사용할 때 이 조각에 대해 정의한 테마를 적용해야 합니다. 그렇지 않으면 특히 Outlook 2021 및 이전 버전에서 표시 문제가 발생할 수 있습니다. [자세히 알아보기](#leverage-themes-fragment)
 
-  테마를 포함하여 이메일 Designer의 모든 기능을 완전히 활용하려면 테마 사용 모드에서 새 콘텐츠를 만들거나 가져온 HTML 콘텐츠를 변환해야 합니다. [자세히 알아보기](existing-content.md)
+* HTML에서 만든 콘텐츠를 사용하는 경우 [호환성 모드](existing-content.md)가 되며 이 콘텐츠에 테마를 직접 적용할 수 없습니다.
 
-<!--If using a content created in Manual Styling mode or HTML, you cannot apply themes to this content. You must create a new content in Use Themes mode.
+   * 테마를 적용하려면 먼저 가져온 콘텐츠 [을(를) 새 템플릿으로 저장](../content-management/create-content-templates.md#save-as-template)한 다음 이 템플릿을 테마 호환 콘텐츠로 변환해야 합니다. 그런 다음 이 템플릿을 사용하여 이메일 콘텐츠를 만들 수 있습니다. [이 섹션](#theme-convertor)에서 수동 스타일을 사용하여 만든 템플릿을 변환하는 방법을 알아봅니다.
 
-If you apply a theme to a content using a [fragment](../content-management/fragments.md) created in Manual Styling mode, the rendering may not be optimal.-->
+   * 가져온 HTML 콘텐츠를 계속 변환할 수도 있습니다. [자세히 알아보기](existing-content.md)
+
+  <!--To fully leverage all the capabilities of the Email Designer, including themes, you must either create a new content in Use Themes mode, or convert your imported HTML content. [Learn more](existing-content.md)-->
+
+<!--If you apply a theme to a content using a [fragment](../content-management/fragments.md) created with Manual Styling mode, the rendering may not be optimal.-->
 
 ## 테마 만들기 {#create-and-edit-themes}
 
@@ -77,11 +64,15 @@ If you apply a theme to a content using a [fragment](../content-management/fragm
 
    ![](assets/theme-create.png)
 
-1. 기본 테마를 선택하거나 Adobe 또는 사용자 지정 템플릿을 사용할 수 있습니다. 이 예제에서는 기본 테마를 선택하고 **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
+1. Adobe 테마를 선택합니다. 이 예제에서는 **[!UICONTROL 기본 테마]**&#x200B;를 선택하고 **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
 
    ![](assets/theme-select.png)
 
-1. **[!UICONTROL 일반 설정]** 탭에서 브랜드의 특정 이름을 지정하여 테마 정의를 시작하십시오. 전자 메일의 기본 너비를 조정하고 현재 테마를 [샌드박스 간에 공유](../configuration/copy-objects-to-sandbox.md)하도록 내보낼 수 있습니다.
+1. **[!UICONTROL 내 테마]** 탭에서 사용자 지정 템플릿을 선택하고 **[!UICONTROL 편집]**&#x200B;을 클릭하여 업데이트할 수도 있습니다.
+
+   ![](assets/theme-edit.png)
+
+1. **[!UICONTROL 일반 설정]** 탭에서 브랜드에 맞는 특정 이름을 지정하여 테마를 정의합니다. 전자 메일의 기본 뷰포트 너비를 조정하고 현재 테마를 [샌드박스에서 공유](../configuration/copy-objects-to-sandbox.md)하도록 내보낼 수 있습니다.
 
    <!--![](assets/theme-general-settings.png)-->
 
@@ -95,11 +86,11 @@ If you apply a theme to a content using a [fragment](../content-management/fragm
 
      ![](assets/theme-colors.gif)
 
-   * 각 변형마다 고유한 색상 팔레트 및 뉘앙스 컨트롤이 있는 밝은 모드와 어두운 모드와 같은 여러 색상 변형을 만들려면 **[!UICONTROL 변형 추가]**&#x200B;를 클릭하십시오.
+   * **[!UICONTROL 변형 추가]**&#x200B;를 클릭하여 밝은 모드 및 어두운 모드와 같은 여러 색상 변형을 만듭니다. 여기서 각 테마 변형에는 고유한 색상 팔레트 및 뉘앙스 컨트롤이 있습니다.
 
      ![](assets/theme-colors-variant.png)
 
-   * 각 변형에 대해 편집 아이콘을 클릭하여 개별 요소를 편집합니다. 만든 기본 팔레트 또는 사용자 지정 색상을 사용할 수 있습니다.
+   * 각 변형에 대해 **[!UICONTROL 편집]** 아이콘을 클릭하여 개별 요소를 편집합니다. 만든 기본 팔레트 또는 사용자 지정 색상을 사용할 수 있습니다.
 
      ![](assets/theme-colors-edit-variant.gif)
 
@@ -113,15 +104,17 @@ If you apply a theme to a content using a [fragment](../content-management/fragm
 
 1. 오른쪽의 다른 탭을 사용하여 이 테마의 각 단추 요소, 구분선, 추가 이미지 서식 및 격자 레이아웃 간격을 별도로 관리할 수 있습니다.
 
-   <!--![](assets/theme-buttons.png)-->
+   ![](assets/theme-buttons.png)
 
-1. 나중에 사용할 수 있도록 이 테마를 저장하려면 **[!UICONTROL 저장]**&#x200B;을 클릭하세요.
+1. 나중에 사용할 수 있도록 이 테마를 저장하려면 **[!UICONTROL 저장]**&#x200B;을 클릭하세요. 이제 **[!UICONTROL 내 테마]** 탭에 표시됩니다.
 
-## 전자 메일에 테마 적용 {#apply-themes}
+<!--A little strange upon hitting Save, because once the theme is created, you need to hit Close to go back to Design your template screen, then click Cancel if you don't want to proceed with template creation.-->
 
-이메일에 기본 또는 사용자 지정 스타일 테마를 적용하려면 아래 단계를 따르십시오.
+## 이메일 콘텐츠에 테마 적용 {#apply-themes-email}
 
-1. [!DNL Journey Optimizer]에서 여정 또는 캠페인에 [전자 메일을 추가](create-email.md) 및 [전자 메일 본문을 편집](get-started-email-design.md#key-steps)합니다.
+콘텐츠 템플릿 또는 이메일에 기본 또는 사용자 지정 스타일 테마를 적용하려면 아래 단계를 따르십시오.
+
+1. [!DNL Journey Optimizer]에서 여정 또는 캠페인에 [전자 메일 추가](create-email.md) 작업을 추가하거나 전자 메일 [콘텐츠 템플릿](../content-management/create-content-templates.md#create-template-from-scratch)을 만들고 [전자 메일 본문을 편집](get-started-email-design.md#key-steps)하세요.
 
 1. 다음 작업 중 하나를 선택할 수 있습니다.
 
@@ -133,9 +126,9 @@ If you apply a theme to a content using a [fragment](../content-management/fragm
 
      >[!CAUTION]
      >
-     >수동 스타일 모드를 선택하면 이메일을 다시 설정하지 않는 한 테마를 적용할 수 없습니다.
+     >수동 스타일 모드를 선택하면 디자인을 재설정하지 않는 한 테마를 적용할 수 없습니다.
      >
-     >테마 사용 모드에서 [조각](../content-management/fragments.md)을(를) 사용하려면 이 조각은 테마 사용 모드를 사용하여 직접 만들었어야 합니다.
+     >테마 콘텐츠에서 [조각](../content-management/fragments.md)을 활용하려면 테마를 사용하여 이 조각을 직접 만들어야 합니다. [자세히 알아보기](#leverage-themes-fragment)
 
 1. 이메일 Designer에서 오른쪽 레일의 **[!UICONTROL 테마]** 단추를 클릭합니다. 기본 테마 또는 템플릿의 테마가 표시됩니다. 이 테마의 두 색상 변형 간을 전환할 수 있습니다.
 
@@ -145,31 +138,110 @@ If you apply a theme to a content using a [fragment](../content-management/fragm
 
    ![](assets/theme-hero-change.png)
 
-1. **[!UICONTROL 사용자 지정 테마]**&#x200B;를 클릭하고 만든 테마를 선택합니다.
+1. **[!UICONTROL 내 테마]**&#x200B;를 클릭하고 만든 테마를 선택합니다.
 
    ![](assets/theme-select-custom.png)
 
-1. 드롭다운 목록 외부를 클릭합니다. 새로 선택한 사용자 지정 테마는 모든 이메일 구성 요소에 스타일을 자동으로 적용합니다. 두 색상 변형 간을 전환할 수 있습니다.
+1. 드롭다운 목록 외부를 클릭합니다. 새로 선택한 사용자 지정 테마는 모든 이메일 구성 요소에 스타일을 자동으로 적용합니다. 색상 변형이 있는 경우 전환할 수 있습니다.
 
-1. 구성 요소를 선택한 경우에도 전용 아이콘을 사용하여 스타일 잠금을 해제할 수 있습니다.
+1. 콘텐츠 템플릿에서 테마를 선택하면 **[!UICONTROL 테마 편집]** 단추를 클릭하여 업데이트할 수 있습니다. [자세히 알아보기](#create-and-edit-themes)
 
-   ![](assets/theme-unlock-style.png)
+   ![](assets/theme-edit-in-template.png){width="40%" align="center" zoomable="yes"}
+
+   >[!NOTE]
+   >
+   >이메일 콘텐츠의 테마를 사용할 때는 이 옵션을 사용할 수 없습니다.
+
+1. 여러 색상 변형을 사용하여 테마를 활용하는 경우 주어진 구조 구성 요소에 대해 특정 변형을 선택할 수 있습니다. 이를 통해 전체 콘텐츠에 대해 색상 변형을 정의하고 하나의 특정 구조에 대해 다른 변형을 사용할 수 있습니다.
+
+   >[!NOTE]
+   >
+   >콘텐츠 구성 요소에 대해서는 이 작업을 수행할 수 없습니다.
+
+   이렇게 하려면 구조 구성 요소를 선택하고 오른쪽의 **[!UICONTROL 스타일]** 탭에서 **[!UICONTROL 특정 테마의 변형 옵션 사용]**&#x200B;을 클릭한 다음 원하는 변형을 해당 구조에 적용합니다.
+
+   ![](assets/theme-structure-variant.png)
+
+   이 예에서는 현재 테마의 첫 번째 색상 변형이 전체 이메일 콘텐츠에 적용되지만 세 번째 색상 변형이 선택한 구조에 적용됩니다. 특정 구조에 대한 본문 및 뷰포트 배경색이 나머지 콘텐츠와 다른 것을 볼 수 있습니다.
 
 언제든지 테마를 전환할 수 있습니다. 이메일 콘텐츠는 변경되지 않지만 스타일은 새 테마를 반영하도록 업데이트됩니다.
 
-<!--
->[!NOTE]
-> - Themes apply styles globally. Ensure your theme is finalized before applying it to multiple emails.
-> - Switching themes may override custom styles applied to individual components.
+### 스타일 잠금 해제 {#unlocking-styles}
 
->[!CAUTION]
-> - When using fragments, the email's theme will override the fragment's styles. A warning will be displayed in the editor if there is a conflict.
+구성 요소를 선택하면 **[!UICONTROL 스타일]** 탭의 전용 아이콘을 사용하여 해당 스타일 잠금을 해제할 수 있습니다.
 
-## Example Use Cases {#example-use-cases}
+![](assets/theme-unlock-style.png){width="90%" align="center" zoomable="yes"}
 
-### 1. Creating a New Theme
-- A marketer creates a theme with their brand's colors, fonts, and button styles.
-- The theme is saved and reused across multiple email campaigns.
+선택한 테마는 해당 구성 요소에 계속 적용되지만 해당 스타일 요소를 무시할 수 있습니다. 테마를 변경하면 새 테마는 재정의되지 않은 스타일 지정 요소에만 적용됩니다.<!--can you revert this action?-->
 
-### 2. Switching Themes
-- A marketer applies a holiday-themed design to an existing email by switching to a pre-designed holiday theme.-->
+예를 들어 텍스트 구성 요소의 잠금을 해제하면 <!--the font size from 11 to 14 and -->글꼴 색상을 검정색에서 빨간색으로 변경할 수 있습니다.
+
+![](assets/theme-unlock-style-ex-white.png){width="80%" align="center" zoomable="yes"}
+
+테마를 변경할 경우 <!--the font size is still 14 and -->해당 구성 요소의 글꼴 색상은 여전히 빨간색이지만 새 테마에 따라 이 구성 요소의 배경색이 변경됩니다.
+
+![](assets/theme-unlock-style-ex-colored.png){width="80%" align="center" zoomable="yes"}
+
+## 조각의 테마 활용 {#leverage-themes-fragment}
+
+[테마가 적용됨](#apply-themes-email)인 템플릿 또는 전자 메일에서 단편을 활용하려면 테마를 사용하여 이 단편을 직접 만들었어야 합니다. 그렇지 않으면 테마 콘텐츠에서 이 조각을 사용할 수 없습니다.
+
+테마와 호환되는 조각을 만들려면 아래 단계를 따르십시오.
+
+1. [!DNL Journey Optimizer]에서 시각적 조각을 만들고 **[!UICONTROL 만들기]**&#x200B;를 클릭하여 조각의 콘텐츠를 디자인합니다. [방법 알아보기](../content-management/create-fragments.md)
+
+1. 미리 정의된 스타일 테마로 시작하려면 **[!UICONTROL 테마 사용]**&#x200B;을 선택하세요.
+
+   ![](assets/fragment-use-themes.png){width="100%" align="center" zoomable="yes"}
+
+   >[!CAUTION]
+   >
+   >수동 스타일 모드를 선택하면 조각 디자인을 재설정하지 않는 한 테마를 적용할 수 없습니다.
+
+1. 이메일 Designer에서 조각 빌드를 시작할 수 있습니다.
+
+1. 오른쪽 레일에서 **[!UICONTROL 테마]** 단추를 클릭합니다. 기본 테마가 표시됩니다. 이 테마의 다른 색상 변형 간을 전환할 수 있습니다.
+
+   ![](assets/fragment-default-theme.png){width="100%" align="center" zoomable="yes"}
+
+1. 다른 테마를 선택하여 조각 콘텐츠를 미리 볼 수 있습니다. 이렇게 하려면 기본 테마 옆에 있는 화살표를 선택하고 **[!UICONTROL 테마 선택]**&#x200B;을 클릭합니다.
+
+   ![](assets/fragment-select-themes.png){width="40%" align="center" zoomable="yes"}
+
+1. **[!UICONTROL Adobe 테마]**&#x200B;와(과) **[!UICONTROL 내 테마]** 탭 사이를 탐색하고 조각에 대해 호환되는 테마를 최대 5개(두 탭 모두에서) 선택할 수 있습니다.
+
+   ![](assets/fragment-select-compatible-themes.png){width=70% align="center" zoomable="yes"}
+
+   >[!CAUTION]
+   >
+   >이메일 콘텐츠에서 조각을 사용할 때는 이 조각에 대해 정의한 [테마를 적용](#apply-themes-email)해야 합니다. 그렇지 않으면 특히 Outlook 2021 및 이전 버전에서 표시 문제가 발생할 수 있습니다.
+
+1. Click **[!UICONTROL Close]**.
+
+1. **[!UICONTROL 기본 테마]** 옆에 있는 화살표를 다시 선택하십시오. 이제 방금 선택한 여러 테마 사이를 전환하여 각 스타일 렌더링을 미리 볼 수 있습니다.
+
+   ![](assets/fragment-selected-themes.png){width=90% align="center" zoomable="yes"}
+
+1. 테마를 더 추가하거나 선택 항목을 변경하려면 **[!UICONTROL 테마 선택]**&#x200B;을 다시 클릭합니다.
+
+## 템플릿을 테마와 호환되도록 합니다 {#theme-convertor}
+
+[!DNL Journey Optimizer]을(를) 사용하면 수동 스타일을 사용하여 만든 템플릿을 테마 호환 콘텐츠로 변환할 수 있습니다. 이 기능은 테마가 [!DNL Journey Optimizer]에 도입되기 전에 콘텐츠 템플릿을 만들었거나 외부 콘텐츠를 가져오는 경우에 특히 유용합니다.
+
+1. 이메일 [콘텐츠 템플릿](../content-management/create-content-templates.md)을(를) 열고 이메일 Designer을 사용하여 콘텐츠를 편집합니다.
+
+1. 오른쪽 레일에서 **[!UICONTROL 테마]** 아이콘을 선택하고 **[!UICONTROL 콘텐츠에서 테마 생성]** 단추를 클릭합니다.
+
+   ![](assets/generate-theme.png){width=100% align="center" zoomable="yes"}
+
+1. **[!UICONTROL 테마 만들기]** 창이 열립니다. [!DNL Journey Optimizer]은(는) 스타일 요소를 자동으로 감지하여 새 테마로 통합합니다.
+
+   ![](assets/generate-theme-create-window.png){width=100% align="center" zoomable="yes"}
+
+1. 테마의 이름을 입력합니다.
+
+1. 색상 변형 추가, 글꼴 편집 등과 같이 테마를 처음부터 새로 만들 때와 마찬가지로 필요에 따라 직접 조정합니다. [방법 알아보기](#create-and-edit-themes)
+
+   ![](assets/generate-theme-colors.png){width=100% align="center" zoomable="yes"}
+
+1. 재사용할 새 테마를 저장하려면 **[!UICONTROL 저장]**&#x200B;을 클릭하세요. 이제 이 테마를 다른 테마와 같은 콘텐츠에 적용할 수 있습니다. [방법 알아보기](#leverage-themes-fragment)
