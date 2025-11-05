@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 013c5758a106cfd3c2eaeecc25cc6ca4a4b41375
+source-git-commit: af1babe501a5b2c6a67730396a8f5e2c5d85e60a
 workflow-type: tm+mt
-source-wordcount: '3015'
+source-wordcount: '3007'
 ht-degree: 99%
 
 ---
@@ -115,16 +115,7 @@ ht-degree: 99%
          + Adobe Experience Platform {#adobe-experience-platform}
             + [inAudience](using/building-journeys/functions/functioninaudience.md)
          + 집계 {#aggregation}
-            + [집계](/help/rp_landing_pages/aggregation-landing-page.md)
-            + [avg](using/building-journeys/functions/functionavg.md)
-            + [count](using/building-journeys/functions/functioncount.md)
-            + [countOnlyNull](using/building-journeys/functions/functioncountonlynull.md)
-            + [countWithNull](using/building-journeys/functions/functioncountwithnull.md)
-            + [distinctCount](using/building-journeys/functions/functiondistinctcount.md)
-            + [distinctCountWithNull](using/building-journeys/functions/functiondistinctcountwithnull.md)
-            + [max](using/building-journeys/functions/functionmax.md)
-            + [min](using/building-journeys/functions/functionmin.md)
-            + [sum](using/building-journeys/functions/functionsum.md)
+            + [집계 함수](using/building-journeys/functions/aggregation-functions.md)
          + 전환 {#conversion}
             + [전환](/help/rp_landing_pages/conversion-landing-page.md)
             + [toBool](using/building-journeys/functions/functiontobool.md)
@@ -413,7 +404,7 @@ ht-degree: 99%
          + [웹 채널 전제 조건](using/web/web-prerequisites.md)
          + [웹 하위 도메인 구성](using/web/web-delegated-subdomains.md)
          + [웹 채널 구성 만들기](using/web/web-configuration.md)
-      + [웹 경험 만들기 &#x200B;](using/web/create-web.md)
+      + [웹 경험 만들기 ](using/web/create-web.md)
       + 웹 페이지 작성 {#author-web-pages}
          + [웹 페이지 작성](/help/rp_landing_pages/author-web-pages-landing-page.md)
          + [웹 디자이너를 사용하여 작업](using/web/web-visual-editor.md)
@@ -460,7 +451,7 @@ ht-degree: 99%
       + [LINE 메시지 만들기](using/line/create-line.md)
       + [LINE 메시지 확인 및 보내기](using/line/send-line.md)
 + 콘텐츠 관리 {#content-management}
-   + [콘텐츠 관리 &#x200B;](/help/rp_landing_pages/content-management-landing-page.md)
+   + [콘텐츠 관리 ](/help/rp_landing_pages/content-management-landing-page.md)
    + 개인화 {#personalization}
       + [개인화](/help/rp_landing_pages/personalization-landing-page.md)
       + [개인화 시작](using/personalization/personalize.md)

@@ -9,7 +9,7 @@ level: Experienced
 keywords: 함수, 표현식, 편집기, 여정
 exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: af1babe501a5b2c6a67730396a8f5e2c5d85e60a
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 69%
@@ -31,15 +31,15 @@ ht-degree: 69%
 | 카테고리 | 함수 |
 |-------------|-----------------------|
 | Adobe Experience Platform | [inAudience](../functions/functioninaudience.md) |
-| 집계 | [avg](../functions/functionavg.md) |
-| 집계 | [count](../functions/functioncount.md) |
-| 집계 | [countOnlyNull](../functions/functioncountonlynull.md) |
-| 집계 | [countWithNull](../functions/functioncountwithnull.md) |
-| 집계 | [distinctCount](../functions/functiondistinctcount.md) |
-| 집계 | [distinctCountWithNull](../functions/functiondistinctcountwithnull.md) |
-| 집계 | [max](../functions/functionmax.md) |
-| 집계 | [min](../functions/functionmin.md) |
-| 집계 | [sum](../functions/functionsum.md) |
+| 집계 | [avg](../functions/aggregation-functions.md#avg) |
+| 집계 | [count](../functions/aggregation-functions.md#count) |
+| 집계 | [countOnlyNull](../functions/aggregation-functions.md#countOnlyNull) |
+| 집계 | [countWithNull](../functions/aggregation-functions.md#countWithNull) |
+| 집계 | [distinctCount](../functions/aggregation-functions.md#distinctCount) |
+| 집계 | [distinctCountWithNull](../functions/aggregation-functions.md#distinctCountWithNull) |
+| 집계 | [max](../functions/aggregation-functions.md#max) |
+| 집계 | [min](../functions/aggregation-functions.md#min) |
+| 집계 | [sum](../functions/aggregation-functions.md#sum) |
 | 전환 | [toBool](../functions/functiontobool.md) |
 | 전환 | [toDateOnly](../functions/functiontodateonly.md) |
 | 전환 | [toDateTime](../functions/functiontodatetime.md) |
