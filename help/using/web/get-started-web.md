@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 9619ffd2cde677c0c83ee1b53f232c41b5faaa9a
+workflow-type: tm+mt
+source-wordcount: '257'
+ht-degree: 64%
 
 ---
 
@@ -67,5 +67,14 @@ ht-degree: 100%
 <p>
 </td>
 </tr></table>
+
+## 추가 리소스
+
+* **[웹 환경 만들기](create-web.md)** - 웹 콘텐츠를 수정하기 위해 웹 캠페인과 여정을 만들고 구성하는 방법에 대해 알아봅니다.
+* **[웹 채널 필수 구성 요소](web-prerequisites.md)** - 웹 채널 구현에 필요한 기술 요구 사항 및 설정을 이해합니다.
+* **[웹 콘텐츠 편집](create-web.md#edit-web-content)** - 웹 디자이너가 시각적 또는 비시각적 편집 모드를 사용하여 페이지를 수정할 수 있는 기본입니다.
+* **[웹 수정 사항 관리](manage-web-modifications.md)** - 웹 환경에서 수정 사항을 구성하고 적용하고 관리하는 방법을 알아봅니다.
+* **[웹 경험 모니터링](monitor-web-experiences.md)** - 자세한 보고를 통해 웹 캠페인의 성과를 추적하고 분석합니다.
+* **[웹 캠페인 튜토리얼](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/web-channel/create-a-web-campaign){target="_blank"}** - 웹 채널 기능 및 모범 사례에 대한 단계별 비디오 튜토리얼을 살펴보십시오.
 
 
