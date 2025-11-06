@@ -1,19 +1,19 @@
 ---
-title: 메시지에 의사 결정 정책 사용
+title: 메시지에 결정 정책 사용
 description: 메시지에서 의사 결정 정책을 사용하는 방법을 알아봅니다.
 feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
 mini-toc-levels: 1
-source-git-commit: f8b91ef5504396ab696acc05ac273423dd5f208e
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '945'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# 메시지에 의사 결정 정책 사용 {#create-decision}
+# 메시지에 결정 정책 사용 {#create-decision}
 
 의사 결정 정책을 만들면, 반환된 의사 결정 항목에 연결된 정책 및 속성을 개인화를 위해 콘텐츠에 사용할 수 있습니다. 이렇게 하려면 먼저 의사 결정 정책과 연결된 코드를 콘텐츠에 삽입해야 합니다. 완료되면 해당 속성을 개인화에 활용할 수 있습니다.
 
@@ -64,7 +64,7 @@ ht-degree: 1%
 >[!NOTE]
 >
 >결정 정책 항목 추적의 경우 결정 정책 콘텐츠에 대해 `trackingToken` 특성을 다음과 같이 추가해야 합니다.
->&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 속성을 추가하려면 속성 옆에 있는 &#39;+&#39; 아이콘을 클릭합니다. 코드에 원하는 수만큼 속성을 추가할 수 있습니다.
 
@@ -166,7 +166,7 @@ ht-degree: 1%
 
 콘텐츠가 준비되면 캠페인 또는 여정을 검토하고 게시합니다.
 
-* [여정 게시](../building-journeys/publishing-the-journey.md)
+* [여정 게시](../building-journeys/publish-journey.md)
 * [캠페인 검토 활성화](../campaigns/review-activate-campaign.md)
 * [코드 기반 경험 게시 및 활성화](../code-based/publish-code-based.md)
 

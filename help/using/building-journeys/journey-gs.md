@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 여정, 첫 번째, 시작, 빠른 시작, 대상, 이벤트, 작업
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
-source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 26%
+source-wordcount: '875'
+ht-degree: 24%
 
 ---
 
@@ -96,13 +96,13 @@ Adobe Journey Optimizer에는 마케팅 활동과 일대일 고객 참여를 조
 
 ## 여정 테스트 {#jo-test}
 
-여정을 빌드했으면 게시하기 전에 테스트합니다. Journey Optimizer은 여정을 따라 이동하면서 테스트 프로필을 볼 수 있는 방법으로 **테스트 모드**&#x200B;를 제공하여 활성화 전에 잠재적인 오류를 감지합니다. 빠른 테스트를 실행하면 여정이 올바르게 작동하여 안심하고 게시할 수 있습니다. 이 섹션[에서 여정 &#x200B;](testing-the-journey.md)을(를) 테스트하는 방법을 알아보세요.
+여정을 빌드했으면 게시하기 전에 테스트합니다. Journey Optimizer은 여정을 따라 이동하면서 테스트 프로필을 볼 수 있는 방법으로 **테스트 모드**&#x200B;를 제공하여 활성화 전에 잠재적인 오류를 감지합니다. 빠른 테스트를 실행하면 여정이 올바르게 작동하여 안심하고 게시할 수 있습니다. 이 섹션[에서 여정 ](testing-the-journey.md)을(를) 테스트하는 방법을 알아보세요.
 
-**시험 실행**&#x200B;에서도 여정을 실행할 수 있습니다. 여정 시험 실행은 Adobe Journey Optimizer의 특별한 여정 게시 모드로, 이를 통해 여정 실무자가 실제 고객과 연락하거나 프로필 정보를 업데이트하지 않고도 실제 프로덕션 데이터를 사용하여 여정을 테스트할 수 있습니다. 이 기능은 여정 제공자가 라이브로 게시하기 전에 여정 디자인 및 대상 타깃팅에 대한 자신감을 갖도록 도와줍니다. 이 섹션[에서 여정을 시험 실행 모드 &#x200B;](journey-dry-run.md)에 게시하는 방법을 알아봅니다.
+**시험 실행**&#x200B;에서도 여정을 실행할 수 있습니다. 여정 시험 실행은 Adobe Journey Optimizer의 특별한 여정 게시 모드로, 이를 통해 여정 실무자가 실제 고객과 연락하거나 프로필 정보를 업데이트하지 않고도 실제 프로덕션 데이터를 사용하여 여정을 테스트할 수 있습니다. 이 기능은 여정 제공자가 라이브로 게시하기 전에 여정 디자인 및 대상 타깃팅에 대한 자신감을 갖도록 도와줍니다. 이 섹션[에서 여정을 시험 실행 모드 ](journey-dry-run.md)에 게시하는 방법을 알아봅니다.
 
 ## 여정 게시 {#jo-pub}
 
-여정을 활성화하려면 게시를 하고 새 프로필에서 입력할 수 있도록 해야 합니다. 여정을 게시하기 전에 유효하고 오류가 없는지 확인하십시오. 오류가 있는 여정은 게시할 수 없습니다. 이 [섹션](publishing-the-journey.md)에서 여정 게시에 대해 자세히 알아보세요.
+여정을 활성화하려면 게시를 하고 새 프로필에서 입력할 수 있도록 해야 합니다. 여정을 게시하기 전에 유효하고 오류가 없는지 확인하십시오. 오류가 있는 여정은 게시할 수 없습니다. 이 [섹션](publish-journey.md)에서 여정 게시에 대해 자세히 알아보세요.
 
 ![](assets/jo-journeyuc2_32bis.png)
 
@@ -111,6 +111,16 @@ Adobe Journey Optimizer에는 마케팅 활동과 일대일 고객 참여를 조
 ![](assets/jo-dynamic_report_journey_12.png)
 
 이 [섹션](../reports/live-report.md)에서 여정 보고서에 대해 자세히 알아보세요.
+
+## 추가 리소스
+
+* **[여정 디자이너 개요](using-the-journey-designer.md)** - 고객 여정을 디자인하고 오케스트레이션하기 위한 여정 캔버스 인터페이스를 기본으로 제공합니다.
+* **[여정 활동](about-journey-activities.md)** - 이벤트, 작업 및 오케스트레이션 구성 요소를 포함하여 사용 가능한 모든 활동을 살펴봅니다.
+* **[여정 테스트](testing-the-journey.md)** - 프로덕션에 게시하기 전에 테스트 모드를 사용하여 여정을 테스트하는 방법에 대해 알아봅니다.
+* **[여정 게시](publish-journey.md)** - 여정 게시 프로세스 및 실시간 여정 관리 방법을 이해합니다.
+* **[여정 보고](report-journey.md)** - 자세한 지표와 통찰력을 통해 여정 성과를 추적하고 분석합니다.
+* **[여정 문제 해결](troubleshooting.md)** - 일반적인 여정 문제와 디버깅에 대한 모범 사례에 대한 해결 방법을 찾아봅니다.
+* **[여정 자습서](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/journeys/introduction-to-building-a-journey){target="_blank"}** - 여정 작성 및 모범 사례에 대한 단계별 비디오 자습서를 살펴보십시오.
 
 >[!NOTE]
 >

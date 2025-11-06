@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '1543'
 ht-degree: 17%
@@ -63,7 +63,7 @@ ht-degree: 17%
 
 1. 필요한 경우 추가 작업 또는 이벤트를 끌어다 놓아 여정 흐름을 완료합니다. [자세히 알아보기](../building-journeys/about-journey-activities.md)
 
-1. 웹 경험이 준비되면 구성을 완료하고 여정을 게시하여 활성화합니다. [자세히 알아보기](../building-journeys/publishing-the-journey.md)
+1. 웹 경험이 준비되면 구성을 완료하고 여정을 게시하여 활성화합니다. [자세히 알아보기](../building-journeys/publish-journey.md)
 
 여정 구성 방법에 대한 자세한 내용은 [이 페이지](../building-journeys/journey-gs.md)를 참조하세요.
 
@@ -206,7 +206,7 @@ ht-degree: 17%
 
    >[!NOTE]
    >
-   >[이 섹션](../building-journeys/publishing-the-journey.md)에서 여정 게시에 대해 자세히 알아보세요.
+   >[이 섹션](../building-journeys/publish-journey.md)에서 여정 게시에 대해 자세히 알아보세요.
 
 웹 여정은 **[!UICONTROL Live]** 상태를 사용하며 이제 읽기 전용입니다. 여정의 각 수신자는 웹 사이트에 추가한 수정 사항을 볼 수 있습니다.
 
@@ -266,4 +266,4 @@ ht-degree: 17%
 
 아래 비디오에서는 웹 캠페인을 만들고, 속성을 구성하고, 검토하고, 게시하는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449988/?quality=12&learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)

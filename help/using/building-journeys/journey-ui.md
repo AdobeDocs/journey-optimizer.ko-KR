@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 여정, 첫 번째, 시작, 빠른 시작, 대상, 이벤트, 작업
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
-source-git-commit: 118bf89f56d26213fde71fa795fc6576ce764ef2
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 10%
@@ -49,7 +49,7 @@ ht-degree: 10%
 
 ![찾아보기 탭을 강조 표시하는 여정 대시보드](assets/journeys-browse.png)
 
-여정 목록에는 모든 여정 버전이 버전 번호와 함께 표시됩니다. 여정을 검색하면 애플리케이션이 처음 열릴 때 최신 버전이 목록 맨 위에 나타납니다. 그런 다음 원하는 정렬을 정의하면 애플리케이션이 이를 사용자 기본 설정으로 유지합니다. 여정 버전은 여정 편집 인터페이스의 맨 위에 캔버스 위에 표시됩니다. [여정 버전 관리](publishing-the-journey.md#journey-versions-journey-versions)에 대해 자세히 알아보세요.
+여정 목록에는 모든 여정 버전이 버전 번호와 함께 표시됩니다. 여정을 검색하면 애플리케이션이 처음 열릴 때 최신 버전이 목록 맨 위에 나타납니다. 그런 다음 원하는 정렬을 정의하면 애플리케이션이 이를 사용자 기본 설정으로 유지합니다. 여정 버전은 여정 편집 인터페이스의 맨 위에 캔버스 위에 표시됩니다. [여정 버전 관리](publish-journey.md#journey-versions-journey-versions)에 대해 자세히 알아보세요.
 
 ### 여정 달력 {#calendar}
 
@@ -108,7 +108,7 @@ ht-degree: 10%
 
 ![두 가지 여정 유형을 선택한 여정 필터링 샘플을 보여 주는 화면](assets/filter-journeys.png)
 
-[상태 및 버전 필터](#journey-statuses)에서 [상태](#journey-types), [유형](publishing-the-journey.md#journey-versions-journey-versions), [버전](../start/search-filter-categorize.md#tags) 및 할당된 **[!UICONTROL 여정]**&#x200B;에 따라 태그를 필터링할 수 있습니다.
+[상태 및 버전 필터](#journey-statuses)에서 [상태](#journey-types), [유형](publish-journey.md#journey-versions-journey-versions), [버전](../start/search-filter-categorize.md#tags) 및 할당된 **[!UICONTROL 여정]**&#x200B;에 따라 태그를 필터링할 수 있습니다.
 
 **[!UICONTROL 만들기 필터]**&#x200B;를 사용하여 만든 날짜 또는 만든 사용자에 따라 여정을 필터링합니다.
 
@@ -141,7 +141,7 @@ ht-degree: 10%
 * **초안**: 여정이 첫 번째 단계에 있습니다. 아직 게시되지는 않았습니다.
 * **초안(테스트)**: 테스트 모드가 **테스트 모드** 단추를 사용하여 활성화되었습니다. [자세히 알아보기](../building-journeys/testing-the-journey.md)
 * **완료됨**: 91일 [전역 시간 제한](journey-properties.md#global_timeout) 후에 여정이 자동으로 이 상태로 전환됩니다. 이미 여정에 있는 프로필은 여정을 정상적으로 완료합니다. 새 프로필은 더 이상 여정에 들어갈 수 없습니다.
-* **Live**: 여정이 **게시** 단추를 사용하여 게시되었습니다. [자세히 알아보기](../building-journeys/publishing-the-journey.md)
+* **Live**: 여정이 **게시** 단추를 사용하여 게시되었습니다. [자세히 알아보기](../building-journeys/publish-journey.md)
 * **일시 중지됨**: **일시 중지** 단추를 사용하여 라이브 여정이 일시 중지되었습니다. [자세히 알아보기](../building-journeys/journey-pause.md)
 * **중지됨**: **중지** 단추를 사용하여 여정이 꺼졌습니다. 모든 개인이 즉시 여정을 빠져나갑니다. [자세히 알아보기](../building-journeys/end-journey.md#stop-a-journey)
 * **닫힘**: **새 출입구에 닫기** 단추를 사용하여 여정을 닫았습니다. 이 여정은 새로운 개인이 여정에 입력하는 것을 중단합니다. 이미 여정에 있는 사람은 여정을 정상적으로 완료할 수 있습니다. [자세히 알아보기](../building-journeys/end-journey.md)

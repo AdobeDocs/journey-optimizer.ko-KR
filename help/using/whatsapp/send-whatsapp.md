@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 31acb095-de90-495f-8e8c-43a78dedfa06
-source-git-commit: 623d9b15d1f7f4e7f73f26cf3e19516bed4c0f56
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 3%
@@ -39,4 +39,4 @@ ht-degree: 3%
 >
 > 캠페인이 승인 정책의 적용을 받는 경우 문자 메시지를 보내려면 승인을 요청해야 합니다. [자세히 알아보기](../test-approve/gs-approval.md)
 
-WhatsApp 메시지가 준비되면 [여정](../building-journeys/publishing-the-journey.md) 또는 [캠페인](../campaigns/review-activate-campaign.md)의 구성을 완료하여 보내십시오.
+WhatsApp 메시지가 준비되면 [여정](../building-journeys/publish-journey.md) 또는 [캠페인](../campaigns/review-activate-campaign.md)의 구성을 완료하여 보내십시오.

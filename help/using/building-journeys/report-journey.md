@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 게시, 여정, 라이브, 유효성, 확인
 exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '402'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -54,7 +54,7 @@ Live 또는 [시험 실행 모드](journey-dry-run.md)의 모든 여정 내의 �
 >[!MORELIKETHIS]
 >
 >* [보고 시작하기](../reports/gs-reports.md)
->* [여정 게시](publishing-the-journey.md)
+>* [여정 게시](publish-journey.md)
 >* [여정 시험 실행](journey-dry-run.md)
 >* [여정 지표 구성 및 추적](success-metrics.md)
 >* [사용자 지정 여정 보고서](../reports/sharing-overview.md)

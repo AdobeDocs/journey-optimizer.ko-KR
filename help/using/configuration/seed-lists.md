@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 시드 목록, 시드 목록, 시드, 구성
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: 1cca05a4f7590f42c1ed5104cb530930e139b2b9
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 16%
@@ -73,7 +73,7 @@ ht-degree: 16%
 
 >[!CAUTION]
 >
->활성 [여정](../campaigns/review-activate-campaign.md) 또는 [캠페인](../building-journeys/publishing-the-journey.md)에서 사용되는 시드 목록을 삭제할 수 없습니다. 선택한 시드 목록이 없는 다른 구성을 사용하려면 캠페인/여정을 비활성화하거나 편집해야 합니다. [시드 목록 사용에 대해 자세히 알아보기](#use-seed-list)
+>활성 [여정](../campaigns/review-activate-campaign.md) 또는 [캠페인](../building-journeys/publish-journey.md)에서 사용되는 시드 목록을 삭제할 수 없습니다. 선택한 시드 목록이 없는 다른 구성을 사용하려면 캠페인/여정을 비활성화하거나 편집해야 합니다. [시드 목록 사용에 대해 자세히 알아보기](#use-seed-list)
 
 시드 목록 이름을 클릭하여 편집할 수 있습니다. <!--Use the **[!UICONTROL Edit]** button to edit a seed list.-->
 
@@ -83,7 +83,7 @@ ht-degree: 16%
 >id="ajo_seed_list_details"
 >title="시드 목록 정의"
 >abstract="보증 목적으로 특정 내부 주소를 게재 대상자에게 자동으로 추가하려면 시드 목록을 사용합니다. 시드 목록을 사용하면 발송된 메시지 사본을 모니터링하여 모든 표시 요소가 올바른지 확인하고 메일링 목록을 보호할 수 있습니다. 현재 이 기능은 이메일 채널에만 적용됩니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=ko#use-seed-list" text="시드 목록이란 무엇입니까?"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="시드 목록이란 무엇입니까?"
 
 >[!CONTEXTUALHELP]
 >id="ajo_seed_addresses"
@@ -150,7 +150,7 @@ ht-degree: 16%
 
    ![](assets/seed-list-campaign-email.png)
 
-1. [campaign](../campaigns/review-activate-campaign.md)을(를) 활성화하거나 [여정](../building-journeys/publishing-the-journey.md)을(를) 게시하세요.
+1. [campaign](../campaigns/review-activate-campaign.md)을(를) 활성화하거나 [여정](../building-journeys/publish-journey.md)을(를) 게시하세요.
 
 이제 해당 캠페인이나 여정을 통해 고객에게 이메일 메시지를 보낼 때마다 선택한 시드 목록의 이메일 주소도 타겟팅된 수신자와 동일한 조건으로 동시에 동일한 콘텐츠로 수신됩니다.
 
