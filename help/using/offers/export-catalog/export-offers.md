@@ -7,9 +7,9 @@ topic: Integrations
 role: User, Developer
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 5dab96aef4471b24527d1287a9d36d48521c4596
 workflow-type: tm+mt
-source-wordcount: '1950'
+source-wordcount: '1983'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,8 @@ ht-degree: 0%
 
 **필드:** 특성
 **제목:** 결정 옵션 특성
-**설명:** 이 특정 결정 옵션에 속하는 추가 속성 또는 특성입니다. 인스턴스마다 특성(맵의 키)이 다를 수 있습니다. 특징은 하나의 결정 옵션을 다른 결정 옵션과 구별하기 위해 사용되는 이름 값 쌍이다. 특성은 이 결정 옵션을 나타내는 콘텐츠의 값 및 옵션의 성능을 분석하고 최적화하는 기능으로 사용됩니다. 모든 인스턴스에 동일한 속성 또는 속성이 있는 경우 해당 측면을 의사 결정 옵션 세부 사항에서 파생되는 확장 스키마로 모델링해야 합니다.
+**설명:** 특성은 특정 결정 옵션에 속하는 오퍼의 추가 특성 또는 속성입니다. 이러한 속성은 키 값 쌍으로, 값이 연결된 속성 이름(키라고도 함)을 포함하며, 하나의 의사 결정 옵션을 다른 오퍼와 구별하는 데 사용됩니다. 예를 들어 속성 이름 &quot;color&quot;의 경우 값은 특정 오퍼의 경우 &quot;green&quot;일 수 있습니다.
+특성은 이 의사 결정 옵션을 나타내는 콘텐츠의 값 및 오퍼의 성능을 분석하고 최적화하는 기능으로 사용됩니다. 모든 인스턴스에 동일한 속성 또는 속성이 있는 경우 해당 측면을 의사 결정 옵션 세부 사항에서 파생되는 확장 스키마로 모델링해야 합니다.
 **유형:** 개체
 
 +++
@@ -179,7 +180,7 @@ ht-degree: 0%
   **필드:** linkURL
   **설명:** 사용자 상호 작용을 위한 선택적 고유 리소스 로케이터입니다. 이 URL은 사용자 에이전트에서 최종 사용자를에 연결하는 데 사용되며 추적할 수 있습니다.
   **유형:** 문자열
-  **예:** &quot;https://cdn.adobe.io/tracker?code=23432&redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
+  **예:** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 +++_experience > 의사 결정 > 컨텐츠 > 배치
 
