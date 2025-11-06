@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 오류, 코드, 문제 해결, 여정, 캠페인, 메시지
-source-git-commit: 405c87f9ca138e4e92438704b5051ce89c73d726
+source-git-commit: 28a8f113d594f80ba7de22229e9a223b7f17ae8d
 workflow-type: tm+mt
-source-wordcount: '2392'
+source-wordcount: '2394'
 ht-degree: 1%
 
 ---
@@ -79,7 +79,7 @@ Adobe Journey Optimizer 오류 코드는 구성 요소 및 문제 유형을 식�
 
 | 오류 코드 | 설명 | 근본 원인 | 해결 방법 |
 |------------|-------------|-----------|-----------|
-| **CJMMAS-1732-500** | 증명 실패 - AEM 에셋으로 증명/테스트를 전송할 때 모든 에셋이 게시되지 않음 | 최근에 게시된 자산이 아직 AJO에 없습니다. 자산 ID가 일치하지 않습니다. 교차 리포지토리 사용, AEM 동기화 지연 | &#x200B;1. 올바른 저장소/환경에서 게시된 자산 ID만 사용합니다<br/>2. AEM과 AJO<br/>3 간의 동기화 시간을 허용합니다. 정상 작동이 확인된 자산<br/>4을(를) 사용하여 다시 시도하십시오. AEM에서 에셋 게시 상태 확인&#x200B;<br/><br/>**관련 설명서**: [Assets 통합](../content-management/assets.md) |
+| **CJMMAS-1732-500** | 증명 실패 - AEM 에셋으로 증명/테스트를 전송할 때 모든 에셋이 게시되지 않음 | 최근에 게시된 자산이 아직 AJO에 없습니다. 자산 ID가 일치하지 않습니다. 교차 리포지토리 사용, AEM 동기화 지연 | &#x200B;1. 올바른 저장소/환경에서 게시된 자산 ID만 사용합니다<br/>2. AEM과 AJO<br/>3 간의 동기화 시간을 허용합니다. 정상 작동이 확인된 자산<br/>4을(를) 사용하여 다시 시도하십시오. AEM에서 에셋 게시 상태 확인&#x200B;<br/><br/>**관련 설명서**: [Assets 통합](../integrations/assets.md) |
 | **CJMMAS-1069-500** | 메시지 템플릿을 저장하거나 게시하는 도중 내부 오류 발생 | 백엔드 예외(인프라/서비스 버그 또는 콘텐츠 문제), 지원되지 않는 마크업/기능 | &#x200B;1. 템플릿 복잡성을 단순화하거나 줄입니다<br/>2. 문제를 식별하기 위해 증분 단계로 콘텐츠를 다시 추가하십시오<br/>3. [Adobe 상태 페이지](https://status.adobe.com/)<br/>4를 확인하세요. 지원되지 않는 기능 또는 마크업을 제거합니다&#x200B;<br/><br/>**관련 설명서**: [콘텐츠 템플릿](../content-management/content-templates.md) |
 | **CJMMAS-1149-400** | 메시지, 사전 설정 또는 변형을 저장할 때 잘못된 요청 | 메시지에 필수 필드가 누락되었거나 구성이 잘못되었습니다. | &#x200B;1. 모든 필수 필드(별표로 표시)를 작성합니다<br/>2. 메시지/사전 설정 구성의 유효성을 검사합니다<br/>3. 필드 값 형식 및 제약 조건을 확인하십시오<br/>4. UI에서 유효성 검사 메시지 검토&#x200B;<br/><br/>**관련 설명서**: [전자 메일 채널](../email/get-started-email.md), [채널 표면](../configuration/channel-surfaces.md) |
 | **CJMMAS-2073-422** | 메시지 사전 설정 편집에서 처리할 수 없는 엔티티 | 유효성 검사 오류, 지원되지 않는 필드 또는 잘못된 구문 | &#x200B;1. 표시된 대로 구문/필드 오류를 수정합니다<br/>2. 정상 작동이 확인된 구성과 비교<br/>3. 저장하기 전에 메시지 UI 유효성 검사 사용<br/>4. 설명서에서 필드 요구 사항 검토&#x200B;<br/><br/>**관련 설명서**: [메시지 사전 설정](../configuration/channel-surfaces.md), [전자 메일 설정](../email/email-settings.md) |
@@ -113,7 +113,7 @@ Adobe Journey Optimizer 오류 코드는 구성 요소 및 문제 유형을 식�
 
 | 오류 코드 | 설명 | 근본 원인 | 해결 방법 |
 |------------|-------------|-----------|-----------|
-| **CJMRPS-1047-409** | &quot;충돌. 보고 데이터 세트를 추가할 때 데이터 세트가 이미 &quot;추가됨 | 이미 프로비저닝된 데이터 세트를 추가하려고 합니다. | &#x200B;1. 보고 설정에서 데이터 집합 구성을 검토하십시오<br/>2. 이미 있는 데이터 세트를 다시 추가하지 마십시오<br/>3. 마이그레이션 보고를 위해 공식 마이그레이션 확인 목록을 사용합니다<br/>4. 중복 데이터 세트 참조 제거&#x200B;<br/><br/>**관련 설명서**: [글로벌 보고서](../reports/global-report.md), [라이브 보고서](../reports/live-report.md) |
+| **CJMRPS-1047-409** | &quot;충돌. 보고 데이터 세트를 추가할 때 데이터 세트가 이미 &quot;추가됨 | 이미 프로비저닝된 데이터 세트를 추가하려고 합니다. | &#x200B;1. 보고 설정에서 데이터 집합 구성을 검토하십시오<br/>2. 이미 있는 데이터 세트를 다시 추가하지 마십시오<br/>3. 마이그레이션 보고를 위해 공식 마이그레이션 확인 목록을 사용합니다<br/>4. 중복 데이터 세트 참조 제거&#x200B;<br/><br/>**관련 설명서**: [보고 개요](../reports/gs-reports.md), [캠페인 보고서](../reports/campaign-global-report-cja.md), [여정 보고서](../reports/journey-global-report-cja.md) |
 
 ## 일반적인 문제 해결 방법 {#troubleshooting-approach}
 
@@ -182,15 +182,15 @@ Adobe Journey Optimizer 오류 코드는 구성 요소 및 문제 유형을 식�
 1. **정보 수집**: 오류 코드, 요청 ID, 타임스탬프 및 재현 단계를 수집합니다.
 2. **시스템 상태 확인**: 알려진 서비스 문제에 대해서는 [Adobe 상태](https://status.adobe.com/){target="_blank"}를 방문하세요.
 3. **설명서 검색**: 솔루션에 대한 [Adobe Experience League](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=ko){target="_blank"} 검토
-4. **커뮤니티 참여**: [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"}에 질문 게시
+4. **커뮤니티 참여**: [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}에 질문 게시
 5. **Adobe 지원에 문의**: 모든 관련 세부 정보를 포함한 지원 티켓을 제출합니다.
 
 >[!NOTE]
 >
->이 오류 코드 참조는 새 코드가 식별되고 문서화됨에 따라 계속 업데이트됩니다. 최신 정보는 [Adobe Journey Optimizer 커뮤니티 블로그](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs?profile.language=ko){target="_blank"}를 정기적으로 확인하십시오.
+>이 오류 코드 참조는 새 코드가 식별되고 문서화됨에 따라 계속 업데이트됩니다. 최신 정보는 [Adobe Journey Optimizer 커뮤니티 블로그](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs){target="_blank"}를 정기적으로 확인하십시오.
 
 **관련 항목**
 
-* [Adobe Journey Optimizer 오류 코드 식별: 1부](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=ko){target="_blank"}
-* [Adobe Journey Optimizer 오류 코드 식별: Part 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661?profile.language=ko){target="_blank"}
+* [Adobe Journey Optimizer 오류 코드 식별: 1부](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884){target="_blank"}
+* [Adobe Journey Optimizer 오류 코드 식별: Part 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661){target="_blank"}
 
