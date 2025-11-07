@@ -5,7 +5,7 @@ title: 커뮤니케이션 채널
 description: 커뮤니케이션 채널
 redpen-status: CREATED_||_2025-08-11_20-45-04
 source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 커뮤니케이션 채널을 통해 다양한 접점�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 커뮤니케이션 채널 소개
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 아웃바운드 및 인바운
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 이메일 채널
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 아웃바운드 및 인바운
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 인앱 메시지
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 아웃바운드 및 인바운
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 푸시 알림 채널
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 아웃바운드 및 인바운
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
 
 SMS / MMS / RCS 메시지
 
@@ -70,7 +70,7 @@ SMS / MMS / RCS 메시지
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
 
 다이렉트 메일 캠페인
 

@@ -6,7 +6,7 @@ description: 도우미 함수 목록
 redpen-status: CREATED_||_2025-08-12_00-34-42
 exl-id: 39d68cae-8d6b-4e34-bcd9-75d9531bc6aa
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '301'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 도우미 함수를 사용하면 개인화 편집기 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 도우미 함수 시작
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 데이터 조작 및 개인화에 도우미 함수
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 집계 함수 라이브러리
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 데이터 조작 및 개인화에 도우미 함수
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 산술 함수 라이브러리
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer에서 데이터 조작 및 개인화에 도우미 함수
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 배열 및 목록 함수 참조
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer에서 데이터 조작 및 개인화에 도우미 함수
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 날짜 및 시간 함수 라이브러리
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer에서 데이터 조작 및 개인화에 도우미 함수
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 부울 및 비교 함수 라이브러리
 

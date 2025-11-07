@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: API 트리거 캠페인에 대한 높은 처리량 모드 활성화
+title: API 트리거 캠페인에 대해 높은 처리량 모드 활성화
 description: API 트리거 캠페인에 대해 높은 처리량 모드를 활성화하는 방법을 알아봅니다.
 feature: Campaigns, API
 topic: Content Management
@@ -11,12 +11,12 @@ keywords: 캠페인, API 트리거, REST, 최적화 도구, 메시지
 source-git-commit: 4521990a02092365f996a81299ada55433639fb7
 workflow-type: tm+mt
 source-wordcount: '622'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
 
-# API 트리거 캠페인에 대한 높은 처리량 모드 활성화 {#high-throughput}
+# API 트리거 캠페인에 대해 높은 처리량 모드 활성화 {#high-throughput}
 
 높은 처리량 모드는 **매우 큰 규모의 실시간 트랜잭션 메시지**(초당 최대 5000개의 트랜잭션)가 필요한 조직을 위해 설계되었습니다. 일반적인 API 트리거 캠페인과 달리, 처리량이 많은 캠페인은 Adobe 프로필과 독립적으로 작동하므로 다른 구성 모델이 필요합니다.
 

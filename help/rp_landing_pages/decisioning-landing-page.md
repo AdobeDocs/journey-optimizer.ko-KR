@@ -6,7 +6,7 @@ description: 결정 기능
 redpen-status: CREATED_||_2025-08-11_21-05-27
 exl-id: 07bdd927-059d-4000-a4dd-a9e455b26976
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Journey Optimizer의 의사 결정 기능을 사용하면 모든 접점에서 �
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 의사 결정 기능 소개
 
@@ -30,7 +30,7 @@ Centralized Offer Management 및 고급 의사 결정 엔진을 통해 개인화
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Adobe Journey Optimizer에서의 의사 결정
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서의 의사 결정
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Adobe Journey Optimizer의 의사 결정 관리
 

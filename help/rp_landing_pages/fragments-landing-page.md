@@ -6,7 +6,7 @@ description: 재사용 가능한 콘텐츠 조각
 redpen-status: CREATED_||_2025-08-12_00-39-41
 exl-id: 8ec67807-8bcb-4510-bcba-ccf6e710ceb9
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 재사용 가능한 콘텐츠 조각을 사용하면 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 조각 사용 소개
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 캠페인에서 콘텐츠 생성을 간소화하기 위�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 재사용 가능한 조각을 만드는 방법
 
@@ -40,7 +40,7 @@ Journey Optimizer에서 이메일, 캠페인, 여정에 대한 재사용 가능�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 기존 콘텐츠를 조각으로 저장
 
@@ -50,7 +50,7 @@ Journey Optimizer에서 이메일, 캠페인, 여정에 대한 재사용 가능�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 사용자 정의 가능한 조각 사용
 
@@ -60,7 +60,7 @@ Journey Optimizer에서 이메일, 캠페인, 여정에 대한 재사용 가능�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 콘텐츠 조각 관리
 

@@ -6,7 +6,7 @@ description: 데이터 관리
 redpen-status: CREATED_||_2025-08-11_21-06-39
 exl-id: d60bd99c-aa17-4ef0-85a9-384ef21b96da
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 데이터 관리를 통해 유연성, 보안 및 정�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 데이터 관리 시작
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 고급 데이터 보존, 내보내기, 삭제 및 거
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Adobe Journey Optimizer의 스키마 작업
 
@@ -40,7 +40,7 @@ Journey Optimizer에서 효과적인 데이터 모델링 및 유효성 검사를
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 Journey Optimizer 데이터 세트
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer의 TTL 규칙, 내보내기 및 SQL 쿼리를 포함하�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Adobe Experience Platform 데이터 사용
 
@@ -60,7 +60,7 @@ Adobe Experience Platform 데이터 사용
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Journey Optimizer 쿼리 시작
 

@@ -15,13 +15,13 @@ version: Journey Orchestration
 source-git-commit: 96b8813ebad35f51986cc62d847d9d3d256b08be
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 2%
+ht-degree: 29%
 
 ---
 
 # 여정 문제 해결 {#troubleshooting}
 
-고객 여정이 예상대로 작동하지 않을 경우 근본 원인을 파악하는 것이 어려울 수 있습니다. 문제를 효율적으로 해결하기 위해 아래에서 가장 일반적인 문제 영역별로 문제 해결 리소스를 찾을 수 있습니다. 여정 실패, 실행 불일치 또는 작업 수준 문제가 표시되는지 여부에 관계없이 각 섹션에서는 이러한 문제를 조사하고 해결하기 위한 타겟팅된 지침을 제공합니다.
+고객 여정이 예상대로 진행되지 않을 경우, 근본 원인을 파악하는 것이 어려울 수 있습니다. 문제를 효율적으로 해결하기 위해 아래에서 가장 일반적인 문제 영역별로 문제 해결 리소스를 찾을 수 있습니다. 여정 실패, 실행 불일치 또는 작업 수준의 문제가 표시되는 경우 각 섹션에서는 이러한 문제를 조사하고 해결하기 위한 구체적인 지침을 제공합니다.
 
 특정 문제 해결 주제를 자세히 살펴보려면 아래 페이지를 탐색하십시오.
 
@@ -59,9 +59,9 @@ ht-degree: 2%
 <tr style="border: 0;">
   <td>
     <div>
-    <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=ko">
+    <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884">
     <img alt="일반적인 오류 코드 이해" src="../assets/do-not-localize/icon-quick-start.svg" /></a> 
-    <br>또한 <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=ko" target="_blank">일반적인 오류 코드</a>와 이를 효과적으로 해결하는 방법에 대해 자세히 설명하는 <strong>이 Adobe 커뮤니티 블로그 게시물</strong>을 확인하십시오.
+    <br>또한 <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884" target="_blank">일반적인 오류 코드</a>와 이를 효과적으로 해결하는 방법에 대해 자세히 설명하는 <strong>이 Adobe 커뮤니티 블로그 게시물</strong>을 확인하십시오.
     </div>
   </td>
 </tr>

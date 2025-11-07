@@ -97,11 +97,11 @@ ht-degree: 1%
 
 * **[!UICONTROL 대체 비율]**: 선택 전략이 정규화되지 않아 일반 또는 덜 특정한 옵션이 표시되는 인스턴스의 비율입니다.
 
-### 참여 단계 {#engagement-funnel}
+### 참여 funnel {#engagement-funnel}
 
 ![](assets/cja-engagement-funnel.png)
 
-**[!UICONTROL 참여 단계]** 표는 단계 단계별로 사용자 상호 작용을 얼마나 효과적으로 유도하는지 평가하여 개인화된 경험의 성능을 모니터링합니다.
+**[!UICONTROL 참여 Funnel]** 표는 funnel의 각 단계가 사용자 상호 작용을 얼마나 효과적으로 유도하는지 평가하여 개인화된 경험의 성능을 모니터링합니다.
 
 * **[!UICONTROL 디스플레이]**: 다양한 접점에서 개인화된 경험이 사용자에게 표시되거나 제공된 총 횟수입니다.
 
@@ -115,11 +115,11 @@ ht-degree: 1%
 
 * **[!UICONTROL 클릭스루 비율(CTR)]**: 링크, 광고 또는 권장 사항을 클릭하는 사용자의 백분율로, 표시된 횟수와 비교됩니다.
 
-### 선택 전략별 참여 단계 {#engagement-funnel-selection}
+### 선택 전략별 참여 funnel {#engagement-funnel-selection}
 
 ![](assets/cja-engagement-funnel-selection.png)
 
-선택 전략별 **[!UICONTROL 참여 단계]** 표는 다양한 선택 전략이 개인화된 경험으로 사용자를 얼마나 효과적으로 참여시키는지 모니터링하고 분석할 수 있도록 도와줍니다.
+**[!UICONTROL 선택 전략별 참여 Funnel]** 표는 다양한 선택 전략이 개인화된 경험으로 사용자의 참여를 얼마나 효과적으로 유도하는지 모니터링하고 분석할 수 있도록 도와줍니다.
 
 * **[!UICONTROL 디스플레이]**: 다양한 접점에서 개인화된 경험이 사용자에게 표시되거나 제공된 총 횟수입니다.
 

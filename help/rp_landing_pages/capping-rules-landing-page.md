@@ -6,7 +6,7 @@ description: 메시지 및 여정 캡핑 규칙 설정
 redpen-status: CREATED_||_2025-08-11_20-28-34
 exl-id: 630e252a-aab2-4a27-ad46-d4dbfbc3f3a4
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer에서 메시지 및 여정 캡핑 규칙을 관리하면
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 규칙 세트 작업
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 메시지 빈도 및 여정 진입 규칙을 제�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 여정 캡핑 및 중재
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 메시지 빈도 및 여정 진입 규칙을 제�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 채널별 빈도 설정
 

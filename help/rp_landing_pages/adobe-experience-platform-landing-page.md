@@ -5,7 +5,7 @@ title: Adobe Experience Platform
 description: Adobe Experience Platform
 redpen-status: CREATED_||_2025-08-11_20-11-06
 source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Experience Platform은 진정으로 개인화된 고객 경험을 제공�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 inAudience 함수 사용
 

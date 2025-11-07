@@ -6,7 +6,7 @@ description: 콘텐츠 미리 보기 및 테스트
 redpen-status: CREATED_||_2025-08-11_20-30-05
 exl-id: bd78e0af-573b-4880-a9f1-44467c9db159
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer에서 콘텐츠를 미리 보고 테스트하면 메시�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Adobe Journey Optimizer에서 콘텐츠를 미리 보고 테스트하는 방법
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 콘텐츠를 미리 보고 테스트하는 방법
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Adobe Journey Optimizer에서 테스트 프로필을 선택하는 방법
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 테스트 프로필을 선택하는 방법
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 테스트 프로필을 사용한 콘텐츠 미리 보기
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer에서 테스트 프로필을 선택하는 방법
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 테스트 프로필 데이터를 사용한 증명 전송
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer에서 테스트 프로필을 선택하는 방법
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg)
 
 Adobe Journey Optimizer의 Litmus를 사용하여 이메일 렌더링 테스트하는 방법
 
@@ -70,7 +70,7 @@ Litmus를 통합하여 인기 있는 이메일 클라이언트 간의 이메일 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer에서 컨텐츠 변형을 시뮬레이션하고 테스트하는 방법
 

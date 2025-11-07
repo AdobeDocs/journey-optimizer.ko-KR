@@ -6,7 +6,7 @@ description: 이벤트 데이터 수집
 redpen-status: CREATED_||_2025-08-11_21-02-07
 exl-id: fa55faae-1258-49c7-884f-83d1c33db969
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer에서 이벤트 데이터를 수집하면 의사 결정,
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 의사 결정 관리 데이터 수집 시작
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 이벤트 데이터를 수집하면 의사 결정,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 경험 이벤트를 수집하기 위한 데이터 세트 생성 방법
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 이벤트 데이터를 수집하면 의사 결정,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 의사 결정 관리를 위한 이벤트 데이터 캡처 구성
 

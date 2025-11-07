@@ -6,7 +6,7 @@ description: 이메일 하위 도메인 위임
 redpen-status: CREATED_||_2025-08-11_21-07-51
 exl-id: 7df9b8e2-136a-4ffc-9243-53c7be026d81
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer에서 이메일 하위 도메인을 위임하면 관리�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 하위 도메인 위임 시작
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 하위 도메인을 위임할 때의 이점, 구�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 하위 도메인 위임
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 하위 도메인을 위임할 때의 이점, 구�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 DMARC 레코드 설정
 
@@ -50,7 +50,7 @@ DMARC 레코드 설정
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Google TXT 레코드 추가
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer에서 Google TXT 레코드를 추가하여 Gmail의 메�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 PTR 레코드 액세스 및 편집
 
@@ -70,7 +70,7 @@ PTR 레코드 액세스 및 편집
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 IP 풀 만들기
 

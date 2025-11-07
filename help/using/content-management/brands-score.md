@@ -36,7 +36,7 @@ ht-degree: 18%
 
 >[!AVAILABILITY]
 >
->Adobe Journey Optimizer에서 AI 도우미를 사용하려면 먼저 [사용자 동의](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
+>Adobe Journey Optimizer에서 AI 도우미를 사용하려면 먼저 [사용자 동의](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
 브랜드 정렬 기능은 브랜드 지침을 준수하는 콘텐츠를 만들고, 검토하고, 관리하는 데 도움이 됩니다. 이메일 캠페인 전반에 걸쳐 톤, 메시징 및 시각적 ID의 일관성을 보장하는 동시에 콘텐츠가 라이브로 전환되기 전에 품질을 확인하는 역할을 합니다.
 
@@ -76,6 +76,6 @@ ht-degree: 18%
 
 +++ 비디오 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3470553/?learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3470544/?learn=on)
 
 +++

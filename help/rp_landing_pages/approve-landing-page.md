@@ -6,7 +6,7 @@ description: 여정 및 캠페인 승인
 redpen-status: CREATED_||_2025-08-11_20-30-36
 exl-id: 88c48ccd-c3b7-4235-933b-7a08f5a8f346
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer에서 여정 및 캠페인을 승인하면, 모든 프�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 여정 및 캠페인 승인 설정 및 관리
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 여정 및 캠페인을 승인하면, 모든 프�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 승인 정책을 만들고 관리하는 방법
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 여정 및 캠페인을 승인하면, 모든 프�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 여정 및 캠페인에 대한 승인을 요청하는 방법
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer에서 여정 및 캠페인을 승인하면, 모든 프�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 여정 및 캠페인에 대한 요청 검토 및 승인
 

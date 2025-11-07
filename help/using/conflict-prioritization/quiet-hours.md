@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 자동 시간 설정
+title: 방해 금지 시간 설정
 description: 방해 금지 모드 설정 및 적용 방법 알아보기
 feature: Rules
 topic: Content Management
@@ -12,16 +12,16 @@ keywords: 메시지, 빈도, 규칙, 압력
 source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
 workflow-type: tm+mt
 source-wordcount: '904'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
 
-# 자동 시간 설정 {#quiet-hours}
+# 방해 금지 시간 설정 {#quiet-hours}
 
 ## 조용한 시간은 언제입니까
 
-**방해 금지 시간**&#x200B;을(를) 사용하면 **이메일**, **SMS**, **푸시** 및 **WhatsApp** 채널에 대한 시간 기반 제외를 정의할 수 있습니다. 특정 기간 동안 메시지가 전송되지 않도록 하여 고객 선호도 및 규정 준수 요구 사항을 준수할 수 있습니다.
+**방해 금지 시간**&#x200B;을(를) 사용하면 **이메일**, **SMS**, **푸시** 및 **WhatsApp** 채널에 대한 시간 기반 제외를 정의할 수 있습니다. 특정 시간 동안 메시지가 전송되지 않도록 하여 고객 환경 설정과 및 규정 요건을 준수할 수 있습니다.
 
 정확한 제어를 위해 캠페인 또는 여정의 개별 작업에 할당할 수 있는 **규칙 집합**&#x200B;을 통해 방해 금지 시간을 적용할 수 있습니다.
 
@@ -34,7 +34,7 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->현재 방해 금지 모드 규칙은 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 대기자 명단에 추가하려면 Adobe 담당자에게 문의하십시오.
+>방해 금지 시간 규칙은 현재 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 대기자 명단에 등록하려면 Adobe 담당자에게 문의하십시오.
 
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
@@ -187,4 +187,4 @@ ht-degree: 1%
 
 Adobe Journey Optimizer에서 방해 금지 모드 해제 시간 기능을 사용하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475859?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475851?quality=12)

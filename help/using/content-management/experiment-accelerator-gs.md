@@ -39,4 +39,4 @@ ht-degree: 2%
 
 * **원활한 Collaboration**: 실시간 알림을 통해 결과를 쉽게 공유하고 팀 역할을 관리합니다.
 
-➡️ [Journey Optimizer Experimentation Accelerator 설명서에 액세스](https://experienceleague.adobe.com/en/docs/experimentation-accelerator/using/overview)
+➡️ [Journey Optimizer Experimentation Accelerator 설명서에 액세스](https://experienceleague.adobe.com/ko/docs/experimentation-accelerator/using/overview)

@@ -6,7 +6,7 @@ description: 활동
 redpen-status: CREATED_||_2025-08-11_20-09-57
 exl-id: 9342ef70-43a7-4763-9ae0-bb95b8b7f7f1
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 활동은 여러 채널에서 이벤트를 트리거�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Journey Optimizer 소개
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 이벤트, 오케스트레이션 및 액션 활동을
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 일반 이벤트 사용
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer의 이벤트, 오케스트레이션 및 액션 활동을
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 반응 이벤트 구성
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer의 이벤트, 오케스트레이션 및 액션 활동을
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 대상자 선별 이벤트
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer의 이벤트, 오케스트레이션 및 액션 활동을
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 조건 활동 사용
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer의 이벤트, 오케스트레이션 및 액션 활동을
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 대기 활동 구성
 

@@ -6,7 +6,7 @@ description: 액션 구성
 redpen-status: CREATED_||_2025-08-11_21-11-53
 exl-id: 4ce42dab-7e8f-454d-8f34-e713312ad7c5
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 액션 구성을 통해 고객 여정을 서드파티
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 사용자 정의 액션 시작
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 사용자 정의 액션을 구성하고 사용하�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 사용자 정의 액션 구성 방법
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 사용자 정의 액션을 구성하고 사용하�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 사용자 정의 액션에서 API 호출 응답 사용
 

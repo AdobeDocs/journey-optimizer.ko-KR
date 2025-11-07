@@ -1,5 +1,5 @@
 ---
-title: 다이렉트 메일 구성
+title: DM 구성
 description: Journey Optimizer에서 DM 채널을 구성하는 방법 알아보기
 feature: Direct Mail, Surface
 topic: Content Management
@@ -14,7 +14,7 @@ ht-degree: 22%
 
 ---
 
-# 다이렉트 메일 구성 {#direct-mail-configuration}
+# DM 구성 {#direct-mail-configuration}
 
 [!DNL Journey Optimizer]을(를) 사용하면 다이렉트 메일 공급자가 고객에게 메일을 보내는 데 필요한 파일을 개인화하고 생성할 수 있습니다.
 
@@ -145,7 +145,7 @@ DM 공급자가 메일을 전달하기 위해 해당 파일에 액세스하고 �
 
 ![](assets/file-routing-config-dlz-detail.png)
 
-[!DNL Adobe Experience Platform]의 모든 고객에게 샌드박스당 하나의 데이터 랜딩 영역 컨테이너가 제공됩니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}에서 데이터 랜딩 영역에 대해 자세히 알아보세요.
+[!DNL Adobe Experience Platform]의 모든 고객에게 샌드박스당 하나의 데이터 랜딩 영역 컨테이너가 제공됩니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}에서 데이터 랜딩 영역에 대해 자세히 알아보세요.
 
 >[!ENDTABS]
 

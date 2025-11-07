@@ -6,7 +6,7 @@ description: 코드 기반 경험 만들기
 redpen-status: CREATED_||_2025-08-11_20-42-15
 exl-id: 571761d2-976c-4fe0-9631-23b62ba3b97c
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 코드 기반 경험을 사용하면 코드를 사용
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 코드 기반 경험 작성 및 구성
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 코드 기반 경험을 사용하면 코드를 사용
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 코드 기반 경험에서 편집 가능한 필드 사용
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer의 코드 기반 경험을 사용하면 코드를 사용
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 코드 기반 경험 테스트
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer의 코드 기반 경험을 사용하면 코드를 사용
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 코드 기반 경험 게시 및 관리
 

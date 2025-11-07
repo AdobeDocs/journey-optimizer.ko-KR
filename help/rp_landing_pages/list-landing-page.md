@@ -22,7 +22,7 @@ Adobe Journey Optimizer의 &#39;목록&#39; 기능을 사용하면 워크플로 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer에서 &#39;distinct&#39; 함수 사용
 
@@ -32,7 +32,7 @@ Adobe Journey Optimizer에서 &#39;distinct&#39; 함수 사용
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 distinctWithNull 함수 - Adobe Journey Optimizer
 
@@ -42,7 +42,7 @@ null 항목을 포함하면서 목록에서 고유 값 또는 개체를 가져�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer에서 &#39;filter&#39; 함수 사용
 
@@ -52,7 +52,7 @@ Adobe Journey Optimizer에서 &#39;filter&#39; 함수 사용
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer에서 getListItem 함수 사용
 
@@ -62,7 +62,7 @@ Adobe Journey Optimizer에서 getListItem 함수 사용
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer에서 &#39;in&#39; 함수 사용
 
@@ -72,7 +72,7 @@ Adobe Journey Optimizer에서 &#39;in&#39; 함수 사용
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer의 Intersect 함수
 

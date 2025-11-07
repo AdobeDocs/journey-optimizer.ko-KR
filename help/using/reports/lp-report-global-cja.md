@@ -23,7 +23,7 @@ ht-degree: 1%
 
 ![](assets/cja-lp.png)
 
-Customer Journey Analytics 작업 영역 및 데이터를 필터링하고 분석하는 방법에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/home)를 참조하세요.
+Customer Journey Analytics 작업 영역 및 데이터를 필터링하고 분석하는 방법에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)를 참조하세요.
 
 ## 랜딩 페이지 전환율 {#lp-conversion}
 
@@ -67,7 +67,7 @@ Customer Journey Analytics 작업 영역 및 데이터를 필터링하고 분석
 
 * **[!UICONTROL 랜딩 페이지 전환]**: 총 방문 수와 관련하여 랜딩 페이지와 상호 작용한(예: 양식을 구독한) 사람의 수입니다.
 
-## 랜딩 페이지 성과 {#lp-performance}
+## 랜딩 페이지 성능 {#lp-performance}
 
 ![](assets/cja-lp-performance.png)
 
@@ -109,7 +109,7 @@ Customer Journey Analytics 작업 영역 및 데이터를 필터링하고 분석
 
 * **[!UICONTROL 랜딩 페이지 전환]**: 양식을 구독하는 등 랜딩 페이지와 상호 작용한 사람의 수입니다.
 
-## 가장 많이 클릭된 링크 {#lp-top-clicked}
+## 가장 많이 클릭한 링크 {#lp-top-clicked}
 
 **[!UICONTROL 가장 많이 클릭한 링크]** 표는 방문자가 게재와 상호 작용하는 방법에 대한 통찰력을 제공하여 대상자로부터 가장 많은 참여와 관심을 받는 링크를 강조 표시합니다.
 

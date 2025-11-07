@@ -6,7 +6,7 @@ description: Adobe 솔루션으로 보내기
 redpen-status: CREATED_||_2025-08-11_21-17-09
 exl-id: a8d34150-32f1-4c58-8728-ba73b7e90ec4
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer는 **Adobe Campaign Standard**, **Campaign v7/v8**, **Ma
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Adobe Journey Optimizer와 Adobe Campaign Standard 통합
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer와 Adobe Campaign Standard 통합
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Adobe Journey Optimizer와 Adobe Campaign v7/v8 통합
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer와 Adobe Campaign v7/v8 통합
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Adobe Journey Optimizer와 Marketo Engage 통합
 

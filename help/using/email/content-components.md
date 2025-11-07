@@ -44,7 +44,7 @@ ht-degree: 48%
 
 >[!NOTE]
 >
->[유럽 접근성 법률](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}에는 모든 디지털 통신에 액세스할 수 있어야 한다고 명시되어 있습니다. 콘텐츠 구성 요소를 활용하여 [에서 전자 메일을 디자인할 때(예: 액세스 가능한 글꼴, 읽을 수 있는 형식 사용 및 이미지에 대한 대체 텍스트 제공) &#x200B;](accessible-content.md)이 페이지[!DNL Journey Optimizer]에 나열된 특정 지침을 따라야 합니다.
+>[유럽 접근성 법률](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}에는 모든 디지털 통신에 액세스할 수 있어야 한다고 명시되어 있습니다. 콘텐츠 구성 요소를 활용하여 [에서 전자 메일을 디자인할 때(예: 액세스 가능한 글꼴, 읽을 수 있는 형식 사용 및 이미지에 대한 대체 텍스트 제공) ](accessible-content.md)이 페이지[!DNL Journey Optimizer]에 나열된 특정 지침을 따라야 합니다.
 
 ## 콘텐츠 구성 요소 추가 {#add-content-components}
 
@@ -102,7 +102,7 @@ ht-degree: 48%
 
    ![](assets/email_designer_button_link.png)
 
-1. [구성 요소 설정] 창에서 **[!UICONTROL 테두리]**, **[!UICONTROL 크기]**, **[!UICONTROL 여백]**&#x200B;과 같은 스타일 속성을 변경하여 다른 스타일 속성을 조정할 수 있습니다.**&#x200B;**
+1. [구성 요소 설정] 창에서 **[!UICONTROL 테두리]**, **[!UICONTROL 크기]**, **[!UICONTROL 여백]**&#x200B;과 같은 스타일 속성을 변경하여 다른 스타일 속성을 조정할 수 있습니다.****
 
 ## 텍스트 {#text}
 
@@ -173,7 +173,7 @@ ht-degree: 48%
 
 1. **[!UICONTROL 설정]** 탭에서 **[!UICONTROL 찾아보기]**&#x200B;를 클릭하여 에셋에서 이미지 파일을 선택하거나 **[!UICONTROL 미디어 가져오기]**&#x200B;를 클릭하여 에셋을 Adobe Experience Manager Assets에 업로드합니다.
 
-   [!DNL Adobe Experience Manager Assets]에 대한 자세한 내용은 [Adobe Experience Manager Assets 설명서](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=ko){target="_blank"}를 참조하세요.
+   [!DNL Adobe Experience Manager Assets]에 대한 자세한 내용은 [Adobe Experience Manager Assets 설명서](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}를 참조하세요.
 
    >[!NOTE]
    >
@@ -190,7 +190,7 @@ ht-degree: 48%
 
 1. **[!UICONTROL 유사한 스톡 사진 찾기]**&#x200B;를 선택할 수도 있습니다. [자세히 알아보기](../integrations/stock.md)
 
-1. **[!UICONTROL 스타일]** 탭에서 여백, 테두리 등의 다른 스타일 특성을 조정합니다. 대상자를 다른 콘텐츠로 리디렉션하도록 링크를 추가할 수 있습니다.**&#x200B;**
+1. **[!UICONTROL 스타일]** 탭에서 여백, 테두리 등의 다른 스타일 특성을 조정합니다. 대상자를 다른 콘텐츠로 리디렉션하도록 링크를 추가할 수 있습니다.****
 
 ## Social {#social}
 

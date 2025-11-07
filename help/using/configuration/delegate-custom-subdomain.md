@@ -21,7 +21,7 @@ ht-degree: 22%
 
 >[!AVAILABILITY]
 >
->이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하세요.
+>이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.
 
 [완전히 위임됨](about-subdomain-delegation.md#full-subdomain-delegation) 및 [CNAME 설정](about-subdomain-delegation.md#cname-subdomain-delegation) 메서드를 사용하지 않는 대신 **사용자 지정 위임** 메서드를 사용하면 Journey Optimizer ans 내에서 하위 도메인의 소유권을 가져와 생성된 인증서를 완전히 제어할 수 있습니다.
 
@@ -126,7 +126,7 @@ ht-degree: 22%
 >title="피드백 루프 단계 완료"
 >abstract="Yahoo!로 이동 Sender Hub에서 양식을 작성하여 도메인 소유권을 확인합니다. 아래 나열된 FBL 보고 이메일 주소를 입력하고, Yahoo!에서 소유권을 확인하기 위해 수신된 OTP를 사용합니다. Sender Hub."
 
-1. [Yahoo!로 이동 보낸 사람 허브 &#x200B;](https://senders.yahooinc.com/) 웹 사이트에서 도메인 소유권을 확인하는 데 필요한 양식을 입력하십시오.
+1. [Yahoo!로 이동 보낸 사람 허브 ](https://senders.yahooinc.com/) 웹 사이트에서 도메인 소유권을 확인하는 데 필요한 양식을 입력하십시오.
 
 1. 도메인 소유권을 확인하려면 Yahoo! Sender Hub에서는 이메일 주소를 제공해야 합니다. **[!UICONTROL 값]**&#x200B;에 나열된 FBL 보고 전자 메일 주소를 입력하십시오. Adobe 소유 이메일 주소입니다.
 

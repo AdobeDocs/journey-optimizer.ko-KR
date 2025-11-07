@@ -75,6 +75,6 @@ ht-degree: 64%
 * **[웹 콘텐츠 편집](create-web.md#edit-web-content)** - 웹 디자이너가 시각적 또는 비시각적 편집 모드를 사용하여 페이지를 수정할 수 있는 기본입니다.
 * **[웹 수정 사항 관리](manage-web-modifications.md)** - 웹 환경에서 수정 사항을 구성하고 적용하고 관리하는 방법을 알아봅니다.
 * **[웹 경험 모니터링](monitor-web-experiences.md)** - 자세한 보고를 통해 웹 캠페인의 성과를 추적하고 분석합니다.
-* **[웹 캠페인 튜토리얼](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/channels/web-channel/create-a-web-campaign){target="_blank"}** - 웹 채널 기능 및 모범 사례에 대한 단계별 비디오 튜토리얼을 살펴보십시오.
+* **[웹 캠페인 튜토리얼](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/web-channel/create-a-web-campaign){target="_blank"}** - 웹 채널 기능 및 모범 사례에 대한 단계별 비디오 튜토리얼을 살펴보십시오.
 
 

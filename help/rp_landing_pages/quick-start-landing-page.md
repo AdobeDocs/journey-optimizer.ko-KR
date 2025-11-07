@@ -5,7 +5,7 @@ title: 역할 및 책임
 description: 역할 및 책임
 redpen-status: CREATED_||_2025-08-11_20-03-47
 source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 성공 여부는 각자의 능력에 맞는 명확한
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 역할 및 책임 개요
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer를 성공적으로 구현하는 데 필요한 주요 역
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 마케터로 시작
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer를 성공적으로 구현하는 데 필요한 주요 역
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 데이터 엔지니어로 시작하기
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer를 성공적으로 구현하는 데 필요한 주요 역
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 시스템 관리자로 시작하기
 

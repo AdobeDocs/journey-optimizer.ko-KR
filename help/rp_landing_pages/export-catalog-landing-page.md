@@ -6,7 +6,7 @@ description: 오퍼 카탈로그 내보내기
 redpen-status: CREATED_||_2025-08-11_21-03-50
 exl-id: b73438e0-8ebe-4188-bb63-1095dcfc4679
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer에서 오퍼 카탈로그를 내보내는 것은 Adobe E
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 오퍼 카탈로그 내보내기 안내서
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 오퍼 카탈로그를 내보내는 것은 Adobe E
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 내보낸 오퍼 카탈로그에 액세스하기
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 오퍼 카탈로그를 내보내는 것은 Adobe E
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 개인화된 오퍼 데이터 세트 참조
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer에서 오퍼 카탈로그를 내보내는 것은 Adobe E
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 의사 결정 데이터 세트 개요
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer에서 오퍼 카탈로그를 내보내는 것은 Adobe E
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 배치 데이터 세트 세부 정보
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer에서 오퍼 카탈로그를 내보내는 것은 Adobe E
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 대체 오퍼 데이터 세트 설명서
 

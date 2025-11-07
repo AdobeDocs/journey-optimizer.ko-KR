@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 컨텐츠 관리 기능을 사용하면 캠페인, �
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Personalization 추가
 
@@ -30,7 +30,7 @@ Personalization 추가
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 랜딩 페이지 만들기
 
@@ -40,7 +40,7 @@ Personalization 추가
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 콘텐츠 템플릿
 
@@ -50,7 +50,7 @@ Personalization 추가
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 재사용 가능한 콘텐츠 조각
 
@@ -60,7 +60,7 @@ Personalization 추가
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 다이내믹 콘텐츠 만들기
 
@@ -70,7 +70,7 @@ Personalization 추가
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 솔루션 간 사용 사례
 

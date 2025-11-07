@@ -6,7 +6,7 @@ description: 사용자 정의 여정 보고서
 redpen-status: CREATED_||_2025-08-11_20-54-10
 exl-id: 1e685fcd-5bb1-4792-b851-e76b7273ddc7
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 사용자 지정 여정 보고서를 사용하면 여
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 여정 보고서 만들기 및 분석
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 사용자 지정 여정 보고서를 사용하면 여
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 단계 이벤트 필드 목록
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 보고 및 데이터 관리 작업을 지원하기
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 기존 단계 이벤트 필드
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer에서 보고 및 데이터 관리 작업을 지원하기
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 데이터 분석을 위한 SQL 쿼리 예
 

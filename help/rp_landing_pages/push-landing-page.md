@@ -6,7 +6,7 @@ description: 푸시 알림 채널
 redpen-status: CREATED_||_2025-08-11_20-37-12
 exl-id: 8d82ef2f-91ee-4502-9a01-f66ccbd55fea
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ Adobe Journey Optimizer 푸시 알림은 앱을 실제로 사용하지 않을 �
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 푸시 알림 생성 및 구성
 
@@ -48,7 +48,7 @@ Adobe Journey Optimizer 푸시 알림은 앱을 실제로 사용하지 않을 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 푸시 알림 디자인
 
@@ -58,7 +58,7 @@ Adobe Journey Optimizer 푸시 알림은 앱을 실제로 사용하지 않을 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 푸시 알림 미리 보기, 유효성 검사, 보내기
 
@@ -68,7 +68,7 @@ Adobe Journey Optimizer 푸시 알림은 앱을 실제로 사용하지 않을 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 푸시 알림 구성
 

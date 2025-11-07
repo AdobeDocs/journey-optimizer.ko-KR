@@ -6,7 +6,7 @@ description: 다이내믹 콘텐츠
 redpen-status: CREATED_||_2025-08-12_00-40-11
 exl-id: 87d500e0-4a2c-4e22-a90c-611229b55d7c
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 다이내믹 콘텐츠를 활용하면 대상자에�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 다이내믹 콘텐츠 시작
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 다이내믹 콘텐츠를 활용하면 대상자에�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 조건부 규칙 만들기 및 관리
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer를 사용하여 메시지의 다이내믹 콘텐츠를 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Adobe Journey Optimizer에서 다이내믹 콘텐츠를 만드는 방법
 

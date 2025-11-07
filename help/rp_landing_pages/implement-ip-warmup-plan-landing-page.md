@@ -6,7 +6,7 @@ description: IP 준비 계획 구현
 redpen-status: CREATED_||_2025-08-11_21-08-31
 exl-id: 6f34e9c9-05ae-4a9c-b099-9a7ddf68a412
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer에서 IP 준비 계획을 구현하면 이메일 제공�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 IP 준비 계획 시작
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 이메일 전달성을 개선하기 위한 IP 준�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 IP 준비 캠페인 만들기
 
@@ -40,7 +40,7 @@ IP 준비 캠페인 만들기
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 IP 준비 계획을 만들고 관리하는 방법
 
@@ -50,7 +50,7 @@ IP 준비 계획을 만들고 관리하는 방법
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 IP 준비 계획 실행 및 관리
 

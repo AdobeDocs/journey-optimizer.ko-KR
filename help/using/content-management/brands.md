@@ -10,7 +10,7 @@ exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '1451'
-ht-degree: 22%
+ht-degree: 21%
 
 ---
 
@@ -323,7 +323,7 @@ ht-degree: 22%
       <td>아이콘 차원을 혼합하지 않거나, 일관성이 없는 획 가중치를 사용하거나, 격자 규칙을 벗어나지 않습니다.</td>
     </tr>
     <tr>
-      <td>사용 가이드라인</td>
+      <td>사용 지침</td>
       <td>전문 환경에서 제품을 사용하는 실제 고객을 반영하는 라이프스타일 이미지를 선택하십시오.</td>
       <td>브랜드 톤과 모순되거나 문맥에서 벗어난 이미지를 사용하지 마십시오.</td>
     </tr>

@@ -6,7 +6,7 @@ description: API를 사용하여 오퍼 게재
 redpen-status: CREATED_||_2025-08-11_21-04-29
 exl-id: 4f959425-2b45-4257-a0a6-09738913bd68
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 오퍼 게재 API를 사용하면 맞춤형 마케팅
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 오퍼 게재 API 시작
 
@@ -30,7 +30,7 @@ Decisioning, Edge Decisioning 및 Batch Decisioning API를 포함하여 맞춤�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Decisioning API를 사용하여 오퍼 게재
 
@@ -40,7 +40,7 @@ Decisioning API를 사용하여 오퍼 게재
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Edge Decisioning API를 사용하여 오퍼 게재
 
@@ -50,13 +50,13 @@ Edge Decisioning API를 통해 Adobe Experience Platform Web SDK를 사용하여
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Batch Decisioning API를 사용하여 오퍼 게재
 
 Batch Decisioning API를 활용하여 일괄 처리 결정을 내리고 대상 프로필에 오퍼를 게재합니다.
 
-[일괄 처리 의사 결정 시작](../using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
+[배치 의사결정 시작](../using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 :::
 
 ::::

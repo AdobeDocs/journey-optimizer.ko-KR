@@ -1,6 +1,6 @@
 ---
 title: 다이렉트 메일 메시지 만들기
-description: Journey Optimizer에서 DM 메시지를 만드는 방법을 알아봅니다
+description: Journey Optimizer에서 다이렉트 메일 메시지를 만드는 방법 알아보기
 feature: Direct Mail
 topic: Content Management
 role: User
@@ -10,7 +10,7 @@ exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 source-git-commit: 4f1ae3a812b75c180716c5af0d6f87ef58bc2a13
 workflow-type: tm+mt
 source-wordcount: '761'
-ht-degree: 17%
+ht-degree: 19%
 
 ---
 

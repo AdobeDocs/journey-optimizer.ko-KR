@@ -6,7 +6,7 @@ description: 랜딩 페이지
 redpen-status: CREATED_||_2025-08-12_00-37-59
 exl-id: 94ad5ecb-b1f1-4fd7-8ef4-5fdbae25ae36
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 랜딩 페이지를 사용하면 뉴스레터 구독,
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 랜딩 페이지 소개
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 랜딩 페이지를 사용하면 뉴스레터 구독,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 랜딩 페이지 만들기 및 게시
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer의 랜딩 페이지를 사용하면 뉴스레터 구독,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 랜딩 페이지 관리
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer의 랜딩 페이지를 사용하면 뉴스레터 구독,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 랜딩 페이지용 콘텐츠 디자인
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer의 랜딩 페이지를 사용하면 뉴스레터 구독,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 구독 목록 만들기 및 관리
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer의 랜딩 페이지를 사용하면 뉴스레터 구독,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 랜딩 페이지 사용 사례
 

@@ -22,7 +22,7 @@ Adobe Journey Optimizer의 수학 섹션을 통해 여정 내에서 정확한 �
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 random 함수
 
@@ -32,7 +32,7 @@ Adobe Journey Optimizer에서 &#39;random&#39; 함수를 사용하여 0과 1 사
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 round 함수
 

@@ -186,6 +186,6 @@ WhatsApp API 자격 증명이 정상적으로 생성되면 이제 옵트인 및 
 
 +++ 비디오 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3470275/?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++

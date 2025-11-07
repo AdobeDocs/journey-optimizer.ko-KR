@@ -6,7 +6,7 @@ description: 외부 시스템과 여정 통합
 redpen-status: CREATED_||_2025-08-11_21-16-41
 exl-id: f61a2c42-f082-4eef-b890-8224357f215f
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer에서 외부 시스템과 여정을 통합하면 API 및
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 외부 시스템 통합 모범 사례
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 외부 시스템과 여정을 통합하면 API 및
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 캡핑 API 개요 및 구현 안내서
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 외부 시스템과 여정을 통합하면 API 및
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 조절 API: 구성 및 관리 안내서
 

@@ -6,7 +6,7 @@ description: 콘텐츠 생성을 위한 AI 어시스턴트
 redpen-status: CREATED_||_2025-08-12_00-42-48
 exl-id: 0fdc67ab-3646-4c6e-884d-604238549c3d
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 AI 어시스턴트는 생성형 AI를 활용하여 �
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 AI 어시스턴트 시작
 
@@ -30,7 +30,7 @@ AI 어시스턴트 시작
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 AI를 활용한 이메일 콘텐츠 생성
 
@@ -40,7 +40,7 @@ AI 어시스턴트를 사용하여 브랜드에 맞춰 이메일 콘텐츠를 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 푸시 알림 콘텐츠 생성
 
@@ -50,7 +50,7 @@ AI 어시스턴트를 사용하여 브랜드에 맞춰 이메일 콘텐츠를 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 AI를 활용한 SMS 콘텐츠 생성
 
@@ -60,7 +60,7 @@ AI 어시스턴트를 사용하여 브랜드 가이드라인을 준수하면서 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 웹 페이지 콘텐츠 및 자산 생성
 
@@ -70,7 +70,7 @@ AI 어시스턴트를 사용하여 웹 페이지 콘텐츠와 시각적 요소�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/window-maximize.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/window-maximize.svg)
 
 AI를 활용한 랜딩 페이지 생성
 

@@ -6,7 +6,7 @@ description: 다국어 콘텐츠
 redpen-status: CREATED_||_2025-08-12_00-43-28
 exl-id: 3f02694e-2237-4022-8e05-b76a5a1443b5
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 다국어 콘텐츠 기능을 사용하면 여러 언
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 다국어 콘텐츠 시작
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 다국어 콘텐츠 기능을 사용하면 여러 언
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 다국어 콘텐츠에 대한 로케일을 만드는 방법
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer의 다국어 콘텐츠 기능을 사용하면 여러 언
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 언어 공급자 추가 및 구성
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer의 다국어 콘텐츠 기능을 사용하면 여러 언
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 수동 번역을 사용하여 다국어 콘텐츠 만들기
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer의 다국어 콘텐츠 기능을 사용하면 여러 언
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 자동 번역을 사용하여 다국어 콘텐츠 만들기
 

@@ -6,7 +6,7 @@ description: 액세스 제어
 redpen-status: CREATED_||_2025-08-11_21-19-16
 exl-id: 812d29b1-8ef3-4f41-8a32-bf2839f924a1
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 액세스 제어를 통해 관리자는 조직의 요
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 액세스 제어 시작
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 사용자 권한, 역할, 샌드박스 및 액세�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 사용자 및 역할 관리
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 사용자 액세스 및 권한을 제어하기 위
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 기본 제공 역할
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer에서 사용자 액세스 및 권한을 제어하기 위
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 기본 제공 권한
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer에서 사용자 액세스 및 권한을 제어하기 위
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 권한 수준
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer에서 사용자 액세스 및 권한을 제어하기 위
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 속성 기반 액세스 제어
 

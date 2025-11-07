@@ -6,7 +6,7 @@ description: 충돌 관리 및 우선순위 지정
 redpen-status: CREATED_||_2025-08-11_20-29-02
 exl-id: 02176308-efeb-49dc-88a6-bc886dc8fc9b
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 충돌 관리 및 우선순위 지정은 고객 피�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 충돌 관리 시작
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 충돌 관리 및 우선순위 지정은 고객 피�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 잠재적 충돌 확인
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer의 충돌 관리 및 우선순위 지정은 고객 피�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 캠페인에 우선순위 점수 할당
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer의 충돌 관리 및 우선순위 지정은 고객 피�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 메시지 및 여정 캡핑 규칙 설정
 

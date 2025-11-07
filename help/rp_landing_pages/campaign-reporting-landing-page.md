@@ -6,7 +6,7 @@ description: 캠페인 보고서
 redpen-status: CREATED_||_2025-08-11_20-49-35
 exl-id: 01d60382-ea80-4ebd-9918-7e7821083cb9
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 Campaign 보고서를 사용하면 다양한 채널�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 캠페인 보고서 개요
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 Campaign 보고서를 사용하면 다양한 채널�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 코드 기반 캠페인 보고서
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer의 Campaign 보고서를 사용하면 다양한 채널�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 콘텐츠 카드 캠페인 보고서
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer의 Campaign 보고서를 사용하면 다양한 채널�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 다이렉트 메일 캠페인 보고서
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer의 Campaign 보고서를 사용하면 다양한 채널�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open-text.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open-text.svg)
 
 이메일 캠페인 보고서
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer의 Campaign 보고서를 사용하면 다양한 채널�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/vial.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/vial.svg)
 
 실험 캠페인 보고서
 

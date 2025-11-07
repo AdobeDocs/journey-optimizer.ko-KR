@@ -6,7 +6,7 @@ description: 웹 채널
 redpen-status: CREATED_||_2025-08-11_20-40-58
 exl-id: 3ff0809b-2d60-477b-9a4c-c6c2324c1a10
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 웹 채널은 웹 사이트에서 직접 개인화된
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 웹 채널 시작
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 개인화된 웹 경험을 만들고 관리하는 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 웹 채널 구성
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 개인화된 웹 경험을 만들고 관리하는 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 웹 경험 만들기 및 관리
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer에서 개인화된 웹 경험을 만들고 관리하는 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 웹 페이지 작성 및 관리
 

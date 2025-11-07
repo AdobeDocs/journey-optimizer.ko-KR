@@ -6,7 +6,7 @@ description: 오퍼 만들기 및 관리
 redpen-status: CREATED_||_2025-08-11_21-00-55
 exl-id: 4578e8fe-341e-4678-b21f-d344f0a9a63d
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 &#39;오퍼 만들기 및 관리&#39; 섹션을 통�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Adobe Journey Optimizer의 오퍼 구성
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 오퍼 구성
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 대체 오퍼를 만드는 방법
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer의 오퍼 구성
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 오퍼 컬렉션을 만들고 관리하는 방법
 

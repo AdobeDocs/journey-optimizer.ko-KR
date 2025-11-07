@@ -81,7 +81,7 @@ ht-degree: 1%
 
       >[!NOTE]
       >
-      >이 예제에서는 **Email** 네임스페이스를 사용합니다. 이 섹션[에서 Adobe Experience Platform ID 네임스페이스 &#x200B;](../audience/get-started-identity.md)에 대해 자세히 알아보세요.
+      >이 예제에서는 **Email** 네임스페이스를 사용합니다. 이 섹션[에서 Adobe Experience Platform ID 네임스페이스 ](../audience/get-started-identity.md)에 대해 자세히 알아보세요.
 
    1. **[!UICONTROL ID 값]** 필드에 테스트 프로필을 식별할 값을 입력하십시오. 이 예에서는 테스트 프로필의 이메일 주소를 입력합니다.
 
@@ -103,4 +103,4 @@ ht-degree: 1%
 
 [!DNL Journey Optimizer]의 메시지에 의사 결정 관리 구성 요소를 추가하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3415690?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334088?quality=12)

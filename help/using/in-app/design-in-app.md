@@ -259,11 +259,11 @@ ht-degree: 26%
 **관련 항목:**
 
 * [인앱 메시지 만들기](create-in-app.md)
-* [인앱 보고서 &#x200B;](../reports/campaign-global-report-cja-inapp.md)
+* [인앱 보고서 ](../reports/campaign-global-report-cja-inapp.md)
 * [인앱 구성](inapp-configuration.md)
 
 ## 사용 방법 비디오{#video}
 
 아래 비디오에서는 인앱 메시지를 작성하고 테스트하는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3422079?captions=kor&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410471?quality=12&learn=on)

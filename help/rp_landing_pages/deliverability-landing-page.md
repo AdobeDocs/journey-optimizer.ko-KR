@@ -6,7 +6,7 @@ description: 이메일 전달성
 redpen-status: CREATED_||_2025-08-11_20-34-41
 exl-id: 1657152e-4a93-4664-a56f-3ea7f9e69098
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 이메일 전달성 소개
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 이메일 전달성을 최적화하기 위한 개�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 금지 목록 이해
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 이메일 전달성을 최적화하기 위한 개�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 새로운 DMARC 요건 준수
 

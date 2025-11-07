@@ -20,7 +20,7 @@ ht-degree: 1%
 >[!INFO]
 >
 >Apple에서 메일 개인 정보 보호 기능을 포함하여 기본 메일 앱에 새로운 개인 정보 보호 기능을 도입했기 때문에, 발신자는 더 이상 Apple의 메일 개인 정보 보호를 사용하도록 설정한 프로필의 데이터를 수집하기 위해 추적 픽셀을 사용할 수 없습니다. 따라서 추적 픽셀을 사용하여 이메일 열기를 추적하는 Adobe Journey Optimizer 기능에 영향을 줄 수 있습니다.
->&#x200B;> [Apple iOS 개인 정보 보호 변경이 이메일 마케팅에 미치는 영향에 대해 자세히 알아보세요](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780?profile.language=ko).
+> [Apple iOS 개인 정보 보호 변경이 이메일 마케팅에 미치는 영향에 대해 자세히 알아보세요](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780).
 > 
 > 보다 정확한 통찰력을 위해 오픈율 대신 클릭 및 전환 지표에 집중하는 것이 좋습니다.
 
@@ -64,13 +64,13 @@ ht-degree: 1%
 +++
 
 
-## 고유 클릭 단계
+## 고유 클릭 funnel
 
 ![](assets/cja-email-click-funnel.png)
 
-**[!UICONTROL 클릭 단계]** 그래프는 프로필이 이메일 콘텐츠와 어떻게 참여했는지 자세히 분석하여 게재에서 클릭에 이르기까지 상호 작용의 각 단계에 대한 중요한 통찰력을 제공하여 메시지가 사용자 참여를 얼마나 효과적으로 유도하는지 이해하는 데 도움이 됩니다.
+**[!UICONTROL funnel 클릭]** 그래프는 프로필이 전자 메일 콘텐츠와 어떻게 참여했는지 자세히 분석하여 게재에서 클릭에 이르기까지 상호 작용의 각 단계에 대한 중요한 통찰력을 제공하여 메시지가 사용자 참여를 얼마나 효과적으로 유도하는지 이해하는 데 도움이 됩니다.
 
-+++ 클릭 단계 지표에 대해 자세히 알아보기
++++ 클릭 funnel 지표에 대해 자세히 알아보기
 
 * **[!UICONTROL 고유 타깃팅]**: 전송 프로세스 중에 타깃팅된 고유 프로필 수입니다.
 

@@ -6,7 +6,7 @@ description: 순위 만들기
 redpen-status: CREATED_||_2025-08-11_20-56-11
 exl-id: 11edd7b2-0319-4576-9fef-042c239b25be
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer에서 순위를 만들면 고유한 프로필과 상황�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 순위 지정 방법을 만들고 사용하는 방법
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 순위를 만들면 고유한 프로필과 상황�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 AI 공식 빌더 사용
 
@@ -40,7 +40,7 @@ AI 모델, 속성, 상황별 신호를 기반으로 오퍼 우선순위를 지�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 AI 모델 이해 및 구현
 

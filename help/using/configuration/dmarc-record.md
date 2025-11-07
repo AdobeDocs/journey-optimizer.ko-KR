@@ -58,7 +58,7 @@ DMARC을 전달하려면 메시지가 SPF 또는 DKIM을 전달해야 합니다.
 
 >[!NOTE]
 >
->[!DNL Journey Optimizer]이 섹션[에서 &#x200B;](#set-up-dmarc)을(를) 사용하여 DMARC 정책을 설정하는 방법에 대해 알아봅니다.
+>[!DNL Journey Optimizer]이 섹션[에서 ](#set-up-dmarc)을(를) 사용하여 DMARC 정책을 설정하는 방법에 대해 알아봅니다.
 
 ## DMARC 요구 사항 업데이트 {#dmarc-update}
 

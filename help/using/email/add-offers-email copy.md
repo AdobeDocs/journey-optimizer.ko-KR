@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 개인화된 오퍼 추가
+title: 맞춤형 오퍼 추가
 description: 메시지에 개인화된 오퍼를 추가하는 방법 알아보기
 feature: Email Design, Offers
 topic: Content Management
@@ -12,11 +12,11 @@ exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
 source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
 workflow-type: tm+mt
 source-wordcount: '621'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# 개인화된 오퍼 추가 {#deliver-personalized-offers}
+# 맞춤형 오퍼 추가 {#deliver-personalized-offers}
 
 [!DNL Journey Optimizer] 이메일에서 고객에게 제공할 최상의 오퍼를 선택하기 위해 의사 결정 관리 엔진을 활용하는 의사 결정을 삽입할 수 있습니다.
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 
       >[!NOTE]
       >
-      >이 예제에서는 **Email** 네임스페이스를 사용합니다. 이 섹션[에서 Adobe Experience Platform ID 네임스페이스 &#x200B;](../audience/get-started-identity.md)에 대해 자세히 알아보세요.
+      >이 예제에서는 **Email** 네임스페이스를 사용합니다. 이 섹션[에서 Adobe Experience Platform ID 네임스페이스 ](../audience/get-started-identity.md)에 대해 자세히 알아보세요.
 
    1. **[!UICONTROL ID 값]** 필드에 테스트 프로필을 식별할 값을 입력하십시오. 이 예에서는 테스트 프로필의 이메일 주소를 입력합니다.
 
@@ -103,4 +103,4 @@ ht-degree: 0%
 
 [!DNL Journey Optimizer]의 메시지에 의사 결정 관리 구성 요소를 추가하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3415690?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/334088?quality=12)

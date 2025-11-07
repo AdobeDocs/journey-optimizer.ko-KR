@@ -6,7 +6,7 @@ description: 사용 사례
 redpen-status: CREATED_||_2025-08-11_20-20-12
 exl-id: 09b60e6e-8874-4950-a37a-fc807d3b39b1
 source-git-commit: 0a80d8df834c48b6a5e6f4fafae89006b64bca11
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 사용 사례를 활용하면 마케팅 전략, 기�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 사용 사례를 통해 알아보기
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 사용 사례를 활용하면 마케팅 전략, 기�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 경험 이벤트 조회
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer의 사용 사례를 활용하면 마케팅 전략, 기�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 다중 채널 메시지 보내기
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer의 사용 사례를 활용하면 마케팅 전략, 기�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Campaign v7/v8을 사용하여 메시지 보내기
 
@@ -60,7 +60,7 @@ Adobe Campaign을 Journey Optimizer와 통합하면 트랜잭션 템플릿과 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 구독자에게 메시지 보내기
 
@@ -70,7 +70,7 @@ Adobe Campaign을 Journey Optimizer와 통합하면 트랜잭션 템플릿과 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 사용자 정의 작업으로 컬렉션을 동적으로 보내기
 

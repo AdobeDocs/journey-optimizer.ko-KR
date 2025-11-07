@@ -6,7 +6,7 @@ description: SMS / MMS / RCS 채널 구성
 redpen-status: CREATED_||_2025-08-11_20-38-02
 exl-id: f92e23ee-2478-4f16-85d0-4c88c9be08b1
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 SMS/MMS/RCS 채널을 사용하면 트랜잭션 알�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 SMS/MMS/RCS 채널 구성 시작
 
@@ -30,7 +30,7 @@ SMS/MMS/RCS 채널 구성 시작
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 SMS/MMS/RCS 메시지를 보내기 위한 Sinch 제공자 구성
 
@@ -40,7 +40,7 @@ SMS, MMS, RCS 메시지를 보낼 수 있도록 Sinch API 자격 증명을 설�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Infobip SMS, MMS, RCS 제공자 구성
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer에서 Infobip을 SMS, MMS, RCS 메시지 제공자로 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 SMS/MMS/RCS 메시지를 보내기 위한 Twilio 제공자 구성
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer에서 Twilio API 자격 증명을 설정하고 SMS, MMS,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 사용자 정의 SMS 제공자 구성
 
@@ -70,7 +70,7 @@ API 자격 증명을 만고, 웹후크를 관리하고 보안이 적용된 커�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 SMS/MMS/RCS 채널 구성 만들기
 

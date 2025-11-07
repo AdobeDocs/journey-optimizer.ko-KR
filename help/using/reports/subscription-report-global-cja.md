@@ -11,7 +11,7 @@ exl-id: d1c4ae5f-2f5c-4e25-a8b4-4c5fe254bfb9
 source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
 workflow-type: tm+mt
 source-wordcount: '432'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 ![](assets/cja-sub-access.png)
 
-Customer Journey Analytics 작업 영역 및 데이터를 필터링하고 분석하는 방법에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/home)를 참조하세요.
+Customer Journey Analytics 작업 영역 및 데이터를 필터링하고 분석하는 방법에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)를 참조하세요.
 
 ## 구독 목록 추가
 

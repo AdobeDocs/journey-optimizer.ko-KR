@@ -20,9 +20,9 @@ ht-degree: 2%
 >[!IMPORTANT]
 >
 >이 기능을 사용하기 전에 관련 [보호 및 제한 사항](gs-generative.md#generative-guardrails)을 읽어보십시오.
->&#x200B;></br>
+></br>
 >
->Journey Optimizer에서 AI Assistant를 사용하려면 [사용자 계약](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
+>Journey Optimizer에서 AI Assistant를 사용하려면 [사용자 계약](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
 이메일을 만들고 맞춤화한 후에는 생성 AI를 기반으로 한 Journey Optimizer의 AI Assistant를 활용하여 콘텐츠를 향상시킵니다.
 

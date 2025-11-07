@@ -6,7 +6,7 @@ description: 콘텐츠 디자인
 redpen-status: CREATED_||_2025-08-11_20-32-28
 exl-id: 407918ea-abc5-45b4-96b5-3afbdfa89238
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer에서 콘텐츠를 디자인하는 것은 대상과 연�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 콘텐츠 구성 요소 사용
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 콘텐츠를 디자인하는 것은 대상과 연�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg)
 
 시각적 조각 활용
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 콘텐츠를 디자인하는 것은 대상과 연�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 링크 추가 및 메시지 추적
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer에서 콘텐츠를 디자인하는 것은 대상과 연�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 개인화된 오퍼 삽입
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer에서 콘텐츠를 디자인하는 것은 대상과 연�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg)
 
 텍스트 버전 생성
 
@@ -70,7 +70,7 @@ HTML 콘텐츠를 볼 수 없는 수신자를 위해 이메일의 일반 텍스�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 메타데이터 추가
 

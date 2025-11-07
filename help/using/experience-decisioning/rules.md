@@ -9,7 +9,7 @@ exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
 source-git-commit: 9bd0b149acdce17b8157e6c0e747353e0dd00cc8
 workflow-type: tm+mt
 source-wordcount: '958'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
@@ -41,9 +41,9 @@ ht-degree: 7%
 
 >[!AVAILABILITY]
 >
->타깃팅 규칙은 현재 제한된 가용성입니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하세요.
+>타기팅 규칙은 현재 제한된 가용성으로 제공됩니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.
 >
->이 기능은 **Decisioning** 추가 기능 서비스를 구입한 조직에서만 사용할 수 있습니다. 모든 고객에게 점진적으로 제공될 예정입니다.
+>이 기능은 **Decisioning** 추가 기능 서비스를 구입한 조직에서만 사용할 수 있습니다. 점진적으로 모든 고객을 대상으로 롤아웃될 예정입니다.
 
 타겟팅 규칙을 사용하면 특정 대상 세그먼트를 기반으로 하여 고객이 개인화된 콘텐츠를 수신하거나 특정 여정 경로를 입력할 수 있도록 충족해야 하는 특정 자격을 결정할 수 있습니다. 이렇게 하면 여정 및 캠페인에서 하위 대상을 타겟팅할 수 있습니다.
 
@@ -136,4 +136,4 @@ ht-degree: 7%
 
 Adobe Journey Optimizer에서 재사용 가능한 **타깃팅 규칙**&#x200B;을(를) 만들고, 복제하고, 적용하여 지역, 언어 및 동작과 같은 고객 특성을 기반으로 캠페인을 효율적으로 개인화하여 시간을 절약하고 대상 정밀도를 향상시키는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476134/?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476127/?quality=12)

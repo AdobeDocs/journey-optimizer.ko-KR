@@ -20,9 +20,9 @@ ht-degree: 9%
 >[!IMPORTANT]
 >
 >이 기능을 사용하기 전에 관련 [보호 및 제한 사항](gs-generative.md#generative-guardrails)을 읽어보십시오.
->&#x200B;></br>
+></br>
 >
->Journey Optimizer에서 AI Assistant를 사용하려면 [사용자 계약](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
+>Journey Optimizer에서 AI Assistant를 사용하려면 [사용자 계약](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
 메시지를 만들고 개인화한 후에는 콘텐츠 실험 기능이 포함된 Adobe Journey Optimizer의 AI Assistant를 사용하여 콘텐츠를 향상시킵니다. 이 도구를 사용하면 다양한 콘텐츠에서 여러 게재 처리를 정의하여 타겟 대상의 성능을 측정할 수 있습니다.
 

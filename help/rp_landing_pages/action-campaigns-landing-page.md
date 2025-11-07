@@ -6,7 +6,7 @@ description: 액션 캠페인
 redpen-status: CREATED_||_2025-08-11_20-22-10
 exl-id: 577ba2bf-0491-4e4a-bbf3-0cfb374086c1
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 액션 캠페인에서는 프로모션, 업데이트 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 액션 캠페인 만들기
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 액션 캠페인에서는 프로모션, 업데이트 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 션 캠페인 속성 정의
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer의 액션 캠페인에서는 프로모션, 업데이트 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 캠페인 작업 구성
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer의 액션 캠페인에서는 프로모션, 업데이트 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 메시지 최적화 활용
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer의 액션 캠페인에서는 프로모션, 업데이트 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/pencil-alt.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/pencil-alt.svg)
 
 캠페인 콘텐츠 편집
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer의 액션 캠페인에서는 프로모션, 업데이트 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
 
 캠페인 대상자 정의
 

@@ -6,7 +6,7 @@ description: 오퍼 구성
 redpen-status: CREATED_||_2025-08-11_21-00-31
 exl-id: e03307f5-0024-463a-ad2b-78d49e6d158f
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 ‘오퍼 구성’ 섹션에서는 대상자의 요�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 개인화된 오퍼 만들기
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 ‘오퍼 구성’ 섹션에서는 대상자의 요�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 오퍼에 표시 추가
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer의 ‘오퍼 구성’ 섹션에서는 대상자의 요�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 오퍼에 제한 추가
 

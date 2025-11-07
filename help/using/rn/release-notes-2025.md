@@ -42,7 +42,7 @@ ht-degree: 99%
 <li><strong>AI 실험 인사이트 및 기회:</strong> 단순한 통계 읽기를 넘어 생성형 AI 기반 인사이트와 추천을 이용할 수 있습니다. 이제 실험별로 실행 가능한 기회를 근거와 함께 표시하므로 팀에서 다음에 테스트할 항목을 보다 자신 있게 결정할 수 있습니다.</li>
 <li><strong>Journey Optimizer의 Multi-Armed Bandit(MAB) 지원:</strong> Multi-Armed Bandit 실험으로 트래픽 낭비를 줄이면서 효과를 극대화할 수 있습니다. MAB는 대상자를 균등하게 분할하지 않고 실시간으로 성과가 가장 좋은 베리에이션에 더 많은 방문자를 자동 할당하므로 더 많은 고객에게 더 나은 경험을 제공하면서 효과가 있는 변수를 파악할 수 있습니다.</li></ul>
 <p><img src="assets/do-not-localize/experimentation-accelerator.gif"/></p>
-<p>자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/experimentation-accelerator/using/overview">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/experimentation-accelerator/using/overview">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2025년 10월 3일</p>
 </td>
 </tr>
@@ -100,7 +100,7 @@ ht-degree: 99%
 <td>
 <p>새로운 최적화 노드를 사용하여 특정 대상자를 타기팅하거나 A/B 테스트를 실행하여 비즈니스 중심 KPI를 충족하는 최상의 경로를 결정합니다.</p>
 <p>이 도구를 사용하여 테스트 및 변경을 수행하고 커뮤니케이션, 시퀀스, 타이밍을 사용자 정의하여 고객에게 가장 효과적으로 다가갈 수 있습니다.</p>
-<p>이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하세요.</p>
+<p>이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.</p>
 <p><img src="assets/do-not-localize/optimize.gif"/></p>
 <p>자세한 내용은 <a href="../building-journeys/optimize.md">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2025년 9월 4일</p>
@@ -119,7 +119,7 @@ ht-degree: 99%
 <tr>
 <td>
 <p>이제 전체 위임과 CNAME 방법 외에 새로운 하위 도메인 구성 방법인 사용자 정의 위임 방법을 사용할 수 있습니다. 이 방법을 사용하면 메시지 게재, 렌더링, 추적에 필요한 DNS의 모든 측면을 사용자가 완전히 제어하고 유지 관리할 수 있습니다.</p>
-<p>이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하세요.</p>
+<p>이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.</p>
 <p><img src="assets/do-not-localize/custom-delegation.gif"/></p>
 <p>자세한 내용은 <a href="../configuration/delegate-custom-subdomain.md">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2025년 9월 4일</p>
@@ -311,7 +311,7 @@ ht-degree: 99%
 <li>모든 기본 제공 채널 액션에 최적화를 더하는 기능.</li>
 <li>모든 액션에 실험과 다국어 옵션을 모두 추가하는 기능.</li>
 </ul>
-<p>이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하세요.</p>
+<p>이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.</p>
 <p><img src="assets/do-not-localize/action-activity.gif"/></p>
 <p>자세한 내용은 <a href="../building-journeys/journey-action.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
@@ -334,7 +334,7 @@ ht-degree: 99%
 <li>각 첨부 파일의 최대 크기는 5MB입니다.</li>
 <li>크기나 볼륨이 더 필요하다면 첨부 파일 팩 추가 기능을 구매할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.</li>
 </ul>
-<p>이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하세요.</p>
+<p>이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.</p>
 <p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
 <p>자세한 내용은 <a href="../email/pdf-attachments.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
@@ -562,7 +562,7 @@ ht-degree: 99%
 <tr>
 <td>
 <p>이제 이메일 여정 및 캠페인에 의사 결정 정책을 추가할 수 있습니다. 의사 결정 정책은 의사 결정 엔진을 활용하여 각 대상 구성원에 대해 제공할 최상의 콘텐츠를 동적으로 반환하는 오퍼에 대한 컨테이너입니다.</p>
-<p>이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하세요.</p>
+<p>이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.</p>
 자세한 내용은 <a href="../experience-decisioning/create-decision.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>

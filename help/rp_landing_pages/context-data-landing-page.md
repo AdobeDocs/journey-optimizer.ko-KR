@@ -6,7 +6,7 @@ description: 컨텍스트 데이터 활용
 redpen-status: CREATED_||_2025-08-11_21-02-37
 exl-id: 09ba2a43-f7f3-4414-b7b3-64c9932ff6c7
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 컨텍스트 데이터 시작
 
@@ -30,7 +30,7 @@ Decisioning과 Edge Decisioning API 요청 간의 차이를 포함하여 Adobe J
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Edge Decisioning 요청에서 컨텍스트 데이터 사용
 
@@ -40,7 +40,7 @@ Edge Decisioning 요청에서 컨텍스트 데이터 사용
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 의사결정 요청 및 적격성 규칙에서 컨텍스트 데이터 사용
 

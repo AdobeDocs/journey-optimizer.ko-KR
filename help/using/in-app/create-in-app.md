@@ -236,7 +236,7 @@ ht-degree: 12%
 
   +++비디오 보기
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451889?captions=kor&quality=12&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
   +++
 
@@ -244,7 +244,7 @@ ht-degree: 12%
 
   +++비디오 보기
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3445295/?captions=kor&learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
 
   +++
 
@@ -260,5 +260,5 @@ ht-degree: 12%
 
 * [인앱 메시지 디자인](design-in-app.md)
 * [인앱 메시지 테스트 및 보내기](send-in-app.md)
-* [인앱 보고서 &#x200B;](../reports/campaign-global-report-cja-inapp.md)
+* [인앱 보고서 ](../reports/campaign-global-report-cja-inapp.md)
 * [인앱 구성](inapp-configuration.md)

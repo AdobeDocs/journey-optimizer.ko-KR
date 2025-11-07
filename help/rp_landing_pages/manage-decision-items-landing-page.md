@@ -6,7 +6,7 @@ description: 결정 항목 관리
 redpen-status: CREATED_||_2025-08-11_20-55-07
 exl-id: b6490231-e2c8-40c0-9127-128bab76493f
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer에서 결정 항목을 관리하는 것은 적절한 마
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 항목 카탈로그 구성
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 결정 항목을 관리하는 것은 적절한 마
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 결정 항목 만들기 및 관리
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 결정 항목을 관리하는 것은 적절한 마
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 항목 컬렉션 관리
 

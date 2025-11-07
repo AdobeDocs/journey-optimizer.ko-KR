@@ -6,7 +6,7 @@ description: 이벤트 구성
 redpen-status: CREATED_||_2025-08-11_21-10-50
 exl-id: 4f9f480d-8c71-4486-8074-d6fa9ed828bb
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 이벤트 구성에서 가장 중요한 작업은 개
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 여정 이벤트 작업
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 이벤트 구성에서 가장 중요한 작업은 개
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 단일 이벤트 구성
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer의 이벤트 구성에서 가장 중요한 작업은 개
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 ExperienceEvent 스키마
 
@@ -50,7 +50,7 @@ ExperienceEvent 스키마
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Adobe Analytics 통합
 
@@ -60,7 +60,7 @@ Adobe Analytics 데이터를 통합하여 여정을 자동화하고 개인화된
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 비즈니스 이벤트 구성
 
@@ -70,7 +70,7 @@ Adobe Analytics 데이터를 통합하여 여정을 자동화하고 개인화된
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 스트리밍 API를 사용하여 이벤트 보내기
 

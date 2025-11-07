@@ -22,7 +22,7 @@ Adobe Journey Optimizer의 전환 섹션을 통해 데이터를 워크플로 요
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 toBool 함수
 
@@ -32,7 +32,7 @@ toBool 함수를 사용하여 다양한 데이터 형식을 부울 값으로 변
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 toDateOnly 함수
 
@@ -42,7 +42,7 @@ toDateOnly 함수를 사용하여 날짜 표현을 dateOnly 형식으로 변환�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 toDateTime 함수
 
@@ -52,7 +52,7 @@ toDateTime 함수를 사용하여 다양한 입력을 날짜-시간 값으로 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 toDateTimeOnly 함수
 
@@ -62,7 +62,7 @@ toDateTimeOnly 함수를 사용하여 표준 시간대 없이 날짜-시간 형�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 toDecimal 함수
 
@@ -72,7 +72,7 @@ toDecimal 함수를 사용하여 다양한 데이터 형식을 십진수 값으�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 toDuration 함수
 

@@ -8,7 +8,7 @@ hide: true
 hidefromtoc: true
 exl-id: 24460cae-3944-4ac4-9076-aca521cfddbd
 source-git-commit: a73bf80fa61c6ce7c9be054e013e9a59ef3d9ba8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 100%
 
@@ -16,13 +16,13 @@ ht-degree: 100%
 
 # 새로운 기능{#section-overview}
 
-Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보십시오! 기능, 개선 사항, 해결 사항의 종합 목록은 [릴리스 정보](../using/rn/release-notes.md)에서 자세히 확인할 수 있습니다.  제품 설명서의 최신 변경 사항에 대한 정보를 확인하려면 [설명서 업데이트 페이지](../using/rn/documentation-updates.md)를 방문하십시오.
+Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보세요! 기능, 개선 사항, 해결 사항의 종합 목록은 [릴리스 정보](../using/rn/release-notes.md)에서 자세히 확인할 수 있습니다.  제품 설명서의 최신 변경 사항에 대한 정보를 확인하려면 [설명서 업데이트 페이지](../using/rn/documentation-updates.md)를 방문하십시오.
 
 >[!BEGINTABS]
 
 >[!TAB 캠페인 오케스트레이션]
 
-이제 Journey Optimizer에 브랜드 주도 일괄 캠페인을 위해 특별히 설계된 새로운 기능인 **캠페인 오케스트레이션**&#x200B;이 포함됩니다. 이 릴리스에서는 캠페인 오케스트레이션 캔버스 및 향상된 데이터 모델링을 도입하여 마케터가 개인화된 크로스 채널 캠페인을 계획하고, 타깃팅하고, 제공할 수 있도록 함께 작업합니다.
+이제 Journey Optimizer에 브랜드 주도 배치 캠페인을 위해 특별히 설계된 새로운 기능인 **캠페인 오케스트레이션**&#x200B;이 포함됩니다. 이 릴리스에서는 캠페인 오케스트레이션 캔버스 및 향상된 데이터 모델링을 도입하여 마케터가 개인화된 크로스 채널 캠페인을 계획하고, 타깃팅하고, 제공할 수 있도록 함께 작업합니다.
 
 [![자세히 알아보기](../using/assets/do-not-localize/learn-more-button.svg)](../using/orchestrated/gs-orchestrated-campaigns.md)
 
@@ -37,7 +37,7 @@ Adobe Journey Optimizer의 Adobe Express 통합을 통해 콘텐츠를 만드는
 
 Immerse yourself in a hands-on experience with our [AI Assistant](../help/using/content-management/gs-generative.md) live feature preview, designed to let you explore its features firsthand and fully understand its capabilities.
 
-[![learn more](../using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/ko/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
+[![learn more](../using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
 
 >[!TAB AEM 콘텐츠 조각]
 
@@ -52,7 +52,7 @@ Immerse yourself in a hands-on experience with our [AI Assistant](../help/using/
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Adobe Journey Optimizer 최신 릴리스 정보
 
@@ -62,7 +62,7 @@ Adobe Journey Optimizer 최신 릴리스 정보
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Adobe Journey Optimizer에 대한 이전 릴리스 노트
 
@@ -72,7 +72,7 @@ Adobe Journey Optimizer의 기능, 통합, 개선 사항에 대한 자세한 업
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Adobe Journey Optimizer 설명서의 최신 업데이트
 

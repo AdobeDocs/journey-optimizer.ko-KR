@@ -6,7 +6,7 @@ description: 개인화
 redpen-status: CREATED_||_2025-08-12_00-36-08
 exl-id: dadda702-fc45-46c6-91c5-2887ff732a95
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 개인화 기능을 사용하면 개별 프로필, �
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 개인화 시작
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 개인화 기능을 사용하면 개별 프로필, �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 개인화 추가 및 유효성 검사
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer의 개인화 기능을 사용하면 개별 프로필, �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 개인화 구문 이해
 
@@ -50,7 +50,7 @@ Handlebars 기반 개인화 구문의 규칙과 예시를 분석하여 동적이
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 표현식 조각
 
@@ -60,7 +60,7 @@ Handlebars 기반 개인화 구문의 규칙과 예시를 분석하여 동적이
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 개인화에 Adobe Experience Platform 데이터 사용(Beta)
 
@@ -70,7 +70,7 @@ Handlebars 기반 개인화 구문의 규칙과 예시를 분석하여 동적이
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 도우미 함수 참조 안내서
 

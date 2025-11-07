@@ -6,7 +6,7 @@ description: 다이렉트 메일
 redpen-status: CREATED_||_2025-08-11_20-39-20
 exl-id: 024fd5b5-5707-47ad-b90f-26e0d62f2fd2
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 다이렉트 메일(DM)을 사용하면 구체적이�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 다이렉트 메일 캠페인 소개
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 다이렉트 메일 캠페인에 대해 알아보고 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 다이렉트 메일 캠페인을 만드는 방법
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer의 다이렉트 메일 캠페인에 대해 알아보고 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 다이렉트 메일 캠페인 확인 및 전송송 방법
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer의 다이렉트 메일 캠페인에 대해 알아보고 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 다이렉트 메일 채널 구성
 

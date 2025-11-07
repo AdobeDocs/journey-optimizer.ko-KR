@@ -6,7 +6,7 @@ description: AI 모델
 redpen-status: CREATED_||_2025-08-11_20-59-35
 exl-id: c33c47b7-5d2d-4d76-81ed-cbd06a7797be
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 AI 모델은 비즈니스 목표에 맞게 오퍼의 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 AI 모델 시작
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 AI 모델과 그 유형, 기능 및 비즈니스 목�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 자동 최적화 모델 이해
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer의 AI 모델과 그 유형, 기능 및 비즈니스 목�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 개인화된 최적화 모델 이해
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer의 AI 모델과 그 유형, 기능 및 비즈니스 목�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 AI 모델을 만드는 방법
 

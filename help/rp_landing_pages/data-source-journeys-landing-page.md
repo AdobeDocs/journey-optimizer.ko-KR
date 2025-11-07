@@ -6,7 +6,7 @@ description: 데이터 소스 구성
 redpen-status: CREATED_||_2025-08-11_21-11-22
 exl-id: e940bc83-77d2-4c5a-9895-20534d70e7ee
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 데이터 소스를 사용하면 Adobe의 기본 제�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 데이터 소스 시작
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 데이터 소스를 사용하면 Adobe의 기본 제�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 데이터 소스 구성 방법 알아보기
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 여정의 데이터 소스 구성 및 필드 그�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Adobe Experience Platform 데이터 소스
 
@@ -50,7 +50,7 @@ Adobe Experience Platform 데이터 소스
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 데이터 소스 구성
 

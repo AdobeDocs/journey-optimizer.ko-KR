@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Twilio 공급자 구성
+title: Twilio 제공자 구성
 description: Twilio를 사용하여 Journey Optimizer에서 텍스트 메시지를 보내도록 환경을 구성하는 방법에 대해 알아봅니다
 feature: SMS, Channel Configuration
 role: Admin
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 ---
 
-# Twilio 공급자 구성 {#sms-configuration-twilio}
+# Twilio 제공자 구성 {#sms-configuration-twilio}
 
 ## SMS/MMS에 대한 API 자격 증명 구성
 
