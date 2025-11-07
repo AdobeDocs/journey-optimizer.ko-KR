@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 액션 구성을 통해 고객 여정을 서드파티
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 사용자 정의 액션 시작
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 사용자 정의 액션을 구성하고 사용하�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 사용자 정의 액션 구성 방법
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 사용자 정의 액션을 구성하고 사용하�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 사용자 정의 액션에서 API 호출 응답 사용
 

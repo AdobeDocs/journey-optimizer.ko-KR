@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 ‘오퍼 구성’ 섹션에서는 대상자의 요�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 개인화된 오퍼 만들기
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 ‘오퍼 구성’ 섹션에서는 대상자의 요�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 오퍼에 표시 추가
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer의 ‘오퍼 구성’ 섹션에서는 대상자의 요�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 오퍼에 제한 추가
 

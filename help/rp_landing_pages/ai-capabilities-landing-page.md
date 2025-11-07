@@ -20,7 +20,7 @@ Adobe Journey Optimizer은 인공 지능과 머신 러닝의 힘을 활용하여
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 콘텐츠 생성을 위한 AI 어시스턴트
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer은 인공 지능과 머신 러닝의 힘을 활용하여
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
 
 전송 시간 최적화
 
@@ -40,7 +40,7 @@ AI를 사용하여 메시지를 보내는 최적의 시간을 예측하고 이�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 의사 결정을 위한 AI 모델
 
@@ -50,7 +50,7 @@ AI를 사용하여 메시지를 보내는 최적의 시간을 예측하고 이�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
 
 AI Assistant 제품 지식
 
@@ -60,7 +60,7 @@ AI Assistant 제품 지식
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 AI를 사용한 콘텐츠 실험
 
@@ -70,7 +70,7 @@ AI를 사용한 콘텐츠 실험
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
 
 브랜드 정렬 점수
 
@@ -80,7 +80,7 @@ AI 기반 점수를 사용하여 AI 생성 콘텐츠가 브랜드 지침을 얼�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 실험 가속기
 
@@ -90,7 +90,7 @@ AI 기반 인사이트 및 추천을 통해 콘텐츠 실험 프로세스를 가
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 HTML으로 이미지 변환기
 
@@ -100,7 +100,7 @@ AI 기반 전환 기술을 사용하여 정적 이미지 디자인을 편집 가
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 여정 Operational Insights(Beta)
 
@@ -118,7 +118,7 @@ AI 기반 전환 기술을 사용하여 정적 이미지 디자인을 편집 가
 Adobe Experience Cloud AI 에이전트는 AI 기능을 Journey Optimizer 이상으로 확장하여 복잡한 마케팅 작업을 위한 자연어 상호 작용을 가능하게 합니다.
 
 - **[여정 분석 에이전트](https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}** - 여정 폴아웃 분석을 수행하고, 대상 및 일정 중복을 감지하고, 여정 성능을 최적화하기 위해 실행 가능한 권장 사항을 받습니다.
-- **[실험 에이전트](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}** - 실험 결과를 분석하고, 가장 성과가 좋은 패턴을 식별하며, 여러 채널에서 테스트할 새로운 기회를 찾습니다.
+- **[실험 에이전트](https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}** - 실험 결과를 분석하고, 가장 성과가 좋은 패턴을 식별하며, 여러 채널에서 테스트할 새로운 기회를 찾습니다.
 - **[Audience Agent](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/audience-agent){target="_blank"}** - 대화형 AI를 통해 대상 세그먼트를 만들고 관리하며, 대상 구성을 분석하고, 세그멘테이션 전략을 최적화합니다.
 - **[Agent Orchestrator](https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}** - 여러 전문 에이전트를 조정하여 복잡하고 여러 단계로 진행되는 마케팅 문제를 효율적으로 해결합니다.
 

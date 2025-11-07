@@ -50,7 +50,7 @@ Adobe Journey Optimizer의 다국어 콘텐츠 기능을 사용하면 여러 언
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 수동 번역을 사용하여 다국어 콘텐츠 만들기
 

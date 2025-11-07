@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 세그먼트 정의 작성
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/file-upload.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/file-upload.svg?lang=ko)
 
 사용자 정의 CSV 업로드를 사용하여 대상자를 가져오는 방법
 

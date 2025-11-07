@@ -28,7 +28,7 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->승인 정책을 만들려면 Adobe Experience Platform에서 시스템 또는 제품 관리자 권한이 있어야 합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)
+>승인 정책을 만들려면 Adobe Experience Platform에서 시스템 또는 제품 관리자 권한이 있어야 합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/home)
 
 승인 정책을 사용하면 관리자가 여정 및 캠페인에 대한 유효성 검사 프로세스를 설정할 수 있습니다. 이 시스템은 여정 또는 캠페인에 승인이 필요한지 여부를 결정하는 특정 조건을 간략하게 설명합니다. 이러한 정책은 단순히 모든 캠페인을 특정 사용자 또는 팀이 검토하도록 하는 것에서부터 캠페인을 만든 사람을 기준으로 기준을 설정하는 것까지 복잡성에 따라 달라질 수 있습니다.
 

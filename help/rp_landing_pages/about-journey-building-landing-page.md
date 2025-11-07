@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 활동은 여러 채널에서 이벤트를 트리거�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
 
 Journey Optimizer 소개
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 이벤트, 오케스트레이션 및 액션 활동을
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 일반 이벤트 사용
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer의 이벤트, 오케스트레이션 및 액션 활동을
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 반응 이벤트 구성
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer의 이벤트, 오케스트레이션 및 액션 활동을
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 대상자 선별 이벤트
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer의 이벤트, 오케스트레이션 및 액션 활동을
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 조건 활동 사용
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer의 이벤트, 오케스트레이션 및 액션 활동을
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ko)
 
 대기 활동 구성
 

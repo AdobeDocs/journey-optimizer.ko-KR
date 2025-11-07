@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 &#39;브랜드&#39; 기능을 사용하면 브랜드 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 브랜드 가이드라인 만들기 및 관리
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer로 시각적, 언어적 정체성을 일관되게 유지
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 브랜드 일관성 점수 평가
 

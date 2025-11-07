@@ -40,7 +40,7 @@ Adobe Journey Optimizer의 충돌 관리 및 우선순위 지정은 고객 피�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 캠페인에 우선순위 점수 할당
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer의 충돌 관리 및 우선순위 지정은 고객 피�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 메시지 및 여정 캡핑 규칙 설정
 

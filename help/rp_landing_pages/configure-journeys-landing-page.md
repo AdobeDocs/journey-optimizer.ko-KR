@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 여정 구성을 사용하면 데이터 소스, 이�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 여정 구성 시작
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 여정 구성을 사용하면 데이터 소스, 이�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 Adobe Journey Optimizer의 이벤트 구성
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer의 데이터 소스 구성
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=ko)
 
 사용자 정의 액션 구성 및 사용
 

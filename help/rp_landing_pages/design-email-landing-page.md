@@ -20,7 +20,7 @@ Adobe Journey Optimizer에서 이메일 콘텐츠를 디자인하여 대상을 �
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 이메일 디자인 시작
 

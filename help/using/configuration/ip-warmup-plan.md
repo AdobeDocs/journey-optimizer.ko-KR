@@ -267,14 +267,14 @@ Hotmail 외부 도메인과 도메인 그룹 Microsoft의 도메인은 **[!UICON
 >id="ajo_admin_ip_warmup_upload"
 >title="IP 워밍업 플랜 지정"
 >abstract="IP 워밍업 단계, 목표 프로필 수와 같이 플랜에 필요한 모든 데이터를 입력하여 Excel 템플릿을 작성하고 여기에 업로드합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html#prepare-file" text="IP 워밍업 플랜 파일 준비"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html?lang=ko#prepare-file" text="IP 워밍업 플랜 파일 준비"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_surface"
 >title="마케팅 구성 선택"
 >abstract="IP 워밍업 플랜과 연결하려는 캠페인에서 선택한 것과 동일한 구성을 선택해야 합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html" text="채널 구성 설정"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html" text="IP 워밍업 캠페인 만들기"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=ko" text="채널 구성 설정"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=ko" text="IP 워밍업 캠페인 만들기"
 
 IP 준비 계획을 만들려면 아래 단계를 수행합니다.
 

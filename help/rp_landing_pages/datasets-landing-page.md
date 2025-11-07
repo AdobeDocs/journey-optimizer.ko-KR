@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 데이터 세트 액세스, 생성, 관리 및 관
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 Journey Optimizer 데이터 세트 내보내기
 
