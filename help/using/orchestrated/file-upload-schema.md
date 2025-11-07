@@ -29,7 +29,7 @@ ht-degree: 46%
 
 1. 지원되는 소스에서 데이터 세트로 [데이터를 수집](ingest-data.md)합니다.
 
-➡️ [Adobe Experience Platform 설명서에서 모델 기반 스키마에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational)
+➡️ [Adobe Experience Platform 설명서에서 모델 기반 스키마에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/relational)
 
 ## DDL 파일 업로드{#ddl-upload}
 

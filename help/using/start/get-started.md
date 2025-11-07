@@ -88,6 +88,6 @@ Journey Optimizer의 핵심 기능 및 서비스는 실시간 고객 프로필�
 >* [시작하는 주요 단계](quick-start.md)
 >* [여정 디자인 및 메시지 보내기](../building-journeys/journey-gs.md)
 >* [라이브 보고서](../reports/live-report.md)
->* [Journey Optimizer 소개 자습서](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction){target="_blank"}
+>* [Journey Optimizer 소개 자습서](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction){target="_blank"}
 >* [Journey Optimizer 보안 개요](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf)&#x200B;(PDF)
 >* [Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}

@@ -40,6 +40,6 @@ ht-degree: 76%
 * **[DM 채널 구성](direct-mail-configuration.md)** - DM 표면 및 파일 라우팅 구성을 설정합니다.
 * **[여정의 DM](direct-mail-journeys.md)** - 고객 여정 내에서 DM 작업을 사용하는 방법에 대해 알아봅니다.
 * **[DM 테스트 및 보내기](test-send-direct-mail.md)** - DM 게재 테스트, 유효성 검사 및 게시 방법을 알아봅니다.
-* **[DM 튜토리얼](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}** - DM 기능 및 모범 사례에 대한 단계별 비디오 튜토리얼을 살펴보십시오.
+* **[DM 튜토리얼](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}** - DM 기능 및 모범 사례에 대한 단계별 비디오 튜토리얼을 살펴보십시오.
 
 

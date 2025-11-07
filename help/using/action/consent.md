@@ -61,7 +61,7 @@ ht-degree: 99%
 
       >[!NOTE]
       >
-      >Adobe에서 기본적으로 제공하는 핵심 마케팅 액션 목록은 [이 테이블](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html#core-actions){target="_blank"}에서 확인할 수 있습니다. 사용자 정의 마케팅 액션을 만드는 단계의 목록은 [이 섹션](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=ko#create-marketing-action){target="_blank"}에서 확인할 수 있습니다.
+      >Adobe에서 기본적으로 제공하는 핵심 마케팅 액션 목록은 [이 테이블](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ko#core-actions){target="_blank"}에서 확인할 수 있습니다. 사용자 정의 마케팅 액션을 만드는 단계의 목록은 [이 섹션](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=ko#create-marketing-action){target="_blank"}에서 확인할 수 있습니다.
 
    1. 마케팅 액션이 적용될 때 실행할 작업을 선택합니다. 이 예제에서는 **[!UICONTROL 이메일 마케팅 동의]**&#x200B;를 선택합니다.
 
