@@ -74,4 +74,4 @@ Adobe Experience Platform에서 사용할 수 있는 데이터를 기반으로 �
 
 ## 튜토리얼 비디오 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/329373?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/341375?captions=kor&quality=12)

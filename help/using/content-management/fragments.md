@@ -60,8 +60,8 @@ ht-degree: 19%
 
 **에서**&#x200B;시각적 조각[!DNL Journey Optimizer]을(를) 관리, 작성 및 사용하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3419932/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451189/?captions=kor&quality=12)
 
 **에서**&#x200B;표현식 조각[!DNL Journey Optimizer]을(를) 관리, 작성 및 사용하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3424587/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3438924/?captions=kor&quality=12)

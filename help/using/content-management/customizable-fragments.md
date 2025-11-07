@@ -194,4 +194,4 @@ HTML 구성 요소를 사용하여 편집 가능한 조각에 줄 바꿈, 굵게
 
 이 비디오는 조각 내에서 HTML 구성 요소를 편집 가능하게 만들어 콘텐츠와 스타일 모두에 대한 동적 업데이트를 허용하는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464375/?captions=kor&learn=on&#x26;enablevpops)

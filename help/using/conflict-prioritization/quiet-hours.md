@@ -187,4 +187,4 @@ ht-degree: 7%
 
 Adobe Journey Optimizer에서 방해 금지 모드 해제 시간 기능을 사용하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475851?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475859?captions=kor&quality=12)

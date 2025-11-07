@@ -195,6 +195,6 @@ Once you have performed your tests and validated the content, you can send your 
 
 +++ 비디오 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3470282/?learn=on")
+>[!VIDEO](https://video.tv.adobe.com/v/3470289/?captions=kor&learn=on")
 
 +++

@@ -236,7 +236,7 @@ ht-degree: 12%
 
   +++비디오 보기
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3451889?captions=kor&quality=12&learn=on)
 
   +++
 
@@ -244,7 +244,7 @@ ht-degree: 12%
 
   +++비디오 보기
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3445295/?captions=kor&learn=on&autoplay=true)
 
   +++
 
