@@ -10,7 +10,7 @@ level: Experienced
 keywords: 데이터, 거버넌스, DULE, 레이블, 레이블 지정, 플랫폼, 정책
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1290'
 ht-degree: 100%
 
