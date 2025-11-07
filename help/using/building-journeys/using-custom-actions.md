@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 작업, 사용자 지정, API, 여정, 구성, 서비스
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 221368c7766e942143639fcd554b32f9de5ab0c9
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 21%
+source-wordcount: '427'
+ht-degree: 20%
 
 ---
 
@@ -29,6 +29,8 @@ ht-degree: 21%
 [이 섹션](../action/action.md)에서 사용자 지정 작업에 대해 자세히 알아보세요.
 
 [이 페이지](../action/about-custom-action-configuration.md)에서 사용자 지정 작업을 만들고 구성하는 방법에 대해 알아봅니다.
+
+[이 페이지](../action/action-response.md)에서 개인화를 위해 사용자 지정 작업의 API 호출 응답을 사용하는 방법을 알아봅니다.
 
 ## 동의 및 데이터 거버넌스 {#privacy}
 

@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: 표현식, 편집기, 정보, 시작
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 6b3005dd9483ff5311e4bf6b4f13d254c6be41d6
+source-git-commit: 221368c7766e942143639fcd554b32f9de5ab0c9
 workflow-type: tm+mt
-source-wordcount: '1550'
+source-wordcount: '1569'
 ht-degree: 10%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 10%
 
 ## 개인화를 추가할 수 있는 위치 {#where}
 
-**[!DNL Journey Optimizer]**&#x200B;개인화 추가 아이콘![&#x200B; 아이콘을 사용하여 모든 필드의 &#x200B;](assets/do-not-localize/add-perso-icon.svg)에 개인화를 추가할 수 있습니다. 자세한 내용을 보려면 아래 섹션을 확장하십시오.
+**[!DNL Journey Optimizer]**&#x200B;개인화 추가 아이콘![ 아이콘을 사용하여 모든 필드의 ](assets/do-not-localize/add-perso-icon.svg)에 개인화를 추가할 수 있습니다. 자세한 내용을 보려면 아래 섹션을 확장하십시오.
 
 +++메시지
 
@@ -105,7 +105,7 @@ Journey Optimizer은 일부 고객에 대해 제한된 가용성에서도 전체
 * **[!UICONTROL 대상 특성]** : 이 폴더는 오케스트레이션된 캠페인에만 적용됩니다. 여기에는 캠페인 캔버스 내에서 직접 계산된 속성이 포함됩니다. [오케스트레이션된 캠페인에서 개인화를 추가하는 방법을 알아봅니다](../orchestrated/activities/channels.md#add-personalization)
 * **[!UICONTROL 대상]** : Adobe Experience Platform 세분화 서비스에서 만든 모든 대상을 나열합니다. 사용 가능한 세분화에 대한 자세한 정보는 [여기](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ko){target="_blank"}를 참조하세요.
 * **[!UICONTROL 오퍼 결정]** : 특정 배치와 관련된 모든 오퍼를 나열합니다. 배치를 선택한 다음 콘텐츠에 오퍼를 삽입합니다. 오퍼 관리 방법에 대한 전체 문서를 보려면 [이 섹션](../offers/get-started/starting-offer-decisioning.md)을 참조하세요.
-* **[!UICONTROL 컨텍스트 특성]** : 여정 또는 캠페인에서 채널 작업 활동(이메일, 푸시, SMS)을 사용하면 이벤트 및 속성과 관련된 컨텍스트 특성을 개인화할 수 있습니다. 컨텍스트 특성을 활용하는 개인화의 예는 [이 섹션](personalization-use-case.md)에 나와 있습니다.
+* **[!UICONTROL 컨텍스트 특성]** : 여정 또는 캠페인에서 채널 작업 활동(이메일, 푸시, SMS)을 사용하면 이벤트 및 속성과 관련된 컨텍스트 특성을 개인화할 수 있습니다. 컨텍스트 특성을 활용하는 개인화의 예는 [이 섹션](personalization-use-case.md)에 나와 있습니다. 또한 사용자 지정 작업 응답을 개인화에 사용할 수 있습니다. [기본 채널에서 사용자 지정 작업 응답을 사용하는 방법을 알아봅니다](../action/action-response.md#response-in-channels).
 
 >[!NOTE]
 >

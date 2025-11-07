@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 221368c7766e942143639fcd554b32f9de5ab0c9
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 6%
+source-wordcount: '652'
+ht-degree: 5%
 
 ---
 
@@ -162,6 +162,10 @@ Some edu specific content
     <li>{{product.productName}} {{product.productRating}}</li>
 {{/each}}
 ```
+
+>[!NOTE]
+>
+>`each` 도우미를 사용하여 사용자 지정 작업 응답에서 반환된 배열을 반복할 수도 있습니다. 사용자 지정 작업 응답에서 중첩된 배열을 반복하는 예제는 [기본 채널에서 사용자 지정 작업 응답 사용](../../action/action-response.md#response-in-channels)을 참조하십시오.
 
 ## 포함{#with}
 
