@@ -8,10 +8,10 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: cc38101d0745770cca196372fc5fdbb64318e601
+source-git-commit: 1349da209bc90dd8ebad0bd309f89039aa6ea3f2
 workflow-type: tm+mt
-source-wordcount: '1815'
-ht-degree: 1%
+source-wordcount: '2153'
+ht-degree: 2%
 
 ---
 
@@ -32,6 +32,7 @@ ht-degree: 1%
 
 왼쪽 메뉴에서 **[!UICONTROL 관리]** 아래의 **[!UICONTROL 경고]**&#x200B;를 클릭합니다. **찾아보기** 탭에서 Journey Optimizer에 대해 미리 구성된 여러 경고를 사용할 수 있습니다.
 
+![](assets/updated-alerts-list.png){width=50%}
 
 * 여정 관련 경고:
 
@@ -39,6 +40,9 @@ ht-degree: 1%
    * [사용자 지정 작업 오류율 초과](#alert-custom-action-error-rate) 경고(이전 여정 사용자 지정 작업 실패 경고를 대체)
    * [프로필 삭제 비율 초과](#alert-discard-rate) 경고
    * [프로필 오류율 초과](#alert-profile-error-rate) 경고
+   * [여정 게시됨](#alert-journey-published) 경고
+   * [여정 완료](#alert-journey-finished) 경고
+   * [사용자 지정 작업 한도 트리거됨](#alert-custom-action-capping) 경고
 
 * 채널 구성과 관련된 경고:
 
@@ -71,7 +75,7 @@ ht-degree: 1%
 
 1. **[!UICONTROL 구독 취소]**&#x200B;에 동일한 방법을 사용하십시오.
 
-[I/O 이벤트 알림](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=ko){target="_blank"}을 통해 구독할 수도 있습니다. 경고 규칙은 다른 구독 패키지로 구성됩니다. 특정 Journey Optimizer 경고에 해당하는 이벤트 구독은 [아래](#journey-alerts)에 자세히 설명되어 있습니다.
+[I/O 이벤트 알림](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}을 통해 구독할 수도 있습니다. 경고 규칙은 다른 구독 패키지로 구성됩니다. 특정 Journey Optimizer 경고에 해당하는 이벤트 구독은 [아래](#journey-alerts)에 자세히 설명되어 있습니다.
 
 ### 단일 구독 {#unitary-subscription}
 
@@ -81,13 +85,13 @@ ht-degree: 1%
 
    ![특정 여정에 대한 경고를 구독하는 중](assets/subscribe-journey-alert.png){width=75%}
 
-1. 경고를 선택합니다. 다음 경고를 사용할 수 있습니다. [프로필 삭제 비율 초과](#alert-discard-rate), [사용자 지정 작업 오류 비율 초과](#alert-custom-action-error-rate), [프로필 오류 비율 초과](#alert-profile-error-rate).
+1. 경고를 선택합니다. 다음 경고를 사용할 수 있습니다. [프로필 삭제 비율 초과](#alert-discard-rate), [사용자 지정 작업 오류 비율 초과](#alert-custom-action-error-rate), [프로필 오류 비율 초과](#alert-profile-error-rate), [여정 게시](#alert-journey-published), [여정 완료](#alert-journey-finished) 및 [사용자 지정 작업 한도 트리거](#alert-custom-action-capping).
 
 1. 경고 구독을 취소하려면 동일한 화면에서 경고를 선택 취소합니다.
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭하여 확인합니다.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=ko#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## 여정 경고 {#journey-alerts}
 
@@ -101,8 +105,6 @@ ht-degree: 1%
 ### 대상자 읽기 트리거 실패 {#alert-read-audiences}
 
 이 경고는 **대상자 읽기** 활동이 예약된 실행 시간 10분 후에 어떤 프로필도 처리하지 않은 경우 경고합니다. 이 실패는 기술 문제 또는 대상이 비어 있기 때문에 발생할 수 있습니다. 이 실패가 기술적인 문제로 인해 발생한 경우 문제 유형에 따라 다시 시도가 계속 발생할 수 있습니다(예: 내보내기 작업 만들기가 실패한 경우 최대 1시간 동안 10밀리초마다 다시 시도).
-
-![](assets/read-audience-alert.png)
 
 **대상자 읽기** 활동에 대한 경고는 반복 여정에 적용됩니다. **한 번** 또는 **가능한 한 빨리** 실행 일정이 있는 Live 여정의 **대상자 읽기** 활동은 무시됩니다.
 
@@ -154,6 +156,42 @@ ht-degree: 1%
 
 프로필 오류를 해결하려면 여정에서 프로필이 실패한 위치와 이유를 파악하기 위해 단계 이벤트의 데이터를 쿼리할 수 있습니다.
 
+### 여정 게시됨 {#alert-journey-published}
+
+이 경고는 전문가가 여정 캔버스에서 여정을 게시하면 알려줍니다.
+
+조직의 여정 라이프사이클 이벤트를 추적하는 데 도움이 되는 정보 알림입니다. 일회성 알림이므로 해결 기준이 없습니다.
+
+### 여정 완료됨 {#alert-journey-finished}
+
+이 경고는 여정이 완료되면 알려 줍니다. 완료됨의 정의는 여정 유형에 따라 달라집니다.
+
+| 여정 유형 | 반복? | 종료 날짜가 있습니까? | &quot;완료됨&quot;의 정의 |
+|--------------|------------|---------------|--------------------------|
+| 대상자 읽기 | 아니요 | 해당 사항 없음 | 실행 시작 91일 후 |
+| 대상자 읽기 | 예 | 아니요 | 실행 시작 91일 후 |
+| 대상자 읽기 | 예 | 예 | 종료 날짜에 도달하면 |
+| 이벤트 트리거된 여정 | 해당 사항 없음 | 예 | 종료 날짜에 도달하면 |
+| 이벤트 트리거된 여정 | 해당 사항 없음 | 아니요 | UI에서 또는 API를 통해 닫힌 경우 |
+
+여정 완료를 추적하는 데 도움이 되는 정보 경고입니다. 일회성 알림이므로 해결 기준이 없습니다.
+
+### 사용자 지정 작업 한도 트리거됨 {#alert-custom-action-capping}
+
+이 경고는 사용자 지정 작업에서 상한이 트리거되면 경고합니다. 최대 가용량(capping)은 끝점을 초과하지 않도록 외부 끝점으로 전송되는 호출 수를 제한하는 데 사용됩니다.
+
+경고 세부 정보 및 구성을 확인하려면 경고 이름을 클릭합니다.
+
+캡핑이 트리거되면 정의된 기간 내에 최대 API 호출 수에 도달하고 추가 호출이 조절되거나 큐에 있음을 의미합니다. [이 페이지](../action/about-custom-action-configuration.md#custom-action-enhancements-best-practices)에서 사용자 지정 작업의 최대 한도에 대해 자세히 알아보세요.
+
+이 경고는 캡핑이 더 이상 활성화되지 않거나 평가 기간 동안 프로필이 사용자 지정 작업에 도달하지 않을 때 해결됩니다.
+
+최대 가용량 문제를 해결하려면 다음을 수행하십시오.
+
+* 사용자 지정 작업에 대한 최대 가용량 구성을 검토하여 제한이 사용 사례에 적합한지 확인하십시오.
+* API 호출 볼륨이 예상보다 높은지 확인하고 여정 디자인 또는 최대 가용량 설정을 조정하는 것이 좋습니다.
+* 외부 끝점을 모니터링하여 예상 로드를 처리할 수 있는지 확인합니다.
+
 ## 구성 경고 {#configuration-alerts}
 
 사용자 인터페이스에서 사용할 수 있는 채널 구성 모니터링 경고 목록은 다음과 같습니다.
@@ -170,7 +208,7 @@ ht-degree: 1%
 
 필요한 NS 또는 CNAME 레코드가 없거나 구성 표준과 일치하지 않음을 시스템에서 감지하면 **AJO 도메인 DNS 레코드 누락** 경고가 트리거됩니다.
 
-1. [&#x200B; 인터페이스에서 영향을 받는 &#x200B;](../configuration/delegate-subdomain.md)하위 도메인[!DNL Journey Optimizer]&#x200B;(으)로 보낼 경고를 클릭합니다.
+1. [ 인터페이스에서 영향을 받는 ](../configuration/delegate-subdomain.md)하위 도메인[!DNL Journey Optimizer]&#x200B;(으)로 보낼 경고를 클릭합니다.
 
    <!--For guidance on editing delegated subdomains, see [this section](../configuration/delegate-subdomain.md).-->
 
@@ -196,7 +234,7 @@ ht-degree: 1%
 
 이러한 경고를 받으면 해결 단계 가 아래에 나열됩니다.
 
-1. [&#x200B; 인터페이스에서 영향을 받는 &#x200B;](../email/get-started-email-config.md)전자 메일 채널 구성[!DNL Journey Optimizer]&#x200B;(으)로 보낼 경고를 클릭합니다.
+1. [ 인터페이스에서 영향을 받는 ](../email/get-started-email-config.md)전자 메일 채널 구성[!DNL Journey Optimizer]&#x200B;(으)로 보낼 경고를 클릭합니다.
 
    채널 구성 편집에 대한 지침은 [이 섹션](../configuration/channel-surfaces.md#edit-channel-surface)을 참조하세요.
 

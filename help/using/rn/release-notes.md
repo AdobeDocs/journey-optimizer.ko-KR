@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b24c89f966fe6eeb58d019bc85cedc89ee13f113
+source-git-commit: 1349da209bc90dd8ebad0bd309f89039aa6ea3f2
 workflow-type: tm+mt
-source-wordcount: '1357'
-ht-degree: 84%
+source-wordcount: '1456'
+ht-degree: 79%
 
 ---
 
@@ -31,6 +31,29 @@ ht-degree: 84%
 지난 주에 릴리스된 새로운 기능 및 개선 사항은 아래에 나열되어 있으며 해당 사용 가능 날짜가 표시됩니다. 월말에 다음 릴리스 노트 콘텐츠로 그룹화됩니다. 아래의 최신 [릴리스 정보](#latest-rn)도 참조하세요.
 
 ### 새로운 기능 {#features}
+
+<table>
+<thead>
+<tr>
+<th><strong>새 여정 경고</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 여정 라이프사이클 이벤트와 사용자 지정 작업 성능을 모니터링하고 추적하는 데 도움이 되는 세 가지 새로운 여정 경고를 사용할 수 있습니다.</p>
+<ul>
+<li><strong>여정 게시됨</strong>: 여정 캔버스에서 전문가가 여정을 게시할 때 알림을 받습니다.</li>
+<li><strong>여정 완료됨</strong>: 여정이 완료되면 알림을 받습니다. 여정 유형에 따라 특정 정의가 있습니다(대상 읽기 또는 이벤트가 트리거됨).</li>
+<li><strong>사용자 지정 작업 한도가 트리거됨</strong>: 사용자 지정 작업 끝점에서 한도가 활성화될 때 알림을 받습니다.</li>
+</ul>
+<p>이러한 경고는 조직 수준 또는 특정 여정에 대해 구독할 수 있습니다.</p>
+<p>자세한 내용은 <a href="../reports/alerts.md#journey-alerts">세부 설명서</a>를 참조하십시오.</p>
+<p>사용 가능한 날짜: 2025년 11월 5일 목요일</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
