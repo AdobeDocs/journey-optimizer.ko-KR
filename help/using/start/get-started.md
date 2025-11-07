@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
-workflow-type: ht
-source-wordcount: '847'
-ht-degree: 100%
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+workflow-type: tm+mt
+source-wordcount: '853'
+ht-degree: 99%
 
 ---
 
@@ -88,5 +88,6 @@ Journey Optimizer의 핵심 기능 및 서비스는 실시간 고객 프로필�
 >* [시작하는 주요 단계](quick-start.md)
 >* [여정 디자인 및 메시지 보내기](../building-journeys/journey-gs.md)
 >* [라이브 보고서](../reports/live-report.md)
+>* [Journey Optimizer 소개 자습서](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction){target="_blank"}
 >* [Journey Optimizer 보안 개요](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf)&#x200B;(PDF)
 >* [Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}

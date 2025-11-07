@@ -6,10 +6,10 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: ht
-source-wordcount: '771'
-ht-degree: 100%
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+workflow-type: tm+mt
+source-wordcount: '855'
+ht-degree: 90%
 
 ---
 
@@ -101,4 +101,13 @@ ht-degree: 100%
    >[!INFO]
    >
    >이를 위해 앱 구현 팀은 “배너 텍스트” 또는 “권장 사항 트레이 1”과 같이 코드 기반 구성에서 정의된 표면에 사용할 콘텐츠나, “검색 알고리즘 매개변수”와 같이 애플리케이션의 UI 관련이 아닌 결정 지점에 사용할 콘텐츠를 가져오기 위해 명시적 API 또는 SDK 호출을 수행합니다. <!--In this case, the implementation team is responsible for rendering or otherwise interpreting and acting on the returned content.--> [자세히 알아보기](code-based-implementation-samples.md)
+
+## 추가 리소스
+
+* **[코드 기반 여정 만들기](create-code-based.md)** - 사용자 지정 구현을 위한 코드 기반 캠페인 및 경험을 만들고 구성하는 방법에 대해 알아봅니다.
+* **[코드 기반 채널 구성](code-based-configuration.md)** - 적절한 표면 및 구현 설정을 사용하여 코드 기반 경험 구성을 설정합니다.
+* **[코드 기반 필수 구성 요소](code-based-prerequisites.md)** - 구현에 필요한 기술 요구 사항 및 개발자 리소스를 이해합니다.
+* **[코드 기반 경험 테스트](test-code-based.md)** - 게시하기 전에 코드 기반 경험을 미리 보고 테스트하는 방법에 대해 알아봅니다.
+* **[구현 샘플](code-based-implementation-samples.md)** - 다양한 사용 사례에 대한 코드 예제 및 구현 패턴을 살펴봅니다.
+* **[코드 기반 경험 튜토리얼](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/channels/code-based-experience-channel/create-a-code-based-experience-campaign){target="_blank"}** - 코드 기반 기능 및 모범 사례에 대한 단계별 비디오 튜토리얼을 살펴보십시오.
 

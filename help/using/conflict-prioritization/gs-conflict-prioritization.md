@@ -4,10 +4,10 @@ description: Journey Optimizer 충돌 및 우선 순위 지정 도구를 활용�
 role: User
 level: Beginner
 exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: ht
-source-wordcount: '629'
-ht-degree: 100%
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+workflow-type: tm+mt
+source-wordcount: '716'
+ht-degree: 88%
 
 ---
 
@@ -68,3 +68,12 @@ Journey Optimizer에서 너무 많은 상호 작용으로 고객에게 부담 �
 * **대상자 선별 여정의 동시 활성화**
 
   동일한 대상자 선별 이벤트에 의해 여러 대상자 선별 여정이 활성화되면 진입 캡핑에 대한 카운트가 정확하지 않게 됩니다. 카운트가 상한보다 낮은 경우에도 여정의 중재는 계속 이루어지지만 동시 활성화에 대한 최신 카운트를 얻을 수 없습니다.
+
+## 추가 리소스
+
+* **[충돌 관리](conflicts.md)** - 겹치는 캠페인과 여정 간의 충돌을 식별하고 해결하는 방법에 대해 알아봅니다.
+* **[우선 순위 점수 설정](priority-scores.md)** - 우선 순위 점수를 할당하고 사용하여 메시지 게재 우선 순위를 제어하는 방법을 이해합니다.
+* **[빈도 제한 구성](channel-capping.md)** - 과도한 메시징을 방지하기 위해 채널 수준 빈도 제한을 설정하는 방법을 알아봅니다.
+* **[규칙 집합 만들기](rule-sets.md)** - 고급 충돌 관리 및 메시지 거버넌스를 위한 비즈니스 규칙을 만드는 방법을 알아봅니다.
+* **[여정 단위 한도](journey-capping.md)** - 여정 수준 한도 규칙을 설정하여 여정 내 메시지 빈도를 제어합니다.
+* **[충돌 관리 튜토리얼](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/conflict-management/identify-potential-conflicts){target="_blank"}** - 충돌 관리 및 우선 순위에 대한 단계별 비디오 튜토리얼을 살펴보십시오.

@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 시작하기, 시작, 콘텐츠, 실험
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
-source-wordcount: '2002'
-ht-degree: 97%
+source-wordcount: '2085'
+ht-degree: 93%
 
 ---
 
@@ -181,3 +181,12 @@ Adobe은 신뢰도가 95%를 넘는 경우 실험의 결과가 결정적이라�
   >[!CAUTION]
   >
   >추가 분석을 하면 가짜 효과(긍정 오류)를 찾아낼 가능성도 높아집니다.
+
+## 추가 리소스
+
+* **[콘텐츠 실험 만들기](content-experiment.md)** - 메시지 성능을 최적화하기 위해 A/B 테스트를 디자인하고 구성하는 방법에 대해 알아봅니다.
+* **[실험 계산](experiment-calculations.md)** - 실험 분석에 사용되는 통계 방법 및 지표를 이해합니다.
+* **[Multi-armed bandit와 A/B 테스트 비교](mab-vs-ab.md)** - 다양한 실험 접근 방식과 각 메서드를 사용할 시기를 비교합니다.
+* **[실험 가속기](experiment-accelerator-gs.md)** - AI 기반 최적화를 통해 실험 속도를 높이는 방법을 알아봅니다.
+* **[실험 보고서 계산](experiment-report-calculations.md)** - 실험 결과와 통계적 유의성을 해석하는 방법을 알아봅니다.
+* **[실험 튜토리얼](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/content-management/experimentation-overview){target="_blank"}** - 콘텐츠 실험 및 모범 사례에 대한 단계별 비디오 튜토리얼을 살펴보십시오.

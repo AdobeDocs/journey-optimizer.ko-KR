@@ -9,10 +9,10 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: 구성, 구성하기, 메시지, 채널, 샌드박스, optimizer
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 43%
+source-wordcount: '397'
+ht-degree: 34%
 
 ---
 
@@ -73,3 +73,12 @@ ht-degree: 43%
    * 받는 사람을 너무 많이 사용하지 않도록 **비즈니스 규칙**&#x200B;을 구성하세요. [자세히 알아보기](../conflict-prioritization/rule-sets.md)
 
    * Adobe Experience Platform에서 수신자의 주소/전화번호를 여러 개 사용할 수 있는 경우 어느 주소/전화번호를 우선으로 사용할지 정합니다. [자세히 알아보기](primary-email-addresses.md)
+
+## 추가 리소스
+
+* **[채널 표면 구성](channel-surfaces.md)** - 전자 메일, 푸시, SMS 및 기타 채널에 대한 채널 표면을 설정하고 관리하는 방법에 대해 알아봅니다.
+* **[하위 도메인 위임](delegate-subdomain.md)** - 이메일 전달성 및 브랜딩을 위해 하위 도메인을 Adobe에 위임하는 방법을 이해합니다.
+* **[IP 웜업](ip-warmup-gs.md)** - IP 주소 웜업에 대한 모범 사례를 살펴보고 전자 메일 배달 가능성 및 보낸 사람의 신뢰도를 개선합니다.
+* **[제외 목록 관리](manage-suppression-list.md)** - 바운스를 처리하고 목록 안전 상태를 유지하기 위해 제외 목록을 관리하는 방법을 알아봅니다.
+* **[모바일 앱 구성](set-mobile-config.md)** - 푸시 알림 및 인앱 메시지에 대한 모바일 앱 구성을 설정합니다.
+* **[구성 튜토리얼](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/configuration/channel-configuration/configure-channels){target="_blank"}** - 채널 구성 및 모범 사례에 대한 단계별 비디오 튜토리얼을 살펴보십시오.

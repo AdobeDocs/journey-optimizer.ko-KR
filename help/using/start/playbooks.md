@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2214ec90-580e-469e-9b14-d8cb2d4bb050
-source-git-commit: b4c1cb69fd67e8c74982103c68050ab56a71113a
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
 source-wordcount: '499'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 ![사용 사례 플레이북을 보여 주는 애니메이션 이미지](../rn/assets/do-not-localize/playbooks.gif){width="85%"}
 
-각 플레이북은 의도, 목표, 타겟팅된 가상 사용자 및 이를 구현하는 데 필요한 리소스를 포함한 포괄적인 개요를 제공합니다. 또한 각 플레이북에서 마인드맵을 사용하여 플레이북과 관련된 실제 고객 터치포인트를 시각적으로 표시할 수 있습니다.
+각 플레이북은 의도, 목표, 타깃팅된 페르소나 및 이를 구현하는 데 필요한 리소스를 포함한 포괄적인 개요를 제공합니다. 또한 각 플레이북에서 마인드맵을 사용하여 플레이북과 관련된 실제 고객 터치포인트를 시각적으로 표시할 수 있습니다.
 
 ![플레이북 검색 보기에 표시된 포기한 장바구니 플레이북](assets/playbooks-detail.png){width="85%"}
 
@@ -61,4 +61,4 @@ ht-degree: 100%
 
 AI 지원 또는 수동 입력을 사용하여 메타데이터를 정의하고 스키마, 세그먼트와 같은 기술 자산을 연결하며 다양한 IMS 조직 간에 플레이북을 공유할 수 있습니다.
 
-플레이북을 만들고 공유하는 방법에 대한 자세한 내용은 사용 사례 플레이북 설명서 [AI 어시스턴트를 사용한 나만의 플레이북 작성 및 공유](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/author.html?lang=ko#sharing-playbooks-sandboxes){target="_blank"}를 참조하십시오.
+플레이북을 만들고 공유하는 방법에 대한 자세한 내용은 사용 사례 플레이북 설명서 [AI 어시스턴트를 사용한 나만의 플레이북 작성 및 공유](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/author.html#sharing-playbooks-sandboxes){target="_blank"}를 참조하십시오.

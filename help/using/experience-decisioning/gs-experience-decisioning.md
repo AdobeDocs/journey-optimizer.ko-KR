@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '619'
 ht-degree: 22%
 
 ---
@@ -44,11 +44,11 @@ Decisioning을 사용하는 주요 단계는 다음과 같습니다.
 
       ![](assets/decision_permission_1.png)
 
-   1. **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
+   1.  **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
 
       ![](assets/decision_permission_2.png)
 
-   1. 사용자 이름 또는 전자 메일 주소를 입력하거나 목록에서 사용자를 선택하고 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+   1. 사용자 이름 또는 이메일 주소를 입력하거나 목록에서 사용자를 선택하고 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
       이전에 사용자를 생성하지 않은 경우 [사용자 설명서 추가](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/ui/users)를 참조하십시오.
 
@@ -64,11 +64,11 @@ Decisioning을 사용하는 주요 단계는 다음과 같습니다.
 
 1. 타깃팅된 대상자에게 표시할 **결정 항목을 만듭니다**.
 
-   ➡️ [사용자 인터페이스 및 &#x200B;](items.md)API 설명서[에서 의사 결정 항목을 만드는 방법을 알아봅니다](api-reference/decisions-items/create.md)
+   ➡️ [사용자 인터페이스 및 ](items.md)API 설명서[에서 의사 결정 항목을 만드는 방법을 알아봅니다](api-reference/decisions-items/create.md)
 
 1. **컬렉션으로 구성**: 컬렉션을 사용하여 특성 기반 규칙에 따라 결정 항목을 분류합니다. 컬렉션을 선택 전략에 통합하여 고려해야 하는 결정 항목의 컬렉션을 결정합니다.
 
-   ➡️ [사용자 인터페이스 및 &#x200B;](collections.md)API 설명서[에서 항목 컬렉션을 관리하는 방법을 알아봅니다](api-reference/items-collections/create.md)
+   ➡️ [사용자 인터페이스 및 ](collections.md)API 설명서[에서 항목 컬렉션을 관리하는 방법을 알아봅니다](api-reference/items-collections/create.md)
 
 1. **의사 결정 규칙 만들기**: 의사 결정 규칙은 의사 결정 항목 및/또는 선택 전략에서 의사 결정 항목을 표시할 대상을 결정하는 데 사용됩니다.
 
@@ -80,10 +80,20 @@ Decisioning을 사용하는 주요 단계는 다음과 같습니다.
 
 1. **선택 전략 만들기**: 컬렉션, 의사 결정 규칙 및 등급 방법을 활용하여 프로필에 표시하는 데 적합한 의사 결정 항목을 식별하는 선택 전략을 만듭니다.
 
-   ➡️ [사용자 인터페이스 및 &#x200B;](selection-strategies.md)API 설명서[의 사용자 인터페이스에서 선택 전략을 만드는 방법을 알아봅니다](api-reference/selection-strategies/create.md)
+   ➡️ [사용자 인터페이스 및 ](selection-strategies.md)API 설명서[의 사용자 인터페이스에서 선택 전략을 만드는 방법을 알아봅니다](api-reference/selection-strategies/create.md)
 
 1. **의사 결정 정책을 만들어 코드 기반 또는 이메일 여정/캠페인에 포함시킵니다**: 의사 결정 정책은 여러 선택 전략을 결합하여 의도한 대상자에게 표시할 적합한 의사 결정 항목을 결정합니다.
 
    ➡️ [의사 결정 정책 사용 방법 알아보기](create-decision.md)
 ➡️ 코드 기반 경험 채널을 통해 오퍼를 성공적으로 게재하려면 [이 섹션](../code-based/code-based-implementation-samples.md)의 구현 단계를 따르십시오.
+
+## 추가 리소스
+
+* **[의사 결정 항목 만들기](items.md)** - 오퍼, 콘텐츠 변형 및 경험을 포함하여 의사 결정 항목을 만들고 관리하는 방법을 알아봅니다.
+* **[의사 결정 카탈로그 구성](catalogs.md)** - 더 나은 관리를 위해 의사 결정 항목을 카탈로그로 구성하는 방법을 이해합니다.
+* **[선택 전략 정의](selection-strategies.md)** - 자격 규칙 및 순위 방법을 사용하여 선택 전략을 만드는 방법을 알아봅니다.
+* **[의사 결정 정책 만들기](create-decision-policy.md)** - 전략과 제약 조건을 결합한 의사 결정 정책을 만드는 방법에 대해 알아봅니다.
+* **[순위 및 AI 모델](ranking/ranking.md)** - 개인화된 의사 결정을 위한 기본 순위 공식 및 AI 모델.
+* **[의사 결정 보호](decisioning-guardrails.md)** - 의사 결정 구현을 위한 중요한 제한 사항 및 모범 사례를 검토하십시오.
+* **[의사 결정 튜토리얼](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/decision-capabilities/decisioning/introduction-to-decisioning){target="_blank"}** - 의사 결정 기능 및 모범 사례에 대한 단계별 비디오 튜토리얼을 살펴보십시오.
 

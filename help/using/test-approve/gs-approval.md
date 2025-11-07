@@ -5,10 +5,10 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: 92d1439e-5cac-4e7d-85f8-ebf432e9ef7c
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: ht
-source-wordcount: '561'
-ht-degree: 100%
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+workflow-type: tm+mt
+source-wordcount: '625'
+ht-degree: 90%
 
 ---
 
@@ -83,3 +83,10 @@ Journey Optimizer에서는 승인 프로세스를 설정하여 마케팅 팀에�
 주어진 여정 또는 캠페인에 대해 제출된 모든 승인 및 변경 요청을 모니터링할 수 있습니다. 이렇게 하려면 여정 캔버스 또는 캠페인 검토 화면의 오른쪽 위 섹션에 있는 **[!UICONTROL 감사 추적 표시]** 아이콘을 클릭합니다.
 
 ![](assets/monitor-requests.png)
+
+## 추가 리소스
+
+* **[승인 정책 만들기](approval-policies.md)** - 캠페인 및 여정에 검토 워크플로를 적용하는 승인 정책을 설정하는 방법에 대해 알아봅니다.
+* **[승인 요청](request-approval.md)** - 승인을 위해 콘텐츠를 제출하고 승인 상태를 추적하는 방법을 이해합니다.
+* **[요청 검토 및 승인](review-approve-request.md)** - 승인자로서 승인 요청을 검토, 승인 또는 거부하는 방법을 알아봅니다.
+* **[샘플 입력으로 시뮬레이션](simulate-sample-input.md)** - 샘플 프로필 데이터를 사용하여 콘텐츠를 테스트하고 확인하는 방법을 알아봅니다.

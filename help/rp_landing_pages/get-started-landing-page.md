@@ -5,10 +5,10 @@ title: 시작하기
 description: 시작하기
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
-source-git-commit: f116775dfa5bb46857c5e9401a291b46105ebcca
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
 source-wordcount: '352'
-ht-degree: 54%
+ht-degree: 53%
 
 ---
 
@@ -22,7 +22,7 @@ Adobe Journey Optimizer은 모든 채널에서 개인화된 실시간 고객 경
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 주요 기능
 
@@ -32,7 +32,7 @@ Adobe Journey Optimizer은 모든 채널에서 개인화된 실시간 고객 경
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 아키텍처 개요
 
@@ -42,7 +42,7 @@ Adobe Journey Optimizer를 Adobe Experience Platform과 통합하여 대규모 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 역할 및 책임
 
@@ -52,7 +52,7 @@ Adobe Journey Optimizer를 효과적으로 구현하고 관리하는 데 필요�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 사용자 인터페이스 개요
 
@@ -62,7 +62,7 @@ Adobe Journey Optimizer 인터페이스를 탐색하고 여정 관리 및 결정
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 콘텐츠 검색, 필터링 및 구성
 
@@ -72,13 +72,13 @@ Adobe Journey Optimizer 인터페이스를 탐색하고 여정 관리 및 결정
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 가드레일 및 제한 사항
 
 Adobe Journey Optimizer 기능을 효과적으로 사용하기 위한 제한 사항 및 권장 사례에 대해 알아봅니다.
 
-[핵심 개념 살펴보기](../using/start/guardrails.md)
+[보호 기능 및 제한 사항 확인](../using/start/guardrails.md)
 :::
 
 ::::
