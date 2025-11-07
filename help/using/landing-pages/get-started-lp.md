@@ -10,7 +10,7 @@ level: Beginner
 keywords: 랜딩, 랜딩 페이지, 시작, 시작하기
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '208'
 ht-degree: 100%
 
@@ -71,4 +71,4 @@ ht-degree: 100%
 
 아래 비디오에서는 구독 목록을 만들고, 랜딩 페이지를 설정하여 서비스 구독/구독 취소 기능을 제공하고, 메시지에 구독(구독 취소) 옵션을 통합하고, 관련 여정을 구성하는 방법을 확인할 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/344401?captions=kor&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)
