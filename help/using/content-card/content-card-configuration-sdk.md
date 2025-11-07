@@ -46,7 +46,7 @@ ht-degree: 4%
 
 ## 작동 방식 {#setup}
 
-1. 샘플 폴더에 있는 [ 파일의 설정을 사용하여 페이지에서 ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)웹 SDK`.env`을(를) 포함하고 구성하십시오.
+1. 샘플 폴더에 있는 [&#x200B; 파일의 설정을 사용하여 페이지에서 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)웹 SDK`.env`을(를) 포함하고 구성하십시오.
 
    ```
    <script src="https://cdn1.adoberesources.net/alloy/2.18.0/alloy.min.js" async></script>
