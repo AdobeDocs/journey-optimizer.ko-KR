@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 keywords: 랜딩, 랜딩 페이지, 하위 도메인, 구성
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 42d40abf8290bac64e142f5cf0bf595446ccb2e9
 workflow-type: tm+mt
 source-wordcount: '971'
 ht-degree: 19%
@@ -26,13 +26,13 @@ ht-degree: 19%
 >id="ajo_admin_subdomain_lp"
 >title="랜딩 페이지 하위 도메인 위임"
 >abstract="랜딩 페이지 사전 설정을 만드는 데 이 하위 도메인이 필요하므로 랜딩 페이지에 사용할 하위 도메인을 구성해야 합니다. Adobe에 이미 위임된 하위 도메인을 사용하거나 새 하위 도메인을 구성할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html?lang=ko#lp-create-preset" text="랜딩 페이지 사전 설정 만들기"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="랜딩 페이지 사전 설정 만들기"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain"
 >title="랜딩 페이지 사전 설정 만들기"
 >abstract="랜딩 페이지 사전 설정을 만들려면 하위 도메인 이름 목록에서 선택할 랜딩 페이지 하위 도메인을 이전에 하나 이상 구성했는지 확인합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html?lang=ko#lp-create-preset" text="랜딩 페이지 사전 설정 만들기"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="랜딩 페이지 사전 설정 만들기"
 
 ## 랜딩 페이지 하위 도메인 시작 {#gs-lp-subdomains}
 
@@ -88,7 +88,7 @@ ht-degree: 19%
 
    ![](assets/lp_subdomain-processing.png)
 
-   해당 하위 도메인을 사용하여 메시지를 보내려면 먼저 Adobe에서 필요한 검사를 수행할 때까지 기다려야 합니다(최대 **시간**.<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->).
+   해당 하위 도메인을 사용하여 메시지를 보내려면 먼저 Adobe에서 필요한 검사를 수행할 때까지 기다려야 합니다(최대 **시간**.<!--Learn more in [this section](../configuration/delegate-subdomain.md#subdomain-validation).-->).
 
 1. 확인이 성공하면 하위 도메인이 **[!UICONTROL 성공]** 상태를 가져옵니다. 랜딩 페이지 사전 설정을 만드는 데 사용할 준비가 되었습니다.
 
