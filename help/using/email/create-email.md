@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 만들기, 이메일, 시작, 여정, 캠페인
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 5f2ccb102d08151da5616ef42559164f29542e5d
+source-git-commit: fbd99b95b0e9aeb06435a81bf345dd615a0f9d02
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1055'
 ht-degree: 9%
 
 ---
@@ -49,9 +49,9 @@ ht-degree: 9%
 
 >[!TAB 캠페인에 전자 메일 추가]
 
-1. 새 예약된 캠페인 또는 API 트리거 캠페인을 만들고 **[!UICONTROL 전자 메일]**&#x200B;을(를) 작업으로 선택합니다.
+1. [캠페인을 만들고](../campaigns/create-campaign.md) **[!UICONTROL 전자 메일]**&#x200B;을(를) 작업으로 선택합니다.
 
-1. 캠페인 속성, [대상자](../audience/about-audiences.md) 및 [일정](../campaigns/campaign-schedule.md#action-campaign-schedule)과 같은 전자 메일 캠페인을 만드는 단계를 완료하십시오.
+1. 캠페인 속성, [대상자](../audience/about-audiences.md) 및 [일정](../campaigns/campaign-schedule.md)과 같은 전자 메일 캠페인을 만드는 단계를 완료하십시오.
 
    ![](assets/email_campaign_steps.png)
 
