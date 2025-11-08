@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 452a0a3a08a7b90d0e3a5b78b2e16f532f04ef1a
 workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 100%
@@ -62,7 +62,7 @@ Journey Optimizer의 대상자에게 의미 있는 태그를 추가하면 나중
 
 다음 **[!UICONTROL 태그]** 필드에서는 오브젝트에 대한 태그를 정의할 수 있습니다. 태그는 다음 오브젝트에 사용할 수 있습니다.
 
-* [캠페인](../campaigns/create-campaign.md#create)
+* [캠페인](../campaigns/create-campaign.md)
 * [결정 항목](../experience-decisioning/items.md)
 * [조각](../content-management/fragments.md)
 * [여정](../building-journeys/journey-properties.md)
