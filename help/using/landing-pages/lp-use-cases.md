@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 랜딩, 랜딩 페이지, 사용 사례
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 42d40abf8290bac64e142f5cf0bf595446ccb2e9
+source-git-commit: 5f2ccb102d08151da5616ef42559164f29542e5d
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '1013'
 ht-degree: 12%
 
 ---
@@ -29,6 +29,8 @@ ht-degree: 12%
 예를 들어 다음 달에 이벤트를 구성하고 이벤트 등록 캠페인 <!--to keep your customers that are interested updated on that event-->을(를) 시작한다고 가정해 보겠습니다. 이렇게 하려면 수신자가 이 이벤트에 등록할 수 있도록 랜딩 페이지에 대한 링크가 포함된 이메일을 전송해야 합니다. 등록한 사용자는 이 목적을 위해 만든 구독 목록에 추가됩니다.
 
 ### 랜딩 페이지 설정 {#set-up-lp}
+
+이벤트 등록을 위한 랜딩 페이지를 설정하려면 구독 목록을 만들고, 등록 양식으로 랜딩 페이지를 디자인하고, 필요한 페이지와 설정을 구성합니다. 다음 단계를 수행하십시오.
 
 1. 등록된 사용자를 저장하는 이벤트 등록의 구독 목록을 만듭니다. 구독 목록을 만드는 방법을 알아보세요. [여기](subscription-list.md#define-subscription-list).
 
@@ -62,7 +64,7 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >메시지를 보내려면 선택한 랜딩 페이지가 아직 만료되지 않았는지 확인하십시오. 이 섹션[에서 만료 날짜 &#x200B;](create-lp.md#configure-primary-page)을(를) 업데이트하는 방법을 알아보세요.
+   >메시지를 보내려면 선택한 랜딩 페이지가 아직 만료되지 않았는지 확인하십시오. 이 섹션[에서 만료 날짜 ](create-lp.md#configure-primary-page)을(를) 업데이트하는 방법을 알아보세요.
 
    이메일을 수신하면 수신자가 랜딩 페이지 링크를 클릭하면 &#39;감사&#39; 페이지로 이동하며 구독 목록에 추가됩니다.
 
@@ -139,7 +141,7 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >메시지를 보내려면 선택한 랜딩 페이지가 아직 만료되지 않았는지 확인하십시오. 이 섹션[에서 만료 날짜 &#x200B;](create-lp.md#configure-primary-page)을(를) 업데이트하는 방법을 알아보세요.
+   >메시지를 보내려면 선택한 랜딩 페이지가 아직 만료되지 않았는지 확인하십시오. 이 섹션[에서 만료 날짜 ](create-lp.md#configure-primary-page)을(를) 업데이트하는 방법을 알아보세요.
 
 1. 여정을 게시하고 실행합니다. [자세히 알아보기](../building-journeys/journey.md).
 
@@ -163,7 +165,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->기본 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target="_blank"} **[!UICONTROL 프로필]** 병합 정책의 병합 방법이 **[!UICONTROL 데이터 세트 우선 순위]**&#x200B;인 경우 **[!UICONTROL AJO 동의 서비스 데이터 세트]**&#x200B;를 사용하도록 설정하고 병합 정책에서 우선 순위를 지정하십시오. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ko#dataset-precedence-profile){target="_blank"}
+>기본 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target="_blank"} **[!UICONTROL 프로필]** 병합 정책의 병합 방법이 **[!UICONTROL 데이터 세트 우선 순위]**&#x200B;인 경우 **[!UICONTROL AJO 동의 서비스 데이터 세트]**&#x200B;를 사용하도록 설정하고 병합 정책에서 우선 순위를 지정하십시오. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
 >
 >이 데이터 세트에 일괄 처리가 추가되지 않았더라도 여전히 옵트인/옵트아웃 정보가 포함됩니다.
 

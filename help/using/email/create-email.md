@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 만들기, 이메일, 시작, 여정, 캠페인
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 5f2ccb102d08151da5616ef42559164f29542e5d
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1059'
 ht-degree: 9%
 
 ---
@@ -79,6 +79,8 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 >id="test_id"
 >title="이메일 콘텐츠 구성"
 >abstract="이메일 콘텐츠를 만듭니다. 제목을 정의한 다음 이메일 디자이너를 활용하여 이메일 본문을 작성하고 개인화합니다."
+
+여정 또는 캠페인에 이메일 작업을 추가한 후에는 이메일 Designer을 사용하여 제목란, 보낸 사람 정보 및 이메일 본문을 포함한 이메일 콘텐츠를 정의해야 합니다. 다음 단계를 수행하십시오.
 
 1. 여정 또는 캠페인 구성 화면에서 **[!UICONTROL 콘텐츠 편집]** 단추를 클릭하여 전자 메일 콘텐츠를 구성합니다. [자세히 알아보기](get-started-email-design.md)
 

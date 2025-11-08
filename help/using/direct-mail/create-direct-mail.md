@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: 다이렉트 메일, 메시지, 캠페인
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: e823be2257d49158492af508e23f40e749bc33be
+source-git-commit: 5f2ccb102d08151da5616ef42559164f29542e5d
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '781'
 ht-degree: 19%
 
 ---
@@ -37,7 +37,7 @@ DM 메시지를 만들려면 예약된 캠페인을 만들고 추출 파일을 �
 >
 >Dm은 홀드아웃 기능을 지원하지만 현재는 처리를 지원하지 않습니다.
 
-DM 캠페인을 만들려면 다음 단계를 수행합니다.
+DM 캠페인을 만들려면 예약된 캠페인을 설정하고, 타겟 대상자를 선택하고, 메시지 구성을 포함하여 DM 설정을 구성합니다. 다음 단계를 수행하십시오.
 
 1. **[!UICONTROL 캠페인]** 메뉴에 액세스한 다음 **[!UICONTROL 캠페인 만들기]**&#x200B;를 클릭합니다.
 
