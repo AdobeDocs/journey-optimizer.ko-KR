@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 이메일 콘텐츠를 디자인하여 대상을 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 이메일 콘텐츠 만들기 및 최적화
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 이메일 콘텐츠를 디자인하여 대상을 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 Adobe Journey Optimizer에서 콘텐츠 디자인
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer에서 콘텐츠 디자인
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 스타일 편집: 이메일 디자인 사용자 정의
 

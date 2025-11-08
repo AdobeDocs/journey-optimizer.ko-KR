@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 콘텐츠 실험은 콘텐츠의 다양한 변형이 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 콘텐츠 실험 시작하기
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 콘텐츠 실험은 콘텐츠의 다양한 변형이 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 콘텐츠 실험 만들기 및 확장
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer의 콘텐츠 실험은 콘텐츠의 다양한 변형이 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
 
 실험을 위한 고급 통계 기법
 

@@ -50,7 +50,7 @@ Adobe Journey Optimizer의 코드 기반 채널 구성 섹션을 사용하면 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 코드 기반 경험 구현에서의 결정
 
