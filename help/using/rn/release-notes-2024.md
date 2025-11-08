@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '6783'
 ht-degree: 100%
@@ -308,7 +308,7 @@ ht-degree: 100%
    * 프로필 스토어의 데이터에 대해 90일
    * 데이터 레이크의 데이터에 대해 13개월
 
-  이 변경 사항은 차후 기존 고객 샌드박스에 대해서도 롤아웃됩니다. [자세히 알아보기](../data/datasets-ttl.md#ttl)
+  이 변경 사항은 차후 기존 고객 샌드박스에 대해서도 롤아웃됩니다. [자세히 알아보기](../data/datasets-ttl.md#ttl-guardrail)
 
 * **사용자 정의 액션의 매개 변수**(사용 가능한 날짜: 2024년 10월 3일) - 이제 사용자 정의 액션에서 NULL 및 선택적 매개 변수가 지원됩니다. [자세히 알아보기](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
@@ -631,7 +631,7 @@ ht-degree: 100%
 **여정**
 
 * 이제 **조건** 활동에서 **[!UICONTROL 시간 조건]**&#x200B;은 기본적으로 00:00부터 12:00까지 시간 단위로 설정됩니다. [자세히 보기](../building-journeys/condition-activity.md#time_condition)
-* 이제 여정을 작성할 때에도 경고가 다른 경고와 마찬가지로 **경고** 버튼에서 표시되어 일관된 사용자 경험을 제공합니다. [자세히 보기](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
+* 이제 여정을 작성할 때에도 경고가 다른 경고와 마찬가지로 **경고** 버튼에서 표시되어 일관된 사용자 경험을 제공합니다. [자세히 보기](../building-journeys/troubleshooting.md#activity-errors)
 * 여정 도구 모음의 확대/축소 옵션이 개선되었습니다. 이제 확대/축소 비율이 표시되며 확대/축소 값을 보다 쉽게 재설정할 수 있습니다.
 
 **푸시 채널**
@@ -1129,7 +1129,7 @@ Beta부터 이 릴리스까지 다음과 같은 개선 사항이 추가되었습
 
 **콘텐츠 관리**
 
-* 이제 모든 채널에 대한 콘텐츠 템플릿을 시뮬레이션할 수 있습니다. [자세히 보기](../content-management/content-templates.md#test-templates)
+* 이제 모든 채널에 대한 콘텐츠 템플릿을 시뮬레이션할 수 있습니다. [자세히 보기](../content-management/content-templates.md#video-templates)
 
 **개인화**
 
@@ -1242,7 +1242,7 @@ Beta부터 이 릴리스까지 다음과 같은 개선 사항이 추가되었습
 
 * 이제 **대상자 컴포지션을 통해 생성된** 대상자를 타기팅하고 여정에서 데이터 보강 속성을 활용할 수 있습니다. [자세히 알아보기](../building-journeys/read-audience.md)
 
-* 이제 여정과 캠페인에 **CSV 파일에서 업로드된 대상자**&#x200B;를 타겟팅할 수 있습니다. [자세히 알아보기](../audience/about-audiences.md#segments-in-journey-optimizer)
+* 이제 여정과 캠페인에 **CSV 파일에서 업로드된 대상자**&#x200B;를 타겟팅할 수 있습니다. [자세히 알아보기](../audience/about-audiences.md#about-segments)
 
   >[!AVAILABILITY]
   >

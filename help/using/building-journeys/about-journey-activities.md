@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: 여정, 활동, 시작하기, 이벤트, 작업
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 version: Journey Orchestration
-source-git-commit: ef395b65a92fea235811b595cca9bf73f9e78022
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '722'
 ht-degree: 15%
@@ -97,7 +97,7 @@ ht-degree: 15%
 
 ![여정 활동 속성에서 읽기 전용 필드 아이콘 숨기기](assets/journey-hide-read-only-fields.png)
 
-일부 특정 컨텍스트에서는 특정 용도로 이러한 매개 변수의 값을 재정의할 수 있습니다. 값을 강제 적용하려면 필드의 오른쪽에 있는 **[!UICONTROL 매개 변수 무시 활성화]** 아이콘을 클릭합니다. [자세히 알아보기](../configuration/primary-email-addresses.md#journey-parameters)
+일부 특정 컨텍스트에서는 특정 용도로 이러한 매개 변수의 값을 재정의할 수 있습니다. 값을 강제 적용하려면 필드의 오른쪽에 있는 **[!UICONTROL 매개 변수 무시 활성화]** 아이콘을 클릭합니다. [자세히 알아보기](../configuration/primary-email-addresses.md#override-execution-address-journey)
 
 ![전자 메일 활동 속성에서 매개 변수 재정의 옵션을 사용하도록 설정](assets/journey-enable-parameter-override.png)
 
@@ -117,6 +117,6 @@ ht-degree: 15%
 
 여정을 테스트하고 게시하기 전에 모든 활동이 올바르게 구성되었는지 확인하십시오. 시스템에서 오류가 계속 감지되면 테스트나 게시를 수행할 수 없습니다.
 
-[&#x200B; 여정의 활동 및 &#x200B;](troubleshooting.md) 오류를 해결하는 방법에 대해 알아봅니다.
+[ 여정의 활동 및 ](troubleshooting.md) 오류를 해결하는 방법에 대해 알아봅니다.
 
 **[모니터링 및 문제 해결](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)**&#x200B;도 참조하세요.

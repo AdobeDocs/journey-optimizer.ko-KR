@@ -9,8 +9,8 @@ feature: Channel Configuration, Email
 topic: Administration
 keywords: 이메일, 구성, 표면, 하위 도메인
 exl-id: 1fc9a4f6-6c34-4414-b400-aac6bda9ee25
-source-git-commit: ea8f77c2821bfae7b853b3ac39ea22f0d19ae43d
-workflow-type: ht
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 1. 각 이메일 채널 구성에서 이메일을 게재하는 데 필요한 **기술 매개 변수**&#x200B;를 모두 구성합니다. [자세히 알아보기](email-settings.md)
 
-   * 이때 이메일을 보내는 데 사용할 하위 도메인과, 구성에 연결할 IP 풀을 선택합니다. [자세히 알아보기](email-settings.md#subdomains-and-ip-pools)
+   * 이때 이메일을 보내는 데 사용할 하위 도메인과, 구성에 연결할 IP 풀을 선택합니다. [자세히 알아보기](email-settings.md#ip-pools)
 
    ![](assets/surface-subdomain-ip-pool.png)
 

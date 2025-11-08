@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 메시지, 빈도, 규칙, 압력
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 25f581e0f501c148140716da1ef1bf7fd4f43352
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1062'
 ht-degree: 25%
@@ -151,7 +151,7 @@ ht-degree: 25%
    규칙 세트를 적용하는 방법에 대한 자세한 내용은 다음 섹션에서 확인할 수 있습니다.
 
    * [여정에 규칙 세트 적용](../conflict-prioritization/journey-capping.md#apply-capping)
-   * [여정 및 캠페인 작업에 최대 가용량 규칙 적용](../conflict-prioritization/channel-capping.md#apply)
+   * [여정 및 캠페인 작업에 최대 가용량 규칙 적용](../conflict-prioritization/channel-capping.md#apply-frequency-rule)
    * [여정 및 캠페인에 자동 시간 규칙 적용](../conflict-prioritization/quiet-hours.md#apply)
 
 ## 규칙 집합 액세스 및 관리 {#access-rule-sets}
@@ -180,4 +180,4 @@ ht-degree: 25%
 
 ## 사용 방법 비디오 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444733?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

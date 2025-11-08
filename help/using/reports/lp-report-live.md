@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: df13e473-8003-4dde-aaf8-df8385c9ee21
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 13%
@@ -59,4 +59,4 @@ ht-degree: 13%
 **[!UICONTROL 채널별 방문]**/채널별 전환&#x200B;**[!UICONTROL 그래프는 채널에 따라 지난 24시간 동안 랜딩 페이지와 성공적으로 상호 작용한 총 방문 및 사용자 수를 나타냅니다.]**
 +++
 
-Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 목록은 [이 페이지](live-report.md#list-of-components-live)를 참조하세요.
+Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 목록은 [이 페이지](live-report.md#live-report)를 참조하세요.

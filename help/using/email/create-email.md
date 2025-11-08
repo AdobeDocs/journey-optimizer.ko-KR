@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 만들기, 이메일, 시작, 여정, 캠페인
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1026'
 ht-degree: 9%
@@ -51,7 +51,7 @@ ht-degree: 9%
 
 1. 새 예약된 캠페인 또는 API 트리거 캠페인을 만들고 **[!UICONTROL 전자 메일]**&#x200B;을(를) 작업으로 선택합니다.
 
-1. 캠페인 속성, [대상자](../audience/about-audiences.md) 및 [일정](../campaigns/create-campaign.md#schedule)과 같은 전자 메일 캠페인을 만드는 단계를 완료하십시오.
+1. 캠페인 속성, [대상자](../audience/about-audiences.md) 및 [일정](../campaigns/campaign-schedule.md#action-campaign-schedule)과 같은 전자 메일 캠페인을 만드는 단계를 완료하십시오.
 
    ![](assets/email_campaign_steps.png)
 
@@ -86,7 +86,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
 1. 전자 메일에 결정 정책을 추가하려면 **[!UICONTROL 결정 사용]**&#x200B;을 전환합니다.
 
-   의사 결정 정책은 의사 결정 엔진을 활용하여 각 대상 구성원에 대해 제공할 최상의 콘텐츠를 동적으로 반환하는 오퍼에 대한 컨테이너입니다. [전자 메일에 결정 정책을 추가하는 방법을 알아보세요](../experience-decisioning/create-decision.md#add)
+   의사 결정 정책은 의사 결정 엔진을 활용하여 각 대상 구성원에 대해 제공할 최상의 콘텐츠를 동적으로 반환하는 오퍼에 대한 컨테이너입니다. [전자 메일에 결정 정책을 추가하는 방법을 알아보세요](../experience-decisioning/create-decision.md#create-decision)
 
    ![](assets/../../experience-decisioning/assets/decision-policy-enable.png)
 
@@ -132,7 +132,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
 * **경고**&#x200B;는 다음과 같은 권장 사항 및 모범 사례를 참조합니다.
 
-   * **[!UICONTROL 옵트아웃 링크가 이메일 본문에 없습니다]**: 구독 취소 링크를 이메일 본문에 추가하는 것이 좋습니다. [이 섹션](../privacy/opt-out.md#opt-out-management)에서 구성하는 방법을 알아보세요.
+   * **[!UICONTROL 옵트아웃 링크가 이메일 본문에 없습니다]**: 구독 취소 링크를 이메일 본문에 추가하는 것이 좋습니다. [이 섹션](../privacy/opt-out.md#opt-out-decision-management)에서 구성하는 방법을 알아보세요.
 
      >[!NOTE]
      >

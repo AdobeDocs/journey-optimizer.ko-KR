@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '3712'
 ht-degree: 30%
@@ -38,7 +38,7 @@ ht-degree: 30%
 
 여정 **[!UICONTROL 라이브 보고서]**&#x200B;는 여정의 성공 및 오류를 자세히 설명하는 여러 위젯으로 나뉩니다. 필요한 경우 각 위젯의 크기를 조정하고 삭제할 수 있습니다. 자세한 내용은 이 [섹션](live-report.md#modify-dashboard)을 참조하세요.
 
-Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 목록은 [이 페이지](live-report.md#list-of-components-live)를 참조하세요.
+Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 목록은 [이 페이지](live-report.md#live-report)를 참조하세요.
 
 ## 여정 탭 {#journey-live}
 

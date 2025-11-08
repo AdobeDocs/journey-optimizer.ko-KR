@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 랜딩, 랜딩 페이지
 exl-id: cc4cfd17-4d85-4dcd-8dd9-23cc2cd898be
-source-git-commit: 27e5d1565522f5daa006a16438671ce9d559465b
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 9%
@@ -87,6 +87,6 @@ ht-degree: 9%
 
 1. **[!UICONTROL 추가 작업]** 단추를 사용하여 랜딩 페이지를 다른 기존 폴더로 이동할 수도 있습니다.
 
-1. 이제 방금 만든 폴더로 이동할 수 있습니다. 여기에서 [만들기](create-lp.md#create-landing-page.md)하는 각 새 랜딩 페이지는 현재 폴더에 저장됩니다.
+1. 이제 방금 만든 폴더로 이동할 수 있습니다. 여기에서 [만들기](create-lp.md#create-landing-page)하는 각 새 랜딩 페이지는 현재 폴더에 저장됩니다.
 
    ![](assets/lp-folder-create.png)

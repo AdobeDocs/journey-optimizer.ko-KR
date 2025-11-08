@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 하위 도메인, 도메인, 메일, DMARC, 레코드
 exl-id: f9e217f8-5aa8-4d3a-96fc-65defcb5d340
-source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1482'
 ht-degree: 11%
@@ -58,7 +58,7 @@ DMARC을 전달하려면 메시지가 SPF 또는 DKIM을 전달해야 합니다.
 
 >[!NOTE]
 >
->[!DNL Journey Optimizer]이 섹션[에서 &#x200B;](#set-up-dmarc)을(를) 사용하여 DMARC 정책을 설정하는 방법에 대해 알아봅니다.
+>[!DNL Journey Optimizer]이 섹션[에서 ](#set-up-dmarc)을(를) 사용하여 DMARC 정책을 설정하는 방법에 대해 알아봅니다.
 
 ## DMARC 요구 사항 업데이트 {#dmarc-update}
 
@@ -102,7 +102,7 @@ DMARC을 전달하려면 메시지가 SPF 또는 DKIM을 전달해야 합니다.
 
 1. 하위 도메인을 편집하는 경우:
 
-   * [Adobe에 완전히 위임됨](delegate-subdomain.md#full-subdomain-delegation). 추가 작업이 필요하지 않습니다.
+   * [Adobe에 완전히 위임됨](delegate-subdomain.md#set-up-subdomain). 추가 작업이 필요하지 않습니다.
 
    * [CNAME](delegate-subdomain.md#cname-subdomain-setup)(으)로 설정합니다. 일치하는 DNS 레코드를 생성하려면 DMARC의 DNS 레코드를 호스팅 솔루션에 복사해야 합니다.
 

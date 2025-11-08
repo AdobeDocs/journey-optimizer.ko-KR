@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 랜딩, 랜딩 페이지, 사용 사례
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '980'
 ht-degree: 12%
@@ -48,7 +48,7 @@ ht-degree: 12%
 
    ![](assets/lp_subscription-uc-thanks.png)
 
-1. 랜딩 페이지를 [게시](create-lp.md#publish)합니다.
+1. 랜딩 페이지를 [게시](create-lp.md#publish-landing-page)합니다.
 
 1. [여정](../building-journeys/journey.md)에서 **이메일** 활동을 추가하여 등록 랜딩 페이지로 트래픽을 유도합니다.
 
@@ -62,7 +62,7 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >메시지를 보내려면 선택한 랜딩 페이지가 아직 만료되지 않았는지 확인하십시오. 이 섹션[에서 만료 날짜 &#x200B;](create-lp.md#configure-primary-page)을(를) 업데이트하는 방법을 알아보세요.
+   >메시지를 보내려면 선택한 랜딩 페이지가 아직 만료되지 않았는지 확인하십시오. 이 섹션[에서 만료 날짜 ](create-lp.md#configure-primary-page)을(를) 업데이트하는 방법을 알아보세요.
 
    이메일을 수신하면 수신자가 랜딩 페이지 링크를 클릭하면 &#39;감사&#39; 페이지로 이동하며 구독 목록에 추가됩니다.
 
@@ -127,7 +127,7 @@ ht-degree: 12%
    >
    >기본 페이지의 **[!UICONTROL Call to action]** 섹션에서 **[!UICONTROL 양식]** 구성 요소에 있는 하위 페이지를 참조하는지 확인하십시오. [자세히 알아보기](design-lp.md)
 
-1. 페이지의 콘텐츠를 구성하고 정의했으면 랜딩 페이지를 [게시](create-lp.md#publish)합니다.
+1. 페이지의 콘텐츠를 구성하고 정의했으면 랜딩 페이지를 [게시](create-lp.md#publish-landing-page)합니다.
 
 1. 여정에서 [전자 메일 메시지 만들기](../email/get-started-email-design.md).
 
@@ -139,7 +139,7 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >메시지를 보내려면 선택한 랜딩 페이지가 아직 만료되지 않았는지 확인하십시오. 이 섹션[에서 만료 날짜 &#x200B;](create-lp.md#configure-primary-page)을(를) 업데이트하는 방법을 알아보세요.
+   >메시지를 보내려면 선택한 랜딩 페이지가 아직 만료되지 않았는지 확인하십시오. 이 섹션[에서 만료 날짜 ](create-lp.md#configure-primary-page)을(를) 업데이트하는 방법을 알아보세요.
 
 1. 여정을 게시하고 실행합니다. [자세히 알아보기](../building-journeys/journey.md).
 
@@ -163,7 +163,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->기본 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target="_blank"} **[!UICONTROL 프로필]** 병합 정책의 병합 방법이 **[!UICONTROL 데이터 세트 우선 순위]**&#x200B;인 경우 **[!UICONTROL AJO 동의 서비스 데이터 세트]**&#x200B;를 사용하도록 설정하고 병합 정책에서 우선 순위를 지정하십시오. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ko#dataset-precedence-profile){target="_blank"}
+>기본 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target="_blank"} **[!UICONTROL 프로필]** 병합 정책의 병합 방법이 **[!UICONTROL 데이터 세트 우선 순위]**&#x200B;인 경우 **[!UICONTROL AJO 동의 서비스 데이터 세트]**&#x200B;를 사용하도록 설정하고 병합 정책에서 우선 순위를 지정하십시오. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
 >
 >이 데이터 세트에 일괄 처리가 추가되지 않았더라도 여전히 옵트인/옵트아웃 정보가 포함됩니다.
 
@@ -171,7 +171,7 @@ ht-degree: 12%
 
 **참고 항목:**
 
-* [원클릭 옵트아웃](../email/email-opt-out.md#one-click-opt-out-link)
+* [원클릭 옵트아웃](../email/email-opt-out.md#one-click-opt-out)
 * [이메일 헤더의 옵트아웃 링크](../email/email-opt-out.md#unsubscribe-header)
 
 <!--
@@ -182,7 +182,7 @@ You can also enable your recipients to unsubscribe whithout using landing pages.
 
 * **One-click opt-out**
 
-    You can add a one-click opt-out link into your email content. This will enable your recipients to quickly unsubscribe from your communications, without being redirected to a landing page where they need to confirm opting out. [Learn more](../privacy/opt-out.md#one-click-opt-out-link)
+    You can add a one-click opt-out link into your email content. This will enable your recipients to quickly unsubscribe from your communications, without being redirected to a landing page where they need to confirm opting out. [Learn more](../privacy/opt-out.md#opt-out-personalization)
 
 * **Unsubscribe link in header**
 

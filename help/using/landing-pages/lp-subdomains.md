@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 keywords: 랜딩, 랜딩 페이지, 하위 도메인, 구성
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '971'
 ht-degree: 19%
@@ -26,13 +26,13 @@ ht-degree: 19%
 >id="ajo_admin_subdomain_lp"
 >title="랜딩 페이지 하위 도메인 위임"
 >abstract="랜딩 페이지 사전 설정을 만드는 데 이 하위 도메인이 필요하므로 랜딩 페이지에 사용할 하위 도메인을 구성해야 합니다. Adobe에 이미 위임된 하위 도메인을 사용하거나 새 하위 도메인을 구성할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html?lang=ko#lp-create-preset" text="랜딩 페이지 사전 설정 만들기"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="랜딩 페이지 사전 설정 만들기"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain"
 >title="랜딩 페이지 사전 설정 만들기"
 >abstract="랜딩 페이지 사전 설정을 만들려면 하위 도메인 이름 목록에서 선택할 랜딩 페이지 하위 도메인을 이전에 하나 이상 구성했는지 확인합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html?lang=ko#lp-create-preset" text="랜딩 페이지 사전 설정 만들기"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="랜딩 페이지 사전 설정 만들기"
 
 ## 랜딩 페이지 하위 도메인 시작 {#gs-lp-subdomains}
 
@@ -141,7 +141,7 @@ ht-degree: 19%
 
 랜딩 페이지 하위 도메인의 위임을 취소하려면 아래 단계를 따르십시오.
 
-1. [!DNL Journey Optimizer]에서 하위 도메인과 연결된 모든 랜딩 페이지의 게시를 취소합니다. [방법 알아보기](create-lp.md#access-landing-pages)
+1. [!DNL Journey Optimizer]에서 하위 도메인과 연결된 모든 랜딩 페이지의 게시를 취소합니다. [방법 알아보기](create-lp.md#create-landing-page)
 
 1. 랜딩 페이지 하위 도메인이 CNAME 레코드를 가리키면 호스팅 솔루션에서 랜딩 페이지 하위 도메인용으로 만든 CNAME DNS 레코드를 삭제할 수 있습니다(원본 이메일 하위 도메인이 있는 경우 삭제하지 마십시오).
 

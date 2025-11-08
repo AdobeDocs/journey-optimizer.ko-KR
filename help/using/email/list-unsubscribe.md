@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 설정, 이메일, 구성
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: ae971aac1a44b11a19435577d1c17530a91a2ed5
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1693'
 ht-degree: 100%
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 <!--Do not modify - Legal Review Done -->
 
-[!DNL Adobe Journey Optimizer]에서 새 이메일 채널 구성을 구성할 때 목록에서 [하위 도메인을 선택](email-settings.md#subdomains-and-ip-pools)하면 **[!UICONTROL 목록 구독 취소 활성화]** 옵션이 표시됩니다. 기본적으로 활성화되어 있습니다.
+[!DNL Adobe Journey Optimizer]에서 새 이메일 채널 구성을 구성할 때 목록에서 [하위 도메인을 선택](email-settings.md#ip-pools)하면 **[!UICONTROL 목록 구독 취소 활성화]** 옵션이 표시됩니다. 기본적으로 활성화되어 있습니다.
 
 ![](assets/preset-list-unsubscribe.png)
 

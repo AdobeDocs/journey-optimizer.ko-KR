@@ -11,7 +11,7 @@ role: User
 level: Beginner
 badge: label="Beta" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '741'
 ht-degree: 2%
@@ -62,7 +62,7 @@ Adobe Experience Manager 템플릿을 Adobe Journey Optimizer으로 내보내려
 
    ![](assets/aem-outbound-menu.png)
 
-1. 콘텐츠 라이브러리에서 이전에 구성한 템플릿을 사용하거나 처음부터 새로 만들 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html?lang=ko#creating-a-new-page)
+1. 콘텐츠 라이브러리에서 이전에 구성한 템플릿을 사용하거나 처음부터 새로 만들 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html#creating-a-new-page)
 
 1. Journey Optimizer 개인화 구문을 템플릿에 통합하여 맞춤화 기능을 향상시킬 수 있습니다. [자세히 알아보기](../personalization/personalization-syntax.md)
 
@@ -100,7 +100,7 @@ Experience Manager 템플릿을 Journey Optimizer에서 콘텐츠 템플릿으�
    >
    > 템플릿을 편집하고 개인화하려는 경우 호환성 모드만 사용할 수 있습니다.
 
-1. 콘텐츠 템플릿이 준비되면 [테스트하고 확인](../content-management/content-templates.md#test-template)하세요.
+1. 콘텐츠 템플릿이 준비되면 [테스트하고 확인](../content-management/content-templates.md#content-templates)하세요.
 
 1. 콘텐츠를 정의한 후에는 **[!UICONTROL 저장된 템플릿]** 컬렉션을 탐색하여 새 전자 메일을 만들 때 사용할 수 있습니다. 그런 다음 **[!UICONTROL 이 서식 파일 사용]**&#x200B;을 선택합니다.
 

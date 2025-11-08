@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1894'
 ht-degree: 100%
@@ -141,7 +141,7 @@ ht-degree: 100%
 
 * **[!UICONTROL 채널]** - 이 섹션에서 하위 도메인, 구성, 전달성 설정 등을 지정하여 채널을 구성할 수 있습니다. [자세히 알아보기](../configuration/get-started-configuration.md)
 
-* **[!UICONTROL 태그]** - [통합 태그]를 사용하면 여정과 캠페인을 쉽게 분류하여 목록에서 보다 편하게 검색할 수 있습니다. [자세히 알아보기](../start/search-filter-categorize.md#work-with-unified-tags)
+* **[!UICONTROL 태그]** - [통합 태그]를 사용하면 여정과 캠페인을 쉽게 분류하여 목록에서 보다 편하게 검색할 수 있습니다. [자세히 알아보기](../start/search-filter-categorize.md#manage-tags)
 
 ## 제품 내 사용 사례 {#in-product-uc}
 

@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 이메일, 템플릿, 디자인
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
-source-git-commit: 5be9ac1f77d7a09089dd8115fd7c9cfa0a3ab0d2
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 20%
@@ -33,13 +33,13 @@ ht-degree: 20%
 
 * **저장된 템플릿**. 다음 중 한 가지 방법으로 사용자 지정 템플릿을 사용할 수도 있습니다.
 
-   * **[!UICONTROL 콘텐츠 템플릿]** 메뉴를 사용하여 처음부터 새로 만들었습니다. [자세히 알아보기](../content-management/content-templates.md#create-template-from-scratch)
+   * **[!UICONTROL 콘텐츠 템플릿]** 메뉴를 사용하여 처음부터 새로 만들었습니다. [자세히 알아보기](../content-management/content-templates.md#content-templates)
 
-   * **[!UICONTROL 콘텐츠 템플릿으로 저장]** 옵션을 사용하여 여정 또는 캠페인에 있는 전자 메일에서 저장되었습니다. [자세히 알아보기](../content-management/content-templates.md#save-as-template)
+   * **[!UICONTROL 콘텐츠 템플릿으로 저장]** 옵션을 사용하여 여정 또는 캠페인에 있는 전자 메일에서 저장되었습니다. [자세히 알아보기](../content-management/content-templates.md#video-templates)
 
 샘플 또는 저장된 템플릿 중 하나를 사용하여 콘텐츠 작성을 시작하려면 아래 단계를 따르십시오.
 
-1. [전자 메일 &#x200B;](get-started-email-design.md)콘텐츠 편집&#x200B;**[!UICONTROL 화면에서 전자 메일 Designer에 액세스]**&#x200B;합니다.
+1. [전자 메일 ](get-started-email-design.md)콘텐츠 편집&#x200B;**[!UICONTROL 화면에서 전자 메일 Designer에 액세스]**&#x200B;합니다.
 
 1. **[!UICONTROL 전자 메일 만들기]** 화면에서 기본적으로 **[!UICONTROL 샘플 템플릿]** 탭이 선택됩니다.
 
@@ -47,7 +47,7 @@ ht-degree: 20%
 
    ![](assets/email_designer-saved-templates-tab.png)
 
-1. 현재 샌드박스에서 만든 모든 [콘텐츠 템플릿](../content-management/content-templates.md#create-content-templates) 목록이 표시됩니다. **[!UICONTROL 이름]**, **[!UICONTROL 마지막 수정일]** 및 **[!UICONTROL 마지막 생성일]**&#x200B;을 기준으로 템플릿을 정렬할 수 있습니다.
+1. 현재 샌드박스에서 만든 모든 [콘텐츠 템플릿](../content-management/content-templates.md#content-templates) 목록이 표시됩니다. **[!UICONTROL 이름]**, **[!UICONTROL 마지막 수정일]** 및 **[!UICONTROL 마지막 생성일]**&#x200B;을 기준으로 템플릿을 정렬할 수 있습니다.
 
    ![](assets/email_designer-saved-templates-filter.png)
 

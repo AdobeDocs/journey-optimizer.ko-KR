@@ -9,7 +9,7 @@ level: Intermediate
 keywords: 재입력, 여정, 종료, 라이브, 중지
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->* [닫힘](#close-journey) 또는 [중지됨](#stop-journey) 여정을 다시 시작하거나 삭제할 수 없습니다. [새 버전을 만들거나](publish-journey.md#journey-versions-journey-versions) [복제](journey-ui.md#duplicate-a-journey-duplicate-a-journey)할 수 있습니다.
+>* [닫힘](#close-journey) 또는 [중지됨](#stop-journey) 여정을 다시 시작하거나 삭제할 수 없습니다. [새 버전을 만들거나](publish-journey.md#journey-versions) [복제](journey-ui.md#duplicate-a-journey)할 수 있습니다.
 >
 >* 완료된 여정만 삭제할 수 있습니다.
 
@@ -104,4 +104,4 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->**[!DNL Manage journeys]** 높은 수준의 권한을 가진 사용자로 제한된 여정을 중지할 수 있는 권한. [!DNL Journey Optimizer]이 섹션[에서 &#x200B;](../administration/permissions-overview.md) 사용자의 액세스 권한 관리에 대해 자세히 알아보세요.
+>**[!DNL Manage journeys]** 높은 수준의 권한을 가진 사용자로 제한된 여정을 중지할 수 있는 권한. [!DNL Journey Optimizer]이 섹션[에서 ](../administration/permissions-overview.md) 사용자의 액세스 권한 관리에 대해 자세히 알아보세요.

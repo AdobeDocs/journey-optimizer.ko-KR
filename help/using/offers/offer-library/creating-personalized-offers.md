@@ -7,7 +7,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 18%
@@ -131,7 +131,7 @@ ht-degree: 18%
 
 ![](../assets/offer_created.png)
 
-**[!UICONTROL 편집]** 단추를 선택하여 오퍼 편집 모드로 돌아갑니다. 그러면 오퍼의 [세부 정보](#create-offer), [표시](#representations)를 수정하고 [자격 규칙 및 제약 조건](#eligibility)을 편집할 수 있습니다.
+**[!UICONTROL 편집]** 단추를 선택하여 오퍼 편집 모드로 돌아갑니다. 그러면 오퍼의 [세부 정보](#create-offer), [표시](add-representations.md#representations)를 수정하고 [자격 규칙 및 제약 조건](add-constraints.md#eligibility)을 편집할 수 있습니다.
 
 승인된 오퍼를 선택하고 **[!UICONTROL 승인 취소]**&#x200B;를 클릭하여 오퍼 상태를 **[!UICONTROL 초안]**(으)로 다시 설정합니다.
 
@@ -166,10 +166,10 @@ ht-degree: 18%
 
 ![](../assets/offer_click-name.png)
 
-이렇게 하면 해당 오퍼에 대한 자세한 정보에 액세스할 수 있습니다. **[!UICONTROL 변경 로그]** 탭을 선택하여 [오퍼에 대한 모든 변경 내용을 모니터링](../get-started/user-interface.md#monitoring-changes)합니다.
+이렇게 하면 해당 오퍼에 대한 자세한 정보에 액세스할 수 있습니다. **[!UICONTROL 변경 로그]** 탭을 선택하여 [오퍼에 대한 모든 변경 내용을 모니터링](../get-started/user-interface.md#changes-logs)합니다.
 
 ![](../assets/offer_information.png)
 
 ## 튜토리얼 비디오 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341358?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)

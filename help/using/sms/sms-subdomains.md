@@ -8,7 +8,7 @@ feature: SMS, Channel Configuration
 level: Intermediate
 keywords: SMS, 하위 도메인, 구성
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
-source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1008'
 ht-degree: 18%
@@ -36,7 +36,7 @@ ht-degree: 18%
 
 ## SMS 하위 도메인 시작 {#gs-sms-mms-subdomains}
 
-SMS/MMS 메시지에 추가되는 URL을 단축하려면 [SMS 구성을 만들 때](sms-configuration.md#message-preset-sms)선택할 하위 도메인을 설정해야 합니다.
+SMS/MMS 메시지에 추가되는 URL을 단축하려면 [SMS 구성을 만들 때](sms-configuration.md#sms-prerequisites)선택할 하위 도메인을 설정해야 합니다.
 
 이미 Adobe에 위임된 하위 도메인을 사용하거나 다른 하위 도메인을 구성할 수 있습니다. [이 섹션](../configuration/delegate-subdomain.md)에서 하위 도메인을 Adobe으로 위임하는 방법에 대해 자세히 알아보세요.
 
@@ -84,7 +84,7 @@ SMS 하위 도메인에 액세스하고 편집하려면 프로덕션 샌드박�
 
 1. 제출되면 하위 도메인이 목록에 **[!UICONTROL 처리 중]** 상태로 표시됩니다. 하위 도메인 상태에 대한 자세한 내용은 [이 섹션](../configuration/delegate-subdomain.md#access-delegated-subdomains).<!--Same statuses?-->을 참조하세요.
 
-   해당 하위 도메인을 사용하여 메시지를 보내려면 먼저 Adobe에서 필요한 검사를 수행할 때까지 기다려야 합니다(최대 **시간**.<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->).
+   해당 하위 도메인을 사용하여 메시지를 보내려면 먼저 Adobe에서 필요한 검사를 수행할 때까지 기다려야 합니다(최대 **시간**.<!--Learn more in [this section](../configuration/delegate-subdomain.md#subdomain-validation).-->).
 
 1. 확인이 성공하면 하위 도메인이 **[!UICONTROL 성공]** 상태를 가져옵니다. SMS 채널 구성을 만드는 데 사용할 준비가 되었습니다.
 

@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: 기본, 실행, 이메일, 타겟, 프로필, 최적화 도구
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 20%
@@ -83,7 +83,7 @@ ht-degree: 20%
 * 게재를 테스트합니다. 자신의 이메일 주소 또는 전화번호를 추가할 수 있습니다. 여정을 게시하면 이메일, SMS 또는 WhatsApp 메시지가 전송됩니다.
 * 목록의 구독자에게 메시지를 보냅니다. [사용 사례](../building-journeys/message-to-subscribers-uc.md)를 자세히 알아보십시오.
 
-**[!UICONTROL 여정]**&#x200B;에 **[!UICONTROL Email]**, **[!UICONTROL SMS]** 또는 [WhatsApp](../email/create-email.md#create-email-journey-campaign) 액션을 추가하면 기본 전자 메일 주소 또는 전화 번호가 여정 고급 매개 변수 아래에 표시됩니다.
+**[!UICONTROL 여정]**&#x200B;에 **[!UICONTROL Email]**, **[!UICONTROL SMS]** 또는 [WhatsApp](../email/create-email.md#create-email) 액션을 추가하면 기본 전자 메일 주소 또는 전화 번호가 여정 고급 매개 변수 아래에 표시됩니다.
 
 필드 오른쪽에 있는 **[!UICONTROL 매개 변수 재정의 사용]** 아이콘을 사용하여 이 값을 재정의합니다.
 

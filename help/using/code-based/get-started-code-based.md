@@ -6,7 +6,7 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 90%
@@ -88,7 +88,7 @@ ht-degree: 90%
 
 1. 해당 위치를 참조하는 코드 기반 채널 구성을 만듭니다. [방법 알아보기](code-based-configuration.md#create-code-based-configuration)
 
-1. [!DNL Journey Optimizer]에서 이 구성을 사용하여 여정 또는 캠페인을 만듭니다. [방법 알아보기](create-code-based.md#create-code-based-campaign)
+1. [!DNL Journey Optimizer]에서 이 구성을 사용하여 여정 또는 캠페인을 만듭니다. [방법 알아보기](create-code-based.md#create-code-based-experience)
 
 1. [!DNL Journey Optimizer] 개인화 편집기로 선택한 구성에 대한 콘텐츠를 지정하여 경험을 만듭니다. [방법 알아보기](create-code-based.md#edit-code)
 

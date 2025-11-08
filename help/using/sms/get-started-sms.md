@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '818'
 ht-degree: 99%
@@ -23,7 +23,7 @@ ht-degree: 99%
 
 * **여정**&#x200B;에서. 여정을 만들고, SMS 활동을 추가하고, 기본 설정을 정의합니다. 그런 다음 오른쪽의 SMS 액션 창으로 이동하여 SMS, MMS 또는 RCS 메시지의 콘텐츠를 만듭니다. [여정 만드는 방법 알아보기](../building-journeys/journey-gs.md)
 
-* **캠페인**&#x200B;에서. 캠페인을 만들고, 액션으로 SMS를 선택하고, 기본 설정을 정의합니다. 그런 다음 메시지 콘텐츠를 편집하여 전송할 SMS, MMS 또는 RCS 메시지를 정의합니다. [캠페인 만드는 방법 알아보기](../campaigns/create-campaign.md#configure)
+* **캠페인**&#x200B;에서. 캠페인을 만들고, 액션으로 SMS를 선택하고, 기본 설정을 정의합니다. 그런 다음 메시지 콘텐츠를 편집하여 전송할 SMS, MMS 또는 RCS 메시지를 정의합니다. [캠페인 만드는 방법 알아보기](../campaigns/campaign-action.md#action-campaign-action)
 
 >[!IMPORTANT]
 >
@@ -171,7 +171,7 @@ SMS 환경을 설정하고 구성하는 방법 알아보기:
 문자 메시지가 규정 및 개인 정보 보호 표준을 준수하는지 확인:
 
 * [옵트아웃 관리](sms-opt-out.md)
-* [개인 정보 보호 및 동의](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
+* [개인 정보 보호 및 동의](../privacy/opt-out.md#opt-out-decision-management)
 
 +++
 
@@ -201,7 +201,7 @@ SMS를 고객 여정 및 캠페인에 통합하는 방법 알아보기:
 
 +++비디오 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3422697?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
@@ -211,7 +211,7 @@ Adobe Journey Optimizer가 마케터에게 제공하는 포괄적인 모바일 �
 
 +++비디오 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3430374?captions=kor&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
 +++
 
@@ -221,7 +221,7 @@ Adobe Journey Optimizer가 마케터에게 제공하는 포괄적인 모바일 �
 
 +++비디오 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3464762?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
 +++
 

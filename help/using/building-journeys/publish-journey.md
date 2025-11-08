@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 게시, 여정, 라이브, 유효성, 확인
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 42%
@@ -30,7 +30,7 @@ ht-degree: 42%
 1. 여정을 게시하기 전에 유효하고 오류가 없는지 확인하십시오. 오류가 있는 여정은 게시할 수 없습니다.
 
    * [이 페이지](testing-the-journey.md)에서 여정을 테스트하는 방법을 알아보세요.
-   * [이 섹션](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)에서 여정 오류를 해결하는 방법을 알아봅니다.
+   * [이 섹션](../building-journeys/troubleshooting.md#activity-errors)에서 여정 오류를 해결하는 방법을 알아봅니다.
 
 1. 여정을 게시하려면 오른쪽 상단 드롭다운 메뉴에 있는 **[!UICONTROL 게시]** 옵션을 클릭합니다.
 
@@ -40,7 +40,7 @@ ht-degree: 42%
 
    ![](assets/journeyuc1_18.png)
 
-여정이 게시되면 **읽기 전용** 모드에 있습니다. 읽기 전용 모드에서는 활동 레이블 및 설명, 여정 이름 및 여정 설명만 수정할 수 있습니다. 게시된 여정을 추가로 수정해야 하는 경우 여정의 [새 버전](journey-ui.md#journey-versions)을 만드십시오.
+여정이 게시되면 **읽기 전용** 모드에 있습니다. 읽기 전용 모드에서는 활동 레이블 및 설명, 여정 이름 및 여정 설명만 수정할 수 있습니다. 게시된 여정을 추가로 수정해야 하는 경우 여정의 [새 버전](journey-ui.md#journey-filter)을 만드십시오.
 
 여정을 중지하면 영구적으로 중지됩니다. 여정을 통해 흘러가는 모든 개인은 영구적으로 정지되며, 여정은 새로운 항목을 허용하는 것을 중단한다. 여정을 다시 실행해야 하는 경우 복제하고 새 여정을 게시합니다.
 
@@ -81,11 +81,11 @@ ht-degree: 42%
 
 >[!NOTE]
 >
->특정 보호 기능 및 제한 사항은 여정 버전 관리에 적용됩니다. [이 페이지](../start/guardrails.md#journey-versions-journey-versions-g)에서 자세히 알아보십시오.
+>특정 보호 기능 및 제한 사항은 여정 버전 관리에 적용됩니다. [이 페이지](../start/guardrails.md#journey-versions-g)에서 자세히 알아보십시오.
 
 
 ## 사용 방법 비디오 {#video}
 
 이 비디오에서 여정을 게시하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3427937?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)

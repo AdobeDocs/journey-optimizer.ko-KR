@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 keywords: 랜딩, 랜딩 페이지, 구성, 환경, 하위 도메인, 사전 설정
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 18ff50d9625e3e5be555b6ca274b2d7f61dd126e
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 13%
@@ -24,7 +24,7 @@ ht-degree: 13%
 
 ## 랜딩 페이지 사전 설정 시작 {#gs-lp-presets}
 
-[랜딩 페이지를 만들](../landing-pages/create-lp.md#create-a-lp) 때 랜딩 페이지를 만들고 **[!DNL Journey Optimizer]**&#x200B;을(를) 통해 활용할 수 있도록 랜딩 페이지 사전 설정을 선택해야 합니다. 사전 설정에는 이 사전 설정을 기반으로 랜딩 페이지에 사용할 하위 도메인이 포함됩니다.
+[랜딩 페이지를 만들](../landing-pages/create-lp.md#create-lp) 때 랜딩 페이지를 만들고 **[!DNL Journey Optimizer]**&#x200B;을(를) 통해 활용할 수 있도록 랜딩 페이지 사전 설정을 선택해야 합니다. 사전 설정에는 이 사전 설정을 기반으로 랜딩 페이지에 사용할 하위 도메인이 포함됩니다.
 
 사전 설정을 만들기 전에 이전에 하나 이상의 랜딩 페이지 하위 도메인을 구성했는지 확인하십시오. [랜딩 페이지 하위 도메인을 만드는 방법을 알아봅니다](lp-subdomains.md).
 
@@ -84,7 +84,7 @@ ht-degree: 13%
 
 1. 랜딩 페이지 사전 설정이 만들어지면 목록에 **[!UICONTROL 활성]** 상태로 표시됩니다. 랜딩 페이지에 사용할 준비가 되었습니다.
 
-이제 [에서 &#x200B;](../landing-pages/create-lp.md)랜딩 페이지를 만들[!DNL Journey Optimizer]할 준비가 되었습니다.
+이제 [에서 ](../landing-pages/create-lp.md)랜딩 페이지를 만들[!DNL Journey Optimizer]할 준비가 되었습니다.
 <!--
 >[!NOTE]
 >
@@ -93,4 +93,4 @@ ht-degree: 13%
 **관련 항목**:
 
 * [랜딩 페이지 시작](../landing-pages/get-started-lp.md)
-* [랜딩 페이지 만들기](../landing-pages/create-lp.md#create-a-lp)
+* [랜딩 페이지 만들기](../landing-pages/create-lp.md#create-lp)

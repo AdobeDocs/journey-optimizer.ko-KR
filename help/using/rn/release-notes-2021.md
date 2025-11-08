@@ -10,8 +10,8 @@ level: Beginner, Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
-workflow-type: ht
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+workflow-type: tm+mt
 source-wordcount: '2035'
 ht-degree: 100%
 
@@ -86,7 +86,7 @@ ht-degree: 100%
 
 * **표현식 편집기** - 이제 고급 사용자는 여정 지도 작업에 함수를 사용할 수 있습니다. 이 기능은 구독 목록에 활용할 수 있습니다. 예를 들어 이제 대상자의 구독 목록에서 이메일 주소를 가져올 수 있습니다. [이 샘플에서 자세히 알아보기](../building-journeys/message-to-subscribers-uc.md)
 
-* **모니터링** - 실시간 여정 및 테스트 모드에 대한 단계 이벤트를 개선했습니다. 프로필 내보내기 작업과 관련하여 [새 필드](../reports/sharing-field-list.md#serviceevents)를 추가했습니다. 더 나은 사용자 경험을 위해 단계 이벤트 필드를 이제 다른 카테고리로 정리합니다. 이전 단계 이벤트 필드는 [stepEvents](../reports/sharing-legacy-fields.md) 카테고리에서 계속 사용할 수 있습니다.
+* **모니터링** - 실시간 여정 및 테스트 모드에 대한 단계 이벤트를 개선했습니다. 프로필 내보내기 작업과 관련하여 [새 필드](../reports/sharing-field-list.md#servicevents-field)를 추가했습니다. 더 나은 사용자 경험을 위해 단계 이벤트 필드를 이제 다른 카테고리로 정리합니다. 이전 단계 이벤트 필드는 [stepEvents](../reports/sharing-legacy-fields.md) 카테고리에서 계속 사용할 수 있습니다.
 * **접근성** - 여정의 접근성을 개선했습니다.
 * **컬렉션** - 이제 하위 개체가 포함된 개체 배열이 지원됩니다. [자세히 보기](../building-journeys/collections.md)
 * **목록** - 여정, 이벤트, 작업, 데이터 소스의 목록 화면을 개선했습니다.
@@ -277,7 +277,7 @@ ht-degree: 100%
 **콘텐츠 디자인**
 
 * **배경** - 이제 배경 이미지가 실시간 미리 보기에서 지원됩니다. [자세히 알아보기](../content-management/preview-test.md)
-  <!--* **One-click opt-out link** - You can insert a new type of link into your email content: the **Opt-out** link allows users to unsubscribe from receiving your communications in just one click, without being redirected to a landing page to confirm opting out. [Learn more](../privacy/opt-out.md#one-click-opt-out-link)-->
+  <!--* **One-click opt-out link** - You can insert a new type of link into your email content: the **Opt-out** link allows users to unsubscribe from receiving your communications in just one click, without being redirected to a landing page to confirm opting out. [Learn more](../privacy/opt-out.md#opt-out-personalization)-->
 
 **개인화**
 
@@ -351,7 +351,7 @@ ht-degree: 100%
 
 **미리 보기 및 테스트**
 
-* 이제 ID와 네임스페이스가 **[!UICONTROL 미리보기]** 화면에 표시됩니다. [자세히 보기](../content-management/preview-test.md#preview-your-messages)
+* 이제 ID와 네임스페이스가 **[!UICONTROL 미리보기]** 화면에 표시됩니다. [자세히 보기](../content-management/preview-test.md#preview-test)
 * 이제 교정용 테스트 이메일 수가 10개로 제한됩니다.
 * 교정쇄 내 **제목 줄 접두사**&#x200B;에 사용할 수 있는 문자가 제한됩니다. [자세히 보기](../content-management/preview-test.md#send-proofs)
 

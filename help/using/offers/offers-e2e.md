@@ -7,7 +7,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1101'
 ht-degree: 4%
@@ -109,7 +109,7 @@ ht-degree: 4%
 
    >[!NOTE]
    >
-   >이 예제에서는 우선 순위 점수만 사용합니다. [자격 규칙 및 제약 조건](../../using/offers/offer-library/creating-personalized-offers.md#eligibility)에 대해 자세히 알아보세요.
+   >이 예제에서는 우선 순위 점수만 사용합니다. [자격 규칙 및 제약 조건](../../using/offers/offer-library/add-constraints.md#eligibility)에 대해 자세히 알아보세요.
 
 ## 오퍼 구성 {#configure-offers}
 
@@ -127,7 +127,7 @@ ht-degree: 4%
    >
    >오퍼를 메시지의 다른 위치에 표시하여 다른 배치 컨텍스트에서 오퍼를 사용할 수 있는 기회를 더 많이 만들 수 있습니다.
 
-   [이 섹션](../../using/offers/offer-library/creating-personalized-offers.md#representations)의 표현에 대해 자세히 알아보세요.
+   [이 섹션](../../using/offers/offer-library/add-representations.md#representations)의 표현에 대해 자세히 알아보세요.
 
 1. 처음 두 배치의 적절한 이미지를 선택합니다. *디지털이 아닌 텍스트* 배치에 대한 사용자 지정 텍스트를 입력하십시오.
 

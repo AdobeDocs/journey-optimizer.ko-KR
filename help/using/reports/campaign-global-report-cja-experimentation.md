@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 69742163-7378-49ab-929e-86213d6e65e3
-source-git-commit: 08d444f499229f0942e4dae17d87030225f34d5f
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 9%
@@ -41,7 +41,7 @@ ht-degree: 9%
 
 * **[!UICONTROL 상승도]**: 기준선에 대한 해당 처리의 전환율 개선 비율을 측정합니다.
 
-* **[!UICONTROL 신뢰도]**: 해당 처리가 기준 처리와 동일하다는 증거입니다. [자세히 알아보기](../content-management/experiment-calculations.md#understand-confidence)
+* **[!UICONTROL 신뢰도]**: 해당 처리가 기준 처리와 동일하다는 증거입니다. [자세히 알아보기](../content-management/experiment-calculations.md#adobes-statistical-methodology-any-time-valid-confidence-sequences)
 
 +++
 
@@ -64,7 +64,7 @@ ht-degree: 9%
 
 * **[!UICONTROL 신뢰도 하한]**: 선택한 신뢰 구간 내에서 처리와 기준선 간의 전환율 차이에 대한 가장 낮은 예상 값입니다.
 
-* **[!UICONTROL 신뢰도]**: 해당 처리가 기준 처리와 동일하다는 증거입니다. [자세히 알아보기](../content-management/experiment-calculations.md#understand-confidence)
+* **[!UICONTROL 신뢰도]**: 해당 처리가 기준 처리와 동일하다는 증거입니다. [자세히 알아보기](../content-management/experiment-calculations.md#adobes-statistical-methodology-any-time-valid-confidence-sequences)
 
 * **[!UICONTROL 신뢰도 상한값]**: 선택한 신뢰 구간 내에서 처리와 기준선 간의 전환율 차이에 대한 가장 높은 예상값입니다.
 
@@ -75,4 +75,4 @@ ht-degree: 9%
 ![](assets/cja-experimentation-conversion.png)
 
 
-**[!UICONTROL 신뢰 구간]** 그래프는 선택한 성공 지표에 대해 기준선과 가장 성과가 좋은 처리를 비교하여 가능한 개선 범위를 보여 줍니다. [자세히 알아보기](../content-management/experiment-calculations.md#confidence-intervals).
+**[!UICONTROL 신뢰 구간]** 그래프는 선택한 성공 지표에 대해 기준선과 가장 성과가 좋은 처리를 비교하여 가능한 개선 범위를 보여 줍니다. [자세히 알아보기](../content-management/experiment-calculations.md#adobes-statistical-methodology-any-time-valid-confidence-sequences).

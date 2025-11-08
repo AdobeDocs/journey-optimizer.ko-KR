@@ -8,7 +8,7 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 6023f1004c74cedc7567fd142be767b12d85ba6d
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1138'
 ht-degree: 7%
@@ -39,7 +39,7 @@ ht-degree: 7%
 
 ## 고객 불만 신고율 감소 {#reduce-complaint-rate}
 
-ISP에는 일반적으로 수신된 메시지를 스팸으로 보고하는 눈에 띄는 수단이 있습니다. 이로 인해 신뢰할 수 없는 출처를 식별할 수 있다. 옵트아웃 요청을 신속하게 준수하여 신뢰할 수 있는 발신자임을 보임으로써 고객 불만 비율을 줄일 수 있습니다. [옵트아웃 관리에 대해 자세히 알아보기](../privacy/opt-out.md#opt-out-management)
+ISP에는 일반적으로 수신된 메시지를 스팸으로 보고하는 눈에 띄는 수단이 있습니다. 이로 인해 신뢰할 수 없는 출처를 식별할 수 있다. 옵트아웃 요청을 신속하게 준수하여 신뢰할 수 있는 발신자임을 보임으로써 고객 불만 비율을 줄일 수 있습니다. [옵트아웃 관리에 대해 자세히 알아보기](../privacy/opt-out.md#opt-out-decision-management)
 
 일반적으로 옵트아웃을 원하는 수신자에게 이메일 주소 또는 이름 등의 필드를 작성하도록 요구하여 방해를 받지 마십시오. 구독 취소 랜딩 페이지에는 유효성 검사 버튼이 하나만 있어야 합니다.
 

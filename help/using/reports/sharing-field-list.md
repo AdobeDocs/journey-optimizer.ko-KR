@@ -8,7 +8,7 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 9%
@@ -70,7 +70,7 @@ journeyStepEvent의 경우 ID와 관련된 필드도 추가해야 합니다.
 | eventType | 문자열 | 오류 이벤트인지 정보 이벤트인지를 나타내는 이벤트 유형: 정보, 오류 |
 | eventCode | 문자열 | 해당 eventType의 이유를 나타내는 오류 코드 |
 
-이 섹션[에서 eventTypes &#x200B;](#discarded-events)에 대해 자세히 알아보세요.
+이 섹션[에서 eventTypes ](#discarded-events)에 대해 자세히 알아보세요.
 
 ## stepEvent {#stepevents-field}
 
@@ -112,7 +112,7 @@ journeyStepEvent의 경우 ID와 관련된 필드도 추가해야 합니다.
    * **PAUSED_DISPATCHER_VERSION**: 여정 시작 지점에서 발생한 여정을 버립니다.
    * **여정_IN_PAUSED_STATE**: 프로필이 여정 상태일 때 발생한 항목을 삭제합니다.
 
-  [여정 일시 중지](../building-journeys/journey-pause.md#troubleshoot-profile-discards-in-paused-journeys)에서 이러한 이벤트와 문제를 해결하는 방법에 대해 자세히 알아보세요.
+  [여정 일시 중지](../building-journeys/journey-pause.md#discards-troubleshoot)에서 이러한 이벤트와 문제를 해결하는 방법에 대해 자세히 알아보세요.
 
 ## 추가 리소스
 

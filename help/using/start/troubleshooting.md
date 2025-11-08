@@ -7,7 +7,7 @@ feature: Get Started
 role: User
 level: Intermediate
 exl-id: f8acb987-5c6e-4545-93b9-fdfc0d74db57
-source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '2748'
 ht-degree: 2%
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 다음은 Adobe Journey Optimizer 문제 해결 문서 목록입니다. 각 문제 해결 섹션은 FAQ에 대한 답변과 문제에 대한 솔루션을 제공합니다.
 
-[Adobe Experience Platform FAQ 및 문제 해결 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/troubleshooting){target="_blank"}도 참조하세요.
+[Adobe Experience Platform FAQ 및 문제 해결 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/landing/troubleshooting){target="_blank"}도 참조하세요.
 
 ## 이메일 채널 {#ajo-troubleshooting-email}
 
@@ -59,7 +59,7 @@ HTML 조각 [에 대해 자세히 알아보세요](../content-management/fragmen
 
 이 문제를 해결하는 방법은 [이 문제 해결 문서](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-26738){target="_blank"}를 참조하세요.
 
-[&#x200B; 서식 파일에 대해 자세히 알아보세요](../email/use-email-templates.md).
+[ 서식 파일에 대해 자세히 알아보세요](../email/use-email-templates.md).
 
 +++
 
@@ -149,7 +149,7 @@ Adobe Customer Journey Analytics의 **인앱 채널**&#x200B;에 대한 보고�
 
 이 문제에 대한 자세한 내용은 [이 문제 해결 문서](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-26206){target="_blank"}를 참조하세요.
 
-Customer Journey Analytics에서 Journey Optimizer 분석 데이터를 통합하는 방법에 대해 자세히 알아보세요. [이 페이지](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/integrations/ajo#automatically-configure-journey-optimizer-integration){target="_blank"}.
+Customer Journey Analytics에서 Journey Optimizer 분석 데이터를 통합하는 방법에 대해 자세히 알아보세요. [이 페이지](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/ajo#automatically-configure-journey-optimizer-integration){target="_blank"}.
 
 [Journey Optimizer 전체 보고서 설명서](../reports/report-gs-cja.md)도 참조하세요.
 
@@ -164,7 +164,7 @@ Adobe Journey Optimizer에서 새 샌드박스를 프로비저닝하는 조직�
 
 TTL 처리 방법에 대해 알아보려면 [이 문제 해결 문서](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-26135){target="_blank"}를 참조하세요.
 
-이 페이지의 [&#x200B; 데이터 집합 Time-to-Live에 대해 자세히 알아보세요](../data/datasets-ttl.md).
+이 페이지의 [ 데이터 집합 Time-to-Live에 대해 자세히 알아보세요](../data/datasets-ttl.md).
 
 +++
 
@@ -189,9 +189,9 @@ Adobe Journey Optimizer에서 여정에서 **프로필 업데이트** 활동을 
 
 이 문제를 해결하는 방법에 대해 알아보려면 [이 문제 해결 문서](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-26352){target="_blank"}를 참조하세요.
 
-이 페이지의 **&#x200B;**&#x200B;여정에서 [프로필 업데이트](../building-journeys/update-profiles.md) 활동에 대해 자세히 알아보세요.
+이 페이지의 **** 여정에서 [프로필 업데이트](../building-journeys/update-profiles.md) 활동에 대해 자세히 알아보세요.
 
-데이터 수집에 대한 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/ingestion/tutorials/ingest-batch-data#dataset-activity){target="_blank"}도 참조하세요.
+데이터 수집에 대한 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/tutorials/ingest-batch-data#dataset-activity){target="_blank"}도 참조하세요.
 
 +++
 
@@ -201,9 +201,9 @@ Adobe Journey Optimizer에서 여정에서 **프로필 업데이트** 활동을 
 
 이 문제를 해결하는 방법에 대해 알아보려면 [이 문제 해결 문서](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-26253){target="_blank"}를 참조하세요.
 
-[이 Journey Optimizer 커뮤니티 게시물](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998?profile.language=ko){target="_blank"}에서 자세히 알아보세요.
+[이 Journey Optimizer 커뮤니티 게시물](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998){target="_blank"}에서 자세히 알아보세요.
 
-매일 작업이 예약된 시간을 확인하려면 [Adobe Experience Platform 일정 API 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/api/schedules){target="_blank"}를 참조하십시오.
+매일 작업이 예약된 시간을 확인하려면 [Adobe Experience Platform 일정 API 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/api/schedules){target="_blank"}를 참조하십시오.
 
 +++
 
@@ -214,9 +214,9 @@ Adobe Journey Optimizer에서 여정에서 **프로필 업데이트** 활동을 
 
 이 문제를 해결하는 방법에 대해 알아보려면 [이 문제 해결 문서](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-26333){target="_blank"}를 참조하세요.
 
-이 페이지의 **&#x200B;**&#x200B;여정에서 [프로필 업데이트](../building-journeys/update-profiles.md) 활동에 대해 자세히 알아보세요.
+이 페이지의 **** 여정에서 [프로필 업데이트](../building-journeys/update-profiles.md) 활동에 대해 자세히 알아보세요.
 
-[Adobe Real-Time CDP 프로필 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/ui/user-guide#profile-detail){target="_blank"}도 참조하세요.
+[Adobe Real-Time CDP 프로필 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#profile-detail){target="_blank"}도 참조하세요.
 
 +++
 
@@ -228,7 +228,7 @@ Adobe Journey Optimizer에서 여정에서 **프로필 업데이트** 활동을 
 
 [라이선스 사용 대시보드](../audience/license-usage.md)를 사용하여 조직의 라이선스 사용 및 참여 가능한 프로필 모니터링
 
-[Adobe Experience Platform 쿼리 서비스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/query/home){target="_blank"}도 참조하세요.
+[Adobe Experience Platform 쿼리 서비스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/query/home){target="_blank"}도 참조하세요.
 
 +++
 
@@ -266,7 +266,7 @@ Adobe Journey Optimizer에서 여정에서 **프로필 업데이트** 활동을 
 
 이 문제를 해결하는 방법에 대해 알아보려면 [이 문제 해결 문서](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-26152){target="_blank"}를 참조하세요.
 
-[&#x200B; 여정을 이 페이지에서](../building-journeys/journey-ui.md#duplicate-a-journey)에 복제하는 방법을 알아보세요.
+[ 여정을 이 페이지에서](../building-journeys/journey-ui.md#duplicate-a-journey)에 복제하는 방법을 알아보세요.
 
 +++
 
@@ -287,7 +287,7 @@ Adobe Journey Optimizer에서 여정에서 **프로필 업데이트** 활동을 
 
 이 문제를 해결하는 방법에 대해 알아보려면 [이 문제 해결 문서](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-26018){target="_blank"}를 참조하세요.
 
-[여정 보호](../start/guardrails.md#journey-guardrails)도 참조하세요.
+[여정 보호](../start/guardrails.md#decisioning-guardrails)도 참조하세요.
 
 +++
 
@@ -298,9 +298,9 @@ Adobe Journey Optimizer에서 여정에서 **프로필 업데이트** 활동을 
 
 이 문제를 해결하는 방법에 대해 알아보려면 [이 문제 해결 문서](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-26031){target="_blank"}를 참조하세요.
 
-[&#x200B; 이벤트에 대해 자세히 알아보세요](../event/about-events.md).
+[ 이벤트에 대해 자세히 알아보세요](../event/about-events.md).
 
-[여정 이벤트 보호](../start/guardrails.md#events)도 참조하세요.
+[여정 이벤트 보호](../start/guardrails.md#events-g)도 참조하세요.
 
 +++
 
@@ -311,7 +311,7 @@ Adobe Journey Optimizer에서 여정에서 **프로필 업데이트** 활동을 
 
 이 문제를 해결하는 방법에 대해 알아보려면 [이 문제 해결 문서](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-26224){target="_blank"}를 참조하세요.
 
-[&#x200B; 여정을 이 페이지에서](../building-journeys/journey-ui.md#duplicate-a-journey)에 복제하는 방법을 알아보세요.
+[ 여정을 이 페이지에서](../building-journeys/journey-ui.md#duplicate-a-journey)에 복제하는 방법을 알아보세요.
 
 +++
 
@@ -321,7 +321,7 @@ Adobe Journey Optimizer에서 여정에서 **프로필 업데이트** 활동을 
 
 이 문제를 해결하는 방법에 대해 알아보려면 [이 문제 해결 문서](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-26156){target="_blank"}를 참조하세요.
 
-이 페이지[에서 여정 조절 API &#x200B;](../configuration/throttling.md)에 대해 자세히 알아보세요.
+이 페이지[에서 여정 조절 API ](../configuration/throttling.md)에 대해 자세히 알아보세요.
 
 [외부 시스템과 통합](../configuration/external-systems.md)도 참조하세요.
 
@@ -365,7 +365,7 @@ Adobe Journey Optimizer을 사용하여 Adobe Target을 응용 프로그램에 �
 
 이 문제를 해결하는 방법에 대해 알아보려면 [이 문제 해결 문서](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-26175){target="_blank"}를 참조하세요.
 
-이 페이지[에서 Offer Decisioning &#x200B;](../offers/get-started/starting-offer-decisioning.md#granting-acess-to-decision-management)에 필요한 권한에 대해 자세히 알아보세요.
+이 페이지[에서 Offer Decisioning ](../offers/get-started/starting-offer-decisioning.md#granting-acess-to-decision-management)에 필요한 권한에 대해 자세히 알아보세요.
 
 +++
 
@@ -413,6 +413,6 @@ Postman 또는 유사한 도구를 통해 **쿼리 서비스 API**&#x200B;를 �
 
 자세한 내용은 [이 문제 해결 문서](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-26196){target="_blank"}를 참조하세요.
 
-[API 자격 증명 관리 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/abac/permissions-ui/permissions#manage-api-credentials-for-role){target="_blank"}도 참조하세요.
+[API 자격 증명 관리 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions#manage-api-credentials-for-role){target="_blank"}도 참조하세요.
 
 +++

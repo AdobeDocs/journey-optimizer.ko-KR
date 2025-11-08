@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 여정, 구성, 속성
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '2748'
 ht-degree: 15%
@@ -307,7 +307,7 @@ Adobe Journey Optimizer은 전체 여정에 사용된 병합 정책을 적용합
 
 이 기능은 일시 중지/다시 시작 기능과 함께 작동하므로 여정을 보다 안전하고 유연하게 관리할 수 있습니다. 수작업으로 인한 번거로움을 최소화하고, 관련 없는 통신 또는 비준수 통신을 전송할 위험을 줄이며, 여정 논리를 현재 비즈니스 요구 사항에 맞게 유지합니다.
 
-[일시 중지된 여정에서 프로필 특성 종료 기준을 사용하는 방법](journey-pause.md#apply-a-global-filter-to-profiles-in-a-paused-journey)을 알아보려면 이 섹션을 참조하세요.
+[일시 중지된 여정에서 프로필 특성 종료 기준을 사용하는 방법](journey-pause.md#journey-pause-sample)을 알아보려면 이 섹션을 참조하세요.
 
 ### 가드레일 및 제한 사항 {#exit-criteria-guardrails}
 

@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 하위 도메인, 도메인, 메일, DMARC, 레코드
 exl-id: 15b10a61-6ecd-4ffa-b1c2-21e862263f6d
-source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 100%
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 따라서 Adobe는 [!DNL Journey Optimizer]에서 Adobe에 위임한 모든 하위 도메인에 대해 DMARC 레코드가 설정되어 있는지 확인하는 것을 강력히 권장합니다. 사용 사례에 적용되는 아래 단계를 따르십시오.
 
-* 하위 도메인 보내기를 Adobe로 [완전히 위임하였다면](delegate-subdomain.md#full-subdomain-delegation) 아래 옵션 중 하나를 따르십시오.
+* 하위 도메인 보내기를 Adobe로 [완전히 위임하였다면](delegate-subdomain.md#set-up-subdomain) 아래 옵션 중 하나를 따르십시오.
 
    * **호스팅 솔루션에서** 위임된 하위 도메인의 상위 도메인에 DMARC를 설정합니다.
 또는

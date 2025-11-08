@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '3521'
 ht-degree: 26%
@@ -41,7 +41,7 @@ Campaign **[!UICONTROL 라이브 보고서]** 페이지가 다음 탭과 함께 
 
 Campaign **[!UICONTROL 라이브 보고서]**&#x200B;는 캠페인의 성공 및 오류를 자세히 설명하는 다양한 위젯으로 나뉩니다. 필요한 경우 각 위젯의 크기를 조정하고 삭제할 수 있습니다. 자세한 내용은 이 [섹션](../reports/live-report.md#modify-dashboard)을 참조하세요.
 
-Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 목록은 [이 페이지](live-report.md#list-of-components-live)를 참조하세요.
+Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 목록은 [이 페이지](live-report.md#live-report)를 참조하세요.
 
 ## 캠페인 탭 {#campaign-live}
 

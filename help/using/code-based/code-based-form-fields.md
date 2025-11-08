@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 5dd46ea8-acba-4c42-a65a-c18e45cba2cd
-source-git-commit: 92247adabc56f369c9b11cdc519cdc7bf30c99f1
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1218'
 ht-degree: 8%
@@ -104,7 +104,7 @@ JSON 또는 HTML 코드 중 일부를 편집할 수 있도록 하려면 먼저 �
 
 1. 편집 화면의 오른쪽 레일에서 **[!UICONTROL 의사 결정 표시]** 아이콘을 사용하거나 왼쪽 메뉴의 **[!UICONTROL 의사 결정 정책]** 섹션에서 식 편집기에서 **[!UICONTROL 의사 결정 정책 추가]**&#x200B;를 클릭합니다.
 
-   [이 섹션](../experience-decisioning/create-decision.md#add-decision)에서 의사 결정 정책을 만드는 방법을 알아봅니다.
+   [이 섹션](../experience-decisioning/create-decision.md#create-decision)에서 의사 결정 정책을 만드는 방법을 알아봅니다.
 
 1. **[!UICONTROL 정책 삽입]** 단추를 클릭합니다. 결정 정책에 해당하는 코드가 추가됩니다.
 
@@ -246,4 +246,4 @@ JSON 또는 HTML 코드 중 일부를 편집할 수 있도록 하려면 먼저 �
 
 코드 기반 경험 채널 콘텐츠 템플릿에 편집 가능한 필드를 추가하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3463998/?captions=kor&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3463990/?learn=on&#x26;enablevpops)

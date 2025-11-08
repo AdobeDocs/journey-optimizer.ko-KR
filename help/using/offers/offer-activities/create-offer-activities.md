@@ -7,7 +7,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: fb036e910431a4ce9709b394c93484e6b76bf8f8
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '2549'
 ht-degree: 7%
@@ -397,7 +397,7 @@ ht-degree: 7%
 
 ![](../assets/decision_click-name.png)
 
-이를 통해 해당 결정에 대한 자세한 정보에 액세스할 수 있습니다. **[!UICONTROL 변경 로그]** 탭을 선택하여 [모든 변경 내용을 모니터링](../get-started/user-interface.md#changes-log)합니다.
+이를 통해 해당 결정에 대한 자세한 정보에 액세스할 수 있습니다. **[!UICONTROL 변경 로그]** 탭을 선택하여 [모든 변경 내용을 모니터링](../get-started/user-interface.md#changes-logs)합니다.
 
 ![](../assets/decision_information.png)
 
@@ -405,6 +405,6 @@ ht-degree: 7%
 
 의사 결정 관리에서 오퍼 활동을 만드는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/346696?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 
 

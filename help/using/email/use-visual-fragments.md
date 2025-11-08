@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: 7a8a0c133318b0bfc33b0fdb294e5b9ef53de9a5
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 2%
@@ -64,8 +64,8 @@ ht-degree: 2%
 1. **[!UICONTROL 설정]** 탭에서 다음을 수행할 수 있습니다.
 
    * 조각을 표시할 장치를 선택합니다.
-   * 필요한 경우 새 탭에서 조각을 열어 편집합니다. [자세히 알아보기](../content-management/fragments.md#edit-fragments)
-   * 참조 살펴보기. [자세히 알아보기](../content-management/fragments.md#explore-references)
+   * 필요한 경우 새 탭에서 조각을 열어 편집합니다. [자세히 알아보기](../content-management/fragments.md#fragments)
+   * 참조 살펴보기. [자세히 알아보기](../content-management/fragments.md#visual-expression)
 
 1. **[!UICONTROL 스타일]** 탭을 사용하여 조각을 추가로 사용자 지정할 수 있습니다.
 

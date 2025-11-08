@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 메시지, 빈도, 규칙, 압력
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
-source-git-commit: 98ff30896eacdd1d8c6efd4db49cb2cbeb859a83
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1219'
 ht-degree: 5%
@@ -94,7 +94,7 @@ ht-degree: 5%
 
 1. 위의 단계를 반복하여 규칙 세트에 필요한 만큼 규칙을 추가합니다.
 
-1. 최대 가용량 규칙을 메시지에 적용할 준비가 되면 규칙 세트와 해당 규칙이 추가된 규칙을 활성화합니다. [규칙 집합을 활성화하는 방법 알아보기](../conflict-prioritization/rule-sets.md#create)
+1. 최대 가용량 규칙을 메시지에 적용할 준비가 되면 규칙 세트와 해당 규칙이 추가된 규칙을 활성화합니다. [규칙 집합을 활성화하는 방법 알아보기](../conflict-prioritization/rule-sets.md#Create)
 
 ## 메시지에 규칙 세트 적용 {#apply-frequency-rule}
 
@@ -161,4 +161,4 @@ In this scenario, an individual profile:
 
 ## 사용 방법 비디오 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444733?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

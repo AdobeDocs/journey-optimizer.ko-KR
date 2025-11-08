@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 옵트아웃, 이메일, 링크, 구독 취소
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '991'
 ht-degree: 26%
@@ -22,7 +22,7 @@ ht-degree: 26%
 
 >[!NOTE]
 >
->모든 마케팅 메시지에는 옵트아웃 링크가 포함되어야 합니다. 트랜잭션 메시지에는 필요하지 않습니다. 메시지 범주(**[!UICONTROL 마케팅]** 또는 **[!UICONTROL 트랜잭션]**)는 [채널 구성](../configuration/channel-surfaces.md#email-type) 수준에서 메시지를 만들 때 정의됩니다.
+>모든 마케팅 메시지에는 옵트아웃 링크가 포함되어야 합니다. 트랜잭션 메시지에는 필요하지 않습니다. 메시지 범주(**[!UICONTROL 마케팅]** 또는 **[!UICONTROL 트랜잭션]**)는 [채널 구성](email-settings.md#email-type) 수준에서 메시지를 만들 때 정의됩니다.
 
 이메일 콘텐츠에 구독 취소 링크를 삽입하려면 다음을 수행할 수 있습니다.
 
@@ -34,7 +34,7 @@ ht-degree: 26%
 
 수신자가 옵트아웃 링크를 클릭하면 그에 따라 구독 취소 요청이 처리됩니다.
 
-해당 프로필의 선택 사항이 업데이트되었는지 확인하려면 Experience Platform으로 이동하여 [해당 프로필을 찾아봅니다](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/ui/user-guide#attributes-tab). **[!UICONTROL 특성]** 탭에서 **[!UICONTROL 선택]**&#x200B;의 값이 **[!UICONTROL 아니요]**(으)로 변경되었음을 확인할 수 있습니다. [Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}에서 자세한 내용을 알아보십시오.
+해당 프로필의 선택 사항이 업데이트되었는지 확인하려면 Experience Platform으로 이동하여 [해당 프로필을 찾아봅니다](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#attributes-tab). **[!UICONTROL 특성]** 탭에서 **[!UICONTROL 선택]**&#x200B;의 값이 **[!UICONTROL 아니요]**(으)로 변경되었음을 확인할 수 있습니다. [Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}에서 자세한 내용을 알아보십시오.
 
 ![](assets/opt-out-profile-choice.png)
 

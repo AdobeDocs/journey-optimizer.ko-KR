@@ -9,7 +9,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 이벤트, 이벤트, 여정, 정의, 시작
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1555'
 ht-degree: 32%
@@ -91,7 +91,7 @@ Adobe Journey Optimizer은 모든 샌드박스에서 조직 수준에서 초당 
 
 * **Analytics 이벤트**: 여정을 트리거하기 위해 Adobe Analytics과 [통합](about-analytics.md)을 사용하도록 설정한 경우 이러한 이벤트도 포함됩니다.
 
-* **이벤트 다시 시작**: 일시 중지된 여정에서 프로필이 다시 시작될 때 기술적인 이벤트가 트리거됩니다. [일시 중지된 여정 다시 시작](../building-journeys/journey-pause.md#how-to-resume-a-paused-journey)에 대해 자세히 알아보세요.
+* **이벤트 다시 시작**: 일시 중지된 여정에서 프로필이 다시 시작될 때 기술적인 이벤트가 트리거됩니다. [일시 중지된 여정 다시 시작](../building-journeys/journey-pause.md#journey-resume-steps)에 대해 자세히 알아보세요.
 
 * **대기 노드 완료 이벤트**: 프로필이 대기 노드를 종료하면 여정을 다시 시작하기 위한 기술 이벤트가 생성됩니다.
 
@@ -122,8 +122,8 @@ Adobe Journey Optimizer은 모든 샌드박스에서 조직 수준에서 초당 
 
 이벤트를 구성하고 이벤트에 대한 스트리밍 엔드포인트 및 페이로드를 지정하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431519?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 비즈니스 이벤트의 사용 사례를 이해합니다. 비즈니스 이벤트를 사용하여 여정을 작성하는 방법과 상황에 따라 적합한 모범 사례를 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416327?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)
