@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: 링크, 추적, 모니터링, 이메일
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
 workflow-type: tm+mt
 source-wordcount: '1344'
 ht-degree: 27%
@@ -73,7 +73,7 @@ ht-degree: 27%
 
    * **[!UICONTROL 외부 옵트인/구독]**&#x200B;을(를) 선택하여 브랜드의 수신 통신을 수락하는 링크를 삽입합니다.
 
-   * **[!UICONTROL 외부 옵트아웃/구독 취소]**&#x200B;를 선택하여 브랜드로부터 커뮤니케이션 수신을 취소할 링크를 삽입합니다. [이 섹션](email-opt-out.md#opt-out-management)에서 옵트아웃 관리에 대해 자세히 알아보세요.
+   * **[!UICONTROL 외부 옵트아웃/구독 취소]**&#x200B;를 선택하여 브랜드로부터 커뮤니케이션 수신을 취소할 링크를 삽입합니다. [이 섹션](email-opt-out.md#email-opt-out)에서 옵트아웃 관리에 대해 자세히 알아보세요.
 
    * **[!UICONTROL 미러 페이지]**&#x200B;을(를) 선택하여 이메일 미러 페이지에 대한 링크를 추가하십시오. [자세히 알아보기](#mirror-page)
 
@@ -93,7 +93,7 @@ ht-degree: 27%
 
 >[!NOTE]
 >
->마케팅 유형 이메일 메시지에는 [옵트아웃 링크](../privacy/opt-out.md#opt-out-management)가 포함되어야 합니다. 이는 트랜잭션 메시지에는 필요하지 않습니다. 메시지를 만들 때 **[!UICONTROL 채널 구성]**&#x200B;에 메시지 범주(**[!UICONTROL 마케팅]** 또는 [트랜잭션](../configuration/channel-surfaces.md#email-type))가 정의되어 있습니다.
+>마케팅 유형 이메일 메시지에는 [옵트아웃 링크](../privacy/opt-out.md#opt-out-decision-management)가 포함되어야 합니다. 이는 트랜잭션 메시지에는 필요하지 않습니다. 메시지를 만들 때 **[!UICONTROL 채널 구성]**&#x200B;에 메시지 범주(**[!UICONTROL 마케팅]** 또는 [트랜잭션](email-settings.md#email-type))가 정의되어 있습니다.
 
 메시지를 보낸 후 링크의 유지 기간은 **25개월**&#x200B;입니다. 해당 지연 후에는 링크를 더 이상 사용할 수 없습니다.
 
@@ -204,4 +204,4 @@ Adobe Journey Optimizer에서 생성한 미러 페이지에는 모든 개인화 
 
 >[!NOTE]
 >
->최종 URL을 확인하려면 증명을 [보내고](../content-management/preview-test.md#send-proofs) 증명을 받은 후 전자 메일의 콘텐츠에서 링크를 클릭할 수 있습니다. URL에 추적 매개 변수가 표시되어야 합니다. 위의 예에서 최종 URL은 <https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>입니다.
+>최종 URL을 확인하려면 증명을 [보내고](../content-management/proofs.md) 증명을 받은 후 전자 메일의 콘텐츠에서 링크를 클릭할 수 있습니다. URL에 추적 매개 변수가 표시되어야 합니다. 위의 예에서 최종 URL은 <https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>입니다.

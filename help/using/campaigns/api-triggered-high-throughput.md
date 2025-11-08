@@ -8,7 +8,7 @@ topic: Content Management
 role: Developer
 level: Experienced
 keywords: 캠페인, API 트리거, REST, 최적화 도구, 메시지
-source-git-commit: 4521990a02092365f996a81299ada55433639fb7
+source-git-commit: 81e54a3e3428d58818805b5dcb397ede4039436a
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 4%
@@ -30,7 +30,7 @@ ht-degree: 4%
 
 * **Personalization**:
 
-   * 모든 개인화는 **컨텍스트 데이터**(으)로 API 페이로드에 포함되어야 합니다. [컨텍스트 데이터를 사용하여 콘텐츠를 개인화하는 방법 알아보기](../campaigns/api-triggered-campaign-action.md#contextual)
+   * 모든 개인화는 **컨텍스트 데이터**(으)로 API 페이로드에 포함되어야 합니다. [컨텍스트 데이터를 사용하여 콘텐츠를 개인화하는 방법 알아보기](../campaigns/api-triggered-campaign-content.md#contextual)
    * 프로필 기반 개인화는 지원되지 않습니다. 프로필 변수를 사용하면 유효성 검사 오류가 발생합니다.
 
 * **개인화된 채널 구성** - [프로필 기반 개인화](../email/surface-personalization.md)를 사용하는 채널 구성은 처리량이 많은 캠페인과 함께 사용할 수 없습니다. 프로필 개인화가 없는 서피스만 사용할 수 있습니다.

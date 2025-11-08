@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 keywords: 캠페인, API 트리거, REST, 최적화 도구, 메시지
 exl-id: 561f1215-d13d-4ffc-b6f1-396ae67774c8
-source-git-commit: d3570e2c3d6340deaba8ca0f342161ab43ad1c43
+source-git-commit: 81e54a3e3428d58818805b5dcb397ede4039436a
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 4%
@@ -38,7 +38,7 @@ API에서 트리거된 캠페인이 구성되면 활성화하기 전에 해당 �
 
 1. 캠페인이 활성화되었습니다. 해당 상태는 **[!UICONTROL Live]**&#x200B;이거나 시작 날짜를 입력한 경우 **[!UICONTROL 예약됨]**&#x200B;입니다.
 
-   **[!UICONTROL 완료됨]** 상태는 캠페인이 활성화된 후 3일 또는 캠페인 종료 날짜(반복 실행)에 자동으로 할당됩니다. [캠페인 상태에 대해 자세히 알아보기](get-started-with-campaigns.md#statuses).
+   **[!UICONTROL 완료됨]** 상태는 캠페인이 활성화된 후 3일 또는 캠페인 종료 날짜(반복 실행)에 자동으로 할당됩니다. [캠페인 상태에 대해 자세히 알아보기](manage-campaigns.md#statuses).
 
    종료 날짜가 지정되지 않은 경우 캠페인은 **[!UICONTROL Live]** 상태를 유지합니다. 변경하려면 캠페인을 수동으로 중지해야 합니다. [캠페인을 중지하는 방법 알아보기](manage-campaigns.md)
 

@@ -10,7 +10,7 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 만들기, 최적화 도구, 캠페인, 표면, 메시지
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
+source-git-commit: 81e54a3e3428d58818805b5dcb397ede4039436a
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 51%
@@ -40,7 +40,7 @@ ht-degree: 51%
 
 ## 액션 캠페인 생성에 대한 주요 단계 {#steps}
 
-캠페인을 시작하기 전에 [이 섹션에 나열된 다음 필수 구성 요소를 확인](get-started-with-campaigns.md#permissions)하세요. 이러한 전제 조건이 충족되면 캠페인 생성을 시작할 수 있습니다.
+캠페인을 시작하기 전에 [이 섹션에 나열된 다음 필수 구성 요소를 확인](get-started-with-campaigns.md#prerequisites)하세요. 이러한 전제 조건이 충족되면 캠페인 생성을 시작할 수 있습니다.
 
 1. [액션 캠페인 속성 정의](campaign-properties.md)
 1. [캠페인 액션 구성](campaign-action.md)
@@ -53,4 +53,4 @@ ht-degree: 51%
 
 액션 캠페인을 만드는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3412406?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)

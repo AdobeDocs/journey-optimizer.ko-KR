@@ -11,7 +11,7 @@ badge: label="제한된 가용성" type="Informative"
 keywords: 활동, 의사 결정, 컨텐츠 결정, 의사 결정 정책, 캔버스, 여정
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
 workflow-type: tm+mt
 source-wordcount: '1120'
 ht-degree: 3%
@@ -60,13 +60,13 @@ ht-degree: 3%
 
 1. 반환할 항목 수를 선택합니다. 예를 들어 2를 선택하면 최적의 2가지 적격 오퍼가 표시됩니다. **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
 
-1. **[!UICONTROL 전략 순서]** 섹션에서 결정 정책에 표시할 결정 항목 및/또는 선택 전략을 선택합니다. [자세히 알아보기](../experience-decisioning/create-decision.md#select)
+1. **[!UICONTROL 전략 순서]** 섹션에서 결정 정책에 표시할 결정 항목 및/또는 선택 전략을 선택합니다. [자세히 알아보기](../experience-decisioning/create-decision.md#create-decision)
 
 1. 필요에 따라 평가 순서를 정렬합니다.
 
-   여러 의사 결정 항목 및/또는 전략을 추가할 때 각 객체 또는 객체 그룹의 왼쪽에 숫자가 표시된 순차적 순서로 평가됩니다. 기본 시퀀스를 변경하려면 개체 및/또는 그룹을 드래그하여 놓아 원하는 대로 순서를 변경할 수 있습니다. [자세히 알아보기](../experience-decisioning/create-decision.md#evaluation-order)
+   여러 의사 결정 항목 및/또는 전략을 추가할 때 각 객체 또는 객체 그룹의 왼쪽에 숫자가 표시된 순차적 순서로 평가됩니다. 기본 시퀀스를 변경하려면 개체 및/또는 그룹을 드래그하여 놓아 원하는 대로 순서를 변경할 수 있습니다. [자세히 알아보기](../experience-decisioning/create-decision.md#create-decision)
 
-1. (선택 사항) 대체 오퍼를 추가합니다. [자세히 알아보기](../experience-decisioning/create-decision.md#fallback)
+1. (선택 사항) 대체 오퍼를 추가합니다. [자세히 알아보기](../experience-decisioning/create-decision.md#create-decision)
 
 1. 결정 정책을 검토하고 저장합니다.
 
@@ -152,7 +152,7 @@ ht-degree: 3%
    >
    >콘텐츠 결정 노드의 출력은 **[!UICONTROL 고급 모드]**&#x200B;에서만 사용할 수 있습니다.
 
-1. [&#x200B; 배열을 사용하여 &#x200B;](../experience-decisioning/catalogs.md#access-catalog-schema)오퍼 카탈로그 스키마`items`를 찾아봅니다. 예를 들어 검색된 첫 번째 오퍼의 `itemName`과(와) 검색된 두 번째 오퍼의 `itemName`을(를) 사용합니다.
+1. [ 배열을 사용하여 ](../experience-decisioning/catalogs.md#access-catalog-schema)오퍼 카탈로그 스키마`items`를 찾아봅니다. 예를 들어 검색된 첫 번째 오퍼의 `itemName`과(와) 검색된 두 번째 오퍼의 `itemName`을(를) 사용합니다.
 
    ![결정 정책을 포함하는 사용자 지정 작업의 요청 매개 변수](assets/journey-content-decision-custom-action-param-ex.png)
 

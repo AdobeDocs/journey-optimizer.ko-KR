@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 오류, 코드, 문제 해결, 여정, 캠페인, 메시지
-source-git-commit: 28a8f113d594f80ba7de22229e9a223b7f17ae8d
+source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
 workflow-type: tm+mt
 source-wordcount: '2394'
 ht-degree: 1%
@@ -68,7 +68,7 @@ Adobe Journey Optimizer 오류 코드는 구성 요소 및 문제 유형을 식�
 | **CJMRT-080605-400** | 여정 런타임의 잘못된 요청(예: 노드 트리거, 작업 등) | 구성은 제거/이름 변경 또는 오래된 기능/템플릿/채널을 참조합니다. | &#x200B;1. 모든 리소스 참조를 확인합니다<br/>2. 여정 구성 및 기능 플래그 감사<br/>3. 끊어진 참조를 업데이트하십시오<br/>4. 최근 시스템 업데이트 및 마이그레이션 검토&#x200B;<br/><br/>**관련 설명서**: [여정 만들기](journey-gs.md) |
 | **CJMRT-030012-422** | 처리할 수 없는 엔티티 - 액션 실패, 잘못된 이벤트 또는 잘못된 페이로드 | 잘못된 입력 데이터(예: 존재하지 않는 대상, 이벤트 또는 속성) | &#x200B;1. 입력/이벤트 페이로드 구조 <br/>2을(를) 다시 확인합니다. 참조된 개체(대상, 데이터 세트)가 있고 활성 상태인지 확인하십시오<br/>3. 모든 필수 필드가 있는지 확인합니다<br/>4. 정상 작동이 확인된 페이로드로 테스트&#x200B;<br/><br/>**관련 설명서**: [여정 문제 해결](troubleshooting.md), [이벤트 구성](../event/about-events.md) |
 | **CJMRT-130004-400** | 잘못된 요청 - 여정 노드 또는 채널 구성에서 잘못된 입력 | 여정 페이로드 또는 구성 참조가 제거됨/잘못된 리소스 | &#x200B;1. 여정 노드 구성 검토<br/>2. 참조된 모든 리소스(메시지, 대상, 작업)가 있는지 확인하십시오<br/>3. 끊어진 참조를 수정하거나 업데이트하십시오<br/>4. 필요한 경우 여정 구성을 다시 빌드합니다&#x200B;<br/><br/>**관련 설명서**: [여정 만들기](journey-gs.md), [사용자 지정 작업](../action/about-custom-action-configuration.md) |
-| **CJMRT-000032-409** | 충돌 - 리소스가 이미 있음 | 중복 ID 또는 이름으로 리소스 만들기 시도 | &#x200B;1. 모든 리소스에 고유 ID 및 이름을 사용합니다<br/>2. 같은 식별자<br/>3을(를) 가진 기존 리소스를 확인하십시오. 충돌하는 개체를 삭제하거나 이름을 바꾸십시오<br/>4. 이름 지정 규칙 검토&#x200B;<br/><br/>**관련 설명서**: [여정 버전](journey-gs.md#journey-versions) |
+| **CJMRT-000032-409** | 충돌 - 리소스가 이미 있음 | 중복 ID 또는 이름으로 리소스 만들기 시도 | &#x200B;1. 모든 리소스에 고유 ID 및 이름을 사용합니다<br/>2. 같은 식별자<br/>3을(를) 가진 기존 리소스를 확인하십시오. 충돌하는 개체를 삭제하거나 이름을 바꾸십시오<br/>4. 명명 규칙 검토&#x200B;<br/><br/>**관련 설명서**: [여정 만들기](journey-gs.md) |
 | **CJMRT-170016-400** | 여정 구성/미리보기 중 잘못된 요청 | 페이로드에 필수 종속성이 없거나 템플릿 링크가 끊어졌습니다. | &#x200B;1. 필요한 모든 리소스가 활성 상태인지 확인합니다<br/>2. 템플릿 및 콘텐츠 블록이 게시되었는지 확인<br/>3. 모든 종속성이 올바르게 연결되어 있는지 확인합니다<br/>4. 여정 테스트 모드 결과 검토&#x200B;<br/><br/>**관련 설명서**: [여정 테스트](testing-the-journey.md), [여정 종속성](journey-gs.md) |
 | **CJMRT-080608-400** | 도메인/채널/위임에 잘못된 요청이 있음 | 필수 DNS 레코드 또는 이메일/SMS 구성 누락 | &#x200B;1. 전자 메일 도메인에 대한 DNS 구성을 완료합니다<br/>2. 하위 도메인 위임이 완료되었는지 확인<br/>3. 구성 마법사를 다시 실행하십시오<br/>4. DNS 전파 허용 시간(최대 72시간)<br/><br/>**관련 설명서**: [채널 표면](../configuration/channel-surfaces.md), [하위 도메인 위임](../configuration/delegate-subdomain.md) |
 | **CJMRT-110100-500** | 페이로드 내부 오류 | 백엔드 데이터/구성 버그 또는 지원되지 않는 구성 | &#x200B;1. <br/>2 작업을 다시 시도하십시오. 고급 기능을 사용하는 경우 구성을 단순화합니다<br/>3. 요청 ID 및 정확한 페이로드를 사용하여 Adobe 지원 센터로 에스컬레이션합니다<br/>4. 릴리스 정보에서 알려진 문제를 확인합니다&#x200B;<br/><br/>**관련 설명서**: [여정 문제 해결](troubleshooting.md) |
@@ -182,15 +182,15 @@ Adobe Journey Optimizer 오류 코드는 구성 요소 및 문제 유형을 식�
 1. **정보 수집**: 오류 코드, 요청 ID, 타임스탬프 및 재현 단계를 수집합니다.
 2. **시스템 상태 확인**: 알려진 서비스 문제에 대해서는 [Adobe 상태](https://status.adobe.com/){target="_blank"}를 방문하세요.
 3. **설명서 검색**: 솔루션에 대한 [Adobe Experience League](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=ko){target="_blank"} 검토
-4. **커뮤니티 참여**: [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"}에 질문 게시
+4. **커뮤니티 참여**: [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}에 질문 게시
 5. **Adobe 지원에 문의**: 모든 관련 세부 정보를 포함한 지원 티켓을 제출합니다.
 
 >[!NOTE]
 >
->이 오류 코드 참조는 새 코드가 식별되고 문서화됨에 따라 계속 업데이트됩니다. 최신 정보는 [Adobe Journey Optimizer 커뮤니티 블로그](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs?profile.language=ko){target="_blank"}를 정기적으로 확인하십시오.
+>이 오류 코드 참조는 새 코드가 식별되고 문서화됨에 따라 계속 업데이트됩니다. 최신 정보는 [Adobe Journey Optimizer 커뮤니티 블로그](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs){target="_blank"}를 정기적으로 확인하십시오.
 
 **관련 항목**
 
-* [Adobe Journey Optimizer 오류 코드 식별: 1부](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=ko){target="_blank"}
-* [Adobe Journey Optimizer 오류 코드 식별: Part 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661?profile.language=ko){target="_blank"}
+* [Adobe Journey Optimizer 오류 코드 식별: 1부](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884){target="_blank"}
+* [Adobe Journey Optimizer 오류 코드 식별: Part 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661){target="_blank"}
 

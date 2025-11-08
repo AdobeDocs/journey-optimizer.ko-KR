@@ -9,7 +9,7 @@ level: Intermediate
 keywords: 게시, 여정, 라이브, 유효성, 확인
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: b1598fe695a53fd5261b3067f220dc3eea295dfb
+source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
 workflow-type: tm+mt
 source-wordcount: '2481'
 ht-degree: 6%
@@ -33,7 +33,7 @@ ht-degree: 6%
 
 >[!CAUTION]
 >
->* 여정을 일시 중지하고 다시 시작할 수 있는 권한은 **[!DNL Publish journeys]** 높은 수준의 권한을 가진 사용자로 제한됩니다. [!DNL Journey Optimizer]이 섹션[에서 &#x200B;](../administration/permissions-overview.md) 사용자의 액세스 권한 관리에 대해 자세히 알아보세요.
+>* 여정을 일시 중지하고 다시 시작할 수 있는 권한은 **[!DNL Publish journeys]** 높은 수준의 권한을 가진 사용자로 제한됩니다. [!DNL Journey Optimizer]이 섹션[에서 ](../administration/permissions-overview.md) 사용자의 액세스 권한 관리에 대해 자세히 알아보세요.
 >
 >* 일시 중지/다시 시작 기능을 사용하기 전에 [보호 기능 및 제한 사항을 읽어보세요](#journey-pause-guardrails).
 
@@ -153,12 +153,12 @@ ht-degree: 6%
 
 ## 가드레일 및 제한 사항 {#journey-pause-guardrails}
 
-* 최대 **14일** 동안 여정 버전을 일시 중지할 수 있으며, 조직 전체에서 일시 중지된 프로필에 최대 **1천만 개**&#x200B;의 여정이 허용됩니다.
+* 최대 **14일** 동안 여정 버전을 일시 중지할 수 있으며, 조직 전체에서 일시 중지된 프로필에 최대 **1천만 개**의 여정이 허용됩니다.
 이 제한은 30분마다 확인됩니다. 즉, 일시적으로 1,000만 임계값을 초과할 수 있지만, 시스템에서 이를 감지하면 추가 프로필이 자동으로 삭제됩니다.
 
   여정을 재개하여 보류된 프로필 수를 다시 한도 아래로 가져오는 경우 여정이 즉시 재개되지만, 프로필 수를 업데이트하는 데 최대 30분이 소요될 수 있습니다. 이 시간 동안 시스템은 해당 프로필을 일시 중지된 것으로 간주할 수 있습니다.
 
-* [인바운드 활동](../channels/gs-channels.md#mobile-app-and-web-experiences)을 포함하는 여정(예: 인앱, 웹 등)의 경우 여정을 일시 중지해도 이미 트리거된 통신은 중단되지 않습니다. 일시 중지 전에 프로필이 인바운드 활동에 대한 자격이 있는 경우 해당 메시지가 계속 전달됩니다. 모든 인바운드 통신을 완전히 중지하려면 여정을 중지해야 합니다.
+* [인바운드 활동](../channels/gs-channels.md#inbound-channels)을 포함하는 여정(예: 인앱, 웹 등)의 경우 여정을 일시 중지해도 이미 트리거된 통신은 중단되지 않습니다. 일시 중지 전에 프로필이 인바운드 활동에 대한 자격이 있는 경우 해당 메시지가 계속 전달됩니다. 모든 인바운드 통신을 완전히 중지하려면 여정을 중지해야 합니다.
 * 일시 중지된 여정은 라이브 여정 할당량에 계산됩니다
 * 여정에 들어갔지만 일시 중지 중에 삭제된 프로필은 여전히 참여 가능 프로필로 계산됩니다
 * 일시 중지된 여정은 모든 비즈니스 규칙에서 마치 살아있는 것처럼 동일하게 고려됩니다
@@ -201,7 +201,7 @@ ht-degree: 6%
 
 ## 일시 중지된 프로필의 여정 카드 문제 해결 {#discards-troubleshoot}
 
-[Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ko){target="_blank"}를 사용하여 단계 이벤트를 쿼리할 수 있습니다. 이 이벤트는 발생한 시기에 따라 프로필 삭제에 대한 자세한 정보를 제공할 수 있습니다.
+[Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}를 사용하여 단계 이벤트를 쿼리할 수 있습니다. 이 이벤트는 발생한 시기에 따라 프로필 삭제에 대한 자세한 정보를 제공할 수 있습니다.
 
 * 프로필이 여정에 들어가기 전에 발생하는 폐기물의 경우 다음 코드를 사용하십시오.
 
