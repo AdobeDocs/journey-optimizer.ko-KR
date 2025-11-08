@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1f16edd-efdf-41c2-a0ad-5f55009008f5
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 73a347c104fe28799c264f9a8b6c3e5e12c8d892
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 100%
+source-wordcount: '330'
+ht-degree: 96%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 * **여정**&#x200B;에서 만들기: 여정에 [푸시] 활동을 추가하고 기본 설정을 정의한 다음 오른쪽의 **[!UICONTROL 작업: 푸시]** 창에서 [푸시 알림]의 내용을 작성합니다. [여정 만드는 방법 알아보기](../building-journeys/journey-gs.md)
 
-* **캠페인**&#x200B;에서 만들기: 캠페인을 만든 후 [푸시 알림]을 작업으로 선택하고 기본 설정을 정의합니다. [캠페인을 만드는 방법 알아보기](../campaigns/create-campaign.md#configure)
+* **캠페인**&#x200B;에서 만들기: 캠페인을 만든 후 [푸시 알림]을 작업으로 선택하고 기본 설정을 정의합니다. [작업 캠페인](../campaigns/campaign-action.md#action-campaign-action)을 만드는 방법을 알아봅니다. | [API 트리거 캠페인](../campaigns/api-triggered-campaigns.md) | [오케스트레이션된 캠페인](../orchestrated/create-orchestrated-campaign.md#create)
 
 전용 탭에서 **iOS**&#x200B;와 **Android** 운영 체제의 푸시 알림 설정을 정의합니다.
 

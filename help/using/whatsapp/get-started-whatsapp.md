@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+source-git-commit: 73a347c104fe28799c264f9a8b6c3e5e12c8d892
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 95%
+source-wordcount: '340'
+ht-degree: 91%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 95%
 
 * **여정**&#x200B;에서 만들기. 여정을 만들고, **WhatsApp** 활동을 추가하고, 기본 설정을 정의한 다음 **[!UICONTROL 작업: WhatsApp]** 오른쪽 창으로 이동하여 WhatsApp 메시지의 콘텐츠를 만들 수 있습니다. [이 페이지](../building-journeys/journey-gs.md)에서 여정을 만드는 방법을 알아보십시오.
 
-* **캠페인**&#x200B;에서 만들기. 캠페인을 만들고 **WhatsApp**&#x200B;을 작업으로 선택하고 기본 설정을 정의한 다음 메시지 콘텐츠를 편집하여 보낼 WhatsApp 메시지를 정의합니다. [이 페이지](../campaigns/create-campaign.md#configure)에서 캠페인을 만드는 방법을 알아보십시오.
+* **캠페인**&#x200B;에서 만들기. 캠페인을 만들고 **WhatsApp**&#x200B;을 작업으로 선택하고 기본 설정을 정의한 다음 메시지 콘텐츠를 편집하여 보낼 WhatsApp 메시지를 정의합니다. [작업 캠페인](../campaigns/campaign-action.md#action-campaign-action)을 만드는 방법을 알아봅니다. | [API 트리거 캠페인](../campaigns/api-triggered-campaigns.md) | [오케스트레이션된 캠페인](../orchestrated/create-orchestrated-campaign.md#create)
 
 ![](assets/do-not-localize/whatsapp-beta.png){zoomable="yes"}
 
@@ -58,7 +58,7 @@ WhatsApp 채널에는 다음 제한 사항이 적용됩니다.
 
 +++ 비디오 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3470251?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470244?learn=on)
 
 +++
 
