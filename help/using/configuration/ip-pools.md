@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: IP, 풀, 그룹, 하위 도메인, 전달성
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: a44b68e99ec4c55b8ed27b244fcb9e76bdb97760
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 11%
@@ -103,7 +103,7 @@ IP 풀을 편집하려면 아래 단계를 따르십시오.
 
 >[!NOTE]
 >
->[채널 구성을 만드는 중](channel-surfaces.md#create-channel-surface)에 편집 중인 IP 풀(**[!UICONTROL 처리 중]** 상태)을 선택하고 해당 구성에 대해 선택한 하위 도메인과 연결된 적이 없으면 구성 만들기를 진행할 수 없습니다. [자세히 알아보기](channel-surfaces.md#subdomains-and-ip-pools)
+>[채널 구성을 만드는 중](channel-surfaces.md#create-channel-surface)에 편집 중인 IP 풀(**[!UICONTROL 처리 중]** 상태)을 선택하고 해당 구성에 대해 선택한 하위 도메인과 연결된 적이 없으면 구성 만들기를 진행할 수 없습니다. [자세히 알아보기](channel-surfaces.md#create-channel-surface)
 
 IP 풀 업데이트 상태를 확인하려면 **[!UICONTROL 추가 작업]** 단추를 클릭하고 **[!UICONTROL 최근 업데이트]**&#x200B;를 선택하십시오.
 

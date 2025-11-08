@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: IP, 풀, 전달성
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: a44b68e99ec4c55b8ed27b244fcb9e76bdb97760
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 11%
@@ -51,13 +51,13 @@ IP 준비 캠페인을 만들려면 아래 단계를 수행합니다.
 
    ![](assets/ip-warmup-campaign-plan-activation.png)
 
-   [일정](../campaigns/create-campaign.md#schedule) 캠페인은 연결된 IP 준비 계획에 따라 진행됩니다. 즉, 캠페인 자체에 더 이상 일정이 정의되지 않습니다.
+   [일정](../campaigns/campaign-schedule.md) 캠페인은 연결된 IP 준비 계획에 따라 진행됩니다. 즉, 캠페인 자체에 더 이상 일정이 정의되지 않습니다.
 
 1. 캠페인 속성, [대상자](../audience/about-audiences.md)<!--best practices for IP warmup in terms of audience?--> 및 [콘텐츠](../email/get-started-email-design.md#key-steps)를 정의하는 등 이메일 캠페인을 만드는 단계를 완료하십시오.
 
    >[!IMPORTANT]
    >
-   >IP 준비 캠페인에 허용된 대상은 [세그먼트 기반](../audience/creating-a-segment-definition.md)이어야 하며 [기본 병합 정책](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}을(를) 사용하여 만들어야 합니다.
+   >IP 준비 캠페인에 허용된 대상은 [세그먼트 기반](../audience/creating-a-segment-definition.md)이어야 하며 [기본 병합 정책](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}을(를) 사용하여 만들어야 합니다.
 
    캠페인을 구성하는 방법에 대한 자세한 내용은 [이 페이지](../campaigns/get-started-with-campaigns.md)를 참조하세요.
 
@@ -75,7 +75,7 @@ IP 준비 캠페인을 만들려면 아래 단계를 수행합니다.
 
 라이브가 되면 캠페인이 IP 준비 계획에 사용할 준비가 되었습니다. [자세히 알아보기](ip-warmup-plan.md)
 
-IP 준비 캠페인은 하나의 IP 준비 계획에서만 사용할 수 있습니다. 그러나 동일한 IP 웜업 계획의 하나 이상의 단계에서 동일한 캠페인을 사용할 수 있습니다. [자세히 알아보기](ip-warmup-plan.md#define-phases)
+IP 준비 캠페인은 하나의 IP 준비 계획에서만 사용할 수 있습니다. 그러나 동일한 IP 웜업 계획의 하나 이상의 단계에서 동일한 캠페인을 사용할 수 있습니다. [자세히 알아보기](ip-warmup-plan.md#ip-warmup-plan-tab)
 
 >[!NOTE]
 >
