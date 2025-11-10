@@ -5,9 +5,9 @@ title: 오케스트레이션된 캠페인 FAQ
 description: Journey Optimizer 오케스트레이션 캠페인에 대한 FAQ
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
+source-git-commit: a166534edc3e9b52cc3f1f905ec310378a18a67a
 workflow-type: tm+mt
-source-wordcount: '1430'
+source-wordcount: '1415'
 ht-degree: 4%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 Adobe Journey Optimizer 오케스트레이션된 캠페인에 대한 FAQ는 다음과 같습니다.
 
-세부 정보가 필요하십니까? 이 페이지 하단의 피드백 옵션을 사용하여 질문을 제기하거나 [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"}에 연결하세요.
+세부 정보가 필요하십니까? 이 페이지 하단의 피드백 옵션을 사용하여 질문을 제기하거나 [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}에 연결하세요.
 
 +++ Campaign 오케스트레이션이란?
 
@@ -183,7 +183,7 @@ Journey Optimizer Campaign Orchestration은 먼저 모델 기반 스키마 위�
 
 +++ 오케스트레이션된 캠페인이 의사 결정을 지원합니까?
 
-예. 의사 결정은 오케스트레이션된 캠페인의 관계형 데이터를 사용할 수 있습니다. 모델 기반 스키마가 XDM 스키마와 연결되면 의사 결정에 XDM 데이터를 사용할 수 있습니다.
+아니요. 오케스트레이션된 캠페인은 의사 결정 기능을 지원하지 않습니다.
 
 +++
 
