@@ -1,6 +1,6 @@
 ---
-product: experience platform
-solution: Experience Platform
+solution: Journey Optimizer
+product: Journey Optimizer
 title: AI 모델 시작
 description: 오퍼의 등급을 매길 수 있는 AI 모델에 대해 알아봅니다
 badge: label="레거시" type="Informative"
@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 3fa90fa707b562ecf2160ec980520bc8bc267a21
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 15%
@@ -64,4 +64,4 @@ AI 모델을 만들고 사용하는 주요 단계는 다음과 같습니다.
 
 Offer Decisioning용 AI 모델을 만드는 방법과 이 모델을 의사 결정에 적용하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3445651?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3419959?quality=12)

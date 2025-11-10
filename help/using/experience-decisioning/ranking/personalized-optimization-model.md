@@ -1,6 +1,6 @@
 ---
-product: experience platform
-solution: Experience Platform
+solution: Journey Optimizer
+product: Journey Optimizer
 title: 개인화된 최적화 모델
 description: 개인화된 최적화 모델에 대해 자세히 알아보기
 feature: Ranking, Decision Management
@@ -8,7 +8,7 @@ role: User
 level: Experienced
 exl-id: 1c7bcffe-5a25-444f-8a95-057b7a07f252
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 3fa90fa707b562ecf2160ec980520bc8bc267a21
 workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 5%
