@@ -89,7 +89,7 @@ SDK을 사용하려면 [스키마](../../../data/get-started-schemas.md)와 [데
 
 다음은 웹 SDK의 사전 설치된 독립 실행형 설치를 사용하여 의사 결정 관리를 사용하는 데 필요한 단계입니다. 이 안내서에서는 SDK을 처음 구현하는 단계이므로 모든 단계를 적용할 수 없다고 가정합니다. 이 안내서에서는 일부 개발 경험도 가정합니다.
 
-옵션 2의 JavaScript 코드 조각(예: HTML 페이지의 [ 섹션에 ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html)이 페이지`<head>`에 미리 빌드된 독립 실행형 버전)을 포함하십시오.
+옵션 2의 JavaScript 코드 조각(예: HTML 페이지의 [&#x200B; 섹션에 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html)이 페이지`<head>`에 미리 빌드된 독립 실행형 버전)을 포함하십시오.
 
 ```
 javascript
