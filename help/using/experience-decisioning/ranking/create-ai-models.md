@@ -118,4 +118,4 @@ AI 모델을 만들려면 아래 단계를 수행합니다.
 
 Learn how to create a personalized optimization model and how to apply it to a decision.
 
->[!VIDEO](https://video.tv.adobe.com/v/3419954?quality=12)-->
+>[!VIDEO](https://video.tv.adobe.com/v/3445958?captions=kor&quality=12)-->
