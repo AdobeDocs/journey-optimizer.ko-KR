@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer, Experience Platform
+product: Journey Optimizer
 title: 배치 만들기
 description: 배치는 오퍼를 표시하는 데 사용되는 컨테이너입니다.
 feature: Decision Management, API
@@ -7,7 +9,7 @@ role: Developer
 level: Experienced
 exl-id: 5c7301f6-95d3-4720-81fe-5f2602cd30ec
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 11%

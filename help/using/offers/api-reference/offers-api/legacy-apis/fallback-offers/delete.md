@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer, Experience Platform
+product: Journey Optimizer
 title: 대체 오퍼 삭제
 description: 다른 오퍼에 적합하지 않은 경우 고객에게 대체 오퍼가 전송됩니다
 feature: Decision Management, API
@@ -7,7 +9,7 @@ role: Developer
 level: Experienced
 exl-id: 5e97a1fd-7542-4c9a-8234-21c1fa419671
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 8%

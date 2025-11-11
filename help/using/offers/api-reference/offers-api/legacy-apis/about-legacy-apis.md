@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer, Experience Platform
+product: Journey Optimizer
 title: 레거시 API
 description: 의사 결정 관리 개체를 만들고 관리하기 위한 API가 업데이트되었습니다.
 feature: Decision Management, API
@@ -7,7 +9,7 @@ role: Developer
 level: Experienced
 exl-id: cfe8162b-d50f-4ad3-8b62-9d30b756ad1b
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
 workflow-type: tm+mt
 source-wordcount: '59'
 ht-degree: 8%

@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer, Experience Platform
+product: Journey Optimizer
 title: 의사 결정 데이터 세트
 description: 이 섹션에는 의사 결정을 위해 내보낸 데이터 세트에 사용되는 모든 필드가 나열됩니다
 badge: label="레거시" type="Informative"
@@ -8,7 +10,7 @@ role: User, Developer
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
 workflow-type: tm+mt
 source-wordcount: '1530'
 ht-degree: 0%

@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer, Experience Platform
+product: Journey Optimizer
 title: 결정 만들기
 description: 의사 결정을 만드는 방법 알아보기
 badge: label="레거시" type="Informative"
@@ -8,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
 workflow-type: tm+mt
 source-wordcount: '2549'
 ht-degree: 7%
@@ -406,6 +408,6 @@ ht-degree: 7%
 
 의사 결정 관리에서 오퍼 활동을 만드는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/346696?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 
 

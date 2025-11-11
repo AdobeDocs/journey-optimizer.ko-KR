@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer, Experience Platform
+product: Journey Optimizer
 title: 오퍼 카탈로그 내보내기 시작
 description: 오퍼 카탈로그를 데이터 세트로 내보내는 방법 알아보기
 badge: label="레거시" type="Informative"
@@ -8,7 +10,7 @@ role: User, Developer
 level: Intermediate
 exl-id: f30abea1-b204-4470-9836-75fae916bbb1
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 100%

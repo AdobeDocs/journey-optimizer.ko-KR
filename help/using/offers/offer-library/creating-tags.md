@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer, Experience Platform
+product: Journey Optimizer
 title: 컬렉션 수식어 만들기
 description: 오퍼에 대한 컬렉션 한정자를 만드는 방법을 알아봅니다.
 badge: label="레거시" type="Informative"
@@ -8,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 23%
@@ -46,4 +48,4 @@ ht-degree: 23%
 
 ## 사용 방법 비디오 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341374?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329374?quality=12)

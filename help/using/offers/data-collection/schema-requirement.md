@@ -1,5 +1,5 @@
 ---
-solution: Journey Optimizer
+solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: 이벤트 캡처 구성
 description: 이벤트를 캡처하도록 오퍼 스키마를 구성하는 방법에 대해 알아봅니다
@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 exl-id: f70ba749-f517-4e09-a381-243b21713b48
 version: Journey Orchestration
-source-git-commit: 3fa90fa707b562ecf2160ec980520bc8bc267a21
+source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 2%
@@ -109,4 +109,4 @@ ht-degree: 2%
 >* POST /ee/v2/interact
 >* POST /ee/v2/collect
 >
->[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko){target="_blank"} 또는 [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=ko){target="_blank"}를 사용하는 경우 자동으로 연결됩니다.
+>[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} 또는 [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"}를 사용하는 경우 자동으로 연결됩니다.

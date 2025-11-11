@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer, Experience Platform
+product: Journey Optimizer
 title: 개인화된 오퍼 만들기
 description: 오퍼를 만들고 구성하고 관리하는 방법을 알아봅니다
 badge: label="레거시" type="Informative"
@@ -8,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 18%
@@ -173,4 +175,4 @@ ht-degree: 18%
 
 ## 튜토리얼 비디오 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341358?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)

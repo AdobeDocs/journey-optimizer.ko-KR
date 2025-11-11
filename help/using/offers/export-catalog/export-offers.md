@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer, Experience Platform
+product: Journey Optimizer
 title: 개인화된 오퍼 데이터 세트
 description: 이 섹션에는 오퍼를 위해 내보낸 데이터 세트에 사용되는 모든 필드가 나열됩니다
 badge: label="레거시" type="Informative"
@@ -8,7 +10,7 @@ role: User, Developer
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
 workflow-type: tm+mt
 source-wordcount: '1983'
 ht-degree: 0%
@@ -181,7 +183,7 @@ ht-degree: 0%
   **필드:** linkURL
   **설명:** 사용자 상호 작용을 위한 선택적 고유 리소스 로케이터입니다. 이 URL은 사용자 에이전트에서 최종 사용자를에 연결하는 데 사용되며 추적할 수 있습니다.
   **유형:** 문자열
-  **예:** &quot;https://cdn.adobe.io/tracker?code=23432&redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
+  **예:** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 +++_experience > 의사 결정 > 컨텐츠 > 배치
 

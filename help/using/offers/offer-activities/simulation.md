@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer, Experience Platform
+product: Journey Optimizer
 title: 시뮬레이션 만들기
 description: 의사 결정 논리를 확인하기 위해 주어진 배치에 대해 게재할 오퍼를 시뮬레이션하는 방법을 알아봅니다
 badge: label="레거시" type="Informative"
@@ -8,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
 workflow-type: tm+mt
 source-wordcount: '884'
 ht-degree: 12%
@@ -67,7 +69,7 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >ID 네임스페이스는 이메일 주소 또는 CRM ID와 같은 식별자의 컨텍스트를 정의합니다. 이 섹션[에서 Adobe Experience Platform ID 네임스페이스 &#x200B;](../../audience/get-started-identity.md){target="_blank"}에 대해 자세히 알아보세요.
+   >ID 네임스페이스는 이메일 주소 또는 CRM ID와 같은 식별자의 컨텍스트를 정의합니다. 이 섹션[에서 Adobe Experience Platform ID 네임스페이스 ](../../audience/get-started-identity.md){target="_blank"}에 대해 자세히 알아보세요.
 
 1. ID 값을 입력하고 **[!UICONTROL 보기]**&#x200B;를 클릭하여 사용 가능한 프로필을 나열합니다.
 
@@ -140,7 +142,7 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >기본적으로 모든 중복 제거 플래그는 시뮬레이션에 대해 활성화되어 있습니다. 즉, 의사 결정 엔진이 중복을 허용하므로 여러 의사 결정/배치에서 동일한 제안을 할 수 있습니다. [!DNL Decisioning]이 섹션[에서 &#x200B;](../api-reference/offer-delivery-api/decisioning-api.md) API 요청 속성에 대해 자세히 알아보세요.
+   >기본적으로 모든 중복 제거 플래그는 시뮬레이션에 대해 활성화되어 있습니다. 즉, 의사 결정 엔진이 중복을 허용하므로 여러 의사 결정/배치에서 동일한 제안을 할 수 있습니다. [!DNL Decisioning]이 섹션[에서 ](../api-reference/offer-delivery-api/decisioning-api.md) API 요청 속성에 대해 자세히 알아보세요.
 
 1. **[!UICONTROL 응답 형식]** 섹션에서 코드 보기에 메타데이터를 포함하도록 선택할 수 있습니다. 해당 옵션을 선택하고 선택한 메타데이터를 선택합니다. **[!UICONTROL 코드 보기]**&#x200B;를 선택하면 요청 및 응답 페이로드에 표시됩니다. 자세한 내용은 [시뮬레이션 결과 보기](#simulation-results) 섹션을 참조하세요.
 

@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer, Experience Platform
+product: Journey Optimizer
 title: 오퍼 라이브러리 사용자 인터페이스
 description: 오퍼 라이브러리 사용자 인터페이스에 대해 자세히 알아보기
 badge: label="레거시" type="Informative"
@@ -8,7 +10,7 @@ role: User
 level: Beginner, Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
 workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 33%

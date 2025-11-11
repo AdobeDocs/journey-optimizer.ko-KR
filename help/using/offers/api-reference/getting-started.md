@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer, Experience Platform
+product: Journey Optimizer
 title: 시작하기
 description: 오퍼 라이브러리 API를 사용하여 의사 결정 엔진을 사용해 주요 작업을 수행하는 방법을 알아봅니다.
 feature: Decision Management, API
@@ -7,7 +9,7 @@ role: Developer
 level: Experienced
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 100%
@@ -73,5 +75,5 @@ ht-degree: 100%
 
 The following video is intended to support your understanding of the components of Decision Management.
 
->[!VIDEO](https://video.tv.adobe.com/v/342832?captions=kor&quality=12) -->
+>[!VIDEO](https://video.tv.adobe.com/v/329919?quality=12) -->
 

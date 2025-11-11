@@ -1,5 +1,5 @@
 ---
-solution: Journey Optimizer
+solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: 컨텍스트 데이터 및 의사 결정 요청
 description: Decisioning 요청에서 컨텍스트 데이터를 전달하는 방법을 알아봅니다.
@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 exl-id: 45d060ce-0a12-4a6e-a594-ec10cdff8f38
 version: Journey Orchestration
-source-git-commit: 3fa90fa707b562ecf2160ec980520bc8bc267a21
+source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%

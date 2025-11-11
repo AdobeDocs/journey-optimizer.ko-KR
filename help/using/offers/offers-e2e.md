@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer, Experience Platform
+product: Journey Optimizer
 title: 이메일에서 개인화된 오퍼 사용
 description: 오퍼를 구성하고 이메일에서 사용하는 데 필요한 모든 단계를 보여 주는 전체적인 예제를 살펴보십시오.
 badge: label="레거시" type="Informative"
@@ -8,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
 workflow-type: tm+mt
 source-wordcount: '1101'
 ht-degree: 4%
