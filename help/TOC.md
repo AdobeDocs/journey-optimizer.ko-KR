@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
 workflow-type: tm+mt
-source-wordcount: '2946'
-ht-degree: 98%
+source-wordcount: '2977'
+ht-degree: 97%
 
 ---
 
@@ -168,7 +168,7 @@ ht-degree: 98%
             + [파일 업로드 스키마](using/orchestrated/file-upload-schema.md)
             + [데이터 수집](using/orchestrated/ingest-data.md)
          + [타기팅 차원 만들기](using/orchestrated/target-dimension.md)
-         + [채널 구성 설정](using/orchestrated/channel-config.md)
+         + [채널 구성](using/orchestrated/channel-config.md)
       + 첫 오케스트레이션된 캠페인 시작 {#launch}
          + [첫 오케스트레이션된 캠페인 시작](/help/rp_landing_pages/launch-landing-page.md)
          + [오케스트레이션된 캠페인을 만드는 주요 단계](using/orchestrated/gs-campaign-creation.md)
@@ -339,7 +339,7 @@ ht-degree: 98%
          + [웹 채널 전제 조건](using/web/web-prerequisites.md)
          + [웹 하위 도메인 구성](using/web/web-delegated-subdomains.md)
          + [웹 채널 구성 만들기](using/web/web-configuration.md)
-      + [웹 경험 만들기 &#x200B;](using/web/create-web.md)
+      + [웹 경험 만들기 ](using/web/create-web.md)
       + 웹 페이지 작성 {#author-web-pages}
          + [웹 페이지 작성](/help/rp_landing_pages/author-web-pages-landing-page.md)
          + [웹 디자이너를 사용하여 작업](using/web/web-visual-editor.md)
@@ -385,8 +385,15 @@ ht-degree: 98%
       + [Journey Optimizer에서 LINE 채널 구성](using/line/line-configuration.md)
       + [LINE 메시지 만들기](using/line/create-line.md)
       + [LINE 메시지 확인 및 보내기](using/line/send-line.md)
+   + 라이브 활동 {#live-activity}
+      + [라이브 활동 시작](using/mobile-live/get-started-mobile-live.md)
+      + [라이브 활동 만들기](using/mobile-live/create-mobile-live.md)
+      + [FAQ](using/mobile-live/mobile-live-faq.md)
+      + 콘텐츠 카드 채널 구성 {#configure}
+         + [Journey Optimizer에서 라이브 활동 구성](using/mobile-live/mobile-live-configuration.md)
+         + [라이브 활동 SDK 통합 구성](using/mobile-live/mobile-live-configuration-sdk.md)
 + 콘텐츠 관리 {#content-management}
-   + [콘텐츠 관리 &#x200B;](/help/rp_landing_pages/content-management-landing-page.md)
+   + [콘텐츠 관리 ](/help/rp_landing_pages/content-management-landing-page.md)
    + 개인화 {#personalization}
       + [개인화](/help/rp_landing_pages/personalization-landing-page.md)
       + [개인화 시작](using/personalization/personalize.md)
@@ -542,6 +549,7 @@ ht-degree: 98%
          + [이메일 캠페인 보고서](using/reports/campaign-global-report-cja-email.md)
          + [실험 캠페인 보고서](using/reports/campaign-global-report-cja-experimentation.md)
          + [인앱 캠페인 보고서](using/reports/campaign-global-report-cja-inapp.md)
+         + [라이브 활동 캠페인 보고서](using/reports/campaign-global-report-cja-activity.md)
          + [푸시 알림 캠페인 보고서](using/reports/campaign-global-report-cja-push.md)
          + [SMS 캠페인 보고서](using/reports/campaign-global-report-cja-sms.md)
          + [웹 캠페인 보고서](using/reports/campaign-global-report-cja-web.md)
