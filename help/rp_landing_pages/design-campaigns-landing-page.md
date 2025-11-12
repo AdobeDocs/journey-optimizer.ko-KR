@@ -5,9 +5,9 @@ title: 오케스트레이션된 캠페인 활동
 description: 오케스트레이션된 캠페인 활동
 redpen-status: CREATED_||_2025-08-11_20-27-08
 exl-id: d6635d58-b618-4d92-b60f-c6fc63e473a6
-source-git-commit: 4270fbfb191700704d161f472abf62f7af79c208
+source-git-commit: 341a4dac0ae1c124559ebf552af5b3e7a35519e7
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '338'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 오케스트레이션된 캠페인 활동을 통해 �
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 오케스트레이션된 캠페인 활동 작업
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 오케스트레이션된 캠페인 활동을 통해 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 AND 조인 활동 사용
 
@@ -40,7 +40,7 @@ AND 조인 활동 사용
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 대상자 빌드 활동
 
@@ -50,7 +50,7 @@ AND 조인 활동 사용
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 차원 활동 변경
 
@@ -60,7 +60,7 @@ AND 조인 활동 사용
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 채널 활동
 
@@ -70,7 +70,7 @@ AND 조인 활동 사용
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 활동 결합
 
@@ -91,5 +91,5 @@ AND 조인 활동 사용
 - **[조정 활동](../using/orchestrated/activities/reconciliation.md)** - 정확한 타겟팅을 위해 외부 또는 미확인된 데이터를 기존 리소스와 일치시킵니다.
 - **[대상 활동 저장](../using/orchestrated/activities/save-audience.md)** - 향후 타깃팅을 위해 재사용 가능한 대상을 만들거나 업데이트합니다.
 - **[활동 분할](../using/orchestrated/activities/split.md)** - 필터 또는 모집단 크기를 사용하여 모집단을 하위 집합으로 분할합니다.
-- **[테스트 활동](../using/orchestrated/activities/test.md)** - 지정된 조건을 기반으로 조건부 전환을 사용합니다.
+  <!--- **[Test Activity](../using/orchestrated/activities/test.md)** - Enable conditional transitions based on specified criteria.-->
 - **[대기 활동](../using/orchestrated/activities/wait.md)** - 더 나은 타이밍과 관련성을 위해 활동 사이에 지연을 도입합니다.
