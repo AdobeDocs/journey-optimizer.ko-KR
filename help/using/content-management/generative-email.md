@@ -52,7 +52,7 @@ Journey Optimizer에서 AI Assistant를 사용하는 방법을 알려면 아래 
 
    프롬프트 작성에 도움이 필요한 경우 캠페인을 개선하기 위한 다양한 프롬프트 아이디어를 제공하는 **[!UICONTROL 프롬프트 라이브러리]**&#x200B;에 액세스하십시오.
 
-   미리 작성된 프롬프트 제안을 표시하는 프롬프트 라이브러리 단추가 있는 프롬프트 필드![1}](assets/full-email-2.png){zoomable="yes"}
+   미리 작성된 프롬프트 제안을 표시하는 프롬프트 라이브러리 단추가 있는 프롬프트 필드![1&rbrace;](assets/full-email-2.png){zoomable="yes"}
 
 1. **[!UICONTROL 제목 줄]** 및 **[!UICONTROL 사전 머리글]** 옵션을 전환하여 변형 생성에 포함할 수 있습니다.
 
