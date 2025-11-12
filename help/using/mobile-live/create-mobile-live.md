@@ -74,44 +74,44 @@ ht-degree: 1%
    다음 페이로드 예제의 필드 대부분은 필수이므로 `requestId`, `dismissal-date` 및 `alert`만 선택 사항입니다.
 
        &quot;json
-       {
+       &lbrace;
        &quot;requestId&quot;: &quot;your-request-id&quot;,
        &quot;campaignId&quot;: &quot;your-campaign-id&quot;,
-       &quot;수신자&quot;: [
-       {
+       &quot;수신자&quot;: &lbrack;
+       &lbrace;
        &quot;type&quot;: &quot;aep&quot;,
        &quot;userId&quot;: &quot;testemail@gmail.com&quot;,
        &quot;namespace&quot;: &quot;email&quot;,
-       &quot;컨텍스트&quot;: {
-       &quot;requestPayload&quot;: {
-       &quot;aps&quot;: {
+       &quot;컨텍스트&quot;: &lbrace;
+       &quot;requestPayload&quot;: &lbrace;
+       &quot;aps&quot;: &lbrace;
        &quot;콘텐츠 사용 가능&quot;: 1,
        &quot;timestamp&quot;: 1756984054,              // 현재 epoch 시간
        &quot;dismission-date&quot;: 1756984084,         // 선택 사항 - event=&quot;end&quot;
 일 때 자동 제거       &quot;event&quot;: &quot;update&quot;,                    // 시작 | 업데이트 | end
        
    FoodDeliveryLiveActivityAttributes의     // 필드
-       &quot;content-state&quot;: {
+       &quot;content-state&quot;: &lbrace;
        &quot;orderStatus&quot;: &quot;배달됨&quot;
        ,
        
        &quot;attributes-type&quot;: &quot;FoodDeliveryLiveActivityAttributes&quot;,
-       &quot;attributes&quot;: {
+       &quot;attributes&quot;: &lbrace;
        &quot;restaurantName&quot;: &quot;피자&quot;,
-       &quot;liveActivityData&quot;: {
+       &quot;liveActivityData&quot;: &lbrace;
        &quot;liveActivityID&quot;: &quot;orderId1&quot;       // 고객 참조 ID
        
        ,
        
-       &quot;경고&quot;: {
+       &quot;경고&quot;: &lbrace;
        &quot;title&quot;: &quot;배달된 주문!&quot;,
        &quot;body&quot;: &quot;피자가 도착했습니다.&quot;
        
        
        
        
-       }
-       ]
+       &rbrace;
+       &rbrack;
        
        &quot;
    +++
