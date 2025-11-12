@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5fd1cc3a-c023-4e8e-bfac-9a86bd33bbb3
-source-git-commit: 50933d991c6a337e6d1739652d680778759ef0d5
+source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '629'
 ht-degree: 5%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 5%
 
 1. **[!UICONTROL AI Assistant 표시]** 메뉴에 액세스합니다.
 
-   ![](assets/sms-genai-1.png){zoomable="yes"}
+   ![AI 지원 패널이 있는 SMS 메시지 편집기가 열려 브랜드 선택기와 프롬프트 필드가 표시됨](assets/sms-genai-1.png){zoomable="yes"}
 
 1. AI 생성 콘텐츠가 브랜드 사양에 맞게 조정되도록 하려면 **[!UICONTROL 브랜드]**&#x200B;를 선택하십시오. 브랜드에 대해 [자세히 알아보기](brands.md).
 
@@ -48,7 +48,7 @@ ht-degree: 5%
 
    프롬프트 작성에 도움이 필요한 경우 캠페인을 개선하기 위한 다양한 프롬프트 아이디어를 제공하는 **[!UICONTROL 프롬프트 라이브러리]**&#x200B;에 액세스하십시오.
 
-   ![](assets/sms-genai-2.png){zoomable="yes"}
+   ![브랜드 선택기, 프롬프트 필드 및 프롬프트 라이브러리 액세스 버튼이 있는 SMS용 AI 도우미](assets/sms-genai-2.png){zoomable="yes"}
 
 1. **[!UICONTROL 텍스트 설정]** 옵션을 사용하여 메시지를 사용자 지정합니다.
 
@@ -57,7 +57,7 @@ ht-degree: 5%
    * **[!UICONTROL 색조]**: 텍스트가 대상자와 목적에 적합한지 확인하십시오.
    * **[!UICONTROL 길이]**: 범위 슬라이더를 사용하여 콘텐츠의 길이를 선택합니다.
 
-   ![](assets/sms-genai-3.png){zoomable="yes"}
+   ![통신 전략, 언어, 색조 및 길이 슬라이더 컨트롤을 표시하는 SMS용 텍스트 설정 패널](assets/sms-genai-3.png){zoomable="yes"}
 
 1. **[!UICONTROL 브랜드 자산]** 메뉴에서 **[!UICONTROL 브랜드 자산 업로드]**&#x200B;를 클릭하여 추가 컨텍스트 AI Assistant를 제공하거나 이전에 업로드한 것을 선택할 수 있는 콘텐츠가 포함된 브랜드 자산을 추가합니다.
 
@@ -73,7 +73,7 @@ ht-degree: 5%
 
    [브랜드 정렬 점수](brands-score.md)에 대해 자세히 알아보세요.
 
-   ![](assets/sms-genai-5.png){zoomable="yes"}
+   ![브랜드 정렬 점수 백분율 표시기 및 미리 보기 옵션을 사용하여 생성된 SMS 변형](assets/sms-genai-5.png){zoomable="yes"}
 
 1. **[!UICONTROL 미리 보기]** 창 내에서 **[!UICONTROL 세분화]** 옵션으로 이동하여 추가 사용자 지정 기능에 액세스하고 변형을 환경 설정에 맞게 세부 조정하십시오.
 
@@ -85,7 +85,7 @@ ht-degree: 5%
 
    텍스트의 **[!UICONTROL 색조]** 및 **[!UICONTROL 통신 전략]**&#x200B;을 변경할 수도 있습니다.
 
-   ![](assets/sms-genai-4.png){zoomable="yes"}
+   ![리프레이즈를 표시하는 SMS에 대한 옵션을 세분화하고, 톤 및 커뮤니케이션 전략 드롭다운을 통해 더 간단한 언어를 사용합니다](assets/sms-genai-4.png){zoomable="yes"}
 
 1. **[!UICONTROL 브랜드 정렬]** 탭을 열어 콘텐츠가 [브랜드 지침](brands.md)에 어떻게 적합한지 확인합니다.
 

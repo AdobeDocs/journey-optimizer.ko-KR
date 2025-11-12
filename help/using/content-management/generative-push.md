@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a9f9d8af-c762-4038-8bbc-bbd519e0ef3a
-source-git-commit: 50933d991c6a337e6d1739652d680778759ef0d5
+source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
 workflow-type: tm+mt
-source-wordcount: '1725'
+source-wordcount: '1926'
 ht-degree: 2%
 
 ---
@@ -46,7 +46,7 @@ Journey Optimizer에서 AI Assistant를 사용하는 방법을 알려면 아래 
 
 1. **[!UICONTROL AI Assistant 표시]** 메뉴에 액세스합니다.
 
-   ![](assets/push-genai-full-1.png){zoomable="yes"}
+   ![AI 지원 패널이 있는 푸시 알림 편집기가 열려 브랜드 및 프롬프트 옵션이 표시됨](assets/push-genai-full-1.png){zoomable="yes"}
 
 1. AI 관리자가 선택한 콘텐츠를 기반으로 새 콘텐츠 옵션을 개인화하려면 **[!UICONTROL 원본 콘텐츠 사용]** 옵션을 활성화하십시오.
 
@@ -58,7 +58,7 @@ Journey Optimizer에서 AI Assistant를 사용하는 방법을 알려면 아래 
 
    프롬프트 작성에 도움이 필요한 경우 캠페인을 개선하기 위한 다양한 프롬프트 아이디어를 제공하는 **[!UICONTROL 프롬프트 라이브러리]**&#x200B;에 액세스하십시오.
 
-   ![](assets/push-genai-full-2.png){zoomable="yes"}
+   ![프롬프트 필드가 있는 푸시 알림용 AI 도우미, 제목 메시지 및 이미지에 대한 필드 선택기 및 프롬프트 라이브러리](assets/push-genai-full-2.png){zoomable="yes"}
 
 1. 생성할 필드 선택: **[!UICONTROL 제목]**, **[!UICONTROL 메시지]** 및/또는 **[!UICONTROL 이미지]**.
 
@@ -68,7 +68,7 @@ Journey Optimizer에서 AI Assistant를 사용하는 방법을 알려면 아래 
    * **[!UICONTROL 언어]**: 생성된 콘텐츠의 언어를 선택합니다.
    * **[!UICONTROL 음색]**: 푸시 알림의 음색이 대상자에게 울려 퍼집니다. AI 어시스턴트는 유익하거나, 장난스럽거나, 설득력 있게 들리고자 하는 경우 해당 메시지를 적절하게 조정할 수 있습니다.
 
-   ![](assets/push-genai-full-3.png){zoomable="yes"}
+   통신 전략, 언어 및 톤 드롭다운을 표시하는 푸시 알림용 ![텍스트 설정 패널](assets/push-genai-full-3.png){zoomable="yes"}
 
 1. **[!UICONTROL 이미지 설정]** 선택:
 
@@ -78,7 +78,7 @@ Journey Optimizer에서 AI Assistant를 사용하는 방법을 알려면 아래 
    * **[!UICONTROL 조명]**: 이미지에 있는 번개(대기의 모양과 특정 요소의 강조 표시)를 나타냅니다.
    * **[!UICONTROL 컴포지션]**: 이미지 프레임 내의 요소 배열을 참조합니다
 
-   ![](assets/push-genai-full-5.png){zoomable="yes"}
+   ![콘텐츠 유형, 시각적 강도, 색상 및 톤, 조명 및 컴포지션 옵션이 있는 푸시 알림에 대한 이미지 설정](assets/push-genai-full-5.png){zoomable="yes"}
 
 1. **[!UICONTROL 브랜드 자산]** 메뉴에서 **[!UICONTROL 브랜드 자산 업로드]**&#x200B;를 클릭하여 추가 컨텍스트 AI Assistant를 제공하거나 이전에 업로드한 것을 선택할 수 있는 콘텐츠가 포함된 브랜드 자산을 추가합니다.
 
@@ -94,7 +94,7 @@ Journey Optimizer에서 AI Assistant를 사용하는 방법을 알려면 아래 
 
    [브랜드 정렬 점수](brands-score.md)에 대해 자세히 알아보세요.
 
-   ![](assets/push-genai-full-4.png){zoomable="yes"}
+   ![브랜드 정렬 점수 백분율 및 미리 보기 컨트롤을 사용하여 생성된 푸시 알림 변형](assets/push-genai-full-4.png){zoomable="yes"}
 
 1. 추가 사용자 지정 기능에 액세스하려면 **[!UICONTROL 미리 보기]** 창 내에서 **[!UICONTROL 다시 정의]** 옵션으로 이동하십시오.
 
@@ -106,7 +106,7 @@ Journey Optimizer에서 AI Assistant를 사용하는 방법을 알려면 아래 
 
    텍스트의 **[!UICONTROL 색조]** 및 **[!UICONTROL 통신 전략]**&#x200B;을 변경할 수도 있습니다.
 
-   ![](assets/push-genai-full-6.png){zoomable="yes"}
+   ![더 간단한 언어, 음색 및 통신 전략 컨트롤을 사용하여 푸시 알림에 대한 옵션을 세분화합니다](assets/push-genai-full-6.png){zoomable="yes"}
 
 1. **[!UICONTROL 브랜드 정렬]** 탭을 열어 콘텐츠가 [브랜드 지침](brands.md)에 어떻게 적합한지 확인합니다.
 
@@ -132,7 +132,7 @@ Journey Optimizer에서 AI Assistant를 사용하는 방법을 알려면 아래 
 
 1. **[!UICONTROL 제목]** 또는 **[!UICONTROL 메시지]** 필드 옆에 있는 **[!UICONTROL AI 도우미를 사용하여 텍스트 편집]** 메뉴에 액세스합니다.
 
-   ![](assets/push-genai-1.png){zoomable="yes"}
+   ![제목 및 메시지 필드 옆에 있는 AI 도우미를 사용하여 텍스트 편집 단추가 있는 푸시 알림 작성 화면](assets/push-genai-1.png){zoomable="yes"}
 
 1. AI Assistant가 선택한 콘텐츠를 기반으로 새 콘텐츠를 개인화하려면 **[!UICONTROL 참조 콘텐츠 사용]** 옵션을 활성화하십시오.
 
@@ -144,7 +144,7 @@ Journey Optimizer에서 AI Assistant를 사용하는 방법을 알려면 아래 
 
    프롬프트 작성에 도움이 필요한 경우 캠페인을 개선하기 위한 다양한 프롬프트 아이디어를 제공하는 **[!UICONTROL 프롬프트 라이브러리]**&#x200B;에 액세스하십시오.
 
-   ![](assets/push-genai-2.png){zoomable="yes"}
+   ![참조 콘텐츠 사용 토글, 브랜드 선택기, 프롬프트 필드 및 프롬프트 라이브러리 단추가 있는 AI 길잡이 텍스트 편집기](assets/push-genai-2.png){zoomable="yes"}
 
 1. **[!UICONTROL 텍스트 설정]** 옵션을 사용하여 메시지를 사용자 지정합니다.
 
@@ -153,7 +153,7 @@ Journey Optimizer에서 AI Assistant를 사용하는 방법을 알려면 아래 
    * **[!UICONTROL 음색]**: 푸시 알림의 음색이 대상자에게 울려 퍼집니다. AI 어시스턴트는 유익하거나, 장난스럽거나, 설득력 있게 들리고자 하는 경우 해당 메시지를 적절하게 조정할 수 있습니다.
    * **[!UICONTROL 길이]**: 범위 슬라이더를 사용하여 콘텐츠의 길이를 선택합니다.
 
-   ![](assets/push-genai-4.png){zoomable="yes"}
+   ![텍스트 설정이 확장되어 통신 전략, 언어, 톤 드롭다운 및 길이 슬라이더가 표시됨](assets/push-genai-4.png){zoomable="yes"}
 
 1. **[!UICONTROL 브랜드 자산]** 메뉴에서 **[!UICONTROL 브랜드 자산 업로드]**&#x200B;를 클릭하여 추가 컨텍스트 AI Assistant를 제공하거나 이전에 업로드한 것을 선택할 수 있는 콘텐츠가 포함된 브랜드 자산을 추가합니다.
 
@@ -167,7 +167,7 @@ Journey Optimizer에서 AI Assistant를 사용하는 방법을 알려면 아래 
 
    [브랜드 정렬 점수](brands-score.md)에 대해 자세히 알아보세요.
 
-   ![](assets/push-genai-5.png){zoomable="yes"}
+   ![브랜드 정렬 점수 표시기가 있는 푸시 알림에 대해 생성된 텍스트 변형](assets/push-genai-5.png){zoomable="yes"}
 
 1. 추가 사용자 지정 기능에 액세스하려면 **[!UICONTROL 미리 보기]** 창 내에서 **[!UICONTROL 다시 정의]** 옵션으로 이동하십시오.
 
@@ -183,7 +183,7 @@ Journey Optimizer에서 AI Assistant를 사용하는 방법을 알려면 아래 
 
    텍스트의 **[!UICONTROL 색조]** 및 **[!UICONTROL 통신 전략]**&#x200B;을 변경할 수도 있습니다.
 
-   ![](assets/push-genai-6.png){zoomable="yes"}
+   ![정교하고, 요약하고, 다시 표현하고, 톤 드롭다운으로 더 간단한 언어 옵션을 사용하는 메뉴 세분화](assets/push-genai-6.png){zoomable="yes"}
 
 1. **[!UICONTROL 브랜드 정렬]** 탭을 열어 콘텐츠가 [브랜드 지침](brands.md)에 어떻게 적합한지 확인합니다.
 
@@ -207,7 +207,7 @@ Journey Optimizer에서 AI Assistant를 사용하는 방법을 알려면 아래 
 
 1. **[!UICONTROL 미디어 추가]** 메뉴에 액세스합니다.
 
-   ![](assets/push-gen-img-1.png){zoomable="yes"}
+   ![알림에 이미지를 포함하도록 미디어 추가 단추를 사용하여 알림 편집기 푸시](assets/push-gen-img-1.png){zoomable="yes"}
 
 1. AI 관리자가 참조 콘텐츠를 기반으로 새 콘텐츠를 개인화하려면 **[!UICONTROL 참조 스타일]** 옵션을 활성화하십시오. 이미지를 업로드하여 변형에 컨텍스트를 추가할 수도 있습니다.
 
@@ -219,7 +219,7 @@ Journey Optimizer에서 AI Assistant를 사용하는 방법을 알려면 아래 
 
    프롬프트 작성에 도움이 필요한 경우 캠페인을 개선하기 위한 다양한 프롬프트 아이디어를 제공하는 **[!UICONTROL 프롬프트 라이브러리]**&#x200B;에 액세스하십시오.
 
-   ![](assets/push-gen-img.png){zoomable="yes"}
+   참조 스타일 토글, 브랜드 선택기 및 프롬프트 필드가 있는 푸시를 위한 ![AI Assistant 이미지 생성](assets/push-gen-img.png){zoomable="yes"}
 
 1. **[!UICONTROL 이미지 설정]** 선택:
 
@@ -250,7 +250,7 @@ Journey Optimizer에서 AI Assistant를 사용하는 방법을 알려면 아래 
 
    * 나중에 액세스할 수 있도록 자산을 저장하려면 **[!UICONTROL 저장]**&#x200B;하세요.
 
-   ![](assets/push-gen-img-2.png){zoomable="yes"}
+   ![유사 항목 생성, Adobe Express에서 편집 및 저장 단추를 표시하는 푸시 알림 이미지에 대한 옵션을 세분화합니다](assets/push-gen-img-2.png){zoomable="yes"}
 
 1. **[!UICONTROL 브랜드 정렬]** 탭을 열어 콘텐츠가 [브랜드 지침](brands.md)에 어떻게 적합한지 확인합니다.
 

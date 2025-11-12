@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: d38c3b44-9183-4537-a9dd-fd7761328cc1
-source-git-commit: 50933d991c6a337e6d1739652d680778759ef0d5
+source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
 workflow-type: tm+mt
-source-wordcount: '1650'
-ht-degree: 2%
+source-wordcount: '1887'
+ht-degree: 1%
 
 ---
 
@@ -42,7 +42,7 @@ Journey Optimizer에서 AI Assistant를 사용하는 방법을 알려면 아래 
 
 1. 필요에 따라 레이아웃을 개인화하고 **[!UICONTROL AI 길잡이]** 메뉴에 액세스합니다.
 
-   ![](assets/lp-full-gen-1.png){zoomable="yes"}
+   ![전체 페이지 콘텐츠 생성을 위해 AI 지원 패널이 있는 랜딩 페이지 디자이너](assets/lp-full-gen-1.png){zoomable="yes"}
 
 1. AI 관리자가 선택한 콘텐츠를 기반으로 새 콘텐츠를 개인화하려면 **[!UICONTROL 원본 콘텐츠 사용]** 옵션을 사용하도록 설정하십시오.
 
@@ -50,7 +50,7 @@ Journey Optimizer에서 AI Assistant를 사용하는 방법을 알려면 아래 
 
    프롬프트 작성에 도움이 필요한 경우 랜딩 페이지를 개선하기 위한 다양한 프롬프트 아이디어를 제공하는 **[!UICONTROL 프롬프트 라이브러리]**&#x200B;에 액세스하십시오.
 
-   ![](assets/lp-full-gen-2.png){zoomable="yes"}
+   전체 페이지 생성을 위해 프롬프트 필드 및 프롬프트 라이브러리 액세스가 포함된 랜딩 페이지용 ![AI 도우미](assets/lp-full-gen-2.png){zoomable="yes"}
 
 1. **[!UICONTROL 텍스트 설정]** 옵션을 사용하여 메시지를 사용자 지정합니다.
 
@@ -58,7 +58,7 @@ Journey Optimizer에서 AI Assistant를 사용하는 방법을 알려면 아래 
    * **[!UICONTROL 언어]**: 생성된 콘텐츠의 언어를 선택합니다.
    * **[!UICONTROL 음색]**: 랜딩 페이지의 음색이 대상자에게 울려 퍼져야 합니다. AI 어시스턴트는 유익하거나, 장난스럽거나, 설득력 있게 들리고자 하는 경우 해당 메시지를 적절하게 조정할 수 있습니다.
 
-   ![](assets/lp-full-gen-3.png){zoomable="yes"}
+   통신 전략, 언어 및 톤 옵션을 보여 주는 랜딩 페이지의 ![텍스트 설정 패널](assets/lp-full-gen-3.png){zoomable="yes"}
 
 1. **[!UICONTROL 이미지 설정]** 선택:
 
@@ -68,7 +68,7 @@ Journey Optimizer에서 AI Assistant를 사용하는 방법을 알려면 아래 
    * **[!UICONTROL 조명]**: 이미지에 있는 번개(대기의 모양과 특정 요소의 강조 표시)를 나타냅니다.
    * **[!UICONTROL 컴포지션]**: 이미지 프레임 내의 요소 배열을 참조합니다
 
-   ![](assets/lp-full-gen-4.png){zoomable="yes"}
+   콘텐츠 유형, 시각적 강도, 색상 및 톤, 조명 및 컴포지션을 사용하는 랜딩 페이지에 대한 ![이미지 설정 패널](assets/lp-full-gen-4.png){zoomable="yes"}
 
 1. **[!UICONTROL 브랜드 자산]** 메뉴에서 **[!UICONTROL 브랜드 자산 업로드]**&#x200B;를 클릭하여 추가 컨텍스트 AI Assistant를 제공하거나 이전에 업로드한 것을 선택할 수 있는 콘텐츠가 포함된 브랜드 자산을 추가합니다.
 
@@ -84,7 +84,7 @@ Journey Optimizer에서 AI Assistant를 사용하는 방법을 알려면 아래 
 
    [브랜드 정렬 점수](brands-score.md)에 대해 자세히 알아보세요.
 
-   ![](assets/lp-full-gen-5.png){zoomable="yes"}
+   ![브랜드 정렬 점수 백분율 표시기와 미리 보기 컨트롤을 사용하여 생성된 랜딩 페이지 변형](assets/lp-full-gen-5.png){zoomable="yes"}
 
 1. 추가 사용자 지정 기능에 액세스하려면 **[!UICONTROL 미리 보기]** 창 내에서 **[!UICONTROL 다시 정의]** 옵션으로 이동하십시오.
 
@@ -94,7 +94,7 @@ Journey Optimizer에서 AI Assistant를 사용하는 방법을 알려면 아래 
 
    텍스트의 **[!UICONTROL 색조]** 및 **[!UICONTROL 통신 전략]**&#x200B;을 변경할 수도 있습니다.
 
-   ![](assets/lp-full-gen-6.png){zoomable="yes"}
+   ![다시 구문을 표시하는 랜딩 페이지의 메뉴 세분화, 톤 및 통신 전략 드롭다운을 사용하는 더 간단한 언어 사용](assets/lp-full-gen-6.png){zoomable="yes"}
 
 1. **[!UICONTROL 브랜드 정렬]** 탭을 열어 콘텐츠가 [브랜드 지침](brands.md)에 어떻게 적합한지 확인합니다.
 
@@ -114,7 +114,7 @@ Journey Optimizer에서 AI Assistant를 사용하는 방법을 알려면 아래 
 
 1. 특정 콘텐츠만 타겟팅하려면 **[!UICONTROL 텍스트 구성 요소]**&#x200B;를 선택하십시오. **[!UICONTROL AI Assistant]** 메뉴에 액세스합니다.
 
-   ![](assets/lp-text-gen-1.png){zoomable="yes"}
+   ![텍스트 구성 요소가 선택된 랜딩 페이지 디자이너 및 텍스트 생성을 위한 AI 도우미 패널](assets/lp-text-gen-1.png){zoomable="yes"}
 
 1. AI 관리자가 선택한 콘텐츠를 기반으로 새 콘텐츠를 개인화하려면 **[!UICONTROL 원본 콘텐츠 사용]** 옵션을 사용하도록 설정하십시오.
 
@@ -122,7 +122,7 @@ Journey Optimizer에서 AI Assistant를 사용하는 방법을 알려면 아래 
 
    프롬프트 작성에 도움이 필요한 경우 랜딩 페이지를 개선하기 위한 다양한 프롬프트 아이디어를 제공하는 **[!UICONTROL 프롬프트 라이브러리]**&#x200B;에 액세스하십시오.
 
-   ![](assets/lp-text-gen-2.png){zoomable="yes"}
+   ![프롬프트 필드 및 프롬프트 라이브러리 단추가 있는 랜딩 페이지에 대한 AI Assistant 텍스트 생성](assets/lp-text-gen-2.png){zoomable="yes"}
 
 1. **[!UICONTROL 텍스트 설정]** 옵션을 사용하여 메시지를 사용자 지정합니다.
 
@@ -131,7 +131,7 @@ Journey Optimizer에서 AI Assistant를 사용하는 방법을 알려면 아래 
    * **[!UICONTROL 음색]**: 랜딩 페이지의 음색이 대상자에게 울려 퍼져야 합니다. AI 어시스턴트는 유익하거나, 장난스럽거나, 설득력 있게 들리고자 하는 경우 해당 메시지를 적절하게 조정할 수 있습니다.
    * **텍스트 길이**: 슬라이더를 사용하여 원하는 텍스트 길이를 선택합니다.
 
-   ![](assets/lp-text-gen-3.png){zoomable="yes"}
+   ![통신 전략, 언어, 색조 및 텍스트 길이 슬라이더를 사용하는 랜딩 페이지에 대한 텍스트 설정](assets/lp-text-gen-3.png){zoomable="yes"}
 
 1. **[!UICONTROL 브랜드 자산]** 메뉴에서 **[!UICONTROL 브랜드 자산 업로드]**&#x200B;를 클릭하여 추가 컨텍스트 AI Assistant를 제공하거나 이전에 업로드한 것을 선택할 수 있는 콘텐츠가 포함된 브랜드 자산을 추가합니다.
 
@@ -148,7 +148,7 @@ Journey Optimizer에서 AI Assistant를 사용하는 방법을 알려면 아래 
 
    [브랜드 정렬 점수](brands-score.md)에 대해 자세히 알아보세요.
 
-   ![](assets/lp-text-gen-4.png){zoomable="yes"}
+   ![브랜드 정렬 점수 백분율 및 선택 옵션을 사용하여 생성된 랜딩 페이지 텍스트 변형](assets/lp-text-gen-4.png){zoomable="yes"}
 
 1. 추가 사용자 지정 기능에 액세스하려면 **[!UICONTROL 미리 보기]** 창 내에서 **[!UICONTROL 다시 정의]** 옵션으로 이동하십시오.
 
@@ -164,7 +164,7 @@ Journey Optimizer에서 AI Assistant를 사용하는 방법을 알려면 아래 
 
    텍스트의 **[!UICONTROL 색조]** 및 **[!UICONTROL 통신 전략]**&#x200B;을 변경할 수도 있습니다.
 
-   ![](assets/lp-text-gen-5.png){zoomable="yes"}
+   ![정교하게, 요약하고, 구문을 바꾸고, 음색 드롭다운으로 더 간단한 언어를 사용하는 랜딩 페이지 텍스트의 메뉴 세분화](assets/lp-text-gen-5.png){zoomable="yes"}
 
 1. **[!UICONTROL 브랜드 정렬]** 탭을 열어 콘텐츠가 [브랜드 지침](brands.md)에 어떻게 적합한지 확인합니다.
 
@@ -186,7 +186,7 @@ Journey Optimizer에서 AI Assistant를 사용하는 방법을 알려면 아래 
 
 1. 오른쪽 메뉴에서 **[!UICONTROL AI 길잡이]**&#x200B;를 선택합니다.
 
-   ![](assets/lp-image-gen-1.png){zoomable="yes"}
+   ![이미지 에셋이 선택되고 이미지 생성을 위해 AI 지원 패널이 열린 랜딩 페이지 디자이너](assets/lp-image-gen-1.png){zoomable="yes"}
 
 1. AI 관리자가 참조 콘텐츠를 기반으로 새 콘텐츠를 개인화하려면 **[!UICONTROL 참조 스타일]** 옵션을 활성화하십시오. 이미지를 업로드하여 변형에 컨텍스트를 추가할 수도 있습니다.
 
@@ -194,7 +194,7 @@ Journey Optimizer에서 AI Assistant를 사용하는 방법을 알려면 아래 
 
    프롬프트 작성에 도움이 필요한 경우 랜딩 페이지를 개선하기 위한 다양한 프롬프트 아이디어를 제공하는 **[!UICONTROL 프롬프트 라이브러리]**&#x200B;에 액세스하십시오.
 
-   ![](assets/lp-image-gen-2.png){zoomable="yes"}
+   참조 스타일 전환, 프롬프트 필드 및 프롬프트 라이브러리가 있는 랜딩 페이지에 대한 ![AI Assistant 이미지 생성](assets/lp-image-gen-2.png){zoomable="yes"}
 
 1. **[!UICONTROL 이미지 설정]** 옵션을 사용하여 메시지를 사용자 지정합니다.
 
@@ -205,7 +205,7 @@ Journey Optimizer에서 AI Assistant를 사용하는 방법을 알려면 아래 
    * **[!UICONTROL 조명]**: 이미지에 있는 번개(대기의 모양과 특정 요소의 강조 표시)를 나타냅니다.
    * **[!UICONTROL 컴포지션]**: 이미지 프레임 내의 요소 배열을 참조합니다
 
-   ![](assets/lp-image-gen-3.png){zoomable="yes"}
+   ![종횡비, 콘텐츠 유형, 시각적 강도, 색상 및 톤, 조명 및 컴포지션을 사용하는 랜딩 페이지에 대한 이미지 설정](assets/lp-image-gen-3.png){zoomable="yes"}
 
 1. **[!UICONTROL 브랜드 자산]** 메뉴에서 **[!UICONTROL 브랜드 자산 업로드]**&#x200B;를 클릭하여 추가 컨텍스트 AI Assistant를 제공하거나 이전에 업로드한 것을 선택할 수 있는 콘텐츠가 포함된 브랜드 자산을 추가합니다.
 
@@ -221,7 +221,7 @@ Journey Optimizer에서 AI Assistant를 사용하는 방법을 알려면 아래 
 
    [브랜드 정렬 점수](brands-score.md)에 대해 자세히 알아보세요.
 
-   ![](assets/lp-image-gen-4.png){zoomable="yes"}
+   ![브랜드 정렬 점수 백분율 및 미리 보기 컨트롤을 사용하여 생성된 랜딩 페이지 이미지 변형](assets/lp-image-gen-4.png){zoomable="yes"}
 
 1. 추가 사용자 지정 기능에 액세스하려면 **[!UICONTROL 미리 보기]** 창 내에서 **[!UICONTROL 다시 정의]** 옵션으로 이동하십시오.
 
@@ -232,7 +232,7 @@ Journey Optimizer에서 AI Assistant를 사용하는 방법을 알려면 아래 
 
    * 나중에 액세스할 수 있도록 자산을 저장하려면 **[!UICONTROL 저장]**&#x200B;하세요.
 
-   ![](assets/lp-image-gen-5.png){zoomable="yes"}
+   ![유사 항목 생성, Adobe Express에서 편집 및 저장 단추를 표시하는 랜딩 페이지 이미지에 대한 옵션 세분화](assets/lp-image-gen-5.png){zoomable="yes"}
 
 1. **[!UICONTROL 브랜드 정렬]** 탭을 열어 콘텐츠가 [브랜드 지침](brands.md)에 어떻게 적합한지 확인합니다.
 

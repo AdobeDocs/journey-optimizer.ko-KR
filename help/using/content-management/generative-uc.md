@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
-source-git-commit: 36bef8f07645b1e9a5a010e3f1b4044f2099b002
+source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '675'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 3%
 
 ## 기존 콘텐츠 사용
 
-![](assets/do-not-localize/gen-ai-reuse-text.gif)
+![AI Assistant가 기존 캠페인 콘텐츠를 재사용하여 새로운 변형을 생성하는 애니메이션 데모](assets/do-not-localize/gen-ai-reuse-text.gif)
 
 1. 캠페인을 설정한 후 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 선택하세요.
 
@@ -41,7 +41,7 @@ ht-degree: 3%
 
 ## 변형 세부 조정
 
-![](assets/do-not-localize/gen-ai-variation.gif)
+![구문 변경 및 요약 옵션을 사용하여 AI 생성 콘텐츠 변형을 개선하는 애니메이션 데모](assets/do-not-localize/gen-ai-variation.gif)
 
 1. 캠페인을 설정하고 구성했으면 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 클릭하세요.
 
@@ -71,7 +71,7 @@ ht-degree: 3%
 
 ## 유사 이미지 생성
 
-![](assets/do-not-localize/uc-image-similar.gif)
+![선택한 AI 생성 이미지를 기반으로 유사한 이미지 변형을 생성하는 애니메이션 데모](assets/do-not-localize/uc-image-similar.gif)
 
 1. 캠페인을 설정한 후 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 선택하세요.
 
@@ -91,7 +91,7 @@ ht-degree: 3%
 
 ## 스타일 참조 업로드
 
-![](assets/do-not-localize/uc-image-reference.gif)
+![AI Assistant 이미지 생성 스타일 안내를 위한 참조 이미지 업로드의 애니메이션 데모](assets/do-not-localize/uc-image-reference.gif)
 
 1. 전자 메일 캠페인을 설정하고 구성한 후 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 클릭하세요.
 
@@ -115,7 +115,7 @@ ht-degree: 3%
 
 ## 지원되는 언어로 콘텐츠 생성{#languages}
 
-![](assets/do-not-localize/gen-ai-language.gif)
+![프랑스어, 스페인어, 독일어의 여러 언어로 콘텐츠를 생성하는 AI Assistant 애니메이션 데모](assets/do-not-localize/gen-ai-language.gif)
 
 1. 캠페인을 설정하고 구성했으면 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 클릭하세요.
 

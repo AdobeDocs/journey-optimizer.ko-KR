@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1b3930ff-f7b0-43f0-bcf2-5c3de0a88b25
-source-git-commit: 50933d991c6a337e6d1739652d680778759ef0d5
+source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
 workflow-type: tm+mt
-source-wordcount: '1752'
-ht-degree: 2%
+source-wordcount: '1978'
+ht-degree: 1%
 
 ---
 
@@ -42,7 +42,7 @@ Journey Optimizer에서 AI Assistant를 사용하는 방법을 알려면 아래 
 
 1. 필요에 따라 레이아웃을 개인화하고 **[!UICONTROL AI 길잡이]** 메뉴에 액세스합니다.
 
-   ![](assets/full-email-1.png){zoomable="yes"}
+   브랜드 선택 및 프롬프트 필드를 표시하는 이메일 Designer의 ![AI 도우미 패널](assets/full-email-1.png){zoomable="yes"}
 
 1. AI 관리자가 선택한 콘텐츠를 기반으로 새 콘텐츠를 개인화하려면 **[!UICONTROL 원본 콘텐츠 사용]** 옵션을 사용하도록 설정하십시오.
 
@@ -52,7 +52,7 @@ Journey Optimizer에서 AI Assistant를 사용하는 방법을 알려면 아래 
 
    프롬프트 작성에 도움이 필요한 경우 캠페인을 개선하기 위한 다양한 프롬프트 아이디어를 제공하는 **[!UICONTROL 프롬프트 라이브러리]**&#x200B;에 액세스하십시오.
 
-   ![](assets/full-email-2.png){zoomable="yes"}
+   미리 작성된 프롬프트 제안을 표시하는 프롬프트 라이브러리 단추가 있는 프롬프트 필드![1}](assets/full-email-2.png){zoomable="yes"}
 
 1. **[!UICONTROL 제목 줄]** 및 **[!UICONTROL 사전 머리글]** 옵션을 전환하여 변형 생성에 포함할 수 있습니다.
 
@@ -62,7 +62,7 @@ Journey Optimizer에서 AI Assistant를 사용하는 방법을 알려면 아래 
    * **[!UICONTROL 언어]**: 생성된 콘텐츠의 언어를 선택합니다.
    * **[!UICONTROL 음색]**: 전자 메일의 음색이 대상자에게 울려 퍼집니다. AI 어시스턴트는 유익하거나, 장난스럽거나, 설득력 있게 들리고자 하는 경우 해당 메시지를 적절하게 조정할 수 있습니다.
 
-   ![](assets/full-email-4.png){zoomable="yes"}
+   ![통신 전략, 언어 및 색조 옵션을 보여 주는 텍스트 설정 패널](assets/full-email-4.png){zoomable="yes"}
 
 1. **[!UICONTROL 이미지 설정]** 선택:
 
@@ -72,13 +72,13 @@ Journey Optimizer에서 AI Assistant를 사용하는 방법을 알려면 아래 
    * **[!UICONTROL 조명]**: 이미지에 있는 번개(대기의 모양과 특정 요소의 강조 표시)를 나타냅니다.
    * **[!UICONTROL 컴포지션]**: 이미지 프레임 내의 요소 배열을 참조합니다
 
-   ![](assets/full-email-6.png){zoomable="yes"}
+   ![콘텐츠 유형, 시각적 강도, 색상 및 톤, 조명 및 컴포지션 옵션을 표시하는 이미지 설정 패널](assets/full-email-6.png){zoomable="yes"}
 
 1. **[!UICONTROL 브랜드 자산]** 메뉴에서 **[!UICONTROL 브랜드 자산 업로드]**&#x200B;를 클릭하여 추가 컨텍스트 AI Assistant를 제공하거나 이전에 업로드한 것을 선택할 수 있는 콘텐츠가 포함된 브랜드 자산을 추가합니다.
 
    이전에 업로드한 파일은 **[!UICONTROL 업로드된 브랜드 자산]** 드롭다운에서 사용할 수 있습니다. 세대에 포함할 자산을 전환하기만 하면 됩니다.
 
-   ![](assets/full-email-3.png){zoomable="yes"}
+   ![브랜드 자산 업로드 단추 및 이전에 업로드한 자산 목록이 있는 브랜드 자산 섹션](assets/full-email-3.png){zoomable="yes"}
 
 1. 메시지가 준비되면 **[!UICONTROL 생성]**&#x200B;을 클릭합니다.
 
@@ -88,7 +88,7 @@ Journey Optimizer에서 AI Assistant를 사용하는 방법을 알려면 아래 
 
    [브랜드 정렬 점수](brands-score.md)에 대해 자세히 알아보세요.
 
-   ![](assets/full-email-7.png){zoomable="yes"}
+   자세한 정렬 지표와 함께 백분율 점수를 표시하는 ![브랜드 정렬 점수 패널](assets/full-email-7.png){zoomable="yes"}
 
 1. 추가 사용자 지정 기능에 액세스하려면 **[!UICONTROL 미리 보기]** 창 내에서 **[!UICONTROL 다시 정의]** 옵션으로 이동하십시오.
 
@@ -98,7 +98,7 @@ Journey Optimizer에서 AI Assistant를 사용하는 방법을 알려면 아래 
 
    텍스트의 **[!UICONTROL 색조]** 및 **[!UICONTROL 통신 전략]**&#x200B;을 변경할 수도 있습니다.
 
-   ![](assets/full-email-5.png){zoomable="yes"}
+   ![음색 및 통신 전략 드롭다운을 통해 리프레이즈를 표시하는 메뉴 세분화 및 더 간단한 언어 옵션 사용](assets/full-email-5.png){zoomable="yes"}
 
 1. **[!UICONTROL 브랜드 정렬]** 탭을 열어 콘텐츠가 [브랜드 지침](brands.md)에 어떻게 적합한지 확인합니다.
 
@@ -120,7 +120,7 @@ Journey Optimizer에서 AI Assistant를 사용하는 방법을 알려면 아래 
 
 1. 특정 콘텐츠만 타겟팅하려면 **[!UICONTROL 텍스트 구성 요소]**&#x200B;를 선택하십시오. **[!UICONTROL AI Assistant]** 메뉴에 액세스합니다.
 
-   ![](assets/text-genai-1.png){zoomable="yes"}
+   ![텍스트 구성 요소를 선택하고 오른쪽 패널에서 AI Assistant 메뉴를 열어 Designer에 전자 메일 보내기](assets/text-genai-1.png){zoomable="yes"}
 
 1. AI 관리자가 선택한 콘텐츠를 기반으로 새 콘텐츠를 개인화하려면 **[!UICONTROL 원본 콘텐츠 사용]** 옵션을 사용하도록 설정하십시오.
 
@@ -130,7 +130,7 @@ Journey Optimizer에서 AI Assistant를 사용하는 방법을 알려면 아래 
 
    프롬프트 작성에 도움이 필요한 경우 캠페인을 개선하기 위한 다양한 프롬프트 아이디어를 제공하는 **[!UICONTROL 프롬프트 라이브러리]**&#x200B;에 액세스하십시오.
 
-   ![](assets/text-genai-2.png){zoomable="yes"}
+   ![프롬프트 필드, 브랜드 선택기 및 프롬프트 라이브러리 액세스가 있는 AI Assistant 텍스트 생성 패널](assets/text-genai-2.png){zoomable="yes"}
 
 1. **[!UICONTROL 텍스트 설정]** 옵션을 사용하여 메시지를 사용자 지정합니다.
 
@@ -139,13 +139,13 @@ Journey Optimizer에서 AI Assistant를 사용하는 방법을 알려면 아래 
    * **[!UICONTROL 음색]**: 전자 메일의 음색이 대상자에게 울려 퍼집니다. AI 어시스턴트는 유익하거나, 장난스럽거나, 설득력 있게 들리고자 하는 경우 해당 메시지를 적절하게 조정할 수 있습니다.
    * **텍스트 길이**: 슬라이더를 사용하여 원하는 텍스트 길이를 선택합니다.
 
-   ![](assets/text-genai-4.png){zoomable="yes"}
+   ![통신 전략, 언어, 색조 및 텍스트 길이 슬라이더 컨트롤을 표시하는 텍스트 설정이 확장되었습니다](assets/text-genai-4.png){zoomable="yes"}
 
 1. **[!UICONTROL 브랜드 자산]** 메뉴에서 **[!UICONTROL 브랜드 자산 업로드]**&#x200B;를 클릭하여 추가 컨텍스트 AI Assistant를 제공하거나 이전에 업로드한 것을 선택할 수 있는 콘텐츠가 포함된 브랜드 자산을 추가합니다.
 
    이전에 업로드한 파일은 **[!UICONTROL 업로드된 브랜드 자산]** 드롭다운에서 사용할 수 있습니다. 세대에 포함할 자산을 전환하기만 하면 됩니다.
 
-   ![](assets/text-genai-3.png){zoomable="yes"}
+   ![이전에 업로드한 브랜드 자산에 대한 전환을 표시하는 브랜드 자산 드롭다운 메뉴](assets/text-genai-3.png){zoomable="yes"}
 
 1. 메시지가 준비되면 **[!UICONTROL 생성]**&#x200B;을 클릭합니다.
 
@@ -157,7 +157,7 @@ Journey Optimizer에서 AI Assistant를 사용하는 방법을 알려면 아래 
 
    [브랜드 정렬 점수](brands-score.md)에 대해 자세히 알아보세요.
 
-   ![](assets/text-genai-6.png){zoomable="yes"}
+   ![브랜드 정렬 점수 백분율 표시기와 미리 보기 옵션이 있는 생성된 텍스트 변형](assets/text-genai-6.png){zoomable="yes"}
 
 1. 추가 사용자 지정 기능에 액세스하려면 **[!UICONTROL 미리 보기]** 창 내에서 **[!UICONTROL 다시 정의]** 옵션으로 이동하십시오.
 
@@ -173,7 +173,7 @@ Journey Optimizer에서 AI Assistant를 사용하는 방법을 알려면 아래 
 
    텍스트의 **[!UICONTROL 색조]** 및 **[!UICONTROL 통신 전략]**&#x200B;을 변경할 수도 있습니다.
 
-   ![](assets/text-genai-5.png){zoomable="yes"}
+   ![음색 드롭다운을 사용하여 정교하고 요약하고 다시 음영처리하며 더 간단한 언어 단추를 사용하는 옵션 메뉴 세분화](assets/text-genai-5.png){zoomable="yes"}
 
 1. **[!UICONTROL 브랜드 정렬]** 탭을 열어 콘텐츠가 [브랜드 지침](brands.md)에 어떻게 적합한지 확인합니다.
 
@@ -197,7 +197,7 @@ Journey Optimizer에서 AI Assistant를 사용하는 방법을 알려면 아래 
 
 1. 오른쪽 메뉴에서 **[!UICONTROL AI 길잡이]**&#x200B;를 선택합니다.
 
-   ![](assets/image-genai-1.png){zoomable="yes"}
+   ![이미지 에셋이 선택되고 이미지 생성을 위해 AI 지원 패널이 열린 Designer에 전자 메일을 보냅니다](assets/image-genai-1.png){zoomable="yes"}
 
 1. AI 관리자가 참조 콘텐츠를 기반으로 새 콘텐츠를 개인화하려면 **[!UICONTROL 참조 스타일]** 옵션을 활성화하십시오. 이미지를 업로드하여 변형에 컨텍스트를 추가할 수도 있습니다.
 
@@ -207,7 +207,7 @@ Journey Optimizer에서 AI Assistant를 사용하는 방법을 알려면 아래 
 
    프롬프트 작성에 도움이 필요한 경우 캠페인을 개선하기 위한 다양한 프롬프트 아이디어를 제공하는 **[!UICONTROL 프롬프트 라이브러리]**&#x200B;에 액세스하십시오.
 
-   ![](assets/image-genai-2.png){zoomable="yes"}
+   참조 스타일 전환, 브랜드 선택기 및 프롬프트 필드가 있는 ![AI Assistant 이미지 생성 패널](assets/image-genai-2.png){zoomable="yes"}
 
 1. **[!UICONTROL 이미지 설정]** 옵션을 사용하여 메시지를 사용자 지정합니다.
 
@@ -218,7 +218,7 @@ Journey Optimizer에서 AI Assistant를 사용하는 방법을 알려면 아래 
    * **[!UICONTROL 조명]**: 이미지에 있는 번개(대기의 모양과 특정 요소의 강조 표시)를 나타냅니다.
    * **[!UICONTROL 컴포지션]**: 이미지 프레임 내의 요소 배열을 참조합니다
 
-   ![](assets/image-genai-4.png){zoomable="yes"}
+   종횡비, 콘텐츠 유형, 시각적 강도, 색상 및 톤, 조명 및 컴포지션 컨트롤이 있는 ![이미지 설정 패널](assets/image-genai-4.png){zoomable="yes"}
 
 1. **[!UICONTROL 브랜드 자산]** 메뉴에서 **[!UICONTROL 브랜드 자산 업로드]**&#x200B;를 클릭하여 추가 컨텍스트 AI Assistant를 제공하거나 이전에 업로드한 것을 선택할 수 있는 콘텐츠가 포함된 브랜드 자산을 추가합니다.
 
@@ -247,7 +247,7 @@ Journey Optimizer에서 AI Assistant를 사용하는 방법을 알려면 아래 
 
    * 나중에 액세스할 수 있도록 자산을 저장하려면 **[!UICONTROL 저장]**&#x200B;하세요.
 
-   ![](assets/image-genai-5.png){zoomable="yes"}
+   ![유사 항목 생성, Adobe Express에서 편집 및 저장 단추를 표시하는 생성된 이미지에 대한 옵션을 세분화합니다](assets/image-genai-5.png){zoomable="yes"}
 
 1. 적절한 콘텐츠를 찾으면 **[!UICONTROL 선택]**&#x200B;을 클릭합니다.
 
