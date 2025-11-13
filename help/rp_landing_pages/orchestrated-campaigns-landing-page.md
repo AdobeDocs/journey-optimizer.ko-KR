@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 오케스트레이션된 캠페인을 통해 대규�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
 
 오케스트레이션된 캠페인 소개
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 오케스트레이션된 캠페인의 핵심 기능, 구
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
 
 가드레일 및 제한 사항
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 오케스트레이션된 캠페인의 핵심 기능, 구
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 오케스트레이션된 캠페인을 위한 데이터 구성
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 오케스트레이션된 캠페인의 핵심 기능, 구
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 오케스트레이션된 캠페인 시작 및 관리
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 오케스트레이션된 캠페인의 핵심 기능, 구
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 오케스트레이션된 캠페인을 위한 데이터베이스 쿼리
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 오케스트레이션된 캠페인의 핵심 기능, 구
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 캠페인 활동 종합 안내서
 
