@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
 workflow-type: tm+mt
 source-wordcount: '7890'
 ht-degree: 99%
@@ -162,8 +162,8 @@ ht-degree: 99%
 * **SMS 채널에 대한 mTLS 지원**
 이제 사용자 정의 SMS 공급자를 설정할 때 상호 TLS(mTLS) 인증을 활성화하는 옵션이 있습니다. 이 옵션을 선택하면 보안 연결이 설정되기 전에 클라이언트와 서버가 서로의 ID를 확인하도록 요구합니다. [자세히 보기](../sms/sms-configuration-custom.md) - 사용 가능한 날짜: 2025년 9월 23일
 
-* **모델 기반 스키마**\
-  이제 오케스트레이션된 캠페인에서 관계형 모델링 요구 사항을 지원하기 위해 모델 기반 스키마를 사용할 수 있습니다. [자세히 보기](../orchestrated/gs-schemas.md) - 사용 가능한 날짜: 2025년 9월 23일
+* **관계형 스키마**\
+  이제 오케스트레이션된 캠페인에서 관계형 모델링 요구 사항을 지원하는 데 관계형 스키마를 사용할 수 있습니다. [자세히 보기](../orchestrated/gs-schemas.md) - 사용 가능한 날짜: 2025년 9월 23일
 
 * **여정에서 데이터 세트 조회 지원**\
   여정에 새로 추가된 **데이터 세트 조회** 활동을 사용하면 런타임 중에 Adobe Experience Platform 레코드 데이터 세트의 데이터를 동적으로 검색할 수 있습니다. 이 기능을 활용하면 프로필이나 이벤트 페이로드에 없을 수 있는 데이터에 액세스하여 고객 상호 작용이 적시에 적절하게 이루어질 수 있습니다. [자세히 보기](../building-journeys/dataset-lookup.md) - 사용 가능한 날짜: 2025년 9월 23일

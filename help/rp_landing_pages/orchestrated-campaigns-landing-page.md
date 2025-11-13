@@ -5,7 +5,7 @@ title: 오케스트레이션된 캠페인
 description: 오케스트레이션된 캠페인
 redpen-status: CREATED_||_2025-08-11_20-27-33
 exl-id: 31f3668f-99fb-4388-a379-4979c63b7b3a
-source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
+source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 100%
@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 오케스트레이션된 캠페인을 통해 대규�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 오케스트레이션된 캠페인 소개
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 오케스트레이션된 캠페인의 핵심 기능, 구
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 가드레일 및 제한 사항
 
@@ -40,17 +40,17 @@ Adobe Journey Optimizer 오케스트레이션된 캠페인의 핵심 기능, 구
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 오케스트레이션된 캠페인을 위한 데이터 구성
 
-모델 기반 스키마, 데이터 세트, 채널을 구성하여 데이터를 오케스트레이션된 캠페인에 적용할 수 있게 준비합니다.
+관계형 스키마, 데이터 세트, 채널을 구성하여 데이터를 오케스트레이션된 캠페인에 적용할 수 있게 준비합니다.
 
 [데이터 구성 살펴보기](data-configuration-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 오케스트레이션된 캠페인 시작 및 관리
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 오케스트레이션된 캠페인의 핵심 기능, 구
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 오케스트레이션된 캠페인을 위한 데이터베이스 쿼리
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 오케스트레이션된 캠페인의 핵심 기능, 구
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 캠페인 활동 종합 안내서
 

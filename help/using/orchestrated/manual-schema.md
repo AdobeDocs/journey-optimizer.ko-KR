@@ -2,23 +2,23 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 구성 단계
-description: 사용자 인터페이스를 통해 직접 모델 기반 스키마를 만드는 방법을 알아봅니다.
+description: 사용자 인터페이스를 통해 직접 관계형 스키마를 만드는 방법을 알아봅니다.
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
-source-git-commit: ac80d1cec351a3029c8b2bf862275ffe7fd5c86d
+source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
 workflow-type: tm+mt
 source-wordcount: '882'
 ht-degree: 4%
 
 ---
 
-# 수동 모델 기반 스키마 설정 {#manual-schema}
+# 수동 관계형 스키마 설정 {#manual-schema}
 
-사용자 인터페이스를 통해 모델 기반 스키마를 직접 생성할 수 있으므로 속성, 기본 키, 버전 관리 필드 및 관계를 세부적으로 구성할 수 있습니다.
+사용자 인터페이스를 통해 직접 관계형 스키마를 생성할 수 있으므로 속성, 기본 키, 버전 관리 필드 및 관계를 세부적으로 구성할 수 있습니다.
 
 다음 예제에서는 오케스트레이션된 캠페인에 필요한 구조를 보여 주기 위해 **충성도 멤버십** 스키마를 수동으로 정의합니다.
 
-1. Adobe Experience Platform 인터페이스를 사용하여 [모델 기반 스키마를 수동으로 만들기](#schema).
+1. Adobe Experience Platform 인터페이스를 사용하여 [관계형 스키마를 수동으로 만들기](#schema).
 
 1. 고객 ID, 멤버십 수준 및 상태 필드와 같은 특성을 [추가](#schema-attributes)합니다.
 
@@ -28,11 +28,11 @@ ht-degree: 4%
 
 1. 지원되는 소스에서 데이터 세트로 [데이터를 수집](ingest-data.md)합니다.
 
-➡️ [Adobe Experience Platform 설명서에서 수동 모델 기반 스키마에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
+➡️ [Adobe Experience Platform 설명서에서 수동 관계형 스키마에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
 
 ## 스키마 만들기 {#schema}
 
-Adobe Experience Platform에서 수동으로 새 모델 기반 스키마를 만들어 시작하십시오. 이 프로세스를 사용하면 이름 및 동작을 포함하여 스키마 구조를 처음부터 정의할 수 있습니다.
+Adobe Experience Platform에서 수동으로 새 관계형 스키마를 생성하여 시작하십시오. 이 프로세스를 사용하면 이름 및 동작을 포함하여 스키마 구조를 처음부터 정의할 수 있습니다.
 
 1. Adobe Experience Platform에 로그인.
 
@@ -40,7 +40,7 @@ Adobe Experience Platform에서 수동으로 새 모델 기반 스키마를 만�
 
 1. **[!UICONTROL 스키마 만들기]**&#x200B;를 클릭합니다.
 
-1. **[!UICONTROL 모델 기반]**&#x200B;을(를) **스키마 형식**(으)로 선택합니다.
+1. **[!UICONTROL 관계형]**&#x200B;을(를) **스키마 형식**(으)로 선택합니다.
 
    ![](assets/admin_schema_1.png){zoomable="yes"}
 
@@ -60,7 +60,7 @@ Adobe Experience Platform에서 수동으로 새 모델 기반 스키마를 만�
 
 타깃팅에 사용되는 모든 스키마에는 연결된 ID 네임스페이스가 있는 `String` 유형의 ID 필드가 하나 이상 포함되어야 합니다. 이렇게 하면 Adobe Journey Optimizer의 타기팅 및 ID 해결 기능과의 호환성이 보장됩니다.
 
-+++Adobe Experience Platform에서 모델 기반 스키마를 생성할 때 다음 기능이 지원됩니다
++++Adobe Experience Platform에서 관계형 스키마를 생성할 때 지원되는 기능은 다음과 같습니다
 
 * **열거형**\
   ENUM 필드는 DDL 기반 및 수동 스키마 생성 모두에서 지원되므로 고정된 허용된 값 집합으로 속성을 정의할 수 있습니다.
@@ -69,7 +69,7 @@ Adobe Experience Platform에서 수동으로 새 모델 기반 스키마를 만�
   액세스 제어 및 사용 제한과 같은 데이터 거버넌스 정책을 적용하기 위해 스키마 필드 수준에서 레이블 지정이 지원됩니다. 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR)를 참조하세요.
 
 * **합성 키**\
-  모델 기반 스키마 정의에서 복합 기본 키가 지원되므로 여러 필드를 함께 사용하여 레코드를 고유하게 식별할 수 있습니다.
+  관계형 스키마 정의에서 복합 기본 키가 지원되므로 여러 필드를 함께 사용하여 레코드를 고유하게 식별할 수 있습니다.
 
 +++
 
@@ -110,7 +110,7 @@ Adobe Experience Platform에서 수동으로 새 모델 기반 스키마를 만�
 
 속성을 만들고 저장한 후 관계를 정의하여 스키마를 다른 관계형 스키마와 연결할 수 있습니다.
 
-➡️ [Adobe Experience Platform 설명서에서 관계형 스키마에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
+➡️ [Adobe Experience Platform 설명서에서 관계형 스키마에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
 
 ## 스키마 연결 {#link-schema}
 

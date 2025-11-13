@@ -5,7 +5,7 @@ title: 오케스트레이션된 캠페인 FAQ
 description: Journey Optimizer 오케스트레이션 캠페인에 대한 FAQ
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 536d080e455e4872ed6e58b11adc3324b332f7b5
+source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
 workflow-type: tm+mt
 source-wordcount: '1799'
 ht-degree: 13%
@@ -16,7 +16,7 @@ ht-degree: 13%
 
 Adobe Journey Optimizer 오케스트레이션된 캠페인에 대한 FAQ는 다음과 같습니다.
 
-세부 정보가 필요하십니까? 이 페이지 하단의 피드백 옵션을 사용하여 질문을 제기하거나 [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"}에 연결하세요.
+세부 정보가 필요하십니까? 이 페이지 하단의 피드백 옵션을 사용하여 질문을 제기하거나 [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}에 연결하세요.
 
 +++ Campaign 오케스트레이션이란?
 
@@ -247,7 +247,7 @@ Campaign Orchestration에서는 임시 세분화를 &#39;라이브 세분화&#39
 
 +++ Campaign Orchestration은 일괄 처리를 통해 로드된 데이터에만 액세스합니까, 아니면 실시간으로 업데이트된 테이블(예: Analytics 데이터)도 쿼리할 수 있습니까?
 
-Journey Optimizer Campaign Orchestration은 모델 기반 스키마 위에 임시 쿼리를 작성할 수 있습니다. 모델 기반 스키마는 현재만 배치 소스를 지원합니다. 또한 모든 유형의 Adobe Experience Platform 대상에서 대상 읽기 활동을 지원합니다.
+Journey Optimizer Campaign Orchestration은 관계형 스키마 위에 임시 쿼리를 작성할 수 있습니다. 관계형 스키마는 현재만 배치 소스를 지원합니다. 또한 모든 유형의 Adobe Experience Platform 대상에서 대상 읽기 활동을 지원합니다.
 
 **자세히 알아보기**
 
