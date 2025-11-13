@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
-source-git-commit: 5bc467f7fd25dd4218470c0e73bc0dc87938e218
+source-git-commit: 71d4fae1eecb2acfcf3ba889c58bf71fb74d48fa
 workflow-type: tm+mt
-source-wordcount: '1510'
+source-wordcount: '1472'
 ht-degree: 1%
 
 ---
@@ -143,8 +143,8 @@ HTML 구성 요소의 경우 특정 요소만 편집 가능한 필드가 될 수
 ## 사용자 지정 가능한 조각에 서식 있는 텍스트 추가 {#rich-text}
 
 HTML 구성 요소를 사용하여 편집 가능한 조각에 줄 바꿈, 굵게, 기울임체 등과 같은 리치 텍스트를 추가할 수 있습니다. 그 방법은 다음과 같습니다.
-
-➡️ [이 비디오에서 편집 가능한 조각에 서식 있는 텍스트를 추가하고 사용하는 방법을 알아봅니다.](#video)
+<!--
+➡️ [Learn how to add and use rich text to an editable fragment in this video](#video)-->
 
 ### 리치 텍스트를 포함하는 조각 만들기 {#add-rich-text}
 
@@ -190,8 +190,10 @@ HTML 구성 요소를 사용하여 편집 가능한 조각에 줄 바꿈, 굵게
 
    ![](assets/fragment-rich-editable-fields-update-styling.png)
 
-## 사용 방법 비디오 {#video}
+<!--
+## How-to video {#video}
 
-이 비디오는 조각 내에서 HTML 구성 요소를 편집 가능하게 만들어 콘텐츠와 스타일 모두에 대한 동적 업데이트를 허용하는 방법을 보여 줍니다.
+This video shows how to make HTML components within a fragment editable, allowing for dynamic updates to both content and styling.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464375/?captions=kor&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
+-->
