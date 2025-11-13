@@ -8,9 +8,9 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
+source-git-commit: bfd36dddb5795cd8b6eeb164f70b6cf3fdcb5750
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '317'
 ht-degree: 1%
 
 ---
@@ -42,7 +42,6 @@ ht-degree: 1%
    >
    > **API 트리거 트랜잭션**&#x200B;의 경우 **[!UICONTROL 높은 처리량]** 옵션을 사용할 수 없습니다.
 
-
    ![](assets/create-live-1.png)
 
 1. **[!UICONTROL 속성]** 섹션에서 Campaign의 **[!UICONTROL 제목]** 및 **[!UICONTROL 설명]**&#x200B;을(를) 편집합니다.
@@ -73,47 +72,48 @@ ht-degree: 1%
 
    다음 페이로드 예제의 필드 대부분은 필수이므로 `requestId`, `dismissal-date` 및 `alert`만 선택 사항입니다.
 
-       &quot;json
-       &lbrace;
-       &quot;requestId&quot;: &quot;your-request-id&quot;,
-       &quot;campaignId&quot;: &quot;your-campaign-id&quot;,
-       &quot;수신자&quot;: &lbrack;
-       &lbrace;
-       &quot;type&quot;: &quot;aep&quot;,
-       &quot;userId&quot;: &quot;testemail@gmail.com&quot;,
-       &quot;namespace&quot;: &quot;email&quot;,
-       &quot;컨텍스트&quot;: &lbrace;
-       &quot;requestPayload&quot;: &lbrace;
-       &quot;aps&quot;: &lbrace;
-       &quot;콘텐츠 사용 가능&quot;: 1,
-       &quot;timestamp&quot;: 1756984054,              // 현재 epoch 시간
-       &quot;dismission-date&quot;: 1756984084,         // 선택 사항 - event=&quot;end&quot;
-일 때 자동 제거       &quot;event&quot;: &quot;update&quot;,                    // 시작 | 업데이트 | end
-       
-   FoodDeliveryLiveActivityAttributes의     // 필드
-       &quot;content-state&quot;: &lbrace;
-       &quot;orderStatus&quot;: &quot;배달됨&quot;
-       ,
-       
-       &quot;attributes-type&quot;: &quot;FoodDeliveryLiveActivityAttributes&quot;,
-       &quot;attributes&quot;: &lbrace;
-       &quot;restaurantName&quot;: &quot;피자&quot;,
-       &quot;liveActivityData&quot;: &lbrace;
-       &quot;liveActivityID&quot;: &quot;orderId1&quot;       // 고객 참조 ID
-       
-       ,
-       
-       &quot;경고&quot;: &lbrace;
-       &quot;title&quot;: &quot;배달된 주문!&quot;,
-       &quot;body&quot;: &quot;피자가 도착했습니다.&quot;
-       
-       
-       
-       
-       &rbrace;
-       &rbrack;
-       
-       &quot;
+   ```json
+   {
+       "requestId": "your-request-id",
+       "campaignId": "your-campaign-id",
+       "recipients": [
+   {
+       "type": "aep",
+       "userId": "testemail@gmail.com",
+       "namespace": "email",
+       "context": {
+        "requestPayload": {
+       "aps": {
+       "content-available": 1,
+       "timestamp": 1756984054,              // current epoch time
+       "dismissal-date": 1756984084,         // optional – auto remove when event="end"
+       "event": "update",                    // start | update | end
+   
+       // Fields from FoodDeliveryLiveActivityAttributes
+       "content-state": {
+         "orderStatus": "Delivered"
+       },
+   
+       "attributes-type": "FoodDeliveryLiveActivityAttributes",
+       "attributes": {
+         "restaurantName": "Pizza",
+         "liveActivityData": {
+           "liveActivityID": "orderId1"       // customer reference ID
+         }
+       },
+   
+       "alert": {
+         "title": "Order Delivered!",
+         "body": "Your pizza has arrived."
+       }
+     }
+   }
+   }
+   }
+   ]
+   }
+   ```
+
    +++
 
 라이브 활동을 디자인한 후 [기본 제공 보고서](../reports/campaign-global-report-cja-activity.md)를 통해 라이브 활동의 영향을 측정하는 방법을 추적할 수 있습니다.
