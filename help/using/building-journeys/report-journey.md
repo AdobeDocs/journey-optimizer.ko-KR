@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 게시, 여정, 라이브, 유효성, 확인
 exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '410'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 표시된 이벤트는 지난 24시간 내에 발생했으며, 이벤트와 해당 표시 간 최소 간격은 2분이며, 일반적으로 5분 이내입니다.
 
-![](assets/journey_live_report.png)
+실시간 성능 지표를 표시하는 ![여정 실시간 보고서 대시보드](assets/journey_live_report.png)
 
 라이브 또는 [시험 실행 모드](journey-dry-run.md)의 여정에 대해 다음을 확인할 수 있습니다.
 

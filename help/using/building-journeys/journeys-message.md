@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 여정, 메시지, 푸시, sms, 이메일, 인앱, 웹, 콘텐츠 카드, 코드 기반 경험
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 version: Journey Orchestration
-source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '569'
 ht-degree: 17%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 17%
 
 1. 팔레트의 **작업** 섹션에서 채널 활동을 캔버스로 끌어서 놓습니다.
 
-   ![](assets/journey-web-activity.png)
+   ![여정 캔버스의 웹 채널 작업 활동](assets/journey-web-activity.png)
 
 1. **[!UICONTROL Action]** 활동을 선택하여 여러 인바운드 작업을 선택할 수도 있습니다. [자세히 알아보기](journey-action.md)
 
@@ -139,7 +139,7 @@ ht-degree: 17%
 
 이렇게 하려면 라이브 여정을 열고 채널 활동을 선택한 다음 **콘텐츠 편집**&#x200B;을 클릭하세요.
 
-![](assets/add-a-message2.png)
+![사용 가능한 채널 옵션을 표시하는 작업 활동 추가 드롭다운](assets/add-a-message2.png)
 
 그러나 프로필 속성이든 컨텍스트 데이터(이벤트 또는 여정 속성)이든 간에 개인화에 사용되는 속성은 변경할 수 없습니다.
 

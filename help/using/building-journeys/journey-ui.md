@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 여정, 첫 번째, 시작, 빠른 시작, 대상, 이벤트, 작업
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1475'
 ht-degree: 10%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 10%
 
 여정 캘린더에서 탐색하려면:
 
-1. 달력 보기에 액세스하려면 여정 목록을 열고 ![달력 아이콘](assets/do-not-localize/timeline-icon.svg) 아이콘을 클릭합니다.
+1. 달력 보기에 액세스하려면 여정 목록을 열고 ![달력 아이콘을 클릭하여 달력 보기로 전환합니다](assets/do-not-localize/timeline-icon.svg).
 
 1. 화살표 단추 또는 달력 위의 날짜 선택기를 사용하여 주 사이를 이동합니다.
 
@@ -73,11 +73,11 @@ ht-degree: 10%
 
    ![실시간 여정을 표시하는 달력 보기](assets/timeline-journeys.png)
 
-1. ![톱니바퀴](assets/do-not-localize/Smock_Gears_18_N.png) 아이콘을 클릭하여 여러 날 또는 여러 주에 걸친 항목 표시를 전환합니다.
+1. ![설정 아이콘을 클릭하여 여러 날 여정 표시를 전환합니다](assets/do-not-localize/Smock_Gears_18_N.png) 아이콘을 클릭하여 여러 날 또는 여러 주에 걸친 항목 표시를 전환합니다.
 
    ![실시간 캠페인을 표시하는 달력 보기](assets/journey-calendar-1.png)
 
-1. 최대 3개의 외부 일정을 관리하고 추가하려면 ![일정 추가](assets/do-not-localize/Smock_CalendarAdd_18_N.svg) 아이콘을 클릭하십시오.
+1. ![외부 일정 추가 아이콘](assets/do-not-localize/Smock_CalendarAdd_18_N.svg) 아이콘을 클릭하여 최대 3개의 외부 일정을 관리하고 추가하십시오.
 
    ![외부 일정을 표시하는 일정 보기](assets/journey-calendar-2.png)
 
@@ -120,7 +120,7 @@ ht-degree: 10%
 
 또한 이벤트, 데이터 소스 및 작업 구성 창에서 **[!UICONTROL 다음에서 사용]** 필드를 적용하면 특정 이벤트, 필드 그룹 또는 작업을 사용하는 여정 수가 표시됩니다. **[!UICONTROL 여정 보기]** 버튼을 클릭하여 해당 여정의 목록을 표시할 수 있습니다.
 
-![](assets/journey3bis.png)
+![이벤트 또는 작업을 사용하는 여정 수를 표시하는 필드에 사용됨](assets/journey3bis.png)
 
 ## 여정 유형 {#journey-types}
 
@@ -166,7 +166,7 @@ ht-degree: 10%
 
 1. 여정 이름을 입력하고 확인합니다. 여정 속성 화면에서 이름을 변경할 수도 있습니다. 기본적으로 이름은 `[JOURNEY-NAME]_copy`(으)로 설정됩니다.
 
-   ![](assets/duplicate-jo2.png)
+   ![중복된 여정에 대한 여정 이름 입력 필드](assets/duplicate-jo2.png)
 
 1. 새 여정이 만들어지고 여정 목록에서 사용할 수 있습니다.
 

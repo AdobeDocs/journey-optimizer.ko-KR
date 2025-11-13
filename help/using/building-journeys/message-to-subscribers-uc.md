@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: 여정, 사용 사례, 메시지, 구독자, 목록, 읽기
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '345'
 ht-degree: 17%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 17%
 
    1. **[!UICONTROL 주소]** 필드 오른쪽에 있는 **[!UICONTROL 매개 변수 재정의 사용]** 아이콘을 클릭한 다음 **[!UICONTROL 편집]** 아이콘을 클릭합니다.
 
-      ![](assets/message-to-subscribers-uc-1.png)
+      구독자 목록 타깃팅에 대한 대상 읽기가 포함된 ![여정 흐름](assets/message-to-subscribers-uc-1.png)
 
    1. 표현식 편집기에서 구독자의 이메일 주소를 검색하는 표현식을 입력합니다. [자세히 보기](expression/expressionadvanced.md).
 
@@ -54,7 +54,7 @@ ht-degree: 17%
 
       식의 [필드 참조](expression/field-references.md)에 대해 자세히 알아보세요.
 
-      ![](assets/message-to-subscribers-uc-2.png)
+      ![구독자에 대해 개인화된 콘텐츠가 포함된 전자 메일 구성](assets/message-to-subscribers-uc-2.png)
 
    1. **[!UICONTROL 식 추가]** 대화 상자에서 **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
 

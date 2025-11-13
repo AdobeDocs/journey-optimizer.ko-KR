@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 게시, 여정, 라이브, 유효성, 확인
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 42%
+source-wordcount: '624'
+ht-degree: 40%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 42%
    >
    > 여정이 승인 정책의 적용을 받는 경우 여정을 게시하려면 승인을 요청해야 합니다. [자세히 알아보기](../test-approve/gs-approval.md)
 
-   ![](assets/journeyuc1_18.png)
+   ![여정 도구 모음의 게시 단추를 클릭하여 여정 활성화](assets/journeyuc1_18.png)
 
 여정이 게시되면 **읽기 전용** 모드에 있습니다. 읽기 전용 모드에서는 활동 레이블 및 설명, 여정 이름 및 여정 설명만 수정할 수 있습니다. 게시된 여정을 추가로 수정해야 하는 경우 여정의 [새 버전](journey-ui.md#journey-filter)을 만드십시오.
 
@@ -52,7 +52,7 @@ ht-degree: 42%
 
 여정 목록에는 모든 여정 버전이 버전 번호와 함께 표시됩니다. 여정을 검색하면 애플리케이션이 처음 열릴 때 최신 버전이 목록 맨 위에 나타납니다. 그런 다음 원하는 정렬을 정의하면 애플리케이션이 이를 사용자 기본 설정으로 유지합니다. 여정 버전은 여정 편집 인터페이스의 맨 위에 캔버스 위에 표시됩니다.
 
-![](assets/journeyversions1.png)
+![게시된 버전과 초안 버전을 표시하는 여정 버전 목록](assets/journeyversions1.png)
 
 >[!NOTE]
 >
@@ -64,7 +64,7 @@ ht-degree: 42%
 
 1. 최신 버전의 라이브 여정을 열고 **[!UICONTROL 새 버전 만들기]**&#x200B;를 클릭한 후 확인합니다.
 
-   ![](assets/journeyversions2.png)
+   ![여정 복제를 위한 새 버전 만들기 대화 상자](assets/journeyversions2.png)
 
    >[!NOTE]
    >
@@ -88,4 +88,4 @@ ht-degree: 42%
 
 이 비디오에서 여정을 게시하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3427937?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)

@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 자격, 이벤트, 대상, 여정, 플랫폼
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
-source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1226'
+source-wordcount: '1285'
 ht-degree: 6%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 6%
 
 1. **[!UICONTROL 이벤트]** 범주를 펼친 후 **[!UICONTROL 대상 자격]** 활동을 캔버스에 드롭하십시오.
 
-   ![](assets/segment5.png)
+   ![여정 팔레트의 대상 자격 이벤트](assets/segment5.png)
 
 1. 활동에 **[!UICONTROL Label]**&#x200B;을(를) 추가합니다. 데이터 소스에 이벤트에 설명을 추가합니다.
 
@@ -56,19 +56,19 @@ ht-degree: 6%
    >
    >목록에 표시되는 열을 사용자 지정하고 정렬할 수 있습니다.
 
-   ![](assets/segment6.png)
+   자격 이벤트 구성에 대한 ![대상 선택 드롭다운](assets/segment6.png)
 
    대상자가 추가되면 **[!UICONTROL 복사]** 버튼을 사용하여 해당 이름과 ID를 복사할 수 있습니다.
 
    `{"name":"Loyalty membership","id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
-   ![](assets/segment-copy.png)
+   ![대상 이름 및 ID를 JSON 형식으로 복사하는 복사 단추](assets/segment-copy.png)
 
 1. **[!UICONTROL 동작]** 필드에서 대상자 출입문, 종료 또는 둘 다 수신 여부를 선택합니다.
 
    >[!NOTE]
    >
-   >**[!UICONTROL Enter]** 및 **[!UICONTROL Exit]**&#x200B;은(는) Adobe Experience Platform의 **실현됨** 및 **종료됨** 대상자 참여 상태에 해당합니다. 대상자를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ko#interpret-segment-results){target="_blank"}를 참조하세요.
+   >**[!UICONTROL Enter]** 및 **[!UICONTROL Exit]**&#x200B;은(는) Adobe Experience Platform의 **실현됨** 및 **종료됨** 대상자 참여 상태에 해당합니다. 대상자를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}를 참조하세요.
 
 1. 네임스페이스를 선택합니다. 이는 이벤트가 여정의 첫 번째 단계로 배치되는 경우에만 필요합니다. 기본적으로 필드는 마지막으로 사용된 네임스페이스로 미리 채워집니다.
 
@@ -76,7 +76,7 @@ ht-degree: 6%
    >
    >사용자 기반 ID 네임스페이스만 선택할 수 있습니다. 조회 테이블에 대한 네임스페이스를 정의한 경우(예: 제품 조회에 대한 ProductID 네임스페이스) **네임스페이스** 드롭다운 목록에서 사용할 수 없습니다.
 
-   ![](assets/segment7.png)
+   ![대상 자격 ID에 대한 네임스페이스 선택](assets/segment7.png)
 
 페이로드에는 조건 및 작업에서 사용할 수 있는 다음 컨텍스트 정보가 포함됩니다.
 
@@ -88,7 +88,7 @@ ht-degree: 6%
 
 [조건 활동](../building-journeys/condition-activity.md#about_condition)을 참조하세요.
 
-![](assets/segment8.png)
+![이벤트 설정의 대상자 시작 및 종료 구성](assets/segment8.png)
 
 **대상 자격** 이벤트를 포함하는 새 여정은 게시한 후 10분 후에 작동합니다. 이 시간 간격은 전용 서비스의 캐시 새로 고침 간격에 해당합니다. 따라서 이 여정을 사용하기 전에 10분 정도 기다려야 합니다.
 
@@ -110,7 +110,7 @@ ht-degree: 6%
 
 스트리밍 세분화를 통해 열기 및 보내기 이벤트를 사용하지 마십시오. 대신 클릭, 구매 또는 비콘 데이터와 같은 실제 사용자 활동 신호를 사용합니다. 빈도 또는 제외 논리의 경우 이벤트를 보내는 대신 비즈니스 규칙을 사용합니다. [자세히 알아보기](../audience/about-audiences.md)
 
-스트리밍 세분화에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}를 참조하세요.
+스트리밍 세분화에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}를 참조하세요.
 
 ### 오버로드를 방지하는 방법 {#overloads-speed-segment-qualification}
 
@@ -118,13 +118,13 @@ ht-degree: 6%
 
 * **[!UICONTROL 대상 자격]** 활동에서 일괄 처리 대상을 만든 후 바로 사용하지 마십시오. 이렇게 하면 첫 번째 계산 피크가 나타나지 않습니다. 계산된 적이 없는 대상을 사용하려는 경우 여정 캔버스에 노란색 경고가 표시됩니다.
 
-  ![](assets/segment-error.png)
+  ![Adobe Experience Platform에서 대상을 찾을 수 없는 경우 오류 메시지](assets/segment-error.png)
 
-* 여정에서 사용되는 데이터 소스 및 작업에 대한 최대 가용량 규칙을 적용하여 오버로드를 방지합니다. 자세한 내용은 [Journey Orchestration 설명서](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=ko){target="_blank"}를 참조하세요. 최대 가용량 규칙에는 재시도가 없습니다. 다시 시도해야 하는 경우 **[!UICONTROL 조건 또는 작업에서 시간 초과 또는 오류 발생 시 대체 경로를 추가]** 상자를 선택하여 여정에서 대체 경로를 사용하십시오.
+* 여정에서 사용되는 데이터 소스 및 작업에 대한 최대 가용량 규칙을 적용하여 오버로드를 방지합니다. 자세한 내용은 [Journey Orchestration 설명서](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}를 참조하세요. 최대 가용량 규칙에는 재시도가 없습니다. 다시 시도해야 하는 경우 **[!UICONTROL 조건 또는 작업에서 시간 초과 또는 오류 발생 시 대체 경로를 추가]** 상자를 선택하여 여정에서 대체 경로를 사용하십시오.
 
 * 프로덕션 여정에서 대상을 사용하기 전에 매일 이 대상에 대해 자격이 있는 개인의 양을 평가하십시오. 이렇게 하려면 **[!UICONTROL 대상자]** 메뉴를 확인하고 대상자를 연 다음 **[!UICONTROL 시간 경과에 따른 프로필]** 그래프를 보십시오.
 
-  ![](assets/segment-overload.png)
+  ![실시간 처리에 너무 많은 이벤트가 있는 경우 경고 메시지](assets/segment-overload.png)
 
 [이 섹션](entry-management.md#profile-entrance-rate)에서 진입률 제한 및 처리량에 대해 자세히 알아보세요.
 
@@ -164,4 +164,4 @@ ht-degree: 6%
 
 이 비디오에서 대상 자격 여정에 적용할 수 있는 사용 사례를 이해합니다. 대상 검증을 사용하여 여정을 구축하는 방법 및 적용할 모범 사례를 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446211?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)

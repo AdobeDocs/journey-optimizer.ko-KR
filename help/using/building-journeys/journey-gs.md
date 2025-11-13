@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 여정, 첫 번째, 시작, 빠른 시작, 대상, 이벤트, 작업
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '875'
-ht-degree: 24%
+source-wordcount: '915'
+ht-degree: 23%
 
 ---
 
@@ -78,7 +78,7 @@ Adobe Journey Optimizer에는 마케팅 활동과 일대일 고객 참여를 조
 
 1. 여정의 구성 창을 편집하여 여정 이름을 정의하고 속성을 설정합니다. [이 여정](journey-properties.md)에서 페이지의 속성을 설정하는 방법을 알아보세요.
 
-   ![](assets/jo-properties.png)
+   설정 및 구성 옵션이 있는 ![여정 속성 패널](assets/jo-properties.png)
 
 그런 다음 여정 디자인을 시작할 수 있습니다.
 
@@ -86,29 +86,29 @@ Adobe Journey Optimizer에는 마케팅 활동과 일대일 고객 참여를 조
 
 옴니채널 여정 디자이너를 통해 타기팅된 대상자, 실시간 고객 또는 비즈니스 상호 작용을 기반으로 하는 업데이트 및 직관적인 드래그 앤 드롭 인터페이스를 사용한 옴니채널 메시지를 통해 여러 단계로 구성된 여정을 작성할 수 있습니다.
 
-![](assets/journey38.png)
+![활동 팔레트 및 캔버스가 있는 여정 디자이너 인터페이스](assets/journey38.png)
 
 1. 팔레트에서 캔버스로 이벤트 또는 **대상자 읽기** 활동을 끌어다 놓는 것으로 시작합니다. 여정 디자인에 대한 자세한 내용은 [이 섹션](using-the-journey-designer.md)을 참조하세요.
 
-   ![](assets/read-segment.png)
+   ![대상 대상을 선택하기 위한 대상 활동 구성 읽기](assets/read-segment.png)
 
 1. 이벤트 또는 **대상자 읽기** 활동을 팔레트에서 캔버스로 끌어서 놓습니다. 여정 디자인에 대한 자세한 내용은 [이 섹션](using-the-journey-designer.md)을 참조하세요.
 
 ## 여정 테스트 {#jo-test}
 
-여정을 빌드했으면 게시하기 전에 테스트합니다. Journey Optimizer은 여정을 따라 이동하면서 테스트 프로필을 볼 수 있는 방법으로 **테스트 모드**&#x200B;를 제공하여 활성화 전에 잠재적인 오류를 감지합니다. 빠른 테스트를 실행하면 여정이 올바르게 작동하여 안심하고 게시할 수 있습니다. 이 섹션[에서 여정 &#x200B;](testing-the-journey.md)을(를) 테스트하는 방법을 알아보세요.
+여정을 빌드했으면 게시하기 전에 테스트합니다. Journey Optimizer은 여정을 따라 이동하면서 테스트 프로필을 볼 수 있는 방법으로 **테스트 모드**&#x200B;를 제공하여 활성화 전에 잠재적인 오류를 감지합니다. 빠른 테스트를 실행하면 여정이 올바르게 작동하여 안심하고 게시할 수 있습니다. 이 섹션[에서 여정 ](testing-the-journey.md)을(를) 테스트하는 방법을 알아보세요.
 
-**시험 실행**&#x200B;에서도 여정을 실행할 수 있습니다. 여정 시험 실행은 Adobe Journey Optimizer의 특별한 여정 게시 모드로, 이를 통해 여정 실무자가 실제 고객과 연락하거나 프로필 정보를 업데이트하지 않고도 실제 프로덕션 데이터를 사용하여 여정을 테스트할 수 있습니다. 이 기능은 여정 제공자가 라이브로 게시하기 전에 여정 디자인 및 대상 타깃팅에 대한 자신감을 갖도록 도와줍니다. 이 섹션[에서 여정을 시험 실행 모드 &#x200B;](journey-dry-run.md)에 게시하는 방법을 알아봅니다.
+**시험 실행**&#x200B;에서도 여정을 실행할 수 있습니다. 여정 시험 실행은 Adobe Journey Optimizer의 특별한 여정 게시 모드로, 이를 통해 여정 실무자가 실제 고객과 연락하거나 프로필 정보를 업데이트하지 않고도 실제 프로덕션 데이터를 사용하여 여정을 테스트할 수 있습니다. 이 기능은 여정 제공자가 라이브로 게시하기 전에 여정 디자인 및 대상 타깃팅에 대한 자신감을 갖도록 도와줍니다. 이 섹션[에서 여정을 시험 실행 모드 ](journey-dry-run.md)에 게시하는 방법을 알아봅니다.
 
 ## 여정 게시 {#jo-pub}
 
 여정을 활성화하려면 게시를 하고 새 프로필에서 입력할 수 있도록 해야 합니다. 여정을 게시하기 전에 유효하고 오류가 없는지 확인하십시오. 오류가 있는 여정은 게시할 수 없습니다. 이 [섹션](publish-journey.md)에서 여정 게시에 대해 자세히 알아보세요.
 
-![](assets/jo-journeyuc2_32bis.png)
+![대상, 조건 및 동작이 포함된 여정 흐름 완료](assets/jo-journeyuc2_32bis.png)
 
 게시되면 전용 보고 도구를 사용하여 여정을 모니터링하여 여정의 효과를 측정할 수 있습니다.
 
-![](assets/jo-dynamic_report_journey_12.png)
+![성능 지표 및 통계를 보여 주는 여정 분석 보고서](assets/jo-dynamic_report_journey_12.png)
 
 이 [섹션](../reports/live-report.md)에서 여정 보고서에 대해 자세히 알아보세요.
 

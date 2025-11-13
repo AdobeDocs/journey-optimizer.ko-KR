@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 프로필, 업데이트, 여정, 활동
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 6%
+source-wordcount: '669'
+ht-degree: 5%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 6%
 * 다른 작업과 마찬가지로 오류나 시간 초과 시 대체 경로를 정의할 수 있으며 두 작업을 동시에 배치할 수는 없습니다.
 * Adobe Experience Platform에 전송된 업데이트 요청은 즉시/1초 이내에 수행됩니다. 보통 몇 초는 걸리지만, 어떤 때는 보장이 없이 더 걸릴 수도 있습니다. 따라서, 예를 들어 작업이 바로 앞에 배치된 **프로필 업데이트** 작업에 의해 업데이트된 &quot;필드 1&quot;을 사용하는 경우 작업에서 &quot;필드 1&quot;이 업데이트될 것으로 예상해서는 안 됩니다.
 * **프로필 업데이트** 활동은 열거형 또는 제안 값으로 정의된 XDM 필드를 지원하지 않습니다.
-* **[!UICONTROL 프로필 업데이트]** 활동은 데이터 레이크가 아닌 [프로필 저장소](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko#profile-data-store){target="_blank"}만 업데이트합니다.
+* **[!UICONTROL 프로필 업데이트]** 활동은 데이터 레이크가 아닌 [프로필 저장소](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}만 업데이트합니다.
 
 ## 데이터 세트 선택 {#dataset-selection}
 
@@ -48,13 +48,13 @@ ht-degree: 6%
 
 1. 팔레트의 **작업** 섹션에서 **프로필 업데이트** 활동을 캔버스에 놓습니다.
 
-   ![](assets/profileupdate0.png)
+   ![작업 아래의 여정 팔레트에서 프로필 활동 업데이트](assets/profileupdate0.png)
 
 1. 목록에서 스키마를 선택합니다.
 
 1. 업데이트할 필드를 선택하려면 **필드**&#x200B;를 클릭하십시오. 필드는 하나만 선택할 수 있습니다.
 
-   ![](assets/profileupdate2.png)
+   필드 선택 드롭다운이 있는 ![프로필 업데이트 구성 패널](assets/profileupdate2.png)
 
 1. 목록에서 데이터 세트를 선택합니다.
 
@@ -66,15 +66,15 @@ ht-degree: 6%
 
    * 단순 표현식 편집기를 사용하여 데이터 소스 또는 수신 이벤트에서 필드를 선택할 수 있습니다.
 
-     ![](assets/profileupdate4.png)
+     ![프로필 특성 업데이트에 대한 단순 모드 필드 선택기](assets/profileupdate4.png)
 
    * 특정 값을 정의하거나 고급 함수를 사용하려면 **고급 모드**&#x200B;를 선택하십시오.
 
-     ![](assets/profileupdate3.png)
+     ![복잡한 프로필 업데이트를 위한 고급 모드 식 편집기](assets/profileupdate3.png)
 
 이제 **프로필 업데이트**&#x200B;가 구성되었습니다.
 
-![](assets/profileupdate1.png)
+![필드 구성이 있는 여정의 프로필 업데이트 활동](assets/profileupdate1.png)
 
 
 ## 테스트 모드 사용 {#using-the-test-mode}

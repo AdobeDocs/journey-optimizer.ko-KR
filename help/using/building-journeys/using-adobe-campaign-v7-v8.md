@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 여정, 통합, campaign, v7, v8
 exl-id: 3da712e7-0e08-4585-8ca4-b6ff79df0b68
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 31%
+source-wordcount: '207'
+ht-degree: 30%
 
 ---
 
@@ -36,4 +36,4 @@ Journey Optimizer 인스턴스와 Campaign 인스턴스 간의 연결은 프로�
 1. 팔레트의 **작업** 섹션에서 캠페인 작업을 선택하고 여정에 추가합니다.
 1. **작업 매개 변수**&#x200B;에 메시지 페이로드에 필요한 모든 필드가 표시됩니다. 이러한 각 필드를 이벤트 또는 데이터 소스에서 사용할 필드에 매핑해야 합니다. 이는 사용자 지정 작업과 유사합니다. 이 [섹션](../building-journeys/using-custom-actions.md)을 참조하십시오.
 
-![](assets/accintegration2.png)
+![Adobe Campaign v7/v8 작업 구성 및 통합 설정](assets/accintegration2.png)

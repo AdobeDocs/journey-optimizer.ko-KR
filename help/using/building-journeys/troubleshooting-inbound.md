@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 인바운드 작업, 문제 해결, 여정, 디버그, 자가 도움말, 확인, 오류
 exl-id: 5c56786f-da22-4558-b2ae-01f762175a7f
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1654'
+source-wordcount: '1731'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 문제 해결을 시작하기 전에 다음을 확인하십시오.
 
-1. **Assurance** 세션을 설정합니다. [Adobe Experience Platform Assurance 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}에서 방법을 알아보세요.
+1. **Assurance** 세션을 설정합니다. [Adobe Experience Platform Assurance 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}에서 방법을 알아보세요.
 
 1. 여정 이름과 버전 ID를 검색하려면 인바운드 작업이 포함된 여정으로 이동합니다.
 
@@ -41,13 +41,13 @@ ht-degree: 1%
    >
    >여정 버전 ID는 &#39;여정/&#39; 다음의 URL에서 찾을 수 있습니다(예: *86232fb1-2932-4036-8198-55dfec606fd7*).
 
-   ![](assets/troubleshoot-inbound-retrieve-journey-id.png)
+   ![여정 URL 또는 여정 패널의 속성 ID 위치](assets/troubleshoot-inbound-retrieve-journey-id.png)
 
 1. 인바운드 작업을 클릭하여 세부 사항을 확인합니다. 인바운드 작업 레이블 및 ID를 검색합니다.
 
-   ![](assets/troubleshoot-inbound-retrieve-action-id.png)
+   ![활동 구성 패널 코드 보기의 작업 ID](assets/troubleshoot-inbound-retrieve-action-id.png)
 
-1. 프로필 네임스페이스 및 ID를 가져와서 문제가 발생하는 프로필을 식별합니다. 구성에 따라 네임스페이스는 ECID, 이메일 또는 고객 ID 등이 될 수 있습니다. [Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}에서 프로필을 찾는 방법에 대해 알아보세요.
+1. 프로필 네임스페이스 및 ID를 가져와서 문제가 발생하는 프로필을 식별합니다. 구성에 따라 네임스페이스는 ECID, 이메일 또는 고객 ID 등이 될 수 있습니다. [Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}에서 프로필을 찾는 방법에 대해 알아보세요.
 
 ## 시나리오 1: 사용자가 인바운드 콘텐츠를 받지 못했습니다. {#scenario-1}
 
@@ -62,13 +62,13 @@ ht-degree: 1%
 
 2. **&#39;joai&#39; id가 플랫폼 id에 정의됨**
 
-   인바운드 작업에서는 **프로필의** joai`segmentMembership` 네임스페이스를 사용하여 인바운드 단계에 대한 프로필을 활성화합니다. 샌드박스의 Platform ID에서 정의되었는지 확인합니다. [Experience Platform ID 서비스](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/home){target="_blank"}에 대해 자세히 알아보기
+   인바운드 작업에서는 **프로필의** joai`segmentMembership` 네임스페이스를 사용하여 인바운드 단계에 대한 프로필을 활성화합니다. 샌드박스의 Platform ID에서 정의되었는지 확인합니다. [Experience Platform ID 서비스](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home){target="_blank"}에 대해 자세히 알아보기
 
 ### 디버깅 단계 {#debugging-steps}
 
 아래 차트는 따를 수 있는 디버깅 단계의 순서를 보여 줍니다.
 
-![](assets/troubleshoot-inbound-scenario-1-steps.png){width="70%" align="center"}
+![인바운드 메시지에 대한 문제 해결 워크플로우가 표시되지 않음: 여정, Edge 게재 및 프로필 확인](assets/troubleshoot-inbound-scenario-1-steps.png){width="70%" align="center"}
 
 ### 1단계: 장치/클라이언트가 Edge Network에서 콘텐츠를 수신하고 있는지 확인 {#step-1}
 
@@ -78,11 +78,11 @@ ht-degree: 1%
 
 >[!TAB 인앱 채널]
 
-1. [Assurance](https://experienceleague.adobe.com/ko/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} 세션으로 이동하여 왼쪽 패널에서 **[!UICONTROL 인앱 메시지]** 섹션을 선택합니다.
+1. [Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} 세션으로 이동하여 왼쪽 패널에서 **[!UICONTROL 인앱 메시지]** 섹션을 선택합니다.
 
 1. **[!UICONTROL 장치의 메시지]** 탭에서 **[!UICONTROL 메시지]** 드롭다운 목록을 클릭합니다.
 
-   ![](assets/troubleshoot-inbound-assurance-in-app.png){width="80%"}
+   ![인앱 메시지 게재 이벤트 및 데이터를 표시하는 Adobe Assurance 보기](assets/troubleshoot-inbound-assurance-in-app.png){width="80%"}
 
 1. 여정 이름 뒤에 &#39;- 인앱 메시지&#39;가 오는 메시지를 찾습니다. 존재하는 경우 인앱 메시지가 장치/클라이언트에 있으며 문제는 인앱 트리거와 관련될 수 있음을 의미합니다.
 
@@ -90,11 +90,11 @@ ht-degree: 1%
 
 >[!TAB 웹 채널]
 
-페이지를 방문하여 네트워킹 탭을 검사하거나 **[!UICONTROL Assurance]** 세션의 [Edge Delivery](https://experienceleague.adobe.com/ko/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} 섹션에서 Edge 응답 페이로드를 확인하십시오.
+페이지를 방문하여 네트워킹 탭을 검사하거나 **[!UICONTROL Assurance]** 세션의 [Edge Delivery](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} 섹션에서 Edge 응답 페이로드를 확인하십시오.
 
 >[!TAB 코드 기반 경험 채널]
 
-[Adobe의 API](https://developer.adobe.com/data-collection-apis/docs/api/)를 사용하여 CURL 요청을 수행하고 **[!UICONTROL Assurance]** 세션의 [Edge Delivery](https://experienceleague.adobe.com/ko/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} 섹션에서 Edge 응답 페이로드를 확인합니다.
+[Adobe의 API](https://developer.adobe.com/data-collection-apis/docs/api/)를 사용하여 CURL 요청을 수행하고 **[!UICONTROL Assurance]** 세션의 [Edge Delivery](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} 섹션에서 Edge 응답 페이로드를 확인합니다.
 
 >[!ENDTABS]
 
@@ -112,7 +112,7 @@ Edge Network 동작을 디버깅하려면 아래 단계를 수행합니다.
 
 1. 인바운드 동작에 해당하는 Edge 활동이 **[!UICONTROL 자격 있는 활동]** 또는 **[!UICONTROL 자격 없는 활동]** 섹션에 나열되는지 확인하십시오.
 
-   ![](assets/troubleshoot-inbound-edge-delivery.png)
+   ![프로필에 전송된 메시지 제안을 표시하는 Edge 게재 로그](assets/troubleshoot-inbound-edge-delivery.png)
 
    * **적격 활동** 섹션에서 인바운드 여정 작업에 대해 적격한 프로필과 콘텐츠를 반환해야 합니다.
    * **정규화되지 않은 활동** 섹션에서 프로필이 인바운드 여정 작업에 적합하지 않은 경우 자세한 내용은 제외 이유 를 참조하십시오.
@@ -122,13 +122,13 @@ Edge Network 동작을 디버깅하려면 아래 단계를 수행합니다.
    >
    >**Assurance** 세션에서 Edge 활동을 찾으려면 **[!UICONTROL audienceNamespace]**&#x200B;이 **joai**&#x200B;이고 **[!UICONTROL audienceSegmentId]**&#x200B;이 &lt;*JourneyVersionID*>_&lt;*JourneyActionID*>인 활동을 찾으십시오(예: *86232fb1-2932-4036-8198-55dfec606fd7_708f718d-8503-4427-ad8d-8e28979b554c*).
 
-   ![](assets/troubleshoot-inbound-edge-delivery-unqualified.png){width="70%"}
+   ![프로필을 표시하는 Edge 게재 오류가 메시지에 적합하지 않습니다](assets/troubleshoot-inbound-edge-delivery-unqualified.png){width="70%"}
 
 1. 활동이 **[!UICONTROL 정규화되지 않은 활동]** 섹션에 있고 제외 이유가 *&#39;세그먼트가 활성화되지 않음&#39;*&#x200B;인 경우 Edge Network 게재 서버는 프로필이 관련 **joai** 대상 세그먼트에 속하지 않는다고 생각합니다.
 
    프로필 섹션의 **segmentsMap** 요소를 열고 **joai** 세그먼트 ID가 있는지 확인하여 **joai** 세그먼트가 Edge Network 게재 서버의 프로필 보기에 있는지 다시 확인할 수 있습니다.
 
-1. Edge Network 게재 서버에서 프로필을 관련 **joai** 세그먼트에 있는 것으로 보지 않으면 다음 단계로 이동하십시오.<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
+1. Edge Network 게재 서버에서 프로필을 관련 **joai** 세그먼트에 있는 것으로 보지 않으면 다음 단계로 이동하십시오.<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
 
 ### 3단계: &#39;joai&#39; 대상 멤버십이 Edge Network에 전파되었는지 확인 {#step-3}
 
@@ -148,11 +148,11 @@ Edge 프로필의 **특성에** joai`segmentMembership` 세그먼트가 있는�
 
 1. **[!UICONTROL JSON 보기]**&#x200B;를 클릭하여 프로필에 대한 JSON 보기를 엽니다.
 
-   ![](assets/troubleshoot-inbound-profile-view-json.png){width="80%"}
+   ![JSON 형식의 프로필 속성 보기로 대상 멤버십 상태 표시](assets/troubleshoot-inbound-profile-view-json.png){width="80%"}
 
 1. `segmentMembership` 특성으로 이동하여 세그먼트 ID &lt;*JourneyVersionID>*_&lt;*JourneyActionID*>이(가) **joai** 네임스페이스에 있는지, **[!UICONTROL 실현됨]** <!--or existing?-->상태에 있는지 확인하십시오.
 
-   ![](assets/troubleshoot-inbound-profile-json-realized.png){width="90%"}
+   ![타임스탬프가 있는 실현된 대상 멤버십을 표시하는 프로필 JSON](assets/troubleshoot-inbound-profile-json-realized.png){width="90%"}
 
    * 존재하는 경우 인바운드 여정 작업에 해당하는 **joai** 세그먼트가 Edge 프로필에 올바르게 전파되었습니다.
 
@@ -216,8 +216,8 @@ Hub 프로필의 **특성에** joai`segmentMembership` 세그먼트가 있는지
 
 ## Reference Section {#reference-section}
 
-- [Assurance Setup Guide](https://experienceleague.adobe.com/ko/docs/experience-platform/assurance/tutorials/using-assurance)
+- [Assurance Setup Guide](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance)
 - [Adobe Experience Platform Documentation](https://experienceleague.adobe.com/docs/experience-platform/home.html)
-- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=ko)
+- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html)
 
 -->

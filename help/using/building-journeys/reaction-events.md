@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 여정, 이벤트, 반응, 추적, 플랫폼
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '387'
 ht-degree: 20%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 20%
 
 [작업 활동 정보](../building-journeys/about-journey-activities.md#action-activities)를 참조하세요.
 
-![](assets/journey45.png)
+![채널 선택 및 이벤트 유형 옵션을 사용한 반응 이벤트 구성](assets/journey45.png)
 
 반응 이벤트를 구성하는 여러 단계는 다음과 같습니다.
 

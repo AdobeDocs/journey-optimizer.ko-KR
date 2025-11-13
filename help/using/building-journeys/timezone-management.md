@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 시간대, 속성, 여정, 조건, 시간, 날짜, 사용자 정의
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 28%
+source-wordcount: '375'
+ht-degree: 27%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 28%
 
 이렇게 하려면 **[!UICONTROL 여정 속성]** 창에서 표준 시간대를 선택하십시오.
 
-![](assets/journey72.png)
+![여정 속성의 시간대 선택 드롭다운](assets/journey72.png)
 
 ## 프로필 시간대 사용 {#timezone-from-profiles}
 
@@ -60,7 +60,7 @@ ht-degree: 28%
 
 프로필에 대해 시간대가 정의된 경우 여정은 해당 시간대를 검색하고 이를 사용하게 됩니다. 시간대가 정의되어 있지 않으면 사용된 시간대는 시간대 필드에 정의된 시간대가 됩니다.
 
-![](assets/journey73.png)
+![개인 맞춤화된 타이밍에 대한 데이터 원본의 표준 시간대 구성 프로필](assets/journey73.png)
 
 >[!NOTE]
 >

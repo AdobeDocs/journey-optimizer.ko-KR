@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 여정, 메시지, 푸시, sms, 이메일, 인앱, 웹, 콘텐츠 카드, 코드 기반 경험
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '988'
-ht-degree: 16%
+source-wordcount: '1050'
+ht-degree: 15%
 
 ---
 
@@ -50,17 +50,17 @@ ht-degree: 16%
 
 1. 여정에서 활용할 기본 제공 채널 활동을 선택합니다.
 
-   ![](assets/journey-action-type-cbe.png)
+   채널 동작 및 사용자 지정 동작 옵션을 표시하는 ![동작 유형 드롭다운](assets/journey-action-type-cbe.png)
 
 1. 작업에 레이블을 추가하고 **[!UICONTROL 작업 구성]**&#x200B;을(를) 선택합니다.
 
-   ![](assets/journey-action-configure.png){width="80%"}
+   레이블 및 설명 필드가 있는 ![작업 활동 구성 창](assets/journey-action-configure.png){width="80%"}
 
 1. 여정 작업 구성 화면의 **[!UICONTROL 작업]** 탭으로 이동합니다.
 
    선택한 채널에 사용할 구성을 선택합니다.
 
-   ![](assets/journey-action-actions-tab.png)
+   사용자 지정 및 Adobe 작업을 표시하는 관리 메뉴의 ![작업 탭](assets/journey-action-actions-tab.png)
 
 1. 인바운드 채널을 선택한 경우 여러 작업을 추가할 수 있습니다. [자세히 알아보기](#multi-action)
 
@@ -102,7 +102,7 @@ ht-degree: 16%
 
 빠른 게재는 메시지 게재 지연이 비즈니스에 중요한 경우, 휴대폰에 긴급 푸시 알림(예: 뉴스 채널 앱을 설치한 사용자에게 속보)을 전송하려는 경우 사용됩니다.
 
-푸시 알림에 대해 빠른 전송 모드를 사용하는 방법을 알아봅니다. [&#x200B; 이 페이지](../push/create-push.md#rapid-delivery).
+푸시 알림에 대해 빠른 전송 모드를 사용하는 방법을 알아봅니다. [ 이 페이지](../push/create-push.md#rapid-delivery).
 
 빠른 전송 모드를 사용할 때의 성능에 대한 자세한 내용은 [Adobe Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}을 참조하십시오.
 
@@ -159,15 +159,15 @@ ht-degree: 16%
 
 1. **[!UICONTROL 여러 작업]**&#x200B;을(를) 작업 유형으로 선택합니다.
 
-   ![](assets/journey-multi-action.png)
+   ![오케스트레이션 아래의 여정 팔레트에서 다중 작업 활동](assets/journey-multi-action.png)
 
 1. 필요한 경우 레이블을 추가하고 **[!UICONTROL 작업 구성]**&#x200B;을(를) 선택합니다.
 
-   ![](assets/journey-multi-action-configure.png){width="60%"}
+   레이블 및 설명 필드가 있는 ![다중 작업 구성 창](assets/journey-multi-action-configure.png){width="60%"}
 
 1. 여정 작업 구성 화면의 **[!UICONTROL 작업]** 탭으로 이동합니다.
 
-   ![](assets/journey-multi-action-configuration.png){width="70%"}
+   실행할 작업 목록을 표시하는 ![다중 작업 구성](assets/journey-multi-action-configuration.png){width="70%"}
 
 1. **작업** 섹션에서 인바운드 작업(**코드 기반 경험**, **인앱 메시지**, **콘텐츠 카드** 또는 **[!UICONTROL 웹]**)을 선택하십시오.
 
@@ -175,7 +175,7 @@ ht-degree: 16%
 
 1. **[!UICONTROL 작업 추가]** 단추를 사용하여 드롭다운 목록에서 다른 인바운드 작업을 선택합니다.
 
-   ![](assets/journey-multi-action-add.png){width="80%"}
+   ![다중 작업 활동에 추가 작업을 포함하는 작업 추가 단추](assets/journey-multi-action-add.png){width="80%"}
 
 1. 작업을 추가하려면 유사하게 진행합니다. 여정 작업 그룹에 최대 10개의 인바운드 작업을 추가할 수 있습니다.
 

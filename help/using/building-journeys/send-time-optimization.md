@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 전송 시간, 전송, 메시지, 최적화, 여정, AI, 지능형
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 version: Journey Orchestration
-source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1520'
+source-wordcount: '1546'
 ht-degree: 9%
 
 ---
@@ -49,7 +49,7 @@ Adobe Journey Optimizer의 여정 AI 서비스를 기반으로 하는 Adobe의 �
 
 작업 매개 변수에서 전송 시간 최적화 스위치를 켜서 이메일 또는 푸시 작업에서 전송 시간 최적화를 사용합니다.
 
-![](assets/jo-message5.png)
+![전자 메일 채널 구성의 전송 시간 최적화 전환](assets/jo-message5.png)
 
 주문 확인, 암호 재설정 알림 또는 플라이트 게이트 변경 알림과 같이 시간에 민감한 긴급 운영 메시지에는 전송 시간 최적화를 사용할 수 없습니다. 전송 시간 최적화는 주별 광고, 새 제품에 대한 프로모션 정보 또는 한 달 동안의 판매 정보와 같이 덜 긴급한 마케팅 커뮤니케이션에 가장 잘 사용됩니다.
 
@@ -80,11 +80,11 @@ Adobe Journey Optimizer의 여정 AI 서비스를 기반으로 하는 Adobe의 �
 
 이러한 예측은 베이지안 접근 방식을 사용하여 가중치가 부여되고 결합되므로 아래 예제 히트맵에서 보듯이 각 고객에 대해 해당 사용자에게 연락하여 원하는 참여 결과(열기/클릭)를 얻을 가능성이 가장 높고 가장 적은 주의 시간을 나타내는 각 지표(이메일 열기, 이메일 클릭 수 및 푸시 열기)에 대한 &quot;히트맵&quot;이 생성됩니다.
 
-![](assets/heatmap-1.png)
+![일별 및 시간별 이메일에 대한 최적의 전송 시간을 보여 주는 참여 히트맵](assets/heatmap-1.png)
 
 위에서 예측한 확률을 가진 사용자가 전송 시간 최적화가 켜지고 최대 대기 시간이 7시간인 수요일 오전 9시에 메시지를 타겟팅하는 경우 메시지에 대해 선택한 전송 시간은 오후 12시가 됩니다.
 
-![](assets/heatmap-2.png)
+![상세한 시간별 최적화 데이터가 포함된 참여 히트맵](assets/heatmap-2.png)
 
 ## 전송 시간 최적화 모델 교육 및 채점 세부 정보  {#model-send-time}
 
@@ -101,7 +101,7 @@ Adobe Journey Optimizer의 여정 AI 서비스를 기반으로 하는 Adobe의 �
 
 전송 시간 최적화에 대한 FAQ는 다음과 같습니다.
 
-세부 정보가 필요하십니까? 이 페이지 하단의 피드백 옵션을 사용하여 질문을 제기하거나 [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"}에 연결하세요.
+세부 정보가 필요하십니까? 이 페이지 하단의 피드백 옵션을 사용하여 질문을 제기하거나 [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}에 연결하세요.
 
 +++전송 시간 최적화를 사용하기 전에 얼마나 기다려야 합니까?
 

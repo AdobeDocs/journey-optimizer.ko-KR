@@ -9,9 +9,9 @@ level: Intermediate
 keywords: 재입력, 여정, 종료, 라이브, 중지
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '819'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 여정에 여러 개의 경로가 있는 경우 보고서를 더 쉽게 읽을 수 있도록 각 끝에 레이블을 추가하는 것이 좋습니다. [여정 보고서](../reports/live-report.md)에 대해 자세히 알아보세요.
 
-![](assets/journey-end.png)
+![여정 도구 모음의 여정 작업 단추 종료](assets/journey-end.png)
 
 ## 여정 닫기 {#close-journey}
 
@@ -69,14 +69,14 @@ ht-degree: 0%
 
 여정 목록에서 여정을 닫으려면 여정 이름 오른쪽에 있는 **[!UICONTROL 줄임표]** 단추를 클릭하고 **[!UICONTROL 새 출입구에 닫기]**&#x200B;를 선택합니다.
 
-![](assets/journey-finish-quick-action.png)
+![여정 종료에 대한 빠른 작업 메뉴의 작업 완료 드롭다운](assets/journey-finish-quick-action.png)
 
 다음 작업도 수행할 수 있습니다.
 
 1. **[!UICONTROL 여정]** 목록에서 닫을 여정을 클릭합니다.
 1. 오른쪽 상단에서 아래쪽 화살표를 클릭합니다.
 
-   ![](assets/finish_drop_down_list.png){width="50%" align="left" zoomable="yes"}
+   ![종료 여정 및 대체 작업을 표시하는 옵션 메뉴](assets/finish_drop_down_list.png){width="50%" align="left" zoomable="yes"}
 
 1. **[!UICONTROL 새 출입문 닫기]**&#x200B;를 클릭하고 대화 상자에서 확인합니다.
 
@@ -89,14 +89,14 @@ ht-degree: 0%
 
 예를 들어, 마케터가 여정이 잘못된 대상을 타기팅하거나 메시지를 전달해야 하는 사용자 지정 작업이 제대로 작동하지 않는다는 것을 인식하는 경우 여정을 중지할 수 있습니다. 여정 목록에서 여정을 중지하려면 여정 이름 오른쪽에 있는 **[!UICONTROL 줄임표]** 단추를 클릭하고 **[!UICONTROL 중지]**&#x200B;를 선택합니다.
 
-![](assets/journey-finish-quick-action.png)
+![여정 종료에 대한 빠른 작업 메뉴의 작업 완료 드롭다운](assets/journey-finish-quick-action.png)
 
 다음 작업도 수행할 수 있습니다.
 
 1. **[!UICONTROL 여정]** 목록에서 중지할 여정을 클릭합니다.
 1. 오른쪽 상단에서 아래쪽 화살표를 클릭합니다.
 
-   ![](assets/finish_drop_down_list2.png){width="50%" align="left" zoomable="yes"}
+   ![여정 닫기 및 정리 등 추가 완료 옵션](assets/finish_drop_down_list2.png){width="50%" align="left" zoomable="yes"}
 
 1. **[!UICONTROL 중지]**&#x200B;를 클릭하고 대화 상자에서 확인합니다.
 
@@ -104,4 +104,4 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->**[!DNL Manage journeys]** 높은 수준의 권한을 가진 사용자로 제한된 여정을 중지할 수 있는 권한. [!DNL Journey Optimizer]이 섹션[에서 &#x200B;](../administration/permissions-overview.md) 사용자의 액세스 권한 관리에 대해 자세히 알아보세요.
+>**[!DNL Manage journeys]** 높은 수준의 권한을 가진 사용자로 제한된 여정을 중지할 수 있는 권한. [!DNL Journey Optimizer]이 섹션[에서 ](../administration/permissions-overview.md) 사용자의 액세스 권한 관리에 대해 자세히 알아보세요.

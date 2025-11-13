@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 디자인, 캔버스, 여정, 인터페이스, 드래그, 놓기
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1644'
+source-wordcount: '1739'
 ht-degree: 5%
 
 ---
@@ -34,7 +34,7 @@ Adobe Journey Optimizer에는 마케팅 활동과 일대일 고객 참여를 조
 
 새 여정을 시작할 때 첫 번째 단계로 캔버스에 놓을 수 없는 요소는 숨겨집니다. 이는 모든 작업, 조건 활동, 대기 및 반응과 관련되어 있습니다.
 
-![](assets/journey38.png)
+![팔레트, 캔버스 및 속성 창이 있는 여정 디자이너 인터페이스](assets/journey38.png)
 
 왼쪽 상단의 **[!UICONTROL 항목 필터링]** 아이콘을 사용하면 다음 필터를 표시할 수 있습니다.
 
@@ -46,23 +46,23 @@ Adobe Journey Optimizer에는 마케팅 활동과 일대일 고객 참여를 조
 
 **canvas**&#x200B;은(는) 여정 디자이너의 중앙 영역입니다. 이 영역에서 활동을 삭제하고 구성할 수 있습니다. 캔버스에서 활동을 클릭하여 구성합니다. 오른쪽에 활동 구성 창이 열립니다.
 
-![](assets/journey39.png)
+오른쪽에 활동 구성 창이 열려 있는 ![여정 캔버스](assets/journey39.png)
 
 캔버스의 오른쪽 상단 모서리에 있는 **도구 모음**&#x200B;을(를) 사용하면 그리드를 표시/숨기고, 확대/축소하고, 캔버스의 스크린샷을 다운로드할 수 있습니다. 이 [섹션](../building-journeys/journey-properties.md#timeout_and_error)을 참조하세요.
 
 <!--and show/hide timeout and error paths-->
 
-![](assets/toolbar.png){width="70%" align="left"}
+![확대/축소, 격자 및 스크린샷 컨트롤이 있는 여정 도구 모음](assets/toolbar.png){width="70%" align="left"}
 
 팔레트에서 활동을 클릭하면 **활동 구성 창**&#x200B;이 나타납니다. 필수 필드를 입력합니다. 활동을 삭제하려면 **[!UICONTROL 삭제]** 아이콘을 클릭하십시오. **[!UICONTROL 취소]**&#x200B;를 클릭하여 수정 사항을 취소하거나 **[!UICONTROL 확인]**&#x200B;을 클릭하여 확인하십시오. 활동을 삭제하려면 하나의 활동(또는 여러 활동)을 선택하고 백스페이스 키를 누를 수도 있습니다. Esc 키를 누르면 활동 구성 창이 닫힙니다.
 
 기본적으로 읽기 전용 필드는 숨겨집니다. 읽기 전용 필드를 표시하려면 활동 구성 창의 왼쪽 상단에 있는 **읽기 전용 필드 표시** 아이콘을 클릭합니다. 이 설정은 모든 여정의 모든 활동에 적용됩니다.
 
-![](assets/journey59bis.png)
+![읽기 전용 필드 표시 옵션이 있는 활동 구성 창](assets/journey59bis.png)
 
 여정의 상태에 따라 오른쪽 상단 모서리에서 사용할 수 있는 단추를 사용하여 여정에서 다른 작업을 수행할 수 있습니다. **[!UICONTROL 게시]**, **[!UICONTROL 복제]**, **[!UICONTROL 삭제]**, **[!UICONTROL 테스트 모드]**, **[!UICONTROL 액세스 관리]**, **[!UICONTROL 경고]**. 이 단추는 활동을 선택하지 않은 경우에 나타납니다. 일부 단추가 컨텍스트에 따라 나타납니다. 테스트 모드가 활성화되면 테스트 모드 로그 버튼이 표시됩니다.
 
-![](assets/journey41.png)
+![여정 작업 단추: 게시, 복제, 삭제, 테스트 모드, 액세스 관리, 경고](assets/journey41.png)
 
 ## 여정 시작 {#start-your-journey}
 
@@ -112,7 +112,7 @@ Adobe Journey Optimizer에는 마케팅 활동과 일대일 고객 참여를 조
 
 활동에 대한 대체 동작을 추가하려면 활동 속성에서 **[!UICONTROL 시간 초과 또는 오류 발생 시 대체 경로 추가]** 상자를 선택합니다. 활동 뒤에 다른 경로가 추가됩니다. 시간 제한 기간은 [여정 속성](../building-journeys/journey-properties.md)에서 관리자가 정의합니다. 예를 들어 이메일을 보내는 데 너무 오래 걸리거나 오류가 있는 경우 푸시 알림을 전송하도록 결정할 수 있습니다.
 
-![](assets/journey42.png)
+![시간 초과 또는 오류 옵션 발생 시 대체 경로 추가](assets/journey42.png)
 
 다양한 활동(이벤트, 작업, 대기)을 사용하면 여러 경로를 뒤에 추가할 수 있습니다. 이렇게 하려면 활동 위에 커서를 놓고 &quot;+&quot; 기호를 클릭합니다. 이벤트 및 대기 활동만 동시에 설정할 수 있습니다. 여러 이벤트가 병렬로 설정된 경우 선택한 경로가 첫 번째 이벤트 발생 중 하나가 됩니다.
 
@@ -120,11 +120,11 @@ Adobe Journey Optimizer에는 마케팅 활동과 일대일 고객 참여를 조
 
 경로를 삭제하려면 해당 경로 위에 커서를 놓고 **[!UICONTROL 경로 삭제]** 아이콘을 클릭합니다.
 
-![](assets/journey42ter.png)
+![대체 경로를 제거할 경로 아이콘](assets/journey42ter.png)
 
 캔버스에서 두 활동의 연결이 끊기면 경고가 표시됩니다. 경고 아이콘 위에 커서를 놓으면 오류 메시지가 표시됩니다. 이 문제를 해결하려면 연결이 끊어진 활동을 이동하여 이전 활동에 연결하기만 하면 됩니다.
 
-![](assets/canvas-disconnected.png)
+![캔버스에서 연결이 끊어진 활동을 표시하는 경고 아이콘](assets/canvas-disconnected.png)
 
 ## 활동 복사 및 붙여넣기 {#copy-paste}
 
@@ -142,10 +142,10 @@ Adobe Journey Optimizer에는 마케팅 활동과 일대일 고객 참여를 조
 활동을 복사/붙여넣는 단계는 다음과 같습니다.
 
 1. 여정을 엽니다.
-1. 을(를) 클릭하는 동안 마우스를 이동하여 복사할 활동을 선택합니다. **Ctrl/Command** 키를 누른 채 각 활동을 클릭할 수도 있습니다. 모든 활동을 선택하려면 **Ctrl/Command+A**&#x200B;를 사용하십시오.
-   ![](assets/copy-paste1.png)
-1. **Ctrl/Command + C**&#x200B;을 누릅니다.
+1. 을(를) 클릭하는 동안 마우스를 이동하여 복사할 활동을 선택합니다. **Ctrl/Command** 키를 누른 채 각 활동을 클릭할 수도 있습니다. 모든 활동을 선택하려면 **Ctrl/Command+A**를 사용하십시오.
+   ![복사할 여정에서 여러 활동 선택](assets/copy-paste1.png)
+1. **Ctrl/Command + C**을 누릅니다.
 한 개의 활동만 복사하려는 경우 해당 활동을 클릭하고 활동 구성 창의 왼쪽 상단에 있는 **복사** 아이콘을 사용할 수 있습니다.
-   ![](assets/copy-paste2.png)
-1. 모든 여정에서 **Ctrl/Command+V**&#x200B;을 눌러 기존 노드에 연결하지 않고 활동을 붙여 넣습니다. 붙여넣은 활동은 동일한 순서로 배치됩니다. 붙여넣기 후에는 쉽게 이동할 수 있도록 활동이 선택된 상태로 유지됩니다. 빈 자리 표시자에 커서를 놓고 **Ctrl/Command + V**&#x200B;을 누를 수도 있습니다. 붙여넣은 활동은 노드에 연결됩니다.
-   ![](assets/copy-paste3.png)
+   ![활동 구성 창의 복사 아이콘](assets/copy-paste2.png)
+1. 모든 여정에서 **Ctrl/Command+V**&#x200B;을 눌러 기존 노드에 연결하지 않고 활동을 붙여 넣습니다. 붙여넣은 활동은 동일한 순서로 배치됩니다. 붙여넣기 후에는 쉽게 이동할 수 있도록 활동이 선택된 상태로 유지됩니다. 빈 자리 표시자에 커서를 놓고 **Ctrl/Command + V**을 누를 수도 있습니다. 붙여넣은 활동은 노드에 연결됩니다.
+   ![여정 캔버스에 붙여 넣은 활동을 연결할 준비가 되었습니다](assets/copy-paste3.png)

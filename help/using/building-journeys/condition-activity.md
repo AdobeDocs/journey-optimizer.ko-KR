@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 활동, 조건, 캔버스, 여정
 exl-id: 02de069c-3009-4105-aa98-c49959d3efda
 version: Journey Orchestration
-source-git-commit: dee9dc2c2229314940def5f0279699d877d50df6
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1560'
-ht-degree: 19%
+source-wordcount: '1652'
+ht-degree: 18%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 19%
 
 **조건** 활동을 사용하면 특정 기준에 따라 여러 경로를 만들어 개인이 여정을 어떻게 진행할지 정의할 수 있습니다. 또한 시간 초과나 오류를 처리하기 위한 대체 경로를 구성하여 원활한 환경을 보장할 수 있습니다.
 
-![](assets/journey49.png)
+![여러 경로 옵션이 있는 여정 캔버스의 조건 활동](assets/journey49.png)
 
 다음 유형의 조건을 사용할 수 있습니다.
 
@@ -42,7 +42,7 @@ ht-degree: 19%
 
 >[!NOTE]
 >
->[프로필 저장소](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko#profile-data-store){target="_blank"}에 두 개 이상의 교차 장치 ID가 포함된 프로필에 대해서는 조건 평가가 실패합니다.
+>[프로필 저장소](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}에 두 개 이상의 교차 장치 ID가 포함된 프로필에 대해서는 조건 평가가 실패합니다.
 
 ## 조건 경로 추가 및 관리 {#about_condition}
 
@@ -55,13 +55,13 @@ ht-degree: 19%
 
 여러 조건을 정의하려면 **[!UICONTROL 경로 추가]**&#x200B;를 클릭합니다. 각 조건에 대해 활동 후에 캔버스에 새 경로가 추가됩니다.
 
-![](assets/journey47.png)
+![추가 경로를 만들려면 조건 활동에 경로 단추를 추가하십시오.](assets/journey47.png)
 
 여정 디자인은 기능에 영향을 줍니다. 조건 후에 여러 개의 경로를 정의하면 첫 번째 적격 경로만 실행됩니다. 즉, 경로 우선순위를 서로 위나 아래에 배치하여 다르게 지정할 수 있습니다.
 
 첫 번째 경로의 조건인 &quot;사람은 VIP&quot;와 두 번째 경로의 조건인 &quot;사람은 남성&quot;의 예를 들어보자. 두 조건을 모두 충족하는 사람(VIP인 남성)이 이 단계를 통과하면 첫 번째 경로가 &quot;위&quot;이기 때문에 이 사람도 두 번째 경로에 자격이 되더라도 첫 번째 경로가 선택됩니다. 이 우선 순위를 변경하려면 활동을 다른 세로 순서로 이동하십시오.
 
-![](assets/journey48.png)
+![VIP 및 남성 조건을 보여 주는 경로 우선 순위](assets/journey48.png)
 
 **[!UICONTROL 위의 사례 이외의 다른 사례에 대한 경로 표시]**&#x200B;를 선택하여 정의된 조건에 적합하지 않은 대상에 대해 다른 경로를 만들 수 있습니다. 분할 조건에서는 이 옵션을 사용할 수 없습니다. [분할 비율](#percentage_split)을 참조하세요.
 
@@ -70,7 +70,7 @@ ht-degree: 19%
 * AND: 두 가지 기준의 교집합. 모든 기준과 일치하는 요소만 고려합니다.
 * 또는 두 가지 기준의 결합 두 기준 중 하나 이상에 일치하는 요소를 고려합니다.
 
-![](assets/journey64.png)
+![필드 선택 및 논리 연산자 AND를 표시하는 식 편집기](assets/journey64.png)
 
 [Adobe Experience Platform 세분화 서비스](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ko){target="_blank"}를 사용하여 대상을 만드는 경우 여정 조건에서 이를 활용할 수 있습니다. [조건에서 대상 사용](../building-journeys/condition-activity.md#using-a-segment)을 참조하세요.
 
@@ -93,7 +93,7 @@ ht-degree: 19%
 
 고급 표현식 편집기를 사용하여 컬렉션을 조작하거나 매개 변수를 전달해야 하는 데이터 소스를 사용하는 고급 조건을 설정할 수 있습니다. [자세히 알아보기](../datasource/external-data-sources.md).
 
-![](assets/journey50.png)
+![식 편집기를 사용한 데이터 Source 조건 구성](assets/journey50.png)
 
 ## 시간 조건 {#time_condition}
 
@@ -105,7 +105,7 @@ ht-degree: 19%
 >
 >* 기본적으로 **[!UICONTROL 시간 조건]**&#x200B;은(는) 00:00부터 12:00까지 시간 단위로 설정됩니다.
 
-![](assets/journey51.png)
+![시간 및 요일 필터를 사용한 시간 조건 설정](assets/journey51.png)
 
 세 가지 필터링 옵션을 사용할 수 있습니다.
 
@@ -123,7 +123,7 @@ ht-degree: 19%
 >
 >백분율 분할 조건에는 경로를 추가하는 버튼이 없습니다. 경로 수는 분할 수에 따라 달라집니다. 분할 조건에서는 발생할 수 없는 다른 사례에 대한 경로를 추가할 수 없습니다. 사람들은 항상 갈라진 길 중 하나로 갈 것이다.
 
-![](assets/journey52.png)
+![다중 경로 및 배포를 사용한 분할 구성 비율](assets/journey52.png)
 
 ## 날짜 조건 {#date_condition}
 
@@ -133,7 +133,7 @@ ht-degree: 19%
 >
 >시간대는 더 이상 조건에 따라 달라지지 않으며 이제 여정 속성의 여정 수준에서 정의됩니다. [이 페이지](../building-journeys/timezone-management.md)를 참조하십시오.
 
-![](assets/journey53.png)
+![날짜 범위 선택기를 사용한 날짜 조건 구성](assets/journey53.png)
 
 ## 프로필 상한 {#profile_cap}
 
@@ -160,7 +160,7 @@ ht-degree: 19%
 
 테스트 모드에서는 프로필 상한을 고려하지 않습니다.
 
-![](assets/profile-cap-condition.png)
+![최대 프로필 제한 설정이 있는 프로필 상한 조건](assets/profile-cap-condition.png)
 
 ## 조건에서 대상 사용 {#using-a-segment}
 
@@ -170,14 +170,14 @@ ht-degree: 19%
 
 1. 여정을 열고 **[!UICONTROL 조건]** 활동을 삭제하고 **데이터 Source 조건**&#x200B;을 선택하세요.
 
-   ![](assets/segment3.png)
+   ![조건 활동에서 데이터 Source 조건 선택](assets/segment3.png)
 
 1. 필요한 각 추가 경로에 대해 **[!UICONTROL 경로 추가]**&#x200B;를 클릭합니다. 각 경로에 대해 **[!UICONTROL 식]** 필드를 클릭합니다.
 
 1. 왼쪽에서 **[!UICONTROL 대상]** 노드를 펼칩니다. 조건에 사용할 대상을 끌어다 놓습니다. 기본적으로 대상의 조건은 true입니다.
 
-   ![](assets/segment4.png)
+   ![식 편집기의 대상 노드에서 대상 선택](assets/segment4.png)
 
    >[!NOTE]
    >
-   >대상자 참여 상태가 **실현됨**&#x200B;인 개인만 대상자의 구성원으로 간주됩니다. 대상자를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ko#interpret-segment-results){target="_blank"}를 참조하세요.
+   >대상자 참여 상태가 **실현됨**&#x200B;인 개인만 대상자의 구성원으로 간주됩니다. 대상자를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}를 참조하세요.

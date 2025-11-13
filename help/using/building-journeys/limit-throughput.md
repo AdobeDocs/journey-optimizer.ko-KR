@@ -9,9 +9,9 @@ level: Experienced
 keywords: 여정, 데이터 소스, 제한, 처리량, 사용자 지정, 작업
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
 version: Journey Orchestration
-source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '781'
 ht-degree: 3%
 
 ---
@@ -49,11 +49,11 @@ Adobe Journey Optimizer을 사용하면 전문가가 사용자 지정 작업 및
 > 초당 여정을 입력할 수 있는 최대 프로필 수입니다. 이 비율은 이 활동에만 적용되며 여정의 다른 활동에는 적용되지 않습니다. [자세히 보기](../building-journeys/read-audience.md)
 
 
-![](assets/limit-throughput-1.png)
+![속도 제한 설정이 있는 처리량 구성 패널 제한](assets/limit-throughput-1.png)
 
 이 값은 초당 500개에서 20,000개의 인스턴스로 수정할 수 있습니다. 500/s보다 낮아야 하는 경우 대기 활동과 함께 &quot;비율 분할&quot; 조건을 추가하여 여정을 여러 분기로 분할하고 특정 시간에 실행되도록 할 수도 있습니다.
 
-![](assets/limit-throughput-2.png)
+![메시지 배달 속도를 제어하는 처리량 제한 활동을 사용하는 여정](assets/limit-throughput-2.png)
 
 **10,000개 프로필**&#x200B;의 모집단으로 작업하고 **100개 요청/초**&#x200B;을 지원하는 외부 시스템에 데이터를 보내는 **대상자에서 트리거되는 여정**&#x200B;의 예를 살펴보겠습니다.
 

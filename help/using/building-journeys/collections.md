@@ -9,9 +9,9 @@ role: Developer
 level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 version: Journey Orchestration
-source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '767'
 ht-degree: 3%
 
 ---
@@ -104,7 +104,7 @@ ht-degree: 3%
 
 1. **[!UICONTROL 작업 매개 변수]** 섹션에 JSON 예제를 붙여 넣습니다. 표시된 구조는 정적입니다. 페이로드를 붙여 넣을 때 모든 필드가 상수로 정의됩니다.
 
-   ![](assets/uc-collection-1.png)
+   ![컬렉션 함수 및 작업을 표시하는 식 편집기](assets/uc-collection-1.png)
 
 1. 필요한 경우 필드 유형을 조정합니다. 컬렉션에는 listString, listInteger, listDecimal, listBoolean, listDateTime, listDateTimeOnly, listDateOnly, listObject 필드 형식이 지원됩니다
 
@@ -120,21 +120,21 @@ ht-degree: 3%
 
 1. 각 필드에 대해 여정 캔버스에 표시될 레이블을 정의합니다.
 
-   ![](assets/uc-collection-2.png){width="70%" align="left"}
+   ![조건 빌더 인터페이스를 사용한 컬렉션 함수 필터링](assets/uc-collection-2.png){width="70%" align="left"}
 
 1. 여정을 만들고 만든 사용자 지정 작업을 추가합니다. [이 페이지](../building-journeys/using-custom-actions.md)에서 자세히 알아보십시오.
 
 1. **[!UICONTROL 작업 매개 변수]** 섹션에서 고급 표현식 편집기를 사용하여 배열 매개 변수(`products`)를 정의합니다.
 
-   ![](assets/uc-collection-3.png)
+   필드 선택이 있는 ![컬렉션 필터링 식](assets/uc-collection-3.png)
 
 1. 다음 각 오브젝트 필드에 대해 소스 XDM 스키마의 해당 필드 이름을 입력합니다. 이름이 동일한 경우 이 작업이 필요하지 않습니다. 이 예제에서는 `product id`과(와) &quot;color&quot;만 정의하면 됩니다.
 
-   ![](assets/uc-collection-4.png){width="50%" align="left"}
+   ![순서 지정 구성이 있는 컬렉션 정렬 함수](assets/uc-collection-4.png){width="50%" align="left"}
 
 배열 필드의 경우 고급 표현식 편집기를 사용하여 데이터 조작을 수행할 수도 있습니다. 다음 예제에서는 [filter](functions/list-functions.md#filter) 및 [intersect](functions/list-functions.md#intersect) 함수를 사용합니다.
 
-![](assets/uc-collection-5.png)
+![필터, 정렬 및 제한 작업이 있는 컬렉션 식 완료](assets/uc-collection-5.png)
 
 ## 제한 사항 {#limitations}
 
@@ -194,7 +194,7 @@ ht-degree: 3%
 
 이기종 유형 및 배열 배열의 경우 배열은 listAny 형식으로 정의됩니다. 개별 항목만 매핑할 수 있지만 배열을 변수로 변경할 수는 없습니다.
 
-![](assets/uc-collection-heterogeneous.png){width="70%" align="left"}
+![데이터 형식과 필드 선택이 혼합된 다른 형식 컬렉션](assets/uc-collection-heterogeneous.png){width="70%" align="left"}
 
 형식이 다른 형식의 예:
 

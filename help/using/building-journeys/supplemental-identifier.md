@@ -3,9 +3,9 @@ title: 여정에서 추가 식별자 사용
 description: 여정에서 보조 식별자를 사용하는 방법을 알아봅니다.
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
-source-git-commit: 62c0c1f46b5bd575102d9f27037cb6add1355ba2
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1381'
+source-wordcount: '1424'
 ht-degree: 4%
 
 ---
@@ -89,7 +89,7 @@ ht-degree: 4%
 
    1. 식별자를 **[!UICONTROL ID]**(으)로 표시합니다.
 
-      ![](assets/supplemental-ID-schema.png)
+      보조 식별자 필드 그룹이 있는 ![스키마 구성](assets/supplemental-ID-schema.png)
 
       >[!IMPORTANT]
       >
@@ -105,7 +105,7 @@ ht-degree: 4%
 
    1. 이벤트 구성 화면에서 **[!UICONTROL 보조 식별자 사용]** 옵션을 선택합니다.
 
-      ![](assets/supplemental-ID-event.png)
+      ![보조 식별자 네임스페이스 선택이 있는 이벤트 구성](assets/supplemental-ID-event.png)
 
    1. 표현식 편집기를 사용하여 보조 ID로 표시한 속성을 선택합니다.
 
@@ -119,7 +119,7 @@ ht-degree: 4%
 
    구성된 이벤트를 여정 캔버스로 드래그합니다. 프로필 ID와 보조 ID 모두를 기반으로 여정 항목을 트리거합니다.
 
-   ![](assets/supplemental-ID-journey.png)
+   ![여정 트리거에 보조 식별자를 사용한 이벤트](assets/supplemental-ID-journey.png)
 
 >[!TAB 대상 여정 읽기]
 
@@ -131,7 +131,7 @@ ht-degree: 4%
 
    1. 식별자를 **[!UICONTROL ID]**(으)로 표시합니다.
 
-      ![](assets/supplemental-ID-schema-profile.png)
+      ![보조 식별자 필드가 구성된 프로필 스키마](assets/supplemental-ID-schema-profile.png)
 
       >[!IMPORTANT]
       >
@@ -145,7 +145,7 @@ ht-degree: 4%
 
     1. Navigate to the **[!UICONTROL Configuration]** / **[!UICONTROL Data Sources]** menu, then locate the "ExperiencePlatformDataSource" data source.
 
-        ![](assets/supplemental-ID-data-source.png)
+        ![Data source configuration with supplemental identifier mapping](assets/supplemental-ID-data-source.png)
 
     1. Open the field selector then select the attribute you want to use as a supplemental identifier (e.g., booking ID, subscription ID).-->
 
@@ -155,7 +155,7 @@ ht-degree: 4%
 
    1. 활동 속성 창에서 **[!UICONTROL 보조 식별자 사용]** 옵션을 켜십시오.
 
-      ![](assets/supplemental-ID-read-audience.png)
+      ![보조 식별자 구성이 있는 대상 활동 읽기](assets/supplemental-ID-read-audience.png)
 
    1. **[!UICONTROL 보조 식별자]** 필드에서 식 편집기를 사용하여 보조 ID로 표시한 특성을 선택합니다.
 
@@ -171,7 +171,7 @@ ht-degree: 4%
 
 표현식 편집기 및 개인화 편집기를 사용하여 개인화 또는 조건부 논리에 대한 보조 식별자의 속성을 참조합니다. 특성은 **[!UICONTROL 상황별 특성]** 메뉴에서 액세스할 수 있습니다.
 
-![](assets/supplemental-ID-perso.png)
+![콘텐츠에 대한 보조 식별자 필드를 표시하는 Personalization 편집기](assets/supplemental-ID-perso.png)
 
 배열로 작업하는 경우(예: 여러 가지 처방 또는 정책) 이벤트 트리거 여정의 경우 공식을 사용하여 특정 요소를 추출합니다.
 
@@ -246,4 +246,4 @@ ht-degree: 4%
 
 [!DNL Adobe Journey Optimizer]에서 보조 식별자를 활성화하고 적용하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464799?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)

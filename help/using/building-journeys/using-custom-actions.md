@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 작업, 사용자 지정, API, 여정, 구성, 서비스
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
 version: Journey Orchestration
-source-git-commit: 221368c7766e942143639fcd554b32f9de5ab0c9
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 20%
+source-wordcount: '442'
+ht-degree: 19%
 
 ---
 
@@ -60,7 +60,7 @@ URL에 동적 경로가 포함된 경우 **[!UICONTROL 경로]** 필드에 경�
 
 `https://xxx.yyy.com:8080/somethingstatic/`\&lt;ID>`/messages`
 
-![](assets/journey-custom-action-url.png)
+![동적 매개 변수 매핑을 사용한 사용자 지정 작업 URL 구성](assets/journey-custom-action-url.png)
 
 ### 헤더 및 쿼리 매개 변수 {#headers}
 
@@ -68,7 +68,7 @@ URL에 동적 경로가 포함된 경우 **[!UICONTROL 경로]** 필드에 경�
 
 동적 헤더 및 쿼리 매개 변수 필드의 값을 지정하려면 필드 내부 또는 연필 아이콘을 클릭하고 원하는 필드를 선택합니다.
 
-![](assets/journey-dynamicheaderfield.png)
+사용자 지정 작업의 ![동적 헤더 필드 구성](assets/journey-dynamicheaderfield.png)
 
 ## 작업 매개 변수
 

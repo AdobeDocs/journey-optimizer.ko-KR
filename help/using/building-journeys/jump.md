@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 이동, 활동, 여정, 분할, 분할
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 10%
+source-wordcount: '885'
+ht-degree: 9%
 
 ---
 
@@ -76,16 +76,16 @@ ht-degree: 10%
 
 1. **원본 여정**&#x200B;을 디자인합니다.
 
-   ![](assets/jump1.png)
+   ![여정 간 전환을 위한 여정 팔레트의 이동 활동](assets/jump1.png)
 
 1. 여정의 모든 단계에서 **[!UICONTROL ACTIONS]** 범주에서 **[!UICONTROL Jump]** 활동을 추가합니다. 레이블과 설명을 추가합니다.
 
-   ![](assets/jump2.png)
+   ![점프 활동 구성의 대상 여정 선택 드롭다운](assets/jump2.png)
 
 1. **대상 여정** 필드 내부를 클릭합니다.
 이 목록에는 초안, 라이브 또는 테스트 모드인 모든 여정 버전이 표시됩니다. 다른 네임스페이스를 사용하거나 **대상 자격** 이벤트로 시작하는 여정은 사용할 수 없습니다. 루프 패턴을 생성하는 대상 여정도 필터링됩니다.
 
-   ![](assets/jump3.png)
+   ![대상 여정 및 작업 매개 변수를 표시하는 이동 활동](assets/jump3.png)
 
    >[!NOTE]
    >
@@ -94,12 +94,12 @@ ht-degree: 10%
 1. 이동할 대상 여정을 선택합니다.
 **첫 번째 여정** 필드가 대상 이벤트의 이름으로 미리 채워져 있습니다. 대상 여정에 여러 이벤트가 포함된 경우 **[!UICONTROL Jump]**&#x200B;은(는) 첫 번째 이벤트에서만 허용됩니다.
 
-   ![](assets/jump4.png)
+   ![식 편집기가 있는 이동 활동에 대한 매개 변수 매핑 구성](assets/jump4.png)
 
 1. **작업 매개 변수** 섹션에는 대상 이벤트의 모든 필드가 표시됩니다. 다른 유형의 작업과 마찬가지로 각 필드를 원본 이벤트 또는 데이터 소스의 필드와 매핑합니다. 이 정보는 런타임 시 대상 여정에 전달됩니다.
 1. 다음 활동을 추가하여 원본 여정을 완료합니다.
 
-   ![](assets/jump5.png)
+   ![여정 간 이동 활동을 테스트하기 위한 테스트 모드 인터페이스](assets/jump5.png)
 
 
    >[!NOTE]
@@ -110,7 +110,7 @@ ht-degree: 10%
 
 여정에 **[!UICONTROL Jump]** 활동이 구성되면 대상 여정 시작 시 **[!UICONTROL Jump]** 항목 아이콘이 자동으로 추가됩니다. 이렇게 하면 여정이 외부적으로 트리거될 수 있지만 내부적으로 **[!UICONTROL Jump]** 활동에서도 트리거될 수 있음을 식별하는 데 도움이 됩니다.
 
-![](assets/jump7.png)
+![원본 여정에서 대상 여정으로 이동하는 것을 보여 주는 여정 흐름](assets/jump7.png)
 
 ## 문제 해결 {#jump-troubleshoot}
 
@@ -120,4 +120,4 @@ ht-degree: 10%
 * 대상 여정이 초안, 마감됨 또는 중지됨
 * 대상 여정의 첫 번째 이벤트가 변경되고 매핑이 끊어졌습니다
 
-![](assets/jump6.png)
+![점프 활동 실행 지표를 표시하는 여정 분석](assets/jump6.png)

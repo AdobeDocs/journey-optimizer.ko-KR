@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 여정, 구성, 속성
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '2748'
+source-wordcount: '2771'
 ht-degree: 15%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 15%
 * 여정 활동에서 [시간 제한 기간](#timeout)을(를) 정의합니다(관리자 전용).
 * [충돌 관리 도구](#conflict)를 사용하여 충돌을 모니터링하고 여정 우선 순위 지정
 
-![](assets/new-journey-properties.png){width="80%"}{zoomable="yes"}
+일반 설정 및 고급 옵션이 있는 ![여정 속성 구성 창](assets/new-journey-properties.png){width="80%"}{zoomable="yes"}
 
 >[!NOTE]
 >
@@ -285,7 +285,7 @@ Adobe Journey Optimizer은 전체 여정에 사용된 병합 정책을 적용합
 
 1. 여정을 엽니다.
 
-1. 여정 캔버스의 오른쪽 위 섹션에 있는 ![](assets/do-not-localize/Smock_UserCheckedOut_18_N.svg) **[!UICONTROL 종료 기준 표시]** 아이콘을 클릭합니다.
+1. 여정 캔버스의 오른쪽 위 섹션에 있는 ![종료 기준 표시 아이콘](assets/do-not-localize/Smock_UserCheckedOut_18_N.svg) **[!UICONTROL 종료 기준 표시]** 아이콘을 클릭합니다.
 
 1. **[!UICONTROL 종료 기준 추가]**&#x200B;를 선택합니다.
 
@@ -296,7 +296,7 @@ Adobe Journey Optimizer은 전체 여정에 사용된 병합 정책을 적용합
 
 여러 종료 기준을 추가할 수 있습니다.
 
-![](assets/exitcriteria-sample.png){width="40%" align="left"}
+![여정 종료에 대한 대상 조건을 보여 주는 종료 기준 패널](assets/exitcriteria-sample.png){width="40%" align="left"}
 
 
 ### 프로필 속성 기반 종료 기준 {#profile-exit-criteria}

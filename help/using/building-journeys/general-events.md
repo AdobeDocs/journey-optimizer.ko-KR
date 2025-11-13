@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 사용자 정의, 일반, 이벤트, 여정
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
 version: Journey Orchestration
-source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '640'
 ht-degree: 20%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 20%
 
 [이 섹션](entry-management.md#journey-processing-rate)에서 이벤트 처리량 및 여정 처리 속도에 대해 자세히 알아보세요.
 
-![](assets/general-events.png)
+이벤트 선택 및 설정이 있는 ![일반 이벤트 구성 패널](assets/general-events.png)
 
 비즈니스 이벤트를 삭제하면 **대상자 읽기** 활동이 자동으로 추가됩니다. 비즈니스 이벤트에 대한 자세한 내용은 [이 섹션](../event/about-events.md)을 참조하세요.
 
@@ -55,7 +55,7 @@ ht-degree: 20%
 
 1. 지정된 시간 제한 내에 이벤트가 수신되지 않으면 개인을 시간 제한 경로로 보내는 것이 좋습니다. 이를 위해 **[!UICONTROL 시간 제한 경로 설정]** 옵션을 사용하도록 설정하십시오. 이 경우, 시간 초과에 도달하면 개인에 대해 여정이 계속됩니다. 항상 **[!UICONTROL 시간 제한 경로 설정]** 옵션을 사용하도록 설정하는 것이 좋습니다.
 
-   ![](assets/event-timeout.png)
+   ![기간 및 시간 제한 경로 옵션이 있는 이벤트 시간 제한 구성](assets/event-timeout.png)
 
 이 예에서 여정은 고객이 로비에 입장하면 첫 번째 환영 이메일을 보냅니다. 이어 다음날 고객이 식당에 입장할 경우에만 식사 할인 이메일을 발송한다. 따라서 레스토랑 이벤트를 1일 제한 시간으로 구성했습니다.
 
@@ -69,4 +69,4 @@ ht-degree: 20%
 * 시간 제한 기간 내에 하나의 이벤트가 수신되면 개별 이벤트가 수신된 이벤트의 경로로 전송됩니다.
 * 시간 제한 기간 내에 이벤트가 수신되지 않으면 개인은 시간 제한이 정의된 이벤트의 시간 제한 분기로 이동합니다.
 
-![](assets/event-timeout-group.png)
+![여정에 시간 제한 구성이 있는 여러 이벤트](assets/event-timeout-group.png)

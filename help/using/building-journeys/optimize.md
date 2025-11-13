@@ -11,10 +11,10 @@ keywords: 활동, 조건, 캔버스, 여정, 최적화
 badge: label="제한된 가용성" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1461'
-ht-degree: 9%
+source-wordcount: '1636'
+ht-degree: 8%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 9%
 * 각 여정 경로에서 [타깃팅](#targeting) 규칙 활용
 * 경로에 [조건](#conditions) 적용
 
-![](assets/journey-optimize.png)
+![여정 활동 팔레트의 최적화 단추](assets/journey-optimize.png)
 
 여정이 라이브되면 정의된 기준에 따라 프로필이 평가되고 일치하는 기준에 따라 여정에서 적절한 경로로 전송됩니다.
 
@@ -53,7 +53,7 @@ ht-degree: 9%
 >id="ajo_path_experiment_success_metric"
 >title="성공 지표"
 >abstract="성공 지표는 실험에서 가장 효과적인 처리를 추적하고 평가하는 데 사용됩니다."
->additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="여정 지표 구성 및 추적"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="여정 지표 구성 및 추적"
 
 실험을 통해 무작위 분할을 기반으로 서로 다른 경로를 테스트하여 사전 정의된 성공 지표를 기반으로 가장 뛰어난 성과를 결정할 수 있습니다.
 
@@ -71,13 +71,13 @@ ht-degree: 9%
 
 1. **[!UICONTROL 메서드]** 드롭다운 목록에서 **[!UICONTROL 실험]**&#x200B;을(를) 선택합니다.
 
-   ![](assets/journey-optimize-experiment.png){width=65%}
+   ![콘텐츠 실험 구성 패널](assets/journey-optimize-experiment.png){width=65%}
 
 1. **[!UICONTROL 실험 만들기]**&#x200B;를 클릭합니다.
 
 1. 실험에 대해 설정할 **[!UICONTROL 성공 지표]**&#x200B;를 선택하십시오. 사용 가능한 지표와 [이 섹션](success-metrics.md)에서 목록을 구성하는 방법에 대해 자세히 알아보세요.
 
-   ![](assets/journey-optimize-experiment-metrics.png){width=80%}
+   ![실험에 대한 기본 및 추가 지표 선택](assets/journey-optimize-experiment-metrics.png){width=80%}
 
 1. 게재에 **[!UICONTROL 보류 중]** 그룹을 추가하도록 선택할 수 있습니다. 이 그룹은 이 실험의 경로를 입력하지 않습니다.
 
@@ -91,7 +91,7 @@ ht-degree: 9%
 
 1. 각 **[!UICONTROL 처리]**&#x200B;에 정확한 백분율을 할당하거나 **[!UICONTROL 균등 분포]** 토글 막대를 켜기만 하면 됩니다.
 
-   ![](assets/journey-optimize-experiment-treatments.png){width=80%}
+   ![백분율 분포의 처리 할당 슬라이더](assets/journey-optimize-experiment-treatments.png){width=80%}
 
 1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
 
@@ -103,17 +103,17 @@ ht-degree: 9%
 
    * [Email](../email/create-email.md) 활동을 세 번째 분기로 드래그한 다음 [SMS](../sms/create-sms.md) 활동(**처리 C**)을 드래그합니다.
 
-   ![](assets/journey-optimize-experiment-ex.png){width=100%}
+   ![3개의 처리 경로를 사용한 콘텐츠 실험 예](assets/journey-optimize-experiment-ex.png){width=100%}
 
 1. 선택적으로 **[!UICONTROL 시간 초과 또는 오류 발생 시 대체 경로를 추가]**&#x200B;하여 대체 동작을 정의합니다. [자세히 알아보기](using-the-journey-designer.md#paths)
 
 1. 채널 작업을 선택하고 **[!UICONTROL 콘텐츠 편집]** 단추를 사용하여 디자인 도구에 액세스합니다.
 
-   ![](assets/journey-optimize-experiment-edit-content.png){width=70%}
+   ![채널 작업 활동의 콘텐츠 편집 단추](assets/journey-optimize-experiment-edit-content.png){width=70%}
 
 1. 왼쪽 창에서 실험의 각 작업에 대한 서로 다른 콘텐츠 사이를 탐색할 수 있습니다. 각 콘텐츠를 선택하고 필요에 따라 디자인합니다.
 
-   ![](assets/journey-optimize-experiment-content.png){width=100%}
+   실험에 대한 처리를 보여 주는 ![콘텐츠 선택 패널](assets/journey-optimize-experiment-content.png){width=100%}
 
 1. 여정 [게시](publish-journey.md).
 
@@ -131,7 +131,7 @@ ht-degree: 9%
 
 ➡️ 전환율을 성공 지표로 사용합니다(예: 구매, 등록).
 
-![](assets/journey-optimize-experiment-uc-channel.png)
+전자 메일과 SMS를 비교하는 ![채널 효율성 실험](assets/journey-optimize-experiment-uc-channel.png)
 
 +++
 
@@ -141,7 +141,7 @@ ht-degree: 9%
 
 ➡️ 구매 또는 구독 취소 속도를 성공 지표로 사용합니다.
 
-![](assets/journey-optimize-experiment-uc-frequency.png)
+![메시지 빈도 실험 테스트(이메일 1개와 이메일 3개)](assets/journey-optimize-experiment-uc-frequency.png)
 
 +++
 
@@ -151,7 +151,7 @@ ht-degree: 9%
 
 ➡️ 클릭스루 비율 또는 매출을 성공 지표로 사용합니다.
 
-![](assets/journey-optimize-experiment-uc-wait.png)
+![24시간 지연과 72시간 지연을 비교하는 대기 시간 실험](assets/journey-optimize-experiment-uc-wait.png)
 
 +++
 
@@ -182,33 +182,33 @@ ht-degree: 9%
 
 1. **[!UICONTROL 메서드]** 드롭다운 목록에서 **[!UICONTROL 타깃팅 규칙]**&#x200B;을(를) 선택하십시오.
 
-   ![](assets/journey-optimize-targeting.png){width=60%}
+   ![최적화 활동에서 규칙 선택 항목 타기팅](assets/journey-optimize-targeting.png){width=60%}
 
 1. **[!UICONTROL 타깃팅 규칙 만들기]**&#x200B;를 클릭합니다.
 
 1. **[!UICONTROL 규칙 만들기]** > **[!UICONTROL 새로 만들기]**&#x200B;를 클릭하고 규칙 빌더를 사용하여 조건을 정의합니다.
 
-   ![](assets/journey-targeting-create-rule.png){width=100%}
+   타깃팅 기준을 만들기 위한 ![규칙 빌더 인터페이스](assets/journey-targeting-create-rule.png){width=100%}
 
    예를 들어, 충성도 프로그램의 Gold 멤버(`loyalty.status.equals("Gold", false)`)에 대한 규칙을 정의하고 다른 멤버(`loyalty.status.notEqualTo("Gold", false)`)에 대한 규칙을 정의합니다.
 
-   ![](assets/journey-targeting-rule.png)
+   ![Gold 및 비 Gold 멤버에 대한 충성도 상태 타깃팅 규칙](assets/journey-targeting-rule.png)
 
 1. **[!UICONTROL 규칙 만들기]** > **[!UICONTROL 규칙 선택]**&#x200B;을 클릭하여 **[!UICONTROL 규칙]** 메뉴에서 만든 기존 타깃팅 규칙을 선택할 수도 있습니다. [자세히 알아보기](../experience-decisioning/rules.md)
 
-   ![](assets/journey-targeting-select-rule.png){width=70%}
+   ![규칙 메뉴에서 기존 타깃팅 규칙 선택](assets/journey-targeting-select-rule.png){width=70%}
 
    이 경우 규칙을 구성하는 공식은 단순히 여정 활동에 복사됩니다. **[!UICONTROL 규칙]** 메뉴에서 해당 규칙에 대한 이후의 변경 내용은 여정 복사본에 영향을 주지 않습니다.
 
    >[!AVAILABILITY]
    >
-   >[전용 &#x200B;](../experience-decisioning/rules.md#create) 메뉴에서 타깃팅 규칙을 만드는 중[!DNL Journey Optimizer]은(는) 현재 Decisioning 추가 기능 서비스를 구입한 조직에서 사용할 수 있으며 다른 조직에 대해 필요할 때 사용할 수 있습니다(제한된 가용성).
+   >[전용 ](../experience-decisioning/rules.md#create) 메뉴에서 타깃팅 규칙을 만드는 중[!DNL Journey Optimizer]은(는) 현재 Decisioning 추가 기능 서비스를 구입한 조직에서 사용할 수 있으며 다른 조직에 대해 필요할 때 사용할 수 있습니다(제한된 가용성).
    >
    >이 용량은 모든 고객에게 점진적으로 제공될 예정입니다. 그동안 Adobe 담당자에게 문의하여 액세스 권한을 얻으십시오.
 
 1. 규칙을 추가한 후에도 수정할 수 있습니다. 규칙 빌더를 사용하여 이동 중에 업데이트하려면 **[!UICONTROL 인라인 편집]**&#x200B;을 선택하고, 다른 기존 규칙을 선택하려면 **[!UICONTROL 규칙 선택]**&#x200B;을 선택하십시오.
 
-   ![](assets/journey-targeting-modify-rule.png){width=100%}
+   ![타깃팅 규칙을 수정하기 위한 인라인 편집 또는 규칙 선택 옵션](assets/journey-targeting-modify-rule.png){width=100%}
 
    >[!NOTE]
    >
@@ -224,17 +224,17 @@ ht-degree: 9%
 
 1. 다시 여정으로 돌아가서 특정 작업을 놓아 각 경로를 사용자 지정합니다. 예를 들어 Gold Loyalty 회원에 대한 개인화된 오퍼와 다른 모든 회원에 대한 SMS 미리 알림을 포함하는 이메일을 만듭니다.
 
-   ![](assets/journey-targeting-paths.png)
+   ![골드 회원에 대한 전자 메일과 다른 사람에 대한 SMS가 포함된 경로 여정](assets/journey-targeting-paths.png)
 
 1. 규칙 설정을 정의할 때 **[!UICONTROL 대체 콘텐츠 사용]** 옵션을 선택한 경우 자동으로 추가된 대체 경로에 대해 하나 이상의 동작을 정의하십시오.
 
-   ![](assets/journey-targeting-fallback.png){width=70%}
+   ![정규화되지 않은 프로필에 대한 대체 경로 구성](assets/journey-targeting-fallback.png){width=70%}
 
 1. 선택적으로 **[!UICONTROL 시간 초과 또는 오류 발생 시 대체 경로를 추가]**&#x200B;하여 문제가 발생할 경우 대체 작업을 정의합니다. [자세히 알아보기](using-the-journey-designer.md#paths)
 
 1. 타겟팅 규칙 설정에 정의된 각 그룹에 해당하는 각 작업에 적절한 콘텐츠를 디자인할 수 있습니다. 각 작업에 대해 서로 다른 콘텐츠 사이를 원활하게 탐색할 수 있습니다.
 
-   ![](assets/journey-targeting-design.png)
+   ![타깃팅 규칙 작업을 위한 콘텐츠 디자인 패널](assets/journey-targeting-design.png)
 
    이 예에서는 Gold 회원을 위한 특별 오퍼와 다른 회원을 위한 SMS 미리 알림을 포함하는 이메일을 디자인합니다.
 
@@ -254,7 +254,7 @@ ht-degree: 9%
 
 <!--➡️ Use the revenue per profile or conversion rate as the optimization metric.-->
 
-![](assets/journey-optimize-targeting-uc-segment.png)
+![전자 메일과 SMS를 사용하는 다른 사람을 타겟팅하는 세그먼트별 채널](assets/journey-optimize-targeting-uc-segment.png)
 
 +++
 
@@ -264,7 +264,7 @@ ht-degree: 9%
 
 <!--➡️ Use the click-through rate or downstream conversions as the optimization metric.-->
 
-![](assets/journey-optimize-targeting-uc-behavior.png)
+푸시 또는 SMS 대체 항목을 사용하여 전자 메일 참여를 위한 ![동작 기반 타깃팅](assets/journey-optimize-targeting-uc-behavior.png)
 
 +++
 
@@ -274,7 +274,7 @@ ht-degree: 9%
 
 <!--➡️ Use the repeat purchase rate or engagement rate as the optimization metric.-->
 
-![](assets/journey-optimize-targeting-uc-purchase.png)
+![구매자를 위한 교차 판매 경로와 비구매자를 위한 육성 경로를 사용하여 구매 기록 타기팅](assets/journey-optimize-targeting-uc-purchase.png)
 
 +++
 
@@ -282,7 +282,7 @@ ht-degree: 9%
 
 조건은 특정 기준에 따라 여러 경로를 만들어 개인 사용자가 여정을 진행하는 방법을 정의할 수 있는 [타깃팅](#targeting) 규칙 유형입니다.
 
-![](assets/journey-condition.png)
+![조건을 기반으로 여러 경로를 만드는 여정의 조건 활동](assets/journey-condition.png)
 
 [이 섹션](conditions.md)에서 조건을 정의하는 방법을 알아보세요.
 

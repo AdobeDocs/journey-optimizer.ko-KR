@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 활동, 여정, 읽기, 대상, 플랫폼
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '2461'
+source-wordcount: '2558'
 ht-degree: 13%
 
 ---
@@ -56,21 +56,21 @@ ht-degree: 13%
 
    >[!NOTE]
    >
-   >또한 [대상 구성](../audience/get-started-audience-orchestration.md) 또는 [CSV 파일에서 업로드한](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko#import-audience){target="_blank"}을 사용하여 만든 Adobe Experience Platform 대상을 타깃팅할 수도 있습니다.
+   >또한 [대상 구성](../audience/get-started-audience-orchestration.md) 또는 [CSV 파일에서 업로드한](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}을 사용하여 만든 Adobe Experience Platform 대상을 타깃팅할 수도 있습니다.
 
    목록에 표시되는 열을 사용자 정의하고 정렬할 수 있습니다.
 
-   ![](assets/read-segment-selection.png)
+   ![사용 가능한 Adobe Experience Platform 대상을 표시하는 대상 선택 인터페이스](assets/read-segment-selection.png)
 
    대상자가 추가되면 **[!UICONTROL 복사]** 버튼을 사용하여 해당 이름과 ID를 복사할 수 있습니다.
 
    `{"name":"Luma app opening and checkout","id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
-   ![](assets/read-segment-copy.png)
+   ![대상 이름 및 ID를 JSON 형식으로 복사하는 복사 단추](assets/read-segment-copy.png)
 
    >[!NOTE]
    >
-   >대상자 참가 상태가 **실현됨**&#x200B;인 개인만 여정에 들어갑니다. 대상자를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ko#interpret-segment-results){target="_blank"}를 참조하세요.
+   >대상자 참가 상태가 **실현됨**&#x200B;인 개인만 여정에 들어갑니다. 대상자를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}를 참조하세요.
 
 1. **[!UICONTROL 네임스페이스]** 필드에서 개인을 식별하기 위해 사용할 네임스페이스를 선택합니다. 기본적으로 필드는 마지막으로 사용된 네임스페이스로 미리 채워집니다. [네임스페이스에 대해 자세히 알아보기](../event/about-creating.md#select-the-namespace).
 
@@ -90,7 +90,7 @@ ht-degree: 13%
 
 * 가장 좋은 방법은 **대상자 읽기** 활동에서만 일괄 대상자를 사용하는 것입니다. 이렇게 하면 여정에 사용된 대상자에 대해 안정적이고 일관된 카운트를 제공합니다. 대상자 읽기는 일괄 사용 사례용으로 설계되었습니다. 사용 사례에 실시간 데이터가 필요한 경우 **[대상 자격](audience-qualification-events.md)** 활동을 사용하십시오.
 
-* CSV 파일에서 가져온 대상 [개](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko#import-audience) 또는 [컴포지션 워크플로](../audience/get-started-audience-orchestration.md)의 결과로 가져온 대상은 **대상 읽기** 활동에서 선택할 수 있습니다. 이러한 대상은 **대상 자격** 활동에서 사용할 수 없습니다.
+* CSV 파일에서 가져온 대상 [개](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) 또는 [컴포지션 워크플로](../audience/get-started-audience-orchestration.md)의 결과로 가져온 대상은 **대상 읽기** 활동에서 선택할 수 있습니다. 이러한 대상은 **대상 자격** 활동에서 사용할 수 없습니다.
 
 * 조직당 동시 읽기 대상 제한: 각 조직은 최대 5개의 읽기 대상 인스턴스를 동시에 실행할 수 있습니다. 여기에는 모든 샌드박스 및 여정에서 예약된 실행과 비즈니스 이벤트에 의해 트리거된 실행이 모두 포함됩니다. 이 제한은 모든 조직에서 공정하고 균형 잡힌 리소스 할당을 보장하기 위해 시행됩니다.
 
@@ -165,15 +165,15 @@ ht-degree: 13%
 
 1. **[!UICONTROL 대상자 읽기]** 활동 속성에서 pa, **[!UICONTROL 여정 일정 편집]**&#x200B;을 선택합니다.
 
-   ![](assets/read-segment-schedule.png)
+   ![대상 활동 속성 읽기의 여정 일정 편집 단추](assets/read-segment-schedule.png)
 
 1. 여정 속성이 표시됩니다. **[!UICONTROL 스케줄러 유형]** 드롭다운 목록에서 여정을 실행할 빈도를 선택합니다.
 
-   ![](assets/read-segment-schedule-list.png)
+   ![빈도 옵션이 있는 스케줄러 유형 드롭다운: 한 번, 매일, 매주, 매월](assets/read-segment-schedule-list.png)
 
 반복 여정의 경우 여정에 대한 프로필 입력을 관리하는 데 도움이 되는 특정 옵션을 사용할 수 있습니다. 각 옵션에 대한 자세한 내용을 보려면 아래 섹션을 확장하십시오.
 
-![](assets/read-audience-options.png)
+![대상 반복 옵션 읽기: 증분 읽기, 강제 재입력, 일괄 처리 후 트리거](assets/read-audience-options.png)
 
 +++**[!UICONTROL 증분 읽기]**
 
@@ -239,13 +239,13 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 이렇게 하려면 테스트 모드를 활성화합니다.
 
-![](assets/read-segment-test-mode.png)
+![테스트 프로필 선택을 사용하여 대상자 읽기 활동을 위한 테스트 모드 인터페이스](assets/read-segment-test-mode.png)
 
 평소대로 테스트 모드를 구성하고 실행합니다. [여정 테스트 방법을 알아보세요](testing-the-journey.md).
 
 테스트가 실행되면 **[!UICONTROL 로그 표시]** 단추를 사용하여 테스트 결과를 볼 수 있습니다. 자세한 정보는 [이 섹션](testing-the-journey.md#viewing_logs)을 참조하세요.
 
-![](assets/read-segment-log.png)
+![대상 실행 결과 및 프로필 흐름을 보여주는 테스트 로그](assets/read-segment-log.png)
 
 테스트가 성공하면 여정을 게시할 수 있습니다([여정 게시](publish-journey.md) 참조). 대상에 속한 개인 사용자는 여정의 속성 **[!UICONTROL 스케줄러]** 섹션에 지정된 날짜/시간에 여정을 입력합니다.
 
@@ -273,7 +273,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 * 시간, 예를 들어 아침이 개인 시간대의 시간대입니까?
 * 여정에서 흐르는 대상을 백분율에 따라 분할하는 알고리즘(예: 90% - 10%)으로, 컨트롤 그룹을 제외합니다.
 
-![](assets/read-segment-audience1.png)
+![VIP 및 VIP 경로가 아닌 경로로의 대상자 세분화를 위한 조건 활동](assets/read-segment-audience1.png)
 
 >[!NOTE]
 >
@@ -287,7 +287,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 이 제외는 대상 검색 직후, 모집단 계산을 위해 또는 여러 단계의 여정을 따라 발생할 수 있습니다.
 
-![](assets/read-segment-audience2.png)
+![종료 활동을 사용하는 제외 분기가 있는 여정 경로](assets/read-segment-audience2.png)
 
 **결합**
 
@@ -295,7 +295,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 예를 들어 여정에서 10일 동안 다른 경험을 팔로우한 후 VIP 및 VIP이 아닌 고객은 동일한 경로로 돌아갈 수 있습니다. 결합 후 세분화 또는 제외를 수행하여 대상을 다시 분할할 수 있습니다.
 
-![](assets/read-segment-audience3.png)
+![유니온을 사용하여 세분화한 후 다시 병합되는 여정 경로](assets/read-segment-audience3.png)
 
 ## 다시 시도 {#read-audience-retry}
 
@@ -307,4 +307,4 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 대상자 읽기 활동으로 트리거되는 여정에 적용할 수 있는 사용 사례를 이해합니다. 배치 기반 여정을 작성하는 방법과 적용할 모범 사례를 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430365?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)

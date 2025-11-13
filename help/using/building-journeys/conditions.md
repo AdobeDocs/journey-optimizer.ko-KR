@@ -12,10 +12,10 @@ hidefromtoc: true
 hide: true
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1601'
-ht-degree: 17%
+source-wordcount: '1696'
+ht-degree: 16%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 17%
 
 1. **[!UICONTROL 메서드]** 드롭다운 목록에서 조건을 선택하십시오.
 
-   ![](assets/journey-optimize-condition.png){width=80%}
+   ![선택한 조건으로 활동 최적화](assets/journey-optimize-condition.png){width=80%}
 
    다음 유형의 조건을 사용할 수 있습니다.
 
@@ -66,13 +66,13 @@ ht-degree: 17%
 
 여러 조건을 정의하려면 **[!UICONTROL 경로 추가]**&#x200B;를 클릭합니다. 각 조건에 대해 활동 후에 캔버스에 새 경로가 추가됩니다.
 
-![](assets/journey-condition-add-path.png){width=80%}
+![경로 단추를 추가하여 여러 조건 경로를 만듭니다](assets/journey-condition-add-path.png){width=80%}
 
 여정 디자인은 기능에 영향을 줍니다. 조건 후에 여러 개의 경로를 정의하면 첫 번째 적격 경로만 실행됩니다. 즉, 경로 우선순위를 서로 위나 아래에 배치하여 다르게 지정할 수 있습니다.
 
 첫 번째 경로의 조건인 &quot;사람은 VIP&quot;와 두 번째 경로의 조건인 &quot;사람은 남성&quot;의 예를 들어보자. 두 조건을 모두 충족하는 사람(VIP인 남성)이 이 단계를 통과하면 첫 번째 경로가 &quot;위&quot;이기 때문에 이 사람도 두 번째 경로에 자격이 되더라도 첫 번째 경로가 선택됩니다. 이 우선 순위를 변경하려면 활동을 다른 세로 순서로 이동하십시오.
 
-![](assets/journey48.png)
+![VIP 조건을 남성 조건보다 높게 표시하는 경로 우선 순위 예](assets/journey48.png)
 
 **[!UICONTROL 위의 사례 이외의 다른 사례에 대한 경로 표시]**&#x200B;를 선택하여 정의된 조건에 적합하지 않은 대상에 대해 다른 경로를 만들 수 있습니다.
 
@@ -85,7 +85,7 @@ ht-degree: 17%
 * **AND** - 두 기준의 교집합. 모든 기준과 일치하는 요소만 고려합니다.
 * **OR** - 두 가지 기준의 결합. 두 기준 중 하나 이상에 일치하는 요소를 고려합니다.
 
-![](assets/journey64.png){width=80%}
+![끌어다 놓기 필드 및 논리 연산자가 있는 간단한 식 편집기](assets/journey64.png){width=80%}
 
 [Adobe Experience Platform 세분화 서비스](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ko){target="_blank"}를 사용하여 대상을 만드는 경우 여정 조건에서 이를 활용할 수 있습니다. [조건에서 대상 사용](../building-journeys/condition-activity.md#using-a-segment)을 참조하세요.
 
@@ -105,7 +105,7 @@ ht-degree: 17%
 
 고급 표현식 편집기를 사용하여 컬렉션을 조작하거나 매개 변수를 전달해야 하는 데이터 소스를 사용하는 고급 조건을 설정할 수 있습니다. [자세히 알아보기](../datasource/external-data-sources.md)
 
-![](assets/journey50.png){width=80%}
+![고급 표현식 편집기가 있는 데이터 Source 조건](assets/journey50.png){width=80%}
 
 ## 날짜 조건 {#date_condition}
 
@@ -115,7 +115,7 @@ ht-degree: 17%
 >
 >시간대는 더 이상 조건에 따라 달라지지 않으며 이제 여정 속성의 여정 수준에서 정의됩니다. [자세히 알아보기](../building-journeys/timezone-management.md)
 
-![](assets/journey53.png)
+![시작 및 종료 날짜 필드가 있는 날짜 조건 구성](assets/journey53.png)
 
 ## 비율 분할 {#percentage_split}
 
@@ -127,7 +127,7 @@ ht-degree: 17%
 >
 >백분율 분할 조건에는 경로를 추가하는 버튼이 없습니다. 경로 수는 분할 수에 따라 달라집니다. 분할 조건에서는 발생할 수 없는 다른 사례에 대한 경로를 추가할 수 없습니다. 사람들은 항상 갈라진 길 중 하나로 갈 것이다.
 
-![](assets/journey52.png)
+![트래픽 분포를 표시하는 슬라이더가 있는 분할 구성 비율](assets/journey52.png)
 
 ## 시간 조건 {#time_condition}
 
@@ -139,7 +139,7 @@ ht-degree: 17%
 >
 >* 기본적으로 **[!UICONTROL 시간 조건]**&#x200B;은(는) 00:00부터 12:00까지 시간 단위로 설정됩니다.
 
-![](assets/journey51.png)
+![시간 범위 및 요일 선택기를 사용하는 시간 조건](assets/journey51.png)
 
 세 가지 필터링 옵션을 사용할 수 있습니다.
 
@@ -172,7 +172,7 @@ ht-degree: 17%
 
 테스트 모드에서는 프로필 상한을 고려하지 않습니다.
 
-![](assets/profile-cap-condition.png)
+![최대 프로필 제한 입력 필드가 있는 프로필 상한 조건](assets/profile-cap-condition.png)
 
 ## 조건에서 대상 사용 {#using-a-segment}
 
@@ -182,14 +182,14 @@ ht-degree: 17%
 
 1. 여정을 열고 **[!UICONTROL 최적화]** 활동을 삭제하고 **[!UICONTROL 데이터 원본 조건]**&#x200B;을 선택하세요.
 
-   ![](assets/segment3.png)
+   ![드롭다운 메뉴에서 Data Source 조건 메서드를 선택했습니다](assets/segment3.png)
 
 1. 필요한 각 추가 경로에 대해 **[!UICONTROL 경로 추가]**&#x200B;를 클릭합니다. 각 경로에 대해 **[!UICONTROL 식]** 필드를 클릭합니다.
 
 1. 왼쪽에서 **[!UICONTROL 대상]** 노드를 펼칩니다. 조건에 사용할 대상을 끌어다 놓습니다. 기본적으로 대상의 조건은 true입니다.
 
-   ![](assets/segment4.png){width=80%}
+   ![Adobe Experience Platform 대상 선택을 위한 표현식 편집기의 대상 노드](assets/segment4.png){width=80%}
 
    >[!NOTE]
    >
-   >대상자 참여 상태가 **실현됨**&#x200B;인 개인만 대상자의 구성원으로 간주됩니다. 대상자를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ko#interpret-segment-results){target="_blank"}를 참조하세요.
+   >대상자 참여 상태가 **실현됨**&#x200B;인 개인만 대상자의 구성원으로 간주됩니다. 대상자를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}를 참조하세요.

@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 문제 해결, 문제 해결, 여정, 확인, 오류
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
 version: Journey Orchestration
-source-git-commit: 118bf89f56d26213fde71fa795fc6576ce764ef2
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 40%
+source-wordcount: '482'
+ht-degree: 38%
 
 ---
 
@@ -33,11 +33,11 @@ ht-degree: 40%
 
 * 필수 필드가 비어 있으면 오류가 표시됩니다
 
-  ![](assets/journey63.png)
+  ![여정 유효성 검사 오류가 오류 표시기와 함께 캔버스에 표시됨](assets/journey63.png)
 
 * 캔버스에서 두 활동의 연결이 끊기면 경고가 표시됩니다
 
-  ![](assets/canvas-disconnected.png)
+  ![여정 캔버스에서 연결이 끊어진 활동을 표시하는 경고 아이콘](assets/canvas-disconnected.png)
 
 ## 여정 오류 {#canvas-errors}
 
@@ -45,7 +45,7 @@ ht-degree: 40%
 
 시스템에서 두 종류의 문제를 감지합니다. **오류** 및 **경고**. 오류는 게시 및 테스트 활성화를 차단합니다. 경고는 테스트 활성화 또는 게시를 차단하지 않는 잠재적인 문제를 나타냅니다. 문제에 대한 설명 그리고 ERR_XXX_XXX 유형의 문제 로그 ID가 표시됩니다. 이렇게 하면 문제를 식별하는 데 도움이 될 수 있습니다.
 
-![](assets/journey-error-and-warning.png)
+![설명 도구 설명이 있는 여정의 오류 및 경고 표시기](assets/journey-error-and-warning.png)
 
 <!--Most of the time, errors detected by the system are linked to errors visible on the activities but they can also relate to other issues. In all cases, check alerts and resolve the issue using to the error description. If you cannot identify the issue, use the **[!UICONTROL Copy details]** button to store the alerts, and send them to your administrator.-->
 

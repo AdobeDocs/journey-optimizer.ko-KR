@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: 사용 사례, 다중 채널, 메시지, 여정, 채널, 이벤트, 푸시
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '769'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 이 섹션에서는 대상자 읽기, 이벤트, 반응 이벤트 및 이메일/푸시 메시지를 결합하는 사용 사례를 제공합니다.
 
-![](assets/jo-uc1.png)
+![대상자 읽기, 대기 및 전자 메일 활동을 통한 간단한 여정 흐름](assets/jo-uc1.png)
 
 ## 사용 사례에 대한 설명
 
@@ -52,7 +52,7 @@ ht-degree: 1%
 1. 왼쪽 창에서 중앙 작업 영역으로 원하는 필드를 끌어서 놓고 필요에 따라 구성합니다. 이 예제에서는 **City** 및 **출생 연도** 특성 필드를 사용합니다.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-   ![](assets/add-attributes.png)
+   데이터 보강 선택을 위한 ![추가 특성 패널](assets/add-attributes.png)
 
 이제 대상자가 만들어지고 여정에서 사용할 준비가 되었습니다. **대상자 읽기** 활동을 사용하면 대상자에 속한 모든 개인이 여정에 들어갈 수 있습니다.
 
@@ -76,7 +76,7 @@ ht-degree: 1%
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-   ![](assets/jo-uc2.png)
+   ![조건 활동이 골드 멤버 및 기타 경로로 분기되는 여정](assets/jo-uc2.png)
 
 이제 이벤트가 구성되었으며 여정에서 사용할 준비가 되었습니다. 해당 이벤트 활동을 사용하면 고객이 구매할 때마다 작업이 트리거될 수 있습니다.
 
@@ -84,11 +84,11 @@ ht-degree: 1%
 
 1. **대상자 읽기** 활동으로 여정을 시작합니다. 이전에 만든 대상자를 선택합니다. 대상자에 속한 모든 개인이 여정에 들어갑니다.
 
-   ![](assets/jo-uc4.png)
+   ![온도가 50도 미만인지 확인하는 날씨 상태](assets/jo-uc4.png)
 
 1. **이메일** 작업 활동을 삭제하고 &quot;첫 번째 메시지&quot;의 콘텐츠를 정의합니다. 이 메시지는 여정의 모든 개인에게 전송됩니다. 전자 메일을 구성하고 디자인하는 방법에 대해 알아보려면 이 [섹션](../email/create-email.md)을 참조하세요.
 
-   ![](assets/jo-uc5.png)
+   ![온도 조건 및 전자 메일 동작을 포함한 날씨 기반 여정 완료](assets/jo-uc5.png)
 
 1. **반응** 이벤트를 추가하고 **열린 이메일**&#x200B;을(를) 선택합니다. 이 이벤트는 대상자에 속한 개인이 이메일을 열 때 트리거됩니다.
 

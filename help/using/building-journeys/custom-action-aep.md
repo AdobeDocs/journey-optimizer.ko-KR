@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 4%
+source-wordcount: '419'
+ht-degree: 3%
 
 ---
 
@@ -26,11 +26,11 @@ ht-degree: 4%
 
 1. **자격 증명** 섹션에서 **OAuth 서버 간**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/custom-action-aep-1.png)
+   ![작업 유형 드롭다운이 있는 사용자 지정 작업 구성 화면](assets/custom-action-aep-1.png)
 
 1. **cURL 명령 보기**&#x200B;를 클릭합니다.
 
-   ![](assets/custom-action-aep-2.png)
+   ![Adobe Experience Platform 작업 유형 선택](assets/custom-action-aep-2.png)
 
 1. cURL 명령을 복사하고 client_id, client_secret, grant_type 및 범위를 저장합니다.
 
@@ -40,7 +40,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 >[!CAUTION]
 >
->Adobe Developer Console에서 프로젝트를 작성한 후 올바른 권한을 사용하여 개발자 및 API 액세스 제어를 부여해야 합니다. 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}를 참조하세요
+>Adobe Developer Console에서 프로젝트를 작성한 후 올바른 권한을 사용하여 개발자 및 API 액세스 제어를 부여해야 합니다. 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}를 참조하세요
 
 ## HTTP API Inlet을 사용하여 소스 구성
 
@@ -48,15 +48,15 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 1. Adobe Experience Platform의 왼쪽 메뉴에서 **연결** 아래의 **원본**&#x200B;을 클릭합니다. **HTTP API**&#x200B;에서 **데이터 추가**&#x200B;를 클릭합니다.
 
-   ![](assets/custom-action-aep-3.png)
+   Adobe Experience Platform에 대한 ![샌드박스 선택 드롭다운](assets/custom-action-aep-3.png)
 
 1. **새 계정**&#x200B;을 선택하고 인증을 사용하도록 설정합니다. **Source에 연결**&#x200B;을 선택합니다.
 
-   ![](assets/custom-action-aep-4.png)
+   ![스트리밍 데이터에 대한 데이터 집합 선택 인터페이스](assets/custom-action-aep-4.png)
 
 1. 데이터를 쓸 **다음** 및 데이터 집합을 선택하십시오. **다음** 및 **마침**&#x200B;을 클릭합니다.
 
-   ![](assets/custom-action-aep-5.png)
+   ![작업 매개 변수에 매핑된 XDM 스키마 필드](assets/custom-action-aep-5.png)
 
 1. 새로 생성된 데이터 흐름을 엽니다. 스키마 페이로드를 복사하여 메모장에 저장합니다.
 
@@ -109,7 +109,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 1. 헤더(Content-Type, Charset, sandbox-name)가 구성되어 있는지 확인합니다.
 
-   ![](assets/custom-action-aep-7bis.png)
+   ![구성 창이 있는 여정 캔버스의 사용자 지정 작업](assets/custom-action-aep-7bis.png)
 
 ### 인증 설정 {#custom-action-aep-authentication}
 
@@ -143,7 +143,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 1. **인증을 테스트하려면 클릭** 단추를 사용하여 연결을 테스트하십시오.
 
-   ![](assets/custom-action-aep-8.png)
+   ![식 편집기가 있는 매개 변수 매핑 인터페이스](assets/custom-action-aep-8.png)
 
 ### 페이로드 설정 {#custom-action-aep-payload}
 
@@ -182,4 +182,4 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 1. 사용 사례에 따라 여정 버전 ID, 노드 ID, 노드 이름 및 기타 속성을 채웁니다.
 
-   ![](assets/custom-action-aep-9.png)
+   ![복잡한 필드 매핑을 위한 고급 모드 편집기](assets/custom-action-aep-9.png)

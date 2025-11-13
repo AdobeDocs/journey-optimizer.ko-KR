@@ -9,9 +9,9 @@ level: Intermediate
 keywords: 재입력, 여정, 프로필, 반복
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1124'
 ht-degree: 3%
 
 ---
@@ -79,7 +79,7 @@ Adobe Journey Optimizer을 사용하여 다음 유형의 여정을 만들 수 �
 When a journey ends, its status is **[!UICONTROL Closed]**. New individuals can no longer enter the journey. Persons already in the journey automatically exit the journey. 
 -->
 
-![](assets/journey-re-entrance.png)
+![여정 속성에서 다시 시작 설정 전환](assets/journey-re-entrance.png)
 
 재입력 기간이 지나면 프로필이 여정에 다시 들어갈 수 있습니다. 이를 방지하고 이러한 프로필에 대한 재입력을 완전히 비활성화하려면 프로필 또는 대상 데이터를 사용하여 프로필이 이미 입력되었는지 여부를 테스트하는 조건을 추가할 수 있습니다.
 
@@ -94,7 +94,7 @@ Business events follow reentrance rules in the same way as for unitary events. I
 
 **비즈니스 여정**&#x200B;에서 여러 비즈니스 이벤트 실행을 허용하려면 여정 속성의 **[!UICONTROL 실행]** 섹션에서 해당 옵션을 활성화합니다.
 
-![](assets/business-entry.png)
+![여정 구성의 비즈니스 이벤트 항목 관리 옵션](assets/business-entry.png)
 
 비즈니스 이벤트의 경우, 주어진 여정의 경우 첫 번째 실행 시 검색된 대상 데이터가 1시간 기간 동안 재사용됩니다.
 

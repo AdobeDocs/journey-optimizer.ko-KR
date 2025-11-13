@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 여정, 통합, standard, campaign, ACS
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '943'
+source-wordcount: '979'
 ht-degree: 5%
 
 ---
@@ -36,7 +36,7 @@ Adobe Campaign Standard이 있는 경우 다음과 같은 기본 제공 작업 �
 >
 >Journey Optimizer에서 사용하려면 Campaign Standard 트랜잭션 메시지와 관련 이벤트를 게시해야 합니다. 이벤트가 게시되었지만 메시지는 게시되지 않은 경우 Journey Optimizer 인터페이스에 표시되지 않습니다. 메시지가 게시되었지만 연결된 이벤트가 게시되지 않은 경우 Journey Optimizer 인터페이스에 표시되지만 사용할 수 없습니다.
 
-![](assets/journey59.png)
+![여정의 Adobe Campaign Standard 작업 구성](assets/journey59.png)
 
 이벤트(실시간 이라고도 함) 또는 프로필 트랜잭션 메시지 템플릿을 사용할 수 있습니다.
 
@@ -46,7 +46,7 @@ Adobe Campaign Standard이 있는 경우 다음과 같은 기본 제공 작업 �
 
 템플릿을 선택하면 메시지 페이로드에 필요한 모든 필드가 **[!UICONTROL 주소]** 및 **[!UICONTROL Personalization 데이터]** 아래의 활동 구성 창에 표시됩니다. 이러한 각 필드를 이벤트 또는 데이터 소스에서 사용할 필드에 매핑해야 합니다. 고급 표현식 편집기를 사용하여 값을 수동으로 전달하거나, 검색된 정보에 대해 데이터 조작을 수행하거나(예: 문자열을 대문자로 변환), &quot;if, then, else&quot;와 같은 함수를 사용할 수도 있습니다. [이 페이지](expression/expressionadvanced.md)를 참조하십시오.
 
-![](assets/journey60.png)
+![Campaign Standard 메시지 템플릿 선택 인터페이스](assets/journey60.png)
 
 ## 이메일 및 SMS {#section_asc_51g_nhb}
 
@@ -70,7 +70,7 @@ Adobe Campaign Standard이 있는 경우 다음과 같은 기본 제공 작업 �
 
 시스템이 메시지를 보낼 위치를 알아야 하는 필드입니다. 이메일 템플릿의 경우 이메일 주소입니다. SMS의 경우 휴대폰 번호입니다.
 
-![](assets/journey61.png)
+![Campaign Standard 통합에 대한 메시지 매개 변수 구성](assets/journey61.png)
 
 **[!UICONTROL Personalization 데이터]**
 
@@ -80,7 +80,7 @@ Adobe Campaign Standard이 있는 경우 다음과 같은 기본 제공 작업 �
 
 Adobe Campaign Standard 메시지에서 예상하는 필드입니다. 이러한 필드는 메시지를 개인화하거나, 조건부 서식을 적용하거나, 특정 메시지 변형을 선택하는 데 사용할 수 있습니다.
 
-![](assets/journey62.png)
+![Journey Optimizer과 Campaign Standard 간의 필드 매핑](assets/journey62.png)
 
 ## 푸시 {#section_im3_hvf_nhb}
 
@@ -88,7 +88,7 @@ Adobe Campaign Standard 메시지에서 예상하는 필드입니다. 이러한 
 
 먼저 드롭다운 목록에서 모바일 앱을 선택하고 트랜잭션 메시지를 표시해야 합니다.
 
-![](assets/journey62bis.png)
+![Campaign Standard 매개 변수 매핑용 고급 표현식 편집기](assets/journey62bis.png)
 
 **[!UICONTROL Target]** 및 **[!UICONTROL Personalization 데이터]** 범주가 있습니다.
 
