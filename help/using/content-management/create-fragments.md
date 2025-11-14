@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: 3cb16d48c8f478643e8c9891e4fd8c0c3b18f2c5
+source-git-commit: b0b786203d176c3d817f28e1f4cef1f31eda4640
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 25%
+source-wordcount: '758'
+ht-degree: 22%
 
 ---
 
@@ -79,7 +79,7 @@ ht-degree: 25%
 
   >[!CAUTION]
   >
-  >테마 사용 과 수동 스타일 모드 간에는 조각이 상호 호환되지 않습니다. 테마를 적용할 콘텐츠에서 조각을 사용할 수 있으려면 테마 사용 모드에서 이 조각을 만들어야 합니다. [테마에 대해 자세히 알아보기](../email/apply-email-themes.md)
+  >테마 사용 과 수동 스타일 모드 간에는 조각이 상호 호환되지 않습니다. 이메일 콘텐츠에서 조각을 사용할 때 이 조각에 대해 정의한 테마를 적용하는지 확인하십시오. [자세히 알아보기](../email/apply-email-themes.md#leverage-themes-fragment)
 
 * 표현식 조각의 경우 [!DNL Journey Optimizer] 개인화 편집기와 모든 개인화 및 작성 기능을 활용하여 조각 콘텐츠를 작성합니다. [자세히 알아보기](../personalization/personalization-build-expressions.md)
 

@@ -10,7 +10,7 @@ role: User
 level: Beginner, Intermediate
 keywords: 이메일 테마, 모듈, 재사용 가능성, 브랜드 일관성, 이메일 디자인, 사용자 지정 CSS, 모바일 최적화
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
-source-git-commit: 4d12c36391c2546788d49cca6e2468a29fc1e74f
+source-git-commit: b0b786203d176c3d817f28e1f4cef1f31eda4640
 workflow-type: tm+mt
 source-wordcount: '1567'
 ht-degree: 3%
@@ -42,7 +42,7 @@ ht-degree: 3%
 
    * 테마 콘텐츠에서 [조각](../content-management/fragments.md)을 활용하려면 테마를 사용하여 이 조각을 직접 만들어야 합니다. [자세히 알아보기](#leverage-themes-fragment)
 
-   * 이메일 콘텐츠에서 조각을 사용할 때 이 조각에 대해 정의한 테마를 적용해야 합니다. 그렇지 않으면 특히 Outlook 2021 및 이전 버전에서 표시 문제가 발생할 수 있습니다. [자세히 알아보기](#leverage-themes-fragment)
+   * 이메일 콘텐츠에서 조각을 사용할 때 이 조각에 대해 정의한 테마를 적용하는지 확인하십시오. 그렇지 않으면 특히 Outlook 2021 및 이전 버전에서 표시 문제가 발생할 수 있습니다. [자세히 알아보기](#leverage-themes-fragment)
 
 * HTML에서 만든 콘텐츠를 사용하는 경우 [호환성 모드](existing-content.md)가 되며 이 콘텐츠에 테마를 직접 적용할 수 없습니다.
 
