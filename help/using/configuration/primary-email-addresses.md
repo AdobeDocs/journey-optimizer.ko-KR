@@ -9,14 +9,14 @@ role: Admin
 level: Intermediate
 keywords: 기본, 실행, 이메일, 타겟, 프로필, 최적화 도구
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 36a9a4afb24f3c7909c57e983992de2bf12acd24
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 20%
+source-wordcount: '647'
+ht-degree: 14%
 
 ---
 
-# 실행 주소 변경 {#change-primary-email}
+# 기본 실행 필드 관리 {#change-primary-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address"
@@ -73,8 +73,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_execution_address"
 >title="사용자 정의 값 정의"
->abstract="특정 경우에는 기본 실행 주소를 재정의할 수 있습니다. 필드 오른쪽에 있는 **매개변수 재정의 활성화** 아이콘을 사용하여 사용자 정의 기본 주소를 정의합니다."
->additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/configuration/primary-email-addresses#journey-parameters" text="실행 주소 정보"
+>abstract="경우에 따라 기본 실행 필드 값을 재정의할 수 있습니다. 이 필드 오른쪽에 있는 **매개 변수 재정의 사용** 아이콘을 사용하여 우선 순위를 지정할 사용자 지정 전자 메일 주소 또는 전화 번호를 정의하세요."
 
 특정 사용 사례의 경우 전역적으로 설정된 실행 필드를 재정의하고 여정 수준에서 다른 값을 정의할 수 있습니다.
 
@@ -91,7 +90,7 @@ ht-degree: 20%
 
 >[!CAUTION]
 >
->이메일 주소 또는 전화 번호 재정의는 특정 사용 사례에만 사용해야 합니다. 대부분의 경우 샌드박스 수준의 **[!UICONTROL 실행 필드]**&#x200B;에서 기본 주소로 정의된 값을 사용해야 하므로 변경할 필요가 없습니다.
+>이메일 주소 또는 전화 번호 재정의는 특정 사용 사례에만 사용해야 합니다. 대부분의 경우 샌드박스 수준의 **[!UICONTROL 실행 필드]**&#x200B;에서 기본 필드로 정의된 값을 사용해야 하므로 변경할 필요가 없습니다. [자세히 알아보기](#change-primary-email)
 
 ## 채널 구성의 기본 실행 필드 재정의 {#override-execution-address-channel-config}
 
