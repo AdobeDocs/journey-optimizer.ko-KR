@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
-source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
+source-git-commit: 7eaca4faf61431fa438afc7550ff4b89f95fa192
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 3%
+source-wordcount: '445'
+ht-degree: 2%
 
 ---
 
@@ -26,6 +26,22 @@ ht-degree: 3%
 ![](assets/sms_preview_2.png)
 
 콘텐츠를 미리 보고 테스트하는 방법에 대한 자세한 내용은 [콘텐츠 관리](../content-management/preview-test.md) 섹션에서 확인할 수 있습니다.
+
+### 문자 인코딩 및 제한 {#sms-character-limits}
+
+문자 수는 SMS 메시지 계획 및 관리를 지원하기 위해 **[!UICONTROL 콘텐츠 시뮬레이션]** 메뉴에 액세스할 때 표시됩니다.
+
+![](assets/sms_preview_3.png)
+
+Journey Optimizer은 SMS 편집기에서 UTF-8 인코딩을 사용하므로 더블바이트 또는 유니코드 문자를 입력하거나 붙여넣을 수 있습니다. 그런 다음 이러한 문자가 전달을 위해 서비스 공급자에게 전송됩니다. 대부분의 SMS 공급자는 160자 제한이 있는 표준 메시지에 GSM 7비트 인코딩을 사용하고, GSM이 아닌 문자가 70자 제한으로 감지되면 UTF-16(UCS-2)으로 전환합니다.
+
+문자 수는 동적 개인화에 의해 도입된 변형 또는 GSM이 아닌 7비트 특수 문자를 반영하지 않습니다.
+
+>[!IMPORTANT]
+>
+>Journey Optimizer SMS 게재 보고는 연결된 메시지 및 동적 개인화를 고려하지 않으므로 공급자로부터 전송된 실제 메시지 수를 반영하지 않을 수 있습니다. 자세한 사용 및 청구 정보는 Adobe 담당자에게 문의하십시오.
+>
+>SMS 청구 초과를 최소화하기 위한 모범 사례를 알아보려면 [문자 최적화를 위한 SMS 모범 사례](sms-cost-optimization.md)를 참조하세요.
 
 ## 콘텐츠 유효성 검사 {#sms-validate}
 
