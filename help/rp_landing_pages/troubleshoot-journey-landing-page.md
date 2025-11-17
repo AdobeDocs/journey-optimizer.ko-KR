@@ -25,7 +25,7 @@ ht-degree: 100%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ko)
 
 시스템 경고 액세스 및 구독
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
 
 오류 코드 참조
 
@@ -45,7 +45,7 @@ Adobe Journey Optimizer의 일반적인 오류 코드를 이해하고 여정, �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 여정 테스트 또는 게시 전 오류 문제 해결
 
@@ -55,7 +55,7 @@ Adobe Journey Optimizer의 일반적인 오류 코드를 이해하고 여정, �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 라이브 여정 실행 문제 해결
 
@@ -65,7 +65,7 @@ Adobe Journey Optimizer의 일반적인 오류 코드를 이해하고 여정, �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 여정의 인바운드 액션 문제 해결
 
@@ -75,7 +75,7 @@ Adobe Journey Optimizer의 일반적인 오류 코드를 이해하고 여정, �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 사용자 정의 액션 문제 해결
 

@@ -20,7 +20,7 @@ Adobe Journey Optimizer은 인공 지능과 머신 러닝의 기능을 활용하
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 콘텐츠 생성을 위한 AI 어시스턴트
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer은 인공 지능과 머신 러닝의 기능을 활용하
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
 
 전송 시간 최적화
 
@@ -40,7 +40,7 @@ AI를 사용하여 과거 행동을 기반으로 메시지를 보내기에 최�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 의사 결정을 위한 AI 모델
 
@@ -50,7 +50,7 @@ AI를 사용하여 과거 행동을 기반으로 메시지를 보내기에 최�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
 
 AI 어시스턴트 제품 지식
 
@@ -60,7 +60,7 @@ AI 어시스턴트 제품 지식
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 AI를 사용한 콘텐츠 실험
 
@@ -70,7 +70,7 @@ AI를 사용한 콘텐츠 실험
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
 
 브랜드 일관성 점수
 
@@ -80,7 +80,7 @@ AI 기반 점수를 사용하여 AI 생성 콘텐츠가 브랜드 지침을 얼�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 Experiment Accelerator
 
@@ -90,7 +90,7 @@ AI 기반 인사이트 및 추천을 통해 콘텐츠 실험 프로세스의 속
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 이미지 HTML 전환기
 
@@ -100,7 +100,7 @@ AI 기반 전환 기술을 사용하여 정적 이미지 디자인을 편집 가
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 여정 운영 인사이트(Beta)
 

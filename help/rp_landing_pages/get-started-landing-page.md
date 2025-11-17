@@ -22,7 +22,7 @@ Adobe Journey Optimizer는 사용자가 모든 채널에서 개인화된 실시�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
 
 주요 기능
 
@@ -32,7 +32,7 @@ Adobe Journey Optimizer는 사용자가 모든 채널에서 개인화된 실시�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 아키텍처 개요
 
@@ -42,7 +42,7 @@ Adobe Journey Optimizer를 Adobe Experience Platform과 통합하여 대규모 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 역할 및 책임
 
@@ -52,7 +52,7 @@ Adobe Journey Optimizer를 효과적으로 구현하고 관리하는 데 필요�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 사용자 인터페이스 개요
 
@@ -62,7 +62,7 @@ Adobe Journey Optimizer 인터페이스를 탐색하고 여정 관리 및 결정
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 콘텐츠 검색, 필터링, 구성
 
@@ -72,7 +72,7 @@ Adobe Journey Optimizer 인터페이스를 탐색하고 여정 관리 및 결정
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 가드레일 및 제한 사항
 
