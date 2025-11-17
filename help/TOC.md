@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 57494753f24570a1f14c16e4e98d27ee0c710813
 workflow-type: tm+mt
 source-wordcount: '2983'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -133,7 +133,7 @@ ht-degree: 97%
    + [캠페인](/help/rp_landing_pages/campaigns-landing-page.md)
    + [캠페인 시작](using/campaigns/get-started-with-campaigns.md)
    + [캠페인 액세스 및 관리](using/campaigns/manage-campaigns.md)
-   + [자동 중지 시간](using/campaigns/quiet-hours.md)
+   + [방해 금지 시간](using/campaigns/quiet-hours.md)
    + 액션 캠페인 {#action-campaigns}
       + [액션 캠페인](/help/rp_landing_pages/action-campaigns-landing-page.md)
       + [액션 캠페인 작업](using/campaigns/create-campaign.md)
@@ -254,7 +254,7 @@ ht-degree: 97%
             + [콘텐츠 가져오기](using/email/existing-content.md)
             + [나만의 콘텐츠 코딩](using/email/code-content.md)
             + [이메일 템플릿 사용](using/email/use-email-templates.md)
-            + [이미지를 HTML 템플릿으로 변환](using/email/image-to-html.md)
+            + [이미지를 HTML 템플릿으로 전환](using/email/image-to-html.md)
             + [이메일 테마 활용](using/email/apply-email-themes.md)
             + [이메일에 PDF 파일 첨부](using/email/pdf-attachments.md)
          + 콘텐츠 디자인 {#add-content}
@@ -340,7 +340,7 @@ ht-degree: 97%
          + [웹 채널 전제 조건](using/web/web-prerequisites.md)
          + [웹 하위 도메인 구성](using/web/web-delegated-subdomains.md)
          + [웹 채널 구성 만들기](using/web/web-configuration.md)
-      + [웹 경험 만들기 &#x200B;](using/web/create-web.md)
+      + [웹 경험 만들기 ](using/web/create-web.md)
       + 웹 페이지 작성 {#author-web-pages}
          + [웹 페이지 작성](/help/rp_landing_pages/author-web-pages-landing-page.md)
          + [웹 디자이너를 사용하여 작업](using/web/web-visual-editor.md)
@@ -394,7 +394,7 @@ ht-degree: 97%
          + [Journey Optimizer에서 라이브 활동 구성](using/mobile-live/mobile-live-configuration.md)
          + [라이브 활동 SDK 통합 구성](using/mobile-live/mobile-live-configuration-sdk.md)
 + 콘텐츠 관리 {#content-management}
-   + [콘텐츠 관리 &#x200B;](/help/rp_landing_pages/content-management-landing-page.md)
+   + [콘텐츠 관리 ](/help/rp_landing_pages/content-management-landing-page.md)
    + 개인화 {#personalization}
       + [개인화](/help/rp_landing_pages/personalization-landing-page.md)
       + [개인화 시작](using/personalization/personalize.md)
@@ -882,7 +882,7 @@ ht-degree: 97%
       + [사용자 정의 액션 시작](using/action/action.md)
       + [사용자 정의 작업 구성](using/action/about-custom-action-configuration.md)
       + [사용자 정의 작업에서 API 호출 응답 사용](using/action/action-response.md)
-      + [사용자 지정 작업 모니터링](using/action/reporting.md)
+      + [사용자 정의 액션 모니터링](using/action/reporting.md)
 + 시스템과 환경 연결 {#connect-systems}
    + [시스템 및 환경 연결](/help/rp_landing_pages/connect-systems-landing-page.md)
    + [다른 솔루션과 통합](using/integrations/ajo-integrations.md)
