@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: 이메일, 디자인, Stock, 자산
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: 7176f5a1fa4c1b6c564fdb5d65f4e9208a1dce30
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '680'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 89%
 
 >[!NOTE]
 >
->[유럽 접근성 법률](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}에는 모든 디지털 통신에 액세스할 수 있어야 한다고 명시되어 있습니다. 이 섹션에 나열된 전자 메일 디자인 모범 사례 외에도 전자 메일 Designer을 사용하여 액세스 가능한 콘텐츠를 작성하는 데 필요한 [이 페이지](accessible-content.md)에 나열된 지침도 따라야 합니다.
+>[유럽 접근성법](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}에는 모든 디지털 통신의 접근성을 보장해야 한다고 명시되어 있습니다. 이 섹션에서 소개하는 이메일 디자인 모범 사례 외에도, [이 페이지](accessible-content.md)에서 설명하는 이메일 디자이너로 접근 가능한 콘텐츠를 작성하기 위한 지침을 따라야 합니다.
 
 ## 이메일 콘텐츠를 만드는 주요 단계 {#key-steps}
 
@@ -66,7 +66,7 @@ ht-degree: 89%
 
    * 파일이나 .zip 폴더의 **기존 HTML 콘텐츠를 가져옵니다**. 이메일 콘텐츠를 가져오는 방법은 [이 섹션](existing-content.md)을 참조하십시오.
 
-   * AI 기반 이미지를 HTML 변환기로 사용하여 **이미지 디자인을 HTML 템플릿으로 변환**. [이 섹션](image-to-html.md)에서 정적 이미지를 편집 가능한 전자 메일 템플릿으로 변환하는 방법을 알아봅니다.
+   * AI 기반 이미지 HTML 전환기를 사용하여 **이미지 디자인을 HTML 템플릿으로 전환**&#x200B;합니다. [이 섹션](image-to-html.md)에서 정적 이미지를 편집 가능한 이메일 템플릿으로 전환하는 방법을 알아봅니다.
 
    * 기본 제공 또는 사용자 정의 템플릿 목록에서 **기존 콘텐츠를 선택합니다**. [이 섹션](../email/use-email-templates.md)에서 이메일 템플릿으로 작업하는 방법에 대해 알아봅니다.
 
@@ -80,8 +80,8 @@ ht-degree: 89%
 
 메시지 편집기로 이메일 콘텐츠를 만드는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416234?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
 A/B 테스트를 위한 콘텐츠 실험을 구성하여 비즈니스 목표 달성에 가장 도움이 되는 이메일 콘텐츠를 탐색하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447338?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)

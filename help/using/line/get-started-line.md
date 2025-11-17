@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: dc1bddaf-968f-405d-b8cc-b9443a838fa6
 source-git-commit: 73a347c104fe28799c264f9a8b6c3e5e12c8d892
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '163'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ LINE 메시지는 여정 또는 캠페인에서 만들고 보낼 수 있습니�
 
 * **여정**&#x200B;에서 만들기. 여정을 만들고, LINE 활동을 추가하고, 기본 설정을 정의한 다음 **[!UICONTROL 액션: LINE]** 오른쪽 창으로 이동하여 LINE 메시지의 콘텐츠를 만듭니다. [이 페이지](../building-journeys/journey-gs.md)에서 여정을 만드는 방법을 알아봅니다.
 
-* **캠페인**&#x200B;에서 만들기. 캠페인을 만들고 액션으로 LINE을 선택하고 기본 설정을 정의한 다음 메시지 콘텐츠를 편집하여 보낼 LINE 메시지를 정의합니다. [작업 캠페인](../campaigns/campaign-action.md#action-campaign-action)을 만드는 방법을 알아봅니다. | [API 트리거 캠페인](../campaigns/api-triggered-campaigns.md) | [오케스트레이션된 캠페인](../orchestrated/create-orchestrated-campaign.md#create)
+* **캠페인**&#x200B;에서 만들기. 캠페인을 만들고 액션으로 LINE을 선택하고 기본 설정을 정의한 다음 메시지 콘텐츠를 편집하여 보낼 LINE 메시지를 정의합니다. [액션 캠페인](../campaigns/campaign-action.md#action-campaign-action) | [API 트리거 캠페인](../campaigns/api-triggered-campaigns.md) | [오케스트레이션된 캠페인](../orchestrated/create-orchestrated-campaign.md#create) 만드는 방법 알아보기
 
 LINE 메시지를 만들기 전에 Journey Optimizer에서 LINE 채널을 구성합니다. [자세히 알아보기](line-configuration.md).
 

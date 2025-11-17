@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: 이메일, 스타일, css, 본문, 구조
 exl-id: 2e20ecc5-bb58-4dc8-a2bc-ec5a02c16ae8
 source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '173'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
@@ -29,9 +29,9 @@ ht-degree: 62%
 * [이메일 배경 개인화](backgrounds.md) 방법 알아보기
 * [세로 정렬 및 여백 관리](alignment-and-padding.md) 방법 알아보기
 * [인라인 스타일 속성 사용자 정의](inline-styling.md) 방법 알아보기
-* [사용자 지정 CSS를 이메일 콘텐츠에 추가](custom-css.md)하는 방법을 알아보세요.
-* [다크 모드 콘텐츠를 관리하는 방법](dark-mode.md) 알아보기
+* [이메일 콘텐츠에 사용자 정의 CSS를 추가](custom-css.md)하는 방법 알아보기
+* [다크 모드 콘텐츠를 관리](dark-mode.md)하는 방법 알아보기
 
 >[!NOTE]
 >
->[유럽 접근성 법률](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}에는 모든 디지털 통신에 액세스할 수 있어야 한다고 명시되어 있습니다. [에서 콘텐츠를 디자인할 때는 명확성을 위해 색상, 레이블 및 아이콘을 조정하고, 모바일 및 응답형 레이아웃으로 디자인을 최적화하는 등 &#x200B;](../email/accessible-content.md)이 페이지[!DNL Journey Optimizer]에 나열된 특정 스타일 지침을 따라야 합니다.
+>[유럽 접근성법](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}에는 모든 디지털 통신의 접근성을 보장해야 한다고 명시되어 있습니다. [!DNL Journey Optimizer]에서 콘텐츠를 디자인할 때는 명확하게 잘 보이도록 색상, 레이블, 아이콘을 조정하고, 모바일 및 반응형 레이아웃에 디자인을 최적화하는 등 [이 페이지](../email/accessible-content.md)에서 설명하는 구체적인 스타일 지침을 따라야 합니다.

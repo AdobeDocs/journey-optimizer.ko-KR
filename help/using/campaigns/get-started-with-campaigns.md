@@ -11,9 +11,9 @@ mini-toc-levels: 1
 keywords: 캠페인, 방법 , 시작, Optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '931'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -90,7 +90,7 @@ ht-degree: 95%
 
 ## 캠페인 유형
 
-[!DNL Journey Optimizer]에서는 세 가지 캠페인 유형을 지원합니다. 각 유형은 다양한 사용 사례에 적합하며 다양한 채널을 지원합니다. 각 캠페인 유형에서 사용할 수 있는 채널에 대한 자세한 내용은 이 섹션의 표를 참조하십시오. [여정 및 캠페인의 채널](../channels/gs-channels.md#channels)
+[!DNL Journey Optimizer]에서는 세 가지 캠페인 유형을 지원합니다. 각 유형은 서로 다른 사용 사례에 적합하며 다른 채널을 지원합니다. 각 캠페인 유형에서 사용할 수 있는 채널에 대한 자세한 내용은 이 섹션의 표를 참조하십시오. [여정 및 캠페인의 채널](../channels/gs-channels.md#channels)
 
 ![](assets/campaign-modal.png)
 
@@ -145,14 +145,14 @@ ht-degree: 95%
 
    1. [!DNL Permissions] 제품에서 사용자에게 역할을 할당하려면 **[!UICONTROL 역할]** 탭으로 이동하여 위에 설명된 기본 제공 캠페인 관련 **[!UICONTROL 역할]** 중 하나를 선택하십시오.
 
-   1. **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
+   1.  **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
 
    1. 사용자 이름 또는 이메일 주소를 입력하거나 목록에서 사용자를 선택하고 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-      사용자를 이전에 만들지 않은 경우 [사용자 추가 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/ui/users){target="_blank"}를 참조하세요.
+      이전에 사용자를 만들지 않은 경우 [사용자 추가 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/ui/users){target="_blank"}를 참조하십시오.
 
 
-  그러면 인스턴스로 리디렉션되는 이메일을 사용자가 받게 됩니다.
+  그러면 사용자가 인스턴스로 리디렉션되는 이메일을 받게 됩니다.
 
   +++
 

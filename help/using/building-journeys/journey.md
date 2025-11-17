@@ -10,9 +10,9 @@ keywords: 여정, 검색, 시작
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
 source-git-commit: ef395b65a92fea235811b595cca9bf73f9e78022
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '427'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -51,11 +51,11 @@ Journey Optimizer 여정 디자이너는 마케터와 여정 실무자가 전체
 
 여정의 구성 요소를 살펴보고 캔버스에서 여정을 작성할 때의 기본을 이해합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430355?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ## 추가 리소스 {#additional-resources}
 
-* [여정 FAQ](journey-faq.md) - 여정 관련 자주 묻는 질문
+* [여정 FAQ](journey-faq.md) - 여정 관련 자주 하는 질문
 * [오류 코드 참조](error-codes-reference.md) - 여정 오류 코드 및 문제 해결 단계
 * [경고](../reports/alerts.md) - 여정 모니터링을 위한 경고 설정
 * [문제 해결](troubleshooting.md) - 일반적인 여정 문제 및 해결 방법

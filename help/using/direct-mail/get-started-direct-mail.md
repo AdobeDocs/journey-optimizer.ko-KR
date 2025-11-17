@@ -8,9 +8,9 @@ level: Beginner
 keywords: 다이렉트 메일, 메시지, 캠페인
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '313'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -36,10 +36,10 @@ ht-degree: 76%
 
 ## 추가 리소스
 
-* **[DM 만들기](create-direct-mail.md)** - DM 게재를 만들고 오프라인 채널에 대한 추출 파일을 구성하는 방법을 알아봅니다.
-* **[DM 채널 구성](direct-mail-configuration.md)** - DM 표면 및 파일 라우팅 구성을 설정합니다.
-* **[여정의 DM](direct-mail-journeys.md)** - 고객 여정 내에서 DM 작업을 사용하는 방법에 대해 알아봅니다.
-* **[DM 테스트 및 보내기](test-send-direct-mail.md)** - DM 게재 테스트, 유효성 검사 및 게시 방법을 알아봅니다.
-* **[DM 튜토리얼](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}** - DM 기능 및 모범 사례에 대한 단계별 비디오 튜토리얼을 살펴보십시오.
+* **[다이렉트 메일 만들기](create-direct-mail.md)** - 다이렉트 메일 게재를 만들고 오프라인 채널용 추출 파일을 구성하는 방법을 알아봅니다.
+* **[다이렉트 메일 채널 구성](direct-mail-configuration.md)** - 다이렉트 메일 표면 및 파일 라우팅 구성을 설정합니다.
+* **[여정의 다이렉트 메일](direct-mail-journeys.md)** - 고객 여정 내에서 다이렉트 메일 액션을 사용하는 방법에 대해 알아봅니다.
+* **[다이렉트 메일 테스트 및 보내기](test-send-direct-mail.md)** - 다이렉트 메일 게재의 테스트, 유효성 검사, 게시 방법을 알아봅니다.
+* **[다이렉트 메일 튜토리얼](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}** - 다이렉트 메일 기능 및 모범 사례에 대한 단계별 비디오 튜토리얼을 살펴봅니다.
 
 

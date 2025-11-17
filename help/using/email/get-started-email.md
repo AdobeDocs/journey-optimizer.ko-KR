@@ -10,9 +10,9 @@ level: Beginner
 keywords: 이메일, 시작, 만들기, 미리보기
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
 source-git-commit: 73a347c104fe28799c264f9a8b6c3e5e12c8d892
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '295'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 63%
 
 * **여정**&#x200B;에서 만들기: 여정에 **[!UICONTROL 이메일]** 활동을 추가하고 기본 설정을 정의한 다음 오른쪽의 **[!UICONTROL 작업: 이메일]** 창에서 메시지의 콘텐츠를 만듭니다. [여정을 만드는 방법 알아보기](../building-journeys/journey-gs.md)
 
-* **캠페인**&#x200B;에서 만들기: 캠페인을 만든 후 **[!UICONTROL 이메일]**&#x200B;을 작업으로 선택하고 기본 설정을 정의합니다. [작업 캠페인](../campaigns/campaign-action.md#action-campaign-action)을 만드는 방법을 알아봅니다. | [API 트리거 캠페인](../campaigns/api-triggered-campaigns.md) | [오케스트레이션된 캠페인](../orchestrated/create-orchestrated-campaign.md#create)
+* **캠페인**&#x200B;에서 만들기: 캠페인을 만든 후 **[!UICONTROL 이메일]**&#x200B;을 작업으로 선택하고 기본 설정을 정의합니다. [액션 캠페인](../campaigns/campaign-action.md#action-campaign-action) | [API 트리거 캠페인](../campaigns/api-triggered-campaigns.md) | [오케스트레이션된 캠페인](../orchestrated/create-orchestrated-campaign.md#create) 만드는 방법 알아보기
 
 
 >[!IMPORTANT]
@@ -112,9 +112,9 @@ ht-degree: 63%
 
 ## 추가 리소스
 
-* **[전자 메일 만들기](create-email.md)** - 단계별 지침을 통해 캠페인 및 여정에서 전자 메일 메시지를 만드는 방법을 알아봅니다.
-* **[전자 메일 콘텐츠 디자인](get-started-email-design.md)** - 전자 메일 콘텐츠를 처음부터 디자인하거나 템플릿을 사용하여 디자인할 수 있는 다양한 방법을 살펴봅니다.
-* **[전자 메일 구성](get-started-email-config.md)** - 전자 메일 표면, 하위 도메인 및 IP 풀을 포함한 전자 메일 설정을 구성하는 방법을 이해합니다.
-* **[이메일 개인화 및 스타일 지정](get-started-email-style.md)** - 사용자 지정 CSS, 맞춤, 패딩 및 다크 모드 지원을 포함한 기본 스타일 지정 기술.
-* **[전자 메일 추적 및 모니터링](message-tracking.md)** - 성능 분석을 위해 메시지 열기, 클릭 수를 추적하고 URL 추적을 관리하는 방법에 대해 알아봅니다.
-* **[전자 메일 채널 튜토리얼](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/email-channel){target="_blank"}** - 전자 메일 기능 및 모범 사례에 대한 단계별 비디오 튜토리얼을 살펴보십시오.
+* **[이메일 만들기](create-email.md)** - 단계별 지침을 통해 캠페인 및 여정에서 이메일 메시지를 만드는 방법을 알아봅니다.
+* **[이메일 콘텐츠 디자인](get-started-email-design.md)** - 이메일 콘텐츠를 처음부터 디자인하거나 템플릿을 사용하여 디자인할 수 있는 다양한 방법을 살펴봅니다.
+* **[이메일 구성](get-started-email-config.md)** - 이메일 표면, 하위 도메인, IP 풀을 포함한 이메일 설정을 구성하는 방법을 이해합니다.
+* **[이메일 개인화 및 스타일 지정](get-started-email-style.md)** - 사용자 정의 CSS, 정렬, 패딩, 다크 모드 지원을 포함한 스타일 기술을 마스터합니다.
+* **[이메일 추적 및 모니터링](message-tracking.md)** - 성과 분석을 위해 메시지 오픈, 클릭 수를 추적하고 URL 추적을 관리하는 방법에 대해 알아봅니다.
+* **[이메일 채널 튜토리얼](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/channels/email-channel){target="_blank"}** - 이메일 기능 및 모범 사례에 대한 단계별 비디오 튜토리얼을 살펴봅니다.

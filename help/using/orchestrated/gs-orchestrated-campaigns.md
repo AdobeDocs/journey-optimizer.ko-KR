@@ -7,9 +7,9 @@ short-description: 오케스트레이션된 캠페인 주요 기능 및 사용 �
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
 source-git-commit: 9619ffd2cde677c0c83ee1b53f232c41b5faaa9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '779'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -92,7 +92,7 @@ ht-degree: 79%
 
 ## 더 자세히 알아보기
 
-이제 오케스트레이션된 캠페인이 무엇인지 이해했으므로, 이 설명서 섹션을 자세히 살펴보고 기능 작업을 시작할 차례입니다.
+오케스트레이션된 캠페인이 무엇인지 이해했다면 이제 아래 설명서 섹션을 자세히 살펴보고 이 기능을 활용하여 작업을 시작할 차례입니다.
 
 <table><tr style="border: 0; text-align: center;">
 <td>
@@ -124,10 +124,10 @@ ht-degree: 79%
 
 ## 추가 리소스
 
-* **[첫 번째 규칙을 빌드합니다](build-query.md)** - 규칙 빌더를 기본으로 사용하여 대상 쿼리를 만들고 관계형 데이터를 사용하여 정밀하게 대상을 세그먼트화합니다.
-* **[관계형 스키마 만들기](gs-schemas.md)** - 캠페인에서 다중 엔티티 데이터를 활용하도록 관계형 스키마를 설정하고 구성하는 방법을 이해합니다.
-* **[오케스트레이션된 캠페인에 대한 보고](reporting-campaigns.md)** - 자세한 보고 지표 및 통찰력을 통해 캠페인 성과를 추적하고 분석합니다.
+* **[첫 번째 규칙 작성](build-query.md)** - 규칙 빌더를 마스터하여 타기팅된 쿼리를 만들고 관계형 데이터를 사용하여 대상자를 정밀하게 세분화합니다.
+* **[관계형 스키마 만들기](gs-schemas.md)** - 관계형 스키마를 설정하고 구성하여 캠페인에서 다중 엔터티 데이터를 활용하는 방법을 이해합니다.
+* **[오케스트레이션된 캠페인 보고](reporting-campaigns.md)** - 자세한 보고 지표와 인사이트를 통해 캠페인 성과를 추적하고 분석합니다.
 * **[캠페인 시작 및 모니터링](start-monitor-campaigns.md)** - 캠페인을 시작하고 실시간으로 실행을 모니터링하는 모범 사례를 알아봅니다.
-* **[보호 기능 및 제한 사항](guardrails.md)** - 최적의 캠페인 성능을 보장하기 위해 중요한 보호 기능, 제한 사항 및 모범 사례를 검토하십시오.
-* **[자주 묻는 질문](orchestrated-campaigns-faq.md)** - 오케스트레이션된 캠페인 기능, 기능 및 사용 사례에 대한 일반적인 질문에 대한 답변을 찾아보십시오.
-* **[오케스트레이션된 캠페인 튜토리얼](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/create-campaigns/orchestrated-campaigns/introduction-to-orchestrated-campaigns){target="_blank"}** - 기능 및 모범 사례에 대한 단계별 비디오 튜토리얼을 살펴보십시오.
+* **[가드레일 및 제한 사항](guardrails.md)** - 최적의 캠페인 성능을 보장하기 위해 중요한 가드레일, 제한 사항, 모범 사례를 검토합니다.
+* **[자주 하는 질문](orchestrated-campaigns-faq.md)** - 오케스트레이션된 캠페인의 기능 및 사용 사례와 관련해 많이 나오는 질문에 대한 답변을 찾을 수 있습니다.
+* **[오케스트레이션된 캠페인 튜토리얼](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/create-campaigns/orchestrated-campaigns/introduction-to-orchestrated-campaigns){target="_blank"}** - 기능 및 모범 사례를 다루는 단계별 비디오 튜토리얼을 살펴봅니다.

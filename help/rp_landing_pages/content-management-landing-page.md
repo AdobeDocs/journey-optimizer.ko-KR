@@ -6,9 +6,9 @@ description: 콘텐츠 관리
 redpen-status: CREATED_||_2025-08-12_00-44-43
 exl-id: 159ae1bf-e1bd-48c7-b91b-2ac8bdfffaf2
 source-git-commit: b8c2b05df22e4aa78ea95e47e1554c9d538dfc0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '267'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ Adobe Journey Optimizer의 컨텐츠 관리 기능을 사용하면 캠페인, �
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-Personalization 추가
+개인화 추가
 
 맞춤형 고객 경험을 만들기 위해 개인화 기능을 구현하고 최적화하는 방법에 대해 알아봅니다.
 
@@ -30,7 +30,7 @@ Personalization 추가
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 랜딩 페이지 만들기
 
@@ -40,7 +40,7 @@ Personalization 추가
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 콘텐츠 템플릿
 
@@ -50,7 +50,7 @@ Personalization 추가
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 재사용 가능한 콘텐츠 조각
 
@@ -60,7 +60,7 @@ Personalization 추가
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 다이내믹 콘텐츠 만들기
 
@@ -70,7 +70,7 @@ Personalization 추가
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 솔루션 간 사용 사례
 

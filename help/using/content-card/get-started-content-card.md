@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 64f6bd0e-f910-469b-b089-570668d4c4f2
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '152'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -49,6 +49,6 @@ ht-degree: 70%
 
 ## 추가 리소스
 
-* **[랜딩 페이지의 콘텐츠 카드](content-card-lp.md)** - 향상된 참여를 위해 랜딩 페이지에서 콘텐츠 카드를 구현하는 방법을 알아봅니다.
-* **[콘텐츠 카드 보고](content-card-report.md)** - 자세한 지표와 통찰력을 통해 콘텐츠 카드 성능을 추적하고 분석합니다.
-* **[콘텐츠 카드 튜토리얼](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/channels/content-cards/create-content-cards){target="_blank"}** - 콘텐츠 카드 기능 및 모범 사례에 대한 단계별 비디오 튜토리얼을 살펴보십시오.
+* **[랜딩 페이지의 콘텐츠 카드](content-card-lp.md)** - 참여도 향상을 위해 랜딩 페이지에 콘텐츠 카드를 구현하는 방법을 알아봅니다.
+* **[콘텐츠 카드 보고](content-card-report.md)** - 자세한 지표와 인사이트를 통해 콘텐츠 카드의 성과를 추적하고 분석합니다.
+* **[콘텐츠 카드 튜토리얼](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/channels/content-cards/create-content-cards){target="_blank"}** - 콘텐츠 카드의 기능과 모범 사례에 대한 단계별 비디오 튜토리얼을 살펴봅니다.

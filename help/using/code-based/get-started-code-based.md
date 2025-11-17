@@ -7,9 +7,9 @@ role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
 source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '855'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -104,10 +104,10 @@ ht-degree: 90%
 
 ## 추가 리소스
 
-* **[코드 기반 여정 만들기](create-code-based.md)** - 사용자 지정 구현을 위한 코드 기반 캠페인 및 경험을 만들고 구성하는 방법에 대해 알아봅니다.
+* **[코드 기반 여정 만들기](create-code-based.md)** - 사용자 정의 구현을 위한 코드 기반 캠페인 및 경험을 만들고 구성하는 방법에 대해 알아봅니다.
 * **[코드 기반 채널 구성](code-based-configuration.md)** - 적절한 표면 및 구현 설정을 사용하여 코드 기반 경험 구성을 설정합니다.
-* **[코드 기반 필수 구성 요소](code-based-prerequisites.md)** - 구현에 필요한 기술 요구 사항 및 개발자 리소스를 이해합니다.
-* **[코드 기반 경험 테스트](test-code-based.md)** - 게시하기 전에 코드 기반 경험을 미리 보고 테스트하는 방법에 대해 알아봅니다.
+* **[코드 기반 필수 사항](code-based-prerequisites.md)** - 구현에 필요한 기술 요구 사항 및 개발자 리소스를 이해합니다.
+* **[코드 기반 경험 테스트](test-code-based.md)** - 코드 기반 경험을 게시하기 전에 미리 보고 테스트하는 방법에 대해 알아봅니다.
 * **[구현 샘플](code-based-implementation-samples.md)** - 다양한 사용 사례에 대한 코드 예제 및 구현 패턴을 살펴봅니다.
-* **[코드 기반 경험 튜토리얼](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/channels/code-based-experience-channel/create-a-code-based-experience-campaign){target="_blank"}** - 코드 기반 기능 및 모범 사례에 대한 단계별 비디오 튜토리얼을 살펴보십시오.
+* **[코드 기반 경험 튜토리얼](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/channels/code-based-experience-channel/create-a-code-based-experience-campaign){target="_blank"}** - 코드 기반 기능 및 모범 사례에 대한 단계별 비디오 튜토리얼을 살펴봅니다.
 
