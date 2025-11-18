@@ -10,9 +10,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 이메일 테마, 모듈, 재사용 가능성, 브랜드 일관성, 이메일 디자인, 사용자 지정 CSS, 모바일 최적화
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
-source-git-commit: b0b786203d176c3d817f28e1f4cef1f31eda4640
+source-git-commit: 53ae620926fc8ba3e9c8b558584ed8eb6942e3d4
 workflow-type: tm+mt
-source-wordcount: '1567'
+source-wordcount: '1604'
 ht-degree: 3%
 
 ---
@@ -39,6 +39,8 @@ ht-degree: 3%
   수동 스타일 모드를 선택하면 이메일을 다시 설정하지 않는 한 테마를 적용할 수 없습니다.
 
 * [조각](../content-management/fragments.md)은(는) 테마 사용 모드와 수동 스타일 지정 모드 간에 서로 호환되지 않습니다.
+
+   * 테마를 사용하지 않고 만든 이메일 콘텐츠에서는 테마 조각을 사용할 수 없습니다.
 
    * 테마 콘텐츠에서 [조각](../content-management/fragments.md)을 활용하려면 테마를 사용하여 이 조각을 직접 만들어야 합니다. [자세히 알아보기](#leverage-themes-fragment)
 
@@ -227,6 +229,10 @@ ht-degree: 3%
 ## 템플릿을 테마와 호환되도록 합니다 {#theme-convertor}
 
 [!DNL Journey Optimizer]을(를) 사용하면 수동 스타일을 사용하여 만든 템플릿을 테마 호환 콘텐츠로 변환할 수 있습니다. 이 기능은 테마가 [!DNL Journey Optimizer]에 도입되기 전에 콘텐츠 템플릿을 만들었거나 외부 콘텐츠를 가져오는 경우에 특히 유용합니다.
+
+>[!NOTE]
+>
+> **전자 메일 템플릿**&#x200B;만 테마와 호환되도록 변환할 수 있습니다. 개별 이메일은 변환할 수 없습니다. 먼저 콘텐츠를 템플릿으로 저장해야 합니다.
 
 1. 이메일 [콘텐츠 템플릿](../content-management/create-content-templates.md)을(를) 열고 이메일 Designer을 사용하여 콘텐츠를 편집합니다.
 
