@@ -9,7 +9,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 이벤트, 여정, 비즈니스, 구성
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 712c077d146058c5f5c407e622972d2d10e278fa
 workflow-type: tm+mt
 source-wordcount: '1127'
 ht-degree: 12%
@@ -27,11 +27,11 @@ ht-degree: 12%
 
 대상자 기반 읽기 여정은 한 번에, 정기적으로 스케줄러에 의해 또는 이벤트가 발생할 때 비즈니스 이벤트에 의해 트리거될 수 있습니다.
 
-비즈니스 이벤트는 &quot;제품이 재입고됨&quot;, &quot;기업의 주가가 일정 값에 도달함&quot; 등이 될 수 있습니다.
+비즈니스 이벤트는 &quot;재고가 있는 제품&quot;, &quot;기업의 주가가 일정 값에 도달함&quot; 등이 될 수 있습니다.
 
 >[!NOTE]
 >
->비즈니스 이벤트 사용 사례 [자습서](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html)를 볼 수도 있습니다. 프로필에 대해 스키마를 활성화할 필요가 없습니다.
+>비즈니스 이벤트 사용 사례 [자습서](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/journeys/use-case-business-event){target="_blank"}를 볼 수도 있습니다. 프로필에 대해 스키마를 활성화할 필요가 없습니다.
 
 ## 중요 정보 {#important-notes}
 
@@ -56,7 +56,7 @@ ht-degree: 12%
 
 **구체화된 대상자를 오버로드할 수 없도록 하는 보호 기능은 무엇입니까?**
 
-실시간 비즈니스 이벤트의 경우 지정된 여정 동안 첫 번째 이벤트 작업에서 푸시한 데이터가 1시간 기간 동안 재사용됩니다. 예약된 여정의 경우 가드레일이 없습니다. 대상자에 대한 자세한 내용은 [Adobe Experience Platform 세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ko)를 참조하세요.
+실시간 비즈니스 이벤트의 경우 지정된 여정 동안 첫 번째 이벤트 작업에서 푸시한 데이터가 1시간 기간 동안 재사용됩니다. 예약된 여정의 경우 가드레일이 없습니다. 대상자에 대한 자세한 내용은 [Adobe Experience Platform 세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ko){target="_blank"}를 참조하세요.
 
 ## 비즈니스 이벤트 시작 {#gs-business-events}
 
