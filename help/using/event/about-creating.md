@@ -9,7 +9,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: event, unitary, create, 여정
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: b8c2eced0f517e917021e9f42a8943b4a5e4f287
 workflow-type: tm+mt
 source-wordcount: '1693'
 ht-degree: 13%
@@ -42,15 +42,13 @@ ht-degree: 13%
 
 1. 이벤트의 이름을 입력합니다. 설명을 추가할 수도 있습니다.
 
-   ![](assets/jo-event3.png)
-
    >[!NOTE]
    >
    >영숫자와 밑줄만 허용됩니다. 최대 길이는 30자입니다.
 
-1. **[!UICONTROL Type]** 필드에서 **Unitary**&#x200B;를 선택합니다.
+   ![](assets/jo-event3.png)
 
-   ![](assets/jo-event3bis.png)
+1. **[!UICONTROL Type]** 필드에서 **Unitary**&#x200B;를 선택합니다.
 
 1. **[!UICONTROL 이벤트 ID 유형]** 필드에서 사용할 이벤트 ID 유형을 선택합니다. **규칙 기반** 또는 **시스템 생성**. [이 섹션](../event/about-events.md#event-id-type)의 이벤트 ID 유형에 대해 자세히 알아보세요.
 
@@ -68,8 +66,6 @@ ht-degree: 13%
 
 1. 규칙 기반 이벤트의 경우 **[!UICONTROL 이벤트 ID 조건]** 필드 내부를 클릭합니다. 단순 또는 고급 표현식 편집기를 사용하여 여정을 트리거할 이벤트를 식별하는 데 시스템에서 사용할 조건을 정의합니다.
 
-   ![](assets/jo-event6.png)
-
    이 예제에서는 프로필의 도시를 기반으로 조건을 작성했습니다. 즉, 시스템에서 이 조건(**[!UICONTROL City]** 필드 및 **[!UICONTROL Paris]** 값)과 일치하는 이벤트를 받을 때마다 여정에게 전달합니다.
 
    >[!NOTE]
@@ -81,8 +77,6 @@ ht-degree: 13%
 1. ID 유형을 추가합니다. 이 단계는 선택 사항이지만 ID 유형을 추가하면 실시간 고객 프로필 서비스에 저장된 정보를 활용할 수 있으므로 권장됩니다. 이 정보에 따라 이벤트의 키 유형이 정의됩니다. 자세한 내용은 [이 섹션](../event/about-creating.md#select-the-namespace)을 참조하십시오.
 
 1. 프로필 식별자 정의: 페이로드 필드에서 필드를 선택하거나 공식을 정의하여 이벤트와 연관된 사용자를 식별합니다. ID 유형을 선택하면 이 키가 자동으로 설정되지만 편집할 수 있습니다. 실제로 여정은 ID 유형에 해당해야 하는 키를 선택합니다(예를 들어 이메일 ID 유형을 선택하면 이메일 키가 선택됨). 자세한 내용은 [이 섹션](../event/about-creating.md#define-the-event-key)을 참조하십시오.
-
-   ![](assets/jo-event7.png)
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
