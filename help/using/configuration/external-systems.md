@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: 외부, API, 최적화 프로그램, 한도
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: cef105e55f3353c616e18be84faa0ee774aeac06
+source-git-commit: e6e8178f7a57a6d57c8d137dd313a26a5878994b
 workflow-type: tm+mt
-source-wordcount: '1654'
-ht-degree: 18%
+source-wordcount: '1781'
+ht-degree: 17%
 
 ---
 
@@ -110,7 +110,7 @@ API에 대한 자세한 설명은 [Adobe Journey Optimizer API 설명서](https:
 
 Journey Optimizer과 외부 시스템 통합에 대한 FAQ는 다음과 같습니다.
 
-세부 정보가 필요하십니까? 이 페이지 하단의 피드백 옵션을 사용하여 질문을 제기하거나 [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"}에 연결하세요.
+세부 정보가 필요하십니까? 이 페이지 하단의 피드백 옵션을 사용하여 질문을 제기하거나 [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}에 연결하세요.
 
 +++ 캡핑 또는 조절 규칙을 구성하려면 어떻게 해야 합니까? 기본 규칙이 있습니까?
 
@@ -127,6 +127,24 @@ Journey Optimizer과 외부 시스템 통합에 대한 FAQ는 다음과 같습�
 +++ 시간 초과는 어디에서 구성할 수 있습니까? 최대값이 있습니까?
 
 각 여정에서 시간 제한 기간을 정의할 수 있습니다. 시간 제한 기간은 여정 속성에 구성됩니다. 시간 제한 기간은 1초에서 30초 사이여야 합니다. [이 섹션](../configuration/external-systems.md#timeout) 및 [이 페이지](../building-journeys/journey-properties.md#timeout_and_error)를 참조하세요.
+
++++
+
++++ 이그레스 프록시는 무엇이며 언제 사용해야 합니까?
+
+이그레스 프록시는 Journey Optimizer에서 외부 시스템으로의 아웃바운드 호출을 위해 **고정 IP 주소**&#x200B;를 제공합니다. 타사 엔드포인트에 IP 허용 목록에 추가가 필요한 경우 사용합니다.
+
+**중요:** 이그레스 프록시는 처리량, 속도 제한 또는 동시 연결 수를 제어하지 않습니다. 호출 볼륨 및 연결 제한을 관리하려면 [API 제한](capping.md) 또는 [API 제한](throttling.md)을 사용합니다.
+
+**이그레스 프록시 사용 대상:**
+* 타사 방화벽 또는 엔드포인트에서 정적 IP 허용 목록에 추가
+
+**다음에 대한 최대 가용량/제한 API 사용:**
+* 초당 API 호출 수 제한
+* 엔드포인트에 대한 동시 연결 제어
+* 과부하로부터 외부 시스템 보호
+
+허용 목록에 추가 목적으로 고정 IP가 필요한 경우 Adobe에 연락하여 조직의 이그레스 프록시를 활성화하십시오.
 
 +++
 
