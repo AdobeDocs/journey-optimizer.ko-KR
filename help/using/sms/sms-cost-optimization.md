@@ -7,9 +7,9 @@ feature: SMS
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 7eaca4faf61431fa438afc7550ff4b89f95fa192
+source-git-commit: 13b3c8aa7fce85029167ef31feb7272e4877b7b0
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -66,9 +66,9 @@ Journey Optimizer은 컨텐츠 시뮬레이션 중에 공백을 포함한 문자
 
 ## 보고 이해 {#understanding-reporting}
 
-**Journey Optimizer 보고**&#x200B;에서는 SMS 부분에 관계없이 전체 메시지를 한 번의 전송으로 계산합니다. 이렇게 하면 참여 가능한 프로필 양을 줄이는 데 도움이 됩니다.
+**Journey Optimizer 보고**&#x200B;에서는 SMS 부분에 관계없이 전체 메시지를 한 번의 전송으로 계산합니다.
 
-**공급자 보고**&#x200B;는 배달할 실제 SMS 부분을 표시하므로 청구 및 초과를 확인하는 데 사용해야 합니다.
+**공급자 보고**&#x200B;은(는) 게재에 사용된 SMS 메시지 파트의 실제 수를 반영하며, 청구 및 잠재적 초과 사용을 확인하기 위해 참조되어야 합니다. Adobe이 Sinch를 통한 SMS 공급자인 경우 월별 기준으로 이 청구 보고서를 별도로 받게 됩니다.
 
 ## Personalization 고려 사항 {#personalization-considerations}
 
