@@ -9,7 +9,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 이벤트, 여정, 비즈니스, 구성
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: 712c077d146058c5f5c407e622972d2d10e278fa
+source-git-commit: b8c2eced0f517e917021e9f42a8943b4a5e4f287
 workflow-type: tm+mt
 source-wordcount: '1127'
 ht-degree: 12%
@@ -93,8 +93,6 @@ ht-degree: 12%
    ![](assets/test-profiles-4.png)
 
 1. **[!UICONTROL 이벤트 ID 조건]** 필드 내부를 클릭합니다. 단순 표현식 편집기를 사용하여 시스템에서 여정을 트리거하는 이벤트를 식별하는 데 사용하는 조건을 정의합니다.
-
-   ![](assets/jo-event6-business.png)
 
    이 예제에서는 제품 ID를 기반으로 조건을 작성했습니다. 즉, 시스템이 이 조건과 일치하는 이벤트를 받을 때마다 여정에게 전달합니다.
 
