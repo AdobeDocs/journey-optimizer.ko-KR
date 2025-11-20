@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '2929'
-ht-degree: 100%
+source-git-commit: 78cf16d0f62d6cb7fac82b9e8f89e8726e2db896
+workflow-type: tm+mt
+source-wordcount: '3075'
+ht-degree: 95%
 
 ---
 
@@ -59,6 +59,24 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 * 동일한 발신 도메인을 사용하여 [!DNL Adobe Journey Optimizer] 및 다른 제품(예: [!DNL Adobe Campaign] 또는 [!DNL Adobe Marketo Engage])에서 이메일 메시지를 보낼 수 없습니다.
 
 이메일 메시지를 디자인할 때 시스템은 주요 설정을 확인하고 경고(권장 사항 및 모범 사례)와 오류(테스트 또는 활성화를 방해하는 차단 문제)에 대한 알림을 표시합니다. [이 섹션](../email/create-email.md#check-email-alerts)에서 이메일 경고 및 유효성 검사 요구 사항에 대해 자세히 알아보십시오.
+
+#### 여정 게시용 메시지 콘텐츠 크기 {#message-content-size}
+
+전자 메일 메시지가 포함된 여정을 게시할 때 백 엔드를 처리한 후 총 메시지 콘텐츠 크기가 **2MB**&#x200B;을(를) 초과할 수 없습니다. 게시 중에 시스템은 링크, 이미지를 패치하고 변형을 적용하여 메시지 콘텐츠를 자동으로 처리하므로 페이로드 크기가 작성된 콘텐츠 크기 이상으로 증가합니다.
+
+>[!CAUTION]
+>
+>최종 처리된 메시지 콘텐츠가 2MB를 초과하면 여정 게시가 실패합니다. 게시 실패를 방지하려면, 백엔드 처리 오버헤드에 대해 300-400KB의 버퍼를 허용하도록 작성된 메시지 콘텐츠를 2MB 미만(이상적으로는 **1MB** 미만)으로 유지하십시오.
+
+**게시 오류를 방지하는 모범 사례:**
+
+* 작성된 이메일 콘텐츠를 1MB 미만으로 유지
+* 콘텐츠 변형 수 최소화
+* 메시지에 추가하기 전에 이미지를 최적화하고 압축합니다.
+* 사용하지 않는 에셋 및 불필요한 HTML 요소 제거
+* 프로덕션에 여정을 게시하기 전에 메시지 크기 테스트
+
+컨텐츠 크기로 인해 여정 게시가 실패하면 메시지 컨텐츠를 줄이고 여정을 다시 게시하십시오.
 
 ### SMS 가드레일 {#sms-guardrails}
 

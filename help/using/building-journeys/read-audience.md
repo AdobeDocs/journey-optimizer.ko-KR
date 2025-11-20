@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 활동, 여정, 읽기, 대상, 플랫폼
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
-source-git-commit: b3114dabcfe09f6b46111e81bec4b1debe770e40
+source-git-commit: b6323cd34b7429120edc4ab10dae2e78778727ce
 workflow-type: tm+mt
-source-wordcount: '3033'
-ht-degree: 11%
+source-wordcount: '3199'
+ht-degree: 10%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 11%
 
    >[!NOTE]
    >
-   >또한 [대상 구성](../audience/get-started-audience-orchestration.md) 또는 [CSV 파일에서 업로드한](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko#import-audience){target="_blank"}을 사용하여 만든 Adobe Experience Platform 대상을 타깃팅할 수도 있습니다.
+   >또한 [대상 구성](../audience/get-started-audience-orchestration.md) 또는 [CSV 파일에서 업로드한](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}을 사용하여 만든 Adobe Experience Platform 대상을 타깃팅할 수도 있습니다.
 
    목록에 표시되는 열을 사용자 정의하고 정렬할 수 있습니다.
 
@@ -70,7 +70,7 @@ ht-degree: 11%
 
    >[!NOTE]
    >
-   >대상자 참가 상태가 **실현됨**&#x200B;인 개인만 여정에 들어갑니다. 대상자를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ko#interpret-segment-results){target="_blank"}를 참조하세요.
+   >대상자 참가 상태가 **실현됨**&#x200B;인 개인만 여정에 들어갑니다. 대상자를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}를 참조하세요.
 
 1. **[!UICONTROL 네임스페이스]** 필드에서 개인을 식별하기 위해 사용할 네임스페이스를 선택합니다. 기본적으로 필드는 마지막으로 사용된 네임스페이스로 미리 채워집니다. [네임스페이스에 대해 자세히 알아보기](../event/about-creating.md#select-the-namespace).
 
@@ -90,7 +90,7 @@ ht-degree: 11%
 
 * 가장 좋은 방법은 **대상자 읽기** 활동에서만 일괄 대상자를 사용하는 것입니다. 이렇게 하면 여정에 사용된 대상자에 대해 안정적이고 일관된 카운트를 제공합니다. 대상자 읽기는 일괄 사용 사례용으로 설계되었습니다. 사용 사례에 실시간 데이터가 필요한 경우 **[대상 자격](audience-qualification-events.md)** 활동을 사용하십시오.
 
-* CSV 파일에서 가져온 대상 [개](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko#import-audience) 또는 [컴포지션 워크플로](../audience/get-started-audience-orchestration.md)의 결과로 가져온 대상은 **대상 읽기** 활동에서 선택할 수 있습니다. 이러한 대상은 **대상 자격** 활동에서 사용할 수 없습니다.
+* CSV 파일에서 가져온 대상 [개](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) 또는 [컴포지션 워크플로](../audience/get-started-audience-orchestration.md)의 결과로 가져온 대상은 **대상 읽기** 활동에서 선택할 수 있습니다. 이러한 대상은 **대상 자격** 활동에서 사용할 수 없습니다.
 
 * 조직당 동시 읽기 대상 제한: 각 조직은 최대 5개의 읽기 대상 인스턴스를 동시에 실행할 수 있습니다. 여기에는 모든 샌드박스 및 여정에서 예약된 실행과 비즈니스 이벤트에 의해 트리거된 실행이 모두 포함됩니다. 이 제한은 모든 조직에서 공정하고 균형 잡힌 리소스 할당을 보장하기 위해 시행됩니다.
 
@@ -181,9 +181,21 @@ ht-degree: 11%
 
 이 옵션을 사용하면 여정의 마지막 실행 이후 대상에 들어온 개인만 첫 번째 발생 이후에 타깃팅할 수 있습니다.
 
->[!NOTE]
+여정에서 [사용자 지정 업로드 대상](../audience/about-audiences.md#about-segments)을(를) 대상으로 하는 경우, 이러한 대상이 수정되므로 반복 여정에서 이 옵션이 활성화된 경우 프로필은 첫 번째 반복에서만 검색됩니다.
+
+
+>[!CAUTION]
 >
->여정에서 [사용자 지정 업로드 대상](../audience/about-audiences.md#about-segments)을(를) 대상으로 하는 경우, 이러한 대상이 수정되므로 반복 여정에서 이 옵션이 활성화된 경우 프로필은 첫 번째 반복에서만 검색됩니다.
+>증분 읽기는 Adobe Experience Platform의 배치 세분화 프로세스에서 생성된 일별 프로필 스냅샷을 사용합니다. 예약된 여정 실행이 발생하는 경우:
+>
+>* **새 스냅숏이 만들어지기 전**: 마지막 스냅숏 다음이지만 여정 실행 전에 대상에 적합한 프로필은 해당 실행에 포함되지 않습니다.
+>* **마지막 실행 후 24시간 이상**(&quot;일괄 대상 평가 후 트리거&quot; 옵션을 사용하지 않음): 24시간 전환 확인 기간 내에 가장 최근 스냅숏의 프로필만 포함됩니다. 마지막 실행에서 현재 실행 전 24시간 이내에 자격이 있는 프로필은 제외됩니다.
+>
+>프로필 누락의 위험을 최소화하려면 다음을 수행하십시오.
+>* **[!UICONTROL 일괄 대상 평가 후 트리거]** 옵션을 활성화하여 반환 기간을 발생한 시간과 관계없이 마지막으로 성공한 여정 실행 시간으로 연장합니다
+>* 일일 일괄 처리 세분화 작업이 완료된 후 여정이 잘 실행되도록 예약합니다(일반적으로 2~3시간 버퍼).
+>* 즉각적인 프로필 포함이 필요한 시간이 중요한 사용 사례의 경우 스트리밍 대상과 함께 [대상 자격](audience-qualification-events.md) 활동을 대신 사용해 보십시오
+
 
 +++
 
@@ -303,7 +315,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 ### 타이밍 및 데이터 전파
 
-* **일괄 처리 세분화 작업 완료**: 일괄 처리 대상의 경우 여정 실행 전에 일일 일괄 처리 세분화 작업이 완료되었고 스냅숏이 업데이트되었는지 확인하십시오. 일괄 처리 대상자는 세분화 작업 완료 후 약 **2시간**&#x200B;에 사용할 준비가 됩니다. [대상 평가 방법](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ko#evaluate-segments){target="_blank"}에 대해 자세히 알아보세요.
+* **일괄 처리 세분화 작업 완료**: 일괄 처리 대상의 경우 여정 실행 전에 일일 일괄 처리 세분화 작업이 완료되었고 스냅숏이 업데이트되었는지 확인하십시오. 일괄 처리 대상자는 세분화 작업 완료 후 약 **2시간**&#x200B;에 사용할 준비가 됩니다. [대상 평가 방법](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#evaluate-segments){target="_blank"}에 대해 자세히 알아보세요.
 
 * **데이터 수집 타이밍**: 여정 실행 전에 프로필 데이터 수집이 완전히 완료되었는지 확인하십시오. 프로필이 여정 시작 직전에 수집된 경우 아직 대상자에 반영되지 않을 수 있습니다. [Adobe Experience Platform의 데이터 수집](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ko){target="_blank"}에 대해 자세히 알아보세요.
 
@@ -313,9 +325,9 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 ### 데이터 유효성 검사 및 모니터링
 
-* **세분화 작업 상태 확인**: Adobe Experience Platform의 [모니터링 대시보드](https://experienceleague.adobe.com/docs/experience-platform/dataflows/ui/monitor-segments.html?lang=ko){target="_blank"}에서 일괄 처리 세분화 작업 완료 시간을 모니터링하여 대상 데이터가 준비되었는지 확인합니다.
+* **세분화 작업 상태 확인**: Adobe Experience Platform의 [모니터링 대시보드](https://experienceleague.adobe.com/docs/experience-platform/dataflows/ui/monitor-segments.html){target="_blank"}에서 일괄 처리 세분화 작업 완료 시간을 모니터링하여 대상 데이터가 준비되었는지 확인합니다.
 
-* **병합 정책 확인**: 대상자에 대해 구성된 병합 정책이 다른 소스의 프로필 데이터를 조합하는 데 필요한 동작과 일치하는지 확인하십시오. [Adobe Experience Platform의 병합 정책](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=ko){target="_blank"}에 대해 자세히 알아보세요.
+* **병합 정책 확인**: 대상자에 대해 구성된 병합 정책이 다른 소스의 프로필 데이터를 조합하는 데 필요한 동작과 일치하는지 확인하십시오. [Adobe Experience Platform의 병합 정책](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html){target="_blank"}에 대해 자세히 알아보세요.
 
 * **세그먼트 정의 검토**: 세그먼트 정의가 올바르게 구성되었는지 확인하고 모든 예상 자격 조건을 포함하십시오. [대상자 빌드](../audience/creating-a-segment-definition.md)에 대해 자세히 알아보세요. 다음 사항에 특별히 주의하십시오.
    * 이벤트 타임스탬프를 기반으로 프로필을 제외할 수 있는 시간 기반 조건
@@ -346,4 +358,4 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 대상자 읽기 활동으로 트리거되는 여정에 적용할 수 있는 사용 사례를 이해합니다. 배치 기반 여정을 작성하는 방법과 적용할 모범 사례를 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430365?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)
