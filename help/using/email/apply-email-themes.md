@@ -10,7 +10,7 @@ role: User
 level: Beginner, Intermediate
 keywords: 이메일 테마, 모듈, 재사용 가능성, 브랜드 일관성, 이메일 디자인, 사용자 지정 CSS, 모바일 최적화
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
-source-git-commit: 53ae620926fc8ba3e9c8b558584ed8eb6942e3d4
+source-git-commit: 365ed7f735760ee5763d0f12ea366c662a097948
 workflow-type: tm+mt
 source-wordcount: '1604'
 ht-degree: 3%
@@ -250,4 +250,4 @@ ht-degree: 3%
 
    ![](assets/generate-theme-colors.png){width=90%}
 
-1. 재사용할 새 테마를 저장하려면 **[!UICONTROL 저장]**&#x200B;을 클릭하세요. 이제 이 테마를 다른 테마와 같은 콘텐츠에 적용할 수 있습니다. [방법 알아보기](#leverage-themes-fragment)
+1. 재사용할 새 테마를 저장하려면 **[!UICONTROL 저장]**&#x200B;을 클릭하세요. 이제 이 테마를 다른 테마와 같은 콘텐츠에 적용할 수 있습니다. [방법 알아보기](#apply-themes-email)
