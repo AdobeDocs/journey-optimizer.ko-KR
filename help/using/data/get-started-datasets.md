@@ -21,7 +21,7 @@ Adobe Experience Platform에 수집되는 모든 데이터는 데이터 세트�
 
 ## 가드레일 및 제한 사항
 
-* 2024년 11월 1일부로 스트리밍 세분화는 더 이상 [!DNL Journey Optimizer] 추적 및 피드백 데이터 세트의 전송 및 열기 이벤트를 지원하지 않습니다. 빈도 캡핑 또는 피로도 관리를 구현하려면 해당 이벤트 대신 비즈니스 규칙을 사용하십시오. [이 섹션](../conflict-prioritization/rule-sets.md)에서 자세한 내용을 확인할 수 있으며, [여기](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}에는 일별 캡핑 사용 사례 설명이 있습니다.
+* 2024년 11월 1일부로 스트리밍 세분화는 더 이상 [!DNL Journey Optimizer] 추적 및 피드백 데이터 세트의 전송 및 열기 이벤트를 지원하지 않습니다. 빈도 캡핑 또는 피로도 관리를 구현하려면 해당 이벤트 대신 비즈니스 규칙을 사용하십시오. [이 섹션](../conflict-prioritization/rule-sets.md)에서 자세한 내용을 확인할 수 있으며, [여기](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=ko){target="_blank"}에는 일별 캡핑 사용 사례 설명이 있습니다.
 
 * 2025년 2월 현재 TTL(Time-to-Live) 가드레일이 Journey Optimizer 시스템 생성 데이터 세트로 배포되고 있습니다. [자세히 알아보기](datasets-ttl.md)
 
@@ -74,8 +74,8 @@ Adobe Experience Platform에 수집되는 모든 데이터는 데이터 세트�
 
 스키마 또는 CSV 파일에서 데이터 세트를 만들 수 있습니다. 데이터 집합을 만드는 방법에 대한 자세한 내용은 [!DNL Adobe Experience Platform] 설명서를 참조하세요.
 
-* [기존 스키마로 데이터 집합 만들기](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#schema){target="_blank"}
-* [기존 XDM 스키마에 CSV 파일 매핑](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema){target="_blank"}
+* [기존 스키마로 데이터 집합 만들기](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/user-guide#schema){target="_blank"}
+* [기존 XDM 스키마에 CSV 파일 매핑](https://experienceleague.adobe.com/ko/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema){target="_blank"}
 
 이 비디오에서는 데이터 세트를 만들고 이를 스키마에 매핑하며, 세트에 데이터를 추가하고 데이터가 수집되었는지 확인하는 방법을 알아봅니다.
 
@@ -101,4 +101,4 @@ Adobe Experience Platform에 수집되는 모든 데이터는 데이터 세트�
 >
 >* [데이터 세트 설명서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=ko){target="_blank"}
 >* [데이터 수집 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ko){target="_blank"}.
->* [데이터 관리 라이선스 권한 부여 모범 사례](https://experienceleague.adobe.com/en/docs/experience-platform/landing/license/data-management-best-practices#data-management-best-practices){target="_blank"}
+>* [데이터 관리 라이선스 권한 부여 모범 사례](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/license/data-management-best-practices#data-management-best-practices){target="_blank"}

@@ -31,7 +31,7 @@ ht-degree: 3%
 
   Adobe Journey Optimizer은 테스트 프로필을 쉽게 만들 수 있도록 특정 [제품 내 사용 사례](#use-case-1)도 제공합니다.
 
-JSON 파일을 기존 데이터 세트에 업로드할 수 있습니다. 자세한 내용은 [데이터 수집 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset){target="_blank"}를 참조하세요.
+JSON 파일을 기존 데이터 세트에 업로드할 수 있습니다. 자세한 내용은 [데이터 수집 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=ko#add-data-to-dataset){target="_blank"}를 참조하세요.
 
 테스트 프로필을 만드는 것은 Adobe Experience Platform에서 일반 프로필을 만드는 것과 비슷합니다. 자세한 내용은 [실시간 고객 프로필 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target="_blank"}를 참조하세요.
 
@@ -70,7 +70,7 @@ JSON 파일을 기존 데이터 세트에 업로드할 수 있습니다. 자세�
 
 >[!NOTE]
 >
->스키마 만들기에 대한 자세한 내용은 [XDM 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites){target="_blank"}를 참조하세요.
+>스키마 만들기에 대한 자세한 내용은 [XDM 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=ko#prerequisites){target="_blank"}를 참조하세요.
 
 ### 데이터 세트 만들기
 
@@ -89,7 +89,7 @@ JSON 파일을 기존 데이터 세트에 업로드할 수 있습니다. 자세�
 
 >[!NOTE]
 >
-> 데이터 집합 만들기에 대한 자세한 내용은 [카탈로그 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started){target="_blank"}를 참조하세요.
+> 데이터 집합 만들기에 대한 자세한 내용은 [카탈로그 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ko#getting-started){target="_blank"}를 참조하세요.
 
 ## 제품 내 사용 사례{#use-case-1}
 
@@ -188,7 +188,7 @@ Adobe Experience Platform에서는 다른 프로필 필드가 포함된 csv 파�
 
 >[!NOTE]
 >
->csv 가져오기에 대한 자세한 내용은 [데이터 수집 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials){target="_blank"}를 참조하세요.
+>csv 가져오기에 대한 자세한 내용은 [데이터 수집 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=ko#tutorials){target="_blank"}를 참조하세요.
 >
 
 
