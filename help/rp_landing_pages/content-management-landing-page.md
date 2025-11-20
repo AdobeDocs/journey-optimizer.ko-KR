@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 컨텐츠 관리 기능을 사용하면 캠페인, �
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 개인화 추가
 
