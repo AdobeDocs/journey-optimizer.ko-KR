@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate
 keywords: campaign, acc, 통합
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: ee1b6808d3247c7549e82990113d0d496c31b2a9
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 12%
+source-wordcount: '701'
+ht-degree: 9%
 
 ---
 
@@ -61,7 +61,7 @@ Adobe Campaign Classic v7 또는 Campaign v8이 있는 경우 여정에서 Adobe
 
 ## 전제 조건 {#prerequisites}
 
-Adobe Campaign에서는 트랜잭션 메시지와 관련 이벤트를 만들고 게시해야 합니다. [Adobe Campaign 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}를 참조하세요.
+Adobe Campaign에서는 트랜잭션 메시지와 관련 이벤트를 만들고 게시해야 합니다. [Adobe Campaign 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}를 참조하세요.
 
 아래 패턴에 따라 각 메시지에 해당하는 JSON 페이로드를 빌드할 수 있습니다. 그런 다음 Journey Optimizer에서 작업을 구성할 때 이 페이로드를 붙여 넣습니다(아래 참조).
 
@@ -92,9 +92,25 @@ Campaign 작업을 만들려면 다음 단계를 수행합니다.
 
 1. 새 작업을 만듭니다. [사용자 지정 작업을 만드는 방법을 알아봅니다](../action/action.md).
 1. 이름과 설명을 입력합니다.
-1. **작업 유형** 필드에서 **Adobe Campaign Classic**&#x200B;을(를) 선택합니다.
+1. **[!UICONTROL 작업 유형]** 필드에서 **[!UICONTROL Adobe Campaign Classic]**을(를) 선택합니다.
    ![](assets/accintegration1.png)
-1. **페이로드** 필드를 클릭하고 캠페인 메시지에 해당하는 JSON 페이로드의 예제를 붙여 넣습니다. 이 페이로드를 가져오려면 Adobe에 문의하십시오.
+1. **[!UICONTROL 페이로드]** 필드를 클릭하고 캠페인 메시지에 해당하는 JSON 페이로드의 예제를 붙여 넣습니다. 이 페이로드를 가져오려면 Adobe에 문의하십시오.
 1. 여정 캔버스에서 매핑할지 여부를 기준으로 각 필드를 정적 또는 변수로 설정합니다. 예를 들어 전자 메일 채널 매개 변수 및 개인화 필드(`ctx`)와 같은 필드는 일반적으로 여정 내에서 동적으로 조정할 수 있도록 변수로 설정해야 합니다.
-1. **저장**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+
+## 기존 작업 업데이트 {#update-action}
+
+초기 설정 후 실시간(RT) 끝점이 변경되는 경우와 같이 기존 Campaign v7/v8 사용자 지정 작업을 업데이트해야 하는 경우 다음 단계를 수행합니다.
+
+1. **[!UICONTROL 관리]** 메뉴에서 **[!UICONTROL 구성]**&#x200B;을 선택한 다음 **[!UICONTROL 작업]**(으)로 이동합니다.
+1. 작업 목록에서 업데이트할 Campaign 작업을 찾아 선택합니다.
+1. 작업 구성을 열려면 **[!UICONTROL 편집]**&#x200B;을 클릭하세요.
+1. **[!UICONTROL URL]** 필드를 새 RT 끝점 URL로 업데이트합니다. 끝점 형식이 올바르고 연결 가능한지 확인하십시오.
+1. 필요한 경우 **[!UICONTROL 페이로드]** 구성을 Campaign 트랜잭션 메시지 구조의 변경 사항과 일치하도록 업데이트하십시오.
+1. **[!UICONTROL 테스트]**&#x200B;를 클릭하여 새 끝점에 대한 연결의 유효성을 검사합니다. 계속하기 전에 테스트가 성공적인 응답을 반환하는지 확인하십시오.
+1. 유효성을 검사했으면 **[!UICONTROL 저장]**&#x200B;을 클릭하여 변경 내용을 적용합니다.
+
+>[!NOTE]
+>
+>이 작업을 사용하는 모든 여정은 업데이트된 구성을 자동으로 사용합니다. 이 작업을 사용하는 라이브 여정이 있는 경우 끝점을 업데이트한 후 자세히 모니터링하여 적절한 메시지 게재를 확인합니다.
 

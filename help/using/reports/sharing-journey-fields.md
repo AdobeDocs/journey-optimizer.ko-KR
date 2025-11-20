@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 177b4a97-c757-40ca-a190-fbd88169e5e2
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 6961a07e2874f9beb76a9beaebb29997d114d8e7
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 10%
+source-wordcount: '130'
+ht-degree: 6%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->이 섹션[에서 여정 속성 특성 &#x200B;](../building-journeys/expression/journey-properties.md#journey-properties-fields)에 대해 자세히 알아보세요.
+>이 섹션[에서 여정 속성 특성 ](../building-journeys/expression/journey-properties.md#journey-properties-fields)에 대해 자세히 알아보세요.
 
 
 ## journeyID {#journeyid-field}
@@ -42,6 +42,10 @@ ht-degree: 10%
 여정 이름.
 
 유형: 문자열
+
+>[!NOTE]
+>
+>여정 이름은 여정 실행 데이터를 보고 데이터 세트와 연결하는 데 사용됩니다. 여정 이름을 바꾸는 경우 정확한 보고를 유지하기 위해 새 이름이 보고 데이터 세트의 이름과 일치하는지 확인하십시오. 불일치로 인해 보고 데이터가 예상대로 표시되지 않을 수 있습니다. [누락된 보고 데이터 문제 해결](../building-journeys/report-journey.md#troubleshooting-missing-data)에 대해 자세히 알아보세요.
 
 ## 설명 {#description-field}
 
