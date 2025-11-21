@@ -8,12 +8,12 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 여정, 사용 사례, 평일, 조건, 이메일, 예약
-version: Journey Optimizer
+version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: c8d5160b473faac873b765fc5daead935a83760d
+source-git-commit: f688244bbf91d2ab9acbdc1742f180ce14b48179
 workflow-type: tm+mt
-source-wordcount: '1872'
+source-wordcount: '1867'
 ht-degree: 0%
 
 ---
@@ -193,7 +193,7 @@ ht-degree: 0%
    * [전자 메일 매개 변수 구성](../email/email-settings.md)
    * 필요에 따라 [개인화](../personalization/personalize.md) 설정
 
-1. 전자 메일 뒤에 **[!UICONTROL End]** 활동을 추가합니다. [종료 활동에 대해 자세히 알아보기](end-activity.md)
+1. 전자 메일 뒤에 **[!UICONTROL End]** 활동을 추가합니다.
 
 ### 6단계: 주말 경로를 이메일로 병합
 
@@ -343,12 +343,12 @@ toDateTimeOnly(now()) == toDateTimeOnly("2024-12-25T00:00:00")
 
 Adobe Journey Optimizer을 사용하여 평일에만 이메일을 보내는 방법을 알아봅니다. 이 비디오는 월요일 게재를 위해 주말 항목을 큐에 추가하기 위한 조건 활동 및 대기 수식의 단계별 구현을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3469387?captions=kor&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3469330?quality=12&learn=on)
 
 ## 추가 리소스
 
 * [표현식 편집기 설명서](expression/expressionadvanced.md) - 여정 표현식을 빌드하고 유효성을 검사합니다.
 * [여정 디자이너 안내서](using-the-journey-designer.md) - 여정 캔버스를 기본으로 제공
 * [여정 사용 사례 개요](jo-use-cases.md) - 더 많은 여정 패턴 및 예제 살펴보기
-* [커뮤니티 블로그 게시물: 평일에만 이메일을 보내는 방법](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400?profile.language=ko){target="_blank"} - 자세한 예제가 포함된 원본 블로그 게시물
+* [커뮤니티 블로그 게시물: 평일에만 이메일을 보내는 방법](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400){target="_blank"} - 자세한 예제가 포함된 원본 블로그 게시물
 
