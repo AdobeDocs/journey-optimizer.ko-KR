@@ -11,10 +11,10 @@ keywords: 여정, 사용 사례, 평일, 조건, 이메일, 예약
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 4b7d406e39328571a157b2d4c7b17f2adba77cdf
+source-git-commit: f8b594a14a1f89f77aa560a4de2b99189046af4f
 workflow-type: tm+mt
-source-wordcount: '1869'
-ht-degree: 2%
+source-wordcount: '1849'
+ht-degree: 1%
 
 ---
 
@@ -67,6 +67,9 @@ ht-degree: 2%
 
 1. **[!UICONTROL 조건 유형]** 섹션에서 **[!UICONTROL 데이터 Source 조건]**&#x200B;을 선택합니다. [조건 유형에 대해 자세히 알아보기](condition-activity.md#data_source_condition)
 
+   ![식 편집기에서 Saturday 조건 구성](assets/weekday-email-uc-condition-expression.png)
+
+
 ### 3단계: 토요일을 식별하도록 조건 구성
 
 토요일 항목을 식별하는 첫 번째 조건 경로를 만듭니다.
@@ -81,7 +84,6 @@ ht-degree: 2%
 
    `dayOfWeek()`과(와) 함께 `now()` 함수를 사용하여 현재 날짜를 가져옵니다. [날짜 함수에 대해 자세히 알아보기](functions/date-functions.md)
 
-   ![식 편집기에서 Saturday 조건 구성](assets/weekday-email-uc-condition-expression.png)
 
 1. **[!UICONTROL 확인]**&#x200B;을 클릭하여 조건을 저장합니다.
 
@@ -103,17 +105,6 @@ ht-degree: 2%
 
 1. **[!UICONTROL 경로 표시]**&#x200B;을(를) 선택하여 평일 항목(월요일-금요일)에 대한 경로를 만듭니다.
 
-**요일 값:**
-
-| 값 | Day |
-|-------|-----|
-| 1 | 일요일 |
-| 2 | 월요일 |
-| 3 | 화요일 |
-| 4 | 수요일 |
-| 5 | 목요일 |
-| 6 | 금요일 |
-| 7 | 토요일 |
 
 >[!NOTE]
 >
@@ -123,7 +114,6 @@ ht-degree: 2%
 
 토요일 또는 일요일에 입력하는 프로필의 경우, 사용자 정의 공식이 있는 대기 활동 을 사용하여 이메일을 원하는 시간대의 월요일까지 지연할 수 있습니다.
 
-![토요일, 일요일, 평일 등 세 가지 조건 경로가 있는 여정](assets/weekday-email-uc-paths.png)
 
 **토요일 경로의 경우:**
 
@@ -144,6 +134,8 @@ ht-degree: 2%
    ```javascript
    setHours(nowWithDelta(2, "days"), 9)
    ```
+
+   ![토요일, 일요일, 평일 등 세 가지 조건 경로가 있는 여정](assets/weekday-email-uc-paths.png)
 
    **설명**: 이 수식은 토요일부터 월요일까지 오전 9시에 대기 시간을 계산합니다. 값 X=2는 2일 후를 나타냅니다(토요일 + 2일 = 월요일). [날짜 함수에 대해 자세히 알아보기](functions/date-functions.md#nowWithDelta)
 
@@ -316,7 +308,7 @@ toDateTimeOnly(now()) == toDateTimeOnly("2024-12-25T00:00:00")
 
 Adobe Journey Optimizer을 사용하여 평일에만 이메일을 보내는 방법을 알아봅니다. 이 비디오는 월요일 게재를 위해 주말 항목을 큐에 추가하기 위한 조건 활동 및 대기 수식의 단계별 구현을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3469387?captions=kor&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3469330?quality=12&learn=on)
 
 ## 추가 리소스
 
@@ -325,5 +317,5 @@ Adobe Journey Optimizer을 사용하여 평일에만 이메일을 보내는 방�
 | [표현식 편집기 설명서](expression/expressionadvanced.md) | 여정 표현식 작성 및 유효성 검사 |
 | [여정 디자이너 안내서](using-the-journey-designer.md) | 여정 캔버스 기본 |
 | [여정 사용 사례 개요](jo-use-cases.md) | 더 많은 여정 패턴 및 예제 탐색 |
-| [커뮤니티 블로그 게시물: 평일에만 이메일을 보내는 방법](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400?profile.language=ko){target="_blank"} | 자세한 예제가 포함된 원본 블로그 게시물 |
+| [커뮤니티 블로그 게시물: 평일에만 이메일을 보내는 방법](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400){target="_blank"} | 자세한 예제가 포함된 원본 블로그 게시물 |
 
