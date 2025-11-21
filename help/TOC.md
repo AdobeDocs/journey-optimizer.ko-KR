@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 57494753f24570a1f14c16e4e98d27ee0c710813
+source-git-commit: c8d5160b473faac873b765fc5daead935a83760d
 workflow-type: tm+mt
-source-wordcount: '2983'
+source-wordcount: '2988'
 ht-degree: 98%
 
 ---
@@ -125,6 +125,7 @@ ht-degree: 98%
       + [다중 채널 메시지 보내기](using/building-journeys/journeys-uc.md)
       + [Campaign v7/v8을 사용하여 메시지 보내기](using/building-journeys/ajo-ac.md)
       + [구독자에게 메시지 보내기](using/building-journeys/message-to-subscribers-uc.md)
+      + [평일에만 이메일 보내기](using/building-journeys/weekday-email-uc.md)
       + [사용자 정의 액션 매개 변수에 컬렉션 전달](using/building-journeys/collections.md)
       + [게재 램프 업](using/building-journeys/ramp-up-deliveries-uc.md)
       + [외부 데이터 원본 및 사용자 정의 작업으로 처리량 제한](using/building-journeys/limit-throughput.md)
@@ -340,7 +341,7 @@ ht-degree: 98%
          + [웹 채널 전제 조건](using/web/web-prerequisites.md)
          + [웹 하위 도메인 구성](using/web/web-delegated-subdomains.md)
          + [웹 채널 구성 만들기](using/web/web-configuration.md)
-      + [웹 경험 만들기 &#x200B;](using/web/create-web.md)
+      + [웹 경험 만들기 ](using/web/create-web.md)
       + 웹 페이지 작성 {#author-web-pages}
          + [웹 페이지 작성](/help/rp_landing_pages/author-web-pages-landing-page.md)
          + [웹 디자이너를 사용하여 작업](using/web/web-visual-editor.md)
@@ -394,7 +395,7 @@ ht-degree: 98%
          + [Journey Optimizer에서 라이브 활동 구성](using/mobile-live/mobile-live-configuration.md)
          + [라이브 활동 SDK 통합 구성](using/mobile-live/mobile-live-configuration-sdk.md)
 + 콘텐츠 관리 {#content-management}
-   + [콘텐츠 관리 &#x200B;](/help/rp_landing_pages/content-management-landing-page.md)
+   + [콘텐츠 관리 ](/help/rp_landing_pages/content-management-landing-page.md)
    + 개인화 {#personalization}
       + [개인화](/help/rp_landing_pages/personalization-landing-page.md)
       + [개인화 시작](using/personalization/personalize.md)
