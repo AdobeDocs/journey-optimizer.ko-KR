@@ -11,10 +11,10 @@ keywords: 여정, 사용 사례, 평일, 조건, 이메일, 예약
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: f8b594a14a1f89f77aa560a4de2b99189046af4f
+source-git-commit: 46a46fb25c1ef985a0bdea8974aa009e3699c7a3
 workflow-type: tm+mt
-source-wordcount: '1849'
-ht-degree: 1%
+source-wordcount: '1833'
+ht-degree: 0%
 
 ---
 
@@ -32,11 +32,15 @@ ht-degree: 1%
 
 이 접근 방식은 B2B(기업 간) 이메일 캠페인, 전문 뉴스레터 및 커뮤니케이션, 비즈니스 관련 공지 사항, 작업 관련 제품 업데이트 및 주말 배송을 원하지 않는 모든 마케팅 캠페인에 이상적입니다.
 
-이 페이지 하단에 있는 단계별 [비디오 튜토리얼](#how-to-video)을 통해 전체 구현을 확인하십시오.
+➡️ 단계별 [비디오 튜토리얼](#how-to-video) 보기
 
-## 전제 조건
+>[!NOTE]
+>
+>이 사용 사례를 구현하려면 구성된 [이메일 채널 표면](../configuration/channel-surfaces.md), 여정을 트리거할 [대상](../audience/about-audiences.md) 또는 [이벤트](../event/about-events.md)를 사용하는 활성 Adobe Journey Optimizer 인스턴스와 [여정 조건](condition-activity.md) 및 [표현식](expression/expressionadvanced.md)에 대한 기본 이해가 필요합니다.
 
-이 사용 사례를 구현하려면 구성된 [이메일 채널 표면](../configuration/channel-surfaces.md), 여정을 트리거할 [대상](../audience/about-audiences.md) 또는 [이벤트](../event/about-events.md)를 사용하는 활성 Adobe Journey Optimizer 인스턴스와 [여정 조건](condition-activity.md) 및 [표현식](expression/expressionadvanced.md)에 대한 기본 이해가 필요합니다.
+
+
+
 
 ## 구현 단계
 
@@ -293,29 +297,25 @@ toDateTimeOnly(now()) == toDateTimeOnly("2024-12-25T00:00:00")
 
 ## 관련 항목
 
-| 주제 | 설명 |
-|-------|-------------|
-| [조건 활동 정보](condition-activity.md) | 여정에서 다양한 경로를 만드는 방법 알아보기 |
-| [여정에서 조건 사용](conditions.md) | 여정 조건에 대한 자세한 안내서 |
-| [대기 활동](wait-activity.md) | 대기 기간 및 공식 구성 |
-| [날짜 함수](functions/date-functions.md) | 날짜 및 시간 함수에 대한 전체 참조 |
-| [식 편집기](expression/expressionadvanced.md) | 복잡한 표현식 작성 |
-| [여정 테스트](testing-the-journey.md) | 게시하기 전에 여정 논리 유효성 검사 |
-| [표준 시간대 관리](timezone-management.md) | 여정에서 다른 시간대 처리 |
-| [여정 모범 사례](journey-gs.md#best-practices) | 여정 디자인에 대한 권장 접근 방식 |
+* [조건 활동 정보](condition-activity.md) - 여정에서 다양한 경로를 만드는 방법을 알아봅니다.
+* [여정에서 조건 사용](conditions.md) - 여정 조건에 대한 세부 안내서
+* [대기 활동](wait-activity.md) - 대기 기간 및 수식 구성
+* [날짜 함수](functions/date-functions.md) - 날짜 및 시간 함수에 대한 전체 참조
+* [식 편집기](expression/expressionadvanced.md) - 복잡한 식을 빌드합니다.
+* [여정 테스트](testing-the-journey.md) - 게시하기 전에 여정 논리의 유효성 검사
+* [시간대 관리](timezone-management.md) - 여정에서 다른 시간대를 처리합니다.
+* [여정 모범 사례](journey-gs.md#best-practices) - 여정 디자인에 대한 권장 접근 방식
 
 ## 사용 방법 비디오
 
 Adobe Journey Optimizer을 사용하여 평일에만 이메일을 보내는 방법을 알아봅니다. 이 비디오는 월요일 게재를 위해 주말 항목을 큐에 추가하기 위한 조건 활동 및 대기 수식의 단계별 구현을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3469387?captions=kor&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3469330?quality=12&learn=on)
 
 ## 추가 리소스
 
-| 리소스 | 설명 |
-|----------|-------------|
-| [표현식 편집기 설명서](expression/expressionadvanced.md) | 여정 표현식 작성 및 유효성 검사 |
-| [여정 디자이너 안내서](using-the-journey-designer.md) | 여정 캔버스 기본 |
-| [여정 사용 사례 개요](jo-use-cases.md) | 더 많은 여정 패턴 및 예제 탐색 |
-| [커뮤니티 블로그 게시물: 평일에만 이메일을 보내는 방법](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400?profile.language=ko){target="_blank"} | 자세한 예제가 포함된 원본 블로그 게시물 |
+* [표현식 편집기 설명서](expression/expressionadvanced.md) - 여정 표현식을 빌드하고 유효성을 검사합니다.
+* [여정 디자이너 안내서](using-the-journey-designer.md) - 여정 캔버스를 기본으로 제공
+* [여정 사용 사례 개요](jo-use-cases.md) - 더 많은 여정 패턴 및 예제 살펴보기
+* [커뮤니티 블로그 게시물: 평일에만 이메일을 보내는 방법](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400){target="_blank"} - 자세한 예제가 포함된 원본 블로그 게시물
 
