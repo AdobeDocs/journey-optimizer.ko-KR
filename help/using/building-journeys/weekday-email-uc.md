@@ -343,7 +343,7 @@ toDateTimeOnly(now()) == toDateTimeOnly("2024-12-25T00:00:00")
 
 Adobe Journey Optimizer을 사용하여 평일에만 이메일을 보내는 방법을 알아봅니다. 이 비디오는 월요일 게재를 위해 주말 항목을 큐에 추가하기 위한 조건 활동 및 대기 수식의 단계별 구현을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3469330?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3469387?captions=kor&quality=12&learn=on)
 
 ## 추가 리소스
 
