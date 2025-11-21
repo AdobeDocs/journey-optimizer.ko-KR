@@ -325,5 +325,5 @@ Adobe Journey Optimizer을 사용하여 평일에만 이메일을 보내는 방�
 | [표현식 편집기 설명서](expression/expressionadvanced.md) | 여정 표현식 작성 및 유효성 검사 |
 | [여정 디자이너 안내서](using-the-journey-designer.md) | 여정 캔버스 기본 |
 | [여정 사용 사례 개요](jo-use-cases.md) | 더 많은 여정 패턴 및 예제 탐색 |
-| [커뮤니티 블로그 게시물: 평일에만 이메일을 보내는 방법](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400){target="_blank"} | 자세한 예제가 포함된 원본 블로그 게시물 |
+| [커뮤니티 블로그 게시물: 평일에만 이메일을 보내는 방법](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400?profile.language=ko){target="_blank"} | 자세한 예제가 포함된 원본 블로그 게시물 |
 
