@@ -11,9 +11,9 @@ keywords: 여정, 사용 사례, 평일, 조건, 이메일, 예약
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: c92e5bacdab179587b9cdec6bbde962a597b8de8
+source-git-commit: eee9a460fc443be29c1ef407a02c5645869ca11d
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1069'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 1. Adobe Journey Optimizer의 **[!UICONTROL 여정 관리]** > **[!UICONTROL 여정]**(으)로 이동합니다.
 
-1. 새 여정을 만들려면 **[!UICONTROL 여정 만들기]**&#x200B;를 클릭하십시오. [여정 만들기에 대해 자세히 알아보기](journey-gs.md)
+1. **[!UICONTROL 여정 만들기]**&#x200B;를 클릭하여 [새 여정 만들기](journey-gs.md)를 클릭합니다.
 
 1. [여정 속성](journey-properties.md)을 구성하십시오.
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 여정 시작 직후 **[!UICONTROL 조건]** 활동을 추가하여 현재 날짜가 토요일이나 일요일인지 확인하십시오. 이에 따라 워크플로우가 분기됩니다.
 
-1. 진입점 뒤에 **[!UICONTROL Condition]** 활동을 캔버스로 끌어서 놓습니다. [조건 활동에 대해 자세히 알아보기](condition-activity.md)
+1. 진입점 뒤에 [**[!UICONTROL 조건&#x200B;]**활동](condition-activity.md)을 캔버스로 끌어서 놓습니다.
 
 1. **[!UICONTROL 조건]** 활동을 클릭하여 구성 패널을 엽니다.
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->요일 평가에 사용되는 시간대는 조건 수준이 아닌 여정 속성의 여정 수준에서 정의됩니다. 수식에 사용된 여정 시간대는 수신자의 시간대가 아니라 여정이 구성한 시간대입니다. [시간대 관리에 대해 자세히 알아보기](timezone-management.md).
+>요일 평가에 사용되는 시간대는 조건 수준이 아닌 여정 속성의 여정 수준에서 정의됩니다. 수식에 사용된 여정 [표준 시간대](timezone-management.md)은(는) 수신자의 표준 시간대가 아니라 여정의 구성된 표준 시간대입니다.
 
 ### 3단계: 주말 항목에 대한 대기 활동 구성
 
@@ -155,7 +155,7 @@ toDateTimeOnly(setHours(nowWithDelta(1, "days"), 9))
 
 1. 오른쪽 상단의 **[!UICONTROL 테스트]** 단추를 클릭합니다.
 
-1. 테스트 모드를 활성화합니다. [여정 테스트 방법 알아보기](testing-the-journey.md)
+1. [테스트 모드](testing-the-journey.md)를 사용하도록 설정합니다.
 
 1. 다른 요일에 시뮬레이션된 시작 시간을 사용하여 [테스트 프로필](../audience/creating-test-profiles.md)을 만듭니다.
    * **Saturday entry**: 프로필이 Saturday 경로를 따르고, 기다리고, 월요일에 지정된 시간에 이메일을 받는지 확인합니다.
@@ -164,13 +164,13 @@ toDateTimeOnly(setHours(nowWithDelta(1, "days"), 9))
 
 1. 여정 시각화를 검토하여 프로필이 올바른 조건부 경로(토요일, 일요일 또는 평일)를 따르는지 확인하십시오.
 
-1. 여정에 오류 또는 경고가 있는지 확인합니다. [문제 해결 여정에 대해 알아보기](troubleshooting.md)
+1. 여정에서 [오류 또는 경고](troubleshooting.md)를 확인하십시오.
 
 1. 대기 공식이 원하는 월요일 배달 시간에 대한 올바른 기간을 계산하는지 확인합니다.
 
 >[!IMPORTANT]
 >
->항상 테스트 모드에서 여정 논리를 테스트하여 대기 활동이 예상대로 작동하는지 확인하십시오. 테스트 모드를 사용하여 다양한 시작 시나리오를 시뮬레이션하고 주말 항목이 월요일 게재를 위해 올바르게 큐에 있는지 확인하십시오. [여정 테스트 모범 사례에 대해 자세히 알아보기](testing-the-journey.md)
+>항상 테스트 모드에서 여정 논리를 테스트하여 대기 활동이 예상대로 작동하는지 확인하십시오. 테스트 모드를 사용하여 다양한 시작 시나리오를 시뮬레이션하고 주말 항목이 월요일 게재를 위해 올바르게 큐에 있는지 확인하십시오. 자세한 내용은 [여정 테스트 모범 사례](testing-the-journey.md)를 참조하세요.
 
 ### 7단계: 여정 게시
 
@@ -178,18 +178,16 @@ toDateTimeOnly(setHours(nowWithDelta(1, "days"), 9))
 
 1. 오른쪽 상단 모서리에서 **[!UICONTROL 게시]**&#x200B;를 클릭합니다.
 
-1. 게시를 확인합니다. [여정 게시에 대해 자세히 알아보기](publish-journey.md)
+1. [게시](publish-journey.md)를 확인합니다.
 
 1. [여정 보고](report-journey.md) 및 [실시간 보고서](../reports/journey-live-report.md)를 사용하여 여정 성능을 모니터링합니다.
 
 
 ## 관련 항목
 
-* [조건 활동 정보](condition-activity.md) - 여정에서 다양한 경로를 만드는 방법을 알아봅니다.
-* [여정에서 조건 사용](conditions.md) - 여정 조건에 대한 세부 안내서
-* [대기 활동](wait-activity.md) - 대기 기간 및 수식 구성
-* [날짜 함수](functions/date-functions.md) - 날짜 및 시간 함수에 대한 전체 참조
-* [식 편집기](expression/expressionadvanced.md) - 복잡한 식을 빌드합니다.
-* [여정 모범 사례](journey-gs.md#best-practices) - 여정 디자인에 대한 권장 접근 방식
-* [커뮤니티 블로그 게시물: 평일에만 이메일을 보내는 방법](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400?profile.language=ko){target="_blank"} - 자세한 예제가 포함된 원본 블로그 게시물
-
+* [조건 활동](condition-activity.md)을 사용하여 여정에 다른 경로를 만드는 방법을 알아봅니다.
+* [여정에서 조건 사용](conditions.md)에 대한 자세한 가이드
+* [대기 활동](wait-activity.md)을 사용하여 대기 기간 및 수식 구성
+* [날짜 함수](functions/date-functions.md)에 대한 전체 참조
+* [식 편집기](expression/expressionadvanced.md)를 사용하여 복잡한 식 작성
+* [여정 디자인 및 모범 사례](journey-gs.md#best-practices)에 대한 권장 접근 방식
