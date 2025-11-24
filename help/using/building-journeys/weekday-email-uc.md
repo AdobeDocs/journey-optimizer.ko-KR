@@ -11,9 +11,9 @@ keywords: 여정, 사용 사례, 평일, 조건, 이메일, 예약
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: ad902c1055ea2e883c028172297aab878a898b94
+source-git-commit: c92e5bacdab179587b9cdec6bbde962a597b8de8
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1117'
 ht-degree: 0%
 
 ---
@@ -31,8 +31,6 @@ ht-degree: 0%
 이 접근 방법에서는 조건 활동을 사용하여 현재 요일이 토요일이나 일요일인지 확인하고, 주말 항목에 대해 사용자 지정 수식으로 대기 활동을 구현하고, 특정 시간에 월요일 배달에 대해 주말 이메일 대기열을 만들고, 평일 항목(월요일-금요일)에 대해 즉시 이메일을 보내는 방법을 보여 줍니다.
 
 이 접근 방식은 B2B(기업 간) 이메일 캠페인, 전문 뉴스레터 및 커뮤니케이션, 비즈니스 관련 공지 사항, 작업 관련 제품 업데이트 및 주말 배송을 원하지 않는 모든 마케팅 캠페인에 이상적입니다.
-
-➡️ 단계별 [비디오 튜토리얼](#how-to-video) 보기
 
 >[!NOTE]
 >
@@ -55,21 +53,21 @@ ht-degree: 0%
 
 ### 2단계: 요일을 확인하는 조건 활동 추가
 
-여정 시작 바로 뒤에 Condition을 추가하여 현재 날짜가 토요일이나 일요일인지 확인합니다. 이에 따라 워크플로우가 분기됩니다.
+여정 시작 직후 **[!UICONTROL 조건]** 활동을 추가하여 현재 날짜가 토요일이나 일요일인지 확인하십시오. 이에 따라 워크플로우가 분기됩니다.
 
 1. 진입점 뒤에 **[!UICONTROL Condition]** 활동을 캔버스로 끌어서 놓습니다. [조건 활동에 대해 자세히 알아보기](condition-activity.md)
 
-1. Condition 활동을 클릭하여 해당 구성 패널을 엽니다.
+1. **[!UICONTROL 조건]** 활동을 클릭하여 구성 패널을 엽니다.
 
 1. 조건 유형으로 **[!UICONTROL 시간 조건]**&#x200B;을(를) 선택하십시오.
 
-1. 시간 필터링 옵션으로 **요일**&#x200B;을(를) 선택합니다.
+1. 시간 필터링 옵션으로 **[!UICONTROL 요일]**&#x200B;을(를) 선택합니다.
 
 1. **첫 번째 경로(토요일)**&#x200B;에 대해 **토요일**&#x200B;만 선택하십시오. 이 경로의 레이블을 &quot;Saturday&quot;로 지정합니다.
 
 1. 두 번째 조건을 만들려면 **[!UICONTROL 경로 추가]**&#x200B;를 클릭합니다.
 
-1. **초 경로(일요일)**&#x200B;에 대해 **요일**&#x200B;을 선택하고 **일요일**&#x200B;만 선택합니다. 이 경로의 레이블을 &quot;Sunday&quot;로 지정합니다.
+1. **초 경로(일요일)**&#x200B;에 대해 **[!UICONTROL 요일]**&#x200B;을 선택하고 **일요일**&#x200B;만 선택합니다. 이 경로의 레이블을 &quot;Sunday&quot;로 지정합니다.
 
    ![식 편집기에서 토요일 및 일요일 조건 구성](assets/weekday-email-uc-condition-expression.png)
 
@@ -82,9 +80,9 @@ ht-degree: 0%
 
 ### 3단계: 주말 항목에 대한 대기 활동 구성
 
-토요일 또는 일요일에 입력하는 프로필의 경우, 사용자 정의 공식이 있는 대기 활동 을 사용하여 이메일을 원하는 시간대의 월요일까지 지연할 수 있습니다.
+토요일 또는 일요일에 입력한 프로필의 경우, 사용자 지정 수식이 있는 **[!UICONTROL 대기]** 활동을 사용하여 이메일을 원하는 시간대의 월요일까지 지연하십시오.
 
-대기 활동에서 다음 공식을 사용합니다.
+**[!UICONTROL 대기]** 활동에서 다음 수식을 사용합니다.
 
 ```javascript
 toDateTimeOnly(setHours(nowWithDelta(X, "days"), H))
@@ -132,22 +130,22 @@ toDateTimeOnly(setHours(nowWithDelta(1, "days"), 9))
 
 월요일부터 금요일까지 입력하는 프로필의 경우 평소대로 이메일 전송 단계로 진행합니다.
 
-1. **평일 경로**(&quot;기타 사례&quot; 경로)에서 **[!UICONTROL 전자 메일]** 작업 활동을 추가하도록 직접 진행하십시오. 평일 항목에는 대기 활동이 필요하지 않습니다.
+1. **평일 경로**(&quot;기타 사례&quot; 경로)에서 **[!UICONTROL 전자 메일]** 작업 활동을 추가하도록 직접 진행하십시오. 평일 항목에는 **[!UICONTROL 대기]** 활동이 필요하지 않습니다.
 
 1. 필요에 따라 이메일 메시지를 구성합니다.
 
 ### 5단계: 여정 흐름 완료
 
-토요일과 일요일 경로 모두에서 대기 활동이 발생하면 세 경로(토요일, 일요일, 평일)가 모두 동일한 이메일 작업 활동으로 이동해야 합니다. 전자 메일 뒤에 **[!UICONTROL End]** 활동을 추가합니다.
+토요일과 일요일 경로 모두에서 **[!UICONTROL 대기]** 활동이 끝나면 세 경로(토요일, 일요일, 평일)가 모두 동일한 **[!UICONTROL 이메일]** 작업 활동으로 이동해야 합니다. 전자 메일 뒤에 **[!UICONTROL End]** 활동을 추가합니다.
 
 ### 시각적 워크플로우 개요
 
 전체 여정 워크플로우는 다음 논리를 따릅니다.
 
-* **시작** → **조건: 토요일입니까, 일요일입니까?**
-   * **예(토요일):** 월요일까지 대기 → 이메일 보내기
-   * **예(일요일):** 월요일까지 대기 → 이메일 보내기
-   * **아니요(월요일~금요일):** 전자 메일을 즉시 보냅니다.
+* **시작** → **[!UICONTROL 조건]**: 토요일입니까, 일요일입니까?
+   * **예(토요일):** **[!UICONTROL 월요일 오전 9시까지 대기]** → **[!UICONTROL 이메일 보내기]**
+   * **예(일요일):** **[!UICONTROL 월요일 오전 9시까지 대기]** → **[!UICONTROL 이메일 보내기]**
+   * **아니요(월요일~금요일):** **[!UICONTROL 즉시 메일 보내기]**
 
 이렇게 하면 모든 이메일이 평일에만 전송되고, 주말 항목이 월요일 배달을 위해 자동으로 큐에 올라갑니다.
 
@@ -193,5 +191,5 @@ toDateTimeOnly(setHours(nowWithDelta(1, "days"), 9))
 * [날짜 함수](functions/date-functions.md) - 날짜 및 시간 함수에 대한 전체 참조
 * [식 편집기](expression/expressionadvanced.md) - 복잡한 식을 빌드합니다.
 * [여정 모범 사례](journey-gs.md#best-practices) - 여정 디자인에 대한 권장 접근 방식
-* [커뮤니티 블로그 게시물: 평일에만 이메일을 보내는 방법](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400?profile.language=ko){target="_blank"} - 자세한 예제가 포함된 원본 블로그 게시물
+* [커뮤니티 블로그 게시물: 평일에만 이메일을 보내는 방법](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400){target="_blank"} - 자세한 예제가 포함된 원본 블로그 게시물
 
