@@ -11,9 +11,9 @@ keywords: 여정, 사용 사례, 평일, 조건, 이메일, 예약
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: eee9a460fc443be29c1ef407a02c5645869ca11d
+source-git-commit: 9b3c9f7c0327c8c3c3d2b7f1b4255b7e1457a51e
 workflow-type: tm+mt
-source-wordcount: '1069'
+source-wordcount: '1070'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 여정 시작 직후 **[!UICONTROL 조건]** 활동을 추가하여 현재 날짜가 토요일이나 일요일인지 확인하십시오. 이에 따라 워크플로우가 분기됩니다.
 
-1. 진입점 뒤에 [**[!UICONTROL 조건&#x200B;]**&#x200B;활동](condition-activity.md)을 캔버스로 끌어서 놓습니다.
+1. 진입점 뒤에 [**[!UICONTROL 조건&#x200B;]**활동](condition-activity.md)을 캔버스로 끌어서 놓습니다.
 
 1. **[!UICONTROL 조건]** 활동을 클릭하여 구성 패널을 엽니다.
 
@@ -185,9 +185,9 @@ toDateTimeOnly(setHours(nowWithDelta(1, "days"), 9))
 
 ## 관련 항목
 
-* [조건 활동](condition-activity.md)을 사용하여 여정에 다른 경로를 만드는 방법을 알아봅니다.
-* [여정에서 조건 사용](conditions.md)에 대한 자세한 가이드
-* [대기 활동](wait-activity.md)을 사용하여 대기 기간 및 수식 구성
-* [날짜 함수](functions/date-functions.md)에 대한 전체 참조
-* [식 편집기](expression/expressionadvanced.md)를 사용하여 복잡한 식 작성
-* [여정 디자인 및 모범 사례](journey-gs.md#best-practices)에 대한 권장 접근 방식
+* [조건 활동](condition-activity.md) - 여정에서 다양한 경로를 만드는 방법을 알아봅니다.
+* [여정에서 조건 사용](conditions.md) - 여정 조건에 대한 세부 안내서
+* [대기 활동](wait-activity.md) - 대기 기간 및 수식 구성
+* [날짜 함수](functions/date-functions.md) - 날짜 및 시간 함수에 대한 전체 참조
+* [식 편집기](expression/expressionadvanced.md) - 복잡한 식을 빌드합니다.
+* [여정 모범 사례](journey-gs.md#best-practices) - 여정 디자인에 대한 권장 접근 방식
