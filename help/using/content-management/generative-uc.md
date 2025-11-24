@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
-source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
+source-git-commit: bacfe2e04898e8417308e3f1c889214547e3ea02
 workflow-type: tm+mt
 source-wordcount: '675'
 ht-degree: 3%
@@ -39,7 +39,7 @@ ht-degree: 3%
 
 콘텐츠, 대상자 및 일정을 정의했으면 이메일 캠페인을 준비할 준비가 되었습니다. [자세히 알아보기](../campaigns/review-activate-campaign.md)
 
-## 변형 세부 조정
+## 변형 세부 조정 {#refine}
 
 ![구문 변경 및 요약 옵션을 사용하여 AI 생성 콘텐츠 변형을 개선하는 애니메이션 데모](assets/do-not-localize/gen-ai-variation.gif)
 
