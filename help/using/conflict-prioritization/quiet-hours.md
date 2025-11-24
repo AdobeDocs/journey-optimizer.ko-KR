@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 badge: label="제한된 가용성" type="Informative"
 keywords: 메시지, 빈도, 규칙, 압력
-source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
+source-git-commit: 2f4c6a4a82784ae2fae99b3d802b2d8f94d2ca75
 workflow-type: tm+mt
-source-wordcount: '904'
-ht-degree: 7%
+source-wordcount: '905'
+ht-degree: 4%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 7%
 
 >[!AVAILABILITY]
 >
->방해 금지 시간 규칙은 현재 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 대기자 명단에 등록하려면 Adobe 담당자에게 문의하십시오.
+>현재 방해 금지 모드 규칙은 조직 집합(제한된 가용성)에만 사용할 수 있습니다.  모든 고객은 향후 릴리스에서 점진적으로 사용할 수 있습니다.
 
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
@@ -187,4 +187,4 @@ ht-degree: 7%
 
 Adobe Journey Optimizer에서 방해 금지 모드 해제 시간 기능을 사용하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475859?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475851?quality=12)

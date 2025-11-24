@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 04a08f237e126e782355197b64239512e24b27da
+source-git-commit: 2f4c6a4a82784ae2fae99b3d802b2d8f94d2ca75
 workflow-type: tm+mt
-source-wordcount: '1456'
-ht-degree: 100%
+source-wordcount: '1457'
+ht-degree: 98%
 
 ---
 
@@ -148,7 +148,7 @@ ht-degree: 100%
 <td>
 <p>방해 금지 시간 기능으로 이메일, SMS, 푸시, WhatsApp 채널에 대한 시간 기반 제외를 정의할 수 있습니다. 특정 시간 동안 메시지가 전송되지 않도록 하여 고객 환경 설정과 및 규정 요건을 준수할 수 있습니다.</p>
 <p>규칙 세트를 통해 방해 금지 시간을 적용할 수 있으며, 정확한 제어를 위해 이 규칙 세트를 캠페인이나 여정의 개별 액션에 할당할 수 있습니다.</p>
-<p>방해 금지 시간 규칙은 현재 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 대기자 명단에 등록하려면 Adobe 담당자에게 문의하십시오.</p>
+<p>현재 방해 금지 모드 규칙은 조직 집합(제한된 가용성)에만 사용할 수 있습니다.  모든 고객은 향후 릴리스에서 점진적으로 사용할 수 있습니다.</p>
 <img src="assets/do-not-localize/quiet-hour.gif">
 <p>자세한 내용은 <a href="../conflict-prioritization/quiet-hours.md">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2025년 10월 22일</p>
