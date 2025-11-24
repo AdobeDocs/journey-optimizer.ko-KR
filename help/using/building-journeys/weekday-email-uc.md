@@ -193,5 +193,5 @@ toDateTimeOnly(setHours(nowWithDelta(1, "days"), 9))
 * [날짜 함수](functions/date-functions.md) - 날짜 및 시간 함수에 대한 전체 참조
 * [식 편집기](expression/expressionadvanced.md) - 복잡한 식을 빌드합니다.
 * [여정 모범 사례](journey-gs.md#best-practices) - 여정 디자인에 대한 권장 접근 방식
-* [커뮤니티 블로그 게시물: 평일에만 이메일을 보내는 방법](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400){target="_blank"} - 자세한 예제가 포함된 원본 블로그 게시물
+* [커뮤니티 블로그 게시물: 평일에만 이메일을 보내는 방법](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400?profile.language=ko){target="_blank"} - 자세한 예제가 포함된 원본 블로그 게시물
 
