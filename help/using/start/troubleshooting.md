@@ -59,7 +59,7 @@ HTML 조각 [에 대해 자세히 알아보세요](../content-management/fragmen
 
 이 문제를 해결하는 방법은 [이 문제 해결 문서](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-26738){target="_blank"}를 참조하세요.
 
-[ 서식 파일에 대해 자세히 알아보세요](../email/use-email-templates.md).
+[&#x200B; 서식 파일에 대해 자세히 알아보세요](../email/use-email-templates.md).
 
 +++
 
@@ -164,7 +164,7 @@ Adobe Journey Optimizer에서 새 샌드박스를 프로비저닝하는 조직�
 
 TTL 처리 방법에 대해 알아보려면 [이 문제 해결 문서](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-26135){target="_blank"}를 참조하세요.
 
-이 페이지의 [ 데이터 집합 Time-to-Live에 대해 자세히 알아보세요](../data/datasets-ttl.md).
+이 페이지의 [&#x200B; 데이터 집합 Time-to-Live에 대해 자세히 알아보세요](../data/datasets-ttl.md).
 
 +++
 
@@ -189,7 +189,7 @@ Adobe Journey Optimizer에서 여정에서 **프로필 업데이트** 활동을 
 
 이 문제를 해결하는 방법에 대해 알아보려면 [이 문제 해결 문서](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-26352){target="_blank"}를 참조하세요.
 
-이 페이지의 **** 여정에서 [프로필 업데이트](../building-journeys/update-profiles.md) 활동에 대해 자세히 알아보세요.
+이 페이지의 **&#x200B;**&#x200B;여정에서 [프로필 업데이트](../building-journeys/update-profiles.md) 활동에 대해 자세히 알아보세요.
 
 데이터 수집에 대한 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/tutorials/ingest-batch-data#dataset-activity){target="_blank"}도 참조하세요.
 
@@ -214,7 +214,7 @@ Adobe Journey Optimizer에서 여정에서 **프로필 업데이트** 활동을 
 
 이 문제를 해결하는 방법에 대해 알아보려면 [이 문제 해결 문서](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-26333){target="_blank"}를 참조하세요.
 
-이 페이지의 **** 여정에서 [프로필 업데이트](../building-journeys/update-profiles.md) 활동에 대해 자세히 알아보세요.
+이 페이지의 **&#x200B;**&#x200B;여정에서 [프로필 업데이트](../building-journeys/update-profiles.md) 활동에 대해 자세히 알아보세요.
 
 [Adobe Real-Time CDP 프로필 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#profile-detail){target="_blank"}도 참조하세요.
 
@@ -278,7 +278,7 @@ Adobe Journey Optimizer에서 여정에서 **프로필 업데이트** 활동을 
 
 이 문제를 해결하는 방법에 대해 알아보려면 [이 문제 해결 문서](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-26152){target="_blank"}를 참조하세요.
 
-[ 여정을 이 페이지에서](../building-journeys/journey-ui.md#duplicate-a-journey)에 복제하는 방법을 알아보세요.
+[&#x200B; 여정을 이 페이지에서](../building-journeys/journey-ui.md#duplicate-a-journey)에 복제하는 방법을 알아보세요.
 
 +++
 
@@ -310,7 +310,7 @@ Adobe Journey Optimizer에서 여정에서 **프로필 업데이트** 활동을 
 
 이 문제를 해결하는 방법에 대해 알아보려면 [이 문제 해결 문서](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-26031){target="_blank"}를 참조하세요.
 
-[ 이벤트에 대해 자세히 알아보세요](../event/about-events.md).
+[&#x200B; 이벤트에 대해 자세히 알아보세요](../event/about-events.md).
 
 [여정 이벤트 보호](../start/guardrails.md#events-g)도 참조하세요.
 
@@ -323,7 +323,7 @@ Adobe Journey Optimizer에서 여정에서 **프로필 업데이트** 활동을 
 
 이 문제를 해결하는 방법에 대해 알아보려면 [이 문제 해결 문서](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-26224){target="_blank"}를 참조하세요.
 
-[ 여정을 이 페이지에서](../building-journeys/journey-ui.md#duplicate-a-journey)에 복제하는 방법을 알아보세요.
+[&#x200B; 여정을 이 페이지에서](../building-journeys/journey-ui.md#duplicate-a-journey)에 복제하는 방법을 알아보세요.
 
 +++
 
@@ -333,7 +333,7 @@ Adobe Journey Optimizer에서 여정에서 **프로필 업데이트** 활동을 
 
 이 문제를 해결하는 방법에 대해 알아보려면 [이 문제 해결 문서](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-26156){target="_blank"}를 참조하세요.
 
-이 페이지[에서 여정 조절 API ](../configuration/throttling.md)에 대해 자세히 알아보세요.
+이 페이지[에서 여정 조절 API &#x200B;](../configuration/throttling.md)에 대해 자세히 알아보세요.
 
 [외부 시스템과 통합](../configuration/external-systems.md)도 참조하세요.
 
@@ -377,7 +377,7 @@ Adobe Journey Optimizer을 사용하여 Adobe Target을 응용 프로그램에 �
 
 이 문제를 해결하는 방법에 대해 알아보려면 [이 문제 해결 문서](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-26175){target="_blank"}를 참조하세요.
 
-이 페이지[에서 Offer Decisioning ](../offers/get-started/starting-offer-decisioning.md#granting-acess-to-decision-management)에 필요한 권한에 대해 자세히 알아보세요.
+이 페이지[에서 Offer Decisioning &#x200B;](../offers/get-started/starting-offer-decisioning.md#granting-acess-to-decision-management)에 필요한 권한에 대해 자세히 알아보세요.
 
 +++
 
