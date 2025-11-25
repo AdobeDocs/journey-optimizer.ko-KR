@@ -8,10 +8,10 @@ role: Developer, Admin
 level: Experienced
 keywords: Platform, Data Lake, 만들기, 레이크, 데이터 세트, 프로필
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: 4532db3f84cdf41d295050e85e721f65cb4f1f0e
+source-git-commit: d4729294a007a348e0233aa8a75bbe3b2999742a
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 12%
+source-wordcount: '817'
+ht-degree: 11%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 12%
 
 데이터 세트 TTL(Time-to-Live)에 대한 FAQ는 다음과 같습니다.
 
-세부 정보가 필요하십니까? 이 페이지 하단의 피드백 옵션을 사용하여 질문을 제기하거나 [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"}에 연결하세요.
+세부 정보가 필요하십니까? 이 페이지 하단의 피드백 옵션을 사용하여 질문을 제기하거나 [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}에 연결하세요.
 
 +++이 변경 사항은 프로덕션 샌드박스에만 적용됩니까, 아니면 개발 샌드박스에도 적용됩니까?
 
@@ -78,13 +78,13 @@ TTL 확장은 현재 지원되지 않습니다. 그러나 2025년 후반부터 �
 
 >[!NOTE]
 >
->프로필에 저장된 데이터는 총 데이터 볼륨 권한에 속합니다. 따라서 TTL 확장으로 인한 프로필의 데이터 저장소 증가는 총 데이터 볼륨 권한에 대해 계산됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=ko){target=_blank}
+>프로필에 저장된 데이터는 총 데이터 볼륨 권한에 속합니다. 따라서 TTL 확장으로 인한 프로필의 데이터 저장소 증가는 총 데이터 볼륨 권한에 대해 계산됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html){target=&quot;_blank}
 
 +++
 
 +++고객이 데이터 레이크에서 [!DNL Journey Optimizer] 시스템 데이터 세트 데이터의 TTL을 늘릴 수 있습니까? 
 
-TTL 확장은 현재 지원되지 않습니다. 고객은 대상 을 통해 데이터를 내보내 데이터를 더 오래 유지할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=ko){target=_blank}. 또한 **[!DNL Data Distiller]** 권한이 있는 고객은 파생 데이터 세트를 만들어 TTL 없이 데이터 레이크에 데이터를 저장할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=_blank}
+TTL 확장은 현재 지원되지 않습니다. 고객은 대상 을 통해 데이터를 내보내 데이터를 더 오래 유지할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target=&quot;_blank}. 또한 **[!DNL Data Distiller]** 권한이 있는 고객은 파생 데이터 세트를 만들어 TTL 없이 데이터 레이크에 데이터를 저장할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=&quot;_blank}
 
 +++
 
@@ -111,5 +111,17 @@ TTL 확장은 현재 지원되지 않습니다. 고객은 대상 을 통해 데�
 +++TTL 적용에 어떤 타임스탬프가 사용됩니까(예: 채우기 사용 사례의 경우)? 
 
 이벤트 타임스탬프가 사용됩니다(즉, 수집 날짜가 아님).
+
++++
+
++++Journey Optimizer 시스템 생성 데이터 세트를 삭제할 수 있습니까?
+
+Journey Optimizer 시스템 생성 데이터 세트는 보호되며 표준 Adobe Experience Platform UI를 통해 삭제할 수 없습니다. 이러한 데이터 세트는 Journey Optimizer 기능에 필수적이며 시스템에서 관리합니다.
+
+QA 환경, 샌드박스 정리 또는 특정 데이터 위생 요구 사항과 같이 Journey Optimizer 시스템 데이터 세트를 영구적으로 제거해야 하는 경우 Adobe 엔지니어링 또는 Adobe 고객 지원 센터에 문의하십시오. 이러한 데이터 세트에는 완벽하고 안전한 제거를 보장하기 위해 전문 백엔드 절차가 필요합니다.
+
+>[!NOTE]
+>
+>이러한 시스템 데이터 세트 내에서 일상적인 데이터 정리를 수행하려면 Privacy Service을 통해 사용할 수 있는 **[!UICONTROL 데이터 주기]** 작업을 사용하여 특정 레코드 또는 ID를 삭제하십시오. [자세히 알아보기](../privacy/data-hygiene.md)
 
 +++
