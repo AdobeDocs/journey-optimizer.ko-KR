@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: aa060d8e-23e2-4bab-b709-636077eb5d20
-source-git-commit: be0a240f73e884fd91798952167e81689aa2ae2f
+source-git-commit: 853e87cdd69a3fc180dcb1aa38b4b67f27977939
 workflow-type: tm+mt
-source-wordcount: '2134'
+source-wordcount: '2162'
 ht-degree: 0%
 
 ---
@@ -132,7 +132,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> 제외 보내기<br/> </td> 
-   <td> Adobe Journey Optimizer에서 제외된 프로필 수입니다.<br/> </td> 
+   <td> Adobe Journey Optimizer에서 제외된 프로필 수입니다. <a href="exclusion-list.md">제외를 계산하는 방법에 대해 자세히 알아보기</a>.<br/> </td> 
   </tr>
   <tr> 
    <td> 배치 이름<br/> </td> 
@@ -193,7 +193,7 @@ ht-degree: 0%
   </tr>
   <tr> 
    <td> 고유 전송 제외<br/> </td> 
-   <td>자격 규칙, 대상자 세분화 또는 프로필 상태로 인해 메시지 수신에서 제외된 고유 프로필 수입니다.<br/> </td> 
+   <td>자격 규칙, 대상자 세분화 또는 프로필 상태로 인해 메시지 수신에서 제외된 고유 프로필 수입니다. <a href="exclusion-list.md">제외를 계산하는 방법에 대해 자세히 알아보기</a>.<br/> </td> 
   </tr>
   <tr> 
    <td>고유 타깃팅<br/> </td> 
@@ -234,7 +234,7 @@ ht-degree: 0%
     </tr>
     <tr> 
       <td>아웃바운드 SMS 제외</td> 
-      <td>Adobe Journey Optimizer에서 SMS 메시지를 받지 못한 프로필 수입니다.</td> 
+      <td>Adobe Journey Optimizer에서 SMS 메시지를 받지 못한 프로필 수입니다. <a href="exclusion-list.md">제외를 계산하는 방법에 대해 자세히 알아보세요</a>.</td> 
     </tr>
     <tr> 
       <td>고유 클릭수</td> 
@@ -548,7 +548,7 @@ ht-degree: 0%
 </tr>
 <tr> 
    <td>아웃바운드 제외<br/> </td> 
-   <td>사전 정의된 기준이나 Adobe Journey Optimizer의 필터링으로 인해 DM 수신에서 제외된 프로필 수입니다.<br/> </td> 
+   <td>사전 정의된 기준이나 Adobe Journey Optimizer의 필터링으로 인해 DM 수신에서 제외된 프로필 수입니다. <a href="exclusion-list.md">제외를 계산하는 방법에 대해 자세히 알아보기</a>.<br/> </td> 
 </tr>
 <tr> 
    <td>프로필<br/> </td> 

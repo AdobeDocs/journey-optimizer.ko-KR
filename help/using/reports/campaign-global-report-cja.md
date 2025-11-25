@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b74d3137-2dd9-4302-a56e-73503d318d18
-source-git-commit: 158d9d9a1070e1d842183e5bd6cb5ce8e38834c5
+source-git-commit: 853e87cdd69a3fc180dcb1aa38b4b67f27977939
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '610'
 ht-degree: 1%
 
 ---
@@ -72,7 +72,7 @@ KPI는 캠페인에 사용된 채널에 따라 달라집니다.
 
 * **[!UICONTROL 아웃바운드 오류]**: 보내는 동안 프로필로 보낼 수 없는 총 오류 수입니다.
 
-* **[!UICONTROL 아웃바운드 제외]**: Adobe Journey Optimizer에서 제외된 프로필 수입니다.
+* **[!UICONTROL 아웃바운드 제외]**: Adobe Journey Optimizer에서 제외된 프로필 수입니다. [제외를 계산하는 방법에 대해 자세히 알아보세요](exclusion-list.md#exclusion-list).
 
 * **[!UICONTROL 표시]**: 메시지를 연 횟수입니다.
 
