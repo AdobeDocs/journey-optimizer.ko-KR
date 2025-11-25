@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 여정, 질문, 답변, 문제 해결, 도움말, 안내서
 version: Journey Orchestration
-source-git-commit: de71f603b98c44d09ede5cc6bafc945f124ceb09
+source-git-commit: dff732d14dd143f085b1287274f7571a900a0c87
 workflow-type: tm+mt
-source-wordcount: '5261'
+source-wordcount: '5226'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Adobe Journey Optimizer 여정에 대한 FAQ는 다음과 같습니다.
 
-세부 정보가 필요하십니까? 이 페이지 하단의 피드백 옵션을 사용하여 질문을 제기하거나 [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"}에 연결하세요.
+세부 정보가 필요하십니까? 이 페이지 하단의 피드백 옵션을 사용하여 질문을 제기하거나 [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}에 연결하세요.
 
 ## 일반 개념
 
@@ -280,10 +280,6 @@ CJA 대상은 여정에서 직접 지원되지 않지만, 세분화 규칙에서
    * **시간 제한 경로(열리지 않음/클릭됨)**: 제목 줄이 다른 미리 알림 전자 메일을 보냅니다.
 
 **모범 사례**: 스팸 메시지가 표시되지 않도록 재전송 횟수를 제한합니다(일반적으로 최대 1~2회 미리 알림).
-
->[!IMPORTANT]
->
->**[!UICONTROL 채널 작업]**&#x200B;과(와) [반응](journeys-message.md) 활동 사이에 **[!UICONTROL 대기]** 활동을 배치하지 마십시오. **[!UICONTROL 반응]**&#x200B;은(는) 채널 작업 직후에 와야 합니다. **[!UICONTROL Reaction]**&#x200B;의 기본 제공 시간 초과 기능을 사용하여 고객 응답을 기다립니다.
 
 [반응 이벤트](reaction-events.md)에 대해 자세히 알아보세요.
 
