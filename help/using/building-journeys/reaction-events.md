@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 여정, 이벤트, 반응, 추적, 플랫폼
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: de71f603b98c44d09ede5cc6bafc945f124ceb09
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 20%
+source-wordcount: '438'
+ht-degree: 18%
 
 ---
 
@@ -30,14 +30,19 @@ ht-degree: 20%
 
 메시지에 대한 반응이 없을 때 이 메커니즘을 사용하여 작업을 수행할 수도 있습니다. 이렇게 하려면 반응 활동과 평행한 두 번째 경로를 만들고 대기 활동을 추가합니다. 대기 활동에 정의된 기간 동안 반응이 없으면 두 번째 경로가 선택됩니다. 예를 들어 후속 메시지를 보내도록 선택할 수 있습니다.
 
-이전에 채널 작업 활동(이메일 및 푸시)이 있는 경우에만 캔버스에서 반응 활동을 사용할 수 있습니다.
-
 [작업 활동 정보](../building-journeys/about-journey-activities.md#action-activities)를 참조하세요.
+
+>[!IMPORTANT]
+>
+>**[!UICONTROL 반응]** 활동은 여정 캔버스에서 **채널 작업 활동** 후에 [즉시](journeys-message.md)해야 합니다. **[!UICONTROL 반응]** 활동 전에 채널 작업 활동이 없으면 활동을 사용할 수 없습니다.
+>
+>채널 액션과 **[!UICONTROL 반응]** 활동 사이에 **[!UICONTROL 대기]** 활동 또는 다른 활동을 배치하는 것은 지원되지 않으며 예상대로 반응이 작동하지 않을 수 있습니다.
 
 ![채널 선택 및 이벤트 유형 옵션을 사용한 반응 이벤트 구성](assets/journey45.png)
 
 반응 이벤트를 구성하는 여러 단계는 다음과 같습니다.
 
+1. 여정 캔버스에서 **[!UICONTROL 채널 작업 활동]** 바로 뒤에 [반응](journeys-message.md) 활동을 배치합니다.
 1. 반응에 **[!UICONTROL Label]**&#x200B;을(를) 추가합니다. 데이터 소스에 이벤트에 설명을 추가합니다.
 1. 드롭다운 목록에서 반응할 작업 활동을 선택합니다. 경로의 이전 단계에 배치된 모든 작업 활동을 선택할 수 있습니다.
 1. 선택한 작업에 따라 반응할 항목을 선택합니다.

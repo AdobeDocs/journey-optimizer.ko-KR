@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 문제 해결, 문제 해결, 여정, 확인, 오류
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
-source-git-commit: a93f08cf2da1f2b19296359d1200a6dddacbc1f2
+source-git-commit: acf73fbce4a8ebfc6f228c92480a5e597e0bfe53
 workflow-type: tm+mt
-source-wordcount: '1199'
-ht-degree: 21%
+source-wordcount: '1260'
+ht-degree: 20%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 21%
 
 이러한 도구를 통해 보내는 API 호출이 올바르게 전송되었는지 여부를 확인할 수 있습니다. 오류가 반환되면 호출에 문제가 있는 것입니다. 페이로드, 헤더(특히 조직 ID) 및 대상 URL을 다시 확인하십시오. 올바른 URL이 무엇인지를 관리자에게 물어볼 수 있습니다.
 
-이벤트는 소스에서 여정으로 직접 푸시되지 않습니다. 실제로 여정은 Adobe Experience Platform의 수집 API 스트리밍에 의존합니다. 따라서 이벤트 관련 문제가 발생하면 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=ko){target="_blank"}에서 수집 API 스트리밍 문제 해결을 참조할 수 있습니다.
+이벤트는 소스에서 여정으로 직접 푸시되지 않습니다. 실제로 여정은 Adobe Experience Platform의 수집 API 스트리밍에 의존합니다. 따라서 이벤트 관련 문제가 발생하면 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"}에서 수집 API 스트리밍 문제 해결을 참조할 수 있습니다.
 
 `ERR_MODEL_RULES_16` 오류로 인해 여정에서 테스트 모드를 사용하도록 설정하지 못하는 경우 채널 작업을 사용할 때 사용된 이벤트에 [ID 네임스페이스](../audience/get-started-identity.md)가 포함되어 있는지 확인하십시오.
 
@@ -56,6 +56,10 @@ ID 네임스페이스는 테스트 프로필을 고유하게 식별하는 데 �
   X-gw-ims-org-id - your organization's ID
   Content-type - application/json
   ```
+
+>[!NOTE]
+>
+>**스트리밍 대상이 있는 대상 자격 여정의 경우**: 대상 자격 활동을 여정 진입점으로 사용하는 경우 시간 요소, 대상의 빠른 종료 또는 게시하기 전에 대상에 프로필이 이미 있었던 경우 대상에 해당하는 모든 프로필이 여정에 들어가는 것은 아닙니다. [스트리밍 대상 자격 시간 고려 사항](audience-qualification-events.md#streaming-entry-caveats)에 대해 자세히 알아보세요.
 
 ## 사람들이 여정을 탐색하는 방법 확인 {#checking-how-people-navigate-through-the-journey}
 

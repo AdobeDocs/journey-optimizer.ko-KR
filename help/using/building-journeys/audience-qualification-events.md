@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 자격, 이벤트, 대상, 여정, 플랫폼
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
-source-git-commit: b8fb0c0fd9e9e119428b430563cbb35d1961516e
+source-git-commit: acf73fbce4a8ebfc6f228c92480a5e597e0bfe53
 workflow-type: tm+mt
-source-wordcount: '1344'
-ht-degree: 7%
+source-wordcount: '1598'
+ht-degree: 6%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 7%
 
    >[!NOTE]
    >
-   >**[!UICONTROL Enter]** 및 **[!UICONTROL Exit]**&#x200B;은(는) Adobe Experience Platform의 **실현됨** 및 **종료됨** 대상자 참여 상태에 해당합니다. 대상자를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ko#interpret-segment-results){target="_blank"}를 참조하세요.
+   >**[!UICONTROL Enter]** 및 **[!UICONTROL Exit]**&#x200B;은(는) Adobe Experience Platform의 **실현됨** 및 **종료됨** 대상자 참여 상태에 해당합니다. 대상자를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}를 참조하세요.
 
 1. 네임스페이스를 선택합니다. 이는 이벤트가 여정의 첫 번째 단계로 배치되는 경우에만 필요합니다. 기본적으로 필드는 마지막으로 사용된 네임스페이스로 미리 채워집니다.
 
@@ -108,11 +108,33 @@ ht-degree: 7%
 
 스트리밍 세분화를 통해 열기 및 보내기 이벤트를 사용하지 마십시오. 대신 클릭, 구매 또는 비콘 데이터와 같은 실제 사용자 활동 신호를 사용합니다. 빈도 또는 제외 논리의 경우 이벤트를 보내는 대신 비즈니스 규칙을 사용합니다. [자세히 알아보기](../audience/about-audiences.md)
 
-스트리밍 세분화에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}를 참조하세요.
+스트리밍 세분화에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}를 참조하세요.
 
 >[!NOTE]
 >
 >스트리밍 세분화의 경우 새로 수집된 데이터는 Adobe Experience Platform 내에서 실시간으로 완전히 전파되는 데 최대 **2시간**&#x200B;이 걸릴 수 있습니다. 일 기반 또는 시간 기반 조건(예: &quot;오늘 발생한 이벤트&quot;)에 의존하는 대상은 자격 타이밍이 더욱 복잡해질 수 있습니다. 여정이 즉각적인 대상 자격을 사용하는 경우 초기에 짧은 [대기 활동](wait-activity.md)을 추가하거나 정확한 자격을 위해 버퍼 시간을 허용하는 것이 좋습니다.
+
+#### 자격을 갖춘 모든 프로필이 여정에 들어가지 않는 이유는 무엇입니까? {#streaming-entry-caveats}
+
+**대상 자격** 활동으로 스트리밍 대상을 사용하는 경우 대상에 적합한 모든 프로필이 반드시 여정에 들어가는 것은 아닙니다. 이 동작은 다음과 같은 이유로 발생할 수 있습니다.
+
+* **이미 대상에 있는 프로필**: 여정이 게시된 후 새로 대상에 적합한 프로필만 항목을 트리거합니다. 게시하기 전에 대상에 이미 있는 프로필은 입장하지 않습니다.
+
+* **여정 활성화 시간**: 여정을 게시할 때 **대상 자격** 활동이 활성화되며 프로필 시작 및 종료를 수신하는 데 최대 **10분**&#x200B;이 소요됩니다. [여정 활성화에 대해 자세히 알아보세요](#configure-segment-qualification).
+
+* **대상자의 빠른 종료**: 프로필이 대상자에 적합하지만 여정 항목이 트리거되기 전에 종료되면 해당 프로필이 여정에 들어가지 않을 수 있습니다.
+
+* **자격과 여정 처리 사이의 타이밍**: Adobe Experience Platform의 분산된 특성으로 인해 프로필이 대상 자격을 얻는 시기와 여정이 해당 자격 이벤트를 처리하는 시기 사이에 시간 차이가 있을 수 있습니다.
+
+**권장 사항:**
+
+* 여정을 게시한 후 프로필 자격을 트리거할 이벤트 또는 데이터를 보내기 전에 적어도 10분 정도 기다리십시오. 이렇게 하면 여정이 완전히 활성화되고 항목을 처리할 준비가 된 것입니다.
+
+* 모든 자격을 갖춘 프로필이 들어가도록 해야 하는 중요한 사용 사례의 경우, 대신 특정 시간에 대상의 모든 프로필을 처리하는 [대상 읽기](read-audience.md) 활동을 사용하는 것이 좋습니다.
+
+* 여정 흐름 패턴을 이해하려면 프로필의 [진입률 및 처리량을 모니터링](entry-management.md#profile-entrance-rate)하십시오.
+
+* 프로필이 예상대로 입력되지 않으면 [문제 해결 안내서](troubleshooting-execution.md#checking-if-people-enter-the-journey)에서 추가 진단 단계를 참조하십시오.
 
 ### 오버로드를 방지하는 방법 {#overloads-speed-segment-qualification}
 
@@ -122,7 +144,7 @@ ht-degree: 7%
 
   ![Adobe Experience Platform에서 대상을 찾을 수 없는 경우 오류 메시지](assets/segment-error.png)
 
-* 여정에서 사용되는 데이터 소스 및 작업에 대한 최대 가용량 규칙을 적용하여 오버로드를 방지합니다. 자세한 내용은 [Journey Orchestration 설명서](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=ko){target="_blank"}를 참조하세요. 최대 가용량 규칙에는 재시도가 없습니다. 다시 시도해야 하는 경우 **[!UICONTROL 조건 또는 작업에서 시간 초과 또는 오류 발생 시 대체 경로를 추가]** 상자를 선택하여 여정에서 대체 경로를 사용하십시오.
+* 여정에서 사용되는 데이터 소스 및 작업에 대한 최대 가용량 규칙을 적용하여 오버로드를 방지합니다. 자세한 내용은 [Journey Orchestration 설명서](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}를 참조하세요. 최대 가용량 규칙에는 재시도가 없습니다. 다시 시도해야 하는 경우 **[!UICONTROL 조건 또는 작업에서 시간 초과 또는 오류 발생 시 대체 경로를 추가]** 상자를 선택하여 여정에서 대체 경로를 사용하십시오.
 
 * 프로덕션 여정에서 대상을 사용하기 전에 매일 이 대상에 대해 자격이 있는 개인의 양을 평가하십시오. 이렇게 하려면 **[!UICONTROL 대상자]** 메뉴를 확인하고 대상자를 연 다음 **[!UICONTROL 시간 경과에 따른 프로필]** 그래프를 보십시오.
 
@@ -166,4 +188,4 @@ ht-degree: 7%
 
 이 비디오에서 대상 자격 여정에 적용할 수 있는 사용 사례를 이해합니다. 대상 검증을 사용하여 여정을 구축하는 방법 및 적용할 모범 사례를 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446211?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)

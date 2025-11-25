@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 여정, 제한
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: de71f603b98c44d09ede5cc6bafc945f124ceb09
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 45%
+source-wordcount: '564'
+ht-degree: 46%
 
 ---
 
@@ -23,10 +23,11 @@ ht-degree: 45%
 
 ## 일반 작업 제한 사항 {#action-limitations}
 
-* 전송 제한이 없습니다.  
-* 오류가 발생하면 시스템에서 세 번 다시 시도합니다. 수신된 오류 메시지에 따라 재시도 횟수를 조정할 수 없습니다. 
-* 기본 제공 **반응** 이벤트를 사용하면 기본 작업에 반응할 수 있습니다([페이지](../building-journeys/reaction-events.md) 참조). 사용자 지정 작업을 통해 전송된 메시지에 반응하려면 전용 이벤트를 구성해야 합니다. 
+* 전송 제한이 없습니다. 
+* 오류가 발생하면 시스템에서 세 번 다시 시도합니다. 수신된 오류 메시지에 따라 재시도 횟수를 조정할 수 없습니다.
+* 기본 제공 **반응** 이벤트를 사용하면 기본 작업에 반응할 수 있습니다([페이지](../building-journeys/reaction-events.md) 참조). 사용자 지정 작업을 통해 보낸 메시지에 반응하려면 전용 이벤트를 구성해야 합니다.
 * 두 가지 작업을 병렬로 배치할 수 없으며 하나씩 추가해야 합니다.
+
 
 ## 여정 버전 제한 사항 {#journey-versions-limitations}
 
@@ -47,6 +48,10 @@ ht-degree: 45%
 ## 이벤트 제한 사항 {#events-limitations}
 
 * 시스템 생성 이벤트의 경우 고유한 오케스트레이션 ID를 얻으려면 먼저 고객 여정을 시작하는 데 사용되는 스트리밍 데이터를 Journey Optimizer 내에서 구성해야 합니다. 이 오케스트레이션 ID는 Adobe Experience Platform으로 들어오는 스트리밍 페이로드에 추가되어야 합니다. 이 제한은 규칙 기반 이벤트에는 적용되지 않습니다. 
+
+## 반응 이벤트 제한 사항 {#reaction-limitations}
+
+* **[!UICONTROL 반응]** 활동은 여정 캔버스에서 [채널 작업 활동](../building-journeys/journeys-message.md) 바로 뒤에 배치해야 합니다. 채널 액션과 **[!UICONTROL 반응]** 활동 사이에 **[!UICONTROL 대기]** 활동 또는 다른 활동을 배치하는 것은 지원되지 않으며 예상대로 반응이 작동하지 않을 수 있습니다. 자세한 내용은 [이 섹션](../building-journeys/reaction-events.md)을 참조하십시오.
 
 ## 데이터 소스 제한 사항 {#data-sources-limitations}
 
