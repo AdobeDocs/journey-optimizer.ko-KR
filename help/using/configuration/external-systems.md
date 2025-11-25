@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: 외부, API, 최적화 프로그램, 한도
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: e6e8178f7a57a6d57c8d137dd313a26a5878994b
+source-git-commit: bc614a78229771e826edea581aefb97b0e3f4159
 workflow-type: tm+mt
-source-wordcount: '1781'
-ht-degree: 17%
+source-wordcount: '1805'
+ht-degree: 18%
 
 ---
 
@@ -45,7 +45,7 @@ Journey Optimizer이 외부 API 호출을 실행하면 다음과 같이 기술 �
 
 여정이 API를 호출할 때마다 호출은 API 엔진을 통과합니다. API에 설정된 제한에 도달하면 최대 가용량 API를 사용하는 경우 호출이 거부되거나, 조절 API를 사용하는 경우 최대 6시간 동안 대기하고 수신된 순서대로 가능한 한 빨리 처리됩니다.
 
-예를 들어 외부 시스템에 대해 초당 200개의 호출 제한 또는 제한 규칙을 정의했다고 가정해 보겠습니다. 서로 다른 여정 10개에서 사용자 정의 작업이 이 시스템을 호출합니다. 한 여정이 초당 300개의 호출을 받으면 사용 가능한 200개의 슬롯을 사용하고 나머지 100개의 슬롯을 삭제하거나 대기열에 추가합니다. 최대 처리량을 초과했으므로 다른 9개의 여정에는 호출을 처리할 슬롯이 남아 있지 않습니다. 이런 단위 설정을 통해 외부 시스템을 과부하 및 충돌으로부터 보호할 수 있습니다.
+예를 들어 외부 시스템에 대해 초당 200개의 호출 제한 또는 제한 규칙을 정의했다고 가정해 보겠습니다. 서로 다른 여정 10개에서 사용자 정의 작업이 이 시스템을 호출합니다. 한 여정이 초당 300개의 호출을 받으면 사용 가능한 200개의 슬롯을 사용하고 나머지 100개의 슬롯을 삭제하거나 대기열에 추가합니다. 최대 처리량을 초과했으므로 다른 9개의 여정에는 호출을 처리할 슬롯이 남아 있지 않습니다. 이러한 세부성 설정을 통해 외부 시스템을 과부하와 충돌로부터 보호할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -70,7 +70,7 @@ API에 대한 자세한 설명은 [Adobe Journey Optimizer API 설명서](https:
 >
 >데이터 소스에서 해당 데이터 소스에 사용한 것과 다른 엔드포인트를 사용하는 사용자 정의 인증을 사용하는 경우에는 Adobe 문의를 통해 해당 엔드포인트도 허용 목록에 추가해야 합니다.
 
-**사용자 정의 작업**&#x200B;을 구성할 때는 외부 API의 용량을 예상해야 합니다. 예를 들어 Journey Optimizer이 초당 1000개의 호출을 전송하고 시스템이 초당 200개의 호출만 지원할 수 있는 경우 시스템이 포화되지 않도록 최대 가용량 또는 제한 구성을 정의해야 합니다. [작업을 구성하는 방법 알아보기](../action/action.md)
+**사용자 정의 작업**&#x200B;을 구성할 때는 외부 API의 용량을 평가해야 합니다. 예를 들어 Journey Optimizer이 초당 1000개의 호출을 전송하고 시스템이 초당 200개의 호출만 지원할 수 있는 경우 시스템이 포화되지 않도록 최대 가용량 또는 제한 구성을 정의해야 합니다. [작업을 구성하는 방법 알아보기](../action/action.md)
 
 >[!NOTE]
 >
@@ -110,11 +110,11 @@ API에 대한 자세한 설명은 [Adobe Journey Optimizer API 설명서](https:
 
 Journey Optimizer과 외부 시스템 통합에 대한 FAQ는 다음과 같습니다.
 
-세부 정보가 필요하십니까? 이 페이지 하단의 피드백 옵션을 사용하여 질문을 제기하거나 [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"}에 연결하세요.
+세부 정보가 필요하십니까? 이 페이지 하단의 피드백 옵션을 사용하여 질문을 제기하거나 [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}에 연결하세요.
 
 +++ 캡핑 또는 조절 규칙을 구성하려면 어떻게 해야 합니까? 기본 규칙이 있습니까?
 
-제한 또는 제한 규칙을 만들려면 [이 섹션](../configuration/external-systems.md#capping)을 참조하세요. 기본적으로 제한 규칙은 없으며 모든 사용자 지정 작업, 호스트 및 샌드박스에 대해 1분 동안 정의된 최대 호출 수인 300,000개입니다. 이 제한은 사용자 정의 작업으로 타깃팅된 외부 끝점을 보호하기 위해 고객 사용량을 기준으로 설정되었습니다. 필요한 경우 최대 가용량/최대 가용량 API를 통해 더 큰 최대 가용량 또는 최대 가용량 제한을 정의하여 이 설정을 재정의할 수 있습니다.
+제한 또는 제한 규칙을 만들려면 [이 섹션](../configuration/external-systems.md#capping)을 참조하세요. 기본적으로 제한 규칙은 없으며 모든 사용자 지정 작업, 호스트 및 샌드박스에 대해 1분 동안 정의된 최대 호출 수인 300,000개입니다. &quot;호스트당&quot; 제한은 도메인 수준(예: example.com)에서 적용됩니다. 이 제한은 사용자 정의 작업으로 타깃팅된 외부 끝점을 보호하기 위해 고객 사용량을 기준으로 설정되었습니다. 필요한 경우 Capping/Throttling API를 통해 상한 설정 또는 스로틀링 제한을 보다 크게 정의하는 방법으로 이 설정을 재정의할 수 있습니다. 최대 한도 증가를 요청하는 방법에 대한 자세한 내용은 [이 페이지](../action/about-custom-action-configuration.md)를 참조하세요.
 
 +++
 
