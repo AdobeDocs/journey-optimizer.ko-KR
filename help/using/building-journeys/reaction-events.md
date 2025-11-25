@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 여정, 이벤트, 반응, 추적, 플랫폼
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
 version: Journey Orchestration
-source-git-commit: dff732d14dd143f085b1287274f7571a900a0c87
+source-git-commit: d8fa1c7055e4e31e393e36ba16863e0f8f95ca9b
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 17%
+source-wordcount: '504'
+ht-degree: 16%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 17%
 
 팔레트에서 사용할 수 있는 다양한 이벤트 활동 중에서 기본으로 제공되는 **[!UICONTROL 반응]** 이벤트를 찾을 수 있습니다. 이 활동을 통해 동일한 여정 내에서 전송된 메시지와 관련된 추적 데이터에 반응할 수 있습니다. Adobe Experience Platform과 공유되는 순간 이 정보를 실시간으로 캡처합니다.
 
-클릭하거나 연 메시지에 반응할 수 있습니다.
+클릭하거나 연 메시지에 반응할 수 있습니다. 예를 들어, 개인이 이전 이메일을 열거나 그 내부를 클릭한 경우 다른 메시지를 보내거나, 커뮤니케이션에 참여하지 않은 경우 다른 후속 메시지를 보낼 수 있습니다.
 
 [작업 활동](../building-journeys/about-journey-activities.md#action-activities)을 참조하세요.
 
