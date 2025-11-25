@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 활동, 조건, 캔버스, 여정
 exl-id: 02de069c-3009-4105-aa98-c49959d3efda
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 486d742ea2b1e8e6eca9e434ff862da3d40fd7ec
 workflow-type: tm+mt
-source-wordcount: '1652'
-ht-degree: 18%
+source-wordcount: '1773'
+ht-degree: 17%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 18%
 
 >[!NOTE]
 >
->[프로필 저장소](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko#profile-data-store){target="_blank"}에 두 개 이상의 교차 장치 ID가 포함된 프로필에 대해서는 조건 평가가 실패합니다.
+>[프로필 저장소](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}에 두 개 이상의 교차 장치 ID가 포함된 프로필에 대해서는 조건 평가가 실패합니다.
 
 ## 조건 경로 추가 및 관리 {#about_condition}
 
@@ -90,6 +90,14 @@ ht-degree: 18%
 **[!UICONTROL 데이터 Source 조건]**&#x200B;을 사용하여 데이터 원본 또는 여정에 이전에 배치된 이벤트의 필드를 기반으로 조건을 정의합니다. 이 유형의 조건은 표현식 편집기로 정의됩니다. [이 섹션](expression/expressionadvanced.md)에서 표현식 편집기를 사용하는 방법을 알아봅니다.
 
 예를 들어, 작성 워크플로우 또는 사용자 지정 업로드(CSV 파일)를 사용하여 생성된 보강 속성으로 대상을 타깃팅하는 경우 이러한 보강 속성을 활용하여 조건을 작성할 수 있습니다.
+
+>[!IMPORTANT]
+>
+>**누락되었거나 수집되지 않은 특성 처리**
+>
+>프로필 스키마에 스키마 필드가 정의되어 있지만 해당 필드에 대한 데이터가 수집되지 않은 경우 Journey Optimizer 및 기본 실시간 고객 프로필은 해당 필드를 `null`(으)로 해석합니다. 그 결과, `isEmpty()`, `isNull()` 또는 유사한 함수를 확인하는 조건은 해당 특성이 수집되지 않은 경우에도 `true`로 평가됩니다. 이렇게 하면 필드에 데이터가 없다는 것을 알지 못하는 경우 예기치 않은 여정 동작이 발생할 수 있습니다.
+>
+>혼동을 방지하기 위해 프로필이 여정에 들어가기 전에 조건 표현식에서 사용하는 특성이 실제 데이터로 수집되었는지 확인하십시오. [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target="_blank"}에서 특성 값을 확인하여 조건에 사용된 필드에 대한 데이터가 있는지 확인할 수 있습니다.
 
 고급 표현식 편집기를 사용하여 컬렉션을 조작하거나 매개 변수를 전달해야 하는 데이터 소스를 사용하는 고급 조건을 설정할 수 있습니다. [자세히 알아보기](../datasource/external-data-sources.md).
 
@@ -180,4 +188,4 @@ ht-degree: 18%
 
    >[!NOTE]
    >
-   >대상자 참여 상태가 **실현됨**&#x200B;인 개인만 대상자의 구성원으로 간주됩니다. 대상자를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ko#interpret-segment-results){target="_blank"}를 참조하세요.
+   >대상자 참여 상태가 **실현됨**&#x200B;인 개인만 대상자의 구성원으로 간주됩니다. 대상자를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}를 참조하세요.
