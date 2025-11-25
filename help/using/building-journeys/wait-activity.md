@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 대기, 활동, 여정, 다음, 캔버스
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: cec807afe35bc95be9fa8d455cd72c2600e51fa7
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 17%
+source-wordcount: '732'
+ht-degree: 15%
 
 ---
 
@@ -90,6 +90,15 @@ Select the date for the execution of the next activity.
 >
 >여정 속성에 **표준 시간대**&#x200B;이(가) 필요합니다. 따라서 사용자 인터페이스에서 2023-08-12T09:46:06.982-05와 같이 전체 ISO-8601 타임스탬프 혼합 시간 및 시간대 오프셋을 직접 지정할 수 없습니다. [자세히 알아보기](../building-journeys/timezone-management.md).
 
+>[!CAUTION]
+>
+>`toDateTimeOnly()`을(를) 사용하여 사용자 지정 대기 식을 만들 때 식 결과에 &#39;Z&#39; 또는 시간대 오프셋(예: &#39;-05:00&#39;)을 추가하지 마십시오. 명시적 시간대 지정자 없이 여정이 구성한 시간대를 참조하는 유효한 ISO 날짜/시간 구문을 표현식에 사용해야 합니다.
+>
+>**올바른 예:** `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00"))`
+>
+>**잘못된 예:** `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00Z"))` ❌(&#39;Z&#39; 포함)
+>
+>지원되지 않는 시간대 지정자를 사용하면 프로필이 예상대로 진행되지 않고 대기 활동에서 중단된 상태로 유지될 수 있습니다.
 
 대기 활동이 예상대로 작동하는지 확인하려면 단계 이벤트를 사용할 수 있습니다. [자세히 알아보기](../reports/query-examples.md#common-queries).
 
