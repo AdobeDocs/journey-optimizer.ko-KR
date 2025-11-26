@@ -82,7 +82,7 @@ Journey Optimizer에서 인앱 구성을 만들려면 다음 단계를 수행하
 
    >[!NOTE]
    >
-   >iOS 및 Android 플랫폼의 경우 게재는 앱 ID만을 기반으로 합니다. 두 앱이 동일한 앱 ID를 공유하는 경우 **[!UICONTROL 채널 구성]**에서 선택한 플랫폼에 관계없이 콘텐츠가 두 앱 ID 모두에 전달됩니다.
+   >iOS 및 Android 플랫폼의 경우 게재는 앱 ID만을 기반으로 합니다. 두 앱이 동일한 앱 ID를 공유하는 경우 **[!UICONTROL 채널 구성]**&#x200B;에서 선택한 플랫폼에 관계없이 콘텐츠가 두 앱 ID 모두에 전달됩니다.
    >인앱 메시지 게재를 특정 플랫폼으로 제한하려면 여정 또는 캠페인 논리 내에서 장치별 규칙을 구현해야 합니다.
 
    ![](assets/inapp_config_10.png)
@@ -138,10 +138,10 @@ Journey Optimizer에서 인앱 구성을 만들려면 다음 단계를 수행하
 
 **관련 항목:**
 
-* [인앱 메시지 만들기 ](create-in-app.md)
+* [인앱 메시지 만들기 &#x200B;](create-in-app.md)
 * [캠페인 만들기](../campaigns/create-campaign.md)
 * [인앱 메시지 디자인](design-in-app.md)
-* [인앱 보고서 ](../reports/campaign-global-report-cja-inapp.md)
+* [인앱 보고서 &#x200B;](../reports/campaign-global-report-cja-inapp.md)
 
 ## 프로필 관리 보호 {#profile-management-guardrail}
 
