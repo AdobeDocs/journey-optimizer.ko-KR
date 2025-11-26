@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 3d5ed7c5efd76616c8dbc89078f7368eedc5f1af
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '833'
 ht-degree: 2%
 
 ---
@@ -25,13 +25,17 @@ ht-degree: 2%
 
 * [코드 기반 경험 채널 구성](code-based-configuration.md)을 만들 때 자체 구현에서 선언된 것과 일치하는 문자열/경로 또는 표면 URI를 입력해야 합니다. 이렇게 하면 콘텐츠가 지정된 앱 또는 페이지 내에서 원하는 위치에 전달됩니다. 그렇지 않으면 변경 사항을 전달할 수 없습니다. [자세히 보기](code-based-surface.md)
 
+>[!NOTE]
+>
+>코드 기반 경험으로 익명 프로필(인증되지 않은 방문자)을 타겟팅할 때 자동 프로필 삭제에 대한 TTL(Time-To-Live)을 설정하여 참여 가능한 프로필 수 및 관련 비용을 관리하는 것이 좋습니다. [자세히 알아보기](#profile-management-guardrail)
+
 ## 구현 사전 요구 사항 {#implementation-prerequisites}
 
 코드 기반 경험은 아래 옵션에 표시된 대로 모든 유형의 고객 구현을 지원합니다. 속성에 클라이언트측, 서버측 또는 하이브리드 구현 방법을 사용할 수 있습니다.
 
 * 클라이언트측 전용 - 웹 페이지 또는 모바일 앱에 수정 사항을 추가하려면 웹 사이트에서 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko-KR){target="_blank"} 또는 모바일 앱에서 [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"}을 구현해야 합니다.
 
-* 하이브리드 모드 - [AEP Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=ko-KR){target="_blank"}를 사용하여 서버측 개인화를 요청할 수 있습니다. 응답은 클라이언트측 수정 사항을 렌더링하도록 Adobe Experience Platform Web SDK에 제공됩니다. 자세한 내용은 Adobe Experience Platform [Edge Network Server API 설명서](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ko){target="_blank"}를 참조하세요. [이 블로그 게시물](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}에서 하이브리드 모드에 대해 자세히 알아보고 일부 구현 샘플을 확인할 수 있습니다.
+* 하이브리드 모드 - [AEP Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=ko-KR){target="_blank"}를 사용하여 서버측 개인화를 요청할 수 있습니다. 응답은 클라이언트측 수정 사항을 렌더링하도록 Adobe Experience Platform Web SDK에 제공됩니다. 자세한 내용은 Adobe Experience Platform [Edge Network Server API 설명서](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html){target="_blank"}를 참조하세요. [이 블로그 게시물](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}에서 하이브리드 모드에 대해 자세히 알아보고 일부 구현 샘플을 확인할 수 있습니다.
 
 * 서버측 - [AEP Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=ko-KR){target="_blank"}를 사용하여 개인화 서버측을 요청할 수 있습니다. 개발 팀은 응답을 처리하고 앱 구현에서 클라이언트측에서 수정 사항을 렌더링해야 합니다.
 
@@ -43,11 +47,11 @@ ht-degree: 2%
 
 * [Adobe Experience Platform 데이터 수집](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=ko-KR){target="_blank"}에서 **[!UICONTROL Adobe Experience Platform]** 서비스 아래에 **[!UICONTROL Adobe Journey Optimizer]** 옵션이 활성화되어 있는지와 같이 데이터 스트림이 정의되어 있는지 확인합니다.
 
-  이렇게 하면 Journey Optimizer 인바운드 이벤트가 Adobe Experience Platform Edge에서 올바르게 처리됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=ko){target="_blank"}
+  이렇게 하면 Journey Optimizer 인바운드 이벤트가 Adobe Experience Platform Edge에서 올바르게 처리됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html){target="_blank"}
 
   ![](../web/assets/web-aep-datastream-ajo.png)
 
-* [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target="_blank"}에서 **[!UICONTROL Active-On-Edge 병합 정책]** 옵션이 활성화된 하나의 병합 정책이 있는지 확인하십시오. 이렇게 하려면 **[!UICONTROL 고객]** > **[!UICONTROL 프로필]** > **[!UICONTROL 정책 병합]** Experience Platform 메뉴에서 정책을 선택합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ko#configure){target="_blank"}
+* [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target="_blank"}에서 **[!UICONTROL Active-On-Edge 병합 정책]** 옵션이 활성화된 하나의 병합 정책이 있는지 확인하십시오. 이렇게 하려면 **[!UICONTROL 고객]** > **[!UICONTROL 프로필]** > **[!UICONTROL 정책 병합]** Experience Platform 메뉴에서 정책을 선택합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
 
   [!DNL Journey Optimizer] 인바운드 채널이 이 병합 정책을 사용하여 에지에서 인바운드 캠페인을 올바르게 활성화하고 게시합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ko){target="_blank"}
 
@@ -61,7 +65,7 @@ ht-degree: 2%
 
 ## 보고 사전 요구 사항 {#reporting-prerequisites}
 
-코드 기반 채널에 대한 보고를 사용하려면 앱 구현 [데이터 스트림](../data/get-started-datasets.md)에 사용된 [데이터 세트](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=ko){target="_blank"}도 보고 구성에 포함되어 있는지 확인해야 합니다.
+코드 기반 채널에 대한 보고를 사용하려면 앱 구현 [데이터 스트림](../data/get-started-datasets.md)에 사용된 [데이터 세트](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"}도 보고 구성에 포함되어 있는지 확인해야 합니다.
 
 즉, 보고를 구성할 때 앱 데이터 스트림에 없는 데이터 세트를 추가하면 앱 데이터가 보고서에 표시되지 않습니다.
 
@@ -70,3 +74,17 @@ ht-degree: 2%
 >[!NOTE]
 >
 >데이터 집합은 [!DNL Journey Optimizer] 보고 시스템에서 읽기 전용으로 사용되며 데이터 수집이나 데이터 수집에는 영향을 주지 않습니다.
+
+## 프로필 관리 보호 {#profile-management-guardrail}
+
+[!DNL Journey Optimizer] 코드 기반 경험은 익명 프로필을 타겟팅할 수 있습니다. 즉, 다른 채널에서 이전에 참여하지 않았으므로 인증되지 않았거나 아직 알 수 없는 프로필을 의미합니다. 이 경우는 예를 들어 ECID와 같은 임시 ID를 기반으로 모든 방문자 또는 대상을 타겟팅할 때 해당됩니다.
+
+이렇게 하면 총 참여 가능 프로필 수가 증가하므로 구입한 계약 참여 가능 프로필 수를 초과하는 경우 비용이 발생할 수 있습니다. 각 패키지에 대한 라이선스 지표는 [Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} 페이지에 나와 있습니다. [라이선스 사용 대시보드](../audience/license-usage.md)에서 참여 가능한 프로필 수를 확인할 수 있습니다.
+
+참여 가능한 프로필을 합리적인 제한 이내로 유지하려면 Adobe에서는 TTL(Time-To-Live)을 설정하여 특정 기간 내에 방문하거나 참여한 적이 없는 경우 실시간 고객 프로필에서 익명 프로필을 자동으로 삭제할 것을 권장합니다.
+
+>[!NOTE]
+>
+>[Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/pseudonymous-profiles){target="_blank"}에서 익명 프로필에 대한 데이터 만료를 구성하는 방법에 대해 알아봅니다.
+
+Adobe에서는 현재 Edge 프로필 TTL과 일치하도록 TTL 값을 14일로 설정하는 것이 좋습니다.
