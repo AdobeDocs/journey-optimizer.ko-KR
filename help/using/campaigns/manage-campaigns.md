@@ -10,10 +10,10 @@ mini-toc-levels: 1
 level: Beginner
 keywords: 캠페인, 상태, 일정, 액세스, 최적화 도구 관리
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 81e54a3e3428d58818805b5dcb397ede4039436a
+source-git-commit: 10eaebc1d24eae4a0a149822d31ff92509d1e6f8
 workflow-type: tm+mt
-source-wordcount: '1709'
-ht-degree: 14%
+source-wordcount: '1775'
+ht-degree: 13%
 
 ---
 
@@ -61,7 +61,7 @@ API 트리거 캠페인 목록에 액세스하려면 **[!UICONTROL API 트리거
 
 또한 목록에서 쉽게 검색할 수 있도록 검색 창과 필터를 사용할 수 있습니다. 예를 들어 지정된 채널 또는 태그와 연결된 캠페인 또는 특정 날짜 범위 동안 만들어진 캠페인만 표시하도록 캠페인을 필터링할 수 있습니다.
 
-캠페인 인벤토리의 ![&#128279;](assets/do-not-localize/rule-builder-icon-more.svg)액션 더 보기 버튼을 표시하는 이미지 버튼을 사용하면 아래에서 설명하는 다양한 작업을 수행할 수 있습니다.
+캠페인 인벤토리의 ](assets/do-not-localize/rule-builder-icon-more.svg)액션 더 보기 버튼을 표시하는 이미지![ 버튼을 사용하면 아래에서 설명하는 다양한 작업을 수행할 수 있습니다.
 
 ![캠페인 인벤토리를 표시하는 이미지](assets/inventory-actions.png)
 
@@ -128,6 +128,10 @@ Adobe Journey Optimizer에서 각 캠페인은 인터페이스에서의 상태�
 캠페인 중 하나에서 오류가 발생하면 캠페인 상태와 함께 경고 아이콘이 표시됩니다. 경고와 관련된 정보를 표시하려면 이 패널을 클릭합니다. 이러한 경고는 캠페인 메시지가 게시되지 않았거나 선택한 구성이 잘못된 경우와 같은 다양한 상황에서 발생할 수 있습니다.
 
 ![](assets/campaign-alerts.png)
+
+>[!NOTE]
+>
+>Assets/이미지는 모든 조각/인라인 메시지에 처음 게시된 후 최대 2년(730일) 동안 게재된 콘텐츠에서 액세스할 수 있습니다. 이 만료 기간(730일 후 언제든지) 이후에는 다시 게시해야 2년 동안 액세스할 수 있습니다. 첫 번째 게시 후 730일 이내에 다시 게시하면 에셋/이미지의 만료가 다음 730일로 연장되지 않습니다.
 
 ## 캠페인 캘린더 {#calendar}
 
@@ -229,7 +233,7 @@ Adobe Journey Optimizer에서 각 캠페인은 인터페이스에서의 상태�
 
 ## 캠페인 삭제 {#delete}
 
-캠페인을 삭제하려면 추가 작업 단추![&#x200B; 단추를 표시하는 줄임표 &#x200B;](assets/do-not-localize/rule-builder-icon-more.svg)이미지를 사용하고 **[!UICONTROL 삭제]**&#x200B;를 선택하십시오.
+캠페인을 삭제하려면 추가 작업 단추![ 단추를 표시하는 줄임표 ](assets/do-not-localize/rule-builder-icon-more.svg)이미지를 사용하고 **[!UICONTROL 삭제]**&#x200B;를 선택하십시오.
 
 ![](assets/delete-a-campaign.png){width="70%" align="left"}
 
@@ -240,7 +244,7 @@ Adobe Journey Optimizer에서 각 캠페인은 인터페이스에서의 상태�
 
 ## 캠페인 복제 {#duplicate}
 
-캠페인을 복제하려면, 예를 들어 중단된 경우 추가 작업 단추![&#x200B; 단추를 표시하는 줄임표 &#x200B;](assets/do-not-localize/rule-builder-icon-more.svg)이미지를 사용하고 **[!UICONTROL 복제]**&#x200B;를 선택하십시오.
+캠페인을 복제하려면, 예를 들어 중단된 경우 추가 작업 단추![ 단추를 표시하는 줄임표 ](assets/do-not-localize/rule-builder-icon-more.svg)이미지를 사용하고 **[!UICONTROL 복제]**&#x200B;를 선택하십시오.
 
 캠페인 이름을 입력하고 확인합니다.
 
