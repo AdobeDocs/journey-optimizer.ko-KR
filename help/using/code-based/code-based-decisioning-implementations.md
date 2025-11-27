@@ -6,7 +6,7 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
-source-git-commit: 1b6158132e5df1912d9658805fa8b1344c6f938f
+source-git-commit: 5ddce63ac21f7cbfff435b4914cc91a8d6d58b93
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 1%
@@ -17,11 +17,11 @@ ht-degree: 1%
 
 코드 기반 경험에서 Decisioning을 사용할 때 아래에 설명된 경우 클라이언트 구현에 다음 플래그를 추가하는 것이 좋습니다.
 
-➡️ 의사 결정 및 코드 기반 경험을 위한 웹 SDK 구성에 대한 자세한 내용은 [이러한 자습서](#tutorials)를 참조하세요.
-
 >[!CAUTION]
 >
 >코드 기반 경험 채널은 [!DNL Journey Optimizer] [Decisioning](../experience-decisioning/gs-experience-decisioning.md) 기능만 지원합니다. 기존 의사 결정 관리 기능은 코드 기반 환경에서 사용할 수 없습니다.
+
+➡️ 의사 결정 및 코드 기반 경험을 위한 웹 SDK 구성에 대한 자세한 내용은 [이러한 자습서](#tutorials)를 참조하세요.
 
 ## 의사 결정을 사용하여 코드 기반 경험 테스트 {#code-based-test-decisions}
 
@@ -295,7 +295,7 @@ curl --location 'https://edge-int.adobedc.net/ee/v1/interact?configId=2f21d344-b
 
 +++
 
-## 튜토리얼{#tutorials}
+## 튜토리얼 {#tutorials}
 
 [이 자습서](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/use-decisioning-to-personalize-web-offers/introduction){target="_blank"}에서는 Journey Optimizer의 의사 결정을 사용하여 웹 SDK 구성에 초점을 맞춰 웹 사이트에서 콘텐츠 오퍼를 개인화하는 방법을 알아봅니다.
 

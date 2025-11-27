@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 1f9841ddd039a7591f396e38d8a93ed840d6879e
+source-git-commit: 5ddce63ac21f7cbfff435b4914cc91a8d6d58b93
 workflow-type: tm+mt
-source-wordcount: '3331'
-ht-degree: 86%
+source-wordcount: '3324'
+ht-degree: 85%
 
 ---
 
@@ -88,17 +88,17 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 
 ### 인바운드 채널 가드레일 {#inbound-guardrails}
 
-[!DNL Journey Optimizer]에서 [코드 기반 경험](../code-based/get-started-code-based.md) 액션을 사용하고 애플리케이션에서 사용할 수 있는 코드 콘텐츠 페이로드를 전달하려면 [이 페이지](../code-based/code-based-prerequisites.md)에서 설명하는 전제 조건을 따라야 합니다.
+* [!DNL Journey Optimizer]에서 [코드 기반 경험](../code-based/get-started-code-based.md) 액션을 사용하고 애플리케이션에서 사용할 수 있는 코드 콘텐츠 페이로드를 전달하려면 [이 페이지](../code-based/code-based-prerequisites.md)에서 설명하는 전제 조건을 따라야 합니다.
 
-[&#x200B; 사용자 인터페이스에서 &#x200B;](../web/get-started-web.md)웹 페이지[!DNL Journey Optimizer]에 액세스하고 작성하려면 [이 페이지](../web/web-prerequisites.md)에 나열된 필수 구성 요소를 따르십시오.
+* [ 사용자 인터페이스에서 ](../web/get-started-web.md)웹 페이지[!DNL Journey Optimizer]에 액세스하고 작성하려면 [이 페이지](../web/web-prerequisites.md)에 나열된 필수 구성 요소를 따르십시오.
 
-[!DNL Journey Optimizer]을(를) 사용하여 여정 및 캠페인에서 인앱 메시지를 보내려면 [이 페이지](../in-app/inapp-configuration.md)에 나열된 게재 필수 조건을 따르십시오.
+* [!DNL Journey Optimizer]을(를) 사용하여 여정 및 캠페인에서 인앱 메시지를 보내려면 [이 페이지](../in-app/inapp-configuration.md)에 나열된 게재 필수 조건을 따르십시오.
 
-Adobe Journey Optimizer에서 컨텐츠 카드를 올바르게 표시하려면 [이 페이지](../content-card/content-card-configuration-prereq.md)에 나열된 Adobe Experience Platform 설정을 구성해야 합니다.
+* Adobe Journey Optimizer에서 컨텐츠 카드를 올바르게 표시하려면 [이 페이지](../content-card/content-card-configuration-prereq.md)에 나열된 Adobe Experience Platform 설정을 구성해야 합니다.
 
 * Journey Optimizer가 지원하는 인바운드 요청의 최대 볼륨은 초당 5,000개입니다. 이 가드레일은 Journey Optimizer에서 지원하는 인바운드 채널([웹](../web/get-started-web.md), [인앱](../in-app/get-started-in-app.md), [코드 기반 경험](../code-based/get-started-code-based.md), [콘텐츠 카드](../../rp_landing_pages/content-card-landing-page.md))에서 발생할 수 있는 모든 인바운드 요청에 적용됩니다.
 
-* Journey Optimizer는 언제든지 최대 500개의 활성 인바운드 액션을 지원합니다. 이 인바운드 액션([웹](../web/get-started-web.md), [인앱](../in-app/get-started-in-app.md), [코드 기반 경험](../code-based/get-started-code-based.md), [콘텐츠 카드](../../rp_landing_pages/content-card-landing-page.md))은 라이브 캠페인의 일부이거나 라이브 여정에 사용되는 노드인 경우 계산됩니다. 이 수에 도달하면 새 캠페인을 시작하기 전에 인바운드 액션을 사용하는 이전 캠페인이나 여정을 비활성화해야 합니다.
+* Journey Optimizer는 언제든지 최대 500개의 활성 인바운드 액션을 지원합니다. 이러한 인바운드 작업은 라이브 여정의 일부이거나 라이브 캠페인에 사용되는 노드인 경우 계산됩니다. 이 수에 도달하면 새 캠페인을 시작하기 전에 인바운드 액션을 사용하는 이전 캠페인이나 여정을 비활성화해야 합니다.
 
 #### 인바운드 채널을 통한 프로필 관리 {#profile-management-inbound}
 
@@ -152,7 +152,7 @@ Journey Optimizer의 하위 도메인 위임에 적용되는 가드레일 및 �
 
 * 데이터를 수집할 때 이메일은 대소문자를 구분합니다. 즉, 중복 프로필을 만들어(예: John.Greene@luma.com 프로필 하나, john.greene@luma.com 프로필 하나) [!DNL Journey Optimizer] 여정 및 캠페인에서 해당 수신자를 타기팅할 때 사용할 수 있습니다.
 
-* 컨텐츠 카드로 익명 프로필(인증되지 않은 방문자)을 타겟팅할 때 자동 프로필 삭제에 대한 TTL(Time-To-Live)을 설정하여 참여 가능한 프로필 수 및 관련 비용을 관리하는 것이 좋습니다. [자세히 알아보기](#profile-management-inbound)
+* 인바운드 채널을 통해 익명 프로필(인증되지 않은 방문자)을 타겟팅할 때 자동 프로필 삭제에 대한 TTL(Time-To-Live)을 설정하여 참여 가능한 프로필 수 및 관련 비용을 관리하는 것이 좋습니다. [자세히 알아보기](#profile-management-inbound)
 
 ## 의사 결정 및 의사 결정 관리 가드레일 {#decisioning-guardrails}
 
