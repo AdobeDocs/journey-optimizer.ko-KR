@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 하위 도메인, 도메인, 메일, DMARC, 레코드
 exl-id: f9e217f8-5aa8-4d3a-96fc-65defcb5d340
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 502f26ba3f8f5fa0db73be9f0cf66b21dbea507b
 workflow-type: tm+mt
-source-wordcount: '1482'
-ht-degree: 11%
+source-wordcount: '1577'
+ht-degree: 10%
 
 ---
 
@@ -58,7 +58,7 @@ DMARC을 전달하려면 메시지가 SPF 또는 DKIM을 전달해야 합니다.
 
 >[!NOTE]
 >
->[!DNL Journey Optimizer]이 섹션[에서 &#x200B;](#set-up-dmarc)을(를) 사용하여 DMARC 정책을 설정하는 방법에 대해 알아봅니다.
+>[!DNL Journey Optimizer]이 섹션[에서 ](#set-up-dmarc)을(를) 사용하여 DMARC 정책을 설정하는 방법에 대해 알아봅니다.
 
 ## DMARC 요구 사항 업데이트 {#dmarc-update}
 
@@ -190,6 +190,16 @@ Adobe에서 DMARC 레코드를 관리하도록 하려면 **[!UICONTROL Adobe으�
    가장 좋은 방법은 DMARC 준수율이 100%에 가까운 높은 수준을 목표로 하여 긍정 오류(false positive)의 위험을 최소화하면서 보안 이점을 극대화하는 것입니다.
 
 1. 24시간에서 168시간 사이의 **보고 간격**&#x200B;을 선택하세요. 도메인 소유자는 이메일 인증 결과에 대한 정기적인 업데이트를 받고 이메일 보안을 개선하기 위해 필요한 조치를 취할 수 있습니다.
+
+### 문제 해결 {#troubleshooting}
+
+DMARC 레코드 설정에는 도메인의 DNS 설정에 DNS TXT 레코드를 추가하는 작업이 포함됩니다. 이 레코드는 인증에 실패한 메시지를 격리할지 또는 거부할지 여부와 같이 DMARC 정책을 지정합니다.
+
+DNS 변경 사항은 인터넷을 통해 전파되는 데 시간이 걸리며, 일반적으로 몇 분에서 48시간 사이에 발생합니다.
+
+DMARC 구성을 방금 변경한 후 업데이트를 즉시 확인하려고 하면 오류가 발생하거나 변경 사항이 아직 감지되지 않을 수 있습니다.
+
+DMARC 설정을 확인하기 전에 DNS 레코드가 전파될 수 있는 충분한 시간을 허용합니다.
 
 <!--The DMARC reporting interval is specified in the DMARC policy published in the DNS (Domain Name System) records for a domain. The reporting interval can be set to daily, weekly, or another specified frequency, depending on the domain owner's preferences.
 
