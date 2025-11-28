@@ -39,7 +39,7 @@ ht-degree: 9%
 
 >[!INFO]
 >
->더 자세히 알아보려면 이 [개요](https://business.adobe.com/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"}와 [의 &#x200B;](https://business.adobe.com/products/genstudio-for-performance-marketing.html#demo){target="_blank"}데모[!DNL Adobe GenStudio for Performance Marketing]을(를) 확인하십시오.
+>더 자세히 알아보려면 이 [개요](https://business.adobe.com/kr/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"}와 [의 &#x200B;](https://business.adobe.com/kr/products/genstudio-for-performance-marketing.html#demo){target="_blank"}데모[!DNL Adobe GenStudio for Performance Marketing]을(를) 확인하십시오.
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
 
@@ -51,7 +51,7 @@ ht-degree: 9%
 
 * [!DNL GenStudio for Performance Marketing]과(와) [!DNL Adobe Journey Optimizer]은(는) 모두 동일한 IMS 조직에 속해야 합니다.
 
-* 통합 기능을 활용하려면 **에서 사용자에게 최소** Collaborator[!DNL GenStudio for Performance Marketing] 이상의 역할이 있어야 합니다. [GenStudio에서 사용자 역할에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles){target="_blank"}
+* 통합 기능을 활용하려면 **에서 사용자에게 최소** Collaborator[!DNL GenStudio for Performance Marketing] 이상의 역할이 있어야 합니다. [GenStudio에서 사용자 역할에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles){target="_blank"}
 
 <!--To access the GenStudio integration in [!DNL Adobe Journey Optimizer] feature, users need to be granted the **xxx** permission. [Learn more](../administration/permissions.md)
 
@@ -119,13 +119,13 @@ The following limitations apply to GenStudio integration in [!DNL Adobe Journey 
 
    >[!NOTE]
    >
-   >HTML 템플릿을 [!DNL GenStudio]Adobe GenStudio for Performance Marketing 사용 안내서[&#x200B; 전용 섹션에서 &#x200B;](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"}에 업로드하는 방법을 알아봅니다.
+   >HTML 템플릿을 [!DNL GenStudio]Adobe GenStudio for Performance Marketing 사용 안내서[&#x200B; 전용 섹션에서 &#x200B;](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"}에 업로드하는 방법을 알아봅니다.
 
 1. GenStudio에서 이 템플릿을 사용하여 AI 프롬프트가 있는 여러 이메일 변형을 만들고 저장합니다.
 
    >[!NOTE]
    >
-   >GenStudio 전용 [섹션](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience){target="_blank"}에서 전자 메일 경험을 만드는 방법을 알아봅니다.
+   >GenStudio 전용 [섹션](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience){target="_blank"}에서 전자 메일 경험을 만드는 방법을 알아봅니다.
 
 ### Journey Optimizer에서 GenStudio 경험 활용 {#leverage-genstudio-experiences}
 
