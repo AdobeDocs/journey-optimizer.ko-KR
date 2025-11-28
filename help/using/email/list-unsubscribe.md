@@ -43,7 +43,7 @@ ht-degree: 98%
 >
 >아래의 [이 섹션](#enable-list-unsubscribe)에서 구독 취소 설정을 관리하는 방법을 알아봅니다.
 
-두 경우 모두 수신자가 옵트아웃 링크를 클릭하면 수신자의 구독 취소 요청이 그에 따라 처리됩니다. 해당 프로필이 즉시 옵트아웃되고 이 선택 사항이 [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ko){target="_blank"}에서 업데이트됩니다. 동의 처리에 대한 자세한 내용은 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html){target="_blank"}를 참조하세요.
+두 경우 모두 수신자가 옵트아웃 링크를 클릭하면 수신자의 구독 취소 요청이 그에 따라 처리됩니다. 해당 프로필이 즉시 옵트아웃되고 이 선택 사항이 [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ko){target="_blank"}에서 업데이트됩니다. 동의 처리에 대한 자세한 내용은 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=ko){target="_blank"}를 참조하세요.
 
 >[!NOTE]
 >
