@@ -6,9 +6,9 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
-source-git-commit: 5ddce63ac21f7cbfff435b4914cc91a8d6d58b93
+source-git-commit: 0cdc5dce00d2240b2de6c4cba1648b4517323cce
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '486'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 >
 >코드 기반 경험 채널은 [!DNL Journey Optimizer] [Decisioning](../experience-decisioning/gs-experience-decisioning.md) 기능만 지원합니다. 기존 의사 결정 관리 기능은 코드 기반 환경에서 사용할 수 없습니다.
 
-➡️ 의사 결정 및 코드 기반 경험을 위한 웹 SDK 구성에 대한 자세한 내용은 [이러한 자습서](#tutorials)를 참조하세요.
+➡️ 코드 기반 경험 및 의사 결정을 위한 Web SDK 구성에 대한 자세한 내용은 [이러한 자습서](#tutorials)를 참조하세요.
 
 ## 의사 결정을 사용하여 코드 기반 경험 테스트 {#code-based-test-decisions}
 
@@ -297,6 +297,10 @@ curl --location 'https://edge-int.adobedc.net/ee/v1/interact?configId=2f21d344-b
 
 ## 튜토리얼 {#tutorials}
 
-[이 자습서](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/use-decisioning-to-personalize-web-offers/introduction){target="_blank"}에서는 Journey Optimizer의 의사 결정을 사용하여 웹 SDK 구성에 초점을 맞춰 웹 사이트에서 콘텐츠 오퍼를 개인화하는 방법을 알아봅니다.
+[이 자습서](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/#implement-extension-in-mobile-app){target="_blank"}에서 Adobe Experience Platform Mobile SDK용 [Adobe Journey Optimizer 확장](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"}을 사용하여 코드 기반 경험을 가져오고, 표시하고, 추적하는 방법에 대해 알아봅니다.
+
+[이 자습서](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/use-decisioning-to-personalize-web-offers/introduction){target="_blank"}에서 Journey Optimizer의 의사 결정을 사용하여 웹 SDK 구성에 초점을 맞춰 웹 사이트에서 콘텐츠 오퍼를 개인화하는 방법을 알아봅니다.
 
 [이 자습서](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction){target="_blank"}에서 실시간 날씨 데이터와 컨텍스트 정보를 사용하여 오퍼를 개인화하기 위해 웹 SDK을 구성하고 코드 기반 경험으로 의사 결정을 사용하는 방법을 알아봅니다.
+
+
