@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 설정, 이메일, 구성
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '1693'
-ht-degree: 100%
+source-git-commit: d77c6376bee14d3d6f90be9be54ac01c740e754f
+workflow-type: tm+mt
+source-wordcount: '1704'
+ht-degree: 98%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 100%
 >
 >아래의 [이 섹션](#enable-list-unsubscribe)에서 구독 취소 설정을 관리하는 방법을 알아봅니다.
 
-두 경우 모두 수신자가 옵트아웃 링크를 클릭하면 수신자의 구독 취소 요청이 그에 따라 처리됩니다. 해당 프로필은 즉시 옵트아웃되고 [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ko#getting-started){target="_blank"}에서 이 선택이 업데이트됩니다.
+두 경우 모두 수신자가 옵트아웃 링크를 클릭하면 수신자의 구독 취소 요청이 그에 따라 처리됩니다. 해당 프로필이 즉시 옵트아웃되고 이 선택 사항이 [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ko){target="_blank"}에서 업데이트됩니다. 동의 처리에 대한 자세한 내용은 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html){target="_blank"}를 참조하세요.
 
 >[!NOTE]
 >
@@ -132,9 +132,9 @@ Adobe 외부에서 동의를 관리하는 경우 **[!UICONTROL 고객 관리]** 
 
 >[!AVAILABILITY]
 >
->**[!UICONTROL Mailto(구독 취소)]** 옵션의 경우 제한된 가용성으로 이 기능을 사용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오. 이 경우 사용자 지정 특성(제한된 가용성)을 가진 **Mailto(구독 취소)** 섹션 [아래](#configure-decrypt-api)에 설명된 새 쿼리 매개 변수를 사용해야 합니다.
+>**[!UICONTROL Mailto(구독 취소)]** 옵션의 경우 제한된 가용성으로 이 기능을 사용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오. 이 경우 사용자 지정 속성(제한된 가용성)을 가진 **Mailto(구독 취소)** 섹션 [아래](#configure-decrypt-api)에 설명된 새 쿼리 매개 변수를 사용해야 합니다.
 
-엔드포인트에 대한 사용자 지정 특성을 정의하려면 **[!UICONTROL URL 추적 매개 변수]** 섹션을 사용하십시오. 해당 섹션에서 정의하는 모든 URL 추적 매개 변수는 사용자 정의 엔드포인트 끝에 기본 매개 변수와 함께 추가됩니다. [사용자 정의 URL 추적을 설정하는 방법 알아보기](url-tracking.md)
+엔드포인트에 대한 사용자 지정 속성을 정의하려면 **[!UICONTROL URL 추적 매개 변수]** 섹션을 사용하십시오. 해당 섹션에서 정의하는 모든 URL 추적 매개 변수는 사용자 정의 엔드포인트 끝에 기본 매개 변수와 함께 추가됩니다. [사용자 정의 URL 추적을 설정하는 방법 알아보기](url-tracking.md)
 
 ### 암호 해독 API 구성 {#configure-decrypt-api}
 
@@ -242,7 +242,7 @@ GET 호출은 다음과 같습니다.
 
 **[!UICONTROL Mailto(구독 취소)]** 옵션을 사용하는 경우 구독 취소 링크를 클릭하면 지정된 구독 취소 주소로 미리 채워진 이메일이 보내집니다.
 
-2025년 10월부터 **[!UICONTROL Mailto(구독 취소)]** 엔드포인트에 대해 **[!UICONTROL 고객 관리]** 옵션을 사용하는 경우 동의 이벤트에 추가할 사용자 지정 특성을 정의할 수 있습니다. 이 경우 아래에서 설명하는 쿼리 매개 변수를 사용해야 합니다.
+2025년 10월부터 **[!UICONTROL Mailto(구독 취소)]** 엔드포인트에 대해 **[!UICONTROL 고객 관리]** 옵션을 사용하는 경우 동의 이벤트에 추가할 사용자 지정 속성을 정의할 수 있습니다. 이 경우 아래에서 설명하는 쿼리 매개 변수를 사용해야 합니다.
 
 >[!AVAILABILITY]
 >
