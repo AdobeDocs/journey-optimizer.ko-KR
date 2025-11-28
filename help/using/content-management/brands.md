@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 9cd13e97315daef36918d4352f182efe0d3d9c7a
 workflow-type: tm+mt
-source-wordcount: '1451'
-ht-degree: 21%
+source-wordcount: '1615'
+ht-degree: 19%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 21%
 
 >[!AVAILABILITY]
 >
->Adobe Journey Optimizer에서 AI 도우미를 사용하려면 먼저 [사용자 동의](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
+>Adobe Journey Optimizer에서 AI 도우미를 사용하려면 먼저 [사용자 동의](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
 
 ## 브랜드 액세스 {#generative-access}
@@ -275,11 +275,21 @@ ht-degree: 21%
 
 1. **[!UICONTROL 작성 스타일]** 탭에서 ![](assets/do-not-localize/Smock_Add_18_N.svg)을(를) 클릭하여 지침, 예외 또는 제외를 추가합니다.
 
-1. 지침, 예외 또는 제외를 입력하고 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
+1. 지침, 예외 또는 제외를 입력합니다. 적용 방법을 더 잘 설명하기 위해 **[!UICONTROL 예]**&#x200B;를 포함할 수도 있습니다.
 
    ![](assets/brands-3.png)
 
-1. 업데이트하거나 삭제할 지침 또는 제외 중 하나를 선택합니다.
+1. 지침, 예외 또는 제외에 대한 사용 컨텍스트를 지정합니다.
+
+   * **[!UICONTROL 채널 유형]**: 이 지침, 예외 또는 제외를 적용할 위치를 선택하십시오. 예를 들어 특정 쓰기 스타일이 이메일, 모바일, 인쇄 또는 기타 통신 채널에만 표시되도록 할 수 있습니다.
+
+   * **[!UICONTROL 요소 형식]**: 규칙이 적용되는 콘텐츠 요소를 지정합니다. 여기에는 제목, 단추, 링크 또는 콘텐츠 내의 기타 구성 요소와 같은 요소가 포함될 수 있습니다.
+
+     ![](assets/brands-16.png)
+
+1. 지침, 예외 또는 제외가 설정되면 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
+
+1. 필요한 경우 가이드라인 또는 제외 중 하나를 선택하여 업데이트하거나 삭제합니다.
 
 1. 예제를 편집하려면 ![이미지 대체 텍스트 다운로드](assets/do-not-localize/Smock_Edit_18_N.svg "편집")을 클릭하고 삭제하려면 ![다이브 이미지 대체 텍스트](assets/do-not-localize/Smock_Delete_18_N.svg "삭제")아이콘을 클릭하십시오.
 
@@ -337,18 +347,29 @@ ht-degree: 21%
 
 1. **[!UICONTROL 시각적 콘텐츠]** 탭에서 ![](assets/do-not-localize/Smock_Add_18_N.svg)을(를) 클릭하여 지침, 제외 또는 예제를 추가합니다.
 
-1. 지침, 제외 또는 예를 입력하고 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
+1. 지침, 제외 또는 예를 입력합니다.
 
    ![](assets/brands-4.png)
+
+1. 지침 또는 제외에 대한 사용 컨텍스트를 지정합니다.
+
+   * **[!UICONTROL 채널 유형]**: 이 지침, 예외 또는 제외를 적용할 위치를 선택하십시오. 예를 들어 특정 쓰기 스타일이 이메일, 모바일, 인쇄 또는 기타 통신 채널에만 표시되도록 할 수 있습니다.
+
+   * **[!UICONTROL 요소 형식]**: 규칙이 적용되는 콘텐츠 요소를 지정합니다. 여기에는 제목, 단추, 링크 또는 콘텐츠 내의 기타 구성 요소와 같은 요소가 포함될 수 있습니다.
+
+     ![](assets/brands-16.png)
+
+1. 지침, 예외 또는 제외가 설정되면 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
 
 1. 올바른 사용을 표시하는 이미지를 추가하려면 **[!UICONTROL 예제]**&#x200B;를 선택하고 **[!UICONTROL 이미지 선택]**&#x200B;을 클릭합니다. 제외 예로서 잘못된 사용을 보여주는 이미지를 추가할 수도 있습니다.
 
    ![](assets/brands-13.png)
 
-1. 업데이트하거나 삭제할 지침 또는 제외 중 하나를 선택합니다.
+1. 필요한 경우 가이드라인 또는 제외 중 하나를 선택하여 업데이트하거나 삭제합니다.
 
 1. 지침 또는 제외 중 하나를 선택하여 업데이트합니다. 삭제하려면 ![이미지 대체 텍스트 다운로드](assets/do-not-localize/Smock_Delete_18_N.svg "삭제")아이콘을 클릭하십시오.
 
    ![](assets/brands-14.png)
 
 이제 브랜드를 추가로 개인화하거나 [브랜드를 게시](#create-brand-kit)할 수 있습니다.
+
