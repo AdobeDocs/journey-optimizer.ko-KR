@@ -8,10 +8,10 @@ level: Intermediate
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: e42640e791e6bec3bfd09a3095bad5e44e2ab128
+source-git-commit: 7205017785283e3db4d64ed595ac8f187f43307b
 workflow-type: tm+mt
-source-wordcount: '796'
-ht-degree: 1%
+source-wordcount: '785'
+ht-degree: 0%
 
 ---
 
@@ -135,11 +135,3 @@ Adobe은 효과적인 모델 성능을 보장하기 위해 다음 최소 임계�
 **주요 insight**: 연속 30일 데이터 창은 일시적인 트래픽 변동 동안 모델 안정성을 제공합니다. 단기적인 급등이나 하락은 모형 예측이나 성과에 큰 지장을 주지 않는다.
 
 +++
-
-## 관련 항목 {#related-topics}
-
-<!--* [Get started with Decisioning](gs-experience-decisioning.md)-->
-* [결정 항목 만들기](items.md)
-* [AI 모델 개요](ranking/ai-models.md)
-* [의사 결정 가드레일 및 제한 사항](decisioning-guardrails.md)
-
