@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 하위 도메인, 도메인, 메일, DMARC, 레코드
 exl-id: f9e217f8-5aa8-4d3a-96fc-65defcb5d340
-source-git-commit: 502f26ba3f8f5fa0db73be9f0cf66b21dbea507b
+source-git-commit: b3716265282599604de629be540ca68971daa343
 workflow-type: tm+mt
-source-wordcount: '1577'
-ht-degree: 10%
+source-wordcount: '1591'
+ht-degree: 9%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 10%
 
 ## DMARC란? {#what-is-dmarc}
 
-도메인 기반 메시지 인증, 보고 및 적합성(DMARC)은 도메인 소유자가 도메인을 무단 사용으로부터 보호할 수 있는 이메일 인증 방법입니다. 이메일 공급자 및 인터넷 서비스 공급자(ISP)에게 명확한 정책을 제공함으로써 악의적인 행위자가 도메인에서 온 것이라고 주장하는 이메일을 보내지 못하게 하는 데 도움이 됩니다. DMARC를 구현하면 합법적인 이메일이 스팸으로 표시되거나 거부될 위험이 줄어들고 이메일 전달성이 향상됩니다.
+도메인 기반 메시지 인증, 보고 및 적합성(DMARC)은 도메인 소유자가 도메인을 무단 사용으로부터 보호할 수 있는 이메일 인증 방법입니다. 이메일 공급자 및 인터넷 서비스 공급자(ISP)에게 명확한 정책을 제공함으로써 악의적인 행위자가 도메인에서 온 것이라고 주장하는 이메일을 보내지 못하게 하는 데 도움이 됩니다. DMARC을 구현하면 합법적인 이메일이 스팸으로 표시되거나 거부될 위험이 줄어들고 이메일 전달성이 향상됩니다.
 
 DMARC에서는 DMARC 유효성 검사를 통과하지 않은 이메일 처리에 대한 제어와 함께 인증에 실패한 메시지에 대한 보고도 제공합니다. 구현된 [DMARC 정책](#dmarc-policies)에 따라 이러한 전자 메일을 모니터링, 격리 또는 거부할 수 있습니다. 이러한 기능을 통해 잠재적 오류를 완화하고 해결하기 위한 조치를 취할 수 있습니다.
 
-인증에 실패한 메일을 제어하는 동안 게재 문제를 방지하기 위해 [!DNL Journey Optimizer]에서 이제 관리 인터페이스에서 직접 DMARC 기술을 지원하고 있습니다. [자세히 알아보기](#implement-dmarc)
+인증에 실패한 메일을 제어하는 동안 게재 문제를 방지하기 위해 이제 [!DNL Journey Optimizer]에서 관리 인터페이스에서 직접 DMARC 기술을 지원합니다. [자세히 알아보기](#implement-dmarc)
 
 ### DMARC은 어떻게 작동합니까? {#how-dmarc-works}
 
@@ -58,7 +58,7 @@ DMARC을 전달하려면 메시지가 SPF 또는 DKIM을 전달해야 합니다.
 
 >[!NOTE]
 >
->[!DNL Journey Optimizer]이 섹션[에서 &#x200B;](#set-up-dmarc)을(를) 사용하여 DMARC 정책을 설정하는 방법에 대해 알아봅니다.
+>[!DNL Journey Optimizer]이 섹션[에서 ](#set-up-dmarc)을(를) 사용하여 DMARC 정책을 설정하는 방법에 대해 알아봅니다.
 
 ## DMARC 요구 사항 업데이트 {#dmarc-update}
 
@@ -72,7 +72,7 @@ DMARC을 전달하려면 메시지가 SPF 또는 DKIM을 전달해야 합니다.
 
 * **에서 DMARC에**&#x200B;이미 위임한 모든 하위 도메인&#x200B;**에 대해** Adobe 레코드[!DNL Journey Optimizer]를 설정해야 합니다. [방법 알아보기](#check-subdomains-for-dmarc)
 
-* **새 하위 도메인을 Adobe에 위임**&#x200B;할 때 **관리 인터페이스에서** DMARC을 직접 설정&#x200B;**할 수 있습니다[!DNL Journey Optimizer]**. [방법 알아보기](#implement-dmarc)
+* **새 하위 도메인을 Adobe에 위임**&#x200B;할 때 **관리 인터페이스에서 직접** DMARC을 설정[!DNL Journey Optimizer]할 수 있습니다. [방법 알아보기](#set-up-dmarc)
 
 ## [!DNL Journey Optimizer]에서 DMARC 구현 {#implement-dmarc}
 
@@ -92,15 +92,15 @@ DMARC을 전달하려면 메시지가 SPF 또는 DKIM을 전달해야 합니다.
    >
    >Gmail 및 Yahoo!의 새 요구 사항을 준수하고 상위 ISP의 게재 문제를 방지하려면 위임된 모든 하위 도메인에 대해 DMARC 레코드를 설정하는 것이 좋습니다. [자세히 알아보기](dmarc-record-update.md)
 
-1. 연결된 DMARC 레코드가 없는 하위 도메인을 선택하고 조직의 필요에 따라 **[!UICONTROL DMARC 레코드]** 섹션을 채우십시오. DMARC 레코드 필드를 채우는 단계는 [이 섹션](#implement-dmarc)에 자세히 설명되어 있습니다.
+1. 연결된 DMARC 레코드가 없는 하위 도메인을 선택하고 조직의 필요에 따라 **[!UICONTROL DMARC 레코드]** 섹션을 채우십시오. DMARC 레코드 필드를 채우는 단계는 [이 섹션](#set-up-dmarc)에 자세히 설명되어 있습니다.
 
    <!--![](assets/dmarc-record-edit-full.png)-->
 
    >[!NOTE]
    >
-   >상위 도메인과 함께 DMARC 레코드가 검색되는지 여부에 따라 상위 도메인의 값을 사용하도록 선택하거나 Adobe에서 DMARC 레코드를 관리하도록 선택할 수 있습니다. [자세히 알아보기](#implement-dmarc)
+   >상위 도메인과 함께 DMARC 레코드가 검색되는지 여부에 따라 상위 도메인의 값을 사용하도록 선택하거나 Adobe에서 DMARC 레코드를 관리하도록 선택할 수 있습니다. [자세히 알아보기](#manage-dmarc-with-adobe)
 
-1. 하위 도메인을 편집하는 경우:
+1. 다음과 같은 하위 도메인을 편집하는 경우
 
    * [Adobe에 완전히 위임됨](delegate-subdomain.md#set-up-subdomain). 추가 작업이 필요하지 않습니다.
 
@@ -193,38 +193,36 @@ Adobe에서 DMARC 레코드를 관리하도록 하려면 **[!UICONTROL Adobe으�
 
 ### 문제 해결 {#troubleshooting}
 
-DMARC 레코드 설정에는 도메인의 DNS 설정에 DNS TXT 레코드를 추가하는 작업이 포함됩니다. 이 레코드는 인증에 실패한 메시지를 격리할지 또는 거부할지 여부와 같이 DMARC 정책을 지정합니다.
+DMARC 레코드를 설정할 때 DMARC 정책을 지정하는 도메인의 DNS 설정에 DNS TXT 레코드가 추가됩니다.
 
-DNS 변경 사항은 인터넷을 통해 전파되는 데 시간이 걸리며, 일반적으로 몇 분에서 48시간 사이에 발생합니다.
+**DNS 전파 시간**
 
-DMARC 구성을 방금 변경한 후 업데이트를 즉시 확인하려고 하면 오류가 발생하거나 변경 사항이 아직 감지되지 않을 수 있습니다.
+DNS 변경 사항은 인터넷을 통해 전파되는 데 시간이 걸리며, 일반적으로 몇 분에서 48시간 사이에 발생합니다. DMARC 구성을 방금 변경한 후 업데이트를 즉시 확인하려고 하면 오류가 발생하거나 변경 사항이 아직 감지되지 않을 수 있습니다.
 
-DMARC 설정을 확인하기 전에 DNS 레코드가 전파될 수 있는 충분한 시간을 허용합니다.
+DMARC 설정을 확인하기 전에 DNS 레코드가 전파될 수 있는 충분한 시간을 허용합니다. 48시간 후에도 문제가 계속 발생하면 DNS 레코드가 호스팅 솔루션에 올바르게 추가되었는지 확인하십시오.
 
 <!--The DMARC reporting interval is specified in the DMARC policy published in the DNS (Domain Name System) records for a domain. The reporting interval can be set to daily, weekly, or another specified frequency, depending on the domain owner's preferences.
 
-The default value (24 hours) is generally the email providers' expectation.
+The default value (24 hours) is generally the email providers' expectation.-->
 
-**********
-
-Setting up a DMARC record involves adding a DNS TXT record to your domain's DNS settings. This record specifies your DMARC policy, such as whether to quarantine or reject messages that fail authentication. Implementing DMARC is a proactive step towards enhancing email security and protecting both your organization and your recipients from email-based threats.
-
-DMARC helps prevent malicious actors from sending emails that appear to come from your domain. By setting up DMARC, you can specify how email providers should handle messages that fail authentication checks, reducing the likelihood that phishing emails will reach recipients.
-
-DMARC helps improve email deliverability by providing a clear policy for email providers to follow when encountering messages claiming to be from your domain. This can reduce the chances of legitimate emails being marked as spam or rejected.
-
-DMARC helps protect against email spoofing, phishing, and other fraudulent activities.
-
-It allows you to decide how a mailbox provider should handle emails that fail SPF and DKIM checks, providing a way to authenticate the sender's domain and prevent unauthorized use of the domain for malicious purposes.
+<!--
 
 ## What are the benefits of DMARC? {#dmarc-benefits}
 
 The key benefits or DMARC are as folllows:
 
+* Setting up a DMARC record involves adding a DNS TXT record to your domain's DNS settings. This record specifies your DMARC policy, such as whether to quarantine or reject messages that fail authentication. Implementing DMARC is a proactive step towards enhancing email security and protecting both your organization and your recipients from email-based threats.
+
+* DMARC helps prevent malicious actors from sending emails that appear to come from your domain. By setting up DMARC, you can specify how email providers should handle messages that fail authentication checks, reducing the likelihood that phishing emails will reach recipients.
+
+* DMARC helps improve email deliverability by providing a clear policy for email providers to follow when encountering messages claiming to be from your domain. This can reduce the chances of legitimate emails being marked as spam or rejected.
+
+* DMARC helps protect against email spoofing, phishing, and other fraudulent activities.
+
+* It allows you to decide how a mailbox provider should handle emails that fail SPF and DKIM checks, providing a way to authenticate the sender's domain and prevent unauthorized use of the domain for malicious purposes.
+
 * DMARC allows email receivers to easily identify the authentication of emails, which could potentially improve delivery.
 
 * It offers reporting on which messages fail SPF and/or DKIM, enabling senders to gain visibility.
 
-* This increased visibility allows for steps to be taken to mitigate further errors. It gives senders a degree of control over what happens with mail that does not pass either of these authentication methods.
-
--->
+* This increased visibility allows for steps to be taken to mitigate further errors. It gives senders a degree of control over what happens with mail that does not pass either of these authentication methods.-->
