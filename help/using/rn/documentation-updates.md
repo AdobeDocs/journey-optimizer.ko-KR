@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: b3716265282599604de629be540ca68971daa343
 workflow-type: tm+mt
 source-wordcount: '3516'
-ht-degree: 82%
+ht-degree: 96%
 
 ---
 
@@ -31,22 +31,22 @@ ht-degree: 82%
 
 * 자산 및 이미지에 처음 게시한 후 최대 2년(730일) 동안 액세스할 수 있는 상태가 유지되며 만료 후 다시 게시해야 한다는 메모가 추가되었습니다. [자세히 보기](../content-management/proofs.md)
 
-* 이제 포괄적인 AI Assistant 콘텐츠 프롬프트 안내서를 사용할 수 있습니다. 이 안내서에서는 높은 전환율과 브랜드 중심 마케팅 콘텐츠를 만들기 위해 효과적인 프롬프트를 만드는 방법을 설명합니다. 마케팅 목표 작성, 브랜드 자산 사용 및 다양한 채널에 대한 콘텐츠 최적화를 위한 모범 사례에 대해 알아봅니다. [자세히 보기](../content-management/ai-assistant-prompting-guide.md)
+* 이제 포괄적인 AI 어시스턴트 콘텐츠 프롬프트 안내서를 사용할 수 있습니다. 이 안내서에서는 높은 전환율과 브랜드 중심 마케팅 콘텐츠를 만들기 위해 효과적인 프롬프트를 만드는 방법을 설명합니다. 마케팅 목표 작성, 브랜드 자산 사용, 다양한 채널에 대한 콘텐츠 최적화를 위한 모범 사례에 대해 알아봅니다. [자세히 보기](../content-management/ai-assistant-prompting-guide.md)
 
-* `frequencyMap` 특성은 세그먼트 정의에 사용할 수 없으며 대상 세분화 기준의 일부로 사용할 수 없다는 점을 명확히 하기 위해 세그먼트 정의 문서에 메모를 추가했습니다. 빈도 기반 타깃팅의 경우 비즈니스 규칙에서 빈도 제한 규칙 사용을 고려하십시오. [자세히 보기](../audience/creating-a-segment-definition.md)
+* `frequencyMap` 속성은 세그먼트 정의에 사용할 수 없으며 대상 세분화 기준의 일부로 사용할 수 없다는 점을 명확히 하는 메모를 세그먼트 정의 문서에 추가했습니다. 빈도 기반 타겟팅의 경우 비즈니스 규칙에서 빈도 제한 규칙 사용을 고려하십시오. [자세히 보기](../audience/creating-a-segment-definition.md)
 * 기본 채널에서 사용자 정의 액션 응답을 사용하는 방법을 보여주는 새로운 예시가 API 호출 응답 설명서에 추가되었습니다. 이 예에서는 이메일, 푸시, SMS 메시지에서 Handlebars 구문을 사용하여 사용자 정의 액션 응답에서 중첩된 배열을 반복하는 방법을 보여 줍니다. [자세히 보기](../action/action-response.md#response-in-channels)
 
-* 실시간(RT) 종단점이 변경될 때 기존 사용자 지정 작업을 업데이트하는 방법을 설명하는 새로운 섹션을 Campaign v7/v8 통합 설명서에 추가했습니다. 섹션에는 끝점 URL 업데이트, 연결 테스트 및 저장 전 변경 사항 유효성 검사에 대한 단계별 지침이 포함되어 있습니다. [자세히 보기](../action/acc-action.md#update-action)
+* 실시간(RT) 엔드포인트가 변경될 때 기존 사용자 지정 작업을 업데이트하는 방법을 설명하는 새로운 섹션을 Campaign v7/v8 통합 설명서에 추가했습니다. 섹션에는 엔드포인트 URL 업데이트, 연결 테스트 및 저장 전 변경 사항 유효성 검사에 대한 단계별 지침이 포함되어 있습니다. [자세히 보기](../action/acc-action.md#update-action)
 
-* 동적 컨텐츠와 함께 잠금 해제된 다른 조각 내에 동적 컨텐츠가 포함된 조각이 지원되지 않는 중첩에 대해 사용자에게 경고하기 위해 시각적 조각 설명서에 새로운 제한 사항 및 모범 사례 섹션이 추가되었습니다. 안내서에는 호환성 모드 문제에 대한 문제 해결 단계 및 올바른 이메일 구조 설계를 위한 권장 사항이 포함되어 있습니다. [자세히 보기](../email/use-visual-fragments.md#fragment-dynamic-content)
+* 다이내믹 콘텐츠와 함께 잠금 해제된 다른 조각 내 다이내믹 콘텐츠가 포함되어 있고 조각이 지원되지 않는 중첩에 대해 사용자에게 경고하는 새로운 제한 사항 및 모범 사례 섹션이 시각적 조각 설명서에 추가되었습니다. 안내서에는 호환성 모드 문제에 대한 문제 해결 단계 및 적절한 이메일 구조 설계를 위한 권장 사항이 포함되어 있습니다. [자세히 보기](../email/use-visual-fragments.md#fragment-dynamic-content)
 
-* 사용자가 누락된 보고 데이터 문제를 해결하는 데 도움이 되는 문제 해결 섹션이 여정 라이브 보고 설명서에 추가되었습니다. 이 섹션에서는 보고 데이터 세트와의 여정 이름 동기화, 데이터 새로 고침 시간, 액세스 권한 확인 및 여정 상태 요구 사항에 대해 설명합니다. [자세히 보기](../building-journeys/report-journey.md#troubleshooting-missing-data)
+* 사용자가 누락된 보고 데이터 문제를 해결하는 데 도움이 되는 문제 해결 섹션이 여정 라이브 보고 설명서에 추가되었습니다. 이 섹션에서는 보고 데이터 세트와의 여정 이름 동기화, 데이터 새로 고침 시간, 액세스 권한 확인, 여정 상태 요구 사항에 대해 설명합니다. [자세히 보기](../building-journeys/report-journey.md#troubleshooting-missing-data)
 
-* 에셋 만료 및 라이프사이클 관리를 설명하는 세 가지 새로운 FAQ 항목이 에셋 설명서에 추가되었습니다. 다루는 주제에는 AEM 에셋에 대한 TTL(Time-To-Live) 정책(730일), 에셋 만료로 인해 손상된 이미지를 해결하는 방법 및 에셋 만료 논리의 향후 개선 사항에 대한 정보가 포함되어 있습니다. [자세히 보기](../integrations/assets.md#faq-assets)
+* 에셋 만료 및 라이프사이클 관리를 설명하는 세 가지 새로운 FAQ 항목이 에셋 설명서에 추가되었습니다. 주요 내용은 AEM 에셋에 대한 TTL(Time-To-Live) 정책(730일), 에셋 만료로 인해 손상된 이미지를 해결하는 방법 및 에셋 만료 논리의 향후 개선 사항에 대한 정보 등입니다. [자세히 보기](../integrations/assets.md#faq-assets)
 
-* 여정을 입력하는 예상 프로필과 실제 프로필 간의 대상 수 불일치를 해결하기 위해 대상 읽기 활동 설명서에 포괄적인 문제 해결 섹션이 추가되었습니다. 이 섹션에서는 시간 및 데이터 전파 문제, 데이터 유효성 검사 및 모니터링 기법, &quot;일괄 처리 대상 평가 후 트리거&quot; 옵션 사용을 포함한 모범 사례에 대해 설명합니다. [자세히 보기](../building-journeys/read-audience.md#audience-count-mismatch)
+* 여정을 입력하는 예상 프로필과 실제 프로필 간의 대상 수 불일치를 해결하기 위해 대상 읽기 활동 설명서에 포괄적인 문제 해결 섹션이 추가되었습니다. 이 섹션에서는 타이밍 및 데이터 전파 문제, 데이터 유효성 검사 및 모니터링 기법, &quot;배치 대상자 평가 후 트리거&quot; 옵션 사용을 포함한 모범 사례에 대해 설명합니다. [자세히 보기](../building-journeys/read-audience.md#audience-count-mismatch)
 
-* 스트리밍 세분화 지연 시간(최대 2시간)을 명확히 하고 시간에 민감한 여정에 대해 대기 활동 또는 버퍼 시간을 추가하는 것이 좋다는 메모가 대상 자격 이벤트 설명서에 추가되었습니다. [자세히 보기](../building-journeys/audience-qualification-events.md#streamed-speed-segment-qualification)
+* 스트리밍 세분화 지연 시간(최대 2시간)을 명확히 하고 시간에 민감한 여정에 대해 대기 활동 또는 버퍼 시간을 추가하는 것이 좋다는 메모가 대상자 선별 이벤트 설명서에 추가되었습니다. [자세히 보기](../building-journeys/audience-qualification-events.md#streamed-speed-segment-qualification)
 
 * 백엔드 처리 오버헤드를 허용하기 위해 작성된 콘텐츠를 1MB 미만으로 유지하는 모범 사례를 포함하여 여정 게시에 대한 2MB 메시지 콘텐츠 크기 제한을 문서화한 이메일 가드레일에 새 섹션이 추가되었습니다. [자세히 보기](../start/guardrails.md#message-content-size)
 
@@ -64,9 +64,9 @@ ht-degree: 82%
 
 * 여정 단계 이벤트로 작업하는 방법에 대한 설명서가 공개되었습니다. [자세히 보기](../reports/journey-step-events-overview.md)
 
-* 여정에서 삭제된 이벤트를 식별하는 쿼리가 세그먼트 내보내기 작업 오류, 디스패처 취소 및 상태 시스템 취소에 대한 적절한 필터를 포함하도록 수정되었습니다. [자세히 보기](../reports/query-examples.md#common-queries)
+* 여정에서 삭제된 이벤트를 식별하는 쿼리가 세그먼트 내보내기 작업 오류, Dispatcher 취소 및 상태 시스템 취소에 대한 적절한 필터를 포함하도록 수정되었습니다. [자세히 보기](../reports/query-examples.md#common-queries)
 
-* SQL 코드를 제시하기 전에 더 나은 컨텍스트를 제공하고 각 쿼리가 수행하는 작업을 설명하기 위해 쿼리 예제 설명서에서 37개의 모든 쿼리 예제에 소개 문장이 추가되었습니다. 이를 통해 사용자의 이해도가 향상되고 각 쿼리를 사용해야 하는 경우에 대한 지침이 명확해집니다. [자세히 보기](../reports/query-examples.md)
+* SQL 코드를 제시하기 전에 더 나은 컨텍스트를 제공하고 각 쿼리가 수행하는 작업을 설명하기 위해 쿼리 예시 설명서의 37개 쿼리 예시 전체에 소개 문장이 추가되었습니다. 이를 통해 사용자의 이해도가 향상되고 각 쿼리를 사용해야 하는 경우에 대한 명확한 지침을 확보할 수 있게 되었습니다. [자세히 보기](../reports/query-examples.md)
 
 ## 2025년 10월 {#october-2025}
 
@@ -383,7 +383,7 @@ ht-degree: 82%
 * Information has been added regarding the behaviour of timeouts on event activities in journeys. When no event is received during the specified timeout period, individuals will continue the journey if no timeout path is defined. [Read more](../building-journeys/general-events.md#events-specific-time)
 * In-app channel configuration prerequisites have been updated with a note about the usage of a custom Dataset preference merge policy. [Read more](../in-app/inapp-configuration.md)
 * More details have been added about how to manipulate collections in a custom action response. [Read more](../action/action-response.md#exp-syntax).
-* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko) has been added to the home page.
+* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html) has been added to the home page.
 * An outdated reference to the AJO Message resource has been removed from the list of resources available in the Audit Log. When an update is done on a message in a journey, a **Journey** log is created. [Read more](../privacy/audit-logs.md)
 * Additional recommendations have been added about the usage of the **Read Audience** activity. [Read more](../building-journeys/read-audience.md#must-read)
 * The Get started with Adobe Experience Platform audiences page has been improved with a list of audience generation methods. [Read more](../audience/about-audiences.md)
@@ -413,7 +413,7 @@ ht-degree: 82%
 * Decision Management guardrails have been added to the Guardrails and limitations page. [Read more](../start/guardrails.md#decision-management)
 * The Header parameters section has been updated to reflect how out-of-office notifications and challenge responses are handled (they are received on the **[!UICONTROL Error email]**). [Read more](../email/email-settings.md#email-header)
 * A new section on how to preview and test your content has been created. [Read more](../content-management/preview-test.md)
-* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=ko){target="_blank"}
+* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
 * The Capping section has been updated to reflect the label changes relating to offer capping in the decision management interface. [Read more](../offers/offer-library/add-constraints.md#capping)
 * The Add dynamic content into emails has been updated with details on how to delete a variant. [Read more](../personalization/dynamic-content.md#emails)
 * The example for capping & throttling configurations has been updated. [Read more](../configuration/external-systems.md)
@@ -488,7 +488,7 @@ ht-degree: 82%
 
 ## March 2023 {#march-2023}
 
-* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko)
+* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
 * All new features and improvements coming with [!DNL Journey Optimizer] March '23 release have been detailed in the documentation. [Read more](release-notes.md)
 * Added a step to enable Adobe Analytics events in your journeys. [Read more](../event/about-analytics.md)
 * A new section has been created in the Decision management guide on how to collect offer decisioning feedback in Adobe Experience Platform, including which offers are displayed and how users interact with them. [Read more](../offers/data-collection/data-collection.md)
@@ -616,7 +616,7 @@ ht-degree: 82%
 * The **reactions** event documentation page has been updated. [Read more](../building-journeys/reaction-events.md)
 * Videos for Decision Management capabilities have been updated to reflect Journey Optimizer user interface. [Read more](../offers/get-started/starting-offer-decisioning.md)
 * The **Get Started with Datasets** section has been improved to detail how to access and create datasets. [Read more](../data/get-started-datasets.md)
-* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=ko)
+* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html)
 * The **Create message presets** section now specifies that you cannot proceed with preset creation while the selected IP pool is under edition (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. [Read more](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * The message presets **URL tracking** section has been updated to reflect minor changes in the user interface. [Read more](../configuration/channel-surfaces.md#url-tracking)
 
