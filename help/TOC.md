@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 59e85eb7a14f88d95b2ef97e3ace11a65f115b75
 workflow-type: tm+mt
 source-wordcount: '2995'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -169,7 +169,7 @@ ht-degree: 98%
             + [파일 업로드 스키마](using/orchestrated/file-upload-schema.md)
             + [데이터 수집](using/orchestrated/ingest-data.md)
          + [타기팅 차원 만들기](using/orchestrated/target-dimension.md)
-         + [채널 구성](using/orchestrated/channel-config.md)
+         + [채널 구성 설정](using/orchestrated/channel-config.md)
       + 첫 오케스트레이션된 캠페인 시작 {#launch}
          + [첫 오케스트레이션된 캠페인 시작](/help/rp_landing_pages/launch-landing-page.md)
          + [오케스트레이션된 캠페인을 만드는 주요 단계](using/orchestrated/gs-campaign-creation.md)
@@ -317,7 +317,7 @@ ht-degree: 98%
       + [텍스트 메시지 확인 및 보내기](using/sms/send-sms.md)
       + [텍스트 메시지 옵트아웃 관리](using/sms/sms-opt-out.md)
       + [SMS 하위 도메인 설정](using/sms/sms-subdomains.md)
-      + [SMS 비용 최적화 우수 사례](using/sms/sms-cost-optimization.md)
+      + [SMS 비용 최적화 모범 사례](using/sms/sms-cost-optimization.md)
       + SMS / MMS / RCS 채널 구성 {#configure-sms}
          + [SMS / MMS / RCS 채널 구성](/help/rp_landing_pages/configure-sms-landing-page.md)
          + [SMS / MMS / RCS 구성 시작](using/sms/sms-configuration.md)
@@ -341,7 +341,7 @@ ht-degree: 98%
          + [웹 채널 전제 조건](using/web/web-prerequisites.md)
          + [웹 하위 도메인 구성](using/web/web-delegated-subdomains.md)
          + [웹 채널 구성 만들기](using/web/web-configuration.md)
-      + [웹 경험 만들기 &#x200B;](using/web/create-web.md)
+      + [웹 경험 만들기 ](using/web/create-web.md)
       + 웹 페이지 작성 {#author-web-pages}
          + [웹 페이지 작성](/help/rp_landing_pages/author-web-pages-landing-page.md)
          + [웹 디자이너를 사용하여 작업](using/web/web-visual-editor.md)
@@ -395,7 +395,7 @@ ht-degree: 98%
          + [Journey Optimizer에서 라이브 활동 구성](using/mobile-live/mobile-live-configuration.md)
          + [라이브 활동 SDK 통합 구성](using/mobile-live/mobile-live-configuration-sdk.md)
 + 콘텐츠 관리 {#content-management}
-   + [콘텐츠 관리 &#x200B;](/help/rp_landing_pages/content-management-landing-page.md)
+   + [콘텐츠 관리 ](/help/rp_landing_pages/content-management-landing-page.md)
    + 개인화 {#personalization}
       + [개인화](/help/rp_landing_pages/personalization-landing-page.md)
       + [개인화 시작](using/personalization/personalize.md)
@@ -474,7 +474,7 @@ ht-degree: 98%
    + 콘텐츠 생성을 위한 AI 어시스턴트 {#ai-assistant}
       + [콘텐츠 생성을 위한 AI 어시스턴트](/help/rp_landing_pages/ai-assistant-landing-page.md)
       + [AI 어시스턴트 시작하기](using/content-management/gs-generative.md)
-      + [AI 프롬프트 우수 사례](using/content-management/ai-assistant-prompting-guide.md)
+      + [AI 프롬프트 모범 사례](using/content-management/ai-assistant-prompting-guide.md)
       + [AI를 사용한 이메일 생성](using/content-management/generative-email.md)
       + [AI를 사용한 푸시 생성](using/content-management/generative-push.md)
       + [AI를 사용한 SMS 생성](using/content-management/generative-sms.md)
