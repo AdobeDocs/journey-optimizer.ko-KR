@@ -7,9 +7,9 @@ role: User
 level: Intermediate, Experienced
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
 version: Journey Orchestration
-source-git-commit: 1b6158132e5df1912d9658805fa8b1344c6f938f
+source-git-commit: 17c8bc8b37c4bdf7c93735e152eedf7e0bbaf62a
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '858'
 ht-degree: 4%
 
 ---
@@ -26,6 +26,10 @@ ht-degree: 4%
 
 * 첫 번째 처리에서는 순위 메서드로 **우선 순위**&#x200B;를 사용합니다.
 * 두 번째 처리에서는 **a 수식**&#x200B;을 순위 메서드로 사용합니다.
+
+>[!NOTE]
+>
+>코드 기반 경험에서 의사 결정을 사용할 때 테스트 및 중복 제거에 대한 구현 세부 정보는 [이 페이지](../code-based/code-based-decisioning-implementations.md)를 참조하십시오.
 
 ## 선택 전략 만들기
 
