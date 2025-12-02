@@ -7,9 +7,9 @@ feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+source-git-commit: b70911f1f1fa00154729b5b88517233b67a377cb
 workflow-type: tm+mt
-source-wordcount: '1607'
+source-wordcount: '1605'
 ht-degree: 2%
 
 ---
@@ -37,7 +37,7 @@ AI Assistant를 사용하여 텍스트 콘텐츠 생성을 시작하려면 먼�
 
    * **전자 메일**: 전자 메일 캠페인을 만들고 구성한 후 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 클릭하세요. [자세히 알아보기](../email/create-email.md)
    * **웹**: 웹 페이지를 만들고 구성한 후 **[!UICONTROL 웹 페이지 편집]**&#x200B;을 클릭하세요. [자세히 알아보기](../web/create-web.md)
-   * **랜딩 페이지**: 랜딩 페이지를 만들고 구성한 후 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 클릭하세요. [자세히 알아보기](../landing-pages/create-lp.md)
+   * **랜딩 페이지**: 랜딩 페이지를 만들고 구성한 후 **[!UICONTROL 디자이너 열기]**&#x200B;를 클릭합니다. [자세히 알아보기](../landing-pages/create-lp.md)
 
 1. 특정 콘텐츠만 타겟팅하려면 **[!UICONTROL 텍스트 구성 요소]**&#x200B;를 선택하고 **[!UICONTROL AI Assistant]** 메뉴(또는 웹용 **[!UICONTROL AI Assistant 표시]**)에 액세스하십시오.
 
@@ -134,19 +134,17 @@ AI Assistant는 푸시 알림 및 SMS 메시지에 대한 매력적인 텍스트
    * **SMS**: [자세히 알아보기](../sms/create-sms.md)
 
 1. AI Assistant 액세스:
-   * **푸시 알림용**: **[!UICONTROL 제목]** 또는 **[!UICONTROL 메시지]** 필드 옆에 있는 **[!UICONTROL AI Assistant로 텍스트 편집]** 메뉴를 클릭합니다.
+   * **푸시 알림용**: **[!UICONTROL 제목]** 또는 **[!UICONTROL 메시지]** 필드 옆에 있는 **[!UICONTROL AI Assistant로 텍스트 편집]** 메뉴를 클릭합니다. **AI 도우미** 메뉴에 직접 액세스할 수도 있습니다.
 
-     ![AI Assistant를 사용하여 텍스트 편집이 포함된 푸시 알림 작성 화면](assets/push-genai-1.png){zoomable="yes"}
+     ![AI Assistant를 사용하여 텍스트 편집이 포함된 푸시 알림 작성 화면](assets/push-text-1.png){zoomable="yes"}
 
-   * **SMS용**: **[!UICONTROL AI 길잡이 표시]** 메뉴에 액세스합니다.
+   * **SMS용**: **[!UICONTROL 메시지]** 옆에 있는 **[!UICONTROL AI Assistant로 텍스트 편집]** 메뉴를 클릭하거나 **[!UICONTROL AI Assistant 표시]** 메뉴에 액세스합니다.
 
      ![AI 도우미 패널이 있는 SMS 메시지 편집기 열림](assets/sms-genai-1.png){zoomable="yes"}
 
 ### 콘텐츠 생성 {#mobile-generate-content}
 
 AI Assistant에 액세스하면 생성 설정을 구성하여 브랜드 및 캠페인 목표와 일치하는 모바일 콘텐츠를 만들 수 있습니다. 텍스트 매개 변수를 사용자 지정하고, 브랜드 자산을 추가하고, AI가 관련 변형을 생성하는 데 도움이 되는 프롬프트를 제공합니다.
-
-1. AI 관리자가 선택한 콘텐츠를 기반으로 새 콘텐츠를 개인화하려면 **[!UICONTROL 참조 콘텐츠 사용]**(푸시용) 또는 **[!UICONTROL 원래 콘텐츠 사용]**(SMS용) 옵션을 활성화하십시오.
 
 1. AI 생성 콘텐츠가 브랜드 사양에 맞게 조정되도록 하려면 **[!UICONTROL 브랜드]**&#x200B;를 선택하십시오. 브랜드에 대해 [자세히 알아보기](brands.md).
 
@@ -158,20 +156,19 @@ AI Assistant에 액세스하면 생성 설정을 구성하여 브랜드 및 캠�
 
    ![프롬프트 필드 및 옵션이 있는 AI 길잡이](assets/push-genai-2.png){zoomable="yes"}
 
+1. **푸시 알림의 경우** 생성할 필드(제목 및/또는 메시지)를 선택하십시오.
+
 1. **[!UICONTROL 텍스트 설정]** 옵션을 사용하여 메시지를 사용자 지정합니다.
 
    * **[!UICONTROL 커뮤니케이션 전략]**: 생성된 텍스트에 가장 적합한 커뮤니케이션 스타일을 선택합니다.
    * **[!UICONTROL 언어]**: 생성된 콘텐츠의 언어를 선택합니다.
    * **[!UICONTROL 음색]**: 음색이 청중에게 울려 퍼집니다. AI 어시스턴트는 유익하거나, 장난스럽거나, 설득력 있게 들리고자 하는 경우 해당 메시지를 적절하게 조정할 수 있습니다.
-   * **[!UICONTROL 길이]**: 범위 슬라이더를 사용하여 콘텐츠의 길이를 선택합니다.
 
-   ![텍스트 설정 패널](assets/push-genai-4.png){zoomable="yes"}
+     ![텍스트 설정 패널](assets/push-genai-4.png){zoomable="yes"}
 
-1. 푸시에서 생성할 필드(제목 및/또는 메시지)를 선택합니다.
+1. **[!UICONTROL 참조 콘텐츠]** 메뉴에서 **[!UICONTROL 파일 업로드]**&#x200B;를 클릭하여 추가 컨텍스트 AI 도우미를 제공할 수 있는 콘텐츠가 포함된 브랜드 자산을 추가하거나 이전에 업로드한 콘텐츠를 선택합니다.
 
-1. **[!UICONTROL 브랜드 자산]** 메뉴에서 **[!UICONTROL 브랜드 자산 업로드]**&#x200B;를 클릭하여 추가 컨텍스트 AI Assistant를 제공하거나 이전에 업로드한 것을 선택할 수 있는 콘텐츠가 포함된 브랜드 자산을 추가합니다.
-
-   이전에 업로드한 파일은 **[!UICONTROL 업로드된 브랜드 자산]** 드롭다운에서 사용할 수 있습니다. 세대에 포함할 자산을 전환하기만 하면 됩니다.
+   이전에 업로드한 파일은 **[!UICONTROL 업로드된 참조 콘텐츠]** 드롭다운에서 사용할 수 있습니다. 세대에 포함할 자산을 전환하기만 하면 됩니다.
 
 1. 메시지가 준비되면 **[!UICONTROL 생성]**&#x200B;을 클릭합니다.
 
@@ -181,13 +178,13 @@ AI Assistant에 액세스하면 생성 설정을 구성하여 브랜드 및 캠�
 
 1. 생성 후 **[!UICONTROL 변형]**&#x200B;을 살펴보십시오.
 
-   선택한 변형의 전체 화면 버전을 보려면 **[!UICONTROL 미리 보기]**&#x200B;를 클릭하고 현재 콘텐츠를 바꾸려면 **[!UICONTROL 적용]**&#x200B;을 클릭하십시오.
-
 1. 백분율 아이콘을 클릭하여 **[!UICONTROL 브랜드 맞춤 점수]**&#x200B;를 보고 브랜드에 대한 모든 오정렬을 식별합니다.
 
    [브랜드 정렬 점수](brands-score.md)에 대해 자세히 알아보세요.
 
    ![브랜드 정렬 점수가 있는 생성된 텍스트 변형](assets/push-genai-5.png){zoomable="yes"}
+
+1. 선택한 변형의 전체 화면 버전을 보려면 **[!UICONTROL 미리 보기]**&#x200B;를 클릭하고 현재 콘텐츠를 바꾸려면 **[!UICONTROL 적용]**&#x200B;을 클릭하십시오.
 
 1. 추가 사용자 지정 기능에 액세스하려면 **[!UICONTROL 미리 보기]** 창 내에서 **[!UICONTROL 다시 정의]** 옵션으로 이동하십시오.
 
@@ -197,11 +194,13 @@ AI Assistant에 액세스하면 생성 설정을 구성하여 브랜드 및 캠�
 
    * **[!UICONTROL 더 간단한 언어 사용]**: AI Assistant를 사용하여 언어를 단순화함으로써 더 많은 대상자가 명확하고 쉽게 사용할 수 있습니다.
 
+   * **[!UICONTROL 번역]**: 언어를 단순화하여 더 많은 대상자가 명확하고 쉽게 이용할 수 있도록 합니다.
+
    * **[!UICONTROL 색조 변경]**: 메시지 색조를 조정하여 사용자의 커뮤니케이션 스타일에 더 잘 맞춥니다. 즉, 보다 친숙하거나, 전문적이거나, 긴급하거나, 영감을 줄 수 있습니다.
 
    * **[!UICONTROL 통신 전략 변경]**: 긴급성을 만들거나 흥미로운 어필을 강조하는 등 목표에 따라 메시징 접근 방식을 수정합니다.
 
-   ![메뉴 세분화](assets/push-genai-6.png){zoomable="yes"}
+     ![메뉴 세분화](assets/push-genai-6.png){zoomable="yes"}
 
 1. **[!UICONTROL 브랜드 정렬]** 탭을 열어 콘텐츠가 [브랜드 지침](brands.md)에 어떻게 적합한지 확인합니다.
 
