@@ -7,7 +7,7 @@ feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: b70911f1f1fa00154729b5b88517233b67a377cb
+source-git-commit: d552008195d324227ecf91ea7a1ab905fe3981cc
 workflow-type: tm+mt
 source-wordcount: '1414'
 ht-degree: 2%
@@ -171,7 +171,7 @@ AI Assistant에 액세스한 후 생성 설정을 조정하여 내 브랜드에 
 
    [브랜드 정렬 점수](brands-score.md)에 대해 자세히 알아보세요.
 
-   ![변형에 대한 브랜드 정렬 점수](assets/q.png){zoomable="yes"}
+   ![변형에 대한 브랜드 정렬 점수](assets/push-gen-img-2.png){zoomable="yes"}
 
 1. 선택한 변형의 전체 화면 버전을 보려면 **[!UICONTROL 미리 보기]**&#x200B;를 클릭하고 현재 콘텐츠를 바꾸려면 **[!UICONTROL 적용]**&#x200B;을 클릭하십시오.
 
