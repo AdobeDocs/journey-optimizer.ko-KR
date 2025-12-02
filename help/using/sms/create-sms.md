@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1119'
 ht-degree: 8%
 
 ---
@@ -98,6 +98,7 @@ Adobe Journey Optimizer에서 텍스트(SMS), 풍부한 커뮤니케이션(RCS) 
 >title="SMS 콘텐츠 정의"
 >abstract="개인화 편집기를 사용하여 콘텐츠를 정의하고 동적 요소를 통합하여 문자 메시지(SMS/MMS/RCS)를 사용자 정의하고 개인화합니다."
 
+
 메시지 콘텐츠를 구성하려면 아래 단계를 따르십시오. MMS 설정에 대한 자세한 내용은 [이 섹션](#mms-content)을 참조하세요.
 
 1. 여정 또는 캠페인 구성 화면에서 **[!UICONTROL 콘텐츠 편집]** 단추를 클릭하여 텍스트 메시지 콘텐츠를 구성합니다.
@@ -107,6 +108,8 @@ Adobe Journey Optimizer에서 텍스트(SMS), 풍부한 커뮤니케이션(RCS) 
    Infobip, Twilio 또는 기타 타사 공급자가 있는 RCS 메시지의 경우 필요한 JSON 페이로드를 [사용자 지정 SMS 구성](sms-configuration-custom.md#api-credential)에 붙여 넣으십시오.
 
    ![](assets/sms-content.png)
+
+1. [AI Assistant for text generation](../content-management/generative-text.md)을(를) 사용하여 대상자에 맞게 구성된 매력적인 텍스트 메시지를 생성합니다.
 
 1. 개인화 편집기를 사용하여 콘텐츠를 정의하고 개인화 및 다이내믹 콘텐츠를 추가합니다. 프로필 이름 또는 도시 등의 모든 속성을 사용할 수 있습니다. 조건부 규칙을 정의할 수도 있습니다. 개인화 편집기에서 [개인화](../personalization/personalize.md) 및 [다이내믹 콘텐츠](../personalization/get-started-dynamic-content.md)에 대해 자세히 알아보려면 다음 페이지로 이동하십시오.
 

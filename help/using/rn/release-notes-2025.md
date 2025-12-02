@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
-workflow-type: ht
+source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+workflow-type: tm+mt
 source-wordcount: '7890'
 ht-degree: 100%
 
@@ -1660,7 +1660,7 @@ You can now choose to have your emails relayed to your SMTP servers instead of b
 <td>
 <p>이제 AI 어시스턴트의 도움을 받아 전체 페이지 디자인, 개인화된 텍스트, 사용자 정의 시각 자료 등 랜딩 페이지에 사용할 매력적인 콘텐츠를 제작할 수 있습니다.</p>
 <img src="assets/do-not-localize/ai-lp.gif">
-<p>자세한 내용은 <a href="../content-management/generative-lp.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../content-management/generative-full-content.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>

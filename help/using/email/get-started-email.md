@@ -9,8 +9,8 @@ role: User
 level: Beginner
 keywords: 이메일, 시작, 만들기, 미리보기
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
-source-git-commit: 73a347c104fe28799c264f9a8b6c3e5e12c8d892
-workflow-type: ht
+source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 100%
 
@@ -75,10 +75,10 @@ ht-degree: 100%
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
-<a href="../content-management/generative-email.md">
+<a href="../content-management/generative-full-content.md">
 <img alt="AI 어시스턴트" src="../assets/do-not-localize/email-generate.jpg">
 </a>
-<div><a href="../content-management/generative-email.md"><strong>콘텐츠 생성용 AI 어시스턴트</strong>
+<div><a href="../content-management/generative-full-content.md"><strong>콘텐츠 생성용 AI 어시스턴트</strong>
 </div>
 <p>
 </td>

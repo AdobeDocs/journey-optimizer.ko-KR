@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 5063115c6ac93ef332044bfff43a4df817a1a4e3
-workflow-type: ht
-source-wordcount: '919'
-ht-degree: 100%
+source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+workflow-type: tm+mt
+source-wordcount: '866'
+ht-degree: 97%
 
 ---
 
@@ -71,7 +71,7 @@ Adobe Journey Optimizer의 AI 어시스턴트를 사용하여 다양한 주요 �
 
 >[!IMPORTANT]
 >
->* 이 기능을 사용하기 전에 관련 [가드레일 및 제한 사항](#generative-guardrails)을 읽어보십시오.
+>* 이 기능을 사용하기 전에 관련 [보호 및 제한 사항](#generative-guardrails)을 읽어보십시오.
 >
 >
 >* Adobe Journey Optimizer의 AI 어시스턴트를 사용하려면 먼저 [사용자 계약](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
@@ -114,7 +114,7 @@ Adobe Journey Optimizer에서 이메일 생성을 위해 AI 어시스턴트를 �
 * Adobe Journey Optimizer의 AI 어시스턴트를 사용하여 이메일 콘텐츠를 만들 때 브랜드별 또는 사용자 정의 템플릿을 사용할 수 있습니다. 최대 8~10개의 이미지가 포함된 이메일 템플릿을 권장합니다.
 * 변형을 선택할 때 엄지손가락 위로, 엄지손가락 아래로 또는 플래그 아이콘을 사용하여 문제가 있는 출력을 보고하십시오.
 * AI 어시스턴트 사용 시 Adobe Experience Cloud 생성형 AI 사용자 지침이 적용됩니다. [자세히 알아보기](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
-* 미디어 제작에서 생성형 AI 도구 사용의 투명성을 증진하기 위한 Adobe의 약속의 일부로, Adobe는 Firefly 생성 자산이 포함된 콘텐츠 또는 프로젝트를 다운로드하거나 내보낼 때 Content Credentials를 적용합니다. [자세히 알아보기](https://helpx.adobe.com/kr/firefly/using/content-credentials.html)
+* 미디어 제작에서 생성형 AI 도구 사용의 투명성을 증진하기 위한 Adobe의 약속의 일부로, Adobe는 Firefly 생성 자산이 포함된 콘텐츠 또는 프로젝트를 다운로드하거나 내보낼 때 Content Credentials를 적용합니다. [자세히 알아보기](https://helpx.adobe.com/firefly/using/content-credentials.html)
 
 Adobe Journey Optimizer의 AI 어시스턴트에는 다음 제한 사항이 적용됩니다.
 
@@ -128,45 +128,34 @@ Adobe Journey Optimizer의 AI 어시스턴트에는 다음 제한 사항이 적�
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
-<a href="generative-email.md">
-<img alt="이메일 생성" src="assets/do-not-localize/text-genai.jpeg">
+<a href="generative-full-content.md">
+<img alt="전체 콘텐츠 생성" src="assets/do-not-localize/email-genai.jpeg">
 </a>
 <div>
-<a href="generative-email.md"><strong>이메일 생성</strong></a>
+<a href="generative-full-content.md"><strong>전체 콘텐츠 생성</strong></a>
 </div>
 <p>
 </td>
 <td>
-<a href="generative-sms.md">
-<img alt="SMS 생성" src="assets/do-not-localize/image-genai.jpeg">
+<a href="generative-text.md">
+<img alt="텍스트 생성" src="assets/do-not-localize/text-genai.jpeg">
 </a>
-<div><a href="generative-sms.md"><strong>SMS 생성</strong>
+<div><a href="generative-text.md"><strong>텍스트 생성</strong>
 </div>
 <p>
 </td>
 <td>
-<a href="generative-push.md">
-<img alt="CSR 생성" src="assets/do-not-localize/email-genai.jpeg">
+<a href="generative-image.md">
+<img alt="이미지 생성" src="assets/do-not-localize/image-genai.jpeg">
 </a>
 <div>
-<a href="generative-push.md"><strong>푸시 알림 </strong></a>
+<a href="generative-image.md"><strong>이미지 생성</strong></a>
 </div>
 <p></td>
-<td>
-<a href="generative-web.md">
-<img alt="웹 생성" src="assets/do-not-localize/web-genai.jpeg">
-</a>
-<div><a href="generative-web.md"><strong>웹 페이지 생성</strong>
-</div>
-<p>
-</td>
 </tr></table>
 
 ## 추가 리소스
 
-* **[이메일용 AI 어시스턴트](generative-email.md)** - AI 어시스턴트를 사용하여 이메일 콘텐츠 베리에이션을 생성하고 최적화하는 방법에 대해 알아봅니다.
-* **[푸시 알림용 AI 어시스턴트](generative-push.md)** - AI의 지원으로 매력적인 푸시 알림 콘텐츠를 만드는 방법을 알아봅니다.
-* **[SMS용 AI 어시스턴트](generative-sms.md)** - AI 기반 콘텐츠 생성을 활용하여 효과적인 SMS 메시지 베리에이션을 생성합니다.
-* **[웹 경험용 AI 어시스턴트](generative-web.md)** - AI 어시스턴트로 웹 콘텐츠를 만들고 최적화하는 방법에 대해 알아봅니다.
 * **[생성형 실험](generative-experimentation.md)** - AI 생성 콘텐츠를 실험과 결합하는 방법을 이해합니다.
+* **[AI Assistant 사용 사례](generative-uc.md)** - 사용 사례를 통해 AI Assistant 사용 방법 알아보기
 * **[AI 어시스턴트 튜토리얼](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/ai-assistant){target="_blank"}** - AI 어시스턴트의 기능과 모범 사례에 대한 단계별 비디오 튜토리얼을 살펴봅니다.

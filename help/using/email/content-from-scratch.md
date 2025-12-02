@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 콘텐츠, 편집자, 이메일, 시작
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
+source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '723'
 ht-degree: 50%
 
 ---
@@ -64,13 +64,16 @@ ht-degree: 50%
 
 >[!NOTE]
 >
->[유럽 접근성 법률](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}에는 모든 디지털 통신에 액세스할 수 있어야 한다고 명시되어 있습니다. [에서 콘텐츠를 디자인할 때는 &#x200B;](accessible-content.md)이 페이지[!DNL Journey Optimizer]에 나열된 특정 지침을 따라야 합니다.
+>[유럽 접근성법](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}에는 모든 디지털 통신의 접근성을 보장해야 한다고 명시되어 있습니다. [에서 콘텐츠를 디자인할 때는 ](accessible-content.md)이 페이지[!DNL Journey Optimizer]에 나열된 특정 지침을 따라야 합니다.
 
 콘텐츠 작성을 시작하려면 아래 단계를 따르십시오.
 
 1. Designer 홈페이지에서 **[!UICONTROL 처음부터 디자인]** 옵션을 선택합니다.
 
    ![](assets/email_designer.png)
+
+
+1. AI Assistant를 사용하여 이메일 만들기 속도를 높이고 [전체 콘텐츠 생성을 위한 AI Assistant](../content-management/generative-full-content.md)를 사용하여 텍스트 및 이미지로 전체 이메일 콘텐츠를 생성합니다.
 
 1. **[!UICONTROL Structures]**&#x200B;을(를) 캔버스로 끌어다 놓아 전자 메일의 레이아웃을 정의하여 콘텐츠 디자인을 시작합니다.
 

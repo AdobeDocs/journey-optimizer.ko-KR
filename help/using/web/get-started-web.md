@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
-source-git-commit: 9619ffd2cde677c0c83ee1b53f232c41b5faaa9a
-workflow-type: ht
-source-wordcount: '257'
-ht-degree: 100%
+source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+workflow-type: tm+mt
+source-wordcount: '275'
+ht-degree: 93%
 
 ---
 
@@ -75,6 +75,7 @@ ht-degree: 100%
 * **[웹 콘텐츠 편집](create-web.md#edit-web-content)** - 시각적 또는 비시각적 편집 모드를 사용하여 페이지를 수정할 수 있는 웹 디자이너를 이해합니다.
 * **[웹 수정 사항 관리](manage-web-modifications.md)** - 웹 경험의 수정 사항을 구성하고 적용하고 관리하는 방법을 알아봅니다.
 * **[웹 경험 모니터링](monitor-web-experiences.md)** - 자세한 보고를 통해 웹 캠페인의 성과를 추적하고 분석합니다.
+* **[AI Assistant를 사용하여 웹 콘텐츠 생성](../content-management/generative-full-content.md)** - AI를 사용하여 텍스트 및 이미지로 웹 콘텐츠를 만들고 최적화합니다.
 * **[웹 캠페인 튜토리얼](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/channels/web-channel/create-a-web-campaign){target="_blank"}** - 웹 채널 기능 및 모범 사례에 대한 단계별 비디오 튜토리얼을 살펴봅니다.
 
 

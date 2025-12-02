@@ -5,10 +5,10 @@ title: 콘텐츠 생성을 위한 AI 어시스턴트
 description: 콘텐츠 생성을 위한 AI 어시스턴트
 redpen-status: CREATED_||_2025-08-12_00-42-48
 exl-id: 0fdc67ab-3646-4c6e-884d-604238549c3d
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 100%
+source-wordcount: '279'
+ht-degree: 70%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 AI 어시스턴트는 생성형 AI를 활용하여 �
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 AI 어시스턴트 시작
 
@@ -30,53 +30,33 @@ AI 어시스턴트 시작
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
-AI를 활용한 이메일 콘텐츠 생성
+전체 컨텐츠 생성
 
-AI 어시스턴트를 사용하여 브랜드에 맞춰 이메일 콘텐츠를 제작하고 맞춤화하며 최적화하는 방법을 알아봅니다.
+AI Assistant를 사용하여 이메일, 푸시 알림, 웹 페이지 및 랜딩 페이지에 대한 텍스트 및 이미지를 포함한 전체 콘텐츠를 제작하는 방법에 대해 알아봅니다.
 
-[이메일 생성에 대해 알아보기](../using/content-management/generative-email.md)
+[전체 콘텐츠 생성에 대해 알아보기](../using/content-management/generative-full-content.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
-푸시 알림 콘텐츠 생성
+텍스트만 생성
 
-브랜드에 맞춰 텍스트와 이미지 등 AI를 사용하여 푸시 알림 콘텐츠를 만들고 개인화합니다.
+AI Assistant를 사용하여 이메일, SMS, 푸시 알림, 웹 페이지 및 랜딩 페이지를 비롯한 모든 채널에 대한 텍스트 콘텐츠를 생성하고 세분화합니다.
 
-[푸시 알림 생성](../using/content-management/generative-push.md)
+[텍스트 생성 탐색](../using/content-management/generative-text.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
 
-AI를 활용한 SMS 콘텐츠 생성
+이미지만 생성
 
-AI 어시스턴트를 사용하여 브랜드 가이드라인을 준수하면서 대상자에게 공감을 불러일으키는 SMS 콘텐츠를 생성하고 개선합니다.
+이메일, 푸시 알림, 웹 페이지 및 랜딩 페이지에서 사용할 수 있도록 AI Assistant를 사용하여 이미지를 만들고 사용자 지정합니다.
 
-[SMS 생성 살펴보기](../using/content-management/generative-sms.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=ko)
-
-웹 페이지 콘텐츠 및 자산 생성
-
-AI 어시스턴트를 사용하여 웹 페이지 콘텐츠와 시각적 요소를 향상하고 브랜드 가이드라인에 부합하도록 합니다.
-
-[웹 페이지 콘텐츠 생성](../using/content-management/generative-web.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/window-maximize.svg?lang=ko)
-
-AI를 활용한 랜딩 페이지 생성
-
-참여도를 높이기 위해 텍스트와 시각적 요소를 포함한 랜딩 페이지 콘텐츠와 자산을 만들고 개선합니다.
-
-[랜딩 페이지 생성](../using/content-management/generative-lp.md)
+[이미지 생성](../using/content-management/generative-image.md)
 :::
 
 ::::

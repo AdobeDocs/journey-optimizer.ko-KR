@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: 73a347c104fe28799c264f9a8b6c3e5e12c8d892
-workflow-type: ht
-source-wordcount: '825'
-ht-degree: 100%
+source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+workflow-type: tm+mt
+source-wordcount: '831'
+ht-degree: 99%
 
 ---
 
@@ -163,6 +163,7 @@ SMS 환경을 설정하고 구성하는 방법 알아보기:
 * [메시지 미리 보기, 테스트, 보내기](send-sms.md)
 * [텍스트 메시지의 개인화](../personalization/personalize.md)
 * [다이내믹 콘텐츠](../personalization/get-started-dynamic-content.md)
+* [AI Assistant를 사용하여 SMS 콘텐츠 생성](../content-management/generative-text.md)
 
 +++
 
@@ -201,7 +202,7 @@ SMS를 고객 여정 및 캠페인에 통합하는 방법 알아보기:
 
 +++비디오 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3422697?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
@@ -211,7 +212,7 @@ Adobe Journey Optimizer가 마케터에게 제공하는 포괄적인 모바일 �
 
 +++비디오 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3430374?captions=kor&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
 +++
 
@@ -221,7 +222,7 @@ Adobe Journey Optimizer가 마케터에게 제공하는 포괄적인 모바일 �
 
 +++비디오 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3464762?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
 +++
 

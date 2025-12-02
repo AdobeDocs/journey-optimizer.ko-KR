@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 36056208cd1e435c4801bd178bdc5f2d74068dc5
+source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
 workflow-type: tm+mt
-source-wordcount: '1491'
+source-wordcount: '1522'
 ht-degree: 16%
 
 ---
@@ -27,6 +27,8 @@ ht-degree: 16%
 메시지를 작성하려면 **[!UICONTROL 제목]** 및 **[!UICONTROL 본문]** 필드를 클릭합니다. 개인화 편집기를 사용하여 콘텐츠를 정의하고, 데이터를 개인화하고, 다이내믹 콘텐츠를 추가합니다. 개인화 편집기에서 [개인화](../personalization/personalize.md) 및 [다이내믹 콘텐츠](../personalization/get-started-dynamic-content.md)에 대해 자세히 알아보세요.
 
 장치 미리 보기 섹션을 사용하여 iOS 및 Android 장치에 푸시 알림이 표시되는 방식을 시각화합니다.
+
+AI Assistant를 사용하여 콘텐츠 생성 속도를 높이고 [텍스트 생성용 AI Assistant](../content-management/generative-text.md)를 사용하여 매력적인 푸시 알림 텍스트를 생성하거나 [전체 콘텐츠 생성용 AI Assistant](../content-management/generative-full-content.md)를 사용하여 전체 푸시 알림을 생성할 수 있습니다.
 
 ## 클릭 시 비헤이비어 {#on-click-behavior}
 
@@ -60,7 +62,7 @@ Android 버전에서는 이미지 아이콘과 확장된 알림에 대한 이미
 
 * **[!UICONTROL 미디어 추가]** 단추를 사용하여 **[!DNL Adobe Experience Manager Assets]**&#x200B;의 자산을 선택하십시오.
 
-  **[!DNL Adobe Experience Manager Assets]**&#x200B;이 페이지[에서 &#x200B;](../integrations/assets.md)을(를) 사용하는 방법을 알아보세요.
+  **[!DNL Adobe Experience Manager Assets]**&#x200B;이 페이지[에서 ](../integrations/assets.md)을(를) 사용하는 방법을 알아보세요.
 
 * 또는 **[!UICONTROL 미디어 추가]** 필드에 미디어 URL을 입력하십시오. 이 경우 URL에 개인화를 추가할 수 있습니다.
 

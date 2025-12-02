@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 59e85eb7a14f88d95b2ef97e3ace11a65f115b75
+source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
 workflow-type: tm+mt
-source-wordcount: '2995'
+source-wordcount: '2988'
 ht-degree: 99%
 
 ---
@@ -341,7 +341,7 @@ ht-degree: 99%
          + [웹 채널 전제 조건](using/web/web-prerequisites.md)
          + [웹 하위 도메인 구성](using/web/web-delegated-subdomains.md)
          + [웹 채널 구성 만들기](using/web/web-configuration.md)
-      + [웹 경험 만들기 &#x200B;](using/web/create-web.md)
+      + [웹 경험 만들기 ](using/web/create-web.md)
       + 웹 페이지 작성 {#author-web-pages}
          + [웹 페이지 작성](/help/rp_landing_pages/author-web-pages-landing-page.md)
          + [웹 디자이너를 사용하여 작업](using/web/web-visual-editor.md)
@@ -395,7 +395,7 @@ ht-degree: 99%
          + [Journey Optimizer에서 라이브 활동 구성](using/mobile-live/mobile-live-configuration.md)
          + [라이브 활동 SDK 통합 구성](using/mobile-live/mobile-live-configuration-sdk.md)
 + 콘텐츠 관리 {#content-management}
-   + [콘텐츠 관리 &#x200B;](/help/rp_landing_pages/content-management-landing-page.md)
+   + [콘텐츠 관리 ](/help/rp_landing_pages/content-management-landing-page.md)
    + 개인화 {#personalization}
       + [개인화](/help/rp_landing_pages/personalization-landing-page.md)
       + [개인화 시작](using/personalization/personalize.md)
@@ -475,12 +475,10 @@ ht-degree: 99%
       + [콘텐츠 생성을 위한 AI 어시스턴트](/help/rp_landing_pages/ai-assistant-landing-page.md)
       + [AI 어시스턴트 시작하기](using/content-management/gs-generative.md)
       + [AI 프롬프트 모범 사례](using/content-management/ai-assistant-prompting-guide.md)
-      + [AI를 사용한 이메일 생성](using/content-management/generative-email.md)
-      + [AI를 사용한 푸시 생성](using/content-management/generative-push.md)
-      + [AI를 사용한 SMS 생성](using/content-management/generative-sms.md)
-      + [AI를 사용한 웹 생성](using/content-management/generative-web.md)
+      + [AI로 전체 콘텐츠 생성](using/content-management/generative-full-content.md)
+      + [AI로 텍스트 생성](using/content-management/generative-text.md)
+      + [AI로 이미지 생성](using/content-management/generative-image.md)
       + [AI를 사용한 콘텐츠 실험](using/content-management/generative-experimentation.md)
-      + [AI를 사용한 랜딩 페이지](using/content-management/generative-lp.md)
       + [AI 어시스턴트 사용 사례](using/content-management/generative-uc.md)
       + 브랜드 {#brands}
          + [브랜드](/help/rp_landing_pages/brands-landing-page.md)
