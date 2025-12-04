@@ -90,7 +90,7 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 
 * [!DNL Journey Optimizer]에서 [코드 기반 경험](../code-based/get-started-code-based.md) 액션을 사용하고 애플리케이션에서 사용할 수 있는 코드 콘텐츠 페이로드를 전달하려면 [이 페이지](../code-based/code-based-prerequisites.md)에서 설명하는 전제 조건을 따라야 합니다.
 
-* [ 사용자 인터페이스에서 ](../web/get-started-web.md)웹 페이지[!DNL Journey Optimizer]에 액세스하고 작성하려면 [이 페이지](../web/web-prerequisites.md)에 나열된 필수 구성 요소를 따르십시오.
+* [&#x200B; 사용자 인터페이스에서 &#x200B;](../web/get-started-web.md)웹 페이지[!DNL Journey Optimizer]에 액세스하고 작성하려면 [이 페이지](../web/web-prerequisites.md)에 나열된 필수 구성 요소를 따르십시오.
 
 * [!DNL Journey Optimizer]을(를) 사용하여 여정 및 캠페인에서 인앱 메시지를 보내려면 [이 페이지](../in-app/inapp-configuration.md)에 나열된 게재 필수 조건을 따르십시오.
 
