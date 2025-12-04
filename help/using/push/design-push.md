@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+source-git-commit: 31f0ff2497b5d3c1211c26e8bcd9a12d072f298d
 workflow-type: tm+mt
-source-wordcount: '1522'
-ht-degree: 16%
+source-wordcount: '1651'
+ht-degree: 14%
 
 ---
 
@@ -62,11 +62,16 @@ Android 버전에서는 이미지 아이콘과 확장된 알림에 대한 이미
 
 * **[!UICONTROL 미디어 추가]** 단추를 사용하여 **[!DNL Adobe Experience Manager Assets]**&#x200B;의 자산을 선택하십시오.
 
-  **[!DNL Adobe Experience Manager Assets]**&#x200B;이 페이지[에서 &#x200B;](../integrations/assets.md)을(를) 사용하는 방법을 알아보세요.
+  **[!DNL Adobe Experience Manager Assets]**&#x200B;이 페이지[에서 ](../integrations/assets.md)을(를) 사용하는 방법을 알아보세요.
 
 * 또는 **[!UICONTROL 미디어 추가]** 필드에 미디어 URL을 입력하십시오. 이 경우 URL에 개인화를 추가할 수 있습니다.
 
 미디어가 추가되면 알림 본문의 오른쪽에 표시됩니다.
+
+푸시 알림 페이로드에 미디어 첨부 파일(예: `adb_media`과 같은 사용자 지정 데이터 필드의 이미지)을 포함하는 경우 모바일 애플리케이션은 장치에서 렌더링할 이미지에 대한 특정 클라이언트측 처리를 구현해야 합니다.
+
+* **iOS**: 페이로드에서 미디어 콘텐츠를 다운로드하고 처리하려면 앱에서 [알림 서비스 확장](https://developer.apple.com/documentation/usernotifications/modifying_content_in_newly_delivered_notifications){target="_blank"}을 구현해야 합니다. 또한 **[!UICONTROL 고급 옵션]** 섹션에서 [변경 가능한 콘텐츠 플래그 추가](#advanced-options-push) 옵션을 사용하도록 설정해야 합니다.
+* **Android**: 페이로드의 이미지 첨부 파일을 처리하려면 앱에서 [자동 표시 및 추적 워크플로](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/push-notification/android/automatic-display-and-tracking/){target="_blank"}를 구현해야 합니다.
 
 ## 버튼 추가 {#add-buttons-push}
 
@@ -128,7 +133,7 @@ iOS 버전에서는 알림 범주 식별자가 지정됩니다. 표시할 버튼
 | **[!UICONTROL 알림 그룹]**(iOS 전용) | 푸시 알림에 알림 그룹을 연결합니다.<br/>iOS 12부터 알림 그룹을 사용하면 메시지 스레드와 알림 주제를 스레드 ID로 통합할 수 있습니다. 예를 들어 브랜드는 하나 이상의 다른 ID에 더 많은 운영 유형 알림을 유지하면서 하나의 그룹 ID로 마케팅 알림을 전송할 수 있습니다.<br/>이를 설명하기 위해 groupID: 123 &quot;새 봄 스웨터 컬렉션 확인&quot; 및 groupID: 456 &quot;패키지가 배달되었습니다&quot; 알림 그룹을 사용할 수 있습니다. 이 예에서 모든 게재 알림은 그룹 ID: 456 아래에 번들로 제공됩니다. |
 | **[!UICONTROL 알림 채널]**(Android 전용) | 푸시 알림에 알림 채널을 연결합니다.<br/>Android 8.0(API 레벨 26)부터 모든 알림을 채널에 할당해야 표시됩니다. 자세한 내용은 [Android 개발자 설명서](https://developer.android.com/guide/topics/ui/notifiers/notifications#ManageChannels)를 참조하세요. |
 | **[!UICONTROL 콘텐츠 가용성 플래그 추가]**(iOS 전용) | 푸시 알림을 받는 즉시 앱이 깨어날 수 있도록 푸시 페이로드에 사용 가능한 콘텐츠 플래그를 보내 앱이 페이로드 데이터에 액세스할 수 있도록 합니다.<br/> 앱이 백그라운드에서 실행 중이고 사용자 상호 작용(예: 푸시 알림을 누르는 경우)이 필요 없는 경우에도 작동합니다. 하지만 앱이 실행되고 있지 않으면 적용되지 않습니다. 자세한 내용은 [Apple 개발자 설명서](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html)를 참조하십시오. |
-| **[!UICONTROL 변경 가능한 콘텐츠 플래그 추가]**(iOS 전용) | 푸시 페이로드에서 변경 가능한 콘텐츠 플래그를 보내고 iOS SDK에 제공된 알림 서비스 애플리케이션 확장에 의해 푸시 알림 콘텐츠가 수정되도록 합니다. 자세한 내용은 [Apple 개발자 설명서](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html)를 참조하십시오.<br/>그런 다음 모바일 앱 확장을 활용하여 [!DNL Journey Optimizer]에서 보낸 푸시 알림의 내용 또는 프레젠테이션을 추가로 수정할 수 있습니다. 예를 들어 사용자는 이 옵션을 사용하여 데이터의 암호를 해독하고, 알림의 본문이나 제목 텍스트를 변경하고, 알림에 스레드 식별자를 추가할 수 있습니다. |
+| **[!UICONTROL 변경 가능한 콘텐츠 플래그 추가]**(iOS 전용) | 푸시 페이로드에서 변경 가능한 콘텐츠 플래그를 보내고 iOS SDK에 제공된 알림 서비스 애플리케이션 확장에 의해 푸시 알림 콘텐츠가 수정되도록 합니다. 자세한 내용은 [Apple 개발자 설명서](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html)를 참조하십시오.<br/>그런 다음 모바일 앱 확장을 활용하여 [!DNL Journey Optimizer]에서 보낸 푸시 알림의 내용 또는 프레젠테이션을 추가로 수정할 수 있습니다. 예를 들어 사용자는 이 옵션을 사용하여 데이터의 암호를 해독하고, 알림의 본문이나 제목 텍스트를 변경하고, 알림에 스레드 식별자를 추가할 수 있습니다.<br/>**중요**: 페이로드 필드(예: `adb_media`)를 통해 미디어 첨부 파일(이미지, 비디오)을 포함하여 iOS 장치에서 렌더링할 때 이 플래그를 사용하도록 설정해야 합니다. 페이로드에서 미디어 콘텐츠를 다운로드하고 처리하려면 앱에서 Notification Service Extension도 구현해야 합니다. |
 | **[!UICONTROL 푸시 만료 추가]**(iOS 전용) | 푸시 만료의 **날짜 및 시간**&#x200B;을(를) 선택합니다. iOS에서 알림 만료는 하드 스톱으로 적용됩니다. 즉, 만료 시간이 지난 후 Apple 푸시 알림 서비스(APNS)에 도착하는 모든 메시지는 전달되지 않으므로 고객이 오래된 알림이나 관련 없는 알림을 받지 않도록 합니다. 자세한 내용은 [Apple 개발자 설명서](https://developer.apple.com/documentation/usernotifications/sending-notification-requests-to-apns)를 참조하십시오. |
 | **[!UICONTROL 알림 가시성]**(Android 전용) | 푸시 알림의 가시성을 정의합니다. <br/><b>개인</b>은(는) 모든 잠금 화면에 알림을 표시하지만 보안 잠금 화면에 중요한 정보나 개인 정보를 숨깁니다. <br/><b>공개</b>는 모든 잠금 화면에서 알림을 모두 표시합니다. <br/><b>암호</b>은(는) 보안 잠금 화면에서 알림의 일부를 표시하지 않습니다. <br/>자세한 내용은 [Android 개발자 설명서](https://developer.android.com/reference/android/app/Notification)를 참조하세요. |
 | **[!UICONTROL 알림 우선 순위]**(Android 전용) | 푸시 알림의 중요도를 낮음에서 최대로 정의합니다. 푸시 알림이 전달될 때 푸시 알림이 얼마나 &quot;간섭&quot;되는지를 결정합니다. 자세한 내용은 [Android 개발자 설명서](https://developer.android.com/guide/topics/ui/notifiers/notifications#importance)를 참조하세요. |

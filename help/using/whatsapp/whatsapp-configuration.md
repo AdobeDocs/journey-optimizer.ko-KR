@@ -7,10 +7,10 @@ feature: Whatsapp, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
+source-git-commit: bd0f1f6b63616bcef4cfc50706e42612e0a04e89
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 14%
+source-wordcount: '1061'
+ht-degree: 13%
 
 ---
 
@@ -127,7 +127,7 @@ WhatsApp API 자격 증명이 정상적으로 생성되면 이제 옵트인 및 
 
 1. 여기에 생성된 **[!UICONTROL Webhook Verify toker]**&#x200B;를 복사한 다음 Webhook 설정의 일부로 Meta 인터페이스에 붙여넣습니다.
 
-   이 인증 토큰을 추가하는 방법과 위치에 대한 자세한 지침은 [메타 설명서](https://developers.facebook.com/docs/graph-api/webhooks/getting-started#configure-webhooks-product)를 참조하세요.
+   이 인증 토큰을 추가하는 방법과 위치에 대한 자세한 지침은 [Meta 설명서](https://developers.facebook.com/docs/graph-api/webhooks/getting-started#configure-webhooks-product)를 참조하세요.
 
 1. 이전에 제출한 **[!UICONTROL WhatsApp Webhook]**&#x200B;에서 새 **[!UICONTROL Webhook URL]**&#x200B;에 액세스하여 복사합니다.
 
@@ -179,6 +179,23 @@ WhatsApp API 자격 증명이 정상적으로 생성되면 이제 옵트인 및 
 
 이제 Journey Optimizer에서 WhatsApp 메시지를 보낼 준비가 되었습니다.
 
+## WhatsApp 채널 설정 문제 해결 {#troubleshooting}
+
+### API 자격 증명 설정 중 HTTP 500 오류 발생
+
+WhatsApp API 자격 증명을 구성할 때 HTTP 500 오류가 발생하는 경우 다음 문제 해결 단계를 수행합니다.
+
+1. **권한 확인**: 조직에 `cjm_whatsapp` 권한이 프로비저닝되어 있는지 확인합니다. 이 권한이 없으면 WhatsApp 채널을 구성할 수 없습니다.
+
+1. **비즈니스 계정 필드의 유효성 검사**: 모든 필수 필드가 올바르게 채워졌는지 확인하십시오.
+   * **API 토큰**: 적절한 권한이 있는 올바른 Meta 액세스 토큰이어야 합니다. [자세히 알아보기](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)
+   * **비즈니스 계정 ID**: Meta 비즈니스 계정 ID와 정확히 일치해야 합니다. [자세히 알아보기](https://www.facebook.com/business/help/1181250022022158?id=180505742745347)
+
+1. **외부에서 자격 증명을 테스트하십시오**: Meta API로 직접 자격 증명을 확인하여 자격 증명과 관련된 문제인지 Journey Optimizer 자격 증명을 처리하는 문제인지 확인하십시오.
+
+1. **고급 로깅 사용**: 내부 서버 또는 인증 구성 오류를 식별하려면 Journey Optimizer 환경에서 고급 로그를 사용하여 API 호출 실패에 대한 자세한 정보를 제공합니다.
+
+1. **지원에 문의**: 환경 및 권한이 유효하지만 HTTP 500 오류가 지속되는 경우 Adobe 담당자에게 문의하십시오.
 
 ## 사용 방법 비디오 {#video}
 
@@ -186,6 +203,6 @@ WhatsApp API 자격 증명이 정상적으로 생성되면 이제 옵트인 및 
 
 +++ 비디오 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3470275/?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++

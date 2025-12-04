@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 내용, 실험, 복수, 대상자, 처리
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 4f1ae3a812b75c180716c5af0d6f87ef58bc2a13
+source-git-commit: 462859568ffcacab644d587e328cf92ce053aa00
 workflow-type: tm+mt
-source-wordcount: '1855'
+source-wordcount: '1927'
 ht-degree: 6%
 
 ---
@@ -105,6 +105,12 @@ Journey Optimizer 컨텐츠 실험 을 사용하면 타겟 대상자에게 가�
 1. **[!UICONTROL 치료 추가]**&#x200B;를 클릭하여 필요한 수만큼 새 치료를 만듭니다.
 
    ![](assets/content_experiment_8.png)
+
+   >[!CAUTION]
+   >
+   >코드 기반 실험을 생성할 때 다음 제한 사항에 유의하십시오.
+   >* **처리 수**: 3~5개 이상의 처리를 만들면 성능 및 인터페이스 문제가 발생할 수 있습니다. 치료 추가 시 오류가 발생하면 치료 횟수를 줄이거나 문제가 해결될 때까지 점진적으로 추가해 봅니다.
+   >* **예약된 키워드**: 처리 이름에 &quot;홀드아웃&quot;과 같은 예약된 키워드를 사용하지 마십시오. 이렇게 하면 의사 결정 노드 매핑 오류가 발생하고 실험이 올바르게 작동하지 않을 수 있습니다.
 
 1. 구분을 더 잘 하려면 치료의 **[!UICONTROL 제목]**&#x200B;을 변경하십시오.
 

@@ -10,14 +10,24 @@ role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: e99ba08b86c682cdcb20be758590b97c0d474040
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 4%
+source-wordcount: '392'
+ht-degree: 9%
 
 ---
 
 # 대체 오퍼 만들기 {#create-fallback-offers}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_new_fallback"
+>title="대체 오퍼"
+>abstract="대체 오퍼는 최종 사용자가 맞춤형 오퍼를 받을 자격이 없는 경우 표시되는 기본 오퍼입니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_fallback_offer_details "
+>title="대체 오퍼 세부 정보"
+>abstract="대체 오퍼의 이름을 지정합니다. 하나 또는 여러 개의 기존 컬렉션 한정자를 연결하여 오퍼 라이브러리를 보다 쉽게 검색하고 구성할 수 있습니다."
 
 다른 오퍼에 적합하지 않은 경우 고객에게 대체 오퍼가 전송됩니다. 대체 오퍼를 만드는 단계는 오퍼를 만들 때와 같이 하나 또는 여러 개의 표현을 만드는 것으로 구성됩니다.
 
@@ -65,5 +75,5 @@ ht-degree: 4%
 
 ## 사용 방법 비디오 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341359?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329383?quality=12)
 

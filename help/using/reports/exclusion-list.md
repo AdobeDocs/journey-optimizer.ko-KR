@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a34ba1a8-87d5-4f9c-a181-2f49e74e8f09
-source-git-commit: 853e87cdd69a3fc180dcb1aa38b4b67f27977939
+source-git-commit: ca6f722c93fffe0cebcddb4f730f23d9a720ef9d
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '868'
 ht-degree: 8%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 8%
 | InAppNoVariantDefinition | 050041 | 인앱 | InApp 메시지에 대한 변형이 정의되지 않은 경우 제외 이벤트가 생성됩니다. |
 | InAppNoMessageFoundForProcessing | 050042 | 인앱 | 메시지에 대해 실험이 활성화되고 적격 처리에 대한 메시지가 없는 경우 제외 이벤트가 생성됩니다. |
 | PushNoTokenFoundInProfile | 050030 | 푸시 | 프로필에 푸시 토큰이 없을 경우 제외 이벤트가 생성됩니다. |
-| 푸시NoValidTokenFoundForApps | 050031 | 푸시 | 구성에서 타깃팅된 앱에 대한 유효한 토큰을 찾을 수 없으면 제외 이벤트가 생성됩니다. |
+| 푸시NoValidTokenFoundForApps | 050031 | 푸시 | 구성에서 타깃팅된 앱에 대한 유효한 토큰을 찾을 수 없으면 제외 이벤트가 생성됩니다. **중요:** 프로덕션 인증서를 사용할 때 사용자 프로필의 `pushNotificationDetails.platform` 특성을 `apns`(으)로 설정해야 합니다. 샌드박스 인증서를 사용하는 경우 `apnsSandbox`(으)로 설정하십시오. 플랫폼 특성과 인증서 유형이 일치하지 않으면 이 제외가 트리거됩니다. |
 | PushMalformedProfile | 050034 | 푸시 | 프로필의 pushNotificationDetails가 잘못된 경우 제외 이벤트가 생성됩니다. |
 | PushNoConsent | 050111 | 푸시 | 사용자가 마케팅 푸시 알림을 옵트아웃하면 제외 이벤트가 생성됩니다. |
 | PushNoApplicationDefinedInPreset | 050033 | 푸시 | 구성에 target에 대한 응용 프로그램이 포함되지 않으면 제외 이벤트가 생성됩니다. |

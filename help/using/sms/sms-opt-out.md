@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
+source-git-commit: 38d537eb7a14f926cafd2769fd09821eebb1186a
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 16%
+source-wordcount: '634'
+ht-degree: 14%
 
 ---
 
@@ -42,6 +42,8 @@ Infobip을 사용할 때 전달 작업이 끌어오기 구성으로 설정되어
 
 키워드 응답 STOP, UNSTOP, START, QUIT, CANCEL, END 및 UNSUBSCRIBE가 자동으로 인식되므로, Adobe Journey Optimizer에서 SMS 옵트아웃 기능이 작동하는지 확인하는 데는 단계가 필요하지 않습니다. 프로필 옵트아웃 상태는 Adobe Journey Optimizer에서 실시간으로 업데이트됩니다.
 
+SMS API 자격 증명에서 사용자 지정 옵트아웃 키워드를 정의하는 경우 위에 나열된 기본 인바운드 키워드를 재정의합니다. STOP, QUIT, CANCEL, END 및 UNSUBSCRIBE와 같은 기본 키워드가 작동하도록 하려면 SMS 구성의 옵트아웃 키워드 필드에 사용자 지정 키워드와 함께 명시적으로 포함하십시오. 그렇지 않으면 사용자 지정 키워드만 인식되고 기본 키워드는 더 이상 옵트아웃 작업을 트리거하지 않습니다.
+
 고객이 텍스트 메시지에 대해 STOP에 응답하면, 공급자는 트랜잭션 메시지를 포함하여 해당 특정 발신자 ID(짧은 코드 또는 긴 번호)에서 모든 후속 SMS를 차단합니다. 트랜잭션 SMS를 중단 없이 게재하려면 이전에 옵트아웃되지 않은 별도의 발신자 ID를 사용하십시오.
 
 
@@ -71,6 +73,6 @@ Adobe Journey Optimizer에서 옵트아웃 상태(Twilio, Infoip 또는 Sinch와
 
   +++ 비디오 보기
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3440286/?captions=kor&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3427129/?learn=on)
 
   +++

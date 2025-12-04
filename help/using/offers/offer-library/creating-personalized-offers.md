@@ -10,10 +10,10 @@ role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: e99ba08b86c682cdcb20be758590b97c0d474040
 workflow-type: tm+mt
-source-wordcount: '830'
-ht-degree: 18%
+source-wordcount: '807'
+ht-degree: 16%
 
 ---
 
@@ -52,11 +52,6 @@ ht-degree: 18%
 >id="ajo_decisioning_new_personalized"
 >title="맞춤형 오퍼"
 >abstract="맞춤형 오퍼는 자격 규칙과 제한에 따라 사용자 정의할 수 있는 메시지입니다."
-
->[!CONTEXTUALHELP]
->id="ajo_decisioning_new_fallback"
->title="대체 오퍼"
->abstract="대체 제안은 최종 사용자가 맞춤형 오퍼를 받을 자격이 없는 경우 표시되는 기본 오퍼입니다."
 
 **오퍼**&#x200B;를 만들려면 다음 단계를 수행하십시오.
 
@@ -151,7 +146,7 @@ ht-degree: 18%
 
   >[!CAUTION]
   >
-  >오퍼 및 해당 콘텐츠에 더 이상 액세스할 수 없습니다. 이 작업은 취소할 수 없습니다.
+  >오퍼 및 해당 콘텐츠에 더 이상 액세스할 수 없습니다. 이 작업은 실행 취소할 수 없습니다.
   >
   >오퍼가 컬렉션이나 의사 결정에 사용되는 경우 삭제할 수 없습니다. 먼저 모든 개체에서 오퍼를 제거해야 합니다.
 
@@ -175,4 +170,4 @@ ht-degree: 18%
 
 ## 튜토리얼 비디오 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341358?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)

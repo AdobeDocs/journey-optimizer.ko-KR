@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 5ddce63ac21f7cbfff435b4914cc91a8d6d58b93
+source-git-commit: b8af73485227dc102b5b190b58a5d4341ffb2708
 workflow-type: tm+mt
-source-wordcount: '3324'
-ht-degree: 91%
+source-wordcount: '3530'
+ht-degree: 86%
 
 ---
 
@@ -90,7 +90,7 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 
 * [!DNL Journey Optimizer]에서 [코드 기반 경험](../code-based/get-started-code-based.md) 액션을 사용하고 애플리케이션에서 사용할 수 있는 코드 콘텐츠 페이로드를 전달하려면 [이 페이지](../code-based/code-based-prerequisites.md)에서 설명하는 전제 조건을 따라야 합니다.
 
-* [&#x200B; 사용자 인터페이스에서 &#x200B;](../web/get-started-web.md)웹 페이지[!DNL Journey Optimizer]에 액세스하고 작성하려면 [이 페이지](../web/web-prerequisites.md)에 나열된 필수 구성 요소를 따르십시오.
+* [ 사용자 인터페이스에서 ](../web/get-started-web.md)웹 페이지[!DNL Journey Optimizer]에 액세스하고 작성하려면 [이 페이지](../web/web-prerequisites.md)에 나열된 필수 구성 요소를 따르십시오.
 
 * [!DNL Journey Optimizer]을(를) 사용하여 여정 및 캠페인에서 인앱 메시지를 보내려면 [이 페이지](../in-app/inapp-configuration.md)에 나열된 게재 필수 조건을 따르십시오.
 
@@ -171,6 +171,23 @@ Journey Optimizer의 하위 도메인 위임에 적용되는 가드레일 및 �
 * 여정에서 대상자 선별을 사용할 때 해당 대상자 선별 활동이 활성화되고 대상자에 들어오거나 나가는 프로필을 확인하는 데 최대 10분이 걸릴 수 있습니다.
 * 한 프로필의 여정 인스턴스 최대 크기는 1MB입니다. 여정 실행의 일환으로 수집한 모든 데이터는 해당 여정 인스턴스에 저장됩니다. 따라서 수신 이벤트의 데이터, Adobe Experience Platform에서 검색한 프로필 정보, 사용자 정의 작업 응답 등은 해당 여정 인스턴스에 저장되어 여정 크기에 영향을 줍니다. 여정이 이벤트로 시작하는 경우 여정 실행 시 몇 가지 활동 후에 위의 제한에 도달하지 않도록 해당 이벤트 페이로드의 최대 크기를 제한(예: 800KB 미만)하는 것이 좋습니다. 제한에 도달하면 프로필이 오류 상태가 되어 여정에서 제외됩니다.
 * 여정 활동에 사용되는 시간 초과 외에 인터페이스에 표시되지 않고 변경할 수 없는 전체 여정 시간 초과도 있습니다. 이 전역 시간 제한은 개인 사용자가 여정에 들어간 후 91일이 지나면 진행을 중지합니다. [자세히 보기](../building-journeys/journey-properties.md#global_timeout)
+
+### 단일 여정에 대한 패키지 제한 선택 {#select-package-limitations}
+
+>[!NOTE]
+>
+>이러한 제한 사항은 **Select** 패키지를 사용하는 대상자 읽기 또는 비즈니스 이벤트 여정에 적용되지 않습니다. 여러 작업, 조건 또는 대기 활동이 있는 보다 복잡한 여정 논리가 필요한 경우 라이선스 패키지를 업그레이드하거나 해당하는 경우 대상 여정 읽기 를 사용하는 것이 좋습니다.
+
+**Select** 라이선스 패키지를 사용하는 고객의 경우 다음의 추가 제한 사항이 단일 여정, 이벤트 또는 대상 자격으로 시작하는 여정에 특별히 적용됩니다.
+
+* **SELECT 패키지: 단일 여정에 하나의 동작만 허용됨(ERR_PKG_SELECT_8)**: 단일 여정은 하나의 동작 활동만 포함할 수 있습니다. 동일한 여정 내에 여러 개의 이메일, 푸시, SMS 또는 기타 작업 활동을 추가할 수 없습니다.
+
+* **SELECT 패키지: 단일 여정에 허용되는 조건 없음(ERR_PKG_SELECT_7)**: 단일 여정에 조건 활동을 사용할 수 없습니다. 여정은 분기 논리 없이 단일 선형 경로를 따라야 합니다.
+
+* **SELECT 패키지: 단일 여정에 대기가 허용되지 않음(ERR_PKG_SELECT_6)**: 대기 활동을 단일 여정에 추가할 수 없습니다. 작업은 지연 없이 즉시 실행해야 합니다.
+
+* **SELECT 패키지: 노드의 시간 초과/오류 전환은 최종 노드만 가리켜야 합니다(ERR_PKG_SELECT_2)**: 전자 메일 작업과 같은 작업에 대해 시간 초과 또는 오류 전환을 구성하는 경우 이러한 경로는 직접 최종 노드를 가리켜야 합니다. 여정의 다른 활동 또는 작업에 연결할 수 없습니다.
+
 
 ### 일반 작업  {#general-actions-g}
 
