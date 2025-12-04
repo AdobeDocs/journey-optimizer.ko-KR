@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 33b6cc18-dd63-48d9-8d85-526500d83d37
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 670464cf2e6fdec6e1f74cc472fe15ad35760765
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 3%
+source-wordcount: '421'
+ht-degree: 2%
 
 ---
 
@@ -28,6 +28,10 @@ ht-degree: 3%
 ![](assets/report-access-jo.png)
 
 >[!ENDSHADEBOX]
+
+>[!NOTE]
+>
+>코드 기반 경험은 사용자가 사이트 또는 앱에 액세스하여 옵트인하는 인바운드 상호 작용으로 작동합니다. 따라서 아웃바운드 메시지 배달을 위해 선택한 프로필을 추적하는 **Targeted** 또는 **Audience** 지표는 코드 기반 캠페인에 대해 증가하지 않습니다.
 
 ## 표시 및 클릭 {#impressions-code}
 
