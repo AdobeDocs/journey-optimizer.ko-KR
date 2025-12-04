@@ -7,9 +7,9 @@ role: Developer
 level: Experienced
 keywords: 전환, 함수, 표현식, 여정, 유형, 캐스트
 version: Journey Orchestration
-source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
+source-git-commit: 451a9e1e5d5e6e1408849e8d1c5c9644a95359da
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '1054'
 ht-degree: 6%
 
 ---
@@ -142,12 +142,13 @@ dateOnly를 반환합니다.
 
 +++매개변수
 
-| 매개변수 | 유형 |
-|-----------|------------------|
-| ISO-8601 형식의 날짜 시간 | 문자열 |
-| 시간대 id | 문자열 |
-| 시간대 없는 날짜 시간 | dateTimeOnly |
-| 에포크의 정수 값(밀리초) | 정수 |
+| 매개변수 | 설명 |
+|--- |--- |
+| 문자열 | ISO-8601 형식의 날짜 시간입니다. 시간대 정보가 있는 날짜/시간의 문자열 표현 |
+| 문자열 | 시간대 id입니다. 시간대 식별자(예: &quot;UTC&quot;, &quot;Europe/Paris&quot;) |
+| dateOnly | 은 시간대가 없는 날짜를 나타내며, 연/월일로 표시됩니다. |
+| dateTimeOnly | 시간대가 없는 날짜/시간을 연-월-일-시간-분-초 단위로 표시 |
+| 정수 | 에포크의 정수 값(밀리초) |
 
 +++
 
@@ -155,7 +156,9 @@ dateOnly를 반환합니다.
 
 `toDateTime(<string>)`
 
-`toDateTime(<stringified time zone id>, <dateTimeOnly>)`
+`toDateTime(<string>, <dateOnly>)`
+
+`toDateTime(<string>, <dateTimeOnly>)`
 
 `toDateTime(<integer>)`
 
@@ -165,17 +168,29 @@ dateOnly를 반환합니다.
 
 +++예
 
-`toDateTime ("2023-08-18T23:17:59.123Z")`
+`toDateTime("2023-08-18T23:17:59.123Z")`
 
 2023-08-18T23 반환:17:59.123Z
 
-`toDateTime(toDateTimeOnly("UTC", "2023-08-18T23:17:59.123"))`
+ISO-8601 문자열에 이미 시간대 정보가 포함되어 있습니다.
+
+`toDateTime("Europe/Paris", toDateOnly("2023-08-18"))`
+
+2023-08-18T00:00:00.000+02:00 반환
+
+시간대를 날짜 전용 값과 결합하여 dateTime을 만듭니다. 지정된 시간대의 시간은 자정(00:00:0)으로 설정됩니다.
+
+`toDateTime("UTC", toDateTimeOnly("2023-08-18T23:17:59.123"))`
 
 2023-08-18T23 반환:17:59.123Z
+
+시간대 정보가 없는 dateTimeOnly 값에 시간대를 적용하여 dateTime을 만듭니다.
 
 `toDateTime(1560762190189)`
 
-2023-06-17T09:03:10.189Z 반환
+2019-06-17T09:03:10.189Z 반환
+
+Unix 타임스탬프(밀리초)를 dateTime 값으로 변환합니다.
 
 +++
 
