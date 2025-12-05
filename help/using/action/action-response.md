@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Experienced
 keywords: 작업, 서드파티, 사용자 지정, 여정, API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
-source-git-commit: 221368c7766e942143639fcd554b32f9de5ab0c9
+source-git-commit: bf5b054eaaca73abf484ccbabf160e902fad3f5b
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '659'
 ht-degree: 5%
 
 ---
@@ -214,34 +214,9 @@ currentActionField.description == "abc"
 
 ### 기본 채널에서 사용자 지정 작업 응답 사용 {#response-in-channels}
 
-Handlebars 구문을 사용하여 기본 채널(예: 이메일, 푸시 또는 SMS)의 사용자 지정 작업 응답에서 중첩된 배열을 반복할 수 있습니다. 외부 시스템의 동적 데이터를 사용하여 메시지 콘텐츠를 개인화해야 할 때 유용합니다.
+사용자 지정 작업의 응답 페이로드 필드는 메시지 개인화를 위해 기본 채널(이메일, 푸시, SMS)에서 사용할 수 있습니다. 여기에는 외부 API에서 반환되는 중첩된 데이터 구조와 배열을 반복하는 기능이 포함됩니다.
 
-예를 들어 사용자 지정 작업이 외부 시스템에서 다음 응답을 반환하는 경우:
-
-```json
-{    
-    "id": "84632848268632",    
-    "responses": [
-        { "productIDs": [1111,2222,3333] },
-        { "productIDs": [4444,5555,6666] },
-        { "productIDs": [7777,8888,9999] }
-    ]
-}
-```
-
-다음과 같이 네이티브 채널(예를 들어, 이메일의 경우)에서 `responses` 배열과 중첩된 `productIDs` 배열을 반복할 수 있습니다.
-
-```handlebars
-{{#each context.journey.actions.<yourcustomaction>.responses as |res|}}
-
-  {{#each res.productIDs as |productID|}}
-    <li>{{productID}}</li>
-  {{/each}}
-
-{{/each}}
-```
-
-`<yourcustomaction>`을(를) 여정에 구성된 사용자 지정 작업의 실제 이름으로 바꾸십시오.
+<!--For detailed examples and syntax for iterating over custom action response data in messages, refer to [Iterate over contextual data with Handlebars](../personalization/personalization-contexts.md#custom-action-responses).-->
 
 ## 추가 리소스
 
