@@ -52,11 +52,11 @@ ht-degree: 10%
 
 1. 활동에 **[!UICONTROL Label]**&#x200B;을(를) 추가합니다(선택 사항).
 
-1. **[!UICONTROL 대상]** 필드에서 여정을 입력할 [!DNL Adobe Experience Platform] 대상을 선택한 다음 **[!UICONTROL 저장]**&#x200B;을 클릭합니다. [!DNL Adobe Experience Platform]세그먼트 정의[를 사용하여 생성된 ](../audience/creating-a-segment-definition.md) 대상을 선택할 수 있습니다.
+1. **[!UICONTROL 대상]** 필드에서 여정을 입력할 [!DNL Adobe Experience Platform] 대상을 선택한 다음 **[!UICONTROL 저장]**&#x200B;을 클릭합니다. [!DNL Adobe Experience Platform]세그먼트 정의[를 사용하여 생성된 &#x200B;](../audience/creating-a-segment-definition.md) 대상을 선택할 수 있습니다.
 
    >[!NOTE]
    >
-   >또한 [!DNL Adobe Experience Platform]대상 구성[ 또는 ](../audience/get-started-audience-orchestration.md)CSV 파일에서 업로드한[을(를) 사용하여 만든 ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}대상을 타깃팅할 수도 있습니다.
+   >또한 [!DNL Adobe Experience Platform]대상 구성[&#x200B; 또는 &#x200B;](../audience/get-started-audience-orchestration.md)CSV 파일에서 업로드한[을(를) 사용하여 만든 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}대상을 타깃팅할 수도 있습니다.
 
    목록에 표시되는 열을 사용자 정의하고 정렬할 수 있습니다.
 
