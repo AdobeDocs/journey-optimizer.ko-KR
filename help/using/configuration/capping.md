@@ -8,7 +8,7 @@ role: Developer
 level: Beginner
 keywords: 외부, API, 최적화 프로그램, 한도
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 0b0badfa09a24d451671f5bae9ddc437c6db2911
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 6%
@@ -23,7 +23,7 @@ ht-degree: 6%
 
 ## 최대 가용량 API 설명 및 Postman 컬렉션 {#description}
 
-아래 표에는 최대 가용량 API에 사용할 수 있는 명령이 나열되어 있습니다. 요청 샘플, 매개 변수 및 응답 형식을 포함한 자세한 정보는 [Adobe Journey Optimizer API 설명서](https://developer.adobe.com/journey-optimizer-apis/references/journeys/){target="_blank"}에서 확인할 수 있습니다.
+아래 표에는 최대 가용량 API에 사용할 수 있는 명령이 나열되어 있습니다. 요청 샘플, 매개 변수 및 응답 형식을 포함한 자세한 정보는 [Adobe Journey Optimizer API 설명서](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling/){target="_blank"}에서 확인할 수 있습니다.
 
 | 메서드 | 경로 | 설명 |
 |---|---|---|

@@ -8,7 +8,7 @@ role: Developer
 level: Beginner
 keywords: 외부, API, 최적화 프로그램, 한도
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
-source-git-commit: 13af123030449d870f44f3470710b0da2c6f4775
+source-git-commit: 0b0badfa09a24d451671f5bae9ddc437c6db2911
 workflow-type: tm+mt
 source-wordcount: '1024'
 ht-degree: 48%
@@ -32,7 +32,7 @@ Throttling API는 초당 전송되는 이벤트 수를 제한하기 위해 제�
 
 ## 제한 API 설명 및 Postman 컬렉션 {#description}
 
-아래 표에는 제한 API에 사용할 수 있는 명령이 나와 있습니다. 요청 샘플, 매개 변수 및 응답 형식을 포함한 자세한 정보는 [Adobe Journey Optimizer API 설명서](https://developer.adobe.com/journey-optimizer-apis/references/journeys/)에서 확인할 수 있습니다.
+아래 표에는 제한 API에 사용할 수 있는 명령이 나와 있습니다. 요청 샘플, 매개 변수 및 응답 형식을 포함한 자세한 정보는 [Adobe Journey Optimizer API 설명서](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling/)에서 확인할 수 있습니다.
 
 | 메서드 | 경로 | 설명 |
 |---|---|---|

@@ -8,7 +8,7 @@ role: User
 level: Beginner
 keywords: 외부, API, 최적화 프로그램, 한도
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: bc614a78229771e826edea581aefb97b0e3f4159
+source-git-commit: 0b0badfa09a24d451671f5bae9ddc437c6db2911
 workflow-type: tm+mt
 source-wordcount: '1805'
 ht-degree: 18%
@@ -60,7 +60,7 @@ API 작업 방법에 대한 자세한 내용은 다음 섹션을 참조하십시
 * [Capping API](capping.md)
 * [Throttling API](throttling.md)
 
-API에 대한 자세한 설명은 [Adobe Journey Optimizer API 설명서](https://developer.adobe.com/journey-optimizer-apis/references/journeys/)에서 확인할 수 있습니다
+API에 대한 자세한 설명은 [Adobe Journey Optimizer API 설명서](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling/)에서 확인할 수 있습니다
 
 ### 데이터 소스 및 사용자 정의 작업 용량 {#capacity}
 
@@ -110,7 +110,7 @@ API에 대한 자세한 설명은 [Adobe Journey Optimizer API 설명서](https:
 
 Journey Optimizer과 외부 시스템 통합에 대한 FAQ는 다음과 같습니다.
 
-세부 정보가 필요하십니까? 이 페이지 하단의 피드백 옵션을 사용하여 질문을 제기하거나 [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"}에 연결하세요.
+세부 정보가 필요하십니까? 이 페이지 하단의 피드백 옵션을 사용하여 질문을 제기하거나 [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}에 연결하세요.
 
 +++ 캡핑 또는 조절 규칙을 구성하려면 어떻게 해야 합니까? 기본 규칙이 있습니까?
 
