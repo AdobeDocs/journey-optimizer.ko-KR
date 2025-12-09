@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 exl-id: c9e14d4d-f2e2-43f9-b1c5-4b005ce858ad
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: f30113bf07c42f75bb986a81af49367ac682f4af
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 1%
+source-wordcount: '883'
+ht-degree: 2%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 >[!BEGINSHADEBOX]
 
-또한 컨텍스트 데이터를 **등급 수식**&#x200B;에 활용하거나 **오퍼 표시를 동적으로 개인화**&#x200B;할 수 있습니다. 예를 들어 단일 오퍼를 만들고 개인화 필드를 사용하여 컨텍스트 데이터를 기반으로 해당 표현을 조정할 수 있습니다. 예를 들어, 사용자에게 iphone이 있는 경우 지정된 이미지를 표시하고 ipad 사용자에 대한 다른 이미지를 표시합니다. 자세한 내용은 다음 섹션을 참조하십시오.
+또한 컨텍스트 데이터를 **등급 수식**&#x200B;에 활용하거나 **오퍼 표시를 동적으로 개인화**&#x200B;할 수 있습니다. 예를 들어 단일 오퍼를 만들고 개인화 필드를 사용하여 컨텍스트 데이터를 기반으로 해당 표현을 조정할 수 있습니다. 예를 들어, 사용자에게 iPhone이 있는 경우 지정된 이미지를 표시하고 iPad 사용자를 위한 다른 이미지를 표시합니다. 자세한 내용은 다음 섹션을 참조하십시오.
 
 * [등급 수식 - 컨텍스트 데이터를 기반으로 오퍼 증폭](../offers/ranking/create-ranking-formulas.md#context-data)
 * [컨텍스트 데이터를 기반으로 표현 개인화](../offers/offer-library/add-representations.md#context-data)
@@ -40,9 +40,9 @@ ht-degree: 1%
 
 ## Edge Decisioning 요청에서 컨텍스트 데이터를 전달하기 위한 사전 요구 사항 {#prerequisites}
 
-Decisioning API를 사용하여 컨텍스트를 다소 자유 형식으로 전달하는 것과 달리 Edge Decisioning 컨텍스트 페이로드는 XDM 경험 이벤트를 준수해야 합니다. 이를 위해서는 데이터 수집에 사용되는 &#39;XDM 경험 이벤트&#39;의 일부로 컨텍스트를 정의해야 합니다.
+Decisioning API를 사용하여 컨텍스트를 자유 형식으로 전달하는 것과 달리 Edge Decisioning 컨텍스트는 XDM 규정 준수가 필요합니다. 컨텍스트 페이로드는 XDM 경험 이벤트 규격이어야 합니다. 이를 위해서는 데이터 수집에 사용되는 &#39;XDM 경험 이벤트&#39;의 일부로 컨텍스트를 정의해야 합니다.
 
-1. 경험 이벤트 스키마를 정의합니다. 이 사용 사례에서는 &quot;오퍼 컨텍스트&quot; 스키마가 만들어지고 오퍼 컨텍스트 필드는 &quot;오퍼 컨텍스트&quot; 필드 그룹의 일부입니다. 실제로 필드 그룹은 &#39;Edge 컬렉션 네트워크&#39; 데이터스트림에 연결된 데이터 수집에 사용되는 경험 이벤트 스키마에 추가됩니다.
+1. 경험 이벤트 스키마를 정의합니다. 이 사용 사례에서는 &quot;오퍼 컨텍스트&quot; 스키마가 만들어지고 오퍼 컨텍스트 필드는 &quot;오퍼 컨텍스트&quot; 필드 그룹의 일부입니다. 실제로 필드 그룹은 &#39;Edge 컬렉션 네트워크&#39; 데이터스트림과 연결된 데이터 수집에 사용되는 경험 이벤트 스키마에 추가됩니다.
 
    >[!NOTE]
    >
@@ -50,31 +50,31 @@ Decisioning API를 사용하여 컨텍스트를 다소 자유 형식으로 전�
 
    이 예제에서 &quot;Offer Context&quot; 필드 그룹에는 language와 deviceType의 두 가지 속성이 있습니다. 이러한 속성은 오퍼 순위 및 자격 규칙에 사용됩니다.
 
-   ![](assets/context-edge-xdm.png){width="60%" align="center" zoomable="yes"}
+   ![언어 및 deviceType 속성이 있는 오퍼 컨텍스트 필드 그룹을 표시하는 XDM 스키마](assets/context-edge-xdm.png){width="60%" align="center" zoomable="yes"}
 
-   Adobe Experience Platform [XDM(Experience Data Model) 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home){target="_blank"}에서 스키마로 작업하는 방법을 알아봅니다
+   [!DNL Adobe Experience Platform] [XDM(Experience Data Model) 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}에서 스키마 작업 방법을 알아봅니다
 
 1. 데이터 세트(&quot;오퍼 컨텍스트&quot;)를 만들고 프로필에 대해 활성화되어 있는지 확인합니다.
 
-1. **[!UICONTROL 데이터 수집]** > **[!UICONTROL 데이터스트림]** 메뉴에서 새 데이터스트림을 만듭니다. Adobe Experience Platform [데이터스트림 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/configure){target="_blank"}에서 데이터스트림을 만들고 구성하는 방법에 대해 알아봅니다.
+1. **[!UICONTROL 데이터 수집]** > **[!UICONTROL 데이터스트림]** 메뉴에서 새 데이터스트림을 만듭니다. [!DNL Adobe Experience Platform] [데이터스트림 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure){target="_blank"}에서 데이터스트림을 만들고 구성하는 방법에 대해 알아봅니다.
 
    여기에서는 &quot;오퍼 컨텐츠&quot; 이벤트 스키마가 선택된 상태로 &quot;오퍼 컨텍스트&quot; 데이터스트림을 생성했습니다.
 
-   ![](assets/context-edge-datastream.png)
+   ![이벤트 스키마가 선택된 오퍼 컨텍스트 데이터 스트림 구성](assets/context-edge-datastream.png)
 
 1. 새로 생성된 데이터스트림을 편집하고 서비스로 &quot;Adobe Experience Platform&quot;, 이벤트 데이터 세트로 &quot;오퍼 컨텍스트&quot;를 선택합니다.
 
-   ![](assets/context-edge-datastream-new.png)
+   ![Adobe Experience Platform 및 오퍼 컨텍스트 데이터 세트를 사용한 데이터 스트림 서비스 구성](assets/context-edge-datastream-new.png)
 
 1. 데이터 스트림을 저장하고 ID를 복사합니다. 이 ID는 API 요청 엔드포인트에 사용됩니다. [API 호출을 작성하는 방법을 알아봅니다](#request)
 
-   ![](assets/context-edge-datastream-copy.png)
+   ![구성 인터페이스에서 데이터 스트림 ID를 복사하는 중](assets/context-edge-datastream-copy.png)
 
 ## 자격 규칙에서 컨텍스트 데이터 사용 {#rules}
 
 사용자의 장치 유형에 따라 표시할 오퍼를 결정하는 자격 규칙을 만듭니다.
 
-![](assets/context-edge-device.png)
+![iPhone 및 iPad 오퍼에 대한 장치 유형 자격 규칙](assets/context-edge-device.png)
 
 * iphone 장치 규칙:
 
@@ -100,14 +100,14 @@ Decisioning API를 사용하여 컨텍스트를 다소 자유 형식으로 전�
 
 각 장치 유형에 대한 오퍼를 만들고 이전에 만든 해당 자격 규칙에 연결합니다.
 
-* iphone 사용자를 위한 오퍼:
+* iPhone 사용자를 위한 오퍼:
 
-   * 오퍼 이름 : &quot;Edge 컨텍스트 - iPhone 오퍼 컨텐츠&quot;
+   * 오퍼 이름: &quot;Edge 컨텍스트 - iPhone 오퍼 컨텐츠&quot;
    * 관련 규칙: &quot;Edge 컨텍스트 규칙 - iphone&quot;
 
-* ipad 사용자를 위한 오퍼:
+* iPad 사용자를 위한 오퍼:
 
-   * 오퍼 이름: Edge 컨텍스트 - iPad 오퍼 컨텐츠 :
+   * 오퍼 이름: &quot;Edge 컨텍스트 - iPad 오퍼 컨텐츠&quot;
    * 관련 규칙: &quot;Edge 컨텍스트 규칙 - ipad&quot;
 
 또한 특정 장치 기준이 충족되지 않는 경우 표시할 대체 오퍼(여기서는 &quot;컨텍스트 대체 컨텐츠&quot;)를 만듭니다.
@@ -116,13 +116,13 @@ Decisioning API를 사용하여 컨텍스트를 다소 자유 형식으로 전�
 
 이전에 만든 오퍼를 여기 &quot;Edge 장치 컨텍스트&quot;라는 정적 컬렉션에 추가합니다. 이 컬렉션은 오퍼 결정에서 고객에게 제공할 적격 오퍼를 선택하는 위치입니다.
 
-![](assets/context-edge-collection.png)
+![장치별 오퍼를 포함하는 Edge 장치 컨텍스트 컬렉션](assets/context-edge-collection.png)
 
 ## 오퍼 결정 만들기 {#decision}
 
 오퍼 의사 결정 엔진을 활용하여 대체 오퍼로 선택한 &quot;컨텍스트 대체&quot; 오퍼와 함께 장치 유형에 따라 사용자에게 제공할 최상의 오퍼를 선택하는 새 의사 결정을 만듭니다.
 
-![](assets/context-edge-decision.png)
+![대체 오퍼로서 컨텍스트 대체 항목을 사용한 오퍼 결정 구성](assets/context-edge-decision.png)
 
 >[!NOTE]
 >
@@ -145,7 +145,7 @@ Decisioning API를 사용하여 컨텍스트를 다소 자유 형식으로 전�
 
   +++결정 범위를 검색할 위치
 
-  ![](assets/context-edge-copy-scope.png)
+  ![오퍼 결정 인터페이스에서 결정 범위를 복사할 위치](assets/context-edge-copy-scope.png)
 
   +++
 

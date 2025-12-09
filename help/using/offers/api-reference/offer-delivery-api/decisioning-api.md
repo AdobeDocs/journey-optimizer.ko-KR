@@ -9,9 +9,9 @@ role: Developer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: f30113bf07c42f75bb986a81af49367ac682f4af
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1094'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,12 @@ ht-degree: 2%
 [!DNL Decisioning] API에 대한 POST 요청을 통해 오퍼를 만들고 게재할 수 있습니다.
 
 이 자습서에서는 특히 의사 결정 관리에 대해 API를 이해하고 있어야 합니다. 자세한 내용은 [의사 결정 관리 API 개발자 안내서](../getting-started.md)를 참조하십시오. 또한 이 자습서에서는 고유한 배치 ID와 의사 결정 ID 값을 사용할 수 있어야 합니다. 이 값을 획득하지 않은 경우 [배치 만들기](../offers-api/placements/create.md) 및 [의사 결정 만들기](../activities-api/activities/create.md)에 대한 튜토리얼을 참조하십시오.
+
+>[!NOTE]
+>
+>**의사 결정 요청에서 컨텍스트 데이터 전달**
+>
+>의사 결정 요청에서 컨텍스트 데이터(예: 장치 유형, 위치 또는 사용자 환경 설정)를 전달하여 동적 자격 규칙을 만들고 실시간 조건을 기반으로 개인화된 오퍼를 전달할 수 있습니다. [컨텍스트 데이터 및 의사 결정 요청에 대해 자세히 알아보기](../../context-data-decisioning.md)
 
 ## 필수 헤더 {#required-headers}
 
@@ -222,7 +228,7 @@ The following video is intended to support your understanding of the components 
 >
 >This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/342832/?captions=kor&quality=12) -->
+>[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12) -->
 
 ## 다음 단계 {#next-steps}
 
