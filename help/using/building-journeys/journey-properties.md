@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 여정, 구성, 속성
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: b0b297ed33ab273a3201569760e1d2db5b3ccaad
 workflow-type: tm+mt
-source-wordcount: '2771'
+source-wordcount: '2849'
 ht-degree: 15%
 
 ---
@@ -273,6 +273,10 @@ Adobe Journey Optimizer은 전체 여정에 사용된 병합 정책을 적용합
 
 프로필이 더 이상 여정의 목적에 부합하지 않는 경우 여정에서 프로필을 제거할 수 있습니다. 목표 관리와 밀접하게 연관된 **전역 종료 기준**&#x200B;을 통해 이를 달성할 수 있습니다.
 
+>[!TIP]
+>
+>실제 사례를 사용한 실용적인 지침을 찾고 계십니까? 시작 및 종료 구성, 모범 사례 및 최적화 전략을 모두 포함하는 [여정 시작 및 종료 기준에 대한 포괄적인 안내서](entry-exit-criteria-guide.md)를 참조하십시오.
+
 **샘플 사용 사례**
 
 마케터에는 일련의 커뮤니케이션이 있는 프로모션 여정이 있습니다. 이러한 각 커뮤니케이션은 고객이 구매를 하도록 유도하는 데 목적이 있습니다. 구매가 이루어지는 즉시 고객은 일련의 메시지 중 나머지 메시지를 받지 않아야 합니다. 종료 기준을 정의하면 구매한 모든 프로필이 여정에서 제거됩니다.
@@ -331,6 +335,13 @@ Adobe Journey Optimizer은 전체 여정에 사용된 병합 정책을 적용합
 
    * **초안 여정**&#x200B;에서 *프로필 특성* 옵션이 비활성화되어 있지만(읽기 전용) *이벤트* 및 *대상* 옵션은 활성 상태로 유지됩니다.
    * **일시 중지된 여정**&#x200B;에서 *프로필 특성* 옵션을 편집할 수 있고 *이벤트* 및 *대상* 옵션은 읽기 전용이 됩니다.
+
+### 관련 항목 {#exit-criteria-related}
+
+* [여정 시작 및 종료 기준 안내서](entry-exit-criteria-guide.md) - 실제 사례 및 모범 사례를 포함한 전체 안내서
+* [프로필 입장 관리](entry-management.md) - 프로필이 여정을 입력하는 방법 구성
+* [여정 종료 방법](end-journey.md) - 자연어 여정 완료 이해
+* [프로필 특성 종료 기준이 있는 여정 일시 중지](journey-pause.md#journey-exit-criteria) - 여정 일시 중지 시 종료 기준을 사용합니다.
 
 ## 여정 일정 {#schedule}
 

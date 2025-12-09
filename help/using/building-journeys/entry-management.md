@@ -9,9 +9,9 @@ level: Intermediate
 keywords: 재입력, 여정, 프로필, 반복
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: b0b297ed33ab273a3201569760e1d2db5b3ccaad
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1207'
 ht-degree: 3%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 3%
 # 프로필 시작 관리 {#entry-management}
 
 여정 등록 관리는 프로필 유형에 따라 다릅니다.
+
+>[!TIP]
+>
+>실제 사례를 사용한 실용적인 지침을 찾고 계십니까? 시작 캠페인, 포기한 장바구니 복구 및 전체 시작 및 종료 구성 예와 같은 충성도 프로그램과 같은 사용 사례가 포함된 [여정 시작 및 종료 기준에 대한 포괄적인 안내서](entry-exit-criteria-guide.md)를 참조하십시오.
 
 ## 여정 유형 {#types-of-journeys}
 
@@ -115,3 +119,10 @@ Business events follow reentrance rules in the same way as for unitary events. I
 <!--
 After 91 days, a Read audience journey switches to the **Finished** status. This behavior is set for 91 days only (i.e. journey timeout default value) as all information about profiles who entered the journey is removed 91 days after they entered. Persons still in the journey automatically are impacted. They exit the journey after the 30 day timeout. 
 -->
+
+## 관련 항목
+
+* [여정 시작 및 종료 기준 안내서](entry-exit-criteria-guide.md) - 실제 사례 및 모범 사례를 포함한 전체 안내서
+* [종료 기준 구성](journey-properties.md#exit-criteria) - 프로필이 여정에서 나가는 시기를 정의합니다.
+* [여정 종료](end-journey.md) - 여정이 닫히고 완료되는 방법 이해
+* [여정 사용 사례](jo-use-cases.md) - 시작 및 종료 구성이 있는 전체 예제를 참조하십시오.

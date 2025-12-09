@@ -9,14 +9,18 @@ level: Intermediate
 keywords: 재입력, 여정, 종료, 라이브, 중지
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: b0b297ed33ab273a3201569760e1d2db5b3ccaad
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '892'
 ht-degree: 0%
 
 ---
 
 # 여정 종료 {#journey-ending}
+
+>[!TIP]
+>
+>프로필이 여정을 종료하는 시기 및 방법에 대한 실용적인 지침을 찾고 계십니까? 실제 종료 시나리오, 모범 사례 및 구성 지침을 포함하는 [여정 시작 및 종료 기준에 대한 포괄적인 안내서](entry-exit-criteria-guide.md)를 참조하십시오.
 
 ## 라이브 여정 종료 방법
 
@@ -104,4 +108,11 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->**[!DNL Manage journeys]** 높은 수준의 권한을 가진 사용자로 제한된 여정을 중지할 수 있는 권한. [!DNL Journey Optimizer]이 섹션[에서 &#x200B;](../administration/permissions-overview.md) 사용자의 액세스 권한 관리에 대해 자세히 알아보세요.
+>**[!DNL Manage journeys]** 높은 수준의 권한을 가진 사용자로 제한된 여정을 중지할 수 있는 권한. [!DNL Journey Optimizer]이 섹션[에서 ](../administration/permissions-overview.md) 사용자의 액세스 권한 관리에 대해 자세히 알아보세요.
+
+## 관련 항목
+
+* [여정 시작 및 종료 기준 안내서](entry-exit-criteria-guide.md) - 실제 사례 및 모범 사례를 포함한 전체 안내서
+* [프로필 입장 관리](entry-management.md) - 프로필이 여정을 입력하는 방법 구성
+* [종료 기준 구성](journey-properties.md#exit-criteria) - 여정에서 자동 프로필 제거 설정
+* [여정 일시 중지](journey-pause.md) - 여정 실행을 일시적으로 중지합니다.

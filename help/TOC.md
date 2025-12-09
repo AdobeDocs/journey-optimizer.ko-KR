@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7ab576435c2605167ad1dd463ae5e7d5dc71c13c
+source-git-commit: e09cdd834abd0a0ca3f6f5210c0ecbe3afa29b45
 workflow-type: tm+mt
-source-wordcount: '2992'
+source-wordcount: '2997'
 ht-degree: 99%
 
 ---
@@ -121,6 +121,7 @@ ht-degree: 99%
    + 사용 사례 {#journey-use-cases}
       + [사용 사례](/help/rp_landing_pages/journey-use-cases-landing-page.md)
       + [사용 사례를 통해 알아보기](using/building-journeys/jo-use-cases.md)
+      + [여정 시작 및 종료 기준](using/building-journeys/entry-exit-criteria-guide.md)
       + [경험 이벤트 조회](using/building-journeys/exp-event-lookup.md)
       + [다중 채널 메시지 보내기](using/building-journeys/journeys-uc.md)
       + [Campaign v7/v8을 사용하여 메시지 보내기](using/building-journeys/ajo-ac.md)
@@ -341,7 +342,7 @@ ht-degree: 99%
          + [웹 채널 전제 조건](using/web/web-prerequisites.md)
          + [웹 하위 도메인 구성](using/web/web-delegated-subdomains.md)
          + [웹 채널 구성 만들기](using/web/web-configuration.md)
-      + [웹 경험 만들기 &#x200B;](using/web/create-web.md)
+      + [웹 경험 만들기 ](using/web/create-web.md)
       + 웹 페이지 작성 {#author-web-pages}
          + [웹 페이지 작성](/help/rp_landing_pages/author-web-pages-landing-page.md)
          + [웹 디자이너를 사용하여 작업](using/web/web-visual-editor.md)
@@ -388,14 +389,14 @@ ht-degree: 99%
       + [LINE 메시지 만들기](using/line/create-line.md)
       + [LINE 메시지 확인 및 보내기](using/line/send-line.md)
    + 라이브 활동 {#live-activity}
-      + [라이브 활동 시작](using/mobile-live/get-started-mobile-live.md)
+      + [라이브 활동 시작하기](using/mobile-live/get-started-mobile-live.md)
       + [라이브 활동 만들기](using/mobile-live/create-mobile-live.md)
       + [FAQ](using/mobile-live/mobile-live-faq.md)
       + 콘텐츠 카드 채널 구성 {#configure}
          + [Journey Optimizer에서 라이브 활동 구성](using/mobile-live/mobile-live-configuration.md)
          + [라이브 활동 SDK 통합 구성](using/mobile-live/mobile-live-configuration-sdk.md)
 + 콘텐츠 관리 {#content-management}
-   + [콘텐츠 관리 &#x200B;](/help/rp_landing_pages/content-management-landing-page.md)
+   + [콘텐츠 관리 ](/help/rp_landing_pages/content-management-landing-page.md)
    + 개인화 {#personalization}
       + [개인화](/help/rp_landing_pages/personalization-landing-page.md)
       + [개인화 시작](using/personalization/personalize.md)
