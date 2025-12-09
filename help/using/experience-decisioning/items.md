@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 3215129db1909c3f14f91f11d98a93144b58a837
 workflow-type: tm+mt
-source-wordcount: '2179'
-ht-degree: 17%
+source-wordcount: '2162'
+ht-degree: 16%
 
 ---
 
@@ -37,7 +37,7 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_custom_attributes"
 >title="사용자 정의 속성 정의"
->abstract="사용자 정의 속성은 결정 항목에 할당할 수 있으며 필요에 맞게 조정된 특정 속성입니다. 이는 결정 항목의 카탈로그 스키마에 생성됩니다. 이 섹션은 카탈로그 스키마에 하나 이상의 사용자 정의 속성을 추가한 경우에만 표시됩니다."
+>abstract="사용자 정의 속성은 결정 항목에 할당할 수 있으며 필요에 맞게 조정된 특정 속성입니다. 의사 결정 항목의 카탈로그 스키마에서 만들어집니다."
 
 먼저 의사 결정 항목의 표준 및 사용자 지정 속성 을 정의합니다.
 
@@ -83,8 +83,8 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
 >abstract="기본적으로 모든 프로필은 결정 항목을 수신할 수 있지만 대상자 또는 규칙을 사용하여 항목을 특정 프로필로만 제한할 수 있습니다."
 
 <!--
->"additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
@@ -223,7 +223,7 @@ If a marketer wants to determine how many times a specific customer has been sho
 
   >[!IMPORTANT]
   >
-  >삭제하면 결정 항목과 해당 콘텐츠에 더 이상 액세스할 수 없습니다. 이 작업은 취소할 수 없습니다.
+  >삭제하면 결정 항목과 해당 콘텐츠에 더 이상 액세스할 수 없습니다. 이 작업은 실행 취소할 수 없습니다.
 
   승인된 오퍼 항목은 컬렉션이나 의사 결정에 사용되는 경우 삭제할 수 없습니다. 삭제하려면 상태를 &quot;초안&quot;으로 변경하십시오. 이렇게 하려면 줄임표 버튼을 클릭하고 **[!UICONTROL 승인 취소]**&#x200B;를 선택하십시오.
 
