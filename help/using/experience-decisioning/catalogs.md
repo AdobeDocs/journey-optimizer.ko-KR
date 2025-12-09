@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
 version: Journey Orchestration
-source-git-commit: 9894abfbc07268fea7c5081beaa93179cd63f689
+source-git-commit: 86145ff79de58391cc31c9b1a4bd34135868920e
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 6%
+source-wordcount: '453'
+ht-degree: 5%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 6%
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_custom_attributes"
->title="사용자 정의 속성 정의"
+>title="카탈로그의 스키마 액세스 및 편집"
 >abstract="사용자 정의 속성은 결정 항목에 할당할 수 있으며 필요에 맞게 조정된 특정 속성입니다. 의사 결정 항목의 카탈로그 스키마에서 만들어집니다."
 
 Decisioning에서 카탈로그는 의사 결정 항목을 구성하는 중앙 컨테이너 역할을 합니다. 각 카탈로그가 [!DNL Adobe Experience Platform] 스키마에 연결되어 있으며 결정 항목에 할당할 수 있는 모든 특성을 포함합니다.
