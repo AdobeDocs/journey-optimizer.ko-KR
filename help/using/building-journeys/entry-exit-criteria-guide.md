@@ -201,7 +201,7 @@ Customer Experience Orchestration에서 적절한 시간에 적절한 메시지�
 * [여정 사용 사례](jo-use-cases.md) - 전체 여정 예 및 패턴
 * [고객 온보딩 비디오](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding)
 * [포기한 장바구니 비디오](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart)
-* [커뮤니티 블로그: 시작 및 종료 기준](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
+* [커뮤니티 블로그: 시작 및 종료 기준](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958?profile.language=ko)
 
 **관련 기능**
 
