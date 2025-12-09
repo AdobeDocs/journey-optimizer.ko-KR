@@ -8,9 +8,9 @@ role: Developer
 level: Experienced
 exl-id: ce3a2c33-c15b-436f-90b1-7373d7b2b1ca
 version: Journey Orchestration
-source-git-commit: f43b1ea0dd2197331329e24cb3d76eef0b5a9e86
+source-git-commit: 093e5ba2a74b498bb31d0398e1df460fd93b285f
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '289'
 ht-degree: 1%
 
 ---
@@ -104,6 +104,10 @@ ht-degree: 1%
 
 제안 내의 각 오퍼에는 Adobe에서 생성한 고유 식별자인 추적 토큰이 포함됩니다. 이 토큰은 해당 클릭 또는 노출 이벤트에서 받은 그대로(변경 없이) 전달되어야 합니다. 추적 토큰을 일치시키면 Adobe은 사용자 작업을 올바른 오퍼 의사 결정과 정확하게 연결하여 다운스트림 보고 및 AI 기반 최적화를 가능하게 합니다.
 
+>[!CAUTION]
+>
+>클릭 수를 추적할 때 `propositionAction.tokens` 필드에 추적 토큰을 전달하지 않으면 클릭 이벤트가 해당 오퍼에 올바르게 귀속되지 않습니다. 이로 인해 추적 데이터가 불완전하며 보고 및 AI 기반 순위 최적화에 부정적인 영향을 미칩니다. 항상 클릭 추적 구현에 제안의 추적 토큰을 포함해야 합니다.
+
 +++**샘플 페이로드:**
 
 ```json
@@ -179,4 +183,4 @@ ht-degree: 1%
 >* POST /ee/v2/interact
 >* POST /ee/v2/collect
 >
->If you are using the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko){target="_blank"} or [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=ko){target="_blank"}, the connection is made automatically.-->
+>If you are using the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} or [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"}, the connection is made automatically.-->
