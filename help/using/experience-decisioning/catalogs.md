@@ -7,14 +7,19 @@ role: User
 level: Intermediate
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 20408838a030ceeb8e61f5e1b80d910a8a21b87d
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 0%
+source-wordcount: '426'
+ht-degree: 6%
 
 ---
 
-# 항목 카탈로그 {#catalog}
+# 항목 카탈로그 구성 {#catalog}
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_custom_attributes"
+>title="사용자 정의 속성 정의"
+>abstract="사용자 정의 속성은 결정 항목에 할당할 수 있으며 필요에 맞게 조정된 특정 속성입니다. 의사 결정 항목의 카탈로그 스키마에서 만들어집니다."
 
 Decisioning에서 카탈로그는 의사 결정 항목을 구성하는 중앙 컨테이너 역할을 합니다. 각 카탈로그는 의사 결정 항목에 할당할 수 있는 모든 속성을 포함하는 Adobe Experience Platform 스키마에 연결됩니다.
 
@@ -48,11 +53,11 @@ Decisioning에서 카탈로그는 의사 결정 항목을 구성하는 중앙 �
 1. 카탈로그의 스키마가 아래 구조에 따라 새 탭에서 열립니다.
 
    * **`_experience`** 노드에는 이름, 시작 및 종료 날짜, 설명 등 표준 결정 항목 특성이 포함되어 있습니다.
-   * **`_<imsOrg>`** 노드에는 사용자 지정 결정 항목 특성이 있습니다. 기본적으로 사용자 지정 속성은 구성되지 않지만 요구 사항에 맞게 필요한 만큼 추가할 수 있습니다. 완료되면 사용자 지정 속성이 표준 속성과 함께 의사 결정 항목 만들기 화면에 표시됩니다.
+   * **`_<imsOrg>`** 노드에는 사용자 지정 결정 항목 특성이 있습니다. 여기서 `<imsOrg>`은(는) 조직 이름(예: Luma 회사의 경우 `_luma`)으로 대체됩니다. 기본적으로 사용자 지정 속성은 구성되지 않지만 요구 사항에 맞게 필요한 만큼 추가할 수 있습니다. 완료되면 사용자 지정 속성이 표준 속성과 함께 의사 결정 항목 만들기 화면에 표시됩니다.
 
    ![](assets/catalogs-schema.png)
 
-1. 스키마에 사용자 지정 특성을 추가하려면 **`_<imsOrg>`** 노드를 확장하고 구조의 원하는 위치에서 &quot;+&quot; 단추를 클릭하십시오.
+1. 스키마에 사용자 지정 특성을 추가하려면 조직의 노드(예: **`_luma`**)를 확장하고 구조의 원하는 위치에서 &quot;+&quot; 단추를 클릭합니다.
 
    ![](assets/catalogs-add.png)
 
