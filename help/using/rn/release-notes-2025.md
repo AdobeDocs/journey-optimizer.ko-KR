@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+source-git-commit: fb74c0c14cf35aeb0c28719878d009e040be4214
 workflow-type: tm+mt
 source-wordcount: '7890'
 ht-degree: 100%
@@ -1403,7 +1403,7 @@ ht-degree: 100%
 
 **사용 사례 플레이북**
 
-* **플레이북 작성 및 공유(Private Beta)** - 이제 나만의 사용 사례 플레이북을 만들고 관리하고 공유할 수 있습니다. 이 기능은 현재 Private Beta로 일부 조직에서만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오. [자세히 보기](../start/playbooks.md)
+* **플레이북 작성 및 공유(Private Beta)** - 이제 나만의 사용 사례 플레이북을 만들고 관리하고 공유할 수 있습니다. 이 기능은 현재 Private Beta로 일부 조직에서만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오. [자세히 보기](../start/ai-features.md#playbooks)
 
 **탐색**
 

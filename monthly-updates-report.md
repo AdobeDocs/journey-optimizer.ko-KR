@@ -5,9 +5,9 @@ title: 월별 설명서 업데이트 보고서
 description: 새 설명서 페이지 및 업데이트된 설명서 페이지 목록
 hide: true
 hidefromtoc: true
-source-git-commit: afa3c88093b7a3802b98aee1ed391a519499ccc2
+source-git-commit: fb74c0c14cf35aeb0c28719878d009e040be4214
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '807'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## 새 페이지
 
-- [Adobe Journey Optimizer의 AI 기능](help/rp_landing_pages/ai-capabilities-landing-page.md) - 10월 31일
+- [Adobe Journey Optimizer의 AI 및 지능형 기능](help/using/start/ai-features.md) - 10월 31일
 - [고객의 환경 설정 관리](help/using/action/preference-center.md) - 10월 24일
 - [여정 보고서](help/using/action/reporting.md) - 10월 29일
 - [오류 코드 참조](help/using/building-journeys/error-codes-reference.md) - 27일

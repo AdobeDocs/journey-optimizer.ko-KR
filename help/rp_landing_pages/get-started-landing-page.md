@@ -2,95 +2,189 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: 시작하기
-description: 시작하기
+description: Adobe Journey Optimizer 시작
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: ht
-source-wordcount: '352'
-ht-degree: 100%
+source-git-commit: a83be759a20b8b1592164119762a6dbaa5ac469a
+workflow-type: tm+mt
+source-wordcount: '588'
+ht-degree: 9%
 
 ---
 
-# 시작하기{#section-overview}
+# Adobe Journey Optimizer 시작{#get-started}
 
 Adobe Journey Optimizer는 사용자가 모든 채널에서 개인화된 실시간 고객 경험을 제공할 수 있도록 지원합니다. 고객이 있는 곳에서 적시에 적절한 메시지로 고객을 만날 수 있습니다.
 
-이 섹션에서는 옴니채널 오케스트레이션과 AI 기반 의사 결정부터 원활한 콘텐츠 및 데이터 관리에 이르기까지 플랫폼의 핵심 기능을 소개합니다. 이 강력한 도구들이 함께 작동하여 모든 고객 상호 작용을 최적화하는 방법을 확인할 수 있습니다. 각 주제는 직전 주제를 기반으로 구성되어 사용자가 동적이고 데이터에 기반한 방식으로 고객 참여를 마스터할 수 있도록 단계별로 안내합니다.
+Journey Optimizer을 처음 사용하는 사용자든 기술을 확장하려는 숙련된 사용자든 상관없이 이 섹션에서는 빠르고 효과적으로 시작하는 데 필요한 모든 것을 제공합니다.
 
-## Adobe Journey Optimizer 시작
+## Essentials로 시작 {#essentials}
+
+Adobe Journey Optimizer의 기본 사항과 이를 통해 규모에 맞게 데이터 기반 개인화를 구현하는 방법에 대해 알아봅니다.
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
-주요 기능
+Journey Optimizer란?
 
-개인화된 고객 경험을 제공하기 위한 Adobe Journey Optimizer의 주요 기능, 사용 사례, 아키텍처를 살펴봅니다.
+핵심 기능, 사용 사례 및 Journey Optimizer이 개인화된 고객 경험을 제공하는 방법을 살펴보십시오.
 
-[주요 기능 알아보기](../using/start/get-started.md)
+[기본 사항 알아보기](../using/start/get-started.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-아키텍처 개요
+작동 방식 이해
 
-Adobe Journey Optimizer를 Adobe Experience Platform과 통합하여 대규모 데이터 기반 개인화를 활성화하는 방법을 이해합니다.
+Journey Optimizer을 Adobe Experience Platform과 통합하는 방법과 주요 기능 영역이 함께 작동하는 방식에 대해 알아봅니다.
 
-[아키텍처 살펴보기](../using/start/architecture-concepts-redpen.md)
+[아키텍처 살펴보기](../using/start/understanding-ajo.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list.svg)
 
-역할 및 책임
+주요 용어
 
-Adobe Journey Optimizer를 효과적으로 구현하고 관리하는 데 필요한 역할 및 워크플로에 대한 개요를 살펴봅니다.
+Journey Optimizer을 자신 있게 탐색하는 데 도움이 되는 필수 용어 및 개념입니다.
 
-[역할 및 책임 이해](../using/start/quick-start.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
-
-사용자 인터페이스 개요
-
-Adobe Journey Optimizer 인터페이스를 탐색하고 여정 관리 및 결정 도구를 포함한 기능을 살펴봅니다.
-
-[사용자 인터페이스 알아보기](../using/start/user-interface.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
-
-콘텐츠 검색, 필터링, 구성
-
-검색, 필터링, 태그 지정 기능을 사용하여 여정, 캠페인, 기타 자산을 효율적으로 관리하고 구성할 수 있습니다.
-
-[검색 및 구성 방법 알아보기](../using/start/search-filter-categorize.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
-
-가드레일 및 제한 사항
-
-Adobe Journey Optimizer 기능을 효과적으로 사용하기 위한 제한 사항 및 권장 사례에 대해 알아봅니다.
-
-[가드레일 및 제한 사항 확인](../using/start/guardrails.md)
+[용어 검토](../using/start/terminology.md)
 :::
 
 ::::
 
+## 학습 경로 선택 {#by-role}
 
-## 추가 리소스
+책임과 목표에 맞는 역할별 지침을 시작합니다.
 
-- **[핵심 개념 살펴보기](../using/start/functional-areas-redpen.md)** - Adobe Journey Optimizer의 주요 기능 영역과 이 영역들이 함께 작동하여 고객 여정을 최적화하는 방법에 대해 알아봅니다.
-- **[Adobe Journey Optimizer: 주요 용어](../using/start/terminology-md-redpen.md)** - Adobe Journey Optimizer를 자신 있게 사용하고 마케팅 전략을 효과적으로 구현하기 위한 필수 용어와 개념을 이해합니다.
-- **[접근성 기능](../using/start/accessibility.md)** - 모든 사용자를 포용하기 위한 접근성 기능과 WCAG 표준 준수에 대해 알아봅니다.
-- **[AI 어시스턴트 시작](../using/start/ai-assistant.md)** - AI 어시스턴트를 활용하여 Adobe Journey Optimizer 내부에서 개념을 탐색하고 운영 인사이트를 얻을 수 있습니다.
-- **[문제 해결 문서](../using/start/troubleshooting.md)** - 각 문제 해결 섹션에서는 자주 나오는 질문에 대한 답변과 문제에 대한 해결 방법을 제공합니다.
-- **[모니터링 및 문제 해결](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)** - 여정 성능을 추적하고 잠재적인 문제를 식별하며 문제가 발생하면 신속하게 해결할 수 있는 포괄적인 도구를 살펴봅니다.
+:::: landing-cards-container
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/user.svg)
 
+마케터용
 
+고객 여정을 디자인하고, 캠페인을 만들고, 콘텐츠를 개인화하여 대상자를 참여시킵니다.
+
+[마케터로 시작](../using/start/path/marketer.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+
+데이터 엔지니어용
+
+데이터 구조를 구성하고, 스키마와 데이터 세트를 관리하고, 데이터 품질을 확인합니다.
+
+[데이터 엔지니어로 시작](../using/start/path/data-engineer.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+
+관리자용
+
+환경을 설정하고, 권한을 관리하고, 조직에 대한 채널을 구성합니다.
+
+[관리자로 시작](../using/start/path/administrator.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
+
+개발자용
+
+모바일 앱을 통합하고, API를 구현하고, 사용자 지정 작업 및 통합을 빌드합니다.
+
+[개발자로 시작](../using/start/path/developer.md)
+:::
+
+::::
+
+[어떤 역할이 당신에게 맞는지 잘 모르겠나요? 빠른 평가 →](../using/start/quick-start.md)
+
+## 효율적인 작업 {#work-efficiently}
+
+인터페이스를 기본으로 사용하고 지능형 기능을 활용하여 작업을 가속화합니다.
+
+:::: landing-cards-container
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/layout.svg)
+
+인터페이스 탐색
+
+Journey Optimizer 인터페이스를 사용하고, 주요 기능에 액세스하고, 필요한 항목을 빠르게 찾는 방법에 대해 알아봅니다.
+
+[UI 살펴보기](../using/start/user-interface.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/search.svg)
+
+검색 및 구성
+
+검색, 필터 및 태그를 사용하여 여정, 캠페인 및 콘텐츠를 효율적으로 관리할 수 있습니다.
+
+[기본 검색](../using/start/search-filter-categorize.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/ai.svg)
+
+AI 및 지능형 기능
+
+AI가 어떻게 콘텐츠를 만들고, 전송 시간을 최적화하고, 보다 현명한 결정을 내리도록 지원하는지 알아보십시오.
+
+[AI 기능 살펴보기](../using/start/ai-features.md)
+:::
+
+::::
+
+## 추가 리소스 {#additional-resources}
+
+### 참조 및 우수 사례
+
+* **[보호 기능 및 제한 사항](../using/start/guardrails.md)** - Journey Optimizer 기능을 효과적으로 사용하기 위한 제한 사항 및 권장 사례를 이해합니다.
+* **[접근성 기능](../using/start/accessibility.md)** - 모든 사용자의 포함성을 보장하기 위한 접근성 기능 및 WCAG 준수에 대해 알아봅니다.
+* **[문제 해결 가이드](../using/start/troubleshooting.md)** - 자주 묻는 질문에 대한 답변과 일반적인 문제에 대한 해결 방법을 찾으십시오.
+
+### 다음을 수행하여 학습
+
+* **[튜토리얼 비디오](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=ko){target="_blank"}** - 핵심 기능을 다루는 단계별 비디오 튜토리얼
+* **[사용 사례 플레이북](../using/start/ai-features.md#playbooks)** - 포기한 장바구니 복구 및 환영 캠페인과 같은 일반적인 시나리오에 대해 미리 빌드된 워크플로
+* **[설명서 업데이트](../using/rn/documentation-updates.md)** - 설명서의 최근 변경 사항 및 추가 사항에 대한 최신 정보 유지
+
+### 지원 받기
+
+* **[모니터링 및 문제 해결](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)** - 성능을 추적하고, 문제를 식별하고, 문제를 빠르게 해결하는 도구입니다.
+* **[새로운 기능](../using/rn/release-notes.md)** - 최신 기능, 개선 사항 및 수정 사항을 최신 상태로 유지하세요.
+* **[커뮤니티 포럼](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}** - 다른 사용자와 연결하고 질문하고 모범 사례를 공유합니다.
+
+## 빠른 링크 {#quick-links}
+
+다음 필수 안내서를 사용하여 바로 만들기를 시작하십시오.
+
+| 작업 | 안내서 |
+|------|-------|
+| 첫 여정 만들기 | [여정 만들기 안내서](../using/building-journeys/journey-gs.md) |
+| 첫 번째 캠페인 보내기 | [캠페인 만들기 안내서](../using/campaigns/get-started-with-campaigns.md) |
+| 이메일 디자인 | [전자 메일 디자인 가이드](../using/email/get-started-email-design.md) |
+| 대상자 작성 | [대상자 만들기 안내서](../using/audience/creating-a-segment-definition.md) |
+| 채널 설정 | [채널 구성 가이드](../using/configuration/get-started-configuration.md) |
+| 개인화된 오퍼 만들기 | [의사 결정 관리 가이드](../using/offers/get-started/starting-offer-decisioning.md) |
+
+---
+
+## 시작할 준비가 되셨습니까?
+
+자신에게 적합한 경로 선택:
+
+* Journey Optimizer을 처음 사용하십니까?**** [(으)로 시작 Journey Optimizer이란?](../using/start/get-started.md) - 기본 사항 이해
+* **역할을 알고 계신가요?** 책임과 일치하는 [역할별 가이드](../using/start/quick-start.md)(으)로 이동
+* **살펴보시겠습니까?** [AI 기능 검색](../using/start/ai-features.md) 또는 [사용 사례 플레이북 사용](../using/start/ai-features.md#playbooks) 시도
+* **도움이 필요하십니까?** [문제 해결 가이드](../using/start/troubleshooting.md)를 확인하거나 [커뮤니티 포럼](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}을 방문하세요.
+
+>[!NOTE]
+>
+>환경에서 사용할 수 있는 구성 요소 및 기능은 [사용 권한](../using/administration/permissions.md) 및 [라이선스 패키지](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}에 따라 다릅니다. 특정 설정에 대한 질문이 있는 경우 Adobe Customer Success Manager에게 문의하십시오.

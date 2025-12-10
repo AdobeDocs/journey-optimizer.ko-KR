@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
+source-git-commit: fb74c0c14cf35aeb0c28719878d009e040be4214
+workflow-type: tm+mt
 source-wordcount: '6783'
 ht-degree: 100%
 
@@ -756,7 +756,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>AI 어시스턴트는 Adobe의 개념을 탐색 및 이해하고 사용자의 환경에 적절한 작업 인사이트를 얻는 데 사용할 수 있는 사용자 인터페이스 기능입니다. Adobe Journey Optimizer를 비롯한 Adobe Experience Cloud 전체의 여러 제품에서 사용할 수 있습니다.</p>
-<p>자세한 내용은 <a href="../start/ai-assistant.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../start/ai-features.md#ai-assistant">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -1308,7 +1308,7 @@ Beta부터 이 릴리스까지 다음과 같은 개선 사항이 추가되었습
 <tr>
 <td>
 <p>Real-Time CDP 및 Journey Optimizer의 산업별 사용 사례 플레이북 카탈로그를 활용하여 Adobe Experience Platform 및 Adobe Journey Optimizer를 사용하여 수행할 수 있는 일반적인 사용 사례를 해결합니다.</p><p>요구 사항에 가장 적합한 플레이북을 선택하면 여정, 메시지, 스키마 또는 세그먼트와 같은 사용 사례를 지원하는 데 필요한 자산을 생성하고, 가치 창출 시간을 단축하기 위해 스키마에 맞게 사용자 지정할 수 있습니다.</p>
-<p>자세한 내용은 <a href="../start/playbooks.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../start/ai-features.md#playbooks">세부 설명서</a>를 참조하십시오.</p>
 <br/><img src="assets/do-not-localize/playbooks.gif"/>
 </tr>
 </tbody>
