@@ -178,7 +178,7 @@ AI가 어떻게 콘텐츠를 만들고, 전송 시간을 최적화하고, 보다
 
 자신에게 적합한 경로 선택:
 
-* Journey Optimizer을 처음 사용하십니까?**** [(으)로 시작 Journey Optimizer이란?](../using/start/get-started.md) - 기본 사항 이해
+* Journey Optimizer을 처음 사용하십니까?**&#x200B;** [(으)로 시작 Journey Optimizer이란?](../using/start/get-started.md) - 기본 사항 이해
 * **역할을 알고 계신가요?** 책임과 일치하는 [역할별 가이드](../using/start/quick-start.md)(으)로 이동
 * **살펴보시겠습니까?** [AI 기능 검색](../using/start/ai-features.md) 또는 [사용 사례 플레이북 사용](../using/start/ai-features.md#playbooks) 시도
 * **도움이 필요하십니까?** [문제 해결 가이드](../using/start/troubleshooting.md)를 확인하거나 [커뮤니티 포럼](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}을 방문하세요.
