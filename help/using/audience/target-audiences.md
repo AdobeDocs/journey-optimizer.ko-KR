@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: 62c0c1f46b5bd575102d9f27037cb6add1355ba2
+source-git-commit: c30a74ccdaec81cbbb28e3129d5c351a0fe64bfc
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 22%
+source-wordcount: '667'
+ht-degree: 21%
 
 ---
 
@@ -49,9 +49,7 @@ ht-degree: 22%
 
 * 여정에서 **대상자 읽기** 오케스트레이션 활동을 사용하여 대상자의 모든 개인이 여정을 입력하고 여정에 포함된 메시지를 받도록 합니다. “실버 고객”이라는 대상자가 있다고 가정해 보겠습니다. 이 활동으로 모든 실버 고객이 여정에 입장하도록 하여 이들에게 연속으로 이어지는 개인화된 메시지를 보낼 수 있습니다. [대상자 읽기 활동을 구성하는 방법을 알아봅니다](../building-journeys/read-audience.md#configuring-segment-trigger-activity).
 
-  >[!NOTE]
-  >
-  >대상 읽기 활동의 대상 구성 또는 사용자 지정 업로드에서 대상을 활용하는 모든 여정은 마지막 일괄 처리 평가만큼 새로운 프로필 속성을 갖게 됩니다. 여기에는 여정의 동의/억제도 포함됩니다.
+  대상 구성 또는 사용자 지정 업로드에서 대상을 사용하는 여정의 경우 프로필 속성은 여정 항목에서 마지막 일괄 처리 평가만큼 최신 상태입니다. 그러나 **대기** 활동 후 여정은 UPS(통합 프로필 서비스)에서 프로필 속성을 새로 고침하여 사용 가능한 최신 데이터를 가져옵니다. 즉, 여정 실행 중에 프로필 속성이 변경될 수 있습니다. [대기 활동 후 프로필 새로 고침에 대해 자세히 알아보기](../building-journeys/wait-activity.md#profile-refresh)
 
 * 여정에 **조건** 활동을 사용하면 대상자 멤버십을 기반으로 조건을 작성할 수 있습니다. [조건에서 대상자를 사용하는 방법을 알아봅니다](../building-journeys/condition-activity.md#using-a-segment).
 

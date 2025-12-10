@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: b8af73485227dc102b5b190b58a5d4341ffb2708
+source-git-commit: c30a74ccdaec81cbbb28e3129d5c351a0fe64bfc
 workflow-type: tm+mt
-source-wordcount: '3530'
-ht-degree: 94%
+source-wordcount: '3575'
+ht-degree: 92%
 
 ---
 
@@ -319,6 +319,7 @@ Adobe Experience Platform에서 API 기반 프로필 만들기/업데이트와 �
 [대상자 읽기](../building-journeys/read-audience.md) 여정 활동에 다음 가드레일이 적용됩니다.
 
 * 스트리밍 대상자는 항상 최신 상태이지만 배치 대상자는 검색하는 순간에 계산되지 않습니다. 일일 배치 평가 시간에만 매일 평가됩니다.
+* 여정 항목에서 프로필은 배치 대상 스냅샷의 속성 값을 사용합니다. 그러나 프로필이 **대기** 활동에 도달하면 여정이 UPS(통합 프로필 서비스)에서 최신 데이터를 가져와 프로필 속성을 자동으로 새로 고칩니다. 즉, 여정 실행 중에 프로필 속성이 변경될 수 있습니다.
 * **대상자 읽기** 활동을 사용하는 여정의 경우 정확히 동시에 시작할 수 있는 여정의 최대 개수가 정해져 있습니다. 시스템에서 재시도를 수행하기는 하지만, 정확히 같은 시간에 다섯 개가 넘는 여정(**대상자 읽기** 활동을 예약했거나 “최대한 빨리” 시작하는 여정)을 실행하는 것을 피하기 위해 5~10분 간격을 두는 등 시간을 분산하는 것이 좋습니다. [이 섹션](../building-journeys/entry-management.md#journey-processing-rate)에서 여정 처리 속도에 대해 자세히 알아보십시오.
 * **대상자 읽기** 활동은 Adobe Campaign 활동과 함께 사용할 수 없습니다.
 * **대상자 읽기** 활동은 비즈니스 이벤트 활동 이후의 여정의 첫 번째 활동으로만 사용할 수 있습니다.

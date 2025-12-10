@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 대기, 활동, 여정, 다음, 캔버스
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 version: Journey Orchestration
-source-git-commit: cec807afe35bc95be9fa8d455cd72c2600e51fa7
+source-git-commit: c30a74ccdaec81cbbb28e3129d5c351a0fe64bfc
 workflow-type: tm+mt
-source-wordcount: '732'
-ht-degree: 15%
+source-wordcount: '891'
+ht-degree: 12%
 
 ---
 
@@ -102,8 +102,18 @@ Select the date for the execution of the next activity.
 
 대기 활동이 예상대로 작동하는지 확인하려면 단계 이벤트를 사용할 수 있습니다. [자세히 알아보기](../reports/query-examples.md#common-queries).
 
-## 자동 대기 노드  {#auto-wait-node}
+## 대기 후 프로필 새로 고침 {#profile-refresh}
 
+프로필이 **대상자 읽기** 활동으로 시작하는 여정의 **대기** 활동에 주차되어 있으면 여정은 UPS(통합 프로필 서비스)에서 프로필의 특성을 자동으로 새로 고쳐 사용 가능한 최신 데이터를 가져옵니다.
+
+* **여정 항목에서**: 프로필은 여정 시작 시 평가된 대상 스냅숏의 특성 값을 사용합니다.
+* **대기 노드 이후**: 여정이 조회를 수행하여 이전 스냅숏 데이터가 아닌 UPS에서 최신 프로필 데이터를 검색합니다. 즉, 여정이 시작된 후 프로필 속성이 변경되었을 수 있습니다.
+
+이 비헤이비어는 다운스트림 활동이 대기 기간 후에 현재 프로필 정보를 사용하도록 합니다. 그러나 여정이 실행 전체에서 원본 스냅샷 데이터만 사용할 것으로 예상하면 예기치 않은 결과가 발생할 수 있습니다.
+
+예: 여정 시작 시 프로필이 &quot;실버 고객&quot; 대상의 자격을 갖지만 3일 대기 동안 &quot;골드 고객&quot;으로 업그레이드하면 대기 후 활동에서 업데이트된 &quot;골드 고객&quot; 상태를 보게 됩니다.
+
+## 자동 대기 노드  {#auto-wait-node}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_auto_wait_node "
