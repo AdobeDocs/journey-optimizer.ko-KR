@@ -74,7 +74,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->Adobe Experience Platform 용어에 대한 포괄적인 용어집은 [Adobe Experience Platform 용어집](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html){target="_blank"}을 참조하세요.
+>Adobe Experience Platform 용어에 대한 포괄적인 용어집은 [Adobe Experience Platform 용어집](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=ko){target="_blank"}을 참조하세요.
 
 ## 관련 항목 {#related-topics}
 
