@@ -245,7 +245,7 @@ Send-Time Optimization은 내역 참여 데이터(열기 및 클릭 수)를 분�
 
 +++
 
-[사용 가능한 플레이북 모두 보기](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=ko){target="_blank"} | [Experience Platform 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
+[사용 가능한 플레이북 모두 보기](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=ko){target="_blank"} | [Experience Platform 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=ko){target="_blank"}
 
 ## 추가 AI 기능 {#additional-capabilities}
 
