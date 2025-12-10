@@ -5,9 +5,9 @@ title: 대상자 읽기 활동 사용
 description: 오케스트레이션된 캠페인에서 대상자 읽기 활동을 사용하는 방법을 알아봅니다
 exl-id: ef8eba57-cd33-4746-8eb4-5214ef9cbe2f
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 24d66f146ea3ed0e89a3b928b805bc53a70a8895
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '662'
 ht-degree: 11%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 11%
 
 1. 활동에 **[!UICONTROL 레이블]**&#x200B;을(를) 입력하십시오. 이 레이블은 대상자의 이름으로 사용됩니다.
 
-1. 오케스트레이션된 캠페인에 대해 타깃팅할 대상을 선택하려면 ![폴더 검색 아이콘](../assets/do-not-localize/folder-search.svg)을 클릭하세요.
+1. 오케스트레이션된 캠페인에 대해 타깃팅할 대상을 선택하려면 ![폴더 검색 아이콘](../assets/do-not-localize/folder-search.svg)을 클릭하세요. [Journey Optimizer에서 대상자를 생성하고 타깃팅하는 방법에 대해 자세히 알아보세요](../audience/about-audiences.md).
 
    ![](../assets/read-audience-2.png)
 

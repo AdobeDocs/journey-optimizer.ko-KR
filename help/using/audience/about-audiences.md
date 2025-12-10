@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: d87f33c80cc85b1d1a87150687f6d7c9a268a016
+source-git-commit: 24d66f146ea3ed0e89a3b928b805bc53a70a8895
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 19%
+source-wordcount: '584'
+ht-degree: 18%
 
 ---
 
@@ -38,7 +38,7 @@ Adobe Journey Optimizer은 대상을 만들고, 관리하고, 보강하여 마�
 
 이 설명서는 [!DNL Adobe Journey Optimizer] 내의 대상자를 사용하여 작업하는 방법에 대한 정보를 제공합니다. 대상자 포털 및 대상자에 대한 자세한 내용은 Adobe Experience Platform 세그멘테이션 서비스 설명서에서 확인할 수 있습니다. 자세한 내용은 다음 섹션을 참조하십시오.
 
-* [세그먼테이션 서비스 UI 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/overview){target="_blank"}
+* [세그먼테이션 서비스 UI 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/overview){target="_blank"}
 
 * [세분화 서비스 - 자주 묻는 질문](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/faq){target="_blank"}
 
@@ -73,6 +73,10 @@ Adobe Journey Optimizer은 대상을 만들고, 관리하고, 보강하여 마�
 * **대상 컴포지션**: 컴포지션 워크플로를 만들어 기존 대상을 시각적 캔버스로 결합하고 등급, 분할, 조인 등의 작업을 적용하여 새 대상을 만듭니다. [대상 구성을 사용하여 작업하는 방법을 알아봅니다](get-started-audience-orchestration.md)
 
 * **페더레이션 대상 구성**: 기존 데이터 웨어하우스에서 직접 데이터 세트를 페더레이션하여 하나의 시스템에 Adobe Experience Platform 대상 및 특성을 모두 빌드하고 보강합니다. [Federated Audience Composition을 사용하여 작업하는 방법을 알아봅니다](federated-audience-composition.md).
+
+## 여정 및 캠페인의 Target 대상 {#target-audiences}
+
+대상자가 준비되면 여정을 작성하거나 캠페인을 만들 때 대상자를 선택할 수 있으므로 적절한 시간에 적절한 사람에게 관련 메시지를 전달할 수 있습니다. [Journey Optimizer의 대상 활성화에 대해 자세히 알아보세요](target-audiences.md).
 
 ## 사용 방법 비디오 {#video}
 

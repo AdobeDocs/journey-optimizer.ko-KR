@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 디자인, 캔버스, 여정, 인터페이스, 드래그, 놓기
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 24d66f146ea3ed0e89a3b928b805bc53a70a8895
 workflow-type: tm+mt
-source-wordcount: '1739'
+source-wordcount: '1756'
 ht-degree: 5%
 
 ---
@@ -72,7 +72,7 @@ Adobe Journey Optimizer에는 마케팅 활동과 일대일 고객 참여를 조
 
 1. **이벤트로 시작**: 여정이 이벤트를 수신하도록 설정되면 개인은 실시간으로 여정 **일괄**&#x200B;을(를) 입력합니다. 여정에 포함된 메시지는 현재 여정에 유입되고 있는 사용자에게 전송됩니다. [이벤트에 대해 자세히 알아보기](../event/about-events.md)
 
-1. **대상 읽기로 시작**: Adobe Experience Platform 대상을 수신하도록 여정을 설정할 수 있습니다. 이 경우 지정된 대상에 속하는 모든 개인이 여정을 입력합니다. 여정에 포함된 메시지는 대상자에 속한 개인에게 전송됩니다. [대상자 읽기](read-audience.md)에 대해 자세히 알아보세요.
+1. **대상 읽기로 시작**: Adobe Experience Platform 대상을 수신하도록 여정을 설정할 수 있습니다. 이 경우 지정된 대상에 속하는 모든 개인이 여정을 입력합니다. 여정에 포함된 메시지는 대상자에 속한 개인에게 전송됩니다. [대상자 읽기](read-audience.md)에 대해 자세히 알아보세요. Journey Optimizer에서 대상자를 생성하고 타깃팅하는 방법에 대한 자세한 내용은 [이 섹션](../audience/about-audiences.md)을 참조하세요.
 
 ## 다음 단계 정의{#define-next-steps}
 
@@ -142,10 +142,10 @@ Adobe Journey Optimizer에는 마케팅 활동과 일대일 고객 참여를 조
 활동을 복사/붙여넣는 단계는 다음과 같습니다.
 
 1. 여정을 엽니다.
-1. 을(를) 클릭하는 동안 마우스를 이동하여 복사할 활동을 선택합니다. **Ctrl/Command** 키를 누른 채 각 활동을 클릭할 수도 있습니다. 모든 활동을 선택하려면 **Ctrl/Command+A**&#x200B;를 사용하십시오.
+1. 을(를) 클릭하는 동안 마우스를 이동하여 복사할 활동을 선택합니다. **Ctrl/Command** 키를 누른 채 각 활동을 클릭할 수도 있습니다. 모든 활동을 선택하려면 **Ctrl/Command+A**를 사용하십시오.
    ![복사할 여정에서 여러 활동 선택](assets/copy-paste1.png)
-1. **Ctrl/Command + C**&#x200B;을 누릅니다.
+1. **Ctrl/Command + C**을 누릅니다.
 한 개의 활동만 복사하려는 경우 해당 활동을 클릭하고 활동 구성 창의 왼쪽 상단에 있는 **복사** 아이콘을 사용할 수 있습니다.
    ![활동 구성 창의 복사 아이콘](assets/copy-paste2.png)
-1. 모든 여정에서 **Ctrl/Command+V**&#x200B;을 눌러 기존 노드에 연결하지 않고 활동을 붙여 넣습니다. 붙여넣은 활동은 동일한 순서로 배치됩니다. 붙여넣기 후에는 쉽게 이동할 수 있도록 활동이 선택된 상태로 유지됩니다. 빈 자리 표시자에 커서를 놓고 **Ctrl/Command + V**&#x200B;을 누를 수도 있습니다. 붙여넣은 활동은 노드에 연결됩니다.
+1. 모든 여정에서 **Ctrl/Command+V**&#x200B;을 눌러 기존 노드에 연결하지 않고 활동을 붙여 넣습니다. 붙여넣은 활동은 동일한 순서로 배치됩니다. 붙여넣기 후에는 쉽게 이동할 수 있도록 활동이 선택된 상태로 유지됩니다. 빈 자리 표시자에 커서를 놓고 **Ctrl/Command + V**을 누를 수도 있습니다. 붙여넣은 활동은 노드에 연결됩니다.
    ![여정 캔버스에 붙여 넣은 활동을 연결할 준비가 되었습니다](assets/copy-paste3.png)

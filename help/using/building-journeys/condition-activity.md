@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 활동, 조건, 캔버스, 여정
 exl-id: 02de069c-3009-4105-aa98-c49959d3efda
 version: Journey Orchestration
-source-git-commit: 486d742ea2b1e8e6eca9e434ff862da3d40fd7ec
+source-git-commit: 24d66f146ea3ed0e89a3b928b805bc53a70a8895
 workflow-type: tm+mt
-source-wordcount: '1773'
-ht-degree: 17%
+source-wordcount: '1804'
+ht-degree: 16%
 
 ---
 
@@ -38,11 +38,11 @@ ht-degree: 17%
 * [날짜 조건](#date_condition)
 * [프로필 상한](#profile_cap)
 
-여정 조건에서 대상을 사용할 수도 있습니다. [자세히 알아보기](#using-a-segment)
+여정 조건에서 대상을 사용할 수도 있습니다. [자세히 알아보기](#using-a-segment) 대상자를 생성하고 타깃팅하는 방법에 대한 자세한 내용은 [이 섹션](../audience/about-audiences.md)을 참조하세요.
 
 >[!NOTE]
 >
->[프로필 저장소](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko#profile-data-store){target="_blank"}에 두 개 이상의 교차 장치 ID가 포함된 프로필에 대해서는 조건 평가가 실패합니다.
+>[프로필 저장소](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}에 두 개 이상의 교차 장치 ID가 포함된 프로필에 대해서는 조건 평가가 실패합니다.
 
 ## 조건 경로 추가 및 관리 {#about_condition}
 
@@ -72,7 +72,7 @@ ht-degree: 17%
 
 ![필드 선택 및 논리 연산자 AND를 표시하는 식 편집기](assets/journey64.png)
 
-[Adobe Experience Platform 세분화 서비스](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ko){target="_blank"}를 사용하여 대상을 만드는 경우 여정 조건에서 이를 활용할 수 있습니다. [조건에서 대상 사용](../building-journeys/condition-activity.md#using-a-segment)을 참조하세요.
+[Adobe Experience Platform 세분화 서비스](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ko){target="_blank"}를 사용하여 대상을 만드는 경우 여정 조건에서 이를 활용할 수 있습니다. [조건에서 대상 사용](../building-journeys/condition-activity.md#using-a-segment)을 참조하세요. Journey Optimizer에서 대상자를 생성하고 타깃팅하는 방법에 대한 자세한 내용은 [이 섹션](../audience/about-audiences.md)을 참조하세요.
 
 
 >[!NOTE]
@@ -188,4 +188,4 @@ ht-degree: 17%
 
    >[!NOTE]
    >
-   >대상자 참여 상태가 **실현됨**&#x200B;인 개인만 대상자의 구성원으로 간주됩니다. 대상자를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ko#interpret-segment-results){target="_blank"}를 참조하세요.
+   >대상자 참여 상태가 **실현됨**&#x200B;인 개인만 대상자의 구성원으로 간주됩니다. 대상자를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}를 참조하세요.
