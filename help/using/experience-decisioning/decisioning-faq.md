@@ -6,11 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 version: Journey Orchestration
-hide: true
-hidefromtoc: true
-source-git-commit: 54ed4dec71703a0444920baf4fb0a2d8318034cd
+source-git-commit: 74f8db8f71cbf51260868a93702a563b3c0d4a2d
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
@@ -65,8 +63,8 @@ ht-degree: 0%
 
 AI 모델은 다음 교육 주기에서 새로 제공되는 오퍼를 식별하고 테스트를 시작합니다.
 
-* **자동 최적화**: 매일
-* **개인화된 최적화**: 매주
+* **자동 최적화**&#x200B;은(는) 다음 교육 주기에서 새 오퍼를 식별하고 테스트를 시작합니다. 자동 최적화 교육은 매일 3~4회, 약 6시간마다 실시됩니다.
+* **개인화된 최적화**&#x200B;은(는) 오퍼 전략에 추가될 때 새 오퍼를 식별하고 테스트를 시작합니다. 그것들은 무작위 탐사 교통에 포함될 것이다. 그런 다음 이러한 오퍼는 모델의 다음 교육 주기에서 개인화되며 매주 발생합니다.
 
 두 모델이 식별되면 성능을 테스트하고 효과에 대한 데이터를 수집하기 위해 일부 방문자에게 새 오퍼를 즉시 제공하기 시작합니다.
 
