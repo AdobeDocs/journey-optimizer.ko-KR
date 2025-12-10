@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 채널, 표면, 기술, 매개변수, optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
+source-git-commit: 29d99fd55fd31d5c4f6e86fabed2b45c0636a7b8
 workflow-type: tm+mt
-source-wordcount: '1804'
+source-wordcount: '1853'
 ht-degree: 12%
 
 ---
@@ -252,11 +252,17 @@ ht-degree: 12%
 
 ## 채널 구성 비활성화 {#deactivate-a-surface}
 
-새 메시지를 만드는 데 **[!UICONTROL 활성]** 채널 구성을 사용할 수 없게 하려면 비활성화하면 됩니다. 그러나 현재 이 구성을 사용하는 여정 메시지는 영향을 받지 않으며 계속 작동합니다.
+새 메시지를 만드는 데 **[!UICONTROL 활성]** 채널 구성을 사용할 수 없게 하려면 비활성화하면 됩니다. <!--However, journeys' messages currently using this configuration will not be affected and will continue working.-->
 
->[!NOTE]
->
->업데이트를 처리하는 동안에는 채널 구성을 비활성화할 수 없습니다. 업데이트가 성공하거나 실패할 때까지 기다려야 합니다. [채널 구성 편집](#edit-channel-surface) 및 [업데이트 상태](#update-statuses)에 대해 자세히 알아보세요.
+다음과 같은 경우에는 채널 구성을 비활성화할 수 없습니다.
+
+* 임의의 라이브 여정에서 참조되는 경우. 라이브 여정에서 사용 중인 구성을 비활성화하려고 하면 오류가 발생합니다.
+
+  채널 구성을 비활성화하려면 이 구성을 사용하는 모든 라이브 여정이 닫히거나 중지되었는지 확인하십시오. [여정 종료에 대해 알아보기](../building-journeys/end-journey.md)
+
+* 채널 구성에 대한 업데이트를 처리하는 동안. 업데이트가 성공하거나 실패할 때까지 기다려야 합니다. [채널 구성 편집](#edit-channel-surface) 및 [업데이트 상태](#update-statuses)에 대해 자세히 알아보세요.
+
+채널 구성을 비활성화하려면 아래 단계를 따르십시오.
 
 1. 채널 구성 목록에 액세스합니다.
 
