@@ -1,13 +1,13 @@
 ---
 title: 선택 전략 업데이트
 description: 선택 전략은 오퍼를 결정하기 위한 제약 조건 및 등급 방법과 연관된 컬렉션으로 구성됩니다.
-feature: Decision Management, API, Collections
+feature: API, Collections, Decisioning
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 060f8c5f-4750-44dc-83aa-630afbc180eb
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 7%

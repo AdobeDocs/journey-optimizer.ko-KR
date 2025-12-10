@@ -1,13 +1,13 @@
 ---
 title: 결정 항목 삭제
 description: 의사 결정 항목은 만들고 컬렉션 및 카탈로그로 구성할 수 있는 마케팅 오퍼입니다.
-feature: Decision Management, API, Collections
+feature: API, Collections, Decisioning
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 0fd608e0-df71-4e2d-8304-d7d5561c7c7a
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 4%

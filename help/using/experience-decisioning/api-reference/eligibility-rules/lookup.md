@@ -1,13 +1,13 @@
 ---
 title: 자격 규칙 조회
 description: 자격 규칙을 사용하면 프로필 속성 및 대상과 같이 타깃팅하려는 항목을 기반으로 적격 후보를 정의할 수 있습니다.
-feature: Decision Management, API, Collections
+feature: API, Collections, Decisioning
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: a74f4c87-0b89-4583-97f5-df8e2a30a19b
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 5%
