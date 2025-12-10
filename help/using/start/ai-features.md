@@ -7,16 +7,16 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 4847276532155a698cf997e22a0894c737208595
+source-git-commit: b48a8fa89605ac18c6db85751bf71d2ccec08f63
 workflow-type: tm+mt
-source-wordcount: '1479'
+source-wordcount: '1469'
 ht-degree: 4%
 
 ---
 
 # AI 및 지능형 기능 {#ai-features}
 
-Adobe Journey Optimizer은 인공 지능과 머신 러닝의 기능을 활용하여 탁월한 고객 경험을 만들고, 최적화하고, 제공할 수 있도록 지원합니다. AI 기능은 개인화된 콘텐츠 생성에서 최적의 전송 시간 예측에 이르기까지 워크플로를 간소화하고 효과를 극대화합니다.
+Adobe Journey Optimizer은 인공 지능과 머신 러닝의 기능을 활용하여 탁월한 고객 경험을 만들고, 최적화하고, 제공할 수 있도록 지원합니다. AI 기능은 개인화된 콘텐츠 생성에서 최적의 전송 시간 예측에 이르기까지 워크플로를 간소화하고 효과를 극대화합니다. 사용 사례 플레이북은 일반적인 마케팅 시나리오를 빠르게 구현하기 위해 사전 빌드된 템플릿을 제공합니다.
 
 ## AI 어시스턴트 {#ai-assistant}
 
@@ -136,10 +136,6 @@ AI Assistant의 대화 기능을 기반으로 하는 Adobe Journey Optimizer은 
 
 **Agent Orchestrator** - 여러 전문 에이전트를 조정하여 복잡하고 여러 단계로 진행되는 마케팅 문제를 해결합니다. Orchestrator는 어떤 에이전트를 포함할 것인지 자동으로 결정하고 작업의 순서를 효율적으로 지정합니다. [Agent Orchestrator에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}
 
-**액세스:**
-
-AI 에이전트는 AI Assistant 액세스 권한이 있는 고객이 사용할 수 있습니다. 특정 라이선스 및 지원에 대한 자세한 내용은 Adobe 담당자에게 문의하십시오.
-
 ## AI 기반 콘텐츠 생성 {#content-generation}
 
 생성 AI를 사용하여 여러 채널에서 콘텐츠를 만들고 개인화하여 콘텐츠 생성 프로세스를 가속화하면서 브랜드 일관성을 유지할 수 있습니다. 콘텐츠 생성을 위한 AI 도우미는 [이메일](../email/get-started-email.md), [푸시 알림](../push/get-started-push.md), [SMS](../sms/get-started-sms.md) 및 [웹](../web/get-started-web.md) 경험에 사용할 수 있습니다. 이를 통해 제목란, 본문, 이미지 및 전체 메시지 변형을 생성할 수 있습니다.
@@ -245,7 +241,7 @@ Send-Time Optimization은 내역 참여 데이터(열기 및 클릭 수)를 분�
 
 +++
 
-[사용 가능한 플레이북 모두 보기](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=ko){target="_blank"} | [Experience Platform 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=ko){target="_blank"}
+[사용 가능한 플레이북 모두 보기](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=ko){target="_blank"} | [Experience Platform 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
 
 ## 추가 AI 기능 {#additional-capabilities}
 
