@@ -253,7 +253,7 @@ Send-Time Optimization은 내역 참여 데이터(열기 및 클릭 수)를 분�
 
 ![사용 사례 플레이북 인터페이스](assets/playbooks-filter.png)
 
-[사용 가능한 플레이북 모두 보기](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=ko){target="_blank"} | [Experience Platform 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
+[사용 가능한 플레이북 모두 보기](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=ko){target="_blank"} | [Experience Platform 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=ko){target="_blank"}
 
 ## 추가 AI 기능 {#additional-capabilities}
 
@@ -312,5 +312,5 @@ AI 기반 전환 기술을 사용하여 정적 이미지 디자인(JPEG, PNG)을
 >* [실험 에이전트 설명서](https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}
 >* [전송 시간 최적화 안내서](../building-journeys/send-time-optimization.md)
 >* [AI 등급 모델 만들기](../experience-decisioning/ranking/create-ai-models.md)
->* [사용 사례 플레이북 설명서](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
+>* [사용 사례 플레이북 설명서](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=ko){target="_blank"}
 
