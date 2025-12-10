@@ -6,10 +6,10 @@ description: Adobe Journey Optimizer의 필수 용어 및 개념
 feature: Get Started
 role: Admin, Developer, User
 level: Beginner
-source-git-commit: 965bb76529f500d6fa4d89fa1d56979afe9d5bb0
+source-git-commit: 4ae9e908d259dbd266417242cf9e65d693227061
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 8%
+source-wordcount: '751'
+ht-degree: 9%
 
 ---
 
@@ -25,8 +25,8 @@ ht-degree: 8%
 
 | 용어 | 정의 |
 |------|------------|
-| **Adobe Journey Optimizer(AJO)** | 여러 채널(이메일, SMS, 푸시 알림, 웹)에서 고객에게 개인화된 메시지를 만들고 게재하기 위한 애플리케이션입니다. 실시간 고객 행동에 대응하는 고객 여정을 디자인할 수 있습니다. |
-| **Adobe Experience Platform(AEP)** | 모든 고객 데이터를 한 곳에서 수집하고 구성하는 Adobe Journey Optimizer의 기반. Journey Optimizer이 개인화에 사용하는 통합 고객 프로필을 만듭니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ko){target="_blank"} |
+| **Adobe Journey Optimizer** | 여러 채널(이메일, SMS, 푸시 알림, 웹)에서 고객에게 개인화된 메시지를 만들고 게재하기 위한 애플리케이션입니다. 실시간 고객 행동에 대응하는 고객 여정을 디자인할 수 있습니다. |
+| **Adobe Experience Platform** | 모든 고객 데이터를 한 곳에서 수집하고 구성하는 Adobe Journey Optimizer의 기반. Journey Optimizer이 개인화에 사용하는 통합 고객 프로필을 만듭니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ko){target="_blank"} |
 | **실시간 고객 프로필** | 온라인, 오프라인, CRM 및 서드파티 데이터를 비롯한 여러 채널의 데이터를 결합하는 각 고객에 대한 통합된 실시간 보기입니다. 고객이 브랜드와 상호 작용할 때 각 프로필은 동적으로 업데이트됩니다. [자세히 알아보기](../audience/get-started-profiles.md) |
 | **샌드박스** | 라이브 고객 커뮤니케이션에 영향을 주지 않고 테스트 및 실험을 위한 별도의 작업 영역입니다. Adobe Journey Optimizer은 개발, 테스트 및 프로덕션 환경을 위한 여러 샌드박스를 제공합니다. [자세히 알아보기](../administration/sandboxes.md) |
 
@@ -74,7 +74,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->Adobe Experience Platform 용어에 대한 포괄적인 용어집은 [Adobe Experience Platform 용어집](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=ko){target="_blank"}을 참조하세요.
+>Adobe Experience Platform 용어에 대한 포괄적인 용어집은 [Adobe Experience Platform 용어집](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html){target="_blank"}을 참조하세요.
 
 ## 관련 항목 {#related-topics}
 

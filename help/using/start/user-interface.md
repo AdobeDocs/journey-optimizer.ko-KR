@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: c936f42c8b5d96bd5a7e0ccb36ecdb0d9b2e9957
+source-git-commit: 4ae9e908d259dbd266417242cf9e65d693227061
 workflow-type: tm+mt
-source-wordcount: '1096'
-ht-degree: 33%
+source-wordcount: '1103'
+ht-degree: 34%
 
 ---
 
@@ -44,51 +44,49 @@ Journey Optimizer 인터페이스는 다음 네 가지 기본 영역으로 구�
 **홈** - 최근에 만든 항목 및 유용한 리소스에 대한 빠른 액세스가 포함된 시작 지점
 
 **여정 관리** - 고객 경험 만들기 및 관리
-* **캠페인** - 특정 대상에 일회성 또는 예약된 메시지를 만듭니다.
-* **여정** - 여러 단계로 구성된 크로스 채널 고객 경험 구축
-* **보고서** - 통합 Customer Journey Analytics 보고로 성능 분석
+* **캠페인** - 특정 대상에 일회성 또는 예약된 메시지를 만듭니다. [캠페인 시작](../campaigns/get-started-with-campaigns.md)
+* **여정** - 여러 단계로 구성된 크로스 채널 고객 경험을 빌드합니다. [여정 처음 만들어 보기](../building-journeys/journey-gs.md)
+* **보고서** - 통합된 Customer Journey Analytics 보고로 성능을 분석합니다. [보고 설명서 보기](../reports/campaign-global-report.md)
 
-**의사 결정 관리** - 개인화된 오퍼 관리
+**의사 결정 관리** - 개인화된 오퍼를 관리합니다. [의사 결정 관리에 대해 알아보기](../offers/get-started/starting-offer-decisioning.md)
 * **오퍼** - 개인화된 오퍼 만들기 및 관리
 * **구성 요소** - 오퍼에 대한 배치, 규칙 및 태그를 설정합니다.
 
 **콘텐츠 관리** - 콘텐츠 만들기 및 구성
-* **Assets** - 이미지 및 미디어에 대한 중앙 집중식 리포지토리
-* **콘텐츠 템플릿** - 캠페인 및 여정을 위한 재사용 가능한 메시지 템플릿
-* **조각** - 여러 메시지에서 사용할 수 있는 콘텐츠 블록
-* **랜딩 페이지** - 구독 및 환경 설정에 대한 웹 양식
+* **Assets** - 이미지 및 미디어에 대한 중앙 집중식 리포지토리입니다. [자산 관리](../content-management/assets.md)
+* **콘텐츠 템플릿** - 캠페인 및 여정을 위한 재사용 가능한 메시지 템플릿. [템플릿 만들기](../content-management/content-templates.md)
+* **조각** - 여러 메시지에서 사용할 수 있는 콘텐츠 블록 [조각을 사용하여 작업](../content-management/fragments.md)
+* **랜딩 페이지** - 구독 및 환경 설정에 대한 웹 양식입니다. [랜딩 페이지 디자인](../landing-pages/get-started-lp.md)
 
-**데이터 관리** - 데이터 기반 관리
+**데이터 관리** - 데이터 기반을 관리합니다. [스키마 및 데이터 세트에 대해 알아보기](../data/get-started-schemas.md)
 * **스키마** - 데이터 구조 정의
 * **데이터 세트** - 데이터 컬렉션 저장 및 관리
 * **쿼리** - 쿼리 쓰기 및 실행
 * **모니터링** - 데이터 수집 추적
 
 **연결** - 다른 시스템과 통합
-* **소스** - 외부 시스템에서 데이터 수집
-* **대상** - 클라우드 저장소로 데이터 내보내기
+* **소스** - 외부 시스템에서 데이터를 수집합니다. [소스 구성](../data/get-started-sources.md)
+* **대상** - 데이터를 클라우드 저장소로 내보냅니다. [대상 설정](../data/export-datasets.md)
 
 **고객** - 대상자 및 프로필 관리
-* **대상** - 고객 세그먼트 만들기 및 관리
-* **구독 목록** - 옵트인 목록 관리
-* **프로필** - 통합 고객 프로필 보기
-* **ID** - ID 확인 관리
+* **대상** - 고객 세그먼트를 만들고 관리합니다. [대상자를 사용하여 작업](../audience/about-audiences.md)
+* **구독 목록** - 옵트인 목록 관리. [구독 관리](../landing-pages/subscription-list.md)
+* **프로필** - 통합 고객 프로필을 봅니다. [프로필 탐색](../audience/get-started-profiles.md)
+* **ID** - ID 확인을 관리합니다. [ID에 대해 알아보기](../audience/get-started-identity.md)
 
-**개인 정보** - 개인 정보 및 규정 준수 제어
+**개인 정보** - 개인 정보 및 규정 준수 제어. [개인정보 보호 개요](../privacy/get-started-privacy.md)
 * **정책** - 데이터 거버넌스 정책 정의
 * **요청** - 개인 정보 보호 요청 처리(GDPR, CCPA)
-* **감사** - 활동 로그 검토
+* **감사** - 활동 로그를 검토합니다. [감사 로그 보기](../privacy/audit-logs.md)
 * **데이터 수명 주기** - 데이터 보존 구성
 
-**관리** - 시스템 설정 구성
-* **구성** - 이벤트, 데이터 소스 및 작업 설정
-* **비즈니스 규칙** - 메시지 빈도 및 여정 항목 제어
-* **경고** - 시스템 경고 보기 및 관리
-* **샌드박스** - 환경을 관리하고 샌드박스 간에 개체를 복사합니다.
+**관리** - 시스템 설정을 구성합니다. [액세스 제어 개요](../administration/permissions-overview.md)
+* **구성** - 이벤트, 데이터 원본 및 작업을 설정합니다. [채널 구성](../configuration/get-started-configuration.md)
+* **비즈니스 규칙** - 메시지 빈도 및 여정 항목을 제어합니다. [비즈니스 규칙 설정](../configuration/frequency-rules.md)
+* **경고** - 시스템 경고를 보고 관리합니다. [경고 모니터링](../reports/alerts.md)
+* **샌드박스** - 환경을 관리하고 샌드박스 간에 개체를 복사합니다. [샌드박스를 사용하여 작업](../administration/sandboxes.md)
 * **채널** - 채널 설정 및 게재 기능 구성
 * **태그** - 콘텐츠 구성 및 분류
-
-[세부 기능 설명서에서 각 기능에 대해 자세히 알아보십시오](#feature-links)
 
 ## 상단 막대 기능 {#top-bar}
 
@@ -159,20 +157,6 @@ AI Assistant는 즉각적인 도움말과 운영 통찰력을 제공합니다. �
 * 개념 및 모범 사례 탐색
 
 [AI Assistant에 대해 자세히 알아보기](ai-features.md#ai-assistant)
-
-## 자세한 기능 링크 {#feature-links}
-
-각 기능에 대한 포괄적인 설명서:
-
-* **여정** - [첫 번째 여정 만들기](../building-journeys/journey-gs.md)
-* **캠페인** - [캠페인 시작](../campaigns/get-started-with-campaigns.md)
-* **오퍼 및 의사 결정** - [의사 결정 관리](../offers/get-started/starting-offer-decisioning.md)
-* **콘텐츠 만들기** - [전자 메일 디자인](../email/get-started-email-design.md)
-* **대상자** - [대상자 관리](../audience/about-audiences.md)
-* **채널 구성** - [채널 설정](../configuration/get-started-configuration.md)
-* **데이터 관리** - [스키마 작업](../data/get-started-schemas.md)
-* **개인 정보 보호 및 거버넌스** - [개인 정보 보호 개요](../privacy/get-started-privacy.md)
-* **관리** - [액세스 제어](../administration/permissions-overview.md)
 
 ## 관련 항목 {#related-topics}
 

@@ -8,14 +8,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
-source-git-commit: 452a0a3a08a7b90d0e3a5b78b2e16f532f04ef1a
-workflow-type: ht
-source-wordcount: '577'
-ht-degree: 100%
+source-git-commit: 26f9228bacee5865cbc368cf2e3db02370d43a4b
+workflow-type: tm+mt
+source-wordcount: '641'
+ht-degree: 90%
 
 ---
 
 # 검색, 필터, 정리 {#search-filter-organize}
+
+Adobe Journey Optimizer 프로젝트가 확장되면 효율적인 작업을 위해 콘텐츠를 찾고 구성하는 것이 필수적입니다. 이 페이지에서는 범용 검색을 사용하여 여정, 캠페인 및 에셋을 빠르게 찾고, 목록을 필터링하여 특정 항목에 집중하고, 태그 및 범주로 작업을 구성하는 방법을 보여 줍니다. 이러한 도구를 사용하면 대량의 콘텐츠를 탐색하고 팀 간의 일관성을 유지하며 일상적인 워크플로우를 간소화할 수 있습니다.
 
 ## 검색 {#unified-search}
 
