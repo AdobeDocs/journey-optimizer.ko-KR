@@ -15,7 +15,7 @@ ht-degree: 2%
 
 >[!BEGINSHADEBOX]
 
-이 사용 사례는 Experience Platform에 이미 존재하는 대상, 특히 발생한 검색 활동을 수집하는 실시간 웹 비헤이비어 대상으로 시작됩니다. [Adobe Experience Platform에서 자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
+이 사용 사례는 Experience Platform에 이미 존재하는 대상, 특히 발생한 검색 활동을 수집하는 실시간 웹 비헤이비어 대상으로 시작됩니다. [Adobe Experience Platform에서 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
 
 **이 사용 사례에 필요한 스키마:**
 
