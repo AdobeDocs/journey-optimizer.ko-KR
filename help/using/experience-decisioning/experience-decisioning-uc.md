@@ -1,13 +1,13 @@
 ---
 title: 결정 사용 사례
 description: 코드 기반 경험 채널을 사용하여 의사 결정을 만들고 콘텐츠 실험에 사용하는 방법을 알아봅니다
-feature: Decisioning
+feature: Decisioning, Use Cases
 topic: Integrations
 role: User
 level: Intermediate, Experienced
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
 version: Journey Orchestration
-source-git-commit: 17c8bc8b37c4bdf7c93735e152eedf7e0bbaf62a
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
 workflow-type: tm+mt
 source-wordcount: '858'
 ht-degree: 4%

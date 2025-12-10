@@ -3,14 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 여정 게시
 description: 여정에 대해 보고하는 방법 알아보기
-feature: Journeys
+feature: Journeys, Monitoring
 topic: Content Management
 role: User
 level: Intermediate
 keywords: 게시, 여정, 라이브, 유효성, 확인
 exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
 version: Journey Orchestration
-source-git-commit: 6961a07e2874f9beb76a9beaebb29997d114d8e7
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
 workflow-type: tm+mt
 source-wordcount: '567'
 ht-degree: 1%

@@ -5,10 +5,10 @@ title: Adobe Journey Optimizer 설명서
 description: Adobe Journey Optimizer 설명서
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: b26606d1ba0d0d43d69b5e6fd2ae86c49dceebe9
-workflow-type: ht
-source-wordcount: '506'
-ht-degree: 100%
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+workflow-type: tm+mt
+source-wordcount: '502'
+ht-degree: 98%
 
 ---
 
@@ -22,9 +22,9 @@ Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보세�
 
 >[!BEGINTABS]
 
->[!TAB 25년 10월 릴리스]
+>[!TAB 최신 업데이트]
 
-Journey Optimizer 10월 릴리스가 공개되었습니다! 릴리스 정보에서 이번 달에 릴리스된 새로운 기능과 개선 사항을 살펴볼 수 있습니다.
+Journey Optimizer 10월 릴리스가 공개되었습니다! 릴리스 정보에서 최신 기능 및 개선 사항을 알아봅니다.
 
 [![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
@@ -49,7 +49,7 @@ Journey Optimizer 10월 릴리스가 공개되었습니다! 릴리스 정보에�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 최신 릴리스 정보
 
@@ -59,7 +59,7 @@ Adobe Journey Optimizer의 최신 릴리스 정보, 신규 기능, 개선 사항
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 시작
 
@@ -69,7 +69,7 @@ Journey Optimizer의 기능, 아키텍처, 사용자 인터페이스 등 기본 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 여정 종합 안내서
 
@@ -79,7 +79,7 @@ Journey Optimizer의 기능, 아키텍처, 사용자 인터페이스 등 기본 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 캠페인 이해 및 관리
 
@@ -89,7 +89,7 @@ Journey Optimizer의 기능, 아키텍처, 사용자 인터페이스 등 기본 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 커뮤니케이션 채널
 
@@ -99,7 +99,7 @@ Journey Optimizer의 기능, 아키텍처, 사용자 인터페이스 등 기본 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 충돌 관리 및 우선순위 지정
 

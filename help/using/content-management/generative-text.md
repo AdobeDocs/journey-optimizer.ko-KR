@@ -4,10 +4,10 @@ product: journey optimizer
 title: AI Assistant를 사용하여 텍스트 생성
 description: Journey Optimizer에서 AI Assistant를 사용하여 텍스트 콘텐츠를 생성하는 방법을 알아봅니다.
 feature: Content Assistant
-topic: Content Management
+topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
-source-git-commit: b70911f1f1fa00154729b5b88517233b67a377cb
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
 workflow-type: tm+mt
 source-wordcount: '1605'
 ht-degree: 2%

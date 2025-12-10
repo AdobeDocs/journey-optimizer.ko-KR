@@ -3,13 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 'Journey Optimizer 가드레일 및 제한 사항 '
 description: Journey Optimizer 가드레일에 대해 자세히 알아보기
-feature: Journeys
-topic: Content Management
+feature: Guardrails
 role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: c30a74ccdaec81cbbb28e3129d5c351a0fe64bfc
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
 workflow-type: tm+mt
 source-wordcount: '3575'
 ht-degree: 92%

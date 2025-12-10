@@ -4,12 +4,12 @@ product: journey optimizer
 title: 이미지를 HTML 변환기로 변환하여 HTML 템플릿으로 변환
 description: AI 기반 이미지를 HTML으로 변환하여 이미지 디자인을 편집 가능한 HTML 이메일 템플릿으로 변환하는 방법에 대해 알아봅니다
 feature: Email Design
-topic: Content Management
+topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 badge: label="제한된 가용성" type="Informative"
 keywords: 이메일, 템플릿, 이미지, HTML, AI, 디자인, 변환기
-source-git-commit: 7176f5a1fa4c1b6c564fdb5d65f4e9208a1dce30
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
 workflow-type: tm+mt
 source-wordcount: '1769'
 ht-degree: 3%
@@ -17,8 +17,6 @@ ht-degree: 3%
 ---
 
 # 이미지를 HTML 변환기로 변환하여 HTML 템플릿으로 변환 {#image-to-html}
-
-
 
 ## 개요 {#overview}
 

@@ -3,8 +3,9 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 활동을 탐색하여 고객 참여
 description: 활동을 탐색하여 고객 참여
+feature: Use Cases
 version: Campaign Orchestration
-source-git-commit: 51c8c9282cb6eb9cdbd310d8f263d7973f28bbf0
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 2%
@@ -15,7 +16,7 @@ ht-degree: 2%
 
 >[!BEGINSHADEBOX]
 
-이 사용 사례는 Experience Platform에 이미 존재하는 대상, 특히 발생한 검색 활동을 수집하는 실시간 웹 비헤이비어 대상으로 시작됩니다. [Adobe Experience Platform에서 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
+이 사용 사례는 Experience Platform에 이미 존재하는 대상, 특히 발생한 검색 활동을 수집하는 실시간 웹 비헤이비어 대상으로 시작됩니다. [Adobe Experience Platform에서 자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
 
 **이 사용 사례에 필요한 스키마:**
 

@@ -4,11 +4,11 @@ product: journey optimizer
 title: Journey Optimizer의 AI 어시스턴트 시작
 description: Journey Optimizer의 AI 어시스턴트에 액세스하고 작업하는 방법을 알아봅니다.
 feature: Content Assistant
-topic: Content Management
+topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
 workflow-type: tm+mt
 source-wordcount: '866'
 ht-degree: 97%
@@ -114,7 +114,7 @@ Adobe Journey Optimizer에서 이메일 생성을 위해 AI 어시스턴트를 �
 * Adobe Journey Optimizer의 AI 어시스턴트를 사용하여 이메일 콘텐츠를 만들 때 브랜드별 또는 사용자 정의 템플릿을 사용할 수 있습니다. 최대 8~10개의 이미지가 포함된 이메일 템플릿을 권장합니다.
 * 변형을 선택할 때 엄지손가락 위로, 엄지손가락 아래로 또는 플래그 아이콘을 사용하여 문제가 있는 출력을 보고하십시오.
 * AI 어시스턴트 사용 시 Adobe Experience Cloud 생성형 AI 사용자 지침이 적용됩니다. [자세히 알아보기](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
-* 미디어 제작에서 생성형 AI 도구 사용의 투명성을 증진하기 위한 Adobe의 약속의 일부로, Adobe는 Firefly 생성 자산이 포함된 콘텐츠 또는 프로젝트를 다운로드하거나 내보낼 때 Content Credentials를 적용합니다. [자세히 알아보기](https://helpx.adobe.com/kr/firefly/using/content-credentials.html)
+* 미디어 제작에서 생성형 AI 도구 사용의 투명성을 증진하기 위한 Adobe의 약속의 일부로, Adobe는 Firefly 생성 자산이 포함된 콘텐츠 또는 프로젝트를 다운로드하거나 내보낼 때 Content Credentials를 적용합니다. [자세히 알아보기](https://helpx.adobe.com/firefly/using/content-credentials.html)
 
 Adobe Journey Optimizer의 AI 어시스턴트에는 다음 제한 사항이 적용됩니다.
 
