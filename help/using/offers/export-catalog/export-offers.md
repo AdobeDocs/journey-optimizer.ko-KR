@@ -10,9 +10,9 @@ role: User, Developer
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 47f4ab608df3439c01ca962232a956016a1f8667
 workflow-type: tm+mt
-source-wordcount: '1983'
+source-wordcount: '1934'
 ht-degree: 0%
 
 ---
@@ -83,8 +83,7 @@ ht-degree: 0%
 
 **필드:** 특성
 **제목:** 결정 옵션 특성
-**설명:** 특성은 특정 결정 옵션에 속하는 오퍼의 추가 특성 또는 속성입니다. 이러한 속성은 키 값 쌍으로, 값이 연결된 속성 이름(키라고도 함)을 포함하며, 하나의 의사 결정 옵션을 다른 오퍼와 구별하는 데 사용됩니다. 예를 들어 속성 이름 &quot;color&quot;의 경우 값은 특정 오퍼의 경우 &quot;green&quot;일 수 있습니다.
-특성은 이 의사 결정 옵션을 나타내는 콘텐츠의 값 및 오퍼의 성능을 분석하고 최적화하는 기능으로 사용됩니다. 모든 인스턴스에 동일한 속성 또는 속성이 있는 경우 해당 측면을 의사 결정 옵션 세부 사항에서 파생되는 확장 스키마로 모델링해야 합니다.
+**설명:** 특성은 특정 결정 옵션에 속하는 오퍼의 추가 특성 또는 속성입니다. 이러한 속성은 키 값 쌍으로, 값이 연결된 속성 이름(키라고도 함)을 포함하며, 하나의 의사 결정 옵션을 다른 오퍼와 구별하는 데 사용됩니다. 예를 들어 속성 이름 &quot;color&quot;의 경우 값은 특정 오퍼의 경우 &quot;green&quot;일 수 있습니다.<!--Characteristics are used as values in content that represents this decision option and as features to analyze and optimize the performance of an offer. When every instance has the same attribute or property, that aspect should be modeled as an extension schema that derives from the decision option detail.-->
 **유형:** 개체
 
 +++
@@ -183,7 +182,7 @@ ht-degree: 0%
   **필드:** linkURL
   **설명:** 사용자 상호 작용을 위한 선택적 고유 리소스 로케이터입니다. 이 URL은 사용자 에이전트에서 최종 사용자를에 연결하는 데 사용되며 추적할 수 있습니다.
   **유형:** 문자열
-  **예:** &quot;https://cdn.adobe.io/tracker?code=23432&redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
+  **예:** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 +++_experience > 의사 결정 > 컨텐츠 > 배치
 

@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: IP, 전달성
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
-source-git-commit: 5e0d683bf52df4992773c6147b9e418241777e5d
+source-git-commit: fd9ae1f554357a0379e4c93b91f1d475c99d8ac3
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 73%
+source-wordcount: '322'
+ht-degree: 56%
 
 ---
 
@@ -52,8 +52,18 @@ IP 준비 계획을 구현하는 주요 단계는 다음과 같습니다.
 
 IP 준비 계획을 만들고 실행하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453847/?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3432637/?learn=on)
 
 >[!NOTE]
 >
 >[게재 가능성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=ko)에서 IP warming으로 전자 메일 평판을 높이는 방법에 대해 자세히 알아보세요.
+
+## 추가 리소스 {#additional-resources}
+
+IP 웜업에 대한 보다 심층적인 지침을 얻으려면 다음과 같은 유용한 블로그 게시물을 살펴보십시오.
+
+* [IP 준비 설정 방법 이해](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warmup-understanding-how-to-set-up-the-ip-warmup/ba-p/761949) - 성공적인 구현을 위한 IP 준비 계획 및 모범 사례 설정의 기본 사항에 대해 알아봅니다.
+
+* [IP 준비 계획의 고급 기능](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-features-in-ajo-ip-warm-up-plans-granular-controls-for/ba-p/761958) - IP 준비 전략을 최적화하기 위한 고급 기능과 세분화된 제어 기능을 살펴보십시오.
+
+* [IP 준비 문제 해결](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warm-up-troubleshooting-audience-delays-and-smart-retry/ba-p/761952) - 대상 지연과 같은 일반적인 문제에 대한 해결 방법을 찾고 스마트 다시 시도 메커니즘에 대해 알아봅니다.
