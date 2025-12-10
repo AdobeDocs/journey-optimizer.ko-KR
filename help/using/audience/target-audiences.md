@@ -63,6 +63,6 @@ ht-degree: 14%
 
 대상자 포털에서 만든 대상자만 [!DNL Journey Optimizer]개의 여정 및 캠페인에서 직접 타기팅할 수 있습니다. [사용 가능한 대상 유형에 대해 자세히 알아보세요](../audience/about-audiences.md#types).
 
-Customer Journey Analytics 대상과 같이 지원되지 않는 대상의 프로필을 타겟팅해야 하는 경우 대상 포털에서 새 세그먼트 정의로 래핑해야 합니다. 세그먼트 정의에 대상을 추가하는 방법에 대한 자세한 내용은 [세그먼트 빌더 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#adding-audiences){target="_blank"}를 참조하세요.
+Customer Journey Analytics 대상과 같이 지원되지 않는 대상의 프로필을 타겟팅해야 하는 경우 대상 포털에서 새 세그먼트 정의로 래핑해야 합니다. 세그먼트 정의에 대상을 추가하는 방법에 대한 자세한 내용은 [세그먼트 빌더 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/segment-builder#adding-audiences){target="_blank"}를 참조하세요.
 
 세분화 평가가 완료될 때까지 기다린 후 여정 및 캠페인에서 사용합니다.
