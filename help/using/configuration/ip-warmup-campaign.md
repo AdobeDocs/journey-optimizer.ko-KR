@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: IP, 풀, 전달성
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: a44b68e99ec4c55b8ed27b244fcb9e76bdb97760
+source-git-commit: 05e300476ee77c7ac449f3cbb1ecb506e94c3da0
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '446'
 ht-degree: 11%
 
 ---
@@ -57,7 +57,9 @@ IP 준비 캠페인을 만들려면 아래 단계를 수행합니다.
 
    >[!IMPORTANT]
    >
-   >IP 준비 캠페인에 허용된 대상은 [세그먼트 기반](../audience/creating-a-segment-definition.md)이어야 하며 [기본 병합 정책](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}을(를) 사용하여 만들어야 합니다.
+   >IP 준비 캠페인에 허용된 대상은 [세그먼트 기반](../audience/creating-a-segment-definition.md)이어야 하며 [기본 병합 정책](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}을(를) 사용하여 만들어야 합니다.
+   >
+   >CSV 업로드 대상은 IP 웜업 캠페인에 대해 지원되지 않으며 캠페인 활성화 시 오류가 발생합니다.
 
    캠페인을 구성하는 방법에 대한 자세한 내용은 [이 페이지](../campaigns/get-started-with-campaigns.md)를 참조하세요.
 
