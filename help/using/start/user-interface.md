@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 4ae9e908d259dbd266417242cf9e65d693227061
+source-git-commit: 87f714e380957b40df196652ac37d1e6cd611925
 workflow-type: tm+mt
 source-wordcount: '1103'
 ht-degree: 34%
@@ -46,14 +46,14 @@ Journey Optimizer 인터페이스는 다음 네 가지 기본 영역으로 구�
 **여정 관리** - 고객 경험 만들기 및 관리
 * **캠페인** - 특정 대상에 일회성 또는 예약된 메시지를 만듭니다. [캠페인 시작](../campaigns/get-started-with-campaigns.md)
 * **여정** - 여러 단계로 구성된 크로스 채널 고객 경험을 빌드합니다. [여정 처음 만들어 보기](../building-journeys/journey-gs.md)
-* **보고서** - 통합된 Customer Journey Analytics 보고로 성능을 분석합니다. [보고 설명서 보기](../reports/campaign-global-report.md)
+* **보고서** - 통합된 Customer Journey Analytics 보고로 성능을 분석합니다. [보고 설명서 보기](../reports/campaign-global-report-cja.md)
 
 **의사 결정 관리** - 개인화된 오퍼를 관리합니다. [의사 결정 관리에 대해 알아보기](../offers/get-started/starting-offer-decisioning.md)
 * **오퍼** - 개인화된 오퍼 만들기 및 관리
 * **구성 요소** - 오퍼에 대한 배치, 규칙 및 태그를 설정합니다.
 
 **콘텐츠 관리** - 콘텐츠 만들기 및 구성
-* **Assets** - 이미지 및 미디어에 대한 중앙 집중식 리포지토리입니다. [자산 관리](../content-management/assets.md)
+* **Assets** - 이미지 및 미디어에 대한 중앙 집중식 리포지토리입니다. [자산 관리](../integrations/assets.md)
 * **콘텐츠 템플릿** - 캠페인 및 여정을 위한 재사용 가능한 메시지 템플릿. [템플릿 만들기](../content-management/content-templates.md)
 * **조각** - 여러 메시지에서 사용할 수 있는 콘텐츠 블록 [조각을 사용하여 작업](../content-management/fragments.md)
 * **랜딩 페이지** - 구독 및 환경 설정에 대한 웹 양식입니다. [랜딩 페이지 디자인](../landing-pages/get-started-lp.md)
@@ -65,7 +65,7 @@ Journey Optimizer 인터페이스는 다음 네 가지 기본 영역으로 구�
 * **모니터링** - 데이터 수집 추적
 
 **연결** - 다른 시스템과 통합
-* **소스** - 외부 시스템에서 데이터를 수집합니다. [소스 구성](../data/get-started-sources.md)
+* **소스** - 외부 시스템에서 데이터를 수집합니다. [소스 구성](get-started-sources.md)
 * **대상** - 데이터를 클라우드 저장소로 내보냅니다. [대상 설정](../data/export-datasets.md)
 
 **고객** - 대상자 및 프로필 관리
@@ -82,7 +82,7 @@ Journey Optimizer 인터페이스는 다음 네 가지 기본 영역으로 구�
 
 **관리** - 시스템 설정을 구성합니다. [액세스 제어 개요](../administration/permissions-overview.md)
 * **구성** - 이벤트, 데이터 원본 및 작업을 설정합니다. [채널 구성](../configuration/get-started-configuration.md)
-* **비즈니스 규칙** - 메시지 빈도 및 여정 항목을 제어합니다. [비즈니스 규칙 설정](../configuration/frequency-rules.md)
+* **비즈니스 규칙** - 메시지 빈도 및 여정 항목을 제어합니다. [비즈니스 규칙 설정](../conflict-prioritization/rule-sets.md)
 * **경고** - 시스템 경고를 보고 관리합니다. [경고 모니터링](../reports/alerts.md)
 * **샌드박스** - 환경을 관리하고 샌드박스 간에 개체를 복사합니다. [샌드박스를 사용하여 작업](../administration/sandboxes.md)
 * **채널** - 채널 설정 및 게재 기능 구성
