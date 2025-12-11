@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: 24d66f146ea3ed0e89a3b928b805bc53a70a8895
+source-git-commit: 1d32db0103fd4f2afcd021cff5e8491515c86d65
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 14%
+source-wordcount: '764'
+ht-degree: 13%
 
 ---
 
@@ -61,8 +61,8 @@ ht-degree: 14%
 
 ## [!DNL Journey Optimizer]에서 지원되지 않는 대상 유형 활성화
 
-대상자 포털에서 만든 대상자만 [!DNL Journey Optimizer]개의 여정 및 캠페인에서 직접 타기팅할 수 있습니다. [사용 가능한 대상 유형에 대해 자세히 알아보세요](../audience/about-audiences.md#types).
+**세그먼트 정의**, **대상 구성**, **사용자 지정 업로드(CSV 파일)** 및 **페더레이션 대상 구성**&#x200B;을 사용하여 생성된 대상만 Journey Optimizer 여정 및 캠페인에서 직접 타깃팅할 수 있습니다. [사용 가능한 대상 유형에 대해 자세히 알아보기](../audience/about-audiences.md#types)
 
-Customer Journey Analytics 대상과 같이 지원되지 않는 대상의 프로필을 타겟팅해야 하는 경우 대상 포털에서 새 세그먼트 정의로 래핑해야 합니다. 세그먼트 정의에 대상을 추가하는 방법에 대한 자세한 내용은 [세그먼트 빌더 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/segment-builder#adding-audiences){target="_blank"}를 참조하세요.
+Customer Journey Analytics 대상과 같이 지원되지 않는 대상의 프로필을 타겟팅해야 하는 경우 대상 포털에서 새 세그먼트 정의로 래핑해야 합니다. 세그먼트 정의에 대상을 추가하는 방법에 대한 자세한 내용은 [세그먼트 빌더 설명서](https://experienceleagu;e.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#adding-audiences){target="_blank"}를 참조하세요.
 
 세분화 평가가 완료될 때까지 기다린 후 여정 및 캠페인에서 사용합니다.
