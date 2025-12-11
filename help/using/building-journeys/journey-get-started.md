@@ -66,7 +66,7 @@ Journey Optimizer 여정 디자이너는 마케터와 여정 실무자가 전체
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=ko)
 
 **기본 제공 작업**
 
@@ -76,7 +76,7 @@ Journey Optimizer 여정 디자이너는 마케터와 여정 실무자가 전체
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=ko)
 
 **사용자 지정 작업**
 
@@ -128,7 +128,7 @@ Journey Optimizer 여정 디자이너는 마케터와 여정 실무자가 전체
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar.svg?lang=ko)
 
 **전자 메일 전송 시간 최적화**
 
@@ -184,7 +184,7 @@ AI 기반의 전송 시간 최적화를 사용하여 각 고객이 참여할 가
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 **여정 만들기 및 관리**
 
@@ -194,7 +194,7 @@ AI 기반의 전송 시간 최적화를 사용하여 각 고객이 참여할 가
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 **여정 활동**
 
@@ -204,7 +204,7 @@ AI 기반의 전송 시간 최적화를 사용하여 각 고객이 참여할 가
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 **표현식 및 조건**
 
