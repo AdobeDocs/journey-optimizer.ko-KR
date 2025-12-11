@@ -5,9 +5,9 @@ title: 월별 설명서 업데이트 보고서
 description: 새 설명서 페이지 및 업데이트된 설명서 페이지 목록
 hide: true
 hidefromtoc: true
-source-git-commit: 6c1df24a1184fb7f3fb5e6b2a2cbb3b77015b4bc
+source-git-commit: 72506de77ca5311fd36efc5477a4c2b86e81f0e1
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1204'
 ht-degree: 0%
 
 ---
@@ -34,13 +34,6 @@ ht-degree: 0%
 - [모바일 응용 프로그램 구성](help/using/configuration/set-mobile-config.md) - 12월 6일
 - [다국어 콘텐츠(수동 번역 포함)](help/using/content-management/multilingual-provider.md) - 12월 5일
 - [코드 기반 경험에서 의사 결정 사용](help/using/experience-decisioning/experience-decisioning-uc.md) - 12월 3일
-- [콘텐츠 카드 보고서](help/using/content-card/content-card-report.md) - 12월 2일
-- [콘텐츠 카드 만들기](help/using/content-card/create-content-card.md) - 12월 2일
-- [콘텐츠 카드 시작](help/using/content-card/get-started-content-card.md) - 12월 2일
-- [콘텐츠 카드 디자인](help/using/content-card/design-content-card.md) - 12월 2일
-- [콘텐츠 카드 구성 필수 구성 요소](help/using/content-card/content-card-configuration-prereq.md) - 12월 2일
-- [컨텐츠 카드 SDK 구성](help/using/content-card/content-card-configuration-sdk.md) - 12월 2일
-- [콘텐츠 카드 구성](help/using/content-card/content-card-configuration.md) - 12월 2일
 - [작업 캠페인 만들기](help/using/campaigns/create-campaign.md) - 12월 2일
 - [IP 준비 실행](help/using/configuration/ip-warmup-execution.md) - 11월 26일
 - [랜딩 페이지 만들기](help/using/landing-pages/create-lp.md) - 11월 25일
