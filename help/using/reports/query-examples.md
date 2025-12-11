@@ -8,9 +8,9 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 81d8d068f1337516adc76c852225fd7850a292e8
+source-git-commit: d6db3514a459e37d7c598efc82ffe0985ce72c41
 workflow-type: tm+mt
-source-wordcount: '2749'
+source-wordcount: '2734'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->문제를 해결하려면 여정을 쿼리할 때 journeyVersionName 대신 journeyVersionID를 사용하는 것이 좋습니다. 이 섹션[에서 여정 속성 특성 &#x200B;](../building-journeys/expression/journey-properties.md#journey-properties-fields)에 대해 자세히 알아보세요.
+>문제를 해결하려면 여정을 쿼리할 때 journeyVersionName 대신 journeyVersionID를 사용하는 것이 좋습니다. 이 섹션[에서 여정 속성 특성 ](../building-journeys/expression/journey-properties.md#journey-properties-fields)에 대해 자세히 알아보세요.
 
 +++
 
@@ -78,57 +78,9 @@ AND
 
 +++
 
-+++특정 여정의 각 노드에서 특정 시간 동안 발생한 오류 수
++++프로필이 여정 작업을 받지 못하게 한 규칙
 
-이 쿼리는 노드 이름별로 그룹화된 여정의 각 노드에서 오류가 발생한 개별 프로필을 계산합니다. 여기에는 모든 유형의 작업 실행 오류와 가져오기 오류가 포함됩니다.
-
-_데이터 레이크 쿼리_
-
-```sql
-SELECT
-_experience.journeyOrchestration.stepEvents.nodeName,
-count(distinct _experience.journeyOrchestration.stepEvents.profileID)
-FROM journey_step_events
-WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersionID>'
-AND DATE(timestamp) > (now() - interval '<last x hours>' hour)
-AND
-  (_experience.journeyOrchestration.stepEvents.actionExecutionError is not NULL
-    OR _experience.journeyOrchestration.stepEvents.actionExecutionErrorCode is not NULL
-    OR _experience.journeyOrchestration.stepEvents.actionExecutionOriginCode is not NULL
-    OR _experience.journeyOrchestration.stepEvents.actionExecutionOriginError is not NULL
-    OR _experience.journeyOrchestration.stepEvents.fetchError is not NULL
-    OR _experience.journeyOrchestration.stepEvents.fetchErrorCode is not NULL
-  )
-GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
-```
-
-+++
-
-+++특정 시간대에 특정 여정에서 삭제된 이벤트 수
-
-이 쿼리는 여정에서 삭제된 총 이벤트 수를 계산합니다. 세그먼트 내보내기 작업 오류, Dispatcher 삭제, 상태 시스템 삭제 등 다양한 삭제 이벤트 코드를 필터링합니다.
-
-_데이터 레이크 쿼리_
-
-```sql
-SELECT
-count(_id) AS NUMBER_OF_EVENTS_DISCARDED
-FROM journey_step_events
-WHERE (
-   _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'error'
-   OR _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard'
-   OR _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode = 'discard'
-   OR _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode is not null
-)
-AND _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersionID>'
-AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
-```
-
-+++
-
-+++삭제된 프로필에 대한 단계 이벤트 보기
-
-이 쿼리는 여정에서 삭제된 프로필에 대한 단계 이벤트 세부 사항을 반환합니다. 비즈니스 규칙 또는 조용한 시간 제한 등으로 인해 프로필이 삭제된 이유를 식별하는 데 도움이 됩니다. 쿼리는 특정 무시 이벤트 유형을 필터링하고 프로필 ID, 인스턴스 ID, 여정 세부 사항 및 취소를 발생시킨 오류 등 주요 정보를 표시합니다.
+이 쿼리는 여정 중에 삭제되고 여정 작업을 받지 않은 프로필에 대한 단계 이벤트 세부 사항을 반환합니다. 방해 금지 모드 시간 제한과 같은 비즈니스 규칙으로 인해 프로필이 삭제된 이유를 식별하는 데 도움이 됩니다.
 
 _데이터 레이크 쿼리_
 
@@ -181,6 +133,54 @@ WHERE
 * **eventType** - 버리기 원인이 되는 비즈니스 규칙의 유형을 지정합니다.
    * `quietHours`: 자동 시간 구성으로 인해 프로필이 삭제되었습니다.
    * `forcedDiscardDueToQuietHours`: 조용한 시간에 보관된 프로필에 대한 보호 제한에 도달하여 프로필이 강제로 삭제되었습니다.
+
++++
+
++++특정 여정의 각 노드에서 특정 시간 동안 발생한 오류 수
+
+이 쿼리는 노드 이름별로 그룹화된 여정의 각 노드에서 오류가 발생한 개별 프로필을 계산합니다. 여기에는 모든 유형의 작업 실행 오류와 가져오기 오류가 포함됩니다.
+
+_데이터 레이크 쿼리_
+
+```sql
+SELECT
+_experience.journeyOrchestration.stepEvents.nodeName,
+count(distinct _experience.journeyOrchestration.stepEvents.profileID)
+FROM journey_step_events
+WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersionID>'
+AND DATE(timestamp) > (now() - interval '<last x hours>' hour)
+AND
+  (_experience.journeyOrchestration.stepEvents.actionExecutionError is not NULL
+    OR _experience.journeyOrchestration.stepEvents.actionExecutionErrorCode is not NULL
+    OR _experience.journeyOrchestration.stepEvents.actionExecutionOriginCode is not NULL
+    OR _experience.journeyOrchestration.stepEvents.actionExecutionOriginError is not NULL
+    OR _experience.journeyOrchestration.stepEvents.fetchError is not NULL
+    OR _experience.journeyOrchestration.stepEvents.fetchErrorCode is not NULL
+  )
+GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
+```
+
++++
+
++++특정 시간대에 특정 여정에서 삭제된 이벤트 수
+
+이 쿼리는 여정에서 삭제된 총 이벤트 수를 계산합니다. 세그먼트 내보내기 작업 오류, Dispatcher 삭제, 상태 시스템 삭제 등 다양한 삭제 이벤트 코드를 필터링합니다.
+
+_데이터 레이크 쿼리_
+
+```sql
+SELECT
+count(_id) AS NUMBER_OF_EVENTS_DISCARDED
+FROM journey_step_events
+WHERE (
+   _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'error'
+   OR _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard'
+   OR _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode = 'discard'
+   OR _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode is not null
+)
+AND _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersionID>'
+AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
+```
 
 +++
 
