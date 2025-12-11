@@ -8,9 +8,9 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 85cfc6d19c60f7aa04f052c84efa03480868d179
+source-git-commit: 81d8d068f1337516adc76c852225fd7850a292e8
 workflow-type: tm+mt
-source-wordcount: '2598'
+source-wordcount: '2749'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->문제를 해결하려면 여정을 쿼리할 때 journeyVersionName 대신 journeyVersionID를 사용하는 것이 좋습니다. 이 섹션[에서 여정 속성 특성 &#x200B;](../building-journeys/expression/journey-properties.md#journey-properties-fields)에 대해 자세히 알아보세요.
+>문제를 해결하려면 여정을 쿼리할 때 journeyVersionName 대신 journeyVersionID를 사용하는 것이 좋습니다. 이 섹션[에서 여정 속성 특성 ](../building-journeys/expression/journey-properties.md#journey-properties-fields)에 대해 자세히 알아보세요.
 
 +++
 
@@ -123,6 +123,64 @@ WHERE (
 AND _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersionID>'
 AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 ```
+
++++
+
++++삭제된 프로필에 대한 단계 이벤트 보기
+
+이 쿼리는 여정에서 삭제된 프로필에 대한 단계 이벤트 세부 사항을 반환합니다. 비즈니스 규칙 또는 조용한 시간 제한 등으로 인해 프로필이 삭제된 이유를 식별하는 데 도움이 됩니다. 쿼리는 특정 무시 이벤트 유형을 필터링하고 프로필 ID, 인스턴스 ID, 여정 세부 사항 및 취소를 발생시킨 오류 등 주요 정보를 표시합니다.
+
+_데이터 레이크 쿼리_
+
+```sql
+SELECT 
+    _experience.journeyOrchestration.stepEvents.profileID,
+    _experience.journeyOrchestration.stepEvents.instanceID,
+    _experience.journeyOrchestration.stepEvents.journeyID,
+    _experience.journeyOrchestration.stepEvents.journeyVersionID,
+    _experience.journeyOrchestration.stepEvents.actionExecutionError,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventType,
+    DATE(timestamp),
+    timestamp
+FROM journey_step_events
+WHERE
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = '<eventType>' AND
+    _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journeyVersionID>' AND
+    _experience.journeyOrchestration.stepEvents.instanceID = '<instanceID>';
+```
+
+_예_
+
+```sql
+SELECT 
+    _experience.journeyOrchestration.stepEvents.profileID,
+    _experience.journeyOrchestration.stepEvents.instanceID,
+    _experience.journeyOrchestration.stepEvents.journeyID,
+    _experience.journeyOrchestration.stepEvents.journeyVersionID,
+    _experience.journeyOrchestration.stepEvents.actionExecutionError,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventType,
+    DATE(timestamp),
+    timestamp
+FROM journey_step_events
+WHERE
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'quietHours' AND
+    _experience.journeyOrchestration.stepEvents.journeyVersionID = '6f21a072-6235-4c39-9f6a-9d9f3f3b2c3a' AND
+    _experience.journeyOrchestration.stepEvents.instanceID = 'unitary_089dc93a-1970-4875-9660-22433b18e500';
+```
+
+![삭제된 프로필 세부 정보를 보여 주는 예제 쿼리 결과](assets/query-discarded-profiles.png)
+
+쿼리 결과에 프로필이 삭제된 이유를 식별하는 데 도움이 되는 주요 필드가 표시됩니다.
+
+* **actionExecutionError** - `businessRuleProfileDiscarded`(으)로 설정하면 비즈니스 규칙으로 인해 프로필이 삭제되었음을 나타냅니다. `eventType` 필드에는 버리기 원인이 된 특정 비즈니스 규칙에 대한 추가 세부 정보가 있습니다.
+
+* **eventType** - 버리기 원인이 되는 비즈니스 규칙의 유형을 지정합니다.
+   * `quietHours`: 자동 시간 구성으로 인해 프로필이 삭제되었습니다.
+   * `forcedDiscardDueToQuietHours`: 조용한 시간에 보관된 프로필에 대한 보호 제한에 도달하여 프로필이 강제로 삭제되었습니다.
 
 +++
 
