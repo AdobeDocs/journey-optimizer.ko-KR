@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 채널, 표면, 기술, 매개변수, optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 29d99fd55fd31d5c4f6e86fabed2b45c0636a7b8
+source-git-commit: 4188d0e321f3da79932b648e3bdf8ffcf6efa22b
 workflow-type: tm+mt
-source-wordcount: '1853'
+source-wordcount: '1854'
 ht-degree: 12%
 
 ---
@@ -256,9 +256,7 @@ ht-degree: 12%
 
 다음과 같은 경우에는 채널 구성을 비활성화할 수 없습니다.
 
-* 임의의 라이브 여정에서 참조되는 경우. 라이브 여정에서 사용 중인 구성을 비활성화하려고 하면 오류가 발생합니다.
-
-  채널 구성을 비활성화하려면 이 구성을 사용하는 모든 라이브 여정이 닫히거나 중지되었는지 확인하십시오. [여정 종료에 대해 알아보기](../building-journeys/end-journey.md)
+* 임의의 라이브 여정에서 참조되는 경우. 라이브 여정에서 사용 중인 구성을 비활성화하려고 하면 오류가 발생합니다. 채널 구성을 비활성화하려면 이 구성을 사용하는 모든 라이브 여정이 닫히거나 중지되었는지 확인하십시오. [여정 종료 방법 알아보기](../building-journeys/end-journey.md)
 
 * 채널 구성에 대한 업데이트를 처리하는 동안. 업데이트가 성공하거나 실패할 때까지 기다려야 합니다. [채널 구성 편집](#edit-channel-surface) 및 [업데이트 상태](#update-statuses)에 대해 자세히 알아보세요.
 
