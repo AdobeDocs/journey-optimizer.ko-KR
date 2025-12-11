@@ -9,12 +9,10 @@ role: User
 level: Intermediate
 keywords: 여정, 사용 사례, 평일, 조건, 이메일, 예약
 version: Journey Orchestration
-hide: true
-hidefromtoc: true
-source-git-commit: 9b3c9f7c0327c8c3c3d2b7f1b4255b7e1457a51e
+source-git-commit: 970712614b0d4da37d9ecbe45701f93147b1428c
 workflow-type: tm+mt
 source-wordcount: '1070'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -55,7 +53,7 @@ ht-degree: 0%
 
 여정 시작 직후 **[!UICONTROL 조건]** 활동을 추가하여 현재 날짜가 토요일이나 일요일인지 확인하십시오. 이에 따라 워크플로우가 분기됩니다.
 
-1. 진입점 뒤에 [**[!UICONTROL 조건&#x200B;]**&#x200B;활동](condition-activity.md)을 캔버스로 끌어서 놓습니다.
+1. 진입점 뒤에 [**[!UICONTROL 조건&#x200B;]**활동](condition-activity.md)을 캔버스로 끌어서 놓습니다.
 
 1. **[!UICONTROL 조건]** 활동을 클릭하여 구성 패널을 엽니다.
 
