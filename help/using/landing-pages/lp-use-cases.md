@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 랜딩, 랜딩 페이지, 사용 사례
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: f00550c1df41ff785d433e31847e890718a72f4c
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 12%
+source-wordcount: '1148'
+ht-degree: 11%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >메시지를 보내려면 선택한 랜딩 페이지가 아직 만료되지 않았는지 확인하십시오. 이 섹션[에서 만료 날짜 &#x200B;](create-lp.md#configure-primary-page)을(를) 업데이트하는 방법을 알아보세요.
+   >메시지를 보내려면 선택한 랜딩 페이지가 아직 만료되지 않았는지 확인하십시오. 이 섹션[에서 만료 날짜 ](create-lp.md#configure-primary-page)을(를) 업데이트하는 방법을 알아보세요.
 
    이메일을 수신하면 수신자가 랜딩 페이지 링크를 클릭하면 &#39;감사&#39; 페이지로 이동하며 구독 목록에 추가됩니다.
 
@@ -141,7 +141,7 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >메시지를 보내려면 선택한 랜딩 페이지가 아직 만료되지 않았는지 확인하십시오. 이 섹션[에서 만료 날짜 &#x200B;](create-lp.md#configure-primary-page)을(를) 업데이트하는 방법을 알아보세요.
+   >메시지를 보내려면 선택한 랜딩 페이지가 아직 만료되지 않았는지 확인하십시오. 이 섹션[에서 만료 날짜 ](create-lp.md#configure-primary-page)을(를) 업데이트하는 방법을 알아보세요.
 
 1. 여정을 게시하고 실행합니다. [자세히 알아보기](../building-journeys/journey.md).
 
@@ -165,11 +165,9 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->기본 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target="_blank"} **[!UICONTROL 프로필]** 병합 정책의 병합 방법이 **[!UICONTROL 데이터 세트 우선 순위]**&#x200B;인 경우 **[!UICONTROL AJO 동의 서비스 데이터 세트]**&#x200B;를 사용하도록 설정하고 병합 정책에서 우선 순위를 지정하십시오. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ko#dataset-precedence-profile){target="_blank"}
+>기본 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target="_blank"} **[!UICONTROL 프로필]** 병합 정책의 병합 방법이 **[!UICONTROL 데이터 세트 우선 순위]**&#x200B;인 경우 **[!UICONTROL AJO 동의 서비스 데이터 세트]**&#x200B;를 사용하도록 설정하고 병합 정책에서 우선 순위를 지정하십시오. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
 >
 >이 데이터 세트에 일괄 처리가 추가되지 않았더라도 여전히 옵트인/옵트아웃 정보가 포함됩니다.
-
-
 
 **참고 항목:**
 
@@ -190,14 +188,21 @@ You can also enable your recipients to unsubscribe whithout using landing pages.
 
     If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link. [Learn more](../email/email-opt-out.md#unsubscribe-header)
 
-////////
+-->
 
+## 랜딩 페이지 제출 이벤트 활용 {#leverage-lp-event}
 
-## Leverage landing page submission event {#leverage-lp-event}
+랜딩 페이지에 제출된 정보를 사용하여 추가 작업을 수행할 수 있습니다. 예를 들어 사용자가 지정된 구독 목록에 가입하면 해당 정보를 활용하여 다른 구독 목록을 추천하는 이메일을 해당 사용자에게 보낼 수 있습니다.
 
-You can use information that was submitted on a landing page to send communications to your customers. For example, if a user subscribes to a given subscription list, you can leverage that information to send an email recommending other subscription lists to that user.
+이렇게 하려면 제출 정보가 포함된 [AJO 전자 메일 추적 경험 이벤트 스키마](../event/about-creating.md)를 기반으로 **[!UICONTROL 규칙 기반 단일 이벤트]**&#x200B;를 만들고 [여정에서 이 이벤트를 사용](../building-journeys/general-events.md)해야 합니다.
 
-To do this, you need to create an event containing the landing page submission information and use it in a journey. Follow the steps below.
+>[!NOTE]
+>
+>랜딩 페이지 제출 이벤트로 작업할 때 이벤트 `interactionType` 필드가 특정 사용자 작업을 항상 정확하게 반영하지 않을 수 있습니다. 사용자가 옵트아웃, 구독 또는 다른 작업을 수행했는지 여부를 정확하게 확인하려면 `interactionType` 이벤트에만 의존하지 않고 항상 실제 프로필 특성(동의 환경 설정 등) 또는 양식 필드 값을 확인하십시오.
+
+<!--DETAILED STEPS TBC:
+
+Follow the steps below.
 
 1. Go to **[!UICONTROL Administration]** > **[!UICONTROL Configurations]**, and in the **[!UICONTROL Events]** section, select **[!UICONTROL Manage]**.
 
