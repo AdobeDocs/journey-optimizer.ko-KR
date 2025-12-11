@@ -6,30 +6,39 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 8ca1c995bc38b110fa07573f922906c775fd5e6f
+source-git-commit: cdf9eadc36d7e7b3538690a7a165bc39eccc40b5
 workflow-type: tm+mt
-source-wordcount: '2434'
+source-wordcount: '2458'
 ht-degree: 2%
 
 ---
 
 # 도우미 함수 시작{#functions}
 
-[!DNL Journey Optimizer] 템플릿 언어를 사용하여 계산, 데이터 형식 지정 또는 전환, 조건 등 데이터에 대한 작업을 수행하고, 개인화의 컨텍스트에서 이를 조작합니다. [이 페이지](../personalization-syntax.md)에서 개인화 구문 지침을 알아보세요.
+도우미 기능을 사용하면 개인화된 콘텐츠 내에서 데이터를 변환하고 조작할 수 있습니다. 이를 사용하여 계산을 수행하고, 데이터의 형식을 지정하며, 조건을 적용하고, 다양한 작업을 실행하여 고객을 위한 동적이고 맞춤화된 경험을 만들 수 있습니다.
+
+이러한 함수는 [!DNL Journey Optimizer] 템플릿 언어를 활용합니다. [이 페이지](../personalization-syntax.md)에서 개인화 구문 지침에 대해 알아보세요.
 
 ➡️ [이 비디오에서 도우미 함수를 사용하는 방법에 대해 알아보세요](#video)
 
-템플릿 언어는 아래와 같이 개인화 편집기의 개인화 드롭다운 목록에서 사용할 수 있는 도우미 함수에서 활용됩니다.
+## 도우미 기능 액세스
+
+도우미 함수는 개인화 편집기의 함수 메뉴에서 사용할 수 있습니다.
 
 ![](../assets/access-helper-functions.png)
 
-[!DNL Journey Optimizer] 개인화 편집기에서 도우미 함수는 [함수](#functions-helper), [도우미](#helper-helper) 및 [연산자](#operators-helper)의 세 가지 범주로 그룹화됩니다.
+함수는 쉽게 탐색할 수 있도록 세 가지 범주로 구성됩니다.
 
-카테고리를 선택하여 하위 카테고리 및 기능에 액세스합니다.
+* **[함수](#functions-helper)** - 데이터 조작 및 변환 작업
+* **[도우미](#helper-helper)** - 조건부 논리 및 유틸리티 함수
+* **[연산자](#operators-helper)** - 비교 및 논리 연산자
 
-`>` 아이콘을 클릭하여 하위 범주에 액세스합니다. `+` 아이콘을 클릭하여 함수를 선택하십시오. 함수는 자동으로 개인화 화면에 추가됩니다.
+**도우미 함수를 사용하려면:**
 
-`...` 아이콘을 클릭하여 함수에 대한 설명을 보고 즐겨찾기에 추가합니다. [자세히 알아보기](../personalize.md#fav)
+1. 하위 범주 및 사용 가능한 기능을 보려면 범주를 선택하십시오.
+1. 하위 범주를 확장하려면 `>` 아이콘을 클릭하십시오.
+1. 함수 옆에 있는 `+` 아이콘을 클릭하여 개인화 코드에 추가합니다
+1. 함수 설명을 보거나 즐겨찾기에 추가하려면 `...` 아이콘을 클릭하십시오. [자세히 알아보기](../personalize.md#fav)
 
 >[!NOTE]
 >
@@ -518,4 +527,4 @@ ht-degree: 2%
 
 개인화 도우미 기능을 사용하여 개인화 값을 변형하는 방법을 알아보고 도우미 기능의 다양한 사용 사례를 이해합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416646?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
