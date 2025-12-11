@@ -10,10 +10,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: 표현식, 편집기, 핸들바, 반복, 배열, 컨텍스트, 개인화
-source-git-commit: a67707e50960e4848197fa1bd39ce95af3ef14ab
+source-git-commit: ebe367a91dc1bb20ceeb03b13a6008433fadf023
 workflow-type: tm+mt
-source-wordcount: '2484'
-ht-degree: 3%
+source-wordcount: '2557'
+ht-degree: 0%
 
 ---
 
@@ -37,7 +37,9 @@ Journey Optimizer에서는 [메시지 개인화](personalize.md) 동안 여러 �
 
 ## Handlebars 반복 구문 {#syntax}
 
-Handlebars는 배열을 반복하도록 `{{#each}}` [helper](functions/helpers.md)을(를) 제공합니다. 기본 구문은 입니다.
+Handlebars는 배열을 반복하도록 `{{#each}}` [helper](functions/helpers.md)을(를) 제공합니다.
+
++++ 기본 구문
 
 ```handlebars
 {{#each arrayPath as |item|}}
@@ -52,6 +54,8 @@ Handlebars는 배열을 반복하도록 `{{#each}}` [helper](functions/helpers.m
 * `item`을(를) 원하는 변수 이름으로 바꾸십시오(예: `product`, `response`, `element`).
 * `{{item.propertyName}}`을(를) 사용하여 각 항목의 속성에 액세스
 * 다중 수준 배열에 대해 여러 `{{#each}}` 블록을 중첩할 수 있습니다.
+
++++
 
 ## 이벤트 데이터 반복 {#event-data}
 
@@ -72,7 +76,9 @@ context.journey.events.<event_ID>.<fieldPath>
 
 ### 예: 이벤트의 장바구니 항목
 
-[이벤트 스키마](../event/experience-event-schema.md)에 `productListItems` 배열(표준 [XDM 형식](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=ko){target="_blank"})이 포함된 경우 다음과 같이 장바구니 콘텐츠를 표시할 수 있습니다.
+[이벤트 스키마](../event/experience-event-schema.md)에 `productListItems` 배열(표준 [XDM 형식](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"})이 포함된 경우 다음과 같이 장바구니 콘텐츠를 표시할 수 있습니다.
+
++++ 예제 코드 보기
 
 ```handlebars
 {{#each context.journey.events.event_ID.productListItems as |product|}}
@@ -84,9 +90,13 @@ context.journey.events.<event_ID>.<fieldPath>
 {{/each}}
 ```
 
++++
+
 ### 예: 이벤트의 중첩된 배열
 
 중첩된 구조의 경우 중첩된 `{{#each}}` 블록을 사용합니다. [모범 사례](#best-practices)의 중첩에 대해 자세히 알아보세요.
+
++++ 예제 코드 보기
 
 ```handlebars
 {{#each context.journey.events.event_ID.categories as |category|}}
@@ -98,6 +108,8 @@ context.journey.events.<event_ID>.<fieldPath>
   </ul>
 {{/each}}
 ```
+
++++
 
 ## 사용자 지정 작업 응답 반복 {#custom-action-responses}
 
@@ -119,6 +131,8 @@ context.journey.actions.<actionName>.<fieldPath>
 ### 예: API의 제품 권장 사항
 
 사용자 지정 작업이 제품 권장 사항을 반환하는 경우:
+
++++ 예제 코드 보기
 
 **API 응답:**
 
@@ -156,9 +170,13 @@ context.journey.actions.<actionName>.<fieldPath>
 </div>
 ```
 
++++
+
 ### 예: 사용자 지정 작업의 중첩된 배열
 
 사용자 지정 작업이 중첩된 배열(예: 제품이 있는 범주)을 반환하는 경우. 더 복잡한 중첩 패턴은 [모범 사례](#best-practices)를 참조하세요.
+
++++ 예제 코드 보기
 
 **API 응답:**
 
@@ -188,9 +206,13 @@ context.journey.actions.<actionName>.<fieldPath>
 {{/each}}
 ```
 
++++
+
 ### 예: 충성도 계층의 이점
 
 충성도 상태에 따라 동적 이점 표시:
+
++++ 예제 코드 보기
 
 **API 응답:**
 
@@ -219,6 +241,8 @@ context.journey.actions.<actionName>.<fieldPath>
 </ul>
 ```
 
++++
+
 ## 데이터 세트 조회 결과 반복 {#dataset-lookup}
 
 [데이터 세트 조회 활동](../building-journeys/dataset-lookup.md)을 사용하면 여정 런타임 동안 [Adobe Experience Platform 데이터 세트](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=ko){target="_blank"}에서 데이터를 검색할 수 있습니다. 보강된 데이터는 배열로 저장되며 메시지에서 반복될 수 있습니다.
@@ -241,6 +265,8 @@ context.journey.datasetLookup.<activityID>.entities
 ### 예: 데이터 세트의 제품 세부 정보
 
 데이터 세트 조회 활동을 사용하여 SKU를 기반으로 제품 정보를 검색하는 경우:
+
++++ 예제 코드 보기
 
 **데이터 집합 조회 구성:**
 
@@ -271,9 +297,13 @@ context.journey.datasetLookup.<activityID>.entities
 </table>
 ```
 
++++
+
 ### 예: 데이터 세트 데이터를 사용하여 필터링된 반복
 
 특정 범주의 제품만 표시합니다. [모범 사례](#best-practices)에서 조건부 필터링에 대해 자세히 알아보세요.
+
++++ 예제 코드 보기
 
 ```handlebars
 <h2>Household Products</h2>
@@ -287,7 +317,11 @@ context.journey.datasetLookup.<activityID>.entities
 {{/each}}
 ```
 
++++
+
 ### 예: 데이터 세트 조회에서 합계 계산
+
++++ 예제 코드 보기
 
 ```handlebars
 {% let householdTotal = 0 %}
@@ -299,6 +333,8 @@ context.journey.datasetLookup.<activityID>.entities
 
 <p>Your household products total: ${{householdTotal}}</p>
 ```
+
++++
 
 ## 여정 기술 속성 사용 {#technical-properties}
 
@@ -317,6 +353,8 @@ context.journey.technicalProperties.supplementalId
 
 **시나리오**: 여정이 여러 예약으로 트리거되었지만 이 여정 인스턴스를 트리거한 특정 예약(보조 ID로 식별됨)에 대한 정보만 표시하려고 합니다.
 
++++ 예제 코드 보기
+
 ```handlebars
 {{#each context.journey.events.event_ID.bookingList as |booking|}}
   {%#if booking.bookingInfo.bookingNum = context.journey.technicalProperties.supplementalId%}
@@ -329,13 +367,19 @@ context.journey.technicalProperties.supplementalId
 {{/each}}
 ```
 
++++
+
 ### 예: 추적할 여정 ID 포함
+
++++ 예제 코드 보기
 
 ```handlebars
 <footer>
   <p>Journey Reference: {{context.journey.technicalProperties.journeyUID}}</p>
 </footer>
 ```
+
++++
 
 ## 여러 컨텍스트 소스 결합 {#combine-sources}
 
@@ -350,6 +394,8 @@ context.journey.technicalProperties.supplementalId
 ### 예: 실시간 재고가 있는 장바구니 항목
 
 이벤트 데이터(장바구니 컨텐츠)를 사용자 지정 작업 데이터(인벤토리 상태)와 결합:
+
++++ 예제 코드 보기
 
 ```handlebars
 <h2>Your Cart</h2>
@@ -375,9 +421,13 @@ context.journey.technicalProperties.supplementalId
 {{/each}}
 ```
 
++++
+
 ### 예: 데이터 세트 조회로 보강된 이벤트 데이터
 
 [이벤트 SKU](#event-data)를 [데이터 세트 조회](#dataset-lookup)의 자세한 제품 정보와 결합:
+
++++ 예제 코드 보기
 
 ```handlebars
 <h2>Your Order Details</h2>
@@ -398,7 +448,11 @@ context.journey.technicalProperties.supplementalId
 {{/each}}
 ```
 
++++
+
 ### 예: 여러 소스를 기술 속성과 결합
+
++++ 예제 코드 보기
 
 ```handlebars
 <div class="personalized-content">
@@ -429,6 +483,8 @@ context.journey.technicalProperties.supplementalId
 </div>
 ```
 
++++
+
 ## 기타 컨텍스트 유형 {#other-contexts}
 
 이 안내서는 배열 상에서의 반복에 중점을 두고 있지만, 일반적으로 반복이 필요하지 않은 개인화에는 다른 컨텍스트 유형을 사용할 수 있습니다. 루프가 아닌 직접 액세스합니다.
@@ -450,7 +506,7 @@ context.journey.technicalProperties.supplementalId
 
 >[!IMPORTANT]
 >
->여정 표현식은 Handlebars 개인화와 다른 구문을 사용합니다. 여정 구성(사용자 지정 작업 매개 변수 또는 조건 등)에서는 [, &#x200B;](../building-journeys/expression/expressionadvanced.md), `first` 등의 함수와 함께 `all`여정 표현식 편집기`serializeList`를 사용합니다. 메시지 콘텐츠에서 `{{#each}}` 루프가 있는 Handlebars 구문을 사용합니다.
+>여정 표현식은 Handlebars 개인화와 다른 구문을 사용합니다. 여정 구성(사용자 지정 작업 매개 변수 또는 조건 등)에서는 [, ](../building-journeys/expression/expressionadvanced.md), `first` 등의 함수와 함께 `all`여정 표현식 편집기`serializeList`를 사용합니다. 메시지 콘텐츠에서 `{{#each}}` 루프가 있는 Handlebars 구문을 사용합니다.
 
 ### 사용자 지정 작업 매개 변수에 배열 값 전달 {#arrays-to-custom-actions}
 
@@ -463,6 +519,8 @@ context.journey.technicalProperties.supplementalId
 **사용 사례**: 이벤트 배열에서 특정 필드를 가져와 GET 요청에서 쿼리 매개 변수로 전달하십시오.
 
 **예제 시나리오**: 제품 목록에서 가격이 0보다 큰 첫 번째 SKU를 추출합니다.
+
++++ 예제 코드 보기
 
 **이벤트 스키마 예**:
 
@@ -497,11 +555,15 @@ context.journey.technicalProperties.supplementalId
 * `.SKU`: 일치하는 항목에서 SKU 필드 추출
 * 결과: `"SKU-1"`(작업 매개 변수에 적합한 문자열)
 
-`first`컬렉션 관리 함수[에서 &#x200B;](../building-journeys/expression/collection-management-functions.md) 함수에 대해 자세히 알아보세요.
+`first`컬렉션 관리 함수[에서 ](../building-journeys/expression/collection-management-functions.md) 함수에 대해 자세히 알아보세요.
+
++++
 
 #### 배열에서 값 목록 작성
 
 **사용 사례**: 쿼리 매개 변수로 전달할 쉼표로 구분된 ID 목록을 만듭니다(예: `/products?ids=sku1,sku2,sku3`).
+
++++ 예제 코드 보기
 
 **사용자 지정 작업 구성**:
 
@@ -535,9 +597,13 @@ serializeList(
 
 사용자 지정 작업에 대한 컬렉션 처리는 [사용자 지정 작업 매개 변수에 컬렉션 전달](../building-journeys/collections.md#passing-collection)에서 다룹니다.
 
++++
+
 #### 사용자 지정 작업에 오브젝트 배열 전달
 
 **사용 사례**: 요청 본문에 전체 개체 배열을 보냅니다(본문이 있는 POST 또는 GET).
+
++++ 예제 코드 보기
 
 **요청 본문 예**:
 
@@ -584,11 +650,15 @@ Journey Optimizer은 작업 페이로드 구조와 일치하는 오브젝트의 
 
 [사용자 지정 작업 매개 변수에 컬렉션 전달](../building-journeys/collections.md#passing-collection)에서 자세히 알아보세요.
 
++++
+
 ### 데이터 세트 조회를 사용하여 배열 사용 {#arrays-with-dataset-lookup}
 
 [데이터 집합 조회 활동](../building-journeys/dataset-lookup.md)을 사용할 때 값 배열을 조회 키로 전달하여 보강된 데이터를 검색할 수 있습니다.
 
 **예**: 이벤트 배열의 모든 SKU에 대한 제품 세부 정보를 조회합니다.
+
++++ 예제 코드 보기
 
 **데이터 집합 조회 구성**:
 
@@ -599,6 +669,8 @@ list(@event{purchaseEvent.productListItems.SKU})
 ```
 
 이렇게 하면 데이터 세트에서 조회할 모든 SKU 값 목록이 만들어집니다. 결과는 메시지에서 반복할 수 있는 배열로 `context.journey.datasetLookup.<activityID>.entities`에 사용할 수 있습니다([데이터 집합 조회 결과 반복](#dataset-lookup) 참조).
+
++++
 
 ### 제한 사항 및 패턴 {#array-limitations}
 
@@ -638,6 +710,8 @@ list(@event{purchaseEvent.productListItems.SKU})
 다음은 사용자 지정 작업으로 이벤트 배열을 사용하는 방법을 보여 주는 전체 워크플로우입니다.
 
 **시나리오**: 사용자가 장바구니를 중단하면 장바구니 데이터를 외부 추천 API로 전송하여 개인화된 제안을 받은 다음 전자 메일에 표시하십시오.
+
++++ 전체 예제 보기
 
 **1단계: 사용자 지정 작업 구성**
 
@@ -731,6 +805,8 @@ list(@event{purchaseEvent.productListItems.SKU})
 
 [사용자 지정 작업 문제 해결](../action/troubleshoot-custom-action.md)에서 자세히 알아보세요.
 
++++
+
 ## 모범 사례 {#best-practices}
 
 컨텍스트 기반 데이터를 반복하여 유지 관리가 가능하고 성능이 좋은 개인화를 만들 때 다음 모범 사례를 따르십시오.
@@ -738,6 +814,8 @@ list(@event{purchaseEvent.productListItems.SKU})
 ### 설명 변수 이름 사용
 
 반복하고 있는 내용을 명확하게 나타내는 변수 이름을 선택하십시오. 이렇게 하면 코드를 보다 읽기 쉽고 유지 관리하기 쉽습니다. [개인화 구문](personalization-syntax.md)에 대해 자세히 알아보기:
+
++++ 보기 예
 
 ```handlebars
 <!-- Good -->
@@ -750,9 +828,13 @@ list(@event{purchaseEvent.productListItems.SKU})
 {{#each array as |element|}}
 ```
 
++++
+
 ### 빈 배열 처리
 
 배열이 비어 있을 때 대체 콘텐츠를 제공하려면 `{{else}}` 절을 사용하십시오. [도우미 함수](functions/helpers.md)에 대해 자세히 알아보세요.
+
++++ 보기 예
 
 ```handlebars
 {{#each context.journey.actions.GetRecommendations.items as |item|}}
@@ -762,9 +844,13 @@ list(@event{purchaseEvent.productListItems.SKU})
 {{/each}}
 ```
 
++++
+
 ### 조건부 도우미와 결합
 
 조건부 콘텐츠에 대해 루프 내에서 `{{#if}}`을(를) 사용합니다. [조건부 규칙](create-conditions.md)에 대해 자세히 알아보고 [사용자 지정 작업 응답](#custom-action-responses) 및 [데이터 집합 조회](#dataset-lookup) 섹션에서 예제를 참조하십시오.
+
++++ 보기 예
 
 ```handlebars
 {{#each context.journey.actions.GetProducts.items as |product|}}
@@ -780,9 +866,13 @@ list(@event{purchaseEvent.productListItems.SKU})
 {{/each}}
 ```
 
++++
+
 ### 성능에 대한 반복 제한
 
 대용량 배열의 경우 반복 횟수를 제한하는 것이 좋습니다.
+
++++ 보기 예
 
 ```handlebars
 <!-- Display only first 5 items -->
@@ -793,6 +883,8 @@ list(@event{purchaseEvent.productListItems.SKU})
 {{/each}}
 ```
 
++++
+
 ### 배열 메타데이터 액세스
 
 Handlebars는 고급 반복 패턴에 도움이 되는 루프 내의 특수 변수를 제공합니다.
@@ -801,6 +893,8 @@ Handlebars는 고급 반복 패턴에 도움이 되는 루프 내의 특수 변�
 * `@first`: 첫 번째 반복에 대해 True
 * `@last`: 마지막 반복에 대해 True
 
++++ 보기 예
+
 ```handlebars
 {{#each products as |product|}}
   <div class="product {{#if @first}}featured{{/if}}">
@@ -808,6 +902,8 @@ Handlebars는 고급 반복 패턴에 도움이 되는 루프 내의 특수 변�
   </div>
 {{/each}}
 ```
+
++++
 
 >[!NOTE]
 >
@@ -821,6 +917,8 @@ Handlebars는 고급 반복 패턴에 도움이 되는 루프 내의 특수 변�
 
 **문제**: 배열 반복에 콘텐츠가 표시되지 않습니다.
 
++++ 가능한 원인 및 해결 방법 보기
+
 **가능한 원인 및 해결 방법**:
 
 1. **잘못된 경로**: 컨텍스트 원본을 기준으로 배열에 대한 정확한 경로를 확인하십시오.
@@ -832,9 +930,13 @@ Handlebars는 고급 반복 패턴에 도움이 되는 루프 내의 특수 변�
 
 3. **아직 데이터를 사용할 수 없음**: 여정 흐름에서 메시지 활동 전에 사용자 지정 작업, 이벤트 또는 데이터 집합 조회 활동이 실행되었는지 확인하십시오.
 
++++
+
 ### 구문 오류
 
 **문제**: 식 유효성 검사가 실패하거나 메시지가 렌더링되지 않습니다.
+
++++ 일반적인 실수 보기
 
 **일반적인 실수**:
 
@@ -842,53 +944,30 @@ Handlebars는 고급 반복 패턴에 도움이 되는 루프 내의 특수 변�
 * 잘못된 변수 이름: 블록 전체에서 변수 이름이 일관되게 사용되도록 합니다. 명명 규칙에 대해서는 [모범 사례](#best-practices)를 참조하십시오.
 * 잘못된 경로 구분 기호: 슬래시나 다른 문자를 사용하지 않는 점(`.`)을 사용합니다.
 
++++
+
 ### 반복 테스트
 
 [여정 테스트 모드](../building-journeys/testing-the-journey.md)를 사용하여 반복을 확인하세요. 이는 [사용자 지정 작업](#custom-action-responses) 또는 [데이터 집합 조회](#dataset-lookup)를 사용할 때 특히 중요합니다.
+
++++ 테스트 단계 보기
 
 1. [테스트 모드](../building-journeys/testing-the-journey.md)에서 여정 시작
 2. 샘플 데이터로 이벤트 또는 사용자 지정 작업 트리거
 3. [메시지 미리 보기](../content-management/preview.md)를 확인하여 반복이 올바르게 표시되는지 확인하십시오.
 4. 테스트 모드 로그에서 오류를 검토합니다([사용자 지정 작업 테스트 모드 로그](../action/action-response.md#test-mode-logs) 참조).
 
++++
+
 ## 관련 항목 {#related-topics}
 
-**Personalization 기본 사항:**
+**Personalization 기본 사항:** [개인화 시작](personalize.md) | [개인화 추가](personalization-build-expressions.md) | [Personalization 구문](personalization-syntax.md) | [도우미 함수](functions/helpers.md) | [조건부 규칙 만들기](create-conditions.md)
 
-* [개인화 시작](personalize.md)
-* [개인화 추가](personalization-build-expressions.md)
-* [개인화 구문](personalization-syntax.md)
-* [도우미 함수](functions/helpers.md)
-* [조건부 규칙 만들기](create-conditions.md)
+**여정 구성:** [이벤트 정보](../event/about-events.md) | [사용자 지정 작업 구성](../action/about-custom-action-configuration.md) | [사용자 지정 작업 매개 변수에 컬렉션 전달](../building-journeys/collections.md#passing-collection) | [사용자 지정 작업에서 API 호출 응답 사용](../action/action-response.md) | [사용자 지정 작업 문제 해결](../action/troubleshoot-custom-action.md) | [여정에서 Adobe Experience Platform 데이터 사용](../building-journeys/dataset-lookup.md) | [여정에서 보조 식별자 사용](../building-journeys/supplemental-identifier.md) | [보호 기능 및 제한 사항](../start/guardrails.md) | [여정 테스트](../building-journeys/testing-the-journey.md)
 
-**여정 구성:**
+**여정 식 함수:** [고급 식 편집기](../building-journeys/expression/expressionadvanced.md) | [컬렉션 관리 기능](../building-journeys/expression/collection-management-functions.md)(처음, 모두, 마지막) | [목록 함수](../building-journeys/functions/list-functions.md)(serializeList, filter, sort) | [배열 함수](../personalization/functions/arrays-list.md)(head, tail)
 
-* [이벤트 정보](../event/about-events.md)
-* [사용자 정의 액션 구성](../action/about-custom-action-configuration.md)
-* [사용자 정의 액션 매개 변수에 컬렉션 전달](../building-journeys/collections.md#passing-collection)
-* [사용자 정의 작업에서 API 호출 응답 사용](../action/action-response.md)
-* [사용자 지정 작업 문제 해결](../action/troubleshoot-custom-action.md)
-* [여정에서 Adobe Experience Platform 데이터 사용](../building-journeys/dataset-lookup.md)
-* [여정에서 추가 식별자 사용](../building-journeys/supplemental-identifier.md)
-* [가드레일 및 제한 사항](../start/guardrails.md)
-* [여정 테스트](../building-journeys/testing-the-journey.md)
+**Personalization 사용 사례:** [장바구니 포기 전자 메일](personalization-use-case-helper-functions.md) | [주문 상태 알림](personalization-use-case.md)
 
-**여정 식 함수:**
-
-* [고급 표현식 편집기](../building-journeys/expression/expressionadvanced.md)
-* [컬렉션 관리 함수](../building-journeys/expression/collection-management-functions.md)(처음, 모두, 마지막)
-* [목록 함수](../building-journeys/functions/list-functions.md)(serializeList, filter, sort)
-* [배열 함수](../personalization/functions/arrays-list.md)(head, tail)
-
-**Personalization 사용 사례:**
-
-* [장바구니 포기 이메일](personalization-use-case-helper-functions.md)
-* [주문 상태 알림](personalization-use-case.md)
-
-**메시지 디자인:**
-
-* [이메일 디자인 시작](../email/get-started-email-design.md)
-* [푸시 알림 만들기](../push/create-push.md)
-* [SMS 메시지 만들기](../sms/create-sms.md)
-* [콘텐츠 미리 보기 및 테스트](../content-management/preview-test.md)
+**메시지 디자인:** [이메일 디자인 시작](../email/get-started-email-design.md) | [푸시 알림 만들기](../push/create-push.md) | [SMS 메시지 만들기](../sms/create-sms.md) | [콘텐츠 미리 보기 및 테스트](../content-management/preview-test.md)
 
