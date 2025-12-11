@@ -5,7 +5,7 @@ title: 월별 설명서 업데이트 보고서
 description: 새 설명서 페이지 및 업데이트된 설명서 페이지 목록
 hide: true
 hidefromtoc: true
-source-git-commit: 72506de77ca5311fd36efc5477a4c2b86e81f0e1
+source-git-commit: a65c35ee1b1257afffa617f9bcd30b06331c9f5f
 workflow-type: tm+mt
 source-wordcount: '1204'
 ht-degree: 0%
@@ -45,7 +45,7 @@ ht-degree: 0%
 - [코드 기반 경험 시작](help/using/code-based/get-started-code-based.md) - 11월 22일
 - [콘텐츠 미리 보기 및 테스트](help/using/content-management/preview.md) - 11월 22일
 - [웹 채널 구성](help/using/web/web-configuration.md) - 11월 22일
-- [테스트 프로필 만들기](help/using/building-journeys/creating-test-profiles.md) - 11월 22일
+- [테스트 프로필 만들기](help/using/audience/creating-test-profiles.md) - 11월 22일
 - [증명 보내기](help/using/content-management/proofs.md) - 11월 22일
 - [콘텐츠 템플릿 테스트](help/using/content-management/test-content-templates.md) - 11월 22일
 - [테스트 프로필 사용](help/using/content-management/test-profiles.md) - 11월 22일
@@ -67,7 +67,7 @@ ht-degree: 0%
 - [Decisioning CJA 보고](help/using/experience-decisioning/cja-reporting.md) - 11월 15일
 - [조각](help/using/content-management/fragments.md) - 11월 15일
 - [Adobe Experience Platform 대상 시작](help/using/audience/about-audiences.md) - 11월 14일
-- [의사 결정에 사용자 지정 업로드 대상 사용(통합 구성)](help/using/audience/custom-upload-fac.md) - 11월 14일
+- [의사 결정에 사용자 지정 업로드 대상 사용(통합 구성)](help/using/audience/custom-upload.md) - 11월 14일
 - [Sinch 공급자 구성](help/using/sms/sms-configuration-sinch.md) - 11월 12일
 - [Customer Journey Analytics의 캠페인 보고서](help/using/reports/channel-report-cja.md) - 11월 12일
 - [Customer Journey Analytics에서 보고서 여정](help/using/reports/journey-global-report-cja.md) - 11월 12일
@@ -78,10 +78,10 @@ ht-degree: 0%
 - [의사 결정 정책 시작](help/using/experience-decisioning/create-decision.md) - 11월 7일
 - [Experience Decisioning 시작하기](help/using/experience-decisioning/gs-experience-decisioning.md) - 11월 7일
 - [결정 항목](help/using/experience-decisioning/items.md) - 11월 7일
-- [의사 결정 순위 메서드](help/using/experience-decisioning/ranking.md) - 11월 7일
+- [의사 결정 순위 메서드](help/using/experience-decisioning/ranking/ranking.md) - 11월 7일
 - [규칙 작성](help/using/experience-decisioning/rules.md) - 11월 7일
 - [선택 전략 만들기](help/using/experience-decisioning/selection-strategies.md) - 11월 7일
-- [규칙 집합 작업](help/using/configuration/rule-sets.md) - 11월 6일
+- [규칙 집합 작업](help/using/conflict-prioritization/rule-sets.md) - 11월 6일
 - [의사 결정 만들기](help/using/offers/offer-activities/create-offer-activities.md) - 11월 5일
 - [컬렉션 만들기](help/using/offers/offer-library/creating-collections.md) - 11월 5일
 - [개인화된 오퍼 만들기](help/using/offers/offer-library/creating-personalized-offers.md) - 11월 5일
