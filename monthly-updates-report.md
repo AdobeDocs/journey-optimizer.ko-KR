@@ -5,7 +5,7 @@ title: 월별 설명서 업데이트 보고서
 description: 새 설명서 페이지 및 업데이트된 설명서 페이지 목록
 hide: true
 hidefromtoc: true
-source-git-commit: a65c35ee1b1257afffa617f9bcd30b06331c9f5f
+source-git-commit: 3f0da68c95a1fbd5b3cf6beaa38eae1a475ab941
 workflow-type: tm+mt
 source-wordcount: '1204'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 업데이트된 페이지
 
-- [개인화를 위한 Adobe Experience Platform 데이터 조회](help/using/personalization/lookup-aep-data.md) - 12월 10일
+- [개인화를 위한 Adobe Experience Platform 데이터 조회](help/using/data/lookup-aep-data.md) - 12월 10일
 - [모바일 응용 프로그램 구성](help/using/configuration/set-mobile-config.md) - 12월 6일
 - [다국어 콘텐츠(수동 번역 포함)](help/using/content-management/multilingual-provider.md) - 12월 5일
 - [코드 기반 경험에서 의사 결정 사용](help/using/experience-decisioning/experience-decisioning-uc.md) - 12월 3일
