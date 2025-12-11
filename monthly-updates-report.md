@@ -5,9 +5,9 @@ title: 월별 설명서 업데이트 보고서
 description: 새 설명서 페이지 및 업데이트된 설명서 페이지 목록
 hide: true
 hidefromtoc: true
-source-git-commit: fb74c0c14cf35aeb0c28719878d009e040be4214
+source-git-commit: 856f35ebd70f38065e9b116bb648de1f2c2d439a
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '1244'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,91 @@ ht-degree: 0%
 
 # 월별 설명서 업데이트 보고서
 
-*2025년 10월 1일 - 11월 3일에 대해 생성된 보고서*
+*2024년 11월 3일 - 12월 11일에 대해 생성된 보고서*
 
 ## 새 페이지
+
+- [여정 시작 및 종료 기준 안내서](help/using/building-journeys/entry-exit-criteria-guide.md) - 12월 11일
+- [여정 사용 사례](help/using/building-journeys/jo-use-cases.md) - 12월 11일
+- [평일에만 전자 메일 보내기](help/using/building-journeys/weekday-email-uc.md) - 12월 11일
+- [컨텍스트 데이터 반복](help/using/personalization/iterate-contextual-data.md) - 12월 11일
+- [Journey Optimizer에서 의사 결정 기능 시작](help/using/experience-decisioning/gs-decision.md) - 11월 18일
+- [코드 기반 경험에 대한 표면 정의](help/using/code-based/code-based-surface.md) - 11월 22일
+- [코드 기반 경험 게시 및 관리](help/using/code-based/publish-code-based.md) - 11월 22일
+- [코드 기반 경험 테스트](help/using/code-based/test-code-based.md) - 11월 22일
+
+## 업데이트된 페이지
+
+- [개인화를 위한 Adobe Experience Platform 데이터 조회](help/using/personalization/lookup-aep-data.md) - 12월 10일
+- [모바일 응용 프로그램 구성](help/using/configuration/set-mobile-config.md) - 12월 6일
+- [다국어 콘텐츠(수동 번역 포함)](help/using/content-management/multilingual-provider.md) - 12월 5일
+- [코드 기반 경험에서 의사 결정 사용](help/using/experience-decisioning/experience-decisioning-uc.md) - 12월 3일
+- [콘텐츠 카드 보고서](help/using/content-card/content-card-report.md) - 12월 2일
+- [콘텐츠 카드 만들기](help/using/content-card/create-content-card.md) - 12월 2일
+- [콘텐츠 카드 시작](help/using/content-card/get-started-content-card.md) - 12월 2일
+- [콘텐츠 카드 디자인](help/using/content-card/design-content-card.md) - 12월 2일
+- [콘텐츠 카드 구성 필수 구성 요소](help/using/content-card/content-card-configuration-prereq.md) - 12월 2일
+- [컨텐츠 카드 SDK 구성](help/using/content-card/content-card-configuration-sdk.md) - 12월 2일
+- [콘텐츠 카드 구성](help/using/content-card/content-card-configuration.md) - 12월 2일
+- [작업 캠페인 만들기](help/using/campaigns/create-campaign.md) - 12월 2일
+- [IP 준비 실행](help/using/configuration/ip-warmup-execution.md) - 11월 26일
+- [랜딩 페이지 만들기](help/using/landing-pages/create-lp.md) - 11월 25일
+- [랜딩 페이지 실시간 보고서](help/using/reports/lp-report-live.md) - 11월 25일
+- [코드 기반 구성](help/using/code-based/code-based-configuration.md) - 11월 22일
+- [코드 기반 구현 방법 샘플](help/using/code-based/code-based-implementation-samples.md) - 11월 22일
+- [코드 기반 필수 구성 요소 및 보호 기능](help/using/code-based/code-based-prerequisites.md) - 11월 22일
+- [코드 기반 경험 만들기](help/using/code-based/create-code-based.md) - 11월 22일
+- [코드 기반 경험 시작](help/using/code-based/get-started-code-based.md) - 11월 22일
+- [콘텐츠 미리 보기 및 테스트](help/using/content-management/preview.md) - 11월 22일
+- [웹 채널 구성](help/using/web/web-configuration.md) - 11월 22일
+- [테스트 프로필 만들기](help/using/building-journeys/creating-test-profiles.md) - 11월 22일
+- [증명 보내기](help/using/content-management/proofs.md) - 11월 22일
+- [콘텐츠 템플릿 테스트](help/using/content-management/test-content-templates.md) - 11월 22일
+- [테스트 프로필 사용](help/using/content-management/test-profiles.md) - 11월 22일
+- [전자 메일 만들기](help/using/email/create-email.md) - 11월 22일
+- [표면 개인화](help/using/email/surface-personalization.md) - 11월 22일
+- [푸시 알림 만들기](help/using/push/create-push.md) - 11월 22일
+- [푸시 알림 보내기](help/using/push/send-push.md) - 11월 22일
+- [문자 메시지 보내기(SMS/MMS)](help/using/sms/send-sms.md) - 11월 22일
+- [마케터용 사용자 경로](help/using/start/path/marketer.md) - 11월 22일
+- [관리자의 사용자 경로](help/using/start/path/administrator.md) - 11월 22일
+- [메시지 미리 보기 및 테스트](help/using/content-management/preview-test.md) - 11월 22일
+- [특성 기반 액세스 제어](help/using/administration/attribute-based-access.md) - 11월 21일
+- [개체 수준 액세스 제어](help/using/administration/object-based-access.md) - 11월 21일
+- [API 트리거 캠페인으로 작업](help/using/campaigns/api-triggered-campaigns.md) - 11월 21일
+- [의사 결정 관리 시작](help/using/offers/get-started/starting-offer-decisioning.md) - 11월 21일
+- [IP 준비 캠페인](help/using/configuration/ip-warmup-campaign.md) - 11월 20일
+- [IP 준비 계획](help/using/configuration/ip-warmup-plan.md) - 11월 20일
+- [권한 개요](help/using/administration/permissions-overview.md) - 11월 15일
+- [Decisioning CJA 보고](help/using/experience-decisioning/cja-reporting.md) - 11월 15일
+- [조각](help/using/content-management/fragments.md) - 11월 15일
+- [Adobe Experience Platform 대상 시작](help/using/audience/about-audiences.md) - 11월 14일
+- [의사 결정에 사용자 지정 업로드 대상 사용(통합 구성)](help/using/audience/custom-upload-fac.md) - 11월 14일
+- [Sinch 공급자 구성](help/using/sms/sms-configuration-sinch.md) - 11월 12일
+- [Customer Journey Analytics의 캠페인 보고서](help/using/reports/channel-report-cja.md) - 11월 12일
+- [Customer Journey Analytics에서 보고서 여정](help/using/reports/journey-global-report-cja.md) - 11월 12일
+- [자동 번역이 포함된 다국어 콘텐츠](help/using/content-management/multilingual-automated.md) - 11월 12일
+- [의사 결정 카탈로그](help/using/experience-decisioning/catalogs.md) - 11월 7일
+- [의사 결정 항목 컬렉션 만들기 및 관리](help/using/experience-decisioning/collections.md) - 11월 7일
+- [컨텍스트 데이터](help/using/experience-decisioning/context-data.md) - 11월 7일
+- [의사 결정 정책 시작](help/using/experience-decisioning/create-decision.md) - 11월 7일
+- [Experience Decisioning 시작하기](help/using/experience-decisioning/gs-experience-decisioning.md) - 11월 7일
+- [결정 항목](help/using/experience-decisioning/items.md) - 11월 7일
+- [의사 결정 순위 메서드](help/using/experience-decisioning/ranking.md) - 11월 7일
+- [규칙 작성](help/using/experience-decisioning/rules.md) - 11월 7일
+- [선택 전략 만들기](help/using/experience-decisioning/selection-strategies.md) - 11월 7일
+- [규칙 집합 작업](help/using/configuration/rule-sets.md) - 11월 6일
+- [의사 결정 만들기](help/using/offers/offer-activities/create-offer-activities.md) - 11월 5일
+- [컬렉션 만들기](help/using/offers/offer-library/creating-collections.md) - 11월 5일
+- [개인화된 오퍼 만들기](help/using/offers/offer-library/creating-personalized-offers.md) - 11월 5일
+- [배치 만들기](help/using/offers/offer-library/creating-placements.md) - 11월 5일
+- [순위 전략 만들기](help/using/offers/ranking/create-ranking-strategies.md) - 11월 5일
+
+---
+
+## 이전 보고서: 2025년 10월 1일~11월 3일
+
+### 새 페이지
 
 - [Adobe Journey Optimizer의 AI 및 지능형 기능](help/using/start/ai-features.md) - 10월 31일
 - [고객의 환경 설정 관리](help/using/action/preference-center.md) - 10월 24일
@@ -37,7 +119,7 @@ ht-degree: 0%
 - [Adobe Journey Optimizer 릴리스 주기](help/using/rn/releases.md) - 10월 28일
 - [메시지 콘텐츠 디자인](help/using/start/message-content-design.md) - 10월 18일
 
-## 업데이트된 페이지
+### 업데이트된 페이지
 
 - [Adobe Journey Optimizer 설명서](help/ajo-home.md) - 10월 22일
 - [콘텐츠 관리](help/rp_landing_pages/content-management-landing-page.md) - 10월 27일
