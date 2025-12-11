@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a67707e50960e4848197fa1bd39ce95af3ef14ab
+source-git-commit: fd26e93b6711ccb003262bbeff8adb7895312a3d
 workflow-type: tm+mt
 source-wordcount: '3008'
 ht-degree: 97%
@@ -343,7 +343,7 @@ ht-degree: 97%
          + [웹 채널 전제 조건](using/web/web-prerequisites.md)
          + [웹 하위 도메인 구성](using/web/web-delegated-subdomains.md)
          + [웹 채널 구성 만들기](using/web/web-configuration.md)
-      + [웹 경험 만들기 &#x200B;](using/web/create-web.md)
+      + [웹 경험 만들기 ](using/web/create-web.md)
       + 웹 페이지 작성 {#author-web-pages}
          + [웹 페이지 작성](/help/rp_landing_pages/author-web-pages-landing-page.md)
          + [웹 디자이너를 사용하여 작업](using/web/web-visual-editor.md)
@@ -397,15 +397,15 @@ ht-degree: 97%
          + [Journey Optimizer에서 라이브 활동 구성](using/mobile-live/mobile-live-configuration.md)
          + [라이브 활동 SDK 통합 구성](using/mobile-live/mobile-live-configuration-sdk.md)
 + 콘텐츠 관리 {#content-management}
-   + [콘텐츠 관리 &#x200B;](/help/rp_landing_pages/content-management-landing-page.md)
+   + [콘텐츠 관리 ](/help/rp_landing_pages/content-management-landing-page.md)
    + 개인화 {#personalization}
       + [개인화](/help/rp_landing_pages/personalization-landing-page.md)
       + [개인화 시작](using/personalization/personalize.md)
       + [개인화 추가](using/personalization/personalization-build-expressions.md)
       + [개인화 구문](using/personalization/personalization-syntax.md)
+      + [컨텍스트 기반 데이터 반복](using/personalization/iterate-contextual-data.md)
       + [표현식 조각 다시 사용](using/personalization/use-expression-fragments.md)
       + [개인화에 Adobe Experience Platform 데이터 사용](using/personalization/aep-data-perso.md)
-      + [컨텍스트 기반 데이터 반복](using/personalization/iterate-contextual-data.md)
       + 도우미 함수 목록 {#functions}
          + [도우미 함수 목록](/help/rp_landing_pages/functions-landing-page.md)
          + [도우미 함수 시작](using/personalization/functions/functions.md)
