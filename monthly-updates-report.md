@@ -5,7 +5,7 @@ title: 월별 설명서 업데이트 보고서
 description: 새 설명서 페이지 및 업데이트된 설명서 페이지 목록
 hide: true
 hidefromtoc: true
-source-git-commit: 856f35ebd70f38065e9b116bb648de1f2c2d439a
+source-git-commit: 6c1df24a1184fb7f3fb5e6b2a2cbb3b77015b4bc
 workflow-type: tm+mt
 source-wordcount: '1244'
 ht-degree: 0%
@@ -94,8 +94,6 @@ ht-degree: 0%
 - [개인화된 오퍼 만들기](help/using/offers/offer-library/creating-personalized-offers.md) - 11월 5일
 - [배치 만들기](help/using/offers/offer-library/creating-placements.md) - 11월 5일
 - [순위 전략 만들기](help/using/offers/ranking/create-ranking-strategies.md) - 11월 5일
-
-&#x200B;---
 
 ## 이전 보고서: 2025년 10월 1일~11월 3일
 
