@@ -9,7 +9,7 @@ role: Developer
 level: Intermediate
 keywords: 표현식, 편집기, 도우미, 사용 사례, 개인화
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: a67707e50960e4848197fa1bd39ce95af3ef14ab
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 2%
@@ -52,7 +52,7 @@ ht-degree: 2%
 1. 스키마에 `productListItems` 배열이 포함된 이벤트를 만듭니다.
 1. 이 배열의 모든 필드를 이 이벤트의 페이로드 필드로 정의합니다.
 
-   [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=ko){target="_blank"}에서 제품 목록 항목 데이터 형식에 대해 자세히 알아보세요.
+   [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}에서 제품 목록 항목 데이터 형식에 대해 자세히 알아보세요.
 
 1. 이 이벤트로 시작하는 여정을 만듭니다.
 1. **전자 메일** 활동을 여정에 추가합니다.
@@ -105,7 +105,7 @@ ht-degree: 2%
 
       ![](assets/personalization-uc-helpers-5.png)
 
-      [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=ko){target="_blank"}에서 사용자 이름 데이터 유형에 대해 자세히 알아보세요.
+      [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target="_blank"}에서 사용자 이름 데이터 유형에 대해 자세히 알아보세요.
 
 1. **[!UICONTROL 유효성 검사]**&#x200B;를 클릭한 다음 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
@@ -115,7 +115,7 @@ ht-degree: 2%
 
 ## 4단계: 장바구니에서 항목 목록 삽입 {#each-helper}
 
-<!--This step demonstrates iterating over event data. For comprehensive examples of iterating over different data sources (events, custom action responses, and other contextual data), see [Iterate over contextual data with Handlebars](personalization-contexts.md).-->
+<!--This step demonstrates iterating over event data. For comprehensive examples of iterating over different data sources (events, custom action responses, and other contextual data), see [Iterate over contextual data with Handlebars](iterate-contextual-data.md).-->
 
 1. 메시지 콘텐츠를 다시 엽니다.
 
@@ -144,7 +144,7 @@ ht-degree: 2%
 
       **[!UICONTROL 컨텍스트 특성]**&#x200B;은(는) 여정 컨텍스트가 메시지에 전달된 후에만 사용할 수 있습니다.
 
-   1. **[!UICONTROL Journey Optimizer]** > **[!UICONTROL 이벤트]** > ***[!UICONTROL event_name]***&#x200B;을 선택한 다음 **[!UICONTROL productListItems]** 노드를 확장합니다.
+   1. **[!UICONTROL Journey Optimizer]** > **[!UICONTROL 이벤트]** > ***[!UICONTROL event_name]***을 선택한 다음 **[!UICONTROL productListItems]** 노드를 확장합니다.
 
       이 예제에서 *event_name*&#x200B;은 이벤트의 이름을 나타냅니다.
 
@@ -254,7 +254,7 @@ ht-degree: 2%
 1. 조건에 제품 이름 토큰을 추가합니다.
    1. 표현식에서 &quot;condition1&quot; 자리 표시자를 제거합니다.
    1. 왼쪽 메뉴에서 **[!UICONTROL 컨텍스트 특성]**&#x200B;을 선택합니다.
-   1. **[!UICONTROL Journey Orchestration]** > **[!UICONTROL 이벤트]** > ***[!UICONTROL event_name]***&#x200B;을 선택한 다음 **[!UICONTROL productListItems]** 노드를 확장합니다.
+   1. **[!UICONTROL Journey Orchestration]** > **[!UICONTROL 이벤트]** > ***[!UICONTROL event_name]***을 선택한 다음 **[!UICONTROL productListItems]** 노드를 확장합니다.
 
       이 예제에서 *event_name*&#x200B;은 이벤트의 이름을 나타냅니다.
 
@@ -346,4 +346,4 @@ ht-degree: 2%
 
 도우미 함수를 사용하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416646?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
