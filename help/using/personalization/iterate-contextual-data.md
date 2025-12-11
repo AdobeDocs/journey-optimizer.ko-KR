@@ -76,7 +76,7 @@ context.journey.events.<event_ID>.<fieldPath>
 
 ### 예: 이벤트의 장바구니 항목
 
-[이벤트 스키마](../event/experience-event-schema.md)에 `productListItems` 배열(표준 [XDM 형식](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"})이 포함된 경우 다음과 같이 장바구니 콘텐츠를 표시할 수 있습니다.
+[이벤트 스키마](../event/experience-event-schema.md)에 `productListItems` 배열(표준 [XDM 형식](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=ko){target="_blank"})이 포함된 경우 다음과 같이 장바구니 콘텐츠를 표시할 수 있습니다.
 
 +++ 예제 코드 보기
 
