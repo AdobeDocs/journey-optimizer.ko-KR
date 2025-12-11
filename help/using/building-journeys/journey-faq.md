@@ -1,27 +1,27 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 여정 FAQ
-description: Journey Optimizer 여정에 대해 자주 묻는 질문
+title: Journey Orchestration - 자주 묻는 질문
+description: Adobe Journey Optimizer의 Journey Orchestration에 대해 자주 묻는 질문
 feature: Journeys, Get Started
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-keywords: 여정, 질문, 답변, 문제 해결, 도움말, 안내서
+keywords: 여정, 질문, 답변, 문제 해결, 도움말, 안내서, 오케스트레이션
 version: Journey Orchestration
-source-git-commit: dff732d14dd143f085b1287274f7571a900a0c87
+source-git-commit: 63d37e1cb4042323eb764350dc2c89b5483ccae3
 workflow-type: tm+mt
-source-wordcount: '5226'
-ht-degree: 0%
+source-wordcount: '5233'
+ht-degree: 1%
 
 ---
 
 
-# 자주 묻는 질문 {#faq-journeys}
+# Journey Orchestration - 자주 묻는 질문 {#faq-journeys}
 
-Adobe Journey Optimizer 여정에 대한 FAQ는 다음과 같습니다.
+Adobe Journey Optimizer의 Journey Orchestration에 대한 일반적인 질문에 대한 답변을 찾아보십시오.
 
-세부 정보가 필요하십니까? 이 페이지 하단의 피드백 옵션을 사용하여 질문을 제기하거나 [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"}에 연결하세요.
+세부 정보가 필요하신가요? 이 페이지 하단의 피드백 옵션을 사용하여 질문하거나 [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"}와 연결하세요.
 
 ## 일반 개념
 
