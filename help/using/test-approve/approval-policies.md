@@ -5,15 +5,14 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
-source-git-commit: 471fb04fd1cbaff0db827d1f5320577103b35d33
+source-git-commit: b70233b3ac1741fa645a426fba3c6bd3175b13a0
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 13%
+source-wordcount: '664'
+ht-degree: 10%
 
 ---
 
 # 승인 정책 만들기 및 관리 {#approval-policies}
-
 
 >[!CONTEXTUALHELP]
 >id="ajo_approval_policy_request_approval"
@@ -25,12 +24,13 @@ ht-degree: 13%
 >title="변경 요청"
 >abstract="변경 요청"
 
-
 >[!NOTE]
 >
->승인 정책을 만들려면 Adobe Experience Platform에서 시스템 또는 제품 관리자 권한이 있어야 합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/home)
+>승인 정책을 만들려면 Adobe Experience Platform에서 시스템 또는 제품 관리자 권한이 있어야 합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)
 
-승인 정책을 사용하면 관리자가 여정 및 캠페인에 대한 유효성 검사 프로세스를 설정할 수 있습니다. 이 시스템은 여정 또는 캠페인에 승인이 필요한지 여부를 결정하는 특정 조건을 간략하게 설명합니다. 이러한 정책은 단순히 모든 캠페인을 특정 사용자 또는 팀이 검토하도록 하는 것에서부터 캠페인을 만든 사람을 기준으로 기준을 설정하는 것까지 복잡성에 따라 달라질 수 있습니다.
+승인 정책을 사용하면 관리자가 여정 및 캠페인에 대한 유효성 검사 프로세스를 설정할 수 있습니다. 이 시스템은 여정 또는 캠페인에 승인이 필요한지 여부를 결정하는 특정 조건을 간략하게 설명합니다. 이러한 정책은 복잡성에 따라 다를 수 있습니다. 모든 캠페인을 특정 사용자 또는 팀이 검토하도록 하거나, 캠페인을 만든 사람을 기준으로 기준을 설정할 수 있습니다.
+
+태그, 캠페인/여정 이름, 채널 유형 또는 요청자 정보와 같은 유연한 기준을 사용하여 승인 정책을 타깃팅할 수 있습니다. 예를 들어 &quot;높은 위험&quot;으로 태그가 지정된 모든 오브젝트 또는 특정 이름 지정 패턴과 일치하는 캠페인에 대한 승인이 필요할 수 있습니다.
 
 ## 승인 정책 만들기 {#create-policies}
 
@@ -41,9 +41,9 @@ ht-degree: 13%
 
 승인 정책을 만들려면 다음 단계를 수행합니다.
 
-1. Journey Optimizer의 **[!UICONTROL 관리]** 메뉴에서 **[!UICONTROL 권한]** 및 **[!UICONTROL 정책]**&#x200B;에 액세스합니다.
+1. **[!UICONTROL 의]**&#x200B;관리[!DNL Journey Optimizer] 메뉴에서 **[!UICONTROL 권한]** 및 **[!UICONTROL 정책]**&#x200B;에 액세스합니다.
 
-   ![](assets/policy_create_1.png)
+   ![권한 메뉴의 승인 정책 만들기 단추](assets/policy_create_1.png)
 
 1. **[!UICONTROL 승인 정책]** 탭에서 **[!UICONTROL 만들기]**&#x200B;를 클릭하고 **[!UICONTROL 승인 정책]**&#x200B;을 선택한 다음 **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
 
@@ -61,6 +61,14 @@ ht-degree: 13%
 
 ## 승인 정책 조건 설정 {#conditions}
 
+승인 정책은 거버넌스 요구 사항에 맞게 유연한 타기팅 옵션을 제공합니다. 다음을 포함한 다양한 기준에 따라 승인 정책을 만들 수 있습니다.
+
+* **캠페인/여정 이름**: 이름별로 특정 개체를 대상으로 합니다.
+* **태그**: 특정 태그가 있는 모든 캠페인이나 여정에 정책 적용
+* **채널 형식**: 특정 작업(전자 메일, SMS, 푸시 등)에 대한 승인이 필요합니다.
+* **캠페인 유형**: 예약된 캠페인과 API 트리거 캠페인에 대해 다른 규칙을 설정합니다.
+* **요청자**: 캠페인이나 여정을 만드는 사용자를 기준으로 정책을 정의합니다.
+
 승인 정책과 연관된 조건을 정의하려면 다음 단계를 수행합니다.
 
 1. **[!UICONTROL 승인 정책]**&#x200B;에 액세스합니다.
@@ -71,7 +79,7 @@ ht-degree: 13%
 
    예를 들어 &quot;작업이 Dm과 일치하는 경우&quot; 또는 &quot;요청자 사용자 이름이 John Doe와 일치하는 경우&quot;가 있습니다.
 
-   ![](assets/policy_condition_1.png)
+   ![승인 정책 조건 빌더 인터페이스](assets/policy_condition_1.png)
 
    +++ 사용 가능한 범주 및 옵션에 대해 자세히 알아보기
    <table>
@@ -124,14 +132,13 @@ ht-degree: 13%
     </tr>
     <tr>
     <td>요청자 사용자 이름</td>
-    <td>설계된 요청자의 이름 및 이메일 주소</td>
+    <td>지정된 요청자의 이름 및 이메일 주소</td>
     </tr>
     <tr>
     <td>요청자 사용자 그룹</td>
-    <td>디자인된 요청자의 사용자 그룹 이름</td>
+    <td>지정된 요청자의 사용자 그룹 이름</td>
     </tr>
     </table>
-
 
 1. 조건을 더 추가하려면 **[!UICONTROL 조건 추가]**&#x200B;를 클릭하여 추가 규칙을 정의하고 **[!UICONTROL And]** 또는 **[!UICONTROL Or]**&#x200B;을(를) 선택하여 조건 연결 방식을 지정하십시오.
 
@@ -143,7 +150,7 @@ ht-degree: 13%
 
    선택한 사용자 또는 사용자 그룹이 승인 요청의 유효성을 검사합니다.
 
-   ![](assets/policy_condition_2.png)
+   ![승인 요청 받는 사람 선택 인터페이스](assets/policy_condition_2.png)
 
 1. 조건을 더 추가하려면 **[!UICONTROL 조건 추가]**&#x200B;를 클릭하여 추가 규칙을 정의하고 **[!UICONTROL And]** 또는 **[!UICONTROL Or]**&#x200B;을(를) 선택하여 조건 연결 방식을 지정하십시오.
 
@@ -163,8 +170,8 @@ ht-degree: 13%
    >
    >활성화되면 정책을 편집할 수 없습니다. 조건을 수정하려면 먼저 정책을 비활성화합니다.
 
-   ![](assets/policy_activate_1.png)
+   ![승인 정책 활성화 단추](assets/policy_activate_1.png)
 
 1. **[!UICONTROL 정책]** 메뉴에서 필요에 따라 정책을 **[!UICONTROL 편집]**, **[!UICONTROL 비활성화]** 또는 **[!UICONTROL 복제]**&#x200B;하는 고급 옵션을 엽니다.
 
-   ![](assets/policy_activate_2.png)
+   ![승인 정책 관리 옵션 메뉴](assets/policy_activate_2.png)
