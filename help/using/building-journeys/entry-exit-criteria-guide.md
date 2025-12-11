@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: 시작, 종료, 기준, 여정, 프로필, 재입력, 우수 사례
 version: Journey Orchestration
-source-git-commit: a60ea57ffed3fa9e11dc202f26889d05862604d9
+source-git-commit: d1c7c9d454497f0d3c0ec75663d01aac91378d65
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1554'
 ht-degree: 0%
 
 ---
@@ -152,6 +152,8 @@ Customer Experience Orchestration에서 적절한 시간에 적절한 메시지�
 
 **정의 지우기**
 
+팀이 여정이 이동하는 방식을 이해하도록 명확한 설명서 및 이름 지정 규칙을 설정합니다.
+
 * 마케팅 및 분석 팀을 조정하기 위해 여정을 작성하기 전에 시작 및 종료 로직을 문서화합니다
 * 진입점, 여정 경로 및 종료 조건을 보여 주는 순서도 만들기
 * 비즈니스 규칙을 명확히 정의: &quot;X가 발생하거나 Y일 후 프로필이 종료됨&quot;
@@ -159,6 +161,8 @@ Customer Experience Orchestration에서 적절한 시간에 적절한 메시지�
 * 보고 및 필터링을 위해 [여정에 지속적으로 태그 지정](../start/search-filter-categorize.md#tags)
 
 **여정 중복 방지**
+
+캠페인 간 여정 전략을 조정하여 고객 혼동 및 메시지 충돌을 방지합니다.
 
 * 충돌을 방지하기 위해 유사한 여정을 시작하기 전에 [활성 계정을 감사](journey-ui.md)
 * [충돌 관리](../conflict-prioritization/conflicts.md) 및 [우선 순위 점수](../conflict-prioritization/priority-scores.md)를 활용하여 중복을 해결하고 여정 우선 순위를 지정하십시오
@@ -170,6 +174,8 @@ Customer Experience Orchestration에서 적절한 시간에 적절한 메시지�
 
 **모니터링 및 최적화**
 
+여정 성과를 지속적으로 평가하고 실제 고객 행동을 기반으로 시작 및 종료 기준을 구체화합니다.
+
 * [여정 보고서](../reports/journey-global-report-cja.md)를 사용하여 각 여정에 대한 시작 비율, 종료 비율 및 완료율을 추적합니다.
 * [성공 지표](success-metrics.md) 모니터링: 성공 지표 완료를 통해 종료되는 비율과 시간 초과
 * 시작하기 전에 다양한 프로필 시나리오를 사용하여 [시작 및 종료 기준 테스트](testing-the-journey.md)
@@ -177,6 +183,8 @@ Customer Experience Orchestration에서 적절한 시간에 적절한 메시지�
 * 분기별 모든 활성 여정 검토
 
 **빈도 상한 준수**
+
+모든 여정 커뮤니케이션에서 메시지 빈도를 제어하여 고객의 신뢰와 참여를 유지합니다.
 
 * 적절한 [재등록 대기 기간](entry-management.md)을 설정하거나 일회성 여정에 대한 재등록을 비활성화합니다.
 * [빈도 제한 규칙](../conflict-prioritization/rule-sets.md)을(를) 사용하여 과도한 통신을 방지합니다.
@@ -200,7 +208,7 @@ Customer Experience Orchestration에서 적절한 시간에 적절한 메시지�
 
 **튜토리얼 및 예제**
 
-[여정 사용 사례](jo-use-cases.md) | [고객 온보딩 비디오](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [포기한 장바구니 비디오](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [커뮤니티 블로그: 시작 및 종료 기준](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958?profile.language=ko)
+[여정 사용 사례](jo-use-cases.md) | [고객 온보딩 비디오](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [포기한 장바구니 비디오](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [커뮤니티 블로그: 시작 및 종료 기준](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
 
 **관련 기능**
 
