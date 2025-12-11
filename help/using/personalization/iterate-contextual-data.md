@@ -512,7 +512,7 @@ context.journey.technicalProperties.supplementalId
 
 >[!IMPORTANT]
 >
->여정 표현식은 Handlebars 개인화와 다른 구문을 사용합니다. 여정 구성(사용자 지정 작업 매개 변수 또는 조건 등)에서는 [, ](../building-journeys/expression/expressionadvanced.md), `first` 등의 함수와 함께 `all`여정 표현식 편집기`serializeList`를 사용합니다. 메시지 콘텐츠에서 `{{#each}}` 루프가 있는 Handlebars 구문을 사용합니다.
+>여정 표현식은 Handlebars 개인화와 다른 구문을 사용합니다. 여정 구성(사용자 지정 작업 매개 변수 또는 조건 등)에서는 [, &#x200B;](../building-journeys/expression/expressionadvanced.md), `first` 등의 함수와 함께 `all`여정 표현식 편집기`serializeList`를 사용합니다. 메시지 콘텐츠에서 `{{#each}}` 루프가 있는 Handlebars 구문을 사용합니다.
 
 ### 사용자 지정 작업 매개 변수에 배열 값 전달 {#arrays-to-custom-actions}
 
@@ -561,7 +561,7 @@ context.journey.technicalProperties.supplementalId
 * `.SKU`: 일치하는 항목에서 SKU 필드 추출
 * 결과: `"SKU-1"`(작업 매개 변수에 적합한 문자열)
 
-`first`컬렉션 관리 함수[에서 ](../building-journeys/expression/collection-management-functions.md) 함수에 대해 자세히 알아보세요.
+`first`컬렉션 관리 함수[에서 &#x200B;](../building-journeys/expression/collection-management-functions.md) 함수에 대해 자세히 알아보세요.
 
 +++
 
@@ -838,7 +838,7 @@ list(@event{purchaseEvent.productListItems.SKU})
 
 ### 루프의 표현식 조각
 
-[ 루프 내에서 ](use-expression-fragments.md)표현식 조각`{{#each}}`을(를) 사용하는 경우 루프 범위 변수를 조각 매개 변수로 전달할 수 없습니다. 하지만 조각은 조각 외부의 메시지 콘텐츠에 정의된 전역 변수에 액세스할 수 있습니다.
+[&#x200B; 루프 내에서 &#x200B;](use-expression-fragments.md)표현식 조각`{{#each}}`을(를) 사용하는 경우 루프 범위 변수를 조각 매개 변수로 전달할 수 없습니다. 하지만 조각은 조각 외부의 메시지 콘텐츠에 정의된 전역 변수에 액세스할 수 있습니다.
 
 +++ 예제 코드 보기
 
