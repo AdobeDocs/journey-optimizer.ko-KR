@@ -84,7 +84,7 @@ ht-degree: 34%
 
   예: `{%= profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate %}`
 
-* **날짜 조작 함수 사용** - 프로필 특성의 날짜 값과 함께 [ 또는 ](../personalization/functions/dates.md)과(와) 같은 `dayOfYear()`날짜/시간 함수 사용`diffInDays()`을(를) 사용합니다.
+* **날짜 조작 함수 사용** - 프로필 특성의 날짜 값과 함께 [&#x200B; 또는 &#x200B;](../personalization/functions/dates.md)과(와) 같은 `dayOfYear()`날짜/시간 함수 사용`diffInDays()`을(를) 사용합니다.
 
   예: `{%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/dd/YY") %}`
 
