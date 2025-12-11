@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 옵트아웃, 이메일, 링크, 구독 취소
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: d77c6376bee14d3d6f90be9be54ac01c740e754f
+source-git-commit: b1d262723b68083d1a32d259f3974a287f898579
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '1031'
 ht-degree: 26%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 26%
 
 수신자가 옵트아웃 링크를 클릭하면 그에 따라 구독 취소 요청이 처리됩니다.
 
-해당 프로필의 선택 사항이 업데이트되었는지 확인하려면 Experience Platform으로 이동하여 [해당 프로필을 찾아봅니다](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/ui/user-guide?lang=en#browse-tab){target="_blank"}. [특성 탭](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/ui/user-guide#attributes){target="_blank"}에서 **[!UICONTROL choice]**&#x200B;의 값이 **[!UICONTROL no]**(으)로 변경되었음을 확인할 수 있습니다. 동의 처리에 대한 자세한 내용은 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=ko){target="_blank"}를 참조하세요.
+해당 프로필의 선택 사항이 업데이트되었는지 확인하려면 Experience Platform으로 이동하여 [해당 프로필을 찾아봅니다](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide?lang=en#browse-tab){target="_blank"}. [특성 탭](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#attributes){target="_blank"}에서 **[!UICONTROL choice]**&#x200B;의 값이 **[!UICONTROL no]**(으)로 변경되었음을 확인할 수 있습니다. [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=ko){target="_blank"}에서 동의 처리에 대해 자세히 알아보세요.
 
 ![](assets/opt-out-profile-choice.png)
 
@@ -169,6 +169,10 @@ Adobe Journey Optimizer에서 랜딩 페이지를 만들어 [이 페이지](../l
 1. 메시지가 수신되면 수신자가 구독 취소 링크를 클릭하면 랜딩 페이지가 표시됩니다.
 
    ![](assets/opt-out-lp-example.png)
+
+   >[!WARNING]
+   >
+   >이메일에서 구독 취소 링크를 클릭하면 랜딩 페이지만 열립니다. 수신자는 랜딩 페이지에서 옵트아웃 단추를 클릭하여 양식을 **제출**&#x200B;해야 구독 취소를 완료하고 프로필 동의를 업데이트할 수 있습니다.
 
 1. 수신자가 양식을 제출하는 경우(여기에서는 랜딩 페이지의 **[!UICONTROL 구독 취소]** 버튼을 누르는 경우), 프로필 데이터는 API 호출을 통해 업데이트됩니다.
 

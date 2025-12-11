@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 랜딩, 랜딩 페이지, 사용 사례
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: f00550c1df41ff785d433e31847e890718a72f4c
+source-git-commit: b1d262723b68083d1a32d259f3974a287f898579
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 11%
+source-wordcount: '1184'
+ht-degree: 10%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 11%
 
    >[!NOTE]
    >
-   >메시지를 보내려면 선택한 랜딩 페이지가 아직 만료되지 않았는지 확인하십시오. 이 섹션[에서 만료 날짜 &#x200B;](create-lp.md#configure-primary-page)을(를) 업데이트하는 방법을 알아보세요.
+   >메시지를 보내려면 선택한 랜딩 페이지가 아직 만료되지 않았는지 확인하십시오. 이 섹션[에서 만료 날짜 ](create-lp.md#configure-primary-page)을(를) 업데이트하는 방법을 알아보세요.
 
    이메일을 수신하면 수신자가 랜딩 페이지 링크를 클릭하면 &#39;감사&#39; 페이지로 이동하며 구독 목록에 추가됩니다.
 
@@ -141,13 +141,17 @@ ht-degree: 11%
 
    >[!NOTE]
    >
-   >메시지를 보내려면 선택한 랜딩 페이지가 아직 만료되지 않았는지 확인하십시오. 이 섹션[에서 만료 날짜 &#x200B;](create-lp.md#configure-primary-page)을(를) 업데이트하는 방법을 알아보세요.
+   >메시지를 보내려면 선택한 랜딩 페이지가 아직 만료되지 않았는지 확인하십시오. 이 섹션[에서 만료 날짜 ](create-lp.md#configure-primary-page)을(를) 업데이트하는 방법을 알아보세요.
 
 1. 여정을 게시하고 실행합니다. [자세히 알아보기](../building-journeys/journey.md).
 
 1. 메시지가 수신되면 수신자가 이메일의 구독 취소 링크를 클릭하면 랜딩 페이지가 표시됩니다.
 
    ![](assets/lp_opt-out-submit-form.png)
+
+   >[!WARNING]
+   >
+   >이메일에서 구독 취소 링크를 클릭하면 랜딩 페이지만 열립니다. 수신자는 랜딩 페이지에서 옵트아웃 단추를 클릭하여 양식을 **제출**&#x200B;해야 구독 취소를 완료하고 프로필 동의를 업데이트할 수 있습니다.
 
    수신자가 확인란을 선택하고 양식을 제출하는 경우:
 
@@ -165,7 +169,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->기본 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target="_blank"} **[!UICONTROL 프로필]** 병합 정책의 병합 방법이 **[!UICONTROL 데이터 세트 우선 순위]**&#x200B;인 경우 **[!UICONTROL AJO 동의 서비스 데이터 세트]**&#x200B;를 사용하도록 설정하고 병합 정책에서 우선 순위를 지정하십시오. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ko#dataset-precedence-profile){target="_blank"}
+>기본 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target="_blank"} **[!UICONTROL 프로필]** 병합 정책의 병합 방법이 **[!UICONTROL 데이터 세트 우선 순위]**&#x200B;인 경우 **[!UICONTROL AJO 동의 서비스 데이터 세트]**&#x200B;를 사용하도록 설정하고 병합 정책에서 우선 순위를 지정하십시오. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
 >
 >이 데이터 세트에 일괄 처리가 추가되지 않았더라도 여전히 옵트인/옵트아웃 정보가 포함됩니다.
 
