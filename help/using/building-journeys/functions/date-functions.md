@@ -7,7 +7,7 @@ role: Developer
 level: Experienced
 keywords: 날짜, 함수, 표현식, 여정, 시간
 version: Journey Orchestration
-source-git-commit: 48b3ef3d2e041ea49d1b0c91cc72ea04237a5e33
+source-git-commit: 8ca1c995bc38b110fa07573f922906c775fd5e6f
 workflow-type: tm+mt
 source-wordcount: '834'
 ht-degree: 11%
@@ -18,10 +18,6 @@ ht-degree: 11%
 
 날짜 함수를 사용하면 여정 표현식 내에서 날짜 및 시간 값을 조작하고 작업할 수 있습니다. 이러한 함수는 고객 여정에서 시간 기반 조건, 예약 및 임시 계산에 필수적입니다.
 
->[!NOTE]
->
->이 페이지의 함수는 여정 표현식에서 사용할 수 있습니다. `now()`과(와) 같은 일부 함수는 전자 메일 콘텐츠의 개인화 편집기에서 사용할 수 없습니다. [자세히 알아보기](../../personalization/functions/dates.md)
-
 다음을 수행해야 하는 경우 날짜 함수 사용:
 
 * 특정 시간대 처리([now](#now), [nowWithDelta](#nowWithDelta), [currentTimeInMillis](#currentTimeInMillis))를 사용하여 현재 시간 또는 날짜 가져오기
@@ -31,6 +27,10 @@ ht-degree: 11%
 * 다양한 시간 형식과 표현 간 변환
 
 날짜 함수를 사용하면 시간 논리를 정확하게 제어할 수 있으므로 특정 시간대 및 일정에 응답하는 시간 구분 여정 경로 및 조건을 만들 수 있습니다.
+
+>[!NOTE]
+>
+>이 페이지의 함수는 여정 표현식에서 사용할 수 있습니다. `now()`과(와) 같은 일부 함수는 전자 메일 콘텐츠의 개인화 편집기에서 사용할 수 없습니다. [자세히 알아보기](../../personalization/functions/dates.md)
 
 ## currentTimeInMillis {#currentTimeInMillis}
 
