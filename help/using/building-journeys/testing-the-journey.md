@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 테스트, 여정, 확인, 오류, 문제 해결
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 578950270213177b4d4cc67bad8ae627e440ff44
 workflow-type: tm+mt
-source-wordcount: '1881'
+source-wordcount: '1904'
 ht-degree: 7%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->여정을 테스트하기 전에 모든 오류가 있는 경우 이를 해결해야 합니다. [이 섹션](../building-journeys/troubleshooting.md)에서 테스트하기 전에 오류를 확인하는 방법을 알아보세요.
+>여정을 테스트하기 전에 모든 오류가 있는 경우 이를 해결해야 합니다. [이 섹션](../building-journeys/troubleshooting.md)에서 테스트하기 전에 오류를 확인하는 방법을 알아보세요. 테스트 프로필이 테스트 모드에서 진행되지 않으면 [테스트 모드 전환 문제 해결](troubleshooting-execution.md#troubleshooting-test-transitions)을 참조하십시오.
 
 ## 중요 정보 {#important_notes}
 
@@ -53,7 +53,7 @@ ht-degree: 7%
 
 * **분할 동작** - 여정이 분할에 도달하면 항상 최상위 분기가 선택됩니다. 다른 경로를 테스트하려면 분기 순서를 변경합니다.
 * **이벤트 타이밍** - 여정에 여러 이벤트가 포함된 경우 각 이벤트를 순차적으로 트리거하십시오. 너무 일찍(첫 번째 대기 노드가 완료되기 전에) 또는 너무 늦게(구성된 시간 제한 후) 이벤트를 보내면 이벤트가 삭제되고 프로필이 시간 제한 경로로 전송됩니다. 정의된 창 내에서 페이로드를 전송하여 이벤트 페이로드 필드에 대한 참조가 모두 유효한지 항상 확인하십시오.
-* **활성 날짜 기간** - 테스트 모드를 시작할 때 여정이 구성한 선택 [시작 및 종료 날짜/시간](journey-properties.md#dates) 창에 현재 시간이 포함되어 있는지 확인합니다. 그렇지 않으면 트리거된 테스트 이벤트가 자동으로 삭제됩니다.
+* **활성 날짜 기간** - 테스트 모드를 시작할 때 여정이 구성한 선택 [시작 및 종료 날짜/시간](journey-properties.md#dates) 창에 현재 시간이 포함되어 있는지 확인합니다. 그렇지 않으면 트리거된 테스트 이벤트가 자동으로 삭제됩니다. 이 문제 해결에 대해 자세히 알아보세요[이 페이지의](troubleshooting-execution.md#troubleshooting-test-transitions).
 * **반응 이벤트** - 시간 제한이 있는 반응 이벤트의 경우 최소 및 기본 대기 시간은 40초입니다.
 * **테스트 데이터 세트** - 테스트 모드에서 트리거된 이벤트는 다음과 같이 레이블이 지정된 전용 데이터 세트에 저장됩니다. `JOtestmode - <schema of your event>`
 

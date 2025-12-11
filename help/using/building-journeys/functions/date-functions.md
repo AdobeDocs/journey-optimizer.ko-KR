@@ -7,16 +7,20 @@ role: Developer
 level: Experienced
 keywords: 날짜, 함수, 표현식, 여정, 시간
 version: Journey Orchestration
-source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
+source-git-commit: 48b3ef3d2e041ea49d1b0c91cc72ea04237a5e33
 workflow-type: tm+mt
-source-wordcount: '791'
-ht-degree: 12%
+source-wordcount: '834'
+ht-degree: 11%
 
 ---
 
 # 날짜 함수 {#date-functions}
 
 날짜 함수를 사용하면 여정 표현식 내에서 날짜 및 시간 값을 조작하고 작업할 수 있습니다. 이러한 함수는 고객 여정에서 시간 기반 조건, 예약 및 임시 계산에 필수적입니다.
+
+>[!NOTE]
+>
+>이 페이지의 함수는 여정 표현식에서 사용할 수 있습니다. `now()`과(와) 같은 일부 함수는 전자 메일 콘텐츠의 개인화 편집기에서 사용할 수 없습니다. [자세히 알아보기](../../personalization/functions/dates.md)
 
 다음을 수행해야 하는 경우 날짜 함수 사용:
 
@@ -347,6 +351,10 @@ true를 반환합니다.
 ## now {#now}
 
 현재 날짜를 날짜 시간 형식으로 반환합니다. 데이터 형식에 대한 자세한 내용은 [이 페이지](../expression/data-types.md)를 참조하세요.
+
+>[!NOTE]
+>
+>이 함수는 여정 표현식에서만 사용할 수 있습니다. 전자 메일 개인화 및 기타 콘텐츠의 경우 `getCurrentZonedDateTime()`을(를) 대신 사용하십시오. [자세히 알아보기](../../personalization/functions/dates.md#get-current-zoned-date-time)
 
 +++구문
 

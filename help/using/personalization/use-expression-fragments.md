@@ -9,9 +9,9 @@ role: Developer
 level: Intermediate
 keywords: 표현식, 편집기, 라이브러리, 개인화
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 20421485e354b0609dd445f2db2b7078ee81d891
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '1309'
 ht-degree: 0%
 
 ---
@@ -107,6 +107,89 @@ ht-degree: 0%
 >
 >런타임 시 시스템은 조각 내의 항목을 확장한 다음 개인화 코드를 위쪽에서 아래쪽으로 해석합니다. 이를 염두에 두면 보다 복잡한 사용 사례를 달성할 수 있습니다. 예를 들어 아래에 있는 다른 조각 F2에 변수를 전달하는 조각 F1이 있을 수 있습니다. 시각적 조각 F1이 중첩된 표현식 조각 F2에 변수를 전달할 수도 있습니다.
 
+## 루프 내에서 표현식 조각 사용 {#fragments-in-loops}
+
+`{{#each}}` 루프 내에서 식 조각을 사용할 때는 변수 범위 지정 작동 방식을 이해하는 것이 중요합니다. 표현식 조각은 메시지 콘텐츠에 정의된 전역 변수에 액세스할 수 있지만 루프별 변수를 매개 변수로 수신할 수는 없습니다.
+
+### 지원되는 패턴: 전역 변수 사용 {#global-variables-in-loops}
+
+표현식 조각은 루프 내에서 조각이 호출되는 경우에도 조각 외부에 정의된 전역 변수를 참조할 수 있습니다. 반복적인 컨텍스트에서 조각을 사용해야 할 때 권장되는 방법입니다.
+
+**예: 루프 내에서 전역 변수가 있는 조각 사용**
+
+메시지 콘텐츠에서 전역 변수를 정의하고 이를 참조하는 조각을 사용합니다.
+
+```handlebars
+{% let globalDiscount = 15 %}
+
+{{#each context.journey.actions.GetProducts.items as |product|}}
+  <div class="product">
+    <h3>{{product.name}}</h3>
+    <p>Price: ${{product.price}}</p>
+    {{fragment id='ajo:fragment123/variant456' mode='inline'}}
+  </div>
+{{/each}}
+```
+
+표현식 조각(fragment123)에서 `globalDiscount` 변수를 참조할 수 있습니다.
+
+```handlebars
+<p class="discount-info">Save {{globalDiscount}}% on all items!</p>
+```
+
+이 패턴이 작동하는 이유는 루프 컨텍스트에 관계없이 조각 내를 포함하여 메시지 전체에서 전역 변수에 액세스할 수 있기 때문입니다.
+
+### 지원되지 않음: 루프 변수를 조각 매개 변수로 전달 {#loop-variables-limitations}
+
+현재 반복 항목(예: 위의 예에서 `product`)을 매개 변수로 식 조각에 전달할 수 없습니다. 조각은 주변 `{{#each}}` 블록에서 루프 범위 변수에 직접 액세스할 수 없습니다.
+
+**예: 작동하지 않는 항목**
+
+```handlebars
+{{#each context.journey.actions.GetProducts.items as |product|}}
+  <!-- This will NOT work as expected -->
+  {{fragment id='ajo:fragment123/variant456' mode='inline' currentProduct=product}}
+{{/each}}
+```
+
+현재 구현에서는 루프별 변수에 대한 매개 변수 전달이 지원되지 않으므로 조각이 `product`을(를) 매개 변수로 받아서 내부적으로 사용할 수 없습니다.
+
+### 권장 해결 방법 {#fragments-in-loops-workarounds}
+
+루프의 데이터와 함께 표현식 조각을 사용해야 하는 경우 다음 접근 방식을 고려하십시오.
+
+1. **메시지에 직접 논리 포함**: 루프별 논리에 조각을 사용하는 대신 `{{#each}}` 블록 내에 바로 개인화 코드를 추가하십시오.
+
+   ```handlebars
+   {{#each context.journey.actions.GetProducts.items as |product|}}
+     <div class="product">
+       <h3>{{product.name}}</h3>
+       <p>Price: ${{product.price}}</p>
+       {{#if product.price > 100}}
+         <span class="premium-badge">Premium Product</span>
+       {{/if}}
+     </div>
+   {{/each}}
+   ```
+
+2. **루프 외부의 조각 사용**: 조각 콘텐츠가 루프에 종속되지 않으면 반복 블록 앞 또는 뒤에서 조각을 호출하십시오.
+
+   ```handlebars
+   {{fragment id='ajo:fragment123/variant456' mode='inline'}}
+   
+   {{#each context.journey.actions.GetProducts.items as |product|}}
+     <div class="product">
+       <h3>{{product.name}}</h3>
+       <p>Price: ${{product.price}}</p>
+     </div>
+   {{/each}}
+   ```
+
+3. **여러 개의 전역 변수를 설정합니다**: 반복을 통해 조각에 다른 값을 전달해야 하는 경우 각 조각 호출 전에 전역 변수를 설정하십시오(유연성이 제한됨).
+
+>[!NOTE]
+>
+>상황별 데이터를 반복하고 루프를 사용하여 작업하려면 모범 사례, 문제 해결 팁 및 고급 패턴을 포함하는 [상황별 데이터 반복](iterate-contextual-data.md)에 대한 포괄적인 안내서를 참조하십시오.
 
 ## 편집 가능한 필드 사용자 지정 {#customize-fields}
 

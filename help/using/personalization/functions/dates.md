@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: 07a582db495ecbfae97b6d299b65b06c0cdf8c14
+source-git-commit: 48b3ef3d2e041ea49d1b0c91cc72ea04237a5e33
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1110'
 ht-degree: 6%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 6%
 # 날짜 시간 함수{#date-time}
 
 날짜 및 시간 함수는 Journey Optimizer 내의 값에 대해 날짜 및 시간 작업을 수행하는 데 사용됩니다.
+
+>[!NOTE]
+>
+>`now()` 함수는 개인화 편집기에서 사용할 수 없습니다. 현재 날짜/시간 값에는 대신 `getCurrentZonedDateTime()` 또는 `currentTimeInMillis()`을(를) 사용하십시오. [자세히 알아보기](../../email/code-content.md#date-time-limitations)
 
 ## 일 추가 {#add-days}
 

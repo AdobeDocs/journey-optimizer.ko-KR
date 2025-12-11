@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 48b3ef3d2e041ea49d1b0c91cc72ea04237a5e33
 workflow-type: tm+mt
-source-wordcount: '2422'
+source-wordcount: '2434'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->개인화 편집기에서 사용할 수 있는 기능 및 기능은 [여정 고급 표현식 편집기](../../building-journeys/expression/expressionadvanced.md)에서 사용할 수 있는 기능 및 기능과 다릅니다.
+>개인화 편집기에서 사용할 수 있는 기능 및 기능은 [여정 고급 표현식 편집기](../../building-journeys/expression/expressionadvanced.md)에서 사용할 수 있는 기능 및 기능과 다릅니다. 예를 들어 `now()` 함수는 여정 식에서만 사용할 수 있습니다. [자세히 알아보기](../../email/code-content.md#date-time-limitations)
 
 [!DNL Journey Optimizer] 개인화 편집기에서 도우미 함수는 [함수](#functions-helper), [도우미](#helper-helper) 및 [연산자](#operators-helper)의 세 가지 범주로 그룹화됩니다.
 
@@ -518,4 +518,4 @@ ht-degree: 2%
 
 개인화 도우미 기능을 사용하여 개인화 값을 변형하는 방법을 알아보고 도우미 기능의 다양한 사용 사례를 이해합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416646?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
