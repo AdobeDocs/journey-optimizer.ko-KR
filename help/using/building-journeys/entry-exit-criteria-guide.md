@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 keywords: 시작, 종료, 기준, 여정, 프로필, 재입력, 우수 사례
 version: Journey Orchestration
-source-git-commit: 970712614b0d4da37d9ecbe45701f93147b1428c
+source-git-commit: a60ea57ffed3fa9e11dc202f26889d05862604d9
 workflow-type: tm+mt
-source-wordcount: '1445'
-ht-degree: 1%
+source-wordcount: '1494'
+ht-degree: 0%
 
 ---
 
@@ -64,11 +64,15 @@ Customer Experience Orchestration에서 적절한 시간에 적절한 메시지�
 
 **새 구독자를 위한 시작 캠페인**
 
+브랜드, 제품 및 서비스에 대한 소개를 통해 신규 가입자에게 자동으로 안내하여 개인화된 첫인상을 만듭니다.
+
 * **시작**: 프로필이 뉴스레터를 구독할 때 여정을 입력합니다.
 * **종료**: 환영 전자 메일 시리즈를 완료한 프로필이 종료되거나 참가하지 않는 경우 설정된 시간 후에 프로필이 종료됩니다
 * **혜택**: 신규 가입자가 반복 메시지를 피하면서 적시에 온보딩을 받도록 합니다.
 
 **장바구니 복구를 중단함**
+
+고객에게 놓고 간 항목을 상기시키고 구매를 완료하기 위한 인센티브를 제공하여 매출을 회수합니다.
 
 * **시작**: 고객이 장바구니에 항목을 추가했지만 24시간 이내에 체크아웃을 완료하지 않으면 여정을 입력합니다
 * **종료**: 구매가 완료될 때 또는 구매가 이루어지지 않은 경우 7일 후에 프로필이 종료됩니다
@@ -76,11 +80,15 @@ Customer Experience Orchestration에서 적절한 시간에 적절한 메시지�
 
 **충성도 프로그램 참여**
 
+브랜드 충성도를 강화하고 라이프타임 가치를 높이는 독점 혜택 및 개인화된 커뮤니케이션으로 가장 가치 있는 고객에게 보답하십시오.
+
 * **시작**: 고객이 특정 충성도 포인트에 도달한 후 여정에 참여합니다.
 * **종료**: 보상을 받은 후 또는 60일 동안 비활성 상태인 경우 프로필이 종료됩니다
 * **이익**: 가치가 높은 고객의 개인화된 오퍼 참여를 유지하고 통신 피로를 방지합니다.
 
 **제품 피드백 컬렉션**
+
+게재 후 최적의 순간에 피드백을 요청하여 고객 만족도 및 제품 성능에 대한 인사이트를 수집합니다.
 
 * **시작**: 고객이 제품 배달 확인 이벤트를 받은 후 여정을 입력합니다
 * **종료**: 피드백이 제출되면 프로필이 종료되거나 응답이 없는 경우 10일 후에 프로필이 종료됩니다
@@ -188,26 +196,12 @@ Customer Experience Orchestration에서 적절한 시간에 적절한 메시지�
 
 **기술 설명서**
 
-* [프로필 시작 관리](entry-management.md) - 시작 제어에 대한 자세한 기술 안내서
-* [여정 속성 및 종료 기준](journey-properties.md) - 전체 구성 참조
-* [여정 종료 방법](end-journey.md) - 여정 라이프사이클 관리
-* [보조 식별자](supplemental-identifier.md) - 고급 재입력 시나리오
-* [여정 디자이너](using-the-journey-designer.md) - 빌드 및 디자인 여정
+[프로필 시작 관리](entry-management.md) | [여정 속성 및 종료 기준](journey-properties.md) | [여정 종료 방법](end-journey.md) | [보조 식별자](supplemental-identifier.md) | [여정 디자이너](using-the-journey-designer.md)
 
 **튜토리얼 및 예제**
 
-* [여정 사용 사례](jo-use-cases.md) - 전체 여정 예 및 패턴
-* [고객 온보딩 비디오](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding)
-* [포기한 장바구니 비디오](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart)
-* [커뮤니티 블로그: 시작 및 종료 기준](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958?profile.language=ko)
+[여정 사용 사례](jo-use-cases.md) | [고객 온보딩 비디오](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [포기한 장바구니 비디오](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [커뮤니티 블로그: 시작 및 종료 기준](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
 
 **관련 기능**
 
-* [대상자 선별 이벤트](audience-qualification-events.md)
-* [성공 지표 및 목표](success-metrics.md)
-* [충돌 관리](../conflict-prioritization/conflicts.md)
-* [빈도 상한 설정](../conflict-prioritization/rule-sets.md)
-* [테스트 여정](testing-the-journey.md)
-* [조건 활동](condition-activity.md)
-* [반응 이벤트](reaction-events.md)
-* [대기 활동](wait-activity.md)
+[대상 자격 이벤트](audience-qualification-events.md) | [성공 지표 및 목표](success-metrics.md) | [충돌 관리](../conflict-prioritization/conflicts.md) | [빈도 제한](../conflict-prioritization/rule-sets.md) | [여정 테스트](testing-the-journey.md) | [조건 활동](condition-activity.md) | [반응 이벤트](reaction-events.md) | [대기 활동](wait-activity.md)
