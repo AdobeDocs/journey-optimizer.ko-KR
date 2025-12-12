@@ -8,8 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: IP, 전달성, 신뢰도, ISP, 참여
-exl-id: TBD
-source-git-commit: b1b9b34aec305d6690d93e68238aed852ef689b7
+source-git-commit: 07896931a7c06e1b712f3b65e1dcf939b521ba83
 workflow-type: tm+mt
 source-wordcount: '1088'
 ht-degree: 6%
@@ -145,12 +144,12 @@ Adobe Journey Optimizer은 IP 웜업 성능을 추적하는 내장 보고 기능
 
 Adobe Journey Optimizer의 IP 웜업에 대한 전달성 기본 사항, 평판 구축 및 모범 사례에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3463789/?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3457695/?learn=on)
 
 <!--
 >[!NOTE]
 >
->For more guidance, explore the [Adobe Journey Optimizer Deliverability Guide blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950?profile.language=ko).-->
+>For more guidance, explore the [Adobe Journey Optimizer Deliverability Guide blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950).-->
 
 ## 관련 항목 {#related-topics}
 
