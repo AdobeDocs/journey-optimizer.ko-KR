@@ -197,5 +197,5 @@ Journey Optimizer의 주요 기능 및 페르소나에 대해 자세히 알아�
 
 **커뮤니티 및 지원:**
 
-* [Experience League 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} - 다른 사용자 및 전문가와 연결
-* [제품 포럼](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} - 질문하고 정보를 공유합니다.
+* [Experience League 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"} - 다른 사용자 및 전문가와 연결
+* [제품 포럼](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"} - 질문하고 정보를 공유합니다.
