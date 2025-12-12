@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: fb74c0c14cf35aeb0c28719878d009e040be4214
+source-git-commit: d3559564b0bf33428a703f7909eed908f1c452a4
 workflow-type: tm+mt
-source-wordcount: '7890'
-ht-degree: 100%
+source-wordcount: '7908'
+ht-degree: 99%
 
 ---
 
@@ -894,7 +894,7 @@ ht-degree: 100%
 
    * **샌드박스 복사 및 결정**(사용 가능한 날짜: 2025년 6월 3일) - 이제 결정 오브젝트를 샌드박스 간에 복사할 수 있으므로 테스트 워크플로및 배포 워크플로가 간소화됩니다. [자세히 보기](../configuration/copy-objects-to-sandbox.md#decisioning)
 
-   * **결정 규칙에서 결정 항목 속성 지원**(사용 가능한 날짜: 2025년 6월 4일)* 이제 결정 항목 속성을 활용하여 결정 규칙을 만들 수 있습니다. [자세히 보기](../experience-decisioning/rules.md#create)
+   * **결정 규칙에서 결정 항목 속성 지원**(사용 가능한 날짜: 2025년 6월 4일) - 이제 결정 항목 속성을 활용하여 결정 규칙을 만들 수 있습니다. [자세히 보기](../experience-decisioning/rules.md#create)
 
 * **Interactive Message Execution API 업데이트** - 사용 가능한 날짜: 2025년 6월 6일
 
@@ -1613,11 +1613,13 @@ Journey Optimizer 개인화 편집기가 다음과 같은 새로운 기능으로
 
 HTML 유형 콘텐츠 템플릿은 이제 사용되지 않습니다. [!DNL Journey Optimizer]에서 이전에 만든 기존 HTML 콘텐츠 템플릿은 계속 사용할 수 있습니다. [콘텐츠 템플릿에 대해 자세히 알아보기](../content-management/content-templates.md)
 
+**동의 정책**
+
+이제 이메일 채널 구성에서 마케팅 작업을 통해 사용자 지정 동의 정책을 활용할 수 있습니다. [자세히 알아보기](../action/consent.md#surface-marketing-actions)
 
 <!--**Deliverability**
 
 You can now choose to have your emails relayed to your SMTP servers instead of being sent directly from Journey Optimizer to ISPs. This allows you to route final email deliveries through your own Mail Transfer Agents and IPs, or to perform final validations on the emails before sending them to your recipients. The SMTP relay capacity is available on demand - contact your Adobe representative.-->
-
 
 
 
