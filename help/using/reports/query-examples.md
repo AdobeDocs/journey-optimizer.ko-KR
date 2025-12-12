@@ -8,28 +8,30 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: d6db3514a459e37d7c598efc82ffe0985ce72c41
+source-git-commit: 5ff7987c00afda3263cb97654967c5b698f726c2
 workflow-type: tm+mt
-source-wordcount: '2734'
+source-wordcount: '2747'
 ht-degree: 1%
 
 ---
 
 # 쿼리 예제{#query-examples}
 
-이 섹션에는 데이터 레이크에서 여정 단계 이벤트를 쿼리하는 데 일반적으로 사용되는 몇 가지 예가 나와 있습니다.
+이 섹션에서는 데이터 레이크에서 여정 단계 이벤트를 쿼리하는 데 일반적으로 사용되는 예를 제공합니다. 특정 사용 사례로 이동하기 전에 여정 이벤트 데이터에 사용되는 주요 식별자를 이해하는 것이 중요합니다.
 
 쿼리에 사용된 필드에 해당 스키마의 관련 값이 있는지 확인하십시오.
 
-+++ID, instanceid 및 profileid 간의 차이점은 무엇입니까
+## 키 식별자 이해 {#key-identifiers}
+
++++ID, instanceID 및 profileID 간의 차이점은 무엇입니까
 
 * id: 모든 단계 이벤트 항목에 대해 고유합니다. 서로 다른 두 단계 이벤트는 동일한 ID를 가질 수 없습니다.
-* instanceId: instanceID는 여정 실행 내의 프로필에 연결된 모든 단계 이벤트에 대해 동일합니다. 프로필이 여정을 다시 입력하면 다른 instanceId가 사용됩니다. 이 새 instanceId는 다시 입력한 인스턴스의 모든 단계 이벤트(처음부터 끝까지)에 대해 동일합니다.
+* instanceID: instanceID는 여정 실행 내의 프로필에 연결된 모든 단계 이벤트에 대해 동일합니다. 프로필이 여정을 다시 입력하면 다른 instanceID가 사용됩니다. 이 새 instanceID는 다시 입력한 인스턴스의 모든 단계 이벤트(시작부터 끝까지)에 대해 동일합니다.
 * profileID: 여정 네임스페이스에 해당하는 프로필의 ID입니다.
 
 >[!NOTE]
 >
->문제를 해결하려면 여정을 쿼리할 때 journeyVersionName 대신 journeyVersionID를 사용하는 것이 좋습니다. 이 섹션[에서 여정 속성 특성 &#x200B;](../building-journeys/expression/journey-properties.md#journey-properties-fields)에 대해 자세히 알아보세요.
+>문제를 해결하려면 여정을 쿼리할 때 journeyVersionName 대신 journeyVersionID를 사용하는 것이 좋습니다. 이 섹션[에서 여정 속성 특성 ](../building-journeys/expression/journey-properties.md#journey-properties-fields)에 대해 자세히 알아보세요.
 
 +++
 
@@ -124,7 +126,6 @@ WHERE
     _experience.journeyOrchestration.stepEvents.instanceID = 'unitary_089dc93a-1970-4875-9660-22433b18e500';
 ```
 
-![삭제된 프로필 세부 정보를 보여 주는 예제 쿼리 결과](assets/query-discarded-profiles.png)
 
 쿼리 결과에 프로필이 삭제된 이유를 식별하는 데 도움이 되는 주요 필드가 표시됩니다.
 
@@ -1068,7 +1069,7 @@ _데이터 레이크 쿼리_
 SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp) FROM journey_step_events
 where
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventID = '<eventId>' AND
-_experience.journeyOrchestration.profile.ID = '<profileId>' AND
+_experience.journeyOrchestration.profile.ID = '<profileID>' AND
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
 ```

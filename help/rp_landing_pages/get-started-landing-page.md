@@ -5,9 +5,9 @@ title: 시작하기
 description: Adobe Journey Optimizer 시작
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 5ff7987c00afda3263cb97654967c5b698f726c2
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '587'
 ht-degree: 9%
 
 ---
@@ -24,7 +24,7 @@ Adobe Journey Optimizer의 기본 사항과 이를 통해 규모에 맞게 데�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Journey Optimizer란?
 
@@ -34,7 +34,7 @@ Journey Optimizer란?
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 작동 방식 이해
 
@@ -44,7 +44,7 @@ Journey Optimizer을 Adobe Experience Platform과 통합하는 방법과 주요 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list.svg)
 
 주요 용어
 
@@ -61,7 +61,7 @@ Journey Optimizer을 자신 있게 탐색하는 데 도움이 되는 필수 용�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/user.svg)
 
 마케터용
 
@@ -71,7 +71,7 @@ Journey Optimizer을 자신 있게 탐색하는 데 도움이 되는 필수 용�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 데이터 엔지니어용
 
@@ -81,13 +81,23 @@ Journey Optimizer을 자신 있게 탐색하는 데 도움이 되는 필수 용�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 관리자용
 
 환경을 설정하고, 권한을 관리하고, 조직에 대한 채널을 구성합니다.
 
 [관리자로 시작](../using/start/path/administrator.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
+
+개발자용
+
+모바일 앱을 통합하고, 웹 SDK를 구현하고, 이벤트를 구성하고, 사용자 지정 통합을 빌드합니다.
+
+[개발자로 시작](../using/start/path/developer.md)
 :::
 
 ::::
@@ -100,7 +110,7 @@ Journey Optimizer을 자신 있게 탐색하는 데 도움이 되는 필수 용�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/layout.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 인터페이스 탐색
 
@@ -110,7 +120,7 @@ Journey Optimizer 인터페이스를 사용하고, 주요 기능에 액세스하
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 검색 및 구성
 
@@ -120,7 +130,7 @@ Journey Optimizer 인터페이스를 사용하고, 주요 기능에 액세스하
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 AI 및 지능형 기능
 
@@ -145,17 +155,17 @@ AI가 어떻게 콘텐츠를 만들고, 전송 시간을 최적화하고, 보다
 * **[사용 사례 플레이북](../using/start/ai-features.md#playbooks)** - 포기한 장바구니 복구 및 환영 캠페인과 같은 일반적인 시나리오에 대해 미리 빌드된 워크플로
 * **[모니터링 및 문제 해결](troubleshoot-journey-landing-page.md)** - 성능을 추적하고, 문제를 식별하고, 문제를 빠르게 해결하는 도구입니다.
 * **[새로운 기능](../using/rn/release-notes.md)** - 최신 기능, 개선 사항 및 수정 사항을 최신 상태로 유지하세요.
-* **[커뮤니티 포럼](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"}** - 다른 사용자와 연결하고 질문하고 모범 사례를 공유합니다.
+* **[커뮤니티 포럼](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}** - 다른 사용자와 연결하고 질문하고 모범 사례를 공유합니다.
 * **[설명서 업데이트](../using/rn/documentation-updates.md)** - 설명서의 최근 변경 사항 및 추가 사항에 대한 최신 정보 유지
 
 ## 시작할 준비가 되셨습니까?
 
 자신에게 적합한 경로 선택:
 
-* Journey Optimizer을 처음 사용하십니까?**&#x200B;** [(으)로 시작 Journey Optimizer이란?](../using/start/get-started.md) - 기본 사항 이해
+* Journey Optimizer을 처음 사용하십니까?**** [(으)로 시작 Journey Optimizer이란?](../using/start/get-started.md) - 기본 사항 이해
 * **역할을 알고 계신가요?** 책임과 일치하는 [역할별 가이드](../using/start/quick-start.md)(으)로 이동
 * **살펴보시겠습니까?** [AI 기능 검색](../using/start/ai-features.md) 또는 [사용 사례 플레이북 사용](../using/start/ai-features.md#playbooks) 시도
-* **도움이 필요하십니까?** [문제 해결 가이드](../using/start/troubleshooting.md)를 확인하거나 [커뮤니티 포럼](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"}을 방문하세요.
+* **도움이 필요하십니까?** [문제 해결 가이드](../using/start/troubleshooting.md)를 확인하거나 [커뮤니티 포럼](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}을 방문하세요.
 
 ## 빠른 링크 {#quick-links}
 
