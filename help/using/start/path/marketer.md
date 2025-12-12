@@ -7,9 +7,9 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: e86fa9f6e62aea9dd1f7e6d35e7cf4b20f79aaa6
+source-git-commit: 6fbb9f3d47f4299b35214be4966aafb8151183a2
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1122'
 ht-degree: 6%
 
 ---
@@ -26,11 +26,12 @@ Journey Optimizer을 사용하면 이메일, SMS, 푸시, 인앱, 웹, 콘텐츠
 
 1. **대상자 만들기**. 세그먼트 정의를 통해 대상자를 만들거나, CSV 파일을 업로드하거나, 대상자 구성을 사용하십시오. Journey Optimizer은 적합한 고객을 타깃팅하는 다양한 방법을 제공합니다. [대상](../../audience/about-audiences.md) 및 [세그먼트 정의 만들기](../../audience/creating-a-segment-definition.md)에 대해 자세히 알아보세요.
 
-1. **콘텐츠 디자인**. 여러 채널에서 매력적인 메시지 만들기:
+1. **콘텐츠 디자인**. 이메일, SMS, 푸시, 인앱, 웹 및 콘텐츠 카드를 포함하여 모든 채널에서 매력적인 메시지 만들기:
    * **AI Assistant**&#x200B;을(를) 사용하여 브랜드 지침을 기반으로 이메일 콘텐츠, 제목 줄 및 이미지를 생성합니다. [AI 콘텐츠 생성에 대해 알아보기](../../content-management/gs-generative.md)
    * 고객 데이터, 다이내믹 콘텐츠 및 조건부 논리를 사용하여 **메시지를 개인 설정**&#x200B;합니다. [개인화에 대해 알아보기](../../personalization/personalize.md)
    * 이벤트, 사용자 지정 작업 및 데이터 집합 조회의 동적 목록을 표시하려면 **컨텍스트 데이터를 반복합니다**. [컨텍스트 데이터 반복에 대해 알아보기](../../personalization/iterate-contextual-data.md)
    * 브랜드 일관성을 유지하기 위해 재사용 가능한 **콘텐츠 템플릿** 및 **조각**&#x200B;을 만듭니다. [템플릿 작업](../../content-management/content-templates.md)
+   * 모바일 앱 및 웹 사이트에서 지속적이고 비간섭적인 **콘텐츠 카드**&#x200B;를 제공합니다. 푸시 알림과 달리 콘텐츠 카드는 해제될 때까지 계속 표시됩니다. [콘텐츠 카드에 대해 알아보기](../../content-card/create-content-card.md)
    * **Adobe Experience Manager Assets** 통합으로 자산을 관리합니다. [에셋에 대해 알아보기](../../integrations/assets.md)
 
    ![](../assets/perso_ee2.png)
@@ -43,7 +44,8 @@ Journey Optimizer을 사용하면 이메일, SMS, 푸시, 인앱, 웹, 콘텐츠
    * **테스트 프로필**&#x200B;을 사용하여 개인 맞춤화를 미리 보고 장치 간 렌더링을 확인하십시오.
    * CSV/JSON 파일의 **샘플 데이터**(으)로 테스트
    * 인기 있는 전자 메일 클라이언트에서 **전자 메일 렌더링** 미리 보기
-   * 캠페인 및 여정에 대해 **승인 워크플로**&#x200B;를 설정합니다(추가 라이선스 필요).
+   * 콘텐츠 변형을 최적화하려면 **A/B 테스트 및 실험**&#x200B;을 실행하십시오. multi-armed bandit 실험을 사용하여 실시간으로 더 많은 트래픽을 승리 변형에 자동으로 할당합니다. [실험에 대해 알아보기](../../content-management/content-experiment.md)
+   * 캠페인 및 여정에 대해 **승인 워크플로**&#x200B;를 설정합니다(추가 라이선스 필요). [승인에 대해 알아보기](../../test-approve/gs-approval.md)
 
    [메시지 테스트 및 유효성 검사](../../content-management/preview-test.md)하는 방법을 알아보세요.
 
@@ -53,7 +55,7 @@ Journey Optimizer을 사용하면 이메일, SMS, 푸시, 인앱, 웹, 콘텐츠
    * 고객 데이터를 기반으로 개인화된 경로를 만들려면 **조건**&#x200B;을 추가하십시오.
    * **대기 활동**&#x200B;을 사용하여 메시지 사이에 완벽한 타이밍을 만드십시오.
    * 한 여정 내에서 **여러 채널**&#x200B;을 통해 메시지 보내기
-   * 여정 효과를 최적화하려면 **A/B 테스트**&#x200B;를 적용하세요.
+   * **A/B 테스트**&#x200B;를 적용하고 전송 시간을 최적화하여 참여를 극대화합니다.
    * **데이터 집합 조회**&#x200B;를 사용하여 Adobe Experience Platform의 실시간 데이터로 여정을 보강합니다. [데이터 세트 조회에 대해 알아보기](../../building-journeys/dataset-lookup.md)
    * **보조 식별자**&#x200B;을(를) 활용하여 동일한 프로필에서 여러 여정 인스턴스(예: 다른 주문 또는 예약)를 입력할 수 있도록 합니다. [보조 식별자에 대해 알아보기](../../building-journeys/supplemental-identifier.md)
 
@@ -66,22 +68,9 @@ Journey Optimizer을 사용하면 이메일, SMS, 푸시, 인앱, 웹, 콘텐츠
    * **메시지 게재** 비율 및 참여 지표 분석
    * Customer Journey Analytics 통합으로 **보고 대시보드** 사용
    * **전환** 및 비즈니스 영향 추적
+   * 과도한 통신을 방지하기 위해 충돌 관리 규칙을 사용하여 **메시지 빈도 및 우선 순위 지정**&#x200B;을(를) 관리합니다. [충돌 관리에 대해 알아보기](../../conflict-prioritization/gs-conflict-prioritization.md)
 
    [성능을 모니터링](../../reports/report-gs-cja.md)하는 방법에 대해 알아봅니다.
-
-## 최신 기능 활용
-
-Journey Optimizer은 마케팅 효과를 높이기 위해 새로운 기능으로 지속적으로 발전합니다.
-
-* **콘텐츠 카드**: 사용자가 편리하게 이용할 수 있는 모바일 앱 및 웹 사이트 내에서 지속적이고 비간섭적인 메시지를 전달합니다. 푸시 알림과 달리 콘텐츠 카드는 해제될 때까지 계속 표시됩니다. [콘텐츠 카드에 대해 알아보기](../../content-card/create-content-card.md)
-
-* **충돌 관리 및 우선 순위 지정**: 메시지 빈도를 제어하고 고급 최대 가용량 규칙을 사용한 과도한 통신을 방지합니다. 가장 중요한 메시지가 고객에게 먼저 도달하도록 우선 순위 점수를 설정하십시오. [충돌 관리에 대해 알아보기](../../conflict-prioritization/gs-conflict-prioritization.md)
-
-* **AI 기반 전송 시간 최적화**: AI가 고객의 참여 패턴을 기반으로 각 고객에 대한 최적의 전송 시간을 예측하여 오픈 및 클릭률을 최대 10%까지 높일 수 있습니다. [전송 시간 최적화에 대해 알아보기](../../building-journeys/send-time-optimization.md)
-
-* **Multi-Armed Bandit 실험**: 테스트 중에 실시간으로 더 많은 트래픽을 승리 변형에 자동으로 할당하여 테스트 완료를 기다리지 않고 결과를 극대화합니다. [실험에 대해 알아보기](../../content-management/content-experiment.md)
-
-* **승인 워크플로**: 캠페인 및 여정이 실행되기 전에 검토 프로세스를 구현합니다(추가 라이선스에서 사용 가능). [승인에 대해 알아보기](../../test-approve/gs-approval.md)
 
 ## 성공을 위한 우수 사례
 
@@ -165,5 +154,5 @@ Journey Optimizer 기능을 보여 주는 실제 사례를 통해 알아보십�
 
 1. **작게 시작**: 플랫폼을 학습하려면 간단한 시작 여정 또는 단일 메시지 캠페인을 만드십시오.
 2. **AI 활용**: AI Assistant를 사용하여 질문하고 콘텐츠 생성 속도를 높입니다.
-3. **커뮤니티에 참여**: [Experience League 커뮤니티에서 다른 Journey Optimizer 사용자와 연결](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"}
+3. **커뮤니티에 참여**: [Experience League 커뮤니티에서 다른 Journey Optimizer 사용자와 연결](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}
 4. **튜토리얼 살펴보기**: [Experience League](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=ko){target="_blank"}에서 단계별 비디오 보기
