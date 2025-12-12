@@ -7,10 +7,10 @@ feature: Get Started
 role: Developer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 344a5509731b455ee283af22bfdd8c67e028b83e
+source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
 workflow-type: tm+mt
-source-wordcount: '848'
-ht-degree: 50%
+source-wordcount: '817'
+ht-degree: 51%
 
 ---
 
@@ -53,7 +53,7 @@ Journey Optimizer에 대한 데이터 기반을 설정하려면 다음 단계를
 
 * **이벤트**&#x200B;를 사용하면 여정을 통합적으로 트리거하여 여정에 참여하는 개인에게 실시간으로 메시지를 보낼 수 있습니다. 이벤트 구성에서 여정에서 예상되는 이벤트를 구성합니다. 수신되는 이벤트 데이터는 Adobe Experience 데이터 모델(XDM)에 따라 표준화됩니다. 이벤트는 인증된 이벤트와 인증되지 않은 이벤트(예: Adobe Mobile SDK 이벤트)를 위한 수집 API 스트리밍에서 옵니다. [이 섹션에서](../../event/about-events.md) 이벤트에 대해 자세히 알아보세요.
 
-* [!DNL Journey Optimizer]에는 메시지 기능이 기본 제공됩니다. 여정 내에서 메시지를 만들고 콘텐츠를 디자인할 수 있습니다. Adobe Campaign과 같은 타사 시스템을 사용하여 메시지를 보내는 경우 **사용자 정의 작업**&#x200B;을 만듭니다. 이 섹션[에서 &#x200B;](../../action/action.md) 작업에 대해 자세히 알아보세요.
+* [!DNL Journey Optimizer]에는 메시지 기능이 기본 제공됩니다. 여정 내에서 메시지를 만들고 콘텐츠를 디자인할 수 있습니다. Adobe Campaign과 같은 타사 시스템을 사용하여 메시지를 보내는 경우 **사용자 정의 작업**&#x200B;을 만듭니다. 이 섹션[에서 ](../../action/action.md) 작업에 대해 자세히 알아보세요.
 
 ## 여정 데이터 모니터링 및 분석
 
@@ -73,9 +73,4 @@ Journey Optimizer에 대한 데이터 기반을 설정하려면 다음 단계를
 
 * **[릴리스 정보](../../rn/release-notes.md)**: 매월 릴리스되는 새로운 기능, 개선 사항 및 수정 사항을 검토합니다.
 * **[설명서 업데이트](../../rn/documentation-updates.md)**: 새 페이지 및 업데이트된 콘텐츠를 포함하여 설명서의 최근 변경 내용을 추적합니다.
-* **제품 알림**: [Adobe Experience Cloud 프로필](https://experience.adobe.com/preferences){target="_blank"}에서 알림을 활성화하여 다음에 대한 알림을 받을 수 있습니다.
-   * 새로운 제품 릴리스 및 기능
-   * 유지 관리 기간 및 시스템 업데이트
-   * 중요 공지 및 변경 사항
-
-  알림을 활성화하려면 Adobe Experience Cloud 오른쪽 상단의 프로필 아이콘을 클릭하고 **환경 설정 > 알림**(으)로 이동한 다음 Journey Optimizer 알림 환경 설정을 구성하십시오.
+* **[제품 알림](../../rn/releases.md#staying-informed)**: 새로운 기능, 유지 관리 기간 및 중요한 시스템 변경 사항을 포함하여 Journey Optimizer 업데이트에 대한 이메일 및 제품 내 알림을 구독하는 방법을 알아봅니다.

@@ -8,9 +8,9 @@ role: Admin, Developer, User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
-source-git-commit: 344a5509731b455ee283af22bfdd8c67e028b83e
+source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
 workflow-type: tm+mt
-source-wordcount: '1585'
+source-wordcount: '1570'
 ht-degree: 14%
 
 ---
@@ -176,7 +176,7 @@ Journey Optimizer 구현이 성공하려면 모든 역할에서 공동 작업이
 
 Journey Optimizer의 주요 기능 및 페르소나에 대해 자세히 알아보려면 소개 비디오를 시청하십시오. 이 비디오는 사용자 인터페이스를 안내하고 역할별 워크플로를 기반으로 주요 기능을 설명합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430319?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 ## 추가 리소스
 
@@ -193,9 +193,9 @@ Journey Optimizer의 주요 기능 및 페르소나에 대해 자세히 알아�
 
 * [릴리스 정보](../rn/release-notes.md) - 최신 기능, 개선 사항 및 수정 사항
 * [설명서 업데이트](../rn/documentation-updates.md) - 최근 설명서 변경 내용 추적
-* **제품 알림** - [Adobe Experience Cloud 프로필](https://experience.adobe.com/preferences){target="_blank"}에서 알림을 활성화하여 새로운 릴리스, 유지 관리 기간 및 중요 공지 사항에 대한 알림을 받을 수 있습니다. 프로필 아이콘 > 환경 설정 > 알림 을 클릭하여 구성합니다.
+* [제품 알림](../rn/releases.md#staying-informed) - Journey Optimizer 업데이트에 대한 이메일 및 제품 내 알림을 구독하는 방법을 알아봅니다.
 
 **커뮤니티 및 지원:**
 
-* [Experience League 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"} - 다른 사용자 및 전문가와 연결
-* [제품 포럼](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"} - 질문하고 정보를 공유합니다.
+* [Experience League 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} - 다른 사용자 및 전문가와 연결
+* [제품 포럼](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} - 질문하고 정보를 공유합니다.

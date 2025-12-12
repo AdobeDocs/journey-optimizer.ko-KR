@@ -5,16 +5,16 @@ feature: Get Started
 role: Developer
 level: Experienced
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
-source-git-commit: 5ff7987c00afda3263cb97654967c5b698f726c2
+source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
 workflow-type: tm+mt
-source-wordcount: '1891'
+source-wordcount: '1886'
 ht-degree: 2%
 
 ---
 
 # 개발자를 위한 시작 {#get-started-developers}
 
-**개발자**&#x200B;로서 [!DNL Adobe Journey Optimizer]을(를) 구현하고 응용 프로그램 및 시스템에 통합해야 합니다. [!DNL Adobe Journey Optimizer]시스템 관리자[&#x200B; 및 &#x200B;](administrator.md)데이터 엔지니어[가 액세스 권한을 부여하고 환경을 준비하면 &#x200B;](data-engineer.md)(으)로 작업을 시작할 수 있습니다.
+**개발자**&#x200B;로서 [!DNL Adobe Journey Optimizer]을(를) 구현하고 응용 프로그램 및 시스템에 통합해야 합니다. [!DNL Adobe Journey Optimizer]시스템 관리자[ 및 ](administrator.md)데이터 엔지니어[가 액세스 권한을 부여하고 환경을 준비하면 ](data-engineer.md)(으)로 작업을 시작할 수 있습니다.
 
 ## Journey Optimizer 생태계에서의 귀하의 역할
 
@@ -34,25 +34,11 @@ ht-degree: 2%
 
 구현을 시작하기 전에 다음을 확인하십시오.
 
-**기술 기술:**
-
-* JavaScript(웹 SDK의 경우) 또는 Swift/Kotlin(모바일 SDK의 경우)을 사용한 경험
-* RESTful API 및 JSON 이해
-* 비동기 프로그래밍 및 이벤트 기반 아키텍처에 대한 지식
-* 조직의 애플리케이션 아키텍처에 대한 지식
-
-**액세스 및 도구:**
-
-* API 자격 증명을 위한 [Adobe Developer Console](https://developer.adobe.com){target="_blank"}에 액세스
-* 애플리케이션의 코드베이스에 액세스할 수 있는 개발 환경
-* API 테스트를 위한 Postman과 같은 테스트 도구
-* 브라우저 개발자 도구 또는 모바일 디버깅 도구
-
-**다른 팀원:**
-
-* [관리자](administrator.md)가 부여한 환경 액세스 권한
-* [데이터 엔지니어](data-engineer.md)의 XDM 스키마 및 이벤트 정의
-* [마케터](marketer.md)의 요구 사항 및 사용 사례
+| 카테고리 | 요구 사항 |
+|----------|-------------|
+| **기술 기술** | * JavaScript(웹 SDK) 또는 Swift/Kotlin(모바일 SDK)에 대한 경험<br>* RESTful API 및 JSON에 대한 이해<br>* 비동기 프로그래밍 및 이벤트 기반 아키텍처에 익숙함<br>* 조직의 애플리케이션 아키텍처에 대한 지식 |
+| **액세스 및 도구** | * API 자격 증명에 대한 [Adobe Developer Console](https://developer.adobe.com){target="_blank"}에 액세스<br>* 응용 프로그램의 코드베이스에 액세스할 수 있는 개발 환경<br>* API 테스트를 위한 Postman과 같은 테스트 도구<br>* 브라우저 개발자 도구 또는 모바일 디버깅 도구 |
+| **다른 팀원의** | * [관리자](administrator.md)<br>*가 부여한 환경 액세스 권한 [데이터 엔지니어](data-engineer.md)<br>*의 XDM 스키마 및 이벤트 정의 [마케터](marketer.md)의 요구 사항 및 사용 사례 |
 
 ## 기술적 토대 이해 {#technical-foundation}
 
@@ -201,7 +187,7 @@ Journey Optimizer은 프로그래밍 방식 액세스를 위한 포괄적인 RES
 
 ## 테스트 및 디버깅 {#testing}
 
-1. **SDK 구현 디버깅**: Adobe Experience Platform Assurance을 사용하여 SDK 이벤트를 검사하고, 데이터 수집을 확인하고, 통합 문제를 실시간으로 해결할 수 있습니다. [Assurance에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=ko){target="_blank"}.
+1. **SDK 구현 디버깅**: Adobe Experience Platform Assurance을 사용하여 SDK 이벤트를 검사하고, 데이터 수집을 확인하고, 통합 문제를 실시간으로 해결할 수 있습니다. [Assurance에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html){target="_blank"}.
 
 1. **여정 배달 테스트**: 응용 프로그램의 이벤트가 Adobe Experience Platform에서 올바르게 수신되는지 확인하고 예상대로 이벤트를 트리거합니다. 이벤트 수집을 모니터링하고 페이로드 구조를 확인합니다.
 
@@ -252,26 +238,36 @@ Journey Optimizer은 프로그래밍 방식 액세스를 위한 포괄적인 RES
 
 구현 작업이 다른 팀 구성원과 교차합니다.
 
-**[데이터 엔지니어와 작업](data-engineer.md):**
+>[!BEGINTABS]
+
+>[!TAB 데이터 엔지니어와 작업]
+
+데이터 및 이벤트 구성에 대해 [데이터 엔지니어](data-engineer.md)와(과) 공동 작업:
 
 * 구현해야 하는 XDM 스키마 및 이벤트 구조 가져오기
 * 전송해야 하는 이벤트와 해당 페이로드 형식을 이해합니다.
 * 데이터 수집 요구 사항 및 데이터 품질 표준 조정
 * 이벤트 전달 및 데이터 수집 함께 테스트
 
-**[관리자](administrator.md):**(으)로 작업
+>[!TAB 관리자 작업]
+
+액세스 및 구성에 대해 [관리자](administrator.md)와(과) 공동 작업:
 
 * 사용자가 구성할 사용자 지정 작업에 대한 API 사양 제공
 * 필요한 권한 및 API 자격 증명 요청
 * 채널 구성 요구 사항(예: 푸시 인증서) 조정
 * 테스트 환경 및 샌드박스 전략에 맞게 조정
 
-**[마케터와 함께 작업](marketer.md):**
+>[!TAB 마케터와 함께 작업]
+
+여정 요구 사항 및 테스트에 대해 [마케터](marketer.md)와 공동 작업:
 
 * 이벤트를 트리거해야 하는 사용자 상호 작용 이해
 * 컨텐츠 성능 및 사용자 참여를 위한 추적 구현
 * 구현된 기능이 포함된 여정 테스트 지원
 * 메시지 게재 또는 개인화 문제 해결
+
+>[!ENDTABS]
 
 ## 업데이트 상태 유지
 
@@ -279,13 +275,7 @@ Journey Optimizer은 프로그래밍 방식 액세스를 위한 포괄적인 RES
 
 * **[릴리스 정보](../../rn/release-notes.md)**: 매달 릴리스되는 새로운 기능, API 변경, SDK 업데이트 및 버그 수정을 검토합니다.
 * **[설명서 업데이트](../../rn/documentation-updates.md)**: 새 구현 안내서 및 코드 예제를 포함하여 기술 설명서에 대한 최근 변경 내용을 추적합니다.
-* **제품 알림**: [Adobe Experience Cloud 프로필](https://experience.adobe.com/preferences){target="_blank"}에서 알림을 활성화하여 다음에 대한 알림을 받을 수 있습니다.
-   * 새로운 SDK 버전 및 API 업데이트
-   * 주요 변경 및 중단
-   * 통합에 영향을 주는 유지 관리 기간
-   * 중요 보안 업데이트
-
-  알림을 활성화하려면 Adobe Experience Cloud 오른쪽 상단의 프로필 아이콘을 클릭하고 **환경 설정 > 알림**(으)로 이동한 다음 Journey Optimizer 알림 환경 설정을 구성하십시오.
+* **[제품 알림](../../rn/releases.md#staying-informed)**: 새 SDK 버전, API 변경, 변경 내용 및 중요 보안 업데이트를 포함하여 Journey Optimizer 업데이트에 대한 이메일 및 제품 내 알림을 구독하는 방법을 알아봅니다.
 
 ## 구현 시작
 

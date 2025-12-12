@@ -7,9 +7,9 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 344a5509731b455ee283af22bfdd8c67e028b83e
+source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
 workflow-type: tm+mt
-source-wordcount: '1516'
+source-wordcount: '1477'
 ht-degree: 3%
 
 ---
@@ -177,17 +177,11 @@ Journey Optimizer 기능을 보여 주는 실제 사례를 통해 알아보십�
 
 * **[릴리스 정보](../../rn/release-notes.md)**: 매달 릴리스되는 새로운 기능, 채널 업데이트 및 개선 사항을 검토합니다.
 * **[설명서 업데이트](../../rn/documentation-updates.md)**: 새로운 사용 사례, 모범 사례 및 기능 설명서를 포함하여 최근 변경 내용을 추적합니다.
-* **제품 알림**: [Adobe Experience Cloud 프로필](https://experience.adobe.com/preferences){target="_blank"}에서 알림을 활성화하여 다음에 대한 알림을 받을 수 있습니다.
-   * 새로운 채널 및 기능
-   * 예정된 기능 실행 및 베타 프로그램
-   * 모범 사례 및 교육 기회
-   * 캠페인에 영향을 주는 중요한 공지
-
-  알림을 활성화하려면 Adobe Experience Cloud 오른쪽 상단의 프로필 아이콘을 클릭하고 **환경 설정 > 알림**(으)로 이동한 다음 Journey Optimizer 알림 환경 설정을 구성하십시오.
+* **[제품 알림](../../rn/releases.md#staying-informed)**: 새 채널, 예정된 기능 실행 및 중요한 캠페인 공지를 포함하여 Journey Optimizer 업데이트에 대한 이메일 및 제품 내 알림을 구독하는 방법을 알아봅니다.
 
 ## 다음 단계
 
 1. **작게 시작**: 플랫폼을 학습하려면 간단한 시작 여정 또는 단일 메시지 캠페인을 만드십시오.
 2. **AI 활용**: AI Assistant를 사용하여 질문하고 콘텐츠 생성 속도를 높입니다.
-3. **커뮤니티에 참여**: [Experience League 커뮤니티에서 다른 Journey Optimizer 사용자와 연결](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"}
+3. **커뮤니티에 참여**: [Experience League 커뮤니티에서 다른 Journey Optimizer 사용자와 연결](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}
 4. **튜토리얼 살펴보기**: [Experience League](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=ko){target="_blank"}에서 단계별 비디오 보기

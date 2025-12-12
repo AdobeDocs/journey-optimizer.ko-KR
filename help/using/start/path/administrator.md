@@ -7,10 +7,10 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 344a5509731b455ee283af22bfdd8c67e028b83e
+source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
 workflow-type: tm+mt
-source-wordcount: '1012'
-ht-degree: 48%
+source-wordcount: '971'
+ht-degree: 50%
 
 ---
 
@@ -104,14 +104,7 @@ ht-degree: 48%
 
 * **[릴리스 정보](../../rn/release-notes.md)**: 매달 릴리스되는 새로운 기능, 플랫폼 업데이트, 보안 패치 및 구성 변경 사항을 검토합니다.
 * **[설명서 업데이트](../../rn/documentation-updates.md)**: 구성 가이드, 권한 업데이트 및 새 관리 기능에 대한 최근 변경 내용을 추적합니다.
-* **제품 알림**: [Adobe Experience Cloud 프로필](https://experience.adobe.com/preferences){target="_blank"}에서 알림을 활성화하여 다음에 대한 중요 알림을 받을 수 있습니다.
-   * 시스템 유지 관리 기간 및 예정된 가동 중지 시간
-   * 보안 업데이트 및 패치
-   * 새로운 관리 기능 및 권한 변경 사항
-   * 라이선스 및 자격 업데이트
-   * 주요 제품 공지
-
-  알림을 활성화하려면 Adobe Experience Cloud 오른쪽 상단의 프로필 아이콘을 클릭하고 **환경 설정 > 알림**(으)로 이동한 다음 Journey Optimizer 알림 환경 설정을 구성하십시오. 관리자는 모든 중요한 시스템 알림을 활성화해야 합니다.
+* **[제품 알림](../../rn/releases.md#staying-informed)**: 시스템 유지 관리, 보안 업데이트 및 중요 제품 알림을 포함하여 Journey Optimizer 업데이트에 대한 전자 메일 및 제품 내 알림을 구독하는 방법을 알아봅니다. 관리자는 모든 중요한 시스템 알림을 활성화해야 합니다
 
 ## 다음 단계
 
