@@ -7,7 +7,7 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 5ff7987c00afda3263cb97654967c5b698f726c2
+source-git-commit: e86fa9f6e62aea9dd1f7e6d35e7cf4b20f79aaa6
 workflow-type: tm+mt
 source-wordcount: '1192'
 ht-degree: 6%
@@ -73,7 +73,7 @@ Journey Optimizer을 사용하면 이메일, SMS, 푸시, 인앱, 웹, 콘텐츠
 
 Journey Optimizer은 마케팅 효과를 높이기 위해 새로운 기능으로 지속적으로 발전합니다.
 
-* **콘텐츠 카드**: 사용자가 편리하게 이용할 수 있는 모바일 앱 및 웹 사이트 내에서 지속적이고 비간섭적인 메시지를 전달합니다. 푸시 알림과 달리 콘텐츠 카드는 해제될 때까지 계속 표시됩니다. [콘텐츠 카드에 대해 알아보기](../../content-card/get-started-content-card.md)
+* **콘텐츠 카드**: 사용자가 편리하게 이용할 수 있는 모바일 앱 및 웹 사이트 내에서 지속적이고 비간섭적인 메시지를 전달합니다. 푸시 알림과 달리 콘텐츠 카드는 해제될 때까지 계속 표시됩니다. [콘텐츠 카드에 대해 알아보기](../../content-card/create-content-card.md)
 
 * **충돌 관리 및 우선 순위 지정**: 메시지 빈도를 제어하고 고급 최대 가용량 규칙을 사용한 과도한 통신을 방지합니다. 가장 중요한 메시지가 고객에게 먼저 도달하도록 우선 순위 점수를 설정하십시오. [충돌 관리에 대해 알아보기](../../conflict-prioritization/gs-conflict-prioritization.md)
 
@@ -165,5 +165,5 @@ Journey Optimizer 기능을 보여 주는 실제 사례를 통해 알아보십�
 
 1. **작게 시작**: 플랫폼을 학습하려면 간단한 시작 여정 또는 단일 메시지 캠페인을 만드십시오.
 2. **AI 활용**: AI Assistant를 사용하여 질문하고 콘텐츠 생성 속도를 높입니다.
-3. **커뮤니티에 참여**: [Experience League 커뮤니티에서 다른 Journey Optimizer 사용자와 연결](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"}
+3. **커뮤니티에 참여**: [Experience League 커뮤니티에서 다른 Journey Optimizer 사용자와 연결](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}
 4. **튜토리얼 살펴보기**: [Experience League](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=ko){target="_blank"}에서 단계별 비디오 보기
