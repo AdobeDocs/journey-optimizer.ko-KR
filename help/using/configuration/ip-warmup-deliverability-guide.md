@@ -145,7 +145,7 @@ Adobe Journey Optimizer은 IP 웜업 성능을 추적하는 내장 보고 기능
 
 Adobe Journey Optimizer의 IP 웜업에 대한 전달성 기본 사항, 평판 구축 및 모범 사례에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3457695/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3463789/?captions=kor&learn=on)
 
 <!--
 >[!NOTE]
