@@ -7,10 +7,10 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
+source-git-commit: 2d699fe8a3320400dad2d5d962028d6e2a5425f8
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 50%
+source-wordcount: '965'
+ht-degree: 51%
 
 ---
 
@@ -88,23 +88,40 @@ ht-degree: 50%
 
 * **IP 준비 계획**: 전자 메일 공급자를 통해 보낸 사람의 평판을 구축하기 위해 전자 메일 전송 볼륨을 점차 늘립니다. [자세히 알아보기](../../configuration/ip-warmup-gs.md)
 
-## 다른 역할과 공동 작업
+## 여러 역할에 걸쳐 공동 작업
 
 귀하의 관리 작업을 통해 모든 팀이 성공할 수 있습니다.
 
-* **지원 [데이터 엔지니어](data-engineer.md)**: 데이터 관리에 대한 권한 부여, 샌드박스 액세스 승인 및 데이터 보존 정책 조정
+>[!BEGINTABS]
 
-* **[개발자 사용](developer.md)**: API 자격 증명을 제공하고 테스트용 샌드박스 환경을 설정하고 채널 구성을 승인합니다.
+>[!TAB 데이터 엔지니어 지원]
 
-* **[마케터](marketer.md)** 권한 부여: 적절한 권한을 할당하여 여정 및 캠페인을 만들고, 사용할 채널을 구성하고, 테스트 환경을 지원합니다.
+데이터 관리 및 액세스에 대해 [데이터 엔지니어](data-engineer.md)와 공동 작업:
 
-## 업데이트 상태 유지
+* 데이터 관리 및 스키마 생성에 대한 권한 부여
+* 개발 및 테스트를 위한 샌드박스 액세스 승인
+* 데이터 보존 정책 및 거버넌스 규칙 조정
+* Federated Audience Composition과 같은 고급 기능에 액세스 활성화
 
-최신 Journey Optimizer 플랫폼 업데이트 및 관리 변경 사항을 최신 상태로 유지하십시오.
+>[!TAB 개발자 사용]
 
-* **[릴리스 정보](../../rn/release-notes.md)**: 매달 릴리스되는 새로운 기능, 플랫폼 업데이트, 보안 패치 및 구성 변경 사항을 검토합니다.
-* **[설명서 업데이트](../../rn/documentation-updates.md)**: 구성 가이드, 권한 업데이트 및 새 관리 기능에 대한 최근 변경 내용을 추적합니다.
-* **[제품 알림](../../rn/releases.md#staying-informed)**: 시스템 유지 관리, 보안 업데이트 및 중요 제품 알림을 포함하여 Journey Optimizer 업데이트에 대한 전자 메일 및 제품 내 알림을 구독하는 방법을 알아봅니다. 관리자는 모든 중요한 시스템 알림을 활성화해야 합니다
+API 액세스 및 테스트와 관련하여 [개발자](developer.md)와(과) 공동 작업:
+
+* Adobe Developer Console을 통해 API 자격 증명 제공
+* 개발 및 테스트를 위한 샌드박스 환경 설정
+* 채널 구성 승인(푸시 인증서, SMS 공급자)
+* 테스트 환경 및 배포 전략 조정
+
+>[!TAB 마케터 권한 부여]
+
+권한 및 채널 설정에 대해 [마케터](marketer.md)와(과) 공동 작업:
+
+* 여정 및 캠페인을 만들기 위해 적절한 권한 할당
+* 사용할 채널 구성(이메일, 푸시, SMS 등)
+* 테스트 환경 및 승인 워크플로 지원
+* 새로운 기능에 대한 액세스 활성화
+
+>[!ENDTABS]
 
 ## 다음 단계
 

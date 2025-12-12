@@ -5,16 +5,16 @@ feature: Get Started
 role: Developer
 level: Experienced
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
-source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
+source-git-commit: 2d699fe8a3320400dad2d5d962028d6e2a5425f8
 workflow-type: tm+mt
-source-wordcount: '1886'
+source-wordcount: '1816'
 ht-degree: 2%
 
 ---
 
 # 개발자를 위한 시작 {#get-started-developers}
 
-**개발자**&#x200B;로서 [!DNL Adobe Journey Optimizer]을(를) 구현하고 응용 프로그램 및 시스템에 통합해야 합니다. [!DNL Adobe Journey Optimizer]시스템 관리자[&#x200B; 및 &#x200B;](administrator.md)데이터 엔지니어[가 액세스 권한을 부여하고 환경을 준비하면 &#x200B;](data-engineer.md)(으)로 작업을 시작할 수 있습니다.
+**개발자**&#x200B;로서 [!DNL Adobe Journey Optimizer]을(를) 구현하고 응용 프로그램 및 시스템에 통합해야 합니다. [!DNL Adobe Journey Optimizer]시스템 관리자[ 및 ](administrator.md)데이터 엔지니어[가 액세스 권한을 부여하고 환경을 준비하면 ](data-engineer.md)(으)로 작업을 시작할 수 있습니다.
 
 ## Journey Optimizer 생태계에서의 귀하의 역할
 
@@ -187,7 +187,7 @@ Journey Optimizer은 프로그래밍 방식 액세스를 위한 포괄적인 RES
 
 ## 테스트 및 디버깅 {#testing}
 
-1. **SDK 구현 디버깅**: Adobe Experience Platform Assurance을 사용하여 SDK 이벤트를 검사하고, 데이터 수집을 확인하고, 통합 문제를 실시간으로 해결할 수 있습니다. [Assurance에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=ko){target="_blank"}.
+1. **SDK 구현 디버깅**: Adobe Experience Platform Assurance을 사용하여 SDK 이벤트를 검사하고, 데이터 수집을 확인하고, 통합 문제를 실시간으로 해결할 수 있습니다. [Assurance에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html){target="_blank"}.
 
 1. **여정 배달 테스트**: 응용 프로그램의 이벤트가 Adobe Experience Platform에서 올바르게 수신되는지 확인하고 예상대로 이벤트를 트리거합니다. 이벤트 수집을 모니터링하고 페이로드 구조를 확인합니다.
 
@@ -268,14 +268,6 @@ Journey Optimizer은 프로그래밍 방식 액세스를 위한 포괄적인 RES
 * 메시지 게재 또는 개인화 문제 해결
 
 >[!ENDTABS]
-
-## 업데이트 상태 유지
-
-최신 Journey Optimizer 기능 및 기술 변경 사항을 따라가십시오.
-
-* **[릴리스 정보](../../rn/release-notes.md)**: 매달 릴리스되는 새로운 기능, API 변경, SDK 업데이트 및 버그 수정을 검토합니다.
-* **[설명서 업데이트](../../rn/documentation-updates.md)**: 새 구현 안내서 및 코드 예제를 포함하여 기술 설명서에 대한 최근 변경 내용을 추적합니다.
-* **[제품 알림](../../rn/releases.md#staying-informed)**: 새 SDK 버전, API 변경, 변경 내용 및 중요 보안 업데이트를 포함하여 Journey Optimizer 업데이트에 대한 이메일 및 제품 내 알림을 구독하는 방법을 알아봅니다.
 
 ## 구현 시작
 
