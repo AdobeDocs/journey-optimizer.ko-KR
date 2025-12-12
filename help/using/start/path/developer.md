@@ -201,7 +201,7 @@ Journey Optimizer은 프로그래밍 방식 액세스를 위한 포괄적인 RES
 
 ## 테스트 및 디버깅 {#testing}
 
-1. **SDK 구현 디버깅**: Adobe Experience Platform Assurance을 사용하여 SDK 이벤트를 검사하고, 데이터 수집을 확인하고, 통합 문제를 실시간으로 해결할 수 있습니다. [Assurance에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html){target="_blank"}.
+1. **SDK 구현 디버깅**: Adobe Experience Platform Assurance을 사용하여 SDK 이벤트를 검사하고, 데이터 수집을 확인하고, 통합 문제를 실시간으로 해결할 수 있습니다. [Assurance에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=ko){target="_blank"}.
 
 1. **여정 배달 테스트**: 응용 프로그램의 이벤트가 Adobe Experience Platform에서 올바르게 수신되는지 확인하고 예상대로 이벤트를 트리거합니다. 이벤트 수집을 모니터링하고 페이로드 구조를 확인합니다.
 
