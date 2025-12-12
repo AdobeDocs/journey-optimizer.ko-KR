@@ -19,7 +19,7 @@ ht-degree: 5%
 
 Adobe Journey Optimizer에서 새로운 IP 주소 또는 도메인으로 이메일 캠페인을 시작할 때 강력한 발신자 평판을 구축하려면 게재 기능의 기본 사항을 이해하는 것이 중요합니다. 이 안내서에서는 평판이 0에서 성공적인 받은 편지함 배치로 전환하는 데 도움이 되는 주요 개념, 준비 단계 및 모범 사례를 다룹니다.
 
-➡️ 이 [Adobe 블로그 게시물](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950){target="_blank"}의 비디오에서 게재 가능성 기본 사항, 평판 구축 및 IP 웜업에 대한 모범 사례에 대해 알아봅니다.
+➡️ 이 [Adobe 블로그 게시물](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950?profile.language=ko){target="_blank"}의 비디오에서 게재 가능성 기본 사항, 평판 구축 및 IP 웜업에 대한 모범 사례에 대해 알아봅니다.
 
 >[!NOTE]
 >
@@ -135,7 +135,7 @@ Adobe Journey Optimizer은 IP 웜업 성능을 추적하는 내장 보고 기능
 <!--
 >[!NOTE]
 >
->For more guidance, explore the [Adobe Journey Optimizer Deliverability Guide blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950).-->
+>For more guidance, explore the [Adobe Journey Optimizer Deliverability Guide blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950?profile.language=ko).-->
 
 ## 관련 항목 {#related-topics}
 
