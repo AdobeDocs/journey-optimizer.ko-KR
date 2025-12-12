@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # 개발자를 위한 시작 {#get-started-developers}
 
-**개발자**&#x200B;로서 [!DNL Adobe Journey Optimizer]을(를) 구현하고 응용 프로그램 및 시스템에 통합해야 합니다. [!DNL Adobe Journey Optimizer]시스템 관리자[ 및 ](administrator.md)데이터 엔지니어[가 액세스 권한을 부여하고 환경을 준비하면 ](data-engineer.md)(으)로 작업을 시작할 수 있습니다.
+**개발자**&#x200B;로서 [!DNL Adobe Journey Optimizer]을(를) 구현하고 응용 프로그램 및 시스템에 통합해야 합니다. [!DNL Adobe Journey Optimizer]시스템 관리자[&#x200B; 및 &#x200B;](administrator.md)데이터 엔지니어[가 액세스 권한을 부여하고 환경을 준비하면 &#x200B;](data-engineer.md)(으)로 작업을 시작할 수 있습니다.
 
 ## Journey Optimizer 생태계에서의 귀하의 역할
 
