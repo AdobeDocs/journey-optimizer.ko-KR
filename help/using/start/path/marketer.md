@@ -7,20 +7,27 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 6fbb9f3d47f4299b35214be4966aafb8151183a2
+source-git-commit: 344a5509731b455ee283af22bfdd8c67e028b83e
 workflow-type: tm+mt
-source-wordcount: '1122'
-ht-degree: 6%
+source-wordcount: '1516'
+ht-degree: 3%
 
 ---
 
 # 마케터를 위한 시작 {#get-started-marketers}
 
-**마케터** 또는 **여정 실무자**&#x200B;는 오퍼 및 여정을 만들고 콘텐츠를 디자인할 책임이 있습니다. [시스템 관리자](administrator.md) 및 [데이터 엔지니어](data-engineer.md)에 액세스 권한을 부여하고 환경을 준비하면 [!DNL Adobe Journey Optimizer] (으)로 작업을 시작할 수 있습니다.
+**마케터** 또는 **비즈니스 전문가**&#x200B;로서, 고객에게 개인적이고 상황에 맞는 경험을 제공하기 위해 고객 여정을 디자인합니다. 메시지 콘텐츠를 지능적으로 개인화하기 위해 이메일 및 푸시 메시지, 오퍼 및 의사 결정 구성 요소를 포함하여 이러한 개인화된 여정의 모든 다양한 구성 요소를 만들고 관리합니다. Journey Optimizer은 전체 엔드 투 엔드 사용 사례를 한 곳에서 구현할 수 있는 통합 사용자 경험을 제공합니다. [시스템 관리자](administrator.md) 및 [데이터 엔지니어](data-engineer.md)에 액세스 권한을 부여하고 환경을 준비하면 [!DNL Adobe Journey Optimizer] (으)로 작업을 시작할 수 있습니다.
 
 ## 기본 사항 시작
 
-Journey Optimizer을 사용하면 이메일, SMS, 푸시, 인앱, 웹, 콘텐츠 카드 등에서 개인화되고 연결된 고객 경험을 만들 수 있습니다. [관리자](administrator.md)와(과) 협력하여 액세스 권한을 얻고 [데이터 엔지니어](data-engineer.md)와(과) 협력하여 대상 및 데이터를 설정합니다.
+Journey Optimizer은 실시간 고객 통찰력, 최신 옴니채널 오케스트레이션 및 지능형 의사 결정을 단일 애플리케이션에 통합합니다. 이메일, SMS, 푸시, 인앱, 웹, 콘텐츠 카드 등에서 개인화되고 연결된 고객 경험을 만듭니다.
+
+Journey Optimizer은 두 가지 강력한 오케스트레이션 접근 방식을 제공합니다.
+
+* **여정**: 비헤이비어 또는 이벤트에 의해 트리거된 각 고객이 원하는 속도로 진행하는 실시간 일대일 참여
+* **오케스트레이션된 캠페인**: 워크플로우를 통해 대상자가 함께 진행하는 규모의 복잡한 여러 단계 일괄 처리 캠페인으로 계절별 프로모션, 제품 출시 또는 계정 기반 통신과 같은 브랜드 주도 캠페인에 적합합니다.
+
+[관리자](administrator.md)와(과) 협력하여 액세스 권한을 얻고 [데이터 엔지니어](data-engineer.md)와(과) 협력하여 고급 세분화를 위한 대상, 데이터 및 관계형 스키마를 설정하십시오.
 
 다음 핵심 단계에 따라 경험 빌드를 시작하십시오.
 
@@ -63,6 +70,17 @@ Journey Optimizer을 사용하면 이메일, SMS, 푸시, 인앱, 웹, 콘텐츠
 
    [여정을 디자인 및 실행](../../building-journeys/journey-gs.md)하고 [여정 사용 사례](../../building-journeys/jo-use-cases.md)를 살펴보는 방법에 대해 알아봅니다. 프로필 흐름을 제어하려면 [시작/종료 기준](../../building-journeys/entry-exit-criteria-guide.md)을 이해하십시오.
 
+1. **오케스트레이션된 캠페인을 시작**. 시각적 캔버스를 사용하여 복잡한 여러 단계 일괄 처리 캠페인을 규모에 맞게 디자인할 수 있습니다.
+
+   * 관계형 쿼리를 사용하여 즉시 **온디맨드 대상**&#x200B;을 만들어 고객 데이터를 계정, 구매, 구독 및 기타 엔터티에 연결합니다.
+   * 정확한 타겟팅을 위해 **다중 엔티티 세그멘테이션**&#x200B;을(를) 만듭니다(예: &quot;30일 후에 만료되는 구독이 있는 고객&quot; 또는 &quot;최근 고가치 구매가 있는 계정&quot;).
+   * 시작하기 전에 정확한 대상 카운트로 **사전 전송 가시성**&#x200B;을 확인하세요.
+   * 계절별 프로모션, 제품 출시, 로열티 오퍼 또는 계정 기반 마케팅을 위한 **여러 단계 워크플로** 디자인
+   * 캠페인을 즉시, 특정 시간에 또는 반복 일정(일별, 주별, 월별)에 실행하도록 예약합니다.
+   * 모든 프로필이 워크플로우를 통해 함께 진행되는 **배치 모드**&#x200B;에서 대상자를 처리합니다.
+
+   [오케스트레이션된 캠페인을 시작](../../orchestrated/gs-orchestrated-campaigns.md)하고, [캠페인과 여정을 비교](../../orchestrated/orchestrated-campaigns-faq.md)할 시기를 이해하는 방법에 대해 알아봅니다.
+
 1. **모니터링 및 최적화**. 시간 경과에 따른 성능 추적 및 결과 개선:
    * **실시간 여정** 성능 모니터링 및 병목 현상 식별
    * **메시지 게재** 비율 및 참여 지표 분석
@@ -91,6 +109,15 @@ Journey Optimizer을 사용하면 이메일, SMS, 푸시, 인앱, 웹, 콘텐츠
 
 [여정 모범 사례 학습](../../building-journeys/entry-exit-criteria-guide.md#best-practices)
 
+### 캠페인 오케스트레이션
+
+* **올바른 접근 방식 선택**: 동작이 트리거되는 실시간 경험에 여정을 사용하고 예약된 일괄 처리 캠페인에 오케스트레이션된 캠페인을 사용합니다.
+* **명확한 캠페인 목표 정의**: 여러 단계 워크플로우를 디자인하기 전에 목표를 설정합니다.
+* **파일럿 대상으로 시작**: 크기 조정 전에 카운트 및 세그멘테이션 논리의 유효성 검사
+* **관계형 데이터 활용**: 정확한 타겟팅을 위해 고객 데이터를 계정, 구매, 구독과 연결하려면 다중 엔티티 세그먼테이션을 사용합니다.
+* **간단한 세그먼테이션 유지**: 유지 관리 가능한 명확한 규칙으로 성능과 투명도를 최적화합니다.
+* **일관된 이름 지정 사용**: 명확한 이름 지정 규칙을 사용하여 캠페인을 더 쉽게 관리할 수 있습니다.
+
 ### 대상 타기팅
 
 * **신중하게 세그먼트**: 명확한 기준에 따라 실행 가능한 특정 대상 세그먼트를 만듭니다.
@@ -111,14 +138,22 @@ Journey Optimizer을 사용하면 이메일, SMS, 푸시, 인앱, 웹, 콘텐츠
 
 Journey Optimizer 기능을 보여 주는 실제 사례를 통해 알아보십시오.
 
-**자주 사용하는 사용 사례:**
+**여정 사용 사례**(실시간, 일대일):
 
 * **시작 시리즈**: 개인화된 여러 단계 여정으로 새 고객을 온보딩합니다. [사용 사례 보기](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding)
 * **장바구니 복구를 중단함**: 장바구니에 항목을 남긴 고객을 다시 참여시키십시오. [사용 사례 보기](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart)
-* **재참여 캠페인**: 타깃팅된 오퍼를 사용하여 비활성 고객을 다시 확보하십시오. [사용 사례 보기](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/use-cases/personalization-insights-engagement/use-cases-luma)
-* **생일 캠페인**: 특별 오퍼와 함께 개인화된 생일 메시지를 보냅니다.
-* **제품 추천**: 탐색 및 구매 기록을 기반으로 관련 제품 제안
 * **이벤트 기반 메시징**: 고객 작업에 실시간으로 응답
+* **생일 캠페인**: 프로필 날짜에 의해 트리거된 개인화된 생일 메시지를 보냅니다.
+* **제품 추천**: 탐색 및 구매 기록을 기반으로 관련 제품 제안
+
+**오케스트레이션된 캠페인 사용 사례**(일괄 처리, 일대다):
+
+* **계절별 프로모션**: 고객 세그먼트(예: 휴일 판매, 개학)에서 조정된 캠페인을 시작합니다.
+* **제품 출시**: 순차적인 메시징으로 타겟팅된 대상자에게 새 제품 발표
+* **충성도 프로그램 오퍼**: 구매 기록에 따라 계층화된 오퍼로 고가치 고객에게 보상
+* **계정 기반 마케팅**: 특정 특성 및 관련 연락처가 있는 계정을 대상으로 합니다.
+* **구독 갱신**: 다중 엔터티 쿼리를 사용하여 곧 만료되는 구독을 보유한 고객에게 연결
+* **다시 참여 캠페인**: 일괄 처리 모드에서 타깃팅된 오퍼를 사용하여 비활성 고객을 다시 확보할 수 있습니다. [사용 사례 보기](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/use-cases/personalization-insights-engagement/use-cases-luma)
 
 **여정 패턴:**
 
@@ -126,15 +161,15 @@ Journey Optimizer 기능을 보여 주는 실제 사례를 통해 알아보십�
 * [다중 채널 메시징](../../building-journeys/journeys-uc.md): 이메일과 푸시를 반응 이벤트와 결합
 * [평일 전용 이메일](../../building-journeys/weekday-email-uc.md): 시간 기반 조건을 사용하여 통신 예약
 
-더 많은 패턴 및 구현을 보려면 전체 [여정 사용 사례 라이브러리](../../building-journeys/jo-use-cases.md)를 찾아보십시오.
+전체 [여정 사용 사례 라이브러리](../../building-journeys/jo-use-cases.md)를 살펴보고 [오케스트레이션된 캠페인](../../orchestrated/gs-orchestrated-campaigns.md)에 대해 자세히 알아보세요.
 
 ## 다른 역할과 공동 작업
 
 마케팅 작업은 다른 팀과 연결됩니다.
 
-* **[데이터 엔지니어와 작업](data-engineer.md)**: 새로운 계산된 특성을 요청하고, 대상 품질에 대한 피드백을 제공하고, 데이터 요구 사항을 조정합니다
+* **[데이터 엔지니어와 작업](data-engineer.md)**: 새로운 계산된 특성을 요청하고, 오케스트레이션된 캠페인에 대한 관계형 스키마를 조정하고, 대상 품질에 대한 피드백을 제공하고, 고급 세분화를 위한 다중 엔터티 데이터 요구 사항을 조정합니다
 * **[개발자와 작업](developer.md)**: 이벤트 트리거를 조정하고, 모바일 구현을 테스트하고, 추적 유효성 검사를 수행합니다.
-* **[관리자](administrator.md)**&#x200B;와(과) 작업: 채널 구성을 요청하고, 사용 권한에 대한 문제를 보고하고, 새 기능 사용을 조정합니다.
+* **[관리자와 작업](administrator.md)**: 채널 구성을 요청하고, 오케스트레이션된 캠페인에 대한 라이선스 액세스를 확인하고, 권한과 관련된 문제를 보고하고, 새 기능 활성화에 대한 조정을 수행합니다.
 
 ## 업데이트 상태 유지
 
@@ -154,5 +189,5 @@ Journey Optimizer 기능을 보여 주는 실제 사례를 통해 알아보십�
 
 1. **작게 시작**: 플랫폼을 학습하려면 간단한 시작 여정 또는 단일 메시지 캠페인을 만드십시오.
 2. **AI 활용**: AI Assistant를 사용하여 질문하고 콘텐츠 생성 속도를 높입니다.
-3. **커뮤니티에 참여**: [Experience League 커뮤니티에서 다른 Journey Optimizer 사용자와 연결](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"}
+3. **커뮤니티에 참여**: [Experience League 커뮤니티에서 다른 Journey Optimizer 사용자와 연결](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}
 4. **튜토리얼 살펴보기**: [Experience League](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=ko){target="_blank"}에서 단계별 비디오 보기

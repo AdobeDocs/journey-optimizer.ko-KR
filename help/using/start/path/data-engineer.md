@@ -7,16 +7,16 @@ feature: Get Started
 role: Developer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 5ff7987c00afda3263cb97654967c5b698f726c2
+source-git-commit: 344a5509731b455ee283af22bfdd8c67e028b83e
 workflow-type: tm+mt
-source-wordcount: '806'
-ht-degree: 52%
+source-wordcount: '848'
+ht-degree: 50%
 
 ---
 
 # 데이터 엔지니어용 시작하기 {#data-engineer}
 
-**Adobe Journey Optimizer 데이터 엔지니어**&#x200B;로서 고객 프로필 데이터를 준비 및 유지 관리하여 [!DNL Journey Optimizer]에서 오케스트레이션한 경험을 강화하고, 고객 및 비즈니스 데이터를 스키마로 모델링하고, 데이터 수집을 위한 소스 커넥터를 구성합니다. [시스템 관리자](administrator.md)가 액세스 권한을 부여하고 환경을 준비하면 [!DNL Adobe Journey Optimizer] 작업을 시작할 수 있습니다.
+**데이터 설계자** 또는 **데이터 엔지니어**&#x200B;로서 [!DNL Journey Optimizer]에서 오케스트레이션한 경험을 제공하는 고객 프로필 데이터 및 기타 데이터 소스를 설정하고 유지 관리합니다. 여기에는 웹, CRM 또는 오프라인 소스에 관계없이 모든 고객 및 비즈니스 데이터를 고객에 대한 통합 360도 뷰로 통합하는 작업이 포함됩니다. 고객 프로필 데이터 및 비즈니스 데이터를 스키마로 모델링하고, 데이터를 수집하도록 소스 커넥터를 구성하고, 데이터 흐름을 원활하게 하여 실시간 고객 인사이트 및 참여를 가능하게 합니다. [시스템 관리자](administrator.md)가 액세스 권한을 부여하고 환경을 준비하면 [!DNL Adobe Journey Optimizer] 작업을 시작할 수 있습니다.
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ Journey Optimizer에 대한 데이터 기반을 설정하려면 다음 단계를
 
 * **이벤트**&#x200B;를 사용하면 여정을 통합적으로 트리거하여 여정에 참여하는 개인에게 실시간으로 메시지를 보낼 수 있습니다. 이벤트 구성에서 여정에서 예상되는 이벤트를 구성합니다. 수신되는 이벤트 데이터는 Adobe Experience 데이터 모델(XDM)에 따라 표준화됩니다. 이벤트는 인증된 이벤트와 인증되지 않은 이벤트(예: Adobe Mobile SDK 이벤트)를 위한 수집 API 스트리밍에서 옵니다. [이 섹션에서](../../event/about-events.md) 이벤트에 대해 자세히 알아보세요.
 
-* [!DNL Journey Optimizer]에는 메시지 기능이 기본 제공됩니다. 여정 내에서 메시지를 만들고 콘텐츠를 디자인할 수 있습니다. Adobe Campaign과 같은 타사 시스템을 사용하여 메시지를 보내는 경우 **사용자 정의 작업**&#x200B;을 만듭니다. 이 섹션[에서 &#x200B;](../../action/action.md) 작업에 대해 자세히 알아보세요.
+* [!DNL Journey Optimizer]에는 메시지 기능이 기본 제공됩니다. 여정 내에서 메시지를 만들고 콘텐츠를 디자인할 수 있습니다. Adobe Campaign과 같은 타사 시스템을 사용하여 메시지를 보내는 경우 **사용자 정의 작업**&#x200B;을 만듭니다. 이 섹션[에서 ](../../action/action.md) 작업에 대해 자세히 알아보세요.
 
 ## 여정 데이터 모니터링 및 분석
 

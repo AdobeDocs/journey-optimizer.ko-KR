@@ -7,18 +7,18 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 5ff7987c00afda3263cb97654967c5b698f726c2
+source-git-commit: 344a5509731b455ee283af22bfdd8c67e028b83e
 workflow-type: tm+mt
-source-wordcount: '1006'
-ht-degree: 50%
+source-wordcount: '1012'
+ht-degree: 48%
 
 ---
 
 # 시스템 관리자용 시작하기 {#get-started-sys-admins}
 
-[!DNL Adobe Journey Optimizer] 사용을 시작하기 전에 환경을 준비하는 데 필요한 몇 가지 단계가 있습니다. [데이터 엔지니어](data-engineer.md) 및 [마케터](marketer.md)가 [!DNL Adobe Journey Optimizer]&#x200B;(으)로 작업을 시작할 수 있도록 다음 단계를 수행해야 합니다.
+**시스템 관리자**&#x200B;로서 Journey Optimizer 환경을 설정하고 액세스 권한을 관리하여 팀이 효율적이고 안전하게 작업할 수 있도록 합니다. [데이터 엔지니어](data-engineer.md), [개발자](developer.md) 및 [마케터](marketer.md)가 [!DNL Adobe Journey Optimizer]&#x200B;(으)로 작업을 시작할 수 있도록 필수 구성 단계를 수행합니다.
 
-**시스템 관리자**&#x200B;는 샌드박스 관리 및 채널 구성을 위해 **역할을 이해하고 권한을 할당**&#x200B;해야 합니다. 또한 샌드박스를 설정하고 사용 가능한 역할에 대해 관리해야 합니다. 그러면 팀원을 역할에 할당할 수 있습니다. [데이터 엔지니어](data-engineer.md)가 데이터 스키마와 소스를 구성하고 [개발자](developer.md)가 기술 통합을 구현하는 동안 올바른 사용자가 올바른 기능에 액세스할 수 있도록 합니다.
+주요 업무에는 사용자 그룹 및 권한 설정, 다른 사용자 그룹의 데이터 및 여정을 분할하기 위한 샌드박스 만들기 및 관리, Journey Optimizer을 통해 전달되는 다양한 메시지 및 에셋에서 일관된 브랜딩을 보장하기 위해 게재 채널 및 메시지 사전 설정 구성이 포함됩니다. 적합한 인력이 올바른 기능에 액세스할 수 있도록 보장하면서 보안 및 거버넌스를 유지할 수 있습니다.
 
 이 기능은 Permissions 제품에 액세스할 수 있는 **[!UICONTROL 제품 관리자]**&#x200B;가 관리할 수 있습니다. [Permissions에 대해 자세히 알아보십시오](../../administration/permissions.md){target="_blank"}.
 
