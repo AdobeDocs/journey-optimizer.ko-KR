@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 테스트, 여정, 확인, 오류, 문제 해결
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: 578950270213177b4d4cc67bad8ae627e440ff44
+source-git-commit: 8a1c6ccad1e0ff66bc23b6fbdd873db5f54e3e0a
 workflow-type: tm+mt
-source-wordcount: '1904'
+source-wordcount: '1943'
 ht-degree: 7%
 
 ---
@@ -56,6 +56,7 @@ ht-degree: 7%
 * **활성 날짜 기간** - 테스트 모드를 시작할 때 여정이 구성한 선택 [시작 및 종료 날짜/시간](journey-properties.md#dates) 창에 현재 시간이 포함되어 있는지 확인합니다. 그렇지 않으면 트리거된 테스트 이벤트가 자동으로 삭제됩니다. 이 문제 해결에 대해 자세히 알아보세요[이 페이지의](troubleshooting-execution.md#troubleshooting-test-transitions).
 * **반응 이벤트** - 시간 제한이 있는 반응 이벤트의 경우 최소 및 기본 대기 시간은 40초입니다.
 * **테스트 데이터 세트** - 테스트 모드에서 트리거된 이벤트는 다음과 같이 레이블이 지정된 전용 데이터 세트에 저장됩니다. `JOtestmode - <schema of your event>`
+* **공유 인프라** - 테스트 모드는 프로덕션과 동일한 인프라에서 실행됩니다. 트래픽이 많은 기간 동안 이메일 전송 또는 이벤트 처리가 지연될 수 있습니다. 이 경우, 플랫폼 트래픽 대시보드를 확인하거나 사용량이 적은 시간 동안 테스트를 다시 시도하십시오.
 
 <!--
 * Fields from related entities are hidden from the test mode.
