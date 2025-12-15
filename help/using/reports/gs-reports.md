@@ -140,7 +140,7 @@ Adobe Journey Optimizer에서 실시간 보고서를 효과적으로 사용하�
 
 +++비디오 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3422697?captions=kor&learn=on)
 
 +++
 
