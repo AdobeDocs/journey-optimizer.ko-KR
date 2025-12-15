@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
+source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+workflow-type: tm+mt
 source-wordcount: '3599'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -241,7 +241,7 @@ ht-degree: 100%
 ### 기타 변경 사항{#sept-2022-other}
 
 * 여정 버스트 모드가 캠페인 신속 전달 모드로 대체되었습니다. [자세히 보기](../push/create-push.md#rapid-delivery)
-* 성능을 개선하기 위해 대상자 읽기, 대상자 선별 또는 비즈니스 이벤트 활동으로 시작하는 여정에서 더 이상 경험 이벤트 필드 그룹을 사용할 수 없습니다. 이 변경 사항은 새로운 여정에만 적용됩니다. 기존 동작은 현재 동작을 유지합니다. [자세히 보기](../start/guardrails.md#expression-editor)
+* 성능을 개선하기 위해 대상자 읽기, 대상자 선별 또는 비즈니스 이벤트 활동으로 시작하는 여정에서 더 이상 경험 이벤트 필드 그룹을 사용할 수 없습니다. 이 변경 사항은 새로운 여정에만 적용됩니다. 기존 동작은 현재 동작을 유지합니다. [자세히 알아보기](../start/guardrails.md#expression-editor)
 * 예약된 대상자 읽기 여정의 1시간 제한이 제거되었습니다. 이제 이러한 여정을 지연 없이 실행할 수 있습니다.
 
 

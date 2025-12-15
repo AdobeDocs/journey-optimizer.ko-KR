@@ -6,7 +6,7 @@ description: ' [!DNL Adobe Journey Optimizer] 보고서에 액세스하고 작�
 role: User
 level: Beginner
 exl-id: 7961dc5c-7918-4ae3-8361-0ed4bc4f145b
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 23%
@@ -27,7 +27,7 @@ Adobe Journey Optimizer은 강력한 보고 기능을 통해 실용적인 통찰
   ![](assets/report_journey.png)
 
 
-* **Customer Journey Analytics을 사용한 모든 시간 보고서** - Journey Optimizer 보고는 Customer Journey Analytics 기능과 완전히 통합되어 두 플랫폼 간에 보고를 표준화하고 데이터 일관성과 안정성을 개선합니다. 이렇게 Journey Optimizer와 Customer Journey Analytics가 원활하게 통합됨으로써 사용자가 성과 지표를 보다 명확하게 확인하여 더욱 정보에 근거한 결정을 내릴 수 있습니다. 이 섹션[에서 실시간 보고서 &#x200B;](report-gs-cja.md)에 대해 자세히 알아보세요.
+* **Customer Journey Analytics을 사용한 모든 시간 보고서** - Journey Optimizer 보고는 Customer Journey Analytics 기능과 완전히 통합되어 두 플랫폼 간에 보고를 표준화하고 데이터 일관성과 안정성을 개선합니다. 이렇게 Journey Optimizer와 Customer Journey Analytics가 원활하게 통합됨으로써 사용자가 성과 지표를 보다 명확하게 확인하여 더욱 정보에 근거한 결정을 내릴 수 있습니다. 이 섹션[에서 실시간 보고서 ](report-gs-cja.md)에 대해 자세히 알아보세요.
 
   ![](assets/gs-cja-report-1.png)
 
@@ -140,8 +140,8 @@ Adobe Journey Optimizer에서 실시간 보고서를 효과적으로 사용하�
 
 +++비디오 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3422697?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
-[보고 튜토리얼](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/report-and-monitor/report-and-monitor){target="_blank"}에서 보고 및 분석에 대한 비디오 튜토리얼을 더 살펴보세요.
+[보고 튜토리얼](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/report-and-monitor/report-and-monitor){target="_blank"}에서 보고 및 분석에 대한 비디오 튜토리얼을 더 살펴보세요.

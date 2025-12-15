@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 keywords: 시작, 종료, 기준, 여정, 프로필, 재입력, 우수 사례
 version: Journey Orchestration
-source-git-commit: d1c7c9d454497f0d3c0ec75663d01aac91378d65
+source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
 workflow-type: tm+mt
 source-wordcount: '1554'
 ht-degree: 0%
@@ -208,7 +208,7 @@ Customer Experience Orchestration에서 적절한 시간에 적절한 메시지�
 
 **튜토리얼 및 예제**
 
-[여정 사용 사례](jo-use-cases.md) | [고객 온보딩 비디오](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [포기한 장바구니 비디오](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [커뮤니티 블로그: 시작 및 종료 기준](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958?profile.language=ko)
+[여정 사용 사례](jo-use-cases.md) | [고객 온보딩 비디오](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [포기한 장바구니 비디오](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [커뮤니티 블로그: 시작 및 종료 기준](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
 
 **관련 기능**
 

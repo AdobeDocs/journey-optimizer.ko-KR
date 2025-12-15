@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: IP, 그룹, 하위 도메인, 전달성
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 52021f85658fe37e5cd9b66e4e764ccc1c790b38
+source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
 workflow-type: tm+mt
 source-wordcount: '2730'
-ht-degree: 11%
+ht-degree: 10%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 11%
 >id="ajo_admin_ip_warmup_domains_excluded"
 >title="도메인 그룹 제외"
 >abstract="현재 단계에서 제외하려는 도메인을 선택합니다. 도메인 제외에는 미실행 단계가 필요하므로 제외를 추가하려면 실행 단계를 분할해야 할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html?lang=ko#split-phase" text="단계 분할"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html#split-phase" text="단계 분할"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_phases"
@@ -158,7 +158,7 @@ IP 준비 계획의 단계를 정의하려면 각 단계에 대한 캠페인을 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_qualified"
 >title="적격 프로필 보기"
->abstract="이 열에 적격 프로필 수가 표시됩니다. 대상자가 실행에 대해 평가된 후 적격 프로필보다 대상이 되는 프로필이 더 많은 경우, **Cancel activated runs in case of errors(오류 발생 시 활성화된 실행 취소)** 옵션이 활성화된 경우가 아니라면 실행은 계속 실행됩니다. 해당 경우 실행은 취소됩니다."
+>abstract="이 열에 적격 프로필 수가 표시됩니다. 대상자가 실행에 대해 평가된 후 적격 프로필보다 대상이 되는 프로필이 더 많은 경우, **Cancel activated runs in case of errors(오류 발생 시 활성화된 실행 취소)** 옵션이 활성화된 경우가 아니라면 실행은 계속 실행됩니다. 이 경우 실행이 취소되었습니다."
 
 IP 웜업 계획의 단계를 정의한 후에는 각 단계 내에서 개별 실행을 구성해야 합니다. 각 실행에는 일정이 필요하며, 선택적으로 참여 필터, 오류 처리 및 재시도 기간을 구성하여 최적의 실행을 보장할 수 있습니다. 다음 단계를 수행하십시오.
 
@@ -166,7 +166,7 @@ IP 웜업 계획의 단계를 정의한 후에는 각 단계 내에서 개별 �
 
    ![](assets/ip-warmup-plan-send-time.png)
 
-1. 선택적으로 [대상 평가](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ko#how-segmentation-works){target="_blank"}가 지연되는 경우 IP 준비 캠페인을 실행할 수 있는 기간을 정의할 수 있습니다. 이렇게 하려면 플랜 이름 옆에 있는 왼쪽 상단의 속성 아이콘을 클릭하고 **[!UICONTROL 실행 시간 다시 시도]** 드롭다운 목록을 사용하여 최대 240분(4시간)의 기간을 선택합니다.
+1. 선택적으로 [대상 평가](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"}가 지연되는 경우 IP 준비 캠페인을 실행할 수 있는 기간을 정의할 수 있습니다. 이렇게 하려면 플랜 이름 옆에 있는 왼쪽 상단의 속성 아이콘을 클릭하고 **[!UICONTROL 실행 시간 다시 시도]** 드롭다운 목록을 사용하여 최대 240분(4시간)의 기간을 선택합니다.
 
    >[!NOTE]
    >
@@ -224,7 +224,7 @@ IP 웜업 계획의 단계를 정의한 후에는 각 단계 내에서 개별 �
 
 여러 IP 준비 계획을 동시에 실행할 때 모두 동일한 IP 풀 및 도메인을 대상으로 하므로 잠재적 결과를 예상하는 것이 중요합니다. 예를 들어 ISP에서 하루에 100개의 이메일 제한을 적용하는 경우 동일한 도메인을 대상으로 여러 플랜을 실행하면 이 임계값을 초과할 수 있습니다.
 
-[대상 평가](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ko#how-segmentation-works){target="_blank"}를 실행할 수 있도록 충분한 시간을 예약했는지 확인하십시오.
+[대상 평가](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"}를 실행할 수 있도록 충분한 시간을 예약했는지 확인하십시오.
 
 ![](assets/ip-warmup-plan-activate.png)
 
@@ -236,7 +236,7 @@ IP 웜업 계획의 단계를 정의한 후에는 각 단계 내에서 개별 �
 
 * 단계의 첫 번째 실행을 활성화하는 경우:
 
-   * 다음 명명 규칙을 사용하여 제외된 캠페인 대상에 대해 [대상자](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ko){target="_blank"}이(가) 만들어집니다. `<warmupName>-Phase<phaseNo>-Audience Exclusion`.
+   * 다음 명명 규칙을 사용하여 제외된 캠페인 대상에 대해 [대상자](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html){target="_blank"}이(가) 만들어집니다. `<warmupName>-Phase<phaseNo>-Audience Exclusion`.
 
    * 제외된 도메인 그룹(있는 경우)에 대해 다음 명명 규칙을 사용하여 대상을 만듭니다. `<warmupName>-Phase<phaseNo>-Domain Exclusion`.
 
