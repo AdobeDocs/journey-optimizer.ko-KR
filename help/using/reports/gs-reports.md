@@ -144,4 +144,4 @@ Adobe Journey Optimizer에서 실시간 보고서를 효과적으로 사용하�
 
 +++
 
-[보고 튜토리얼](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/report-and-monitor/report-and-monitor){target="_blank"}에서 보고 및 분석에 대한 비디오 튜토리얼을 더 살펴보세요.
+[보고 튜토리얼](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/report-and-monitor/report-and-monitor){target="_blank"}에서 보고 및 분석에 대한 비디오 튜토리얼을 더 살펴보세요.
