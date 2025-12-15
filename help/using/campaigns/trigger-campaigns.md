@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 캠페인, 검토, 유효성 검사, 활성화, 활성화, 최적화
 exl-id: 86f35987-f0b7-406e-9ae6-0e4a2e651610
-source-git-commit: 8cb37cf0fb9dc8048d7da8ddda0c67280477d57f
+source-git-commit: a5d8f10c8751d6be47f5423aea576e16590b86d6
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '514'
 ht-degree: 1%
 
 ---
@@ -42,6 +42,10 @@ ht-degree: 1%
    API 호출 예는 [이 페이지](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples/)에서도 사용할 수 있습니다.
 
 ## 문제 해결 {#troubleshooting}
+
+### 이메일 게재 지연 {#delivery-delays}
+
+이메일 게재 시간이 예상치를 초과할 경우 클라우드 인프라 공급자 또는 이메일 서비스 공급자와 같은 외부 서비스의 잠재적인 중단 또는 성능 문제를 조사하십시오. Journey Optimizer은 메시지 이탈 타임스탬프를 기록하여 게재 파이프라인의 다운스트림에서 지연이 발생했는지 여부를 확인하는 데 도움이 될 수 있습니다.
 
 ### Azure Cosmos DB 인증 오류(500 내부 서버 오류) {#cosmosdb-auth-errors}
 
