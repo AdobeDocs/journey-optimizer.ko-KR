@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 옵트아웃, 이메일, 링크, 구독 취소
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: b1d262723b68083d1a32d259f3974a287f898579
+source-git-commit: af7451c0495e442328368a6a308af5c14dcda142
 workflow-type: tm+mt
-source-wordcount: '1031'
-ht-degree: 26%
+source-wordcount: '1117'
+ht-degree: 20%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 26%
 
 수신자가 옵트아웃 링크를 클릭하면 그에 따라 구독 취소 요청이 처리됩니다.
 
-해당 프로필의 선택 사항이 업데이트되었는지 확인하려면 Experience Platform으로 이동하여 [해당 프로필을 찾아봅니다](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/ui/user-guide?lang=en#browse-tab){target="_blank"}. [특성 탭](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/ui/user-guide#attributes){target="_blank"}에서 **[!UICONTROL choice]**&#x200B;의 값이 **[!UICONTROL no]**(으)로 변경되었음을 확인할 수 있습니다. [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=ko){target="_blank"}에서 동의 처리에 대해 자세히 알아보세요.
+해당 프로필의 선택 사항이 업데이트되었는지 확인하려면 Experience Platform으로 이동하여 [해당 프로필을 찾아봅니다](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide?lang=en#browse-tab){target="_blank"}. [특성 탭](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#attributes){target="_blank"}에서 **[!UICONTROL choice]**&#x200B;의 값이 **[!UICONTROL no]**(으)로 변경되었음을 확인할 수 있습니다. [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=ko){target="_blank"}에서 동의 처리에 대해 자세히 알아보세요.
 
 ![](assets/opt-out-profile-choice.png)
 
@@ -160,25 +160,30 @@ Adobe Journey Optimizer에서 랜딩 페이지를 만들어 [이 페이지](../l
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 
-### 구독 취소 링크가 있는 메시지 보내기 {#send-message-unsubscribe-link}
+### 구독 취소 흐름 이해 {#send-message-unsubscribe-link}
 
-랜딩 페이지에 대한 구독 취소 링크를 구성했으면 메시지를 만들고 보낼 수 있습니다.
+랜딩 페이지에 대한 구독 취소 링크를 구성하면 을(를) 완료하여 구독자에게 메시지를 보낼 수 있습니다.
 
-1. 구독 취소 링크를 사용하여 메시지를 구성하고 구독자에게 보냅니다.
+전체 랜딩 페이지 옵트아웃 흐름을 성공적으로 완료하려면 다음 이벤트가 순서대로 발생합니다.
 
-1. 메시지가 수신되면 수신자가 구독 취소 링크를 클릭하면 랜딩 페이지가 표시됩니다.
+1. **클릭** - 메시지가 수신되면 수신자가 전자 메일의 구독 취소 링크를 클릭합니다.
+
+1. **방문** - 랜딩 페이지가 로드되고 받는 사람에게 표시됩니다.
 
    ![](assets/opt-out-lp-example.png)
+
+1. **제출** - 수신자가 랜딩 페이지의 구독 취소 단추를 클릭하여 옵트아웃 양식을 제출합니다.
 
    >[!WARNING]
    >
    >이메일에서 구독 취소 링크를 클릭하면 랜딩 페이지만 열립니다. 수신자는 랜딩 페이지에서 옵트아웃 단추를 클릭하여 양식을 **제출**&#x200B;해야 구독 취소를 완료하고 프로필 동의를 업데이트할 수 있습니다.
 
-1. 수신자가 양식을 제출하는 경우(여기에서는 랜딩 페이지의 **[!UICONTROL 구독 취소]** 버튼을 누르는 경우), 프로필 데이터는 API 호출을 통해 업데이트됩니다.
-
-1. 옵트아웃 수신자는 옵트아웃에 성공했음을 나타내는 확인 메시지 화면으로 리디렉션됩니다.
+1. **구독 취소** - 시스템이 구독 취소 요청을 처리합니다. 옵트아웃 수신자는 옵트아웃에 성공했음을 나타내는 확인 메시지 화면으로 리디렉션됩니다.
 
    ![](assets/opt-out-confirmation-example.png)
 
+1. **동의 업데이트** - 프로필 데이터는 API 호출을 통해 프로필 속성의 동의로 업데이트되며, 이는 향후 이메일 전송에서 프로필을 제외합니다.
+
    따라서 이 사용자는 다시 구독하지 않으면 브랜드에서 보내는 커뮤니케이션을 받지 않습니다.
 
+이 이벤트 시퀀스를 사용하면 구독 취소 프로세스가 제대로 추적되고 프로필의 동의 환경 설정이 시스템에 정확하게 반영됩니다. 이 흐름의 단계가 누락되거나 잘못된 순서로 발생하는 경우 조사해야 하는 옵트아웃 구현에 문제가 있을 수 있습니다.
