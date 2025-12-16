@@ -10,10 +10,10 @@ level: Intermediate, Experienced
 keywords: 여정, 사용 사례, 메시지, 구독자, 목록, 읽기
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 52126b42ff400a355db9c75afde0c86059daf164
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 17%
+source-wordcount: '355'
+ht-degree: 15%
 
 ---
 
@@ -27,8 +27,8 @@ ht-degree: 17%
 
 이 여정을 구성하려면 다음 단계를 수행합니다.
 
-1. **[!UICONTROL 읽기]** 활동으로 시작하는 여정을 만듭니다. [자세히 보기](journey-gs.md).
-1. **[!UICONTROL 전자 메일]** 작업 활동을 여정에 추가합니다. [자세히 보기](journeys-message.md).
+1. **[!UICONTROL 읽기]** 활동으로 시작하는 여정을 만듭니다. [첫 번째 여정 만들기](journey-gs.md)에서 자세히 알아보세요.
+1. **[!UICONTROL 전자 메일]** 작업 활동을 여정에 추가합니다. [채널 작업을 사용하는 방법](journeys-message.md)을 알아보세요.
 1. **[!UICONTROL 이메일]** 활동 설정의 **[!UICONTROL 이메일 매개 변수]** 섹션에서 기본 이메일 주소(`PersonalEmail.adress`)를 목록 구독자의 이메일 주소로 바꾸십시오.
 
    1. **[!UICONTROL 주소]** 필드 오른쪽에 있는 **[!UICONTROL 매개 변수 재정의 사용]** 아이콘을 클릭한 다음 **[!UICONTROL 편집]** 아이콘을 클릭합니다.
