@@ -22,7 +22,7 @@ Adobe Journey Optimizer의 코드 기반 경험 채널을 통해 유연성과 �
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 코드 기반 경험 채널을 사용하여 오퍼 게재
 
