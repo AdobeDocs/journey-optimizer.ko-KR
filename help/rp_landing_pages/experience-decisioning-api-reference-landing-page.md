@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-11_20-54-39
 hide: true
 hidefromtoc: true
 exl-id: 0111453f-c704-40c1-9e74-2320b125ee92
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: e90be67288245fbf8e3794c6e554016e3f5997f4
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 94%
@@ -22,13 +22,13 @@ Adobe Journey Optimizer의 코드 기반 경험 채널을 통해 유연성과 �
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 코드 기반 경험 채널을 사용하여 오퍼 게재
 
 Adobe Journey Optimizer의 코드 기반 경험 채널에서 클라이언트측, 서버측 또는 하이브리드 구현을 사용하여 개인화된 오퍼를 제공하는 방법을 알아봅니다.
 
-[구현 방법 살펴보기](../using/experience-decisioning/api-reference/deliver.md)
+[구현 방법 살펴보기](../using/experience-decisioning/use-decision-policy.md)
 :::
 
 ::::
