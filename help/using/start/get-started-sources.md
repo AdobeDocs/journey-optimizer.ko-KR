@@ -71,7 +71,7 @@ Journey Optimizer은 기존 시스템과 연결할 수 있는 다양한 유형�
 * Salesforce
 * Salesforce Marketing Cloud
 
-➡️ [Experience Platform 소스 카탈로그](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html#sources-catalog){target="_blank"}의 전체 목록 보기
+➡️ [Experience Platform 소스 카탈로그](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko#sources-catalog){target="_blank"}의 전체 목록 보기
 
 ## 시작하기에 앞서 {#prerequisites}
 
@@ -109,7 +109,7 @@ Adobe Journey Optimizer은 Adobe Experience Platform의 소스 프레임워크�
 
 이제 소스가 무엇인지, 왜 중요한 것인지 이해하게 되었습니다.
 
-* [소스 카탈로그](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html#sources-catalog){target="_blank"}를 탐색하여 시스템에 대한 커넥터를 찾으십시오.
+* [소스 카탈로그](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko#sources-catalog){target="_blank"}를 탐색하여 시스템에 대한 커넥터를 찾으십시오.
 * [소스 연결을 만드는 방법](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/overview.html){target="_blank"} 알아보기
 * [데이터 매핑 및 변환 이해](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/overview.html){target="_blank"}
 * [여정에서 가져온 데이터를 사용하는 방법](../building-journeys/journey-gs.md)을 참조하세요.
