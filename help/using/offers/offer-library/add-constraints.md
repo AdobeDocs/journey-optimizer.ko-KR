@@ -83,7 +83,7 @@ ht-degree: 15%
 >title="오퍼 적격성 정보"
 >abstract="이 섹션에서는 결정 규칙을 사용하여 오퍼에 적합한 사용자를 결정할 수 있습니다."
 
-<!--additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"-->
+<!--additional-url="https://video.tv.adobe.com/v/341375?captions=kor" text="Watch demo video"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
