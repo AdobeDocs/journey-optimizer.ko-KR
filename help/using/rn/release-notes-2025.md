@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: d3559564b0bf33428a703f7909eed908f1c452a4
+source-git-commit: b7550b55327cb27e67cb914c340bdd08360d4490
 workflow-type: tm+mt
-source-wordcount: '7908'
+source-wordcount: '7909'
 ht-degree: 99%
 
 ---
@@ -1615,7 +1615,7 @@ HTML 유형 콘텐츠 템플릿은 이제 사용되지 않습니다. [!DNL Journ
 
 **동의 정책**
 
-이제 이메일 채널 구성에서 마케팅 작업을 통해 사용자 지정 동의 정책을 활용할 수 있습니다. [자세히 알아보기](../action/consent.md#surface-marketing-actions)
+이제 트랜잭션 이메일 채널 구성에서 마케팅 작업을 통해 사용자 지정 동의 정책을 활용할 수 있습니다. [자세히 알아보기](../action/consent.md#surface-marketing-actions)
 
 <!--**Deliverability**
 
