@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8328e32f91c5541ec8561aef0e34757c4c7ecf9c
+source-git-commit: b06229e7a2fc64fbe28154c798b152cca8203a86
 workflow-type: tm+mt
-source-wordcount: '3024'
+source-wordcount: '3035'
 ht-degree: 96%
 
 ---
@@ -345,7 +345,7 @@ ht-degree: 96%
          + [웹 채널 전제 조건](using/web/web-prerequisites.md)
          + [웹 하위 도메인 구성](using/web/web-delegated-subdomains.md)
          + [웹 채널 구성 만들기](using/web/web-configuration.md)
-      + [웹 경험 만들기 &#x200B;](using/web/create-web.md)
+      + [웹 경험 만들기 ](using/web/create-web.md)
       + 웹 페이지 작성 {#author-web-pages}
          + [웹 페이지 작성](/help/rp_landing_pages/author-web-pages-landing-page.md)
          + [웹 디자이너를 사용하여 작업](using/web/web-visual-editor.md)
@@ -399,7 +399,7 @@ ht-degree: 96%
          + [Journey Optimizer에서 라이브 활동 구성](using/mobile-live/mobile-live-configuration.md)
          + [라이브 활동 SDK 통합 구성](using/mobile-live/mobile-live-configuration-sdk.md)
 + 콘텐츠 관리 {#content-management}
-   + [콘텐츠 관리 &#x200B;](/help/rp_landing_pages/content-management-landing-page.md)
+   + [콘텐츠 관리 ](/help/rp_landing_pages/content-management-landing-page.md)
    + 개인화 {#personalization}
       + [개인화](/help/rp_landing_pages/personalization-landing-page.md)
       + [개인화 시작](using/personalization/personalize.md)
@@ -472,7 +472,9 @@ ht-degree: 96%
       + [Adobe Stock 작업](using/integrations/stock.md)
       + [Adobe Express 작업](using/integrations/express.md)
       + [Experience Manager 템플릿 작업](using/integrations/aem-templates.md)
-      + [Experience Manager 콘텐츠 조각 작업](using/integrations/aem-fragments.md)
+      + Experience Manager 컨텐츠 조각 {#fragments}
+         + [Experience Manager 콘텐츠 조각 시작](using/integrations/aem-fragments-gs.md)
+         + [Experience Manager 콘텐츠 조각 작업](using/integrations/aem-fragments.md)
       + [Dynamic Media 작업](using/integrations/aem-dynamic.md)
       + [GenStudio for Performance Marketing 작업](using/integrations/genstudio.md)
       + [통합 작업](using/integrations/external-sources.md)
