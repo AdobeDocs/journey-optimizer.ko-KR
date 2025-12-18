@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: d04cbbbec426cf1bf56004685172be2a9328ec18
+source-git-commit: 8d8f47cafb05cacbda19930a4ca741e05f1e4d1d
 workflow-type: tm+mt
 source-wordcount: '3574'
 ht-degree: 92%
@@ -155,7 +155,7 @@ Journey Optimizer의 하위 도메인 위임에 적용되는 가드레일 및 �
 
 ## 의사 결정 및 의사 결정 관리 가드레일 {#decisioning-guardrails}
 
-의사 결정 및 의사 결정 관리 작업 시 기억해야 할 가드레일과 제한 사항은 의사 결정 및 의사 결정 관리 섹션에 자세히 설명되어 있습니다.
+Decisioning 또는 Decisioning 관리 작업 시 기억해야 할 보호 사항 및 제한 사항은 Decisioning 및 Decisioning 관리 섹션에 자세히 설명되어 있습니다.
 
 * [의사 결정 가드레일 및 제한 사항](../experience-decisioning/decisioning-guardrails.md)
 * [의사 결정 관리 가드레일 및 제한 사항](../offers/decision-management-guardrails.md)
