@@ -7,7 +7,7 @@ feature: Integrations, Data Ingestion
 role: User
 level: Beginner
 exl-id: 359ea3c6-7746-469e-8a24-624f9726f2d8
-source-git-commit: 52b58d18cdbbff79f4dcb7af2817b178a4a0b429
+source-git-commit: 7864012ad148c2e52bc38598016e7bd7fac9644e
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 11%
@@ -71,7 +71,7 @@ Journey Optimizer은 기존 시스템과 연결할 수 있는 다양한 유형�
 * Salesforce
 * Salesforce Marketing Cloud
 
-➡️ [Experience Platform 소스 카탈로그](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko#sources-catalog){target="_blank"}의 전체 목록 보기
+➡️ [Experience Platform 소스 카탈로그](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html#sources-catalog){target="_blank"}의 전체 목록 보기
 
 ## 시작하기에 앞서 {#prerequisites}
 
@@ -81,7 +81,7 @@ Journey Optimizer은 기존 시스템과 연결할 수 있는 다양한 유형�
 * **Source 시스템 자격 증명** - 연결할 외부 시스템에 대한 인증 세부 정보
 * **데이터 이해** - 필요한 데이터 필드와 Journey Optimizer 프로필에 매핑되는 방법 알아보기
 
-➡️ [액세스 제어 및 사용 권한에 대해 알아보기](../../administration/permissions.md)
+➡️ [액세스 제어 및 사용 권한에 대해 알아보기](../administration/permissions.md)
 
 ## 소스 작동 방식 {#how-sources-work}
 
@@ -101,7 +101,7 @@ Adobe Journey Optimizer은 Adobe Experience Platform의 소스 프레임워크�
 
 이 비디오를 통해 Journey Optimizer에서 소스 커넥터와 소스 커넥터를 구성하는 방법을 이해하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3422585?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/335919?quality=12)
 
 소스 구성 및 관리에 대한 자세한 내용은 [Adobe Experience Platform 소스 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko){target="_blank"}를 참조하세요.
 
@@ -109,7 +109,7 @@ Adobe Journey Optimizer은 Adobe Experience Platform의 소스 프레임워크�
 
 이제 소스가 무엇인지, 왜 중요한 것인지 이해하게 되었습니다.
 
-* [소스 카탈로그](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko#sources-catalog){target="_blank"}를 탐색하여 시스템에 대한 커넥터를 찾으십시오.
+* [소스 카탈로그](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html#sources-catalog){target="_blank"}를 탐색하여 시스템에 대한 커넥터를 찾으십시오.
 * [소스 연결을 만드는 방법](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/overview.html){target="_blank"} 알아보기
 * [데이터 매핑 및 변환 이해](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/overview.html){target="_blank"}
 * [여정에서 가져온 데이터를 사용하는 방법](../building-journeys/journey-gs.md)을 참조하세요.

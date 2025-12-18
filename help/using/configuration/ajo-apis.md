@@ -7,7 +7,7 @@ feature: Integrations, Data Ingestion
 role: Developer
 level: Intermediate
 exl-id: 4c897c52-6eb2-4d6e-aaa9-9bd83608b2b6
-source-git-commit: 5d1e62ba9f42a0828cc1faec5f0b7aa4e4f90a24
+source-git-commit: 7864012ad148c2e52bc38598016e7bd7fac9644e
 workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 6%
@@ -31,7 +31,7 @@ Adobe Journey Optimizer은 기본적으로 Adobe Experience Platform을 기반�
 * **[전체 API 참조 찾아보기](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}** - 모든 Journey Optimizer API에 액세스하고 직접 테스트합니다.
 * **[인증 설정](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}** - API 사용을 시작하는 데 필요한 자격 증명을 수집합니다.
 * **[의사 결정 관리 API](../offers/api-reference/getting-started.md)** - 오퍼와 의사 결정을 프로그래밍 방식으로 관리합니다.
-* **[Experience Decisioning API](../experience-decisioning/api-reference/deliver.md)** - 코드 기반 경험을 사용하여 개인화된 결정 항목 전달
+* **[Experience Decisioning API](../experience-decisioning/api-reference/getting-started.md)** - 코드 기반 경험을 사용하여 개인화된 결정 항목 전달
 
 ## 인증 {#authentication}
 
@@ -64,7 +64,7 @@ Journey Optimizer은 또한 코드 기반 경험을 통해 개인화된 의사 �
 * **등급 수식** - 사용자 지정 등급 논리 구성
 * **배치** - 결정 항목을 표시할 위치를 정의합니다.
 
-[Experience Decisioning API 참조](../experience-decisioning/api-reference/deliver.md)에서 자세히 알아보고 [코드 기반 경험을 사용하여 오퍼 게재](../experience-decisioning/api-reference/deliver.md)하는 방법을 알아봅니다.
+[Experience Decisioning API 참조](../experience-decisioning/api-reference/getting-started.md)에서 자세히 알아보고 [코드 기반 경험을 사용하여 오퍼 게재](../experience-decisioning/gs-experience-decisioning.md)하는 방법을 알아봅니다.
 
 ## 관련 항목 {#related-topics}
 
@@ -73,7 +73,7 @@ Journey Optimizer은 또한 코드 기반 경험을 통해 개인화된 의사 �
 * [Adobe Journey Optimizer API 참조](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}
 * [인증 가이드](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}
 * [의사 결정 관리 API 개발자 안내서](../offers/api-reference/getting-started.md)
-* [Experience Decisioning API 참조](../experience-decisioning/api-reference/deliver.md)
+* [Experience Decisioning API 참조](../experience-decisioning/api-reference/getting-started.md)
 
 **Journey Optimizer 통합**
 
