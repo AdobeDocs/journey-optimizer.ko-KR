@@ -101,7 +101,7 @@ Adobe Journey Optimizer은 Adobe Experience Platform의 소스 프레임워크�
 
 이 비디오를 통해 Journey Optimizer에서 소스 커넥터와 소스 커넥터를 구성하는 방법을 이해하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/335919?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3422585?captions=kor&quality=12)
 
 소스 구성 및 관리에 대한 자세한 내용은 [Adobe Experience Platform 소스 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko){target="_blank"}를 참조하세요.
 
