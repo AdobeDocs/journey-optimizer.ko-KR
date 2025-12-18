@@ -10,14 +10,18 @@ role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
 version: Journey Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 23%
+source-wordcount: '497'
+ht-degree: 26%
 
 ---
 
 # AI 모델 만들기 {#ai-rankings}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer]의 새로운 의사 결정 기능인 [결정]을 이제 코드 기반 경험 및 이메일 채널을 통해 사용할 수 있습니다. [자세히 알아보기](../../experience-decisioning/gs-experience-decisioning.md)
 
 [!DNL Journey Optimizer]을(를) 사용하면 **AI 모델**&#x200B;을(를) 만들어 비즈니스 목표에 따라 오퍼의 등급을 지정할 수 있습니다.
 
@@ -59,7 +63,7 @@ AI 모델을 만들려면 아래 단계를 수행합니다.
    >* **노출 이벤트**(표시되는 오퍼)
    >* **전환 이벤트**(전자 메일 또는 웹을 통해 클릭을 발생시키는 오퍼).
    >
-   >이러한 이벤트는 제공된 웹 SDK 또는 모바일 SDK을 사용하여 자동으로 캡처됩니다. [Adobe Experience Platform Web SDK 개요](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko)에서 이에 대해 자세히 알아보세요.
+   >이러한 이벤트는 제공된 웹 SDK 또는 모바일 SDK을 사용하여 자동으로 캡처됩니다. [Adobe Experience Platform Web SDK 개요](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)에서 이에 대해 자세히 알아보세요.
 
 1. 전환 및 노출 이벤트가 수집되는 데이터 세트를 선택합니다. [이 섹션](../data-collection/create-dataset.md)에서 이러한 데이터 세트를 만드는 방법을 알아봅니다. <!--This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.-->
 
@@ -89,7 +93,7 @@ AI 모델을 만들려면 아래 단계를 수행합니다.
 * defined which type of event you want to capture - offer displayed (impression) and/or offer clicked (conversion),
 * and in which dataset you want to collect the event data.-->
 
-이제 오퍼가 표시 및/또는 클릭될 때마다 **[!UICONTROL Adobe Experience Platform Web SDK]** 또는 Mobile SDK을 사용하여 [경험 이벤트 - 제안 상호 작용](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html?lang=ko#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} 필드 그룹에 의해 해당 이벤트가 자동으로 캡처되도록 할 수 있습니다.
+이제 오퍼가 표시 및/또는 클릭될 때마다 **[!UICONTROL Adobe Experience Platform Web SDK]** 또는 Mobile SDK을 사용하여 [경험 이벤트 - 제안 상호 작용](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} 필드 그룹에 의해 해당 이벤트가 자동으로 캡처되도록 할 수 있습니다.
 
 이벤트 유형(표시된 오퍼 또는 클릭한 오퍼)을 보낼 수 있으려면 Adobe Experience Platform으로 전송되는 경험 이벤트의 각 이벤트 유형에 대해 올바른 값을 설정해야 합니다. [방법 알아보기](../data-collection/schema-requirement.md)
 
@@ -97,4 +101,4 @@ AI 모델을 만들려면 아래 단계를 수행합니다.
 
 개인화된 최적화 모델을 만드는 방법과 이 모델을 의사 결정에 적용하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3445958?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3419954?quality=12)

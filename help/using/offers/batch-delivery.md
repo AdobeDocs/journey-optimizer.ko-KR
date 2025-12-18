@@ -9,14 +9,18 @@ role: User
 level: Intermediate
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 4%
+source-wordcount: '859'
+ht-degree: 5%
 
 ---
 
 # 배치 의사결정 {#deliver}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer]의 새로운 의사 결정 기능인 [결정]을 이제 코드 기반 경험 및 이메일 채널을 통해 사용할 수 있습니다. [자세히 알아보기](../experience-decisioning/gs-experience-decisioning.md)
 
 ## 일괄 처리 의사 결정 시작 {#start}
 
@@ -32,7 +36,7 @@ API를 사용하여 일괄 게재를 수행할 수도 있습니다. 자세한 �
 
 * Adobe Experience Platform의 **데이터 세트**. 이 데이터 세트는 &quot;ODE DecisionEvents&quot; 스키마를 사용하여 결정 결과를 저장하는 데 사용됩니다. 자세한 내용은 [데이터 세트 설명서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=ko)를 참조하세요.
 
-* Adobe Experience Platform의 **대상자** 대상자를 평가한 다음 업데이트해야 합니다. [세분화 서비스 설명서](https://www.adobe.com/go/segmentation-overview-en_kr)에서 대상 멤버십 평가를 업데이트하는 방법을 알아보세요
+* Adobe Experience Platform의 **대상자** 대상자를 평가한 다음 업데이트해야 합니다. [세분화 서비스 설명서](https://www.adobe.com/go/segmentation-overview-en)에서 대상 멤버십 평가를 업데이트하는 방법을 알아보세요
 
   >[!NOTE]
   >

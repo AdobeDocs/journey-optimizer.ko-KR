@@ -3,20 +3,25 @@ solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: 오퍼 게재 API 시작
 description: 개인화된 오퍼를 제공하는 데 사용할 수 있는 API에 대해 자세히 알아보십시오.
+badge: label="레거시" type="Informative"
 feature: Decision Management, API
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 4%
+source-wordcount: '487'
+ht-degree: 7%
 
 ---
 
 # 오퍼 게재 API 시작 {#about-decisioning-apis}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer]의 새로운 의사 결정 기능인 [결정]을 이제 코드 기반 경험 및 이메일 채널을 통해 사용할 수 있습니다. [자세히 알아보기](../../../experience-decisioning/gs-experience-decisioning.md)
 
 **Decisioning** 또는 **Edge Decisioning** API를 사용하여 오퍼를 제공할 수 있습니다. 또한 **Batch Decisioning** API를 사용하면 한 번의 호출로 주어진 대상의 모든 프로필에 오퍼를 전달할 수 있습니다. 대상의 각 프로필에 대한 오퍼 콘텐츠는 사용자 지정 일괄 처리 워크플로우에 사용할 수 있는 Adobe Experience Platform 데이터 세트에 배치됩니다.
 

@@ -10,14 +10,18 @@ role: User, Developer
 level: Intermediate
 exl-id: d822c541-c043-41f5-916c-6a8e39fb148a
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 12%
+source-wordcount: '104'
+ht-degree: 26%
 
 ---
 
 # 내보낸 오퍼 카탈로그에 액세스하기 {#access-exported-catalog}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer]의 새로운 의사 결정 기능인 [결정]을 이제 코드 기반 경험 및 이메일 채널을 통해 사용할 수 있습니다. [자세히 알아보기](../../experience-decisioning/gs-experience-decisioning.md)
 
 내보낸 오퍼 카탈로그는 Adobe Experience Platform **[!UICONTROL 데이터 세트]** 메뉴에서 액세스할 수 있습니다. 오퍼 라이브러리의 각 개체에 대해 하나의 데이터 세트가 만들어집니다.
 

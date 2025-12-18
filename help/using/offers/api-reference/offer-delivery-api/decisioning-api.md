@@ -3,20 +3,25 @@ solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: 오퍼 제공
 description: 의사 결정 관리는 비즈니스 로직 및 의사 결정 규칙을 사용하여 마케터가 채널 및 애플리케이션에서 최종 사용자에게 개인화된 오퍼 경험을 만들어 제공할 수 있는 서비스 및 UI 프로그램의 컬렉션입니다.
+badge: label="레거시" type="Informative"
 feature: Decision Management, API
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
 version: Journey Orchestration
-source-git-commit: f30113bf07c42f75bb986a81af49367ac682f4af
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '1094'
-ht-degree: 2%
+source-wordcount: '1112'
+ht-degree: 4%
 
 ---
 
 # Decisioning API를 사용하여 오퍼 게재 {#decisioning-api}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer]의 새로운 의사 결정 기능인 [결정]을 이제 코드 기반 경험 및 이메일 채널을 통해 사용할 수 있습니다. [자세히 알아보기](../../../experience-decisioning/gs-experience-decisioning.md)
 
 의사 결정 관리를 사용하면 비즈니스 논리 및 의사 결정 규칙을 사용하여 채널 및 애플리케이션 전반에 개인화된 오퍼 경험을 제작하여 제공할 수 있습니다. 오퍼는 오퍼를 볼 자격이 있는 사람을 지정하는 규칙과 관련된 마케팅 메시지입니다.
 
@@ -228,7 +233,7 @@ The following video is intended to support your understanding of the components 
 >
 >This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/342832/?captions=kor&quality=12) -->
+>[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12) -->
 
 ## 다음 단계 {#next-steps}
 

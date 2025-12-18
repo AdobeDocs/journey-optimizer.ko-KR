@@ -10,14 +10,18 @@ role: User, Developer
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '1530'
-ht-degree: 0%
+source-wordcount: '1547'
+ht-degree: 1%
 
 ---
 
 # 의사 결정 데이터 세트 {#decisions-dataset}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer]의 새로운 의사 결정 기능인 [결정]을 이제 코드 기반 경험 및 이메일 채널을 통해 사용할 수 있습니다. [자세히 알아보기](../../experience-decisioning/gs-experience-decisioning.md)
 
 오퍼가 수정될 때마다 의사 결정을 위해 자동 생성된 데이터 세트가 업데이트됩니다.
 
@@ -186,7 +190,7 @@ ht-degree: 0%
   **설명:** 관련 네임스페이스에 있는 대상자의 ID입니다.
   **유형:** 문자열
 
-* 네임스페이스
+* namespace
 
   **필드:** 네임스페이스
   **제목:** 네임스페이스

@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: 의사 결정 규칙 조회
 description: 의사 결정 규칙은 개인화된 오퍼에 추가되고 자격을 결정하기 위해 프로필에 적용되는 제약 조건입니다.
 feature: Decision Management, API
+badge: label="레거시" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 3099736d-7109-4c94-aea6-053a9b885278
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 3%
+source-wordcount: '182'
+ht-degree: 12%
 
 ---
 
 # 의사 결정 규칙 조회 {#lookup-decision-rule}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer]의 새로운 의사 결정 기능인 [결정]을 이제 코드 기반 경험 및 이메일 채널을 통해 사용할 수 있습니다. [자세히 알아보기](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 결정 규칙 [!DNL Offer Library]을(를) 포함하는 `@id` API에 대한 GET 요청 또는 요청 경로에 결정 규칙 이름을 지정하여 특정 결정 규칙을 조회할 수 있습니다.
 

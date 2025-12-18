@@ -10,14 +10,18 @@ role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '2549'
-ht-degree: 7%
+source-wordcount: '2566'
+ht-degree: 9%
 
 ---
 
 # 결정 만들기 {#create-offer-activities}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer]의 새로운 의사 결정 기능인 [결정]을 이제 코드 기반 경험 및 이메일 채널을 통해 사용할 수 있습니다. [자세히 알아보기](../../experience-decisioning/gs-experience-decisioning.md)
 
 의사 결정은 게재 대상에 따라 제공할 최상의 오퍼를 선택하기 위해 오퍼 의사 결정 엔진을 활용하는 오퍼에 대한 컨테이너입니다.
 
@@ -235,7 +239,7 @@ ht-degree: 7%
 * 범위 1: 4개의 적격 오퍼(오퍼 1, 오퍼 2, 오퍼 3, 오퍼 4)가 있으며 요청은 2개의 오퍼를 다시 전송하는 것입니다.
 * 범위 2: 4개의 적격 오퍼(오퍼 1, 오퍼 2, 오퍼 3, 오퍼 4)가 있으며 요청은 2개의 오퍼를 다시 전송하는 것입니다.
 
-+++ **예 1**
++++ **예제 1**
 
 선택은 다음과 같습니다.
 
@@ -244,7 +248,7 @@ ht-degree: 7%
 
 +++
 
-+++ **예 2**
++++ **예제 2**
 
 이 예에서 오퍼 1은 빈도 상한 제한에 도달했습니다. [빈도 설정에 대해 자세히 알아보기](../offer-library/add-constraints.md#capping)
 
@@ -255,7 +259,7 @@ ht-degree: 7%
 
 +++
 
-+++ **예 3**
++++ **예제 3**
 
 이 예에서 오퍼 1과 오퍼 3은 빈도 상한 제한에 도달했습니다. [빈도 설정에 대해 자세히 알아보기](../offer-library/add-constraints.md#capping)
 
@@ -275,7 +279,7 @@ ht-degree: 7%
 * 범위 1: 4개의 적격 오퍼(오퍼 1, 오퍼 2, 오퍼 3, 오퍼 4)가 있으며 요청은 2개의 오퍼를 다시 전송하는 것입니다.
 * 범위 2: 4개의 적격 오퍼(오퍼 1, 오퍼 2, 오퍼 3, 오퍼 4)가 있으며 요청은 2개의 오퍼를 다시 전송하는 것입니다.
 
-+++ **예 1**
++++ **예제 1**
 
 선택은 다음과 같습니다.
 
@@ -284,7 +288,7 @@ ht-degree: 7%
 
 +++
 
-+++ **예 2**
++++ **예제 2**
 
 이 예에서 오퍼 1은 빈도 상한 제한에 도달했습니다. [빈도 설정에 대해 자세히 알아보기](../offer-library/add-constraints.md#capping)
 
@@ -296,7 +300,7 @@ ht-degree: 7%
 
 +++
 
-+++ **예 3**
++++ **예제 3**
 
 이 예에서 오퍼 1과 오퍼 3은 빈도 상한 제한에 도달했습니다. [빈도 설정에 대해 자세히 알아보기](../offer-library/add-constraints.md#capping)
 
@@ -382,7 +386,7 @@ ht-degree: 7%
 
   >[!CAUTION]
   >
-  >결정 및 해당 콘텐츠에 더 이상 액세스할 수 없습니다. 이 작업은 취소할 수 없습니다.
+  >결정 및 해당 콘텐츠에 더 이상 액세스할 수 없습니다. 이 작업은 실행 취소할 수 없습니다.
   >
   >결정이 다른 오브젝트에서 사용되는 경우 삭제할 수 없습니다.
 
@@ -408,6 +412,6 @@ ht-degree: 7%
 
 의사 결정 관리에서 오퍼 활동을 만드는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/346696?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 
 

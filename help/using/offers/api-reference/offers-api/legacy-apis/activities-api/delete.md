@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: 결정 삭제
 description: 결정에는 오퍼의 선택을 알려주는 논리가 포함되어 있습니다.
 feature: Decision Management, API
+badge: label="레거시" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 36a87d98-fd61-416e-83a1-e267a7b4d455
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 6%
+source-wordcount: '161'
+ht-degree: 17%
 
 ---
 
 # 의사 결정 삭제 {#delete-decision}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer]의 새로운 의사 결정 기능인 [결정]을 이제 코드 기반 경험 및 이메일 채널을 통해 사용할 수 있습니다. [자세히 알아보기](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 결정을 제거(DELETE)해야 하는 경우가 있습니다. 테넌트 컨테이너에서 만드는 의사 결정만 삭제할 수 있습니다. 이 작업은 삭제하려는 대체 오퍼의 $id를 사용하여 [!DNL Offer Library] API에 대한 DELETE 요청을 수행함으로써 수행됩니다.
 

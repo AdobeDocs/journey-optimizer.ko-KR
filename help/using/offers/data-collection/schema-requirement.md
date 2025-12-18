@@ -9,14 +9,18 @@ role: Developer
 level: Experienced
 exl-id: f70ba749-f517-4e09-a381-243b21713b48
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 2%
+source-wordcount: '290'
+ht-degree: 8%
 
 ---
 
 # 데이터 수집 구성 {#schema-requirements}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer]의 새로운 의사 결정 기능인 [결정]을 이제 코드 기반 경험 및 이메일 채널을 통해 사용할 수 있습니다. [자세히 알아보기](../../experience-decisioning/gs-experience-decisioning.md)
 
 결정 이벤트 이외의 이벤트 유형에 대한 피드백을 받으려면 Adobe Experience Platform으로 전송된 **경험 이벤트**&#x200B;에서 각 이벤트 유형에 올바른 값을 설정해야 합니다.
 
@@ -109,4 +113,4 @@ ht-degree: 2%
 >* POST /ee/v2/interact
 >* POST /ee/v2/collect
 >
->[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko){target="_blank"} 또는 [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=ko){target="_blank"}를 사용하는 경우 자동으로 연결됩니다.
+>[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} 또는 [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"}를 사용하는 경우 자동으로 연결됩니다.

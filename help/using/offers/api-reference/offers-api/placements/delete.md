@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: 배치 삭제
 description: 배치는 오퍼를 표시하는 데 사용되는 컨테이너입니다.
 feature: Decision Management, API
+badge: label="레거시" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: ca7af3b0-62cd-44ac-8856-b3d1ec15f284
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 7%
+source-wordcount: '127'
+ht-degree: 20%
 
 ---
 
 # 배치 삭제 {#delete-placement}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer]의 새로운 의사 결정 기능인 [결정]을 이제 코드 기반 경험 및 이메일 채널을 통해 사용할 수 있습니다. [자세히 알아보기](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 간혹 배치를 제거(DELETE)해야 할 수 있습니다. 이 작업은 삭제하려는 배치 ID를 사용하여 [!DNL Offer Library] API에 대한 DELETE 요청을 수행함으로써 수행됩니다.
 

@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: 대체 오퍼 업데이트
 description: 다른 오퍼에 적합하지 않은 경우 고객에게 대체 오퍼가 전송됩니다
 feature: Decision Management, API
+badge: label="레거시" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 7ff69887-620f-4bc0-b8ff-5144ff30696c
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 11%
+source-wordcount: '173'
+ht-degree: 20%
 
 ---
 
 # 대체 오퍼 업데이트 {#update-fallback-offer}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer]의 새로운 의사 결정 기능인 [결정]을 이제 코드 기반 경험 및 이메일 채널을 통해 사용할 수 있습니다. [자세히 알아보기](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 [!DNL Offer Library] API에 대한 PATCH 요청을 통해 컨테이너에서 대체 오퍼를 수정하거나 업데이트할 수 있습니다.
 

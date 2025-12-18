@@ -9,14 +9,18 @@ role: Developer
 level: Experienced
 exl-id: 4e736f9d-0f05-4a79-8ebf-ea22517d78a9
 version: Journey Orchestration
-source-git-commit: d0b3a4e90b8eca6f5929f92f203c4bc296da7615
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 5%
+source-wordcount: '227'
+ht-degree: 12%
 
 ---
 
 # 컨텍스트 데이터 시작 {#context-data}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer]의 새로운 의사 결정 기능인 [결정]을 이제 코드 기반 경험 및 이메일 채널을 통해 사용할 수 있습니다. [자세히 알아보기](../experience-decisioning/gs-experience-decisioning.md)
 
 의사 결정 요청의 일부로 전송된 데이터는 컨텍스트 데이터로 간주됩니다. 예를 들어 의사 결정 엔진의 컨텍스트 데이터를 활용하여 의사 결정 요청이 수행될 때 현재 날씨가 ≥80도여야 하는 의사 결정 규칙을 디자인할 수 있습니다.
 

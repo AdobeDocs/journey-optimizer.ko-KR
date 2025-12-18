@@ -4,20 +4,26 @@ product: Journey Optimizer
 title: 결정 업데이트
 description: 결정에는 오퍼의 선택을 알려주는 논리가 포함되어 있습니다.
 feature: Decision Management, API
+badge: label="레거시" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 63a6b50b-9e42-43c0-87ee-19fcb6ecdd98
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 8%
+source-wordcount: '175'
+ht-degree: 18%
 
 ---
 
 
 # 의사 결정 업데이트 {#update-decision}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer]의 새로운 의사 결정 기능인 [결정]을 이제 코드 기반 경험 및 이메일 채널을 통해 사용할 수 있습니다. [자세히 알아보기](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 [!DNL Offer Library] API에 대한 PATCH 요청을 통해 컨테이너에서 결정을 수정하거나 업데이트할 수 있습니다.
 

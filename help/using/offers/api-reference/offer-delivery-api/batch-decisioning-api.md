@@ -3,21 +3,26 @@ solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: Batch Decisioning API
 description: Batch Decisioning API를 사용하여 사전 정의된 결정 범위 내에서 대상자 프로필에 대한 최상의 오퍼를 선택하는 방법을 알아봅니다.
+badge: label="레거시" type="Informative"
 feature: Decision Management, API
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 3%
+source-wordcount: '747'
+ht-degree: 5%
 
 ---
 
 
 # [!DNL Batch Decisioning] API를 사용하여 오퍼 게재 {#deliver-offers-batch}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer]의 새로운 의사 결정 기능인 [결정]을 이제 코드 기반 경험 및 이메일 채널을 통해 사용할 수 있습니다. [자세히 알아보기](../../../experience-decisioning/gs-experience-decisioning.md)
 
 [!DNL Batch Decisioning] API를 사용하면 한 번의 호출로 주어진 대상의 모든 프로필에 대해 의사 결정 기능을 사용할 수 있습니다. 대상의 각 프로필에 대한 오퍼 콘텐츠는 사용자 지정 일괄 처리 워크플로우에 사용할 수 있는 Adobe Experience Platform 데이터 세트에 배치됩니다.
 
@@ -33,7 +38,7 @@ ht-degree: 3%
 
 * 데이터 세트를 메시지 게재 공급업체 API로 내보냅니다.
 
-<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=ko) to learn more about exporting audiences.) -->
+<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html) to learn more about exporting audiences.) -->
 
 >[!NOTE]
 >

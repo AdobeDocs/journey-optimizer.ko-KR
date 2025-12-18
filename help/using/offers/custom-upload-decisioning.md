@@ -9,14 +9,18 @@ role: User
 level: Intermediate
 exl-id: bd950410-691b-49d8-8851-8c6c448c00fd
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 2%
+source-wordcount: '550'
+ht-degree: 5%
 
 ---
 
 # 의사 결정에 사용자 정의 업로드 대상자 활용 {#custom-upload-decisioning}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer]의 새로운 의사 결정 기능인 [결정]을 이제 코드 기반 경험 및 이메일 채널을 통해 사용할 수 있습니다. [자세히 알아보기](../experience-decisioning/gs-experience-decisioning.md)
 
 Journey Optimizer을 사용하면 Adobe Experience Platform으로의 사용자 지정 업로드(CSV 파일)를 사용하여 만든 대상의 데이터를 활용하여 의사 결정 관리 워크플로우를 지원할 수 있습니다. 이 기능은 프로필에 데이터가 필요하지 않지만 의사 결정 목적으로 여전히 필수인 경우에 특히 유용합니다.
 
@@ -28,7 +32,7 @@ Journey Optimizer을 사용하면 Adobe Experience Platform으로의 사용자 �
 사용자 지정 업로드 대상자에 대한 자세한 내용은 다음 섹션을 참조하십시오.
 
 * [대상자 및 Journey Optimizer 시작](../audience/about-audiences.md)
-* [Adobe Experience Platform에서 대상 가져오기](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
+* [Adobe Experience Platform에서 대상 가져오기](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
 
 ## 반드시 알아야 할 사항 {#must-read}
 
