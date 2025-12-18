@@ -7,10 +7,10 @@ feature: Integrations, Data Ingestion
 role: Developer
 level: Intermediate
 exl-id: 4c897c52-6eb2-4d6e-aaa9-9bd83608b2b6
-source-git-commit: e46ab0637a0fa4a2b4b8b6ff3b8ab3eb5d38e0f7
+source-git-commit: 5d1e62ba9f42a0828cc1faec5f0b7aa4e4f90a24
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 5%
+source-wordcount: '527'
+ht-degree: 6%
 
 ---
 
@@ -18,20 +18,20 @@ ht-degree: 5%
 
 ## 빠른 액세스 {#quick-access}
 
->[!IMPORTANT]
->
->**Journey Optimizer API 시작:**
->
->* **[전체 API 참조 찾아보기](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}** - 모든 Journey Optimizer API에 액세스하고 직접 테스트합니다.
->* **[인증 설정](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}** - API 사용을 시작하는 데 필요한 자격 증명을 수집합니다.
->* **[의사 결정 관리 API](../offers/api-reference/getting-started.md)** - 오퍼와 의사 결정을 프로그래밍 방식으로 관리합니다.
->* **[Experience Decisioning API](../experience-decisioning/api-reference/getting-started.md)** - 의사 결정 항목, 선택 전략 및 자격 규칙을 프로그래밍 방식으로 관리합니다.
+모든 Journey Optimizer API에 액세스하고 직접 테스트하려면 [전체 API 참조](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}를 검색하십시오. 시작하려면 필요한 자격 증명을 수집하려면 [인증을 설정](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}하세요.
 
 ## 개요 {#overview}
 
 Adobe Journey Optimizer API를 사용하면 모든 앱, 장치 또는 채널에서 개인화되고, 연결되며, 시기적절한 고객 경험을 제공할 수 있으며, 결과적으로 엔드 투 엔드 고객 여정을 효과적으로 관리할 수 있습니다. 고객 여정은 고객과 브랜드 간의 상호 작용을 위한 전체 프로세스로서, 연락 시작부터 고객이 떠난 시점까지 진행됩니다. 브랜드에 대해 알아보고 높이고 참여를 유도하는 인지도 단계로 시작합니다. 그런 다음 고객은 브랜드와 상호 작용하고, 온라인 및 물리적 사이트를 방문하거나, 구매를 하거나, 메시지를 보내거나, 리뷰를 게시합니다.
 
 Adobe Journey Optimizer은 기본적으로 Adobe Experience Platform을 기반으로 빌드되었으며 개인화 및 최적화를 위한 통합 실시간 고객 프로필, API 우선 오픈 프레임워크, 중앙 집중식 Offer Decisioning 및 AI(인공 지능) 및 ML(머신 러닝)을 결합합니다. Journey Optimizer API와 통합함으로써 브랜드는 전체 고객 여정에서 규모, 속도 및 유연성과 차세대 상호 작용을 지능적으로 결정할 수 있습니다.
+
+**Journey Optimizer API 시작:**
+
+* **[전체 API 참조 찾아보기](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}** - 모든 Journey Optimizer API에 액세스하고 직접 테스트합니다.
+* **[인증 설정](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}** - API 사용을 시작하는 데 필요한 자격 증명을 수집합니다.
+* **[의사 결정 관리 API](../offers/api-reference/getting-started.md)** - 오퍼와 의사 결정을 프로그래밍 방식으로 관리합니다.
+* **[Experience Decisioning API](../experience-decisioning/api-reference/deliver.md)** - 코드 기반 경험을 사용하여 개인화된 결정 항목 전달
 
 ## 인증 {#authentication}
 
@@ -64,4 +64,25 @@ Journey Optimizer은 또한 코드 기반 경험을 통해 개인화된 의사 �
 * **등급 수식** - 사용자 지정 등급 논리 구성
 * **배치** - 결정 항목을 표시할 위치를 정의합니다.
 
-[Experience Decisioning API 참조](../experience-decisioning/api-reference/getting-started.md)에서 자세히 알아보기
+[Experience Decisioning API 참조](../experience-decisioning/api-reference/deliver.md)에서 자세히 알아보고 [코드 기반 경험을 사용하여 오퍼 게재](../experience-decisioning/api-reference/deliver.md)하는 방법을 알아봅니다.
+
+## 관련 항목 {#related-topics}
+
+**API 설명서 및 안내서**
+
+* [Adobe Journey Optimizer API 참조](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}
+* [인증 가이드](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}
+* [의사 결정 관리 API 개발자 안내서](../offers/api-reference/getting-started.md)
+* [Experience Decisioning API 참조](../experience-decisioning/api-reference/deliver.md)
+
+**Journey Optimizer 통합**
+
+* [Adobe Analytics 통합](../integrations/integration-ajo-analytics.md)
+* [Adobe Target 통합](../integrations/integration-ajo-target.md)
+* [Adobe Campaign 통합](../building-journeys/using-adobe-campaign-v7-v8.md)
+
+**개발자 리소스**
+
+* [Adobe Experience Platform API](https://developer.adobe.com/experience-platform-apis/){target="_blank"}
+* [Adobe Developer Console](https://developer.adobe.com/console){target="_blank"}
+* [여정의 사용자 지정 작업](../action/about-custom-action-configuration.md)
