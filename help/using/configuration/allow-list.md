@@ -9,14 +9,14 @@ role: Admin
 level: Experienced
 keywords: 허용 목록, 목록, 안전, 구성
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 2af0e9237bbcc79456a31042ed8e42233bbccac3
+source-git-commit: d236ece92a40a9ad986adfff33cb1b0a53ae57c0
 workflow-type: tm+mt
-source-wordcount: '1179'
-ht-degree: 16%
+source-wordcount: '1182'
+ht-degree: 15%
 
 ---
 
-# 허용 목록 {#allow-list}
+# 허용 목록 설정 {#allow-list}
 
 [샌드박스](../administration/sandboxes.md) 수준에서 특정 전송 안전 목록을 정의할 수 있습니다.
 
@@ -40,7 +40,7 @@ ht-degree: 16%
 
 >[!CAUTION]
 >
->허용 목록을 보고 내보내고 관리할 수 있는 권한이 [여정 관리자](../administration/ootb-product-profiles.md#journey-administrator)(으)로 제한됩니다. [!DNL Journey Optimizer]이 섹션[에서 &#x200B;](../administration/permissions-overview.md) 사용자의 액세스 권한 관리에 대해 자세히 알아보세요.
+>허용 목록을 보고 내보내고 관리할 수 있는 권한이 [여정 관리자](../administration/ootb-product-profiles.md#journey-administrator)(으)로 제한됩니다. [!DNL Journey Optimizer]이 섹션[에서 ](../administration/permissions-overview.md) 사용자의 액세스 권한 관리에 대해 자세히 알아보세요.
 
 허용 목록을 CSV 파일로 내보내려면 **[!UICONTROL CSV 다운로드]** 단추를 선택합니다.
 
@@ -152,7 +152,7 @@ ht-degree: 16%
 
 **추가**, **삭제** 및 **가져오기** 작업을 수행할 수 있습니다.
 
-[Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=ko){target="_blank"} 참조 설명서에서 API 호출에 대해 자세히 알아보세요.
+[Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target="_blank"} 참조 설명서에서 API 호출에 대해 자세히 알아보세요.
 
 ## 허용 목록 다운로드 {#download-allowed-list}
 
@@ -207,7 +207,7 @@ ht-degree: 16%
 
 ## 제외 보고 {#reporting}
 
-허용 목록이 활성화되면 허용 목록에 있지 않아 전송에서 제외된 이메일 주소 또는 도메인을 검색할 수 있습니다. 이렇게 하려면 [Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ko){target="_blank"}를 사용하여 아래 API를 호출할 수 있습니다.
+허용 목록이 활성화되면 허용 목록에 있지 않아 전송에서 제외된 이메일 주소 또는 도메인을 검색할 수 있습니다. 이렇게 하려면 [Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}를 사용하여 아래 API를 호출할 수 있습니다.
 
 수신자가 허용 목록에 없어서 전송되지 않은 **이메일 개수**&#x200B;를 가져오려면 다음 쿼리를 사용하십시오.
 

@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9d6f9cf41b967e3185233d839cba229d9d4db908
+source-git-commit: c9fd0aeda42f8833a542ecafae8c60aaebde4ef0
 workflow-type: tm+mt
-source-wordcount: '3024'
+source-wordcount: '3033'
 ht-degree: 96%
 
 ---
@@ -235,14 +235,22 @@ ht-degree: 96%
       + [요청 승인](using/test-approve/review-approve-request.md)
 + 모니터링 및 문제 해결 {#monitor}
    + [모니터링 및 문제 해결](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
-   + [시스템 경고](using/reports/alerts.md)
-   + [오류 코드 참조](using/building-journeys/error-codes-reference.md)
-   + [문제 해결 문서](using/start/troubleshooting.md)
-   + 여정 문제 해결 {#troubleshoot-journey}
-      + [여정 오류 문제 해결](using/building-journeys/troubleshooting.md)
-      + [여정 실행 문제 해결](using/building-journeys/troubleshooting-execution.md)
-      + [인바운드 액션 문제 해결](using/building-journeys/troubleshooting-inbound.md)
-      + [사용자 정의 액션 문제 해결](using/action/troubleshoot-custom-action.md)
+   + [추적 시작](using/start/get-started-tracking.md)
+   + 이메일 전달성 {#deliverability}
+      + [이메일 전달성](/help/rp_landing_pages/deliverability-landing-page.md)
+      + [전달성 시작](using/reports/deliverability.md)
+      + [금지 목록 이해하기](using/reports/suppression-list.md)
+      + [새로운 DMARC 요구 사항](using/configuration/dmarc-record-update.md)
+   + 경고 및 오류 코드 모니터링 {#monitor-alerts-errors}
+      + [시스템 경고](using/reports/alerts.md)
+      + [오류 코드 참조](using/building-journeys/error-codes-reference.md)
+   + 문제 해결 {#troubleshooting}
+      + [문제 해결 FAQ](using/start/troubleshooting.md)
+      + 여정 문제 해결 {#troubleshoot-journey}
+         + [여정 오류 문제 해결](using/building-journeys/troubleshooting.md)
+         + [여정 실행 문제 해결](using/building-journeys/troubleshooting-execution.md)
+         + [인바운드 액션 문제 해결](using/building-journeys/troubleshooting-inbound.md)
+         + [사용자 정의 액션 문제 해결](using/action/troubleshoot-custom-action.md)
 + 커뮤니케이션 채널 {#channels}
    + [소통 채널 시작](using/channels/gs-channels.md)
    + 이메일 채널 {#email}
@@ -288,11 +296,6 @@ ht-degree: 96%
          + [헤더 매개변수](using/email/header-parameters.md)
          + [URL 추적](using/email/url-tracking.md)
          + [이메일 구성 개인화](using/email/surface-personalization.md)
-      + 이메일 전달성 {#deliverability}
-         + [이메일 전달성](/help/rp_landing_pages/deliverability-landing-page.md)
-         + [전달성 시작](using/reports/deliverability.md)
-         + [금지 목록 이해하기](using/reports/suppression-list.md)
-         + [새로운 DMARC 요구 사항](using/configuration/dmarc-record-update.md)
    + 인앱 채널 {#in-app}
       + [인앱 채널](/help/rp_landing_pages/in-app-landing-page.md)
       + [인앱 시작](using/in-app/get-started-in-app.md)
@@ -345,7 +348,7 @@ ht-degree: 96%
          + [웹 채널 전제 조건](using/web/web-prerequisites.md)
          + [웹 하위 도메인 구성](using/web/web-delegated-subdomains.md)
          + [웹 채널 구성 만들기](using/web/web-configuration.md)
-      + [웹 경험 만들기 &#x200B;](using/web/create-web.md)
+      + [웹 경험 만들기 ](using/web/create-web.md)
       + 웹 페이지 작성 {#author-web-pages}
          + [웹 페이지 작성](/help/rp_landing_pages/author-web-pages-landing-page.md)
          + [웹 디자이너를 사용하여 작업](using/web/web-visual-editor.md)
@@ -399,7 +402,7 @@ ht-degree: 96%
          + [Journey Optimizer에서 라이브 활동 구성](using/mobile-live/mobile-live-configuration.md)
          + [라이브 활동 SDK 통합 구성](using/mobile-live/mobile-live-configuration-sdk.md)
 + 콘텐츠 관리 {#content-management}
-   + [콘텐츠 관리 &#x200B;](/help/rp_landing_pages/content-management-landing-page.md)
+   + [콘텐츠 관리 ](/help/rp_landing_pages/content-management-landing-page.md)
    + 개인화 {#personalization}
       + [개인화](/help/rp_landing_pages/personalization-landing-page.md)
       + [개인화 시작](using/personalization/personalize.md)
