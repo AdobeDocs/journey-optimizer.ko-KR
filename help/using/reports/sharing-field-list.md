@@ -8,7 +8,7 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 4f13f863a5e08cc0e92c26d782d888f0d6d2fea4
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 9%
@@ -53,7 +53,7 @@ journeyStepEvent의 경우 ID와 관련된 필드도 추가해야 합니다.
 | 필드 이름 | 유형 | 설명 |
 |---|---|------------|
 | ID | 문자열 | 프로필 식별자는 여정에서 전송/사용되는 프로필을 식별합니다. 예: foo@adobe.com. |
-| 네임스페이스 | 문자열 | 이 필드에서는 여정에 사용된 프로필에서 참조하는 네임스페이스에 대해 설명합니다. 예: 이메일, ECID |
+| namespace | 문자열 | 이 필드에서는 여정에 사용된 프로필에서 참조하는 네임스페이스에 대해 설명합니다. 예: 이메일, ECID |
 
 ## 서비스 이벤트 {#servicevents-field}
 
@@ -70,7 +70,7 @@ journeyStepEvent의 경우 ID와 관련된 필드도 추가해야 합니다.
 | eventType | 문자열 | 오류 이벤트인지 정보 이벤트인지를 나타내는 이벤트 유형: 정보, 오류 |
 | eventCode | 문자열 | 해당 eventType의 이유를 나타내는 오류 코드 |
 
-이 섹션[에서 eventTypes &#x200B;](#discarded-events)에 대해 자세히 알아보세요.
+이 섹션[에서 eventTypes ](#discarded-events)에 대해 자세히 알아보세요.
 
 ## stepEvent {#stepevents-field}
 
@@ -95,7 +95,7 @@ journeyStepEvent의 경우 ID와 관련된 필드도 추가해야 합니다.
 
   **문제 해결**: 하나 이상의 세그먼트가 라이브되고 여정에 대해 구성되어 있는지 확인하고 세그먼트 ID를 확인하십시오.
 
-* **여정_INSTANCE_ID_NOT_CREATE**: 시스템에서 고객에 대한 여정 인스턴스를 만들지 못했습니다.
+* **여정_INSTANCE_ID_NOT_CREATED**: 시스템이 고객에 대한 여정 인스턴스를 만들지 못했습니다.
 
   **일반적인 원인**: 이벤트가 중복되고, 이벤트 볼륨이 많으며, 시스템 리소스 제약 조건이 있습니다.
 
