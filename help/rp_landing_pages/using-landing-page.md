@@ -4,7 +4,7 @@ product: Journey Optimizer
 title: Adobe Journey Optimizer 도움말
 description: Adobe Journey Optimizer 도움말
 redpen-status: CREATED_||_2025-08-11_21-21-01
-source-git-commit: a73bf80fa61c6ce7c9be054e013e9a59ef3d9ba8
+source-git-commit: 7c47940713484dd6d6047eefe6e0ae0d0a276b9c
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 100%
@@ -21,7 +21,7 @@ Adobe Journey Optimizer는 팀이 이메일, SMS 등 여러 채널에 걸쳐 개
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Adobe Journey Optimizer 시작
 
@@ -31,27 +31,27 @@ Adobe Journey Optimizer의 기능, 아키텍처, 사용자 인터페이스 등 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 여정 종합 안내서
 
 이 심층 안내서를 통해 개인화된 고객 여정을 설계, 오케스트레이션, 관리, 최적화할 수 있습니다.
 
-[여정 탐색](orchestrate-journeys-landing-page.md)
+[여정 탐색](../using/building-journeys/journey.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 캠페인 이해 및 관리
 
 효과적인 타기팅을 위해 다양한 캠페인 유형을 만들고 관리하고 최적화하기 위한 자세한 지침입니다.
 
-[캠페인에 대해 알아보기](campaigns-landing-page.md)
+[캠페인에 대해 알아보기](../using/campaigns/get-started-with-campaigns.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 충돌 관리 및 우선순위 지정
 
