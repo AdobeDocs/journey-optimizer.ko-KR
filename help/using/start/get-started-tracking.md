@@ -8,9 +8,9 @@ topic: Administration
 role: User
 level: Beginner
 keywords: 추적, 모니터링, 분석, 보고, 전달성
-source-git-commit: a326f6df3332519b2c3efc77a0a0f26e629f1145
+source-git-commit: 4dfda2a13bfd01c7c556ae3e8eb31916592c569b
 workflow-type: tm+mt
-source-wordcount: '1813'
+source-wordcount: '1916'
 ht-degree: 3%
 
 ---
@@ -91,7 +91,7 @@ Journey Optimizer은 채널별 추적 기능을 제공합니다. 각 채널에 �
 
 * **URL 추적 매개 변수 설정** - 표면 수준에서 추적 매개 변수를 구성하여 모든 이메일 링크에 캠페인 식별자(utm_campaign, utm_source 등)를 자동으로 추가합니다. 이렇게 하면 전체 디지털 에코시스템에서 속성 추적을 사용할 수 있습니다. [자세히 알아보기](../email/url-tracking.md)
 
-* **저장된 조각에서 링크 추적** - 여정 또는 캠페인에서 추적이 활성화되면 이 여정 또는 캠페인의 콘텐츠에서 저장된 조각의 링크도 이 조각을 재사용할 때 추적됩니다. [자세히 알아보기](../content-management/save-fragments.md)
+* **저장된 조각에서 링크 추적** - 추적이 활성화된 콘텐츠에서 조각을 저장하면 다른 여정 또는 캠페인에서 다시 사용할 때 해당 조각의 링크가 추적된 상태로 유지됩니다. [자세히 알아보기](../content-management/save-fragments.md)
 
 * **미러 페이지 추적 추가** - 미러 페이지 옵션을 활성화하여 조회하는 사용자를 자동으로 추적하여 전자 메일의 웹 버전을 만듭니다. [자세히 알아보기](../email/message-tracking.md#mirror-page)
 
@@ -105,10 +105,10 @@ Journey Optimizer은 채널별 추적 기능을 제공합니다. 각 채널에 �
 
 **클릭 추적 설정:**
 
-웹 수정을 디자인할 때 추적할 특정 요소(단추, 이미지, 링크)를 선택할 수 있습니다. 이렇게 하면 추가 코드 없이 이러한 요소에 대한 클릭 추적을 수행할 수 있습니다. [자세히 알아보기](../web/monitor-web-experiences.md)
+웹 페이지를 작성할 때 추적할 특정 요소(단추, 이미지, 링크)를 선택할 수 있습니다. 이렇게 하면 추가 코드 없이 이러한 요소에 대한 클릭 추적을 수행할 수 있습니다. [자세히 알아보기](../web/monitor-web-experiences.md)
 
-* **클릭 가능한 요소 추적** - 웹 개인 설정에서 단추, 이미지, 링크 또는 대화형 요소를 선택합니다.
-* **자동 데이터 수집** - 구성이 완료되면 Journey Optimizer에서 클릭 이벤트를 자동으로 캡처하여 프로필과 연결합니다
+* **클릭 가능한 요소를 추적합니다** - 웹 개인 설정에서 단추, 이미지, 링크 또는 대화형 요소를 선택합니다.
+* **자동 데이터 수집** - 구성이 완료되면 Journey Optimizer에서 클릭 이벤트를 자동으로 캡처하여 프로필과 연결합니다.
 * **실시간으로 모니터링** - 개인화 효과를 확인하기 위해 사용자 상호 작용을 추적합니다.
 
 **추적 데이터 보기:** 보고서의 표시 지표, 클릭스루 비율 및 요소 수준 성능에 액세스합니다. [캠페인 보고서](../reports/campaign-global-report-cja-web.md) | [여정 보고서](../reports/journey-global-report-cja-web.md)
@@ -139,13 +139,15 @@ Journey Optimizer은 채널별 추적 기능을 제공합니다. 각 채널에 �
 
 인앱 메시지는 디스플레이 및 사용자 상호 작용을 자동으로 추적합니다. 추적 효과를 극대화하도록 트리거 및 콘텐츠를 구성합니다.
 
-**추적 구성:**
+**추적 설정:**
 
-* **표시 규칙 설정** - 트리거(앱 시작, 화면 로드), 빈도 규칙 및 대상 조건을 사용하여 인앱 메시지가 표시되는 시기와 위치를 정의합니다. 적절한 구성을 통해 트리거된 메시지와 표시된 메시지를 모두 정확하게 추적할 수 있습니다. [자세히 알아보기](../in-app/create-in-app.md)
+* **표시 규칙 정의** - 트리거(앱 시작, 화면 로드), 빈도 규칙 및 대상 조건을 사용하여 인앱 메시지가 표시되는 시기와 위치를 설정합니다. 적절한 구성을 통해 트리거된 메시지와 표시된 메시지를 모두 정확하게 추적할 수 있습니다.
 
 * **추적된 요소 추가** - 메시지 콘텐츠에 단추, 링크 및 대화형 요소를 포함합니다. 각 상호 작용은 세부 레이블로 자동으로 추적됩니다.
 
 * **표시 시간 최적화** - 요일 및 시간 규칙을 구성하여 트리거된 메시지가 실제로 사용자에게 표시될 가능성을 최대화합니다.
+
+[인앱 메시지 구성 방법 알아보기](../in-app/create-in-app.md)
 
 **추적되는 내용:** Journey Optimizer은 자동으로 표시, 단추 클릭, 해제, 트리거된 지표 및 표시된 지표와 연결된 성능을 캡처합니다. [캠페인 보고서](../reports/campaign-global-report-cja-inapp.md) | [여정 보고서](../reports/journey-global-report-cja-inapp.md)
 
@@ -157,9 +159,9 @@ SMS 추적을 사용하려면 최소 설정이 필요합니다. Journey Optimize
 
 **작동 방식:**
 
-* **자동 링크 추적** - URL 도우미 함수를 사용하여 SMS 콘텐츠에 URL을 추가합니다. Journey Optimizer은 링크를 자동으로 단축하고 추가 구성 없이 클릭 수를 추적합니다. URL 단축법을 사용하려면 먼저 SMS 하위 도메인을 구성해야 합니다. [자세히 알아보기](../sms/create-sms.md#sms-content)
+* **자동 링크 추적** - URL 도우미 함수를 사용하여 SMS 콘텐츠에 URL을 추가합니다. Journey Optimizer은 링크를 자동으로 단축하고 추가 구성 없이 클릭 수를 추적합니다. URL 단축법을 사용하려면 먼저 SMS 하위 도메인을 구성해야 합니다. [자세히 알아보기](../sms/sms-subdomains.md)
 
-* **인바운드 메시지 추적** - 받는 사람의 회신이 자동으로 캡처되므로 양방향 대화 및 응답 패턴을 모니터링할 수 있습니다.
+* **인바운드 메시지 추적** - 받는 사람의 회신이 자동으로 캡처되므로 양방향 대화 및 응답 패턴을 모니터링할 수 있습니다. [자세히 알아보기](../sms/sms-opt-out.md#sms-native-keywords)
 
 **지표 보기:** 보고서에서 링크 클릭 데이터, 인바운드 메시지 볼륨 및 메시지 유형 성능에 액세스합니다. [캠페인 보고서](../reports/campaign-global-report-cja-sms.md) | [여정 보고서](../reports/journey-global-report-cja-sms.md)
 
@@ -173,9 +175,9 @@ SMS 추적을 사용하려면 최소 설정이 필요합니다. Journey Optimize
 
 추적이 작동하려면 먼저 상호 작용 이벤트(디스플레이, 클릭 수)를 Adobe Experience Platform으로 보내도록 구현을 구성해야 합니다. 이를 위해서는 다음이 필요합니다.
 
-* Adobe Experience Platform에 대해 구성된 데이터스트림 설정
-* Web SDK 또는 Mobile SDK을 사용하여 코드에서 이벤트 컬렉션 구현
-* 콘텐츠를 표시하거나 클릭할 때 디스플레이 및 상호 작용 이벤트 보내기
+* Adobe Experience Platform에 대해 구성된 데이터스트림 설정. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=ko-KR)
+* 웹 SDK 또는 모바일 SDK을 사용하여 코드에서 이벤트 컬렉션 구현.
+* 콘텐츠를 표시하거나 클릭할 때 디스플레이 및 상호 작용 이벤트 전송.
 
 [구현 사전 요구 사항에 대해 자세히 알아보기](../code-based/code-based-prerequisites.md#reporting-prerequisites)
 
@@ -185,7 +187,7 @@ SMS 추적을 사용하려면 최소 설정이 필요합니다. Journey Optimize
 
 +++컨텐츠 카드 추적
 
-[콘텐츠 카드](../content-card/create-content-card.md)에서 사용자 상호 작용을 자동으로 추적합니다. 추적 동작을 제어할 콘텐츠 및 표시 규칙을 구성합니다.
+컨텐츠 카드는 사용자 상호 작용을 자동으로 추적합니다. 추적 동작을 제어할 콘텐츠 및 표시 규칙을 구성합니다.
 
 **구현 방법:**
 
@@ -195,13 +197,15 @@ SMS 추적을 사용하려면 최소 설정이 필요합니다. Journey Optimize
 
 * **표시 규칙 설정** - 표시와 상호 작용을 정확하게 추적할 수 있도록 카드가 표시되는 시기와 위치를 정의합니다.
 
+[콘텐츠 카드를 구성하는 방법 알아보기](../content-card/create-content-card.md)
+
 **참여 모니터링:** 여러 세션에서 디스플레이, 클릭 수, 클릭스루 비율 및 참여 패턴을 추적합니다. [캠페인 보고서](../reports/campaign-global-report-cja-content.md) | [여정 보고서](../reports/journey-global-report-cja-content.md)
 
 +++
 
 +++랜딩 페이지 추적
 
-[랜딩 페이지](../reports/lp-report-global-cja.md)에는 추가 설정이 필요 없는 기본 추적 기능이 제공됩니다. Journey Optimizer은 방문, 전환 및 바운스 비율을 자동으로 캡처합니다.
+랜딩 페이지에는 추가 설정이 필요 없는 내장 추적이 제공됩니다. Journey Optimizer은 방문, 전환 및 바운스 비율을 자동으로 캡처합니다.
 
 **자동으로 추적되는 항목:**
 
@@ -210,7 +214,9 @@ SMS 추적을 사용하려면 최소 설정이 필요합니다. Journey Optimize
 * **바운스 비율** - 상호 작용하지 않고 나가는 방문자의 비율입니다.
 * **성능 트렌드** - 지표가 발전하는 방식을 보여 주는 시계열 데이터
 
-**성능 최적화:** 추적 데이터를 사용하여 양식 필드를 구체화하고, 콘텐츠 변형을 테스트하고, 효과적인 트래픽 소스를 식별하고, 포기를 줄이십시오.
+[랜딩 페이지 구성 방법 알아보기](../landing-pages/create-lp.md)
+
+**성능 모니터링:** 시간에 따른 방문 패턴, 전환율 및 바운스 비율을 추적하여 사용자가 양식과 상호 작용하는 방법을 이해하고 개선할 영역을 식별합니다. [캠페인 보고서](../reports/lp-report-global-cja.md)
 
 +++
 
@@ -234,15 +240,19 @@ SMS 추적을 사용하려면 최소 설정이 필요합니다. Journey Optimize
 
 Journey Optimizer은 최적화 실험, 타기팅 전략 및 의사 결정 성능을 자동으로 추적합니다. 적절한 데이터 수집을 위해 설정을 구성합니다.
 
-**최적화 추적 설정:**
+### 최적화 추적 설정 {#optimization-tracking}
 
-* **실험 구성** - 실험을 만들거나 타깃팅을 사용할 때 추적할 지표(전환, 클릭 수, 사용자 지정 이벤트)를 정의합니다. Journey Optimizer은 각 치료에 대한 성능 데이터를 자동으로 수집합니다. [자세히 알아보기](../campaigns/campaigns-message-optimization.md)
+* **캠페인 및 여정의 최적화**
 
-* **경로 최적화 설정** - 여정에 **최적화** 활동을 추가하고 여러 경로를 구성합니다. Journey Optimizer은 프로필이 취하는 경로를 자동으로 추적하고 성능을 측정합니다. [자세히 알아보기](../building-journeys/optimize.md)
+   * 실험을 생성할 때 추적할 지표(전환, 클릭 수, 사용자 지정 이벤트)를 정의합니다. Journey Optimizer은 각 치료에 대한 성능 데이터를 자동으로 수집합니다. [자세히 알아보기](../campaigns/campaigns-message-optimization.md#experimentation)
 
-**결과 분석:** 전환 속도, 통계적 중요도 및 실험 보고서에서 처리 간 상승도를 봅니다. [캠페인 보고서](../reports/campaign-global-report-cja-experimentation.md) | [여정 보고서](../reports/journey-global-report-cja-experimentation.md)
+   * 타깃팅 규칙을 만들어 다른 콘텐츠를 다른 대상 세그먼트에 전달합니다. Journey Optimizer은 타깃팅된 각 그룹에 대한 참여 지표를 자동으로 추적하므로 세그먼트 간에 성능을 비교할 수 있습니다. [자세히 알아보기](../campaigns/campaigns-message-optimization.md#targeting)
 
-**Track Decisioning 성능:**
+* **여정 경로 최적화** - **최적화** 활동을 여정에 추가하고 여러 경로를 구성합니다. Journey Optimizer은 프로필이 취하는 경로를 자동으로 추적하고 성능을 측정합니다. [자세히 알아보기](../building-journeys/optimize.md)
+
+**결과 분석:** 실험 보고서에서 전환율, 통계적 중요도 및 처리 간 상승도를 보거나 타깃팅된 세그먼트 간에 참여 지표를 비교할 수 있습니다. [실험 캠페인 보고서](../reports/campaign-global-report-cja-experimentation.md) | [실험 여정 보고서](../reports/journey-global-report-cja-experimentation.md) | [여정 타깃팅 보고서](../reports/journey-global-report-cja.md#targeting)
+
+### 의사 결정 성능 추적 {#decisioning-tracking}
 
 Decisioning을 사용하여 콘텐츠를 개인화할 때 Journey Optimizer은 추가 구성 없이도 의사 결정 이벤트, 노출 횟수 및 클릭 수를 자동으로 추적합니다.
 
@@ -270,19 +280,19 @@ Decisioning을 사용하여 콘텐츠를 개인화할 때 Journey Optimizer은 �
 
 참여 추적 외에, 메시지가 받은 편지함에 도달하고 시스템이 최적의 성능을 발휘하도록 모니터링을 구성하십시오.
 
-**사전 모니터링 설정:**
-
-* **경고 구성** - 여정 오류, 사용자 지정 작업 오류 및 중요한 문제에 대한 실시간 알림을 설정하여 문제에 신속하게 대처합니다. [자세히 알아보기](../reports/alerts.md)
-
-* **감사 로그 사용** - 감사 로깅을 활성화하여 규정 준수 및 문제 해결을 위해 리소스에 대한 모든 작업을 추적합니다. [자세히 알아보기](../privacy/audit-logs.md)
-
-* **통합 모니터링** - 사용자 지정 작업 성능 및 외부 시스템 연결을 추적하여 통합 문제를 조기에 식별합니다. [자세히 알아보기](../action/reporting.md)
-
-**게재 가능성 모니터링:**
+게재 가능성 모니터링은 주요 지표를 추적하여 메시지가 수신자의 받은 편지함에 도달하고 올바른 발신자 평판을 유지할 수 있도록 도와줍니다.
 
 * **금지 목록을 정기적으로 검토**&#x200B;하여 주소가 차단된 이유를 파악하고 목록 안전 상태를 유지하십시오. [자세히 알아보기](../reports/suppression-list.md)
 
 * **게재 오류를 분석**&#x200B;하여 오류를 진단하고 수정 작업을 수행합니다. [자세히 알아보기](../configuration/email-error-types.md)
 
 * 받은 편지함 배치를 최대화하려면 DMARC, SPF 및 DKIM의 **모범 사례를 따르세요**. [자세히 알아보기](../reports/deliverability.md)
+
+중요한 이벤트 및 시스템 문제에 대한 실시간 알림을 받도록 사전 모니터링을 설정하여 고객 경험에 영향을 미치기 전에 신속하게 대응할 수 있습니다.
+
+* **경고 구성** - 여정 오류, 사용자 지정 작업 오류 및 중요한 문제에 대한 실시간 알림을 설정하여 문제에 신속하게 대처합니다. [자세히 알아보기](../reports/alerts.md)
+
+* **감사 로그 사용** - 감사 로깅을 활성화하여 규정 준수 및 문제 해결을 위해 리소스에 대한 모든 작업을 추적합니다. [자세히 알아보기](../privacy/audit-logs.md)
+
+* **통합 모니터링** - 사용자 지정 작업 성능 및 외부 시스템 연결을 추적하여 통합 문제를 조기에 식별합니다. [자세히 알아보기](../action/reporting.md)
 
