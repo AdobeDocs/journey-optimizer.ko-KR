@@ -5,7 +5,7 @@ title: 이메일 채널
 description: 이메일 채널
 redpen-status: CREATED_||_2025-08-11_20-35-15
 exl-id: f7c61cc3-943e-40a3-94be-f3f1bd46961d
-source-git-commit: 9cb3a60fb9a2266b4723dfc1b952f1bab11b97e3
+source-git-commit: e2ecfcd3163965bbd0ada68edd61ac07373eaad2
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 100%
@@ -32,7 +32,7 @@ Adobe Journey Optimizer의 이메일 채널을 통해 정밀하고 창의적인 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 이메일을 만드는 방법
 
@@ -42,7 +42,7 @@ Adobe Journey Optimizer의 이메일 채널을 통해 정밀하고 창의적인 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 이메일 콘텐츠 디자인 및 최적화
 
@@ -52,7 +52,7 @@ Adobe Journey Optimizer을 사용하여 반응형 및 개인화된 이메일 콘
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 이메일 옵트아웃 관리
 
@@ -62,7 +62,7 @@ Adobe Journey Optimizer을 사용하여 반응형 및 개인화된 이메일 콘
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 이메일 채널 구성
 
@@ -72,13 +72,13 @@ Adobe Journey Optimizer을 사용하여 반응형 및 개인화된 이메일 콘
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 이메일 전달성 마스터하기
 
 도구, 모범 사례 및 실행 가능한 인사이트를 통해 이메일 전달성을 이해하고 최적화하여 발신자의 신뢰도를 향상시킵니다.
 
-[이메일 전달성 개선](deliverability-landing-page.md)
+[이메일 전달성 개선](../using/reports/deliverability.md)
 :::
 
 ::::
