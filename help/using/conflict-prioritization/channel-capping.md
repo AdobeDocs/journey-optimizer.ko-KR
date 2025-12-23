@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 메시지, 빈도, 규칙, 압력
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: f874456748a8bd7fce69c7ad2a7e69380d5336a6
 workflow-type: tm+mt
-source-wordcount: '1219'
+source-wordcount: '1249'
 ht-degree: 5%
 
 ---
@@ -128,6 +128,10 @@ ht-degree: 5%
 
 빈도 규칙을 테스트할 때는 새로 만든 [테스트 프로필](../audience/creating-test-profiles.md)을 사용하는 것이 좋습니다. 프로필의 빈도 상한에 도달하면 다음 기간까지 카운터를 재설정할 방법이 없기 때문입니다. 규칙을 비활성화하면 캡핑된 프로필에서 메시지를 받을 수 있지만 카운터 증분은 제거되거나 삭제되지 않습니다.
 
+>[!CAUTION]
+>
+>[증명](../content-management/proofs.md)을 보낼 때도 빈도 제한 규칙이 적용됩니다. 테스트 프로필이 이미 빈도 제한 한도에 도달한 경우 증명이 완료된 것으로 표시되지만 이메일이 전달되지 않습니다.
+
 <!--add a new section for default priority namespace.-->
 
 <!--
@@ -161,4 +165,4 @@ In this scenario, an individual profile:
 
 ## 사용 방법 비디오 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444733?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
