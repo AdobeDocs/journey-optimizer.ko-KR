@@ -10,9 +10,9 @@ role: Developer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: d34dfa121f005d28c6ab8895de2bbbd0cdf71dc1
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1129'
 ht-degree: 4%
 
 ---
@@ -131,7 +131,7 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
 | `xdm:allowDuplicatePropositions` | 이 객체는 데이터 중복 제거 규칙의 제어 구조를 의미합니다. 이는 특정 차원에 대해 동일한 옵션을 제안할 수 있는지 여부를 나타내는 일련의 플래그로 구성됩니다. true로 설정된 플래그는 복제가 허용되고 플래그가 지정한 범주 내에서 제거되어서는 안 됨을 의미합니다. false로 설정된 플래그는 의사 결정 엔진이 차원에서 동일한 제안을 하지 않고 대신 하위 의사 결정 중 하나에 대해 다음 최적 옵션을 선택해야 함을 의미합니다. |  |
 | `xdm:allowDuplicatePropositions.xdm:acrossActivities` | true로 설정하면 여러 개의 결정에 동일한 옵션이 할당될 수 있습니다. | `"xdm:acrossActivities": true` |
 | `xdm:allowDuplicatePropositions.xdm:acrossPlacements` | true로 설정하면 여러 배치에 동일한 옵션이 할당될 수 있습니다. | `"xdm:acrossPlacements": true` |
-| `xdm:enrichedAudience` | CSV 대상자를 타깃팅하는 경우 이 매개 변수를 추가하고 &quot;true&quot;로 설정합니다. | `"xdm:enrichedAudience": true` |
+| `xdm:enrichedAudience` | CSV(사용자 지정 업로드) 대상을 타깃팅하고 오퍼 결정 응답에서 데이터 보강 데이터를 검색하려는 경우 이 매개 변수를 `true`(으)로 설정하십시오. [의사 결정을 위해 CSV 대상 사용에 대해 자세히 알아보기](../../custom-upload-decisioning.md#must-read) | `"xdm:enrichedAudience": true` |
 | `xdm:mergePolicy.xdm:id` | 프로필 액세스 서비스에서 반환한 데이터를 제어하는 병합 정책을 식별합니다. 요청에 ID가 지정되지 않은 경우 의사 결정 관리 는 프로필 액세스 서비스를 전달하지 않고 호출자가 제공한 ID를 전달합니다. | `"xdm:id": "5f3ed32f-eaf1-456c-b0f0-7b338c4cb18a"` |
 | `xdm:responseFormat` | 응답 콘텐츠의 형식을 지정하는 플래그 세트입니다. |  |
 | `xdm:responseFormat.xdm:includeContent` | `true`(으)로 설정된 경우 응답에 콘텐츠를 포함하는 부울 값. | `"xdm:includeContent": true` |
@@ -233,7 +233,7 @@ The following video is intended to support your understanding of the components 
 >
 >This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/342832/?captions=kor&quality=12) -->
+>[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12) -->
 
 ## 다음 단계 {#next-steps}
 

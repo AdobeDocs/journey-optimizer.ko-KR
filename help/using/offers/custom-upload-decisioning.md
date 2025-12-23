@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: bd950410-691b-49d8-8851-8c6c448c00fd
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: d34dfa121f005d28c6ab8895de2bbbd0cdf71dc1
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '609'
 ht-degree: 5%
 
 ---
@@ -32,12 +32,13 @@ Journey Optimizer을 사용하면 Adobe Experience Platform으로의 사용자 �
 사용자 지정 업로드 대상자에 대한 자세한 내용은 다음 섹션을 참조하십시오.
 
 * [대상자 및 Journey Optimizer 시작](../audience/about-audiences.md)
-* [Adobe Experience Platform에서 대상 가져오기](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
+* [Adobe Experience Platform에서 대상 가져오기](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
 
 ## 반드시 알아야 할 사항 {#must-read}
 
-* 이 기능은 Decisioning(이전의 &quot;Experience Decisioning&quot;)이 아닌 **의사 결정 관리**&#x200B;에서만 지원됩니다.
-* **Decisioning API(허브)** 요청을 통해서만 사용할 수 있으며 **Edge Decisioning API** 또는 **batch decisioning**&#x200B;에서 지원하지 않습니다.
+* **의사 결정 관리 전용** - 이 기능은 의사 결정(이전의 &quot;Experience Decisioning&quot;)이 아닌 의사 결정 관리에서만 지원됩니다.
+* **Decisioning API(Hub)만 해당** - Decisioning API(Hub) 요청을 통해서만 사용할 수 있으며 Edge Decisioning API 또는 batch Decisioning에서 지원하지 않습니다.
+* **데이터 보강에 필요한 API 플래그** - CSV(사용자 지정 업로드) 대상을 사용하고 오퍼 결정 응답에서 데이터 보강 데이터를 검색하려는 경우 API 요청 페이로드에 `"xdm:enrichedAudience": true`을(를) 포함해야 합니다. 이 플래그가 없으면 CSV 업로드 대상자의 데이터 보강 속성이 반환되지 않습니다. [Decisioning API에 대해 자세히 알아보기](api-reference/offer-delivery-api/decisioning-api.md)
 
 ## 사용자 정의 업로드 대상자를 자격 기준으로 사용 {#eligibilty}
 
