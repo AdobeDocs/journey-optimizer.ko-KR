@@ -37,7 +37,7 @@ Adobe Journey Optimizer의 여정을 사용하면 대상자의 행동 및 요구
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 여정 만들기 시작
 
@@ -47,7 +47,7 @@ Adobe Journey Optimizer의 여정을 사용하면 대상자의 행동 및 요구
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 Journey Orchestration - 전체 안내서
 
@@ -57,7 +57,7 @@ Adobe Journey Optimizer의 여정 생성, 관리 및 최적화의 모든 측면�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 여정 관리
 
@@ -67,7 +67,7 @@ Adobe Journey Optimizer의 여정 생성, 관리 및 최적화의 모든 측면�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 여정 활동
 
@@ -77,7 +77,7 @@ Adobe Journey Optimizer의 여정 생성, 관리 및 최적화의 모든 측면�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 표현식 작성
 
@@ -87,7 +87,7 @@ Adobe Journey Optimizer의 여정 생성, 관리 및 최적화의 모든 측면�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 여정 사용 사례
 
