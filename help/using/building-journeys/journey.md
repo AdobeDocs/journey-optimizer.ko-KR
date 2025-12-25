@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: 여정, 검색, 시작
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: cfac40f73a68362f8490de28cf1865f3dd4952f7
+source-git-commit: dd3d91266c0edea562f75ceb1f75974c7242ee1a
 workflow-type: tm+mt
-source-wordcount: '1139'
-ht-degree: 30%
+source-wordcount: '1108'
+ht-degree: 34%
 
 ---
 
@@ -31,15 +31,13 @@ Adobe Journey Optimizer의 여정을 사용하면 대상자의 행동 및 요구
 
 * **[여정 디자이너](using-the-journey-designer.md)**&#x200B;를 사용하여 여러 단계 사용 사례를 빌드합니다. 시작 이벤트 또는 [대상 활동 읽기](read-audience.md)를 쉽게 끌어다 놓고 [조건](condition-activity.md)을(를) 추가하고 개인화된 메시지를 보냅니다.
 
-Journey Optimizer [여정 디자이너](using-the-journey-designer.md)는 마케터와 여정 실무자가 여러 채널에서 여러 단계의 1:1 여정을 오케스트레이션하는 데 필요한 모든 기능을 제공합니다. 여기에는 여정의 각 단계를 조정하고, 타겟 대상을 정의하고, 행동, 컨텍스트 데이터 및 비즈니스 이벤트를 기반으로 타겟 대상 구성원이 보게 될 채널 전반의 메시지, 오퍼 및 콘텐츠를 포함하는 직관적인 드래그 앤 드롭 캔버스가 포함됩니다. [실제 사용 사례](jo-use-cases.md)를 살펴보고 이러한 기능을 적용하는 방법을 확인하십시오.
-
 ➡️ [비디오로 Journey Optimizer 살펴보기](#video)
 
 ## 여정 개요
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 여정 만들기 시작
 
@@ -49,7 +47,7 @@ Journey Optimizer [여정 디자이너](using-the-journey-designer.md)는 마케
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Journey Orchestration - 전체 안내서
 
@@ -59,7 +57,7 @@ Adobe Journey Optimizer의 여정 생성, 관리 및 최적화의 모든 측면�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 여정 관리
 
@@ -69,7 +67,7 @@ Adobe Journey Optimizer의 여정 생성, 관리 및 최적화의 모든 측면�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 여정 활동
 
@@ -79,7 +77,7 @@ Adobe Journey Optimizer의 여정 생성, 관리 및 최적화의 모든 측면�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 표현식 작성
 
@@ -89,7 +87,7 @@ Adobe Journey Optimizer의 여정 생성, 관리 및 최적화의 모든 측면�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 여정 사용 사례
 
@@ -195,7 +193,9 @@ Adobe Journey Optimizer은 각기 다른 사용 사례와 시작 메커니즘으
 
 ## Designer 여정{#journey-designer}
 
-[여정 디자이너](using-the-journey-designer.md)은(는) 시각적으로 고객 여정을 빌드하고 오케스트레이션할 수 있는 직관적인 드래그 앤 드롭 캔버스입니다. 다단계 경험을 디자인하는 데 필요한 모든 기능을 제공합니다.
+[여정 디자이너](using-the-journey-designer.md)은(는) 마케터와 여정 실무자가 여러 채널에서 여러 단계의 1:1 여정을 오케스트레이션하는 데 필요한 모든 기능을 제공합니다. 여기에는 여정의 각 단계를 조정하고, 타깃 대상자를 정의하며, 행동과 상황별 데이터 및 비즈니스 이벤트를 기반으로 타깃 대상자 구성원이 보게 될 채널 전반의 메시지, 오퍼 및 콘텐츠를 포함하는 직관적인 드래그 앤 드롭 캔버스가 포함됩니다.
+
+여정 디자이너는 여러 단계의 경험을 디자인하는 데 필요한 모든 기능을 제공합니다.
 
 * **[기본 제공 채널 작업](journeys-message.md)** - Journey Optimizer 내에서 직접 디자인된 이메일, 푸시 알림, SMS/MMS, 인앱, 웹, 코드 기반 경험 등을 통해 메시지를 보냅니다.
 * **[사용자 지정 작업](using-custom-actions.md)** - 외부 플랫폼에서 메시지를 보내거나 워크플로우를 트리거하기 위해 타사 시스템을 통합합니다.
@@ -203,7 +203,7 @@ Adobe Journey Optimizer은 각기 다른 사용 사례와 시작 메커니즘으
 * **[조건](condition-activity.md)** - 프로필 특성, 대상 멤버십 또는 실시간 이벤트를 기반으로 여정을 분기합니다.
 * **[식](expression/expressionadvanced.md)** - 식 편집기를 사용하여 고급 논리 및 개인화 빌드
 
-이러한 엔드 투 엔드 사용 사례[에서 여정 디자이너 &#x200B;](jo-use-cases.md)을(를) 사용하는 방법을 알아봅니다.
+이러한 엔드 투 엔드 사용 사례[에서 여정 디자이너 ](jo-use-cases.md)을(를) 사용하는 방법을 알아봅니다.
 
 >[!NOTE]
 >
@@ -213,7 +213,7 @@ Adobe Journey Optimizer은 각기 다른 사용 사례와 시작 메커니즘으
 
 여정의 구성 요소를 살펴보고 캔버스에서 여정을 작성할 때의 기본을 이해합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430355?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ## 추가 리소스 {#additional-resources}
 
