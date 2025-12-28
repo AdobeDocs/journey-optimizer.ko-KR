@@ -338,7 +338,7 @@ Adobe Journey Optimizer은 각기 다른 사용 사례와 시작 메커니즘으
 
 여정의 구성 요소를 살펴보고 캔버스에서 여정을 작성할 때의 기본을 이해합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430355?captions=kor&quality=12)
 
 
 ## 추가 리소스 {#additional-resources}
