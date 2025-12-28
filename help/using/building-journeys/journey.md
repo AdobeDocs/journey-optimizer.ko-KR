@@ -328,7 +328,7 @@ Adobe Journey Optimizer은 각기 다른 사용 사례와 시작 메커니즘으
 * **[조건](condition-activity.md)** - 프로필 특성, 대상 멤버십 또는 실시간 이벤트를 기반으로 여정을 분기합니다.
 * **[식](expression/expressionadvanced.md)** - 식 편집기를 사용하여 고급 논리 및 개인화 빌드
 
-이러한 엔드 투 엔드 사용 사례[에서 여정 디자이너 ](jo-use-cases.md)을(를) 사용하는 방법을 알아봅니다.
+이러한 엔드 투 엔드 사용 사례[에서 여정 디자이너 &#x200B;](jo-use-cases.md)을(를) 사용하는 방법을 알아봅니다.
 
 >[!NOTE]
 >
