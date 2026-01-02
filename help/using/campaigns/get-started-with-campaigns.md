@@ -292,7 +292,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 
 1. **[!UICONTROL 제품의]**&#x200B;역할[!DNL Permissions] 탭으로 이동하여 기본 제공 캠페인 관련 **[!UICONTROL 역할]** 중 하나를 선택하십시오.
 
-1.  **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
 
 1. 사용자 이름 또는 이메일 주소를 입력하거나 목록에서 사용자를 선택하고 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
