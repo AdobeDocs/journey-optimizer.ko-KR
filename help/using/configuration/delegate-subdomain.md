@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 하위 도메인, 위임, 도메인, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 8f9eca37076c899912616134f75b8e05690831fc
 workflow-type: tm+mt
-source-wordcount: '1906'
+source-wordcount: '1928'
 ht-degree: 18%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 18%
 
 >[!NOTE]
 >
->[!DNL Journey Optimizer]이 섹션[에서 &#x200B;](about-subdomain-delegation.md)에서 사용할 수 있는 하위 도메인 위임 및 다른 메서드에 대해 자세히 알아보세요.
+>[!DNL Journey Optimizer]이 섹션[에서 ](about-subdomain-delegation.md)에서 사용할 수 있는 하위 도메인 위임 및 다른 메서드에 대해 자세히 알아보세요.
 
 다음 중 하나를 수행할 수 있습니다.
 
@@ -125,6 +125,10 @@ ht-degree: 18%
 
     Capital letters are not allowed in subdomains. TBC by PM
 -->
+
+    >[!NOTE]
+    >
+    >DNS 공급자로 새 하위 도메인을 만든 후 Adobe에 위임하기 전에 DNS 전파에 24~48시간을 허용하십시오.
 
 1. 전용 섹션에서 **[!UICONTROL DMARC 레코드]**&#x200B;을(를) 설정합니다. 하위 도메인에 기존 [DMARC 레코드](dmarc-record.md)이 있고 [!DNL Journey Optimizer]에서 가져오는 경우 동일한 값을 사용하거나 필요에 따라 변경할 수 있습니다. 값을 추가하지 않으면 기본값이 사용됩니다. [DMARC 레코드를 관리하는 방법 알아보기](dmarc-record.md#set-up-dmarc)
 
@@ -277,4 +281,4 @@ CNAME을 사용하여 하위 도메인을 설정하려면 아래 단계를 따�
 
 CNAME을 사용하여 Adobe 관련 레코드를 가리키도록 하위 도메인을 만드는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/342238?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)
