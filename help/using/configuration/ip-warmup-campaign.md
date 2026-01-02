@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: IP, 풀, 전달성
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: 05e300476ee77c7ac449f3cbb1ecb506e94c3da0
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 11%
@@ -57,7 +57,7 @@ IP 준비 캠페인을 만들려면 아래 단계를 수행합니다.
 
    >[!IMPORTANT]
    >
-   >IP 준비 캠페인에 허용된 대상은 [세그먼트 기반](../audience/creating-a-segment-definition.md)이어야 하며 [기본 병합 정책](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}을(를) 사용하여 만들어야 합니다.
+   >IP 준비 캠페인에 허용된 대상은 [세그먼트 기반](../audience/creating-a-segment-definition.md)이어야 하며 [기본 병합 정책](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}을(를) 사용하여 만들어야 합니다.
    >
    >CSV 업로드 대상은 IP 웜업 캠페인에 대해 지원되지 않으며 캠페인 활성화 시 오류가 발생합니다.
 
@@ -81,5 +81,5 @@ IP 준비 캠페인은 하나의 IP 준비 계획에서만 사용할 수 있습�
 
 >[!NOTE]
 >
->IP 준비 계획에 라이브 캠페인을 사용할 때 플랜이 [완료된 것으로 표시](ip-warmup-execution.md#mark-as-completed)된 후 해당 캠페인의 상태가 **[!UICONTROL 중지됨]**(으)로 변경됩니다.
+>라이브 캠페인이 IP 준비 계획에 사용될 때 플랜이 [완료된 것으로 표시](ip-warmup-execution.md#mark-as-completed)된 후 해당 캠페인의 [상태](../campaigns/manage-campaigns.md#statuses)이(가) **[!UICONTROL 중지됨]**(으)로 변경됩니다.
 

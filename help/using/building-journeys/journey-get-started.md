@@ -9,9 +9,9 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 keywords: 여정, 오케스트레이션, 시작, 온보딩, 기능
-source-git-commit: d04cbbbec426cf1bf56004685172be2a9328ec18
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '851'
 ht-degree: 47%
 
 ---
@@ -39,7 +39,7 @@ Journey Optimizer 여정 디자이너는 마케터와 여정 실무자가 전체
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **실시간 및 일괄 게재**
 
@@ -49,7 +49,7 @@ Journey Optimizer 여정 디자이너는 마케터와 여정 실무자가 전체
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **컨텍스트 데이터**
 
@@ -59,7 +59,7 @@ Journey Optimizer 여정 디자이너는 마케터와 여정 실무자가 전체
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **기본 제공 작업**
 
@@ -69,7 +69,7 @@ Journey Optimizer 여정 디자이너는 마케터와 여정 실무자가 전체
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **사용자 지정 작업**
 
@@ -79,7 +79,7 @@ Journey Optimizer 여정 디자이너는 마케터와 여정 실무자가 전체
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **시각적 여정 디자이너**
 
@@ -89,7 +89,7 @@ Journey Optimizer 여정 디자이너는 마케터와 여정 실무자가 전체
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **테스트 및 최적화**
 
@@ -110,7 +110,7 @@ Journey Optimizer 여정 디자이너는 마케터와 여정 실무자가 전체
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **사용 사례를 통해 알아보기**
 
@@ -120,7 +120,7 @@ Journey Optimizer 여정 디자이너는 마케터와 여정 실무자가 전체
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **새 구독자 시작**
 
@@ -130,7 +130,7 @@ Journey Optimizer 여정 디자이너는 마케터와 여정 실무자가 전체
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **전자 메일 전송 시간 최적화**
 
@@ -140,7 +140,7 @@ AI 기반의 전송 시간 최적화를 사용하여 각 고객이 참여할 가
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **게재 램프 업**
 
@@ -150,7 +150,7 @@ AI 기반의 전송 시간 최적화를 사용하여 각 고객이 참여할 가
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 평일별 **타겟**
 
@@ -160,7 +160,7 @@ AI 기반의 전송 시간 최적화를 사용하여 각 고객이 참여할 가
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
 
 **여정 FAQ**
 
@@ -178,17 +178,17 @@ AI 기반의 전송 시간 최적화를 사용하여 각 고객이 참여할 가
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 **여정 만들기 및 관리**
 
 개인화된 옴니채널 캠페인을 작성할 수 있는 고객 여정의 디자인, 테스트, 게시 및 추적에 대한 단계별 지침입니다.
 
-[여정 만들기 살펴보기](/help/rp_landing_pages/create-journey-landing-page.md) | [여정 관리 학습](/help/rp_landing_pages/manage-journey-landing-page.md)
+[여정 만들기 살펴보기](/help/rp_landing_pages/create-journey-landing-page.md) | [여정 관리 학습](/help/rp_landing_pages/manage-journey-landing-page.md) | [여정 워크플로 단계](journey.md#workflow)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **여정 활동**
 
@@ -198,7 +198,7 @@ AI 기반의 전송 시간 최적화를 사용하여 각 고객이 참여할 가
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **표현식 및 조건**
 
@@ -208,7 +208,7 @@ AI 기반의 전송 시간 최적화를 사용하여 각 고객이 참여할 가
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 **문제 해결 및 모니터링**
 
@@ -218,7 +218,7 @@ AI 기반의 전송 시간 최적화를 사용하여 각 고객이 참여할 가
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **여정 디자이너 개요**
 
@@ -228,7 +228,7 @@ AI 기반의 전송 시간 최적화를 사용하여 각 고객이 참여할 가
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **테스트 및 게시**
 
@@ -243,7 +243,7 @@ AI 기반의 전송 시간 최적화를 사용하여 각 고객이 참여할 가
 
 여정의 구성 요소를 살펴보고 캔버스에서 여정을 작성할 때의 기본을 이해합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430355?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ### 추가 리소스
 

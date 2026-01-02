@@ -7,9 +7,9 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 2d699fe8a3320400dad2d5d962028d6e2a5425f8
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
 workflow-type: tm+mt
-source-wordcount: '1475'
+source-wordcount: '1476'
 ht-degree: 3%
 
 ---
@@ -111,7 +111,7 @@ Journey Optimizer은 두 가지 강력한 오케스트레이션 접근 방식을
 
 ### 캠페인 오케스트레이션
 
-* **올바른 접근 방식 선택**: 동작이 트리거되는 실시간 경험에 여정을 사용하고 예약된 일괄 처리 캠페인에 오케스트레이션된 캠페인을 사용합니다.
+* **올바른 방법 선택**: [동작이 트리거된 실시간 경험에 대해 여정 유형 비교](../../building-journeys/journey.md#journey-types) 또는 예약된 일괄 처리 캠페인에 대해 [캠페인 유형](../../campaigns/get-started-with-campaigns.md#campaign-types)
 * **명확한 캠페인 목표 정의**: 여러 단계 워크플로우를 디자인하기 전에 목표를 설정합니다.
 * **파일럿 대상으로 시작**: 크기 조정 전에 카운트 및 세그멘테이션 논리의 유효성 검사
 * **관계형 데이터 활용**: 정확한 타겟팅을 위해 고객 데이터를 계정, 구매, 구독과 연결하려면 다중 엔티티 세그먼테이션을 사용합니다.
@@ -202,5 +202,5 @@ Journey Optimizer 기능을 보여 주는 실제 사례를 통해 알아보십�
 
 1. **작게 시작**: 플랫폼을 학습하려면 간단한 시작 여정 또는 단일 메시지 캠페인을 만드십시오.
 2. **AI 활용**: AI Assistant를 사용하여 질문하고 콘텐츠 생성 속도를 높입니다.
-3. **커뮤니티에 참여**: [Experience League 커뮤니티에서 다른 Journey Optimizer 사용자와 연결](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"}
+3. **커뮤니티에 참여**: [Experience League 커뮤니티에서 다른 Journey Optimizer 사용자와 연결](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}
 4. **튜토리얼 살펴보기**: [Experience League](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=ko){target="_blank"}에서 단계별 비디오 보기

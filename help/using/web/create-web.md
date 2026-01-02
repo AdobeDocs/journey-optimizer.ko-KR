@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
 workflow-type: tm+mt
 source-wordcount: '1543'
 ht-degree: 17%
@@ -230,13 +230,13 @@ ht-degree: 17%
    >
    >[이 섹션](../campaigns/review-activate-campaign.md)에서 캠페인을 활성화하는 방법에 대해 자세히 알아보세요.
 
-웹 캠페인은 **[!UICONTROL Live]** 상태를 사용하며 이제 선택한 대상자에게 표시됩니다. 캠페인의 각 수신자는 웹 사이트에 추가한 수정 사항을 볼 수 있습니다.
+웹 캠페인은 **[!UICONTROL Live]** [상태](../campaigns/manage-campaigns.md#statuses)를 사용하며 이제 선택한 대상자에게 표시됩니다. 캠페인의 각 수신자는 웹 사이트에 추가한 수정 사항을 볼 수 있습니다.
 
 >[!NOTE]
 >
 >**[!UICONTROL 활성화]**&#x200B;를 클릭하면 웹 캠페인 변경 내용을 웹 사이트에서 실시간으로 사용할 수 있게 되는 데 최대 15분이 걸릴 수 있습니다.
 >
->웹 캠페인에 대한 일정을 정의한 경우 시작 날짜 및 시간에 도달할 때까지 **[!UICONTROL 예약됨]** 상태가 됩니다.
+>웹 캠페인에 대한 일정을 정의한 경우 시작 날짜 및 시간에 도달할 때까지 **[!UICONTROL 예약됨]** [상태](../campaigns/manage-campaigns.md#statuses)가 있습니다.
 
 경험이 생동하면 웹 여정 및 캠페인을 모니터링할 수 있습니다. [자세히 알아보기](monitor-web-experiences.md)
 
@@ -266,4 +266,4 @@ ht-degree: 17%
 
 아래 비디오에서는 웹 캠페인을 만들고, 속성을 구성하고, 검토하고, 게시하는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449988/?captions=kor&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)

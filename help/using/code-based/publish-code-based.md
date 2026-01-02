@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: a1daf6f7-c26c-4d70-984b-0b4eeb04a1a8
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 1%
@@ -69,13 +69,13 @@ ht-degree: 1%
    >
    >[이 섹션](../campaigns/review-activate-campaign.md)에서 캠페인을 활성화하는 방법에 대해 자세히 알아보세요.
 
-코드 기반 캠페인은 **[!UICONTROL Live]** 상태를 사용하며 이제 선택한 대상자에게 표시됩니다. 캠페인의 각 수신자는 콘텐츠에 추가한 수정 사항을 볼 수 있습니다.
+코드 기반 캠페인은 **[!UICONTROL Live]** [상태](../campaigns/manage-campaigns.md#statuses)를 사용하며 이제 선택한 대상자에게 표시됩니다. 캠페인의 각 수신자는 콘텐츠에 추가한 수정 사항을 볼 수 있습니다.
 
 >[!NOTE]
 >
 >**[!UICONTROL 활성화]**&#x200B;를 클릭하면 변경 내용을 실시간으로 사용할 수 있게 되는 데 최대 15분이 걸릴 수 있습니다.
 >
->코드 기반 캠페인에 대한 일정을 정의한 경우 시작 날짜 및 시간에 도달할 때까지 **[!UICONTROL 예약됨]** 상태가 됩니다.
+>코드 기반 캠페인에 대한 일정을 정의한 경우 시작 날짜 및 시간에 도달할 때까지 **[!UICONTROL 예약됨]** [상태](../campaigns/manage-campaigns.md#statuses)가 있습니다.
 
 ## 코드 기반 여정 또는 캠페인 중지 {#stop-code-based-experience}
 

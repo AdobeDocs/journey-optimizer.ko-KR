@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: 캠페인, API 트리거, REST, 최적화 도구, 메시지
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 81e54a3e3428d58818805b5dcb397ede4039436a
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 35%
+source-wordcount: '282'
+ht-degree: 40%
 
 ---
 
@@ -50,8 +50,10 @@ API 트리거 캠페인을 사용하면 마케팅 커뮤니케이션이 적시�
 1. [캠페인 검토 및 활성화](review-activate-api-triggered-campaign.md)
 1. [캠페인 실행 트리거](trigger-campaigns.md)
 
+유형별 안내서를 사용하는 [전체 캠페인 만들기 워크플로](get-started-with-campaigns.md#workflow)에 → 자세히 알아보기
+
 ## 방법 비디오 {#video}
 
 대화형 메시지 실행 REST API를 사용하여 사용자 상호 작용을 기반으로 외부 시스템에서 캠페인을 만들고 트리거하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452732?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)

@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 만들기, 최적화 도구, 캠페인, 표면, 메시지
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 81e54a3e3428d58818805b5dcb397ede4039436a
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 51%
+source-wordcount: '201'
+ht-degree: 57%
 
 ---
 
@@ -49,8 +49,10 @@ ht-degree: 51%
 1. [작업 캠페인 예약](campaign-schedule.md)
 1. [액션 캠페인 검토 및 활성화](review-activate-campaign.md)
 
+유형별 안내서를 사용하는 [전체 캠페인 만들기 워크플로](get-started-with-campaigns.md#workflow)에 → 자세히 알아보기
+
 ## 방법 비디오 {#video}
 
 액션 캠페인을 만드는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3412406?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)

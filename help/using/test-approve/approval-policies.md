@@ -5,10 +5,10 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
-source-git-commit: b70233b3ac1741fa645a426fba3c6bd3175b13a0
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 10%
+source-wordcount: '663'
+ht-degree: 11%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->승인 정책을 만들려면 Adobe Experience Platform에서 시스템 또는 제품 관리자 권한이 있어야 합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/home)
+>승인 정책을 만들려면 Adobe Experience Platform에서 시스템 또는 제품 관리자 권한이 있어야 합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)
 
 승인 정책을 사용하면 관리자가 여정 및 캠페인에 대한 유효성 검사 프로세스를 설정할 수 있습니다. 이 시스템은 여정 또는 캠페인에 승인이 필요한지 여부를 결정하는 특정 조건을 간략하게 설명합니다. 이러한 정책은 복잡성에 따라 다를 수 있습니다. 모든 캠페인을 특정 사용자 또는 팀이 검토하도록 하거나, 캠페인을 만든 사람을 기준으로 기준을 설정할 수 있습니다.
 
@@ -66,7 +66,7 @@ ht-degree: 10%
 * **캠페인/여정 이름**: 이름별로 특정 개체를 대상으로 합니다.
 * **태그**: 특정 태그가 있는 모든 캠페인이나 여정에 정책 적용
 * **채널 형식**: 특정 작업(전자 메일, SMS, 푸시 등)에 대한 승인이 필요합니다.
-* **캠페인 유형**: 예약된 캠페인과 API 트리거 캠페인에 대해 다른 규칙을 설정합니다.
+* **캠페인 유형**: [작업과 API 트리거 캠페인에 대해 다른 규칙을 설정합니다](../campaigns/get-started-with-campaigns.md#campaign-types)
 * **요청자**: 캠페인이나 여정을 만드는 사용자를 기준으로 정책을 정의합니다.
 
 승인 정책과 연관된 조건을 정의하려면 다음 단계를 수행합니다.

@@ -10,7 +10,7 @@ mini-toc-levels: 1
 level: Beginner
 keywords: 캠페인, 상태, 일정, 액세스, 최적화 도구 관리
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: d33a299523b7964be5ec1694de49c777e54bf98c
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
 workflow-type: tm+mt
 source-wordcount: '1616'
 ht-degree: 9%
@@ -82,7 +82,7 @@ API 트리거 캠페인 목록에 액세스하려면 **[!UICONTROL API 트리거
 
 ## 캠페인 작업 {#operations}
 
-캠페인 인벤토리의 추가 작업 단추![&#x200B; 단추를 표시하는 &#x200B;](assets/do-not-localize/rule-builder-icon-more.svg)이미지를 사용하면 다양한 작업을 수행할 수 있습니다.
+캠페인 인벤토리의 추가 작업 단추![ 단추를 표시하는 ](assets/do-not-localize/rule-builder-icon-more.svg)이미지를 사용하면 다양한 작업을 수행할 수 있습니다.
 
 ![캠페인 인벤토리를 표시하는 이미지](assets/inventory-actions.png)
 
@@ -191,7 +191,7 @@ API 트리거 캠페인 목록에 액세스하려면 **[!UICONTROL API 트리거
 
 ## 반복 작업 캠페인 수정 및 중지 {#modify}
 
-### 액션 캠페인 수정
+### 액션 캠페인 수정 {#modify-an-action-campaign}
 
 반복 작업 캠페인의 새 버전을 수정하고 만들려면 다음 단계를 수행합니다.
 
@@ -240,7 +240,7 @@ API 트리거 캠페인 목록에 액세스하려면 **[!UICONTROL API 트리거
 
 ## 캠페인 삭제 {#delete-a-campaign}
 
-캠페인을 삭제하려면 추가 작업 단추![&#x200B; 단추를 표시하는 줄임표 &#x200B;](assets/do-not-localize/rule-builder-icon-more.svg)이미지를 사용하고 **[!UICONTROL 삭제]**&#x200B;를 선택하십시오.
+캠페인을 삭제하려면 추가 작업 단추![ 단추를 표시하는 줄임표 ](assets/do-not-localize/rule-builder-icon-more.svg)이미지를 사용하고 **[!UICONTROL 삭제]**&#x200B;를 선택하십시오.
 
 ![](assets/delete-a-campaign.png){width="70%" align="left"}
 
@@ -250,7 +250,7 @@ API 트리거 캠페인 목록에 액세스하려면 **[!UICONTROL API 트리거
 
 ## 캠페인 복제 {#duplicate-a-campaign}
 
-캠페인을 복제하려면, 예를 들어 중단된 경우 추가 작업 단추![&#x200B; 단추를 표시하는 줄임표 &#x200B;](assets/do-not-localize/rule-builder-icon-more.svg)이미지를 사용하고 **[!UICONTROL 복제]**&#x200B;를 선택하십시오.
+캠페인을 복제하려면, 예를 들어 중단된 경우 추가 작업 단추![ 단추를 표시하는 줄임표 ](assets/do-not-localize/rule-builder-icon-more.svg)이미지를 사용하고 **[!UICONTROL 복제]**&#x200B;를 선택하십시오.
 
 캠페인 이름을 입력하고 확인합니다.
 

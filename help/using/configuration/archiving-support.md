@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 보관, 메시지, HIPAA, BCC, 이메일
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
 workflow-type: tm+mt
-source-wordcount: '1337'
+source-wordcount: '1342'
 ht-degree: 6%
 
 ---
@@ -123,7 +123,7 @@ BCC에 대한 보고는 여정 및 메시지 보고서에서 사용할 수 없�
 
 <!--![](assets/preset-bcc-dataset.png)-->
 
-이 데이터 세트에 대해 쿼리를 실행하려면 [Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ko){target="_blank"}에서 제공하는 쿼리 편집기를 사용할 수 있습니다. 액세스하려면 **[!UICONTROL 데이터 관리]** > **[!UICONTROL 쿼리]**&#x200B;를 선택하고 **[!UICONTROL 쿼리 만들기]**&#x200B;를 클릭하십시오. [자세히 알아보기](../data/get-started-queries.md)
+이 데이터 세트에 대해 쿼리를 실행하려면 [Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}에서 제공하는 쿼리 편집기를 사용할 수 있습니다. 액세스하려면 **[!UICONTROL 데이터 관리]** > **[!UICONTROL 쿼리]**&#x200B;를 선택하고 **[!UICONTROL 쿼리 만들기]**&#x200B;를 클릭하십시오. [자세히 알아보기](../data/get-started-queries.md)
 
 ![](assets/preset-bcc-queries.png)
 
@@ -148,7 +148,7 @@ BCC에 대한 보고는 여정 및 메시지 보고서에서 사용할 수 없�
 
    >[!NOTE]
    >
-   >`<journey version id>`매개 변수를 가져오려면 [여정 관리](../building-journeys/journey.md#uc-journey) > **[!UICONTROL 여정]** 메뉴에서 해당 **[!UICONTROL 여정 버전]**&#x200B;을(를) 선택하십시오. 여정 버전 ID는 웹 브라우저에 표시된 URL의 끝에 표시됩니다.
+   >`<journey version id>`매개 변수를 가져오려면 **[!UICONTROL 여정 관리]** > **[!UICONTROL 여정]** 메뉴에서 해당 여정 버전을 선택합니다. 여정 버전 ID는 웹 브라우저에 표시된 URL의 끝에 표시됩니다. [여정 버전에 대해 자세히 알아보기](../building-journeys/publish-journey.md#journey-versions)
    >
    >![](assets/preset-bcc-action-id.png)
 
@@ -234,7 +234,7 @@ BCC에 대한 보고는 여정 및 메시지 보고서에서 사용할 수 없�
 
 * 사용자 인터페이스를 통해 이러한 데이터 세트에 액세스하려면 **[!UICONTROL 데이터 관리]** > **[!UICONTROL 데이터 세트]** > **[!UICONTROL 찾아보기]**&#x200B;를 선택하십시오. [이 섹션](../data/get-started-datasets.md#access-datasets)에서 데이터 세트에 액세스하는 방법에 대해 자세히 알아보세요.
 
-* [Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ko){target="_blank"}에서 제공한 쿼리 편집기를 사용하십시오. 액세스하려면 **[!UICONTROL 데이터 관리]** > **[!UICONTROL 쿼리]**&#x200B;를 선택하고 **[!UICONTROL 쿼리 만들기]**&#x200B;를 클릭하십시오. [자세히 알아보기](../data/get-started-queries.md)
+* [Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}에서 제공한 쿼리 편집기를 사용하십시오. 액세스하려면 **[!UICONTROL 데이터 관리]** > **[!UICONTROL 쿼리]**&#x200B;를 선택하고 **[!UICONTROL 쿼리 만들기]**&#x200B;를 클릭하십시오. [자세히 알아보기](../data/get-started-queries.md)
 
 다음은 BCC 사본에 해당하는 정보를 검색하기 위해 실행할 수 있는 몇 가지 샘플 쿼리입니다.
 
