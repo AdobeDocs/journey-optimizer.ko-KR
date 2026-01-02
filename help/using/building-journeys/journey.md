@@ -45,7 +45,7 @@ Adobe Journey Optimizer을 사용하면 대상의 비헤이비어와 요구에 �
 
 >[!TAB 단일 여정]
 
-![아이콘](https://cdn.experienceleague.adobe.com/icons/circle-play.svg) **사용 시기:** 이벤트가 트리거된 실시간 경험
+![아이콘](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko) **사용 시기:** 이벤트가 트리거된 실시간 경험
 
 **단일 여정**&#x200B;은(는) 특정 작업(구매, 앱 로그인, 양식 제출)이 발생할 때 개별적으로 트리거됩니다. 프로필은 실시간으로 한 번에 하나씩 입력하므로 즉각적인 비헤이비어 기반 응답에 이상적입니다.
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer을 사용하면 대상의 비헤이비어와 요구에 �
 
 >[!TAB 대상 여정 읽기]
 
-![아이콘](https://cdn.experienceleague.adobe.com/icons/database.svg) **사용 시기:** 대상자 세그먼트에 대해 예약된 캠페인
+![아이콘](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ko) **사용 시기:** 대상자 세그먼트에 대해 예약된 캠페인
 
 **대상 여정 읽기** Adobe Experience Platform 대상으로 시작하여 모든 프로필에 동시에 메시지를 일괄적으로 보냅니다. 이 여정 유형은 예약된 대규모 통신에 이상적입니다.
 
@@ -75,7 +75,7 @@ Adobe Journey Optimizer을 사용하면 대상의 비헤이비어와 요구에 �
 
 >[!TAB 대상 자격 여정]
 
-![아이콘](https://cdn.experienceleague.adobe.com/icons/bullseye.svg) **사용 시기:** 대상 멤버십 변경에 대한 실시간 응답
+![아이콘](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko) **사용 시기:** 대상 멤버십 변경에 대한 실시간 응답
 
 프로필이 특정 대상에 대해 자격이 되거나 종료되는 경우 **대상 자격 여정**&#x200B;이 트리거됩니다. 프로필은 실시간으로 기준을 충족하면 개별적으로 입력되므로 고객 행동이 변경될 때 즉시 참여할 수 있습니다.
 
@@ -90,7 +90,7 @@ Adobe Journey Optimizer을 사용하면 대상의 비헤이비어와 요구에 �
 
 >[!TAB 비즈니스 이벤트 여정]
 
-![아이콘](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg) **사용 시기:** 여러 고객에게 영향을 주는 비즈니스 조건
+![아이콘](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ko) **사용 시기:** 여러 고객에게 영향을 주는 비즈니스 조건
 
 **비즈니스 이벤트 여정**&#x200B;은(는) 여러 프로필에 동시에 영향을 주는 비즈니스 수준 이벤트(재고 업데이트, 날씨 알림, 가격 변경)에 의해 트리거됩니다. 이들은 개별적인 행위보다는 더 넓은 비즈니스 조건에 반응한다.
 
@@ -121,7 +121,7 @@ Adobe Journey Optimizer을 사용하면 대상의 비헤이비어와 요구에 �
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 **진입점 정의**
 
@@ -131,7 +131,7 @@ Adobe Journey Optimizer을 사용하면 대상의 비헤이비어와 요구에 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
 
 **메시지 보내기**
 
@@ -141,7 +141,7 @@ Journey Optimizer에서 설계된 이메일, 푸시, SMS/MMS, 인앱, 웹 등에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 **논리 및 조건 추가**
 
@@ -151,7 +151,7 @@ Journey Optimizer에서 설계된 이메일, 푸시, SMS/MMS, 인앱, 웹 등에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ko)
 
 **데이터 활용**
 
@@ -161,7 +161,7 @@ Journey Optimizer에서 설계된 이메일, 푸시, SMS/MMS, 인앱, 웹 등에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 **외부 시스템 연결**
 
@@ -171,7 +171,7 @@ Journey Optimizer에서 설계된 이메일, 푸시, SMS/MMS, 인앱, 웹 등에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 **오케스트레이션 활동 추가**
 
@@ -262,7 +262,7 @@ Journey Optimizer에서 설계된 이메일, 푸시, SMS/MMS, 인앱, 웹 등에
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
 
 **새 구독자 시작**
 
@@ -272,7 +272,7 @@ Journey Optimizer에서 설계된 이메일, 푸시, SMS/MMS, 인앱, 웹 등에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ko)
 
 **전송 시간 최적화**
 
@@ -282,7 +282,7 @@ Journey Optimizer에서 설계된 이메일, 푸시, SMS/MMS, 인앱, 웹 등에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
 
 **게재 램프 업**
 
@@ -292,7 +292,7 @@ Journey Optimizer에서 설계된 이메일, 푸시, SMS/MMS, 인앱, 웹 등에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 평일별 **타겟**
 
@@ -302,7 +302,7 @@ Journey Optimizer에서 설계된 이메일, 푸시, SMS/MMS, 인앱, 웹 등에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 **멀티채널 캠페인**
 
@@ -312,7 +312,7 @@ Journey Optimizer에서 설계된 이메일, 푸시, SMS/MMS, 인앱, 웹 등에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
 
 **모든 사용 사례**
 
@@ -330,7 +330,7 @@ Journey Optimizer에서 설계된 이메일, 푸시, SMS/MMS, 인앱, 웹 등에
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
 
 **고급 표현식**
 
@@ -340,7 +340,7 @@ Journey Optimizer에서 설계된 이메일, 푸시, SMS/MMS, 인앱, 웹 등에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ko)
 
 **표준 시간대 관리**
 
@@ -350,7 +350,7 @@ Journey Optimizer에서 설계된 이메일, 푸시, SMS/MMS, 인앱, 웹 등에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
 
 **테스트 모드 및 시험 실행**
 
@@ -360,7 +360,7 @@ Journey Optimizer에서 설계된 이메일, 푸시, SMS/MMS, 인앱, 웹 등에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ko)
 
 **샌드박스로 복사**
 
@@ -370,7 +370,7 @@ Journey Optimizer에서 설계된 이메일, 푸시, SMS/MMS, 인앱, 웹 등에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
 
 **태그 및 조직**
 
@@ -380,7 +380,7 @@ Journey Optimizer에서 설계된 이메일, 푸시, SMS/MMS, 인앱, 웹 등에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 **처리량 제어**
 
