@@ -9,7 +9,7 @@ level: Beginner, Intermediate
 keywords: 여정, 검색, 시작, 단일, 대상자 읽기, 대상자 자격, 비즈니스 이벤트, 실시간, 예약됨, 배치, 이벤트 트리거, 워크플로우, 오케스트레이션, 개인화, 멀티채널
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: 8ea2a0fe685678d41004d549443a1757eb30c765
+source-git-commit: f3636ffa945e0ad5a5e75e90a83af2c3ca930544
 workflow-type: tm+mt
 source-wordcount: '1465'
 ht-degree: 3%
@@ -72,7 +72,7 @@ Adobe Journey Optimizer은 서로 다른 시작 메커니즘 및 비즈니스 �
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **진입점 정의**
 
@@ -82,7 +82,7 @@ Adobe Journey Optimizer은 서로 다른 시작 메커니즘 및 비즈니스 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **메시지 보내기**
 
@@ -92,7 +92,7 @@ Journey Optimizer에서 설계된 이메일, 푸시, SMS/MMS, 인앱, 웹 등에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **논리 및 조건 추가**
 
@@ -102,7 +102,7 @@ Journey Optimizer에서 설계된 이메일, 푸시, SMS/MMS, 인앱, 웹 등에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **데이터 활용**
 
@@ -112,7 +112,7 @@ Journey Optimizer에서 설계된 이메일, 푸시, SMS/MMS, 인앱, 웹 등에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **외부 시스템 연결**
 
@@ -122,7 +122,7 @@ Journey Optimizer에서 설계된 이메일, 푸시, SMS/MMS, 인앱, 웹 등에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **오케스트레이션 활동 추가**
 
@@ -213,7 +213,7 @@ Journey Optimizer에서 설계된 이메일, 푸시, SMS/MMS, 인앱, 웹 등에
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **새 구독자 시작**
 
@@ -223,7 +223,7 @@ Journey Optimizer에서 설계된 이메일, 푸시, SMS/MMS, 인앱, 웹 등에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **전송 시간 최적화**
 
@@ -233,7 +233,7 @@ Journey Optimizer에서 설계된 이메일, 푸시, SMS/MMS, 인앱, 웹 등에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **게재 램프 업**
 
@@ -243,7 +243,7 @@ Journey Optimizer에서 설계된 이메일, 푸시, SMS/MMS, 인앱, 웹 등에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 평일별 **타겟**
 
@@ -253,7 +253,7 @@ Journey Optimizer에서 설계된 이메일, 푸시, SMS/MMS, 인앱, 웹 등에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **멀티채널 캠페인**
 
@@ -263,7 +263,7 @@ Journey Optimizer에서 설계된 이메일, 푸시, SMS/MMS, 인앱, 웹 등에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **모든 사용 사례**
 
@@ -281,7 +281,7 @@ Journey Optimizer에서 설계된 이메일, 푸시, SMS/MMS, 인앱, 웹 등에
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **고급 표현식**
 
@@ -291,7 +291,7 @@ Journey Optimizer에서 설계된 이메일, 푸시, SMS/MMS, 인앱, 웹 등에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **표준 시간대 관리**
 
@@ -301,7 +301,7 @@ Journey Optimizer에서 설계된 이메일, 푸시, SMS/MMS, 인앱, 웹 등에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **테스트 모드 및 시험 실행**
 
@@ -311,7 +311,7 @@ Journey Optimizer에서 설계된 이메일, 푸시, SMS/MMS, 인앱, 웹 등에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **샌드박스로 복사**
 
@@ -321,7 +321,7 @@ Journey Optimizer에서 설계된 이메일, 푸시, SMS/MMS, 인앱, 웹 등에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **태그 및 조직**
 
@@ -331,7 +331,7 @@ Journey Optimizer에서 설계된 이메일, 푸시, SMS/MMS, 인앱, 웹 등에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **처리량 제어**
 
@@ -348,7 +348,7 @@ Journey Optimizer에서 설계된 이메일, 푸시, SMS/MMS, 인앱, 웹 등에
 
 여정 구성 요소를 시각적으로 살펴보고 캔버스에서 여정을 작성하는 기본 사항에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430355?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ➡️ **더 많은 비디오를 원하십니까?** [여정 비디오 튜토리얼 살펴보기](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 
@@ -366,7 +366,8 @@ A: Adobe Journey Optimizer은 세 가지 접근 방식을 제공합니다.
 
 **주요 차이점**: 여정은 실시간 작업에 대한 개별 고객 상태를 유지 관리합니다. 작업/API 캠페인은 간단한 메시지를 일괄적으로 전달합니다. 오케스트레이션된 캠페인은 다중 엔티티 세그멘테이션 기능이 있는 일괄 워크플로우 캔버스를 제공합니다.
 
-&#x200B;<!-- waiting for DOCAC-13912 [See detailed comparison](#journeys-vs-campaigns) | -->[오케스트레이션된 캠페인에 대해 알아보기](../orchestrated/gs-orchestrated-campaigns.md)
+<!-- waiting for DOCAC-13912 - [See detailed comparison](#journeys-vs-campaigns) -->
+[오케스트레이션된 캠페인에 대해 알아보기](../orchestrated/gs-orchestrated-campaigns.md)
 
 <!-- Waiting for DOCAC-13912
 **Q: Which journey type should I use?**
