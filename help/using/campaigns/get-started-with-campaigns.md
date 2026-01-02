@@ -10,9 +10,9 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 캠페인, 방법 , 시작, Optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 8b57aa06f40cfc5c1b4d1971e54eecb224338cc7
+source-git-commit: 43b82a251eca802a14b83df670b479dd05f90b8e
 workflow-type: tm+mt
-source-wordcount: '1566'
+source-wordcount: '1541'
 ht-degree: 31%
 
 ---
@@ -113,7 +113,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 
 >[!TAB 작업 캠페인(예약됨)]
 
-![아이콘](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ko) **사용 시기:** 간단한 예약된 일괄 처리 통신
+![아이콘](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg) **사용 시기:** 간단한 예약된 일괄 처리 통신
 
 **작업 캠페인**(예약된 캠페인이라고도 함)은 특정 시간에 실행되는 간단한 일회성 또는 되풀이되는 일괄 처리 통신에 이상적입니다.
 
@@ -134,7 +134,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 
 >[!TAB API 트리거 캠페인]
 
-![아이콘](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko) **사용 시기:** 외부 시스템에서 실시간 이벤트 기반 메시징
+![아이콘](https://cdn.experienceleague.adobe.com/icons/code-branch.svg) **사용 시기:** 외부 시스템에서 실시간 이벤트 기반 메시징
 
 **API 트리거 캠페인** API 호출을 통해 활성화하여 외부 시스템에서 직접 자동화된 메시징을 사용할 수 있습니다. 이러한 캠페인은 API 페이로드의 프로필 속성과 실시간 컨텍스트 데이터를 모두 사용하여 개인화를 지원합니다.
 
@@ -155,7 +155,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 
 >[!TAB 오케스트레이션된 캠페인]
 
-![아이콘](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko) **사용 시기:** 복잡한 다단계 마케팅 워크플로
+![아이콘](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg) **사용 시기:** 복잡한 다단계 마케팅 워크플로
 
 **오케스트레이션된 캠페인**&#x200B;에서는 정교한 마케팅 워크플로를 디자인하고 자동화할 수 있는 시각적 드래그 앤 드롭 캔버스를 제공합니다. 대상자 세분화부터 채널 간 개인화된 메시지 전달까지, 속도와 제어를 위해 구축된 하나의 직관적인 환경에서 모든 것이 가능합니다.
 
@@ -170,10 +170,6 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 ➡️ [오케스트레이션된 캠페인에 대해 알아보기](../orchestrated/gs-orchestrated-campaigns.md)
 
 >[!ENDTABS]
-
->[!NOTE]
->
->어떤 유형을 선택할지 확실하지 않습니까? 예약된 일괄 처리 커뮤니케이션에 대해 **작업 캠페인** 또는 실시간 메시지에 대해 **API 트리거 캠페인**&#x200B;으로 시작하십시오. 이러한 캠페인은 가장 일반적인 사용 사례를 다룹니다.
 
 >[!NOTE]
 >
@@ -296,7 +292,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 
 1. **[!UICONTROL 제품의]**&#x200B;역할[!DNL Permissions] 탭으로 이동하여 기본 제공 캠페인 관련 **[!UICONTROL 역할]** 중 하나를 선택하십시오.
 
-1. **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
+1.  **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
 
 1. 사용자 이름 또는 이메일 주소를 입력하거나 목록에서 사용자를 선택하고 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
@@ -313,7 +309,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **예약 및 시간**
 
@@ -323,7 +319,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **속도 조절**
 
@@ -333,7 +329,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **대상 타깃팅**
 
@@ -343,7 +339,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **승인 워크플로**
 
@@ -353,7 +349,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **방해 금지 시간**
 
@@ -363,7 +359,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **전송 시간 최적화**
 
