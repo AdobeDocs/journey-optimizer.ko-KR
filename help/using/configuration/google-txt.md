@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 하위 도메인, google, txt, 레코드, gmail, 게재 기능
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
-source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+source-git-commit: e89bec74f597185065b274d22740324a09e9319e
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 30%
+source-wordcount: '280'
+ht-degree: 22%
 
 ---
 
@@ -40,3 +40,17 @@ TXT 레코드는 외부 소스에서 읽을 수 있는 도메인에 대한 텍�
    ![](assets/subdomain-google-txt.png)
 
 1. 추가한 TXT 레코드는 Google에서 확인해야 합니다. 이렇게 하려면 [Google Workspace](https://support.google.com/a/answer/183895){target="_blank"}<!--G Suite Admin tools-->(으)로 이동한 다음 확인 단계를 시작합니다.
+
+## Google TXT 레코드 업데이트 {#update-google-txt-record}
+
+기존 Google TXT 레코드를 업데이트하려면 다음 단계를 수행합니다.
+
+1. **[!UICONTROL 하위 도메인]** 메뉴에서 하위 도메인을 엽니다.
+
+1. **[!UICONTROL Google txt 레코드]** 필드에서 기존 값을 지우고 **[!UICONTROL 저장]**&#x200B;을 클릭합니다. 이 단계는 이전 Google TXT 레코드 값을 빈 문자열로 바꿉니다.
+
+1. 이제 동일한 하위 도메인을 다시 열고 새 확인 코드를 입력합니다.
+
+1. **[!UICONTROL 저장]**&#x200B;을 다시 클릭합니다.
+
+1. [Google Workspace](https://support.google.com/a/answer/183895){target="_blank"}를 통해 업데이트된 레코드를 확인합니다.
