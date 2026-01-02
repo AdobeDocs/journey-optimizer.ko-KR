@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 캠페인, 방법 , 시작, Optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: cebb21aba29a15236b6810309efc488b578a1ca6
+source-git-commit: 2090f99e6aa1b255e36d01687cef49295b88f1ce
 workflow-type: tm+mt
-source-wordcount: '1539'
-ht-degree: 32%
+source-wordcount: '1542'
+ht-degree: 31%
 
 ---
 
@@ -122,13 +122,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 * **마케팅** - 프로모션 오퍼, 참여 캠페인, 공지, 법적 고지 사항 또는 정책 업데이트. 수신자가 옵트인해야 합니다.
 * **트랜잭션** - 중단, 긴급 상황, 취소. 옵트인이 필요하지 않습니다.
 
-**완벽한 대상:**
-
-* 고객 세그먼트에 대한 월별 뉴스레터
-* 시간에 민감한 홍보용 공지
-* 시즌 마케팅 캠페인
-* 제품 출시 커뮤니케이션
-* 서비스 중단 알림
+**완벽한 대상:** 고객 세그먼트에 대한 월별 뉴스레터, 시간에 민감한 홍보 공지, 시즌 마케팅 캠페인, 제품 출시 커뮤니케이션 및 서비스 중단 알림.
 
 ➡️ [작업 캠페인에 대해 알아보기](create-campaign.md)
 
@@ -143,13 +137,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 * **마케팅** - 타깃팅된 대상에 대한 개인화된 마케팅 커뮤니케이션
 * **트랜잭션** - 개별 작업(암호 재설정, 장바구니 구매 등) 후 메시지
 
-**완벽한 대상:**
-
-* 암호 재설정 확인
-* 장바구니 포기 복구
-* 주문 확인 및 배송 업데이트
-* 계정 활동 알림
-* 개인화된 실시간 추천
+**완벽한 대상:** 암호 재설정 확인, 장바구니 포기 복구, 주문 확인 및 배송 업데이트, 계정 활동 알림 및 실시간 맞춤형 권장 사항.
 
 ➡️ [API 트리거 캠페인에 대해 알아보기](api-triggered-campaigns.md)
 
@@ -159,13 +147,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 
 **오케스트레이션된 캠페인**&#x200B;에서는 정교한 마케팅 워크플로를 디자인하고 자동화할 수 있는 시각적 드래그 앤 드롭 캔버스를 제공합니다. 대상자 세분화부터 채널 간 개인화된 메시지 전달까지, 속도와 제어를 위해 구축된 하나의 직관적인 환경에서 모든 것이 가능합니다.
 
-**완벽한 대상:**
-
-* 여러 단계로 구성된 고객 참여 프로그램
-* 복잡한 세분화 및 타기팅 전략
-* 크로스 채널 캠페인 오케스트레이션
-* 대규모로 브랜드 주도 마케팅
-* 여러 의사 결정 지점을 통한 고급 워크플로우 자동화
+**완벽한 대상:** 여러 단계로 구성된 고객 참여 프로그램, 복잡한 세분화 및 타기팅 전략, 크로스 채널 캠페인 오케스트레이션, 대규모의 브랜드 주도 마케팅, 여러 의사 결정 지점이 있는 고급 워크플로 자동화.
 
 ➡️ [오케스트레이션된 캠페인에 대해 알아보기](../orchestrated/gs-orchestrated-campaigns.md)
 
@@ -181,7 +163,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 
 **1. 플랜** → **2.** 3→ **을(를) 구성합니다. 디자인** → **4.** 5→ **을(를) 검토합니다.** 6→ **활성화 모니터**
 
-### &#x200B;1. **캠페인 계획** {#plan}
+### &#x200B;1. 캠페인을 계획합니다 {#plan}
 
 시작하기 전에 목표를 명확히 하십시오.
 
@@ -191,7 +173,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 * **어떤 채널을 사용하시겠습니까?**(전자 메일, 푸시, SMS, 인앱, 웹 등) → [캠페인 유형별로 지원되는 채널 보기](../channels/gs-channels.md#channels)
 * **언제 실행해야 합니까?**(즉시, 예약됨 또는 API 트리거됨)
 
-### &#x200B;2. **캠페인 속성 구성** {#configure}
+### &#x200B;2. 캠페인 속성 구성 {#configure}
 
 캠페인의 기초를 설정합니다.
 
@@ -206,7 +188,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 * [API 트리거된 캠페인 속성 →](api-triggered-campaign-properties.md)
 * [오케스트레이션된 캠페인 설정 →](../orchestrated/create-orchestrated-campaign.md)
 
-### &#x200B;3. **콘텐츠 디자인** {#design}
+### &#x200B;3. 콘텐츠 디자인 {#design}
 
 대상자를 위한 매력적인 메시지 만들기:
 
@@ -221,7 +203,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 * [API 트리거된 캠페인 콘텐츠 →](api-triggered-campaign-content.md)
 * [오케스트레이션된 캠페인 콘텐츠 →](../orchestrated/create-orchestrated-campaign.md)
 
-### &#x200B;4. **검토 및 테스트** {#review}
+### &#x200B;4. 검토 및 테스트 {#review}
 
 활성화하기 전에 항상 캠페인 검토:
 
@@ -236,7 +218,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 * [API 트리거 캠페인 → 검토](review-activate-api-triggered-campaign.md)
 * [오케스트레이션된 캠페인 → 검토](../orchestrated/create-orchestrated-campaign.md)
 
-### &#x200B;5. **캠페인 활성화** {#activate}
+### &#x200B;5. 캠페인 활성화 {#activate}
 
 검토가 완료되면 캠페인을 활성화합니다.
 
@@ -250,7 +232,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 * [API 트리거 캠페인 → 활성화](review-activate-api-triggered-campaign.md)
 * [오케스트레이션된 캠페인 활성화 →](../orchestrated/create-orchestrated-campaign.md)
 
-### &#x200B;6. **모니터링 및 분석** {#monitor}
+### &#x200B;6. 모니터링 및 분석 {#monitor}
 
 캠페인의 성과를 추적합니다.
 
@@ -292,7 +274,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 
 1. **[!UICONTROL 제품의]**&#x200B;역할[!DNL Permissions] 탭으로 이동하여 기본 제공 캠페인 관련 **[!UICONTROL 역할]** 중 하나를 선택하십시오.
 
-1. **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
+1.  **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
 
 1. 사용자 이름 또는 이메일 주소를 입력하거나 목록에서 사용자를 선택하고 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
@@ -309,7 +291,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **예약 및 시간**
 
@@ -319,7 +301,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **속도 조절**
 
@@ -329,7 +311,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **대상 타깃팅**
 
@@ -339,7 +321,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **승인 워크플로**
 
@@ -349,7 +331,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **방해 금지 시간**
 
@@ -359,7 +341,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **전송 시간 최적화**
 
