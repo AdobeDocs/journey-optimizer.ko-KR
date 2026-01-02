@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4b78a7b2b4c437882c5e760efac1120e004bf640
+source-git-commit: 4cafa9bb5cf481ba79a6b8ccc43e0b7bf02566ec
 workflow-type: tm+mt
-source-wordcount: '3026'
+source-wordcount: '3029'
 ht-degree: 96%
 
 ---
@@ -65,6 +65,7 @@ ht-degree: 96%
    + 여정 관리 {#manage-journey}
       + [여정 관리](/help/rp_landing_pages/manage-journey-landing-page.md)
       + [여정 검색 및 필터링](using/building-journeys/journey-ui.md)
+      + [태그로 구성](using/building-journeys/tags.md)
       + [프로필의 여정 진입](using/building-journeys/entry-management.md)
       + [여정에서 추가 식별자 사용](using/building-journeys/supplemental-identifier.md)
       + [여정 단계 이벤트 작업](using/reports/journey-step-events-overview.md)
@@ -190,7 +191,7 @@ ht-degree: 96%
          + [채널 활동](using/orchestrated/activities/channels.md)
          + [결합](using/orchestrated/activities/combine.md)
          + [중복 제거](using/orchestrated/activities/deduplication.md)
-         + [보강](using/orchestrated/activities/enrichment.md)
+         + [데이터 보강](using/orchestrated/activities/enrichment.md)
          + [포크](using/orchestrated/activities/fork.md)
          + [대상자 읽기](using/orchestrated/activities/read-audience.md)
          + [조정](using/orchestrated/activities/reconciliation.md)
@@ -345,7 +346,7 @@ ht-degree: 96%
          + [웹 채널 전제 조건](using/web/web-prerequisites.md)
          + [웹 하위 도메인 구성](using/web/web-delegated-subdomains.md)
          + [웹 채널 구성 만들기](using/web/web-configuration.md)
-      + [웹 경험 만들기 &#x200B;](using/web/create-web.md)
+      + [웹 경험 만들기 ](using/web/create-web.md)
       + 웹 페이지 작성 {#author-web-pages}
          + [웹 페이지 작성](/help/rp_landing_pages/author-web-pages-landing-page.md)
          + [웹 디자이너를 사용하여 작업](using/web/web-visual-editor.md)
@@ -399,7 +400,7 @@ ht-degree: 96%
          + [Journey Optimizer에서 라이브 활동 구성](using/mobile-live/mobile-live-configuration.md)
          + [라이브 활동 SDK 통합 구성](using/mobile-live/mobile-live-configuration-sdk.md)
 + 콘텐츠 관리 {#content-management}
-   + [콘텐츠 관리 &#x200B;](/help/rp_landing_pages/content-management-landing-page.md)
+   + [콘텐츠 관리 ](/help/rp_landing_pages/content-management-landing-page.md)
    + 개인화 {#personalization}
       + [개인화](/help/rp_landing_pages/personalization-landing-page.md)
       + [개인화 시작](using/personalization/personalize.md)
