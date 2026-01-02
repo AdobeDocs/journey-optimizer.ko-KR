@@ -10,9 +10,9 @@ mini-toc-levels: 1
 level: Beginner
 keywords: 캠페인, 상태, 일정, 액세스, 최적화 도구 관리
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
+source-git-commit: 5623511099f7b09fa95bccb411776bc4416637fd
 workflow-type: tm+mt
-source-wordcount: '1616'
+source-wordcount: '1612'
 ht-degree: 9%
 
 ---
@@ -31,18 +31,17 @@ ht-degree: 9%
 
 Adobe Journey Optimizer에서 캠페인에 액세스하고, 구성하고, 관리하는 방법을 알아봅니다. 이 안내서에서는 캠페인 찾기에서 상태 이해, 공통 작업 수행 및 캠페인 작업 공간 유지 관리에 이르기까지 모든 것을 다룹니다.
 
-## 빠른 시작: 일반적인 작업 {#quick-tasks}
+>[!BEGINSHADEBOX]
 
-필요한 항목으로 바로 이동:
+**필요한 항목으로 바로 이동:**
 
-* **새 캠페인 만들기** → [캠페인 유형 선택](get-started-with-campaigns.md#campaign-types)
-   * [액션 캠페인 만들기](create-campaign.md)
-   * [API 트리거 캠페인 만들기](api-triggered-campaigns.md)
-   * [오케스트레이션된 캠페인 만들기](../orchestrated/gs-orchestrated-campaigns.md)
-* **기존 캠페인 찾기** → [검색 및 필터링](#access)
-* **캠페인 성과 보기** → [캠페인 보고서](../reports/campaign-global-report-cja.md)
-* **캠페인 예약** → [일정 사용](#calendar)
-* **충돌 관리** → [충돌 관리 가이드](../conflict-prioritization/gs-conflict-prioritization.md)
+* **새 캠페인 만들기** - [캠페인 유형 선택](get-started-with-campaigns.md#campaign-types) | [작업 캠페인 만들기](create-campaign.md) | [API 트리거 캠페인 만들기](api-triggered-campaigns.md) | [오케스트레이션된 캠페인 만들기](../orchestrated/gs-orchestrated-campaigns.md)
+* **기존 캠페인 찾기** - [검색 및 필터링](#access)
+* **캠페인 성과 보기** - [캠페인 보고서](../reports/campaign-global-report-cja.md)
+* **캠페인 예약** - [일정 사용](#calendar)
+* **충돌 관리** - [충돌 관리 가이드](../conflict-prioritization/gs-conflict-prioritization.md)
+
+>[!ENDSHADEBOX]
 
 ## 캠페인 액세스 및 찾아보기 {#access}
 
@@ -82,7 +81,7 @@ API 트리거 캠페인 목록에 액세스하려면 **[!UICONTROL API 트리거
 
 ## 캠페인 작업 {#operations}
 
-캠페인 인벤토리의 추가 작업 단추![&#x200B; 단추를 표시하는 &#x200B;](assets/do-not-localize/rule-builder-icon-more.svg)이미지를 사용하면 다양한 작업을 수행할 수 있습니다.
+캠페인 인벤토리의 추가 작업 단추![ 단추를 표시하는 ](assets/do-not-localize/rule-builder-icon-more.svg)이미지를 사용하면 다양한 작업을 수행할 수 있습니다.
 
 ![캠페인 인벤토리를 표시하는 이미지](assets/inventory-actions.png)
 
@@ -240,7 +239,7 @@ API 트리거 캠페인 목록에 액세스하려면 **[!UICONTROL API 트리거
 
 ## 캠페인 삭제 {#delete-a-campaign}
 
-캠페인을 삭제하려면 추가 작업 단추![&#x200B; 단추를 표시하는 줄임표 &#x200B;](assets/do-not-localize/rule-builder-icon-more.svg)이미지를 사용하고 **[!UICONTROL 삭제]**&#x200B;를 선택하십시오.
+캠페인을 삭제하려면 추가 작업 단추![ 단추를 표시하는 줄임표 ](assets/do-not-localize/rule-builder-icon-more.svg)이미지를 사용하고 **[!UICONTROL 삭제]**&#x200B;를 선택하십시오.
 
 ![](assets/delete-a-campaign.png){width="70%" align="left"}
 
@@ -250,7 +249,7 @@ API 트리거 캠페인 목록에 액세스하려면 **[!UICONTROL API 트리거
 
 ## 캠페인 복제 {#duplicate-a-campaign}
 
-캠페인을 복제하려면, 예를 들어 중단된 경우 추가 작업 단추![&#x200B; 단추를 표시하는 줄임표 &#x200B;](assets/do-not-localize/rule-builder-icon-more.svg)이미지를 사용하고 **[!UICONTROL 복제]**&#x200B;를 선택하십시오.
+캠페인을 복제하려면, 예를 들어 중단된 경우 추가 작업 단추![ 단추를 표시하는 줄임표 ](assets/do-not-localize/rule-builder-icon-more.svg)이미지를 사용하고 **[!UICONTROL 복제]**&#x200B;를 선택하십시오.
 
 캠페인 이름을 입력하고 확인합니다.
 
