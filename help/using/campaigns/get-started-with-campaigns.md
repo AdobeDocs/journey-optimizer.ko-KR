@@ -10,9 +10,9 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 캠페인, 방법 , 시작, Optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: e2cf581c2638a71d76b1a8d198ceb48c53c97188
+source-git-commit: cebb21aba29a15236b6810309efc488b578a1ca6
 workflow-type: tm+mt
-source-wordcount: '1535'
+source-wordcount: '1539'
 ht-degree: 32%
 
 ---
@@ -186,9 +186,9 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 시작하기 전에 목표를 명확히 하십시오.
 
 * **목표가 무엇입니까?**(예: 전환 유도, 참여 늘리기, 고객 알림)
-* **대상자가 누구입니까?**(Adobe Experience Platform의 특정 세그먼트)
+* **대상자가 누구입니까?**(예: Adobe Experience Platform에서 빌드 또는 선택)
 * **적합한 캠페인 유형**(위의 [캠페인 유형](#campaign-types) 참조)
-* **어떤 채널을 사용하시겠습니까?**(전자 메일, 푸시, SMS, 인앱, 웹 등)
+* **어떤 채널을 사용하시겠습니까?**(전자 메일, 푸시, SMS, 인앱, 웹 등) → [캠페인 유형별로 지원되는 채널 보기](../channels/gs-channels.md#channels)
 * **언제 실행해야 합니까?**(즉시, 예약됨 또는 API 트리거됨)
 
 ### &#x200B;2. **캠페인 속성 구성** {#configure}
@@ -197,7 +197,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 
 1. 쉽게 식별할 수 있도록 캠페인을 **이름 및 설명**
 2. **캠페인 유형 선택**(작업, API 트리거 또는 오케스트레이션)
-3. Adobe Experience Platform에서 **대상 선택**
+3. **대상 선택**
 4. 충돌 관리를 사용하는 경우 **우선 순위 설정**
 5. **일정 구성**(작업 캠페인용) 또는 API 세부 정보(API 트리거용)
 
@@ -292,7 +292,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 
 1. **[!UICONTROL 제품의]**&#x200B;역할[!DNL Permissions] 탭으로 이동하여 기본 제공 캠페인 관련 **[!UICONTROL 역할]** 중 하나를 선택하십시오.
 
-1. **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
+1.  **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
 
 1. 사용자 이름 또는 이메일 주소를 입력하거나 목록에서 사용자를 선택하고 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
@@ -309,7 +309,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **예약 및 시간**
 
@@ -319,7 +319,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **속도 조절**
 
@@ -329,7 +329,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **대상 타깃팅**
 
@@ -339,7 +339,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **승인 워크플로**
 
@@ -349,7 +349,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **방해 금지 시간**
 
@@ -359,7 +359,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **전송 시간 최적화**
 
