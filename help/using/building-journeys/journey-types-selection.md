@@ -177,5 +177,5 @@ Adobe Journey Optimizer은 서로 다른 시작 메커니즘 및 비즈니스 �
 * **[여정 FAQ 보기](journey-faq.md)** - 일반적인 질문에 답변됨
 
 **캠페인과 비교해야 합니까?**
-- [여정과 캠페인 비교 안내서](../start/journeys-vs-campaigns.md) - 여정, 작업/API 캠페인 및 오케스트레이션된 캠페인 중에서 선택
+&#x200B;- [여정과 캠페인 비교 안내서](../start/journeys-vs-campaigns.md) - 여정, 작업/API 캠페인 및 오케스트레이션된 캠페인 중에서 선택
 
