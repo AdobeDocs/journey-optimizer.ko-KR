@@ -9,302 +9,92 @@ level: Beginner, Intermediate
 keywords: 여정, 검색, 시작
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: 4b78a7b2b4c437882c5e760efac1120e004bf640
+source-git-commit: 82db04eb2da8b69404d99185471495ea41739c6d
 workflow-type: tm+mt
-source-wordcount: '1438'
-ht-degree: 35%
+source-wordcount: '1416'
+ht-degree: 3%
 
 ---
 
 
 # 여정 시작{#jo-general-principle}
 
-Adobe Journey Optimizer의 여정을 사용하면 대상자의 행동 및 요구에 실시간으로 적응하는 여러 단계의 개인화된 고객 여정을 만들 수 있습니다. 직관적인 드래그 앤 드롭 캔버스를 사용하여 컨텍스트 기반 데이터와 대상 타겟팅을 활용하여 여러 채널에서 메시지와 작업을 오케스트레이션할 수 있으므로 최대의 효과를 얻을 수 있습니다.
+Adobe Journey Optimizer을 사용하면 대상의 비헤이비어와 요구에 실시간으로 적응하는 개인화된 여러 단계 고객 여정을 만들 수 있습니다. 직관적인 드래그 앤 드롭 캔버스를 사용하여 컨텍스트 기반 데이터와 대상 타겟팅을 활용하여 여러 채널에서 메시지와 작업을 오케스트레이션할 수 있으므로 최대의 효과를 얻을 수 있습니다.
 
-실시간 트리거를 탐색하거나, 여정 속성을 관리하거나, 사용자 지정 작업 및 표현식과 같은 고급 도구를 사용하는 경우 이 안내서에서는 의미 있고 시기적절한 고객 경험을 제공하는 여정을 자신 있게 디자인하고 구체화할 수 있는 명확한 로드맵을 제공합니다.
+이 안내서에서는 여정 기본 사항을 이해하고 사용 사례에 적합한 여정 유형을 선택하며 의미 있고 시기 적절한 고객 경험을 제공하는 여정을 자신 있게 설계하는 데 도움이 되는 명확한 로드맵을 제공합니다.
 
 ## 여정 소개
 
-[!DNL Journey Optimizer]를 통해 이벤트 또는 데이터 소스에 저장된 상황별 데이터를 활용하여 실시간 오케스트레이션 사용 사례를 빌드할 수 있습니다. 고객 행동 및 비즈니스 이벤트에 실시간으로 응답하는 여러 단계로 구성된 고급 시나리오를 디자인합니다.
+**여정**&#x200B;은(는) 고객 행동, 비즈니스 이벤트 또는 예약된 캠페인에 응답하여 채널 간에 개인화된 상호 작용을 오케스트레이션하는 자동화된 여러 단계의 고객 경험입니다.
 
-Journey Optimizer 여정 디자이너는 마케터와 여정 실무자가 전체 채널에서 여러 단계로 구성된 1:1 여정을 조정하는 데 필요한 모든 것을 제공합니다. 여기에는 여정의 각 단계를 조정하고, 타깃 대상자를 정의하며, 행동과 상황별 데이터 및 비즈니스 이벤트를 기반으로 타깃 대상자 구성원이 보게 될 채널 전반의 메시지, 오퍼 및 콘텐츠를 포함하는 직관적인 드래그 앤 드롭 캔버스가 포함됩니다.
+[!DNL Journey Optimizer]을(를) 사용하여 다음을 수행합니다.
+
+* 이벤트 또는 데이터 소스에 저장된 상황별 데이터를 사용하여 **실시간 오케스트레이션** 사용 사례를 빌드합니다.
+* 고객 행동 및 비즈니스 이벤트에 동적으로 응답하는 **여러 단계의 고급 시나리오**&#x200B;를 디자인합니다.
+* 이메일, 푸시, SMS, 인앱, 웹 등에서 규모에 맞게 **1:1 개인화된 경험 제공**
 
 ![팔레트, 캔버스 및 속성 창이 있는 여정 디자이너 인터페이스](assets/journey38.png)
 
-**빌드를 시작할 준비가 되셨습니까?** [이 여정](journey-gs.md)에서 첫 번째 페이지를 만들고 디자인하는 방법을 알아봅니다.
+➡️ **빌드를 시작할 준비가 되셨습니까?** [5분 후에 첫 번째 여정 만들기](journey-gs.md).
 
-## 주요 기능 {#capabilities}
+## 여정 유형 선택 {#journey-types}
 
-:::: landing-cards-container
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
-
-**실시간 및 일괄 게재**
-
-이벤트 수신 시 트리거되는 실시간 **단일 게재**&#x200B;를 보내거나 Adobe Experience Platform 대상자를 사용하여 **일괄** 게재를 보냅니다.
-
-[여정 항목에 대해 알아보기](entry-management.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ko)
-
-**컨텍스트 데이터**
-
-이벤트의 **컨텍스트 기반 데이터**, Adobe Experience Platform의 정보 또는 서드파티 API 서비스의 데이터를 활용합니다.
-
-[데이터 소스 작업](../datasource/about-data-sources.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
-
-**기본 제공 작업**
-
-**기본 제공 채널 작업**&#x200B;을(를) 사용하여 [!DNL Journey Optimizer]에서 디자인된 메시지를 전자 메일, 푸시, SMS/MMS 등으로 보냅니다.
-
-[여정으로 메시지 보내기](journeys-message.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
-
-**사용자 지정 작업**
-
-서드파티 시스템을 사용하여 메시지를 보내거나 외부 API에 연결하는 경우 **사용자 지정 작업**&#x200B;을(를) 만듭니다.
-
-[사용자 정의 액션 구성](../action/about-custom-action-configuration.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
-
-**시각적 여정 디자이너**
-
-**여정 디자이너**&#x200B;를 사용하면 여러 단계로 이루어진 사용 사례를 구축할 수 있습니다. 간단하게 시작 이벤트나 대상자 읽기 활동을 끌어다 놓고 조건을 추가하며 개인화된 메시지를 보내세요.
-
-[여정 디자이너 탐색](using-the-journey-designer.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
-
-**테스트 및 최적화**
-
-게시 전에 여정을 테스트하고, 성능을 모니터링하고, 전송 시간 최적화와 같은 고급 기능을 사용하여 게재를 최적화합니다.
-
-[여정 테스트 및 게시](testing-the-journey.md)
-:::
-
-::::
-
-➡️ [비디오로 Journey Optimizer 살펴보기](#video)
-
-## 여정 개요
-
-:::: landing-cards-container
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
-
-여정 만들기 시작
-
-개인화된 옴니채널 캠페인을 작성할 수 있는 고객 여정의 디자인, 테스트, 게시 및 추적에 대한 단계별 지침입니다.
-
-[첫 여정 만들기](journey-gs.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
-
-여정 관리
-
-필터링, 프로필 관리, 시간대 및 최적화 기술을 위한 도구를 사용하여 고객 여정을 효율적으로 관리해 보세요.
-
-[여정 관리 학습](/help/rp_landing_pages/manage-journey-landing-page.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
-
-여정 활동
-
-트리거, 의사 결정 단계, 대상자 관리 및 여정의 개인화된 메시지와 같은 활동을 구성하고 사용하는 방법을 알아봅니다.
-
-[활동 살펴보기](/help/rp_landing_pages/about-journey-building-landing-page.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
-
-표현식 작성
-
-강력한 도구와 구문을 사용한 동적 워크플로, 데이터 조작 및 고급 여정 오케스트레이션을 위한 표현식 작성을 완벽히 숙지해 보세요.
-
-[표현식에 대해 알아보기](/help/rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
-
-여정 사용 사례
-
-멀티채널 메시지 및 외부 시스템과의 통합을 포함하여 Adobe Journey Optimizer의 실제 애플리케이션을 살펴봅니다.
-
-[사용 사례 살펴보기](/help/rp_landing_pages/journey-use-cases-landing-page.md)
-:::
-
-::::
-
-## 사용 사례 및 예 {#use-cases}
-
-마케터는 여정 디자이너 내에서 이벤트가 발생할 때 모든 채널을 통해 실시간으로 트리거된 1:1 메시지를 보낼 수 있습니다. 예를 들어 고객이 서비스에 가입하면 [환영 이메일을 트리거](message-to-subscribers-uc.md)하여 앱에 처음 로그인하고 기본 설정을 지정하게 유도할 수 있습니다. 구매 완료, 이메일 열기, 앱 로그인과 같은 작업으로 여정을 통해 새로운 고객을 확보할 수 있습니다.
-
-[여정 디자이너](using-the-journey-designer.md)는 이메일, 푸시 알림 및 SMS/MMS와 같은 아웃바운드 메시지와 모바일 앱, 웹 사이트 및 Journey Optimizer 내에서 직접 빌드된 코드 기반 경험을 비롯한 인바운드 채널을 지원하는 [기본 제공 채널 작업](journeys-message.md)을 제공합니다. 서드파티 시스템을 사용하여 메시지를 보낼 수도 있습니다. Journey Optimizer에는 이러한 시스템을 여정 디자이너에서 직접 여정에 통합할 수 있도록 하는 [사용자 지정 작업](using-custom-actions.md)이 포함되어 있습니다.
-
-
-:::: landing-cards-container
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
-
-**사용 사례를 통해 알아보기**
-
-실제 구현 및 모범 사례를 보여 주는 포괄적인 엔드 투 엔드 여정 사용 사례를 살펴봅니다.
-
-[모든 사용 사례 살펴보기](jo-use-cases.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
-
-**새 구독자 시작**
-
-고객이 서비스를 구독하면 개인화된 환영 여정을 보내 온보딩 단계를 안내합니다.
-
-[자세히 알아보기](message-to-subscribers-uc.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ko)
-
-**전자 메일 전송 시간 최적화**
-
-AI 기반의 전송 시간 최적화를 사용하여 각 고객이 참여할 가능성이 가장 높을 때 이메일을 전송합니다.
-
-[자세히 알아보기](send-time-optimization.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
-
-**게재 램프 업**
-
-메시지 볼륨을 점차 늘려 전송 평판을 개선하고 게재 가능성 문제를 방지합니다.
-
-[자세히 알아보기](ramp-up-deliveries-uc.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
-
-평일별 **타겟**
-
-고객이 여정을 입력하는 요일을 기준으로 다른 콘텐츠를 보냅니다.
-
-[자세히 알아보기](weekday-email-uc.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=ko)
-
-**여정 FAQ**
-
-여정 구축, 문제 해결 및 모범 사례에 대해 자주 묻는 질문에 대한 답변을 찾아보십시오.
-
-[FAQ 보기](journey-faq.md)
-:::
-
-::::
-
-## 여정 유형
-
-Adobe Journey Optimizer은 각기 다른 사용 사례와 시작 메커니즘으로 설계된 네 가지 여정 유형을 지원합니다. 프로필이 고객 경험을 입력하고 진행하는 방법에 따라 올바른 유형을 선택합니다.
+**빌드를 시작하기 전에** 사용 사례에 맞는 여정 유형을 이해하는 것이 중요합니다. Adobe Journey Optimizer은 서로 다른 시작 메커니즘 및 비즈니스 시나리오에 맞게 디자인된 4가지 여정 유형을 지원합니다.
 
 >[!BEGINTABS]
 
 >[!TAB 단일 여정]
 
-**단일 여정**&#x200B;은(는) 구매, 앱 로그인 또는 양식 제출과 같은 특정 동작이 발생할 때 이벤트에 의해 개별적으로 트리거됩니다. 프로필은 이벤트를 받을 때 실시간으로 한 번에 하나씩 여정에 들어가기 때문에 개인화된 비헤이비어 기반 경험에 이상적입니다.
+![아이콘](https://cdn.experienceleague.adobe.com/icons/circle-play.svg) **사용 시기:** 이벤트가 트리거된 실시간 경험
 
-**키 특성:**
+**단일 여정**&#x200B;은(는) 특정 작업(구매, 앱 로그인, 양식 제출)이 발생할 때 개별적으로 트리거됩니다. 프로필은 실시간으로 한 번에 하나씩 입력하므로 즉각적인 비헤이비어 기반 응답에 이상적입니다.
 
-* 이벤트 기반의 실시간 항목
-* 개별 프로필 처리
-* 트랜잭션 메시지 및 즉각적인 응답에 적합
-* 트리거 이벤트의 컨텍스트 데이터 지원
-
-**사용 사례:**
+**완벽한 대상:**
 
 * 구매 후 주문 확인
-* 누군가가 구독하면 환영 전자 메일
-* 검색 동작에 의해 트리거된 장바구니 포기
+* 누군가가 구독하면 환영 이메일
+* 탐색에 의해 트리거된 장바구니 포기
 * 암호 재설정 알림
 
-➡️ [이벤트 구성에 대해 알아보기](../event/about-events.md) | [일반 이벤트](general-events.md) | [구독자에게 보내는 메시지 사용 사례](message-to-subscribers-uc.md)
+➡️ [이벤트에 대해 알아보기](../event/about-events.md) | [구독자에게 보내는 메시지 사용 사례](message-to-subscribers-uc.md)
 
 >[!TAB 대상 여정 읽기]
 
-**대상 여정 읽기** Adobe Experience Platform의 대상으로 시작하여 해당 대상의 모든 프로필에 메시지를 일괄적으로 보냅니다. 이 여정 유형은 전체 대상을 한 번에 처리하므로 예약된 캠페인 및 반복 커뮤니케이션에 이상적입니다.
+![아이콘](https://cdn.experienceleague.adobe.com/icons/database.svg) **사용 시기:** 대상자 세그먼트에 대해 예약된 캠페인
 
-**키 특성:**
+**대상 여정 읽기** Adobe Experience Platform 대상으로 시작하여 모든 프로필에 동시에 메시지를 일괄적으로 보냅니다. 이 여정 유형은 예약된 대규모 통신에 이상적입니다.
 
-* 대상 세그먼트의 일괄 처리
-* 예약된 실행 또는 일회성 실행
-* 모든 프로필은 동시에 입장합니다.
-* 대규모 통신 지원
-
-**사용 사례:**
+**완벽한 대상:**
 
 * 월간 뉴스레터
 * 타겟 세그먼트에 대한 프로모션 캠페인
-* 모든 고객에 대한 제품 공지
+* 제품 공지
 * 시즌 마케팅 캠페인
 
-➡️ [대상자 읽기 활동에 대해 알아보기](read-audience.md) | [대상자 시작](../audience/about-audiences.md) | [다중 채널 메시지 사용 사례](journeys-uc.md)
+➡️ [대상자 읽기에 대해 알아보기](read-audience.md) | [대상자 시작](../audience/about-audiences.md)
 
 >[!TAB 대상 자격 여정]
 
-**대상 자격 여정**&#x200B;은(는) 프로필이 특정 대상 세그먼트에 대해 자격이 되거나 종료되는 경우 트리거됩니다. 프로필은 대상 기준을 실시간으로 충족할 때 개별적으로 여정을 입력하므로 고객 행동이 변경될 때 즉각적인 참여가 가능합니다.
+![아이콘](https://cdn.experienceleague.adobe.com/icons/bullseye.svg) **사용 시기:** 대상 멤버십 변경에 대한 실시간 응답
 
-**키 특성:**
+프로필이 특정 대상에 대해 자격이 되거나 종료되는 경우 **대상 자격 여정**&#x200B;이 트리거됩니다. 프로필은 실시간으로 기준을 충족하면 개별적으로 입력되므로 고객 행동이 변경될 때 즉시 참여할 수 있습니다.
 
-* 실시간 검증 기반 항목
-* 대상자 멤버십에 대한 지속적인 모니터링
-* 자격을 충족하는 개별 프로필 처리
-* 스트리밍 대상 관련 우수 사례
-
-**사용 사례:**
+**완벽한 대상:**
 
 * VIP 계층 업그레이드 알림
 * 고객이 비활성 상태가 되면 재참여
 * 첫 번째 구매 축하 메시지
 * 고객이 이동할 때 지리 기반의 타깃팅
 
-➡️ [대상 자격에 대해 알아보기](audience-qualification-events.md) | [조건 활동](condition-activity.md) | [세그먼트 정의 만들기](../audience/creating-a-segment-definition.md)
+➡️ [대상 자격에 대해 알아보기](audience-qualification-events.md) | [대상자 만들기](../audience/creating-a-segment-definition.md)
 
 >[!TAB 비즈니스 이벤트 여정]
 
-**비즈니스 이벤트 여정**&#x200B;은(는) 여러 프로필에 동시에 영향을 주는 비즈니스 이벤트(예: 재고 업데이트, 날씨 알림 또는 가격 변경)에 의해 트리거됩니다. 이러한 여정은 개별적인 고객 행동에 반응하기보다는 광범위한 비즈니스 상황이나 외부 요인에 반응한다.
+![아이콘](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg) **사용 시기:** 여러 고객에게 영향을 주는 비즈니스 조건
 
-**키 특성:**
+**비즈니스 이벤트 여정**&#x200B;은(는) 여러 프로필에 동시에 영향을 주는 비즈니스 수준 이벤트(재고 업데이트, 날씨 알림, 가격 변경)에 의해 트리거됩니다. 이들은 개별적인 행위보다는 더 넓은 비즈니스 조건에 반응한다.
 
-* 개별 작업이 아닌 비즈니스 수준 이벤트에 의해 트리거됨
-* 한 번에 여러 프로필에 영향
-* 이벤트가 발생할 때 특정 대상을 타기팅합니다
-* 이벤트 기반 타이밍을 대상 타깃팅과 결합
-
-**사용 사례:**
+**완벽한 대상:**
 
 * 관심 있는 고객에 대한 재고 경고 낮음
 * Flash 판매 발표
@@ -312,41 +102,331 @@ Adobe Journey Optimizer은 각기 다른 사용 사례와 시작 메커니즘으
 * 가격 하락 알림
 * 제품 재입고 경고
 
-➡️ [비즈니스 이벤트에 대해 알아보기](general-events.md) | [비즈니스 이벤트 구성](../event/about-creating-business.md) | [항목 관리](entry-management.md)
+➡️ [비즈니스 이벤트에 대해 알아보기](../event/about-creating-business.md) | [항목 관리](entry-management.md)
 
 >[!ENDTABS]
 
-## Designer 여정{#journey-designer}
-
-[여정 디자이너](using-the-journey-designer.md)은(는) 마케터와 여정 실무자가 여러 채널에서 여러 단계의 1:1 여정을 오케스트레이션하는 데 필요한 모든 기능을 제공합니다. 여기에는 여정의 각 단계를 조정하고, 타깃 대상자를 정의하며, 행동과 상황별 데이터 및 비즈니스 이벤트를 기반으로 타깃 대상자 구성원이 보게 될 채널 전반의 메시지, 오퍼 및 콘텐츠를 포함하는 직관적인 드래그 앤 드롭 캔버스가 포함됩니다.
-
-여정 디자이너는 여러 단계의 경험을 디자인하는 데 필요한 모든 기능을 제공합니다.
-
-* **[기본 제공 채널 작업](journeys-message.md)** - Journey Optimizer 내에서 직접 디자인된 이메일, 푸시 알림, SMS/MMS, 인앱, 웹, 코드 기반 경험 등을 통해 메시지를 보냅니다.
-* **[사용자 지정 작업](using-custom-actions.md)** - 외부 플랫폼에서 메시지를 보내거나 워크플로우를 트리거하기 위해 타사 시스템을 통합합니다.
-* **[오케스트레이션 활동](about-journey-activities.md)** - 논리, 조건, 대기 시간 및 대상 타깃팅을 추가하여 정교한 고객 경험을 만듭니다.
-* **[조건](condition-activity.md)** - 프로필 특성, 대상 멤버십 또는 실시간 이벤트를 기반으로 여정을 분기합니다.
-* **[식](expression/expressionadvanced.md)** - 식 편집기를 사용하여 고급 논리 및 개인화 빌드
-
-이러한 엔드 투 엔드 사용 사례[에서 여정 디자이너 &#x200B;](jo-use-cases.md)을(를) 사용하는 방법을 알아봅니다.
-
 >[!NOTE]
 >
->여정 가드레일 및 제한 사항은 [이 페이지](../start/guardrails.md)에서 자세히 확인할 수 있습니다.
+>어떤 유형을 선택할지 확실하지 않습니까? 이벤트 기반 여정의 경우 **단일 여정**, 예약된 캠페인의 경우 **대상 경험 읽기**&#x200B;로 시작하십시오. 이러한 이벤트는 가장 일반적인 사용 사례를 다룹니다.
 
-## 사용 방법 비디오 {#video}
+## 여정 디자이너를 사용하여 빌드 {#journey-designer}
 
-여정의 구성 요소를 살펴보고 캔버스에서 여정을 작성할 때의 기본을 이해합니다.
+**[여정 디자이너](using-the-journey-designer.md)**&#x200B;은(는) 고객 경험을 만들기 위한 시각적 캔버스입니다. 직관적인 드래그 앤 드롭 인터페이스에서 코드를 작성하지 않고도 여정의 모든 단계를 오케스트레이션할 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430355?captions=kor&quality=12)
+![팔레트, 캔버스 및 속성 창이 있는 여정 디자이너 인터페이스](assets/journey38.png)
 
+### 디자이너에서 수행할 수 있는 작업:
 
-## 추가 리소스 {#additional-resources}
+:::: landing-cards-container
 
-* **[고객 여정 문제 해결](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)** - 디버깅 및 최적화를 위한 도구, 오류 코드 및 모범 사례를 통해 여정 실행 문제를 진단하고 해결합니다.
-* **[여정 FAQ](journey-faq.md)** - 여정 관련 자주 하는 질문
-* **[여정 경고](../reports/alerts.md)** - 여정 모니터링을 위한 경고를 설정하고 실시간 업데이트에 대한 알림을 구독합니다.
-* **[오류 코드 참조](error-codes-reference.md)** - 여정 오류 코드 및 문제 해결 단계
-* **[문제 해결](troubleshooting.md)** - 일반적인 여정 문제 및 해결 방법
-* **[여정 자습서(비디오)](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}** - 기능, 기능 및 모범 사례에 대해 실습형 비디오 자습서를 통해 여정 빌드에 대해 알아봅니다.
-* **[보호 기능 및 제한 사항 여정](../start/guardrails.md)** - [!DNL Adobe Journey Optimizer] 사용 시 보호 기능 및 제한 사항 확인
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+
+**진입점 정의**
+
+이벤트, 대상 세그먼트 또는 대상 자격을 통해 고객이 입장하는 방법을 선택합니다.
+
+[항목 관리에 대해 알아보기](entry-management.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+
+**메시지 보내기**
+
+Journey Optimizer에서 설계된 이메일, 푸시, SMS/MMS, 인앱, 웹 등에 기본 제공 채널 작업을 사용합니다.
+
+[여정으로 메시지 보내기](journeys-message.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+
+**논리 및 조건 추가**
+
+프로필 속성, 대상자 멤버십 또는 실시간 이벤트를 기반으로 여정을 분기합니다.
+
+[조건 사용](condition-activity.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+
+**데이터 활용**
+
+이벤트, Adobe Experience Platform 또는 서드파티 API 서비스의 컨텍스트 데이터를 사용합니다.
+
+[데이터 소스 작업](../datasource/about-data-sources.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+
+**외부 시스템 연결**
+
+메시지를 보내거나 워크플로우를 트리거하기 위해 서드파티 시스템을 통합하는 사용자 지정 작업을 만듭니다.
+
+[사용자 정의 액션 구성](../action/about-custom-action-configuration.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+
+**오케스트레이션 활동 추가**
+
+대기 시간, 점프, 프로필 업데이트 및 대상자 관리를 사용하여 정교한 흐름을 만듭니다.
+
+[모든 활동 살펴보기](about-journey-activities.md)
+:::
+
+::::
+
+➡️ **실습 학습:** [여정 디자이너 비디오 보기](#video) 또는 [엔드 투 엔드 사용 사례 탐색](jo-use-cases.md)
+
+## 여정 생성 워크플로 {#workflow}
+
+성공적인 여정 구축은 명확하고 반복 가능한 프로세스를 따릅니다. 다음은 단계별 워크플로입니다.
+
+```mermaid
+graph LR
+    A[1. Plan] --> B[2. Design]
+    B --> C[3. Test]
+    C --> D[4. Publish]
+    D --> E[5. Monitor]
+    E --> F[6. Optimize]
+```
+
+### &#x200B;1. **여정 계획** {#plan}
+
+디자이너를 열기 전에 목표를 명확히 하십시오.
+
+* **목표가 무엇입니까?**(예: 신규 고객 온보딩, 비활성 사용자 다시 참여)
+* **대상자가 누구입니까?**(특정 세그먼트, 이벤트 기반 개인)
+* **어떤 여정 유형에 적합합니까?**(위의 [여정 형식](#journey-types) 참조)
+* **어떤 채널을 사용하시겠습니까?**(전자 메일, 푸시, SMS 등)
+
+### &#x200B;2. **캔버스에서 디자인** {#design}
+
+여정 디자이너를 사용하여 플로우를 빌드합니다.
+
+1. **시작 조건 설정** - 프로필이 입력하는 방법(이벤트, 대상, 자격)을 정의합니다.
+2. **오케스트레이션 논리 추가** - 대기 시간, 조건 및 결정 지점 포함
+3. **메시지 구성** - 커뮤니케이션 디자인 또는 기존 템플릿 활용
+4. **작업 설정** - 실행할 기본 제공 작업 또는 사용자 지정 작업을 구성합니다.
+5. **종료 조건 정의** - 프로필이 여정을 완료하는 시기와 방법을 지정합니다.
+
+[여정 디자이너 → 사용 방법 알아보기](using-the-journey-designer.md)
+
+### &#x200B;3. **시작하기 전에 테스트** {#test}
+
+고객이 문제를 경험하기 전에 항상 여정을 테스트하여 문제를 파악하십시오.
+
+* **테스트 모드**&#x200B;를 사용하여 테스트 프로필로 여정 시뮬레이션
+* 실제 데이터나 메시지 전송에 영향을 주지 않고 여정 실행을 미리 보려면 **시험 실행**&#x200B;을 사용하십시오.
+* 모든 조건, 메시지 및 작업이 예상대로 작동하는지 확인
+* 타이밍, 데이터 흐름 및 개인화 확인
+
+[여정 테스트 →](testing-the-journey.md) | [시험 실행 →에 대해 알아보기](journey-dry-run.md)
+
+### &#x200B;4. **여정 게시** {#publish}
+
+테스트가 완료되면 을 게시하여 여정을 라이브로 만듭니다.
+
+* 최종 설정 및 속성 검토
+* 실제 고객을 위해 활성화하려면 게시
+* 참고: 라이브 여정은 중지할 수 있지만 편집할 수는 없습니다(새 버전을 만들어야 함).
+
+[여정 → 게시](publish-journey.md)
+
+### &#x200B;5. **성능 모니터링** {#monitor}
+
+여정이 실제 환경에서 어떻게 수행되는지 추적합니다.
+
+* 여정 보고서 및 분석 보기
+* 입력, 완료 및 오류율 모니터링
+* 중요한 문제에 대한 경고 설정
+
+[모니터링 및 보고 →](report-journey.md) | [알림 설정 →](../reports/alerts.md)
+
+### &#x200B;6. **최적화 및 반복** {#optimize}
+
+인사이트를 사용하여 다음을 개선합니다.
+
+* 참여 지표 및 전환율 분석
+* 전송 시간 최적화 테스트
+* 향상된 기능을 통해 새 여정 버전 만들기
+* AI 기반 권장 사항 사용
+
+[여정 최적화 →](optimize.md) | [전송 시간 최적화 →](send-time-optimization.md)
+
+➡️ **시작할 준비가 되셨습니까?** [지금 첫 번째 여정 만들기 →](journey-gs.md)
+
+## 실제 사용 사례 {#use-cases}
+
+일반적인 마케팅 문제를 해결하기 위해 여정 개념을 적용하는 방법을 보여 주는 실용적인 예제를 통해 알아보십시오.
+
+:::: landing-cards-container
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+
+**새 구독자 시작**
+
+고객이 서비스에 가입하면 온보딩 단계를 완료하도록 유도하는 시작 여정을 트리거합니다.
+
+[사용 사례 → 보기](message-to-subscribers-uc.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+
+**전송 시간 최적화**
+
+각 고객이 참여할 가능성이 가장 높은 경우 AI를 사용하여 이메일을 전달하여 오픈률과 클릭률을 극대화합니다.
+
+[사용 사례 → 보기](send-time-optimization.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+
+**게재 램프 업**
+
+메시지 볼륨을 점차 늘려 전송 평판을 개선하고 게재 가능성 문제를 방지합니다.
+
+[사용 사례 → 보기](ramp-up-deliveries-uc.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+
+평일별 **타겟**
+
+고객이 여정에 입력하여 더 나은 관련성을 위해 요일을 기준으로 다양한 콘텐츠를 보냅니다.
+
+[사용 사례 → 보기](weekday-email-uc.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+
+**멀티채널 캠페인**
+
+이메일, 푸시, SMS 및 웹 여정 전반에 걸쳐 원활한 경험을 단일 채널로 오케스트레이션할 수 있습니다.
+
+[사용 사례 → 보기](journeys-uc.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+
+**모든 사용 사례**
+
+단계별 구현을 통해 여정 사용 사례의 전체 라이브러리를 살펴보십시오.
+
+[모든 → 찾아보기](jo-use-cases.md) | [사용 사례 라이브러리 →](/help/rp_landing_pages/journey-use-cases-landing-page.md)
+:::
+
+::::
+
+## 여정 기능 살펴보기 {#capabilities}
+
+여정 구축에 익숙해지면 다음과 같은 강력한 기능을 활용하여 정교한 고객 경험을 구축할 수 있습니다.
+
+:::: landing-cards-container
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+
+**고급 표현식**
+
+데이터 조작 및 복잡한 논리를 위해 표현식 편집기를 사용하여 동적 조건 및 개인화를 빌드합니다.
+
+[표현식에 대해 알아보기](/help/rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+
+**표준 시간대 관리**
+
+자동 시간대 조정과 최적의 전송 시간을 사용하여 글로벌 대상을 처리합니다.
+
+[표준 시간대 관리](timezone-management.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+
+**테스트 모드 및 시험 실행**
+
+라이브로 전환하기 전에 테스트 프로필로 여정의 유효성을 검사하고 실제 데이터에 영향을 주지 않고 실행을 미리 봅니다.
+
+[시험 실행 사용](journey-dry-run.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+
+**샌드박스로 복사**
+
+샌드박스 간 여정을 복제하여 테스트 및 배포 워크플로를 간소화합니다.
+
+[여정 복사](copy-to-sandbox.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+
+**태그 및 조직**
+
+태그를 사용하여 여정을 분류하고 필터링하여 크기를 효율적으로 관리할 수 있습니다.
+
+[태그로 구성](tags.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+
+**처리량 제어**
+
+전송 평판을 관리하고 압도적인 시스템을 피하기 위해 메시지 처리량을 제한합니다.
+
+[제어 처리량](limit-throughput.md)
+:::
+
+::::
+
+[모든 여정 기능 보기 →](/help/rp_landing_pages/manage-journey-landing-page.md)
+
+## 시청하여 알아보기 {#video}
+
+여정 구성 요소를 시각적으로 살펴보고 캔버스에서 여정을 작성하는 기본 사항에 대해 알아봅니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
+
+➡️ **더 많은 비디오를 원하십니까?** [여정 비디오 튜토리얼 살펴보기](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
+
+## 도움이 필요하십니까? {#help}
+
+### 일반적인 작업에 대한 빠른 링크
+
+* **[첫 번째 여정 만들기](journey-gs.md)** - 초보자용 단계별 안내서
+* **[여정 FAQ](journey-faq.md)** - 답변된 일반적인 질문
+* **[문제 해결](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)** - 문제 진단 및 해결
+* **[오류 코드 참조](error-codes-reference.md)** - 오류 메시지 이해
+* **[보호 기능 및 제한 사항](../start/guardrails.md)** - 기술 경계 및 모범 사례
+
+### 문제에 대한 알림 받기
+
+여정에게 오류 또는 비정상적인 패턴이 발생할 때 실시간 알림을 받도록 **[여정 알림](../reports/alerts.md)**&#x200B;을 설정하십시오.
+
+### 추가 리소스
+
+* **[여정 관리 허브](/help/rp_landing_pages/manage-journey-landing-page.md)** - 필터링, 최적화 및 프로필 관리를 위한 도구
+* **[여정 활동 참조](/help/rp_landing_pages/about-journey-building-landing-page.md)** - 모든 활동 유형에 대한 전체 안내서
+* **[실행 문제 해결](troubleshooting-execution.md)** - 디버그 여정 실행 문제
+* **[인바운드 활동 문제 해결](troubleshooting-inbound.md)** - 입력 및 자격 문제 해결
+
+**첫 번째 여정을 빌드할 준비가 되셨습니까?** [지금 시작 →](journey-gs.md)
