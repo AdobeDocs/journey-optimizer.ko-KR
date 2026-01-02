@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 여정 시작
-description: 여정 시작
+description: 여정 시작 - Adobe Journey Optimizer에서 개인화된 고객 경험을 만들기 위한 여정 유형, 워크플로우, 기능 및 모범 사례에 대해 알아봅니다.
 feature: Journeys, Get Started, Overview
 role: User
 level: Beginner, Intermediate
-keywords: 여정, 검색, 시작
+keywords: 여정, 검색, 시작, 단일, 대상자 읽기, 대상자 자격, 비즈니스 이벤트, 실시간, 예약됨, 배치, 이벤트 트리거, 워크플로우, 오케스트레이션, 개인화, 멀티채널
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: a4b6b048d60847531e0e61de702b48ebe82884d3
+source-git-commit: 8ea2a0fe685678d41004d549443a1757eb30c765
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1465'
 ht-degree: 3%
 
 ---
@@ -37,57 +37,29 @@ Adobe Journey Optimizer을 사용하면 대상의 비헤이비어와 요구에 �
 
 ➡️ **빌드를 시작할 준비가 되셨습니까?** [5분 후에 첫 번째 여정 만들기](journey-gs.md).
 
+### 여정과 캠페인: 각각 사용해야 하는 경우 {#journeys-vs-campaigns-intro}
+
+Adobe Journey Optimizer에서는 고객에게 도달하기 위한 세 가지 접근 방식을 제공합니다. **여정**(1:1 실시간 오케스트레이션), **캠페인**(단순 일괄 처리 또는 API 트리거 게재) 및 **오케스트레이션된 캠페인**(다중 엔티티 데이터가 있는 일괄 처리 캔버스 워크플로).
+
+**빠른 결정:**
+
+* 각 고객이 원하는 속도로 진행하는 여러 단계의 동작 중심의 경험에 **여정**&#x200B;을(를) 사용합니다.
+* 대상자에 대한 단순, 예약 또는 트리거된 메시지 게재에 **Action/API 캠페인**&#x200B;을(를) 사용합니다.
+* 다중 엔티티 세분화 및 정확한 사전 전송 카운트가 필요한 복잡한 일괄 처리 워크플로에 **오케스트레이션된 캠페인**&#x200B;을(를) 사용합니다.
+
+<!-- waiting for DOCAC-13912
+➡️ **[View detailed comparison: Journeys vs Campaigns](../start/journeys-vs-campaigns.md)** - Includes decision guide, use cases, and feature availability-->
+
 ## 여정 유형 선택 {#journey-types}
 
-**빌드를 시작하기 전에** 사용 사례에 맞는 여정 유형을 이해하는 것이 중요합니다. Adobe Journey Optimizer은 서로 다른 시작 메커니즘 및 비즈니스 시나리오에 맞게 디자인된 4가지 여정 유형을 지원합니다.
+Adobe Journey Optimizer은 서로 다른 시작 메커니즘 및 비즈니스 시나리오에 맞게 디자인된 4가지 여정 유형을 지원합니다.
 
->[!BEGINTABS]
+* **단일 여정**: 이벤트가 트리거된 실시간 경험(주문 확인, 환영 이메일)
+* **대상 여정 읽기**: 대상 세그먼트에 예약된 일괄 통신(뉴스레터, 프로모션 캠페인)
+* **대상 자격 여정**: 대상 멤버십 변경(VIP 업그레이드, 재참여)에 대한 실시간 응답
+* **비즈니스 이벤트 여정**: 여러 고객에게 영향을 주는 비즈니스 상태(인벤토리 알림, 플래시 판매)
 
->[!TAB 단일 여정]
-
-**사용 시기:** 실시간, 이벤트 트리거 경험
-
-**단일 여정**&#x200B;은(는) 특정 작업(구매, 앱 로그인, 양식 제출)이 발생할 때 개별적으로 트리거됩니다. 프로필은 실시간으로 한 번에 하나씩 입력하므로 즉각적인 비헤이비어 기반 응답에 이상적입니다.
-
-**완벽한 대상:** 구매 후 주문 확인, 누군가 구독할 때 환영 이메일, 탐색으로 트리거된 장바구니 포기, 암호 재설정 알림.
-
-➡️ [이벤트에 대해 알아보기](../event/about-events.md) | [구독자에게 보내는 메시지 사용 사례](message-to-subscribers-uc.md)
-
->[!TAB 대상 여정 읽기]
-
-**사용할 시기:** 대상자 세그먼트에 예약된 캠페인
-
-**대상 여정 읽기** Adobe Experience Platform 대상으로 시작하여 모든 프로필에 동시에 메시지를 일괄적으로 보냅니다. 이 여정 유형은 예약된 대규모 통신에 이상적입니다.
-
-**완벽한 대상:** 월간 뉴스레터, 대상 세그먼트에 대한 프로모션 캠페인, 제품 공지 및 시즌 마케팅 캠페인
-
-➡️ [대상자 읽기에 대해 알아보기](read-audience.md) | [대상자 시작](../audience/about-audiences.md)
-
->[!TAB 대상 자격 여정]
-
-**사용할 시기:** 대상 멤버십 변경에 대한 실시간 응답
-
-프로필이 특정 대상에 대해 자격이 되거나 종료되는 경우 **대상 자격 여정**&#x200B;이 트리거됩니다. 프로필은 실시간으로 기준을 충족하면 개별적으로 입력되므로 고객 행동이 변경될 때 즉시 참여할 수 있습니다.
-
-**완벽한 대상:** VIP 계층 업그레이드 알림, 고객이 비활성화될 때 다시 참여, 첫 번째 구매 축하 메시지 및 고객이 이동할 때 지리적 타깃팅.
-
-➡️ [대상 자격에 대해 알아보기](audience-qualification-events.md) | [대상자 만들기](../audience/creating-a-segment-definition.md)
-
->[!TAB 비즈니스 이벤트 여정]
-
-**사용할 시기:** 여러 고객에게 영향을 주는 비즈니스 조건
-
-**비즈니스 이벤트 여정**&#x200B;은(는) 여러 프로필에 동시에 영향을 주는 비즈니스 수준 이벤트(재고 업데이트, 날씨 알림, 가격 변경)에 의해 트리거됩니다. 이들은 개별적인 행위보다는 더 넓은 비즈니스 조건에 반응한다.
-
-**완벽한 대상:** 관심 있는 고객에 대한 재고 부족 알림, 플래시 판매 알림, 날씨 기반 프로모션, 가격 하락 알림 및 재고 부족 알림.
-
-➡️ [비즈니스 이벤트에 대해 알아보기](../event/about-creating-business.md) | [항목 관리](entry-management.md)
-
->[!ENDTABS]
-
->[!NOTE]
->
->어떤 유형을 선택할지 확실하지 않습니까? 이벤트 기반 여정의 경우 **단일 여정**, 예약된 캠페인의 경우 **대상 경험 읽기**&#x200B;로 시작하십시오. 이러한 이벤트는 가장 일반적인 사용 사례를 다룹니다.
+➡️ **[여정 유형 및 선택 안내서](journey-types-selection.md)** - 세부 비교, 의사 결정 트리 및 기능 호환성 매트릭스
 
 ## 여정 디자이너를 사용하여 빌드 {#journey-designer}
 
@@ -100,7 +72,7 @@ Adobe Journey Optimizer을 사용하면 대상의 비헤이비어와 요구에 �
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **진입점 정의**
 
@@ -110,7 +82,7 @@ Adobe Journey Optimizer을 사용하면 대상의 비헤이비어와 요구에 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **메시지 보내기**
 
@@ -120,7 +92,7 @@ Journey Optimizer에서 설계된 이메일, 푸시, SMS/MMS, 인앱, 웹 등에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **논리 및 조건 추가**
 
@@ -130,7 +102,7 @@ Journey Optimizer에서 설계된 이메일, 푸시, SMS/MMS, 인앱, 웹 등에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **데이터 활용**
 
@@ -140,7 +112,7 @@ Journey Optimizer에서 설계된 이메일, 푸시, SMS/MMS, 인앱, 웹 등에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **외부 시스템 연결**
 
@@ -150,7 +122,7 @@ Journey Optimizer에서 설계된 이메일, 푸시, SMS/MMS, 인앱, 웹 등에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **오케스트레이션 활동 추가**
 
@@ -241,7 +213,7 @@ Journey Optimizer에서 설계된 이메일, 푸시, SMS/MMS, 인앱, 웹 등에
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **새 구독자 시작**
 
@@ -251,7 +223,7 @@ Journey Optimizer에서 설계된 이메일, 푸시, SMS/MMS, 인앱, 웹 등에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **전송 시간 최적화**
 
@@ -261,7 +233,7 @@ Journey Optimizer에서 설계된 이메일, 푸시, SMS/MMS, 인앱, 웹 등에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **게재 램프 업**
 
@@ -271,7 +243,7 @@ Journey Optimizer에서 설계된 이메일, 푸시, SMS/MMS, 인앱, 웹 등에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 평일별 **타겟**
 
@@ -281,7 +253,7 @@ Journey Optimizer에서 설계된 이메일, 푸시, SMS/MMS, 인앱, 웹 등에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **멀티채널 캠페인**
 
@@ -291,7 +263,7 @@ Journey Optimizer에서 설계된 이메일, 푸시, SMS/MMS, 인앱, 웹 등에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **모든 사용 사례**
 
@@ -309,7 +281,7 @@ Journey Optimizer에서 설계된 이메일, 푸시, SMS/MMS, 인앱, 웹 등에
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **고급 표현식**
 
@@ -319,7 +291,7 @@ Journey Optimizer에서 설계된 이메일, 푸시, SMS/MMS, 인앱, 웹 등에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **표준 시간대 관리**
 
@@ -329,7 +301,7 @@ Journey Optimizer에서 설계된 이메일, 푸시, SMS/MMS, 인앱, 웹 등에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **테스트 모드 및 시험 실행**
 
@@ -339,7 +311,7 @@ Journey Optimizer에서 설계된 이메일, 푸시, SMS/MMS, 인앱, 웹 등에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **샌드박스로 복사**
 
@@ -349,7 +321,7 @@ Journey Optimizer에서 설계된 이메일, 푸시, SMS/MMS, 인앱, 웹 등에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **태그 및 조직**
 
@@ -359,7 +331,7 @@ Journey Optimizer에서 설계된 이메일, 푸시, SMS/MMS, 인앱, 웹 등에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **처리량 제어**
 
@@ -376,9 +348,37 @@ Journey Optimizer에서 설계된 이메일, 푸시, SMS/MMS, 인앱, 웹 등에
 
 여정 구성 요소를 시각적으로 살펴보고 캔버스에서 여정을 작성하는 기본 사항에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430355?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ➡️ **더 많은 비디오를 원하십니까?** [여정 비디오 튜토리얼 살펴보기](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
+
+## 일반적인 질문 {#common-questions}
+
+**Q: 여정과 캠페인의 차이점은 무엇입니까?**
+
+A: Adobe Journey Optimizer은 세 가지 접근 방식을 제공합니다.
+
+* **여정**: 1:1 실시간 오케스트레이션을 통해 각 프로필이 각자의 속도로 단계를 진행합니다. 조건부 논리(예: 온보딩, 장바구니 포기)를 사용하는 비헤이비어 기반 다중 단계 경험에 가장 적합합니다.
+
+* **캠페인(작업 및 API 트리거)**: 일정에 따라 또는 API 트리거를 통해 모든 프로필에 동시에 실행되는 간단한 메시지를 대상자에게 전달합니다. 프로모션 캠페인, 뉴스레터, 트랜잭션 메시지에 적합합니다.
+
+* **오케스트레이션된 캠페인**: 관계형 데이터(프로필 + 제품/스토어/예약)를 사용하여 복잡한 세분화를 사용하는 여러 단계 일괄 처리 워크플로우입니다. 모든 프로필이 정확한 사전 전송 카운트와 함께 처리되었습니다. 여러 엔티티 데이터가 필요한 계절 프로모션, 제품 출시, 캠페인에 가장 적합합니다.
+
+**주요 차이점**: 여정은 실시간 작업에 대한 개별 고객 상태를 유지 관리합니다. 작업/API 캠페인은 간단한 메시지를 일괄적으로 전달합니다. 오케스트레이션된 캠페인은 다중 엔티티 세그멘테이션 기능이 있는 일괄 워크플로우 캔버스를 제공합니다.
+
+<!-- waiting for DOCAC-13912 [See detailed comparison](#journeys-vs-campaigns) | -->[오케스트레이션된 캠페인에 대해 알아보기](../orchestrated/gs-orchestrated-campaigns.md)
+
+<!-- Waiting for DOCAC-13912
+**Q: Which journey type should I use?**
+
+A: Use the [decision guide](#decision-guide) or [comparison table](#journey-types-comparison) to choose between Unitary, Read Audience, Audience Qualification, and Business Event journeys based on your trigger mechanism and use case.
+-->
+
+**Q: 라이브 여정을 편집할 수 있습니까?**
+
+A: 제한된 요소(이름, 메시지 콘텐츠)를 편집할 수 있지만 구조를 변경하려면 새 버전을 생성해야 합니다. [여정 버전에 대해 알아보기](publish-journey.md#journey-versions)
+
+➡️ **개 질문 더?** [전체 여정 FAQ 보기](journey-faq.md) 및 40개 이상의 세부 답변
 
 ## 도움이 필요하십니까? {#help}
 
