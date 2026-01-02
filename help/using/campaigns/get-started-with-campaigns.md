@@ -10,9 +10,9 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 캠페인, 방법 , 시작, Optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: edf8ad3cf95cc2a8dcaf3e1abd0203785eda8fb5
+source-git-commit: f42da9aa4a4aba053d967ec81b98cabe4ac2745a
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1549'
 ht-degree: 31%
 
 ---
@@ -259,7 +259,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 
 1. **[!UICONTROL 제품의]**&#x200B;역할[!DNL Permissions] 탭으로 이동하여 기본 제공 캠페인 관련 **[!UICONTROL 역할]** 중 하나를 선택하십시오.
 
-1. **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
+1.  **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
 
 1. 사용자 이름 또는 이메일 주소를 입력하거나 목록에서 사용자를 선택하고 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
@@ -276,27 +276,27 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **예약 및 시간**
 
-특정 날짜/시간에 대해 캠페인을 예약하고, 반복 게재를 설정하고, 최대 영향을 미칠 수 있도록 전송 시간을 최적화합니다.
+특정 날짜/시간에 대해 캠페인을 예약하고, 반복 게재를 설정하고, 최대 영향을 미칠 수 있도록 전송 시간을 최적화합니다. (작업 및 API 트리거 캠페인)
 
 [예약에 대해 알아보기](campaign-schedule.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **속도 조절**
 
-메시지 처리량을 제한하여 랜딩 페이지나 고객 지원 플랫폼과 같은 다운스트림 시스템의 오버로드를 방지합니다.
+메시지 처리량을 제한하여 랜딩 페이지나 고객 지원 플랫폼과 같은 다운스트림 시스템의 오버로드를 방지합니다. (작업 및 API 트리거 캠페인)
 
 [제어 비율 제한](create-campaign.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **대상 타깃팅**
 
@@ -306,33 +306,33 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **승인 워크플로**
 
-캠페인이 실행되기 전에 검토 및 승인 프로세스를 구현하여 품질 및 규정 준수를 보장합니다.
+캠페인이 실행되기 전에 검토 및 승인 프로세스를 구현하여 품질 및 규정 준수를 보장합니다. (작업 및 API 트리거 캠페인)
 
 [검토 및 활성화](review-activate-campaign.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **방해 금지 시간**
 
-지정된 기간 동안 메시지 전달을 방지하여 고객 환경 설정을 준수합니다.
+지정된 기간 동안 메시지 전달을 방지하여 고객 환경 설정을 준수합니다. (작업 및 API 트리거 캠페인)
 
 [자동 시간 구성](quiet-hours.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
-**전송 시간 최적화**
+**최적화**
 
-AI를 사용하여 각 개인과의 최대 참여를 위해 메시지를 보내는 최적의 시간을 결정합니다.
+타겟팅 규칙 및 콘텐츠 실험을 사용하여 개인화된 콘텐츠를 제공하고 참여를 극대화합니다.
 
-[전송 시간 최적화](campaigns-message-optimization.md)
+[캠페인 최적화](campaigns-message-optimization.md)
 :::
 
 ::::
