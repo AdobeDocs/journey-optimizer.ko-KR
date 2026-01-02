@@ -113,7 +113,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 
 >[!TAB 작업 캠페인(예약됨)]
 
-![아이콘](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg) **사용 시기:** 간단한 예약된 일괄 처리 통신
+![아이콘](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ko) **사용 시기:** 간단한 예약된 일괄 처리 통신
 
 **작업 캠페인**(예약된 캠페인이라고도 함)은 특정 시간에 실행되는 간단한 일회성 또는 되풀이되는 일괄 처리 통신에 이상적입니다.
 
@@ -134,7 +134,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 
 >[!TAB API 트리거 캠페인]
 
-![아이콘](https://cdn.experienceleague.adobe.com/icons/code-branch.svg) **사용 시기:** 외부 시스템에서 실시간 이벤트 기반 메시징
+![아이콘](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko) **사용 시기:** 외부 시스템에서 실시간 이벤트 기반 메시징
 
 **API 트리거 캠페인** API 호출을 통해 활성화하여 외부 시스템에서 직접 자동화된 메시징을 사용할 수 있습니다. 이러한 캠페인은 API 페이로드의 프로필 속성과 실시간 컨텍스트 데이터를 모두 사용하여 개인화를 지원합니다.
 
@@ -155,7 +155,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 
 >[!TAB 오케스트레이션된 캠페인]
 
-![아이콘](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg) **사용 시기:** 복잡한 다단계 마케팅 워크플로
+![아이콘](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko) **사용 시기:** 복잡한 다단계 마케팅 워크플로
 
 **오케스트레이션된 캠페인**&#x200B;에서는 정교한 마케팅 워크플로를 디자인하고 자동화할 수 있는 시각적 드래그 앤 드롭 캔버스를 제공합니다. 대상자 세분화부터 채널 간 개인화된 메시지 전달까지, 속도와 제어를 위해 구축된 하나의 직관적인 환경에서 모든 것이 가능합니다.
 
@@ -313,7 +313,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ko)
 
 **예약 및 시간**
 
@@ -323,7 +323,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 **속도 조절**
 
@@ -333,7 +333,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 **대상 타깃팅**
 
@@ -343,7 +343,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
 
 **승인 워크플로**
 
@@ -353,7 +353,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ko)
 
 **방해 금지 시간**
 
@@ -363,7 +363,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
 
 **전송 시간 최적화**
 
