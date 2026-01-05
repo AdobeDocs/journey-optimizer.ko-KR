@@ -4,15 +4,20 @@ product: Journey Optimizer
 title: 오퍼 카탈로그 내보내기
 description: 오퍼 카탈로그 내보내기
 redpen-status: CREATED_||_2025-08-11_21-03-50
+badge: label="레거시" type="Informative"
 exl-id: b73438e0-8ebe-4188-bb63-1095dcfc4679
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 2e5943968915b65a78a1c7c8898108b4d48f675a
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '292'
 ht-degree: 100%
 
 ---
 
 # 오퍼 카탈로그 내보내기{#section-overview}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer]의 새로운 의사 결정 기능인 [결정]을 이제 코드 기반 경험 및 이메일 채널을 통해 사용할 수 있습니다. [자세히 알아보기](../experience-decisioning/gs-experience-decisioning.md)
 
 Adobe Journey Optimizer에서 오퍼 카탈로그를 내보내는 것은 Adobe Experience Platform과 원활하게 데이터를 통합할 수 있는 출발점 역할을 합니다. 이 기능을 사용하면 개인화된 오퍼, 대체 옵션, 배치 및 의사 결정을 자동으로 업데이트하고 데이터 세트로 구성하여 고급 분석 및 의사 결정을 수행할 수 있습니다. 내보낸 데이터 세트를 미리 보거나, 해당 구조를 파악하거나, 순위 또는 제약 조건과 같은 특정 세부 정보를 자세히 알아보는 이 모든 과정은 직관적이고 효율적으로 설계되었습니다. 앞의 항목을 살펴봄으로써 이 기능을 활용하여 보다 정밀한 데이터 기반 고객 경험을 제공할 수 있는 도구를 얻을 수 있습니다.
 
@@ -20,7 +25,7 @@ Adobe Journey Optimizer에서 오퍼 카탈로그를 내보내는 것은 Adobe E
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 오퍼 카탈로그 내보내기 안내서
 
@@ -30,7 +35,7 @@ Adobe Journey Optimizer에서 오퍼 카탈로그를 내보내는 것은 Adobe E
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 내보낸 오퍼 카탈로그에 액세스하기
 
@@ -40,7 +45,7 @@ Adobe Journey Optimizer에서 오퍼 카탈로그를 내보내는 것은 Adobe E
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 개인화된 오퍼 데이터 세트 참조
 
@@ -50,7 +55,7 @@ Adobe Journey Optimizer에서 오퍼 카탈로그를 내보내는 것은 Adobe E
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 의사 결정 데이터 세트 개요
 
@@ -60,7 +65,7 @@ Adobe Journey Optimizer에서 오퍼 카탈로그를 내보내는 것은 Adobe E
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 배치 데이터 세트 세부 정보
 
@@ -70,7 +75,7 @@ Adobe Journey Optimizer에서 오퍼 카탈로그를 내보내는 것은 Adobe E
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 대체 오퍼 데이터 세트 설명서
 

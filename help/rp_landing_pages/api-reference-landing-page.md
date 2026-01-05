@@ -4,15 +4,20 @@ product: Journey Optimizer
 title: API 참조
 description: API 참조
 redpen-status: CREATED_||_2025-08-11_21-04-46
+badge: label="레거시" type="Informative"
 exl-id: 0b5e61d7-14a1-446e-8cb0-8861295d6e94
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 2e5943968915b65a78a1c7c8898108b4d48f675a
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '183'
 ht-degree: 100%
 
 ---
 
 # API 참조{#section-overview}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer]의 새로운 의사 결정 기능인 [결정]을 이제 코드 기반 경험 및 이메일 채널을 통해 사용할 수 있습니다. [자세히 알아보기](../experience-decisioning/gs-experience-decisioning.md)
 
 Adobe Journey Optimizer의 API 참조 섹션에서 고객에게 맞춤형 데이터 기반 경험을 제공하는 데 필요한 도구의 잠금을 해제합니다. Decisioning API, Edge Decisioning API 및 Batch Decisioning API와 같은 API를 사용하면 개인화된 오퍼를 워크플로우 및 고객 상호 작용에 원활하게 통합할 수 있습니다. 실시간 의사결정 관리, 배치 작업 확장, 신속한 응답을 위한 Edge Computing 작업 등 다양한 영역에서 각 API는 고유한 목적을 가지며, 함께 결합되어 강력한 생태계를 형성합니다. 이 안내서는 개념을 단순화하여 시작하는 단계를 명확히 제공하므로 보다 스마트하고 매력적인 고객 여정을 자신 있게 구축할 수 있습니다.
 
@@ -20,7 +25,7 @@ Adobe Journey Optimizer의 API 참조 섹션에서 고객에게 맞춤형 데이
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 오퍼 라이브러리 API 시작
 
@@ -30,7 +35,7 @@ Adobe Journey Optimizer의 API 참조 섹션에서 고객에게 맞춤형 데이
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer API를 사용하여 오퍼 게재
 

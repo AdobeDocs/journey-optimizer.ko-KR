@@ -4,15 +4,20 @@ product: Journey Optimizer
 title: 의사 결정 관리 시작
 description: 의사 결정 관리 시작
 redpen-status: CREATED_||_2025-08-11_20-58-31
+badge: label="레거시" type="Informative"
 exl-id: e4cd7cbb-9f3f-4406-95cc-6b0c4179e641
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 2e5943968915b65a78a1c7c8898108b4d48f675a
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '283'
 ht-degree: 100%
 
 ---
 
 # 의사 결정 관리 시작{#section-overview}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer]의 새로운 의사 결정 기능인 [결정]을 이제 코드 기반 경험 및 이메일 채널을 통해 사용할 수 있습니다. [자세히 알아보기](../experience-decisioning/gs-experience-decisioning.md)
 
 Adobe Journey Optimizer의 의사 결정 관리를 사용하면 마케터는 여러 채널을 통해 고객에게 가장 적절한 시간에 맞춤형 오퍼를 제공할 수 있습니다. 중앙 집중식 오퍼 라이브러리와 강력한 의사 결정 엔진을 결합하면 고유한 프로필과 비즈니스 규칙에 따라 메시지를 맞춤화할 수 있습니다. 자격 기준을 정의하든, 대체 옵션을 관리하든, 우선순위 배치를 위한 오퍼 순위를 지정하든, 그 과정은 간소화되고 직관적입니다. 이 섹션에서는 오퍼와 컬렉션을 만드는 것부터 캠페인에 의사 결정을 통합하는 것까지 주요 구성 요소를 소개합니다. 이를 통해 대상자와 공감하고 참여를 촉진하는 의미 있는 경험을 만들 수 있습니다.
 
@@ -20,7 +25,7 @@ Adobe Journey Optimizer의 의사 결정 관리를 사용하면 마케터는 여
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 의사 결정 관리 소개
 
@@ -30,7 +35,7 @@ Adobe Journey Optimizer의 의사 결정 관리를 사용하면 마케터는 여
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 의사 결정 관리 가드레일 및 제한 사항
 
@@ -40,7 +45,7 @@ Adobe Journey Optimizer의 의사 결정 관리를 사용하면 마케터는 여
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 오퍼 라이브러리 사용자 인터페이스 안내서
 
@@ -50,7 +55,7 @@ Adobe Journey Optimizer의 의사 결정 관리를 사용하면 마케터는 여
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 오퍼를 만들고 관리하는 주요 단계
 
@@ -60,7 +65,7 @@ Adobe Journey Optimizer에서 오퍼와 의사 결정을 만들고, 관리하고
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 의사 결정에 사용자 정의 업로드 대상자 활용
 
@@ -70,7 +75,7 @@ Adobe Journey Optimizer에서 오퍼와 의사 결정을 만들고, 관리하고
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 이메일에서 맞춤형 오퍼 사용
 

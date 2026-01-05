@@ -3,16 +3,21 @@ solution: Journey Optimizer
 product: Journey Optimizer
 title: 순위 만들기
 description: 순위 만들기
+badge: label="레거시" type="Informative"
 redpen-status: CREATED_||_2025-08-11_21-00-00
 exl-id: c768d4b4-470d-4c53-b71b-0d09f89100e9
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 2e5943968915b65a78a1c7c8898108b4d48f675a
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '203'
 ht-degree: 100%
 
 ---
 
 # 순위 만들기{#section-overview}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer]의 새로운 의사 결정 기능인 [결정]을 이제 코드 기반 경험 및 이메일 채널을 통해 사용할 수 있습니다. [자세히 알아보기](../experience-decisioning/gs-experience-decisioning.md)
 
 Adobe Journey Optimizer의 순위를 사용하면 대상자에게 어떤 상품이 먼저 표시되는지 맞춤 설정할 수 있으므로 가장 관련성 높은 옵션이 항상 맨 앞과 중앙에 표시됩니다. 간단한 규칙 기반 순위 공식을 사용하든, 사용자 행동에 적응하는 정교한 AI 모델을 사용하든, 이 기능은 고객 참여를 최적화하고 결과를 끌어내는 데 도움이 됩니다. 순위 공식을 사용하면 사용자 정의 규칙을 정의할 수 있고, AI 모델은 데이터 기반 인사이트를 활용하여 더욱 스마트한 우선순위를 지정하는 방법을 알아봅니다. 또한 이러한 순위를 배치에 원활하게 할당하는 방법을 배우고 모든 고객 상호 작용에서 오퍼가 표시되는 방식을 완벽하게 제어할 수 있습니다.
 
@@ -20,7 +25,7 @@ Adobe Journey Optimizer의 순위를 사용하면 대상자에게 어떤 상품�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 순위 시작
 
@@ -30,7 +35,7 @@ Adobe Journey Optimizer의 순위 기본 사항, 순위 공식 및 오퍼 배치
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 순위 공식 만들기 및 사용
 
@@ -40,7 +45,7 @@ PQL 구문과 상황별 데이터를 사용하여 순위 공식을 만드는 단
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 오퍼 순위를 위한 AI 모델
 
