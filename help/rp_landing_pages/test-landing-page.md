@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: 테스트, 유효성 검사, 승인, 승인, 품질 보증, qa, 테스트 프로필, 개인화, 렌더링, 스팸 확인, 콘텐츠 실험, a/b 테스트, 충돌 감지, 시드 목록, 증명, 샘플 데이터, 승인 워크플로우, 이메일 테스트, 유효성 검사 워크플로우
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: d004bdaccab07110408860e67b52bf4c00c1fb15
+source-git-commit: 1fd6f4cc191a65fcd62457ee22509473bbfe2b98
 workflow-type: tm+mt
-source-wordcount: '2735'
-ht-degree: 5%
+source-wordcount: '2753'
+ht-degree: 4%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 5%
 
 이 섹션에서는 Journey Optimizer의 모든 테스트 및 승인 기능을 다룹니다. 테스트 프로필로 콘텐츠를 미리 보고, 여정 논리를 확인하고, 이메일 렌더링 및 스팸 점수를 확인하고, A/B 실험을 실행하고, 충돌을 감지하고, 승인 워크플로를 설정하는 도구를 찾을 수 있습니다.
 
-이 랜딩 페이지는 작성 중인 테스트(캠페인 대 여정)에 따라 올바른 테스트 접근 방식을 선택하고, 권장 테스트 워크플로를 안내하고, 모든 테스트 및 승인 리소스에 대한 빠른 액세스를 제공합니다. 사용 사례에 적용되는 도구를 확인하려면 [테스트 방법을 선택하세요](#choose-your-testing-approach).
+이 랜딩 페이지는 작성 중인 테스트(캠페인 대 여정)에 따라 올바른 테스트 접근 방식을 선택하고, 권장 테스트 워크플로를 안내하고, 모든 테스트 및 승인 리소스에 대한 빠른 액세스를 제공합니다. 사용 사례에 적용되는 도구를 확인하려면 [테스트 방법을 선택하세요](#choose-your-testing-approach). 주요 테스트 용어에 대한 정의는 [주요 용어](#key-terminology)를 참조하십시오.
 
 ## 테스트 및 승인이 중요한 이유
 
@@ -74,74 +74,6 @@ ht-degree: 5%
 
 -->
 
-## 주요 용어
-
-+++**테스트 프로필**
-
-개인화된 콘텐츠를 미리 보는 데 사용되는 합성 고객 프로필(실제 고객이 아님)입니다. 실시간 고객 프로필 서비스에 플래그가 지정되었습니다. 테스트 모드 및 컨텐츠 미리 보기에 필요합니다. [자세히 알아보기](../using/content-management/test-profiles.md) | [테스트 프로필을 만드는 방법을 알아봅니다](../using/audience/creating-test-profiles.md)
-
-+++
-
-+++**테스트 모드**
-
-여정 경로를 통해 테스트 프로필을 전송하는 여정 시뮬레이션 기능입니다. 제한 사항: 초안 여정 전용, 네임스페이스 필요, 테스트 프로필만 해당. [자세히 알아보기](../using/building-journeys/testing-the-journey.md)
-
-+++
-
-+++**시험 실행**
-
-메시지를 보내거나 API 호출을 하지 않고 경로를 추적하는 여정 실행 분석 도구입니다. 사용 사례: 리소스를 사용하지 않고 논리를 확인합니다. [자세히 알아보기](../using/building-journeys/journey-dry-run.md)
-
-+++
-
-+++**샘플 입력 데이터**
-
-개인화 테스트를 위한 프로필 속성 값이 포함된 CSV 또는 JSON 파일. 최대 30개의 변형을 지원합니다. 테스트 프로필을 만드는 대신 사용할 수 있습니다. [자세히 알아보기](../using/test-approve/simulate-sample-input.md)
-
-+++
-
-+++**시드 목록**
-
-내부 관련자의 이메일 주소는 실제 게재(테스트 전송 아님)에 자동으로 포함됩니다. 이메일 채널만. 사용 사례: 품질 모니터링 및 규정 준수. [자세히 알아보기](../using/configuration/seed-lists.md)
-
-+++
-
-+++**콘텐츠 실험**
-
-콘텐츠 변형을 비교하는 A/B 테스트 또는 multi-armed bandit 실험. 캠페인만 해당되며, 여정에서 사용할 수 없습니다. [자세히 알아보기](../using/content-management/get-started-experiment.md) | [실험 만들기](../using/content-management/content-experiment.md)
-
-+++
-
-+++**증명**
-
-테스트 프로필 데이터를 사용하여 특정 이메일 주소로 전송된 이메일 게재를 테스트합니다. 시드 목록과 다릅니다(증명은 수동 테스트 전송이며 시드 목록은 자동 이해 관계자 사본). [자세히 알아보기](../using/content-management/proofs.md)
-
-+++
-
-+++**충돌 검색**
-
-동일한 대상을 타겟팅하는 중복 캠페인 및 여정을 식별하는 도구입니다. 제한된 여정 지원: 단일, 대상 자격 및 대상 읽기 유형만 지원합니다. [자세히 알아보기](../using/conflict-prioritization/conflicts.md) | [충돌 관리에 대해 알아보기](../using/conflict-prioritization/gs-conflict-prioritization.md)
-
-+++
-
-+++**승인 워크플로**
-
-활성화하기 전에 관련자 승인이 필요한 여러 단계 검토 프로세스입니다. 승인 정책 구성이 필요합니다. [자세히 알아보기](../using/test-approve/gs-approval.md) | [정책 만들기](../using/test-approve/approval-policies.md)
-
-+++
-
-+++**테스트 렌더링**
-
-이메일 클라이언트(Gmail, Outlook, Apple 메일) 및 장치 간 이메일 표시 유효성 검사. Litmus 통합이 필요합니다. [자세히 알아보기](../using/content-management/rendering.md)
-
-+++
-
-+++**Personalization 플레이그라운드**
-
-개인화 구문을 실험하고 샘플 데이터를 사용하여 표현식을 테스트하는 대화형 학습 환경. 라이브 데이터 세트가 필요하지 않습니다. [자세히 알아보기](../using/personalization/personalize.md#playground)
-
-+++
-
 ## 테스트 방법 선택을 위한 의사 결정 트리
 
 이 진단트리를 사용하여 특정 시나리오에 적합한 테스트 도구를 신속하게 식별할 수 있습니다. 컨텍스트에 따라 각 질문에 답변하여 관련 기능 및 설명서로 직접 이동합니다(작성 중인 항목, 유효성 검사가 필요한 항목 및 사용 중인 채널).
@@ -177,7 +109,7 @@ ht-degree: 5%
 * 학습을 위해 →[Personalization 플레이그라운드](#test--approve-content)를 빌드하기 전
 * 유효성 검사→ 위해 [테스트 프로필](#choose-your-testing-approach) 및 [샘플 입력 데이터](#choose-your-testing-approach)를 작성하는 동안
 * 시작 전 →[테스트 렌더링](#2-technical-validation), [스팸 확인](#2-technical-validation), [충돌 검색](#test--approve-content), [승인](#test--approve-content)
-* 시작 후 →0&rbrace;실시간 보고서[&#x200B; 및 &#x200B;](../using/building-journeys/report-journey.md)모니터링[&#128279;](#test--approve-content)
+* 시작 후 →0}실시간 보고서[ 및 ](../using/building-journeys/report-journey.md)모니터링[](#test--approve-content)
 +++
 
 
@@ -360,7 +292,7 @@ ht-degree: 5%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 콘텐츠 미리 보기, 테스트 및 유효성 검사
 
@@ -370,7 +302,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 여정과 캠페인을 위한 승인 워크플로우
 
@@ -380,7 +312,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 여정 테스트
 
@@ -390,7 +322,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 여정 시험 실행
 
@@ -400,7 +332,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 모니터링 및 문제 해결
 
@@ -410,7 +342,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Personalization 플레이그라운드
 
@@ -430,7 +362,7 @@ Personalization 플레이그라운드
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 관련자 모니터링을 위한 시드 목록
 
@@ -440,7 +372,7 @@ Personalization 플레이그라운드
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 충돌 감지
 
@@ -450,6 +382,30 @@ Personalization 플레이그라운드
 :::
 
 ::::
+
+## 주요 용어
+
+**[테스트 프로필](../using/content-management/test-profiles.md)** = 개인화된 콘텐츠를 미리 보는 데 사용되는 가상 고객 프로필(실제 고객이 아님)입니다. 실시간 고객 프로필 서비스에 플래그가 지정되었습니다. 테스트 모드 및 컨텐츠 미리 보기에 필요합니다. [테스트 프로필을 만드는 방법을 알아봅니다](../using/audience/creating-test-profiles.md)
+
+**[테스트 모드](../using/building-journeys/testing-the-journey.md)** = 여정 경로를 통해 테스트 프로필을 전송하는 여정 시뮬레이션 기능입니다. 제한 사항: 초안 여정 전용, 네임스페이스 필요, 테스트 프로필만 해당. [테스트 모드 설명서 보기](../using/building-journeys/testing-the-journey.md)
+
+**[시험 실행](../using/building-journeys/journey-dry-run.md)** = 메시지를 보내거나 API 호출을 하지 않고 경로를 추적하는 여정 실행 분석 도구입니다. 사용 사례: 리소스를 사용하지 않고 논리를 확인합니다. [시험 실행에 대해 알아보기](../using/building-journeys/journey-dry-run.md)
+
+**[입력 데이터 샘플](../using/test-approve/simulate-sample-input.md)** = 개인화 테스트를 위한 프로필 속성 값이 들어 있는 CSV 또는 JSON 파일. 최대 30개의 변형을 지원합니다. 테스트 프로필을 만드는 대신 사용할 수 있습니다. [콘텐츠 변형을 시뮬레이션하는 방법](../using/test-approve/simulate-sample-input.md)
+
+**[시드 목록](../using/configuration/seed-lists.md)** = 내부 관련자의 전자 메일 주소가 실제 게재에 자동으로 포함됩니다(테스트 전송 아님). 이메일 채널만. 사용 사례: 품질 모니터링 및 규정 준수. [시드 목록 구성](../using/configuration/seed-lists.md)
+
+**[콘텐츠 실험](../using/content-management/get-started-experiment.md)** = 콘텐츠 변형을 비교하는 A/B 테스트 또는 multi-armed bandit 실험. 캠페인만 해당되며, 여정에서 사용할 수 없습니다. [실험 시작](../using/content-management/get-started-experiment.md) | [실험 만들기](../using/content-management/content-experiment.md)
+
+**[증명](../using/content-management/proofs.md)** = 테스트 프로필 데이터를 사용하여 특정 이메일 주소로 전송된 테스트 이메일 게재. 시드 목록과 다릅니다(증명은 수동 테스트 전송이며 시드 목록은 자동 이해 관계자 사본). [증명 보내기](../using/content-management/proofs.md)
+
+**[충돌 감지](../using/conflict-prioritization/conflicts.md)** = 동일한 대상을 타깃팅하는 겹치는 캠페인과 여정을 식별하는 도구입니다. 제한된 여정 지원: 단일, 대상 자격 및 대상 읽기 유형만 지원합니다. [충돌 관리에 대해 알아보기](../using/conflict-prioritization/gs-conflict-prioritization.md)
+
+**[승인 워크플로](../using/test-approve/gs-approval.md)** = 활성화하기 전에 관련자 승인이 필요한 다단계 검토 프로세스입니다. 승인 정책 구성이 필요합니다. [승인 설정](../using/test-approve/gs-approval.md) | [정책 만들기](../using/test-approve/approval-policies.md)
+
+**[테스트 렌더링](../using/content-management/rendering.md)** = 이메일 클라이언트(Gmail, Outlook, Apple Mail) 및 장치 간 이메일 표시 유효성 검사 Litmus 통합이 필요합니다. [전자 메일 렌더링 테스트](../using/content-management/rendering.md)
+
+**[Personalization playground](../using/personalization/personalize.md#playground)** = 개인화 구문을 실험하고 샘플 데이터를 사용하여 식을 테스트하는 대화형 학습 환경입니다. 라이브 데이터 세트가 필요하지 않습니다. [플레이그라운드 액세스](../using/personalization/personalize.md#playground)
 
 ## 추가 리소스
 
