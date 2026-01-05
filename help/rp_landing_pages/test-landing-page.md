@@ -9,7 +9,7 @@ level: Beginner, Intermediate
 keywords: 테스트, 유효성 검사, 승인, 승인, 품질 보증, qa, 테스트 프로필, 개인화, 렌더링, 스팸 확인, 콘텐츠 실험, a/b 테스트, 충돌 감지, 시드 목록, 증명, 샘플 데이터, 승인 워크플로우, 이메일 테스트, 유효성 검사 워크플로우
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: 57f32088aa9cef55ed68729995326d3eae401bd5
+source-git-commit: f774ce00cea82eca84410bd76f482e53d3c60bf6
 workflow-type: tm+mt
 source-wordcount: '3103'
 ht-degree: 4%
@@ -26,7 +26,7 @@ ht-degree: 4%
 
 **사용 가능한 테스트 형식:**
 
-* 콘텐츠 테스트: [캠페인 테스트](#testing-campaigns), →2&rbrace;개인화 테스트[를 보내기 전에 메시지 콘텐츠를 미리 보고 확인합니다.](#testing-personalization)
+* 콘텐츠 테스트: [캠페인 테스트](#testing-campaigns), →2}개인화 테스트[를 보내기 전에 메시지 콘텐츠를 미리 보고 확인합니다.](#testing-personalization)
 * 여정 논리 테스트: [테스트 여정](#testing-journeys)→ 여정 경로를 통해 고객 진행률을 시뮬레이션합니다.
 * 기술 테스트: [기술 유효성 검사](#2-technical-validation)→ 렌더링, 게재 가능성 및 인증 유효성 검사
 * 성능 테스트: A/B 실험을 사용하여 콘텐츠 변형 비교 → [콘텐츠 실험](#content-experiments--ab-testing)
@@ -38,7 +38,7 @@ ht-degree: 4%
 | 기능 | 적용 대상 | 채널 제한 사항 | 전제 조건 | 주요 목적 | 설명서 |
 |------------|-----------|---------------------|--------------|-----------------|---------------|
 | [테스트 프로필](../using/content-management/test-profiles.md) | 캠페인, 여정 | 모든 채널 | 테스트 프로필 생성됨 | 개인화된 콘텐츠 미리보기 | [안내서](#testing-campaigns) |
-| [샘플 입력 데이터](../test-approve/simulate-sample-input.md) | 캠페인, 여정 | 이메일, SMS, 푸시, 웹, 코드 기반, 인앱, 콘텐츠 카드 | CSV/JSON 파일 | 여러 개인화 변형 테스트 | [안내서](#simulate-content-variations) |
+| [샘플 입력 데이터](../using/test-approve/simulate-sample-input.md) | 캠페인, 여정 | 이메일, SMS, 푸시, 웹, 코드 기반, 인앱, 콘텐츠 카드 | CSV/JSON 파일 | 여러 개인화 변형 테스트 | [안내서](#simulate-content-variations) |
 | [테스트 모드](../using/building-journeys/testing-the-journey.md) | 여정 전용 | N/A | 초안 여정, 네임스페이스 구성됨 | 프로필 진행률 시뮬레이션 | [카드](#test-your-journey) |
 | [시험 실행](../using/building-journeys/journey-dry-run.md) | 여정 전용 | N/A | 여정 생성됨 | 실행 경로 분석 | [카드](#journey-dry-run) |
 | [이메일 렌더링](../using/content-management/rendering.md) | 캠페인, 여정 | 이메일만 | 리트머스 통합 | 클라이언트 간 디스플레이 확인 | [워크플로](#2-technical-validation) |
@@ -81,7 +81,7 @@ ht-degree: 4%
 
 **[시험 실행](../using/building-journeys/journey-dry-run.md)** = 메시지를 보내거나 API 호출을 하지 않고 경로를 추적하는 여정 실행 분석 도구입니다. 사용 사례: 리소스를 사용하지 않고 논리를 확인합니다. [시험 실행에 대해 알아보기](../using/building-journeys/journey-dry-run.md)
 
-**[입력 데이터 샘플](../test-approve/simulate-sample-input.md)** = 개인화 테스트를 위한 프로필 속성 값이 들어 있는 CSV 또는 JSON 파일. 최대 30개의 변형을 지원합니다. 테스트 프로필을 만드는 대신 사용할 수 있습니다. [콘텐츠 변형을 시뮬레이션하는 방법](../test-approve/simulate-sample-input.md)
+**[입력 데이터 샘플](../using/test-approve/simulate-sample-input.md)** = 개인화 테스트를 위한 프로필 속성 값이 들어 있는 CSV 또는 JSON 파일. 최대 30개의 변형을 지원합니다. 테스트 프로필을 만드는 대신 사용할 수 있습니다. [콘텐츠 변형을 시뮬레이션하는 방법](../using/test-approve/simulate-sample-input.md)
 
 **[시드 목록](../using/configuration/seed-lists.md)** = 내부 관련자의 전자 메일 주소가 실제 게재에 자동으로 포함됩니다(테스트 전송 아님). 이메일 채널만. 사용 사례: 품질 모니터링 및 규정 준수. [시드 목록 구성](../using/configuration/seed-lists.md)
 
@@ -132,7 +132,7 @@ ht-degree: 4%
 * 학습을 위해 →[Personalization 플레이그라운드](#personalization-playground)를 빌드하기 전
 * 유효성 검사→ 위해 [테스트 프로필](#testing-campaigns) 및 [샘플 입력 데이터](#simulate-content-variations)를 작성하는 동안
 * 시작 전 →[테스트 렌더링](#2-technical-validation), [스팸 확인](#email-spam-report), [충돌 검색](#conflict-detection), [승인](#approval-workflows-for-journeys-and-campaigns)
-* 시작 후 →0&rbrace;실시간 보고서[&#x200B; 및 &#x200B;](../using/building-journeys/report-journey.md)모니터링[&#128279;](#monitoring--troubleshooting)
+* 시작 후 →0}실시간 보고서[ 및 ](../using/building-journeys/report-journey.md)모니터링[](#monitoring--troubleshooting)
 +++
 
 
@@ -144,7 +144,7 @@ ht-degree: 4%
 
 **모든 캠페인에 대해:**
 
-* [테스트 프로필](../using/content-management/test-profiles.md) 또는 [샘플 입력 데이터](../test-approve/simulate-sample-input.md)를 사용하여 콘텐츠 미리 보기 및 테스트
+* [테스트 프로필](../using/content-management/test-profiles.md) 또는 [샘플 입력 데이터](../using/test-approve/simulate-sample-input.md)를 사용하여 콘텐츠 미리 보기 및 테스트
 * 장치 및 클라이언트에서 [전자 메일 렌더링](../using/content-management/rendering.md) 확인(전자 메일 채널만 해당)
 * [스팸 점수 확인](../using/content-management/spam-report.md) 실행(전자 메일 채널만)
 * 다른 캠페인 및 여정과의 [충돌](../using/conflict-prioritization/conflicts.md) 검토
@@ -184,7 +184,7 @@ ht-degree: 4%
 **콘텐츠를 만드는 중:**
 
 * 개인화 렌더링을 올바르게 확인하기 위해 [테스트 프로필](../using/content-management/test-profiles.md)(으)로 미리 보기
-* CSV/JSON 파일의 [샘플 입력 데이터](../test-approve/simulate-sample-input.md)를 사용하여 여러 시나리오를 테스트합니다(최대 30개의 변형 지원).
+* CSV/JSON 파일의 [샘플 입력 데이터](../using/test-approve/simulate-sample-input.md)를 사용하여 여러 시나리오를 테스트합니다(최대 30개의 변형 지원).
 
 ## 모범 사례 테스트
 
@@ -198,7 +198,7 @@ ht-degree: 4%
 
 1. **개인화를 철저히 확인** - 다른 특성 값을 가진 여러 [테스트 프로필](../using/content-management/test-profiles.md)을 사용하여 테스트하여 개인화 토큰이 올바르게 렌더링되고 대체 값이 작동하는지 확인합니다. [개인화 플레이그라운드](../using/personalization/personalize.md#playground)를 사용하여 개인화 표현식과 샘플 데이터로 테스트 코드를 실험한 후 캠페인에 적용하십시오.
 
-1. **샘플 데이터가 있는 콘텐츠 변형을 테스트합니다** - CSV 또는 JSON 파일의 [샘플 입력 데이터](../test-approve/simulate-sample-input.md)를 사용하여 수많은 테스트 프로필을 만들지 않고도 최대 30개의 개인화 시나리오를 테스트하여 시간을 절약하고 포괄적인 적용 범위를 보장합니다. 이메일, SMS, 푸시, 웹, 코드 기반 경험, 인앱 및 콘텐츠 카드 채널을 지원합니다.
+1. **샘플 데이터가 있는 콘텐츠 변형을 테스트합니다** - CSV 또는 JSON 파일의 [샘플 입력 데이터](../using/test-approve/simulate-sample-input.md)를 사용하여 수많은 테스트 프로필을 만들지 않고도 최대 30개의 개인화 시나리오를 테스트하여 시간을 절약하고 포괄적인 적용 범위를 보장합니다. 이메일, SMS, 푸시, 웹, 코드 기반 경험, 인앱 및 콘텐츠 카드 채널을 지원합니다.
 
 1. **관련자 모니터링에 시드 목록 사용** - 품질 모니터링 및 준수 확인을 위해 실행 시 모든 게재 복사본을 받는 내부 관련자를 자동으로 포함하도록 [시드 목록 구성](../using/configuration/seed-lists.md)(전자 메일 채널만 해당).
 
@@ -226,7 +226,7 @@ ht-degree: 4%
 
 * **[개인화 플레이그라운드](../using/personalization/personalize.md#playground)**&#x200B;에서 개인화 표현식을 실험하여 라이브 콘텐츠에 적용하기 전에 샘플 데이터로 코드를 테스트하고 세분화합니다
 
-* CSV/JSON 파일의 **[샘플 입력 데이터](../test-approve/simulate-sample-input.md)**&#x200B;를 사용하여 여러 변형을 테스트하여 다양한 프로필 시나리오에서 개인화의 유효성을 검사합니다.
+* CSV/JSON 파일의 **[샘플 입력 데이터](../using/test-approve/simulate-sample-input.md)**&#x200B;를 사용하여 여러 변형을 테스트하여 다양한 프로필 시나리오에서 개인화의 유효성을 검사합니다.
 
 * 다양한 화면 크기 및 전자 메일 클라이언트에서 [렌더링](../using/content-management/rendering.md) 확인
 
@@ -311,7 +311,7 @@ ht-degree: 4%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 콘텐츠 미리 보기, 테스트 및 유효성 검사
 
@@ -321,7 +321,7 @@ ht-degree: 4%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 여정과 캠페인을 위한 승인 워크플로우
 
@@ -331,7 +331,7 @@ ht-degree: 4%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 여정 테스트
 
@@ -341,7 +341,7 @@ ht-degree: 4%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 여정 시험 실행
 
@@ -351,7 +351,7 @@ ht-degree: 4%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 모니터링 및 문제 해결
 
@@ -361,7 +361,7 @@ ht-degree: 4%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Personalization 플레이그라운드
 
@@ -381,7 +381,7 @@ Personalization 플레이그라운드
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 관련자 모니터링을 위한 시드 목록
 
@@ -391,7 +391,7 @@ Personalization 플레이그라운드
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 충돌 감지
 
@@ -406,7 +406,7 @@ Personalization 플레이그라운드
 
 ### 필수 테스트 및 유효성 검사 가이드
 
-* [콘텐츠 변형 시뮬레이션](../test-approve/simulate-sample-input.md) - CSV 또는 JSON 파일을 사용하여 최대 30개의 개인화 시나리오를 테스트합니다. 여러 테스트 프로필을 만들지 않고 다국어 콘텐츠 테스트에 이상적입니다. 이메일, SMS, 푸시, 웹, 코드 기반, 인앱 및 콘텐츠 카드를 지원합니다.
+* [콘텐츠 변형 시뮬레이션](../using/test-approve/simulate-sample-input.md) - CSV 또는 JSON 파일을 사용하여 최대 30개의 개인화 시나리오를 테스트합니다. 여러 테스트 프로필을 만들지 않고 다국어 콘텐츠 테스트에 이상적입니다. 이메일, SMS, 푸시, 웹, 코드 기반, 인앱 및 콘텐츠 카드를 지원합니다.
 
 * [테스트 프로필 만들기](../using/audience/creating-test-profiles.md) - 테스트 프로필을 만들고 관리하여 고객 시나리오를 시뮬레이션합니다. 프로필에 테스트를 플래그 지정하고, 속성을 설정하고 테스트 세그먼트를 구성하는 방법을 알아봅니다.
 
@@ -479,7 +479,7 @@ Personalization 플레이그라운드
 
 +++**Q: 테스트 프로필을 많이 만들지 않고 개인화를 테스트하려면 어떻게 합니까?**
 
-**기본 솔루션:** CSV/JSON 파일과 함께 [샘플 입력 데이터 사용](../test-approve/simulate-sample-input.md)(최대 30개의 변형 지원)
+**기본 솔루션:** CSV/JSON 파일과 함께 [샘플 입력 데이터 사용](../using/test-approve/simulate-sample-input.md)(최대 30개의 변형 지원)
 **대체 요소:** 주요 세그먼트를 다루는 3~5개의 대표 [테스트 프로필](../using/audience/creating-test-profiles.md) 만들기
 **학습 도구:** [개인화 플레이그라운드](../using/personalization/personalize.md#playground)에서 먼저 실험
 
