@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: 테스트, 유효성 검사, 승인, 승인, 품질 보증, qa, 테스트 프로필, 개인화, 렌더링, 스팸 확인, 콘텐츠 실험, a/b 테스트, 충돌 감지, 시드 목록, 증명, 샘플 데이터, 승인 워크플로우, 이메일 테스트, 유효성 검사 워크플로우
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: abb2ed3cfa617bb9afc23c8f69634d5afe89b33e
+source-git-commit: d004bdaccab07110408860e67b52bf4c00c1fb15
 workflow-type: tm+mt
-source-wordcount: '2997'
-ht-degree: 4%
+source-wordcount: '2735'
+ht-degree: 5%
 
 ---
 
@@ -38,64 +38,109 @@ ht-degree: 4%
 
 * **시간 및 리소스 절약** - 수정 사항이 더 저렴하고 빨라져 비용이 많이 드는 출시 후 수정 또는 고객 서비스 에스컬레이션을 방지하는 개발 주기 초기에 문제를 감지합니다.
 
-## 테스트 기능 개요
+<!--## Testing capabilities overview
 
-**사용 가능한 테스트 형식:**
+**Testing types available:**
 
-* 콘텐츠 테스트: [캠페인 테스트](#testing-campaigns), →2&rbrace;개인화 테스트[를 보내기 전에 메시지 콘텐츠를 미리 보고 확인합니다.](#testing-personalization)
-* 여정 논리 테스트: [테스트 여정](#testing-journeys)→ 여정 경로를 통해 고객 진행률을 시뮬레이션합니다.
-* 기술 테스트: [기술 유효성 검사](#2-technical-validation)→ 렌더링, 게재 가능성 및 인증 유효성 검사
-* 성능 테스트: A/B 실험을 사용하여 콘텐츠 변형 비교 → [콘텐츠 실험](#content-experiments--ab-testing)
-* 충돌 테스트: 캠페인 및 여정이 [충돌 검색](#conflict-detection)→ 겹칩니다.
-* 승인 테스트: 활성화 → [승인 워크플로](#approval-workflows-for-journeys-and-campaigns)의 구조화된 검토 워크플로
+* Content testing: Preview and validate message content before sending → [Choose your testing approach](#choose-your-testing-approach)
+* Journey logic testing: Simulate customer progression through journey paths → [Choose your testing approach](#choose-your-testing-approach)
+* Technical testing: Validate rendering, deliverability, and authentication → [Technical validation](#2-technical-validation)
+* Performance testing: Compare content variations using A/B experiments → [Content Experiments & A/B Testing](#test--approve-content)
+* Conflict testing: Detect campaign and journey overlaps → [Conflict Detection](#test--approve-content)
+* Approval testing: Structured review workflows before activation → [Approval Workflows](#test--approve-content)
 
-컨텍스트별 **주요 기능:**
+**Key capabilities by context:**
 
-| 기능 | 적용 대상 | 채널 제한 사항 | 전제 조건 | 주요 목적 |
+| Capability | Applies to | Channel restrictions | Prerequisites | Primary purpose |
 |------------|-----------|---------------------|--------------|-----------------|
-| [테스트 프로필](../using/content-management/test-profiles.md) | 캠페인, 여정 | 모든 채널 | 테스트 프로필 생성됨 | 개인화된 콘텐츠 미리보기 |
-| [샘플 입력 데이터](../using/test-approve/simulate-sample-input.md) | 캠페인, 여정 | 이메일, SMS, 푸시, 웹, 코드 기반, 인앱, 콘텐츠 카드 | CSV/JSON 파일 | 여러 개인화 변형 테스트 |
-| [테스트 모드](../using/building-journeys/testing-the-journey.md) | 여정 전용 | N/A | 초안 여정, 네임스페이스 구성됨 | 프로필 진행률 시뮬레이션 |
-| [시험 실행](../using/building-journeys/journey-dry-run.md) | 여정 전용 | N/A | 여정 생성됨 | 실행 경로 분석 |
-| [이메일 렌더링](../using/content-management/rendering.md) | 캠페인, 여정 | 이메일만 | 리트머스 통합 | 클라이언트 간 디스플레이 확인 |
-| [스팸 점수](../using/content-management/spam-report.md) | 캠페인, 여정 | 이메일만 | None | 게재 가능성 유효성 검사 |
-| [시드 목록](../using/configuration/seed-lists.md) | 캠페인, 여정 | 이메일만 | 시드 목록 구성됨 | 관련자 모니터링 |
-| [콘텐츠 실험](../using/content-management/get-started-experiment.md) | 캠페인만 | 모든 채널 | None | A/B 및 multi-armed bandit 테스트 |
-| [충돌 검색](../using/conflict-prioritization/conflicts.md) | 캠페인, 여정(제한적) | 모든 채널 | None | 고객 과대 메시지 방지 |
-| [승인 워크플로](../using/test-approve/gs-approval.md) | 캠페인, 여정 | 모든 채널 | 승인 정책이 생성됨 | 구조화된 검토 프로세스 |
-| [Personalization 플레이그라운드](../using/personalization/personalize.md#playground) | 모두 | 모든 채널 | None | 개인화 구문 학습 및 테스트 |
+| [Test profiles](../using/content-management/test-profiles.md) | Campaigns, Journeys | All channels | Test profiles created | Preview personalized content |
+| [Sample input data](../using/test-approve/simulate-sample-input.md) | Campaigns, Journeys | Email, SMS, Push, Web, Code-based, In-app, Content cards | CSV/JSON file | Test multiple personalization variants |
+| [Test mode](../using/building-journeys/testing-the-journey.md) | Journeys only | N/A | Draft journey, namespace configured | Simulate profile progression |
+| [Dry run](../using/building-journeys/journey-dry-run.md) | Journeys only | N/A | Journey created | Analyze execution paths |
+| [Email rendering](../using/content-management/rendering.md) | Campaigns, Journeys | Email only | Litmus integration | Verify display across clients |
+| [Spam score](../using/content-management/spam-report.md) | Campaigns, Journeys | Email only | None | Deliverability validation |
+| [Seed lists](../using/configuration/seed-lists.md) | Campaigns, Journeys | Email only | Seed list configured | Stakeholder monitoring |
+| [Content experiments](../using/content-management/get-started-experiment.md) | Campaigns only | All channels | None | A/B and multi-armed bandit testing |
+| [Conflict detection](../using/conflict-prioritization/conflicts.md) | Campaigns, Journeys (limited) | All channels | None | Prevent customer over-messaging |
+| [Approval workflows](../using/test-approve/gs-approval.md) | Campaigns, Journeys | All channels | Approval policy created | Structured review process |
+| [Personalization playground](../using/personalization/personalize.md#playground) | All | All channels | None | Learn and test personalization syntax |
 
-**일반적인 테스트 워크플로:**
+**Common testing workflows:**
 
-1. 사전 개발: [개인화 플레이그라운드](#testing-personalization)를 사용하여 구문을 알아보세요.
-2. 개발 중: [테스트 프로필](#testing-campaigns)로 미리 보고 [샘플 입력 데이터](#simulate-content-variations)로 확인
-3. 시작 전: [기술 테스트 실행](#2-technical-validation)(렌더링, 스팸), [충돌 확인](#conflict-detection), [승인](#approval-workflows-for-journeys-and-campaigns) 제출
-4. 시작 후: 실시간 보고서로 모니터링([모니터링 및 문제 해결](#monitoring--troubleshooting) 참조), 결과를 기반으로 반복
+1. Pre-development: Use [personalization playground](#test--approve-content) to learn syntax
+2. During development: Preview with [test profiles](#choose-your-testing-approach), validate with [sample input data](#choose-your-testing-approach)
+3. Pre-launch: Run [technical tests](#2-technical-validation) (rendering, spam), check [conflicts](#test--approve-content), submit for [approval](#test--approve-content)
+4. Post-launch: Monitor with live reports (see [Monitoring & Troubleshooting](#test--approve-content)), iterate based on results
 
+-->
 
 ## 주요 용어
 
-**[테스트 프로필](../using/content-management/test-profiles.md)** = 개인화된 콘텐츠를 미리 보는 데 사용되는 가상 고객 프로필(실제 고객이 아님)입니다. 실시간 고객 프로필 서비스에 플래그가 지정되었습니다. 테스트 모드 및 컨텐츠 미리 보기에 필요합니다. [테스트 프로필을 만드는 방법을 알아봅니다](../using/audience/creating-test-profiles.md)
++++**테스트 프로필**
 
-**[테스트 모드](../using/building-journeys/testing-the-journey.md)** = 여정 경로를 통해 테스트 프로필을 전송하는 여정 시뮬레이션 기능입니다. 제한 사항: 초안 여정 전용, 네임스페이스 필요, 테스트 프로필만 해당. [테스트 모드 설명서 보기](../using/building-journeys/testing-the-journey.md)
+개인화된 콘텐츠를 미리 보는 데 사용되는 합성 고객 프로필(실제 고객이 아님)입니다. 실시간 고객 프로필 서비스에 플래그가 지정되었습니다. 테스트 모드 및 컨텐츠 미리 보기에 필요합니다. [자세히 알아보기](../using/content-management/test-profiles.md) | [테스트 프로필을 만드는 방법을 알아봅니다](../using/audience/creating-test-profiles.md)
 
-**[시험 실행](../using/building-journeys/journey-dry-run.md)** = 메시지를 보내거나 API 호출을 하지 않고 경로를 추적하는 여정 실행 분석 도구입니다. 사용 사례: 리소스를 사용하지 않고 논리를 확인합니다. [시험 실행에 대해 알아보기](../using/building-journeys/journey-dry-run.md)
++++
 
-**[입력 데이터 샘플](../using/test-approve/simulate-sample-input.md)** = 개인화 테스트를 위한 프로필 속성 값이 들어 있는 CSV 또는 JSON 파일. 최대 30개의 변형을 지원합니다. 테스트 프로필을 만드는 대신 사용할 수 있습니다. [콘텐츠 변형을 시뮬레이션하는 방법](../using/test-approve/simulate-sample-input.md)
++++**테스트 모드**
 
-**[시드 목록](../using/configuration/seed-lists.md)** = 내부 관련자의 전자 메일 주소가 실제 게재에 자동으로 포함됩니다(테스트 전송 아님). 이메일 채널만. 사용 사례: 품질 모니터링 및 규정 준수. [시드 목록 구성](../using/configuration/seed-lists.md)
+여정 경로를 통해 테스트 프로필을 전송하는 여정 시뮬레이션 기능입니다. 제한 사항: 초안 여정 전용, 네임스페이스 필요, 테스트 프로필만 해당. [자세히 알아보기](../using/building-journeys/testing-the-journey.md)
 
-**[콘텐츠 실험](../using/content-management/get-started-experiment.md)** = 콘텐츠 변형을 비교하는 A/B 테스트 또는 multi-armed bandit 실험. 캠페인만 해당되며, 여정에서 사용할 수 없습니다. [실험 시작](../using/content-management/get-started-experiment.md) | [실험 만들기](../using/content-management/content-experiment.md)
++++
 
-**[증명](../using/content-management/proofs.md)** = 테스트 프로필 데이터를 사용하여 특정 이메일 주소로 전송된 테스트 이메일 게재. 시드 목록과 다릅니다(증명은 수동 테스트 전송이며 시드 목록은 자동 이해 관계자 사본). [증명 보내기](../using/content-management/proofs.md)
++++**시험 실행**
 
-**[충돌 감지](../using/conflict-prioritization/conflicts.md)** = 동일한 대상을 타깃팅하는 겹치는 캠페인과 여정을 식별하는 도구입니다. 제한된 여정 지원: 단일, 대상 자격 및 대상 읽기 유형만 지원합니다. [충돌 관리에 대해 알아보기](../using/conflict-prioritization/gs-conflict-prioritization.md)
+메시지를 보내거나 API 호출을 하지 않고 경로를 추적하는 여정 실행 분석 도구입니다. 사용 사례: 리소스를 사용하지 않고 논리를 확인합니다. [자세히 알아보기](../using/building-journeys/journey-dry-run.md)
 
-**[승인 워크플로](../using/test-approve/gs-approval.md)** = 활성화하기 전에 관련자 승인이 필요한 다단계 검토 프로세스입니다. 승인 정책 구성이 필요합니다. [승인 설정](../using/test-approve/gs-approval.md) | [정책 만들기](../using/test-approve/approval-policies.md)
++++
 
-**[테스트 렌더링](../using/content-management/rendering.md)** = 이메일 클라이언트(Gmail, Outlook, Apple Mail) 및 장치 간 이메일 표시 유효성 검사 Litmus 통합이 필요합니다. [전자 메일 렌더링 테스트](../using/content-management/rendering.md)
++++**샘플 입력 데이터**
 
-**[Personalization playground](../using/personalization/personalize.md#playground)** = 개인화 구문을 실험하고 샘플 데이터를 사용하여 식을 테스트하는 대화형 학습 환경입니다. 라이브 데이터 세트가 필요하지 않습니다. [플레이그라운드 액세스](../using/personalization/personalize.md#playground)
+개인화 테스트를 위한 프로필 속성 값이 포함된 CSV 또는 JSON 파일. 최대 30개의 변형을 지원합니다. 테스트 프로필을 만드는 대신 사용할 수 있습니다. [자세히 알아보기](../using/test-approve/simulate-sample-input.md)
+
++++
+
++++**시드 목록**
+
+내부 관련자의 이메일 주소는 실제 게재(테스트 전송 아님)에 자동으로 포함됩니다. 이메일 채널만. 사용 사례: 품질 모니터링 및 규정 준수. [자세히 알아보기](../using/configuration/seed-lists.md)
+
++++
+
++++**콘텐츠 실험**
+
+콘텐츠 변형을 비교하는 A/B 테스트 또는 multi-armed bandit 실험. 캠페인만 해당되며, 여정에서 사용할 수 없습니다. [자세히 알아보기](../using/content-management/get-started-experiment.md) | [실험 만들기](../using/content-management/content-experiment.md)
+
++++
+
++++**증명**
+
+테스트 프로필 데이터를 사용하여 특정 이메일 주소로 전송된 이메일 게재를 테스트합니다. 시드 목록과 다릅니다(증명은 수동 테스트 전송이며 시드 목록은 자동 이해 관계자 사본). [자세히 알아보기](../using/content-management/proofs.md)
+
++++
+
++++**충돌 검색**
+
+동일한 대상을 타겟팅하는 중복 캠페인 및 여정을 식별하는 도구입니다. 제한된 여정 지원: 단일, 대상 자격 및 대상 읽기 유형만 지원합니다. [자세히 알아보기](../using/conflict-prioritization/conflicts.md) | [충돌 관리에 대해 알아보기](../using/conflict-prioritization/gs-conflict-prioritization.md)
+
++++
+
++++**승인 워크플로**
+
+활성화하기 전에 관련자 승인이 필요한 여러 단계 검토 프로세스입니다. 승인 정책 구성이 필요합니다. [자세히 알아보기](../using/test-approve/gs-approval.md) | [정책 만들기](../using/test-approve/approval-policies.md)
+
++++
+
++++**테스트 렌더링**
+
+이메일 클라이언트(Gmail, Outlook, Apple 메일) 및 장치 간 이메일 표시 유효성 검사. Litmus 통합이 필요합니다. [자세히 알아보기](../using/content-management/rendering.md)
+
++++
+
++++**Personalization 플레이그라운드**
+
+개인화 구문을 실험하고 샘플 데이터를 사용하여 표현식을 테스트하는 대화형 학습 환경. 라이브 데이터 세트가 필요하지 않습니다. [자세히 알아보기](../using/personalization/personalize.md#playground)
+
++++
 
 ## 테스트 방법 선택을 위한 의사 결정 트리
 
@@ -103,36 +148,36 @@ ht-degree: 4%
 
 +++ **질문 1: 무엇을 테스트하고 있습니까?**
 
-* 캠페인 → [캠페인 테스트](#testing-campaigns)
-* 여정 → [여정 테스트](#testing-journeys)
-* Personalization 표현식 → [Personalization 플레이그라운드](#testing-personalization)
+* Campaign → [테스트 방법 선택](#choose-your-testing-approach)
+* 여정 → [테스트 방법 선택](#choose-your-testing-approach)
+* Personalization 표현식 → [Personalization 플레이그라운드](#test--approve-content)
 +++
 
 +++**질문 2: 유효성 검사가 필요한 측면은 무엇입니까?**
 
-* 콘텐츠 및 개인화 → [테스트 프로필](#testing-campaigns) 또는 [샘플 입력 데이터](#simulate-content-variations)
+* 콘텐츠 및 개인화 → [테스트 프로필](#choose-your-testing-approach) 또는 [샘플 입력 데이터](#choose-your-testing-approach)
 * 전자 메일 표시 → [전자 메일 렌더링 테스트](#2-technical-validation)
 * 전달성 → [스팸 점수 확인](#2-technical-validation)
-* 여정 논리 및 흐름 → [테스트 모드](#testing-journeys) 또는 [시험 실행](#journey-dry-run)
-* 성능 비교 → [콘텐츠 실험](#content-experiments--ab-testing)(캠페인만 해당)
-* 시간 충돌 → [충돌 검색](#conflict-detection)
-* 관련자 검토 → [승인 워크플로](#approval-workflows-for-journeys-and-campaigns)
+* 여정 논리 및 흐름 → [테스트 모드](#choose-your-testing-approach) 또는 [시험 실행](#test--approve-content)
+* 성능 비교 → [콘텐츠 실험](#test--approve-content)(캠페인만 해당)
+* 시간 충돌 → [충돌 검색](#test--approve-content)
+* 관련자 검토 → [승인 워크플로](#test--approve-content)
 +++
 
 +++**질문 3: 채널을 선택하십시오.**
 
-* 전자 메일 → 사용 가능한 모든 테스트 방법([캠페인 테스트](#testing-campaigns) 참조)
-* SMS, 푸시 → [콘텐츠 테스트](#testing-campaigns), [샘플 입력 데이터](#simulate-content-variations), [승인 워크플로](#approval-workflows-for-journeys-and-campaigns)
-* 웹, 인앱, 코드 기반 → [콘텐츠 테스트](#testing-campaigns), [샘플 입력 데이터](#simulate-content-variations), [승인 워크플로](#approval-workflows-for-journeys-and-campaigns)
+* 전자 메일 → 사용 가능한 모든 테스트 방법([테스트 방법 선택](#choose-your-testing-approach) 참조)
+* SMS, 푸시 → [콘텐츠 테스트](#choose-your-testing-approach), [샘플 입력 데이터](#choose-your-testing-approach), [승인 워크플로](#test--approve-content)
+* 웹, 인앱, 코드 기반 → [콘텐츠 테스트](#choose-your-testing-approach), [샘플 입력 데이터](#choose-your-testing-approach), [승인 워크플로](#test--approve-content)
 * 여러 채널 → 각 채널을 개별적으로 테스트
 +++
 
 +++**질문 4: 워크플로에 있을 때?**
 
-* 학습을 위해 →[Personalization 플레이그라운드](#personalization-playground)를 빌드하기 전
-* 유효성 검사→ 위해 [테스트 프로필](#testing-campaigns) 및 [샘플 입력 데이터](#simulate-content-variations)를 작성하는 동안
-* 시작 전 →[테스트 렌더링](#2-technical-validation), [스팸 확인](#email-spam-report), [충돌 검색](#conflict-detection), [승인](#approval-workflows-for-journeys-and-campaigns)
-* 시작 후 →0&rbrace;실시간 보고서[&#x200B; 및 &#x200B;](../using/building-journeys/report-journey.md)모니터링[&#128279;](#monitoring--troubleshooting)
+* 학습을 위해 →[Personalization 플레이그라운드](#test--approve-content)를 빌드하기 전
+* 유효성 검사→ 위해 [테스트 프로필](#choose-your-testing-approach) 및 [샘플 입력 데이터](#choose-your-testing-approach)를 작성하는 동안
+* 시작 전 →[테스트 렌더링](#2-technical-validation), [스팸 확인](#2-technical-validation), [충돌 검색](#test--approve-content), [승인](#test--approve-content)
+* 시작 후 →0}실시간 보고서[ 및 ](../using/building-journeys/report-journey.md)모니터링[](#test--approve-content)
 +++
 
 
@@ -315,7 +360,7 @@ ht-degree: 4%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 콘텐츠 미리 보기, 테스트 및 유효성 검사
 
@@ -325,7 +370,7 @@ ht-degree: 4%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 여정과 캠페인을 위한 승인 워크플로우
 
@@ -335,7 +380,7 @@ ht-degree: 4%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 여정 테스트
 
@@ -345,7 +390,7 @@ ht-degree: 4%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 여정 시험 실행
 
@@ -355,7 +400,7 @@ ht-degree: 4%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 모니터링 및 문제 해결
 
@@ -365,7 +410,7 @@ ht-degree: 4%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Personalization 플레이그라운드
 
@@ -385,7 +430,7 @@ Personalization 플레이그라운드
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 관련자 모니터링을 위한 시드 목록
 
@@ -395,7 +440,7 @@ Personalization 플레이그라운드
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 충돌 감지
 
