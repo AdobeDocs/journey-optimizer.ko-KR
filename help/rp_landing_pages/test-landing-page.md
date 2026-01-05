@@ -177,7 +177,7 @@ ht-degree: 5%
 * 학습을 위해 →[Personalization 플레이그라운드](#test--approve-content)를 빌드하기 전
 * 유효성 검사→ 위해 [테스트 프로필](#choose-your-testing-approach) 및 [샘플 입력 데이터](#choose-your-testing-approach)를 작성하는 동안
 * 시작 전 →[테스트 렌더링](#2-technical-validation), [스팸 확인](#2-technical-validation), [충돌 검색](#test--approve-content), [승인](#test--approve-content)
-* 시작 후 →0}실시간 보고서[ 및 ](../using/building-journeys/report-journey.md)모니터링[](#test--approve-content)
+* 시작 후 →0&rbrace;실시간 보고서[&#x200B; 및 &#x200B;](../using/building-journeys/report-journey.md)모니터링[&#128279;](#test--approve-content)
 +++
 
 
