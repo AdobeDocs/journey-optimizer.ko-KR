@@ -9,7 +9,7 @@ level: Beginner, Intermediate
 keywords: 테스트, 유효성 검사, 승인, 승인, 품질 보증, qa, 테스트 프로필, 개인화, 렌더링, 스팸 확인, 콘텐츠 실험, a/b 테스트, 충돌 감지, 시드 목록, 증명, 샘플 데이터, 승인 워크플로우, 이메일 테스트, 유효성 검사 워크플로우
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: fb13aee243757de7fe47bdd9d9ebad47069e24ba
+source-git-commit: 57f32088aa9cef55ed68729995326d3eae401bd5
 workflow-type: tm+mt
 source-wordcount: '3103'
 ht-degree: 4%
@@ -26,7 +26,7 @@ ht-degree: 4%
 
 **사용 가능한 테스트 형식:**
 
-* 콘텐츠 테스트: [캠페인 테스트](#testing-campaigns), →2&rbrace;개인화 테스트[를 보내기 전에 메시지 콘텐츠를 미리 보고 확인합니다.](#testing-personalization)
+* 콘텐츠 테스트: [캠페인 테스트](#testing-campaigns), →2}개인화 테스트[를 보내기 전에 메시지 콘텐츠를 미리 보고 확인합니다.](#testing-personalization)
 * 여정 논리 테스트: [테스트 여정](#testing-journeys)→ 여정 경로를 통해 고객 진행률을 시뮬레이션합니다.
 * 기술 테스트: [기술 유효성 검사](#2-technical-validation)→ 렌더링, 게재 가능성 및 인증 유효성 검사
 * 성능 테스트: A/B 실험을 사용하여 콘텐츠 변형 비교 → [콘텐츠 실험](#content-experiments--ab-testing)
@@ -132,7 +132,7 @@ ht-degree: 4%
 * 학습을 위해 →[Personalization 플레이그라운드](#personalization-playground)를 빌드하기 전
 * 유효성 검사→ 위해 [테스트 프로필](#testing-campaigns) 및 [샘플 입력 데이터](#simulate-content-variations)를 작성하는 동안
 * 시작 전 →[테스트 렌더링](#2-technical-validation), [스팸 확인](#email-spam-report), [충돌 검색](#conflict-detection), [승인](#approval-workflows-for-journeys-and-campaigns)
-* 시작 후 →0&rbrace;실시간 보고서[&#x200B; 및 &#x200B;](../using/building-journeys/report-journey.md)모니터링[&#128279;](#monitoring--troubleshooting)
+* 시작 후 →0}실시간 보고서[ 및 ](../using/building-journeys/report-journey.md)모니터링[](#monitoring--troubleshooting)
 +++
 
 
@@ -147,8 +147,8 @@ ht-degree: 4%
 * [테스트 프로필](../using/content-management/test-profiles.md) 또는 [샘플 입력 데이터](../test-approve/simulate-sample-input.md)를 사용하여 콘텐츠 미리 보기 및 테스트
 * 장치 및 클라이언트에서 [전자 메일 렌더링](../using/content-management/rendering.md) 확인(전자 메일 채널만 해당)
 * [스팸 점수 확인](../using/content-management/spam-report.md) 실행(전자 메일 채널만)
-* 다른 캠페인 및 여정과의 [충돌](../conflict-prioritization/conflicts.md) 검토
-* 관련자 모니터링을 위해 [시드 목록](../configuration/seed-lists.md) 설정(전자 메일 채널만 해당)
+* 다른 캠페인 및 여정과의 [충돌](../using/conflict-prioritization/conflicts.md) 검토
+* 관련자 모니터링을 위해 [시드 목록](../using/configuration/seed-lists.md) 설정(전자 메일 채널만 해당)
 * 활성화하기 전에 [승인](../using/test-approve/gs-approval.md)을 제출하세요.
 
 **A/B 테스트 및 최적화를 위한**
@@ -165,7 +165,7 @@ ht-degree: 4%
 
 * [여정 모드](../using/building-journeys/testing-the-journey.md)를 사용하여 프로필 진행률(초안 테스트만 해당, 네임스페이스 필요)을 시뮬레이션하거나 [시험 실행](../using/building-journeys/journey-dry-run.md)을 사용하여 메시지를 보내지 않고 실행 경로를 분석하십시오
 * [미리 보기 및 증명](../using/content-management/preview-test.md)을 사용하여 개별 메시지 테스트
-* 다른 여정 및 캠페인과의 [충돌](../conflict-prioritization/conflicts.md) 확인
+* 다른 여정 및 캠페인과의 [충돌](../using/conflict-prioritization/conflicts.md) 확인
 * 게시하기 전에 [승인](../using/test-approve/gs-approval.md)을 제출하세요.
 
 **복잡한 여정의 경우:**
@@ -200,7 +200,7 @@ ht-degree: 4%
 
 1. **샘플 데이터가 있는 콘텐츠 변형을 테스트합니다** - CSV 또는 JSON 파일의 [샘플 입력 데이터](../test-approve/simulate-sample-input.md)를 사용하여 수많은 테스트 프로필을 만들지 않고도 최대 30개의 개인화 시나리오를 테스트하여 시간을 절약하고 포괄적인 적용 범위를 보장합니다. 이메일, SMS, 푸시, 웹, 코드 기반 경험, 인앱 및 콘텐츠 카드 채널을 지원합니다.
 
-1. **관련자 모니터링에 시드 목록 사용** - 품질 모니터링 및 준수 확인을 위해 실행 시 모든 게재 복사본을 받는 내부 관련자를 자동으로 포함하도록 [시드 목록 구성](../configuration/seed-lists.md)(전자 메일 채널만 해당).
+1. **관련자 모니터링에 시드 목록 사용** - 품질 모니터링 및 준수 확인을 위해 실행 시 모든 게재 복사본을 받는 내부 관련자를 자동으로 포함하도록 [시드 목록 구성](../using/configuration/seed-lists.md)(전자 메일 채널만 해당).
 
 1. **여정 경로 시뮬레이션** - 여러 분기가 있는 복잡한 여정의 경우 [테스트 모드](../using/building-journeys/testing-the-journey.md)를 사용하여 다양한 시작 조건 및 프로필 특성을 테스트하여 가능한 모든 경로의 유효성을 검사하십시오. 네임스페이스를 사용하는 초안 여정에 사용할 수 있습니다.
 
@@ -244,7 +244,7 @@ ht-degree: 4%
 
 * 모바일 및 데스크톱 장치에서 [응답형 디자인](../using/email/content-from-scratch.md) 테스트
 
-* 고객 메시지 피로도 및 시간 문제를 방지하기 위해 다른 캠페인 및 여정과 [잠재적 충돌](../conflict-prioritization/conflicts.md)을 확인합니다.
+* 고객 메시지 피로도 및 시간 문제를 방지하기 위해 다른 캠페인 및 여정과 [잠재적 충돌](../using/conflict-prioritization/conflicts.md)을 확인합니다.
 
 ### &#x200B;3. 여정 테스트(여정 전용)
 
@@ -311,7 +311,7 @@ ht-degree: 4%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 콘텐츠 미리 보기, 테스트 및 유효성 검사
 
@@ -321,7 +321,7 @@ ht-degree: 4%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 여정과 캠페인을 위한 승인 워크플로우
 
@@ -331,7 +331,7 @@ ht-degree: 4%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 여정 테스트
 
@@ -341,7 +341,7 @@ ht-degree: 4%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 여정 시험 실행
 
@@ -351,7 +351,7 @@ ht-degree: 4%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 모니터링 및 문제 해결
 
@@ -361,7 +361,7 @@ ht-degree: 4%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Personalization 플레이그라운드
 
@@ -381,7 +381,7 @@ Personalization 플레이그라운드
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 관련자 모니터링을 위한 시드 목록
 
@@ -391,7 +391,7 @@ Personalization 플레이그라운드
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 충돌 감지
 
