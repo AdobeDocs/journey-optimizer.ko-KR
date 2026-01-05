@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 2f7c620a712cfc104418bc985bd74e81da12147c
+source-git-commit: b85210a46c928389db985f0f794618209773c071
 workflow-type: tm+mt
-source-wordcount: '1364'
-ht-degree: 22%
+source-wordcount: '1648'
+ht-degree: 18%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details"
 >title="파일 라우팅 구성 정의"
->abstract="DM 메시지를 만든 후에는 타기팅된 대상자 데이터가 포함된 파일이 생성되어 서버로 전송됩니다. DM 제공자가 해당 파일에 액세스하고 DM 메일을 게재하기 위해 사용할 수 있도록 서버 세부 사항을 지정해야 합니다."
+>abstract="DM 메시지를 만든 후에는 타기팅된 대상자 데이터가 포함된 파일이 생성되어 서버로 내보내집니다. DM 제공자가 해당 파일에 액세스하고 DM 메일을 게재하기 위해 사용할 수 있도록 서버 세부 사항을 지정해야 합니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/direct-mail/create-direct-mail" text="다이렉트 메일 메시지 만들기"
 
 >[!CONTEXTUALHELP]
@@ -115,6 +115,10 @@ DM 공급자가 메일을 전달하기 위해 해당 파일에 액세스하고 �
 
 ![](assets/file-routing-config-sftp-detail.png)
 
+>[!TIP]
+>
+>SSH 키 인증을 사용할 때 키는 **Base64 인코딩 OpenSSH** 개인 키여야 합니다. PPK 형식 파일인 경우 PuTTY 도구를 사용하여 OpenSSH 형식으로 변환합니다. 자세한 지침은 [이 섹션](#ssh-key-generation)을 참조하세요.
+
 >[!NOTE]
 >
 >파일을 저장할 서버의 경로를 지정하려면 DM 캠페인의 **[!UICONTROL 파일 이름]** 필드를 업데이트하여 원하는 경로를 포함하십시오. [자세히 알아보기](create-direct-mail.md#extraction-file)
@@ -145,7 +149,7 @@ DM 공급자가 메일을 전달하기 위해 해당 파일에 액세스하고 �
 
 ![](assets/file-routing-config-dlz-detail.png)
 
-[!DNL Adobe Experience Platform]의 모든 고객에게 샌드박스당 하나의 데이터 랜딩 영역 컨테이너가 제공됩니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}에서 데이터 랜딩 영역에 대해 자세히 알아보세요.
+[!DNL Adobe Experience Platform]의 모든 고객에게 샌드박스당 하나의 데이터 랜딩 영역 컨테이너가 제공됩니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}에서 데이터 랜딩 영역에 대해 자세히 알아보세요.
 
 >[!ENDTABS]
 
@@ -154,6 +158,36 @@ DM 공급자가 메일을 전달하기 위해 해당 파일에 액세스하고 �
 서버 유형에 대한 세부 정보를 입력한 후 **[!UICONTROL 제출]**&#x200B;을 선택합니다. 파일 라우팅 구성이 **[!UICONTROL 활성]** 상태로 만들어졌습니다. 이제 [DM 구성](#direct-mail-surface)에서 사용할 준비가 되었습니다.
 
 **[!UICONTROL 초안으로 저장]**&#x200B;을 선택하여 파일 라우팅 구성을 만들 수도 있지만 **[!UICONTROL 활성]**&#x200B;이 될 때까지 구성에서 선택할 수 없습니다.
+
+### SFTP 인증용 SSH 키 생성 {#ssh-key-generation}
+
+SSH 키 인증과 함께 SFTP를 사용하는 경우 Base64로 인코딩된 OpenSSH 개인 키가 있어야 합니다. 키의 형식이 올바르지 않으면 파일 라우팅을 구성할 때 연결 오류가 발생할 수 있습니다.
+
++++Base64로 인코딩된 OpenSSH 개인 키 생성
+
+1. PuTTYgen에서 키 쌍을 생성합니다. 2048비트 이상의 RSA를 사용하는 것이 좋습니다.
+1. 메뉴에서 **전환** > **OpenSSH 키 내보내기**&#x200B;를 선택합니다.
+1. 메시지가 표시되면 개인 키 **암호 보호 없이**&#x200B;을(를) 저장하도록 선택합니다.
+1. 저장 대화 상자에서 **모든 파일(*)을 선택합니다.키를 .ppk 파일이 아닌 일반 텍스트로 저장하려면*)**&#x200B;을(를) 파일 형식으로 사용하십시오.
+1. 텍스트 편집기로 저장된 파일을 열고 형식을 확인합니다.
+   * 파일은 `-----BEGIN RSA PRIVATE KEY-----`(앞/뒤 다섯 개의 대시)로 시작해야 합니다.
+   * 암호화를 나타내는 문구가 없어야 합니다.
+   * 파일은 `-----END RSA PRIVATE KEY-----`(앞/뒤 다섯 개의 대시)로 끝나야 합니다.
+1. **전체 파일 콘텐츠**(`-----BEGIN/END RSA PRIVATE KEY-----` 마커 포함)을 복사하고 [Base64 Encode 및 Decode](https://www.base64encode.org/)와 같은 도구를 사용하여 Base64로 인코딩하십시오.
+
+   >[!NOTE]
+   >
+   >Base64 인코딩 출력에서 MIME 형식을 제거합니다. 인코딩된 키는 단일 연속 문자열이어야 합니다.
+
+1. 이제 Journey Optimizer의 전용 필드에 Base64로 인코딩된 SSH 키를 붙여넣을 수 있습니다.
+
+>[!CAUTION]
+>
+>Base64 인코딩 후 키에는 더 이상 `-----BEGIN/END RSA PRIVATE KEY-----` 마커가 포함되지 않으며 줄 바꿈을 포함하지 않아야 합니다. 해당 공개 키를 SFTP 서버의 승인된 키 파일에 추가해야 합니다.
+
+SFTP 계정을 Experience Platform에 연결하는 방법에 대한 자세한 내용은 [이 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/sftp)를 참조하세요.
+
++++
 
 ## DM 구성 만들기 {#direct-mail-surface}
 
