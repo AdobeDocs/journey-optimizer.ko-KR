@@ -42,7 +42,7 @@ ht-degree: 5%
 
 **사용 가능한 테스트 형식:**
 
-* 콘텐츠 테스트: [캠페인 테스트](#testing-campaigns), →2}개인화 테스트[를 보내기 전에 메시지 콘텐츠를 미리 보고 확인합니다.](#testing-personalization)
+* 콘텐츠 테스트: [캠페인 테스트](#testing-campaigns), →2&rbrace;개인화 테스트[를 보내기 전에 메시지 콘텐츠를 미리 보고 확인합니다.](#testing-personalization)
 * 여정 논리 테스트: [테스트 여정](#testing-journeys)→ 여정 경로를 통해 고객 진행률을 시뮬레이션합니다.
 * 기술 테스트: [기술 유효성 검사](#2-technical-validation)→ 렌더링, 게재 가능성 및 인증 유효성 검사
 * 성능 테스트: A/B 실험을 사용하여 콘텐츠 변형 비교 → [콘텐츠 실험](#content-experiments--ab-testing)
@@ -132,7 +132,7 @@ ht-degree: 5%
 * 학습을 위해 →[Personalization 플레이그라운드](#personalization-playground)를 빌드하기 전
 * 유효성 검사→ 위해 [테스트 프로필](#testing-campaigns) 및 [샘플 입력 데이터](#simulate-content-variations)를 작성하는 동안
 * 시작 전 →[테스트 렌더링](#2-technical-validation), [스팸 확인](#email-spam-report), [충돌 검색](#conflict-detection), [승인](#approval-workflows-for-journeys-and-campaigns)
-* 시작 후 →0}실시간 보고서[ 및 ](../using/building-journeys/report-journey.md)모니터링[](#monitoring--troubleshooting)
+* 시작 후 →0&rbrace;실시간 보고서[&#x200B; 및 &#x200B;](../using/building-journeys/report-journey.md)모니터링[&#128279;](#monitoring--troubleshooting)
 +++
 
 
