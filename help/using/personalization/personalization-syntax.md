@@ -9,9 +9,9 @@ role: Developer
 level: Intermediate
 keywords: 표현식, 편집기, 구문, 개인화
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 9c013883e1bcdbf7dffffa599a910178def80e39
+source-git-commit: 5e9ce28bf19d2f4406ab4fd395b44b72894928e6
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '678'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 2%
 
 ## 구문 일반 규칙 {#general-rules}
 
-* 식별자는 다음을 제외한 모든 유니코드 문자일 수 있습니다.
+* 식별자는 Handlebars 구문에 예약된 다음 특수 문자를 제외한 모든 유니코드 문자일 수 있습니다.
 
   ```
   Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
@@ -47,7 +47,7 @@ ht-degree: 2%
 
   필드 `profile.person.name`의 값이 &quot;Mark &amp; Mary&quot;라고 가정합니다. `{{profile.person.name}}` 구문은 `Mark &amp; Mary`을(를) 표시하지만 `{{{profile.person.name}}}`은(는) `Mark & Mary`을(를) 표시합니다.
 
-* 리터럴 함수 인수와 관련하여 템플릿 언어 파서는 이스케이프 처리되지 않은 단일 백슬래시(`\`) 기호를 지원하지 않습니다. 이 문자는 추가 백슬래시(`\`) 기호로 이스케이프해야 합니다. 예 :
+* 리터럴 함수 인수와 관련하여 템플릿 언어 파서는 이스케이프 처리되지 않은 단일 백슬래시(`\`) 기호를 지원하지 않습니다. 이 문자는 추가 백슬래시(`\`) 기호로 이스케이프해야 합니다. 예:
 
   `{%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}`
 
@@ -136,7 +136,7 @@ ht-degree: 2%
 
   +++
 
-## 도우미{#helpers-all}
+## 도우미 {#helpers-all}
 
 Handlebars 도우미는 매개 변수 뒤에 올 수 있는 간단한 식별자입니다. 각 매개 변수는 Handlebars 표현식입니다. 이러한 도우미는 템플릿의 모든 컨텍스트에서 액세스할 수 있습니다.
 
@@ -144,7 +144,7 @@ Handlebars 도우미는 매개 변수 뒤에 올 수 있는 간단한 식별자�
 
 블록은 블록 열기(`{{# }}`)와 닫기(`{{/}}`)가 있는 식입니다.
 
-도우미 함수에 대한 자세한 내용은 [이 섹션](functions/helpers.md)을 참조하세요.
+    도우미 함수에 대한 자세한 내용은 [이 섹션](functions/helpers.md)을 참조하세요.
 
 ## 리터럴 유형 {#literal-types}
 
