@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: 테스트, 유효성 검사, 승인, 승인, 품질 보증, qa, 테스트 프로필, 개인화, 렌더링, 스팸 확인, 콘텐츠 실험, a/b 테스트, 충돌 감지, 시드 목록, 증명, 샘플 데이터, 승인 워크플로우, 이메일 테스트, 유효성 검사 워크플로우
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: 1b774d95a117903695e6954fb2c820adfdf0d3bb
+source-git-commit: abb2ed3cfa617bb9afc23c8f69634d5afe89b33e
 workflow-type: tm+mt
-source-wordcount: '2768'
-ht-degree: 5%
+source-wordcount: '2997'
+ht-degree: 4%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 5%
 
 **사용 가능한 테스트 형식:**
 
-* 콘텐츠 테스트: [캠페인 테스트](#testing-campaigns), →2&rbrace;개인화 테스트[를 보내기 전에 메시지 콘텐츠를 미리 보고 확인합니다.](#testing-personalization)
+* 콘텐츠 테스트: [캠페인 테스트](#testing-campaigns), →2}개인화 테스트[를 보내기 전에 메시지 콘텐츠를 미리 보고 확인합니다.](#testing-personalization)
 * 여정 논리 테스트: [테스트 여정](#testing-journeys)→ 여정 경로를 통해 고객 진행률을 시뮬레이션합니다.
 * 기술 테스트: [기술 유효성 검사](#2-technical-validation)→ 렌더링, 게재 가능성 및 인증 유효성 검사
 * 성능 테스트: A/B 실험을 사용하여 콘텐츠 변형 비교 → [콘텐츠 실험](#content-experiments--ab-testing)
@@ -132,7 +132,7 @@ ht-degree: 5%
 * 학습을 위해 →[Personalization 플레이그라운드](#personalization-playground)를 빌드하기 전
 * 유효성 검사→ 위해 [테스트 프로필](#testing-campaigns) 및 [샘플 입력 데이터](#simulate-content-variations)를 작성하는 동안
 * 시작 전 →[테스트 렌더링](#2-technical-validation), [스팸 확인](#email-spam-report), [충돌 검색](#conflict-detection), [승인](#approval-workflows-for-journeys-and-campaigns)
-* 시작 후 →0&rbrace;실시간 보고서[&#x200B; 및 &#x200B;](../using/building-journeys/report-journey.md)모니터링[&#128279;](#monitoring--troubleshooting)
+* 시작 후 →0}실시간 보고서[ 및 ](../using/building-journeys/report-journey.md)모니터링[](#monitoring--troubleshooting)
 +++
 
 
@@ -315,7 +315,7 @@ ht-degree: 5%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 콘텐츠 미리 보기, 테스트 및 유효성 검사
 
@@ -325,7 +325,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 여정과 캠페인을 위한 승인 워크플로우
 
@@ -335,7 +335,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 여정 테스트
 
@@ -345,7 +345,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 여정 시험 실행
 
@@ -355,7 +355,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 모니터링 및 문제 해결
 
@@ -365,7 +365,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Personalization 플레이그라운드
 
@@ -385,7 +385,7 @@ Personalization 플레이그라운드
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 관련자 모니터링을 위한 시드 목록
 
@@ -395,7 +395,7 @@ Personalization 플레이그라운드
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 충돌 감지
 
@@ -408,7 +408,9 @@ Personalization 플레이그라운드
 
 ## 추가 리소스
 
-### 필수 테스트 및 유효성 검사 가이드
+>[!BEGINTABS]
+
+>[!TAB 필수 가이드]
 
 * [콘텐츠 변형 시뮬레이션](../using/test-approve/simulate-sample-input.md) - CSV 또는 JSON 파일을 사용하여 최대 30개의 개인화 시나리오를 테스트합니다. 여러 테스트 프로필을 만들지 않고 다국어 콘텐츠 테스트에 이상적입니다. 이메일, SMS, 푸시, 웹, 코드 기반, 인앱 및 콘텐츠 카드를 지원합니다.
 
@@ -418,61 +420,60 @@ Personalization 플레이그라운드
 
 * [여정 FAQ](../using/building-journeys/journey-faq.md) - 여정 테스트, 실행 및 문제 해결에 대한 일반적인 질문에 대한 빠른 참조입니다.
 
-<!-- ### Dependencies and relationships
+>[!TAB 종속성 및 관계]
 
-Understand how testing capabilities connect to each other and to your broader Journey Optimizer workflows. This section maps prerequisites, upstream/downstream dependencies, and common capability combinations.
+테스트 기능이 서로 및 광범위한 Journey Optimizer 워크플로우와 연결되는 방식을 이해합니다. 이 섹션에서는 사전 요구 사항, 업스트림/다운스트림 종속성 및 공통 기능 조합을 매핑합니다.
 
-+++**Prerequisites (required before testing)**
++++**필수 구성 요소(테스트하기 전에 필요)**
 
-* Test profiles must be created before using test mode or content preview
-* Approval policies must be configured before submitting for approval
-* Seed lists must be created before adding to campaigns/journeys
-* Litmus integration required for email rendering tests
-* Journey must be in draft status to use test mode
-* Journey must have namespace configured to use test mode
-
-+++
-
-+++**What testing depends on (upstream)**
-
-* Content creation: Need campaigns or journeys to test
-* Test profiles: Required for test mode and content preview
-* Approval policies: Required for approval workflows
-* Configuration: Channel configurations, email authentication, domain settings
+* 테스트 모드 또는 콘텐츠 미리보기를 사용하기 전에 테스트 프로필을 만들어야 합니다.
+* 승인을 위해 제출하기 전에 승인 정책을 구성해야 합니다.
+* 캠페인/여정에 추가하기 전에 시드 목록을 만들어야 합니다.
+* 이메일 렌더링 테스트에 필요한 Litmus 통합
+* 테스트 모드를 사용하려면 여정이 초안 상태여야 합니다.
+* 여정은 테스트 모드를 사용하도록 구성된 네임스페이스가 있어야 합니다.
 
 +++
 
-+++**What depends on testing (downstream)**
++++**테스트가 종속되는 사항(업스트림)**
 
-* Campaign/journey activation: Cannot activate without resolving errors
-* Publishing: Approval may be required before publishing
-* Live monitoring: Post-launch monitoring and reporting
-* Optimization: Use test results to refine future campaigns
-
-+++
-
-+++**Related capabilities**
-
-* Testing + Approval workflows = Quality assurance process
-* Testing + Conflict detection = Preventing customer over-messaging
-* Testing + Content experiments = Performance optimization
-* Testing + Reporting = Continuous improvement cycle
-* Test profiles + Personalization = Content validation
-* Dry run + Test mode = Comprehensive journey validation
+* 콘텐츠 만들기: 테스트할 캠페인 또는 여정 필요
+* 테스트 프로필: 테스트 모드 및 컨텐츠 미리 보기에 필요
+* 승인 정책: 승인 워크플로에 필요
+* 구성: 채널 구성, 이메일 인증, 도메인 설정
 
 +++
 
-+++**Common capability combinations**
++++**테스트에 따라 달라지는 사항(다운스트림)**
 
-* Content testing: Test profiles + Sample input data + Personalization playground
-* Email validation: Rendering tests + Spam scores + Test profiles + Proofs
-* Journey validation: Test mode + Dry run + Test profiles
-* Pre-launch checklist: All technical tests + Conflict detection + Approval workflows
+* 캠페인/여정 활성화: 오류를 해결하지 않으면 활성화할 수 없습니다.
+* 게시: 게시 전에 승인이 필요할 수 있습니다.
+* 라이브 모니터링: 출시 후 모니터링 및 보고
+* 최적화: 테스트 결과를 사용하여 향후 캠페인 구체화
 
 +++
--->
 
-### 일반적인 질문
++++**관련 기능**
+
+* 테스트 + 승인 워크플로우 = 품질 보증 프로세스
+* 테스트 + 충돌 감지 = 고객 과대 메시지 방지
+* 테스트 + 콘텐츠 실험 = 성능 최적화
+* 테스트 + 보고 = 지속적인 개선 주기
+* 테스트 프로필 + Personalization = 컨텐츠 유효성 검사
+* 시험 실행 + 여정 모드 = 포괄적인 테스트 유효성 검사
+
++++
+
++++**일반적인 기능 조합**
+
+* 컨텐츠 테스트: 테스트 프로필 + 샘플 입력 데이터 + Personalization 플레이그라운드
+* 이메일 유효성 검사: 테스트 렌더링 + 스팸 점수 + 테스트 프로필 + 증명
+* 여정 유효성 검사: 테스트 모드 + 시험 실행 + 테스트 프로필
+* 출시 전 확인 목록: 모든 기술 테스트 + 충돌 감지 + 승인 워크플로
+
++++
+
+>[!TAB 일반적인 질문]
 
 +++**Q: 캠페인을 시작하기 전에 필요한 테스트는 무엇입니까?**
 
@@ -524,3 +525,4 @@ Understand how testing capabilities connect to each other and to your broader Jo
 
 +++
 
+>[!ENDTABS]
