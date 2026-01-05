@@ -6,7 +6,7 @@ description: 의사 결정 관리
 redpen-status: CREATED_||_2025-08-11_21-05-09
 badge: label="레거시" type="Informative"
 exl-id: 5262df0e-201b-45bc-8234-e5acb7ff8af9
-source-git-commit: 2e5943968915b65a78a1c7c8898108b4d48f675a
+source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer]의 새로운 의사 결정 기능인 [결정]을 이제 코드 기반 경험 및 이메일 채널을 통해 사용할 수 있습니다. [자세히 알아보기](../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer]의 새로운 의사 결정 기능인 [결정]을 이제 코드 기반 경험 및 이메일 채널을 통해 사용할 수 있습니다. [자세히 알아보기](../using/experience-decisioning/gs-experience-decisioning.md)
 
 Adobe Journey Optimizer의 의사 결정 관리를 통해 적절한 대상자에게 최적의 오퍼를 적시에 전달할 수 있습니다. 맞춤형 오퍼를 만들고, AI 또는 사용자 정의 규칙을 사용하여 지능적으로 순위를 매기며, 실시간 피드백을 분석하는 도구를 결합하면 여러 채널에서 원활하고 데이터 기반의 고객 경험을 만들 수 있습니다. 이 섹션에서는 배치 및 의사 결정 규칙과 같은 기본 구성 요소를 빌드하고, 정확한 타겟팅을 위해 컨텍스트 및 이벤트 데이터를 통합하며, 고급 워크플로우를 위한 API를 활용하는 방법을 안내합니다. 이메일 캠페인을 디자인하거나 웹 상호 작용을 최적화하는 경우 실행 가능한 인사이트와 전략을 얻어 의사 결정 역량을 개선할 수 있습니다.
 
@@ -25,7 +25,7 @@ Adobe Journey Optimizer의 의사 결정 관리를 통해 적절한 대상자에
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 의사 결정 관리 시작
 
@@ -35,7 +35,7 @@ Adobe Journey Optimizer의 의사 결정 관리를 통해 적절한 대상자에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 의사 결정 구성 요소 만들기 및 관리
 
@@ -45,7 +45,7 @@ Adobe Journey Optimizer의 의사 결정 관리를 통해 적절한 대상자에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 순위 만들기 및 최적화
 
@@ -55,7 +55,7 @@ Adobe Journey Optimizer의 의사 결정 관리를 통해 적절한 대상자에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 오퍼 만들기 및 관리
 
@@ -65,7 +65,7 @@ Adobe Journey Optimizer에서 맞춤형 오퍼, 대체 옵션 및 컬렉션을 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 의사 결정 만들기 및 관리
 
@@ -75,7 +75,7 @@ Adobe Journey Optimizer에서 맞춤형 오퍼, 대체 옵션 및 컬렉션을 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 배치 의사결정 사용
 
