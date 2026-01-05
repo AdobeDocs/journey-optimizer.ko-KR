@@ -9,10 +9,10 @@ role: Developer
 level: Intermediate
 keywords: 표현식, 편집기, 구문, 개인화
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 50eff8b6c4aaa432595bf16ef1d567c272d6b084
+source-git-commit: 9c013883e1bcdbf7dffffa599a910178def80e39
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 3%
+source-wordcount: '666'
+ht-degree: 2%
 
 ---
 
@@ -50,6 +50,26 @@ ht-degree: 3%
 * 리터럴 함수 인수와 관련하여 템플릿 언어 파서는 이스케이프 처리되지 않은 단일 백슬래시(`\`) 기호를 지원하지 않습니다. 이 문자는 추가 백슬래시(`\`) 기호로 이스케이프해야 합니다. 예 :
 
   `{%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}`
+
+## 예약된 키워드 {#reserved-keywords}
+
+특정 키워드는 Profile Query Language(PQL)에서 예약되어 개인화 표현식에서 필드 또는 변수 이름으로 직접 사용할 수 없습니다. XDM 스키마에 예약된 키워드와 일치하는 이름을 가진 필드가 포함된 경우 백틱(`` ` ``)을 사용하여 이스케이프 처리하여 식에서 참조해야 합니다.
+
+**예약된 키워드는 다음과 같습니다.**
+
+* `next`
+* `last`
+* `this`
+
+**예:**
+
+프로필 스키마에 이름이 `next`인 필드가 있는 경우 백틱으로 래핑해야 합니다.
+
+```
+{{profile.person.`next`.name}}
+```
+
+백틱스가 없으면 오류가 발생하여 개인화 편집기의 유효성 검사가 실패합니다.
 
 ## 사용 가능한 네임스페이스 {#namespaces}
 
