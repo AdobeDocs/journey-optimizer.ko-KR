@@ -6,9 +6,9 @@ description: 콘텐츠 생성을 위한 AI 어시스턴트
 redpen-status: CREATED_||_2025-08-12_00-42-48
 exl-id: 0fdc67ab-3646-4c6e-884d-604238549c3d
 source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '279'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 AI 어시스턴트는 생성형 AI를 활용하여 �
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 AI 어시스턴트 시작
 
@@ -30,31 +30,31 @@ AI 어시스턴트 시작
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
-전체 컨텐츠 생성
+전체 콘텐츠 생성
 
-AI Assistant를 사용하여 이메일, 푸시 알림, 웹 페이지 및 랜딩 페이지에 대한 텍스트 및 이미지를 포함한 전체 콘텐츠를 제작하는 방법에 대해 알아봅니다.
+AI 어시스턴트를 활용하여 이메일, 푸시 알림, 웹 페이지 및 랜딩 페이지에 필요한 텍스트와 이미지를 포함하는 완벽한 콘텐츠를 제작하는 방법을 알아봅니다.
 
-[전체 콘텐츠 생성에 대해 알아보기](../using/content-management/generative-full-content.md)
+[전체 콘텐츠 생성 알아보기](../using/content-management/generative-full-content.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 텍스트만 생성
 
-AI Assistant를 사용하여 이메일, SMS, 푸시 알림, 웹 페이지 및 랜딩 페이지를 비롯한 모든 채널에 대한 텍스트 콘텐츠를 생성하고 세분화합니다.
+AI 어시스턴트를 사용하여 이메일, SMS, 푸시 알림, 웹 페이지 및 랜딩 페이지를 포함한 모든 채널에 대한 텍스트 콘텐츠를 생성하고 다듬습니다.
 
-[텍스트 생성 탐색](../using/content-management/generative-text.md)
+[텍스트 생성 살펴보기](../using/content-management/generative-text.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
 
 이미지만 생성
 
-이메일, 푸시 알림, 웹 페이지 및 랜딩 페이지에서 사용할 수 있도록 AI Assistant를 사용하여 이미지를 만들고 사용자 지정합니다.
+AI 어시스턴트를 사용하여 이메일, 푸시 알림, 웹 페이지 및 랜딩 페이지에 사용할 이미지를 생성하고 맞춤 설정합니다.
 
 [이미지 생성](../using/content-management/generative-image.md)
 :::
