@@ -9,7 +9,7 @@ level: Beginner, Intermediate
 keywords: 테스트, 유효성 검사, 승인, 승인, 품질 보증, qa, 테스트 프로필, 개인화, 렌더링, 스팸 확인, 콘텐츠 실험, a/b 테스트, 충돌 감지, 시드 목록, 증명, 샘플 데이터, 승인 워크플로우, 이메일 테스트, 유효성 검사 워크플로우
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: 1fd6f4cc191a65fcd62457ee22509473bbfe2b98
+source-git-commit: ab78157988c533b3dc8a0c747bf094649c7a8671
 workflow-type: tm+mt
 source-wordcount: '2753'
 ht-degree: 4%
@@ -21,6 +21,101 @@ ht-degree: 4%
 이 섹션에서는 Journey Optimizer의 모든 테스트 및 승인 기능을 다룹니다. 테스트 프로필로 콘텐츠를 미리 보고, 여정 논리를 확인하고, 이메일 렌더링 및 스팸 점수를 확인하고, A/B 실험을 실행하고, 충돌을 감지하고, 승인 워크플로를 설정하는 도구를 찾을 수 있습니다.
 
 이 랜딩 페이지는 작성 중인 테스트(캠페인 대 여정)에 따라 올바른 테스트 접근 방식을 선택하고, 권장 테스트 워크플로를 안내하고, 모든 테스트 및 승인 리소스에 대한 빠른 액세스를 제공합니다. 사용 사례에 적용되는 도구를 확인하려면 [테스트 방법을 선택하세요](#choose-your-testing-approach). 주요 테스트 용어에 대한 정의는 [주요 용어](#key-terminology)를 참조하십시오.
+
+## 콘텐츠 테스트 및 승인
+
+:::: landing-cards-container
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+
+콘텐츠 미리 보기, 테스트 및 유효성 검사
+
+테스트 프로필, 이메일 렌더링 테스트, 스팸 점수 평가 등을 사용하여 개인화된 콘텐츠를 미리 보고, 테스트하며, 확인하는 방법을 알아봅니다.
+
+[콘텐츠 미리 보기 및 테스트 살펴보기](preview-test-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+
+여정과 캠페인을 위한 승인 워크플로우
+
+여정과 캠페인의 품질 관리를 보장하기 위해 승인 프로세스를 설정, 관리 및 실행하는 방법을 이해합니다.
+
+[승인 워크플로우에 대해 알아보기](approve-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+
+여정 테스트
+
+여정, 조건 및 작업이 예상대로 작동하는지 확인하기 위해 특정 프로필을 사용하여 테스트하여 게시하기 전에 이벤트의 유효성을 검사합니다. 네임스페이스를 사용하는 초안 여정에 사용할 수 있습니다.
+
+[여정 테스트](../using/building-journeys/testing-the-journey.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+
+여정 시험 실행
+
+시험 실행을 통해 여정의 실행 경로를 시뮬레이션하고 확인하여 실제로 실행하기 전에 잠재적 문제를 식별합니다.
+
+[시험 실행에 대해 알아보기](../using/building-journeys/journey-dry-run.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+
+모니터링 및 문제 해결
+
+포괄적인 문제 해결 리소스, 시스템 경고, 오류 코드에 액세스하여 여정 실행 및 성능 문제를 해결할 수 있습니다.
+
+[모니터링 및 문제 해결 보기](troubleshoot-journey-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
+
+Personalization 플레이그라운드
+
+안전한 환경에서 개인화 표현식을 실험해 보십시오. 캠페인 및 여정에 적용하기 전에 샘플 데이터로 코드를 테스트하고 결과를 미리 봅니다.
+
+[Personalization 플레이그라운드에 대해 알아보기](../using/personalization/personalize.md#playground)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/data.svg)
+
+콘텐츠 실험 및 A/B 테스트
+
+여러 콘텐츠 변형을 테스트하고 성능을 측정하여 최상의 성과를 내는 처리를 식별하여 캠페인을 최적화합니다. 캠페인에만 사용할 수 있습니다(A/B 및 multi-armed bandit 실험 지원).
+
+[콘텐츠 실험에 대해 알아보기](../using/content-management/get-started-experiment.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+
+관련자 모니터링을 위한 시드 목록
+
+게재에 내부 관련자 주소를 자동으로 포함시켜 품질 보증 및 규정 준수를 위해 고객에게 전송된 실제 메시지를 모니터링합니다. 이메일 채널에만 사용할 수 있습니다.
+
+[시드 목록 구성](../using/configuration/seed-lists.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+
+충돌 감지
+
+캠페인과 여정 간의 잠재적 중복을 식별하여 동시 커뮤니케이션이 너무 많은 압도적인 고객을 방지합니다. 캠페인 및 단일, 대상 검증, 대상 읽기 여정에 사용할 수 있습니다.
+
+[충돌 감지](../using/conflict-prioritization/conflicts.md)
+:::
+
+::::
 
 ## 테스트 및 승인이 중요한 이유
 
@@ -109,7 +204,7 @@ ht-degree: 4%
 * 학습을 위해 →[Personalization 플레이그라운드](#test--approve-content)를 빌드하기 전
 * 유효성 검사→ 위해 [테스트 프로필](#choose-your-testing-approach) 및 [샘플 입력 데이터](#choose-your-testing-approach)를 작성하는 동안
 * 시작 전 →[테스트 렌더링](#2-technical-validation), [스팸 확인](#2-technical-validation), [충돌 검색](#test--approve-content), [승인](#test--approve-content)
-* 시작 후 →0&rbrace;실시간 보고서[&#x200B; 및 &#x200B;](../using/building-journeys/report-journey.md)모니터링[&#128279;](#test--approve-content)
+* 시작 후 →0}실시간 보고서[ 및 ](../using/building-journeys/report-journey.md)모니터링[](#test--approve-content)
 +++
 
 
@@ -287,101 +382,6 @@ ht-degree: 4%
 | **[구독자에게 메시지 보내기](../using/building-journeys/message-to-subscribers-uc.md)** | 동적 이메일 주소 지정으로 구독 목록을 타겟팅하는 여정을 테스트합니다. 올바른 구독자 타겟팅을 위해 개인화 표현식의 유효성을 검사합니다. | Personalization 표현식, 동적 주소 지정, 구독 목록 타기팅 |
 | **[시간 제한 메시지 보내기](../using/building-journeys/weekday-email-uc.md)** | 특정 날짜에 메시지가 전송되도록 시간 기반 조건으로 여정을 테스트합니다. 대기 활동 및 예약 논리의 유효성을 검사합니다. | 시간 기반 조건, 대기 활동, 유효성 검사 예약 |
 | **[더 많은 여정 사용 사례 살펴보기](../using/building-journeys/jo-use-cases.md)** | 경험 이벤트, 다중 채널 메시징 및 외부 시스템 통합에 대한 포괄적인 실제 예제 컬렉션에 액세스합니다. | 다양한 시나리오, 고급 패턴, 통합 테스트 |
-
-## 콘텐츠 테스트 및 승인
-
-:::: landing-cards-container
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
-
-콘텐츠 미리 보기, 테스트 및 유효성 검사
-
-테스트 프로필, 이메일 렌더링 테스트, 스팸 점수 평가 등을 사용하여 개인화된 콘텐츠를 미리 보고, 테스트하며, 확인하는 방법을 알아봅니다.
-
-[콘텐츠 미리 보기 및 테스트 살펴보기](preview-test-landing-page.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
-
-여정과 캠페인을 위한 승인 워크플로우
-
-여정과 캠페인의 품질 관리를 보장하기 위해 승인 프로세스를 설정, 관리 및 실행하는 방법을 이해합니다.
-
-[승인 워크플로우에 대해 알아보기](approve-landing-page.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
-
-여정 테스트
-
-여정, 조건 및 작업이 예상대로 작동하는지 확인하기 위해 특정 프로필을 사용하여 테스트하여 게시하기 전에 이벤트의 유효성을 검사합니다. 네임스페이스를 사용하는 초안 여정에 사용할 수 있습니다.
-
-[여정 테스트](../using/building-journeys/testing-the-journey.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
-
-여정 시험 실행
-
-시험 실행을 통해 여정의 실행 경로를 시뮬레이션하고 확인하여 실제로 실행하기 전에 잠재적 문제를 식별합니다.
-
-[시험 실행에 대해 알아보기](../using/building-journeys/journey-dry-run.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
-
-모니터링 및 문제 해결
-
-포괄적인 문제 해결 리소스, 시스템 경고, 오류 코드에 액세스하여 여정 실행 및 성능 문제를 해결할 수 있습니다.
-
-[모니터링 및 문제 해결 보기](troubleshoot-journey-landing-page.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=ko)
-
-Personalization 플레이그라운드
-
-안전한 환경에서 개인화 표현식을 실험해 보십시오. 캠페인 및 여정에 적용하기 전에 샘플 데이터로 코드를 테스트하고 결과를 미리 봅니다.
-
-[Personalization 플레이그라운드에 대해 알아보기](../using/personalization/personalize.md#playground)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/data.svg)
-
-콘텐츠 실험 및 A/B 테스트
-
-여러 콘텐츠 변형을 테스트하고 성능을 측정하여 최상의 성과를 내는 처리를 식별하여 캠페인을 최적화합니다. 캠페인에만 사용할 수 있습니다(A/B 및 multi-armed bandit 실험 지원).
-
-[콘텐츠 실험에 대해 알아보기](../using/content-management/get-started-experiment.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
-
-관련자 모니터링을 위한 시드 목록
-
-게재에 내부 관련자 주소를 자동으로 포함시켜 품질 보증 및 규정 준수를 위해 고객에게 전송된 실제 메시지를 모니터링합니다. 이메일 채널에만 사용할 수 있습니다.
-
-[시드 목록 구성](../using/configuration/seed-lists.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ko)
-
-충돌 감지
-
-캠페인과 여정 간의 잠재적 중복을 식별하여 동시 커뮤니케이션이 너무 많은 압도적인 고객을 방지합니다. 캠페인 및 단일, 대상 검증, 대상 읽기 여정에 사용할 수 있습니다.
-
-[충돌 감지](../using/conflict-prioritization/conflicts.md)
-:::
-
-::::
 
 ## 주요 용어
 
