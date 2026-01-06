@@ -5,9 +5,9 @@ title: 월별 설명서 업데이트 보고서
 description: 새 설명서 페이지 및 업데이트된 설명서 페이지 목록
 hide: true
 hidefromtoc: true
-source-git-commit: 3f0da68c95a1fbd5b3cf6beaa38eae1a475ab941
+source-git-commit: e0e82dad61d3ccc1c48435ba7b49bff51c7e9636
 workflow-type: tm+mt
-source-wordcount: '1204'
+source-wordcount: '1293'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,34 @@ ht-degree: 0%
 
 # 월별 설명서 업데이트 보고서
 
-*2024년 11월 3일 - 12월 11일에 대해 생성된 보고서*
+## 보고서: 2024년 12월 11일 - 2026년 1월 6일
 
-## 새 페이지
+### 새 페이지
+
+- [추적 시작](help/using/start/get-started-tracking.md) - 12월 19일
+
+### 업데이트된 페이지
+
+- [Journey Optimizer 보호 및 제한 사항](help/using/start/guardrails.md) - 1월 6일
+- [DM 구성](help/using/direct-mail/direct-mail-configuration.md) - 1월 5일
+- [Personalization 구문](help/using/personalization/personalization-syntax.md) - 1월 5일
+- [여정 시작](help/using/building-journeys/journey.md) - 1월 2일
+- [캠페인 시작](help/using/campaigns/get-started-with-campaigns.md) - 1월 2일
+- [캠페인 관리](help/using/campaigns/manage-campaigns.md) - 1월 2일
+- [하위 도메인 위임](help/using/configuration/delegate-subdomain.md) - 1월 2일
+- [Google TXT 레코드 구성](help/using/configuration/google-txt.md) - 1월 2일
+- [추적 시작](help/using/start/get-started-tracking.md) - 12월 23일
+- [단계 이벤트 필드 목록](help/using/reports/sharing-field-list.md) - 23일
+- [증명 보내기](help/using/content-management/proofs.md) - 12월 23일
+- [채널 제한 규칙 집합 작업](help/using/conflict-prioritization/channel-capping.md) - 12월 23일
+- [의사 결정에 사용자 지정 업로드 대상 사용](help/using/offers/custom-upload-decisioning.md) - 12월 23일
+- [통신 채널 시작](help/using/channels/gs-channels.md) - 12월 22일
+- [2025년 릴리스 정보](help/using/rn/release-notes-2025.md) - 12월 18일
+- [AEM 조각을 사용하여 작업](help/using/integrations/aem-fragments.md) - 12월 18일
+
+## 이전 보고서: 2024년 11월 3일~12월 11일
+
+### 새 페이지
 
 - [여정 시작 및 종료 기준 안내서](help/using/building-journeys/entry-exit-criteria-guide.md) - 12월 11일
 - [여정 사용 사례](help/using/building-journeys/jo-use-cases.md) - 12월 11일
@@ -28,7 +53,7 @@ ht-degree: 0%
 - [코드 기반 경험 게시 및 관리](help/using/code-based/publish-code-based.md) - 11월 22일
 - [코드 기반 경험 테스트](help/using/code-based/test-code-based.md) - 11월 22일
 
-## 업데이트된 페이지
+### 업데이트된 페이지
 
 - [개인화를 위한 Adobe Experience Platform 데이터 조회](help/using/data/lookup-aep-data.md) - 12월 10일
 - [모바일 응용 프로그램 구성](help/using/configuration/set-mobile-config.md) - 12월 6일
@@ -88,7 +113,7 @@ ht-degree: 0%
 - [배치 만들기](help/using/offers/offer-library/creating-placements.md) - 11월 5일
 - [순위 전략 만들기](help/using/offers/ranking/create-ranking-strategies.md) - 11월 5일
 
-## 이전 보고서: 2025년 10월 1일~11월 3일
+## 이전 보고서: 2024년 10월 1일~11월 3일
 
 ### 새 페이지
 
@@ -104,11 +129,8 @@ ht-degree: 0%
 - [의사 결정 정책 만들기](help/using/experience-decisioning/create-decision-policy.md) - 10월 7일
 - [메시지에서 의사 결정 정책 사용](help/using/experience-decisioning/use-decision-policy.md) - 10월 9일
 - [채널 구성](help/using/orchestrated/channel-config.md) - 10월 14일
-- [푸시 알림 디자인](help/using/push/design-push-web.md) - 10월 14일
-- [푸시 알림 구성](help/using/push/push-configuration-web.md) - 10월 14일
 - [여정 단계 이벤트 작업](help/using/reports/journey-step-events-overview.md) - 10월 21일
 - [Adobe Journey Optimizer 릴리스 주기](help/using/rn/releases.md) - 10월 28일
-- [메시지 콘텐츠 디자인](help/using/start/message-content-design.md) - 10월 18일
 
 ### 업데이트된 페이지
 
