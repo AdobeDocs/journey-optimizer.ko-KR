@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: 테스트, 유효성 검사, 승인, 승인, 품질 보증, qa, 테스트 프로필, 개인화, 렌더링, 스팸 확인, 콘텐츠 실험, a/b 테스트, 충돌 감지, 시드 목록, 증명, 샘플 데이터, 승인 워크플로우, 이메일 테스트, 유효성 검사 워크플로우
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: ab78157988c533b3dc8a0c747bf094649c7a8671
+source-git-commit: 3f2bf04dbeb3e5099c151a412a4a5e54f13122ee
 workflow-type: tm+mt
-source-wordcount: '2753'
-ht-degree: 4%
+source-wordcount: '2560'
+ht-degree: 5%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 4%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 콘텐츠 미리 보기, 테스트 및 유효성 검사
 
@@ -36,7 +36,7 @@ ht-degree: 4%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 여정과 캠페인을 위한 승인 워크플로우
 
@@ -46,7 +46,7 @@ ht-degree: 4%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 여정 테스트
 
@@ -56,7 +56,7 @@ ht-degree: 4%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 여정 시험 실행
 
@@ -66,7 +66,7 @@ ht-degree: 4%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 모니터링 및 문제 해결
 
@@ -76,7 +76,7 @@ ht-degree: 4%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Personalization 플레이그라운드
 
@@ -96,7 +96,7 @@ Personalization 플레이그라운드
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 관련자 모니터링을 위한 시드 목록
 
@@ -106,7 +106,7 @@ Personalization 플레이그라운드
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 충돌 감지
 
@@ -169,44 +169,46 @@ Personalization 플레이그라운드
 
 -->
 
-## 테스트 방법 선택을 위한 의사 결정 트리
+<!--
+## Decision tree for testing method selection
 
-이 진단트리를 사용하여 특정 시나리오에 적합한 테스트 도구를 신속하게 식별할 수 있습니다. 컨텍스트에 따라 각 질문에 답변하여 관련 기능 및 설명서로 직접 이동합니다(작성 중인 항목, 유효성 검사가 필요한 항목 및 사용 중인 채널).
+Use this decision tree to quickly identify the right testing tools for your specific scenario. Answer each question based on your context (what you're building, what you need to validate, and which channel you're using) to navigate directly to the relevant capabilities and documentation.
 
-+++ **질문 1: 무엇을 테스트하고 있습니까?**
++++ **Question 1: What are you testing?**
 
-* Campaign → [테스트 방법 선택](#choose-your-testing-approach)
-* 여정 → [테스트 방법 선택](#choose-your-testing-approach)
-* Personalization 표현식 → [Personalization 플레이그라운드](#test--approve-content)
+* Campaign → [Choose your testing approach](#choose-your-testing-approach)
+* Journey → [Choose your testing approach](#choose-your-testing-approach)
+* Personalization expressions → [Personalization playground](#test--approve-content)
 +++
 
-+++**질문 2: 유효성 검사가 필요한 측면은 무엇입니까?**
++++**Question 2: What aspect needs validation?**
 
-* 콘텐츠 및 개인화 → [테스트 프로필](#choose-your-testing-approach) 또는 [샘플 입력 데이터](#choose-your-testing-approach)
-* 전자 메일 표시 → [전자 메일 렌더링 테스트](#2-technical-validation)
-* 전달성 → [스팸 점수 확인](#2-technical-validation)
-* 여정 논리 및 흐름 → [테스트 모드](#choose-your-testing-approach) 또는 [시험 실행](#test--approve-content)
-* 성능 비교 → [콘텐츠 실험](#test--approve-content)(캠페인만 해당)
-* 시간 충돌 → [충돌 검색](#test--approve-content)
-* 관련자 검토 → [승인 워크플로](#test--approve-content)
+* Content and personalization → [Test profiles](#choose-your-testing-approach) or [sample input data](#choose-your-testing-approach)
+* Email display → [Email rendering tests](#2-technical-validation)
+* Deliverability → [Spam score checks](#2-technical-validation)
+* Journey logic and flow → [Test mode](#choose-your-testing-approach) or [dry run](#test--approve-content)
+* Performance comparison → [Content experiment](#test--approve-content) (campaigns only)
+* Timing conflicts → [Conflict detection](#test--approve-content)
+* Stakeholder review → [Approval workflow](#test--approve-content)
 +++
 
-+++**질문 3: 채널을 선택하십시오.**
++++**Question 3: What channel?**
 
-* 전자 메일 → 사용 가능한 모든 테스트 방법([테스트 방법 선택](#choose-your-testing-approach) 참조)
-* SMS, 푸시 → [콘텐츠 테스트](#choose-your-testing-approach), [샘플 입력 데이터](#choose-your-testing-approach), [승인 워크플로](#test--approve-content)
-* 웹, 인앱, 코드 기반 → [콘텐츠 테스트](#choose-your-testing-approach), [샘플 입력 데이터](#choose-your-testing-approach), [승인 워크플로](#test--approve-content)
-* 여러 채널 → 각 채널을 개별적으로 테스트
+* Email → All testing methods available (see [Choose your testing approach](#choose-your-testing-approach))
+* SMS, Push → [Content testing](#choose-your-testing-approach), [sample input data](#choose-your-testing-approach), [approval workflows](#test--approve-content)
+* Web, In-app, Code-based → [Content testing](#choose-your-testing-approach), [sample input data](#choose-your-testing-approach), [approval workflows](#test--approve-content)
+* Multiple channels → Test each channel separately
 +++
 
-+++**질문 4: 워크플로에 있을 때?**
++++**Question 4: When in the workflow?**
 
-* 학습을 위해 →[Personalization 플레이그라운드](#test--approve-content)를 빌드하기 전
-* 유효성 검사→ 위해 [테스트 프로필](#choose-your-testing-approach) 및 [샘플 입력 데이터](#choose-your-testing-approach)를 작성하는 동안
-* 시작 전 →[테스트 렌더링](#2-technical-validation), [스팸 확인](#2-technical-validation), [충돌 검색](#test--approve-content), [승인](#test--approve-content)
-* 시작 후 →0&rbrace;실시간 보고서[&#x200B; 및 &#x200B;](../using/building-journeys/report-journey.md)모니터링[&#128279;](#test--approve-content)
+* Before building → [Personalization playground](#test--approve-content) for learning
+* During building → [Test profiles](#choose-your-testing-approach) and [sample input data](#choose-your-testing-approach) for validation
+* Before launch → [Rendering tests](#2-technical-validation), [spam checks](#2-technical-validation), [conflict detection](#test--approve-content), [approvals](#test--approve-content)
+* After launch → [Live reports](../using/building-journeys/report-journey.md) and [monitoring](#test--approve-content)
 +++
 
+-->
 
 ## 테스트 접근 방식 선택
 
