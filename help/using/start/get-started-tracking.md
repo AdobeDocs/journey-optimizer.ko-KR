@@ -8,7 +8,7 @@ topic: Administration
 role: User
 level: Beginner
 keywords: 추적, 모니터링, 분석, 보고, 전달성
-source-git-commit: 4dfda2a13bfd01c7c556ae3e8eb31916592c569b
+source-git-commit: 955dbbf944e40cd18530c9777c7f06ad39e45563
 workflow-type: tm+mt
 source-wordcount: '1916'
 ht-degree: 3%
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # Journey Optimizer에서 추적 시작 {#get-started-tracking}
 
-추적 및 모니터링을 통해 캠페인 효과를 측정하고, 고객 경험을 최적화하고, 메시지가 의도한 수신자에게 도달하는지 확인할 수 있습니다. Journey Optimizer은 고객 상호 작용, 게재 성능 및 시스템 상태를 캡처하는 포괄적인 추적 기능을 제공하여 개인 정보를 존중하고 규정 준수를 유지하면서 데이터 중심의 의사 결정을 내리는 데 도움이 됩니다.
+추적을 사용하면 캠페인 효과를 측정하고, 고객 경험을 최적화하고, 메시지가 의도한 수신자에게 도달하는지 확인할 수 있습니다. Journey Optimizer은 고객 상호 작용, 게재 성능 및 시스템 상태를 캡처하는 포괄적인 추적 기능을 제공하여 개인 정보를 존중하고 규정 준수를 유지하면서 데이터 중심의 의사 결정을 내리는 데 도움이 됩니다.
 
 대부분의 추적은 메시지 및 여정을 만들 때 자동으로 구성됩니다. 고급 시나리오의 경우 사용자 지정 지표를 설정하고 URL 매개 변수를 구성하고 외부 분석 플랫폼과 통합할 수 있습니다. 기본 제공 보고서를 통해 추적 데이터에 액세스하거나 Customer Journey Analytics에서 더 자세한 분석을 위해 내보냅니다.
 
@@ -232,9 +232,9 @@ SMS 추적을 사용하려면 최소 설정이 필요합니다. Journey Optimize
 
 * **사용자 지정 작업 모니터링 구성** - API 호출, 응답 시간 및 오류 패턴을 모니터링하도록 외부 시스템과의 통합에 대한 추적을 설정합니다. [자세히 알아보기](../action/reporting.md)
 
-* **사용자 지정 보고 및 데이터 내보내기** - 더 자세한 분석을 위해 맞춤 보고서를 작성하고 추적 데이터를 외부 시스템으로 내보냅니다. [자세히 알아보기](../reports/sharing-overview.md)
+* **사용자 지정 보고서를 만들고 데이터를 내보냅니다** - 더 자세한 분석을 위해 맞춤 보고서를 만들고 추적 데이터를 외부 시스템으로 내보냅니다. [자세히 알아보기](../reports/sharing-overview.md)
 
-**통합 성능 보기:** 캠페인과 여정 모두에 대한 포괄적인 보고서에 액세스하여 이메일, 푸시, SMS 및 기타 채널 간 성능을 비교하고 최상의 결과를 도출하는 조합을 파악합니다. [캠페인 보고서](../reports/campaign-global-report-cja.md) | [여정 보고서](../reports/journey-global-report-cja.md)
+* **통합 성능 보기:** 캠페인과 여정 모두에 대한 포괄적인 보고서에 액세스하여 이메일, 푸시, SMS 및 기타 채널 간 성능을 비교하고 최상의 결과를 도출하는 조합을 파악합니다. [캠페인 보고서](../reports/campaign-global-report-cja.md) | [여정 보고서](../reports/journey-global-report-cja.md)
 
 ## 최적화 및 의사 결정 성능 추적 {#optimization-decisioning-tracking}
 
@@ -242,27 +242,29 @@ Journey Optimizer은 최적화 실험, 타기팅 전략 및 의사 결정 성능
 
 ### 최적화 추적 설정 {#optimization-tracking}
 
-* **캠페인 및 여정의 최적화**
+* **캠페인 및 여정의 최적화**:
 
    * 실험을 생성할 때 추적할 지표(전환, 클릭 수, 사용자 지정 이벤트)를 정의합니다. Journey Optimizer은 각 치료에 대한 성능 데이터를 자동으로 수집합니다. [자세히 알아보기](../campaigns/campaigns-message-optimization.md#experimentation)
 
    * 타깃팅 규칙을 만들어 다른 콘텐츠를 다른 대상 세그먼트에 전달합니다. Journey Optimizer은 타깃팅된 각 그룹에 대한 참여 지표를 자동으로 추적하므로 세그먼트 간에 성능을 비교할 수 있습니다. [자세히 알아보기](../campaigns/campaigns-message-optimization.md#targeting)
 
-* **여정 경로 최적화** - **최적화** 활동을 여정에 추가하고 여러 경로를 구성합니다. Journey Optimizer은 프로필이 취하는 경로를 자동으로 추적하고 성능을 측정합니다. [자세히 알아보기](../building-journeys/optimize.md)
+* **여정 경로 최적화**: 여정에 **최적화** 활동을 추가하고 여러 경로를 구성합니다. Journey Optimizer은 프로필이 취하는 경로를 자동으로 추적하고 성능을 측정합니다. [자세히 알아보기](../building-journeys/optimize.md)
 
-**결과 분석:** 실험 보고서에서 전환율, 통계적 중요도 및 처리 간 상승도를 보거나 타깃팅된 세그먼트 간에 참여 지표를 비교할 수 있습니다. [실험 캠페인 보고서](../reports/campaign-global-report-cja-experimentation.md) | [실험 여정 보고서](../reports/journey-global-report-cja-experimentation.md) | [여정 타깃팅 보고서](../reports/journey-global-report-cja.md#targeting)
+결과를 분석하려면: 실험 보고서에서 전환율, 통계적 중요도 및 처리 간 상승도를 보거나 타겟팅된 세그먼트 간의 참여 지표를 비교하십시오. [실험 캠페인 보고서](../reports/campaign-global-report-cja-experimentation.md) | [실험 여정 보고서](../reports/journey-global-report-cja-experimentation.md) | [여정 타깃팅 보고서](../reports/journey-global-report-cja.md#targeting)
 
 ### 의사 결정 성능 추적 {#decisioning-tracking}
 
 Decisioning을 사용하여 콘텐츠를 개인화할 때 Journey Optimizer은 추가 구성 없이도 의사 결정 이벤트, 노출 횟수 및 클릭 수를 자동으로 추적합니다.
 
 * **자동 이벤트 캡처** - Journey Optimizer은 프로필에 대한 결정 항목이 선택될 때마다 결정 이벤트를 자동으로 캡처합니다.
-* **노출 추적** - 전자 메일의 경우 노출 수가 자동으로 추적됩니다. 코드 기반 경험의 경우 코드에 제안 표시 이벤트를 구현해야 합니다.
+* **노출 추적** - 전자 메일의 경우 노출 수가 자동으로 추적됩니다. 코드 기반 경험의 경우 코드에 제안 표시 이벤트를 구현해야 합니다. [자세히 알아보기](../code-based/code-based-implementation-samples.md#client-side-how)
 * **클릭 추적** - 결정 항목에 대한 클릭은 자동으로 이메일에서 추적됩니다. 코드 기반 경험에서는 클릭 이벤트를 구현해야 합니다.
 
-**코드 기반 추적을 위한 사전 요구 사항:** 코드 기반 경험에서 의사 결정을 추적하려면 구현에서 Web SDK 또는 Mobile SDK을 사용하여 Adobe Experience Platform에 제안 상호 작용 이벤트(디스플레이 및 클릭 수)를 전송하는지 확인하십시오. [자세히 알아보기](../experience-decisioning/data-collection/schema-requirement.md)
+>[!NOTE]
+>
+>**코드 기반 경험**&#x200B;에서 의사 결정을 추적하려면 구현에서 Web SDK 또는 Mobile SDK을 사용하여 Adobe Experience Platform에 제안 상호 작용 이벤트(디스플레이 및 클릭 수)를 전송하는지 확인하십시오. [자세히 알아보기](../experience-decisioning/data-collection/schema-requirement.md)
 
-**성과 분석:** 보고서에서 의사 결정 KPI를 보고, 의사 결정 항목을 비교하고, 선택 전략을 분석하고, AI 모델 성과를 모니터링합니다. [자세히 알아보기](../experience-decisioning/cja-reporting.md)
+성과 모니터링: 보고서에서 의사 결정 KPI를 보고, 의사 결정 항목을 비교하고, 선택 전략을 분석하고, AI 모델 성과를 모니터링합니다. [자세히 알아보기](../experience-decisioning/cja-reporting.md)
 
 ## 추적 데이터 사용 제어 {#data-governance}
 
