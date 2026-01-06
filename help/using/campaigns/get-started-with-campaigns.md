@@ -259,13 +259,13 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 
 1. **[!UICONTROL 제품의]**&#x200B;역할[!DNL Permissions] 탭으로 이동하여 기본 제공 캠페인 관련 **[!UICONTROL 역할]** 중 하나를 선택하십시오.
 
-   1. **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
+   1.  **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
 
    1. 사용자 이름 또는 이메일 주소를 입력하거나 목록에서 사용자를 선택하고 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
    이전에 사용자를 생성하지 않은 경우 [사용자 설명서 추가](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/ui/users){target="_blank"}를 참조하십시오.
 
-   그러면 인스턴스로 리디렉션되는 이메일을 사용자가 받게 됩니다.
+   그러면 사용자가 인스턴스로 리디렉션되는 이메일을 받게 됩니다.
 
    +++
 
@@ -276,7 +276,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **예약 및 시간**
 
@@ -286,7 +286,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **속도 조절**
 
@@ -296,7 +296,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **대상 타깃팅**
 
@@ -306,7 +306,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **승인 워크플로**
 
@@ -316,7 +316,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **방해 금지 시간**
 
@@ -326,7 +326,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **최적화**
 

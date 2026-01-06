@@ -8,7 +8,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 7c47940713484dd6d6047eefe6e0ae0d0a276b9c
 workflow-type: tm+mt
 source-wordcount: '531'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -29,9 +29,9 @@ Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보세�
 [![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
 
->[!TAB 컨텍스트 데이터 반복]
+>[!TAB 상황별 데이터 반복]
 
-반복 구문을 사용하여 이벤트, 사용자 지정 작업 응답 및 기타 컨텍스트 데이터를 포함하여 메시지에 있는 다양한 소스의 동적 데이터 목록을 표시하는 방법에 대해 알아봅니다.
+반복 구문을 사용하여 이벤트, 사용자 지정 작업 응답 및 기타 상황별 데이터를 포함하여 메시지에 있는 다양한 소스의 동적 데이터 목록을 표시하는 방법에 대해 알아봅니다.
 
 [![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/personalization/iterate-contextual-data.md)
 
@@ -56,7 +56,7 @@ Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보세�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 최신 릴리스 정보
 
@@ -66,7 +66,7 @@ Adobe Journey Optimizer의 최신 릴리스 정보, 신규 기능, 개선 사항
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 시작
 
@@ -76,7 +76,7 @@ Journey Optimizer의 기능, 아키텍처, 사용자 인터페이스 등 기본 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 여정 종합 안내서
 
@@ -86,7 +86,7 @@ Journey Optimizer의 기능, 아키텍처, 사용자 인터페이스 등 기본 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 캠페인 이해 및 관리
 
@@ -96,7 +96,7 @@ Journey Optimizer의 기능, 아키텍처, 사용자 인터페이스 등 기본 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 커뮤니케이션 채널
 
@@ -106,7 +106,7 @@ Journey Optimizer의 기능, 아키텍처, 사용자 인터페이스 등 기본 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 충돌 관리 및 우선순위 지정
 

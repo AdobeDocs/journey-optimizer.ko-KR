@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 8ea2a0fe685678d41004d549443a1757eb30c765
 workflow-type: tm+mt
 source-wordcount: '3037'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 96%
 + 시작하기 {#get-started}
    + [시작하기](/help/rp_landing_pages/get-started-landing-page.md)
    + 기본 사항 {#essentials}
-      + [Journey Optimizer란?](using/start/get-started.md)
+      + [Journey Optimizer 소개](using/start/get-started.md)
       + [작동 방식 이해](using/start/understanding-ajo.md)
       + [주요 용어](using/start/terminology.md)
       + [가드레일 및 제한 사항](using/start/guardrails.md)
@@ -43,16 +43,16 @@ ht-degree: 96%
       + [데이터 엔지니어로 시작하기](using/start/path/data-engineer.md)
       + [관리자로 시작하기](using/start/path/administrator.md)
       + [개발자로 시작하기](using/start/path/developer.md)
-   + 효율적인 작업 {#work-efficiently}
-      + [인터페이스 탐색](using/start/user-interface.md)
-      + [검색, 필터링 및 구성](using/start/search-filter-categorize.md)
+   + 효율적으로 작업 {#work-efficiently}
+      + [인터페이스 살펴보기](using/start/user-interface.md)
+      + [검색, 필터링 및 정리](using/start/search-filter-categorize.md)
       + [AI 및 지능형 기능](using/start/ai-features.md)
       + [접근성](using/start/accessibility.md)
       + [여정과 캠페인](using/start/journeys-vs-campaigns.md)
 + 여정 {#orchestrate-journeys}
    + [여정 시작](using/building-journeys/journey.md)
    + [여정 유형 및 선택 안내서](using/building-journeys/journey-types-selection.md)
-   + [JOURNEY ORCHESTRATION FAQ](using/building-journeys/journey-faq.md)
+   + [Journey Orchestration FAQ](using/building-journeys/journey-faq.md)
    + 여정 만들기 {#create-journey}
       + [여정 만들기](/help/rp_landing_pages/create-journey-landing-page.md)
       + [첫 여정 만들기](using/building-journeys/journey-gs.md)
@@ -193,7 +193,7 @@ ht-degree: 96%
          + [채널 활동](using/orchestrated/activities/channels.md)
          + [결합](using/orchestrated/activities/combine.md)
          + [중복 제거](using/orchestrated/activities/deduplication.md)
-         + [데이터 보강](using/orchestrated/activities/enrichment.md)
+         + [보강](using/orchestrated/activities/enrichment.md)
          + [포크](using/orchestrated/activities/fork.md)
          + [대상자 읽기](using/orchestrated/activities/read-audience.md)
          + [조정](using/orchestrated/activities/reconciliation.md)
@@ -204,7 +204,7 @@ ht-degree: 96%
       + 사용 사례를 통해 알아보기 {#use-cases}
          + [위시리스트 항목 업데이트 보내기](using/orchestrated/wishlist-uc.md)
          + [활동을 탐색하여 고객 참여](using/orchestrated/engage-customers-uc.md)
-         + [사용자에게 제품 사용 가능 여부 알림](using/orchestrated/product-availability-uc.md)
+         + [사용자에게 제품 출시 알림](using/orchestrated/product-availability-uc.md)
 + 충돌 및 우선순위 지정 {#conflict-prioritization}
    + [충돌 관리 및 우선순위 지정](/help/rp_landing_pages/conflict-prioritization-landing-page.md)
    + [충돌 관리 및 우선 순위 지정 시작](using/conflict-prioritization/gs-conflict-prioritization.md)
@@ -348,7 +348,7 @@ ht-degree: 96%
          + [웹 채널 전제 조건](using/web/web-prerequisites.md)
          + [웹 하위 도메인 구성](using/web/web-delegated-subdomains.md)
          + [웹 채널 구성 만들기](using/web/web-configuration.md)
-      + [웹 경험 만들기 &#x200B;](using/web/create-web.md)
+      + [웹 경험 만들기 ](using/web/create-web.md)
       + 웹 페이지 작성 {#author-web-pages}
          + [웹 페이지 작성](/help/rp_landing_pages/author-web-pages-landing-page.md)
          + [웹 디자이너를 사용하여 작업](using/web/web-visual-editor.md)
@@ -402,13 +402,13 @@ ht-degree: 96%
          + [Journey Optimizer에서 라이브 활동 구성](using/mobile-live/mobile-live-configuration.md)
          + [라이브 활동 SDK 통합 구성](using/mobile-live/mobile-live-configuration-sdk.md)
 + 콘텐츠 관리 {#content-management}
-   + [콘텐츠 관리 &#x200B;](/help/rp_landing_pages/content-management-landing-page.md)
+   + [콘텐츠 관리 ](/help/rp_landing_pages/content-management-landing-page.md)
    + 개인화 {#personalization}
       + [개인화](/help/rp_landing_pages/personalization-landing-page.md)
       + [개인화 시작](using/personalization/personalize.md)
       + [개인화 추가](using/personalization/personalization-build-expressions.md)
       + [개인화 구문](using/personalization/personalization-syntax.md)
-      + [컨텍스트 기반 데이터 반복](using/personalization/iterate-contextual-data.md)
+      + [상황별 데이터 반복](using/personalization/iterate-contextual-data.md)
       + [표현식 조각 다시 사용](using/personalization/use-expression-fragments.md)
       + [개인화에 Adobe Experience Platform 데이터 사용](using/personalization/aep-data-perso.md)
       + 도우미 함수 목록 {#functions}
@@ -600,7 +600,7 @@ ht-degree: 96%
       + [의사 결정 FAQ](using/experience-decisioning/decisioning-faq.md)
       + API 참조 {#experience-decisioning-api-reference}
          + [API 참조](/help/rp_landing_pages/experience-decisioning-api-reference-landing-page.md)
-         + [Decisioning API 시작](using/experience-decisioning/api-reference/getting-started.md)
+         + [API 결정하기 시작](using/experience-decisioning/api-reference/getting-started.md)
          + 결정 항목 {#decision-items}
             + [결정 항목 만들기](using/experience-decisioning/api-reference/decisions-items/create.md)
             + [결정 항목 목록](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)
@@ -697,7 +697,7 @@ ht-degree: 96%
          + [오퍼 만들기 및 관리](/help/rp_landing_pages/managing-offers-in-the-offer-library-landing-page.md)
          + 오퍼 구성 {#configure-offers}
             + [오퍼 구성](/help/rp_landing_pages/configure-offers-landing-page.md)
-            + [개인화된 오퍼 만들기](using/offers/offer-library/creating-personalized-offers.md)
+            + [맞춤형 오퍼 만들기](using/offers/offer-library/creating-personalized-offers.md)
             + [표시 추가](using/offers/offer-library/add-representations.md)
             + [제한 추가](using/offers/offer-library/add-constraints.md)
          + [대체 오퍼 만들기](using/offers/offer-library/creating-fallback-offers.md)
@@ -858,7 +858,7 @@ ht-degree: 96%
       + [IP 풀 만들기](using/configuration/ip-pools.md)
    + IP 준비 계획 구현 {#implement-ip-warmup-plan}
       + [IP 준비 계획 구현](/help/rp_landing_pages/implement-ip-warmup-plan-landing-page.md)
-      + [IP 웜업 전달성 안내서](using/configuration/ip-warmup-deliverability-guide.md)
+      + [IP 워밍업 게재 가능성 안내서](using/configuration/ip-warmup-deliverability-guide.md)
       + [IP 준비 계획 시작](using/configuration/ip-warmup-gs.md)
       + [IP 워밍업 캠페인 만들기](using/configuration/ip-warmup-campaign.md)
       + [IP 워밍업 플랜 만들기](using/configuration/ip-warmup-plan.md)
