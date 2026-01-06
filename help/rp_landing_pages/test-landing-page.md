@@ -9,7 +9,7 @@ level: Beginner, Intermediate
 keywords: 테스트, 유효성 검사, 승인, 승인, 품질 보증, qa, 테스트 프로필, 개인화, 렌더링, 스팸 확인, 콘텐츠 실험, a/b 테스트, 충돌 감지, 시드 목록, 증명, 샘플 데이터, 승인 워크플로우, 이메일 테스트, 유효성 검사 워크플로우
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: 23ca6aa1372e66439002f02896e46ccead7e28ce
+source-git-commit: c3535f39b351d671054031b9cc391bf6d9d83a09
 workflow-type: tm+mt
 source-wordcount: '2328'
 ht-degree: 6%
@@ -26,7 +26,7 @@ ht-degree: 6%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 콘텐츠 미리 보기, 테스트 및 유효성 검사
 
@@ -36,7 +36,7 @@ ht-degree: 6%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 여정과 캠페인을 위한 승인 워크플로우
 
@@ -46,7 +46,7 @@ ht-degree: 6%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 여정 테스트
 
@@ -56,7 +56,7 @@ ht-degree: 6%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 여정 시험 실행
 
@@ -66,7 +66,7 @@ ht-degree: 6%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 모니터링 및 문제 해결
 
@@ -76,7 +76,7 @@ ht-degree: 6%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Personalization 플레이그라운드
 
@@ -86,7 +86,7 @@ Personalization 플레이그라운드
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/data.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 콘텐츠 실험 및 A/B 테스트
 
@@ -96,7 +96,7 @@ Personalization 플레이그라운드
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 관련자 모니터링을 위한 시드 목록
 
@@ -106,7 +106,7 @@ Personalization 플레이그라운드
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 충돌 감지
 
@@ -373,7 +373,7 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 **[증명](../using/content-management/proofs.md)** - 테스트 프로필 데이터를 사용하여 특정 이메일 주소로 전송된 이메일 게재를 테스트합니다. 시드 목록과 다릅니다(증명은 수동 테스트 전송이며 시드 목록은 자동 이해 관계자 사본). [증명 보내기](../using/content-management/proofs.md)
 
-**[충돌 감지](../using/conflict-prioritization/conflicts.md)** - 동일한 대상을 타깃팅하는 겹치는 캠페인과 여정을 식별하는 도구입니다. 제한된 여정 지원: 단일, 대상 자격 및 대상 읽기 유형만 지원합니다. [충돌 관리에 대해 알아보기](../using/conflict-prioritization/gs-conflict-prioritization.md)
+**[충돌 감지](../using/conflict-prioritization/conflicts.md)** - 동일한 대상을 타깃팅하는 겹치는 캠페인과 여정을 식별하는 도구입니다. 제한된 여정 지원: 단일, 대상 자격 및 대상 읽기 유형만 지원합니다. [충돌 관리 알아보기](../using/conflict-prioritization/gs-conflict-prioritization.md)
 
 **[승인 워크플로](../using/test-approve/gs-approval.md)** - 활성화하기 전에 관련자 승인이 필요한 다단계 검토 프로세스입니다. 승인 정책 구성이 필요합니다. [승인 설정](../using/test-approve/gs-approval.md) | [정책 만들기](../using/test-approve/approval-policies.md)
 
