@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: 테스트, 유효성 검사, 승인, 승인, 품질 보증, qa, 테스트 프로필, 개인화, 렌더링, 스팸 확인, 콘텐츠 실험, a/b 테스트, 충돌 감지, 시드 목록, 증명, 샘플 데이터, 승인 워크플로우, 이메일 테스트, 유효성 검사 워크플로우
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: 5b1a68bb64fc55de894cb97a5239f4e1cd77fb40
+source-git-commit: 670503f9aedcd3008b3cd63c0ec6e59fac3dc31a
 workflow-type: tm+mt
-source-wordcount: '2308'
-ht-degree: 5%
+source-wordcount: '2328'
+ht-degree: 6%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 5%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 콘텐츠 미리 보기, 테스트 및 유효성 검사
 
@@ -36,7 +36,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 여정과 캠페인을 위한 승인 워크플로우
 
@@ -46,7 +46,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 여정 테스트
 
@@ -56,7 +56,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 여정 시험 실행
 
@@ -66,7 +66,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 모니터링 및 문제 해결
 
@@ -76,7 +76,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Personalization 플레이그라운드
 
@@ -96,7 +96,7 @@ Personalization 플레이그라운드
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 관련자 모니터링을 위한 시드 목록
 
@@ -106,7 +106,7 @@ Personalization 플레이그라운드
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 충돌 감지
 
@@ -305,12 +305,55 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 테스트 개념이 실제 시나리오에 어떻게 적용되는지 알아보십시오.
 
-| 사용 사례 | 학습 내용 | 주요 테스트 포커스 |
-|----------|-------------------|-------------------|
-| **[다중 채널 메시지 보내기](../using/building-journeys/journeys-uc.md)** | 대상자 읽기, 반응 이벤트 및 이메일/푸시 메시지를 결합하는 여정을 테스트합니다. 대상 타기팅에서 메시지 게재까지의 전체 흐름을 확인합니다. | 멀티채널 조정, 반응 이벤트, 엔드 투 엔드 플로우 유효성 검사, 테스트 및 게시 단계 |
-| **[구독자에게 메시지 보내기](../using/building-journeys/message-to-subscribers-uc.md)** | 동적 이메일 주소 지정으로 구독 목록을 타겟팅하는 여정을 테스트합니다. 올바른 구독자 타겟팅을 위해 개인화 표현식의 유효성을 검사합니다. | Personalization 표현식, 동적 주소 지정, 구독 목록 타기팅 |
-| **[시간 제한 메시지 보내기](../using/building-journeys/weekday-email-uc.md)** | 특정 날짜에 메시지가 전송되도록 시간 기반 조건으로 여정을 테스트합니다. 대기 활동 및 예약 논리의 유효성을 검사합니다. | 시간 기반 조건, 대기 활동, 유효성 검사 예약 |
-| **[더 많은 여정 사용 사례 살펴보기](../using/building-journeys/jo-use-cases.md)** | 경험 이벤트, 다중 채널 메시징 및 외부 시스템 통합에 대한 포괄적인 실제 예제 컬렉션에 액세스합니다. | 다양한 시나리오, 고급 패턴, 통합 테스트 |
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="../using/building-journeys/journeys-uc.md">
+<img alt="다중 채널 메시지 보내기" src="../using/assets/do-not-localize/start-journey.jpeg">
+</a>
+<div>
+<a href="../using/building-journeys/journeys-uc.md"><strong>다중 채널 메시지 보내기</strong></a>
+</div>
+<p>
+대상자 읽기, 반응 이벤트 및 이메일/푸시 메시지를 결합하는 여정을 테스트합니다. 대상 타기팅에서 메시지 게재까지의 전체 흐름을 확인합니다. 멀티채널 조정, 반응 이벤트, 엔드 투 엔드 플로우 유효성 검사 및 테스트/게시 단계에 중점을 둡니다.
+</p>
+</td>
+<td>
+<a href="../using/building-journeys/message-to-subscribers-uc.md">
+<img alt="구독자에게 메시지 보내기" src="../using/assets/do-not-localize/start-quick.png">
+</a>
+<div>
+<a href="../using/building-journeys/message-to-subscribers-uc.md"><strong>구독자에게 메시지 보내기</strong></a>
+</div>
+<p>
+동적 이메일 주소 지정으로 구독 목록을 타겟팅하는 여정을 테스트합니다. 올바른 구독자 타겟팅을 위해 개인화 표현식의 유효성을 검사합니다. 개인화 표현식, 동적 주소 지정 및 구독 목록 타깃팅에 중점을 둡니다.
+</p>
+</td>
+<td>
+<a href="../using/building-journeys/weekday-email-uc.md">
+<img alt="시간 바인딩된 메시지 보내기" src="../using/assets/do-not-localize/icon-first-journey.svg">
+</a>
+<div>
+<a href="../using/building-journeys/weekday-email-uc.md"><strong>시간 제한 메시지 보내기</strong></a>
+</div>
+<p>
+특정 날짜에 메시지가 전송되도록 시간 기반 조건으로 여정을 테스트합니다. 대기 활동 및 예약 논리의 유효성을 검사합니다. 시간 기반 조건, 대기 활동 및 예약 유효성 검사에 중점을 둡니다.
+</p>
+</td>
+</tr></table>
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="../using/building-journeys/jo-use-cases.md">
+<img alt="더 많은 여정 사용 사례 살펴보기" src="../using/assets/do-not-localize/icon-quick-start.svg">
+</a>
+<div>
+<a href="../using/building-journeys/jo-use-cases.md"><strong>더 많은 여정 사용 사례 살펴보기</strong></a>
+</div>
+<p>
+경험 이벤트, 다중 채널 메시징 및 외부 시스템 통합에 대한 포괄적인 실제 예제 컬렉션을 살펴보십시오. 다양한 시나리오, 고급 패턴 및 통합 테스트 접근 방식을 살펴봅니다.
+</p>
+</td>
+</tr></table>
 
 ## 주요 용어
 
