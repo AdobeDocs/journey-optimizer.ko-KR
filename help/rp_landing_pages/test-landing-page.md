@@ -9,7 +9,7 @@ level: Beginner, Intermediate
 keywords: 테스트, 유효성 검사, 승인, 승인, 품질 보증, qa, 테스트 프로필, 개인화, 렌더링, 스팸 확인, 콘텐츠 실험, a/b 테스트, 충돌 감지, 시드 목록, 증명, 샘플 데이터, 승인 워크플로우, 이메일 테스트, 유효성 검사 워크플로우
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: 670503f9aedcd3008b3cd63c0ec6e59fac3dc31a
+source-git-commit: 23ca6aa1372e66439002f02896e46ccead7e28ce
 workflow-type: tm+mt
 source-wordcount: '2328'
 ht-degree: 6%
@@ -26,7 +26,7 @@ ht-degree: 6%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 콘텐츠 미리 보기, 테스트 및 유효성 검사
 
@@ -36,7 +36,7 @@ ht-degree: 6%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 여정과 캠페인을 위한 승인 워크플로우
 
@@ -46,7 +46,7 @@ ht-degree: 6%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 여정 테스트
 
@@ -56,7 +56,7 @@ ht-degree: 6%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 여정 시험 실행
 
@@ -66,7 +66,7 @@ ht-degree: 6%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 모니터링 및 문제 해결
 
@@ -76,7 +76,7 @@ ht-degree: 6%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Personalization 플레이그라운드
 
@@ -96,7 +96,7 @@ Personalization 플레이그라운드
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 관련자 모니터링을 위한 시드 목록
 
@@ -106,7 +106,7 @@ Personalization 플레이그라운드
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 충돌 감지
 
@@ -330,7 +330,7 @@ Use this decision tree to quickly identify the right testing tools for your spec
 </td>
 <td>
 <a href="../using/building-journeys/weekday-email-uc.md">
-<img alt="시간 바인딩된 메시지 보내기" src="../using/assets/do-not-localize/icon-first-journey.svg">
+<img alt="시간 바인딩된 메시지 보내기" src="../using/assets/do-not-localize/calendar.jpeg">
 </a>
 <div>
 <a href="../using/building-journeys/weekday-email-uc.md"><strong>시간 제한 메시지 보내기</strong></a>
