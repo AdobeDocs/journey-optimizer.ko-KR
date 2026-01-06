@@ -9,9 +9,9 @@ level: Beginner, Intermediate
 keywords: 테스트, 유효성 검사, 승인, 승인, 품질 보증, qa, 테스트 프로필, 개인화, 렌더링, 스팸 확인, 콘텐츠 실험, a/b 테스트, 충돌 감지, 시드 목록, 증명, 샘플 데이터, 승인 워크플로우, 이메일 테스트, 유효성 검사 워크플로우
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: 1f0890dd4257f049fd041dc2dbf6d45cd0d7092c
+source-git-commit: 5b1a68bb64fc55de894cb97a5239f4e1cd77fb40
 workflow-type: tm+mt
-source-wordcount: '2284'
+source-wordcount: '2308'
 ht-degree: 5%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 5%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 콘텐츠 미리 보기, 테스트 및 유효성 검사
 
@@ -36,7 +36,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 여정과 캠페인을 위한 승인 워크플로우
 
@@ -46,7 +46,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 여정 테스트
 
@@ -56,7 +56,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 여정 시험 실행
 
@@ -66,7 +66,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 모니터링 및 문제 해결
 
@@ -76,7 +76,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Personalization 플레이그라운드
 
@@ -96,7 +96,7 @@ Personalization 플레이그라운드
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 관련자 모니터링을 위한 시드 목록
 
@@ -106,7 +106,7 @@ Personalization 플레이그라운드
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 충돌 감지
 
@@ -233,7 +233,7 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 **API 트리거 캠페인의 경우:**
 
-* 프로그래밍 방식으로 증명 작업을 트리거하려면 [Campaign 시뮬레이션 API](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}를 사용하십시오.
+* 프로그래밍 방식으로 증명 작업을 트리거하려면 [Campaign 시뮬레이션 API](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target-&quot;_blank&quot;}를 사용하십시오.
 
 >[!TAB 여정 테스트]
 
@@ -314,27 +314,29 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 ## 주요 용어
 
-**[테스트 프로필](../using/content-management/test-profiles.md)** = 개인화된 콘텐츠를 미리 보는 데 사용되는 가상 고객 프로필(실제 고객이 아님)입니다. 실시간 고객 프로필 서비스에 플래그가 지정되었습니다. 테스트 모드 및 컨텐츠 미리 보기에 필요합니다. [테스트 프로필을 만드는 방법을 알아봅니다](../using/audience/creating-test-profiles.md)
+이러한 필수 테스트 개념을 숙지하여 Journey Optimizer의 테스트 및 승인 기능을 더 잘 이해하십시오. 각 용어는 자세한 설명서에 연결됩니다.
 
-**[테스트 모드](../using/building-journeys/testing-the-journey.md)** = 여정 경로를 통해 테스트 프로필을 전송하는 여정 시뮬레이션 기능입니다. 제한 사항: 초안 여정 전용, 네임스페이스 필요, 테스트 프로필만 해당. [테스트 모드 설명서 보기](../using/building-journeys/testing-the-journey.md)
+**[테스트 프로필](../using/content-management/test-profiles.md)** - 개인화된 콘텐츠를 미리 보는 데 사용되는 가상 고객 프로필(실제 고객이 아님)입니다. 실시간 고객 프로필 서비스에 플래그가 지정되었습니다. 테스트 모드 및 컨텐츠 미리 보기에 필요합니다. [테스트 프로필을 만드는 방법을 알아봅니다](../using/audience/creating-test-profiles.md)
 
-**[시험 실행](../using/building-journeys/journey-dry-run.md)** = 메시지를 보내거나 API 호출을 하지 않고 경로를 추적하는 여정 실행 분석 도구입니다. 사용 사례: 리소스를 사용하지 않고 논리를 확인합니다. [시험 실행에 대해 알아보기](../using/building-journeys/journey-dry-run.md)
+**[테스트 모드](../using/building-journeys/testing-the-journey.md)** - 여정 경로를 통해 테스트 프로필을 전송하는 여정 시뮬레이션 기능입니다. 제한 사항: 초안 여정 전용, 네임스페이스 필요, 테스트 프로필만 해당. [테스트 모드 설명서 보기](../using/building-journeys/testing-the-journey.md)
 
-**[입력 데이터 샘플](../using/test-approve/simulate-sample-input.md)** = 개인화 테스트를 위한 프로필 속성 값이 들어 있는 CSV 또는 JSON 파일. 최대 30개의 변형을 지원합니다. 테스트 프로필을 만드는 대신 사용할 수 있습니다. [콘텐츠 변형을 시뮬레이션하는 방법](../using/test-approve/simulate-sample-input.md)
+**[시험 실행](../using/building-journeys/journey-dry-run.md)** - 메시지를 보내거나 API 호출을 하지 않고 경로를 추적하는 여정 실행 분석 도구입니다. 사용 사례: 리소스를 사용하지 않고 논리를 확인합니다. [시험 실행에 대해 알아보기](../using/building-journeys/journey-dry-run.md)
 
-**[시드 목록](../using/configuration/seed-lists.md)** = 내부 관련자의 전자 메일 주소가 실제 게재에 자동으로 포함됩니다(테스트 전송 아님). 이메일 채널만. 사용 사례: 품질 모니터링 및 규정 준수. [시드 목록 구성](../using/configuration/seed-lists.md)
+**[샘플 입력 데이터](../using/test-approve/simulate-sample-input.md)** - 개인화 테스트를 위한 프로필 속성 값이 포함된 CSV 또는 JSON 파일입니다. 최대 30개의 변형을 지원합니다. 테스트 프로필을 만드는 대신 사용할 수 있습니다. [콘텐츠 변형을 시뮬레이션하는 방법](../using/test-approve/simulate-sample-input.md)
 
-**[콘텐츠 실험](../using/content-management/get-started-experiment.md)** = 콘텐츠 변형을 비교하는 A/B 테스트 또는 multi-armed bandit 실험. 캠페인만 해당되며, 여정에서 사용할 수 없습니다. [실험 시작](../using/content-management/get-started-experiment.md) | [실험 만들기](../using/content-management/content-experiment.md)
+**[시드 목록](../using/configuration/seed-lists.md)** - 내부 관련자의 전자 메일 주소가 실제 게재에 자동으로 포함됩니다(테스트 전송 아님). 이메일 채널만. 사용 사례: 품질 모니터링 및 규정 준수. [시드 목록 구성](../using/configuration/seed-lists.md)
 
-**[증명](../using/content-management/proofs.md)** = 테스트 프로필 데이터를 사용하여 특정 이메일 주소로 전송된 테스트 이메일 게재. 시드 목록과 다릅니다(증명은 수동 테스트 전송이며 시드 목록은 자동 이해 관계자 사본). [증명 보내기](../using/content-management/proofs.md)
+**[콘텐츠 실험](../using/content-management/get-started-experiment.md)** - 콘텐츠 변형을 비교하는 A/B 테스트 또는 multi-armed bandit 실험 캠페인만 해당되며, 여정에서 사용할 수 없습니다. [실험 시작](../using/content-management/get-started-experiment.md) | [실험 만들기](../using/content-management/content-experiment.md)
 
-**[충돌 감지](../using/conflict-prioritization/conflicts.md)** = 동일한 대상을 타깃팅하는 겹치는 캠페인과 여정을 식별하는 도구입니다. 제한된 여정 지원: 단일, 대상 자격 및 대상 읽기 유형만 지원합니다. [충돌 관리에 대해 알아보기](../using/conflict-prioritization/gs-conflict-prioritization.md)
+**[증명](../using/content-management/proofs.md)** - 테스트 프로필 데이터를 사용하여 특정 이메일 주소로 전송된 이메일 게재를 테스트합니다. 시드 목록과 다릅니다(증명은 수동 테스트 전송이며 시드 목록은 자동 이해 관계자 사본). [증명 보내기](../using/content-management/proofs.md)
 
-**[승인 워크플로](../using/test-approve/gs-approval.md)** = 활성화하기 전에 관련자 승인이 필요한 다단계 검토 프로세스입니다. 승인 정책 구성이 필요합니다. [승인 설정](../using/test-approve/gs-approval.md) | [정책 만들기](../using/test-approve/approval-policies.md)
+**[충돌 감지](../using/conflict-prioritization/conflicts.md)** - 동일한 대상을 타깃팅하는 겹치는 캠페인과 여정을 식별하는 도구입니다. 제한된 여정 지원: 단일, 대상 자격 및 대상 읽기 유형만 지원합니다. [충돌 관리에 대해 알아보기](../using/conflict-prioritization/gs-conflict-prioritization.md)
 
-**[테스트 렌더링](../using/content-management/rendering.md)** = 이메일 클라이언트(Gmail, Outlook, Apple Mail) 및 장치 간 이메일 표시 유효성 검사 Litmus 통합이 필요합니다. [전자 메일 렌더링 테스트](../using/content-management/rendering.md)
+**[승인 워크플로](../using/test-approve/gs-approval.md)** - 활성화하기 전에 관련자 승인이 필요한 다단계 검토 프로세스입니다. 승인 정책 구성이 필요합니다. [승인 설정](../using/test-approve/gs-approval.md) | [정책 만들기](../using/test-approve/approval-policies.md)
 
-**[Personalization playground](../using/personalization/personalize.md#playground)** = 개인화 구문을 실험하고 샘플 데이터를 사용하여 식을 테스트하는 대화형 학습 환경입니다. 라이브 데이터 세트가 필요하지 않습니다. [플레이그라운드 액세스](../using/personalization/personalize.md#playground)
+**[테스트 렌더링](../using/content-management/rendering.md)** - 전자 메일 클라이언트(Gmail, Outlook, Apple Mail) 및 장치 간 전자 메일 표시 유효성 검사 Litmus 통합이 필요합니다. [전자 메일 렌더링 테스트](../using/content-management/rendering.md)
+
+**[Personalization 플레이그라운드](../using/personalization/personalize.md#playground)** - 샘플 데이터를 사용하여 개인화 구문을 실험하고 표현식을 테스트하는 대화형 학습 환경입니다. 라이브 데이터 세트가 필요하지 않습니다. [플레이그라운드 액세스](../using/personalization/personalize.md#playground)
 
 ## 추가 리소스
 
@@ -385,12 +387,12 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 +++**관련 기능**
 
-* 테스트 + 승인 워크플로우 = 품질 보증 프로세스
-* 테스트 + 충돌 감지 = 고객 과대 메시지 방지
-* 테스트 + 콘텐츠 실험 = 성능 최적화
-* 테스트 + 보고 = 지속적인 개선 주기
-* 테스트 프로필 + Personalization = 컨텐츠 유효성 검사
-* 시험 실행 + 여정 모드 = 포괄적인 테스트 유효성 검사
+* 테스트 + 승인 작업 과정 - 품질 보증 프로세스
+* 테스트 + 충돌 감지 - 고객 과다 메시징 방지
+* 테스트 + 콘텐츠 실험 - 성능 최적화
+* 테스트 + 보고 - 지속적인 개선 주기
+* 테스트 프로필 + Personalization - 콘텐츠 유효성 검사
+* 시험 실행 + 여정 모드 - 포괄적인 테스트 유효성 검사
 
 +++
 
@@ -425,7 +427,7 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 **테스트 모드:** 여정을 통해 테스트 프로필을 보내고 실제 작업을 트리거하며 테스트 메시지를 생성합니다. 초안 여정 + 네임스페이스가 필요합니다.
 **시험 실행:** 아무것도 보내지 않고 실행 경로를 추적합니다. 모든 여정 상태에서 작동합니다. 보낸 메시지가 없고 실행된 액션이 없습니다.
-**함께 사용:** 메시지 테스트를 위한 테스트 모드 + 논리 유효성 검사를 위한 시험 실행 = 포괄적인 적용 범위.
+**함께 사용:** 메시지 테스트를 위한 테스트 모드 + 논리 유효성 검사를 위한 시험 실행 - 포괄적인 적용 범위.
 
 +++
 
@@ -448,7 +450,7 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 +++**Q: API 트리거 캠페인을 테스트하려면 어떻게 합니까?**
 
-**옵션 1:** 프로그래밍 테스트에 [Campaign 시뮬레이션 API 사용](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
+**옵션 1:** 프로그래밍 테스트에 [Campaign 시뮬레이션 API 사용](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target-&quot;_blank&quot;}
 **옵션 2:** UI에서 테스트 프로필로 콘텐츠 미리 보기
 **옵션 3:** 테스트 전자 메일 주소로 증명 보내기
 **모범 사례:** 포괄적인 유효성 검사를 위해 세 가지 모두를 결합
