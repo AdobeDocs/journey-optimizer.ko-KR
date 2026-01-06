@@ -9,9 +9,9 @@ level: Beginner, Intermediate
 keywords: 테스트, 유효성 검사, 승인, 승인, 품질 보증, qa, 테스트 프로필, 개인화, 렌더링, 스팸 확인, 콘텐츠 실험, a/b 테스트, 충돌 감지, 시드 목록, 증명, 샘플 데이터, 승인 워크플로우, 이메일 테스트, 유효성 검사 워크플로우
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: 3f2bf04dbeb3e5099c151a412a4a5e54f13122ee
+source-git-commit: 1f0890dd4257f049fd041dc2dbf6d45cd0d7092c
 workflow-type: tm+mt
-source-wordcount: '2560'
+source-wordcount: '2284'
 ht-degree: 5%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 5%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 콘텐츠 미리 보기, 테스트 및 유효성 검사
 
@@ -36,7 +36,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 여정과 캠페인을 위한 승인 워크플로우
 
@@ -46,7 +46,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 여정 테스트
 
@@ -56,7 +56,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 여정 시험 실행
 
@@ -66,7 +66,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 모니터링 및 문제 해결
 
@@ -76,7 +76,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Personalization 플레이그라운드
 
@@ -96,7 +96,7 @@ Personalization 플레이그라운드
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 관련자 모니터링을 위한 시드 목록
 
@@ -106,7 +106,7 @@ Personalization 플레이그라운드
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 충돌 감지
 
@@ -290,89 +290,16 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 ## 권장 테스트 워크플로우
 
-철저한 테스트와 원활한 승인을 보장하기 위해 다음과 같은 체계적인 접근 방식을 따르십시오.
+출시 전에 캠페인 및 여정을 확인하려면 이 4단계 접근 방식을 따르십시오.
 
-### &#x200B;1. 콘텐츠 개발 및 미리보기
+| 단계 | 테스트 대상 | 주요 작업 |
+|-------|-------------|-------------|
+| **1. 콘텐츠 유효성 검사** | Personalization, 디자인, 렌더링 | CSV/JSON을 사용하여 [테스트 프로필로 미리 보기](../using/content-management/preview-test.md), 테스트 [여러 변형](../using/test-approve/simulate-sample-input.md), 장치 간 [렌더링](../using/content-management/rendering.md) 확인 |
+| **2. 기술 검사** | 전달성, 링크, 충돌 | [스팸 점수 확인](../using/content-management/spam-report.md) 실행, 링크 유효성 검사, 다른 캠페인과의 [충돌](../using/conflict-prioritization/conflicts.md) 확인 |
+| **3. 여정 논리**(여정 전용) | 항목 조건, 흐름, 분기 | [테스트 모드](../using/building-journeys/testing-the-journey.md)를 사용하여 진행률을 시뮬레이션하고 복잡한 경로에 대해 [시험 실행](../using/building-journeys/journey-dry-run.md)을 실행하십시오. |
+| **4. 시작 전** | 설정, 승인, 모니터링 | [승인](../using/test-approve/gs-approval.md)을 위해 제출하고, 일정 및 대상을 확인하고, [경고](../using/reports/alerts.md)를 사용하도록 설정하십시오. |
 
-먼저 콘텐츠를 만들고 미리보기 기능을 사용하여 초기 디자인 및 개인화를 확인합니다.
-
-* [이메일](../using/email/create-email.md), [SMS](../using/sms/create-sms.md), [푸시 알림](../using/push/create-push.md) 또는 기타 채널 콘텐츠 디자인
-
-* **[콘텐츠 시뮬레이션](../using/content-management/preview-test.md)** 기능을 사용하여 테스트 프로필로 미리 보기
-
-* [개인화 토큰](../using/personalization/personalization-syntax.md), 다이내믹 콘텐츠 및 대체 값 확인
-
-* **[개인화 플레이그라운드](../using/personalization/personalize.md#playground)**&#x200B;에서 개인화 표현식을 실험하여 라이브 콘텐츠에 적용하기 전에 샘플 데이터로 코드를 테스트하고 세분화합니다
-
-* CSV/JSON 파일의 **[샘플 입력 데이터](../using/test-approve/simulate-sample-input.md)**&#x200B;를 사용하여 여러 변형을 테스트하여 다양한 프로필 시나리오에서 개인화의 유효성을 검사합니다.
-
-* 다양한 화면 크기 및 전자 메일 클라이언트에서 [렌더링](../using/content-management/rendering.md) 확인
-
-### &#x200B;2. 기술 검증
-
-전달성 및 기능에 영향을 주는 기술적 측면의 유효성 검사:
-
-* [스팸 점수 확인](../using/content-management/spam-report.md)을 실행하여 잠재적인 게재 가능성 문제를 식별하십시오.
-
-* 링크가 손상되지 않고 제대로 추적되는지 테스트합니다.
-
-* [전자 메일 인증](../using/configuration/dmarc-record.md)(SPF, DKIM, DMARC) 구성 유효성 검사
-
-* HTML 렌더링 검토 및 CSS 호환성 문제 확인
-
-* 모바일 및 데스크톱 장치에서 [응답형 디자인](../using/email/content-from-scratch.md) 테스트
-
-* 고객 메시지 피로도 및 시간 문제를 방지하기 위해 다른 캠페인 및 여정과 [잠재적 충돌](../using/conflict-prioritization/conflicts.md)을 확인합니다.
-
-### &#x200B;3. 여정 테스트(여정 전용)
-
-여정을 테스트하는 경우 오케스트레이션 논리의 유효성을 검사합니다.
-
-* **[테스트 모드](../using/building-journeys/testing-the-journey.md)**&#x200B;를 활성화하여 여정 전체에 걸쳐 프로필 진행률을 시뮬레이션하세요.
-
-* 다른 [시작 조건](../using/building-journeys/entry-management.md) 및 대상 자격 테스트
-
-* [대기 활동](../using/building-journeys/wait-activity.md), [조건](../using/building-journeys/condition-activity.md) 및 분기 논리가 올바르게 작동하는지 확인
-
-* 메시지를 보내지 않고 실행 경로를 분석하려면 복잡한 여정에 **[시험 실행](../using/building-journeys/journey-dry-run.md)**&#x200B;을 사용하세요.
-
-* [events](../using/event/about-events.md)이(가) 올바르게 트리거되고 [사용자 지정 작업](../using/action/about-custom-action-configuration.md)이(가) 예상대로 실행되는지 확인
-
-### &#x200B;4. 승인 제출
-
-테스트가 완료되고 문제가 해결되면:
-
-* 조직의 [승인 여정](../using/test-approve/approval-policies.md)에 따라 승인을 위해 캠페인이나 정책을 제출하세요.
-
-* [승인 요청](../using/test-approve/request-approval.md)과 함께 테스트 결과 및 문서 포함
-
-* [승인자](../using/test-approve/review-approve-request.md)의 피드백 또는 변경 요청 처리
-
-* 필요한 수정 작업을 수행하고 변경 사항이 중요한 경우 다시 테스트합니다.
-
-### &#x200B;5. 출시 전 확인
-
-캠페인 또는 여정 활성화 전:
-
-* 모든 설정, 대상 및 [일정](../using/building-journeys/journey-properties.md)에 대한 최종 검토를 수행합니다.
-
-* 모든 승인이 적소에 있고 문서화되어 있는지 확인합니다.
-
-* 전송 시간과 [표준 시간대](../using/building-journeys/timezone-management.md)가 올바른지 확인
-
-* 실행 후 성능을 추적하려면 [모니터링 및 알림](../using/reports/alerts.md)을 사용하도록 설정하십시오.
-
-### &#x200B;6. 모니터링 및 반복
-
-시작 후 모니터링을 계속 진행하여 문제를 조기에 포착합니다.
-
-* 여정 오류, 높은 바운스 비율 또는 낮은 참여에 대해 [시스템 경고](../using/reports/alerts.md)를 설정합니다.
-
-* [실시간 보고서](../using/building-journeys/report-journey.md)를 검토하여 예상과 다르게 성과를 추적하세요.
-
-* 중요한 문제가 발생하면 여정을 [일시 중지 또는 수정](../using/building-journeys/journey-pause.md)할 준비를 하십시오
-
-* 향후 테스트 프로세스를 개선하기 위해 학습한 문서화 교육
+**Pro 팁:** 콘텐츠를 빌드하기 전에 [개인화 플레이그라운드](../using/personalization/personalize.md#playground)(으)로 시작하여 식을 테스트하고, 과도한 메시지를 방지하기 위해 시작 전에 항상 [충돌 감지](../using/conflict-prioritization/conflicts.md)를 확인하십시오.
 
 ## 작동 중인 테스트: 사용 사례
 
