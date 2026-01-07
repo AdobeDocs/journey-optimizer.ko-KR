@@ -9,10 +9,10 @@ role: User
 level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 4162403bedc1632ed28db122e2ec16e3c00a2630
+source-git-commit: 5a1a356d6bf0dbd5290b2cf8257d87aa7db43b5b
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 3%
+source-wordcount: '360'
+ht-degree: 4%
 
 ---
 
@@ -82,8 +82,7 @@ ht-degree: 3%
 ## 관련 항목 {#related-topics}
 
 * [조각 관리](manage-fragments.md)
-* [이메일에 시각적 조각 사용](../email/use-visual-fragments.md)
-* [표현식 조각 사용](../personalization/use-expression-fragments.md)
+* [조각 편집](manage-fragments.md#edit-fragments)
 * [API-트리거된 캠페인](../campaigns/api-triggered-campaigns.md)
 * [개인화 구문](../personalization/personalization-syntax.md)
 
