@@ -28,7 +28,7 @@ ht-degree: 23%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 콘텐츠 미리보기 및 테스트 방법
 
@@ -38,7 +38,7 @@ ht-degree: 23%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 테스트 프로필 선택 방법
 
@@ -48,7 +48,7 @@ ht-degree: 23%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 테스트 프로필을 사용한 콘텐츠 미리 보기
 
@@ -58,7 +58,7 @@ ht-degree: 23%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
 
 테스트 프로필 데이터를 사용한 증명 전송
 
@@ -68,7 +68,7 @@ ht-degree: 23%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg?lang=ko)
 
 Litmus를 사용하여 이메일 렌더링을 테스트하는 방법
 
@@ -78,7 +78,7 @@ Litmus를 통합하여 인기 있는 이메일 클라이언트 간의 이메일 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 콘텐츠 변형을 시뮬레이션하고 테스트하는 방법
 
