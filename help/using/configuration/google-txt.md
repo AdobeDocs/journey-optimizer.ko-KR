@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 하위 도메인, google, txt, 레코드, gmail, 게재 기능
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
-source-git-commit: e89bec74f597185065b274d22740324a09e9319e
+source-git-commit: a23f13bea69d1539cc2cd27a701e20287ddba026
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 22%
+source-wordcount: '285'
+ht-degree: 24%
 
 ---
 
@@ -30,6 +30,8 @@ TXT 레코드는 외부 소스에서 읽을 수 있는 도메인에 대한 텍�
 >[!CAUTION]
 >
 > 이 작업은 하위 도메인이 **[!UICONTROL 성공]** 상태인 경우에만 수행할 수 있습니다. 하위 도메인 상태에 대한 자세한 내용은 [이 섹션](delegate-subdomain.md#access-delegated-subdomains)을 참조하세요.
+
+## Google TXT 레코드 추가 {#add-google-txt-record}
 
 하위 도메인에 Google TXT 레코드를 추가하려면 다음 단계를 수행합니다.
 
