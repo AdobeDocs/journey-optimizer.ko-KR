@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: b0b786203d176c3d817f28e1f4cef1f31eda4640
+source-git-commit: bb5d69d748b7283297d19f43ab0fc54c46d5d303
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 22%
+source-wordcount: '787'
+ht-degree: 21%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 22%
 
 >[!NOTE]
 >
->[컨텍스트 특성](../personalization/personalization-build-expressions.md)은 조각 내에서 지원되지 않습니다.
+>[컨텍스트 속성](../personalization/personalization-build-expressions.md)은 조각 내에서 지원되지 않습니다.
 >
 >여정 또는 캠페인에서 추적이 활성화되면 조각에 링크를 추가하고 이 조각을 메시지에 사용하는 경우 메시지에 포함된 다른 모든 링크와 같이 이러한 링크가 추적됩니다. [링크 및 추적에 대해 자세히 알아보기](../email/message-tracking.md)
 
@@ -119,3 +119,7 @@ ht-degree: 22%
 
 * [시각적 조각 사용 방법 알아보기](../email/use-visual-fragments.md)
 * [표현식 조각 사용 방법 알아보기](../personalization/use-expression-fragments.md)
+
+>[!CAUTION]
+>
+>게시되면 새로운 개인화된 속성을 라이브 조각에 추가할 수 없습니다. 개인화 속성을 추가하려면 조각을 복제해야 합니다. [자세히 알아보기](manage-fragments.md#adding-new-attributes)
