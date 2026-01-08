@@ -6,10 +6,10 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
-source-git-commit: 0cdc5dce00d2240b2de6c4cba1648b4517323cce
+source-git-commit: cd31c50de91593348744ead8042e480a2f1164de
 workflow-type: tm+mt
-source-wordcount: '814'
-ht-degree: 2%
+source-wordcount: '935'
+ht-degree: 3%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 2%
 
 ### 작동 방법 - 웹 SDK {#client-side-how}
 
-1. [웹 SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko){target="_blank"}이(가) 페이지에 포함되어 있습니다.
+1. [웹 SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"}이(가) 페이지에 포함되어 있습니다.
 
 1. 개인화 콘텐츠를 가져오려면 `sendEvent` 명령을 사용하고 [표면 URI](code-based-surface.md)<!--( or location/path)-->를 지정해야 합니다.
 
@@ -308,7 +308,45 @@ ht-degree: 2%
 하이브리드 구현이 있는 경우 아래 링크를 확인하십시오.
 
 * Adobe 기술 블로그: [Adobe Experience Platform 웹 SDK의 하이브리드 Personalization](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
-* SDK 설명서: [Web SDK 및 Edge Network Server API를 사용한 하이브리드 개인화](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html?lang=ko){target="_blank"}
+* SDK 설명서: [Web SDK 및 Edge Network Server API를 사용한 하이브리드 개인화](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html){target="_blank"}
+
+## Adobe Experience Platform Assurance을 사용하여 Edge 네트워크 API 호출 디버그 {#debugging-edge-api-assurance}
+
+코드 기반 경험을 위해 Edge Network API를 직접 사용할 때(웹 SDK 또는 모바일 SDK을 사용하지 않음), Assurance 세션 ID를 유효성 검사 토큰 헤더로 포함하여 Adobe Experience Platform Assurance에서 API 호출을 디버그할 수 있습니다.
+
+1. 활성 Adobe Experience Platform Assurance 세션에서 Assurance 세션 ID를 가져오거나 Assurance API를 사용하여 만듭니다.
+
+1. Assurance 세션 ID를 사용하여 `x-adobe-aep-validation-token` 헤더를 추가하여 Assurance 세션을 통해 Edge Network API 요청을 라우팅합니다.
+
+   **예:**
+
+   ```bash
+   curl -v 'https://edge.adobedc.net/ee/v1/interact?configId={DATASTREAM_ID}&requestId={REQUEST_ID}' \
+   --header 'Content-Type: application/json' \
+   --header 'x-adobe-aep-validation-token: {ASSURANCE_SESSION_ID}' \
+   --data-raw '{
+       "xdm": {
+         "identityMap": {
+               "ECID": [
+                   {
+                       "id": "{ECID_VALUE}"
+                   }
+               ]
+           }
+       },
+       "events": [
+           {
+               "xdm": {
+                   "eventType": "test",
+                   "timestamp": "{TIMESTAMP}"
+               }
+           }
+       ]
+   }'
+   ```
+
+1. 구성이 완료되면 Assurance 세션을 열고 **[!UICONTROL Edge Delivery]** 보기를 선택하여 요청 페이로드, 응답 콘텐츠, 개인화 제안 및 오류 메시지를 비롯한 Edge Network API 요청 및 응답을 실시간으로 확인합니다.
+
 
 <!--
 ## Implementation guides and tutorials {#implementation-guides}
@@ -319,4 +357,4 @@ To help you get started with implementing code-based experiences, refer to the c
 
 * **Web SDK implementation**: Learn how to configure the Web SDK for decisioning and code-based experiences in [these tutorials](code-based-decisioning-implementations.md#tutorials).
 
-* **Decisioning implementation**: To learn how to implement decisioning capabilities on a code-based campaign, follow [this use case tutorial](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-uc){target="_blank"}.-->
+* **Decisioning implementation**: To learn how to implement decisioning capabilities on a code-based campaign, follow [this use case tutorial](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-uc){target="_blank"}.-->
