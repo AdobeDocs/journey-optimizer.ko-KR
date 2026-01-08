@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 하위 도메인, 최적화 도구, 위임
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: 1746efa82611d232b5af07b271739417b4e36e8c
+source-git-commit: ab29af6861e8fc1137fbbffd99b9576afa7e04f5
 workflow-type: tm+mt
-source-wordcount: '982'
-ht-degree: 28%
+source-wordcount: '984'
+ht-degree: 25%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 28%
 >title="위임된 하위 도메인이 여기에 표시됩니다."
 >abstract="첫 번째 하위 도메인을 위임합니다. 위임이 완료되면 PTR 기록이 생성되고 이메일 채널이 활성화됩니다."
 
-이메일 캠페인용 하위 도메인을 생성하면 브랜드가 다양한 유형의 트래픽(예: 마케팅과 기업)을 특정 IP 풀과 특정 도메인으로 분리할 수 있으므로 IP 준비 프로세스가 빨라지고 전체적으로 전달성이 향상됩니다.
+이메일 여정 및 캠페인에 대한 하위 도메인을 생성하면 브랜드가 다양한 유형의 트래픽(예: 마케팅과 기업)을 특정 IP 풀과 특정 도메인으로 분리할 수 있으므로 IP 준비 프로세스가 가속화되고 전체적으로 전달성이 향상됩니다.
 
 도메인을 공유하면 차단되거나 차단 목록에 추가되면 회사 메일 게재에 영향을 줄 수 있습니다. 그러나 이메일 마케팅 커뮤니케이션과 관련된 도메인의 신뢰도 문제 또는 차단은 그러한 이메일 흐름에 영향을 줍니다. 메인 도메인을 발신자로 사용하거나 여러 메일 스트림의 &#39;보낸 사람&#39; 주소로 사용하면 이메일 인증이 손상되어 메시지가 차단되거나 스팸 폴더에 보관될 수 있습니다.
 
@@ -54,13 +54,13 @@ ht-degree: 28%
 
 ## 하위 도메인 구성 메서드 {#subdomain-delegation-methods}
 
-하위 도메인 구성을 사용하면 Adobe Campaign에서 사용할 도메인의 하위 섹션(기술적 명칭은 &quot;DNS 영역&quot;)을 구성할 수 있습니다.
+하위 도메인 구성을 사용하면 Adobe Journey Optimizer에서 사용할 도메인의 하위 섹션(기술적 명칭은 &quot;DNS 영역&quot;)을 구성할 수 있습니다.
 
 사용 가능한 설정 방법은 다음과 같습니다.
 
 ### 하위 도메인을 Adobe에 완전히 위임(권장) {#full-subdomain-delegation}
 
-[!DNL Journey Optimizer]을(를) 사용하면 제품 인터페이스에서 직접 하위 도메인을 Adobe에 완전히 위임할 수 있습니다. 이렇게 하면 Adobe은 이메일 캠페인 게재, 렌더링 및 추적에 필요한 DNS의 모든 측면을 제어하고 유지 관리함으로써 메시지를 관리 서비스로 전달할 수 있습니다.
+[!DNL Journey Optimizer]을(를) 사용하면 제품 인터페이스에서 직접 하위 도메인을 Adobe에 완전히 위임할 수 있습니다. 이를 통해 Adobe은 게재, 렌더링 및 추적에 필요한 DNS의 모든 측면을 제어하고 유지 관리함으로써 메시지를 관리 서비스로 전달할 수 있게 됩니다.
 
 <!--The subdomain is fully delegated to Adobe. Adobe is able to control and maintain all aspects of DNS that are required for delivering, rendering and tracking messages.-->
 
@@ -100,14 +100,14 @@ CNAME을 사용하여 [이 섹션](delegate-subdomain.md#cname-subdomain-setup)�
 <!--
 | Configuration method | How it works | Level of effort |
 |---|---|---|
-| **Full delegation** | Create the subdomain and namespace record. Adobe will then configure all DNS records required for Adobe Campaign.<br/><br/>In this setup, Adobe is fully responsible for managing the subdomain and all the DNS records. | Low |
-| **CNAME method** |  Create the subdomain and namespace record. Adobe will then provide the records to be placed in your DNS servers and will configure the corresponding values in Adobe Campaign DNS servers.<br/><br/>In this setup, both you and Adobe share responsibility for maintaining DNS. | High |-->
+| **Full delegation** | Create the subdomain and namespace record. Adobe will then configure all DNS records required for Adobe Journey Optimizer.<br/><br/>In this setup, Adobe is fully responsible for managing the subdomain and all the DNS records. | Low |
+| **CNAME method** |  Create the subdomain and namespace record. Adobe will then provide the records to be placed in your DNS servers and will configure the corresponding values in Adobe Journey Optimizer DNS servers.<br/><br/>In this setup, both you and Adobe share responsibility for maintaining DNS. | High |-->
 
 
 | 구성 방법 | 작동 방식 | 작업량 |
 |---|---|---|
-| **전체 위임** | 고객이 하위 도메인과 네임스페이스 레코드를 만들면 Adobe에서 Adobe Campaign에 필요한 모든 DNS 레코드를 구성합니다.<br/><br/>이 설정에서는 Adobe가 하위 도메인 및 모든 DNS 레코드를 관리를 전적으로 책임집니다. | 낮음 |
-| **CNAME 메서드** | 고객이 하위 도메인과 네임스페이스 레코드를 만들면 Adobe에서 DNS 서버에 배치할 레코드를 제공하고 Adobe Campaign DNS 서버에서 해당 값을 구성합니다.<br/><br/>이 설정에서는 사용자와 Adobe가 DNS 유지 관리를 공동으로 수행합니다. | 높음 |
+| **전체 위임** | 고객이 하위 도메인과 네임스페이스 레코드를 만들면 그런 다음 Adobe은 Adobe Journey Optimizer에 필요한 모든 DNS 레코드를 구성합니다.<br/><br/>이 설정에서는 Adobe가 하위 도메인 및 모든 DNS 레코드를 관리를 전적으로 책임집니다. | 낮음 |
+| **CNAME 메서드** | 고객이 하위 도메인과 네임스페이스 레코드를 만들면 그런 다음 Adobe은 DNS 서버에 배치할 레코드를 제공하고 Adobe Journey Optimizer DNS 서버에서 해당 값을 구성합니다.<br/><br/>이 설정에서는 사용자와 Adobe가 DNS 유지 관리를 공동으로 수행합니다. | 높음 |
 | **사용자 지정 위임 메서드** | 하위 도메인 및 네임스페이스 레코드 만들기 - 그러면 Adobe에서 DNS 서버에 배치할 레코드를 제공합니다. 인증 기관에서 받은 SSL 인증서를 업로드하고 도메인 소유권을 확인하고 이메일 주소를 보고하여 피드백 루프 단계를 완료합니다.<br/><br/>이 설정에서는 DNS를 유지 관리할 모든 권한이 있습니다. | 매우 높음 |
 
 도메인 구성에 대한 추가 정보는 [이 설명서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html?lang=ko){target="_blank"}에서 확인할 수 있습니다.
