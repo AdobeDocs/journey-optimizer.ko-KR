@@ -10,9 +10,9 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 캠페인, 방법 , 시작, Optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 129c2af3a7a8db00c400f5c6e78530c0649d9896
+source-git-commit: 6c8649726f8faad0a9e4945778a3f9217f3627d8
 workflow-type: tm+mt
-source-wordcount: '1525'
+source-wordcount: '1513'
 ht-degree: 31%
 
 ---
@@ -157,11 +157,44 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 >
 >어떤 유형을 선택할지 확실하지 않습니까? 예약된 일괄 처리 커뮤니케이션에 대해 **작업 캠페인** 또는 실시간 메시지에 대해 **API 트리거 캠페인**&#x200B;으로 시작하십시오. 이러한 캠페인은 가장 일반적인 사용 사례를 다룹니다.
 
+## 전제 조건 {#prerequisites}
+
+캠페인을 작업하기 전에 다음 사항을 준비했는지 확인하십시오.
+
+* **대상** - 캠페인을 만들기 전에 Adobe Experience Platform에서 대상을 사용할 수 있어야 합니다. [대상자 시작 →](../audience/about-audiences.md)
+
+* **채널 구성** - 채널 구성(사전 설정)을 만들어 사용할 채널에 사용할 수 있어야 합니다. [채널 구성 설정 →](../configuration/channel-surfaces.md)
+
+* **권한** - 캠페인 유형에 따라 적절한 권한이 필요합니다. 캠페인 기능에 액세스할 수 없는 경우 관리자에게 문의하십시오. [기본 제공 역할에 대해 알아봅니다→](../administration/ootb-product-profiles.md)
+
+  +++캠페인 권한 목록
+
+  | 캠페인 유형 | 권한 |
+  |-------------|---------------|
+  | **작업 캠페인** 및 **API 트리거 캠페인** | 캠페인 전체 관리자<br>캠페인 승인자<br>캠페인 관리자<br>캠페인 확인자 |
+  | **오케스트레이션된 캠페인** | 오케스트레이션된 캠페인 전체 관리자<br>오케스트레이션된 캠페인 승인자<br>오케스트레이션된 캠페인 관리자<br>오케스트레이션된 캠페인 확인자 |
+
+  +++
+
+  +++캠페인 권한을 할당하는 방법
+
+   1. **[!UICONTROL 제품의]**&#x200B;역할[!DNL Permissions] 탭으로 이동하여 기본 제공 캠페인 관련 **[!UICONTROL 역할]** 중 하나를 선택하십시오.
+
+   1.  **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
+
+   1. 사용자 이름 또는 이메일 주소를 입력하거나 목록에서 사용자를 선택하고 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+
+  이전에 사용자를 생성하지 않은 경우 [사용자 설명서 추가](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/ui/users){target="_blank"}를 참조하십시오.
+
+  그러면 사용자가 인스턴스로 리디렉션되는 이메일을 받게 됩니다.
+
+  +++
+
 ## 캠페인 생성 워크플로 {#workflow}
 
 성공적인 캠페인을 구축하는 것은 명확하고 반복 가능한 프로세스를 따릅니다. 다음은 단계별 워크플로입니다.
 
-+++ &#x200B;1. 캠페인을 계획합니다
++++&#x200B;1. 캠페인을 계획합니다
 
 시작하기 전에 목표를 명확히 하십시오.
 
@@ -173,7 +206,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 
 +++
 
-+++캠페인 속성 구성
++++&#x200B;2. 캠페인 속성 구성
 
 캠페인의 기초를 설정합니다.
 
@@ -187,7 +220,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 
 +++
 
-+++콘텐츠 디자인
++++&#x200B;3. 콘텐츠 디자인
 
 대상자를 위한 매력적인 메시지 만들기:
 
@@ -201,7 +234,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 
 +++
 
-+++검토 및 테스트
++++&#x200B;4. 검토 및 테스트
 
 활성화하기 전에 항상 캠페인 검토:
 
@@ -215,7 +248,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 
 +++
 
-+++캠페인 활성화
++++&#x200B;5. 캠페인 활성화
 
 검토가 완료되면 캠페인을 활성화합니다.
 
@@ -229,7 +262,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 
 +++
 
-+++모니터링 및 분석
++++&#x200B;6. 모니터링 및 분석
 
 캠페인의 성과를 추적합니다.
 
@@ -243,48 +276,22 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 
 +++
 
-➡️ **시작할 준비가 되셨습니까?** 캠페인 유형 선택:
-* [액션 캠페인 → 만들기](create-campaign.md)
-* [API로 트리거된 캠페인 → 만들기](api-triggered-campaigns.md)
-* [오케스트레이션된 캠페인 → 만들기](../orchestrated/gs-orchestrated-campaigns.md)
+## 더 자세히 알아보기 {#get-started-types}
 
-## 전제 조건 {#prerequisites}
+[!DNL Journey Optimizer]의 캠페인을 이해했으므로 시작하려면 캠페인 유형을 선택하세요.
 
-캠페인을 작업하기 전에 다음 사항을 준비했는지 확인하십시오.
-
-* **대상** - 캠페인을 만들기 전에 Adobe Experience Platform에서 대상을 사용할 수 있어야 합니다. [대상자 시작 →](../audience/about-audiences.md)
-
-* **채널 구성** - 채널 구성(사전 설정)을 만들어 사용할 채널에 사용할 수 있어야 합니다. [채널 구성 설정 →](../configuration/channel-surfaces.md)
-
-* **권한** - 캠페인 유형에 따라 적절한 권한이 필요합니다. 캠페인 기능에 액세스할 수 없는 경우 관리자에게 문의하십시오. [기본 제공 역할에 대해 알아봅니다→](../administration/ootb-product-profiles.md)
-
-  | 캠페인 유형 | 권한 |
-  |-------------|---------------|
-  | **작업 캠페인** 및 **API 트리거 캠페인** | 캠페인 전체 관리자<br>캠페인 승인자<br>캠페인 관리자<br>캠페인 확인자 |
-  | **오케스트레이션된 캠페인** | 오케스트레이션된 캠페인 전체 관리자<br>오케스트레이션된 캠페인 승인자<br>오케스트레이션된 캠페인 관리자<br>오케스트레이션된 캠페인 확인자 |
-
-  +++캠페인 권한을 할당하는 방법
-
-   1. **[!UICONTROL 제품의]**&#x200B;역할[!DNL Permissions] 탭으로 이동하여 기본 제공 캠페인 관련 **[!UICONTROL 역할]** 중 하나를 선택하십시오.
-
-   1. **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
-
-   1. 사용자 이름 또는 이메일 주소를 입력하거나 목록에서 사용자를 선택하고 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
-
-  이전에 사용자를 생성하지 않은 경우 [사용자 설명서 추가](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/ui/users){target="_blank"}를 참조하십시오.
-
-  그러면 사용자가 인스턴스로 리디렉션되는 이메일을 받게 됩니다.
-
-  +++
-
-## Campaign 기능 {#capabilities}
+<table style="table-layout:fixed"><tr style="border: 0; text-align: center;">
+<td><a href="create-campaign.md"><img width="70%" alt="액션 캠페인" src="assets/do-not-localize/gs-action-campaign.png"></a><br/><a href="create-campaign.md">액션 캠페인</a></td>
+<td><a href="api-triggered-campaigns.md"><img width="70%" alt="sms" src="assets/do-not-localize/gs-api-triggered-campaign.png"></a><br/><a href="api-triggered-campaigns.md">API 트리거 캠페인</a></td>
+<td><a href="../orchestrated/gs-orchestrated-campaigns.md"><img width="70%" alt="푸시" src="assets/do-not-localize/gs-orchestrated-campaign.png"></a><a href="../orchestrated/gs-orchestrated-campaigns.md">오케스트레이션된 캠페인</a></td>
+</tr></table>
 
 캠페인에 더 익숙해지면 다음과 같은 강력한 기능을 살펴보십시오.
 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **예약 및 시간**
 
@@ -294,7 +301,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **속도 조절**
 
@@ -304,7 +311,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **대상 타깃팅**
 
@@ -314,7 +321,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **승인 워크플로**
 
@@ -324,7 +331,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **방해 금지 시간**
 
@@ -334,7 +341,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **최적화**
 
@@ -344,13 +351,3 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 :::
 
 ::::
-
-## 캠페인 유형 시작 {#get-started-types}
-
-[!DNL Journey Optimizer]의 캠페인을 이해했으므로 시작하려면 캠페인 유형을 선택하세요.
-
-<table style="table-layout:fixed"><tr style="border: 0; text-align: center;">
-<td><a href="create-campaign.md"><img width="70%" alt="액션 캠페인" src="assets/do-not-localize/gs-action-campaign.png"></a><br/><a href="create-campaign.md">액션 캠페인</a></td>
-<td><a href="api-triggered-campaigns.md"><img width="70%" alt="sms" src="assets/do-not-localize/gs-api-triggered-campaign.png"></a><br/><a href="api-triggered-campaigns.md">API 트리거 캠페인</a></td>
-<td><a href="../orchestrated/gs-orchestrated-campaigns.md"><img width="70%" alt="푸시" src="assets/do-not-localize/gs-orchestrated-campaign.png"></a><a href="../orchestrated/gs-orchestrated-campaigns.md">오케스트레이션된 캠페인</a></td>
-</tr></table>
