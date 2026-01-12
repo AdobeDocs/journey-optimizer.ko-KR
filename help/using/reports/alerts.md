@@ -31,7 +31,7 @@ Adobe Journey Optimizer은 작업을 모니터링하고 문제를 해결하는 �
 
 경고 작업 전:
 
-* **권한**: 경고를 보고 관리하려면 특정 권한이 필요합니다. [Adobe Experience Platform에서 필요한 권한](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html#permissions){target="_blank"}을 참조하세요.
+* **권한**: 경고를 보고 관리하려면 특정 권한이 필요합니다. [Adobe Experience Platform에서 필요한 권한](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=ko#permissions){target="_blank"}을 참조하세요.
 
 * **샌드박스 인식**: 경고 구독은 샌드박스별로 다릅니다. 경고에 가입하면 현재 샌드박스에만 적용됩니다. 샌드박스가 재설정되면 모든 경고 구독도 재설정됩니다.
 
@@ -67,7 +67,7 @@ Journey Optimizer은 두 가지 범주의 시스템 경고를 제공합니다.
 
 >[!NOTE]
 >
->다른 Adobe Experience Platform 서비스의 경고(데이터 수집, ID 확인, 세그먼테이션 등)에 대해서는 [표준 경고 규칙 문서](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"}를 참조하십시오.
+>다른 Adobe Experience Platform 서비스의 경고(데이터 수집, ID 확인, 세그먼테이션 등)에 대해서는 [표준 경고 규칙 문서](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=ko){target="_blank"}를 참조하십시오.
 
 ## 경고 구독 {#subscribe-alerts}
 
@@ -86,7 +86,7 @@ Journey Optimizer은 두 가지 범주의 시스템 경고를 제공합니다.
 
 * **해결 방법**: 경고 조건이 해결되면 구독자에게 &quot;해결됨&quot; 알림이 전송됩니다. 알림 피로가 값 변동을 방지하기 위해 상태가 지속되더라도 1시간 후에 경고가 자동으로 해결됩니다.
 
-I/O 이벤트를 통해 구독하는 방법에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}를 참조하세요.
+I/O 이벤트를 통해 구독하는 방법에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=ko){target="_blank"}를 참조하세요.
 
 
 ### 전역 구독 {#global-subscription}
@@ -113,7 +113,7 @@ I/O 이벤트를 통해 구독하는 방법에 대한 자세한 내용은 [Adobe
 
 **대체 구독 메서드:**
 
-외부 시스템과의 통합을 허용하는 [I/O 이벤트 알림](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}을 통해 구독할 수도 있습니다. Journey Optimizer 경고에 대한 이벤트 구독 이름이 아래 [경고 설명](#journey-alerts)에 각각 나열됩니다.
+외부 시스템과의 통합을 허용하는 [I/O 이벤트 알림](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=ko){target="_blank"}을 통해 구독할 수도 있습니다. Journey Optimizer 경고에 대한 이벤트 구독 이름이 아래 [경고 설명](#journey-alerts)에 각각 나열됩니다.
 
 ### 여정 특정 구독 {#unitary-subscription}
 
@@ -147,7 +147,7 @@ I/O 이벤트를 통해 구독하는 방법에 대한 자세한 내용은 [Adobe
 >
 >[대상자 트리거 읽기 실패](#alert-read-audiences) 경고는 여정 구독이 아닌 전역 구독을 통해서만 사용할 수 있습니다.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=ko#enable-email-alerts){target="_blank"}.-->
 
 ## 여정 경고 {#journey-alerts}
 
