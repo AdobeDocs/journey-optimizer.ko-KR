@@ -122,7 +122,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->**[!DNL Manage journeys]** 높은 수준의 권한을 가진 사용자로 제한된 여정을 중지할 수 있는 권한. [!DNL Journey Optimizer]이 섹션[에서 ](../administration/permissions-overview.md) 사용자의 액세스 권한 관리에 대해 자세히 알아보세요.
+>**[!DNL Manage journeys]** 높은 수준의 권한을 가진 사용자로 제한된 여정을 중지할 수 있는 권한. [!DNL Journey Optimizer]이 섹션[에서 &#x200B;](../administration/permissions-overview.md) 사용자의 액세스 권한 관리에 대해 자세히 알아보세요.
 
 ## 관련 항목
 
