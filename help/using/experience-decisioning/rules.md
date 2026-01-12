@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 9%
@@ -26,7 +26,7 @@ ht-degree: 9%
 [!DNL Journey Optimizer]에서 두 가지 유형의 재사용 가능한 규칙을 만들 수 있습니다.
 
 * [결정 규칙](#decision-rules)
-* [타깃팅 규칙](#targeting-rules)
+* [타기팅 규칙](#targeting-rules)
 
 ### 결정 규칙 {#decision-rules}
 
@@ -38,7 +38,7 @@ ht-degree: 9%
 >
 >항목 및 선택 전략 수준 결정 규칙 외에도 캠페인 수준에서 의도한 대상자를 정의할 수도 있습니다. [자세히 알아보기](../campaigns/create-campaign.md#audience)
 
-### 타깃팅 규칙 {#targeting-rules}
+### 타기팅 규칙 {#targeting-rules}
 
 >[!AVAILABILITY]
 >
@@ -52,7 +52,7 @@ ht-degree: 9%
 
 다음 규칙 중 하나를 사용할 수 있습니다.
 
-* 여정 또는 캠페인에서 [콘텐츠 최적화 타깃팅](../campaigns/campaigns-message-optimization.md#targeting)을(를) 만드는 경우;
+* 여정 또는 캠페인에서 [콘텐츠 최적화 타깃팅](../campaigns/optimization-targeting.md)을(를) 만드는 경우;
 * [여정 경로 최적화](../building-journeys/optimize.md#targeting)을(를) 빌드하는 중입니다.
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
@@ -90,7 +90,7 @@ ht-degree: 9%
    ![](assets/rules-select-entity.png){width=90%}
 
    * **[!UICONTROL 결정 항목]** - 이 규칙은 의사 결정 컨텍스트의 [결정 항목](#decision-rules)에 적용할 수 있습니다.
-   * **[!UICONTROL 타깃팅]** - [여정 활동 최적화](#targeting-rules)에서 캠페인 또는 여정의 [콘텐츠 최적화](../campaigns/campaigns-message-optimization.md#targeting)의 일부로 [타깃팅](../building-journeys/optimize.md#targeting) 규칙을 작성할 때 규칙을 사용할 수 있습니다.
+   * **[!UICONTROL 타깃팅]** - [여정 활동 최적화](#targeting-rules)에서 캠페인 또는 여정의 [콘텐츠 최적화](../campaigns/optimization-targeting.md)의 일부로 [타깃팅](../building-journeys/optimize.md#targeting) 규칙을 작성할 때 규칙을 사용할 수 있습니다.
 
 1. **[!UICONTROL 의사 결정 항목]** 규칙을 만드는 경우 **[!UICONTROL 데이터 집합 조회 사용]**&#x200B;을 선택하여 Adobe Experience Platform의 데이터를 사용하여 외부 데이터로 의사 결정 논리를 보강할 수 있습니다. 이 기능은 제품 가용성 또는 실시간 가격과 같이 자주 변경되는 속성에 특히 유용합니다.
 
@@ -137,4 +137,4 @@ ht-degree: 9%
 
 Adobe Journey Optimizer에서 재사용 가능한 **타깃팅 규칙**&#x200B;을(를) 만들고, 복제하고, 적용하여 지역, 언어 및 동작과 같은 고객 특성을 기반으로 캠페인을 효율적으로 개인화하여 시간을 절약하고 대상 정밀도를 향상시키는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476134/?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476127/?quality=12)

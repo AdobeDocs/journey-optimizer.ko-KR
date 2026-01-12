@@ -10,7 +10,7 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 캠페인, 방법 , 시작, Optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 6c8649726f8faad0a9e4945778a3f9217f3627d8
+source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
 workflow-type: tm+mt
 source-wordcount: '1513'
 ht-degree: 31%
@@ -180,7 +180,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 
    1. **[!UICONTROL 제품의]**&#x200B;역할[!DNL Permissions] 탭으로 이동하여 기본 제공 캠페인 관련 **[!UICONTROL 역할]** 중 하나를 선택하십시오.
 
-   1. **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
+   1.  **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
 
    1. 사용자 이름 또는 이메일 주소를 입력하거나 목록에서 사용자를 선택하고 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
@@ -291,7 +291,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **예약 및 시간**
 
@@ -301,7 +301,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **속도 조절**
 
@@ -311,7 +311,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **대상 타깃팅**
 
@@ -321,7 +321,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **승인 워크플로**
 
@@ -331,7 +331,7 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **방해 금지 시간**
 
@@ -341,13 +341,13 @@ Adobe Journey Optimizer을 사용하면 타겟팅된 일회성 콘텐츠를 여�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **최적화**
 
 타겟팅 규칙 및 콘텐츠 실험을 사용하여 개인화된 콘텐츠를 제공하고 참여를 극대화합니다.
 
-[캠페인 최적화](campaigns-message-optimization.md)
+[캠페인 최적화](gs-message-optimization.md)
 :::
 
 ::::
