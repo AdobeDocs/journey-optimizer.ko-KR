@@ -8,9 +8,9 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 455e462078cffd43f1654278e0478951e78717b2
+source-git-commit: 6976f2b1b8b95f7dc9bffe65b7a7ddcc5dab5474
 workflow-type: tm+mt
-source-wordcount: '2638'
+source-wordcount: '2693'
 ht-degree: 1%
 
 ---
@@ -40,7 +40,7 @@ Adobe Journey Optimizer은 두 가지 유형의 경고를 제공합니다.
 
 경고 작업 전:
 
-* **권한**: 경고를 보고 관리하려면 특정 권한이 필요합니다. [Adobe Experience Platform에서 필요한 권한](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=ko#permissions){target="_blank"}을 참조하세요.
+* **권한**: 경고를 보고 관리하려면 특정 권한이 필요합니다. [Adobe Experience Platform에서 필요한 권한](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html#permissions){target="_blank"}을 참조하세요.
 
 * **샌드박스 인식**: 경고 구독은 샌드박스별로 다릅니다. 경고에 가입하면 현재 샌드박스에만 적용됩니다. 샌드박스가 재설정되면 모든 경고 구독도 재설정됩니다.
 
@@ -90,7 +90,7 @@ Journey Optimizer은 두 가지 범주의 시스템 경고를 제공합니다.
 
 >[!NOTE]
 >
->다른 Adobe Experience Platform 서비스의 경고(데이터 수집, ID 확인, 세그먼테이션 등)에 대해서는 [표준 경고 규칙 문서](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=ko){target="_blank"}를 참조하십시오.
+>다른 Adobe Experience Platform 서비스의 경고(데이터 수집, ID 확인, 세그먼테이션 등)에 대해서는 [표준 경고 규칙 문서](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"}를 참조하십시오.
 
 ## 경고 구독 {#subscribe-alerts}
 
@@ -122,7 +122,7 @@ Journey Optimizer은 두 가지 범주의 시스템 경고를 제공합니다.
 
 **대체 구독 메서드:**
 
-고급 통합의 경우 I/O 이벤트를 통해 구독하여 외부 시스템에 경고를 보낼 수 있습니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=ko){target="_blank"}를 참조하세요.
+고급 통합의 경우 I/O 이벤트를 통해 구독하여 외부 시스템에 경고를 보낼 수 있습니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}를 참조하세요.
 
 
 ### 전역 구독 {#global-subscription}
@@ -149,7 +149,7 @@ Journey Optimizer은 두 가지 범주의 시스템 경고를 제공합니다.
 
 **대체 구독 메서드:**
 
-외부 시스템과의 통합을 허용하는 [I/O 이벤트 알림](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=ko){target="_blank"}을 통해 구독할 수도 있습니다. Journey Optimizer 경고에 대한 이벤트 구독 이름이 아래 [경고 설명](#journey-alerts)에 각각 나열됩니다.
+외부 시스템과의 통합을 허용하는 [I/O 이벤트 알림](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}을 통해 구독할 수도 있습니다. Journey Optimizer 경고에 대한 이벤트 구독 이름이 아래 [경고 설명](#journey-alerts)에 각각 나열됩니다.
 
 ### 여정 특정 구독 {#unitary-subscription}
 
@@ -183,7 +183,7 @@ Journey Optimizer은 두 가지 범주의 시스템 경고를 제공합니다.
 >
 >[대상자 트리거 읽기 실패](#alert-read-audiences) 경고는 여정 구독이 아닌 전역 구독을 통해서만 사용할 수 있습니다.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=ko#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## 여정 경고 {#journey-alerts}
 
@@ -292,7 +292,7 @@ Journey Optimizer은 두 가지 범주의 시스템 경고를 제공합니다.
 
 필요한 NS 또는 CNAME 레코드가 없거나 구성 표준과 일치하지 않음을 시스템에서 감지하면 **AJO 도메인 DNS 레코드 누락** 경고가 트리거됩니다.
 
-1. [&#x200B; 인터페이스에서 영향을 받는 &#x200B;](../configuration/delegate-subdomain.md)하위 도메인[!DNL Journey Optimizer]&#x200B;(으)로 보낼 경고를 클릭합니다.
+1. [ 인터페이스에서 영향을 받는 ](../configuration/delegate-subdomain.md)하위 도메인[!DNL Journey Optimizer]&#x200B;(으)로 보낼 경고를 클릭합니다.
 
    <!--For guidance on editing delegated subdomains, see [this section](../configuration/delegate-subdomain.md).-->
 
@@ -318,7 +318,7 @@ Journey Optimizer은 두 가지 범주의 시스템 경고를 제공합니다.
 
 이러한 경고를 받으면 해결 단계 가 아래에 나열됩니다.
 
-1. [&#x200B; 인터페이스에서 영향을 받는 &#x200B;](../email/get-started-email-config.md)전자 메일 채널 구성[!DNL Journey Optimizer]&#x200B;(으)로 보낼 경고를 클릭합니다.
+1. [ 인터페이스에서 영향을 받는 ](../email/get-started-email-config.md)전자 메일 채널 구성[!DNL Journey Optimizer]&#x200B;(으)로 보낼 경고를 클릭합니다.
 
    채널 구성 편집에 대한 지침은 [이 섹션](../configuration/channel-surfaces.md#edit-channel-surface)을 참조하세요.
 
@@ -407,10 +407,15 @@ This alert warns you if a domain certificate (CDN, tracking URL) renewal failed 
 
 **여정 및 캠페인 관리:**
 
-* [여정 문제 해결](../building-journeys/troubleshooting.md) - 일반적인 여정 문제 및 오류 해결
-* [캠페인 검토 및 활성화](../campaigns/review-activate-campaign.md) - 게시 전 캠페인 유효성 검사
+* [여정 문제 해결](../building-journeys/troubleshooting.md) - 일반적인 여정 문제 및 오류를 식별하고 해결합니다.
+* [여정 테스트 및 게시](../building-journeys/publishing-the-journey.md) - 게시하기 전에 여정 구성 확인
+* [작업 캠페인 검토 및 활성화](../campaigns/review-activate-campaign.md) - 예약된 캠페인과 일회성 캠페인에 대한 사전 게시 유효성 검사
+* [API 트리거 캠페인 검토 및 활성화](../campaigns/review-activate-api-triggered-campaign.md) - API 트리거 캠페인에 대한 유효성 검사
+* [오케스트레이션된 캠페인 모니터링](../orchestrated/start-monitor-campaigns.md) - 오케스트레이션된 캠페인 실행을 추적하고 관리합니다.
 
 **경고 프레임워크:**
 
-* [Adobe Experience Platform 경고 개요](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=ko) - 경고 프레임워크 이해
-* [I/O 이벤트를 통해 경고 구독](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=ko) - 고급 통합 옵션
+* [Adobe Experience Platform 경고 개요](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=ko){target="_blank"} - 경고 프레임워크 이해
+* [UI에서 경고 관리](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html){target="_blank"} - 경고 보기, 구독 및 관리
+* [I/O 이벤트를 통해 경고 구독](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"} - 고급 통합 옵션
+* [표준 경고 규칙](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"} - 사용 가능한 플랫폼 경고의 전체 목록

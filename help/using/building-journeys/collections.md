@@ -9,9 +9,9 @@ role: Developer
 level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 version: Journey Orchestration
-source-git-commit: a67707e50960e4848197fa1bd39ce95af3ef14ab
+source-git-commit: 6976f2b1b8b95f7dc9bffe65b7a7ddcc5dab5474
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '794'
 ht-degree: 3%
 
 ---
@@ -231,5 +231,5 @@ ht-degree: 3%
 * [사용자 지정 작업 구성](../action/about-custom-action-configuration.md) - 사용자 지정 작업을 만들고 구성하는 방법에 대해 알아봅니다.
 * [사용자 지정 작업 사용](../building-journeys/using-custom-actions.md) - 여정에서 사용자 지정 작업을 사용하는 방법에 대해 알아봅니다.
 * [사용자 지정 작업 문제 해결](../action/troubleshoot-custom-action.md) - 사용자 지정 작업 문제를 해결하는 방법 알아보기
-  <!--* [Iterate over contextual data](../personalization/iterate-contextual-data.md#arrays-in-journeys) - Learn how to work with arrays in Journey expressions and iterate over custom action responses, event data, and dataset lookups in message personalization-->
+* [컨텍스트 기반 데이터 반복](../personalization/iterate-contextual-data.md#arrays-in-journeys) - 여정 식에서 배열로 작업하고 메시지 개인화에서 사용자 지정 작업 응답, 이벤트 데이터 및 데이터 집합 조회를 반복하는 방법에 대해 알아봅니다.
 

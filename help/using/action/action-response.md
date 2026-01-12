@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Experienced
 keywords: 작업, 서드파티, 사용자 지정, 여정, API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
-source-git-commit: a67707e50960e4848197fa1bd39ce95af3ef14ab
+source-git-commit: 6976f2b1b8b95f7dc9bffe65b7a7ddcc5dab5474
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '681'
 ht-degree: 5%
 
 ---
@@ -216,7 +216,7 @@ currentActionField.description == "abc"
 
 사용자 지정 작업의 응답 페이로드 필드는 메시지 개인화를 위해 기본 채널(이메일, 푸시, SMS)에서 사용할 수 있습니다. 여기에는 외부 API에서 반환되는 중첩된 데이터 구조와 배열을 반복하는 기능이 포함됩니다.
 
-<!--For detailed examples and syntax for iterating over custom action response data in messages, refer to [Iterate over contextual data with Handlebars](../personalization/iterate-contextual-data.md#custom-action-responses).-->
+메시지의 사용자 지정 작업 응답 데이터를 반복하기 위한 자세한 예제와 구문은 [Handlebars를 사용하여 컨텍스트 데이터 반복](../personalization/iterate-contextual-data.md#custom-action-responses)을 참조하십시오.
 
 ## 추가 리소스
 
