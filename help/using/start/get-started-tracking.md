@@ -8,7 +8,7 @@ topic: Administration
 role: User
 level: Beginner
 keywords: 추적, 모니터링, 분석, 보고, 전달성
-source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
+source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
 workflow-type: tm+mt
 source-wordcount: '1916'
 ht-degree: 3%
@@ -244,9 +244,9 @@ Journey Optimizer은 최적화 실험, 타기팅 전략 및 의사 결정 성능
 
 * **캠페인 및 여정의 최적화**:
 
-   * 실험을 생성할 때 추적할 지표(전환, 클릭 수, 사용자 지정 이벤트)를 정의합니다. Journey Optimizer은 각 치료에 대한 성능 데이터를 자동으로 수집합니다. [자세히 알아보기](../campaigns/optimization-experimentation.md)
+   * 실험을 생성할 때 추적할 지표(전환, 클릭 수, 사용자 지정 이벤트)를 정의합니다. Journey Optimizer은 각 치료에 대한 성능 데이터를 자동으로 수집합니다. [자세히 알아보기](../content-management/optimization-experimentation.md)
 
-   * 타깃팅 규칙을 만들어 다른 콘텐츠를 다른 대상 세그먼트에 전달합니다. Journey Optimizer은 타깃팅된 각 그룹에 대한 참여 지표를 자동으로 추적하므로 세그먼트 간에 성능을 비교할 수 있습니다. [자세히 알아보기](../campaigns/optimization-targeting.md)
+   * 타깃팅 규칙을 만들어 다른 콘텐츠를 다른 대상 세그먼트에 전달합니다. Journey Optimizer은 타깃팅된 각 그룹에 대한 참여 지표를 자동으로 추적하므로 세그먼트 간에 성능을 비교할 수 있습니다. [자세히 알아보기](../content-management/optimization-targeting.md)
 
 * **여정 경로 최적화**: 여정에 **최적화** 활동을 추가하고 여러 경로를 구성합니다. Journey Optimizer은 프로필이 취하는 경로를 자동으로 추적하고 성능을 측정합니다. [자세히 알아보기](../building-journeys/optimize.md)
 

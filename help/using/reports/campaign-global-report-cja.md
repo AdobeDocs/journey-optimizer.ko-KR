@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b74d3137-2dd9-4302-a56e-73503d318d18
-source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
+source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 1%
@@ -113,7 +113,7 @@ KPI는 캠페인에 사용된 채널에 따라 달라집니다.
 
 콘텐츠에 대해 **[!UICONTROL 타깃팅 규칙]**&#x200B;을(를) 설정하는 경우 **[!UICONTROL 타깃팅 개요]** 표에는 각 규칙의 타깃팅된 프로필이 콘텐츠와 상호 작용하는 방법을 보여 주는 주요 참여 지표에 대한 자세한 보기가 제공됩니다.
 
-➡️ [타깃팅 규칙에 대해 자세히 알아보기](../campaigns/optimization-targeting.md)
+➡️ [타깃팅 규칙에 대해 자세히 알아보기](../content-management/optimization-targeting.md)
 
 +++ 타겟팅 개요 지표에 대해 자세히 알아보기
 

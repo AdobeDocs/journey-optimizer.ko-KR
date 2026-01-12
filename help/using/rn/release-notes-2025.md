@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
+source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
 workflow-type: tm+mt
 source-wordcount: '7909'
 ht-degree: 99%
@@ -384,7 +384,7 @@ ht-degree: 99%
 <P>여정이나 캠페인이 라이브 상태가 되면 정의한 기준에 따라 프로필을 평가하고, 일치하는 기준을 기반으로 캠페인의 적절한 경험 또는 콘텐츠를 해당 프로필에 전달합니다.</p>
 <p><img src="assets/do-not-localize/campaign-optimization.gif"/></p>
 <p>8월 8일에 캠페인용으로만 릴리스되었던 이 기능을 8월 22일부터 여정에서도 사용할 수 있게 되었습니다.</p>
-<p>자세한 내용은 <a href="../campaigns/gs-message-optimization.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../content-management/gs-message-optimization.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
