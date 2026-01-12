@@ -8,90 +8,146 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 0271dfdf9578921f48001f2bdcc0dbb15f785762
+source-git-commit: 03e9d4205f59a32347cd1702b24bfbad2bf540b9
 workflow-type: tm+mt
-source-wordcount: '2102'
+source-wordcount: '2385'
 ht-degree: 1%
 
 ---
 
 # 시스템 경고 액세스 및 구독 {#alerts}
 
-여정 및 캠페인을 작성할 때 실행 또는 게시하기 전에 **경고** 단추를 사용하여 오류를 확인하고 해결하십시오.
+## 개요
 
-* [이 페이지](../building-journeys/troubleshooting.md)에서 여정 문제를 해결하는 방법 알아보기
+Adobe Journey Optimizer은 작업을 모니터링하고 문제를 해결하는 데 도움이 되는 두 가지 유형의 경고를 제공합니다.
 
-* 캠페인을 검토하고 활성화하는 방법을 알아보세요. [작업 캠페인](../campaigns/review-activate-campaign.md) | [API 트리거 캠페인](../campaigns/review-activate-api-triggered-campaign.md) | [오케스트레이션된 캠페인](../orchestrated/start-monitor-campaigns.md)
+* **캔버스 내 유효성 검사 경고**: 여정 및 캠페인을 빌드할 때 캔버스에서 **경고** 단추를 사용하여 게시 전에 구성 오류를 식별하고 해결하십시오. [여정 문제 해결](../building-journeys/troubleshooting.md)을 통해 캠페인을 검토하는 방법을 알아봅니다. [액션 캠페인](../campaigns/review-activate-campaign.md) | [API 트리거 캠페인](../campaigns/review-activate-api-triggered-campaign.md) | [오케스트레이션된 캠페인](../orchestrated/start-monitor-campaigns.md).
 
+* **시스템 모니터링 경고**(이 페이지에 자세히 설명됨): 운영 임계값이 초과되거나 실시간 여정 및 채널 구성에서 문제가 감지되면 사전 알림을 받습니다. 이러한 경고를 통해 잠재적인 문제가 고객 경험에 영향을 미치기 전에 신속하게 대응할 수 있습니다.
 
-이외에도 특정 조건 세트에 도달하면 이를 구독한 조직의 모든 사용자에게 경고 메시지를 보낼 수 있습니다. 이러한 경고는 전용 **[!UICONTROL 경고]** 메뉴에서 사용할 수 있습니다. Adobe Experience Platform은 조직에 대해 활성화할 수 있는 사전 정의된 경고 규칙을 몇 가지 제공합니다. 또한 이 페이지에 자세히 설명된 대로 [!DNL Adobe Journey Optimizer]별 시스템 경고를 구독할 수 있습니다.
+시스템 경고는 **[!UICONTROL 관리]**&#x200B;의 **[!UICONTROL 경고]** 메뉴에서 사용할 수 있습니다. Adobe Experience Platform은 여정 및 채널 구성에 대한 [!DNL Adobe Journey Optimizer]별 경고를 포함하여 활성화할 수 있는 사전 정의된 경고 규칙을 제공합니다.
+
+## 전제 조건
+
+경고 작업 전:
+
+* **권한**: 경고를 보고 관리하려면 특정 권한이 필요합니다. [Adobe Experience Platform에서 필요한 권한](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html#permissions){target="_blank"}을 참조하세요.
+
+* **샌드박스 인식**: 경고 구독은 샌드박스별로 다릅니다. 경고에 가입하면 현재 샌드박스에만 적용됩니다. 샌드박스가 재설정되면 모든 경고 구독도 재설정됩니다.
+
+* **알림 환경 설정**: [Adobe Experience Cloud 환경 설정](../start/user-interface.md#in-product-uc)에서 알림(전자 메일 및/또는 인앱)을 받는 방법을 구성합니다.
 
 >[!NOTE]
 >
->[Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=ko){target="_blank"}에서 Adobe Experience Platform의 경고에 대해 자세히 알아보세요.
+>Journey Optimizer 관련 경고는 **live** 여정에 대해서만 적용됩니다. 테스트 모드의 여정에 대해서는 경고가 트리거되지 않습니다. 경고 프레임워크에 대한 자세한 내용은 [Adobe Experience Platform 경고 설명서](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=ko){target="_blank"}를 참조하십시오.
 
-왼쪽 메뉴에서 **[!UICONTROL 관리]** 아래의 **[!UICONTROL 경고]**&#x200B;를 클릭합니다. **찾아보기** 탭에서 Journey Optimizer에 대해 미리 구성된 여러 경고를 사용할 수 있습니다.
+## 사용 가능한 경고
+
+경고에 액세스하려면 왼쪽 메뉴에서 **[!UICONTROL 관리]** > **[!UICONTROL 경고]**&#x200B;로 이동하십시오. **찾아보기** 탭에는 Journey Optimizer에 사용할 수 있는 사전 구성된 모든 경고가 표시됩니다.
 
 ![](assets/updated-alerts-list.png){width=50%}
 
-* 여정 관련 경고:
+Journey Optimizer은 두 가지 범주의 시스템 경고를 제공합니다.
 
-   * [대상자 트리거 읽기 실패](#alert-read-audiences) 경고
-   * [사용자 지정 작업 오류율 초과](#alert-custom-action-error-rate) 경고(이전 여정 사용자 지정 작업 실패 경고를 대체)
-   * [프로필 삭제 비율 초과](#alert-discard-rate) 경고
-   * [프로필 오류율 초과](#alert-profile-error-rate) 경고
-   * [여정 게시됨](#alert-journey-published) 경고
-   * [여정 완료](#alert-journey-finished) 경고
-   * [사용자 지정 작업 한도 트리거됨](#alert-custom-action-capping) 경고
+**여정 경고** - 여정 실행 및 성능 모니터링:
 
-* 채널 구성과 관련된 경고:
+* [대상자 읽기 트리거 실패](#alert-read-audiences) - 대상자 읽기 활동이 프로필을 처리하지 못할 때 경고합니다.
+* [사용자 지정 작업 오류율 초과](#alert-custom-action-error-rate) - 사용자 지정 작업 API 호출에서 높은 오류율을 검색합니다(이전 여정 사용자 지정 작업 실패 경고를 대체).
+* [프로필 삭제 비율 초과](#alert-discard-rate) - 프로필이 비정상적인 비율로 삭제되는 시기를 식별합니다.
+* [프로필 오류율 초과](#alert-profile-error-rate) - 여정 실행 중 프로필에 오류가 발생하면 플래그로 표시합니다.
+* [여정 게시됨](#alert-journey-published) - 여정 게시 시 정보 알림
+* [여정 완료됨](#alert-journey-finished) - 여정 완료 시 정보 알림
+* [사용자 지정 작업 한도 트리거됨](#alert-custom-action-capping) - API 호출 한도에 도달하면 알립니다.
 
-   * [AJO 도메인 DNS 레코드 누락](#alert-dns-record-missing) 경고
-   * [AJO 채널 구성 실패](#alert-channel-config-failure) 경고
-     <!--* the [AJO domain certificates renewal unsuccessful](#alert-certificates-renewal) alert-->
+**채널 구성 경고** - 전자 메일 게재 기능 설정 관련 문제 감지:
+
+* [AJO 도메인 DNS 레코드 누락](#alert-dns-record-missing) - 누락 또는 잘못 구성된 DNS 레코드를 식별합니다.
+* [AJO 채널 구성 실패](#alert-channel-config-failure) - 전자 메일 구성 문제(SPF, DKIM, MX 레코드)를 검색합니다.
+  <!--* the [AJO domain certificates renewal unsuccessful](#alert-certificates-renewal) alert-->
+
+>[!NOTE]
+>
+>다른 Adobe Experience Platform 서비스의 경고(데이터 수집, ID 확인, 세그먼테이션 등)에 대해서는 [표준 경고 규칙 문서](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"}를 참조하십시오.
 
 ## 경고 구독 {#subscribe-alerts}
 
-예기치 않은 동작이 발생하고/또는 작업의 특정 조건 세트에 도달하면(예: 시스템이 임계값을 위반한 경우 발생할 수 있는 문제), 경고 알림이 이를 구독한 조직의 모든 사용자에게 전달됩니다.
+경고 알림은 특정 조건이 충족될 때(예: 임계값 초과 또는 구성 문제 감지) 경고 알림을 구독한 사용자에게 전달됩니다.
 
-사용자 인터페이스에서 각 경고를 개별적으로 구독할 수 있습니다. **[!UICONTROL 경고]** 메뉴에서 전체적으로 구독하거나([전역 구독](#global-subscription) 참조), 특정 여정에 대해 단일 경고를 구독하거나([단일 구독](#unitary-subscription) 참조).
+다음 두 가지 방법으로 경고에 가입할 수 있습니다.
 
-가입자의 환경 설정에 따라 알림은 사용자 인터페이스(인앱 알림)의 오른쪽 상단 모서리에 있는 Journey Optimizer 알림 센터에서 이메일로 및/또는 직접 전송됩니다. [!DNL Adobe Experience Cloud] **[!UICONTROL 환경 설정]**&#x200B;에서 이러한 경고를 받을 방법을 선택하십시오. [자세히 알아보기](../start/user-interface.md#in-product-uc)
+* **[전역 구독](#global-subscription)**: 현재 샌드박스의 모든 여정 및 캠페인에 적용
+* **[여정 특정 구독](#unitary-subscription)**: 개별 여정에 대해서만 적용
 
-경고가 해결되면 구독자에게 &quot;해결됨&quot; 알림이 전송됩니다. 값 전환으로부터 보호하기 위해 1시간 후 경고가 해결됩니다.
+**경고 알림 작동 방식:**
+
+* **게재 채널**: 경고는 Journey Optimizer 알림 센터(오른쪽 상단 모서리의 벨 아이콘)의 이메일 및/또는 인앱 알림을 통해 전송됩니다. [Adobe Experience Cloud 환경 설정](../start/user-interface.md#in-product-uc)에서 선호하는 게재 채널을 구성하십시오.
+
+* **경고 유형**: Journey Optimizer은 일회성 경고(게시된 여정과 같은 정보 이벤트)와 반복 경고(임계값 모니터링)를 모두 제공합니다. 조건이 해결될 때까지 반복 경고가 계속됩니다.
+
+* **해결 방법**: 경고 조건이 해결되면 구독자에게 &quot;해결됨&quot; 알림이 전송됩니다. 알림 피로가 값 변동을 방지하기 위해 상태가 지속되더라도 1시간 후에 경고가 자동으로 해결됩니다.
+
+I/O 이벤트를 통해 구독하는 방법에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}를 참조하세요.
 
 
 ### 전역 구독 {#global-subscription}
 
-모든 여정 및 캠페인에 대한 경고를 구독/구독 취소하려면 다음 단계를 따르십시오.
+전역 구독을 통해 현재 샌드박스의 모든 여정 및 캠페인에 대한 알림을 받을 수 있습니다.
 
-1. 왼쪽 메뉴에서 **[!UICONTROL 경고]** 대시보드로 이동하여 구독하려는 경고에 대한 **[!UICONTROL 구독]** 옵션을 선택하십시오.
+**경고를 구독하려면:**
+
+1. 왼쪽 메뉴에서 **[!UICONTROL 관리]** > **[!UICONTROL 경고]**(으)로 이동합니다.
+
+1. **[!UICONTROL 찾아보기]** 탭에서 모니터링할 경고를 찾습니다.
+
+1. 원하는 경고를 보려면 **[!UICONTROL 구독]**&#x200B;을 클릭하세요.
 
    ![경고 구독 중](assets/alert-subscribe.png){width=80%}
 
-   >[!NOTE]
-   >
-   >구독은 특정 샌드박스에만 적용됩니다. 각 샌드박스에 대한 경고를 개별적으로 구독해야 합니다.
+**구독을 취소하려면:**
 
-1. **[!UICONTROL 구독 취소]**&#x200B;에 동일한 방법을 사용하십시오.
+경고 옆에 있는 **[!UICONTROL 구독 취소]**&#x200B;를 클릭합니다.
 
-[I/O 이벤트 알림](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=ko){target="_blank"}을 통해 구독할 수도 있습니다. 경고 규칙은 다른 구독 패키지로 구성됩니다. 특정 Journey Optimizer 경고에 해당하는 이벤트 구독은 [아래](#journey-alerts)에 자세히 설명되어 있습니다.
+>[!IMPORTANT]
+>
+>경고 구독은 샌드박스별로 다릅니다. 알림을 수신하려는 각 샌드박스에서 별도로 경고에 가입해야 합니다.
 
-### 단일 구독 {#unitary-subscription}
+**대체 구독 메서드:**
 
-특정 여정에 대한 경고를 구독/구독 취소하려면 다음 단계를 따르십시오.
+외부 시스템과의 통합을 허용하는 [I/O 이벤트 알림](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}을 통해 구독할 수도 있습니다. Journey Optimizer 경고에 대한 이벤트 구독 이름이 아래 [경고 설명](#journey-alerts)에 각각 나열됩니다.
 
-1. 여정 인벤토리로 이동하여 특정 여정에 대한 **[!UICONTROL 경고 구독]** 옵션을 선택하십시오.
+### 여정 특정 구독 {#unitary-subscription}
+
+여정 특정 구독을 사용하면 조직의 모든 여정에 대해 경고를 받지 않고 우선순위가 높은 개별 여정을 모니터링할 수 있습니다.
+
+**특정 여정에 대한 경고를 구독하려면:**
+
+1. 여정 인벤토리로 이동합니다.
+
+1. 모니터링할 여정의 **⋯**(추가 작업) 메뉴를 클릭합니다.
+
+1. **[!UICONTROL 경고 구독]**&#x200B;을 선택하세요.
 
    ![특정 여정에 대한 경고를 구독하는 중](assets/subscribe-journey-alert.png){width=75%}
 
-1. 경고를 선택합니다. 다음 경고를 사용할 수 있습니다. [프로필 삭제 비율 초과](#alert-discard-rate), [사용자 지정 작업 오류 비율 초과](#alert-custom-action-error-rate), [프로필 오류 비율 초과](#alert-profile-error-rate), [여정 게시](#alert-journey-published), [여정 완료](#alert-journey-finished) 및 [사용자 지정 작업 한도 트리거](#alert-custom-action-capping).
+1. 사용 가능한 옵션에서 활성화할 경고를 선택합니다.
+   * [프로필 삭제율 초과](#alert-discard-rate)
+   * [사용자 정의 액션 오류율 초과](#alert-custom-action-error-rate)
+   * [프로필 오류율 초과](#alert-profile-error-rate)
+   * [여정 게시됨](#alert-journey-published)
+   * [여정 완료됨](#alert-journey-finished)
+   * [사용자 지정 작업 한도 트리거됨](#alert-custom-action-capping)
 
-1. 경고 구독을 취소하려면 동일한 화면에서 경고를 선택 취소합니다.
+1. 구독을 확인하려면 **[!UICONTROL 저장]**&#x200B;을 클릭하세요.
 
-1. **[!UICONTROL 저장]**&#x200B;을 클릭하여 확인합니다.
+**구독을 취소하려면:**
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=ko#enable-email-alerts){target="_blank"}.-->
+같은 대화 상자를 열고 경고를 선택 취소한 다음 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+
+>[!NOTE]
+>
+>[대상자 트리거 읽기 실패](#alert-read-audiences) 경고는 여정 구독이 아닌 전역 구독을 통해서만 사용할 수 있습니다.
+
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## 여정 경고 {#journey-alerts}
 
@@ -200,7 +256,7 @@ ht-degree: 1%
 
 필요한 NS 또는 CNAME 레코드가 없거나 구성 표준과 일치하지 않음을 시스템에서 감지하면 **AJO 도메인 DNS 레코드 누락** 경고가 트리거됩니다.
 
-1. [&#x200B; 인터페이스에서 영향을 받는 &#x200B;](../configuration/delegate-subdomain.md)하위 도메인[!DNL Journey Optimizer]&#x200B;(으)로 보낼 경고를 클릭합니다.
+1. [ 인터페이스에서 영향을 받는 ](../configuration/delegate-subdomain.md)하위 도메인[!DNL Journey Optimizer]&#x200B;(으)로 보낼 경고를 클릭합니다.
 
    <!--For guidance on editing delegated subdomains, see [this section](../configuration/delegate-subdomain.md).-->
 
@@ -226,7 +282,7 @@ ht-degree: 1%
 
 이러한 경고를 받으면 해결 단계 가 아래에 나열됩니다.
 
-1. [&#x200B; 인터페이스에서 영향을 받는 &#x200B;](../email/get-started-email-config.md)전자 메일 채널 구성[!DNL Journey Optimizer]&#x200B;(으)로 보낼 경고를 클릭합니다.
+1. [ 인터페이스에서 영향을 받는 ](../email/get-started-email-config.md)전자 메일 채널 구성[!DNL Journey Optimizer]&#x200B;(으)로 보낼 경고를 클릭합니다.
 
    채널 구성 편집에 대한 지침은 [이 섹션](../configuration/channel-surfaces.md#edit-channel-surface)을 참조하세요.
 
