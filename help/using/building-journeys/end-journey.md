@@ -9,10 +9,10 @@ level: Intermediate
 keywords: 재입력, 여정, 종료, 라이브, 중지
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
-source-git-commit: b0b297ed33ab273a3201569760e1d2db5b3ccaad
+source-git-commit: 0271dfdf9578921f48001f2bdcc0dbb15f785762
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 0%
+source-wordcount: '991'
+ht-degree: 2%
 
 ---
 
@@ -67,6 +67,20 @@ ht-degree: 0%
 >
 >일회성 세그먼트 기반 여정은 한 번 실행한 후에도 **Live** 상태를 유지합니다. 프로필이 완료되면 다시 입력할 수 없지만 기본 전역 시간 제한이 만료될 때까지 여정은 **Live** 상태로 유지됩니다. **새 등록에 닫기** 옵션을 사용하면 더 빨리 수동으로 닫을 수 있습니다.
 
+### 여정이 언제 &quot;완료됨&quot;으로 간주됩니까? {#journey-finished-definition}
+
+완료됨의 정의는 여정 유형에 따라 달라집니다.
+
+| 여정 유형 | 반복? | 종료 날짜가 있습니까? | &quot;완료됨&quot;의 정의 |
+|--------------|------------|---------------|--------------------------|
+| 대상자 읽기 | 아니요 | 해당 사항 없음 | 실행 시작 91일 후 |
+| 대상자 읽기 | 예 | 아니요 | 실행 시작 91일 후 |
+| 대상자 읽기 | 예 | 예 | 종료 날짜에 도달하면 |
+| 이벤트 트리거된 여정 | 해당 사항 없음 | 예 | 종료 날짜에 도달하면 |
+| 이벤트 트리거된 여정 | 해당 사항 없음 | 아니요 | UI에서 또는 API를 통해 닫힌 경우 |
+
+여정 완료를 추적하는 데 도움이 되는 정보 경고입니다. 일회성 알림이므로 해결 기준이 없습니다.
+
 ### 새 등록 마감 {#close-to-new-entrances}
 
 여정을 수동으로 닫으면 여정에 이미 입력한 고객이 경로를 완료할 수 있지만 새 사용자가 여정을 입력할 수 없게 됩니다. 여정이 닫히면 **[!UICONTROL 닫힘]** 상태가 됩니다. 이 여정은 새로운 개인이 여정에 입력하는 것을 중단합니다. 이미 여정에 있는 프로필은 여정을 정상적으로 완료할 수 있습니다. 기본 전역 시간 제한(91일) 이후 여정이 **완료됨** 상태로 전환됩니다.
@@ -108,7 +122,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->**[!DNL Manage journeys]** 높은 수준의 권한을 가진 사용자로 제한된 여정을 중지할 수 있는 권한. [!DNL Journey Optimizer]이 섹션[에서 &#x200B;](../administration/permissions-overview.md) 사용자의 액세스 권한 관리에 대해 자세히 알아보세요.
+>**[!DNL Manage journeys]** 높은 수준의 권한을 가진 사용자로 제한된 여정을 중지할 수 있는 권한. [!DNL Journey Optimizer]이 섹션[에서 ](../administration/permissions-overview.md) 사용자의 액세스 권한 관리에 대해 자세히 알아보세요.
 
 ## 관련 항목
 

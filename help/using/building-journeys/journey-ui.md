@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 여정, 첫 번째, 시작, 빠른 시작, 대상, 이벤트, 작업
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 0271dfdf9578921f48001f2bdcc0dbb15f785762
 workflow-type: tm+mt
-source-wordcount: '1475'
+source-wordcount: '1483'
 ht-degree: 10%
 
 ---
@@ -140,7 +140,7 @@ ht-degree: 10%
 
 * **초안**: 여정이 첫 번째 단계에 있습니다. 아직 게시되지는 않았습니다.
 * **초안(테스트)**: 테스트 모드가 **테스트 모드** 단추를 사용하여 활성화되었습니다. [자세히 알아보기](../building-journeys/testing-the-journey.md)
-* **완료됨**: 91일 [전역 시간 제한](journey-properties.md#global_timeout) 후에 여정이 자동으로 이 상태로 전환됩니다. 이미 여정에 있는 프로필은 여정을 정상적으로 완료합니다. 새 프로필은 더 이상 여정에 들어갈 수 없습니다.
+* **완료됨**: 여정이 여정 유형 및 구성에 따라 이 상태로 자동 전환합니다. 이미 여정에 있는 프로필은 여정을 정상적으로 완료합니다. 새 프로필은 더 이상 여정에 들어갈 수 없습니다. [여정이 완료된 것으로 간주되는 시기를 알아봅니다](end-journey.md#journey-finished-definition).
 * **Live**: 여정이 **게시** 단추를 사용하여 게시되었습니다. [자세히 알아보기](../building-journeys/publish-journey.md)
 * **일시 중지됨**: **일시 중지** 단추를 사용하여 라이브 여정이 일시 중지되었습니다. [자세히 알아보기](../building-journeys/journey-pause.md)
 * **중지됨**: **중지** 단추를 사용하여 여정이 꺼졌습니다. 모든 개인이 즉시 여정을 빠져나갑니다. [자세히 알아보기](../building-journeys/end-journey.md#stop-journey)

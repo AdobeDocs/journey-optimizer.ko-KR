@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 여정, 구성, 속성
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+source-git-commit: 0271dfdf9578921f48001f2bdcc0dbb15f785762
 workflow-type: tm+mt
-source-wordcount: '2849'
+source-wordcount: '2866'
 ht-degree: 15%
 
 ---
@@ -129,6 +129,10 @@ ht-degree: 15%
 여정 활동에 사용된 [timeout](#timeout_and_error) 외에 글로벌 여정 시간 제한이 적용됩니다. 인터페이스에 표시되지 않으므로 변경할 수 없습니다.
 
 이 전역 시간 제한은 입력한 후 **91일** 여정에서 개인 사용자의 진행률을 중지합니다. 이는 개인의 여정이 91일을 초과할 수 없음을 의미합니다. 이 시간 제한 기간이 지나면 개인의 데이터가 삭제됩니다. 시간 제한 기간이 끝날 때 여전히 여정에 유입되는 개인은 중지되며, 보고에서 고려되지 않습니다. 따라서 종료하는 것보다 더 많은 사람들이 여정에 들어가는 것을 볼 수 있습니다.
+
+>[!NOTE]
+>
+>여정이 &quot;완료됨&quot;으로 간주되는 시기에 대한 정확한 정의는 여정 유형에 따라 다릅니다. [자세한 기준을 확인하십시오](end-journey.md#journey-finished-definition).
 
 91일 여정 시간 제한으로 인해 여정 재입력이 허용되지 않으면 재입력 차단이 91일 이상 작동하도록 할 수 없습니다. 실제로 해당 여정에 입장한 후 91일이 지난 사람에 대한 정보를 모두 삭제하기 때문에 91일 이상 전에 입력한 사람을 알 수 없습니다.
 

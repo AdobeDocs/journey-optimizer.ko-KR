@@ -8,10 +8,10 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 0271dfdf9578921f48001f2bdcc0dbb15f785762
 workflow-type: tm+mt
-source-wordcount: '2216'
-ht-degree: 2%
+source-wordcount: '2102'
+ht-degree: 1%
 
 ---
 
@@ -75,7 +75,7 @@ ht-degree: 2%
 
 1. **[!UICONTROL 구독 취소]**&#x200B;에 동일한 방법을 사용하십시오.
 
-[I/O 이벤트 알림](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=ko){target="_blank"}을 통해 구독할 수도 있습니다. 경고 규칙은 다른 구독 패키지로 구성됩니다. 특정 Journey Optimizer 경고에 해당하는 이벤트 구독은 [아래](#journey-alerts)에 자세히 설명되어 있습니다.
+[I/O 이벤트 알림](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}을 통해 구독할 수도 있습니다. 경고 규칙은 다른 구독 패키지로 구성됩니다. 특정 Journey Optimizer 경고에 해당하는 이벤트 구독은 [아래](#journey-alerts)에 자세히 설명되어 있습니다.
 
 ### 단일 구독 {#unitary-subscription}
 
@@ -91,7 +91,7 @@ ht-degree: 2%
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭하여 확인합니다.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=ko#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## 여정 경고 {#journey-alerts}
 
@@ -158,37 +158,17 @@ ht-degree: 2%
 
 ### 여정 게시됨 {#alert-journey-published}
 
->[!AVAILABILITY]
->
->이 경고는 현재 제한된 기능으로 사용할 수 있습니다. 이 경고를 구독할 수 있지만 알림이 아직 완전히 작동하지 않습니다.
-
 이 경고는 전문가가 여정 캔버스에서 여정을 게시하면 알려줍니다.
 
 조직의 여정 라이프사이클 이벤트를 추적하는 데 도움이 되는 정보 알림입니다. 일회성 알림이므로 해결 기준이 없습니다.
 
 ### 여정 완료됨 {#alert-journey-finished}
 
->[!AVAILABILITY]
->
->이 경고는 현재 제한된 기능으로 사용할 수 있습니다. 이 경고를 구독할 수 있지만 알림이 아직 완전히 작동하지 않습니다.
-
-이 경고는 여정이 완료되면 알려 줍니다. 완료됨의 정의는 여정 유형에 따라 달라집니다.
-
-| 여정 유형 | 반복? | 종료 날짜가 있습니까? | &quot;완료됨&quot;의 정의 |
-|--------------|------------|---------------|--------------------------|
-| 대상자 읽기 | 아니요 | 해당 사항 없음 | 실행 시작 91일 후 |
-| 대상자 읽기 | 예 | 아니요 | 실행 시작 91일 후 |
-| 대상자 읽기 | 예 | 예 | 종료 날짜에 도달하면 |
-| 이벤트 트리거된 여정 | 해당 사항 없음 | 예 | 종료 날짜에 도달하면 |
-| 이벤트 트리거된 여정 | 해당 사항 없음 | 아니요 | UI에서 또는 API를 통해 닫힌 경우 |
+이 경고는 여정이 완료되면 알려 줍니다. 완료됨의 정의는 여정 유형에 따라 다릅니다. [여정이 완료된 것으로 간주되는 시기에 대해 자세히 알아보세요](../building-journeys/end-journey.md#journey-finished-definition).
 
 여정 완료를 추적하는 데 도움이 되는 정보 경고입니다. 일회성 알림이므로 해결 기준이 없습니다.
 
 ### 사용자 지정 작업 한도 트리거됨 {#alert-custom-action-capping}
-
->[!AVAILABILITY]
->
->이 경고는 현재 제한된 기능으로 사용할 수 있습니다. 이 경고를 구독할 수 있지만 알림이 아직 완전히 작동하지 않습니다.
 
 이 경고는 사용자 지정 작업에서 상한이 트리거되면 경고합니다. 최대 가용량(capping)은 끝점을 초과하지 않도록 외부 끝점으로 전송되는 호출 수를 제한하는 데 사용됩니다.
 
@@ -220,7 +200,7 @@ ht-degree: 2%
 
 필요한 NS 또는 CNAME 레코드가 없거나 구성 표준과 일치하지 않음을 시스템에서 감지하면 **AJO 도메인 DNS 레코드 누락** 경고가 트리거됩니다.
 
-1. [&#x200B; 인터페이스에서 영향을 받는 &#x200B;](../configuration/delegate-subdomain.md)하위 도메인[!DNL Journey Optimizer]&#x200B;(으)로 보낼 경고를 클릭합니다.
+1. [ 인터페이스에서 영향을 받는 ](../configuration/delegate-subdomain.md)하위 도메인[!DNL Journey Optimizer]&#x200B;(으)로 보낼 경고를 클릭합니다.
 
    <!--For guidance on editing delegated subdomains, see [this section](../configuration/delegate-subdomain.md).-->
 
@@ -246,7 +226,7 @@ ht-degree: 2%
 
 이러한 경고를 받으면 해결 단계 가 아래에 나열됩니다.
 
-1. [&#x200B; 인터페이스에서 영향을 받는 &#x200B;](../email/get-started-email-config.md)전자 메일 채널 구성[!DNL Journey Optimizer]&#x200B;(으)로 보낼 경고를 클릭합니다.
+1. [ 인터페이스에서 영향을 받는 ](../email/get-started-email-config.md)전자 메일 채널 구성[!DNL Journey Optimizer]&#x200B;(으)로 보낼 경고를 클릭합니다.
 
    채널 구성 편집에 대한 지침은 [이 섹션](../configuration/channel-surfaces.md#edit-channel-surface)을 참조하세요.
 
