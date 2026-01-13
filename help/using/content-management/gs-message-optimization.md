@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 콘텐츠 최적화 시작
 description: 콘텐츠 최적화를 사용하여 캠페인 및 여정에 개인화되고 최적화된 콘텐츠를 전달하는 방법을 알아봅니다.
-feature: Experimentation, Targeting
+feature: Experimentation
 topic: Content Management
 role: User
 level: Beginner
 keywords: 최적화, 타기팅, 실험, A/B 테스트, 캠페인, 여정, 개인화
 exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+source-git-commit: 8dba26f29fda47d0b953d80656aa0f0b6fe294a9
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 8%
@@ -111,7 +111,7 @@ Journey Optimizer의 콘텐츠 최적화를 통해 다음과 같은 작업을 �
 
 작업 또는 API 트리거 캠페인에서 콘텐츠 최적화를 활용하는 방법을 알아봅니다. 하위 대상자를 타기팅하고, 위치별 메시지 베리에이션을 만들고, 대체 콘텐츠를 활성화하고, 단일 캠페인 내에서 여러 실험을 실행하는 방법을 알 수 있습니다. 이 튜토리얼에서는 메시지 일관성을 유지하면서 멀티채널 캠페인을 관리하는 방법도 다룹니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3470375?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)
 
 **관련 항목**
 
