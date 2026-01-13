@@ -6,7 +6,7 @@ description: 타깃팅 규칙을 활용하여 개인화된 콘텐츠를 특정 �
 role: User
 level: Intermediate
 keywords: 타깃팅, 최적화, 대상, 개인화, 규칙
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+source-git-commit: f4eb982ba0840acfe336e759fcbf9cfd47b3b98c
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 8%
@@ -62,7 +62,7 @@ ht-degree: 8%
 
    >[!AVAILABILITY]
    >
-   >[전용 &#x200B;](../experience-decisioning/rules.md#create) 메뉴에서 타깃팅 규칙을 만드는 중[!DNL Journey Optimizer]은(는) 현재 Decisioning 추가 기능 서비스를 구입한 조직에서 사용할 수 있으며 다른 조직에 대해 필요할 때 사용할 수 있습니다(제한된 가용성).
+   >[전용 ](../experience-decisioning/rules.md#create) 메뉴에서 타깃팅 규칙을 만드는 중[!DNL Journey Optimizer]은(는) 현재 Decisioning 추가 기능 서비스를 구입한 조직에서 사용할 수 있으며 다른 조직에 대해 필요할 때 사용할 수 있습니다(제한된 가용성).
    >
    >이 용량은 모든 고객에게 점진적으로 제공될 예정입니다. 그동안 Adobe 담당자에게 문의하여 액세스 권한을 얻으십시오.
 
@@ -90,7 +90,7 @@ ht-degree: 8%
 
    이 예제에서는 미국 거주자를 위한 특정 콘텐츠, 프랑스 거주자를 위한 다른 콘텐츠 및 인도 거주자를 위한 다른 콘텐츠를 디자인합니다.
 
-1. 여정 또는 캠페인을 [활성화](review-activate-campaign.md)합니다.
+1. 여정 또는 캠페인을 [활성화](../campaigns/review-activate-campaign.md)합니다.
 
 여정/캠페인이 라이브되면 미국 거주자는 특정 메시지를, 프랑스 거주자는 다른 메시지를 얻을 수 있도록 각 대상에 맞게 조정된 콘텐츠가 전송됩니다.
 

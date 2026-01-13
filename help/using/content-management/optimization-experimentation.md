@@ -6,7 +6,7 @@ description: 콘텐츠 실험을 사용하여 여러 버전의 콘텐츠를 테�
 role: User
 level: Intermediate
 keywords: 실험, 최적화, A/B 테스트, 콘텐츠 실험, 처리
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+source-git-commit: f4eb982ba0840acfe336e759fcbf9cfd47b3b98c
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 2%
@@ -53,7 +53,7 @@ ht-degree: 2%
    >
    >다른 동작을 선택할 수 있습니다. 실험은 캠페인이나 여정 [동작 활동](../building-journeys/journey-action.md)에 추가된 모든 동작에 적용됩니다.
 
-1. 여정 또는 캠페인을 [활성화](review-activate-campaign.md)합니다.
+1. 여정 또는 캠페인을 [활성화](../campaigns/review-activate-campaign.md)합니다.
 
 여정/캠페인이 라이브되면 사용자에게 다양한 콘텐츠 변형이 무작위로 할당됩니다. [!DNL Journey Optimizer]은(는) 더 많은 구매를 유도하는 변형을 추적하고 실행 가능한 통찰력을 제공합니다.
 

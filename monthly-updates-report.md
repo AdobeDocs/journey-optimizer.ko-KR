@@ -5,7 +5,7 @@ title: 월별 설명서 업데이트 보고서
 description: 새 설명서 페이지 및 업데이트된 설명서 페이지 목록
 hide: true
 hidefromtoc: true
-source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
+source-git-commit: f4eb982ba0840acfe336e759fcbf9cfd47b3b98c
 workflow-type: tm+mt
 source-wordcount: '1293'
 ht-degree: 0%
@@ -165,7 +165,7 @@ ht-degree: 0%
 - [API 트리거 캠페인 속성 정의](help/using/campaigns/api-triggered-campaign-properties.md) - 10월 23일
 - [API 트리거된 캠페인 작업](help/using/campaigns/api-triggered-campaigns.md) - 10월 29일
 - [캠페인 작업 구성](help/using/campaigns/campaign-action.md) - 10월 29일
-- [캠페인 및 여정 최적화](help/using/campaigns/gs-message-optimization.md) - 10월 22일
+- [캠페인 및 여정 최적화](help/using/content-management/gs-message-optimization.md) - 10월 22일
 - [작업 캠페인 만들기](help/using/campaigns/create-campaign.md) - 10월 29일
 - [캠페인 시작](help/using/campaigns/get-started-with-campaigns.md) - 10월 29일
 - [캠페인 액세스 및 관리](help/using/campaigns/manage-campaigns.md) - 10월 23일

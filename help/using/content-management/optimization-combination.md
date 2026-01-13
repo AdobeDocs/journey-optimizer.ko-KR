@@ -6,7 +6,7 @@ description: 단일 여정 또는 캠페인 내에서 타기팅과 실험을 결
 role: User
 level: Intermediate
 keywords: 최적화, 타기팅, 실험, 조합, 고급
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+source-git-commit: f4eb982ba0840acfe336e759fcbf9cfd47b3b98c
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 1%
@@ -45,7 +45,7 @@ ht-degree: 1%
 
 1. 다른 타겟팅 규칙에 대해서도 유사하게 진행하고 각 변형에 대해 해당 콘텐츠를 디자인합니다.
 
-1. 변경 내용을 저장하고 여정 또는 캠페인을 [활성화](review-activate-campaign.md)합니다.
+1. 변경 내용을 저장하고 여정 또는 캠페인을 [활성화](../campaigns/review-activate-campaign.md)합니다.
 
 여정/캠페인이 라이브되면 타겟팅된 각 그룹의 사용자는 자신이 속한 그룹에 대해 정의된 다른 콘텐츠 변형이 임의로 할당됩니다.
 
