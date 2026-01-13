@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 설정, 이메일, 구성
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: d77c6376bee14d3d6f90be9be54ac01c740e754f
-workflow-type: ht
-source-wordcount: '1704'
-ht-degree: 100%
+source-git-commit: 743609dbc10741c2a6e573be9c5a2d27be87e755
+workflow-type: tm+mt
+source-wordcount: '1701'
+ht-degree: 98%
 
 ---
 
@@ -132,7 +132,9 @@ Adobe 외부에서 동의를 관리하는 경우 **[!UICONTROL 고객 관리]** 
 
 >[!AVAILABILITY]
 >
->**[!UICONTROL Mailto(구독 취소)]** 옵션의 경우 제한된 가용성으로 이 기능을 사용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오. 이 경우 사용자 지정 속성(제한된 가용성)을 가진 **Mailto(구독 취소)** 섹션 [아래](#configure-decrypt-api)에 설명된 새 쿼리 매개 변수를 사용해야 합니다.
+>이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.
+>
+>**[!UICONTROL Mailto(구독 취소)]** 옵션의 경우 사용자 지정 특성(제한된 가용성)을 가진 **Mailto(구독 취소)** 섹션 [아래](#configure-decrypt-api)에 설명된 새 쿼리 매개 변수를 사용해야 합니다.
 
 엔드포인트에 대한 사용자 지정 속성을 정의하려면 **[!UICONTROL URL 추적 매개 변수]** 섹션을 사용하십시오. 해당 섹션에서 정의하는 모든 URL 추적 매개 변수는 사용자 정의 엔드포인트 끝에 기본 매개 변수와 함께 추가됩니다. [사용자 정의 URL 추적을 설정하는 방법 알아보기](url-tracking.md)
 
