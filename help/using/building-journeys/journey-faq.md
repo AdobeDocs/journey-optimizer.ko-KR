@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 여정, 질문, 답변, 문제 해결, 도움말, 안내서, 오케스트레이션
 version: Journey Orchestration
-source-git-commit: 63d37e1cb4042323eb764350dc2c89b5483ccae3
+source-git-commit: bf5d018fa6c3e88cf84345e892de72ada9f2c489
 workflow-type: tm+mt
-source-wordcount: '5233'
+source-wordcount: '5231'
 ht-degree: 1%
 
 ---
@@ -225,7 +225,7 @@ CJA 대상은 여정에서 직접 지원되지 않지만, 세분화 규칙에서
 
 +++ 여정의 프로필에 메시지를 보낼 수 있습니까?
 
-예. Journey Optimizer에는 이메일, 푸시 알림, SMS/MMS/RCS, 인앱 메시지, 웹 경험, 코드 기반 경험, DM, 콘텐츠 카드, WhatsApp 및 LINE을 통해 메시지를 보낼 수 있는 **기본 제공 채널 작업**&#x200B;이 포함되어 있습니다. Journey Optimizer에서 직접 메시지 콘텐츠를 디자인하고 여정에서 작업 활동으로 추가할 수 있습니다.
+예. Journey Optimizer에는 이메일, 푸시 알림, SMS/MMS/RCS, 인앱 메시지, 웹 경험, 코드 기반 경험, 콘텐츠 카드, WhatsApp 및 LINE을 통해 메시지를 보낼 수 있는 **기본 제공 채널 작업**&#x200B;이 포함되어 있습니다. Journey Optimizer에서 직접 메시지 콘텐츠를 디자인하고 여정에서 작업 활동으로 추가할 수 있습니다.
 
 기본적으로 지원되지 않는 채널의 경우 **사용자 지정 작업**&#x200B;을 사용하여 외부 메시징 플랫폼과 통합하고 서드파티 채널을 통해 메시지를 보낼 수 있습니다.
 

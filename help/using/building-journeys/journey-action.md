@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 여정, 메시지, 푸시, sms, 이메일, 인앱, 웹, 콘텐츠 카드, 코드 기반 경험
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+source-git-commit: bf5d018fa6c3e88cf84345e892de72ada9f2c489
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1048'
 ht-degree: 15%
 
 ---
@@ -76,7 +76,7 @@ ht-degree: 15%
 
 선택한 통신 채널에 따라 추가 설정을 사용할 수 있습니다. 자세한 내용을 보려면 아래 섹션을 확장하십시오.
 
-+++**최대 가용량 규칙 적용**(전자 메일, DM, 푸시, SMS)
++++**최대 가용량 규칙 적용**(전자 메일, 푸시, SMS)
 
 **[!UICONTROL 비즈니스 규칙]** 드롭다운 목록에서 최대 가용량 규칙을 여정 작업에 적용할 규칙 집합을 선택하십시오.
 
@@ -102,7 +102,7 @@ ht-degree: 15%
 
 빠른 게재는 메시지 게재 지연이 비즈니스에 중요한 경우, 휴대폰에 긴급 푸시 알림(예: 뉴스 채널 앱을 설치한 사용자에게 속보)을 전송하려는 경우 사용됩니다.
 
-푸시 알림에 대해 빠른 전송 모드를 사용하는 방법을 알아봅니다. [&#x200B; 이 페이지](../push/create-push.md#rapid-delivery).
+푸시 알림에 대해 빠른 전송 모드를 사용하는 방법을 알아봅니다. [ 이 페이지](../push/create-push.md#rapid-delivery).
 
 빠른 전송 모드를 사용할 때의 성능에 대한 자세한 내용은 [Adobe Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}을 참조하십시오.
 
