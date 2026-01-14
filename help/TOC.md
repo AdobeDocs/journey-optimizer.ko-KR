@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
 workflow-type: tm+mt
 source-wordcount: '3061'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 98%
       + [검색, 필터링 및 정리](using/start/search-filter-categorize.md)
       + [AI 및 지능형 기능](using/start/ai-features.md)
       + [접근성](using/start/accessibility.md)
-      + [여정과 캠페인](using/start/journeys-vs-campaigns.md)
+      + [여정과 캠페인 비교](using/start/journeys-vs-campaigns.md)
 + 여정 {#orchestrate-journeys}
    + [여정 시작](using/building-journeys/journey.md)
    + [여정 시작 안내서](using/building-journeys/journey-get-started.md)
@@ -226,7 +226,7 @@ ht-degree: 98%
       + [테스트 프로필을 사용한 미리 보기](using/content-management/preview.md)
       + [테스트 프로필 데이터를 사용한 증명 전송](using/content-management/proofs.md)
       + [이메일 렌더링 테스트](using/content-management/rendering.md)
-      + [콘텐츠 베리에이션 시뮬레이션](using/test-approve/simulate-sample-input.md)
+      + [콘텐츠 변형 시뮬레이션](using/test-approve/simulate-sample-input.md)
       + [콘텐츠 베리에이션 자동 생성](using/test-approve/simulate-sample-input-generated.md)
       + [이메일 스팸 보고서](using/content-management/spam-report.md)
    + 여정 및 캠페인 승인 {#approve}
@@ -237,7 +237,7 @@ ht-degree: 98%
       + [요청 승인](using/test-approve/review-approve-request.md)
 + 모니터링 및 문제 해결 {#monitor}
    + [모니터링 및 문제 해결 시작](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
-   + [Journey Optimizer에서 추적](using/start/get-started-tracking.md)
+   + [Journey Optimizer의 추적](using/start/get-started-tracking.md)
    + 이메일 전달성 {#deliverability}
       + [전달성 시작](using/reports/deliverability.md)
       + [금지 목록 이해하기](using/reports/suppression-list.md)
@@ -349,7 +349,7 @@ ht-degree: 98%
          + [웹 채널 전제 조건](using/web/web-prerequisites.md)
          + [웹 하위 도메인 구성](using/web/web-delegated-subdomains.md)
          + [웹 채널 구성 만들기](using/web/web-configuration.md)
-      + [웹 경험 만들기 &#x200B;](using/web/create-web.md)
+      + [웹 경험 만들기 ](using/web/create-web.md)
       + 웹 페이지 작성 {#author-web-pages}
          + [웹 페이지 작성](/help/rp_landing_pages/author-web-pages-landing-page.md)
          + [웹 디자이너를 사용하여 작업](using/web/web-visual-editor.md)
@@ -403,7 +403,7 @@ ht-degree: 98%
          + [Journey Optimizer에서 라이브 활동 구성](using/mobile-live/mobile-live-configuration.md)
          + [라이브 활동 SDK 통합 구성](using/mobile-live/mobile-live-configuration-sdk.md)
 + 콘텐츠 관리 {#content-management}
-   + [콘텐츠 관리 &#x200B;](/help/rp_landing_pages/content-management-landing-page.md)
+   + [콘텐츠 관리 ](/help/rp_landing_pages/content-management-landing-page.md)
    + 개인화 {#personalization}
       + [개인화](/help/rp_landing_pages/personalization-landing-page.md)
       + [개인화 시작](using/personalization/personalize.md)

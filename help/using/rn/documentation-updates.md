@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
 workflow-type: tm+mt
 source-wordcount: '4514'
-ht-degree: 88%
+ht-degree: 98%
 
 ---
 
@@ -25,27 +25,27 @@ ht-degree: 88%
 
 * 이제 이러한 기능을 일반적으로 사용할 수 있으므로 세 개의 여정 경고(여정 게시됨, 여정 완료됨 및 사용자 지정 작업 한도 트리거됨)에서 제한된 가용성 노트가 제거되었습니다. [자세히 보기](../reports/alerts.md)
 
-* 테스트, 유효성 검사 및 승인 랜딩 페이지가 테스트 기능 개요, 일반적인 질문 FAQ, 탐색 링크가 있는 의사 결정 트리, 설명서 링크가 있는 향상된 용어 등 새로운 섹션으로 향상되었습니다. [자세히 보기](../../rp_landing_pages/test-landing-page.md)
+* 테스트, 유효성 검사, 승인 랜딩 페이지에 테스트 기능 개요, 일반적인 질문 FAQ, 탐색 링크가 있는 의사 결정 트리, 설명서 링크의 용어 향상 등 새로운 섹션을 추가해 개선했습니다. [자세히 보기](../../rp_landing_pages/test-landing-page.md)
 
-* 개인화 표현식에서 예약된 키워드를 사용하는 방법을 명확히 하기 위해 개인화 구문 설명서에 새 섹션을 추가했습니다. `next`, `last` 및 `this`과(와) 같은 특정 PQL 키워드는 XDM 스키마에서 필드 이름으로 사용할 때 백틱으로 이스케이프해야 합니다. [자세히 보기](../personalization/personalization-syntax.md#reserved-keywords)
+* 개인화 구문 설명서에 개인화 표현식에서 예약된 키워드를 사용하는 방법을 명확히 설명하는 새 섹션을 추가했습니다. `next`, `last`, `this` 등 특정 PQL 키워드를 XDM 스키마에서 필드 이름으로 사용하는 경우 백틱(`)을 붙여 이스케이프 처리해야 합니다. [자세히 보기](../personalization/personalization-syntax.md#reserved-keywords)
 
-* [캠페인 시작](../campaigns/get-started-with-campaigns.md) 및 [캠페인 관리](../campaigns/manage-campaigns.md) 페이지는 유형별 안내서를 포함하는 포괄적인 워크플로우, 향상된 캠페인 유형 비교 및 통합 상태 테이블을 포함하여 개선된 정보 아키텍처를 통해 재구성되었습니다.
+* [캠페인 시작](../campaigns/get-started-with-campaigns.md) 및 [캠페인 관리](../campaigns/manage-campaigns.md) 페이지를 유형별 안내서가 있는 포괄적 워크플로, 향상된 캠페인 유형 비교, 종합 상태 테이블 등 개선된 정보 아키텍처로 재구성했습니다.
 
-* 여정 랜딩 페이지는 새로운 6단계 워크플로, 향상된 여정 유형 비교 및 설명서 전체 탐색 향상으로 온보딩을 용이하게 하도록 재디자인되었습니다. [자세히 보기](../building-journeys/journey.md)
+* 온보딩을 촉진하기 위해 여정 랜딩 페이지에 새로운 6단계 워크플로를 추가하고 여정 유형 비교를 향상시키며 설명서의 전체적인 탐색 용이성을 개선해 재구성했습니다. [자세히 보기](../building-journeys/journey.md)
 
-* 사용자가 DM에 대한 파일 라우팅을 구성하여 연결 오류를 방지할 때 SFTP 인증을 위한 Base64 인코딩 OpenSSH 개인 키를 생성하는 데 도움이 되는 자세한 섹션이 추가되었습니다. [자세히 보기](../direct-mail/direct-mail-configuration.md#ssh-key-generation)
+* 사용자가 연결 오류를 방지하기 위해 다이렉트 메일에 대한 파일 라우팅을 구성할 때 SFTP 인증을 위한 Base64 인코딩 OpenSSH 개인 키를 생성하는 데 도움이 되는 자세한 섹션을 추가했습니다. [자세히 보기](../direct-mail/direct-mail-configuration.md#ssh-key-generation)
 
-* Adobe에 위임을 시도하기 전에 사용자에게 DNS 전파에 24~48시간을 허용하도록 알리는 메모가 하위 도메인 위임 설명서에 추가되었습니다. [자세히 보기](../configuration/delegate-subdomain.md#set-up-subdomain)
+* 하위 도메인 위임 설명서에 Adobe 위임을 시도하기 전에 DNS 전파를 위해 24~48시간 정도 대기하도록 사용자에게 알리는 메모를 추가했습니다. [자세히 보기](../configuration/delegate-subdomain.md#set-up-subdomain)
 
 ## 2025년 12월 {#december-2025}
 
-* 의사 결정을 위한 사용자 지정 업로드 대상 설명서가 데이터 보강 검색을 위한 필수 API 플래그를 포함하도록 업데이트되었습니다. Offer Decisioning에서 CSV로 업로드한 대상을 사용하는 경우 API 요청 페이로드에 `"xdm:enrichedAudience": true`을(를) 포함하여 오퍼 결정 응답에서 데이터 보강 특성을 검색해야 합니다. [자세히 보기](../offers/custom-upload-decisioning.md#must-read)
+* 의사 결정을 위한 사용자 정의 업로드 대상자 설명서에 보강용 데이터 검색을 위한 필수 API 플래그를 포함하여 업데이트했습니다. 오퍼 결정에 CSV로 업로드한 대상자를 사용하는 경우 API 요청 페이로드에 `"xdm:enrichedAudience": true`을(를) 포함해야 오퍼 결정 응답에서 보강 속성을 검색할 수 있습니다. [자세히 보기](../offers/custom-upload-decisioning.md#must-read)
 
-* 증명 전송 설명서에 빈도 제한 규칙이 증명에 적용된다는 점을 명확히 하는 메모가 추가되었습니다. 이제 페이지에는 빈도 제한 동작, 미러 페이지 제한 사항 및 자산 액세스 가능성 규칙에 대한 중요한 고려 사항이 있는 &quot;반드시 알아야 할 사항&quot; 섹션이 포함되어 있습니다. [자세히 보기](../content-management/proofs.md)
+* 교정쇄 전송 설명서에 교정쇄에도 캡핑 규칙이 적용된다는 점을 명확히 설명하는 메모를 추가했습니다. 이제 페이지에 캡핑 동작, 미러 페이지 제한, 자산 접근성 규칙에 대한 중요한 고려 사항이 있는 “반드시 알아야 할 사항” 섹션이 포함되어 있습니다. [자세히 보기](../content-management/proofs.md)
 
-* 채널 시작 페이지에 여정 및 캠페인(작업 캠페인, API 트리거 캠페인 및 오케스트레이션된 캠페인)에서 지원되는 채널을 표시하는 새 통신 채널 가용성 테이블이 추가되었습니다. [자세히 보기](../channels/gs-channels.md#channels)
+* 채널 시작 페이지에 새로운 커뮤니케이션 채널 사용 가능 여부 테이블이 추가되었습니다. 이 테이블에는 여정 및 캠페인(액션 캠페인, API 트리거 캠페인, 오케스트레이션된 캠페인) 전반에서 지원되는 채널이 표시됩니다. [자세히 보기](../channels/gs-channels.md#channels)
 
-* 사용자가 Journey Optimizer에서 사용할 수 있는 모든 추적 및 모니터링 기능을 검색하고 액세스하는 데 도움이 되는 새로운 포괄적인 추적 랜딩 페이지가 생성되었습니다. [자세히 보기](../start/get-started-tracking.md)
+* Journey Optimizer에서 제공하는 모든 추적 및 모니터링 기능을 쉽게 찾고 이용할 수 있도록 새로운 포괄적인 추적 랜딩 페이지가 생성되었습니다. [자세히 보기](../start/get-started-tracking.md)
 
 * 이메일 옵트아웃 관리 페이지가 개선되어 옵트아웃 절차에 대한 자세한 정보가 추가되었으며, 랜딩 페이지 옵트아웃의 예상 순서를 설명합니다. [자세히 보기](../email/email-opt-out.md#send-message-unsubscribe-link)
 
@@ -59,7 +59,7 @@ ht-degree: 88%
 
 * 이제 평일(월요일~금요일)에만 이메일을 보내도록 여정을 구성하는 방법을 보여주는 새로운 사용 사례가 제공됩니다. 주말에 제출된 내용은 자동으로 대기열에 추가되어 지정된 월요일 시간에 발송됩니다. [자세히 보기](../building-journeys/weekday-email-uc.md)
 
-* 이제 차세대 의사 결정 프레임워크와 기존 의사 결정 관리 솔루션의 차이점 및 여러 채널에 개인화된 오퍼를 제공할 때 누릴 수 있는 주요 이점 등 Journey Optimizer의 의사 결정 기능을 설명하는 새 페이지를 사용할 수 있습니다. [자세히 보기](../experience-decisioning/gs-decision.md)
+* Journey Optimizer의 의사 결정 기능을 설명하는 새로운 페이지가 추가되었습니다. 이 페이지에서는 차세대 의사 결정 프레임워크와 기존 의사 결정 관리 솔루션의 차이점, 그리고 채널 전반에서 맞춤형 오퍼를 제공하는 데 주요 이점을 자세히 설명합니다. [자세히 보기](../experience-decisioning/gs-decision.md)
 
 * [!DNL Journey Optimizer]에서 지원되지 않는 대상자 유형(예: Customer Journey Analytics 대상자)을 대상자 포털의 새 세그먼트 정의로 묶어 활성화하는 방법을 설명하는 대상자 활성화 문서에 새 섹션이 추가되었습니다. [자세히 보기](../audience/target-audiences.md#activation-non-supported)
 
@@ -69,7 +69,7 @@ ht-degree: 88%
 
 * &#39;양식 사전 설정 만들기&#39; 섹션에 스트리밍 연결 요구 사항을 명시하는 안내문이 추가되어 선택 드롭다운 목록에 표시됩니다. [자세히 보기](../landing-pages/lp-forms.md#create-form-preset)
 
-* 이제 의사 결정 섹션에서 노출 횟수, 클릭 수 및 사용자 지정 이벤트 추적을 위한 데이터 수집을 구성하는 방법에 대한 새 페이지를 사용할 수 있습니다. [자세히 보기](../experience-decisioning/data-collection/schema-requirement.md)
+* 이제 의사 결정 섹션에 노출수, 클릭수 및 사용자 정의 이벤트 추적을 위한 데이터 수집 구성 방법에 대한 새 페이지가 추가되었습니다. [자세히 보기](../experience-decisioning/data-collection/schema-requirement.md)
 
 * &#39;AI 어시스턴트로 콘텐츠 생성&#39; 문서가 명확성과 사용 편의성을 개선하기 위해 재구성되었습니다. 이전의 5개 채널별 페이지(이메일, 푸시, SMS, 웹, 랜딩 페이지)는 [전체 콘텐츠 생성](../content-management/generative-full-content.md), [텍스트 생성](../content-management/generative-text.md) 및 [이미지 생성](../content-management/generative-image.md)의 3가지 생성 유형 페이지로 통합되었습니다.
 
@@ -184,7 +184,7 @@ ht-degree: 88%
 
 * 스키마 개요 설명서에 오케스트레이션된 캠페인에 사용되는 표준 및 관계형 스키마를 구별하기 위한 정보를 추가했습니다. [자세히 보기](../data/gs-data.md)
 
-* [자동 최적화](../experience-decisioning/ranking/auto-optimization-model.md) 및 [개인화된 최적화](../experience-decisioning/ranking/personalized-optimization-model.md) 모델을 성공적으로 교육하기 위한 요구 사항에 대한 정보가 의사 결정 및 의사 결정 관리 설명서에 추가되었습니다.
+* 의사 결정 및 의사 결정 관리 설명서에 [자동 최적화](../experience-decisioning/ranking/auto-optimization-model.md) 및 [개인화된 최적화](../experience-decisioning/ranking/personalized-optimization-model.md) 모델을 성공적으로 학습하기 위한 요구 사항에 대한 정보가 추가되었습니다.
 
 * 대화형 메시지 실행 REST API 호출에 60초 시간 제한이 있으며, 전달을 보장하기 위한 내부 재시도가 있음을 명확히 설명했습니다. [자세히 보기](../campaigns/trigger-campaigns.md)
 
@@ -287,7 +287,7 @@ ht-degree: 88%
 * 여정 테스트 페이지를 업데이트하여 사용하는 이벤트에 ID 네임스페이스를 포함할 필요성에 대한 메모를 추가했습니다. [자세히 보기](../building-journeys/testing-the-journey.md)
 * 현재는 [!UICONTROL Journey Optimizer] 사용자 인터페이스를 통해 하위 도메인의 위임을 해제할 수 없습니다. Adobe 담당자에게 연락해야 합니다. 이제 [이메일](../configuration/delegate-subdomain.md#undelegate-subdomain), [SMS](../sms/sms-subdomains.md#undelegate-subdomain), [웹 경험](../web/web-delegated-subdomains.md#undelegate-subdomain), [랜딩 페이지](../landing-pages/lp-subdomains.md#undelegate-subdomain)에서 하위 도메인의 위임을 취소하는 단계를 자세히 설명합니다.<!--[Read more](../configuration/delegate-subdomain.md#undelegate-subdomain)-->
 * 여정 캡핑 API의 선택적 `maxHttpConnections` 매개 변수에 대한 설명을 추가했습니다. 여기에는 이 매개 변수를 동일한 엔드포인트에 대한 제한 구성과 함께 사용하는 방법에 대한 지침이 포함됩니다. [자세히 보기](../configuration/throttling.md)
-* Decisioning 섹션에서 승인된 오퍼 항목은 컬렉션이나 결정에 사용할 경우 삭제할 수 없다는 설명을 추가했습니다. **[!UICONTROL 승인 실행 취소]** 옵션을 사용하여 상태를 “초안”으로 변경하는 단계를 포함했습니다. [자세히 보기](../experience-decisioning/items.md#manage)
+* 의사 결정 섹션에 승인된 오퍼 항목은 컬렉션이나 의사 결정에 사용된 경우 삭제할 수 없다는 설명이 추가되었습니다. **[!UICONTROL 승인 실행 취소]** 옵션을 사용하여 상태를 “초안”으로 변경하는 단계를 포함했습니다. [자세히 보기](../experience-decisioning/items.md#manage)
 * 샌드박스에 대한 정보를 새로운 “샌드박스 관리” 섹션으로 그룹화했습니다. 이 새로운 섹션에서는 샌드박스를 사용 및 할당하는 방법과 패키지 내보내기 및 가져오기 기능을 사용하여 여러 샌드박스 간에 여정, 콘텐츠 템플릿 또는 조각과 같은 오브젝트를 복사하는 방법에 대해 설명합니다. [자세히 보기](../administration/sandboxes.md)
 
 ## 2025년 3월 {#mar-2025}
@@ -299,7 +299,7 @@ ht-degree: 88%
 * 반복 캠페인 예약에 대한 메모가 추가되었습니다. [자세히 보기](../campaigns/create-campaign.md)
 * 이메일 메시지에 링크를 삽입하고 추적을 활성화하는 작업에 대한 섹션을 업데이트 및 재구성했습니다. [자세히 보기](../email/message-tracking.md)
 * Adobe Journey Optimizer의 개인화 기능에 대한 섹션을 재구성하고 개선했습니다. [자세히 보기](../personalization/personalize.md)
-* 개인화된 오퍼를 나열하는 의사 결정 관리 API가 응답에서 여러 개인화된 오퍼가 누락된 경우 페이지 매김을 수행하는 샘플로 업데이트되었습니다. [자세히 보기](../offers/api-reference/offers-api/personalized-offers/offers-list.md)
+* 맞춤형 오퍼를 나열하는 의사 결정 관리 API가 업데이트되었으며, 응답에서 여러 개의 맞춤형 오퍼가 누락된 경우 페이지 매김을 수행하는 샘플이 추가되었습니다. [자세히 보기](../offers/api-reference/offers-api/personalized-offers/offers-list.md)
 * 명료성을 개선하기 위해 [목록 구독 취소] 기능에 대한 모든 정보를 모은 새 페이지를 만들었습니다. [자세히 보기](../email/list-unsubscribe.md)
 * [빈도 캡핑] 섹션에서 Edge Decisioning API 외에도 Decisioning 및 Batch Decisioning API에 대한 빈도 캡핑 카운터가 어떻게 업데이트되는지에 대한 정보를 업데이트했습니다. [자세히 보기](../offers/offer-library/add-constraints.md#frequency-capping)
 
@@ -445,7 +445,7 @@ ht-degree: 88%
 * Information has been added regarding the behavior of timeouts on event activities in journeys. When no event is received during the specified timeout period, individuals will continue the journey if no timeout path is defined. [Read more](../building-journeys/general-events.md#events-specific-time)
 * In-app channel configuration prerequisites have been updated with a note about the usage of a custom Dataset preference merge policy. [Read more](../in-app/inapp-configuration.md)
 * More details have been added about how to manipulate collections in a custom action response. [Read more](../action/action-response.md#exp-syntax).
-* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko) has been added to the home page.
+* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html) has been added to the home page.
 * An outdated reference to the AJO Message resource has been removed from the list of resources available in the Audit Log. When an update is done on a message in a journey, a **Journey** log is created. [Read more](../privacy/audit-logs.md)
 * Additional recommendations have been added about the usage of the **Read Audience** activity. [Read more](../building-journeys/read-audience.md#must-read)
 * The Get started with Adobe Experience Platform audiences page has been improved with a list of audience generation methods. [Read more](../audience/about-audiences.md)
@@ -475,7 +475,7 @@ ht-degree: 88%
 * Decision management guardrails have been added to the Guardrails and limitations page. [Read more](../start/guardrails.md#decision-management)
 * The Header parameters section has been updated to reflect how out-of-office notifications and challenge responses are handled (they are received on the **[!UICONTROL Error email]**). [Read more](../email/email-settings.md#email-header)
 * A new section on how to preview and test your content has been created. [Read more](../content-management/preview-test.md)
-* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=ko){target="_blank"}
+* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
 * The Capping section has been updated to reflect the label changes relating to offer capping in the Decision management interface. [Read more](../offers/offer-library/add-constraints.md#capping)
 * The Add dynamic content into emails has been updated with details on how to delete a variant. [Read more](../personalization/dynamic-content.md#emails)
 * The example for capping & throttling configurations has been updated. [Read more](../configuration/external-systems.md)
@@ -550,7 +550,7 @@ ht-degree: 88%
 
 ## March 2023 {#march-2023}
 
-* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko)
+* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
 * All new features and improvements coming with [!DNL Journey Optimizer] March '23 release have been detailed in the documentation. [Read more](release-notes.md)
 * Added a step to enable Adobe Analytics events in your journeys. [Read more](../event/about-analytics.md)
 * A new section has been created in the Decision management guide on how to collect offer decisioning feedback in Adobe Experience Platform, including which offers are displayed and how users interact with them. [Read more](../offers/data-collection/data-collection.md)
@@ -678,7 +678,7 @@ ht-degree: 88%
 * The **reactions** event documentation page has been updated. [Read more](../building-journeys/reaction-events.md)
 * Videos for Decision management capabilities have been updated to reflect Journey Optimizer user interface. [Read more](../offers/get-started/starting-offer-decisioning.md)
 * The **Get Started with Datasets** section has been improved to detail how to access and create datasets. [Read more](../data/get-started-datasets.md)
-* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=ko)
+* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html)
 * The **Create message presets** section now specifies that you cannot proceed with preset creation while the selected IP pool is under edition (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. [Read more](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * The message presets **URL tracking** section has been updated to reflect minor changes in the user interface. [Read more](../configuration/channel-surfaces.md#url-tracking)
 

@@ -11,7 +11,7 @@ exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
 source-git-commit: 743609dbc10741c2a6e573be9c5a2d27be87e755
 workflow-type: tm+mt
 source-wordcount: '7916'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -998,7 +998,7 @@ ht-degree: 99%
 <table>
 <thead>
 <tr>
-<th><strong>콘텐츠 베리에이션 시뮬레이션</strong><br/></th>
+<th><strong>콘텐츠 변형 시뮬레이션</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -1615,7 +1615,7 @@ HTML 유형 콘텐츠 템플릿은 이제 사용되지 않습니다. [!DNL Journ
 
 **동의 정책**
 
-이제 트랜잭션 이메일 채널 구성에서 마케팅 작업을 통해 사용자 지정 동의 정책을 활용할 수 있습니다. [자세히 알아보기](../action/consent.md#surface-marketing-actions)
+이제 트랜잭션 이메일 채널 구성의 마케팅 액션을 통해 사용자 정의 동의 정책을 활용할 수 있습니다. [자세히 알아보기](../action/consent.md#surface-marketing-actions)
 
 <!--**Deliverability**
 
