@@ -52,7 +52,7 @@ Adobe Journey Optimizer의 캠페인을 활용하면 여러 채널에서 개인�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 API 트리거 캠페인
 
@@ -62,7 +62,7 @@ API 트리거 캠페인
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 오케스트레이션된 캠페인
 

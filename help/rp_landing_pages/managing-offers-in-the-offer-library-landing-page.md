@@ -25,7 +25,7 @@ Adobe Journey Optimizer의 &#39;오퍼 만들기 및 관리&#39; 섹션을 통�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 Adobe Journey Optimizer의 오퍼 구성
 

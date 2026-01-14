@@ -46,7 +46,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 여정 테스트
 
@@ -76,7 +76,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=ko)
 
 개인화 플레이그라운드
 
@@ -96,7 +96,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
 
 이해 당사자 모니터링을 위한 시드 목록
 

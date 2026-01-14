@@ -32,7 +32,7 @@ Adobe Journey Optimizer의 직관적인 드래그 앤 드롭 도구와 상황별
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 여정 생성 및 관리에 대한 종합 안내서
 
@@ -72,7 +72,7 @@ Adobe Journey Optimizer의 표현식 작성
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 Adobe Journey Optimizer의 실용적인 사용 사례
 

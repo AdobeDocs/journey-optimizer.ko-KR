@@ -25,7 +25,7 @@ Adobe Journey Optimizer의 의사 결정 관리를 사용하면 마케터는 여
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
 
 의사 결정 관리 소개
 
@@ -45,7 +45,7 @@ Adobe Journey Optimizer의 의사 결정 관리를 사용하면 마케터는 여
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 오퍼 라이브러리 사용자 인터페이스 안내서
 

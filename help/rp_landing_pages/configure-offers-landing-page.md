@@ -35,7 +35,7 @@ Adobe Journey Optimizer의 &#39;오퍼 구성&#39; 섹션을 사용하면 대상
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 오퍼에 표시 추가
 
@@ -45,7 +45,7 @@ Adobe Journey Optimizer의 &#39;오퍼 구성&#39; 섹션을 사용하면 대상
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 오퍼에 제한 추가
 

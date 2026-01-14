@@ -35,7 +35,7 @@ Adobe Journey Optimizer에서 이벤트 데이터를 수집하면 의사 결정,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 경험 이벤트를 수집하기 위한 데이터 세트 생성 방법
 
@@ -45,7 +45,7 @@ Adobe Journey Optimizer에서 이벤트 데이터를 수집하면 의사 결정,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 의사 결정 관리를 위한 이벤트 데이터 캡처 구성
 

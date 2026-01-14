@@ -25,7 +25,7 @@ Adobe Journey Optimizer의 오퍼 게재 API를 사용하면 맞춤형 마케팅
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
 
 오퍼 게재 API 시작
 

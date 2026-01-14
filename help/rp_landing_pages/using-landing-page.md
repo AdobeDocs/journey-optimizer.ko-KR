@@ -21,7 +21,7 @@ Adobe Journey Optimizer는 팀이 이메일, SMS 등 여러 채널에 걸쳐 개
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 Adobe Journey Optimizer 시작하기
 
