@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: 다이렉트 메일, 메시지, 캠페인
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 5f2ccb102d08151da5616ef42559164f29542e5d
+source-git-commit: ef109382448b013398b83714b0f5e85f428ffadd
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '787'
 ht-degree: 19%
 
 ---
@@ -30,12 +30,7 @@ DM 메시지를 만들려면 예약된 캠페인을 만들고 추출 파일을 �
 >1. 추출 파일을 업로드하고 저장할 서버를 지정하는 [파일 라우팅 구성](../direct-mail/direct-mail-configuration.md#file-routing-configuration),
 >1. 파일 라우팅 구성을 참조하는 [DM 메시지 구성](../direct-mail/direct-mail-configuration.md#direct-mail-surface).
 
-
 ## DM 캠페인 만들기{#create-dm-campaign}
-
->[!AVAILABILITY]
->
->Dm은 홀드아웃 기능을 지원하지만 현재는 처리를 지원하지 않습니다.
 
 DM 캠페인을 만들려면 예약된 캠페인을 설정하고, 타겟 대상자를 선택하고, 메시지 구성을 포함하여 DM 설정을 구성합니다. 다음 단계를 수행하십시오.
 
@@ -62,6 +57,10 @@ DM 캠페인을 만들려면 예약된 캠페인을 설정하고, 타겟 대상�
 1. 사용할 **[!UICONTROL DM 구성]**&#x200B;을(를) 선택하거나 만드십시오. [DM 구성을 만드는 방법을 알아보세요](direct-mail-configuration.md#direct-mail-surface).
 
    ![](assets/direct-mail-campaign.png){width="800" align="center"}
+
+   >[!AVAILABILITY]
+   >
+   >DM은 **홀드아웃** 기능을 지원하지만 현재 **처리**&#x200B;를 지원하지 않습니다. [실험 작업 방법 알아보기](../content-management/get-started-experiment.md)
 
 1. 특정 날짜에 대해 캠페인을 예약하거나 정기적으로 반복하도록 설정할 수 있습니다. **[!UICONTROL 이 섹션]**&#x200B;에서 캠페인의 [일정](../campaigns/campaign-schedule.md)을 구성하는 방법을 알아보세요.
 
