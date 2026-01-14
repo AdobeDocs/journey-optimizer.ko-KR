@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
 source-git-commit: c4e877b0d064938ef3a3bc7e67fc5dc00aa09bca
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '566'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Journey Optimizer는 대상자와 효과적으로 교류할 수 있는 다
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 이메일 채널
 
@@ -37,7 +37,7 @@ Adobe Journey Optimizer는 대상자와 효과적으로 교류할 수 있는 다
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 푸시 알림 채널
 
@@ -47,7 +47,7 @@ Adobe Journey Optimizer는 대상자와 효과적으로 교류할 수 있는 다
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
 
 SMS / MMS / RCS 메시지
 
@@ -57,7 +57,7 @@ SMS / MMS / RCS 메시지
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
 
 다이렉트 메일 캠페인
 
@@ -75,7 +75,7 @@ SMS / MMS / RCS 메시지
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 인앱 메시지
 
@@ -85,7 +85,7 @@ SMS / MMS / RCS 메시지
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 웹
 
@@ -95,7 +95,7 @@ SMS / MMS / RCS 메시지
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 코드 기반 경험
 
@@ -105,7 +105,7 @@ SDK 및 API를 사용하여 여러 디지털 플랫폼에 걸쳐 개인화된 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg)
 
 콘텐츠 카드
 
@@ -130,7 +130,7 @@ Adobe Journey Optimizer에서는 다음 두 가지 기본 컨텍스트에서 커
 
 - **캠페인**: 타기팅된 목표를 달성하기 위해 지정된 채널을 활용하는 특정 마케팅 캠페인을 배포합니다. 새 제품을 홍보하는 것이든 시즌 매출을 촉진하는 것이든, 캠페인을 통해 대상자에게 맞춘 집중적 메시지 전략을 구축할 수 있습니다. [캠페인을 만들고 실행하는 방법에 대해 알아봅니다](../campaigns/get-started-with-campaigns.md).
 
-아래 표는 지원되는 위치를 나타내는 다양한 여정 및 캠페인에서 각 채널의 가용성을 보여줍니다.
+아래 테이블은 다양한 캠페인 유형에서 각 채널의 가용성을 보여 주며 지원되는 위치를 설명합니다.
 
 | 채널 | 여정 | 액션 캠페인(마케팅) | 액션 캠페인(트랜잭션) | API-트리거된 캠페인 | 오케스트레이션된 캠페인 |
 |----------------------|----------|------------------------------|----------------------------------|-------------------------|------------------------|

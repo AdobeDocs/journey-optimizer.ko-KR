@@ -7,7 +7,7 @@ badge: label="레거시" type="Informative"
 redpen-status: CREATED_||_2025-08-11_21-00-00
 exl-id: c768d4b4-470d-4c53-b71b-0d09f89100e9
 source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '203'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Adobe Journey Optimizer의 순위를 사용하면 대상자에게 어떤 상품�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 순위 시작
 
@@ -35,7 +35,7 @@ Adobe Journey Optimizer의 순위 기본 사항, 순위 공식 및 오퍼 배치
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 순위 공식 만들기 및 사용
 
@@ -45,7 +45,7 @@ PQL 구문과 상황별 데이터를 사용하여 순위 공식을 만드는 단
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 오퍼 순위를 위한 AI 모델
 

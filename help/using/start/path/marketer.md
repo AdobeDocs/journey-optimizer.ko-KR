@@ -8,9 +8,9 @@ feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
 source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1476'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -111,7 +111,7 @@ Journey Optimizer는 두 가지 강력한 오케스트레이션 접근 방식을
 
 ### 캠페인 오케스트레이션
 
-* **올바른 방법 선택**: [동작이 트리거된 실시간 경험에 대해 여정 유형 비교](../../building-journeys/journey.md#journey-types) 또는 예약된 일괄 처리 캠페인에 대해 [캠페인 유형](../../campaigns/get-started-with-campaigns.md#campaign-types)
+* **올바른 접근 방식 선택**: 실시간 행동 기반 경험을 위한 [여정 유형](../../building-journeys/journey.md#journey-types) 또는 예약된 일괄 캠페인을 위한 [캠페인 유형](../../campaigns/get-started-with-campaigns.md#campaign-types)을 비교합니다.
 * **명확한 캠페인 목표 정의**: 여러 단계로 이루어진 워크플로를 디자인하기 전에 목표를 설정합니다.
 * **파일럿 대상자로 시작**: 확장하기 전에 카운트 및 세분화 로직을 검증합니다.
 * **관계형 데이터 활용**: 다중 엔터티 세분화를 사용하여 고객 데이터를 계정, 구매, 구독과 연결하여 정확한 타겟팅을 구현합니다.

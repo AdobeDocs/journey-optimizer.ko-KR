@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-11_21-05-09
 badge: label="레거시" type="Informative"
 exl-id: 5262df0e-201b-45bc-8234-e5acb7ff8af9
 source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '351'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Adobe Journey Optimizer의 의사 결정 관리를 통해 적절한 대상자에
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 의사 결정 관리 시작
 
@@ -35,7 +35,7 @@ Adobe Journey Optimizer의 의사 결정 관리를 통해 적절한 대상자에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 의사 결정 구성 요소 만들기 및 관리
 
@@ -45,7 +45,7 @@ Adobe Journey Optimizer의 의사 결정 관리를 통해 적절한 대상자에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 순위 만들기 및 최적화
 
@@ -55,17 +55,17 @@ Adobe Journey Optimizer의 의사 결정 관리를 통해 적절한 대상자에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 오퍼 만들기 및 관리
 
 Adobe Journey Optimizer에서 맞춤형 오퍼, 대체 옵션 및 컬렉션을 만드는 단계별 지침입니다.
 
-[시작하기](managing-offers-in-the-offer-library-landing-page.md)
+[시작](managing-offers-in-the-offer-library-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 의사 결정 만들기 및 관리
 
@@ -75,7 +75,7 @@ Adobe Journey Optimizer에서 맞춤형 오퍼, 대체 옵션 및 컬렉션을 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 배치 의사결정 사용
 

@@ -7,7 +7,7 @@ badge: label="레거시" type="Informative"
 redpen-status: CREATED_||_2025-08-11_20-58-59
 exl-id: 490fa22c-40b3-4c70-b31c-a971c941a232
 source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '228'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Adobe Journey Optimizer에서 배치, 의사 결정 규칙, 컬렉션 한정자�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 오퍼에 대한 배치 만들기 안내서
 
@@ -35,7 +35,7 @@ Adobe Journey Optimizer 내에서 적절한 오퍼 컨텐츠가 적절한 위치
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Adobe Journey Optimizer에서 결정 규칙 만드는 방법
 
@@ -45,7 +45,7 @@ Adobe Experience Platform 데이터를 사용하여 특정 대상 세그먼트�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/tags.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/tags.svg)
 
 Adobe Journey Optimizer에서 컬렉션 한정자 만들고 관리하는 방법 알아보기
 

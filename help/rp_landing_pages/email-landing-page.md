@@ -6,7 +6,7 @@ description: 이메일 채널
 redpen-status: CREATED_||_2025-08-11_20-35-15
 exl-id: f7c61cc3-943e-40a3-94be-f3f1bd46961d
 source-git-commit: e2ecfcd3163965bbd0ada68edd61ac07373eaad2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '333'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ Adobe Journey Optimizer의 이메일 채널을 통해 정밀하고 창의적인 
 
 다음 방법으로 이메일 게재를 만들 수 있습니다.
 
-* **여정**&#x200B;에서 만들기: 여정에 **[!UICONTROL 이메일]** 활동을 추가하고 기본 설정을 정의한 다음 오른쪽의 **[!UICONTROL 작업: 이메일]** 창에서 메시지의 콘텐츠를 만듭니다. [여정을 만드는 방법 알아보기](../using/building-journeys/journey-gs.md)
+* **여정**&#x200B;에서 만들기: 여정에 **[!UICONTROL 이메일]** 활동을 추가하고 기본 설정을 정의한 다음 오른쪽의 **[!UICONTROL 작업: 이메일]** 창에서 메시지의 콘텐츠를 만듭니다. [여정 만드는 방법 알아보기](../using/building-journeys/journey-gs.md)
 
 * **캠페인**&#x200B;에서 만들기: 캠페인을 만든 후 **[!UICONTROL 이메일]**&#x200B;을 작업으로 선택하고 기본 설정을 정의합니다. [캠페인을 만드는 방법 알아보기](../using/campaigns/create-campaign.md#configure)
 
@@ -32,7 +32,7 @@ Adobe Journey Optimizer의 이메일 채널을 통해 정밀하고 창의적인 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 이메일을 만드는 방법
 
@@ -42,7 +42,7 @@ Adobe Journey Optimizer의 이메일 채널을 통해 정밀하고 창의적인 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 이메일 콘텐츠 디자인 및 최적화
 
@@ -52,7 +52,7 @@ Adobe Journey Optimizer을 사용하여 반응형 및 개인화된 이메일 콘
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 이메일 옵트아웃 관리
 
@@ -62,7 +62,7 @@ Adobe Journey Optimizer을 사용하여 반응형 및 개인화된 이메일 콘
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 이메일 채널 구성
 
@@ -72,7 +72,7 @@ Adobe Journey Optimizer을 사용하여 반응형 및 개인화된 이메일 콘
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 이메일 전달성 마스터하기
 

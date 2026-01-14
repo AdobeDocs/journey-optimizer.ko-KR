@@ -8,7 +8,7 @@ exl-id: 6fc5b0f4-95a5-431d-a80a-3a1f71b4dd0d
 hide: true
 hidefromtoc: true
 source-git-commit: 7c47940713484dd6d6047eefe6e0ae0d0a276b9c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '210'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ Adobe Journey Optimizer의 캠페인을 활용하면 여러 채널에서 개인�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 캠페인 시작
 
@@ -32,7 +32,7 @@ Adobe Journey Optimizer의 캠페인을 활용하면 여러 채널에서 개인�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 캠페인 액세스 및 관리
 
@@ -42,7 +42,7 @@ Adobe Journey Optimizer의 캠페인을 활용하면 여러 채널에서 개인�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 액션 캠페인
 
@@ -52,7 +52,7 @@ Adobe Journey Optimizer의 캠페인을 활용하면 여러 채널에서 개인�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 API 트리거 캠페인
 
@@ -62,7 +62,7 @@ API 트리거 캠페인
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 오케스트레이션된 캠페인
 
