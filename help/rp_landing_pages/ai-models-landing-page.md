@@ -45,7 +45,7 @@ Adobe Journey Optimizer의 AI 모델과 그 유형, 기능 및 비즈니스 목�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 개인화된 최적화 모델 이해
 

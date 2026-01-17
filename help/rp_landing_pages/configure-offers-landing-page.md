@@ -25,7 +25,7 @@ Adobe Journey Optimizer의 &#39;오퍼 구성&#39; 섹션을 사용하면 대상
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 개인화된 오퍼 만들기
 

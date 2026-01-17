@@ -45,7 +45,7 @@ Adobe Journey Optimizer의 의사 결정 관리를 통해 적절한 대상자에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 순위 만들기 및 최적화
 

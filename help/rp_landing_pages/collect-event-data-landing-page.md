@@ -25,7 +25,7 @@ Adobe Journey Optimizer에서 이벤트 데이터를 수집하면 의사 결정,
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
 
 의사 결정 관리 데이터 수집 시작
 

@@ -25,7 +25,7 @@ Adobe Journey Optimizer에서 의사 결정 관리 보고서를 만들면 개인
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
 
 의사 결정 관리 이벤트 작업
 

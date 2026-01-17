@@ -35,7 +35,7 @@ Decisioning, Edge Decisioning 및 Batch Decisioning API를 포함하여 맞춤�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 Decisioning API를 사용하여 오퍼 게재
 
@@ -45,7 +45,7 @@ Decisioning API를 사용하여 오퍼 게재
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 Edge Decisioning API를 사용하여 오퍼 게재
 
@@ -55,7 +55,7 @@ Edge Decisioning API를 통해 Adobe Experience Platform Web SDK를 사용하여
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 Batch Decisioning API를 사용하여 오퍼 게재
 
