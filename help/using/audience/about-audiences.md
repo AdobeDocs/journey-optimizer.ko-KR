@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 6c4bf9edf3b5d3031f5b0ef43db7c8699cfb75dc
+source-git-commit: 80795b643ba08e5016d768600c675ce1273e3a16
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 18%
@@ -38,7 +38,7 @@ Adobe Journey Optimizer은 대상을 만들고, 관리하고, 보강하여 마�
 
 이 설명서는 [!DNL Adobe Journey Optimizer] 내의 대상자를 사용하여 작업하는 방법에 대한 정보를 제공합니다. 대상자 포털 및 대상자에 대한 자세한 내용은 Adobe Experience Platform 세그멘테이션 서비스 설명서에서 확인할 수 있습니다. 자세한 내용은 다음 섹션을 참조하십시오.
 
-* [세그먼테이션 서비스 UI 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/overview){target="_blank"}
+* [세그먼테이션 서비스 UI 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/overview){target="_blank"}
 
 * [세분화 서비스 - 자주 묻는 질문](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/faq){target="_blank"}
 
