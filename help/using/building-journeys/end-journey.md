@@ -120,7 +120,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->여정을 중지하려면 **[!DNL Manage journeys]** 권한이 필요합니다. 여정에 인라인 캠페인 또는 메시징 노드가 포함된 경우 **캠페인 > 캠페인 게시** 권한도 필요합니다. 여정이 에셋을 사용하는 경우(예: 이메일에서) 사용자는 해당 에셋 폴더에 액세스할 수 있어야 합니다. [!DNL Journey Optimizer]이 섹션[에서 ](../administration/permissions-overview.md) 사용자의 액세스 권한 관리에 대해 자세히 알아보세요.
+>여정을 중지하려면 **[!DNL Manage journeys]** 권한이 필요합니다. 여정에 인라인 캠페인 또는 메시징 노드가 포함된 경우 **캠페인 > 캠페인 게시** 권한도 필요합니다. 여정이 에셋을 사용하는 경우(예: 이메일에서) 사용자는 해당 에셋 폴더에 액세스할 수 있어야 합니다. [!DNL Journey Optimizer]이 섹션[에서 &#x200B;](../administration/permissions-overview.md) 사용자의 액세스 권한 관리에 대해 자세히 알아보세요.
 
 ## 관련 항목
 
