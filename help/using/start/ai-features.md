@@ -7,10 +7,10 @@ feature: Overview
 topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 76a970f4edf0cef3fc15ab69c78ef46fbb0497c7
 workflow-type: tm+mt
-source-wordcount: '1469'
-ht-degree: 4%
+source-wordcount: '1676'
+ht-degree: 3%
 
 ---
 
@@ -66,7 +66,21 @@ AI Assistant는 Adobe Journey Optimizer에 대한 대화형 안내서입니다. 
 
 AI Assistant의 대화 기능을 기반으로 하는 Adobe Journey Optimizer은 여정 최적화 및 실험을 위해 심층적인 분석과 실행 가능한 권장 사항을 제공하는 전문 AI 에이전트를 제공합니다.
 
-### 여정 분석 에이전트 {#journey-agent}
+### Journey Agent {#journey-agent}
+
+Journey Agent에는 AI Assistant의 두 가지 기술인 분석 및 생성이 포함되어 있습니다. 기존 여정을 최적화하거나 자연어 프롬프트에서 새 콘텐츠를 빌드하는 데 사용합니다.
+
++++**필요한 권한**
+
+* **여정 보기** - AI Assistant에서 직접 여정에 대한 인사이트 보기
+* **여정 관리** - AI Assistant에서 직접 새 여정 만들기
+* **세그먼트 보기** - 대상에 대한 통찰력을 보고 기존 대상을 검색합니다.
+* **세그먼트 관리** - AI Assistant에서 직접 새 대상 만들기
+* **여정 이벤트, 데이터 소스 및 작업 보기** - 만들기 기술이 여정 이벤트 및 사용자 지정 작업을 검색하는 데 필요합니다.
+
++++
+
+#### 여정 분석 스킬 {#journey-analyze-skill}
 
 [여정 분석 에이전트](https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}를 사용하면 자연어 분석을 통해 여정 성능을 최적화할 수 있습니다.
 
@@ -88,12 +102,27 @@ AI Assistant의 대화 기능을 기반으로 하는 Adobe Journey Optimizer은 
 
 +++
 
-+++**필요한 권한**
++++
 
-* **여정 보기** - AI Assistant에서 직접 여정에 대한 인사이트 보기
-* **여정 관리** - AI Assistant에서 직접 새 여정 만들기
-* **세그먼트 보기** - 대상에 대한 인사이트 보기
-* **세그먼트 관리** - AI Assistant에서 직접 새 대상 만들기
+#### 여정 스킬 생성 {#journey-create-skill}
+
+[여정 에이전트 만들기](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-create){target="_blank"}를 사용하면 자연어 프롬프트에서 여정을 만들고 목표를 구조화된 여정 구성으로 변환할 수 있습니다.
+
++++**주요 기능**
+
+* **자연어 여정 만들기** - 원하는 여정을 설명하고 자동으로 만드십시오.
+* **이벤트 및 대상 기반 시작** - 이벤트 트리거, 대상 기반, 비즈니스 이벤트 또는 대상 자격 여정 만들기
+* **조건부 논리** - 고객 특성 또는 동작을 기반으로 분할 경로를 빌드합니다.
+* **다중 채널 메시징** - 전자 메일, 푸시 및 SMS 동작 추가
+* **예약** - 단계 사이의 시작 날짜 및 시간 구성
+
++++
+
++++**샘플 프롬프트**
+
+* &quot;고객이 온라인으로 구매를 하고 감사 푸시 알림을 전송할 때 시작되는 여정을 만듭니다.&quot;
+* &quot;20일 12시부터 2주 동안 3개의 이메일을 사용하여 일일 하이커 대상을 타깃팅하는 여정을 빌드합니다.&quot;
+* &quot;사용자가 내 스토어 위치를 입력할 때 시작되고 유효한 이메일 주소가 있는지 여부에 따라 후속 작업을 수행하는 여정을 만듭니다.&quot;
 
 +++
 
@@ -241,7 +270,7 @@ Send-Time Optimization은 내역 참여 데이터(열기 및 클릭 수)를 분�
 
 +++
 
-[사용 가능한 플레이북 모두 보기](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=ko){target="_blank"} | [Experience Platform 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=ko){target="_blank"}
+[사용 가능한 플레이북 모두 보기](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=ko){target="_blank"} | [Experience Platform 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
 
 ## 추가 AI 기능 {#additional-capabilities}
 
@@ -264,6 +293,7 @@ AI 기반 전환 기술을 사용하여 정적 이미지 디자인(JPEG, PNG)을
 * **[콘텐츠 생성을 위한 AI 도우미](#content-generation)** - &quot;콘텐츠 생성&quot; 권한이 필요합니다.
 * **[AI Assistant](#ai-assistant)** 제품 지식 - Adobe 생성 AI 사용자 지침에 동의해야 합니다.
 * **[여정 분석 에이전트](#journey-agent)** - 여정 보기/관리 및 세그먼트 보기/관리 권한이 필요합니다.
+* **[여정 에이전트 만들기](#journey-create-agent)** - 여정 관리, 여정 이벤트/데이터 소스/작업 보기, 세그먼트 보기 및 세그먼트 관리 권한이 필요합니다.
 * **[실험 에이전트](#experimentation-agent)** - 실험 보기 및 실험 메타데이터 관리 권한이 필요합니다.
 
 모든 AI 에이전트를 사용하려면 AI Assistant에 액세스하고 Adobe Experience Cloud 생성 AI 사용자 지침에 동의해야 합니다.
