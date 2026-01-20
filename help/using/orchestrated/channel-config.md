@@ -4,9 +4,9 @@ product: journey optimizer
 title: 채널 구성
 description: 채널 구성을 구성하는 방법을 알아봅니다
 version: Campaign Orchestration
-source-git-commit: 0b92d0e806c47b0d87ba53b7c7f1d56ee4453abb
+source-git-commit: 2bdabace34546bd27c2e3c19a3aee3c8a3eae5f2
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -66,3 +66,25 @@ ht-degree: 0%
 1. 구성이 완료되면 **[!UICONTROL 제출]**&#x200B;을 클릭합니다.
 
 이제 채널을 **오케스트레이션된 캠페인**&#x200B;에서 사용할 준비가 되었으며 선택한 대상 차원에 따라 메시지가 전달됩니다.
+
+## URL 추적 매개 변수 {#url-tracking}
+
+채널 구성을 구성할 때 URL 추적 매개 변수를 정의하여 분석 및 보고 목적으로 추적된 링크에 메타데이터를 추가하여 이메일 캠페인의 성능을 모니터링할 수 있습니다.
+
+이렇게 하려면 `{{context.system.source.*}}` 구문을 사용하여 오케스트레이션된 캠페인과 관련된 상황별 특성을 사용할 수 있습니다.
+
+* **`context.system.source.id`**: 오케스트레이션된 캠페인 ID
+* **`context.system.source.name`**: 오케스트레이션된 캠페인 이름
+* **`context.system.source.versionId`**: 오케스트레이션된 캠페인 버전 ID
+* **`context.system.source.actionId`**: 채널 작업 노드 ID
+* **`context.system.source.actionName`**: 채널 작업 노드 이름
+* **`context.system.source.channel`**: 채널 유형(이메일, SMS, 푸시)
+* **`context.system.IdentityNamespace`**: 사용된 ID 네임스페이스
+
+예:
+
+```
+www.YourLandingURL.com?utm_source=AJO&utm_campaign={{context.system.source.id}}&utm_content={{context.system.source.actionName}}
+```
+
+[이 섹션](../email/url-tracking.md)에서 URL 추적 매개 변수에 대해 자세히 알아보세요.
