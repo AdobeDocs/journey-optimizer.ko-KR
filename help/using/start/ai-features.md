@@ -105,7 +105,7 @@ Journey Agent에는 AI Assistant의 두 가지 기술인 분석 및 생성이 �
 
 #### 여정 스킬 생성 {#journey-create-skill}
 
-[여정 에이전트 만들기](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-create){target="_blank"}를 사용하면 자연어 프롬프트에서 여정을 만들고 목표를 구조화된 여정 구성으로 변환할 수 있습니다.
+[여정 에이전트 만들기](https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-create){target="_blank"}를 사용하면 자연어 프롬프트에서 여정을 만들고 목표를 구조화된 여정 구성으로 변환할 수 있습니다.
 
 +++**주요 기능**
 
@@ -269,7 +269,7 @@ Send-Time Optimization은 내역 참여 데이터(열기 및 클릭 수)를 분�
 
 +++
 
-[사용 가능한 플레이북 모두 보기](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=ko){target="_blank"} | [Experience Platform 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
+[사용 가능한 플레이북 모두 보기](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=ko){target="_blank"} | [Experience Platform 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=ko){target="_blank"}
 
 ## 추가 AI 기능 {#additional-capabilities}
 
