@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 5cdb4e9f8e01a2db17d2c831178053db620286eb
+source-git-commit: a6e6e8fce90fbd730c049f8a39878a44cea9c73c
 workflow-type: tm+mt
-source-wordcount: '1779'
-ht-degree: 41%
+source-wordcount: '2168'
+ht-degree: 44%
 
 ---
 
@@ -231,6 +231,65 @@ ht-degree: 41%
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>새로운 액션 캠페인 검색용 API</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 새로운 Journey Optimizer API를 사용하여 캠페인의 세부 정보, 버전, 구성 등 캠페인 관련 데이터를 프로그램 방식으로 검색하고 확인할 수 있습니다.</p>
+<p>자세한 내용은 <a href="https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve/">세부 설명서</a>를 참조하십시오.</p>
+<p>가용성 일자: 2025년 11월 24일 화요일</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>새로운 여정 경고</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 여정 라이프사이클 이벤트와 사용자 정의 액션 성능을 모니터링하고 추적하는 데 도움이 되는 세 가지 새로운 여정 경고를 사용할 수 있습니다.</p>
+<ul>
+<li><strong>여정 게시됨</strong>: 여정 캔버스에서 실무자가 여정을 게시할 때 알림을 받습니다.</li>
+<li><strong>여정 완료됨</strong>: 여정이 완료되면 알림을 받습니다. 여정 유형(대상자 읽기 또는 이벤트 트리거)에 따라 구체적인 정의가 표시됩니다.</li>
+<li><strong>사용자 정의 액션 캡핑 트리거됨</strong>: 사용자 정의 액션 엔드포인트에서 캡핑이 활성화될 때 알림을 받습니다.</li>
+</ul>
+<p>이 경고는 조직 수준에서 또는 특정 여정에 대해 구독할 수 있습니다.</p>
+<p>자세한 내용은 <a href="../reports/alerts.md#journey-alerts">세부 설명서</a>를 참조하십시오.</p>
+<p>가용성 일자: 2025년 11월 5일 목요일</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>이메일 디자이너 테마</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 사전 승인된 테마를 빠르게 적용하여 모든 이메일에 대한 브랜드 일관성을 보장하고, 캠페인을 만드는 프로세스의 속도를 높이고, 디자인 팀에 대한 의존도를 줄이면서 고품질 이메일을 독립적으로 만들 수 있습니다.</p>
+<p>이전에 Beta 버전으로 릴리스된 이 기능을 이제 일부 조직에서 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
+<img src="assets/do-not-localize/themes.gif">
+<p>자세한 내용은 <a href="../email/apply-email-themes.md">세부 설명서</a>를 참조하십시오.</p>
+<p>가용성 일자: 2025년 11월 5일 목요일</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ### 개선 사항 {#jan-26-01-improv}
 
 다음은 이번 릴리스의 개선 사항 목록입니다.
@@ -253,6 +312,16 @@ ht-degree: 41%
 * **SMS Webhooks: 단계 II** - 제공할 설명.
 
 * **WhatsApp 재판매 오퍼** - 제공할 설명.
+
+* **WhatsApp 채널의 실행 필드** - 이제 전자 메일과 SMS 외에 샌드박스 수준에서 WhatsApp 게재에 대한 기본 실행 필드를 업데이트할 수 있습니다. 또한 WhatsApp 여정 활동 고급 매개 변수 또는 WhatsApp 채널 구성에서 실행 필드 세트를 변경하여 전체적으로 설정된 실행 필드를 재정의할 수 있습니다. [자세히 보기](../configuration/primary-email-addresses.md)
+
+  가용성 일자: 2025년 10월 22일 목요일
+
+* **Mailto(구독 취소) 주소에 대한 사용자 지정 특성 지원** - Journey Optimizer을 사용하면 Adobe 외부에서 동의를 관리하는 경우 이메일 구성에서 사용자 지정 구독 취소 링크 및 사용자 지정 구독 취소 이메일 주소를 정의하여 외부 사용자 지정 끝점을 설정할 수 있습니다. 수신자가 구독 취소 링크를 클릭하면 Journey Optimizer이 일부 기본 프로필별 매개 변수를 동의 업데이트 이벤트에 추가합니다. 이제 사용자 지정 끝점을 추가로 개인화하기 위해 동의 이벤트에도 추가될 사용자 지정 특성을 정의할 수 있습니다. [자세히 보기](../email/list-unsubscribe.md#custom-attributes)
+
+  **참고**: 이 기능은 2025년 8월 이후 사용자 지정 **[!UICONTROL 한 번의 클릭으로 구독 취소 URL]**&#x200B;에 이미 사용할 수 있으며, 이제 제한된 가용성의 **[!UICONTROL Mailto(구독 취소)]** 옵션에 대해 릴리스되었습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.
+
+  가용성 일자: 2025년 10월 6일 화요일
 
 #### 이메일 디자이너
 
