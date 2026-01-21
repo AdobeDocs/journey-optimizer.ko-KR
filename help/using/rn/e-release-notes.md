@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: d09fc3ed670a50b6a99bcf660353ee37d31c7501
-workflow-type: ht
-source-wordcount: '1089'
-ht-degree: 100%
+source-git-commit: 7965928aca9d4e36bacc058776c24065b8cfff21
+workflow-type: tm+mt
+source-wordcount: '1776'
+ht-degree: 41%
 
 ---
 
@@ -19,17 +19,15 @@ ht-degree: 100%
 [!DNL Adobe Journey Optimizer]은 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 모든 변경 사항은 매월 말 [릴리스 정보](release-notes.md)에 통합됩니다.
 
 
-## 25년 10월 사전 릴리스 정보 {#oct-25-10-rn}
+## 2026년 1월 프리릴리스 정보 {#jan-26-01-rn}
 
 **아래 사전 릴리스 정보는 릴리스 공개 당일까지 사전 통지 없이 변경될 수 있습니다**. 링크, 화면, 업데이트된 설명서는 릴리스 일자에 릴리스 정보에 게시됩니다.
 
 [Adobe Experience Platform 사전 릴리스 정보](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}도 참조하십시오.
 
-**릴리스 일자**: 2025년 10월 22일
+**릴리스 일자**: 2026년 1월 26일 화요일
 
-### 새로운 기능 {#oct-25-10-features}
-
-
+### 새로운 기능 {#jan-26-01-features}
 
 <table>
 <thead>
@@ -40,11 +38,88 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>방해 금지 시간 기능으로 이메일, SMS, 푸시, WhatsApp 채널에 대한 시간 기반 제외를 정의할 수 있습니다. 특정 시간 동안 메시지가 전송되지 않도록 하여 고객 환경 설정과 및 규정 요건을 준수할 수 있습니다.</p>
-<p>규칙 세트를 통해 방해 금지 시간을 적용할 수 있으며, 정확한 제어를 위해 이 규칙 세트를 캠페인이나 여정의 개별 액션에 할당할 수 있습니다. 이 프로세스를 간소화합니다.</p>
+<p>방해 금지 시간 기능으로 이메일, SMS, 푸시, WhatsApp 채널에 대한 시간 기반 제외를 정의할 수 있습니다. 특정 기간 동안 메시지가 전송되지 않도록 하여 고객 선호도 및 규정 준수 요구 사항을 준수할 수 있습니다. 규칙 세트를 통해 방해 금지 시간을 적용할 수 있으며, 정확한 제어를 위해 이 규칙 세트를 캠페인이나 여정의 개별 액션에 할당할 수 있습니다.</p>
+<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다. 이번 GA 릴리스에서는 고객이 방해 금지 모드가 완료될 때까지 캠페인 작업을 대기열에 추가할 수 있는 기능과 활성화된 방해 금지 모드 규칙을 미리 볼 수 있는 기능이 제공됩니다.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>사용자 지정 작업 모니터링</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>새로운 모니터링 대시보드와 보강된 여정 단계 이벤트 데이터를 사용하여 insight에서 사용자 지정 작업 엔드포인트의 상태 및 성능에 대해 자세히 알아보십시오. 성공한 호출, 오류, 처리량, 응답 시간 및 대기열 대기 시간을 추적하여 예외 항목이 발생하는 시기, 장소 및 이유를 신속하게 파악합니다.</p>
+<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>랜딩 페이지 사용자 정의 양식</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 Journey Optimizer을 사용하여 랜딩 페이지를 통해 프로필 속성을 캡처할 수 있습니다. 특정 데이터 세트를 기반으로 필요에 맞는 사용자 정의 양식을 만들고 디자인하고 관리합니다. 그런 다음 랜딩 페이지에서 이 양식을 활용하여 선택한 프로필 속성을 각 양식별로 정의한 데이터 세트에 추가할 수 있습니다.</p>
+<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>웹 푸시 알림 채널</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer가 이제 웹 푸시 알림을 지원하여 푸시 채널을 모바일 밖까지 확장합니다. 모바일 브라우저와 데스크탑 브라우저 모두에 알림을 원활하게 전달할 수 있으므로 앱을 사용하지 않고도 고객의 디바이스에서 직접 고객에게 연락할 수 있습니다. 이 향상된 기능을 통해 이미 모바일 푸시에서 사용 가능한 것과 동일한 작성 워크플로 및 타기팅 기능을 활용하여 사용자에게 적시에 개인화된 메시지를 실시간으로 보낼 수 있습니다.</p>
+<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>여정의 DM 채널</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이전에는 캠페인으로 제한되었던 DM 채널 을 이제 여정 캔버스에서 사용할 수 있으므로 DM 을 여정에 통합할 수 있습니다. 이제 파일 추출 구성 및 시간 기반 빈도 설정을 지원하여 DM을 일괄 처리 및 1:1 여정 시나리오 모두에서 사용할 수 있습니다.</p>
+<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>푸시 채널에서 의사 결정 지원</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 푸시 알림 여정 및 캠페인에 의사 결정 정책을 추가할 수 있습니다. 의사 결정 정책은 의사 결정 엔진을 활용하여 각 대상 구성원에 대해 제공할 최상의 콘텐츠를 동적으로 반환하는 오퍼에 대한 컨테이너입니다.</p>
 <p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
 </td>
 </tr>
 </tbody>
@@ -53,91 +128,51 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>사용자 정의 액션 모니터링 및 보고</strong><br/></th>
+<th><strong>SMS 채널에서 의사 결정 지원</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이 기능은 라이프사이클 상태 및 성과 경고를 포함하여 여정 상태와 실행에 대한 가시성을 향상시킵니다. 이제 사용자 정의 액션에서 예외적인 상황이 발생한 시점, 위치, 이유를 빠르게 이해할 수 있습니다.</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+<p>이제 SMS 여정 및 캠페인에 의사 결정 정책을 추가할 수 있습니다. 의사 결정 정책은 의사 결정 엔진을 활용하여 각 대상 구성원에 대해 제공할 최상의 콘텐츠를 동적으로 반환하는 오퍼에 대한 컨테이너입니다.</p>
+<p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>RCS Basic Messaging</strong><br/></th>
+<th><strong>RCS 기본 메시징</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>With the new RCS Basic add-on offering, you can now deliver basic Rich Communication Services (RCS) messaging in Journey Optimizer, enabling the following enhanced messaging capabilities subject to provider and geographical support:</p>
+<p>새로운 RCS Basic 추가 기능을 사용하면 Journey Optimizer에서 기본적인 RCS(Rich Communication Services) 메시징을 제공할 수 있으므로 공급자 및 통신사의 지원 하에 다음과 같은 향상된 메시징 기능을 사용할 수 있습니다.</p>
 <ul>
-<li><strong>Branded and verified sender support:</strong> Send messages using verified business profiles with branding elements (logo, sender name, etc.).</li>
-<li><strong>Message delivery insights:</strong> Receive detailed delivery reports including message status updates (e.g., sent, delivered, read).</li>
-<li><strong>Link tracking:</strong> Embed and track URLs within RCS messages for engagement analytics.</li>
-<li><strong>Fallback to SMS:</strong> Automatic fallback to SMS when the recipient's device does not support RCS or is temporarily unreachable via RCS.</li>
-<li><strong>Basic message composition:</strong> Send basic text-based RCS messages.</li>
+<li>브랜디드 및 인증된 발신자 지원: 브랜딩 요소(로고, 발신자 이름 등)가 있는 인증된 비즈니스 프로필을 사용하여 메시지를 보냅니다.</li>
+<li>메시지 게재 인사이트: 메시지 상태 업데이트(예: 보냄, 전달됨, 읽음)를 포함한 자세한 게재 보고서를 받습니다.</li>
+<li>링크 추적: 참여 분석을 위해 RCS 메시지 내에 URL을 임베딩하고 추적합니다.</li>
+<li>SMS로 대체: 프로필의 디바이스가 RCS를 지원하지 않거나 일시적으로 RCS를 통해 연결할 수 없는 경우 SMS로 자동 대체합니다.</li>
+<li>기본 메시지 구성: 기본 텍스트 기반 RCS 메시지를 보냅니다.</li>
 </ul>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
-<!--/td>
+</td>
 </tr>
 </tbody>
-</table-->
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Direct mail channel in Orchestrated campaigns</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Direct mail channel is now available in orchestrated campaigns. The Direct mail activity facilitates direct mail sending within your Orchestrated campaign, for both one-time and recurring messages. It serves to automate the process of generating the extraction file required by direct mail providers. You can combine channel activities into the Orchestrated campaign canvas to create cross-channel campaigns that can trigger actions based on customer behavior and data.</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
-<!--/td>
-</tr>
-</tbody>
-</table-->
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Direct Mail channel in journeys</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Previously limited to Campaigns, Direct Mail channel is now available on the journey canvas, enabling you to incorporate Direct Mail into your journeys. Direct Mail can now be used in both batch and 1:1 journey scenarios, with support for file extraction configuration and time-based frequency settings.</p>
-<p> Previously released in Limited Availability, this capability is now available to all environments (General Availability).</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
-<!--/td>
-</tr>
-</tbody>
-</table-->
+</table>
 
 <table>
 <thead>
 <tr>
-<th><strong>새로운 액션 캠페인 검색용 API</strong><br/></th>
+<th><strong>오케스트레이션된 캠페인의 DM 채널</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 새로운 Journey Optimizer API를 사용하여 캠페인의 세부 정보, 버전, 구성 등 캠페인 관련 데이터를 프로그램 방식으로 검색하고 확인할 수 있습니다.</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+<p>이제 오케스트레이션된 캠페인에서 DM 채널을 사용할 수 있습니다. 다이렉트 메일 활동은 오케스트레이션된 캠페인 내에서 다이렉트 메일 전송 과정을 원활하게 하며 일회성 메시지와 반복 메시지를 모두 전송할 수 있습니다. 이는 다이렉트 메일 제공업체에 필요한 추출 파일 생성 프로세스를 자동화하는 역할을 합니다. 채널 활동을 오케스트레이션된 캠페인 캔버스에 결합하여 고객 행동 및 데이터에 따라 액션을 트리거할 수 있는 크로스 채널 캠페인을 만들 수 있습니다.</p>
 </td>
 </tr>
 </tbody>
@@ -153,44 +188,6 @@ ht-degree: 100%
 <tr>
 <td>
 <p>이제 Adobe Experience Platform에서 Talon.One, Capillary, Kobie 충성도 앱에 대한 새로운 소스 커넥터를 사용할 수 있습니다. 이 커넥터를 사용하면 충성도 데이터를 Adobe Experience Platform으로 원활하게 스트리밍하고 Journey Optimizer에서 이 데이터를 활용할 수 있습니다.</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
-</td>
-</tr>
-</tbody>
-</table>
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Decisioning support in email channel</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now add Decision policies into email journeys and campaigns. Decision policies are containers for your offers that leverage the Decisioning engine to dynamically return the best content to deliver for each audience member.</p>
-<p>Previously released in Limited Availability, this capability is now available to all environments (General Availability).</p>
-<img src="assets/do-not-localize/FILE.gif">
-<p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
-</td>
-</tr>
-</tbody>
-</table-->
-
-<table>
-<thead>
-<tr>
-<th><strong>API 트리거 이메일 캠페인의 높은 처리량 모드</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 API 트리거 캠페인에서 새로운 높은 처리량 모드를 사용할 수 있습니다. 이 모드는 대규모 실시간 메시지(초당 최대 5,000개의 트랜잭션)를 위해 설계되었으며 짧은 대기 시간으로 높은 가용성을 제공합니다.</p>
-<p>이 기능은 Adobe 높은 처리량 트랜잭션 메시지 추가 기능 서비스를 구입한 조직의 이메일 채널에서만 사용할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
 </td>
 </tr>
 </tbody>
@@ -199,116 +196,20 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>재사용 가능한 타기팅 규칙</strong><br/></th>
+<th><strong>여정의 액션 활동</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 Journey Optimizer의 전용 UI 메뉴에서 규칙을 만들고 캠페인이나 여정 내 콘텐츠 최적화의 일부로서, 또는 여정 최적화 활동에서 타기팅을 작성할 때 활용할 수 있습니다.</p>
-<p>타기팅 규칙은 현재 제한된 가용성으로 제공됩니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.</p>
-<p>이 기능은 결정 추가 기능 서비스를 구입한 조직에서만 사용할 수 있습니다. 점진적으로 모든 고객을 대상으로 롤아웃될 예정입니다.</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>이메일 디자이너 테마</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 사전 승인된 테마를 빠르게 적용하여 모든 이메일에 대한 브랜드 일관성을 보장하고, 캠페인을 만드는 프로세스의 속도를 높이고, 디자인 팀에 대한 의존도를 줄이면서 고품질 이메일을 독립적으로 만들 수 있습니다.</p>
-<p>이전에 Beta 버전으로 릴리스된 이 기능을 이제 일부 조직에서 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
-<img src="assets/do-not-localize/themes.gif">
-<p>자세한 내용은 <a href="../email/apply-email-themes.md">세부 설명서</a>를 참조하십시오.</p>
-<!--p>Availability date: October 22, 2025</p-->
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>새로운 여정 경고</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>여정 실행을 모니터링하기 위해 새로운 사전 구성된 경고를 사용할 수 있습니다.</p>
-<ul><li><a href="../reports/alerts.md#alert-discard-rate">프로필 삭제율 초과</a>: 지난 5분 동안 입력된 프로필에 대한 프로필 삭제율이 임계값 초과</li>
-<li><a href="../reports/alerts.md#alert-custom-action-error-rate">사용자 정의 액션 오류율 초과</a>: 지난 5분 동안 성공적인 HTTP 호출에 대한 사용자 정의 액션 오류율이 임계값 초과</li>
-<li><a href="../reports/alerts.md#alert-profile-error-rate">프로필 오류율 초과</a>: 지난 5분 동안 입력된 프로필 대비 오류가 발생한 프로필 비율이 임계값 초과</li></ul> <p>임계값을 수정하고 개별 여정 수준에서 경고를 받거나 전체적으로 구독할 수 있습니다.</p>
-<p>자세한 내용은 <a href="../reports/alerts.md">세부 설명서</a>를 참조하십시오.</p>
-<p>사용 가능한 날짜: 2025년 10월 14일</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>실행 메타데이터 도우미 함수</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>새로운 `executionMetadata` 도우미 함수를 개인화 편집기에서 사용할 수 있습니다. 이를 통해 컨텍스트 정보를 모든 기본 액션에 추가하고 데이터 세트에 캡처하여 외부 시스템으로 내보낼 수 있습니다.</p>
-<p>이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.</p>
-<p>자세한 내용은 <a href="../personalization/functions/helpers.md#execution-metadata">세부 설명서</a>를 참조하십시오.</p>
-<p>사용 가능한 날짜: 2025년 10월 13일</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Experimentation Agent가 등장했습니다!</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p><a href="https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a> 기반 Experimentation Agent를 Journey Optimizer에서 사용할 수 있습니다. </p>
-<p>Experimentation Agent는 웹 사이트, 이메일, 푸시 메시지, 애플리케이션에서 디지털 실험을 실행하고 관리하는 방법을 최신화하는 AI 기반 도구입니다. 실험을 보다 효율적으로 실행하고 비즈니스 목표를 구성하고 실행 가능한 인사이트를 생성하여 무엇이 효과가 있고 무엇이 효과가 없으며 다음 실험은 어디서 진행해야 하는지 확인하는 데 도움이 됩니다.</p>
-<p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=ko" target="_blank">세부 설명서</a>를 참조하십시오.</p>
-<p>사용 가능한 날짜: 2025년 10월 10일</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>이메일에 PDF 파일 첨부</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 Journey Optimizer로 보내는 이메일 메시지에 정적 PDF 파일을 첨부할 수 있습니다.</p>
+<p>Journey Optimizer가 단일 액션과 여러 액션이 있는 인바운드 액션 그룹을 모두 구성할 수 있는 포괄적 액션 활동을 새롭게 지원하여 여정 캔버스 내 액션 구성을 간소화할 수 있습니다. 특히 이 새로운 기능에는 다음과 같은 이점이 있습니다.</p>
 <ul>
-<li>매년 프로필별로 최대 6개의 PDF 첨부 파일을 사용하여 메시지를 보낼 수 있습니다.</li>
-<li>각 첨부 파일의 최대 크기는 5MB입니다.</li>
-<li>용량이나 수량이 더 필요하다면 PDF 첨부 파일 추가 기능을 구매할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.</li>
+<li>여정 캔버스 내 기본 액션 구성 간소화.</li>
+<li>다중 액션 인바운드 액션 그룹을 만들 수 있는 용량.</li>
+<li>모든 기본 제공 채널 액션에 최적화를 더하는 기능.</li>
+<li>모든 액션에 실험과 다국어 옵션을 모두 추가하는 기능.</li>
 </ul>
 <p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
-<p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
-<p>자세한 내용은 <a href="../email/pdf-attachments.md">세부 설명서</a>를 참조하십시오.</p>
-<p>사용 가능한 날짜: 2025년 9월 30일</p>
 </td>
 </tr>
 </tbody>
@@ -317,39 +218,114 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>여정 검색을 위한 공개 API</strong><br/></th>
+<th><strong>콘텐츠 결정 활동</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 새로운 Journey Optimizer API를 사용하여 캠페인과 표면 등 여정 및 관련 개체를 검색할 수 있습니다.</p>
-<p>자세한 내용은 <a href="https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve/">세부 설명서</a>를 참조하십시오.</p>
-<p>사용 가능한 날짜: 2025년 9월 25일</p>
+<p>이제 여정 캔버스에서 전용 콘텐츠 결정 활동을 통해 여정에 개인화된 오퍼를 포함하고 조건 및 사용자 지정 작업을 포함한 여정 활동에 사용할 수 있습니다.</p>
+<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
 </td>
 </tr>
 </tbody>
 </table>
 
+### 개선 사항 {#jan-26-01-improv}
 
-### 개선 사항
+다음은 이번 릴리스의 개선 사항 목록입니다.
 
-**AI 모델을 통한 이메일 결정**
+#### AI
 
-이제 Decisioning을 사용하여 AI 모델을 사용하여 이메일의 최상의 콘텐츠를 최적화할 수 있습니다. 예를 들어 이 기능으로 구매, 버튼 클릭, 장바구니 추가 등 사용자 정의 이벤트에 따라 최상의 콘텐츠를 최적화할 수 있습니다.
+* **AI 길잡이 콘텐츠 품질 검사** - 이제 브랜드 정렬 외에도 브랜드 지침과 관계없이 가독성, 응집성 및 효과성으로 잠재적인 문제를 발견하기 위해 전체 콘텐츠 품질을 평가할 수 있습니다. 이러한 자동화된 검사는 명확하지 않은 메시지, 일관되지 않은 말투 또는 구조적 차이를 식별하는 데 도움이 됩니다.
+* **새 색상 탭으로 브랜드 업데이트** - 브랜드 지침은 모든 접점에서 브랜드가 일관되게 표시되도록 하는 데 도움이 됩니다. 새 색상 섹션은 브랜드 색상 시스템에 대한 표준을 정의하며 경험을 통해 색상을 선택, 구성 및 적용하는 방법에 대해 대략적으로 설명합니다. 기본, 보조, 악센트 및 중립 색상을 일관되게 사용하여 통합적이고, 액세스가 가능하고, 인식 가능한 브랜드 이미지를 지원합니다.
 
-**WhatsApp 채널의 실행 필드**
+#### 캠페인
 
-이메일 및 SMS 외에도 샌드박스 수준에서 WhatsApp 게재에 대한 기본 실행 필드 업데이트를 알 수 있습니다. 또한 전역적으로 설정된 실행 필드를 재정의할 수도 있습니다. WhatsApp 여정 활동 고급 매개 변수 또는 WhatsApp 채널 구성에서 변경하면 됩니다. <!-- [Read more](../FILE.md) -->
+* **프로필 시간대를 사용하여 캠페인 예약** - 이제 Campaign 예약에서 각 프로필의 시간대를 사용하여 원하는 현지 시간에 메시지를 전달할 수 있습니다.
 
-**Mailto(구독 취소) 주소에 대한 사용자 정의 속성 지원**
+  >>
+  [!AVAILABILITY]
+  >>
+  이 개선 사항은 일부 조직에서만 사용할 수 있습니다(제한된 가용성).
 
-Journey Optimizer를 사용하면 Adobe 외부에서 동의를 관리하는 경우 이메일 구성에서 원클릭 구독 취소 링크와 사용자 정의 구독 취소 이메일 주소를 정의하여 외부 사용자 정의 엔드포인트를 설정할 수 있습니다. 수신자가 구독 취소 링크를 클릭하면 Journey Optimizer는 기본 프로필별 매개 변수 몇 가지를 동의 업데이트 이벤트에 추가합니다.
+#### 채널
 
-사용자 정의 엔드포인트를 더욱 개인화하기 위해 이제 동의 이벤트에 추가될 사용자 정의 속성을 정의할 수 있습니다. [자세히 보기](../email/list-unsubscribe.md#custom-attributes)
+* **메시지 내보내기** - 이제 보관 및 규정 준수를 위해 보낸 모든 게재를 특정 데이터 세트로 내보낼 수 있습니다. 이 용량은 이메일뿐만 아니라 SMS와 같은 다른 채널에도 사용할 수 있습니다.
 
->[!AVAILABILITY]
->
->이 기능은 이미 2025년 8월부터 사용자 정의 **[!UICONTROL 원클릭 구독 취소 URL]**&#x200B;에 사용할 수 있었으며, 이제 제한된 가용성으로 **[!UICONTROL Mailto(구독 취소)]** 옵션이 릴리스되었습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.
+* **SMS Webhooks: 단계 II** - 제공할 설명.
 
-사용 가능한 날짜: 2025년 10월 6일
+* **WhatsApp 재판매 오퍼** - 제공할 설명.
+
+#### 이메일 디자이너
+
+* **바로 수정 - Acrite - 전자 메일 및 랜딩 페이지** - 제공할 설명.
+
+#### 경험 의사 결정
+
+* **여정 중재 - 수식** - 이제 수식 및 AI 모델을 사용하여 고객 프로필 특성 및 컨텍스트 요인에 따라 여정 우선 순위 점수를 자동으로 높여 고객이 가장 관련성이 높은 여정을 입력하도록 할 수 있습니다.
+
+* **exd 샌드박스 도구 설명서 - 업데이트** - 제공할 설명.
+
+* **셀프 서비스 마이그레이션 도구 API** - 제공할 설명.
+
+* **결정 항목에 조각 첨부** - 이제 Journey Optimizer가 결정 항목에 조각을 첨부할 수 있는 기능을 제공합니다. 따라서 결정 정책을 통해 코드 기반 경험 캠페인에서 활용할 수 있습니다.
+
+  >>
+  [!AVAILABILITY]
+  >>
+  이전에 제한된 가용성으로 릴리스된 이번 개선 사항은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).
+
+#### 여정
+
+* **여정 사용자 지정 작업에서 오류 응답 페이로드를 활용합니다** - 제공할 설명입니다.
+
+* **여정의 여정 페이로드 크기 확인** - Journey Optimizer이 이제 여정 페이로드 크기를 확인하여 최적의 성능과 시스템 안정성을 보장합니다. 여정을 작성하거나 게시할 때 페이로드 크기가 권장 한도에 근접하거나 초과하는 경우 명확한 경고 및 오류가 표시되고, 여정 구성을 최적화하는 실행 가능한 지침이 제공됩니다. 이 사전 유효성 검사는 잠재적 문제를 조기에 식별하고 여정 성능을 유지하는 데 도움이 됩니다.
+
+* **여정의 여러 인바운드 액션** - 이제 여정 오케스트레이션을 단순화하기 위해 단일 여정에서 여러 인바운드 액션을 정의할 수 있습니다. 이전에 캠페인에서 사용할 수 있었던 이 기능을 사용하면 여러 코드 기반 경험, 인앱 메시지, 콘텐츠 카드 또는 웹 작업을 동시에 다른 위치에 전달할 수 있으며 각 작업에는 특정 콘텐츠가 포함되어 있습니다.
+
+  >>
+  [!AVAILABILITY]
+  >>
+  이전에 제한된 가용성으로 릴리스된 이번 개선 사항은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).
+
+#### 오케스트레이션된 캠페인
+
+* **특성 선택 및 배포 값 복사** - 이제 조정된 캠페인의 값 보기에서 직접 값을 선택하거나 복사할 수 있습니다.
+
+* **대상에 대한 데이터 사용 레이블 상속** - 이제 오케스트레이션된 캠페인에 대상을 저장할 때 Adobe Experience Platform에 적용된 레이블이 자동으로 이전되어 수동 DULE 태깅이 줄어듭니다.
+
+* **사전 정의된 리타겟팅 필터** - 오케스트레이션된 캠페인 사용 사례에 대해 더 쉬운 리타겟팅을 지원하기 위해 이 릴리스에서는 새로운 캠페인 피드백 필터를 도입했습니다. 이러한 필터를 사용하면 보냄, 열기만, 열림 또는 클릭됨, 열림 및 클릭됨 등의 메시지 참여를 기반으로 대상을 직접 타기팅하고 다시 타기팅할 특정 캠페인 또는 전환 중 캠페인을 선택할 수 있습니다.
+
+* **매개 변수가 있는 사전 정의된 필터** - 이제 재사용 가능한 편집 가능한 규칙에 대해 조정된 캠페인에서 매개 변수가 있는 사전 정의된 필터를 만들 수 있습니다.
+
+* **보내기 전 메시지 확인** - 이제 우발적 전송을 줄이기 위해 오케스트레이션된 캠페인을 보내기 전에 확인 단계가 기본적으로 활성화됩니다.
+
+* **사용자 생성 메타데이터 지원** - 이제 오케스트레이션된 캠페인의 개인화 편집기에서 executionMetadata 도우미 함수를 사용할 수 있으므로 컨텍스트 정보를 모든 기본 작업에 첨부하고 데이터 집합에 저장하여 외부 시스템으로 내보낼 수 있습니다.
+
+* **다시 시작 단추** - 오케스트레이션된 캠페인에는 이제 다시 시작 단추가 포함되어 있으므로 필요할 때 캠페인을 게시하기 전에 실행을 빠르게 다시 시작할 수 있습니다.
+
+* **속도 제어 지원** - 이제 오케스트레이션된 캠페인이 속도 제어를 지원하므로 게재 속도를 높이고 볼륨 제한에 맞출 수 있습니다.
+
+#### 권한
+
+* **여정 및 캠페인에 대한 자체 승인 방지** - 이제 작성자가 자신의 여정 또는 캠페인을 승인할 수 없도록 요구할 수 있으므로 승인 워크플로의 직무 분리가 개선됩니다.
+
+## 곧 출시 예정 {#jan-26-01-coming-soon}
+
+조만간 다음 기능 및 개선 업데이트가 릴리스될 예정입니다. **이 정보는 변경될 수 있습니다**. 업데이트된 링크, 화면, 설명서는 업데이트가 프로덕션에서 제공될 때 공유 예정입니다.
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey Agent 내 콘텐츠 생성</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Experience Platform Agent Orchestrator을 기반으로 하는 Journey Agent은 Journey Optimizer에서 사용할 수 있으며 자연어 인터페이스를 통해 여정을 분석할 수 있도록 합니다. 이제 Journey Agent에서 직접 채널별 컨텐츠를 생성 및 관리하고, 이메일 및 푸시와 같은 채널용 컨텐츠를 작성하고, 템플릿을 적용하고 미리 보고, 프롬프트를 통해 색조와 스타일을 개선하고, 컨텍스트 내 편집을 위해 컨텐츠 Designer에서 컨텐츠를 열 수도 있습니다.</p>
+</td>
+</tr>
+</tbody>
+</table>
