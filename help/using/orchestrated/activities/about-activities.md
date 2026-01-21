@@ -5,9 +5,9 @@ title: 오케스트레이션된 캠페인 활동 작업
 description: 캠페인 활동을 오케스트레이션하는 방법 알아보기
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
 version: Campaign Orchestration
-source-git-commit: 4d5505cbb46bdff846218bfc3657c6a6e5447af3
+source-git-commit: 43fa71d7ec05e8c4b1ccd8d8c0ff8727128f5030
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '411'
 ht-degree: 61%
 
 ---
@@ -61,6 +61,11 @@ Adobe Journey Optimizer에서는 여러 채널에 걸쳐 마케팅 캠페인을 
 >id="ajo_orchestration_end"
 >title="종료 활동"
 >abstract="**종료** 활동을 사용하여 오케스트레이션된 캠페인의 끝을 그래픽으로 표시할 수 있습니다. 이 활동은 기능에 영향을 미치지 않으므로 선택 사항입니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_signal"
+>title="외부 신호"
+>abstract="외부 신호"
 
 다음 활동은 오케스트레이션된 캠페인을 구성하고 실행하는 데 특정적입니다. 이들의 주요 임무는 다른 활동을 조정하는 것입니다.
 
