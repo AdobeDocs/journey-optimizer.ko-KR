@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
-source-git-commit: 71d4fae1eecb2acfcf3ba889c58bf71fb74d48fa
+source-git-commit: 288e3418b7152410166ddb9e520997933f1f589c
 workflow-type: tm+mt
-source-wordcount: '1472'
+source-wordcount: '1498'
 ht-degree: 1%
 
 ---
@@ -58,6 +58,10 @@ ht-degree: 1%
 1. 준비가 되면 변경 사항을 저장하여 조각을 업데이트합니다.
 
 1. 조각을 이메일에 추가하면 사용자는 조각에 구성된 편집 가능한 모든 필드를 사용자 지정할 수 있습니다. [시각적 조각에서 편집 가능한 필드를 사용자 지정하는 방법에 대해 알아봅니다.](../email/use-visual-fragments.md#customize-fields)
+
+>[!CAUTION]
+>
+>버튼 구성 요소의 **label** 및 **URL**&#x200B;을(를) 모두 조각에서 편집할 수 있게 되면 추적 보고서에 버튼 레이블 대신 URL이 표시됩니다. <!--If accurate label tracking is critical for your reporting, one potential approach is to break the inheritance on the fragment after adding it to your email, though note that this disconnects the fragment from centralized updates.-->
 
 ## HTML 구성 요소 및 표현식 조각에 편집 가능한 필드 추가 {#expression}
 
@@ -195,5 +199,5 @@ HTML 구성 요소를 사용하여 편집 가능한 조각에 줄 바꿈, 굵게
 
 This video shows how to make HTML components within a fragment editable, allowing for dynamic updates to both content and styling.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464375/?captions=kor&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
 -->

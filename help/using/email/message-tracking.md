@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 링크, 추적, 모니터링, 이메일
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+source-git-commit: 288e3418b7152410166ddb9e520997933f1f589c
 workflow-type: tm+mt
-source-wordcount: '1344'
-ht-degree: 25%
+source-wordcount: '1380'
+ht-degree: 24%
 
 ---
 
@@ -96,6 +96,10 @@ ht-degree: 25%
 >마케팅 유형 이메일 메시지에는 [옵트아웃 링크](../privacy/opt-out.md#opt-out-decision-management)가 포함되어야 합니다. 이는 트랜잭션 메시지에는 필요하지 않습니다. 메시지를 만들 때 **[!UICONTROL 채널 구성]**&#x200B;에 메시지 범주(**[!UICONTROL 마케팅]** 또는 [트랜잭션](email-settings.md#email-type))가 정의되어 있습니다.
 
 메시지를 보낸 후 링크의 유지 기간은 **25개월**&#x200B;입니다. 해당 지연 후에는 링크를 더 이상 사용할 수 없습니다.
+
+>[!CAUTION]
+>
+>단추의 **레이블**&#x200B;과(와) **URL**&#x200B;을(를) 모두 조각에서 편집할 수 있게 되면 추적 보고서에 단추 레이블 대신 URL이 표시됩니다. 추적 데이터 집합의 `_experience.customerJourneyManagement.messageInteraction.label` 필드에 URL 값이 기록됩니다.
 
 ## 미러 페이지 링크 {#mirror-page}
 

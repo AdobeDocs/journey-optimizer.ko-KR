@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: 6a5b4c94228db0ab9573124762e89181c2c41b45
+source-git-commit: 288e3418b7152410166ddb9e520997933f1f589c
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '1023'
 ht-degree: 1%
 
 ---
@@ -110,6 +110,10 @@ ht-degree: 1%
 ## 편집 가능한 필드 사용자 지정 {#customize-fields}
 
 선택한 조각의 특정 부분을 편집할 수 있게 만든 경우 조각을 콘텐츠에 추가한 후 기본값을 무시할 수 있습니다. [조각을 사용자 지정할 수 있게 만드는 방법을 알아보세요](../content-management/customizable-fragments.md)
+
+>[!CAUTION]
+>
+>버튼 구성 요소의 **label**&#x200B;과(와) **URL**&#x200B;을(를) 모두 조각에서 편집할 수 있는 경우 추적 보고서에 버튼 레이블 대신 URL이 표시됩니다. <!--If accurate label tracking is critical for your reporting, one potential approach is to break the inheritance on the fragment after adding it to your email, though note that this disconnects the fragment from centralized updates. [Learn more about breaking inheritance](#break-inheritance)-->
 
 조각에서 편집 가능한 필드를 사용자 정의하려면 다음 단계를 수행합니다.
 
