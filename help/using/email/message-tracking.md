@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 링크, 추적, 모니터링, 이메일
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 288e3418b7152410166ddb9e520997933f1f589c
+source-git-commit: 60907756a261c1f672944eccefbfe2ee90d0d017
 workflow-type: tm+mt
-source-wordcount: '1380'
+source-wordcount: '1370'
 ht-degree: 24%
 
 ---
@@ -99,7 +99,7 @@ ht-degree: 24%
 
 >[!CAUTION]
 >
->단추의 **레이블**&#x200B;과(와) **URL**&#x200B;을(를) 모두 조각에서 편집할 수 있게 되면 추적 보고서에 단추 레이블 대신 URL이 표시됩니다. 추적 데이터 집합의 `_experience.customerJourneyManagement.messageInteraction.label` 필드에 URL 값이 기록됩니다.
+>**사용자 지정 가능한 조각**&#x200B;에서 단추의 **레이블**&#x200B;과(와) [URL](../content-management/customizable-fragments.md)을(를) 모두 편집할 수 있게 되면 추적 보고서에 단추 레이블 대신 URL이 표시됩니다.
 
 ## 미러 페이지 링크 {#mirror-page}
 

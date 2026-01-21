@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: 288e3418b7152410166ddb9e520997933f1f589c
+source-git-commit: 60907756a261c1f672944eccefbfe2ee90d0d017
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1028'
 ht-degree: 1%
 
 ---
@@ -111,10 +111,6 @@ ht-degree: 1%
 
 선택한 조각의 특정 부분을 편집할 수 있게 만든 경우 조각을 콘텐츠에 추가한 후 기본값을 무시할 수 있습니다. [조각을 사용자 지정할 수 있게 만드는 방법을 알아보세요](../content-management/customizable-fragments.md)
 
->[!CAUTION]
->
->버튼 구성 요소의 **label**&#x200B;과(와) **URL**&#x200B;을(를) 모두 조각에서 편집할 수 있는 경우 추적 보고서에 버튼 레이블 대신 URL이 표시됩니다. <!--If accurate label tracking is critical for your reporting, one potential approach is to break the inheritance on the fragment after adding it to your email, though note that this disconnects the fragment from centralized updates. [Learn more about breaking inheritance](#break-inheritance)-->
-
 조각에서 편집 가능한 필드를 사용자 정의하려면 다음 단계를 수행합니다.
 
 1. 콘텐츠에 조각을 추가합니다.
@@ -128,6 +124,10 @@ ht-degree: 1%
    아래 예제에서 **소스** 및 **대체 텍스트** 이미지와 &quot;여기를 클릭하세요&quot; 단추 **URL**&#x200B;을(를) 편집할 수 있습니다.
 
    ![](assets/fragment-editable.png)
+
+>[!CAUTION]
+>
+>버튼 구성 요소의 **label** 및 **URL**&#x200B;을(를) 모두 조각에서 편집할 수 있게 되면 추적 보고서에 버튼 레이블 대신 URL이 표시됩니다. [추적에 대해 자세히 알아보기](../email/message-tracking.md)
 
 ## 상속 중단 {#break-inheritance}
 

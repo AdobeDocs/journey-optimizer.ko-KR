@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
-source-git-commit: 288e3418b7152410166ddb9e520997933f1f589c
+source-git-commit: 60907756a261c1f672944eccefbfe2ee90d0d017
 workflow-type: tm+mt
-source-wordcount: '1498'
+source-wordcount: '1502'
 ht-degree: 1%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->버튼 구성 요소의 **label** 및 **URL**&#x200B;을(를) 모두 조각에서 편집할 수 있게 되면 추적 보고서에 버튼 레이블 대신 URL이 표시됩니다. <!--If accurate label tracking is critical for your reporting, one potential approach is to break the inheritance on the fragment after adding it to your email, though note that this disconnects the fragment from centralized updates.-->
+>버튼 구성 요소의 **label** 및 **URL**&#x200B;을(를) 모두 조각에서 편집할 수 있게 되면 추적 보고서에 버튼 레이블 대신 URL이 표시됩니다. [추적에 대해 자세히 알아보기](../email/message-tracking.md)
 
 ## HTML 구성 요소 및 표현식 조각에 편집 가능한 필드 추가 {#expression}
 
@@ -199,5 +199,5 @@ HTML 구성 요소를 사용하여 편집 가능한 조각에 줄 바꿈, 굵게
 
 This video shows how to make HTML components within a fragment editable, allowing for dynamic updates to both content and styling.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464375/?captions=kor&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
 -->
