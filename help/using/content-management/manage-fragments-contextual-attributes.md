@@ -9,9 +9,9 @@ role: User
 level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 5a1a356d6bf0dbd5290b2cf8257d87aa7db43b5b
+source-git-commit: 69efe0254aae3cb067f2c9f89db6aa4fe0a50549
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '358'
 ht-degree: 4%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->조각을 참조하는 여정 및 캠페인에 대한 영향을 완전히 이해하는 경우에만 진행합니다. [자세히 알아보기](#limitations)
+>조각을 참조하는 여정 및 캠페인에 미치는 영향을 완전히 [이해](#limitations)하는 경우에만 진행하십시오.
 
 1. **[!UICONTROL 콘텐츠 관리]** > **[!UICONTROL 조각]**(으)로 이동합니다.
 
@@ -56,11 +56,7 @@ ht-degree: 4%
 
 1. 개인화 편집기에서 **[!UICONTROL 코드 편집기]** 또는 **[!UICONTROL 고급 모드]**(으)로 전환합니다.
 
-1. 다음 구문을 사용하여 컨텍스트 속성을 수동으로 입력하거나 복사하여 붙여넣습니다.
-
-   ```
-   {{context.attribute_name}}
-   ```
+1. `{{context.attribute_name}}` 구문을 사용하여 컨텍스트 특성을 수동으로 입력하거나 복사하여 붙여 넣습니다.
 
    `promotionCode` 특성의 예:
 
