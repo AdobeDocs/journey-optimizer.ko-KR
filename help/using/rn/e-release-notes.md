@@ -7,7 +7,7 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 7f300d46ec6705ccef2d14a2c84c13a63f66f756
+source-git-commit: 9605b5bec688c5afcbcc7b391218cdef6cb3b196
 workflow-type: tm+mt
 source-wordcount: '2342'
 ht-degree: 21%
@@ -25,7 +25,7 @@ ht-degree: 21%
 
 [Adobe Experience Platform 사전 릴리스 정보](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}도 참조하십시오.
 
-**릴리스 일자**: 2026년 1월 26일 화요일
+**릴리스 일자**: 2026년 1월 27일 수요일
 
 ### 새로운 기능 {#jan-26-01-features}
 
