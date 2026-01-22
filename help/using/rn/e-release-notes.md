@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 9605b5bec688c5afcbcc7b391218cdef6cb3b196
+source-git-commit: 5305db965ace448b0df3323d6211317066efae3f
 workflow-type: tm+mt
-source-wordcount: '2342'
+source-wordcount: '2414'
 ht-degree: 21%
 
 ---
@@ -180,6 +180,24 @@ ht-degree: 21%
 <td>
 <p>이제 보관 및 규정 준수를 위해 특정 데이터 세트로 <strong>보낸 게재를 내보내기</strong>할 수 있습니다. 이 용량은 이메일뿐만 아니라 SMS와 같은 다른 채널에도 사용할 수 있습니다. 이제 메시지 내보내기 데이터 세트의 데이터 보존이 <strong>7일</strong>입니다.</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-12915">DOCAC JIRA 작업에 연결</a> | <a href="https://jira.corp.adobe.com/browse/CJM-105313">제품 JIRA 작업에 연결</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey Agent - 여정 만들기</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>여정 만들기 에이전트를 사용하면 Journey Optimizer 사용자는 자연어 인터페이스를 사용하여 마케팅 여정을 빌드하고 구성할 수 있습니다. 여정 만들기 에이전트를 사용하면 전문가가 대화 프롬프트에서 요구 사항을 설명하여 여정을 빠르게 만들 수 있습니다. 에이전트는 여정 생성을 간소화하므로 마케터는 기술 구성보다 전략에 집중할 수 있습니다.</p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">자세히 알아보기</a></p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-13747">DOCAC JIRA 작업에 연결</a> | <a href="https://jira.corp.adobe.com/browse/CJM-95142">제품 JIRA 작업에 연결</a></p>
+<p>가용성 일자: 2026년 1월 12일 화요일</p>
 </td>
 </tr>
 </tbody>
