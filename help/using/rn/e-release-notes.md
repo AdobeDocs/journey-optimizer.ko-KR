@@ -7,7 +7,7 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: a47a1f3064c4166217d23517fe2d1082977bbc2c
+source-git-commit: d1d544b484eb92fd29d0f3f2dc637c8617394304
 workflow-type: tm+mt
 source-wordcount: '2358'
 ht-degree: 21%
@@ -388,7 +388,7 @@ ht-degree: 21%
 <td>
 <p>이제 여정 캔버스에서 전용 콘텐츠 결정 활동을 통해 여정에 <strong>개인화된 오퍼</strong>를 포함하고 조건 및 사용자 지정 작업을 포함한 여정 활동에 사용할 수 있습니다.</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-12902">DOCAC JIRA 작업에 연결</a> | <a href="https://jira.corp.adobe.com/browse/CJM-99223">제품 JIRA 작업에 연결</a></p>
-<p>가용성 일자: 2026년 2월 2일 화요일</p>
+<p>가용성 일자: 2026년 2월 3일 수요일</p>
 </td>
 </tr>
 </tbody>
