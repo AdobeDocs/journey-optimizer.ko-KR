@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: d1d544b484eb92fd29d0f3f2dc637c8617394304
+source-git-commit: 3ea5dd845569508421092bdf53634619354206e2
 workflow-type: tm+mt
-source-wordcount: '2358'
+source-wordcount: '2407'
 ht-degree: 21%
 
 ---
@@ -178,7 +178,13 @@ ht-degree: 21%
 <tbody>
 <tr>
 <td>
-<p>이제 보관 및 규정 준수를 위해 특정 데이터 세트로 <strong>보낸 게재를 내보내기</strong>할 수 있습니다. 이 용량은 이메일뿐만 아니라 SMS와 같은 다른 채널에도 사용할 수 있습니다. 이제 메시지 내보내기 데이터 세트의 데이터 보존이 <strong>7일</strong>입니다.</p>
+<p>이제 새 <strong>메시지 내보내기</strong> 기능을 전자 메일 및 SMS 채널에 사용할 수 있습니다. 이 기능을 사용하면 보낸 메시지 콘텐츠를 전용 Experience Platform 데이터 세트로 자동으로 내보내 다음과 같은 작업을 수행할 수 있습니다.</p>
+<ul>
+<li>규정 준수 요건 충족(예: HIPAA)</li>
+<li>법적 청구 및 고객 지원 문의 메시지 보관</li>
+<li>개인에게 전송된 개인화된 콘텐츠의 사본 유지</li>
+</ul>
+<p>레코드는 <strong>7일 동안 수집 후 </strong>에 AJO 메시지 내보내기 데이터 세트에 보관됩니다. 이 보존 기간 동안 Experience Platform 대상을 통해 데이터를 고유한 저장소로 내보낼 수 있습니다. 이 기능은 채널 구성 수준에서 활성화되므로 내보낼 메시지를 세부적으로 제어할 수 있습니다.</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-12915">DOCAC JIRA 작업에 연결</a> | <a href="https://jira.corp.adobe.com/browse/CJM-105313">제품 JIRA 작업에 연결</a></p>
 </td>
 </tr>
@@ -297,9 +303,6 @@ ht-degree: 21%
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13979">DOCAC JIRA 작업에 연결</a> | <a href="https://jira.corp.adobe.com/browse/CJM-95365">제품 JIRA 작업에 연결</a>
 
 #### 경험 의사 결정
-
-* **exd 샌드박스 도구 설명서 - 업데이트** - 제공할 설명.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13596">DOCAC JIRA 작업에 연결</a>
 
 * **셀프 서비스 마이그레이션 도구 API** - 새로운 <strong>마이그레이션 도구 API</strong> 집합을 사용하여 오퍼 관리 엔터티를 Experience Decisioning으로 마이그레이션할 수 있습니다. 이 도구를 사용하면 종속성 해결 및 롤백 기능을 통해 샌드박스 간에 원활하게 마이그레이션할 수 있습니다.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13837">DOCAC JIRA 작업에 연결</a> | <a href="https://jira.corp.adobe.com/browse/CJM-109695">제품 JIRA 작업에 연결</a>
