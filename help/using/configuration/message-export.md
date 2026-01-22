@@ -52,8 +52,8 @@ ht-degree: 8%
 
 메시지 내보내기 기능에 대한 온보딩 프로세스는 다음 두 단계로 구성됩니다.
 
-1. [에서 ](#set-up-export-dataflow)내보내기 데이터 흐름을 설정[!DNL Experience Platform];
-1. [의 채널 구성에서 ](#config-message-export)메시지 내보내기 사용[!DNL Journey Optimizer].
+1. [에서 &#x200B;](#set-up-export-dataflow)내보내기 데이터 흐름을 설정[!DNL Experience Platform];
+1. [의 채널 구성에서 &#x200B;](#config-message-export)메시지 내보내기 사용[!DNL Journey Optimizer].
 
 >[!WARNING]
 >
