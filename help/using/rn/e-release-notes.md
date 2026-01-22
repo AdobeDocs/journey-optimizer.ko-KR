@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 5305db965ace448b0df3323d6211317066efae3f
+source-git-commit: a47a1f3064c4166217d23517fe2d1082977bbc2c
 workflow-type: tm+mt
-source-wordcount: '2414'
+source-wordcount: '2358'
 ht-degree: 21%
 
 ---
@@ -298,11 +298,6 @@ ht-degree: 21%
 
 #### 경험 의사 결정
 
-* **여정 중재** - 이제 <strong>공식 및 AI 모델</strong>을 사용하여 고객 프로필 특성 및 컨텍스트 요인에 따라 여정 우선 순위 점수를 자동으로 높여 고객이 가장 관련성이 높은 여정을 입력하도록 할 수 있습니다.
-
-  **참고**: 이 개선 사항은 조직 집합(제한된 가용성)에서만 사용할 수 있습니다.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13976">DOCAC JIRA 작업에 연결</a> | <a href="https://jira.corp.adobe.com/browse/CJM-78932">제품 JIRA 작업에 연결</a>
-
 * **exd 샌드박스 도구 설명서 - 업데이트** - 제공할 설명.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13596">DOCAC JIRA 작업에 연결</a>
 
@@ -398,3 +393,4 @@ ht-degree: 21%
 </tr>
 </tbody>
 </table>
+
