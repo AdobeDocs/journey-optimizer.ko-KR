@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9ddf79c9542ad10907b25b2db4415130faec5d8d
+source-git-commit: 68033e08fb57cad65a721540e530cfb7cc884a3b
 workflow-type: tm+mt
-source-wordcount: '2027'
-ht-degree: 29%
+source-wordcount: '1984'
+ht-degree: 28%
 
 ---
 
@@ -151,21 +151,6 @@ ht-degree: 29%
 <tr>
 <td>
 <p>이제 오케스트레이션된 캠페인에서 DM 채널을 사용할 수 있습니다. <strong>DM 활동</strong>을 사용하면 오케스트레이션된 캠페인 내에서 일회성 메시지와 반복 메시지 모두에 대해 DM을 쉽게 보낼 수 있습니다. DM 공급자가 요구하는 <strong>추출 파일</strong>을(를) 생성하는 프로세스를 자동화하는 역할을 합니다. 채널 활동을 오케스트레이션된 캠페인 캔버스에 결합하여 고객 행동 및 데이터에 따라 액션을 트리거할 수 있는 크로스 채널 캠페인을 만들 수 있습니다.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>새로운 충성도 앱 소스 커넥터</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 Adobe Experience Platform에서 Talon.One, Capillary 및 Kobie 로열티 앱용 <strong>소스 커넥터</strong>를 사용할 수 있습니다. 이 커넥터를 사용하면 충성도 데이터를 Adobe Experience Platform으로 원활하게 스트리밍하고 Journey Optimizer에서 이 데이터를 활용할 수 있습니다.</p>
 </td>
 </tr>
 </tbody>
