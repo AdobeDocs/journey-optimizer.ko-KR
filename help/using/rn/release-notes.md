@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 775811ef33441c3209eaedc6cd3bee8f686190e0
+source-git-commit: 9ddf79c9542ad10907b25b2db4415130faec5d8d
 workflow-type: tm+mt
-source-wordcount: '2087'
-ht-degree: 28%
+source-wordcount: '2027'
+ht-degree: 29%
 
 ---
 
@@ -284,10 +284,6 @@ ht-degree: 28%
 
   **참고**: 이 개선 사항은 조직 집합(제한된 가용성)에서만 사용할 수 있습니다.
 
-
-#### 이메일 디자이너
-
-* **이메일 디자이너에서 바로 수정** - 브랜드 가이드라인으로 콘텐츠를 관리할 때 콘텐츠 유효성 검사 중에 위반이 감지되면 <strong>AI 기반 자동 콘텐츠 제안</strong>을 사용할 수 있습니다. 콘텐츠가 브랜드 가이드라인과 잘못 일치하거나 품질 기준에 실패하는 것으로 플래그가 지정된 경우, 시스템은 사전에 검토 및 인라인 적용할 수 있는 수정된 대체 요소를 생성하여 준수 여부를 개선하고 생산 시간을 단축합니다.
 
 #### 경험 의사 결정
 
