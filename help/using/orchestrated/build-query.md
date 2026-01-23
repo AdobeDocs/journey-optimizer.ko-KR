@@ -5,15 +5,25 @@ title: 첫 번째 규칙 작성
 description: 오케스트레이션된 캠페인에 대한 규칙을 만드는 방법을 알아봅니다
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 78fe305975ec97b45e73d60b1dcd66800f67d26e
 workflow-type: tm+mt
-source-wordcount: '1717'
-ht-degree: 96%
+source-wordcount: '1878'
+ht-degree: 97%
 
 ---
 
 
 # 첫 번째 규칙 작성 {#build-query}
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_querymodeler_selectaudience"
+>title="대상자 선택"
+>abstract="**대상자 선택** 옵션을 사용하여 쿼리 필터링에 사용할 대상자를 선택할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_querymodeler_predefinedfilter"
+>title="미리 정의된 필터"
+>abstract="**미리 정의된 필터** 옵션을 사용하여 사용자 정의 필터 목록이나 즐겨찾기에서 미리 정의된 필터를 선택할 수 있습니다."
 
 오케스트레이션된 캠페인에 대한 규칙을 작성하는 주요 단계는 다음과 같습니다.
 
@@ -22,6 +32,11 @@ ht-degree: 96%
 1. **규칙 확인 및 유효성 검사** - 저장하기 전에 규칙의 결과 데이터를 확인합니다.
 
 ## 조건 추가 {#conditions}
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_querymodeler_customcondition"
+>title="사용자 정의 조건"
+>abstract="사용자 정의 조건은 데이터베이스 및 고급 표현식의 속성으로 고유한 조건을 빌드하여 쿼리를 필터링할 수 있는 필터링 구성 요소입니다."
 
 쿼리에 조건을 추가하려면 다음 단계를 수행합니다.
 
@@ -96,7 +111,7 @@ ht-degree: 96%
 
 1. **Value** 필드에서 예상 값을 정의합니다. 표현식 편집기를 통해 데이터베이스 및 도우미 함수의 필드를 사용하여 표현식을 수동으로 정의할 수도 있습니다. 이렇게 하려면 ![표현식 편집기 아이콘을 보여 주는 이미지](assets/do-not-localize/rule-builder-icon-editor.svg) 아이콘을 클릭합니다. [표현식을 편집하는 방법 알아보기](../orchestrated/edit-expressions.md)
 
-   날짜 유형 특성의 경우 **[!UICONTROL 사전 설정]** 옵션을 사용하여 사전 정의된 값을 사용할 수 있습니다.
+   날짜 유형 속성의 경우 **[!UICONTROL 사전 설정]** 옵션을 사용하여 사전 정의된 값을 사용할 수 있습니다.
 
    +++예제 참조
 
@@ -160,6 +175,11 @@ ht-degree: 96%
 
 ## 연산자를 사용하여 조건 결합 {#operators}
 
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_querymodeler_group"
+>title="그룹"
+>abstract="이 창에서 필터링 조건을 함께 연결하는 데 사용되는 연산자를 변경할 수 있습니다."
+
 규칙에 새 조건을 추가할 때마다 **AND** 연산자에 의해 기존 조건에 자동으로 연결됩니다. 이는 두 조건에서 나온 결과가 결합된다는 뜻입니다.
 
 조건 사이의 연산자를 변경하려면 클릭하고 원하는 연산자를 선택합니다.
@@ -199,6 +219,11 @@ ht-degree: 96%
 ![](assets/rule-builder-groups.png)
 
 ## 쿼리 확인 및 유효성 검사
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_querymodeler_ruleproperties"
+>title="규칙 속성"
+>abstract="캔버스에 쿼리를 작성한 후에는 오른쪽에 있는 **규칙 속성** 창을 사용하여 확인할 수 있습니다.<br/>이 창에서는 결과 데이터를 표시하고, 쿼리의 SQL 코드 버전을 검색하고, 타기팅된 레코드 수를 확인할 수 있습니다.<br/>**필터 선택 또는 저장** 버튼을 사용하여 쿼리를 미리 정의된 필터로 저장하거나 캔버스 콘텐츠를 기존 필터로 바꿀 수 있습니다."
 
 캔버스에 쿼리를 작성한 후에는 **규칙 속성** 창을 사용하여 확인할 수 있습니다. 사용 가능한 작업은 다음과 같습니다.
 
