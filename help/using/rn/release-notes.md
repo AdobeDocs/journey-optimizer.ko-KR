@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 789bae8373dda34cd132ea7abffea37f002dbc50
+source-git-commit: 7edc39a43783a3fa8a2b8bded1fd3eb70f20bad6
 workflow-type: tm+mt
-source-wordcount: '2051'
-ht-degree: 27%
+source-wordcount: '2086'
+ht-degree: 28%
 
 ---
 
@@ -26,11 +26,13 @@ ht-degree: 27%
 
 [!DNL Adobe Journey Optimizer]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko){target="_blank"}를 참조하십시오.
 
-## 2026년 1월 릴리스 정보 {#latest-rn}
+## 2026년 1월 프리릴리스 정보 {#latest-rn}
 
 **릴리스 일자**: 2026년 1월 27일 수요일
 
-이 릴리스 노트는 프리릴리스이며 릴리스 사용 가능 날짜까지 변경될 수 있습니다. 링크, 화면 및 업데이트된 설명서는 릴리스 날짜의 릴리스 정보에 게시됩니다.
+**아래 사전 릴리스 정보는 릴리스 공개 당일까지 사전 통지 없이 변경될 수 있습니다**. 링크, 화면, 업데이트된 설명서는 릴리스 일자에 릴리스 정보에 게시됩니다.
+
+[Adobe Experience Platform 사전 릴리스 정보](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}도 참조하십시오.
 
 ### 새로운 기능 {#jan-26-01-features}
 
@@ -116,6 +118,7 @@ ht-degree: 27%
 <td>
 <p>Adobe Journey Optimizer은 이제 <strong>웹 푸시 알림</strong>을 지원하므로 푸시 채널을 모바일 이상으로 확장합니다. 모바일 브라우저와 데스크탑 브라우저 모두에 알림을 원활하게 전달할 수 있으므로 앱을 사용하지 않고도 고객의 디바이스에서 직접 고객에게 연락할 수 있습니다. 이 향상된 기능을 통해 이미 모바일 푸시에서 사용 가능한 것과 동일한 작성 워크플로 및 타기팅 기능을 활용하여 사용자에게 적시에 개인화된 메시지를 실시간으로 보낼 수 있습니다.</p>
 <p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
+<p><strong>참고</strong>: 웹 푸시 알림에 대해서는 자동 알림이 아직 지원되지 않습니다.</p>
 </td>
 </tr>
 </tbody>
@@ -276,7 +279,7 @@ ht-degree: 27%
 
 #### 캠페인
 
-* **프로필 시간대를 사용하여 캠페인 예약** - 이제 Campaign 예약에서 각 프로필의 <strong>시간대</strong>를 사용하여 원하는 현지 시간에 메시지를 배달할 수 있습니다.
+* **프로필 시간대를 사용하여 캠페인 예약** - 이제 Campaign 예약에서 각 프로필의 <strong>시간대</strong>를 사용하여 원하는 현지 시간에 메시지를 배달할 수 있습니다. 이메일, 푸시, SMS, WhatsApp 및 LINE 채널에 프로필 시간대를 사용하여 예약할 수 있습니다.
 
   **참고**: 이 개선 사항은 조직 집합(제한된 가용성)에서만 사용할 수 있습니다.
 
