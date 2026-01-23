@@ -5,20 +5,15 @@ title: 규칙 빌더를 사용하여 작업
 description: 오케스트레이션된 캠페인에 대한 규칙을 만드는 방법을 알아봅니다
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
 version: Campaign Orchestration
-source-git-commit: 78fe305975ec97b45e73d60b1dcd66800f67d26e
+source-git-commit: f85fab10da9cea7c8fd8f83c9e01b6ba06a19e8c
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 78%
+source-wordcount: '305'
+ht-degree: 76%
 
 ---
 
 
 # 규칙 빌더를 사용하여 작업 {#orchestrated-rule-builder}
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_querymodeler_predefinedfilter"
->title="미리 정의된 필터"
->abstract="**미리 정의된 필터** 옵션을 사용하여 사용자 정의 필터 목록이나 즐겨찾기에서 미리 정의된 필터를 선택할 수 있습니다."
 
 오케스트레이션된 캠페인에는 다양한 기준을 기반으로 데이터베이스를 필터링하는 프로세스를 간소화하는 규칙 빌더가 함께 제공됩니다. 규칙 빌더는 매우 복잡하고 긴 쿼리를 효율적으로 관리하여 향상된 유연성과 정밀성을 제공합니다.
 
