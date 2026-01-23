@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ca652ee1469f411a1bd80733ba89921b0ddb1b1c
+source-git-commit: 789bae8373dda34cd132ea7abffea37f002dbc50
 workflow-type: tm+mt
-source-wordcount: '2048'
+source-wordcount: '2051'
 ht-degree: 27%
 
 ---
@@ -100,7 +100,6 @@ ht-degree: 27%
 <td>
 <p>이전에 캠페인으로 제한되었던 <strong>DM 채널</strong>을 이제 <strong>여정 캔버스</strong>에서 사용할 수 있으므로 DM을 여정에 통합할 수 있습니다. 이제 파일 추출 구성 및 시간 기반 빈도 설정을 지원하여 DM을 일괄 처리 및 1:1 여정 시나리오 모두에서 사용할 수 있습니다.</p>
 <p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
-<img src="assets/do-not-localize/dm-journey.gif">
 </td>
 </tr>
 </tbody>
@@ -148,7 +147,6 @@ ht-degree: 27%
 <tr>
 <td>
 <p>이제 오케스트레이션된 캠페인에서 DM 채널을 사용할 수 있습니다. <strong>DM 활동</strong>을 사용하면 오케스트레이션된 캠페인 내에서 일회성 메시지와 반복 메시지 모두에 대해 DM을 쉽게 보낼 수 있습니다. DM 공급자가 요구하는 <strong>추출 파일</strong>을(를) 생성하는 프로세스를 자동화하는 역할을 합니다. 채널 활동을 오케스트레이션된 캠페인 캔버스에 결합하여 고객 행동 및 데이터에 따라 액션을 트리거할 수 있는 크로스 채널 캠페인을 만들 수 있습니다.</p>
-<img src="assets/do-not-localize/dm-oc.gif">
 </td>
 </tr>
 </tbody>
@@ -288,7 +286,7 @@ ht-degree: 27%
 
 #### 이메일 디자이너
 
-* **전자 메일 디자이너에서 바로 수정** - <strong>AI 기반 자동 콘텐츠 제안</strong>은(는) 콘텐츠 유효성 검사 중에 위반이 감지되면 전자 메일 Designer에서 사용할 수 있습니다. 콘텐츠가 브랜드 가이드라인과 잘못 일치하거나 품질 기준에 실패하는 것으로 플래그가 지정된 경우, 시스템은 사전에 검토 및 인라인 적용할 수 있는 수정된 대체 요소를 생성하여 준수 여부를 개선하고 생산 시간을 단축합니다.
+* **이메일 디자이너에서 바로 수정** - 브랜드 가이드라인으로 콘텐츠를 관리할 때 콘텐츠 유효성 검사 중에 위반이 감지되면 <strong>AI 기반 자동 콘텐츠 제안</strong>을 사용할 수 있습니다. 콘텐츠가 브랜드 가이드라인과 잘못 일치하거나 품질 기준에 실패하는 것으로 플래그가 지정된 경우, 시스템은 사전에 검토 및 인라인 적용할 수 있는 수정된 대체 요소를 생성하여 준수 여부를 개선하고 생산 시간을 단축합니다.
 
 #### 경험 의사 결정
 
