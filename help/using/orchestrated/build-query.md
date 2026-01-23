@@ -5,25 +5,15 @@ title: 첫 번째 규칙 작성
 description: 오케스트레이션된 캠페인에 대한 규칙을 만드는 방법을 알아봅니다
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
 version: Campaign Orchestration
-source-git-commit: 78fe305975ec97b45e73d60b1dcd66800f67d26e
+source-git-commit: e8b17fc5a7339092d2b276c36078d8841df28ef6
 workflow-type: tm+mt
-source-wordcount: '1878'
-ht-degree: 97%
+source-wordcount: '1818'
+ht-degree: 96%
 
 ---
 
 
 # 첫 번째 규칙 작성 {#build-query}
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_querymodeler_selectaudience"
->title="대상자 선택"
->abstract="**대상자 선택** 옵션을 사용하여 쿼리 필터링에 사용할 대상자를 선택할 수 있습니다."
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_querymodeler_predefinedfilter"
->title="미리 정의된 필터"
->abstract="**미리 정의된 필터** 옵션을 사용하여 사용자 정의 필터 목록이나 즐겨찾기에서 미리 정의된 필터를 선택할 수 있습니다."
 
 오케스트레이션된 캠페인에 대한 규칙을 작성하는 주요 단계는 다음과 같습니다.
 
@@ -174,11 +164,6 @@ ht-degree: 97%
    ![데이터 집계 옵션의 스크린샷](assets/rule-builder-aggregate.png)
 
 ## 연산자를 사용하여 조건 결합 {#operators}
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_querymodeler_group"
->title="그룹"
->abstract="이 창에서 필터링 조건을 함께 연결하는 데 사용되는 연산자를 변경할 수 있습니다."
 
 규칙에 새 조건을 추가할 때마다 **AND** 연산자에 의해 기존 조건에 자동으로 연결됩니다. 이는 두 조건에서 나온 결과가 결합된다는 뜻입니다.
 
