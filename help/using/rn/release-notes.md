@@ -3,12 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 릴리스 정보
 feature: Release Notes
-topic: Content Management
+role: User
+level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7edc39a43783a3fa8a2b8bded1fd3eb70f20bad6
+source-git-commit: 21231a10389a6238cff6d71966ce2bab8379ea59
 workflow-type: tm+mt
-source-wordcount: '2086'
+source-wordcount: '2096'
 ht-degree: 28%
 
 ---
@@ -363,6 +364,7 @@ ht-degree: 28%
 <tr>
 <td>
 <p>이제 여정 캔버스에서 전용 콘텐츠 결정 활동을 통해 여정에 <strong>개인화된 오퍼</strong>를 포함하고 조건 및 사용자 지정 작업을 포함한 여정 활동에 사용할 수 있습니다.</p>
+<p>이 기능은 모든 환경에서 사용할 수 있습니다(일반 공급).</p>
 <p>가용성 일자: 2026년 2월 3일 수요일</p>
 </td>
 </tr>
