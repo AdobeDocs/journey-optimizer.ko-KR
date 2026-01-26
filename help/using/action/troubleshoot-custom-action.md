@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Experienced
 keywords: 작업, 서드파티, 사용자 지정, 여정, API
 exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 70cac01cf79d7de66667e6fd786caf9df5499dd7
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '682'
 ht-degree: 2%
 
 ---
@@ -25,6 +25,11 @@ Journey Optimizer 사용자 인터페이스의 관리 섹션에서 API 호출을
 ![](assets/send-test-request.png){width="70%" align="left"}
 
 이 기능을 사용하면 테스트 및 유효성 검사 프로세스를 간소화하여 사용자 지정 작업이 라이브 여정에서 올바르게 작동하도록 할 수 있습니다.
+
+>[!NOTE]
+>
+>조직에서 IP(이그레스) 프록시를 사용하도록 설정한 경우 **[!UICONTROL 테스트 요청 보내기]** 호출이 이를 무시합니다. 프록시 라우팅을 확인하려면 테스트 또는 라이브 여정을 실행하십시오. [외부 시스템과 통합](../configuration/external-systems.md#faq)에서 IP(이그레스) 프록시 및 활성화에 대해 자세히 알아보세요.
+
 
 ## 전제 조건 {#troubleshoot-custom-action-prereq}
 
