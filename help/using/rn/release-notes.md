@@ -184,7 +184,7 @@ ht-degree: 27%
 <tr>
 <td>
 <p>여정 만들기 에이전트를 사용하면 Journey Optimizer 사용자는 자연어 인터페이스를 사용하여 마케팅 여정을 빌드하고 구성할 수 있습니다. 여정 만들기 에이전트를 사용하면 전문가가 대화 프롬프트에서 요구 사항을 설명하여 여정을 빠르게 만들 수 있습니다. 에이전트는 여정 생성을 간소화하므로 마케터는 기술 구성보다 전략에 집중할 수 있습니다.</p>
-<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">자세히 알아보기</a></p>
+<p><a href="https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">자세히 알아보기</a></p>
 <p>가용성 일자: 2026년 1월 12일 화요일</p>
 </td>
 </tr>
