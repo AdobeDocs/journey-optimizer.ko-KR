@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 33bb27ff4181e196d05f320c5b958628a6bd6bf6
+source-git-commit: 79e9023a9b555a75a13c4f5da2db1b7dbb04c344
 workflow-type: tm+mt
-source-wordcount: '1707'
+source-wordcount: '1726'
 ht-degree: 17%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 17%
 
 ## 2026년 1월 프리릴리스 정보 {#latest-rn}
 
-**릴리스 일자**: 2026년 1월 27일 수요일
+**릴리스 날짜**: 2026년 1월 27~28일
 
 **아래 사전 릴리스 정보는 릴리스 공개 당일까지 사전 통지 없이 변경될 수 있습니다**. 링크, 화면, 업데이트된 설명서는 릴리스 일자에 릴리스 정보에 게시됩니다.
 
@@ -48,22 +48,6 @@ ht-degree: 17%
 <td>
 <p>자동 시간에서는 전자 메일, SMS, 푸시 및 WhatsApp 채널에 대해 <strong>시간 기반 제외</strong>를 정의할 수 있습니다. 특정 기간 동안 메시지가 전송되지 않도록 하여 고객 선호도 및 규정 준수 요구 사항을 준수할 수 있습니다. 정확한 제어를 위해 캠페인 또는 여정의 개별 작업에 할당할 수 있는 <strong>규칙 집합</strong>을 통해 방해 금지 시간을 적용할 수 있습니다.</p>
 <p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성). 이번 GA 릴리스에서는 고객이 방해 금지 모드가 완료될 때까지 캠페인 작업을 대기열에 추가할 수 있는 기능과 활성화된 방해 금지 모드 규칙을 미리 볼 수 있는 기능이 제공됩니다.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>웹 푸시 알림 채널</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Journey Optimizer은 이제 <strong>웹 푸시 알림</strong>을 지원하므로 푸시 채널을 모바일 이상으로 확장합니다. 모바일 브라우저와 데스크탑 브라우저 모두에 알림을 전달할 수 있으므로 앱을 사용하지 않고도 고객의 디바이스에서 직접 고객에게 연결할 수 있습니다. 이러한 향상된 기능을 통해 모바일 푸시에 이미 사용 가능한 동일한 작성 워크플로 및 타겟팅 기능을 활용하여 적시에 개인화된 메시지로 사용자의 참여를 실시간으로 이끌어낼 수 있습니다.</p>
-<p>이전에 Beta로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
 </td>
 </tr>
 </tbody>
@@ -119,27 +103,6 @@ ht-degree: 17%
 <table>
 <thead>
 <tr>
-<th><strong>셀프서비스 마이그레이션 도구 API</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p><strong>마이그레이션 도구 API</strong>를 사용하여 의사 결정 관리 엔터티를 Decisioning으로 프로그래밍 방식으로 마이그레이션할 수 있습니다. 다음과 같은 기능이 제공됩니다.</p>
-<ul>
-<li>유연한 마이그레이션 범위(샌드박스, 오퍼 또는 의사 결정 수준)</li>
-<li>자동화된 종속성 분석 및 유효성 검사</li>
-<li>완료된 마이그레이션에 대한 롤백 지원</li>
-<li>개체 매핑이 포함된 자세한 마이그레이션 보고서</li>
-</ul>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>사용자 지정 작업 모니터링</strong><br/></th>
 </tr>
 </thead>
@@ -179,8 +142,6 @@ ht-degree: 17%
 * **새 색상 탭으로 브랜드 업데이트** - 브랜드 지침은 모든 접점에서 브랜드가 일관되게 표시되도록 하는 데 도움이 됩니다. 새 <strong>색상 섹션</strong>은 브랜드 색상 시스템에 대한 표준을 정의하며 여러 경험에서 색상을 선택, 구성 및 적용하는 방법에 대해 대략적으로 설명합니다. 기본, 보조, 악센트 및 중립 색상을 일관되게 사용하여 통합적이고, 액세스가 가능하고, 인식 가능한 브랜드 이미지를 지원합니다.
 
 #### 채널
-
-* **SMS 웹 후크** - <strong>웹 후크</strong>은(는) 이제 모든 SMS 공급자에서 지원됩니다. 각 웹 후크를 의도한 목적에 따라 구성할 수 있습니다. 들어오는 메시지를 캡처하는 인바운드 웹 후크와 게재 확인, 상태 업데이트 및 기타 메시지 관련 이벤트를 수신하는 피드백 웹 후크입니다.
 
 #### 캠페인
 
@@ -232,45 +193,13 @@ ht-degree: 17%
 <table>
 <thead>
 <tr>
-<th><strong>Journey Agent 내 콘텐츠 생성</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Experience Platform Agent Orchestrator에서 제공하는 <strong>Journey Agent</strong>은(는) Journey Optimizer에서 사용할 수 있으며 자연어 인터페이스를 통해 여정을 분석할 수 있도록 합니다. 이제 Journey Agent에서 직접 채널별 콘텐츠를 생성하고 관리할 수 있으며, 이메일 및 푸시 등 채널용 콘텐츠를 만들고, 템플릿을 적용하고 미리 보고, 프롬프트를 통해 색조와 스타일을 개선하고, <strong>콘텐츠 Designer</strong>에서 콘텐츠를 열어 상황에 맞게 편집할 수 있습니다.</p>
-<p>가용성 일자: 2026년 2월 2일 화요일</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>푸시 채널에서 의사 결정 지원</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 <strong>Decisioning</strong>을(를) 통해 푸시 메시지의 콘텐츠를 개인화하고 최적화할 수 있습니다. <strong>우선 순위 점수</strong>, 수식 또는 AI 모델을 사용하여 고객에게 최상의 콘텐츠를 표시합니다.</p>
-<p>가용성 일자: 2026년 2월 3일 수요일</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>메시지 내보내기</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 새 <strong>메시지 내보내기</strong> 기능을 전자 메일 및 SMS 채널에 사용할 수 있습니다. 이 기능을 사용하면 보낸 메시지 콘텐츠를 전용 Experience Platform 데이터 세트로 자동으로 내보내 다음과 같은 작업을 수행할 수 있습니다.</p>
+<p>전자 메일 및 SMS 채널에 새 <strong>메시지 내보내기</strong> 기능을 사용할 수 있습니다. 이 기능을 사용하면 보낸 메시지 콘텐츠를 전용 Experience Platform 데이터 세트로 자동으로 내보내 다음과 같은 작업을 수행할 수 있습니다.</p>
 <ul>
 <li>규정 준수 요건 충족(예: HIPAA)</li>
 <li>법적 청구 및 고객 지원 문의 메시지 보관</li>
@@ -287,13 +216,100 @@ ht-degree: 17%
 <table>
 <thead>
 <tr>
+<th><strong>SMS 웹훅</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong>Webhooks</strong>은(는) 모든 SMS 공급자에서 지원됩니다. 수신 메시지를 캡처하는 인바운드 웹후크와 게재 확인, 상태 업데이트 및 기타 메시지 관련 이벤트를 수신하는 피드백 웹후크를 목적에 따라 각 웹후크를 구성할 수 있습니다.</p>
+<p>가용성 일자: 2026년 1월 28일 목요일</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>웹 푸시 알림 채널</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer은 <strong>웹 푸시 알림</strong>을 지원하여 푸시 채널을 모바일 이상으로 확장합니다. 모바일 브라우저와 데스크탑 브라우저 모두에 알림을 전달할 수 있으므로 앱을 사용하지 않고도 고객의 디바이스에서 직접 고객에게 연결할 수 있습니다. 이 향상된 기능을 통해 모바일 푸시에 이미 사용 가능한 동일한 작성 워크플로 및 타겟팅 기능을 활용하여 적시에 개인화된 메시지로 사용자의 참여를 실시간으로 이끌어낼 수 있습니다.</p>
+<p>이전에 Beta에서 릴리스된 이 기능은 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
+<p>가용성 일자: 2026년 1월 28일 목요일</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>셀프서비스 마이그레이션 도구 API</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong>마이그레이션 도구 API</strong>을(를) 사용하여 의사 결정 관리 엔터티를 Decisioning으로 프로그래밍 방식으로 마이그레이션할 수 있습니다.</p>
+<ul>
+<li>유연한 마이그레이션 범위(샌드박스, 오퍼 또는 의사 결정 수준)</li>
+<li>자동화된 종속성 분석 및 유효성 검사</li>
+<li>완료된 마이그레이션에 대한 롤백 지원</li>
+<li>개체 매핑이 포함된 자세한 마이그레이션 보고서</li>
+</ul>
+<p>가용성 일자: 2026년 1월 28일 목요일</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey Agent 내 콘텐츠 생성</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Experience Platform Agent Orchestrator에서 제공하는 <strong>Journey Agent</strong>은(는) Journey Optimizer에서 사용할 수 있으며 자연어 인터페이스를 통해 여정을 분석할 수 있도록 합니다. Journey Agent에서 직접 채널별 콘텐츠를 생성하고 관리할 수 있으며, 전자 메일 및 푸시와 같은 채널용 콘텐츠를 만들고, 템플릿을 적용하고 미리 보고, 프롬프트를 통해 색조와 스타일을 개선하고, <strong>콘텐츠 Designer</strong>에서 콘텐츠를 열어 상황에 맞게 편집할 수 있습니다.</p>
+<p>가용성 일자: 2026년 2월 2일 화요일</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>푸시 채널에서 의사 결정 지원</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong>Decisioning</strong>을(를) 통해 푸시 메시지의 콘텐츠를 개인화하고 최적화할 수 있습니다. <strong>우선 순위 점수</strong>, 수식 또는 AI 모델을 사용하여 고객에게 최상의 콘텐츠를 표시합니다.</p>
+<p>가용성 일자: 2026년 2월 3일 수요일</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>콘텐츠 결정 활동</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 개인 맞춤화된 오퍼를 고객 여정에 직접 통합하기 위해 여정 캔버스에서 새로운 <strong>콘텐츠 결정 활동</strong>을 사용할 수 있습니다. 이 활동을 사용하면 의사 결정 기반 콘텐츠를 제공하고 여정 전체에서, 자격 조건 기반 분기를 만들기 위한 조건, 외부 시스템에 오퍼 데이터를 전달하기 위한 사용자 지정 작업 및 완전히 개인화된 고객 경험을 구축하기 위한 기타 활동에서 이러한 오퍼를 참조할 수 있습니다.</p>
+<p>개인 맞춤화된 오퍼를 고객 여정에 직접 통합하기 위해 여정 캔버스에서 새로운 <strong>콘텐츠 결정 활동</strong>을 사용할 수 있습니다. 이 활동을 사용하면 의사 결정 기반 콘텐츠를 제공하고 여정 전체에서, 자격 조건 기반 분기를 만들기 위한 조건, 외부 시스템에 오퍼 데이터를 전달하기 위한 사용자 지정 작업 및 완전히 개인화된 고객 경험을 구축하기 위한 기타 활동에서 이러한 오퍼를 참조할 수 있습니다.</p>
 <p>이 기능은 모든 환경에서 사용할 수 있습니다(일반 공급).</p>
 <p>가용성 일자: 2026년 2월 3일 수요일</p>
 </td>
