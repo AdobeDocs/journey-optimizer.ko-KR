@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 8c61d7cb30da328791aabb84318960e2f42d1ca0
-workflow-type: ht
-source-wordcount: '3661'
-ht-degree: 100%
+source-git-commit: a068d3a4005d8f2247755f56ffb70665dc4c957f
+workflow-type: tm+mt
+source-wordcount: '3676'
+ht-degree: 98%
 
 ---
 
@@ -300,7 +300,8 @@ Adobe Experience Platform에서 API 기반 프로필 만들기/업데이트와 �
 **[!UICONTROL Campaign v7/v8]** 및 **[!UICONTROL Campaign Standard]** 활동에는 다음 가드레일이 적용됩니다.
 
 * Adobe Campaign 활동은 [대상자 읽기] 또는 [대상자 선별] 활동과 함께 사용할 수 없습니다.
-* 캠페인 활동은 다른 채널 활동(카드, 코드 기반 경험, 이메일, 푸시, SMS, 인앱 메시지, 웹)과 함께 사용할 수 없습니다.
+* **[!UICONTROL Campaign Standard]** 활동은 다른 채널 활동인 카드, 코드 기반 경험, 이메일, 푸시, SMS, 인앱 메시지, 웹과 함께 사용할 수 없습니다.
+* **[!UICONTROL Campaign v7/v8]** 활동은 동일한 여정에서 기본 채널 활동과 함께 사용할 수 있습니다.
 
 #### 인앱 활동 {#in-app-activity-limitations}
 
@@ -310,7 +311,7 @@ Adobe Experience Platform에서 API 기반 프로필 만들기/업데이트와 �
 
 * 개인화에는 프로필 속성만 포함할 수 있습니다.
 
-* 인앱 활동은 Adobe Campaign 활동과 함께 사용할 수 없습니다.
+* 인앱 활동은 **[!UICONTROL Campaign Standard]** 활동과 함께 사용할 수 없습니다.
 
 * 인앱 표시는 여정 지속 시간에 연결되어 있습니다. 즉, 특정 프로필에 대한 여정이 종료되면 해당 여정 내의 모든 인앱 메시지는 해당 프로필에 표시되지 않습니다.  따라서 여정 활동에서 바로 인앱 메시지를 중지할 수는 없습니다. 인앱 메시지가 프로필에 표시되지 않도록 하려면 전체 여정을 종료해야 합니다.
 
