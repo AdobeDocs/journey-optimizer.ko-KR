@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: aa66cc14a9d10df066f91403ed072cb95eebaa8f
+source-git-commit: 13d728fddb3179563edd9d5df752c732591c4a45
 workflow-type: tm+mt
 source-wordcount: '1863'
 ht-degree: 14%
@@ -35,7 +35,7 @@ ht-degree: 14%
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 새로운 기능 {#jan-26-01-features}
 
@@ -128,7 +128,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### 오케스트레이션된 캠페인
 
-* **특성 선택 및 배포 값 복사** - 이제 조정된 캠페인의 값 보기에서 직접 값을 선택하거나 복사할 수 있습니다. [자세히 보기](../orchestrated/orchestrated-rule-builder.md)
+* **특성 선택 및 배포 값 복사** - 이제 조정된 캠페인의 값 보기에서 직접 값을 선택하거나 복사할 수 있습니다. [자세히 보기](../orchestrated/build-query.md)
 
 * **대상에 대한 데이터 사용 레이블 상속** - 이제 오케스트레이션된 캠페인에 대상을 저장할 때 Adobe Experience Platform에 적용된 레이블이 자동으로 이전되어 수동 DULE 태깅이 줄어듭니다. [자세히 보기](../orchestrated/activities/save-audience.md)
 
