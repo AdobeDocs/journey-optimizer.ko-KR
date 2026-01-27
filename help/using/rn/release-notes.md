@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: dfd95301186c066bb024e8200140a10407b4e79e
+source-git-commit: 33bb27ff4181e196d05f320c5b958628a6bd6bf6
 workflow-type: tm+mt
-source-wordcount: '1704'
+source-wordcount: '1707'
 ht-degree: 17%
 
 ---
@@ -111,28 +111,6 @@ ht-degree: 17%
 <td>
 <p>이제 SMS 여정 및 캠페인에 <strong>의사 결정 정책</strong>을 추가할 수 있습니다. 의사 결정 정책은 의사 결정 엔진을 활용하여 각 대상 구성원에 대해 제공할 최상의 콘텐츠를 동적으로 반환하는 오퍼에 대한 컨테이너입니다.</p>
 <p>이 기능은 조직 집합에 대해 제한된 가용성으로 사용할 수 있습니다. Adobe 담당자에게 문의하십시오.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>메시지 내보내기</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 새 <strong>메시지 내보내기</strong> 기능을 전자 메일 및 SMS 채널에 사용할 수 있습니다. 이 기능을 사용하면 보낸 메시지 콘텐츠를 전용 Experience Platform 데이터 세트로 자동으로 내보내 다음과 같은 작업을 수행할 수 있습니다.</p>
-<ul>
-<li>규정 준수 요건 충족(예: HIPAA)</li>
-<li>법적 청구 및 고객 지원 문의 메시지 보관</li>
-<li>개인에게 전송된 개인화된 콘텐츠의 사본 유지</li>
-</ul>
-<p>레코드는 수집 후 7일 동안 AJO 메시지 내보내기 데이터 세트에 유지됩니다. 이 보존 기간 동안 Experience Platform 대상을 통해 데이터를 고유한 저장소로 내보낼 수 있습니다. 이 기능은 채널 구성 수준에서 활성화되므로 내보낼 메시지를 세부적으로 제어할 수 있습니다.</p>
-<p>이 기능은 메시지 내보내기 추가 기능 서비스를 구입한 조직의 이메일 및 SMS 채널에만 사용할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -278,6 +256,29 @@ ht-degree: 17%
 <td>
 <p>이제 <strong>Decisioning</strong>을(를) 통해 푸시 메시지의 콘텐츠를 개인화하고 최적화할 수 있습니다. <strong>우선 순위 점수</strong>, 수식 또는 AI 모델을 사용하여 고객에게 최상의 콘텐츠를 표시합니다.</p>
 <p>가용성 일자: 2026년 2월 3일 수요일</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>메시지 내보내기</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 새 <strong>메시지 내보내기</strong> 기능을 전자 메일 및 SMS 채널에 사용할 수 있습니다. 이 기능을 사용하면 보낸 메시지 콘텐츠를 전용 Experience Platform 데이터 세트로 자동으로 내보내 다음과 같은 작업을 수행할 수 있습니다.</p>
+<ul>
+<li>규정 준수 요건 충족(예: HIPAA)</li>
+<li>법적 청구 및 고객 지원 문의 메시지 보관</li>
+<li>개인에게 전송된 개인화된 콘텐츠의 사본 유지</li>
+</ul>
+<p>레코드는 수집 후 7일 동안 AJO 메시지 내보내기 데이터 세트에 유지됩니다. 이 보존 기간 동안 Experience Platform 대상을 통해 데이터를 고유한 저장소로 내보낼 수 있습니다. 이 기능은 채널 구성 수준에서 활성화되므로 내보낼 메시지를 세부적으로 제어할 수 있습니다.</p>
+<p>이 기능은 메시지 내보내기 추가 기능 서비스를 구입한 조직의 이메일 및 SMS 채널에만 사용할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.</p>
+<p>가용성 일자: 2026년 1월 28일 목요일</p>
 </td>
 </tr>
 </tbody>
