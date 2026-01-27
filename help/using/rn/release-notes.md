@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c0ed4d941863730e6bc8dbea771cba94b305dd5b
+source-git-commit: dfd95301186c066bb024e8200140a10407b4e79e
 workflow-type: tm+mt
-source-wordcount: '1699'
+source-wordcount: '1704'
 ht-degree: 17%
 
 ---
@@ -184,7 +184,7 @@ ht-degree: 17%
 <tbody>
 <tr>
 <td>
-<p>여정 만들기 에이전트를 사용하면 Journey Optimizer 사용자는 <strong>자연어 인터페이스</strong>를 사용하여 마케팅 여정을 빌드하고 구성할 수 있습니다. 실무자는 대화 프롬프트에서 요구 사항을 설명하고 여정 생성을 간소화하며 마케터가 기술 구성이 아닌 전략에 집중할 수 있도록 하여 여정을 빠르게 만들 수 있습니다.</p>
+<p>이제 Journey Agent은 생성 기능을 제공하므로 Journey Optimizer 사용자는 <strong>자연어 인터페이스</strong>를 통해 마케팅 여정을 빌드하고 구성할 수 있습니다. 상담자는 대화 프롬프트에서 요구 사항을 설명하여 여정을 빠르게 만들 수 있습니다. 이렇게 하면 여정 생성 프로세스가 간소화되므로 마케터는 기술 구성보다 전략에 집중할 수 있습니다.</p>
 </td>
 </tr>
 </tbody>
