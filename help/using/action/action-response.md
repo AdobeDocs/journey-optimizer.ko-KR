@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: 작업, 서드파티, 사용자 지정, 여정, API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
-source-git-commit: 6976f2b1b8b95f7dc9bffe65b7a7ddcc5dab5474
+source-git-commit: 5213c60df3494c43a96d9098593a6ab539add8bb
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 5%
+source-wordcount: '844'
+ht-degree: 4%
 
 ---
 
@@ -94,7 +94,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
 1. 사용자 지정 작업을 만듭니다. [이 페이지](../action/about-custom-action-configuration.md)를 참조하십시오.
 
-1. **응답** 필드 내부를 클릭합니다.
+1. **응답**(성공 응답) 필드 내부를 클릭합니다.
 
    ![](assets/action-response2.png){width="80%" align="left"}
 
@@ -111,6 +111,16 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
    API가 호출될 때마다 시스템은 페이로드 예제에 포함된 모든 필드를 검색합니다.
 
+1. (선택 사항) 오류 응답 페이로드를 활성화하여 호출 실패 시 반환되는 형식을 캡처한 다음 예제 페이로드를 붙여 넣습니다. 이렇게 하려면 사용자 지정 작업 구성에서 **실패 응답 페이로드 정의**&#x200B;를 선택하십시오. [사용자 지정 작업 구성](../action/about-custom-action-configuration.md)에서 페이로드 필드를 구성하는 방법에 대해 자세히 알아보세요.
+
+   ```
+   {
+   "errorResponse" : "customer not found"
+   }
+   ```
+
+   오류 응답 페이로드는 사용자 지정 작업 구성에서 활성화한 경우에만 사용할 수 있습니다.
+
 1. customerID를 쿼리 매개 변수로도 추가하겠습니다.
 
    ![](assets/action-response9.png){width="80%" align="left"}
@@ -120,6 +130,8 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 ## 여정에서 응답 활용 {#response-in-journey}
 
 여정에 사용자 지정 작업을 추가하기만 하면 됩니다. 그런 다음 조건, 기타 작업 및 메시지 개인화의 응답 페이로드 필드를 활용할 수 있습니다.
+
+오류 응답 페이로드를 정의한 경우 **컨텍스트 특성** > **Journey Orchestration** > **작업** > `<action name>` > **오류 응답**&#x200B;에 표시됩니다. 시간 초과 및 오류 분기에서 이를 사용하여 대체 논리 및 오류 처리를 구동할 수 있습니다.
 
 예를 들어 충성도 포인트의 수를 확인하는 조건을 추가할 수 있습니다. 사용자가 레스토랑에 들어오면 로컬 종단점이 프로필의 충성도 정보와 함께 호출을 보냅니다. 프로필이 Gold 고객인 경우 푸시를 보낼 수 있습니다. 또한 호출에서 오류가 감지되면 시스템 관리자에게 알리는 사용자 지정 작업을 보내십시오.
 
@@ -150,6 +162,12 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
    @action{ActionLoyalty.jo_status_code} == "http_400"
    ```
 
+   오류 응답 페이로드가 정의된 경우 해당 필드를 타겟팅할 수도 있습니다. 예를 들면 다음과 같습니다.
+
+   ```
+   @action{ActionLoyalty.errorResponse.errorResponse} == "customer not found"
+   ```
+
    ![](assets/action-response7.png)
 
 1. 조직에 전송할 사용자 지정 작업을 추가합니다.
@@ -158,7 +176,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
 ## 테스트 모드 로그 {#test-mode-logs}
 
-테스트 모드를 통해 사용자 지정 작업 응답과 관련된 상태 로그에 액세스할 수 있습니다. 여정에서 응답이 있는 사용자 지정 작업을 정의한 경우 해당 로그에 외부 끝점에서 반환된 페이로드를 표시하는 **actionsHistory** 섹션이 표시됩니다(해당 사용자 지정 작업의 응답). 이 기능은 디버깅 측면에서 매우 유용할 수 있습니다.
+테스트 모드를 통해 사용자 지정 작업 응답과 관련된 상태 로그에 액세스할 수 있습니다. 여정에서 응답이 있는 사용자 지정 작업을 정의한 경우 해당 로그에 외부 끝점에서 반환된 페이로드를 표시하는 **actionsHistory** 섹션이 표시됩니다(해당 사용자 지정 작업의 응답). 오류 응답 페이로드가 정의되면 실패한 호출에 포함됩니다. 이 기능은 디버깅 측면에서 매우 유용할 수 있습니다.
 
 ![](assets/action-response12.png)
 
@@ -174,6 +192,8 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 * 내부 오류: **internalError**
 
 반환된 http 코드가 2xx보다 크거나 오류가 발생하면 작업 호출이 오류로 간주됩니다. 이러한 경우 여정은 전용 시간 초과 또는 오류 분기로 이동합니다.
+
+사용자 지정 작업에 대해 오류 응답 페이로드가 구성된 경우 해당 필드가 실패한 호출에 대해 **errorResponse** 노드 아래에 표시됩니다. 오류 응답 페이로드가 구성되어 있지 않으면 해당 노드를 사용할 수 없습니다.
 
 >[!WARNING]
 >

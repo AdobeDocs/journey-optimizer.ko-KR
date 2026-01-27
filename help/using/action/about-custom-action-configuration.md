@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: 작업, 서드파티, 사용자 지정, 여정, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: bd7ed127c09e24dc1b29c4fcdecb8a2fd70c9009
+source-git-commit: 5213c60df3494c43a96d9098593a6ab539add8bb
 workflow-type: tm+mt
-source-wordcount: '1974'
-ht-degree: 13%
+source-wordcount: '2032'
+ht-degree: 14%
 
 ---
 
@@ -81,7 +81,7 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->응답 시간이 0.75초 미만인 엔드포인트의 경우 분당 300,000회 호출은 샌드박스 및 엔드포인트당 **슬라이딩 창**&#x200B;으로 적용됩니다. 슬라이딩 윈도우는 어떤 밀리초에서도 시작할 수 있으며, 이것은 클럭 분과 일치할 때 속도가 300k/분 미만으로 나타나도 캡핑 오류가 발생할 수 있음을 의미합니다. 응답 시간이 0.75초보다 큰 끝점의 경우 30초당 150,000개의 별도 제한(슬라이딩 기간)이 적용됩니다. [이 페이지](../configuration/external-systems.md#response-time)에서 느린 끝점에 대해 자세히 알아보세요.
+>응답 시간이 0.75초 미만인 엔드포인트의 경우 분당 300,000회 호출은 샌드박스 및 엔드포인트당 **슬라이딩 창**&#x200B;으로 적용됩니다. 슬라이딩 윈도우는 어떤 밀리초에서도 시작할 수 있으며, 이것은 클럭 분과 일치할 때 속도가 300k/분 미만으로 나타나도 캡핑 오류가 발생할 수 있음을 의미합니다. 응답 시간이 0.75초보다 긴 엔드포인트의 경우 30초당 15만 개 별도 제한(슬라이딩 윈도우)이 적용됩니다. [이 페이지](../configuration/external-systems.md#response-time)에서 느린 끝점에 대해 자세히 알아보세요.
 
 분당 기본 300,000회 호출은 도메인 수준(예: example.com)에서 적용됩니다. 더 높은 제한이 필요한 경우 Adobe 지원 팀에 사용 증거를 참조하여 엔드포인트의 처리량을 확인하십시오. 최대 가용량 증가를 요청하려면 예상되는 호출 볼륨 및 끝점 용량에 대한 세부 정보를 제공하십시오. 용량 테스트에서 끝점이 더 높은 처리량을 처리할 수 있음을 보여 주는 경우 Adobe에서 캡핑을 사용자 지정할 수 있습니다. 모범 사례의 경우 아웃바운드 호출을 지연시키고 최대 가용량 오류를 방지하기 위해 여정을 재구조화하거나 대기 활동을 구현하는 것이 좋습니다.
 
@@ -163,7 +163,7 @@ Adobe Journey Optimizer은 사용자 지정 작업에 대해 기본적으로 TLS
 
 mTLS(상호 전송 계층 보안)를 사용하여 Adobe Journey Optimizer 사용자 지정 작업에 대한 아웃바운드 연결에서 보안을 강화할 수 있습니다. mTLS는 상호 인증을 위한 종단간 보안 방법으로, 정보를 공유하는 양 당사자가 데이터를 공유하기 전에 자신이 주장하는 사람임을 보장합니다. mTLS에는 TLS와 비교하여 추가 단계가 포함되어 있으며, 이 단계에서 서버는 클라이언트의 인증서를 요청하고 마지막에 검증한다.
 
-사용자 지정 작업에서 상호 TLS(mTLS) 인증이 지원됩니다. mTLS를 활성화하기 위해 사용자 정의 작업 또는 여정에 구성을 추가할 필요는 없습니다. mTLS 활성화 엔드포인트가 감지되면 자동으로 활성화됩니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
+사용자 지정 작업에서 상호 TLS(mTLS) 인증이 지원됩니다. mTLS를 활성화하기 위해 사용자 정의 작업 또는 여정에 구성을 추가할 필요는 없습니다. mTLS 활성화 엔드포인트가 감지되면 자동으로 활성화됩니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
 
 ## 페이로드 매개 변수 정의 {#define-the-message-parameters}
 
@@ -175,7 +175,13 @@ mTLS(상호 전송 계층 보안)를 사용하여 Adobe Journey Optimizer 사용
 
    ![](assets/null-values.png){width="70%" align="left"}
 
-1. **[!UICONTROL 응답]** 섹션에 호출에서 반환된 페이로드의 예제를 붙여 넣습니다. 이 필드는 선택 사항이며 모든 호출 방법에서 사용할 수 있습니다. 사용자 지정 작업에서 API 호출 응답을 활용하는 방법에 대한 자세한 내용은 [이 페이지](../action/action-response.md)를 참조하세요.
+1. **[!UICONTROL 응답]** 섹션에 호출이 성공하면 반환되는 페이로드의 예제를 붙여 넣으십시오. 이 필드는 선택 사항이며 모든 호출 방법에서 사용할 수 있습니다. 사용자 지정 작업에서 API 호출 응답을 활용하는 방법에 대한 자세한 내용은 [이 페이지](../action/action-response.md)를 참조하세요.
+
+   ![](assets/response-values.png){width="70%" align="left"}
+
+1. (선택 사항) 오류 응답 페이로드 필드를 활성화하려면 **[!UICONTROL 오류 응답 페이로드 정의]**&#x200B;를 선택하십시오. 활성화하면 **[!UICONTROL 오류 응답]** 섹션을 사용하여 호출이 실패할 때 반환되는 페이로드의 예제를 붙여 넣으십시오. 응답 페이로드(필드 유형 및 형식)와 동일한 요구 사항이 적용됩니다. 여정 [여기](../action/action-response.md)에서 오류 응답 페이로드를 활용하는 방법을 알아봅니다.
+
+   ![](assets/response-values.png){width="70%" align="left"}
 
 >[!NOTE]
 >
@@ -184,7 +190,7 @@ mTLS(상호 전송 계층 보안)를 사용하여 Adobe Journey Optimizer 사용
 
 ![](assets/customactionpayloadmessage2.png)
 
-필드 구성에서 다음을 수행해야 합니다.
+이러한 필드 구성에서 다음을 수행해야 합니다.
 
 * 매개 변수 유형(예: string, integer 등)을 선택합니다.
 
