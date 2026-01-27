@@ -5,10 +5,10 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
-source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 11%
+source-wordcount: '677'
+ht-degree: 10%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->승인 정책을 만들려면 Adobe Experience Platform에서 시스템 또는 제품 관리자 권한이 있어야 합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/home)
+>승인 정책을 만들려면 Adobe Experience Platform에서 시스템 또는 제품 관리자 권한이 있어야 합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)
 
 승인 정책을 사용하면 관리자가 여정 및 캠페인에 대한 유효성 검사 프로세스를 설정할 수 있습니다. 이 시스템은 여정 또는 캠페인에 승인이 필요한지 여부를 결정하는 특정 조건을 간략하게 설명합니다. 이러한 정책은 복잡성에 따라 다를 수 있습니다. 모든 캠페인을 특정 사용자 또는 팀이 검토하도록 하거나, 캠페인을 만든 사람을 기준으로 기준을 설정할 수 있습니다.
 
@@ -51,11 +51,9 @@ ht-degree: 11%
 
 1. 정책이 **[!UICONTROL 여정]** 또는 **[!UICONTROL 캠페인]**&#x200B;에 적용되는지 여부를 선택하십시오.
 
-<!--
-1. Enable the **[!UICONTROL Block self-approval]** to prevent Journey/Campaign creators from approving their own objects.
+1. 여정/캠페인 작성자가 자신의 개체를 승인하지 못하도록 **[!UICONTROL 자체 승인 차단]**&#x200B;을 사용하도록 설정하십시오.
 
-    ![](assets/policy_create_2.png)
--->
+   ![](assets/policy_create_2.png)
 
 이제 조건을 세분화하여 승인 요청을 시작할 수 있는 사용자와 승인 요청을 검증할 수 있는 사용자를 지정할 수 있습니다.
 

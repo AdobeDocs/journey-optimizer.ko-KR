@@ -6,10 +6,10 @@ description: Adobe Journey Optimizer을 사용하여 오케스트레이션된 �
 feature: Monitoring
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 version: Campaign Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 53%
+source-wordcount: '916'
+ht-degree: 36%
 
 ---
 
@@ -21,9 +21,7 @@ ht-degree: 53%
 >title="오케스트레이션된 캠페인 게시"
 >abstract="캠페인을 시작하려면 먼저 캠페인을 게시해야 합니다. 게시하기 전에 모든 오류가 해결되었는지 확인하십시오."
 
-오케스트레이션된 캠페인을 만들고 캔버스에서 수행할 작업을 디자인하면 캠페인을 게시하고 실행이 어떻게 이루어지는지 모니터링할 수 있습니다.
-
-테스트 모드에서 캠페인을 실행하여 캠페인 실행과 다양한 활동의 결과를 확인할 수도 있습니다.
+오케스트레이션된 캠페인을 만들고 캔버스에서 수행할 작업을 디자인한 후에는 해당 캠페인을 게시하고 실행 방법을 모니터링할 수 있습니다. 테스트 모드에서 캠페인을 실행하여 캠페인 실행과 다양한 활동의 결과를 확인할 수도 있습니다.
 
 ## 게시하기 전에 캠페인 테스트 {#test}
 
@@ -35,17 +33,18 @@ ht-degree: 53%
 
 오케스트레이션된 캠페인을 테스트하려면 캠페인을 열고 **[!UICONTROL 시작]**&#x200B;을 선택하세요.
 
-![](assets/campaign-start.png){zoomable="yes"}
+![캠페인 캔버스 도구 모음의 시작 단추](assets/campaign-start.png){zoomable="yes"}
 
 캠페인의 각 활동은 캔버스의 끝에 도달할 때까지 순차적으로 실행됩니다. 테스트 중에 캔버스에서 작업 표시줄을 사용하여 캠페인 실행을 제어할 수 있습니다. 여기에서는 다음을 수행할 수 있습니다.
 
 * 언제든지 실행을 **중지**&#x200B;합니다.
 * 실행을 다시 **시작**&#x200B;합니다.
+* 실행을 **다시 시작**&#x200B;하여 한 번의 작업으로 워크플로를 재설정하고 다시 실행합니다. 이 기능은 수정 후 캠페인 흐름을 빠르게 다시 테스트하려는 경우 특히 유용합니다.
 * 이전에 일시 중지된 경우 실행을 **다시 시작**&#x200B;합니다.
 
 캔버스 도구 모음의 **[!UICONTROL 경고]** / **[!UICONTROL 경고]** 아이콘은 실행 전에 미리 나타날 수 있는 경고와 실행 중 또는 후에 발생하는 오류를 포함하여 문제를 알려줍니다.
 
-![](assets/campaign-warning.png){zoomable="yes"}
+![캠페인 캔버스 도구 모음의 경고 아이콘](assets/campaign-warning.png){zoomable="yes"}
 
 각 활동에 직접 표시되는 [시각적 상태 표시기](#activities)를 사용하여 실패한 활동을 빠르게 식별할 수도 있습니다. 자세한 문제 해결 방법이 필요한 경우 오류와 오류 발생 컨텍스트에 대해 상세한 정보를 제공하는 [캠페인의 로그](#logs-tasks)를 엽니다.
 
@@ -57,7 +56,7 @@ ht-degree: 53%
 
 캠페인을 테스트하여 준비가 완료되면 **[!UICONTROL 게시]**&#x200B;를 클릭하여 라이브로 만듭니다.
 
-![](assets/campaign-publish.png){zoomable="yes"}
+![캠페인 캔버스의 게시 단추](assets/campaign-publish.png){zoomable="yes"}
 
 >[!NOTE]
 >
@@ -65,22 +64,30 @@ ht-degree: 53%
 
 시각적 흐름이 다시 시작되고, 실제 프로필이 실시간으로 여정을 따라 흐르기 시작합니다.
 
-게시 작업이 실패하는 경우(예: 메시지 콘텐츠 누락) 경고 메시지가 표시되며 문제를 해결한 후 다시 시도해야 합니다. 게시 성공 시 캠페인은 즉시 또는 일정에 따라 실행을 시작하고 **초안**&#x200B;에서 **라이브** 상태로 이동하고 &quot;읽기 전용&quot;이 됩니다.
+게시 작업이 실패하는 경우(예: 메시지 콘텐츠 누락) 경고 메시지가 표시되며 문제를 해결한 후 다시 시도해야 합니다. 게시 성공 시 캠페인은 즉시 또는 일정에 따라 실행되기 시작하고 **초안**&#x200B;에서 **라이브** 상태로 이동한 다음 &quot;읽기 전용&quot;이 됩니다.
+
+## 메시지 보내기 확인 {#confirm-sending}
+
+반복되지 않는 오케스트레이션된 캠페인의 경우 기본적으로 전송을 명시적으로 승인할 때까지 메시지 게재가 일시 중지됩니다. 캠페인을 게시한 후 채널 활동의 속성 창에서 전송 요청을 확인합니다. 확인될 때까지 채널 활동은 보류 중인 상태로 유지되며 메시지가 전송되지 않습니다.
+
+![확인 단추를 표시하는 이미지](assets/confirm-sending.png)
+
+게시하기 전에 채널 활동 속성 창에서 확인 전송 을 비활성화할 수 있습니다. 자세한 내용은 [메시지 보내기 확인](activities/channels.md#confirm-message-sending)을 참조하세요.
 
 ## 캠페인 실행 모니터링 {#monitor}
 
 ### 시각적 흐름 모니터링 {#flow}
 
-테스트 또는 라이브 모드에서 실행하는 동안에는 시각적 흐름을 통해 프로필이 실시간으로 여정을 따라 움직이는 모습을 볼 수 있습니다. 작업 간에 전환되는 프로필 수가 표시됩니다.
+테스트 또는 라이브 모드에서 실행되는 동안 시각적 흐름은 프로필이 실시간으로 여정을 통해 이동하는 방법을 보여 줍니다. 작업 간에 전환되는 프로필 수가 표시됩니다.
 
-![](assets/workflow-execution.png){zoomable="yes"}
+![프로필 흐름을 표시하는 캠페인 워크플로우 실행](assets/workflow-execution.png){zoomable="yes"}
 
 전환을 통해 한 활동에서 다른 활동으로 전송된 데이터는 임시 작업 테이블에 저장됩니다. 각 전환에 대해 이 데이터를 표시할 수 있습니다. 활동 간에 전달된 데이터를 확인하는 방법은 다음과 같습니다.
 
 1. 전환을 선택합니다.
 1. 작업 테이블 스키마를 보려면 속성 창에서 **[!UICONTROL 스키마 미리 보기]**&#x200B;를 클릭합니다. 전송된 데이터를 보려면 **[!UICONTROL 결과 미리 보기]**&#x200B;를 선택합니다.
 
-   ![](assets/transition.png){zoomable="yes"}
+   ![작업 테이블 스키마 및 결과를 표시하는 전환 미리 보기](assets/transition.png){zoomable="yes"}
 
 ### 활동 실행 표시기 {#activities}
 
@@ -88,25 +95,25 @@ ht-degree: 53%
 
 | 시각적 표시기 | 설명 |
 |-----|------------|
-| ![](assets/activity-status-pending.png){zoomable="yes"}{width="70%"} | 활동이 현재 실행 중입니다. |
-| ![](assets/activity-status-orange.png){zoomable="yes"}{width="70%"} | 이 활동에는 주의가 필요합니다. 이 주의에는 게재 전송을 확인하거나 필요한 조치를 취하는 작업이 포함될 수 있습니다. |
-| ![](assets/activity-status-red.png){zoomable="yes"}{width="70%"} | 활동에서 오류가 발생했습니다. 이 문제를 해결하려면 오케스트레이션된 캠페인 로그에서 자세한 내용을 확인하십시오. |
-| ![](assets/activity-status-green.png){zoomable="yes"}{width="70%"} | 활동이 성공적으로 실행되었습니다. |
+| ![보류 중인 상태](assets/activity-status-pending.png){zoomable="yes"}{width="70%"} | 활동이 현재 실행 중입니다. |
+| ![주황색 상태](assets/activity-status-orange.png){zoomable="yes"}{width="70%"} | 이 활동에는 주의가 필요합니다. 이 주의에는 게재 전송을 확인하거나 필요한 조치를 취하는 작업이 포함될 수 있습니다. |
+| ![오류 상태](assets/activity-status-red.png){zoomable="yes"}{width="70%"} | 활동에서 오류가 발생했습니다. 이 문제를 해결하려면 오케스트레이션된 캠페인 로그에서 자세한 내용을 확인하십시오. |
+| ![성공 상태](assets/activity-status-green.png){zoomable="yes"}{width="70%"} | 활동이 성공적으로 실행되었습니다. |
 
 ### 로그 및 작업 {#logs-tasks}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_logs"
 >title="로그 및 작업"
->abstract="**로그 및 작업** 화면은 오케스트레이션된 캠페인 실행 내역을 제공하며, 모든 사용자 액션과 발생한 오류를 기록합니다."
+>abstract="**로그 및 작업** 화면에서 모든 사용자 작업을 기록하고 오류가 발생한 오케스트레이션된 캠페인 실행 기록을 제공합니다."
 
 로그 및 작업 모니터링은 오케스트레이션된 캠페인을 분석하고 제대로 실행되고 있는지 확인하는 중요한 단계입니다. 캔버스 도구 모음의 테스트 및 라이브 모드 모두에서 사용할 수 있는 **[!UICONTROL 로그]** 단추에서 로그 및 작업에 액세스할 수 있습니다.
 
-![](assets/logs-button.png){zoomable="yes"}
+![캠페인 캔버스 도구 모음의 로그 단추](assets/logs-button.png){zoomable="yes"}
 
 **[!UICONTROL 로그 및 작업]** 화면은 모든 사용자 액션과 발생한 오류를 기록하여 캠페인 실행에 대한 완전한 기록을 제공합니다.
 
-![](assets/workflow-logs.png){zoomable="yes"}
+![캠페인 실행 기록을 표시하는 로그 및 작업 화면](assets/workflow-logs.png){zoomable="yes"}
 
 다음과 같은 두 가지 정보를 사용할 수 있습니다.
 

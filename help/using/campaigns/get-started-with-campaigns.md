@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 캠페인, 방법 , 시작, Optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
-source-wordcount: '1513'
-ht-degree: 98%
+source-wordcount: '1510'
+ht-degree: 97%
 
 ---
 
@@ -180,7 +180,7 @@ Adobe Journey Optimizer를 사용하면 여러 채널에서 특정 대상자에�
 
    1. [!DNL Permissions] 제품의 **[!UICONTROL 역할]** 탭으로 이동하여 기본 제공 캠페인 관련 **[!UICONTROL 역할]** 중 하나를 선택합니다.
 
-   1. **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
+   1.  **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
 
    1. 사용자 이름 또는 이메일 주소를 입력하거나 목록에서 사용자를 선택하고 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
@@ -291,7 +291,7 @@ Adobe Journey Optimizer를 사용하면 여러 채널에서 특정 대상자에�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **예약 및 시간**
 
@@ -301,17 +301,17 @@ Adobe Journey Optimizer를 사용하면 여러 채널에서 특정 대상자에�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **속도 제어**
 
-랜딩 페이지나 고객 지원 센터 플랫폼과 같은 하위 시스템에 과부하가 걸리는 것을 방지하기 위해 메시지 처리량을 제한합니다. (액션 및 API 트리거 캠페인)
+메시지 처리량을 제한하여 랜딩 페이지나 고객 지원 플랫폼과 같은 다운스트림 시스템의 오버로드를 방지합니다.
 
 [제어 속도 제한](create-campaign.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **대상자 타겟팅**
 
@@ -321,7 +321,7 @@ Adobe Experience Platform의 특정 대상자를 정확하게 타겟팅하고 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **승인 워크플로**
 
@@ -331,7 +331,7 @@ Adobe Experience Platform의 특정 대상자를 정확하게 타겟팅하고 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **방해 금지 시간**
 
@@ -341,7 +341,7 @@ Adobe Experience Platform의 특정 대상자를 정확하게 타겟팅하고 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **최적화**
 

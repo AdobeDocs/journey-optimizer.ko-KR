@@ -7,10 +7,10 @@ role: User
 level: Experienced
 mini-toc-levels: 1
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 2%
+source-wordcount: '946'
+ht-degree: 1%
 
 ---
 
@@ -83,9 +83,11 @@ ht-degree: 2%
 
 의사 결정 정책에 조각이 포함된 의사 결정 항목이 포함되어 있는 경우 의사 결정 정책 코드에서 이러한 조각을 활용할 수 있습니다. [조각에 대해 자세히 알아보기](../content-management/fragments.md)
 
->[!AVAILABILITY]
+>[!CAUTION]
 >
->이 기능은 현재 코드 기반 경험 채널 및 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
+>이 기능은 현재 코드 기반 경험 채널에서만 사용할 수 있습니다.
+>
+>현재 [식 조각](../personalization/use-expression-fragments.md)만 사용할 수 있습니다. 중첩된 조각(다른 조각을 참조하는 조각)은 지원되지 않습니다.
 
 예를 들어 여러 모바일 디바이스 모델에 대해 서로 다른 콘텐츠를 표시하려고 한다고 가정해 보겠습니다. 해당 디바이스에 해당하는 조각을 결정 정책에서 사용 중인 결정 항목에 추가했는지 확인하십시오. [방법을 알아보세요](items.md#attributes).
 
@@ -134,7 +136,7 @@ ht-degree: 2%
 
 **결정 항목 및 컨텍스트 특성**
 
-[!DNL Journey Optimizer] 조각에서는 기본적으로 결정 항목 특성 및 contextal 특성이 지원되지 않습니다. 그러나 아래 설명된 것처럼 전역 변수를 대신 사용할 수 있습니다.
+[!DNL Journey Optimizer] 조각에서는 기본적으로 의사 결정 항목 특성 및 컨텍스트 특성이 지원되지 않습니다. 그러나 아래 설명된 것처럼 전역 변수를 대신 사용할 수 있습니다.
 
 조각에서 *sport* 변수를 사용한다고 가정해 보겠습니다.
 

@@ -5,10 +5,10 @@ title: 위시리스트 항목 업데이트 보내기
 description: 위시리스트 항목 업데이트 보내기
 feature: Use Cases
 version: Campaign Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
 source-wordcount: '429'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 1%
 * **제품**: 필드: `description`, `priceref`, `imageurl`
 * **포기한 장바구니**(선택 사항): 필드: `lastmodified`
 
-➡️ [모델 기반 스키마를 구성하는 방법 알아보기](gs-schemas.md)
+➡️ [관계형 스키마를 구성하는 방법에 대해 알아보기](gs-schemas.md)
 
 >[!ENDSHADEBOX]
 

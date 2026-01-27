@@ -5,10 +5,10 @@ title: 활동을 탐색하여 고객 참여
 description: 활동을 탐색하여 고객 참여
 feature: Use Cases
 version: Campaign Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
 source-wordcount: '569'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -16,14 +16,14 @@ ht-degree: 2%
 
 >[!BEGINSHADEBOX]
 
-이 사용 사례는 Experience Platform에 이미 존재하는 대상, 특히 발생한 검색 활동을 수집하는 실시간 웹 비헤이비어 대상으로 시작됩니다. [Adobe Experience Platform에서 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
+이 사용 사례는 Experience Platform에 이미 존재하는 대상, 특히 발생한 검색 활동을 수집하는 실시간 웹 비헤이비어 대상으로 시작됩니다. [Adobe Experience Platform에서 자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
 
 **이 사용 사례에 필요한 스키마:**
 
 * **받는 사람**: `email`, `churnprop` 필드가 있는 타겟팅 차원으로 사용됨
 * **위시리스트**: 필드: `description`, `priceref`, `imageurl`
 
-➡️ [모델 기반 스키마를 구성하는 방법 알아보기](gs-schemas.md)
+➡️ [관계형 스키마를 구성하는 방법에 대해 알아보기](gs-schemas.md)
 
 >[!ENDSHADEBOX]
 

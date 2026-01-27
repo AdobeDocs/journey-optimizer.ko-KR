@@ -5,10 +5,10 @@ title: 대상자 저장 활동 사용
 description: 오케스트레이션된 캠페인에서 대상자 저장 활동을 사용하는 방법을 알아봅니다
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 23%
+source-wordcount: '555'
+ht-degree: 21%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 23%
 
 **[!UICONTROL 대상자 저장]** 활동은 오케스트레이션된 캠페인에서 이전에 생성된 모집단을 기반으로 새 대상자를 만들거나 기존 대상자를 업데이트하는 데 사용되는 **[!UICONTROL 타깃팅]** 활동입니다. 저장하면 응용 프로그램 대상자 목록에 대상자가 추가되고 **[!UICONTROL 대상자]** 메뉴에서 액세스할 수 있습니다.
 
-일반적으로 동일한 캠페인 워크플로우 내에 구축된 대상 세그먼트를 캡처하여 향후 캠페인에서 재사용할 수 있도록 하는 데 사용됩니다. 일반적으로 최종 타깃팅된 모집단을 저장하기 위해 **[!UICONTROL 대상 만들기]** 또는 **[!UICONTROL 결합]**&#x200B;과 같은 다른 타깃팅 활동과 연결됩니다.
+일반적으로 동일한 캠페인 워크플로우 내에 구축된 대상 세그먼트를 캡처하여 향후 캠페인에서 재사용할 수 있도록 하는 데 사용됩니다. 일반적으로 최종 타깃팅된 모집단을 저장하기 위해 **[!UICONTROL 대상 만들기]** 또는 **[!UICONTROL 결합]**과 같은 다른 타깃팅 활동과 연결됩니다.
 **[!UICONTROL 대상자 저장]** 활동을 사용하면 기존 대상자를 업데이트할 수 없습니다. 새 대상자를 만들거나 기존 대상자를 새 정의로 덮어쓸 수만 있습니다.
 
 ## 대상자 저장 활동 구성 {#save-audience-configuration}
@@ -59,6 +59,9 @@ ht-degree: 23%
 
 ![](../assets/save-audience-4.png)
 
+>[!NOTE]
+>
+>대상 정의가 데이터 사용(DULE)으로 레이블이 지정된 Experience Platform 스키마 속성을 사용하는 경우 이러한 레이블은 저장된 대상에 의해 자동으로 상속됩니다. 다시 적용할 필요는 없습니다. [데이터 거버넌스에 대해 자세히 알아보기](../../action/action-privacy.md)
 
 ## 예 {#save-audience-example}
 

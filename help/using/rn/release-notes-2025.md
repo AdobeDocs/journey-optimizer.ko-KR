@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: ca652ee1469f411a1bd80733ba89921b0ddb1b1c
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
 source-wordcount: '9009'
 ht-degree: 100%
@@ -92,7 +92,6 @@ ht-degree: 100%
 <p>방해 금지 시간 기능으로 이메일, SMS, 푸시, WhatsApp 채널에 대한 시간 기반 제외를 정의할 수 있습니다. 특정 시간 동안 메시지가 전송되지 않도록 하여 고객 환경 설정과 및 규정 요건을 준수할 수 있습니다.</p>
 <p>규칙 세트를 통해 방해 금지 시간을 적용할 수 있으며, 정확한 제어를 위해 이 규칙 세트를 캠페인이나 여정의 개별 액션에 할당할 수 있습니다.</p>
 <p>방해 금지 시간대 규칙은 현재 일부 조직에서만 사용할 수 있습니다(제한된 가용성).  향후 릴리스에서 점진적으로 사용 범위를 확대하여 모든 고객에게 제공할 예정입니다.</p>
-<img src="assets/do-not-localize/quiet-hour.gif">
 <p>자세한 내용은 <a href="../conflict-prioritization/quiet-hours.md">세부 설명서</a>를 참조하십시오.</p>
 <p>가용성 일자: 2025년 10월 22일 목요일</p>
 </td>

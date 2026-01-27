@@ -5,10 +5,10 @@ title: 규칙 빌더를 사용하여 작업
 description: 오케스트레이션된 캠페인에 대한 규칙을 만드는 방법을 알아봅니다
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
 version: Campaign Orchestration
-source-git-commit: f85fab10da9cea7c8fd8f83c9e01b6ba06a19e8c
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 76%
+source-wordcount: '340'
+ht-degree: 69%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 76%
 
 또한 조건 내 미리 정의된 필터를 지원하므로 포괄적인 대상자 타겟팅 및 세분화 전략에 고급 표현식과 연산자를 활용하면서 쿼리를 쉽게 세분화할 수 있습니다.
 
-## 규칙 빌더 액세스
+## 규칙 빌더 액세스 {#access}
 
 규칙을 정의하여 데이터를 필터링해야 하는 모든 컨텍스트에서 규칙 빌더를 사용할 수 있습니다.
 
@@ -40,3 +40,7 @@ ht-degree: 76%
 * **[!UICONTROL 규칙 속성]** 창은 규칙에 대한 정보를 제공합니다. 다양한 작업을 수행하여 규칙을 확인하고 해당 규칙이 필요에 맞도록 할 수 있습니다.
 
   이 창은 대상자를 만들기 위한 쿼리를 작성할 때 표시됩니다. [쿼리를 확인하는 방법 알아보기](build-query.md#check-and-validate-your-query)
+
+## 미리 정의된 필터 작업
+
+사전 정의된 필터를 사용하면 매개 변수가 있는 버전을 포함하여 규칙 빌더에 저장된 쿼리를 재사용할 수 있습니다. 미리 정의된 필터 저장, 적용 및 관리에 대한 전체 설명은 [미리 정의된 필터 작업](predefined-filters.md)을 참조하세요.

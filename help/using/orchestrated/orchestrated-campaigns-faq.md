@@ -5,10 +5,10 @@ title: 오케스트레이션된 캠페인 FAQ
 description: Journey Optimizer 오케스트레이션 캠페인에 대한 FAQ
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
-source-wordcount: '1799'
-ht-degree: 13%
+source-wordcount: '1819'
+ht-degree: 14%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 13%
 
 Adobe Journey Optimizer 오케스트레이션된 캠페인에 대한 FAQ는 다음과 같습니다.
 
-세부 정보가 필요하십니까? 이 페이지 하단의 피드백 옵션을 사용하여 질문을 제기하거나 [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"}에 연결하세요.
+세부 정보가 필요하신가요? 이 페이지 하단의 피드백 옵션을 사용하여 질문하거나 [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"}와 연결하세요.
 
 +++ Campaign 오케스트레이션이란?
 
@@ -357,7 +357,7 @@ Yes, follow the best practices below:
 
 +++ 모든 필터를 대상을 통해 정의해야 합니까? 또는 일부 유형의 필터를 구성할 수 있습니까?
 
-오케스트레이션된 캠페인은 사전 정의된 필터를 지원합니다. 쿼리를 정의하여 필터로 저장하고, 즐겨찾기에 추가하여 추가 세분화 작업에서 재사용할 수 있습니다.
+오케스트레이션된 캠페인은 사전 정의된 필터를 지원합니다. 쿼리를 정의하여 필터로 저장하고, 즐겨찾기에 추가하고, 추가 세분화 작업에서 다시 사용할 수 있습니다. 사전 정의된 필터에는 사용 시 값을 입력할 수 있도록 매개 변수가 포함될 수 있습니다. [미리 정의된 필터로 작업하는 방법을 알아봅니다](predefined-filters.md).
 
 **자세히 알아보기**
 
