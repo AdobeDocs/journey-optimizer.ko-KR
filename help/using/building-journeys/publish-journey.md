@@ -10,16 +10,20 @@ level: Intermediate
 keywords: 게시, 여정, 라이브, 유효성, 확인
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 version: Journey Orchestration
-source-git-commit: 01ab3f5236acb914c3efe71ffe3d5281d1126589
+source-git-commit: 3866cedf2c264d94e981a43b649073aa1bdcd4f2
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 36%
+source-wordcount: '725'
+ht-degree: 34%
 
 ---
 
 # 여정 게시 {#publishing-the-journey}
 
 여정을 활성화하려면 여정을 게시하고 새 프로필에서 프로필을 입력할 수 있도록 해야 합니다. 여정을 게시하기 전에 유효하고 오류가 없는지 확인하십시오. 오류가 있는 여정은 게시할 수 없습니다.
+
+>[!NOTE]
+>
+>여정을 저장하거나 게시할 때 Journey Optimizer은 총 여정 페이로드 크기를 확인하고 제한에 근접하거나 이를 초과하는 경우 게시를 경고하거나 차단할 수 있습니다. [여정 페이로드 크기 유효성 검사](../start/guardrails.md#journey-payload-size)에서 자세히 알아보세요.
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
 
@@ -90,4 +94,4 @@ ht-degree: 36%
 
 이 비디오에서 여정을 게시하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3427937?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
