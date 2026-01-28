@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 이메일, 디자인, Stock, 자산
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 2762eb74ee4bd1c9dba4f8e542375ab7b4b25290
-workflow-type: ht
-source-wordcount: '700'
-ht-degree: 100%
+source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
+workflow-type: tm+mt
+source-wordcount: '723'
+ht-degree: 96%
 
 ---
 
@@ -62,6 +62,8 @@ ht-degree: 100%
 
    ![](assets/email_designer_export.png)
 
+1. 또한 컨텐츠 품질을 확인하여 가독성, 컨텐츠 응집력 및 효과성과 관련된 잠재적 문제를 식별할 수 있습니다. [콘텐츠 품질 유효성 검사에 대해 자세히 알아보기](../content-management/brands-score.md#validate-quality)
+
 ## 이메일 디자인 모범 사례 {#best-practices}
 
 이메일 전송 시 수신자가 이메일을 전달할 수 있다는 것을 고려해야 합니다. 이로 인해 이메일 렌더링에 문제가 발생하는 경우도 있습니다. 이는 “is-desktop-hidden” CSS 클래스를 사용하여 모바일 디바이스에 이미지를 숨기는 경우와 같이, 특히 이메일 공급자가 지원할 수 없을 수도 있는 전달용 CSS 클래스를 사용하는 경우에 해당됩니다.
@@ -82,8 +84,8 @@ ht-degree: 100%
 
 메시지 편집기로 이메일 콘텐츠를 만드는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416234?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
 A/B 테스트를 위한 콘텐츠 실험을 구성하여 비즈니스 목표 달성에 가장 도움이 되는 이메일 콘텐츠를 탐색하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447338?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)

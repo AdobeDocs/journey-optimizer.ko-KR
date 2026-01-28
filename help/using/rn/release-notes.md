@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 13d728fddb3179563edd9d5df752c732591c4a45
+source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
 workflow-type: tm+mt
-source-wordcount: '1863'
-ht-degree: 14%
+source-wordcount: '1799'
+ht-degree: 15%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 14%
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 새로운 기능 {#jan-26-01-features}
 
@@ -147,6 +147,10 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 #### 권한
 
 * **여정 및 캠페인에 대한 자체 승인 방지** - 승인 정책을 만들거나 설정할 때 여정 또는 캠페인 작성자가 자신의 개체를 승인하지 못하도록 하는 옵션을 추가했습니다. [자세히 보기](../test-approve/approval-policies.md)
+
+#### AI 어시스턴트
+
+* **AI 길잡이 콘텐츠 품질 검사** - 브랜드 정렬 외에도 브랜드 지침과 관계없이 가독성, 응집성 및 효과성으로 잠재적인 문제를 발견하기 위해 전체 <strong>콘텐츠 품질</strong>을 평가할 수 있습니다. 이러한 자동 검사는 명확하지 않은 메시지, 일관되지 않은 말투 또는 구조적 차이를 식별하는 데 도움이 됩니다. 사용 가능한 날짜: 2026년 1월 28일
 
 ## 곧 출시 예정 {#jan-26-01-coming-soon}
 
@@ -333,10 +337,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 </table>
 
 ### 개선 사항
-
-* **AI 길잡이 콘텐츠 품질 검사** - 브랜드 정렬 외에도 브랜드 지침과 관계없이 가독성, 응집성 및 효과성으로 잠재적인 문제를 발견하기 위해 전체 <strong>콘텐츠 품질</strong>을 평가할 수 있습니다. 이러한 자동 검사는 명확하지 않은 메시지, 일관되지 않은 말투 또는 구조적 차이를 식별하는 데 도움이 됩니다. 사용 가능한 날짜: 2026년 1월 28일
-
-* **새 색상 탭으로 브랜드 업데이트** - 브랜드 지침은 모든 접점에서 브랜드가 일관되게 표시되도록 하는 데 도움이 됩니다. 새 <strong>색상 섹션</strong>은(는) 브랜드 색상 시스템에 대한 표준을 정의하며 경험 전반에서 색상을 선택, 구성 및 적용하는 방법에 대해 대략적으로 설명합니다. 원색, 보조 색상, 강조색 및 중립색을 일관되게 사용하여 통합적이고 접근 가능하며 인식 가능한 브랜드 정체성을 지원합니다. 사용 가능한 날짜: 2026년 1월 28일
 
 * **SMS 웹후크** - <strong>웹후크</strong>은(는) 모든 SMS 공급자에서 지원됩니다. 수신 메시지를 캡처하는 인바운드 웹후크와 게재 확인, 상태 업데이트 및 기타 메시지 관련 이벤트를 수신하는 피드백 웹후크를 목적에 따라 각 웹후크를 구성할 수 있습니다. 사용 가능한 날짜: 2026년 1월 28일
 

@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 이메일, 디자인, 접근성
 exl-id: 78011ec0-a3b6-4d4e-ab4b-9da032c283a2
-source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
+source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1652'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 이 규정은 이메일, 뉴스레터, PDF 및 다운로드 가능한 콘텐츠를 포함한 모든 디지털 통신에 액세스할 수 있어야 한다고 명시합니다. 따라서 수신자를 위한 컨텐츠를 만들 때는 액세스 가능한 글꼴, 읽을 수 있는 형식 및 이미지에 대한 대체 텍스트 제공과 같은 특정 지침을 따라야 합니다.
 
-마케터가 [!DNL Journey Optimizer]이메일[&#x200B; 및 &#x200B;](content-from-scratch.md)랜딩 페이지&#x200B;**에 대한 콘텐츠를 모두 만들 수 있는** **이메일 Designer**&#x200B;을(를) 사용하면 WCAG(Web Content Accessibility Guidelines) 2.1, 레벨 AA를 기반으로 이 지시문을 쉽게 준수할 수 있습니다.
+마케터가 [!DNL Journey Optimizer]이메일[ 및 ](content-from-scratch.md)랜딩 페이지&#x200B;**에 대한 콘텐츠를 모두 만들 수 있는** **이메일 Designer**&#x200B;을(를) 사용하면 WCAG(Web Content Accessibility Guidelines) 2.1, 레벨 AA를 기반으로 이 지시문을 쉽게 준수할 수 있습니다.
 
 이에 따라 [!DNL Journey Optimizer]을(를) 사용하여 액세스 가능한 콘텐츠를 디자인하는 모범 사례가 아래에 나와 있습니다.
 
@@ -132,6 +132,8 @@ ht-degree: 1%
 
 * 실제 대상에게 전송하기 전에 콘텐츠의 렌더링을 테스트하기 위한 증명을 보냅니다. [방법 알아보기](../content-management/proofs.md)
 
+* 컨텐츠 품질을 확인하여 가독성, 컨텐츠 응집성 및 전반적인 효과를 평가할 수 있습니다. [방법 알아보기](../content-management/brands-score.md#validate-quality)
+
 ![](assets/accessible-simulate.png){width="90%"}
 
 콘텐츠에 안정적으로 액세스할 수 있는 경우 보다 일관된 방식으로 체크 인하려면 다음과 같은 특정 외부 도구를 사용하십시오.
@@ -160,7 +162,7 @@ ht-degree: 1%
 
 * `lang` 특성은 단어를 올바로 발음하도록 보조 기술에 대한 전자 메일의 언어를 나타냅니다.
 
-  +++예
+  +++예시
 
   영어의 예:
 
@@ -178,7 +180,7 @@ ht-degree: 1%
 
 * `dir` 특성은 텍스트 방향을 지정합니다. 영어와 프랑스어를 포함한 대부분의 언어는 왼쪽에서 오른쪽으로(ltr) 읽지만, 아랍어와 히브리어 같은 언어는 오른쪽에서 왼쪽으로(rtl) 읽습니다.
 
-  +++예
+  +++예시
 
   영어의 예(왼쪽에서 오른쪽):
 
