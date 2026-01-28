@@ -58,9 +58,9 @@ ht-degree: 3%
 >
 >각 샌드박스에 대해 이 설정을 구성해야 합니다.
 
-1. Experience Platform [대상 유형](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/destination-types){target="_blank"}을(를) 선택하십시오. 데이터를 받을 준비가 된 사용 가능한 대상 플랫폼 목록을 [이 페이지](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview){target="_blank"}에서 사용할 수 있습니다.
+1. Experience Platform [대상 유형](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/destination-types){target="_blank"}을(를) 선택하십시오. 데이터를 받을 준비가 된 사용 가능한 대상 플랫폼 목록을 [이 페이지](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/overview){target="_blank"}에서 사용할 수 있습니다.
 
-1. [!DNL Experience Platform]에서 자격 증명, 버킷/컨테이너, 경로 접두사 및 보안 옵션을 정의하여 대상을 구성합니다. [방법 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
+1. [!DNL Experience Platform]에서 자격 증명, 버킷/컨테이너, 경로 접두사 및 보안 옵션을 정의하여 대상을 구성합니다. [방법 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
 
 1. 다음 데이터를 사용하여 데이터 세트 내보내기 플로우를 만듭니다.
 
