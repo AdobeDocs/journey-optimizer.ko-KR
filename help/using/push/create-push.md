@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 8205d248d986cdc1a2262705c58524c2434265f5
+source-git-commit: 0706cb23bb41aff56984d7723df22c5a07bbe51d
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '841'
 ht-degree: 11%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 11%
 >id="ajo_message_push"
 >title="푸시 메시지 생성"
 >abstract="푸시 메시지를 추가하고 개인화 편집기로 개인화를 시작합니다."
+
+모바일 장치(iOS 및 Android) 및 웹 브라우저에 대한 푸시 알림을 만들 수 있습니다. 이 페이지에서는 여정 또는 캠페인에서 푸시 알림을 설정하는 프로세스를 안내합니다.
 
 ## 여정 또는 캠페인에서 푸시 알림 만들기 {#create}
 
@@ -70,7 +72,7 @@ ht-degree: 11%
 
 1. **[!UICONTROL 작업]** 섹션에서 **[!UICONTROL 푸시 알림]**&#x200B;을 선택하고 새 구성을 선택하거나 만드십시오.
 
-   [이 페이지](push-configuration.md)에서 푸시 구성에 대해 자세히 알아보세요.
+   [이 페이지](push-configuration.md)의 모바일 및 [이 페이지](push-configuration-web.md)의 웹용 푸시 구성에 대해 자세히 알아보세요.
 
    ![](assets/push_create_3.png)
 
@@ -128,7 +130,7 @@ ht-degree: 11%
 
    ![](assets/create-campaign-burst.png)
 
-1. 메시지 콘텐츠를 구성하고 타겟팅할 대상을 선택합니다. [캠페인 만드는 방법 알아보기](#create)
+1. 메시지 콘텐츠를 구성하고 타겟팅할 대상을 선택합니다. [캠페인을 만드는 방법 알아보기](#create)
 
    >[!IMPORTANT]
    >
