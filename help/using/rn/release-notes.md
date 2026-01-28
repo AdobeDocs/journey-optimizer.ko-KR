@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d3a9751fb7a95a761cb84fd1a00ea6bae9d32e37
+source-git-commit: 2dd468a97b8cb696d4ad7f1d0de2aceb15da29df
 workflow-type: tm+mt
 source-wordcount: '1839'
 ht-degree: 20%
@@ -35,7 +35,7 @@ ht-degree: 20%
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 새로운 기능 {#jan-26-01-features}
 
@@ -131,7 +131,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### AI
 
-* **AI 길잡이 콘텐츠 품질 검사** - 이제 브랜드 정렬 외에도 브랜드 지침과 관계없이 전체 <strong>콘텐츠 품질</strong>을 평가하여 <strong>가독성</strong>, 응집성 및 효과성의 잠재적 문제를 확인할 수 있습니다. 이러한 자동화된 검사는 명확하지 않은 메시지, 일관되지 않은 말투 또는 구조적 차이를 식별하는 데 도움이 됩니다. [자세한 내용](../content-management/brands-score.md#validate-quality). [비디오에서 이 기능을 살펴보세요](https://video.tv.adobe.com/v/3470553/?captions=kor&learn=on).
+* **AI 길잡이 콘텐츠 품질 검사** - 이제 브랜드 정렬 외에도 브랜드 지침과 관계없이 전체 <strong>콘텐츠 품질</strong>을 평가하여 <strong>가독성</strong>, 응집성 및 효과성의 잠재적 문제를 확인할 수 있습니다. 이러한 자동화된 검사는 명확하지 않은 메시지, 일관되지 않은 말투 또는 구조적 차이를 식별하는 데 도움이 됩니다. [자세한 내용](../content-management/brands-score.md#validate-quality). [비디오에서 이 기능을 살펴보세요](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### 경험 의사 결정
 
@@ -148,9 +148,9 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 * **여정의 여정 페이로드 크기 확인** - Journey Optimizer이 이제 <strong>페이로드 크기</strong>를 확인하여 최적의 성능과 시스템 안정성을 보장합니다. 여정을 작성하거나 게시할 때 페이로드 크기가 권장 한도에 근접하거나 초과하는 경우 명확한 <strong>경고 및 오류</strong>와 함께, 여정 구성을 최적화하는 실행 가능한 지침을 받게 됩니다. 이 사전 유효성 검사는 잠재적 문제를 조기에 식별하고 여정 성능을 유지하는 데 도움이 됩니다. [자세히 보기](../start/guardrails.md#journey-payload-size)
 
 * **여정 경고** - 새 <strong>사전 구성된 경고</strong>를 여정에 사용할 수 있습니다.
-   &#x200B;- <strong>프로필 삭제 비율 초과</strong> - 지난 5분 동안 입력한 프로필에 대한 프로필 삭제 비율 임계값 초과
-   &#x200B;- <strong>사용자 지정 작업 오류율 초과</strong> - 지난 5분 동안 임계값에 대한 성공한 HTTP 호출에 대한 사용자 지정 작업 오류의 비율
-   &#x200B;- <strong>프로필 오류율 초과</strong> - 지난 5분 동안 입력한 프로필 대비 오류가 발생한 프로필 비율이 임계값을 초과했습니다.
+   * <strong>프로필 삭제 비율 초과</strong> - 지난 5분 동안 입력한 프로필에 대한 프로필 삭제 비율 임계값 초과
+   * <strong>사용자 지정 작업 오류율 초과</strong> - 지난 5분 동안 임계값에 대한 성공한 HTTP 호출에 대한 사용자 지정 작업 오류의 비율
+   * <strong>프로필 오류율 초과</strong> - 지난 5분 동안 입력한 프로필 대비 오류가 발생한 프로필 비율이 임계값을 초과했습니다.
 
   자세한 내용은 [세부 설명서](../reports/alerts.md)를 참조하십시오.
 
