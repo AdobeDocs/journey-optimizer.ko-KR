@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f0f647467186e9a64994cc5ab44ea5d05193ab44
+source-git-commit: c54eab2698cce9f8d0f1e72762dd7ff3e5ebc296
 workflow-type: tm+mt
-source-wordcount: '1839'
-ht-degree: 20%
+source-wordcount: '1843'
+ht-degree: 21%
 
 ---
 
@@ -35,9 +35,33 @@ ht-degree: 20%
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 새로운 기능 {#jan-26-01-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>메시지 내보내기</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 새 <strong>메시지 내보내기</strong> 기능을 전자 메일 및 SMS 채널에 사용할 수 있습니다. 이 기능을 사용하면 보낸 메시지 콘텐츠를 전용 Experience Platform 데이터 세트로 자동으로 내보내 다음과 같은 작업을 수행할 수 있습니다.</p>
+<ul>
+<li>규정 준수 요건 충족(예: HIPAA)</li>
+<li>법적 청구 및 고객 지원 문의 메시지 보관</li>
+<li>개인에게 전송된 개인화된 콘텐츠의 사본 유지</li>
+</ul>
+<p>레코드는 수집 후 7일 동안 AJO 메시지 내보내기 데이터 세트에 유지됩니다. 이 보존 기간 동안 Experience Platform 대상을 통해 자체 스토리지로 내보낼 수 있습니다. 이 기능은 채널 구성 수준에서 활성화되어 메시지를 내보내는 <strong>세분화된 제어</strong>를 제공합니다.</p>
+<p>이 기능은 메시지 내보내기 추가 기능 서비스를 구입한 조직의 이메일 및 SMS 채널에만 사용할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.</p>
+<p><img src="assets/do-not-localize/message-export.gif"/></p>
+<p>자세한 내용은 <a href="../configuration/message-export.md#message-export">세부 설명서</a>를 참조하십시오.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -131,7 +155,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### AI
 
-* **AI 길잡이 콘텐츠 품질 검사** - 이제 브랜드 정렬 외에도 브랜드 지침과 관계없이 전체 <strong>콘텐츠 품질</strong>을 평가하여 <strong>가독성</strong>, 응집성 및 효과성의 잠재적 문제를 확인할 수 있습니다. 이러한 자동화된 검사는 명확하지 않은 메시지, 일관되지 않은 말투 또는 구조적 차이를 식별하는 데 도움이 됩니다. [자세한 내용](../content-management/brands-score.md#validate-quality). [비디오에서 이 기능을 살펴보세요](https://video.tv.adobe.com/v/3470553/?captions=kor&learn=on).
+* **AI 길잡이 콘텐츠 품질 검사** - 이제 브랜드 정렬 외에도 브랜드 지침과 관계없이 전체 <strong>콘텐츠 품질</strong>을 평가하여 <strong>가독성</strong>, 응집성 및 효과성의 잠재적 문제를 확인할 수 있습니다. 이러한 자동화된 검사는 명확하지 않은 메시지, 일관되지 않은 말투 또는 구조적 차이를 식별하는 데 도움이 됩니다. [자세한 내용](../content-management/brands-score.md#validate-quality). [비디오에서 이 기능을 살펴보세요](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### 경험 의사 결정
 
@@ -258,29 +282,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <p>새로운 모니터링 대시보드와 보강된 여정 단계 이벤트 데이터를 사용하여 <strong>사용자 지정 작업 끝점</strong>의 상태와 성능에 대해 더 깊이 있는 insight을 얻을 수 있습니다. 성공한 호출, 오류, 처리량, 응답 시간 및 대기열 대기 시간을 추적하여 예외 항목이 발생하는 시기, 장소 및 이유를 신속하게 파악합니다.</p>
 <p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
 <p>가용성 일자: 2026년 1월 28일 목요일</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>메시지 내보내기</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 새 <strong>메시지 내보내기</strong> 기능을 전자 메일 및 SMS 채널에 사용할 수 있습니다. 이 기능을 사용하면 보낸 메시지 콘텐츠를 전용 Experience Platform 데이터 세트로 자동으로 내보내 다음과 같은 작업을 수행할 수 있습니다.</p>
-<ul>
-<li>규정 준수 요건 충족(예: HIPAA)</li>
-<li>법적 청구 및 고객 지원 문의 메시지 보관</li>
-<li>개인에게 전송된 개인화된 콘텐츠의 사본 유지</li>
-</ul>
-<p>레코드는 수집 후 7일 동안 AJO 메시지 내보내기 데이터 세트에 유지됩니다. 이 보존 기간 동안 Experience Platform 대상을 통해 데이터를 고유한 저장소로 내보낼 수 있습니다. 이 기능은 채널 구성 수준에서 활성화되어 메시지를 내보내는 <strong>세분화된 제어</strong>를 제공합니다.</p>
-<p>이 기능은 메시지 내보내기 추가 기능 서비스를 구입한 조직의 이메일 및 SMS 채널에만 사용할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.</p>
-<p>가용성 일자: 2026년 1월 30일 토요일</p>
 </td>
 </tr>
 </tbody>
