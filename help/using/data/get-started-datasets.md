@@ -8,10 +8,10 @@ role: Developer, Admin
 level: Experienced
 keywords: Platform, Data Lake, 만들기, 레이크, 데이터 세트, 프로필
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: a6f2cc11f57c5cd766cd31e941649fb5003ae30b
-workflow-type: ht
-source-wordcount: '849'
-ht-degree: 100%
+source-git-commit: ab0f100d53cb987919eb134442bf05e64c30719a
+workflow-type: tm+mt
+source-wordcount: '889'
+ht-degree: 95%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Experience Platform에 수집되는 모든 데이터는 데이터 세트�
 
 ## 가드레일 및 제한 사항
 
-* 2024년 11월 1일부로 스트리밍 세분화는 더 이상 [!DNL Journey Optimizer] 추적 및 피드백 데이터 세트의 전송 및 열기 이벤트를 지원하지 않습니다. 빈도 캡핑 또는 피로도 관리를 구현하려면 해당 이벤트 대신 비즈니스 규칙을 사용하십시오. [이 섹션](../conflict-prioritization/rule-sets.md)에서 자세한 내용을 확인할 수 있으며, [여기](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=ko){target="_blank"}에는 일별 캡핑 사용 사례 설명이 있습니다.
+* 2024년 11월 1일부로 스트리밍 세분화는 더 이상 [!DNL Journey Optimizer] 추적 및 피드백 데이터 세트의 전송 및 열기 이벤트를 지원하지 않습니다. 빈도 캡핑 또는 피로도 관리를 구현하려면 해당 이벤트 대신 비즈니스 규칙을 사용하십시오. [이 섹션](../conflict-prioritization/rule-sets.md)에서 자세한 내용을 확인할 수 있으며, [여기](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}에는 일별 캡핑 사용 사례 설명이 있습니다.
 
 * 2025년 2월부로 TTL(Time-to-Live) 가드레일이 Journey Optimizer 시스템 생성 데이터 세트에 배포됩니다. [자세히 알아보기](datasets-ttl.md)
 
@@ -63,6 +63,10 @@ Adobe Experience Platform에 수집되는 모든 데이터는 데이터 세트�
 
   _동의 서비스 데이터 세트_: 프로필의 동의 정보를 저장합니다.
 
+* 메시지 내보내기
+
+  _AJO 메시지 내보내기 데이터 세트_: 내보내기를 위해 보낸 전자 메일 및 SMS 메시지의 콘텐츠를 저장합니다. 기록은 수집 후 7일 동안 유지됩니다. 메시지 내보내기 추가 기능을 구입한 조직에서만 사용할 수 있습니다. [자세히 알아보기](../configuration/message-export.md)
+
 * 인텔리전트 서비스
 
   _보내는 시간 최적화 점수/참여 점수_: [고객 여정 AI]의 결과 점수입니다.
@@ -79,7 +83,7 @@ Adobe Experience Platform에 수집되는 모든 데이터는 데이터 세트�
 
 이 비디오에서는 데이터 세트를 만들고 이를 스키마에 매핑하며, 세트에 데이터를 추가하고 데이터가 수집되었는지 확인하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416651?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334293?quality=12)
 
 ## 데이터 거버넌스
 
