@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 217c7d1aead043e1978c8e0dd40190f789368fd0
 workflow-type: tm+mt
-source-wordcount: '1721'
+source-wordcount: '1777'
 ht-degree: 7%
 
 ---
@@ -207,6 +207,10 @@ ht-degree: 7%
 ## 결정 정책 검토 및 저장 {#review}
 
 선택 전략을 구성하고 대체 오퍼를 추가한 후 **[!UICONTROL 다음]**&#x200B;을 클릭하여 의사 결정 정책을 검토하고 저장한 다음 **[!UICONTROL 만들기]**&#x200B;를 클릭하여 정책 만들기를 확인합니다.
+
+>[!IMPORTANT]
+>
+>의사 결정 정책이 만들어지면 모든 데이터 영역에 전파되는 데 최대 15분, 캐나다의 경우 최대 30분이 걸릴 수 있습니다. 여기에는 새 결정 항목을 컬렉션에 추가, 항목에서 규칙 변경, 항목 콘텐츠 변경 또는 수식 업데이트와 같은 변경 내용이 포함됩니다.
 
 개인화 편집기의 줄임표 단추나 구성 요소 속성 창의 **[!UICONTROL 결정]** 메뉴에서 언제든지 결정 정책을 편집하거나 삭제할 수 있습니다.
 
