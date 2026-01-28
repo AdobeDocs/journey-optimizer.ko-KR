@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d727acc1d01376a4abb8a0766340a2d32832305e
+source-git-commit: 8a7926be7a8e73d889cf38a047400236fd352dab
 workflow-type: tm+mt
 source-wordcount: '1828'
 ht-degree: 21%
@@ -35,7 +35,7 @@ ht-degree: 21%
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 새로운 기능 {#jan-26-01-features}
 
@@ -155,7 +155,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### AI
 
-* **AI 길잡이 콘텐츠 품질 검사** - 이제 브랜드 정렬 외에도 브랜드 지침과 관계없이 전체 <strong>콘텐츠 품질</strong>을 평가하여 <strong>가독성</strong>, 응집성 및 효과성의 잠재적 문제를 확인할 수 있습니다. 이러한 자동화된 검사는 명확하지 않은 메시지, 일관되지 않은 말투 또는 구조적 차이를 식별하는 데 도움이 됩니다. [자세한 내용](../content-management/brands-score.md#validate-quality). [비디오에서 이 기능을 살펴보세요](https://video.tv.adobe.com/v/3470553/?captions=kor&learn=on).
+* **AI 길잡이 콘텐츠 품질 검사** - 이제 브랜드 정렬 외에도 브랜드 지침과 관계없이 전체 <strong>콘텐츠 품질</strong>을 평가하여 <strong>가독성</strong>, 응집성 및 효과성의 잠재적 문제를 확인할 수 있습니다. 이러한 자동화된 검사는 명확하지 않은 메시지, 일관되지 않은 말투 또는 구조적 차이를 식별하는 데 도움이 됩니다. [자세한 내용](../content-management/brands-score.md#validate-quality). [비디오에서 이 기능을 살펴보세요](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### 경험 의사 결정
 
@@ -238,7 +238,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <td>
 <p><strong>방해 금지 시간</strong>을(를) 사용하면 전자 메일, SMS, 푸시 및 WhatsApp 채널에 대한 시간 기반 제외를 정의할 수 있습니다. 특정 기간 동안 메시지가 전송되지 않도록 하여 고객 선호도 및 규정 준수 요구 사항을 준수할 수 있습니다. 정확한 제어를 위해 캠페인 또는 여정의 개별 작업에 할당할 수 있는 <strong>규칙 집합</strong>을 통해 방해 금지 시간을 적용할 수 있습니다.</p>
 <p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다. 이번 GA 릴리스에서는 고객이 방해 금지 모드가 완료될 때까지 캠페인 작업을 대기열에 추가할 수 있는 기능과 활성화된 방해 금지 모드 규칙을 미리 볼 수 있는 기능이 제공됩니다.</p>
-<p>가용성 일자: 2026년 1월 28일 목요일</p>
+<p>가용성 일자: 2026년 1월 29일 금요일</p>
 </td>
 </tr>
 </tbody>
@@ -260,7 +260,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <li>완료된 마이그레이션에 대한 롤백 지원</li>
 <li>개체 매핑이 포함된 자세한 마이그레이션 보고서</li>
 </ul>
-<p>가용성 일자: 2026년 1월 28일 목요일</p>
+<p>가용성 일자: 2026년 1월 29일 금요일</p>
 </td>
 </tr>
 </tbody>
@@ -277,7 +277,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <td>
 <p>새로운 모니터링 대시보드와 보강된 여정 단계 이벤트 데이터를 사용하여 <strong>사용자 지정 작업 끝점</strong>의 상태와 성능에 대해 더 깊이 있는 insight을 얻을 수 있습니다. 성공한 호출, 오류, 처리량, 응답 시간 및 대기열 대기 시간을 추적하여 예외 항목이 발생하는 시기, 장소 및 이유를 신속하게 파악합니다.</p>
 <p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
-<p>가용성 일자: 2026년 1월 28일 목요일</p>
+<p>가용성 일자: 2026년 1월 29일 금요일</p>
 </td>
 </tr>
 </tbody>
