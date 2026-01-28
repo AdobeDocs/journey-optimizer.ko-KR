@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0706cb23bb41aff56984d7723df22c5a07bbe51d
+source-git-commit: d819b559e335ed743e1835edb170bca6e6653a4d
 workflow-type: tm+mt
-source-wordcount: '1807'
-ht-degree: 15%
+source-wordcount: '1863'
+ht-degree: 14%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 15%
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 새로운 기능 {#jan-26-01-features}
 
@@ -110,24 +110,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>웹 푸시 알림 채널</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Journey Optimizer은 <strong>웹 푸시 알림</strong>을 지원하여 푸시 채널을 모바일 이상으로 확장합니다. 모바일 브라우저와 데스크탑 브라우저 모두에 알림을 전달할 수 있으므로 앱을 사용하지 않고도 고객의 디바이스에서 직접 고객에게 연결할 수 있습니다. 이 향상된 기능을 통해 모바일 푸시에 이미 사용 가능한 동일한 작성 워크플로 및 타겟팅 기능을 활용하여 적시에 개인화된 메시지로 사용자의 참여를 실시간으로 이끌어낼 수 있습니다.</p>
-<p>자세한 내용은 <a href="../push/push-configuration-web.md">세부 설명서</a>를 참조하십시오.</p>
-<p>이전에 Beta에서 릴리스된 이 기능은 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
-<p>가용성 일자: 2026년 1월 28일 목요일</p>
-</td>
-</tr>
-</tbody>
-</table>
-
 ### 개선 사항 {#jan-26-01-improv}
 
 #### 경험 의사 결정
@@ -166,10 +148,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **여정 및 캠페인에 대한 자체 승인 방지** - 승인 정책을 만들거나 설정할 때 여정 또는 캠페인 작성자가 자신의 개체를 승인하지 못하도록 하는 옵션을 추가했습니다. [자세히 보기](../test-approve/approval-policies.md)
 
-#### AI 어시스턴트
-
-* **AI 길잡이 콘텐츠 품질 검사** - 브랜드 정렬 외에도 브랜드 지침과 관계없이 가독성, 응집성 및 효과성으로 잠재적인 문제를 발견하기 위해 전체 <strong>콘텐츠 품질</strong>을 평가할 수 있습니다. 이러한 자동 검사는 명확하지 않은 메시지, 일관되지 않은 말투 또는 구조적 차이를 식별하는 데 도움이 됩니다. 사용 가능한 날짜: 2026년 1월 28일
-
 ## 곧 출시 예정 {#jan-26-01-coming-soon}
 
 조만간 다음 기능 및 개선 업데이트가 릴리스될 예정입니다. **이 정보는 변경될 수 있습니다**. 업데이트된 링크, 화면, 설명서는 업데이트가 프로덕션에서 제공될 때 공유 예정입니다.
@@ -193,6 +171,23 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 </ul>
 <p>레코드는 수집 후 7일 동안 AJO 메시지 내보내기 데이터 세트에 유지됩니다. 이 보존 기간 동안 Experience Platform 대상을 통해 데이터를 고유한 저장소로 내보낼 수 있습니다. 이 기능은 채널 구성 수준에서 활성화되므로 내보낼 메시지를 세부적으로 제어할 수 있습니다.</p>
 <p>이 기능은 메시지 내보내기 추가 기능 서비스를 구입한 조직의 이메일 및 SMS 채널에만 사용할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.</p>
+<p>가용성 일자: 2026년 1월 28일 목요일</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>웹 푸시 알림 채널</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer은 <strong>웹 푸시 알림</strong>을 지원하여 푸시 채널을 모바일 이상으로 확장합니다. 모바일 브라우저와 데스크탑 브라우저 모두에 알림을 전달할 수 있으므로 앱을 사용하지 않고도 고객의 디바이스에서 직접 고객에게 연결할 수 있습니다. 이 향상된 기능을 통해 모바일 푸시에 이미 사용 가능한 동일한 작성 워크플로 및 타겟팅 기능을 활용하여 적시에 개인화된 메시지로 사용자의 참여를 실시간으로 이끌어낼 수 있습니다.</p>
+<p>이전에 Beta에서 릴리스된 이 기능은 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
 <p>가용성 일자: 2026년 1월 28일 목요일</p>
 </td>
 </tr>
@@ -338,6 +333,10 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 </table>
 
 ### 개선 사항
+
+* **AI 길잡이 콘텐츠 품질 검사** - 브랜드 정렬 외에도 브랜드 지침과 관계없이 가독성, 응집성 및 효과성으로 잠재적인 문제를 발견하기 위해 전체 <strong>콘텐츠 품질</strong>을 평가할 수 있습니다. 이러한 자동 검사는 명확하지 않은 메시지, 일관되지 않은 말투 또는 구조적 차이를 식별하는 데 도움이 됩니다. 사용 가능한 날짜: 2026년 1월 28일
+
+* **새 색상 탭으로 브랜드 업데이트** - 브랜드 지침은 모든 접점에서 브랜드가 일관되게 표시되도록 하는 데 도움이 됩니다. 새 <strong>색상 섹션</strong>은(는) 브랜드 색상 시스템에 대한 표준을 정의하며 경험 전반에서 색상을 선택, 구성 및 적용하는 방법에 대해 대략적으로 설명합니다. 원색, 보조 색상, 강조색 및 중립색을 일관되게 사용하여 통합적이고 접근 가능하며 인식 가능한 브랜드 정체성을 지원합니다. 사용 가능한 날짜: 2026년 1월 28일
 
 * **SMS 웹후크** - <strong>웹후크</strong>은(는) 모든 SMS 공급자에서 지원됩니다. 수신 메시지를 캡처하는 인바운드 웹후크와 게재 확인, 상태 업데이트 및 기타 메시지 관련 이벤트를 수신하는 피드백 웹후크를 목적에 따라 각 웹후크를 구성할 수 있습니다. 사용 가능한 날짜: 2026년 1월 28일
 
