@@ -6,9 +6,9 @@ role: User
 level: Intermediate
 exl-id: 73548973-ff8d-4d6c-b383-dd3679fa159a
 version: Journey Orchestration
-source-git-commit: 3fa90fa707b562ecf2160ec980520bc8bc267a21
+source-git-commit: 57017310f5ed34e447c47babe288b28186809f6e
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '272'
 ht-degree: 16%
 
 ---
@@ -26,6 +26,15 @@ Decisioning을 최적으로 사용하려면 다음 보호 기능 및 제한 사�
 | Edge 세그먼테이션을 사용한 의사 결정 정책이 있는 코드 기반 경험 API 요청 | 1500 |
 | Edge 세그멘테이션을 사용하지 않는 의사 결정 정책이 있는 코드 기반 경험 API 요청 | 5000 |
 | Edge 의사 결정 요청당 최대 표면 URI 수 | 30 |
+
+## 결정 항목 {#decision-items}
+
+| 가드레일 | 제한 |
+| ------- | ------- |
+| 총 결정 항목 | 10K |
+| 속성을 포함한 최대 항목 크기(1KB), 최대 30개 속성 | 1KB |
+| 최대 항목 표시 크기(모든 배치에 대한 합계) | 1KB |
+| 빈도 규칙 - 오퍼당 최대 한도 규칙 수 | 10 |
 
 ## 항목 컬렉션 {#item-collections}
 
@@ -64,11 +73,9 @@ Decisioning을 최적으로 사용하려면 다음 보호 기능 및 제한 사�
 
 | 가드레일 | 제한 |
 | ------- | ------- |
-| 오퍼 카탈로그 스키마당 사용자 지정 속성 수 | 10 |
-| 총 오퍼 항목 | 10K |
+| 오퍼 카탈로그 스키마당 사용자 지정 속성 수 | 100 |
 | 총 배치 | 1K |
 | AI 등급 모델 | 5 |
-| 빈도 규칙 - 오퍼당 최대 한도 규칙 수 | 10 |
 
 ## 구성 {#configurations}
 
