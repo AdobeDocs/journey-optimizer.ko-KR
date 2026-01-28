@@ -28,11 +28,11 @@ ht-degree: 6%
 
 ### 권한 설정 {#setup-permissions}
 
-모바일 애플리케이션을 만들기 전에 먼저 Adobe Experience Platform의 태그에 대한 올바른 사용자 권한이 있는지 확인하거나 사용자에게 할당해야 합니다. 자세한 내용은 [태그 설명서](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}를 참조하세요.
+모바일 애플리케이션을 만들기 전에 먼저 Adobe Experience Platform의 태그에 대한 올바른 사용자 권한이 있는지 확인하거나 사용자에게 할당해야 합니다. 자세한 내용은 [태그 설명서](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=ko){target="_blank"}를 참조하세요.
 
 >[!CAUTION]
 >
->푸시 구성은 전문가 사용자가 수행해야 합니다. 구현 모델 및 이 구현에 관련된 담당자에 따라 단일 제품 프로필에 전체 권한 집합을 할당하거나 앱 개발자와 **Adobe Journey Optimizer** 관리자 간에 권한을 공유해야 할 수 있습니다. **이 설명서**&#x200B;에서 [태그](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"} 권한에 대해 자세히 알아보세요.
+>푸시 구성은 전문가 사용자가 수행해야 합니다. 구현 모델 및 이 구현에 관련된 담당자에 따라 단일 제품 프로필에 전체 권한 집합을 할당하거나 앱 개발자와 **Adobe Journey Optimizer** 관리자 간에 권한을 공유해야 할 수 있습니다. **이 설명서**&#x200B;에서 [태그](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=ko){target="_blank"} 권한에 대해 자세히 알아보세요.
 
 <!--ou need to your have access to perform following roles :
 
@@ -49,7 +49,7 @@ ht-degree: 6%
 
    ![](assets/push_product_1.png)
 
-1. 기존 **[!UICONTROL 제품 프로필]**&#x200B;을 선택하거나 **[!UICONTROL 새 프로필]** 버튼을 사용하여 새 프로필을 만드십시오. **[!UICONTROL Admin Console 설명서]**&#x200B;에서 새 [새 프로필](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui){target="_blank"}을 만드는 방법을 알아보세요.
+1. 기존 **[!UICONTROL 제품 프로필]**&#x200B;을 선택하거나 **[!UICONTROL 새 프로필]** 버튼을 사용하여 새 프로필을 만드십시오. **[!UICONTROL Admin Console 설명서]**&#x200B;에서 새 [새 프로필](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html?lang=ko#ui){target="_blank"}을 만드는 방법을 알아보세요.
 
 1. **[!UICONTROL 권한]** 탭에서 **[!UICONTROL 속성 권한]**&#x200B;을 선택합니다.
 
@@ -95,7 +95,7 @@ ht-degree: 6%
 
    >[!NOTE]
    >
-   >사용자가 이전에 Admin Console에서 만들어진 것이 아니라면 [사용자 추가 설명서](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users)를 참조하세요.
+   >사용자가 이전에 Admin Console에서 만들어진 것이 아니라면 [사용자 추가 설명서](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users)를 참조하세요.
 
    ![](assets/push_product_7.png)
 
@@ -118,7 +118,7 @@ ht-degree: 6%
 
 ### pushNotification 속성 구성 {#push-property}
 
-**웹 푸시 알림**&#x200B;을 사용하려면 먼저 [pushNotifications 속성](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/pushnotifications)이 웹 SDK 내에서 올바르게 구성되어 있는지 확인해야 합니다. 이 속성은 웹 애플리케이션에서 푸시 알림을 처리하는 방법을 제어합니다.
+**웹 푸시 알림**&#x200B;을 사용하려면 먼저 [pushNotifications 속성](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/js/commands/configure/pushnotifications)이 웹 SDK 내에서 올바르게 구성되어 있는지 확인해야 합니다. 이 속성은 웹 애플리케이션에서 푸시 알림을 처리하는 방법을 제어합니다.
 
 또한 Journey Optimizer에서 [앱 푸시 자격 증명](#push-credentials-launch)을 구성하는 데 필요한 VAPID 키를 생성해야 합니다.
 
@@ -175,7 +175,7 @@ Adobe이 사용자를 대신하여 푸시 알림을 전송하도록 승인하려
 
 ## 3단계: sendPushSubscription 속성 구성 {#sendPushSubscription-property}
 
-푸시 자격 증명과 채널 구성이 설정되면 웹 애플리케이션에서 [sendPushSubscription 명령](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/sendpushsubscription)을 구현해야 합니다. 이 명령은 사용자 푸시 구독을 Adobe Experience Platform에 등록하여 시스템에서 푸시 알림을 받도록 선택한 사용자를 추적하고 구독 상태를 유지할 수 있습니다. 이 등록은 Journey Optimizer이 타깃팅된 푸시 알림을 사용자에게 전송하는 데 필수적입니다.
+푸시 자격 증명과 채널 구성이 설정되면 웹 애플리케이션에서 [sendPushSubscription 명령](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/js/commands/sendpushsubscription)을 구현해야 합니다. 이 명령은 사용자 푸시 구독을 Adobe Experience Platform에 등록하여 시스템에서 푸시 알림을 받도록 선택한 사용자를 추적하고 구독 상태를 유지할 수 있습니다. 이 등록은 Journey Optimizer이 타깃팅된 푸시 알림을 사용자에게 전송하는 데 필수적입니다.
 
 ## 4단계: 이벤트로 모바일 앱 테스트 {#mobile-app-test}
 
