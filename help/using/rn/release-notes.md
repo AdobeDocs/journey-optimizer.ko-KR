@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c54eab2698cce9f8d0f1e72762dd7ff3e5ebc296
+source-git-commit: 62371c3aec2169ef8a3361c750525171b5f9187c
 workflow-type: tm+mt
-source-wordcount: '1843'
+source-wordcount: '1828'
 ht-degree: 21%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 21%
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 새로운 기능 {#jan-26-01-features}
 
@@ -155,13 +155,9 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### AI
 
-* **AI 길잡이 콘텐츠 품질 검사** - 이제 브랜드 정렬 외에도 브랜드 지침과 관계없이 전체 <strong>콘텐츠 품질</strong>을 평가하여 <strong>가독성</strong>, 응집성 및 효과성의 잠재적 문제를 확인할 수 있습니다. 이러한 자동화된 검사는 명확하지 않은 메시지, 일관되지 않은 말투 또는 구조적 차이를 식별하는 데 도움이 됩니다. [자세한 내용](../content-management/brands-score.md#validate-quality). [비디오에서 이 기능을 살펴보세요](https://video.tv.adobe.com/v/3470553/?captions=kor&learn=on).
+* **AI 길잡이 콘텐츠 품질 검사** - 이제 브랜드 정렬 외에도 브랜드 지침과 관계없이 전체 <strong>콘텐츠 품질</strong>을 평가하여 <strong>가독성</strong>, 응집성 및 효과성의 잠재적 문제를 확인할 수 있습니다. 이러한 자동화된 검사는 명확하지 않은 메시지, 일관되지 않은 말투 또는 구조적 차이를 식별하는 데 도움이 됩니다. [자세한 내용](../content-management/brands-score.md#validate-quality). [비디오에서 이 기능을 살펴보세요](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### 경험 의사 결정
-
-* **의사 결정 항목에 조각 첨부** - 이제 Journey Optimizer에서 의사 결정 정책을 통해 코드 기반 경험 캠페인에서 활용할 수 있는 <strong>의사 결정 항목</strong>에 <strong>조각</strong>을(를) 첨부할 수 있는 기능을 제공합니다. [자세히 보기](../experience-decisioning/items.md)
-
-  **참고**: 이전에 제한된 가용성으로 릴리스된 이후에는 모든 환경에서 이 개선 사항을 사용할 수 있습니다(일반 가용성).
 
 #### 여정
 
@@ -340,4 +336,8 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **SMS Webhooks** - <strong>Webhooks</strong>이(가) 이제 모든 SMS 공급자에서 지원됩니다. 각 웹후크의 의도된 목적, 수신 메시지를 캡처하기 위한 인바운드 웹후크 및 게재 확인, 상태 업데이트 및 기타 메시지 관련 이벤트를 수신하기 위한 피드백 웹후크를 구성할 수 있습니다.
 
-  사용 가능한 날짜: 2026년 1월 28일
+  사용 가능한 날짜: 2026년 1월 29일
+
+* **의사 결정 항목에 조각 첨부** - 이제 Journey Optimizer에서 의사 결정 정책을 통해 코드 기반 경험 캠페인에서 활용할 수 있는 <strong>의사 결정 항목</strong>에 <strong>조각</strong>을(를) 첨부할 수 있는 기능을 제공합니다.
+
+  사용 가능한 날짜: 2026년 1월 30일
