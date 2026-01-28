@@ -5,9 +5,9 @@ title: 조정된 캠페인 보호 및 제한 사항
 description: 오케스트레이션된 캠페인 보호 및 제한 사항에 대해 알아봅니다
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
-source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
+source-git-commit: 266bf3afde663b17aedce5fb51e7c5f424fee9ad
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '510'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 * 관리 용이성과 성능을 유지하려면 스키마 **당 평균 특성 수가 50개 열**&#x200B;을(를) 초과할 수 없습니다.
 
-* Adobe Experience Platform **프로필**&#x200B;에 대해 관계형 스키마를 사용할 수 없습니다. Adobe Experience Platform **프로필**&#x200B;에 대해서는 표준 XDM 스키마만 지원됩니다. 오케스트레이션된 캠페인 또는 작업 캠페인에 대해 관계형 스키마를 활성화할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
+* Adobe Experience Platform **프로필**&#x200B;에 대해 관계형 스키마를 사용할 수 없습니다. Adobe Experience Platform **프로필**&#x200B;에 대해서는 표준 XDM 스키마만 지원됩니다. 오케스트레이션된 캠페인 또는 작업 캠페인에 대해 관계형 스키마를 활성화할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
 
 ### 데이터 수집
 
@@ -91,4 +91,4 @@ ht-degree: 1%
 
 ## 채널 제한 사항
 
-오케스트레이션된 캠페인에서는 SMS, 푸시 및 이메일 채널만 지원됩니다.
+오케스트레이션된 캠페인에서는 SMS, 푸시, 이메일 및 DM 채널만 지원됩니다.

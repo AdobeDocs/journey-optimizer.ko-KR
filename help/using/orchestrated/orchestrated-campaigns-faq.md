@@ -5,9 +5,9 @@ title: 오케스트레이션된 캠페인 FAQ
 description: Journey Optimizer 오케스트레이션 캠페인에 대한 FAQ
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+source-git-commit: 266bf3afde663b17aedce5fb51e7c5f424fee9ad
 workflow-type: tm+mt
-source-wordcount: '1819'
+source-wordcount: '1821'
 ht-degree: 14%
 
 ---
@@ -143,7 +143,7 @@ Yes. Campaign orchestration is natively integrated with:
 
 +++ 지원되는 채널은 무엇입니까?
 
-오케스트레이션된 캠페인을 만들어 **이메일**, **SMS** 및 **푸시 알림**&#x200B;을 보낼 수 있습니다.
+오케스트레이션된 캠페인을 만들어 **이메일**, **SMS**, **푸시 알림** 및 **DM**&#x200B;을 보낼 수 있습니다.
 
 **자세히 알아보기**
 

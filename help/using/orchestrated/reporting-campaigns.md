@@ -5,10 +5,10 @@ title: Adobe Journey Optimizer을 사용하여 오케스트레이션된 캠페�
 description: Adobe Journey Optimizer을 사용하여 오케스트레이션된 캠페인에 대한 보고서에 액세스하는 방법을 알아봅니다
 exl-id: 8cb569a2-a4a0-45a5-b7f9-f5a591e44335
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 266bf3afde663b17aedce5fb51e7c5f424fee9ad
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 64%
+source-wordcount: '187'
+ht-degree: 63%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 64%
         </br>
     </tr>
     <tr style="background-color: #FFFFFF;">
-      <td><a href="../reports/report-gs-cja.md"><img alt="전체 기간 보고서" src="assets/all-time-report.png"></a></td>
+      <td><a href="../reports/report-gs-cja.md"><img alt="전체 시간 보고서" src="assets/all-time-report.png"></a></td>
       <td>
         <b>전체 시간 보고서</b>는 Customer Journey Analytics 기능과 완벽하게 통합되어 두 플랫폼에서 보고를 표준화하고 데이터 일관성과 안정성을 향상시킵니다. <a href="../reports/report-gs-cja.md">이 섹션에서</a> 전체 시간 보고서에 대해 자세히 알아보십시오.
       </td>
@@ -44,6 +44,6 @@ ht-degree: 64%
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;" >
 <td><a href="../reports/campaign-global-report-cja-email.md"><img alt="이메일" src="../channels/assets/do-not-localize/email.png"></a><br/><a href="../reports/campaign-global-report-cja-email.md"><strong>이메일 보고서</strong></a></td>
 <td><a href="../reports/campaign-global-report-cja-sms.md"><img alt="sms" src="../channels/assets/do-not-localize/sms.png"></a><br/><a href="../reports/campaign-global-report-cja-sms.md"><strong>SMS 보고서</strong></a></td>
-<td><a href="../reports/campaign-global-report-cja-push.md"><img alt="푸시" src="../channels/assets/do-not-localize/push.png"></a><a href="../reports/campaign-global-report-cja-push.md"><strong>푸시 보고서</strong></a></td>
+<td><a href="../reports/campaign-global-report-cja-push.md"><img alt="푸시" src="../channels/assets/do-not-localize/push.png"></a><a href="../reports/campaign-global-report-cja-push.md"><strong>푸시 보고서</strong></a></td><td><a href="../reports/campaign-global-report-cja-direct.md"><img alt="다이렉트 메일" src="../channels/assets/do-not-localize/direct-mail.jpg"></a><a href="../reports/campaign-global-report-cja-direct.md"><strong>다이렉트 메일 보고서</strong></a></td>
 </tr></table>
 
