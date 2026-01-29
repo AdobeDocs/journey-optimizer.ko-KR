@@ -8,9 +8,9 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 5ff7987c00afda3263cb97654967c5b698f726c2
+source-git-commit: 4a15ee3ac4805880ce80f788e4619b501afb3d8b
 workflow-type: tm+mt
-source-wordcount: '2747'
+source-wordcount: '3337'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->문제를 해결하려면 여정을 쿼리할 때 journeyVersionName 대신 journeyVersionID를 사용하는 것이 좋습니다. 이 섹션[에서 여정 속성 특성 &#x200B;](../building-journeys/expression/journey-properties.md#journey-properties-fields)에 대해 자세히 알아보세요.
+>문제를 해결하려면 여정을 쿼리할 때 journeyVersionName 대신 journeyVersionID를 사용하는 것이 좋습니다. 이 섹션[에서 여정 속성 특성 ](../building-journeys/expression/journey-properties.md#journey-properties-fields)에 대해 자세히 알아보세요.
 
 +++
 
@@ -369,27 +369,25 @@ WHERE _experience.journeyOrchestration.serviceType is not null;
 
 이 쿼리를 사용하면 메시지/작업을 실행하는 동안 여정에서 발생하는 각 오류를 나열할 수 있습니다.
 
-_데이터 레이크 쿼리_
-
 ```sql
-SELECT _experience.journeyOrchestration.stepEvents.actionExecutionError, count(distinct _id) FROM journey_step_events
-WHERE _experience.journeyOrchestration.stepEvents.nodeName=<'message-name'>
+SELECT _experience.journeyOrchestration.stepEvents.actionExecutionError, count(distinct _id) AS ERROR_COUNT 
+FROM journey_step_events
+WHERE _experience.journeyOrchestration.stepEvents.nodeName = '<message-name>'
 AND _experience.journeyOrchestration.stepEvents.actionExecutionError IS NOT NULL
 AND _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version-id>'
 GROUP BY _experience.journeyOrchestration.stepEvents.actionExecutionError
+ORDER BY ERROR_COUNT DESC;
 ```
 
-_예_
+_샘플 출력_
 
-```sql
-SELECT _experience.journeyOrchestration.stepEvents.actionExecutionError, count(distinct _id) FROM journey_step_events
-WHERE _experience.journeyOrchestration.stepEvents.nodeName='Message - 100KB Email with Gateway and Kafkav2'
-AND _experience.journeyOrchestration.stepEvents.actionExecutionError IS NOT NULL
-AND _experience.journeyOrchestration.stepEvents.journeyVersionID = '67b14482-143e-4f83-9cf5-cfec0fca3d26'
-GROUP BY _experience.journeyOrchestration.stepEvents.actionExecutionError
-```
+| actionExecutionError | ERROR_COUNT |
+|---|---|
+| 시간 초과 | 145 |
+| 연결 오류 | 87 |
+| InvalidResponse | 23 |
 
-이 쿼리는 여정에서 작업을 실행하는 동안 발생한 다른 모든 오류와 발생한 횟수를 반환합니다.
+이 쿼리는 여정에서 작업을 실행하는 동안 발생한 모든 다른 오류를 빈도별로 정렬된 각 오류가 발생한 횟수 횟수와 함께 반환합니다.
 
 +++
 
@@ -399,25 +397,20 @@ GROUP BY _experience.journeyOrchestration.stepEvents.actionExecutionError
 
 이 쿼리는 특정 프로필이 여정 및 여정 조합과 연관된 이벤트를 계산하여 해당 프로필이 이벤트에 입력되었는지 확인합니다.
 
-_데이터 레이크 쿼리_
-
 ```sql
-SELECT count(distinct _id) FROM journey_step_events
-where
-_experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version-id>' AND
-_experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>'
+SELECT count(distinct _id) AS EVENT_COUNT 
+FROM journey_step_events
+WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version-id>' 
+AND _experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>';
 ```
 
-_예_
+_샘플 출력_
 
-```sql
-SELECT count(distinct _id) FROM journey_step_events
-where
-_experience.journeyOrchestration.stepEvents.journeyVersionID = 'ec9efdd0-8a7c-4d7a-a765-b2cad659fa4e' AND
-_experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
-```
+| EVENT_COUNT |
+|---|
+| 3 |
 
-결과는 0보다 커야 합니다. 이 쿼리는 프로필이 여정을 입력한 정확한 횟수를 반환합니다.
+이 쿼리는 프로필이 여정을 입력한 정확한 횟수를 반환합니다. 0보다 큰 결과는 프로필이 여정에 입력되었음을 확인합니다.
 
 +++
 
@@ -425,51 +418,41 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 방법 1: 메시지 이름이 여정에서 고유하지 않은 경우(여러 위치에서 사용됨).
 
-_데이터 레이크 쿼리_
-
 ```sql
-SELECT count(distinct _id) FROM journey_step_events WHERE
-_experience.journeyOrchestration.stepEvents.nodeID='<NodeId in the UI corresponding to the message>' AND
-_experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
-_experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version-id>' AND
-_experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>'
+SELECT count(distinct _id) AS MESSAGE_SENT_COUNT 
+FROM journey_step_events 
+WHERE _experience.journeyOrchestration.stepEvents.nodeID = '<NodeId in the UI corresponding to the message>' 
+AND _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL 
+AND _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version-id>' 
+AND _experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>';
 ```
 
-_예_
+_샘플 출력_
 
-```sql
-SELECT count(distinct _id) FROM journey_step_events WHERE
-_experience.journeyOrchestration.stepEvents.nodeID='17ae65a1-02dd-439d-b54e-b56a78520eba' AND
-_experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
-_experience.journeyOrchestration.stepEvents.journeyVersionID = '67b14482-143e-4f83-9cf5-cfec0fca3d26' AND
-_experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
-```
+| MESSAGE_SENT_COUNT |
+|---|
+| 1 |
 
-결과는 0보다 커야 합니다. 이 쿼리는 메시지 작업이 여정 측에서 성공적으로 실행되었는지 여부만 알려줍니다.
+메시지 작업이 성공적으로 실행되었음을 확인하는 결과가 0보다 큽니다. 이 쿼리는 메시지 작업이 여정 측에서 성공적으로 실행되었는지 여부만 알려줍니다.
 
 방법 2: 메시지 이름이 여정에서 고유한 경우.
 
-_데이터 레이크 쿼리_
-
 ```sql
-SELECT count(distinct _id) FROM journey_step_events WHERE
-_experience.journeyOrchestration.stepEvents.nodeName='<NodeName in the UI corresponding to the message>' AND
-_experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
-_experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version-id>' AND
-_experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>'
+SELECT count(distinct _id) AS MESSAGE_SENT_COUNT 
+FROM journey_step_events 
+WHERE _experience.journeyOrchestration.stepEvents.nodeName = '<NodeName in the UI corresponding to the message>' 
+AND _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL 
+AND _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version-id>' 
+AND _experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>';
 ```
 
-_예_
+_샘플 출력_
 
-```sql
-SELECT count(distinct _id) FROM journey_step_events WHERE
-_experience.journeyOrchestration.stepEvents.nodeID='Message- 100KB Email' AND
-_experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
-_experience.journeyOrchestration.stepEvents.journeyVersionID = '67b14482-143e-4f83-9cf5-cfec0fca3d26' AND
-_experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
-```
+| MESSAGE_SENT_COUNT |
+|---|
+| 1 |
 
-이 쿼리는 선택한 프로필에 대해 호출된 카운트와 함께 모든 메시지 목록을 반환합니다.
+쿼리는 선택한 프로필에 대해 메시지가 성공적으로 호출된 횟수를 반환합니다.
 
 +++
 
@@ -477,27 +460,26 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 이 쿼리는 지난 30일 이내에 특정 프로필에 대해 성공적으로 실행된 모든 메시지 작업을 메시지 이름별로 그룹화하여 검색합니다.
 
-_데이터 레이크 쿼리_
-
 ```sql
-SELECT _experience.journeyOrchestration.stepEvents.nodeName, count(distinct _id) FROM journey_step_events
-WHERE  _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
-_experience.journeyOrchestration.stepEvents.nodeType = 'action' AND
-_experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>' AND
-timestamp > (now() - interval '30' day)
+SELECT _experience.journeyOrchestration.stepEvents.nodeName AS MESSAGE_NAME, 
+       count(distinct _id) AS MESSAGE_COUNT 
+FROM journey_step_events
+WHERE _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL 
+AND _experience.journeyOrchestration.stepEvents.nodeType = 'action' 
+AND _experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>' 
+AND timestamp > (now() - interval '30' day)
 GROUP BY _experience.journeyOrchestration.stepEvents.nodeName
+ORDER BY MESSAGE_COUNT DESC;
 ```
 
-_예_
+_샘플 출력_
 
-```sql
-SELECT _experience.journeyOrchestration.stepEvents.nodeName, count(distinct _id) FROM journey_step_events
-WHERE  _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
-_experience.journeyOrchestration.stepEvents.nodeType = 'action' AND
-_experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com' AND
-timestamp > (now() - interval '30' day)
-GROUP BY _experience.journeyOrchestration.stepEvents.nodeName
-```
+| 메시지 이름 | MESSAGE_COUNT |
+|---|---|
+| 환영 전자 메일 | 1 |
+| 제품 추천 | 3 |
+| 장바구니 포기 알림 | 2 |
+| 주간 뉴스레터 | 4 |
 
 이 쿼리는 선택한 프로필에 대해 호출된 카운트와 함께 모든 메시지 목록을 반환합니다.
 
@@ -507,27 +489,26 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName
 
 이 쿼리는 각 여정에 대한 항목 수와 함께 특정 프로필이 지난 30일 이내에 입력한 모든 여정을 반환합니다.
 
-_데이터 레이크 쿼리_
-
 ```sql
-SELECT _experience.journeyOrchestration.stepEvents.journeyVersionName, count(distinct _id) FROM journey_step_events
-WHERE  _experience.journeyOrchestration.stepEvents.nodeType = 'start' AND
-_experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>' AND
-timestamp > (now() - interval '30' day)
+SELECT _experience.journeyOrchestration.stepEvents.journeyVersionName AS JOURNEY_NAME, 
+       count(distinct _id) AS ENTRY_COUNT 
+FROM journey_step_events
+WHERE _experience.journeyOrchestration.stepEvents.nodeType = 'start' 
+AND _experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>' 
+AND timestamp > (now() - interval '30' day)
 GROUP BY _experience.journeyOrchestration.stepEvents.journeyVersionName
+ORDER BY ENTRY_COUNT DESC;
 ```
 
-_예_
+_샘플 출력_
 
-```sql
-SELECT _experience.journeyOrchestration.stepEvents.journeyVersionName, count(distinct _id) FROM journey_step_events
-WHERE  _experience.journeyOrchestration.stepEvents.nodeType = 'start' AND
-_experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com' AND
-timestamp > (now() - interval '30' day)
-GROUP BY _experience.journeyOrchestration.stepEvents.journeyVersionName
-```
+| 여정 이름 | ENTRY_COUNT |
+|---|---|
+| 시작 여정 v2 | 1 |
+| 제품 추천 | 5 |
+| 재참여 캠페인 | 2 |
 
-쿼리는 모든 여정 이름 목록과 함께 쿼리된 프로필이 여정을 입력한 횟수를 반환합니다.
+쿼리는 모든 여정 이름 목록을 쿼리된 프로필이 각 여정에 입력한 횟수와 함께 반환합니다.
 
 +++
 
@@ -535,25 +516,25 @@ GROUP BY _experience.journeyOrchestration.stepEvents.journeyVersionName
 
 이 쿼리는 지정된 기간 동안 여정에 입력된 고유 프로필 수에 대한 일일 분류를 제공합니다.
 
-_데이터 레이크 쿼리_
-
 ```sql
-SELECT DATE(timestamp), count(distinct _experience.journeyOrchestration.stepEvents.profileID) FROM journey_step_events
+SELECT DATE(timestamp) AS ENTRY_DATE, 
+       count(distinct _experience.journeyOrchestration.stepEvents.profileID) AS PROFILES_COUNT 
+FROM journey_step_events
 WHERE DATE(timestamp) > (now() - interval '<last x days>' day)
 AND _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version-id>'
 GROUP BY DATE(timestamp)
-ORDER BY DATE(timestamp) desc
+ORDER BY DATE(timestamp) DESC;
 ```
 
-_예_
+_샘플 출력_
 
-```sql
-SELECT DATE(timestamp), count(distinct _experience.journeyOrchestration.stepEvents.profileID) FROM journey_step_events
-WHERE DATE(timestamp) > (now() - interval '100' day)
-AND _experience.journeyOrchestration.stepEvents.journeyVersionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1'
-GROUP BY DATE(timestamp)
-ORDER BY DATE(timestamp) desc
-```
+| ENTRY_DATE | PROFILES_COUNT |
+|---|---|
+| 2024년 11월 25일 | 1,245 |
+| 2024년 11월 24일 | 1,189 |
+| 2024년 11월 23일 | 15,340 |
+| 2024년 11월 22일 | 1,205 |
+| 2024년 11월 21일 | 1,167 |
 
 쿼리는 정의된 기간 동안 매일 여정에 입력한 프로필 수를 반환합니다. 프로필이 여러 ID를 통해 입력된 경우 두 번 계산됩니다. 재입력이 활성화된 경우 다른 날에 여정을 다시 입력한 경우 다른 날에 프로필 수가 중복될 수 있습니다.
 
@@ -568,8 +549,6 @@ ORDER BY DATE(timestamp) desc
 
 이 쿼리는 작업이 큐에 있는 시간과 작업이 완료된 시간 사이의 시간 차이를 찾아 대상 내보내기 작업의 기간을 계산합니다.
 
-_데이터 레이크 쿼리_
-
 ```sql
 select DATEDIFF (minute,
               (select timestamp
@@ -579,20 +558,6 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'queued
               (select timestamp
                 where
 _experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
-_experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'finished')) AS export_job_runtime;
-```
-
-_예_
-
-```sql
-select DATEDIFF (minute,
-              (select timestamp
-                where
-_experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1' AND
-_experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'queued') ,
-              (select timestamp
-                where
-_experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1' AND
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'finished')) AS export_job_runtime;
 ```
 
@@ -604,21 +569,10 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'finish
 
 이 쿼리는 대상자 읽기 작업 동안 인스턴스 복제 오류로 인해 삭제된 개별 프로필 수를 계산합니다.
 
-_데이터 레이크 쿼리_
-
 ```sql
 SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
 where
 _experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
-_experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_DUPLICATION'
-```
-
-_예_
-
-```sql
-SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
-where
-_experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1' AND
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_DUPLICATION'
 ```
 
@@ -630,21 +584,10 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 이 쿼리는 잘못된 네임스페이스가 있거나 필요한 네임스페이스에 대한 ID가 누락되었기 때문에 삭제된 프로필 수를 반환합니다.
 
-_데이터 레이크 쿼리_
-
 ```sql
 SELECT count(*) FROM journey_step_events
 where
 _experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
-_experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_BAD_NAMESPACE'
-```
-
-_예_
-
-```sql
-SELECT count(*) FROM journey_step_events
-where
-_experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1' AND
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_BAD_NAMESPACE'
 ```
 
@@ -656,21 +599,10 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 이 쿼리는 여정 실행에 필요한 ID 맵이 누락되었기 때문에 삭제된 프로필을 계산합니다.
 
-_데이터 레이크 쿼리_
-
 ```sql
 SELECT count(*) FROM journey_step_events
 where
 _experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
-_experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_NO_IDENTITY_MAP'
-```
-
-_예_
-
-```sql
-SELECT count(*) FROM journey_step_events
-where
-_experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1' AND
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_NO_IDENTITY_MAP'
 ```
 
@@ -682,21 +614,10 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 이 쿼리는 여정이 테스트 모드에서 실행 중이지만 프로필에 testProfile 특성이 true로 설정되지 않은 프로필을 식별합니다.
 
-_데이터 레이크 쿼리_
-
 ```sql
 SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
 where
 _experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
-_experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_NOT_A_TEST_PROFILE'
-```
-
-_예_
-
-```sql
-SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
-where
-_experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1' AND
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_NOT_A_TEST_PROFILE'
 ```
 
@@ -708,21 +629,10 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 이 쿼리는 여정 실행 중 내부 시스템 오류로 인해 삭제된 프로필 수를 반환합니다.
 
-_데이터 레이크 쿼리_
-
 ```sql
 SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
 where
 _experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
-_experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_INTERNAL'
-```
-
-_예_
-
-```sql
-SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
-where
-_experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1' AND
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_INTERNAL'
 ```
 
@@ -1033,8 +943,6 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SER
 
 이 쿼리는 지정된 기간 내에 날짜별로 그룹화된 여정이 비즈니스 이벤트를 받은 횟수를 계산합니다.
 
-_데이터 레이크 쿼리_
-
 ```sql
 SELECT DATE(timestamp), count(distinct _id)
 FROM journey_step_events
@@ -1045,42 +953,17 @@ _experience.journeyOrchestration.stepEvents.nodeType = 'start' AND
 WHERE DATE(timestamp) > (now() - interval '<last x hours>' hour)
 ```
 
-_예_
-
-```sql
-SELECT DATE(timestamp), count(distinct _id)
-FROM journey_step_events
-where
-_experience.journeyOrchestration.stepEvents.journeyVersionID = 'b1093bd4-11f3-44cc-961e-33925cc58e18' AND
-_experience.journeyOrchestration.stepEvents.nodeName = 'TEST_MLTrainingSession' AND
-_experience.journeyOrchestration.stepEvents.nodeType = 'start' AND
-WHERE DATE(timestamp) > (now() - interval '6' hour)
-```
-
 +++
 
 +++관련 여정을 찾을 수 없어 프로필의 외부 이벤트가 삭제되었는지 확인
 
 이 쿼리는 특정 여정에 대한 외부 이벤트가 해당 이벤트를 수신하도록 구성된 활성 이벤트나 일치하는 프로필이 없기 때문에 삭제된 시점을 식별합니다.
 
-_데이터 레이크 쿼리_
-
 ```sql
 SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp) FROM journey_step_events
 where
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventID = '<eventId>' AND
 _experience.journeyOrchestration.profile.ID = '<profileID>' AND
-_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
-_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
-```
-
-_예_
-
-```sql
-SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp) FROM journey_step_events
-where
-_experience.journeyOrchestration.serviceEvents.dispatcher.eventID = '515bff852185e434ca5c83bcfc4f24626b1545ca615659fc4cfff91626ce61a6' AND
-_experience.journeyOrchestration.profile.ID = 'mandee@adobe.com' AND
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
 ```
@@ -1093,26 +976,12 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WIT
 
 이 쿼리는 이벤트 ID 및 오류 코드와 함께 내부 서비스 오류로 인해 특정 프로필에 대해 삭제된 외부 이벤트를 검색합니다.
 
-_데이터 레이크 쿼리_
-
 ```sql
 SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp), _experience.journeyOrchestration.serviceEvents.dispatcher.eventID, _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode
 FROM journey_step_events
 where
 _experience.journeyOrchestration.profile.ID='<profileID>' AND
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventID='<eventID>' AND
-_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
-_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
-```
-
-_예_
-
-```sql
-SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp), _experience.journeyOrchestration.serviceEvents.dispatcher.eventID, _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode
-FROM journey_step_events
-where
-_experience.journeyOrchestration.profile.ID='mandee@adobe.com' AND
-_experience.journeyOrchestration.serviceEvents.dispatcher.eventID='81c51be978d8bdf9ef497076b3e12b14533615522ecea9f5080a81c736491656' AND
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
 ```
@@ -1124,16 +993,6 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SER
 +++errorCode로 stateMachine에서 삭제한 모든 이벤트 수를 확인합니다.
 
 이 쿼리는 여정 상태 시스템에서 무시된 모든 이벤트를 집계하며, 가장 일반적인 삭제 이유를 식별하는 데 도움이 되도록 오류 코드별로 그룹화됩니다.
-
-_데이터 레이크 쿼리_
-
-```sql
-SELECT _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode, COUNT() FROM journey_step_events
-where
-_experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
-```
-
-_예_
 
 ```sql
 SELECT _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode, COUNT() FROM journey_step_events
@@ -1149,19 +1008,6 @@ _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard
 
 이 쿼리는 여정 구성에서 재입력이 허용되지 않은 경우 프로필이 여정 재입력을 시도하여 삭제된 모든 이벤트를 식별합니다.
 
-_데이터 레이크 쿼리_
-
-```sql
-SELECT DATE(timestamp), _experience.journeyOrchestration.profile.ID,
-_experience.journeyOrchestration.journey.versionID,
-_experience.journeyOrchestration.serviceEvents.stateMachine.eventCode 
-FROM journey_step_events
-where
-_experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' AND _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode='reentranceNotAllowed'
-```
-
-_예_
-
 ```sql
 SELECT DATE(timestamp), _experience.journeyOrchestration.profile.ID,
 _experience.journeyOrchestration.journey.versionID,
@@ -1175,29 +1021,175 @@ _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard
 
 +++
 
+## 참여 가능한 프로필에 대한 쿼리 {#engageable-profiles-queries}
+
+이러한 쿼리는 참여 가능한 프로필 수를 모니터링하고 분석하는 데 도움이 됩니다. 참여 가능 프로필은 지난 12개월 동안 여정 또는 캠페인을 통해 참여했던 고유한 프로필입니다. [참여 가능한 프로필 및 라이선스 사용](../audience/license-usage.md#what-is-engageable-profile)에 대해 자세히 알아보세요.
+
+>[!IMPORTANT]
+>
+>**참여 가능한 프로필 쿼리 모범 사례:**
+>* 집계되지 않는 각 필드가 `GROUP BY` 절에 포함되어 있는지 확인합니다.
+>* 샌드박스에 존재하지 않는 데이터 세트를 참조하지 마십시오. Platform UI에서 데이터 세트 이름 확인
+>* ID 네임스페이스 전체에서 중복을 방지하려면 고유 프로필을 계산할 때 `distinct`을(를) 사용합니다.
+>* `LIMIT`을(를) 사용하는 경우 `ORDER BY` 절 뒤에 쿼리의 끝에 배치하십시오.
+
++++특정 여정에 연결된 고유 프로필 수
+
+이 쿼리는 특정 여정에 의해 처리된 고유 프로필 수를 반환하며, 이는 참여 가능한 프로필 수에 기여합니다.
+
+```sql
+SELECT count(distinct _experience.journeyOrchestration.stepEvents.profileID) AS ENGAGED_PROFILES
+FROM journey_step_events
+WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journeyVersionID>'
+AND timestamp > (now() - interval '12' month);
+```
+
+이 쿼리는 지난 12개월 동안 특정 여정이 [참여 가능한 프로필](../audience/license-usage.md) 수에 기여한 고유 프로필 수를 이해하는 데 도움이 됩니다.
+
++++
+
++++지난 12개월 동안 여정 당 참여한 프로필 수
+
+이 쿼리는 지난 12개월 동안 조직의 각 여정이 관여한 고유한 프로필 수를 보여주며 [참여 가능한 프로필](../audience/license-usage.md) 수에 가장 많이 기여하는 여정을 식별하는 데 도움이 됩니다.
+
+```sql
+SELECT 
+    _experience.journeyOrchestration.stepEvents.journeyVersionID AS JOURNEY_VERSION_ID,
+    _experience.journeyOrchestration.stepEvents.journeyVersionName AS JOURNEY_NAME,
+    count(distinct _experience.journeyOrchestration.stepEvents.profileID) AS ENGAGED_PROFILES
+FROM journey_step_events
+WHERE timestamp > (now() - interval '12' month)
+GROUP BY 
+    _experience.journeyOrchestration.stepEvents.journeyVersionID,
+    _experience.journeyOrchestration.stepEvents.journeyVersionName
+ORDER BY ENGAGED_PROFILES DESC;
+```
+
+_샘플 출력_
+
+| 여정 버전 ID | 여정 이름 | 참여 프로필 |
+|---|---|---|
+| 67b14482-143e-4f83-9cf5-cfec0fca3d26 | Campaign v2 시작 | 125,450 |
+| a3c21b89-456d-4e21-b8f3-9a8e7c6d5432 | 제품 출시 여정 | 98,230 |
+| f9e8d7c6-b5a4-3210-9876-543210fedcba | 재참여 흐름 | 45,670 |
+
+이 출력을 통해 가장 많은 프로필에 관심을 두고 있으며 참여 가능한 여정 수에 가장 큰 영향을 주는 프로필을 식별할 수 있습니다.
+
+>[!NOTE]
+>
+>이 쿼리는 `journeyVersionID`과(와) `journeyVersionName` 모두로 그룹화됩니다. 두 필드는 쿼리에서 선택되었으므로 `GROUP BY` 절에 포함되어야 합니다. `GROUP BY` 절에서 필드를 생략하면 쿼리가 실패합니다.
+
++++
+
++++지난 30일 동안 매일 여정에 참여한 프로필 수
+
+이 쿼리는 새로 참여한 프로필의 일일 분류를 제공하여 [참여 가능한 프로필](../audience/license-usage.md) 수의 스파이크를 식별하는 데 도움이 됩니다.
+
+```sql
+SELECT 
+    DATE(timestamp) AS ENGAGEMENT_DATE,
+    count(distinct _experience.journeyOrchestration.stepEvents.profileID) AS ENGAGED_PROFILES
+FROM journey_step_events
+WHERE timestamp > (now() - interval '30' day)
+GROUP BY DATE(timestamp)
+ORDER BY ENGAGEMENT_DATE DESC;
+```
+
+_샘플 출력_
+
+| ENGAGEMENT_DATE | 참여 프로필 |
+|---|---|
+| 2024년 11월 25일 | 8,450 |
+| 2024년 11월 24일 | 7,820 |
+| 2024년 11월 23일 | 125,340 |
+| 2024년 11월 22일 | 9,230 |
+| 2024년 11월 21일 | 8,670 |
+
+이 출력을 통해 일일 트렌드를 모니터링하고 많은 수의 프로필이 참여 중인 시기를 식별할 수 있습니다. 이 예제에서 11월 23일은 일반적인 일일 참여(프로필 약 8,000개)와 비교하여 상당한 스파이크(프로필 125,340개)를 보여 줍니다. 이는 여정 또는 캠페인으로 인해 [참여 가능한 프로필](../audience/license-usage.md) 수가 증가한 이유를 파악하기 위한 조사를 보장합니다.
+
++++
+
++++최근 대규모 대상자가 참여했던 여정 식별
+
+이 쿼리는 최근 기간 동안 많은 수의 새 프로필에 참여한 여정을 식별하는 데 도움이 됩니다. 이로 인해 [참여 가능한 프로필](../audience/license-usage.md) 수가 갑자기 증가할 수 있습니다.
+
+```sql
+SELECT 
+    _experience.journeyOrchestration.stepEvents.journeyVersionID AS JOURNEY_VERSION_ID,
+    _experience.journeyOrchestration.stepEvents.journeyVersionName AS JOURNEY_NAME,
+    DATE(timestamp) AS ENGAGEMENT_DATE,
+    count(distinct _experience.journeyOrchestration.stepEvents.profileID) AS ENGAGED_PROFILES
+FROM journey_step_events
+WHERE timestamp > (now() - interval '7' day)
+AND _experience.journeyOrchestration.stepEvents.nodeType = 'start'
+GROUP BY 
+    _experience.journeyOrchestration.stepEvents.journeyVersionID,
+    _experience.journeyOrchestration.stepEvents.journeyVersionName,
+    DATE(timestamp)
+HAVING count(distinct _experience.journeyOrchestration.stepEvents.profileID) > 1000
+ORDER BY ENGAGEMENT_DATE DESC, ENGAGED_PROFILES DESC;
+```
+
+_샘플 출력_
+
+| 여정 버전 ID | 여정 이름 | ENGAGEMENT_DATE | 참여 프로필 |
+|---|---|---|---|
+| 67b14482-143e-4f83-9cf5-cfec0fca3d26 | 블랙 프라이데이 캠페인 | 2024년 11월 23일 | 125,340 |
+| a3c21b89-456d-4e21-b8f3-9a8e7c6d5432 | 제품 출시 여정 | 2024년 11월 22일 | 45,230 |
+| f9e8d7c6-b5a4-3210-9876-543210fedcba | 휴일 뉴스레터 | 2024년 11월 21일 | 32,150 |
+
+이 쿼리는 지난 7일 동안 하루에 1,000개 이상의 프로필을 사용한 여정을 필터링합니다. 큰 프로필 참여를 담당하는 특정 여정 및 날짜가 출력됩니다. 필요에 따라 `HAVING` 절 임계값을 조정합니다(예: 더 큰 임계값의 경우 `> 1000`을(를) `> 10000`(으)로 변경).
+
++++
+
++++지난 12개월 동안 모든 여정에 연결된 총 고유 프로필
+
+이 쿼리는 지난 12개월 동안 모든 여정에서 연결된 고유한 프로필 수를 제공하며, 여정 기반 연결에 대한 개요를 제공합니다.
+
+```sql
+SELECT count(distinct _experience.journeyOrchestration.stepEvents.profileID) AS TOTAL_ENGAGED_PROFILES
+FROM journey_step_events
+WHERE timestamp > (now() - interval '12' month);
+```
+
+_샘플 출력_
+
+| 총 참여 프로필 수 |
+|---|
+| 2,547,890 |
+
+이 단일 숫자는 지난 12개월 동안 최소 한 명의 여정이 관여한 총 고유 프로필 수를 나타냅니다.
+
+>[!NOTE]
+>
+>이 쿼리는 여정 단계 이벤트 데이터 세트에서 고유한 프로필 ID를 계산합니다. [라이선스 사용 대시보드](../audience/license-usage.md)에 표시된 실제 참여 가능 프로필 수는 여정 이외의 캠페인 및 기타 Journey Optimizer 기능을 통해 참여한 프로필도 포함하므로 약간 다를 수 있습니다.
+
++++
+
 ## 일반적인 여정 기반 쿼리 {#journey-based-queries}
 
 +++일별 활성 여정 수
 
 이 쿼리는 활동이 있는 고유한 여정 버전의 일별 수를 반환하므로 시간에 따른 여정 실행 패턴을 이해하는 데 도움이 됩니다.
 
-_데이터 레이크 쿼리_
-
 ```sql
-SELECT DATE(timestamp), count(distinct _experience.journeyOrchestration.stepEvents.journeyVersionID) FROM journey_step_events
+SELECT DATE(timestamp) AS ACTIVITY_DATE, 
+       count(distinct _experience.journeyOrchestration.stepEvents.journeyVersionID) AS ACTIVE_JOURNEYS
+FROM journey_step_events
 WHERE DATE(timestamp) > (now() - interval '<last x days>' day)
 GROUP BY DATE(timestamp)
-ORDER BY DATE(timestamp) desc
+ORDER BY DATE(timestamp) DESC;
 ```
 
-_예_
+_샘플 출력_
 
-```sql
-SELECT DATE(timestamp), count(distinct _experience.journeyOrchestration.stepEvents.journeyVersionID) FROM journey_step_events
-WHERE DATE(timestamp) > (now() - interval '100' day)
-GROUP BY DATE(timestamp)
-ORDER BY DATE(timestamp) desc
-```
+| ACTIVITY_DATE | 활성 여정 |
+|---|---|
+| 2024년 11월 25일 | 12 |
+| 2024년 11월 24일 | 15 |
+| 2024년 11월 23일 | 14 |
+| 2024년 11월 22일 | 11 |
+| 2024년 11월 21일 | 13 |
 
 쿼리는 정의된 기간 동안 매일 트리거된 고유한 여정 수를 반환합니다. 여러 날에 트리거되는 단일 여정은 하루에 한 번 계산됩니다.
 

@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 4e90aa9a71ab8999d4ac03eac50aad93af48302c
+source-git-commit: 4a15ee3ac4805880ce80f788e4619b501afb3d8b
 workflow-type: tm+mt
-source-wordcount: '3908'
-ht-degree: 92%
+source-wordcount: '3977'
+ht-degree: 91%
 
 ---
 
@@ -97,6 +97,10 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 * Adobe Journey Optimizer에서 콘텐츠 카드를 올바르게 표시하려면 [이 페이지](../content-card/content-card-configuration-prereq.md)에 나열된 Adobe Experience Platform 설정을 구성해야 합니다.
 
 * Journey Optimizer가 지원하는 인바운드 요청의 최대 볼륨은 초당 5,000개입니다. 이 가드레일은 Journey Optimizer에서 지원하는 인바운드 채널([웹](../web/get-started-web.md), [인앱](../in-app/get-started-in-app.md), [코드 기반 경험](../code-based/get-started-code-based.md), [콘텐츠 카드](../../rp_landing_pages/content-card-landing-page.md))에서 발생할 수 있는 모든 인바운드 요청에 적용됩니다.
+
+  Journey Optimizer 인바운드 채널은 다른 채널에서 이전에 참여하지 않은 새 프로필을 타기팅합니다. 이렇게 하면 총 [참여 가능한 프로필](../audience/license-usage.md) 수가 증가하므로 구입한 계약 참여 가능한 프로필 수를 초과하면 비용이 발생할 수 있습니다.
+
+  각 패키지에 대한 라이선스 지표는 [Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} 페이지에 나와 있습니다. [라이선스 사용 대시보드](../audience/license-usage.md)에서 참여 가능한 프로필 수를 확인할 수 있습니다.
 
 * Journey Optimizer는 언제든지 최대 500개의 활성 인바운드 액션을 지원합니다. 이 인바운드 액션은 라이브 캠페인의 일부이거나 라이브 여정에 사용되는 노드인 경우 계산됩니다. 이 수에 도달하면 새 캠페인을 시작하기 전에 인바운드 액션을 사용하는 이전 캠페인이나 여정을 비활성화해야 합니다.
 
