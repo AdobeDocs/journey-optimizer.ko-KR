@@ -5,7 +5,7 @@ title: 월별 설명서 업데이트 보고서
 description: 새 설명서 페이지 및 업데이트된 설명서 페이지 목록
 hide: true
 hidefromtoc: true
-source-git-commit: f4eb982ba0840acfe336e759fcbf9cfd47b3b98c
+source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
 workflow-type: tm+mt
 source-wordcount: '1293'
 ht-degree: 0%
@@ -169,7 +169,7 @@ ht-degree: 0%
 - [작업 캠페인 만들기](help/using/campaigns/create-campaign.md) - 10월 29일
 - [캠페인 시작](help/using/campaigns/get-started-with-campaigns.md) - 10월 29일
 - [캠페인 액세스 및 관리](help/using/campaigns/manage-campaigns.md) - 10월 23일
-- [방해 금지 시간](help/using/campaigns/quiet-hours.md) - 10월 31일
+- [방해 금지 시간](help/using/conflict-prioritization/quiet-hours.md) - 10월 31일
 - [캠페인 검토 및 활성화](help/using/campaigns/trigger-campaigns.md) - 10월 23일
 - [다음 위치에서 통신 채널 시작 [!DNL Adobe Journey Optimizer]](help/using/channels/gs-channels.md) - 11월 3일
 - [외부 시스템과 Journey Optimizer 통합](help/using/configuration/external-systems.md) - 10월 28일
