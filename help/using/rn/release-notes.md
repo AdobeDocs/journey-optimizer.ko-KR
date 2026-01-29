@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c301785d95b9701830fde7f9812ef7dff9ba1a60
+source-git-commit: 50dbebcd16631f5df624c962af1a84da0846f53d
 workflow-type: tm+mt
-source-wordcount: '1828'
-ht-degree: 21%
+source-wordcount: '1849'
+ht-degree: 22%
 
 ---
 
@@ -29,13 +29,13 @@ ht-degree: 21%
 
 ## 2026년 1월 릴리스 정보 {#latest-rn}
 
-**릴리스 날짜**: 2026년 1월 27~28일
+<!--**Release date**: January 27-28, 2026-->
 
 [기능](#jan-26-01-features) 및 [개선 사항](#jan-26-01-improv) 섹션은 이미 사용 가능한 기능을 다루고 [곧](#jan-26-01-coming-soon)은(는) 나중에 사용 가능한 날짜에 예약된 항목을 나열합니다.
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 새로운 기능 {#jan-26-01-features}
 
@@ -58,6 +58,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <p>이 기능은 메시지 내보내기 추가 기능 서비스를 구입한 조직의 이메일 및 SMS 채널에만 사용할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.</p>
 <p><img src="assets/do-not-localize/message-export.gif"/></p>
 <p>자세한 내용은 <a href="../configuration/message-export.md#message-export">세부 설명서</a>를 참조하십시오.</p>
+<p>가용성 일자: 2026년 1월 28일 목요일</p>
 </td>
 </tr>
 </tbody>
@@ -76,6 +77,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <p><img src="assets/do-not-localize/web-push.gif"/></p>
 <p>이전에 Beta로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
 <p>자세한 내용은 <a href="../push/push-configuration-web.md">세부 설명서</a>를 참조하십시오.</p>
+<p>가용성 일자: 2026년 1월 28일 목요일</p>
 </td>
 </tr>
 </tbody>
@@ -93,6 +95,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <p>이제 오케스트레이션된 캠페인에서 DM 채널을 사용할 수 있습니다. <strong>DM 활동</strong>을 사용하면 오케스트레이션된 캠페인 내에서 일회성 메시지와 반복 메시지 모두에 대해 DM을 쉽게 보낼 수 있습니다. DM 공급자가 요구하는 <strong>추출 파일</strong>을(를) 생성하는 프로세스를 자동화하는 역할을 합니다. 채널 활동을 오케스트레이션된 캠페인 캔버스에 결합하여 고객 행동 및 데이터에 따라 액션을 트리거할 수 있는 크로스 채널 캠페인을 만들 수 있습니다.</p>
 <p><img src="assets/do-not-localize/dm-oc.gif"/></p>
 <p>자세한 내용은 <a href="../orchestrated/activities/channels.md#channel">세부 설명서</a>를 참조하십시오.</p>
+<p>가용성 일자: 2026년 1월 28일 목요일</p>
 </td>
 </tr>
 </tbody>
@@ -155,7 +158,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### AI
 
-* **AI 길잡이 콘텐츠 품질 검사** - 이제 브랜드 정렬 외에도 브랜드 지침과 관계없이 전체 <strong>콘텐츠 품질</strong>을 평가하여 <strong>가독성</strong>, 응집성 및 효과성의 잠재적 문제를 확인할 수 있습니다. 이러한 자동화된 검사는 명확하지 않은 메시지, 일관되지 않은 말투 또는 구조적 차이를 식별하는 데 도움이 됩니다. [자세한 내용](../content-management/brands-score.md#validate-quality). [비디오에서 이 기능을 살펴보세요](https://video.tv.adobe.com/v/3470553/?captions=kor&learn=on).
+* **AI 길잡이 콘텐츠 품질 검사** - 이제 브랜드 정렬 외에도 브랜드 지침과 관계없이 전체 <strong>콘텐츠 품질</strong>을 평가하여 <strong>가독성</strong>, 응집성 및 효과성의 잠재적 문제를 확인할 수 있습니다. 이러한 자동화된 검사는 명확하지 않은 메시지, 일관되지 않은 말투 또는 구조적 차이를 식별하는 데 도움이 됩니다. [자세한 내용](../content-management/brands-score.md#validate-quality). [비디오에서 이 기능을 살펴보세요](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### 경험 의사 결정
 
@@ -163,9 +166,16 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **기본 및 Adobe Campaign 메시지 동작 결합** - 이제 Journey Optimizer을 사용하여 <strong>Adobe Campaign v7/v8</strong> 메시지 동작을 동일한 여정의 <strong>기본 채널 동작</strong>과 결합할 수 있습니다. [자세히 보기](../building-journeys/using-adobe-campaign-v7-v8.md)
 
+  사용 가능한 날짜: 2026년 1월 27일
+
 * **사용자 지정 작업 오류 응답 페이로드** - 이제 사용자 지정 작업에 대해 선택적 <strong>오류 응답 페이로드</strong>를 정의할 수 있습니다. 호출이 실패하면 오류 페이로드가 여정 컨텍스트(작업의 errorResponse 노드 아래)에 노출되며 <strong>과(와) 함께 </strong>시간 초과/오류 분기`jo_status_code`에서 사용할 수 있으므로 더 풍부한 대체 논리 및 디버깅을 지원할 수 있습니다. [자세히 보기](../action/action-response.md)
 
+  사용 가능한 날짜: 2026년 1월 27일
+
 * **여정의 여정 페이로드 크기 확인** - Journey Optimizer이 이제 <strong>페이로드 크기</strong>를 확인하여 최적의 성능과 시스템 안정성을 보장합니다. 여정을 작성하거나 게시할 때 페이로드 크기가 권장 한도에 근접하거나 초과하는 경우 명확한 <strong>경고 및 오류</strong>와 함께, 여정 구성을 최적화하는 실행 가능한 지침을 받게 됩니다. 이 사전 유효성 검사는 잠재적 문제를 조기에 식별하고 여정 성능을 유지하는 데 도움이 됩니다. [자세히 보기](../start/guardrails.md#journey-payload-size)
+
+  사용 가능한 날짜: 2026년 1월 27일
+
 
 * **여정 경고** - 새 <strong>사전 구성된 경고</strong>를 여정에 사용할 수 있습니다.
    * <strong>프로필 삭제 비율 초과</strong> - 지난 5분 동안 입력한 프로필에 대한 프로필 삭제 비율 임계값 초과
@@ -194,15 +204,21 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **사용자 생성 메타데이터 지원** - 이제 오케스트레이션된 캠페인용 개인화 편집기에서 <strong>executionMetadata 도우미 함수</strong>를 사용할 수 있으므로 컨텍스트 정보를 기본 작업에 첨부하고 데이터 집합에 저장하여 외부 시스템으로 내보낼 수 있습니다. [자세히 보기](../personalization/functions/helpers.md#execution-metadata)
 
+  사용 가능한 날짜: 2026년 1월 27일
+
 #### 캠페인
 
 * **프로필 시간대를 사용하여 캠페인 예약** - 이제 Campaign 예약에서 각 프로필의 <strong>시간대</strong>를 사용하여 원하는 현지 시간에 메시지를 배달할 수 있습니다. [자세히 보기](../campaigns/campaign-schedule.md)
 
   **참고**: 이 개선 사항은 조직 집합(제한된 가용성)에서만 사용할 수 있습니다.
 
+  사용 가능한 날짜: 2026년 1월 27일
+
 #### 권한
 
 * **여정 및 캠페인에 대한 자체 승인 방지** - <strong>승인 정책</strong>을 만들거나 설정할 때 여정 또는 캠페인 작성자가 <strong>자신의 개체를 승인</strong>하지 못하도록 옵션을 추가했습니다. [자세히 보기](../test-approve/approval-policies.md)
+
+  사용 가능한 날짜: 2026년 1월 27일
 
 ## 곧 출시 예정 {#jan-26-01-coming-soon}
 
@@ -220,7 +236,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>이전에 캠페인으로 제한되었던 <strong>DM</strong> 채널을 이제 여정 캔버스에서 사용할 수 있으므로 DM을 여정에 통합할 수 있습니다. 이제 파일 추출 구성 및 시간 기반 빈도 설정을 지원하여 <strong>일괄 처리 및 1:1 여정 시나리오</strong>에서 DM을 사용할 수 있습니다.</p>
-<p>이전에 제한된 가용성으로 릴리스된 이 기능은 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
+<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
 <p>가용성 일자: 2026년 1월 28일 목요일</p>
 </td>
 </tr>
@@ -336,7 +352,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **SMS Webhooks** - <strong>Webhooks</strong>이(가) 이제 모든 SMS 공급자에서 지원됩니다. 각 웹후크의 의도된 목적, 수신 메시지를 캡처하기 위한 인바운드 웹후크 및 게재 확인, 상태 업데이트 및 기타 메시지 관련 이벤트를 수신하기 위한 피드백 웹후크를 구성할 수 있습니다.
 
-  사용 가능한 날짜: 2026년 1월 29일
+  사용 가능한 날짜: 2026년 1월 30일
 
 * **의사 결정 항목에 조각 첨부** - 이제 Journey Optimizer에서 의사 결정 정책을 통해 코드 기반 경험 캠페인에서 활용할 수 있는 <strong>의사 결정 항목</strong>에 <strong>조각</strong>을(를) 첨부할 수 있는 기능을 제공합니다.
 
