@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 여정, 메시지, 푸시, sms, 이메일, 인앱, 웹, 콘텐츠 카드, 코드 기반 경험
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 17%
+source-wordcount: '576'
+ht-degree: 12%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"
 >title="기본 제공 채널 액션"
->abstract="Journey Optimizer는 채널 액션 기능을 기본 제공합니다. 여정에 메시지(이메일, 문자 메시지(SMS/MMS), 푸시) 또는 인바운드 경험(인앱, 웹, 코드 기반 경험, 콘텐츠 카드) 활동을 간단히 추가하고 설정과 콘텐츠를 정의할 수 있습니다. 그런 다음 여정의 맥락에서 자동으로 실행되고 전송됩니다."
+>abstract="Journey Optimizer는 채널 액션 기능을 기본 제공합니다. 메시지(이메일, 문자 메시지(SMS/MMS), 푸시, DM) 또는 인바운드 경험(인앱, 웹, 코드 기반 경험, 콘텐츠 카드) 활동을 여정에 추가하고 설정 및 콘텐츠를 정의할 수 있습니다. 그런 다음 여정의 맥락에서 자동으로 실행되고 전송됩니다."
 
 [!DNL Journey Optimizer]에는 메시지를 보내는 데 사용되는 기본 제공 채널 작업 기능이 포함되어 있습니다. 프로필이 이 활동에 들어가면 메시지를 보냅니다.
 
@@ -75,6 +75,15 @@ ht-degree: 17%
       </a>
       <div>
       <a href="../sms/create-sms.md"><strong>문자 메시지(SMS/MMS) 만들기</strong></a>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../direct-mail/create-direct-mail.md">
+      <img alt="유효성 검사" src="../assets/do-not-localize/direct-mail.jpg">
+      </a>
+      <div>
+      <a href="../direct-mail/create-direct-mail.md"><strong>다이렉트 메일 메시지 만들기</strong></a>
       </div>
       <p>
       </td>

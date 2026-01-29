@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 다이렉트 메일, 메시지, 캠페인
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
-source-git-commit: 266bf3afde663b17aedce5fb51e7c5f424fee9ad
+source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 94%
+source-wordcount: '324'
+ht-degree: 76%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 94%
 
 다이렉트 메일은 서드파티 다이렉트 메일 공급자가 고객에게 메일을 보내는 데 필요한 추출 파일을 개인화하고 생성할 수 있는 오프라인 채널입니다.
 
-다이렉트 메일 캠페인을 만들 때 Journey Optimizer는 대상 프로필과 선택한 데이터(예: 우편 주소 및 프로필 속성)가 포함된 파일을 자동으로 생성합니다. 이 파일은 선택한 서드파티 다이렉트 메일 공급자가 액세스할 수 있도록 선택한 서버로 전송되며, 이 공급자가 실제 메일링 프로세스를 처리합니다.
+DM 캠페인이나 여정을 만들 때 Journey Optimizer은 타겟팅된 모든 프로필과 선택한 데이터(예: 우편 주소 및 프로필 속성)가 포함된 파일을 자동으로 생성합니다. 이 파일은 선택한 서드파티 다이렉트 메일 공급자가 액세스할 수 있도록 선택한 서버로 전송되며, 이 공급자가 실제 메일링 프로세스를 처리합니다.
 
 사용자는 선택한 서드파티 다이렉트 메일 공급자와 협력하여 고객이 사용자의 메일을 받는 데 필요한 동의(해당하는 경우)를 고객으로부터 받아야 합니다.
 
@@ -30,7 +30,7 @@ ht-degree: 94%
 
 >[!AVAILABILITY]
 >
->DM 메시지는 예약되고 조정된 캠페인의 컨텍스트에서만 만들 수 있습니다. API 트리거 캠페인 또는 여정에서는 사용할 수 없습니다.
+>다이렉트 메일 메시지는 여정 및 예약된 캠페인의 컨텍스트에서만 작성할 수 있습니다. 오케스트레이션된 API 트리거 캠페인에서는 사용할 수 없습니다.
 
 ![](../rn/assets/do-not-localize/gif-dm.gif)
 
@@ -41,4 +41,8 @@ ht-degree: 94%
 * **[다이렉트 메일 테스트 및 보내기](test-send-direct-mail.md)** - 다이렉트 메일 게재의 테스트, 유효성 검사, 게시 방법을 알아봅니다.
 * **[다이렉트 메일 튜토리얼](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}** - 다이렉트 메일 기능 및 모범 사례에 대한 단계별 비디오 튜토리얼을 살펴봅니다.
 
+## 사용 방법 비디오
 
+Adobe Journey Optimizer의 DM 채널을 활용하여 여정 내에서 DM 게재를 자동화하고 예약하는 방법을 알아봅니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3479162?quality=12)

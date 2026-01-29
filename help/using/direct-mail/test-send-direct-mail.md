@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
-source-git-commit: c314d2e7a48f8eab1f32950e0e4e9056d11fd58b
+source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 7%
+source-wordcount: '457'
+ht-degree: 8%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 7%
 >
 > 캠페인이 승인 정책의 적용을 받는 경우 DM 캠페인을 보내려면 승인을 요청해야 합니다. [자세히 알아보기](../test-approve/gs-approval.md)
 
-DM 캠페인을 활성화하기 전에 캠페인과 추출 파일이 제대로 구성되어 있는지 확인하십시오. 이렇게 하려면 편집기의 위쪽 섹션에서 경고를 확인하십시오. 일부는 간단한 경고이지만 일부는 메시지를 보내지 못하게 할 수 있습니다. 경고와 오류의 두 가지 경고 유형이 발생할 수 있습니다.
+DM 캠페인을 활성화하기 전에 캠페인이나 여정 및 추출 파일이 제대로 구성되어 있는지 확인하십시오. 이렇게 하려면 편집기의 위쪽 섹션에서 경고를 확인하십시오. 일부는 간단한 경고이지만 일부는 메시지를 보내지 못하게 할 수 있습니다. 경고와 오류의 두 가지 경고 유형이 발생할 수 있습니다.
 
 * **경고**&#x200B;는 권장 사항과 모범 사례를 참조합니다. 예를 들어 SMS 메시지가 비어 있는 경우 경고 메시지가 표시됩니다.
 
@@ -42,14 +42,15 @@ DM 캠페인을 활성화하기 전에 캠페인과 추출 파일이 제대로 �
 
 ![](assets/direct-mail-review.png){width="800" align="center"}
 
-DM 캠페인이 준비되면 **[!UICONTROL 활성화]** 단추를 클릭하세요. 캠페인이 시작되면 추출 파일이 자동으로 생성되고 [파일 라우팅 구성](../direct-mail/direct-mail-configuration.md)에 지정된 서버로 내보내집니다.
+DM 캠페인이 준비되면 [여정](../building-journeys/journey-gs.md) 또는 [캠페인](../campaigns/create-campaign.md)의 구성을 완료하여 전송하세요.
 
 >[!NOTE]
 >
 >기본적으로 내보낸 파일은 새 줄로 끝납니다. 이렇게 하면 표준 데이터 처리 도구와의 호환성을 유지할 수 있습니다.
 
-
-DM을 전송하면 캠페인 보고서 내에서 DM 캠페인의 영향을 측정할 수 있습니다. DM 보고에 대한 자세한 내용은 [이 섹션](../reports/campaign-global-report-cja-direct.md)을 참조하세요.
+전송되면 보고서 내에서 DM 캠페인이나 여정의 영향을 측정할 수 있습니다. DM 보고에 대한 자세한 내용은 다음 섹션을 참조하십시오.
+* [다이렉트 메일 캠페인 보고서](../reports/campaign-global-report-cja-direct.md)
+* [다이렉트 메일 여정 보고서](../reports/journey-global-report-cja-direct.md)
 
 ## DM에 대한 동의 관리 {#dm-consent-management}
 

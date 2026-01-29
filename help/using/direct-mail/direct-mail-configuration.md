@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: b85210a46c928389db985f0f794618209773c071
+source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
 workflow-type: tm+mt
-source-wordcount: '1648'
-ht-degree: 18%
+source-wordcount: '1708'
+ht-degree: 21%
 
 ---
 
@@ -60,6 +60,11 @@ ht-degree: 18%
 >id="ajo_dm_file_routing_aws_region"
 >title="AWS 지역 선택"
 >abstract="DM 파일을 내보내려는 AWS 서버가 있는 지역을 선택합니다. 일반적으로 DM 공급자 위치와 가장 가까운 지역을 선택하는 것이 좋습니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_dm_file_routing_frequency"
+>title="AWS 지역 선택"
+>abstract="파일 라우팅 구성이 여정을 사용하여 전송되는 경우, 파일이 서버로 전송되는 빈도를 지정할 수 있습니다."
 
 >[!NOTE]
 >
@@ -149,11 +154,15 @@ DM 공급자가 메일을 전달하기 위해 해당 파일에 액세스하고 �
 
 ![](assets/file-routing-config-dlz-detail.png)
 
-[!DNL Adobe Experience Platform]의 모든 고객에게 샌드박스당 하나의 데이터 랜딩 영역 컨테이너가 제공됩니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}에서 데이터 랜딩 영역에 대해 자세히 알아보세요.
+[!DNL Adobe Experience Platform]의 모든 고객에게 샌드박스당 하나의 데이터 랜딩 영역 컨테이너가 제공됩니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}에서 데이터 랜딩 영역에 대해 자세히 알아보세요.
 
 >[!ENDTABS]
 
 파일을 암호화하려면 **[!UICONTROL PGP/GPG 암호화 키]** 필드에 암호화 키를 복사하여 붙여 넣으십시오.
+
+파일 라우팅 구성이 여정을 사용하여 전송되는 경우, 파일이 서버로 전송되는 빈도를 지정할 수 있습니다.
+
+![](assets/file-routing-journey.png)
 
 서버 유형에 대한 세부 정보를 입력한 후 **[!UICONTROL 제출]**&#x200B;을 선택합니다. 파일 라우팅 구성이 **[!UICONTROL 활성]** 상태로 만들어졌습니다. 이제 [DM 구성](#direct-mail-surface)에서 사용할 준비가 되었습니다.
 
@@ -185,7 +194,7 @@ SSH 키 인증과 함께 SFTP를 사용하는 경우 Base64로 인코딩된 Open
 >
 >Base64 인코딩 후 키에는 더 이상 `-----BEGIN/END RSA PRIVATE KEY-----` 마커가 포함되지 않으며 줄 바꿈을 포함하지 않아야 합니다. 해당 공개 키를 SFTP 서버의 승인된 키 파일에 추가해야 합니다.
 
-SFTP 계정을 Experience Platform에 연결하는 방법에 대한 자세한 내용은 [이 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/cloud-storage/sftp)를 참조하세요.
+SFTP 계정을 Experience Platform에 연결하는 방법에 대한 자세한 내용은 [이 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/sftp)를 참조하세요.
 
 +++
 
