@@ -10,10 +10,10 @@ mini-toc-levels: 1
 level: Beginner
 keywords: 캠페인, 상태, 일정, 액세스, 최적화 도구 관리
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 5623511099f7b09fa95bccb411776bc4416637fd
+source-git-commit: 478bd6df8a82c9e37ec9319dedb27d99c021ee99
 workflow-type: tm+mt
-source-wordcount: '1612'
-ht-degree: 9%
+source-wordcount: '1682'
+ht-degree: 8%
 
 ---
 
@@ -81,7 +81,7 @@ API 트리거 캠페인 목록에 액세스하려면 **[!UICONTROL API 트리거
 
 ## 캠페인 작업 {#operations}
 
-캠페인 인벤토리의 추가 작업 단추![&#x200B; 단추를 표시하는 &#x200B;](assets/do-not-localize/rule-builder-icon-more.svg)이미지를 사용하면 다양한 작업을 수행할 수 있습니다.
+캠페인 인벤토리의 추가 작업 단추![ 단추를 표시하는 ](assets/do-not-localize/rule-builder-icon-more.svg)이미지를 사용하면 다양한 작업을 수행할 수 있습니다.
 
 ![캠페인 인벤토리를 표시하는 이미지](assets/inventory-actions.png)
 
@@ -100,6 +100,10 @@ API 트리거 캠페인 목록에 액세스하려면 **[!UICONTROL API 트리거
 * **[!UICONTROL 패키지에 추가]** - 다른 샌드박스로 내보내려면 패키지에 캠페인을 추가하십시오. [개체를 내보내는 방법에 대해 알아봅니다→](../configuration/copy-objects-to-sandbox.md)
 * **[!UICONTROL 초안 버전 열기]** - 캠페인의 새 버전이 만들어지고 아직 활성화되지 않은 경우 이 작업을 사용하여 해당 초안 버전에 액세스할 수 있습니다.
 
+**오케스트레이션된 캠페인에만 해당:**
+
+* **[!UICONTROL 초안으로 돌아가기]** - 게시를 취소하고 오류 복구를 위해 캠페인을 초안 상태로 되돌립니다. 이 작업은 예약된 캠페인이 아직 시작되지 않았거나 라이브 캠페인에 실행이 완료되기 전에 오류가 발생하는 경우 사용할 수 있습니다. [캠페인 되돌리기→ 대한 자세한 정보](../orchestrated/start-monitor-campaigns.md#back-to-draft)
+
 ## 캠페인 상태 이해 {#statuses}
 
 각 캠페인은 인터페이스의 상태가 반영하는 라이프사이클을 통해 이동합니다. 이러한 상태를 이해하면 사용 가능한 작업과 다음 작업을 이해하는 데 도움이 됩니다.
@@ -108,7 +112,7 @@ API 트리거 캠페인 목록에 액세스하려면 **[!UICONTROL API 트리거
 |--------|:----------------:|:-----------------------:|:----------------------:|---------------|--------------|
 | **[!UICONTROL 초안]** | ✅ | ✅ | ✅ | 편집 중, 활성화되지 않음 | 편집을 계속하거나 [캠페인을 활성화](review-activate-campaign.md) |
 | **[!UICONTROL 예약됨]** | ✅ | ✅ | ✅ | 특정 시작 날짜에 대해 구성됨 | 시작 대기, 필요한 경우 [수정](#modify) 또는 [일정에서 보기](#calendar) |
-| **[!UICONTROL 라이브]** | ✅ | ✅ | ✅ | 활성화 및 실행 중 | 필요한 경우 [성능 모니터링](../reports/campaign-global-report-cja.md), [새 버전 만들기](#modify) |
+| **[!UICONTROL 라이브]** | ✅ | ✅ | ✅ | 활성화 및 실행 중 | 필요한 경우 [성능 모니터링](../reports/campaign-global-report-cja.md), [새 버전 만들기](#modify). 오케스트레이션된 캠페인의 경우: [아직 시작되지 않은 예약된 캠페인 또는 메시지를 보내기 전 실행 오류가 발생한 캠페인에 대해 초안으로 되돌리기](../orchestrated/start-monitor-campaigns.md#back-to-draft) |
 | **[!UICONTROL 검토 중]** | ✅ | ✅ | — | 승인을 위해 제출됨 | [승인](../test-approve/gs-approval.md) 대기 또는 수정 |
 | **[!UICONTROL 중지됨]** | ✅ | ✅ | ✅ | 수동으로 중지됨, 다시 활성화할 수 없음 | [재사용할 복제](#duplicate-a-campaign) |
 | **[!UICONTROL 완료]** | ✅ | ✅ | ✅ | 실행 완료(활성화 3일 후 또는 자동할당 종료일에 반복) | [보고서 보기](../reports/campaign-global-report-cja.md), [보관](#archive-a-campaign) 또는 [중복](#duplicate-a-campaign) |
@@ -239,7 +243,7 @@ API 트리거 캠페인 목록에 액세스하려면 **[!UICONTROL API 트리거
 
 ## 캠페인 삭제 {#delete-a-campaign}
 
-캠페인을 삭제하려면 추가 작업 단추![&#x200B; 단추를 표시하는 줄임표 &#x200B;](assets/do-not-localize/rule-builder-icon-more.svg)이미지를 사용하고 **[!UICONTROL 삭제]**&#x200B;를 선택하십시오.
+캠페인을 삭제하려면 추가 작업 단추![ 단추를 표시하는 줄임표 ](assets/do-not-localize/rule-builder-icon-more.svg)이미지를 사용하고 **[!UICONTROL 삭제]**&#x200B;를 선택하십시오.
 
 ![](assets/delete-a-campaign.png){width="70%" align="left"}
 
@@ -249,7 +253,7 @@ API 트리거 캠페인 목록에 액세스하려면 **[!UICONTROL API 트리거
 
 ## 캠페인 복제 {#duplicate-a-campaign}
 
-캠페인을 복제하려면, 예를 들어 중단된 경우 추가 작업 단추![&#x200B; 단추를 표시하는 줄임표 &#x200B;](assets/do-not-localize/rule-builder-icon-more.svg)이미지를 사용하고 **[!UICONTROL 복제]**&#x200B;를 선택하십시오.
+캠페인을 복제하려면, 예를 들어 중단된 경우 추가 작업 단추![ 단추를 표시하는 줄임표 ](assets/do-not-localize/rule-builder-icon-more.svg)이미지를 사용하고 **[!UICONTROL 복제]**&#x200B;를 선택하십시오.
 
 캠페인 이름을 입력하고 확인합니다.
 

@@ -5,9 +5,9 @@ title: 오케스트레이션된 캠페인 FAQ
 description: Journey Optimizer 오케스트레이션 캠페인에 대한 FAQ
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 266bf3afde663b17aedce5fb51e7c5f424fee9ad
+source-git-commit: 478bd6df8a82c9e37ec9319dedb27d99c021ee99
 workflow-type: tm+mt
-source-wordcount: '1821'
+source-wordcount: '1881'
 ht-degree: 14%
 
 ---
@@ -140,6 +140,14 @@ Yes. Campaign orchestration is natively integrated with:
 * **Customer Journey Analytics**: Campaign orchestration reports are available.  
 * **Real-Time CDP**: Audiences built in Campaigns can be read in Real-Time CDP.  
 * **Federated Audience Composition (FAC)**: Available as an add-on.  -->
+
++++ 실시간 오케스트레이션된 캠페인을 초안으로 되돌릴 수 있습니까?
+
+예, 특정 상황에서 사용할 수 있습니다. **[!UICONTROL 초안으로 돌아가기]** 옵션은 캠페인을 게시 취소하고 초안 상태로 되돌리기 위한 복구 메커니즘으로 설계되었습니다.
+
+이 옵션은 실행 대기 중인 예약된 캠페인 또는 실행 오류가 있는 라이브 캠페인에 사용할 수 있습니다. [라이브 캠페인을 초안으로 되돌리는 방법을 알아보세요](start-monitor-campaigns.md#back-to-draft)
+
++++
 
 +++ 지원되는 채널은 무엇입니까?
 
