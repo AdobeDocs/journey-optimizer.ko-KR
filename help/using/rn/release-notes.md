@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6442512f29fd691d759375ad50cce2f95a42c402
+source-git-commit: 99dfadf6ac370187fd54d87f660c36662dbcb8d3
 workflow-type: tm+mt
-source-wordcount: '1816'
-ht-degree: 20%
+source-wordcount: '1709'
+ht-degree: 21%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 20%
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 새로운 기능 {#jan-26-01-features}
 
@@ -198,7 +198,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **AI 길잡이 콘텐츠 품질 검사** - 이제 브랜드 정렬 외에도 브랜드 지침과 관계없이 전체 <strong>콘텐츠 품질</strong>을 평가하여 <strong>가독성</strong>, 응집성 및 효과성의 잠재적 문제를 확인할 수 있습니다. 이러한 자동화된 검사는 명확하지 않은 메시지, 일관되지 않은 말투 또는 구조적 차이를 식별하는 데 도움이 됩니다. [자세히 보기](../content-management/brands-score.md#validate-quality).
 
-  [비디오에서 이 기능을 살펴보세요](https://video.tv.adobe.com/v/3470553/?captions=kor&learn=on).
+  [비디오에서 이 기능을 살펴보세요](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### 경험 의사 결정
 
@@ -293,23 +293,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <table>
 <thead>
 <tr>
-<th><strong>사용자 지정 작업 모니터링</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>새로운 모니터링 대시보드와 보강된 여정 단계 이벤트 데이터를 사용하여 <strong>사용자 지정 작업 끝점</strong>의 상태와 성능에 대해 더 깊이 있는 insight을 얻을 수 있습니다. 성공한 호출, 오류, 처리량, 응답 시간 및 대기열 대기 시간을 추적하여 예외 항목이 발생하는 시기, 장소 및 이유를 신속하게 파악합니다.</p>
-<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
-<p>가용성 일자: 2026년 1월 29일 금요일</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>Journey Agent 내 콘텐츠 생성</strong><br/></th>
 </tr>
 </thead>
@@ -317,7 +300,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Adobe Experience Platform Agent Orchestrator에서 제공하는 <strong>Journey Agent</strong>은(는) Journey Optimizer에서 사용할 수 있으며 자연어 인터페이스를 통해 여정을 분석할 수 있도록 합니다. 이제 Journey Agent에서 직접 <strong>콘텐츠를 생성하고 관리</strong>할 수도 있습니다. 이메일 및 푸시 등의 채널을 위한 콘텐츠를 만들고, 템플릿을 적용하고 미리 보고, 프롬프트를 통해 색조와 스타일을 개선하고, 상황에 맞는 편집을 위해 Content Designer에서 콘텐츠를 열 수도 있습니다.</p>
-<p>가용성 일자: 2026년 2월 2일 화요일</p>
+<p>가용성 일자: 2026년 2월 9일 화요일</p>
 </td>
 </tr>
 </tbody>
@@ -333,7 +316,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>이제 <strong>의사 결정</strong>을 통해 <strong>푸시 및 SMS</strong> 메시지의 콘텐츠를 개인화하고 최적화할 수 있습니다. 우선 순위 점수, 공식 또는 AI 모델을 사용하여 고객에게 최상의 콘텐츠를 표시합니다.</p>
-<p>가용성 일자: 2026년 2월 3일 수요일</p>
+<p>가용성 일자: 2026년 2월 9일 화요일</p>
 </td>
 </tr>
 </tbody>
@@ -350,7 +333,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <td>
 <p>이제 <strong>개인화된 오퍼</strong>를 고객 여정에 직접 통합하기 위해 여정 캔버스에서 새 <strong>콘텐츠 결정 활동</strong>을 사용할 수 있습니다. 이 활동을 사용하면 의사 결정 기반 콘텐츠를 제공하고 자격 기반 분기를 만들기 위한 조건, 외부 시스템에 오퍼 데이터를 전달하기 위한 사용자 지정 작업 및 완전히 개인화된 고객 경험을 구축하기 위한 기타 활동에서 여정 전체에서 이러한 오퍼를 참조할 수 있습니다.</p>
 <p>이 기능은 모든 환경에서 사용할 수 있습니다(일반 공급).</p>
-<p>가용성 일자: 2026년 2월 3일 수요일</p>
+<p>가용성 일자: 2026년 2월 9일 화요일</p>
 </td>
 </tr>
 </tbody>
@@ -358,10 +341,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 ### 개선 사항
 
-* **SMS Webhooks** - <strong>Webhooks</strong>이(가) 이제 모든 SMS 공급자에서 지원됩니다. 각 웹후크의 의도된 목적, 수신 메시지를 캡처하기 위한 인바운드 웹후크 및 게재 확인, 상태 업데이트 및 기타 메시지 관련 이벤트를 수신하기 위한 피드백 웹후크를 구성할 수 있습니다.
-
-  사용 가능한 날짜: 2026년 1월 30일
 
 * **의사 결정 항목에 조각 첨부** - 이제 Journey Optimizer에서 의사 결정 정책을 통해 코드 기반 경험 캠페인에서 활용할 수 있는 <strong>의사 결정 항목</strong>에 <strong>조각</strong>을(를) 첨부할 수 있는 기능을 제공합니다.
 
-  사용 가능한 날짜: 2026년 2월 3일
+  사용 가능한 날짜: 2026년 2월 9일
