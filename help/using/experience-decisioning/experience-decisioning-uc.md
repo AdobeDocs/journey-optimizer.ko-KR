@@ -7,9 +7,9 @@ role: User
 level: Intermediate, Experienced
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
 version: Journey Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 21de0b9616c414db204a3eafebc6a8184028a1e1
 workflow-type: tm+mt
-source-wordcount: '858'
+source-wordcount: '880'
 ht-degree: 4%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 4%
 # 콘텐츠 실험을 통한 코드 기반 경험에서 Decisioning 사용 {#experience-decisioning-uc}
 
 이 사용 사례에서는 [!DNL Journey Optimizer] 코드 기반 채널에서 Decisioning을 사용하는 데 필요한 모든 단계를 제공합니다.
+
+➡️ [비디오에서 사용 사례 검색](#video)
 
 >[!NOTE]
 >
@@ -95,11 +97,7 @@ ht-degree: 4%
 
 ## 코드 기반 경험 캠페인 구축
 
-<!--To present the best dynamic offer and experience to your visitors on your website or mobile app, add a decision policy to a code-based campaign.
-
-Define two delivery treatments each containing a different decision policy.-->
-
-두 선택 전략을 구성하고 나면 성과가 가장 좋은 전략을 비교하기 위해 각 전략에 대해 서로 다른 처리를 정의하는 코드 기반 경험 캠페인을 만듭니다.
+두 선택 전략을 구성하고 나면 성과가 가장 좋은 전략과 비교하기 위해 각 전략에 대해 서로 다른 처리를 정의하는 코드 기반 경험 캠페인을 만듭니다.
 
 1. 캠페인을 만들고 **[!UICONTROL 코드 기반 경험]** 작업을 선택하십시오. [자세히 알아보기](../code-based/create-code-based.md)
 
@@ -157,3 +155,9 @@ Define two delivery treatments each containing a different decision policy.-->
 
 * 모든 고객에게 최상의 성과 등급으로 처리를 푸시할 수 있습니다.
 * 또는 가장 성과가 좋은 순위 방법이 복제되는 선택 전략을 사용하여 새 캠페인을 만들 수 있습니다.
+
+## 사용 방법 비디오 {#video}
+
+코드 기반 환경에서 Decisioning을 사용하는 방법을 보여 주는 전체적인 연습에 대해 알아봅니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3451100/?learn=on&enablevpops)

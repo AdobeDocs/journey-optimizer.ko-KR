@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 21de0b9616c414db204a3eafebc6a8184028a1e1
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '631'
 ht-degree: 22%
 
 ---
@@ -25,11 +25,13 @@ ht-degree: 22%
 
 의사 결정 기능은 &#39;의사 결정 항목&#39;이라는 중앙 집중식 마케팅 카탈로그와 정교한 의사 결정 엔진을 제공하여 개인화를 간소화합니다. 이 엔진은 규칙과 순위 기준을 활용하여 각 개인에게 가장 관련성 높은 의사 결정 항목을 선택하고 제공합니다.
 
-이러한 결정 항목은 Journey Optimizer 캠페인 내에서 액세스할 수 있는 [새 코드 기반 경험 채널](../code-based/get-started-code-based.md)을 통해 광범위한 인바운드 표면에 원활하게 통합됩니다.
+이러한 결정 항목은 [ 캠페인 내에서 액세스할 수 있는 ](../code-based/get-started-code-based.md)코드 기반 경험 채널[!DNL Adobe Journey Optimizer]을 통해 광범위한 인바운드 표면에 원활하게 통합됩니다.
 
 >[!IMPORTANT]
 >
 >의사 결정 정책 은 코드 기반 경험 및 이메일 캠페인에서만 사용할 수 있습니다.
+
+➡️ [비디오에서 이 기능 살펴보기](#video)
 
 ➡️ 의사 결정을 만들고 코드 기반 경험 채널을 사용한 콘텐츠 실험에 사용하는 방법을 보여 주는 전체적인 사용 사례가 [이 섹션](experience-decisioning-uc.md)에 나와 있습니다.
 
@@ -45,7 +47,7 @@ Decisioning을 사용하는 주요 단계는 다음과 같습니다.
 
       ![](assets/decision_permission_1.png)
 
-   1. **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
+   1.  **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
 
       ![](assets/decision_permission_2.png)
 
@@ -55,7 +57,7 @@ Decisioning을 사용하는 주요 단계는 다음과 같습니다.
 
       ![](assets/decision_permission_3.png)
 
-   그러면 인스턴스로 리디렉션되는 이메일을 사용자가 받게 됩니다.
+   그러면 사용자가 인스턴스로 리디렉션되는 이메일을 받게 됩니다.
 
    +++
 
@@ -65,11 +67,11 @@ Decisioning을 사용하는 주요 단계는 다음과 같습니다.
 
 1. 타깃팅된 대상자에게 표시할 **결정 항목을 만듭니다**.
 
-   ➡️ [사용자 인터페이스 및 &#x200B;](items.md)API 설명서[에서 의사 결정 항목을 만드는 방법을 알아봅니다](api-reference/decisions-items/create.md)
+   ➡️ [사용자 인터페이스 및 ](items.md)API 설명서[에서 의사 결정 항목을 만드는 방법을 알아봅니다](api-reference/decisions-items/create.md)
 
 1. **컬렉션으로 구성**: 컬렉션을 사용하여 특성 기반 규칙에 따라 결정 항목을 분류합니다. 컬렉션을 선택 전략에 통합하여 고려해야 하는 결정 항목의 컬렉션을 결정합니다.
 
-   ➡️ [사용자 인터페이스 및 &#x200B;](collections.md)API 설명서[에서 항목 컬렉션을 관리하는 방법을 알아봅니다](api-reference/items-collections/create.md)
+   ➡️ [사용자 인터페이스 및 ](collections.md)API 설명서[에서 항목 컬렉션을 관리하는 방법을 알아봅니다](api-reference/items-collections/create.md)
 
 1. **의사 결정 규칙 만들기**: 의사 결정 규칙은 의사 결정 항목 및/또는 선택 전략에서 의사 결정 항목을 표시할 대상을 결정하는 데 사용됩니다.
 
@@ -81,7 +83,7 @@ Decisioning을 사용하는 주요 단계는 다음과 같습니다.
 
 1. **선택 전략 만들기**: 컬렉션, 의사 결정 규칙 및 등급 방법을 활용하여 프로필에 표시하는 데 적합한 의사 결정 항목을 식별하는 선택 전략을 만듭니다.
 
-   ➡️ [사용자 인터페이스 및 &#x200B;](selection-strategies.md)API 설명서[의 사용자 인터페이스에서 선택 전략을 만드는 방법을 알아봅니다](api-reference/selection-strategies/create.md)
+   ➡️ [사용자 인터페이스 및 ](selection-strategies.md)API 설명서[의 사용자 인터페이스에서 선택 전략을 만드는 방법을 알아봅니다](api-reference/selection-strategies/create.md)
 
 1. **의사 결정 정책을 만들어 코드 기반 또는 이메일 여정/캠페인에 포함시킵니다**: 의사 결정 정책은 여러 선택 전략을 결합하여 의도한 대상자에게 표시할 적합한 의사 결정 항목을 결정합니다.
 
@@ -98,3 +100,8 @@ Decisioning을 사용하는 주요 단계는 다음과 같습니다.
 * **[의사 결정 보호](decisioning-guardrails.md)** - 의사 결정 구현을 위한 중요한 제한 사항 및 모범 사례를 검토하십시오.
 * **[의사 결정 튜토리얼](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/decision-capabilities/decisioning/introduction-to-decisioning){target="_blank"}** - 의사 결정 기능 및 모범 사례에 대한 단계별 비디오 튜토리얼을 살펴보십시오.
 
+## 사용 방법 비디오 {#video}
+
+Adobe Journey Optimizer의 Decisioning 기능에 대해 알아봅니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)

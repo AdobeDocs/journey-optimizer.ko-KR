@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 21de0b9616c414db204a3eafebc6a8184028a1e1
 workflow-type: tm+mt
-source-wordcount: '1457'
-ht-degree: 4%
+source-wordcount: '1481'
+ht-degree: 6%
 
 ---
 
@@ -23,6 +23,8 @@ ht-degree: 4%
 이 접근 방식을 사용하면 AI 중심의 성향, 비즈니스 가치 및 실시간 컨텍스트의 조합에 따라 오퍼 순위를 동적으로 조정할 수 있으므로 마케팅 목표와 고객 요구 사항 모두에 맞게 의사 결정을 보다 쉽게 조정할 수 있습니다. AI 수식 빌더는 적용하려는 제어 양에 따라 간단한 수식 또는 고급 수식을 지원합니다.
 
 순위 수식을 만들면 [선택 전략](../selection-strategies.md)에 할당할 수 있습니다. 이 선택 전략을 사용할 때 여러 오퍼를 표시할 수 있는 경우, 의사 결정 엔진은 선택한 공식을 사용하여 먼저 게재할 오퍼를 계산합니다.
+
+➡️ [비디오에서 이 기능 살펴보기](#video)
 
 ## 순위 공식 만들기 {#create-ranking-formula}
 
@@ -93,8 +95,8 @@ To leverage data from an AEP dataset, follow the steps below.
 <!--![](../assets/ranking-formula-criteria.png){width="80%"}-->
 
 1. **[!UICONTROL 기준 1]** 섹션에서 다음을 수행하여 순위 점수를 적용할 결정 항목을 지정합니다.
-   * [결정 항목 특성](../items.md#attributes)을 선택합니다.
-   * 논리 연산자 선택,
+   * [결정 항목 특성](../items.md#attributes) 선택
+   * 논리 연산자 선택
    * 일치하는 조건 추가 - 값을 입력하거나 프로필 특성 또는 [컨텍스트 데이터](../context-data.md)를 선택할 수 있습니다.
 
    ![](../assets/ranking-formula-criterion-1.png){width="70%"}
@@ -274,3 +276,9 @@ if( offer._luma.offerDetails.zipCode = _luma.zipCode,luma.annualIncome / 1000 + 
 ```
 
 +++
+
+## 사용 방법 비디오 {#video}
+
+Adobe Journey Optimizer에서 AI 수식 작성기를 사용하여 맞춤형 오퍼 순위 전략을 만드는 방법을 알아봅니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3464446/?learn=on&enablevpops)
