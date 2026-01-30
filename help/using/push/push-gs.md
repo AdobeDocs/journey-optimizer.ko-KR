@@ -8,9 +8,9 @@ feature: Push, Overview
 role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
-source-git-commit: 5b8d26b4fbc323308b5a49672f9d30298756ccf9
+source-git-commit: 5758c9db8b1b12367126f4adb8bd1c0bac766514
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '792'
 ht-degree: 1%
 
 ---
@@ -36,6 +36,11 @@ ht-degree: 1%
 1. Apple의 APNs 및 Google FCM 푸시 메시지 서비스에 브랜드 모바일 앱(Android 또는 iOS)을 등록합니다
 1. 메시징 서비스는 [!DNL Adobe Journey Optimizer]이(가) 푸시 알림으로 특정 장치를 타깃팅하는 데 사용할 식별자인 푸시 토큰을 생성합니다.
 1. 이전에 생성된 푸시 토큰은 Adobe Experience Platform으로 전달되고 실시간 고객 프로필과 동기화됩니다. 이 작업은 쉽게 클라이언트 SDK을 통합할 수 있는 OOTB로 수행됩니다
+
+   >[!NOTE]
+   >
+   >토큰 처리는 플랫폼마다 다릅니다. **Android(FCM)**&#x200B;에서 사용자가 앱 캐시를 지우거나 앱을 다시 설치하면 토큰이 자동으로 유효하지 않은 것으로 표시되어 새 토큰과 ECID를 생성합니다. **iOS(APNs)**&#x200B;에서 토큰이 이러한 시나리오에서 일관되게 유효하지 않은 것으로 표시되지 않습니다. 프로필에 유효한 토큰이 있는 ECID가 여러 개 있는 경우 푸시 알림이 연결된 모든 장치로 전송됩니다.
+
 1. 푸시 메시지는 [!DNL Adobe Journey Optimizer]에 작성되고, 푸시 메시지는 채널 구성(예: 메시지 사전 설정)에 대해 만들어집니다.
 1. 푸시 메시지는 여정의 오케스트레이션 캔버스에 포함될 수 있습니다
 1. 여정 게시 시 여정 조건을 기반으로 하는 고객 프로필은 푸시 알림을 수신할 자격이 있으며 이 단계에서 푸시 메시지 페이로드가 개인화됩니다
@@ -56,7 +61,7 @@ ht-degree: 1%
 
 * Android 및 iOS 호환 SDK를 통해 모바일에 대한 클라이언트측 통합 API를 제공하는 **Adobe Experience Platform Mobile SDK**. SDK은 푸시 메시지에 대한 다양한 API를 노출하고 푸시 토큰을 등록하거나 푸시 추적 이벤트 또는 기타 사용자 지정 경험 이벤트를 Adobe Experience Platform에 전송하는 것과 같은 데이터 흐름을 사용하는 [!DNL Adobe Journey Optimizer] 확장을 제공합니다. SDK은 타사 파트너 기능뿐만 아니라 다른 Adobe Experience Cloud을 사용할 수 있도록 하는 기타 다양한 확장도 제공합니다.
 
-  SDK 통합에도 다음과 같은 Adobe Experience Platform [데이터 수집](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko){target="_blank"} 서비스 설정이 필요합니다.
+  SDK 통합에도 다음과 같은 Adobe Experience Platform [데이터 수집](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html){target="_blank"} 서비스 설정이 필요합니다.
 
    * 데이터 스트림을 만들어 Adobe Experience Platform으로 유입되는 데이터가 포함된 프로필 및 경험 이벤트 데이터 세트를 구성합니다.
    * 클라이언트측 모바일 속성을 만들고 확장을 추가합니다. SDK은 이러한 확장과 긴밀하게 통합되어 원활한 데이터 수집 경험을 제공합니다.
