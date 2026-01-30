@@ -8,16 +8,16 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 0706cb23bb41aff56984d7723df22c5a07bbe51d
+source-git-commit: af40716070ab28001acb6f5c02f41a0ec3ad8258
 workflow-type: tm+mt
-source-wordcount: '1883'
-ht-degree: 13%
+source-wordcount: '1772'
+ht-degree: 14%
 
 ---
 
 # 푸시 알림 디자인 {#design-push-notification}
 
-푸시 알림을 만들면 iOS, Android 및 웹 플랫폼용 콘텐츠를 디자인할 수 있습니다. 이 페이지에서는 메시지 작성, 클릭 시 동작 구성, 미디어 및 버튼 추가, 대상자에게 반향을 불러일으키는 매력적인 푸시 알림을 생성할 수 있는 고급 옵션 설정 등의 작업을 안내합니다.
+푸시 알림을 만들면 iOS 및 Android 플랫폼용 콘텐츠를 디자인할 수 있습니다. 이 페이지에서는 메시지 작성, 클릭 시 동작 구성, 미디어 및 버튼 추가, 대상자에게 반향을 불러일으키는 매력적인 푸시 알림을 생성할 수 있는 고급 옵션 설정 등의 작업을 안내합니다.
 
 ## 제목 및 본문 {#push-title-body}
 
@@ -30,7 +30,7 @@ ht-degree: 13%
 
 메시지를 작성하려면 **[!UICONTROL 제목]** 및 **[!UICONTROL 본문]** 필드를 클릭합니다. 개인화 편집기를 사용하여 콘텐츠를 정의하고, 데이터를 개인화하고, 다이내믹 콘텐츠를 추가합니다. 개인화 편집기에서 [개인화](../personalization/personalize.md) 및 [다이내믹 콘텐츠](../personalization/get-started-dynamic-content.md)에 대해 자세히 알아보세요.
 
-장치 미리 보기 섹션을 사용하여 iOS, Android 및 웹에서 푸시 알림이 표시되는 방식을 시각화합니다.
+장치 미리 보기 섹션을 사용하여 iOS 및 Android에 푸시 알림이 표시되는 방식을 시각화합니다.
 
 AI Assistant를 사용하여 콘텐츠 생성 속도를 높이고 [텍스트 생성용 AI Assistant](../content-management/generative-text.md)를 사용하여 매력적인 푸시 알림 텍스트를 생성하거나 [전체 콘텐츠 생성용 AI Assistant](../content-management/generative-full-content.md)를 사용하여 전체 푸시 알림을 생성할 수 있습니다.
 
@@ -86,7 +86,7 @@ iOS의 경우 알림 내에 표시할 이미지, 비디오 또는 GIF을 추가�
 
 다음 방법 중 하나를 사용하여 미디어를 추가할 수 있습니다.
 
-* **[!UICONTROL 미디어 추가]** 단추: **[!DNL Adobe Experience Manager Assets]**&#x200B;에서 자산을 선택하십시오. **[!DNL Adobe Experience Manager Assets]**&#x200B;이 페이지[에서 &#x200B;](../integrations/assets.md)을(를) 사용하는 방법에 대해 자세히 알아보세요.
+* **[!UICONTROL 미디어 추가]** 단추: **[!DNL Adobe Experience Manager Assets]**&#x200B;에서 자산을 선택하십시오. **[!DNL Adobe Experience Manager Assets]**&#x200B;이 페이지[에서 ](../integrations/assets.md)을(를) 사용하는 방법에 대해 자세히 알아보세요.
 
 * **[!UICONTROL 미디어 추가]** 필드: 미디어 URL을 직접 입력합니다. URL에 개인화 토큰을 포함할 수 있습니다.
 
@@ -96,13 +96,15 @@ iOS의 경우 알림 내에 표시할 이미지, 비디오 또는 GIF을 추가�
 >
 >푸시 알림 페이로드에 미디어 첨부 파일(예: `adb_media`과 같은 사용자 지정 데이터 필드의 이미지)을 포함하는 경우 모바일 애플리케이션은 장치에서 렌더링할 이미지에 대한 특정 클라이언트측 처리를 구현해야 합니다. 페이로드에서 미디어 콘텐츠를 다운로드하고 처리하려면 앱에서 [알림 서비스 확장](https://developer.apple.com/documentation/usernotifications/modifying_content_in_newly_delivered_notifications){target="_blank"}을 구현해야 합니다. 또한 **[!UICONTROL 고급 옵션]** 섹션에서 [변경 가능한 콘텐츠 플래그 추가](#advanced-options-push) 옵션을 사용하도록 설정해야 합니다.
 
->[!TAB 웹]
+<!--
+>[!TAB Web]
 
-**[!UICONTROL 미디어 추가]** 필드에 미디어 URL을 입력합니다. URL에 개인화 토큰을 포함하여 각 사용자에 대한 콘텐츠를 사용자 지정할 수도 있습니다.
+Enter the media URL in the **[!UICONTROL Add media]** field. You can also include personalization tokens in the URL to customize the content for each user.
 
-Journey Optimizer AI Assistant를 사용하여 미디어를 빠르게 생성하려면 ![AI Assistant로 텍스트 편집](assets/do-not-localize/Smock_ImageAdd_18_N.svg)을 클릭하십시오.
+Click ![Edit text with the AI assistant](assets/do-not-localize/Smock_ImageAdd_18_N.svg) to quickly generate media using the Journey Optimizer AI Assistant.
 
 ![](assets/web-media.png)
+-->
 
 >[!ENDTABS]
 
@@ -135,15 +137,17 @@ Android의 경우 최대 3개의 버튼을 추가할 수 있습니다.
 
 iOS의 경우 알림 범주 식별자가 지정됩니다. 표시할 버튼과 수행한 작업을 정의하는 iOS 앱에 알림 범주를 미리 구성해야 합니다. 자세한 내용은 [Apple 설명서](https://developer.apple.com/documentation/usernotifications/declaring_your_actionable_notification_types)를 참조하세요.
 
->[!TAB 웹]
+<!--
+>[!TAB Web]
 
 ![](assets/push_buttons-web.png)
 
-**[!UICONTROL 단추 추가]** 옵션을 사용하여 각 단추의 레이블과 관련 작업을 정의합니다. 자세한 내용은 다음과 같습니다.
+Use the **[!UICONTROL Add Button]** option to define each button's label and associated action, as detailed below:
 
-* **[!UICONTROL 딥링크]**: 앱 내의 특정 보기, 섹션 또는 탭으로 사용자를 리디렉션합니다. 관련 필드에 딥링크 URL을 입력합니다.
+* **[!UICONTROL Deeplink]**: Redirect users to a specific view, section, or tab within your app. Enter the deeplink URL in the associated field.
 
-* **[!UICONTROL 웹 URL]**: 사용자를 외부 웹 페이지로 리디렉션합니다. 관련 필드에 URL을 입력합니다.
+* **[!UICONTROL Web URL]**: Redirect users to an external webpage. Enter the URL in the associated field.
+-->
 
 >[!ENDTABS]
 
@@ -154,9 +158,11 @@ iOS의 경우 알림 범주 식별자가 지정됩니다. 표시할 버튼과 �
 >title="사일런트 알림 정보"
 >abstract="사용자를 방해하지 않고 알림을 전송합니다. 알림 센터나 알림 표시줄에 알림이 표시되지 않습니다."
 
+<!--
 >[!AVAILABILITY]
 >
->Journey Optimizer의 웹 푸시 알림은 **자동 알림** 기능을 지원하지 않습니다.
+>Web push notifications in Journey Optimizer do not support the **Silent Notification** feature.
+-->
 
 자동 푸시 알림(또는 백그라운드 알림)은 애플리케이션에 전달되는 숨겨진 명령입니다. 예를 들어 애플리케이션에 새 콘텐츠의 가용성에 대해 알리거나 백그라운드에서 다운로드를 시작하는 데 사용됩니다.
 

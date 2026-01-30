@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
-source-git-commit: 0706cb23bb41aff56984d7723df22c5a07bbe51d
+source-git-commit: af40716070ab28001acb6f5c02f41a0ec3ad8258
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '384'
 ht-degree: 6%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 6%
 
 메시지 콘텐츠가 정의되면 테스트 프로필 또는 CSV/JSON 파일에서 업로드한 샘플 입력 데이터 또는 수동으로 추가한 샘플 입력 데이터를 사용하여 콘텐츠를 미리 볼 수 있습니다. 개인화된 콘텐츠를 삽입하면 이 콘텐츠가 메시지에 어떻게 표시되는지 확인할 수 있습니다.
 
-이렇게 하려면 **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭하세요. 그런 다음 콘텐츠를 미리 볼 장치 형식을 선택할 수 있습니다. **[!UICONTROL iOS]**, **[!UICONTROL Android]** 또는 **[!UICONTROL 웹]**.
+이렇게 하려면 **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭하세요. 그런 다음 콘텐츠를 미리 볼 장치 형식을 선택할 수 있습니다. **[!UICONTROL iOS]** 또는 **[!UICONTROL Android]**.
 
 ![](assets/push_preview_3.png)
 
@@ -59,7 +59,6 @@ ht-degree: 6%
 **관련 항목**
 
 * [모바일용 푸시 채널 구성](push-configuration.md)
-* [웹용 푸시 채널 구성](push-configuration-web.md)
 * [푸시 알림 보고서](../reports/journey-global-report-cja-push.md)
 * [푸시 알림 만들기](create-push.md)
 * [여정에 메시지 추가](../building-journeys/journeys-message.md)
