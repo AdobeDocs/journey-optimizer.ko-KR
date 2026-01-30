@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
 workflow-type: tm+mt
-source-wordcount: '3712'
+source-wordcount: '3731'
 ht-degree: 30%
 
 ---
@@ -210,7 +210,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 �
 
 +++ 이메일 전송 통계 지표에 대해 자세히 알아보기
 
-* **[!UICONTROL 대상]**: 보내는 동안 처리된 총 메시지 수입니다.
+* **[!UICONTROL 타깃팅]**: 제외, 억제 또는 동의 제거가 적용되기 전에 대상에 적합한 프로필 수입니다. 재입력이 활성화된 여정에서 프로필을 여러 번 타기팅할 수 있습니다.
 
 * **[!UICONTROL 제외됨]**: Adobe Journey Optimizer에서 제외된 프로필 수입니다.
 

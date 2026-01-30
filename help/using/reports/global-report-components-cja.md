@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: aa060d8e-23e2-4bab-b709-636077eb5d20
-source-git-commit: 853e87cdd69a3fc180dcb1aa38b4b67f27977939
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
 workflow-type: tm+mt
-source-wordcount: '2162'
+source-wordcount: '2189'
 ht-degree: 0%
 
 ---
@@ -144,7 +144,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <br/> 타깃팅됨 </td> 
-   <td> 게재 분석 중에 처리된 총 메시지 수입니다.<br/> </td> 
+   <td> 제외, 제외 또는 동의 제거가 적용되기 전에 대상에 적합한 프로필의 수입니다. 다시 입력이 활성화된 여정에서 프로필을 여러 번 타기팅할 수 있습니다.<br/> </td> 
   </tr>
   <tr> 
    <td>고유 바운스 수<br/> </td> 
@@ -197,7 +197,7 @@ ht-degree: 0%
   </tr>
   <tr> 
    <td>고유 타깃팅<br/> </td> 
-   <td>전송 프로세스 중에 타깃팅된 고유 프로필 수입니다.<br/> </td> 
+   <td>제외, 비표시 또는 동의 제거가 적용되기 전에 대상에 적합한 고유 프로필 수입니다.<br/> </td> 
   </tr> 
   <tr> 
    <td> 구독 취소<br/> </td> 

@@ -7,9 +7,9 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '407'
 ht-degree: 2%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 2%
 
 +++ 전송 통계 지표에 대해 자세히 알아보기
 
-* **[!UICONTROL 타깃팅]**: 라이브 활동 중에 타깃팅된 총 프로필 수입니다.
+* **[!UICONTROL 타깃팅]**: 제외, 억제 또는 동의 제거가 적용되기 전에 대상에 적합한 프로필 수입니다.
 
 * **[!UICONTROL 전송]**: 대상 프로필로 전송하려고 시도한 총 푸시 알림 수입니다.
 

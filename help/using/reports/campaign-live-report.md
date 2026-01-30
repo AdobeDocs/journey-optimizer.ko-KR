@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
 workflow-type: tm+mt
-source-wordcount: '3521'
+source-wordcount: '3543'
 ht-degree: 26%
 
 ---
@@ -108,7 +108,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 * **[!UICONTROL 실행 시간]**: 되풀이하는 전자 메일의 모든 실행 시작 시간입니다. 하나 이상의 반복 전자 메일만 대상으로 지정하려면 **[!UICONTROL 실행 시간]** 드롭다운에서 선택합니다.
 
-* **[!UICONTROL 대상]**: 보내는 동안 처리된 총 메시지 수입니다.
+* **[!UICONTROL 타깃팅]**: 제외, 억제 또는 동의 제거가 적용되기 전에 대상에 적합한 프로필 수입니다.
 
 * **[!UICONTROL 제외됨]**: 대상 프로필에서 제외된, 메시지를 받지 못한 사용자 프로필 수입니다.
 
@@ -330,7 +330,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 * **[!UICONTROL 실행 시간]**: 되풀이하는 푸시 알림의 모든 실행 시작 시간입니다. 하나 이상의 되풀이하는 푸시 알림만 대상으로 지정하려면 **[!UICONTROL 실행 시간]** 드롭다운에서 선택합니다.
 
-* **[!UICONTROL 대상]**: 보내는 동안 처리된 총 메시지 수입니다.
+* **[!UICONTROL 타깃팅]**: 제외, 억제 또는 동의 제거가 적용되기 전에 대상에 적합한 프로필 수입니다.
 
 * **[!UICONTROL 제외됨]**: 대상 프로필에서 제외된, 메시지를 받지 못한 사용자 프로필 수입니다.
 
@@ -400,7 +400,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 +++ 푸시 알림 - 플랫폼 지표별 분류에 대해 자세히 알아보기
 
-* **[!UICONTROL 대상]**: 분석 중에 처리된 총 메시지 수입니다.
+* **[!UICONTROL 타깃팅]**: 제외, 억제 또는 동의 제거가 적용되기 전에 대상에 적합한 프로필 수입니다.
 
 * **[!UICONTROL 배달됨]**: 보낸 총 메시지 수와 관련하여 성공적으로 보낸 메시지 수입니다.
 

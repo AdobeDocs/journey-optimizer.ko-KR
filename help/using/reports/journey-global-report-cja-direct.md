@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6fae8beb-ca40-40a1-8939-c309fbf46c4f
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '370'
 ht-degree: 3%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 3%
 
 * **[!UICONTROL 사람]**: 메시지 대상 프로필로 적합한 사용자 프로필 수입니다.
 
-* **[!UICONTROL 대상]**: 보내는 동안 처리된 총 DM 메시지 수입니다.
+* **[!UICONTROL 타깃팅]**: 제외, 억제 또는 동의 제거가 적용되기 전에 대상에 적합한 프로필 수입니다. 재입력이 활성화된 여정에서 프로필을 여러 번 타기팅할 수 있습니다.
 
 * **[!UICONTROL 전송]**: DM 메시지의 총 전송 수입니다.
 
@@ -69,7 +69,7 @@ ht-degree: 3%
 
 ## 제외된 이유 {#exclude-reasons-directmail}
 
-[&#128279;](assets/cja-direct-excluded.png)
+[](assets/cja-direct-excluded.png)
 
 **[!UICONTROL 제외 이유]** 표는 대상 대상자에서 사용자 프로필을 제외하여 DM 메시지를 받지 못하게 한 다양한 요인을 시각적으로 보여줍니다.
 
