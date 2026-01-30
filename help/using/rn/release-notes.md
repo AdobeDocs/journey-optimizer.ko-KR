@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5a9dd033754c827960133e762628b0cf7b4c6a20
+source-git-commit: 124ff40cf7cdc0dfdaf67924ff5fb558c96e2956
 workflow-type: tm+mt
-source-wordcount: '1636'
-ht-degree: 21%
+source-wordcount: '1722'
+ht-degree: 22%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 21%
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 새로운 기능 {#jan-26-01-features}
 
@@ -101,25 +101,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 </tr>
 </tbody>
 </table>
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Web Push notifications channel</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Journey Optimizer now supports <strong>Web Push notifications</strong>, expanding the push channel beyond mobile. You can seamlessly deliver notifications to both <strong>mobile and desktop browsers</strong>, enabling you to reach customers directly on their devices without requiring an app. This enhancement allows you to engage users with timely, personalized messages in real time, leveraging the same authoring workflows and targeting capabilities already available for mobile push.</p>
-<p><img src="assets/do-not-localize/web-push.gif"/></p>
-<p>Previously released in Beta, this capability is now available to all environments (General Availability).</p>
-<p>For more information, refer to the detailed documentation.</p>
-<p>Availability date: January 28, 2026</p>
-</td>
-</tr>
-</tbody>
-</table-->
 
 <table>
 <thead>
@@ -198,7 +179,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **AI 길잡이 콘텐츠 품질 검사** - 이제 브랜드 정렬 외에도 브랜드 지침과 관계없이 전체 <strong>콘텐츠 품질</strong>을 평가하여 <strong>가독성</strong>, 응집성 및 효과성의 잠재적 문제를 확인할 수 있습니다. 이러한 자동화된 검사는 명확하지 않은 메시지, 일관되지 않은 말투 또는 구조적 차이를 식별하는 데 도움이 됩니다. [자세히 보기](../content-management/brands-score.md#validate-quality).
 
-  [비디오에서 이 기능을 살펴보세요](https://video.tv.adobe.com/v/3470553/?captions=kor&learn=on).
+  [비디오에서 이 기능을 살펴보세요](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### 경험 의사 결정
 
@@ -318,6 +299,24 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <p>이제 <strong>개인화된 오퍼</strong>를 고객 여정에 직접 통합하기 위해 여정 캔버스에서 새 <strong>콘텐츠 결정 활동</strong>을 사용할 수 있습니다. 이 활동을 사용하면 의사 결정 기반 콘텐츠를 제공하고 자격 기반 분기를 만들기 위한 조건, 외부 시스템에 오퍼 데이터를 전달하기 위한 사용자 지정 작업 및 완전히 개인화된 고객 경험을 구축하기 위한 기타 활동에서 여정 전체에서 이러한 오퍼를 참조할 수 있습니다.</p>
 <p>이 기능은 모든 환경에서 사용할 수 있습니다(일반 공급).</p>
 <p>가용성 일자: 2026년 2월 9일 화요일</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>웹 푸시 알림 채널</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer은 이제 <strong>웹 푸시 알림</strong>을 지원하므로 푸시 채널을 모바일 이상으로 확장합니다. <strong>모바일 및 데스크톱 브라우저</strong> 모두에 알림을 원활하게 전달할 수 있으므로 앱을 사용하지 않고도 고객의 디바이스에서 바로 고객에게 연락할 수 있습니다. 이 향상된 기능을 통해 이미 모바일 푸시에서 사용 가능한 것과 동일한 작성 워크플로 및 타기팅 기능을 활용하여 사용자에게 적시에 개인화된 메시지를 실시간으로 보낼 수 있습니다.</p>
+<!--p><img src="assets/do-not-localize/web-push.gif"/></p-->
+<p>이전에 Beta에서 릴리스된 이 기능은 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
+<p>가용성 일자: 2026년 2월 11일 목요일</p>
 </td>
 </tr>
 </tbody>
