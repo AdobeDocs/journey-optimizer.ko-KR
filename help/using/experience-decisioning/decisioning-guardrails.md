@@ -6,9 +6,9 @@ role: User
 level: Intermediate
 exl-id: 73548973-ff8d-4d6c-b383-dd3679fa159a
 version: Journey Orchestration
-source-git-commit: 57017310f5ed34e447c47babe288b28186809f6e
+source-git-commit: 5be6ecd85b0b45e01f7a27e0ffc55a2c6a22bcea
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '263'
 ht-degree: 16%
 
 ---
@@ -33,22 +33,21 @@ Decisioning을 최적으로 사용하려면 다음 보호 기능 및 제한 사�
 | ------- | ------- |
 | 총 결정 항목 | 10K |
 | 속성을 포함한 최대 항목 크기(1KB), 최대 30개 속성 | 1KB |
-| 최대 항목 표시 크기(모든 배치에 대한 합계) | 1KB |
-| 빈도 규칙 - 오퍼당 최대 한도 규칙 수 | 10 |
+| 빈도 규칙 - 결정 항목당 최대 한도 규칙 수 | 10 |
 
 ## 항목 컬렉션 {#item-collections}
 
 | 가드레일 | 제한 |
 | ------- | ------- |
 | 항목 컬렉션 | 10K |
-| 항목 컬렉션당 총 오퍼 항목 | 500 |
+| 컬렉션당 총 결정 항목 수 | 500 |
 
 ## 결정 정책 {#decision-policy}
 
 | 가드레일 | 제한 |
 | ------- | ------- |
 | 의사 결정 정책당 선택 전략 및 수동 항목 수 | 10 |
-| 결정 정책당 반환되는 최대 오퍼 항목 수 | 30 |
+| 결정 정책당 반환되는 최대 결정 항목 수 | 30 |
 
 ## 자격 규칙 {#eligibility-rules}
 
@@ -73,7 +72,7 @@ Decisioning을 최적으로 사용하려면 다음 보호 기능 및 제한 사�
 
 | 가드레일 | 제한 |
 | ------- | ------- |
-| 오퍼 카탈로그 스키마당 사용자 지정 속성 수 | 100 |
+| 항목 카탈로그 스키마당 사용자 지정 특성 수 | 100 |
 | 총 배치 | 1K |
 | AI 등급 모델 | 5 |
 
