@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 124ff40cf7cdc0dfdaf67924ff5fb558c96e2956
+source-git-commit: 6c51328bdea0daf44b1315cf139b60d5bc2c5c76
 workflow-type: tm+mt
 source-wordcount: '1722'
 ht-degree: 22%
@@ -35,7 +35,7 @@ ht-degree: 22%
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 새로운 기능 {#jan-26-01-features}
 
@@ -179,7 +179,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **AI 길잡이 콘텐츠 품질 검사** - 이제 브랜드 정렬 외에도 브랜드 지침과 관계없이 전체 <strong>콘텐츠 품질</strong>을 평가하여 <strong>가독성</strong>, 응집성 및 효과성의 잠재적 문제를 확인할 수 있습니다. 이러한 자동화된 검사는 명확하지 않은 메시지, 일관되지 않은 말투 또는 구조적 차이를 식별하는 데 도움이 됩니다. [자세히 보기](../content-management/brands-score.md#validate-quality).
 
-  [비디오에서 이 기능을 살펴보세요](https://video.tv.adobe.com/v/3470553/?captions=kor&learn=on).
+  [비디오에서 이 기능을 살펴보세요](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### 경험 의사 결정
 
@@ -265,7 +265,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <li>완료된 마이그레이션에 대한 롤백 지원</li>
 <li>개체 매핑이 포함된 자세한 마이그레이션 보고서</li>
 </ul>
-<p>가용성 일자: 2026년 1월 30일 토요일</p>
+<p>가용성 일자: 2026년 2월 11일 목요일</p>
 </td>
 </tr>
 </tbody>
@@ -281,7 +281,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>이제 <strong>의사 결정</strong>을 통해 <strong>푸시 및 SMS</strong> 메시지의 콘텐츠를 개인화하고 최적화할 수 있습니다. 우선 순위 점수, 공식 또는 AI 모델을 사용하여 고객에게 최상의 콘텐츠를 표시합니다.</p>
-<p>가용성 일자: 2026년 2월 9일 화요일</p>
+<p>가용성 일자: 2026년 2월 11일 목요일</p>
 </td>
 </tr>
 </tbody>
@@ -298,7 +298,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <td>
 <p>이제 <strong>개인화된 오퍼</strong>를 고객 여정에 직접 통합하기 위해 여정 캔버스에서 새 <strong>콘텐츠 결정 활동</strong>을 사용할 수 있습니다. 이 활동을 사용하면 의사 결정 기반 콘텐츠를 제공하고 자격 기반 분기를 만들기 위한 조건, 외부 시스템에 오퍼 데이터를 전달하기 위한 사용자 지정 작업 및 완전히 개인화된 고객 경험을 구축하기 위한 기타 활동에서 여정 전체에서 이러한 오퍼를 참조할 수 있습니다.</p>
 <p>이 기능은 모든 환경에서 사용할 수 있습니다(일반 공급).</p>
-<p>가용성 일자: 2026년 2월 9일 화요일</p>
+<p>가용성 일자: 2026년 2월 11일 목요일</p>
 </td>
 </tr>
 </tbody>
@@ -327,4 +327,4 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **의사 결정 항목에 조각 첨부** - 이제 Journey Optimizer에서 의사 결정 정책을 통해 코드 기반 경험 캠페인에서 활용할 수 있는 <strong>의사 결정 항목</strong>에 <strong>조각</strong>을(를) 첨부할 수 있는 기능을 제공합니다.
 
-  사용 가능한 날짜: 2026년 2월 9일
+  사용 가능한 날짜: 2026년 2월 11일
