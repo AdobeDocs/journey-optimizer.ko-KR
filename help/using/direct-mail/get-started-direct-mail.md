@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 다이렉트 메일, 메시지, 캠페인
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
-source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
+source-git-commit: d9534a5bbec3fdd24046a6e171f81498569f682f
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 76%
+source-wordcount: '320'
+ht-degree: 77%
 
 ---
 
@@ -30,7 +30,7 @@ DM 캠페인이나 여정을 만들 때 Journey Optimizer은 타겟팅된 모든
 
 >[!AVAILABILITY]
 >
->다이렉트 메일 메시지는 여정 및 예약된 캠페인의 컨텍스트에서만 작성할 수 있습니다. 오케스트레이션된 API 트리거 캠페인에서는 사용할 수 없습니다.
+>다이렉트 메일 메시지는 여정 및 캠페인 컨텍스트에서 작성할 수 있습니다. API 트리거 캠페인에서는 사용할 수 없습니다.
 
 ![](../rn/assets/do-not-localize/gif-dm.gif)
 
@@ -45,4 +45,4 @@ DM 캠페인이나 여정을 만들 때 Journey Optimizer은 타겟팅된 모든
 
 Adobe Journey Optimizer의 DM 채널을 활용하여 여정 내에서 DM 게재를 자동화하고 예약하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479169?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479162?quality=12)
