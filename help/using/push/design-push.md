@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: af40716070ab28001acb6f5c02f41a0ec3ad8258
+source-git-commit: 083545ff7b2dc5ce45ef3766321fdf12e1b96c5c
 workflow-type: tm+mt
-source-wordcount: '1772'
-ht-degree: 14%
+source-wordcount: '1831'
+ht-degree: 13%
 
 ---
 
@@ -86,7 +86,7 @@ iOS의 경우 알림 내에 표시할 이미지, 비디오 또는 GIF을 추가�
 
 다음 방법 중 하나를 사용하여 미디어를 추가할 수 있습니다.
 
-* **[!UICONTROL 미디어 추가]** 단추: **[!DNL Adobe Experience Manager Assets]**&#x200B;에서 자산을 선택하십시오. **[!DNL Adobe Experience Manager Assets]**&#x200B;이 페이지[에서 &#x200B;](../integrations/assets.md)을(를) 사용하는 방법에 대해 자세히 알아보세요.
+* **[!UICONTROL 미디어 추가]** 단추: **[!DNL Adobe Experience Manager Assets]**&#x200B;에서 자산을 선택하십시오. **[!DNL Adobe Experience Manager Assets]**&#x200B;이 페이지[에서 ](../integrations/assets.md)을(를) 사용하는 방법에 대해 자세히 알아보세요.
 
 * **[!UICONTROL 미디어 추가]** 필드: 미디어 URL을 직접 입력합니다. URL에 개인화 토큰을 포함할 수 있습니다.
 
@@ -178,6 +178,12 @@ Use the **[!UICONTROL Add Button]** option to define each button's label and ass
 >abstract="모바일 애플리케이션 구성에 따라 페이로드에 사용자 정의 변수를 추가합니다."
 
 모바일 애플리케이션 구성에 따라 **[!UICONTROL 사용자 지정 데이터]** 섹션에서 페이로드에 사용자 지정 변수를 추가할 수 있습니다. Adobe Experience Platform에서 푸시 알림을 설정하는 방법에 대한 자세한 내용은 [이 섹션](push-gs.md)을 참조하세요.
+
+## Experience Decisioning을 통한 개인화 {#decisioning-push}
+
+**Experience Decisioning**&#x200B;을 통해 푸시 알림의 콘텐츠를 개인화하고 최적화할 수 있습니다. 이 기능을 사용하면 우선 순위 점수, 공식 또는 AI 모델을 사용하여 고객에게 가장 적합한 콘텐츠를 동적으로 선택하고 표시할 수 있습니다.
+
+푸시 알림에서 의사 결정 정책을 만들고 사용하는 방법에 대한 자세한 내용은 [이 섹션](../experience-decisioning/create-decision.md)을 참조하세요.
 
 ## 고급 옵션 {#advanced-options-push}
 

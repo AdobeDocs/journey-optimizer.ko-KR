@@ -10,18 +10,14 @@ role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 083545ff7b2dc5ce45ef3766321fdf12e1b96c5c
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '896'
 ht-degree: 100%
 
 ---
 
 # 의사 결정 관리 시작 {#about-decision-management}
-
->[!TIP]
->
->[!DNL Adobe Journey Optimizer]의 새로운 의사 결정 기능인 [결정]을 이제 코드 기반 경험 및 이메일 채널을 통해 사용할 수 있습니다. [자세히 알아보기](../../experience-decisioning/gs-experience-decisioning.md)
 
 [!DNL Journey Optimizer]을(를) 사용하여 적절한 시기에 모든 접점에서 고객에게 최상의 오퍼 및 경험을 제공하십시오. 디자인한 후에는 개인화된 오퍼를 통해 대상자를 타기팅하십시오.
 
@@ -66,7 +62,7 @@ ht-degree: 100%
 
   ![](../assets/website.png)
 
-* 고객이 매장 근처에 있는 경우, 고객의 특성(로열티 등급, 성별, 이전 구매...)에 따라 사용 가능한 오퍼를 알려 주는 푸시 알림을 보냅니다.
+* 고객이 매장 근처에 있는 경우, 고객의 속성(로열티 등급, 성별, 이전 구매...)에 따라 사용 가능한 오퍼를 알려 주는 푸시 알림을 보냅니다.
 
   ![](../assets/push_sample.png)
 
@@ -118,12 +114,12 @@ ht-degree: 100%
 
 아래 비디오에서는 의사 결정 관리의 주요 기능, 아키텍처 및 사용 사례에 대한 소개를 제공합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/340417?captions=kor&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/326961?quality=12&learn=on)
 
 ### 오퍼 정의 및 관리 {#use-offer-decisioning}
 
 아래 비디오에서는 의사 결정 관리를 사용하여 오퍼를 정의 및 관리하고 실시간 고객 데이터를 활용하는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/340354?captions=kor&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
 
 

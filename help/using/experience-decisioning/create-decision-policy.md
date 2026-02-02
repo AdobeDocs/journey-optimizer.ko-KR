@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 version: Journey Orchestration
-source-git-commit: 217c7d1aead043e1978c8e0dd40190f789368fd0
+source-git-commit: 083545ff7b2dc5ce45ef3766321fdf12e1b96c5c
 workflow-type: tm+mt
-source-wordcount: '1777'
-ht-degree: 7%
+source-wordcount: '2029'
+ht-degree: 6%
 
 ---
 
@@ -34,64 +34,131 @@ ht-degree: 7%
 
 고객에게 최상의 다이내믹 오퍼 및 경험을 제공하려면 캠페인 또는 여정에서 콘텐츠에 의사 결정 정책을 추가한 다음, 반환할 항목과 사용할 선택 전략을 구성하십시오. 이렇게 하려면 아래 절차를 따르십시오.
 
-1. [의사 결정 정책을 추가](#add) - Personalization 편집기 또는 전자 메일 Designer에서.
-1. [결정 정책을 구성합니다](#configurre) - 이름을 추가하고 반환할 항목 수를 지정합니다.
+1. [의사 결정 정책 추가](#add)
+1. [결정 정책을 구성합니다](#configure) - 이름을 추가하고 전자 메일 채널에 대해 반환할 항목 수를 지정합니다.
 1. [전략 시퀀스를 설정합니다](#strategy) - 결정 정책으로 반환할 항목을 선택합니다.
 1. [대체 오퍼 선택](#fallback)(선택 사항) - 적합한 항목이나 선택 전략이 없는 경우 표시할 항목을 선택합니다.
 1. 선택 전략을 [검토 및 저장](#review)
+1. [배치 할당](#placement)(전자 메일 채널)
 
 >[!AVAILABILITY]
 >
->지금은 **코드 기반 경험** 채널에 대해 모든 고객이 의사 결정 정책을 사용할 수 있습니다. **Email** 채널에서는 제한된 가용성으로 사용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.
+>결정 정책은 **코드 기반 경험** 및 **푸시 알림** 채널에 대해 모든 고객이 사용할 수 있습니다.
+>
+>이메일 채널에 대한 의사 결정은 제한된 가용성으로 사용할 수 있습니다. 액세스 권한을 요청하려면 Adobe 담당자에게 문의하십시오. [가용성 레이블](../rn/releases.md#availability-labels)에 대해 자세히 알아보세요.
 
 ## 의사 결정 정책 추가 {#add}
 
-1. 여정 또는 캠페인을 열고 [채널 작업](../building-journeys/journeys-message.md)을(를) 선택하고 메시지 내용을 편집합니다.
+메시지에 결정 정책을 추가하려면 여정 또는 캠페인을 열고 [채널 작업](../building-journeys/journeys-message.md)을 선택하세요.
 
-1. 전자 메일의 경우 **[!UICONTROL 의사 결정 사용]** 옵션을 전환하십시오.
+메시지 콘텐츠를 편집하고 아래 탭에서 선택한 채널을 기반으로 결정 정책을 추가하는 방법에 대한 자세한 내용을 확인하십시오.
+
+>[!BEGINTABS]
+
+>[!TAB 코드 기반 경험]
+
+코드 기반 경험의 경우 속성 창에서 사용할 수 있는 **코드 편집기** 또는 **의사 결정** 메뉴를 사용하여 새 의사 결정 정책을 추가할 수 있습니다.
+
++++코드 편집기에서 의사 결정 정책 추가
+
+1. **[!UICONTROL 코드 편집]** 단추를 사용하여 코드 편집기 편집기를 엽니다.
+
+1. **[!UICONTROL 결정 정책]** 메뉴로 이동한 다음 **[!UICONTROL 결정 정책 추가]** 단추를 클릭합니다.
+
+   ![](assets/decision-policy-add-code-editor.png)
+
++++
+
++++Decisioning 메뉴에서 의사 결정 정책 추가
+
+1. 속성 창에서 ![](assets/do-no-localize/decisioning-icon.png) 아이콘을 클릭하여 **[!UICONTROL Decisioning]** 메뉴에 액세스합니다.
+
+1. **[!UICONTROL 결정 정책 추가]** 단추를 클릭합니다.
+
+   ![](assets/decision-policy-add-code.png)
+
++++
+
+>[!TAB 이메일]
+
+1. **[!UICONTROL 의사 결정 사용]** 옵션을 전환합니다.
 
    ![](assets/decision-policy-enable.png)
 
    >[!IMPORTANT]
    >
    >의사 결정을 활성화하면 기존 이메일 콘텐츠가 지워집니다. 이미 이메일을 디자인한 경우 콘텐츠를 템플릿으로 미리 저장해야 합니다.
+
+1. 전자 메일 디자이너에서 사용할 수 있는 **개인화 편집기** 또는 **의사 결정** 메뉴를 사용하여 새 의사 결정 정책을 추가하십시오.
+
+   +++Personalization 편집기에서 의사 결정 정책 추가
+
+   1. 제목 줄 필드 또는 개인화를 추가할 수 있는 이메일 본문의 모든 필드에서 사용할 수 있는 ![](assets/do-no-localize/editor-icon.svg) 아이콘을 사용하여 개인화 편집기를 엽니다.
+
+   1. **[!UICONTROL 의사 결정 정책]** 메뉴로 이동한 다음 **[!UICONTROL 의사 결정 정책 추가]** 단추를 클릭합니다.
+
+      ![](assets/decision-policy-add-email-editor.png)
+
+   +++
+
+   +++Decisioning 메뉴에서 의사 결정 정책 추가
+
+   1. 이메일 Designer을 열고 이메일 구조에서 구성 요소를 선택합니다.
+
+   1. 속성 창에서 ![](assets/do-no-localize/decisioning-icon.png) 아이콘을 클릭하여 **[!UICONTROL Decisioning]** 메뉴에 액세스합니다.
+
+   1. **[!UICONTROL 새 정책 추가]** 단추를 클릭합니다.
+
+      ![](assets/decision-policy-add-email-add.png)
+
+   >[!NOTE]
    >
-   >이메일 내에 구성된 모든 의사 결정 정책은 템플릿에 저장되지 않습니다. 템플릿을 다른 이메일에 적용하는 경우 정책을 다시 구성해야 합니다.
+   >**[!UICONTROL 결정 출력 재사용]**&#x200B;을 통해 이 전자 메일 내에 이미 만들어진 결정 정책을 재사용할 수 있습니다.
 
-1. **개인화 편집기**&#x200B;를 열어 결정 정책을 만듭니다. 전자 메일의 경우 **전자 메일 디자이너**&#x200B;의 전용 메뉴를 사용하여 의사 결정 정책을 만들 수도 있습니다. 아래 섹션을 확장하여 두 가지 방법을 살펴보십시오.
+>[!TAB 푸시 알림]
 
-   +++Personalization 편집기에서 의사 결정 정책 만들기
+푸시 알림의 경우 속성 창에서 사용할 수 있는 **개인화 편집기** 또는 **의사 결정** 메뉴를 사용하여 새 의사 결정 정책을 추가할 수 있습니다.
 
-   1. 개인화 편집기를 열고 **[!UICONTROL 결정 정책]**&#x200B;을 선택합니다.
-   1. 새 정책을 만들려면 **[!UICONTROL 결정 정책 추가]** 단추를 클릭하십시오.
++++개인화 편집기에서 의사 결정 정책 추가
 
-      ![](assets/decision-code-based-create.png)
+1. ![](assets/do-no-localize/editor-icon.svg) 아이콘을 사용하여 개인화 편집기를 엽니다.
+1. **[!UICONTROL 의사 결정 정책]** 메뉴로 이동한 다음 **[!UICONTROL 의사 결정 정책 추가]** 단추를 클릭합니다.
 
-   +++
+   ![](assets/decision-policy-add-push.png)
 
-   +++이메일 Designer에서 의사 결정 정책 만들기
++++
 
-   전자 메일 콘텐츠에서 구성 요소를 선택하고 도구 모음 또는 속성 창에서 **[!UICONTROL 의사 결정]** 아이콘을 클릭한 다음 **[!UICONTROL 새 정책 추가]**&#x200B;를 선택합니다.
++++Decisioning 메뉴에서 의사 결정 정책 추가
 
-   **[!UICONTROL 결정 출력 재사용]**&#x200B;을 통해 이 전자 메일 내에 이미 만들어진 결정 정책을 재사용할 수 있습니다.
+1. 속성 창에서 ![](assets/do-no-localize/decisioning-icon.png) 아이콘을 클릭하여 **[!UICONTROL Decisioning]** 메뉴에 액세스합니다.
 
-   ![](assets/decision-policy-email-designer.png)
+1. **[!UICONTROL 결정 정책 추가]** 단추를 클릭합니다.
 
-   +++
+   ![](assets/decision-policy-add-push-menu.png)
+
+>[!IMPORTANT]
+>
+>푸시 알림을 사용하는 Experience Decisioning에는 모바일 SDK의 특정 버전이 필요합니다. 이 기능을 구현하기 전에 [릴리스 정보](https://developer.adobe.com/client-sdks/home/release-notes/){target="_blank"}를 확인하여 필요한 버전을 식별하고 그에 따라 업그레이드했는지 확인하십시오. [이 섹션](https://developer.adobe.com/client-sdks/home/current-sdk-versions/){target="_blank"}에서 사용 가능한 플랫폼에 대한 모든 SDK 버전을 볼 수도 있습니다.
+
+>[!ENDTABS]
 
 ## 의사 결정 정책 구성 {#configure}
 
-콘텐츠에 새 결정 정책을 추가한 후 결정 정책 구성 화면이 열립니다.
+콘텐츠에 새 결정 정책을 추가한 후 결정 정책 구성 화면이 열립니다. 다음 단계에 따라 의사 결정 정책을 구성합니다.
 
 1. 결정 정책의 이름을 입력하고 카탈로그(현재 기본 **[!UICONTROL 오퍼]** 카탈로그로 제한됨)를 선택하십시오.
 
-1. 반환할 항목의 수를 선택합니다. 예를 들어 항목 2개를 선택하면 현재 구성에 대한 적격 제안 2개가 표시됩니다.
-
    ![](assets/decision-code-based-details.png)
 
-   이메일 채널의 경우 **[!UICONTROL 항목 수]** 필드는 기본적으로 1로 설정되어 있으며, **[!UICONTROL 반복 그리드]** 구성 요소 내에서 결정 정책을 추가하지 않으면 수정할 수 없습니다. 자세한 내용을 보려면 아래 섹션을 확장하십시오.
+1. **[!UICONTROL 항목 수]** 필드를 사용하면 결정 정책으로 반환할 결정 항목의 수를 정의할 수 있습니다. 예를 들어 항목 2개를 선택하면 현재 구성에 대한 적격 제안 2개가 표시됩니다.
 
-   +++**[!UICONTROL 반복 그리드]** 구성 요소를 사용하여 전자 메일에 여러 결정 항목 반환
+   >[!NOTE]
+   >
+   >이 옵션은 이메일 및 코드 기반 경험 채널에만 사용할 수 있습니다. 다른 모든 채널의 경우, 작업 당 하나의 결정 항목만 반환될 수 있습니다.
+
+   이메일 채널에 대해 여러 항목을 반환하려면 **[!UICONTROL 반복 그리드]** 구성 요소 내에 결정 정책을 추가해야 합니다. 자세한 내용을 보려면 아래 섹션을 확장하십시오.
+
+   +++이메일에 여러 결정 항목 반환
 
    1. 이메일의 **[!UICONTROL 반복 그리드]** 구성 요소를 드래그하고 **[!UICONTROL 설정]** 창을 사용하여 원하는 대로 구성하십시오.
 
@@ -220,7 +287,7 @@ ht-degree: 7%
 
 ![](assets/decision-policy-edit.png)
 
->[!TAB 구성 요소의 속성에서 정책을 편집하거나 삭제합니다]
+>[!TAB 의사 결정 메뉴에서 정책을 편집하거나 삭제]
 
 ![](assets/decision-policy-edit-properties.png)
 
@@ -237,4 +304,3 @@ ht-degree: 7%
 의사 결정 정책을 만드는 방법을 이해했으므로 [!DNL Journey Optimizer] 채널에서 오퍼를 제공할 준비가 되었습니다.
 
 ➡️ [메시지에서 의사 결정 정책을 사용하는 방법 알아보기](../experience-decisioning/use-decision-policy.md)
-

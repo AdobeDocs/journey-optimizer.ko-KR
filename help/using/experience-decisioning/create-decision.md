@@ -7,10 +7,10 @@ role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 version: Journey Orchestration
-source-git-commit: c2388c84346ed9a0409270fd96f3a1458bf8ad88
+source-git-commit: 083545ff7b2dc5ce45ef3766321fdf12e1b96c5c
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 29%
+source-wordcount: '663'
+ht-degree: 27%
 
 ---
 
@@ -45,28 +45,12 @@ ht-degree: 29%
 
 의사 결정 정책은 의사 결정 엔진을 활용하여 각 대상 구성원에 대해 제공할 최상의 콘텐츠를 동적으로 반환하는 오퍼에 대한 컨테이너입니다. 이 프로필의 목표는 각 프로필에 가장 적합한 오퍼를 선택하는 것이며, 캠페인/여정 작성에서는 메시지에 포함할 항목 속성을 포함하여 선택한 결정 항목을 표시하는 방법을 나타낼 수 있습니다.
 
->[!AVAILABILITY]
->
->현재 모든 고객은 코드 기반 경험 채널의 의사 결정 정책을 사용할 수 있습니다. 제한된 가용성으로 이메일 채널에 사용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.
-
-## 주요 단계 {#key}
-
-메시지에서 의사 결정 정책을 활용하는 주요 단계는 다음과 같습니다.
-
-1. [의사 결정 정책 만들기](../experience-decisioning/create-decision-policy.md)
-
-   반환할 항목 수를 선택하고, 선택 전략, 대체 옵션 및 평가 순서를 구성하여 메시지에 결정 정책을 설정합니다.
-
-1. [콘텐츠의 의사 결정 정책 사용](../experience-decisioning/use-decision-policy.md)
-
-   메시지에 표시할 결정 항목의 결정 정책 출력 및 속성으로 콘텐츠를 개인화합니다.
-
-1. [보고 대시보드 만들기](cja-reporting.md)
-
-   사용자 지정 Customer Journey Analytics 대시보드를 작성하여 성과를 측정하고 의사 결정 정책 및 오퍼가 전달되고 참여하는 방식에 대한 통찰력을 얻으십시오.
+➡️ [비디오에서 이 기능 살펴보기](#video)
 
 ## 가드레일 및 제한 사항
 
+* **지원되는 채널** - 코드 기반 환경, DM, 전자 메일 및 푸시 알림과 같은 채널에 대해 의사 결정 정책을 사용할 수 있습니다.
+* **푸시 알림 SDK 요구 사항** - 푸시 알림을 사용하는 Experience Decisioning에는 Mobile SDK의 특정 버전이 필요합니다. 이 기능을 구현하기 전에 [릴리스 정보](https://developer.adobe.com/client-sdks/home/release-notes/){target="_blank"}를 확인하여 필요한 버전을 식별하고 그에 따라 업그레이드했는지 확인하십시오. [이 섹션](https://developer.adobe.com/client-sdks/home/current-sdk-versions/){target="_blank"}에서 사용 가능한 플랫폼에 대한 모든 SDK 버전을 볼 수도 있습니다.
 * **전자 메일 미러 페이지** - 지금은 결정 항목이 전자 메일 미러 페이지에 렌더링되지 않습니다.
 * **추적 및 링크 유형** - 의사 결정에 의해 생성된 링크를 추적하려면 스키마에서 &quot;Decisioning Assets&quot;로 정의하십시오. 속성 기반 링크는 추적할 수 없습니다.
 * **전자 메일에 의사 결정 정책 중첩** - 이미 연결된 의사 결정 정책이 있는 상위 전자 메일 구성 요소에 여러 의사 결정 정책을 중첩할 수 없습니다.
@@ -79,14 +63,30 @@ ht-degree: 29%
 
 * **AI 등급** - 현재 AI 등급은 Decisioning이 있는 여정의 이메일 채널에 대해 지원되지 않습니다.
 
-## 다음 단계 {#next-steps}
+* **콘텐츠 템플릿** - 콘텐츠 내에 구성된 결정 정책은 템플릿에 저장되지 않습니다. 템플릿을 다른 작업에 적용하는 경우 정책을 다시 구성해야 합니다.
 
-의사 결정 정책의 작동 방식과 맞춤형 오퍼를 제공하는 데 도움이 되는 방법을 이해했으므로 이제 첫 번째 의사 결정 정책을 만들 준비가 되었습니다.
+## 주요 단계 {#key}
 
-➡️ [의사 결정 정책을 만드는 방법 알아보기](../experience-decisioning/create-decision-policy.md)
+메시지에서 의사 결정 정책을 활용하는 주요 단계는 다음과 같습니다.
 
-## 사용 방법 비디오 {#video}
+1. **의사 결정 정책 만들기**
+
+   메시지에 결정 정책을 추가하고 반환할 항목 수, 선택 전략 및 대체 옵션을 구성합니다.
+
+   ➡️ [의사 결정 정책을 만드는 방법 알아보기](../experience-decisioning/create-decision-policy.md)
+
+1. **콘텐츠의 결정 정책 사용**
+
+   메시지에 표시할 결정 항목의 속성을 삽입하여 결정 정책 출력으로 콘텐츠를 개인화합니다
+
+   ➡️ [메시지에서 의사 결정 정책을 사용하는 방법 알아보기](../experience-decisioning/create-decision-policy.md)
+
+## 방법 비디오 {#video}
 
 Decisioning을 사용하여 대상자를 위한 이메일을 개인화하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479217?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
+
+Decisioning을 사용하여 대상을 위한 푸시 알림을 개인화하는 방법을 알아봅니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
