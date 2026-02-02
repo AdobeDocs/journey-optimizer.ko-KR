@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+source-git-commit: 2dfc9c2db5af1b9b74f7405a68e85563f633a54f
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1178'
 ht-degree: 8%
 
 ---
@@ -136,6 +136,12 @@ Adobe Journey Optimizer에서 텍스트(SMS), 풍부한 커뮤니케이션(RCS) 
    > 짧은 URL의 수명은 30일로 설정됩니다. 이 기간이 지나면 이러한 짧은 URL에 더 이상 액세스할 수 없으며 `404 short-code not found` 메시지를 표시합니다.
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭하고 미리 보기에서 메시지를 확인합니다. 이제 [이 섹션](#sms-mms-test)에 자세히 설명된 대로 메시지 콘텐츠를 테스트하고 확인할 수 있습니다.
+
+## Experience Decisioning을 통한 개인화 {#decisioning-sms}
+
+**Experience Decisioning**&#x200B;을 통해 SMS 메시지의 콘텐츠를 개인화하고 최적화할 수 있습니다. 이 기능을 사용하면 우선 순위 점수, 공식 또는 AI 모델을 사용하여 고객에게 가장 적합한 콘텐츠를 동적으로 선택하고 표시할 수 있습니다.
+
+SMS 메시지에서 의사 결정 정책을 만들고 사용하는 방법에 대한 자세한 내용은 [이 섹션](../experience-decisioning/create-decision.md)을 참조하세요.
 
 ## MMS 콘텐츠 정의{#mms-content}
 

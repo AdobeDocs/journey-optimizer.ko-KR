@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 version: Journey Orchestration
-source-git-commit: 083545ff7b2dc5ce45ef3766321fdf12e1b96c5c
+source-git-commit: 2dfc9c2db5af1b9b74f7405a68e85563f633a54f
 workflow-type: tm+mt
-source-wordcount: '2029'
+source-wordcount: '2108'
 ht-degree: 6%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 6%
 
 >[!AVAILABILITY]
 >
->결정 정책은 **코드 기반 경험** 및 **푸시 알림** 채널에 대해 모든 고객이 사용할 수 있습니다.
+>결정 정책은 **코드 기반 경험**, **푸시 알림** 및 SMS 채널에 대해 모든 고객이 사용할 수 있습니다.
 >
 >이메일 채널에 대한 의사 결정은 제한된 가용성으로 사용할 수 있습니다. 액세스 권한을 요청하려면 Adobe 담당자에게 문의하십시오. [가용성 레이블](../rn/releases.md#availability-labels)에 대해 자세히 알아보세요.
 
@@ -114,6 +114,27 @@ ht-degree: 6%
    >[!NOTE]
    >
    >**[!UICONTROL 결정 출력 재사용]**&#x200B;을 통해 이 전자 메일 내에 이미 만들어진 결정 정책을 재사용할 수 있습니다.
+
+>[!TAB SMS]
+
+SMS의 경우 속성 창에서 사용할 수 있는 **개인화 편집기** 또는 **의사 결정** 메뉴를 사용하여 새 의사 결정 정책을 추가할 수 있습니다.
+
++++개인화 편집기에서 의사 결정 정책 추가
+
+1. ![](assets/do-no-localize/editor-icon.svg) 아이콘을 사용하여 개인화 편집기를 엽니다.
+1. **[!UICONTROL 의사 결정 정책]** 메뉴로 이동한 다음 **[!UICONTROL 의사 결정 정책 추가]** 단추를 클릭합니다.
+
+   ![](assets/decision-policy-add-sms-editor.png)
+
++++
+
++++Decisioning 메뉴에서 의사 결정 정책 추가
+
+1. 속성 창에서 ![](assets/do-no-localize/decisioning-icon.png) 아이콘을 클릭하여 **[!UICONTROL Decisioning]** 메뉴에 액세스합니다.
+
+1. **[!UICONTROL 결정 정책 추가]** 단추를 클릭합니다.
+
+   ![](assets/decision-policy-add-sms.png)
 
 >[!TAB 푸시 알림]
 

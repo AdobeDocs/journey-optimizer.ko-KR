@@ -7,9 +7,9 @@ role: User
 level: Experienced
 mini-toc-levels: 1
 version: Journey Orchestration
-source-git-commit: 083545ff7b2dc5ce45ef3766321fdf12e1b96c5c
+source-git-commit: 2dfc9c2db5af1b9b74f7405a68e85563f633a54f
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '722'
 ht-degree: 3%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 3%
 
 >[!CAUTION]
 >
->결정 정책은 **코드 기반 경험** 및 **푸시 알림** 채널에 대해 모든 고객이 사용할 수 있습니다.
+>결정 정책은 **코드 기반 경험**, **SMS** 및 **푸시 알림** 채널에 대해 모든 고객이 사용할 수 있습니다.
 >
 >이메일 채널에 대한 의사 결정은 제한된 가용성으로 사용할 수 있습니다. 액세스 권한을 요청하려면 Adobe 담당자에게 문의하십시오. [가용성 레이블](../rn/releases.md#availability-labels)에 대해 자세히 알아보세요.
 
@@ -56,6 +56,14 @@ ht-degree: 3%
 
    ![](assets/decision-policy-placement.png)
 
+>[!TAB SMS]
+
+1. **Personalization 편집기**&#x200B;를 열고 **[!UICONTROL 의사 결정 정책]**(으)로 이동합니다.
+
+2. **[!UICONTROL 구문 삽입]**&#x200B;을 선택하여 의사 결정 정책에 대한 코드를 추가합니다.
+
+   ![](assets/decision-policy-add-sms-insert-syntax.png)
+
 >[!TAB 푸시]
 
 1. **Personalization 편집기**&#x200B;를 열고 **[!UICONTROL 의사 결정 정책]**(으)로 이동합니다.
@@ -74,7 +82,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->코드 기반 경험 및 이메일 채널의 경우 반환할 의사 결정 항목마다 이 시퀀스를 한 번씩 반복합니다. 예를 들어 [결정을 만들 때](create-decision-policy.md) 2개 항목을 반환하도록 선택한 경우 시퀀스를 두 번 반복합니다. 푸시 채널의 경우 하나의 결정 항목만 반환할 수 있습니다.
+>코드 기반 경험 및 이메일 채널의 경우 반환할 의사 결정 항목마다 이 시퀀스를 한 번씩 반복합니다. 예를 들어 [결정을 만들 때](create-decision-policy.md) 2개 항목을 반환하도록 선택한 경우 시퀀스를 두 번 반복합니다. SMS 및 푸시 채널의 경우 하나의 결정 항목만 반환할 수 있습니다.
 
 ## 의사 결정 항목 속성을 사용하여 개인화 {#attributes}
 
@@ -98,10 +106,16 @@ ht-degree: 3%
 
   +++
 
-* **Push** 채널의 경우, 결정 정책의 구문 코드 뒤에 특성을 삽입해야 합니다. 이 구문은 항상 1행을 유지해야 합니다.
+* **SMS** 및 **Push** 채널의 경우, 결정 정책의 구문 코드 뒤에 특성을 삽입하십시오. 이 구문은 항상 1행을 유지해야 합니다.
+
+  +++예제 참조
+
+  ![](assets/decision-added-sms.png)
+
+  +++
 
   >[!NOTE]
-  >이미지 자산 속성을 푸시 콘텐츠(예: 제목 또는 본문)에 삽입하면 속성 값이 URL로 표시됩니다. 이미지 자체는 해당 필드에서 렌더링되지 않습니다.
+  >이미지 자산 속성을 SMS나 푸시 콘텐츠(예: 제목 또는 본문)에 삽입하는 경우 속성 값이 URL로 표시됩니다. 이미지 자체는 해당 필드에서 렌더링되지 않습니다.
 
 * 결정 항목 추적을 사용하려면 `trackingToken` 특성을 추가하십시오. `trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
