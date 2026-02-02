@@ -7,9 +7,9 @@ role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: c2388c84346ed9a0409270fd96f3a1458bf8ad88
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '625'
 ht-degree: 29%
 
 ---
@@ -85,3 +85,8 @@ ht-degree: 29%
 
 ➡️ [의사 결정 정책을 만드는 방법 알아보기](../experience-decisioning/create-decision-policy.md)
 
+## 사용 방법 비디오 {#video}
+
+Decisioning을 사용하여 대상자를 위한 이메일을 개인화하는 방법을 알아봅니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
