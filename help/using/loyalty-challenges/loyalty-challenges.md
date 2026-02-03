@@ -9,25 +9,23 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-badge: label="Beta" type="Informative"
+badge: label="비공개 베타" type="Informative"
 version: Journey Orchestration
-source-git-commit: 223209750f1147e97d003ffb9d7231c7cef75663
+source-git-commit: ee67a1a9270c12fdf199bc378deaa6006553533c
 workflow-type: tm+mt
-source-wordcount: '4945'
+source-wordcount: '4925'
 ht-degree: 1%
 
 ---
 
-<!-- markdownlint-disable MD025 -->
-# 충성도 문제 {#loyalty-challenges}
 
-충성도 문제를 사용하면 고객을 위한 개인화된 참여 오퍼를 만들어 충성도 프로그램을 규모에 맞게 오케스트레이션할 수 있습니다. 특정 작업 및 이정표를 통해 문제를 디자인하고, 이를 완료한 고객에게 보상하며, Adobe Journey Optimizer 채널을 통해 경험을 전달할 수 있습니다.
+# 충성도 문제 {#loyalty-challenges}
 
 >[!AVAILABILITY]
 >
->충성도 문제는 현재 **베타**&#x200B;에 있습니다. 베타 단계 동안에는 로열티 과제 UI의 상황별 도움말만 통해 이 설명서를 숨기며 액세스할 수 있습니다.
->
->인스턴스에 충성도 문제가 표시되지 않으면 Adobe 담당자에게 Beta 액세스를 요청하십시오.
+>이 기능은 현재 **개인 베타**&#x200B;에 있으며 사용자의 환경에서는 사용할 수 없습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.
+
+충성도 문제를 사용하면 고객을 위한 개인화된 참여 오퍼를 만들어 충성도 프로그램을 규모에 맞게 오케스트레이션할 수 있습니다. 특정 작업 및 이정표를 통해 문제를 디자인하고, 이를 완료한 고객에게 보상하며, Adobe Journey Optimizer 채널을 통해 경험을 전달할 수 있습니다.
 
 >[!BEGINSHADEBOX]
 >
@@ -92,7 +90,7 @@ ht-degree: 1%
 
   자세한 지침은 다음을 참조하십시오.
 
-   * [Experience Platform 소스 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/home)
+   * [Experience Platform 소스 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
    * [Journey Optimizer에서 소스 커넥터 구성](../start/get-started-sources.md)
 
 * 필요한 권한 {#required-permissions}
@@ -200,7 +198,7 @@ ht-degree: 1%
 
 대상을 만들거나 세분화하려면 [Journey Optimizer에서 대상 빌드](../audience/about-audiences.md)를 참조하십시오.
 
-&#x200B;4. **[!UICONTROL 초안으로 저장]**&#x200B;을 선택하여 과제 구성을 계속합니다.
+4. **[!UICONTROL 초안으로 저장]**&#x200B;을 선택하여 과제 구성을 계속합니다.
 
 ## 작업 만들기 {#create-tasks}
 
@@ -1042,5 +1040,5 @@ Beta 단계에서 귀하의 의견은 충성도 문제를 개선하는 데 유�
 * [푸시 알림 만들기](../push/create-push.md)
 * [여정 작성](../building-journeys/journey-gs.md)
 * [여정 모니터링](../building-journeys/report-journey.md)
-* [Experience Platform 소스 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/home)
+* [Experience Platform 소스 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [Journey Optimizer에서 소스 커넥터 구성](../start/get-started-sources.md)
