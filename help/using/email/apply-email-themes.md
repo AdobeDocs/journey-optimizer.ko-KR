@@ -10,9 +10,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 이메일 테마, 모듈, 재사용 가능성, 브랜드 일관성, 이메일 디자인, 사용자 지정 CSS, 모바일 최적화
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
-source-git-commit: 365ed7f735760ee5763d0f12ea366c662a097948
+source-git-commit: 8caa8f8e126f062535b5276b4d96de10875a3406
 workflow-type: tm+mt
-source-wordcount: '1604'
+source-wordcount: '1741'
 ht-degree: 3%
 
 ---
@@ -53,6 +53,12 @@ ht-degree: 3%
    * 가져온 HTML 콘텐츠를 계속 변환할 수도 있습니다. [자세히 알아보기](existing-content.md)
 
   <!--To fully leverage all the capabilities of the Email Designer, including themes, you must either create a new content in Use Themes mode, or convert your imported HTML content. [Learn more](existing-content.md)-->
+
+* 테마에서 사용자 지정 웹 글꼴(Google 글꼴 포함)을 사용할 때는 많은 이메일 클라이언트가 이를 지원하지 않습니다. 모든 이메일 클라이언트에서 가독성을 보장하기 위해 항상 테마에 적절한 대체 글꼴을 정의하십시오.
+
+   * Gmail과 Yahoo! 외부 웹 글꼴을 로드하지 않고 HTML/CSS에 지정된 글꼴 패밀리에 관계없이 시스템 글꼴로 대체됩니다.
+   * Gmail에서 지원하는 유일한 Google 글꼴은 Roboto 및 Google San입니다.
+   * *do*&#x200B;에서 웹 글꼴을 지원하는 전자 메일 클라이언트에는 Apple Mail, iOS Mail, Android Mail, Thunderbird 및 macOS용 Outlook이 포함됩니다.
 
 <!--If you apply a theme to a content using a [fragment](../content-management/fragments.md) created with Manual Styling mode, the rendering may not be optimal.-->
 
@@ -99,6 +105,10 @@ ht-degree: 3%
 1. **[!UICONTROL 텍스트 설정]**&#x200B;에서 전체 테마에 사용할 전역 글꼴을 설정할 수 있습니다. 더 세분화된 제어를 위해 각 제목과 단락 유형을 편집하여 글꼴, 크기, 스타일 등을 조정할 수도 있습니다.
 
    ![](assets/theme-text.png)
+
+   >[!NOTE]
+   >
+   >사용자 지정 웹 글꼴을 선택할 때는 Gmail 및 Yahoo! 외부 웹 글꼴을 지원하지 않으므로 시스템 글꼴로 대체됩니다. 모든 이메일 클라이언트에 컨텐츠가 올바르게 표시되도록 하려면 대체 글꼴을 포함하는 것이 좋습니다. [자세히 알아보기](#themes-guardrails)
 
 1. **[!UICONTROL 간격]** 탭의 목록에서 개별 요소를 선택하여 다른 구성 요소 사이에 적절하게 간격을 지정합니다.
 
