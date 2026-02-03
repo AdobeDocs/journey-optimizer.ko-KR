@@ -3,15 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 충성도 문제
 description: 매력적인 충성도 프로그램을 제작하기 위해 Adobe Journey Optimizer에서 충성도 문제를 만들고 관리하는 방법을 알아봅니다.
-feature: Loyalty challenges
-topic: Journeys
 role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="비공개 베타" type="Informative"
 version: Journey Orchestration
-source-git-commit: b68c2610cbaaa8dbd86deb677562185e08d517ea
+source-git-commit: ef8f7754b689491bb052023ffbef0c8400dd79fe
 workflow-type: tm+mt
 source-wordcount: '5146'
 ht-degree: 1%
@@ -117,7 +115,7 @@ ht-degree: 1%
 
   자세한 지침은 다음을 참조하십시오.
 
-   * [Experience Platform 소스 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/home)
+   * [Experience Platform 소스 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
    * [Journey Optimizer에서 소스 커넥터 구성](../start/get-started-sources.md)
 
 * 필요한 권한 {#required-permissions}
@@ -1068,5 +1066,5 @@ Beta 단계에서 귀하의 의견은 충성도 문제를 개선하는 데 유�
 * [푸시 알림 만들기](../push/create-push.md)
 * [여정 작성](../building-journeys/journey-gs.md)
 * [여정 모니터링](../building-journeys/report-journey.md)
-* [Experience Platform 소스 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/home)
+* [Experience Platform 소스 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [Journey Optimizer에서 소스 커넥터 구성](../start/get-started-sources.md)
