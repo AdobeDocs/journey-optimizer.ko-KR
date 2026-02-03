@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 223209750f1147e97d003ffb9d7231c7cef75663
+source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
 workflow-type: tm+mt
-source-wordcount: '3077'
+source-wordcount: '3074'
 ht-degree: 98%
 
 ---
@@ -328,12 +328,12 @@ ht-degree: 98%
       + [SMS 하위 도메인 설정](using/sms/sms-subdomains.md)
       + [SMS 비용 최적화 모범 사례](using/sms/sms-cost-optimization.md)
       + SMS / MMS / RCS 채널 구성 {#configure-sms}
-         + [SMS / MMS / RCS 채널 구성](/help/rp_landing_pages/configure-sms-landing-page.md)
          + [SMS / MMS / RCS 구성 시작](using/sms/sms-configuration.md)
          + [Sinch 제공자 구성](using/sms/sms-configuration-sinch.md)
          + [Infobip 제공자 구성](using/sms/sms-configuration-infobip.md)
          + [Twilio 제공자 구성](using/sms/sms-configuration-twilio.md)
          + [사용자 정의 공급자 구성](using/sms/sms-configuration-custom.md)
+         + [웹후크 만들기](using/sms/sms-webhook.md)
          + [SMS / MMS / RCS 구성 만들기](using/sms/sms-configuration-surface.md)
    + 다이렉트 메일 {#direct-mail}
       + [다이렉트 메일](/help/rp_landing_pages/direct-mail-landing-page.md)
@@ -349,7 +349,7 @@ ht-degree: 98%
          + [웹 채널 전제 조건](using/web/web-prerequisites.md)
          + [웹 하위 도메인 구성](using/web/web-delegated-subdomains.md)
          + [웹 채널 구성 만들기](using/web/web-configuration.md)
-      + [웹 경험 만들기 &#x200B;](using/web/create-web.md)
+      + [웹 경험 만들기 ](using/web/create-web.md)
       + 웹 페이지 작성 {#author-web-pages}
          + [웹 페이지 작성](/help/rp_landing_pages/author-web-pages-landing-page.md)
          + [웹 디자이너를 사용하여 작업](using/web/web-visual-editor.md)
@@ -403,7 +403,7 @@ ht-degree: 98%
          + [Journey Optimizer에서 라이브 활동 구성](using/mobile-live/mobile-live-configuration.md)
          + [라이브 활동 SDK 통합 구성](using/mobile-live/mobile-live-configuration-sdk.md)
 + 콘텐츠 관리 {#content-management}
-   + [콘텐츠 관리 &#x200B;](/help/rp_landing_pages/content-management-landing-page.md)
+   + [콘텐츠 관리 ](/help/rp_landing_pages/content-management-landing-page.md)
    + 개인화 {#personalization}
       + [개인화](/help/rp_landing_pages/personalization-landing-page.md)
       + [개인화 시작](using/personalization/personalize.md)

@@ -7,16 +7,25 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d6f74566-c913-4727-83b9-473a798a0158
-source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
+source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '518'
 ht-degree: 2%
 
 ---
 
 # Twilio 제공자 구성 {#sms-configuration-twilio}
 
-## SMS/MMS에 대한 API 자격 증명 구성
+Twilio를 Adobe Journey Optimizer과 통합하면 여정 및 캠페인의 일부로 프로필에 텍스트 메시지를 전달할 수 있습니다.
+
+Twilio를 SMS 공급자로 구성하려면 아래 단계를 수행합니다.
+
+1. [API 자격 증명 만들기](#api-credential)
+1. [웹후크 만들기](sms-webhook.md)
+1. [채널 구성 만들기](sms-configuration-surface.md)
+1. [SMS 채널 작업으로 여정 또는 캠페인 만들기](create-sms.md)
+
+## SMS/MMS에 대한 API 자격 증명 구성 {#api-credential}
 
 Journey Optimizer으로 Twilio를 구성하려면 Twilio에 대한 새 API 자격 증명을 만들어야 합니다.
 

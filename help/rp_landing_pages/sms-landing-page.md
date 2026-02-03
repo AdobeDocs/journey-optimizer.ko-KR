@@ -5,22 +5,22 @@ title: SMS / MMS / RCS 채널
 description: SMS / MMS / RCS 채널
 redpen-status: CREATED_||_2025-08-11_20-38-50
 exl-id: 1e59db2e-087f-4ce8-9d9e-99ff872c0062
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 100%
+ht-degree: 81%
 
 ---
 
 # SMS / MMS / RCS 채널{#section-overview}
 
-Adobe Journey Optimizer의 SMS/MMS/RCS 채널을 사용하면 개인화된 텍스트 메시지를 통해 고객과 모바일 기기에서 직접 소통할 수 있습니다. SMS를 통한 간단한 업데이트, MMS를 통한 풍부한 멀티미디어 콘텐츠 또는 RCS를 통한 대화형 브랜드 메시지를 보내는 경우 등, 이 채널에서는 다양한 연결 방식을 제공합니다. 서비스 공급자를 구성하고, 메시지를 만들고 개인화하고, 캠페인이나 여정에 통합하고, 옵트아웃 관리를 준수하는 방법을 살펴볼 수 있습니다. 그 과정에서 최대 효과를 위한 커뮤니케이션을 테스트, 전송 및 관리하는 방법을 배우고, 대상자에게 공감하는 적절한 메시지를 적시에 쉽게 전달할 수 있습니다.
+Adobe Journey Optimizer의 SMS/MMS/RCS 채널을 사용하면 개인화된 텍스트 메시지를 통해 고객과 모바일 기기에서 직접 소통할 수 있습니다. SMS를 통한 간단한 업데이트, MMS를 통한 풍부한 멀티미디어 콘텐츠 또는 RCS를 통한 대화형 브랜드 메시지를 보내는 경우에도 이 채널은 다양한 연결 방식을 제공합니다. 서비스 공급자를 구성하고, 메시지를 만들고 개인화하고, 캠페인이나 여정에 통합하고, 옵트아웃 관리를 준수하는 방법을 살펴볼 수 있습니다. 그 과정에서 최대 효과를 위한 커뮤니케이션을 테스트, 전송 및 관리하는 방법을 배우고, 대상자에게 공감하는 적절한 메시지를 적시에 쉽게 전달할 수 있습니다.
 
 ## SMS / MMS / RCS 채널 개요
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 텍스트 메시지 시작
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 SMS, MMS 및 RCS 메시지를 구성, 생성 및 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 SMS, MMS 및 RCS 메시지 작성 방법
 
@@ -40,7 +40,7 @@ SMS, MMS 및 RCS 메시지 작성 방법
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 텍스트 메시지 확인하고 전송하기
 
@@ -50,7 +50,7 @@ SMS, MMS 및 RCS 메시지 작성 방법
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 텍스트 메시지 옵트아웃 관리
 
@@ -60,7 +60,7 @@ SMS, MMS 및 RCS 커뮤니케이션에 대한 옵트아웃 프로세스를 관�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 SMS 하위 도메인 설정
 
@@ -70,13 +70,13 @@ SMS 하위 도메인 설정
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 SMS / MMS / RCS 채널 구성
 
 지원되는 공급자, 사용자 정의 구성 및 맞춤 옵션을 사용한 메시지 채널 설정에 대한 종합적인 지침입니다.
 
-[구성 살펴보기](configure-sms-landing-page.md)
+[구성 살펴보기](../using/sms/sms-configuration.md)
 :::
 
 ::::

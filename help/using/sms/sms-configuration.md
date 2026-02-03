@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
+source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '414'
 ht-degree: 41%
 
 ---
@@ -50,6 +50,7 @@ SMS, MMS 또는 RCS를 보내기 전에 Adobe Journey Optimizer 환경을 구성
    * [Sinch](sms-configuration-sinch.md)
    * [트빌리오](sms-configuration-twilio.md)
    * [사용자 정의 공급자](sms-configuration-custom.md)
+1. [웹후크 만들기](sms-webhook.md)
 1. [SMS 구성 만들기](sms-configuration-surface.md)
 
 이 단계는 Adobe Journey Optimizer [시스템 관리자](../start/path/administrator.md)가 수행해야 합니다.
