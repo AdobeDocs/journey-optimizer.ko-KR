@@ -90,7 +90,7 @@ ht-degree: 1%
 
   자세한 지침은 다음을 참조하십시오.
 
-   * [Experience Platform 소스 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
+   * [Experience Platform 소스 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/home)
    * [Journey Optimizer에서 소스 커넥터 구성](../start/get-started-sources.md)
 
 * 필요한 권한 {#required-permissions}
@@ -1040,5 +1040,5 @@ Beta 단계에서 귀하의 의견은 충성도 문제를 개선하는 데 유�
 * [푸시 알림 만들기](../push/create-push.md)
 * [여정 작성](../building-journeys/journey-gs.md)
 * [여정 모니터링](../building-journeys/report-journey.md)
-* [Experience Platform 소스 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
+* [Experience Platform 소스 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/home)
 * [Journey Optimizer에서 소스 커넥터 구성](../start/get-started-sources.md)
