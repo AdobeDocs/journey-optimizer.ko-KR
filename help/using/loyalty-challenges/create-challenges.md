@@ -10,10 +10,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="비공개 베타" type="Informative"
-source-git-commit: 419c7b3913ca4da50c69ed36ffc1a8c8520607b4
+source-git-commit: 7b075996eebd03f0aa812da3ece9cfebef8c65fc
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 0%
+source-wordcount: '1079'
+ht-degree: 1%
 
 ---
 
@@ -54,8 +54,6 @@ ht-degree: 0%
 * 과제 유형(표준, 연속, 순차적)
 * 대상자 선택
 * 날짜 구성
-
-[기본 설명서](loyalty-challenges.md#create-challenges)에서 전체 안내서를 참조하세요.
 
 ## 작업 추가 {#add-tasks}
 
@@ -248,16 +246,12 @@ ht-degree: 0%
 * 디자인 및 개인화
 * 미리보기 및 테스트
 
-[기본 설명서](loyalty-challenges.md#configure-content-cards)에서 전체 안내서를 참조하세요.
-
 ## 메시징 구성 {#configure-messaging}
 
 다중 채널 메시지 구성에 대한 자세한 단계는 다음과 같습니다.
 * 메시지 채널(인앱, 이메일, 푸시)
 * 메시지 단계(시작, 진행 중, 완료)
 * 메시지 타이밍 및 트리거
-
-[기본 설명서](loyalty-challenges.md#configure-messaging)에서 전체 안내서를 참조하세요.
 
 ## 검토 및 게시 {#review-and-publish}
 

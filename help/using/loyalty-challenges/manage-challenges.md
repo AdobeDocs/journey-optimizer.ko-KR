@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="비공개 베타" type="Informative"
-source-git-commit: 37606966f56468009aa1ef127751517eee0b3222
+source-git-commit: 7b075996eebd03f0aa812da3ece9cfebef8c65fc
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '387'
 ht-degree: 1%
 
 ---
@@ -49,8 +49,6 @@ ht-degree: 1%
 * **중지됨**: 완료하기 전에 수동으로 중지됨
 * **보관됨**: 조직용으로 보관됨
 
-각 상태 및 문제 관리에 대한 자세한 내용은 [기본 설명서](loyalty-challenges.md#manage-challenges)를 참조하세요.
-
 ## 문제 편집 {#edit-challenges}
 
 현재 상태에 따라 문제를 편집할 수 있습니다.
@@ -60,8 +58,6 @@ ht-degree: 1%
 
 주요 수정이 필요한 변경 사항의 경우 문제를 복제하고 새 버전을 만드십시오.
 
-자세한 편집 지침은 [기본 설명서](loyalty-challenges.md#edit-challenges)를 참조하세요.
-
 ## 과제 복제 {#duplicate-challenges}
 
 다음과 같은 과제의 중복:
@@ -69,8 +65,6 @@ ht-degree: 1%
 * 다양한 대상을 위한 변형 만들기
 * 작업 요구 사항 또는 보상 업데이트
 * 중지되거나 완료된 문제 다시 활성화
-
-자세한 단계는 [기본 설명서](loyalty-challenges.md#duplicate-challenge)를 참조하세요.
 
 ## 성능 모니터링 {#monitor-performance}
 
@@ -82,8 +76,6 @@ ht-degree: 1%
 * **참여 지표**: 콘텐츠 카드 노출 횟수, 메시지 게재
 
 과제 성능 탭의 성능 데이터 및 자동 생성된 여정 보고서에 액세스합니다.
-
-자세한 지표 및 보고는 [기본 설명서](loyalty-challenges.md#monitor-performance)를 참조하세요.
 
 ## 모범 사례 {#best-practices}
 
@@ -101,8 +93,6 @@ ht-degree: 1%
 * 조직에 일관된 태그 적용
 * 완료된 문제를 아카이빙하여 재고를 관리
 
-포괄적인 모범 사례를 보려면 [기본 설명서](loyalty-challenges.md#best-practices)를 참조하세요.
-
 ## 문제 해결 {#troubleshooting}
 
 일반적인 문제 및 솔루션:
@@ -111,8 +101,6 @@ ht-degree: 1%
 * **낮은 참여율**: 콘텐츠 가시성, 메시징 명확성, 작업 달성 가능성 검토
 * **작업이 트리거되지 않음**: 데이터 수집, 이벤트 특성, 대상 자격 요건 확인
 * **보상 할당되지 않음**: 구성 및 외부 시스템 연결 확인
-
-자세한 문제 해결 지침은 [기본 설명서](loyalty-challenges.md#troubleshooting)를 참조하세요.
 
 ## 다음 단계 {#next-steps}
 
