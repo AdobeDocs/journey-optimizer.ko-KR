@@ -198,7 +198,7 @@ ht-degree: 1%
 
 대상을 만들거나 세분화하려면 [Journey Optimizer에서 대상 빌드](../audience/about-audiences.md)를 참조하십시오.
 
-4. **[!UICONTROL 초안으로 저장]**&#x200B;을 선택하여 과제 구성을 계속합니다.
+&#x200B;4. **[!UICONTROL 초안으로 저장]**&#x200B;을 선택하여 과제 구성을 계속합니다.
 
 ## 작업 만들기 {#create-tasks}
 
