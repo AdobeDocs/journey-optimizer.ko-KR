@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: bd98e4dc77a0adde83df6251af749aa6da8c058d
+source-git-commit: cd85a3916735373c2cb63f0ad517ff7e5fbf001c
 workflow-type: tm+mt
-source-wordcount: '3093'
+source-wordcount: '3091'
 ht-degree: 97%
 
 ---
@@ -354,7 +354,7 @@ ht-degree: 97%
          + [웹 채널 전제 조건](using/web/web-prerequisites.md)
          + [웹 하위 도메인 구성](using/web/web-delegated-subdomains.md)
          + [웹 채널 구성 만들기](using/web/web-configuration.md)
-      + [웹 경험 만들기 &#x200B;](using/web/create-web.md)
+      + [웹 경험 만들기 ](using/web/create-web.md)
       + 웹 페이지 작성 {#author-web-pages}
          + [웹 페이지 작성](/help/rp_landing_pages/author-web-pages-landing-page.md)
          + [웹 디자이너를 사용하여 작업](using/web/web-visual-editor.md)
@@ -408,7 +408,7 @@ ht-degree: 97%
          + [Journey Optimizer에서 라이브 활동 구성](using/mobile-live/mobile-live-configuration.md)
          + [라이브 활동 SDK 통합 구성](using/mobile-live/mobile-live-configuration-sdk.md)
 + 콘텐츠 관리 {#content-management}
-   + [콘텐츠 관리 &#x200B;](/help/rp_landing_pages/content-management-landing-page.md)
+   + [콘텐츠 관리 ](/help/rp_landing_pages/content-management-landing-page.md)
    + 개인화 {#personalization}
       + [개인화](/help/rp_landing_pages/personalization-landing-page.md)
       + [개인화 시작](using/personalization/personalize.md)
@@ -499,7 +499,7 @@ ht-degree: 97%
          + [브랜드](/help/rp_landing_pages/brands-landing-page.md)
          + [브랜드 만들기 및 관리](using/content-management/brands.md)
          + [브랜드 개인화](using/content-management/brands-personalize.md)
-         + [브랜드 정렬 점수 평가](using/content-management/brands-score.md)
+         + [콘텐츠 평가](using/content-management/brands-score.md)
    + 다국어 콘텐츠 {#content-multilingual}
       + [다국어 콘텐츠](/help/rp_landing_pages/content-multilingual-landing-page.md)
       + [다국어 콘텐츠 시작](using/content-management/multilingual-gs.md)
