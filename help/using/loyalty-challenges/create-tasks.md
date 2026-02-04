@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="비공개 베타" type="Informative"
-source-git-commit: dbed4ffeb63ec3c58ff61845bbdb91fd2d51e69b
+source-git-commit: fd87aeabfae1f07d8f7bea7057f0c6dd0559d024
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 +++작업 인벤토리에서
 
-1. Journey Optimizer의 **[!UICONTROL 충성도 과제]**(으)로 이동합니다.
+1. Journey Optimizer의 **[!UICONTROL 충성도 과제(Beta)]**(으)로 이동합니다.
 
 1. **[!UICONTROL 작업]** 탭을 선택합니다.
 

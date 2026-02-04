@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="비공개 베타" type="Informative"
-source-git-commit: 5120eb51311348b8561b0a20f982576f6c945921
+source-git-commit: fd87aeabfae1f07d8f7bea7057f0c6dd0559d024
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '1521'
 ht-degree: 0%
 
 ---
@@ -38,48 +38,66 @@ ht-degree: 0%
 
 ## 작동 방식 {#how-it-works}
 
-<!-- SCHEMA: Visual workflow showing the 5 main steps with icons: Create challenge → Add tasks → Design content cards → Configure messaging → Review and publish -->
-
 충성도 문제를 만들고 실행하는 것은 다음 워크플로를 따릅니다.
 
-1. **챌린지 만들기** - 이름, 유형(표준, 연속 또는 순차적), 대상 및 날짜 범위를 포함한 기본 챌린지 속성을 정의합니다.
+1. **[도전 만들기](#create-the-challenge)** - 충성도 프로그램 목표에 가장 적합한 도전 유형(표준, 연속 또는 순차적)을 선택합니다.
 
-1. **작업 추가** - 작업 유형(구매, 지출, 방문 등), 수량, 제품 필터 및 보상을 포함하여 고객이 완료해야 하는 특정 작업을 정의합니다.
+1. **[과제 구조 구성](#structure)** - 과제 속성, 일정, 고객이 완료해야 하는 작업 및 보상을 정의합니다.
 
-1. **콘텐츠 카드 디자인** - 고객 장치에 표시되는 Journey Optimizer 콘텐츠 카드를 사용하여 도전의 시각적 표현을 만듭니다.
+1. **[콘텐츠 카드 구성](#configure-content-cards)** - 고객 장치에서 도전을 시각적으로 표현하도록 콘텐츠 카드를 디자인하고 도전 정보, 진행 상황 및 보상을 표시합니다.
 
-1. **메시지 구성**(선택 사항) - 시작, 진행 중 및 완료와 같은 주요 단계에 대해 멀티채널 메시지(인앱, 이메일, 푸시, SMS)를 설정합니다.
+1. **[메시지 구성](#configure-messaging)**(선택 사항) - 시작, 진행 중 및 완료와 같은 주요 단계에 대해 멀티채널 메시지(인앱, 이메일, 푸시)를 설정합니다.
 
-1. **검토 및 게시** - 테스트 프로필로 문제를 테스트한 다음 게시하여 대상 대상자가 사용할 수 있도록 합니다.
+1. **[과제 대상 선택](#audience)** - 과제에 참여할 수 있는 고객을 정의합니다.
 
-## 과제 만들기 {#create-challenge}
+1. **[여정 생성 및 활성화](#review-and-publish)** - 연결된 여정을 생성하고 활성화하여 대상 대상자가 문제를 사용할 수 있도록 합니다.
 
-<!-- SCREENSHOT: Challenge creation screen showing challenge properties form with fields for name, type, audience, dates -->
+## 과제 만들기 {#create-the-challenge}
 
-새로운 충성도 과제를 만들려면:
+1. Journey Optimizer의 **[!UICONTROL 충성도 과제(Beta)]**(으)로 이동합니다.
 
-1. Journey Optimizer의 **[!UICONTROL 충성도 과제]**(으)로 이동합니다.
+1. **[!UICONTROL 과제]** 탭을 선택하고 **[!UICONTROL 과제 만들기]**&#x200B;를 선택합니다.
 
-1. **[!UICONTROL 과제]** 탭을 선택하십시오.
+   ![](assets/challenge-create.png)
 
-1. **[!UICONTROL 질문 만들기]**&#x200B;를 선택하십시오.
+1. 과제 유형 선택:
 
-1. 과제 속성을 구성합니다.
-
-   **도전 이름**: 도전의 수사적 이름을 입력하십시오. 이 이름은 과제 인벤토리에 표시되며 과제를 식별하는 데 도움이 됩니다.
-
-   **도전 유형**: 다음 유형 중 하나를 선택하십시오.
    * **[!UICONTROL 표준]**: 고객은 지정된 수의 작업을 순서에 관계없이 완료합니다
    * **[!UICONTROL 연속]**: 고객은 동일한 작업을 여러 번 연속적으로 완료합니다
    * **[!UICONTROL 순차적]**: 고객은 정의된 순서로 작업을 완료합니다
 
-   **대상**: 이 문제에 참여할 수 있는 사용자를 정의하는 대상 세그먼트를 선택하십시오. 문제를 만들려면 먼저 Experience Platform에서 대상을 만들어야 합니다. 자세한 내용은 [대상자 시작](../audience/about-audiences.md)을 참조하세요.
+## 과제 구조 구성 {#structure}
 
-   **시작 날짜**: 고객이 도전을 사용할 수 있게 되면 설정합니다.
+구조 탭에서는 과제 구성 방법(속성, 일정, 완료할 작업 및 제공할 보상)을 정의합니다.
 
-   **종료 날짜**: 문제가 만료되어 더 이상 새 완료를 허용하지 않는 시기를 설정합니다.
+### 과제 속성 정의 및 사용자 지정 메타데이터 사용 {#properties}
 
-<!-- VISUAL: Comparison table or diagram showing the three challenge types (Standard, Streak, Sequential) with examples of each -->
+1. 과제 속성 창에서 과제 속성을 구성합니다.
+
+   ![](assets/challenge-create-properties.png)
+
+   **이름**: 챌린지를 설명하는 이름을 입력하십시오. 이 이름은 과제 인벤토리에 표시되며 과제를 식별하는 데 도움이 됩니다.
+
+   **설명**: 챌린지에 대한 설명을 입력하십시오.
+
+1. 키/값 쌍을 사용하여 사용자 지정 메타데이터를 추가하려면 **[!UICONTROL 사용자 지정 메타데이터]** 섹션을 사용하십시오. 이 메타데이터는 추적, 세분화 또는 외부 시스템과의 통합에 사용할 수 있습니다.
+
+### 챌린지 예약 {#schedule}
+
+![](assets/do-not-localize/schedule-icon.svg) **[!UICONTROL 일정 열기]** 아이콘을 선택하여 챌린지를 예약합니다.
+
+* **시작 날짜 및 시간**: 도전을 고객이 사용할 수 있게 되는 시점을 설정합니다(형식: mm/dd/yyyy, —:— AM/PM).
+
+* **종료 날짜 및 시간**: 챌린지가 만료되고 더 이상 새 완료를 허용하지 않는 시점을 설정합니다(형식: mm/dd/yyyy, —:— AM/PM).
+
+* **표준 시간대**: 이 문제는 기본적으로 받는 사람의 로컬 표준 시간대를 사용합니다.
+
+* **작업을 완료해야 함**: 고객이 작업을 완료할 수 있는 시기 선택:
+
+   * **[!UICONTROL 챌린지 기간 중 언제든지]**: 고객은 챌린지 시작 날짜와 종료 날짜 사이에 언제든지 작업을 완료할 수 있습니다.
+   * **[!UICONTROL 하루 중 특정 시간]**: **[!UICONTROL 시작 시간]** 및 **[!UICONTROL 종료 시간]**&#x200B;을 설정하여 작업 완료를 특정 일일 시간으로 제한합니다.
+
+이제 챌린지 일정이 구성되었습니다. 이제 고객이 완료해야 하는 작업을 추가할 수 있습니다.
 
 ### 작업 추가 {#add-tasks}
 
@@ -91,110 +109,149 @@ ht-degree: 0%
 * **연속 문제**: 동일한 작업을 여러 번 연속적으로 완료하십시오.
 * **순차적인 문제**: 정의된 순서로 작업 완료
 
-작업에 작업을 추가하려면 작업 섹션에서 **[!UICONTROL 작업 추가]**&#x200B;를 선택하고 작업 속성을 구성하십시오.
+과제에 작업을 추가하려면 다음 단계를 수행합니다.
 
-작업 만들기 및 구성에 대한 자세한 지침은 [작업 만들기](create-tasks.md)를 참조하세요.
+1. **[!UICONTROL 작업]** 섹션에서 **[!UICONTROL 작업 추가]**&#x200B;를 선택합니다.
 
-### 콘텐츠 카드 구성 {#configure-content-cards}
+   ![](assets/challenge-create-add-task.png)
 
-<!-- SCREENSHOT: Content cards configuration section in the challenge editor -->
+1. 작업 인벤토리가 열립니다. 목록에서 작업을 하나 이상 선택하고 **[!UICONTROL 추가]**&#x200B;를 선택합니다. 새 작업을 만들려면 **[!UICONTROL 새로 만들기]**&#x200B;를 선택하세요.
+
+   작업 만들기 및 구성에 대한 자세한 지침은 [작업 만들기](create-tasks.md)를 참조하세요.
+
+1. **[!UICONTROL 작업 완료 요구 사항]** 섹션에서 챌린지를 완료로 간주할 시기를 지정합니다.
+
+   * **[!UICONTROL 고객이 완료할 작업 1개 선택]**: 고객은 도전에서 원하는 단일 작업을 선택하여 완료하면 보상을 받을 수 있습니다
+   * **[!UICONTROL 고객이 특정 수의 작업을 완료합니다]**: 고객은 정의된 수의 작업을 완료해야 합니다. 필요한 태스크 완료 수를 입력합니다.
+
+1. 기본적으로 문제를 해결하면 여러 트랜잭션에서 작업을 완료할 수 있습니다. 모든 작업을 단일 트랜잭션으로 완료하도록 하려면 ![](assets/do-not-localize/settings-icon.svg) **[!UICONTROL 설정]** 아이콘을 선택하고 **[!UICONTROL 단일 트랜잭션]** 옵션을 켜십시오.
+
+   ![](assets/challenge-create-single-transaction.png)
+
+### 보상 구성 {#rewards}
+
+리워드는 고객이 도전을 완료하여 얻는 충성도 포인트 또는 혜택입니다. 고객 참여를 유도하기 위해 보상이 전달되는 방법과 시기를 구성합니다.
+
+1. **[!UICONTROL 보상 전달]** 드롭다운에서 보상이 전달되어야 하는 시기를 선택합니다.
+
+   * **[!UICONTROL 도전이 완료되면 보상 제공]**: 고객이 전체 도전을 완료하면 모든 보상 제공
+   * **[!UICONTROL 과제 진행에 따라 과제 완료 마일스톤에 보상 제공]**: 고객이 개별 과제를 완료하면 점진적으로 보상 제공(과제에 두 개 이상의 과제를 완료해야 하는 경우에만 제공)
+
+1. 드롭다운에서 보상 제공자를 선택합니다. 고객 포인트와 보상을 관리하는 충성도 솔루션입니다.
+
+1. 선택한 게재 방법에 따라 보상 금액을 구성합니다.
+
+   +++도전이 완료되면 보상 제공
+
+   **챌린지 완료 시 [충성도 포인트]의 수** 필드에서 고객이 전체 챌린지를 완료할 때 제공할 총 보상 금액을 지정합니다.
+
+   필드 이름은 선택한 공급자에 정의된 충성도 포인트 이름을 표시합니다. 예를 들어 공급자가 &quot;Luma 포인트&quot;를 사용하는 경우 필드에 &quot;챌린지 완료 시 Luma 포인트 수&quot;가 표시됩니다.
+
+   ![](assets/challenge-create-reward-total.png)
+
+   **예**: 위의 스크린샷에서는 도전을 완료할 때 고객에게 100점이 주어집니다.
+
+   +++
+
+   +++작업 완료 이정표에 대한 보상 제공
+
+   작업 완료 이정표에 대한 보상 금액을 지정합니다. 이 옵션을 사용하면 문제를 해결할 때 고객 동기를 높이는 점진적 보상을 만들 수 있습니다.
+
+   보상을 전달하려는 작업의 경우 보상 옵션을 켜고 고객이 해당 특정 작업을 완료할 때 보상을 줄 점수 수를 지정합니다. 특정 작업 완료만 보상하도록 선택할 수 있습니다. 예를 들어, 작업이 10개인 경우 작업 1, 5, 10만 보상하도록 선택할 수 있습니다.
+
+   ![](assets/challenge-create-reward-milestones.png)
+
+   **예**: 위의 스크린샷에서는 첫 번째 작업을 완료하면 고객에게 10점을 부여하고 두 번째 작업을 완료한 후에는 50점을 추가하여 도전이 완료되면 총 60점을 부여합니다.
+
+   >[!TIP]
+   >
+   >과제 전반에 걸쳐 고객 참여를 유지할 수 있도록 이후 작업에 대한 보상 가치를 높이는 것을 고려하십시오.
+
+   +++
+
+이제 과제 및 보상으로 과제 구조가 구성되었습니다. 이제 고객에게 도전하는 것을 보여 주기 위해 콘텐츠 카드를 디자인할 수 있습니다.
+
+## 콘텐츠 카드 구성 {#configure-content-cards}
 
 콘텐츠 카드는 고객 디바이스에 대한 도전을 시각적으로 표현하여 도전 정보, 진행 상황 및 보상을 표시합니다. [콘텐츠 카드](../content-card/create-content-card.md)에 대해 자세히 알아보세요.
 
-<!-- VISUAL: Example content card designs showing different states: challenge start, in-progress with progress bar, completion with reward -->
-
 과제에 맞게 콘텐츠 카드를 구성하려면 다음을 수행하십시오.
 
-1. 과제 편집기에서 **[!UICONTROL 콘텐츠 카드]** 섹션으로 이동합니다.
+1. 과제 편집기에서 **[!UICONTROL 콘텐츠]** 탭으로 이동합니다.
 
-1. **[!UICONTROL 콘텐츠 카드 만들기]**&#x200B;를 선택하거나 기존 템플릿을 선택하십시오.
+1. 콘텐츠 카드의 **[!UICONTROL 이름]**&#x200B;을(를) 입력하십시오.
 
-1. 콘텐츠 카드 디자인:
-   * 이미지, 텍스트 및 브랜딩 요소 추가
-   * 고객별 정보를 표시하려면 [개인화 토큰](../personalization/personalization-syntax.md)을 포함하십시오.
-   * 과제 진행 표시기 표시
-   * 보상 및 인센티브 표시
+1. 연결된 **[!UICONTROL 채널 구성]**&#x200B;을(를) 선택하십시오. 채널 구성은 콘텐츠가 고객에게 제공되는 방법과 위치를 정의합니다. 자세한 내용은 [채널 구성](../configuration/channel-surfaces.md)을 참조하세요.
 
-1. 콘텐츠 카드가 표시될 시기를 구성합니다.
-   * **챌린지 시작**: 챌린지를 사용할 수 있게 되면 표시
-   * **진행 중**: 고객이 적극적으로 참여하는 동안 표시
-   * **완료**: 고객이 모든 작업을 완료한 후 표시
+1. **[!UICONTROL 콘텐츠 편집]**&#x200B;을 선택하여 콘텐츠 카드를 디자인합니다.
 
-1. 제대로 표시되도록 하려면 다른 장치에서 컨텐츠 카드를 미리 봅니다.
-
-1. 콘텐츠 카드 구성을 저장합니다.
+   ![](assets/challenge-create-content.png)
 
 콘텐츠 카드 디자인 및 개인화에 대한 자세한 내용은 [콘텐츠 카드 디자인](../content-card/design-content-card.md)을 참조하세요.
 
-### 메시징 구성 {#configure-messaging}
+이제 콘텐츠 카드가 구성되었습니다. 이제 메시지를 설정하여 과제 라이프사이클 전반에 걸쳐 고객을 참여시킬 수 있습니다.
 
-<!-- SCREENSHOT: Messaging configuration section showing the three lifecycle stages: Launch, In-progress, Completion -->
+### 메시징 구성 {#configure-messaging}
 
 멀티채널 메시지를 설정하여 과제 라이프사이클의 주요 단계에서 고객을 참여시킵니다.
 
-<!-- VISUAL: Timeline diagram showing when each message type is sent during the challenge lifecycle -->
-
-당면 과제에 대한 메시지를 구성하려면 다음을 수행하십시오.
-
-1. 과제 편집기에서 **[!UICONTROL 메시징]** 섹션으로 이동합니다.
+1. **[!UICONTROL 메시징]** 탭으로 이동합니다.
 
 1. 각 라이프사이클 단계에 대한 메시지를 구성합니다.
 
-   **시작 메시지** - 도전이 시작되면 고객에게 알림:
-   * 채널 선택: [앱 내](../in-app/get-started-in-app.md), [이메일](../email/get-started-email.md), [푸시 알림](../push/get-started-push.md) 또는 [SMS](../sms/get-started-sms.md)
-   * 과제 세부 정보 및 call-to-action을 사용하여 메시지 디자인
-   * 시간 설정: 도전이 실행되거나 특정 시간 동안 예약되면 즉시 전송
+   ![](assets/challenge-create-messaging.png)
 
-   **진행 중인 메시지** - 문제 중에 고객 참여 유지:
-   * 트리거 조건 정의(예: 50% 완료, 특정 작업 완료됨)
-   * 지속적인 참여를 독려하는 알림 메시지 만들기
-   * 진행 상황 업데이트 및 다음 단계 포함
+   * **시작 메시지**: 도전이 시작될 때 고객에게 알리고 초기 세부 정보를 제공합니다.
+   * **진행 중인 메시지**: 계속하기 위해 알림 메시지, 진행 상황 업데이트 및 격려를 통해 과제 동안 고객의 참여를 유지합니다.
+   * **완료 메시지**: 성공을 축하하고, 보상 할당을 확인하고, 다음 과제 또는 작업을 제안합니다.
 
-   **완료 메시지** - 성공을 축하하고 보상을 제공합니다.
-   * 고객의 도전 완료를 축하합니다.
-   * 보상 할당 확인
-   * 보상 청구에 대한 지침 제공
-   * 다음 과제 또는 작업 제안
+1. 각 단계에 대해 **[!UICONTROL *단계* 메시지 추가]**&#x200B;를 선택하여 해당 단계에 대한 메시지를 만듭니다.
 
-특정 채널을 위한 메시지를 만드는 방법에 대한 자세한 내용은 다음을 참조하십시오.
+1. 원하는 채널: **[!UICONTROL 인앱]**, **[!UICONTROL 이메일]** 또는 **[!UICONTROL 푸시 알림]**&#x200B;을 선택하고 연결된 채널 구성을 선택합니다.
 
-* [인앱 메시지 설명서](../in-app/get-started-in-app.md)
-* [이메일 메시지 설명서](../email/get-started-email.md)
-* [푸시 알림 설명서](../push/get-started-push.md)
-* [SMS 메시지 설명서](../sms/get-started-sms.md)
+1. ![](assets/do-not-localize/Smock_More_18_N.svg) 아이콘을 선택하고 **[!UICONTROL 편집]**&#x200B;을 선택하여 메시지 콘텐츠를 디자인합니다.
 
-## 과제 검토 및 게시 {#review-and-publish}
+   특정 채널을 위한 메시지를 만드는 방법에 대한 자세한 내용은 다음을 참조하십시오.
 
-<!-- SCREENSHOT: Review screen showing summary of challenge configuration with all components listed -->
+   * [인앱 메시지 설명서](../in-app/get-started-in-app.md)
+   * [이메일 메시지 설명서](../email/get-started-email.md)
+   * [푸시 알림 설명서](../push/get-started-push.md)
 
-문제를 게시하기 전에:
+1. 필요에 따라 각 단계 및 채널에 대해 이 단계를 반복합니다.
 
-1. **모든 구성 요소 검토**: 과제 속성, 작업, 보상, 콘텐츠 카드 및 메시징 구성을 확인합니다.
+이제 메시징 구성이 완료되었습니다. 이제 문제에 참여할 수 있는 고객을 정의할 수 있습니다.
 
-1. **경험 테스트**: [테스트 프로필](../content-management/test-profiles.md)을 사용하여 콘텐츠 카드 표시 및 작업 트리거 동작의 유효성을 검사하십시오.
+## 과제 대상자 선택 {#audience}
 
-1. **게시**: **[!UICONTROL 게시]**&#x200B;를 선택하여 대상 대상자에게 문제를 제공할 수 있습니다.
+충성도 챌린지에 참여할 수 있는 고객을 정의합니다.
 
-<!-- SCREENSHOT: Journeys inventory showing the auto-generated journey in Draft status with name format "Challenge: [Challenge Name]" -->
+1. **[!UICONTROL 대상]** 탭으로 이동하여 **[!UICONTROL 대상 선택]** 단추를 클릭합니다.
 
-문제를 게시하면 Journey Optimizer에서 초안 상태로 [여정](../building-journeys/journey-gs.md)을(를) 자동으로 만듭니다. 자동 생성된 여정이 &quot;도전: [도전 이름]&quot; 이름 형식으로 여정 인벤토리에 표시됩니다.
+   ![](assets/challenge-create-audience.png)
 
-고객이 문제를 해결할 수 있도록 하려면 다음을 수행하십시오.
+1. 사용 가능한 모든 Adobe Experience Platform 대상이 표시됩니다. 목록에서 원하는 대상자를 선택합니다.
 
-1. Journey Optimizer의 **[!UICONTROL 여정]** 인벤토리로 이동합니다.
+1. **[!UICONTROL 대상 추가]**&#x200B;를 선택하여 선택 내용을 확인합니다.
 
-1. 자동 생성된 여정(이름에 접두사로 &quot;Challenge:&quot;가 있음)를 찾습니다.
+이제 과제 구성이 완료되었습니다. 이제 과제 전달을 오케스트레이션할 여정을 생성할 수 있습니다.
 
-1. [여정 활성화](../building-journeys/publish-journey.md).
+## 여정 생성 및 활성화 {#review-and-publish}
 
-여정은 지정된 챌린지 시작 날짜에 자동으로 시작됩니다.
+과제 구성이 완료되면 과제 전달 및 고객 상호 작용을 오케스트레이션할 관련 여정을 생성합니다. 이렇게 하려면 **[!UICONTROL 여정 생성]**&#x200B;을 선택하세요.
+
+![](assets/challenge-create-generate-journey.png)
+
+Journey Optimizer은 초안 상태에서 [여정](../building-journeys/journey-gs.md)을(를) 자동으로 만듭니다. 자동 생성된 여정이 &quot;도전: [도전 이름]&quot; 이름 형식으로 여정 인벤토리에 표시됩니다.
+
+필요한 경우 여정 구성을 검토한 다음 [여정을 활성화](../building-journeys/publish-journey.md)하여 고객이 문제를 해결할 수 있도록 하십시오.
+
+여정은 지정된 챌린지 시작 날짜에 자동으로 시작되며 구성에 따라 컨텐츠 및 메시지를 전달합니다.
 
 >[!NOTE]
 >
->자동 생성된 여정은 여정 인벤토리에 표시되며 필요한 경우 사용자 정의할 수 있습니다. 그러나 여정에 직접 적용한 변경 사항은 과제 구성에 다시 동기화되지 않습니다.
+>필요한 경우 자동 생성된 여정을 사용자 지정하여 추가 논리나 메시지를 추가할 수 있습니다. 그러나 여정에 직접 적용한 변경 사항은 과제 구성에 다시 동기화되지 않습니다. 나중에 문제를 편집하면 여정이 다시 생성될 때 여정 사용자 지정이 손실됩니다.
 
 ## 다음 단계 {#next-steps}
 
 * [문제 관리](manage-challenges.md) - 문제를 편집, 모니터링 및 최적화하는 방법을 알아봅니다.
 * [충성도 문제 이해](get-started.md) - 기능 검토
-

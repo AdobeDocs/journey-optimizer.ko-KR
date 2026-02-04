@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="비공개 베타" type="Informative"
-source-git-commit: 5120eb51311348b8561b0a20f982576f6c945921
+source-git-commit: fd87aeabfae1f07d8f7bea7057f0c6dd0559d024
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '662'
 ht-degree: 1%
 
 ---
@@ -86,7 +86,7 @@ ht-degree: 1%
 
 자세한 지침은 다음을 참조하십시오.
 
-* [Experience Platform 소스 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/home)
+* [Experience Platform 소스 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [Journey Optimizer에서 소스 커넥터 구성](../start/get-started-sources.md)
 
 +++
@@ -95,7 +95,7 @@ ht-degree: 1%
 
 충성도 문제를 사용하려면 Journey Optimizer에서 적절한 권한이 필요합니다. 필요한 권한은 다음과 같습니다.
 
-* **[!UICONTROL 충성도 문제]** 기능에 액세스
+* **[!UICONTROL 충성도 문제(Beta)]** 기능에 액세스
 * 여정 만들기 및 관리 권한
 * 콘텐츠 카드를 만들고 관리할 수 있는 권한
 * 대상자를 만들고 관리할 수 있는 권한
@@ -106,7 +106,7 @@ ht-degree: 1%
 
 +++타깃 대상자
 
-문제를 제기하기 전에 Experience Platform에서 타겟 대상을 만드십시오. 이러한 대상은 충성도 문제에 참여할 수 있는 고객을 정의합니다. 대상자를 만드는 방법에 대한 자세한 내용은 [대상자 시작](../audience/about-audiences.md)을 참조하세요.
+충성도 도전에 참여할 수 있는 고객을 지정하는 타겟 대상을 정의합니다. 기존 대상을 선택하거나 과제 생성 인터페이스에서 직접 새 대상을 만들 수 있습니다. 대상자를 사용하여 작업하는 방법에 대한 자세한 내용은 [대상자 시작](../audience/about-audiences.md)을 참조하세요.
 
 +++
 
