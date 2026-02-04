@@ -5,9 +5,9 @@ feature: Decisioning
 topic: Integrations
 role: Developer
 level: Experienced
-source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
+source-git-commit: 398d4c2ab3a2312a0af5b8ac835f7d1f49a61b5b
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1154'
 ht-degree: 3%
 
 ---
@@ -19,7 +19,7 @@ Decisioning 마이그레이션 서비스 API를 사용하면 의사 결정 관�
 
 이 API를 사용하면 데이터 무결성과 관계를 유지하면서 환경 간(예: 개발에서 스테이징으로, 또는 스테이징에서 프로덕션으로) 의사 결정 콘텐츠를 원활하게 전환할 수 있습니다.
 
-의사 결정 관리와 비교하여 Decisioning의 이점과 기능에 대해 알아보려면 [Decisioning으로 마이그레이션함으로써 얻을 수 있는 이점](migrate-to-decisioning.md)을 참조하세요.
+의사 결정 관리와 비교하여 Decisioning의 장점과 기능에 대해 알아보려면 [이 페이지](migrate-to-decisioning.md)를 참조하세요.
 
 ## 기능 {#capabilities}
 
