@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="비공개 베타" type="Informative"
-source-git-commit: f235c56fd06b0e6ec41d1040c2b1ac057eb872f9
+source-git-commit: e683461c6adbf45cacb30692e23927175685f9fb
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '613'
 ht-degree: 1%
 
 ---
@@ -39,29 +39,36 @@ ht-degree: 1%
 
 충성도 과제는 작업과 이정표 정의에서 채널 전반에 걸쳐 콘텐츠 전달 및 성능 추적에 이르기까지 규모에 맞는 충성도 프로그램을 제작할 수 있는 완벽한 솔루션을 제공합니다.
 
+![](assets/challenges-gs.png)
+
 다음과 같은 세 가지 유형의 과제 경험을 만들 수 있습니다.
 
-* **표준 과제**: 고객은 순서에 관계없이 지정된 수의 작업을 완료합니다
-* **연속 문제**: 고객은 동일한 작업을 여러 번 연속적으로 완료합니다
-* **순차적 문제**: 고객은 정의된 순서로 작업을 완료합니다
+* **표준 과제**: 고객은 순서에 관계없이 지정된 수의 작업을 완료합니다\
+  *예: 사용 가능한 작업 5개 중 3개를 완료*
 
-충성도 문제를 사용하면 외부 충성도 관리 시스템과의 통합을 유지하면서 보상을 구성하고, 주요 라이프사이클 단계에서 다중 채널 알림을 전송하고, 자동으로 생성된 여정을 통해 성능을 모니터링할 수 있습니다.
+* **연속 문제**: 고객은 동일한 작업을 여러 번 연속적으로 완료합니다\
+  *예: 7일 연속으로 구매*
+
+* **순차적 문제**: 고객은 정의된 순서로 작업을 완료합니다\
+  *예: 구매 → 검토 → 공유(이 순서로 완료해야 함)*
+
+외부 충성도 관리 시스템과의 통합을 유지하면서 충성도 문제를 해결하고, 보상을 구성하고, 자동 생성된 여정을 사용하여 주요 라이프사이클 단계에서 다중 채널 알림을 전송할 수 있습니다.
 
 ## 작동 방식 {#how-it-works}
 
 충성도 문제를 만들고 실행하는 것은 다음 워크플로를 따릅니다.
 
-1. **데이터 수집 설정** - 고객 작업 및 진행 상황을 추적하는 고객 충성도 이벤트 데이터를 수집하도록 Experience Platform 소스 커넥터(예: [Capillary 커넥터](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/home#loyalty))를 구성합니다. 이 데이터를 통해 과제 추적 및 작업 완료를 수행할 수 있습니다.
-
-1. **대상 선택** - Adobe Experience Platform에서 대상을 선택하여 도전에 참여할 수 있는 고객을 정의합니다.
+1. **데이터 수집 설정** - 고객 작업 및 진행 상황을 추적하는 고객 충성도 이벤트 데이터를 수집하도록 Experience Platform 소스 커넥터(예: [Capillary 커넥터](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty))를 구성합니다. 이 데이터를 통해 과제 추적 및 작업 완료를 수행할 수 있습니다.
 
 1. **챌린지 만들기** - 이름, 유형(표준, 연속 또는 순차적), 날짜 범위를 포함한 기본 챌린지 속성을 정의합니다.
 
-1. **작업 추가** - 작업 유형(구매, 지출, 방문, 참여, 사용자 지정 이벤트), 수량, 제품 필터 및 보상을 포함하여 고객이 완료해야 하는 특정 작업을 정의합니다.
+1. **작업 추가** - 작업 유형(구매, 지출), 수량, 제품 필터 및 보상을 포함하여 고객이 완료해야 하는 특정 작업을 정의합니다.
 
 1. **콘텐츠 카드 디자인** - 고객 장치에 표시되는 Journey Optimizer 콘텐츠 카드를 사용하여 도전의 시각적 표현을 만듭니다. 콘텐츠 카드에는 도전 정보, 진행 상황, 보상 등이 표시된다.
 
 1. **메시지 구성**(선택 사항) - 시작, 진행 중 및 완료와 같은 주요 라이프사이클 단계에 대한 멀티채널 메시지(인앱, 이메일, 푸시)를 설정합니다.
+
+1. **대상 선택** - Adobe Experience Platform에서 대상을 선택하여 도전에 참여할 수 있는 고객을 정의합니다.
 
 1. **여정 게시** - Journey Optimizer에서 자동으로 챌린지에 대한 여정을 생성합니다. 여정 인벤토리로 이동하고 자동 생성된 여정을 게시하여 고객이 문제를 사용할 수 있도록 합니다.
 
@@ -75,11 +82,11 @@ ht-degree: 1%
 
 충성도 문제는 Experience Platform 소스 커넥터를 통해 수집된 데이터를 사용하여 고객 진행 상황과 작업 완료를 추적합니다.
 
-1. **지원되는 원본 커넥터를 구성하십시오**: 현재 Capillary 커넥터를 사용할 수 있습니다. 추가 커넥터는 향후 릴리스에 제공될 예정입니다. [충성도 소스 커넥터에 대해 알아봅니다](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/home#loyalty).
+1. **지원되는 원본 커넥터를 구성하십시오**: 현재 Capillary 커넥터를 사용할 수 있습니다. 추가 커넥터는 향후 릴리스에 제공될 예정입니다. [충성도 소스 커넥터에 대해 알아봅니다](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty).
 
 1. **데이터 수집 유효성 검사**: 충성도 이벤트 및 고객 데이터가 Experience Platform으로 유입되어 Journey Optimizer에서 사용할 수 있는지 확인하십시오. 데이터 스키마에 고객 작업 및 진행 상황을 추적하는 데 필요한 필드가 포함되어 있는지 확인합니다.
 
-자세한 지침은 [Experience Platform 소스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/home)를 참조하십시오.
+자세한 지침은 [Experience Platform 소스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)를 참조하십시오.
 
 +++
 
@@ -136,18 +143,7 @@ ht-degree: 1%
     <a href="create-tasks.md"><strong>작업 만들기</strong></a>
     </div>
     <p>
-    <em>어려움에 대한 조치 및 보상 정의</em>
-    </p>
-  </td>
-  <td>
-    <a href="access-loyalty-challenges.md">
-    <!--<img alt="Manage" src="../assets/do-not-localize/monitor-button.svg">-->
-    </a>
-    <div>
-    <a href="access-loyalty-challenges.md"><strong>문제 및 작업 관리</strong></a>
-    </div>
-    <p>
-    <em>문제 및 작업 편집, 복제 및 삭제</em>
+    <em>어려움에 대해 완료할 작업 정의</em>
     </p>
   </td>
 </tr>
