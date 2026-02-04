@@ -12,7 +12,7 @@ exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
 source-git-commit: d336684656c75af682a72b0acab071df15a79004
 workflow-type: tm+mt
 source-wordcount: '1736'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 96%
 
 * **[!UICONTROL 원구독 취소 URL]**&#x200B;은 기본적으로 [선택한 하위 도메인](email-settings.md#subdomains)에 따라 원클릭 구독 취소 URL에서 생성한 [목록 구독 취소] 헤더입니다. <!--With this method, clicking the Unsubscribe link directly unsubscribes the user, requiring only a single action to unsubscribe.-->
 
-해당 드롭다운 목록에서 **[!UICONTROL 동의 수준]**&#x200B;을 선택할 수 있습니다. 
+해당 드롭다운 목록에서 **[!UICONTROL 동의 수준]**을 선택할 수 있습니다. 
 채널 또는 프로필 ID별로 지정할 수 있습니다. 이 설정에 따라 사용자가 이메일 헤더에 있는 목록 구독 취소 URL을 사용하여 구독을 취소하는 경우[!DNL Adobe Journey Optimizer]에서 채널 수준 또는 ID 수준으로 동의 상태가 업데이트됩니다.
 
 ## 가드레일 및 추천 사항 {#list-unsubscribe-guardrails}
@@ -90,7 +90,7 @@ ht-degree: 96%
 
      ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
-   * 메시지 콘텐츠에 원클릭 옵트아웃 링크를 추가하지 않고 채널 구성 설정에서 기본 **[!UICONTROL 원클릭 구독 취소 URL]**&#x200B;이 선택 해제되어 있는 경우, URL이 이메일 헤더에 목록 구독 취소 헤더의 일부로  포함되지 않습니다.
+   * 메시지 콘텐츠에 원클릭 옵트아웃 링크를 추가하지 않고 채널 구성 설정에서 기본 **[!UICONTROL 원클릭 구독 취소 URL]**이 선택 해제되어 있는 경우, URL이 이메일 헤더에 목록 구독 취소 헤더의 일부로  포함되지 않습니다.
 
 
   >[!NOTE]
@@ -134,7 +134,7 @@ Adobe 외부에서 동의를 관리하는 경우 **[!UICONTROL 고객 관리]** 
 >
 >이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.
 >
->**[!UICONTROL Mailto(구독 취소)]** 옵션의 경우 사용자 지정 특성(제한된 가용성)을 가진 **Mailto(구독 취소)** 섹션 [아래](#configure-decrypt-api)에 설명된 새 쿼리 매개 변수를 사용해야 합니다.
+>**[!UICONTROL Mailto(구독 취소)]** 옵션의 경우 [아래](#configure-decrypt-api) **사용자 정의 속성을 가진 Mailto(구독 취소)(제한된 가용성)** 섹션에서 설명하는 새로운 쿼리 매개 변수를 사용해야 합니다.
 
 엔드포인트에 대한 사용자 지정 속성을 정의하려면 **[!UICONTROL URL 추적 매개 변수]** 섹션을 사용하십시오. 해당 섹션에서 정의하는 모든 URL 추적 매개 변수는 사용자 정의 엔드포인트 끝에 기본 매개 변수와 함께 추가됩니다. [사용자 정의 URL 추적을 설정하는 방법 알아보기](url-tracking.md)
 
@@ -270,7 +270,7 @@ GET 호출은 다음과 같습니다.
 
    * 구문 분석된 값: *v1.xyz*
 
-API 예: https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&emailParamsBody=v1.xyz
+API 예: https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&amp;emailParamsBody=v1.xyz
 
 >[!CAUTION]
 >

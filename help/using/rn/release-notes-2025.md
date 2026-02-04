@@ -11,7 +11,7 @@ exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
 source-git-commit: 7ec41e5b1aa51991847ef8cf9dad428b06dfcaef
 workflow-type: tm+mt
 source-wordcount: '9009'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 99%
 <p>이 기능을 사용하면 사용자 정의 액션 엔드포인트 상태 및 성능에 대한 가시성이 향상됩니다. 여정 단계 이벤트 데이터 세트의 새로운 사용자 정의 액션 모니터링 대시보드와 해당 필드는 사용자 정의 액션 엔드포인트에 대한 성공적인 호출, 오류, 처리량, 응답 시간, 큐 대기 시간을 모니터링하는 데 도움이 됩니다. 이제 사용자 정의 액션에서 예외적인 상황이 발생한 시점, 위치, 이유를 빠르게 이해할 수 있습니다.</p>
 <p>이 기능은 현재 고객에게 제한된 가용성으로 제공되고 있습니다.</p>
 <p>자세한 내용은 <a href="../action/reporting.md">세부 설명서</a>를 참조하십시오.</p>
-<p>가용성 일자: 2025년 10월 28일 수요일</p>
+<p>가용성 일자: 2025년 10월 28일</p>
 </td>
 </tr>
 </tbody>
@@ -74,7 +74,7 @@ ht-degree: 99%
 <p>이 기능은 현재 미국 및 호주 고객에게 제한된 가용성으로 제공되고 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.</p>
 <p><img src="assets/do-not-localize/forms.gif"/></p>
 <p>자세한 내용은 <a href="../landing-pages/lp-forms.md">세부 설명서</a>를 참조하십시오.</p>
-<p>가용성 일자: 2025년 10월 23일 금요일</p>
+<p>가용성 일자: 2025년 10월 23일</p>
 </td>
 </tr>
 </tbody>
@@ -93,7 +93,7 @@ ht-degree: 99%
 <p>규칙 세트를 통해 방해 금지 시간을 적용할 수 있으며, 정확한 제어를 위해 이 규칙 세트를 캠페인이나 여정의 개별 액션에 할당할 수 있습니다.</p>
 <p>방해 금지 시간대 규칙은 현재 일부 조직에서만 사용할 수 있습니다(제한된 가용성).  향후 릴리스에서 점진적으로 사용 범위를 확대하여 모든 고객에게 제공할 예정입니다.</p>
 <p>자세한 내용은 <a href="../conflict-prioritization/quiet-hours.md">세부 설명서</a>를 참조하십시오.</p>
-<p>가용성 일자: 2025년 10월 22일 목요일</p>
+<p>사용 가능한 날짜: 2025년 10월 22일</p>
 </td>
 </tr>
 </tbody>
@@ -206,7 +206,7 @@ ht-degree: 99%
 <p>이제 API 트리거 캠페인에서 새로운 높은 처리량 트랜잭션 메시지 모드를 사용할 수 있습니다. 이 모드는 대규모 실시간 트랜잭션 메시지 전송을 위해 설계되었으며 더 높은 가용성으로 초당 최대 5,000개의 트랜잭션을 지원합니다. 또한 이 모드는 고객 프로필을 참조하거나 만들지 않고도 게스트 체크아웃, 주문 확인, 암호 재설정, 보안 알림, 기타 서비스/운영 알림과 같은 트랜잭션 메시지를 지원합니다.</p>
 <p>이 기능은 Adobe 높은 처리량 트랜잭션 메시지 추가 기능 서비스를 구입한 조직의 이메일 채널에서만 사용할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.</p>
 <p>자세한 내용은 <a href="../campaigns/api-triggered-high-throughput.md">세부 설명서</a>를 참조하십시오.</p>
-<p>가용성 일자: 2025년 10월 22일 목요일</p>
+<p>사용 가능한 날짜: 2025년 10월 22일</p>
 </td>
 </tr>
 </tbody>
@@ -225,7 +225,7 @@ ht-degree: 99%
 <p>타기팅 규칙은 현재 제한된 가용성으로 제공됩니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오. 이 기능은 결정 추가 기능 서비스를 구입한 조직에서만 사용할 수 있습니다. 점진적으로 모든 고객을 대상으로 롤아웃될 예정입니다.</p>
 <img src="assets/do-not-localize/targeting-rules.gif">
 <p>자세한 내용은 <a href="../experience-decisioning/rules.md">세부 설명서</a>를 참조하십시오.</p>
-<p>가용성 일자: 2025년 10월 22일 목요일</p>
+<p>사용 가능한 날짜: 2025년 10월 22일</p>
 </td>
 </tr>
 </tbody>
@@ -245,7 +245,7 @@ ht-degree: 99%
 <li><a href="../reports/alerts.md#alert-custom-action-error-rate">사용자 정의 액션 오류율 초과</a>: 지난 5분 동안 성공적인 HTTP 호출에 대한 사용자 정의 액션 오류율이 임계값 초과</li>
 <li><a href="../reports/alerts.md#alert-profile-error-rate">프로필 오류율 초과</a>: 지난 5분 동안 입력된 프로필 대비 오류가 발생한 프로필 비율이 임계값 초과</li></ul> <p>임계값을 수정하고 개별 여정 수준에서 경고를 받거나 전체적으로 구독할 수 있습니다.</p>
 <p>자세한 내용은 <a href="../reports/alerts.md">세부 설명서</a>를 참조하십시오.</p>
-<p>가용성 일자: 2025년 10월 14일 수요일</p>
+<p>가용성 일자: 2025년 10월 14일</p>
 </td>
 </tr>
 </tbody>
@@ -264,7 +264,7 @@ ht-degree: 99%
 <p>이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.</p>
 <img src="assets/do-not-localize/execution-metadata.gif">
 <p>자세한 내용은 <a href="../personalization/functions/helpers.md#execution-metadata">세부 설명서</a>를 참조하십시오.</p>
-<p>가용성 일자: 2025년 10월 13일 화요일</p>
+<p>가용성 일자: 2025년 10월 13일</p>
 </td>
 </tr>
 </tbody>
@@ -281,7 +281,7 @@ ht-degree: 99%
 <td>
 <p>Journey Optimizer Experimentation Accelerator에는 이제 실험, 인사이트, 기회와 상호 작용할 수 있는 AI 기반 대화 도구인 Experimentation Agent가 포함됩니다. 실험을 보다 효율적으로 실행하고 효과가 있는 액션을 파악하고 다음 프로젝트를 최적화할 지점을 찾는 데 도움이 되므로 Journey Optimizer Experimentation Accelerator 경험이 향상됩니다.</p>
 <p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=ko" target="_blank">세부 설명서</a>를 참조하십시오.</p>
-<p>가용성 일자: 2025년 10월 10일 토요일</p>
+<p>가용성 일자: 2025년 10월 10일</p>
 </td>
 </tr>
 </tbody>
@@ -334,7 +334,7 @@ ht-degree: 99%
 
 이메일 및 SMS 외에도 샌드박스 수준에서 WhatsApp 게재에 대한 기본 실행 필드 업데이트를 알 수 있습니다. 또한 전역적으로 설정된 실행 필드를 재정의할 수도 있습니다. WhatsApp 여정 활동 고급 매개 변수 또는 WhatsApp 채널 구성에서 변경하면 됩니다. [자세히 보기](../configuration/primary-email-addresses.md)
 
-가용성 일자: 2025년 10월 22일 목요일
+사용 가능한 날짜: 2025년 10월 22일
 
 **Mailto(구독 취소) 주소에 대한 사용자 정의 속성 지원**
 
@@ -346,7 +346,7 @@ Journey Optimizer를 사용하면 Adobe 외부에서 동의를 관리하는 경�
 >
 >이 기능은 이미 2025년 8월부터 사용자 정의 **[!UICONTROL 원클릭 구독 취소 URL]**&#x200B;에 사용할 수 있었으며, 이제 제한된 가용성으로 **[!UICONTROL Mailto(구독 취소)]** 옵션이 릴리스되었습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.
 
-가용성 일자: 2025년 10월 6일 화요일
+가용성 일자: 2025년 10월 6일
 
 <!--
 ### Coming soon {#oct-25-10-soon}
@@ -977,7 +977,7 @@ You can now use AI models to optimize the best content in your email through the
 <tbody>
 <tr>
 <td>
-<p>이제 이메일 여정 및 캠페인에 의사 결정 정책을 추가할 수 있습니다. 의사 결정 정책은 의사 결정 엔진을 활용하여 각 대상 구성원에 대해 제공할 최상의 콘텐츠를 동적으로 반환하는 오퍼에 대한 컨테이너입니다.</p>
+<p>이제 이메일 여정 및 캠페인에 의사 결정 정책을 추가할 수 있습니다. 의사 결정 정책은 의사 결정 엔진을 활용하여 각 대상자 구성원에게 제공할 최상의 콘텐츠를 동적으로 반환하는 오퍼 컨테이너입니다.</p>
 <p>이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.</p>
 자세한 내용은 <a href="../experience-decisioning/create-decision.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
