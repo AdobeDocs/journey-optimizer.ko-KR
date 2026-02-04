@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="비공개 베타" type="Informative"
-source-git-commit: dbed4ffeb63ec3c58ff61845bbdb91fd2d51e69b
+source-git-commit: bd98e4dc77a0adde83df6251af749aa6da8c058d
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 1%
@@ -62,7 +62,7 @@ ht-degree: 1%
 
 1. **작업 추가** - 작업 유형(구매, 지출, 방문, 참여, 사용자 지정 이벤트), 수량, 제품 필터 및 보상을 포함하여 고객이 완료해야 하는 특정 작업을 정의합니다. 자세한 지침은 [작업 만들기](create-tasks.md)를 참조하세요.
 
-1. **콘텐츠 카드 디자인** - 고객 장치에 표시되는 Journey Optimizer [콘텐츠 카드](../content-card/get-started-content-card.md)를 사용하여 도전의 시각적 표현을 만듭니다. 콘텐츠 카드에는 도전 정보, 진행 상황, 보상 등이 표시된다.
+1. **콘텐츠 카드 디자인** - 고객 장치에 표시되는 Journey Optimizer [콘텐츠 카드](../content-card/create-content-card.md)를 사용하여 도전의 시각적 표현을 만듭니다. 콘텐츠 카드에는 도전 정보, 진행 상황, 보상 등이 표시된다.
 
 1. **메시지 구성**(선택 사항) - 시작, 진행 중 및 완료와 같은 주요 라이프사이클 단계에 대해 다중 채널 메시지([인앱](../in-app/get-started-in-app.md), [이메일](../email/get-started-email.md), [푸시](../push/get-started-push.md))를 설정합니다.
 
@@ -86,7 +86,7 @@ ht-degree: 1%
 
 자세한 지침은 다음을 참조하십시오.
 
-* [Experience Platform 소스 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/home)
+* [Experience Platform 소스 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [Journey Optimizer에서 소스 커넥터 구성](../start/get-started-sources.md)
 
 +++
