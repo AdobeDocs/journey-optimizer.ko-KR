@@ -72,7 +72,7 @@ ht-degree: 96%
 
 * **[!UICONTROL 원구독 취소 URL]**&#x200B;은 기본적으로 [선택한 하위 도메인](email-settings.md#subdomains)에 따라 원클릭 구독 취소 URL에서 생성한 [목록 구독 취소] 헤더입니다. <!--With this method, clicking the Unsubscribe link directly unsubscribes the user, requiring only a single action to unsubscribe.-->
 
-해당 드롭다운 목록에서 **[!UICONTROL 동의 수준]**을 선택할 수 있습니다. 
+해당 드롭다운 목록에서 **[!UICONTROL 동의 수준]**&#x200B;을 선택할 수 있습니다. 
 채널 또는 프로필 ID별로 지정할 수 있습니다. 이 설정에 따라 사용자가 이메일 헤더에 있는 목록 구독 취소 URL을 사용하여 구독을 취소하는 경우[!DNL Adobe Journey Optimizer]에서 채널 수준 또는 ID 수준으로 동의 상태가 업데이트됩니다.
 
 ## 가드레일 및 추천 사항 {#list-unsubscribe-guardrails}
@@ -90,7 +90,7 @@ ht-degree: 96%
 
      ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
-   * 메시지 콘텐츠에 원클릭 옵트아웃 링크를 추가하지 않고 채널 구성 설정에서 기본 **[!UICONTROL 원클릭 구독 취소 URL]**이 선택 해제되어 있는 경우, URL이 이메일 헤더에 목록 구독 취소 헤더의 일부로  포함되지 않습니다.
+   * 메시지 콘텐츠에 원클릭 옵트아웃 링크를 추가하지 않고 채널 구성 설정에서 기본 **[!UICONTROL 원클릭 구독 취소 URL]**&#x200B;이 선택 해제되어 있는 경우, URL이 이메일 헤더에 목록 구독 취소 헤더의 일부로  포함되지 않습니다.
 
 
   >[!NOTE]
@@ -270,7 +270,7 @@ GET 호출은 다음과 같습니다.
 
    * 구문 분석된 값: *v1.xyz*
 
-API 예: https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&amp;emailParamsBody=v1.xyz
+API 예: https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&emailParamsBody=v1.xyz
 
 >[!CAUTION]
 >
