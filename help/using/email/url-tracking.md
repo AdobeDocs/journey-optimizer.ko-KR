@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 설정, 이메일, 구성
 exl-id: 5a12280c-b937-4cd9-a1ef-563bab48e42e
-source-git-commit: ffcf4711d733dad725cbb95fd30438535c922bda
+source-git-commit: d336684656c75af682a72b0acab071df15a79004
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 75%
+source-wordcount: '433'
+ht-degree: 68%
 
 ---
 
@@ -31,6 +31,10 @@ ht-degree: 75%
 새 [전자 메일 채널 구성](email-settings.md)을 구성할 때 **[!UICONTROL URL 추적 매개 변수]**&#x200B;를 정의하여 채널 전반에서 마케팅 활동의 효과를 측정할 수 있습니다. 이 기능은 활성화할 수 없습니다.
 
 해당 섹션에 정의된 매개 변수가 이메일 메시지 콘텐츠에 포함된 URL의 끝에 추가됩니다. 그런 다음 Adobe Analytics나 Google Analytics 등 웹 분석 도구에서 이 매개변수를 캡처하여 다양한 성과 보고서를 만들 수 있습니다.
+
+>[!NOTE]
+>
+>URL에 추가되는 URL 추적 매개 변수의 순서는 임의적이며 제어할 수 없습니다. 시스템에 특정 순서로 매개 변수가 필요한 경우 구문 분석하고 측면에서 매개 변수를 재정렬해야 합니다.
 
 **[!UICONTROL 새 매개변수 추가]** 버튼을 사용하여 최대 10개의 추적 매개변수를 추가할 수 있습니다.
 
