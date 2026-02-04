@@ -7,9 +7,9 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: a5868a3c9eb1d0faca62887353145cd86cde883f
+source-git-commit: 97464b7afa07199792bd4311d0477b5bcb140d8e
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '645'
 ht-degree: 2%
 
 ---
@@ -96,3 +96,12 @@ ht-degree: 2%
 
 ➡️[지연 지표에 대한 설명은 KPI 섹션을 참조하십시오](#kpis)
 
+## 사용 방법 비디오 {#video}
+
+아래 비디오에서는 서드파티 시스템에 대한 여정에서 수행한 API 호출의 안정성과 성능을 모니터링하는 방법을 보여 줍니다.
+
++++비디오 보기
+
+>[!VIDEO](https://video.tv.adobe.com/v/3479541?quality=12&learn=on)
+
++++
