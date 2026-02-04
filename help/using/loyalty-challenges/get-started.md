@@ -51,7 +51,7 @@ ht-degree: 1%
 
 충성도 문제를 만들고 실행하는 것은 다음 워크플로를 따릅니다.
 
-1. **데이터 수집 설정** - 고객 작업 및 진행 상황을 추적하는 고객 충성도 이벤트 데이터를 수집하도록 Experience Platform 소스 커넥터(예: [Capillary 커넥터](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty))를 구성합니다. 이 데이터를 통해 과제 추적 및 작업 완료를 수행할 수 있습니다.
+1. **데이터 수집 설정** - 고객 작업 및 진행 상황을 추적하는 고객 충성도 이벤트 데이터를 수집하도록 Experience Platform 소스 커넥터(예: [Capillary 커넥터](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/home#loyalty))를 구성합니다. 이 데이터를 통해 과제 추적 및 작업 완료를 수행할 수 있습니다.
 
 1. **대상 선택** - Adobe Experience Platform에서 대상을 선택하여 도전에 참여할 수 있는 고객을 정의합니다.
 
@@ -75,11 +75,11 @@ ht-degree: 1%
 
 충성도 문제는 Experience Platform 소스 커넥터를 통해 수집된 데이터를 사용하여 고객 진행 상황과 작업 완료를 추적합니다.
 
-1. **지원되는 원본 커넥터를 구성하십시오**: 현재 Capillary 커넥터를 사용할 수 있습니다. 추가 커넥터는 향후 릴리스에 제공될 예정입니다. [충성도 소스 커넥터에 대해 알아봅니다](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty).
+1. **지원되는 원본 커넥터를 구성하십시오**: 현재 Capillary 커넥터를 사용할 수 있습니다. 추가 커넥터는 향후 릴리스에 제공될 예정입니다. [충성도 소스 커넥터에 대해 알아봅니다](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/home#loyalty).
 
 1. **데이터 수집 유효성 검사**: 충성도 이벤트 및 고객 데이터가 Experience Platform으로 유입되어 Journey Optimizer에서 사용할 수 있는지 확인하십시오. 데이터 스키마에 고객 작업 및 진행 상황을 추적하는 데 필요한 필드가 포함되어 있는지 확인합니다.
 
-자세한 지침은 [Experience Platform 소스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)를 참조하십시오.
+자세한 지침은 [Experience Platform 소스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/home)를 참조하십시오.
 
 +++
 
