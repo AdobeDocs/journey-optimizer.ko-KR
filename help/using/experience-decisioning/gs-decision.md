@@ -7,10 +7,10 @@ role: User
 level: Experienced
 exl-id: 008d42c7-a523-4857-b34e-0e8dd1dfa507
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 31%
+source-wordcount: '303'
+ht-degree: 29%
 
 ---
 
@@ -40,6 +40,10 @@ ht-degree: 31%
 의사 결정은 현재 코드 기반 경험 채널에서 지원됩니다.
 
 ➡️ [의사 결정 시작](../experience-decisioning/gs-experience-decisioning.md)
+
+>[!NOTE]
+>
+>의사 결정 관리에서 의사 결정으로 마이그레이션하려면 [마이그레이션 설명서](../experience-decisioning/migrate-to-decisioning.md) 및 [마이그레이션 API 안내서](../experience-decisioning/decisioning-migration-api.md)를 참조하세요.
 
 ## 의사 결정 관리 {#decision-management}
 

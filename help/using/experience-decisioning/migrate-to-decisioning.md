@@ -1,18 +1,18 @@
 ---
-title: 의사 결정 관리에서 의사 결정으로 마이그레이션
+title: Decisioning으로 마이그레이션할 때의 이점
 description: 의사 결정 관리에서 의사 결정으로의 마이그레이션의 이점에 대해 알아봅니다.
 feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
-source-git-commit: 669ea379f9e0ca54eb53be66f65343a9e00203cb
+source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
 workflow-type: tm+mt
-source-wordcount: '1208'
-ht-degree: 4%
+source-wordcount: '1249'
+ht-degree: 2%
 
 ---
 
-# 의사 결정 관리에서 의사 결정으로 마이그레이션 {#migrate-to-decisioning}
+# Decisioning으로 마이그레이션할 때의 이점 {#migrate-to-decisioning}
 
 ## Decisioning 소개 {#what-is-decisioning}
 
@@ -26,7 +26,7 @@ Decisioning은 기존 의사 결정 관리 프레임워크에 비해 상당한 �
 
 ### AI 및 머신 러닝 기능
 
-* **사용자 지정 지표**: AI 모델에 대해 사용자 지정 최적화 지표를 사용하는 기능. 이렇게 하면 [Customer Journey Analytics](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}과의 보고 상호 운용성을 제공하고 두 플랫폼 간의 보고를 표준화하고 데이터 일관성과 안정성을 향상시킬 수 있습니다. 매끄러운 통합을 통해 성능 지표를 보다 명확하게 볼 수 있으며 간단한 지표 작성, 대상 게시, Insight Builder를 사용한 임시 질문 및 보고서 예약과 같은 새로운 기능이 추가됩니다.
+* **사용자 지정 지표**: AI 모델에 대해 사용자 지정 최적화 지표를 사용하는 기능. 이렇게 하면 [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}과의 보고 상호 운용성을 제공하고 두 플랫폼 간의 보고를 표준화하고 데이터 일관성과 안정성을 향상시킬 수 있습니다. 매끄러운 통합을 통해 성능 지표를 보다 명확하게 볼 수 있으며 간단한 지표 작성, 대상 게시, Insight Builder를 사용한 임시 질문 및 보고서 예약과 같은 새로운 기능이 추가됩니다.
 
 * **상승도 측정**: AI 모델에서 탐색과 악용을 시각화하는 기능. 이를 통해 마케터와 데이터 과학자는 AI 탐사가 장기 모델 성능과 새로운 우수성의 검색 능력을 향상시키는 방법을 정량화할 수 있습니다. 트래픽 할당에 대한 투명성은 AI 의사 결정에 대한 신뢰를 구축하고 팀이 시간에 따른 학습과 성능 모두에 최적화할 수 있도록 권한을 부여합니다. [자세히 알아보기](ranking/auto-optimization-model.md#lift)
 
@@ -66,7 +66,7 @@ Decisioning은 기존 의사 결정 관리 프레임워크에 비해 상당한 �
 
 * **기본 메시징 채널 지원**: 여러 채널 간에 단일 프레임워크 내에서 통합 메시징 및 의사 결정([코드 기반 경험](../code-based/get-started-code-based.md) 및 [이메일](../email/get-started-email.md) 현재 사용 가능, 다른 채널은 2026년 1월에 제공). 직관적인 UI 지원을 통해 사용자는 메시지 작성 워크플로에서 직접 의사 결정 구성 요소를 삽입할 수 있습니다.
 
-* **Experience Platform 데이터 세트 조회**: 오퍼 선택 규칙, 등급 및 개인화된 오퍼 콘텐츠 내에서 직접 [Adobe Experience Platform 데이터 세트](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/overview){target="_blank"}를 업로드하고 참조하는 기능. 이렇게 하면 의사 결정 로직에서 동적 외부 데이터 소스를 사용할 수 있으므로 개인화 및 타깃팅에 대한 유연성이 확장됩니다. [자세히 알아보기](../data/lookup-aep-data.md)
+* **Experience Platform 데이터 세트 조회**: 오퍼 선택 규칙, 등급 및 개인화된 오퍼 콘텐츠 내에서 직접 [Adobe Experience Platform 데이터 세트](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview){target="_blank"}를 업로드하고 참조하는 기능. 이렇게 하면 의사 결정 로직에서 동적 외부 데이터 소스를 사용할 수 있으므로 개인화 및 타깃팅에 대한 유연성이 확장됩니다. [자세히 알아보기](../data/lookup-aep-data.md)
 
 * **확장성 및 성능**: 의사 결정 계산을 허브에서 에지로 이동하여 대기 시간을 크게 줄이고 트래픽이 많은 사용 사례에 대한 처리량을 개선하는 아키텍처 개선 사항입니다.
 
@@ -87,11 +87,20 @@ Decisioning은 기존 의사 결정 관리 프레임워크에 비해 상당한 �
 
 ## 마이그레이션 도구 {#migration-tooling}
 
-Journey Optimizer 팀은 현재 의사 결정 관리 엔티티를 Decisioning으로 마이그레이션하기 위해 마이그레이션 도구 API를 작업 중입니다. 이 도구를 사용하면 종속성 해결 및 롤백 기능을 통해 샌드박스 간에 원활하게 마이그레이션할 수 있습니다. 관심이 있는 경우 Adobe 담당자에게 문의하십시오.
+**마이그레이션 도구 API**&#x200B;의 전체 집합을 사용하여 의사 결정 관리 엔터티를 의사 결정으로 마이그레이션할 수 있습니다. 이러한 API를 통해 자동 종속성 해결 및 롤백 기능을 통해 샌드박스 간에 원활하게 마이그레이션할 수 있습니다.
+
+마이그레이션 도구 API를 사용하여 다음을 수행할 수 있습니다.
+
+* 원본 및 대상 샌드박스 간 **종속성 분석**
+* **다른 범위에서 마이그레이션** - 샌드박스, 오퍼 또는 결정 수준
+* 문제가 발견된 경우 **롤백 마이그레이션**
+
+인증, 끝점, 요청/응답 예 및 단계별 워크플로를 포함한 전체 API 설명서는 [Decisioning Migration API 설명서](decisioning-migration-api.md)를 참조하십시오.
 
 ## 관련 항목 {#related-topics}
 
 * [의사 결정 시작](gs-experience-decisioning.md)
 * [보호 및 제한 사항 결정](decisioning-guardrails.md)
 * [의사 결정 FAQ](decisioning-faq.md)
+* [의사 결정 마이그레이션 API](decisioning-migration-api.md)
 

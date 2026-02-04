@@ -1,5 +1,5 @@
 ---
-title: Decisioning API 시작
+title: API 결정하기 시작
 description: Decisioning API를 사용하여 시작함으로써 의사 결정 항목을 프로그래밍 방식으로 관리하고 개인화된 오퍼를 제공하는 방법을 알아봅니다.
 feature: API, Decisioning
 topic: Integrations
@@ -7,10 +7,10 @@ role: Developer
 level: Experienced
 exl-id: 7a4b5d4e-9c1d-4f3a-b8e9-1d5f6e7a8c3a
 version: Journey Orchestration
-source-git-commit: e46ab0637a0fa4a2b4b8b6ff3b8ab3eb5d38e0f7
+source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 4%
+source-wordcount: '331'
+ht-degree: 5%
 
 ---
 
@@ -60,3 +60,7 @@ Decisioning API는 의사 결정 구성 요소를 위한 포괄적인 관리 기
 * [자격 규칙 만들기](eligibility-rules/create.md)
 
 캠페인 및 여정에서 Decisioning 사용에 대한 자세한 내용은 [Decisioning 설명서](../gs-experience-decisioning.md)를 참조하세요.
+
+>[!NOTE]
+>
+>기존 의사 결정 관리 개체를 Decisioning으로 마이그레이션해야 하는 경우 전용 [Decisioning 마이그레이션 API](../decisioning-migration-api.md)를 사용하십시오. 이 전문 API는 샌드박스 간 엔티티 마이그레이션을 결정하도록 특별히 설계된 자동 종속성 해결 및 롤백 기능을 제공합니다.
