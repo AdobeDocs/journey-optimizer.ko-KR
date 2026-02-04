@@ -10,15 +10,15 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="비공개 베타" type="Informative"
-source-git-commit: fd87aeabfae1f07d8f7bea7057f0c6dd0559d024
+source-git-commit: e978d075efbbcb42e7500d921bd8cc3ed1eee890
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '805'
 ht-degree: 0%
 
 ---
 
 
-# 과제 관리 {#manage-challenges}
+# 과제 및 작업 관리 {#manage-challenges}
 
 >[!BEGINSHADEBOX]
 
@@ -38,9 +38,7 @@ ht-degree: 0%
 
 ## 과제 관리 {#manage-challenges-section}
 
-### 과제 라이프사이클 {#challenge-lifecycle}
-
-<!-- VISUAL: Flowchart diagram showing challenge lifecycle with status transitions: Draft → Scheduled → Live → Completed/Stopped/Archived -->
+### 과제 상태 {#challenge-lifecycle}
 
 과제는 라이프사이클 동안 다양한 상태로 이동합니다.
 

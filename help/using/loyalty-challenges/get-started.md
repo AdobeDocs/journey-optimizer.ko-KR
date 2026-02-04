@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="비공개 베타" type="Informative"
-source-git-commit: fd87aeabfae1f07d8f7bea7057f0c6dd0559d024
+source-git-commit: e978d075efbbcb42e7500d921bd8cc3ed1eee890
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '653'
 ht-degree: 1%
 
 ---
@@ -86,7 +86,7 @@ ht-degree: 1%
 
 자세한 지침은 다음을 참조하십시오.
 
-* [Experience Platform 소스 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/home)
+* [Experience Platform 소스 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [Journey Optimizer에서 소스 커넥터 구성](../start/get-started-sources.md)
 
 +++
@@ -106,7 +106,7 @@ ht-degree: 1%
 
 +++타깃 대상자
 
-충성도 도전에 참여할 수 있는 고객을 지정하는 타겟 대상을 정의합니다. 기존 대상을 선택하거나 과제 생성 인터페이스에서 직접 새 대상을 만들 수 있습니다. 대상자를 사용하여 작업하는 방법에 대한 자세한 내용은 [대상자 시작](../audience/about-audiences.md)을 참조하세요.
+충성도 도전에 참여할 수 있는 고객을 지정하는 타겟 대상을 정의합니다. 기존 대상을 선택하거나 과제 생성 인터페이스에서 직접 새 대상을 만들 수 있습니다. [대상자를 사용하여 작업하는 방법을 알아봅니다](../audience/about-audiences.md).
 
 +++
 
