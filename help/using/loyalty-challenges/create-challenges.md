@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="비공개 베타" type="Informative"
-source-git-commit: 7b075996eebd03f0aa812da3ece9cfebef8c65fc
+source-git-commit: e98fe328b5a72a7091d48b5e2939a24e4ad6954c
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1055'
 ht-degree: 1%
 
 ---
@@ -20,23 +20,21 @@ ht-degree: 1%
 
 # 과제 만들기 {#create-challenges}
 
->[!CONTEXTUALHELP]
->id="ajo_loyalty_create_challenge"
->title="충성도 과제 만들기"
->abstract="참여 오퍼를 정의하는 충성도 문제를 만들고, 전달을 위한 콘텐츠 카드를 구성하고, 작업을 추가하고, 보상을 설정하고, 선택적으로 채널 간에 메시지를 구성합니다."
-
-충성도 문제를 생성하여 참여 오퍼를 정의하고, 콘텐츠 카드를 구성하고, 작업을 추가하고, 보상을 설정하고, 여러 채널에 걸쳐 메시지를 구성합니다.
-
 >[!BEGINSHADEBOX]
 
 **충성도 과제 설명서:**
 
-* [충성도 문제 시작](gs-loyalty-challenges.md) - 빠른 개요 및 다음 단계
-* [충성도 문제 이해](get-started.md) - 기능, 워크플로, 사전 요구 사항
+* [충성도 문제 시작](get-started.md) - 개요, 워크플로, 사전 요구 사항
+* [충성도 문제 액세스](access-loyalty-challenges.md) - 인벤토리 및 필터링
 * **과제 만들기** ◀︎**현재 상태** - 과제 빌드 및 구성
 * [문제 관리](manage-challenges.md) - 편집, 모니터링, 최적화
 
 >[!ENDSHADEBOX]
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_create_challenge"
+>title="충성도 과제 만들기"
+>abstract="참여 오퍼를 정의하는 충성도 문제를 만들고, 전달을 위한 콘텐츠 카드를 구성하고, 작업을 추가하고, 보상을 설정하고, 선택적으로 채널 간에 메시지를 구성합니다."
 
 ## 시작하기 전에 {#before-you-start}
 

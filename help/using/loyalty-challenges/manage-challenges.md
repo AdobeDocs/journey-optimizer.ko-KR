@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="비공개 베타" type="Informative"
-source-git-commit: 7b075996eebd03f0aa812da3ece9cfebef8c65fc
+source-git-commit: e98fe328b5a72a7091d48b5e2939a24e4ad6954c
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '360'
 ht-degree: 1%
 
 ---
@@ -20,23 +20,21 @@ ht-degree: 1%
 
 # 과제 관리 {#manage-challenges}
 
->[!CONTEXTUALHELP]
->id="ajo_loyalty_manage_challenges"
->title="충성도 문제 관리"
->abstract="충성도 문제를 만들고 게시한 후 이러한 문제를 보고, 편집하고, 모니터링하고, 최적화하여 충성도 프로그램에 원하는 결과를 제공할 수 있습니다."
-
-충성도 문제를 만들고 게시한 후 이러한 문제를 보고, 편집하고, 모니터링하고, 최적화하여 충성도 프로그램에 원하는 결과를 제공할 수 있습니다.
-
 >[!BEGINSHADEBOX]
 
 **충성도 과제 설명서:**
 
-* [충성도 문제 시작](gs-loyalty-challenges.md) - 빠른 개요 및 다음 단계
-* [충성도 문제 이해](get-started.md) - 기능, 워크플로, 사전 요구 사항
+* [충성도 문제 시작](get-started.md) - 개요, 워크플로, 사전 요구 사항
+* [충성도 문제 액세스](access-loyalty-challenges.md) - 인벤토리 및 필터링
 * [과제 만들기](create-challenges.md) - 과제 빌드 및 구성
 * **문제 관리** ◀︎**현재 상태** - 편집, 모니터링, 최적화
 
 >[!ENDSHADEBOX]
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_manage_challenges"
+>title="충성도 문제 관리"
+>abstract="충성도 문제를 만들고 게시한 후 이러한 문제를 보고, 편집하고, 모니터링하고, 최적화하여 충성도 프로그램에 원하는 결과를 제공할 수 있습니다."
 
 ## 과제 라이프사이클 {#challenge-lifecycle}
 
