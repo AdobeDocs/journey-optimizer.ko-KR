@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="비공개 베타" type="Informative"
-source-git-commit: dbed4ffeb63ec3c58ff61845bbdb91fd2d51e69b
+source-git-commit: 831809b4c1dd19fdaeeb646695f606c02ec21265
 workflow-type: tm+mt
 source-wordcount: '888'
 ht-degree: 0%
@@ -99,7 +99,7 @@ ht-degree: 0%
 
 <!-- SCREENSHOT: Content cards configuration section in the challenge editor -->
 
-콘텐츠 카드는 고객 디바이스에 대한 도전을 시각적으로 표현하여 도전 정보, 진행 상황 및 보상을 표시합니다. [콘텐츠 카드](../content-card/get-started-content-card.md)에 대해 자세히 알아보세요.
+콘텐츠 카드는 고객 디바이스에 대한 도전을 시각적으로 표현하여 도전 정보, 진행 상황 및 보상을 표시합니다. [콘텐츠 카드](../content-card/create-content-card.md)에 대해 자세히 알아보세요.
 
 <!-- VISUAL: Example content card designs showing different states: challenge start, in-progress with progress bar, completion with reward -->
 
