@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: 이메일, 디자인, Stock, 자산
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '723'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 96%
 
 이메일 디자이너에 액세스하고 이메일 콘텐츠를 디자인하려면 먼저 여정 또는 캠페인에서 [이메일을 만들어야](create-email.md) 합니다.
 
-그런 다음 [!DNL Journey Optimizer]&#x200B;**이메일 디자인 기능**&#x200B;을 사용하여 기존 콘텐츠를 가져오거나 응답형 이메일을 처음부터 빌드할 수 있습니다. [자세히 알아보기](content-from-scratch.md)
+그런 다음 [!DNL Journey Optimizer]**이메일 디자인 기능**&#x200B;을 사용하여 기존 콘텐츠를 가져오거나 응답형 이메일을 처음부터 빌드할 수 있습니다. [자세히 알아보기](content-from-scratch.md)
 
 이메일 디자이너를 통해 다음 작업도 수행할 수 있습니다.
 
@@ -62,7 +62,7 @@ ht-degree: 96%
 
    ![](assets/email_designer_export.png)
 
-1. 또한 컨텐츠 품질을 확인하여 가독성, 컨텐츠 응집력 및 효과성과 관련된 잠재적 문제를 식별할 수 있습니다. [콘텐츠 품질 유효성 검사에 대해 자세히 알아보기](../content-management/brands-score.md#validate-quality)
+1. 또한 콘텐츠 품질을 확인하여 가독성, 콘텐츠 일치도, 효과성 관련 잠재적인 문제를 찾을 수 있습니다. [콘텐츠 품질 확인에 대해 자세히 알아보기](../content-management/brands-score.md#validate-quality)
 
 ## 이메일 디자인 모범 사례 {#best-practices}
 
@@ -84,8 +84,8 @@ ht-degree: 96%
 
 메시지 편집기로 이메일 콘텐츠를 만드는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416234?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
 A/B 테스트를 위한 콘텐츠 실험을 구성하여 비즈니스 목표 달성에 가장 도움이 되는 이메일 콘텐츠를 탐색하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447338?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)
