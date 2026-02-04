@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="비공개 베타" type="Informative"
-source-git-commit: 831809b4c1dd19fdaeeb646695f606c02ec21265
+source-git-commit: 5120eb51311348b8561b0a20f982576f6c945921
 workflow-type: tm+mt
 source-wordcount: '888'
 ht-degree: 0%
@@ -171,7 +171,7 @@ ht-degree: 0%
 
 1. **모든 구성 요소 검토**: 과제 속성, 작업, 보상, 콘텐츠 카드 및 메시징 구성을 확인합니다.
 
-1. **경험 테스트**: [테스트 프로필](../test-approve/test-profiles.md)을 사용하여 콘텐츠 카드 표시 및 작업 트리거 동작의 유효성을 검사하십시오.
+1. **경험 테스트**: [테스트 프로필](../content-management/test-profiles.md)을 사용하여 콘텐츠 카드 표시 및 작업 트리거 동작의 유효성을 검사하십시오.
 
 1. **게시**: **[!UICONTROL 게시]**&#x200B;를 선택하여 대상 대상자에게 문제를 제공할 수 있습니다.
 
@@ -185,7 +185,7 @@ ht-degree: 0%
 
 1. 자동 생성된 여정(이름에 접두사로 &quot;Challenge:&quot;가 있음)를 찾습니다.
 
-1. [여정 활성화](../building-journeys/publishing-the-journey.md).
+1. [여정 활성화](../building-journeys/publish-journey.md).
 
 여정은 지정된 챌린지 시작 날짜에 자동으로 시작됩니다.
 

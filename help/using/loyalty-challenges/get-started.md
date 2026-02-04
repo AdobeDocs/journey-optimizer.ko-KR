@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="비공개 베타" type="Informative"
-source-git-commit: bd98e4dc77a0adde83df6251af749aa6da8c058d
+source-git-commit: 5120eb51311348b8561b0a20f982576f6c945921
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 1%
@@ -66,9 +66,9 @@ ht-degree: 1%
 
 1. **메시지 구성**(선택 사항) - 시작, 진행 중 및 완료와 같은 주요 라이프사이클 단계에 대해 다중 채널 메시지([인앱](../in-app/get-started-in-app.md), [이메일](../email/get-started-email.md), [푸시](../push/get-started-push.md))를 설정합니다.
 
-1. **검토 및 게시** - [테스트 프로필](../test-approve/test-profiles.md)을 사용하여 도전을 테스트한 다음 게시하여 대상 대상자가 사용할 수 있도록 합니다.
+1. **검토 및 게시** - [테스트 프로필](../content-management/test-profiles.md)을 사용하여 도전을 테스트한 다음 게시하여 대상 대상자가 사용할 수 있도록 합니다.
 
-1. **여정 활성화** - 문제를 게시하면 Journey Optimizer에서 콘텐츠 카드 게재 및 메시지를 조정하는 초안 상태의 [여정](../building-journeys/journey-gs.md)을(를) 자동으로 만듭니다. 여정 인벤토리로 이동하고 자동으로 생성된 여정(&quot;과제: [과제 이름]&quot;)를 찾은 다음 [활성화](../building-journeys/publishing-the-journey.md)하여 고객이 과제를 사용할 수 있도록 합니다.
+1. **여정 활성화** - 문제를 게시하면 Journey Optimizer에서 콘텐츠 카드 게재 및 메시지를 조정하는 초안 상태의 [여정](../building-journeys/journey-gs.md)을(를) 자동으로 만듭니다. 여정 인벤토리로 이동하고 자동으로 생성된 여정(&quot;과제: [과제 이름]&quot;)를 찾은 다음 [활성화](../building-journeys/publish-journey.md)하여 고객이 과제를 사용할 수 있도록 합니다.
 
 1. **성능 모니터링** - 기본 제공 보고서 및 여정 캔버스를 통해 기여도, 완료율, 보상 배포 및 메시지 참여를 추적합니다. 모니터링 세부 정보는 [문제 관리](manage-challenges.md)를 참조하십시오.
 
@@ -86,7 +86,7 @@ ht-degree: 1%
 
 자세한 지침은 다음을 참조하십시오.
 
-* [Experience Platform 소스 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/home)
+* [Experience Platform 소스 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [Journey Optimizer에서 소스 커넥터 구성](../start/get-started-sources.md)
 
 +++
