@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 충성도 문제 시작
-description: 매력적인 충성도 프로그램을 제작하기 위해 Adobe Journey Optimizer에서 충성도 문제를 만들고 관리하는 방법을 알아봅니다.
+description: 매력적인 충성도 프로그램을 구축하기 위해 Adobe Journey Optimizer에서 충성도 문제를 만들고 관리하는 방법을 알아봅니다.
 feature: Journeys
 topic: Content Management
 role: User
@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="비공개 베타" type="Informative"
-source-git-commit: e978d075efbbcb42e7500d921bd8cc3ed1eee890
+source-git-commit: f41c1ed8a2d9e74b9d8fe97e0bf9e565d326aec6
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '603'
 ht-degree: 1%
 
 ---
@@ -25,10 +25,9 @@ ht-degree: 1%
 **충성도 과제 설명서:**
 
 * **충성도 문제 시작** ◀︎**현재 상태** - 개요, 워크플로, 사전 요구 사항
-* [충성도 문제 액세스](access-loyalty-challenges.md) - 인벤토리 및 필터링
+* [충성도 문제 액세스 및 관리](access-loyalty-challenges.md) - 인벤토리, 문제 및 작업 관리
 * [과제 만들기](create-challenges.md) - 과제 빌드 및 구성
 * [작업 만들기](create-tasks.md) - 과제 작업 정의
-* [문제 관리](manage-challenges.md) - 편집, 모니터링, 최적화
 
 >[!ENDSHADEBOX]
 
@@ -48,29 +47,25 @@ ht-degree: 1%
 
 충성도 문제를 사용하면 외부 충성도 관리 시스템과의 통합을 유지하면서 보상을 구성하고, 주요 라이프사이클 단계에서 다중 채널 알림을 전송하고, 자동으로 생성된 여정을 통해 성능을 모니터링할 수 있습니다.
 
-<!-- SCREENSHOT: High-level diagram showing Loyalty Challenges architecture with: Data ingestion from source connectors -> Challenge creation in JO -> Content cards & messaging -> Customer device -> Journey tracking -->
-
 ## 작동 방식 {#how-it-works}
-
-<!-- SCHEMA: Visual workflow diagram showing the 8 steps in the loyalty challenge creation process with icons for each step -->
 
 충성도 문제를 만들고 실행하는 것은 다음 워크플로를 따릅니다.
 
 1. **데이터 수집 설정** - 고객 작업 및 진행 상황을 추적하는 고객 충성도 이벤트 데이터를 수집하도록 Experience Platform 소스 커넥터(예: Capillary 커넥터)를 구성합니다. 이 데이터를 통해 과제 추적 및 작업 완료를 수행할 수 있습니다.
 
-1. **챌린지 만들기** - 이름, 유형(표준, 연속 또는 순차적), 대상 및 날짜 범위를 포함한 기본 챌린지 속성을 정의합니다. 자세한 단계는 [문제 만들기](create-challenges.md)를 참조하십시오.
+1. **대상 선택** - Adobe Experience Platform에서 대상을 선택하여 도전에 참여할 수 있는 고객을 정의합니다.
 
-1. **작업 추가** - 작업 유형(구매, 지출, 방문, 참여, 사용자 지정 이벤트), 수량, 제품 필터 및 보상을 포함하여 고객이 완료해야 하는 특정 작업을 정의합니다. 자세한 지침은 [작업 만들기](create-tasks.md)를 참조하세요.
+1. **챌린지 만들기** - 이름, 유형(표준, 연속 또는 순차적), 날짜 범위를 포함한 기본 챌린지 속성을 정의합니다.
 
-1. **콘텐츠 카드 디자인** - 고객 장치에 표시되는 Journey Optimizer [콘텐츠 카드](../content-card/create-content-card.md)를 사용하여 도전의 시각적 표현을 만듭니다. 콘텐츠 카드에는 도전 정보, 진행 상황, 보상 등이 표시된다.
+1. **작업 추가** - 작업 유형(구매, 지출, 방문, 참여, 사용자 지정 이벤트), 수량, 제품 필터 및 보상을 포함하여 고객이 완료해야 하는 특정 작업을 정의합니다.
 
-1. **메시지 구성**(선택 사항) - 시작, 진행 중 및 완료와 같은 주요 라이프사이클 단계에 대해 다중 채널 메시지([인앱](../in-app/get-started-in-app.md), [이메일](../email/get-started-email.md), [푸시](../push/get-started-push.md))를 설정합니다.
+1. **콘텐츠 카드 디자인** - 고객 장치에 표시되는 Journey Optimizer 콘텐츠 카드를 사용하여 도전의 시각적 표현을 만듭니다. 콘텐츠 카드에는 도전 정보, 진행 상황, 보상 등이 표시된다.
 
-1. **검토 및 게시** - [테스트 프로필](../content-management/test-profiles.md)을 사용하여 도전을 테스트한 다음 게시하여 대상 대상자가 사용할 수 있도록 합니다.
+1. **메시지 구성**(선택 사항) - 시작, 진행 중 및 완료와 같은 주요 라이프사이클 단계에 대한 멀티채널 메시지(인앱, 이메일, 푸시)를 설정합니다.
 
-1. **여정 활성화** - 문제를 게시하면 Journey Optimizer에서 콘텐츠 카드 게재 및 메시지를 조정하는 초안 상태의 [여정](../building-journeys/journey-gs.md)을(를) 자동으로 만듭니다. 여정 인벤토리로 이동하고 자동으로 생성된 여정(&quot;과제: [과제 이름]&quot;)를 찾은 다음 [활성화](../building-journeys/publish-journey.md)하여 고객이 과제를 사용할 수 있도록 합니다.
+1. **여정 게시** - Journey Optimizer에서 자동으로 챌린지에 대한 여정을 생성합니다. 여정 인벤토리로 이동하고 자동 생성된 여정을 게시하여 고객이 문제를 사용할 수 있도록 합니다.
 
-1. **성능 모니터링** - 기본 제공 보고서 및 여정 캔버스를 통해 기여도, 완료율, 보상 배포 및 메시지 참여를 추적합니다. 모니터링 세부 정보는 [문제 관리](manage-challenges.md)를 참조하십시오.
+자세한 단계별 지침은 [문제 만들기](create-challenges.md)를 참조하십시오.
 
 ## 전제 조건 {#prerequisites}
 
@@ -86,7 +81,7 @@ ht-degree: 1%
 
 자세한 지침은 다음을 참조하십시오.
 
-* [Experience Platform 소스 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/home)
+* [Experience Platform 소스 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [Journey Optimizer에서 소스 커넥터 구성](../start/get-started-sources.md)
 
 +++
