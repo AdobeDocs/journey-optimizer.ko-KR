@@ -10,10 +10,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="비공개 베타" type="Informative"
-source-git-commit: e98fe328b5a72a7091d48b5e2939a24e4ad6954c
+source-git-commit: dbed4ffeb63ec3c58ff61845bbdb91fd2d51e69b
 workflow-type: tm+mt
-source-wordcount: '1055'
-ht-degree: 1%
+source-wordcount: '888'
+ht-degree: 0%
 
 ---
 
@@ -27,241 +27,174 @@ ht-degree: 1%
 * [충성도 문제 시작](get-started.md) - 개요, 워크플로, 사전 요구 사항
 * [충성도 문제 액세스](access-loyalty-challenges.md) - 인벤토리 및 필터링
 * **과제 만들기** ◀︎**현재 상태** - 과제 빌드 및 구성
+* [작업 만들기](create-tasks.md) - 과제 작업 정의
 * [문제 관리](manage-challenges.md) - 편집, 모니터링, 최적화
 
 >[!ENDSHADEBOX]
 
->[!CONTEXTUALHELP]
->id="ajo_loyalty_create_challenge"
->title="충성도 과제 만들기"
->abstract="참여 오퍼를 정의하는 충성도 문제를 만들고, 전달을 위한 콘텐츠 카드를 구성하고, 작업을 추가하고, 보상을 설정하고, 선택적으로 채널 간에 메시지를 구성합니다."
-
-## 시작하기 전에 {#before-you-start}
-
-과제를 만들기 전에 다음을 확인하십시오.
-
-* 소스 커넥터를 통해 구성 및 검증된 데이터 수집
-* Experience Platform에서 필요한 대상을 만들었습니다.
-* 도전을 위해 준비된 콘텐츠 에셋(이미지, 텍스트 등)
-* 제공할 작업 및 보상 정의
-
-## 과제 만들기 {#create-a-challenge}
-
-문제 만들기에 대한 자세한 단계는 다음과 같습니다.
-* 과제 속성 구성
-* 과제 유형(표준, 연속, 순차적)
-* 대상자 선택
-* 날짜 구성
-
-## 작업 추가 {#add-tasks}
-
-작업은 고객이 충성도 도전에서 보상을 얻기 위해 완료해야 하는 특정 작업 또는 이정표를 정의합니다. 작업 유형, 수량, 제품 요구 사항 및 보상 값을 구성하여 매력적인 개인화된 충성도 경험을 만들 수 있습니다.
-
-### 작업 개요 {#task-overview}
-
-각 작업은 측정 가능한 작업을 나타내며 과제 완성에 기여합니다. 과제 유형(표준, 연속 또는 순차적)에 따라 고객은 다음과 같이 작업을 다르게 완료합니다.
-
-* **표준 과제**: 고객은 순서에 관계없이 지정된 수의 작업을 완료합니다
-* **연속 문제**: 고객은 동일한 작업을 여러 번 연속적으로 완료합니다
-* **순차적 문제**: 고객은 정의된 순서로 작업을 완료합니다
-
-### 작업 추가 {#add-task}
-
-작업에 문제를 추가하려면 다음 작업을 수행하십시오.
-
-1. 도전을 열거나 새 도전을 만듭니다.
-
-2. **[!UICONTROL 작업]** 섹션으로 이동합니다.
-
-3. **[!UICONTROL 작업 추가]** 또는 **[!UICONTROL 새 작업 만들기]**&#x200B;를 선택합니다.
-
-4. 작업 생성 화면에서 다음 속성을 구성합니다.
-
-### 작업 속성 {#task-properties}
-
-#### 기본 작업 정보 {#basic-info}
-
-**[!UICONTROL 작업 이름]**: 작업에 대한 수사적 이름을 입력하십시오. 이 이름은 사용자와 팀이 볼 수 있지만 콘텐츠 카드 디자인에 따라 고객에게 표시되지 않을 수 있습니다.
-
-**[!UICONTROL 작업 설명]**: (선택 사항) 작업 목적 또는 요구 사항에 대한 세부 정보를 추가합니다.
-
-**[!UICONTROL 작업 유형]**: 고객이 수행해야 하는 작업 유형을 선택하십시오. 사용 가능한 작업 유형은 다음과 같습니다.
-
-* **[!UICONTROL 구매]**: 고객이 구매 트랜잭션을 만듭니다.
-* **[!UICONTROL 지출 금액]**: 고객이 지정된 금액을 지출합니다.
-* **[!UICONTROL 방문]**: 고객이 실제 위치 또는 디지털 속성을 방문함
-* **[!UICONTROL 참여]**: 고객은 비디오를 보거나 문서를 읽는 등 콘텐츠에 참여합니다.
-* **[!UICONTROL 사용자 지정 이벤트]**: 고객이 데이터 수집을 통해 추적된 사용자 지정 이벤트를 트리거합니다.
-
-#### 수량 요구 사항 {#quantity-requirements}
-
-**[!UICONTROL 필수 수량]**: 고객이 작업을 완료하기 위해 수행해야 하는 횟수를 지정합니다.
-
-예:
-
-* 구매 태스크의 경우: &quot;2개 품목 구매&quot;(수량 = 2)
-* 지출 금액 태스크의 경우: &quot;지출 $50&quot;(수량 = 50)
-* 방문 작업의 경우: &quot;5회 방문&quot;(수량 = 5)
-
-**[!UICONTROL 추적 기간]**: (선택 사항) 이 작업을 완료할 기간을 정의합니다.
-
-* 챌린지 기간당(기본값)
-* 일별
-* 주당
-* 월별
-* 사용자 정의 날짜 범위
-
-### 제품 및 SKU 필터링 {#product-filtering}
-
-구매 및 지출 금액 작업의 경우 작업 완료에 적합한 제품을 지정할 수 있습니다.
-
-#### 제품 포함 {#product-inclusions}
-
-작업에 포함되는 제품 또는 범주를 정의합니다.
-
-1. **[!UICONTROL 제품 기준 추가]**&#x200B;를 선택합니다.
-
-2. 적격 제품을 정의하는 방법 선택:
-   * **[!UICONTROL SKU별]**: 특정 제품 SKU 코드 입력
-   * **[!UICONTROL 카테고리별]**: 카탈로그에서 제품 카테고리를 선택하십시오.
-   * **[!UICONTROL 특성별]**: 브랜드, 크기, 색상 또는 사용자 지정 특성과 같은 제품 특성별로 필터링합니다.
-
-3. 제품 식별자를 입력하거나 선택합니다.
-
-   **예 - SKU별**:
-
-   ```text
-   SKU001, SKU002, SKU003
-   ```
-
-   **예 - 범주별**:
-
-   * 음료 > 커피
-   * 베이커리 > 패스트리
-
-   **예제 - 특성별**:
-
-   * Brand = &quot;Premium Brand&quot;
-   * 범주 = &quot;시즌 품목&quot;
-   * 가격 > $20
-
-4. **[!UICONTROL 추가]**&#x200B;를 선택하여 제품 기준을 저장합니다.
-
-#### 제품 제외 {#product-exclusions}
-
-필요한 경우 특정 제품을 작업에 대한 계산에서 제외합니다.
-
-1. **[!UICONTROL 제외 추가]**&#x200B;를 선택합니다.
-
-2. 제품 포함과 동일한 필터링 방법을 사용하여 제외할 제품을 지정합니다.
-
-3. 일반적인 제외 시나리오:
-
-   * 판매 또는 통관 품목
-   * 기프트 카드
-   * 프로모션 또는 무료 품목
-   * 특정 브랜드 또는 카테고리
-
->[!NOTE]
+>[!AVAILABILITY]
 >
->**포함 및 제외 논리**: 포함 및 제외가 모두 정의된 경우:
->
->* 제품은 포함 기준과 일치해야 합니다.
->* 제외 기준과 일치하는 제품은 포함과 일치하더라도 제거됩니다
->* 포함이 정의되지 않은 경우 명시적으로 제외된 제품을 제외한 모든 제품이 적합합니다
+>이 기능은 현재 **개인 베타**&#x200B;에 있으며 사용자의 환경에서는 사용할 수 없습니다. 액세스 권한을 요청하려면 Adobe 담당자에게 문의하십시오. [가용성 레이블](../rn/releases.md#availability-labels)에 대해 자세히 알아보세요.
 
-#### 제품 필터링의 예 {#product-filtering-examples}
+## 작동 방식 {#how-it-works}
 
-##### 예제 1: Coffee challenge {#example-1}
+<!-- SCHEMA: Visual workflow showing the 5 main steps with icons: Create challenge → Add tasks → Design content cards → Configure messaging → Review and publish -->
 
-* 작업 유형: 구매
-* 필수 수량: 3
-* 포함: Category = &quot;Druks > Coffee&quot;
-* 결과: 고객은 3개의 커피 음료를 구입해야 합니다
+충성도 문제를 만들고 실행하는 것은 다음 워크플로를 따릅니다.
 
-##### 예제 2: 프리미엄 지출 {#example-2}
+1. **챌린지 만들기** - 이름, 유형(표준, 연속 또는 순차적), 대상 및 날짜 범위를 포함한 기본 챌린지 속성을 정의합니다.
 
-* 작업 유형: 지출 금액
-* 필수 수량: $100
-* 포함: Brand = &quot;Premium Brand&quot;
-* 제외: 범주 = &quot;클리어런스&quot;
-* 결과: 고객은 정산 항목을 제외한 프리미엄 브랜드 항목에 100달러를 지출해야 합니다.
+1. **작업 추가** - 작업 유형(구매, 지출, 방문 등), 수량, 제품 필터 및 보상을 포함하여 고객이 완료해야 하는 특정 작업을 정의합니다.
 
-##### 예제 3: 특정 제품 구매 {#example-3}
+1. **콘텐츠 카드 디자인** - 고객 장치에 표시되는 Journey Optimizer 콘텐츠 카드를 사용하여 도전의 시각적 표현을 만듭니다.
 
-* 작업 유형: 구매
-* 필수 수량: 1
-* 포함: SKU = &quot;NEWPRODUCT2024&quot;
-* 결과: 고객은 SKU &quot;NEWPRODUCT2024&quot;와 함께 특정 제품을 구매해야 합니다.
+1. **메시지 구성**(선택 사항) - 시작, 진행 중 및 완료와 같은 주요 단계에 대해 멀티채널 메시지(인앱, 이메일, 푸시, SMS)를 설정합니다.
 
-### 보상 구성 {#configure-rewards}
+1. **검토 및 게시** - 테스트 프로필로 문제를 테스트한 다음 게시하여 대상 대상자가 사용할 수 있도록 합니다.
 
-고객이 작업을 완료하기 위해 획득하는 금액을 정의합니다. 보상은 모든 업무가 종료된 후 과제 수준 또는 과제 수준에서 부여될 수 있다.
+## 과제 만들기 {#create-challenge}
 
-#### 보상 타이밍 {#reward-timing}
+<!-- SCREENSHOT: Challenge creation screen showing challenge properties form with fields for name, type, audience, dates -->
 
-고객이 보상을 받는 시점 선택:
+새로운 충성도 과제를 만들려면:
 
-**[!UICONTROL 작업 완료 후]**: 고객은 이 특정 작업을 완료한 후 즉시 보상을 받습니다(&quot;점진적 보상&quot; 또는 &quot;마일스톤 보상&quot;이라고도 함).
+1. Journey Optimizer의 **[!UICONTROL 충성도 과제]**(으)로 이동합니다.
 
-**[!UICONTROL 도전 완료 후]**: 고객은 도전에서 필요한 모든 작업을 완료한 후에만 보상을 받습니다(&quot;최종 보상&quot; 또는 &quot;대상&quot;이라고도 함).
+1. **[!UICONTROL 과제]** 탭을 선택하십시오.
 
->[!TIP]
->
->두 보상 유형을 하나의 과제에 결합하여 고객 여정 전반에 걸쳐 참여를 유지할 수 있습니다. 예:
->
->* 각 작업 완료 후 10점 부여(점진적 보상)
->* 전체 도전(최종 보상)을 완료한 후 100점을 추가 부여
+1. **[!UICONTROL 질문 만들기]**&#x200B;를 선택하십시오.
 
-#### 보상 유형 및 값 {#reward-types}
+1. 과제 속성을 구성합니다.
 
-**[!UICONTROL 포인트]**: 고객 계정에 충성도 포인트를 부여합니다.
+   **도전 이름**: 도전의 수사적 이름을 입력하십시오. 이 이름은 과제 인벤토리에 표시되며 과제를 식별하는 데 도움이 됩니다.
 
-* 포인트 수(예: 100)를 입력합니다.
-* 포인트는 API를 통해 외부 충성도 관리 시스템에 전달됩니다
+   **도전 유형**: 다음 유형 중 하나를 선택하십시오.
+   * **[!UICONTROL 표준]**: 고객은 지정된 수의 작업을 순서에 관계없이 완료합니다
+   * **[!UICONTROL 연속]**: 고객은 동일한 작업을 여러 번 연속적으로 완료합니다
+   * **[!UICONTROL 순차적]**: 고객은 정의된 순서로 작업을 완료합니다
 
-**[!UICONTROL 할인]**: 할인 코드 또는 값을 제공하십시오.
+   **대상**: 이 문제에 참여할 수 있는 사용자를 정의하는 대상 세그먼트를 선택하십시오. 문제를 만들려면 먼저 Experience Platform에서 대상을 만들어야 합니다. 자세한 내용은 [대상자 시작](../audience/about-audiences.md)을 참조하세요.
 
-* 할인 유형(퍼센트 또는 고정 금액) 입력
-* 할인 값 입력
-* 선택적으로 할인 코드를 지정하거나 시스템에서 할인 코드를 생성하도록 합니다.
+   **시작 날짜**: 고객이 도전을 사용할 수 있게 되면 설정합니다.
 
-**[!UICONTROL 무료 항목]**: 무료 제품 또는 서비스를 부여합니다.
+   **종료 날짜**: 문제가 만료되어 더 이상 새 완료를 허용하지 않는 시기를 설정합니다.
 
-* 항목 SKU 또는 설명 지정
-* 무료 품목 청구 방법 표시
+<!-- VISUAL: Comparison table or diagram showing the three challenge types (Standard, Streak, Sequential) with examples of each -->
 
-**[!UICONTROL 사용자 지정 보상]**: 사용자 지정 보상 유형을 정의합니다.
+### 작업 추가 {#add-tasks}
 
-* 보상 설명 입력
-* 관련 코드 또는 식별자 제공
-* 보상 전달 또는 청구 방법 구성
+작업은 고객이 보상을 받기 위해 완료해야 하는 특정 작업 또는 이정표를 정의합니다. 작업 유형(구매, 지출, 방문, 참여, 사용자 정의 이벤트), 수량, 제품 필터 및 보상을 구성합니다.
 
-## 콘텐츠 카드 구성 {#configure-content-cards}
+과제 유형에 따라 고객은 다르게 작업을 완료합니다.
 
-다음을 포함한 콘텐츠 카드 구성에 대한 자세한 단계:
-* 콘텐츠 카드 설정
-* 디자인 및 개인화
-* 미리보기 및 테스트
+* **표준 과제**: 순서에 관계없이 지정된 수의 작업을 완료하십시오.
+* **연속 문제**: 동일한 작업을 여러 번 연속적으로 완료하십시오.
+* **순차적인 문제**: 정의된 순서로 작업 완료
 
-## 메시징 구성 {#configure-messaging}
+작업에 작업을 추가하려면 작업 섹션에서 **[!UICONTROL 작업 추가]**&#x200B;를 선택하고 작업 속성을 구성하십시오.
 
-다중 채널 메시지 구성에 대한 자세한 단계는 다음과 같습니다.
-* 메시지 채널(인앱, 이메일, 푸시)
-* 메시지 단계(시작, 진행 중, 완료)
-* 메시지 타이밍 및 트리거
+작업 만들기 및 구성에 대한 자세한 지침은 [작업 만들기](create-tasks.md)를 참조하세요.
 
-## 검토 및 게시 {#review-and-publish}
+### 콘텐츠 카드 구성 {#configure-content-cards}
+
+<!-- SCREENSHOT: Content cards configuration section in the challenge editor -->
+
+콘텐츠 카드는 고객 디바이스에 대한 도전을 시각적으로 표현하여 도전 정보, 진행 상황 및 보상을 표시합니다. [콘텐츠 카드](../content-card/get-started-content-card.md)에 대해 자세히 알아보세요.
+
+<!-- VISUAL: Example content card designs showing different states: challenge start, in-progress with progress bar, completion with reward -->
+
+과제에 맞게 콘텐츠 카드를 구성하려면 다음을 수행하십시오.
+
+1. 과제 편집기에서 **[!UICONTROL 콘텐츠 카드]** 섹션으로 이동합니다.
+
+1. **[!UICONTROL 콘텐츠 카드 만들기]**&#x200B;를 선택하거나 기존 템플릿을 선택하십시오.
+
+1. 콘텐츠 카드 디자인:
+   * 이미지, 텍스트 및 브랜딩 요소 추가
+   * 고객별 정보를 표시하려면 [개인화 토큰](../personalization/personalization-syntax.md)을 포함하십시오.
+   * 과제 진행 표시기 표시
+   * 보상 및 인센티브 표시
+
+1. 콘텐츠 카드가 표시될 시기를 구성합니다.
+   * **챌린지 시작**: 챌린지를 사용할 수 있게 되면 표시
+   * **진행 중**: 고객이 적극적으로 참여하는 동안 표시
+   * **완료**: 고객이 모든 작업을 완료한 후 표시
+
+1. 제대로 표시되도록 하려면 다른 장치에서 컨텐츠 카드를 미리 봅니다.
+
+1. 콘텐츠 카드 구성을 저장합니다.
+
+콘텐츠 카드 디자인 및 개인화에 대한 자세한 내용은 [콘텐츠 카드 디자인](../content-card/design-content-card.md)을 참조하세요.
+
+### 메시징 구성 {#configure-messaging}
+
+<!-- SCREENSHOT: Messaging configuration section showing the three lifecycle stages: Launch, In-progress, Completion -->
+
+멀티채널 메시지를 설정하여 과제 라이프사이클의 주요 단계에서 고객을 참여시킵니다.
+
+<!-- VISUAL: Timeline diagram showing when each message type is sent during the challenge lifecycle -->
+
+당면 과제에 대한 메시지를 구성하려면 다음을 수행하십시오.
+
+1. 과제 편집기에서 **[!UICONTROL 메시징]** 섹션으로 이동합니다.
+
+1. 각 라이프사이클 단계에 대한 메시지를 구성합니다.
+
+   **시작 메시지** - 도전이 시작되면 고객에게 알림:
+   * 채널 선택: [앱 내](../in-app/get-started-in-app.md), [이메일](../email/get-started-email.md), [푸시 알림](../push/get-started-push.md) 또는 [SMS](../sms/get-started-sms.md)
+   * 과제 세부 정보 및 call-to-action을 사용하여 메시지 디자인
+   * 시간 설정: 도전이 실행되거나 특정 시간 동안 예약되면 즉시 전송
+
+   **진행 중인 메시지** - 문제 중에 고객 참여 유지:
+   * 트리거 조건 정의(예: 50% 완료, 특정 작업 완료됨)
+   * 지속적인 참여를 독려하는 알림 메시지 만들기
+   * 진행 상황 업데이트 및 다음 단계 포함
+
+   **완료 메시지** - 성공을 축하하고 보상을 제공합니다.
+   * 고객의 도전 완료를 축하합니다.
+   * 보상 할당 확인
+   * 보상 청구에 대한 지침 제공
+   * 다음 과제 또는 작업 제안
+
+특정 채널을 위한 메시지를 만드는 방법에 대한 자세한 내용은 다음을 참조하십시오.
+
+* [인앱 메시지 설명서](../in-app/get-started-in-app.md)
+* [이메일 메시지 설명서](../email/get-started-email.md)
+* [푸시 알림 설명서](../push/get-started-push.md)
+* [SMS 메시지 설명서](../sms/get-started-sms.md)
+
+## 과제 검토 및 게시 {#review-and-publish}
+
+<!-- SCREENSHOT: Review screen showing summary of challenge configuration with all components listed -->
 
 문제를 게시하기 전에:
 
-1. **모든 구성 요소 검토**: 과제 속성, 작업, 보상, 콘텐츠, 메시지
-2. **경험 테스트**: 테스트 프로필을 사용하여 콘텐츠 및 작업 트리거를 확인합니다
-3. **게시**: 대상 대상에 대해 문제를 활성화하십시오.
+1. **모든 구성 요소 검토**: 과제 속성, 작업, 보상, 콘텐츠 카드 및 메시징 구성을 확인합니다.
 
-자동 생성된 여정은 지정된 시작 날짜에 활성화됩니다.
+1. **경험 테스트**: [테스트 프로필](../test-approve/test-profiles.md)을 사용하여 콘텐츠 카드 표시 및 작업 트리거 동작의 유효성을 검사하십시오.
+
+1. **게시**: **[!UICONTROL 게시]**&#x200B;를 선택하여 대상 대상자에게 문제를 제공할 수 있습니다.
+
+<!-- SCREENSHOT: Journeys inventory showing the auto-generated journey in Draft status with name format "Challenge: [Challenge Name]" -->
+
+문제를 게시하면 Journey Optimizer에서 초안 상태로 [여정](../building-journeys/journey-gs.md)을(를) 자동으로 만듭니다. 자동 생성된 여정이 &quot;도전: [도전 이름]&quot; 이름 형식으로 여정 인벤토리에 표시됩니다.
+
+고객이 문제를 해결할 수 있도록 하려면 다음을 수행하십시오.
+
+1. Journey Optimizer의 **[!UICONTROL 여정]** 인벤토리로 이동합니다.
+
+1. 자동 생성된 여정(이름에 접두사로 &quot;Challenge:&quot;가 있음)를 찾습니다.
+
+1. [여정 활성화](../building-journeys/publishing-the-journey.md).
+
+여정은 지정된 챌린지 시작 날짜에 자동으로 시작됩니다.
+
+>[!NOTE]
+>
+>자동 생성된 여정은 여정 인벤토리에 표시되며 필요한 경우 사용자 정의할 수 있습니다. 그러나 여정에 직접 적용한 변경 사항은 과제 구성에 다시 동기화되지 않습니다.
 
 ## 다음 단계 {#next-steps}
 
 * [문제 관리](manage-challenges.md) - 문제를 편집, 모니터링 및 최적화하는 방법을 알아봅니다.
 * [충성도 문제 이해](get-started.md) - 기능 검토
+
