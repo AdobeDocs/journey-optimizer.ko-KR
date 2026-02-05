@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 badge: label="비공개 베타" type="Informative"
 mini-toc-levels: 1
-source-git-commit: 94b553b19dbb0ba3020979fa710c2c35af237816
+source-git-commit: 5e11a0817ef6d1c7ef2e363cde48cddf932cd2c1
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -29,10 +29,10 @@ ht-degree: 0%
 
 **충성도 과제 설명서:**
 
-* [충성도 문제 시작](get-started.md) - 개요, 워크플로, 사전 요구 사항
-* **과제 및 작업 액세스 및 관리** ◀︎**현재 상태** - 인벤토리, 과제 및 작업 관리
-* [과제 만들기](create-challenges.md) - 과제 빌드 및 구성
-* [작업 만들기](create-tasks.md) - 과제 작업 정의
+* [충성도 문제 시작](get-started.md)
+* **문제 및 작업 액세스 및 관리** ◀︎**현재 상태**
+* [과제 만들기](create-challenges.md)
+* [작업 만들기](create-tasks.md)
 
 >[!ENDSHADEBOX]
 
