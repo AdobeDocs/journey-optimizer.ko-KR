@@ -11,19 +11,15 @@ hide: true
 hidefromtoc: true
 badge: label="비공개 베타" type="Informative"
 mini-toc-levels: 1
-source-git-commit: 5e11a0817ef6d1c7ef2e363cde48cddf932cd2c1
+source-git-commit: 342df0950622de1c4c246bf624d05843671e199f
 workflow-type: tm+mt
-source-wordcount: '1486'
+source-wordcount: '1471'
 ht-degree: 0%
 
 ---
 
 
 # 과제 만들기 {#create-challenges}
-
->[!AVAILABILITY]
->
->이 기능은 현재 **개인 베타**&#x200B;에 있으며 사용자의 환경에서는 사용할 수 없습니다. 액세스 권한을 요청하려면 Adobe 담당자에게 문의하십시오. [가용성 레이블](../rn/releases.md#availability-labels)에 대해 자세히 알아보세요.
 
 >[!BEGINSHADEBOX]
 
@@ -35,6 +31,10 @@ ht-degree: 0%
 * [작업 만들기](create-tasks.md)
 
 >[!ENDSHADEBOX]
+
+>[!AVAILABILITY]
+>
+>이 기능은 현재 **개인 베타**&#x200B;에 있습니다. [가용성 레이블](../rn/releases.md#availability-labels)에 대해 자세히 알아보세요.
 
 이 페이지에서는 과제 유형 선택 및 속성 구성에서 고객에게 과제를 제공할 여정 생성 및 게시에 이르기까지 충성도 과제를 만드는 전체 프로세스를 다룹니다.
 

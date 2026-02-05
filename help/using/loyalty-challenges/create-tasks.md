@@ -11,19 +11,15 @@ hide: true
 hidefromtoc: true
 badge: label="비공개 베타" type="Informative"
 mini-toc-levels: 1
-source-git-commit: 5e11a0817ef6d1c7ef2e363cde48cddf932cd2c1
+source-git-commit: 342df0950622de1c4c246bf624d05843671e199f
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '683'
 ht-degree: 0%
 
 ---
 
 
 # 작업 만들기 {#create-tasks}
-
->[!AVAILABILITY]
->
->이 기능은 현재 **개인 베타**&#x200B;에 있으며 사용자의 환경에서는 사용할 수 없습니다. 액세스 권한을 요청하려면 Adobe 담당자에게 문의하십시오. [가용성 레이블](../rn/releases.md#availability-labels)에 대해 자세히 알아보세요.
 
 >[!BEGINSHADEBOX]
 
@@ -35,6 +31,10 @@ ht-degree: 0%
 * **작업 만들기** ◀︎**현재 상태**
 
 >[!ENDSHADEBOX]
+
+>[!AVAILABILITY]
+>
+>이 기능은 현재 **개인 베타**&#x200B;에 있습니다. [가용성 레이블](../rn/releases.md#availability-labels)에 대해 자세히 알아보세요.
 
 작업은 고객이 충성도 도전에서 보상을 얻기 위해 완료해야 하는 특정 작업 또는 이정표를 정의합니다. 매력적인 개인화된 충성도 경험을 만들기 위해 작업 유형, 수량 및 제품 요구 사항을 구성할 수 있습니다.
 
