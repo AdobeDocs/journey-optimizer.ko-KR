@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+source-git-commit: dc417c88021bdb042d7a600ee13a7cbab0ceeb4a
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '682'
 ht-degree: 5%
 
 ---
@@ -269,11 +269,11 @@ Some edu specific content
 >
 >[이 섹션](../../data/get-started-datasets.md)의 데이터 세트에 대해 자세히 알아보세요.
 
-**제한**
+**제한 사항**
 
-작업당 키 값 쌍에는 2kb의 상한이 있습니다.
+작업당 키 값 쌍에는 2kb의 상한이 있습니다. 2Kb 제한을 초과하는 경우 메시지가 계속 전달되지만 키 값 쌍은 잘릴 수 있습니다.
 
-2Kb 제한을 초과하는 경우 메시지가 계속 전달되지만 키 값 쌍은 잘릴 수 있습니다.
+작업에서 제외된 프로필에 대한 메타데이터는 캡처되지 않습니다. 프로필이 메시지 수신에서 제외되면 데이터 세트에 있는 해당 프로필에 대한 메타데이터 항목이 생성되지 않습니다.
 
 **예**
 
