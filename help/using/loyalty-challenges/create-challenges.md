@@ -10,10 +10,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="비공개 베타" type="Informative"
-mini-toc-levels: 2
-source-git-commit: 43d3593264ea6d33794914e1b1f9ea45c295c79e
+mini-toc-levels: 1
+source-git-commit: 94b553b19dbb0ba3020979fa710c2c35af237816
 workflow-type: tm+mt
-source-wordcount: '1470'
+source-wordcount: '1501'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,8 @@ ht-degree: 0%
 * [작업 만들기](create-tasks.md) - 과제 작업 정의
 
 >[!ENDSHADEBOX]
+
+이 페이지에서는 과제 유형 선택 및 속성 구성에서 고객에게 과제를 제공할 여정 생성 및 게시에 이르기까지 충성도 과제를 만드는 전체 프로세스를 다룹니다.
 
 ## 과제 만들기 {#create-the-challenge}
 
@@ -68,9 +70,9 @@ ht-degree: 0%
    * **[!UICONTROL 이름]**: 챌린지를 설명하는 이름을 입력하십시오. 이 이름은 과제 인벤토리에 표시됩니다.
    * **[!UICONTROL 설명]**: 도전 목적과 목표를 설명하는 설명을 입력하십시오.
 
-   ![](assets/challenge-create-properties.png)
-
 1. 키/값 쌍을 사용하여 사용자 지정 메타데이터를 추가하려면 **[!UICONTROL 사용자 지정 메타데이터]** 섹션을 사용하십시오. 이 메타데이터는 추적 또는 외부 시스템과의 통합에 사용할 수 있습니다.
+
+   ![](assets/challenge-create-properties.png)
 
 ### 챌린지 예약 {#schedule}
 
@@ -117,13 +119,13 @@ ht-degree: 0%
 
    +++연속 도전
 
-   * **[!UICONTROL 연속 형식]**:
+   **[!UICONTROL Streak 유형]** 드롭다운에서 다음 중 하나를 선택합니다.
 
-      * **연속**: 고객은 연속해서 며칠씩 쉬지 않고 작업을 완료해야 합니다. *예: 월요일, 화요일, 수요일에 구매—하루 누락 시 연속 누락.*
+   * **연속**: 고객은 연속해서 며칠씩 쉬지 않고 작업을 완료해야 합니다. *예: 월요일, 화요일, 수요일에 구매—하루 누락 시 연속 누락.*
 
-      * **연속되지 않음**: 고객은 완료 사이에 간격이 있는 상태로 작업을 완료할 수 있습니다. *예: 30일 동안 7회 구입을 완료하고 할인이 허용됩니다.*
+   * **연속되지 않음**: 고객은 완료 사이에 간격이 있는 상태로 작업을 완료할 수 있습니다. *예: 30일 동안 7회 구입을 완료하고 할인이 허용됩니다.*
 
-   * **[!UICONTROL 연속 길이]**: 작업을 완료해야 하는 횟수를 지정합니다. *예: &quot;7일 연속 구매&quot;에 대해 7로 설정합니다.*
+   **[!UICONTROL Streak length]** 필드에 작업을 완료해야 하는 횟수를 지정합니다. *예: &quot;7일 연속 구매&quot;에 대해 7로 설정합니다.*
 
    +++
 
@@ -157,6 +159,8 @@ ht-degree: 0%
      *예: 작업 1 다음에 10포인트, 작업 2 다음에 20포인트, 작업 3 다음에 50포인트를 부여합니다*
 
 1. 보상 제공자를 선택합니다. 고객 포인트와 보상을 관리하는 충성도 솔루션입니다.
+
+   ![](assets/challenge-create-reward-type.png)
 
 1. 선택한 게재 방법에 따라 보상 금액을 구성합니다.
 
@@ -210,7 +214,7 @@ ht-degree: 0%
    * **진행 중** 메시지: 고객에게 알림 메시지 및 진행 상황 업데이트 참여 유지
    * **완료** 메시지: 성공을 축하하고 보상 할당을 확인합니다.
 
-1. 각 단계에 대해 메시지 단추를 추가하여 해당 단계에 대한 메시지를 만듭니다.
+1. 각 단계에 대해 메시지 추가 버튼을 클릭하여 해당 단계에 대한 메시지를 만듭니다.
 
 1. 원하는 채널: **[!UICONTROL 인앱]**, **[!UICONTROL 이메일]** 또는 **[!UICONTROL 푸시 알림]**&#x200B;을 선택하고 연결된 채널 구성을 선택합니다.
 
@@ -245,8 +249,6 @@ ht-degree: 0%
    ![](assets/challenge-create-generate-journey.png)
 
 1. Journey Optimizer은 &quot;초안&quot; 상태에서 여정을 자동으로 생성합니다. 자동 생성된 여정이 여정 인벤토리에 이름 형식 *&quot;여정: [도전 이름]&quot;*(으)로 표시됩니다. [여정 인벤토리에 대해 자세히 알아보세요](../building-journeys/journey-ui.md).
-
-   필요한 경우 **[!UICONTROL 여정]** 인벤토리로 이동하여 자동 생성된 여정 구성을 검토하십시오.
 
    ![](assets/challenge-create-journey.png)
 
