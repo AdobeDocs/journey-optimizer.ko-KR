@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: 작업, 서드파티, 사용자 지정, 여정, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 5213c60df3494c43a96d9098593a6ab539add8bb
+source-git-commit: 30241f4504ad82bf8ef9f6b58d3bb9482f572dae
 workflow-type: tm+mt
-source-wordcount: '2032'
-ht-degree: 14%
+source-wordcount: '2437'
+ht-degree: 12%
 
 ---
 
@@ -163,7 +163,7 @@ Adobe Journey Optimizer은 사용자 지정 작업에 대해 기본적으로 TLS
 
 mTLS(상호 전송 계층 보안)를 사용하여 Adobe Journey Optimizer 사용자 지정 작업에 대한 아웃바운드 연결에서 보안을 강화할 수 있습니다. mTLS는 상호 인증을 위한 종단간 보안 방법으로, 정보를 공유하는 양 당사자가 데이터를 공유하기 전에 자신이 주장하는 사람임을 보장합니다. mTLS에는 TLS와 비교하여 추가 단계가 포함되어 있으며, 이 단계에서 서버는 클라이언트의 인증서를 요청하고 마지막에 검증한다.
 
-사용자 지정 작업에서 상호 TLS(mTLS) 인증이 지원됩니다. mTLS를 활성화하기 위해 사용자 정의 작업 또는 여정에 구성을 추가할 필요는 없습니다. mTLS 활성화 엔드포인트가 감지되면 자동으로 활성화됩니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
+사용자 지정 작업에서 상호 TLS(mTLS) 인증이 지원됩니다. mTLS를 활성화하기 위해 사용자 정의 작업 또는 여정에 구성을 추가할 필요는 없습니다. mTLS 활성화 엔드포인트가 감지되면 자동으로 활성화됩니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
 
 ## 페이로드 매개 변수 정의 {#define-the-message-parameters}
 
@@ -207,6 +207,205 @@ mTLS(상호 전송 계층 보안)를 사용하여 Adobe Journey Optimizer 사용
 >Null 값을 허용하면서 선택적 매개 변수를 구성하면 여정 실무자가 입력하지 않은 매개 변수가 Null로 전송됩니다.
 >
 
+## 포괄적인 JSON 예 {#json-examples}
+
+이 섹션에서는 사용자 지정 작업에 대해 지원되는 모든 매개 변수 유형 및 구성을 보여주는 전체 JSON 예를 제공합니다.
+
+### 예제 1: 기본 매개 변수 유형
+
+다음 예에서는 사용자 지정 작업 페이로드에서 다양한 데이터 유형을 사용하는 방법을 보여 줍니다.
+
+```json
+{
+  "requestData": {
+    "userId": "@{profile.person.name.firstName}",
+    "accountId": "ABC123",
+    "age": "@{profile.person.age}",
+    "isActive": true,
+    "loyaltyScore": "@{profile.customField.score}"
+  }
+}
+```
+
+작업 구성에서:
+* `userId` - 변수 매개 변수(String) - 프로필 firstName에 매핑
+* `accountId` - 상수 매개 변수(String) - 항상 &quot;ABC123&quot;을 보냅니다.
+* `age` - 변수 매개 변수(정수) - 프로필 나이에 매핑
+* `isActive` - 상수 매개 변수(부울) - 항상 true를 보냅니다.
+* `loyaltyScore` - 변수 매개 변수(10진수) - 사용자 지정 프로필 필드에 매핑함
+
+### 예제 2: 시스템 상수 및 여정 컨텍스트 사용
+
+여정 관련 정보 및 시스템 값을 참조할 수 있습니다.
+
+```json
+{
+  "metadata": {
+    "sandboxName": "prod",
+    "executionTimestamp": "@{journey.startTime}",
+    "journeyId": "@{journey.id}",
+    "journeyName": "@{journey.name}",
+    "journeyVersion": "@{journey.version}",
+    "stepId": "@{journey.stepId}",
+    "profileId": "@{profile.identityMap.ECID[0].id}"
+  }
+}
+```
+
+**사용 가능한 여정 컨텍스트 변수:**
+
+>[!NOTE]
+>
+>여정 컨텍스트 변수 구문은 제품 팀에서 확인 중입니다. 실제 필드 이름은 journeyUID, journeyVersionName, journeyVersion, currentNodeId, currentNodeName(여정 속성 설명서 기반) 일 수 있습니다.
+
+* `@{journey.id}` - 여정의 고유 식별자
+* `@{journey.name}` - 여정 이름
+* `@{journey.version}` - 여정 버전 번호
+* `@{journey.startTime}` - 이 프로필에 대해 여정이 시작된 타임스탬프(확인 필요)
+* `@{journey.stepId}` - 현재 단계 식별자
+* `@{journey.stepName}` - 현재 단계의 이름
+
+### 예제 3: 선택적 및 필수 매개 변수
+
+여정 실무자가 선택적으로 채울 수 있는 매개 변수를 구성합니다.
+
+```json
+{
+  "customer": {
+    "email": "@{profile.personalEmail.address}",
+    "mobilePhone": "@{profile.mobilePhone.number}",
+    "preferredLanguage": "@{profile.preferredLanguage}"
+  }
+}
+```
+
+작업 구성 UI에서:
+* `email`을(를) **필수**(으)로 설정(&quot;선택 사항입니다&quot; 선택 안 함)
+* `mobilePhone`을(를) **선택 사항**(으)로 설정(&quot;선택 사항입니다&quot; 확인)
+* `preferredLanguage`을(를) 기본값으로 **선택 사항**(으)로 설정
+
+>[!TIP]
+>
+>매개 변수가 선택 사항으로 표시되고 여정 전문가가 입력하지 않으면 페이로드에서 생략되거나 null로 전송됩니다(&quot;NULL 값 허용&quot;이 활성화된 경우).
+
+### 예제 4: 배열 및 컬렉션 작업
+
+사용자 지정 작업에 데이터 컬렉션 전달:
+
+```json
+{
+  "products": [
+    {
+      "id": "@{product1.id}",
+      "name": "@{product1.name}",
+      "price": "@{product1.price}"
+    },
+    {
+      "id": "@{product2.id}",
+      "name": "@{product2.name}",
+      "price": "@{product2.price}"
+    }
+  ],
+  "tags": ["premium", "loyalty", "vip"],
+  "categoryIds": ["CAT001", "CAT002"]
+}
+```
+
+>[!NOTE]
+>
+>[이 페이지](../building-journeys/collections.md)의 사용자 지정 작업에서 컬렉션을 전달하는 방법에 대해 자세히 알아보세요.
+
+### 예제 5: 중첩된 오브젝트 및 복잡한 구조
+
+계층형 데이터 구조 구축:
+
+```json
+{
+  "customer": {
+    "personalInfo": {
+      "firstName": "@{profile.person.name.firstName}",
+      "lastName": "@{profile.person.name.lastName}",
+      "email": "@{profile.personalEmail.address}"
+    },
+    "address": {
+      "street": "@{profile.homeAddress.street1}",
+      "city": "@{profile.homeAddress.city}",
+      "postalCode": "@{profile.homeAddress.postalCode}",
+      "country": "@{profile.homeAddress.country}"
+    },
+    "preferences": {
+      "language": "@{profile.preferredLanguage}",
+      "timezone": "@{profile.timeZone}",
+      "emailOptIn": "@{profile.consents.marketing.email.val}"
+    }
+  },
+  "context": {
+    "channel": "email",
+    "campaignId": "CAMPAIGN_2025_Q1",
+    "segment": "@{segmentMembership.status}"
+  }
+}
+```
+
+### 예제 6: 실제 사용자 지정 작업 완료
+
+여러 개념을 통합하는 포괄적인 예:
+
+```json
+{
+  "event": {
+    "eventType": "journey.action.triggered",
+    "eventId": "@{journey.stepId}",
+    "timestamp": "@{journey.stepTimestamp}",
+    "eventSource": "Adobe Journey Optimizer"
+  },
+  "profile": {
+    "id": "@{profile.identityMap.ECID[0].id}",
+    "email": "@{profile.personalEmail.address}",
+    "firstName": "@{profile.person.name.firstName}",
+    "lastName": "@{profile.person.name.lastName}",
+    "loyaltyTier": "@{profile.loyaltyTier}",
+    "lifetimeValue": "@{profile.lifetimeValue}"
+  },
+  "journey": {
+    "id": "@{journey.id}",
+    "name": "@{journey.name}",
+    "version": "@{journey.version}",
+    "step": "@{journey.stepName}"
+  },
+  "customData": {
+    "offerName": "@{decisioning.offerName}",
+    "offerPlacement": "@{decisioning.placementName}",
+    "specialPromotion": "WINTER2025"
+  },
+  "system": {
+    "sandbox": "prod",
+    "dataStreamId": "YOUR_DATASTREAM_ID",
+    "imsOrgId": "@{imsOrgId}"
+  }
+}
+```
+
+**이 예제의 구성 팁:**
+* 상수 값(`eventSource`, `specialPromotion`, `sandbox`)과 변수 매개 변수의 혼합
+* 추적 및 디버깅에 여정 컨텍스트 사용
+* 서드파티 시스템의 개인화를 위한 프로필 데이터 포함
+* 오퍼를 사용할 때 의사 결정 컨텍스트 추가
+* 라우팅 및 조직 수준 추적을 위한 시스템 메타데이터
+
+### 상수 구성을 위한 팁
+
+**샌드박스 이름:** 환경 이름으로 설정된 상수 매개 변수를 사용합니다(예: &quot;prod&quot;, &quot;dev&quot;, &quot;stage&quot;).
+
+**실행 타임스탬프:** `@{journey.startTime}`을(를) 사용하거나 여정 관리자가 `#{nowWithDelta()}` 함수에 매핑할 수 있는 변수 매개 변수를 만드십시오
+
+**API 버전:** API 버전 번호에 상수를 사용하여 여정 간의 일관성을 유지합니다.
+
+**인증 토큰:** 페이로드에 인증 토큰을 넣지 마십시오. 대신 사용자 지정 작업 구성의 인증 섹션을 사용하십시오.
+
+>[!CAUTION]
+>
+>페이로드의 필드 이름은 점 `.`자를 포함할 수 없으며 `$`자로 시작할 수도 없습니다. JSON 구조가 이러한 명명 규칙을 따르는지 확인합니다.
 
 * [사용자 지정 작업 문제 해결](../action/troubleshoot-custom-action.md) - 사용자 지정 작업 문제를 해결하는 방법 알아보기
 

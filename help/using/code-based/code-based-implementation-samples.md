@@ -6,9 +6,9 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
-source-git-commit: cd31c50de91593348744ead8042e480a2f1164de
+source-git-commit: 30241f4504ad82bf8ef9f6b58d3bb9482f572dae
 workflow-type: tm+mt
-source-wordcount: '935'
+source-wordcount: '994'
 ht-degree: 3%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 3%
 
 ### 작동 방법 - 웹 SDK {#client-side-how}
 
-1. [웹 SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko){target="_blank"}이(가) 페이지에 포함되어 있습니다.
+1. [웹 SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"}이(가) 페이지에 포함되어 있습니다.
 
 1. 개인화 콘텐츠를 가져오려면 `sendEvent` 명령을 사용하고 [표면 URI](code-based-surface.md)<!--( or location/path)-->를 지정해야 합니다.
 
@@ -105,7 +105,9 @@ ht-degree: 3%
                interact: 1
              },
              propositionAction: {
-               label: label
+               id: label,
+               label: label,
+               tokens: proposition.items?.[0]?.characteristics?.tokens || []
              },
            },
          },
@@ -113,6 +115,15 @@ ht-degree: 3%
      });
    }
    ```
+
+   >[!IMPORTANT]
+   >
+   >`tokens`의 `propositionAction` 필드는 Adobe Journey Optimizer Decisioning(AJO-D)에서 정확한 추적 및 속성에 중요합니다. 이러한 토큰을 사용하면 다음 작업을 수행할 수 있습니다.
+   >- 의사 결정 활동에 대한 적절한 클릭 속성
+   >- 결정된 콘텐츠와의 사용자 상호 작용에 대한 정확한 보고
+   >- 사용자 참여를 기반으로 오퍼 성능 최적화
+   >
+   >토큰은 일반적으로 `proposition.items[0].characteristics.tokens`에서 찾을 수 있으며, 결정된 콘텐츠와의 사용자 상호 작용을 추적할 때 항상 포함되어야 합니다.
 
 ### 주요 관찰
 
@@ -308,7 +319,7 @@ ht-degree: 3%
 하이브리드 구현이 있는 경우 아래 링크를 확인하십시오.
 
 * Adobe 기술 블로그: [Adobe Experience Platform 웹 SDK의 하이브리드 Personalization](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
-* SDK 설명서: [Web SDK 및 Edge Network Server API를 사용한 하이브리드 개인화](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html?lang=ko){target="_blank"}
+* SDK 설명서: [Web SDK 및 Edge Network Server API를 사용한 하이브리드 개인화](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html){target="_blank"}
 
 ## Adobe Experience Platform Assurance을 사용하여 Edge 네트워크 API 호출 디버그 {#debugging-edge-api-assurance}
 
@@ -357,4 +368,4 @@ To help you get started with implementing code-based experiences, refer to the c
 
 * **Web SDK implementation**: Learn how to configure the Web SDK for decisioning and code-based experiences in [these tutorials](code-based-decisioning-implementations.md#tutorials).
 
-* **Decisioning implementation**: To learn how to implement decisioning capabilities on a code-based campaign, follow [this use case tutorial](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-uc){target="_blank"}.-->
+* **Decisioning implementation**: To learn how to implement decisioning capabilities on a code-based campaign, follow [this use case tutorial](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-uc){target="_blank"}.-->
