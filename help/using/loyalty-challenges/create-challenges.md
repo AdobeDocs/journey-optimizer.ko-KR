@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 badge: label="비공개 베타" type="Informative"
 mini-toc-levels: 1
-source-git-commit: 342df0950622de1c4c246bf624d05843671e199f
+source-git-commit: 5ccbddb37c0f45b6dd004cb4b70378b300228c0c
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1503'
 ht-degree: 0%
 
 ---
@@ -236,23 +236,29 @@ ht-degree: 0%
 
 1. 대상 선택 대화 상자에서 사용 가능한 Adobe Experience Platform 대상 목록에서 대상 대상을 선택한 다음 **[!UICONTROL 대상 추가]**&#x200B;를 선택합니다. [대상자를 사용하여 작업하는 방법을 알아봅니다](../audience/about-audiences.md).
 
-이제 과제 구조, 콘텐츠, 메시징 및 타겟 대상으로 완벽하게 구성되었습니다. 마지막 단계는 여정을 생성하고 게시하는 것입니다.
+이제 과제 구조, 콘텐츠, 메시징 및 타겟 대상으로 완벽하게 구성되었습니다. 시작하려면 문제와 관련 여정을 게시해야 합니다.
 
-## 여정 생성 및 게시 {#review-and-publish}
+## 과제 실행 {#launch}
 
-모든 과제 구성 요소를 구성한 후 과제 전달을 오케스트레이션할 여정을 생성합니다.
+문제를 시작하려면 **3단계**&#x200B;가 필요합니다. (1) 문제 게시, (2) 여정 생성, (3) 여정 게시. 세 가지 모두 완료 되어야 고객에게 과제를 제공할 수 있습니다.
 
 1. 과제 구성을 검토하여 모든 필수 필드를 완료하십시오.
 
-1. **[!UICONTROL 저장]**&#x200B;을 선택하여 챌린지 구성을 저장하고 **[!UICONTROL 여정 생성]**&#x200B;을 선택합니다.
+1. ![](assets/do-not-localize/Smock_More_18_N.svg) 아이콘을 클릭하고 **[!UICONTROL 게시]**&#x200B;를 선택합니다.
+
+   ![](assets/challenge-create-publish.png)
+
+1. **[!UICONTROL 여정 생성]**&#x200B;을(를) 선택하여 챌린지 게재를 오케스트레이션할 여정을 만드십시오.
 
    ![](assets/challenge-create-generate-journey.png)
 
-1. Journey Optimizer은 &quot;초안&quot; 상태에서 여정을 자동으로 생성합니다. 자동 생성된 여정이 여정 인벤토리에 이름 형식 *&quot;여정: [도전 이름]&quot;*(으)로 표시됩니다. [여정 인벤토리에 대해 자세히 알아보세요](../building-journeys/journey-ui.md).
+1. Journey Optimizer은 &quot;초안&quot; 상태에서 여정을 자동으로 생성합니다. 여정이 여정 인벤토리에 이름 형식 *&quot;여정: [도전 이름]&quot;*(으)로 표시됩니다. [여정 인벤토리에 대해 자세히 알아보세요](../building-journeys/journey-ui.md).
 
    ![](assets/challenge-create-journey.png)
 
-1. 준비가 완료된 경우 여정을 게시하여 고객이 과제를 사용할 수 있도록 합니다. 여정은 지정된 챌린지 시작 날짜에 자동으로 시작되며 구성에 따라 컨텐츠 및 메시지를 전달합니다. [여정 게시 방법을 알아보세요](../building-journeys/publish-journey.md).
+1. 여정을 열고 게시합니다. 여정은 지정된 챌린지 시작 날짜에 자동으로 시작되며 구성에 따라 컨텐츠 및 메시지를 전달합니다. [여정 게시 방법을 알아보세요](../building-journeys/publish-journey.md).
+
+1. 문제가 실행되면 [여정 보고서](../reports/journey-global-report-cja.md)에서 성능 및 메시지 전달을 모니터링합니다.
 
 >[!NOTE]
 >
