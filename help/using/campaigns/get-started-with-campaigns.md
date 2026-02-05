@@ -11,7 +11,7 @@ mini-toc-levels: 1
 keywords: 캠페인, 방법 , 시작, Optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1510'
 ht-degree: 100%
 
@@ -291,7 +291,7 @@ Adobe Journey Optimizer를 사용하면 여러 채널에서 특정 대상자에�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **예약 및 시간**
 
@@ -301,7 +301,7 @@ Adobe Journey Optimizer를 사용하면 여러 채널에서 특정 대상자에�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **속도 제어**
 
@@ -311,7 +311,7 @@ Adobe Journey Optimizer를 사용하면 여러 채널에서 특정 대상자에�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **대상자 타겟팅**
 
@@ -321,7 +321,7 @@ Adobe Experience Platform의 특정 대상자를 정확하게 타겟팅하고 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **승인 워크플로**
 
@@ -331,7 +331,7 @@ Adobe Experience Platform의 특정 대상자를 정확하게 타겟팅하고 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **방해 금지 시간**
 
@@ -341,7 +341,7 @@ Adobe Experience Platform의 특정 대상자를 정확하게 타겟팅하고 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **최적화**
 
