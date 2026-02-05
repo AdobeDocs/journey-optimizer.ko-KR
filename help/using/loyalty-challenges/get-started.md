@@ -10,9 +10,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="비공개 베타" type="Informative"
-source-git-commit: e683461c6adbf45cacb30692e23927175685f9fb
+mini-toc-levels: 2
+source-git-commit: f50cc244f6d5ec8b38844e8240e72502ddfe3ae0
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '665'
 ht-degree: 1%
 
 ---
@@ -20,45 +21,51 @@ ht-degree: 1%
 
 # 충성도 문제 시작 {#get-started-loyalty-challenges}
 
+>[!AVAILABILITY]
+>
+>이 기능은 현재 **개인 베타**&#x200B;에 있으며 사용자의 환경에서는 사용할 수 없습니다. 액세스 권한을 요청하려면 Adobe 담당자에게 문의하십시오. [가용성 레이블](../rn/releases.md#availability-labels)에 대해 자세히 알아보세요.
+
 >[!BEGINSHADEBOX]
 
 **충성도 과제 설명서:**
 
 * **충성도 문제 시작** ◀︎**현재 상태** - 개요, 워크플로, 사전 요구 사항
-* [충성도 문제 액세스 및 관리](access-loyalty-challenges.md) - 인벤토리, 문제 및 작업 관리
+* [과제 및 작업 액세스 및 관리](access-loyalty-challenges.md) - 인벤토리, 과제 및 작업 관리
 * [과제 만들기](create-challenges.md) - 과제 빌드 및 구성
 * [작업 만들기](create-tasks.md) - 과제 작업 정의
 
 >[!ENDSHADEBOX]
 
->[!AVAILABILITY]
->
->이 기능은 현재 **개인 베타**&#x200B;에 있으며 사용자의 환경에서는 사용할 수 없습니다. 액세스 권한을 요청하려면 Adobe 담당자에게 문의하십시오. [가용성 레이블](../rn/releases.md#availability-labels)에 대해 자세히 알아보세요.
-
 ## 개요 {#overview}
 
-충성도 과제는 작업과 이정표 정의에서 채널 전반에 걸쳐 콘텐츠 전달 및 성능 추적에 이르기까지 규모에 맞는 충성도 프로그램을 제작할 수 있는 완벽한 솔루션을 제공합니다.
+충성도 문제를 사용하면 고객 행동을 유도하고 브랜드 관계를 심화하는 매력적인 게임화된 충성도 프로그램을 만들 수 있습니다. 구매 및 리뷰 작성부터 소셜 미디어 참여 및 친구 추천에 이르기까지 특정 작업에 대해 고객에게 보상해 주는 문제를 제기하십시오.
+
+충성도 문제를 통해 다음과 같은 작업을 수행할 수 있습니다.
+
+* **유연한 과제 유형 디자인**: 비즈니스 목표에 맞게 표준, 연속 또는 순차적 과제 만들기
+* **전략적으로 보상 구성**: 작업 마일스톤 또는 전체 완료 시 포인트를 전달하여 참여 유지
+* **경험 개인화**: 콘텐츠 카드 및 다중 채널 메시지를 사용하여 몰입형 브랜드 경험을 만듭니다
+* **원활하게 통합**: 기존 충성도 공급자와 연결하고 Experience Platform 데이터 활용
+* **자동으로 추적**: 사용자 지정 개발 없이 자동 생성된 여정을 통해 고객 진행 상황을 모니터링합니다.
 
 ![](assets/challenges-gs.png)
 
 다음과 같은 세 가지 유형의 과제 경험을 만들 수 있습니다.
 
-* **표준 과제**: 고객은 순서에 관계없이 지정된 수의 작업을 완료합니다\
-  *예: 사용 가능한 작업 5개 중 3개를 완료*
+* **표준 과제**: 고객은 순서에 관계없이 지정된 수의 작업을 완료합니다. 유연성과 여러 경로를 완성하려면 이 유형을 사용하십시오.\
+  *예: &quot;Summer Wellness Challenge&quot; - 5가지 작업 중 3가지 완료: 건강 제품 구입, 소셜 미디어 공유, 친구 추천, 리뷰 작성 또는 가상 이벤트 참석*
 
-* **연속 문제**: 고객은 동일한 작업을 여러 번 연속적으로 완료합니다\
-  *예: 7일 연속으로 구매*
+* **연속 문제**: 고객은 동일한 작업을 여러 번 연속적으로 완료합니다. 이 유형을 사용하여 시간이 지남에 따라 일관되고 반복되는 동작을 장려합니다.\
+  *예: &quot;커피 애호가 주간&quot; - 7일 연속으로 커피 제품을 구입하여 무료 음료 보상을 받으세요*
 
-* **순차적 문제**: 고객은 정의된 순서로 작업을 완료합니다\
-  *예: 구매 → 검토 → 공유(이 순서로 완료해야 함)*
-
-외부 충성도 관리 시스템과의 통합을 유지하면서 충성도 문제를 해결하고, 보상을 구성하고, 자동 생성된 여정을 사용하여 주요 라이프사이클 단계에서 다중 채널 알림을 전송할 수 있습니다.
+* **순차적인 문제**: 고객은 정의된 순서로 작업을 완료합니다. 이 유형을 사용하여 특정 여정 또는 온보딩 프로세스를 안내합니다.\
+  *예: &quot;새 구성원 여정&quot; - 전자 메일→ 등록하여 첫 번째 구매 → 제품 리뷰 작성 → 친구 참조(이 순서로 완료)*
 
 ## 작동 방식 {#how-it-works}
 
 충성도 문제를 만들고 실행하는 것은 다음 워크플로를 따릅니다.
 
-1. **데이터 수집 설정** - 고객 작업 및 진행 상황을 추적하는 고객 충성도 이벤트 데이터를 수집하도록 Experience Platform 소스 커넥터(예: [Capillary 커넥터](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/home#loyalty))를 구성합니다. 이 데이터를 통해 과제 추적 및 작업 완료를 수행할 수 있습니다.
+1. **데이터 수집 설정** - 고객 작업 및 진행 상황을 추적하는 고객 충성도 이벤트 데이터를 수집하도록 Experience Platform 소스 커넥터(예: [Capillary 커넥터](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty))를 구성합니다. 이 데이터를 통해 과제 추적 및 작업 완료를 수행할 수 있습니다.
 
 1. **챌린지 만들기** - 이름, 유형(표준, 연속 또는 순차적), 날짜 범위를 포함한 기본 챌린지 속성을 정의합니다.
 
@@ -82,30 +89,23 @@ ht-degree: 1%
 
 충성도 문제는 Experience Platform 소스 커넥터를 통해 수집된 데이터를 사용하여 고객 진행 상황과 작업 완료를 추적합니다.
 
-1. **지원되는 원본 커넥터를 구성하십시오**: 현재 Capillary 커넥터를 사용할 수 있습니다. 추가 커넥터는 향후 릴리스에 제공될 예정입니다. [충성도 소스 커넥터에 대해 알아봅니다](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/home#loyalty).
-
-1. **데이터 수집 유효성 검사**: 충성도 이벤트 및 고객 데이터가 Experience Platform으로 유입되어 Journey Optimizer에서 사용할 수 있는지 확인하십시오. 데이터 스키마에 고객 작업 및 진행 상황을 추적하는 데 필요한 필드가 포함되어 있는지 확인합니다.
-
-자세한 지침은 [Experience Platform 소스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/home)를 참조하십시오.
+시작하기 전에 지원되는 소스 커넥터를 구성합니다. 현재 Capillary 커넥터를 사용할 수 있습니다. 추가 커넥터는 향후 릴리스에 제공될 예정입니다. [충성도 소스 커넥터에 대해 알아봅니다](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty).
 
 +++
 
-+++필요한 권한
+<!--+++Required permissions
 
-충성도 문제를 사용하려면 Journey Optimizer에서 적절한 권한이 필요합니다. 필요한 권한은 다음과 같습니다.
+To use Loyalty Challenges, you need appropriate permissions in Journey Optimizer. Required permissions include:
 
-* **[!UICONTROL 충성도 문제(Beta)]** 기능에 액세스
-* 여정 만들기 및 관리 권한
-* 콘텐츠 카드를 만들고 관리할 수 있는 권한
-* 대상자를 만들고 관리할 수 있는 권한
+TBD
 
-기능에 액세스할 수 없거나 추가 권한이 필요한 경우 관리자에게 문의하십시오.
+Contact your administrator if you cannot access the feature or need additional permissions.
 
-+++
++++-->
 
 +++타깃 대상자
 
-충성도 도전에 참여할 수 있는 고객을 지정하는 타겟 대상을 정의합니다. 기존 대상을 선택하거나 과제 생성 인터페이스에서 직접 새 대상을 만들 수 있습니다. [대상자를 사용하여 작업하는 방법을 알아봅니다](../audience/about-audiences.md).
+과제를 만들기 전에 필요한 타겟 대상이 Adobe Experience Platform에 있는지 확인하십시오. 과제 구성 중에 참여할 수 있는 고객을 정의하는 대상을 선택합니다. [대상자를 사용하여 작업하는 방법을 알아봅니다](../audience/about-audiences.md).
 
 +++
 
@@ -118,7 +118,7 @@ ht-degree: 1%
     <!--<img alt="Access" src="../assets/do-not-localize/learn-more-button.svg">-->
     </a>
     <div>
-    <a href="access-loyalty-challenges.md"><strong>충성도 문제 액세스</strong></a>
+    <a href="access-loyalty-challenges.md"><strong>문제 및 작업 액세스 및 관리</strong></a>
     </div>
     <p>
     <em>인벤토리 및 필터링 문제 액세스 방법 알아보기</em>
@@ -132,7 +132,7 @@ ht-degree: 1%
     <a href="create-challenges.md"><strong>문제 만들기</strong></a>
     </div>
     <p>
-    <em>첫 번째 충성도 과제 구축 및 구성</em>
+    <em>첫 번째 충성도 과제를 만들고 구성하는 방법에 대해 알아봅니다.</em>
     </p>
   </td>
   <td>
@@ -143,7 +143,7 @@ ht-degree: 1%
     <a href="create-tasks.md"><strong>작업 만들기</strong></a>
     </div>
     <p>
-    <em>어려움에 대해 완료할 작업 정의</em>
+    <em>고객이 어려움에 대해 수행하는 작업을 구성하는 방법에 대해 알아봅니다.</em>
     </p>
   </td>
 </tr>
