@@ -11,10 +11,10 @@ hide: true
 hidefromtoc: true
 badge: label="비공개 베타" type="Informative"
 mini-toc-levels: 1
-source-git-commit: 342df0950622de1c4c246bf624d05843671e199f
+source-git-commit: 6c6a1b31c81000877cea2af8bca0377264ec4833
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 1%
+source-wordcount: '669'
+ht-degree: 2%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 1%
 
 충성도 문제를 만들고 실행하는 것은 다음 워크플로를 따릅니다.
 
-1. **데이터 수집 설정** - 고객 작업 및 진행 상황을 추적하는 고객 충성도 이벤트 데이터를 수집하도록 Experience Platform 소스 커넥터(예: [Capillary 커넥터](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/home#loyalty))를 구성합니다. 이 데이터를 통해 과제 추적 및 작업 완료를 수행할 수 있습니다.
+1. **데이터 수집 설정** - 고객 작업 및 진행 상황을 추적하는 고객 충성도 이벤트 데이터를 수집하도록 Experience Platform 소스 커넥터(예: [Capillary 커넥터](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty))를 구성합니다. 이 데이터를 통해 과제 추적 및 작업 완료를 수행할 수 있습니다.
 
 1. **챌린지 만들기** - 이름, 유형(표준, 연속 또는 순차적), 날짜 범위를 포함한 기본 챌린지 속성을 정의합니다.
 
@@ -77,7 +77,7 @@ ht-degree: 1%
 
 1. **대상 선택** - Adobe Experience Platform에서 대상을 선택하여 도전에 참여할 수 있는 고객을 정의합니다.
 
-1. **여정 게시** - Journey Optimizer에서 자동으로 챌린지에 대한 여정을 생성합니다. 여정 인벤토리로 이동하고 자동 생성된 여정을 게시하여 고객이 문제를 사용할 수 있도록 합니다.
+1. **챌린지 시작** - 챌린지를 게시한 다음 여정을 생성합니다. Journey Optimizer은 자동으로 문제를 해결할 여정을 생성합니다. 자동 생성된 여정을 게시하여 고객이 문제를 사용할 수 있도록 합니다.
 
 자세한 단계별 지침은 [문제 만들기](create-challenges.md)를 참조하십시오.
 
@@ -89,19 +89,21 @@ ht-degree: 1%
 
 충성도 문제는 Experience Platform 소스 커넥터를 통해 수집된 데이터를 사용하여 고객 진행 상황과 작업 완료를 추적합니다.
 
-시작하기 전에 지원되는 소스 커넥터를 구성합니다. 현재 Capillary 커넥터를 사용할 수 있습니다. 추가 커넥터는 향후 릴리스에 제공될 예정입니다. [충성도 소스 커넥터에 대해 알아봅니다](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/home#loyalty).
+시작하기 전에 지원되는 소스 커넥터를 구성합니다. 현재 Capillary 커넥터를 사용할 수 있습니다. 추가 커넥터는 향후 릴리스에 제공될 예정입니다. [충성도 소스 커넥터에 대해 알아봅니다](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty).
 
 +++
 
-<!--+++Required permissions
++++필요한 권한
 
-To use Loyalty Challenges, you need appropriate permissions in Journey Optimizer. Required permissions include:
+충성도 문제를 사용하려면 Journey Optimizer에서 적절한 권한이 필요합니다. 필요한 권한은 다음과 같습니다.
 
-TBD
+* 추가 예정
+* 추가 예정
+* 추가 예정
 
-Contact your administrator if you cannot access the feature or need additional permissions.
+기능에 액세스할 수 없거나 추가 권한이 필요한 경우 관리자에게 문의하십시오.
 
-+++-->
++++
 
 +++타깃 대상자
 
