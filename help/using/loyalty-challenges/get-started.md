@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 badge: label="비공개 베타" type="Informative"
 mini-toc-levels: 1
-source-git-commit: 89ce77c686e7faec2b7baba5f2c498515ddcfe0f
+source-git-commit: 7aeb36b88af415d59d9e7275ec3605db1a243b07
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '714'
 ht-degree: 2%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 2%
 
 충성도 문제를 만들고 실행하는 것은 다음 워크플로를 따릅니다.
 
-1. **데이터 수집 설정** - 고객 작업 및 진행 상황을 추적하는 고객 충성도 이벤트 데이터를 수집하도록 Experience Platform 소스 커넥터(예: [Capillary 커넥터](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/home#loyalty))를 구성합니다. 이 데이터를 통해 과제 추적 및 작업 완료를 수행할 수 있습니다.
+1. **데이터 수집 설정** - 고객 작업 및 진행 상황을 추적하는 고객 충성도 이벤트 데이터를 수집하도록 Experience Platform 소스 커넥터(예: [Capillary 커넥터](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty))를 구성합니다. 이 데이터를 통해 과제 추적 및 작업 완료를 수행할 수 있습니다.
 
 1. **챌린지 만들기** - 이름, 유형(표준, 연속 또는 순차적), 날짜 범위를 포함한 기본 챌린지 속성을 정의합니다.
 
@@ -89,7 +89,7 @@ ht-degree: 2%
 
 충성도 문제는 Experience Platform 소스 커넥터를 통해 수집된 데이터를 사용하여 고객 진행 상황과 작업 완료를 추적합니다.
 
-시작하기 전에 지원되는 소스 커넥터를 구성합니다. 현재 Capillary 커넥터를 사용할 수 있습니다. 추가 커넥터는 향후 릴리스에 제공될 예정입니다. [충성도 소스 커넥터에 대해 알아봅니다](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/home#loyalty).
+시작하기 전에 지원되는 소스 커넥터를 구성합니다. 현재 Capillary 커넥터를 사용할 수 있습니다. 추가 커넥터는 향후 릴리스에 제공될 예정입니다. [충성도 소스 커넥터에 대해 알아봅니다](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty).
 
 +++
 
@@ -111,13 +111,15 @@ ht-degree: 2%
 
 +++
 
-## 다음 단계 {#next-steps}
+## 더 자세히 알아보기 {#lets-dive-deeper}
+
+이제 충성도 문제가 무엇인지, 어떻게 작동하는지 알고 있으므로 세부 사항을 자세히 살펴볼 차례입니다. 다음 항목을 탐색하여 인터페이스에 액세스하고, 첫 번째 과제를 만들고, 고객이 완료할 작업을 정의합니다.
 
 <table style="table-layout:fixed">
 <tr style="border: 0;">
   <td>
     <a href="access-loyalty-challenges.md">
-      <img alt="액세스" src="assets/do-not-localize/icon-access.png" width="48"/>
+      <img alt="액세스" src="assets/do-not-localize/icon-access.png" width="200"/>
     </a>
     <div>
     <a href="access-loyalty-challenges.md"><strong>문제 및 작업 액세스 및 관리</strong></a>
@@ -128,7 +130,7 @@ ht-degree: 2%
   </td>
   <td>
     <a href="create-challenges.md">
-      <img alt="만들기" src="assets/do-not-localize/icon-challenge.png" width="48"/>
+      <img alt="만들기" src="assets/do-not-localize/icon-challenge.png" width="200"/>
     </a>
     <div>
     <a href="create-challenges.md"><strong>문제 만들기</strong></a>
@@ -139,7 +141,7 @@ ht-degree: 2%
   </td>
   <td>
     <a href="create-tasks.md">
-      <img alt="작업" src="assets/do-not-localize/icon-task.png" width="48"/>
+      <img alt="작업" src="assets/do-not-localize/icon-task.png" width="200"/>
     </a>
     <div>
     <a href="create-tasks.md"><strong>작업 만들기</strong></a>
