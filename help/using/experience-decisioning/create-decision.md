@@ -85,12 +85,12 @@ ht-degree: 26%
 
 Decisioning을 사용하여 대상자를 위한 이메일을 개인화하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476158?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476171?captions=kor&quality=12)
 
 Decisioning을 사용하여 대상을 위한 푸시 알림을 개인화하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479217?captions=kor&quality=12)
 
 Decisioning을 사용하여 대상자를 위한 SMS 메시지를 개인화하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479529?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479536?captions=kor&quality=12)
