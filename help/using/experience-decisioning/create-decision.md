@@ -7,9 +7,9 @@ role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 version: Journey Orchestration
-source-git-commit: fb35bc5a51421818297586b5e386aa75deb1c669
+source-git-commit: be4c0453630388d898d53feeb5f9dcfe57ad5934
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '685'
 ht-degree: 26%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 26%
 
 ## 가드레일 및 제한 사항
 
-* **지원되는 채널** - 의사 결정 정책은 코드 기반 경험, 이메일, SMS 및 푸시 알림과 같은 채널에 사용할 수 있습니다.
+* **지원되는 채널** - 의사 결정 정책은 모든 고객이 코드 기반 경험, SMS 및 푸시 알림에 사용할 수 있습니다. 이메일 채널에 대한 의사 결정은 제한된 가용성에서만 사용할 수 있습니다.
 * **푸시 알림 SDK 요구 사항** - 푸시 알림을 사용하는 Experience Decisioning에는 Mobile SDK의 특정 버전이 필요합니다. 이 기능을 구현하기 전에 [릴리스 정보](https://developer.adobe.com/client-sdks/home/release-notes/){target="_blank"}를 확인하여 필요한 버전을 식별하고 그에 따라 업그레이드했는지 확인하십시오. [이 섹션](https://developer.adobe.com/client-sdks/home/current-sdk-versions/){target="_blank"}에서 사용 가능한 플랫폼에 대한 모든 SDK 버전을 볼 수도 있습니다.
 * **전자 메일 미러 페이지** - 지금은 결정 항목이 전자 메일 미러 페이지에 렌더링되지 않습니다.
 * **추적 및 링크 유형** - 의사 결정에 의해 생성된 링크를 추적하려면 스키마에서 &quot;Decisioning Assets&quot;로 정의하십시오. 속성 기반 링크는 추적할 수 없습니다.
@@ -85,12 +85,12 @@ ht-degree: 26%
 
 Decisioning을 사용하여 대상자를 위한 이메일을 개인화하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476171?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476158?quality=12)
 
 Decisioning을 사용하여 대상을 위한 푸시 알림을 개인화하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479217?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
 
 Decisioning을 사용하여 대상자를 위한 SMS 메시지를 개인화하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479536?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479529?quality=12)
