@@ -11,13 +11,13 @@ hide: true
 hidefromtoc: true
 badge: label="비공개 베타" type="Informative"
 mini-toc-levels: 1
-source-git-commit: 7aeb36b88af415d59d9e7275ec3605db1a243b07
+exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
+source-git-commit: 17d7cf7ae18ff987b7a9c9bebdec44b354ed11da
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '636'
 ht-degree: 2%
 
 ---
-
 
 # 충성도 문제 시작 {#get-started-loyalty-challenges}
 
@@ -65,8 +65,6 @@ ht-degree: 2%
 
 충성도 문제를 만들고 실행하는 것은 다음 워크플로를 따릅니다.
 
-1. **데이터 수집 설정** - 고객 작업 및 진행 상황을 추적하는 고객 충성도 이벤트 데이터를 수집하도록 Experience Platform 소스 커넥터(예: [Capillary 커넥터](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/home#loyalty))를 구성합니다. 이 데이터를 통해 과제 추적 및 작업 완료를 수행할 수 있습니다.
-
 1. **챌린지 만들기** - 이름, 유형(표준, 연속 또는 순차적), 날짜 범위를 포함한 기본 챌린지 속성을 정의합니다.
 
 1. **작업 추가** - 작업 유형(구매, 지출), 수량, 제품 필터 및 보상을 포함하여 고객이 완료해야 하는 특정 작업을 정의합니다.
@@ -85,21 +83,28 @@ ht-degree: 2%
 
 충성도 문제를 사용하기 전에 다음을 확인하십시오.
 
-+++데이터 수집 설정
-
-충성도 문제는 Experience Platform 소스 커넥터를 통해 수집된 데이터를 사용하여 고객 진행 상황과 작업 완료를 추적합니다.
-
-시작하기 전에 지원되는 소스 커넥터를 구성합니다. 현재 Capillary 커넥터를 사용할 수 있습니다. 추가 커넥터는 향후 릴리스에 제공될 예정입니다. [충성도 소스 커넥터에 대해 알아봅니다](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/home#loyalty).
-
-+++
-
 +++필요한 권한
 
-충성도 문제를 사용하려면 Journey Optimizer에서 적절한 권한이 필요합니다. 필요한 권한은 다음과 같습니다.
+충성도 문제를 사용하려면 Journey Optimizer 및 Adobe Experience Platform에서 적절한 권한이 필요합니다.
 
-* 추가 예정
-* 추가 예정
-* 추가 예정
+**Journey Optimizer:**
+
+* `journeys.read`
+* `journeys.write`
+* `journeys.delete`
+* `journeys.publish`
+* `journeys_events.read`
+* `journeys_events.write`
+* `journeys_events.delete`
+* `journeys_report.read`
+* `messages.read`
+* `messages_report.read`
+
+**Adobe Experience Platform:**
+
+* `segments.read`
+* `profiles.read`
+* `identity_namespace.read`
 
 기능에 액세스할 수 없거나 추가 권한이 필요한 경우 관리자에게 문의하십시오.
 
