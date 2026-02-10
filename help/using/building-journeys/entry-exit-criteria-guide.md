@@ -8,19 +8,19 @@ role: User
 level: Intermediate
 keywords: 시작, 종료, 기준, 여정, 프로필, 재입력, 우수 사례
 version: Journey Orchestration
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+exl-id: e879a0f6-b969-4de0-a733-f2880d58d59b
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1554'
+source-wordcount: '1550'
 ht-degree: 0%
 
 ---
-
 
 # 여정 시작 및 종료 기준을 사용한 작업 {#entry-exit-criteria-guide}
 
 Customer Experience Orchestration에서 적절한 시간에 적절한 메시지를 전달하려면 고객이 여정을 출입할 때를 정확하게 제어해야 합니다. 시작 및 종료 기준을 이해하고 적절히 구성하면 성공적인 캠페인과 놓친 기회 또는 메시지 피로도 간에 차이를 만들 수 있습니다.
 
-이 안내서에서는 Adobe Journey Optimizer에서 여정 시작 및 종료 기준을 관리하기 위한 실용적인 지침, 실제 사례 및 모범 사례를 제공합니다.
+이 안내서에서는 [!DNL Adobe Journey Optimizer]에서 여정 시작 및 종료 기준을 관리하기 위한 실용적인 지침, 실제 사례 및 모범 사례를 제공합니다.
 
 ## 시작 및 종료 기준이란 무엇입니까? {#what-are-criteria}
 
@@ -100,7 +100,7 @@ Customer Experience Orchestration에서 적절한 시간에 적절한 메시지�
 
 **여기에서 항목 기준에 대해 알아야 할 모든 것을 알아보세요.**
 
-* **[여정 기반 트리거](../event/about-events.md)**: &quot;프로필 만들기&quot;, &quot;트랜잭션 완료&quot; 또는 사용자 지정 이벤트와 같은 이벤트를 사용하여 이벤트를 시작합니다. [이벤트 구성](../event/about-creating.md)(**[!UICONTROL 관리]** > **[!UICONTROL 이벤트]**), [이벤트 스키마 및 필드](../event/experience-event-schema.md) 정의 후 **[!UICONTROL 여정 디자이너]**&#x200B;의 [이벤트](using-the-journey-designer.md) 팔레트에서 이벤트를 추가합니다.
+* **[여정 기반 트리거](../event/about-events.md)**: &quot;프로필 만들기&quot;, &quot;트랜잭션 완료&quot; 또는 사용자 지정 이벤트와 같은 이벤트를 사용하여 이벤트를 시작합니다. [](../event/about-creating.md)관리&#x200B;**[!UICONTROL >]**&#x200B;이벤트&#x200B;**[!UICONTROL 에서 이벤트를 구성]**&#x200B;하고 [이벤트 스키마 및 필드를 정의](../event/experience-event-schema.md)합니다. 그런 다음 **[!UICONTROL 여정 디자이너]**&#x200B;의 [이벤트](using-the-journey-designer.md) 팔레트에서 이벤트를 추가합니다.
 
 * **[대상 기반 항목](read-audience.md)**: 특정 대상에 속하는 프로필에 대한 여정을 일회성 배치로 또는 되풀이하는 일정으로 타깃팅합니다. [대상자 만들기](../audience/creating-a-segment-definition.md)(**[!UICONTROL 대상자]**) 메뉴에서 **[!UICONTROL 대상자 읽기]** 활동을 추가한 다음 [일정을 구성](journey-properties.md#schedule).
 
@@ -146,7 +146,7 @@ Customer Experience Orchestration에서 적절한 시간에 적절한 메시지�
 
 >[!TIP]
 >
->[여정 사용 사례 라이브러리](jo-use-cases.md)에서 [게재 램프 업](ramp-up-deliveries-uc.md), [경험 이벤트 패턴](exp-event-lookup.md), [라이브 여정에서 프로필 제거](journey-pause.md#apply-an-exit-criteria-in-a-paused-journey)를 포함하여 더 많은 패턴 및 구현을 찾아봅니다.
+>더 많은 패턴 및 구현을 보려면 [여정 사용 사례 라이브러리](jo-use-cases.md)에서 사용 가능한 모든 사용 사례를 찾아보십시오. 예를 들면 [게재 램프 업](ramp-up-deliveries-uc.md), [경험 이벤트 패턴](exp-event-lookup.md) 및 [라이브 여정에서 프로필 제거](journey-pause.md#apply-an-exit-criteria-in-a-paused-journey)가 있습니다.
 
 ## 시작 및 종료 관리 우수 사례 {#best-practices}
 
@@ -196,7 +196,7 @@ Customer Experience Orchestration에서 적절한 시간에 적절한 메시지�
 
 ## 결론 {#conclusion}
 
-여정 시작 및 종료 기준은 Adobe Journey Optimizer을 통해 개인화되고, 시기적절하며, 효과적인 고객 경험을 제공하기 위한 기초입니다. 마케터는 이러한 조건을 신중하게 만들어 참여를 촉진하고, 마찰을 줄이고, 더 강한 고객 관계를 형성할 수 있습니다.
+여정 시작 및 종료 기준은 [!DNL Adobe Journey Optimizer]을(를) 통해 개인화되고, 시기적절하며, 효과적인 고객 경험을 제공하기 위한 기초입니다. 마케터는 이러한 조건을 신중하게 만들어 참여를 촉진하고, 마찰을 줄이고, 더 강한 고객 관계를 형성할 수 있습니다.
 
 먼저 고객 트리거 및 종료 지점을 명확히 매핑하고, 철저하게 테스트하고, 결과를 모니터링하여 여정 오케스트레이션을 지속적으로 구체화합니다.
 
@@ -208,7 +208,7 @@ Customer Experience Orchestration에서 적절한 시간에 적절한 메시지�
 
 **튜토리얼 및 예제**
 
-[여정 사용 사례](jo-use-cases.md) | [고객 온보딩 비디오](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [포기한 장바구니 비디오](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [커뮤니티 블로그: 시작 및 종료 기준](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958?profile.language=ko)
+[여정 사용 사례](jo-use-cases.md) | [고객 온보딩 비디오](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [포기한 장바구니 비디오](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [커뮤니티 블로그: 시작 및 종료 기준](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
 
 **관련 기능**
 

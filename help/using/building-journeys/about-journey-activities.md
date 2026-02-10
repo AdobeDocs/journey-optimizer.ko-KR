@@ -10,22 +10,22 @@ level: Beginner, Intermediate
 keywords: 여정, 활동, 시작하기, 이벤트, 작업
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '711'
 ht-degree: 15%
 
 ---
 
 # 여정 활동 시작 {#about-journey-activities}
 
-다양한 이벤트, 오케스트레이션 및 작업 활동을 결합하여 여러 단계로 구성된 크로스 채널 시나리오를 작성할 수 있습니다.
+이벤트, 오케스트레이션 및 작업 활동을 결합하여 여러 단계로 구성된 크로스 채널 시나리오를 작성할 수 있습니다.
 
 ## 이벤트 활동 {#event-activities}
 
-개인화된 여정은 온라인 구매와 같은 이벤트에 의해 트리거됩니다. 프로필이 여정에 들어오면 한 개인으로 이동하며 두 개인이 동일한 속도나 동일한 경로를 따라 이동하지 않습니다. 이벤트로 여정을 시작하면 이벤트가 수신될 때 여정이 트리거됩니다. 그런 다음 여정의 각 사람은 여정에 정의된 다음 단계를 개별적으로 따릅니다.
+개인화된 여정은 온라인 구매와 같은 이벤트로 시작됩니다. 프로필이 여정에 들어오면 프로필이 스스로 이동합니다. 각 프로필은 다른 경로와 속도를 취할 수 있습니다. 이벤트를 시작하면 이벤트가 도착하면 여정이 트리거됩니다. 그런 다음 각 프로필은 여정에 정의된 단계를 따릅니다.
 
-기술 사용자가 구성한 이벤트([이 페이지](../event/about-events.md) 참조)는 모두 화면 왼쪽의 팔레트의 첫 번째 범주에 표시됩니다. 다음 이벤트 활동을 사용할 수 있습니다.
+기술 사용자가 구성한 이벤트([이 페이지](../event/about-events.md) 참조)가 팔레트의 첫 번째 범주에 나타납니다. 이 범주는 화면 왼쪽에 있습니다. 다음 이벤트 활동을 사용할 수 있습니다.
 
 * [일반 이벤트](../building-journeys/general-events.md)
 * [반응](../building-journeys/reaction-events.md)
@@ -39,7 +39,7 @@ ht-degree: 15%
 
 ## 오케스트레이션 활동 {#orchestration-activities}
 
-오케스트레이션 활동은 여정의 다음 단계를 결정하는 데 도움이 되는 다양한 조건입니다. 이러한 조건에는 지원 사례가 있는지 여부, 현재 위치의 일기 예보 여부, 구매 완료 여부 또는 충성도 포인트 10,000에 도달했는지 여부가 포함될 수 있습니다.
+오케스트레이션 활동은 여정의 다음 단계를 결정하는 데 도움이 되는 조건입니다. 이러한 조건에는 개인이 지원 사례를 공개했는지 또는 구매를 완료했는지 여부가 포함될 수 있습니다. 또한 지역 일기예보나 충성도 포인트 10,000점에 도달했는지 여부도 포함할 수 있습니다.
 
 화면 왼쪽에 있는 팔레트에서 다음 오케스트레이션 활동을 사용할 수 있습니다.
 
@@ -57,7 +57,7 @@ ht-degree: 15%
 
 화면 왼쪽의 팔레트에서 **[!UICONTROL 이벤트]** 및 **[!UICONTROL 오케스트레이션]** 아래에 **[!UICONTROL 작업]** 범주가 있습니다. 다음 작업 활동을 사용할 수 있습니다.
 
-* [기본 제공 채널 액션](../building-journeys/journeys-message.md)
+* [기본 제공 채널 작업](../building-journeys/journeys-message.md)
 * [사용자 정의 액션](../building-journeys/using-custom-actions.md)
 * [점프](../building-journeys/jump.md)
 
@@ -69,13 +69,15 @@ ht-degree: 15%
 
 * 서드파티 시스템을 사용하여 메시지를 전송하는 경우 특정 사용자 지정 작업을 만들 수 있습니다. [자세히 알아보기](../action/action.md)
 
-* Campaign과 Journey Optimizer을 함께 사용하는 경우 다음 섹션을 참조하십시오.
+* [!DNL Adobe Campaign] 및 [!DNL Adobe Journey Optimizer]&#x200B;(으)로 작업하는 경우 다음 섹션을 참조하십시오.
 
-   * [[!DNL Journey Optimizer] 및 Campaign v7/v8](../action/acc-action.md)
-   * [[!DNL Journey Optimizer] 및 Campaign Standard](../action/acs-action.md)
-   * [[!DNL Journey Optimizer] 및 Marketo Engage](../action/marketo-engage.md)
+   * [[!DNL Adobe Journey Optimizer] 및 [!DNL Adobe Campaign] v7/v8](../action/acc-action.md)
+   * [[!DNL Adobe Journey Optimizer] 및 [!DNL Adobe Campaign] 표준](../action/acs-action.md)
+   * [[!DNL Adobe Journey Optimizer] 및 [!DNL Adobe Marketo Engage]](../action/marketo-engage.md)
 
 ## 모범 사례 {#best-practices}
+
+이러한 권장 사항을 사용하여 여정을 읽기 쉽고 일관되고 쉽게 문제를 해결할 수 있습니다.
 
 ### 레이블 추가
 
@@ -117,6 +119,6 @@ ht-degree: 15%
 
 여정을 테스트하고 게시하기 전에 모든 활동이 올바르게 구성되었는지 확인하십시오. 시스템에서 오류가 계속 감지되면 테스트나 게시를 수행할 수 없습니다.
 
-[&#x200B; 여정의 활동 및 &#x200B;](troubleshooting.md) 오류를 해결하는 방법에 대해 알아봅니다.
+[ 여정의 활동 및 ](troubleshooting.md) 오류를 해결하는 방법에 대해 알아봅니다.
 
-**[모니터링 및 문제 해결](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)**&#x200B;도 참조하세요.
+**[모니터링 및 문제 해결](../../rp_landing_pages/troubleshoot-journey-landing-page.md)**&#x200B;도 참조하세요.

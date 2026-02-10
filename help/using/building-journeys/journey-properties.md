@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 여정 속성 정의
-description: Adobe Journey Optimizer을 사용하여 여정 속성을 설정하는 방법 알아보기
+description: ' [!DNL Adobe Journey Optimizer]을(를) 사용하여 여정의 속성을 설정하는 방법 알아보기'
 feature: Journeys, Get Started
 topic: Content Management
 role: User
@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 여정, 구성, 속성
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 0271dfdf9578921f48001f2bdcc0dbb15f785762
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '2866'
+source-wordcount: '2859'
 ht-degree: 15%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 15%
 
 다음과 같은 작업을 수행할 수 있습니다.
 
-* Adobe Experience Platform 통합 태그를 여정에 할당하여 캠페인 목록에서 쉽게 분류하고 검색을 개선합니다. [태그 작업 방법 알아보기](../start/search-filter-categorize.md#tags)
+* [!DNL Adobe Experience Platform] 통합 태그를 여정에 할당하여 캠페인 목록에서 쉽게 분류하고 검색을 개선하십시오. [태그 작업 방법 알아보기](../start/search-filter-categorize.md#tags)
 * 여정 지표를 선택합니다. [여정 지표를 구성하고 추적하는 방법에 대해 알아보기](success-metrics.md)
 * [입장 및 재입장](#entrance)을 관리합니다. 여정 등록 관리는 프로필 유형에 따라 다릅니다. 자세한 정보는 [이 페이지](entry-management.md)를 참조하세요.
 * [데이터에 대한 액세스 관리](#manage-access)
@@ -87,7 +87,7 @@ ht-degree: 15%
 
 ## 여정 및 프로필 시간대 {#timezone}
 
-시간대는 여정 수준에서 정의됩니다. 고정 시간대를 입력하거나 Adobe Experience Platform 프로필을 사용하여 여정 시간대를 정의할 수 있습니다. Adobe Experience Platform 프로필에 시간대가 정의된 경우 여정에서 검색할 수 있습니다.
+시간대는 여정 수준에서 정의됩니다. 고정 시간대를 입력하거나 [!DNL Adobe Experience Platform]개의 프로필을 사용하여 여정 시간대를 정의할 수 있습니다. [!DNL Adobe Experience Platform] 프로필에 표준 시간대가 정의되어 있으면 여정에서 검색할 수 있습니다.
 
 [시간대 관리에 대해 자세히 알아보기](../building-journeys/timezone-management.md)
 
@@ -108,6 +108,8 @@ ht-degree: 15%
 필요한 경우 사용자 지정 **시작 날짜** 및 **종료 날짜**&#x200B;를 정의할 수 있습니다. 이렇게 하면 프로필에서 특정 날짜에 여정을 입력하고 종료 날짜에 도달하면 자동으로 종료할 수 있습니다.
 
 ## 시간 초과 {#timeout}
+
+시간 제한 설정은 여정이 활동 실행을 기다리는 시간과 프로필이 여정에 남아 있을 수 있는 시간을 제어합니다.
 
 ### 여정 활동의 시간 초과 {#timeout_and_error}
 
@@ -140,7 +142,7 @@ ht-degree: 15%
 
 #### TTL(Time-to-Live) 및 데이터 유지 FAQ {#timeout-faq}
 
-2024년 6월 Adobe Journey Optimizer 릴리스부터 여정 전역 시간 제한이 30일에서 91일로 이동되었습니다. 영향은 아래 FAQ에 나열되어 있습니다.
+[!DNL Adobe Journey Optimizer] 2024년 6월 릴리스부터 여정 전역 시간 제한이 30일에서 91일로 이동되었습니다. 영향은 아래 FAQ에 나열되어 있습니다.
 
 단일 여정 **의 경우**
 
@@ -250,15 +252,15 @@ ht-degree: 15%
 
 ## 병합 정책 {#merge-policies}
 
-Adobe Journey Optimizer은 Adobe Experience Platform에서 프로필 데이터를 검색하는 동안 병합 정책을 사용합니다. 여정 유형에 따라 서로 다른 병합 정책이 사용됩니다.
+[!DNL Adobe Journey Optimizer]이(가) [!DNL Adobe Experience Platform]에서 프로필 데이터를 검색하는 동안 병합 정책을 사용합니다. 여정 유형에 따라 서로 다른 병합 정책이 사용됩니다.
 
 * 대상자 읽기 또는 대상자 자격 여정: 대상자의 병합 정책이 사용됩니다
 * 단일 이벤트 여정에서: 기본 병합 정책이 사용됩니다
 * 비즈니스 이벤트 여정: 다음 대상 읽기 활동에서 타깃팅된 대상의 병합 정책이 사용됩니다
 
-Adobe Journey Optimizer은 전체 여정에 사용된 병합 정책을 적용합니다. 따라서 한 여정에서 여러 대상을 사용하는 경우(예: [`inAudience`개의 함수](functions/functioninaudience.md)에서 사용) 여정에서 사용하는 병합 정책과 일치하지 않으면 오류가 발생하고 게시가 차단됩니다. 하지만 메시지 개인화에 일관되지 않은 대상이 사용되면 불일치에도 불구하고 경고가 발생하지 않습니다. 이러한 이유로, 메시지 개인화에 이 대상자를 사용할 때에는 대상자와 연결된 병합 정책을 확인하는 것이 좋습니다.
+[!DNL Adobe Journey Optimizer]은(는) 전체 여정 동안 사용된 병합 정책을 적용합니다. 따라서 한 여정에서 여러 대상을 사용하는 경우(예: [`inAudience`개의 함수](functions/functioninaudience.md)에서 사용) 여정에서 사용하는 병합 정책과 일치하지 않으면 오류가 발생하고 게시가 차단됩니다. 하지만 메시지 개인화에 일관되지 않은 대상이 사용되면 불일치에도 불구하고 경고가 발생하지 않습니다. 이러한 이유로, 메시지 개인화에 이 대상자를 사용할 때에는 대상자와 연결된 병합 정책을 확인하는 것이 좋습니다.
 
-병합 정책에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/merge-policies/overview){target="_blank"}를 참조하세요.
+병합 정책에 대한 자세한 내용은 [[!DNL Adobe Experience Platform] 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/merge-policies/overview){target="_blank"}를 참조하세요.
 
 >[!NOTE]
 >

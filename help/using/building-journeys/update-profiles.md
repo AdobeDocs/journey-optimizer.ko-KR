@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 프로필, 업데이트, 여정, 활동
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 5%
+source-wordcount: '657'
+ht-degree: 1%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_update_profiles"
 >title="프로필 활동 업데이트"
->abstract="프로필 업데이트 작업 활동을 사용하여 이벤트, 데이터 소스 또는 특정 값을 사용하여 도출하는 데이터로 기존 Adobe Experience Platform 프로필을 업데이트할 수 있습니다."
+>abstract="프로필 업데이트 작업 활동을 사용하면 이벤트, 데이터 원본 또는 특정 값을 사용하여 가져온 정보로 기존 [!DNL Adobe Experience Platform] 프로필을 업데이트할 수 있습니다."
 
-**[!UICONTROL 프로필 업데이트]** 작업 활동을 사용하여 이벤트, 데이터 원본 또는 특정 값에서 가져온 정보로 기존 Adobe Experience Platform 프로필을 업데이트합니다.
+**[!UICONTROL 프로필 업데이트]** 작업 활동을 사용하여 이벤트, 데이터 원본 또는 특정 값에서 가져온 정보로 기존 [!DNL Adobe Experience Platform] 프로필을 업데이트합니다.
 
 ## 주요 개념 {#key-concepts}
 
@@ -32,9 +32,9 @@ ht-degree: 5%
 * 작업은 기존 필드만 업데이트하며 새 프로필 필드는 만들지 않습니다.
 * **프로필 업데이트** 액션을 사용하여 구매 등의 경험 이벤트를 생성할 수 없습니다.
 * 다른 작업과 마찬가지로 오류나 시간 초과 시 대체 경로를 정의할 수 있으며 두 작업을 동시에 배치할 수는 없습니다.
-* Adobe Experience Platform에 전송된 업데이트 요청은 즉시/1초 이내에 수행됩니다. 보통 몇 초는 걸리지만, 어떤 때는 보장이 없이 더 걸릴 수도 있습니다. 따라서, 예를 들어 작업이 바로 앞에 배치된 **프로필 업데이트** 작업에 의해 업데이트된 &quot;필드 1&quot;을 사용하는 경우 작업에서 &quot;필드 1&quot;이 업데이트될 것으로 예상해서는 안 됩니다.
+* [!DNL Adobe Experience Platform]&#x200B;(으)로 보낸 업데이트 요청이 즉시/초 이내입니다. 보통 몇 초는 걸리지만, 어떤 때는 보장이 없이 더 걸릴 수도 있습니다. 따라서, 예를 들어 작업이 바로 앞에 배치된 **프로필 업데이트** 작업에 의해 업데이트된 &quot;필드 1&quot;을 사용하는 경우 작업에서 &quot;필드 1&quot;이 업데이트될 것으로 예상해서는 안 됩니다.
 * **프로필 업데이트** 활동은 열거형 또는 제안 값으로 정의된 XDM 필드를 지원하지 않습니다.
-* **[!UICONTROL 프로필 업데이트]** 활동은 데이터 레이크가 아닌 [프로필 저장소](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko#profile-data-store){target="_blank"}만 업데이트합니다.
+* **[!UICONTROL 프로필 업데이트]** 활동은 데이터 레이크가 아닌 [프로필 저장소](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}만 업데이트합니다.
 
 ## 데이터 세트 선택 {#dataset-selection}
 
@@ -81,6 +81,6 @@ ht-degree: 5%
 
 테스트 모드에서는 프로필 업데이트가 시뮬레이트되지 않습니다. 업데이트가 테스트 프로필에서 수행됩니다.
 
-테스트 프로필만 테스트 모드에서 여정에 들어갈 수 있습니다. 새 테스트 프로필을 만들거나 기존 프로필을 테스트 프로필로 만들 수 있습니다. Adobe Experience Platform에서 csv 파일 가져오기 또는 API 호출을 통해 프로필 속성을 업데이트할 수 있습니다. 더 간단한 방법은 **프로필 업데이트** 작업 활동을 사용하고 테스트 프로필 부울 필드를 false에서 true로 변경하는 것입니다.
+테스트 프로필만 테스트 모드에서 여정에 들어갈 수 있습니다. 새 테스트 프로필을 만들거나 기존 프로필을 테스트 프로필로 만들 수 있습니다. [!DNL Adobe Experience Platform]에서 csv 파일 가져오기 또는 API 호출을 통해 프로필 속성을 업데이트할 수 있습니다. 더 간단한 방법은 **프로필 업데이트** 작업 활동을 사용하고 테스트 프로필 부울 필드를 false에서 true로 변경하는 것입니다.
 
 기존 프로필을 테스트 프로필로 변환하는 방법에 대한 자세한 내용은 이 [섹션](../audience/creating-test-profiles.md#create-test-profiles-csv)을 참조하세요.

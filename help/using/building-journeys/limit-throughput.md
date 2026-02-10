@@ -9,18 +9,20 @@ level: Experienced
 keywords: 여정, 데이터 소스, 제한, 처리량, 사용자 지정, 작업
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '798'
 ht-degree: 3%
 
 ---
 
 # 사용 사례: 외부 데이터 소스 및 사용자 지정 작업으로 처리량 제한{#limit-throughput}
 
+외부 시스템에서 초당 제한된 요청 수를 처리해야 하는 경우 이 사용 사례를 사용하여 여정 처리를 조정합니다.
+
 ## 사용 사례에 대한 설명
 
-Adobe Journey Optimizer을 사용하면 전문가가 사용자 지정 작업 및 데이터 소스를 사용하여 API 호출을 외부 시스템에 보낼 수 있습니다.
+[!DNL Adobe Journey Optimizer]을(를) 사용하면 전문가가 사용자 지정 작업 및 데이터 원본을 사용하여 외부 시스템에 API 호출을 보낼 수 있습니다.
 
 이 작업은 를 사용하여 수행할 수 있습니다.
 

@@ -3,9 +3,9 @@ title: 여정에서 추가 식별자 사용
 description: 여정에서 보조 식별자를 사용하는 방법을 알아봅니다.
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1434'
 ht-degree: 4%
 
 ---
@@ -218,6 +218,8 @@ ht-degree: 4%
 
 ## 예시 사용 사례
 
+이 예제는 보조 식별자가 여러 관련 레코드를 지원하는 방법을 보여 줍니다.
+
 ### **정책 갱신 알림**
 
 * **시나리오**: 보험 공급자가 고객이 보유한 각 활성 정책에 대한 갱신 알림 메시지를 보냅니다.
@@ -246,4 +248,4 @@ ht-degree: 4%
 
 [!DNL Adobe Journey Optimizer]에서 보조 식별자를 활성화하고 적용하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464799?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)

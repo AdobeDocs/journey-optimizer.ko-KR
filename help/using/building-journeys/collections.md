@@ -9,9 +9,9 @@ role: Developer
 level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 version: Journey Orchestration
-source-git-commit: 6976f2b1b8b95f7dc9bffe65b7a7ddcc5dab5474
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '791'
 ht-degree: 3%
 
 ---
@@ -142,7 +142,7 @@ ht-degree: 3%
 
 * **사용자 지정 작업에서 중첩된 배열 지원**
 
-  Adobe Journey Optimizer은 사용자 지정 작업 **응답 페이로드**&#x200B;에서 중첩된 오브젝트 배열을 지원하지만, 이 지원은 **요청 페이로드**&#x200B;에서 제한됩니다.
+  [!DNL Adobe Journey Optimizer]은(는) 사용자 지정 작업 **응답 페이로드**&#x200B;에서 중첩된 개체 배열을 지원하지만, 이 지원은 **요청 페이로드**&#x200B;에서 제한됩니다.
 
   요청 페이로드에서 중첩된 배열은 사용자 지정 작업 구성에 정의된 대로 고정 수의 항목이 포함된 경우에만 지원됩니다. 예를 들어 중첩된 배열에 항상 정확히 세 개의 항목이 포함되어 있으면 상수로 구성할 수 있습니다. 항목 수가 동적이어야 하는 경우, 중첩되지 않은 배열(맨 아래 수준의 배열)만 변수로 정의할 수 있습니다.
 

@@ -2,29 +2,30 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 오류 코드 참조
-description: Adobe Journey Optimizer의 일반적인 오류 코드 및 문제 해결 방법에 대해 알아봅니다
+description: ' [!DNL Adobe Journey Optimizer] 의 일반적인 오류 코드 및 문제 해결 방법에 대해 알아봅니다.'
 feature: Journeys, Monitoring
 topic: Content Management
 role: User
 level: Intermediate
 keywords: 오류, 코드, 문제 해결, 여정, 캠페인, 메시지
-source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
+exl-id: 84924153-1bb5-465a-b91c-797628fc816c
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '2394'
+source-wordcount: '2381'
 ht-degree: 1%
 
 ---
 
-
 # 오류 코드 참조 {#error-codes}
 
-Adobe Journey Optimizer은 표준화된 오류 코드를 사용하여 여정, 캠페인 및 메시지 구성 전반에서 문제를 빠르게 식별하고 해결하는 데 도움이 됩니다. 이러한 오류 코드를 이해하면 문제 해결 시간을 크게 줄이고 최적의 캠페인 성능을 유지하는 데 도움이 됩니다.
+[!DNL Adobe Journey Optimizer]은(는) 표준화된 오류 코드를 사용하여 여정, 캠페인 및 메시지 구성 전반에서 문제를 신속하게 식별하고 해결할 수 있도록 지원합니다. 이러한 오류 코드를 이해하면 문제 해결 시간을 크게 줄이고 최적의 캠페인 성능을 유지하는 데 도움이 됩니다.
 
 ## 오류 코드 구조 이해 {#error-code-structure}
 
-Adobe Journey Optimizer 오류 코드는 구성 요소 및 문제 유형을 식별하는 데 도움이 되는 일관된 이름 지정 패턴을 따릅니다.
+[!DNL Adobe Journey Optimizer] 오류 코드는 구성 요소 및 문제 유형을 식별하는 데 도움이 되는 일관된 명명 패턴을 따릅니다.
 
-* **서비스 접두사**: 오류를 생성한 Adobe Journey Optimizer 서비스(예: 푸시/전송 서비스용 CJMPTS, 여정 런타임용 CJMRT, 메시지 작성 서비스용 CJMMAS, 캠페인용 CJMCMP, 전송 계층용 CJMTL, 보고/프로비저닝 서비스용 CJMRPS)를 나타냅니다.
+* **서비스 접두사**: 오류가 발생한 [!DNL Adobe Journey Optimizer] 서비스를 나타냅니다.
+예: CJMPTS(푸시/전송 서비스), CJMRT(여정 런타임), CJMMAS(메시지 작성 서비스), CJMCMP(캠페인), CJMTL(전송 계층), CJMRPS(보고/프로비저닝 서비스)
 * **오류 번호**: 특정 오류 조건에 대한 고유 식별자
 * **HTTP 상태 코드**: 표준 HTTP 상태 코드(예: 400, 403, 422, 500)
 
@@ -32,7 +33,7 @@ Adobe Journey Optimizer 오류 코드는 구성 요소 및 문제 유형을 식�
 
 ## 오류 코드를 찾을 수 있는 위치 {#find-error-codes}
 
-오류 코드는 Adobe Journey Optimizer 내 여러 위치에 나타납니다.
+[!DNL Adobe Journey Optimizer] 내의 여러 위치에 오류 코드가 나타납니다.
 
 * 여정 실행 보고서 및 로그
 * Campaign 활성화 화면
@@ -43,6 +44,8 @@ Adobe Journey Optimizer 오류 코드는 구성 요소 및 문제 유형을 식�
 오류가 발생하면 전체 오류 코드와 함께 제공되는 요청 ID를 참고하십시오. 이러한 ID는 문제 해결 및 지원 에스컬레이션에 필요합니다.
 
 ## 서비스별 일반 오류 코드 {#error-codes-by-service}
+
+이 섹션을 사용하여 서비스별로 그룹화된 오류 코드를 찾습니다.
 
 ### CJMPTS: 푸시 및 전송 서비스 오류 {#cjmpts-errors}
 
@@ -139,10 +142,12 @@ Adobe Journey Optimizer 오류 코드는 구성 요소 및 문제 유형을 식�
 7. **필요한 경우 에스컬레이션**: 해결 단계를 수행한 후에도 오류가 지속되면 Adobe 지원 센터에 다음 방법으로 문의하십시오.
    * 전체 오류 코드
    * 요청 ID(가능한 경우)
-   * 재현 단계
+   * 재현할 단계
    * 관련 구성 세부 정보
 
 ## 일반적인 오류를 방지하는 모범 사례 {#best-practices}
+
+이러한 방법을 사용하여 피할 수 있는 오류를 줄이고 안정성을 향상시킵니다.
 
 ### 여정 활성화 전 {#journey-best-practices}
 
@@ -182,15 +187,14 @@ Adobe Journey Optimizer 오류 코드는 구성 요소 및 문제 유형을 식�
 1. **정보 수집**: 오류 코드, 요청 ID, 타임스탬프 및 재현 단계를 수집합니다.
 2. **시스템 상태 확인**: 알려진 서비스 문제에 대해서는 [Adobe 상태](https://status.adobe.com/){target="_blank"}를 방문하세요.
 3. **설명서 검색**: 솔루션에 대한 [Adobe Experience League](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=ko){target="_blank"} 검토
-4. **커뮤니티 참여**: [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"}에 질문 게시
+4. **커뮤니티 참여**: [[!DNL Adobe Journey Optimizer] 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"}에 질문 게시
 5. **Adobe 지원에 문의**: 모든 관련 세부 정보를 포함한 지원 티켓을 제출합니다.
 
 >[!NOTE]
 >
->이 오류 코드 참조는 새 코드가 식별되고 문서화됨에 따라 계속 업데이트됩니다. 최신 정보는 [Adobe Journey Optimizer 커뮤니티 블로그](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs?profile.language=ko){target="_blank"}를 정기적으로 확인하십시오.
+>이 오류 코드 참조는 새 코드가 식별되고 문서화됨에 따라 계속 업데이트됩니다. 최신 정보는 [[!DNL Adobe Journey Optimizer] 커뮤니티 블로그](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs){target="_blank"}를 정기적으로 확인하십시오.
 
 **관련 항목**
 
-* [Adobe Journey Optimizer 오류 코드 식별: 1부](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=ko){target="_blank"}
-* [Adobe Journey Optimizer 오류 코드 식별: Part 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661?profile.language=ko){target="_blank"}
-
+* [Demystifying [!DNL Adobe Journey Optimizer] 오류 코드: 파트1](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884){target="_blank"}
+* [Demystifying [!DNL Adobe Journey Optimizer] 오류 코드: Part 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661){target="_blank"}

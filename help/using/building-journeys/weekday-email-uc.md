@@ -2,23 +2,24 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 평일에만 이메일 보내기
-description: Adobe Journey Optimizer에서 평일에만 이메일을 전송하도록 여정을 구성하는 방법 알아보기
+description: ' [!DNL Adobe Journey Optimizer]에서 평일에만 전자 메일을 보내도록 여정을 구성하는 방법에 대해 알아봅니다.'
 feature: Journeys, Use Cases, Email
 topic: Content Management
 role: User
 level: Intermediate
 keywords: 여정, 사용 사례, 평일, 조건, 이메일, 예약
 version: Journey Orchestration
-source-git-commit: 970712614b0d4da37d9ecbe45701f93147b1428c
+exl-id: 2f313e59-ee50-473c-9346-8859889346ec
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: '1065'
 ht-degree: 1%
 
 ---
 
 # 평일에만 이메일 보내기 {#send-emails-only-on-weekdays}
 
-이 사용 사례에서는 평일(월요일부터 금요일까지)에만 이메일을 보내는 Adobe Journey Optimizer의 여정을 구성하는 방법을 보여 줍니다. 주말(토요일 또는 일요일)에 여정을 입력하는 프로필의 경우 전자 메일은 지정된 시간에 자동으로 큐에 올라가 월요일에 전송됩니다. 이렇게 하면 주 중에 메시지를 전달하여 최적의 참여를 보장합니다.
+이 사용 사례에서는 평일(월요일부터 금요일)에만 전자 메일을 보내는 [!DNL Adobe Journey Optimizer]에서 여정을 구성하는 방법을 보여 줍니다. 주말(토요일 또는 일요일)에 여정을 입력하는 프로필의 경우 전자 메일은 지정된 시간에 자동으로 큐에 올라가 월요일에 전송됩니다. 이렇게 하면 주 중에 메시지를 전달하여 최적의 참여를 보장합니다.
 
 ## 사용 사례 개요
 
@@ -32,14 +33,16 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->이 사용 사례를 구현하려면 구성된 [이메일 채널 표면](../configuration/channel-surfaces.md), 여정을 트리거할 [대상](../audience/about-audiences.md) 또는 [이벤트](../event/about-events.md)를 사용하는 활성 Adobe Journey Optimizer 인스턴스와 [여정 조건](condition-activity.md) 및 [표현식](expression/expressionadvanced.md)에 대한 기본 이해가 필요합니다.
+>이 사용 사례를 구현하려면 구성된 [!DNL Adobe Journey Optimizer]전자 메일 채널 표면[, 여정을 트리거할 ](../configuration/channel-surfaces.md)대상[ 또는 ](../audience/about-audiences.md)이벤트[를 사용하는 활성 ](../event/about-events.md) 인스턴스와 [여정 조건](condition-activity.md) 및 [표현식](expression/expressionadvanced.md)에 대한 기본 이해가 필요합니다.
 
 
 ## 구현 단계
 
+다음 단계를 사용하여 평일 전용 이메일 흐름을 작성하십시오.
+
 ### 1단계: 여정 만들기
 
-1. Adobe Journey Optimizer의 **[!UICONTROL 여정 관리]** > **[!UICONTROL 여정]**(으)로 이동합니다.
+1. **[!UICONTROL 의]**&#x200B;여정 관리&#x200B;**[!UICONTROL >]**&#x200B;여정[!DNL Adobe Journey Optimizer]&#x200B;(으)로 이동합니다.
 
 1. **[!UICONTROL 여정 만들기]**&#x200B;를 클릭하여 [새 여정 만들기](journey-gs.md)를 클릭합니다.
 
@@ -53,7 +56,7 @@ ht-degree: 1%
 
 여정 시작 직후 **[!UICONTROL 조건]** 활동을 추가하여 현재 날짜가 토요일이나 일요일인지 확인하십시오. 이에 따라 워크플로우가 분기됩니다.
 
-1. 진입점 뒤에 [**[!UICONTROL 조건&#x200B;]**&#x200B;활동](condition-activity.md)을 캔버스로 끌어서 놓습니다.
+1. 진입점 뒤에 [**[!UICONTROL 조건&#x200B;]**활동](condition-activity.md)을 캔버스로 끌어서 놓습니다.
 
 1. **[!UICONTROL 조건]** 활동을 클릭하여 구성 패널을 엽니다.
 
@@ -86,7 +89,7 @@ ht-degree: 1%
 toDateTimeOnly(setHours(nowWithDelta(X, "days"), H))
 ```
 
-위치:
+여기서
 
 * **X**&#x200B;은(는) 대기할 일 수입니다.
    * 토요일은 **2** 사용(월요일까지 대기)
@@ -149,7 +152,7 @@ toDateTimeOnly(setHours(nowWithDelta(1, "days"), 9))
 
 ### 6단계: 여정 테스트
 
-게시하기 전에 Adobe Journey Optimizer의 테스트 모드에서 여정 논리를 철저히 테스트하여 모든 것이 예상대로 작동하는지 확인하십시오.
+게시하기 전에 [!DNL Adobe Journey Optimizer]의 테스트 모드에서 여정 논리를 철저히 테스트하여 모든 것이 예상대로 작동하는지 확인하십시오.
 
 1. 오른쪽 상단의 **[!UICONTROL 테스트]** 단추를 클릭합니다.
 

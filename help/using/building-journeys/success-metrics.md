@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 게시, 여정, 라이브, 유효성, 확인
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '543'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 3%
 
 ## 전제 조건 {#prerequisites}
 
-여정 지표를 사용하기 전에 Adobe Experience Platform의 구성 > 보고에서 `Commerce Details`, `Web` 및 `Mobile` [필드 그룹](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko#field-group){target="_blank"}을(를) 포함하는 데이터 세트를 추가해야 합니다.
+여정 지표를 사용하기 전에 `Commerce Details`의 구성 > 보고에서 `Web`, `Mobile` 및 [ ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko#field-group){target="_blank"}필드 그룹[!DNL Adobe Experience Platform]을(를) 포함하는 데이터 집합을 추가해야 합니다.
 
 이러한 필드 그룹은 사용자 지정 그룹이 아닌 기본 제공 옵션에서 선택해야 합니다. [데이터 세트 추가](../reports/reporting-configuration.md#add-datasets) 섹션을 참조하십시오.
 
@@ -33,7 +33,7 @@ ht-degree: 3%
 
 데이터 세트가 구성되지 않은 경우 다음 지표만 사용할 수 있습니다. **[!UICONTROL 클릭]**, **[!UICONTROL 고유 클릭]**, **[!UICONTROL 클릭스루 비율]** 및 **[!UICONTROL 열기 비율]**.
 
-Customer Journey Analytics 라이선스를 사용하면 사용자 지정 성공 지표를 만들 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/participation-metric)
+Customer Journey Analytics 라이선스를 사용하면 사용자 지정 성공 지표를 만들 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/participation-metric)
 
 
 | 지표 | 관련 필드 그룹 |
@@ -70,7 +70,7 @@ Customer Journey Analytics 라이선스를 사용하면 사용자 지정 성공 
 
   Journey Optimizer 및 Customer Journey Analytics 라이선스를 모두 사용하여 특정 속성 설정으로 사용자 지정 지표를 만들거나 기본 제공 지표의 속성을 변경할 수 있습니다.
 
-  [속성 모델](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/component-settings/attribution#attribution-models)에 대해 자세히 알아보기
+  [속성 모델](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution#attribution-models)에 대해 자세히 알아보기
 
 ## 여정 지표 할당 {#assign}
 

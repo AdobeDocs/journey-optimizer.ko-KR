@@ -11,10 +11,10 @@ badge: label="제한된 가용성" type="Informative"
 keywords: 활동, 의사 결정, 컨텐츠 결정, 의사 결정 정책, 캔버스, 여정
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
-source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1120'
-ht-degree: 3%
+source-wordcount: '1111'
+ht-degree: 4%
 
 ---
 
@@ -80,7 +80,7 @@ ht-degree: 3%
 
 동의 정책에 대한 업데이트는 적용되는 데 최대 48시간이 걸립니다. 의사 결정 정책이 최근에 업데이트된 동의 정책에 연결된 속성을 참조하는 경우 변경 사항이 즉시 적용되지 않습니다.
 
-마찬가지로 동의 정책의 대상인 새 프로필 속성이 의사 결정 정책에 추가되면 사용할 수 있지만 지연이 경과할 때까지 연결된 동의 정책이 적용되지 않습니다.
+마찬가지로 동의 정책의 적용을 받는 새 프로필 속성을 의사 결정 정책에 추가하여 사용할 수 있습니다. 지연 시간이 경과할 때까지 관련 동의 정책이 시행되지 않습니다.
 
 동의 정책은 Adobe Healthcare Shield 또는 Privacy and Security Shield 추가 기능이 있는 조직만 사용할 수 있습니다.
 
@@ -114,7 +114,7 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >의사 결정 규칙에 사용되는 여정 경험 이벤트(컨텍스트 데이터) 또는 [오퍼 스키마](../experience-decisioning/catalogs.md#access-catalog-schema)에서 특성에 정의된 모든 제한된 레이블은 DULE 또는 동의에 대한 정책을 위반합니다. [이 섹션](../action/action-privacy.md)에서 데이터 거버넌스 정책에 대해 자세히 알아보기
+   >속성에 정의된 모든 제한된 레이블은 DULE 또는 동의에 대한 정책 위반을 초래할 수 있습니다. 의사 결정 규칙에 사용된 여정 경험 이벤트 및 [오퍼 스키마](../experience-decisioning/catalogs.md#access-catalog-schema)에 적용됩니다. [이 섹션](../action/action-privacy.md)에서 데이터 거버넌스 정책에 대해 자세히 알아보세요.
 
 1. 여정을 입력한 프로필에 대해 반환된 오퍼가 있는지 확인하려면 다음 구문과 함께 [listSize](functions/list-functions.md#listSize) 함수를 사용하십시오. `listSize(@decision{ContentdecisionName.items})>0`
 
@@ -152,7 +152,7 @@ ht-degree: 3%
    >
    >콘텐츠 결정 노드의 출력은 **[!UICONTROL 고급 모드]**&#x200B;에서만 사용할 수 있습니다.
 
-1. [&#x200B; 배열을 사용하여 &#x200B;](../experience-decisioning/catalogs.md#access-catalog-schema)오퍼 카탈로그 스키마`items`를 찾아봅니다. 예를 들어 검색된 첫 번째 오퍼의 `itemName`과(와) 검색된 두 번째 오퍼의 `itemName`을(를) 사용합니다.
+1. [ 배열을 사용하여 ](../experience-decisioning/catalogs.md#access-catalog-schema)오퍼 카탈로그 스키마`items`를 찾아봅니다. 예를 들어 검색된 첫 번째 오퍼의 `itemName`과(와) 검색된 두 번째 오퍼의 `itemName`을(를) 사용합니다.
 
    ![결정 정책을 포함하는 사용자 지정 작업의 요청 매개 변수](assets/journey-content-decision-custom-action-param-ex.png)
 

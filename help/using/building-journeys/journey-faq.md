@@ -2,30 +2,30 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Journey Orchestration - 자주 묻는 질문
-description: Adobe Journey Optimizer의 Journey Orchestration에 대해 자주 묻는 질문
+description: ' [!DNL Adobe Journey Optimizer]의 Journey Orchestration에 대한 FAQ'
 feature: Journeys, Get Started
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: 여정, 질문, 답변, 문제 해결, 도움말, 안내서, 오케스트레이션
 version: Journey Orchestration
-source-git-commit: bf5d018fa6c3e88cf84345e892de72ada9f2c489
+exl-id: cac9fc24-b78e-48d9-9c0c-f43181246f6f
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '5231'
-ht-degree: 1%
+source-wordcount: '5191'
+ht-degree: 0%
 
 ---
 
-
 # Journey Orchestration - 자주 묻는 질문 {#faq-journeys}
 
-Adobe Journey Optimizer의 Journey Orchestration에 대한 일반적인 질문에 대한 답변을 찾아보십시오.
+[!DNL Adobe Journey Optimizer]에서 Journey Orchestration에 대한 일반적인 질문에 대한 답변을 찾아보세요.
 
-세부 정보가 필요하신가요? 이 페이지 하단의 피드백 옵션을 사용하여 질문하거나 [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"}와 연결하세요.
+세부 정보가 필요하신가요? 이 페이지 하단의 피드백 옵션을 사용하여 질문을 제기하십시오. [[!DNL Adobe Journey Optimizer] 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"}에 연결할 수도 있습니다.
 
 ## 일반 개념
 
-+++ Adobe Journey Optimizer의 여정은 무엇입니까?
++++ [!DNL Adobe Journey Optimizer]의 여정은 무엇입니까?
 
 여정은 여러 채널에서 실시간 고객 경험을 디자인하고 실행할 수 있는 여러 단계 오케스트레이션입니다. 여정은 이벤트, 오케스트레이션 활동, 작업 및 메시지를 결합하여 고객 행동 및 비즈니스 이벤트를 기반으로 개인화된 컨텍스트 기반의 경험을 만듭니다.
 
@@ -35,10 +35,10 @@ Adobe Journey Optimizer의 Journey Orchestration에 대한 일반적인 질문�
 
 +++ 다양한 유형의 여정은 무엇입니까?
 
-Adobe Journey Optimizer은 네 가지 유형의 여정을 지원합니다.
+[!DNL Adobe Journey Optimizer]은(는) 네 가지 유형의 여정을 지원합니다.
 
 * **단일 여정**: 이벤트(예: 구매, 앱 로그인)에 의해 개별적으로 트리거됩니다. 프로필은 이벤트가 발생할 때 한 번에 하나씩 여정을 입력합니다.
-* **대상 여정 읽기**: Adobe Experience Platform의 대상으로 시작하여 해당 대상의 모든 프로필에 메시지를 일괄적으로 보냅니다.
+* **대상 여정 읽기**: [!DNL Adobe Experience Platform]의 대상으로 시작하여 해당 대상의 모든 프로필에 메시지를 일괄적으로 보냅니다.
 * **대상 자격 여정**: 프로필이 특정 대상 세그먼트에 대해 자격이 되거나 종료되는 경우 트리거됩니다. 프로필은 대상자 기준을 충족하면 여정을 입력합니다.
 * **비즈니스 이벤트 여정**: 여러 프로필에 동시에 영향을 주는 비즈니스 이벤트(예: 재고 업데이트, 날씨 알림)에 의해 트리거됩니다.
 
@@ -56,7 +56,7 @@ Adobe Journey Optimizer은 네 가지 유형의 여정을 지원합니다.
 * **[API 트리거 캠페인](../campaigns/api-triggered-campaigns.md)**: API 호출을 통해 트리거된 캠페인으로, 외부 시스템과 통합하여 실시간 이벤트 또는 비즈니스 논리를 기반으로 메시지를 보낼 수 있습니다.
 * **[오케스트레이션된 캠페인](../orchestrated/gs-orchestrated-campaigns.md)**: 조건, 대기 시간 및 여러 작업을 포함하여 일정하고 조정된 경험을 만들 수 있는 캔버스에 다단계 대상자 기반 캠페인을 빌드했습니다.
 
-**우수 사례**: 고급 오케스트레이션을 사용한 복잡한 이벤트 트리거 참여에는 [여정](journey.md), 예약된 대상 기반 커뮤니케이션에는 [작업 캠페인](../campaigns/create-campaign.md), 외부 시스템에서 프로그래밍 방식 트리거에는 [API 트리거 캠페인](../campaigns/api-triggered-campaigns.md), 캠페인별 요구 사항이 있는 다단계 커뮤니케이션에는 [오케스트레이션된 캠페인](../orchestrated/gs-orchestrated-campaigns.md)을 사용합니다.
+**우수 사례**: 고급 오케스트레이션을 사용하여 복잡한 여정 트리거에 [이벤트](journey.md)을(를) 사용합니다. 예약된 대상자 기반 커뮤니케이션에는 [작업 캠페인](../campaigns/create-campaign.md)을 사용하십시오. 외부 시스템에서 프로그래밍 방식의 트리거를 사용하려면 [API 트리거 캠페인](../campaigns/api-triggered-campaigns.md)을(를) 사용하십시오. 캠페인별 요구 사항이 있는 다단계 커뮤니케이션에는 [오케스트레이션된 캠페인](../orchestrated/gs-orchestrated-campaigns.md)을 사용하십시오.
 
 +++
 
@@ -76,7 +76,7 @@ Adobe Journey Optimizer은 네 가지 유형의 여정을 지원합니다.
 
 +++ 여정에서 지원되는 대상자 유형은 무엇이며 제한 사항은 무엇입니까?
 
-Adobe Journey Optimizer은 각기 다른 특성과 보호 기능을 가진 네 가지 유형의 대상을 지원합니다.
+[!DNL Adobe Journey Optimizer]은(는) 각기 다른 특성과 보호 기능을 가진 네 가지 유형의 대상을 지원합니다.
 
 **1. 스트리밍 대상**
 
@@ -110,11 +110,11 @@ Adobe Journey Optimizer은 각기 다른 특성과 보호 기능을 가진 네 �
    * CSV 파일 크기 제한이 적용됩니다(현재 제한에 대해서는 제품 설명서 확인)
    * 대상 구성원은 새 업로드로 새로 고쳐질 때까지 정적입니다
    * ID 네임스페이스는 여정 네임스페이스와 일치해야 함
-   * Adobe Experience Platform에 프로필이 있어야 합니다.
+   * 프로필은 [!DNL Adobe Experience Platform]에 있어야 합니다.
 
 **4. FAC(Federated Audience Composition) 대상**
 
-* **설명**: 페더레이션 데이터를 사용하여 만든 대상자로, Adobe Experience Platform에 데이터를 복사하지 않고 외부 데이터 웨어하우스에서 대상을 쿼리하고 구성할 수 있습니다
+* **설명**: 페더레이션 데이터를 사용하여 만든 대상자로, [!DNL Adobe Experience Platform]에 데이터를 복사하지 않고 외부 데이터 웨어하우스에서 대상자를 쿼리하고 구성할 수 있습니다.
 * **평가**: 페더레이션 대상 컴포지션이 실행될 때 정적 컴포지션이 업데이트되었습니다
 * **여정 사용**: 대상 및 조건 읽기 활동에서 지원됨; 대상 자격 여정에서 **지원되지 않음**(백 엔드 관점에서 대상을 업로드하는 것과 유사)
 * **최적의 대상**: 엔터프라이즈 데이터 웨어하우스 통합, 외부 데이터 소스를 사용한 대상 구성, 외부 시스템에 데이터를 유지해야 하는 시나리오
@@ -187,7 +187,7 @@ CJA 대상은 여정에서 직접 지원되지 않지만, 세분화 규칙에서
 전제 조건은 여정 유형에 따라 다릅니다.
 
 * **여정 트리거 여정**: 프로필이 이벤트를 입력해야 하는 시기를 정의하도록 이벤트를 구성합니다.
-* **대상 기반 여정**: Adobe Experience Platform에서 대상 만들기
+* **대상 기반 여정**: [!DNL Adobe Experience Platform]에서 대상 만들기
 * **데이터 보강**: 추가 정보를 검색하도록 데이터 원본 설정
 * **타사 통합**: 외부 시스템을 사용하는 경우 사용자 지정 작업을 구성합니다.
 
@@ -202,7 +202,7 @@ CJA 대상은 여정에서 직접 지원되지 않지만, 세분화 규칙에서
 **모범 사례**:
 
 * **사용자 지정 작업**: 사용자 지정 작업을 통해 외부 API를 호출하여 데이터를 검색하거나 서드파티 시스템으로 보냅니다. 이는 외부 시스템과의 실시간 상호 작용에 권장되는 접근법이다.
-* **데이터 집합 조회**: 외부 시스템에서 Adobe Experience Platform으로 데이터를 로드할 수 있는 경우 데이터 집합 조회 기능을 사용하여 Experience Platform 데이터 집합에 저장된 정보를 검색하십시오.
+* **데이터 집합 조회**: 외부 시스템에서 [!DNL Adobe Experience Platform]&#x200B;(으)로 데이터를 로드할 수 있는 경우 데이터 집합 조회 기능을 사용하여 Experience Platform 데이터 집합에 저장된 정보를 검색하십시오.
 * **외부 데이터 원본**: 타사 API 서비스에서 정보를 검색하도록 외부 데이터 원본을 구성하십시오(위의 접근 방식보다 덜 권장됨).
 
 이러한 옵션을 사용하면 CRM, 로열티 시스템, 날씨 서비스 또는 기타 외부 플랫폼의 데이터로 고객 경험을 강화할 수 있습니다.
@@ -247,7 +247,7 @@ CJA 대상은 여정에서 직접 지원되지 않지만, 세분화 규칙에서
 
 +++ 여정 내에서 프로필 정보를 업데이트할 수 있습니까?
 
-예. **프로필 업데이트** 활동을 사용하여 여정 이벤트 또는 조건에 따라 Adobe Experience Platform에서 프로필 특성을 수정하십시오. 충성도 포인트를 업데이트하거나, 여정 이정표를 기록하거나, 환경 설정을 변경하거나, 고객 참여 점수를 추적하는 데 유용합니다.
+예. **프로필 업데이트** 활동을 사용하여 여정 이벤트 또는 조건에 따라 [!DNL Adobe Experience Platform]의 프로필 특성을 수정하십시오. 충성도 포인트를 업데이트하거나, 여정 이정표를 기록하거나, 환경 설정을 변경하거나, 고객 참여 점수를 추적하는 데 유용합니다.
 
 [프로필 업데이트](update-profiles.md)에 대해 자세히 알아보세요.
 
@@ -468,7 +468,7 @@ Journey Optimizer에서는 두 가지 테스트 접근 방식을 제공합니다
 * **여정이 게시되지 않음**: 여정이 초안 상태입니다.
 * **잘못된 네임스페이스**: 여정 네임스페이스가 프로필 ID와 일치하지 않습니다.
 * **여정 마감됨**: 여정이 더 이상 새 등록을 수락하지 않습니다.
-* **스트리밍 대상 자격 타이밍**: 스트리밍 대상으로 대상 자격을 사용하는 여정의 경우, 프로필이 여정이 게시되기 전에 이미 대상에 있었거나 여정이 활성화 기간(게시 후 최대 10분)을 완료하지 않은 경우 프로필이 입력되지 않을 수 있습니다
+* **스트리밍 대상 자격 타이밍**: 스트리밍 대상으로 대상 자격을 사용하는 여정의 경우, 프로필이 여정이 게시되기 전에 대상에 이미 있었던 경우 프로필이 입력되지 않을 수 있습니다. 여정이 활성화 기간을 완료하지 않은 경우(게시 후 최대 10분) 지연될 수도 있습니다.
 
 [항목 관리](entry-management.md) 및 [스트리밍 대상 자격 타이밍 고려 사항](audience-qualification-events.md#streaming-entry-caveats)에 대해 자세히 알아보세요.
 
@@ -699,12 +699,12 @@ Learn more about [action responses](../action/action-response.md).
 
 +++
 
-+++ 여정과 함께 Adobe Campaign을 사용하려면 어떻게 해야 합니까?
++++ 여정에 [!DNL Adobe Campaign]을(를) 사용하려면 어떻게 해야 합니까?
 
-Journey Optimizer은 기본적으로 Adobe Campaign과 통합되어 고급 기능을 활용합니다.
+Journey Optimizer은 기본적으로 [!DNL Adobe Campaign]과(와) 통합되어 고급 기능을 활용합니다.
 
-* **Adobe Campaign Standard**: Campaign Standard 작업을 사용하여 트랜잭션 메시지를 보냅니다.
-* **Adobe Campaign v7/v8**: Campaign 워크플로우를 트리거하고 Campaign의 게재 인프라를 사용합니다.
+* **[!DNL Adobe Campaign]Standard**: Campaign Standard 작업을 사용하여 트랜잭션 메시지를 보냅니다.
+* **[!DNL Adobe Campaign]v7/v8**: Campaign 워크플로우를 트리거하고 Campaign의 게재 인프라를 사용합니다.
 
 **모범 사례**: 기존 Campaign 템플릿, 데이터 모델이 있거나 Campaign별 기능이 필요한 경우 이 통합을 사용하십시오.
 
@@ -802,7 +802,7 @@ Journey Optimizer은 기본적으로 Adobe Campaign과 통합되어 고급 기�
 
 +++ 병합 정책이란 무엇이며 여정에 어떤 영향을 줍니까?
 
-**병합 정책**&#x200B;은(는) Adobe Experience Platform에서 여러 소스의 데이터를 결합하여 통합 프로필 보기를 만드는 방법을 결정합니다. 프로필 조각이 서로 다른 데이터 세트에 걸쳐 있는 경우 데이터 우선 순위 지정 및 ID 결합에 대한 규칙을 정의합니다.
+**병합 정책**&#x200B;은(는) [!DNL Adobe Experience Platform]이(가) 여러 소스의 데이터를 결합하여 통합 프로필 보기를 만드는 방법을 결정합니다. 프로필 조각이 서로 다른 데이터 세트에 걸쳐 있는 경우 데이터 우선 순위 지정 및 ID 결합에 대한 규칙을 정의합니다.
 
 **여정에 미치는 영향**:
 
@@ -931,7 +931,7 @@ Journey Optimizer은 기본적으로 Adobe Campaign과 통합되어 고급 기�
 
 * 게시하기 전에 성능을 확인하려면 [테스트 모드](testing-the-journey.md) 및 [시험 실행](journey-dry-run.md)을 사용하십시오.
 * [사용자 지정 작업](using-custom-actions.md)을 통해 외부 API 호출을 최소화하여 대기 시간과 서드파티 시스템에 대한 종속성을 방지하십시오.
-* 가능한 경우 외부 호출을 수행하는 대신 [데이터 세트 조회](dataset-lookup.md)를 사용하여 Adobe Experience Platform에서 자주 사용하는 데이터를 저장합니다.
+* 가능한 경우 외부 호출을 수행하는 대신 [!DNL Adobe Experience Platform]데이터 집합 조회[를 사용하여 ](dataset-lookup.md)에서 자주 사용하는 데이터를 저장합니다.
 * [메시지 게재](journeys-message.md) 성능 검토 및 최적화
 
 [보호 기능 및 제한 사항](../start/guardrails.md)에 대해 자세히 알아보세요.

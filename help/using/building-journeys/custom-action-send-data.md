@@ -9,16 +9,16 @@ role: User, Developer
 level: Intermediate, Experienced
 keywords: 여정, 사용 사례
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '268'
 ht-degree: 2%
 
 ---
 
-# 사용 사례: Adobe Experience Platform에 데이터를 전송하는 사용자 지정 작업 만들기{#send-data-to-aep}
+# 사용 사례: 사용자 지정 작업을 만들어 [!DNL Adobe Experience Platform]&#x200B;(으)로 데이터 보내기{#send-data-to-aep}
 
-최근 다른 이메일 서비스 공급자, IP 주소, 이메일 도메인 또는 하위 도메인으로 이동한 경우 발신자로서의 신뢰도를 설정해야 합니다. 그렇지 않으면 게재가 차단되거나 수신자 사서함의 스팸 폴더로 이동될 수 있습니다. [게재 가능성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=ko){target="_blank"}에서 IP warming으로 전자 메일 신뢰도를 높이는 방법을 알아봅니다.
+최근 다른 이메일 서비스 공급자, IP 주소, 이메일 도메인 또는 하위 도메인으로 이동한 경우 발신자로서의 신뢰도를 높이십시오. 그렇지 않으면 게재가 차단되거나 수신자의 스팸 폴더로 이동될 수 있습니다. 지침은 [게재 가능성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=ko){target="_blank"}를 참조하세요.
 
 IP를 준비하려면 게재 수를 점차적으로 늘릴 수 있습니다. [Journey Optimizer에서 게재 기능 최적화](../reports/deliverability.md)에 대해 자세히 알아보세요.
 

@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 여정, 제한
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 version: Journey Orchestration
-source-git-commit: de71f603b98c44d09ede5cc6bafc945f124ceb09
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 46%
+source-wordcount: '555'
+ht-degree: 39%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 46%
 
 ## 이벤트 제한 사항 {#events-limitations}
 
-* 시스템 생성 이벤트의 경우 고유한 오케스트레이션 ID를 얻으려면 먼저 고객 여정을 시작하는 데 사용되는 스트리밍 데이터를 Journey Optimizer 내에서 구성해야 합니다. 이 오케스트레이션 ID는 Adobe Experience Platform으로 들어오는 스트리밍 페이로드에 추가되어야 합니다. 이 제한은 규칙 기반 이벤트에는 적용되지 않습니다. 
+* 시스템 생성 이벤트의 경우 고유한 오케스트레이션 ID를 얻으려면 먼저 고객 여정을 시작하는 데 사용되는 스트리밍 데이터를 Journey Optimizer 내에서 구성해야 합니다. 이 오케스트레이션 ID는 [!DNL Adobe Experience Platform]&#x200B;(으)로 들어오는 스트리밍 페이로드에 추가되어야 합니다. 이 제한은 규칙 기반 이벤트에는 적용되지 않습니다. 
 
 ## 반응 이벤트 제한 사항 {#reaction-limitations}
 
@@ -59,13 +59,13 @@ ht-degree: 46%
 
 ## 프로필 만들기와 동시에 시작하는 여정 {#journeys-limitation-profile-creation}
 
-Adobe Experience Platform에서 API 기반 프로필 만들기/업데이트와 관련된 지연이 발생합니다. 지연 시간 측면에서 SLT(서비스 수준 목표)는 20,000RPS(초당 요청) 볼륨에서 95번째 백분위수 요청에 대해 수집에서 통합 프로필까지 1분 미만입니다.
+[!DNL Adobe Experience Platform]에서 API 기반 프로필 만들기/업데이트와 관련된 지연이 있습니다. 지연 시간 측면에서 SLT(서비스 수준 목표)는 20,000RPS(초당 요청) 볼륨에서 95번째 백분위수 요청에 대해 수집에서 통합 프로필까지 1분 미만입니다.
 
 프로필 만들기와 동시에 여정이 트리거되고 Profile Service에서 정보를 즉시 확인/검색하면 제대로 작동하지 않을 수 있습니다.
 
 다음 두 가지 솔루션 중 하나를 선택할 수 있습니다.
 
-* 첫 번째 이벤트 후에 대기 활동을 추가하여 Adobe Experience Platform에 Profile Service에 대한 수집을 수행하는 데 필요한 시간을 제공합니다.
+* 첫 번째 이벤트 후에 대기 활동을 추가하여 [!DNL Adobe Experience Platform]에게 Profile Service에 수집을 수행하는 데 필요한 시간을 제공합니다.
 
 * 프로필을 즉시 활용하지 않는 여정을 설정합니다. 예를 들어 여정이 계정 만들기를 확인하도록 디자인된 경우 경험 이벤트에는 첫 번째 확인 메시지(이름, 성, 이메일 주소 등)를 보내는 데 필요한 정보가 포함될 수 있습니다.
 

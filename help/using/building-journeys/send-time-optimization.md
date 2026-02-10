@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 전송 시간, 전송, 메시지, 최적화, 여정, AI, 지능형
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 version: Journey Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1546'
-ht-degree: 10%
+source-wordcount: '1533'
+ht-degree: 7%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_disabled"
 >title="전송된 시간 최적화 정보"
->abstract="Adobe의 AI 서비스에서 제공하는 Adobe Journey Optimizer의 전송 시간 최적화 기능은 기록 열기와 클릭률을 기반으로 이메일 또는 푸시 메시지를 전송하는 최적의 시간을 예측하여 참여도를 극대화할 수 있습니다."
+>abstract="Adobe의 AI 서비스를 기반으로 하는 [!DNL Adobe Journey Optimizer]의 전송 시간 최적화 기능을 통해 이메일 또는 푸시 메시지를 보내는 데 가장 적합한 시간을 예측하여 과거 공개 및 클릭률을 기준으로 참여를 극대화할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_email"
@@ -34,13 +34,13 @@ ht-degree: 10%
 >title="전송 시간 최적화 활성화"
 >abstract="클릭수는 푸시 메시지에 적용할 수 없으므로 푸시 메시지의 기본값은 열람수 옵션으로 설정됩니다. 또한 시스템에서 사용하는 전송 시간을 조정하려면 다음 이내로 전송 옵션에 값을 입력하여 전송 시간을 범위 내로 설정할 수 있습니다."
 
-Adobe Journey Optimizer의 여정 AI 서비스를 기반으로 하는 Adobe의 전송 시간 최적화 기능은 고객의 과거 오픈 및 클릭 동작에 따라 고객 참여를 극대화하기 위해 이메일 및 푸시 메시지에 대한 최적의 전송 시간을 선택합니다.
+Adobe의 여정 AI 서비스를 기반으로 하는 [!DNL Adobe Journey Optimizer]의 전송 시간 최적화 기능은 고객의 과거 열기 및 클릭 동작에 따라 고객 참여를 극대화하기 위해 이메일 및 푸시 메시지에 대한 최적의 전송 시간을 선택합니다.
 
 전송 시간 최적화는 Journey Optimizer의 기본 제공 이메일 및 푸시 작업 유형에만 사용할 수 있으며, 현재 사용자 지정 작업을 통해 전송된 메시지 또는 다른 작업 유형에는 사용할 수 없습니다. 전송 시간 최적화는 여정 내의 이메일 및 푸시 작업에만 사용할 수 있으며 현재 캠페인을 통해 전송된 메시지에는 사용할 수 없습니다.
 
 >[!AVAILABILITY]
 >
->* Adobe Journey Optimizer 고객은 요청 시 전송 시간 최적화 기능을 사용할 수 있습니다. 조직에서 해당 기능을 활성화하려면 Adobe 고객 지원 센터 또는 Adobe 담당자에게 문의하십시오.
+>* 요청 시 [!DNL Adobe Journey Optimizer] 고객에 대해 전송 시간 최적화 기능을 사용할 수 있습니다. 조직에서 해당 기능을 활성화하려면 Adobe 고객 지원 센터 또는 Adobe 담당자에게 문의하십시오.
 >
 >* 전송 시간 최적화는 **이메일** 및 **푸시 알림** 채널에만 적용됩니다.
 >
@@ -70,7 +70,7 @@ Adobe Journey Optimizer의 여정 AI 서비스를 기반으로 하는 Adobe의 �
 
 ## 전송 시간 최적화 작동 방식 {#how-send-time}
 
-전송 시간 최적화 모델은 조직의 Adobe Journey Optimizer 고객 행동 데이터를 수집하고 사용자 수준의 열기 및 클릭 이벤트를 확인하여 고객이 메시징을 가장 많이 수행할 수 있는 시기를 결정합니다.
+전송 시간 최적화 모델은 조직의 [!DNL Adobe Journey Optimizer] 고객 행동 데이터를 수집하고 사용자 수준의 열기 및 클릭 이벤트를 확인하여 고객이 메시징을 가장 많이 수행할 수 있는 시기를 결정합니다.
 
 전송 시간 최적화는 세 가지 유형의 행동 데이터를 기반으로 각 사용자에 대해 그 주의 각 시간에 대한 예측을 만듭니다.
 
@@ -101,7 +101,7 @@ Adobe Journey Optimizer의 여정 AI 서비스를 기반으로 하는 Adobe의 �
 
 전송 시간 최적화에 대한 FAQ는 다음과 같습니다.
 
-세부 정보가 필요하신가요? 이 페이지 하단의 피드백 옵션을 사용하여 질문하거나 [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"}와 연결하세요.
+세부 정보가 필요하신가요? 이 페이지 하단의 피드백 옵션을 사용하여 질문을 제기하거나 [[!DNL Adobe Journey Optimizer] 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"}에 연결하세요.
 
 +++전송 시간 최적화를 사용하기 전에 얼마나 기다려야 합니까?
 

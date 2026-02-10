@@ -9,10 +9,10 @@ level: Intermediate
 keywords: 게시, 여정, 라이브, 유효성, 확인
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
-source-git-commit: 4a15ee3ac4805880ce80f788e4619b501afb3d8b
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1127'
-ht-degree: 16%
+source-wordcount: '1115'
+ht-degree: 8%
 
 ---
 
@@ -21,15 +21,15 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run"
 >title="시험 실행 모드"
->abstract="이 여정은 시험 실행 모드입니다. 여정 시험 실행은 Adobe Journey Optimizer의 특별한 여정 게시 모드로, 이를 통해 여정 실무자가 실제 고객과 연락하거나 프로필 정보를 업데이트하지 않고도 실제 프로덕션 데이터를 사용하여 여정을 테스트할 수 있습니다.  이 기능은 여정 실무자가 여정을 게시하기 전에 여정 설계와 대상자 타기팅에 대한 자신감을 얻는 데 도움이 됩니다."
+>abstract="이 여정은 시험 실행 모드입니다. 여정 시험 실행은 여정 제공자가 실제 고객에게 연락하거나 프로필 정보를 업데이트하지 않고도 실제 프로덕션 데이터를 사용하여 여정을 테스트할 수 있는 [!DNL Adobe Journey Optimizer]의 특수 여정 게시 모드입니다.  이 기능은 여정 실무자가 여정을 게시하기 전에 여정 설계와 대상자 타기팅에 대한 자신감을 얻는 데 도움이 됩니다."
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run_start"
 >title="시험 실행 모드로 여정 게시"
->abstract="여정 시험 실행은 Adobe Journey Optimizer의 특별한 여정 게시 모드로, 이를 통해 여정 실무자가 실제 프로덕션 데이터를 사용하여 여정을 테스트할 수 있습니다. 여정을 설계한 후 시험 실행을 실행하여 기능이 정상적으로 작동하는지 확인하고 단계가 정확한지 확인하십시오. 이 게시 모드를 사용하여 프로필에 메시지를 전송하지 않고도 여정을 미리 테스트할 수 있습니다."
+>abstract="여정 시험 실행은 여정 제공자가 실제 프로덕션 데이터를 사용하여 여정을 테스트할 수 있도록 하는 [!DNL Adobe Journey Optimizer]의 특수 여정 게시 모드입니다. 여정을 설계한 후 시험 실행을 실행하여 기능이 정상적으로 작동하는지 확인하고 단계가 정확한지 확인하십시오. 이 게시 모드를 사용하여 프로필에 메시지를 전송하지 않고도 여정을 미리 테스트할 수 있습니다."
 
-여정 시험 실행은 Adobe Journey Optimizer의 특별한 여정 게시 모드로, 이를 통해 여정 실무자가 실제 고객과 연락하거나 프로필 정보를 업데이트하지 않고도 실제 프로덕션 데이터를 사용하여 여정을 테스트할 수 있습니다.  이 기능은 여정 실무자가 여정을 게시하기 전에 여정 설계와 대상자 타기팅에 대한 자신감을 얻는 데 도움이 됩니다.
+여정 시험 실행은 여정 제공자가 실제 고객에게 연락하거나 프로필 정보를 업데이트하지 않고도 실제 프로덕션 데이터를 사용하여 여정을 테스트할 수 있는 [!DNL Adobe Journey Optimizer]의 특수 여정 게시 모드입니다.  이 기능은 여정 실무자가 여정을 게시하기 전에 여정 설계와 대상자 타기팅에 대한 자신감을 얻는 데 도움이 됩니다.
 
 ➡️ [이 비디오에서 여정 시험 실행에 대해 자세히 알아보세요](#dry-run-video)
 
@@ -58,7 +58,7 @@ ht-degree: 16%
 
   ![시험 실행 여정의 작업 활동이 회색으로 표시됨](assets/dry-run-greyed-activities.png){width="80%" align="left"}
 
-* **외부 데이터 원본을 포함한 데이터 원본** 및 **대기** 활동은 기본적으로 시험 실행 중에 비활성화되어 있습니다. 그러나 시험 실행 모드를 활성화[할 때 이 동작을 &#x200B;](#journey-dry-run-start)변경할 수 있습니다.
+* **외부 데이터 원본을 포함한 데이터 원본** 및 **대기** 활동은 기본적으로 시험 실행 중에 비활성화되어 있습니다. 그러나 시험 실행 모드를 활성화[할 때 이 동작을 ](#journey-dry-run-start)변경할 수 있습니다.
 
 * **반응** 노드가 실행되지 않습니다. 입력한 모든 프로필이 성공하면 종료됩니다. 그러나 다음 우선순위 규칙이 적용됩니다.
    * **Reaction** 노드를 하나 또는 여러 **단일 이벤트** 노드와 병렬로 사용하면 프로필은 항상 반응 이벤트를 통과합니다.
@@ -66,7 +66,7 @@ ht-degree: 16%
 
 >[!CAUTION]
 >
->* 시험 실행을 시작할 수 있는 권한은 **[!DNL Publish journeys]** 높은 수준의 권한을 가진 사용자로 제한됩니다. 기본 실행을 중지할 수 있는 권한은 **[!DNL Manage journeys]** 높은 수준의 권한을 가진 사용자로 제한됩니다. [!DNL Journey Optimizer]이 섹션[에서 &#x200B;](../administration/permissions-overview.md) 사용자의 액세스 권한 관리에 대해 자세히 알아보세요.
+>* 시험 실행을 시작할 수 있는 권한은 **[!DNL Publish journeys]** 높은 수준의 권한을 가진 사용자로 제한됩니다. 기본 실행을 중지할 수 있는 권한은 **[!DNL Manage journeys]** 높은 수준의 권한을 가진 사용자로 제한됩니다. [!DNL Journey Optimizer]이 섹션[에서 ](../administration/permissions-overview.md) 사용자의 액세스 권한 관리에 대해 자세히 알아보세요.
 >
 >* 시험 실행 기능을 사용하기 전에 [보호 기능 및 제한 사항을 읽어보세요](#journey-dry-run-limitations).
 
@@ -143,10 +143,10 @@ ht-degree: 16%
 
 stepEvent 데이터를 **외부 시스템**(으)로 내보내는 경우 `inDryRun` 플래그를 사용하여 드라이 실행 실행을 필터링할 수 있습니다.
 
-Adobe Experience Platform 쿼리 서비스를 사용하여 **여정 보고 지표**&#x200B;를 분석할 때 시험 실행 생성 단계 이벤트를 제외해야 합니다. 이 작업을 수행하려면 `inDryRun` 플래그를 `false`(으)로 설정하십시오.
+**여정 서비스를 사용하여**&#x200B;쿼리 보고 지표[!DNL Adobe Experience Platform]을(를) 분석할 때 시험 실행 생성 단계 이벤트를 제외해야 합니다. 이 작업을 수행하려면 `inDryRun` 플래그를 `false`(으)로 설정하십시오.
 
 ## 사용 방법 비디오 {#dry-run-video}
 
 이 비디오에서는 여정을 시험 실행하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464689/?captions=kor&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)

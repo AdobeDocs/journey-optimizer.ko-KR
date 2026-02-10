@@ -9,16 +9,16 @@ role: Developer
 level: Experienced
 exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '398'
 ht-degree: 3%
 
 ---
 
 # 사용자 정의 작업을 사용하여 Experience Platform에 여정 이벤트 작성 {#custom-action-aep}
 
-이 사용 사례에서는 사용자 지정 작업 및 인증된 호출을 사용하여 여정에서 Adobe Experience Platform에 사용자 지정 이벤트를 작성하는 방법을 설명합니다.
+이 사용 사례에서는 사용자 지정 작업 및 인증된 호출을 사용하여 여정에서 [!DNL Adobe Experience Platform]에 사용자 지정 이벤트를 작성하는 방법을 설명합니다.
 
 ## 개발자 프로젝트 구성 {#custom-action-aep-IO}
 
@@ -30,7 +30,7 @@ ht-degree: 3%
 
 1. **cURL 명령 보기**&#x200B;를 클릭합니다.
 
-   ![Adobe Experience Platform 작업 유형 선택](assets/custom-action-aep-2.png)
+   ![[!DNL Adobe Experience Platform] 작업 유형 선택](assets/custom-action-aep-2.png)
 
 1. cURL 명령을 복사하고 client_id, client_secret, grant_type 및 범위를 저장합니다.
 
@@ -40,15 +40,15 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 >[!CAUTION]
 >
->Adobe Developer Console에서 프로젝트를 작성한 후 올바른 권한을 사용하여 개발자 및 API 액세스 제어를 부여해야 합니다. 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}를 참조하세요
+>Adobe Developer Console에서 프로젝트를 작성한 후 올바른 권한을 사용하여 개발자 및 API 액세스 제어를 부여해야 합니다. 자세한 내용은 [[!DNL Adobe Experience Platform] 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}를 참조하세요
 
 ## HTTP API Inlet을 사용하여 소스 구성
 
-1. Adobe Experience Platform에서 엔드포인트를 만들어 여정에서 데이터를 기록합니다.
+1. 여정에서 데이터를 쓰려면 [!DNL Adobe Experience Platform]에 끝점을 만드십시오.
 
-1. Adobe Experience Platform의 왼쪽 메뉴에서 **연결** 아래의 **원본**&#x200B;을 클릭합니다. **HTTP API**&#x200B;에서 **데이터 추가**&#x200B;를 클릭합니다.
+1. [!DNL Adobe Experience Platform]의 왼쪽 메뉴에서 **연결** 아래의 **원본**&#x200B;을 클릭합니다. **HTTP API**&#x200B;에서 **데이터 추가**&#x200B;를 클릭합니다.
 
-   Adobe Experience Platform에 대한 ![샌드박스 선택 드롭다운](assets/custom-action-aep-3.png)
+   ![에 대한 [!DNL Adobe Experience Platform]](assets/custom-action-aep-3.png)샌드박스 선택 드롭다운
 
 1. **새 계정**&#x200B;을 선택하고 인증을 사용하도록 설정합니다. **Source에 연결**&#x200B;을 선택합니다.
 
@@ -101,7 +101,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 이 예제의 경우 다음 단계를 수행합니다.
 
-1. Adobe Journey Optimizer을 열고 왼쪽 메뉴에서 **관리** 아래의 **구성**&#x200B;을 클릭합니다. **작업**&#x200B;에서 **관리**&#x200B;를 클릭하고 **작업 만들기**&#x200B;를 클릭합니다.
+1. [!DNL Adobe Journey Optimizer]을(를) 열고 왼쪽 메뉴에서 **관리** 아래의 **구성**&#x200B;을(를) 클릭합니다. **작업**&#x200B;에서 **관리**&#x200B;를 클릭하고 **작업 만들기**&#x200B;를 클릭합니다.
 
 1. URL을 설정하고 Post 메서드를 선택합니다.
 

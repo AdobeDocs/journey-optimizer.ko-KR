@@ -10,14 +10,16 @@ level: Intermediate
 keywords: 활동, 조건, 캔버스, 여정
 exl-id: 02de069c-3009-4105-aa98-c49959d3efda
 version: Journey Orchestration
-source-git-commit: 24d66f146ea3ed0e89a3b928b805bc53a70a8895
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1804'
+source-wordcount: '1788'
 ht-degree: 16%
 
 ---
 
 # 조건 활동 {#condition-activity}
+
+조건 활동을 사용하여 규칙 및 데이터를 기반으로 프로필을 다른 경로로 라우팅합니다.
 
 ## 조건 활동 추가 {#add-condition-activity}
 
@@ -42,7 +44,7 @@ ht-degree: 16%
 
 >[!NOTE]
 >
->[프로필 저장소](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko#profile-data-store){target="_blank"}에 두 개 이상의 교차 장치 ID가 포함된 프로필에 대해서는 조건 평가가 실패합니다.
+>[프로필 저장소](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}에 두 개 이상의 교차 장치 ID가 포함된 프로필에 대해서는 조건 평가가 실패합니다.
 
 ## 조건 경로 추가 및 관리 {#about_condition}
 
@@ -59,7 +61,7 @@ ht-degree: 16%
 
 여정 디자인은 기능에 영향을 줍니다. 조건 후에 여러 개의 경로를 정의하면 첫 번째 적격 경로만 실행됩니다. 즉, 경로 우선순위를 서로 위나 아래에 배치하여 다르게 지정할 수 있습니다.
 
-첫 번째 경로의 조건인 &quot;사람은 VIP&quot;와 두 번째 경로의 조건인 &quot;사람은 남성&quot;의 예를 들어보자. 두 조건을 모두 충족하는 사람(VIP인 남성)이 이 단계를 통과하면 첫 번째 경로가 &quot;위&quot;이기 때문에 이 사람도 두 번째 경로에 자격이 되더라도 첫 번째 경로가 선택됩니다. 이 우선 순위를 변경하려면 활동을 다른 세로 순서로 이동하십시오.
+두 가지 경로 조건인 &quot;사람은 VIP&quot;와 &quot;사람은 남성&quot;을 살펴보겠습니다. 사람이 두 조건을 모두 만족하면 첫 번째 경로가 두 번째 경로 위에 있기 때문에 선택됩니다. 이 우선 순위를 변경하려면 활동을 다른 세로 순서로 이동하십시오.
 
 ![VIP 및 남성 조건을 보여 주는 경로 우선 순위](assets/journey48.png)
 
@@ -72,7 +74,7 @@ ht-degree: 16%
 
 ![필드 선택 및 논리 연산자 AND를 표시하는 식 편집기](assets/journey64.png)
 
-[Adobe Experience Platform 세분화 서비스](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ko){target="_blank"}를 사용하여 대상을 만드는 경우 여정 조건에서 이를 활용할 수 있습니다. [조건에서 대상 사용](../building-journeys/condition-activity.md#using-a-segment)을 참조하세요. Journey Optimizer에서 대상자를 생성하고 타깃팅하는 방법에 대한 자세한 내용은 [이 섹션](../audience/about-audiences.md)을 참조하세요.
+[[!DNL Adobe Experience Platform] 세그먼테이션 서비스](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ko){target="_blank"}를 사용하여 대상을 만드는 경우 여정 조건에서 이를 활용할 수 있습니다. [조건에서 대상 사용](../building-journeys/condition-activity.md#using-a-segment)을 참조하세요. Journey Optimizer에서 대상자를 생성하고 타깃팅하는 방법에 대한 자세한 내용은 [이 섹션](../audience/about-audiences.md)을 참조하세요.
 
 
 >[!NOTE]
@@ -188,4 +190,4 @@ ht-degree: 16%
 
    >[!NOTE]
    >
-   >대상자 참여 상태가 **실현됨**&#x200B;인 개인만 대상자의 구성원으로 간주됩니다. 대상자를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ko#interpret-segment-results){target="_blank"}를 참조하세요.
+   >대상자 참여 상태가 **실현됨**&#x200B;인 개인만 대상자의 구성원으로 간주됩니다. 대상자를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}를 참조하세요.

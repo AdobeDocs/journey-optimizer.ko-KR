@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 대기, 활동, 여정, 다음, 캔버스
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 version: Journey Orchestration
-source-git-commit: c30a74ccdaec81cbbb28e3129d5c351a0fe64bfc
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '906'
 ht-degree: 12%
 
 ---
@@ -38,6 +38,8 @@ ht-degree: 12%
 
 ## 추천 {#wait-recommendations}
 
+이러한 권장 사항을 사용하여 기다림을 예측 가능하고 안전하게 유지합니다.
+
 ### 여러 대기 활동 {#multiple-wait-activities}
 
 여정에서 여러 **대기** 활동을 사용하는 경우 여정의 [전역 시간 초과](journey-properties.md#global_timeout)가 91일이므로 프로필이 입력한 후 항상 최대 91일 후에 여정에서 삭제됩니다. [이 페이지](journey-properties.md#global_timeout)에서 자세히 알아보십시오.
@@ -57,6 +59,8 @@ ht-degree: 12%
 [푸시 알림](../in-app/create-in-app.md)을 보낸 직후 [인앱 메시지](../../rp_landing_pages/push-landing-page.md)를 표시하려면 **대기** 활동을 사용하여 인앱 메시지 페이로드 시간을 전파하도록 허용하십시오. 일반적으로 5~15분 정도 기다리는 것이 좋지만 정확한 시간은 페이로드 복잡성과 개인화 요구 사항에 따라 달라질 수 있습니다.
 
 ## 구성 {#wait-configuration}
+
+여기에서 대기 기간 및 시간을 구성합니다.
 
 ### 기간 대기 {#duration}
 

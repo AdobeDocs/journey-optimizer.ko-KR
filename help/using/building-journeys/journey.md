@@ -2,24 +2,24 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 여정 시작
-description: 여정 시작 - Adobe Journey Optimizer에서 개인화된 고객 경험을 만들기 위한 여정의 유형, 워크플로, 기능, 모범 사례에 대해 알아봅니다
+description: 여정 시작 -  [!DNL Adobe Journey Optimizer]에서 개인화된 고객 경험을 만들기 위한 여정 유형, 워크플로, 기능 및 모범 사례에 대해 알아봅니다.
 feature: Journeys, Get Started, Overview
 role: User
 level: Beginner, Intermediate
 keywords: 여정, 검색, 시작, 단일, 대상자 읽기, 대상자 선별, 비즈니스 이벤트, 실시간, 예약, 배치, 이벤트 트리거, 워크플로, 오케스트레이션, 개인화, 멀티채널
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: 522dba0516268a17e72f56c0f28205ba60709d78
-workflow-type: ht
-source-wordcount: '1448'
-ht-degree: 100%
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+workflow-type: tm+mt
+source-wordcount: '1439'
+ht-degree: 93%
 
 ---
 
 
 # 여정 시작{#jo-general-principle}
 
-Adobe Journey Optimizer를 사용하면 대상자의 행동 및 요구에 실시간으로 적응하는 여러 단계의 개인화된 고객 여정을 만들 수 있습니다. 직관적인 드래그 앤 드롭 캔버스를 사용하여 여러 채널에서 메시지와 액션을 오케스트레이션하고, 상황별 데이터와 대상자 타기팅을 활용하여 최대의 효과를 얻을 수 있습니다.
+[!DNL Adobe Journey Optimizer]은(는) 대상자의 행동과 필요에 맞게 실시간으로 조정되는 개인화된 여러 단계로 구성된 고객 여정을 만들 수 있도록 해 줍니다. 직관적인 드래그 앤 드롭 캔버스를 사용하여 여러 채널에서 메시지와 액션을 오케스트레이션하고, 상황별 데이터와 대상자 타기팅을 활용하여 최대의 효과를 얻을 수 있습니다.
 
 이 안내서에서는 여정의 기본을 이해하고 사용 사례에 적합한 여정 유형을 선택하며 의미 있고 시의적절한 고객 경험을 제공하는 여정을 자신 있게 설계하는 데 도움이 되는 명확한 로드맵을 제공합니다.
 
@@ -39,7 +39,7 @@ Adobe Journey Optimizer를 사용하면 대상자의 행동 및 요구에 실시
 
 ### 여정과 캠페인: 각 접근 방식을 사용해야 하는 경우 {#journeys-vs-campaigns-intro}
 
-Adobe Journey Optimizer는 고객에게 도달하기 위한 세 가지 접근 방식을 제공합니다. 바로 **여정**(1:1 실시간 오케스트레이션), **캠페인**(단순 배치 또는 API 트리거 게재), **오케스트레이션된 캠페인**(다중 엔터티 데이터가 있는 배치 캔버스 워크플로)입니다.
+[!DNL Adobe Journey Optimizer]은(는) 고객에게 도달하기 위한 세 가지 접근 방식을 제공합니다. **여정**(1:1 실시간 오케스트레이션), **캠페인**(단순 일괄 처리 또는 API 트리거 게재) 및 **오케스트레이션된 캠페인**(다중 엔터티 데이터가 있는 일괄 처리 캔버스 워크플로).
 
 **빠른 결정:**
 
@@ -52,7 +52,7 @@ Adobe Journey Optimizer는 고객에게 도달하기 위한 세 가지 접근 �
 
 ## 여정 유형 선택 {#journey-types}
 
-Adobe Journey Optimizer는 서로 다른 진입 메커니즘 및 비즈니스 시나리오에 맞추어 디자인된 4가지 여정 유형을 지원합니다.
+[!DNL Adobe Journey Optimizer]은(는) 각기 다른 시작 메커니즘과 비즈니스 시나리오에 맞게 디자인된 네 가지 여정 형식을 지원합니다.
 
 * **단일 여정**: 이벤트에 의해 트리거되는 실시간 경험(주문 확인, 환영 이메일)
 * **대상자 읽기 여정**: 대상자 세그먼트에 예약된 배치 커뮤니케이션 전송(뉴스레터, 프로모션 캠페인)
@@ -73,7 +73,7 @@ Adobe Journey Optimizer는 서로 다른 진입 메커니즘 및 비즈니스 �
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **진입점 정의**
 
@@ -83,7 +83,7 @@ Adobe Journey Optimizer는 서로 다른 진입 메커니즘 및 비즈니스 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **메시지 보내기**
 
@@ -93,7 +93,7 @@ Adobe Journey Optimizer는 서로 다른 진입 메커니즘 및 비즈니스 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **논리 및 조건 추가**
 
@@ -103,17 +103,17 @@ Adobe Journey Optimizer는 서로 다른 진입 메커니즘 및 비즈니스 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **데이터 활용**
 
-이벤트, Adobe Experience Platform 또는 서드파티 API 서비스의 컨텍스트 데이터를 사용합니다.
+이벤트, [!DNL Adobe Experience Platform] 또는 타사 API 서비스의 컨텍스트 데이터를 사용합니다.
 
 [데이터 소스 작업](../datasource/about-data-sources.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **외부 시스템 연결**
 
@@ -123,7 +123,7 @@ Adobe Journey Optimizer는 서로 다른 진입 메커니즘 및 비즈니스 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **오케스트레이션 활동 추가**
 
@@ -214,7 +214,7 @@ Adobe Journey Optimizer는 서로 다른 진입 메커니즘 및 비즈니스 �
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **신규 구독자 환영**
 
@@ -224,7 +224,7 @@ Adobe Journey Optimizer는 서로 다른 진입 메커니즘 및 비즈니스 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **전송 시간 최적화**
 
@@ -234,7 +234,7 @@ AI를 사용하여 각 고객이 참여할 가능성이 가장 높은 시점에 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **점진적 게재 늘리기**
 
@@ -244,7 +244,7 @@ AI를 사용하여 각 고객이 참여할 가능성이 가장 높은 시점에 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **요일별 타기팅**
 
@@ -254,7 +254,7 @@ AI를 사용하여 각 고객이 참여할 가능성이 가장 높은 시점에 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **멀티채널 캠페인**
 
@@ -264,13 +264,13 @@ AI를 사용하여 각 고객이 참여할 가능성이 가장 높은 시점에 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **모든 사용 사례**
 
 단계별 구현을 설명한 여정 사용 사례의 전체 라이브러리를 살펴봅니다.
 
-[모두 찾아보기 →](jo-use-cases.md) | [사용 사례 라이브러리 →](/help/rp_landing_pages/journey-use-cases-landing-page.md)
+[모두 찾아보기 →](jo-use-cases.md) | [사용 사례 라이브러리 →](../../rp_landing_pages/journey-use-cases-landing-page.md)
 :::
 
 ::::
@@ -282,17 +282,17 @@ AI를 사용하여 각 고객이 참여할 가능성이 가장 높은 시점에 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **고급 표현식**
 
 데이터 조작 및 복잡한 논리를 위해 표현식 편집기를 사용하여 동적 조건 및 개인화를 작성합니다.
 
-[표현식에 대해 알아보기](/help/rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
+[표현식에 대해 알아보기](../../rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **표준 시간대 관리**
 
@@ -302,7 +302,7 @@ AI를 사용하여 각 고객이 참여할 가능성이 가장 높은 시점에 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **테스트 모드 및 시험 실행**
 
@@ -312,7 +312,7 @@ AI를 사용하여 각 고객이 참여할 가능성이 가장 높은 시점에 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **샌드박스에 복사**
 
@@ -322,7 +322,7 @@ AI를 사용하여 각 고객이 참여할 가능성이 가장 높은 시점에 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **태그 및 구성**
 
@@ -332,7 +332,7 @@ AI를 사용하여 각 고객이 참여할 가능성이 가장 높은 시점에 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **처리량 제어**
 
@@ -343,13 +343,13 @@ AI를 사용하여 각 고객이 참여할 가능성이 가장 높은 시점에 
 
 ::::
 
-[모든 여정 기능 보기 →](/help/rp_landing_pages/manage-journey-landing-page.md)
+[모든 여정 기능 보기 →](../../rp_landing_pages/manage-journey-landing-page.md)
 
 ## 시청하여 알아보기 {#video}
 
 여정의 구성 요소를 시각적으로 살펴보고 캔버스에서 여정을 작성할 때의 기본을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430355?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ➡️ **더 많은 비디오를 시청하고 싶으신가요?** [여정 비디오 튜토리얼 살펴보기](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 
@@ -357,7 +357,7 @@ AI를 사용하여 각 고객이 참여할 가능성이 가장 높은 시점에 
 
 +++ 여정과 캠페인의 차이는 무엇인가요?
 
-Adobe Journey Optimizer에서는 다음 세 가지 접근 방식을 제공합니다.
+[!DNL Adobe Journey Optimizer]에서는 다음 세 가지 방법을 제공합니다.
 
 * **여정**: 각 프로필이 원하는 속도로 단계를 진행하는 1:1 캔버스입니다. 조건부 논리(예: 온보딩, 장바구니 포기)를 사용하는 행동 기반의 여러 단계 경험에 가장 적합합니다.
 
@@ -390,11 +390,13 @@ Use the [decision guide](#decision-guide) or [comparison table](#journey-types-c
 
 ## 도움이 필요하신가요? {#help}
 
+이 링크를 사용하여 지침, 문제 해결 및 리소스를 찾을 수 있습니다.
+
 ### 일반적인 작업에 대한 빠른 링크
 
 * **[첫 번째 여정 만들기](journey-gs.md)** - 초보자용 단계별 안내서
 * **[여정 FAQ](journey-faq.md)** - 일반적인 질문에 대한 답변
-* **[문제 해결](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)** - 문제 진단 및 해결
+* **[문제 해결](../../rp_landing_pages/troubleshoot-journey-landing-page.md)** - 문제 진단 및 해결
 * **[오류 코드 참조](error-codes-reference.md)** - 오류 메시지 이해
 * **[가드레일 및 제한 사항](../start/guardrails.md)** - 기술적 경계 및 모범 사례
 
@@ -404,8 +406,8 @@ Use the [decision guide](#decision-guide) or [comparison table](#journey-types-c
 
 ### 추가 리소스
 
-* **[여정 관리 허브](/help/rp_landing_pages/manage-journey-landing-page.md)** - 필터링, 최적화, 프로필 관리를 위한 도구
-* **[여정 활동 참조](/help/rp_landing_pages/about-journey-building-landing-page.md)** - 모든 활동 유형에 대한 전체 안내서
+* **[여정 관리 허브](../../rp_landing_pages/manage-journey-landing-page.md)** - 필터링, 최적화, 프로필 관리를 위한 도구
+* **[여정 활동 참조](../../rp_landing_pages/about-journey-building-landing-page.md)** - 모든 활동 유형에 대한 전체 안내서
 * **[실행 문제 해결](troubleshooting-execution.md)** - 여정 실행 문제 디버그
 * **[인바운드 활동 문제 해결](troubleshooting-inbound.md)** - 진입 및 선별 문제 해결
 

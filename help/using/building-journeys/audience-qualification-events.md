@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 자격, 이벤트, 대상, 여정, 플랫폼
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
-source-git-commit: acf73fbce4a8ebfc6f228c92480a5e597e0bfe53
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1598'
-ht-degree: 6%
+source-wordcount: '1487'
+ht-degree: 3%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
 >title="대상자 선별 이벤트"
->abstract="이 활동으로 Adobe Experience Platform 대상자에 프로필이 포함, 제외되는지 확인하여 개인 사용자가 여정에 진입하거나 여정을 진행할 수 있도록 합니다."
+>abstract="이 활동은 [!DNL Adobe Experience Platform] 대상자의 프로필 출입과 출구를 수신하여 여정을 통해 개인을 이동합니다."
 
 ## 대상자 선별 이벤트 정보{#about-segment-qualification}
 
-이 활동을 통해 여정은 Adobe Experience Platform 대상의 프로필 출입구에서 수신 대기함으로써 개인이 여정에 들어오거나 앞으로 이동하도록 할 수 있습니다. 대상자 만들기에 대한 자세한 내용은 이 [섹션](../audience/about-audiences.md)을 참조하세요.
+이 활동은 [!DNL Adobe Experience Platform]개 대상의 프로필 시작 및 종료를 수신합니다. 그것은 개인들로 하여금 여정에 들어가거나 앞으로 나아가게 할 수 있다. 대상자 만들기에 대한 자세한 내용은 이 [섹션](../audience/about-audiences.md)을 참조하세요.
 
 “실버 고객”이라는 대상자가 있다고 가정해 보겠습니다. 이 활동을 사용하면 모든 신규 실버 고객이 여정을 입력하고 일련의 개인화된 메시지를 보내도록 할 수 있습니다.
 
@@ -68,13 +68,15 @@ ht-degree: 6%
 
    >[!NOTE]
    >
-   >**[!UICONTROL Enter]** 및 **[!UICONTROL Exit]**&#x200B;은(는) Adobe Experience Platform의 **실현됨** 및 **종료됨** 대상자 참여 상태에 해당합니다. 대상자를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ko#interpret-segment-results){target="_blank"}를 참조하세요.
+   >**[!UICONTROL Enter]** 및 **[!UICONTROL Exit]**&#x200B;은(는) **의**&#x200B;실현됨&#x200B;**및**&#x200B;종료됨[!DNL Adobe Experience Platform] 대상자 참여 상태에 해당합니다.
+   >[세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}를 참조하세요.
 
 1. 네임스페이스를 선택합니다. 이는 이벤트가 여정의 첫 번째 단계로 배치되는 경우에만 필요합니다. 기본적으로 필드는 마지막으로 사용된 네임스페이스로 미리 채워집니다.
 
    >[!NOTE]
    >
-   >사용자 기반 ID 네임스페이스만 선택할 수 있습니다. 조회 테이블에 대한 네임스페이스를 정의한 경우(예: 제품 조회에 대한 ProductID 네임스페이스) **네임스페이스** 드롭다운 목록에서 사용할 수 없습니다.
+   >사용자 기반 ID 네임스페이스만 선택할 수 있습니다.
+   >조회 테이블 네임스페이스(예: 제품 조회의 ProductID)는 **네임스페이스** 드롭다운 목록에서 사용할 수 없습니다.
 
    ![대상 자격 ID에 대한 네임스페이스 선택](assets/segment7.png)
 
@@ -88,31 +90,31 @@ ht-degree: 6%
 
 [조건 활동](../building-journeys/condition-activity.md#about_condition)을 참조하세요.
 
-**대상 자격** 이벤트를 포함하는 새 여정은 게시한 후 10분 후에 작동합니다. 이 시간 간격은 전용 서비스의 캐시 새로 고침 간격에 해당합니다. 따라서 이 여정을 사용하기 전에 10분 정도 기다려야 합니다.
+**대상 자격** 이벤트를 포함하는 새 여정은 게시한 후 10분 후에 작동합니다. 이 간격은 전용 서비스의 캐시 새로 고침 간격과 일치합니다. 이 여정을 사용하기 전에 10분 정도 기다리십시오.
 
 ## 모범 사례 {#best-practices-segments}
 
-**[!UICONTROL 대상 자격]** 활동을 통해 Adobe Experience Platform 대상에서 자격을 얻거나 자격을 박탈당한 개인 여정을 즉시 시작할 수 있습니다.
+**[!UICONTROL 대상 자격]** 활동을 통해 [!DNL Adobe Experience Platform] 대상에서 자격이 있거나 자격을 박탈당한 개인의 여정을 즉시 시작할 수 있습니다.
 
-이 정보는 수신 속도가 빠르다. 측정 결과 초당 수신된 10,000개의 이벤트 속도가 측정되었습니다. 그 결과, 출입구 정점이 어떻게 발생할 수 있는지, 어떻게 방지해야 하는지, 여정을 준비해야 하는지 이해해야 합니다. [이 섹션](entry-management.md#journey-processing-rate)에서 여정 처리 속도 및 처리량 제한에 대해 자세히 알아보십시오.
+이 정보는 수신 속도가 빠르다. 초당 10,000건의 이벤트가 수신된 것으로 측정됩니다. 진입 스파이크에 대한 계획을 세우고, 가능한 경우 피하고, 이를 처리할 여정을 준비하십시오. [이 섹션](entry-management.md#journey-processing-rate)에서 여정 처리 속도 및 처리량 제한에 대해 자세히 알아보십시오.
 
 ### 대상자 일괄 처리 {#batch-speed-segment-qualification}
 
-일괄 처리 대상에 대해 대상 자격을 사용할 때 일일 계산 시 가장 많이 발생합니다. 피크의 크기는 매일 관객에게 입장(또는 퇴장)하는 개인의 수에 따라 달라진다.
+일괄 처리 대상에 대해 대상 자격을 사용할 때 일일 계산 시 가장 많이 발생합니다. 봉우리의 크기는 얼마나 많은 개인이 매일 관객을 출입하느냐에 따라 달라진다.
 
-또한 배치 대상이 새로 만들어져 여정에서 즉시 사용되는 경우 첫 번째 계산 배치로 인해 매우 많은 수의 개인이 여정에 들어갈 수 있습니다.
+또한 배치 대상이 새로 생성되어 여정에서 즉시 사용되는 경우 첫 번째 계산 배치로 인해 많은 항목이 생성될 수 있습니다. 이 스파이크에 대한 계획을 수립합니다.
 
 ### 스트리밍된 대상자 {#streamed-speed-segment-qualification}
 
-스트리밍된 대상자에 대해 대상 자격을 사용할 경우, 대상자에 대한 지속적인 평가로 인해 큰 정점의 출입이 발생할 위험이 적다. 그러나 대상 정의를 통해 동시에 자격을 부여하는 고객이 대량으로 발생하는 경우에는 여전히 정점이 발생할 수 있습니다.
+스트리밍된 대상자에게 대상 자격을 사용할 때 평가가 연속적이기 때문에 큰 출입정점의 위험이 적다. 대상 정의가 한 번에 많은 고객을 정규화하면 여전히 최고점이 발생할 수 있습니다.
 
-스트리밍 세분화를 통해 열기 및 보내기 이벤트를 사용하지 마십시오. 대신 클릭, 구매 또는 비콘 데이터와 같은 실제 사용자 활동 신호를 사용합니다. 빈도 또는 제외 논리의 경우 이벤트를 보내는 대신 비즈니스 규칙을 사용합니다. [자세히 알아보기](../audience/about-audiences.md)
+스트리밍 세분화를 통해 열기 및 보내기 이벤트를 사용하지 마십시오. 대신 클릭, 구매 또는 비콘 데이터와 같은 실제 사용자 활동 신호를 사용합니다. 빈도 또는 제외 논리의 경우 이벤트 보내기 대신 비즈니스 규칙을 사용하십시오. [자세히 알아보기](../audience/about-audiences.md)
 
-스트리밍 세분화에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}를 참조하세요.
+[[!DNL Adobe Experience Platform] 스트리밍 세분화 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}를 참조하세요.
 
 >[!NOTE]
 >
->스트리밍 세분화의 경우 새로 수집된 데이터는 Adobe Experience Platform 내에서 실시간으로 완전히 전파되는 데 최대 **2시간**&#x200B;이 걸릴 수 있습니다. 일 기반 또는 시간 기반 조건(예: &quot;오늘 발생한 이벤트&quot;)에 의존하는 대상은 자격 타이밍이 더욱 복잡해질 수 있습니다. 여정이 즉각적인 대상 자격을 사용하는 경우 초기에 짧은 [대기 활동](wait-activity.md)을 추가하거나 정확한 자격을 위해 버퍼 시간을 허용하는 것이 좋습니다.
+>스트리밍 세분화의 경우 새로 수집된 데이터가 **내에 완전히 전파되어 실시간으로 사용되는 데 최대** 2시간[!DNL Adobe Experience Platform]이 걸릴 수 있습니다. 일 기반 또는 시간 기반 조건(예: &quot;오늘 발생한 이벤트&quot;)에 의존하는 대상은 자격 타이밍이 더욱 복잡해질 수 있습니다. 여정이 즉각적인 대상 자격을 사용하는 경우 초기에 짧은 [대기 활동](wait-activity.md)을 추가하는 것이 좋습니다. 정확한 검증을 위해 버퍼 시간을 허용할 수도 있습니다.
 
 #### 자격을 갖춘 모든 프로필이 여정에 들어가지 않는 이유는 무엇입니까? {#streaming-entry-caveats}
 
@@ -124,13 +126,13 @@ ht-degree: 6%
 
 * **대상자의 빠른 종료**: 프로필이 대상자에 적합하지만 여정 항목이 트리거되기 전에 종료되면 해당 프로필이 여정에 들어가지 않을 수 있습니다.
 
-* **자격과 여정 처리 사이의 타이밍**: Adobe Experience Platform의 분산된 특성으로 인해 프로필이 대상 자격을 얻는 시기와 여정이 해당 자격 이벤트를 처리하는 시기 사이에 시간 차이가 있을 수 있습니다.
+* **자격 검사와 여정 처리 사이의 시간**: [!DNL Adobe Experience Platform]의 분산 특성으로 인해 시간 차이가 있을 수 있습니다. 여정이 자격 이벤트를 처리하기 전에 프로필을 자격을 부여할 수 있습니다.
 
 **권장 사항:**
 
 * 여정을 게시한 후 프로필 자격을 트리거할 이벤트 또는 데이터를 보내기 전에 적어도 10분 정도 기다리십시오. 이렇게 하면 여정이 완전히 활성화되고 항목을 처리할 준비가 된 것입니다.
 
-* 모든 자격을 갖춘 프로필이 들어가도록 해야 하는 중요한 사용 사례의 경우, 대신 특정 시간에 대상의 모든 프로필을 처리하는 [대상 읽기](read-audience.md) 활동을 사용하는 것이 좋습니다.
+* 자격 있는 모든 프로필이 들어가도록 해야 하는 중요한 사용 사례의 경우 대신 [대상 읽기](read-audience.md) 활동을 사용하는 것이 좋습니다. 특정 시간에 대상의 모든 프로필을 처리합니다.
 
 * 여정 흐름 패턴을 이해하려면 프로필의 [진입률 및 처리량을 모니터링](entry-management.md#profile-entrance-rate)하십시오.
 
@@ -142,9 +144,9 @@ ht-degree: 6%
 
 * **[!UICONTROL 대상 자격]** 활동에서 일괄 처리 대상을 만든 후 바로 사용하지 마십시오. 이렇게 하면 첫 번째 계산 피크가 나타나지 않습니다. 계산된 적이 없는 대상을 사용하려는 경우 여정 캔버스에 노란색 경고가 표시됩니다.
 
-  ![Adobe Experience Platform에서 대상을 찾을 수 없는 경우 오류 메시지](assets/segment-error.png)
+  ![에서 대상을 찾을 수 없을 때 [!DNL Adobe Experience Platform]](assets/segment-error.png)오류 메시지
 
-* 여정에서 사용되는 데이터 소스 및 작업에 대한 최대 가용량 규칙을 적용하여 오버로드를 방지합니다. 자세한 내용은 [Journey Orchestration 설명서](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=ko){target="_blank"}를 참조하세요. 최대 가용량 규칙에는 재시도가 없습니다. 다시 시도해야 하는 경우 **[!UICONTROL 조건 또는 작업에서 시간 초과 또는 오류 발생 시 대체 경로를 추가]** 상자를 선택하여 여정에서 대체 경로를 사용하십시오.
+* 여정에서 사용되는 데이터 소스 및 작업에 대한 최대 가용량 규칙을 적용하여 오버로드를 방지합니다. 자세한 내용은 [Journey Orchestration 설명서](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}를 참조하세요. 최대 가용량 규칙에는 재시도가 없습니다. 다시 시도해야 하는 경우 **[!UICONTROL 조건 또는 작업에서 시간 초과 또는 오류 발생 시 대체 경로를 추가]** 상자를 선택하여 여정에서 대체 경로를 사용하십시오.
 
 * 프로덕션 여정에서 대상을 사용하기 전에 매일 이 대상에 대해 자격이 있는 개인의 양을 평가하십시오. 이렇게 하려면 **[!UICONTROL 대상자]** 메뉴를 확인하고 대상자를 연 다음 **[!UICONTROL 시간 경과에 따른 프로필]** 그래프를 보십시오.
 
@@ -161,10 +163,10 @@ ht-degree: 6%
 
   그러나 스트리밍 대상 또는 대상 자격 여정에 일괄 처리 수집 기반 속성을 사용하려면 대상 평가/활성화에 대한 시간 범위를 고려하십시오. 일괄 수집된 특성을 사용하는 일괄 처리 대상자 또는 스트리밍 대상자는 세분화 작업이 완료된 후 약 **2시간**&#x200B;후에 **대상자 자격** 활동에서 사용할 수 있습니다. 이 작업은 Adobe 조직 관리자가 정의한 시간에 매일 한 번 실행됩니다.
 
-* Adobe Experience Platform 대상은 하루에 한 번(**일괄 처리**&#x200B;개 대상) 또는 실시간으로 계산됩니다(**스트리밍됨**&#x200B;개 대상의 경우 Adobe Experience Platform의 고주파 대상 옵션을 사용).
+* [!DNL Adobe Experience Platform]개의 대상은 하루에 한 번(**일괄 처리**&#x200B;개 대상) 또는 실시간으로 계산됩니다(**스트리밍됨**&#x200B;개 대상의 경우 [!DNL Adobe Experience Platform]의 [빈도가 높은 대상] 옵션을 사용).
 
    * 선택한 대상자가 스트리밍되는 경우 이 대상자에 속하는 개인은 잠재적으로 실시간으로 여정에 입장할 수 있습니다.
-   * 대상이 일괄 처리인 경우 Adobe Experience Platform에서 대상 계산이 실행될 때 이 대상에 대해 새로 자격을 얻은 사람이 여정에 들어올 수 있습니다.
+   * 대상이 일괄 처리인 경우 대상 계산이 [!DNL Adobe Experience Platform]에서 실행될 때 이 대상에 대해 새로 자격을 부여받은 사람이 여정에 들어갈 가능성이 있습니다.
 
   가장 좋은 방법은 **대상 자격** 활동에서 스트리밍 대상을 사용하는 것입니다. 일괄 사용 사례의 경우 **[대상자 읽기](read-audience.md)** 활동을 사용하십시오.
 
@@ -180,7 +182,7 @@ ht-degree: 6%
 
 >[!CAUTION]
 >
->[실시간 고객 프로필 데이터 및 세분화에 대한 가드레일](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ko){target="_blank"}이 Adobe Journey Optimizer에도 적용됩니다.
+>[실시간 고객 프로필 데이터 및 세분화에 대한 보호 기능](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ko){target="_blank"}이 [!DNL Adobe Journey Optimizer]에도 적용됩니다.
 
 
 
@@ -188,4 +190,4 @@ ht-degree: 6%
 
 이 비디오에서 대상 자격 여정에 적용할 수 있는 사용 사례를 이해합니다. 대상 검증을 사용하여 여정을 구축하는 방법 및 적용할 모범 사례를 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446211?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)

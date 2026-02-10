@@ -10,16 +10,16 @@ level: Intermediate, Experienced
 keywords: 여정, 메시지, 캠페인, 통합
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '470'
 ht-degree: 1%
 
 ---
 
 # Campaign v7/v8에서 메시지 보내기 {#campaign-v7-v8-use-case}
 
-이 사용 사례에서는 Adobe Campaign v7 및 Adobe Campaign v8과의 통합을 사용하여 이메일을 보내는 데 필요한 모든 단계를 설명합니다.
+이 사용 사례에서는 [!DNL Adobe Campaign] v7 및 [!DNL Adobe Campaign] v8과의 통합을 사용하여 전자 메일을 보내는 데 필요한 모든 단계를 설명합니다.
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ Campaign 통합에 대한 자세한 내용은 다음 페이지를 참조하십�
 * [Campaign 작업 만들기](../action/acc-action.md)
 * [여정에서 작업 사용](../building-journeys/using-adobe-campaign-v7-v8.md).
 
-**Adobe Campaign**
+**[!DNL Adobe Campaign]**
 
 이 통합을 위해 Campaign 인스턴스를 프로비저닝해야 합니다. 트랜잭션 메시지 기능을 구성해야 합니다.
 
@@ -40,7 +40,7 @@ Campaign 통합에 대한 자세한 내용은 다음 페이지를 참조하십�
 
 1. **관리** > **플랫폼** > **열거형**&#x200B;에서 **이벤트 유형**(eventType) 열거형을 선택합니다. 새 이벤트 유형(&quot;이 예제의 경우 &quot;여정-이벤트&quot;)을 만듭니다. 나중에 JSON 파일을 작성할 때 이벤트 유형의 내부 이름을 사용합니다.
 
-   ![스키마 및 필드 선택을 사용하여 Adobe Journey Optimizer에서 이벤트 구성](assets/accintegration-uc-1.png)
+   ![스키마 및 필드 선택을 사용하여 [!DNL Adobe Journey Optimizer]에서 이벤트 구성](assets/accintegration-uc-1.png)
 
 1. 생성을 적용하려면 인스턴스 연결을 끊고 다시 연결하십시오.
 
@@ -48,7 +48,7 @@ Campaign 통합에 대한 자세한 내용은 다음 페이지를 참조하십�
 
    ![네임스페이스 및 프로필 식별자 설정을 표시하는 이벤트 구성](assets/accintegration-uc-2.png)
 
-1. 템플릿 디자인 이 예에서는 개인화가 프로필의 이름과 주문 번호에 적용됩니다. 이름은 Adobe Experience Platform 데이터 소스에 있고 주문 번호는 Journey Optimizer 이벤트의 필드입니다. Campaign에서 올바른 필드 이름을 사용해야 합니다.
+1. 템플릿 디자인 이 예에서는 개인화가 프로필의 이름과 주문 번호에 적용됩니다. 이름은 [!DNL Adobe Experience Platform] 데이터 원본에 있으며 주문 번호는 Journey Optimizer 이벤트의 필드입니다. Campaign에서 올바른 필드 이름을 사용해야 합니다.
 
    ![프로필 및 이벤트 데이터가 있는 JSON 구조를 보여 주는 이벤트 페이로드 미리 보기](assets/accintegration-uc-3.png)
 
@@ -78,11 +78,11 @@ Campaign 통합에 대한 자세한 내용은 다음 페이지를 참조하십�
 
 1. 이벤트를 만듭니다. &quot;purchaseOrderNumber&quot; 필드를 포함합니다.
 
-   ![Adobe Campaign Classic 통합을 위한 사용자 지정 작업 구성 화면](assets/accintegration-uc-5.png)
+   ![ 클래식 통합에 대한 [!DNL Adobe Campaign]사용자 지정 작업 구성 화면](assets/accintegration-uc-5.png)
 
-1. Journey Optimizer에서 Campaign 템플릿에 해당하는 작업을 만듭니다. **작업 유형** 드롭다운에서 **Adobe Campaign Classic**&#x200B;을 선택합니다.
+1. Journey Optimizer에서 Campaign 템플릿에 해당하는 작업을 만듭니다. **작업 유형** 드롭다운에서 **[!DNL Adobe Campaign]클래식**&#x200B;을 선택합니다.
 
-   ![Adobe Campaign Classic 옵션을 표시하는 액션 유형 선택](assets/accintegration-uc-6.png)
+   ![기본 옵션 [!DNL Adobe Campaign]을(를) 표시하는 작업 유형 선택](assets/accintegration-uc-6.png)
 
 1. **페이로드 필드**&#x200B;를 클릭하고 이전에 만든 JSON을 붙여 넣습니다.
 
