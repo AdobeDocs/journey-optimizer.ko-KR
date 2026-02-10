@@ -9,11 +9,12 @@ role: Developer
 level: Intermediate
 keywords: 표현식, 편집기
 mini-toc-levels: 1
+badge: label="제한 공개" type="Informative"
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 41364a89289f0657a2b7646c5daa45a369936e57
+source-git-commit: c5fe9a17bc0ddcffb1af63bf040a9c84d995fdba
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 5%
+source-wordcount: '917'
+ht-degree: 6%
 
 ---
 
@@ -25,6 +26,10 @@ ht-degree: 5%
 >abstract="조회를 위해 데이터 세트를 활성화하면 Journey Optimizer 개인화, 의사 결정 및 여정 오케스트레이션 기능 내에서 해당 데이터를 활용할 수 있습니다."
 
 [!DNL Journey Optimizer]을(를) 사용하면 개인화, 의사 결정 및 여정 오케스트레이션 기능을 통해 [!DNL Adobe Experience Platform] 데이터의 데이터를 활용할 수 있습니다. 이렇게 하려면 조회 개인화에 필요한 레코드 기반 데이터 세트를 먼저 아래 설명된 대로 조회 서비스에 대해 활성화해야 합니다.
+
+>[!NOTE]
+>
+>데이터 조회 기능은 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오. [가용성 레이블](../rn/releases.md#availability-labels)에 대해 자세히 알아보세요.
 
 이 섹션에서 데이터 세트에 액세스하고 작업하는 방법에 대해 자세히 알아보세요. [데이터 세트 시작](../data/get-started-datasets.md)
 
@@ -124,7 +129,7 @@ ht-degree: 5%
 curl -s -XPATCH "https://platform.adobe.io/data/core/entity/lookup/dataSets/${DATASET_ID}/${ACTION}" \ -H "Authorization: Bearer ${ACCESS_TOKEN}" \ -H "x-api-key: ${API_KEY}" \ -H "x-gw-ims-org-id: ${IMS_ORG}" \ -H "x-sandbox-name: ${SANDBOX_NAME}" 
 ```
 
-위치:
+여기서
 
 * URL은 `https://platform.adobe.io/data/core/entity/lookup/dataSets/${DATASET_ID}/${ACTION}`입니다.
 * 데이터 세트 ID는 활성화하고자 하는 데이터 세트입니다.
