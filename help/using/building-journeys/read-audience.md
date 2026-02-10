@@ -54,11 +54,11 @@ ht-degree: 10%
 
 1. 활동에 **[!UICONTROL Label]**&#x200B;을(를) 추가합니다(선택 사항).
 
-1. **[!UICONTROL 대상]** 필드에서 여정을 입력할 [!DNL Adobe Experience Platform] 대상을 선택한 다음 **[!UICONTROL 저장]**&#x200B;을 클릭합니다. [!DNL Adobe Experience Platform]세그먼트 정의[를 사용하여 생성된 ](../audience/creating-a-segment-definition.md) 대상을 선택할 수 있습니다.
+1. **[!UICONTROL 대상]** 필드에서 여정을 입력할 [!DNL Adobe Experience Platform] 대상을 선택한 다음 **[!UICONTROL 저장]**&#x200B;을 클릭합니다. [!DNL Adobe Experience Platform]세그먼트 정의[를 사용하여 생성된 &#x200B;](../audience/creating-a-segment-definition.md) 대상을 선택할 수 있습니다.
 
    >[!NOTE]
    >
-   >또한 [!DNL Adobe Experience Platform]대상자 구성[을 사용하여 만든 ](../audience/get-started-audience-orchestration.md)대상자를 타깃팅할 수 있습니다.
+   >또한 [!DNL Adobe Experience Platform]대상자 구성[을 사용하여 만든 &#x200B;](../audience/get-started-audience-orchestration.md)대상자를 타깃팅할 수 있습니다.
    >[CSV 파일에서 업로드한 대상](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}을 타깃팅할 수도 있습니다.
    >[Journey Optimizer에서 대상자를 생성하고 타깃팅하는 방법에 대해 자세히 알아보세요](../audience/about-audiences.md).
 
@@ -301,7 +301,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 * **일괄 처리 세분화 작업 완료**: 일괄 처리 대상의 경우 여정 실행 전에 일일 일괄 처리 세분화 작업이 완료되었고 스냅숏이 업데이트되었는지 확인하십시오. 일괄 처리 대상자는 세분화 작업 완료 후 약 **2시간**&#x200B;에 사용할 준비가 됩니다. [대상 평가 방법](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#evaluate-segments){target="_blank"}에 대해 자세히 알아보세요.
 
-* **데이터 수집 타이밍**: 여정 실행 전에 프로필 데이터 수집이 완전히 완료되었는지 확인하십시오. 프로필이 여정 시작 직전에 수집된 경우 아직 대상자에 반영되지 않을 수 있습니다. [ [!DNL Adobe Experience Platform]의 ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ko){target="_blank"}데이터 수집에 대해 자세히 알아보세요.
+* **데이터 수집 타이밍**: 여정 실행 전에 프로필 데이터 수집이 완전히 완료되었는지 확인하십시오. 프로필이 여정 시작 직전에 수집된 경우 아직 대상자에 반영되지 않을 수 있습니다. [&#x200B; [!DNL Adobe Experience Platform]의 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ko){target="_blank"}데이터 수집에 대해 자세히 알아보세요.
 
 * **일괄 처리 대상 평가 후 트리거 옵션을 사용합니다**: 일괄 처리 대상을 사용하는 매일 예약된 여정의 경우 **[!UICONTROL 일괄 처리 대상 평가 후 트리거]** 옵션을 사용하도록 설정하는 것이 좋습니다. 이렇게 하면 여정이 실행되기 전에 새 대상 데이터(최대 6시간)를 대기합니다. [예약에 대해 자세히 알아보기](#schedule)
 
@@ -311,7 +311,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 * **세그먼테이션 작업 상태 확인**: [!DNL Adobe Experience Platform] [모니터링 대시보드](https://experienceleague.adobe.com/docs/experience-platform/dataflows/ui/monitor-segments.html){target="_blank"}에서 배치 세그먼테이션 작업 완료 시간을 모니터링합니다. 대상 데이터가 준비되면 이를 사용하여 확인합니다.
 
-* **병합 정책 확인**: 대상자에 대해 구성된 병합 정책이 다른 소스의 프로필 데이터를 조합하는 데 필요한 동작과 일치하는지 확인하십시오. [ [!DNL Adobe Experience Platform]의 ](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html){target="_blank"}병합 정책에 대해 자세히 알아보세요.
+* **병합 정책 확인**: 대상자에 대해 구성된 병합 정책이 다른 소스의 프로필 데이터를 조합하는 데 필요한 동작과 일치하는지 확인하십시오. [&#x200B; [!DNL Adobe Experience Platform]의 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html){target="_blank"}병합 정책에 대해 자세히 알아보세요.
 
 * **세그먼트 정의 검토**: 세그먼트 정의가 올바르게 구성되었는지 확인하고 모든 예상 자격 조건을 포함하십시오. [대상자 빌드](../audience/creating-a-segment-definition.md)에 대해 자세히 알아보세요. 다음 사항에 특별히 주의하십시오.
    * 이벤트 타임스탬프를 기반으로 프로필을 제외할 수 있는 시간 기반 조건
