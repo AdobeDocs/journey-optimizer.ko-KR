@@ -5,9 +5,10 @@ feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
-source-git-commit: d336684656c75af682a72b0acab071df15a79004
+exl-id: aedd7845-3d8d-457a-a7f3-03897846b241
+source-git-commit: 741b39a7588ae4e1161891226d95609508b00031
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1240'
 ht-degree: 2%
 
 ---
@@ -26,7 +27,7 @@ Decisioning은 기존 의사 결정 관리 프레임워크에 비해 상당한 �
 
 ### AI 및 머신 러닝 기능
 
-* **사용자 지정 지표**: AI 모델에 대해 사용자 지정 최적화 지표를 사용하는 기능. 이렇게 하면 [Customer Journey Analytics](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}과의 보고 상호 운용성을 제공하고 두 플랫폼 간의 보고를 표준화하고 데이터 일관성과 안정성을 향상시킬 수 있습니다. 매끄러운 통합을 통해 성능 지표를 보다 명확하게 볼 수 있으며 간단한 지표 작성, 대상 게시, Insight Builder를 사용한 임시 질문 및 보고서 예약과 같은 새로운 기능이 추가됩니다.
+* **사용자 지정 지표**: AI 모델에 대해 사용자 지정 최적화 지표를 사용하는 기능. 이렇게 하면 [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}과의 보고 상호 운용성을 제공하고 두 플랫폼 간의 보고를 표준화하고 데이터 일관성과 안정성을 향상시킬 수 있습니다. 매끄러운 통합을 통해 성능 지표를 보다 명확하게 볼 수 있으며 간단한 지표 작성, 대상 게시, Insight Builder를 사용한 임시 질문 및 보고서 예약과 같은 새로운 기능이 추가됩니다.
 
 * **상승도 측정**: AI 모델에서 탐색과 악용을 시각화하는 기능. 이를 통해 마케터와 데이터 과학자는 AI 탐사가 장기 모델 성능과 새로운 우수성의 검색 능력을 향상시키는 방법을 정량화할 수 있습니다. 트래픽 할당에 대한 투명성은 AI 의사 결정에 대한 신뢰를 구축하고 팀이 시간에 따른 학습과 성능 모두에 최적화할 수 있도록 권한을 부여합니다. [자세히 알아보기](ranking/auto-optimization-model.md#lift)
 
@@ -64,9 +65,9 @@ Decisioning은 기존 의사 결정 관리 프레임워크에 비해 상당한 �
 
 * **정책 적용**: 비즈니스 사용자가 Decisioning 내에서 [DULE(데이터 사용 레이블 및 적용)](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/labels/overview){target="_blank"} 및 [동의](../action/consent.md)와 같은 기능을 사용할 수 있는 권한을 부여하여 Decisioning 워크플로에서 개인 정보 보호 기능을 사용할 수 있습니다. 이를 통해 의사 결정이 데이터 사용 정책 및 고객 동의 환경 설정을 자동으로 준수하도록 할 수 있습니다.
 
-* **기본 메시징 채널 지원**: 여러 채널 간에 단일 프레임워크 내에서 통합 메시징 및 의사 결정([코드 기반 경험](../code-based/get-started-code-based.md) 및 [이메일](../email/get-started-email.md) 현재 사용 가능, 다른 채널은 2026년 1월에 제공). 직관적인 UI 지원을 통해 사용자는 메시지 작성 워크플로에서 직접 의사 결정 구성 요소를 삽입할 수 있습니다.
+* **기본 메시징 채널 지원**: 여러 채널 간에 단일 프레임워크 내에서 통합 메시징 및 의사 결정: [코드 기반 경험](../code-based/get-started-code-based.md), [이메일](../email/get-started-email.md)(제한된 가용성), [SMS](../sms/get-started-sms.md) 및 [푸시 알림](../push/get-started-push.md). 직관적인 UI 지원을 통해 사용자는 메시지 작성 워크플로에서 직접 의사 결정 구성 요소를 삽입할 수 있습니다.
 
-* **Experience Platform 데이터 세트 조회**: 오퍼 선택 규칙, 등급 및 개인화된 오퍼 콘텐츠 내에서 직접 [Adobe Experience Platform 데이터 세트](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/overview){target="_blank"}를 업로드하고 참조하는 기능. 이렇게 하면 의사 결정 로직에서 동적 외부 데이터 소스를 사용할 수 있으므로 개인화 및 타깃팅에 대한 유연성이 확장됩니다. [자세히 알아보기](../data/lookup-aep-data.md)
+* **Experience Platform 데이터 세트 조회**: 오퍼 선택 규칙, 등급 및 개인화된 오퍼 콘텐츠 내에서 직접 [Adobe Experience Platform 데이터 세트](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview){target="_blank"}를 업로드하고 참조하는 기능. 이렇게 하면 의사 결정 로직에서 동적 외부 데이터 소스를 사용할 수 있으므로 개인화 및 타깃팅에 대한 유연성이 확장됩니다. [자세히 알아보기](../data/lookup-aep-data.md)
 
 * **확장성 및 성능**: 의사 결정 계산을 허브에서 에지로 이동하여 대기 시간을 크게 줄이고 트래픽이 많은 사용 사례에 대한 처리량을 개선하는 아키텍처 개선 사항입니다.
 
@@ -102,4 +103,3 @@ Decisioning은 기존 의사 결정 관리 프레임워크에 비해 상당한 �
 * [의사 결정 시작](gs-experience-decisioning.md)
 * [보호 및 제한 사항 결정](decisioning-guardrails.md)
 * [의사 결정 FAQ](decisioning-faq.md)
-
