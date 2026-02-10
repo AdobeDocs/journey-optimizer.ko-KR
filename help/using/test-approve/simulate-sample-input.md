@@ -1,28 +1,28 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 콘텐츠 베리에이션 시뮬레이션
+title: 콘텐츠 변형 시뮬레이션
 description: CSV 또는 JSON 파일의 샘플 입력 데이터를 사용하거나 수동으로 추가하여 콘텐츠를 미리 보고 이메일 증명을 보내는 방법에 대해 알아봅니다.
 feature: Email, Email Rendering, Personalization, Preview, Proofs
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8462c75e-4f4b-4c4f-8734-19efbbc70c7a
-source-git-commit: de1a8f0136dad476b1bd0e2cb3468da9271e66d0
+source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '989'
 ht-degree: 4%
 
 ---
 
-# 콘텐츠 베리에이션 시뮬레이션 {#custom-profiles}
+# 콘텐츠 변형 시뮬레이션 {#custom-profiles}
 
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"
 >title="샘플 입력을 사용하여 시뮬레이션"
 >abstract="이 화면에서는 CSV 또는 JSON 템플릿을 통해 개인화 필드에 값을 제공하거나 수동으로 값을 입력하여 콘텐츠의 다양한 변형을 테스트할 수 있습니다."
 
-여정 최적기를 사용하면 CSV 또는 JSON 파일에서 업로드하거나 수동으로 추가한 샘플 입력 데이터를 사용하여 콘텐츠의 다양한 변형을 미리 볼 수 있습니다.
+[!DNL Journey Optimizer]을(를) 사용하면 CSV 또는 JSON 파일에서 업로드하거나 수동으로 추가한 샘플 입력 데이터를 사용하여 다양한 콘텐츠 변형을 미리 볼 수 있습니다.
 
 개인화를 위해 콘텐츠에 사용된 모든 속성은 시스템에서 자동으로 감지되며 테스트에 사용하여 여러 변형을 만들 수 있습니다. 변형은 속성에 대해 다른 값을 갖는 콘텐츠 버전을 나타냅니다.
 
@@ -49,7 +49,7 @@ ht-degree: 4%
 
 * **특성** - 프로필과 컨텍스트 특성이 모두 지원됩니다.
 
-* **데이터 형식** - 변형에 대한 데이터를 입력할 때 숫자(정수 및 십진수), 문자열, 부울 및 날짜 형식 등의 데이터 형식만 지원됩니다. 다른 데이터 유형에는 오류가 표시됩니다.
+* **데이터 형식** - 변형에 대한 데이터를 입력할 때 숫자(정수 및 십진수), 문자열, 부울 및 날짜 형식만 지원됩니다. 다른 데이터 유형에는 오류가 표시됩니다.
 
 * **변형 수** - 파일을 사용하거나 수동으로 콘텐츠를 테스트하는 최대 30개의 변형을 추가할 수 있습니다.
 
@@ -57,7 +57,7 @@ ht-degree: 4%
 
 콘텐츠의 변형을 만들고 미리 보려면 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭하고 **[!UICONTROL 콘텐츠 변형 시뮬레이션]**&#x200B;을 선택하십시오.
 
-![](assets/simulate-sample.png)
+![콘텐츠 변형 시뮬레이션 옵션](assets/simulate-sample.png)
 
 콘텐츠를 테스트하는 주요 단계는 다음과 같습니다.
 
@@ -71,7 +71,7 @@ ht-degree: 4%
 
 예를 들어 이메일에 두 개의 개인화 필드 &quot;도시&quot;와 &quot;프로그램 포인트 균형&quot;이 포함되어 있으면 목록에 표시됩니다. 처음에는 값을 입력하지 않으며 미리 보기 창에 개인화된 콘텐츠가 표시되지 않습니다.
 
-![](assets/simulate-custom-variants-list.png)
+![샘플 입력 변형 목록](assets/simulate-custom-variants-list.png)
 
 변형 값을 편집하려면 다음을 수행하십시오.
 
@@ -85,7 +85,7 @@ ht-degree: 4%
 1. 감지된 모든 개인화 필드를 포함하는 새로운 빈 변형이 나타납니다.
 1. 필요에 따라 새 변형을 편집합니다.
 
-![](assets/simulate-custom-add.png)
+![샘플 입력 단추 만들기](assets/simulate-custom-add.png)
 
 사전 정의된 변형과 값이 있는 파일을 업로드하여 프로세스 속도를 높일 수도 있습니다.
 
@@ -113,7 +113,7 @@ ht-degree: 4%
 1. 파일이 준비되면 **[!UICONTROL 입력 데이터 업로드]**&#x200B;를 클릭하여 로드합니다.
 1. 업로드한 후에는 파일의 각 항목에 대한 목록에 새 변형이 추가됩니다.
 
-   ![](assets/simulate-custom-variants.png)
+   ![업로드된 샘플 입력 변형](assets/simulate-custom-variants.png)
 
 변형이 추가되면 오른쪽 창에서 콘텐츠를 미리 보고 이메일 증명을 보낼 수 있습니다.
 
@@ -125,13 +125,13 @@ ht-degree: 4%
 
 | 변형 1 선택 | 변형 2 선택 |
 |----------|-------------|
-| ![](assets/simulate-custom-boxes.png) | ![](assets/simulate-custom-boxes2.png) |
+| ![변형 1 선택](assets/simulate-custom-boxes.png) | ![변형 2 선택](assets/simulate-custom-boxes2.png) |
 
 다국어 콘텐츠 및 실험의 경우 다양한 언어 변형 또는 처리 간을 전환하는 드롭다운을 사용할 수 있습니다.
 
-![](assets/simulate-custom-experiment.png)
+![언어 또는 처리 선택기](assets/simulate-custom-experiment.png)
 
-오른쪽 상단의 줄임표 버튼을 사용하고 **[!UICONTROL 제거]**&#x200B;를 선택하면 언제든지 변형을 제거할 수 있습니다. 변형에 대한 정보를 편집하려면 줄임표 버튼을 클릭하고 **[!UICONTROL 편집]**&#x200B;을 선택하세요.
+언제든지 오른쪽 상단의 줄임표 버튼을 사용하고 **[!UICONTROL 제거]**&#x200B;를 선택하여 변형을 제거할 수 있습니다. 변형에 대한 정보를 편집하려면 줄임표 버튼을 클릭하고 **[!UICONTROL 편집]**&#x200B;을 선택하세요.
 
 ### 교정쇄 보내기 {#proofs}
 
@@ -145,10 +145,10 @@ Journey Optimizer을 사용하면 시뮬레이션 화면에 추가한 하나 또
 
    변형에 대한 자세한 내용을 보려면 **[!UICONTROL 프로필 세부 정보 보기]** 링크를 선택하십시오. 이렇게 하면 다른 변형에 대해 이전 화면에 입력한 정보를 표시할 수 있습니다.
 
-   ![](assets/simulate-custom-proofs.png)
+   ![증명 수신자 및 변형 선택](assets/simulate-custom-proofs.png)
 
 1. 증명 전송을 시작하려면 **[!UICONTROL 증명 보내기]** 단추를 클릭하세요.
 
 1. 증명 전송을 추적하려면 콘텐츠 시뮬레이션 화면에서 **[!UICONTROL 증명 보기]** 단추를 클릭하십시오.
 
-![](assets/simulate-custom-sent-proofs.png)
+![보낸 증명 목록](assets/simulate-custom-sent-proofs.png)

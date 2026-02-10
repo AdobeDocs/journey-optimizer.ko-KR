@@ -11,9 +11,9 @@ badge: label="비공개 베타" type="Informative"
 hidefromtoc: true
 hide: true
 exl-id: 9b7fbd43-3d90-458b-8a2f-0bf0ac5437c3
-source-git-commit: 45ebae048a748429a1918326526f3756a3e93c4c
+source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '279'
 ht-degree: 2%
 
 ---
@@ -36,11 +36,11 @@ ht-degree: 2%
 
 1. 콘텐츠를 열고 **[!UICONTROL 콘텐츠 시뮬레이션]** / **[!UICONTROL 콘텐츠 변형 시뮬레이션]**&#x200B;을 선택합니다.
 
-   ![](assets/simulate-sample.png)
+   ![콘텐츠 변형 시뮬레이션 옵션](assets/simulate-sample.png)
 
 2. **[!UICONTROL 생성]** 단추를 클릭합니다.
 
-   ![](assets/simulate-generate-variant.png)
+   ![변형 생성 단추](assets/simulate-generate-variant.png)
 
 3. [!DNL Journey Optimizer]은(는) 검색된 특성을 기반으로 변형을 자동으로 생성합니다.
 

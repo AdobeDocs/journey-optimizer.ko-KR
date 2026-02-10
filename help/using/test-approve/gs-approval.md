@@ -5,10 +5,10 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: 92d1439e-5cac-4e7d-85f8-ebf432e9ef7c
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: ht
-source-wordcount: '625'
-ht-degree: 100%
+source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
+workflow-type: tm+mt
+source-wordcount: '637'
+ht-degree: 77%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## 승인 정책 시작 {#gs}
 
-Journey Optimizer에서는 승인 프로세스를 설정하여 마케팅 팀에서 캠페인 및 여정을 라이브로 전환하기 전에 적절한 이해 관계자의 검토 및 승인을 놓치지 않도록 할 수 있습니다.
+[!DNL Journey Optimizer]을(를) 사용하면 마케팅 팀이 캠페인과 여정을 실행하기 전에 적절한 관련자가 검토하고 승인하도록 하는 승인 프로세스를 설정할 수 있습니다.
 
 승인 정책은 사용자 인터페이스 내에 직접 구조화된 워크플로를 도입하여 이메일이나 작업 관리 도구와 같은 외부 매체가 필요하지 않게 하고 모든 승인을 중앙에서 관리하고 추적하도록 합니다.
 
@@ -26,9 +26,9 @@ Journey Optimizer에서는 승인 프로세스를 설정하여 마케팅 팀에�
 
 시작하기 전에 아래 권한이 구성되어 있는지 확인해야 합니다.
 
-여정 및 캠페인에 액세스하고 이를 승인 및 게시하려면 사용자에게 **캠페인 승인 및 게시** 및 **여정 승인 및 게시** 권한이 있어야 합니다. [자세히 알아보기](../administration/permissions.md)
+여정 및 캠페인을 승인하고 게시하려면 사용자에게 **캠페인 승인 및 게시** 및 **여정 승인 및 게시** 권한을 부여해야 합니다. [자세히 알아보기](../administration/permissions.md)
 
-+++  승인 관련 권한을 할당하는 방법 알아보기
++++  승인 관련 권한을 할당하는 방법을 알아봅니다
 
 1. **권한** 제품에서 **역할** 탭으로 이동하여 원하는 **역할**&#x200B;을 선택하십시오.
 
@@ -36,11 +36,11 @@ Journey Optimizer에서는 승인 프로세스를 설정하여 마케팅 팀에�
 
 1. **캠페인** 리소스를 추가한 다음 드롭다운 메뉴에서 **캠페인 승인 및 게시**&#x200B;를 선택합니다.
 
-   ![](assets/permissions_approval.png){zoomable="yes"}
+   ![승인 및 게시 캠페인 권한 할당](assets/permissions_approval.png){zoomable="yes"}
 
 1. **여정** 리소스를 추가한 다음 드롭다운 메뉴에서 **여정 승인 및 게시**&#x200B;를 선택합니다.
 
-   ![](assets/permissions_approval_2.png){zoomable="yes"}
+   ![승인 및 게시 여정 권한 할당](assets/permissions_approval_2.png){zoomable="yes"}
 
 1. 변경 내용을 적용하려면 **저장**&#x200B;을 클릭하십시오.
 
@@ -50,7 +50,7 @@ Journey Optimizer에서는 승인 프로세스를 설정하여 마케팅 팀에�
 
 1. 사용자 이름, 이메일 주소를 입력하거나 목록에서 선택한 다음 **저장**&#x200B;을 클릭합니다.
 
-1. 이전에 사용자를 생성하지 않은 경우 [이 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/abac/permissions-ui/users)를 참조하십시오.
+1. 사용자를 이전에 만들지 않은 경우 [이 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/abac/permissions-ui/users)를 참조하세요.
 
 사용자는 인스턴스에 액세스하기 위한 지침이 포함된 이메일을 받게 됩니다.
 
@@ -60,11 +60,11 @@ Journey Optimizer에서는 승인 프로세스를 설정하여 마케팅 팀에�
 
 전반적인 승인 프로세스는 다음과 같습니다.
 
-![](assets/approval-process.png){zoomable="yes"}
+![승인 프로세스 흐름](assets/approval-process.png){zoomable="yes"}
 
 1. **승인 정책 설정**
 
-   관리자는 여정 또는 캠페인에 정책을 적용해야 하는 조건을 정의하는 승인 정책을 만듭니다. 예를 들어, 특정 사용자가 만든 모든 예약된 캠페인을 활성화하기 전에 승인해야 한다는 승인 정책을 만들 수 있습니다. [승인 정책을 만드는 방법 알아보기](approval-policies.md)
+   관리자는 여정 또는 캠페인에 정책을 적용해야 하는 조건을 정의하는 승인 정책을 만듭니다. 예를 들어 활성화 전에 주어진 사용자가 만든 모든 예약된 캠페인을 승인해야 하는 승인 정책을 만들 수 있습니다. [승인 정책을 만드는 방법 알아보기](approval-policies.md)
 
 1. **승인을 위한 캠페인/여정 제출**
 
@@ -82,7 +82,7 @@ Journey Optimizer에서는 승인 프로세스를 설정하여 마케팅 팀에�
 
 주어진 여정 또는 캠페인에 대해 제출된 모든 승인 및 변경 요청을 모니터링할 수 있습니다. 이렇게 하려면 여정 캔버스 또는 캠페인 검토 화면의 오른쪽 위 섹션에 있는 **[!UICONTROL 감사 추적 표시]** 아이콘을 클릭합니다.
 
-![](assets/monitor-requests.png)
+![승인 요청 감사 추적](assets/monitor-requests.png)
 
 ## 추가 리소스
 
