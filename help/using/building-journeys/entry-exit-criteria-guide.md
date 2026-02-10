@@ -100,7 +100,7 @@ Customer Experience Orchestration에서 적절한 시간에 적절한 메시지�
 
 **여기에서 항목 기준에 대해 알아야 할 모든 것을 알아보세요.**
 
-* **[여정 기반 트리거](../event/about-events.md)**: &quot;프로필 만들기&quot;, &quot;트랜잭션 완료&quot; 또는 사용자 지정 이벤트와 같은 이벤트를 사용하여 이벤트를 시작합니다. [](../event/about-creating.md)관리&#x200B;**[!UICONTROL >]**&#x200B;이벤트&#x200B;**[!UICONTROL 에서 이벤트를 구성]**&#x200B;하고 [이벤트 스키마 및 필드를 정의](../event/experience-event-schema.md)합니다. 그런 다음 **[!UICONTROL 여정 디자이너]**&#x200B;의 [이벤트](using-the-journey-designer.md) 팔레트에서 이벤트를 추가합니다.
+* **[여정 기반 트리거](../event/about-events.md)**: &quot;프로필 만들기&quot;, &quot;트랜잭션 완료&quot; 또는 사용자 지정 이벤트와 같은 이벤트를 사용하여 이벤트를 시작합니다. [&#128279;](../event/about-creating.md)관리&#x200B;**[!UICONTROL >]**&#x200B;이벤트&#x200B;**[!UICONTROL 에서 이벤트를 구성]**&#x200B;하고 [이벤트 스키마 및 필드를 정의](../event/experience-event-schema.md)합니다. 그런 다음 **[!UICONTROL 여정 디자이너]**&#x200B;의 [이벤트](using-the-journey-designer.md) 팔레트에서 이벤트를 추가합니다.
 
 * **[대상 기반 항목](read-audience.md)**: 특정 대상에 속하는 프로필에 대한 여정을 일회성 배치로 또는 되풀이하는 일정으로 타깃팅합니다. [대상자 만들기](../audience/creating-a-segment-definition.md)(**[!UICONTROL 대상자]**) 메뉴에서 **[!UICONTROL 대상자 읽기]** 활동을 추가한 다음 [일정을 구성](journey-properties.md#schedule).
 

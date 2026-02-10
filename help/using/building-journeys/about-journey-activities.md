@@ -119,6 +119,6 @@ ht-degree: 15%
 
 여정을 테스트하고 게시하기 전에 모든 활동이 올바르게 구성되었는지 확인하십시오. 시스템에서 오류가 계속 감지되면 테스트나 게시를 수행할 수 없습니다.
 
-[ 여정의 활동 및 ](troubleshooting.md) 오류를 해결하는 방법에 대해 알아봅니다.
+[&#x200B; 여정의 활동 및 &#x200B;](troubleshooting.md) 오류를 해결하는 방법에 대해 알아봅니다.
 
 **[모니터링 및 문제 해결](../../rp_landing_pages/troubleshoot-journey-landing-page.md)**&#x200B;도 참조하세요.

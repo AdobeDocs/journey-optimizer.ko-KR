@@ -78,7 +78,7 @@ Campaign 통합에 대한 자세한 내용은 다음 페이지를 참조하십�
 
 1. 이벤트를 만듭니다. &quot;purchaseOrderNumber&quot; 필드를 포함합니다.
 
-   ![ 클래식 통합에 대한 [!DNL Adobe Campaign]사용자 지정 작업 구성 화면](assets/accintegration-uc-5.png)
+   ![&#x200B; 클래식 통합에 대한 [!DNL Adobe Campaign]사용자 지정 작업 구성 화면](assets/accintegration-uc-5.png)
 
 1. Journey Optimizer에서 Campaign 템플릿에 해당하는 작업을 만듭니다. **작업 유형** 드롭다운에서 **[!DNL Adobe Campaign]클래식**&#x200B;을 선택합니다.
 

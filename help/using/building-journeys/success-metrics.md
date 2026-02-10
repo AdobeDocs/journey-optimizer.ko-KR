@@ -23,7 +23,7 @@ ht-degree: 3%
 
 ## 전제 조건 {#prerequisites}
 
-여정 지표를 사용하기 전에 `Commerce Details`의 구성 > 보고에서 `Web`, `Mobile` 및 [ ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko#field-group){target="_blank"}필드 그룹[!DNL Adobe Experience Platform]을(를) 포함하는 데이터 집합을 추가해야 합니다.
+여정 지표를 사용하기 전에 `Commerce Details`의 구성 > 보고에서 `Web`, `Mobile` 및 [&#x200B; &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko#field-group){target="_blank"}필드 그룹[!DNL Adobe Experience Platform]을(를) 포함하는 데이터 집합을 추가해야 합니다.
 
 이러한 필드 그룹은 사용자 지정 그룹이 아닌 기본 제공 옵션에서 선택해야 합니다. [데이터 세트 추가](../reports/reporting-configuration.md#add-datasets) 섹션을 참조하십시오.
 
