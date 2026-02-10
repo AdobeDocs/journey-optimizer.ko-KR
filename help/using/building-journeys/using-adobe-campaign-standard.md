@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: '[!DNL Adobe Campaign] 표준 작업'
-description: ' [!DNL Adobe Campaign] 표준 작업에 대해 알아보기'
+title: Adobe Campaign Standard 작업
+description: Adobe Campaign Standard 작업에 대해 알아보기
 feature: Journeys, Actions, Custom Actions
 topic: Administration
 role: User
@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 여정, 통합, standard, campaign, ACS
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
 version: Journey Orchestration
-source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
+source-git-commit: 339285cbc82d5b30b221feb235ed8425a66f8802
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 1%
+source-wordcount: '937'
+ht-degree: 2%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 1%
 >
 >Journey Optimizer에서 사용하려면 Campaign Standard 트랜잭션 메시지와 관련 이벤트를 게시해야 합니다. 이벤트가 게시되었지만 메시지는 게시되지 않은 경우 Journey Optimizer 인터페이스에 표시되지 않습니다. 메시지가 게시되었지만 연결된 이벤트가 게시되지 않은 경우 Journey Optimizer 인터페이스에 표시되지만 사용할 수 없습니다.
 
-여정![[!DNL Adobe Campaign]의 &#x200B;](assets/journey59.png) 표준 작업 구성
+여정![[!DNL Adobe Campaign]의 ](assets/journey59.png) 표준 작업 구성
 
 이벤트(실시간 이라고도 함) 또는 프로필 트랜잭션 메시지 템플릿을 사용할 수 있습니다.
 

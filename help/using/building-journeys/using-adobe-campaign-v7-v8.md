@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: '[!DNL Adobe Campaign] v7/v8 작업'
-description: ' [!DNL Adobe Campaign] v7/v8 작업에 대해 알아보기'
+title: Adobe Campaign v7/v8 작업
+description: Adobe Campaign v7/v8 작업에 대해 알아보기
 feature: Journeys, Actions, Custom Actions
 topic: Administration
 role: User
@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 여정, 통합, campaign, v7, v8
 exl-id: 3da712e7-0e08-4585-8ca4-b6ff79df0b68
 version: Journey Orchestration
-source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
+source-git-commit: 339285cbc82d5b30b221feb235ed8425a66f8802
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 4%
+source-wordcount: '296'
+ht-degree: 6%
 
 ---
 
