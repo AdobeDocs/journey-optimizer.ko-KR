@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: 80c652afef03b0be6d917cb4389850780c2a4379
+source-git-commit: 241af4304f0bed8f3addf28ed8e7bc746550d823
 workflow-type: tm+mt
-source-wordcount: '1110'
-ht-degree: 6%
+source-wordcount: '1269'
+ht-degree: 5%
 
 ---
 
@@ -408,9 +408,11 @@ The following operation gets all the values for the map `identityMap`.
 {%= formatDate(datetime, format) %}
 ```
 
-여기서 첫 번째 문자열은 날짜 속성이고 두 번째 값은 날짜를 변환하여 표시하는 방식입니다.
+여기서 첫 번째 매개 변수는 date-time 속성이고 두 번째 값은 날짜를 변환하여 표시하는 방식입니다.
 
 >[!NOTE]
+>
+> `formatDate` 함수에는 문자열이 아닌 입력으로 **날짜-시간 필드 형식**&#x200B;이 필요합니다. 필드가 XDM 스키마에 문자열 유형으로 저장된 경우 먼저 `stringToDate()` 또는 `toDateTime()`과(와) 같은 변환 함수를 사용하여 날짜-시간으로 변환해야 합니다. 아래 예를 참조하십시오.
 >
 > 날짜 패턴이 올바르지 않으면 날짜는 ISO 표준 형식으로 대체됩니다.
 >
@@ -418,11 +420,69 @@ The following operation gets all the values for the map `identityMap`.
 
 **예**
 
-다음 작업은 MM/DD/YY 형식으로 날짜를 반환합니다.
++++날짜-시간 필드 서식 지정
+
+다음 작업은 날짜-시간 필드를 MM/DD/YY 형식으로 지정합니다.
 
 ```sql
 {%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/dd/YY") %}
 ```
+
++++
+
++++문자열을 날짜로 먼저 변환
+
+필드가 문자열로 저장되어 있는 경우 먼저 `stringToDate()`을(를) 사용하여 날짜-시간으로 변환한 후 서식을 지정해야 합니다.
+
+```sql
+{%= formatDate(stringToDate(profile.person.birthDayAndMonth), "MM/DD/YY") %}
+```
+
++++
+
++++요일 이름이 있는 전체 날짜 형식
+
+다음 작업은 일 이름, 월 이름, 일 및 연도로 전체 날짜 형식을 반환합니다.
+
+```sql
+{%= formatDate(profile.person.birthDateTime, "EEEE MMMM dd yyyy") %}
+```
+
+출력: `Wednesday January 01 2020`
+
++++
+
++++시스템 시간 기반 동적 날짜
+
+현재 시스템 시간 형식을 지정하여 동적 날짜를 생성할 수 있습니다. 다음 작업은 현재 날짜를 YYYY/MM/dd 형식으로 반환합니다.
+
+```sql
+{%= formatDate(getCurrentZonedDateTime(), "MM/dd/YYYY") %}
+```
+
+출력(2026년 1월 30일): `01/30/2026`
+
++++
+
++++요일 형식
+
+짧은 형식으로 요일을 추출할 수 있습니다.
+
+```sql
+{%= formatDate(getCurrentZonedDateTime(), "EEE") %}
+```
+
+출력: `Sun`(일요일), `Mon`(월요일), `Tue`(화요일) 등
+
+소문자 출력의 경우 `lowerCase` 함수와 결합합니다.
+
+```sql
+{%= lowerCase(formatDate(getCurrentZonedDateTime(), "EEE")) %}
+```
+
+출력: `sun`, `mon`, `tue` 등
+
++++
 
 ### 패턴 문자 {#pattern-characters}
 
