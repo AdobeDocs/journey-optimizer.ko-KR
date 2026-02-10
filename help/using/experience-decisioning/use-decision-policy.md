@@ -8,7 +8,7 @@ level: Experienced
 mini-toc-levels: 1
 version: Journey Orchestration
 exl-id: 35fc3cf2-1b91-4f30-ad71-f9d7d2a0291c
-source-git-commit: be4c0453630388d898d53feeb5f9dcfe57ad5934
+source-git-commit: 71a5b2163500b26ef3ea61e55d18cad539bfeb7f
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 3%
@@ -39,7 +39,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->코드 기반 경험의 경우 의사 결정 정책에 조각이 포함된 의사 결정 항목이 포함되어 있으면 의사 결정 정책 코드에서 이러한 조각을 활용할 수 있습니다. [조각을 활용하는 방법 알아보기](../experience-decisioning/fragments-decision-policies.md)
+>코드 기반 경험의 경우 의사 결정 정책에 조각이 포함된 의사 결정 항목이 포함되어 있으면 의사 결정 정책 코드에서 이러한 조각을 활용할 수 있습니다. [조각을 활용하는 방법 알아보기](fragments-decision-policies.md)
 
 >[!TAB 이메일]
 

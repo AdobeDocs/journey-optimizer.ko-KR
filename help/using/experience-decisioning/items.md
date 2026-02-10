@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+source-git-commit: 71a5b2163500b26ef3ea61e55d18cad539bfeb7f
 workflow-type: tm+mt
-source-wordcount: '2121'
+source-wordcount: '2129'
 ht-degree: 15%
 
 ---
@@ -52,9 +52,9 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
 
    >[!AVAILABILITY]
    >
-   >이 기능은 현재 코드 기반 경험 채널에서만 사용할 수 있습니다.
+   >이 기능은 현재 코드 기반 경험 채널 및 조직 집합(제한된 가용성)에만 사용할 수 있습니다.
 
-   **[!UICONTROL 조각]** 섹션에서 사용할 게시된 조각을 선택하고 참조 키를 할당하십시오. 그런 다음 의사 결정 정책에서 이러한 조각을 활용할 수 있습니다. [방법 알아보기](use-decision-policy.md#fragments)
+   **[!UICONTROL 조각]** 섹션에서 사용할 게시된 조각을 선택하고 참조 키를 할당하십시오. 그런 다음 의사 결정 정책에서 이러한 조각을 활용할 수 있습니다. [방법 알아보기](fragments-decision-policies.md)
 
    ![](assets/item-fragments.png){width=70%}
 
@@ -78,8 +78,8 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
 >abstract="기본적으로 모든 프로필은 결정 항목을 수신할 수 있지만 대상자 또는 규칙을 사용하여 항목을 특정 프로필로만 제한할 수 있습니다."
 
 <!--
->"additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
