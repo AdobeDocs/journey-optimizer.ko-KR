@@ -36,7 +36,7 @@ ht-degree: 1%
 >
 >Journey Optimizer에서 사용하려면 Campaign Standard 트랜잭션 메시지와 관련 이벤트를 게시해야 합니다. 이벤트가 게시되었지만 메시지는 게시되지 않은 경우 Journey Optimizer 인터페이스에 표시되지 않습니다. 메시지가 게시되었지만 연결된 이벤트가 게시되지 않은 경우 Journey Optimizer 인터페이스에 표시되지만 사용할 수 없습니다.
 
-여정![[!DNL Adobe Campaign]의 ](assets/journey59.png) 표준 작업 구성
+여정![[!DNL Adobe Campaign]의 &#x200B;](assets/journey59.png) 표준 작업 구성
 
 이벤트(실시간 이라고도 함) 또는 프로필 트랜잭션 메시지 템플릿을 사용할 수 있습니다.
 
