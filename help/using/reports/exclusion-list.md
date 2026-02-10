@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a34ba1a8-87d5-4f9c-a181-2f49e74e8f09
-source-git-commit: ca6f722c93fffe0cebcddb4f730f23d9a720ef9d
+source-git-commit: 8ced9477edf8a7129e974d007755e132f3079943
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '891'
 ht-degree: 8%
 
 ---
@@ -60,6 +60,7 @@ ht-degree: 8%
 | EmailNoVariantDefined | 050026 | 이메일 | 이메일 메시지에 변형이 정의되지 않으면 제외 이벤트가 생성됩니다. |
 | EmailNoMessageFoundForProcessing | 050027 | 이메일 | 메시지에 대해 실험이 활성화되고 적격 처리에 대한 메시지가 없는 경우 제외 이벤트가 생성됩니다. |
 | 이메일 형식이 잘못된 주소 | 050024 | 이메일 | 이메일에 잘못된 주소가 포함된 경우 제외 이벤트가 생성됩니다. |
+| UnsubscribeLinkNotValid | 050081 | 이메일 | 제외 이벤트는 List-Unsubscribe mailTo 제목 길이가 RFC 제한인 998자보다 클 때 생성됩니다. |
 | InAppNoVariantDefinition | 050041 | 인앱 | InApp 메시지에 대한 변형이 정의되지 않은 경우 제외 이벤트가 생성됩니다. |
 | InAppNoMessageFoundForProcessing | 050042 | 인앱 | 메시지에 대해 실험이 활성화되고 적격 처리에 대한 메시지가 없는 경우 제외 이벤트가 생성됩니다. |
 | PushNoTokenFoundInProfile | 050030 | 푸시 | 프로필에 푸시 토큰이 없을 경우 제외 이벤트가 생성됩니다. |
