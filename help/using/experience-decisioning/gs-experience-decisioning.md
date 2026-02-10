@@ -105,4 +105,4 @@ Decisioning을 사용하는 주요 단계는 다음과 같습니다.
 
 Adobe Journey Optimizer의 Decisioning 기능에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475870?captions=kor&quality=12)
