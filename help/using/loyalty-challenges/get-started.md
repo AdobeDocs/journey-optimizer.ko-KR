@@ -12,9 +12,9 @@ hidefromtoc: true
 badge: label="비공개 베타" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: 17d7cf7ae18ff987b7a9c9bebdec44b354ed11da
+source-git-commit: c5d7cbde6e0a9b4b835abac19d33b973f9f364e4
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '668'
 ht-degree: 2%
 
 ---
@@ -29,6 +29,7 @@ ht-degree: 2%
 * [과제 및 작업 액세스 및 관리](access-loyalty-challenges.md)
 * [과제 만들기](create-challenges.md)
 * [작업 만들기](create-tasks.md)
+* [충성도 문제 API 참조](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}
 
 >[!ENDSHADEBOX]
 
@@ -157,3 +158,7 @@ ht-degree: 2%
   </td>
 </tr>
 </table>
+
+## API 참조 {#api-reference}
+
+충성도 문제를 프로그래밍 방식으로 관리하려면 [충성도 문제 API](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}를 사용하십시오. API를 사용하면 REST 끝점을 통해 과제 및 작업을 만들고, 업데이트하고, 관리할 수 있습니다.
