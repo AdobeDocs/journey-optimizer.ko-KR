@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 3362242c13b404639d2a9b91742a5658cc1fb593
+source-git-commit: 22765397e7ec7a14e27a6998a28eb4dddca80f3c
 workflow-type: tm+mt
-source-wordcount: '1299'
+source-wordcount: '1298'
 ht-degree: 34%
 
 ---
@@ -121,7 +121,7 @@ ht-degree: 34%
 <table>
 <thead>
 <tr>
-<th><strong>Journey Agent 콘텐츠 생성</strong><br/></th>
+<th><strong>Journey Agent: 채널 컨텐츠 만들기</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -151,6 +151,22 @@ ht-degree: 34%
 <table>
 <thead>
 <tr>
+<th><strong>모바일 라이브 활동</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong>라이브 활동</strong>은(는) 모바일 앱 내에서 실시간 업데이트와 대화형 환경을 제공하므로 사용자는 디바이스의 화면에서 직접 진행 중인 이벤트 또는 작업에 대한 정보를 얻을 수 있습니다. 이 기능은 사용자가 앱을 열지 않아도 진행 추적, 이벤트 업데이트 또는 대화형 콘텐츠와 같은 라이브 정보를 전달하여 참여도를 높입니다.</p>
+<p>이전에 베타 버전으로 출시된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 공급).</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>웹 푸시 알림 채널</strong><br/></th>
 </tr>
 </thead>
@@ -159,7 +175,7 @@ ht-degree: 34%
 <td>
 <p>Adobe Journey Optimizer가 이제 <strong>웹 푸시 알림</strong>을 지원하여 푸시 채널을 모바일 밖까지 확장합니다. 모바일 브라우저와 데스크탑 브라우저 모두에 알림을 원활하게 전달할 수 있으므로 앱 설치를 요청할 필요 없이 고객의 디바이스에서 직접 고객에게 연락할 수 있습니다. 이 향상된 기능을 통해 이미 모바일 푸시에서 사용 가능한 것과 동일한 작성 워크플로 및 타기팅 기능을 활용하여 사용자에게 적시에 개인화된 메시지를 실시간으로 보낼 수 있습니다.</p>
 <p>이전에 베타 버전으로 출시된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 공급).</p>
-<p>사용 가능한 날짜: 2026년 2월 11일 목요일</p>
+<p>사용 가능한 날짜: 2026년 2월 12일 금요일</p>
 </td>
 </tr>
 </tbody>
@@ -178,12 +194,6 @@ ht-degree: 34%
 #### 캠페인
 
 * **여정 및 캠페인용 폴더** - 이제 인터페이스 탐색 및 관리를 개선하기 위해 여정 및 캠페인을 <strong>폴더</strong>로 구성할 수 있습니다.
-
-#### 채널
-
-* **모바일 라이브 활동** - <strong>라이브 활동</strong>은(는) 모바일 앱 내에서 실시간 업데이트와 대화형 환경을 제공하므로 사용자는 디바이스의 화면에서 직접 진행 중인 이벤트 또는 작업에 대한 정보를 얻을 수 있습니다. 이 기능은 사용자가 앱을 열지 않아도 진행 추적, 이벤트 업데이트 또는 대화형 콘텐츠와 같은 라이브 정보를 전달하여 참여도를 높입니다.
-
-  **참고**: 이전에 Beta로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).
 
 #### 구성
 
@@ -222,7 +232,7 @@ ht-degree: 34%
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -400,7 +410,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-13747">Link to DOCAC JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
