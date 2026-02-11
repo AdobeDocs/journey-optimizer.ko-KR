@@ -9,13 +9,13 @@ level: Beginner
 keywords: 여정, 캠페인, 오케스트레이션, 비교, 선택, 결정, 워크플로우, 실시간, 일괄 처리, 오케스트레이션, 여러 단계, 예약됨, API 트리거, 이벤트 기반
 hide: true
 hidefromtoc: true
-source-git-commit: c1efa56fc3f3c93bdc4b9c7a9f4e81b58cbcff72
+exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
+source-git-commit: 6a32a60f153ff4880ce974e77bc11eed1e20a7c7
 workflow-type: tm+mt
 source-wordcount: '1453'
 ht-degree: 3%
 
 ---
-
 
 # 여정과 캠페인: 적합한 접근 방식 선택 {#journeys-vs-campaigns}
 
@@ -66,13 +66,13 @@ Adobe Journey Optimizer은 고객에게 도달하고 참여시킬 수 있는 세
 * 실시간 컨텍스트가 중요합니다.
 
 **예약된 시간에 대상자에게 간단한 메시지를 전달하시겠습니까?**
-→1&rbrace;작업 캠페인 사용&#x200B;**선택**
+→1}작업 캠페인 사용**선택**
 * 모든 프로필이 동시에 메시지를 수신함
 * 예약된 전송 또는 반복 전송
 * 복잡한 여러 단계 논리 필요 없음
 
 **외부 시스템에 의해 트리거된 즉각적인 메시지입니까?**
-→1&rbrace;API 트리거 캠페인 사용&#x200B;**&#x200B;**
+→1}API 트리거 캠페인 사용****
 * API 호출을 통해 요청 시 트리거됨
 * 페이로드 기반 개인화
 * 복잡한 여러 단계 논리 필요 없음
@@ -207,7 +207,7 @@ Enrich with product data → Build segments → Send personalized offers → All
 | 웹 | ✅ | ✅ | ❌ | ❌ |
 | 코드 기반 | ✅ | ✅ | ❌ | ❌ |
 | 콘텐츠 카드 | ✅ | ✅ | ❌ | ❌ |
-| 다이렉트 메일 | ✅ | ✅ | ❌ | ❌ |
+| 다이렉트 메일 | ✅ | ✅ | ❌ | ✅ |
 
 ### 고급 기능
 
@@ -280,4 +280,3 @@ Enrich with product data → Build segments → Send personalized offers → All
 * [캠페인 유형 비교](../campaigns/get-started-with-campaigns.md#campaign-types)
 * [여정 FAQ](../building-journeys/journey-faq.md)
 * [오케스트레이션된 캠페인 FAQ](../orchestrated/orchestrated-campaigns-faq.md)
-
