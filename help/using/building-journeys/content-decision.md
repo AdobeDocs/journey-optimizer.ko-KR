@@ -7,22 +7,17 @@ feature: Journeys, Activities
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="제한된 가용성" type="Informative"
 keywords: 활동, 의사 결정, 컨텐츠 결정, 의사 결정 정책, 캔버스, 여정
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 67dd6b5d7e457c29795f53276755dbbb67c94a99
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 4%
+source-wordcount: '1242'
+ht-degree: 1%
 
 ---
 
 # 콘텐츠 결정 활동 {#content-decision}
-
->[!AVAILABILITY]
->
->이 기능은 일부 조직에서만 사용할 수 있으며(제한된 가용성) 향후 릴리스에서 전체 사용자를 대상으로 공개될 예정입니다.
 
 [!DNL Journey Optimizer]을(를) 사용하면 여정 캔버스에서 전용 **콘텐츠 결정** 활동을 통해 여정에 오퍼를 포함할 수 있습니다. 그런 다음 여정에 다른 활동(예: [사용자 지정 작업](../action/about-custom-action-configuration.md))을 추가하여 이러한 개인화된 오퍼로 대상을 타깃팅할 수 있습니다.
 
@@ -78,11 +73,11 @@ ht-degree: 4%
 
 **동의 정책**
 
-동의 정책에 대한 업데이트는 적용되는 데 최대 48시간이 걸립니다. 의사 결정 정책이 최근에 업데이트된 동의 정책에 연결된 속성을 참조하는 경우 변경 사항이 즉시 적용되지 않습니다.
+* 동의 정책에 대한 업데이트는 적용되는 데 최대 48시간이 걸립니다. 의사 결정 정책이 최근에 업데이트된 동의 정책에 연결된 속성을 참조하는 경우 변경 사항이 즉시 적용되지 않습니다.
 
-마찬가지로 동의 정책의 적용을 받는 새 프로필 속성을 의사 결정 정책에 추가하여 사용할 수 있습니다. 지연 시간이 경과할 때까지 관련 동의 정책이 시행되지 않습니다.
+* 마찬가지로 동의 정책의 대상인 새 프로필 속성이 의사 결정 정책에 추가되면 사용할 수 있지만 지연이 경과할 때까지 연결된 동의 정책이 적용되지 않습니다.
 
-동의 정책은 Adobe Healthcare Shield 또는 Privacy and Security Shield 추가 기능이 있는 조직만 사용할 수 있습니다.
+* 동의 정책은 Adobe Healthcare Shield 또는 Privacy and Security Shield 추가 기능이 있는 조직만 사용할 수 있습니다.
 
 ## 콘텐츠 결정 활동의 출력 사용 {#use-content-decision-output}
 
@@ -152,7 +147,7 @@ ht-degree: 4%
    >
    >콘텐츠 결정 노드의 출력은 **[!UICONTROL 고급 모드]**&#x200B;에서만 사용할 수 있습니다.
 
-1. [&#x200B; 배열을 사용하여 &#x200B;](../experience-decisioning/catalogs.md#access-catalog-schema)오퍼 카탈로그 스키마`items`를 찾아봅니다. 예를 들어 검색된 첫 번째 오퍼의 `itemName`과(와) 검색된 두 번째 오퍼의 `itemName`을(를) 사용합니다.
+1. [ 배열을 사용하여 ](../experience-decisioning/catalogs.md#access-catalog-schema)오퍼 카탈로그 스키마`items`를 찾아봅니다. 예를 들어 검색된 첫 번째 오퍼의 `itemName`과(와) 검색된 두 번째 오퍼의 `itemName`을(를) 사용합니다.
 
    ![결정 정책을 포함하는 사용자 지정 작업의 요청 매개 변수](assets/journey-content-decision-custom-action-param-ex.png)
 
@@ -181,3 +176,60 @@ ht-degree: 4%
 1. 하나 이상의 오퍼가 검색된 프로필만 여정(&#39;적격 프로필&#39; 경로를 통해)을 계속합니다.
 
 1. 조건이 충족되면 사용자 지정 작업을 통해 해당 오퍼가 외부 시스템으로 전송됩니다.
+
+## 단계 이벤트에서 데이터 결정 {#decisioning-step-events}
+
+여정에서 컨텐츠 의사 결정 활동을 실행하면 의사 결정 데이터를 여정 단계 이벤트에서 사용할 수 있습니다. 이 데이터는 검색된 항목 및 의사 결정 방법에 대한 자세한 정보를 제공합니다.
+
+각 콘텐츠 결정 활동에 대해 단계 이벤트에는 최상위 수준(**exdRequestID** 및 **propositionEventType** 등)의 결정 데이터와 **제안** 배열이 포함됩니다. 각 제안에는 **id**, **scopeDetails**(결정 공급자, 상관 관계 ID 및 결정 정책 포함) 및 **items** 배열이 있습니다. 각 항목에는 다음이 포함됩니다.
+
+* **id**: 항목의 고유 식별자
+* **이름**: 항목의 이름
+* **점수**: 항목에 할당된 점수
+* **itemSelection**: 다음 항목을 포함하여 결정 방법 및 항목 검색 방법과 관련된 데이터입니다.
+   * **selectionDetail**: 사용된 선택 전략에 대한 정보
+   * **rankingDetail**: 순위 프로세스(전략, 알고리즘, 단계, 트래픽 유형)에 대한 정보
+
+**단계 이벤트에서 데이터를 결정하는 예:**
+
+```json
+"decisioning": {
+  "exdRequestID": "8079d2bb-a8b2-4ecf-b9e7-32923dd6ad4e",
+  "propositions": [
+    {
+      "id": "f475cb21-0842-44da-b0eb-70766ba53464",
+      "scopeDetails": {
+        "decisionProvider": "EXD",
+        "correlationID": "6940d1c46208f3c00dae2ab94f3cd31c601461b47bf6d29ff8af0d0806a9c204",
+        "decisionPolicy": {
+          "id": "b913f724-3747-447b-a51e-8a2f9178f0db"
+        }
+      },
+      "items": [
+        {
+          "id": "dps:14c7468e7f6271ff8023748a1146d11f05f77b7fc1368081:1bebbf0b7e0f1374",
+          "name": "My item name",
+          "score": 0.93,
+          "itemSelection": {
+            "selectionDetail": {
+              "strategyID": "dps:selection-strategy:1bebbfc9245cb35e",
+              "strategyName": "My selection strategy",
+              "selectionType": "selectionStrategy",
+              "version": "latest"
+            },
+            "rankingDetail": {
+              "strategyID": "4FyRZTmpjrbzuL7rX7gvmu",
+              "algorithmID": "RANDOM",
+              "step": "aiModel",
+              "trafficType": "random"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "propositionEventType": {
+    "decision": 1
+  }
+}
+```
