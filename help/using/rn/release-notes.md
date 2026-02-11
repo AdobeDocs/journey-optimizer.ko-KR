@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
+source-git-commit: 9281adb50d13142ccf323ff5edb3f480b801d986
 workflow-type: tm+mt
-source-wordcount: '1710'
-ht-degree: 86%
+source-wordcount: '1806'
+ht-degree: 87%
 
 ---
 
@@ -27,17 +27,28 @@ ht-degree: 86%
 
 [!DNL Adobe Journey Optimizer]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko){target="_blank"}를 참조하십시오.
 
-## 26년 1월 릴리스 정보 {#latest-rn}
+## 2026년 2월 업데이트 {#feb-26-updates}
 
-<!--**Release date**: January 27-28, 2026-->
+### 새로운 기능 {#feb-26-01-updates-features}
 
-[기능](#jan-26-01-features) 및 [개선 사항](#jan-26-01-improv) 섹션은 이미 사용 가능한 기능을 다루고 [곧 출시 예정](#jan-26-01-coming-soon)에는 이후에 사용 가능한 날짜가 예약된 항목의 목록이 있습니다.
-
-<!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
-
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
-
-### 새로운 기능 {#jan-26-01-features}
+<table>
+<thead>
+<tr>
+<th><strong>콘텐츠 결정 활동</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 여정 캔버스에서 새로운 <strong>콘텐츠 결정 활동</strong>을 사용하여 <strong>개인화된 오퍼</strong>를 고객 여정에 직접 통합할 수 있습니다. 이 활동을 사용하면 의사 결정 기반 콘텐츠를 제공하고 여정 전체에 걸쳐 이러한 오퍼를 참조하여 자격 기반 분기를 만들기 위한 조건, 외부 시스템에 오퍼 데이터를 전달하기 위한 사용자 정의 액션, 완전히 개인화된 고객 경험을 구축하기 위한 기타 활동에 활용할 수 있습니다.</p>
+<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
+<p><img src="assets/do-not-localize/content-decision.gif"/></p>
+<p>자세한 내용은 <a href="../building-journeys/content-decision.md">세부 설명서</a>를 참조하십시오.</p>
+<p>사용 가능한 날짜: 2026년 2월 11일 목요일</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -79,8 +90,8 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 </tr>
 </tbody>
 </table>
-<table>
 
+<table>
 <thead>
 <tr>
 <th><strong>SMS 채널에서 의사 결정 지원</strong><br/></th>
@@ -96,6 +107,30 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 </tr>
 </tbody>
 </table>
+
+### 개선 사항 {#feb-26-01-updates-improv}
+
+<!--
+* **Attach fragments to decision items** - Journey Optimizer now provides the ability to attach <strong>fragments</strong> to <strong>decision items</strong> which can be leveraged in code-based experience campaigns through decision policies.
+
+  Availability date: February 11, 2026.-->
+
+* **SMS Webhooks** - 이제 모든 SMS 공급자에서 Webhooks가 지원됩니다. 각 웹후크의 의도된 목적, 수신 메시지를 캡처하기 위한 인바운드 웹후크 및 게재 확인, 상태 업데이트 및 기타 메시지 관련 이벤트를 수신하기 위한 피드백 웹후크를 구성할 수 있습니다. [자세히 보기](../sms/sms-webhook.md)
+
+  사용 가능한 날짜: 2026년 2월 2일
+
+## 26년 1월 릴리스 정보 {#latest-rn}
+
+<!--**Release date**: January 27-28, 2026-->
+
+[기능](#jan-26-01-features) 및 [개선 사항](#jan-26-01-improv) 섹션은 이미 사용 가능한 기능을 다루고 [곧 출시 예정](#jan-26-01-coming-soon)에는 이후에 사용 가능한 날짜가 예약된 항목의 목록이 있습니다.
+
+<!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
+
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+
+### 새로운 기능 {#jan-26-01-features}
+
 
 <table>
 <thead>
@@ -255,7 +290,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **AI 어시스턴트 콘텐츠 품질 검사** - 이제 브랜드 일관성 외에도 전체 <strong>콘텐츠 품질</strong>을 평가하여 브랜드 가이드라인과 별개로 <strong>가독성</strong>, 일치도, 효과성 관련 잠재적인 문제를 찾을 수 있습니다. 이 자동화된 검사는 명확하지 않은 메시지, 일관되지 않은 톤 또는 구조적으로 빠진 부분을 식별하는 데 도움이 됩니다. [자세히 보기](../content-management/brands-score.md#validate-quality).
 
-  [비디오에서 이 기능을 살펴보십시오](https://video.tv.adobe.com/v/3470553/?captions=kor&learn=on).
+  [비디오에서 이 기능을 살펴보십시오](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### 여정
 
@@ -317,12 +352,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
   사용 가능한 날짜: 2026년 1월 27일 수요일.
 
-#### SMS
-
-* **SMS Webhooks** - 이제 모든 SMS 공급자에서 Webhooks가 지원됩니다. 각 웹후크의 의도된 목적, 수신 메시지를 캡처하기 위한 인바운드 웹후크 및 게재 확인, 상태 업데이트 및 기타 메시지 관련 이벤트를 수신하기 위한 피드백 웹후크를 구성할 수 있습니다. [자세히 보기](../sms/sms-webhook.md)
-
-  사용 가능한 날짜: 2026년 2월 2일
-
 <!--
 ## Coming soon {#jan-26-01-coming-soon}
 
@@ -330,22 +359,6 @@ In the next few days, the following capabilities and enhancements are scheduled 
 
 ### Features
 
-<table>
-<thead>
-<tr>
-<th><strong>Content decision activity</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>A new <strong>Content decision activity</strong> is now available in the journey canvas for integrating <strong>personalized offers</strong> directly into your customer journeys. This activity enables you to deliver decision-based content and reference those offers throughout your journey - in conditions for creating eligibility-based branching, in custom actions for passing offer data to external systems, and in other activities for building fully personalized customer experiences.</p>
-<p>This capability will be available to all environments (General Availability).</p>
-<p>Availability date: February 11, 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
@@ -367,9 +380,5 @@ In the next few days, the following capabilities and enhancements are scheduled 
 
 ### Improvements
 
-
-* **Attach fragments to decision items** - Journey Optimizer now provides the ability to attach <strong>fragments</strong> to <strong>decision items</strong> which can be leveraged in code-based experience campaigns through decision policies.
-
-  Availability date: February 11, 2026.
 
 -->
