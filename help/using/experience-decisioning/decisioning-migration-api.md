@@ -5,13 +5,13 @@ feature: Decisioning
 topic: Integrations
 role: Developer
 level: Experienced
-source-git-commit: 398d4c2ab3a2312a0af5b8ac835f7d1f49a61b5b
+exl-id: 3ec084ca-af9e-4b5e-b66f-ec390328a9d6
+source-git-commit: 7b1b79e9263aa2512cf69cb130f322a1558eecff
 workflow-type: tm+mt
 source-wordcount: '1154'
 ht-degree: 3%
 
 ---
-
 
 # 의사 결정 마이그레이션 API {#decisioning-migration-api}
 
@@ -70,8 +70,8 @@ Decisioning 마이그레이션 서비스 API는 다음 기능을 제공합니다
 
 환경에 따라 다음 기본 URL을 사용합니다.
 
-* **프로덕션**: `https://platform.adobe.io`
-* **스테이징**: `https://platform-stage.adobe.io`
+* **프로덕션**: `https://decisioning-migration.adobe.io`
+* **스테이징**: `https://decisioning-migration-stage.adobe.io`
 
 ### 인증 {#authentication}
 
@@ -79,7 +79,6 @@ Decisioning 마이그레이션 서비스 API는 다음 기능을 제공합니다
 
 * `Authorization: Bearer <IMS_ACCESS_TOKEN>`
 * `x-gw-ims-org-id: <IMS_ORG_ID>`
-* `x-api-key: <CLIENT_API_KEY>`
 * `Content-Type: application/json`
 
 인증 설정에 대한 자세한 지침은 [Journey Optimizer 인증 안내서](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}를 참조하세요.
@@ -91,7 +90,7 @@ Decisioning 마이그레이션 서비스 API는 다음 기능을 제공합니다
 워크플로에는 다음과 같은 속성이 있습니다.
 
 * `id` - 고유한 워크플로우 식별자(UUID)
-* `status` - 현재 워크플로 상태: `New`, `Running`, `Completed`, `Failed` 또는 `Cancelled`
+* `status` - 현재 워크플로 상태: `New`, `Running`, `Completed` 또는 `Failed`
 * `result` - 완료 시 워크플로 출력(마이그레이션 결과 및 경고 포함)
 * `errors` - 실패 시 구조적 오류 세부 정보
 * `_etag` - 삭제 작업에 사용되는 버전 식별자(서비스 사용자만 해당)
@@ -112,7 +111,7 @@ Decisioning 마이그레이션 서비스 API는 다음 기능을 제공합니다
 **API 형식**
 
 ```http
-POST /migration/service/dependency
+POST /workflows/generate-dependencies
 ```
 
 **샌드박스 수준 종속성(먼저 권장됨)**
@@ -121,10 +120,9 @@ POST /migration/service/dependency
 
 ```shell
 curl --request POST \
-  --url "https://platform.adobe.io/migration/service/dependency" \
+  --url "https://decisioning-migration.adobe.io/workflows/generate-dependencies" \
   --header "Authorization: Bearer <IMS_ACCESS_TOKEN>" \
   --header "x-gw-ims-org-id: <IMS_ORG_ID>" \
-  --header "x-api-key: <CLIENT_API_KEY>" \
   --header "Content-Type: application/json" \
   --data '{
     "imsOrgId": "<IMS_ORG_ID>",
@@ -149,24 +147,23 @@ curl --request POST \
 **API 형식**
 
 ```http
-GET /migration/service/dependency/{id}
+GET /workflows/generate-dependencies/{id}
 ```
 
 **요청**
 
 ```shell
 curl --request GET \
-  --url "https://platform.adobe.io/migration/service/dependency/<WORKFLOW_ID>" \
+  --url "https://decisioning-migration.adobe.io/workflows/generate-dependencies/<WORKFLOW_ID>" \
   --header "Authorization: Bearer <IMS_ACCESS_TOKEN>" \
-  --header "x-gw-ims-org-id: <IMS_ORG_ID>" \
-  --header "x-api-key: <CLIENT_API_KEY>"
+  --header "x-gw-ims-org-id: <IMS_ORG_ID>"
 ```
 
 `status` 필드에 `Completed`이(가) 표시되면 종속성 분석이 준비되었습니다. 워크플로우 출력을 사용하여 마이그레이션 종속성 매핑을 빌드합니다.
 
-* **profileAttributeDependency** - 소스 프로필 특성을 대상 프로필 특성에 매핑합니다.
-* **contextAttributeDependency** - 소스 컨텍스트 특성을 대상 컨텍스트 특성에 매핑합니다.
-* **segmentsDependency** - 소스 세그먼트 키를 대상 세그먼트 식별자(`{segmentNamespace, segmentId}`)에 매핑합니다.
+* **profileAttributes** - 소스 프로필 특성을 대상 프로필 특성에 매핑합니다.
+* **contextAttributes** - 소스 컨텍스트 특성을 대상 컨텍스트 특성에 매핑합니다.
+* **세그먼트** - 소스 세그먼트 키를 대상 세그먼트 식별자(`{namespace, id}`)에 매핑합니다.
 * **datasetName** - 마이그레이션의 대상 데이터 세트 이름을 지정합니다.
 
 ### 2단계: 마이그레이션 실행 {#execute-migration}
@@ -180,7 +177,7 @@ curl --request GET \
 **API 형식**
 
 ```http
-POST /migration/service/migrations
+POST /workflows/migration
 ```
 
 **샌드박스 수준 마이그레이션**
@@ -189,10 +186,9 @@ POST /migration/service/migrations
 
 ```shell
 curl --request POST \
-  --url "https://platform.adobe.io/migration/service/migrations" \
+  --url "https://decisioning-migration.adobe.io/workflows/migration" \
   --header "Authorization: Bearer <IMS_ACCESS_TOKEN>" \
   --header "x-gw-ims-org-id: <IMS_ORG_ID>" \
-  --header "x-api-key: <CLIENT_API_KEY>" \
   --header "Content-Type: application/json" \
   --data '{
     "imsOrgId": "<IMS_ORG_ID>",
@@ -200,16 +196,16 @@ curl --request POST \
     "targetSandboxDetails": { "sandboxName": "<TARGET_SANDBOX_NAME>" },
     "createDataStream": true,
     "dependency": {
-      "profileAttributeDependency": {
+      "profileAttributes": {
         "sourceAttr1": "targetAttr1"
       },
-      "segmentsDependency": {
+      "segments": {
         "sourceSegmentKey1": {
-          "segmentNamespace": "<TARGET_SEGMENT_NAMESPACE>",
-          "segmentId": "<TARGET_SEGMENT_ID>"
+          "namespace": "<TARGET_SEGMENT_NAMESPACE>",
+          "id": "<TARGET_SEGMENT_ID>"
         }
       },
-      "contextAttributeDependency": {
+      "contextAttributes": {
         "sourceCtx1": "targetCtx1"
       },
       "datasetName": "<TARGET_DATASET_NAME>"
@@ -241,17 +237,16 @@ curl --request POST \
 **API 형식**
 
 ```http
-GET /migration/service/migrations/{id}
+GET /workflows/migration/{id}
 ```
 
 **요청**
 
 ```shell
 curl --request GET \
-  --url "https://platform.adobe.io/migration/service/migrations/<WORKFLOW_ID>" \
+  --url "https://decisioning-migration.adobe.io/workflows/migration/<WORKFLOW_ID>" \
   --header "Authorization: Bearer <IMS_ACCESS_TOKEN>" \
-  --header "x-gw-ims-org-id: <IMS_ORG_ID>" \
-  --header "x-api-key: <CLIENT_API_KEY>"
+  --header "x-gw-ims-org-id: <IMS_ORG_ID>"
 ```
 
 **마이그레이션 결과**
@@ -301,20 +296,21 @@ curl --request POST \
 **API 형식**
 
 ```http
-POST /migration/service/rollbacks/{migrationWorkflowId}
+POST /workflows/rollback
 ```
-
-`{migrationWorkflowId}`을(를) 롤백하려는 마이그레이션 워크플로의 ID로 바꾸십시오.
 
 **요청**
 
 ```shell
 curl --request POST \
-  --url "https://platform.adobe.io/migration/service/rollbacks/<MIGRATION_WORKFLOW_ID>" \
+  --url "https://decisioning-migration.adobe.io/workflows/rollback" \
   --header "Authorization: Bearer <IMS_ACCESS_TOKEN>" \
   --header "x-gw-ims-org-id: <IMS_ORG_ID>" \
-  --header "x-api-key: <CLIENT_API_KEY>"
+  --header "Content-Type: application/json" \
+  --data '{ "rollbackWorkflowId": "<MIGRATION_WORKFLOW_ID>" }'
 ```
+
+`<MIGRATION_WORKFLOW_ID>`을(를) 롤백하려는 마이그레이션 워크플로의 ID로 바꾸십시오.
 
 ### 롤백 상태 모니터링 {#poll-rollback-status}
 
@@ -323,17 +319,16 @@ curl --request POST \
 **API 형식**
 
 ```http
-GET /migration/service/rollbacks/{rollbackWorkflowId}
+GET /workflows/rollback/{rollbackWorkflowId}
 ```
 
 **요청**
 
 ```shell
 curl --request GET \
-  --url "https://platform.adobe.io/migration/service/rollbacks/<ROLLBACK_WORKFLOW_ID>" \
+  --url "https://decisioning-migration.adobe.io/workflows/rollback/<ROLLBACK_WORKFLOW_ID>" \
   --header "Authorization: Bearer <IMS_ACCESS_TOKEN>" \
-  --header "x-gw-ims-org-id: <IMS_ORG_ID>" \
-  --header "x-api-key: <CLIENT_API_KEY>"
+  --header "x-gw-ims-org-id: <IMS_ORG_ID>"
 ```
 
 ## 동시 작업 흐름 처리 {#handle-concurrency}
@@ -353,7 +348,7 @@ Decision management에서 Decisioning으로 마이그레이션할 때 엔티티�
 | 자격 규칙 | 자격 규칙 |
 | 순위 공식 | 순위 공식 |
 | 결정 | 선택 전략 + 결정 정책 |
-| Campaign | 캠페인 *(기본 콘텐츠만)* |
+| 캠페인 | 캠페인 *(기본 콘텐츠만)* |
 | 배치 | 표면 + 채널 구성 |
 | 태그 | 통합 태그 |
 
@@ -363,9 +358,9 @@ Decision management에서 Decisioning으로 마이그레이션할 때 엔티티�
 
 **사용 가능한 삭제 작업:**
 
-* `DELETE /migration/service/dependency/{id}`
-* `DELETE /migration/service/migrations/{id}`
-* `DELETE /migration/service/rollbacks/{id}`
+* `DELETE /workflows/generate-dependencies/{id}`
+* `DELETE /workflows/migration/{id}`
+* `DELETE /workflows/rollback/{id}`
 
 >[!NOTE]
 >
