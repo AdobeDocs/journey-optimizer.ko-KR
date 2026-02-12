@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1b21dc3355ebbfe16dd145de929a87eeb26db826
+source-git-commit: 7b32d38ab5ac3790342b64df4ac0db46d1acf444
 workflow-type: tm+mt
-source-wordcount: '1553'
-ht-degree: 25%
+source-wordcount: '1494'
+ht-degree: 26%
 
 ---
 
@@ -252,10 +252,6 @@ ht-degree: 25%
 
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13918">DOCAC JIRA 작업에 연결</a>
 
-* **타사 이미지 생성을 위한 Firefly 3P 모델 지원** - 이제 Journey Optimizer에서 이미지를 만드는 데 Firefly과 함께 <strong>타사 이미지 생성 모델</strong>(예: OpenAI 및 Gemini)을 사용할 수 있습니다. 이렇게 하면 각 사용 사례에 적합한 모델을 보다 유연하게 선택하고 <strong>Firefly 3P 게이트웨이</strong>를 통해 승인된 외부 공급자를 통합할 수 있습니다.
-
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14145">DOCAC JIRA 작업에 연결</a>
-
 #### 캠페인
 
 * **여정 및 캠페인용 폴더** - 이제 <strong>여정</strong> 및 <strong>캠페인</strong>을 <strong>폴더</strong>로 구성하여 인터페이스에서 탐색 및 관리를 개선할 수 있습니다.
@@ -299,7 +295,7 @@ ht-degree: 25%
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -477,7 +473,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-13747">Link to DOCAC JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
