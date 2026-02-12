@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: bb5d69d748b7283297d19f43ab0fc54c46d5d303
+source-git-commit: b414d330a25a98c11b7417beda4536c54c41fd83
 workflow-type: tm+mt
-source-wordcount: '787'
+source-wordcount: '802'
 ht-degree: 21%
 
 ---
@@ -84,6 +84,10 @@ ht-degree: 21%
 * 표현식 조각의 경우 [!DNL Journey Optimizer] 개인화 편집기와 모든 개인화 및 작성 기능을 활용하여 조각 콘텐츠를 작성합니다. [자세히 알아보기](../personalization/personalization-build-expressions.md)
 
   ![](assets/fragment-expression-editor.png)
+
+  >[!NOTE]
+  >
+  >JSON 유형 표현식 조각은 저장 시 구문적으로 확인되며, 모든 오류는 경고 경고로 표시됩니다.
 
 콘텐츠가 준비되면 **[!UICONTROL 저장]** 단추를 클릭합니다.
 

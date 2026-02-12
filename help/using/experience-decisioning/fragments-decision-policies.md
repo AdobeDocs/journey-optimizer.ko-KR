@@ -5,13 +5,13 @@ feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
-source-git-commit: 083545ff7b2dc5ce45ef3766321fdf12e1b96c5c
+exl-id: 70f64348-092b-4350-91dc-72c3c07300f9
+source-git-commit: b414d330a25a98c11b7417beda4536c54c41fd83
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 1%
+source-wordcount: '428'
+ht-degree: 0%
 
 ---
-
 
 # 의사 결정 정책의 구성요소 활용 {#fragments}
 
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->이 기능은 현재 **코드 기반 경험** 채널 및 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
+>이 기능은 현재 **코드 기반 경험** 채널에서만 사용할 수 있습니다.
 
 예를 들어 여러 모바일 디바이스 모델에 대해 서로 다른 콘텐츠를 표시하려고 한다고 가정해 보겠습니다. 해당 디바이스에 해당하는 조각을 결정 정책에서 사용 중인 결정 항목에 추가했는지 확인하십시오. [방법을 알아보세요](items.md#attributes).
 
@@ -93,6 +93,6 @@ ht-degree: 1%
 
 * 조각 콘텐츠의 유효성 검사는 조각 생성 및 게시 중에만 수행됩니다.
 
-* JSON 조각의 경우 JSON 개체의 유효성이 보장되지 않습니다. 표현식 조각 콘텐츠가 결정 항목에서 사용할 수 있도록 유효한 JSON인지 확인하십시오.
+* JSON 유형 표현식 조각의 경우 조각이 저장될 때 콘텐츠가 구문적으로 확인됩니다. 유효성 검사 오류는 경고로 표시됩니다.
 
 런타임 시 캠페인 콘텐츠(의사 결정 항목의 조각 콘텐츠 포함)의 유효성이 검사됩니다. 유효성 검사 실패 시 캠페인이 렌더링되지 않습니다.
