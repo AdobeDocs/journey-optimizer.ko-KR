@@ -86,7 +86,7 @@ ht-degree: 7%
 
 1. 이전에 구성한 **[!UICONTROL 제품 프로필]**&#x200B;을 선택하세요.
 
-1.  **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
 
    ![](assets/push_product_6.png)
 
