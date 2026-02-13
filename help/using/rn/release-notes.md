@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b53f9279a8698e99683cd6e75a7e746102e3e094
+source-git-commit: b53c28405e453be3767f05e2c7a7a1b2e69d0416
 workflow-type: tm+mt
-source-wordcount: '1534'
+source-wordcount: '1537'
 ht-degree: 29%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 29%
 
 [Adobe Experience Platform 사전 릴리스 정보](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}도 참조하십시오.
 
-**릴리스 일자**: 2026년 2월 17일 수요일
+**릴리스 날짜**: 2026년 2월 17~18일
 
 ### 새로운 기능 {#feb-26-01-features}
 
