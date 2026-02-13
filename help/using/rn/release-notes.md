@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e55cf2a7748567d79ba72c7eb8a512a4ed0e116d
+source-git-commit: 279fd366b14520daec1df7f843ed337348e145a5
 workflow-type: tm+mt
-source-wordcount: '1457'
-ht-degree: 36%
+source-wordcount: '1551'
+ht-degree: 39%
 
 ---
 
@@ -141,6 +141,25 @@ ht-degree: 36%
 <p>Adobe Journey Optimizer가 이제 <strong>웹 푸시 알림</strong>을 지원하여 푸시 채널을 모바일 밖까지 확장합니다. 모바일 브라우저와 데스크탑 브라우저 모두에 알림을 원활하게 전달할 수 있으므로 앱 설치를 요청할 필요 없이 고객의 디바이스에서 직접 고객에게 연락할 수 있습니다. 이 향상된 기능을 통해 이미 모바일 푸시에서 사용 가능한 것과 동일한 작성 워크플로 및 타기팅 기능을 활용하여 사용자에게 적시에 개인화된 메시지를 실시간으로 보낼 수 있습니다.</p>
 <p>이전에 베타 버전으로 출시된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 공급).</p>
 <p>사용 가능한 날짜: 2026년 2월 13일 토요일</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>웹 푸시 알림 채널</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer가 이제 <strong>웹 푸시 알림</strong>을 지원하여 푸시 채널을 모바일 밖까지 확장합니다. <strong>모바일 브라우저와 데스크탑 브라우저</strong> 모두에 알림을 원활하게 전달할 수 있으므로 앱 설치를 요청할 필요 없이 고객의 디바이스에서 직접 고객에게 연락할 수 있습니다. 이 향상된 기능을 통해 이미 모바일 푸시에서 사용 가능한 것과 동일한 작성 워크플로 및 타기팅 기능을 활용하여 사용자에게 적시에 개인화된 메시지를 실시간으로 보낼 수 있습니다.</p>
+<p><img src="assets/do-not-localize/web-push.gif"/></p>
+<p>이전에 Beta에서 릴리스된 이 기능은 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
+<p>자세한 내용은 <a href="../push/push-configuration-web.md">세부 설명서</a>를 참조하십시오.</p>
+<p>사용 가능한 날짜: 2026년 2월 11일 목요일</p>
 </td>
 </tr>
 </tbody>
