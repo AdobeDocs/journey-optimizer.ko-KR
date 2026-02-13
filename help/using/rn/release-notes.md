@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b53c28405e453be3767f05e2c7a7a1b2e69d0416
+source-git-commit: 7263e5ace72823ce7a3a184d2842f9bba495c068
 workflow-type: tm+mt
 source-wordcount: '1537'
-ht-degree: 29%
+ht-degree: 31%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 29%
 
 [!DNL Adobe Journey Optimizer]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko){target="_blank"}를 참조하십시오.
 
-## 2026년 2월 릴리스 정보 {#feb-26-01-rn}
+## 2026년 2월 프리릴리스 정보 {#feb-26-01-rn}
 
 **아래 사전 릴리스 정보는 릴리스 공개 당일까지 사전 통지 없이 변경될 수 있습니다**. 링크, 화면, 업데이트된 설명서는 릴리스 일자에 릴리스 정보에 게시됩니다.
 
@@ -99,7 +99,7 @@ ht-degree: 29%
 <tr>
 <td>
 <p><strong>라이브 활동</strong>은(는) 모바일 앱 내에서 <strong>실시간 업데이트</strong> 및 대화형 환경을 제공하므로 사용자는 디바이스의 화면에서 직접 진행 중인 이벤트 또는 작업에 대한 알림을 받을 수 있습니다. 이 기능은 사용자가 앱을 열지 않아도 진행 추적, 이벤트 업데이트 또는 대화형 콘텐츠와 같은 라이브 정보를 전달하여 참여도를 높입니다.</p>
-<p>이전에 Beta로 릴리스된 이 기능은 이제 모든 환경(<strong>일반 가용성</strong>)에서 사용할 수 있습니다.</p>
+<p>이전에 베타 버전으로 출시된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 공급).</p>
 </td>
 </tr>
 </tbody>
@@ -137,7 +137,7 @@ ht-degree: 29%
 <tr>
 <td>
 <p>Adobe Journey Optimizer가 이제 <strong>웹 푸시 알림</strong>을 지원하여 푸시 채널을 모바일 밖까지 확장합니다. 모바일 브라우저와 데스크탑 브라우저 모두에 알림을 원활하게 전달할 수 있으므로 앱 설치를 요청할 필요 없이 고객의 디바이스에서 직접 고객에게 연락할 수 있습니다. 이 향상된 기능을 통해 모바일 푸시에 이미 사용 가능한 동일한 <strong>작성 워크플로</strong> 및 <strong>타깃팅 기능</strong>을 활용하여 적시에 개인화된 메시지로 사용자의 참여를 실시간으로 이끌어낼 수 있습니다.</p>
-<p>이전에 Beta로 릴리스된 이 기능은 이제 모든 환경(<strong>일반 가용성</strong>)에서 사용할 수 있습니다.</p>
+<p>이전에 베타 버전으로 출시된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 공급).</p>
 <p>사용 가능한 날짜: 2026년 2월 13일 토요일</p>
 </td>
 </tr>
@@ -154,7 +154,7 @@ ht-degree: 29%
 <tr>
 <td>
 <p>이제 <strong>개인화된 오퍼</strong>를 고객 여정에 직접 통합하기 위해 <strong>여정 캔버스</strong>에서 새 <strong>콘텐츠 결정 활동</strong>을 사용할 수 있습니다. 이 활동을 사용하면 의사 결정 기반 콘텐츠를 제공하고 자격 기반 분기를 만들기 위한 조건, 외부 시스템에 오퍼 데이터를 전달하기 위한 사용자 지정 작업 및 완전히 개인화된 고객 경험을 구축하기 위한 기타 활동에서 여정 전체에서 이러한 오퍼를 참조할 수 있습니다.</p>
-<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경(<strong>일반 가용성</strong>)에서 사용할 수 있습니다.</p>
+<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
 <p><img src="assets/do-not-localize/content-decision.gif"/></p>
 <p>자세한 내용은 <a href="../building-journeys/content-decision.md">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2026년 2월 11일 목요일</p>
@@ -196,7 +196,7 @@ ht-degree: 29%
 <tr>
 <td>
 <p>새로운 <strong>모니터링 대시보드</strong> 및 보강된 <strong>여정 단계 이벤트 데이터</strong>를 사용하여 <strong>사용자 지정 작업 엔드포인트</strong>의 상태 및 성능에 대해 더 자세한 insight을 사용하세요. 성공한 호출, 오류, 처리량, 응답 시간, 대기열 대기 시간을 추적하여 예외 항목이 발생하는 시점, 위치, 이유를 신속하게 파악합니다.</p>
-<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경(<strong>일반 가용성</strong>)에서 사용할 수 있습니다.</p>
+<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
 <p>자세한 내용은 <a href="../action/reporting.md">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2026년 2월 3일</p>
 </td>
