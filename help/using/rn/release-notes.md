@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8c4c6212b16b411cd46450afb7e6a6515e972e13
+source-git-commit: e55cf2a7748567d79ba72c7eb8a512a4ed0e116d
 workflow-type: tm+mt
-source-wordcount: '1524'
+source-wordcount: '1457'
 ht-degree: 36%
 
 ---
@@ -89,21 +89,23 @@ ht-degree: 36%
 </tbody>
 </table>
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>모바일 라이브 활동</strong><br/></th>
+<th><strong>Mobile Live Activities</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p><strong>라이브 활동</strong>은(는) 모바일 앱 내에서 실시간 업데이트와 대화형 환경을 제공하므로 사용자는 디바이스의 화면에서 직접 진행 중인 이벤트 또는 작업에 대한 정보를 얻을 수 있습니다. 이 기능은 사용자가 앱을 열지 않아도 진행 추적, 이벤트 업데이트 또는 대화형 콘텐츠와 같은 라이브 정보를 전달하여 참여도를 높입니다.</p>
-<p>이전에 베타 버전으로 출시된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 공급).</p>
+<p><strong>Live Activities</strong> provide real-time updates and interactive experiences within mobile apps, allowing users to stay informed about ongoing events or tasks directly on their device's screen. This feature enhances engagement by delivering live information, such as progress tracking, event updates, or interactive content, without requiring users to open the app.</p>
+<p>Previously released in beta, this capability is now available to all environments (General Availability).</p>
 </td>
 </tr>
 </tbody>
 </table>
+-->
 
 <table>
 <thead>
