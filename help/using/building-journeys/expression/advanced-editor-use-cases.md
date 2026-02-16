@@ -11,10 +11,10 @@ hidefromtoc: true
 keywords: 표현식, 조건, 사용 사례, 이벤트
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: bc89e88baf2adfbb9bb33a60a67b74bc37f31984
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 2%
+source-wordcount: '573'
+ht-degree: 1%
 
 ---
 
@@ -114,6 +114,16 @@ ht-degree: 2%
   ```
 
 여기에서 제품이 스토어에 없는 경우 여정에 다른 경로를 추가하고 참여 오퍼와 함께 알림을 전송할 수 있습니다. 이에 따라 메시지를 구성하고 개인화 데이터를 사용하여 메시지 타겟을 향상시킵니다.
+
+## 표현식의 타임스탬프 필터링
+
+여러 장바구니 활동 이벤트를 참조할 때 내역 데이터를 선택하지 않도록 시작 및 종료 타임스탬프 창을 모두 지정합니다. 예:
+
+```json
+toDateTimeOnly(currentDataPackField.timestamp) >= toDateTimeOnly(@event{poc_UDXCartAddSavedCheckOutEv.timestamp})
+AND
+toDateTimeOnly(currentDataPackField.timestamp) < toDateTimeOnly(nowWithDelta(4, "hours"))
+```
 
 ## 고급 표현식 편집기를 사용한 문자열 조작의 예
 
