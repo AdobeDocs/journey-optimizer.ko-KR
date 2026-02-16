@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1176d85197e956a2ed1a5cad67a76d5a1bea20a9
+source-git-commit: 0472c9bb9decc49e5da392003027df23ec528ac9
 workflow-type: tm+mt
-source-wordcount: '1463'
-ht-degree: 38%
+source-wordcount: '1490'
+ht-degree: 39%
 
 ---
 
@@ -61,6 +61,22 @@ ht-degree: 38%
 <table>
 <thead>
 <tr>
+<th><strong>하위 도메인을 사용자 정의 위임으로 마이그레이션</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 CNAME 위임 모드를 사용하여 하위 도메인을 인터페이스에서 직접 사용자 정의 위임으로 마이그레이션할 수 있으므로 채널 구성을 다시 작성하지 않고도 회사의 지침에 따라 더 엄격한 보안 정책을 충족할 수 있습니다.</p>
+<p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>여정 중재</strong><br/></th>
 </tr>
 </thead>
@@ -68,7 +84,7 @@ ht-degree: 38%
 <tr>
 <td>
 <p>이제 <strong>등급 수식</strong> <!--and <strong>AI models</strong> -->을 사용하여 고객 프로필 특성 및 컨텍스트 요인에 따라 여정 우선 순위 점수를 자동으로 높여 고객이 가장 관련성이 높은 여정을 입력하도록 할 수 있습니다.</p>
-<p>이 기능은 조직 집합(<strong>제한된 가용성</strong>)에만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
+<p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -116,7 +132,7 @@ ht-degree: 38%
 <tbody>
 <tr>
 <td>
-<p>이제 Journey Optimizer을 통해 Decisioning에서 AI 모델의 상태, 교육 상태 및 성능을 모니터링하여 교육 성공을 확인하고, 실패를 해결하며, 결과에 미치는 영향을 이해할 수 있습니다.</p>
+<p>이제 Journey Optimizer을 통해 Decisioning AI 모델의 상태, 교육 상태 및 성능을 모니터링할 수 있습니다. 이를 통해 교육 성공을 확인하고, 실패를 해결하며, 결과에 미치는 영향을 파악하여 AI를 사용하는 각 고객을 위한 최상의 오퍼를 선택할 수 있습니다. 이 기능은 <strong>Decisioning</strong>에만 사용할 수 있습니다(이전 의사 결정 관리 모델에는 사용할 수 없음).</p>
 <p>이 기능은 현재 <strong>개인화된 최적화</strong> 모델에만 사용할 수 있습니다(자동 최적화는 아님).</p>
 </td>
 </tr>
@@ -248,11 +264,6 @@ ht-degree: 38%
 #### 구성
 
 * **여정 식의 경험 이벤트 사용** - 2026년 4월 1일부터 지난 90일 동안 이 기능을 사용하지 않은 조직에 대해 여정 식의 경험 이벤트 특성 사용이 더 이상 지원되지 않습니다. 이 기능은 2025년 7월 8일 이후 신규 고객 조직에서 이미 사용할 수 없습니다. 대안은 [여정의 경험 이벤트 조회](../building-journeys/exp-event-lookup.md)를 참조하십시오.
-
-
-* **하위 도메인을 사용자 지정 위임으로 마이그레이션** - 이제 CNAME 위임 모드를 사용하여 하위 도메인을 인터페이스에서 직접 사용자 지정 위임으로 마이그레이션할 수 있으므로 채널 구성을 다시 만들지 않고도 회사의 지침에 따라 보다 엄격한 보안 정책을 충족할 수 있습니다.
-
-  **참고**: 이 기능은 조직 집합(<strong>제한된 가용성</strong>)에서만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
 
 
 #### 이메일 디자이너
