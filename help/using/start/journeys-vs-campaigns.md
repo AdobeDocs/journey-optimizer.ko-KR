@@ -2,26 +2,27 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 여정과 캠페인 - 적합한 접근 방식 선택
-description: 여정, 캠페인 및 조정된 캠페인을 비교하여 Adobe Journey Optimizer의 마케팅 요구 사항에 적합한 접근 방식을 선택합니다
+description: 여정, 작업 캠페인, API 트리거 캠페인 및 오케스트레이션된 캠페인을 비교하여 Adobe Journey Optimizer의 마케팅 요구 사항에 적합한 접근 방식을 선택합니다.
 feature: Journeys, Campaigns, Get Started, Overview
+topic: Content Management
 role: User
 level: Beginner
 keywords: 여정, 캠페인, 오케스트레이션, 비교, 선택, 결정, 워크플로우, 실시간, 일괄 처리, 오케스트레이션, 여러 단계, 예약됨, API 트리거, 이벤트 기반
 hide: true
 hidefromtoc: true
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
-source-git-commit: 6a32a60f153ff4880ce974e77bc11eed1e20a7c7
+source-git-commit: 241202021c4e634e3fd1a6d67f734142c3c87c34
 workflow-type: tm+mt
-source-wordcount: '1453'
+source-wordcount: '1602'
 ht-degree: 3%
 
 ---
 
 # 여정과 캠페인: 적합한 접근 방식 선택 {#journeys-vs-campaigns}
 
-Adobe Journey Optimizer은 고객에게 도달하고 참여시킬 수 있는 세 가지 강력한 접근 방식을 제공합니다. 각 제품을 사용할 시기를 이해하는 것은 효과적인 마케팅 경험을 구축하는 데 중요합니다.
+[!DNL Adobe Journey Optimizer]은(는) 고객에게 연락하여 참여하는 네 가지 주요 방법을 제공합니다. **여정**, **액션 캠페인**, **API 트리거 캠페인** 및 **오케스트레이션된 캠페인**. 올바른 선택은 실시간 1:1 오케스트레이션, 예약된 브로드캐스트, 이벤트 기반 메시지 또는 복잡한 일괄 처리 워크플로우가 필요한지 여부에 따라 다릅니다.
 
-이 안내서는 특정 마케팅 요구 사항에 따라 **여정**, **액션 캠페인**, **API 트리거 캠페인** 및 **오케스트레이션된 캠페인** 중에서 선택할 수 있도록 도와줍니다.
+이 안내서는 빠른 비교, 의사 결정 트리 및 구체적인 예제를 통해 실행 스타일, 데이터 요구 사항 및 사용 사례를 기반으로 선택하는 데 도움이 됩니다.
 
 ## 빠른 비교 개요 {#quick-overview}
 
@@ -31,6 +32,10 @@ Adobe Journey Optimizer은 고객에게 도달하고 참여시킬 수 있는 세
 | **작업 캠페인** | 대상에 대해 예약된 또는 반복 브로드캐스트 | 일괄 처리 실행 - 전송 시 함께 처리된 대상자 |
 | **API 트리거 캠페인** | 외부 시스템의 이벤트 기반 또는 트랜잭션 메시지 | 온디맨드 실행 - 페이로드가 있는 API 호출에 의해 트리거됨 |
 | **오케스트레이션된 캠페인** | 다중 엔티티 세그먼테이션이 있는 복잡한 일괄 처리 워크플로 | 일괄 처리 캔버스 - 모든 프로필이 함께 처리됨 |
+
+>[!TIP]
+>
+>**간단한 경험 법칙:** 각 고객이 실시간 논리를 사용하여 각자의 속도로 이동해야 합니까? **여정**&#x200B;을(를) 사용합니다. 일정에 따라 한 개의 메시지를 대상자에게 보내는 경우 **작업 캠페인**&#x200B;을 사용하십시오. API를 통해 외부 시스템에서 트리거? **API 트리거 캠페인**&#x200B;을(를) 사용합니다. 다중 엔티티 데이터, 정확한 개수 또는 일괄 처리 캔버스가 필요하십니까? **오케스트레이션된 캠페인**&#x200B;을 사용하세요.
 
 ## 세부 비교 {#detailed-comparison}
 
@@ -55,7 +60,7 @@ Adobe Journey Optimizer은 고객에게 도달하고 참여시킬 수 있는 세
 
 ## 결정 안내서 {#decision-guide}
 
-다음 의사 결정 트리에 따라 올바른 접근 방식을 선택하십시오.
+이 결정 트리를 따라 올바른 접근 방식을 선택하십시오. 많은 브랜드가 두 가지 이상의 유형을 사용합니다. 각 사용 사례에 가장 적합한 유형을 선택하십시오.
 
 ### 1단계: 실행 요구 사항
 
@@ -66,13 +71,13 @@ Adobe Journey Optimizer은 고객에게 도달하고 참여시킬 수 있는 세
 * 실시간 컨텍스트가 중요합니다.
 
 **예약된 시간에 대상자에게 간단한 메시지를 전달하시겠습니까?**
-→1&rbrace;작업 캠페인 사용&#x200B;**선택**
+→1}작업 캠페인 사용**선택**
 * 모든 프로필이 동시에 메시지를 수신함
 * 예약된 전송 또는 반복 전송
 * 복잡한 여러 단계 논리 필요 없음
 
 **외부 시스템에 의해 트리거된 즉각적인 메시지입니까?**
-→1&rbrace;API 트리거 캠페인 사용&#x200B;**&#x200B;**
+→1}API 트리거 캠페인 사용****
 * API 호출을 통해 요청 시 트리거됨
 * 페이로드 기반 개인화
 * 복잡한 여러 단계 논리 필요 없음
@@ -94,7 +99,7 @@ Adobe Journey Optimizer은 고객에게 도달하고 참여시킬 수 있는 세
 | 비헤이비어에 따라 비활성 사용자 재참여 | 여정 | 대상 자격, 개인화된 경로에 의해 트리거됨 |
 | 비즈니스 이벤트에 의해 트리거된 플래시 판매 | 여정(비즈니스 이벤트) | 여러 고객에게 영향을 주는 실시간 트리거 |
 | 제품 카탈로그 통합으로 계절별 홍보 | 오케스트레이션된 캠페인 | 다중 엔티티 데이터, 복잡한 세분화, 정확한 카운트 |
-| API 트리거된 트랜잭션 메시지 | API-트리거된 캠페인 | 외부 시스템 트리거, 즉각적인 전달 |
+| API 트리거된 트랜잭션 메시지 | API 트리거된 캠페인 | 외부 시스템 트리거, 즉각적인 전달 |
 | 예약당 여러 수준 전송 | 오케스트레이션된 캠페인 | 다중 엔티티 관계, 예약당 하나의 메시지 |
 
 ## 주요 차이점 설명 {#key-distinctions}
@@ -230,12 +235,14 @@ Enrich with product data → Build segments → Send personalized offers → All
 
 +++ 마케팅 전략에 여정과 캠페인을 결합할 수 있습니까?
 
-당연하지! 대부분의 조직은 서로 다른 시나리오에 대해 세 가지 접근 방식을 모두 사용합니다.
+예. 대부분의 조직은 서로 다른 시나리오에 대해 네 가지 접근 방식을 모두 사용합니다.
 
-* 행동 및 실시간 참여에 대한 여정
-* 예약된 브로드캐스트 통신에 대한 작업 캠페인
-* 트랜잭션 메시지를 위한 API 트리거 캠페인
-* 복잡한 데이터 집약적 일괄 처리 캠페인을 위한 통합 캠페인
+* 동작, 실시간 참여를 위한 **여정**
+* 예약된 브로드캐스트 통신에 대한 **작업 캠페인**
+* 트랜잭션 메시지용 **API 트리거 캠페인**
+* 복잡한 데이터 집약적 일괄 처리 캠페인을 위한 **오케스트레이션된 캠페인**
+
+모든 경우에 한 가지 접근 방식을 강요하지 않고 각 사용 사례에 적합한 도구를 사용하십시오.
 
 +++
 
@@ -253,17 +260,17 @@ Enrich with product data → Build segments → Send personalized offers → All
 
 +++ 대규모 대상자에게 어떤 확장이 더 적합합니까?
 
-세 가지 모두 확장이 가능하지만,
+네 가지 모두 확장성이 뛰어납니다. 올바른 선택은 패턴에 따라 다릅니다.
 
-* **대상자 여정 읽기** 및 **작업 캠페인**&#x200B;은(는) 일괄 처리 대상자에 맞게 최적화되었습니다.
-* 대규모 데이터 세트를 포함하는 복잡한 세분화에서 **오케스트레이션된 캠페인** excel
-* **단일 여정**&#x200B;은(는) 개별적으로 프로필을 처리하므로 스케일은 이벤트 볼륨에 따라 다릅니다
+* **대상자 여정 읽기** 및 **작업 캠페인**&#x200B;은(는) 일괄 처리 대상자(한 번에 하나의 메시지 또는 여러 프로필에 대한 흐름)에 최적화되어 있습니다.
+* **오케스트레이션된 캠페인** 대규모 데이터 세트 및 다중 엔터티 데이터를 사용하는 복잡한 세분화에서 Excel을 실행합니다.
+* **단일(이벤트 기반) 여정**&#x200B;은 이벤트가 발생할 때 개별적으로 프로필을 처리하므로 이벤트 볼륨 및 처리량에 따라 크기가 달라집니다.
 
 +++
 
 +++ 여정 및 캠페인에서 동일한 대상을 사용할 수 있습니까?
 
-예. Adobe Experience Platform에서 만든 대상자는 세 가지 접근 방식 모두에서 사용할 수 있습니다.
+예. [!DNL Adobe Experience Platform]에서 만든 대상은 여정, 작업 캠페인 및 오케스트레이션된 캠페인에서 사용할 수 있습니다(캔버스에서 대상 논리를 온디맨드로 빌드할 수도 있음). API 트리거 캠페인은 페이로드 기반으로 하며 사전 빌드된 대상을 동일한 방식으로 사용하지 않습니다.
 
 +++
 
@@ -271,12 +278,14 @@ Enrich with product data → Build segments → Send personalized offers → All
 
 빌드를 시작할 준비가 되셨나요? 선택한 접근 방식에 대한 자세한 설명서를 살펴보십시오.
 
-* **[여정 시작](../building-journeys/journey.md)** - 여정 유형, 디자이너 및 워크플로에 대해 알아보기
-* **[캠페인 시작](../campaigns/get-started-with-campaigns.md)** - 작업 및 API 트리거 캠페인 살펴보기
-* **[오케스트레이션된 캠페인 시작](../orchestrated/gs-orchestrated-campaigns.md)** - 일괄 처리 캔버스 워크플로 살펴보기
+* **[여정 시작](../building-journeys/journey.md)** - 여정 유형, 디자이너 및 워크플로
+* **[캠페인 시작](../campaigns/get-started-with-campaigns.md)** - 작업 및 API 트리거 캠페인
+* **[오케스트레이션된 캠페인 시작](../orchestrated/gs-orchestrated-campaigns.md)** - 일괄 처리 캔버스 워크플로
 
-**결정하는 데 도움이 더 필요하십니까?**
-* [여정 유형 비교](../building-journeys/journey.md#journey-types-comparison)
-* [캠페인 유형 비교](../campaigns/get-started-with-campaigns.md#campaign-types)
-* [여정 FAQ](../building-journeys/journey-faq.md)
-* [오케스트레이션된 캠페인 FAQ](../orchestrated/orchestrated-campaigns-faq.md)
+>[!MORELIKETHIS]
+>
+>* [여정 유형 비교](../building-journeys/journey.md#journey-types-comparison)
+>* [캠페인 유형 비교](../campaigns/get-started-with-campaigns.md#campaign-types)
+>* [여정 FAQ](../building-journeys/journey-faq.md)
+>* [오케스트레이션된 캠페인 FAQ](../orchestrated/orchestrated-campaigns-faq.md)
+>* [모범 사례](best-practices.md) - 실시간 사용 사례 및 보호 기능을 통한 크기 조정
