@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 279fd366b14520daec1df7f843ed337348e145a5
+source-git-commit: 9dbe9c4f6073f68bc7d01b2a72dc89c927870dcf
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1552'
 ht-degree: 39%
 
 ---
@@ -251,7 +251,7 @@ ht-degree: 39%
 * **여정 식의 경험 이벤트 사용** - 2026년 4월 1일부터 지난 90일 동안 이 기능을 사용하지 않은 조직에 대해 여정 식의 경험 이벤트 특성 사용이 더 이상 지원되지 않습니다. 이 기능은 2025년 7월 8일 이후 신규 고객 조직에서 이미 사용할 수 없습니다. 대안은 [여정의 경험 이벤트 조회](../building-journeys/exp-event-lookup.md)를 참조하십시오.
 
 
-* **하위 도메인 위임 방법 전환** - 이제 하나의 하위 도메인 위임 방법에서 다른 하위 도메인 위임 방법으로 전환할 수 있습니다. 이렇게 하면 CNAME 위임 모드를 사용하여 도메인을 회사의 보안 정책을 준수하도록 사용자 지정 위임 방법으로 마이그레이션할 수 있습니다.
+* **하위 도메인을 사용자 지정 위임으로 마이그레이션** - 이제 CNAME 위임 모드를 사용하여 하위 도메인을 인터페이스에서 직접 사용자 지정 위임으로 마이그레이션할 수 있으므로 채널 구성을 다시 만들지 않고도 회사의 지침에 따라 보다 엄격한 보안 정책을 충족할 수 있습니다.
 
   **참고**: 이 기능은 조직 집합(<strong>제한된 가용성</strong>)에서만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
 
