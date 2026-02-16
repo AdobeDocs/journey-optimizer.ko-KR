@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9dbe9c4f6073f68bc7d01b2a72dc89c927870dcf
+source-git-commit: d3e361c6b7a91a1fd3b72d12a8aa6fefc295837a
 workflow-type: tm+mt
-source-wordcount: '1552'
-ht-degree: 39%
+source-wordcount: '1549'
+ht-degree: 40%
 
 ---
 
@@ -46,11 +46,11 @@ ht-degree: 39%
 <tbody>
 <tr>
 <td>
-<p><strong>캠페인</strong> 또는 <strong>여정</strong>의 아웃바운드 메시지를 시간에 따라 제어된 <strong>일괄 처리</strong>로 전달하도록 예약할 수 있습니다.</p>
+<p>캠페인 또는 여정의 아웃바운드 메시지가 시간에 따라 제어된 배치로 전달되도록 예약할 수 있습니다.</p>
 <p>웨이브 전송은 다음과 같은 이점을 제공합니다.</p>
 <ul>
-<li>더 나은 <strong>전달성</strong> - Spread는 보낸 사람의 신뢰도를 유지하고 스팸으로 표시될 위험을 줄이기 위해 시간이 지남에 따라 전송됩니다.</li>
-<li><strong>로드 제어</strong> - 한 번에 나가는 메시지 수를 제한하여 너무 많은 다운스트림 시스템(예: 콜 센터, 랜딩 페이지)을 사용하지 마십시오.</li>
+<li>전달성 향상 - Spread는 시간이 지남에 따라 전송을 수행하여 강력한 발신자 평판을 유지하고 스팸으로 플래그가 지정될 위험을 줄이는 데 도움이 됩니다.</li>
+<li>로드 제어 - 한 번에 전송되는 메시지 수를 제한하여 압도적인 다운스트림 시스템(예: 콜 센터, 랜딩 페이지)을 방지합니다.</li>
 <li>대량의 시간에 민감한 사용 사례 - 대규모 대상자에 적합하거나 시간 조절(예: 콜 센터 용량, 램프 업 또는 시간 제한 제안)이 필요한 경우.</li>
 </ul>
 </td>
@@ -67,7 +67,7 @@ ht-degree: 39%
 <tbody>
 <tr>
 <td>
-<p>이제 <strong>수식</strong> 및 <strong>AI 모델</strong>을 사용하여 고객 프로필 특성 및 컨텍스트 요소를 기반으로 여정 우선 순위 점수를 자동으로 높여 고객이 가장 관련성이 높은 여정을 입력하도록 할 수 있습니다.</p>
+<p>이제 <strong>등급 수식</strong> <!--and <strong>AI models</strong> -->을 사용하여 고객 프로필 특성 및 컨텍스트 요인에 따라 여정 우선 순위 점수를 자동으로 높여 고객이 가장 관련성이 높은 여정을 입력하도록 할 수 있습니다.</p>
 <p>이 기능은 조직 집합(<strong>제한된 가용성</strong>)에만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
 </td>
 </tr>
@@ -110,6 +110,22 @@ ht-degree: 39%
 <table>
 <thead>
 <tr>
+<th><strong>AI 모델 모니터링</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 Journey Optimizer을 통해 Decisioning에서 AI 모델의 상태, 교육 상태 및 성능을 모니터링하여 교육 성공을 확인하고, 실패를 해결하며, 결과에 미치는 영향을 이해할 수 있습니다.</p>
+<p>이 기능은 현재 <strong>개인화된 최적화</strong> 모델에만 사용할 수 있습니다(자동 최적화는 아님).</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>여정의 액션 활동</strong><br/></th>
 </tr>
 </thead>
@@ -120,8 +136,8 @@ ht-degree: 39%
 <ul>
 <li>여정 캔버스 내 기본 액션 구성 간소화.</li>
 <li>다중 액션 인바운드 액션 그룹을 만들 수 있는 용량.</li>
-<li>기본 제공 채널 작업에 <strong>최적화</strong>을(를) 추가하는 기능입니다.</li>
-<li>모든 작업에 <strong>실험</strong> 및 <strong>다국어</strong> 옵션을 모두 추가하는 기능.</li>
+<li>모든 기본 제공 채널 액션에 최적화를 더하는 기능.</li>
+<li>모든 작업에 실험 및 다국어&gt; 옵션을 모두 추가하는 기능.</li>
 </ul>
 <p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
 </td>
@@ -193,11 +209,11 @@ ht-degree: 39%
 <tbody>
 <tr>
 <td>
-<p><strong>마이그레이션 도구 API</strong>을(를) 사용하여 <strong>의사 결정 관리</strong> 엔터티를 <strong>의사 결정</strong>(으)로 프로그래밍 방식으로 마이그레이션할 수 있습니다.</p>
+<p>이제 마이그레이션 도구 API를 사용하여 <strong>의사 결정 관리</strong> 엔터티를 <strong>의사 결정</strong>(으)로 프로그래밍 방식으로 마이그레이션할 수 있습니다.</p>
 <ul>
-<li>유연한 마이그레이션 범위(<strong>샌드박스</strong>, <strong>오퍼</strong> 또는 <strong>결정</strong> 수준)</li>
-<li>자동화된 <strong>종속성 분석</strong> 및 유효성 검사</li>
-<li>완료된 마이그레이션에 대한 <strong>롤백 지원</strong></li>
+<li>유연한 마이그레이션 범위(샌드박스, 오퍼 또는 의사 결정 수준)</li>
+<li>자동화된 종속성 분석 및 유효성 검사</li>
+<li>완료된 마이그레이션에 대한 롤백 지원</li>
 <li>오브젝트 매핑이 포함된 자세한 마이그레이션 보고서</li>
 </ul>
 <p>자세한 내용은 <a href="../experience-decisioning/decisioning-migration-api.md">세부 설명서</a>를 참조하십시오.</p>
@@ -277,9 +293,6 @@ ht-degree: 39%
 
 
 * **코드 기반 경험 채널에서 경험 의사 결정 미리 보기** - 이제 코드 기반 경험 채널에서 경험 의사 결정을 구성할 때 의사 결정 항목을 미리 볼 수 있습니다. 미리보기는 라이브로 전환되기 전에 작성 인터페이스에서 직접 사용할 수 있습니다.
-
-
-* **상위 AI 모델 가시성** - 이제 Journey Optimizer을 통해 Decisioning에서 AI 모델의 상태, 교육 상태 및 성능을 모니터링할 수 있으므로 교육 성공을 확인하고, 오류를 해결하며, 결과에 미치는 영향을 이해할 수 있습니다. 이 기능은 개인화된 최적화 모델(자동 최적화는 아님)에만 사용할 수 있습니다.
 
 
 * **결정 항목에 조각 첨부** - 이제 Journey Optimizer가 결정 항목에 조각을 첨부할 수 있는 기능을 제공합니다. 따라서 결정 정책을 통해 코드 기반 경험 캠페인에서 활용할 수 있습니다.
