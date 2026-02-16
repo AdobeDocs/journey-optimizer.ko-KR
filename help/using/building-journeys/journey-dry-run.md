@@ -149,4 +149,4 @@ stepEvent 데이터를 **외부 시스템**(으)로 내보내는 경우 `inDryRu
 
 이 비디오에서는 여정을 시험 실행하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464689/?captions=kor&learn=on&enablevpops)
