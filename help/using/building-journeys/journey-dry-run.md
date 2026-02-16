@@ -9,9 +9,9 @@ level: Intermediate
 keywords: 게시, 여정, 라이브, 유효성, 확인
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: bacae861439e5869890cf3fc3f0a5c17559530b6
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1143'
 ht-degree: 8%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 8%
 
   ![시험 실행 여정의 작업 활동이 회색으로 표시됨](assets/dry-run-greyed-activities.png){width="80%" align="left"}
 
-* **외부 데이터 원본을 포함한 데이터 원본** 및 **대기** 활동은 기본적으로 시험 실행 중에 비활성화되어 있습니다. 그러나 시험 실행 모드를 활성화[할 때 이 동작을 &#x200B;](#journey-dry-run-start)변경할 수 있습니다.
+* **외부 데이터 원본을 포함한 데이터 원본** 및 **대기** 활동은 기본적으로 시험 실행 중에 비활성화되어 있습니다. 그러나 시험 실행 모드를 활성화[할 때 이 동작을 ](#journey-dry-run-start)변경할 수 있습니다.
 
 * **반응** 노드가 실행되지 않습니다. 입력한 모든 프로필이 성공하면 종료됩니다. 그러나 다음 우선순위 규칙이 적용됩니다.
    * **Reaction** 노드를 하나 또는 여러 **단일 이벤트** 노드와 병렬로 사용하면 프로필은 항상 반응 이벤트를 통과합니다.
@@ -66,7 +66,7 @@ ht-degree: 8%
 
 >[!CAUTION]
 >
->* 시험 실행을 시작할 수 있는 권한은 **[!DNL Publish journeys]** 높은 수준의 권한을 가진 사용자로 제한됩니다. 기본 실행을 중지할 수 있는 권한은 **[!DNL Manage journeys]** 높은 수준의 권한을 가진 사용자로 제한됩니다. [!DNL Journey Optimizer]이 섹션[에서 &#x200B;](../administration/permissions-overview.md) 사용자의 액세스 권한 관리에 대해 자세히 알아보세요.
+>* 시험 실행을 시작할 수 있는 권한은 **[!DNL Publish journeys]** 높은 수준의 권한을 가진 사용자로 제한됩니다. 기본 실행을 중지할 수 있는 권한은 **[!DNL Manage journeys]** 높은 수준의 권한을 가진 사용자로 제한됩니다. [!DNL Journey Optimizer]이 섹션[에서 ](../administration/permissions-overview.md) 사용자의 액세스 권한 관리에 대해 자세히 알아보세요.
 >
 >* 시험 실행 기능을 사용하기 전에 [보호 기능 및 제한 사항을 읽어보세요](#journey-dry-run-limitations).
 
@@ -137,16 +137,16 @@ ht-degree: 8%
 
 ![여정 시험 실행 스키마 특성](assets/dry-run-attributes.png)
 
-* `_experience.journeyOrchestration.stepEvents.inDryRun`은(는) 시험 실행이 활성화되면 `true`을(를) 반환하고 그렇지 않으면 `false`을(를) 반환합니다.
-* `_experience.journeyOrchestration.stepEvents.dryRunID`에서 시험 실행 인스턴스의 ID를 반환합니다.
+* `_experience.journeyOrchestration.stepEvents.inDryRun`은(는) 여정이 시험 실행 모드에 있는 경우 `true`을(를) 반환하고, 시험 또는 라이브 여정(시험 실행 이외의 실행)에 대해 `null`을(를) 반환합니다.
+* `_experience.journeyOrchestration.stepEvents.dryRunID`은(는) 시험 실행 모드에 있을 때 시험 실행 인스턴스의 ID를 반환합니다. 여정 또는 라이브 테스트의 경우 `null`입니다.
 
 
 stepEvent 데이터를 **외부 시스템**(으)로 내보내는 경우 `inDryRun` 플래그를 사용하여 드라이 실행 실행을 필터링할 수 있습니다.
 
-**여정 서비스를 사용하여**&#x200B;쿼리 보고 지표[!DNL Adobe Experience Platform]을(를) 분석할 때 시험 실행 생성 단계 이벤트를 제외해야 합니다. 이 작업을 수행하려면 `inDryRun` 플래그를 `false`(으)로 설정하십시오.
+**여정 서비스를 사용하여**&#x200B;쿼리 보고 지표[!DNL Adobe Experience Platform]을(를) 분석할 때 시험 실행 생성 단계 이벤트를 제외해야 합니다. 이렇게 하려면 `inDryRun`이(가) `true`인 단계 이벤트를 제외합니다(즉, `inDryRun`이(가) `null` 또는 `false`인 이벤트만 포함).
 
 ## 사용 방법 비디오 {#dry-run-video}
 
 이 비디오에서는 여정을 시험 실행하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464689/?captions=kor&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)
