@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 문제 해결, 문제 해결, 여정, 확인, 오류
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
 version: Journey Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 0b003420fd0bf466f81f5377ef58f17695283259
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 38%
+source-wordcount: '503'
+ht-degree: 36%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 38%
 
 이 섹션에서는 테스트 또는 게시 전에 여정 문제를 해결하는 방법에 대해 알아봅니다. 아래 나열된 모든 검사는 여정이 테스트 모드에 있거나 여정이 라이브 상태일 때 수행할 수 있습니다. 테스트 모드에서 아래의 모든 검사를 수행한 후에 게시를 진행하는 것이 좋습니다. [이 페이지](../building-journeys/testing-the-journey.md)의 테스트 모드에 대해 자세히 알아보세요.
 
-여정 이벤트의 문제를 해결하는 방법, 프로필이 여정을 입력했는지 여부, 프로필을 통해 이동하는 방법, 메시지가 이 페이지에서 [전송되는지 여부](troubleshooting-execution.md)를 알아봅니다.
+여정 이벤트의 문제를 해결하는 방법, 프로필이 여정을 입력했는지 여부, 프로필을 통해 이동하는 방법, 메시지가 이 페이지에서 [전송되는지 여부](troubleshooting-execution.md)를 알아봅니다. 이벤트가 수집되고 있지만 이벤트 기반 여정에 프로필이 들어오지 않는 경우 [이벤트 조건 데이터 형식이 이벤트 스키마와 일치하는지 확인](troubleshooting-execution.md#verify-event-identity-and-rule-data-types)하십시오.
 
 인바운드 액션을 사용 중인 경우 이 페이지에서 [문제를 해결하는 방법](troubleshooting-inbound.md)을 알아보세요.
 
