@@ -5,13 +5,13 @@ title: 월별 설명서 업데이트 보고서
 description: 새 설명서 페이지 및 업데이트된 설명서 페이지 목록
 hide: true
 hidefromtoc: true
-source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
+exl-id: 7962189b-4135-4f88-b91d-40d21cdf6c6d
+source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
 workflow-type: tm+mt
 source-wordcount: '1293'
 ht-degree: 0%
 
 ---
-
 
 # 월별 설명서 업데이트 보고서
 
@@ -125,7 +125,7 @@ ht-degree: 0%
 - [API 트리거 캠페인에 대해 높은 처리량 모드 활성화](help/using/campaigns/api-triggered-high-throughput.md) - 10월 27일
 - [방해 금지 시간 설정](help/using/conflict-prioritization/quiet-hours.md) - 10월 22일
 - [Journey Optimizer Experimentation Accelerator](help/using/content-management/experiment-accelerator-gs.md) - 24일
-- [이미지를 HTML HTML 변환기로 변환하고](help/using/email/image-to-html.md) - 10월 30일
+- [이미지를 HTML HTML 변환기로 변환하고](help/using/content-management/image-to-html.md) - 10월 30일
 - [의사 결정 정책 만들기](help/using/experience-decisioning/create-decision-policy.md) - 10월 7일
 - [메시지에서 의사 결정 정책 사용](help/using/experience-decisioning/use-decision-policy.md) - 10월 9일
 - [채널 구성](help/using/orchestrated/channel-config.md) - 10월 14일

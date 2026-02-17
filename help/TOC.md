@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 279fd366b14520daec1df7f843ed337348e145a5
+source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
 workflow-type: tm+mt
 source-wordcount: '3086'
 ht-degree: 98%
@@ -273,7 +273,6 @@ ht-degree: 98%
             + [콘텐츠 가져오기](using/email/existing-content.md)
             + [나만의 콘텐츠 코딩](using/email/code-content.md)
             + [이메일 템플릿 사용](using/email/use-email-templates.md)
-            + [이미지를 HTML 템플릿으로 전환](using/email/image-to-html.md)
             + [이메일 테마 활용](using/email/apply-email-themes.md)
             + [이메일에 PDF 파일 첨부](using/email/pdf-attachments.md)
          + 콘텐츠 디자인 {#add-content}
@@ -352,7 +351,7 @@ ht-degree: 98%
          + [웹 채널 전제 조건](using/web/web-prerequisites.md)
          + [웹 하위 도메인 구성](using/web/web-delegated-subdomains.md)
          + [웹 채널 구성 만들기](using/web/web-configuration.md)
-      + [웹 경험 만들기 &#x200B;](using/web/create-web.md)
+      + [웹 경험 만들기 ](using/web/create-web.md)
       + 웹 페이지 작성 {#author-web-pages}
          + [웹 페이지 작성](/help/rp_landing_pages/author-web-pages-landing-page.md)
          + [웹 디자이너를 사용하여 작업](using/web/web-visual-editor.md)
@@ -406,7 +405,7 @@ ht-degree: 98%
          + [Journey Optimizer에서 라이브 활동 구성](using/mobile-live/mobile-live-configuration.md)
          + [라이브 활동 SDK 통합 구성](using/mobile-live/mobile-live-configuration-sdk.md)
 + 콘텐츠 관리 {#content-management}
-   + [콘텐츠 관리 &#x200B;](/help/rp_landing_pages/content-management-landing-page.md)
+   + [콘텐츠 관리 ](/help/rp_landing_pages/content-management-landing-page.md)
    + 개인화 {#personalization}
       + [개인화](/help/rp_landing_pages/personalization-landing-page.md)
       + [개인화 시작](using/personalization/personalize.md)
@@ -457,6 +456,7 @@ ht-degree: 98%
       + [콘텐츠 템플릿 시작](using/content-management/content-templates.md)
       + [템플릿 액세스 및 관리](using/content-management/access-content-templates.md)
       + [콘텐츠 템플릿 만들기](using/content-management/create-content-templates.md)
+      + [이미지를 HTML 템플릿으로 전환](using/content-management/image-to-html.md)
       + [이메일 템플릿의 콘텐츠 잠그기](using/content-management/content-locking.md)
       + [콘텐츠 템플릿 테스트](using/content-management/test-content-templates.md)
       + [콘텐츠 템플릿 사용](using/content-management/use-content-templates.md)

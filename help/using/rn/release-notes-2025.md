@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: b53c28405e453be3767f05e2c7a7a1b2e69d0416
+source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
 workflow-type: tm+mt
 source-wordcount: '9009'
 ht-degree: 100%
@@ -35,7 +35,7 @@ ht-degree: 100%
 <p>이미지 HTML 전환기는 정적 이미지 디자인을 완전히 사용자 정의 가능한 모듈형 HTML 이메일 콘텐츠 템플릿으로 전환하는 AI 기반 기능입니다. 이 노코드 도구를 사용하면 마케터가 기술 전문 지식 없이도 시각적 디자인을 편집 가능한 반응형 이메일 템플릿으로 전환할 수 있어 플랫폼 마이그레이션, 신속한 템플릿 작성, 재사용 가능한 템플릿 라이브러리 구축에 이상적입니다.</p>
 <p><img src="../email/assets/email_designer_converted_img.png"/></p>
 <p>이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.</p>
-<p>자세한 내용은 <a href="../email/image-to-html.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../content-management/image-to-html.md">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2025년 10월 30일</p>
 </td>
 </tr>
