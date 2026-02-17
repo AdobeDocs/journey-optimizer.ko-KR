@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0472c9bb9decc49e5da392003027df23ec528ac9
+source-git-commit: 1bcd30022ea2360d44f5519e156129f603cdf149
 workflow-type: tm+mt
-source-wordcount: '1490'
-ht-degree: 39%
+source-wordcount: '1525'
+ht-degree: 38%
 
 ---
 
@@ -46,12 +46,13 @@ ht-degree: 39%
 <tbody>
 <tr>
 <td>
-<p>캠페인 또는 여정의 아웃바운드 메시지가 시간에 따라 제어된 배치로 전달되도록 예약할 수 있습니다.</p>
+<p>이제 Journey Optimizer 캠페인 또는 여정의 아웃바운드 메시지가 시간에 따라 제어된 배치로 전달되도록 예약할 수 있습니다.</p>
 <p>웨이브 전송은 다음과 같은 이점을 제공합니다.</p>
 <ul>
 <li>전달성 향상 - Spread는 시간이 지남에 따라 전송을 수행하여 강력한 발신자 평판을 유지하고 스팸으로 플래그가 지정될 위험을 줄이는 데 도움이 됩니다.</li>
 <li>로드 제어 - 한 번에 전송되는 메시지 수를 제한하여 압도적인 다운스트림 시스템(예: 콜 센터, 랜딩 페이지)을 방지합니다.</li>
 <li>대량의 시간에 민감한 사용 사례 - 대규모 대상자에 적합하거나 시간 조절(예: 콜 센터 용량, 램프 업 또는 시간 제한 제안)이 필요한 경우.</li>
+<p>캠페인에서 이 기능은 모든 환경에서 사용할 수 있습니다(일반 가용성). 여정에서 이 기능은 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
 </ul>
 </td>
 </tr>
