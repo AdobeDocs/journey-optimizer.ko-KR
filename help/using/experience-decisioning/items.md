@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-source-git-commit: 648c2d9d41e169b7aa64b659ee1234744805c7a8
+source-git-commit: 6c85cfa27002de17f6625447fa0b7eaaceb9f829
 workflow-type: tm+mt
-source-wordcount: '2121'
+source-wordcount: '2100'
 ht-degree: 15%
 
 ---
@@ -78,8 +78,8 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
 >abstract="기본적으로 모든 프로필은 결정 항목을 수신할 수 있지만 대상자 또는 규칙을 사용하여 항목을 특정 프로필로만 제한할 수 있습니다."
 
 <!--
->"additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
@@ -123,13 +123,9 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
 >
 >최대 가용량 카운터 값은 업데이트하는 데 최대 3초가 걸릴 수 있습니다. 예를 들어 웹 사이트에 오퍼를 표시하는 웹 배너를 표시한다고 가정해 보겠습니다. 주어진 사용자가 3초 이내에 웹 사이트의 다음 페이지로 이동하면 해당 사용자에 대해 카운터 값이 증가하지 않습니다.
 
-최대 가용량 규칙을 구성할 때 Adobe Experience Platform 데이터 세트에 저장된 속성을 참조하여 임계값을 정의할 수 있습니다. 데이터 집합을 사용하려면 **[!UICONTROL 데이터 집합]** 섹션에서 데이터 집합을 선택하십시오.
+최대 가용량 규칙을 구성할 때 Adobe Experience Platform 데이터 세트에 저장된 속성을 참조하여 임계값을 정의할 수 있습니다. 데이터 집합을 사용하려면 **[!UICONTROL 데이터 집합]** 섹션에서 데이터 집합을 선택하십시오. [의사 결정을 위해 Adobe Experience Platform 데이터를 사용하는 방법을 알아봅니다](../experience-decisioning/aep-data-exd.md)
 
 ![](assets/exd-lookup-capping.png)
-
->[!NOTE]
->
->이 기능은 현재 모든 사용자에게 제한된 가용성으로 제공됩니다. 사용 방법에 대한 자세한 내용은 이 섹션에서 확인할 수 있습니다. [의사 결정에 Adobe Experience Platform 데이터 사용](../experience-decisioning/aep-data-exd.md)
 
 결정 항목에 대한 최대 가용량 규칙을 설정하려면 **[!UICONTROL 최대 가용량 만들기]** 단추를 클릭한 다음 아래에 설명된 단계를 수행합니다.
 

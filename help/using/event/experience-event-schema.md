@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 스키마, XDM, 플랫폼, 스트리밍, 수집, 여정
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 18067694878761f3b37277dfee6f7e43987a1d42
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '387'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->여정 조건의 경험 이벤트 조회는 더 이상 지원되지 않습니다. 여기에서 대체 모범 사례를 확인하십시오. 여전히 경험 이벤트 조회가 필요하며 나열된 대체 항목을 통해 지원할 수 없는 이벤트 트리거 여정 사용 사례가 있는 경우 Adobe 담당자에게 문의하십시오. 목표에 도달할 수 있도록 도와드리겠습니다.
+>2025년 7월 8일부터 새 고객 조직은 여정 조건에서 경험 이벤트 속성을 사용하여 표현식을 만들 수 없습니다. 2026년 4월 1일부터 지난 90일 동안 여정 표현식을 통해 경험 이벤트에 액세스하지 않은 조직은 이 기능에 더 이상 액세스할 수 없습니다. 대체 방법 및 모범 사례는 [여정의 경험 이벤트 조회](../building-journeys/exp-event-lookup.md)에 나열되어 있습니다.
 >
 >여정의 시작 이벤트에서 컨텍스트에 액세스하는 것은 영향을 받지 않습니다.
 
@@ -80,7 +80,7 @@ Here is the purchase schema with the relationship defined on the product ID fiel
 
 >[!NOTE]
 >
->Learn more about schema relationships in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=ko).
+>Learn more about schema relationships in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html).
 
 In Journey Optimizer, you can then leverage all the fields from the linked tables:
 

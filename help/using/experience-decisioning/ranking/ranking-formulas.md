@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 version: Journey Orchestration
-source-git-commit: 648c2d9d41e169b7aa64b659ee1234744805c7a8
+source-git-commit: 6c85cfa27002de17f6625447fa0b7eaaceb9f829
 workflow-type: tm+mt
-source-wordcount: '1481'
-ht-degree: 6%
+source-wordcount: '1459'
+ht-degree: 5%
 
 ---
 
@@ -66,9 +66,7 @@ ht-degree: 6%
    >
    >순위 수식의 중첩 깊이는 30개 수준으로 제한됩니다. 이는 PQL 문자열에서 `)` 닫는 괄호를 계산하여 측정됩니다. 규칙 문자열의 크기는 UTF-8 인코딩 문자의 경우 최대 8KB까지 가능합니다. 이는 8,000개의 ASCII 문자(각각 1바이트) 또는 2,000-4,000개의 비 ASCII 문자(각각 2-4바이트)에 해당합니다. [보호 기능 및 제한 결정에 대해 자세히 알아보기](../decisioning-guardrails.md#ranking-formulas)
 
-1. Adobe Experience Platform의 데이터를 사용하여 실제 조건을 반영하도록 순위 논리를 동적으로 조정할 수도 있습니다. 이 기능은 제품 가용성 또는 실시간 가격과 같이 자주 변경되는 속성에 특히 유용합니다.
-
-   이 기능은 현재 모든 고객이 공개 Beta로 사용할 수 있습니다. 액세스하려면 계정 담당자에게 문의하십시오. [의사 결정을 위해 Adobe Experience Platform 데이터를 사용하는 방법 알아보기](../aep-data-exd.md)
+1. Adobe Experience Platform의 데이터를 사용하여 실제 조건을 반영하도록 순위 논리를 동적으로 조정할 수도 있습니다. 이 기능은 제품 가용성 또는 실시간 가격과 같이 자주 변경되는 속성에 특히 유용합니다. [의사 결정을 위해 Adobe Experience Platform 데이터를 사용하는 방법 알아보기](../aep-data-exd.md)
 
 <!--## Select an ELS dataset {#els-dataset}
 

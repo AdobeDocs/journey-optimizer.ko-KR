@@ -5,10 +5,10 @@ title: 여정에서 경험 이벤트 조회
 description: 여정에서 경험 이벤트 조회를 사용하는 방법 알아보기
 exl-id: 35e2e347-0669-44a3-92ba-aee52e54c219
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 18067694878761f3b37277dfee6f7e43987a1d42
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 6%
+source-wordcount: '960'
+ht-degree: 4%
 
 ---
 
@@ -16,7 +16,9 @@ ht-degree: 6%
 
 >[!CAUTION]
 >
->2025년 7월 8일부터 새로운 고객 조직에서는 경험 이벤트를 사용하여 표현식을 만드는 것이 여정 조건에 사용되는 표현식 편집기에서 더 이상 지원되지 않습니다. 따라서 표현식을 만드는 데 [Experience Platform 데이터 소스](../datasource/adobe-experience-platform-data-source.md)의 경험 이벤트를 사용할 수 없습니다. 경험 이벤트를 사용하여 표현식/논리를 생성하기 위한 대체 접근 방식 및 모범 사례가 아래에 참조됩니다.
+>2025년 7월 8일부터 새로운 고객 조직에서는 경험 이벤트를 사용하여 표현식을 만드는 것이 여정 조건에 사용되는 표현식 편집기에서 더 이상 지원되지 않습니다. 따라서 [Experience Platform 데이터 원본](../datasource/adobe-experience-platform-data-source.md)의 경험 이벤트는 식을 만드는 데 사용할 수 없습니다.
+>
+>2026년 4월 1일부터 지난 90일 동안 이 기능을 사용하지 않은 조직에서는 여정 표현식에 경험 이벤트 속성을 더 이상 사용할 수 없습니다. 경험 이벤트를 사용하여 표현식/논리를 생성하기 위한 대체 접근 방식 및 모범 사례가 아래에 참조됩니다.
 >
 >세부 정보가 필요하신가요? [FAQ 읽기](#faq-ee).
 
@@ -52,9 +54,9 @@ ht-degree: 6%
 
 자세히 알아보기:
 
-* [!DNL Adobe Experience Platform] [세그먼트 빌더 - 이벤트](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* [!DNL Adobe Experience Platform] [세그먼트 빌더 - 이벤트](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* [!DNL Adobe Experience Platform] [세그먼트 빌더 - 시간 제약 조건](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* [!DNL Adobe Experience Platform] [세그먼트 빌더 - 시간 제약 조건](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [조건에서 대상 사용](../building-journeys/condition-activity.md#using-a-segment)
 
@@ -71,9 +73,9 @@ ht-degree: 6%
 
 대상 을 사용하여 자세히 알아보기:
 
-* [!DNL Adobe Experience Platform] [세그먼트 빌더 - 이벤트](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* [!DNL Adobe Experience Platform] [세그먼트 빌더 - 이벤트](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* [!DNL Adobe Experience Platform] [세그먼트 빌더 - 시간 제약 조건](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* [!DNL Adobe Experience Platform] [세그먼트 빌더 - 시간 제약 조건](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [조건에서 대상 사용](../building-journeys/condition-activity.md#using-a-segment)
 
@@ -93,9 +95,9 @@ ht-degree: 6%
 
 자세히 알아보기:
 
-* [!DNL Adobe Experience Platform] [세그먼트 빌더 - 이벤트](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* [!DNL Adobe Experience Platform] [세그먼트 빌더 - 이벤트](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* [!DNL Adobe Experience Platform] [세그먼트 빌더 - 시간 제약 조건](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* [!DNL Adobe Experience Platform] [세그먼트 빌더 - 시간 제약 조건](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [조건에서 대상 사용](../building-journeys/condition-activity.md#using-a-segment)
 
@@ -105,8 +107,8 @@ ht-degree: 6%
 
 최신 장바구니를 기반으로 커뮤니케이션을 개인화하거나 여러 장바구니 유형 또는 제품 보기에서 이벤트를 찾아보려면 다음과 같이 하십시오.
 
-* [[!DNL Adobe Experience Platform] 데이터 Distiller](https://experienceleague.adobe.com/ko/docs/experience-platform/query/data-distiller/overview){target="_blank"}에 대한 액세스 권한이 있는 경우 자동화된 쿼리를 구성하여 이벤트에서 필요한 데이터를 추출하고 사용 사례에 맞게 조작한 다음 활성화를 위해 프로필 사용 데이터 집합에 다시 씁니다.
-* 중단 데이터를 스칼라 속성으로 프로필에 모델링할 수 있는 경우 계산된 속성을 사용하여 최신 정보를 캡처한 다음 여정에서 이러한 속성을 참조하여 커뮤니케이션을 구성하는 것이 좋습니다. [자세히 알아보기 [!DNL Adobe Experience Platform] 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
+* [[!DNL Adobe Experience Platform] 데이터 Distiller](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview){target="_blank"}에 대한 액세스 권한이 있는 경우 자동화된 쿼리를 구성하여 이벤트에서 필요한 데이터를 추출하고 사용 사례에 맞게 조작한 다음 활성화를 위해 프로필 사용 데이터 집합에 다시 씁니다.
+* 중단 데이터를 스칼라 속성으로 프로필에 모델링할 수 있는 경우 계산된 속성을 사용하여 최신 정보를 캡처한 다음 여정에서 이러한 속성을 참조하여 커뮤니케이션을 구성하는 것이 좋습니다. [자세히 알아보기 [!DNL Adobe Experience Platform] 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
 
 
 ## 동작 기반 여정 종료
@@ -123,13 +125,13 @@ ht-degree: 6%
 
 자세히 알아보기:
 
-* [!DNL Adobe Experience Platform] [계산된 특성 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
+* [!DNL Adobe Experience Platform] [계산된 특성 개요](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
 
 
 
 ## 자주 묻는 질문 {#faq-ee}
 
-여정의 경험 이벤트 조회에 대한 FAQ는 다음과 같습니다.
+이 FAQ는 여정 표현식의 경험 이벤트 사용 중단 및 영향을 받는 사람에 대한 타임라인에 중점을 둡니다. 대체 접근 방식에 대한 지침은 위의 사용 사례 및 모범 사례를 참조하십시오.
 
 세부 정보가 필요하신가요? 이 페이지 하단의 피드백 옵션을 사용하여 질문을 제기하거나 [[!DNL Adobe Journey Optimizer] 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"}에 연결하세요.
 
@@ -153,9 +155,9 @@ ht-degree: 6%
 
 +++
 
-+++기존 Adobe 조직이 이 업데이트의 영향을 받습니까? 
++++기존 Adobe 조직이 이 업데이트의 영향을 받습니까?
 
-Adobe 조직은 경험 이벤트 조회를 아직 사용하지 않은 경우에만 영향을 받습니다. [Experience Platform 데이터 소스](../datasource/adobe-experience-platform-data-source.md)에서 이미 경험 이벤트를 사용하고 있는 경우 Adobe 조직에서는 경험 이벤트 조회를 계속 지원합니다.
+2025년 7월 8일부터 새 고객 조직은 경험 이벤트 속성을 사용하여 표현식을 만들 수 없습니다. 2026년 4월 1일부터 지난 90일 동안 여정 표현식을 통해 경험 이벤트에 액세스하지 않은 조직은 이 기능에 더 이상 액세스할 수 없습니다.
 
 +++
 

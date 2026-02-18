@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 여정, 메시지, 푸시, sms, 이메일, 인앱, 웹, 콘텐츠 카드, 코드 기반 경험
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 6bef70948918be30d92c0c3a1e63d5ff8681f15f
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 13%
+source-wordcount: '1031'
+ht-degree: 12%
 
 ---
 
@@ -23,10 +23,6 @@ ht-degree: 13%
 >id="ajo_action_activity"
 >title="액션 활동"
 >abstract="일반 **액션** 활동을 사용하면 단일 네이티브 채널 액션과 여러 인바운드 활동을 구성하고 모든 기본 제공 채널 액션에 최적화를 추가할 수 있습니다."
-
->[!AVAILABILITY]
->
->이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.
 
 [!DNL Journey Optimizer]에는 단일 기본 제공 채널 작업과 여러 인바운드 활동을 구성할 수 있는 새로운 일반 **Action** 활동이 함께 제공됩니다.
 
@@ -102,7 +98,7 @@ ht-degree: 13%
 
 빠른 게재는 메시지 게재 지연이 비즈니스에 중요한 경우, 휴대폰에 긴급 푸시 알림(예: 뉴스 채널 앱을 설치한 사용자에게 속보)을 전송하려는 경우 사용됩니다.
 
-푸시 알림에 대해 빠른 전송 모드를 사용하는 방법을 알아봅니다. [&#x200B; 이 페이지](../push/create-push.md#rapid-delivery).
+푸시 알림에 대해 빠른 전송 모드를 사용하는 방법을 알아봅니다. [ 이 페이지](../push/create-push.md#rapid-delivery).
 
 빠른 전송 모드를 사용할 때의 성능에 대한 자세한 내용은 [[!DNL Adobe Journey Optimizer] 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}을 참조하세요.
 

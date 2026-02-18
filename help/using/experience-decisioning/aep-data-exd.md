@@ -11,10 +11,10 @@ level: Intermediate
 keywords: 표현식, 편집기
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
 version: Journey Orchestration
-source-git-commit: 648c2d9d41e169b7aa64b659ee1234744805c7a8
+source-git-commit: 6c85cfa27002de17f6625447fa0b7eaaceb9f829
 workflow-type: tm+mt
-source-wordcount: '1200'
-ht-degree: 25%
+source-wordcount: '1213'
+ht-degree: 24%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 25%
 
 ## 가드레일 및 제한 사항 {#guardrails}
 
-* **지원되는 채널** - 의사 결정을 사용한 데이터 세트 조회는 현재 전자 메일 및 여정 사용자 지정 작업에 대해 작동합니다. <!--Support for code-based experience channels is coming soon.-->
+* **지원되는 채널** - Decisioning을 사용한 데이터 세트 조회는 Decisioning을 사용할 수 있는 모든 채널, 즉 코드 기반 경험(인바운드), 이메일, 푸시, SMS 및 여정의 콘텐츠 결정 노드에 대해 작동합니다.
 * **특성 사용** - 의사 결정을 위한 데이터 집합 조회 기능은 결정 항목 정의를 추가 특성으로 확장합니다. 특성이 프로필로 확장되지 않습니다.
 * **조회 제한**: [!DNL Journey Optimizer]은(는) 단일 결정 정책당 최대 1,000개의 조회를 지원합니다.
 
