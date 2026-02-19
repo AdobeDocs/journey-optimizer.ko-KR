@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: 하위 도메인, 위임, 마이그레이션, CNAME, 사용자 정의 위임
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: 316553be4f04e4fc0ae11bc767f7e48f64fc5ccd
+source-git-commit: 3148a105551b920c4402c7b3c093aca1bb012061
 workflow-type: tm+mt
 source-wordcount: '1035'
 ht-degree: 5%
