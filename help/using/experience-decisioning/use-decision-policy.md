@@ -8,9 +8,9 @@ level: Experienced
 mini-toc-levels: 1
 version: Journey Orchestration
 exl-id: 35fc3cf2-1b91-4f30-ad71-f9d7d2a0291c
-source-git-commit: 71a5b2163500b26ef3ea61e55d18cad539bfeb7f
+source-git-commit: 708c67796974e019417efbf086ab60d26dfca866
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '780'
 ht-degree: 3%
 
 ---
@@ -56,6 +56,10 @@ ht-degree: 3%
 3. 아직 구성 요소에 할당된 배치가 없으면 목록에서 배치를 선택하고 **[!UICONTROL 할당]**&#x200B;을 클릭합니다.
 
    ![](assets/decision-policy-placement.png)
+
+   >[!NOTE]
+   >
+   >동일한 이메일에서 여러 개의 결정 정책을 사용하는 경우(예: 머리글에 대해 한 개의 결정 정책과 바닥글에 대해 한 개의 결정 정책), 동일한 오퍼가 배치 간에 중복 제거됩니다. 각 영역에는 서로 다른 오퍼가 수신됩니다. 여러 영역에 동일한 오퍼를 표시하려면 결정 정책을 추가할 때 **[!UICONTROL 결정 출력 재사용]**&#x200B;을 사용하십시오. [의사 결정 정책을 만드는 방법을 알아봅니다](create-decision-policy.md).
 
 >[!TAB SMS]
 

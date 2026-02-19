@@ -7,10 +7,10 @@ role: User
 level: Experienced
 version: Journey Orchestration
 exl-id: e7a89354-28ea-431f-a15d-a8c18946d266
-source-git-commit: 743165991c3f4d351cd6ab15e94ece0309c8e82a
+source-git-commit: 708c67796974e019417efbf086ab60d26dfca866
 workflow-type: tm+mt
-source-wordcount: '2108'
-ht-degree: 6%
+source-wordcount: '2189'
+ht-degree: 5%
 
 ---
 
@@ -113,7 +113,9 @@ ht-degree: 6%
 
    >[!NOTE]
    >
-   >**[!UICONTROL 결정 출력 재사용]**&#x200B;을 통해 이 전자 메일 내에 이미 만들어진 결정 정책을 재사용할 수 있습니다.
+   >**[!UICONTROL 결정 출력 재사용]** 옵션을 사용하면 이 전자 메일에서 이미 만들어진 결정 정책을 재사용할 수 있습니다. 이 기능은 여러 위치(예: 머리글과 바닥글)에 동일한 오퍼를 표시하려는 경우에 특히 유용합니다.
+   >
+   >이메일 본문에 있는 두 개 이상의 결정 정책에서 동일한 오퍼를 선택할 수 있는 경우, 엔진은 오퍼의 중복을 제거합니다. 각 배치는 다른 오퍼를 수신하므로 동일한 오퍼가 두 위치에 모두 표시되지 않습니다. 여러 배치에 동일한 오퍼를 표시하려면 **[!UICONTROL 의사 결정 출력 재사용]**&#x200B;을 사용하여 이 전자 메일에 있는 기존 의사 결정 정책의 출력을 재사용합니다.
 
 >[!TAB SMS]
 
