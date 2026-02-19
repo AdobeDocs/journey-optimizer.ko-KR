@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4e9fefb86fd5bc332f9e0dd60eaebf2323f107cd
+source-git-commit: dc6474bce5645f840d8d2354e3b955aa79b5c903
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 31%
+source-wordcount: '1213'
+ht-degree: 32%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 31%
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
@@ -245,10 +245,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 ### 개선 사항 {#coming-soon-improv}
 
 * **코드 기반 경험 채널에서 경험 의사 결정 미리 보기** - 이제 코드 기반 경험 채널에서 경험 의사 결정을 구성할 때 의사 결정 항목을 미리 볼 수 있습니다. 미리보기는 라이브로 전환되기 전에 작성 인터페이스에서 직접 사용할 수 있습니다.
-
-  사용 가능한 날짜: 2026년 2월 20일
-
-* **여정(GA)의 여러 인바운드 동작** - 이제 Journey Optimizer에서 여정(일반 가용성)의 여러 인바운드 동작을 지원하므로 보다 유연한 여정 디자인 및 이벤트 처리를 가능하게 합니다.
 
   사용 가능한 날짜: 2026년 2월 20일
 
