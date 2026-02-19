@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 472bf46d7daf92860fcf208df3bf24ab3a0a029a
+source-git-commit: 316553be4f04e4fc0ae11bc767f7e48f64fc5ccd
 workflow-type: tm+mt
-source-wordcount: '3087'
+source-wordcount: '3093'
 ht-degree: 98%
 
 ---
@@ -352,7 +352,7 @@ ht-degree: 98%
          + [웹 채널 전제 조건](using/web/web-prerequisites.md)
          + [웹 하위 도메인 구성](using/web/web-delegated-subdomains.md)
          + [웹 채널 구성 만들기](using/web/web-configuration.md)
-      + [웹 경험 만들기 &#x200B;](using/web/create-web.md)
+      + [웹 경험 만들기 ](using/web/create-web.md)
       + 웹 페이지 작성 {#author-web-pages}
          + [웹 페이지 작성](/help/rp_landing_pages/author-web-pages-landing-page.md)
          + [웹 디자이너를 사용하여 작업](using/web/web-visual-editor.md)
@@ -406,7 +406,7 @@ ht-degree: 98%
          + [Journey Optimizer에서 라이브 활동 구성](using/mobile-live/mobile-live-configuration.md)
          + [라이브 활동 SDK 통합 구성](using/mobile-live/mobile-live-configuration-sdk.md)
 + 콘텐츠 관리 {#content-management}
-   + [콘텐츠 관리 &#x200B;](/help/rp_landing_pages/content-management-landing-page.md)
+   + [콘텐츠 관리 ](/help/rp_landing_pages/content-management-landing-page.md)
    + 개인화 {#personalization}
       + [개인화](/help/rp_landing_pages/personalization-landing-page.md)
       + [개인화 시작](using/personalization/personalize.md)
@@ -867,6 +867,7 @@ ht-degree: 98%
       + [하위 도메인 위임 시작](using/configuration/about-subdomain-delegation.md)
       + [하위 도메인 위임](using/configuration/delegate-subdomain.md)
       + [사용자 정의 하위 도메인 설정](using/configuration/delegate-custom-subdomain.md)
+      + [CNAME에서 사용자 지정 위임으로 마이그레이션](using/configuration/custom-subdomain-migration.md)
       + [DMARC 레코드 설정](using/configuration/dmarc-record.md)
       + [Google TXT 레코드 추가](using/configuration/google-txt.md)
       + [PTR 레코드 액세스 및 편집](using/configuration/ptr-records.md)

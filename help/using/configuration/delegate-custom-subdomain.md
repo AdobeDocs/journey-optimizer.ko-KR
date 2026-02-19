@@ -10,9 +10,9 @@ level: Experienced
 keywords: 하위 도메인, 위임, 도메인, DNS
 badge: label="제한된 가용성" type="Informative"
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 316553be4f04e4fc0ae11bc767f7e48f64fc5ccd
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '953'
 ht-degree: 22%
 
 ---
@@ -23,7 +23,11 @@ ht-degree: 22%
 >
 >이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.
 
-[완전히 위임됨](about-subdomain-delegation.md#full-subdomain-delegation) 및 [CNAME 설정](about-subdomain-delegation.md#subdomain-delegation-methods) 메서드를 사용하지 않는 대신 **사용자 지정 위임** 메서드를 사용하면 Journey Optimizer ans 내에서 하위 도메인의 소유권을 가져와 생성된 인증서를 완전히 제어할 수 있습니다.
+[완전히 위임됨](about-subdomain-delegation.md#full-subdomain-delegation) 및 [CNAME 설정](about-subdomain-delegation.md#subdomain-delegation-methods) 메서드를 사용하지 않는 대신 **사용자 지정 위임** 메서드를 사용하면 Journey Optimizer 내에서 하위 도메인의 소유권을 가져와 생성된 인증서를 완전히 제어할 수 있습니다.
+
+>[!NOTE]
+>
+>하위 도메인이 현재 CNAME으로 설정된 경우 사용자 정의 위임으로 마이그레이션할 수도 있습니다. [자세히 알아보기](custom-subdomain-migration.md)
 
 이 프로세스의 일부로 Adobe은 DNS가 메시지 게재, 렌더링 및 추적을 위해 적절하게 구성되어 있는지 확인해야 합니다. 따라서 인증 기관에서 받은 SSL 인증서를 [업로드](#upload-ssl-certificate)하고 도메인 소유권을 확인하고 전자 메일 주소를 보고하여 [피드백 루프 단계](#feedback-loop-steps)를 완료해야 합니다.
 
@@ -126,7 +130,7 @@ ht-degree: 22%
 >title="피드백 루프 단계 완료"
 >abstract="Yahoo!로 이동 Sender Hub에서 양식을 작성하여 도메인 소유권을 확인합니다. 아래 나열된 FBL 보고 이메일 주소를 입력하고, Yahoo!에서 소유권을 확인하기 위해 수신된 OTP를 사용합니다. Sender Hub."
 
-1. [Yahoo!로 이동 보낸 사람 허브 &#x200B;](https://senders.yahooinc.com/) 웹 사이트에서 도메인 소유권을 확인하는 데 필요한 양식을 입력하십시오.
+1. [Yahoo!로 이동 보낸 사람 허브 ](https://senders.yahooinc.com/) 웹 사이트에서 도메인 소유권을 확인하는 데 필요한 양식을 입력하십시오.
 
 1. 도메인 소유권을 확인하려면 Yahoo! Sender Hub에서는 이메일 주소를 제공해야 합니다. **[!UICONTROL 값]**&#x200B;에 나열된 FBL 보고 전자 메일 주소를 입력하십시오. Adobe 소유 이메일 주소입니다.
 
@@ -147,6 +151,8 @@ ht-degree: 22%
 1. 모든 항목이 올바르게 구성된 경우 &quot;I has completed...&quot; 상자를 선택합니다.
 
    ![](assets/subdomain-custom-feedback-loop.png){width="85%"}
+
+## SSL CDN URL 유효성 검사 레코드 복사 {#copy-ssl-cdn-url-record}
 
 1. **[!UICONTROL 계속]**&#x200B;을 클릭하고 Adobe에서 호스팅 솔루션에 오류 없이 레코드가 생성되는지 확인할 때까지 기다립니다. 이 프로세스는 최대 2분 정도 소요될 수 있습니다.
 
