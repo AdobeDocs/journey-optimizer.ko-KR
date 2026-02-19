@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0c6b92d11b60e28c7dc918f7c4d7d7ced07a2ab5
+source-git-commit: d42bfe84aa7b380be2d8903ea6b046c43a5d04c1
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 31%
+source-wordcount: '1314'
+ht-degree: 33%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 31%
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
@@ -110,6 +110,29 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <p><img src="assets/do-not-localize/content-decision.gif"/></p>
 <p>자세한 내용은 <a href="../building-journeys/content-decision.md">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2026년 2월 10일 수요일</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>셀프서비스 마이그레이션 도구 API</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 마이그레이션 도구 API를 사용하여 <strong>의사 결정 관리</strong> 엔터티를 <strong>의사 결정</strong>(으)로 프로그래밍 방식으로 마이그레이션할 수 있습니다.</p>
+<ul>
+<li>유연한 마이그레이션 범위(샌드박스, 오퍼 또는 의사 결정 수준)</li>
+<li>자동화된 종속성 분석 및 유효성 검사</li>
+<li>완료된 마이그레이션에 대한 롤백 지원</li>
+<li>오브젝트 매핑이 포함된 자세한 마이그레이션 보고서</li>
+</ul>
+<p>자세한 내용은 <a href="../experience-decisioning/decisioning-migration-api.md">세부 설명서</a>를 참조하십시오.</p>
+<p>사용 가능한 날짜: 2026년 2월 3일</p>
 </td>
 </tr>
 </tbody>
