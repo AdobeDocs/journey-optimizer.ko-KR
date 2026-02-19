@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-source-git-commit: 6c85cfa27002de17f6625447fa0b7eaaceb9f829
+source-git-commit: 8d1de57221e73e8ffeea71377e1e9cd8e5ff6f0e
 workflow-type: tm+mt
-source-wordcount: '2100'
-ht-degree: 15%
+source-wordcount: '2214'
+ht-degree: 14%
 
 ---
 
@@ -78,8 +78,8 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
 >abstract="기본적으로 모든 프로필은 결정 항목을 수신할 수 있지만 대상자 또는 규칙을 사용하여 항목을 특정 프로필로만 제한할 수 있습니다."
 
 <!--
->"additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
@@ -136,13 +136,25 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
    * **[!UICONTROL 결정 이벤트]**(기본값): 오퍼를 표시할 수 있는 최대 횟수입니다.
    * **[!UICONTROL 노출]**(인바운드 채널만): 사용자에게 오퍼를 표시할 수 있는 최대 횟수입니다.
    * **[!UICONTROL 클릭 수]**: 사용자가 결정 항목을 클릭할 수 있는 최대 횟수입니다.
-   * **[!UICONTROL 사용자 지정 이벤트]**: 항목 전송 횟수를 제한하는 데 사용할 사용자 지정 이벤트를 정의할 수 있습니다. 예를 들어, 10,000이 될 때까지 또는 지정된 프로필이 1번 상환될 때까지 상환 횟수를 제한할 수 있습니다. 이렇게 하려면 [Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR){target="_blank"} 스키마를 사용하여 사용자 지정 이벤트 규칙을 만듭니다.
+   * **[!UICONTROL 사용자 지정 이벤트]**: Adobe Experience Platform에서 추적하는 비즈니스 또는 행동 경험 이벤트(예: 환불, 구매 또는 장바구니 체크아웃)를 기반으로 상한을 설정합니다. 사용자 지정 이벤트 한도는 사용자가 수집한 [Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR){target="_blank"} 경험 이벤트를 사용합니다. 드롭다운에서 cap을 구동해야 하는 특정 경험 이벤트를 매핑하면 해당 이벤트가 수신될 때마다 캡핑 카운터가 증가합니다. 이메일 전송과 같은 채널 게재 이벤트별 제한은 지원되지 않습니다. 사용자 지정 이벤트는 게재하거나 이벤트를 보내는 것이 아니라 수집하는 경험 이벤트에만 적용됩니다.
 
-   >[!NOTE]
-   >
-   >의사 결정 이벤트를 제외한 모든 최대 가용량 이벤트에 대해 의사 결정 관리 피드백이 자동으로 수집되지 않을 수 있으므로 최대 가용량 카운터가 올바르게 증가하지 않을 수 있습니다. 각 최대 가용량 이벤트가 최대 가용량 카운터에서 추적 및 처리되도록 하려면 경험 이벤트를 수집하는 데 사용되는 스키마에 해당 이벤트에 대한 올바른 필드 그룹이 포함되어 있는지 확인하십시오. 데이터 수집에 대한 자세한 내용은 Journey Optimizer 의사 결정 관리 설명서에서 확인할 수 있습니다.
-   >* [의사 결정 관리 데이터 수집](data-collection/data-collection.md)
-   >* [데이터 수집 구성](data-collection/schema-requirement.md)
+   +++푸시 채널 캡핑
+
+   푸시 채널에서는 표준 **[!UICONTROL 클릭 수]** 및 **[!UICONTROL 노출 수]** 캡핑이 지원되지 않습니다. 푸시를 통해 제공되는 오퍼를 제한하려면 **[!UICONTROL 사용자 지정 이벤트]** 제한을 사용하고 이벤트 유형을 **푸시 추적 응용 프로그램 열림** 또는 **푸시 추적 사용자 지정 작업**&#x200B;으로 설정하십시오.
+
+   푸시 알림의 경우 모바일 채널에서 이벤트를 추적하면 ECID(Experience Cloud ID)가 포함됩니다. ID 일관성을 유지하고 캡핑이 예상대로 작동하는지 확인하려면 캠페인 또는 여정 구성에서 ECID를 사용하는 것이 좋습니다.
+
+   ![](assets/push-capping.png)
+
+   +++
+
+   +++최대 이벤트 추적(스키마 및 데이터 수집)
+
+   의사 결정 이벤트를 제외한 모든 최대 가용량 이벤트에 대해 의사 결정 관리 피드백이 자동으로 수집되지 않을 수 있으므로 최대 가용량 카운터가 올바르게 증가하지 않을 수 있습니다. 각 최대 가용량 이벤트가 최대 가용량 카운터에서 추적 및 처리되도록 하려면 경험 이벤트를 수집하는 데 사용되는 스키마에 해당 이벤트에 대한 올바른 필드 그룹이 포함되어 있는지 확인하십시오. 데이터 수집에 대한 자세한 내용은 Journey Optimizer 의사 결정 관리 설명서에서 확인할 수 있습니다.
+   * [의사 결정 관리 데이터 수집](data-collection/data-collection.md)
+   * [데이터 수집 구성](data-collection/schema-requirement.md)
+
+   +++
 
 1. 한도 유형을 선택합니다.
 
