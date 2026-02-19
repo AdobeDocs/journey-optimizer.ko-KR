@@ -148,6 +148,7 @@ ht-degree: 5%
    MIIDXTCCAkWgAwIBAgIJALc3... (base64 encoded data)
    -----END CERTIFICATE-----
    ```
+
 1. &quot;SSL 인증서를 업로드했음을 확인합니다.&quot; 상자를 선택합니다.
 
 ## 전체 피드백 루프 {#feedback-loop}
