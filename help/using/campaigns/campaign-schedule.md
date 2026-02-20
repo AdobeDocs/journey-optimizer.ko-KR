@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 만들기, 최적화 도구, 캠페인, 표면, 메시지
 exl-id: b183eeb8-606f-444d-9302-274f159c3847
-source-git-commit: e6aa361229f068c475732c715160b7c644189e51
+source-git-commit: 2458a0f84aa0318f956a0a7edff20aff711159a5
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 7%
+source-wordcount: '750'
+ht-degree: 6%
 
 ---
 
@@ -42,8 +42,6 @@ ht-degree: 7%
 
 >[!AVAILABILITY]
 >
->이 기능은 제한된 가용성입니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.
->
 >이메일, 푸시, SMS, WhatsApp 및 LINE과 같은 아웃바운드 채널에 대해서만 프로필 시간대를 사용하여 예약할 수 있습니다.
 
 프로필 시간대 예약을 활성화하려면:
@@ -62,7 +60,9 @@ ht-degree: 7%
 
 **지원되는 표준 시간대 식별자:**
 
-Journey Optimizer은 표준 IANA 시간대 식별자에 대해 `profile.timeZone` 값의 유효성을 검사합니다. 식별자는 대소문자를 구분하며 공식 IANA 명명과 일치해야 합니다. 일광 절약 시간제 규칙 및 이전 업데이트로 인해 시간 경과에 따라 오프셋이 변경될 수 있습니다. 공식적인 식별자 목록은 [IANA 시간대 데이터베이스](https://www.iana.org/time-zones){_blank}를 참조하십시오.
+`profile.timeZone` 형식은 IANA 명명 또는 UTC 오프셋으로 정의할 수 있습니다. 일광 절약 시간제 규칙에 따라 자동으로 조정되므로 IANA 이름 지정은 기본 형식입니다.
+
+IANA 이름 지정의 경우, 식별자는 대소문자를 구분하며 공식 IANA 이름 지정과 일치해야 합니다. 일광 절약 시간제 규칙 및 이전 업데이트로 인해 시간 경과에 따라 오프셋이 변경될 수 있습니다. 공식적인 식별자 목록은 [IANA 시간대 데이터베이스](https://www.iana.org/time-zones){_blank}를 참조하십시오.
 
 ## 실행 빈도 설정
 
