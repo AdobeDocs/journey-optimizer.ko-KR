@@ -7,9 +7,10 @@ feature: Release Notes
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: b53c28405e453be3767f05e2c7a7a1b2e69d0416
+exl-id: 65ca94cf-8e17-4a25-90f3-238083f81477
+source-git-commit: eb1056b57e72ab1cff5e32bff31b9cba5604f695
 workflow-type: tm+mt
-source-wordcount: '1391'
+source-wordcount: '1371'
 ht-degree: 86%
 
 ---
@@ -21,8 +22,6 @@ ht-degree: 86%
 ## 26년 1월 릴리스 정보 {#jan-26-rn}
 
 <!--**Release date**: January 27-28, 2026-->
-
-[기능](#jan-26-01-features) 및 [개선 사항](#jan-26-01-improv) 섹션은 이미 사용 가능한 기능을 다루고 [곧 출시 예정](#jan-26-01-coming-soon)에는 이후에 사용 가능한 날짜가 예약된 항목의 목록이 있습니다.
 
 ### 새로운 기능 {#jan-26-01-features}
 
@@ -185,7 +184,7 @@ ht-degree: 86%
 
 * **AI 어시스턴트 콘텐츠 품질 검사** - 이제 브랜드 일관성 외에도 전체 <strong>콘텐츠 품질</strong>을 평가하여 브랜드 가이드라인과 별개로 <strong>가독성</strong>, 일치도, 효과성 관련 잠재적인 문제를 찾을 수 있습니다. 이 자동화된 검사는 명확하지 않은 메시지, 일관되지 않은 톤 또는 구조적으로 빠진 부분을 식별하는 데 도움이 됩니다. [자세히 보기](../content-management/brands-score.md#validate-quality).
 
-  [비디오에서 이 기능을 살펴보십시오](https://video.tv.adobe.com/v/3470553/?captions=kor&learn=on).
+  [비디오에서 이 기능을 살펴보십시오](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### 여정
 
