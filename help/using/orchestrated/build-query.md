@@ -56,7 +56,7 @@ ht-degree: 89%
 
    조건을 더 빨리 만들려면 값을 선택하고 **[!UICONTROL 특성 및 값 선택]**&#x200B;을 클릭하여 현재 조건에서 특성 및 값을 채웁니다.
 
-   표현식 편집기 아이콘![을 보여 주는 ](assets/do-not-localize/activity-copy.svg)이미지를 사용하여 클립보드에 값을 복사할 수도 있습니다. 예를 들어 표현식 편집기에 붙여 넣을 수 있습니다.
+   표현식 편집기 아이콘![을 보여 주는 &#x200B;](assets/do-not-localize/activity-copy.svg)이미지를 사용하여 클립보드에 값을 복사할 수도 있습니다. 예를 들어 표현식 편집기에 붙여 넣을 수 있습니다.
 
    ![값 분포 인터페이스를 보여 주는 이미지](assets/rule-builder-distribution-values.png)
 

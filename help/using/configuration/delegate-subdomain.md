@@ -33,7 +33,7 @@ ht-degree: 18%
 
 >[!NOTE]
 >
->[!DNL Journey Optimizer]이 섹션[에서 ](about-subdomain-delegation.md)에서 사용할 수 있는 하위 도메인 위임 및 다른 메서드에 대해 자세히 알아보세요.
+>[!DNL Journey Optimizer]이 섹션[에서 &#x200B;](about-subdomain-delegation.md)에서 사용할 수 있는 하위 도메인 위임 및 다른 메서드에 대해 자세히 알아보세요.
 
 다음 중 하나를 수행할 수 있습니다.
 
