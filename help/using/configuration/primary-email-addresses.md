@@ -12,7 +12,7 @@ exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: 36a9a4afb24f3c7909c57e983992de2bf12acd24
 workflow-type: tm+mt
 source-wordcount: '647'
-ht-degree: 14%
+ht-degree: 18%
 
 ---
 
@@ -97,7 +97,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_execution_address"
 >title="사용할 기본 실행 주소 재정의"
->abstract="데이터베이스에서 여러 이메일 주소 또는 전화 번호를 사용할 수 있는 경우(개인, 전문가 등), 우선 순위를 지정할 전송 주소를 선택할 수 있습니다. 기본 주소는 샌드박스 수준에서 정의되지만, 여기에서 이 특정 채널 구성에 대한 기본 설정을 재정의할 수 있습니다."
+>abstract="데이터베이스에서 여러 이메일 주소 또는 전화번호를 사용하는 경우(개인용, 업무용 등) 전송의 우선순위를 지정할 수 있는 항목을 선택할 수 있습니다. 기본 주소는 샌드박스 수준에서 정의되지만, 여기에서 이 특정 채널 구성에 대한 기본 설정을 재정의할 수 있습니다."
 
 특정 이메일, SMS 또는 WhatsApp [채널 구성](channel-surfaces.md)에 대한 기본 실행 주소를 변경할 수 있습니다.
 
