@@ -4,11 +4,11 @@ product: journey optimizer
 title: 예약된 일괄 처리를 사용하여 보내기
 description: 아웃바운드 캠페인 메시지가 시간에 따라 제어된 배치로 전달되도록 예약합니다. 웨이브 전송은 전달성을 지원하고 발신자의 신뢰도를 유지하는 데 도움이 됩니다.
 feature: Campaigns
-topic: Campaign scheduling
+topic: Content Management
 role: User
 level: Intermediate
 keywords: 예약된 일괄 처리, 일정, 캠페인, 여정, 전달성
-source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
+source-git-commit: 7df05e41b086c60724576328c5bcfee47cab65ca
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 1%
