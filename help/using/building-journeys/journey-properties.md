@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 여정, 구성, 속성
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
 workflow-type: tm+mt
-source-wordcount: '2859'
-ht-degree: 15%
+source-wordcount: '2885'
+ht-degree: 14%
 
 ---
 
@@ -351,7 +351,12 @@ ht-degree: 15%
 
 ## 여정 일정 {#schedule}
 
-**[!UICONTROL 일정]** 섹션은 **[!UICONTROL 대상자 읽기]** 활동이 캔버스에서 삭제된 경우에만 사용할 수 있습니다. 이를 통해 여정을 실행해야 하는 특정 날짜/시간 및 빈도를 정의할 수 있습니다. [대상자 읽기 여정을 예약하는 방법 알아보기](../building-journeys/read-audience.md)
+**[!UICONTROL 일정]** 섹션은 **[!UICONTROL 대상자 읽기]** 활동이 캔버스에서 삭제된 경우에만 사용할 수 있습니다. 이를 통해 여정을 실행해야 하는 특정 날짜/시간 및 빈도를 정의할 수 있습니다. [대상자 읽기 여정을 예약하는 방법 알아보기](read-audience.md#schedule)
+
+>[!TIP]
+>
+>여정을 예약할 때 시간에 따라 여정 작업을 일괄적으로 전달하도록 웨이브 전송을 구성할 수도 있습니다. [여정에서 웨이브를 사용하여 보내는 방법 알아보기](send-using-waves.md)
+
 
 ## 충돌 관리 {#conflict}
 

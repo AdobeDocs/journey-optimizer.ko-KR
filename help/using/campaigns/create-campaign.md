@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 만들기, 최적화 도구, 캠페인, 표면, 메시지
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
+source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 57%
+source-wordcount: '213'
+ht-degree: 54%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 57%
 1. [캠페인 액션 구성](campaign-action.md)
 1. [액션 캠페인 콘텐츠 편집](campaign-content.md)
 1. [액션 캠페인 대상자 정의](campaign-audience.md)
-1. [작업 캠페인 예약](campaign-schedule.md)
+1. [작업 캠페인을 예약합니다](campaign-schedule.md). 필요한 경우 [웨이브를 사용하여 보내기](send-using-waves.md)하여 시간이 지남에 따라 메시지를 일괄적으로 배달합니다.
 1. [액션 캠페인 검토 및 활성화](review-activate-campaign.md)
 
 유형별 안내서를 사용하는 [전체 캠페인 만들기 워크플로](get-started-with-campaigns.md#workflow)에 → 자세히 알아보기
