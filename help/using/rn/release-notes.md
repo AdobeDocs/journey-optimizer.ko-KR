@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 74a817e01765d2909e9dc3c396c5513b1c9b54b2
+source-git-commit: 86717d6a218fcbaf59321412b74db4941c859333
 workflow-type: tm+mt
-source-wordcount: '1645'
+source-wordcount: '1647'
 ht-degree: 35%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 35%
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
@@ -305,7 +305,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <li>모든 작업에 실험과 다국어 옵션을 모두 추가하는 기능.</li>
 </ul>
 <p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
-<p>사용 가능한 날짜: 2026년 2월 20일 토요일</p>
+<p>사용 가능한 날짜: 2026년 3월 초</p>
 </td>
 </tr>
 </tbody>
