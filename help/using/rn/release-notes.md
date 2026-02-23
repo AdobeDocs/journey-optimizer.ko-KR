@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 86717d6a218fcbaf59321412b74db4941c859333
+source-git-commit: 421429e4edc72d392f81ec3077188ce7cb300c5d
 workflow-type: tm+mt
-source-wordcount: '1647'
+source-wordcount: '1585'
 ht-degree: 35%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 35%
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
@@ -209,7 +209,9 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### 콘텐츠 관리
 
-* **새 색상 탭으로 브랜드 업데이트** - 브랜드 가이드라인은 모든 접점에서 브랜드가 일관되게 표시되도록 하는 데 도움이 됩니다. 새 <strong>색상</strong> 섹션은 브랜드 색상 시스템에 대한 표준을 정의하며, 색상을 선택, 구성 및 여러 경험에서 적용하는 방법에 대해 대략적으로 설명합니다. 기본, 보조, 악센트 및 중립 색상을 일관되게 사용하여 통합적이고, 액세스가 가능하고, 인식 가능한 브랜드 이미지를 지원합니다. [자세히 보기](../content-management/brands.md)
+<!--
+* **Update brands with new color tab** - Brand guidelines help ensure your brand is presented consistently across all touchpoints. The new <strong>Colors</strong> section defines the standards for your brand's color system, outlining how colors are selected, organized, and applied across experiences. It ensures consistent use of primary, secondary, accent, and neutral colors to support a cohesive, accessible, and recognizable brand identity. [Read more](../content-management/brands.md)
+-->
 
 * **테마를 사용하여 이미지를 전자 메일 서식 파일로 변환** - Journey Optimizer에서 이미지를 전자 메일 서식 파일로 변환할 때 이제 테마를 입력으로 사용하여 생성된 HTML이 브랜드 매개 변수를 따르도록 할 수 있습니다. 배경색, 단추 색상, 글꼴, 줄 간격, 여백 및 패딩과 같은 스타일이 자동으로 적용되어 수동 디자인 작업이 줄어들고 최소한의 편집으로 사용할 준비가 된 템플릿을 제공합니다. [자세히 보기](../content-management/image-to-html.md)
 
