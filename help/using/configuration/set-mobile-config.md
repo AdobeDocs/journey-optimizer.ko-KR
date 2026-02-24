@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 채널, 표면, 기술, 매개변수, optimizer
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
-source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
+source-git-commit: 7cca968a161a26d0af385a028c4404261088f033
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 100%
+source-wordcount: '816'
+ht-degree: 88%
 
 ---
 
@@ -29,9 +29,9 @@ ht-degree: 100%
 >abstract="Adobe Experience Platform Assurance가 이 워크플로에 임베드되어 있어 SDK 구현을 검사하고 애플리케이션 이벤트를 시뮬레이션 및 검증하는 데 도움이 됩니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-platform/assurance/home" text="Adobe Experience Platform Assurance 개요"
 
-이 설정을 사용하면 마케팅 채널을 신속하게 구성할 수 있으므로 필요한 모든 리소스를 Experience Platform, Journey Optimizer 및 데이터 수집 내에서 쉽게 사용할 수 있습니다. 이렇게 하면 마케팅 팀이 캠페인 및 여정을 만들기 시작할 수 있습니다.
+**안내 채널 설정**&#x200B;은(는) 모바일 및 웹 마케팅 채널을 빠르게 구성하는 데 도움이 되는 Adobe Journey Optimizer의 간소화된 워크플로우입니다. 이 서비스는 **관리** > **채널** > **채널 구성**&#x200B;에 있으며 Adobe Experience Platform, Journey Optimizer 및 데이터 수집에서 태그 속성, 데이터스트림 및 채널 구성과 같은 필수 리소스의 생성을 자동화합니다. 각 구성 요소를 수동으로 구성하는 대신, 모든 것을 자동으로 설정하는 안내식 흐름을 따르므로 마케팅 팀이 인앱 메시지, 푸시 알림 및 웹 경험을 지체 없이 만들 수 있습니다.
 
-안내형 채널 설정은 다음 플랫폼 및 채널을 지원합니다.
+안내식 채널 설정은 다음 플랫폼 및 채널을 지원합니다.
 
 * 플랫폼 및 SDK:
 
@@ -172,7 +172,7 @@ ht-degree: 100%
   </tr>
   <tr>
   <td>
-  <p>Assurance</p>
+  <p>보증</p>
   </td>
   <td>
   <p>Assurance 세션</p>
@@ -180,7 +180,7 @@ ht-degree: 100%
   </tr>
   <tr>
   <td>
-  <p>데이터 스트림</p>
+  <p>데이터스트림</p>
   </td>
   <td>
   <p>서비스 데이터 스트림</p>
@@ -267,7 +267,7 @@ ht-degree: 100%
   </tr>
   <tr>
   <td>
-  <p>Assurance</p>
+  <p>보증</p>
   </td>
   <td>
   <p>Assurance 세션</p>
@@ -275,7 +275,7 @@ ht-degree: 100%
   </tr>
   <tr>
   <td>
-  <p>데이터 스트림</p>
+  <p>데이터스트림</p>
   </td>
   <td>
   <p>서비스 데이터 스트림</p>
@@ -362,7 +362,7 @@ ht-degree: 100%
   </tr>
   <tr>
   <td>
-  <p>Assurance</p>
+  <p>보증</p>
   </td>
   <td>
   <p>Assurance 세션</p>
@@ -370,7 +370,7 @@ ht-degree: 100%
   </tr>
   <tr>
   <td>
-  <p>데이터 스트림</p>
+  <p>데이터스트림</p>
   </td>
   <td>
   <p>서비스 데이터 스트림</p>
