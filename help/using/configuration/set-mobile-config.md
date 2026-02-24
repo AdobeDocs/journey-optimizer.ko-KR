@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 채널, 표면, 기술, 매개변수, optimizer
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
-source-git-commit: 725d1d98759a721a7e2e891f0e560cd967e05f7f
+source-git-commit: d793d9eccde3b0b548e778040bdcd8817e80c90a
 workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 85%
@@ -34,25 +34,25 @@ ht-degree: 85%
 안내식 채널 설정은 다음 플랫폼 및 채널을 지원합니다.
 
 >[!BEGINTABS]
->
+
 >[!TAB iOS]
->
->**SDK:** Swift by Apple
->
->**채널:** 모바일 인앱, 모바일 푸시 메시지
->
+
+**SDK:** Swift by Apple
+
+**채널:** 모바일 인앱, 모바일 푸시 메시지
+
 >[!TAB Android]
->
->**SDK:** Kotlin
->
->**채널:** 모바일 인앱, 모바일 푸시 메시지
->
+
+**SDK:** Kotlin
+
+**채널:** 모바일 인앱, 모바일 푸시 메시지
+
 >[!TAB 웹]
->
->**SDK:** Javascript
->
->**채널:** 웹 기본
->
+
+**SDK:** Javascript
+
+**채널:** 웹 기본
+
 >[!ENDTABS]
 
 설정하려는 각 플랫폼마다 별도의 구성을 만들어야 합니다. 각 앱마다 고유한 채널 구성이 필요하기 때문이며, 이를 통해 각 플랫폼마다 어떤 채널을 설정할지 유연하게 결정할 수 있습니다.
