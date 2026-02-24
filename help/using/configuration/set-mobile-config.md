@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 채널, 표면, 기술, 매개변수, optimizer
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
-source-git-commit: 6b7fe02136a4ac7ca8012576ad8671cf70da6aeb
+source-git-commit: 21cb23fd4e7f69c2a8180150c5a7a3e52975fd9e
 workflow-type: tm+mt
-source-wordcount: '823'
-ht-degree: 85%
+source-wordcount: '822'
+ht-degree: 83%
 
 ---
 
@@ -123,10 +123,12 @@ ht-degree: 85%
 * Mobile Core v5.2.0 이상
 * Adobe Journey Optimizer v5.1.1 이상
 
+
 >[!TAB Android용]
 
 * Mobile Core v3.1.0 이상
 * Adobe Journey Optimizer v3.1.0 이상
+
 
 >[!ENDTABS]
 
@@ -135,7 +137,7 @@ ht-degree: 85%
 
 안내형 채널 설정을 사용하면 마케팅 채널을 간단하고 빠르게 구성하여 Experience Platform, Journey Optimizer, 데이터 수집 앱에서 모든 기본 리소스를 바로 사용할 수 있습니다. 따라서 마케팅 팀이 캠페인 및 여정 만들기를 빠르게 시작할 수 있습니다. 다음은 안내형 채널 설정의 일부로 자동 생성 및 구성되는 리소스 목록입니다.
 
-아래 탭을 탐색하여 자동으로 생성되는 모든 리소스를 종합한 목록에 액세스할 수 있습니다.
+아래 탭을 탐색하여 자동으로 생성된 모든 리소스의 전체 목록에 액세스합니다.
 
 >[!BEGINTABS]
 
