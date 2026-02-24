@@ -14,7 +14,7 @@ ht-degree: 29%
 
 # 동의 관리{#section-overview}
 
-동의 관리는 GDPR과 같은 개인 정보 보호 규정 준수를 보장하면서 대상자와 신뢰를 구축하는 데 중요합니다. Adobe Journey Optimizer의 동의는 [데이터 요청](../using/privacy/get-started-privacy.md) 및 [감사 로그](../using/privacy/requests.md)를 포함한 개인 정보 관리[ 및 중요한 필드를 타사 시스템으로 내보내지지 않도록 보호하는 ](../using/privacy/audit-logs.md)데이터 거버넌스[ 정책과 함께 작동합니다.](../using/action/action-privacy.md)
+동의 관리는 GDPR과 같은 개인 정보 보호 규정 준수를 보장하면서 대상자와 신뢰를 구축하는 데 중요합니다. Adobe Journey Optimizer의 동의는 [데이터 요청](../using/privacy/get-started-privacy.md) 및 [감사 로그](../using/privacy/requests.md)를 포함한 개인 정보 관리[&#x200B; 및 중요한 필드를 타사 시스템으로 내보내지지 않도록 보호하는 &#x200B;](../using/privacy/audit-logs.md)데이터 거버넌스[&#x200B; 정책과 함께 작동합니다.](../using/action/action-privacy.md)
 
 전자 메일, SMS 및 푸시에서 구독 취소를 위한 **옵트아웃 환경 설정**, 데이터 사용 및 마케팅 작업을 제어하기 위해 캠페인 및 여정에 적용되는 **동의 정책**, 선택한 구독 주제 및 채널을 기반으로 고객을 타깃팅하는 **환경 설정 관리**&#x200B;의 세 가지 방법으로 동의를 처리할 수 있습니다. 아래 항목은 각 단계를 안내합니다.
 
