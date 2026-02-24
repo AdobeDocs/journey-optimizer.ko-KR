@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 421429e4edc72d392f81ec3077188ce7cb300c5d
+source-git-commit: f2f1bf9338109102d5ea8378b9ae9474a8c535de
 workflow-type: tm+mt
-source-wordcount: '1585'
-ht-degree: 35%
+source-wordcount: '1550'
+ht-degree: 36%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 35%
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
@@ -282,9 +282,9 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tbody>
 <tr>
 <td>
-<p>이제 <strong>등급 수식</strong> 및 <strong>AI 모델</strong>을 사용하여 고객 프로필 특성 및 컨텍스트 요소를 기반으로 여정 우선 순위 점수를 자동으로 높여 고객이 가장 관련성이 높은 여정을 입력하도록 할 수 있습니다.</p>
+<p>이제 <strong>등급 수식</strong> <!--and <strong>AI models</strong> -->을 사용하여 고객 프로필 특성 및 컨텍스트 요인에 따라 여정 우선 순위 점수를 자동으로 높여 고객이 가장 관련성이 높은 여정을 입력하도록 할 수 있습니다.</p>
 <p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
-<p>사용 가능한 날짜: 2026년 2월 24일 수요일</p>
+<p>사용 가능한 날짜: 2026년 3월 초</p>
 </td>
 </tr>
 </tbody>
@@ -324,7 +324,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <td>
 <p>이제 Journey Optimizer을 통해 Decisioning AI 모델의 상태, 교육 상태 및 성능을 모니터링할 수 있습니다. 이를 통해 교육 성공을 확인하고, 실패를 해결하며, 결과에 미치는 영향을 파악하여 AI를 사용하는 각 고객을 위한 최상의 오퍼를 선택할 수 있습니다. 이 기능은 <strong>Decisioning</strong>에만 사용할 수 있습니다(이전 의사 결정 관리 모델에는 사용할 수 없음).</p>
 <p>이 기능은 현재 <strong>개인화된 최적화</strong> 모델에만 사용할 수 있습니다(자동 최적화는 아님).</p>
-<p>사용 가능한 날짜: 2026년 2월 20일 토요일</p>
+<p>사용 가능한 날짜: 2026년 3월 초</p>
 </td>
 </tr>
 </tbody>
@@ -332,9 +332,9 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 ### 개선 사항 {#coming-soon-improv}
 
-* **코드 기반 경험 채널에서 경험 의사 결정 미리 보기** - 이제 코드 기반 경험 채널에서 경험 의사 결정을 구성할 때 의사 결정 항목을 미리 볼 수 있습니다. 미리보기는 라이브로 전환되기 전에 작성 인터페이스에서 직접 사용할 수 있습니다.
+<!--* **Experience Decisioning preview in Code-based Experience channel** - You can now preview decision items when configuring Experience Decisioning with the Code-based Experience channel. Preview is available directly in the authoring interface before going live.
 
-  사용 가능한 날짜: 2026년 2월 20일
+  Availability date: early March, 2026.-->
 
 * **사용자 지정 Firefly 모델 및 타사 이미지 생성 모델의 통합** - 표준 및 사용자 지정 Firefly 모델과 승인된 타사 이미지 모델(예: NanoBanana)을 매끄럽게 통합하여 이미지를 생성할 때 더 큰 유연성, 제어 및 브랜드 정렬을 제공합니다. 이를 통해 일반적인 요구 사항을 위한 표준 Firefly, 브랜드 내 생성을 위한 사용자 지정 Firefly 또는 전문 또는 실험 시나리오를 위한 승인된 서드파티 모델 등 각 사용 사례에 가장 적합한 모델을 선택할 수 있습니다.
 
