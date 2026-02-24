@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
+source-git-commit: f1b2c1ca8c9747547c12d90f24f432f1a761d92a
 workflow-type: tm+mt
-source-wordcount: '3101'
+source-wordcount: '3090'
 ht-degree: 98%
 
 ---
@@ -215,8 +215,7 @@ ht-degree: 98%
          + [활동을 탐색하여 고객 참여](using/orchestrated/engage-customers-uc.md)
          + [사용자에게 제품 출시 알림](using/orchestrated/product-availability-uc.md)
 + 충돌 및 우선순위 지정 {#conflict-prioritization}
-   + [충돌 관리 및 우선순위 지정](/help/rp_landing_pages/conflict-prioritization-landing-page.md)
-   + [충돌 관리 및 우선 순위 지정 시작](using/conflict-prioritization/gs-conflict-prioritization.md)
+   + [충돌 관리 및 우선순위 지정](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [잠재적 충돌 확인](using/conflict-prioritization/conflicts.md)
    + [우선 순위 점수 할당](using/conflict-prioritization/priority-scores.md)
    + 메시지 및 여정 캡핑 규칙 설정 {#capping-rules}
@@ -354,7 +353,7 @@ ht-degree: 98%
          + [웹 채널 전제 조건](using/web/web-prerequisites.md)
          + [웹 하위 도메인 구성](using/web/web-delegated-subdomains.md)
          + [웹 채널 구성 만들기](using/web/web-configuration.md)
-      + [웹 경험 만들기 &#x200B;](using/web/create-web.md)
+      + [웹 경험 만들기 ](using/web/create-web.md)
       + 웹 페이지 작성 {#author-web-pages}
          + [웹 페이지 작성](/help/rp_landing_pages/author-web-pages-landing-page.md)
          + [웹 디자이너를 사용하여 작업](using/web/web-visual-editor.md)
@@ -408,7 +407,7 @@ ht-degree: 98%
          + [Journey Optimizer에서 라이브 활동 구성](using/mobile-live/mobile-live-configuration.md)
          + [라이브 활동 SDK 통합 구성](using/mobile-live/mobile-live-configuration-sdk.md)
 + 콘텐츠 관리 {#content-management}
-   + [콘텐츠 관리 &#x200B;](/help/rp_landing_pages/content-management-landing-page.md)
+   + [콘텐츠 관리 ](/help/rp_landing_pages/content-management-landing-page.md)
    + 개인화 {#personalization}
       + [개인화](/help/rp_landing_pages/personalization-landing-page.md)
       + [개인화 시작](using/personalization/personalize.md)
@@ -861,7 +860,6 @@ ht-degree: 98%
    + [채널 구성 설정](using/configuration/channel-surfaces.md)
    + [메시지 콘텐츠 내보내기](using/configuration/message-export.md)
    + 가이드 채널 설정 {#guided-setup}
-      + [가이드 채널 설정](/help/rp_landing_pages/guided-setup-landing-page.md)
       + [안내형 채널 설정 시작](using/configuration/set-mobile-config.md)
       + [채널 설정 만들기](using/configuration/create-channel-set-up.md)
    + 이메일 하위 도메인 위임 {#delegate-subdomains}
@@ -930,7 +928,6 @@ ht-degree: 98%
       + [여정의 Campaign v7/v8 액션](using/action/acc-action.md)
       + [여정의 Marketo Engage 액션](using/action/marketo-engage.md)
    + 샌드박스 관리 {#sandbox}
-      + [샌드박스 관리](/help/rp_landing_pages/sandbox-landing-page.md)
       + [샌드박스 사용 및 할당](using/administration/sandboxes.md)
       + [다른 샌드박스로 개체 내보내기](using/configuration/copy-objects-to-sandbox.md)
    + [소스 커넥터 구성](using/start/get-started-sources.md)
