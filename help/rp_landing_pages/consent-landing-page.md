@@ -22,7 +22,7 @@ ht-degree: 29%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
 
 옵트아웃 및 개인화 동의 관리
 
@@ -32,7 +32,7 @@ ht-degree: 29%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 동의 정책 사용
 
@@ -42,7 +42,7 @@ ht-degree: 29%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 고객의 환경 설정 관리
 
