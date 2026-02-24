@@ -9,19 +9,23 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 단계, 구성, 여정, 이벤트, 스트림, API
 exl-id: e0144151-6c54-4656-9650-b544d8e7be16
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: bfcc7b1544a0d58af8ac1ac69e777a3ff894bbdf
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '298'
 ht-degree: 3%
 
 ---
 
-# 이벤트를 보내는 추가적인 단계 {#additional-steps-to-send-events}
+# 추가적인 이벤트 전송 단계 {#additional-steps-to-send-events}
 
 **[!UICONTROL 스트리밍 수집 API]**&#x200B;에 보내고 [!DNL Journey Optimizer]에서 사용할 이벤트를 구성하려면 다음 단계를 수행해야 합니다.
 
 1. Adobe Experience Platform API에서 인렛 URL을 가져옵니다. [수집 API 스트리밍 개요](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=ko){target="_blank"}에서 자세히 알아보세요.
 1. **[!UICONTROL 이벤트]** 메뉴의 페이로드 미리 보기에서 페이로드를 복사합니다. [이 페이지](../event/about-creating.md#define-the-payload-fields)에서 자세히 알아보십시오.
+
+>[!IMPORTANT]
+>
+>이벤트 요구 사항 및 제한 사항(스트리밍, 쿼리 서비스, 일괄 처리 수집)에 대해서는 [여정 보호 - 이벤트](../start/guardrails.md#events-g)를 참조하십시오.
 
 그런 다음 복사한 페이로드를 사용하여 이벤트를 스트리밍 수집 API로 푸시하는 데이터 시스템을 구성해야 합니다.
 
@@ -90,4 +94,4 @@ ht-degree: 3%
 
 &quot;데이터&quot; 부분을 붙여넣을 위치를 쉽게 확인하려면 [JSON 포맷터](https://jsonformatter.curiousconcept.com){target="_blank"}와 같은 JSON 시각화 도구를 사용할 수 있습니다.
 
-스트리밍 수집 API의 문제를 해결하려면 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=ko){target="_blank"}를 참조하세요.
+스트리밍 수집 API의 문제를 해결하려면 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"}를 참조하세요.
