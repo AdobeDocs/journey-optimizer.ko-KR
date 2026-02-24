@@ -9,20 +9,22 @@ role: Admin, Developer
 level: Experienced
 keywords: 샌드박스, 가상, 환경, 조직, 플랫폼
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 56faee8badff99ff9a39cfd85a78c1ed272cd2ca
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 28%
+source-wordcount: '406'
+ht-degree: 22%
 
 ---
 
 # 샌드박스 사용 및 할당 {#sandboxes}
 
+**샌드박스**&#x200B;는 개발, 테스트 또는 프로덕션을 위해 Adobe Journey Optimizer 인스턴스를 별도의 격리된 작업 공간으로 분할하는 가상 환경입니다. **관리** > **채널** > **시스템 및 환경 연결**(또는 인터페이스 오른쪽 상단의 샌드박스 전환기를 통해)에서 샌드박스 관리를 찾을 수 있습니다. 샌드박스를 사용하면 안전하게 실험하고, 역할별로 다른 액세스 권한을 할당하고, 콘텐츠를 체계적으로 관리할 수 있습니다. 이 페이지에서는 샌드박스를 사용 및 할당하고, 콘텐츠 액세스를 구성하고, [다른 샌드박스로 개체 내보내기](../configuration/copy-objects-to-sandbox.md) 문서에서 샌드박스 간에 여정과 템플릿을 복사하는 방법을 다룹니다.
+
 ## 샌드박스 사용 {#using-sandbox}
 
 [!DNL Journey Optimizer]에서는 인스턴스를 샌드박스라는 별도의 가상 환경으로 분할할 수 있습니다. 샌드박스는 권한에서 역할을 통해 할당됩니다. [샌드박스를 할당하는 방법을 알아봅니다](permissions.md#create-product-profile).
 
-[!DNL Journey Optimizer]은(는) 해당 조직에 대해 만들어진 Adobe Experience Platform 샌드박스를 반영합니다. Adobe Experience Platform 인스턴스에서 Adobe Experience Platform 샌드박스를 만들거나 재설정할 수 있습니다. [자세한 내용은 샌드박스 사용 안내서를 참조하십시오](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ko){target="_blank"}.
+[!DNL Journey Optimizer]은(는) 해당 조직에 대해 만들어진 Adobe Experience Platform 샌드박스를 반영합니다. Adobe Experience Platform 인스턴스에서 Adobe Experience Platform 샌드박스를 만들거나 재설정할 수 있습니다. [자세한 내용은 샌드박스 사용 안내서를 참조하십시오](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ko-KR){target="_blank"}.
 
 화면 오른쪽 상단의 조직 이름 옆에 샌드박스 전환기 컨트롤이 있습니다. 한 샌드박스에서 다른 샌드박스로 전환하려면 전환기에서 현재 활성 샌드박스를 클릭하고 드롭다운 목록에서 다른 샌드박스를 선택하십시오.
 
@@ -70,4 +72,4 @@ ht-degree: 28%
 
 샌드박스의 정의, 그리고 개발과 프로덕션 샌드박스를 구분하는 방법을 이해합니다. 샌드박스를 만들고, 재설정하고, 삭제하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416656?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334355?quality=12)
