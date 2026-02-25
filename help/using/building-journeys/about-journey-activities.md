@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: 여정, 활동, 시작하기, 이벤트, 작업
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '717'
 ht-degree: 15%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 15%
 
 화면 왼쪽에 있는 팔레트에서 다음 오케스트레이션 활동을 사용할 수 있습니다.
 
-<!--* [Optimize](optimize.md)-->
+* [최적화](optimize.md)
 * [대상자 읽기](read-audience.md)
 * [대기](wait-activity.md)
 * [콘텐츠 결정](content-decision.md)
@@ -57,7 +57,7 @@ ht-degree: 15%
 
 화면 왼쪽의 팔레트에서 **[!UICONTROL 이벤트]** 및 **[!UICONTROL 오케스트레이션]** 아래에 **[!UICONTROL 작업]** 범주가 있습니다. 다음 작업 활동을 사용할 수 있습니다.
 
-* [기본 제공 채널 작업](../building-journeys/journeys-message.md)
+* [기본 제공 채널 작업](../building-journeys/journey-action.md) 사용 가능: **작업** 활동
 * [사용자 정의 액션](../building-journeys/using-custom-actions.md)
 * [점프](../building-journeys/jump.md)
 
@@ -111,7 +111,7 @@ ht-degree: 15%
 
 ### 대체 경로 추가
 
-작업 또는 조건에 오류가 발생하면 개별 여정이 중지됩니다. **[!UICONTROL 시간 초과 또는 오류 발생 시 대체 경로를 추가]** 확인란을 선택하여 계속하는 방법만 있습니다. [이 섹션](../building-journeys/using-the-journey-designer.md#paths)을 참조하십시오.
+작업 또는 조건에 오류가 발생하면 개별 여정이 중지됩니다. **[!UICONTROL 시간 초과 또는 오류 발생 시 대체 경로를 추가]** 확인란을 선택하여 계속하는 방법만 있습니다. [이 섹션](../building-journeys/using-the-journey-designer.md#paths) 보기
 
 ![조건 활동 속성에 대체 경로 옵션 추가](assets/journey42.png)
 
@@ -119,6 +119,6 @@ ht-degree: 15%
 
 여정을 테스트하고 게시하기 전에 모든 활동이 올바르게 구성되었는지 확인하십시오. 시스템에서 오류가 계속 감지되면 테스트나 게시를 수행할 수 없습니다.
 
-[&#x200B; 여정의 활동 및 &#x200B;](troubleshooting.md) 오류를 해결하는 방법에 대해 알아봅니다.
+[ 여정의 활동 및 ](troubleshooting.md) 오류를 해결하는 방법에 대해 알아봅니다.
 
-**[모니터링 및 문제 해결](../../rp_landing_pages/troubleshoot-journey-landing-page.md)**&#x200B;도 참조하세요.
+[모니터링 및 문제 해결](../../rp_landing_pages/troubleshoot-journey-landing-page.md)도 참조하세요.

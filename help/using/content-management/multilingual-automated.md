@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 시작하기, 시작, 콘텐츠, 실험
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '2045'
 ht-degree: 20%
@@ -166,7 +166,7 @@ ht-degree: 20%
 
    1. Adobe Experience Platform 데이터 수집에서 태그 속성에 액세스합니다.
 
-   1. **[!UICONTROL 규칙]** 메뉴에 액세스하고 새 규칙을 만듭니다. 규칙을 만드는 방법에 대한 자세한 내용은 [!DNL Adobe Experience Platform] [데이터 수집 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}를 참조하세요.
+   1. **[!UICONTROL 규칙]** 메뉴에 액세스하고 새 규칙을 만듭니다. 규칙을 만드는 방법에 대한 자세한 내용은 [!DNL Adobe Experience Platform] [데이터 수집 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}를 참조하세요.
 
    1. 규칙의 **[!UICONTROL IF]** 섹션에서 아래와 같이 구성된 이벤트를 추가합니다.
 
@@ -224,7 +224,7 @@ ht-degree: 20%
 
 번역 프로젝트 및 언어 설정을 완료하고 나면 캠페인이나 여정을 만들고 다른 로케일에 맞게 콘텐츠를 맞춤화할 수 있습니다.
 
-1. 요구 사항에 따라 이메일, SMS 또는 푸시 알림 [campaign](../campaigns/create-campaign.md) 또는 [여정](../building-journeys/journeys-message.md)을(를) 만들고 구성하는 것부터 시작합니다.
+1. 요구 사항에 따라 이메일, SMS 또는 푸시 알림 [campaign](../campaigns/create-campaign.md) 또는 [여정](../building-journeys/journey-action.md)을(를) 만들고 구성하는 것부터 시작합니다.
 
 1. 기본 콘텐츠가 만들어지면 **[!UICONTROL 저장]**&#x200B;을 클릭하고 캠페인 구성 화면으로 돌아갑니다.
 

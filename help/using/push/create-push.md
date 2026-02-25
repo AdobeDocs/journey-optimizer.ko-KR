@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 279fd366b14520daec1df7f843ed337348e145a5
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '952'
 ht-degree: 11%
 
 ---
@@ -32,27 +32,43 @@ ht-degree: 11%
 
 >[!TAB 여정에 푸시 추가]
 
-1. 여정을 열고 팔레트의 작업 섹션에서 푸시 활동을 끌어서 놓습니다.
+1. 여정을 열고 팔레트의 **[!UICONTROL 작업]** 섹션에서 **[!UICONTROL 작업]** 활동을 끌어서 놓습니다. [작업 활동](../building-journeys/journey-action.md)에 대해 자세히 알아보세요.
+
+   >[!IMPORTANT]
+   >
+   >이제 작업 활동을 통해 모든 기본 채널에 액세스할 수 있으며 레거시 기본 채널 활동은 3월 릴리스에서 더 이상 사용되지 않습니다. 기존 작업을 포함하는 기존 여정은 마이그레이션이 필요하지 않으므로 그대로 작동합니다.
+
+1. 작업 유형으로 **[!UICONTROL 푸시]**&#x200B;를 선택합니다.
 
    ![](assets/push_create_1.png)
 
-1. 메시지에 대한 기본 정보(레이블, 설명, 카테고리)를 입력한 다음 사용할 메시지 구성을 선택합니다.
+1. 여정 캔버스에서 작업을 식별하려면 **[!UICONTROL 레이블]**&#x200B;을 입력하십시오.
+
+1. **[!UICONTROL 작업 구성]** 단추를 클릭합니다.
+
+1. **[!UICONTROL 작업]** 탭으로 이동되었습니다. 여기에서 사용할 푸시 구성을 선택하거나 만듭니다. [자세히 알아보기](push-configuration.md)
 
    ![](assets/push_create_2.png)
 
+1. 또한
+
+   * **[!UICONTROL 비즈니스 규칙]** 드롭다운 목록에서 규칙 집합을 선택하여 푸시 작업에 최대 가용량 규칙을 적용할 수 있습니다. [자세히 알아보기](../conflict-prioritization/channel-capping.md)
+
+   * **[!DNL Send time optimization]** 옵션을 사용하여 메시지를 보내는 최적의 시간을 예측하여 이전 열기 및 클릭률에 따라 참여를 극대화할 수 있습니다. [방법 알아보기](../building-journeys/send-time-optimization.md)
+
+1. **[!UICONTROL 빠른 전송 모드]**&#x200B;를 사용하여 푸시 알림을 대량으로 보냅니다. [방법 알아보기](#rapid-delivery)
+
+1. **[!UICONTROL 콘텐츠 편집]** 단추를 선택하고 원하는 대로 콘텐츠를 만드십시오. [자세히 알아보기](design-push.md)
+
+1. 메시지 콘텐츠가 정의되면 테스트 프로필 또는 CSV/JSON 파일에서 업로드한 샘플 입력 데이터 또는 수동으로 추가한 샘플 입력 데이터를 사용하여 콘텐츠를 미리 볼 수 있습니다. [방법 알아보기](send-push.md)
+
+1. 여정 캔버스로 돌아갑니다. 필요한 경우 추가 작업 또는 이벤트를 끌어다 놓아 여정 흐름을 완료합니다. [자세히 알아보기](../building-journeys/about-journey-activities.md)
+
    >[!NOTE]
    >
-   >여정에서 푸시 알림을 보내는 경우 Adobe Journey Optimizer의 전송 시간 최적화 기능을 활용하여 메시지를 보내는 최적의 시간을 예측하여 과거 열기 및 클릭률을 기반으로 참여를 극대화할 수 있습니다. [전송 시간 최적화를 사용하여 작업하는 방법을 알아봅니다](../building-journeys/send-time-optimization.md)
+   >푸시 열기 및/또는 상호 작용을 통해 수신자의 동작을 추적하려면 [전자 메일 활동](../building-journeys/journey-action.md)에서 추적 섹션의 전용 옵션을 사용하도록 설정해야 합니다.
 
-   여정 구성 방법에 대한 자세한 내용은 [이 페이지](../building-journeys/journey-gs.md)를 참조하세요.
-
-1. 여정 구성 화면에서 **[!UICONTROL 콘텐츠 편집]** 단추를 클릭하여 푸시 콘텐츠를 구성합니다. [푸시 알림 디자인](design-push.md)
-
-1. 메시지 콘텐츠가 정의되면 테스트 프로필 또는 CSV/JSON 파일에서 업로드한 샘플 입력 데이터 또는 수동으로 추가한 샘플 입력 데이터를 사용하여 콘텐츠를 미리 볼 수 있습니다.
-
-1. 푸시가 준비되면 [여정](../building-journeys/journey-gs.md)의 구성을 완료하여 보내십시오.
-
-   푸시 열기 및/또는 상호 작용을 통해 수신자의 동작을 추적하려면 [전자 메일 활동](../building-journeys/journeys-message.md)에서 추적 섹션의 전용 옵션을 사용하도록 설정해야 합니다.
+여정 만들기, 구성 및 게시 방법에 대한 자세한 내용은 [이 페이지](../building-journeys/journey-gs.md)를 참조하세요.
 
 >[!TAB Campaign에 푸시 추가]
 
@@ -89,18 +105,20 @@ ht-degree: 11%
 
 1. 캠페인 구성 화면에서 **[!UICONTROL 콘텐츠 편집]** 단추를 클릭하여 푸시 콘텐츠를 구성합니다. [푸시 알림 디자인](design-push.md)
 
-1. 메시지 콘텐츠가 정의되면 테스트 프로필 또는 CSV/JSON 파일에서 업로드한 샘플 입력 데이터 또는 수동으로 추가한 샘플 입력 데이터를 사용하여 콘텐츠를 미리 볼 수 있습니다.
+1. 메시지 콘텐츠가 정의되면 테스트 프로필 또는 CSV/JSON 파일에서 업로드한 샘플 입력 데이터 또는 수동으로 추가한 샘플 입력 데이터를 사용하여 콘텐츠를 미리 볼 수 있습니다. [방법 알아보기](send-push.md)
 
 1. 푸시가 준비되면 [campaign](../campaigns/create-campaign.md)의 구성을 완료하여 보내십시오.
 
    푸시 열기 및/또는 상호 작용을 통해 수신자의 동작을 추적하려면 [campaign](../campaigns/create-campaign.md)에서 추적 섹션의 전용 옵션을 사용하도록 설정해야 합니다.
+
+캠페인을 만들고 구성하고 활성화하는 방법에 대한 자세한 내용은 [이 페이지](../campaigns/get-started-with-campaigns.md)를 참조하세요.
 
 >[!ENDTABS]
 
 **관련 항목**
 
 * [푸시 채널 구성](push-gs.md)
-* [여정에 메시지 추가](../building-journeys/journeys-message.md)
+* [여정에 메시지 추가](../building-journeys/journey-action.md)
 
 ## 빠른 전송 모드 {#rapid-delivery}
 

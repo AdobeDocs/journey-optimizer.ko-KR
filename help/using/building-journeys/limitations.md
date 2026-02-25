@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 여정, 제한
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 39%
@@ -51,7 +51,7 @@ ht-degree: 39%
 
 ## 반응 이벤트 제한 사항 {#reaction-limitations}
 
-* **[!UICONTROL 반응]** 활동은 여정 캔버스에서 [채널 작업 활동](../building-journeys/journeys-message.md) 바로 뒤에 배치해야 합니다. 채널 액션과 **[!UICONTROL 반응]** 활동 사이에 **[!UICONTROL 대기]** 활동 또는 다른 활동을 배치하는 것은 지원되지 않으며 예상대로 반응이 작동하지 않을 수 있습니다. 자세한 내용은 [이 섹션](../building-journeys/reaction-events.md)을 참조하십시오.
+* **[!UICONTROL 반응]** 활동은 여정 캔버스에서 [채널 작업 활동](../building-journeys/journey-action.md) 바로 뒤에 배치해야 합니다. 채널 액션과 **[!UICONTROL 반응]** 활동 사이에 **[!UICONTROL 대기]** 활동 또는 다른 활동을 배치하는 것은 지원되지 않으며 예상대로 반응이 작동하지 않을 수 있습니다. 자세한 내용은 [이 섹션](../building-journeys/reaction-events.md)을 참조하십시오.
 
 ## 데이터 소스 제한 사항 {#data-sources-limitations}
 

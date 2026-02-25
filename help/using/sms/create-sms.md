@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 2dfc9c2db5af1b9b74f7405a68e85563f633a54f
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '1178'
+source-wordcount: '1285'
 ht-degree: 8%
 
 ---
@@ -38,19 +38,31 @@ Adobe Journey Optimizer에서 텍스트(SMS), 풍부한 커뮤니케이션(RCS) 
 
 >[!TAB 여정에 문자 메시지 추가]
 
-1. 여정을 열고 팔레트의 **작업** 섹션에서 SMS 활동을 끌어서 놓습니다.
+1. 여정을 열고 팔레트의 **[!UICONTROL 작업]** 섹션에서 **[!UICONTROL 작업]** 활동을 끌어서 놓습니다. [작업 활동](../building-journeys/journey-action.md)에 대해 자세히 알아보세요.
+
+   >[!IMPORTANT]
+   >
+   >이제 작업 활동을 통해 모든 기본 채널에 액세스할 수 있으며 레거시 기본 채널 활동은 3월 릴리스에서 더 이상 사용되지 않습니다. 기존 작업을 포함하는 기존 여정은 마이그레이션이 필요하지 않으므로 그대로 작동합니다.
+
+1. 작업 유형으로 **[!UICONTROL SMS]**&#x200B;을(를) 선택하십시오.
 
    ![](assets/sms_create_1.png)
 
-1. 메시지에 대한 기본 정보(레이블, 설명, 카테고리)를 입력한 다음 사용할 메시지 구성을 선택합니다.
+1. 여정 캔버스에서 작업을 식별하려면 **[!UICONTROL 레이블]**&#x200B;을 입력하십시오.
+
+1. **[!UICONTROL 작업 구성]** 단추를 클릭합니다.
+
+1. **[!UICONTROL 작업]** 탭으로 이동되었습니다. 여기에서 사용할 SMS 구성을 선택하거나 만듭니다. [자세히 알아보기](sms-configuration.md)
 
    ![](assets/sms_create_2.png)
 
-   여정 구성 방법에 대한 자세한 내용은 [이 페이지](../building-journeys/journey-gs.md)를 참조하세요.
+1. 또한 **[!UICONTROL 비즈니스 규칙]** 드롭다운 목록에서 규칙 세트를 선택하여 SMS 작업에 최대 가용량 규칙을 적용할 수 있습니다. [자세히 알아보기](../conflict-prioritization/channel-capping.md)
 
-   **[!UICONTROL 구성]** 필드는 기본적으로 미리 채워져 있으며 사용자가 해당 채널에 대해 마지막으로 사용한 구성입니다.
+1. **[!UICONTROL 콘텐츠 편집]** 단추를 선택하고 원하는 대로 콘텐츠를 만드십시오. [자세히 알아보기](#sms-content)
 
-이제 **[!UICONTROL 콘텐츠 편집]** 단추에서 SMS 메시지의 콘텐츠 디자인을 시작할 수 있습니다. 자세한 내용은 다음과 같습니다.
+1. 여정 캔버스로 돌아갑니다. 필요한 경우 추가 작업 또는 이벤트를 끌어다 놓아 여정 흐름을 완료합니다. [자세히 알아보기](../building-journeys/about-journey-activities.md)
+
+여정 만들기, 구성 및 게시 방법에 대한 자세한 내용은 [이 페이지](../building-journeys/journey-gs.md)를 참조하세요.
 
 >[!TAB 캠페인에 문자 메시지 추가]
 
@@ -88,6 +100,8 @@ Adobe Journey Optimizer에서 텍스트(SMS), 풍부한 커뮤니케이션(RCS) 
    * Month
 
 이제 아래 자세히 설명된 대로 **[!UICONTROL 콘텐츠 편집]** 단추에서 문자 메시지의 콘텐츠 디자인을 시작할 수 있습니다.
+
+캠페인을 만들고 구성하고 활성화하는 방법에 대한 자세한 내용은 [이 페이지](../campaigns/get-started-with-campaigns.md)를 참조하세요.
 
 >[!ENDTABS]
 
@@ -184,5 +198,5 @@ MMS 콘텐츠를 만들려면 다음 단계를 수행합니다.
 * [문자 메시지 미리 보기, 테스트 및 보내기](send-sms.md)
 * [SMS 채널 구성](sms-configuration.md)
 * [SMS/MMS 보고서](../reports/journey-global-report-cja-sms.md)
-* [여정에 메시지 추가](../building-journeys/journeys-message.md)
+* [여정에 메시지 추가](../building-journeys/journey-action.md)
 * [캠페인에 메시지 추가](../campaigns/create-campaign.md)

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '785'
-ht-degree: 8%
+source-wordcount: '864'
+ht-degree: 7%
 
 ---
 
@@ -31,7 +31,13 @@ ht-degree: 8%
 
 1. [이벤트](../building-journeys/general-events.md) 또는 [대상자 읽기](../building-journeys/read-audience.md) 활동으로 여정을 시작하십시오.
 
-1. 팔레트의 **[!UICONTROL 작업]** 섹션에서 **[!UICONTROL 코드 기반 경험]** 활동을 끌어서 놓습니다.
+1. 팔레트의 **[!UICONTROL 작업]** 섹션에서 **[!UICONTROL 작업]** 활동을 끌어서 놓습니다. [작업 활동](../building-journeys/journey-action.md)에 대해 자세히 알아보세요.
+
+   >[!IMPORTANT]
+   >
+   >이제 작업 활동을 통해 모든 기본 채널에 액세스할 수 있으며 레거시 기본 채널 활동은 3월 릴리스에서 더 이상 사용되지 않습니다. 기존 작업을 포함하는 기존 여정은 마이그레이션이 필요하지 않으므로 그대로 작동합니다.
+
+1. 작업 유형으로 **[!UICONTROL 코드 기반 경험]**&#x200B;을(를) 선택하십시오.
 
    ![](assets/code-based-activity-journey.png)
 
@@ -39,9 +45,11 @@ ht-degree: 8%
    >
    >**코드 기반 경험**&#x200B;은(는) 인바운드 경험 활동이므로 3일 **대기** 활동과 함께 제공됩니다. [자세히 알아보기](../building-journeys/wait-activity.md#auto-wait-node)
 
-1. 메시지에 대해 **[!UICONTROL 레이블]** 및 **[!UICONTROL 설명]**&#x200B;을 입력하십시오.
+1. 여정 캔버스에서 작업을 식별하려면 **[!UICONTROL 레이블]**&#x200B;을 입력하십시오.
 
-1. 사용할 코드 기반 경험 구성을 선택하거나 만듭니다. [자세히 알아보기](code-based-configuration.md)
+1. **[!UICONTROL 작업 구성]** 단추를 클릭합니다.
+
+1. **[!UICONTROL 작업]** 탭으로 이동되었습니다. 거기에서 사용할 코드 기반 경험 구성을 선택하거나 만듭니다. [자세히 알아보기](code-based-configuration.md)
 
    ![](assets/code-based-activity-config.png)
 
@@ -53,11 +61,11 @@ ht-degree: 8%
 
    기존 콘텐츠 템플릿을 코드 콘텐츠의 기반으로 사용할 수도 있습니다. 선택할 수 있는 템플릿은 이전에 선택한 채널 구성을 기반으로 HTML 또는 JSON으로 범위가 지정됩니다. [콘텐츠 템플릿을 사용하는 방법 알아보기](../content-management/use-content-templates.md)
 
-1. 필요한 경우 추가 작업 또는 이벤트를 끌어다 놓아 여정 흐름을 완료합니다. [자세히 알아보기](../building-journeys/about-journey-activities.md)
+1. **[!UICONTROL 작업 추가]** 단추를 클릭하여 하나 이상의 인바운드 작업을 코드 기반 환경에 추가할 수 있습니다. [자세히 알아보기](../building-journeys/journey-action.md#multi-action)
 
-1. 코드 기반 경험이 준비되면 구성을 완료하고 여정을 게시하여 활성화하십시오. [자세히 알아보기](../building-journeys/publish-journey.md)
+1. 여정 캔버스로 돌아갑니다. 필요한 경우 추가 작업 또는 이벤트를 끌어다 놓아 여정 흐름을 완료합니다. [자세히 알아보기](../building-journeys/about-journey-activities.md)
 
-여정 구성 방법에 대한 자세한 내용은 [이 페이지](../building-journeys/journey-gs.md)를 참조하세요.
+여정 만들기, 구성 및 게시 방법에 대한 자세한 내용은 [이 페이지](../building-journeys/journey-gs.md)를 참조하세요.
 
 >[!TAB 코드 기반 경험 캠페인 만들기]
 
@@ -85,7 +93,7 @@ ht-degree: 8%
 
    <!--![](assets/code-based-campaign-edit-content.png)-->
 
-캠페인을 구성하는 방법에 대한 자세한 내용은 [이 페이지](../campaigns/get-started-with-campaigns.md)를 참조하세요.
+캠페인을 만들고 구성하고 활성화하는 방법에 대한 자세한 내용은 [이 페이지](../campaigns/get-started-with-campaigns.md)를 참조하세요.
 
 ➡️ [이 비디오에서 코드 기반 경험 캠페인을 만드는 방법을 알아봅니다](#video)
 
@@ -145,4 +153,4 @@ ht-degree: 8%
 
 아래 비디오에서는 코드 기반 경험 캠페인을 만들고, 속성을 구성하고, 테스트하고, 게시하는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449460/?captions=kor&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3428868/?quality=12&learn=on)

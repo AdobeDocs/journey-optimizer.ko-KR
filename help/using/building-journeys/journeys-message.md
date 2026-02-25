@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 여정, 메시지, 푸시, sms, 이메일, 인앱, 웹, 콘텐츠 카드, 코드 기반 경험
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 12%
+source-wordcount: '615'
+ht-degree: 11%
 
 ---
 
@@ -24,13 +24,15 @@ ht-degree: 12%
 >title="기본 제공 채널 액션"
 >abstract="Journey Optimizer는 채널 액션 기능을 기본 제공합니다. 메시지(이메일, 문자 메시지(SMS/MMS), 푸시, DM) 또는 인바운드 경험(인앱, 웹, 코드 기반 경험, 콘텐츠 카드) 활동을 여정에 추가하고 설정 및 콘텐츠를 정의할 수 있습니다. 그런 다음 여정의 맥락에서 자동으로 실행되고 전송됩니다."
 
-[!DNL Journey Optimizer]에는 메시지를 보내는 데 사용되는 기본 제공 채널 작업 기능이 포함되어 있습니다. 프로필이 이 활동에 들어가면 메시지를 보냅니다.
+[!DNL Journey Optimizer]에는 메시지를 보내는 데 사용되는 채널 작업 기능이 내장되어 있습니다. 기본 제공 채널 작업을 여정에 추가하려면 채널 활동을 끌어다 놓고 해당 설정 및 콘텐츠를 정의합니다. 그런 다음 여정의 맥락에서 자동으로 실행되고 전송됩니다.
 
-기본 제공 채널 작업을 여정에 추가하려면 채널 활동을 끌어다 놓고 해당 설정 및 콘텐츠를 정의합니다. 그런 다음 여정의 맥락에서 자동으로 실행되고 전송됩니다.
+이제 **Action** 활동을 통해서도 모든 기본 채널에 액세스할 수 있습니다. 이는 기본 제공 채널 작업을 여정에 추가하는 데 권장되는 방법입니다. [자세히 알아보기](journey-action.md)
 
->[!NOTE]
+>[!IMPORTANT]
 >
->사용자 지정 작업을 설정하여 [!DNL Journey Optimizer]에서 메시지를 보낼 수도 있습니다. [자세히 알아보기](#recommendation)
+>레거시 기본 채널 활동은 3월 릴리스에서 더 이상 사용되지 않습니다. 기존 작업을 포함하는 기존 여정은 마이그레이션이 필요하지 않으므로 그대로 작동합니다.
+
+[!DNL Journey Optimizer]에서 메시지를 보낼 사용자 지정 작업을 설정할 수도 있습니다. [자세히 알아보기](#recommendation)
 
 ## 여정에 메시지 추가  {#add-msg-in-journey}
 

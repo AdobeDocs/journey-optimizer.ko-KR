@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 디자인, 캔버스, 여정, 인터페이스, 드래그, 놓기
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '1744'
 ht-degree: 4%
@@ -102,7 +102,7 @@ ht-degree: 4%
 
 작업은 메시지 전송과 같은 일종의 트리거 결과로 발생하고자 하는 작업입니다. 이는 고객이 경험하는 여정 중 하나입니다. 이메일, SMS 또는 푸시 메시지이거나 Slack 메시지와 같은 서드파티 작업일 수 있습니다.
 
-채널 작업 활동을 통해 [!DNL Journey Optimizer]에서 디자인된 메시지를 포함할 수 있습니다. [채널 작업 활동에 대해 자세히 알아보기](journeys-message.md)
+채널 작업 활동을 통해 [!DNL Journey Optimizer]에서 디자인된 메시지를 포함할 수 있습니다. [채널 작업 활동에 대해 자세히 알아보기](journey-action.md)
 
 작업 활동에서 사용자 지정 작업을 사용하여 서드파티 시스템에서 메시지를 보냅니다. [사용자 지정 작업에 대해 자세히 알아보세요](about-journey-activities.md#action-activities).
 
@@ -142,10 +142,10 @@ ht-degree: 4%
 활동을 복사/붙여넣는 단계는 다음과 같습니다.
 
 1. 여정을 엽니다.
-1. 을(를) 클릭하는 동안 마우스를 이동하여 복사할 활동을 선택합니다. **Ctrl/Command** 키를 누른 채 각 활동을 클릭할 수도 있습니다. 모든 활동을 선택하려면 **Ctrl/Command+A**&#x200B;를 사용하십시오.
+1. 을(를) 클릭하는 동안 마우스를 이동하여 복사할 활동을 선택합니다. **Ctrl/Command** 키를 누른 채 각 활동을 클릭할 수도 있습니다. 모든 활동을 선택하려면 **Ctrl/Command+A**를 사용하십시오.
    ![복사할 여정에서 여러 활동 선택](assets/copy-paste1.png)
-1. **Ctrl/Command + C**&#x200B;을 누릅니다.
+1. **Ctrl/Command + C**을 누릅니다.
 한 개의 활동만 복사하려는 경우 해당 활동을 클릭하고 활동 구성 창의 왼쪽 상단에 있는 **복사** 아이콘을 사용할 수 있습니다.
    ![활동 구성 창의 복사 아이콘](assets/copy-paste2.png)
-1. 모든 여정에서 **Ctrl/Command+V**&#x200B;을 눌러 기존 노드에 연결하지 않고 활동을 붙여 넣습니다. 붙여넣은 활동은 동일한 순서로 배치됩니다. 붙여넣기 후에는 쉽게 이동할 수 있도록 활동이 선택된 상태로 유지됩니다. 빈 자리 표시자에 커서를 놓고 **Ctrl/Command + V**&#x200B;을 누를 수도 있습니다. 붙여넣은 활동은 노드에 연결됩니다.
+1. 모든 여정에서 **Ctrl/Command+V**&#x200B;을 눌러 기존 노드에 연결하지 않고 활동을 붙여 넣습니다. 붙여넣은 활동은 동일한 순서로 배치됩니다. 붙여넣기 후에는 쉽게 이동할 수 있도록 활동이 선택된 상태로 유지됩니다. 빈 자리 표시자에 커서를 놓고 **Ctrl/Command + V**을 누를 수도 있습니다. 붙여넣은 활동은 노드에 연결됩니다.
    ![여정 캔버스에 붙여 넣은 활동을 연결할 준비가 되었습니다](assets/copy-paste3.png)

@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 작업 여정 활동 사용
-description: 일반 작업 활동을 추가하여 여정 캔버스 내에서 단일 작업 및 다중 작업 인바운드 작업 그룹을 구성하는 방법을 알아봅니다.
+title: 액션 활동 사용
+description: 일반 작업 활동을 추가하여 여정 캔버스 내에서 단일 작업 및 다중 작업 인바운드 작업 그룹을 구성하는 방법과 기본 제공 채널 작업을 추가하는 방법을 알아봅니다.
 feature: Journeys, Activities, Channels Activity
 topic: Content Management
 role: User
@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 여정, 메시지, 푸시, sms, 이메일, 인앱, 웹, 콘텐츠 카드, 코드 기반 경험
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: 1455489645b208340085a9ea4d4e6e759dbcde9b
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '1068'
-ht-degree: 12%
+source-wordcount: '1455'
+ht-degree: 9%
 
 ---
 
@@ -22,25 +22,29 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_action_activity"
 >title="액션 활동"
->abstract="일반 **액션** 활동을 사용하면 단일 네이티브 채널 액션과 여러 인바운드 활동을 구성하고 모든 기본 제공 채널 액션에 최적화를 추가할 수 있습니다."
+>abstract="**Action** 활동을 사용하면 기본 제공 채널 작업에 최적화를 추가하는 기능을 사용하여 단일 기본 채널 작업과 여러 인바운드 활동을 구성할 수 있습니다."
 
 [!DNL Journey Optimizer]에는 단일 기본 제공 채널 작업과 여러 인바운드 활동을 구성할 수 있는 새로운 일반 **Action** 활동이 함께 제공됩니다.
 
-이를 통해 다음과 같은 작업을 수행할 수 있습니다.
+작업 활동은 다음을 제공합니다.
 
 * 여정 캔버스 내 기본 액션 구성 간소화.
 * 다중 액션 인바운드 액션 그룹을 만들 수 있는 용량.
 * 모든 기본 제공 채널 액션에 최적화를 더하는 기능.
 
->[!NOTE]
+기본 제공 채널 작업을 여정에 추가하려면 **작업** 활동을 사용하십시오. 이 통합 활동은 모든 채널 작업(이메일, 푸시, SMS, 인앱, 웹, 코드 기반 경험 및 콘텐츠 카드)을 단일 활동 유형으로 통합하여 이전의 개별 채널 활동을 대체합니다.
+
+>[!IMPORTANT]
 >
->이제 작업 여정 활동을 통해 모든 기본 채널에 액세스할 수 있습니다. 레거시 기본 채널 활동은 3월 릴리스에서 더 이상 사용되지 않습니다. 기존 작업을 포함하는 기존 여정은 마이그레이션이 필요하지 않으므로 그대로 작동합니다.
+>이제 작업 활동을 통해 모든 기본 채널에 액세스할 수 있으며 레거시 기본 채널 활동은 3월 릴리스에서 더 이상 사용되지 않습니다. 기존 작업을 포함하는 기존 여정은 마이그레이션이 필요하지 않으므로 그대로 작동합니다.
 
 [!DNL Journey Optimizer]에서 메시지를 보낼 사용자 지정 작업을 설정할 수도 있습니다. [자세히 알아보기](#recommendation)
 
-## 여정에 작업 추가  {#add-action}
+## 여정에 기본 제공 채널 작업 추가  {#add-action}
 
-여정에 기본 제공 채널 작업을 추가하려면 아래 단계를 수행합니다.
+**[!UICONTROL Action]** 활동을 사용하여 여정에 기본 제공 채널 작업을 추가하려면 아래 단계를 따르십시오.
+
+여정에서 사용할 수 있는 채널에 대한 자세한 내용은 [여정 및 캠페인의 채널](../channels/gs-channels.md#channels) 섹션의 표를 참조하십시오.
 
 1. [이벤트](general-events.md) 또는 [대상자 읽기](read-audience.md) 활동으로 여정을 시작하십시오.
 
@@ -62,7 +66,92 @@ ht-degree: 12%
 
 1. 인바운드 채널을 선택한 경우 여러 작업을 추가할 수 있습니다. [자세히 알아보기](#multi-action)
 
-1. 선택한 채널에 따라 활동을 구성합니다. [이 섹션](journeys-message.md)에서 기본 제공 채널 작업을 구성하는 방법을 알아봅니다.
+1. 선택한 채널에 따라 활동을 구성합니다. 자세한 구성 지침은 아래 링크에서 확인할 수 있습니다.
+
+   * 아웃바운드 작업을 만드는 자세한 단계를 다음과 같이 배웁니다.
+
+     <table style="table-layout:fixed">
+      <tr style="border: 0;">
+      <td>
+      <a href="../email/create-email.md">
+      <img alt="리드" src="../assets/do-not-localize/email.jpg">
+      </a>
+      <div><a href="../email/create-email.md"><strong>이메일 작성</strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../push/create-push.md">
+      <img alt="드물게" src="../assets/do-not-localize/push.jpg">
+      </a>
+      <div>
+      <a href="../push/create-push.md"><strong>푸시 알림 만들기<strong></a>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../sms/create-sms.md">
+      <img alt="유효성 검사" src="../assets/do-not-localize/sms.jpg">
+      </a>
+      <div>
+      <a href="../sms/create-sms.md"><strong>문자 메시지(SMS/MMS) 만들기</strong></a>
+      </div>
+      <p>
+      </td>
+      </tr>
+      </table>
+
+   * 인바운드 작업을 생성하는 자세한 단계를 다음과 같이 알아보십시오.
+
+     <table style="table-layout:fixed">
+      <tr style="border: 0;">
+      <td>
+      <a href="../in-app/create-in-app.md">
+      <img alt="리드" src="../assets/do-not-localize/in-app.jpg">
+      </a>
+      <div><a href="../in-app/create-in-app.md"><strong>인앱 메시지 만들기</strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../web/create-web.md">
+      <img alt="리드" src="../assets/do-not-localize/web-create.jpg">
+      </a>
+      <div><a href="../web/create-web.md"><strong>웹 경험 만들기</strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../content-card/create-content-card.md">
+      <img alt="리드" src="../assets/do-not-localize/sms-config.jpg">
+      </a>
+      <div><a href="../content-card/create-content-card.md"><strong>콘텐츠 카드 만들기</strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../code-based/create-code-based.md">
+      <img alt="드물게" src="../assets/do-not-localize/web-design.jpg">
+      </a>
+      <div>
+      <a href="../code-based/create-code-based.md"><strong>코드 기반 경험 만들기<strong></a>
+      </div>
+      <p>
+      </td>
+      </tr>
+      </table>
+
+   >[!NOTE]
+   >
+   >* 각 인바운드 경험 작업에는 3일 **대기** 활동이 제공됩니다. [자세히 알아보기](wait-activity.md#auto-wait-node)
+   >
+   >* 이메일 및 푸시 알림의 경우 전송 시간 최적화를 활성화할 수 있습니다. [자세히 알아보기](send-time-optimization.md)
+
+1. 활동에 따라 선택한 채널에 대한 고급 매개 변수를 표시하고 실행 주소와 같은 일부 기본값을 무시할 수 있습니다. [자세히 알아보기](about-journey-activities.md#advanced-parameters)
+
+   >[!NOTE]
+   >
+   >고급 매개 변수가 숨겨져 있으면 오른쪽 창 상단의 **[!UICONTROL 읽기 전용 필드 표시]** 단추를 클릭합니다.
 
 1. **[!UICONTROL 최적화]** 섹션을 사용하여 콘텐츠 실험을 실행하거나, 타깃팅 규칙을 활용하거나, 실험과 타깃팅을 모두 사용하는 고급 조합을 사용할 수 있습니다.
 
@@ -100,7 +189,7 @@ ht-degree: 12%
 
 빠른 게재는 메시지 게재 지연이 비즈니스에 중요한 경우, 휴대폰에 긴급 푸시 알림(예: 뉴스 채널 앱을 설치한 사용자에게 속보)을 전송하려는 경우 사용됩니다.
 
-푸시 알림에 대해 빠른 전송 모드를 사용하는 방법을 알아봅니다. [&#x200B; 이 페이지](../push/create-push.md#rapid-delivery).
+푸시 알림에 대해 빠른 전송 모드를 사용하는 방법을 알아봅니다. [ 이 페이지](../push/create-push.md#rapid-delivery).
 
 빠른 전송 모드를 사용할 때의 성능에 대한 자세한 내용은 [[!DNL Adobe Journey Optimizer] 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}을 참조하세요.
 
@@ -178,7 +267,32 @@ ht-degree: 12%
 1. 작업을 추가하려면 유사하게 진행합니다. 여정 작업 그룹에 최대 10개의 인바운드 작업을 추가할 수 있습니다.
 
 여정이 [live](publish-journey.md)이면 모든 작업이 동시에 활성화됩니다.
-<!--
-## Next steps {#next}
 
-Once your action is configured, you can design its content. [Learn more]-->
+## 라이브 콘텐츠 업데이트 {#update-live-content}
+
+라이브 여정에서 기본 제공 채널 작업의 콘텐츠를 업데이트할 수 있습니다.
+
+컨텐츠의 변경 사항은 작업 속성을 저장할 때까지 여정에 반영되지 않습니다. [자세히 알아보기](about-journey-activities.md#advanced-parameters)
+
+이렇게 하려면 라이브 여정을 열고 채널 활동을 선택한 다음 **콘텐츠 편집**&#x200B;을 클릭하세요.
+
+![라이브 여정에서 채널 활동 편집 단추](assets/email-action-edit-content.png)
+
+그러나 프로필 속성이든 컨텍스트 데이터(이벤트 또는 여정 속성)이든 간에 개인화에 사용되는 속성은 변경할 수 없습니다.
+
+* 컨텍스트 데이터를 수정하면 다음 오류 메시지가 표시됩니다. `ERR_AUTHORING_JOURNEYVERSION_201`
+
+* 프로필 속성을 수정하면 다음 오류 메시지가 표시됩니다. `ERR_AUTHORING_JOURNEYVERSION_202`
+
+인앱 활동의 경우 여정이 라이브되는 동안 컨텐츠를 변경할 수 있지만 인앱 트리거는 수정할 수 없습니다.
+
+## 사용자 지정 작업으로 보내기 {#recommendation}
+
+기본 제공 메시지 기능을 사용하는 대신 사용자 지정 작업을 사용하여 메시지나 API 호출을 전송할 서드파티 시스템의 연결을 구성할 수 있습니다.
+
+* 서드파티 시스템을 사용하여 메시지를 전송하는 경우 사용자 지정 작업을 만들 수 있습니다. [자세히 알아보기](../action/action.md)
+
+* Adobe Campaign을 사용하여 작업하는 경우 다음 섹션을 참조하십시오.
+
+   * [[!DNL Journey Optimizer] 및 Campaign v7/v8](../action/acc-action.md)
+   * [[!DNL Journey Optimizer] 및 Campaign Standard](../action/acs-action.md)

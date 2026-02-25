@@ -5,22 +5,22 @@ title: 활동
 description: 활동
 redpen-status: CREATED_||_2025-08-11_20-09-57
 exl-id: 9342ef70-43a7-4763-9ae0-bb95b8b7f7f1
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 100%
+source-wordcount: '388'
+ht-degree: 86%
 
 ---
 
 # 활동{#section-overview}
 
-Adobe Journey Optimizer의 활동은 여러 채널에서 이벤트를 트리거하고, 의사 결정을 내리고, 의미 있는 작업을 수행할 수 있도록하여 고객 여정을 실현하는 기본 구성단위입니다. 구매 이벤트 수신, 개인화된 이메일 전송, 실시간 프로필 업데이트 등 활동을 통해 여정의 모든 단계를 맞춤화할 수 있습니다. 이벤트, 오케스트레이션 또는 액션과 같은 모든 활동 유형은 서로 협력하여 원활하고 매력적인 경험을 만드는 고유한 역할을 합니다. 이러한 도구를 탐색하면서 트리거, 조건 및 액션을 사용하여 고객의 요구 사항만큼 역동적인 여정을 구축하는 방법을 알아봅니다.
+Adobe Journey Optimizer의 활동은 여러 채널에서 이벤트를 트리거하고, 의사 결정을 내리고, 의미 있는 작업을 수행할 수 있도록하여 고객 여정을 실현하는 기본 구성단위입니다. 구매 이벤트 수신, 개인화된 이메일 전송, 실시간 프로필 업데이트 등 활동을 통해 여정의 모든 단계를 맞춤화할 수 있습니다. 이벤트, 오케스트레이션 또는 액션과 같은 모든 활동 유형은 서로 협력하여 원활하고 매력적인 경험을 만드는 고유한 역할을 합니다. 이러한 도구를 탐색하면서 트리거, 조건 및 작업을 사용하여 고객의 요구 사항만큼 동적인 여정을 구축하는 방법을 알아봅니다.
 
 ## Adobe Journey Optimizer의 활동
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Journey Optimizer 소개
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 이벤트, 오케스트레이션 및 액션 활동을
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 일반 이벤트 사용
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer의 이벤트, 오케스트레이션 및 액션 활동을
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 반응 이벤트 구성
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer의 이벤트, 오케스트레이션 및 액션 활동을
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 대상자 선별 이벤트
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer의 이벤트, 오케스트레이션 및 액션 활동을
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 조건 활동 사용
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer의 이벤트, 오케스트레이션 및 액션 활동을
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 대기 활동 구성
 
@@ -85,7 +85,7 @@ Adobe Journey Optimizer의 이벤트, 오케스트레이션 및 액션 활동을
 ## 추가 리소스
 
 - **[여정에서 대상 사용](../using/building-journeys/read-audience.md)** - Adobe Experience Platform 오디언스의 개인이 여정에 동적으로 참여할 수 있도록 합니다.
-- **[기본 제공 채널 액션](../using/building-journeys/journeys-message.md)** - Journey Optimizer의 기본 제공 기능을 사용하여 이메일, SMS 또는 푸시 알림을 통해 메시지를 전송합니다.
+- **[기본 제공 채널 작업](../using/building-journeys/journey-action.md)** - Journey Optimizer의 기본 제공 기능을 사용하여 이메일, SMS, 푸시 여정, 인앱, 웹, 코드 기반 경험 또는 콘텐츠 카드를 통해 메시지 또는 경험을 게재할 수 있습니다.
 - **[사용자 정의 액션 사용](../using/building-journeys/using-custom-actions.md)** - 동적 경로, 헤더 및 쿼리 매개 변수와 REST API를 사용하여 제3자 시스템을 통합합니다.
 - **[콘텐츠 의사 결정 활동](../using/building-journeys/content-decision.md)** - 의사 결정 정책 및 콘텐츠 전략을 사용하여 여정에 개인화된 오퍼를 제공합니다.
 - **[Adobe Campaign Standard 액션](../using/building-journeys/using-adobe-campaign-standard.md)** - Adobe Campaign Standard 통합을 사용하여 트랜잭션 이메일, SMS 및 푸시 알림을 전송합니다.

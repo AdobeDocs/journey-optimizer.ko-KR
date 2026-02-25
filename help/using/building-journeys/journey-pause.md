@@ -9,7 +9,7 @@ level: Intermediate
 keywords: 게시, 여정, 라이브, 유효성, 확인
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '2512'
 ht-degree: 5%
@@ -33,7 +33,7 @@ ht-degree: 5%
 
 >[!CAUTION]
 >
->* 여정을 일시 중지하고 다시 시작할 수 있는 권한은 **[!DNL Publish journeys]** 높은 수준의 권한을 가진 사용자로 제한됩니다. [!DNL Journey Optimizer]이 섹션[에서 &#x200B;](../administration/permissions-overview.md) 사용자의 액세스 권한 관리에 대해 자세히 알아보세요.
+>* 여정을 일시 중지하고 다시 시작할 수 있는 권한은 **[!DNL Publish journeys]** 높은 수준의 권한을 가진 사용자로 제한됩니다. [!DNL Journey Optimizer]이 섹션[에서 ](../administration/permissions-overview.md) 사용자의 액세스 권한 관리에 대해 자세히 알아보세요.
 >
 >* 일시 중지/다시 시작 기능을 사용하기 전에 [보호 기능 및 제한 사항을 읽어보세요](#journey-pause-guardrails).
 
@@ -86,7 +86,7 @@ ht-degree: 5%
 | [대기](wait-activity.md) | 라이브 여정과 동일한 비헤이비어 |
 | [조건](condition-activity.md) | 라이브 여정과 동일한 비헤이비어 |
 | [콘텐츠 결정](content-decision.md) | 프로필은 여정이 일시 중지되었을 때 사용자가 선택한 항목에 따라 파킹되거나 삭제됩니다 |
-| [채널 작업](journeys-message.md) | 프로필은 여정이 일시 중지되었을 때 사용자가 선택한 항목에 따라 파킹되거나 삭제됩니다 |
+| [채널 작업](journey-action.md) | 프로필은 여정이 일시 중지되었을 때 사용자가 선택한 항목에 따라 파킹되거나 삭제됩니다 |
 | [사용자 지정 작업](../action/action.md) | 프로필은 여정이 일시 중지되었을 때 사용자가 선택한 항목에 따라 파킹되거나 삭제됩니다 |
 | [프로필 업데이트](update-profiles.md) 및 [이동](jump.md) | 프로필은 여정이 일시 중지되었을 때 사용자가 선택한 항목에 따라 파킹되거나 삭제됩니다 |
 | [외부 데이터 Source](../datasource/external-data-sources.md) | 라이브 여정과 동일한 비헤이비어 |
@@ -153,7 +153,7 @@ ht-degree: 5%
 
 ## 가드레일 및 제한 사항 {#journey-pause-guardrails}
 
-* 최대 **14일** 동안 여정 버전을 일시 중지할 수 있으며, 조직 전체에서 일시 중지된 프로필에 최대 **1천만 개**&#x200B;의 여정이 허용됩니다.
+* 최대 **14일** 동안 여정 버전을 일시 중지할 수 있으며, 조직 전체에서 일시 중지된 프로필에 최대 **1천만 개**의 여정이 허용됩니다.
 이 제한은 개별 프로필이 아닌 일시 중지된 모든 여정에 걸쳐 유지된 총 프로필 수를 계산합니다. 예를 들어 동일한 5M 프로필이 일시 중지된 두 개의 여정에 유지되면 10M 제한에 도달합니다.
 이 제한은 30분마다 확인됩니다. 즉, 일시적으로 1,000만 임계값을 초과할 수 있지만, 시스템에서 이를 감지하면 추가 프로필이 자동으로 삭제됩니다.
 
@@ -202,7 +202,7 @@ ht-degree: 5%
 
 ## 일시 중지된 프로필의 여정 카드 문제 해결 {#discards-troubleshoot}
 
-[[!DNL Adobe Experience Platform] 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ko){target="_blank"}를 사용하여 단계 이벤트를 쿼리할 수 있습니다. 이 이벤트는 발생한 시기에 따라 프로필 삭제에 대한 자세한 정보를 제공할 수 있습니다.
+[[!DNL Adobe Experience Platform] 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}를 사용하여 단계 이벤트를 쿼리할 수 있습니다. 이 이벤트는 발생한 시기에 따라 프로필 삭제에 대한 자세한 정보를 제공할 수 있습니다.
 
 * 프로필이 여정에 들어가기 전에 발생하는 폐기물의 경우 다음 코드를 사용하십시오.
 

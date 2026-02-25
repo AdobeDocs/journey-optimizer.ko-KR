@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
-source-git-commit: 279fd366b14520daec1df7f843ed337348e145a5
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 6%
@@ -62,6 +62,6 @@ ht-degree: 6%
 * [웹용 푸시 채널 구성](push-configuration-web.md)
 * [푸시 알림 보고서](../reports/journey-global-report-cja-push.md)
 * [푸시 알림 만들기](create-push.md)
-* [여정에 메시지 추가](../building-journeys/journeys-message.md)
+* [여정에 메시지 추가](../building-journeys/journey-action.md)
 * [캠페인에 메시지 추가](../campaigns/create-campaign.md)
 

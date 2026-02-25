@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 여정, 이벤트, 반응, 추적, 플랫폼
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 10%
@@ -40,7 +40,7 @@ ht-degree: 10%
 
 다음 단계에 따라 반응 이벤트를 구성합니다.
 
-1. 여정 캔버스에서 **[!UICONTROL 채널 작업 활동]** 후에 **반응** 활동을 [즉시](journeys-message.md)합니다.
+1. 여정 캔버스에서 **[!UICONTROL 채널 작업 활동]** 후에 **반응** 활동을 [즉시](journey-action.md)합니다.
 1. 반응에 **[!UICONTROL Label]**&#x200B;을(를) 추가합니다. 데이터 소스에 이벤트에 설명을 추가합니다.
 1. 드롭다운 목록에서 반응할 작업 활동을 선택합니다. 경로의 이전 단계에 배치된 모든 작업 활동을 선택할 수 있습니다.
 1. 선택한 작업에 따라 반응할 항목을 선택합니다.
@@ -48,7 +48,7 @@ ht-degree: 10%
 
 ## 가드레일 및 제한 사항 {#guardrails-limitations}
 
-* **[!UICONTROL 반응]** 활동은 여정 캔버스에서 **채널 작업 활동** 후에 [즉시](journeys-message.md)해야 합니다.
+* **[!UICONTROL 반응]** 활동은 여정 캔버스에서 **채널 작업 활동** 후에 [즉시](journey-action.md)해야 합니다.
 * **[!UICONTROL 반응]** 활동 전에 채널 작업 활동이 없으면 활동을 사용할 수 없습니다.
 * 채널 액션과 **[!UICONTROL 반응]** 활동 사이에 **[!UICONTROL 대기]** 활동 또는 다른 활동을 배치하는 것은 지원되지 않으며 예상대로 반응이 작동하지 않을 수 있습니다.
 * 반응 이벤트는 동일한 여정 내에서만 전송된 메시지를 추적할 수 있습니다. 다른 여정에서 발생하는 메시지를 추적할 수 없습니다.

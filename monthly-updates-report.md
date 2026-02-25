@@ -6,7 +6,7 @@ description: 새 설명서 페이지 및 업데이트된 설명서 페이지 목
 hide: true
 hidefromtoc: true
 exl-id: 7962189b-4135-4f88-b91d-40d21cdf6c6d
-source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '1293'
 ht-degree: 0%
@@ -154,7 +154,7 @@ ht-degree: 0%
 - [작업 여정 활동 사용](help/using/building-journeys/journey-action.md) - 10월 14일
 - [여정 일시 중지](help/using/building-journeys/journey-pause.md) - 10월 13일
 - [여정 시작](help/using/building-journeys/journey.md) - 10월 27일
-- [여정에 기본 제공 채널 동작 추가](help/using/building-journeys/journeys-message.md) - 10월 29일
+- [여정에 기본 제공 채널 동작 추가](help/using/building-journeys/journey-action.md) - 10월 29일
 - [활동 최적화](help/using/building-journeys/optimize.md) - 10월 22일
 - [여정에서 대상 사용](help/using/building-journeys/read-audience.md) - 10월 17일
 - [전송 시간 최적화](help/using/building-journeys/send-time-optimization.md) - 10월 28일

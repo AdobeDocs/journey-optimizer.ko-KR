@@ -1,19 +1,19 @@
 ---
-title: 콘텐츠 카드 만들기
+title: 콘텐츠 템플릿 만들기
 description: Journey Optimizer에서 컨텐츠 카드를 작성하고 컨텐츠를 편집하는 방법에 대해 알아봅니다
 topic: Content Management
 feature: Content Cards
 role: User
 level: Beginner
 exl-id: a26bb3bd-d593-466b-9852-94e194d6d2b7
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '1369'
+source-wordcount: '1467'
 ht-degree: 12%
 
 ---
 
-# 콘텐츠 카드 만들기 {#create-content-card}
+# 콘텐츠 템플릿 만들기 {#create-content-card}
 
 >[!IMPORTANT]
 >
@@ -25,13 +25,25 @@ ht-degree: 12%
 
 여정에 컨텐츠 카드를 추가하려면 다음 단계를 따르십시오.
 
-1. 여정을 열고 팔레트의 **[!UICONTROL 작업]** 섹션에서 **[!UICONTROL 카드]** 활동을 끌어서 놓습니다.
+1. [여정](../building-journeys/journey-gs.md)을 연 다음 팔레트의 **[!UICONTROL 작업]** 섹션에서 **[!UICONTROL 작업]** 활동을 끌어서 놓습니다. [작업 활동](../building-journeys/journey-action.md)에 대해 자세히 알아보세요.
+
+   >[!IMPORTANT]
+   >
+   >이제 작업 활동을 통해 모든 기본 채널에 액세스할 수 있으며 레거시 기본 채널 활동은 3월 릴리스에서 더 이상 사용되지 않습니다. 기존 작업을 포함하는 기존 여정은 마이그레이션이 필요하지 않으므로 그대로 작동합니다.
+
+1. 작업 유형으로 **[!UICONTROL 카드]**&#x200B;을(를) 선택하십시오.
 
    ![](assets/content-card-jo-1.png)
 
-1. 메시지에 대해 **[!UICONTROL 레이블]** 및 **[!UICONTROL 설명]**&#x200B;을 입력하십시오.
+   >[!NOTE]
+   >
+   >**Card**&#x200B;은(는) 인바운드 경험 활동이므로 3일 **대기** 활동과 함께 제공됩니다. [자세히 알아보기](../building-journeys/wait-activity.md#auto-wait-node)
 
-1. 사용할 [콘텐츠 카드 구성](content-card-configuration.md)을 선택하세요.
+1. 여정 캔버스에서 작업을 식별하려면 **[!UICONTROL 레이블]**&#x200B;을 입력하십시오.
+
+1. **[!UICONTROL 작업 구성]** 단추를 클릭합니다.
+
+1. **[!UICONTROL 작업]** 탭으로 이동되었습니다. 여기에서 사용할 콘텐츠 카드 구성을 선택하거나 만듭니다. [자세히 알아보기](content-card-configuration.md)
 
    ![](assets/content-card-jo-2.png)
 
@@ -86,11 +98,11 @@ ht-degree: 12%
 
    1. 트리거를 함께 그룹화하려면 **[!UICONTROL 그룹 만들기]**&#x200B;를 클릭하세요.
 
-1. 필요한 경우 추가 작업 또는 이벤트를 끌어다 놓아 여정 흐름을 완료합니다. [자세히 알아보기](../building-journeys/about-journey-activities.md)
+1. **[!UICONTROL 동작 추가]** 단추를 클릭하여 콘텐츠 카드에 인바운드 동작을 하나 이상 추가할 수 있습니다. [자세히 알아보기](../building-journeys/journey-action.md#multi-action)
 
-1. Content 카드가 준비되면 구성을 완료하고 여정을 게시하여 활성화합니다.
+1. 여정 캔버스로 돌아갑니다. 필요한 경우 추가 작업 또는 이벤트를 끌어다 놓아 여정 흐름을 완료합니다. [자세히 알아보기](../building-journeys/about-journey-activities.md)
 
-여정 구성 방법에 대한 자세한 내용은 [이 페이지](../building-journeys/journey-gs.md)를 참조하세요.
+여정 만들기, 구성 및 게시 방법에 대한 자세한 내용은 [이 페이지](../building-journeys/journey-gs.md)를 참조하세요.
 
 >[!TAB 캠페인에 콘텐츠 카드 추가]
 

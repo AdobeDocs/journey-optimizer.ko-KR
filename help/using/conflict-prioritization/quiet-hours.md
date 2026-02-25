@@ -8,13 +8,13 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 메시지, 빈도, 규칙, 압력
-source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
+exl-id: defebd53-fa80-4720-acdc-0f41ceb00214
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '909'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
-
 
 # 방해 금지 시간 설정 {#quiet-hours}
 
@@ -22,7 +22,7 @@ ht-degree: 4%
 
 **방해 금지 시간**&#x200B;을(를) 사용하면 **이메일**, **SMS**, **푸시** 및 **WhatsApp** 채널에 대한 시간 기반 제외를 정의할 수 있습니다. 특정 시간 동안 메시지가 전송되지 않도록 하여 고객 환경 설정과 및 규정 요건을 준수할 수 있습니다.
 
-정확한 제어를 위해 캠페인 또는 여정의 개별 작업에 할당할 수 있는 **규칙 집합**&#x200B;을 통해 방해 금지 시간을 적용할 수 있습니다.
+**규칙 세트**&#x200B;를 통해 방해 금지 시간을 적용할 수 있으며, 정확한 제어를 위해 이 규칙 세트를 캠페인이나 여정의 개별 액션에 할당할 수 있습니다.
 
 이러한 프로세스를 간소화함으로써 고객 경험을 향상시키고, 시간을 절약하며, 커뮤니케이션 규칙을 준수할 수 있습니다.
 
@@ -133,7 +133,7 @@ ht-degree: 4%
 
 >[!TAB 여정에서 자동 시간 채널 동작 적용]
 
-1. 여정을 열고 [채널 작업](../building-journeys/journeys-message.md)을(를) 선택하고 메시지 내용을 편집합니다.
+1. 여정을 열고 [채널 작업](../building-journeys/journey-action.md)을(를) 선택하고 메시지 내용을 편집합니다.
 1. **[!UICONTROL 비즈니스 규칙 추가]** 단추를 클릭하고 자동 시간 규칙이 포함된 규칙 집합을 선택합니다.
 
    ![](assets/quiet-hours-apply.png)
@@ -192,4 +192,4 @@ ht-degree: 4%
 
 Adobe Journey Optimizer에서 방해 금지 모드 해제 시간 기능을 사용하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475859?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475851?quality=12)

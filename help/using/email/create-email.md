@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 만들기, 이메일, 시작, 여정, 캠페인
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 1455489645b208340085a9ea4d4e6e759dbcde9b
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1187'
 ht-degree: 9%
 
 ---
@@ -31,23 +31,35 @@ ht-degree: 9%
 
 >[!TAB 여정에 전자 메일 추가]
 
-1. 여정을 연 다음 팔레트의 **[!UICONTROL 작업]** 섹션에서 **[!UICONTROL 전자 메일]** 활동을 끌어서 놓습니다.
+1. 여정을 연 다음 팔레트의 **[!UICONTROL 작업]** 섹션에서 **[!UICONTROL 작업]** 활동을 끌어서 놓습니다. [작업 활동](../building-journeys/journey-action.md)에 대해 자세히 알아보세요.
 
-   <!--You can also use the **[!UICONTROL Action]** activity to add email to a journey—select the Email channel when configuring the action. The **[!UICONTROL Email]** activity will soon be deprecated. [Learn more about the Action activity](../building-journeys/journey-action.md).-->
+   >[!IMPORTANT]
+   >
+   >이제 작업 활동을 통해 모든 기본 채널에 액세스할 수 있으며 레거시 기본 채널 활동은 3월 릴리스에서 더 이상 사용되지 않습니다. 기존 작업을 포함하는 기존 여정은 마이그레이션이 필요하지 않으므로 그대로 작동합니다.
 
-1. 메시지에 대한 기본 정보(레이블, 설명, 카테고리)를 제공합니다.
-
-1. [전자 메일 구성](email-settings.md)을 선택하거나 만듭니다.
+1. 작업 유형으로 **[!UICONTROL 전자 메일]**&#x200B;을(를) 선택하십시오.
 
    ![](assets/email_journey.png)
 
-   필드는 기본적으로 미리 채워져 있으며 사용자가 해당 채널에 대해 마지막으로 사용한 구성이 있습니다.
+1. 여정 캔버스에서 작업을 식별하려면 **[!UICONTROL 레이블]**&#x200B;을 입력하십시오.
 
->[!NOTE]
->
->전송 시간 최적화 옵션을 사용하여 메시지를 보내는 가장 적합한 시간을 예측하여 기록 열기 및 클릭률에 따라 참여를 극대화할 수 있습니다. [전송 시간 최적화를 사용하여 작업하는 방법을 알아봅니다](../building-journeys/send-time-optimization.md)
+1. **[!UICONTROL 작업 구성]** 단추를 클릭합니다.
 
-여정 구성 방법에 대한 자세한 내용은 [이 페이지](../building-journeys/journey-gs.md)를 참조하세요.
+1. **[!UICONTROL 작업]** 탭으로 이동되었습니다. 여기에서 사용할 이메일 구성을 선택하거나 만듭니다. [자세히 알아보기](email-settings.md)
+
+   ![](assets/email-action-config.png)
+
+1. 추가 사항:
+
+   * **[!UICONTROL 비즈니스 규칙]** 드롭다운 목록에서 규칙 집합을 선택하여 전자 메일 작업에 최대 가용량 규칙을 적용할 수 있습니다. [자세히 알아보기](../conflict-prioritization/channel-capping.md)
+
+   * **[!DNL Send time optimization]** 옵션을 사용하여 메시지를 보내는 최적의 시간을 예측하여 이전 열기 및 클릭률에 따라 참여를 극대화할 수 있습니다. [방법 알아보기](../building-journeys/send-time-optimization.md)
+
+1. **[!UICONTROL 콘텐츠 편집]** 단추를 선택하고 이메일 Designer을 사용하여 원하는 대로 콘텐츠를 만듭니다. [자세히 알아보기](#define-email-content)
+
+1. 여정 캔버스로 돌아갑니다. 필요한 경우 추가 작업 또는 이벤트를 끌어다 놓아 여정 흐름을 완료합니다. [자세히 알아보기](../building-journeys/about-journey-activities.md)
+
+여정 만들기, 구성 및 게시 방법에 대한 자세한 내용은 [이 페이지](../building-journeys/journey-gs.md)를 참조하세요.
 
 >[!TAB 캠페인에 전자 메일 추가]
 
@@ -68,8 +80,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
 ![](assets/email_campaign_tracking.png)
 -->
-
-캠페인을 구성하는 방법에 대한 자세한 내용은 [이 페이지](../campaigns/get-started-with-campaigns.md)를 참조하세요.
+캠페인을 만들고 구성하고 활성화하는 방법에 대한 자세한 내용은 [이 페이지](../campaigns/get-started-with-campaigns.md)를 참조하세요.
 
 >[!ENDTABS]
 
@@ -182,7 +193,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
 >[!NOTE]
 >
->이메일 열기 및/또는 상호 작용을 통해 수신자의 동작을 추적하려면 **[!UICONTROL 추적]** 섹션의 전용 옵션이 여정의 [이메일 활동](../building-journeys/journeys-message.md) 또는 이메일 [캠페인](../campaigns/create-campaign.md)에서 활성화되어 있는지 확인하십시오.<!--to move?-->
+>이메일 열기 및/또는 상호 작용을 통해 수신자의 동작을 추적하려면 **[!UICONTROL 추적]** 섹션의 전용 옵션이 여정의 [이메일 활동](../building-journeys/journey-action.md) 또는 이메일 [캠페인](../campaigns/create-campaign.md)에서 활성화되어 있는지 확인하십시오.<!--to move?-->
 
 <!--
 

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '1543'
+source-wordcount: '1619'
 ht-degree: 17%
 
 ---
@@ -45,7 +45,13 @@ ht-degree: 17%
 
 1. [이벤트](../building-journeys/general-events.md) 또는 [대상자 읽기](../building-journeys/read-audience.md) 활동으로 여정을 시작하십시오.
 
-1. 팔레트의 **[!UICONTROL 작업]** 섹션에서 **[!UICONTROL 웹]** 활동을 끌어서 놓습니다.
+1. 팔레트의 **[!UICONTROL 작업]** 섹션에서 **[!UICONTROL 작업]** 활동을 끌어서 놓습니다. [작업 활동](../building-journeys/journey-action.md)에 대해 자세히 알아보세요.
+
+   >[!IMPORTANT]
+   >
+   >이제 작업 활동을 통해 모든 기본 채널에 액세스할 수 있으며 레거시 기본 채널 활동은 3월 릴리스에서 더 이상 사용되지 않습니다. 기존 작업을 포함하는 기존 여정은 마이그레이션이 필요하지 않으므로 그대로 작동합니다.
+
+1. 작업 유형으로 **[!UICONTROL 웹]**&#x200B;을(를) 선택하십시오.
 
    ![](assets/web-activity-journey.png)
 
@@ -53,19 +59,21 @@ ht-degree: 17%
    >
    >**Web**&#x200B;은(는) 인바운드 경험 활동이므로 3일 **대기** 활동과 함께 제공됩니다. [자세히 알아보기](../building-journeys/wait-activity.md#auto-wait-node)
 
-1. 메시지에 대해 **[!UICONTROL 레이블]** 및 **[!UICONTROL 설명]**&#x200B;을 입력하십시오.
+1. 여정 캔버스에서 작업을 식별하려면 **[!UICONTROL 레이블]**&#x200B;을 입력하십시오.
 
-1. 사용할 [웹 구성](web-configuration.md)을 선택하거나 만드십시오.
+1. **[!UICONTROL 작업 구성]** 단추를 클릭합니다.
+
+1. **[!UICONTROL 작업]** 탭으로 이동되었습니다. 여기에서 사용할 [웹 구성](web-configuration.md)을(를) 선택하거나 만듭니다.
 
    ![](assets/web-activity-configuration.png)
 
+1. **[!UICONTROL 작업 추가]** 단추를 클릭하여 웹 경험에 하나 이상의 인바운드 작업을 추가할 수 있습니다. [자세히 알아보기](../building-journeys/journey-action.md#multi-action)
+
+1. 여정 캔버스로 돌아갑니다. 필요한 경우 추가 작업 또는 이벤트를 끌어다 놓아 여정 흐름을 완료합니다. [자세히 알아보기](../building-journeys/about-journey-activities.md)
+
 1. **[!UICONTROL 콘텐츠 편집]** 단추를 선택하고 원하는 대로 콘텐츠를 편집하십시오. [자세히 알아보기](#edit-web-content)
 
-1. 필요한 경우 추가 작업 또는 이벤트를 끌어다 놓아 여정 흐름을 완료합니다. [자세히 알아보기](../building-journeys/about-journey-activities.md)
-
-1. 웹 경험이 준비되면 구성을 완료하고 여정을 게시하여 활성화합니다. [자세히 알아보기](../building-journeys/publish-journey.md)
-
-여정 구성 방법에 대한 자세한 내용은 [이 페이지](../building-journeys/journey-gs.md)를 참조하세요.
+여정 만들기, 구성 및 게시 방법에 대한 자세한 내용은 [이 페이지](../building-journeys/journey-gs.md)를 참조하세요.
 
 >[!TAB 웹 캠페인 만들기]
 
@@ -266,4 +274,4 @@ ht-degree: 17%
 
 아래 비디오에서는 웹 캠페인을 만들고, 속성을 구성하고, 검토하고, 게시하는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449988/?captions=kor&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)

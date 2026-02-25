@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 keywords: 여정, 오케스트레이션, 시작, 온보딩, 기능
 exl-id: 96b1d619-986d-493d-a73b-d7c63b92cca8
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '839'
 ht-degree: 50%
@@ -39,7 +39,7 @@ Journey Optimizer 여정 디자이너는 마케터와 여정 실무자가 전체
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **실시간 및 일괄 게재**
 
@@ -49,7 +49,7 @@ Journey Optimizer 여정 디자이너는 마케터와 여정 실무자가 전체
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **컨텍스트 데이터**
 
@@ -59,17 +59,17 @@ Journey Optimizer 여정 디자이너는 마케터와 여정 실무자가 전체
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **기본 제공 작업**
 
 **기본 제공 채널 작업**&#x200B;을(를) 사용하여 [!DNL Journey Optimizer]에서 디자인된 메시지를 전자 메일, 푸시, SMS/MMS 등으로 보냅니다.
 
-[여정에서 메시지 보내기](journeys-message.md)
+[여정에서 메시지 보내기](journey-action.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **사용자 지정 작업**
 
@@ -79,7 +79,7 @@ Journey Optimizer 여정 디자이너는 마케터와 여정 실무자가 전체
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **시각적 여정 디자이너**
 
@@ -89,7 +89,7 @@ Journey Optimizer 여정 디자이너는 마케터와 여정 실무자가 전체
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **테스트 및 최적화**
 
@@ -104,13 +104,13 @@ Journey Optimizer 여정 디자이너는 마케터와 여정 실무자가 전체
 
 마케터는 여정 디자이너 내에서 이벤트가 발생할 때 모든 채널을 통해 실시간으로 트리거된 1:1 메시지를 보낼 수 있습니다. 예를 들어 고객이 서비스에 가입하면 [환영 이메일을 트리거](message-to-subscribers-uc.md)하여 앱에 처음 로그인하고 기본 설정을 지정하게 유도할 수 있습니다. 구매 완료, 이메일 열기, 앱 로그인과 같은 작업으로 여정을 통해 새로운 고객을 확보할 수 있습니다.
 
-[여정 디자이너](using-the-journey-designer.md)는 이메일, 푸시 알림 및 SMS/MMS와 같은 아웃바운드 메시지와 모바일 앱, 웹 사이트 및 Journey Optimizer 내에서 직접 빌드된 코드 기반 경험을 비롯한 인바운드 채널을 지원하는 [기본 제공 채널 작업](journeys-message.md)을 제공합니다. 서드파티 시스템을 사용하여 메시지를 보낼 수도 있습니다. Journey Optimizer에는 이러한 시스템을 여정 디자이너에서 직접 여정에 통합할 수 있도록 하는 [사용자 지정 작업](using-custom-actions.md)이 포함되어 있습니다.
+[여정 디자이너](using-the-journey-designer.md)는 이메일, 푸시 알림 및 SMS/MMS와 같은 아웃바운드 메시지와 모바일 앱, 웹 사이트 및 Journey Optimizer 내에서 직접 빌드된 코드 기반 경험을 비롯한 인바운드 채널을 지원하는 [기본 제공 채널 작업](journey-action.md)을 제공합니다. 서드파티 시스템을 사용하여 메시지를 보낼 수도 있습니다. Journey Optimizer에는 이러한 시스템을 여정 디자이너에서 직접 여정에 통합할 수 있도록 하는 [사용자 지정 작업](using-custom-actions.md)이 포함되어 있습니다.
 
 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **사용 사례를 통해 알아보기**
 
@@ -120,7 +120,7 @@ Journey Optimizer 여정 디자이너는 마케터와 여정 실무자가 전체
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **신규 구독자 환영**
 
@@ -130,7 +130,7 @@ Journey Optimizer 여정 디자이너는 마케터와 여정 실무자가 전체
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **전자 메일 전송 시간 최적화**
 
@@ -140,7 +140,7 @@ AI 기반의 전송 시간 최적화를 사용하여 각 고객이 참여할 가
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **점진적 게재 늘리기**
 
@@ -150,7 +150,7 @@ AI 기반의 전송 시간 최적화를 사용하여 각 고객이 참여할 가
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **요일별 타기팅**
 
@@ -160,7 +160,7 @@ AI 기반의 전송 시간 최적화를 사용하여 각 고객이 참여할 가
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
 
 **여정 FAQ**
 
@@ -178,7 +178,7 @@ AI 기반의 전송 시간 최적화를 사용하여 각 고객이 참여할 가
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 **여정 만들기 및 관리**
 
@@ -188,7 +188,7 @@ AI 기반의 전송 시간 최적화를 사용하여 각 고객이 참여할 가
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **여정 활동**
 
@@ -198,7 +198,7 @@ AI 기반의 전송 시간 최적화를 사용하여 각 고객이 참여할 가
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **표현식 및 조건**
 
@@ -208,7 +208,7 @@ AI 기반의 전송 시간 최적화를 사용하여 각 고객이 참여할 가
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 **문제 해결 및 모니터링**
 
@@ -218,7 +218,7 @@ AI 기반의 전송 시간 최적화를 사용하여 각 고객이 참여할 가
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **여정 디자이너 개요**
 
@@ -228,7 +228,7 @@ AI 기반의 전송 시간 최적화를 사용하여 각 고객이 참여할 가
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **테스트 및 게시**
 
@@ -243,7 +243,7 @@ AI 기반의 전송 시간 최적화를 사용하여 각 고객이 참여할 가
 
 여정의 구성 요소를 살펴보고 캔버스에서 여정을 작성할 때의 기본을 이해합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430355?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ### 추가 리소스
 

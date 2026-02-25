@@ -7,9 +7,9 @@ role: User
 level: Experienced
 version: Journey Orchestration
 exl-id: e7a89354-28ea-431f-a15d-a8c18946d266
-source-git-commit: 708c67796974e019417efbf086ab60d26dfca866
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '2189'
+source-wordcount: '2188'
 ht-degree: 5%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 5%
 
 ## 의사 결정 정책 추가 {#add}
 
-메시지에 결정 정책을 추가하려면 여정 또는 캠페인을 열고 [채널 작업](../building-journeys/journeys-message.md)을 선택하세요.
+여정 또는 캠페인을 열고 [채널 작업](../building-journeys/journey-action.md)을(를) 선택하고 메시지 내용을 편집합니다.
 
 메시지 콘텐츠를 편집하고 아래 탭에서 선택한 채널을 기반으로 결정 정책을 추가하는 방법에 대한 자세한 내용을 확인하십시오.
 

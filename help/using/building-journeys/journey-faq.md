@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: 여정, 질문, 답변, 문제 해결, 도움말, 안내서, 오케스트레이션
 version: Journey Orchestration
 exl-id: cac9fc24-b78e-48d9-9c0c-f43181246f6f
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '5191'
 ht-degree: 0%
@@ -229,7 +229,7 @@ CJA 대상은 여정에서 직접 지원되지 않지만, 세분화 규칙에서
 
 기본적으로 지원되지 않는 채널의 경우 **사용자 지정 작업**&#x200B;을 사용하여 외부 메시징 플랫폼과 통합하고 서드파티 채널을 통해 메시지를 보낼 수 있습니다.
 
-[여정의 메시지](journeys-message.md) 및 [사용자 지정 작업](using-custom-actions.md)에 대해 자세히 알아보세요.
+[여정의 메시지](journey-action.md) 및 [사용자 지정 작업](using-custom-actions.md)에 대해 자세히 알아보세요.
 
 +++
 
@@ -265,7 +265,7 @@ CJA 대상은 여정에서 직접 지원되지 않지만, 세분화 규칙에서
 
 이 여정은 구매 이벤트가 수신될 때마다 자동으로 트리거되어 확인 이메일을 실시간으로 보냅니다.
 
-[이벤트 구성](../event/about-events.md) 및 [전자 메일 동작](journeys-message.md)에 대해 자세히 알아보세요.
+[이벤트 구성](../event/about-events.md) 및 [전자 메일 동작](journey-action.md)에 대해 자세히 알아보세요.
 
 +++
 
@@ -300,7 +300,7 @@ CJA 대상은 여정에서 직접 지원되지 않지만, 세분화 규칙에서
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 반응]** 이벤트는 [채널 작업](journeys-message.md) 바로 뒤에 배치해야 합니다. 채널 액션과 **[!UICONTROL 반응]** 활동 사이에 **[!UICONTROL 대기]** 활동을 배치하지 마십시오.
+>**[!UICONTROL 반응]** 이벤트는 [채널 작업](journey-action.md) 바로 뒤에 배치해야 합니다. 채널 액션과 **[!UICONTROL 반응]** 활동 사이에 **[!UICONTROL 대기]** 활동을 배치하지 마십시오.
 
 [여정 사용 사례](jo-use-cases.md) 및 [반응 이벤트](reaction-events.md)에 대해 자세히 알아보세요.
 
@@ -606,7 +606,7 @@ Learn more about [action responses](../action/action-response.md).
 * 채널 구성을 관리하려면 [채널 표면](../configuration/channel-surfaces.md)을 사용하십시오.
 * 모든 경로를 테스트하여 적절한 메시지 전달 보장
 
-[조건](condition-activity.md), [메시지 동작](journeys-message.md) 및 [채널 선택](../channels/gs-channels.md)에 대해 자세히 알아보세요.
+[조건](condition-activity.md), [메시지 동작](journey-action.md) 및 [채널 선택](../channels/gs-channels.md)에 대해 자세히 알아보세요.
 
 +++
 
@@ -931,8 +931,8 @@ Journey Optimizer은 기본적으로 [!DNL Adobe Campaign]과(와) 통합되어 
 
 * 게시하기 전에 성능을 확인하려면 [테스트 모드](testing-the-journey.md) 및 [시험 실행](journey-dry-run.md)을 사용하십시오.
 * [사용자 지정 작업](using-custom-actions.md)을 통해 외부 API 호출을 최소화하여 대기 시간과 서드파티 시스템에 대한 종속성을 방지하십시오.
-* 가능한 경우 외부 호출을 수행하는 대신 [!DNL Adobe Experience Platform]데이터 집합 조회[를 사용하여 &#x200B;](dataset-lookup.md)에서 자주 사용하는 데이터를 저장합니다.
-* [메시지 게재](journeys-message.md) 성능 검토 및 최적화
+* 가능한 경우 외부 호출을 수행하는 대신 [!DNL Adobe Experience Platform]데이터 집합 조회[를 사용하여 ](dataset-lookup.md)에서 자주 사용하는 데이터를 저장합니다.
+* [메시지 게재](journey-action.md) 성능 검토 및 최적화
 
 [보호 기능 및 제한 사항](../start/guardrails.md)에 대해 자세히 알아보세요.
 
