@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 version: Journey Orchestration
-source-git-commit: 6c85cfa27002de17f6625447fa0b7eaaceb9f829
+source-git-commit: fe6e8221201ee813251a46c6603d85f0803873c0
 workflow-type: tm+mt
 source-wordcount: '1459'
 ht-degree: 5%
@@ -129,7 +129,7 @@ To leverage data from an AEP dataset, follow the steps below.
 
 1. 순위 공식을 완료하려면 **[!UICONTROL 만들기]**&#x200B;를 클릭하세요. 이제 목록에서 선택하여 세부 정보를 보고 편집하거나 삭제할 수 있습니다. 적격한 결정 항목의 등급을 매기기 위해 [선택 전략](../selection-strategies.md)에서 사용할 준비가 되었습니다.
 
-### 순위 공식 예
+### 순위 공식 예 {#ranking-formula-example}
 
 아래 예를 생각해 보십시오.
 
