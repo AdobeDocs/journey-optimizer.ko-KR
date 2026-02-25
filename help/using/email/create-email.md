@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 만들기, 이메일, 시작, 여정, 캠페인
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
+source-git-commit: 1455489645b208340085a9ea4d4e6e759dbcde9b
 workflow-type: tm+mt
 source-wordcount: '1075'
 ht-degree: 9%
@@ -32,6 +32,8 @@ ht-degree: 9%
 >[!TAB 여정에 전자 메일 추가]
 
 1. 여정을 연 다음 팔레트의 **[!UICONTROL 작업]** 섹션에서 **[!UICONTROL 전자 메일]** 활동을 끌어서 놓습니다.
+
+   <!--You can also use the **[!UICONTROL Action]** activity to add email to a journey—select the Email channel when configuring the action. The **[!UICONTROL Email]** activity will soon be deprecated. [Learn more about the Action activity](../building-journeys/journey-action.md).-->
 
 1. 메시지에 대한 기본 정보(레이블, 설명, 카테고리)를 제공합니다.
 
@@ -164,7 +166,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
 메시지 콘텐츠가 정의되면 테스트 프로필을 사용하여 콘텐츠를 미리 보고, 증명을 보내고, 인기 있는 데스크탑, 모바일 및 웹 기반 클라이언트에서 렌더링을 제어할 수 있습니다. 개인화된 콘텐츠를 삽입한 경우 테스트 프로필 데이터를 활용하여 이 콘텐츠가 메시지에 어떻게 표시되는지 확인할 수 있습니다.
 
-컨텐츠 품질을 확인하여 가독성, 효율성 및 컨텐츠 응집성을 평가할 수도 있습니다. [콘텐츠 품질 유효성 검사에 대해 자세히 알아보기](../content-management/brands-score.md#validate-quality)
+컨텐츠 품질을 확인하여 가독성, 효율성 및 컨텐츠 응집성을 평가할 수도 있습니다. [콘텐츠 품질 확인에 대해 자세히 알아보기](../content-management/brands-score.md#validate-quality)
 
 >[!NOTE]
 >
