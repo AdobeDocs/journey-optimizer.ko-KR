@@ -7,10 +7,10 @@ feature: Get Started
 role: Developer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 2d699fe8a3320400dad2d5d962028d6e2a5425f8
-workflow-type: ht
-source-wordcount: '898'
-ht-degree: 100%
+source-git-commit: fd10a600cb54b8c35e2d195be7379b0dd120b6a7
+workflow-type: tm+mt
+source-wordcount: '936'
+ht-degree: 95%
 
 ---
 
@@ -44,6 +44,8 @@ Journey Optimizer의 데이터 기반을 설정하려면 다음 단계를 따르
 1. **테스트 프로필 만들기**. 테스트 프로필은 여정에서 [테스트 모드](../../building-journeys/testing-the-journey.md)를 사용할 때 필요하며 전송하기 전에 [메시지를 미리 보고 테스트하는 데](../../content-management/preview-test.md) 필요합니다. 테스트 프로필을 만드는 단계는 [이 페이지에서](../../audience/creating-test-profiles.md) 자세히 설명합니다.
 
 1. **계산된 속성 구성**(선택 사항). 프로필 데이터에서 파생된 속성을 생성하여 세분화와 개인화를 간소화합니다. 계산된 속성은 &quot;지난 90일간 총 구매액&quot; 또는 &quot;평균 주문 금액&quot;과 같은 복잡한 지표를 자동으로 계산합니다. [계산된 속성](../../audience/computed-attributes.md)에 대해 알아보세요.
+
+1. **메시지 내보내기 데이터 세트**(선택 사항). 채널 구성 수준에서 메시지 내보내기가 활성화되면 전송된 이메일 및 SMS 콘텐츠가 규정 준수, 보관 또는 다운스트림 분석을 위해 전용 Experience Platform 데이터 세트로 자동 내보내집니다. [메시지 내보내기](../../configuration/message-export.md)에 대해 알아봅니다.
 
 또한 여정에서 메시지를 보내려면 **[!UICONTROL 데이터 소스]**, **[!UICONTROL 이벤트]**, **[!UICONTROL 액션]**&#x200B;을 구성해야 합니다. 자세한 내용은 [이 섹션](../../configuration/about-data-sources-events-actions.md)을 참조하세요.
 

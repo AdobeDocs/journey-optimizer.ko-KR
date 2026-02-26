@@ -7,10 +7,10 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 2d699fe8a3320400dad2d5d962028d6e2a5425f8
-workflow-type: ht
-source-wordcount: '965'
-ht-degree: 100%
+source-git-commit: fd10a600cb54b8c35e2d195be7379b0dd120b6a7
+workflow-type: tm+mt
+source-wordcount: '1036'
+ht-degree: 92%
 
 ---
 
@@ -50,9 +50,11 @@ ht-degree: 100%
 
 다음 단계를 수행하십시오.
 
-1. **채널 구성 설정**. 이메일, SMS, 푸시 알림 및 기타 채널에 필요한 모든 기술 매개 변수를 정의합니다.
+1. **채널 구성 설정**. 이메일, SMS, 푸시 알림, 웹 푸시, DM 및 기타 채널에 필요한 모든 기술 매개 변수를 정의합니다.
 
    * [!DNL Adobe Experience Platform]과 Adobe Experience Platform 데이터 수집 모두에서 **푸시 알림 설정**&#x200B;을 정의합니다. [자세히 알아보기](../../push/push-gs.md)
+
+   * 모바일 및 데스크톱 브라우저에 알림을 전달하도록 **웹 푸시 알림**&#x200B;을 구성하십시오. [자세히 알아보기](../../push/push-configuration-web.md)
 
    * 이메일, SMS, 푸시, 인앱, 웹 및 기타 채널에 필요한 모든 기술 매개 변수를 구성하려면 **채널 구성**&#x200B;을 만드세요. [자세히 알아보기](../../configuration/channel-surfaces.md)
 
@@ -60,7 +62,9 @@ ht-degree: 100%
 
    * 금지 목록에 이메일 주소를 보내기 전에 **재시도**&#x200B;를 하는 기간(일)을 관리합니다. [자세히 알아보기](../../configuration/manage-suppression-list.md)
 
-1. **하위 도메인 위임**: Journey Optimizer에서 사용할 새 하위 도메인의 경우 첫 번째 단계는 이를 위임하는 것입니다. [자세히 알아보기](../../configuration/about-subdomain-delegation.md)
+   * 필요한 경우 보낸 전자 메일 및 SMS 콘텐츠를 보관하려면 채널 구성 수준에서 **메시지 내보내기**&#x200B;를 사용하도록 설정하십시오(추가 기능 제공). [자세히 알아보기](../../configuration/message-export.md)
+
+1. **하위 도메인 위임**: Journey Optimizer에서 사용할 새 하위 도메인의 경우 첫 번째 단계는 이를 위임하는 것입니다. [자세히 알아보기](../../configuration/about-subdomain-delegation.md) 필요한 경우 하위 도메인을 CNAME에서 사용자 지정 위임으로 마이그레이션할 수 있습니다. [자세히 알아보기](../../configuration/custom-subdomain-migration.md)
 
    ![](../assets/subdomain.png)
 
@@ -87,6 +91,8 @@ ht-degree: 100%
 * **데이터 거버넌스 정책**: 데이터 사용 레이블 및 정책을 적용하여 마케팅 작업에서 데이터가 사용되는 방식을 제어합니다. [자세히 알아보기](../../action/action-privacy.md)
 
 * **IP 워밍업 계획**: 이메일 공급자를 통해 보낸 사람의 평판을 구축하기 위해 이메일 전송 볼륨을 점차 늘립니다. [자세히 알아보기](../../configuration/ip-warmup-gs.md)
+
+* **방해 금지 시간**: 특정 기간에 메시지를 보내지 말아야 할 경우 시간 기반 제외에 대한 규칙 집합을 구성합니다. [자세히 알아보기](../../conflict-prioritization/quiet-hours.md)
 
 ## 다양한 역할 간의 협업
 

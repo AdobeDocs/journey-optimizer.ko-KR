@@ -5,10 +5,10 @@ feature: Get Started
 role: Developer
 level: Experienced
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
-source-git-commit: 2d699fe8a3320400dad2d5d962028d6e2a5425f8
-workflow-type: ht
-source-wordcount: '1816'
-ht-degree: 100%
+source-git-commit: fd10a600cb54b8c35e2d195be7379b0dd120b6a7
+workflow-type: tm+mt
+source-wordcount: '1918'
+ht-degree: 93%
 
 ---
 
@@ -85,7 +85,7 @@ ht-degree: 100%
 
 1. **데이터 스트림 구성**: Journey Optimizer가 활성화된 [!DNL Adobe Experience Platform Data Collection]에서 데이터 스트림을 생성하고 구성합니다. 자세한 내용은 [데이터 스트림 문서](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=ko-KR){target="_blank"}에서 확인하세요.
 
-1. **웹 푸시 알림 활성화**(선택 사항): 웹 SDK 구성에서 [pushNotifications 속성](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/commands/configure/pushnotifications){target="_blank"}을 구성하고 [sendPushSubscription 명령](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/commands/sendpushsubscription){target="_blank"}을 사용하여 푸시 구독을 등록합니다.
+1. **웹 푸시 알림 사용**(선택 사항): 이제 웹 푸시 알림을 일반적으로 사용할 수 있습니다. 웹 SDK 구성에서 [pushNotifications 속성](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/commands/configure/pushnotifications){target="_blank"}을 구성하고 [sendPushSubscription 명령](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/commands/sendpushsubscription){target="_blank"}을(를) 사용하여 푸시 구독을 등록하십시오. [웹 푸시 구성에 대해 알아봅니다](../../push/push-configuration-web.md).
 
 ### 코드 기반 경험 구현(Web SDK)
 
@@ -163,9 +163,11 @@ Content-Type: application/json
 
 1. **사용자 정의 액션 기능 이해**: 사용자 정의 액션은 Epsilon, Slack, Firebase와 같은 타사 시스템이나 자체 서비스에 연결할 수 있습니다. [사용자 지정 작업](../../action/action.md)에 대해 자세히 알아보세요.
 
-1. **액션 구성 작업**: [관리자](administrator.md) 또는 [데이터 엔지니어](data-engineer.md)가 Journey Optimizer에서 사용자 정의 액션을 구성하여 API 엔드포인트 URL, 인증 방법 및 매개 변수를 정의합니다. API 사양을 제공해야 합니다. [사용자 정의 액션 구성](../../action/about-custom-action-configuration.md)에 대해 알아보세요.
+1. **액션 구성 작업**: [관리자](administrator.md) 또는 [데이터 엔지니어](data-engineer.md)가 Journey Optimizer에서 사용자 정의 액션을 구성하여 API 엔드포인트 URL, 인증 방법 및 매개 변수를 정의합니다. API 사양을 제공해야 합니다. [사용자 지정 작업 구성](../../action/about-custom-action-configuration.md)에 대해 알아봅니다. 시간 초과/오류 분기에서 더 풍부한 대체 논리를 위해 선택적 **오류 응답 페이로드**&#x200B;를 정의할 수 있습니다.
 
 1. **실행 가능한 데이터 반환**: 후속 여정 단계에서 사용할 수 있는 데이터를 반환하도록 API를 디자인합니다. [액션 응답](../../action/action-response.md)에 대해 알아보세요.
+
+1. **사용자 지정 작업 상태 모니터링**: 사용자 지정 작업 모니터링 대시보드를 사용하여 성공한 호출, 오류, 처리량, 응답 시간 및 큐 대기 시간을 추적합니다. [사용자 지정 작업 보고](../../action/reporting.md)에 대해 알아봅니다.
 
 1. **속도 제한 구현**: 엔드포인트가 예상되는 볼륨을 처리할 수 있는지 확인합니다. Journey Optimizer는 초당 5000회 호출 제한을 적용하지만, 시스템은 충분한 복원력을 갖추어야 합니다. [캡핑 및 스로틀링](../../configuration/external-systems.md)에 대해 알아보세요.
 
@@ -184,6 +186,10 @@ Journey Optimizer는 프로그래밍 방식으로 액세스할 수 있는 포괄
 1. **API 트리거 캠페인**: API 트리거 캠페인을 사용하여 트랜잭션 메시지를 작성합니다. 대용량 시나리오(최대 5000TPS)의 경우 [높은 처리량 모드](../../campaigns/api-triggered-high-throughput.md)를 살펴보세요(추가 라이선스 필요).
 
 1. **의사 결정 관리 API**: 오퍼 관리 및 의사 결정에 특수 API를 사용합니다. 자세한 내용은 [의사 결정 관리 API 안내서](../../offers/api-reference/getting-started.md)에서 확인하세요.
+
+1. **의사 결정 마이그레이션 API**: 의사 결정 관리 엔터티를 유연한 범위를 사용하는 의사 결정, 자동 유효성 검사 및 롤백 지원으로 프로그래밍 방식으로 마이그레이션합니다. 자세한 내용은 [Decisioning 마이그레이션 API 안내서](../../experience-decisioning/decisioning-migration-api.md)를 참조하세요.
+
+1. **SMS 웹후크**: 들어오는 메시지를 캡처하도록 인바운드 웹후크를 구성하고 게재 확인 및 상태 업데이트를 받도록 피드백 웹후크를 구성합니다. [자세히 알아보기](../../sms/sms-webhook.md).
 
 ## 테스트 및 디버깅 {#testing}
 
