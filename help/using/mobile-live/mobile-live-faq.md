@@ -8,25 +8,15 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
+exl-id: e7e994ca-aa0c-4e86-8710-c87430b74188
+source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
 workflow-type: tm+mt
-source-wordcount: '1603'
-ht-degree: 1%
+source-wordcount: '1746'
+ht-degree: 0%
 
 ---
 
 # 자주 묻는 질문 {#mobile-live-faq}
-
->[!BEGINSHADEBOX]
-
-* [라이브 활동 시작](get-started-mobile-live.md)
-* [라이브 활동 구성](mobile-live-configuration.md)
-* [Adobe Experience Platform Mobile SDK과 라이브 활동 통합](mobile-live-configuration-sdk.md)
-* [라이브 활동 만들기](create-mobile-live.md)
-* **[FAQ](mobile-live-faq.md)**
-* [라이브 활동 캠페인 보고서](../reports/campaign-global-report-cja-activity.md)
-
->[!ENDSHADEBOX]
 
 ## 일반 질문
 
@@ -123,6 +113,24 @@ SDK이 이 작업을 자동으로 처리합니다. 등록되면 앱이 종료된
 아니요. `Messaging.registerLiveActivity()`에 라이브 활동 유형을 등록하면 SDK에서 자동으로 푸시 토큰을 수집하고 관리합니다.
 +++
 
++++라이브 활동의 원격 시작에 제한이 있습니까?
+
+예. `ActivityKit`을(를) 통한 원격 시작은 시스템에 적용되는 제한을 받습니다. 여러 시작 요청을 빠르게 연속해서 시도하는 경우 iOS은 라이브 활동 할당량 또는 예산 제한으로 인해 추가 시작을 거부할 수 있습니다. 약 5회 연속 시작 시도 후 짧은 쿨다운 기간이 경과할 때까지 후속 요청이 실패하기 시작합니다.
+
++++
+
++++우선 순위가 높은 업데이트의 예산은 얼마입니까?
+
+Apple에서 우선 순위가 높은 `(priority: 10)` 라이브 활동 업데이트에 대한 정확한 숫자 상한을 지정하지 않습니다. 시스템에서는 이러한 업데이트를 보낼 수 있는 빈도를 제한하는 동적 내부 예산을 유지 관리합니다. 빠른 범위 내에 너무 많은 높은 우선 순위 업데이트가 발행된 경우 iOS이 스로틀을 수행하거나 후속 업데이트를 지연할 수 있습니다.
+
+전송률 조절 최소화:
+
+* **균형 우선 순위 수준**: 중요도에 따라 표준 `(priority: 5)`과(와) 높은 `(priority: 10)` 업데이트를 모두 결합합니다.
+* **높은 우선 순위를 제한적으로 사용**: 배달 진행 상황, 주문 상태 또는 Live Sports 점수와 같은 시간에 중요한 업데이트에 높은 우선 순위를 예약합니다.
+* **자주 업데이트하는 항목 지원**: 앱의 `NSSupportsLiveActivitiesFrequentUpdates`에 `Info.plist`을(를) 포함하고 자주 업데이트해야 하는 경우 **예**(으)로 설정합니다.
+
++++
+
 ### 마케터 질문
 
 +++브로드캐스트 캠페인의 각 사용자에 대한 라이브 활동 컨텐츠를 개인화할 수 있습니까?
@@ -142,7 +150,7 @@ API 호출은 라이브 활동을 즉시 트리거합니다. 그러나 백엔드
 
 +++이미 존재하는 라이브 활동에 대해 &quot;시작&quot; 이벤트를 보내면 어떻게 됩니까?
 
-Adobe의 실행 API를 통해 라이브 활동을 원격으로 시작할 때:
+Adobe의 실행 API를 통해 라이브 활동을 원격으로 시작하는 경우:
 
 * 요청에 `x-request-id` 헤더를 포함할 수 있습니다. 각 `liveActivityID`과(와) 해당 `x-request-id` 사이에 일대일 관계가 있는 것이 좋습니다. 이렇게 하면 동일한 `x-request-id` 및 `liveActivityID` 조합으로 여러 요청을 수행하는 경우 장치에서 하나의 라이브 활동만 시작되고 중복 요청은 무시됩니다.
 
@@ -235,6 +243,7 @@ OAuth 토큰 및 API 키를 포함한 인증 요구 사항은 [API 트리거된 
 * `content-state` 필드가 `ContentState` 구조체와 일치하지 않습니다.
 * 라이브 활동이 이미 종료되었습니다.
 * 장치의 네트워크 연결 문제입니다.
+* 타임스탬프로 사용되는 epoch 시간이 최신이 아닙니다.
 
 +++
 

@@ -8,25 +8,15 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: bfd36dddb5795cd8b6eeb164f70b6cf3fdcb5750
+exl-id: 9864a136-e129-4279-bb09-081b72f584df
+source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 1%
+source-wordcount: '381'
+ht-degree: 3%
 
 ---
 
 # 라이브 활동 만들기 {#create-mobile-live}
-
->[!BEGINSHADEBOX]
-
-* [라이브 활동 시작](get-started-mobile-live.md)
-* [라이브 활동 구성](mobile-live-configuration.md)
-* [Adobe Experience Platform Mobile SDK과 라이브 활동 통합](mobile-live-configuration-sdk.md)
-* **[라이브 활동 만들기](create-mobile-live.md)**
-* [자주 묻는 질문](mobile-live-faq.md)
-* [라이브 활동 캠페인 보고서](../reports/campaign-global-report-cja-activity.md)
-
->[!ENDSHADEBOX]
 
 모바일 구성을 구성하고 Adobe Experience Platform mobile SDK을 구현한 후 Journey Optimizer에서 라이브 활동을 만들 수 있습니다.
 
@@ -34,7 +24,7 @@ ht-degree: 1%
 
 1. **API 트리거됨** 캠페인 유형을 선택하십시오.
 
-   * 대상 기반 캠페인에 대해 **API 트리거된 마케팅** 선택
+   * 대상자 기반 캠페인에 대해 **API 트리거 마케팅** 선택
 
    * 개별 캠페인에 대해 **API 트리거 트랜잭션**&#x200B;을(를) 선택하십시오.
 
@@ -56,6 +46,10 @@ ht-degree: 1%
 
 1. **[!UICONTROL 대상자]** 탭에서 **[!UICONTROL ID 유형]**&#x200B;을 선택합니다. [자세히 알아보기](../audience/about-audiences.md).
 
+   >[!NOTE]
+   >
+   >**API 트리거 마케팅** 캠페인의 경우 API 페이로드에서 APNs channelID 구독을 확인하기 전에 첫 번째 세그먼테이션으로 작동하는 기존 대상을 선택할 수 있습니다.
+
 1. 캠페인은 특정 날짜 또는 되풀이되는 빈도로 실행되도록 디자인됩니다. **[!UICONTROL 이 섹션]**&#x200B;에서 캠페인의 [일정](../campaigns/create-campaign.md#schedule)을 구성하는 방법을 알아보세요.
 
 1. 구성이 완료되면 **[!UICONTROL 활성화 검토]**&#x200B;를 클릭한 다음 **[!UICONTROL 활성화]**&#x200B;를 클릭합니다.
@@ -68,9 +62,9 @@ ht-degree: 1%
 
    ![](assets/create-live-3.png)
 
-   +++ 개별 페이로드의 예
+   +++ 단일 사용 사례에 대한 페이로드의 예(API 트리거 트랜잭션 캠페인)
 
-   다음 페이로드 예제의 필드 대부분은 필수이므로 `requestId`, `dismissal-date` 및 `alert`만 선택 사항입니다.
+   이 페이로드 예는 **API 트리거 트랜잭션** 캠페인 유형을 사용하는 개별 캠페인에 대한 것입니다. 다음 페이로드 예제의 필드 대부분은 필수이므로 `requestId`, `dismissal-date` 및 `alert`만 선택 사항입니다.
 
    ```json
    {
@@ -116,4 +110,53 @@ ht-degree: 1%
 
    +++
 
+   +++ 브로드캐스트 사용 사례(API 트리거 마케팅 캠페인)에 대한 페이로드의 예
+
+   이 페이로드 예제는 **API 트리거 마케팅** 캠페인 유형을 사용하는 대상자 기반 캠페인에 대한 것입니다.
+
+   ```json
+   {
+       "requestId": "123400000",
+       "campaignId": "d32e6f6c-56df-4a98-a2c0-6db6008f8f32",
+       "audience": {
+           "id": "508f9416-52d0-4898-ba47-08baaa22e9c7"
+       },
+       "context": {
+           "requestPayload": {
+               "aps": {
+                   "input-push-channel": "V+8UslywEfAAAOq9SbTrLg==",  //apns-channel-id
+                   "content-available": 1,
+                   "timestamp": 1770808339,
+                   "event": "update",   // start | update | end
+   
+                   // Fields from GameScoreLiveActivityAttributes
+                   "content-state": {
+                       "homeTeamScore": 33,
+                       "awayTeamScore": 49,
+                       "statusText": "Wingdom keeps scoring!"
+                   },
+                   "attributes-type": "GameScoreLiveActivityAttributes",
+                   "attributes": {
+                       "liveActivityData": {
+                           "channelID": "V+8UslywEfAAAOq9SbTrLg=="   //apns-channel-id, must match the "input-push-channel" value
+                       }
+                   },
+                   "alert": {
+                       "title": "This is the title for game",
+                       "body": "This is the body for body"
+                   }
+               }
+           }
+       }
+   }
+   ```
+
+   +++
+
 라이브 활동을 디자인한 후 [기본 제공 보고서](../reports/campaign-global-report-cja-activity.md)를 통해 라이브 활동의 영향을 측정하는 방법을 추적할 수 있습니다.
+
+## 사용 방법 비디오
+
+Adobe Journey Optimizer을 사용하여 iOS 라이브 활동 을 구성하여 iPhone 잠금 화면 및 Dynamic Island에서 다양한 실시간 업데이트를 제공하는 방법에 대해 알아봅니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3479864)

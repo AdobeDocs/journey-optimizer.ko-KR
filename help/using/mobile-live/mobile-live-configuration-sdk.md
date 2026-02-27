@@ -8,27 +8,16 @@ role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
+exl-id: 02ca7c8e-105a-4e77-9aad-2381904255d0
+source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 0%
+source-wordcount: '437'
+ht-degree: 2%
 
 ---
 
+# Adobe Experience Platform Mobile SDK와 라이브 활동 통합 {#mobile-live-config-sdk}
 
-# Adobe Experience Platform Mobile SDK과 라이브 활동 통합 {#mobile-live-config-sdk}
-
->[!BEGINSHADEBOX]
-
-* [라이브 활동 시작](get-started-mobile-live.md)
-* [라이브 활동 구성](mobile-live-configuration.md)
-* **[Adobe Experience Platform Mobile SDK과 라이브 활동 통합](mobile-live-configuration-sdk.md)**
-* [라이브 활동 만들기](create-mobile-live.md)
-* [자주 묻는 질문](mobile-live-faq.md)
-* [라이브 활동 캠페인 보고서](../reports/campaign-global-report-cja-activity.md)
-
-
->[!ENDSHADEBOX]
 
 Adobe Experience Platform Mobile SDK은 Apple의 라이브 활동에 대한 내장된 지원을 제공합니다. 이렇게 하면 앱을 열지 않고도 앱이 Lock Screen 및 Dynamic Island에서 직접 실시간 동적 업데이트를 표시할 수 있습니다.
 
@@ -242,5 +231,3 @@ extension FoodDeliveryLiveActivityAttributes: LiveActivityAssuranceDebuggable {
     }
 }
 ```
-
-

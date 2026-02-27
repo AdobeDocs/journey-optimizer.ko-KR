@@ -8,25 +8,15 @@ role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
+exl-id: db85a563-9630-4d87-bf10-9f2515fe8a45
+source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '505'
 ht-degree: 2%
 
 ---
 
 # 라이브 활동 구성 시작 {#mobile-live-config}
-
->[!BEGINSHADEBOX]
-
-* [라이브 활동 시작](get-started-mobile-live.md)
-* **[라이브 활동 구성](mobile-live-configuration.md)**
-* [Adobe Experience Platform Mobile SDK과 라이브 활동 통합](mobile-live-configuration-sdk.md)
-* [라이브 활동 만들기](create-mobile-live.md)
-* [자주 묻는 질문](mobile-live-faq.md)
-* [라이브 활동 캠페인 보고서](../reports/campaign-global-report-cja-activity.md)
-
->[!ENDSHADEBOX]
 
 라이브 활동을 보내기 전에 Adobe Journey Optimizer 환경을 구성해야 합니다. 다음을 수행하십시오.
 

@@ -8,26 +8,15 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
-workflow-type: ht
-source-wordcount: '278'
+exl-id: c9766603-df19-4efd-8319-27e9764254b4
+source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
+workflow-type: tm+mt
+source-wordcount: '250'
 ht-degree: 100%
 
 ---
 
-
 # 라이브 활동 시작하기 {#get-started-mobile-live}
-
->[!BEGINSHADEBOX]
-
-* **[라이브 활동 시작하기](get-started-mobile-live.md)**
-* [라이브 활동 구성](mobile-live-configuration.md)
-* [Adobe Experience Platform Mobile SDK와 라이브 활동 통합](mobile-live-configuration-sdk.md)
-* [라이브 활동 만들기](create-mobile-live.md)
-* [자주 묻는 질문](mobile-live-faq.md)
-* [라이브 활동 캠페인 보고서](../reports/campaign-global-report-cja-activity.md)
-
->[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
@@ -67,7 +56,3 @@ ht-degree: 100%
 1. **[캠페인 추적](../reports/campaign-global-report-cja-activity.md)**
 
    기본 제공 보고서를 통해 라이브 활동의 영향을 측정하기 시작합니다.
-
-
-
-
