@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 캠페인 보고서
+title: 캠페인 라이브 활동 보고서
 description: 캠페인 보고서에서 라이브 활동 데이터를 사용하는 방법을 알아봅니다
 feature: Reporting
 topic: Content Management
@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 58034ec4-62dc-406c-99c4-d6b7aa107140
-source-git-commit: 2fc4b1ee34b44fb6c5bcddb13f1b2b02f7094ff1
+source-git-commit: 17f86c33f56b9855fa1d0f959aac8740ff2c2c2a
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '656'
 ht-degree: 1%
 
 ---
@@ -37,11 +37,11 @@ ht-degree: 1%
 
 * **[!UICONTROL 타깃팅]**: 제외, 억제 또는 동의 제거가 적용되기 전에 대상에 적합한 프로필 수입니다.
 
-* **[!UICONTROL 전송]**: 타겟팅된 프로필로 전송하려고 시도한 총 라이브 활동 수입니다.
+* **[!UICONTROL 전송]**: 타겟팅된 프로필로 전송하려고 시도한 총 라이브 활동 이벤트 수입니다.
 
-* **[!UICONTROL 배달됨]**: 시도된 총 전송 횟수와 관련된 라이브 활동이 장치로 배달된 횟수입니다.
+* **[!UICONTROL 배달됨]**: 시도된 총 전송 횟수와 관련된 실시간 활동 이벤트 수가 장치에 배달되었습니다.
 
-* **[!UICONTROL 오류 보내기]**: 오류(예: 잘못된 토큰 또는 연결 문제)로 인해 보낼 수 없는 총 라이브 활동 수입니다.
+* **[!UICONTROL 오류 보내기]**: 오류(예: 잘못된 토큰 또는 연결 문제)로 인해 보낼 수 없는 총 라이브 활동 이벤트 수입니다.
 
 * **[!UICONTROL 제외 보내기]**: Adobe Journey Optimizer에서 보내는 데 제외된 프로필 수입니다(예: 옵트아웃 상태 또는 자격 규칙으로 인해).
 
