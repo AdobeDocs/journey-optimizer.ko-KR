@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 이메일의 텍스트 버전 만들기
+title: 이메일의 텍스트 버전 관리
 description: 이메일의 텍스트 버전을 만드는 방법
 feature: Email Design
 topic: Content Management
@@ -9,36 +9,44 @@ role: User
 level: Intermediate
 keywords: 텍스트, 이메일, 버전, 일반, 편집기
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
-source-git-commit: 30241f4504ad82bf8ef9f6b58d3bb9482f572dae
+source-git-commit: 1a5ce1bf2d98a5de31f1245dee96d24984cb28d9
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 11%
+source-wordcount: '1141'
+ht-degree: 8%
 
 ---
 
-# 이메일의 텍스트 버전 만들기 {#text-version-email}
+# 이메일의 텍스트 버전 관리 {#text-version-email}
 
 이메일 본문의 텍스트 버전을 만들어 두면 HTML 콘텐츠를 표시할 수 없을 때 사용할 수 있습니다.
 
+보안 관점에서 볼 때, HTML 이메일은 서식 및 링크에 의존하는 악성 스크립트, 추적 픽셀 또는 피싱 시도와 같은 위험을 초래할 수 있으므로 일반 텍스트 버전을 제공하는 것이 중요합니다. 일반 텍스트는 공격 표면을 감소시키며, 종종 보안을 중시하는 수신자나 HTML을 제한하거나 제거하는 회사 이메일 시스템에서 선호됩니다. 두 버전을 모두 제공하면 수신자가 보안 및 개인 정보 보호 요구 사항에 맞는 형식을 선택할 수 있습니다.
+
+## 기본 텍스트 버전에 액세스 {#plain-text-default}
+
 기본적으로 이메일 디자이너는 개인화 필드를 포함한 이메일의 **[!UICONTROL 일반 텍스트]** 버전을 생성합니다. 이 버전은 자동으로 생성되어 콘텐츠의 HTML 버전과 동기화됩니다.
+
+기본 텍스트 버전에 액세스하려면 이메일 콘텐츠에서 **[!UICONTROL 일반 텍스트]** 아이콘을 선택하십시오.
+
+![](assets/text_version_3.png)
+
+## 사용자 정의 텍스트 버전 사용 {#plain-text-default-custom}
 
 일반 텍스트 버전에 대해 다른 콘텐츠를 사용하려면 다음 단계를 따르십시오.
 
 1. 이메일에서 **[!UICONTROL 일반 텍스트]** 아이콘을 선택합니다.
 
-   ![](assets/text_version_3.png)
-
 1. **[!UICONTROL HTML과 동기화]** 전환을 사용하여 동기화를 비활성화하십시오. 확인 표시를 클릭하여 선택을 확인합니다.
 
    ![](assets/text_version_2.png)
 
-1. 그런 다음에는 원하는 대로 일반 텍스트 버전을 편집할 수 있습니다.
+1. 그런 다음 사용자 정의 일반 텍스트 버전을 원하는 대로 편집할 수 있습니다.
 
 >[!CAUTION]
 >
 > * 동기화를 사용하지 않도록 설정하면 **[!UICONTROL 일반 텍스트]** 보기에서 변경한 내용이 HTML 보기에 반영되지 않습니다.
 >
->* 일반 텍스트 콘텐츠를 업데이트한 후 **[!UICONTROL HTML과 동기화]** 옵션을 다시 사용하도록 설정하면 변경 내용이 손실되고 HTML 버전에서 생성된 텍스트 콘텐츠로 바뀝니다.
+> * 일반 텍스트 콘텐츠를 업데이트한 후 **[!UICONTROL HTML과 동기화]** 옵션을 다시 사용하도록 설정하면 변경 내용이 손실되고 HTML 버전에서 생성된 텍스트 콘텐츠로 바뀝니다.
 
 ## 사용자 정의 일반 텍스트 버전을 사용해야 하는 경우 {#when-to-use}
 
