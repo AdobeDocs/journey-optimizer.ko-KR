@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 라이브 활동 채널 구성
-description: Journey Optimizer을 사용하여 라이브 활동을 전송하도록 환경을 구성하는 방법에 대해 알아봅니다.
+description: Journey Optimizer을 사용하여 라이브 활동을 전송하도록 환경을 구성하는 방법 알아보기
 feature: Channel Configuration
 role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: db85a563-9630-4d87-bf10-9f2515fe8a45
-source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
+source-git-commit: 2fc4b1ee34b44fb6c5bcddb13f1b2b02f7094ff1
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '506'
 ht-degree: 2%
 
 ---
@@ -56,7 +56,7 @@ Adobe이 사용자를 대신하여 푸시 알림을 전송하도록 승인하려
 
    ![](assets/config-1.png)
 
-1. 구성의 이름 및 설명(선택 사항)을 입력한 다음 WhatsApp 채널을 선택합니다.
+1. 구성의 이름 및 설명(선택 사항)을 입력한 다음 라이브 활동 채널을 선택합니다.
 
    >[!NOTE]
    >

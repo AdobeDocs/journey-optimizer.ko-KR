@@ -9,14 +9,14 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 02ca7c8e-105a-4e77-9aad-2381904255d0
-source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
+source-git-commit: 2fc4b1ee34b44fb6c5bcddb13f1b2b02f7094ff1
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 2%
+source-wordcount: '447'
+ht-degree: 0%
 
 ---
 
-# Adobe Experience Platform Mobile SDK와 라이브 활동 통합 {#mobile-live-config-sdk}
+# Adobe Experience Platform Mobile SDK과 라이브 활동 통합 {#mobile-live-config-sdk}
 
 
 Adobe Experience Platform Mobile SDK은 Apple의 라이브 활동에 대한 내장된 지원을 제공합니다. 이렇게 하면 앱을 열지 않고도 앱이 Lock Screen 및 Dynamic Island에서 직접 실시간 동적 업데이트를 표시할 수 있습니다.
@@ -58,6 +58,7 @@ Adobe Experience Platform Mobile SDK은 Apple의 라이브 활동에 대한 내�
 * **Xcode:** 14.0 이상
 * **Swift:** 5.7 이상
 * **종속성:** AEPCore, AEPMessaging, AEPMessagingLiveActivity, ActivityKit
+* **AEP Mobile SDK 버전**: iOS Messaging 5.11.0 이상
 
 >[!ENDSHADEBOX]
 
@@ -111,15 +112,15 @@ public struct LiveActivityData: Codable {
     /// Unique identifier for broadcast Live activity channels
     public let channelID: String?
      
-    /// Unique identifier for individual Live activities
+    /// Unique identifier for individual Live activity
     public let liveActivityID: String?
      
     /// Indicates local vs remote creation
     public let origin: LiveActivityOrigin?
      
     // Initializers
-    public init(channelID: String)        // For broadcast Live activities
-    public init(liveActivityID: String)   // For individual Live activities
+    public init(channelID: String)        // For broadcast Live activity
+    public init(liveActivityID: String)   // For individual Live activity
 }
 ```
 
@@ -190,7 +191,7 @@ struct FoodDeliveryLiveActivityWidget: Widget {
 
 ## 5단계: 로컬에서 라이브 활동 시작(선택 사항) {#local}
 
-Journey Optimizer은 라이브 활동을 원격으로 시작할 수 있지만 로컬로 시작할 수도 있습니다.
+Journey Optimizer에서 원격으로 라이브 활동을 시작할 수 있지만 로컬에서 시작할 수도 있습니다.
 
 **음식 배달 라이브 활동의 예:**
 
