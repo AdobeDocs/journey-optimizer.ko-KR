@@ -10,10 +10,10 @@ level: Beginner
 keywords: 랜딩, 랜딩 페이지, 작성, 페이지, 양식
 badge: label="제한된 가용성" type="Informative"
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: 13ef8ae4fa988537db192eca0b906940e51eeb28
+source-git-commit: 58565932ccd2ecf95bafece71bf182fa9082cec6
 workflow-type: tm+mt
-source-wordcount: '1630'
-ht-degree: 2%
+source-wordcount: '1642'
+ht-degree: 9%
 
 ---
 
@@ -30,13 +30,13 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_connection"
 >title="사용할 엔드포인트 선택"
->abstract="양식 제출 시 데이터가 전송되는 스트리밍 끝점을 정의합니다."
+>abstract="양식 제출 시 데이터가 전송되는 스트리밍 엔드포인트를 정의합니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="HTTP API 스트리밍 연결 만들기"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
 >title="데이터 세트 선택"
->abstract="양식 응답을 저장 및 반영할 데이터 세트를 정의합니다. 특정 데이터 세트를 검색하도록 입력하거나 목록에서 선택할 수 있습니다."
+>abstract="양식 응답을 저장하고 반영할 데이터 세트를 정의합니다. 특정 데이터 세트를 검색하도록 입력하거나 목록에서 선택할 수 있습니다."
 
 양식을 만들려면 먼저 양식 제출 데이터가 전송되는 연결 끝점을 선택하는 전용 사전 설정과 양식을 통해 캡처한 데이터가 저장되는 데이터 세트를 만들어야 합니다.
 
@@ -78,13 +78,13 @@ ht-degree: 2%
    >* **데이터 형식**&#x200B;은(는) 원시 데이터가 아닌 **XDM**(으)로 설정되어야 합니다.
    >* **인증**&#x200B;은(는) **사용 안 함**(인증되지 않은 연결)이어야 합니다.
    >
-   >스트리밍 연결이 목록에 표시되지 않으면 이러한 조건이 모두 충족되는지 확인하십시오. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
+   >스트리밍 연결이 목록에 표시되지 않으면 이러한 조건이 모두 충족되는지 확인하십시오. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
 
 1. 양식에 연결할 **[!UICONTROL 데이터 집합]**&#x200B;을(를) 선택하십시오. 여기에서 양식 응답이 저장되고 반영됩니다. 특정 데이터 세트를 검색하도록 입력하거나 목록에서 선택할 수 있습니다.
 
    >[!NOTE]
    >
-   >현재 [!DNL Adobe Experience Platform]개의 데이터 세트만 선택할 수 있습니다. 한 번에 하나의 데이터 세트를 선택할 수 있습니다. [데이터 세트에 대해 자세히 알아보기](../data/get-started-datasets.md)
+   >현재 **프로필이 활성화됨** 및 **프로필이 활성화되지 않음** [!DNL Adobe Experience Platform] 데이터 세트만 선택할 수 있습니다. 한 번에 하나의 데이터 세트를 선택할 수 있습니다. 시스템 데이터 세트는 양식 데이터를 저장하는 데 사용할 수 없습니다. [데이터 세트에 대해 자세히 알아보기](../data/get-started-datasets.md)
 
 1. **[!UICONTROL 게시]**&#x200B;를 클릭합니다. 이제 사전 설정을 양식에서 사용할 준비가 되었습니다.
 
@@ -101,7 +101,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_preset"
 >title="사전 설정 선택"
->abstract="사용할 연결 및 양식에 대한 사전 정의된 데이터 세트가 포함된 사전 정의된 사전 설정을 선택합니다."
+>abstract="사용할 연결이 포함된 사전 정의 사전 설정과 양식에 맞는 사전 정의 데이터 세트를 선택합니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="양식 사전 설정 만들기"
 
 양식을 만들려면 아래 단계를 수행합니다.
@@ -199,7 +199,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_lp_forms_thankyou_page"
 >title="감사 인사 페이지"
->abstract="누군가가 양식을 작성하거나 전송할 때 발생하는 작업을 구성합니다."
+>abstract="누군가 양식을 작성하거나 전송할 때 발생하는 작업을 구성합니다."
 
 **[!UICONTROL 감사 페이지]** 섹션에서 양식 세부 정보로 돌아가서 사용자가 양식을 작성할 때 수행되는 작업을 구성하십시오.
 
