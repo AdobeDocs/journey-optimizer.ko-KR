@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 version: Journey Orchestration
-source-git-commit: 8dcac6e63f6a38874b3aff4996fc317e3606cb9b
+source-git-commit: b90e3af955496d4fcae54b109cb1e86a8a21be43
 workflow-type: tm+mt
 source-wordcount: '839'
 ht-degree: 18%
@@ -83,7 +83,9 @@ ht-degree: 18%
 
    ![](../assets/offer_manage-access.png)
 
-1. 표현을 추가하여 메시지에 오퍼가 표시될 위치를 정의합니다. [자세히 알아보기](add-representations.md) 표시 콘텐츠를 개인화할 때는 특정 함수만 지원됩니다. [식 편집기에서 지원되는 함수](../personalization-editor-supported-functions.md)를 참조하세요.
+1. 표현을 추가하여 메시지에 오퍼가 표시될 위치를 정의합니다. [자세히 알아보기](add-representations.md)
+
+   표시 콘텐츠를 개인화할 때는 특정 함수만 지원됩니다. 식 편집기에서 [지원되는 함수](../personalization-editor-supported-functions.md)를 참조하세요.
 
    ![](../assets/channel-placement.png)
 
@@ -174,4 +176,4 @@ ht-degree: 18%
 
 ## 튜토리얼 비디오 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341358?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)
