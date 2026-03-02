@@ -9,10 +9,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 02ca7c8e-105a-4e77-9aad-2381904255d0
-source-git-commit: 2fc4b1ee34b44fb6c5bcddb13f1b2b02f7094ff1
+source-git-commit: 8af635a27bc37005c63050f95089a5ab65edd0e2
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 0%
+source-wordcount: '472'
+ht-degree: 1%
 
 ---
 
@@ -232,3 +232,13 @@ extension FoodDeliveryLiveActivityAttributes: LiveActivityAssuranceDebuggable {
     }
 }
 ```
+
+## 추가 리소스
+
+포괄적인 SDK 설명서 및 구현 세부 정보의 경우:
+
+* [라이브 활동 개발자 안내서](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities)
+* [API 참조](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/api-reference/)
+* [라이브 활동 자습서](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/tutorial/)
+* [공용 클래스](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/public-classes/live-activity-attributes/)
+s
