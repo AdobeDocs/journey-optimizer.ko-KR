@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: 개인화된 오퍼 만들기
+title: 맞춤형 오퍼 만들기
 description: 오퍼를 만들고 구성하고 관리하는 방법을 알아봅니다
 badge: label="레거시" type="Informative"
 feature: Decision Management
@@ -10,14 +10,14 @@ role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 8dcac6e63f6a38874b3aff4996fc317e3606cb9b
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: '839'
 ht-degree: 18%
 
 ---
 
-# 개인화된 오퍼 만들기 {#create-personalized-offers}
+# 맞춤형 오퍼 만들기 {#create-personalized-offers}
 
 >[!TIP]
 >
@@ -83,7 +83,7 @@ ht-degree: 18%
 
    ![](../assets/offer_manage-access.png)
 
-1. 표현을 추가하여 메시지에 오퍼가 표시될 위치를 정의합니다. [자세히 알아보기](add-representations.md)
+1. 표현을 추가하여 메시지에 오퍼가 표시될 위치를 정의합니다. [자세히 알아보기](add-representations.md) 표시 콘텐츠를 개인화할 때는 특정 함수만 지원됩니다. [식 편집기에서 지원되는 함수](../personalization-editor-supported-functions.md)를 참조하세요.
 
    ![](../assets/channel-placement.png)
 
@@ -174,4 +174,4 @@ ht-degree: 18%
 
 ## 튜토리얼 비디오 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341358?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)
