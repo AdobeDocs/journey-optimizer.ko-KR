@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 82bfb8309c31b015755e592b95c4f8d54cf28235
+source-git-commit: 57916f631c0154113699ca941a635678813561fe
 workflow-type: tm+mt
-source-wordcount: '1606'
+source-wordcount: '1637'
 ht-degree: 36%
 
 ---
@@ -27,18 +27,38 @@ ht-degree: 36%
 
 [!DNL Adobe Journey Optimizer]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko){target="_blank"}를 참조하십시오.
 
+## 2026년 3월 업데이트 {#march-26-rn}
+
+<table>
+<thead>
+<tr>
+<th><strong>사용자 지정 Firefly 모델 및 타사 이미지 생성 모델 통합</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>승인된 타사 이미지 모델과 함께 표준 및 사용자 지정 Firefly 모델을 매끄럽게 통합하여 이미지 생성 시 더 큰 유연성, 제어 및 브랜드 정렬을 제공합니다.</p>
+<p>요구 사항에 맞는 모델을 선택하십시오.</p>
+<ul><li> 추가 설정 없이 즉각적인 이미지를 생성할 수 있도록 <strong>Adobe 모델</strong>(Firefly Image Model 4 제공)</li><li> 특수 기능을 위한 <strong>파트너 모델</strong>(Gemini 2.5 Flash 지원)</li><li>브랜드 정체성, 스타일 및 시각적 지침에 따라 정확하게 일치하는 온브랜드 생성을 위한 <strong>사용자 지정 모델</strong>(사용자 고유의 자산에 대해 교육된 브랜드별 모델).</li></ul>
+<p>자세한 내용은 <a href="../content-management/generative-models.md">세부 설명서</a>를 참조하십시오.</p>
+<p>사용 가능한 날짜: 2026년 3월 2일 화요일</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ## 2026년 2월 릴리스 정보 {#feb-26-01-rn}
 
 [새 기능](#feb-26-01-features) 및 [개선 사항](#feb-26-01-improv) 섹션에서는 이미 사용 가능한 기능을 다룹니다. [곧 출시](#coming-soon) 섹션에는 2월 말에 릴리스될 예정인 기능 및 개선 사항이 나와 있습니다.
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
 ### 새로운 기능 {#feb-26-01-features}
-
 
 <!--
 <table>
@@ -340,6 +360,3 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
   사용 가능한 날짜: 2026년 2월 18일 목요일
 
-* **사용자 지정 Firefly 모델 및 타사 이미지 생성 모델의 통합** - 표준 및 사용자 지정 Firefly 모델과 승인된 타사 이미지 모델(예: NanoBanana)을 매끄럽게 통합하여 이미지를 생성할 때 더 큰 유연성, 제어 및 브랜드 정렬을 제공합니다. 이를 통해 일반적인 요구 사항을 위한 표준 Firefly, 브랜드 내 생성을 위한 사용자 지정 Firefly 또는 전문 또는 실험 시나리오를 위한 승인된 서드파티 모델 등 각 사용 사례에 가장 적합한 모델을 선택할 수 있습니다.
-
-  사용 가능한 날짜: 2026년 3월 초.
