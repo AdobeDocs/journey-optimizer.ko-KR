@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 설정, 이메일, 구성
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 90%
+source-wordcount: '733'
+ht-degree: 87%
 
 ---
 
@@ -23,6 +23,8 @@ ht-degree: 90%
 >[!NOTE]
 >
 >이메일 설정에 대한 제어를 강화하려면 헤더 매개변수를 개인화할 수 있습니다. [자세히 알아보기](../email/surface-personalization.md#personalize-header)
+>
+>[전자 메일 구성을 편집](../configuration/channel-surfaces.md#edit-channel-surface)할 때 헤더 매개 변수에 새 [프로필 특성](../personalization/personalization-build-expressions.md#sources)을 추가할 수 없습니다. 새 채널 구성을 만들어야 합니다.
 
 * **[!UICONTROL 발신자 이름]**: 보내는 사람의 이름입니다. 브랜드 이름 등을 사용할 수 있습니다.
 * **[!UICONTROL 발신자 이메일 접두사]**: 커뮤니케이션에 사용할 이메일 주소입니다.

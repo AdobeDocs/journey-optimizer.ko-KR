@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 채널, 표면, 기술, 매개변수, optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 4188d0e321f3da79932b648e3bdf8ffcf6efa22b
+source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
 workflow-type: tm+mt
-source-wordcount: '1854'
+source-wordcount: '1875'
 ht-degree: 12%
 
 ---
@@ -166,6 +166,8 @@ ht-degree: 12%
 >[!NOTE]
 >
 >**[!UICONTROL 푸시 알림 설정]**&#x200B;을 편집할 수 없습니다. 푸시 알림 채널에 대해서만 채널 구성이 구성된 경우 편집할 수 없습니다.
+>
+>전자 메일 구성을 편집할 때 헤더 매개 변수에 새 [프로필 특성](../personalization/personalization-build-expressions.md#sources)을(를) 추가할 수 없습니다. [새 채널 구성을 만들어야](#create-channel-surface).
 
 1. 목록에서 채널 구성 이름을 클릭하여 엽니다.
 
