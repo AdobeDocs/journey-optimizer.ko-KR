@@ -10,9 +10,9 @@ role: User
 level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
 version: Journey Orchestration
-source-git-commit: 8dcac6e63f6a38874b3aff4996fc317e3606cb9b
+source-git-commit: 9d85361c6f177e451149baf4e2677dce56c6130c
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '360'
 ht-degree: 11%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 11%
 
 ## 오퍼 만들기 및 관리 {#create-and-manage-offers}
 
-1. [오퍼를 만들고](creating-personalized-offers.md), 해당 콘텐츠와 속성을 구성합니다. 오퍼 콘텐츠(표시)를 개인화할 때 특정 표현식 함수만 지원됩니다. [표현식 편집기에서 지원되는 함수](../personalization-editor-supported-functions.md)를 참조하십시오.
+1. [오퍼를 만들고](creating-personalized-offers.md), 해당 콘텐츠와 속성을 구성합니다. 오퍼 콘텐츠(표시)를 개인화할 때 특정 함수만 지원됩니다. [개인화 편집기에서 지원되는 함수](personalization-editor-supported-functions.md)를 참조하세요.
 
 1. 고객이 선택한 오퍼에 적합하지 않을 경우 표시할 마지막 대체 오퍼인 [대체 오퍼를 만듭니다](creating-fallback-offers.md).
 
