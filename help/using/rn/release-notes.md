@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4576362dc6e5cd75fa19a8d4e9403db8f1e025af
+source-git-commit: 21bab54492aec0715ec5fa9c0a1061f7b6539274
 workflow-type: tm+mt
-source-wordcount: '1637'
-ht-degree: 36%
+source-wordcount: '1713'
+ht-degree: 35%
 
 ---
 
@@ -28,6 +28,8 @@ ht-degree: 36%
 [!DNL Adobe Journey Optimizer]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko){target="_blank"}를 참조하십시오.
 
 ## 2026년 3월 업데이트 {#march-26-rn}
+
+### 새로운 기능 {#march-26-features}
 
 <!--
 <table>
@@ -68,13 +70,22 @@ ht-degree: 36%
 </tbody>
 </table>
 
+### 개선 사항 {#march-26-improv}
+
+#### 구성
+
+* **AJO 보조 받는 사람 피드백 이벤트 데이터 세트의 변경** - AJO 전자 메일 BCC 피드백 이벤트 데이터 세트의 이름이 AJO 보조 받는 사람 피드백 이벤트 데이터 세트로 바뀌고 있습니다.
+   * **기존 사용자**: 표시 이름만 변경됩니다. 기본 테이블 이름은 변경되지 않습니다.
+   * **새 사용자 및 새 샌드박스**: 표시 이름과 테이블 이름 모두 새 이름을 사용합니다.
+   * **새 샌드박스를 사용하는 기존 사용자/조직**: 표시 이름과 테이블 이름이 모두 새 이름으로 변경됩니다.
+
 ## 2026년 2월 릴리스 정보 {#feb-26-01-rn}
 
 [새 기능](#feb-26-01-features) 및 [개선 사항](#feb-26-01-improv) 섹션에서는 이미 사용 가능한 기능을 다룹니다. [곧 출시](#coming-soon) 섹션에는 2월 말에 릴리스될 예정인 기능 및 개선 사항이 나와 있습니다.
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
