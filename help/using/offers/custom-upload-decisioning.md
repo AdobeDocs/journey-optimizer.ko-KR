@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: bd950410-691b-49d8-8851-8c6c448c00fd
 version: Journey Orchestration
-source-git-commit: 8dcac6e63f6a38874b3aff4996fc317e3606cb9b
+source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
 workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 4%
@@ -32,7 +32,7 @@ ht-degree: 4%
 사용자 지정 업로드 대상자에 대한 자세한 내용은 다음 섹션을 참조하십시오.
 
 * [대상자 및 Journey Optimizer 시작](../audience/about-audiences.md)
-* [Adobe Experience Platform에서 대상 가져오기](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
+* [Adobe Experience Platform에서 대상 가져오기](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
 
 ## 반드시 알아야 할 사항 {#must-read}
 
@@ -77,6 +77,6 @@ ht-degree: 4%
 
 대상자가 제약으로 추가되면 해당 속성을 사용하여 표현 콘텐츠를 개인화할 수 있습니다. 이렇게 하려면 **프로필 특성** 탭에 액세스하여 사용자 지정 업로드 대상자를 검색합니다. 대상자에서 관련 속성을 선택하여 오퍼 콘텐츠를 개인화합니다.
 
-의사 결정 관리에서는 콘텐츠를 개인화할 때 특정 함수만 지원됩니다. [식 편집기에서 지원되는 함수](personalization-editor-supported-functions.md)를 참조하세요.
+의사 결정 관리에서는 콘텐츠를 개인화할 때 특정 함수만 지원됩니다. [개인화 편집기에서 지원되는 함수](offer-library/personalization-editor-supported-functions.md)를 참조하세요.
 
 ![프로필 특성 개인화 인터페이스](assets/csv-perso.png)

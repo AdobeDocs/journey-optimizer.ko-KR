@@ -11,10 +11,10 @@ level: Intermediate
 mini-toc-levels: 1
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
 version: Journey Orchestration
-source-git-commit: 8dcac6e63f6a38874b3aff4996fc317e3606cb9b
+source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 6%
+source-wordcount: '613'
+ht-degree: 11%
 
 ---
 
@@ -26,11 +26,7 @@ ht-degree: 6%
 
 ## 등급 수식 기본 정보 {#about-ranking-formulas}
 
-**등급 수식**&#x200B;을 사용하면 오퍼의 우선 순위 점수를 고려하지 않고 주어진 배치에 대해 먼저 제시해야 할 오퍼를 결정하는 규칙을 정의할 수 있습니다.
-
-등급 수식은 **PQL 구문**&#x200B;으로 표시되며 프로필 특성, 컨텍스트 데이터 및 오퍼 특성을 활용할 수 있습니다. PQL 구문을 사용하는 방법에 대한 자세한 내용은 [전용 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=ko)를 참조하세요.
-
-[의사 결정 관리]에서 등급 수식에서 함수의 하위 집합만 지원됩니다. 목록은 [식 편집기에서 지원되는 함수](../personalization-editor-supported-functions.md)를 참조하십시오.
+**등급 공식**&#x200B;으로 특정 배치에 먼저 제시할 오퍼를 결정하는 규칙을 정의할 수 있습니다. 이 경우 오퍼의 우선 순위 점수를 고려할 필요가 없습니다. 등급 수식은 **PQL 구문**&#x200B;으로 표시되며 프로필 특성, 컨텍스트 데이터 및 오퍼 특성을 활용할 수 있습니다. PQL 구문을 사용하는 방법에 대한 자세한 내용은 [전용 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=ko)를 참조하세요.
 
 등급 공식이 생성되면 의사 결정의 배치에 지정할 수 있습니다. 자세한 내용은 [결정의 오퍼 선택 구성](../offer-activities/configure-offer-selection.md)을 참조하십시오.
 
