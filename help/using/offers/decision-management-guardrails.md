@@ -9,20 +9,22 @@ role: User
 level: Intermediate
 exl-id: d2872bd3-42f8-4744-bb5b-41c49340098a
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 90b7d9bfe40e6d68e22a9f1aa8ef6d302a1035d9
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 18%
+source-wordcount: '400'
+ht-degree: 13%
 
 ---
 
 # 의사 결정 관리 가드레일 및 제한 사항 {#decision-management-guardrails}
 
->[!TIP]
+>[!IMPORTANT]
 >
->[!DNL Adobe Journey Optimizer]의 새로운 의사 결정 기능인 [결정]을 이제 코드 기반 경험 및 이메일 채널을 통해 사용할 수 있습니다. [자세히 알아보기](../experience-decisioning/gs-experience-decisioning.md)
+>이 페이지에서는 기존 **의사 결정 관리** 기능에 대한 보호 기능을 다룹니다. 코드 기반 경험 및 전자 메일 채널을 통해 사용할 수 있는 **의사 결정** — [!DNL Adobe Journey Optimizer]의 현재 의사 결정 기능 — 대신 [의사 결정 보호 및 제한 사항](../experience-decisioning/decisioning-guardrails.md)을 참조하세요.
+>
+>사용 중인 기능을 모르시겠습니까? [의사 결정에 대해 알아보기](../experience-decisioning/gs-experience-decisioning.md).
 
-의사 결정 관리를 최적으로 사용하려면 다음 보호 기능 및 제한 사항을 염두에 두십시오.
+이 페이지는 기존 의사 결정 관리 시스템을 사용하여 작업하는 사용자에게 적용됩니다. 최적의 사용을 위해 다음 보호 기능 및 제한 사항을 염두에 두십시오.
 
 [!DNL Journey Optimizer] 보호 및 제한 사항의 전체 목록을 [이 섹션](../start/guardrails.md)에서 사용할 수 있습니다.
 
@@ -36,7 +38,7 @@ ht-degree: 18%
 | Edge Decisioning API 요청/초, Edge 세그멘테이션 사용 | 조직당 1,500 |
 | Edge 세그멘테이션 없이 Edge Decisioning API 요청 초당 | 조직당 5,000 |
 | 응답당 반환된 오퍼 | 결정 범위당 최대 30개 또는 총 100개 |
-| 요청당 관련된 최대 오퍼 규칙 수 | 10 |
+| 요청당 관련된 최대 오퍼 규칙 수 | 100 |
 
 ## 결정
 
