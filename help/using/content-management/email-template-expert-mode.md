@@ -9,7 +9,8 @@ role: User
 hidefromtoc: true
 hide: true
 level: Experienced
-source-git-commit: 74102069afa519898149de33f890568950571f26
+exl-id: 0c586565-0c65-435f-986d-cd08b59de159
+source-git-commit: 1ab21ba3a656f59de748ee90f360b99c0dc2f7a5
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 5%
@@ -60,7 +61,7 @@ ht-degree: 5%
    >
    >이 경고는 고급 HTML 편집기를 처음 열 때만 나타나며 매월 재설정됩니다.
 
-   ![](assets/email-template-expert-mode-warning.png)
+   ![](assets/email-template-expert-mode-warning.png){zoomable="yes"}
 
 1. 고급 HTML 편집기가 표시됩니다.
 
@@ -74,7 +75,7 @@ ht-degree: 5%
 
 1. 고급 HTML 보기에서는 저장할 수 없습니다. 데스크탑 보기로 다시 전환하여 변경 사항을 저장합니다.
 
-   &lt;![](assets/email-template-expert-mode-save.png)
+   ![](assets/email-template-expert-mode-save.png){zoomable="yes"}
 
    >[!NOTE]
    >
