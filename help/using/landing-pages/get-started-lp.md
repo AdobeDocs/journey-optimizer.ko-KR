@@ -96,4 +96,4 @@ ht-degree: 26%
 
 아래 비디오에서는 구독 목록을 만들고, 서비스를 옵트인 또는 옵트아웃하도록 랜딩 페이지를 설정하고, 옵트인/옵트아웃 옵션을 메시지에 통합하고, 관련 여정을 구성하는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/344401?captions=kor&quality=12&learn=on)
