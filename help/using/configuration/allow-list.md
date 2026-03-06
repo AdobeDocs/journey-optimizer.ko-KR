@@ -38,7 +38,7 @@ Journey Optimizer **제외 REST API**&#x200B;를 사용하여 제외 및 허용 
 
 >[!CAUTION]
 >
->허용 목록을 보고 내보내고 관리할 수 있는 권한이 [여정 관리자](../administration/ootb-product-profiles.md#journey-administrator)(으)로 제한됩니다. [!DNL Journey Optimizer]이 섹션[에서 ](../administration/permissions-overview.md) 사용자의 액세스 권한 관리에 대해 자세히 알아보세요.
+>허용 목록을 보고 내보내고 관리할 수 있는 권한이 [여정 관리자](../administration/ootb-product-profiles.md#journey-administrator)(으)로 제한됩니다. [!DNL Journey Optimizer]이 섹션[에서 &#x200B;](../administration/permissions-overview.md) 사용자의 액세스 권한 관리에 대해 자세히 알아보세요.
 
 허용 목록을 CSV 파일로 내보내려면 **[!UICONTROL CSV 다운로드]** 단추를 선택합니다.
 
