@@ -9,9 +9,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4c1d39c4-3154-4bec-ac3c-c2ead7164d69
-source-git-commit: c9856234149c0f377e625a789c96f1f1f0453000
+source-git-commit: f212a2178e83283d4755da5483d7c11ba4df183f
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 * 즉시 여는 수신자에게는 &quot;47시간 남음&quot;이 표시됩니다.
 * 24시간 후에 여는 수신자는 &quot;23시간 남음&quot;을 확인합니다.
-* 판매 종료 후 여는 수신자에게는 &quot;판매 종료&quot;가 표시됩니다.
+* 판매 종료 후 오픈하는 수신자에게는 &quot;시간이 다 되었습니다!&quot;가 표시됩니다.
 
 Adobe Experience Manager에서 Dynamic Media 템플릿에 카운트다운 타이머를 추가하는 방법에 대한 자세한 내용은 [이 문서](assets/do-not-localize/countdown.pdf)를 참조하십시오.
 
@@ -45,13 +45,17 @@ Adobe Experience Manager에서 Dynamic Media 템플릿에 카운트다운 타이
 
    ![](assets/timer-3.png)
 
+1. 알약을 켜짐으로 전환하여 알약 경험을 활성화하십시오. 이렇게 하면 긴 속성 경로를 숨겨서 가독성이 향상됩니다.
+
+   ![](assets/timer-6.png)
+
 1. **[!UICONTROL 사용자 지정 특성]** 메뉴에서 템플릿에 필요한 사용자 지정 가능한 URL 매개 변수를 구성합니다.
 
    완료되면 **[!UICONTROL 저장]**&#x200B;을 클릭하세요.
 
    ![](assets/timer-4.png)
 
-1. 이메일 Designer에서 자산을 선택한 다음 **[!UICONTROL 설정]** 메뉴에 액세스합니다.
+1. 또는 전자 메일 Designer에서 자산을 선택한 다음 **[!UICONTROL 설정]** 메뉴에 액세스하여 Dynamic Media 템플릿의 매개 변수에 액세스할 수도 있습니다.
 
    다음을 구성합니다.
 
