@@ -65,7 +65,7 @@ ht-degree: 23%
 
    ![](assets/lp_primary-page.png)
 
-1. + 아이콘을 클릭하여 하위 페이지를 추가합니다. 하위 페이지 설정 [여기](#configure-subpages)를 구성하는 방법을 알아보세요.
+1. &#x200B;+ 아이콘을 클릭하여 하위 페이지를 추가합니다. 하위 페이지 설정 [여기](#configure-subpages)를 구성하는 방법을 알아보세요.
 
    ![](assets/lp_add-subpage.png)
 
@@ -271,7 +271,7 @@ ht-degree: 23%
 
 랜딩 페이지가 게시되면 **[!UICONTROL 게시됨]** 상태로 랜딩 페이지 목록에 추가됩니다.
 
-이제 실시간 상태로 [!DNL Journey Optimizer]여정[을(를) 통해 전송되는 ](../building-journeys/journey.md) 메시지에 사용할 준비가 되었습니다.
+이제 실시간 상태로 [!DNL Journey Optimizer]여정[을(를) 통해 전송되는 &#x200B;](../building-journeys/journey.md) 메시지에 사용할 준비가 되었습니다.
 
 >[!NOTE]
 >
