@@ -10,9 +10,9 @@ hidefromtoc: true
 hide: true
 level: Experienced
 exl-id: 0c586565-0c65-435f-986d-cd08b59de159
-source-git-commit: 1ab21ba3a656f59de748ee90f360b99c0dc2f7a5
+source-git-commit: 76bb202375cdfe1c8abacc1670ba6e794175215d
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '495'
 ht-degree: 5%
 
 ---
@@ -80,3 +80,8 @@ ht-degree: 5%
    >[!NOTE]
    >
    >콘텐츠는 콘텐츠 호환성을 위해 데스크탑 보기에서만 저장할 수 있습니다. 보기를 전환하면 편집 내용이 유지됩니다.
+
+1. 고급 HTML 보기에서는 컨텐츠 시뮬레이션을 사용할 수 없습니다. 콘텐츠를 시뮬레이션하려면 데스크톱 보기로 전환합니다.
+
+   ![](assets/email-template-expert-mode-simulate.png){zoomable="yes"}
+
