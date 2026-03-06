@@ -8,9 +8,9 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 4a15ee3ac4805880ce80f788e4619b501afb3d8b
+source-git-commit: d2f32e0572b78db55c61cf087eb308d6fc0e2d4d
 workflow-type: tm+mt
-source-wordcount: '3337'
+source-wordcount: '3542'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,32 @@ ht-degree: 1%
 # 쿼리 예제{#query-examples}
 
 이 섹션에서는 데이터 레이크에서 여정 단계 이벤트를 쿼리하는 데 일반적으로 사용되는 예를 제공합니다. 특정 사용 사례로 이동하기 전에 여정 이벤트 데이터에 사용되는 주요 식별자를 이해하는 것이 중요합니다.
+
+## 전제 조건 {#prerequisites}
+
+이 페이지에서 쿼리를 실행하기 전에 다음을 확인하십시오.
+
+* **Adobe Experience Platform 쿼리 서비스에 액세스** — Adobe Experience Platform 샌드박스에서 [쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ko){target="_blank"}에 액세스할 수 있어야 합니다.
+* **사용 가능한 데이터 세트** — 쿼리는 `journey_step_events` 데이터 세트를 대상으로 합니다. **Experience Platform > 데이터 세트**&#x200B;를 통해 데이터 세트가 존재하고 샌드박스에 데이터가 포함되어 있는지 확인하십시오.
+* **올바른 여정 버전 ID** — 대부분의 쿼리에는 `journeyVersionID`이(가) 필요합니다. **여정 > [여정] > 속성** 아래의 Journey Optimizer에서 찾거나 `journeyVersionName`을(를) 사용하여 데이터 집합에서 먼저 찾습니다.
+* **스키마 필드 값** — 쿼리에 사용된 필드에 해당 스키마의 관련 값이 있는지 확인합니다. 빈 필드는 오류 없이 결과를 반환하지 않습니다.
+
+>[!TIP]
+>
+>쿼리 서비스에 **새로운 기능?** [Adobe Experience Platform](https://experience.adobe.com/)을 열고 **쿼리 서비스 > 쿼리**&#x200B;로 이동하고 아래 예제를 붙여 넣고 자리 표시자 값(예: `<journeyVersionID>`, `<last x hours>`)을 바꾼 다음 **실행**&#x200B;을 선택합니다.
+
+## 적합한 쿼리 찾기 {#find-query}
+
+| 난... | 다음으로 이동 |
+|---|---|
+| 여정에 입력한 프로필 수 | [기본 사용 사례](#common-queries) |
+| 특정 프로필의 여정 경로 디버그 | [프로필 기반 쿼리](#profile-based-queries) |
+| 대상자 읽기 실행 또는 오류 조사 | [대상 쿼리 읽기](#read-segment-queries) |
+| 메시지 또는 작업 오류 문제 해결 | [메시지 및 작업 오류](#message-action-errors) |
+| 대상 자격 분석 취소 | [대상 자격 쿼리](#segment-qualification-queries) |
+| 외부 또는 비즈니스 이벤트 디버그 | [이벤트 기반 쿼리](#event-based-queries) |
+| 사용자 지정 작업 끝점 성능 모니터링 | [사용자 지정 작업 쿼리](#query-custom-action) |
+| 참여 가능한 프로필 및 라이선스 사용 추적 | [참여 가능한 프로필 쿼리](#engageable-profiles-queries) |
 
 쿼리에 사용된 필드에 해당 스키마의 관련 값이 있는지 확인하십시오.
 
@@ -31,7 +57,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->문제를 해결하려면 여정을 쿼리할 때 journeyVersionName 대신 journeyVersionID를 사용하는 것이 좋습니다. 이 섹션[에서 여정 속성 특성 &#x200B;](../building-journeys/expression/journey-properties.md#journey-properties-fields)에 대해 자세히 알아보세요.
+>문제를 해결하려면 여정을 쿼리할 때 journeyVersionName 대신 journeyVersionID를 사용하는 것이 좋습니다. 이 섹션[에서 여정 속성 특성 ](../building-journeys/expression/journey-properties.md#journey-properties-fields)에 대해 자세히 알아보세요.
 
 +++
 

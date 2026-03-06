@@ -7,9 +7,10 @@ role: Developer
 level: Experienced
 keywords: 전환, 함수, 표현식, 여정, 유형, 캐스트
 version: Journey Orchestration
-source-git-commit: 451a9e1e5d5e6e1408849e8d1c5c9644a95359da
+exl-id: f1267c9e-200c-43ae-8b98-3c5951a2f2d7
+source-git-commit: 57da5ea1cae21ed370b1cc58d953ba740b7ac2c6
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1249'
 ht-degree: 6%
 
 ---
@@ -28,6 +29,30 @@ ht-degree: 6%
 * 다른 형식 형식을 가질 수 있는 외부 소스의 데이터 처리
 
 각 전환 기능은 유형별 규칙과 극단적 사례를 자동으로 처리하므로 여정 표현식에서 보다 안정적이고 예측 가능한 데이터 변환을 만들 수 있습니다.
+
+## 빠른 참조 {#quick-reference}
+
+| 목표 | 함수 |
+|------|----------|
+| 문자열 또는 epoch를 날짜 **포함** 시간대로 변환 | [toDateTime](#toDateTime) |
+| 문자열 또는 날짜를 날짜/시간 **표준 시간대 없이**(으)로 변환 | [toDateTimeOnly](#toDateTimeOnly) |
+| 날짜만 추출(연-월-일, 시간 없음) | [toDateOnly](#toDateOnly) |
+| 정수로 변환 | [toInteger](#toInteger) |
+| 소수로 변환 | [toDecimal](#toDecimal) |
+| true/false로 전환 | [toBool](#toBool) |
+| 모든 값을 문자열로 변환 | [toString](#toString) |
+| 지속 시간(ISO-8601, 예: PT10H)으로 변환 | [toDuration](#toDuration) |
+
+>[!TIP]
+>
+>**toDateTime과 toDateTimeOnly 비교:** 시간대가 중요한 경우(예: 메시지 예약, 지역 간 이벤트 타임스탬프 비교) `toDateTime`을(를) 사용합니다. 로컬 날짜-시간만 적절하고 시간대를 무시할 수 있는 경우(예: 조건의 일정 날짜 비교) `toDateTimeOnly`을(를) 사용합니다.
+
+## 일반적인 함정 {#pitfalls}
+
+* **시간대는 문자열 상수여야 합니다** — `toDateTime`의 시간대 인수는 필드 참조나 동적 식일 수 없습니다. 항상 `"UTC"` 또는 `"Europe/Paris"`과(와) 같은 리터럴 문자열을 전달하십시오.
+* **문자열 입력에 필요한 ISO-8601 형식** — 문자열을 `toDateTime` 또는 `toDateTimeOnly`에 전달할 때 ISO-8601 형식(예: `"2023-08-18T23:17:59.123Z"`)을 따르는지 확인하십시오. 잘못된 형식의 문자열이 오류 없이 null을 반환합니다.
+* **Epoch 값이 밀리초 단위입니다** — `toDateTime(1560762190189)`에는 밀리초가 필요합니다. 소스에서 Unix 타임스탬프를 초 단위로 제공하는 경우 먼저 1000을 곱하십시오(예: `toDateTime(myField * 1000)`).
+* 예기치 않은 문자열이 있는 **toBool** — `toBool`은(는) 문자열 값이 정확히 `true`인 경우에만 `"true"`을(를) 반환합니다. 다른 문자열(`"1"`, `"yes"`, `"TRUE"` 포함)은 `false`을 반환합니다.
 
 ## toBool {#toBool}
 
@@ -65,7 +90,7 @@ ht-degree: 6%
 
 +++
 
-+++예
++++예시
 
 `toBool("true")`
 
@@ -114,7 +139,7 @@ dateOnly 형식 값을 반환합니다.
 
 +++
 
-+++예
++++예시
 
 `toDateOnly("2023-08-18")`
 
@@ -166,7 +191,7 @@ dateOnly를 반환합니다.
 
 +++
 
-+++예
++++예시
 
 `toDateTime("2023-08-18T23:17:59.123Z")`
 
@@ -227,7 +252,7 @@ Unix 타임스탬프(밀리초)를 dateTime 값으로 변환합니다.
 
 +++
 
-+++예
++++예시
 
 `toDateTimeOnly ("2023-08-18")`
 
@@ -272,7 +297,7 @@ Unix 타임스탬프(밀리초)를 dateTime 값으로 변환합니다.
 
 +++
 
-+++예
++++예시
 
 `toDecimal("4.0")`
 
@@ -313,7 +338,7 @@ Unix 타임스탬프(밀리초)를 dateTime 값으로 변환합니다.
 
 +++
 
-+++예
++++예시
 
 `toDuration("PT10H")`
 
@@ -366,7 +391,7 @@ Unix 타임스탬프(밀리초)를 dateTime 값으로 변환합니다.
 
 +++
 
-+++예
++++예시
 
 `toInteger("4")`
 
@@ -415,7 +440,7 @@ Unix 타임스탬프(밀리초)를 dateTime 값으로 변환합니다.
 
 +++
 
-+++예
++++예시
 
 `toString(4)`
 
@@ -430,4 +455,3 @@ Unix 타임스탬프(밀리초)를 dateTime 값으로 변환합니다.
 &quot;PT1.52S&quot;를 반환합니다.
 
 +++
-
