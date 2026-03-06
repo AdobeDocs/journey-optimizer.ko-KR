@@ -49,7 +49,7 @@ Enterprise 라이선스를 사용하면 사용자가 Adobe Express 웹 편집기
 
 ![](assets/express-licence.png)
 
-Adobe Express용 Enterprise 라이선스가 있는 사용자가 사용할 수 있는 사용 사례에 대한 자세한 내용은 [Adobe Express 웹 설명서](https://helpx.adobe.com/express/web.html)를 참조하세요.
+Adobe Express용 Enterprise 라이선스가 있는 사용자가 사용할 수 있는 사용 사례에 대한 자세한 내용은 [Adobe Express 웹 설명서](https://helpx.adobe.com/kr/express/web.html)를 참조하세요.
 
 ## Enterprise 라이선스 없이 Adobe Express 사용  {#edit}
 
