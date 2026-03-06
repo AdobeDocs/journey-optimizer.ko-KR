@@ -12,7 +12,7 @@ exl-id: 7b50c933-9738-4b1b-acae-08f0a8d41dab
 source-git-commit: ab0f100d53cb987919eb134442bf05e64c30719a
 workflow-type: tm+mt
 source-wordcount: '695'
-ht-degree: 3%
+ht-degree: 12%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_msg_export"
 >title="전송된 콘텐츠 보존 및 내보내기"
->abstract="이 옵션을 선택하면 이 구성을 사용하여 보낸 전자 메일 또는 SMS 메시지의 콘텐츠를 [!DNL Experience Platform] 데이터 집합에 쓸 수 있습니다. 레코드는 수집 후 7일 동안 유지되며, 이 기간 동안 자체 스토리지로 내보낼 수 있습니다."
+>abstract="이 옵션을 선택하면 이 구성을 사용하여 보낸 이메일이나 SMS 메시지의 내용을 [!DNL Experience Platform] 데이터 세트에 쓸 수 있습니다. 기록은 수집 후 7일 동안 보관되며, 이 기간 동안 내 스토리지로 내보낼 수 있습니다."
 
 >[!AVAILABILITY]
 >
->이 기능은 메시지 내보내기 추가 기능 서비스를 구입한 조직의 이메일 및 SMS 채널에만 사용할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
+>이 기능은 메시지 내보내기 추가 기능 서비스를 구입한 조직의 이메일 및 SMS 채널에서만 사용할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
 **메시지 내보내기**&#x200B;를 사용하면 보낸 전자 메일 및 SMS 메시지 콘텐츠를 [!DNL Journey Optimizer]에서 [!DNL Adobe Experience Platform] 대상을 통해 자신의 저장소로 전송하여 [!DNL Experience Platform]의 데이터를 외부 끝점으로 전달할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/home){target="_blank"}
 
@@ -43,8 +43,8 @@ ht-degree: 3%
 
 메시지 내보내기 기능에 대한 온보딩 프로세스는 다음 두 단계로 구성됩니다.
 
-1. [에서 &#x200B;](#set-up-export-dataflow)내보내기 데이터 흐름을 설정[!DNL Experience Platform];
-1. [의 채널 구성에서 &#x200B;](#config-message-export)메시지 내보내기 사용[!DNL Journey Optimizer].
+1. [에서 ](#set-up-export-dataflow)내보내기 데이터 흐름을 설정[!DNL Experience Platform];
+1. [의 채널 구성에서 ](#config-message-export)메시지 내보내기 사용[!DNL Journey Optimizer].
 
 >[!WARNING]
 >
@@ -58,9 +58,9 @@ ht-degree: 3%
 >
 >각 샌드박스에 대해 이 설정을 구성해야 합니다.
 
-1. Experience Platform [대상 유형](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/destination-types){target="_blank"}을(를) 선택하십시오. 데이터를 받을 준비가 된 사용 가능한 대상 플랫폼 목록을 [이 페이지](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/overview){target="_blank"}에서 사용할 수 있습니다.
+1. Experience Platform [대상 유형](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/destination-types){target="_blank"}을(를) 선택하십시오. 데이터를 받을 준비가 된 사용 가능한 대상 플랫폼 목록을 [이 페이지](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview){target="_blank"}에서 사용할 수 있습니다.
 
-1. [!DNL Experience Platform]에서 자격 증명, 버킷/컨테이너, 경로 접두사 및 보안 옵션을 정의하여 대상을 구성합니다. [방법 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
+1. [!DNL Experience Platform]에서 자격 증명, 버킷/컨테이너, 경로 접두사 및 보안 옵션을 정의하여 대상을 구성합니다. [방법 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
 
 1. 다음 데이터를 사용하여 데이터 세트 내보내기 플로우를 만듭니다.
 

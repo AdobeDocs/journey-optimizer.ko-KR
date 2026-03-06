@@ -13,7 +13,7 @@ exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
 source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
 source-wordcount: '761'
-ht-degree: 10%
+ht-degree: 13%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dataset_lookup"
 >title="데이터 세트 조회 활동"
->abstract="**[!UICONTROL 데이터 집합 조회]** 활동을 사용하면 런타임 중에 [!DNL Adobe Experience Platform] 레코드 데이터 집합에서 데이터를 동적으로 검색할 수 있습니다. 이 기능을 활용하면 프로필이나 이벤트 페이로드에 없을 수 있는 데이터에 액세스하여 고객 상호 작용이 적시에 적절하게 이루어질 수 있습니다."
+>abstract="**[!UICONTROL 데이터 세트 조회]** 활동을 통해 런타임 중에 [!DNL Adobe Experience Platform] 레코드 데이터 세트에서 동적으로 데이터를 가져올 수 있습니다. 이 기능을 활용하면 프로필이나 이벤트 페이로드에 없을 수 있는 데이터에 액세스하여 고객 상호 작용이 적시에 적절하게 이루어질 수 있습니다."
 
 **[!UICONTROL 데이터 집합 조회]** 활동을 사용하면 런타임 중에 [!DNL Adobe Experience Platform] 레코드 데이터 집합에서 데이터를 동적으로 검색할 수 있습니다. 이 기능을 활용하면 프로필이나 이벤트 페이로드에 없을 수 있는 데이터에 액세스하여 고객 상호 작용이 적시에 적절하게 이루어질 수 있습니다.
 
@@ -66,7 +66,7 @@ ht-degree: 10%
 
 1. **[!UICONTROL Orchestration]** 범주를 펼친 다음 **[!UICONTROL 데이터 집합 조회]** 활동을 캔버스에 놓습니다.
 
-   ![[!DNL Adobe Experience Platform] 여정에서 &#x200B;](assets/aep-data-activity.png) 데이터 집합 조회 활동
+   ![[!DNL Adobe Experience Platform] 여정에서 ](assets/aep-data-activity.png) 데이터 집합 조회 활동
 
 1. 레이블과 설명을 추가합니다.
 

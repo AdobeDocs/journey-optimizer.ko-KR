@@ -10,7 +10,7 @@ exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 source-git-commit: 3fdfc98c0049f39d12b1cb2241fde892f449cdc1
 workflow-type: tm+mt
 source-wordcount: '972'
-ht-degree: 15%
+ht-degree: 18%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail"
 >title="다이렉트 메일 만들기"
->abstract="예약된 캠페인 및 여정에서 DM 메시지를 만들고 DM 공급자가 고객에게 메일을 보내는 데 필요한 추출 파일을 디자인합니다."
+>abstract="예약된 캠페인 및 여정에서 다이렉트 메일 메시지를 만들고, 다이렉트 메일 공급자가 고객에게 메일을 전송하는 데 필요한 추출 파일을 디자인합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_direct_mail"

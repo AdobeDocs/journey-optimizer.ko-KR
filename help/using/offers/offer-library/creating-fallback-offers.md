@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
 source-wordcount: '409'
-ht-degree: 13%
+ht-degree: 22%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_fallback_offer_details "
 >title="대체 오퍼 세부 정보"
->abstract="대체 오퍼의 이름을 지정합니다. 하나 또는 여러 개의 기존 컬렉션 한정자를 연결하여 오퍼 라이브러리를 보다 쉽게 검색하고 구성할 수 있습니다."
+>abstract="대체 오퍼의 이름을 지정합니다. 또한 하나 또는 여러 개의 기존 컬렉션 한정자를 연결하여 오퍼 라이브러리를 더 쉽게 검색하고 구성할 수 있습니다."
 
 다른 오퍼에 적합하지 않은 경우 고객에게 대체 오퍼가 전송됩니다. 대체 오퍼를 만드는 단계는 오퍼를 만들 때와 같이 하나 또는 여러 개의 표현을 만드는 것으로 구성됩니다.
 
@@ -79,5 +79,5 @@ ht-degree: 13%
 
 ## 사용 방법 비디오 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341359?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329383?quality=12)
 

@@ -13,7 +13,7 @@ exl-id: b183eeb8-606f-444d-9302-274f159c3847
 source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
 workflow-type: tm+mt
 source-wordcount: '815'
-ht-degree: 6%
+ht-degree: 12%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_profile_timezone"
 >title="프로필 시간대 사용"
->abstract="각 수신자의 프로필 시간대를 기반으로 메시지를 전송합니다. 모든 수신자는 지리적 위치에 관계없이 동일한 현지 시간에 메시지를 수신하게 됩니다. 시스템은 Adobe Experience Platform 프로필의 &quot;시간대&quot; 필드를 사용하며, 캠페인 생성자의 시간대는 대체 항목으로 사용됩니다."
+>abstract="각 수신자의 프로필 시간대를 기반으로 메시지를 전송합니다. 모든 수신자는 지리적 위치에 관계없이 동일한 현지 시간에 메시지를 수신합니다. 시스템은 Adobe Experience Platform 프로필의 “시간대” 필드를 사용하며, 캠페인 작성자의 시간대를 대체 항목으로 사용됩니다."
 
 특정 날짜 및 시간에 대한 캠페인을 예약할 때 각 수신자의 프로필 시간대를 기반으로 메시지를 보내도록 선택할 수 있습니다. 이렇게 하면 지리적 위치에 관계없이 모든 수신자가 동일한 현지 시간에 메시지를 받을 수 있습니다.
 

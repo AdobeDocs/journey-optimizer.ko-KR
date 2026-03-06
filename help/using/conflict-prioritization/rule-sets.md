@@ -12,7 +12,7 @@ exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
 source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
 workflow-type: tm+mt
 source-wordcount: '1060'
-ht-degree: 25%
+ht-degree: 33%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_rule_sets"
 >title="규칙 세트"
->abstract="규칙 세트를 사용하여 빈도 제한 또는 자동 시간 규칙을 다양한 유형의 마케팅 커뮤니케이션에 적용합니다. 빈도 캡핑 설정 규칙에 따라 대상자의 일부로 향하는 여정을 제외하는 규칙 세트를 만들 수도 있습니다."
+>abstract="규칙 세트를 사용하여 다양한 유형의 마케팅 커뮤니케이션에 빈도 캡핑 설정 또는 방해 금지 시간대 규칙을 적용합니다. 빈도 캡핑 설정 규칙에 따라 대상자의 일부로 향하는 여정을 제외하는 규칙 세트를 만들 수도 있습니다."
 
 ## 규칙 세트 시작 {#gs}
 
@@ -80,7 +80,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="ajo_rule_type"
 >title="규칙 유형"
->abstract="채널 규칙 집합에 대해 원하는 규칙 유형을 선택하십시오. **빈도 제한** 유형을 사용하여 통신 채널에 제한 규칙을 적용하십시오. 예를 들어 하루에 1개 이상의 이메일 또는 SMS 커뮤니케이션을 보내지 마십시오. 특정 기간 동안 메시지가 전송되지 않도록 시간 기반 제외를 정의하려면 **방해 금지 시간**&#x200B;을(를) 선택하십시오."
+>abstract="채널 규칙 세트에 원하는 규칙 유형을 선택합니다. **빈도 캡핑** 유형을 사용하여 커뮤니케이션 채널에 캡핑 규칙을 적용합니다. 예를 들어 하루에 1개 이상의 이메일이나 SMS를 보내지 마십시오. 특정 기간 동안 메시지가 전송되지 않도록 시간 기반 제외를 정의하려면 **방해 금지 시간대**&#x200B;를 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_duration"
@@ -95,7 +95,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_business_rules"
 >title="규칙 세트"
->abstract="사용자 지정 작업에 적용할 규칙 세트를 선택합니다."
+>abstract="사용자 정의 액션에 적용할 규칙 세트를 선택합니다."
 
 규칙 세트를 만들려면 아래 단계를 수행합니다.
 
@@ -180,4 +180,4 @@ ht-degree: 25%
 
 ## 사용 방법 비디오 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444733?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

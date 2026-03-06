@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '615'
-ht-degree: 11%
+ht-degree: 17%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"
 >title="기본 제공 채널 액션"
->abstract="Journey Optimizer는 채널 액션 기능을 기본 제공합니다. 메시지(이메일, 문자 메시지(SMS/MMS), 푸시, DM) 또는 인바운드 경험(인앱, 웹, 코드 기반 경험, 콘텐츠 카드) 활동을 여정에 추가하고 설정 및 콘텐츠를 정의할 수 있습니다. 그런 다음 여정의 맥락에서 자동으로 실행되고 전송됩니다."
+>abstract="Journey Optimizer는 채널 액션 기능을 기본 제공합니다. 여정에 메시지(이메일, 문자 메시지(SMS/MMS), 푸시, 다이렉트 메일) 또는 인바운드 경험(인앱, 웹, 코드 기반 경험, 콘텐츠 카드) 활동을 간단히 추가하고 설정과 콘텐츠를 정의할 수 있습니다. 그런 다음 여정의 맥락에서 자동으로 실행되고 전송됩니다."
 
 [!DNL Journey Optimizer]에는 메시지를 보내는 데 사용되는 채널 작업 기능이 내장되어 있습니다. 기본 제공 채널 작업을 여정에 추가하려면 채널 활동을 끌어다 놓고 해당 설정 및 콘텐츠를 정의합니다. 그런 다음 여정의 맥락에서 자동으로 실행되고 전송됩니다.
 

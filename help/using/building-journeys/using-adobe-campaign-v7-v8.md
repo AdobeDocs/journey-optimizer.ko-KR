@@ -13,18 +13,18 @@ version: Journey Orchestration
 source-git-commit: 339285cbc82d5b30b221feb235ed8425a66f8802
 workflow-type: tm+mt
 source-wordcount: '296'
-ht-degree: 6%
+ht-degree: 23%
 
 ---
 
-# [!DNL Adobe Campaign] v7/v8 작업 {#using_campaign_v7-v8}
+# [!DNL Adobe Campaign] v7/v8 액션 {#using_campaign_v7-v8}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_acc"
 >title="사용자 정의 액션"
->abstract="[!DNL Adobe Campaign] v7 또는 v8이 있는 경우 통합을 사용할 수 있습니다. [!DNL Adobe Campaign] 트랜잭션 메시지 기능을 사용하여 이메일, 푸시 알림 및 SMS를 보낼 수 있습니다."
+>abstract="[!DNL Adobe Campaign] v7 또는 v8이 있는 경우 통합 기능을 사용할 수 있습니다. [!DNL Adobe Campaign] 트랜잭션 메시지 기능을 사용하여 이메일, 푸시 알림, SMS를 전송할 수 있습니다."
 
-[!DNL Adobe Campaign] v7 또는 v8이 있는 경우 통합을 사용할 수 있습니다. [!DNL Adobe Campaign] 트랜잭션 메시지 기능을 사용하여 이메일, 푸시 알림 및 SMS를 보낼 수 있습니다.
+[!DNL Adobe Campaign] v7 또는 v8이 있는 경우 통합 기능을 사용할 수 있습니다. [!DNL Adobe Campaign] 트랜잭션 메시지 기능을 사용하여 이메일, 푸시 알림, SMS를 전송할 수 있습니다.
 
 Journey Optimizer 인스턴스와 Campaign 인스턴스 간의 연결은 프로비저닝 시 Adobe에 의해 설정됩니다. Adobe에 문의하십시오.
 

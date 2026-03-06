@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
 source-wordcount: '1533'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_disabled"
 >title="전송된 시간 최적화 정보"
->abstract="Adobe의 AI 서비스를 기반으로 하는 [!DNL Adobe Journey Optimizer]의 전송 시간 최적화 기능을 통해 이메일 또는 푸시 메시지를 보내는 데 가장 적합한 시간을 예측하여 과거 공개 및 클릭률을 기준으로 참여를 극대화할 수 있습니다."
+>abstract="Adobe의 AI 서비스에서 제공하는 [!DNL Adobe Journey Optimizer]의 전송 시간 최적화 기능은 기록 열기와 클릭률을 기반으로 이메일 또는 푸시 메시지를 전송하는 최적의 시간을 예측하여 참여도를 극대화할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_email"

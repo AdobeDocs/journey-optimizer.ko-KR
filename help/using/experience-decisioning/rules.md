@@ -10,7 +10,7 @@ version: Journey Orchestration
 source-git-commit: 6c85cfa27002de17f6625447fa0b7eaaceb9f829
 workflow-type: tm+mt
 source-wordcount: '936'
-ht-degree: 8%
+ht-degree: 16%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_rules"
 >title="규칙 만들기"
->abstract="의사 결정 항목 또는 선택 전략에 사용할 수 있는 **의사 결정 규칙**, 표시할 항목을 제어하는 규칙 **타깃팅 규칙**, 개인화된 콘텐츠를 수신할 수 있는 특정 대상 세그먼트를 결정하는 규칙 또는 특정 여정 경로를 입력하는 규칙 유형을 만들 수 있습니다.<br/><br/>의사 결정 규칙을 만들 때 **[!UICONTROL 데이터 집합 조회 사용]**&#x200B;을 선택하여 Adobe Experience Platform 데이터를 사용할 수 있습니다. 이를 통해 동적 외부 속성을 기반으로 적격성 기준을 정의하여 관련이 있는 경우에만 결정 항목이 표시되도록 할 수 있습니다."
+>abstract="다음 두 가지 유형의 규칙을 만들 수 있습니다. 어떤 항목을 어떤 대상자에게 제시해야 하는지 제어하는 의사 결정 항목이나 선택 전략에 사용할 수 있는 **의사 결정 규칙**, 또는 특정 대상자 세그먼트가 개인화된 콘텐츠를 받을 자격이 있는지 결정하거나 특정 여정 경로에 들어갈 수 있는 **타기팅 규칙**.<br/><br/>의사 결정 규칙을 만들 때 **[!UICONTROL 데이터 세트 조회 활성화]**&#x200B;를 선택하여 Adobe Experience Platform 데이터를 사용할 수 있습니다. 이를 통해 동적 외부 속성을 기반으로 적격성 기준을 정의하여 관련이 있는 경우에만 결정 항목이 표시되도록 할 수 있습니다."
 
 ## 규칙 기본 정보 {#about}
 
@@ -133,4 +133,4 @@ ht-degree: 8%
 
 Adobe Journey Optimizer에서 재사용 가능한 **타깃팅 규칙**&#x200B;을(를) 만들고, 복제하고, 적용하여 지역, 언어 및 동작과 같은 고객 특성을 기반으로 캠페인을 효율적으로 개인화하여 시간을 절약하고 대상 정밀도를 향상시키는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476134/?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476127/?quality=12)

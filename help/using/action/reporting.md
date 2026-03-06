@@ -7,10 +7,11 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 97464b7afa07199792bd4311d0477b5bcb140d8e
+exl-id: 908f553a-6d2b-45e5-bdb2-eb685f5e1165
+source-git-commit: df7591e337ad11cd51ec1a1c06312823a27561a2
 workflow-type: tm+mt
 source-wordcount: '645'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -19,7 +20,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_custom_actions_monitor"
 >title="사용자 정의 액션 모니터링"
->abstract="**[!UICONTROL 사용자 지정 작업]** 보고 페이지를 사용하여 여정이 서드파티 시스템에 대해 수행하는 API 호출의 성능과 안정성을 추적할 수 있습니다."
+>abstract="**[!UICONTROL 사용자 정의 액션]** 보고 페이지를 통해 서드파티 시스템으로 여정을 수행하는 API 호출의 성과와 신뢰성을 추적할 수 있습니다."
 
 **[!UICONTROL 사용자 지정 작업]** 보고 페이지에서는 여정에서 서드파티 시스템으로 전송되는 API 호출의 안정성과 성능을 모니터링할 수 있습니다. 이러한 보고서를 통해 통합에 영향을 미칠 수 있는 문제, 지연 병목 현상 또는 제한/한도 제한을 신속하게 파악할 수 있습니다.
 
@@ -102,6 +103,6 @@ ht-degree: 2%
 
 +++비디오 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3479548?captions=kor&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3479541?quality=12&learn=on)
 
 +++

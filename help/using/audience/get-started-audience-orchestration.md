@@ -105,7 +105,7 @@ ht-degree: 50%
 
 대상 구성을 사용하면 **구성 워크플로**&#x200B;를 만들 수 있습니다. 이 워크플로우에서는 기존 Adobe Experience Platform 대상을 시각적 캔버스로 결합하고 다양한 활동(분할, 제외...)을 활용하여 새 대상을 만들 수 있습니다.
 
-완료되면 **결과 대상**&#x200B;이 기존 대상과 함께 Adobe Experience Platform에 다시 저장되며 Journey Optimizer 캠페인 및 여정에서 타겟 고객에게 활용될 수 있습니다. Journey Optimizer에서 대상을 타기팅하는 방법 알아보기
+완료되면 **결과 대상**이 기존 대상과 함께 Adobe Experience Platform에 다시 저장되며 Journey Optimizer 캠페인 및 여정에서 타겟 고객에게 활용될 수 있습니다. Journey Optimizer에서 대상을 타기팅하는 방법 알아보기
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]
@@ -146,7 +146,7 @@ ht-degree: 50%
 
    ![](assets/audiences-properties.png)
 
-1. **[!UICONTROL 대상]** 및 **[!UICONTROL 저장]** 활동 사이에 필요한 만큼 활동을 추가하여 구성을 구성합니다. 컴포지션을 만드는 방법에 대한 자세한 내용은 [대상 컴포지션 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/audience-composition)를 참조하세요.
+1. **[!UICONTROL 대상]** 및 **[!UICONTROL 저장]** 활동 사이에 필요한 만큼 활동을 추가하여 구성을 구성합니다. 컴포지션을 만드는 방법에 대한 자세한 내용은 [대상 컴포지션 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition)를 참조하세요.
 
    ![](assets/audiences-publish.png)
 
@@ -179,4 +179,4 @@ ht-degree: 50%
 
 >[!NOTE]
 >
->대상 구성은 현재 샌드박스 재설정 기능과 통합되지 않았습니다. 샌드박스 재설정을 시작하기 전에 관련 대상 데이터가 제대로 정리되도록 컴포지션을 수동으로 삭제해야 합니다. 자세한 내용은 Adobe Experience Platform [샌드박스 설명서](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ko#delete-audience-compositions)를 참조하세요.
+>대상 구성은 현재 샌드박스 재설정 기능과 통합되지 않았습니다. 샌드박스 재설정을 시작하기 전에 관련 대상 데이터가 제대로 정리되도록 컴포지션을 수동으로 삭제해야 합니다. 자세한 내용은 Adobe Experience Platform [샌드박스 설명서](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html#delete-audience-compositions)를 참조하세요.

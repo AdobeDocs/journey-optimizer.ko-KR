@@ -13,16 +13,16 @@ version: Journey Orchestration
 source-git-commit: 339285cbc82d5b30b221feb235ed8425a66f8802
 workflow-type: tm+mt
 source-wordcount: '937'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
-# [!DNL Adobe Campaign] 표준 작업 {#using_campaign_action}
+# [!DNL Adobe Campaign] Standard 액션 {#using_campaign_action}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_acs"
 >title="사용자 정의 액션"
->abstract="[!DNL Adobe Campaign] Standard가 있는 경우 통합을 사용할 수 있습니다. [!DNL Adobe Campaign] 트랜잭션 메시지 기능을 사용하여 이메일, 푸시 알림 및 SMS를 보낼 수 있습니다."
+>abstract="[!DNL Adobe Campaign] Standard가 있는 경우 통합 기능을 사용할 수 있습니다. [!DNL Adobe Campaign] 트랜잭션 메시지 기능을 사용하여 이메일, 푸시 알림, SMS를 전송할 수 있습니다."
 
 [!DNL Adobe Campaign] Standard를 사용하는 경우 다음과 같은 기본 제공 작업 활동을 사용할 수 있습니다. **[!UICONTROL 이메일]**, **[!UICONTROL 푸시]** 및 **[!UICONTROL SMS]**.
 
@@ -36,7 +36,7 @@ ht-degree: 2%
 >
 >Journey Optimizer에서 사용하려면 Campaign Standard 트랜잭션 메시지와 관련 이벤트를 게시해야 합니다. 이벤트가 게시되었지만 메시지는 게시되지 않은 경우 Journey Optimizer 인터페이스에 표시되지 않습니다. 메시지가 게시되었지만 연결된 이벤트가 게시되지 않은 경우 Journey Optimizer 인터페이스에 표시되지만 사용할 수 없습니다.
 
-여정![[!DNL Adobe Campaign]의 &#x200B;](assets/journey59.png) 표준 작업 구성
+여정![[!DNL Adobe Campaign]의 ](assets/journey59.png) 표준 작업 구성
 
 이벤트(실시간 이라고도 함) 또는 프로필 트랜잭션 메시지 템플릿을 사용할 수 있습니다.
 

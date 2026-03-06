@@ -12,7 +12,7 @@ exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: 36a9a4afb24f3c7909c57e983992de2bf12acd24
 workflow-type: tm+mt
 source-wordcount: '647'
-ht-degree: 18%
+ht-degree: 30%
 
 ---
 
@@ -68,12 +68,12 @@ ht-degree: 18%
 
 <!--1. You can also select an additional field to use as secondary email address. This allows you to determine which field to use if the primary field is empty for a profile. -->
 
-## 여정 매개 변수의 기본 실행 필드 재정의 {#override-execution-address-journey}
+## 여정 매개변수의 기본 실행 필드 재정의 {#override-execution-address-journey}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_execution_address"
 >title="사용자 정의 값 정의"
->abstract="경우에 따라 기본 실행 필드 값을 재정의할 수 있습니다. 이 필드 오른쪽에 있는 **매개 변수 재정의 사용** 아이콘을 사용하여 우선 순위를 지정할 사용자 지정 전자 메일 주소 또는 전화 번호를 정의하세요."
+>abstract="특정 경우에는 기본 실행 필드 값을 재정의할 수 있습니다. 이 필드 오른쪽에 있는 **매개변수 재정의 활성화** 아이콘을 사용하여 전송 우선순위를 지정할 사용자 정의 이메일 주소 또는 전화번호를 정의합니다."
 
 특정 사용 사례의 경우 전역적으로 설정된 실행 필드를 재정의하고 여정 수준에서 다른 값을 정의할 수 있습니다.
 
@@ -97,7 +97,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_execution_address"
 >title="사용할 기본 실행 주소 재정의"
->abstract="데이터베이스에서 여러 이메일 주소 또는 전화번호를 사용하는 경우(개인용, 업무용 등) 전송의 우선순위를 지정할 수 있는 항목을 선택할 수 있습니다. 기본 주소는 샌드박스 수준에서 정의되지만, 여기에서 이 특정 채널 구성에 대한 기본 설정을 재정의할 수 있습니다."
+>abstract="데이터베이스에서 여러 이메일 주소 또는 전화번호를 사용하는 경우(개인용, 업무용 등) 전송의 우선순위를 지정할 수 있는 항목을 선택할 수 있습니다. 기본 주소는 샌드박스 수준에서 정의되지만 여기서 이 특정 채널 구성에 대한 기본 설정을 재정의할 수 있습니다."
 
 특정 이메일, SMS 또는 WhatsApp [채널 구성](channel-surfaces.md)에 대한 기본 실행 주소를 변경할 수 있습니다.
 

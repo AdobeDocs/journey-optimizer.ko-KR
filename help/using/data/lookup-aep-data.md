@@ -14,7 +14,7 @@ exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
 source-git-commit: c5fe9a17bc0ddcffb1af63bf040a9c84d995fdba
 workflow-type: tm+mt
 source-wordcount: '917'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="lookup-aep-data"
 >title="조회를 위해 활성화"
->abstract="조회를 위해 데이터 세트를 활성화하면 Journey Optimizer 개인화, 의사 결정 및 여정 오케스트레이션 기능 내에서 해당 데이터를 활용할 수 있습니다."
+>abstract="조회를 위해 데이터 세트를 활성화하면 Journey Optimizer 개인화, 의사 결정 및 여정 오케스트레이션 기능 내에서 데이터를 활용할 수 있습니다."
 
 [!DNL Journey Optimizer]을(를) 사용하면 개인화, 의사 결정 및 여정 오케스트레이션 기능을 통해 [!DNL Adobe Experience Platform] 데이터의 데이터를 활용할 수 있습니다. 이렇게 하려면 조회 개인화에 필요한 레코드 기반 데이터 세트를 먼저 아래 설명된 대로 조회 서비스에 대해 활성화해야 합니다.
 

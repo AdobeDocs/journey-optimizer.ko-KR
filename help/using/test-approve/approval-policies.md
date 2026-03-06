@@ -8,7 +8,7 @@ exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
 source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
 workflow-type: tm+mt
 source-wordcount: '713'
-ht-degree: 10%
+ht-degree: 14%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->승인 정책을 만들려면 Adobe Experience Platform에서 시스템 또는 제품 관리자 권한이 있어야 합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/home)
+>승인 정책을 만들려면 Adobe Experience Platform에서 시스템 또는 제품 관리자 권한이 있어야 합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)
 
 승인 정책을 사용하면 관리자가 여정 및 캠페인에 대한 유효성 검사 프로세스를 설정할 수 있습니다. 이 시스템은 여정 또는 캠페인에 승인이 필요한지 여부를 결정하는 특정 조건을 간략하게 설명합니다. 이러한 정책은 복잡성에 따라 다를 수 있습니다. 모든 캠페인을 특정 사용자 또는 팀이 검토하도록 하거나, 캠페인을 만든 사람을 기준으로 기준을 설정할 수 있습니다.
 
@@ -41,8 +41,8 @@ ht-degree: 10%
 
 >[!CONTEXTUALHELP]
 >id="ajo_approval_policy_self_approval"
->title="자체 승인 차단"
->abstract="검토자로 지정된 사용자 그룹 또는 역할에 속하는 경우에도 사용자가 자신의 승인 요청을 승인하지 않도록 하려면 이 옵션을 활성화합니다."
+>title="셀프 승인 차단"
+>abstract="이 옵션을 활성화하면 사용자가 검토자로 지정된 사용자 그룹이나 역할에 속하더라도 자신의 승인 요청을 승인하지 못하게 할 수 있습니다."
 
 승인 정책을 만들려면 다음 단계를 수행합니다.
 

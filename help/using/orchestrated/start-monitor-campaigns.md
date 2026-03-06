@@ -9,7 +9,7 @@ version: Campaign Orchestration
 source-git-commit: 478bd6df8a82c9e37ec9319dedb27d99c021ee99
 workflow-type: tm+mt
 source-wordcount: '1141'
-ht-degree: 29%
+ht-degree: 31%
 
 ---
 
@@ -121,7 +121,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_logs"
 >title="로그 및 작업"
->abstract="**로그 및 작업** 화면에서 모든 사용자 작업을 기록하고 오류가 발생한 오케스트레이션된 캠페인 실행 기록을 제공합니다."
+>abstract="**로그 및 작업** 화면은 모든 사용자 액션과 발생한 오류를 기록하며 오케스트레이션된 캠페인 실행의 기록을 제공합니다."
 
 로그 및 작업 모니터링은 오케스트레이션된 캠페인을 분석하고 제대로 실행되고 있는지 확인하는 중요한 단계입니다. 캔버스 도구 모음의 테스트 및 라이브 모드 모두에서 사용할 수 있는 **[!UICONTROL 로그]** 단추에서 로그 및 작업에 액세스할 수 있습니다.
 
