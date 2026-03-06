@@ -1,46 +1,44 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 허용 목록
-description: 허용 목록 사용 방법 알아보기
+title: 허용 목록 설정
+description: 샌드박스 수준에서 신뢰할 수 있는 주소 및 도메인으로 이메일 전송을 제한하기 위해 Journey Optimizer에서 허용 목록을 설정하고 관리하는 방법을 알아봅니다.
 feature: Deliverability
-topic: Content Management
+topic: Deliverability
 role: Admin
-level: Experienced
-keywords: 허용 목록, 목록, 안전, 구성
+level: Intermediate
+keywords: 허용 목록, 안전 목록, 이메일, 전달성, 샌드박스, 도메인, 억제, 구성
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: e5a15a4f8bc81fb23e75edb9364f09ae6b7082ea
 workflow-type: tm+mt
-source-wordcount: '1182'
-ht-degree: 15%
+source-wordcount: '1312'
+ht-degree: 12%
 
 ---
 
 # 허용 목록 설정 {#allow-list}
 
-[샌드박스](../administration/sandboxes.md) 수준에서 특정 전송 안전 목록을 정의할 수 있습니다.
-
-이 허용 목록을 사용하면 특정 샌드박스에서 보내는 이메일을 수신하도록 승인된 유일한 수신자 또는 도메인이 될 개별 이메일 주소 또는 도메인을 지정할 수 있습니다.
+허용 목록은 [샌드박스](../administration/sandboxes.md) 수준에서 정의할 수 있는 전송 안전 목록입니다. 이메일 전송을 특정 주소 또는 도메인으로 제한하여 명시적으로 나열된 수신자만 특정 샌드박스에서 메시지를 수신할 수 있습니다.
 
 >[!CAUTION]
 >
 >이 기능은 이메일 채널에만 적용됩니다. 프로덕션 및 비프로덕션 샌드박스에서 사용할 수 있습니다.
 
-예를 들어 실수가 발생할 수 있는 비프로덕션 인스턴스에서 허용 목록을 사용하면 원치 않는 메시지를 실제 고객 주소로 전송할 위험이 없으므로 테스트 목적으로 안전한 환경을 제공합니다.
+우발적 전송이 발생할 수 있는 비프로덕션 샌드박스에서 허용 목록은 원치 않는 메시지가 실제 고객 주소에 도달하지 않도록 차단하여 테스트 목적으로 안전한 환경을 제공합니다.
 
-또한 허용 목록이 활성 상태이지만 비어 있는 경우 메일이 발송되지 않습니다. 따라서 중요한 문제가 발생하면 이 기능을 사용하여 문제를 해결할 때까지 [!DNL Journey Optimizer]에서 모든 발신 통신을 중지할 수 있습니다. [허용 목록 논리](#logic)에 대해 자세히 알아보세요.
+허용 목록이 활성 상태이지만 비어 있는 경우 이메일이 전송되지 않습니다. 이렇게 하면 긴급 브레이크가 유용합니다. 중요한 문제가 발생하면 빈 허용 목록을 활성화하여 문제가 해결될 때까지 [!DNL Journey Optimizer]에서 보내는 모든 통신을 중지할 수 있습니다. [허용 목록 논리](#logic)에 대해 자세히 알아보세요.
 
-또한 Journey Optimizer **Suppression REST API**&#x200B;를 활용하면 제외 및 허용 목록을 통해 보내는 메시지를 제어할 수 있습니다. [Suppression REST API 사용 방법 알아보기](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
+Journey Optimizer **제외 REST API**&#x200B;를 사용하여 제외 및 허용 목록을 통해 프로그래밍 방식으로 발신 메시지를 관리할 수도 있습니다. [Suppression REST API 사용 방법 알아보기](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
 
 ## 허용 목록 액세스 {#access-allowed-list}
 
 허용된 전자 메일 주소 및 도메인의 세부 목록에 액세스하려면 **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL 전자 메일 설정]**&#x200B;으로 이동한 다음 **[!UICONTROL 허용 목록]**&#x200B;을 선택하세요.
 
-![](assets/allow-list-access.png)
+![허용된 전자 메일 주소 및 도메인 목록을 표시하는 허용 목록 페이지](assets/allow-list-access.png)
 
 >[!CAUTION]
 >
->허용 목록을 보고 내보내고 관리할 수 있는 권한이 [여정 관리자](../administration/ootb-product-profiles.md#journey-administrator)(으)로 제한됩니다. [!DNL Journey Optimizer]이 섹션[에서 &#x200B;](../administration/permissions-overview.md) 사용자의 액세스 권한 관리에 대해 자세히 알아보세요.
+>허용 목록을 보고 내보내고 관리할 수 있는 권한이 [여정 관리자](../administration/ootb-product-profiles.md#journey-administrator)(으)로 제한됩니다. [!DNL Journey Optimizer]이 섹션[에서 ](../administration/permissions-overview.md) 사용자의 액세스 권한 관리에 대해 자세히 알아보세요.
 
 허용 목록을 CSV 파일로 내보내려면 **[!UICONTROL CSV 다운로드]** 단추를 선택합니다.
 
@@ -48,7 +46,7 @@ ht-degree: 15%
 
 전자 메일 주소 또는 도메인을 검색하고 **[!UICONTROL 주소 형식]**&#x200B;을(를) 필터링할 수 있습니다. 선택하면 목록 위에 표시된 필터를 지울 수 있습니다.
 
-![](assets/allowed-list-filtering-example.png)
+![주소 유형별로 필터링된 허용 목록](assets/allowed-list-filtering-example.png)
 
 ## 허용 목록 활성화 {#enable-allow-list}
 
@@ -58,11 +56,11 @@ ht-degree: 15%
 
 1. 토글 버튼을 선택합니다.
 
-   ![](assets/allow-list-edit.png)
+   ![허용 목록을 활성화하기 위한 전환 단추](assets/allow-list-edit.png)
 
 1. **[!UICONTROL 허용 목록 활성화]**&#x200B;를 선택합니다. 이제 허용 목록이 활성 상태입니다.
 
-   ![](assets/allow-list-enable.png)
+   ![허용 목록이 활성 상태인지 확인](assets/allow-list-enable.png)
 
    >[!NOTE]
    >
@@ -82,11 +80,11 @@ ht-degree: 15%
 
 1. 토글 버튼을 선택합니다.
 
-   ![](assets/allow-list-edit-active.png)
+   ![허용 목록을 비활성화하는 전환 단추](assets/allow-list-edit-active.png)
 
 1. **[!UICONTROL 허용 목록 비활성화]**&#x200B;를 선택합니다. 허용 목록이 더 이상 활성화되지 않습니다.
 
-   ![](assets/allow-list-deactivate.png)
+   ![허용 목록이 현재 비활성 상태임을 확인](assets/allow-list-deactivate.png)
 
    >[!NOTE]
    >
@@ -124,7 +122,7 @@ ht-degree: 15%
 
 1. **[!UICONTROL 전자 메일 또는 도메인 추가]** 단추를 선택하세요.
 
-   ![](assets/allowed-list-add-email.png)
+   ![허용 목록 페이지에서 전자 메일 또는 도메인 추가 단추](assets/allowed-list-add-email.png)
 
 1. 주소 유형을 선택합니다. **[!UICONTROL 이메일 주소]** 또는 **[!UICONTROL 도메인 주소]**.
 
@@ -136,7 +134,7 @@ ht-degree: 15%
 
 1. 필요한 경우 이유를 지정합니다.
 
-   ![](assets/allowed-list-add-email-address.png)
+   ![허용 목록에 전자 메일 주소 또는 도메인을 추가하는 양식과 선택적 이유 필드](assets/allowed-list-add-email-address.png)
 
    >[!NOTE]
    >
@@ -148,11 +146,11 @@ ht-degree: 15%
 
 허용 목록을 채우려면 `ALLOWED` 특성에 대한 `listType` 값으로 비표시 API를 호출할 수도 있습니다. 예:
 
-![](assets/allow-list-api.png)
+![비표시 API를 사용하여 허용 목록에 항목을 추가하는 API 호출 예](assets/allow-list-api.png)
 
 **추가**, **삭제** 및 **가져오기** 작업을 수행할 수 있습니다.
 
-[Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=ko){target="_blank"} 참조 설명서에서 API 호출에 대해 자세히 알아보세요.
+[Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target="_blank"} 참조 설명서에서 API 호출에 대해 자세히 알아보세요.
 
 ## 허용 목록 다운로드 {#download-allowed-list}
 
@@ -160,11 +158,11 @@ ht-degree: 15%
 
 1. **[!UICONTROL CSV 다운로드]** 단추를 선택합니다.
 
-   ![](assets/allowed-list-download-csv.png)
+   ![허용 목록 페이지의 CSV 다운로드 단추](assets/allowed-list-download-csv.png)
 
 1. 파일이 생성될 때까지 기다립니다.
 
-   ![](assets/allowed-list-download-generate.png)
+   ![CSV 파일이 생성되고 있음을 나타내는 알림](assets/allowed-list-download-generate.png)
 
    >[!NOTE]
    >
@@ -176,7 +174,7 @@ ht-degree: 15%
 
 1. 알림 자체를 클릭하여 파일을 다운로드합니다.
 
-   ![](assets/allowed-list-download-notification.png)
+   ![생성된 CSV 파일에 대한 다운로드 링크가 있는 알림](assets/allowed-list-download-notification.png)
 
    >[!NOTE]
    >
@@ -207,7 +205,7 @@ ht-degree: 15%
 
 ## 제외 보고 {#reporting}
 
-허용 목록이 활성화되면 허용 목록에 있지 않아 전송에서 제외된 이메일 주소 또는 도메인을 검색할 수 있습니다. 이렇게 하려면 [Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ko){target="_blank"}를 사용하여 아래 API를 호출할 수 있습니다.
+허용 목록이 활성화되면 허용 목록에 있지 않아 전송에서 제외된 이메일 주소 또는 도메인을 검색할 수 있습니다. 이렇게 하려면 [Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}를 사용하여 아래 API를 호출할 수 있습니다.
 
 수신자가 허용 목록에 없어서 전송되지 않은 **이메일 개수**&#x200B;를 가져오려면 다음 쿼리를 사용하십시오.
 
