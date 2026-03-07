@@ -298,4 +298,4 @@ ht-degree: 12%
 
 채널 구성의 정의와 Adobe Journey Optimizer에서 이를 사용하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3433124/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3480458/?captions=kor&learn=on)
