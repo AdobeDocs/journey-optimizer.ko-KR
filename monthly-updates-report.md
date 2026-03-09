@@ -6,9 +6,9 @@ description: 새 설명서 페이지 및 업데이트된 설명서 페이지 목
 hide: true
 hidefromtoc: true
 exl-id: 7962189b-4135-4f88-b91d-40d21cdf6c6d
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: 13ac469c33d2a580ba499bb463ac9fc63bef733c
 workflow-type: tm+mt
-source-wordcount: '1293'
+source-wordcount: '1292'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,7 @@ ht-degree: 0%
 - [의사 결정 항목 컬렉션 만들기 및 관리](help/using/experience-decisioning/collections.md) - 11월 7일
 - [컨텍스트 데이터](help/using/experience-decisioning/context-data.md) - 11월 7일
 - [의사 결정 정책 시작](help/using/experience-decisioning/create-decision.md) - 11월 7일
-- [Experience Decisioning 시작하기](help/using/experience-decisioning/gs-experience-decisioning.md) - 11월 7일
+- [의사 결정 시작](help/using/experience-decisioning/gs-experience-decisioning.md) - 11월 7일
 - [결정 항목](help/using/experience-decisioning/items.md) - 11월 7일
 - [의사 결정 순위 메서드](help/using/experience-decisioning/ranking/ranking.md) - 11월 7일
 - [규칙 작성](help/using/experience-decisioning/rules.md) - 11월 7일

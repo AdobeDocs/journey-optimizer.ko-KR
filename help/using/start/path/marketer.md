@@ -7,10 +7,10 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: fd10a600cb54b8c35e2d195be7379b0dd120b6a7
+source-git-commit: 13ac469c33d2a580ba499bb463ac9fc63bef733c
 workflow-type: tm+mt
-source-wordcount: '1591'
-ht-degree: 89%
+source-wordcount: '1590'
+ht-degree: 88%
 
 ---
 
@@ -43,7 +43,7 @@ Journey Optimizer는 두 가지 강력한 오케스트레이션 접근 방식을
 
    ![](../assets/perso_ee2.png)
 
-1. **오퍼 및 의사 결정 추가**. AI 기반 의사 결정을 사용하여 각 고객에게 적시에 최상의 오퍼를 제공합니다. Decisioning을 사용하여 푸시, SMS 및 기타 채널을 개인화합니다. [의사 결정 관리](../../offers/get-started/starting-offer-decisioning.md) 및 [경험 결정](../../experience-decisioning/gs-experience-decisioning.md)에 대해 알아봅니다.
+1. **오퍼 및 의사 결정 추가**. AI 기반 의사 결정을 사용하여 각 고객에게 적시에 최상의 오퍼를 제공합니다. Decisioning을 사용하여 푸시, SMS 및 기타 채널을 개인화합니다. [의사 결정 관리](../../offers/get-started/starting-offer-decisioning.md) 및 [의사 결정](../../experience-decisioning/gs-experience-decisioning.md)에 대해 알아봅니다.
 
    ![](../assets/offers-e2e-offers-displayed.png)
 
