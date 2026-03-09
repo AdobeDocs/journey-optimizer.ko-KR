@@ -6,9 +6,10 @@ role: User
 level: Intermediate
 version: Journey Orchestration
 badge: label="제한 공개" type="Informative"
-source-git-commit: fe6e8221201ee813251a46c6603d85f0803873c0
+exl-id: b172e0e1-b78e-4d96-ab88-254507b55f48
+source-git-commit: afc09bbcb76d53404574bb53c0a896109cd7f1da
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1089'
 ht-degree: 2%
 
 ---
@@ -50,7 +51,7 @@ ht-degree: 2%
    <!--
     Selecting a formula entity specifies which type of item—such as journeys or other entities—the ranking formula will apply to. This determines the context in which the formula operates, allowing you to define rules that influence how those items are ranked.-->
 
-1. 선택적으로 **[!UICONTROL AI 모델 선택]**&#x200B;을 클릭하여 순위 공식을 만드는 데 참조로 사용할 모델을 설정합니다.
+1. 선택적으로 **[!UICONTROL AI 모델 선택]**&#x200B;을 클릭하여 순위 공식을 만드는 데 참조로 사용할 모델을 설정합니다. [자세히 알아보기](journey-ai-models.md)
 
 <!--
     >[!NOTE]
@@ -194,4 +195,3 @@ Reporting for journey arbitration helps you understand how rule sets and ranking
 * **Cross-journey view** – Time-based view of profiles across journeys (e.g. journey enters, failures, exclusions) to see the impact of capping and ranking.
 
 Use these reports to validate that your formulas and caps are behaving as intended and to tune ranking logic over time.-->
-
