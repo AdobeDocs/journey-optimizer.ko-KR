@@ -9,9 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 하위 도메인, 위임, 마이그레이션, CNAME, 사용자 정의 위임
 badge: label="제한된 가용성" type="Informative"
-source-git-commit: 3148a105551b920c4402c7b3c093aca1bb012061
+exl-id: f74139cf-640f-4b7b-a0b1-6eae9c75e7e4
+source-git-commit: 47c04f6243057ac20fd28a228e4fefb760d7fe26
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1251'
 ht-degree: 5%
 
 ---
@@ -29,7 +30,7 @@ ht-degree: 5%
 * 호스팅 솔루션에서 [기존 DNS 레코드 삭제](#delete-dns)
 * 인증 기관에서 가져온 [SSL 인증서 업로드](#upload-ssl-certificate)
 * 도메인 소유권 및 보고 전자 메일 주소를 확인하여 [피드백 루프 단계](#feedback-loop)를 완료하십시오.
-* [Adobe에서 생성한 SSL CDN URL 유효성 검사 레코드를 호스팅 플랫폼에 복사](#copy-ssl-cdn-url-record)합니다.
+* Adobe에서 호스팅 플랫폼으로 생성한 [새 DNS 레코드 집합 만들기](#create-dns-records)
 
 하위 도메인을 마이그레이션하려면 아래 단계를 따르십시오.
 
@@ -43,6 +44,11 @@ ht-degree: 5%
 
 * 조직에 대해 **사용자 지정 위임 메서드가 활성화되어 있는지**&#x200B;확인합니다(이 기능은 현재 제한된 가용성의 상태입니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오). [자세히 알아보기](delegate-custom-subdomain.md)
 * 이 하위 도메인을 사용하는 활성 채널 구성이 없는지 확인합니다. 마이그레이션 프로세스는 해당 기능을 중단합니다.
+
+  >[!NOTE]
+  >
+  >마이그레이션을 시작하기 전에 채널 구성을 비활성화하면 마이그레이션 작업 과정이 완료된 후 다시 활성 상태로 변경할 수 있습니다.
+
 * 이 하위 여정에 연결된 채널 구성을 사용하면 게재 중단이 발생할 수 있으므로 활성 캠페인이나 도메인이 없는지 확인합니다.
 * 마이그레이션 흐름에 들어가는 즉시 다운타임이 시작됩니다. 하위 도메인이 프로세스 중에 **[!UICONTROL 초안]**(으)로 이동하며 설정이 완료될 때까지 사용할 수 없습니다.
 * 따라서 SSL 인증서를 준비하고 가동 중단을 줄이기 위해 **마이그레이션 프로세스를 시작하기 전에 마이그레이션 전 단계를 수행**&#x200B;하는 것이 좋습니다. [자세히 알아보기](#start-migration)
@@ -99,7 +105,7 @@ ht-degree: 5%
 
    * 그러나 이 인증서는 단일 인증서 내에서 SAN(주체 대체 이름) 항목으로 data.subdomain.com 및 cdn.subdomain.com 를 모두 포함해야 합니다. 예를 들어, example.adobe.com을 위임하는 경우 data.subdomain.com은 data.example.adobe.com에 해당하고 cdn.subdomain.com은 cdn.example.adobe.com에 해당합니다.
 
-   * 데이터(data.example.adobe.com)와 CDN(cdn.example.adobe.com) 하위 도메인은 동일한 인증서의 피어 항목으로 추가해야 합니다.
+   * 데이터(data.example.adobe.com)와 CDN(cdn.example.adobe.com) 하위 도메인은 동일한 인증서의 피어 항목으로 추가해야 합니다. 이 인증서에는 추가 하위 도메인을 추가해서는 안 됩니다.
 
    * 대부분의 CA를 사용하면 서명 프로세스 중에 CDN 하위 도메인과 같은 SAN을 추가할 수 있습니다
 
@@ -159,13 +165,39 @@ ht-degree: 5%
 
 이 프로세스는 새 사용자 정의 하위 도메인을 설정할 때와 동일합니다. [사용자 지정 하위 도메인 설정](delegate-custom-subdomain.md#feedback-loop-steps) 페이지에 설명된 단계를 따릅니다.
 
-## SSL CDN URL 유효성 검사 레코드 복사 {#copy-ssl-cdn-url-record}
 
-마이그레이션 프로세스를 완료하려면 Adobe에서 생성한 SSL CDN URL 유효성 검사 레코드를 호스팅 플랫폼에 복사합니다. 이 프로세스는 새 사용자 정의 하위 도메인을 설정할 때와 동일합니다. [사용자 지정 하위 도메인 설정](delegate-custom-subdomain.md#copy-ssl-cdn-url-record) 페이지에 설명된 단계를 따릅니다.
+## 새 DNS 레코드 집합 만들기 {#create-dns-records}
+
+마이그레이션 프로세스를 완료하려면 호스팅 플랫폼에서 Adobe이 생성한 새 DNS 레코드 집합을 만드십시오.
+
+1. 피드백 루프 단계를 완료한 후 화면 오른쪽 상단의 **[!UICONTROL 계속]** 단추를 클릭합니다.
+
+   이 단계에서는 이전 레코드가 삭제되고 SSL 인증서가 올바르게 업로드되었는지 확인합니다. 오류가 발생하면 [문제 해결 검사 목록](#troubleshooting)을 참조하세요.
+
+1. 모든 유효성 검사가 성공하면 **[!UICONTROL 만들 레코드]** 섹션이 표시됩니다.
+
+   ![](assets/subdomain-migrate-records-to-create.png){width="75%"}
+
+1. 호스팅 플랫폼에서 모든 필수 레코드를 만듭니다.
+
+1. 모든 레코드가 만들어지면 **[!UICONTROL 제출]**&#x200B;을 클릭합니다.
+
+   >[!NOTE]
+   >
+   >나열된 모든 레코드가 생성되지 않으면 오류가 표시됩니다. 모든 필수 레코드를 만들어야 합니다.
 
 제출 후 Adobe에서 필요한 검사를 수행할 때까지 기다려야 하며 최대 3시간이 걸릴 수 있습니다. [자세히 알아보기](delegate-subdomain.md#submit-subdomain)
 
 하위 도메인이 다시 활성화되면 해당 도메인을 사용하는 기존 채널 구성을 변경할 필요가 없습니다. 이전처럼 계속 작동합니다.
+
+## 문제 해결 체크리스트 {#troubleshooting}
+
+사용자 지정 하위 도메인을 제출하려는 동안 오류가 발생하면 아래 나열된 문제 해결 작업을 수행하십시오.
+
+* _리소스를 확인할 수 없습니다. DNS가 아직 있으므로 삭제해야 합니다._ — 호스팅 솔루션에서 모든 레코드를 삭제해야 합니다. [방법 알아보기](#delete-dns)
+* _리소스를 확인할 수 없습니다. SSL 인증서를 업로드하고 다시 시도하십시오._ — SSL 인증서가 업로드되지 않았습니다. 업로드해야 합니다. [방법 알아보기](#upload-ssl-certificate)
+* _인증서의 SAN(주체 대체 이름)에 예기치 않은 도메인이 있습니다._ — 올바른 SSL 인증서를 업로드해야 합니다. [방법 알아보기](#upload-ssl-certificate)
+* _인증서에 SAN(주체 대체 이름)에 필요한 다음 도메인이 없습니다._ — 올바른 SSL 인증서를 업로드해야 합니다. [방법 알아보기](#upload-ssl-certificate)
 
 **참조**
 
