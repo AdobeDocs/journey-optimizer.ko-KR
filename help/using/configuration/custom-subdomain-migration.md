@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 하위 도메인, 위임, 마이그레이션, CNAME, 사용자 정의 위임
 badge: label="제한된 가용성" type="Informative"
 exl-id: f74139cf-640f-4b7b-a0b1-6eae9c75e7e4
-source-git-commit: 47c04f6243057ac20fd28a228e4fefb760d7fe26
+source-git-commit: 71a047d0c113202e6e1dd4f0730328e32800830d
 workflow-type: tm+mt
 source-wordcount: '1251'
 ht-degree: 5%
@@ -176,7 +176,7 @@ ht-degree: 5%
 
 1. 모든 유효성 검사가 성공하면 **[!UICONTROL 만들 레코드]** 섹션이 표시됩니다.
 
-   ![](assets/subdomain-migrate-records-to-create.png){width="75%"}
+   ![](assets/subdomain-migrate-records-to-create.png){width="100%"}
 
 1. 호스팅 플랫폼에서 모든 필수 레코드를 만듭니다.
 
