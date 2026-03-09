@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: 링크, 추적, 모니터링, 이메일
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 60907756a261c1f672944eccefbfe2ee90d0d017
+source-git-commit: 170bdaaa13fe78ad4c47a6e091c8090156fde8f6
 workflow-type: tm+mt
 source-wordcount: '1370'
 ht-degree: 24%
@@ -67,7 +67,7 @@ ht-degree: 24%
 
    * 외부 URL에 대한 링크를 삽입하려면 **[!UICONTROL 외부 링크]**&#x200B;를 선택하십시오.
 
-   * **[!UICONTROL 랜딩 페이지]**&#x200B;를 선택하여 랜딩 페이지에 링크를 삽입합니다. [자세히 알아보기](../landing-pages/get-started-lp.md)
+   * **[!UICONTROL 랜딩 페이지]**&#x200B;를 선택하여 랜딩 페이지에 링크를 삽입합니다. [자세히 알아보기](../landing-pages/create-lp.md)
 
    * **[!UICONTROL 한 번의 클릭으로 옵트아웃]**&#x200B;을 선택하여 사용자가 옵트아웃을 확인할 필요 없이 커뮤니케이션에서 빠르게 구독을 취소할 수 있는 링크를 삽입합니다. [자세히 알아보기](email-opt-out.md#one-click-opt-out).
 

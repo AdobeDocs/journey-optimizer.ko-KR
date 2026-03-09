@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 74102069afa519898149de33f890568950571f26
+source-git-commit: 170bdaaa13fe78ad4c47a6e091c8090156fde8f6
 workflow-type: tm+mt
-source-wordcount: '3136'
+source-wordcount: '3134'
 ht-degree: 96%
 
 ---
@@ -356,7 +356,7 @@ ht-degree: 96%
          + [웹 채널 전제 조건](using/web/web-prerequisites.md)
          + [웹 하위 도메인 구성](using/web/web-delegated-subdomains.md)
          + [웹 채널 구성 만들기](using/web/web-configuration.md)
-      + [웹 경험 만들기 &#x200B;](using/web/create-web.md)
+      + [웹 경험 만들기 ](using/web/create-web.md)
       + 웹 페이지 작성 {#author-web-pages}
          + [웹 페이지 작성](/help/rp_landing_pages/author-web-pages-landing-page.md)
          + [웹 디자이너를 사용하여 작업](using/web/web-visual-editor.md)
@@ -410,7 +410,7 @@ ht-degree: 96%
          + [Journey Optimizer에서 라이브 활동 구성](using/mobile-live/mobile-live-configuration.md)
          + [라이브 활동 SDK 통합 구성](using/mobile-live/mobile-live-configuration-sdk.md)
 + 콘텐츠 관리 {#content-management}
-   + [콘텐츠 관리 &#x200B;](/help/rp_landing_pages/content-management-landing-page.md)
+   + [콘텐츠 관리 ](/help/rp_landing_pages/content-management-landing-page.md)
    + 개인화 {#personalization}
       + [개인화](/help/rp_landing_pages/personalization-landing-page.md)
       + [개인화 시작](using/personalization/personalize.md)
@@ -439,7 +439,6 @@ ht-degree: 96%
          + [장바구니 포기 이메일](using/personalization/personalization-use-case-helper-functions.md)
          + [건강 계획 처방 이메일](using/personalization/perso-uc-plan-prescriptions.md)
    + 랜딩 페이지 {#landing-pages}
-      + [랜딩 페이지](/help/rp_landing_pages/landing-pages-landing-page.md)
       + [랜딩 페이지 시작](using/landing-pages/get-started-lp.md)
       + [랜딩 페이지 만들기](using/landing-pages/create-lp.md)
       + [랜딩 페이지 관리](using/landing-pages/manage-lp.md)
