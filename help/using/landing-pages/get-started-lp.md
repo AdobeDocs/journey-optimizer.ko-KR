@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 랜딩, 랜딩 페이지, 시작, 시작하기
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
-source-git-commit: 170bdaaa13fe78ad4c47a6e091c8090156fde8f6
+source-git-commit: 2240a4bf85d3f5f41a12d128afdc15431dbab75b
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 22%
@@ -23,6 +23,15 @@ ht-degree: 22%
 [!DNL Journey Optimizer]을(를) 사용하면 랜딩 페이지를 만들고 디자인하여 사용자가 커뮤니케이션 또는 뉴스레터와 같은 특정 서비스 수신을 옵트인하거나 옵트아웃할 수 있는 온라인 양식으로 사용자를 보낼 수 있습니다.
 
 ➡️ [이 비디오에서 구독을 구성하고 랜딩 페이지를 만드는 자세한 방법을 알아보십시오.](#video)
+
+## 랜딩 페이지 사용 시기 {#when-to-use}
+
+다음과 같은 작업을 수행할 때 랜딩 페이지를 사용합니다.
+
+* 타겟팅된 서비스에 대한 구독 목록을 포함하여 이메일 또는 캠페인의 링크에서 고객이 마케팅 커뮤니케이션 또는 특정 서비스나 뉴스레터를 **옵트인 또는 옵트 아웃**&#x200B;하도록 합니다. [자세히 보기](lp-use-cases.md#subscription-to-a-service)
+* 메시지를 보내기 전에 **동의를 수집**&#x200B;하고 옵트인 또는 옵트아웃 시 **확인 전자 메일**&#x200B;을 보냅니다. [자세히 보기](lp-use-cases.md#send-confirmation-email)
+* **외부에서 외부 페이지를 만들지 않고**&#x200B;전용 웹 폼[!DNL Journey Optimizer]&#x200B;(으)로 사용자 리디렉션
+* **의 콘텐츠 디자인 기능을 사용하여**&#x200B;응답형 랜딩 페이지[!DNL Journey Optimizer]를 빌드합니다.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -61,15 +70,6 @@ ht-degree: 22%
 </td>
 </tr></table>
 
-## 랜딩 페이지 사용 시기 {#when-to-use}
-
-다음과 같은 작업을 수행할 때 랜딩 페이지를 사용합니다.
-
-* 타겟팅된 서비스에 대한 구독 목록을 포함하여 이메일 또는 캠페인의 링크에서 고객이 마케팅 커뮤니케이션 또는 특정 서비스나 뉴스레터를 **옵트인 또는 옵트 아웃**&#x200B;하도록 합니다. [자세히 보기](lp-use-cases.md#subscription-to-a-service)
-* 메시지를 보내기 전에 **동의를 수집**&#x200B;하고 옵트인 또는 옵트아웃 시 **확인 전자 메일**&#x200B;을 보냅니다. [자세히 보기](lp-use-cases.md#send-confirmation-email)
-* **외부에서 외부 페이지를 만들지 않고**&#x200B;전용 웹 폼[!DNL Journey Optimizer]&#x200B;(으)로 사용자 리디렉션
-* **의 콘텐츠 디자인 기능을 사용하여**&#x200B;응답형 랜딩 페이지[!DNL Journey Optimizer]를 빌드합니다.
-
 ## 시작하기 전에 {#prerequisites}
 
 랜딩 페이지를 만들기 전에 다음 설정 단계를 완료하십시오.
@@ -91,4 +91,4 @@ ht-degree: 22%
 
 아래 비디오에서는 구독 목록을 만들고, 서비스를 옵트인 또는 옵트아웃하도록 랜딩 페이지를 설정하고, 옵트인/옵트아웃 옵션을 메시지에 통합하고, 관련 여정을 구성하는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/344401?captions=kor&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)

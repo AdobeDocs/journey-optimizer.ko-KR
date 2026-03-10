@@ -9,24 +9,30 @@ role: User
 level: Intermediate, Experienced
 keywords: 코드, HTML, 편집기
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
-source-git-commit: 48b3ef3d2e041ea49d1b0c91cc72ea04237a5e33
+source-git-commit: 2240a4bf85d3f5f41a12d128afdc15431dbab75b
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 34%
+source-wordcount: '491'
+ht-degree: 23%
 
 ---
 
 # 나만의 콘텐츠 코딩 {#code-content}
 
-**[!UICONTROL 직접 코딩]** 모드를 사용하면 원시 HTML을 가져오거나 이메일 콘텐츠를 코딩할 수 있습니다. 이 방법에는 HTML 기술이 필요합니다.
+**[!UICONTROL 직접 코드 작성]**&#x200B;을 통해 원시 HTML을 작성하거나 붙여 넣어 [!DNL Journey Optimizer] 전자 메일 Designer에서 직접 전자 메일 콘텐츠를 작성할 수 있습니다. 마크업을 완전히 제어해야 하거나 기존 HTML을 가져올 때 이 모드를 사용합니다.
+
+HTML 스킬이 있어야 하며, 이 모드를 선택하면 코드 편집기에 계속 남아 있으므로 비주얼 편집기로 전환할 수 없습니다.
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
 
->[!CAUTION]
+>[!NOTE]
 >
-> 이 메서드를 사용할 때는 [Adobe Experience Manager Assets](../integrations/assets.md)의 이미지를 참조할 수 없습니다. HTML 코드에서 참조하는 이미지는 공개 위치에 저장해야 합니다.
+>**[!UICONTROL 직접 코드]**&#x200B;은(는) 콘텐츠 템플릿의 고급 HTML 편집기와 다릅니다. 고급 HTML 편집기를 사용하면 코드 편집기가 아니라 언제든지 HTML 보기와 시각적(데스크톱) 보기 사이를 전환할 수 있습니다. [고급 HTML 편집기에 대해 자세히 알아보세요](../content-management/email-template-expert-mode.md).
 
-1. 이메일 Designer 홈 페이지에서 **[!UICONTROL 직접 코드 작성]**&#x200B;을 선택합니다.
+## 코드 편집기 사용 {#use-code-editor}
+
+코드 편집기를 사용하여 전자 메일 콘텐츠를 만들거나 편집하려면 다음 단계를 따르십시오.
+
+1. [전자 메일 Designer](get-started-email-design.md) 홈 페이지에서 **[!UICONTROL 직접 코드 작성]**&#x200B;을 선택합니다.
 
    ![](assets/code-your-own.png)
 
@@ -56,6 +62,10 @@ ht-degree: 34%
 
    ![](assets/code-editor-save.png)
 
+>[!CAUTION]
+>
+>Code your own 메서드를 사용할 때는 [Adobe Experience Manager Assets](../integrations/assets.md)의 이미지를 참조할 수 없습니다. HTML 코드에서 참조한 이미지를 공개 위치에 저장합니다.
+
 ## 날짜 및 시간 함수 제한 사항 {#date-time-limitations}
 
 이메일 Designer 코드 편집기에서 개인화를 사용하는 경우 동적 날짜 계산에 `now()` 함수를 사용할 수 없습니다.
@@ -84,10 +94,10 @@ ht-degree: 34%
 
   예: `{%= profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate %}`
 
-* **날짜 조작 함수 사용** - 프로필 특성의 날짜 값과 함께 [&#x200B; 또는 &#x200B;](../personalization/functions/dates.md)과(와) 같은 `dayOfYear()`날짜/시간 함수 사용`diffInDays()`을(를) 사용합니다.
+* **날짜 조작 함수 사용** - 프로필 특성의 날짜 값과 함께 [ 또는 ](../personalization/functions/dates.md)과(와) 같은 `dayOfYear()`날짜/시간 함수 사용`diffInDays()`을(를) 사용합니다.
 
   예: `{%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/dd/YY") %}`
 
 * **계산된 특성 사용** - 복잡한 날짜 계산을 수행하는 [계산된 특성 만들기](../audience/computed-attributes.md)를 통해 결과를 프로필 특성으로 사용할 수 있습니다.
 
-개인화의 [날짜 시간 함수](../personalization/functions/dates.md)에 대해 자세히 알아보세요.
+지원되는 함수의 전체 목록은 [날짜 및 시간 함수](../personalization/functions/dates.md)를 참조하십시오.

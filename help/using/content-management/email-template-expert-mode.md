@@ -10,10 +10,10 @@ hidefromtoc: true
 hide: true
 level: Experienced
 exl-id: 0c586565-0c65-435f-986d-cd08b59de159
-source-git-commit: 9d3dd2f0a9ae5200dd3ed332420bbb08e8e9f498
+source-git-commit: 2240a4bf85d3f5f41a12d128afdc15431dbab75b
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 5%
+source-wordcount: '539'
+ht-degree: 7%
 
 ---
 
@@ -33,39 +33,43 @@ ht-degree: 5%
 
 ## 가드레일 {#guardrails}
 
-고급 HTML 편집기를 사용하는 경우 콘텐츠 호환성을 보호하고 기대치를 설정하기 위해 다음과 같은 보호 기능이 적용됩니다.
+고급 HTML 편집기를 사용하는 경우 다음 가드레일은 콘텐츠 호환성을 보호하고 기대를 설정합니다.
 
-* 현재 고급 HTML 편집기에 **유효성 검사 프로세스 없음**&#x200B;이 있습니다. 구문 오류 및 끊어진 레이아웃은 확인되지 않습니다. 저장하기 전에 콘텐츠를 주의 깊게 검토해야 합니다.
+* 고급 HTML 편집기 **이(가) 코드를 확인**&#x200B;하지 않습니다. 구문 오류나 끊어진 레이아웃은 확인하지 않습니다. 저장하기 전에 콘텐츠를 주의 깊게 검토하십시오.
 
-* 향후 시스템 업데이트로 인해 기본 마크업에 대한 변경 사항이 취소될 수 있습니다. **변경 내용을 덮어쓸 수 있습니다**.
+* 향후 시스템 업데이트로 기본 마크업에 대한 변경 사항을 덮어쓸 수 있습니다. **변경 내용이 유지되지 않을 수 있습니다**.
 
-* 사용자 지정 코드 및 수동 변경 **으로 인해 발생한 문제는 해결**&#x200B;하거나 [!DNL Adobe] 지원 팀에서 해결할 수 없습니다. 이전 버전으로 복구해야 하는 경우에 대비하여 콘텐츠를 백업해야 합니다.
+* [!DNL Adobe] 지원 팀 **이(가) 사용자 지정 코드 및 수동 변경으로 인해 발생한** 문제를 해결하거나 해결할 수 없습니다. 되돌리기가 필요할 경우를 대비하여 콘텐츠를 백업하십시오.
 
-* 콘텐츠 호환성을 위해 고급 HTML 보기에서 **저장을 사용할 수 없습니다**. 변경 사항을 저장할 준비가 되면 다시 데스크탑 보기로 전환해야 합니다.
+* 고급 HTML 보기에서는 콘텐츠를 시뮬레이션할 수 없습니다. 콘텐츠를 미리 보려면 데스크톱 보기로 전환하십시오.
+
+* 콘텐츠 호환성을 위해 고급 HTML 보기에서 **저장할 수 없습니다**. 변경 내용을 저장할 준비가 되면 다시 데스크톱 보기로 전환합니다.
 
 >[!WARNING]
 >
 >콘텐츠 템플릿의 고급 HTML 편집기가 이메일 Designer의 **[!UICONTROL 직접 코드 작성]** 모드와 다릅니다. [!UICONTROL 나만의 코드 작성] 모드에서는 비주얼 편집기로 다시 전환할 수 없습니다. 해당 경로를 선택하면 코드 전용 편집이 유지됩니다. 반대로 고급 HTML 편집기를 사용하면 언제든지 HTML 보기와 데스크탑(시각적) 보기 간을 전환할 수 있습니다. [코드 편집기에 대해 자세히 알아보기](../email/code-content.md)
 
-## 고급 HTML 보기로 전환 {#switch-to-desktop-view}
+## 고급 HTML 보기로 전환 {#switch-to-html-view}
+
+고급 HTML 편집기를 열고 템플릿 소스를 편집하려면 다음 단계를 따르십시오.
 
 1. 콘텐츠를 편집하려면 [이메일 템플릿](../content-management/create-content-templates.md)을(를) 열거나 만들고 [이메일 Designer](../email/get-started-email-design.md)을(를) 여십시오.
 
 1. 화면 오른쪽 상단의 **[!UICONTROL HTML]** 단추를 클릭합니다.
 
-   ![](assets/email-template-expert-mode-button.png)
+   ![전자 메일 Designer 도구 모음의 HTML 단추 위치](assets/email-template-expert-mode-button.png)
 
 1. 고급 HTML 편집기를 처음 열면 경고 메시지가 표시됩니다. 자세히 검토하고 **[!UICONTROL 확인]**&#x200B;을 클릭하여 계속하십시오. [자세히 알아보기](#guardrails)
+
+   ![고급 HTML 편집기를 처음 열 때 경고 대화 상자](assets/email-template-expert-mode-warning.png){zoomable="yes"}
 
    >[!NOTE]
    >
    >이 경고는 고급 HTML 편집기를 처음 열 때만 나타나며 매월 재설정됩니다.
 
-   ![](assets/email-template-expert-mode-warning.png){zoomable="yes"}
-
 1. 고급 HTML 편집기가 표시됩니다.
 
-   ![](assets/email-template-expert-mode.png)
+   ![전자 메일 템플릿 소스 코드를 표시하는 고급 HTML 편집기 인터페이스](assets/email-template-expert-mode.png)
 
 1. 이메일 콘텐츠에 원하는 변경 사항을 추가합니다.
 
@@ -75,12 +79,18 @@ ht-degree: 5%
 
 1. 호환성의 이유로 고급 HTML 보기에서는 콘텐츠 시뮬레이션 및 저장을 사용할 수 없습니다. 데스크탑 보기로 다시 전환하여 콘텐츠를 미리 보고 변경 사항을 저장합니다.
 
-   ![](assets/email-template-expert-mode-save.png){zoomable="yes"}
+   ![변경 내용을 저장하려면 데스크톱 보기로 다시 전환](assets/email-template-expert-mode-save.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   ><!--Content can only be saved in Desktop view for content compatibility reasons. -->보기를 전환하면 편집 내용이 유지됩니다.
-<!--
-1. Content simulation is not available in advanced HTML view. To preview your content, switch to Desktop view.
+   >보기를 전환하면 편집 내용이 유지됩니다.
 
+<!--
     ![](assets/email-template-expert-mode-simulate.png){zoomable="yes"}-->
+
+## 관련 항목
+
+* [자체 이메일 콘텐츠 코딩](../email/code-content.md)
+* [콘텐츠 템플릿 만들기](create-content-templates.md)
+* [이메일 디자이너 시작](../email/get-started-email-design.md)
+
