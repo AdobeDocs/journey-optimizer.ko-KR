@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 외부, 소스, 데이터, 구성, 연결, 서드파티
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 3d6b12903d4c43fec2fd4e0046a5d1f90ecd6d64
 workflow-type: tm+mt
-source-wordcount: '1647'
-ht-degree: 34%
+source-wordcount: '1718'
+ht-degree: 33%
 
 ---
 
@@ -25,13 +25,13 @@ ht-degree: 34%
 
 ## 외부 데이터 소스 작업 {#gs-ext-data-sources}
 
-외부 데이터 소스를 사용하면 서드파티 시스템에 대한 연결을 정의할 수 있습니다. 호텔 예약 시스템을 사용하여 특정인의 객실 투숙 여부를 확인하는 경우를 예로 들 수 있습니다. 기본 제공 Adobe Experience Platform 데이터 소스와는 달리 외부 데이터 소스는 필요한 수만큼 만들 수 있습니다.
+외부 데이터 소스를 사용하면 서드파티 시스템에 대한 연결을 정의할 수 있습니다. 호텔 예약 시스템을 사용하여 특정인의 객실 투숙 여부를 확인하는 경우를 예로 들 수 있습니다. 기본 제공 [!DNL Adobe Experience Platform] 데이터 원본과 달리 외부 데이터 원본을 필요한 수만큼 만들 수 있습니다.
 
 >[!NOTE]
 >
 >* 외부 시스템으로 작업할 때 보호 기능은 [이 페이지](../configuration/external-systems.md)에 나열됩니다.
 >
->* 이제 응답이 지원되므로 외부 데이터 소스 사용 사례에서 데이터 소스 대신 사용자 지정 작업을 사용해야 합니다. 응답에 대한 자세한 내용은 이 [섹션](../action/action-response.md)을 참조하세요.
+>* 이제 응답이 지원되므로 외부 데이터 소스 사용 사례에서 데이터 소스 대신 사용자 지정 작업을 사용해야 합니다. 응답에 대한 자세한 내용은 [사용자 지정 작업 응답](../action/action-response.md)을 참조하세요.
 
 POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다. 그리고 API 키와 기본/사용자 지정 인증 모드가 지원됩니다.
 
@@ -54,11 +54,11 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 
 1. 데이터 원본 목록에서 **[!UICONTROL 데이터 Source 만들기]**&#x200B;를 클릭하여 새 외부 데이터 원본을 만듭니다.
 
-   ![](assets/journey25.png)
+   ![데이터 Source 만들기 단추가 강조 표시된 데이터 원본 목록 화면](assets/journey25.png)
 
    화면 오른쪽에 데이터 소스 구성 창이 열립니다.
 
-   ![](assets/journey26.png)
+   ![화면 오른쪽에 데이터 원본 구성 창이 열립니다](assets/journey26.png)
 
 1. 데이터 소스의 이름을 입력합니다.
 
@@ -71,7 +71,7 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
    >
    >보안상 HTTPS를 사용하는 것이 좋습니다. 또한 공개적으로 제공되지 않는 Adobe 주소 및 IP 주소는 사용할 수 없습니다.
 
-   ![](assets/journey27.png)
+   ![예 날씨 API 끝점이 입력된 외부 데이터 원본 URL 필드](assets/journey27.png)
 
 1. 외부 서비스 구성에 따라 인증을 구성합니다. **[!UICONTROL 인증 없음]**, **[!UICONTROL 기본]**, **[!UICONTROL 사용자 지정]** 또는 **[!UICONTROL API 키]**.
 
@@ -81,17 +81,17 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
    >
    >* 인증 호출이 수행되면 base64로 인코딩된 `<username>:<password>` 문자열이 Authentication 헤더에 추가됩니다.
    >
-   >* Adobe Journey Optimizer은 사용자 지정 작업에 정의된 암호를 자동으로 암호화합니다. 각 조직의 암호화 키는 해당 조직에 연결된 전용 보관소에서 안전하게 관리됩니다. 인터페이스에 자격 증명이 표시되면 실수로 노출되지 않도록 기본적으로 마스킹됩니다.
+   >* [!DNL Adobe Journey Optimizer]은(는) 사용자 지정 작업에 정의된 암호를 자동으로 암호화합니다. 각 조직의 암호화 키는 해당 조직에 연결된 전용 보관소에서 안전하게 관리됩니다. 인터페이스에 자격 증명이 표시되면 실수로 노출되지 않도록 기본적으로 마스킹됩니다.
 
 
-   사용자 지정 인증 모드에 대한 자세한 내용은 [이 섹션](../datasource/external-data-sources.md#custom-authentication-mode)을 참조하세요. 이 예제에서는 다음과 같이 API 키 인증 모드를 선택합니다.
+   사용자 지정 인증 모드에 대한 자세한 내용은 [사용자 지정 인증 모드 섹션](../datasource/external-data-sources.md#custom-authentication-mode)을 참조하세요. 이 예제에서는 다음과 같이 API 키 인증 모드를 선택합니다.
 
    * **[!UICONTROL 유형]**: &quot;API 키&quot;
    * **[!UICONTROL 이름]**: &quot;appid&quot;(API 키 매개 변수 이름)
    * **[!UICONTROL 값]**: &quot;1234&quot;(API 키의 값)
    * **[!UICONTROL 위치]**: &quot;쿼리 매개 변수&quot;(API 키가 URL에 있음)
 
-     ![](assets/journey28.png)
+     ![유형, 이름, 값 및 위치 입력을 표시하는 API 키 인증 필드](assets/journey28.png)
 
 1. **[!UICONTROL 새 필드 그룹 추가]**&#x200B;를 클릭하여 각 API 매개 변수 집합에 대한 새 필드 그룹을 추가합니다. 필드 그룹 이름에는 영숫자와 밑줄만 허용됩니다. 최대 길이는 30자입니다. 이 예제에서는 각 매개 변수 세트(city, long/lat)용으로 하나씩 두 개의 필드 그룹을 만들어야 합니다.
 
@@ -99,7 +99,7 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 
 * **[!UICONTROL 다음에서 사용]**: 필드 그룹을 사용하는 여정 수를 표시합니다. **[!UICONTROL 여정 보기]** 아이콘을 클릭하여 이 필드 그룹을 사용하는 여정 목록을 표시할 수 있습니다.
 * **[!UICONTROL 메서드]**: POST 또는 GET 메서드를 선택합니다. 여기서는 GET 메서드를 선택합니다.
-* **[!UICONTROL 동적 값]**: 각 매개 변수를 쉼표로 구분하여 입력합니다. 이 예제에서는 &quot;long,lat&quot;를 입력합니다. 매개 변수 값은 실행 컨텍스트에 따라 달라지므로 여정에서 정의됩니다. [자세히 알아보기](../building-journeys/expression/expressionadvanced.md)
+* **[!UICONTROL 동적 값]**: 예제에서 쉼표로 구분된 다른 매개 변수를 입력하십시오. &quot;long,lat&quot; 매개 변수 값은 실행 컨텍스트에 따라 달라지므로 여정에서 정의됩니다. [표현식에 대해 자세히 알아보기](../building-journeys/expression/expressionadvanced.md)
 * **[!UICONTROL 응답 페이로드]**: **[!UICONTROL 페이로드]** 필드 내부를 클릭하고 호출에서 반환된 페이로드의 예제를 붙여 넣습니다. 이 예제에서는 날씨 API 웹 사이트의 페이로드를 사용했습니다. 필드 유형이 올바른지 확인합니다. API를 호출할 때마다 시스템은 페이로드 예제에 포함된 모든 필드를 검색합니다. 현재 전달된 페이로드를 변경하려는 경우 **[!UICONTROL 새 페이로드 붙여넣기]**&#x200B;를 클릭할 수 있습니다.
 * **[!UICONTROL 페이로드 전송됨]**: 이 예제에서는 이 필드가 표시되지 않습니다. POST 메서드를 선택해야 이 필드를 사용할 수 있습니다. 서드파티 시스템으로 전송할 페이로드를 붙여넣습니다.
 
@@ -112,7 +112,7 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 {"id":{"param":"identifier"}}
 ```
 
-![](assets/journey29.png)
+동적 값 및 응답 페이로드 필드가 있는 ![필드 그룹 구성 패널](assets/journey29.png)
 
 
 변경 사항이 저장되면 데이터 소스가 구성되며, 예를 들어 조건이나 이메일 개인화 등에 여정에서 사용할 수 있도록 준비됩니다. 가령 기온이 섭씨 30도를 넘으면 특정 메시지를 보내도록 지정할 수 있습니다.
@@ -122,17 +122,17 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 >[!CONTEXTUALHELP]
 >id="jo_authentication_payload"
 >title="사용자 정의 인증"
->abstract="사용자 정의 인증 모드는 OAuth2 등의 API 래핑 프로토콜을 호출하는 복잡한 인증에 사용됩니다. 작업은 두 단계로 실행됩니다. 첫 단계에서는 엔드포인트 호출을 수행하여 액세스 토큰을 생성합니다. 두 번째 단계에서는 작업의 HTTP 요청에 액세스 토큰을 삽입합니다."
+>abstract="사용자 정의 인증 모드는 OAuth2 등의 API 래핑 프로토콜을 호출하는 복잡한 인증에 사용됩니다. 작업은 두 단계로 실행됩니다. 첫 단계에서는 엔드포인트 호출을 수행하여 액세스 토큰을 생성합니다. 그런 다음 작업의 HTTP 요청에 액세스 토큰을 삽입합니다."
 
 사용자 지정 인증 모드는 작업의 실제 HTTP 요청에 삽입할 액세스 토큰을 검색하기 위해 복잡한 인증에 사용되며, 종종 OAuth2와 같은 API 래핑 프로토콜을 호출하는 데 사용됩니다.
 
 사용자 지정 인증을 구성할 때는 **[!UICONTROL 인증을 확인하려면]** 단추를 사용하여 사용자 지정 인증 페이로드가 올바르게 구성되었는지 확인하세요.
 
-![](assets/journey29-bis.png)
+![데이터 원본 구성의 사용자 지정 인증 테스트 단추](assets/journey29-bis.png)
 
 테스트가 성공하면 버튼이 녹색으로 바뀝니다.
 
-![](assets/journey29-ter.png)
+![인증 테스트 단추가 녹색으로 바뀌어 유효성 검사가 성공했음을 나타냄](assets/journey29-ter.png)
 
 이 인증 모드에서는 작업이 다음의 두 단계로 실행됩니다.
 
