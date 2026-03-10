@@ -10,9 +10,9 @@ hidefromtoc: true
 hide: true
 level: Experienced
 exl-id: 0c586565-0c65-435f-986d-cd08b59de159
-source-git-commit: 76bb202375cdfe1c8abacc1670ba6e794175215d
+source-git-commit: 9d3dd2f0a9ae5200dd3ed332420bbb08e8e9f498
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '476'
 ht-degree: 5%
 
 ---
@@ -73,15 +73,14 @@ ht-degree: 5%
    >
    >구문 유효성 검사 프로세스가 없으며 [!DNL Adobe]에서 지원을 제공하지 않으므로 올바른 HTML 및 CSS 코드를 입력해야 합니다. [자세히 알아보기](#guardrails)
 
-1. 고급 HTML 보기에서는 저장할 수 없습니다. 데스크탑 보기로 다시 전환하여 변경 사항을 저장합니다.
+1. 호환성의 이유로 고급 HTML 보기에서는 콘텐츠 시뮬레이션 및 저장을 사용할 수 없습니다. 데스크탑 보기로 다시 전환하여 콘텐츠를 미리 보고 변경 사항을 저장합니다.
 
    ![](assets/email-template-expert-mode-save.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >콘텐츠는 콘텐츠 호환성을 위해 데스크탑 보기에서만 저장할 수 있습니다. 보기를 전환하면 편집 내용이 유지됩니다.
+   ><!--Content can only be saved in Desktop view for content compatibility reasons. -->보기를 전환하면 편집 내용이 유지됩니다.
+<!--
+1. Content simulation is not available in advanced HTML view. To preview your content, switch to Desktop view.
 
-1. 고급 HTML 보기에서는 컨텐츠 시뮬레이션을 사용할 수 없습니다. 콘텐츠를 시뮬레이션하려면 데스크톱 보기로 전환합니다.
-
-   ![](assets/email-template-expert-mode-simulate.png){zoomable="yes"}
-
+    ![](assets/email-template-expert-mode-simulate.png){zoomable="yes"}-->
