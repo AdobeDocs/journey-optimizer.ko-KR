@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 13ac469c33d2a580ba499bb463ac9fc63bef733c
+source-git-commit: e329c221fa714747d50495e466d02e75bed2967c
 workflow-type: tm+mt
-source-wordcount: '1824'
+source-wordcount: '1830'
 ht-degree: 35%
 
 ---
@@ -34,6 +34,25 @@ ht-degree: 35%
 <table>
 <thead>
 <tr>
+<th><strong>AI 모델 모니터링</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 Journey Optimizer을 통해 Decisioning AI 모델의 상태, 교육 상태 및 성능을 모니터링할 수 있습니다. 이를 통해 교육 성공을 확인하고, 실패를 해결하며, 결과에 미치는 영향을 파악하여 AI를 사용하는 각 고객을 위한 최상의 오퍼를 선택할 수 있습니다. 이 기능은 <strong>Decisioning</strong>에만 사용할 수 있습니다(이전 의사 결정 관리 모델에는 사용할 수 없음).</p>
+<p>이 기능은 현재 <strong>개인화된 최적화</strong> 모델에만 사용할 수 있습니다(자동 최적화는 아님).</p>
+<p><img src="assets/do-not-localize/ai-model-observability.gif"/></p>
+<p>자세한 내용은 <a href="../experience-decisioning/ranking/ai-model-observability.md">세부 설명서</a>를 참조하십시오.</p>
+<p>사용 가능한 날짜: 2026년 3월 9일 화요일</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Journey Agent: 채널 컨텐츠 만들기</strong><br/></th>
 </tr>
 </thead>
@@ -42,7 +61,7 @@ ht-degree: 35%
 <td>
 <p><strong>Adobe Experience Platform Agent Orchestrator</strong>에서 제공하는 <strong>Journey Agent</strong>은(는) Journey Optimizer에서 사용할 수 있으며 자연어 인터페이스를 통해 여정을 분석할 수 있도록 해줍니다. 이제 Journey Agent에서 직접 채널별 콘텐츠를 생성하고 관리할 수도 있습니다. 또한 이메일 및 푸시와 같은 채널용 콘텐츠를 만들고, 템플릿을 적용하고 미리 보고, 프롬프트를 통해 색조와 스타일을 개선하고, <strong>콘텐츠 Designer</strong>에서 콘텐츠를 열어 상황에 맞게 편집할 수 있습니다.</p>
 <p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
-<p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=ko">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2026년 3월 4일 목요일</p>
 </td>
 </tr>
@@ -101,7 +120,7 @@ ht-degree: 35%
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
@@ -350,23 +369,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 ## 곧 출시 예정 {#coming-soon}
 
 아래의 기능 및 개선 사항은 2월 말에 릴리스될 예정입니다. 릴리스 날짜 및 범위는 사전 통보 없이 변경될 수 있습니다.
-
-<table>
-<thead>
-<tr>
-<th><strong>AI 모델 모니터링</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 Journey Optimizer을 통해 Decisioning AI 모델의 상태, 교육 상태 및 성능을 모니터링할 수 있습니다. 이를 통해 교육 성공을 확인하고, 실패를 해결하며, 결과에 미치는 영향을 파악하여 AI를 사용하는 각 고객을 위한 최상의 오퍼를 선택할 수 있습니다. 이 기능은 <strong>Decisioning</strong>에만 사용할 수 있습니다(이전 의사 결정 관리 모델에는 사용할 수 없음).</p>
-<p>이 기능은 현재 <strong>개인화된 최적화</strong> 모델에만 사용할 수 있습니다(자동 최적화는 아님).</p>
-<p>사용 가능한 날짜: 2026년 3월 초</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 ### 개선 사항 {#coming-soon-improv}
 

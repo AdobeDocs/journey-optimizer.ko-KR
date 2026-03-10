@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 07679823-2288-4528-b09a-12fd76a69482
 version: Journey Orchestration
-source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
+source-git-commit: e329c221fa714747d50495e466d02e75bed2967c
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '313'
 ht-degree: 18%
 
 ---
@@ -57,3 +57,5 @@ AI 모델을 만들고 사용할 수 있는 주요 단계는 다음과 같습니
    >등급 모델을 수집하려면 피드백 이벤트를 경험 이벤트로 전송해야 합니다. [데이터 수집 결정에 대해 자세히 알아보기](../data-collection/data-collection.md)
 
 1. AI 모델을 선택 전략에 할당하여 적격 오퍼의 등급을 지정합니다. [자세히 알아보기](../selection-strategies.md#select-ranking-method)
+
+1. AI 모델의 교육 상태 및 성능을 모니터링합니다. [자세히 알아보기](ai-model-observability.md)

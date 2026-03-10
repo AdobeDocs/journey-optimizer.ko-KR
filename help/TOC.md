@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 170bdaaa13fe78ad4c47a6e091c8090156fde8f6
+source-git-commit: e329c221fa714747d50495e466d02e75bed2967c
 workflow-type: tm+mt
-source-wordcount: '3134'
+source-wordcount: '3139'
 ht-degree: 96%
 
 ---
@@ -356,7 +356,7 @@ ht-degree: 96%
          + [웹 채널 전제 조건](using/web/web-prerequisites.md)
          + [웹 하위 도메인 구성](using/web/web-delegated-subdomains.md)
          + [웹 채널 구성 만들기](using/web/web-configuration.md)
-      + [웹 경험 만들기 &#x200B;](using/web/create-web.md)
+      + [웹 경험 만들기 ](using/web/create-web.md)
       + 웹 페이지 작성 {#author-web-pages}
          + [웹 페이지 작성](/help/rp_landing_pages/author-web-pages-landing-page.md)
          + [웹 디자이너를 사용하여 작업](using/web/web-visual-editor.md)
@@ -410,7 +410,7 @@ ht-degree: 96%
          + [Journey Optimizer에서 라이브 활동 구성](using/mobile-live/mobile-live-configuration.md)
          + [라이브 활동 SDK 통합 구성](using/mobile-live/mobile-live-configuration-sdk.md)
 + 콘텐츠 관리 {#content-management}
-   + [콘텐츠 관리 &#x200B;](/help/rp_landing_pages/content-management-landing-page.md)
+   + [콘텐츠 관리 ](/help/rp_landing_pages/content-management-landing-page.md)
    + 개인화 {#personalization}
       + [개인화](/help/rp_landing_pages/personalization-landing-page.md)
       + [개인화 시작](using/personalization/personalize.md)
@@ -672,6 +672,7 @@ ht-degree: 96%
             + [자동 최적화 모델](using/experience-decisioning/ranking/auto-optimization-model.md)
             + [개인화된 최적화 모델](using/experience-decisioning/ranking/personalized-optimization-model.md)
             + [AI 모델 만들기](using/experience-decisioning/ranking/create-ai-models.md)
+            + [AI 모델의 성능 모니터링](using/experience-decisioning/ranking/ai-model-observability.md)
       + [배치 작업](using/experience-decisioning/placements.md)
       + Adobe Experience Platform 데이터 사용 {#aep-data}
          + [Adobe Experience Platform 데이터 사용](/help/rp_landing_pages/aep-data-landing-page.md)
