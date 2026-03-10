@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 설정, 이메일, 구성
 exl-id: 5a12280c-b937-4cd9-a1ef-563bab48e42e
-source-git-commit: d336684656c75af682a72b0acab071df15a79004
+source-git-commit: 719bd2fca82a25c356ed708819a6e7684ffbff9b
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 68%
+source-wordcount: '487'
+ht-degree: 61%
 
 ---
 
@@ -53,6 +53,10 @@ URL 추적 매개변수를 구성하기 위해 **[!UICONTROL 이름]** 및 **[!U
 * **오퍼 ID**: 이메일에 사용된 오퍼의 ID입니다.
 
 * **소스 액션 ID**: 여정 또는 캠페인에 추가된 이메일 액션의 ID입니다.
+
+  >[!NOTE]
+  >
+  >제품 변경 후 닫혔거나 다시 게시되지 않은 여정은 추적 URL에서 `context.system.source.actionId`을(를) 채우지 못해 빈 자리 표시자(예: `cid=em-acou-adob{}`)가 생길 수 있습니다. 추적 매개 변수가 올바르게 채워지는지 확인하려면 [영향을 받는 여정을 다시 게시](../building-journeys/publish-journey.md#journey-create-new-version)하거나 닫은 여정에 대해 이 컨텍스트 필드에 대한 참조를 제거하십시오. [실시간 여정 실행 문제 해결](../building-journeys/troubleshooting-execution.md#tracking-parameters-closed-journeys)에서 자세히 알아보세요.
 
 * **소스 액션 이름**: 여정 또는 캠페인에 추가된 이메일 액션의 이름입니다.
 
