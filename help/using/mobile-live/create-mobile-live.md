@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 9864a136-e129-4279-bb09-081b72f584df
-source-git-commit: 9cdd115c66c8a26a59bfb45f0f20b6c96ddb5d5d
+source-git-commit: c1a2e098b31769945221701a075b7f9f688b274f
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '400'
 ht-degree: 3%
 
 ---
@@ -153,8 +153,12 @@ ht-degree: 3%
 
 라이브 활동을 디자인한 후 [기본 제공 보고서](../reports/campaign-global-report-cja-activity.md)를 통해 라이브 활동의 영향을 측정하는 방법을 추적할 수 있습니다.
 
+>[!TIP]
+>
+>라이브 활동이 예상대로 나타나거나 업데이트되지 않는 경우 단계별 디버깅 지침은 [라이브 활동 문제 해결](troubleshoot-mobile-live.md)을 참조하세요.
+
 ## 사용 방법 비디오
 
 Adobe Journey Optimizer을 사용하여 iOS 라이브 활동을 구성하여 iPhone 잠금 화면 및 Dynamic Island에서 다양한 실시간 업데이트를 제공하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479871?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3479864)

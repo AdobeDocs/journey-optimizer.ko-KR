@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e7e994ca-aa0c-4e86-8710-c87430b74188
-source-git-commit: 9cdd115c66c8a26a59bfb45f0f20b6c96ddb5d5d
+source-git-commit: c1a2e098b31769945221701a075b7f9f688b274f
 workflow-type: tm+mt
-source-wordcount: '1802'
+source-wordcount: '1810'
 ht-degree: 0%
 
 ---
@@ -238,6 +238,10 @@ OAuth 토큰 및 API 키를 포함한 인증 요구 사항은 [API 트리거된 
 +++
 
 ### 문제 해결
+
+>[!TIP]
+>
+>포괄적인 문제 해결 지침은 [라이브 활동 문제 해결](troubleshoot-mobile-live.md)을 참조하세요.
 
 +++내 라이브 활동이 시작되지만 업데이트되지 않습니다. 무엇이 문제일 수 있습니까?
 

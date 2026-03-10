@@ -7,9 +7,9 @@ feature: Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: db85a563-9630-4d87-bf10-9f2515fe8a45
-source-git-commit: 9cdd115c66c8a26a59bfb45f0f20b6c96ddb5d5d
+source-git-commit: c1a2e098b31769945221701a075b7f9f688b274f
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '523'
 ht-degree: 2%
 
 ---
@@ -85,3 +85,7 @@ Adobe이 사용자를 대신하여 푸시 알림을 전송하도록 승인하려
 이제 Adobe Experience Platform Mobile SDK과의 통합을 시작하여 잠금 화면 및 Dynamic Island에서 실시간 동적 업데이트를 활성화할 수 있습니다.
 
 ➡️ [Adobe Experience Platform Mobile SDK 통합에 대해 자세히 알아보기](mobile-live-configuration-sdk.md)
+
+>[!TIP]
+>
+>라이브 활동 구성 또는 전달에 문제가 발생하면 디버깅 단계는 [라이브 활동 문제 해결](troubleshoot-mobile-live.md)을 참조하십시오.

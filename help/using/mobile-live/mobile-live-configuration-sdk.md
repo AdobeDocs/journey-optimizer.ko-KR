@@ -7,9 +7,9 @@ feature: Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 02ca7c8e-105a-4e77-9aad-2381904255d0
-source-git-commit: 9cdd115c66c8a26a59bfb45f0f20b6c96ddb5d5d
+source-git-commit: c1a2e098b31769945221701a075b7f9f688b274f
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '493'
 ht-degree: 1%
 
 ---
@@ -239,4 +239,7 @@ extension FoodDeliveryLiveActivityAttributes: LiveActivityAssuranceDebuggable {
 * [API 참조](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/api-reference/)
 * [라이브 활동 자습서](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/tutorial/)
 * [공용 클래스](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/public-classes/live-activity-attributes/)
-s
+
+>[!TIP]
+>
+>토큰 등록, 페이로드 정렬 또는 라이브 활동 전달에 문제가 있는 경우 자세한 디버깅 지침은 [라이브 활동 문제 해결](troubleshoot-mobile-live.md)을 참조하세요.
