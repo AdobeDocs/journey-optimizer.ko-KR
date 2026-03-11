@@ -5,10 +5,10 @@ title: AND 조인 활동 사용
 description: 오케스트레이션된 캠페인에서 AND-join 활동을 사용하는 방법을 알아봅니다
 exl-id: 1b99313e-f131-44f7-a129-f85e1977fb05
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: a6dd5e7e4bb55c9cfb094682254d940280de0815
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 84%
+source-wordcount: '263'
+ht-degree: 82%
 
 ---
 
@@ -19,6 +19,11 @@ ht-degree: 84%
 >id="ajo_orchestration_and-join"
 >title="AND-결합 활동"
 >abstract="**AND-결합** 활동을 사용하면 오케스트레이션된 캠페인의 여러 실행 분기를 동기화할 수 있습니다. 이전 활동이 모두 완료되면 트리거됩니다. 이로써 오케스트레이션된 캠페인을 계속 실행하기 전에 특정 활동이 완료되었는지 확인할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_join"
+>title="가입 활동"
+>abstract="조인 활동에 대한 자리 표시자."
 
 **[!UICONTROL AND-결합]** 활동은 **[!UICONTROL 흐름 제어]** 활동입니다. 이를 통해 오케스트레이션된 캠페인의 여러 실행 분기를 동기화할 수 있습니다.
 
