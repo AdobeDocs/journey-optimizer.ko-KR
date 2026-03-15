@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 1d09a7ce6428532822955186973b6a2d9973f522
 workflow-type: tm+mt
 source-wordcount: '1350'
-ht-degree: 80%
+ht-degree: 82%
 
 ---
 
@@ -247,7 +247,7 @@ AI 어시스턴트는 즉각적인 도움과 운영 인사이트를 제공합니
 >[!CONTEXTUALHELP]
 >id="ajo_oc_jo_campaign_ovv_1"
 >title="캠페인을 만들고 보내기 위한 안내형 UI"
->abstract="채널을 사용하여 하나 이상의 작업을 설정하고, 대상을 선택하고, 콘텐츠를 설정하고, 일정을 정의하고, 전송할 준비가 되었습니다."
+>abstract="채널을 사용하여 액션을 하나 또는 여러 개 설정하고, 대상자를 선택한 후 콘텐츠를 설정하고, 일정을 정의하면 전송할 준비가 완료됩니다."
 
 
 >[!CONTEXTUALHELP]

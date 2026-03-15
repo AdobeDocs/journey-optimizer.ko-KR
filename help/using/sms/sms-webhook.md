@@ -10,7 +10,7 @@ exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
 source-git-commit: 6859847ad700a471dd43b2cb9b0c486e31d91c78
 workflow-type: tm+mt
 source-wordcount: '1077'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_channels_sms_webhook_settings_create"
 >title="SMS 웹후크 만들기"
->abstract="옵트인 및 옵트아웃 동의 관리를 위한 인바운드 응답을 캡처하고, 가능한 경우 읽기 확인을 포함한 게재 보고서를 받도록 Webhooks를 구성할 수 있습니다."
+>abstract="웹후크를 구성하여 옵트인 및 옵트아웃 동의를 관리하기 위해 인바운드 응답을 캡처하고, 가능한 경우 읽기 확인을 포함한 게재 보고서를 받을 수 있습니다."
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_webhook_flow_type"
->title="Webhook 유형 선택"
->abstract="웹후크를 설정할 때 동의 응답 및 사용자 환경 설정을 캡처하려면 **Inbound**&#x200B;를 선택하고, 보고 및 분석을 위한 게재 및 참여 이벤트를 추적하려면 **[!UICONTROL Feedback]**&#x200B;을 선택하십시오."
+>title="웹후크 유형 선택"
+>abstract="웹후크를 설정할 때 동의 응답과 사용자 환경 설정을 캡처하려면 **인바운드**&#x200B;를 선택하고, 보고 및 분석을 위해 게재 및 참여 이벤트를 추적하려면 **[!UICONTROL 피드백]**&#x200B;을 선택합니다."
 
 >[!BEGINSHADEBOX]
 

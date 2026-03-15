@@ -15,7 +15,7 @@ exl-id: 9649cc07-3183-4510-b5d9-b1e33eff43e9
 source-git-commit: 780a9259ee081336d1efb3e38c2a8eee4e97b7e3
 workflow-type: tm+mt
 source-wordcount: '879'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
@@ -23,8 +23,8 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_cc"
->title="CC 이메일 주소 정의"
->abstract="이 채널 구성으로 보낸 이메일에 보이는 CC(Carbon Copy) 필드를 추가할 수 있습니다. 고정 이메일 주소를 입력하거나 개인화(프로필 속성 또는 컨텍스트 변수)를 사용하십시오. CC 사용량은 권한이 부여된 메시지 볼륨에 계산됩니다."
+>title="참조 이메일 주소 정의"
+>abstract="이 채널 구성으로 보낸 이메일에 보이는 참조 사본(CC) 필드를 추가할 수 있습니다. 고정 이메일 주소를 입력하거나 개인화(프로필 속성 또는 컨텍스트 변수)를 사용합니다. CC 사용량은 제목이 지정된 메시지 볼륨에 포함됩니다."
 
 >[!AVAILABILITY]
 >
