@@ -10,18 +10,14 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: 예약된 일괄 처리, 일정, 여정, 대상자 읽기, 전달성
 exl-id: 1aaff17f-aa08-4f10-903c-8335a86ac6eb
-source-git-commit: d0bc5eff31a076b78660088d48a81d74b2391466
+source-git-commit: 62982a0bef06ffc84c254577ca1bb676a180e541
 workflow-type: tm+mt
-source-wordcount: '871'
-ht-degree: 2%
+source-wordcount: '858'
+ht-degree: 1%
 
 ---
 
 # 여정에서 웨이브를 사용하여 보내기 {#send-using-waves-journeys}
-
->[!AVAILABILITY]
->
->이 기능은 제한된 가용성입니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.
 
 여정의 아웃바운드 메시지를 한 번에 모두 전달하는 대신 시간이 지남에 따라 배치(예약된 일괄 처리)로 전달할 수 있습니다. Wave Sending은 로드 밸런싱을 지원하고, 과도한 다운스트림 시스템(예: 콜 센터나 랜딩 페이지)을 방지하고, 특히 대량 읽기 대상 여정의 경우 전달성과 발신자의 평판을 지원합니다.
 
