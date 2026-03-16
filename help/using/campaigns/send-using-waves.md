@@ -8,10 +8,11 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 예약된 일괄 처리, 일정, 캠페인, 여정, 전달성
-source-git-commit: 7df05e41b086c60724576328c5bcfee47cab65ca
+exl-id: 6d53d817-78f6-4d00-8ff0-8a848c618435
+source-git-commit: 55181db4fd8c1e6ee0f0f865dd61201be3c2df39
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 1%
+source-wordcount: '781'
+ht-degree: 2%
 
 ---
 
@@ -73,17 +74,13 @@ Journey Optimizer을 사용하면 예약된 일괄 처리 수, 크기(대상의 
 
 ![](assets/campaign-wave-percentage.png){width="80%"}
 
->[!NOTE]
->
->모든 웨이브의 합계는 100%여야 합니다. 그렇지 않으면 경고 메시지가 표시됩니다.<!--are the waves actually sent or does the system prevent user from saving the campaign?-->
-
 **[!UICONTROL 숫자]**&#x200B;을(를) 선택하여 각 웨이브의 크기를 프로필의 절대 수(예: 10,000; 50,000)로 정의합니다.
 
 ![](assets/campaign-wave-numbers.png){width="80%"}
 
 >[!NOTE]
->
->숫자를 사용할 때 시스템은 합계가 전체 대상을 포함하는지 확인하지 않습니다. 웨이브 크기가 전송하려는 대상을 포함하는지 확인해야 합니다. 자세한 내용은 [자주 묻는 질문](#faq)을 참조하세요.
+>* 백분율을 사용할 때 모든 파동의 합계는 100%여야 합니다. 그렇지 않은 경우 경고가 표시됩니다.
+>* 숫자를 사용할 때 시스템에서 범위를 확인하지 않습니다. 웨이브 크기가 의도한 대상자를 포함하는지 확인하십시오. [자세히 알아보기](#faq)
 
 ### 사용자 정의 일정 {#custom-schedule}
 

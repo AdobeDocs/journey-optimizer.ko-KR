@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: event, unitary, create, 여정
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: b8c2eced0f517e917021e9f42a8943b4a5e4f287
+source-git-commit: ee9055c75ff122adcdeb8b9580701db8cd778d61
 workflow-type: tm+mt
-source-wordcount: '1693'
+source-wordcount: '1684'
 ht-degree: 13%
 
 ---
@@ -94,15 +94,13 @@ ht-degree: 13%
 
    >[!NOTE]
    >
-   >시스템 생성 이벤트의 경우 XDM 스키마에 &quot;orchestration&quot; 필드 그룹을 추가했는지 확인하십시오. 이렇게 하면 스키마에 [!DNL Journey Optimizer] 작업에 필요한 모든 정보가 포함됩니다.
+   >시스템 생성 이벤트의 경우:
+   >* `orchestration` 필드 그룹을 XDM 스키마에 추가했는지 확인하십시오. 이렇게 하면 [!DNL Journey Optimizer]에서 작업하는 데 필요한 모든 정보가 스키마에 포함됩니다.
+   >* **[!UICONTROL 이(가) 이벤트를 식별할 수 있도록]** eventID[!DNL Journey Optimizer] 필드가 선택한 필드 목록에 자동으로 추가됩니다. 이벤트를 푸시하는 시스템은 ID를 생성하지 않아야 합니다. 대신 페이로드 미리 보기에서 사용할 수 있는 ID를 사용합니다. [자세히 알아보기](../event/about-creating.md#preview-the-payload)
 
    ![](assets/journey9.png)
 
 1. 이벤트에서 수신할 필드를 선택합니다. 비즈니스 사용자가 여정 시 활용할 필드입니다. 이벤트에 연결된 사용자를 식별하는 데 사용할 키도 포함해야 합니다([이 섹션](../event/about-creating.md#define-the-event-key) 참조).
-
-   >[!NOTE]
-   >
-   >시스템 생성 이벤트의 경우 **[!UICONTROL 에서 이벤트를 식별할 수 있도록 선택한 필드 목록에]** eventID[!DNL Journey Optimizer] 필드가 자동으로 추가됩니다. 이벤트를 푸시하는 시스템은 ID를 생성하지 않아야 하며 페이로드 미리 보기에서 사용할 수 있는 ID를 사용해야 합니다. [이 섹션](../event/about-creating.md#preview-the-payload)을 참조하십시오.
 
 1. 필요한 필드 선택을 마쳤으면 **[!UICONTROL 확인]**&#x200B;을 클릭하거나 **[!UICONTROL Enter]**&#x200B;을 누릅니다.
 

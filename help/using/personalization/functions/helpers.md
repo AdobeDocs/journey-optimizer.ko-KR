@@ -6,7 +6,7 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 74a817e01765d2909e9dc3c396c5513b1c9b54b2
+source-git-commit: ee9055c75ff122adcdeb8b9580701db8cd778d61
 workflow-type: tm+mt
 source-wordcount: '668'
 ht-degree: 3%
@@ -234,17 +234,14 @@ Some edu specific content
 
 >[!NOTE]
 >
->실행 메타데이터 함수는 [사용자 지정 작업](../../action/action.md)에서 지원되지 않습니다.
+>* 실행 메타데이터 함수는 [사용자 지정 작업](../../action/action.md)에서 지원되지 않습니다.
+>* 컨텐츠 자체가 표시되면 실행 메타데이터 기능이 표시되지 않습니다.
 
 예를 들어 실행 메타데이터 도우미를 사용하여 각 프로필로 전송된 각 게재에 특정 ID를 추가할 수 있습니다. 이 정보는 런타임 중에 생성되며, 그런 다음 외부 보고 플랫폼과의 다운스트림 조정을 위해 보강된 실행 메타데이터를 내보낼 수 있습니다.
 
 **작동 방식**
 
 캠페인 또는 여정 내의 채널 콘텐츠에서 요소를 선택하고 개인화 편집기를 사용하여 이 요소에 `executionMetadata` 도우미를 추가하십시오.
-
->[!NOTE]
->
->컨텐츠 자체가 표시되면 실행 메타데이터 기능이 표시되지 않습니다.
 
 
 런타임 시 메타데이터 값이 다음 스키마를 추가하여 기존 **[!UICONTROL 메시지 피드백 이벤트 데이터 세트]**&#x200B;에 추가됩니다.
