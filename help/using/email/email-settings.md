@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 설정, 이메일, 구성
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
+source-git-commit: ef7820b0f223865dbbc85cfea2387d97d1dd717d
 workflow-type: tm+mt
 source-wordcount: '1419'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -158,21 +158,18 @@ You can add a visible CC (carbon copy) recipient to emails sent by [!DNL Journey
 >id="ajo_surface_seed_list"
 >title="시드 목록 추가"
 >abstract="특정 내부 주소를 대상자에게 자동으로 추가하려면 원하는 시드 목록을 선택합니다. 이러한 시드 주소는 게재 실행 시간에 포함되며 확인 목적으로 메시지와 동일한 사본을 수신합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=ko#use-seed-list" text="시드 목록이란 무엇입니까?"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="시드 목록이란 무엇입니까?"
 
 [!DNL Journey Optimizer]의 시드 목록을 사용하면 특정 이메일 시드 주소를 게재에 자동으로 포함할 수 있습니다. [자세히 알아보기](../configuration/seed-lists.md)
 
->[!CAUTION]
+>[!NOTE]
 >
->현재 이 기능은 이메일 채널에만 적용됩니다.
+>* 이 기능은 현재 이메일 채널에만 적용됩니다.
+>* 시드 목록은 한 번에 하나만 선택할 수 있습니다.
 
 **[!UICONTROL 시드 목록]** 섹션에서 관련 목록을 선택합니다. [이 섹션](../configuration/seed-lists.md#create-seed-list)에서는 시드 목록을 만드는 방법을 알아봅니다.
 
 ![](../configuration/assets/seed-list-surface.png){width="80%"}
-
->[!NOTE]
->
->시드 목록은 한 번에 하나만 선택할 수 있습니다.
 
 현재 구성이 캠페인이나 여정에서 사용되는 경우, 선택한 시드 목록의 이메일 주소가 게재 실행 시 함께 포함되어, 검수용 게재 사본을 받습니다.
 
@@ -185,7 +182,7 @@ You can add a visible CC (carbon copy) recipient to emails sent by [!DNL Journey
 >id="ajo_admin_presets_retryperiod"
 >title="재시도 기간 조정"
 >abstract="일시적인 소프트 바운스 오류로 인해 이메일을 게재하지 못하면 3.5일(84시간)간 재시도를 수행합니다. 필요에 맞게 이 기본 재시도 기간을 조정할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html?lang=ko" text="재시도 정보"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html" text="재시도 정보"
 
 **이메일 재시도 매개변수**&#x200B;를 구성할 수 있습니다.
 
