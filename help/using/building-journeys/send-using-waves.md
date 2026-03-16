@@ -9,10 +9,11 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: 예약된 일괄 처리, 일정, 여정, 대상자 읽기, 전달성
-source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
+exl-id: 1aaff17f-aa08-4f10-903c-8335a86ac6eb
+source-git-commit: d0bc5eff31a076b78660088d48a81d74b2391466
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 1%
+source-wordcount: '871'
+ht-degree: 2%
 
 ---
 
@@ -78,17 +79,13 @@ ht-degree: 1%
 
 ![](assets/journey-wave-percentage.png){width="70%"}
 
->[!NOTE]
->
->모든 웨이브의 합계는 100%여야 합니다. 그렇지 않으면 경고 메시지가 표시됩니다.<!--are the waves actually sent or does the system prevent user from saving the journey?-->
-
 **[!UICONTROL 숫자]**&#x200B;을(를) 선택하여 각 웨이브의 크기를 프로필의 절대 수(예: 10,000; 50,000)로 정의합니다.
 
 ![](assets/journey-wave-numbers.png){width="70%"}
 
 >[!NOTE]
->
->숫자를 사용할 때 시스템은 합계가 전체 대상을 포함하는지 확인하지 않습니다. 웨이브 크기가 전송하려는 대상을 포함하는지 확인해야 합니다. 자세한 내용은 [자주 묻는 질문](#faq)을 참조하세요.
+>* 백분율을 사용할 때 모든 파동의 합계는 100%여야 합니다. 그렇지 않은 경우 경고가 표시됩니다.
+>* 숫자를 사용할 때 시스템에서 범위를 확인하지 않습니다. 웨이브 크기가 의도한 대상자를 포함하는지 확인하십시오. [자세히 알아보기](#faq)
 
 ### 사용자 정의 일정 {#custom-schedule}
 
