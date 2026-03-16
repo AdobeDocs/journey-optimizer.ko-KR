@@ -2,14 +2,14 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: API 참조
-description: API 참조
+description: 오퍼 라이브러리 API 및 게재 API를 사용하여 의사 결정 관리를 워크플로우에 통합하고 규모에 맞게 개인화된 오퍼를 제공하는 방법을 알아봅니다.
 redpen-status: CREATED_||_2025-08-11_21-04-46
 badge: label="레거시" type="Informative"
 exl-id: 0b5e61d7-14a1-446e-8cb0-8861295d6e94
-source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
-workflow-type: ht
-source-wordcount: '183'
-ht-degree: 100%
+source-git-commit: 50667ff13e16344bbcc12d78e5ac31f3f8545f08
+workflow-type: tm+mt
+source-wordcount: '233'
+ht-degree: 76%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Journey Optimizer의 API 참조 섹션에서 고객에게 맞춤형 데이
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 오퍼 라이브러리 API 시작
 
@@ -35,13 +35,23 @@ Adobe Journey Optimizer의 API 참조 섹션에서 고객에게 맞춤형 데이
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer API를 사용하여 오퍼 게재
 
 Decisioning, Edge Decisioning 및 Batch Decisioning API 구현에 대한 포괄적인 리소스를 탐색하여 개인화된 오퍼를 제공합니다.
 
-[섹션 살펴보기](offer-delivery-api-landing-page.md)
+[게재 API 탐색](offer-delivery-api-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+
+API를 사용하여 오퍼 만들기 및 관리
+
+배치, 의사 결정 규칙, 컬렉션 한정자, 개인화된 오퍼, 컬렉션, 대체 오퍼 및 의사 결정을 관리하기 위한 API 참조에 액세스합니다.
+
+[오퍼 라이브러리 API 찾아보기](../using/offers/api-reference/getting-started.md)
 :::
 
 ::::

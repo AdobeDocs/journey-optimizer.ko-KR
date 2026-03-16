@@ -2,13 +2,13 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: Adobe 솔루션으로 보내기
-description: Adobe 솔루션으로 보내기
+description: 사용자 지정 작업을 사용하여 Journey Optimizer 여정에서 Adobe Campaign Standard, Campaign v7/v8 및 Marketo Engage을 통해 메시지를 보내는 방법을 배웁니다.
 redpen-status: CREATED_||_2025-08-11_21-17-09
 exl-id: a8d34150-32f1-4c58-8728-ba73b7e90ec4
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: a0ea5aef7616520bbc2792ba33e85ff72724a28e
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 100%
+source-wordcount: '224'
+ht-degree: 86%
 
 ---
 
@@ -20,33 +20,33 @@ Adobe Journey Optimizer는 **Adobe Campaign Standard**, **Campaign v7/v8**, **Ma
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Adobe Journey Optimizer와 Adobe Campaign Standard 통합
 
 이메일, 푸시, SMS 등의 트랜잭션 메시징 기능을 활성화하기 위해 Adobe Journey Optimizer를 Adobe Campaign Standard와 통합하는 방법을 알아봅니다.
 
-[튜토리얼 보기](../using/action/acs-action.md)
+[Campaign Standard과 통합](../using/action/acs-action.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Adobe Journey Optimizer와 Adobe Campaign v7/v8 통합
 
 이메일, SMS, 푸시 알림을 통한 트랜잭션 메시징을 위해 Adobe Journey Optimizer를 Adobe Campaign v7/v8과 연결하는 방법을 알아봅니다.
 
-[튜토리얼 보기](../using/action/acc-action.md)
+[Campaign v7/v8과 통합](../using/action/acc-action.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Adobe Journey Optimizer와 Marketo Engage 통합
 
 Adobe Journey Optimizer에서 데이터를 동기화하고 마케팅을 개인화하기 위해 맞춤형 Marketo Engage 액션을 설정합니다.
 
-[튜토리얼 보기](../using/action/marketo-engage.md)
+[Marketo Engage와 통합](../using/action/marketo-engage.md)
 :::
 
 ::::

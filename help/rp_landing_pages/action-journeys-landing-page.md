@@ -2,13 +2,13 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: 액션 구성
-description: 액션 구성
+description: API 호출, 응답, 모니터링 및 거버넌스를 통해 여정을 서드파티 시스템과 연결하도록 Journey Optimizer에서 사용자 지정 작업을 구성하는 방법에 대해 알아봅니다.
 redpen-status: CREATED_||_2025-08-11_21-11-53
 exl-id: 4ce42dab-7e8f-454d-8f34-e713312ad7c5
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 0fea7e06705d2154a664c72b8a483d1dbbdc18de
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 100%
+source-wordcount: '230'
+ht-degree: 80%
 
 ---
 
@@ -20,33 +20,43 @@ Adobe Journey Optimizer의 액션 구성을 통해 고객 여정을 서드파티
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 사용자 정의 액션 시작
 
 Adobe Journey Optimizer에서 사용자 정의 액션을 구성하고 사용하여 개인화된 실시간 고객 경험을 제공하는 방법을 알아봅니다.
 
-[사용자 정의 액션 구성 시작](../using/action/action.md)
+[사용자 정의 액션 시작](../using/action/action.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 사용자 정의 액션 구성 방법
 
 보안 프로토콜, 엔드포인트 구성 및 모범 사례를 포함한 사용자 정의 액션 설정에 대한 단계별 안내서입니다.
 
-[구성 안내서를 따르세요](../using/action/about-custom-action-configuration.md)
+[사용자 정의 작업 구성](../using/action/about-custom-action-configuration.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 사용자 정의 액션에서 API 호출 응답 사용
 
 사용자 정의 액션에서 API 호출 응답을 사용하여 여정을 오케스트레이션하고, 오류를 처리하고, 구현을 테스트하는 방법을 살펴봅니다.
 
 [API 호출 응답 살펴보기](../using/action/action-response.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+
+사용자 지정 작업 모니터링
+
+내장된 모니터링 및 보고 기능을 사용하여 여정에서 사용자 지정 작업의 성능 및 실행을 추적합니다.
+
+[사용자 지정 작업 모니터링](../using/action/reporting.md)
 :::
 
 ::::

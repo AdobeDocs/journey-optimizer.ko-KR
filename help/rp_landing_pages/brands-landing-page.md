@@ -2,13 +2,13 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: 브랜드
-description: 브랜드
+description: Journey Optimizer에서 브랜드 지침을 만들고, 관리하고, 개인화하여 모든 캠페인에서 일관된 브랜드 내 콘텐츠를 확인하는 방법에 대해 알아봅니다.
 redpen-status: CREATED_||_2025-08-12_00-41-41
 exl-id: f1e3cb9d-83a8-48af-9121-4ebc56dce251
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: c8c07cf68cba20d6c6f4185bb3e8da0236f7acb5
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 100%
+source-wordcount: '236'
+ht-degree: 70%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 &#39;브랜드&#39; 기능을 사용하면 브랜드 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 브랜드 가이드라인 만들기 및 관리
 
@@ -30,13 +30,33 @@ Adobe Journey Optimizer로 시각적, 언어적 정체성을 일관되게 유지
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 브랜드 일관성 점수 평가
 
 브랜드 일관성 기능을 이해하고 활용하여 콘텐츠가 브랜드 을 준수하는지 확인하고 일관성을 개선합니다.
 
 [브랜드 일관성에 대해 알아보기](../using/content-management/brands-score.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+
+브랜드 개인화
+
+기본 브랜드 환경 설정을 지정하고 AI 생성 콘텐츠와의 원활한 통합을 위해 브랜드 지침을 맞춤화하는 방법을 알아봅니다.
+
+[브랜드 개인화](../using/content-management/brands-personalize.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+
+생성 모델 생성 및 관리
+
+일관된 콘텐츠 생성을 위해 브랜드 지침에 따라 훈련된 맞춤형 생성 AI 모델을 생성하고 관리하는 방법에 대해 알아봅니다.
+
+[생성 모델 관리](../using/content-management/generative-models.md)
 :::
 
 ::::
