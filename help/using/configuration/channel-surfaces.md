@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 채널, 표면, 기술, 매개변수, optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
+source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
 workflow-type: tm+mt
-source-wordcount: '1875'
+source-wordcount: '1876'
 ht-degree: 12%
 
 ---
@@ -177,19 +177,13 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >채널 구성의 상태가 **[!UICONTROL 활성]**&#x200B;인 경우 **[!UICONTROL 이름]**, **[!UICONTROL 채널 선택]** 및 **[!UICONTROL 하위 도메인]** 필드가 회색으로 표시되어 편집할 수 없습니다.
+   >* 구성에 **[!UICONTROL 활성]** 상태가 있으면 **[!UICONTROL 이름]**, **[!UICONTROL 채널 선택]** 및 **[!UICONTROL 하위 도메인]** 필드가 읽기 전용이므로 수정할 수 없습니다.
+   >* 언제든지 변경 사항을 초안으로 저장하고 나중에 업데이트를 다시 시작할 수 있습니다.
+   >* **[!UICONTROL 설명]**, **[!UICONTROL 전자 메일 유형]** 및/또는 **[!UICONTROL 전자 메일 다시 시도 매개 변수]** 필드로 제한된 편집은 처리 지연 없이 즉시 적용됩니다.
 
 1. 변경 내용을 확인하려면 **[!UICONTROL 제출]**&#x200B;을 클릭하세요.
 
-   >[!NOTE]
-   >
-   >채널 구성을 초안으로 저장하고 나중에 업데이트를 다시 시작할 수도 있습니다.
-
 변경 사항이 제출되면 채널 구성은 [채널 구성을 만들 때](#create-channel-surface)에 적용된 것과 유사한 유효성 검사 주기를 거칩니다. 편집 처리 시간은 최대 **3시간**&#x200B;이 소요될 수 있습니다.
-
->[!NOTE]
->
->**[!UICONTROL 설명]**, **[!UICONTROL 전자 메일 형식]** 및/또는 **[!UICONTROL 전자 메일 다시 시도 매개 변수]** 필드만 편집하면 즉시 업데이트됩니다.
 
 ### 업데이트 세부 정보 {#update-details}
 
@@ -298,4 +292,4 @@ ht-degree: 12%
 
 채널 구성의 정의와 Adobe Journey Optimizer에서 이를 사용하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3480458/?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433124/?learn=on)
