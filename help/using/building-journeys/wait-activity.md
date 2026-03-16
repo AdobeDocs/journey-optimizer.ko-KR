@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 대기, 활동, 여정, 다음, 캔버스
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 version: Journey Orchestration
-source-git-commit: 58cabac978facef373c6cadee0c8fc0963785df8
+source-git-commit: 2895554bfa00ed1b4cfe2d036568ed5a112689f8
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '878'
 ht-degree: 12%
 
 ---
@@ -90,13 +90,16 @@ Select the date for the execution of the next activity.
 
 >[!CAUTION]
 >
->`dateTimeOnly` 식을 활용하거나 함수를 사용하여 `dateTimeOnly`(으)로 변환할 수 있습니다. 예: `toDateTimeOnly(@event{Event.offerOpened.activity.endTime})`. 이벤트의 필드는 2023-08-12T09:46:06Z 형식입니다. **표준 시간대**&#x200B;은(는) 여정의 속성에 예상되므로 UI에서 2023-08-12T09:46:06.982-05와 같은 전체 ISO-8601 타임스탬프 혼합 시간 및 표준 시간대 오프셋을 직접 가리키면 안 됩니다. [자세히 알아보기](../building-journeys/timezone-management.md).
+>`dateTimeOnly` 식을 사용하여 작업할 때는 다음 사항에 유의하십시오.
 >
->`toDateTimeOnly()`을(를) 사용하여 사용자 지정 대기 식을 만들 때 결과에 &#39;Z&#39; 또는 시간대 오프셋(예: &#39;-05:00&#39;)을 추가하지 마십시오. 명시적 시간대 지정자 없이 여정이 구성한 시간대를 참조하는 유효한 ISO 날짜/시간 구문을 표현식에 사용해야 합니다. 그렇지 않으면 프로필이 대기 활동에 남아 있을 수 있습니다.
+>* `dateTimeOnly` 식을 직접 사용하거나 함수를 사용하여 해당 식으로 변환할 수 있습니다(예: `toDateTimeOnly(@event{Event.offerOpened.activity.endTime})`. 여기서 필드 값은 `2023-08-12T09:46:06Z` 형식입니다).
+>* **표준 시간대**&#x200B;이(가) 여정 속성에 정의되어 있습니다. 따라서 UI에서 시간 및 시간대 오프셋을 혼합하는 전체 ISO-8601 타임스탬프(예: `2023-08-12T09:46:06.982-05`)를 지정할 수 없습니다. [자세히 알아보기](../building-journeys/timezone-management.md)
+>* `toDateTimeOnly()`을(를) 사용하여 사용자 지정 대기 식을 작성하는 경우 **not**&#x200B;하여 `Z` 또는 시간대 오프셋(예: `-05:00`)을 추가하십시오. 표현식은 명확한 시간대 지정자 없이 여정이 구성한 시간대를 참조해야 합니다. 그렇지 않으면 프로필이 대기 활동에 걸릴 수 있습니다.
 >
->**올바른 예:** `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00"))`
->
->**잘못된 예:** `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00Z"))` ❌(&#39;Z&#39; 포함)
+>| | 예 |
+>|---|---|
+>| **수정** | `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00"))` |
+>| **잘못됨** | `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00Z"))` ❌(`Z` 포함) |
 
 대기 활동이 예상대로 작동하는지 확인하려면 단계 이벤트를 사용할 수 있습니다. [자세히 알아보기](../reports/query-examples.md#common-queries).
 
