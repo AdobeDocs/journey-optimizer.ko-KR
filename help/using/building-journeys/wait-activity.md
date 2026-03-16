@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 대기, 활동, 여정, 다음, 캔버스
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 58cabac978facef373c6cadee0c8fc0963785df8
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '890'
 ht-degree: 12%
 
 ---
@@ -88,21 +88,15 @@ Select the date for the execution of the next activity.
 가장 좋은 방법은 프로필에만 해당되는 사용자 지정 날짜를 사용하고 모든 항목에 동일한 날짜를 사용하지 않는 것입니다. 예를 들어 `toDateTimeOnly('2024-01-01T01:11:00Z')`을(를) 정의하지 않고 각 프로필에 해당하는 `toDateTimeOnly(@event{Event.productDeliveryDate})`을(를) 정의하십시오. 고정 날짜를 사용하면 여정 실행에 문제가 발생할 수 있습니다. [이 섹션](entry-management.md#wait-activities-impact)에서 대기 활동이 여정 처리 속도에 미치는 영향에 대해 자세히 알아보세요.
 
 
->[!NOTE]
->
->`dateTimeOnly` 식을 활용하거나 함수를 사용하여 `dateTimeOnly`(으)로 변환할 수 있습니다. 예: `toDateTimeOnly(@event{Event.offerOpened.activity.endTime})`. 이벤트의 필드는 2023-08-12T09:46:06Z 형식입니다.
->
->여정 속성에 **표준 시간대**&#x200B;이(가) 필요합니다. 따라서 사용자 인터페이스에서 2023-08-12T09:46:06.982-05와 같이 전체 ISO-8601 타임스탬프 혼합 시간 및 시간대 오프셋을 직접 지정할 수 없습니다. [자세히 알아보기](../building-journeys/timezone-management.md).
-
 >[!CAUTION]
 >
->`toDateTimeOnly()`을(를) 사용하여 사용자 지정 대기 식을 만들 때 식 결과에 &#39;Z&#39; 또는 시간대 오프셋(예: &#39;-05:00&#39;)을 추가하지 마십시오. 명시적 시간대 지정자 없이 여정이 구성한 시간대를 참조하는 유효한 ISO 날짜/시간 구문을 표현식에 사용해야 합니다.
+>`dateTimeOnly` 식을 활용하거나 함수를 사용하여 `dateTimeOnly`(으)로 변환할 수 있습니다. 예: `toDateTimeOnly(@event{Event.offerOpened.activity.endTime})`. 이벤트의 필드는 2023-08-12T09:46:06Z 형식입니다. **표준 시간대**&#x200B;은(는) 여정의 속성에 예상되므로 UI에서 2023-08-12T09:46:06.982-05와 같은 전체 ISO-8601 타임스탬프 혼합 시간 및 표준 시간대 오프셋을 직접 가리키면 안 됩니다. [자세히 알아보기](../building-journeys/timezone-management.md).
+>
+>`toDateTimeOnly()`을(를) 사용하여 사용자 지정 대기 식을 만들 때 결과에 &#39;Z&#39; 또는 시간대 오프셋(예: &#39;-05:00&#39;)을 추가하지 마십시오. 명시적 시간대 지정자 없이 여정이 구성한 시간대를 참조하는 유효한 ISO 날짜/시간 구문을 표현식에 사용해야 합니다. 그렇지 않으면 프로필이 대기 활동에 남아 있을 수 있습니다.
 >
 >**올바른 예:** `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00"))`
 >
 >**잘못된 예:** `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00Z"))` ❌(&#39;Z&#39; 포함)
->
->지원되지 않는 시간대 지정자를 사용하면 프로필이 예상대로 진행되지 않고 대기 활동에서 중단된 상태로 유지될 수 있습니다.
 
 대기 활동이 예상대로 작동하는지 확인하려면 단계 이벤트를 사용할 수 있습니다. [자세히 알아보기](../reports/query-examples.md#common-queries).
 
