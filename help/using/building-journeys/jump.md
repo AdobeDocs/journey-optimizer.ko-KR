@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 이동, 활동, 여정, 분할, 분할
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 302db58525a7b2648bb9c44bc9b42da787ca9c43
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 9%
+source-wordcount: '1122'
+ht-degree: 7%
 
 ---
 
@@ -73,6 +73,28 @@ ht-degree: 9%
 
 * **[!UICONTROL Jump]** 활동이 실행되면 대상 여정의 최신 버전이 트리거됩니다.
 * 고유한 개인은 동일한 여정에 한 번만 있을 수 있습니다. 따라서 원본 여정에서 푸시된 개인이 이미 대상 여정에 있는 경우 해당 개인은 대상 여정에 들어오지 않습니다. **[!UICONTROL Jump]** 활동은 정상적인 동작이므로 오류가 보고되지 않습니다.
+
+## 디자인 전략: 바이트 크기의 하위 여정 {#jump-strategy}
+
+복잡한 고객 여정은 특히 추가 채널 또는 터치포인트가 도입됨에 따라 빠르게 구축 및 유지 관리가 어려워질 수 있습니다. 몇 가지 이정표가 있는 여정 조차도 고객이 취할 수 있는 20개 이상의 고유한 경로를 노출할 수 있으며 이러한 복잡성은 매번 추가될 때마다 기하급수적으로 증가합니다.
+
+이를 관리하는 실용적인 방법은 큰 여정을 비즈니스 단계나 이정표당 하나씩 더 작고 집중된 하위 여정으로 나누고 **[!UICONTROL Jump]** 활동을 사용하여 연결하는 것입니다. 이렇게 하면 각 여정의 읽기, 테스트 및 독립적으로 유지 관리할 수 있습니다.
+
+**1단계 — 전체 여정 시각화**
+
+전체 고객 여정을 매핑하고 상위 단계를 식별합니다. 예를 들어, 충성도 온보딩 여정에 모바일 앱 다운로드, 첫 번째 트랜잭션 만들기, 두 번째 트랜잭션 만들기의 세 가지 단계가 포함될 수 있습니다.
+
+**2단계 — 단계에 주석을 달고 하위 여정 정의**
+
+각 단계의 경계를 표시하고 비즈니스 목표를 정의합니다. 각 단계는 명확한 진입 조건과 목표를 가진 후보 하위 여정이 된다.
+
+**3단계 — 하위 여정 빌드 및 연결**
+
+각 단계를 Journey Optimizer에서 별도의 여정으로 작성한 다음 **[!UICONTROL Jump]** 활동을 사용하여 한 하위 여정에서 다음 하위 프로필로 프로필을 전달합니다. 그 결과, 한 세트의 단순하고 재사용 가능한 여정이 합쳐져 전체 엔드 투 엔드 경험을 만듭니다. 이때 오류가 발생할 위험은 줄어듭니다.
+
+>[!TIP]
+>
+>이 접근 방식에 대한 자세한 설명은 [Journey Optimizer의 고급 여정 모범 사례](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}를 참조하세요.
 
 ## 점프 활동 구성 {#jump-configure}
 

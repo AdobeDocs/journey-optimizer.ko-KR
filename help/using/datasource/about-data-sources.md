@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 데이터, 소스, 여정, 플랫폼
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 302db58525a7b2648bb9c44bc9b42da787ca9c43
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 65%
+source-wordcount: '615'
+ht-degree: 37%
 
 ---
 
@@ -49,11 +49,44 @@ ht-degree: 65%
 >
 >데이터 소스에 대해서는 스키마 관계가 지원되지 않습니다.
 
-Adobe Experience Platform 데이터 소스 및 외부 데이터 소스를 구성하는 방법, 그리고 여정에서 데이터를 찾아서 사용하는 방법과 관련된 자세한 내용을 확인하려면 이 [자습서 비디오](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html?lang=ko){target="_blank"}를 시청하십시오.
+## 데이터 액세스 전략 선택 {#data-access-strategy}
+
+데이터 소스를 구성하기 전에 사용 사례에 가장 적합한 접근 방식을 고려하십시오. 세 가지 옵션을 사용할 수 있으며, 각 옵션은 지속성, 프로필 보강 및 재사용 가능성 측면에서 서로 다른 장단점을 갖습니다. 이러한 옵션에 대한 자세한 내용은 [Journey Optimizer의 고급 여정 모범 사례](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}를 참조하십시오.
+
+**옵션 1 — 사용자 지정 작업으로 외부 데이터에 액세스(데이터 레이크 없음)**
+
+Experience Platform 데이터 레이크의 데이터를 유지하지 않고 여정 런타임 시 외부 API에 직접 연결합니다. 다음과 같은 경우에 가장 적합합니다.
+
+* 이 데이터는 여정 컨텍스트 내에서만 유용하며 다른 곳에서는 필요하지 않습니다.
+* 필요한 속성을 반환하는 API 끝점을 통해 외부 시스템에 액세스할 수 있습니다.
+
+[사용자 지정 작업](../action/action.md) 및 [사용자 지정 작업 응답](../action/action-response.md)에 대해 자세히 알아보세요.
+
+**옵션 2 — 데이터 레이크의 데이터 세트가 프로필에 대해 활성화되지 않음**
+
+실시간 고객 프로필에 기여하지 않고 컨텍스트 기반 이벤트 데이터를 기반으로 여정을 트리거하고 개인화하기 위해 데이터 세트에 데이터를 수집합니다. 다음과 같은 경우에 가장 적합합니다.
+
+* 레코드에는 Experience Platform에 이미 저장된 프로필에 액세스하는 데 사용할 수 있는 ID 필드가 포함되어 있습니다.
+* Journey Optimizer 외부의 대상 만들기 또는 ID 결합에 데이터가 필요하지 않습니다.
+
+**옵션 3 — 데이터 레이크의 프로필 사용 데이터 세트**
+
+프로필을 사용할 수 있는 데이터 세트에 데이터를 수집하여 대상자를 생성하고, ID 그래프를 보강하며, 여러 여정 및 RT-CDP 대상에서 데이터를 활용합니다. 다음과 같은 경우에 가장 적합합니다.
+
+* 이 데이터는 Journey Optimizer 이외의 채널에 사용된 대상 정의에 유용합니다.
+* 데이터에는 더욱 풍부하고 결합된 프로필 조각에 기여하는 여러 ID가 포함되어 있습니다.
+
+| | 데이터 레이크에서 지속되는 데이터 | 프로필에 대해 데이터 세트 활성화됨 |
+| --- | --- | --- |
+| **옵션 1** — 사용자 지정 작업을 통한 외부 데이터 | 아니요 | 아니요 |
+| **옵션 2** — 프로필에 대해 데이터 세트가 활성화되지 않음 | 예 | 아니요 |
+| **옵션 3** — 프로필 사용 데이터 세트 | 예 | 예 |
+
+Adobe Experience Platform 데이터 소스 및 외부 데이터 소스를 구성하는 방법, 그리고 여정에서 데이터를 찾아서 사용하는 방법과 관련된 자세한 내용을 확인하려면 이 [자습서 비디오](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target="_blank"}를 시청하십시오.
 
 ## 사용 방법 비디오 {#video}
 
 데이터 소스의 정의를 이해하고 Experience Platform 및 외부 데이터 소스를 구성하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416636?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334256?quality=12)
 

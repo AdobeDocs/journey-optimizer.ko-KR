@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 외부, 소스, 데이터, 구성, 연결, 서드파티
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 3d6b12903d4c43fec2fd4e0046a5d1f90ecd6d64
+source-git-commit: 302db58525a7b2648bb9c44bc9b42da787ca9c43
 workflow-type: tm+mt
-source-wordcount: '1718'
-ht-degree: 33%
+source-wordcount: '1761'
+ht-degree: 32%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 33%
 >
 >* 외부 시스템으로 작업할 때 보호 기능은 [이 페이지](../configuration/external-systems.md)에 나열됩니다.
 >
->* 이제 응답이 지원되므로 외부 데이터 소스 사용 사례에서 데이터 소스 대신 사용자 지정 작업을 사용해야 합니다. 응답에 대한 자세한 내용은 [사용자 지정 작업 응답](../action/action-response.md)을 참조하세요.
+>* 이제 응답이 지원되므로 외부 데이터 소스 사용 사례에서 데이터 소스 대신 사용자 지정 작업을 사용해야 합니다. 응답에 대한 자세한 내용은 [사용자 지정 작업 응답](../action/action-response.md)을 참조하세요. 데이터 레이크 지속성이 없는 사용자 지정 작업은 데이터가 여정 내부에서만 유용하고 API 끝점을 통해 외부 시스템에 액세스할 수 있는 경우 올바른 선택입니다. 모든 데이터 액세스 옵션을 비교하려면 [데이터 액세스 전략 선택](../datasource/about-data-sources.md#data-access-strategy)을 참조하세요.
 
 POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다. 그리고 API 키와 기본/사용자 지정 인증 모드가 지원됩니다.
 
