@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 43a4b85adb74e24c7c57fa74177795d014b88774
+source-git-commit: 11597a92f5a6453e37c8de83f99df8e25f793eaf
 workflow-type: tm+mt
-source-wordcount: '5714'
-ht-degree: 83%
+source-wordcount: '6142'
+ht-degree: 78%
 
 ---
 
@@ -20,6 +20,26 @@ ht-degree: 83%
 이 페이지에는 월별 릴리스 기능 및 개선 사항과 관련된 업데이트 외에도 [!DNL Journey Optimizer] 설명서의 모든 최신 변경 사항이 나와 있습니다.
 
 ## 2026년 3월 {#march-2026}
+
+* **테스트 프로필 만들기** 설명서에 ID 설명자 요구 사항에 대한 중요한 메모를 업데이트했습니다. 데이터 세트를 삭제하고 다시 만들 때 스키마는 기본 ID 필드에 올바른 ID 설명자를 유지해야 합니다. 이 기능이 없으면 수집이 완료된 경우에도 수집된 프로필에 `testProfile = true`(으)로 플래그가 지정되지 않습니다. 문제 해결 체크리스트가 추가되었습니다. [자세히 보기](../audience/creating-test-profiles.md)
+
+* **대상자 읽기** 활동 설명서가 업데이트되어 **비즈니스 이벤트** 활동이 여정의 첫 번째 활동이어야 하는 규칙에 대한 예외임을 명확히 합니다. 대상 타깃팅을 제어하기 위한 고급 대체 요소로 **최적화** 활동을 참조하는 메모도 추가되었습니다. [자세히 보기](../building-journeys/read-audience.md)
+
+* 이제 여정에서 **웨이브를 사용하여 보내기**&#x200B;를 일반적으로 사용할 수 있습니다. 설명서에서 제한된 가용성 플래그가 제거되었습니다. [자세히 보기](../building-journeys/send-using-waves.md)
+
+* **Jump** 활동 설명서는 새로운 디자인 전략 섹션(**바이트 크기 하위 여정**)으로 보강되었으며, 복잡한 전체 흐름을 Jump 활동을 통해 연결된 작고 집중된 하위 여정으로 변환하는 방법에 대해 설명합니다. [자세히 보기](../building-journeys/jump.md#jump-strategy)
+
+* **태그** 설명서에 복잡한 명명 규칙 대신 태그 범주를 사용하는 방법에 대한 지침을 업데이트했습니다. 새 섹션에서는 확장 가능한 여정 관리를 위한 태그 범주를 설정하는 방법에 대해 설명합니다. [자세히 보기](../building-journeys/tags.md)
+
+* 이제 **데이터 원본 정보** 설명서에는 관리자가 사용자 지정 작업을 통해 외부 데이터에 액세스하거나, 프로필에 대해 활성화되지 않은 데이터 집합을 사용하거나, 프로필이 활성화된 데이터 집합을 사용하는 세 가지 데이터 액세스 전략 중에서 선택할 수 있는 새로운 섹션이 포함되어 있습니다. 각 옵션은 장단점 및 권장 사용 사례와 함께 설명되어 있습니다. [자세히 보기](../datasource/about-data-sources.md#data-access-strategy)
+
+* **푸시 알림 디자인** 설명서에 iOS의 범용 링크 동작을 설명하는 메모가 업데이트되었습니다. 알림 URL이 범용 링크로 등록되어 있으면 선택한 웹 URL 동작과 관계없이 연결된 앱이 열립니다. 브라우저를 강제로 여는 방법에 대한 지침을 추가했습니다. [자세히 보기](../push/design-push.md)
+
+* 이제 의사 결정 설명서에서 새 **AI 모델 모니터링** 페이지를 사용할 수 있습니다. [!DNL Journey Optimizer]에서 직접 개인화된 최적화 모델의 상태, 교육 상태 및 성능을 추적하는 방법에 대해 설명합니다. [자세히 보기](../experience-decisioning/ranking/ai-model-observability.md)
+
+* 이제 전자 메일 서식 파일용 **고급 HTML 편집기**(전문가 모드)를 제한된 가용성으로 사용할 수 있습니다. 이제 설명서 페이지에 공개적으로 액세스할 수 있습니다. 이 기능을 사용하면 이메일 Designer에서 직접 이메일 콘텐츠 템플릿의 원시 HTML 소스를 보고 편집할 수 있습니다. [자세히 보기](../content-management/email-template-expert-mode.md)
+
+* **URL 추적** 및 **여정 문제 해결** 설명서가 닫힌 여정에서 `context.system.source.actionId`의 동작을 문서화하도록 업데이트되었습니다. 닫거나 다시 게시하지 않은 여정은 추적 URL에 빈 `{}`개의 자리 표시자를 생성할 수 있습니다. 여정을 다시 게시하거나 영향을 받는 매개 변수를 제거하여 문제를 해결하는 방법에 대한 지침을 추가했습니다. [자세히 보기](../email/url-tracking.md)
 
 * **Adobe Experience Platform 데이터 소스** 설명서에 XDM 개인 프로필 기반 스키마만 Data Source 구성에서 지원된다는 점을 참고하십시오. [자세히 보기](../datasource/adobe-experience-platform-data-source.md)
 
@@ -103,7 +123,7 @@ ht-degree: 83%
 
 * 테스트, 유효성 검사, 승인 랜딩 페이지에 테스트 기능 개요, 일반적인 질문 FAQ, 탐색 링크가 있는 의사 결정 트리, 설명서 링크의 용어 향상 등 새로운 섹션을 추가해 개선했습니다. [자세히 보기](../../rp_landing_pages/test-landing-page.md)
 
-* 개인화 구문 설명서에 개인화 표현식에서 예약된 키워드를 사용하는 방법을 명확히 설명하는 새 섹션을 추가했습니다. `next`, `last`, `this` 등 특정 PQL 키워드를 XDM 스키마에서 필드 이름으로 사용하는 경우 백틱(&grave;)을 붙여 이스케이프 처리해야 합니다. [자세히 보기](../personalization/personalization-syntax.md#reserved-keywords)
+* 개인화 구문 설명서에 개인화 표현식에서 예약된 키워드를 사용하는 방법을 명확히 설명하는 새 섹션을 추가했습니다. `next`, `last`, `this` 등 특정 PQL 키워드를 XDM 스키마에서 필드 이름으로 사용하는 경우 백틱(`)을 붙여 이스케이프 처리해야 합니다. [자세히 보기](../personalization/personalization-syntax.md#reserved-keywords)
 
 * [캠페인 시작](../campaigns/get-started-with-campaigns.md) 및 [캠페인 관리](../campaigns/manage-campaigns.md) 페이지를 유형별 안내서가 있는 포괄적 워크플로, 향상된 캠페인 유형 비교, 종합 상태 테이블 등 개선된 정보 아키텍처로 재구성했습니다.
 
@@ -521,7 +541,7 @@ ht-degree: 83%
 * Information has been added regarding the behavior of timeouts on event activities in journeys. When no event is received during the specified timeout period, individuals will continue the journey if no timeout path is defined. [Read more](../building-journeys/general-events.md#events-specific-time)
 * In-app channel configuration prerequisites have been updated with a note about the usage of a custom Dataset preference merge policy. [Read more](../in-app/inapp-configuration.md)
 * More details have been added about how to manipulate collections in a custom action response. [Read more](../action/action-response.md#exp-syntax).
-* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko) has been added to the home page.
+* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html) has been added to the home page.
 * An outdated reference to the AJO Message resource has been removed from the list of resources available in the Audit Log. When an update is done on a message in a journey, a **Journey** log is created. [Read more](../privacy/audit-logs.md)
 * Additional recommendations have been added about the usage of the **Read Audience** activity. [Read more](../building-journeys/read-audience.md#must-read)
 * The Get started with Adobe Experience Platform audiences page has been improved with a list of audience generation methods. [Read more](../audience/about-audiences.md)
@@ -551,7 +571,7 @@ ht-degree: 83%
 * Decision management guardrails have been added to the Guardrails and limitations page. [Read more](../start/guardrails.md#decision-management)
 * The Header parameters section has been updated to reflect how out-of-office notifications and challenge responses are handled (they are received on the **[!UICONTROL Error email]**). [Read more](../email/email-settings.md#email-header)
 * A new section on how to preview and test your content has been created. [Read more](../content-management/preview-test.md)
-* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=ko){target="_blank"}
+* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
 * The Capping section has been updated to reflect the label changes relating to offer capping in the Decision management interface. [Read more](../offers/offer-library/add-constraints.md#capping)
 * The Add dynamic content into emails has been updated with details on how to delete a variant. [Read more](../personalization/dynamic-content.md#emails)
 * The example for capping & throttling configurations has been updated. [Read more](../configuration/external-systems.md)
@@ -626,7 +646,7 @@ ht-degree: 83%
 
 ## March 2023 {#march-2023}
 
-* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko)
+* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
 * All new features and improvements coming with [!DNL Journey Optimizer] March '23 release have been detailed in the documentation. [Read more](release-notes.md)
 * Added a step to enable Adobe Analytics events in your journeys. [Read more](../event/about-analytics.md)
 * A new section has been created in the Decision management guide on how to collect offer decisioning feedback in Adobe Experience Platform, including which offers are displayed and how users interact with them. [Read more](../offers/data-collection/data-collection.md)
@@ -754,7 +774,7 @@ ht-degree: 83%
 * The **reactions** event documentation page has been updated. [Read more](../building-journeys/reaction-events.md)
 * Videos for Decision management capabilities have been updated to reflect Journey Optimizer user interface. [Read more](../offers/get-started/starting-offer-decisioning.md)
 * The **Get Started with Datasets** section has been improved to detail how to access and create datasets. [Read more](../data/get-started-datasets.md)
-* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=ko)
+* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html)
 * The **Create message presets** section now specifies that you cannot proceed with preset creation while the selected IP pool is under edition (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. [Read more](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * The message presets **URL tracking** section has been updated to reflect minor changes in the user interface. [Read more](../configuration/channel-surfaces.md#url-tracking)
 
