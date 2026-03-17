@@ -12,7 +12,7 @@ exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 source-git-commit: 302db58525a7b2648bb9c44bc9b42da787ca9c43
 workflow-type: tm+mt
 source-wordcount: '1761'
-ht-degree: 32%
+ht-degree: 33%
 
 ---
 
@@ -122,7 +122,7 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 >[!CONTEXTUALHELP]
 >id="jo_authentication_payload"
 >title="사용자 정의 인증"
->abstract="사용자 정의 인증 모드는 OAuth2 등의 API 래핑 프로토콜을 호출하는 복잡한 인증에 사용됩니다. 작업은 두 단계로 실행됩니다. 첫 단계에서는 엔드포인트 호출을 수행하여 액세스 토큰을 생성합니다. 그런 다음 작업의 HTTP 요청에 액세스 토큰을 삽입합니다."
+>abstract="사용자 정의 인증 모드는 OAuth2 등의 API 래핑 프로토콜을 호출하는 복잡한 인증에 사용됩니다. 작업은 두 단계로 실행됩니다. 첫 단계에서는 엔드포인트 호출을 수행하여 액세스 토큰을 생성합니다. 두 번째 단계에서는 작업의 HTTP 요청에 액세스 토큰을 삽입합니다."
 
 사용자 지정 인증 모드는 작업의 실제 HTTP 요청에 삽입할 액세스 토큰을 검색하기 위해 복잡한 인증에 사용되며, 종종 OAuth2와 같은 API 래핑 프로토콜을 호출하는 데 사용됩니다.
 

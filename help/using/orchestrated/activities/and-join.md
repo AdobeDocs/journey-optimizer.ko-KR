@@ -8,7 +8,7 @@ version: Campaign Orchestration
 source-git-commit: a6dd5e7e4bb55c9cfb094682254d940280de0815
 workflow-type: tm+mt
 source-wordcount: '263'
-ht-degree: 82%
+ht-degree: 84%
 
 ---
 
@@ -22,8 +22,8 @@ ht-degree: 82%
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_join"
->title="가입 활동"
->abstract="조인 활동에 대한 자리 표시자."
+>title="조인 활동"
+>abstract="조인 활동에 대한 플레이스홀더"
 
 **[!UICONTROL AND-결합]** 활동은 **[!UICONTROL 흐름 제어]** 활동입니다. 이를 통해 오케스트레이션된 캠페인의 여러 실행 분기를 동기화할 수 있습니다.
 
