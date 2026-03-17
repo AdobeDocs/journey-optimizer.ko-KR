@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: 1d32db0103fd4f2afcd021cff5e8491515c86d65
+source-git-commit: 8c778ff99d7d32819630d704c42199a5bfbec0f1
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '783'
 ht-degree: 13%
 
 ---
@@ -48,6 +48,8 @@ ht-degree: 13%
 * **캠페인** 대상자를 선택하면 선택한 대상자에 속하는 모든 개인에게 메시지를 보냅니다. [캠페인의 대상자를 정의하는 방법을 알아봅니다](../campaigns/create-campaign.md#define-the-audience-audience).
 
 * 여정에서 **대상자 읽기** 오케스트레이션 활동을 사용하여 대상자의 모든 개인이 여정을 입력하고 여정에 포함된 메시지를 받도록 합니다. “실버 고객”이라는 대상자가 있다고 가정해 보겠습니다. 이 활동을 통해 모든 실버 고객이 여정을 입력하도록 할 수 있습니다. 그런 다음 일련의 개인화된 메시지를 보낼 수 있습니다. [대상자 읽기 활동을 구성하는 방법을 알아봅니다](../building-journeys/read-audience.md#configuring-segment-trigger-activity).
+
+  입력 후 **Condition** 활동을 사용하여 [특성 또는 동작별로 세그먼트화하거나, 모집단의 일부를 제외하거나, 분기를 병합합니다](../building-journeys/read-audience.md#audience-targeting-in-journeys).
 
   대상 구성 또는 사용자 지정 업로드에서 대상을 사용하는 여정의 경우 프로필 속성은 여정 항목에서 마지막 일괄 처리 평가만큼 최신 상태입니다. 그러나 **대기** 활동 후 여정은 UPS(통합 프로필 서비스)에서 프로필 속성을 새로 고침하여 사용 가능한 최신 데이터를 가져옵니다. 즉, 여정 실행 중에 프로필 속성이 변경될 수 있습니다. [대기 활동 후 프로필 새로 고침에 대해 자세히 알아보기](../building-journeys/wait-activity.md#profile-refresh)
 
