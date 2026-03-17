@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 링크, 추적, 모니터링, 이메일
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: df3ae62439882bd4b1f5f00e9c24d341f83b8df9
+source-git-commit: 4a78734dc7f9fafd1e8c64aab310cb130ffd928f
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1513'
 ht-degree: 22%
 
 ---
@@ -49,11 +49,11 @@ ht-degree: 22%
 * **[!UICONTROL 이메일 열기]** 지표는 열린 메시지 수를 확인합니다.
 * **[!UICONTROL 전자 메일 클릭]** 지표는 전자 메일의 링크 클릭 수를 계산합니다.
 
-## 링크 삽입 {#insert-links}
+### 여러 이메일 추적 {#track-across-multiple-emails}
 
-[추적을 사용하도록 설정](#enable-tracking)하면 메시지 콘텐츠에 포함된 모든 링크가 추적됩니다.
+**URL**&#x200B;과(와) **label**&#x200B;이(가) 모두 고유한 경우에만 고유한 추적 식별자(urlID)가 생성됩니다. 동일한 URL을 공유하고 유효한 레이블이 동일한 링크(레이블이 비어 있는 경우 포함)는 동일한 urlID를 재사용하므로 클릭한 링크를 파악할 수 없습니다.
 
-**URL**&#x200B;과(와) **label**&#x200B;이(가) 모두 고유한 경우에만 고유한 추적 식별자(urlID)가 생성됩니다. 동일한 URL을 공유하고 유효한 레이블이 동일한 링크(레이블이 비어 있는 경우 포함)는 동일한 urlID를 재사용하므로 클릭한 링크를 파악할 수 없습니다. 여러 전자 메일에서(또는 한 전자 메일에서 여러 번) 동일한 URL을 추적하려면 유사한 각 URL에 대해 고유한 레이블을 사용합니다. 그렇지 않으면 [!DNL Journey Optimizer]에서 클릭한 링크를 추적할 수 없습니다. `data-label` 특성을 통해 이메일 Designer 또는 HTML의 경우 개별 레이블을 설정할 수 있습니다.
+여러 전자 메일에서(또는 한 전자 메일에서 여러 번) 동일한 URL을 추적하려면 유사한 각 URL에 대해 고유한 레이블을 사용합니다. 그렇지 않으면 [!DNL Journey Optimizer]에서 클릭한 링크를 추적할 수 없습니다. `data-label` 특성을 통해 이메일 Designer 또는 HTML의 경우 개별 레이블을 설정할 수 있습니다.
 
 | URL | 태그 | 레이블 | urlID 동작 |
 |-----|-----|-------|----------------|
@@ -61,6 +61,10 @@ ht-degree: 22%
 | www.example.com | Second | (공백) | urlID A 재사용 — 클릭한 링크를 파악할 수 없음 |
 | www.example.com | 세 번째 | 첫 번째 레이블 | urlID를 가져옵니다(예: B). |
 | www.example.com | 네 번째 | 두 번째 레이블 | urlID(예: C)를 가져옵니다. |
+
+## 링크 삽입 {#insert-links}
+
+[추적을 사용하도록 설정](#enable-tracking)하면 메시지 콘텐츠에 포함된 모든 링크가 추적됩니다.
 
 >[!NOTE]
 >
