@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
-source-git-commit: 6859847ad700a471dd43b2cb9b0c486e31d91c78
+source-git-commit: cfe6fa417c81e7488a3f2f1313b08f346f1aeb03
 workflow-type: tm+mt
-source-wordcount: '1077'
-ht-degree: 5%
+source-wordcount: '2742'
+ht-degree: 4%
 
 ---
 
@@ -29,227 +29,436 @@ ht-degree: 5%
 
 >[!BEGINSHADEBOX]
 
-옵트인 또는 옵트아웃 키워드가 제공되지 않으면 표준 동의 메시지가 사용자 개인 정보를 보장하는 데 사용됩니다. 사용자 지정 키워드를 추가하면 기본값이 자동으로 재정의됩니다.
+Journey Optimizer에서 새 API 자격 증명을 만들 때, 이제 SMS 웹후크를 통해 인바운드 키워드와 게재 및 오류와 같은 피드백 이벤트를 모두 캡처할 수 있습니다. 공급자마다 기능이 다르기 때문에 웹후크를 활성화하는 지침이 별도로 있습니다.
+이제 웹후크가 사용자 정의 공급자를 지원하므로 Journey Optimizer에서 보고 및 조치를 취할 공급자로부터 피드백 및 인바운드 키워드 수집을 수집할 수 있습니다.
 
-**기본 키워드:**
+* **새 고객:** SMS 웹후크를 올바르게 구성하기 위한 지침을 따를 수 있습니다.
 
-* **옵트인**: 구독, 예, 중지 취소, 시작, 계속, 다시 시작, 시작
-* **옵트아웃**: 중지, 종료, 취소, 종료, 구독 취소, 아니요
-* **도움말**: 도움말
+* **기존 고객:** API 자격 증명에 저장된 정보에서 웹후크로 마이그레이션할 수 있으며 고객이 마이그레이션할 타임라인이 없습니다. SMS 웹후크로 마이그레이션하려는 기존 고객의 경우 마이그레이션 가이드에 설명된 대로 마이그레이션 단계를 수행해야 합니다.
 
 >[!ENDSHADEBOX]
+
+## 개요 {#overview}
 
 API 자격 증명이 정상적으로 생성되면 이제 옵트인 및 옵트아웃 동의 관리를 위한 인바운드 응답을 캡처하고, 사용 가능한 경우 읽기 확인을 포함한 게재 보고서를 수신하도록 웹후크를 구성할 수 있습니다.
 
 웹후크를 설정할 때 캡처할 데이터 유형을 기반으로 용도를 정의할 수 있습니다.
 
-* **[!UICONTROL 인바운드]**: 옵트인 또는 옵트아웃과 같은 동의 응답을 캡처하고 사용자 환경 설정을 수집하려면 이 옵션을 사용합니다.
+* **인바운드**: 옵트인 또는 옵트아웃과 같은 동의 응답을 캡처하고 사용자 환경 설정을 수집하려면 이 옵션을 사용합니다.
 
-* **[!UICONTROL 피드백]**: 보고 및 분석을 지원하기 위해 읽기 확인 및 사용자 상호 작용을 포함한 게재 및 참여 이벤트를 추적하려면 이 옵션을 선택하십시오.
+* **피드백**: 보고 및 분석을 지원하기 위해 게재, 아웃바운드 오류, 수신 확인 읽기(해당되는 경우)를 포함한 게재 및 참여 이벤트를 추적하려면 이 옵션을 선택합니다.
 
-SMS 공급자에 따라 아래 탭을 탐색합니다.
+공급업체에 따라 SMS를 성공적으로 구현하기 위해 설정해야 하는 항목에 대한 다양한 기대가 있습니다.
 
->[!BEGINTABS]
+* **Sinch 및 Sinch 대화**: 인바운드 이벤트와 피드백 이벤트를 모두 처리하는 웹 후크 하나를 만듭니다. 페이로드 구성은 필요하지 않습니다.
 
->[!TAB 사용자 지정]
+* **Infobip**: 인바운드 이벤트에 대해 하나, 피드백 이벤트에 대해 하나, 별도의 웹 후크를 두 개 만듭니다. Webhook에 페이로드 구성이 필요하지 않습니다.
 
-1. 왼쪽 레일에서 **[!UICONTROL 관리]** `>` **[!UICONTROL 채널]**(으)로 이동하고 **[!UICONTROL SMS 설정]**&#x200B;에서 **[!UICONTROL SMS 웹후크]** 메뉴를 선택한 다음 **[!UICONTROL 웹후크 만들기]** 단추를 클릭합니다.
+* **Twilio**: 웹후크를 사용할 수 없습니다. 인바운드 및 피드백 데이터 수집은 지원되지 않습니다.
 
-   ![](assets/sms_byo_5.png){zoomable="yes"}
+* **사용자 지정 공급자**: 인바운드 이벤트 및 피드백 이벤트에 대해 하나씩 두 개의 개별 웹후크를 만듭니다. 두 웹후크가 모두 제대로 작동하려면 페이로드 구성이 필요합니다.
 
-1. 아래에 자세히 설명된 대로 Webhook 설정을 구성합니다.
+### 공급자 지원 {#provider-support}
 
-   * **[!UICONTROL 이름]**: Webhook의 이름을 입력하십시오.
+>[!NOTE]
+>
+>지원되는 유일한 Webhook 형식은 JSON입니다. 웹 후크에 대한 양식 데이터는 지원되지 않습니다.
 
-   * **[!UICONTROL SMS 공급업체 선택]**: 사용자 지정.
+다음 표는 인바운드 및 피드백 웹후크를 지원하는 공급자와 페이로드 생성이 필요한지 여부를 보여 줍니다.
 
-   * **[!UICONTROL 유형]**: 인바운드.
+| 공급자 | 인바운드 Webhook | 피드백 Webhook | 키워드 | 페이로드 생성 필요 | Webhook 필요 | 페이로드 생성 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 정보 피드 | 구성 가능 | 구성 가능 | 구성 가능 | 필요 없음 | 필수 여부 | 필요 없음 |
+| Sinch | 구성 가능 | 구성 가능 | 구성 가능 | 필요 없음 | 아니요. 통합 지원 | N/A |
+| Sinch 대화 | 구성 가능 | 구성 가능 | 구성 가능 | 필요 없음 | 아니요. 통합 지원 | N/A |
+| 트빌리오 | 사용할 수 없음 | 사용할 수 없음 | 사용할 수 없음 | 사용할 수 없음 | 사용할 수 없음 | N/A |
+| 사용자 정의 | 구성 가능 | 구성 가능 | 구성 가능 | 필수 여부 | 필수 여부 | 필수 여부 |
 
-   * **[!UICONTROL API 자격 증명]**: 드롭다운에서 [이전에 구성한 API 자격 증명](sms-configuration-custom.md#api-credential)을 선택합니다.
+API 자격 증명에서 SMS 웹후크로 이동하는 고객의 경우 마이그레이션 경로에 대한 정보는 마이그레이션 안내서에 있습니다.
 
-   * **[!UICONTROL 보낸 사람 전화 번호{&#x200B;1}: 통신에 사용할 보낸 사람 전화 번호&#x200B;을 입력합니다.]**
+## Webhook 만들기
 
-     ![](assets/webhook-inbound.png){zoomable="yes"}
+### Sinch 및 Sinch 대화용 {#create-webhook-sinch}
 
-1. ![](assets/do-not-localize/Smock_Add_18_N.svg)을(를) 클릭하여 키워드 범주를 추가한 다음 SMS 공급자에 따라 구성합니다.
-
-   * **[!UICONTROL 인바운드 키워드 범주]**: 키워드 범주를 **[!UICONTROL 옵트인]**, **[!UICONTROL 옵트아웃]**, **[!UICONTROL 이중 옵트인]**, **[!UICONTROL 도움말]** 또는 **[!UICONTROL 사용자 지정]** 중에서 선택합니다.
-
-   * **[!UICONTROL 키워드 입력]**: 메시지를 자동으로 트리거할 기본 또는 사용자 지정 키워드를 입력합니다. 여러 키워드를 추가하려면 ![](assets/do-not-localize/Smock_Add_18_N.svg)을(를) 클릭하십시오.
-
-     **[!UICONTROL 사용자 지정 키워드]**&#x200B;의 경우 여정 내의 일괄 처리 기반 작업에 동의 없는 관련 키워드를 사용하십시오.
-
-   * **[!UICONTROL 응답 메시지]**: 자동으로 전송되는 사용자 지정 응답을 드롭다운에서 선택합니다.
-
-   * **[!UICONTROL 유사 옵트아웃]**: 거의 일치하는 옵트아웃 키워드가 검색되면 자동 회신을 보내도록 이 옵션을 활성화합니다.
-
-   ![](assets/sms_byo_6.png){zoomable="yes"}
-
-1. 인바운드 메시지가 구성된 키워드 또는 범주와 일치하지 않을 때 자동으로 보내는 **[!UICONTROL 기본 회신 메시지]**&#x200B;를 입력하십시오.
-
-1. 요청 페이로드의 유효성을 검사하고 사용자 지정하려면 **[!UICONTROL 페이로드 편집기 보기]**&#x200B;를 클릭하십시오.
-
-   프로필 속성을 사용하여 페이로드를 동적으로 개인화할 수 있으며, 내장된 도우미 함수를 사용하여 처리 및 응답 생성을 위해 정확한 데이터가 전송되도록 할 수 있습니다.
-
-1. Webhook 구성을 마치면 **[!UICONTROL 제출]**&#x200B;을 클릭합니다.
-
-1. **[!UICONTROL 피드백]** 웹후크를 만들려면 위와 동일한 단계를 수행하여 **[!UICONTROL 피드백]**&#x200B;을(를) 웹후크 **[!UICONTROL 유형]**(으)로 선택합니다.
-
-1. **[!UICONTROL 웹후크]** 메뉴에서 기존 웹후크를 편집 또는 삭제하거나 SMS 공급자와 통합하기 위해 **[!UICONTROL 웹후크 URL]**&#x200B;에 액세스하고 복사할 수 있습니다.
-
-   ![](assets/sms_byo_7.png){zoomable="yes"}
-
-Webhook에 대한 설정을 만들고 구성한 후에는 SMS 메시지에 대해 [채널 구성](sms-configuration-surface.md)을 만들어야 합니다.
-
-구성하고 나면 메시지 작성, 개인화, 링크 추적 및 보고와 같은 기본 제공 채널 기능을 모두 활용할 수 있습니다.
-
->[!TAB Infobip]
+Sinch 및 Sinch 대화의 경우 인바운드 이벤트와 피드백 이벤트를 모두 처리하는 단일 웹후크를 만듭니다. 사용자 지정 페이로드 구성은 필요하지 않습니다.
 
 1. 왼쪽 레일에서 **[!UICONTROL 관리]** `>` **[!UICONTROL 채널]**(으)로 이동하고 **[!UICONTROL SMS 설정]**&#x200B;에서 **[!UICONTROL SMS 웹후크]** 메뉴를 선택한 다음 **[!UICONTROL 웹후크 만들기]** 단추를 클릭합니다.
 
-   ![](assets/sms_byo_5.png){zoomable="yes"}
+   ![](assets/webhook-1.png)
 
-1. 아래에 자세히 설명된 대로 Webhook 설정을 구성합니다.
+1. 아래에 자세히 설명된 대로 웹후크 설정을 구성합니다.
 
-   * **[!UICONTROL 이름]**: Webhook의 이름을 입력하십시오.
+   * **[!UICONTROL 이름]**: 웹후크의 이름을 입력하십시오.
+
+   * **[!UICONTROL SMS 공급업체 선택]**: Sinch 또는 Sinch 대화 가능
+
+   * **[!UICONTROL API 자격 증명]**: 드롭다운에서 [이전에 구성한 API 자격 증명](sms-configuration-sinch.md)을 선택합니다.
+
+   * **[!UICONTROL 보낸 사람 전화 번호]**: 통신에 사용할 보낸 사람 전화 번호를 입력하십시오.
+
+   ![](assets/webhook-2.png)
+
+1. **[!UICONTROL 키워드 입력]** 필드에 키워드를 입력하여 인바운드 키워드 설정을 시작합니다. 여러 키워드를 추가하고 제거할 수 있습니다. 키워드는 대/소문자를 구분하지 않습니다.
+
+   ![](assets/webhook-3.png)
+
+1. **[!UICONTROL 인바운드 키워드 범주]** 드롭다운에서 키워드 범주를 선택하여 구성하십시오.
+
+   * 
+     +++ 옵트인
+
+      * 동의를 얻어 사용자를 옵트인하는 키워드를 활성화합니다. 사용자의 메시지가 구성된 키워드와 일치하면 SMS 메시지를 수신하기 위해 해당 전화 번호를 선택합니다.
+
+      * 기본적으로 Subscribe, Yes, Unstop, Continue, Resume 및 Begin 키워드가 활성화됩니다. ![](assets/do-not-localize/Smock_Close_18_N.svg)을(를) 클릭하여 기본 키워드를 제거합니다.
+
+      * **[!UICONTROL 응답 메시지]** 필드를 사용하여 사용자의 인바운드 메시지가 옵트인 키워드와 일치할 때 자동으로 전송되는 메시지를 만듭니다.
+
+   +++
+
+   * 
+     +++ 옵트아웃
+
+      * 사용자를 옵트아웃하고 텍스트 메시지 전송에 대한 동의를 제거하는 키워드를 활성화합니다. 사용자의 메시지가 구성된 키워드와 일치하면 해당 전화번호는 SMS 메시지를 수신하지 않도록 옵트아웃됩니다.
+
+      * 기본적으로 Stop, Quit, Cancel, End, Unsubscribe, No 키워드가 활성화됩니다. ![](assets/do-not-localize/Smock_Close_18_N.svg)을(를) 클릭하여 기본 키워드를 제거합니다.
+
+      * **[!UICONTROL 응답 메시지]** 필드를 사용하여 사용자의 인바운드 메시지가 옵트아웃 키워드와 일치할 때 자동으로 전송되는 메시지를 만듭니다.
+
+      * 구성된 옵트아웃 키워드와 유사한 키워드를 검색하려면 **[!UICONTROL 퍼지 논리]**&#x200B;를 활성화하십시오. 사용자의 응답이 가깝지만 정확하지 않은 경우 **[!UICONTROL 유사 자동 응답]** 필드에 입력한 메시지가 전송됩니다. 일반적으로 이 메시지는 옵트아웃이 발생하지 않았음을 나타내며 구독을 취소하는 데 필요한 정확한 키워드를 지정합니다.
+
+   +++
+
+   * 
+     +++ 이중 옵트인
+
+      * 이중 옵트인 요구 사항에 대한 키워드를 활성화합니다. 사용자의 메시지가 구성된 키워드와 일치하는 경우, 이 단계에서 완전히 옵트인되지 않습니다. 이 2단계 동의 워크플로를 사용하려면 사용자가 두 번째 키워드로 옵트인을 확인해야 합니다.
+
+      * 이중 옵트인 키워드가 일치할 때 자동으로 전송되는 메시지를 만들려면 **[!UICONTROL 응답 메시지]** 필드를 사용하십시오. 이 메시지는 사용자에게 옵트인 프로세스를 완료하기 위해 옵트인 키워드를 입력하도록 지시합니다.
+
+   +++
+
+   * 
+     +++ 도움말
+
+      * 도움이 요청될 때 표준 응답을 제공하는 키워드를 활성화합니다. 사용자의 메시지가 구성된 키워드와 일치하면 도움말 회신 메시지를 받습니다.
+
+      * 기본적으로 도움말, 정보, 정보 키워드가 활성화됩니다. ![](assets/do-not-localize/Smock_Close_18_N.svg)을(를) 클릭하여 기본 키워드를 제거합니다.
+
+      * **[!UICONTROL 응답 메시지]** 필드를 사용하여 사용자의 인바운드 메시지가 도움말 키워드와 일치할 때 자동으로 전송되는 메시지를 만듭니다.
+
+   +++
+
+   * 
+     +++ 사용자 정의
+
+      * 단일 사용자 지정 키워드를 구성합니다. 사용자의 메시지가 이 키워드와 일치하면 보고 및 대상 작성을 위해 **[!UICONTROL 메시지 피드백 추적]** 데이터 집합에 키워드가 기록됩니다.
+
+      * 여정 및 캠페인에 사용하기 위해 이 키워드를 참조하는 대상(스트리밍 또는 배치)을 빌드합니다.
+
+   +++
+
+1. **[!UICONTROL 기본 회신 메시지]**&#x200B;를 입력하세요. 이 메시지는 사용자의 응답이 구성된 키워드와 일치하지 않을 때 자동으로 전송됩니다.
+
+   ![](assets/webhook-4.png)
+
+1. **[!UICONTROL 제출]**&#x200B;을 클릭하여 웹후크 구성을 저장합니다.
+
+1. **[!UICONTROL 웹후크]** 메뉴에서 기존 웹후크를 편집하거나 삭제할 수 있습니다.
+
+1. 새로 만든 웹후크에 액세스하여 **[!UICONTROL 웹후크 URL]**&#x200B;을(를) 복사합니다.
+
+   ![](assets/webhook-5.png)
+
+1. **[!UICONTROL Webhook URL]**&#x200B;을(를) 사용하여 **Feedback** 및 **Inbound** 이벤트를 Journey Optimizer으로 보낼 수 있습니다.
+
+   * SMS 채널의 경우 [Sinch 설명서에서 자세히 알아보기](https://community.sinch.com/t5/SMS/How-do-I-assign-a-callback-URL-to-an-SMS-service/ta-p/8414)
+
+   * MMS 채널의 경우 [Sinch 설명서에서 자세히 알아보기](https://developers.sinch.com/docs/conversation/getting-started#5-handle-incoming-messages)
+
+   * Journey Optimizer을 통해 직접 SMS를 구매한 고객의 경우 Adobe 지원으로 지원 티켓을 제출하십시오. Adobe 계정 팀이 웹후크 URL을 구성합니다.
+     ![](assets/webhook-4.png)
+
+웹후크가 기존 채널 구성에 첨부된 API 자격 증명을 사용하는 경우 웹후크는 즉시 적용됩니다. 그렇지 않으면 새 채널 구성을 만듭니다.
+
+➡️[채널 구성에 대해 자세히 알아보기](sms-configuration-surface.md)
+
+### Infobip용 {#create-webhook-infobip}
+
+Infobip의 경우 피드백 이벤트에 대해 만들고 인바운드 이벤트에 대해 만드는 두 개의 별도 웹후크를 만듭니다.
+
+1. 왼쪽 레일에서 **[!UICONTROL 관리]** `>` **[!UICONTROL 채널]**(으)로 이동하고 **[!UICONTROL SMS 설정]**&#x200B;에서 **[!UICONTROL SMS 웹후크]** 메뉴를 선택한 다음 **[!UICONTROL 웹후크 만들기]** 단추를 클릭합니다.
+
+   ![](assets/webhook-1.png)
+
+1. 아래에 자세히 설명된 대로 웹후크 설정을 구성합니다.
+
+   * **[!UICONTROL 이름]**: 웹후크의 이름을 입력하십시오.
 
    * **[!UICONTROL SMS 공급업체 선택]**: Infobip.
 
-   * **[!UICONTROL 유형]**: 인바운드.
+   * **[!UICONTROL 유형]**: 피드백 또는 인바운드를 선택하십시오. 두 가지를 개별적으로 생성해야 합니다. 여기에서는 Inbound로 시작합니다.
 
    * **[!UICONTROL API 자격 증명]**: 드롭다운에서 [이전에 구성한 API 자격 증명](sms-configuration-infobip.md#api-credential)을 선택합니다.
 
-   * **[!UICONTROL 보낸 사람 전화 번호{&#x200B;1}: 통신에 사용할 보낸 사람 전화 번호&#x200B;을 입력합니다.]**
+   * **[!UICONTROL 보낸 사람 전화 번호]**: 통신에 사용할 보낸 사람 전화 번호를 입력하십시오.
 
-     ![](assets/webhook-infobip-1.png){zoomable="yes"}
+   ![](assets/webhook-6.png)
 
-1. ![](assets/do-not-localize/Smock_Add_18_N.svg)을(를) 클릭하여 키워드 범주를 추가한 다음 SMS 공급자에 따라 구성합니다.
+1. **[!UICONTROL 키워드 입력]** 필드에 키워드를 입력하여 인바운드 키워드 설정을 시작합니다. 여러 키워드를 추가하고 제거할 수 있습니다. 키워드는 대/소문자를 구분하지 않습니다.
 
-   * **[!UICONTROL 인바운드 키워드 범주]**: 키워드 범주를 **[!UICONTROL 옵트인]**, **[!UICONTROL 옵트아웃]**, **[!UICONTROL 이중 옵트인]**, **[!UICONTROL 도움말]** 또는 **[!UICONTROL 사용자 지정]** 중에서 선택합니다.
+   ![](assets/webhook-7.png)
 
-   * **[!UICONTROL 키워드 입력]**: 메시지를 자동으로 트리거할 기본 또는 사용자 지정 키워드를 입력합니다. 여러 키워드를 추가하려면 ![](assets/do-not-localize/Smock_Add_18_N.svg)을(를) 클릭하십시오.
+1. **[!UICONTROL 인바운드 키워드 범주]** 드롭다운에서 키워드 범주를 선택하여 구성하십시오.
 
-     **[!UICONTROL 사용자 지정 키워드]**&#x200B;의 경우 여정 내의 일괄 처리 기반 작업에 동의 없는 관련 키워드를 사용하십시오.
+   * 
+     +++ 옵트인
 
-   * **[!UICONTROL 응답 메시지]**: 자동으로 전송되는 사용자 지정 응답을 드롭다운에서 선택합니다.
+      * 동의를 얻어 사용자를 옵트인하는 키워드를 활성화합니다. 사용자의 메시지가 구성된 키워드와 일치하면 SMS 메시지를 수신하기 위해 해당 전화 번호를 선택합니다.
 
-   * **[!UICONTROL 유사 옵트아웃]**: 거의 일치하는 옵트아웃 키워드가 검색되면 자동 회신을 보내도록 이 옵션을 활성화합니다.
+      * 기본적으로 Subscribe, Yes, Unstop, Continue, Resume 및 Begin 키워드가 활성화됩니다. ![](assets/do-not-localize/Smock_Close_18_N.svg)을(를) 클릭하여 기본 키워드를 제거합니다.
 
-   ![](assets/webhook-infobip-2.png){zoomable="yes"}
+      * **[!UICONTROL 응답 메시지]** 필드를 사용하여 사용자의 인바운드 메시지가 옵트인 키워드와 일치할 때 자동으로 전송되는 메시지를 만듭니다.
 
-1. 인바운드 메시지가 구성된 키워드 또는 범주와 일치하지 않을 때 자동으로 보내는 **[!UICONTROL 기본 회신 메시지]**&#x200B;를 입력하십시오.
+   +++
 
-1. Webhook 구성을 마치면 **[!UICONTROL 제출]**&#x200B;을 클릭합니다.
+   * 
+     +++ 옵트아웃
 
-1. **[!UICONTROL 피드백]** 웹후크를 만들려면 위와 동일한 단계를 수행하여 **[!UICONTROL 피드백]**&#x200B;을(를) 웹후크 **[!UICONTROL 유형]**(으)로 선택합니다.
+      * 사용자를 옵트아웃하고 텍스트 메시지 전송에 대한 동의를 제거하는 키워드를 활성화합니다. 사용자의 메시지가 구성된 키워드와 일치하면 해당 전화번호는 SMS 메시지를 수신하지 않도록 옵트아웃됩니다.
 
-1. **[!UICONTROL 웹후크]** 메뉴에서 기존 웹후크를 편집 또는 삭제하거나 SMS 공급자와 통합하기 위해 **[!UICONTROL 웹후크 URL]**&#x200B;에 액세스하고 복사할 수 있습니다.
+      * 기본적으로 Stop, Quit, Cancel, End, Unsubscribe, No 키워드가 활성화됩니다. ![](assets/do-not-localize/Smock_Close_18_N.svg)을(를) 클릭하여 기본 키워드를 제거합니다.
 
-   ![](assets/sms_byo_7.png){zoomable="yes"}
+      * **[!UICONTROL 응답 메시지]** 필드를 사용하여 사용자의 인바운드 메시지가 옵트아웃 키워드와 일치할 때 자동으로 전송되는 메시지를 만듭니다.
 
-Webhook에 대한 인바운드 설정을 만들고 구성한 후 SMS 메시지에 대해 [채널 구성](sms-configuration-surface.md)을 만들어야 합니다.
+      * 구성된 옵트아웃 키워드와 유사한 키워드를 검색하려면 **[!UICONTROL 퍼지 논리]**&#x200B;를 활성화하십시오. 사용자의 응답이 가깝지만 정확하지 않은 경우 **[!UICONTROL 유사 자동 응답]** 필드에 입력한 메시지가 전송됩니다. 일반적으로 이 메시지는 옵트아웃이 발생하지 않았음을 나타내며 구독을 취소하는 데 필요한 정확한 키워드를 지정합니다.
 
-구성하고 나면 메시지 작성, 개인화, 링크 추적 및 보고와 같은 기본 제공 채널 기능을 모두 활용할 수 있습니다.
+   +++
 
->[!TAB Sinch]
+   * 
+     +++ 이중 옵트인
+
+      * 이중 옵트인 요구 사항에 대한 키워드를 활성화합니다. 사용자의 메시지가 구성된 키워드와 일치하는 경우, 이 단계에서 완전히 옵트인되지 않습니다. 이 2단계 동의 워크플로를 사용하려면 사용자가 두 번째 키워드로 옵트인을 확인해야 합니다.
+
+      * 이중 옵트인 키워드가 일치할 때 자동으로 전송되는 메시지를 만들려면 **[!UICONTROL 응답 메시지]** 필드를 사용하십시오. 이 메시지는 사용자에게 옵트인 프로세스를 완료하기 위해 옵트인 키워드를 입력하도록 지시합니다.
+
+   +++
+
+   * 
+     +++ 도움말
+
+      * 도움이 요청될 때 표준 응답을 제공하는 키워드를 활성화합니다. 사용자의 메시지가 구성된 키워드와 일치하면 도움말 회신 메시지를 받습니다.
+
+      * 기본적으로 도움말, 정보, 정보 키워드가 활성화됩니다. ![](assets/do-not-localize/Smock_Close_18_N.svg)을(를) 클릭하여 기본 키워드를 제거합니다.
+
+      * **[!UICONTROL 응답 메시지]** 필드를 사용하여 사용자의 인바운드 메시지가 도움말 키워드와 일치할 때 자동으로 전송되는 메시지를 만듭니다.
+
+   +++
+
+   * 
+     +++ 사용자 정의
+
+      * 단일 사용자 지정 키워드를 구성합니다. 사용자의 메시지가 이 키워드와 일치하면 보고 및 대상 작성을 위해 **[!UICONTROL 메시지 피드백 추적]** 데이터 집합에 키워드가 기록됩니다.
+
+      * 여정 및 캠페인에 사용하기 위해 이 키워드를 참조하는 대상(스트리밍 또는 배치)을 빌드합니다.
+
+   +++
+
+1. **[!UICONTROL 기본 회신 메시지]**&#x200B;를 입력하세요. 이 메시지는 사용자의 응답이 구성된 키워드와 일치하지 않을 때 자동으로 전송됩니다.
+
+   ![](assets/webhook-8.png)
+
+1. **[!UICONTROL 제출]**&#x200B;을 클릭하여 웹후크 구성을 저장합니다.
+
+1. 이제 **[!UICONTROL Webhooks]** 메뉴에서 Infobip용 **피드백** 웹후크를 만들어야 합니다.
+
+1. 아래에 자세히 설명된 대로 웹후크 설정을 구성합니다.
+
+   * **[!UICONTROL 이름]**: 웹후크의 이름을 입력하십시오.
+
+   * **[!UICONTROL SMS 공급업체 선택]**: Infobip.
+
+   * **[!UICONTROL 유형]**: 피드백을 선택하십시오.
+
+   ![](assets/webhook-9.png)
+
+1. **[!UICONTROL 제출]**&#x200B;을 클릭하여 피드백 웹후크 구성을 저장합니다.
+
+1. **[!UICONTROL 웹후크]** 메뉴에서 기존 웹후크를 편집하거나 삭제할 수 있습니다.
+
+1. 새로 만든 웹후크에 액세스하고 각 웹후크에서 **[!UICONTROL 웹후크 URL]**&#x200B;을(를) 복사합니다.
+
+   ![](assets/webhook-10.png)
+
+1. 이제 이러한 URL을 사용하여 두 콜백 URL을 모두 활성화하여 피드백 및 인바운드 이벤트를 Journey Optimizer으로 가져올 수 있습니다.
+
+웹후크가 기존 채널 구성에 첨부된 API 자격 증명을 사용하는 경우 웹후크는 즉시 적용됩니다. 그렇지 않으면 새 채널 구성을 만듭니다.
+
+➡️[채널 구성에 대해 자세히 알아보기](sms-configuration-surface.md)
+
+### 사용자 정의 공급자의 경우 {#create-webhook-custom}
+
+사용자 지정 SMS 공급자의 경우 두 개의 별도 웹후크를 만듭니다. 하나는 피드백 이벤트에 대해 만들고 다른 하나는 인바운드 이벤트에 대해 만듭니다.
 
 1. 왼쪽 레일에서 **[!UICONTROL 관리]** `>` **[!UICONTROL 채널]**(으)로 이동하고 **[!UICONTROL SMS 설정]**&#x200B;에서 **[!UICONTROL SMS 웹후크]** 메뉴를 선택한 다음 **[!UICONTROL 웹후크 만들기]** 단추를 클릭합니다.
 
-   ![](assets/sms_byo_5.png){zoomable="yes"}
+   ![](assets/webhook-1.png)
 
-1. 아래에 자세히 설명된 대로 Webhook 설정을 구성합니다.
+1. 아래에 자세히 설명된 대로 웹후크 설정을 구성합니다.
 
-   * **[!UICONTROL 이름]**: Webhook의 이름을 입력하십시오.
+   * **[!UICONTROL 이름]**: 웹후크의 이름을 입력하십시오.
 
-   * **[!UICONTROL SMS 공급업체 선택]**: Sinch.
+   * **[!UICONTROL SMS 공급업체 선택]**: 사용자 지정.
 
-   * **[!UICONTROL 유형]**: 인바운드.
+   * **[!UICONTROL 유형]**: 피드백 또는 인바운드를 선택하십시오. 두 가지를 개별적으로 생성해야 합니다. 여기에서는 Inbound로 시작합니다.
 
-   * **[!UICONTROL API 자격 증명]**: 드롭다운에서 [이전에 구성한 API 자격 증명](sms-configuration-sinch.md#create-api)을 선택합니다.
+   * **[!UICONTROL API 자격 증명]**: 드롭다운에서 [이전에 구성한 API 자격 증명](sms-configuration-custom.md)을 선택합니다.
 
-   * **[!UICONTROL 보낸 사람 전화 번호{&#x200B;1}: 통신에 사용할 보낸 사람 전화 번호&#x200B;을 입력합니다.]**
+   * **[!UICONTROL 보낸 사람 전화 번호]**: 통신에 사용할 보낸 사람 전화 번호를 입력하십시오.
 
-     ![](assets/webhook-sinch-1.png){zoomable="yes"}
+   ![](assets/webhook-11.png)
 
-1. ![](assets/do-not-localize/Smock_Add_18_N.svg)을(를) 클릭하여 키워드 범주를 추가한 다음 SMS 공급자에 따라 구성합니다.
+1. **[!UICONTROL 키워드 입력]** 필드에 키워드를 입력하여 인바운드 키워드 설정을 시작합니다. 여러 키워드를 추가하고 제거할 수 있습니다. 키워드는 대/소문자를 구분하지 않습니다.
 
-   * **[!UICONTROL 인바운드 키워드 범주]**: 키워드 범주를 **[!UICONTROL 옵트인]**, **[!UICONTROL 옵트아웃]**, **[!UICONTROL 이중 옵트인]**, **[!UICONTROL 도움말]** 또는 **[!UICONTROL 사용자 지정]** 중에서 선택합니다.
+   ![](assets/webhook-12.png)
 
-   * **[!UICONTROL 키워드 입력]**: 메시지를 자동으로 트리거할 기본 또는 사용자 지정 키워드를 입력합니다. 여러 키워드를 추가하려면 ![](assets/do-not-localize/Smock_Add_18_N.svg)을(를) 클릭하십시오.
+1. **[!UICONTROL 인바운드 키워드 범주]** 드롭다운에서 키워드 범주를 선택하여 구성하십시오.
 
-     **[!UICONTROL 사용자 지정 키워드]**&#x200B;의 경우 여정 내의 일괄 처리 기반 작업에 동의 없는 관련 키워드를 사용하십시오.
+   * 
+     +++ 옵트인
 
-   * **[!UICONTROL 응답 메시지]**: 자동으로 전송되는 사용자 지정 응답을 드롭다운에서 선택합니다.
+      * 동의를 얻어 사용자를 옵트인하는 키워드를 활성화합니다. 사용자의 메시지가 구성된 키워드와 일치하면 SMS 메시지를 수신하기 위해 해당 전화 번호를 선택합니다.
 
-   * **[!UICONTROL 유사 옵트아웃]**: 거의 일치하는 옵트아웃 키워드가 검색되면 자동 회신을 보내도록 이 옵션을 활성화합니다.
+      * 기본적으로 Subscribe, Yes, Unstop, Continue, Resume 및 Begin 키워드가 활성화됩니다. ![](assets/do-not-localize/Smock_Close_18_N.svg)을(를) 클릭하여 기본 키워드를 제거합니다.
 
-   ![](assets/webhook-sinch-2.png){zoomable="yes"}
+      * **[!UICONTROL 응답 메시지]** 필드를 사용하여 사용자의 인바운드 메시지가 옵트인 키워드와 일치할 때 자동으로 전송되는 메시지를 만듭니다.
 
-1. 인바운드 메시지가 구성된 키워드 또는 범주와 일치하지 않을 때 자동으로 보내는 **[!UICONTROL 기본 회신 메시지]**&#x200B;를 입력하십시오.
+   +++
 
-1. Webhook 구성을 마치면 **[!UICONTROL 제출]**&#x200B;을 클릭합니다.
+   * 
+     +++ 옵트아웃
 
-1. **[!UICONTROL Webhooks]** 메뉴에서 ![bin 아이콘](assets/do-not-localize/Smock_Delete_18_N.svg)을 클릭하여 Webhook을 삭제합니다.
+      * 사용자를 옵트아웃하고 텍스트 메시지 전송에 대한 동의를 제거하는 키워드를 활성화합니다. 사용자의 메시지가 구성된 키워드와 일치하면 해당 전화번호는 SMS 메시지를 수신하지 않도록 옵트아웃됩니다.
 
-1. 기존 구성을 수정하려면 원하는 웹후크를 찾은 다음 **[!UICONTROL 편집]** 옵션을 클릭하여 필요한 내용을 변경합니다.
+      * 기본적으로 Stop, Quit, Cancel, End, Unsubscribe, No 키워드가 활성화됩니다. ![](assets/do-not-localize/Smock_Close_18_N.svg)을(를) 클릭하여 기본 키워드를 제거합니다.
 
-1. 이전에 제출한 **[!UICONTROL Webhook]**&#x200B;에서 새 **[!UICONTROL Webhook URL]**&#x200B;에 액세스하여 복사합니다.
+      * **[!UICONTROL 응답 메시지]** 필드를 사용하여 사용자의 인바운드 메시지가 옵트아웃 키워드와 일치할 때 자동으로 전송되는 메시지를 만듭니다.
 
-   ![](assets/sms_byo_7.png){zoomable="yes"}
+      * 구성된 옵트아웃 키워드와 유사한 키워드를 검색하려면 **[!UICONTROL 퍼지 논리]**&#x200B;를 활성화하십시오. 사용자의 응답이 가깝지만 정확하지 않은 경우 **[!UICONTROL 유사 자동 응답]** 필드에 입력한 메시지가 전송됩니다. 일반적으로 이 메시지는 옵트아웃이 발생하지 않았음을 나타내며 구독을 취소하는 데 필요한 정확한 키워드를 지정합니다.
 
-Webhook에 대한 인바운드 설정을 만들고 구성한 후 SMS 메시지에 대해 [채널 구성](sms-configuration-surface.md)을 만들어야 합니다.
+   +++
 
-구성하고 나면 메시지 작성, 개인화, 링크 추적 및 보고와 같은 기본 제공 채널 기능을 모두 활용할 수 있습니다.
+   * 
+     +++ 이중 옵트인
 
-<!--
->[!TAB Twilio]
+      * 이중 옵트인 요구 사항에 대한 키워드를 활성화합니다. 사용자의 메시지가 구성된 키워드와 일치하는 경우, 이 단계에서 완전히 옵트인되지 않습니다. 이 2단계 동의 워크플로를 사용하려면 사용자가 두 번째 키워드로 옵트인을 확인해야 합니다.
 
-1. In the left rail, navigate to **[!UICONTROL Administration]** `>` **[!UICONTROL Channels]**, select the **[!UICONTROL SMS Webhooks]** menu under **[!UICONTROL SMS settings]**, and click the **[!UICONTROL Create Webhook]** button.
+      * 이중 옵트인 키워드가 일치할 때 자동으로 전송되는 메시지를 만들려면 **[!UICONTROL 응답 메시지]** 필드를 사용하십시오. 이 메시지는 사용자에게 옵트인 프로세스를 완료하기 위해 옵트인 키워드를 입력하도록 지시합니다.
 
-    ![](assets/sms_byo_5.png){zoomable="yes"}
+   +++
 
-1. Configure your Webhook Settings, as detailed below:
+   * 
+     +++ 도움말
 
-    * **[!UICONTROL Name]**: Enter a name for your Webhook.
+      * 도움이 요청될 때 표준 응답을 제공하는 키워드를 활성화합니다. 사용자의 메시지가 구성된 키워드와 일치하면 도움말 회신 메시지를 받습니다.
 
-    * **[!UICONTROL Select SMS vendor]**: Twilio.
+      * 기본적으로 도움말, 정보, 정보 키워드가 활성화됩니다. ![](assets/do-not-localize/Smock_Close_18_N.svg)을(를) 클릭하여 기본 키워드를 제거합니다.
 
-    * **[!UICONTROL Type]**: Inbound.
+      * **[!UICONTROL 응답 메시지]** 필드를 사용하여 사용자의 인바운드 메시지가 도움말 키워드와 일치할 때 자동으로 전송되는 메시지를 만듭니다.
 
-    * **[!UICONTROL API credentials]**: Choose from the drop-down you [previously configured API credentials](sms-configuration-twilio.md#create-api).
+   +++
 
-    * **[!UICONTROL Sender Phone Number ​]**: Enter the Sender phone number ​you want to use for your communications.
-        
-1. Click ![](assets/do-not-localize/Smock_Add_18_N.svg) to add your keywords categories, then, configure them depending on your SMS provider:
+   * 
+     +++ 사용자 정의
 
-    * **[!UICONTROL Inbound Keyword Category]**: Choose your keyword categories either **[!UICONTROL Opt-In]**, **[!UICONTROL Opt-Out]**, **[!UICONTROL Double Opt-In]**, **[!UICONTROL Help]** or **[!UICONTROL Custom]**. 
+      * 단일 사용자 지정 키워드를 구성합니다. 사용자의 메시지가 이 키워드와 일치하면 보고 및 대상 작성을 위해 **[!UICONTROL 메시지 피드백 추적]** 데이터 집합에 키워드가 기록됩니다.
 
-    * **[!UICONTROL Enter a keyword]**: Enter the default or custom keywords that will automatically trigger your message. Click ![](assets/do-not-localize/Smock_Add_18_N.svg) to add multiple keywords.
+      * 여정 및 캠페인에 사용하기 위해 이 키워드를 참조하는 대상(스트리밍 또는 배치)을 빌드합니다.
 
-        For **[!UICONTROL Custom keyword]**, use non-consent–related keywords for batch-based actions within a journey.
+   +++
 
-    * **[!UICONTROL Reply Message]**: Select from the drop-down the custom response that is automatically sent.
+1. **[!UICONTROL 기본 회신 메시지]**&#x200B;를 입력하세요. 이 메시지는 사용자의 응답이 구성된 키워드와 일치하지 않을 때 자동으로 전송됩니다.
 
-    * **[!UICONTROL Fuzzy Opt-out]**: Enable this option to send an automatic reply when a near-match opt-out keyword is detected.
+   ![](assets/webhook-13.png)
 
-1. Enter a **[!UICONTROL Default Reply Message]** automatically sent when an inbound message does not match any configured keyword or category.
+1. 공급자로부터 받은 JSON과 일치하는 사용자 지정 페이로드를 만듭니다. 지원되는 유일한 Webhook 형식은 JSON입니다. 웹 후크에 대한 양식 데이터는 지원되지 않습니다.
 
-1. Click **[!UICONTROL Submit]** when you finished the configuration of your Webhook.
+   인바운드 웹후크에서 공급자의 웹후크에서 값을 받으려면 다음 필드가 필요합니다.
 
-1. In the **[!UICONTROL Webhooks]** menu, click the ![bin icon](assets/do-not-localize/Smock_Delete_18_N.svg) to delete your Webhook.
+   * **InboundMessage**: 사용자로부터 받은 인바운드 메시지 또는 키워드입니다.
+   * **ProfileNumber**: 메시지를 보낸 사용자의 전화 번호입니다.
+   * **RequestID**: 특정 트랜잭션을 식별하기 위해 SMS 공급자가 제공한 고유 식별자입니다.
+   * **OriginTimestamp**: 메시지가 수신된 시점의 타임스탬프(UTC 형식)입니다.
+   * **InboundNumber**: 이 웹후크 구성에 사용되는 전화 번호입니다.
 
-1. To modify existing configuration, locate the desired Webhook and click the **[!UICONTROL Edit]** option to make the necessary changes.
+   +++페이로드 예제
 
-1. Access and copy your new **[!UICONTROL Webhook URL]** from your previously submitted **[!UICONTROL Webhook]**.
+       &quot;json
+       {
+       &quot;inboundMessage&quot;: &quot;{{inboundMessage}}&quot;,
+       &quot;profileNumber&quot;: &quot;{{profileNumber}}&quot;,
+       &quot;requestId&quot;: &quot;{{requestId}}&quot;,
+       &quot;originTimestamp&quot;: &quot;{{originTimestamp}}&quot;,
+       &quot;인바운드 번호&quot;: &quot;{{inboundNumber}}&quot;
+       
+       &quot;
+   +++
 
-After creating and configuring the inbound settings for the Webhook, you now need to create a [channel configuration](sms-configuration-surface.md) for SMS messages. 
+1. JSON 파일이 만들어지면 **[!UICONTROL 페이로드 편집기 보기]**&#x200B;를 클릭한 다음, JSON 페이로드를 복사하여 편집기에 붙여 넣고 저장하십시오.
 
-Once configured, you can leverage all out-of-the-box channel capabilities such as message authoring, personalization, link tracking, and reporting.
--->
+   ![](assets/webhook-14.png)
 
->[!ENDTABS]
+1. **[!UICONTROL 제출]**&#x200B;을 클릭하여 웹후크 구성을 저장합니다.
 
+1. 이제 **[!UICONTROL Webhooks]** 메뉴에서 사용자 지정 공급자에 대한 **피드백** 웹후크를 만들어야 합니다.
 
-## 사용 방법 비디오 {#video}
+1. 아래에 자세히 설명된 대로 웹후크 설정을 구성합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431625)
+   * **[!UICONTROL 이름]**: 웹후크의 이름을 입력하십시오.
+
+   * **[!UICONTROL SMS 공급업체 선택]**: 사용자 지정.
+
+   * **[!UICONTROL 유형]**: 피드백을 선택하십시오.
+
+   ![](assets/webhook-15.png)
+
+1. 공급자의 JSON 포맷과 일치하는 사용자 지정 페이로드를 만듭니다. 지원되는 유일한 Webhook 형식은 JSON입니다. 웹 후크에 대한 양식 데이터는 지원되지 않습니다.
+
+   피드백 웹후크에서 공급자의 웹후크에서 값을 받으려면 다음 필드가 필요합니다.
+
+   * **클라이언트 참조**: 로깅 목적으로 페이로드에 반환되는 고유 식별자입니다.
+   * **코드**: SMS 공급자가 제공한 오류 코드입니다.
+   * **상태**: SMS 공급자가 제공한 실패 상태입니다.
+
+   +++페이로드 예제
+
+       &quot;json
+       {
+       &quot;clientReference&quot;: &quot;{{client_reference}}&quot;,
+       &quot;상태&quot;: [
+       {
+       &quot;code&quot;: &quot;{{failureCode}}&quot;,
+       &quot;상태&quot;: &quot;{{feedbackStatus}}&quot;
+       
+       ]
+       }
+       &quot;
+   
+   +++
+
+1. **[!UICONTROL 페이로드 편집기 보기]**&#x200B;를 클릭한 다음 JSON 페이로드를 복사하여 편집기에 붙여 넣고 저장합니다.
+
+   ![](assets/webhook-16.png)
+
+1. **[!UICONTROL 제출]**&#x200B;을 클릭하여 피드백 웹후크 구성을 저장합니다.
+
+1. **[!UICONTROL 웹후크]** 메뉴에서 기존 웹후크를 편집하거나 삭제할 수 있습니다.
+
+1. 새로 만든 웹후크에 액세스하고 각 웹후크에서 **[!UICONTROL 웹후크 URL]**&#x200B;을(를) 복사합니다.
+
+1. Journey Optimizer의 해당 웹후크 URL에 **피드백** 및 **인바운드** 이벤트를 보내도록 SMS 공급자를 구성하십시오.
+
+   구성 지침은 SMS 공급자에 따라 다릅니다. 콜백 URL 설정에 대한 자세한 내용은 공급자의 설명서를 참조하십시오.
+
+웹후크가 기존 채널 구성에 첨부된 API 자격 증명을 사용하는 경우 웹후크는 즉시 적용됩니다. 그렇지 않으면 새 채널 구성을 만듭니다.
+
+➡️[채널 구성에 대해 자세히 알아보기](sms-configuration-surface.md)
