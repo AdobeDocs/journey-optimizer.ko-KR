@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 문제 해결, 문제 해결, 여정, 확인, 오류
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
 version: Journey Orchestration
-source-git-commit: 0b003420fd0bf466f81f5377ef58f17695283259
+source-git-commit: c54237bba0597ecc0d4ebb6084063834e0d2ab70
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 36%
+source-wordcount: '521'
+ht-degree: 35%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 36%
 
 <!--Most of the time, errors detected by the system are linked to errors visible on the activities but they can also relate to other issues. In all cases, check alerts and resolve the issue using to the error description. If you cannot identify the issue, use the **[!UICONTROL Copy details]** button to store the alerts, and send them to your administrator.-->
 
-여정에서 전체적으로 발생하는 오류와 경고가 목록에 먼저 나타납니다. 특정 활동과 관련된 오류와 경고는 그 뒤에 활동 순서별로 또는 여정 내 등장 순서별로 왼쪽에서 오른쪽으로 나열됩니다. 경고 목록의 맨 아래에 있는 **[!UICONTROL 세부 정보 복사]** 단추를 사용하여 문제를 해결하는 데 유용한 여정에 대한 기술 정보를 복사할 수 있습니다.
+여정에서 전체적으로 발생하는 오류와 경고가 목록에 먼저 나타납니다. 특정 활동과 관련된 오류와 경고는 그 뒤에 활동 순서별로 또는 여정 내 등장 순서별로 왼쪽에서 오른쪽으로 나열됩니다. 경고 목록의 맨 아래에 있는 **[!UICONTROL 세부 정보 복사]** 단추를 사용하여 문제를 해결하는 데 유용한 여정에 대한 기술 정보를 복사할 수 있습니다. 복사된 필드 목록(일시 중지 및 다시 시작 정보 포함)은 여정 속성에서 [기술 세부 정보 복사](journey-properties.md#access-properties)를 참조하십시오.
 
 ## 대체 경로 추가 {#canvas-add-path}
 

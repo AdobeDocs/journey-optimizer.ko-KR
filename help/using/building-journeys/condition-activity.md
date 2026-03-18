@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 활동, 조건, 캔버스, 여정
 exl-id: 02de069c-3009-4105-aa98-c49959d3efda
 version: Journey Orchestration
-source-git-commit: 8c778ff99d7d32819630d704c42199a5bfbec0f1
+source-git-commit: 8e6d69fb1d6eb7d29261dd0fafdb779e57be26c7
 workflow-type: tm+mt
 source-wordcount: '1818'
 ht-degree: 16%
@@ -40,15 +40,15 @@ ht-degree: 16%
 * [날짜 조건](#date_condition)
 * [프로필 상한](#profile_cap)
 
-여정 조건에서 대상을 직접 사용할 수도 있습니다. 다음을 참조하십시오.
+대상자 멤버십을 조건으로 할 수도 있습니다. 다음 섹션을 참조하십시오.
 
-* [조건에서 대상 사용](#using-a-segment) — 대상 멤버십에 따라 지정된 경로를 사용하는 프로필을 필터링합니다.
-* [대상자 빌드 및 관리](../audience/about-audiences.md) - [!DNL Adobe Experience Platform]에서 대상자를 만들고, 평가하고, 타깃팅하는 방법에 대해 알아봅니다.
-* [여정의 대상 타깃팅 패턴](read-audience.md#audience-targeting-in-journeys) - 대상 읽기 항목 뒤에 대상 분기를 세그먼트화, 제외 또는 병합합니다.
+* [조건에 대상 사용](#using-a-segment) - 프로필이 대상에 속하는지 여부에 따라 경로를 추가합니다.
+* [대상 만들기 및 타깃팅](../audience/about-audiences.md) - 대상 메뉴에서 대상을 만들고 관리합니다.
+* [여정의 대상 타깃팅](read-audience.md#audience-targeting-in-journeys) - 대상 읽기 활동 후 조건을 사용하여 분기를 세그먼트화하거나 제외하거나 병합합니다.
 
 >[!NOTE]
 >
->[프로필 저장소](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko#profile-data-store){target="_blank"}에 두 개 이상의 교차 장치 ID가 포함된 프로필에 대해서는 조건 평가가 실패합니다.
+>[프로필 저장소](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}에 두 개 이상의 교차 장치 ID가 포함된 프로필에 대해서는 조건 평가가 실패합니다.
 
 ## 조건 경로 추가 및 관리 {#about_condition}
 
@@ -194,4 +194,4 @@ ht-degree: 16%
 
    >[!NOTE]
    >
-   >대상자 참여 상태가 **실현됨**&#x200B;인 개인만 대상자의 구성원으로 간주됩니다. 대상자를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ko#interpret-segment-results){target="_blank"}를 참조하세요.
+   >대상자 참여 상태가 **실현됨**&#x200B;인 개인만 대상자의 구성원으로 간주됩니다. 대상자를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}를 참조하세요.

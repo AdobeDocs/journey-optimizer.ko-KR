@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 여정, 구성, 속성
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
+source-git-commit: c54237bba0597ecc0d4ebb6084063834e0d2ab70
 workflow-type: tm+mt
-source-wordcount: '2885'
+source-wordcount: '3069'
 ht-degree: 14%
 
 ---
@@ -47,7 +47,33 @@ ht-degree: 14%
 >
 >라이브 여정의 경우 이 화면에는 게시 날짜와 여정을 게시한 사용자의 이름만 표시됩니다.
 
-**기술 세부 정보 복사** 옵션을 사용하면 지원 팀이 문제를 해결하는 데 사용할 수 있는 여정에 대한 기술 정보를 복사할 수 있습니다. `JourneyVersion UID`, `OrgID`, `orgName`, `sandboxName`, `lastDeployedBy`, `lastDeployedAt` 정보가 복사되었습니다.
+**기술 세부 정보 복사** 옵션을 사용하면 지원 팀이 문제를 해결하는 데 사용할 수 있는 여정에 대한 기술 정보를 복사할 수 있습니다. 다음 정보가 복사됩니다.
+
+**일반**
+
+* `JourneyVersion UID` - 이 버전의 여정에 대한 고유 식별자
+* `OrgID` - 조직의 (IMS) 식별자
+* `orgName` - 조직 이름
+* `sandboxName` - 여정이 실행되는 샌드박스 이름
+* `lastDeployedBy` - 여정을 마지막으로 게시한 사용자
+* `lastDeployedAt` - 마지막으로 게시한 날짜와 시간
+
+
+**일시 중지 및 다시 시작**(여정이 한 번 이상 일시 중지된 경우 포함)
+
+* `lastPausedAt` - 여정이 마지막으로 일시 중지된 날짜와 시간
+* `lastPausedBy` - 마지막 일시 중지를 수행한 사용자의 표시 이름
+* `lastPausedById` - 마지막 일시 중지를 수행한 사용자의 내부 식별자입니다.
+* `lastResumedAt` - 여정을 마지막으로 다시 시작한 날짜와 시간
+* `lastResumedBy` - 마지막으로 다시 시작을 수행한 사용자의 표시 이름
+* `lastResumedById` - 마지막 다시 시작을 수행한 사용자의 내부 식별자입니다.
+
+**일시 중지된 여정 설정**(`pausedJourneySettings`에서 여정이 일시 중지되었거나 일시 중지된 경우)
+
+* `pauseBehavior` - 여정이 일시 중지되면 프로필에 나타나는 결과(예: 삭제하거나 그대로 유지)
+* `maxPauseDurationInMinutes` - 여정이 자동으로 다시 시작되는 최대 일시 중지 기간(분)(예: 20160 = 14일)
+* `transitionStateForAutoResume` - 일시 중지 기간이 끝날 때 여정이 자동으로 다시 시작될 때 적용된 상태(예: 중지 또는 계속)
+* `pauseId` - 현재 일시 중지 인스턴스의 고유 식별자
 
 특정 프로필의 여정과 관련된 기술 필드 및 [이 페이지에서](expression/journey-properties.md)을(를) 사용하는 방법에 대해 자세히 알아보세요.
 

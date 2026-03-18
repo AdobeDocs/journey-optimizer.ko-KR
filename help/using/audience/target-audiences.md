@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: 8c778ff99d7d32819630d704c42199a5bfbec0f1
+source-git-commit: 04f6ad6d75c182c6c29744810c0461ccc947b5e5
 workflow-type: tm+mt
-source-wordcount: '783'
-ht-degree: 13%
+source-wordcount: '797'
+ht-degree: 12%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 13%
 
 * **캠페인** 대상자를 선택하면 선택한 대상자에 속하는 모든 개인에게 메시지를 보냅니다. [캠페인의 대상자를 정의하는 방법을 알아봅니다](../campaigns/create-campaign.md#define-the-audience-audience).
 
-* 여정에서 **대상자 읽기** 오케스트레이션 활동을 사용하여 대상자의 모든 개인이 여정을 입력하고 여정에 포함된 메시지를 받도록 합니다. “실버 고객”이라는 대상자가 있다고 가정해 보겠습니다. 이 활동을 통해 모든 실버 고객이 여정을 입력하도록 할 수 있습니다. 그런 다음 일련의 개인화된 메시지를 보낼 수 있습니다. [대상자 읽기 활동을 구성하는 방법을 알아봅니다](../building-journeys/read-audience.md#configuring-segment-trigger-activity).
+* 여정에서 **대상자 읽기** 오케스트레이션 활동을 사용하여 대상자의 모든 개인이 여정을 입력하고 여정에 포함된 메시지를 받도록 합니다. “실버 고객”이라는 대상자가 있다고 가정해 보겠습니다. 이 활동을 통해 모든 실버 고객이 여정을 입력하도록 할 수 있습니다. 그런 다음 일련의 개인화된 메시지를 보낼 수 있습니다. [대상자 읽기 활동을 구성하는 방법을 알아보세요](../building-journeys/read-audience.md#configuring-segment-trigger-activity). 여정을 입력한 후 세그먼트를 세그먼트화하거나, 제외하거나, 병합하려면 [대상의 대상 타깃팅](../building-journeys/read-audience.md#audience-targeting-in-journeys)을 참조하세요.
 
   입력 후 **Condition** 활동을 사용하여 [특성 또는 동작별로 세그먼트화하거나, 모집단의 일부를 제외하거나, 분기를 병합합니다](../building-journeys/read-audience.md#audience-targeting-in-journeys).
 
