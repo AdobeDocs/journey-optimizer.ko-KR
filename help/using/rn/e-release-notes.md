@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 17e337a24f239aeb968962bb168d2f5a17bd6f3d
+source-git-commit: 44b528bc97bd8988edf042940808b6f48bd3d4a5
 workflow-type: tm+mt
-source-wordcount: '1407'
-ht-degree: 16%
+source-wordcount: '1356'
+ht-degree: 18%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 16%
 
 [Adobe Experience Platform 사전 릴리스 정보](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}도 참조하십시오.
 
-**릴리스 일자**: 2026년 3월 26일 금요일
+**릴리스 날짜**: 2026년 3월 24~25일
 
 ### 새로운 기능 {#march-26-features}
 
@@ -211,24 +211,6 @@ ht-degree: 16%
 <table>
 <thead>
 <tr>
-<th><strong>이메일에 대한 CC(Carbon Copy) 지원</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 Journey Optimizer을 통해 보낸 아웃바운드 전자 메일 메시지에 <strong>참조(CC) 받는 사람</strong>을 추가할 수 있습니다. 이 기능을 사용하여 보관 및 감독 목적으로 고객 커뮤니케이션 사본을 내부 팀이나 규정 준수 주소로 보낼 수 있습니다.</p>
-<p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
-<p>사용 가능한 날짜: 2026년 3월 2일 화요일</p>
-<p>설명서 JIRA 작업: <a href="https://jira.corp.adobe.com/browse/DOCAC-14051">DOCAC-14051</a></p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>기본 채널 작업 활동 더 이상 사용되지 않음</strong><br/></th>
 </tr>
 </thead>
@@ -248,13 +230,13 @@ ht-degree: 16%
 
 #### 여정
 
-* **여정의 데이터 세트 조회 지원** - 이제 여정 조건, 표현식 및 작업 내에서 Adobe Experience Platform 데이터 세트에서 직접 데이터를 조회할 수 있으므로 카탈로그 데이터, 참조 테이블 및 기타 구조화된 데이터 세트를 통해 개인화가 향상됩니다. 이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).
-설명서 JIRA 작업: [DOCAC-14351](https://jira.corp.adobe.com/browse/DOCAC-14351)
+* **여정의 데이터 세트 조회 지원** - 여정의 새로운 활동인 데이터 세트 조회를 사용하면 런타임 중에 Adobe Experience Platform 레코드 데이터 세트에서 데이터를 동적으로 검색할 수 있습니다. 이 기능을 활용하면 프로필이나 이벤트 페이로드에 없을 수 있는 데이터에 액세스하여 고객 상호 작용이 적시에 적절하게 이루어질 수 있습니다. 이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).
+
+  설명서 JIRA 작업: [DOCAC-14351](https://jira.corp.adobe.com/browse/DOCAC-14351)
 
 * **여정 중재 - AI 모델** - 이제 등급 수식 외에도 AI 모델을 여정 중재와 함께 사용하여 고객의 여정 항목에 자동으로 등급을 매기고 우선 순위를 지정할 수 있습니다. 기계 학습을 사용하여 이전 행동과 컨텍스트 신호를 기반으로 각 프로필에 가장 적합한 여정을 결정할 수 있습니다. 이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
 
-  사용 가능한 날짜: 2026년 2월 26일
-설명서 JIRA 작업: [DOCAC-14295](https://jira.corp.adobe.com/browse/DOCAC-14295)
+  설명서 JIRA 작업: [DOCAC-14295](https://jira.corp.adobe.com/browse/DOCAC-14295)
 
 #### 보고
 
@@ -263,8 +245,7 @@ ht-degree: 16%
 
 * **전송 시간 최적화: 컨트롤 위치 및 새 리프트 보고서를 업데이트했습니다** - STO(전송 시간 최적화) 컨트롤이 작업 왼쪽 레일에서 작업 구성으로 재배치되었습니다. 또한 이제 여정 보고서에서 STO가 캠페인 성과 지표에 미치는 영향을 측정하는 새로운 상승도 보고서를 사용할 수 있습니다.
 
-  사용 가능한 날짜: 2026년 3월 10일
-설명서 JIRA 작업: [DOCAC-14335](https://jira.corp.adobe.com/browse/DOCAC-14335)
+  설명서 JIRA 작업: [DOCAC-14335](https://jira.corp.adobe.com/browse/DOCAC-14335)
 
 #### 이메일 디자이너
 
@@ -279,7 +260,7 @@ ht-degree: 16%
 
 #### 결정
 
-* **Edge Decisioning에서 표현식 조각 참조 변경 피드 지원** - 이제 Edge Decisioning에서 사용되는 표현식 조각이 변경 피드 메커니즘을 지원하므로 표현식 조각에 대한 업데이트가 거의 실시간으로 에지 노드로 전파됩니다.
+* **Edge Decisioning에서 표현식 조각 참조 변경 피드 지원** - 이 개선 사항을 사용하면 캠페인 또는 결정 정책을 다시 게시하여 수동으로 새로 고칠 필요 없이 조각 참조의 변경 사항이 조각을 참조하는 모든 항목에 자동으로 반영됩니다.
 설명서 JIRA 작업: [DOCAC-14350](https://jira.corp.adobe.com/browse/DOCAC-14350)
 
 * **의사 결정 항목의 선택적 조각** - 이제 의사 결정 항목에 첨부된 조각을 선택 항목으로 구성할 수 있으므로 일부 의사 결정 항목 렌더링에 특정 조각이 필요하지 않을 때 콘텐츠 구성에 더 많은 유연성을 제공합니다.
@@ -306,7 +287,7 @@ ht-degree: 16%
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: February 17, 2026
 
@@ -560,7 +541,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -737,7 +718,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
