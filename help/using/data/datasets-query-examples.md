@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Experienced
 keywords: 데이터 세트, 최적화 도구, 사용 사례
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: e9b748591c425395e71b53c5e80f03a42ce0563d
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1086'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 2%
 * [푸시 추적 경험 이벤트 데이터 세트](#push-tracking-experience-event-dataset)
 * [여정 단계 이벤트](#journey-step-event)
 * [의사 결정 이벤트 데이터 세트](#ode-decisionevents)
-* [BCC 피드백 이벤트 데이터 세트](#bcc-feedback-event-dataset)
+* [보조 수신자 피드백 이벤트 데이터 세트(BCC)](#bcc-feedback-event-dataset)
 * [엔티티 데이터 세트](#entity-dataset)
 
 각 스키마의 전체 필드와 속성 목록을 보려면 [Journey Optimizer 스키마 사전](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko){target="_blank"}을 찾아봅니다.
@@ -336,11 +336,11 @@ select value.marketing.email.val FROM (
 ```
 -->
 
-## BCC 피드백 이벤트 데이터 세트{#bcc-feedback-event-dataset}
+## 보조 수신자 피드백 이벤트 데이터 세트(BCC){#bcc-feedback-event-dataset}
 
-_인터페이스의 이름: AJO BCC 피드백 이벤트 데이터 세트(시스템 데이터 세트)_
+_인터페이스의 이름: AJO 보조 받는 사람 피드백 이벤트 데이터 세트(시스템 데이터 세트). 쿼리 서비스에서 데이터 집합 테이블 이름이 `ajo_bcc_feedback_event_dataset`._&#x200B;일 수 있습니다.
 
-BCC 메시지에 대한 정보를 저장할 데이터 세트입니다.
+BCC 보관이 활성화된 경우 이메일 BCC(보조 수신자) 메시지를 위한 데이터 세트.
 
 2일 이내에 모든 BCC 메시지를 쿼리합니다(특정 캠페인의 경우).
 

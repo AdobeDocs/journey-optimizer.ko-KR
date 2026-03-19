@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 내보내기, 메시지, HIPAA, 이메일, SMS, 구성
 exl-id: 7b50c933-9738-4b1b-acae-08f0a8d41dab
-source-git-commit: ab0f100d53cb987919eb134442bf05e64c30719a
+source-git-commit: e9b748591c425395e71b53c5e80f03a42ce0563d
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 12%
+source-wordcount: '701'
+ht-degree: 11%
 
 ---
 
@@ -43,8 +43,8 @@ ht-degree: 12%
 
 메시지 내보내기 기능에 대한 온보딩 프로세스는 다음 두 단계로 구성됩니다.
 
-1. [에서 &#x200B;](#set-up-export-dataflow)내보내기 데이터 흐름을 설정[!DNL Experience Platform];
-1. [의 채널 구성에서 &#x200B;](#config-message-export)메시지 내보내기 사용[!DNL Journey Optimizer].
+1. [에서 ](#set-up-export-dataflow)내보내기 데이터 흐름을 설정[!DNL Experience Platform];
+1. [의 채널 구성에서 ](#config-message-export)메시지 내보내기 사용[!DNL Journey Optimizer].
 
 >[!WARNING]
 >
@@ -52,15 +52,17 @@ ht-degree: 12%
 
 ### 내보내기 데이터 흐름 설정 {#set-up-export-dataflow}
 
-데이터를 내보내려면 먼저 [!DNL Experience Platform] 대상 및 사용할 데이터 집합을 정의하여 내보내기 프로세스를 설정해야 합니다. 아래 단계를 수행합니다.
+데이터를 내보내려면 먼저 [!DNL Experience Platform] 대상 및 데이터 집합 내보내기 흐름을 정의하여 내보내기 프로세스를 설정하십시오.
+
+자세한 단계, 지원되는 클라우드 대상, 필요한 권한 및 자세한 내용은 [이 섹션](../data/export-datasets.md#export-datasets)을 참조하세요.
 
 >[!NOTE]
 >
 >각 샌드박스에 대해 이 설정을 구성해야 합니다.
 
-1. Experience Platform [대상 유형](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/destination-types){target="_blank"}을(를) 선택하십시오. 데이터를 받을 준비가 된 사용 가능한 대상 플랫폼 목록을 [이 페이지](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/overview){target="_blank"}에서 사용할 수 있습니다.
+1. Experience Platform [대상 유형](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/destination-types){target="_blank"}을(를) 선택하십시오. 데이터를 받을 준비가 된 사용 가능한 대상 플랫폼 목록을 [이 페이지](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview){target="_blank"}에서 사용할 수 있습니다.
 
-1. [!DNL Experience Platform]에서 자격 증명, 버킷/컨테이너, 경로 접두사 및 보안 옵션을 정의하여 대상을 구성합니다. [방법 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
+1. [!DNL Experience Platform]에서 자격 증명, 버킷/컨테이너, 경로 접두사 및 보안 옵션을 정의하여 대상을 구성합니다. [방법 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
 
 1. 다음 데이터를 사용하여 데이터 세트 내보내기 플로우를 만듭니다.
 
