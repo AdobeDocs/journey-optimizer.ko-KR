@@ -5,9 +5,9 @@ title: 여러 단계로 구성된 캠페인에 채널 활동 추가
 description: 여러 단계로 구성된 캠페인에 채널 활동을 추가하는 방법 알아보기
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: 39e442d69296298cf6edb386fb5775a47b69f8cc
+source-git-commit: 44df78b89def6c4bd9a0070a627bfbd79ae66587
 workflow-type: tm+mt
-source-wordcount: '1453'
+source-wordcount: '1458'
 ht-degree: 43%
 
 ---
@@ -71,6 +71,11 @@ UNUSED IDs in BJ
 
 ## 채널 활동 추가 및 속성 정의 {#add}
 
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_category"
+>title="Target"
+>abstract="범주 필드에 대한 자리 표시자"
+
 >[!PREREQUISITES]
 >
 >채널 활동을 추가하기 전에 [대상 작성](build-audience.md) 또는 [대상 읽기](read-audience.md) 활동을 사용하여 대상 대상을 정의하십시오.
@@ -119,7 +124,7 @@ UNUSED IDs in BJ
 
 +++**빠른 전송 모드를 사용**(푸시)합니다.
 
-빠른 전송 모드는 캠페인을 통해 대량으로 매우 빠른 푸시 메시지를 전송할 수 있는 [!DNL Journey Optimizer] 추가 기능입니다. 신속한 전달은 메시지 전달 지연이 비즈니스에 중요한 경우 사용됩니다. 예를 들어 뉴스 채널 앱을 설치한 사용자에게 속보 등 휴대폰에 긴급 푸시 알림을 전송하려는 경우가 있습니다. 푸시 알림에 대해 빠른 전송 모드를 사용하는 방법을 알아봅니다. [&#x200B; 이 페이지](../../push/create-push.md#rapid-delivery).
+빠른 전송 모드는 캠페인을 통해 대량으로 매우 빠른 푸시 메시지를 전송할 수 있는 [!DNL Journey Optimizer] 추가 기능입니다. 신속한 전달은 메시지 전달 지연이 비즈니스에 중요한 경우 사용됩니다. 예를 들어 뉴스 채널 앱을 설치한 사용자에게 속보 등 휴대폰에 긴급 푸시 알림을 전송하려는 경우가 있습니다. 푸시 알림에 대해 빠른 전송 모드를 사용하는 방법을 알아봅니다. [ 이 페이지](../../push/create-push.md#rapid-delivery).
 
 빠른 전송 모드를 사용할 때의 성능에 대한 자세한 내용은 [Adobe Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}을 참조하세요.
 
