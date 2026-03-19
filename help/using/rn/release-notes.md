@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ca383beea12fe1a4420cd8e4a6cd3bde147ade71
+source-git-commit: ea7faa183f7b0a28efc81ec5132e539a960e7e05
 workflow-type: tm+mt
-source-wordcount: '3166'
-ht-degree: 27%
+source-wordcount: '3121'
+ht-degree: 28%
 
 ---
 
@@ -141,21 +141,6 @@ ht-degree: 27%
 <tr>
 <td>
 <p>Adobe Experience Platform Agent Orchestrator에서 제공하는 <strong>Journey Agent</strong>은(는) 이제 자연어 인터페이스를 통해 전체 <strong>오케스트레이션된 캠페인</strong> 사용 사례를 만들 수 있습니다. 캠페인 목표 및 요구 사항을 일반 언어로 설명하면 Journey Agent이 캠페인 구조, 활동 및 타깃팅을 구성합니다.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>랜딩 페이지의 새 프로필 획득</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 랜딩 페이지에서 <strong>새 프로필 획득</strong> 워크플로우를 지원하므로 랜딩 페이지 경험에서 직접 새 대상 구성원을 캡처하고 온보딩할 수 있습니다. Adobe Experience Platform에서 프로필 데이터를 수집하고 새 프로필을 자동으로 프로비저닝하도록 획득 양식을 구성합니다.</p>
 </td>
 </tr>
 </tbody>
@@ -303,7 +288,7 @@ ht-degree: 27%
 <td>
 <p><strong>Adobe Experience Platform Agent Orchestrator</strong>에서 제공하는 <strong>Journey Agent</strong>은(는) Journey Optimizer에서 사용할 수 있으며 자연어 인터페이스를 통해 여정을 분석할 수 있도록 해줍니다. 이제 Journey Agent에서 직접 채널별 콘텐츠를 생성하고 관리할 수도 있습니다. 또한 이메일 및 푸시와 같은 채널용 콘텐츠를 만들고, 템플릿을 적용하고 미리 보고, 프롬프트를 통해 색조와 스타일을 개선하고, <strong>콘텐츠 Designer</strong>에서 콘텐츠를 열어 상황에 맞게 편집할 수 있습니다.</p>
 <p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
-<p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=ko">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2026년 3월 4일 목요일</p>
 </td>
 </tr>
@@ -410,7 +395,7 @@ ht-degree: 27%
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
