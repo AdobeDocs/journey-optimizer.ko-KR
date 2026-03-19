@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 44b528bc97bd8988edf042940808b6f48bd3d4a5
+source-git-commit: 6197ca7a3b2dc3d86df8262346198ca4d3a9fee2
 workflow-type: tm+mt
-source-wordcount: '1356'
-ht-degree: 18%
+source-wordcount: '1421'
+ht-degree: 16%
 
 ---
 
@@ -185,7 +185,7 @@ ht-degree: 18%
 <tr>
 <td>
 <p>이제 <strong>의사 결정</strong>을 사용하여 전자 메일 메시지의 콘텐츠를 개인화하고 최적화할 수 있습니다. 우선 순위 점수, 공식 또는 AI 모델을 활용하여 각 수신자에게 가장 관련성이 높은 오퍼와 콘텐츠를 표시합니다.</p>
-<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
+<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성). 이번 GA 릴리스에서는 미러 페이지가 지원됩니다.</p>
 <p>설명서 JIRA 작업: <a href="https://jira.corp.adobe.com/browse/DOCAC-13182">DOCAC-13182</a></p>
 </td>
 </tr>
@@ -224,15 +224,43 @@ ht-degree: 18%
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>여정의 데이터 세트 조회 지원</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>여정의 새로운 활동인 데이터 세트 조회를 사용하면 런타임 중에 Adobe Experience Platform 레코드 데이터 세트에서 데이터를 동적으로 검색할 수 있습니다. 이 기능을 활용하면 프로필이나 이벤트 페이로드에 없을 수 있는 데이터에 액세스하여 고객 상호 작용이 적시에 적절하게 이루어질 수 있습니다. 이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
+<p>설명서 JIRA 작업: <a href="https://jira.corp.adobe.com/browse/DOCAC-14351">DOCAC-14351</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>API를 사용하여 오케스트레이션된 캠페인 트리거</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 API를 통해 오케스트레이션된 캠페인을 트리거할 수 있습니다. Target 캠페인을 "신호에 의해 트리거됨"으로 구성하고 게시합니다. 그런 다음 API 호출을 사용하여 캠페인을 실행합니다. API 호출에는 트리거된 캠페인에서 변수로 사용할 수 있는 매개 변수가 포함될 수 있습니다.</p>
+<p>설명서 JIRA 작업: <a href="https://jira.corp.adobe.com/browse/DOCAC-14030">DOCAC-14030</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ### 개선 사항 {#march-26-improv}
 
 다음은 이번 릴리스의 개선 사항 목록입니다.
 
 #### 여정
-
-* **여정의 데이터 세트 조회 지원** - 여정의 새로운 활동인 데이터 세트 조회를 사용하면 런타임 중에 Adobe Experience Platform 레코드 데이터 세트에서 데이터를 동적으로 검색할 수 있습니다. 이 기능을 활용하면 프로필이나 이벤트 페이로드에 없을 수 있는 데이터에 액세스하여 고객 상호 작용이 적시에 적절하게 이루어질 수 있습니다. 이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).
-
-  설명서 JIRA 작업: [DOCAC-14351](https://jira.corp.adobe.com/browse/DOCAC-14351)
 
 * **여정 중재 - AI 모델** - 이제 등급 수식 외에도 AI 모델을 여정 중재와 함께 사용하여 고객의 여정 항목에 자동으로 등급을 매기고 우선 순위를 지정할 수 있습니다. 기계 학습을 사용하여 이전 행동과 컨텍스트 신호를 기반으로 각 프로필에 가장 적합한 여정을 결정할 수 있습니다. 이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
 
@@ -279,7 +307,7 @@ ht-degree: 18%
 * **오케스트레이션된 캠페인의 전역 변수** - 이제 오케스트레이션된 캠페인이 한 번 정의하여 워크플로우 내의 모든 활동에서 재사용할 수 있는 전역 변수를 지원하므로 구성을 단순화하고 동적 값, 표현식 및 콘텐츠 개인화의 일관성을 보장합니다.
 설명서 JIRA 작업: [DOCAC-14113](https://jira.corp.adobe.com/browse/DOCAC-14113)
 
-* **오케스트레이션된 캠페인의 대상 차원 간소화** - 오케스트레이션된 캠페인의 대상 차원 구성이 간소화되어 캠페인 워크플로우에 대한 대상 타깃팅을 정의할 때 필요한 단계와 복잡성을 줄였습니다.
+* **오케스트레이션된 캠페인에서 차원 간소화** - 이제 정확하고 효율적인 대상 활성화를 위해 오케스트레이션된 캠페인에서 올바른 타겟팅 및 보조 차원을 쉽게 선택하거나 자동으로 추론할 수 있습니다.
 설명서 JIRA 작업: [DOCAC-13554](https://jira.corp.adobe.com/browse/DOCAC-13554)
 
 <!--
@@ -287,7 +315,7 @@ ht-degree: 18%
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: February 17, 2026
 
@@ -541,7 +569,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -718,7 +746,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
