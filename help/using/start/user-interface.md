@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 0088b81d0d8a45626611dfdcf063766e2bcf50c4
+source-git-commit: 50b32702daeb90fea097f384797dcb5f82c65796
 workflow-type: tm+mt
-source-wordcount: '1501'
+source-wordcount: '1495'
 ht-degree: 74%
 
 ---
@@ -362,9 +362,4 @@ AI 어시스턴트는 즉각적인 도움과 운영 인사이트를 제공합니
 >[!CONTEXTUALHELP]
 >id="ajo_inbox_app_id"
 >title="앱 ID"
->abstract="."
-
->[!CONTEXTUALHELP]
->id="ajo_inbox_location"
->title="앱 내 위치 또는 경로"
 >abstract="."
