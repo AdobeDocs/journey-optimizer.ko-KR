@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f2c8bcfb39ba3c2bd325bc07f000e525cd2cf530
+source-git-commit: 4bf9ea2e8d2be7fcc098fec13e6f829e6340b315
 workflow-type: tm+mt
-source-wordcount: '3136'
-ht-degree: 26%
+source-wordcount: '3046'
+ht-degree: 27%
 
 ---
 
@@ -37,55 +37,7 @@ ht-degree: 26%
 
 ### 새로운 기능 {#march-26-features}
 
-<!--
-<table>
-<thead>
-<tr>
-<th><strong>LLM email optimizer</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now optimize your email content for deliverability using large language model (LLM) technology. The LLM email optimizer analyzes your email content and provides actionable recommendations to improve sender reputation, avoid spam filters, and enhance overall deliverability performance.</p>
-</td>
-</tr>
-</tbody>
-</table>
--->
 
-<table>
-<thead>
-<tr>
-<th><strong>Journey Agent: 오케스트레이션된 캠페인 사용 사례 만들기</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Experience Platform Agent Orchestrator에서 제공하는 <strong>Journey Agent</strong>은(는) 이제 자연어 인터페이스를 통해 전체 <strong>오케스트레이션된 캠페인</strong> 사용 사례를 만들 수 있습니다. 캠페인 목표 및 요구 사항을 일반 언어로 설명하면 Journey Agent이 캠페인 구조, 활동 및 타깃팅을 구성합니다.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Journey Agent: 채널 컨텐츠 만들기</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p><strong>Adobe Experience Platform Agent Orchestrator</strong>에서 제공하는 <strong>Journey Agent</strong>은(는) Journey Optimizer에서 사용할 수 있으며 자연어 인터페이스를 통해 여정을 분석할 수 있도록 해줍니다. 이제 Journey Agent에서 직접 채널별 콘텐츠를 생성하고 관리할 수도 있습니다. 또한 이메일 및 푸시와 같은 채널용 콘텐츠를 만들고, 템플릿을 적용하고 미리 보고, 프롬프트를 통해 색조와 스타일을 개선하고, <strong>콘텐츠 Designer</strong>에서 콘텐츠를 열어 상황에 맞게 편집할 수 있습니다.</p>
-<p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
-<p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=ko">세부 설명서</a>를 참조하십시오.</p>
-<p>사용 가능한 날짜: 2026년 3월 4일 목요일</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
@@ -112,21 +64,6 @@ ht-degree: 26%
 <tr>
 <td>
 <p>이제 API를 통해 오케스트레이션된 캠페인을 트리거할 수 있습니다. Target 캠페인을 "신호에 의해 트리거됨"으로 구성하고 게시합니다. 그런 다음 API 호출을 사용하여 캠페인을 실행합니다. API 호출에는 트리거된 캠페인에서 변수로 사용할 수 있는 매개 변수가 포함될 수 있습니다.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>오케스트레이션된 캠페인의 증분 쿼리 활동</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 오케스트레이션된 캠페인에서 새 <strong>증분 쿼리</strong> 활동을 사용할 수 있습니다. 이 활동은 마지막 워크플로우 실행 이후 신규 또는 업데이트된 레코드만 쿼리하므로 처리 시간을 크게 줄이고 큰 데이터 세트를 대상으로 하는 반복 캠페인의 효율성을 개선합니다.</p>
 </td>
 </tr>
 </tbody>
@@ -235,24 +172,7 @@ ht-degree: 26%
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>AI 모델 모니터링</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 Journey Optimizer을 통해 Decisioning AI 모델의 상태, 교육 상태 및 성능을 모니터링할 수 있습니다. 이를 통해 교육 성공을 확인하고, 실패를 해결하며, 결과에 미치는 영향을 파악하여 AI를 사용하는 각 고객을 위한 최상의 오퍼를 선택할 수 있습니다. 이 기능은 <strong>Decisioning</strong>에만 사용할 수 있습니다(이전 의사 결정 관리 모델에는 사용할 수 없음).</p>
-<p>이 기능은 현재 <strong>개인화된 최적화</strong> 모델에만 사용할 수 있습니다(자동 최적화는 아님).</p>
-<p><img src="assets/do-not-localize/ai-model-observability.gif"/></p>
-<p>자세한 내용은 <a href="../experience-decisioning/ranking/ai-model-observability.md">세부 설명서</a>를 참조하십시오.</p>
-<p>사용 가능한 날짜: 2026년 3월 9일 화요일</p>
-</td>
-</tr>
-</tbody>
-</table>
+
 
 <table>
 <thead>
@@ -273,21 +193,6 @@ ht-degree: 26%
 <table>
 <thead>
 <tr>
-<th><strong>메시지 받은 편지함</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 Adobe Journey Optimizer에서 새로운 <strong>Message Inbox</strong>을(를) 사용할 수 있으며, 수신된 인앱, 푸시 및 SMS 메시지를 중앙에서 볼 수 있습니다. 수신자는 한 곳에서 모든 메시지에 액세스하고 상호 작용할 수 있으므로 참여 및 재참여 시나리오를 더욱 풍부하게 만들 수 있습니다.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>이미지를 이메일 콘텐츠 템플릿으로 변환</strong><br/></th>
 </tr>
 </thead>
@@ -296,6 +201,22 @@ ht-degree: 26%
 <td>
 <p>이제 Journey Optimizer에서 직접 이미지를 이메일 콘텐츠 템플릿으로 변환할 수 있습니다. AI 기반 분석을 사용하여 시각적 참조에서 구조화된 HTML 템플릿을 자동으로 생성하여 이메일 디자인 시간을 크게 단축할 수 있습니다.</p>
 <p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성). <a href="../content-management/image-to-html.md">자세히 알아보기</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>메시지 받은 편지함</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 Adobe Journey Optimizer에서 새로운 <strong>Message 받은 편지함</strong>을(를) 사용할 수 있으며, 수신된 인앱, 푸시 및 SMS 메시지를 중앙에서 볼 수 있습니다. 수신자는 한 곳에서 모든 메시지에 액세스하고 상호 작용할 수 있으므로 참여 및 재참여 시나리오를 더욱 풍부하게 만들 수 있습니다.</p>
+<p>사용 가능한 날짜: 2026년 3월 31일 수요일</p>
 </td>
 </tr>
 </tbody>
@@ -357,21 +278,48 @@ ht-degree: 26%
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Journey Agent: 채널 컨텐츠 만들기</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong>Adobe Experience Platform Agent Orchestrator</strong>에서 제공하는 <strong>Journey Agent</strong>은(는) Journey Optimizer에서 사용할 수 있으며 자연어 인터페이스를 통해 여정을 분석할 수 있도록 해줍니다. 이제 Journey Agent에서 직접 채널별 콘텐츠를 생성하고 관리할 수도 있습니다. 또한 이메일 및 푸시와 같은 채널용 콘텐츠를 만들고, 템플릿을 적용하고 미리 보고, 프롬프트를 통해 색조와 스타일을 개선하고, <strong>콘텐츠 Designer</strong>에서 콘텐츠를 열어 상황에 맞게 편집할 수 있습니다.</p>
+<p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
+<p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html">세부 설명서</a>를 참조하십시오.</p>
+<p>사용 가능한 날짜: 2026년 3월 4일 목요일</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>AI 모델 모니터링</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 Journey Optimizer을 통해 Decisioning AI 모델의 상태, 교육 상태 및 성능을 모니터링할 수 있습니다. 이를 통해 교육 성공을 확인하고, 실패를 해결하며, 결과에 미치는 영향을 파악하여 AI를 사용하는 각 고객을 위한 최상의 오퍼를 선택할 수 있습니다. 이 기능은 <strong>Decisioning</strong>에만 사용할 수 있습니다(이전 의사 결정 관리 모델에는 사용할 수 없음).</p>
+<p>이 기능은 현재 <strong>개인화된 최적화</strong> 모델에만 사용할 수 있습니다(자동 최적화는 아님).</p>
+<p><img src="assets/do-not-localize/ai-model-observability.gif"/></p>
+<p>자세한 내용은 <a href="../experience-decisioning/ranking/ai-model-observability.md">세부 설명서</a>를 참조하십시오.</p>
+<p>사용 가능한 날짜: 2026년 3월 9일 화요일</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
 ### 개선 사항 {#march-26-improv}
 
 다음은 이번 릴리스의 개선 사항 목록입니다.
 
-#### 여정
-
-* **여정에서 아웃바운드 메시지의 웨이브 전송** - 이제 Journey Optimizer 여정의 메시지를 시간에 따라 제어된 배치로 전달하도록 예약할 수 있습니다. [자세히 알아보기](../building-journeys/send-using-waves.md)
-
-  이전에 여정에서 사용할 수 있도록 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).
-
-  사용 가능한 날짜: 2026년 3월 16일 화요일
-
-* **여정 기술 세부 정보의 일시 중지 및 다시 시작 세부 정보** - 이제 **기술 세부 정보** 여정에 마지막 일시 중지 및 다시 시작 날짜 및 시간, 각 작업을 수행한 사용자의 표시 이름 및 내부 식별자, 일시 중지 동작, 최대 일시 중지 기간 및 자동 다시 시작 상태와 같은 일시 중지된 여정 설정의 전체 집합과 같은 추가 일시 중지 및 다시 시작 정보가 포함됩니다. [자세히 알아보기](../building-journeys/journey-properties.md)
-
-  사용 가능한 날짜: 2026년 3월 2일 화요일
 
 #### 보고
 
@@ -411,13 +359,26 @@ ht-degree: 26%
 
 * **오케스트레이션된 캠페인에서 차원 간소화** - 이제 정확하고 효율적인 대상 활성화를 위해 오케스트레이션된 캠페인에서 올바른 타겟팅 및 보조 차원을 쉽게 선택하거나 자동으로 추론할 수 있습니다.
 
+#### 여정
+
+* **여정에서 아웃바운드 메시지의 웨이브 전송** - 이제 Journey Optimizer 여정의 메시지를 시간에 따라 제어된 배치로 전달하도록 예약할 수 있습니다. [자세히 알아보기](../building-journeys/send-using-waves.md)
+
+  이전에 여정에서 사용할 수 있도록 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).
+
+  사용 가능한 날짜: 2026년 3월 16일 화요일
+
+* **여정 기술 세부 정보의 일시 중지 및 다시 시작 세부 정보** - 이제 **기술 세부 정보** 여정에 마지막 일시 중지 및 다시 시작 날짜 및 시간, 각 작업을 수행한 사용자의 표시 이름 및 내부 식별자, 일시 중지 동작, 최대 일시 중지 기간 및 자동 다시 시작 상태와 같은 일시 중지된 여정 설정의 전체 집합과 같은 추가 일시 중지 및 다시 시작 정보가 포함됩니다. [자세히 알아보기](../building-journeys/journey-properties.md)
+
+  사용 가능한 날짜: 2026년 3월 2일 화요일
+
+
 ## 2026년 2월 릴리스 정보 {#feb-26-01-rn}
 
 [새 기능](#feb-26-01-features) 및 [개선 사항](#feb-26-01-improv) 섹션에서는 이미 사용 가능한 기능을 다룹니다. <!--The [Coming soon](#coming-soon) section lists features and improvements scheduled for release later in February.-->
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
