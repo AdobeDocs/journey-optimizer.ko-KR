@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 여정, 첫 번째, 시작, 빠른 시작, 대상, 이벤트, 작업
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
-source-git-commit: 302db58525a7b2648bb9c44bc9b42da787ca9c43
+source-git-commit: 7d176d5e2fbaa26d9b4ac22e08c7a86ccea22c45
 workflow-type: tm+mt
-source-wordcount: '949'
-ht-degree: 18%
+source-wordcount: '1213'
+ht-degree: 10%
 
 ---
 
@@ -37,36 +37,44 @@ ht-degree: 18%
 
 ![여정 만들기 단계: 만들기, 디자인, 테스트 및 게시](assets/journey-creation-process.png)
 
+이 안내서에서는 다음 작업을 수행합니다.
+
+* 여정 진입점 정의 — 대상 세그먼트 또는 실시간 이벤트
+* 채널(이메일, 푸시 또는 SMS) 전체에 메시지 작업 추가
+* 활성화하기 전에 테스트 프로필로 여정 테스트
+* 여정 게시 및 성능 모니터링
 
 여러 단계로 구성된 고객 여정을 구축하여 채널 간에 실시간으로 상호 작용, 오퍼 및 메시지를 전송할 수 있습니다. 이 접근 방식은 고객이 자신의 행동과 관련 비즈니스 신호를 기반으로 최적의 순간에 참여할 수 있도록 합니다. Target 대상은 행동, 컨텍스트 데이터 및 비즈니스 이벤트를 기반으로 정의됩니다. 필수 구성 요소는 사용 사례와 작성 중인 [여정 유형](entry-management.md#types-of-journeys)에 따라 다릅니다.
 
 프로필이 [이 섹션](entry-management.md#journey-processing-rate)에서 여정 및 여정 처리 속도를 통해 이동하는 방법에 대해 자세히 알아보세요.
 
-여정 빌드를 시작하기 전에 관련 구성 단계가 완료되었는지 확인하십시오.
+<!--
+>[!TIP]
+>
+>Not sure whether to use a journey or a campaign? [Learn how to choose the right approach](../start/journeys-vs-campaigns.md).
+-->
 
-* 이벤트를 받을 때 개별적으로 여정을 트리거하려면 **이벤트를 구성**&#x200B;합니다. 예상 정보 및 처리 방법을 정의합니다. [자세히 보기](../event/about-events.md).
+## 시작하기 전에 {#prerequisites}
 
-<!--   ![](assets/jo-event7bis.png)  -->
+빌드하기 전에 구성해야 할 사항은 여정이 트리거되는 방식에 따라 다릅니다. 대부분의 여정은 다음 두 진입점 중 하나에서 시작됩니다.
 
-* 또한 여정은 Adobe Experience Platform 대상을 수신하여 지정된 프로필 세트로 메시지를 일괄적으로 보낼 수 있습니다. 이에 대해 **대상자를 만듭니다**. [자세히 보기](../audience/about-audiences.md).
+* **대상 기반 항목** — 예약된 시간에 정의된 프로필 집합에 대해 여정이 실행됩니다. 여정을 빌드하기 전에 Adobe Experience Platform에서 [대상자를 만듭니다](../audience/about-audiences.md). Journey Optimizer을 처음 사용하는 경우 권장되는 시작 지점입니다.
 
-<!--   ![](assets/segment2.png)  -->
+* **이벤트 기반 항목** — 여정은 개인이 구매 또는 등록과 같은 작업을 수행할 때 실시간으로 트리거됩니다. [이벤트를 구성](../event/about-events.md)하여 트리거와 전달하는 데이터를 정의합니다.
 
-* 여정에서 사용할 조건 등의 추가 정보를 검색하려면 시스템에 대한 연결을 정의합니다. 이 연결은 **데이터 원본**&#x200B;을 사용합니다. [자세히 보기](../datasource/about-data-sources.md).
+다음 요소는 선택 사항이지만 사용 사례에 따라 필요할 수 있습니다.
 
-<!--   ![](assets/jo-datasource.png)  -->
+* **데이터 원본** — 외부 시스템의 데이터로 여정 조건 또는 개인화를 보강하려면 [데이터 원본](../datasource/about-data-sources.md)을 설정하십시오.
 
-* Journey Optimizer에는 [기본 메시지](../building-journeys/journey-action.md) 기능이 포함되어 있습니다. 서드파티 시스템을 사용하여 메시지를 보내는 경우 **사용자 지정 작업을 만들 수 있습니다**. 이 [섹션](../action/action.md)에서 자세히 알아보세요.
-
-<!--    ![](assets/custom2.png)  -->
-
-
-데이터 엔지니어로서 데이터 소스, 이벤트 및 작업을 포함하여 여정을 구성하는 단계는 [이 섹션](../configuration/about-data-sources-events-actions.md)에 자세히 설명되어 있습니다.
-
+* **사용자 지정 작업** — 기본 제공 채널이 아닌 서드파티 시스템을 통해 메시지를 전달하는 경우 [사용자 지정 작업](../action/action.md)을 구성하십시오.
 
 >[!NOTE]
 >
->여정 가드레일 및 제한 사항은 [이 페이지](../start/guardrails.md)에서 자세히 확인할 수 있습니다.
+>기술 설정(이벤트, 데이터 소스 및 작업)을 담당하는 데이터 엔지니어인 경우 [이 섹션](../configuration/about-data-sources-events-actions.md)을 참조하세요.
+
+>[!NOTE]
+>
+>여정 보호 기능 및 제한 사항에 대해서는 [이 페이지](../start/guardrails.md)에 자세히 설명되어 있습니다.
 
 ## 여정 만들기 {#jo-build}
 
@@ -78,31 +86,39 @@ ht-degree: 18%
 
 1. 여정의 구성 창을 편집하여 여정 이름을 정의하고 속성을 설정합니다. [이 여정](journey-properties.md)에서 페이지의 속성을 설정하는 방법을 알아보세요.
 
+   >[!TIP]
+   >
+   >**어떤 여정 유형을 선택해야 합니까?** Journey Optimizer을 처음 사용하는 경우 **[!UICONTROL 대상 읽기]** 활동을 사용하여 대상 기반 여정으로 시작하십시오. 이전 이벤트 구성이 필요하지 않으며 캔버스에 익숙해지는 가장 쉬운 방법입니다. 구매 또는 양식 제출에 반응하는 등 이벤트가 트리거되는 실시간 경험의 경우, 먼저 이벤트를 구성하고 이벤트 기반 항목을 사용합니다. [여정 유형](entry-management.md#types-of-journeys)에 대해 자세히 알아보세요.
+
    설정 및 구성 옵션이 있는 ![여정 속성 패널](assets/jo-properties.png)
 
 그런 다음 여정 디자인을 시작할 수 있습니다.
 
 ## 여정 디자인 {#jo-design}
 
-옴니채널 여정 디자이너를 통해 타기팅된 대상자, 실시간 고객 또는 비즈니스 상호 작용을 기반으로 하는 업데이트 및 직관적인 드래그 앤 드롭 인터페이스를 사용한 옴니채널 메시지를 통해 여러 단계로 구성된 여정을 작성할 수 있습니다.
-
->[!TIP]
->
->여러 단계 또는 터치포인트가 많은 여정의 경우 엔드투엔드 흐름을 **[!UICONTROL Jump]** 활동과 연결된 작고 집중된 하위 여정으로 나누는 것이 좋습니다. 이러한 접근 방식은 복잡성을 감소시키고, 각 하위 여정을 독립적으로 테스트하고 유지하는 것을 용이하게 한다. [디자인 전략: 바이트 크기 하위 여정](jump.md#jump-strategy)에서 자세히 알아보세요.
+여정 디자이너를 사용하면 직관적인 드래그 앤 드롭 인터페이스를 사용하여 여러 단계의 여정을 작성할 수 있습니다. 왼쪽 팔레트의 활동은 **이벤트**, **오케스트레이션** 및 **작업**&#x200B;의 세 가지 범주로 구성됩니다. 캔버스 및 해당 컨트롤에 대한 전체 개요는 [이 페이지](using-the-journey-designer.md)를 참조하세요.
 
 ![활동 팔레트 및 캔버스가 있는 여정 디자이너 인터페이스](assets/journey38.png)
 
-1. 팔레트에서 캔버스로 이벤트 또는 **대상자 읽기** 활동을 끌어다 놓는 것으로 시작합니다. 여정 디자인에 대한 자세한 내용은 [이 섹션](using-the-journey-designer.md)을 참조하세요.
+다음 단계에 따라 여정을 디자인합니다.
+
+1. **진입점 추가** — 이벤트 또는 **[!UICONTROL 대상자 읽기]** 활동을 팔레트에서 캔버스로 드래그합니다. 이렇게 하면 프로필이 실시간으로(이벤트 기반) 개별적으로 또는 정의된 대상(대상 기반)에서 한 번에 하나씩 여정에 들어가는 방식이 정의됩니다.
 
    ![대상 대상을 선택하기 위한 대상 활동 구성 읽기](assets/read-segment.png)
 
-1. 이벤트 또는 **대상자 읽기** 활동을 팔레트에서 캔버스로 끌어서 놓습니다. 여정 디자인에 대한 자세한 내용은 [이 섹션](using-the-journey-designer.md)을 참조하세요.
+1. **메시지 작업 추가** — 팔레트의 **[!UICONTROL 작업]** 섹션에서 채널 작업을 캔버스로 드래그하여 여정을 통해 흐르는 프로필에 메시지를 보냅니다. 작업은 이메일, 푸시 알림, SMS 등에 사용할 수 있습니다.
+
+1. **오케스트레이션 활동 추가** — **[!UICONTROL 조건]** 활동을 사용하여 여정 특성 또는 동작을 기준으로 프로필을 여러 경로로 분기합니다. **[!UICONTROL 대기]** 활동을 사용하여 단계 사이에 시간 지연을 도입할 수 있습니다.
+
+>[!TIP]
+>
+>여러 단계 또는 터치포인트가 많은 여정의 경우 엔드투엔드 흐름을 **[!UICONTROL Jump]** 활동과 연결된 더 작은 하위 여정으로 나누는 것이 좋습니다. 이렇게 하면 복잡성이 줄어들고 각 하위 여정을 독립적으로 테스트하기 쉬워집니다. [디자인 전략: 바이트 크기 하위 여정](jump.md#jump-strategy)에서 자세히 알아보세요.
 
 ## 여정 테스트 {#jo-test}
 
-여정을 빌드했으면 게시하기 전에 테스트합니다. Journey Optimizer은 여정을 따라 이동하면서 테스트 프로필을 볼 수 있는 방법으로 **테스트 모드**&#x200B;를 제공하여 활성화 전에 잠재적인 오류를 감지합니다. 빠른 테스트를 실행하면 여정이 올바르게 작동하여 안심하고 게시할 수 있습니다. 이 섹션[에서 여정 &#x200B;](testing-the-journey.md)을(를) 테스트하는 방법을 알아보세요.
+여정을 빌드했으면 게시하기 전에 테스트합니다. Journey Optimizer은 여정을 따라 이동하면서 테스트 프로필을 볼 수 있는 방법으로 **테스트 모드**&#x200B;를 제공하여 활성화 전에 잠재적인 오류를 감지합니다. 빠른 테스트를 실행하면 여정이 올바르게 작동하여 안심하고 게시할 수 있습니다. 이 섹션[에서 여정 ](testing-the-journey.md)을(를) 테스트하는 방법을 알아보세요.
 
-**시험 실행**&#x200B;에서도 여정을 실행할 수 있습니다. 여정 시험 실행은 Adobe Journey Optimizer의 특별한 여정 게시 모드로, 이를 통해 여정 실무자가 실제 고객과 연락하거나 프로필 정보를 업데이트하지 않고도 실제 프로덕션 데이터를 사용하여 여정을 테스트할 수 있습니다. 이 기능은 여정 제공자가 라이브로 게시하기 전에 여정 디자인 및 대상 타깃팅에 대한 자신감을 갖도록 도와줍니다. 이 섹션[에서 여정을 시험 실행 모드 &#x200B;](journey-dry-run.md)에 게시하는 방법을 알아봅니다.
+**시험 실행**&#x200B;에서도 여정을 실행할 수 있습니다. 여정 시험 실행은 Adobe Journey Optimizer의 특별한 여정 게시 모드로, 이를 통해 여정 실무자가 실제 고객과 연락하거나 프로필 정보를 업데이트하지 않고도 실제 프로덕션 데이터를 사용하여 여정을 테스트할 수 있습니다. 이 기능은 여정 제공자가 라이브로 게시하기 전에 여정 디자인 및 대상 타깃팅에 대한 자신감을 갖도록 도와줍니다. 이 섹션[에서 여정을 시험 실행 모드 ](journey-dry-run.md)에 게시하는 방법을 알아봅니다.
 
 ## 여정 게시 {#jo-pub}
 
@@ -116,6 +132,38 @@ ht-degree: 18%
 
 이 [섹션](../reports/live-report.md)에서 여정 보고서에 대해 자세히 알아보세요.
 
+## 일반적인 사용 사례 {#use-cases}
+
+어디서부터 시작할지 모르겠습니까? 다음은 여정이 가장 많은 가치를 제공하는 세 가지 일반적인 시나리오입니다.
+
+<table style="table-layout:fixed">
+  <tr style="border: 0;">
+    <td>
+      <a href="https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding" target="_blank">
+        <img src="../assets/do-not-localize/icon-quick-start.svg">
+      </a>
+      <div><strong>환영 시리즈</strong><br/>신규 사용자를 등록하고 제품 또는 서비스를 안내하는 일련의 메시지를 자동으로 온보딩합니다.</div>
+    </td>
+    <td>
+      <a href="https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart" target="_blank">
+        <img src="../assets/do-not-localize/icon-campaign.svg">
+      </a>
+      <div><strong>장바구니 포기</strong><br/>구매가 완료되지 않은 상태에서 나간 고객에게 적절한 시기에 개인화된 콘텐츠로 미리 알림을 보내 다시 참여시키십시오.</div>
+    </td>
+    <td>
+      <a href="jo-use-cases.md">
+        <img src="../assets/do-not-localize/icon-content.svg">
+      </a>
+      <div><strong>다시 참여</strong><br/>마지막으로 알려진 동작을 기준으로 타깃팅된 오퍼 또는 업데이트를 사용하여 비활성 사용자를 다시 이기십시오.</div>
+    </td>
+  </tr>
+  <tr style="border: 0;">
+    <td align="center"><a href="https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding" target="_blank"><img src="../assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart" target="_blank"><img src="../assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="jo-use-cases.md"><img src="../assets/do-not-localize/learn-more-button.svg"></a></td>
+  </tr>
+</table>
+
 ## 추가 리소스
 
 * **[여정 디자이너 개요](using-the-journey-designer.md)** - 고객 여정을 디자인하고 오케스트레이션하기 위한 여정 캔버스 인터페이스를 기본으로 제공합니다.
@@ -126,6 +174,3 @@ ht-degree: 18%
 * **[여정 문제 해결](troubleshooting.md)** - 일반적인 여정 문제와 디버깅에 대한 모범 사례에 대한 해결 방법을 찾아봅니다.
 * **[여정 자습서](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/journeys/introduction-to-building-a-journey){target="_blank"}** - 여정 작성 및 모범 사례에 대한 단계별 비디오 자습서를 살펴보십시오.
 
->[!NOTE]
->
->**live** 여정을 수정해야 하는 경우 여정의 [새 버전을 만들고](journey-ui.md#journey-filter).
