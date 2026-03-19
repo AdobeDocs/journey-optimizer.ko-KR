@@ -19,7 +19,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_content_targeting_fallback"
 >title="대체 콘텐츠란 무엇입니까?"
->abstract="대체 콘텐츠를 사용하면 타기팅 규칙을 충족하지 않는 대상자가 기본 콘텐츠를 받을 수 있습니다.</br>이 옵션을 선택하지 않으면 위에 정의된 타기팅 규칙에 적합하지 않은 대상자는 콘텐츠를 받지 못합니다."
+>abstract="대체 콘텐츠를 설정하면 타기팅 규칙에 해당하지 않는 사용자에게도 기본 콘텐츠가 노출됩니다.</br>이 옵션을 선택하지 않으면 위에 정의된 타기팅 규칙에 적합하지 않은 대상자는 콘텐츠를 받지 못합니다."
 
 타깃팅은 사용자 프로필 속성 또는 컨텍스트 속성에 따라 개인화된 콘텐츠를 특정 대상 세그먼트에 전달합니다.
 
@@ -63,7 +63,7 @@ ht-degree: 8%
 
    >[!AVAILABILITY]
    >
-   >[전용 &#x200B;](../experience-decisioning/rules.md#create) 메뉴에서 타깃팅 규칙을 만드는 중[!DNL Journey Optimizer]은(는) 현재 Decisioning 추가 기능 서비스를 구입한 조직에서 사용할 수 있으며 다른 조직에 대해 필요할 때 사용할 수 있습니다(제한된 가용성).
+   >[전용 ](../experience-decisioning/rules.md#create) 메뉴에서 타깃팅 규칙을 만드는 중[!DNL Journey Optimizer]은(는) 현재 Decisioning 추가 기능 서비스를 구입한 조직에서 사용할 수 있으며 다른 조직에 대해 필요할 때 사용할 수 있습니다(제한된 가용성).
    >
    >이 용량은 모든 고객에게 점진적으로 제공될 예정입니다. 그동안 Adobe 담당자에게 문의하여 액세스 권한을 얻으십시오.
 
