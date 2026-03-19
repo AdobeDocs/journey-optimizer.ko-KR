@@ -80,7 +80,7 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="ajo_rule_type"
 >title="규칙 유형"
->abstract="채널 규칙 세트에 원하는 규칙 유형을 선택합니다. **빈도 캡핑** 유형을 사용하여 커뮤니케이션 채널에 캡핑 규칙을 적용합니다. 예를 들어 하루에 1개 이상의 이메일이나 SMS를 보내지 마십시오. 특정 기간 동안 메시지가 전송되지 않도록 시간 기반 제외를 정의하려면 **방해 금지 시간대**&#x200B;를 선택합니다."
+>abstract="채널 규칙 세트에 원하는 규칙 유형을 선택합니다. **빈도 캡핑** 유형을 사용하여 커뮤니케이션 채널에 캡핑 규칙을 적용합니다. 예를 들어 하루에 1개 이상의 이메일이나 SMS를 보내지 마십시오. **방방해 금지 시간대(제한된 가용성에서 사용 가능)** 유형을 선택하여 시간 기반 제외를 정의하고 특정 시간대에는 메시지가 전송되지 않도록 합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_duration"
@@ -180,4 +180,4 @@ ht-degree: 33%
 
 ## 사용 방법 비디오 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444733?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
