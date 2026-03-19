@@ -45,4 +45,4 @@ DM 캠페인이나 여정을 만들 때 Journey Optimizer은 타겟팅된 모든
 
 Adobe Journey Optimizer의 DM 채널을 활용하여 여정 내에서 DM 게재를 자동화하고 예약하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479169?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479162?quality=12)

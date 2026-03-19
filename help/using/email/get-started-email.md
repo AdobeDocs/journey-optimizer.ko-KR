@@ -10,7 +10,7 @@ level: Beginner
 keywords: 이메일, 시작, 만들기, 미리보기
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
 source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 다음 방법으로 이메일 게재를 만들 수 있습니다.
 
-* **여정**&#x200B;에서 만들기: 여정에 **[!UICONTROL 이메일]** 활동을 추가하고 기본 설정을 정의한 다음 오른쪽의 **[!UICONTROL 작업: 이메일]** 창에서 메시지의 콘텐츠를 만듭니다. [여정을 만드는 방법 알아보기](../building-journeys/journey-gs.md)
+* **여정**&#x200B;에서 만들기: 여정에 **[!UICONTROL 이메일]** 활동을 추가하고 기본 설정을 정의한 다음 오른쪽의 **[!UICONTROL 작업: 이메일]** 창에서 메시지의 콘텐츠를 만듭니다. [여정 만드는 방법 알아보기](../building-journeys/journey-gs.md)
 
 * **캠페인**&#x200B;에서 만들기: 캠페인을 만든 후 **[!UICONTROL 이메일]**&#x200B;을 작업으로 선택하고 기본 설정을 정의합니다. [액션 캠페인](../campaigns/campaign-action.md#action-campaign-action) | [API 트리거 캠페인](../campaigns/api-triggered-campaigns.md) | [오케스트레이션된 캠페인](../orchestrated/create-orchestrated-campaign.md#create) 만드는 방법 알아보기
 

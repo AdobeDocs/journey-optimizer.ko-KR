@@ -34,13 +34,13 @@ ht-degree: 31%
 
 **고객 참여** - 실시간 고객 프로필을 사용하여 타겟팅된 오퍼 및 메시지와 같은 상황에 맞는 개인화된 경험을 제공합니다. &#x200B;마케팅 캠페인, 고객 지원, 트랜잭션 업데이트 등 다양한 채널에서 고객과 소통할 수 있습니다. &#x200B;
 
-**데이터 공유** - Amazon Web Services, Microsoft Azure 및 Google Cloud와 같은 상위 클라우드 저장소 공급자와 고객 프로필을 공유합니다. 비즈니스 인텔리전스 도구를 사용하여 보고, 데이터 보관 또는 심층 분석에 공유 프로필을 사용합니다.
+**데이터 공유** - Amazon Web Services, Microsoft Azure 및 Google Cloud와 같은 상위 클라우드 스토리지 공급자와 고객 프로필을 공유합니다. 비즈니스 인텔리전스 도구를 사용하여 보고, 데이터 보관 또는 심층 분석에 공유 프로필을 사용합니다.
 
 >[!MORELIKETHIS]
 >
 >* [실시간 고객 프로필 설명서](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ko){target="_blank"}
 >* [실시간 고객 프로필 데이터 및 세분화를 위한 기본 보호 기능](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails){target="_blank"}
->* {&#x200B;0}데이터 수집 설명서[&#128279;](https://experienceleague.adobe.com/ko/docs/experience-platform/ingestion/home){target="_blank"}
+>* {&#x200B;0}데이터 수집 설명서[](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home){target="_blank"}
 
 ## 프로필 대시보드
 
@@ -58,4 +58,4 @@ ht-degree: 31%
 
 Adobe Experience Platform에서 실시간 고객 프로필을 조합하고 업데이트하는 방법과 이러한 프로필에 액세스하여 사용하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/31709?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27251?quality=12)
