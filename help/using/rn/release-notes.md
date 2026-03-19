@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 48d1e15bab9bc01d31795358cc4f632fd2a5b7dc
+source-git-commit: e0ad37aeba1bf577074382fc89c873af4c57b560
 workflow-type: tm+mt
-source-wordcount: '3121'
-ht-degree: 28%
+source-wordcount: '3241'
+ht-degree: 27%
 
 ---
 
@@ -80,8 +80,24 @@ ht-degree: 28%
 <td>
 <p><strong>Adobe Experience Platform Agent Orchestrator</strong>에서 제공하는 <strong>Journey Agent</strong>은(는) Journey Optimizer에서 사용할 수 있으며 자연어 인터페이스를 통해 여정을 분석할 수 있도록 해줍니다. 이제 Journey Agent에서 직접 채널별 콘텐츠를 생성하고 관리할 수도 있습니다. 또한 이메일 및 푸시와 같은 채널용 콘텐츠를 만들고, 템플릿을 적용하고 미리 보고, 프롬프트를 통해 색조와 스타일을 개선하고, <strong>콘텐츠 Designer</strong>에서 콘텐츠를 열어 상황에 맞게 편집할 수 있습니다.</p>
 <p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
-<p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=ko">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2026년 3월 4일 목요일</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>여정 중재 - AI 모델</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 등급 공식에서 AI 모델을 사용하여 고객 프로필 속성 및 컨텍스트 요인에 따라 여정 우선 순위 점수를 자동으로 높여 고객이 가장 관련성이 높은 여정을 입력하도록 할 수 있습니다.</p>
+<p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -150,13 +166,35 @@ ht-degree: 28%
 <table>
 <thead>
 <tr>
+<th><strong>URL 매개 변수 암호화</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 추적 링크 및 랜딩 페이지의 URL 매개 변수를 암호화할 수 있으므로, 중요한 매개 변수 데이터에 대한 추가 보안 계층을 제공합니다.</p>
+<ul>
+<li>전용 <strong>관리</strong> 레지스트리에서 암호화 키를 등록 및 관리합니다.</li>
+<li>표현식에 새 암호화 도우미를 사용하여 렌더링 시 보호할 쿼리 매개 변수의 추적 링크 및 랜딩 페이지 URL에서 중요한 데이터를 암호화합니다.</li>
+</ul>
+<p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>여정 경로 최적화</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p><strong>여정 경로 최적화</strong>은(는) AI를 사용하여 이전 여정 성능을 분석하고 각 고객을 위한 최상의 경로를 자동으로 선택하여 전환과 참여 결과를 극대화합니다.</p>
+<p>새로운 최적화 노드를 사용하여 특정 대상을 타깃팅하거나 A/B 테스트를 실행하여 비즈니스 중심 KPI를 충족하는 최상의 경로를 결정하십시오.
+이 도구를 사용하여 테스트 및 변경을 수행하고 커뮤니케이션, 시퀀스, 타이밍을 사용자 정의하여 고객에게 가장 효과적으로 다가갈 수 있습니다.
+</p>
 <p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
 </td>
 </tr>
@@ -187,7 +225,10 @@ ht-degree: 28%
 <tbody>
 <tr>
 <td>
-<p>2026년 2월에 <strong>작업 활동</strong>이 일반 지원되므로 여정 캔버스에서 레거시 기본 채널 작업 활동(이메일, SMS, 푸시, 인앱 등)은 이제 더 이상 사용되지 않습니다. 기존 채널 활동을 사용하는 기존 여정은 변경 사항이나 마이그레이션이 필요 없이 계속 작동합니다. 자세한 내용은 <a href="../building-journeys/journey-action.md">세부 설명서</a>를 참조하십시오.</p>
+<p>2026년 2월에 <strong>작업 활동</strong>이 일반 지원됨에 따라 여정 캔버스에서 레거시 기본 채널 활동(전자 메일, 푸시, SMS, 인앱, 웹, 코드 기반 경험 및 콘텐츠 카드)이 이제 더 이상 사용되지 않습니다.</p>
+<p>이제 단일 <strong>작업 활동</strong>을 사용하여 모든 채널 작업을 구성하므로 별도의 채널별 노드가 필요하지 않습니다.</p>
+기존 채널 활동을 사용하는 기존 여정은 변경 사항이나 마이그레이션이 필요 없이 계속 작동합니다.
+<p>자세한 내용은 <a href="../building-journeys/journey-action.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -338,8 +379,6 @@ ht-degree: 28%
 
 #### 여정
 
-* **여정 중재 - AI 모델** - 이제 등급 수식 외에도 AI 모델을 여정 중재와 함께 사용하여 고객의 여정 항목에 자동으로 등급을 매기고 우선 순위를 지정할 수 있습니다. 기계 학습을 사용하여 이전 행동과 컨텍스트 신호를 기반으로 각 프로필에 가장 적합한 여정을 결정할 수 있습니다. 이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
-
 * **여정에서 아웃바운드 메시지의 웨이브 전송** - 이제 Journey Optimizer 여정의 메시지를 시간에 따라 제어된 배치로 전달하도록 예약할 수 있습니다. [자세히 알아보기](../building-journeys/send-using-waves.md)
 
   이전에 여정에서 사용할 수 있도록 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).
@@ -362,24 +401,25 @@ ht-degree: 28%
 
 * **통합 셸에 표시되는 이메일 Designer** - 이제 이메일 Designer이 통합 셸 환경에 표시되므로 다른 Adobe 애플리케이션에 맞게 일관된 탐색 및 헤더 환경을 제공합니다.
 
-* **조각의 텍스트 모드 지원** - 이제 조각이 텍스트 모드 편집을 지원하므로 텍스트 기반 전자 메일 워크플로 및 다중 채널 시나리오에서 사용할 콘텐츠 조각의 일반 텍스트 버전을 만들고 관리할 수 있습니다.
+* **조각의 텍스트 모드 지원** - 텍스트 기반 전자 메일 워크플로를 지원하기 위해 이제 해당 조각을 포함하는 일반 텍스트 버전의 전자 메일에서 최적으로 사용할 수 있도록 시각적 조각의 텍스트 버전을 만들고 관리할 수 있습니다.
+
+  **주의:** 현재 릴리스 전에 만들어진 조각을 사용할 때 조각 텍스트 버전이 이메일 Designer 및 수신자에게 전달된 최종 전자 메일 모두에서 잘못 렌더링될 수 있습니다. 이전 조각을 사용하여 최상의 결과를 얻으려면 각 조각을 편집, 저장 및 다시 게시하십시오.
 
 #### 결정
 
-* **Edge Decisioning에서 표현식 조각 참조 변경 피드 지원** - 이 개선 사항을 사용하면 캠페인 또는 결정 정책을 다시 게시하여 수동으로 새로 고칠 필요 없이 조각 참조의 변경 사항이 조각을 참조하는 모든 항목에 자동으로 반영됩니다.
+* **Edge Decisioning의 표현식 조각 참조 변경 피드** - 이 개선 사항을 사용하면 캠페인 또는 결정 정책을 다시 게시하여 수동으로 새로 고칠 필요 없이 조각 참조의 변경 사항이 조각을 참조하는 모든 항목에 자동으로 반영됩니다.
 
-* **의사 결정 항목의 선택적 조각** - 이제 의사 결정 항목에 첨부된 조각을 선택 항목으로 구성할 수 있으므로 일부 의사 결정 항목 렌더링에 특정 조각이 필요하지 않을 때 콘텐츠 구성에 더 많은 유연성을 제공합니다.
+* **의사 결정 항목의 선택적 조각** - 이제 의사 결정 항목에서 조각을 사용할 때 Edge에서 일시적으로 사용할 수 없는 경우 건너뛰고 여정 또는 캠페인이 실패하는 대신 렌더링을 계속하도록 조각을 선택적 항목으로 만들 수 있습니다.
 
 #### 구성
 
-* **URL 매개 변수 암호화** - 이제 추적 링크 및 랜딩 페이지의 URL 매개 변수를 암호화할 수 있으므로 중요한 매개 변수 데이터에 대한 추가 보안 계층을 제공합니다. 이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
-
 * **여정 및 캠페인용 폴더** - 이제 여정 및 캠페인을 폴더로 구성하여 많은 양의 콘텐츠로 작업하는 팀을 위해 구조화된 탐색과 간편한 관리를 가능하게 할 수 있습니다. 이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
 
-* **AJO 보조 받는 사람 피드백 이벤트 데이터 세트의 변경** - AJO 전자 메일 BCC 피드백 이벤트 데이터 세트의 이름이 AJO 보조 받는 사람 피드백 이벤트 데이터 세트로 바뀌고 있습니다.
-   * **기존 사용자**: 표시 이름만 변경됩니다. 기본 테이블 이름은 변경되지 않습니다.
-   * **새 사용자 및 새 샌드박스**: 표시 이름과 테이블 이름 모두 새 이름을 사용합니다.
-   * **새 샌드박스를 사용하는 기존 사용자/조직**: 표시 이름과 테이블 이름이 모두 새 이름으로 변경됩니다.
+* **AJO 보조 받는 사람 피드백 이벤트 데이터 세트 이름 바꾸기** - AJO 전자 메일 BCC 피드백 이벤트 데이터 세트의 이름이 AJO 보조 받는 사람 피드백 이벤트 데이터 세트로 변경되었습니다. 영향은 상황에 따라 다릅니다.
+
+   * **기존 사용자**: 표시 이름만 업데이트됩니다. 기본 테이블 이름은 변경되지 않습니다.
+   * **새 사용자 및 샌드박스**: 표시 이름과 테이블 이름이 모두 새 이름을 반영합니다.
+   * **새 샌드박스를 가진 기존 사용자**: 표시 이름과 테이블 이름이 모두 새 이름으로 업데이트됩니다.
 
   사용 가능한 날짜: 2026년 3월 2일 화요일
 
@@ -391,11 +431,11 @@ ht-degree: 28%
 
 ## 2026년 2월 릴리스 정보 {#feb-26-01-rn}
 
-[새 기능](#feb-26-01-features) 및 [개선 사항](#feb-26-01-improv) 섹션에서는 이미 사용 가능한 기능을 다룹니다. [곧 출시](#coming-soon) 섹션에는 2월 말에 릴리스될 예정인 기능 및 개선 사항이 나와 있습니다.
+[새 기능](#feb-26-01-features) 및 [개선 사항](#feb-26-01-improv) 섹션에서는 이미 사용 가능한 기능을 다룹니다. <!--The [Coming soon](#coming-soon) section lists features and improvements scheduled for release later in February.-->
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
