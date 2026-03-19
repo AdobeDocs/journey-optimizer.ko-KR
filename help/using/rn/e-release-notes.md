@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 9f59ceaa8dc3bb37b0e038df4319cccd790b495c
+source-git-commit: ca383beea12fe1a4420cd8e4a6cd3bde147ade71
 workflow-type: tm+mt
-source-wordcount: '1417'
-ht-degree: 16%
+source-wordcount: '39'
+ht-degree: 100%
 
 ---
 
@@ -18,27 +18,28 @@ ht-degree: 16%
 
 [!DNL Adobe Journey Optimizer]은 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 모든 변경 사항은 매월 말 [릴리스 정보](release-notes.md)에 통합됩니다.
 
-## 2026년 3월 프리릴리스 정보 {#march-26-rn}
+<!--
+## March '26 pre-release notes {#march-26-rn}
 
-**아래 사전 릴리스 정보는 릴리스 공개 당일까지 사전 통지 없이 변경될 수 있습니다**. 링크, 화면, 업데이트된 설명서는 릴리스 일자에 릴리스 정보에 게시됩니다.
+**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-[Adobe Experience Platform 사전 릴리스 정보](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}도 참조하십시오.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
-**릴리스 날짜**: 2026년 3월 24~25일
+**Release date**: March 24-25, 2026
 
-### 새로운 기능 {#march-26-features}
+### New capabilities {#march-26-features}
 
 <table>
 <thead>
 <tr>
-<th><strong>LLM 이메일 최적화 도구</strong><br/></th>
+<th><strong>LLM email optimizer</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 LLM(대형 언어 모델) 기술을 사용하여 이메일 콘텐츠를 게재 가능하도록 최적화할 수 있습니다. LLM 이메일 최적화 프로그램은 이메일 콘텐츠를 분석하고 실행 가능한 권장 사항을 제공하여 발신자의 평판을 개선하고, 스팸 필터를 방지하며, 전반적인 게재 성능을 향상시킵니다.</p>
-<p>설명서 JIRA 작업: <a href="https://jira.corp.adobe.com/browse/DOCAC-14340">DOCAC-14340</a></p>
+<p>You can now optimize your email content for deliverability using large language model (LLM) technology. The LLM email optimizer analyzes your email content and provides actionable recommendations to improve sender reputation, avoid spam filters, and enhance overall deliverability performance.</p>
+<p>Documentation JIRA task: <a href="https://jira.corp.adobe.com/browse/DOCAC-14340">DOCAC-14340</a></p>
 </td>
 </tr>
 </tbody>
@@ -47,15 +48,15 @@ ht-degree: 16%
 <table>
 <thead>
 <tr>
-<th><strong>이미지를 이메일 콘텐츠 템플릿으로 변환</strong><br/></th>
+<th><strong>Convert images to email content templates</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 Journey Optimizer에서 직접 이미지를 이메일 콘텐츠 템플릿으로 변환할 수 있습니다. AI 기반 분석을 사용하여 시각적 참조에서 구조화된 HTML 템플릿을 자동으로 생성하여 이메일 디자인 시간을 크게 단축할 수 있습니다.</p>
-<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
-<p>설명서 JIRA 작업: <a href="https://jira.corp.adobe.com/browse/DOCAC-14324">DOCAC-14324</a></p>
+<p>You can now convert images into email content templates directly in Journey Optimizer. Use AI-powered analysis to automatically generate structured HTML templates from visual references, significantly reducing email design time.</p>
+<p>Previously released in Limited Availability, this capability is now available to all environments (General Availability).</p>
+<p>Documentation JIRA task: <a href="https://jira.corp.adobe.com/browse/DOCAC-14324">DOCAC-14324</a></p>
 </td>
 </tr>
 </tbody>
@@ -64,14 +65,14 @@ ht-degree: 16%
 <table>
 <thead>
 <tr>
-<th><strong>오케스트레이션된 캠페인의 증분 쿼리 활동</strong><br/></th>
+<th><strong>Incremental query activity in Orchestrated Campaigns</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 오케스트레이션된 캠페인에서 새 <strong>증분 쿼리</strong> 활동을 사용할 수 있습니다. 이 활동은 마지막 워크플로우 실행 이후 신규 또는 업데이트된 레코드만 쿼리하므로 처리 시간을 크게 줄이고 큰 데이터 세트를 대상으로 하는 반복 캠페인의 효율성을 개선합니다.</p>
-<p>설명서 JIRA 작업: <a href="https://jira.corp.adobe.com/browse/DOCAC-14262">DOCAC-14262</a></p>
+<p>A new <strong>Incremental query</strong> activity is now available in Orchestrated Campaigns. This activity queries only new or updated records since the last workflow execution, significantly reducing processing time and improving efficiency for recurring campaigns targeting large datasets.</p>
+<p>Documentation JIRA task: <a href="https://jira.corp.adobe.com/browse/DOCAC-14262">DOCAC-14262</a></p>
 </td>
 </tr>
 </tbody>
@@ -80,14 +81,14 @@ ht-degree: 16%
 <table>
 <thead>
 <tr>
-<th><strong>오케스트레이션된 캠페인의 트랜잭션 메시지</strong><br/></th>
+<th><strong>Transactional messages in Orchestrated Campaigns</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>오케스트레이션된 캠페인은 이제 <strong>트랜잭션 메시지</strong>를 지원하므로 캠페인 워크플로우에서 직접 주문 확인, 예약 알림 및 계정 업데이트와 같은 이벤트 기반의 실시간 메시지를 트리거할 수 있습니다.</p>
-<p>설명서 JIRA 작업: <a href="https://jira.corp.adobe.com/browse/DOCAC-14233">DOCAC-14233</a></p>
+<p>Orchestrated Campaigns now support <strong>transactional messaging</strong>, enabling you to trigger real-time, event-driven messages—such as order confirmations, booking notifications, and account updates—directly within your campaign workflow.</p>
+<p>Documentation JIRA task: <a href="https://jira.corp.adobe.com/browse/DOCAC-14233">DOCAC-14233</a></p>
 </td>
 </tr>
 </tbody>
@@ -96,14 +97,14 @@ ht-degree: 16%
 <table>
 <thead>
 <tr>
-<th><strong>오케스트레이션된 캠페인에서 활동 테스트</strong><br/></th>
+<th><strong>Test activity in Orchestrated Campaigns</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 오케스트레이션된 캠페인에서 새 <strong>Test</strong> 활동을 사용할 수 있습니다. 이 활동은 정의된 조건에 따라 워크플로우 실행을 다른 분기로 라우팅하므로 라이브 게재를 활성화하기 전에 캠페인 논리 및 구성을 확인할 수 있습니다.</p>
-<p>설명서 JIRA 작업: <a href="https://jira.corp.adobe.com/browse/DOCAC-14115">DOCAC-14115</a></p>
+<p>A new <strong>Test</strong> activity is now available in Orchestrated Campaigns. This activity routes workflow execution to different branches based on defined conditions, enabling you to validate campaign logic and configurations before activating live deliveries.</p>
+<p>Documentation JIRA task: <a href="https://jira.corp.adobe.com/browse/DOCAC-14115">DOCAC-14115</a></p>
 </td>
 </tr>
 </tbody>
@@ -112,15 +113,15 @@ ht-degree: 16%
 <table>
 <thead>
 <tr>
-<th><strong>랜딩 페이지의 사용자 정의 양식</strong><br/></th>
+<th><strong>Custom forms in landing pages</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 랜딩 페이지에서 <strong>사용자 정의 양식</strong>을 만들어 표준 옵트인 필드 이상의 특정 구독자 데이터를 수집할 수 있습니다. 고유한 양식 필드, 유효성 검사 규칙 및 제출 행동을 정의하여 더 광범위한 구독 및 프로필 보강 사용 사례를 지원합니다.</p>
-<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
-<p>설명서 JIRA 작업: <a href="https://jira.corp.adobe.com/browse/DOCAC-13963">DOCAC-13963</a></p>
+<p>You can now create <strong>custom forms</strong> in landing pages to collect specific subscriber data beyond standard opt-in fields. Define your own form fields, validation rules, and submission behaviors to support a wider range of subscription and profile enrichment use cases.</p>
+<p>Previously released in Limited Availability, this capability is now available to all environments (General Availability).</p>
+<p>Documentation JIRA task: <a href="https://jira.corp.adobe.com/browse/DOCAC-13963">DOCAC-13963</a></p>
 </td>
 </tr>
 </tbody>
@@ -129,14 +130,14 @@ ht-degree: 16%
 <table>
 <thead>
 <tr>
-<th><strong>Journey Agent: 오케스트레이션된 캠페인 사용 사례 만들기</strong><br/></th>
+<th><strong>Journey Agent: Create Orchestrated Campaign use case</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Experience Platform Agent Orchestrator에서 제공하는 <strong>Journey Agent</strong>은(는) 이제 자연어 인터페이스를 통해 전체 <strong>오케스트레이션된 캠페인</strong> 사용 사례를 만들 수 있습니다. 캠페인 목표 및 요구 사항을 일반 언어로 설명하면 Journey Agent이 캠페인 구조, 활동 및 타깃팅을 구성합니다.</p>
-<p>설명서 JIRA 작업: <a href="https://jira.corp.adobe.com/browse/DOCAC-13768">DOCAC-13768</a></p>
+<p><strong>Journey Agent</strong>, powered by Adobe Experience Platform Agent Orchestrator, can now create complete <strong>Orchestrated Campaign</strong> use cases through a natural language interface. Describe your campaign goal and requirements in plain language, and Journey Agent configures the campaign structure, activities, and targeting for you.</p>
+<p>Documentation JIRA task: <a href="https://jira.corp.adobe.com/browse/DOCAC-13768">DOCAC-13768</a></p>
 </td>
 </tr>
 </tbody>
@@ -145,14 +146,14 @@ ht-degree: 16%
 <table>
 <thead>
 <tr>
-<th><strong>랜딩 페이지의 새 프로필 획득</strong><br/></th>
+<th><strong>New profile acquisition in landing pages</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 랜딩 페이지에서 <strong>새 프로필 획득</strong> 워크플로우를 지원하므로 랜딩 페이지 경험에서 직접 새 대상 구성원을 캡처하고 온보딩할 수 있습니다. Adobe Experience Platform에서 프로필 데이터를 수집하고 새 프로필을 자동으로 프로비저닝하도록 획득 양식을 구성합니다.</p>
-<p>설명서 JIRA 작업: <a href="https://jira.corp.adobe.com/browse/DOCAC-13757">DOCAC-13757</a></p>
+<p>Landing pages now support <strong>new profile acquisition</strong> workflows, enabling you to capture and onboard new audience members directly from your landing page experiences. Configure acquisition forms to collect profile data and automatically provision new profiles in Adobe Experience Platform.</p>
+<p>Documentation JIRA task: <a href="https://jira.corp.adobe.com/browse/DOCAC-13757">DOCAC-13757</a></p>
 </td>
 </tr>
 </tbody>
@@ -161,15 +162,15 @@ ht-degree: 16%
 <table>
 <thead>
 <tr>
-<th><strong>여정 경로 최적화</strong><br/></th>
+<th><strong>Journey path optimization</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p><strong>여정 경로 최적화</strong>은(는) AI를 사용하여 이전 여정 성능을 분석하고 각 고객을 위한 최상의 경로를 자동으로 선택하여 전환과 참여 결과를 극대화합니다.</p>
-<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
-<p>설명서 JIRA 작업: <a href="https://jira.corp.adobe.com/browse/DOCAC-13492">DOCAC-13492</a></p>
+<p><strong>Journey path optimization</strong> uses AI to analyze historical journey performance and automatically select the best path for each customer, maximizing conversion and engagement outcomes.</p>
+<p>Previously released in Limited Availability, this capability is now available to all environments (General Availability).</p>
+<p>Documentation JIRA task: <a href="https://jira.corp.adobe.com/browse/DOCAC-13492">DOCAC-13492</a></p>
 </td>
 </tr>
 </tbody>
@@ -178,15 +179,15 @@ ht-degree: 16%
 <table>
 <thead>
 <tr>
-<th><strong>이메일 채널에서 의사 결정 지원</strong><br/></th>
+<th><strong>Decisioning support in email channel</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 <strong>의사 결정</strong>을 사용하여 전자 메일 메시지의 콘텐츠를 개인화하고 최적화할 수 있습니다. 우선 순위 점수, 공식 또는 AI 모델을 활용하여 각 수신자에게 가장 관련성이 높은 오퍼와 콘텐츠를 표시합니다.</p>
-<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성). 이번 GA 릴리스에서는 미러 페이지가 지원됩니다.</p>
-<p>설명서 JIRA 작업: <a href="https://jira.corp.adobe.com/browse/DOCAC-13182">DOCAC-13182</a></p>
+<p>You can now use <strong>Decisioning</strong> to personalize and optimize the content of your email messages. Leverage Priority Scores, Formulas, or AI Models to display the most relevant offers and content to each recipient.</p>
+<p>Previously released in Limited Availability, this capability is now available to all environments (General Availability). With this General Availability release, mirror pages are now supported.</p>
+<p>Documentation JIRA task: <a href="https://jira.corp.adobe.com/browse/DOCAC-13182">DOCAC-13182</a></p>
 </td>
 </tr>
 </tbody>
@@ -195,14 +196,14 @@ ht-degree: 16%
 <table>
 <thead>
 <tr>
-<th><strong>메시지 받은 편지함</strong><br/></th>
+<th><strong>Message inbox</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 Adobe Journey Optimizer에서 새로운 <strong>Message Inbox</strong>을(를) 사용할 수 있으며, 수신된 인앱, 푸시 및 SMS 메시지를 중앙에서 볼 수 있습니다. 수신자는 한 곳에서 모든 메시지에 액세스하고 상호 작용할 수 있으므로 참여 및 재참여 시나리오를 더욱 풍부하게 만들 수 있습니다.</p>
-<p>설명서 JIRA 작업: <a href="https://jira.corp.adobe.com/browse/DOCAC-11382">DOCAC-11382</a></p>
+<p>A new <strong>Message Inbox</strong> is now available in Adobe Journey Optimizer, providing a centralized view of received in-app, push, and SMS messages. Recipients can access and interact with all their messages in one place, enabling richer engagement and re-engagement scenarios.</p>
+<p>Documentation JIRA task: <a href="https://jira.corp.adobe.com/browse/DOCAC-11382">DOCAC-11382</a></p>
 </td>
 </tr>
 </tbody>
@@ -211,14 +212,14 @@ ht-degree: 16%
 <table>
 <thead>
 <tr>
-<th><strong>기본 채널 작업 활동 더 이상 사용되지 않음</strong><br/></th>
+<th><strong>Native channel action activities deprecated</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>2026년 2월에 <strong>작업 활동</strong>이 일반 지원되므로 여정 캔버스에서 레거시 기본 채널 작업 활동(이메일, SMS, 푸시, 인앱 등)은 이제 더 이상 사용되지 않습니다. 기존 채널 활동을 사용하는 기존 여정은 변경 사항이나 마이그레이션이 필요 없이 계속 작동합니다.</p>
-<p>설명서 JIRA 작업: <a href="https://jira.corp.adobe.com/browse/DOCAC-14144">DOCAC-14144</a></p>
+<p>Following the General Availability of the <strong>Action activity</strong> in February 2026, legacy native channel action activities (Email, SMS, Push, In-App, etc.) in the journey canvas are now deprecated. Existing journeys using legacy channel activities continue to function without any changes or migration required.</p>
+<p>Documentation JIRA task: <a href="https://jira.corp.adobe.com/browse/DOCAC-14144">DOCAC-14144</a></p>
 </td>
 </tr>
 </tbody>
@@ -227,14 +228,14 @@ ht-degree: 16%
 <table>
 <thead>
 <tr>
-<th><strong>여정의 데이터 세트 조회 지원</strong><br/></th>
+<th><strong>Dataset lookup support in journeys</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>여정의 새로운 활동인 데이터 세트 조회를 사용하면 런타임 중에 Adobe Experience Platform 레코드 데이터 세트에서 데이터를 동적으로 검색할 수 있습니다. 이 기능을 활용하면 프로필이나 이벤트 페이로드에 없을 수 있는 데이터에 액세스하여 고객 상호 작용이 적시에 적절하게 이루어질 수 있습니다. 이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
-<p>설명서 JIRA 작업: <a href="https://jira.corp.adobe.com/browse/DOCAC-14351">DOCAC-14351</a></p>
+<p>A new activity in journeys, Dataset lookup, allows you to to dynamically retrieve data from Adobe Experience Platform record datasets during runtime. By leveraging this capability, you can access data that may not reside in the profile or event payload, ensuring your customer interactions are both relevant and timely. Previously released in Limited Availability, this capability is now available to all environments (General Availability).</p>
+<p>Documentation JIRA task: <a href="https://jira.corp.adobe.com/browse/DOCAC-14351">DOCAC-14351</a></p>
 </td>
 </tr>
 </tbody>
@@ -243,79 +244,81 @@ ht-degree: 16%
 <table>
 <thead>
 <tr>
-<th><strong>API를 사용하여 오케스트레이션된 캠페인 트리거</strong><br/></th>
+<th><strong>Trigger orchestrated campaigns using API</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 API를 통해 오케스트레이션된 캠페인을 트리거할 수 있습니다. Target 캠페인을 "신호에 의해 트리거됨"으로 구성하고 게시합니다. 그런 다음 API 호출을 사용하여 캠페인을 실행합니다. API 호출에는 트리거된 캠페인에서 변수로 사용할 수 있는 매개 변수가 포함될 수 있습니다.</p>
-<p>설명서 JIRA 작업: <a href="https://jira.corp.adobe.com/browse/DOCAC-14030">DOCAC-14030</a></p>
+<p>You can now trigger an orchestrated campaign via API. Configure the target campaign as "Triggered by a signal" and publish it. Then use an API call to fire the campaign. The API call can include parameters that will be available as variables in the triggered campaign.</p>
+<p>Documentation JIRA task: <a href="https://jira.corp.adobe.com/browse/DOCAC-14030">DOCAC-14030</a></p>
 </td>
 </tr>
 </tbody>
 </table>
 
-### 개선 사항 {#march-26-improv}
+### Improvements {#march-26-improv}
 
-다음은 이번 릴리스의 개선 사항 목록입니다.
+Improvements coming with this release are listed below.
 
-#### 여정
+#### Journeys
 
-* **여정 중재 - AI 모델** - 이제 등급 수식 외에도 AI 모델을 여정 중재와 함께 사용하여 고객의 여정 항목에 자동으로 등급을 매기고 우선 순위를 지정할 수 있습니다. 기계 학습을 사용하여 이전 행동과 컨텍스트 신호를 기반으로 각 프로필에 가장 적합한 여정을 결정할 수 있습니다. 이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
+* **Journey Arbitration - AI Models** - In addition to ranking formulas, AI models can now be used with Journey Arbitration to automatically rank and prioritize journey entry for customers, using machine learning to determine the most relevant journey for each profile based on historical behavior and contextual signals. This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.
 
-  설명서 JIRA 작업: [DOCAC-14295](https://jira.corp.adobe.com/browse/DOCAC-14295)
+  Documentation JIRA task: [DOCAC-14295](https://jira.corp.adobe.com/browse/DOCAC-14295)
 
-#### 보고
+#### Reporting
 
-* **이메일 및 SMS 보고를 위한 봇 클릭 제외** - 이제 이메일 및 SMS 보고는 클릭 지표에서 봇 클릭을 자동으로 필터링하여 보다 정확한 참여 데이터를 제공하고 자동화된 트래픽으로 인해 성능 수치가 부풀려지지 않도록 합니다.
-설명서 JIRA 작업: [DOCAC-14354](https://jira.corp.adobe.com/browse/DOCAC-14354)
+* **Exclude bot clicks for email and SMS reporting** - Email and SMS reporting now automatically filters out bot clicks from click metrics, providing more accurate engagement data and preventing automated traffic from inflating your performance figures.
+  Documentation JIRA task: [DOCAC-14354](https://jira.corp.adobe.com/browse/DOCAC-14354)
 
-* **전송 시간 최적화: 컨트롤 위치 및 새 리프트 보고서를 업데이트했습니다** - STO(전송 시간 최적화) 컨트롤이 작업 구성 메뉴로 재배치되었습니다. 또한 이제 여정 보고서에서 STO가 캠페인 성과 지표에 미치는 영향을 측정하는 새로운 상승도 보고서를 사용할 수 있습니다.
+* **Send-Time Optimization: updated controls location and new lift report** - Send-Time Optimization (STO) controls have been relocated to the Action configuration menu. Additionally, a new lift report is now available in Journeys reports to measure the impact of STO on your campaign performance metrics.
 
-  설명서 JIRA 작업: [DOCAC-14335](https://jira.corp.adobe.com/browse/DOCAC-14335)
+  Documentation JIRA task: [DOCAC-14335](https://jira.corp.adobe.com/browse/DOCAC-14335)
 
-#### 이메일 디자이너
+#### Email Designer
 
-* **Dynamic Media(Beta)를 사용한 열기 시간 개인화** - 이제 Adobe Dynamic Media 에셋을 사용하여 열기 시간에 이메일 콘텐츠를 개인화할 수 있으므로 이메일을 여는 순간 각 수신자의 특성을 기반으로 동적으로 생성되는 실시간 수신자별 이미지 및 비주얼을 사용할 수 있습니다. 이 기능은 현재 Beta에 있습니다.
-설명서 JIRA 작업: [DOCAC-14353](https://jira.corp.adobe.com/browse/DOCAC-14353)
+* **Open-time personalization using Dynamic Media (Beta)** - You can now personalize email content at open time using Adobe Dynamic Media assets, enabling real-time, recipient-specific images and visuals that are generated dynamically based on each recipient's attributes at the moment of email opening. This capability is currently in Beta.
+  Documentation JIRA task: [DOCAC-14353](https://jira.corp.adobe.com/browse/DOCAC-14353)
 
-* **통합 셸에 표시되는 이메일 Designer** - 이제 이메일 Designer이 통합 셸 환경에 표시되므로 다른 Adobe 애플리케이션에 맞게 일관된 탐색 및 헤더 환경을 제공합니다.
-설명서 JIRA 작업: [DOCAC-14254](https://jira.corp.adobe.com/browse/DOCAC-14254)
+* **Email Designer displayed in Unified Shell** - The Email Designer is now displayed within the Unified Shell experience, providing a consistent navigation and header experience that aligns with other Adobe applications.
+  Documentation JIRA task: [DOCAC-14254](https://jira.corp.adobe.com/browse/DOCAC-14254)
 
-* **조각의 텍스트 모드 지원** - 이제 조각이 텍스트 모드 편집을 지원하므로 텍스트 기반 전자 메일 워크플로 및 다중 채널 시나리오에서 사용할 콘텐츠 조각의 일반 텍스트 버전을 만들고 관리할 수 있습니다.
-설명서 JIRA 작업: [DOCAC-14204](https://jira.corp.adobe.com/browse/DOCAC-14204)
+* **Text mode support in fragments** - Fragments now support text mode editing, allowing you to create and manage plain text versions of your content fragments for use in text-based email workflows and multi-channel scenarios.
+  Documentation JIRA task: [DOCAC-14204](https://jira.corp.adobe.com/browse/DOCAC-14204)
 
-#### 결정
+#### Decisioning
 
-* **Edge Decisioning에서 표현식 조각 참조 변경 피드 지원** - 이 개선 사항을 사용하면 캠페인 또는 결정 정책을 다시 게시하여 수동으로 새로 고칠 필요 없이 조각 참조의 변경 사항이 조각을 참조하는 모든 항목에 자동으로 반영됩니다.
-설명서 JIRA 작업: [DOCAC-14350](https://jira.corp.adobe.com/browse/DOCAC-14350)
+* **Expression Fragment Reference change feed support in Edge Decisioning** - This enhancement allows changes in fragment references to automatically be reflected in all items that reference fragments, without needing to refresh anything manually (republishing the campaign or decision policy).
+  Documentation JIRA task: [DOCAC-14350](https://jira.corp.adobe.com/browse/DOCAC-14350)
 
-* **의사 결정 항목의 선택적 조각** - 이제 의사 결정 항목에 첨부된 조각을 선택 항목으로 구성할 수 있으므로 일부 의사 결정 항목 렌더링에 특정 조각이 필요하지 않을 때 콘텐츠 구성에 더 많은 유연성을 제공합니다.
-설명서 JIRA 작업: [DOCAC-14309](https://jira.corp.adobe.com/browse/DOCAC-14309)
+* **Optional fragments in decision items** - Fragments attached to decision items can now be configured as optional, providing greater flexibility in content composition when not all decision item renderings require a specific fragment.
+  Documentation JIRA task: [DOCAC-14309](https://jira.corp.adobe.com/browse/DOCAC-14309)
 
-#### 구성
+#### Configuration
 
-* **URL 매개 변수 암호화** - 이제 추적 링크 및 랜딩 페이지의 URL 매개 변수를 암호화할 수 있으므로 중요한 매개 변수 데이터에 대한 추가 보안 계층을 제공합니다. 이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.
-설명서 JIRA 작업: [DOCAC-14349](https://jira.corp.adobe.com/browse/DOCAC-14349)
+* **URL parameters encryption** - URL parameters in tracking links and landing pages can now be encrypted, providing an additional layer of security for sensitive parameter data. This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.
+  Documentation JIRA task: [DOCAC-14349](https://jira.corp.adobe.com/browse/DOCAC-14349)
 
-* **여정 및 캠페인용 폴더** - 이제 여정 및 캠페인을 폴더로 구성하여 많은 양의 콘텐츠로 작업하는 팀을 위해 구조화된 탐색과 간편한 관리를 가능하게 할 수 있습니다. 이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.
-설명서 JIRA 작업: [DOCAC-14038](https://jira.corp.adobe.com/browse/DOCAC-14038)
+* **Folders for journeys and campaigns** - You can now organize your journeys and campaigns into folders, enabling structured navigation and easier management for teams working with large volumes of content. This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.
+  Documentation JIRA task: [DOCAC-14038](https://jira.corp.adobe.com/browse/DOCAC-14038)
 
-#### 오케스트레이션된 캠페인
+#### Orchestrated campaigns
 
-* **오케스트레이션된 캠페인의 전역 변수** - 이제 오케스트레이션된 캠페인이 한 번 정의하여 워크플로우 내의 모든 활동에서 재사용할 수 있는 전역 변수를 지원하므로 구성을 단순화하고 동적 값, 표현식 및 콘텐츠 개인화의 일관성을 보장합니다.
-설명서 JIRA 작업: [DOCAC-14113](https://jira.corp.adobe.com/browse/DOCAC-14113)
+* **Global variables in Orchestrated Campaigns** - Orchestrated Campaigns now support global variables that can be defined once and reused across all activities within a workflow, simplifying configuration and ensuring consistency in dynamic values, expressions, and content personalization.
+  Documentation JIRA task: [DOCAC-14113](https://jira.corp.adobe.com/browse/DOCAC-14113)
 
-* **오케스트레이션된 캠페인에서 차원 간소화** - 이제 정확하고 효율적인 대상 활성화를 위해 오케스트레이션된 캠페인에서 올바른 타겟팅 및 보조 차원을 쉽게 선택하거나 자동으로 추론할 수 있습니다.
-설명서 JIRA 작업: [DOCAC-13554](https://jira.corp.adobe.com/browse/DOCAC-13554)
+* **Target dimension simplification in Orchestrated Campaigns** - You can now easily select or automatically deduce the right targeting and secondary dimensions in Orchestrated campaigns for accurate, efficient audience activation.
+  Documentation JIRA task: [DOCAC-13554](https://jira.corp.adobe.com/browse/DOCAC-13554)
+
+-->
 
 <!--
 ## February '26 pre-release notes {#feb-26-01-rn}
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: February 17, 2026
 
@@ -569,7 +572,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -746,7 +749,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
