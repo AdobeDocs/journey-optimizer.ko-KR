@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 6197ca7a3b2dc3d86df8262346198ca4d3a9fee2
+source-git-commit: 9f59ceaa8dc3bb37b0e038df4319cccd790b495c
 workflow-type: tm+mt
-source-wordcount: '1421'
+source-wordcount: '1417'
 ht-degree: 16%
 
 ---
@@ -271,7 +271,7 @@ ht-degree: 16%
 * **이메일 및 SMS 보고를 위한 봇 클릭 제외** - 이제 이메일 및 SMS 보고는 클릭 지표에서 봇 클릭을 자동으로 필터링하여 보다 정확한 참여 데이터를 제공하고 자동화된 트래픽으로 인해 성능 수치가 부풀려지지 않도록 합니다.
 설명서 JIRA 작업: [DOCAC-14354](https://jira.corp.adobe.com/browse/DOCAC-14354)
 
-* **전송 시간 최적화: 컨트롤 위치 및 새 리프트 보고서를 업데이트했습니다** - STO(전송 시간 최적화) 컨트롤이 작업 왼쪽 레일에서 작업 구성으로 재배치되었습니다. 또한 이제 여정 보고서에서 STO가 캠페인 성과 지표에 미치는 영향을 측정하는 새로운 상승도 보고서를 사용할 수 있습니다.
+* **전송 시간 최적화: 컨트롤 위치 및 새 리프트 보고서를 업데이트했습니다** - STO(전송 시간 최적화) 컨트롤이 작업 구성 메뉴로 재배치되었습니다. 또한 이제 여정 보고서에서 STO가 캠페인 성과 지표에 미치는 영향을 측정하는 새로운 상승도 보고서를 사용할 수 있습니다.
 
   설명서 JIRA 작업: [DOCAC-14335](https://jira.corp.adobe.com/browse/DOCAC-14335)
 
@@ -315,7 +315,7 @@ ht-degree: 16%
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: February 17, 2026
 
@@ -569,7 +569,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -746,7 +746,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
