@@ -10,10 +10,10 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="제한 공개" type="Informative"
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 4a5a512a3e9eddaf720e857f5a250c645b2454db
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 13%
+source-wordcount: '913'
+ht-degree: 11%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 13%
 
 1. **[!UICONTROL Orchestration]** 범주를 펼친 다음 **[!UICONTROL 데이터 집합 조회]** 활동을 캔버스에 놓습니다.
 
-   ![[!DNL Adobe Experience Platform] 여정에서 &#x200B;](assets/aep-data-activity.png) 데이터 집합 조회 활동
+   ![[!DNL Adobe Experience Platform] 여정에서 ](assets/aep-data-activity.png) 데이터 집합 조회 활동
 
 1. 레이블과 설명을 추가합니다.
 
@@ -93,6 +93,10 @@ ht-degree: 13%
    * 키는 SKU, 이메일 ID 또는 기타 식별자와 같은 여정 컨텍스트에서 파생된 표현식일 수 있습니다. 예: `@profile.email` 또는 `list(@event{purchase_event.products.sku})`
 
    * **문자열** 또는 **문자열 목록**&#x200B;만 지원됩니다.
+
+   >[!IMPORTANT]
+   >
+   >**고급 모드**&#x200B;를 사용하여 조회 키를 정의해야 합니다. 단순 모드를 사용하여 키를 설정하면 데이터 집합 조회 활동 출력을 다운스트림 활동에서 컨텍스트 특성으로 사용할 수 없으며, 조건 활동에서 &quot;데이터 집합 조회를 찾을 수 없음&quot; 오류가 발생하여 `@datasetLookup{}` 구문이 실패합니다.
 
    +++예
 
@@ -191,3 +195,15 @@ ht-degree: 13%
    ```
    {{context.journey.datasetLookup.1482319411.entity.loyaltyMember.loyaltyTier}}
    ```
+
++++
+
+## 문제 해결 {#troubleshooting}
+
+### 조건 활동의 &quot;데이터 세트 조회를 찾을 수 없음&quot; 오류 {#troubleshooting-not-found}
+
+**증상:** 데이터 세트 조회 활동이 여정에 올바르게 구성되어 있어도 조건 활동의 고급 표현식 편집기에서 `@datasetLookup{}` 구문이 &quot;데이터 세트 조회를 찾을 수 없음&quot; 오류를 반환합니다.
+
+**원인:** 데이터 집합 조회 활동의 조회 키가 단순 모드를 사용하여 설정되었습니다. 고급 모드에서 키가 정의되지 않으면 활동 출력이 다운스트림 활동에서 컨텍스트 속성으로 노출되지 않습니다.
+
+**수정:** 데이터 집합 조회 활동을 열고 **[!UICONTROL 조회 키]** 필드를 찾은 다음 **고급 모드**(으)로 전환하여 키 식을 다시 정의합니다. 활동을 저장하고 여정을 다시 게시합니다.

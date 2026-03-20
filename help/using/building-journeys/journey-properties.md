@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 여정, 구성, 속성
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: c54237bba0597ecc0d4ebb6084063834e0d2ab70
+source-git-commit: fe1c75aee05606e5d9bb374e4f9a9cf7b6ca7577
 workflow-type: tm+mt
-source-wordcount: '3069'
-ht-degree: 14%
+source-wordcount: '3223'
+ht-degree: 13%
 
 ---
 
@@ -272,6 +272,22 @@ ht-degree: 14%
     </td>
     <td>
       <p>프로필의 TTL은 91일로, 새로 다시 게시된 여정 버전의 TTL과 일치합니다. 강제 재입력이 있는 반복 여정의 경우 TTL은 반복 기간과 일치합니다.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>내 상시 실행 반복 대상자 읽기 여정이 91일 후에 중지됩니까?</p>
+    </td>
+    <td>
+      <p>아니요. 종료 날짜가 없는 되풀이하는 대상 읽기 여정은 게시되는 한 <strong>Live</strong> 상태로 유지됩니다. <strong>마지막 발생</strong>이 실행된 후 91일 후에만 <strong>완료됨</strong> 상태로 이동합니다. 91일 글로벌 시간 제한은 여정의 라이브 상태가 아니라 여정을 통해 이동하는 개별 프로필(프로필당 최대 활성 기간)에 적용됩니다.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>91일 여정 시간 제한과 91일 보고 기간의 차이점은 무엇입니까?</p>
+    </td>
+    <td>
+      <p>이 두 가지 개념은 서로 다릅니다. <strong>여정 전역 시간 제한</strong>(91일)은 개별 프로필이 여정 내에서 활성 상태를 유지할 수 있는 최대 시간입니다. 91일 후 프로필이 종료되고 해당 데이터가 삭제됩니다. <strong>보고 기간</strong>(약 91일)은 UI의 표시 제한입니다. ~91일보다 오래된 성능 데이터는 보고에 더 이상 표시되지 않지만 여정 자체는 계속 실행되고 새 프로필은 계속 입력됩니다.</p>
     </td>
   </tr>
 </table>

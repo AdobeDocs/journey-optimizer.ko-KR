@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: 241af4304f0bed8f3addf28ed8e7bc746550d823
+source-git-commit: 2dd13148d34436f8d98f04a2f9143e942d0604c3
 workflow-type: tm+mt
-source-wordcount: '1269'
+source-wordcount: '1419'
 ht-degree: 5%
 
 ---
@@ -483,6 +483,29 @@ The following operation gets all the values for the map `identityMap`.
 출력: `sun`, `mon`, `tue` 등
 
 +++
+
++++컨텍스트 이벤트에서 타임스탬프 형식 지정
+
+여정 이벤트 컨텍스트 속성의 타임스탬프를 사용하는 경우 두 가지 요구 사항이 적용됩니다.
+
+* **타임스탬프를`toDateTime()`**(으)로 래핑 — 컨텍스트 이벤트 타임스탬프는 `formatDate()`에 의해 날짜-시간 값으로 자동으로 인식되지 않습니다.
+* **백틱에서 숫자 이벤트 ID 줄바꿈** — 이벤트 ID가 숫자인 경우(예: `1697323153`) 표현식 경로에서 백틱으로 이스케이프해야 합니다. 그렇지 않으면 편집기에서 PQL 구문 오류가 발생합니다.
+* **`{% let %}` 할당 구문 사용** — 인라인 `{%= %}` 구문은 이 패턴을 지원하지 않습니다. 먼저 결과를 변수에 할당한 다음 `{{varName}}`(으)로 렌더링합니다.
+
+```handlebars
+{% let appointmentDate = formatDate(toDateTime(context.journey.events.`1697323153`.timestamp), "dd/MM/yyyy HH:mm") %}
+{{appointmentDate}}
+```
+
+출력(예): `18/03/2026 14:30`
+
++++
+
+>[!CAUTION]
+>
+>**일반적인 오류: &quot;입력이 일치하지 않습니다. &#39;(&#39; 필요: \&lt;EOF\>&quot;**
+>
+>컨텍스트 이벤트 타임스탬프 인라인(`formatDate()`)이 있는 `{%= formatDate(...) %}`을(를) 사용할 때 이 PQL 구문 오류가 발생합니다. 가장 일반적인 원인은 백틱(`` ` ``)으로 래핑되지 않은 숫자 이벤트 ID나 `formatDate()`에 래핑되지 않고 `toDateTime()`에 직접 전달된 타임스탬프 필드입니다. 두 문제를 모두 해결하려면 위의 예제에 표시된 `{% let %}` 할당 패턴을 사용합니다.
 
 ### 패턴 문자 {#pattern-characters}
 
