@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 50b32702daeb90fea097f384797dcb5f82c65796
 workflow-type: tm+mt
 source-wordcount: '1495'
-ht-degree: 74%
+ht-degree: 83%
 
 ---
 
@@ -356,7 +356,7 @@ AI 어시스턴트는 즉각적인 도움과 운영 인사이트를 제공합니
 
 >[!CONTEXTUALHELP]
 >id="ajo_inbox_location"
->title="페이지에서의 위치"
+>title="페이지 상의 위치"
 >abstract="."
 
 >[!CONTEXTUALHELP]

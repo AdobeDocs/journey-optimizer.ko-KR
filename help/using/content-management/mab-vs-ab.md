@@ -12,7 +12,7 @@ ht-degree: 10%
 
 ---
 
-# A/B와 Multi-armed bandit 실험 {#mab-vs-ab}
+# A/B vs 멀티 암드 밴딧 실험  {#mab-vs-ab}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ab_test_mab"
