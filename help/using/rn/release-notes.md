@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4bf9ea2e8d2be7fcc098fec13e6f829e6340b315
+source-git-commit: 0563bf02ecdd0229cc24e9d463af9c496faaa0a2
 workflow-type: tm+mt
-source-wordcount: '3046'
-ht-degree: 27%
+source-wordcount: '2984'
+ht-degree: 28%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 27%
 
 **아래 사전 릴리스 정보는 릴리스 공개 당일까지 사전 통지 없이 변경될 수 있습니다**. 링크, 화면, 업데이트된 설명서는 릴리스 일자에 릴리스 정보에 게시됩니다.
 
-[Adobe Experience Platform 사전 릴리스 정보](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}도 참조하십시오.
+[Adobe Experience Platform 시험판 정보](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}도 참조하세요.
 
 **릴리스 날짜**: 2026년 3월 24~25일
 
@@ -172,24 +172,6 @@ ht-degree: 27%
 </tbody>
 </table>
 
-
-
-<table>
-<thead>
-<tr>
-<th><strong>랜딩 페이지의 사용자 정의 양식</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 랜딩 페이지에서 <strong>사용자 정의 양식</strong>을 만들어 표준 옵트인 필드 이상의 특정 구독자 데이터를 수집할 수 있습니다. 고유한 양식 필드, 유효성 검사 규칙 및 제출 행동을 정의하여 더 광범위한 구독 및 프로필 보강 사용 사례를 지원합니다.</p>
-<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성). <a href="../landing-pages/lp-forms.md">자세히 알아보기</a></p>
-</td>
-</tr>
-</tbody>
-</table>
-
 <table>
 <thead>
 <tr>
@@ -289,7 +271,7 @@ ht-degree: 27%
 <td>
 <p><strong>Adobe Experience Platform Agent Orchestrator</strong>에서 제공하는 <strong>Journey Agent</strong>은(는) Journey Optimizer에서 사용할 수 있으며 자연어 인터페이스를 통해 여정을 분석할 수 있도록 해줍니다. 이제 Journey Agent에서 직접 채널별 콘텐츠를 생성하고 관리할 수도 있습니다. 또한 이메일 및 푸시와 같은 채널용 콘텐츠를 만들고, 템플릿을 적용하고 미리 보고, 프롬프트를 통해 색조와 스타일을 개선하고, <strong>콘텐츠 Designer</strong>에서 콘텐츠를 열어 상황에 맞게 편집할 수 있습니다.</p>
 <p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
-<p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=ko">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2026년 3월 4일 목요일</p>
 </td>
 </tr>
@@ -378,7 +360,7 @@ ht-degree: 27%
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 

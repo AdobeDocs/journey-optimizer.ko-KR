@@ -7,9 +7,10 @@ role: Developer
 level: Experienced
 keywords: 문자열, 함수, 표현식, 여정, 텍스트, 조작
 version: Journey Orchestration
-source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
+exl-id: 8186c564-56fa-417a-afd3-8e479e5b23b9
+source-git-commit: 11997fed640a626717ceef4201fcb7735f96cd89
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1129'
 ht-degree: 15%
 
 ---
@@ -62,7 +63,7 @@ ht-degree: 15%
 
 +++
 
-+++예
++++예시
 
 `concat("Hello","World")`
 
@@ -98,7 +99,7 @@ ht-degree: 15%
 
 +++
 
-+++예
++++예시
 
 `contain("rowing is great", "great")`
 
@@ -133,7 +134,7 @@ true를 반환합니다.
 
 +++
 
-+++예
++++예시
 
 `containIgnoreCase("rowing is great", "GREAT")`
 
@@ -168,7 +169,7 @@ true를 반환합니다.
 
 +++
 
-+++예
++++예시
 
 `endWith("Hello World", "World")`
 
@@ -207,7 +208,7 @@ false를 반환합니다.
 
 +++
 
-+++예
++++예시
 
 `endWithIgnoreCase("rowing is great", "AT")`
 
@@ -239,7 +240,7 @@ true를 반환합니다.
 
 +++
 
-+++예
++++예시
 
 `equalIgnoreCase("rowing is great", "rowing is GREAT")`
 
@@ -274,7 +275,7 @@ true를 반환합니다.
 
 +++
 
-+++예
++++예시
 
 `indexOf("Hello", "l")`
 
@@ -310,13 +311,17 @@ true를 반환합니다.
 
 +++
 
-+++예
++++예시
 
 `isEmpty("")`
 
 true를 반환합니다.
 
 `isEmpty("Hello World")`
+
+false를 반환합니다.
+
+`isEmpty(<null>)`
 
 false를 반환합니다.
 
@@ -346,7 +351,7 @@ false를 반환합니다.
 
 +++
 
-+++예
++++예시
 
 `isNotEmpty("")`
 
@@ -385,7 +390,7 @@ true를 반환합니다.
 
 +++
 
-+++예
++++예시
 
 `lastIndexOf("Hello", "l")`
 
@@ -421,7 +426,7 @@ true를 반환합니다.
 
 +++
 
-+++예
++++예시
 
 `length("Hello World")`
 
@@ -453,7 +458,7 @@ true를 반환합니다.
 
 +++
 
-+++예
++++예시
 
 `lower("A")`
 
@@ -488,7 +493,7 @@ true를 반환합니다.
 
 +++
 
-+++예
++++예시
 
 `matchRegExp("12345", "\\d+")`
 
@@ -520,7 +525,7 @@ true를 반환합니다.
 
 +++
 
-+++예
++++예시
 
 `notEqualIgnoreCase(@event{iOSPushPermissionAllowed.device.model}, "iPad")`
 
@@ -543,7 +548,7 @@ true를 반환합니다.
 | 매개변수 | 유형 |
 |-----------|--------------|
 | 기본 | 문자열 |
-| 대상 | 문자열(RegExp) |
+| target | 문자열(RegExp) |
 | 교체 | 문자열 |
 
 +++
@@ -556,7 +561,7 @@ true를 반환합니다.
 
 +++
 
-+++예
++++예시
 
 `replace("Hello World", "l", "x")`
 
@@ -601,7 +606,7 @@ true를 반환합니다.
 | 매개변수 | 유형 |
 |-----------|--------------|
 | 기본 | 문자열 |
-| 대상 | 문자열(RegExp) |
+| target | 문자열(RegExp) |
 | 교체 | 문자열 |
 
 +++
@@ -614,7 +619,7 @@ true를 반환합니다.
 
 +++
 
-+++예
++++예시
 
 `replaceAll("Hello World", "l", "x")`
 
@@ -651,7 +656,7 @@ listString을 반환합니다.
 
 +++
 
-+++예
++++예시
 
 `split("A_B_C", "_")`
 
@@ -692,7 +697,7 @@ listString을 반환합니다.
 
 +++
 
-+++예
++++예시
 
 `startWith("Hello World", "Hello")`
 
@@ -731,7 +736,7 @@ false를 반환합니다.
 
 +++
 
-+++예
++++예시
 
 `startWithIgnoreCase("rowing is great", "RO")`
 
@@ -769,7 +774,7 @@ true를 반환합니다.
 
 +++
 
-+++예
++++예시
 
 `substr("Hello World",6)`
 
@@ -807,7 +812,7 @@ true를 반환합니다.
 
 +++
 
-+++예
++++예시
 
 `trim(" Hello ")`
 
@@ -833,7 +838,7 @@ true를 반환합니다.
 
 +++
 
-+++예
++++예시
 
 `upper("b")`
 
@@ -865,11 +870,10 @@ true를 반환합니다.
 
 +++
 
-+++예
++++예시
 
 `uuid()`
 
 &quot;79e70b7f-8a85-400b-97a1-9f9826121553&quot;를 반환합니다.
 
 +++
-
