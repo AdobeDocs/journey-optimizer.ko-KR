@@ -7,10 +7,10 @@ role: User
 level: Experienced
 version: Journey Orchestration
 exl-id: e7a89354-28ea-431f-a15d-a8c18946d266
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
 workflow-type: tm+mt
-source-wordcount: '2188'
-ht-degree: 5%
+source-wordcount: '2198'
+ht-degree: 6%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 5%
 >
 >결정 정책은 **코드 기반 경험**, **푸시 알림** 및 SMS 채널에 대해 모든 고객이 사용할 수 있습니다.
 >
->이메일 채널에 대한 의사 결정은 제한된 가용성으로 사용할 수 있습니다. 액세스 권한을 요청하려면 Adobe 담당자에게 문의하십시오. [가용성 레이블](../rn/releases.md#availability-labels)에 대해 자세히 알아보세요.
+>이메일 채널에 대한 의사 결정은 제한된 가용성으로 사용할 수 있습니다. 액세스 권한을 요청하려면 Adobe 담당자에게 문의하십시오. 릴리스 주기 및 가용성 단계에 대한 자세한 내용은 [Journey Optimizer 릴리스 주기](../rn/releases.md)를 참조하십시오.
 
 ## 의사 결정 정책 추가 {#add}
 

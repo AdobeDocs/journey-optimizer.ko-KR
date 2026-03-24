@@ -7,10 +7,10 @@ role: User
 level: Experienced
 exl-id: 008d42c7-a523-4857-b34e-0e8dd1dfa507
 version: Journey Orchestration
-source-git-commit: 741b39a7588ae4e1161891226d95609508b00031
+source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 26%
+source-wordcount: '344'
+ht-degree: 30%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 26%
 * 의사 결정 정책 및 선택 전략 구성 업데이트: 의사 결정 구성 요소의 재사용 허용
 * 실험 기능: 다른 콘텐츠 구성 요소에 대해 의사 결정 논리를 테스트하여 성능을 측정합니다.
 
-의사 결정은 **코드 기반 경험**, **푸시 알림** 및 **SMS** 채널에 대해 모든 고객이 사용할 수 있습니다. **전자 메일** 채널에 대한 결정은 제한된 가용성으로 사용할 수 있습니다. 이메일 의사 결정에 대한 액세스 권한을 요청하려면 Adobe 담당자에게 문의하십시오. [가용성 레이블](../rn/releases.md#availability-labels)에 대해 자세히 알아보세요.
+의사 결정은 **코드 기반 경험**, **푸시 알림** 및 **SMS** 채널에 대해 모든 고객이 사용할 수 있습니다. **전자 메일** 채널에 대한 결정은 제한된 가용성으로 사용할 수 있습니다. 이메일 의사 결정에 대한 액세스 권한을 요청하려면 Adobe 담당자에게 문의하십시오. 릴리스 주기 및 가용성 단계에 대한 자세한 내용은 [Journey Optimizer 릴리스 주기](../rn/releases.md)를 참조하십시오.
 
 ➡️ [의사 결정 시작](../experience-decisioning/gs-experience-decisioning.md)
 

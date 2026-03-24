@@ -11,10 +11,10 @@ keywords: 표현식, 편집기
 mini-toc-levels: 1
 badge: label="제한 공개" type="Informative"
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: c5fe9a17bc0ddcffb1af63bf040a9c84d995fdba
+source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
 workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 8%
+source-wordcount: '927'
+ht-degree: 9%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->데이터 조회 기능은 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오. [가용성 레이블](../rn/releases.md#availability-labels)에 대해 자세히 알아보세요.
+>데이터 조회 기능은 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오. 릴리스 주기 및 가용성 단계에 대한 자세한 내용은 [Journey Optimizer 릴리스 주기](../rn/releases.md)를 참조하십시오.
 
 이 섹션에서 데이터 세트에 액세스하고 작업하는 방법에 대해 자세히 알아보세요. [데이터 세트 시작](../data/get-started-datasets.md)
 
