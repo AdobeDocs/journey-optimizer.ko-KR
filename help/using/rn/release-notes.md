@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 18bb9845554b4610c0d07ac7ec2a711e2230a01d
+source-git-commit: b0f8d08a14de84671706aed4f496dda3a5ba2ec8
 workflow-type: tm+mt
-source-wordcount: '2989'
-ht-degree: 28%
+source-wordcount: '2876'
+ht-degree: 29%
 
 ---
 
@@ -271,7 +271,7 @@ ht-degree: 28%
 <td>
 <p><strong>Adobe Experience Platform Agent Orchestrator</strong>에서 제공하는 <strong>Journey Agent</strong>은(는) Journey Optimizer에서 사용할 수 있으며 자연어 인터페이스를 통해 여정을 분석할 수 있도록 해줍니다. 이제 Journey Agent에서 직접 채널별 콘텐츠를 생성하고 관리할 수도 있습니다. 또한 이메일 및 푸시와 같은 채널용 콘텐츠를 만들고, 템플릿을 적용하고 미리 보고, 프롬프트를 통해 색조와 스타일을 개선하고, <strong>콘텐츠 Designer</strong>에서 콘텐츠를 열어 상황에 맞게 편집할 수 있습니다.</p>
 <p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
-<p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=ko">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2026년 3월 4일 목요일</p>
 </td>
 </tr>
@@ -308,14 +308,14 @@ ht-degree: 28%
 * **이메일 및 SMS 보고를 위한 봇 클릭 제외** - 이제 이메일 및 SMS 보고는 클릭 지표에서 봇 클릭을 자동으로 필터링하여 보다 정확한 참여 데이터를 제공하고 자동화된 트래픽으로 인해 성능 수치가 부풀려지지 않도록 합니다.
 
 * **전송 시간 최적화: 컨트롤 위치 및 새 리프트 보고서를 업데이트했습니다** - STO(전송 시간 최적화) 컨트롤이 작업 구성 메뉴로 재배치되었습니다. 또한 이제 여정 보고서에서 STO가 캠페인 성과 지표에 미치는 영향을 측정하는 새로운 상승도 보고서를 사용할 수 있습니다.
+<!--
+#### Email Designer
 
-#### 이메일 디자이너
+* **Email Designer displayed in Unified Shell** - The Email Designer is now displayed within the Unified Shell experience, providing a consistent navigation and header experience that aligns with other Adobe applications.
 
-* **통합 셸에 표시되는 이메일 Designer** - 이제 이메일 Designer이 통합 셸 환경에 표시되므로 다른 Adobe 애플리케이션에 맞게 일관된 탐색 및 헤더 환경을 제공합니다.
+* **Text mode support in fragments** - To support text-based email workflows, you can now create and manage text versions of your visual fragments for optimal use in the plain text version of emails that include that fragment.
 
-* **조각의 텍스트 모드 지원** - 텍스트 기반 전자 메일 워크플로를 지원하기 위해 이제 해당 조각을 포함하는 일반 텍스트 버전의 전자 메일에서 최적으로 사용할 수 있도록 시각적 조각의 텍스트 버전을 만들고 관리할 수 있습니다.
-
-  **주의:** 현재 릴리스 전에 만들어진 조각을 사용할 때 조각 텍스트 버전이 이메일 Designer 및 수신자에게 전달된 최종 전자 메일 모두에서 잘못 렌더링될 수 있습니다. 이전 조각을 사용하여 최상의 결과를 얻으려면 각 조각을 편집, 저장 및 다시 게시하십시오.
+  **Caution:** When using a fragment that was created before the current release, the fragment text version may be incorrectly rendered—both in the Email Designer and in the final email delivered to your recipients. For best results with older fragments, edit, save and republish each fragment.-->
 
 #### 결정
 
@@ -360,7 +360,7 @@ ht-degree: 28%
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
