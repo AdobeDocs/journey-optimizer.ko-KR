@@ -8,9 +8,9 @@ level: Experienced
 mini-toc-levels: 1
 version: Journey Orchestration
 exl-id: 35fc3cf2-1b91-4f30-ad71-f9d7d2a0291c
-source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
+source-git-commit: 2d1b74f28b355e1d3ab9a292bc1f1a7e03dadf1c
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '773'
 ht-degree: 5%
 
 ---
@@ -136,10 +136,6 @@ ht-degree: 5%
 * [캠페인 검토 및 활성화](../campaigns/review-activate-campaign.md)
 
 코드 기반 경험의 경우 개발자가 채널 구성에 정의된 표면에 대한 콘텐츠를 가져오기 위해 API 또는 SDK 호출을 수행하면 바로 웹 페이지 또는 앱에 변경 사항이 적용됩니다.
-
->[!NOTE]
->
->현재 [코드 기반 경험](../code-based/create-code-based.md) 캠페인 또는 여정에 대한 의사 결정 기반 콘텐츠를 시뮬레이션할 수 없습니다. 해결 방법은 [여기](../code-based/code-based-decisioning-implementations.md)에서 확인할 수 있습니다.
 
 ## 보고 대시보드 사용
 

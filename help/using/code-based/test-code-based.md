@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 9a1c148c-a6c3-406b-8f2e-1cf8b8239e75
-source-git-commit: effc706cfa56eca21cde0f26fe7b6332d3728b74
+source-git-commit: 2d1b74f28b355e1d3ab9a292bc1f1a7e03dadf1c
 workflow-type: tm+mt
-source-wordcount: '732'
-ht-degree: 24%
+source-wordcount: '794'
+ht-degree: 22%
 
 ---
 
@@ -38,10 +38,11 @@ ht-degree: 24%
 
 테스트 프로필을 선택하고 콘텐츠를 미리 보는 방법에 대한 자세한 정보는 [이 섹션](../content-management/preview.md)에서 확인할 수 있습니다.
 
+코드 기반 경험에서 [경험 의사 결정](../experience-decisioning/gs-experience-decisioning.md)을 사용할 때 전달할 결정 항목을 미리 볼 수 있습니다. **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;에서 하나 이상의 테스트 프로필을 선택하고 미리 보기에는 각 프로필에 적합한 결정 항목이 표시됩니다.
+
 >[!NOTE]
 >
->현재 [Decisioning](../experience-decisioning/gs-experience-decisioning.md)을(를) 사용하여 코드 기반 경험 캠페인이나 여정에서 사용자 인터페이스의 콘텐츠를 시뮬레이션할 수 없습니다. [이 섹션](../experience-decisioning/create-decision.md#test-and-publish)에서 해결 방법을 사용할 수 있습니다.
-
+>이 미리 보기는 **콘텐츠 미리 보기**&#x200B;에만 해당됩니다. 선택한 테스트 프로필에 적합한 결정 항목과 작성된 콘텐츠가 렌더링되는 방법을 보여 줍니다. **실시간 Edge 요청으로 전송된 컨텍스트 데이터**(예: 의사 결정 기준에 사용되거나 클라이언트 구현에서 참조된 데이터)가 **[!UICONTROL 콘텐츠 시뮬레이션]** 미리 보기에서 시뮬레이트되지 않습니다.
 
 ## 디바이스에서 미리보기 {#preview-on-device}
 
@@ -95,7 +96,7 @@ ht-degree: 24%
 
    * **[!UICONTROL 링크 복사]** 단추를 선택하고 링크를 팀 및 관련자와 공유하십시오. 관련자는 변경 내용이 실행되기 전에 모든 모바일 브라우저에서 새 환경을 미리 볼 수 있습니다.
 
-   * 모바일 장치로 QR 코드를 스캔하여 모바일 애플리케이션에서 바로 미리보기 링크를 엽니다. [Assurance](https://experienceleague.adobe.com/ko/docs/experience-platform/assurance/tutorials/implement-assurance){target="_blank"} 세션을 설정하려면 장치에 PIN을 입력해야 합니다.
+   * 모바일 장치로 QR 코드를 스캔하여 모바일 애플리케이션에서 바로 미리보기 링크를 엽니다. [Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/implement-assurance){target="_blank"} 세션을 설정하려면 장치에 PIN을 입력해야 합니다.
 
      >[!NOTE]
      >

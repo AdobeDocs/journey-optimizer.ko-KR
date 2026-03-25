@@ -6,7 +6,7 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
-source-git-commit: 0cdc5dce00d2240b2de6c4cba1648b4517323cce
+source-git-commit: 2d1b74f28b355e1d3ab9a292bc1f1a7e03dadf1c
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 1%
@@ -25,9 +25,7 @@ ht-degree: 1%
 
 ## 의사 결정을 사용하여 코드 기반 경험 테스트 {#code-based-test-decisions}
 
-<!--Currently you cannot simulate content from the user interface in a [code-based experience](create-code-based.md) campaign or journey using decisions.-->
-
-Decisioning을 사용하여 [코드 기반 경험](create-code-based.md)을(를) 테스트할 때 `dryRun` 플래그를 사용하여 보고 및 최대 가용량 카운터 모두에 대한 피드백 이벤트를 억제할 수 있습니다.
+의사 결정을 사용하여 [코드 기반 경험](create-code-based.md)을(를) 테스트할 때 `dryRun` 플래그를 사용하여 보고 및 최대 가용량 카운터 모두에 대한 피드백 이벤트를 표시하지 않을 수 있습니다.
 
 캠페인을 게시한 후 클라이언트 구현의 XDM 이벤트 `dryRun` 블록에 `data` 플래그를 추가하십시오.
 
