@@ -11,10 +11,10 @@ keywords: 표현식, 편집기
 mini-toc-levels: 1
 badge: label="제한 공개" type="Informative"
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
+source-git-commit: 8da2bb4123394d60e397409f6401434d215fd463
 workflow-type: tm+mt
-source-wordcount: '927'
-ht-degree: 9%
+source-wordcount: '894'
+ht-degree: 10%
 
 ---
 
@@ -56,8 +56,6 @@ ht-degree: 9%
   **일괄 처리 3**: Sku7, Sku8, Sku9, Sku10
 
   **일괄 처리 1**&#x200B;을(를) 삭제하면 조회 스토어에서 Sku1, Sku2 및 Sku3이 제거됩니다. 그러면 결과 조회 데이터에는 Sku4, Sku5, Sku6, Sku7, Sku8, Sku9, Sku10이 포함됩니다.
-
-* **연결된 조회가 없음** - 데이터 집합 조회를 함께 연결할 수 없습니다. 즉, 한 조회의 결과를 변수로 사용하여 두 번째 조회를 수행하는 키가 될 수 없습니다.
 
 ### 조회 서비스에 대한 권한 부여
 
