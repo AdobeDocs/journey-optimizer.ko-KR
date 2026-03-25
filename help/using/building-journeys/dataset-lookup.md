@@ -8,12 +8,11 @@ topic: Content Management
 role: User
 level: Intermediate
 version: Journey Orchestration
-badge: label="제한 공개" type="Informative"
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: 4a5a512a3e9eddaf720e857f5a250c645b2454db
+source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 11%
+source-wordcount: '891'
+ht-degree: 7%
 
 ---
 
@@ -22,7 +21,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dataset_lookup"
 >title="데이터 세트 조회 활동"
->abstract="**[!UICONTROL 데이터 세트 조회]** 활동을 통해 런타임 중에 [!DNL Adobe Experience Platform] 레코드 데이터 세트에서 동적으로 데이터를 가져올 수 있습니다. 이 기능을 활용하면 프로필이나 이벤트 페이로드에 없을 수 있는 데이터에 액세스하여 고객 상호 작용이 적시에 적절하게 이루어질 수 있습니다."
+>abstract="**[!UICONTROL 데이터 집합 조회]** 활동을 사용하면 런타임 중에 [!DNL Adobe Experience Platform] 레코드 데이터 집합에서 데이터를 동적으로 검색할 수 있습니다. 이 기능을 활용하면 프로필이나 이벤트 페이로드에 없을 수 있는 데이터에 액세스하여 고객 상호 작용이 적시에 적절하게 이루어질 수 있습니다."
 
 **[!UICONTROL 데이터 집합 조회]** 활동을 사용하면 런타임 중에 [!DNL Adobe Experience Platform] 레코드 데이터 집합에서 데이터를 동적으로 검색할 수 있습니다. 이 기능을 활용하면 프로필이나 이벤트 페이로드에 없을 수 있는 데이터에 액세스하여 고객 상호 작용이 적시에 적절하게 이루어질 수 있습니다.
 
@@ -31,10 +30,6 @@ ht-degree: 11%
 * **실시간 개인화**: 보강된 데이터를 사용하여 고객 경험을 사용자 지정합니다.
 * **동적 의사 결정**: 외부 데이터를 사용하여 여정 논리와 작업을 실행합니다.
 * **향상된 데이터 액세스**: 특정 키에 연결된 제품 메타데이터, 가격 테이블 또는 관계형 데이터를 검색합니다.
-
->[!AVAILABILITY]
->
->이 활동은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
 
 ## 반드시 알아야 할 사항 {#must-read}
 
@@ -66,7 +61,7 @@ ht-degree: 11%
 
 1. **[!UICONTROL Orchestration]** 범주를 펼친 다음 **[!UICONTROL 데이터 집합 조회]** 활동을 캔버스에 놓습니다.
 
-   ![[!DNL Adobe Experience Platform] 여정에서 &#x200B;](assets/aep-data-activity.png) 데이터 집합 조회 활동
+   ![[!DNL Adobe Experience Platform] 여정에서 ](assets/aep-data-activity.png) 데이터 집합 조회 활동
 
 1. 레이블과 설명을 추가합니다.
 

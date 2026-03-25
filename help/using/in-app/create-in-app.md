@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 인앱, 메시지, 만들기, 시작
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
 workflow-type: tm+mt
 source-wordcount: '2178'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 11%
 
    >[!IMPORTANT]
    >
-   >이제 작업 활동을 통해 모든 기본 채널에 액세스할 수 있으며 레거시 기본 채널 활동은 3월 릴리스에서 더 이상 사용되지 않습니다. 기존 작업을 포함하는 기존 여정은 마이그레이션이 필요하지 않으므로 그대로 작동합니다.
+   >기존 기본 채널 활동(이메일, 푸시, SMS, 인앱, 웹, 코드 기반 경험 및 콘텐츠 카드)은 2026년 3월 릴리스부터 더 이상 사용되지 않습니다. 이러한 활동을 사용하는 기존 여정은 변경 사항 없이 계속 작동하므로 마이그레이션이 필요하지 않습니다.
 
 1. 작업 유형으로 **[!UICONTROL 인앱]**&#x200B;을(를) 선택하십시오.
 
@@ -246,7 +246,7 @@ ht-degree: 11%
 
   +++비디오 보기
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451889?captions=kor&quality=12&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
   +++
 
@@ -254,7 +254,7 @@ ht-degree: 11%
 
   +++비디오 보기
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3445295/?captions=kor&learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
 
   +++
 
@@ -270,5 +270,5 @@ ht-degree: 11%
 
 * [인앱 메시지 디자인](design-in-app.md)
 * [인앱 메시지 테스트 및 보내기](send-in-app.md)
-* [인앱 보고서 &#x200B;](../reports/campaign-global-report-cja-inapp.md)
+* [인앱 보고서 ](../reports/campaign-global-report-cja-inapp.md)
 * [인앱 구성](inapp-configuration.md)

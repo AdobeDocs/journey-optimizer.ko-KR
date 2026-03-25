@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 만들기, 이메일, 시작, 여정, 캠페인
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
 workflow-type: tm+mt
 source-wordcount: '1187'
 ht-degree: 9%
@@ -35,7 +35,7 @@ ht-degree: 9%
 
    >[!IMPORTANT]
    >
-   >이제 작업 활동을 통해 모든 기본 채널에 액세스할 수 있으며 레거시 기본 채널 활동은 3월 릴리스에서 더 이상 사용되지 않습니다. 기존 작업을 포함하는 기존 여정은 마이그레이션이 필요하지 않으므로 그대로 작동합니다.
+   >기존 기본 채널 활동(이메일, 푸시, SMS, 인앱, 웹, 코드 기반 경험 및 콘텐츠 카드)은 2026년 3월 릴리스부터 더 이상 사용되지 않습니다. 이러한 활동을 사용하는 기존 여정은 변경 사항 없이 계속 작동하므로 마이그레이션이 필요하지 않습니다.
 
 1. 작업 유형으로 **[!UICONTROL 전자 메일]**&#x200B;을(를) 선택하십시오.
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 13ac469c33d2a580ba499bb463ac9fc63bef733c
+source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
 workflow-type: tm+mt
 source-wordcount: '1283'
 ht-degree: 8%
@@ -42,7 +42,7 @@ Adobe Journey Optimizer에서 텍스트(SMS), 풍부한 커뮤니케이션(RCS) 
 
    >[!IMPORTANT]
    >
-   >이제 작업 활동을 통해 모든 기본 채널에 액세스할 수 있으며 레거시 기본 채널 활동은 3월 릴리스에서 더 이상 사용되지 않습니다. 기존 작업을 포함하는 기존 여정은 마이그레이션이 필요하지 않으므로 그대로 작동합니다.
+   >기존 기본 채널 활동(이메일, 푸시, SMS, 인앱, 웹, 코드 기반 경험 및 콘텐츠 카드)은 2026년 3월 릴리스부터 더 이상 사용되지 않습니다. 이러한 활동을 사용하는 기존 여정은 변경 사항 없이 계속 작동하므로 마이그레이션이 필요하지 않습니다.
 
 1. 작업 유형으로 **[!UICONTROL SMS]**&#x200B;을(를) 선택하십시오.
 
