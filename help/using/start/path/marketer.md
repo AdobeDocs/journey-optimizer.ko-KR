@@ -7,10 +7,10 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 13ac469c33d2a580ba499bb463ac9fc63bef733c
+source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
 workflow-type: tm+mt
-source-wordcount: '1590'
-ht-degree: 88%
+source-wordcount: '1612'
+ht-degree: 86%
 
 ---
 
@@ -27,7 +27,7 @@ Journey Optimizer는 두 가지 강력한 오케스트레이션 접근 방식을
 * **여정**: 비헤이비어 또는 이벤트에 의해 트리거된 각 고객이 원하는 속도로 진행하는 실시간 일대일 참여
 * **오케스트레이션된 캠페인**: 워크플로우를 통해 대상자가 함께 진행하는 규모의 복잡한 여러 단계 일괄 처리 캠페인으로 계절별 프로모션, 제품 출시 또는 계정 기반 커뮤니케이션과 같은 브랜드 주도 캠페인에 적합합니다.
 
-[관리자](administrator.md)와 협력하여 액세스 권한을 얻고 [데이터 엔지니어](data-engineer.md)와 협력하여 고급 세분화를 위한 대상, 데이터 및 관계형 스키마를 설정하세요.
+[관리자](administrator.md)와(과) 협력하여 액세스 권한을 얻고 [데이터 엔지니어](data-engineer.md)와(과) 협력하여 고급 세분화를 위한 대상, 데이터 및 관계형 스키마를 설정하십시오. 여정 및 캠페인을 빌드하기 전에 필요한 데이터 설정을 이해하려면 [데이터 관리 시작하기](../../data/gs-data.md) 개요를 참조하십시오.
 
 다음 핵심 단계에 따라 경험을 구축하세요.
 

@@ -8,10 +8,10 @@ role: Developer, Admin
 level: Experienced
 keywords: 스키마, 플랫폼, 데이터, 구조
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
+source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 100%
+source-wordcount: '402'
+ht-degree: 98%
 
 ---
 
@@ -56,10 +56,11 @@ Adobe Experience Platform에는 두 가지 유형의 스키마가 있습니다.
 
 표준 스키마를 만들고, 필드 그룹을 추가하고, 사용자 정의 필드 그룹을 만들고 구성하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416872?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334461?quality=12)
 
 >[!MORELIKETHIS]
 >
+>* [Journey Optimizer에서 데이터 관리 시작](gs-data.md)
 >* [Journey Optimizer에서 스키마와 데이터 세트를 만들고 데이터를 수집하여 테스트 프로필 추가](../audience/creating-test-profiles.md)
 >* [XDM 시스템 개요](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR){target="_blank"}
 >* [데이터 모델링 모범 사례](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=ko){target="_blank"}

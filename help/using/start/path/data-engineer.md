@@ -7,10 +7,10 @@ feature: Get Started
 role: Developer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: fd10a600cb54b8c35e2d195be7379b0dd120b6a7
+source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 95%
+source-wordcount: '970'
+ht-degree: 92%
 
 ---
 
@@ -21,6 +21,10 @@ ht-degree: 95%
 >[!NOTE]
 >
 >**데이터 수집**&#x200B;에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ko){target="_blank"}를 참조하십시오.
+
+>[!TIP]
+>
+>Journey Optimizer의 데이터를 처음 사용하십니까? 구성을 시작하기 전에 스키마, 데이터 세트, ID, 프로필 조각 모델 및 전체 데이터 준비 체크리스트를 이해하려면 [데이터 관리 시작하기](../../data/gs-data.md) 개요로 시작하십시오.
 
 ## 필수 데이터 구성 단계
 

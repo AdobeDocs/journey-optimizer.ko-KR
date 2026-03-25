@@ -7,10 +7,10 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: fd10a600cb54b8c35e2d195be7379b0dd120b6a7
+source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
 workflow-type: tm+mt
-source-wordcount: '1036'
-ht-degree: 92%
+source-wordcount: '1058'
+ht-degree: 89%
 
 ---
 
@@ -102,7 +102,7 @@ ht-degree: 92%
 
 >[!TAB 데이터 엔지니어 지원]
 
-데이터 관리 및 액세스에 대해 [데이터 엔지니어](data-engineer.md)와 협업합니다.
+데이터 관리 및 액세스에 대해 [데이터 엔지니어](data-engineer.md)와 공동 작업합니다. 데이터 엔지니어가 구성해야 하는 스키마, 데이터 세트 및 데이터 소스를 이해하려면 [데이터 관리 시작하기](../../data/gs-data.md) 개요를 검토하십시오.
 
 * 데이터 관리 및 스키마 생성에 대한 권한 부여
 * 개발 및 테스트를 위한 샌드박스 액세스 승인
