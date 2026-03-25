@@ -14,12 +14,12 @@ ht-degree: 12%
 
 ---
 
-# 사용자 정의 공급자 구성 {#sms-configuration-custom}
+# 사용자 정의 제공자 구성 {#sms-configuration-custom}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_provider_url"
->title="공급자 URL"
->abstract="외부 API에 연결할 URL을 지정합니다. 이 URL은 API의 특징과 기능에 액세스하기 위한 엔드포인트 역할을 합니다."
+>title="제공자 URL"
+>abstract="외부 API에 연결할 URL을 지정합니다. 이 URL은 해당 API의 특징과 기능에 액세스하기 위한 엔드포인트 역할을 합니다"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_header_parameters"
@@ -107,7 +107,7 @@ Adobe에서 즉시 사용할 수 없는 사용자 정의 공급자(예: Sinch, I
 
 API 자격 증명을 만들고 구성한 후에는 SMS 메시지에 대해 [Webhook에 대한 인바운드 설정](#webhook)을 설정해야 합니다.
 
-### 사용자 정의 SMS 공급자에 대한 인증 옵션 {#auth-options}
+### 사용자 정의 SMS 제공자에 대한 인증 옵션 {#auth-options}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_auth_type"
