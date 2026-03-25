@@ -12,9 +12,9 @@ hidefromtoc: true
 badge: label="비공개 베타" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: 226b1fcb1129410781262db9e53673faffa970da
+source-git-commit: 89e1348a98596b8ecefabab571d2c1af299f1ed8
 workflow-type: tm+mt
-source-wordcount: '1846'
+source-wordcount: '1807'
 ht-degree: 0%
 
 ---
@@ -262,7 +262,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_audience"
 >title="대상자"
->abstract="대상 탭에서 도전에 참여할 수 있는 사용자를 선택합니다. 대상 선택 을 선택하고 대화 상자에서 사용 가능한 Adobe Experience Platform 대상 중에서 타겟 대상을 선택한 다음 대상 추가 를 선택합니다. 해당 대상자의 구성원만 자격이 있습니다. 대상은 Experience Platform에 정의되어 있습니다. 이 단계를 완료하기 전에 기존 대상을 사용하거나 기존 대상을 만듭니다."
+>abstract="대상 탭에서 사용 가능한 Adobe Experience Platform 대상 중에서 챌린지에 참여할 수 있는 사용자를 선택합니다."
 
 충성도 도전에 참여할 수 있는 고객을 정의합니다.
 

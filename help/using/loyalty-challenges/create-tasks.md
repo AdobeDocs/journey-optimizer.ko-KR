@@ -12,9 +12,9 @@ hidefromtoc: true
 badge: label="비공개 베타" type="Informative"
 mini-toc-levels: 1
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
-source-git-commit: 226b1fcb1129410781262db9e53673faffa970da
+source-git-commit: 89e1348a98596b8ecefabab571d2c1af299f1ed8
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '808'
 ht-degree: 2%
 
 ---
@@ -110,7 +110,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_task_eligible_items_exclusion"
 >title="적격 항목 및 제외"
->abstract="구매 및 지출 태스크에 대한 구매 수를 제어합니다. 첫 번째 필드에 쉼표로 구분된 항목 ID, 카테고리 또는 대상 ID를 입력하여 해당 ID만 허용합니다. 모든 구매를 계산하도록 비워 두거나 모든 구매를 나타내려면 별표를 입력합니다. 두 번째 필드에서는 기프트 카드나 클리어런스와 같이 계산해서는 안 되는 항목이나 범주를 나열합니다."
+>abstract="**구매**&#x200B;와(과) **지출** 활동 모두에 대해 **[!UICONTROL 적격 항목 및 제외]** 특성을 사용하여 적격 항목 및 그룹과 제외되는 그룹을 정의할 수 있습니다. 이를 통해 과제 목표에 맞게 특정 제품, 카테고리 또는 위치를 타깃팅할 수 있습니다. 예를 들어 지출 작업을 특정 제품 범주로 제한하거나 작업 완료 시 기프트 카드나 프로모션 항목을 카운트하지 않도록 할 수 있습니다."
 
 <!-- SCREENSHOT: Eligible items & exclusions popup showing the two sections: "Eligible task purchases are limited to the following" and "The following are excluded from this task" with text input fields -->
 
