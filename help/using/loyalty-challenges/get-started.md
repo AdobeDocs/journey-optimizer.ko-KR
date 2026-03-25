@@ -12,9 +12,9 @@ hidefromtoc: true
 badge: label="비공개 베타" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
+source-git-commit: 226b1fcb1129410781262db9e53673faffa970da
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '712'
 ht-degree: 4%
 
 ---
@@ -38,6 +38,11 @@ ht-degree: 4%
 >이 기능은 현재 **개인 베타**&#x200B;에 있습니다. 릴리스 주기 및 가용성 단계에 대한 자세한 내용은 [Journey Optimizer 릴리스 주기](../rn/releases.md)를 참조하십시오.
 
 ## 개요 {#overview}
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_inventory"
+>title="충성도 문제"
+>abstract="충성도 문제는 작업을 완료한 고객에게 보상을 제공하는 게임화된 프로그램입니다. 표준, 연속 및 순차적 문제가 어떻게 다른지, 과제를 만들기 전에 구성할 수 있는 사항을 알아봅니다."
 
 충성도 문제를 사용하면 고객 행동을 유도하고 브랜드 관계를 심화하는 매력적인 게임화된 충성도 프로그램을 만들 수 있습니다. 구매 및 리뷰 작성부터 소셜 미디어 참여 및 친구 추천에 이르기까지 특정 작업에 대해 고객에게 보상해 주는 문제를 제기하십시오.
 

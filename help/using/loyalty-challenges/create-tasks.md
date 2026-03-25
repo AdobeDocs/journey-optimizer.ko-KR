@@ -12,9 +12,9 @@ hidefromtoc: true
 badge: label="비공개 베타" type="Informative"
 mini-toc-levels: 1
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
-source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
+source-git-commit: 226b1fcb1129410781262db9e53673faffa970da
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '799'
 ht-degree: 2%
 
 ---
@@ -42,6 +42,11 @@ ht-degree: 2%
 각 작업은 측정 가능한 작업을 나타내며 과제 완성에 기여합니다. 작업은 재사용 가능한 구성 요소로서 독립적으로 만든 다음 하나 이상의 문제에 추가하거나 과제 내에서 직접 만들 수 있습니다.
 
 ## 작업 만들기 {#create-task}
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_task_create"
+>title="작업 만들기"
+>abstract="고객 활동(구매 또는 지출)을 선택한 다음 활동별 속성(수량 또는 금액, 적격 품목 및 제외, 최소 지출 또는 최대 거래와 같은 선택적 한도)을 구성합니다. 속성 창에서 작업 이름과 설명을 설정합니다."
 
 두 진입점에서 작업을 생성할 수 있습니다. 구성 프로세스는 시작하는 위치에 관계없이 동일합니다.
 
@@ -101,6 +106,11 @@ ht-degree: 2%
 >[!ENDTABS]
 
 ## 적격 품목 및 제외 정의 {#eligible-items-exclusions}
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_task_eligible_items_exclusion"
+>title="적격 항목 및 제외"
+>abstract="구매 및 지출 태스크에 대한 구매 수를 제어합니다. 첫 번째 필드에 쉼표로 구분된 항목 ID, 카테고리 또는 대상 ID를 입력하여 해당 ID만 허용합니다. 모든 구매를 계산하도록 비워 두거나 모든 구매를 나타내려면 별표를 입력합니다. 두 번째 필드에서는 기프트 카드나 클리어런스와 같이 계산해서는 안 되는 항목이나 범주를 나열합니다."
 
 <!-- SCREENSHOT: Eligible items & exclusions popup showing the two sections: "Eligible task purchases are limited to the following" and "The following are excluded from this task" with text input fields -->
 

@@ -12,9 +12,9 @@ hidefromtoc: true
 badge: label="비공개 베타" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
+source-git-commit: 226b1fcb1129410781262db9e53673faffa970da
 workflow-type: tm+mt
-source-wordcount: '1518'
+source-wordcount: '1846'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,11 @@ ht-degree: 0%
 
 ### 과제 속성 정의 및 사용자 지정 메타데이터 사용 {#properties}
 
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_challenge_properties"
+>title="과제 속성"
+>abstract="과제 속성 창에서 과제 이름 및 설명을 설정하고 추적 또는 외부 통합을 위한 사용자 지정 키/값 메타데이터를 추가합니다."
+
 1. **[!UICONTROL 과제 속성]** 창에서 과제에 대한 전역 설정을 정의합니다.
 
    * **[!UICONTROL 이름]**: 챌린지를 설명하는 이름을 입력하십시오. 이 이름은 과제 인벤토리에 표시됩니다.
@@ -76,6 +81,11 @@ ht-degree: 0%
    ![](assets/challenge-create-properties.png)
 
 ### 챌린지 예약 {#schedule}
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_challenge_schedule"
+>title="챌린지 일정"
+>abstract="일정을 사용하여 문제가 라이브되는 시기를 정의합니다. 고객이 이를 사용할 수 있게 되는 시작 날짜 및 시간과 완료 수락을 중단하는 종료 날짜 및 시간을 설정합니다. 시간대를 선택하고 고객이 **[!UICONTROL 작업 완료 창 섹션]**&#x200B;에서 작업을 완료할 수 있는 시기를 선택하십시오."
 
 과제 실행 시기 구성:
 
@@ -96,6 +106,11 @@ ht-degree: 0%
 이제 챌린지 일정이 구성되었습니다. 그런 다음 고객이 완료해야 하는 작업을 추가합니다.
 
 ### 작업 추가 {#add-tasks}
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_challenge_tasks"
+>title="작업"
+>abstract="과제를 완료하기 위해 수행할 작업을 선택하십시오. 다음으로 챌린지 완료 방법을 구성합니다. 사용 가능한 옵션은 챌린지 유형(표준, 줄바꿈 또는 순차적)에 따라 다릅니다."
 
 작업은 고객이 보상을 받기 위해 완료해야 하는 특정 작업을 정의합니다. 태스크 유형(구매, 지출), 수량, 제품 필터 및 기타 속성을 구성할 수 있습니다.
 
@@ -147,6 +162,11 @@ ht-degree: 0%
 
 ### 보상 구성 {#rewards}
 
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_challenge_rewards"
+>title="보상"
+>abstract="고객이 포인트를 얻는 시기(전체 과제 완료 시 또는 진행 중인 작업 이정표 시)를 선택합니다. 보상 공급자(점수 및 보상을 관리하는 충성도 솔루션)를 선택한 다음 금액을 설정합니다. 전체 완료에 대한 단일 합계 또는 마일스톤에 대한 작업당 값으로, 지급하려는 작업에 대해서만 보상을 설정합니다."
+
 리워드는 고객이 도전을 완료하여 얻는 충성도 포인트 또는 혜택입니다.
 
 보상 제공 시기 및 방법을 구성하려면 다음을 수행합니다.
@@ -191,6 +211,11 @@ ht-degree: 0%
 
 ## 콘텐츠 카드 구성 {#configure-content-cards}
 
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_challenge_content"
+>title="콘텐츠"
+>abstract="고객 디바이스에서의 과제를 설명하고 과제 정보, 진행 상황 및 보상을 표시하는 콘텐츠 카드를 구성합니다. 카드 이름을 입력하고, 게재에서 올바른 기술 설정(예: 헤더, 하위 도메인 또는 모바일 앱)을 사용하도록 채널 구성을 선택한 다음, 콘텐츠 편집 을 선택하여 카드 경험을 디자인하고 개인화합니다."
+
 콘텐츠 카드는 고객 장치에서 도전을 시각적으로 나타내며 도전 정보, 진행 상황 및 보상을 표시합니다. [콘텐츠 카드에 대해 자세히 알아보기](../content-card/create-content-card.md).
 
 과제에 맞게 콘텐츠 카드를 구성하려면 다음을 수행하십시오.
@@ -206,6 +231,11 @@ ht-degree: 0%
 콘텐츠 카드를 구성한 후 메시지를 설정하여 과제 라이프사이클 전반에 걸쳐 고객을 참여시킵니다.
 
 ### 메시징 구성 {#configure-messaging}
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_challenge_messaging"
+>title="메시징"
+>abstract="메시징은 과제 라이프사이클 전반에 걸친 참여를 돕습니다. 메시징 탭에서 각 단계에 대해 론치(챌린지 시작 시), 진행 중(미리 알림 및 진행 중 업데이트) 및 완료(성공을 축하하고 보상 확인)와 같은 메시지를 추가합니다. 각 단계에 대해 메시지를 추가하고 채널을 선택한 다음 채널 구성을 선택하고 편집을 선택하여 메시지 콘텐츠를 디자인합니다."
 
 멀티채널 메시지를 설정하여 과제 라이프사이클의 주요 단계에서 고객을 참여시킵니다. 메시지는 선택 사항이지만 고객 참여를 극대화하기 위해 권장됩니다.
 
@@ -228,6 +258,11 @@ ht-degree: 0%
 메시징 구성을 완료한 후 과제에 참여할 수 있는 고객을 정의합니다.
 
 ## 과제 대상자 선택 {#audience}
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_challenge_audience"
+>title="대상자"
+>abstract="대상 탭에서 도전에 참여할 수 있는 사용자를 선택합니다. 대상 선택 을 선택하고 대화 상자에서 사용 가능한 Adobe Experience Platform 대상 중에서 타겟 대상을 선택한 다음 대상 추가 를 선택합니다. 해당 대상자의 구성원만 자격이 있습니다. 대상은 Experience Platform에 정의되어 있습니다. 이 단계를 완료하기 전에 기존 대상을 사용하거나 기존 대상을 만듭니다."
 
 충성도 도전에 참여할 수 있는 고객을 정의합니다.
 
