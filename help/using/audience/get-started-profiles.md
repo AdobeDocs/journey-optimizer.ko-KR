@@ -41,7 +41,7 @@ ht-degree: 29%
 >* [Journey Optimizer에서 데이터 관리 시작](../data/gs-data.md)
 >* [실시간 고객 프로필 설명서](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ko){target="_blank"}
 >* [실시간 고객 프로필 데이터 및 세분화를 위한 기본 보호 기능](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails){target="_blank"}
->* {&#x200B;0}데이터 수집 설명서[](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home){target="_blank"}
+>* {&#x200B;0}데이터 수집 설명서[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home){target="_blank"}
 
 ## 프로필 대시보드
 
