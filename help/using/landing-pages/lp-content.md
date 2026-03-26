@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 랜딩, 랜딩 페이지, 작성, 페이지, 양식, 구성 요소
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
+source-git-commit: d0dd382521aeb2c7e18dc547c2ec55fa1472ab8d
 workflow-type: tm+mt
-source-wordcount: '1336'
+source-wordcount: '1571'
 ht-degree: 9%
 
 ---
@@ -26,7 +26,11 @@ ht-degree: 9%
 
 랜딩 페이지 콘텐츠를 디자인하기 위해 이메일과 동일한 구성 요소를 사용할 수 있습니다. [자세히 알아보기](../email/content-components.md#add-content-components)
 
-사용자가 선택 항목을 선택하고 제출할 수 있도록 특정 콘텐츠를 디자인하려면 [양식 구성 요소를 사용](#use-form-component)하고 [랜딩 페이지별 스타일](#lp-form-styles)을(를) 정의하세요.
+사용자가 선택 항목을 선택하고 제출할 수 있도록 특정 콘텐츠를 디자인하려면 **양식 구성 요소**&#x200B;를 사용하십시오.
+
+* 옵트인, 옵트아웃 및 구독 시나리오의 경우 [기본 제공 양식 구성 요소](#use-form-component)를 사용하고 [랜딩 페이지별 스타일](#lp-form-styles)을(를) 정의합니다.
+
+* 사용자가 특정 양식을 통해 데이터를 제출하도록 허용하려면(예: [!DNL Experience Platform] 데이터 집합을 보강하기 위해) [데이터 캡처](#embed-form) 랜딩 페이지에서 **[!UICONTROL 게시된 양식을 포함]**&#x200B;하십시오. [양식 만들기에 대해 자세히 알아보기](lp-forms.md)
 
 >[!NOTE]
 >
@@ -36,7 +40,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->[유럽 접근성 법률](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}에는 모든 디지털 통신에 액세스할 수 있어야 한다고 명시되어 있습니다. [에서 콘텐츠를 디자인할 때는 &#x200B;](../email/accessible-content.md)이 페이지[!DNL Journey Optimizer]에 나열된 특정 지침을 따라야 합니다.
+>[유럽 접근성법](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}에는 모든 디지털 통신의 접근성을 보장해야 한다고 명시되어 있습니다. [에서 콘텐츠를 디자인할 때는 ](../email/accessible-content.md)이 페이지[!DNL Journey Optimizer]에 나열된 특정 지침을 따라야 합니다.
 
 ## 양식 구성 요소 사용 {#use-form-component}
 
@@ -167,6 +171,40 @@ ht-degree: 9%
 1. **[!UICONTROL 양식 오류]** 섹션을 확장하여 문제가 발생할 경우에 표시되는 오류 메시지의 표시를 조정합니다. 해당 옵션을 선택하여 양식의 오류 텍스트를 미리 봅니다.
 
    ![](assets/lp_designer-form-error-preview.png)
+
+## 양식 포함(데이터 캡처) {#embed-form}
+
+[데이터 캡처](get-started-lp.md#data-capture-lp) 유형으로 만든 랜딩 페이지의 경우 만든 [게시된 양식](lp-forms.md)을 포함할 수 있습니다. 양식 사전 설정에서 구성된 스트리밍 연결 및 데이터 세트로 제출이 전송됩니다.
+
+랜딩 페이지 콘텐츠 디자이너에서 아래 단계를 수행합니다.
+
+1. **[!UICONTROL Structure]** 구성 요소를 콘텐츠에 끌어다 놓은 다음 **[!UICONTROL Form]** 구성 요소를 해당 구조에 끌어다 놓습니다.
+
+   >[!NOTE]
+   >
+   >랜딩 페이지에서 **게시된** 양식만 선택할 수 있습니다.
+
+1. **[!UICONTROL 양식 포함]** 섹션에서 표시할 양식을 선택합니다.
+
+   ![](assets/lp_embed-form.png)
+
+   >[!NOTE]
+   >
+   >양식 내용 또는 감사 페이지 동작을 변경해야 하는 경우 **[!UICONTROL 양식 편집]**&#x200B;을 사용하십시오. 양식이 새 탭에서 열립니다. [양식 편집에 대해 자세히 알아보기](lp-forms.md#edit-form)
+
+1. **[!UICONTROL 후속 작업 유형]** 섹션에서 제출 후 수행할 작업을 정의합니다.
+
+   * **[!UICONTROL 양식 정의]** — 포함된 양식에 구성된 감사 페이지 작업을 사용합니다. [자세히 알아보기](lp-forms.md#thank-you-page)
+   * **게시된 랜딩 페이지** — 게시된 다른 [랜딩 페이지](create-lp.md)(으)로 리디렉션합니다.
+   * **외부 URL** — 전체 URL로 리디렉션합니다.
+
+1. 완료되면 랜딩 페이지 콘텐츠를 저장합니다.
+
+전체 워크플로(랜딩 페이지 만들기, 테스트 및 게시)에 대해서는 [랜딩 페이지에서 양식 활용](lp-forms.md#leverage-form-in-lp)을 참조하십시오.
+
+>[!NOTE]
+>
+>이 임베드된 양식 환경은 **[!UICONTROL 데이터 캡처]** 랜딩 페이지에만 적용됩니다.
 
 ## 기본 페이지 컨텍스트 사용 {#use-primary-page-context}
 

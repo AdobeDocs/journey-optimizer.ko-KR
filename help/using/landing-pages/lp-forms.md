@@ -1,29 +1,24 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 랜딩 페이지를 위한 양식 만들기 및 사용
-description: Journey Optimizer에서 랜딩 페이지를 위한 양식을 만들고 사용하는 방법을 알아봅니다
+title: 랜딩 페이지용 양식 만들기 및 사용
+description: Journey Optimizer에서 랜딩 페이지에 대한 양식을 만들고 사용하는 방법을 알아봅니다
 feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
 keywords: 랜딩, 랜딩 페이지, 작성, 페이지, 양식
-badge: label="제한된 가용성" type="Informative"
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: 58565932ccd2ecf95bafece71bf182fa9082cec6
+source-git-commit: d0dd382521aeb2c7e18dc547c2ec55fa1472ab8d
 workflow-type: tm+mt
-source-wordcount: '1642'
-ht-degree: 9%
+source-wordcount: '2029'
+ht-degree: 7%
 
 ---
 
 # 랜딩 페이지에서 양식 사용 {#lp-forms}
 
->[!AVAILABILITY]
->
->이 기능은 현재 미국 및 호주 고객에게 제한된 가용성으로 제공되고 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.
-
-[!DNL Journey Optimizer] 랜딩 페이지로 프로필 데이터를 캡처하고 [!DNL Experience Platform] 데이터 세트를 보강하려면 랜딩 페이지의 양식을 활용할 수 있습니다.
+[!DNL Journey Optimizer] 랜딩 페이지로 프로필 데이터를 캡처하고 [!DNL Experience Platform] 데이터 세트를 보강하려면 랜딩 페이지의 양식을 활용할 수 있습니다. 데이터 캡처 시나리오 및 요구 사항에 대한 개요는 [랜딩 페이지를 사용한 데이터 캡처](get-started-lp.md#data-capture-lp)를 참조하십시오.
 
 ## 양식 사전 설정 만들기 {#create-form-preset}
 
@@ -78,7 +73,7 @@ ht-degree: 9%
    >* **데이터 형식**&#x200B;은(는) 원시 데이터가 아닌 **XDM**(으)로 설정되어야 합니다.
    >* **인증**&#x200B;은(는) **사용 안 함**(인증되지 않은 연결)이어야 합니다.
    >
-   >스트리밍 연결이 목록에 표시되지 않으면 이러한 조건이 모두 충족되는지 확인하십시오. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
+   >스트리밍 연결이 목록에 표시되지 않으면 이러한 조건이 모두 충족되는지 확인하십시오. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
 
 1. 양식에 연결할 **[!UICONTROL 데이터 집합]**&#x200B;을(를) 선택하십시오. 여기에서 양식 응답이 저장되고 반영됩니다. 특정 데이터 세트를 검색하도록 입력하거나 목록에서 선택할 수 있습니다.
 
@@ -270,7 +265,7 @@ ht-degree: 9%
 
    >[!NOTE]
    >
-   >**[!UICONTROL 양식 편집]** 단추를 사용하여 선택한 양식을 업데이트할 수 있습니다. 양식이 새 탭에서 열립니다. 양식 콘텐츠를 편집하는 단계는 [이 섹션](#create-form)에 자세히 설명되어 있습니다.
+   >**[!UICONTROL 양식 편집]** 단추를 사용하여 선택한 양식을 업데이트할 수 있습니다. 양식이 새 탭에서 열립니다. 양식 콘텐츠를 편집하는 단계는 [이 섹션](#edit-form)에 자세히 설명되어 있습니다.
 
 1. **[!UICONTROL 추가 작업 형식]** 섹션에서 사용자가 양식을 작성할 때 수행할 작업을 구성합니다.
 
@@ -282,8 +277,65 @@ ht-degree: 9%
 
 1. 랜딩 페이지를 저장하고 테스트합니다. [방법 알아보기](create-lp.md#test-landing-page)
 
-랜딩 페이지가 [게시됨](create-lp.md#publish-landing-page)되고 여정에서 사용되면 사용자가 양식을 채울 때 입력한 정보가 선택한 데이터 집합에 수집됩니다.
+랜딩 페이지가 [게시됨](create-lp.md#publish-landing-page)되고 여정에서 사용되면 사용자가 양식을 채울 때 입력한 정보가 선택한 데이터 집합에 수집됩니다. 데이터를 처리하고 사용할 수 있도록 최대 15분 까지 허용.
 
 >[!NOTE]
 >
 >랜딩 페이지에 사용된 양식을 게시 취소하고 이 양식을 편집한 후 다시 게시하는 경우, 랜딩 페이지는 항상 게시된 최신 버전의 양식을 사용합니다.
+
+## 자주 묻는 질문 {#lp-forms-faq}
+
++++양식을 사용해야 하는 랜딩 페이지 유형은 무엇입니까?
+
+랜딩 페이지를 만들 때 랜딩 페이지 유형으로 **[!UICONTROL 데이터 캡처]**&#x200B;를 선택합니다. 이 랜딩 페이지 유형은 데이터 수집을 위한 양식 포함을 지원하는 유일한 랜딩 페이지입니다.
+
++++
+
++++양식 사전 설정으로 모든 데이터 세트를 사용할 수 있습니까?
+
+**프로필 사용** 및 **비프로필 사용** [!DNL Adobe Experience Platform] 데이터 세트만 선택할 수 있습니다. 시스템 데이터 세트는 양식 데이터를 저장하는 데 사용할 수 없으며 사전 설정당 하나의 데이터 세트만 선택할 수 있습니다.
+
++++
+
++++동일한 데이터 세트 또는 여러 양식 사전 설정에서 스트리밍 연결을 재사용할 수 있습니까?
+
+예. 여러 사전 설정에서 동일한 데이터 세트 또는 스트리밍 연결을 재사용할 수 있습니다. 다양한 데이터 세트 조합과 스트리밍 연결을 사용하여 여러 사전 설정을 설정하여 다양한 데이터 캡처 시나리오를 지원할 수도 있습니다.
+
++++
+
++++랜딩 페이지에서 초안 양식을 사용할 수 있습니까?
+
+아니요. **게시됨** 양식만 선택하고 랜딩 페이지에 포함할 수 있습니다.
+
++++
+
++++라이브 랜딩 페이지에 이미 임베드된 양식을 편집하고 다시 게시하는 경우, 랜딩 페이지는 어떤 버전을 사용합니까?
+
+랜딩 페이지는 항상 **최신 게시 버전**&#x200B;을 사용합니다. 초안 변경 사항은 업데이트된 양식이 게시될 때까지 적용되지 않습니다.
+
++++
+
++++양식 작성 방법에 따라 사용자를 다른 페이지로 리디렉션할 수 있습니까?
+
+예. 감사 페이지에서 **[!UICONTROL 조건부 리디렉션]**&#x200B;을 구성하고 양식 응답에 따라 다른 후속 작업을 표시하는 규칙을 정의할 수 있습니다. 예를 들어 한 국가의 방문자를 한 페이지로 리디렉션하고 다른 국가의 방문자를 다른 페이지로 리디렉션하며 다른 모든 사용자를 위한 기본 대체 기능이 있습니다. [자세히 알아보기](#thank-you-page)
+
++++
+
++++양식 필드를 기존 프로필 데이터로 미리 채울 수 있습니까?
+
+예. 필드를 구성할 때 **[!UICONTROL 미리 채워진 사용]** 옵션을 활성화하면 사용 가능한 경우 알려진 프로필 정보에서 필드가 자동으로 채워집니다.
+
++++
+
++++사용자가 건너뛸 수 없도록 필드를 필수 항목으로 만들 수 있습니까?
+
+예. 필드 구성의 **[!UICONTROL 필드 동작]** 섹션에서 **[!UICONTROL 필수]**&#x200B;을(를) 선택합니다. 필수 필드를 모두 채워야만 양식을 제출할 수 있습니다.
+
++++
+
++++사용자가 양식을 제출한 후 양식 제출 데이터는 어디로 이동합니까?
+
+양식을 제출하면 양식 사전 설정에 정의된 **스트리밍 연결**(으)로 데이터가 전송됩니다. 그런 다음 매핑, 변환 및 유효성 검사를 처리하는 자동으로 생성된 소스 흐름을 통해 연결된 **[!DNL Experience Platform]데이터 세트**(으)로 푸시됩니다.
+
++++
+
