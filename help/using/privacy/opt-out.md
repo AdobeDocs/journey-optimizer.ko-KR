@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: ad3b64cb0ba6af5df654b340b4524161a94297e1
 workflow-type: tm+mt
-source-wordcount: '1065'
-ht-degree: 95%
+source-wordcount: '1207'
+ht-degree: 84%
 
 ---
 
@@ -31,6 +31,19 @@ ht-degree: 95%
 >
 >또한 Journey Optimizer **Suppression REST API**&#x200B;를 활용하면 제외 및 허용 목록을 통해 보내는 메시지를 제어할 수 있습니다. [Suppression REST API 사용 방법 알아보기](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
 
+### 푸시 옵트아웃 상태 확인 {#push-opt-out-status}
+
+모바일 앱에 대한 푸시 옵트아웃은 장치 수준에서 처리됩니다. 사용자가 장치에서 알림을 비활성화하면 푸시 토큰이 프로필에서 제거됩니다. 따라서 프로필에 **푸시 토큰이 있음**&#x200B;은(는) 암시적 푸시 동의의 표시기입니다.
+
+Adobe Experience Platform에서 프로필의 푸시 동의 상태를 확인하려면 다음을 수행하십시오.
+
+1. Adobe Experience Platform의 **[!UICONTROL 프로필]** 섹션에서 프로필을 엽니다.
+1. **[!UICONTROL 특성]** 탭으로 이동하여 **[!UICONTROL 푸시 알림 세부 정보]** 필드 그룹을 찾습니다.
+1. 푸시 토큰이 있는 경우 프로필이 푸시 알림을 수신하도록 묵시적으로 동의했습니다. 토큰을 찾을 수 없으면 사용자가 장치 수준에서 을 옵트아웃했습니다.
+
+>[!NOTE]
+>
+>명시적 푸시 동의 추적이 필요한 준수 사용 사례의 경우 **`consents.marketing.push.val`**&#x200B;동의 및 환경 설정 필드 그룹[의 ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=ko){target="_blank"} 특성을 사용하십시오. `y` 값은 명시적 옵트인을 나타내며 `n`은(는) 명시적 옵트아웃을 나타냅니다.
 
 다음 섹션에서 Journey Optimizer 이메일 및 SMS 메시지에서 옵트아웃을 관리하는 방법을 알아봅니다.
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1f16edd-efdf-41c2-a0ad-5f55009008f5
-source-git-commit: 279fd366b14520daec1df7f843ed337348e145a5
+source-git-commit: ad3b64cb0ba6af5df654b340b4524161a94297e1
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 100%
+source-wordcount: '358'
+ht-degree: 90%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->**[!DNL Journey Optimizer]**&#x200B;는 이메일 및 SMS 메시지에서 옵트아웃을 관리하는 방법을 제공하지만, 푸시 알림은 수신자가 디바이스를 통해 직접 구독을 취소할 수 있으므로 별도의 작업이 필요하지 않습니다. 예를 들어, 앱을 다운로드하거나 사용하는 경우 알림을 중지하도록 선택할 수 있습니다. 마찬가지로 수신자는 모바일 운영 체제나 웹 브라우저 설정을 통해 알림 설정을 변경할 수 있습니다.
+>**[!DNL Journey Optimizer]**&#x200B;는 이메일 및 SMS 메시지에서 옵트아웃을 관리하는 방법을 제공하지만, 푸시 알림은 수신자가 디바이스를 통해 직접 구독을 취소할 수 있으므로 별도의 작업이 필요하지 않습니다. 예를 들어, 앱을 다운로드하거나 사용하는 경우 알림을 중지하도록 선택할 수 있습니다. 마찬가지로 모바일 운영 체제나 웹 브라우저 설정을 통해 알림 설정을 변경할 수 있습니다. AEP 프로필 뷰어에서 프로필의 푸시 동의 상태를 확인하려면 [푸시 옵트아웃 상태 확인](../privacy/opt-out.md#push-opt-out-status)을 참조하세요.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
