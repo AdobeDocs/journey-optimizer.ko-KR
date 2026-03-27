@@ -5,10 +5,10 @@ title: 오케스트레이션된 캠페인에서 대기 활동 사용
 description: 오케스트레이션된 캠페인에서 대기 활동을 사용하는 방법을 알아봅니다
 exl-id: 11ef095b-77ec-4e2e-ab4d-49a248354f08
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: c783d638bd2a64298ff587067c29639636da0c54
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 77%
+source-wordcount: '231'
+ht-degree: 55%
 
 ---
 
@@ -26,6 +26,10 @@ ht-degree: 77%
 
 ## 구성{#wait-configuration}
 
+>[!IMPORTANT]
+>
+>임시 테이블의 데이터는 **5일** 이상 지속되지 않습니다. **[!UICONTROL Duration]** 또는 **[!UICONTROL 고정 시간]**&#x200B;을 사용할 때 대기 시간은 해당 제한 내에서 다음 활동이 완료될 때까지 경과된 시간이므로 중간 데이터를 사용할 수 있습니다.
+
 **[!UICONTROL 대기]** 활동을 구성하려면 다음 단계를 따르십시오.
 
 1. 오케스트레이션된 캠페인에 **[!UICONTROL 대기]** 활동을 추가합니다.
@@ -40,6 +44,6 @@ ht-degree: 77%
 
 ## 예{#wait-example}
 
-다음 예제는 일반적인 사용 사례 속 **[!UICONTROL 대기]** 활동을 보여 줍니다.  프로필에 생일을 축하하는 프로모션 코드가 포함된 이메일이 전송됩니다. 29일 후 동일한 그룹에 생일 프로모션 코드가 곧 만료된다는 알림이 포함된 SMS가 전송됩니다.
+다음 예제는 일반적인 사용 사례 속 **[!UICONTROL 대기]** 활동을 보여 줍니다.  프로필에 생일을 축하하는 프로모션 코드가 포함된 이메일이 전송됩니다. 2일 후에는 생일 프로모션 코드가 곧 만료된다는 알림과 함께 동일한 그룹에 SMS를 전송합니다.
 
 ![](../assets/wait-example.png)
