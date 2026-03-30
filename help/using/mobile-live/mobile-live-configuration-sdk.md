@@ -7,9 +7,9 @@ feature: Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 02ca7c8e-105a-4e77-9aad-2381904255d0
-source-git-commit: c1a2e098b31769945221701a075b7f9f688b274f
+source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '494'
 ht-degree: 1%
 
 ---
@@ -150,7 +150,7 @@ if #available(iOS 16.1, *) {
 
 ## 4단계: 라이브 활동 위젯 만들기 {#widgets}
 
-라이브 활동은 위젯을 통해 표시되므로 위젯 번들과 구성을 만들어야 합니다.
+라이브 활동은 위젯을 통해 표시됩니다. 위젯 번들 및 구성을 만들어야 합니다.
 
 **음식 배달 라이브 활동의 예:**
 
@@ -189,7 +189,7 @@ struct FoodDeliveryLiveActivityWidget: Widget {
 
 ## 5단계: 로컬에서 라이브 활동 시작(선택 사항) {#local}
 
-Journey Optimizer에서 원격으로 라이브 활동을 시작할 수 있지만 로컬에서 시작할 수도 있습니다.
+Journey Optimizer은 라이브 활동을 원격으로 시작할 수 있지만 로컬로 시작할 수도 있습니다.
 
 **음식 배달 라이브 활동의 예:**
 
