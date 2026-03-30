@@ -9,9 +9,9 @@ role: Developer
 level: Experienced
 exl-id: c9e14d4d-f2e2-43f9-b1c5-4b005ce858ad
 version: Journey Orchestration
-source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
+source-git-commit: c9a5c29c685cf21fda2b5df1a3838713e054f696
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '900'
 ht-degree: 4%
 
 ---
@@ -39,7 +39,6 @@ ht-degree: 4%
 
 * [등급 수식 - 컨텍스트 데이터를 기반으로 오퍼 증폭](../offers/ranking/create-ranking-formulas.md#context-data)
 * [컨텍스트 데이터를 기반으로 표현 개인화](../offers/offer-library/add-representations.md#context-data)
-* [개인화 편집기에서 지원되는 함수](offer-library/personalization-editor-supported-functions.md)(의사 결정 관리에서 오퍼 콘텐츠를 개인화할 때)
 
 >[!ENDSHADEBOX]
 
@@ -57,11 +56,11 @@ Decisioning API를 사용하여 컨텍스트를 자유 형식으로 전달하는
 
    ![언어 및 deviceType 속성이 있는 오퍼 컨텍스트 필드 그룹을 표시하는 XDM 스키마](assets/context-edge-xdm.png){width="60%" align="center" zoomable="yes"}
 
-   [!DNL Adobe Experience Platform] [XDM(Experience Data Model) 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home){target="_blank"}에서 스키마 작업 방법을 알아봅니다
+   [!DNL Adobe Experience Platform] [XDM(Experience Data Model) 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}에서 스키마 작업 방법을 알아봅니다
 
 1. 데이터 세트(&quot;오퍼 컨텍스트&quot;)를 만들고 프로필에 대해 활성화되어 있는지 확인합니다.
 
-1. **[!UICONTROL 데이터 수집]** > **[!UICONTROL 데이터스트림]** 메뉴에서 새 데이터스트림을 만듭니다. [!DNL Adobe Experience Platform] [데이터스트림 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/configure){target="_blank"}에서 데이터스트림을 만들고 구성하는 방법에 대해 알아봅니다.
+1. **[!UICONTROL 데이터 수집]** > **[!UICONTROL 데이터스트림]** 메뉴에서 새 데이터스트림을 만듭니다. [!DNL Adobe Experience Platform] [데이터스트림 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure){target="_blank"}에서 데이터스트림을 만들고 구성하는 방법에 대해 알아봅니다.
 
    여기에서는 &quot;오퍼 컨텐츠&quot; 이벤트 스키마가 선택된 상태로 &quot;오퍼 컨텍스트&quot; 데이터스트림을 생성했습니다.
 
