@@ -7,7 +7,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c9766603-df19-4efd-8319-27e9764254b4
-source-git-commit: 4f599e46c35bc328057247b84193a4db670fee83
+source-git-commit: df4183e15b2907bfb669e7e2e8eb88771627dcf4
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 21%
@@ -26,7 +26,7 @@ ht-degree: 21%
 기존의 푸시 알림과 달리 라이브 활동은 **상태 기반 참여**&#x200B;를 나타냅니다. 일회성 알림을 제공하는 대신 이벤트가 발전함에 따라 동적으로 업데이트되는 지속적이고 상황별 상태를 유지합니다.
 
 
-![](assets/do-not-localize/live-activity.jpeg){width="50%" align="left"}
+![](assets/do-not-localize/live-activity.jpeg){width="30%" align="left"}
 
 Adobe Journey Optimizer을 사용하면 API 트리거 캠페인을 통해 원격으로 **시작**, **업데이트** 및 **종료** 라이브 활동을 프로그래밍 방식으로 수행할 수 있습니다. 이는 규모에 따라 개별 및 대상 기반 사용 사례를 모두 지원합니다.
 
@@ -78,4 +78,4 @@ Adobe Journey Optimizer을 사용하면 API 트리거 캠페인을 통해 원격
 
 Adobe Journey Optimizer을 사용하여 iOS 라이브 활동 을 구성하여 iPhone 잠금 화면 및 Dynamic Island에서 다양한 실시간 업데이트를 제공하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479871/?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3479864/?learn=on)
