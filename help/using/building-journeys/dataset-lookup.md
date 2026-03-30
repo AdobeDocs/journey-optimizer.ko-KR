@@ -8,10 +8,11 @@ topic: Content Management
 role: User
 level: Intermediate
 version: Journey Orchestration
+badge: label="제한 공개" type="Informative"
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
+source-git-commit: 6836d30ca7864a82a75a73b8944e43691338558e
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '906'
 ht-degree: 7%
 
 ---
@@ -24,6 +25,10 @@ ht-degree: 7%
 >abstract="**[!UICONTROL 데이터 집합 조회]** 활동을 사용하면 런타임 중에 [!DNL Adobe Experience Platform] 레코드 데이터 집합에서 데이터를 동적으로 검색할 수 있습니다. 이 기능을 활용하면 프로필이나 이벤트 페이로드에 없을 수 있는 데이터에 액세스하여 고객 상호 작용이 적시에 적절하게 이루어질 수 있습니다."
 
 **[!UICONTROL 데이터 집합 조회]** 활동을 사용하면 런타임 중에 [!DNL Adobe Experience Platform] 레코드 데이터 집합에서 데이터를 동적으로 검색할 수 있습니다. 이 기능을 활용하면 프로필이나 이벤트 페이로드에 없을 수 있는 데이터에 액세스하여 고객 상호 작용이 적시에 적절하게 이루어질 수 있습니다.
+
+>[!AVAILABILITY]
+>
+>이 기능은 현재 모든 고객이 제한된 가용성 릴리스로 사용할 수 있습니다.
 
 주요 이점:
 
@@ -61,7 +66,7 @@ ht-degree: 7%
 
 1. **[!UICONTROL Orchestration]** 범주를 펼친 다음 **[!UICONTROL 데이터 집합 조회]** 활동을 캔버스에 놓습니다.
 
-   ![[!DNL Adobe Experience Platform] 여정에서 &#x200B;](assets/aep-data-activity.png) 데이터 집합 조회 활동
+   ![[!DNL Adobe Experience Platform] 여정에서 ](assets/aep-data-activity.png) 데이터 집합 조회 활동
 
 1. 레이블과 설명을 추가합니다.
 
