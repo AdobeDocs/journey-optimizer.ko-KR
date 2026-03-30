@@ -9,10 +9,10 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: 구성, 구성하기, 메시지, 채널, 샌드박스, optimizer
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+source-git-commit: 729fee98b6d9681ee0e39f091d6f44e692684b83
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 34%
+source-wordcount: '452'
+ht-degree: 29%
 
 ---
 
@@ -52,6 +52,8 @@ ht-degree: 34%
     <div align="center"><a href="../content-card/content-card-configuration-prereq.md"><strong>콘텐츠 카드</strong></a></div></td>
     </tr></table>
 
+   추가 채널은 [iOS Live 활동](../mobile-live/mobile-live-configuration.md), [WhatsApp](../whatsapp/whatsapp-configuration.md) 및 [LINE](../line/line-configuration.md)을 참조하세요.
+
    >[!NOTE]
    >
    >모바일 채널의 경우 [안내 채널 설정](set-mobile-config.md)을 통해 마케팅 채널을 신속하게 구성하여 필요한 모든 리소스를 Experience Platform, Journey Optimizer 및 데이터 수집 내에서 쉽게 사용할 수 있습니다. 이렇게 하면 마케팅 팀이 캠페인 및 여정을 만들기 시작할 수 있습니다.
@@ -81,4 +83,7 @@ ht-degree: 34%
 * **[IP 웜업](ip-warmup-gs.md)** - IP 주소 웜업에 대한 모범 사례를 살펴보고 전자 메일 배달 가능성 및 보낸 사람의 신뢰도를 개선합니다.
 * **[제외 목록 관리](manage-suppression-list.md)** - 바운스를 처리하고 목록 안전 상태를 유지하기 위해 제외 목록을 관리하는 방법을 알아봅니다.
 * **[모바일 앱 구성](set-mobile-config.md)** - 푸시 알림 및 인앱 메시지에 대한 모바일 앱 구성을 설정합니다.
+* **[iOS 라이브 활동 구성](../mobile-live/mobile-live-configuration.md)** - 라이브 활동을 iPhone 잠금 화면 및 Dynamic Island로 보내도록 환경을 설정합니다.
+* **[WhatsApp 구성](../whatsapp/whatsapp-configuration.md)** - 캠페인 및 여정을 위해 Meta의 Cloud API를 통해 WhatsApp 메시지를 설정합니다.
+* **[LINE 구성](../line/line-configuration.md)** - 캠페인 및 여정에 대한 LINE 메시지를 설정합니다.
 * **[구성 튜토리얼](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/configuration/channel-configuration/configure-channels){target="_blank"}** - 채널 구성 및 모범 사례에 대한 단계별 비디오 튜토리얼을 살펴보십시오.
