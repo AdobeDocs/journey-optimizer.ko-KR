@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
-source-git-commit: 60907756a261c1f672944eccefbfe2ee90d0d017
+source-git-commit: 874bbd1d7235c8043e824290d748677fe30f43a9
 workflow-type: tm+mt
-source-wordcount: '1502'
+source-wordcount: '1496'
 ht-degree: 1%
 
 ---
@@ -124,7 +124,7 @@ HTML 구성 요소의 경우 특정 요소만 편집 가능한 필드가 될 수
 
 * HTML 구성 요소의 경우 변수는 이메일 Designer의 편집 가능한 필드 목록에 표시됩니다. [시각적 조각에서 편집 가능한 필드를 사용자 지정하는 방법에 대해 알아봅니다.](../email/use-visual-fragments.md#customize-fields)
 
-### 편집 가능한 표현식 조각 예 {#example}
+### 예: 사용자 정의 가능한 표현식 조각 {#example}
 
 아래 예제에서는 새로운 스포츠 컬렉션을 나타내는 표현식 조각을 만들고 있습니다. 기본적으로 조각은 다음 콘텐츠를 표시합니다. *더 많은 콘텐츠를 찾고 계십니까? 최신 스포츠 컬렉션을 놓치지 마세요!*
 
@@ -146,9 +146,9 @@ HTML 구성 요소의 경우 특정 요소만 편집 가능한 필드가 될 수
 
 ## 사용자 지정 가능한 조각에 서식 있는 텍스트 추가 {#rich-text}
 
-HTML 구성 요소를 사용하여 편집 가능한 조각에 줄 바꿈, 굵게, 기울임체 등과 같은 리치 텍스트를 추가할 수 있습니다. 그 방법은 다음과 같습니다.
+HTML 구성 요소를 사용하여 사용자 지정 가능한 조각에 줄 바꿈, 굵게, 기울임체 등과 같은 리치 텍스트를 추가할 수 있습니다. 그 방법은 다음과 같습니다.
 <!--
-➡️ [Learn how to add and use rich text to an editable fragment in this video](#video)-->
+➡️ [Learn how to add and use rich text in a customizable fragment in this video](#video)-->
 
 ### 리치 텍스트를 포함하는 조각 만들기 {#add-rich-text}
 
@@ -176,9 +176,9 @@ HTML 구성 요소를 사용하여 편집 가능한 조각에 줄 바꿈, 굵게
 
 1. 조각을 저장하고 [게시](create-fragments.md#publish).
 
-### 리치 텍스트 편집 가능한 조각 사용 {#use-rich-text}
+### 사용자 지정 가능한 조각에서 리치 텍스트 사용 {#use-rich-text}
 
-이제 이메일 콘텐츠에 조각을 추가할 때 사용자가 만든 서식 있는 텍스트 콘텐츠와 스타일을 편집할 수 있습니다. 마케팅 담당자로서 서식 있는 텍스트 편집 가능한 조각을 사용하려면 아래 단계를 따르십시오.
+이제 이메일에 조각을 추가할 때 만든 서식 있는 텍스트 콘텐츠와 스타일을 편집할 수 있습니다. 마케터는 아래 단계를 수행합니다.
 
 1. 캠페인 또는 여정에서 [전자 메일을 만든 다음](../email/create-email.md) 서식 있는 텍스트가 있는 조각을 [만든](#add-rich-text)(으)로 추가합니다.
 
@@ -199,5 +199,5 @@ HTML 구성 요소를 사용하여 편집 가능한 조각에 줄 바꿈, 굵게
 
 This video shows how to make HTML components within a fragment editable, allowing for dynamic updates to both content and styling.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464375/?captions=kor&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
 -->
