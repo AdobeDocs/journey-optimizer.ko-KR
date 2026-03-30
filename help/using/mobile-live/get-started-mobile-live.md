@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c9766603-df19-4efd-8319-27e9764254b4
-source-git-commit: df4183e15b2907bfb669e7e2e8eb88771627dcf4
+source-git-commit: 1a5a69b9c2907e18a4649543ac0ddf6fdd486491
 workflow-type: tm+mt
 source-wordcount: '388'
-ht-degree: 21%
+ht-degree: 20%
 
 ---
 
@@ -26,24 +26,20 @@ ht-degree: 21%
 기존의 푸시 알림과 달리 라이브 활동은 **상태 기반 참여**&#x200B;를 나타냅니다. 일회성 알림을 제공하는 대신 이벤트가 발전함에 따라 동적으로 업데이트되는 지속적이고 상황별 상태를 유지합니다.
 
 
-![](assets/do-not-localize/live-activity.jpeg){width="30%" align="left"}
-
-Adobe Journey Optimizer을 사용하면 API 트리거 캠페인을 통해 원격으로 **시작**, **업데이트** 및 **종료** 라이브 활동을 프로그래밍 방식으로 수행할 수 있습니다. 이는 규모에 따라 개별 및 대상 기반 사용 사례를 모두 지원합니다.
-
-**API 트리거** 캠페인을 통해 **only** 라이브 활동을 시작할 수 있으므로 사용자 지정 페이로드를 제공하고 자체 페이로드를 통해 모든 개인화를 수행할 수 있습니다.
-의도한 라이브 활동 사용 사례를 기반으로 적절한 **API-triggered** 캠페인 유형을 선택해야 합니다.
-
-* 브로드캐스트 사용 사례에 대해 **API 트리거된 마케팅**&#x200B;을(를) 선택합니다. 대상 기반 업데이트는 대규모로 전송됩니다.
-
-   * 스포츠 점수 및 라이브 이벤트 카운트
-   * 경로의 모든 승객에 대한 비행 상태 업데이트
-   * 사용자 세그먼트 전체에 걸쳐 공유된 경험
-
-* 개별 사용 사례에 대해 **API 트리거 트랜잭션**&#x200B;을(를) 선택합니다. 사용자당 실시간 업데이트 1:1개:
-
-   * 주문 추적 및 게재 진행률
-   * 승차 또는 서비스 상태 업데이트
-   * 실시간 예약 및 예약 확인
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<img alt="잠금 화면 및 Dynamic Island의 iOS 라이브 활동" src="assets/do-not-localize/live-activity.jpeg">
+</td>
+<td>
+<p>Adobe Journey Optimizer을 사용하면 API 트리거 캠페인을 통해 원격으로 <strong>시작</strong>, <strong>업데이트</strong> 및 <strong>종료</strong> 라이브 활동을 프로그래밍 방식으로 수행할 수 있습니다. 이는 규모에 따라 개별 및 대상 기반 사용 사례를 모두 지원합니다.</p>
+<p><strong>API 트리거</strong> 캠페인을 통해 라이브 활동을 <strong>only</strong>할 수 있으므로 사용자 지정 페이로드를 제공하고 자체 페이로드를 통해 모든 개인화를 수행할 수 있습니다. 의도한 라이브 활동 사용 사례를 기반으로 적절한 캠페인 유형을 선택해야 합니다.</p>
+<ul>
+<li><strong>API 트리거된 마케팅</strong> — 브로드캐스트 사용 사례, 대규모로 전송된 대상 기반 업데이트: 스포츠 점수 및 라이브 이벤트 카운트 다운, 비행 상태 업데이트, 사용자 세그먼트 전반의 공유 경험.</li>
+<li><strong>API 트리거 트랜잭션</strong> — 개별 사용 사례, 사용자당 1:1 실시간 업데이트: 주문 추적 및 게재 진행 상황, 승차 또는 서비스 상태 업데이트, 실시간 예약 및 약속 확인.</li>
+</ul>
+</td>
+</tr>
+</table>
 
 ## 주요 이점
 
@@ -56,7 +52,7 @@ Adobe Journey Optimizer을 사용하면 API 트리거 캠페인을 통해 원격
 
 ## 빠른 시작 안내서
 
-아래 단계를 완료하여 애플리케이션에서 라이브 활동을 구성하고 구현하십시오.
+아래 단계를 완료하여 애플리케이션에서 라이브 활동을 구성하고 구현하세요.
 
 1. **[Adobe Journey Optimizer 구성하기](mobile-live-configuration.md)**
 
@@ -76,6 +72,6 @@ Adobe Journey Optimizer을 사용하면 API 트리거 캠페인을 통해 원격
 
 ## 사용 방법 비디오
 
-Adobe Journey Optimizer을 사용하여 iOS 라이브 활동 을 구성하여 iPhone 잠금 화면 및 Dynamic Island에서 다양한 실시간 업데이트를 제공하는 방법에 대해 알아봅니다.
+Adobe Journey Optimizer을 사용하여 iOS 라이브 활동을 구성하여 iPhone 잠금 화면 및 Dynamic Island에서 다양한 실시간 업데이트를 제공하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479871/?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3479864/?learn=on)
