@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: dbf95b20f089207128b0cb08864a2a4fc4e3bb47
+source-git-commit: 727f277b06b748cd4712c9cce62d7b4a1ad1f146
 workflow-type: tm+mt
-source-wordcount: '3142'
+source-wordcount: '3147'
 ht-degree: 96%
 
 ---
@@ -92,7 +92,6 @@ ht-degree: 96%
       + [대기](using/building-journeys/wait-activity.md)
       + [콘텐츠 결정](using/building-journeys/content-decision.md)
       + [데이터 세트 조회](using/building-journeys/dataset-lookup.md)
-      + [기본 제공 채널 작업](using/building-journeys/journeys-message.md)
       + [작업](using/building-journeys/journey-action.md)
       + [점프](using/building-journeys/jump.md)
       + [프로필 업데이트](using/building-journeys/update-profiles.md)
@@ -214,6 +213,8 @@ ht-degree: 96%
          + [위시리스트 항목 업데이트 보내기](using/orchestrated/wishlist-uc.md)
          + [활동을 탐색하여 고객 참여](using/orchestrated/engage-customers-uc.md)
          + [사용자에게 제품 출시 알림](using/orchestrated/product-availability-uc.md)
+      + 고급 작업 {#orchestrated-advanced}
+         + [신호를 사용하여 오케스트레이션된 캠페인 트리거](using/orchestrated/trigger-orchestrated-campaign.md)
 + 충돌 및 우선순위 지정 {#conflict-prioritization}
    + [충돌 관리 및 우선순위 지정](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [잠재적 충돌 확인](using/conflict-prioritization/conflicts.md)
@@ -339,7 +340,7 @@ ht-degree: 96%
          + [Sinch 제공자 구성](using/sms/sms-configuration-sinch.md)
          + [Infobip 제공자 구성](using/sms/sms-configuration-infobip.md)
          + [Twilio 제공자 구성](using/sms/sms-configuration-twilio.md)
-         + [사용자 정의 공급자 구성](using/sms/sms-configuration-custom.md)
+         + [사용자 정의 제공자 구성](using/sms/sms-configuration-custom.md)
          + [웹후크 만들기](using/sms/sms-webhook.md)
          + [SMS / MMS / RCS 구성 만들기](using/sms/sms-configuration-surface.md)
    + 다이렉트 메일 {#direct-mail}
@@ -356,7 +357,7 @@ ht-degree: 96%
          + [웹 채널 전제 조건](using/web/web-prerequisites.md)
          + [웹 하위 도메인 구성](using/web/web-delegated-subdomains.md)
          + [웹 채널 구성 만들기](using/web/web-configuration.md)
-      + [웹 경험 만들기 &#x200B;](using/web/create-web.md)
+      + [웹 경험 만들기 ](using/web/create-web.md)
       + 웹 페이지 작성 {#author-web-pages}
          + [웹 페이지 작성](/help/rp_landing_pages/author-web-pages-landing-page.md)
          + [웹 디자이너를 사용하여 작업](using/web/web-visual-editor.md)
@@ -411,7 +412,7 @@ ht-degree: 96%
          + [Journey Optimizer에서 라이브 활동 구성](using/mobile-live/mobile-live-configuration.md)
          + [라이브 활동 SDK 통합 구성](using/mobile-live/mobile-live-configuration-sdk.md)
 + 콘텐츠 관리 {#content-management}
-   + [콘텐츠 관리 &#x200B;](/help/rp_landing_pages/content-management-landing-page.md)
+   + [콘텐츠 관리 ](/help/rp_landing_pages/content-management-landing-page.md)
    + 개인화 {#personalization}
       + [개인화](/help/rp_landing_pages/personalization-landing-page.md)
       + [개인화 시작](using/personalization/personalize.md)
