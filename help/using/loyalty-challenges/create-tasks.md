@@ -15,7 +15,7 @@ exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
 source-git-commit: 89e1348a98596b8ecefabab571d2c1af299f1ed8
 workflow-type: tm+mt
 source-wordcount: '808'
-ht-degree: 2%
+ht-degree: 22%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_task_create"
 >title="작업 만들기"
->abstract="고객 활동(구매 또는 지출)을 선택한 다음 활동별 속성(수량 또는 금액, 적격 품목 및 제외, 최소 지출 또는 최대 거래와 같은 선택적 한도)을 구성합니다. 속성 창에서 작업 이름과 설명을 설정합니다."
+>abstract="고객 활동(구매 또는 지출)을 선택한 다음 활동별 속성(수량 또는 금액, 적격 품목 및 제외, 최소 지출 또는 최대 트랜잭션과 같은 선택적 한도)을 구성합니다. 속성 창에서 작업 이름과 설명을 설정합니다."
 
 두 진입점에서 작업을 생성할 수 있습니다. 구성 프로세스는 시작하는 위치에 관계없이 동일합니다.
 
@@ -110,13 +110,13 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_task_eligible_items_exclusion"
 >title="적격 항목 및 제외"
->abstract="**구매**&#x200B;와(과) **지출** 활동 모두에 대해 **[!UICONTROL 적격 항목 및 제외]** 특성을 사용하여 적격 항목 및 그룹과 제외되는 그룹을 정의할 수 있습니다. 이를 통해 과제 목표에 맞게 특정 제품, 카테고리 또는 위치를 타깃팅할 수 있습니다. 예를 들어 지출 작업을 특정 제품 범주로 제한하거나 작업 완료 시 기프트 카드나 프로모션 항목을 카운트하지 않도록 할 수 있습니다."
+>abstract="**구매**&#x200B;와 **지출** 활동 모두에 대해 **[!UICONTROL 적격 항목 및 제외]** 특성을 사용하여 적격 항목 및 그룹과 제외 그룹을 정의할 수 있습니다. 이를 통해 챌린지 목표에 부합하는 구체적인 제품, 카테고리 또는 위치를 타깃팅할 수 있습니다. 예를 들어, 지출 작업을 특정 제품 카테고리로 제한하거나 작업 완료 시 기프트 카드나 프로모션 항목을 카운트하지 않도록 할 수 있습니다."
 
 <!-- SCREENSHOT: Eligible items & exclusions popup showing the two sections: "Eligible task purchases are limited to the following" and "The following are excluded from this task" with text input fields -->
 
-**구매**&#x200B;와(과) **지출** 활동 모두에 대해 **[!UICONTROL 적격 항목 및 제외]** 특성을 사용하여 적격 항목 및 그룹과 제외되는 그룹을 정의할 수 있습니다. 이를 통해 과제 목표에 맞게 특정 제품, 카테고리 또는 위치를 타깃팅할 수 있습니다.
+**구매**&#x200B;와 **지출** 활동 모두에 대해 **[!UICONTROL 적격 항목 및 제외]** 특성을 사용하여 적격 항목 및 그룹과 제외 그룹을 정의할 수 있습니다. 이를 통해 과제 목표에 맞게 특정 제품, 카테고리 또는 위치를 타깃팅할 수 있습니다.
 
-예를 들어 지출 작업을 특정 제품 범주로 제한하거나 작업 완료 시 기프트 카드나 프로모션 항목을 카운트하지 않도록 할 수 있습니다.
+예를 들어, 지출 작업을 특정 제품 카테고리로 제한하거나 작업 완료 시 기프트 카드나 프로모션 항목을 카운트하지 않도록 할 수 있습니다.
 
 ![](assets/tasks-create-eligible.png)
 

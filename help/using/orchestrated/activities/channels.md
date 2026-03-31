@@ -8,7 +8,7 @@ version: Campaign Orchestration
 source-git-commit: 5ca8ff7abaaf4eef33a85682370a125af6836f2f
 workflow-type: tm+mt
 source-wordcount: '1554'
-ht-degree: 40%
+ht-degree: 44%
 
 ---
 
@@ -74,7 +74,7 @@ UNUSED IDs in BJ
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_category"
 >title="카테고리"
->abstract="이 채널 활동에 대해 마케팅 또는 트랜잭션 을 선택합니다. 마케팅 메시지는 마케팅 채널 구성을 사용하고 표준 비즈니스 규칙을 따릅니다. 트랜잭션 메시지는 작동 중인 커뮤니케이션용이며, 종종 개인의 작업(예: 암호 재설정 또는 구매 확인)에 의해 트리거되거나 중단 또는 취소와 같은 시간에 민감한 알림용입니다. 트랜잭션 채널 구성을 사용하고, 비즈니스 규칙은 우회하며, 옵트인이 필요하지 않습니다."
+>abstract="이 채널 활동에 대해 마케팅 또는 트랜잭션을 선택합니다. 마케팅 메시지는 마케팅 채널 구성을 사용하고 표준 비즈니스 규칙을 따릅니다. 트랜잭션 메시지는 종종 개인의 액션(예: 암호 재설정 또는 구매 확정)에 의해 트리거되는 작동 중인 커뮤니케이션 또는 중단이나 취소와 같이 시간에 민감한 알림을 위한 것입니다. 이 메시지는 트랜잭션 채널 구성을 사용하고, 비즈니스 규칙은 우회하며, 옵트인이 필요하지 않습니다."
 
 >[!PREREQUISITES]
 >
@@ -126,7 +126,7 @@ UNUSED IDs in BJ
 
 +++**빠른 전송 모드를 사용**(푸시)합니다.
 
-빠른 전송 모드는 캠페인을 통해 대량으로 매우 빠른 푸시 메시지를 전송할 수 있는 [!DNL Journey Optimizer] 추가 기능입니다. 신속한 전달은 메시지 전달 지연이 비즈니스에 중요한 경우 사용됩니다. 예를 들어 뉴스 채널 앱을 설치한 사용자에게 속보 등 휴대폰에 긴급 푸시 알림을 전송하려는 경우가 있습니다. 푸시 알림에 대해 빠른 전송 모드를 사용하는 방법을 알아봅니다. [&#x200B; 이 페이지](../../push/create-push.md#rapid-delivery).
+빠른 전송 모드는 캠페인을 통해 대량으로 매우 빠른 푸시 메시지를 전송할 수 있는 [!DNL Journey Optimizer] 추가 기능입니다. 신속한 전달은 메시지 전달 지연이 비즈니스에 중요한 경우 사용됩니다. 예를 들어 뉴스 채널 앱을 설치한 사용자에게 속보 등 휴대폰에 긴급 푸시 알림을 전송하려는 경우가 있습니다. 푸시 알림에 대해 빠른 전송 모드를 사용하는 방법을 알아봅니다. [ 이 페이지](../../push/create-push.md#rapid-delivery).
 
 빠른 전송 모드를 사용할 때의 성능에 대한 자세한 내용은 [Adobe Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}을 참조하세요.
 
