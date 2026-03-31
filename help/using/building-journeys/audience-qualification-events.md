@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 자격, 이벤트, 대상, 여정, 플랫폼
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
-source-git-commit: 44a635c07989c075dc36d8698c19e33644c3b687
+source-git-commit: f4c4cf0f9b4f197123bfcf9f1986d304695c17be
 workflow-type: tm+mt
-source-wordcount: '1758'
-ht-degree: 3%
+source-wordcount: '1611'
+ht-degree: 4%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 3%
    >[!NOTE]
    >
    >**[!UICONTROL Enter]** 및 **[!UICONTROL Exit]**&#x200B;은(는) **의**&#x200B;실현됨&#x200B;**및**&#x200B;종료됨[!DNL Adobe Experience Platform] 대상자 참여 상태에 해당합니다.
-   >[세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ko#interpret-segment-results){target="_blank"}를 참조하세요.
+   >[세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}를 참조하세요.
 
 1. 네임스페이스를 선택합니다. 이는 이벤트가 여정의 첫 번째 단계로 배치되는 경우에만 필요합니다. 기본적으로 필드는 마지막으로 사용된 네임스페이스로 미리 채워집니다.
 
@@ -114,15 +114,13 @@ ht-degree: 3%
 
 스트리밍 세분화를 통해 열기 및 보내기 이벤트를 사용하지 마십시오. 대신 클릭, 구매 또는 비콘 데이터와 같은 실제 사용자 활동 신호를 사용합니다. 빈도 또는 제외 논리의 경우 이벤트 보내기 대신 비즈니스 규칙을 사용하십시오. [자세히 알아보기](../audience/about-audiences.md)
 
-[[!DNL Adobe Experience Platform] 스트리밍 세분화 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}를 참조하세요.
+[[!DNL Adobe Experience Platform] 스트리밍 세분화 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}를 참조하세요.
 
 >[!NOTE]
 >
 >스트리밍 세그먼트 멤버십의 전파 시점은 멤버십을 평가하는 방법과 여정에서 멤버십이 사용되는 위치에 따라 다릅니다.
 >
->* **대상 자격 노드 + 스트리밍 세그먼트:** 프로필이 Edge에서 스트리밍 세그먼트 자격을 얻으면 여정이 작업을 수행하기 전에 Edge에서 허브로 해당 멤버십이 투영됩니다. 이 Edge-Hub 전파는 일반적으로 UPS SLT에 따라 **15~30분**&#x200B;이 소요됩니다. 추가 여정 처리 시간은 시스템이 과부하인 경우가 아니면 보통 5분 미만입니다. 프로필이 예상대로 대상 자격 여정을 입력하지 않는 경우 자세히 조사하기 전에 이 전달 창을 허용하십시오. 실제 실시간 입력이 필요한 사용 사례의 경우 대신 단일 이벤트 트리거를 고려하십시오.
->* 조건 노드의 **`inAudience()`- 대기 활동 전(또는 대상 읽기 여정):** 이 컨텍스트에서 조건 식에서 세그먼트 멤버십을 평가하면 AJO이 프로필의 배치 투영에서 읽습니다. 이 프로젝션의 데이터 새로 고침은 수집 후 최대 **2시간**&#x200B;의 SLT를 전달합니다. 일 기반 또는 시간 기반 조건에 의존하는 대상자는 추가적인 지연을 경험할 수 있습니다. 여정 시작 시 짧은 [대기 활동](wait-activity.md)을 추가하거나 버퍼 시간을 허용하여 최신 세그먼트 멤버십이 반영되도록 하십시오.
->* 조건 노드의 **`inAudience()`— 대기 활동(또는 단일 이벤트 여정) 후:** 이 컨텍스트에서는 스트리밍(단일) 프로젝션에서 세그먼트 멤버십을 읽습니다. 예상 대기 시간은 [Adobe Experience Platform 스트리밍 수집 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/ingestion/streaming/overview){target="_blank"}를 참조하십시오. 이 경로는 일반적으로 최근 프로필 변경 사항에 더 적합합니다.
+>* **대상 자격 노드 + 스트리밍 세그먼트:** 프로필이 Edge에서 스트리밍 세그먼트 자격을 얻으면 여정이 작업을 수행하기 전에 Edge에서 허브로 해당 멤버십이 투영됩니다. 이 Edge-Hub 전파는 일반적으로 **15~30분**&#x200B;이 소요됩니다. 프로필이 예상대로 대상 자격 여정을 입력하지 않는 경우 추가 조사를 수행하기 전에 이 전달 창(필요한 경우 대기 활동 추가)을 허용합니다. 실제 실시간 입력이 필요한 사용 사례의 경우 대신 단일 이벤트 트리거를 고려하십시오.
 
 #### 자격을 갖춘 모든 프로필이 여정에 들어가지 않는 이유는 무엇입니까? {#streaming-entry-caveats}
 
@@ -154,7 +152,7 @@ ht-degree: 3%
 
   ![에서 대상을 찾을 수 없을 때 [!DNL Adobe Experience Platform]](assets/segment-error.png)오류 메시지
 
-* 여정에서 사용되는 데이터 소스 및 작업에 대한 최대 가용량 규칙을 적용하여 오버로드를 방지합니다. 자세한 내용은 [Journey Orchestration 설명서](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=ko){target="_blank"}를 참조하세요. 최대 가용량 규칙에는 재시도가 없습니다. 다시 시도해야 하는 경우 **[!UICONTROL 조건 또는 작업에서 시간 초과 또는 오류 발생 시 대체 경로를 추가]** 상자를 선택하여 여정에서 대체 경로를 사용하십시오.
+* 여정에서 사용되는 데이터 소스 및 작업에 대한 최대 가용량 규칙을 적용하여 오버로드를 방지합니다. 자세한 내용은 [Journey Orchestration 설명서](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}를 참조하세요. 최대 가용량 규칙에는 재시도가 없습니다. 다시 시도해야 하는 경우 **[!UICONTROL 조건 또는 작업에서 시간 초과 또는 오류 발생 시 대체 경로를 추가]** 상자를 선택하여 여정에서 대체 경로를 사용하십시오.
 
 * 프로덕션 여정에서 대상을 사용하기 전에 매일 이 대상에 대해 자격이 있는 개인의 양을 평가하십시오. 이렇게 하려면 **[!UICONTROL 대상자]** 메뉴를 확인하고 대상자를 연 다음 **[!UICONTROL 시간 경과에 따른 프로필]** 그래프를 보십시오.
 
@@ -198,4 +196,4 @@ ht-degree: 3%
 
 이 비디오에서 대상 자격 여정에 적용할 수 있는 사용 사례를 이해합니다. 대상 검증을 사용하여 여정을 구축하는 방법 및 적용할 모범 사례를 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446211?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
