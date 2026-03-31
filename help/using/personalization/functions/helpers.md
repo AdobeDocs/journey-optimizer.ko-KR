@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 4519c873e3391b63d0e879d797a99d9e67f83b87
+source-git-commit: 8b50f0f1cc78e32ef9b3a3e918a5de82e7e16406
 workflow-type: tm+mt
-source-wordcount: '1002'
-ht-degree: 4%
+source-wordcount: '1011'
+ht-degree: 3%
 
 ---
 
@@ -283,7 +283,7 @@ Some edu specific content
 }
 ```
 
-## URL 매개 변수 암호화 {#url-parameter-encryption-helper}
+## 암호화 {#url-parameter-encryption-helper}
 
 >[!AVAILABILITY]
 >
@@ -291,40 +291,49 @@ Some edu specific content
 >
 >이 기능은 현재 이메일 채널에만 사용할 수 있습니다.
 
-`EncryptParam` 도우미를 사용하면 추적 링크 또는 랜딩 페이지의 쿼리 매개 변수에 작성되기 전에 렌더링 시 모든 표현식 값(일반적으로 프로필 속성, 토큰 또는 표현식에서 빌드하는 구조화된 JSON 구조)을 암호화할 수 있습니다.
+`Encrypt` 함수를 사용하면 추적 링크 또는 랜딩 페이지의 쿼리 매개 변수에 작성되기 전에 렌더링 시 모든 표현식 값(일반적으로 프로필 속성, 토큰 또는 표현식에서 빌드하는 구조화된 JSON 구조)을 암호화할 수 있습니다.
 
 URL에서 일반 텍스트로 표시되는 값(PII 또는 기타 중요한 데이터 포함)은 링크를 검사하거나 전달할 때 읽을 수 없습니다. 이 헬퍼로 래핑하는 값만 암호화됩니다. URL의 나머지 부분은 변경되지 않습니다.
 
-URL 디자인과 길이 제한에 따라 헬퍼를 링크의 한 매개 변수, 여러 매개 변수 또는 모든 매개 변수에 적용할 수 있습니다.
+**사용 사례**
+
+이 헬퍼를 사용하면 렌더링된 출력에 포함하기 전에 중요한 프로필 데이터(PII)를 보호할 수 있습니다.
 
 **전제 조건**
 
-* 조직에 대해 URL 매개 변수 암호화를 사용하도록 설정해야 합니다(제한된 가용성). 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.
-* 관리자는 샌드박스 수준 키 레지스트리에 하나 이상의 활성 키를 만들어야 합니다. [키를 만들고 관리하는 방법을 알아보세요](../url-parameter-encryption.md)
-
-**작동 방식**
-
-1. 도우미 목록에서 `EncryptParam` 도우미를 선택합니다.
-
-1. `data` 전달: 암호화할 값 또는 표현식(예: `profile` 필드, 변수 또는 구성된 문자열 토큰).
-
-1. 샌드박스 키 레지스트리에서 `key`: 활성 키 식별자를 전달합니다.
+관리자는 샌드박스 수준 키 레지스트리에 하나 이상의 활성 키를 만들어야 합니다. [키를 만들고 관리하는 방법을 알아보세요](../url-parameter-encryption.md#create-keys)
 
 >[!NOTE]
 >
 >해지되었거나 다른 방법으로 비활성 키를 사용하면 렌더링 시 개인화가 실패하여 잘못된 키로 메시지가 전송되지 않습니다.
 
-**예**
-
-`stringToken` 쿼리 매개 변수에서 일반 텍스트로 표시되지 않아야 하는 값(예: JSON 페이로드나 연결된 식별자를 포함하는 변수 `token`)을 정의하거나 계산한다고 가정해 봅시다. 최종 URL은 다음 패턴을 따르며 `stringToken`을(를) 식으로 바꾸고 `encrypt-key`을(를) 키 레지스트리에서 활성 키 ID로 바꿉니다.
+**구문**
 
 ```text
-https://example.com/verify?token={{encrypt data=stringToken key="encrypt-key"}}
+{{encrypt dataPath keyName="keyName" version="version" result="variableName"}}
 ```
+
+**사용**
+
+이 헬퍼는 중요한 데이터를 암호화하고 결과를 템플릿 변수에 저장합니다. <!--The encryption is performed using the AES-256-GCM algorithm.-->
+
+URL 디자인과 길이 제한에 따라 헬퍼를 링크의 한 매개 변수, 여러 매개 변수 또는 모든 매개 변수에 적용할 수 있습니다.
+
+- **입력**: `dataPath`(문자열로 확인되어야 하는 데이터 참조), `keyName`(암호화 키 식별자), `version`(선택적 키 버전), `result`(암호화된 출력의 변수 이름)
+- **Output**: 암호화된 값을 지정된 `result` 변수에서 사용할 수 있도록 합니다.
+- **결과 형식**: 결과 변수에 점이 구분된 문자열 `keyName.version.nonce.authTag.cipherText`이(가) 포함되어 있습니다. `keyName` 및 `version`을(를) 제외한 모든 세그먼트는 패딩 없이 URL에 안전한 Base64로 인코딩되어 있습니다.
+- **정적 키 요구 사항**: `keyName` 및 `version`은(는) 정적 문자열 리터럴이어야 합니다(동적 참조는 지원되지 않음).
+- **기본 버전**: `version` 매개 변수는 선택 사항입니다. 생략하면 암호화 키 서비스에서 기본 버전을 확인합니다
+
+**예**
+
+| 표현식 예 | 결과 |
+| --- | --- |
+| `{{encrypt profile.person.email keyName="email-key" version="1" result="enc"}}{{enc}}` | `email-key.1.RkFrZU5vbmNlQUJD.T3V0cHV0QXV0aFRhZ0Fh.am9obkBleGFtcGxlLmNvbQ` |
+| `{{encrypt profile.person.name.firstName keyName="pii-key" version="2" result="encName"}}{{encName}}` | `pii-key.2.U29tZVJhbmRvbUlW.QXV0aGVudGljYXRpb25UYQ.Sm9obg` |
 
 **가드레일**
 
-암호 해독은 랜딩 페이지, 앱 또는 API의 [!DNL Journey Optimizer] 외부에서 처리됩니다. 필요한 경우 이전 페이로드의 암호를 해독할 수 있도록 보안 팀과 함께 주요 라이프사이클 및 순환을 계획하십시오.
+* 암호 해독은 랜딩 페이지, 앱 또는 API의 [!DNL Journey Optimizer] 외부에서 처리됩니다. 필요한 경우 이전 페이로드의 암호를 해독할 수 있도록 보안 팀과 함께 주요 라이프사이클 및 순환을 계획하십시오.
 
-새 암호화에 해지된 키를 사용할 수 없습니다. 순환 및 사용 중단에 대한 보안 정책을 따르십시오.
-
+* 새 암호화에 해지된 키를 사용할 수 없습니다. 순환 및 사용 중단에 대한 보안 정책을 따르십시오.
