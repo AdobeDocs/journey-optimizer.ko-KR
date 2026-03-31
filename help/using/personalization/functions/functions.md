@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: cdf9eadc36d7e7b3538690a7a165bc39eccc40b5
+source-git-commit: 4519c873e3391b63d0e879d797a99d9e67f83b87
 workflow-type: tm+mt
-source-wordcount: '2458'
+source-wordcount: '2479'
 ht-degree: 2%
 
 ---
@@ -454,8 +454,11 @@ ht-degree: 2%
     <tr>
         <td><a href="helpers.md#let">Let</a></td><td>이 함수를 사용하면 표현식을 나중에 쿼리에서 사용할 변수로 저장할 수 있습니다</td>
     </tr>
-   <tr>
+    <tr>
         <td><a href="helpers.md#unless">Unless</a></td><td>이 함수는 조건부 블록을 정의하는 데 사용합니다. 표현식 평가에서 false를 반환하면 블록이 렌더링됩니다.</td>
+    </tr>
+    <tr>
+        <td><a href="helpers.md#url-parameter-encryption-helper">URL 매개 변수 암호화</a></td><td>샌드박스 레지스트리의 활성 키를 사용하여 렌더링 시 URL 쿼리 매개변수의 표현식 값을 암호화합니다. </td>
     </tr>
     <tr>
         <td><a href="helpers.md#with">포함</a></td><td>이 함수는 템플릿 일부의 평가 토큰을 변경하는 데 사용합니다.</td>
@@ -527,4 +530,4 @@ ht-degree: 2%
 
 개인화 도우미 기능을 사용하여 개인화 값을 변형하는 방법을 알아보고 도우미 기능의 다양한 사용 사례를 이해합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416646?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: ee9055c75ff122adcdeb8b9580701db8cd778d61
+source-git-commit: 4519c873e3391b63d0e879d797a99d9e67f83b87
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 3%
+source-wordcount: '1002'
+ht-degree: 4%
 
 ---
 
@@ -282,4 +282,49 @@ Some edu specific content
   "value": "Alex"
 }
 ```
+
+## URL 매개 변수 암호화 {#url-parameter-encryption-helper}
+
+>[!AVAILABILITY]
+>
+>이 기능은 제한된 가용성으로 사용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.
+>
+>이 기능은 현재 이메일 채널에만 사용할 수 있습니다.
+
+`EncryptParam` 도우미를 사용하면 추적 링크 또는 랜딩 페이지의 쿼리 매개 변수에 작성되기 전에 렌더링 시 모든 표현식 값(일반적으로 프로필 속성, 토큰 또는 표현식에서 빌드하는 구조화된 JSON 구조)을 암호화할 수 있습니다.
+
+URL에서 일반 텍스트로 표시되는 값(PII 또는 기타 중요한 데이터 포함)은 링크를 검사하거나 전달할 때 읽을 수 없습니다. 이 헬퍼로 래핑하는 값만 암호화됩니다. URL의 나머지 부분은 변경되지 않습니다.
+
+URL 디자인과 길이 제한에 따라 헬퍼를 링크의 한 매개 변수, 여러 매개 변수 또는 모든 매개 변수에 적용할 수 있습니다.
+
+**전제 조건**
+
+* 조직에 대해 URL 매개 변수 암호화를 사용하도록 설정해야 합니다(제한된 가용성). 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.
+* 관리자는 샌드박스 수준 키 레지스트리에 하나 이상의 활성 키를 만들어야 합니다. [키를 만들고 관리하는 방법을 알아보세요](../url-parameter-encryption.md)
+
+**작동 방식**
+
+1. 도우미 목록에서 `EncryptParam` 도우미를 선택합니다.
+
+1. `data` 전달: 암호화할 값 또는 표현식(예: `profile` 필드, 변수 또는 구성된 문자열 토큰).
+
+1. 샌드박스 키 레지스트리에서 `key`: 활성 키 식별자를 전달합니다.
+
+>[!NOTE]
+>
+>해지되었거나 다른 방법으로 비활성 키를 사용하면 렌더링 시 개인화가 실패하여 잘못된 키로 메시지가 전송되지 않습니다.
+
+**예**
+
+`stringToken` 쿼리 매개 변수에서 일반 텍스트로 표시되지 않아야 하는 값(예: JSON 페이로드나 연결된 식별자를 포함하는 변수 `token`)을 정의하거나 계산한다고 가정해 봅시다. 최종 URL은 다음 패턴을 따르며 `stringToken`을(를) 식으로 바꾸고 `encrypt-key`을(를) 키 레지스트리에서 활성 키 ID로 바꿉니다.
+
+```text
+https://example.com/verify?token={{encrypt data=stringToken key="encrypt-key"}}
+```
+
+**가드레일**
+
+암호 해독은 랜딩 페이지, 앱 또는 API의 [!DNL Journey Optimizer] 외부에서 처리됩니다. 필요한 경우 이전 페이로드의 암호를 해독할 수 있도록 보안 팀과 함께 주요 라이프사이클 및 순환을 계획하십시오.
+
+새 암호화에 해지된 키를 사용할 수 없습니다. 순환 및 사용 중단에 대한 보안 정책을 따르십시오.
 
