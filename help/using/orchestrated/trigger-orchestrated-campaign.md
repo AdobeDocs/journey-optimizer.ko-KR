@@ -8,13 +8,13 @@ topic: Content Management
 role: Developer
 level: Intermediate
 version: Campaign Orchestration
-source-git-commit: c9a5c29c685cf21fda2b5df1a3838713e054f696
+exl-id: d1fd072d-b143-4752-822f-23f98684ba80
+source-git-commit: ec52b62c2d0626b9047eebb54e0a44fee096ec05
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '829'
 ht-degree: 0%
 
 ---
-
 
 # 신호를 사용하여 오케스트레이션된 캠페인 트리거 {#trigger-signal}
 
@@ -26,6 +26,10 @@ ht-degree: 0%
 1. [신호 페이로드에 대한 매개 변수 추가](#add-parameters-for-the-signal-payload-optional-parameters)(선택 사항)
 1. [캠페인 빌드 및 테스트](#build-and-test-the-campaign-build-and-test)
 1. [캠페인 게시 및 트리거](#publish-and-trigger-the-campaign-publish)
+
+>[!NOTE]
+>
+>신호를 사용하여 오케스트레이션된 캠페인을 트리거하려면 **[!DNL Publish orchestrated campaigns]** 권한(`orchestrated-campaign.publish`)이 필요합니다. [기본 제공 권한](../administration/ootb-permissions.md)을 참조하세요.
 
 ## 신호에 의해 트리거될 캠페인 예약 {#configure-signal}
 
