@@ -8,9 +8,9 @@ level: Experienced
 keywords: inAudience, 함수, 표현식, 여정, 대상, 세그멘테이션
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 version: Journey Orchestration
-source-git-commit: acdcd6e09f75e3d3c5184a71937d443890f378b6
+source-git-commit: e71c4c20e8360006d99b12821fb9a588db5e0548
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '730'
 ht-degree: 2%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 2%
 * **실현됨**: 개인이 대상 정의에 적합하며 활성 멤버입니다.
 * **종료됨**: 개인이 대상을 떠났으므로 더 이상 자격이 없습니다.
 
-**실현됨** 상태의 개인만 활성 대상 구성원으로 간주됩니다. 함수가 `true`을(를) 반환하면 개인이 실현된 상태를 확인하고 `false`을(를) 반환하면 종료된 상태를 나타냅니다. 대상 평가에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ko#interpret-segment-results){target="_blank"}를 참조하세요.
+**실현됨** 상태의 개인만 활성 대상 구성원으로 간주됩니다. 함수가 `true`을(를) 반환하면 개인이 실현된 상태를 확인하고 `false`을(를) 반환하면 종료된 상태를 나타냅니다. 대상 평가에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}를 참조하세요.
 
 +++구문
 
@@ -115,8 +115,8 @@ inAudience("Unsubscribed") == false
 
 조건 노드에서 `inAudience()`을(를) 사용할 때 여정 멤버십 평가 시간은 조건이 세그먼트에 나타나는 위치에 따라 달라집니다.
 
-* **대기 활동 전(또는 대상 읽기 여정 시):** AJO이 프로필의 일괄 처리 프로젝션에서 읽습니다. 이 프로젝션의 데이터 새로 고침은 수집 후 최대 **2시간**&#x200B;의 SLT를 전달합니다. 일 기반 또는 시간 기반 조건에 의존하는 대상자는 추가적인 지연을 경험할 수 있습니다. 여정 시작 시 짧은 [대기 활동](../wait-activity.md)을 추가하거나 버퍼 시간을 허용하여 최신 세그먼트 멤버십이 반영되도록 하십시오.
-* **대기 활동 후(또는 단일 이벤트 여정 내):** 스트리밍(단일) 프로젝션에서 세그먼트 멤버십을 읽습니다. 예상 대기 시간은 [Adobe Experience Platform 스트리밍 수집 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/ingestion/streaming/overview){target="_blank"}를 참조하십시오. 이 경로는 일반적으로 최근 프로필 변경 사항에 더 적합합니다.
+* **대기 활동 전(또는 대상 읽기 여정 시):** Journey Optimizer이 프로필의 일괄 처리 프로젝션에서 읽습니다. 이 프로젝션의 데이터는 수집 후 **2시간** 내에 새로 고쳐집니다. 일 기반 또는 시간 기반 조건에 의존하는 대상자는 추가적인 지연을 경험할 수 있습니다. 여정 시작 시 짧은 [대기 활동](../wait-activity.md)을 추가하거나 버퍼 시간을 허용하여 최신 세그먼트 멤버십이 반영되도록 하십시오.
+* **대기 활동 후(또는 단일 이벤트 여정 내):** 스트리밍(단일) 프로젝션에서 세그먼트 멤버십을 읽습니다. 예상 대기 시간은 [Adobe Experience Platform 스트리밍 수집 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/streaming/overview){target="_blank"}를 참조하십시오. 이 경로는 일반적으로 최근 프로필 변경 사항에 더 적합합니다.
 
 ## 관련 항목
 
