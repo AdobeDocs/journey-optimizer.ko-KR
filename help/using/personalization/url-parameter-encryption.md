@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 추적 시 URL 매개 변수 암호화
+title: URL 매개 변수 암호화
 description: PII가 Journey Optimizer 추적 링크 및 랜딩 페이지의 일반 텍스트로 노출되지 않도록 중요한 URL 쿼리 매개 변수를 암호화하는 방법에 대해 알아봅니다.
 feature: Personalization
 topic: Personalization
@@ -9,15 +9,15 @@ role: Admin
 level: Intermediate
 badge: label="제한된 가용성" type="Informative"
 keywords: 암호화, URL, 추적, 랜딩 페이지, 키 레지스트리, 개인화, 보안, 개인 정보, 샌드박스
-source-git-commit: 4519c873e3391b63d0e879d797a99d9e67f83b87
+exl-id: 82e2b6e4-769f-4bdc-b2e2-19352fbaec8e
+source-git-commit: 300f57042131b64c1f51e890a3f14199f33c1419
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '656'
 ht-degree: 3%
 
 ---
 
-
-# 추적 시 URL 매개 변수 암호화 {#url-parameter-encryption}
+# URL 매개 변수 암호화 {#url-parameter-encryption}
 
 >[!AVAILABILITY]
 >
@@ -36,7 +36,7 @@ ht-degree: 3%
 ### 작동 방식 {#how-it-works}
 
 * **관리자**&#x200B;는 키 레지스트리를 사용하여 조직의 보안 정책에 따라 [키를 만들고](#create-keys) [키를 관리합니다](#manage-keys).
-* **마케터** 개인화 편집기에 암호화 도우미를 삽입하고 레지스트리에서 보호할 값과 활성 키 식별자를 전달합니다. 구문 및 옵션에 대해서는 [URL 매개 변수 암호화](functions/helpers.md#url-parameter-encryption-helper)를 참조하십시오.
+* **마케터** 개인화 편집기에서 `Encrypt` 도우미를 삽입하고 레지스트리에서 보호할 값과 활성 키 식별자를 전달합니다. 구문 및 옵션에 대해서는 [이 섹션](functions/helpers.md#url-parameter-encryption-helper)을 참조하십시오.
 
 >[!IMPORTANT]
 >
@@ -96,6 +96,3 @@ URL 매개 변수 암호화 도우미를 사용하려면 먼저 키를 만들어
    >[!NOTE]
    >
    >개인화 편집기에서 새 값을 암호화하려면 활성 키만 선택해야 합니다. 새 콘텐츠에 대해 해지된 키를 사용하지 마십시오.
-
-
-
