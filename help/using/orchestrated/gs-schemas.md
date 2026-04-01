@@ -52,7 +52,7 @@ ht-degree: 1%
 
 관계형 데이터 모델에서 스키마 또는 테이블 구성은 데이터를 여러 테이블로 구조화하는 것입니다. 각 테이블에 한 가지 유형의 엔티티/스키마가 저장되는지 확인
 
-➡️ [Adobe Experience Platform 설명서에서 스키마에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
+➡️ [Adobe Experience Platform 설명서에서 스키마에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
 
 ## 구현 단계 {#implementation}
 
