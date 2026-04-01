@@ -5,10 +5,10 @@ title: 여러 단계로 구성된 캠페인에 채널 활동 추가
 description: 여러 단계로 구성된 캠페인에 채널 활동을 추가하는 방법 알아보기
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: 5ca8ff7abaaf4eef33a85682370a125af6836f2f
+source-git-commit: 28a2ba313b69eefee2fdc1b9bd0391bb9bd5856a
 workflow-type: tm+mt
-source-wordcount: '1554'
-ht-degree: 44%
+source-wordcount: '1682'
+ht-degree: 41%
 
 ---
 
@@ -126,7 +126,7 @@ UNUSED IDs in BJ
 
 +++**빠른 전송 모드를 사용**(푸시)합니다.
 
-빠른 전송 모드는 캠페인을 통해 대량으로 매우 빠른 푸시 메시지를 전송할 수 있는 [!DNL Journey Optimizer] 추가 기능입니다. 신속한 전달은 메시지 전달 지연이 비즈니스에 중요한 경우 사용됩니다. 예를 들어 뉴스 채널 앱을 설치한 사용자에게 속보 등 휴대폰에 긴급 푸시 알림을 전송하려는 경우가 있습니다. 푸시 알림에 대해 빠른 전송 모드를 사용하는 방법을 알아봅니다. [&#x200B; 이 페이지](../../push/create-push.md#rapid-delivery).
+빠른 전송 모드는 캠페인을 통해 대량으로 매우 빠른 푸시 메시지를 전송할 수 있는 [!DNL Journey Optimizer] 추가 기능입니다. 신속한 전달은 메시지 전달 지연이 비즈니스에 중요한 경우 사용됩니다. 예를 들어 뉴스 채널 앱을 설치한 사용자에게 속보 등 휴대폰에 긴급 푸시 알림을 전송하려는 경우가 있습니다. 푸시 알림에 대해 빠른 전송 모드를 사용하는 방법을 알아봅니다. [ 이 페이지](../../push/create-push.md#rapid-delivery).
 
 빠른 전송 모드를 사용할 때의 성능에 대한 자세한 내용은 [Adobe Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}을 참조하세요.
 
@@ -167,11 +167,17 @@ UNUSED IDs in BJ
 
 개인화 편집기 사용 방법에 대한 자세한 개요는 [개인화 시작](../../personalization/personalize.md)을 참조하세요.
 
-### 콘텐츠 확인 및 테스트
+### 콘텐츠 확인 및 테스트 {#simulate-content-test-profiles}
 
 콘텐츠가 생성되면 **[!UICONTROL 콘텐츠 시뮬레이션]** 버튼을 사용하여 CSV/JSON 파일에서 업로드하거나 수동으로 추가한 테스트 프로필이나 샘플 입력 데이터로 콘텐츠를 미리 보고 테스트합니다. [자세히 알아보기](../../content-management/preview-test.md)
 
 ![콘텐츠 시뮬레이션 버튼을 표시하는 이미지](../assets/channel-simulate.png)
+
+오케스트레이션된 캠페인에서 **테스트 프로필**&#x200B;을 사용하여 콘텐츠를 시뮬레이션하는 경우 두 가지 중요한 제한이 적용됩니다.
+
+* **실행에서 테스트의 채널 활동에 도달해야 함** - **[!UICONTROL 시작]** 단추를 사용하여 테스트에서 캠페인을 실행하여 워크플로가 시뮬레이션할 채널 활동에 도달하도록 합니다. 테스트 모드에서는 워크플로가 채널 활동에서 일시 중지되므로, 다른 채널 활동 뒤에 오는 채널 활동에 도달하지 않습니다. 해당 다운스트림 채널 활동에는 **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 사용할 수 없습니다. [게시하기 전에 캠페인 테스트](../start-monitor-campaigns.md#test)를 참조하십시오.
+
+* **테스트 프로필은 채널 활동 대상과 일치해야 합니다** - 해당 채널 활동에서 타깃팅한 대상에 속하는 테스트 프로필을 사용하십시오. 프로필이 해당 대상에 없는 경우 이 항목을 선택하면 콘텐츠 미리보기가 렌더링되지 않습니다. [테스트 프로필 선택](../../content-management/test-profiles.md)을 참조하세요.
 
 ## 메시지 보내기 확인
 
