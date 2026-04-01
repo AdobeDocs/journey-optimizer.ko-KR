@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 텍스트, 이메일, 버전, 일반, 편집기
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
-source-git-commit: 1a5ce1bf2d98a5de31f1245dee96d24984cb28d9
+source-git-commit: 7a3ff59bab5f0d4d8f61fa05a20f4922b83ca7f8
 workflow-type: tm+mt
 source-wordcount: '1141'
 ht-degree: 8%
@@ -30,7 +30,7 @@ ht-degree: 8%
 
 ![](assets/text_version_3.png)
 
-## 사용자 정의 텍스트 버전 사용 {#plain-text-default-custom}
+## 사용자 정의 텍스트 버전 사용 {#plain-text-custom}
 
 일반 텍스트 버전에 대해 다른 콘텐츠를 사용하려면 다음 단계를 따르십시오.
 
