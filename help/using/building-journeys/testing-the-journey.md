@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 테스트, 여정, 확인, 오류, 문제 해결
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: f06c834fcd1a70aba33a37bb02de461869b50b77
 workflow-type: tm+mt
-source-wordcount: '1943'
+source-wordcount: '1947'
 ht-degree: 7%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 7%
 >id="ajo_journey_test"
 >title="여정 테스트"
 >abstract="게시하기 전에 테스트 프로필을 사용하여 여정을 테스트합니다. 이를 통해 개인이 여정에 참여하는 방법을 분석하고 게시 전에 문제를 해결할 수 있습니다."
+>additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-dry-run" text="여정 시험 실행"
+
 
 여정을 빌드하면 게시하기 전에 테스트할 수 있습니다. Journey Optimizer에서는 여정을 따라 이동할 때 테스트 프로필을 보는 방법으로 &quot;테스트 모드&quot;를 제공하여 활성화 전에 잠재적인 오류를 감지합니다. 빠른 테스트를 실행하면 여정이 올바르게 작동하는지 확인하여 안정적으로 게시할 수 있습니다.
 
