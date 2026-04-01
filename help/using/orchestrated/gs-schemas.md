@@ -5,7 +5,7 @@ title: 구성 단계
 description: DDL을 업로드하여 Adobe Experience Platform 내에서 관계형 스키마를 만드는 방법을 알아봅니다
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
 version: Campaign Orchestration
-source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 1%
@@ -33,7 +33,7 @@ ht-degree: 1%
 * 해당 엔티티의 속성(예: 고객 이름, 캠페인 시작 날짜)
 * 엔티티 간의 관계(예: 고객은 세그먼트, 캠페인 타겟 세그먼트에 속함)
 
-데이터 모델은 논리적이고 개념적이므로 오케스트레이션된 Campaign의 물리적 구현에 연결되지 않습니다
+데이터 모델은 논리적이고 개념적이므로 오케스트레이션된 캠페인의 물리적 구현에 연결되지 않습니다
 
 **관계형 데이터 모델**&#x200B;에서 데이터는 다른 테이블과 관련된 테이블로 구성됩니다.
 
@@ -52,7 +52,7 @@ ht-degree: 1%
 
 관계형 데이터 모델에서 스키마 또는 테이블 구성은 데이터를 여러 테이블로 구조화하는 것입니다. 각 테이블에 한 가지 유형의 엔티티/스키마가 저장되는지 확인
 
-➡️ [Adobe Experience Platform 설명서에서 스키마에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
+➡️ [Adobe Experience Platform 설명서에서 스키마에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
 
 ## 구현 단계 {#implementation}
 

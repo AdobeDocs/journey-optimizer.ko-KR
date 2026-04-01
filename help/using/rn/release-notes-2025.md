@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
-source-wordcount: '9009'
-ht-degree: 100%
+source-wordcount: '9005'
+ht-degree: 99%
 
 ---
 
@@ -197,13 +197,13 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>API 트리거 이메일 캠페인의 높은 처리량 메시지</strong><br/></th>
+<th><strong>API 트리거된 이메일 캠페인에 대한 높은 처리량 메시징</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 API 트리거 캠페인에서 새로운 높은 처리량 트랜잭션 메시지 모드를 사용할 수 있습니다. 이 모드는 대규모 실시간 트랜잭션 메시지 전송을 위해 설계되었으며 더 높은 가용성으로 초당 최대 5,000개의 트랜잭션을 지원합니다. 또한 이 모드는 고객 프로필을 참조하거나 만들지 않고도 게스트 체크아웃, 주문 확인, 암호 재설정, 보안 알림, 기타 서비스/운영 알림과 같은 트랜잭션 메시지를 지원합니다.</p>
+<p>API 트리거 캠페인에서는 처리량이 많은 새로운 트랜잭션 메시지 모드를 사용할 수 있습니다. 이 모드는 대규모 실시간 트랜잭션 메시지 전송을 위해 설계되었으며 더 높은 가용성으로 초당 최대 5,000개의 트랜잭션을 지원합니다. 또한 이 모드는 고객 프로필을 참조하거나 만들지 않고도 게스트 체크아웃, 주문 확인, 암호 재설정, 보안 알림, 기타 서비스/운영 알림과 같은 트랜잭션 메시지를 지원합니다.</p>
 <p>이 기능은 Adobe 높은 처리량 트랜잭션 메시지 추가 기능 서비스를 구입한 조직의 이메일 채널에서만 사용할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.</p>
 <p>자세한 내용은 <a href="../campaigns/api-triggered-high-throughput.md">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2025년 10월 22일</p>
@@ -570,8 +570,8 @@ You can now use AI models to optimize the best content in your email through the
 
 ### 개선 사항 {#sept-25-9-improvements}
 
-* **API 트리거 캠페인에서 Webhook 지원**\
-  이제 API 트리거 캠페인이 Webhook를 지원합니다. 모든 메시지에 대한 실시간 상태 업데이트를 받을 수 있는 웹후크 URL을 구성하여 가시성을 높이고 원활한 모니터링과 자동화를 구현합니다. [자세히 보기](../configuration/feedback-webhooks.md)
+* **API 트리거 캠페인에 대한 웹후크 지원**\
+  API 트리거 캠페인은 이제 웹후크를 지원합니다. 모든 메시지에 대한 실시간 상태 업데이트를 받을 수 있는 웹후크 URL을 구성하여 가시성을 높이고 원활한 모니터링과 자동화를 구현합니다. [자세히 보기](../configuration/feedback-webhooks.md)
 
   사용 가능한 날짜: 2025년 9월 29일
 
@@ -1010,7 +1010,7 @@ You can now use AI models to optimize the best content in your email through the
 <tbody>
 <tr>
 <td>
-<p>여정 시험 실행은 Adobe Journey Optimizer의 특별한 여정 게시 모드로, 이를 통해 여정 실무자가 실제 고객과 연락하거나 프로필 정보를 업데이트하지 않고도 실제 프로덕션 데이터를 사용하여 여정을 테스트할 수 있습니다. 이 기능은 여정 실무자가 여정을 게시하기 전에 여정 설계와 대상자 타기팅에 대한 자신감을 얻는 데 도움이 됩니다.</p>
+<p>여정 시험 실행은 Adobe Journey Optimizer의 특별한 여정 게시 모드로, 이를 통해 여정 실무자가 실제 고객과 연락하거나 프로필 정보를 업데이트하지 않고도 실제 프로덕션 데이터를 사용하여 여정을 테스트할 수 있습니다. 이 기능을 사용하여 여정 실무자는 여정 설계와 대상 타기팅에 대한 확신을 가지고 라이브로 게시할 수 있습니다.</p>
 <img src="assets/do-not-localize/DryRun.gif">
 <p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
 <p>자세한 내용은 <a href="../building-journeys/journey-dry-run.md">세부 설명서</a>를 참조하십시오.</p>
@@ -1209,7 +1209,7 @@ You can now use AI models to optimize the best content in your email through the
 <tbody>
 <tr>
 <td>
-<p>여정 시험 실행은 Adobe Journey Optimizer의 특별한 여정 게시 모드로, 이를 통해 여정 실무자가 실제 고객과 연락하거나 프로필 정보를 업데이트하지 않고도 실제 프로덕션 데이터를 사용하여 여정을 테스트할 수 있습니다. 이 기능은 여정 실무자가 여정을 게시하기 전에 여정 설계와 대상자 타기팅에 대한 자신감을 얻는 데 도움이 됩니다.</p>
+<p>여정 시험 실행은 Adobe Journey Optimizer의 특별한 여정 게시 모드로, 이를 통해 여정 실무자가 실제 고객과 연락하거나 프로필 정보를 업데이트하지 않고도 실제 프로덕션 데이터를 사용하여 여정을 테스트할 수 있습니다. 이 기능을 사용하여 여정 실무자는 여정 설계와 대상 타기팅에 대한 확신을 가지고 라이브로 게시할 수 있습니다.</p>
 <img src="assets/do-not-localize/DryRun.gif">
 <p>이 기능은 일부 조직에서만 사용할 수 있으며(제한된 가용성) 향후 릴리스에서 전체 사용자를 대상으로 공개될 예정입니다.</p>
 <p>자세한 내용은 <a href="../building-journeys/journey-dry-run.md">세부 설명서</a>를 참조하십시오.</p>

@@ -8,10 +8,10 @@ role: Admin, Developer, User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
-source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
 source-wordcount: '1867'
-ht-degree: 86%
+ht-degree: 84%
 
 ---
 
@@ -210,7 +210,7 @@ Journey Optimizer 구현이 성공하려면 모든 역할에서 협업이 필요
 
 Journey Optimizer의 주요 기능 및 페르소나에 대해 자세히 알아보려면 소개 비디오를 시청하십시오. 이 비디오는 사용자 인터페이스를 안내하고 역할별 워크플로를 기반으로 주요 기능을 설명합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430319?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 ## 추가 리소스
 

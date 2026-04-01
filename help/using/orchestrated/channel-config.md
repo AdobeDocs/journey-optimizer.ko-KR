@@ -4,7 +4,8 @@ product: journey optimizer
 title: 채널 구성
 description: 채널 구성을 구성하는 방법을 알아봅니다
 version: Campaign Orchestration
-source-git-commit: 2bdabace34546bd27c2e3c19a3aee3c8a3eae5f2
+exl-id: 6793e9b8-06ca-403b-8cb0-3bcaef089837
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 0%

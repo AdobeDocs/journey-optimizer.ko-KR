@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4519c873e3391b63d0e879d797a99d9e67f83b87
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
-source-wordcount: '3160'
+source-wordcount: '3156'
 ht-degree: 95%
 
 ---
@@ -152,8 +152,8 @@ ht-degree: 95%
       + [캠페인 예약](using/campaigns/campaign-schedule.md)
       + [예약된 일괄 처리를 사용하여 보내기](using/campaigns/send-using-waves.md)
       + [액션 캠페인 검토 및 활성화](using/campaigns/review-activate-campaign.md)
-   + API 트리거 캠페인 {#api-triggered-campaigns}
-      + [API 트리거 캠페인](/help/rp_landing_pages/api-triggered-campaigns-landing-page.md)
+   + API-트리거된 캠페인 {#api-triggered-campaigns}
+      + [API-트리거된 캠페인](/help/rp_landing_pages/api-triggered-campaigns-landing-page.md)
       + [API 트리거 캠페인 작업](using/campaigns/api-triggered-campaigns.md)
       + [캠페인 속성 정의](using/campaigns/api-triggered-campaign-properties.md)
       + [캠페인 액션 구성](using/campaigns/api-triggered-campaign-action.md)
@@ -162,7 +162,7 @@ ht-degree: 95%
       + [캠페인 예약](using/campaigns/api-triggered-campaign-schedule.md)
       + [캠페인 검토 및 활성화](using/campaigns/review-activate-api-triggered-campaign.md)
       + [캠페인 실행 트리거](using/campaigns/trigger-campaigns.md)
-      + [API 트리거 캠페인에 대해 높은 처리량 모드 활성화](using/campaigns/api-triggered-high-throughput.md)
+      + [API 트리거된 캠페인에 대해 높은 처리량 모드 활성화](using/campaigns/api-triggered-high-throughput.md)
    + 오케스트레이션된 캠페인 {#orchestrated-campaigns}
       + [오케스트레이션된 캠페인](/help/rp_landing_pages/orchestrated-campaigns-landing-page.md)
       + [오케스트레이션된 캠페인 시작](using/orchestrated/gs-orchestrated-campaigns.md)
@@ -357,7 +357,7 @@ ht-degree: 95%
          + [웹 채널 전제 조건](using/web/web-prerequisites.md)
          + [웹 하위 도메인 구성](using/web/web-delegated-subdomains.md)
          + [웹 채널 구성 만들기](using/web/web-configuration.md)
-      + [웹 경험 만들기 &#x200B;](using/web/create-web.md)
+      + [웹 경험 만들기 ](using/web/create-web.md)
       + 웹 페이지 작성 {#author-web-pages}
          + [웹 페이지 작성](/help/rp_landing_pages/author-web-pages-landing-page.md)
          + [웹 디자이너를 사용하여 작업](using/web/web-visual-editor.md)
@@ -412,7 +412,7 @@ ht-degree: 95%
          + [Journey Optimizer에서 라이브 활동 구성](using/mobile-live/mobile-live-configuration.md)
          + [라이브 활동 SDK 통합 구성](using/mobile-live/mobile-live-configuration-sdk.md)
 + 콘텐츠 관리 {#content-management}
-   + [콘텐츠 관리 &#x200B;](/help/rp_landing_pages/content-management-landing-page.md)
+   + [콘텐츠 관리 ](/help/rp_landing_pages/content-management-landing-page.md)
    + 개인화 {#personalization}
       + [개인화](/help/rp_landing_pages/personalization-landing-page.md)
       + [개인화 시작](using/personalization/personalize.md)

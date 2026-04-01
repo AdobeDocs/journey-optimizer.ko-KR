@@ -5,10 +5,10 @@ title: 구성 단계
 description: DDL을 업로드하여 Adobe Experience Platform 내에서 관계형 스키마를 만드는 방법을 알아봅니다
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
 source-wordcount: '1084'
-ht-degree: 48%
+ht-degree: 46%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 48%
 
 1. 지원되는 소스에서 데이터 세트로 [데이터를 수집](ingest-data.md)합니다.
 
-➡️ [Adobe Experience Platform 설명서에서 관계형 스키마에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/relational)
+➡️ [Adobe Experience Platform 설명서에서 관계형 스키마에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational)
 
 ## DDL 파일 업로드{#ddl-upload}
 
@@ -154,7 +154,7 @@ Excel 기반 스키마 파일 업로드가 지원됩니다. 스키마 정의를 
 
    * **다운로드**: ER 다이어그램을 .png 파일로 다운로드합니다.
 
-1. 완료되면 **저장**&#x200B;을 클릭합니다. 이 작업은 스키마와 관련 데이터 세트를 만들고 오케스트레이션된 캠페인에서 사용할 데이터 세트를 활성화합니다.
+1. 완료되면 **저장**&#x200B;을 클릭합니다. 이 작업은 스키마 및 관련 데이터 세트를 만들고 오케스트레이션된 캠페인에서 사용할 데이터 세트를 활성화합니다.
 
 1. **[!UICONTROL 작업 열기]**&#x200B;를 클릭하여 생성 작업의 진행 상황을 모니터링합니다. 이 프로세스는 DDL 파일에 정의된 테이블 수에 따라 몇 분 정도 걸릴 수 있습니다.
 
@@ -168,9 +168,9 @@ Excel 기반 스키마 파일 업로드가 지원됩니다. 스키마 정의를 
 >
 > DDL 파일 내에서 명시적으로 정의된 관계만 시스템에서 인식됩니다. DDL 파일 외부에 있는 엔티티 관계는 무시되고 처리되지 않습니다.
 
-**충성도 트랜잭션** 스키마와 **수신자** 스키마 간의 관계를 설정하여 각 트랜잭션을 올바른 고객 레코드와 연결합니다.
+**로열티 트랜잭션** 스키마와 **수신자** 스키마 간의 관계를 설정하여 각 트랜잭션을 올바른 고객 레코드와 연결합니다.
 
-1. **[!UICONTROL 스키마]**&#x200B;로 이동하고 이전에 만든 **충성도 트랜잭션**&#x200B;을 엽니다.
+1. **[!UICONTROL 스키마]**&#x200B;로 이동하고 이전에 만든 **로열티 트랜잭션**&#x200B;을 엽니다.
 
 1. 고객 **[!UICONTROL 필드 속성]**&#x200B;에서 **[!UICONTROL 관계 추가]**&#x200B;를 클릭합니다.
 
@@ -186,6 +186,6 @@ Excel 기반 스키마 파일 업로드가 지원됩니다. 스키마 정의를 
 
 1. **[!UICONTROL 적용]**&#x200B;을 클릭하여 변경 내용을 저장합니다.
 
-계속해서 **충성도 보상** 스키마와 **브랜드** 스키마 간의 관계를 만들어 각 보상 항목을 적절한 브랜드와 연결합니다.
+계속해서 **로열티 보상** 스키마와 **브랜드** 스키마 간의 관계를 만들어 각 보상 항목을 적절한 브랜드와 연결합니다.
 
 ![](assets/schema_3.png)

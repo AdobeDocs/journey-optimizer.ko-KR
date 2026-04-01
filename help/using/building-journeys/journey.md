@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: 여정, 검색, 시작, 단일, 대상자 읽기, 대상자 선별, 비즈니스 이벤트, 실시간, 예약, 배치, 이벤트 트리거, 워크플로, 오케스트레이션, 개인화, 멀티채널
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
-source-wordcount: '1439'
-ht-degree: 93%
+source-wordcount: '1441'
+ht-degree: 88%
 
 ---
 
@@ -39,13 +39,13 @@ ht-degree: 93%
 
 ### 여정과 캠페인: 각 접근 방식을 사용해야 하는 경우 {#journeys-vs-campaigns-intro}
 
-[!DNL Adobe Journey Optimizer]은(는) 고객에게 도달하기 위한 세 가지 접근 방식을 제공합니다. **여정**(1:1 실시간 오케스트레이션), **캠페인**(단순 일괄 처리 또는 API 트리거 게재) 및 **오케스트레이션된 캠페인**(다중 엔터티 데이터가 있는 일괄 처리 캔버스 워크플로).
+[!DNL Adobe Journey Optimizer]은(는) 고객에게 도달하기 위한 세 가지 방법을 제공합니다. **여정**(1:1 실시간 오케스트레이션), **캠페인**(단순 일괄 처리 또는 API 트리거 게재) 및 **오케스트레이션된 캠페인**(다중 엔터티 데이터가 있는 일괄 처리 캔버스 워크플로).
 
 **빠른 결정:**
 
 * 각 고객이 원하는 속도로 진행하며 행동에 따라 결정되는 여러 단계의 경험에는 **여정** 사용
-* 대상자에 대한 단순, 예약 또는 트리거 방식의 메시지 게재에는 **액션/API 캠페인** 사용
-* 다중 엔터티 세분화 및 정확한 사전 전송 수 파악이 필요한 복잡한 배치 워크플로에는 **오케스트레이션된 캠페인** 사용
+* 대상자에 대한 단순, 예약 또는 트리거된 메시지 배달에 **작업 및 API 트리거된 캠페인**&#x200B;을(를) 사용합니다.
+* 다중 엔티티 세분화 및 정확한 사전 전송 카운트가 필요한 복잡한 일괄 처리 워크플로에 **오케스트레이션된 캠페인**&#x200B;을(를) 사용합니다.
 
 <!-- waiting for DOCAC-13912
 ➡️ **[View detailed comparison: Journeys vs Campaigns](../start/journeys-vs-campaigns.md)** - Includes decision guide, use cases, and feature availability-->
@@ -73,7 +73,7 @@ ht-degree: 93%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **진입점 정의**
 
@@ -83,7 +83,7 @@ ht-degree: 93%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **메시지 보내기**
 
@@ -93,7 +93,7 @@ ht-degree: 93%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **논리 및 조건 추가**
 
@@ -103,7 +103,7 @@ ht-degree: 93%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **데이터 활용**
 
@@ -113,7 +113,7 @@ ht-degree: 93%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **외부 시스템 연결**
 
@@ -123,7 +123,7 @@ ht-degree: 93%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **오케스트레이션 활동 추가**
 
@@ -214,7 +214,7 @@ ht-degree: 93%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **신규 구독자 환영**
 
@@ -224,7 +224,7 @@ ht-degree: 93%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **전송 시간 최적화**
 
@@ -234,7 +234,7 @@ AI를 사용하여 각 고객이 참여할 가능성이 가장 높은 시점에 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **점진적 게재 늘리기**
 
@@ -244,7 +244,7 @@ AI를 사용하여 각 고객이 참여할 가능성이 가장 높은 시점에 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **요일별 타기팅**
 
@@ -254,7 +254,7 @@ AI를 사용하여 각 고객이 참여할 가능성이 가장 높은 시점에 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **멀티채널 캠페인**
 
@@ -264,7 +264,7 @@ AI를 사용하여 각 고객이 참여할 가능성이 가장 높은 시점에 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **모든 사용 사례**
 
@@ -282,7 +282,7 @@ AI를 사용하여 각 고객이 참여할 가능성이 가장 높은 시점에 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **고급 표현식**
 
@@ -292,7 +292,7 @@ AI를 사용하여 각 고객이 참여할 가능성이 가장 높은 시점에 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **표준 시간대 관리**
 
@@ -302,7 +302,7 @@ AI를 사용하여 각 고객이 참여할 가능성이 가장 높은 시점에 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **테스트 모드 및 시험 실행**
 
@@ -312,7 +312,7 @@ AI를 사용하여 각 고객이 참여할 가능성이 가장 높은 시점에 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **샌드박스에 복사**
 
@@ -322,7 +322,7 @@ AI를 사용하여 각 고객이 참여할 가능성이 가장 높은 시점에 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **태그 및 구성**
 
@@ -332,7 +332,7 @@ AI를 사용하여 각 고객이 참여할 가능성이 가장 높은 시점에 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **처리량 제어**
 
@@ -349,7 +349,7 @@ AI를 사용하여 각 고객이 참여할 가능성이 가장 높은 시점에 
 
 여정의 구성 요소를 시각적으로 살펴보고 캔버스에서 여정을 작성할 때의 기본을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430355?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ➡️ **더 많은 비디오를 시청하고 싶으신가요?** [여정 비디오 튜토리얼 살펴보기](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 
@@ -363,9 +363,9 @@ AI를 사용하여 각 고객이 참여할 가능성이 가장 높은 시점에 
 
 * **캠페인(액션 및 API 트리거)**: 단순히 메시지를 대상자에게 전달하며, 예약한 일정에 따라서나 API 트리거를 통해 모든 프로필에 동시에 실행됩니다. 프로모션 캠페인, 뉴스레터, 트랜잭션 메시지에 적합합니다.
 
-* **오케스트레이션된 캠페인**: 관계형 데이터(프로필 + 제품/스토어/예약)를 사용한 복잡한 세분화를 갖춘 여러 단계의 배치 워크플로입니다. 모든 프로필이 한꺼번에 처리되며 정확한 사전 전송 수를 파악할 수 있습니다. 여러 엔터티의 데이터가 필요한 시즌 프로모션, 제품 출시, 캠페인에 적합합니다.
+* **오케스트레이션된 캠페인**: 관계형 데이터(프로필 + 제품/스토어/예약)를 사용하여 복잡한 세분화를 사용하는 여러 단계 일괄 처리 워크플로우입니다. 모든 프로필이 한꺼번에 처리되며 정확한 사전 전송 수를 파악할 수 있습니다. 여러 엔터티의 데이터가 필요한 시즌 프로모션, 제품 출시, 캠페인에 적합합니다.
 
-**주요 차이점**: 여정은 실시간 액션에 대해 개별 고객의 상태를 유지합니다. 액션/API 캠페인은 간단한 메시지를 배치 단위로 일괄 게재합니다. 오케스트레이션된 캠페인은 멀티 엔터티 세분화 기능이 있는 배치 워크플로 캔버스를 제공합니다.
+**주요 차이점**: 여정은 실시간 작업에 대한 개별 고객 상태를 유지 관리합니다. 작업 및 API 트리거 캠페인은 간단한 메시지를 일괄적으로 전달합니다. 오케스트레이션된 캠페인은 다중 엔티티 세분화 기능이 있는 일괄 워크플로우 캔버스를 제공합니다.
 
 <!-- waiting for DOCAC-13912 - [See detailed comparison](#journeys-vs-campaigns) -->
 [오케스트레이션된 캠페인에 대해 알아보기](../orchestrated/gs-orchestrated-campaigns.md)
@@ -388,7 +388,7 @@ Use the [decision guide](#decision-guide) or [comparison table](#journey-types-c
 
 ➡️ **질문이 더 있으신가요?** 세부 답변 40여 개가 있는 [전체 여정 FAQ 보기](journey-faq.md)
 
-## 도움이 필요하신가요? {#help}
+## 도움이 필요하십니까? {#help}
 
 이 링크를 사용하여 지침, 문제 해결 및 리소스를 찾을 수 있습니다.
 

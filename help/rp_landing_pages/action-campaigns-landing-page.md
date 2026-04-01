@@ -5,10 +5,10 @@ title: 액션 캠페인
 description: 액션 캠페인
 redpen-status: CREATED_||_2025-08-11_20-22-10
 exl-id: 577ba2bf-0491-4e4a-bbf3-0cfb374086c1
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
-workflow-type: ht
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 100%
+ht-degree: 84%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 100%
 
 Adobe Journey Optimizer의 액션 캠페인에서는 프로모션, 업데이트 또는 법적 고지 사항과 같은 일괄 처리에 대한 타겟팅된 메시지를 적시에 게재할 수 있습니다. 유연성을 고려하여 디자인된 이 캠페인을 사용하면 속성을 정의하고, 커뮤니케이션 채널을 선택하고, 콘텐츠를 최적화하고, 대상자를 설정하고, 게재를 예약하고, 캠페인을 쉽게 활성화할 수 있습니다. 다국어 콘텐츠를 제작하든, 여러 변형을 테스트하든, 긴급 알림을 우선하든 각 단계는 영향력 있고 개인화된 전달을 만드는 방향으로 진행됩니다. 이 섹션에서는 프로세스를 관리 가능한 단계로 나누어 계획부터 실행까지 안내함으로써 대상자의 공감을 얻고 결과를 끌어내는 캠페인을 자신 있게 디자인할 수 있습니다.
 
-## 액션 캠페인 리소스
+## 작업 캠페인 리소스
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 액션 캠페인 만들기
 
@@ -30,9 +30,9 @@ Adobe Journey Optimizer의 액션 캠페인에서는 프로모션, 업데이트 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-션 캠페인 속성 정의
+액션 캠페인 속성 정의
 
 이름 지정, 태그, 액세스 레이블과 같은 캠페인 속성을 정의하는 단계별 지침입니다.
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer의 액션 캠페인에서는 프로모션, 업데이트 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 캠페인 작업 구성
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer의 액션 캠페인에서는 프로모션, 업데이트 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 메시지 최적화 활용
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer의 액션 캠페인에서는 프로모션, 업데이트 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/pencil-alt.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/pencil-alt.svg)
 
 캠페인 콘텐츠 편집
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer의 액션 캠페인에서는 프로모션, 업데이트 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
 
 캠페인 대상자 정의
 
@@ -84,5 +84,5 @@ Adobe Journey Optimizer의 액션 캠페인에서는 프로모션, 업데이트 
 
 ## 추가 리소스
 
-- **[액션 캠페인 예약](../using/campaigns/campaign-schedule.md)** - 캠페인의 시작일 및 종료일, 빈도, 채널별 일정을 구성합니다.
-- **[액션 캠페인 검토 및 활성화](../using/campaigns/review-activate-campaign.md)** - 단계별 지침에 따라 액션 캠페인을 확인, 검토, 활성화합니다.
+- **[작업 캠페인을 예약합니다](../using/campaigns/campaign-schedule.md)** - 캠페인의 시작 및 종료 날짜, 빈도, 채널별 일정을 구성합니다.
+- **[작업 캠페인 검토 및 활성화](../using/campaigns/review-activate-campaign.md)** - 단계별 지침을 통해 작업 캠페인을 확인, 검토 및 활성화합니다.
