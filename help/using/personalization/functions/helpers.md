@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 42348a3f6fca6567b4473cffd16708c61416dbbb
+source-git-commit: 39a4893357f3b95938c5a3402516aa45277411aa
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1025'
 ht-degree: 3%
 
 ---
@@ -337,3 +337,5 @@ URL 디자인과 길이 제한에 따라 헬퍼를 링크의 한 매개 변수, 
 * 암호 해독은 랜딩 페이지, 앱 또는 API의 [!DNL Journey Optimizer] 외부에서 처리됩니다. 필요한 경우 이전 페이로드의 암호를 해독할 수 있도록 보안 팀과 함께 주요 라이프사이클 및 순환을 계획하십시오.
 
 * 새 암호화에 해지된 키를 사용할 수 없습니다. 순환 및 사용 중단에 대한 보안 정책을 따르십시오.
+
+* `Encrypt` 함수를 사용하여 리소스를 많이 사용하는 암호화 프로세스는 렌더링 시 처리량에 영향을 줄 수 있습니다.

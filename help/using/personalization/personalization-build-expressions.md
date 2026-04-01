@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: 표현식, 편집기, 정보, 시작
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 221368c7766e942143639fcd554b32f9de5ab0c9
+source-git-commit: 03d9f3a09683f53dc666c8ab28117b95c121868f
 workflow-type: tm+mt
-source-wordcount: '1569'
+source-wordcount: '1566'
 ht-degree: 10%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 10%
 
 ## 개인화를 추가할 수 있는 위치 {#where}
 
-**[!DNL Journey Optimizer]**&#x200B;개인화 추가 아이콘![&#x200B; 아이콘을 사용하여 모든 필드의 &#x200B;](assets/do-not-localize/add-perso-icon.svg)에 개인화를 추가할 수 있습니다. 자세한 내용을 보려면 아래 섹션을 확장하십시오.
+**[!DNL Journey Optimizer]**&#x200B;개인화 추가 아이콘![ 아이콘을 사용하여 모든 필드의 ](assets/do-not-localize/add-perso-icon.svg)에 개인화를 추가할 수 있습니다. 자세한 내용을 보려면 아래 섹션을 확장하십시오.
 
 +++메시지
 
@@ -77,7 +77,7 @@ Journey Optimizer을 사용하면 메시지에서 **URL**&#x200B;을(를) 개인
 >
 >URL 내에서 사용되는 개인화 토큰에는 공백이 지원되지 않습니다.
 
-Journey Optimizer은 일부 고객에 대해 제한된 가용성에서도 전체/기본 URL 개인화를 지원합니다. 예:
+Journey Optimizer은 전체/기본 URL 개인화도 지원합니다. 예:
 
 ```
 <a href="{{profile.social.link}}" />
@@ -85,9 +85,9 @@ Journey Optimizer은 일부 고객에 대해 제한된 가용성에서도 전체
 <a href="https://{{profile.social.baseUrl}}/profile" />
 ```
 
->[!WARNING]
+>[!NOTE]
 >
->허용된 도메인 목록을 Adobe에 먼저 제공해야 합니다.
+>전체 또는 기본 URL 개인화를 활성화하려면 Adobe에 연락하여 허용된 도메인 목록을 제공하십시오.
 
 +++
 
