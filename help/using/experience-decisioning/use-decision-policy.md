@@ -8,9 +8,9 @@ level: Experienced
 mini-toc-levels: 1
 version: Journey Orchestration
 exl-id: 35fc3cf2-1b91-4f30-ad71-f9d7d2a0291c
-source-git-commit: 36a98c7d256f732901ece7a5abd484d72b57db6e
+source-git-commit: 72a3b8696c28b2f0af1f0080b9550999f8b9ee96
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '780'
 ht-degree: 5%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 5%
 
    >[!NOTE]
    >
-   >동일한 이메일에서 여러 개의 결정 정책을 사용하는 경우(예: 머리글에 대해 한 개의 결정 정책과 바닥글에 대해 한 개의 결정 정책), 동일한 오퍼가 배치 간에 중복 제거됩니다. 각 영역에는 서로 다른 오퍼가 수신됩니다. 여러 영역에 동일한 오퍼를 표시하려면 결정 정책을 추가할 때 **[!UICONTROL 결정 출력 재사용]**&#x200B;을 사용하십시오. [의사 결정 정책을 만드는 방법을 알아봅니다](create-decision-policy.md).
+   >동일한 이메일에서 여러 개의 결정 정책을 사용하는 경우(예: 머리글에 대해 한 개의 결정 정책과 바닥글에 대해 한 개의 결정 정책), 동일한 오퍼가 배치 간에 중복 제거됩니다. 이 오퍼는 두 번 렌더링되지 않습니다. 두 번째 결정 정책은 대체 오퍼를 구성하지 않은 경우 콘텐츠를 반환하지 않고 빈 공간을 표시합니다. 이 경우 대체 오퍼가 대신 표시됩니다.
 
 >[!TAB SMS]
 
