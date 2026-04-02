@@ -9,9 +9,9 @@ role: Developer
 level: Intermediate
 version: Campaign Orchestration
 exl-id: d1fd072d-b143-4752-822f-23f98684ba80
-source-git-commit: ec52b62c2d0626b9047eebb54e0a44fee096ec05
+source-git-commit: 6bae2fd7d52dd779d272a9a39ba4dfb7e852d4a8
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '880'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 # 신호를 사용하여 오케스트레이션된 캠페인 트리거 {#trigger-signal}
 
 오케스트레이션된 캠페인을 일정에 따라 실행하는 대신 신호를 전송하여 트리거할 수 있습니다. 신호는 외부 시스템 또는 애플리케이션에서 API 호출을 통해 전송됩니다. 신호를 사용할 때 매개 변수를 전달할 수 있습니다. 그런 다음 오케스트레이션된 캠페인에서 타겟팅, 조건 또는 표현식에 사용할 수 있도록 실행 컨텍스트의 이벤트 변수로 사용할 수 있습니다.
+
+트리거 끝점(경로, 헤더, 본문, 응답 및 오류)에 대한 전체 REST 사양은 Adobe Journey Optimizer API 설명서의 [오케스트레이션된 캠페인 API 트리거](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"}를 참조하십시오.
 
 신호를 사용하여 오케스트레이션된 캠페인을 트리거하는 엔드투엔드 프로세스:
 
@@ -100,7 +102,7 @@ ht-degree: 0%
 
 1. 캠페인을 시작하려면 **[!UICONTROL 시작]**&#x200B;을 클릭하세요.
 
-1. 스케줄러에서 복사한 샘플 요청을 사용하여 트리거 API 호출을 보냅니다. <!--For the complete API reference, refer to the [Journey Optimizer API documentation](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}.-->
+1. 스케줄러에서 복사한 샘플 요청을 사용하여 트리거 API 호출을 보냅니다. 요청 및 응답 세부 정보는 [오케스트레이션된 캠페인 API 트리거](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"}를 참조하십시오.
 
 테스트 결과가 만족스러우면 [캠페인을 게시](#publish)하십시오.
 
@@ -116,7 +118,7 @@ ht-degree: 0%
 
    ![예약 구성에서 API 요청 복사](assets/triggered-oc-copy.png)
 
-1. 시스템에서 트리거 API를 호출합니다.
+1. 시스템에서 트리거 API를 호출합니다. 라이브 끝점 사양에 대해서는 [오케스트레이션된 캠페인 API 트리거](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"}를 참조하십시오.
 
    >[!IMPORTANT]
    >
