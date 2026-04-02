@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 여정, 구성, 속성
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: fe1c75aee05606e5d9bb374e4f9a9cf7b6ca7577
+source-git-commit: e179f5a503b93cbc01c812d8bcecaeb808560394
 workflow-type: tm+mt
-source-wordcount: '3223'
-ht-degree: 13%
+source-wordcount: '3257'
+ht-degree: 12%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties"
 >title="여정 속성"
->abstract="이 섹션은 여정 속성을 보여 줍니다. 기본적으로 읽기 전용 매개변수는 숨겨져 있습니다. 사용 가능한 설정은 여정 상태, 권한 및 제품 구성에 따라 다릅니다."
+>abstract="이름, 태그, 시작 규칙, 시간대, 날짜, 시간 초과 및 충돌 관리를 포함하여 이 여정에 대한 전역 설정을 구성합니다. 읽기 전용 매개 변수는 기본적으로 숨겨져 있습니다. 사용 가능한 옵션은 여정 상태, 사용 권한 및 제품 구성에 따라 다릅니다."
 
 ## 여정 속성 액세스 {#access-properties}
 
@@ -294,11 +294,16 @@ ht-degree: 13%
 
 ## 병합 정책 {#merge-policies}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties_merge_policy"
+>title="병합 정책"
+>abstract="병합 정책은 선택한 이벤트 또는 대상을 기반으로 자동으로 검색됩니다. 이 병합 정책은 전체 여정에서 사용됩니다."
+
 [!DNL Adobe Journey Optimizer]이(가) [!DNL Adobe Experience Platform]에서 프로필 데이터를 검색하는 동안 병합 정책을 사용합니다. 여정 유형에 따라 서로 다른 병합 정책이 사용됩니다.
 
-* 대상자 읽기 또는 대상자 자격 여정: 대상자의 병합 정책이 사용됩니다
-* 단일 이벤트 여정에서: 기본 병합 정책이 사용됩니다
-* 비즈니스 이벤트 여정: 다음 대상 읽기 활동에서 타깃팅된 대상의 병합 정책이 사용됩니다
+* **[대상 읽기](read-audience.md)** 또는 **[대상 자격](audience-qualification-events.md)** 여정에서: 대상의 병합 정책이 사용됩니다.
+* **[단일 이벤트](../event/about-events.md)** 여정에서: 기본 병합 정책이 사용됩니다.
+* **[비즈니스 이벤트](../event/about-creating-business.md)** 여정에서: 다음 대상자 읽기 활동에서 타깃팅된 대상의 병합 정책이 사용됩니다.
 
 [!DNL Adobe Journey Optimizer]은(는) 전체 여정 동안 사용된 병합 정책을 적용합니다. 따라서 한 여정에서 여러 대상을 사용하는 경우(예: [`inAudience`개의 함수](functions/functioninaudience.md)에서 사용) 여정에서 사용하는 병합 정책과 일치하지 않으면 오류가 발생하고 게시가 차단됩니다. 하지만 메시지 개인화에 일관되지 않은 대상이 사용되면 불일치에도 불구하고 경고가 발생하지 않습니다. 이러한 이유로, 메시지 개인화에 이 대상자를 사용할 때에는 대상자와 연결된 병합 정책을 확인하는 것이 좋습니다.
 

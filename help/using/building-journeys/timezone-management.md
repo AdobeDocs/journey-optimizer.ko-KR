@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 시간대, 속성, 여정, 조건, 시간, 날짜, 사용자 정의
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 8197b84851817e886dd6d5b26f16730980c13a79
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 27%
+source-wordcount: '373'
+ht-degree: 9%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 27%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_time_zone"
->title="시간대"
+>title="여정 시간대"
 >abstract="여정의 시간대를 선택합니다. 고정된 시간대를 사용하면 여정에 참여하는 모든 개인 사용자에게 동일하게 적용됩니다."
 
 
@@ -54,13 +54,13 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_profile_time_zone"
 >title="프로필 시간대 사용"
->abstract="대기 및 조건 활동에서 실시간 프로필 시간대를 사용하려면 확인란을 선택하십시오. 프로필에 대해 시간대가 정의된 경우 여정은 해당 시간대를 검색하고 이를 사용하게 됩니다. 그렇지 않은 경우 시간대는 위의 시간대 필드에 정의된 시간대가 됩니다."
+>abstract="**대기** 및 **조건** 활동에서 실시간 프로필 시간대를 사용하려면 이 옵션을 선택하세요. 여정에 대해 시간대가 정의된 경우 시간대를 검색하여 프로필에서 사용합니다. 그렇지 않은 경우 시간대는 위의 시간대 필드에 정의된 시간대입니다."
 
 여정의 시작 이벤트에 네임스페이스가 있어 여정이 [!DNL Adobe Experience Platform]의 실시간 고객 프로필 서비스에 연결할 수 있는 경우 프로필 수준에서 정의된 시간대를 사용할 수 있습니다. 이렇게 하려면 **속성**&#x200B;에서 **대기 및 조건에 프로필 시간대 사용**&#x200B;을 확인하세요. 이 옵션은 기본적으로 선택되어 있지 않습니다.
 
-프로필에 대해 시간대가 정의된 경우 여정은 해당 시간대를 검색하고 이를 사용하게 됩니다. 시간대가 정의되어 있지 않으면 사용된 시간대는 시간대 필드에 정의된 시간대가 됩니다.
+여정에 대해 시간대가 정의된 경우 시간대를 검색하여 프로필에서 사용합니다. 시간대가 정의되어 있지 않으면 시간대 필드에 정의된 시간대가 사용됩니다.
 
-![개인 맞춤화된 타이밍에 대한 데이터 원본의 표준 시간대 구성 프로필](assets/journey73.png)
+![개인화된 타이밍에 대한 데이터 원본의 프로필 시간대 구성](assets/journey73.png)
 
 >[!NOTE]
 >
