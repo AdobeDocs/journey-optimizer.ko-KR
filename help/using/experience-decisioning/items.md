@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-source-git-commit: 8d1de57221e73e8ffeea71377e1e9cd8e5ff6f0e
+source-git-commit: 559feb1d45abb287d5f4b0e2abae8f2ec663713b
 workflow-type: tm+mt
-source-wordcount: '2214'
-ht-degree: 14%
+source-wordcount: '2159'
+ht-degree: 15%
 
 ---
 
@@ -48,23 +48,11 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
 
 1. **태그** 필드를 사용하면 Adobe Experience Platform 통합 태그를 의사 결정 항목에 할당할 수 있습니다. 이를 통해 손쉽게 분류하고 검색을 개선할 수 있습니다. [태그 작업 방법 알아보기](../start/search-filter-categorize.md#tags)
 
-1. 여러 모바일 장치 모델에 대해 서로 다른 컨텐츠를 표시하려는 경우 등, 조각을 사용하여 의사 결정 항목에 여러 컨텐츠를 추가할 수 있습니다. [조각에 대해 자세히 알아보기](../content-management/fragments.md)
+1. [조각](../content-management/fragments.md)을(를) 사용하여 결정 항목에 여러 콘텐츠를 추가합니다. 예를 들어 여러 모바일 장치 모델에 대해 서로 다른 콘텐츠를 표시하려는 경우 이러한 작업을 수행할 수 있습니다. 그런 다음 의사 결정 정책에서 이러한 조각을 활용할 수 있습니다. [방법 알아보기](fragments-decision-policies.md)
 
    >[!AVAILABILITY]
    >
-   >이 기능은 현재 코드 기반 경험 채널에서만 사용할 수 있습니다.
-
-   **[!UICONTROL 조각]** 섹션에서 사용할 게시된 조각을 선택하고 참조 키를 할당하십시오. 그런 다음 의사 결정 정책에서 이러한 조각을 활용할 수 있습니다. [방법 알아보기](fragments-decision-policies.md)
-
-   ![](assets/item-fragments.png){width=70%}
-
-   게시된 조각만 선택하고 결정 항목에 최대 6개의 조각을 추가할 수 있습니다.
-
-   >[!WARNING]
-   >
-   >현재 [식 조각](../personalization/use-expression-fragments.md)만 지원됩니다.
-   >
-   >중첩된 조각(다른 조각을 참조하는 조각)은 사용할 수 없습니다. 해당 조각을 추가하면 결정 항목의 [승인](#approve)이(가) 실패합니다.
+   >이 기능은 **코드 기반 경험** 및 **이메일** 채널에 대해 제한된 가용성으로 사용할 수 있습니다. 액세스 권한을 요청하려면 Adobe 담당자에게 문의하십시오.
 
 1. 사용자 지정 특성을 지정합니다(선택 사항). 사용자 정의 속성은 결정 항목에 할당할 수 있으며 필요에 맞게 조정된 특정 속성입니다. 의사 결정 항목의 카탈로그 스키마에 정의됩니다. [카탈로그 작업 방법 알아보기](catalogs.md)
 
@@ -78,8 +66,8 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
 >abstract="기본적으로 모든 프로필은 결정 항목을 수신할 수 있지만 대상자 또는 규칙을 사용하여 항목을 특정 프로필로만 제한할 수 있습니다."
 
 <!--
->"additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
