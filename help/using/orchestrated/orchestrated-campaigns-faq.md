@@ -5,9 +5,9 @@ title: 오케스트레이션된 캠페인 FAQ
 description: Journey Optimizer 오케스트레이션 캠페인에 대한 FAQ
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 6bae2fd7d52dd779d272a9a39ba4dfb7e852d4a8
+source-git-commit: 82f455bf3707d3701ea602569c5bd7e3cee326fc
 workflow-type: tm+mt
-source-wordcount: '1969'
+source-wordcount: '1960'
 ht-degree: 13%
 
 ---
@@ -143,7 +143,7 @@ Yes. Campaign orchestration is natively integrated with:
 
 +++ 게시하기 전에 신호 트리거 오케스트레이션된 캠페인을 어떻게 테스트합니까?
 
-캠페인이 **초안**&#x200B;에 있는 동안 일정에서 **매개 변수**&#x200B;을(를) 정의하고 각각에 대해 **테스트 값**&#x200B;을(를) 제공하여 테스트할 수 있습니다. 워크플로우를 시작한 다음 트리거 API(예약 구성의 샘플 요청 또는 동일한 끝점이 있는 자체 요청)를 호출하여 해당 테스트 값으로 캠페인을 실행합니다. [신호 트리거 캠페인을 완료하고 테스트하는 방법을 알아보세요](trigger-orchestrated-campaign.md#build-and-test). 트리거 API 참조에 대해서는 [오케스트레이션된 캠페인 API 트리거](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"}를 참조하십시오.
+캠페인이 **초안**&#x200B;에 있는 동안 일정에서 **매개 변수**&#x200B;을(를) 정의하고 각각에 대해 **테스트 값**&#x200B;을(를) 제공하여 테스트할 수 있습니다. 워크플로우를 시작한 다음 트리거 API(예약 구성의 샘플 요청 또는 동일한 끝점을 가진 자체 요청 사용)를 호출하여 해당 테스트 값으로 캠페인을 실행합니다. [신호 트리거 캠페인을 완료하고 테스트하는 방법을 알아보세요](trigger-orchestrated-campaign.md#build-and-test).
 
 +++
 
