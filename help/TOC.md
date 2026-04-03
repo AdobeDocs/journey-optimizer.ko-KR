@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4f7e36a6cc19e4138e867950e34c5a5e6452b364
+source-git-commit: fec28b40d06da6fbf880c97de11199f097727362
 workflow-type: tm+mt
-source-wordcount: '3173'
+source-wordcount: '3168'
 ht-degree: 95%
 
 ---
@@ -358,7 +358,7 @@ ht-degree: 95%
          + [웹 채널 전제 조건](using/web/web-prerequisites.md)
          + [웹 하위 도메인 구성](using/web/web-delegated-subdomains.md)
          + [웹 채널 구성 만들기](using/web/web-configuration.md)
-      + [웹 경험 만들기 &#x200B;](using/web/create-web.md)
+      + [웹 경험 만들기 ](using/web/create-web.md)
       + 웹 페이지 작성 {#author-web-pages}
          + [웹 페이지 작성](/help/rp_landing_pages/author-web-pages-landing-page.md)
          + [웹 디자이너를 사용하여 작업](using/web/web-visual-editor.md)
@@ -413,7 +413,7 @@ ht-degree: 95%
          + [Journey Optimizer에서 라이브 활동 구성](using/mobile-live/mobile-live-configuration.md)
          + [라이브 활동 SDK 통합 구성](using/mobile-live/mobile-live-configuration-sdk.md)
 + 콘텐츠 관리 {#content-management}
-   + [콘텐츠 관리 &#x200B;](/help/rp_landing_pages/content-management-landing-page.md)
+   + [콘텐츠 관리 ](/help/rp_landing_pages/content-management-landing-page.md)
    + 개인화 {#personalization}
       + [개인화](/help/rp_landing_pages/personalization-landing-page.md)
       + [개인화 시작](using/personalization/personalize.md)
@@ -889,9 +889,8 @@ ht-degree: 95%
       + [PTR 레코드 액세스 및 편집](using/configuration/ptr-records.md)
       + [IP 풀 만들기](using/configuration/ip-pools.md)
    + IP 준비 계획 구현 {#implement-ip-warmup-plan}
-      + [IP 준비 계획 구현](/help/rp_landing_pages/implement-ip-warmup-plan-landing-page.md)
-      + [IP 워밍업 게재 가능성 안내서](using/configuration/ip-warmup-deliverability-guide.md)
       + [IP 준비 계획 시작](using/configuration/ip-warmup-gs.md)
+      + [IP 워밍업 게재 가능성 안내서](using/configuration/ip-warmup-deliverability-guide.md)
       + [IP 워밍업 캠페인 만들기](using/configuration/ip-warmup-campaign.md)
       + [IP 워밍업 플랜 만들기](using/configuration/ip-warmup-plan.md)
       + [IP 준비 계획 실행](using/configuration/ip-warmup-execution.md)
