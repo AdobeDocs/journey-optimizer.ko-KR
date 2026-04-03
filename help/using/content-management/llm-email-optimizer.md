@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # AI 받은 편지함에 대한 이메일 텍스트 최적화 {#email-text-optimizer}
 
-[!DNL Adobe Journey Optimizer]에는 개선된 AI 지원 받은 편지함 환경(예: [의 ](../email/text-version-email.md) 및 [!DNL Apple Intelligence])을 위해 메시지의 [!DNL Google Gemini]텍스트 버전[!DNL Gmail]을 구성하는 데 도움이 되는 전자 메일 채널 기능이 포함되어 있으므로 질문에 답변하고 콘텐츠를 기반으로 메일을 보다 정확하게 요약하여 더 나은 결과를 얻을 수 있습니다.
+[!DNL Adobe Journey Optimizer]에는 개선된 AI 지원 받은 편지함 환경(예: [의 &#x200B;](../email/text-version-email.md) 및 [!DNL Apple Intelligence])을 위해 메시지의 [!DNL Google Gemini]텍스트 버전[!DNL Gmail]을 구성하는 데 도움이 되는 전자 메일 채널 기능이 포함되어 있으므로 질문에 답변하고 콘텐츠를 기반으로 메일을 보다 정확하게 요약하여 더 나은 결과를 얻을 수 있습니다.
 
 >[!NOTE]
 >
