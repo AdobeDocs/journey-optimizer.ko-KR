@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 43444cc8c49bd50dce54995c70b4fc8ef0976119
+source-git-commit: e58e9e93cc308c2e94ea94b5c6574dd8a2266bd6
 workflow-type: tm+mt
-source-wordcount: '1943'
+source-wordcount: '1992'
 ht-degree: 21%
 
 ---
@@ -27,18 +27,9 @@ ht-degree: 21%
 
 [!DNL Adobe Journey Optimizer]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko){target="_blank"}를 참조하십시오.
 
-## 2026년 3월 릴리스 정보 {#march-26-rn}
+## 2026년 4월 업데이트 {#april-26-rn}
 
-[새 기능](#march-26-features) 및 [개선 사항](#march-26-improv) 섹션에서는 이미 사용 가능한 기능을 다룹니다. [준비 중](#coming-soon) 섹션에는 3월 말에 릴리스될 예정인 기능 및 개선 사항이 나와 있습니다.
-
-<!--
-**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
-
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
-
-**릴리스 날짜**: 2026년 3월 24~25일
-
-### 새로운 기능 {#march-26-features}
+### 새로운 기능 {#april-26-features}
 
 <table>
 <thead>
@@ -58,6 +49,31 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 </tr>
 </tbody>
 </table>
+
+### 개선 사항 {#april-26-improv}
+
+#### Adobe Experience Manager 통합
+
+<!--* **Adobe Experience Manager Content Fragment context while authoring** - Your Content Fragment selection stays active as you move between text fields and content blocks, so you can add more fragment fields without reopening **Open AEM Content advisor** each time. [Read more](../integrations/aem-fragments.md)
+
+  Availability date: April 1, 2026-->
+
+* **Adobe Experience Manager 콘텐츠 조각 변형 지원** - 로케일 및 다국어 시나리오에 대한 개선된 처리로 Adobe Experience Manager 콘텐츠 조각을 삽입할 때 **콘텐츠 조각 변형**(예: 언어 또는 채널 변형)을 선택할 수 있습니다. [자세히 보기](../integrations/aem-fragments.md#aem-variations)
+
+  가용성 일자: 2026년 4월 3일 토요일
+
+## 2026년 3월 릴리스 정보 {#march-26-rn}
+
+[새 기능](#march-26-features) 및 [개선 사항](#march-26-improv) 섹션에서는 이미 사용 가능한 기능을 다룹니다. [준비 중](#coming-soon) 섹션에는 3월 말에 릴리스될 예정인 기능 및 개선 사항이 나와 있습니다.
+
+<!--
+**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
+
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+
+**릴리스 날짜**: 2026년 3월 24~25일
+
+### 새로운 기능 {#march-26-features}
 
 <table>
 <thead>
@@ -241,7 +257,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p><strong>Adobe Experience Platform Agent Orchestrator</strong>에서 제공하는 <strong>Journey Agent</strong>은(는) Journey Optimizer에서 사용할 수 있으며 자연어 인터페이스를 통해 여정을 분석할 수 있도록 해줍니다. 이제 Journey Agent에서 직접 채널별 콘텐츠를 생성하고 관리할 수도 있습니다. 또한 이메일 및 푸시와 같은 채널용 콘텐츠를 만들고, 템플릿을 적용하고 미리 보고, 프롬프트를 통해 색조와 스타일을 개선하고, <strong>콘텐츠 Designer</strong>에서 콘텐츠를 열어 상황에 맞게 편집할 수 있습니다.</p>
 <p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
-<p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=ko" target="_blank">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html" target="_blank">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2026년 3월 4일 목요일</p>
 </td>
 </tr>
@@ -386,7 +402,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p><strong>받은 편지함</strong>은(는) 콘텐츠 카드에서 사용할 수 있는 모바일 기능으로, 이를 통해 고객은 앱 또는 웹 사이트 내에서 중앙 위치를 만들어 사용자에게 보낸 메시지를 표시할 수 있습니다. 따라서 메시지가 종료된 후에도 계속 액세스할 수 있도록 보장함으로써 마케팅 커뮤니케이션의 수명을 연장할 수 있습니다.</p>
-<p>가용성 일자: 2026년 4월 3일 토요일</p>
+<p>가용성 일자: 2026년 4월 7일 수요일</p>
 </td>
 </tr>
 </tbody>
@@ -407,7 +423,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성). <a href="../building-journeys/optimize.md">자세히 알아보기</a></p>
 <p><img src="assets/do-not-localize/optimize.gif"></p>
 <p>일반 가용성의 일부로 이 릴리스에서는 단일 여정에 대해 <strong>실험 유형</strong> 선택(A/B 또는 multi-armed bandit) 및 <strong>승자 크기 조정</strong>을 도입합니다.</p>
-<p>가용성 일자: 2026년 4월 3일 토요일</p>
+<p>가용성 일자: 2026년 4월 7일 수요일</p>
 </td>
 </tr>
 </tbody>
