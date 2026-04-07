@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 활동, 조건, 캔버스, 여정, 최적화
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+source-git-commit: 8aeb3e3769e28419982c28620e5b141778d2fa67
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 3%
@@ -34,13 +34,13 @@ ht-degree: 3%
 
 ![여정 활동 팔레트의 최적화 단추](assets/journey-optimize.png)
 
-## 여정 경로란 무엇입니까?
+## 여정 경로란 무엇입니까? {#journey-path}
 
 여정 **path**&#x200B;은(는) 통신 순서 지정, 통신 시간, 통신 횟수 또는 이 세 변수의 조합으로 구성될 수 있습니다.
 
 예를 들어 한 경로에는 하나의 이메일이 포함될 수 있고, 다른 경로에는 두 개의 SMS 메시지가 포함될 수 있으며, 세 경로에는 이메일, 2시간의 대기 노드, SMS 메시지가 포함될 수 있습니다.
 
-## 여정을 최적화하는 세 가지 방법
+## 여정을 최적화하는 세 가지 방법 {#optimization-methods}
 
 **최적화** 활동을 통해 여정 경로에서 다음 작업을 수행할 수 있습니다.
 
@@ -54,14 +54,14 @@ ht-degree: 3%
 
 * [조건 적용](conditions.md) - 데이터 원본, 시간, 날짜, 분할 비율 또는 프로필 상한 등 특정 조건을 기준으로 조건부 경로를 만듭니다. 이는 이전 조건 활동과 동일합니다.
 
-## 작동 방식
+## 작동 방식 {#how-it-works}
 
 여정이 라이브되면 정의된 기준에 따라 프로필이 평가되고 일치하는 기준에 따라 여정에서 적절한 경로로 전송됩니다.
 
-## 다음 단계
+## 다음 단계 {#next-steps}
 
 사용 사례에 가장 적합한 최적화 방법을 선택합니다.
 
-* 어떤 경로가 가장 성과가 좋은지 테스트하고 학습하시겠습니까? →0&rbrace;경로 실험[(으)로 이동](path-experimentation.md)
-* 서로 다른 대상을 특정 경로로 전송하시겠습니까? →0&rbrace;경로 타깃팅[(으)로 이동](path-targeting.md)
-* 조건부 논리(if/then 시나리오)를 생성하시겠습니까? →0&rbrace;조건[(으)로 이동](conditions.md)
+* 어떤 경로가 가장 성과가 좋은지 테스트하고 학습하시겠습니까? →0}경로 실험[(으)로 이동](path-experimentation.md)
+* 서로 다른 대상을 특정 경로로 전송하시겠습니까? →0}경로 타깃팅[(으)로 이동](path-targeting.md)
+* 조건부 논리(if/then 시나리오)를 생성하시겠습니까? →0}조건[(으)로 이동](conditions.md)
