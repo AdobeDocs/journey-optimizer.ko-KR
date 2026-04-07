@@ -6,9 +6,9 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: a26bb3bd-d593-466b-9852-94e194d6d2b7
-source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
+source-git-commit: d84cc0f4d9226876e55e37409a685550fe0c9050
 workflow-type: tm+mt
-source-wordcount: '1467'
+source-wordcount: '1480'
 ht-degree: 12%
 
 ---
@@ -129,6 +129,10 @@ ht-degree: 12%
    ![](assets/content-card-create-2.png)
 
 1. [콘텐츠 카드 구성](content-card-configuration.md)을 선택하거나 새로 만듭니다.
+
+1. 이 [콘텐츠 카드](../inbox/inbox-configuration.md)의 받은 편지함 표면을 정의하는 **받은 편지함 구성**&#x200B;을 선택하십시오.
+
+   ![](assets/content-card-create-2.png)
 
 1. 메시지의 내용을 테스트하려면 **[!UICONTROL 실험 만들기]**&#x200B;를 클릭하세요. 이를 통해 샘플 모집단에서 여러 게재 변수를 테스트하여 타겟팅된 대상자에게 가장 큰 영향을 미치는 처리를 결정할 수 있습니다. [콘텐츠 실험에 대해 자세히 알아보세요](../content-management/content-experiment.md).
 
