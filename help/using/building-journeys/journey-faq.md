@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: 여정, 질문, 답변, 문제 해결, 도움말, 안내서, 오케스트레이션
 version: Journey Orchestration
 exl-id: cac9fc24-b78e-48d9-9c0c-f43181246f6f
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+source-git-commit: 7a06b03bda6d07f00f4453397b035073ad1354a4
 workflow-type: tm+mt
 source-wordcount: '5191'
 ht-degree: 0%
@@ -606,7 +606,7 @@ Learn more about [action responses](../action/action-response.md).
 * 채널 구성을 관리하려면 [채널 표면](../configuration/channel-surfaces.md)을 사용하십시오.
 * 모든 경로를 테스트하여 적절한 메시지 전달 보장
 
-[조건](conditions.md), [메시지 동작](journeys-message.md) 및 [채널 선택](../channels/gs-channels.md)에 대해 자세히 알아보세요.
+[조건](conditions.md), [메시지 동작](journey-action.md) 및 [채널 선택](../channels/gs-channels.md)에 대해 자세히 알아보세요.
 
 +++
 
@@ -931,7 +931,7 @@ Journey Optimizer은 기본적으로 [!DNL Adobe Campaign]과(와) 통합되어 
 
 * 게시하기 전에 성능을 확인하려면 [테스트 모드](testing-the-journey.md) 및 [시험 실행](journey-dry-run.md)을 사용하십시오.
 * [사용자 지정 작업](using-custom-actions.md)을 통해 외부 API 호출을 최소화하여 대기 시간과 서드파티 시스템에 대한 종속성을 방지하십시오.
-* 가능한 경우 외부 호출을 수행하는 대신 [!DNL Adobe Experience Platform]데이터 집합 조회[를 사용하여 &#x200B;](dataset-lookup.md)에서 자주 사용하는 데이터를 저장합니다.
+* 가능한 경우 외부 호출을 수행하는 대신 [!DNL Adobe Experience Platform]데이터 집합 조회[를 사용하여 ](dataset-lookup.md)에서 자주 사용하는 데이터를 저장합니다.
 * [메시지 게재](journey-action.md) 성능 검토 및 최적화
 
 [보호 기능 및 제한 사항](../start/guardrails.md)에 대해 자세히 알아보세요.
