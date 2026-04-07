@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 9ef6b02c-0a17-4b46-bcd3-8e922eef059a
-source-git-commit: 7873c333cbe5002695a11d1edaaf9e15f74a6d3f
+source-git-commit: d2110b995bc26df861825cdd49ca2fd39f904442
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
@@ -21,10 +21,10 @@ ht-degree: 0%
 요구 사항에 맞는 모델을 선택하십시오.
 
 - Firefly Image Model 4에서 제공하는 **[!UICONTROL Adobe 모델]**&#x200B;은(는) 즉시 제공되며 추가 설정 없이 즉각적인 이미지 생성에 사용할 수 있습니다.
-- Gemini 2.5 Flash에서 제공하는 **[!UICONTROL 파트너 모델]**&#x200B;은(는) 특정 사용 사례에 특화된 기능을 제공합니다.
+- Gemini 2.5 Flash에서 제공하는 **[!UICONTROL 파트너 모델]**&#x200B;은(는) 특정 사용 사례에 특화된 기능을 제공합니다. AI Assistant의 이미지에 대해 **텍스트 오버레이**&#x200B;와 함께 **Gemini**&#x200B;를 사용하는 단계별 워크플로에 대해서는 [텍스트 오버레이 이미지에 대한 생성 모델로 Gemini 사용](generative-uc.md#generative-gemini)을 참조하십시오.
 - **[!UICONTROL 사용자 지정 모델]**&#x200B;은(는) 자신의 자산에 대해 교육되고 조직에서 추가한 브랜드별 모델입니다.
 
-  **[!UICONTROL Adobe Firefly 설명서]**&#x200B;의 [사용자 지정 모델](https://helpx.adobe.com/kr/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html)에 대해 자세히 알아보기
+  **[!UICONTROL Adobe Firefly 설명서]**&#x200B;의 [사용자 지정 모델](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html)에 대해 자세히 알아보기
 
 구성하고 나면 콘텐츠에서 이미지를 만들 때 생성 모델을 선택할 수 있습니다. [이미지 생성에 대해 자세히 알아보세요](generative-image.md).
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 맞춤형 Firefly 모델 공급자를 생성하면 기본 모델 이상으로 AI 기능을 확장하고 생성된 콘텐츠가 브랜드 고유의 미적 및 요구 사항을 일관되게 반영하도록 할 수 있습니다.
 
-➡️ [사용자 지정 모델을 교육하는 방법 알아보기](https://helpx.adobe.com/kr/firefly/web/work-with-enterprise-features/train-custom-models/train-firefly-custom-models.html)
+➡️ [사용자 지정 모델을 교육하는 방법 알아보기](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/train-firefly-custom-models.html)
 
 1. **[!UICONTROL 브랜드]** 메뉴에서 **[!UICONTROL 생성 모델]** 탭에 액세스하여 **[!UICONTROL 모델 추가]**&#x200B;를 클릭합니다.
 
@@ -75,10 +75,10 @@ ht-degree: 0%
    +++ Firefly 모델 ID 찾기
 
    1. Firefly 웹 사이트에 액세스하여 훈련된 모델로 이동합니다.
-   1. [미리 보기 및 테스트](https://helpx.adobe.com/kr/firefly/web/work-with-enterprise-features/train-custom-models/train-firefly-custom-models.html#preview-and-test) 메뉴에 액세스합니다.
+   1. [미리 보기 및 테스트](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/train-firefly-custom-models.html#preview-and-test) 메뉴에 액세스합니다.
    1. URL에서 `customModelId=` 뒤에 있는 값을 찾습니다. 모델 ID로 사용하려면 이 값을 복사하십시오.
 
-   자세한 내용은 [Firefly 사용자 지정 모델 설명서](https://helpx.adobe.com/kr/firefly/web/work-with-enterprise-features/train-custom-models/manage-custom-models.html)를 참조하세요.
+   자세한 내용은 [Firefly 사용자 지정 모델 설명서](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/manage-custom-models.html)를 참조하세요.
 
    ![](assets/gen-model-manage-10.png){zoomable="yes"}
 
