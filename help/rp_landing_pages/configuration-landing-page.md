@@ -5,22 +5,28 @@ title: 채널 구성
 description: 채널 구성
 redpen-status: CREATED_||_2025-08-11_21-10-00
 exl-id: 4cd5f097-1c17-4cc5-90c4-bc540dc6acf4
-source-git-commit: 6697d82a5d78600638f416d4313b65023e185c9a
+source-git-commit: 7a89b5011c4cf64b95066d62ba1b8fe43ea8ba32
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 100%
+source-wordcount: '318'
+ht-degree: 77%
 
 ---
 
 # 채널 구성{#section-overview}
 
-Adobe Journey Optimizer의 채널 구성을 통해 이메일, SMS, 푸시 알림, 웹 등 다양한 채널에서 메시지를 게재하는 방식을 관리하여 효율적인 맞춤형 커뮤니케이션을 보장할 수 있습니다. 기술 매개 변수를 설정하든 하위 도메인을 구성하든 IP 준비 계획을 통해 이메일 전달성을 최적화하든, 각 단계는 메시지의 성과와 규정 준수를 향상시키도록 설계되었습니다. 또한 이메일 평판을 모니터링하고 제외 목록을 관리하고 감사 목적으로 메시지를 보관하기 위한 도구도 찾을 수 있습니다. 각 주제를 자세히 살펴보고 이 구성이 함께 작동하는 방식을 파악하면 매끄럽고 영향력 있는 고객 경험을 만드는 데 도움이 됩니다.
+Adobe Journey Optimizer의 채널 구성을 통해 이메일, SMS, 푸시 알림 및 웹과 같은 다양한 채널에서 메시지가 전달되는 방식을 관리하여 맞춤형의 효율적인 커뮤니케이션을 보장합니다.
+
+기술 매개 변수를 설정하거나, 하위 도메인을 구성하거나, IP 준비 계획을 통해 이메일 전달성을 최적화하는 등, 각 단계는 메시지 성능 및 규정 준수를 향상시키도록 설계되었습니다.
+
+또한 이메일 평판을 모니터링하고, 제외 목록을 관리하고, 감사 목적으로 메시지를 보관할 수 있는 도구도 찾을 수 있습니다.
+
+각 주제를 자세히 살펴보고 이 구성이 함께 작동하는 방식을 파악하면 매끄럽고 영향력 있는 고객 경험을 만드는 데 도움이 됩니다.
 
 ## 채널 구성
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 채널 구성 시작
 
@@ -30,7 +36,7 @@ Adobe Journey Optimizer의 채널 구성을 통해 이메일, SMS, 푸시 알림
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 채널 구성 설정 및 관리
 
@@ -40,7 +46,7 @@ Adobe Journey Optimizer의 채널 구성을 통해 이메일, SMS, 푸시 알림
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 가이드 채널 설정
 
@@ -50,7 +56,7 @@ Adobe Journey Optimizer의 채널 구성을 통해 이메일, SMS, 푸시 알림
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 이메일 하위 도메인 위임 및 관리
 
@@ -59,18 +65,18 @@ Adobe Journey Optimizer의 채널 구성을 통해 이메일, SMS, 푸시 알림
 [이메일 하위 도메인 위임](delegate-subdomains-landing-page.md)
 :::
 
-<!--:::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
-Implement an IP Warmup Plan
+IP 준비 계획 구현
 
-Create and execute IP warmup plans to establish sender reputation and enhance email deliverability.
+IP 준비 계획을 만들고 실행하여 발신자로서의 평판을 확립하고 이메일 전달성을 향상시킵니다.
 
-[Learn about IP warmup plans](implement-ip-warmup-plan-landing-page.md)
-:::-->
+[IP 준비 계획에 대해 알아보기](ip-warmup-gs.md)
+:::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 이메일 전달성 및 평판 모니터링
 
