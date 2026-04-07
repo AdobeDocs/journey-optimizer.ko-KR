@@ -7,10 +7,10 @@ role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 version: Journey Orchestration
-source-git-commit: 36a98c7d256f732901ece7a5abd484d72b57db6e
+source-git-commit: 6697d82a5d78600638f416d4313b65023e185c9a
 workflow-type: tm+mt
-source-wordcount: '685'
-ht-degree: 26%
+source-wordcount: '658'
+ht-degree: 27%
 
 ---
 
@@ -49,9 +49,8 @@ ht-degree: 26%
 
 ## 가드레일 및 제한 사항
 
-* **지원되는 채널** - 의사 결정 정책은 모든 고객이 코드 기반 경험, SMS 및 푸시 알림에 사용할 수 있습니다. 이메일 채널에 대한 의사 결정은 제한된 가용성에서만 사용할 수 있습니다.
+* **지원되는 채널** - 의사 결정 정책은 코드 기반 경험, SMS, 푸시 알림 및 전자 메일에 사용할 수 있습니다.
 * **푸시 알림 SDK 요구 사항** - 푸시 알림을 사용하는 Experience Decisioning에는 Mobile SDK의 특정 버전이 필요합니다. 이 기능을 구현하기 전에 [릴리스 정보](https://developer.adobe.com/client-sdks/home/release-notes/){target="_blank"}를 확인하여 필요한 버전을 식별하고 그에 따라 업그레이드했는지 확인하십시오. [이 섹션](https://developer.adobe.com/client-sdks/home/current-sdk-versions/){target="_blank"}에서 사용 가능한 플랫폼에 대한 모든 SDK 버전을 볼 수도 있습니다.
-* **전자 메일 미러 페이지** - 지금은 결정 항목이 전자 메일 미러 페이지에 렌더링되지 않습니다.
 * **추적 및 링크 유형** - 의사 결정에 의해 생성된 링크를 추적하려면 스키마에서 &quot;Decisioning Assets&quot;로 정의하십시오. 속성 기반 링크는 추적할 수 없습니다.
 * **전자 메일에 의사 결정 정책 중첩** - 이미 연결된 의사 결정 정책이 있는 상위 전자 메일 구성 요소에 여러 의사 결정 정책을 중첩할 수 없습니다.
 * **의사 결정 기능이 있는 중복된 여정/캠페인** - 의사 결정 정책이 포함된 여정 또는 캠페인을 복제하는 경우 복제된 버전이 원본 전자 메일 또는 코드 기반 경험을 참조하므로 오류가 발생합니다. 항상 복제 후 결정 정책을 재구성합니다.
@@ -85,12 +84,12 @@ ht-degree: 26%
 
 Decisioning을 사용하여 대상자를 위한 이메일을 개인화하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476171?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476158?quality=12)
 
 Decisioning을 사용하여 대상을 위한 푸시 알림을 개인화하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479217?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
 
 Decisioning을 사용하여 대상자를 위한 SMS 메시지를 개인화하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479536?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479529?quality=12)
