@@ -10,10 +10,10 @@ role: Developer
 level: Experienced
 keywords: 쿼리, 컬렉션, 함수, 페이로드, 여정
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '739'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -73,16 +73,16 @@ ht-degree: 1%
 
 예를 들어 모든 앱 사용자 중에서 IOS 13(부울 표현식 &quot;IOS 13== 사용된 앱&quot;)을 사용하여 앱 사용자를 가져올 수 있습니다. 이 함수의 결과는 부울 표현식(예: 앱 사용자 1, 앱 사용자 34, 앱 사용자 432)과 일치하는 항목을 포함하는 필터링된 목록입니다.
 
-Data Source 조건 활동에서 **[!UICONTROL all]** 함수의 결과가 null인지 여부를 확인할 수 있습니다. 이 **[!UICONTROL all]** 함수를 **[!UICONTROL count]**&#x200B;와 같은 다른 함수와 결합할 수도 있습니다. 자세한 내용은 [데이터 Source 조건 활동](../condition-activity.md#data_source_condition)을 참조하세요.
+Data Source 조건 활동에서 **[!UICONTROL all]** 함수의 결과가 null인지 여부를 확인할 수 있습니다. 이 **[!UICONTROL all]** 함수를 **[!UICONTROL count]**&#x200B;와 같은 다른 함수와 결합할 수도 있습니다. 자세한 내용은 [데이터 Source 조건 활동](../conditions.md#data_source_condition)을 참조하세요.
 
 
-## 예
+## 예시
 
 >[!CAUTION]
 >
 >여정 표현식/조건에서 경험 이벤트를 사용할 수 있지만 권장되지는 않습니다. 사용 사례에서 경험 이벤트를 사용해야 하는 경우 [계산된 특성](../../audience/computed-attributes.md)과 같은 대체 메서드를 사용하거나 이벤트를 사용하여 세그먼트를 만들고 해당 세그먼트를 [`inAudience` 식에 통합](../../building-journeys/functions/functioninaudience.md)해 보십시오.
 
-**예 1:**
+**예제 1:**
 
 사용자가 특정 버전의 애플리케이션을 설치했는지 확인하려고 합니다. 이를 위해 버전이 1.0인 모바일 애플리케이션과 연결된 모든 푸시 알림 토큰을 가져옵니다. 그런 다음 **[!UICONTROL count]** 함수로 조건을 수행하여 반환된 토큰 목록에 하나 이상의 요소가 포함되어 있는지 확인합니다.
 
@@ -92,7 +92,7 @@ count(@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTo
 
 결과는 true입니다.
 
-**예 2:**
+**예제 2:**
 
 여기에서는 **[!UICONTROL count]** 함수를 사용하여 컬렉션에 푸시 알림 토큰이 있는지 확인합니다.
 
@@ -136,7 +136,7 @@ count(@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTo
 
 식의 결과는 **3**&#x200B;입니다.
 
-**예 3:**
+**예제 3:**
 
 여기에서는 개인이 지난 24시간 내에 어떤 연락도 받지 않았는지 확인합니다. 컬렉션의 두 요소를 기반으로 하는 두 개의 표현식을 사용하여 ExperiencePlatform 데이터 소스에서 검색된 경험 이벤트 컬렉션을 필터링합니다. 특히 이벤트의 타임스탬프는 **[!UICONTROL nowWithDelta]** 함수에서 반환된 dateTime과 비교됩니다.
 
@@ -148,7 +148,7 @@ count(#{ExperiencePlatform.MarltonExperience.experienceevent.all(
 
 두 조건과 일치하는 경험 이벤트가 없으면 결과는 true가 됩니다.
 
-**예 4:**
+**예제 4:**
 
 여기에서는 개인이 자습서를 시작할 수 있도록 푸시 알림을 트리거하기 위해 지난 7일 동안 애플리케이션을 최소 한 번 시작했는지 확인하려고 합니다.
 
@@ -190,7 +190,7 @@ _`<listExpression>.first(<condition>)`_
 
 _`<listExpression>.last(<condition>)`_
 
-**예 1:**
+**예제 1:**
 
 이 표현식은 버전이 1.0인 모바일 애플리케이션과 연결된 첫 번째 푸시 알림 토큰을 반환합니다.
 
@@ -200,7 +200,7 @@ _`<listExpression>.last(<condition>)`_
 
 결과는 &quot;token_1&quot;입니다.
 
-**예 2:**
+**예제 2:**
 
 이 표현식은 버전이 1.0인 모바일 애플리케이션과 연결된 마지막 푸시 알림 토큰을 반환합니다.
 
@@ -217,7 +217,7 @@ _`<listExpression>.last(<condition>)`_
 >* **[!UICONTROL first]** 함수는 가장 최근 이벤트를 반환합니다.
 >* **[!UICONTROL last]** 함수는 가장 오래된 함수를 반환합니다.
 
-**예 3:**
+**예제 3:**
 
 DMA ID에 대해 0이 아닌 값이 있는 첫 번째(가장 최근) Adobe Analytics 이벤트의 값이 602와 같은지 확인합니다.
 

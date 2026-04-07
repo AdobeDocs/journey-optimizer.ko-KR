@@ -9,7 +9,7 @@ level: Experienced
 keywords: 표현식 편집기, 데이터, 여정
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 55%
@@ -40,11 +40,11 @@ ht-degree: 55%
 
 고급 표현식 편집기를 사용하여 다음을 수행할 수 있습니다.
 
-* 데이터 소스 및 이벤트 정보에 대한 [고급 조건](../condition-activity.md#about_condition) 만들기
+* 데이터 소스 및 이벤트 정보에 대한 [고급 조건](../conditions.md#data_source_condition) 만들기
 * 사용자 지정 [대기 활동](../wait-activity.md#custom) 정의
 * 작업 매개 변수 매핑 정의
 
-가능한 경우 **[!UICONTROL 고급 모드]** / **[!UICONTROL 단순 모드]** 단추를 사용하여 두 모드 간을 전환할 수 있습니다. 단순 모드는 [여기](../condition-activity.md#about_condition)에 설명되어 있습니다.
+가능한 경우 **[!UICONTROL 고급 모드]** / **[!UICONTROL 단순 모드]** 단추를 사용하여 두 모드 간을 전환할 수 있습니다. 단순 모드는 [여기](../conditions.md#about_condition)에 설명되어 있습니다.
 
 >[!NOTE]
 >
@@ -75,7 +75,7 @@ ht-degree: 55%
   >
   >경험 이벤트를 사용하여 표현식을 만들 수 없습니다. 경험 이벤트를 사용하여 표현식/논리를 만드는 다른 방법 및 모범 사례가 [여기](../../building-journeys/exp-event-lookup.md)에서 참조됩니다.
 
-* **[!UICONTROL 대상]**: **[!UICONTROL 대상 자격]** 이벤트를 삭제한 경우 표현식에 사용할 대상을 선택하십시오. [자세히 보기](../condition-activity.md#using-a-segment)
+* **[!UICONTROL 대상]**: **[!UICONTROL 대상 자격]** 이벤트를 삭제한 경우 표현식에 사용할 대상을 선택하십시오. [자세히 보기](../conditions.md#using-a-segment)
 * **[!UICONTROL 데이터 원본]**: 데이터 원본의 필드 그룹에서 사용 가능한 필드 목록에서 선택하십시오. [자세히 보기](../../datasource/about-data-sources.md)
 * **[!UICONTROL 여정 속성]**: 이 섹션에서는 지정된 프로필의 여정과 관련된 기술 필드를 다시 그룹화합니다. [자세히 보기](journey-properties.md)
 * **[!UICONTROL 함수]**: 복잡한 필터링을 수행할 수 있는 기본 함수 목록 중에서 선택합니다. 함수는 카테고리별로 구성됩니다. [자세히 보기](functions.md)

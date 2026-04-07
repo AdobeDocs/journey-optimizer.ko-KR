@@ -9,7 +9,7 @@ level: Experienced
 keywords: 여정, 표현식, 편집기, 속성
 exl-id: eb1ab0ed-90bd-4613-b63d-b28693947db2
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 2%
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 # 여정 속성 속성 {#journey-properties}
 
-[단순 식 편집기](../condition-activity.md#about_condition)와 [고급 식 편집기](../expression/expressionadvanced.md)의 **이벤트** 및 **데이터 원본** 범주 아래에서 **여정 속성** 범주에 액세스할 수 있습니다. 이 카테고리에는 지정된 프로필의 여정과 관련된 기술 필드가 포함되어 있습니다. 이는 여정 ID 또는 발생한 특정 오류와 같은 라이브 여정에서 시스템이 검색한 정보입니다.
+[단순 식 편집기](../conditions.md#about_condition)와 [고급 식 편집기](../expression/expressionadvanced.md)의 **이벤트** 및 **데이터 원본** 범주 아래에서 **여정 속성** 범주에 액세스할 수 있습니다. 이 카테고리에는 지정된 프로필의 여정과 관련된 기술 필드가 포함되어 있습니다. 이는 여정 ID 또는 발생한 특정 오류와 같은 라이브 여정에서 시스템이 검색한 정보입니다.
 
 ![](../assets/journey-properties.png)
 
@@ -55,7 +55,7 @@ ht-degree: 2%
 | | organizationId | 조직 식별자 | 브랜드 조직 |
 | | sandboxName | 샌드박스 이름 | 샌드박스 이름 |
 | ID | profileId | 프로필 ID 식별자 | 여정 내 프로필 식별자 |
-| | 네임스페이스 | 프로필 ID 네임스페이스 | 여정 내 프로필의 네임스페이스(예: ECID) |
+| | namespace | 프로필 ID 네임스페이스 | 여정 내 프로필의 네임스페이스(예: ECID) |
 | 현재 노드 | currentNodeId | 현재 노드 식별자 | 현재 활동의 식별자(노드) |
 | | currentNodeName | 현재 노드 이름 | 현재 활동의 이름(노드) |
 | 이전 노드 | previousNodeId | 이전 노드 식별자 | 이전 활동의 식별자(노드) |

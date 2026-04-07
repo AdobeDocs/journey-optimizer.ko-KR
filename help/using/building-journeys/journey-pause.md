@@ -9,7 +9,7 @@ level: Intermediate
 keywords: 게시, 여정, 라이브, 유효성, 확인
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: c54237bba0597ecc0d4ebb6084063834e0d2ab70
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '2626'
 ht-degree: 5%
@@ -33,7 +33,7 @@ ht-degree: 5%
 
 >[!CAUTION]
 >
->* 여정을 일시 중지하고 다시 시작할 수 있는 권한은 **[!DNL Publish journeys]** 높은 수준의 권한을 가진 사용자로 제한됩니다. [!DNL Journey Optimizer]이 섹션[에서 &#x200B;](../administration/permissions-overview.md) 사용자의 액세스 권한 관리에 대해 자세히 알아보세요.
+>* 여정을 일시 중지하고 다시 시작할 수 있는 권한은 **[!DNL Publish journeys]** 높은 수준의 권한을 가진 사용자로 제한됩니다. [!DNL Journey Optimizer]이 섹션[에서 ](../administration/permissions-overview.md) 사용자의 액세스 권한 관리에 대해 자세히 알아보세요.
 >
 >* 일시 중지/다시 시작 기능을 사용하기 전에 [보호 기능 및 제한 사항을 읽어보세요](#journey-pause-guardrails).
 
@@ -84,7 +84,7 @@ ht-degree: 5%
 | [대상자 읽기](read-audience.md) | 몇 가지 특성을 가진 라이브 여정과 동일한 동작: <ol> <li> <strong>대상자 읽기</strong> 활동이 시작된 후 <strong>일시 중지</strong>를 누르면 여정에 들어간 프로필이 다음 <strong>작업</strong> 활동까지 계속됩니다. 여정이 특정 속도로 대상자를 읽을 때 전체 대상자를 아직 입력하지 않은 경우 대기열의 나머지 프로필은 무시됩니다.</li><li> 단일 실행의 경우: 예약된 날짜가 다시 시작 날짜 이전인 경우 다시 시작 시간에 오류가 표시되지 않습니다. 해당 일정은 무시됩니다.</li><li>증분 여정: <ul><li>첫 번째 발생 전에 일시 중지가 발생하면 전체 대상이 다시 시작될 때 재생됩니다. </li><li>예를 들어 일별 반복 중 4일에 일시 중지가 발생하고 9일까지 여정이 일시 중지된 상태로 유지되면 4-9일에 입력한 모든 프로필이 다시 시작에 포함됩니다  </li></ul></ol> |
 | [반응](reaction-events.md) | 라이브 여정과 동일한 동작이지만, 반응이 <strong>Action</strong> 활동 후이고 사용자가 해당 작업에서 일시 중지된 경우 반응 이벤트가 무시됩니다. |
 | [대기](wait-activity.md) | 라이브 여정과 동일한 비헤이비어 |
-| [조건](condition-activity.md) | 라이브 여정과 동일한 비헤이비어 |
+| [최적화](optimize.md) | 라이브 여정과 동일한 비헤이비어 |
 | [콘텐츠 결정](content-decision.md) | 프로필은 여정이 일시 중지되었을 때 사용자가 선택한 항목에 따라 파킹되거나 삭제됩니다 |
 | [채널 작업](journey-action.md) | 프로필은 여정이 일시 중지되었을 때 사용자가 선택한 항목에 따라 파킹되거나 삭제됩니다 |
 | [사용자 지정 작업](../action/action.md) | 프로필은 여정이 일시 중지되었을 때 사용자가 선택한 항목에 따라 파킹되거나 삭제됩니다 |
@@ -162,7 +162,7 @@ ht-degree: 5%
 
 ## 가드레일 및 제한 사항 {#journey-pause-guardrails}
 
-* 최대 **14일** 동안 여정 버전을 일시 중지할 수 있으며, 조직 전체에서 일시 중지된 프로필에 최대 **1천만 개**&#x200B;의 여정이 허용됩니다.
+* 최대 **14일** 동안 여정 버전을 일시 중지할 수 있으며, 조직 전체에서 일시 중지된 프로필에 최대 **1천만 개**의 여정이 허용됩니다.
 이 제한은 개별 프로필이 아닌 일시 중지된 모든 여정에 걸쳐 유지된 총 프로필 수를 계산합니다. 예를 들어 동일한 5M 프로필이 일시 중지된 두 개의 여정에 유지되면 10M 제한에 도달합니다.
 이 제한은 30분마다 확인됩니다. 즉, 일시적으로 1,000만 임계값을 초과할 수 있지만, 시스템에서 이를 감지하면 추가 프로필이 자동으로 삭제됩니다.
 
@@ -180,7 +180,7 @@ ht-degree: 5%
 * 증분 대상 기반 **대상 읽기** 여정의 경우 일시 중지된 기간을 고려합니다. 이는 대상 자격 또는 이벤트 기반 여정에 해당되지 않습니다(대상 자격 또는 이벤트가 일시 중지 중에 수신되고 여정의 첫 번째 활동인 경우 해당 이벤트가 삭제됨)
 * 프로필이 여정에 유지되고 이 여정이 며칠 후 자동으로 다시 시작되는 경우 프로필은 여정을 계속하며 삭제되지 않습니다. 삭제하려면 여정을 중지해야 합니다
 * 일시 중지된 여정에서 [일괄 세그먼트 경고](../reports/alerts.md#alert-read-audiences)에 대한 경고가 실행되지 않습니다.
-* 여정 14일 동안 일시 중지 상태가 종료되면 시스템에 감사 로그가 없습니다
+* 14일 동안 일시 중지 상태가 종료되면 시스템에 감사 로그가 없습니다
 * 삭제된 프로필 중 일부는 여정 단계 이벤트에 표시될 수 있지만 보고에는 표시되지 않습니다. 예:
    * **대상자 읽기**&#x200B;에 대한 비즈니스 이벤트 무시
    * 일시 중지된 여정으로 인해 **대상자 읽기**&#x200B;개 작업이 삭제됩니다.
@@ -211,7 +211,7 @@ ht-degree: 5%
 
 ## 일시 중지된 프로필의 여정 카드 문제 해결 {#discards-troubleshoot}
 
-[[!DNL Adobe Experience Platform] 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ko){target="_blank"}를 사용하여 단계 이벤트를 쿼리할 수 있습니다. 이 이벤트는 발생한 시기에 따라 프로필 삭제에 대한 자세한 정보를 제공할 수 있습니다.
+[[!DNL Adobe Experience Platform] 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}를 사용하여 단계 이벤트를 쿼리할 수 있습니다. 이 이벤트는 발생한 시기에 따라 프로필 삭제에 대한 자세한 정보를 제공할 수 있습니다.
 
 * 프로필이 여정에 들어가기 전에 발생하는 폐기물의 경우 다음 코드를 사용하십시오.
 

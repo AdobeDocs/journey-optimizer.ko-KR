@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 시간대, 속성, 여정, 조건, 시간, 날짜, 사용자 정의
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
 version: Journey Orchestration
-source-git-commit: 8197b84851817e886dd6d5b26f16730980c13a79
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 9%
@@ -31,8 +31,8 @@ ht-degree: 9%
 
 이 시간대는 다음과 같은 시간 요소를 포함하는 여정의 모든 활동에 사용됩니다.
 
-* [시간 조건](../building-journeys/condition-activity.md#time_condition)
-* [날짜 조건](../building-journeys/condition-activity.md#date_condition)
+* [시간 조건](../building-journeys/conditions.md#time_condition)
+* [날짜 조건](../building-journeys/conditions.md#date_condition)
 * [사용자 지정 대기](../building-journeys/wait-activity.md#custom)
 
 <!--

@@ -6,9 +6,9 @@ description: 새 설명서 페이지 및 업데이트된 설명서 페이지 목
 hide: true
 hidefromtoc: true
 exl-id: 7962189b-4135-4f88-b91d-40d21cdf6c6d
-source-git-commit: 13ac469c33d2a580ba499bb463ac9fc63bef733c
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '1292'
+source-wordcount: '1294'
 ht-degree: 0%
 
 ---
@@ -125,7 +125,7 @@ ht-degree: 0%
 - [API 트리거 캠페인에 대해 높은 처리량 모드 활성화](help/using/campaigns/api-triggered-high-throughput.md) - 10월 27일
 - [방해 금지 시간 설정](help/using/conflict-prioritization/quiet-hours.md) - 10월 22일
 - [Journey Optimizer Experimentation Accelerator](help/using/content-management/experiment-accelerator-gs.md) - 24일
-- [이미지를 HTML HTML 변환기로 변환하고](help/using/content-management/image-to-html.md) - 10월 30일
+- [이미지를 HTML 변환기로 변환하고](help/using/content-management/image-to-html.md) - 10월 30일
 - [의사 결정 정책 만들기](help/using/experience-decisioning/create-decision-policy.md) - 10월 7일
 - [메시지에서 의사 결정 정책 사용](help/using/experience-decisioning/use-decision-policy.md) - 10월 9일
 - [채널 구성](help/using/orchestrated/channel-config.md) - 10월 14일
@@ -148,7 +148,7 @@ ht-degree: 0%
 - [Journey Optimizer에서 프로필 시작](help/using/audience/get-started-profiles.md) - 10월 22일
 - [여정 활동 시작](help/using/building-journeys/about-journey-activities.md) - 10월 27일
 - [사용자 지정 작업 매개 변수에 컬렉션 전달](help/using/building-journeys/collections.md) - 10월 13일
-- [조건 활동](help/using/building-journeys/condition-activity.md) - 10월 24일
+- [조건/최적화(조건 방법)](help/using/building-journeys/conditions.md) - 10월 24일
 - [여정에서 Adobe Experience Platform 데이터 사용](help/using/building-journeys/dataset-lookup.md) - 10월 28일
 - [여정에서 경험 이벤트 조회](help/using/building-journeys/exp-event-lookup.md) - 10월 28일
 - [작업 여정 활동 사용](help/using/building-journeys/journey-action.md) - 10월 14일

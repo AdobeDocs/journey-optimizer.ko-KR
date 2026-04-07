@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3ec496ba-7555-49e2-992c-403c33302a90
-source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '550'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 3%
 
 다음은 대상의 데이터 보강 속성을 사용하여 수행할 수 있는 작업입니다.
 
-* 대상 대상의 데이터 보강 특성을 활용하는 규칙을 기준으로 **여정에 여러 경로를 만듭니다**. 이렇게 하려면 [대상 읽기](../building-journeys/read-audience.md) 활동을 사용하여 대상을 타깃팅한 다음 대상의 데이터 보강 특성을 기반으로 [조건](../building-journeys/condition-activity.md) 활동에서 규칙을 만듭니다.
+* 대상 대상의 데이터 보강 특성을 활용하는 규칙을 기준으로 **여정에 여러 경로를 만듭니다**. 이렇게 하려면 [대상 읽기](../building-journeys/read-audience.md) 활동을 사용하여 대상을 타깃팅한 다음 대상의 데이터 보강 특성을 기반으로 [최적화](../building-journeys/optimize.md) 활동에서 규칙을 만듭니다.
 
   ![](assets/audience-enrichment-attribute-condition.png){width="70%" zoomable="yes"}
 
@@ -60,7 +60,7 @@ ht-degree: 3%
 
 데이터 보강 속성에 대한 FAQ는 다음과 같습니다.
 
-세부 정보가 필요하십니까? 이 페이지 하단의 피드백 옵션을 사용하여 질문을 제기하거나 [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"}에 연결하세요.
+세부 정보가 필요하신가요? 이 페이지 하단의 피드백 옵션을 사용하여 질문하거나 [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"}와 연결하세요.
 
 +++ 데이터 보강 속성이란 무엇입니까?
 

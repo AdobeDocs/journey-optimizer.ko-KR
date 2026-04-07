@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: 여정, 질문, 답변, 문제 해결, 도움말, 안내서, 오케스트레이션
 version: Journey Orchestration
 exl-id: cac9fc24-b78e-48d9-9c0c-f43181246f6f
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '5191'
 ht-degree: 0%
@@ -219,7 +219,7 @@ CJA 대상은 여정에서 직접 지원되지 않지만, 세분화 규칙에서
 * 여정 속성, 대상자 멤버십, 이벤트 또는 컨텍스트 데이터를 기반으로 프로필을 여러 경로로 분할합니다
 * 지정된 시간 내에 조건을 충족하지 않는 프로필에 대한 시간 제한 경로 정의
 
-[조건](condition-activity.md)에 대해 자세히 알아보세요.
+[조건](conditions.md)에 대해 자세히 알아보세요.
 
 +++
 
@@ -317,7 +317,7 @@ CJA 대상은 여정에서 직접 지원되지 않지만, 세분화 규칙에서
    * **경로 3**: 새 고객(총 구매 금액 &lt; $100)
 3. 각 경로에 대해 다른 메시지 또는 오퍼 추가
 
-[조건](condition-activity.md) 및 [대상 자격](audience-qualification-events.md)에 대해 자세히 알아보세요.
+[조건](optimize.md#conditions) 및 [대상 자격](audience-qualification-events.md)에 대해 자세히 알아보세요.
 
 +++
 
@@ -588,9 +588,9 @@ Learn more about [action responses](../action/action-response.md).
 
 +++ 기본 채널을 기반으로 다른 메시지를 보낼 수 있습니까?
 
-예. **[조건 활동](condition-activity.md)**&#x200B;을 사용하여 선호하는 채널을 기준으로 프로필을 라우팅합니다.
+예. **[활동 최적화](conditions.md)**&#x200B;를 사용하여 선호하는 채널을 기반으로 프로필을 라우팅합니다.
 
-1. 여정에 [조건 활동](condition-activity.md) 추가
+1. 여정에 [활동 최적화](optimize.md) 추가
 2. 기본 채널 프로필 특성(예: `profile.preferredChannel`)을 확인하여 각 채널의 경로를 만듭니다.
 3. 채널별 경로 구성:
    * **전자 메일 경로**: 전자 메일에 최적화된 콘텐츠로 [전자 메일 동작](../email/create-email.md) 추가
@@ -606,7 +606,7 @@ Learn more about [action responses](../action/action-response.md).
 * 채널 구성을 관리하려면 [채널 표면](../configuration/channel-surfaces.md)을 사용하십시오.
 * 모든 경로를 테스트하여 적절한 메시지 전달 보장
 
-[조건](condition-activity.md), [메시지 동작](journey-action.md) 및 [채널 선택](../channels/gs-channels.md)에 대해 자세히 알아보세요.
+[조건](conditions.md), [메시지 동작](journeys-message.md) 및 [채널 선택](../channels/gs-channels.md)에 대해 자세히 알아보세요.
 
 +++
 
@@ -622,7 +622,7 @@ Learn more about [action responses](../action/action-response.md).
 
 **여정 내**:
 
-* 원치 않는 프로필을 종료하려면 여정 초기에 [조건 활동](condition-activity.md)을 추가하십시오.
+* 원치 않는 프로필을 종료하려면 여정 초기에 [활동 최적화](conditions.md)를 추가하십시오.
 * 제외 속성(예: VIP 상태, 테스트 계정) 확인
 * [대상 자격](audience-qualification-events.md)을(를) 사용하여 제외할 프로필을 식별하십시오.
 
@@ -838,7 +838,7 @@ Journey Optimizer은 기본적으로 [!DNL Adobe Campaign]과(와) 통합되어 
 * 일정 기간 동안 기다린 다음 조건을 사용하여 대기 중에 발생한 적이 있는지 확인합니다
 * 예: 7일 동안 기다린 다음 고객이 구매했는지 확인
 
-[조건](condition-activity.md) 및 [대기 활동](wait-activity.md)에 대해 자세히 알아보세요.
+[조건](optimize.md#conditions) 및 [대기 활동](wait-activity.md)에 대해 자세히 알아보세요.
 
 +++
 
@@ -918,7 +918,7 @@ Journey Optimizer은 기본적으로 [!DNL Adobe Campaign]과(와) 통합되어 
 * 개별 이벤트 대신 일괄 통신에 [대상 기반 항목](read-audience.md)을(를) 사용합니다.
 * 메시지 볼륨을 확산하는 데 적절한 [대기 시간](wait-activity.md)을(를) 구현합니다.
 * [최대 가용량 규칙](../conflict-prioritization/journey-capping.md)을 활용하여 시스템 오버로드를 방지하십시오.
-* [조건 논리](condition-activity.md)를 최적화하여 처리 복잡성을 줄입니다.
+* [조건 논리](conditions.md)를 최적화하여 처리 복잡성을 줄입니다.
 
 **모니터링**:
 
@@ -931,7 +931,7 @@ Journey Optimizer은 기본적으로 [!DNL Adobe Campaign]과(와) 통합되어 
 
 * 게시하기 전에 성능을 확인하려면 [테스트 모드](testing-the-journey.md) 및 [시험 실행](journey-dry-run.md)을 사용하십시오.
 * [사용자 지정 작업](using-custom-actions.md)을 통해 외부 API 호출을 최소화하여 대기 시간과 서드파티 시스템에 대한 종속성을 방지하십시오.
-* 가능한 경우 외부 호출을 수행하는 대신 [!DNL Adobe Experience Platform]데이터 집합 조회[를 사용하여 &#x200B;](dataset-lookup.md)에서 자주 사용하는 데이터를 저장합니다.
+* 가능한 경우 외부 호출을 수행하는 대신 [!DNL Adobe Experience Platform]데이터 집합 조회[를 사용하여 ](dataset-lookup.md)에서 자주 사용하는 데이터를 저장합니다.
 * [메시지 게재](journey-action.md) 성능 검토 및 최적화
 
 [보호 기능 및 제한 사항](../start/guardrails.md)에 대해 자세히 알아보세요.

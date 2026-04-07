@@ -1,21 +1,19 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 조건 활동
-description: 조건 활동에 대해 알아보기
+title: 조건
+description: 여정 경로에 대한 최적화 활동에서 조건 구성
 feature: Journeys, Activities
 topic: Content Management
 role: User
 level: Intermediate
 keywords: 활동, 조건, 캔버스, 여정
-hidefromtoc: true
-hide: true
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '1662'
-ht-degree: 16%
+source-wordcount: '1873'
+ht-degree: 13%
 
 ---
 
@@ -24,15 +22,15 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_conditions"
 >title="조건"
->abstract="조건을 통해 특정 기준에 따라 여러 경로를 만들어 개인 여정을 어떻게 진행하는지 정의할 수 있습니다. 또한 시간 초과나 오류를 처리하기 위한 대체 경로를 구성하여 원활한 환경을 보장할 수 있습니다."
+>abstract="조건을 통해 특정 기준에 따라 여러 경로를 만들어 개인 여정을 어떻게 진행하는지 정의할 수 있습니다. 시간 초과 또는 오류를 처리할 대체 경로를 구성하여 원활한 경험을 보장할 수도 있습니다. 이제 조건이 최적화 활동에 구성되므로 이전의 조건 활동이 대체됩니다."
 
 **conditions**&#x200B;을(를) 사용하면 특정 기준에 따라 여러 경로를 만들어 개인이 여정을 진행하는 방법을 정의할 수 있습니다. 또한 시간 초과나 오류를 처리하기 위한 대체 경로를 구성하여 원활한 환경을 보장할 수 있습니다.
 
->[!AVAILABILITY]
+>[!NOTE]
 >
->이러한 조건은 제한된 가용성의 요청 시 액세스할 수 있는 **최적화** 활동을 통해 사용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.
+>여정에서 조건부 경로를 만들기 위한 새로운 수단은 [최적화](optimize.md) 활동입니다. UI에서 제거된 이전의 **조건** 활동을 대체합니다. 이제 모든 조건부 논리는 이 페이지에 표시된 최적화 활동의 조건을 통해 처리됩니다.
 >
->이 용량에 액세스할 수 없는 경우에도 기존 [조건 활동](condition-activity.md)을 사용할 수 있습니다.
+>**[!UICONTROL 조건]** 활동을 사용한 기존 여정이 있는 경우 이전처럼 계속 사용할 수 있습니다. 이제 새 아이콘과 함께 **[!UICONTROL Condition]** 메서드를 사용하여 **[!UICONTROL Optimize]** 활동으로 표시되지만 동작은 변경되지 않습니다. 노드에 설정한 모든 사용자 지정 레이블이 유지됩니다.
 
 ## 조건 추가 {#add-condition-activity}
 
@@ -54,6 +52,10 @@ ht-degree: 16%
    * [날짜 조건](#date_condition)
    * [프로필 상한](#profile_cap)
    * 여정 조건에서 대상을 사용할 수도 있습니다. [자세히 알아보기](#using-a-segment)
+
+>[!NOTE]
+>
+>[프로필 저장소](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}에 두 개 이상의 교차 장치 ID가 포함된 프로필에 대해서는 조건 평가가 실패합니다.
 
 ## 조건 경로 관리 {#condition_paths}
 
@@ -87,7 +89,7 @@ ht-degree: 16%
 
 ![끌어다 놓기 필드 및 논리 연산자가 있는 간단한 식 편집기](assets/journey64.png){width=80%}
 
-[[!DNL Adobe Experience Platform] 세그먼테이션 서비스](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ko){target="_blank"}를 사용하여 대상을 만드는 경우 여정 조건에서 이를 활용할 수 있습니다. [조건에서 대상 사용](../building-journeys/condition-activity.md#using-a-segment)을 참조하세요.
+[Adobe Experience Platform 세분화 서비스](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ko){target="_blank"}를 사용하여 대상을 만드는 경우 여정 조건에서 이를 활용할 수 있습니다. [조건에 대상 사용](#using-a-segment)을 참조하세요.
 
 >[!NOTE]
 >
@@ -102,6 +104,14 @@ ht-degree: 16%
 **[!UICONTROL 데이터 원본 조건]**&#x200B;을(를) 사용하여 데이터 원본 또는 이전에 여정에 배치된 이벤트의 필드를 기반으로 조건을 정의합니다. 이 유형의 조건은 표현식 편집기로 정의됩니다. [식 편집기 사용 방법 알아보기](expression/expressionadvanced.md)
 
 예를 들어, 작성 워크플로우 또는 사용자 지정 업로드(CSV 파일)를 사용하여 생성된 보강 속성으로 대상을 타깃팅하는 경우 이러한 보강 속성을 활용하여 조건을 작성할 수 있습니다.
+
+>[!IMPORTANT]
+>
+>**누락되었거나 수집되지 않은 특성 처리**
+>
+>프로필 스키마에 스키마 필드가 정의되어 있지만 해당 필드에 대한 데이터가 수집되지 않은 경우 Journey Optimizer 및 기본 실시간 고객 프로필은 해당 필드를 `null`(으)로 해석합니다. 그 결과, `isEmpty()`, `isNull()` 또는 유사한 함수를 확인하는 조건은 해당 특성이 수집되지 않은 경우에도 `true`로 평가됩니다. 이렇게 하면 필드에 데이터가 없다는 것을 알지 못하는 경우 예기치 않은 여정 동작이 발생할 수 있습니다.
+>
+>혼동을 방지하기 위해 프로필이 여정에 들어가기 전에 조건 표현식에서 사용하는 특성이 실제 데이터로 수집되었는지 확인하십시오. [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target="_blank"}에서 특성 값을 확인하여 조건에 사용된 필드에 대한 데이터가 있는지 확인할 수 있습니다.
 
 고급 표현식 편집기를 사용하여 컬렉션을 조작하거나 매개 변수를 전달해야 하는 데이터 소스를 사용하는 고급 조건을 설정할 수 있습니다. [자세히 알아보기](../datasource/external-data-sources.md)
 
@@ -192,4 +202,4 @@ ht-degree: 16%
 
    >[!NOTE]
    >
-   >대상자 참여 상태가 **실현됨**&#x200B;인 개인만 대상자의 구성원으로 간주됩니다. 대상자를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ko#interpret-segment-results){target="_blank"}를 참조하세요.
+   >대상자 참여 상태가 **실현됨**&#x200B;인 개인만 대상자의 구성원으로 간주됩니다. 대상자를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}를 참조하세요.

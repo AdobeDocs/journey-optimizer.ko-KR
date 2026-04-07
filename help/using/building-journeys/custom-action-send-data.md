@@ -9,9 +9,9 @@ role: User, Developer
 level: Intermediate, Experienced
 keywords: 여정, 사용 사례
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '272'
 ht-degree: 2%
 
 ---
@@ -26,11 +26,11 @@ IP를 준비하려면 게재 수를 점차적으로 늘릴 수 있습니다. [Jo
 
 1. 여정 만들기 [자세히 보기](journey-gs.md).
 
-1. **[!UICONTROL 조건]** 활동을 여정에 추가합니다. [자세히 보기](condition-activity.md).
+1. **[!UICONTROL 최적화]** 활동을 여정에 추가합니다. [자세히 보기](optimize.md).
 
 1. **[!UICONTROL 조건]** 활동 설정에서 게재할 최대 받는 사람 수를 설정하십시오.
 
-   1. **[!UICONTROL Condition]** 활동 설정에서 **[!UICONTROL Type]** 필드를 **[!UICONTROL 프로필 상한]**(으)로 설정합니다. [자세히 보기](condition-activity.md#profile_cap).
+   1. **[!UICONTROL 최적화]** 활동 설정에서 **[!UICONTROL 조건]** 메서드를 선택하고 **[!UICONTROL 유형]** 필드를 **[!UICONTROL 프로필 상한]**(으)로 설정하십시오. [자세히 보기](conditions.md#profile_cap).
 
    1. **[!UICONTROL 제한]** 필드를 이 게재의 최대 받는 사람 수로 설정하십시오.
 

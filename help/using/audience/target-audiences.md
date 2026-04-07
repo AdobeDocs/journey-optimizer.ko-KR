@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: 04f6ad6d75c182c6c29744810c0461ccc947b5e5
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '797'
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 12%
 
   대상 구성 또는 사용자 지정 업로드에서 대상을 사용하는 여정의 경우 프로필 속성은 여정 항목에서 마지막 일괄 처리 평가만큼 최신 상태입니다. 그러나 **대기** 활동 후 여정은 UPS(통합 프로필 서비스)에서 프로필 속성을 새로 고침하여 사용 가능한 최신 데이터를 가져옵니다. 즉, 여정 실행 중에 프로필 속성이 변경될 수 있습니다. [대기 활동 후 프로필 새로 고침에 대해 자세히 알아보기](../building-journeys/wait-activity.md#profile-refresh)
 
-* 여정에 **조건** 활동을 사용하면 대상자 멤버십을 기반으로 조건을 작성할 수 있습니다. [조건에서 대상자를 사용하는 방법을 알아봅니다](../building-journeys/condition-activity.md#using-a-segment).
+* 여정에서 **최적화** 활동을 사용하여 대상 멤버십을 기반으로 조건을 빌드하세요. [조건에서 대상자를 사용하는 방법을 알아봅니다](../building-journeys/conditions.md#using-a-segment).
 
 * 여정에서 **대상 자격** 이벤트 활동을 사용하여 개인이 Adobe Experience Platform 대상 출입구를 기준으로 여정에 들어오거나 앞으로 이동하도록 할 수 있습니다. 예를 들면 모든 신규 실버 고객이 여정에 입장하도록 하여 이들에게 메시지를 보낼 수 있습니다. [대상 자격 활동을 구성하는 방법에 대해 알아보세요](../building-journeys/audience-qualification-events.md).
 

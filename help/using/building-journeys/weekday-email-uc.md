@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 여정, 사용 사례, 평일, 조건, 이메일, 예약
 version: Journey Orchestration
 exl-id: 2f313e59-ee50-473c-9346-8859889346ec
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1068'
 ht-degree: 1%
 
 ---
@@ -33,8 +33,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->이 사용 사례를 구현하려면 구성된 [!DNL Adobe Journey Optimizer]전자 메일 채널 표면[, 여정을 트리거할 &#x200B;](../configuration/channel-surfaces.md)대상[&#x200B; 또는 &#x200B;](../audience/about-audiences.md)이벤트[를 사용하는 활성 &#x200B;](../event/about-events.md) 인스턴스와 [여정 조건](condition-activity.md) 및 [표현식](expression/expressionadvanced.md)에 대한 기본 이해가 필요합니다.
-
+>이 사용 사례를 구현하려면 구성된 [이메일 채널 표면](../configuration/channel-surfaces.md), 여정을 트리거할 [대상](../audience/about-audiences.md) 또는 [이벤트](../event/about-events.md)를 사용하는 활성 Adobe Journey Optimizer 인스턴스와 [여정 조건](conditions.md) 및 [표현식](expression/expressionadvanced.md)에 대한 기본 이해가 필요합니다.
 
 ## 구현 단계
 
@@ -56,7 +55,7 @@ ht-degree: 1%
 
 여정 시작 직후 **[!UICONTROL 조건]** 활동을 추가하여 현재 날짜가 토요일이나 일요일인지 확인하십시오. 이에 따라 워크플로우가 분기됩니다.
 
-1. 진입점 뒤에 [**[!UICONTROL 조건&#x200B;]**&#x200B;활동](condition-activity.md)을 캔버스로 끌어서 놓습니다.
+1. 진입점 뒤에 [**[!UICONTROL Optimize ]**활동](optimize.md)을(를) 캔버스로 끌어서 놓습니다.
 
 1. **[!UICONTROL 조건]** 활동을 클릭하여 구성 패널을 엽니다.
 
@@ -186,7 +185,7 @@ toDateTimeOnly(setHours(nowWithDelta(1, "days"), 9))
 
 ## 관련 항목
 
-* [조건 활동](condition-activity.md) - 여정에서 다양한 경로를 만드는 방법을 알아봅니다.
+* [활동 최적화](optimize.md) - 여정에서 다양한 경로를 만드는 방법을 알아봅니다.
 * [여정에서 조건 사용](conditions.md) - 여정 조건에 대한 세부 안내서
 * [대기 활동](wait-activity.md) - 대기 기간 및 수식 구성
 * [날짜 함수](functions/date-functions.md) - 날짜 및 시간 함수에 대한 전체 참조

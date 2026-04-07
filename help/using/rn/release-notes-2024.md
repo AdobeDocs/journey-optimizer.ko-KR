@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: fb74c0c14cf35aeb0c28719878d009e040be4214
-workflow-type: ht
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+workflow-type: tm+mt
 source-wordcount: '6783'
 ht-degree: 100%
 
@@ -89,7 +89,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer에서 너무 많은 상호 작용으로 고객에게 부담을 주는 상황을 피하려면 캠페인과 여정의 양과 타이밍을 관리하는 것이 필수적입니다. 이제 Journey Optimizer에서 충돌 관리 및 우선 순위를 위한 몇 가지 도구를 제공합니다. <p>자세한 내용은 <a href="../conflict-prioritization/gs-conflict-prioritization.md">세부 설명서</a>를 참조하십시오.</p></p><p><ul><li><b>여정 빈도 캡핑</b>: 이제 여정에 적용할 규칙 집합을 만들어 일별, 주별 또는 월별로 한 프로필의 여정 수를 제한하고, 한꺼번에 실행되는 동시 여정 수도 제어할 수 있습니다.</li>
+<p>Journey Optimizer에서 너무 많은 상호 작용으로 고객에게 부담 주는 상황을 피하려면 캠페인과 여정의 양과 타이밍을 관리하는 것이 필수적입니다. 이제 Journey Optimizer에서 충돌 관리 및 우선 순위를 위한 몇 가지 도구를 제공합니다. <p>자세한 내용은 <a href="../conflict-prioritization/gs-conflict-prioritization.md">세부 설명서</a>를 참조하십시오.</p></p><p><ul><li><b>여정 빈도 캡핑</b>: 이제 여정에 적용할 규칙 집합을 만들어 일별, 주별 또는 월별로 한 프로필의 여정 수를 제한하고, 한꺼번에 실행되는 동시 여정 수도 제어할 수 있습니다.</li>
 <li><b>우선 순위 점수</b>: 이제 캠페인이나 여정에 0에서 100 사이의 우선 순위 점수를 할당할 수 있습니다. 숫자가 높을수록 우선 순위가 높다는 뜻입니다. 두 캠페인 또는 여정이 동일한 채널 구성을 사용하는 경우 Journey Optimizer에서 우선 순위 점수가 가장 높은 캠페인 또는 여정을 선택합니다. 캠페인의 점수가 동일한 경우, 수정한지 가장 오래된 캠페인을 선택합니다.</li>
 <li><b>잠재적 충돌 보기</b>: 이제 여정 및 캠페인의 새로운 "잠재적 충돌 보기" 버튼을 사용하여 시작 일자, 타깃팅된 대상자 또는 선택한 채널 구성 등이 다른 여정 또는 캠페인과 겹치는지 확인할 수 있습니다.</li>
 <li><b>여정 중재</b>: 이 새로운 기능을 사용하면 고객에게 가장 중요한 여정을 우선시할 수 있습니다. 고객이 우선 순위가 더 높은 예정된 여정에 입장할 자격이 있는 경우 우선 순위가 낮은 여정에 들어가지 않도록 하는 규칙을 만들 수 있습니다.</li>
@@ -630,7 +630,7 @@ ht-degree: 100%
 
 **여정**
 
-* 이제 **조건** 활동에서 **[!UICONTROL 시간 조건]**&#x200B;은 기본적으로 00:00부터 12:00까지 시간 단위로 설정됩니다. [자세히 보기](../building-journeys/condition-activity.md#time_condition)
+* 이제 **조건** 활동에서 **[!UICONTROL 시간 조건]**&#x200B;은 기본적으로 00:00부터 12:00까지 시간 단위로 설정됩니다. [자세히 보기](../building-journeys/conditions.md#time_condition)
 * 이제 여정을 작성할 때에도 경고가 다른 경고와 마찬가지로 **경고** 버튼에서 표시되어 일관된 사용자 경험을 제공합니다. [자세히 보기](../building-journeys/troubleshooting.md#activity-errors)
 * 여정 도구 모음의 확대/축소 옵션이 개선되었습니다. 이제 확대/축소 비율이 표시되며 확대/축소 값을 보다 쉽게 재설정할 수 있습니다.
 
@@ -1292,7 +1292,7 @@ Beta부터 이 릴리스까지 다음과 같은 개선 사항이 추가되었습
 <td>
 <p>이제 Journey Optimizer에서 DMARC 인증 기술을 지원합니다.</p>
 <p>2024년 2월 1일부터 Google 및 Yahoo!에서 이메일을 보내는 데 사용하는 모든 도메인에 DMARC 레코드를 요구합니다. Journey Optimizer에서 Adobe에 위임한 모든 하위 도메인에 DMARC 레코드가 설정되어 있는지 확인해 주세요.</p>
-<p>자세한 내용은 <a href="../configuration/dmarc-record-update.md">세부 설명서</a>를 참고하십시오.</p>
+<p>자세한 내용은 <a href="../configuration/dmarc-record-update.md">세부 설명서</a>를 참조하십시오.</p>
 <br/><img src="assets/do-not-localize/dmarc.gif"/>
 </tr>
 </tbody>

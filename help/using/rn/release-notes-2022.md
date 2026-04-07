@@ -10,8 +10,8 @@ level: Beginner, Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
-workflow-type: ht
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+workflow-type: tm+mt
 source-wordcount: '3599'
 ht-degree: 100%
 
@@ -792,7 +792,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 <tr>
 <td>
 <p>여정에서 <strong>조건</strong> 활동을 구성할 때 이제 프로필 상한을 정의할 수 있습니다. 이 새 조건 유형을 사용하면 여정 경로에 대해 최대 프로필 수를 설정할 수 있습니다. 이 한도에 도달하면 입력한 프로필에서 대체 경로를 사용합니다. 이를 통해 게재 볼륨을 증가시킬 수 있습니다(IP 램프 업). 예를 들어 실행을 분할하여 1일에는 1,000개의 메시지를, 2일에는 2,000개의 메시지를 발송하는 등 도메인에서 게재를 증가시킬 수 있습니다.</p>
-<p>자세한 내용은 <a href="../building-journeys/condition-activity.md#profile_cap">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../building-journeys/conditions.md#profile_cap">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>

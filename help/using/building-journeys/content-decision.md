@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 활동, 의사 결정, 컨텐츠 결정, 의사 결정 정책, 캔버스, 여정
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
-source-git-commit: 67dd6b5d7e457c29795f53276755dbbb67c94a99
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '1242'
+source-wordcount: '1257'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 그런 다음 다음에서 컨텐츠 결정 활동의 출력을 사용할 수 있습니다.
 
-* 검색된 오퍼에 따라 특정 경로로 프로필을 이동하는 [조건 활동](#add-condition-activity)
+* 검색된 오퍼에 따라 프로필을 특정 경로로 이동하려면 [조건을 사용하여 활동 최적화](#add-condition-activity);
 
 * 외부 시스템에 해당 오퍼를 보낼 수 있는 [사용자 지정 작업](#add-custom-action).
 
@@ -81,15 +81,15 @@ ht-degree: 1%
 
 ## 콘텐츠 결정 활동의 출력 사용 {#use-content-decision-output}
 
-컨텐츠 결정의 출력은 여러 여정 활동에서 사용할 수 있습니다. 예를 들어 검색된 여정 수에 따라 [조건 활동](#add-condition-activity)을 사용하여 프로필을 프로필의 특정 분기로 이동할 수 있습니다.
+컨텐츠 결정의 출력은 여러 여정 활동에서 사용할 수 있습니다. 예를 들어, [조건을 사용하여 활동 최적화](#add-condition-activity)를 사용하여 검색된 여정 수에 따라 프로필을 프로필의 특정 분기로 이동할 수 있습니다.
 
 여정 결정 활동의 오퍼를 외부 시스템에 공유하기 위해 [사용자 지정 작업](#add-custom-action)을 추가할 수도 있습니다.
 
-### 조건 활동에서 {#add-condition-activity}
+### 최적화 활동(조건 방법)에서 {#add-condition-activity}
 
-컨텐츠 결정 활동의 출력을 활용하려면 여정에 조건을 추가합니다. 여기서 해당 오퍼의 데이터를 사용하여 프로필을 특정 경로로 이동하는 표현식을 정의합니다. 아래 단계를 수행합니다.
+콘텐츠 결정 활동의 출력을 활용하려면 **[!UICONTROL 최적화]** 활동을 추가하고 **[!UICONTROL 조건]** 메서드를 선택한 다음 해당 오퍼의 데이터를 사용하여 프로필을 특정 경로로 이동할 식을 정의합니다. 아래 단계를 수행합니다. 조건 유형 및 옵션에 대한 자세한 내용은 [조건](conditions.md)을 참조하세요.
 
-1. **[!UICONTROL Orchestration]** 범주에서 **[!UICONTROL Condition]** 활동을 캔버스에 놓습니다. [자세히 알아보기](condition-activity.md#add-condition-activity)
+1. **[!UICONTROL Orchestration]** 범주에서 **[!UICONTROL Optimize]** 활동을 캔버스에 넣으십시오. [자세히 알아보기](optimize.md)
 
 1. (선택 사항) 정의한 첫 번째 식에 해당하는 **[!UICONTROL Path1]**&#x200B;의 이름을 더 적절한 레이블로 변경합니다.
 
@@ -147,7 +147,7 @@ ht-degree: 1%
    >
    >콘텐츠 결정 노드의 출력은 **[!UICONTROL 고급 모드]**&#x200B;에서만 사용할 수 있습니다.
 
-1. [&#x200B; 배열을 사용하여 &#x200B;](../experience-decisioning/catalogs.md#access-catalog-schema)오퍼 카탈로그 스키마`items`를 찾아봅니다. 예를 들어 검색된 첫 번째 오퍼의 `itemName`과(와) 검색된 두 번째 오퍼의 `itemName`을(를) 사용합니다.
+1. [ 배열을 사용하여 ](../experience-decisioning/catalogs.md#access-catalog-schema)오퍼 카탈로그 스키마`items`를 찾아봅니다. 예를 들어 검색된 첫 번째 오퍼의 `itemName`과(와) 검색된 두 번째 오퍼의 `itemName`을(를) 사용합니다.
 
    ![결정 정책을 포함하는 사용자 지정 작업의 요청 매개 변수](assets/journey-content-decision-custom-action-param-ex.png)
 
