@@ -5,7 +5,7 @@ title: 채널 구성
 description: 채널 구성
 redpen-status: CREATED_||_2025-08-11_21-10-00
 exl-id: 4cd5f097-1c17-4cc5-90c4-bc540dc6acf4
-source-git-commit: 7a89b5011c4cf64b95066d62ba1b8fe43ea8ba32
+source-git-commit: 63669282e76672958f29f6d4a7be085cc7036ac4
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 77%
@@ -26,7 +26,7 @@ Adobe Journey Optimizer의 채널 구성을 통해 이메일, SMS, 푸시 알림
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 채널 구성 시작
 
@@ -36,7 +36,7 @@ Adobe Journey Optimizer의 채널 구성을 통해 이메일, SMS, 푸시 알림
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 채널 구성 설정 및 관리
 
@@ -46,7 +46,7 @@ Adobe Journey Optimizer의 채널 구성을 통해 이메일, SMS, 푸시 알림
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 가이드 채널 설정
 
@@ -56,7 +56,7 @@ Adobe Journey Optimizer의 채널 구성을 통해 이메일, SMS, 푸시 알림
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 이메일 하위 도메인 위임 및 관리
 
@@ -66,17 +66,17 @@ Adobe Journey Optimizer의 채널 구성을 통해 이메일, SMS, 푸시 알림
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 IP 준비 계획 구현
 
 IP 준비 계획을 만들고 실행하여 발신자로서의 평판을 확립하고 이메일 전달성을 향상시킵니다.
 
-[IP 준비 계획에 대해 알아보기](ip-warmup-gs.md)
+[IP 준비 계획에 대해 알아보기](../using/configuration/ip-warmup-gs.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 이메일 전달성 및 평판 모니터링
 
