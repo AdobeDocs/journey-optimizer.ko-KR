@@ -62,6 +62,6 @@ ht-degree: 3%
 
 사용 사례에 가장 적합한 최적화 방법을 선택합니다.
 
-* 어떤 경로가 가장 성과가 좋은지 테스트하고 학습하시겠습니까? →0}경로 실험[(으)로 이동](path-experimentation.md)
-* 서로 다른 대상을 특정 경로로 전송하시겠습니까? →0}경로 타깃팅[(으)로 이동](path-targeting.md)
-* 조건부 논리(if/then 시나리오)를 생성하시겠습니까? →0}조건[(으)로 이동](conditions.md)
+* 어떤 경로가 가장 성과가 좋은지 테스트하고 학습하시겠습니까? →0&rbrace;경로 실험[(으)로 이동](path-experimentation.md)
+* 서로 다른 대상을 특정 경로로 전송하시겠습니까? →0&rbrace;경로 타깃팅[(으)로 이동](path-targeting.md)
+* 조건부 논리(if/then 시나리오)를 생성하시겠습니까? →0&rbrace;조건[(으)로 이동](conditions.md)
