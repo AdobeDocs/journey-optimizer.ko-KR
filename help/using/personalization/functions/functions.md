@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: ec34ddf4862c550edb3442e6088723040a85f548
+source-git-commit: e8ace59ea50d35de1f1b3b9a6417e5eb7961c236
 workflow-type: tm+mt
-source-wordcount: '2477'
+source-wordcount: '2496'
 ht-degree: 2%
 
 ---
@@ -446,6 +446,9 @@ ht-degree: 2%
         <td><a href="helpers.md#each">각</a></td><td>이 함수는 배열을 반복하는 데 사용합니다.</td>
     </tr>
     <tr>
+        <td><a href="helpers.md#dataset-lookup">데이터 세트 조회</a></td><td>이 도우미는 조회 키를 사용하여 렌더링 시 Adobe Experience Platform 레코드 데이터 세트에서 필드를 검색합니다</td>
+    </tr>
+    <tr>
         <td><a href="helpers.md#execution-metadata">실행 메타데이터</a></td><td>이 도우미는 런타임 실행 메타데이터 개체에 저장할 수 있도록 메시지 렌더링 동안 사용자 지정 키-값 메타데이터를 캡처합니다</td>
     </tr>
     <tr>
@@ -530,4 +533,4 @@ ht-degree: 2%
 
 개인화 도우미 기능을 사용하여 개인화 값을 변형하는 방법을 알아보고 도우미 기능의 다양한 사용 사례를 이해합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416646?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

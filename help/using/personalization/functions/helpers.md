@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 39a4893357f3b95938c5a3402516aa45277411aa
+source-git-commit: e8ace59ea50d35de1f1b3b9a6417e5eb7961c236
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 3%
+source-wordcount: '1124'
+ht-degree: 4%
 
 ---
 
@@ -215,6 +215,26 @@ Some edu specific content
     {{/each}}
 {{sum}}
 ```
+
+## 데이터 세트 조회 {#dataset-lookup}
+
+>[!AVAILABILITY]
+>
+>이 기능은 현재 모든 고객이 제한된 가용성 릴리스로 사용할 수 있습니다.
+>
+>지금은 제한된 고객 집합의 표현식 조각 내에서 `datasetLookup` 도우미 함수를 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
+
+`datasetLookup` 도우미는 개인화 동안 Adobe Experience Platform 레코드 데이터 세트에서 데이터를 검색하므로 프로필이나 이벤트 페이로드에 저장되지 않은 필드 값을 사용할 수 있습니다.
+
+**구문**
+
+```sql
+{{datasetLookup datasetId="datasetId" id="key" result="store" required=false}}
+```
+
+`{{result.fieldId}}`을(를) 사용하여 검색된 필드를 참조합니다. 여기서 `result`은(는) `result` 매개 변수에 전달하는 값입니다.
+
+데이터 세트 활성화, 매개 변수 세부 정보, 예제 및 테스트는 [개인화에 Adobe Experience Platform 데이터 사용](../aep-data-perso.md)을 참조하십시오.
 
 ## 실행 메타데이터 {#execution-metadata}
 
