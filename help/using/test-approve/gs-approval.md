@@ -5,10 +5,10 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: 92d1439e-5cac-4e7d-85f8-ebf432e9ef7c
-source-git-commit: e6cac6aff79b30a308be480319902f478436391d
+source-git-commit: 58d83c2d3c6c1d3b3c680e394323de33321eeb6e
 workflow-type: tm+mt
-source-wordcount: '860'
-ht-degree: 58%
+source-wordcount: '966'
+ht-degree: 51%
 
 ---
 
@@ -107,6 +107,20 @@ ht-degree: 58%
 +++드롭다운에 승인 및 게시 권한이 표시되지 않습니다. 무엇을 확인해야 합니까?
 
 먼저 올바른 리소스를 추가해야 합니다. **캠페인 승인 및 게시** 권한을 사용하려면 **캠페인** 리소스를 역할에 추가해야 하며 **여정 승인 및 게시**&#x200B;을(를) 사용하려면 **여정** 리소스가 필요합니다. 둘 다 별도로 추가해야 합니다. [승인 관련 권한을 할당하는 방법을 알아보세요](#prerequisites)
+
++++
+
++++두 개 이상의 정책이 일치할 수 있는 경우 [!DNL Journey Optimizer]에서 적용되는 승인 정책을 어떻게 결정합니까?
+
+여러 활성 승인 정책을 동일한 여정 또는 캠페인에 적용할 수 있는 경우 **가장 최근에 활성화됨**&#x200B;인 정책이 우선합니다. 해당 정책에 정의된 승인자 사용자 그룹은 알림을 받고 요청을 제어하는 그룹입니다.
+
+[자세히 알아보기](approval-policies.md#multiple-policies)
+
++++
+
++++요청자가 여러 사용자 그룹에 속해 있는 경우 승인 요청을 보낼 그룹을 선택할 수 있습니까?
+
+아니요. 요청자가 승인 요청을 받거나 라우팅하는 사용자 그룹을 수동으로 선택할 수 없습니다. [정책 우선 순위](approval-policies.md#multiple-policies)에 따라 적용되는 승인 정책에 지정된 사용자 그룹에 자동으로 알림이 전송됩니다.
 
 +++
 
