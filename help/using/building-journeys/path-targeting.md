@@ -8,13 +8,13 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 타깃팅, 규칙, 여정, 경로, 최적화, 개인화
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+exl-id: b30ce5c9-a0e2-4601-97a3-5bec648368e4
+source-git-commit: 9cf7479bcdb12e5d2ebadfcf977b17738a97536d
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 7%
 
 ---
-
 
 # 경로 타깃팅 활용 {#targeting}
 
@@ -67,7 +67,7 @@ ht-degree: 7%
 
    >[!AVAILABILITY]
    >
-   >[전용 &#x200B;](../experience-decisioning/rules.md#create) 메뉴에서 타깃팅 규칙을 만드는 중[!DNL Journey Optimizer]은(는) 현재 Decisioning 추가 기능 서비스를 구입한 조직에서 사용할 수 있으며 다른 조직에 대해 필요할 때 사용할 수 있습니다(제한된 가용성).
+   >[전용 ](../experience-decisioning/rules.md#create) 메뉴에서 타깃팅 규칙을 만드는 중[!DNL Journey Optimizer]은(는) 현재 Decisioning 추가 기능 서비스를 구입한 조직에서 사용할 수 있으며 다른 조직에 대해 필요할 때 사용할 수 있습니다(제한된 가용성).
    >
    >이 용량은 모든 고객에게 점진적으로 제공될 예정입니다. 그동안 Adobe 담당자에게 문의하여 액세스 권한을 얻으십시오.
 
@@ -140,4 +140,3 @@ ht-degree: 7%
 ![구매자를 위한 교차 판매 경로와 비구매자를 위한 육성 경로를 사용하여 구매 기록 타기팅](assets/journey-optimize-targeting-uc-purchase.png)
 
 +++
-

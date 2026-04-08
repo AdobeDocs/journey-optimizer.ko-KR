@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 8aeb3e3769e28419982c28620e5b141778d2fa67
 workflow-type: tm+mt
 source-wordcount: '470'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_optimize"
 >title="활동 최적화"
->abstract="**최적화** 활동을 사용하면 실험, 타기팅 및 특정 조건을 포함한 특정 기준에 따라 여러 경로를 만들어 개인이 여정을 진행하는 방법을 정의할 수 있습니다. **최적화** 활동은 여정에서 조건부 경로를 만드는 새로운 수단입니다. 이는 이전의 **조건** 활동을 대체합니다."
+>abstract="**최적화** 활동을 통해 실험, 타기팅, 특정 조건 등의 구체적인 기준에 따라 여러 경로를 만들어 개인이 여정을 어떻게 진행할지 정의할 수 있습니다. **최적화** 활동은 여정에서 조건부 경로를 만드는 새로운 수단입니다. 이는 이전의 **조건** 활동을 대체합니다."
 
 >[!IMPORTANT]
 >
@@ -62,6 +62,6 @@ ht-degree: 3%
 
 사용 사례에 가장 적합한 최적화 방법을 선택합니다.
 
-* 어떤 경로가 가장 성과가 좋은지 테스트하고 학습하시겠습니까? →0&rbrace;경로 실험[(으)로 이동](path-experimentation.md)
-* 서로 다른 대상을 특정 경로로 전송하시겠습니까? →0&rbrace;경로 타깃팅[(으)로 이동](path-targeting.md)
-* 조건부 논리(if/then 시나리오)를 생성하시겠습니까? →0&rbrace;조건[(으)로 이동](conditions.md)
+* 어떤 경로가 가장 성과가 좋은지 테스트하고 학습하시겠습니까? →0}경로 실험[(으)로 이동](path-experimentation.md)
+* 서로 다른 대상을 특정 경로로 전송하시겠습니까? →0}경로 타깃팅[(으)로 이동](path-targeting.md)
+* 조건부 논리(if/then 시나리오)를 생성하시겠습니까? →0}조건[(으)로 이동](conditions.md)
