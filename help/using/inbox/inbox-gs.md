@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 60190d0b-d8e7-4a78-9924-d948f2769f6c
-source-git-commit: 2eb2e99e654516fc13a7f98125f48e7e8f672ee3
+source-git-commit: f7f303685e954614b44a9b62368460e9b07b26b3
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 0%
+source-wordcount: '363'
+ht-degree: 1%
 
 ---
 
@@ -46,6 +46,10 @@ ht-degree: 0%
 
 ## 추가 리소스
 
+* [받은 편지함 UI(iOS)](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/iOS/): 요구 사항, 공개 API 표면, 받은 편지함 설정 및 Adobe Experience Platform Mobile SDK을 사용하여 iOS 앱에서 Journey Optimizer 받은 편지함을 구현하기 위한 자습서에 대한 링크(iOS 15 이상, Xcode 15 이상, Swift 5.1 이상).
+
 * [받은 편지함 가져오기 및 표시](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/displaying-inbox/): Journey Optimizer 받은 편지함 메시지를 로드하고 Android에서 받은 편지함 UI를 렌더링합니다(Adobe Developer 설명서).
+
 * [받은 편지함 사용자 지정](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/customizing-inbox/): Android 앱에 대한 받은 편지함 레이아웃, 스타일 및 상호 작용 동작을 조정합니다(Adobe Developer 설명서).
+
 * [받은 편지함 이벤트 수신](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/listening-inbox-events/): Android에서 사용자 작업 및 라이프사이클 업데이트에 대한 받은 편지함 콜백을 구독합니다(Adobe Developer 설명서).
