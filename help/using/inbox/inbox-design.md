@@ -5,9 +5,10 @@ feature: Content Cards
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: d84cc0f4d9226876e55e37409a685550fe0c9050
+exl-id: 0ab71b21-0085-4a93-b319-3c960bd8f7dd
+source-git-commit: 2eb2e99e654516fc13a7f98125f48e7e8f672ee3
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
@@ -52,8 +53,15 @@ ht-degree: 0%
 
    ![](assets/inbox-design-3.png)
 
+1. 미리 보기 패널을 열고 빈 받은 편지함이 표시되는 방식을 검토하려면 ![레일 아이콘](assets/do-not-localize/Smock_Rail_18_N.svg)을 클릭하세요.
+
+   ![](assets/inbox-design-3.png)
+
 1. **[!UICONTROL 데이터]** 섹션에서 **[!UICONTROL 메타 추가]**&#x200B;를 클릭하여 사용자 지정 키/값 쌍을 페이로드에 추가합니다.
 
 1. 받은 편지함의 다크 모드 미리 보기를 열고 어두운 테마 색상과 이미지를 확인하려면 ![](assets/do-not-localize/Smock_StarOutline_18_N.svg) 아이콘을 클릭하세요.
 
    ![](assets/inbox-design-4.png)
+
+준비가 되면 설정을 검토하고 받은 편지함을 활성화합니다. 활성화한 후에는 [콘텐츠 카드](../content-card/create-content-card.md)와 함께 사용할 수 있습니다.
+

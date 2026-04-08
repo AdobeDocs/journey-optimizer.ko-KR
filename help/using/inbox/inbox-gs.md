@@ -5,9 +5,10 @@ feature: Content Cards
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 337b8ed47892ef06a84884468919e32a333653f3
+exl-id: 60190d0b-d8e7-4a78-9924-d948f2769f6c
+source-git-commit: 2eb2e99e654516fc13a7f98125f48e7e8f672ee3
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 0%
 * **영구 메시징**: 콘텐츠가 제거되거나 만료될 때까지 받은 편지함에 남아 있으므로 사용자는 알림을 닫거나 앱을 나간 후 받은 편지함으로 돌아갈 수 있습니다.
 * **중앙 위치**: 관련 마케팅 메시지를 위한 앱 또는 사이트의 단일 사서함.
 * **유연한 구현**: 준비된 받은 편지함 컨테이너를 사용하거나 사용자 UI에서 환경을 사용자 지정합니다.
-* **장치 간 동기화**: 사용자의 장치 간에 상태 읽기 및 참여 유지
+* **읽기 상태**: 메시지를 연 장치에서 읽음 또는 읽지 않음으로 표시할 수 있습니다.
 
 ## 빠른 시작 안내서
 
