@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: 63fb247449dfb989b191254ec6d117a403edd29d
+source-git-commit: ecf61997d9ab8a7fe818db15b0b70b1a8c6ad500
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 9%
+source-wordcount: '757'
+ht-degree: 8%
 
 ---
 
@@ -70,7 +70,7 @@ journeyStepEvent의 경우 ID와 관련된 필드도 추가해야 합니다.
 | eventType | 문자열 | 오류 이벤트인지 정보 이벤트인지를 나타내는 이벤트 유형: 정보, 오류 |
 | eventCode | 문자열 | 해당 eventType의 이유를 나타내는 오류 코드 |
 
-이 섹션[에서 eventTypes &#x200B;](#discarded-events)에 대해 자세히 알아보세요.
+이 섹션[에서 eventTypes ](#discarded-events)에 대해 자세히 알아보세요.
 
 ## stepEvent {#stepevents-field}
 
@@ -100,6 +100,12 @@ journeyStepEvent의 경우 ID와 관련된 필드도 추가해야 합니다.
   **일반적인 원인**: 이벤트가 중복되고, 이벤트 볼륨이 많으며, 시스템 리소스 제약 조건이 있습니다.
 
   **문제 해결**: 중복 제거를 구현하고, 트래픽 스파이크를 방지하고, 여정 디자인을 최적화하고, 영구적인 경우 [지원에 문의](../start/user-interface.md#support-ticket-guidelines)합니다.
+
+* **maxInstanceStackEventsReached**: 여정 런타임이 지정된 여정 버전에 대해 프로필당 내부 이벤트 스택 제한인 10개에 도달했습니다.
+
+  **일반적인 원인**: 프로필의 여정 인스턴스가 오래 실행되는 단계(예: 긴 대기, 느린 보강 또는 사용자 지정 작업 다시 시도)에서 차단되고 동일한 프로필에 대한 이벤트도 해당 여정에서 사용되며 10개 이벤트 제한을 초과하여 쌓입니다.
+
+  **문제 해결**: 자주 다시 트리거하고, 업스트림 이벤트를 바운스 제거 또는 중복 제거하고, 긴 시나리오를 여러 여정으로 분할할 수 있는 경로에 대해 오래 실행되는 단계를 줄이십시오. 안전 보호대이며 제한을 구성할 수 없습니다. 스택이 소모될 때까지 추가 이벤트가 무시됩니다. 자세한 지침은 [maxInstanceStackEventsReached가 있는 삭제된 이벤트](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached)를 참조하십시오.
 
 * **EVENT_WITH_NO_EVENT**: 여정을 받았지만 이 이벤트에 응답하도록 구성된 활성 여정이 없습니다.
 
