@@ -103,4 +103,4 @@ At this point, you must have:
 
 개인화된 최적화 모델을 만드는 방법과 이 모델을 의사 결정에 적용하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3419954?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3445958?captions=kor&quality=12)

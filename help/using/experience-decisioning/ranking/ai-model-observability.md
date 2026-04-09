@@ -167,7 +167,7 @@ If no model has been successfully deployed yet, the "currently deployed model" s
 
 [!DNL Journey Optimizer]에서 AI 등급 모델을 모니터링하고 교육 상태 및 성과를 해석하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479849?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479856?captions=kor&quality=12)
 
 ## 관련 설명서 {#related}
 
