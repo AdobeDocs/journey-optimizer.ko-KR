@@ -39,7 +39,7 @@ ht-degree: 21%
 
 >[!CAUTION]
 >
->비표시 목록을 보고, 내보내고 관리할 수 있는 권한이 [관리자 여정](../administration/ootb-product-profiles.md#journey-administrator)(으)로 제한됩니다. [!DNL Journey Optimizer]이 섹션[에서 ](../administration/permissions-overview.md) 사용자의 액세스 권한 관리에 대해 자세히 알아보세요.
+>비표시 목록을 보고, 내보내고 관리할 수 있는 권한이 [관리자 여정](../administration/ootb-product-profiles.md#journey-administrator)(으)로 제한됩니다. [!DNL Journey Optimizer]이 섹션[에서 &#x200B;](../administration/permissions-overview.md) 사용자의 액세스 권한 관리에 대해 자세히 알아보세요.
 
 
 필터를 사용하여 목록을 탐색할 수 있습니다.

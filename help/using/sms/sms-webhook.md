@@ -378,7 +378,7 @@ Infobip의 경우 피드백 이벤트에 대해 만들고 인바운드 이벤트
    +++페이로드 예제
 
        &quot;json
-       {
+       &lbrace;
        &quot;inboundMessage&quot;: &quot;{{inboundMessage}}&quot;,
        &quot;profileNumber&quot;: &quot;{{profileNumber}}&quot;,
        &quot;requestId&quot;: &quot;{{requestId}}&quot;,
@@ -417,15 +417,15 @@ Infobip의 경우 피드백 이벤트에 대해 만들고 인바운드 이벤트
    +++페이로드 예제
 
        &quot;json
-       {
+       &lbrace;
        &quot;clientReference&quot;: &quot;{{client_reference}}&quot;,
-       &quot;상태&quot;: [
-       {
+       &quot;상태&quot;: &lbrack;
+       &lbrace;
        &quot;code&quot;: &quot;{{failureCode}}&quot;,
        &quot;상태&quot;: &quot;{{feedbackStatus}}&quot;
        
-       ]
-       }
+       &rbrack;
+       &rbrace;
        &quot;
    
    +++

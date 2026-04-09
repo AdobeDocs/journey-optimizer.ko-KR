@@ -77,7 +77,7 @@ Do you need specific permissions to create AI models?
    >
    >**[!UICONTROL 경험 이벤트 - 제안 상호 작용]** 필드 그룹과 연결된 스키마에서 만든 데이터 세트만 드롭다운 목록에 표시됩니다. 최대 5개의 데이터 세트를 선택할 수 있습니다.
 
-1. <!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->AI 모델을 교육하는 데 사용할 세그먼트를 선택합니다.
+1. &#x200B;<!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->AI 모델을 교육하는 데 사용할 세그먼트를 선택합니다.
 
    >[!NOTE]
    >
