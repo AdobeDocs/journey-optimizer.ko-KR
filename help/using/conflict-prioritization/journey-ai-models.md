@@ -9,7 +9,7 @@ badge: label="제한 공개" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 3e7c3069-b022-4709-936d-acaad56b5882
-source-git-commit: a1b9d589773c168cc8ad0cfac0cd1ba178ae4bb6
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 4%
@@ -28,10 +28,12 @@ ht-degree: 4%
 
 ## AI 모델 만들기 {#create-ai-model}
 
-<!--Do you need specific permissions to create AI models?
+<!--
+Do you need specific permissions to create AI models?
 >[!CAUTION]
 >
->To create, edit, or delete AI models, you must have the **Manage Ranking Strategies** permission. [Learn more](../administration/high-low-permissions.md#manage-ranking-strategies)-->
+>To create, edit, or delete AI models, you must have the **Manage Ranking Strategies** permission. [Learn more](../administration/high-low-permissions.md#manage-ranking-strategies)
+-->
 
 여정 등급에 대한 AI 모델을 만들려면 아래 단계를 따르십시오.
 
@@ -53,9 +55,10 @@ ht-degree: 4%
 1. Select the type of AI model you want to create:
 
     * **[!UICONTROL Auto-optimization]** optimizes based on past performance. [Learn more](../experience-decisioning/ranking/auto-optimization-model.md)
-    * **[!UICONTROL Personalized optimization]** optimizes and personalizes based on audiences and performance. [Learn more](../experience-decisioning/ranking/personalized-optimization-model.md)-->
+    * **[!UICONTROL Personalized optimization]** optimizes and personalizes based on audiences and performance. [Learn more](../experience-decisioning/ranking/personalized-optimization-model.md)
+-->
 
-1. **[!UICONTROL 최적화 지표]** 섹션에서 기본 [!DNL Customer Journey Analytics] [데이터 보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"}의 모든 지표가 목록에 표시됩니다. 모델을 최적화할 지표를 선택합니다.
+1. **[!UICONTROL 최적화 지표]** 섹션에서 기본 [!DNL Customer Journey Analytics] [데이터 보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"}의 모든 지표가 목록에 표시됩니다. 모델을 최적화할 지표를 선택합니다.
 
    AI 모델에 대한 Customer Journey Analytics 지표를 나열하는 ![최적화 지표 드롭다운](assets/journey-model-metrics.png){width="70%"}
 
@@ -64,7 +67,7 @@ ht-degree: 4%
    * **노출 이벤트**(표시되는 항목)
    * **전환 이벤트**(클릭 또는 전환을 초래하는 항목)
 
-   이러한 이벤트는 웹 SDK 또는 모바일 SDK을 사용하여 자동으로 캡처됩니다. [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko) 개요에서 자세히 알아보세요.
+   이러한 이벤트는 웹 SDK 또는 모바일 SDK을 사용하여 자동으로 캡처됩니다. [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) 개요에서 자세히 알아보세요.
 
 1. 전환 및 노출 이벤트가 수집되는 데이터 세트를 선택합니다. [이 섹션](../experience-decisioning/data-collection/create-dataset.md)에서 이러한 데이터 세트를 만드는 방법을 알아보세요.
 
@@ -74,7 +77,7 @@ ht-degree: 4%
    >
    >**[!UICONTROL 경험 이벤트 - 제안 상호 작용]** 필드 그룹과 연결된 스키마에서 만든 데이터 세트만 드롭다운 목록에 표시됩니다. 최대 5개의 데이터 세트를 선택할 수 있습니다.
 
-1. &#x200B;<!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->AI 모델을 교육하는 데 사용할 세그먼트를 선택합니다.
+1. <!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->AI 모델을 교육하는 데 사용할 세그먼트를 선택합니다.
 
    >[!NOTE]
    >

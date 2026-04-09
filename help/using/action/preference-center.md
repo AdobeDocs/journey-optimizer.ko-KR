@@ -5,10 +5,11 @@ title: 고객의 환경 설정 관리
 description: 동의 정책을 사용하여 사용자의 환경 설정을 관리하는 방법 알아보기
 feature: Journeys, Privacy, Consent Management, Landing Pages
 topic: Administration
-role: Data Engineer, Data Architect, Admin
+role: Developer, Admin
 level: Experienced
 keywords: 정책, 거버넌스, 플랫폼, 동의, 헬스케어 실드
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+exl-id: a3e68015-c8f8-4b01-8171-f39d70b7e59d
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '859'
 ht-degree: 6%
@@ -23,7 +24,8 @@ ht-degree: 6%
 
 최신 마케팅 자동화 생태계에서 브랜드는 다양한 접점에서 고객과 관계를 맺으며 무관하거나 과도한 커뮤니케이션의 위험에 직면하여 이탈, 스팸 불만 및 규정 준수 리스크로 이어집니다. 대상자에 대한 실시간 통찰력을 얻고 개인화되고 존중되는 커뮤니케이션을 제공하기 위해 고객의 선호도를 관리해야 하는 이유입니다.
 
-[!DNL Adobe Journey Optimizer]을(를) 사용하면 [동의 정책](consent.md)을 통해 고객의 환경 설정을 적용할 수 있습니다<!-- in terms of **channels** and **topics**-->. 이렇게 하면 [!DNL Journey Optimizer]이(가) 동의를 존중하면서 자신의 선택에 따라 <!-- their preferred channels and on the subscription topics-->을(를) 타깃팅할 수 있습니다.
+[!DNL Adobe Journey Optimizer]을(를) 사용하면 [동의 정책](consent.md)을 통해 고객의 환경 설정을 적용할 수 있습니다<!-- in terms of **channels** and **topics**-->. 이렇게 하면 [!DNL Journey Optimizer]이(가) 고객의 동의를 존중하면서 자신의 선택에 따라 고객을 타깃팅할 수 있습니다.
+<!-- their preferred channels and on the subscription topics-->
 
 [!DNL Journey Optimizer]을(를) 통해 사용자의 환경 설정을 관리하려면 다음을 수행할 수 있습니다.
 
@@ -37,7 +39,8 @@ ht-degree: 6%
 
 >[!IMPORTANT]
 >
->동의가 환경 설정에 우선합니다. 예를 들어, 고객 중 한 명이 선호 채널이 이메일이며 뉴스레터 <!-- they are interested in yoga-->을(를) 수신하는 데 동의한다고 표시했습니다. 그러나 귀하로부터 커뮤니케이션 수신을 옵트아웃한 경우 해당 채널을 귀하가 전송하는 이메일 뉴스레터로 타겟팅할 수 없습니다<!-- on yoga-->.
+>동의가 환경 설정에 우선합니다. 예를 들어, 고객 중 한 명이 선호 채널이 이메일이며 뉴스레터 <!-- they are interested in yoga-->을(를) 수신하는 데 동의한다고 표시했습니다. 그러나 귀하로부터 커뮤니케이션 수신을 옵트아웃한 경우 전송 중인 이메일 뉴스레터를 통해 타겟팅할 수 없습니다.
+<!-- on yoga-->
 
 ## 환경 설정 기록 및 준수 {#manage-preferences}
 
@@ -57,13 +60,13 @@ ht-degree: 6%
    >
    >고객 동의 및 연락처 환경 설정은 복잡한 주제입니다. 동의 및 컨텍스트 환경 설정을 [!DNL Experience Platform]에서 수집, 처리 및 필터링하는 방법에 대해 알아보려면 다음 문서를 읽는 것이 좋습니다.
    >
-   >* 동의 데이터를 수집하는 데 필요한 스키마 필드 그룹에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview){target="_blank"}를 참조하세요. 고객으로부터 수집한 동의 데이터를 처리하고 저장된 고객 프로필에 통합하는 방법에 대해 자세히 설명합니다.
-   >* 동의 및 환경 설정 필드 그룹에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/field-groups/profile/consents#ingest){target="_blank"}를 참조하세요.
-   >* 사용자 지정 환경 설정 필드를 스키마에 추가하려면 [이 섹션](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/governance-privacy-security/consent/adobe/dataset#custom-consent){target="_blank"}의 단계를 따르십시오.
+   >* 동의 데이터를 수집하는 데 필요한 스키마 필드 그룹에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview){target="_blank"}를 참조하세요. 고객으로부터 수집한 동의 데이터를 처리하고 저장된 고객 프로필에 통합하는 방법에 대해 자세히 설명합니다.
+   >* 동의 및 환경 설정 필드 그룹에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/consents#ingest){target="_blank"}를 참조하세요.
+   >* 사용자 지정 환경 설정 필드를 스키마에 추가하려면 [이 섹션](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/adobe/dataset#custom-consent){target="_blank"}의 단계를 따르십시오.
 
 1. 고객의 환경 설정을 캡처할 페이지를 만듭니다. 다음 방법 중 하나를 사용하십시오.
 
-   * [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/home){target="_blank"}를 사용하여 고객의 환경 설정을 기록할 웹 페이지를 만듭니다.
+   * [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home){target="_blank"}를 사용하여 고객의 환경 설정을 기록할 웹 페이지를 만듭니다.
 
    * 프로필 데이터를 통해 고객의 환경 설정을 캡처하는 양식을 포함하는 [!DNL Journey Optimizer] [랜딩 페이지](../landing-pages/create-lp.md)를 사용합니다.  [양식에 대해 자세히 알아보기](../landing-pages/lp-forms.md) <!--Forms not released/announced yet - TBC-->
 
@@ -81,11 +84,13 @@ ht-degree: 6%
 
    ![](assets/profile-preference-attributes.png){width=80%}
 
-<!--The corresponding profile dataset is updated as follows:
+<!--
+The corresponding profile dataset is updated as follows:
 
 |Attribute = Email id | Attribute = Offers_Push | Attribute = Newsletters_Email |
 |---------|----------|---------|
-| john.black@lumamail.com | Y | N |-->
+| john.black@lumamail.com | Y | N |
+-->
 
     >[!NOTE]
     >
@@ -101,24 +106,26 @@ ht-degree: 6%
 
 1. **[!UICONTROL 동의 정책]**&#x200B;을 선택하고 다음과 같이 조건을 입력하고 구성합니다. [동의 정책 구성 방법 알아보기](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=ko#consent-policy){target="_blank"}
 
-<!--Consent policies are comprised of two logical components:
+<!--
+Consent policies are comprised of two logical components:
 
 * **If**: The condition that will trigger the policy check, based on a certain marketing action (email, SMS, push, custom action, etc.) being performed, the presence of certain data usage labels, or a combination of the two.
 
-* **Then**: The consent attribute must be present for a profile to be included in the action that triggered the policy. More than one field can also be selected.-->
+* **Then**: The consent attribute must be present for a profile to be included in the action that triggered the policy. More than one field can also be selected.
+-->
 
     예를 들어 이메일 뉴스레터 수신을 옵트아웃하지 않은 고객에게만 커뮤니케이션을 보내려면 사용자 지정 정책을 만들고 다음 조건을 정의합니다.
     
-    * **[!UICONTROL 마케팅 액션]**&#x200B;이 **[!UICONTROL 이메일]**
+    * **[!UICONTROL 마케팅 액션]**이 **[!UICONTROL 이메일]**
     
-    인 경우 **[!UICONTROL 뉴스레터_이메일]**&#x200B;이 존재하지 않습니다 **[!UICONTROL false]** 또는 **[!UICONTROL 뉴스레터_이메일]**&#x200B;이(가) 존재하지 않습니다 **[!UICONTROL false]**
+    인 경우 **[!UICONTROL 뉴스레터_이메일]**이 존재하지 않습니다 **[!UICONTROL false]** 또는 **[!UICONTROL 뉴스레터_이메일]**이(가) 존재하지 않습니다 **[!UICONTROL false]**
     
     ![](assets/consent-policy-email-newsletter.png){width=80%}
     
     >[!TIP]
     >
-    >프로필 사용 데이터 세트에는 프로필 속성 **[!UICONTROL Newsletter_Email]**&#x200B;이 포함되며 값은 &#39;true&#39;로 설정되어야 합니다(예: 1단계에서 설명)
+    >프로필 사용 데이터 세트에는 프로필 속성 **[!UICONTROL Newsletter_Email]**이 포함되며 값은 &#39;true&#39;로 설정되어야 합니다(예: 1단계에서 설명)
 
-1. 동의 정책을 만든 후에는 [!DNL Journey Optimizer]채널 구성[&#x200B; 또는 &#x200B;](consent.md#surface-marketing-actions)사용자 지정 작업 여정[을 사용하여 &#x200B;](consent.md#journey-custom-actions)에서 활용하십시오.
+1. 동의 정책을 만든 후에는 [!DNL Journey Optimizer]채널 구성[ 또는 ](consent.md#surface-marketing-actions)사용자 지정 작업 여정[을 사용하여 ](consent.md#journey-custom-actions)에서 활용하십시오.
 
 1. 이제 여정 및 캠페인에서 이러한 채널 구성 또는 사용자 지정 작업을 사용하여 <!--targeted--> 고객의 환경 설정을 적용할 수 있습니다.

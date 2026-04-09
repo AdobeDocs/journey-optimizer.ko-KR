@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 version: Journey Orchestration
-source-git-commit: fe6e8221201ee813251a46c6603d85f0803873c0
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1459'
 ht-degree: 5%
@@ -68,7 +68,8 @@ ht-degree: 5%
 
 1. Adobe Experience Platform의 데이터를 사용하여 실제 조건을 반영하도록 순위 논리를 동적으로 조정할 수도 있습니다. 이 기능은 제품 가용성 또는 실시간 가격과 같이 자주 변경되는 속성에 특히 유용합니다. [의사 결정을 위해 Adobe Experience Platform 데이터를 사용하는 방법 알아보기](../aep-data-exd.md)
 
-<!--## Select an ELS dataset {#els-dataset}
+<!--
+## Select an ELS dataset {#els-dataset}
 
 Journey Optimizer allows you to leverage data from Adobe Experience Platform. [Learn more](../data/aep-data-perso.md)
 
@@ -82,7 +83,8 @@ To leverage data from an AEP dataset, follow the steps below.
     >
     >This action is mandatory.
 
-![](../assets/formula-els-settings.png){width="80%"-->
+![](../assets/formula-els-settings.png){width="80%"}
+-->
 
 ## 공식 빌더를 사용하여 기준 정의 {#ranking-select-criteria}
 

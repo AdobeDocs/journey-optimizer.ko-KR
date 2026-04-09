@@ -8,7 +8,8 @@ topic: Artificial Intelligence
 role: User
 level: Intermediate
 version: Journey Orchestration
-source-git-commit: e329c221fa714747d50495e466d02e75bed2967c
+exl-id: 90e71c42-94f3-4cc5-bd6e-1df29def4d39
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1432'
 ht-degree: 2%
@@ -159,13 +160,14 @@ AI 모델 모니터링은 캠페인 또는 여정 보고와 다릅니다. 단일
 * **In progress** – A training job is running. Some metrics may be temporarily unavailable until it finishes.
 * **Pending** – No result yet (for example, model recently activated or settings recently changed).
 
-If no model has been successfully deployed yet, the "currently deployed model" section and some performance fields will be empty or show the initial-state messaging.-->
+If no model has been successfully deployed yet, the "currently deployed model" section and some performance fields will be empty or show the initial-state messaging.
+-->
 
 ## 사용 방법 비디오 {#video}
 
 [!DNL Journey Optimizer]에서 AI 등급 모델을 모니터링하고 교육 상태 및 성과를 해석하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479856?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479849?quality=12)
 
 ## 관련 설명서 {#related}
 

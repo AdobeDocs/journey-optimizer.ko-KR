@@ -1,25 +1,26 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: IP 웜업 전달성 안내서
+title: IP 워밍업 게재 가능성 안내서
 description: 게재 기능의 기본 사항과 IP 웜업에 대한 모범 사례에 대해 알아봅니다.
 feature: IP Warmup Plans
 topic: Administration
 role: Admin
 level: Experienced
 keywords: IP, 전달성, 신뢰도, ISP, 참여
-source-git-commit: 5dd6ebadd7b8c7490cb10496282697ce32ff3693
+exl-id: a4c4890e-fc69-498c-83c3-8a37c34e36ed
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1064'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
-# IP 웜업 전달성 안내서 {#ip-warmup-deliverability-guide}
+# IP 워밍업 게재 가능성 안내서 {#ip-warmup-deliverability-guide}
 
 Adobe Journey Optimizer에서 새로운 IP 주소 또는 도메인으로 이메일 캠페인을 시작할 때 강력한 발신자 평판을 구축하려면 게재 기능의 기본 사항을 이해하는 것이 중요합니다. 이 안내서에서는 평판이 0에서 성공적인 받은 편지함 배치로 전환하는 데 도움이 되는 주요 개념, 준비 단계 및 모범 사례를 다룹니다.
 
-➡️ 이 [Adobe 블로그 게시물](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950?profile.language=ko){target="_blank"}의 비디오에서 게재 가능성 기본 사항, 평판 구축 및 IP 웜업에 대한 모범 사례에 대해 알아봅니다.
+➡️ 이 [Adobe 블로그 게시물](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950){target="_blank"}의 비디오에서 게재 가능성 기본 사항, 평판 구축 및 IP 웜업에 대한 모범 사례에 대해 알아봅니다.
 
 >[!NOTE]
 >
@@ -122,7 +123,7 @@ Adobe Journey Optimizer은 IP 웜업 성능을 추적하는 내장 보고 기능
 
 * **현재 인증 유지**: SPF, DKIM 및 DMARC 레코드가 올바르게 구성되어 있는지 정기적으로 확인합니다.
 
-## 주요 개선 사항 {#key-takeaways}
+## 주요 학습 사항 {#key-takeaways}
 
 * **IP 웜업이 필수임**: 웜업 프로세스를 건너뛰면 이를 올바르게 수행하는 데 필요한 작업보다 시간과 평판이 더 많이 듭니다.
 
@@ -135,7 +136,8 @@ Adobe Journey Optimizer은 IP 웜업 성능을 추적하는 내장 보고 기능
 <!--
 >[!NOTE]
 >
->For more guidance, explore the [Adobe Journey Optimizer Deliverability Guide blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950?profile.language=ko).-->
+>For more guidance, explore the [Adobe Journey Optimizer Deliverability Guide blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950).
+-->
 
 ## 관련 항목 {#related-topics}
 
@@ -147,4 +149,3 @@ Adobe Journey Optimizer은 IP 웜업 성능을 추적하는 내장 보고 기능
 * [하위 도메인 위임](delegate-subdomain.md)
 * [금지 목록 관리](manage-suppression-list.md)
 * [전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko)
-

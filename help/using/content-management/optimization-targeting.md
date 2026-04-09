@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 keywords: 타깃팅, 최적화, 대상, 개인화, 규칙
 exl-id: ced2248a-e0fb-4fc5-b00b-13972618eeb9
-source-git-commit: df7591e337ad11cd51ec1a1c06312823a27561a2
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 8%
@@ -63,7 +63,7 @@ ht-degree: 8%
 
    >[!AVAILABILITY]
    >
-   >[전용 &#x200B;](../experience-decisioning/rules.md#create) 메뉴에서 타깃팅 규칙을 만드는 중[!DNL Journey Optimizer]은(는) 현재 Decisioning 추가 기능 서비스를 구입한 조직에서 사용할 수 있으며 다른 조직에 대해 필요할 때 사용할 수 있습니다(제한된 가용성).
+   >[전용 ](../experience-decisioning/rules.md#create) 메뉴에서 타깃팅 규칙을 만드는 중[!DNL Journey Optimizer]은(는) 현재 Decisioning 추가 기능 서비스를 구입한 조직에서 사용할 수 있으며 다른 조직에 대해 필요할 때 사용할 수 있습니다(제한된 가용성).
    >
    >이 용량은 모든 고객에게 점진적으로 제공될 예정입니다. 그동안 Adobe 담당자에게 문의하여 액세스 권한을 얻으십시오.
 
@@ -95,8 +95,10 @@ ht-degree: 8%
 
 여정/캠페인이 라이브되면 미국 거주자는 특정 메시지를, 프랑스 거주자는 다른 메시지를 얻을 수 있도록 각 대상에 맞게 조정된 콘텐츠가 전송됩니다.
 
-<!--Default content:
+<!--
+Default content:
 
 * If no targeting rules match, default content can be delivered.
 
-* If default content is not enabled, passthrough behavior ensures lower-priority campaigns are evaluated.-->
+* If default content is not enabled, passthrough behavior ensures lower-priority campaigns are evaluated.
+-->

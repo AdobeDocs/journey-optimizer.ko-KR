@@ -5,7 +5,7 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
-source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 14%
@@ -26,7 +26,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->승인 정책을 만들려면 Adobe Experience Platform에서 시스템 또는 제품 관리자 권한이 있어야 합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/home)
+>승인 정책을 만들려면 Adobe Experience Platform에서 시스템 또는 제품 관리자 권한이 있어야 합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)
 
 승인 정책을 사용하면 관리자가 여정 및 캠페인에 대한 유효성 검사 프로세스를 설정할 수 있습니다. 이 시스템은 여정 또는 캠페인에 승인이 필요한지 여부를 결정하는 특정 조건을 간략하게 설명합니다. 이러한 정책은 복잡성에 따라 다를 수 있습니다. 모든 캠페인을 특정 사용자 또는 팀이 검토하도록 하거나, 캠페인을 만든 사람을 기준으로 기준을 설정할 수 있습니다.
 
@@ -142,6 +142,8 @@ ht-degree: 14%
     <td>지정된 요청자의 사용자 그룹 이름</td>
     </tr>
     </table>
+
+   +++
 
 1. 조건을 더 추가하려면 **[!UICONTROL 조건 추가]**&#x200B;를 클릭하여 추가 규칙을 정의하고 **[!UICONTROL And]** 또는 **[!UICONTROL Or]**&#x200B;을(를) 선택하여 조건 연결 방식을 지정하십시오.
 

@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 하위 도메인, 도메인, 메일, DMARC, 레코드
 exl-id: 15b10a61-6ecd-4ffa-b1c2-21e862263f6d
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 100%
@@ -47,7 +47,8 @@ ht-degree: 100%
 
   그러나 CNAME 설정을 사용하려면 호스팅 솔루션에 몇 가지 추가 항목이 필요합니다. 따라서 IT 부서에서 [이 섹션](dmarc-record.md#implement-dmarc)에 설명된 업데이트를 수행할 수 있게 해야 합니다.
 
-<!--The most recent timelines shared by Google and Yahoo! are as follows:
+<!--
+The most recent timelines shared by Google and Yahoo! are as follows:
 
 * Google:
 

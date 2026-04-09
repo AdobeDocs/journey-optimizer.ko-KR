@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: css, 편집기, 요약, 이메일
 exl-id: e4645bc7-fb99-4fcc-8d0e-bf8b9efc828e
-source-git-commit: 5593758448216efcc82971b1072b7fc8c9303572
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 10%
@@ -51,7 +51,7 @@ ht-degree: 10%
 
    >[!NOTE]
    >
-   >잠긴 콘텐츠[가 있는 &#x200B;](../content-management/content-locking.md#use)템플릿을 사용하는 경우 콘텐츠에 사용자 지정 CSS를 추가할 수 없습니다. 단추 레이블이 **[!UICONTROL 사용자 지정 CSS 보기]**(으)로 변경되고 콘텐츠에 이미 있는 사용자 지정 CSS는 읽기 전용입니다.
+   >잠긴 콘텐츠[가 있는 ](../content-management/content-locking.md#use)템플릿을 사용하는 경우 콘텐츠에 사용자 지정 CSS를 추가할 수 없습니다. 단추 레이블이 **[!UICONTROL 사용자 지정 CSS 보기]**(으)로 변경되고 콘텐츠에 이미 있는 사용자 지정 CSS는 읽기 전용입니다.
 
 1. 사용자 지정 CSS를 저장하고 사용자 지정 CSS가 콘텐츠에 올바르게 적용되었는지 확인합니다. 그렇지 않은 경우 [문제 해결](#troubleshooting) 섹션을 확인하십시오.
 
@@ -223,7 +223,8 @@ body {
 * **[!UICONTROL 사용자 지정 CSS 추가]** 옵션을 통해 적용된 CSS를 포함하는 이메일 Designer으로 만든 콘텐츠를 가져오는 경우 이전에 적용된 CSS가 동일한 옵션에서 표시되고 편집할 수 있습니다.
 
 <!--
-* If importing content created with the Email Designer with CSS applied externally, the CSS code previously applied cannot be accessed within the **[!UICONTROL Add custom CSS]** pop-up window, but you can still override it with new custom CSS.-->
+* If importing content created with the Email Designer with CSS applied externally, the CSS code previously applied cannot be accessed within the **[!UICONTROL Add custom CSS]** pop-up window, but you can still override it with new custom CSS.
+-->
 
 ## 문제 해결 {#troubleshooting}
 

@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 이메일, 템플릿, 이미지, HTML, AI, 디자인, 변환기
 exl-id: d13467b7-2f3c-4707-a7e0-9b46cb6cafb1
-source-git-commit: 8c6de43fd60849d1e236183a3c8a81ce20a227ca
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '2043'
 ht-degree: 2%
@@ -41,8 +41,10 @@ ht-degree: 2%
 * **캠페인 간 재사용 가능** - 템플릿을 라이브러리에 저장하고 여정 또는 캠페인에서 사용합니다.
 * **디자인에 맞게 유지** - 출력은 전자 메일 Designer과 완벽하게 호환되면서 레이아웃과 스타일이 일치합니다.
 
-<!--* **Design fidelity**: Maintain visual consistency with your original design while creating fully editable content
-* **Email compatibility**: Generate HTML that works seamlessly with the Email Designer and across email clients-->
+<!--
+* **Design fidelity**: Maintain visual consistency with your original design while creating fully editable content
+* **Email compatibility**: Generate HTML that works seamlessly with the Email Designer and across email clients
+-->
 
 +++ 일반적인 사용 사례
 
@@ -101,7 +103,8 @@ HTML으로 이미지 변환기는 다음 경우에 이상적입니다.
 <!--
 * **Background processing**: The AI processing happens in the background, so you can work on other tasks without keeping the screen open. The template is automatically saved as a draft once the conversion is complete.
 
-**Feedback is welcome!** Use the dedicated section to share your thoughts and suggestions with Adobe to help us improve the feature.-->
+**Feedback is welcome!** Use the dedicated section to share your thoughts and suggestions with Adobe to help us improve the feature.
+-->
 
 ## 이미지를 HTML 템플릿으로 변환 {#convert-image}
 

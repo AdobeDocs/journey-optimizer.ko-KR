@@ -7,7 +7,7 @@ role: Developer
 level: Experienced
 exl-id: 8d82b4db-2ba8-4692-a63e-9cb3c6c434c3
 version: Journey Orchestration
-source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 8%
@@ -25,7 +25,7 @@ PUT 요청을 오퍼 라이브러리 API로 만들어 규칙을 수정하거나 
 다음 표는 요청 헤더의 콘텐츠 유형 필드를 구성하는 유효한 값을 보여 줍니다.
 
 | 헤더 이름 | 값 |
-| --------- | ----------- | 
+| --------- | ----------- |
 | Content-Type | `application/json` |
 
 **API 형식**

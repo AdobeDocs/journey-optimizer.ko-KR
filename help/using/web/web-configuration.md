@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 2161baf0-38b7-4397-bffe-083929e8033a
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '935'
 ht-degree: 11%
@@ -113,7 +113,7 @@ ht-degree: 11%
     <tr>
         <th><strong>연산자</th>
         <th><strong>설명</th>
-        <th><strong>예</th>
+        <th><strong>예시</th>
     </tr>
     </thead>
     <tbody>
@@ -133,7 +133,7 @@ ht-degree: 11%
         <td></td>
     </tr>
     <tr>
-        <td>모두</td>
+        <td>Any</td>
         <td>모든 경로와 일치합니다. 하나 또는 여러 도메인에서 모든 경로를 타깃팅할 때 유용합니다.</td>
         <td></td>
     </tr>

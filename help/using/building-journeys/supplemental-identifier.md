@@ -3,7 +3,7 @@ title: 여정에서 추가 식별자 사용
 description: 여정에서 보조 식별자를 사용하는 방법을 알아봅니다.
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1434'
 ht-degree: 4%
@@ -141,13 +141,15 @@ ht-degree: 4%
 
       스키마에 비개인 ID 네임스페이스를 적용한 후 보조 식별자를 사용하려면 새 필드 그룹을 만들어야 합니다. 새 식별자를 인식하기 위해 기존 엔티티를 새로 고칠 수 없습니다.
 
-<!--1. **Add the supplemental ID field to the data source**
+<!--
+1. **Add the supplemental ID field to the data source**
 
     1. Navigate to the **[!UICONTROL Configuration]** / **[!UICONTROL Data Sources]** menu, then locate the "ExperiencePlatformDataSource" data source.
 
         ![Data source configuration with supplemental identifier mapping](assets/supplemental-ID-data-source.png)
 
-    1. Open the field selector then select the attribute you want to use as a supplemental identifier (e.g., booking ID, subscription ID).-->
+    1. Open the field selector then select the attribute you want to use as a supplemental identifier (e.g., booking ID, subscription ID).
+-->
 
 1. **여정에서 대상자 읽기 활동을 추가하고 구성합니다**
 
@@ -248,4 +250,4 @@ ht-degree: 4%
 
 [!DNL Adobe Journey Optimizer]에서 보조 식별자를 활성화하고 적용하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464799?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)

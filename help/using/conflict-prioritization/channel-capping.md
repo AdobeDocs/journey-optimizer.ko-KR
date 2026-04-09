@@ -9,16 +9,16 @@ role: User
 level: Intermediate
 keywords: 메시지, 빈도, 규칙, 압력
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1249'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
 # 채널 및 커뮤니케이션 유형별 빈도 캡핑 {#rule-sets}
 
-**채널** 규칙 집합은 최대 가용량 규칙을 통신 채널에 적용합니다. 예를 들어 하루에 1개 이상의 이메일 또는 SMS 커뮤니케이션을 보내지 마십시오.
+**채널** 규칙 집합은 최대 가용량 규칙을 통신 채널에 적용합니다. 예를 들어, 하루에 1회 이상의 이메일 또는 SMS 커뮤니케이션을 보내지 않도록 합니다.
 
 채널 규칙 세트를 활용하면 통신 유형별로 빈도 상한을 설정하여 유사한 메시지가 있는 고객을 오버로드할 수 있습니다. 예를 들어 고객에게 전송되는 **프로모션 커뮤니케이션**&#x200B;의 수를 제한하는 규칙 세트와 고객에게 전송되는 **뉴스레터**&#x200B;의 수를 제한하는 규칙 세트를 만들 수 있습니다. 생성 중인 캠페인 유형에 따라 프로모션 커뮤니케이션 또는 뉴스레터 규칙 세트를 적용하도록 선택할 수 있습니다.
 
@@ -161,8 +161,9 @@ You can combine several message frequency rules, such as described in the exampl
 
 In this scenario, an individual profile:
 * can receive up to 12 marketing messages per month;
-* but will be excluded from marketing push notifications after they have received 4 push notifications.-->
+* but will be excluded from marketing push notifications after they have received 4 push notifications.
+-->
 
 ## 사용 방법 비디오 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444733?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

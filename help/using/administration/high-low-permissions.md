@@ -9,7 +9,7 @@ role: Admin, Developer
 level: Experienced
 keywords: 권한, 높은 수준, 낮은 수준, 프로필, admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1303'
 ht-degree: 0%
@@ -176,11 +176,13 @@ ht-degree: 0%
       * campaign.read
       * campaign.write
       * campaign.delete
-     <!--* experiments.read
+     <!--
+      * experiments.read
       * experiments.write
-      * experiments.delete-->
+      * experiments.delete
+-->
 
-  +++
++++
 
 * **[!DNL Publish campaigns]** 높은 수준의 권한으로 사용자가 캠페인을 게시할 수 있습니다.
 
@@ -190,9 +192,11 @@ ht-degree: 0%
 
       * 캠페인 읽기
       * campaign-게시
-        <!--* experiments.activate-->
+     <!--
+      * experiments.activate
+-->
 
-  +++
++++
 
 * **[!DNL View campaigns report]** 높은 수준의 권한으로 사용자가 캠페인 보고서를 읽고 편집할 수 있습니다.
 
@@ -201,10 +205,12 @@ ht-degree: 0%
    * Journey Optimizer 관련:
       * campaign.read
       * campaign-report.read
-     <!--* experiments.read
-      * experiments_report.read-->
+     <!--
+      * experiments.read
+      * experiments_report.read
+-->
 
-  +++
++++
 
 ## 의사 결정 관리 리소스 {#decisions-permissions}
 

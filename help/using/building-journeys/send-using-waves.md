@@ -10,7 +10,7 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: 예약된 일괄 처리, 일정, 여정, 대상자 읽기, 전달성
 exl-id: 1aaff17f-aa08-4f10-903c-8335a86ac6eb
-source-git-commit: 62982a0bef06ffc84c254577ca1bb676a180e541
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '858'
 ht-degree: 1%
@@ -24,7 +24,8 @@ ht-degree: 1%
 <!--
 >[!CAUTION]
 >
->Wave sending is available for read audience journeys only and applies to **outbound** actions only (Email, SMS, Push, Direct mail).-->
+>Wave sending is available for read audience journeys only and applies to **outbound** actions only (Email, SMS, Push, Direct mail).
+-->
 
 대상자가 입장하는 방법과 작업을 예약하는 방법을 정의할 때 여정 수준에서 구성합니다. 예약된 일괄 처리 수, 예약된 일괄 처리 크기(대상의 백분율 또는 절대 숫자) 및 각 일괄 처리가 실행되는 시점을 정의합니다.
 

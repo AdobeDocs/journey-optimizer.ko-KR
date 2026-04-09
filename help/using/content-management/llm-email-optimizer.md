@@ -5,7 +5,8 @@ feature: Email Design
 topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner, Intermediate
-source-git-commit: 43444cc8c49bd50dce54995c70b4fc8ef0976119
+exl-id: 0c2f95ce-28a0-480c-9829-b7e4975b6340
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1084'
 ht-degree: 1%
@@ -14,7 +15,7 @@ ht-degree: 1%
 
 # AI 받은 편지함에 대한 이메일 텍스트 최적화 {#email-text-optimizer}
 
-[!DNL Adobe Journey Optimizer]에는 개선된 AI 지원 받은 편지함 환경(예: [의 &#x200B;](../email/text-version-email.md) 및 [!DNL Apple Intelligence])을 위해 메시지의 [!DNL Google Gemini]텍스트 버전[!DNL Gmail]을 구성하는 데 도움이 되는 전자 메일 채널 기능이 포함되어 있으므로 질문에 답변하고 콘텐츠를 기반으로 메일을 보다 정확하게 요약하여 더 나은 결과를 얻을 수 있습니다.
+[!DNL Adobe Journey Optimizer]에는 개선된 AI 지원 받은 편지함 환경(예: [의 ](../email/text-version-email.md) 및 [!DNL Apple Intelligence])을 위해 메시지의 [!DNL Google Gemini]텍스트 버전[!DNL Gmail]을 구성하는 데 도움이 되는 전자 메일 채널 기능이 포함되어 있으므로 질문에 답변하고 콘텐츠를 기반으로 메일을 보다 정확하게 요약하여 더 나은 결과를 얻을 수 있습니다.
 
 >[!NOTE]
 >
@@ -41,7 +42,8 @@ ht-degree: 1%
 ## 권장 사용 사례 {#use-cases}
 
 <!--
-* **Critical details only in images** — Offers, promo codes, or deadlines shown in banners or graphics are invisible in plain text. Use the optimizer (and manual edits) so the same facts appear as text, improving extraction by AI summaries and text-only clients.-->
+* **Critical details only in images** — Offers, promo codes, or deadlines shown in banners or graphics are invisible in plain text. Use the optimizer (and manual edits) so the same facts appear as text, improving extraction by AI summaries and text-only clients.
+-->
 
 * **자동 생성된 조밀 또는 조각화된 텍스트** — 기본 일반 텍스트를 스캔하기 어려운 경우 최적화를 통해 명확한 오퍼 및 링크를 통해 선명한 선형을 생성할 수 있습니다.
 

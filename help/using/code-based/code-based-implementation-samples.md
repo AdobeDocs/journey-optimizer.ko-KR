@@ -6,7 +6,7 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
-source-git-commit: 05f076f19a348032e5bb21d7d1682509bd5d2658
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '993'
 ht-degree: 3%
@@ -41,7 +41,7 @@ ht-degree: 3%
 
 ### 작동 방법 - 웹 SDK {#client-side-how}
 
-1. [웹 SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko){target="_blank"}이(가) 페이지에 포함되어 있습니다.
+1. [웹 SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"}이(가) 페이지에 포함되어 있습니다.
 
 1. 개인화 콘텐츠를 가져오려면 `sendEvent` 명령을 사용하고 [표면 URI](code-based-surface.md)<!--( or location/path)-->를 지정해야 합니다.
 
@@ -131,7 +131,7 @@ ht-degree: 3%
 
 쿠키는 사용자 ID 및 클러스터 정보를 유지하는 데 사용됩니다. 클라이언트측 구현을 사용하는 경우 웹 SDK은 요청 라이프사이클 동안 이러한 쿠키의 저장 및 전송을 자동으로 처리합니다.
 
-| Cookie | 용도 | 저장 주체 | 보낸 사람 |
+| 쿠키 | 용도 | 저장 주체 | 보낸 사람 |
 | ------------------------ | -------------------------------------------------------------------------- | --------- | ------- |
 | kndctr_AdobeOrg_identity | 사용자 ID 세부 정보 포함 | Web SDK | Web SDK |
 | kndctr_AdobeOrg_cluster | 요청을 이행하는 데 사용해야 하는 경험 에지 클러스터를 나타냅니다. | Web SDK | Web SDK |
@@ -296,7 +296,7 @@ ht-degree: 3%
 
 쿠키는 사용자 ID 및 클러스터 정보를 유지하는 데 사용됩니다. 서버측 구현을 사용하는 경우 애플리케이션 서버는 요청 라이프사이클 동안 이러한 쿠키의 저장 및 전송을 처리해야 합니다.
 
-| Cookie | 용도 | 저장 주체 | 보낸 사람 |
+| 쿠키 | 용도 | 저장 주체 | 보낸 사람 |
 | ------------------------ | -------------------------------------------------------------------------- | ------------------ | ------------------ |
 | kndctr_AdobeOrg_identity | 사용자 ID 세부 정보 포함 | 응용 프로그램 서버 | 응용 프로그램 서버 |
 | kndctr_AdobeOrg_cluster | 요청을 이행하는 데 사용해야 하는 경험 에지 클러스터를 나타냅니다. | 응용 프로그램 서버 | 응용 프로그램 서버 |
@@ -319,7 +319,7 @@ ht-degree: 3%
 하이브리드 구현이 있는 경우 아래 링크를 확인하십시오.
 
 * Adobe 기술 블로그: [Adobe Experience Platform 웹 SDK의 하이브리드 Personalization](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
-* SDK 설명서: [Web SDK 및 Edge Network Server API를 사용한 하이브리드 개인화](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html?lang=ko){target="_blank"}
+* SDK 설명서: [Web SDK 및 Edge Network Server API를 사용한 하이브리드 개인화](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html){target="_blank"}
 
 ## Adobe Experience Platform Assurance을 사용하여 Edge 네트워크 API 호출 디버그 {#debugging-edge-api-assurance}
 
@@ -368,4 +368,5 @@ To help you get started with implementing code-based experiences, refer to the c
 
 * **Web SDK implementation**: Learn how to configure the Web SDK for decisioning and code-based experiences in [these tutorials](code-based-decisioning-implementations.md#tutorials).
 
-* **Decisioning implementation**: To learn how to implement decisioning capabilities on a code-based campaign, follow [this use case tutorial](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-uc){target="_blank"}.-->
+* **Decisioning implementation**: To learn how to implement decisioning capabilities on a code-based campaign, follow [this use case tutorial](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-uc){target="_blank"}.
+-->

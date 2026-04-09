@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '9005'
 ht-degree: 99%
@@ -99,7 +99,8 @@ ht-degree: 99%
 </tbody>
 </table>
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>RCS Basic Messaging</strong><br/></th>
@@ -116,14 +117,17 @@ ht-degree: 99%
 <li><strong>Fallback to SMS:</strong> Automatic fallback to SMS when the recipient's device does not support RCS or is temporarily unreachable via RCS.</li>
 <li><strong>Basic message composition:</strong> Send basic text-based RCS messages.</li>
 </ul>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
-<!--/td>
+<!--img src="assets/do-not-localize/FILE.gif"
+-->
+<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.-->
+<!--
+/td>
 </tr>
 </tbody>
-</table-->
+-->
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Direct mail channel in Orchestrated campaigns</strong><br/></th>
@@ -133,14 +137,17 @@ ht-degree: 99%
 <tr>
 <td>
 <p>Direct mail channel is now available in orchestrated campaigns. The Direct mail activity facilitates direct mail sending within your Orchestrated campaign, for both one-time and recurring messages. It serves to automate the process of generating the extraction file required by direct mail providers. You can combine channel activities into the Orchestrated campaign canvas to create cross-channel campaigns that can trigger actions based on customer behavior and data.</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
-<!--/td>
+<!--img src="assets/do-not-localize/FILE.gif"
+-->
+<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.-->
+<!--
+/td>
 </tr>
 </tbody>
-</table-->
+-->
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Direct Mail channel in journeys</strong><br/></th>
@@ -151,14 +158,17 @@ ht-degree: 99%
 <td>
 <p>Previously limited to Campaigns, Direct Mail channel is now available on the journey canvas, enabling you to incorporate Direct Mail into your journeys. Direct Mail can now be used in both batch and 1:1 journey scenarios, with support for file extraction configuration and time-based frequency settings.</p>
 <p> Previously released in Limited Availability, this capability is now available to all environments (General Availability).</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
-<!--/td>
+<!--img src="assets/do-not-localize/FILE.gif"
+-->
+<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.-->
+<!--
+/td>
 </tr>
 </tbody>
-</table-->
+-->
 
-<!--<table>
+<!--
+<table>
 <thead>
 <tr>
 <th><strong>New source connectors for loyalty apps</strong><br/></th>
@@ -173,9 +183,11 @@ ht-degree: 99%
 </td>
 </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Decisioning support in email channel</strong><br/></th>
@@ -192,7 +204,7 @@ ht-degree: 99%
 </td>
 </tr>
 </tbody>
-</table-->
+-->
 
 <table>
 <thead>
@@ -432,7 +444,6 @@ You can now use AI models to optimize the best content in your email through the
 </tr>
 </tbody>
 </table>
-
 -->
 
 
@@ -670,7 +681,8 @@ You can now use AI models to optimize the best content in your email through the
 </tbody>
 </table>
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Use Adobe Experience Platform data for personalization</strong><br/></th>
@@ -691,9 +703,10 @@ You can now use AI models to optimize the best content in your email through the
 </td>
 </tr>
 </tbody>
-</table-->
+-->
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Use Decisioning in email channel</strong><br/></th>
@@ -709,7 +722,7 @@ You can now use AI models to optimize the best content in your email through the
 </td>
 </tr>
 </tbody>
-</table-->
+-->
 
 <table>
 <thead>
@@ -1356,8 +1369,10 @@ You can now use AI models to optimize the best content in your email through the
 <p>Adobe Experience Manager와 Adobe Journey Optimizer의 통합을 통해 이제 Journey Optimizer 콘텐츠 내에서 Adobe Experience Manager 콘텐츠 조각을 손쉽게 사용할 수 있습니다. 이 원활한 연결을 통해 Journey Optimizer에서 직접 AEM 콘텐츠에 손쉽게 액세스하고 사용할 수 있습니다.</p>
 <p>이전에는 제한된 일부 조직에서만 사용할 수 있었던(LA) 이 기능을 이제 다음 개선 사항과 더불어 GA로 사용할 수 있습니다. [편집기 모드]를 사용하여 조각 서명 내에서 자리 표시자를 정의하고 개인화 값을 매핑할 수 있습니다.</p>
 <ul>
-<!--li>Create offers by directly selecting an AEM Content Fragment.</li>
-<li>Define placeholders and map personalization values within the fragment signature using the Editor mode.</li-->
+<!--
+li>Create offers by directly selecting an AEM Content Fragment.</li>
+<li>Define placeholders and map personalization values within the fragment signature using the Editor mode.</li
+-->
 </ul>
 </br>
 <img src="assets/do-not-localize/content-fragment.gif">
@@ -1545,19 +1560,24 @@ You can now use AI models to optimize the best content in your email through the
 <!--
 * **Decisioning - Leverage Adobe Experience Platform datasets** 
   
-  Journey Optimizer now allows you to leverage Adobe Experience Platform datasets in the following Decisioning objects: eligibility rules, ranking formulas, and capping rules.-->
+  Journey Optimizer now allows you to leverage Adobe Experience Platform datasets in the following Decisioning objects: eligibility rules, ranking formulas, and capping rules.
+-->
 
 * **캠페인 목록의 오른쪽 레일** - 사용 가능한 날짜: 2025년 5월 20일
 
   이제 캠페인 목록에서 캠페인을 선택하면 세부 정보가 표시되는 창이 열립니다.
 
-<!--* **Form fields in code-based experience content**
+<!--
+* **Form fields in code-based experience content**
 
-  In content templates, you can now define specific JSON or HTML fields which enable non-technical users to easily edit content in code-based experiences without the need to manipulate code.-->
+  In content templates, you can now define specific JSON or HTML fields which enable non-technical users to easily edit content in code-based experiences without the need to manipulate code.
+-->
 
-<!--* **Subdomains - 'Custom delegation' method**  
+<!--
+* **Subdomains - 'Custom delegation' method**  
   In addition to the full delegation and the CNAME method, a new subdomain configuration method is now available: the Custom delegation method, which enables you to fully own controlling and maintaining all aspects of DNS that are required for delivering, rendering, and tracking messages.
-  -->
+  
+-->
 
 
 
@@ -1587,7 +1607,8 @@ You can now use AI models to optimize the best content in your email through the
 </tbody>
 </table>
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Adobe Experience Manager as a Cloud Service integration</strong><br/></th>
@@ -1601,9 +1622,10 @@ You can now use AI models to optimize the best content in your email through the
 </td>
 </tr>
 </tbody>
-</table-->
+-->
 
-<!--<table>
+<!--
+<table>
 <thead>
 <tr>
 <th><strong>Simulate content variations (General Availability)</strong><br/></th>
@@ -1618,7 +1640,8 @@ You can now use AI models to optimize the best content in your email through the
 </td>
 </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 <table>
 <thead>
@@ -1637,7 +1660,8 @@ You can now use AI models to optimize the best content in your email through the
 </table>
 
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Custom SMS provider (General Availability)</strong><br/></th>
@@ -1650,7 +1674,7 @@ You can now use AI models to optimize the best content in your email through the
 <p>For more information, refer to the <a href="../sms/sms-configuration-custom.md">detailed documentation</a>.</p></td>
 </tr>
 </tbody>
-</table-->
+-->
 
 
 <table>
@@ -1674,7 +1698,8 @@ You can now use AI models to optimize the best content in your email through the
 
 
 
-<!--<table>
+<!--
+<table>
 <thead>
 <tr>
 <th><strong>Calendar view for campaign and journey inventory (Limited Availability)</strong><br/></th>
@@ -1688,7 +1713,8 @@ You can now use AI models to optimize the best content in your email through the
 </td>
 </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 <table>
 <thead>
@@ -1725,7 +1751,8 @@ You can now use AI models to optimize the best content in your email through the
 </tbody>
 </table>
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Themes in the Email Designer (Beta)</strong><br/></th>
@@ -1742,7 +1769,7 @@ You can now use AI models to optimize the best content in your email through the
 </td>
 </tr>
 </tbody>
-</table-->
+-->
 
 <table>
 <thead>
@@ -1831,21 +1858,25 @@ You can now use AI models to optimize the best content in your email through the
   >
   >이 개선 사항은 일부 조직에서만 사용할 수 있습니다(제한된 가용성).
 
-<!--- **Folders for content templates and fragments** - Availability date: May 5, 2025
+<!--
+**Folders for content templates and fragments** - Availability date: May 5, 2025
 
   Previously available for a set of organizations (LA), folders are now available to all users (GA) to manage their content templates and fragments. Folders let you organize your content templates and fragments more easily and effectively into a structured hierarchy.
 
 
 
-<!--- **Right rail in campaigns list**  
+**Right rail in campaigns list**  
 
-  A right rail has been added to the campaigns list, providing detailed information when a campaign is selected.-->
+  A right rail has been added to the campaigns list, providing detailed information when a campaign is selected.
+-->
 
-<!--**Playbooks**
+<!--
+**Playbooks**
 
 - **Create your own playbooks (Beta)**
   
-  You can now create your own playbooks in Adobe Journey Optimizer, enabling greater customization and flexibility in journey planning.-->
+  You can now create your own playbooks in Adobe Journey Optimizer, enabling greater customization and flexibility in journey planning.
+-->
 
 
 
@@ -1855,7 +1886,8 @@ You can now use AI models to optimize the best content in your email through the
 
 이번 릴리스의 새로운 기능을 아래에서 자세히 설명합니다.
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Integration with Adobe Express (Limited Availability)</strong><br/></th>
@@ -1872,10 +1904,11 @@ You can now use AI models to optimize the best content in your email through the
 </td>
 </tr>
 </tbody>
-</table-->
+-->
 
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Journey metrics</strong><br/></th>
@@ -1890,9 +1923,10 @@ You can now use AI models to optimize the best content in your email through the
 </td>
 </tr>
 </tbody>
-</table-->
+-->
 
-<!-- table>
+<!--
+ table>
 <thead>
 <tr>
 <th><strong>Calendar view for journeys (Limited Availability)</strong><br/></th>
@@ -1907,7 +1941,7 @@ You can now use AI models to optimize the best content in your email through the
 </td>
 </tr>
 </tbody>
-</table-->
+-->
 
 <table>
 <thead>
@@ -1969,7 +2003,8 @@ You can now use AI models to optimize the best content in your email through the
 </table>
 </table>
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>LINE channel (Limited Availability)</strong><br/></th>
@@ -1984,7 +2019,7 @@ You can now use AI models to optimize the best content in your email through the
 </td>
 </tr>
 </tbody>
-</table-->
+-->
 
 
 ### 개선 사항 {#25-03-improv}
@@ -2033,9 +2068,11 @@ HTML 유형 콘텐츠 템플릿은 이제 사용되지 않습니다. [!DNL Journ
 
 이제 트랜잭션 이메일 채널 구성의 마케팅 액션을 통해 사용자 정의 동의 정책을 활용할 수 있습니다. [자세히 알아보기](../action/consent.md#surface-marketing-actions)
 
-<!--**Deliverability**
+<!--
+**Deliverability**
 
-You can now choose to have your emails relayed to your SMTP servers instead of being sent directly from Journey Optimizer to ISPs. This allows you to route final email deliveries through your own Mail Transfer Agents and IPs, or to perform final validations on the emails before sending them to your recipients. The SMTP relay capacity is available on demand - contact your Adobe representative.-->
+You can now choose to have your emails relayed to your SMTP servers instead of being sent directly from Journey Optimizer to ISPs. This allows you to route final email deliveries through your own Mail Transfer Agents and IPs, or to perform final validations on the emails before sending them to your recipients. The SMTP relay capacity is available on demand - contact your Adobe representative.
+-->
 
 
 
@@ -2162,7 +2199,8 @@ You can now choose to have your emails relayed to your SMTP servers instead of b
 
 
 <!--
-* The personalization editor has been enhanced with new capabilities such as Auto-complete, Search, and filtering options. You can also show or hide deprecated attributes.-->
+* The personalization editor has been enhanced with new capabilities such as Auto-complete, Search, and filtering options. You can also show or hide deprecated attributes.
+-->
 
 
 * **이메일 구성** - Adobe 외부에서 동의를 관리하는 경우 이제 이메일 채널 구성 설정의 일부로 사용자 정의 구독 취소 이메일 주소와 사용자 정의 원클릭 구독 취소 URL을 설정할 수 있습니다. [자세히 보기](../email/list-unsubscribe.md#custom-managed)

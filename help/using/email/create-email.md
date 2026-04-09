@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 만들기, 이메일, 시작, 여정, 캠페인
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1187'
 ht-degree: 9%
@@ -196,7 +196,6 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 >이메일 열기 및/또는 상호 작용을 통해 수신자의 동작을 추적하려면 **[!UICONTROL 추적]** 섹션의 전용 옵션이 여정의 [이메일 활동](../building-journeys/journey-action.md) 또는 이메일 [캠페인](../campaigns/create-campaign.md)에서 활성화되어 있는지 확인하십시오.<!--to move?-->
 
 <!--
-
 ## Define your email content {#email-content}
 
 Use [!DNL Journey Optimizer] Email Designer to [design your email from scratch](../email/content-from-scratch.md). If you have an existing content, you can [import it in the Email Designer](../email/existing-content.md), or [code your own content](../email/code-content.md) in [!DNL Journey Optimizer]. 
@@ -220,6 +219,5 @@ Control the rendering of your email, and check personalization settings with tes
 ![](assets/messages-simple-preview.png)
 
 You must also check alerts in the upper section of the editor.  Some of them are simple warnings, but others can prevent you from using the message. 
-
 -->
 

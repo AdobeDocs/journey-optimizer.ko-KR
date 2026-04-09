@@ -7,7 +7,7 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: 19ec3410-761e-4a9c-a277-f105fc446d7a
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 95%
@@ -22,10 +22,12 @@ Adobe Experience Platform **Privacy Service**&#x200B;는 고객 데이터 요청
 
 ![](assets/requests.png)
 
-Privacy Service에 대한 자세한 내용 및 개인 정보 요청을 만들고 관리하는 방법은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko){target="_blank"}를 참조하세요.
+Privacy Service에 대한 자세한 내용 및 개인 정보 요청을 만들고 관리하는 방법은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko-KR){target="_blank"}를 참조하세요.
 
-<!--* [Privacy Service overview](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko)
-* [Managing privacy jobs in the Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ko)-->
+<!--
+* [Privacy Service overview](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)
+* [Managing privacy jobs in the Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html)
+-->
 
 ## Adobe Journey Optimizer에 보낼 수 있는 개별 데이터 개인 정보 요청 관리 {#data-privacy-requests}
 
@@ -69,7 +71,7 @@ Adobe Journey Optimizer에 데이터 액세스 및 삭제를 요청하려면 다
 
 >[!IMPORTANT]
 >
->개인 정보 보호 요청을 제출할 때는 대상 제품 이름으로 ‘[!DNL '**Adobe Journey Optimizer**]’를 지정하고 액세스하거나 제거해야 하는 프로필 데이터와 연결된 **모든 ID 네임스페이스**(예: ‘이메일’ ‘ECID’ 또는 ‘충성도 ID’)를 지정해야 합니다. 특히 삭제 요청의 경우 제품 이름과 해당하는 모든 네임스페이스를 명시적으로 포함하지 않으면 [!DNL Adobe Journey Optimizer]에서 데이터가 제거되지 않습니다.
+>개인 정보 보호 요청을 제출할 때는 대상 제품 이름으로 ‘[!DNL '**Adobe Journey Optimizer**]’를 지정하고 액세스하거나 제거해야 하는 프로필 데이터와 연결된 **모든 ID 네임스페이스**(예: ‘이메일’ ‘ECID’ 또는 ‘로열티 ID’)를 지정해야 합니다. 특히 삭제 요청의 경우 제품 이름과 해당하는 모든 네임스페이스를 명시적으로 포함하지 않으면 [!DNL Adobe Journey Optimizer]에서 데이터가 제거되지 않습니다.
 
 ### API 요청 시 Journey Optimizer에 필수 입력해야 하는 필드 값
 

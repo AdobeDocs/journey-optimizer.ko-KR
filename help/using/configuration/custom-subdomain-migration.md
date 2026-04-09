@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 하위 도메인, 위임, 마이그레이션, CNAME, 사용자 정의 위임
 badge: label="제한된 가용성" type="Informative"
 exl-id: f74139cf-640f-4b7b-a0b1-6eae9c75e7e4
-source-git-commit: 71a047d0c113202e6e1dd4f0730328e32800830d
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1251'
 ht-degree: 5%
@@ -141,7 +141,8 @@ ht-degree: 5%
 
     * Click **[!UICONTROL Download CSR]** to save the form to your local computer.
 
-    * Send the CSR to the Certificate Authority to get your SSL certificate.-->
+    * Send the CSR to the Certificate Authority to get your SSL certificate.
+-->
 
 1. SSL 인증서를 검색한 후 **[!UICONTROL 인증서 업로드]**&#x200B;를 클릭합니다.
 

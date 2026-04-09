@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 메시지, 빈도, 규칙, 압력
 exl-id: defebd53-fa80-4720-acdc-0f41ceb00214
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '909'
 ht-degree: 6%
@@ -170,7 +170,6 @@ ht-degree: 6%
 
 
 <!--
-
 >[!TAB Apply Quiet hours to custom actions]
 
 1. Open your journey and add or select a custom action in the canvas.
@@ -184,7 +183,6 @@ ht-degree: 6%
    >Only [activated](#activate-rule) rule sets display in the list.
 
 1. Activate your journey.
-
 -->
 
 
@@ -192,4 +190,4 @@ ht-degree: 6%
 
 Adobe Journey Optimizer에서 방해 금지 모드 해제 시간 기능을 사용하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475859?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475851?quality=12)
