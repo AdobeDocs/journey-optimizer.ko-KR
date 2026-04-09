@@ -75,7 +75,7 @@ Dynamic Media 사용 가능 여부는 저장소 구성에 따라 다릅니다.
 
 * **Scene7**: 게시된 자산에 사용할 수 있습니다(비디오 및 PDF 제외). [Dynamic Media Scene7 수정자에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-is-http-modifiers.html){target="_blank"}
 
-* **OpenAPI**: 승인된 자산에 사용할 수 있습니다(비디오 제외). [OpenAPI 수정자가 있는 Dynamic Media에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html){target="_blank"}
+* **OpenAPI**: 승인된 자산에 사용할 수 있습니다(비디오 제외). [OpenAPI 수정자가 있는 Dynamic Media에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html?lang=ko){target="_blank"}
 
 * **Scene7 및 OpenAPI**: 구성이 모두 있고 자산이 조건을 충족하면 사용할 수 있습니다.
 
