@@ -2,11 +2,11 @@
 title: AI 받은 편지함에 대한 이메일 텍스트 최적화
 description: Journey Optimizer에서 이메일의 일반 텍스트 계층을 세분화하여 AI 지원 받은 편지함 클라이언트가 AI를 사용하여 이메일 Designer에서 메일을 요약하거나 의도를 추출할 때 오퍼와 CTA를 사용할 수 있습니다.
 feature: Email Design
-topic: Email Design, Artificial Intelligence
+topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner, Intermediate
 exl-id: 0c2f95ce-28a0-480c-9829-b7e4975b6340
-source-git-commit: 6304c4db02526ca6e774792474d3a495c7180f95
+source-git-commit: 81cda1c3dbbf7310c7dfc9b00b55238e3784e1ea
 workflow-type: tm+mt
 source-wordcount: '1075'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # AI 받은 편지함에 대한 이메일 텍스트 최적화 {#email-text-optimizer}
 
-[!DNL Adobe Journey Optimizer]에는 개선된 AI 지원 받은 편지함 환경(예: [의 &#x200B;](text-version-email.md) 및 [!DNL Apple Intelligence])을 위해 메시지의 [!DNL Google Gemini]텍스트 버전[!DNL Gmail]을 구성하는 데 도움이 되는 전자 메일 채널 기능이 포함되어 있으므로 질문에 답변하고 콘텐츠를 기반으로 메일을 보다 정확하게 요약하여 더 나은 결과를 얻을 수 있습니다.
+[!DNL Adobe Journey Optimizer]에는 개선된 AI 지원 받은 편지함 환경(예: [의 ](text-version-email.md) 및 [!DNL Apple Intelligence])을 위해 메시지의 [!DNL Google Gemini]텍스트 버전[!DNL Gmail]을 구성하는 데 도움이 되는 전자 메일 채널 기능이 포함되어 있으므로 질문에 답변하고 콘텐츠를 기반으로 메일을 보다 정확하게 요약하여 더 나은 결과를 얻을 수 있습니다.
 
 >[!NOTE]
 >
