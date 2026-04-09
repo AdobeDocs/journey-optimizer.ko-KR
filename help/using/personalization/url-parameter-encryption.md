@@ -10,10 +10,10 @@ level: Intermediate
 badge: label="제한된 가용성" type="Informative"
 keywords: 암호화, URL, 추적, 랜딩 페이지, 키 레지스트리, 개인화, 보안, 개인 정보, 샌드박스
 exl-id: 82e2b6e4-769f-4bdc-b2e2-19352fbaec8e
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 5c8d615b5f6b2c2cb80a21c59f3ea5f12325e6fd
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 3%
+source-wordcount: '693'
+ht-degree: 2%
 
 ---
 
@@ -49,6 +49,10 @@ ht-degree: 3%
 ## 키 만들기 {#create-keys}
 
 URL 매개 변수 암호화 도우미를 사용하려면 먼저 키를 만들어야 합니다. 그 방법은 다음과 같습니다.
+
+>[!NOTE]
+>
+>현재 키에 액세스하고 관리할 수 있는 특정 권한이 없습니다. **[!UICONTROL 관리]**&#x200B;의 **[!UICONTROL 구성]** 섹션에 대한 액세스 권한을 부여하는 역할도 키 레지스트리에 대한 액세스 권한을 부여합니다. 그러나 특정 권한은 향후 릴리스에 포함될 예정입니다.
 
 <!--
 >[!IMPORTANT]
