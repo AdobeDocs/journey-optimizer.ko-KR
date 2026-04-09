@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6304c4db02526ca6e774792474d3a495c7180f95
+source-git-commit: 3076a7ffeeed8224044f1c09b6788c6826638cac
 workflow-type: tm+mt
-source-wordcount: '2245'
+source-wordcount: '2268'
 ht-degree: 22%
 
 ---
@@ -148,7 +148,7 @@ ht-degree: 22%
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 **릴리스 날짜**: 2026년 3월 24~25일
@@ -355,7 +355,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p><strong>Adobe Experience Platform Agent Orchestrator</strong>에서 제공하는 <strong>Journey Agent</strong>은(는) Journey Optimizer에서 사용할 수 있으며 자연어 인터페이스를 통해 여정을 분석할 수 있도록 해줍니다. 이제 Journey Agent에서 직접 채널별 콘텐츠를 생성하고 관리할 수도 있습니다. 또한 이메일 및 푸시와 같은 채널용 콘텐츠를 만들고, 템플릿을 적용하고 미리 보고, 프롬프트를 통해 색조와 스타일을 개선하고, <strong>콘텐츠 Designer</strong>에서 콘텐츠를 열어 상황에 맞게 편집할 수 있습니다.</p>
 <p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
-<p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=ko" target="_blank">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html" target="_blank">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2026년 3월 4일 목요일</p>
 </td>
 </tr>
@@ -464,6 +464,10 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
    * **기존 사용자**: 표시 이름만 업데이트됩니다. 기본 테이블 이름은 변경되지 않습니다.
    * **새 사용자 및 샌드박스**: 표시 이름과 테이블 이름이 모두 새 이름을 반영합니다.
    * **새 샌드박스를 가진 기존 사용자**: 표시 이름과 테이블 이름이 모두 새 이름으로 업데이트됩니다.
+
+  >[!NOTE]
+  >
+  >새 데이터 세트에는 새 이름이 즉시 표시됩니다. 이전 데이터 세트 이름의 경우 채우기 및 조정은 점진적으로 진행되며 완료하는 데 몇 주가 걸릴 수 있습니다.
 
   사용 가능한 날짜: 2026년 3월 2일 화요일
 
