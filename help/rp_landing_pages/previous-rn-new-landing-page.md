@@ -4,11 +4,10 @@ product: Journey Optimizer
 title: 이전 릴리스 정보
 description: 이전 릴리스 정보
 hide: true
-hidefromtoc: true
 redpen-status: CREATED_||_2025-08-11_20-02-38
 exl-id: 74d13927-18ca-4b7a-8e0e-fd69b38c0eff
-source-git-commit: c70cdb0f12b484844ab0222cec8922f30b0ee7dc
-workflow-type: ht
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 100%
 
@@ -22,7 +21,7 @@ Adobe Journey Optimizer의 릴리스 정보는 고객 여정을 개선하기 위
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 2025 Adobe Journey Optimizer 릴리스 정보
 
@@ -32,7 +31,7 @@ Adobe Journey Optimizer의 릴리스 정보는 고객 여정을 개선하기 위
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 2024 Adobe Journey Optimizer 릴리스 정보
 

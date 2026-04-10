@@ -5,12 +5,11 @@ title: 수학
 description: 수학
 redpen-status: CREATED_||_2025-08-11_20-16-12
 hide: true
-hidefromtoc: true
 exl-id: 2df9c6ea-be94-475f-9997-16f10db22f03
-source-git-commit: 18697bd59466a41ffa3fa55f758222ce61415f42
-workflow-type: ht
-source-wordcount: '86'
-ht-degree: 100%
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +21,7 @@ Adobe Journey Optimizer의 수학 섹션을 통해 여정 내에서 정확한 �
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 random 함수
 
@@ -32,7 +31,7 @@ Adobe Journey Optimizer에서 &#39;random&#39; 함수를 사용하여 0과 1 사
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 round 함수
 

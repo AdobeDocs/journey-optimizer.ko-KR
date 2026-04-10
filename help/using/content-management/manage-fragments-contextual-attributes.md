@@ -1,22 +1,22 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 게시된 조각에 컨텍스트 속성 추가
+title: 게시된 조각에 상황별 속성 추가
 description: 게시된 조각에 컨텍스트 특성을 추가하는 방법 알아보기(제한된 가용성)
 feature: Fragments
 topic: Content Management
 role: User
 level: Intermediate, Experienced
 hide: true
-hidefromtoc: true
-source-git-commit: 69efe0254aae3cb067f2c9f89db6aa4fe0a50549
+exl-id: a274656e-2570-4a9c-b72b-4e8e920b7462
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '358'
-ht-degree: 4%
+ht-degree: 8%
 
 ---
 
-# 게시된 조각에 컨텍스트 속성 추가 {#adding-contextual-attributes}
+# 게시된 조각에 상황별 속성 추가 {#adding-contextual-attributes}
 
 >[!AVAILABILITY]
 >
@@ -81,4 +81,3 @@ ht-degree: 4%
 * [조각 편집](manage-fragments.md#edit-fragments)
 * [API-트리거된 캠페인](../campaigns/api-triggered-campaigns.md)
 * [개인화 구문](../personalization/personalization-syntax.md)
-

@@ -8,11 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 hide: true
-hidefromtoc: true
 keywords: CC, Carbon Copy, 이메일, 채널 구성, 이메일 헤더, BCC
 badge: label="제한된 가용성" type="Informative"
 exl-id: 9649cc07-3183-4510-b5d9-b1e33eff43e9
-source-git-commit: 780a9259ee081336d1efb3e38c2a8eee4e97b7e3
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '879'
 ht-degree: 6%

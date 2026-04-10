@@ -9,12 +9,11 @@ role: Admin
 level: Experienced
 keywords: 다시 시도, 바운스, 소프트, 무시됨, 하드, 최적화 프로그램, 오류
 hide: true
-hidefromtoc: true
 exl-id: a8908b11-2288-4d53-897c-3f99cb5ceab4
-source-git-commit: 0cb73489981659c3f231b9def40e0e483ed3aef8
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '422'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -22,7 +21,7 @@ ht-degree: 6%
 
 게재 실패의 가능한 원인은 여러 가지입니다. 아래 표에는 [!DNL Journey Optimizer]과(와) 함께 전자 메일 게재를 보낼 때 발생할 수 있는 모든 오류와 설명 및 오류 유형이 자세히 나와 있습니다.
 
-이러한 오류는 [의 모든 메시지 게재 정보와 바운스 시 이메일 ISP의 피드백 레코드를 포함하여 메시지 게재 로그가 들어 있는 &#x200B;](../data/datasets-query-examples.md#message-feedback-event-dataset)AJO 메시지 피드백 이벤트 데이터 세트[!DNL Journey Optimizer]에서 찾을 수 있습니다.
+이러한 오류는 [의 모든 메시지 게재 정보와 바운스 시 이메일 ISP의 피드백 레코드를 포함하여 메시지 게재 로그가 들어 있는 ](../data/datasets-query-examples.md#message-feedback-event-dataset)AJO 메시지 피드백 이벤트 데이터 세트[!DNL Journey Optimizer]에서 찾을 수 있습니다.
 
 | 오류 레이블 | 오류 유형 | 기술적 가치 | 설명 |
 | --- | --- | --- | --- |
@@ -43,4 +42,4 @@ ht-degree: 6%
 | **릴레이 거부됨** | 소프트 바운스 | 54 | 대상 도메인이 릴레이에 허용 목록에 없으므로 메시지를 수락할 수 없습니다. |
 | **자동 회신** | 무시됨 | 60 | 전달을 사용하지 않으면 [!DNL Journey Optimizer]이(가) 받는 동안 이 메시지를 무시합니다. |
 | **일시적인 오류** | 무시됨 | 70 | 제한된 비율로 게재를 다시 시도하거나 일시 중단의 경우 지연될 수 있습니다. |
-| **Challenge-Response** | 소프트 바운스 | 10 | [!DNL Journey Optimizer]이(가) 문제 응답 인증 메커니즘을 지원하지 않으므로 게재가 영구적으로 실패할 수 있습니다. |
+| **Challenge-Response** | 소프트 바운스 | 100 | [!DNL Journey Optimizer]이(가) 문제 응답 인증 메커니즘을 지원하지 않으므로 게재가 영구적으로 실패할 수 있습니다. |

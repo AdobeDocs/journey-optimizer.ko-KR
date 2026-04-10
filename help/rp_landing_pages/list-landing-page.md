@@ -6,9 +6,8 @@ description: 목록
 redpen-status: CREATED_||_2025-08-11_20-15-54
 exl-id: 5cb96709-c1bf-415e-bcdf-217c1ae7c34d
 hide: true
-hidefromtoc: true
-source-git-commit: d58319d687d113ce680c415524fdea0400cb38f0
-workflow-type: ht
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 100%
 
@@ -22,7 +21,7 @@ Adobe Journey Optimizer의 &#39;목록&#39; 기능을 사용하면 워크플로 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer에서 &#39;distinct&#39; 함수 사용
 
@@ -32,7 +31,7 @@ Adobe Journey Optimizer에서 &#39;distinct&#39; 함수 사용
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 distinctWithNull 함수 - Adobe Journey Optimizer
 
@@ -42,7 +41,7 @@ null 항목을 포함하면서 목록에서 고유 값 또는 개체를 가져�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer에서 &#39;filter&#39; 함수 사용
 
@@ -52,7 +51,7 @@ Adobe Journey Optimizer에서 &#39;filter&#39; 함수 사용
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer에서 getListItem 함수 사용
 
@@ -62,7 +61,7 @@ Adobe Journey Optimizer에서 getListItem 함수 사용
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer에서 &#39;in&#39; 함수 사용
 
@@ -72,7 +71,7 @@ Adobe Journey Optimizer에서 &#39;in&#39; 함수 사용
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer의 Intersect 함수
 
