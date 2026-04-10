@@ -9,10 +9,10 @@ role: User, Developer
 level: Experienced
 keywords: 샌드박스, 여정, 복사, 환경
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
+source-git-commit: 5f0fd2770004570efe28778e5395a7254fcb8a4b
 workflow-type: tm+mt
-source-wordcount: '1728'
-ht-degree: 3%
+source-wordcount: '1757'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 3%
 
 패키지 내보내기 및 가져오기 기능을 사용하여 여러 샌드박스에서 여정, 사용자 지정 작업, 콘텐츠 템플릿 또는 조각과 같은 개체를 복사할 수 있습니다. 패키지는 단일 개체 또는 여러 개체로 구성될 수 있습니다. 패키지에 포함되는 모든 개체는 동일한 샌드박스에서 가져온 개체여야 합니다.
 
-이 페이지에서는 Journey Optimizer 컨텍스트에서 샌드박스 도구 사용 사례를 설명합니다. 기능 자체에 대한 자세한 내용은 Adobe Experience Platform [샌드박스 도구 안내서](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=ko#abobe-journey-optimizer-objects){target="_blank"}를 참조하십시오.
+이 페이지에서는 Journey Optimizer 컨텍스트에서 샌드박스 도구 사용 사례를 설명합니다. 기능 자체에 대한 자세한 내용은 Adobe Experience Platform [샌드박스 도구 안내서](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects){target="_blank"}를 참조하십시오.
 
 >[!NOTE]
 >
@@ -50,7 +50,7 @@ Journey Optimizer을 사용하면 여정, 사용자 지정 작업, 콘텐츠 템
 
 +++ 여정
 
-* **복사된 종속성** - 여정을 내보낼 때 여정 자체 외에도 Journey Optimizer은 여정이 의존하는 대부분의 개체(대상, 사용자 지정 작업, 스키마, 이벤트 및 작업)도 복사합니다. 복사된 개체에 대한 자세한 내용은 Adobe Experience Platform [샌드박스 도구 안내서](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=ko#abobe-journey-optimizer-objects){target="_blank"}를 참조하십시오.
+* **복사된 종속성** - 여정을 내보낼 때 여정 자체 외에도 Journey Optimizer은 여정이 의존하는 대부분의 개체(대상, 사용자 지정 작업, 스키마, 이벤트 및 작업)도 복사합니다. 복사된 개체에 대한 자세한 내용은 Adobe Experience Platform [샌드박스 도구 안내서](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects){target="_blank"}를 참조하십시오.
 
 * **수동 유효성 검사 권장** - 연결된 모든 요소가 대상 샌드박스에 복사되지 않습니다. 예를 들어 여정을 게시하기 전에 철저한 검사를 수행하는 것이 좋습니다. 이를 통해 잠재적인 누락된 오브젝트를 식별할 수 있습니다.
 
@@ -72,7 +72,11 @@ Journey Optimizer을 사용하면 여정, 사용자 지정 작업, 콘텐츠 템
 
 +++ 캠페인
 
-캠페인은 프로필, 대상자, 스키마, 인라인 메시지, 종속 오브젝트와 관련된 모든 항목과 함께 복사됩니다. 그러나 다음 항목은 **복사되지 않습니다**.
+>[!NOTE]
+>
+>이 하위 섹션의 캠페인 샌드박스 복사 정보는 **Action** 캠페인 및 **API 트리거** 캠페인에 적용됩니다. **오케스트레이션됨** 캠페인은 샌드박스 간 복사가 지원되지 않습니다.
+
+**Action** 및 **API 트리거** 캠페인의 경우, 캠페인은 프로필, 대상자, 스키마, 인라인 메시지 및 종속 개체와 관련된 모든 항목과 함께 복사됩니다. 그러나 다음 항목은 **복사되지 않습니다**.
 
 * 다국어 변형 및 언어 설정,
 * 비즈니스 규칙,
