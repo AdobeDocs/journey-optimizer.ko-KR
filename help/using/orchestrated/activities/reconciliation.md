@@ -5,10 +5,10 @@ title: 조정 활동 사용
 description: 오케스트레이션된 캠페인에서 조정 활동을 사용하는 방법을 알아봅니다
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 8510004a3e1726dedc1103ff974c456155a131c8
 workflow-type: tm+mt
 source-wordcount: '538'
-ht-degree: 87%
+ht-degree: 84%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 87%
 >id="ajo_orchestration_reconciliation_targeting_selection"
 >title="타기팅 차원 선택"
 >abstract="조정할 인바운드 데이터의 타기팅 차원을 선택합니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html?lang=ko#targeting-dimensions" text="타기팅 차원"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html#targeting-dimensions" text="타기팅 차원"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_keep_unreconciled_data"
@@ -99,6 +99,6 @@ ht-degree: 87%
 
 ## 예 {#example-reconciliation}
 
-이 예에서는 Adobe Journey Optimizer의 **[!UICONTROL 조정]** 활동을 사용하여 인식된 고객에게만 이메일을 보내도록 합니다. 데이터는 이전에 주문한 적이 있는 사용자를 타겟팅하는 **[!UICONTROL 대상자 읽기]** 활동을 통해 유입됩니다. 그런 다음 **[!UICONTROL 조정]** 활동은 이메일 필드를 사용하여 들어오는 데이터를 데이터베이스의 기존 프로필과 일치시킵니다.
+이 예에서는 Adobe Journey Optimizer의 **[!UICONTROL 조정]** 활동을 사용하여 인식된 고객에게만 이메일을 보내도록 합니다. 데이터는 이전 주문이 있는 사용자를 타겟팅하는 **[!UICONTROL 대상자 작성]** 활동을 통해 전송됩니다. 그런 다음 **[!UICONTROL 조정]** 활동은 이메일 필드를 사용하여 들어오는 데이터를 데이터베이스의 기존 프로필과 일치시킵니다.
 
 ![](../assets/workflow-reconciliation-sample-1.0.png)
