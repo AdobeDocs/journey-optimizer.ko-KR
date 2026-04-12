@@ -66,7 +66,7 @@ ht-degree: 10%
 
 1. **[!UICONTROL Orchestration]** 범주를 펼친 다음 **[!UICONTROL 데이터 집합 조회]** 활동을 캔버스에 놓습니다.
 
-   ![[!DNL Adobe Experience Platform] 여정에서 ](assets/aep-data-activity.png) 데이터 집합 조회 활동
+   ![[!DNL Adobe Experience Platform] 여정에서 &#x200B;](assets/aep-data-activity.png) 데이터 집합 조회 활동
 
 1. 레이블과 설명을 추가합니다.
 
