@@ -36,7 +36,7 @@ PTR 기록을 사용하여 수신 메일 서버는 해당 IP 주소가 서버가
 
 ## 하위 도메인의 PTR 레코드 액세스 {#access-ptr-records}
 
-[에서 첫 번째 하위 도메인을 Adobe에 &#x200B;](delegate-subdomain.md)위임[!DNL Journey Optimizer]하면 IP에 대한 PTR 레코드가 자동으로 만들어집니다. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL 전자 메일 설정]** > **[!UICONTROL PTR 레코드]** 메뉴에서 액세스할 수 있습니다.
+[에서 첫 번째 하위 도메인을 Adobe에 ](delegate-subdomain.md)위임[!DNL Journey Optimizer]하면 IP에 대한 PTR 레코드가 자동으로 만들어집니다. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL 전자 메일 설정]** > **[!UICONTROL PTR 레코드]** 메뉴에서 액세스할 수 있습니다.
 
 ![](assets/ptr-records.png)
 

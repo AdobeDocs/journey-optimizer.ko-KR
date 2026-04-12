@@ -37,7 +37,7 @@ Journey Optimizer **제외 REST API**&#x200B;를 사용하여 제외 및 허용 
 
 >[!CAUTION]
 >
->허용 목록을 보고 내보내고 관리할 수 있는 권한이 [여정 관리자](../administration/ootb-product-profiles.md#journey-administrator)(으)로 제한됩니다. [!DNL Journey Optimizer]이 섹션[에서 &#x200B;](../administration/permissions-overview.md) 사용자의 액세스 권한 관리에 대해 자세히 알아보세요.
+>허용 목록을 보고 내보내고 관리할 수 있는 권한이 [여정 관리자](../administration/ootb-product-profiles.md#journey-administrator)(으)로 제한됩니다. [!DNL Journey Optimizer]이 섹션[에서 ](../administration/permissions-overview.md) 사용자의 액세스 권한 관리에 대해 자세히 알아보세요.
 
 허용 목록을 CSV 파일로 내보내려면 **[!UICONTROL CSV 다운로드]** 단추를 선택합니다.
 
@@ -64,7 +64,7 @@ Journey Optimizer **제외 REST API**&#x200B;를 사용하여 제외 및 허용 
    >[!NOTE]
    >
    >* 활성화 후에는 여정 및 캠페인에서 허용 목록이 적용되기까지 10분의 지연이 있습니다. 허용 목록 및 제외 목록에 대한 업데이트도 반영하는 데 최대 10분이 걸릴 수 있습니다.
-   >* 활성화되면 허용 목록여정 은 라이브 테스트뿐만 아니라 [증명](../content-management/proofs.md)과(와) [테스트 모드](../building-journeys/testing-the-journey.md)에서 여정을 사용하여 메시지를 테스트할 때도 적용됩니다.
+   >* 활성화되면 허용 목록은 라이브 테스트뿐만 아니라 [증명](../content-management/proofs.md)과(와) [테스트 모드](../building-journeys/testing-the-journey.md)에서 여정을 사용하여 메시지를 테스트할 때도 적용됩니다.
 
 허용 목록 논리는 기능이 활성 상태일 때 적용됩니다. 자세한 내용은 [이 섹션](#logic)을 참조하십시오.
 
@@ -146,7 +146,7 @@ Journey Optimizer **제외 REST API**&#x200B;를 사용하여 제외 및 허용 
 
 **추가**, **삭제** 및 **가져오기** 작업을 수행할 수 있습니다.
 
-[Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=ko){target="_blank"} 참조 설명서에서 API 호출에 대해 자세히 알아보세요.
+[Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target="_blank"} 참조 설명서에서 API 호출에 대해 자세히 알아보세요.
 
 ## 허용 목록 다운로드 {#download-allowed-list}
 
@@ -201,7 +201,7 @@ Journey Optimizer **제외 REST API**&#x200B;를 사용하여 제외 및 허용 
 
 ## 제외 보고 {#reporting}
 
-허용 목록이 활성화되면 허용 목록에 있지 않아 전송에서 제외된 이메일 주소 또는 도메인을 검색할 수 있습니다. 이렇게 하려면 [Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ko){target="_blank"}를 사용하여 아래 API를 호출할 수 있습니다.
+허용 목록이 활성화되면 허용 목록에 있지 않아 전송에서 제외된 이메일 주소 또는 도메인을 검색할 수 있습니다. 이렇게 하려면 [Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}를 사용하여 아래 API를 호출할 수 있습니다.
 
 수신자가 허용 목록에 없어서 전송되지 않은 **이메일 개수**&#x200B;를 가져오려면 다음 쿼리를 사용하십시오.
 

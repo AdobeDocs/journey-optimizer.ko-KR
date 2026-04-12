@@ -8,7 +8,7 @@ exl-id: c51e4089-7f51-437d-a5ed-de10bab46cf8
 source-git-commit: 95a6d032808bc735a27a98dcb61efefa93cf5047
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 16%
+ht-degree: 18%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 16%
 >title="테스트 프로필을 사용하여 콘텐츠 확인"
 >abstract="테스트 프로필을 사용하여 콘텐츠를 미리 보고 테스트합니다. 개인화된 필드를 추가한 경우, 테스트 프로필 데이터를 사용하여 해당 필드가 표시되는 방식을 확인할 수 있습니다."
 
-테스트 프로필은 정의된 타겟팅 기준과 일치하지 않는 추가 수신자입니다. [테스트 프로필을 만드는 방법을 알아봅니다](../audience/creating-test-profiles.md)
+테스트 프로필은 정의된 타겟팅 기준과 일치하지 않는 추가 수신자입니다. [테스트 프로필을 만드는 방법 알아보기](../audience/creating-test-profiles.md)
 
 테스트 프로필을 사용하여 콘텐츠를 테스트하기 전에 먼저 해당 프로필을 선택해야 합니다. 이렇게 하려면 다음 단계를 수행합니다.
 

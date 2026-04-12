@@ -43,13 +43,13 @@ ht-degree: 40%
 
 ![](assets/custom1.png)
 
-이 전용 페이지[에서 사용자 지정 작업 &#x200B;](../action/troubleshoot-custom-action.md)의 문제를 해결하는 방법을 알아보세요.
+이 전용 페이지[에서 사용자 지정 작업 ](../action/troubleshoot-custom-action.md)의 문제를 해결하는 방법을 알아보세요.
 
 ## 사용 방법 비디오 {#video}
 
 사용자 지정 작업을 구성하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430279?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)
 
 ## 추가 리소스
 
