@@ -22,7 +22,7 @@ ht-degree: 7%
 >id="ajo_subscription_list"
 >title="구독 목록 설정"
 >abstract="구독 목록을 만들어 특정 주제 또는 이벤트에 대한 커뮤니케이션을 수신하도록 옵트인한 프로필을 수집합니다. "
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/subscription-list.html#define-subscription-list" text="구독 목록 만들기"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/subscription-list.html?lang=ko#define-subscription-list" text="구독 목록 만들기"
 
 구독 서비스는 특정 주제/이벤트/관심 분야 등에 대한 커뮤니케이션을 수신하도록 선택한 고객에게 제공되는 마케팅 상품 및 서비스를 의미합니다. 지속적으로. [!DNL Journey Optimizer]에서 이러한 옵트인 고객은 구독 목록에 수집됩니다.
 
@@ -40,7 +40,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->구독 목록을 만들면 연관된 스트리밍 세그먼트가 Adobe Experience Platform에서 자동으로 생성됩니다. 스트리밍 세그먼트를 만들려면 병합 정책에 **Active-On-Edge** 옵션이 활성화되어 있어야 합니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation)에서 스트리밍 세그먼트 자격 조건에 대해 자세히 알아보세요.
+>구독 목록을 만들면 연관된 스트리밍 세그먼트가 Adobe Experience Platform에서 자동으로 생성됩니다. 스트리밍 세그먼트를 만들려면 병합 정책에 **Active-On-Edge** 옵션이 활성화되어 있어야 합니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/methods/streaming-segmentation)에서 스트리밍 세그먼트 자격 조건에 대해 자세히 알아보세요.
 
 구독 목록을 만들려면 아래 단계를 수행하십시오.
 

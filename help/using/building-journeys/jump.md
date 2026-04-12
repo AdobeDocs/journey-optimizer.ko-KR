@@ -94,7 +94,7 @@ ht-degree: 7%
 
 >[!TIP]
 >
->이 접근 방식에 대한 자세한 설명은 [Journey Optimizer의 고급 여정 모범 사례](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}를 참조하세요.
+>이 접근 방식에 대한 자세한 설명은 [Journey Optimizer의 고급 여정 모범 사례](https://experienceleague.adobe.com/ko/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}를 참조하세요.
 
 ## 점프 활동 구성 {#jump-configure}
 
