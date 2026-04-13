@@ -8,9 +8,9 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Intermediate
 mini-toc-levels: 1
-source-git-commit: 479282547400d9a54ab4afa71b0e0b468dbe6071
+source-git-commit: 908d418e88813511d25346bae721e93da2cf1336
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '806'
 ht-degree: 2%
 
 ---
@@ -66,13 +66,17 @@ ht-degree: 2%
 
 1. 표현식을 생성한 후 **[!UICONTROL 샘플 프로필에 대한 미리 보기 표시]**&#x200B;를 클릭하여 표현식이 샘플 데이터로 평가되는 방식을 확인하고 연결된 페이로드를 JSON으로 확인합니다. 이 검사를 위해 도우미는 제한된 합성 샘플 프로필 집합을 생성합니다. 이러한 프로필은 조직에 저장되거나 저장되지 않습니다.
 
-   샘플 프로필이 더 필요한 경우, 추가 미리 보기 프로필을 생성할 수 있도록 도우미와 함께 토론에 **미리 보기**&#x200B;를 입력하십시오.
+   사용자 지정 또는 추가 샘플 프로필이 필요한 경우 도우미와 토론에서 필요한 내용을 설명하고 확인에 적합한 미리 보기 프로필을 생성할 수 있도록 **미리 보기** 키워드를 프롬프트에 포함하십시오.
 
    ![](assets/ai-perso-preview-button.png)
 
    +++미리 보기 예
 
    ![](assets/ai-perso-preview.png)
+
+   >[!NOTE]
+   >
+   >추가 미리보기는 얼룩 검사를 위한 것입니다. 보조자는 약 1~5개의 프로필을 생성하도록 조정되며, 매우 큰 숫자를 요청하면 요청이 실패할 수 있습니다.
 
    +++
 
