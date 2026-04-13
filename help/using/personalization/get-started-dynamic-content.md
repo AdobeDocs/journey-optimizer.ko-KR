@@ -9,7 +9,7 @@ role: Developer
 level: Intermediate
 keywords: 표현식, 편집기, 시작하기, 조건, 시작
 exl-id: be9a3f83-8e22-4efa-9d48-37bf554018fa
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 005fb220c5593f7a6381c3413928d4f7b6a69e7b
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 60%
@@ -36,4 +36,4 @@ ht-degree: 60%
 
 조건부 규칙 빌더로 다이내믹 콘텐츠를 만드는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3413674?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3409815?quality=12)
