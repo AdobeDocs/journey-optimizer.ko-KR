@@ -157,8 +157,8 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 
 * **authorizationType**: 생성된 액세스 토큰을 작업의 HTTP 호출에 삽입해야 하는 방법을 정의합니다. 가능한 값은 다음과 같습니다.
 
-   * `bearer`: _인증: 전달자 &lt;액세스 토큰>_&#x200B;과 같이 액세스 토큰을 인증 헤더에 삽입해야 함을 나타냅니다.
-   * `header`: 액세스 토큰을 `tokenTarget` 속성으로 정의된 헤더 이름인 헤더로 삽입해야 함을 나타냅니다. 예를 들어 `tokenTarget`이(가) `myHeader`이면 액세스 토큰은 _myHeader: &lt;액세스 토큰>_(으)로 헤더로 삽입됩니다.
+   * `bearer`: _Authorization: Bearer &lt;액세스 토큰>_&#x200B;과 같이 액세스 토큰을 권한 부여 헤더에 삽입해야 함을 나타냅니다.
+   * `header`: 액세스 토큰을 `tokenTarget` 속성으로 정의된 헤더 이름인 헤더로 삽입해야 함을 나타냅니다. 예를 들어 `tokenTarget`이(가) `myHeader`인 경우 액세스 토큰은 다음과 같이 헤더로 삽입됩니다. _myHeader: &lt;액세스 토큰>_
    * `queryParam`: 액세스 토큰을 queryParam(tokenTarget 속성으로 정의된 쿼리 매개 변수 이름)으로 삽입해야 함을 나타냅니다. 예를 들어 tokenTarget이 myQueryParam이면 작업 호출의 URL은 _&lt;url>?myQueryParam=&lt;액세스 토큰>_&#x200B;이 됩니다.
 
 * **tokenInResponse**: 인증 호출에서 액세스 토큰을 추출하는 방법을 나타냅니다. 이 속성은 다음 중 하나일 수 있습니다.

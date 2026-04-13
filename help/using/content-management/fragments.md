@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 조각 시작
+title: 조각으로 시작
 description: 컨텐츠 조각을 사용하여 Journey Optimizer 캠페인 및 여정에서 컨텐츠를 재사용하는 방법에 대해 알아봅니다
 feature: Fragments
 topic: Content Management
@@ -15,7 +15,7 @@ ht-degree: 19%
 
 ---
 
-# 조각 시작 {#fragments}
+# 조각으로 시작 {#fragments}
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_fragment"

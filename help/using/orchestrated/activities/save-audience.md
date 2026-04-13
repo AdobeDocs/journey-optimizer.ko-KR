@@ -5,10 +5,10 @@ title: 대상자 저장 활동 사용
 description: 오케스트레이션된 캠페인에서 대상자 저장 활동을 사용하는 방법을 알아봅니다
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
 version: Campaign Orchestration
-source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+source-git-commit: 5b60213ecba97e9539ea817ab00ee1c3c8dace50
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 21%
+source-wordcount: '596'
+ht-degree: 20%
 
 ---
 
@@ -54,6 +54,10 @@ ht-degree: 21%
 1. 오케스트레이션된 캠페인을 저장하고 게시하여 설정을 완료합니다. 이렇게 하면 대상자가 생성되고 저장됩니다.
 
 1. 캠페인이 **[!UICONTROL 초안 모드]**&#x200B;에 있는 동안 **[!UICONTROL 대상자 저장]** 활동이 실행되지 않으므로 대상을 만들거나 바꿀 캠페인을 게시하십시오.
+
+>[!NOTE]
+>
+>게시 시 **[!UICONTROL 대상자 저장]** 활동은 항상 워크플로의 메시지 활동 전에 실행됩니다. 채널 활동이 처리를 시작하기 전에 대상 셸이 만들어지고 프로필이 Audience Portal로 수집을 시작합니다. [게시 시간 실행 시퀀스에 대해 자세히 알아보기](../start-monitor-campaigns.md#publication-sequence)
 
 저장한 대상자의 콘텐츠는 대상자의 세부 사항 보기에서 사용할 수 있습니다. 이 뷰는 **[!UICONTROL 대상자]** 메뉴에서 액세스하거나 대상자를 타깃팅할 때 선택할 수 있습니다(예: **[!UICONTROL 대상자 읽기]** 활동).
 

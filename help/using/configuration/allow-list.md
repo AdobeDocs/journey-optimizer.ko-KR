@@ -64,7 +64,7 @@ Journey Optimizer **제외 REST API**&#x200B;를 사용하여 제외 및 허용 
    >[!NOTE]
    >
    >* 활성화 후에는 여정 및 캠페인에서 허용 목록이 적용되기까지 10분의 지연이 있습니다. 허용 목록 및 제외 목록에 대한 업데이트도 반영하는 데 최대 10분이 걸릴 수 있습니다.
-   >* 활성화되면 허용 목록여정 은 라이브 테스트뿐만 아니라 [증명](../content-management/proofs.md)과(와) [테스트 모드](../building-journeys/testing-the-journey.md)에서 여정을 사용하여 메시지를 테스트할 때도 적용됩니다.
+   >* 활성화되면 허용 목록은 라이브 테스트뿐만 아니라 [증명](../content-management/proofs.md)과(와) [테스트 모드](../building-journeys/testing-the-journey.md)에서 여정을 사용하여 메시지를 테스트할 때도 적용됩니다.
 
 허용 목록 논리는 기능이 활성 상태일 때 적용됩니다. 자세한 내용은 [이 섹션](#logic)을 참조하십시오.
 

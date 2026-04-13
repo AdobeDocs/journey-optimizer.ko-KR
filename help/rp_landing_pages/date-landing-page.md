@@ -1,20 +1,19 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: Date
-description: Date
+title: 일자
+description: 일자
 redpen-status: CREATED_||_2025-08-11_20-14-40
 exl-id: 38bf1898-9de0-470d-abd6-a9240e83e87f
 hide: true
-hidefromtoc: true
-source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
-workflow-type: ht
-source-wordcount: '405'
-ht-degree: 100%
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Date{#section-overview}
+# 일자{#section-overview}
 
 Adobe Journey Optimizer의 Date 함수를 사용하면 시간 관련 데이터로 원활하게 작업할 수 있으므로 현재 시간, 과거 간격 또는 향후 예측을 기반으로 동적 표현식을 만들 수 있습니다. 이벤트가 특정 시간, 일, 연도 내에 발생했는지 평가할 때도, 시간대를 조정하고 사용자 지정 날짜 구성 요소를 설정해야 할 때도, 이 도구는 시계열 데이터를 정확하게 제어할 수 있도록 합니다. &#39;currentTimeInMillis&#39;, &#39;inLastDays&#39;, &#39;updateTimeZone&#39;과 같은 각 함수는 고유한 목적을 제공하여 개인화된 여정을 구축하고 자신있게 결정을 자동화할 수 있도록 합니다. 하위 항목을 탐색하여 각각의 고유한 역할과 이들 역할이 어떻게 서로 결합되어 워크플로를 간소화하는지 알아보십시오.
 

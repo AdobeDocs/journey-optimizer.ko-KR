@@ -5,12 +5,11 @@ title: 컬렉션 관리 기능
 description: 컬렉션 관리 기능의 데이터 유형에 대해 알아봅니다
 feature: Journeys
 hide: true
-hidefromtoc: true
 role: Developer
 level: Experienced
 keywords: 쿼리, 컬렉션, 함수, 페이로드, 여정
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 2%

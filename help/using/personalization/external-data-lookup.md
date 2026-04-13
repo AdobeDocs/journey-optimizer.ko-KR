@@ -6,13 +6,12 @@ topic: Personalization
 role: Developer
 level: Experienced
 hide: true
-hidefromtoc: true
 badge: label="제한된 가용성" type="Informative"
 exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
-source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '1241'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -210,7 +209,7 @@ First video description: {%=result.videos[0].description ?: "none found" %}
 
 외부 데이터 조회 도우미에 대한 FAQ는 다음과 같습니다.
 
-세부 정보가 필요하십니까? 이 페이지 하단의 피드백 옵션을 사용하여 질문을 제기하거나 [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"}에 연결하세요.
+세부 정보가 필요하신가요? 이 페이지 하단의 피드백 옵션을 사용하여 질문하거나 [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"}와 연결하세요.
 
 +++ 요청의 컨텍스트 속성을 매개 변수로 외부 데이터 조회에 전달하는 방법
 

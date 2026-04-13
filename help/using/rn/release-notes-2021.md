@@ -7,11 +7,10 @@ feature: Release Notes
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-hidefromtoc: true
 hide: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+workflow-type: tm+mt
 source-wordcount: '2035'
 ht-degree: 100%
 
@@ -55,7 +54,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>이제 Journey Optimizer UI에서 주어진 배치에 대해 테스트 프로필에 게재할 오퍼를 시뮬레이션할 수 있습니다. 이를 통해 자격 제한 및 등급 알고리즘 등 의사 결정 논리를 프로덕션에 적용하기 전에 쉽게 확인할 수 있습니다. 이 기능을 통해 기술 전문가 및 비전문가 사용자가 의사 결정 관리를 신속하게 테스트하고 잠재적 문제를 해결할 수 있습니다.</p>
-<p>자세한 내용은 <a href="../offers/offer-activities/simulation.md">자세한 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../offers/offer-activities/simulation.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -71,7 +70,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>이제 Adobe Experience Platform 프로필 속성 및 대상자를 사용하여 오퍼의 콘텐츠를 개인화할 수 있습니다. Journey Optimizer UI 전체에서 찾을 수 있는 동일한 표현식 편집기 구성 요소를 사용하여 간단하게 작업이 가능합니다. </p>
-<p>자세한 내용은 <a href="../offers/offer-library/creating-personalized-offers.md#custom-text">세부 설명서</a>를 참고하십시오.</p>
+<p>자세한 내용은 <a href="../offers/offer-library/creating-personalized-offers.md#custom-text">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -110,7 +109,7 @@ ht-degree: 100%
 
 * **평가 순서 지정** - 새롭고 개선된 의사 결정 만들기 플로우를 통해 의사 결정 객체 간을 보다 원활하게 탐색할 수 있을 뿐만 아니라 의사 결정 엔진에서 오퍼 컬렉션을 평가하는 방식을 완벽하게 제어할 수 있습니다. 제어할 수 있는 옵션에는 함께 평가할 컬렉션, 별도로 평가할 컬렉션, 컬렉션을 평가할 순서 등이 있습니다. [자세히 알아보기](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
 
-### 문제 해결
+### 수정 사항
 
 * 브라우저 언어가 영어가 아닐 때 [여정 목록], [메시지 목록], [이메일 디자이너]가 표시되지 않는 문제를 해결했습니다.
 * [이메일 디자이너]에서 표현식을 사용하여 개인화를 추가할 때 발생하는, 문자가 잘못 이스케이프 처리되는 구문 오류를 수정했습니다.
@@ -133,7 +132,7 @@ ht-degree: 100%
 <td>
 <p>보고에서 새 지표를 사용할 수 있습니다. 이메일 및 푸시 메시지에 대한 [타겟팅] 및 [제외]가 실시간 보고서와 글로벌 보고서 모두에 표시됩니다. </br> 최신 지표에 액세스하려면 각 채널 및 보고 유형에 대해 서로 다른 보고 대시보드를 재설정해야 합니다. 대시보드 사용자 지정에 대한 자세한 내용은 <a href="../reports/live-report.md">자세한 설명서</a>를 참조하세요.</p>
 <p>각 메시지 실행에 대해 타겟팅한 프로필 수가 표시되는 열이 메시지 실행 목록에 새로 생겼습니다. </p>
-<p>자세한 내용은 <a href="../reports/report-gs-cja.md">자세한 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../reports/report-gs-cja.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -187,7 +186,7 @@ ht-degree: 100%
 <td>
 <p>Adobe Journey Optimizer를 사용하여 모든 고객에게 최적의 시간에 푸시 또는 이메일을 자동으로 보냅니다. Adobe의 AI 서비스를 기반으로 하는 [전송 시간 최적화]는 기존의 오픈 및 클릭률 기록을 기반으로 참여를 극대화하기 위해 이메일 또는 푸시 메시지를 보내기 가장 적합한 시간을 예측합니다.</p>
 <p>이 기능은 현재 beta 버전으로 beta 고객에게만 제공됩니다. beta 프로그램에 참여하려면 Adobe 고객 지원 센터에 문의해 주세요.</p>
-<p>자세한 내용은 <a href="../building-journeys/send-time-optimization.md">자세한 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../building-journeys/send-time-optimization.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -204,7 +203,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>이제 비즈니스 이벤트를 구성할 때 스키마 간의 관계를 활용할 수 있습니다. 이는 단일 이벤트를 구성할 때, 여정에 조건을 사용할 때, 메시지 개인화 시, 사용자 지정 작업 개인화 시 연결된 테이블의 필드를 활용하는 기능도 함께 추가됩니다.</p>
-<p>자세한 내용은 <a href="../event/experience-event-schema.md#leverage_schema_relationships">자세한 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../event/experience-event-schema.md#leverage_schema_relationships">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -221,7 +220,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>개인화된 URL은 프로필 속성에 따라 수신자를 웹사이트의 특정 페이지 또는 개인화된 마이크로사이트로 이동합니다. 이제 Adobe Journey Optimizer에서 메시지 콘텐츠의 URL에 개인화를 추가할 수 있습니다. URL 개인화는 텍스트 및 이미지에 적용할 수 있으며, 프로필 데이터 또는 컨텍스트 데이터를 사용합니다.</p>
-<p>자세한 내용은 <a href="../personalization/personalization-syntax.md#perso-urls">자세한 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../personalization/personalization-syntax.md#perso-urls">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -238,7 +237,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>더 이상 필요하지 않을 때 다시 시도가 더 이상 수행되지 않도록 이제 각 사전 설정을 기준으로 다시 시도 기간을 정의할 수 있습니다. 예를 들어, 하루 동안만 유효한 링크가 포함된 암호 재설정 트랜잭션 메시지에 대해 다시 시도 기간을 24시간으로 설정할 수 있습니다. 다시 시도 설정은 이메일 채널에만 적용됩니다.</p>
-<p>자세한 내용은 <a href="../configuration/retries.md#retry-duration">자세한 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../configuration/retries.md#retry-duration">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -254,7 +253,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>이제 사용자 인터페이스에서 하나씩 또는 CSV 파일 업로드를 통해 일괄 모드로 이메일 주소와 도메인을 금지 목록에 추가할 수 있습니다.</p>
-<p>자세한 내용은 <a href="../configuration/manage-suppression-list.md#add-addresses-and-domains">자세한 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../configuration/manage-suppression-list.md#add-addresses-and-domains">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -292,7 +291,7 @@ ht-degree: 100%
 
 * 사용자 경험 개선을 위해 오퍼를 만들 때 표를 추가 및 구성하는 방식을 업데이트했습니다. 특히 [자산] 라이브러리는 이제 표에 대한 이미지 유형 컨텐츠를 정의할 때만 표시됩니다. [자세히 알아보기](../offers/offer-library/creating-personalized-offers.md#representations)
 
-### 문제 해결
+### 수정 사항
 
 * 메시지 탭 탐색에서 접근성 문제를 해결했습니다.
 * 이메일 디자이너 레이블의 현지화 문제를 해결했습니다.
@@ -316,7 +315,7 @@ ht-degree: 100%
 <td>
 <p>Journey Optimizer에 로드한 참조 데이터를 사용하여 경험을 강화할 수 있습니다. 예를 들면 경험 이벤트에서 예약 ID의 메타데이터를 조회하거나, 캔버스에서 사용할 경험 이벤트에서 sku의 제품 정보를 찾는 작업이 있습니다. </p>
 <p>이제 스키마 간의 관계를 활용하여 하나의 데이터 세트를 다른 데이터 세트에 대한 룩업 테이블로 사용할 수 있습니다. 그런 다음 단일 이벤트를 구성할 때, 여정에 조건을 사용할 때, 메시지 개인화 시, 사용자 지정 작업 개인화 시 연결된 테이블의 필드를 활용할 수 있습니다.</p>
-<p>자세한 내용은 <a href="../event/experience-event-schema.md#leverage_schema_relationships">자세한 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../event/experience-event-schema.md#leverage_schema_relationships">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -332,7 +331,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>이제 테스트 목적으로 안전한 환경을 갖도록 샌드박스 수준에서 특정 전송 안전 목록을 정의할 수 있습니다. 실수가 발생할 수 있는 비프로덕션 인스턴스에서 허용 목록을 사용하면 고객에게 원치 않는 메시지를 보낼 위험이 없습니다. 이 기능은 제외 API를 통해 사용할 수 있습니다.</p>
-<p>자세한 내용은 <a href="../configuration/allow-list.md">자세한 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../configuration/allow-list.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -359,7 +358,7 @@ ht-degree: 100%
 
 * 도우미 드롭다운 목록의 이름과 순서를 변경했습니다.
 
-### 문제 해결
+### 수정 사항
 
 * 일괄 이메일 게재 시 중복 메시지를 게재하는 문제를 해결했습니다.
 * 이제 다시 시도 기간이 끝나고 이메일 전송을 수행하지 않을 때 그에 따라 이벤트가 생성됩니다.

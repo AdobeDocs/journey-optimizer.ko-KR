@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 6304c4db02526ca6e774792474d3a495c7180f95
+source-git-commit: b0ea4ff8e43d5b274570209d44ec5c55a47aa54d
 workflow-type: tm+mt
-source-wordcount: '3194'
-ht-degree: 94%
+source-wordcount: '3205'
+ht-degree: 91%
 
 ---
 
@@ -18,18 +18,18 @@ ht-degree: 94%
 + [Journey Optimizer 설명서](ajo-home.md)
 + 새로운 기능 {#whats-new}
    + [릴리스 주기](using/rn/releases.md)
-   + [초기 릴리스 정보](using/rn/e-release-notes.md)
+   + {hide-from-toc}[초기 릴리스 정보](using/rn/e-release-notes.md)
    + [최신 릴리스 정보](using/rn/release-notes.md)
    + 이전 릴리스 정보 {#previous-rn-new}
-      + [이전 릴리스 정보](/help/rp_landing_pages/previous-rn-new-landing-page.md)
+      + {hide-from-toc}[이전 릴리스 노트](/help/rp_landing_pages/previous-rn-new-landing-page.md)
       + [2026](using/rn/release-notes-2026.md)
       + [2025](using/rn/release-notes-2025.md)
       + [2024](using/rn/release-notes-2024.md)
-      + [2023](using/rn/release-notes-2023.md)
-      + [2022](using/rn/release-notes-2022.md)
-      + [2021](using/rn/release-notes-2021.md)
+      + {hide-from-toc}[2023](using/rn/release-notes-2023.md)
+      + {hide-from-toc}[2022](using/rn/release-notes-2022.md)
+      + {hide-from-toc}[2021](using/rn/release-notes-2021.md)
    + [설명서 업데이트](using/rn/documentation-updates.md)
-   + [향상된 여정 캔버스](using/rn/new-canvas.md)
+   + {hide-from-toc}[향상된 여정 캔버스](using/rn/new-canvas.md)
 + 시작하기 {#get-started}
    + [시작하기](/help/rp_landing_pages/get-started-landing-page.md)
    + 기본 사항 {#essentials}
@@ -48,11 +48,11 @@ ht-degree: 94%
       + [검색, 필터링 및 정리](using/start/search-filter-categorize.md)
       + [AI 및 지능형 기능](using/start/ai-features.md)
       + [접근성](using/start/accessibility.md)
-      + [여정과 캠페인 비교](using/start/journeys-vs-campaigns.md)
+      + {hide-from-toc}[여정 대 캠페인](using/start/journeys-vs-campaigns.md)
 + 여정 {#orchestrate-journeys}
    + [여정 시작](using/building-journeys/journey.md)
-   + [여정 시작 안내서](using/building-journeys/journey-get-started.md)
-   + [여정 유형 및 선택 안내서](using/building-journeys/journey-types-selection.md)
+   + {hide-from-toc}[여정 시작 안내서](using/building-journeys/journey-get-started.md)
+   + {hide-from-toc}[여정 유형 및 선택 안내서](using/building-journeys/journey-types-selection.md)
    + [Journey Orchestration FAQ](using/building-journeys/journey-faq.md)
    + 여정 만들기 {#create-journey}
       + [여정 만들기](/help/rp_landing_pages/create-journey-landing-page.md)
@@ -111,7 +111,7 @@ ht-degree: 94%
          + [컬렉션 관리 기능](using/building-journeys/expression/collection-management-functions.md)
          + [연산자](using/building-journeys/expression/operators.md)
          + [여정 속성](using/building-journeys/expression/journey-properties.md)
-         + [예시](using/building-journeys/expression/advanced-editor-use-cases.md)
+         + {hide-from-toc}[예](using/building-journeys/expression/advanced-editor-use-cases.md)
       + 함수 {#main-functions-journey}
          + [주요 함수](using/building-journeys/expression/functions.md)
          + [inAudience 함수](using/building-journeys/functions/functioninaudience.md)
@@ -131,16 +131,16 @@ ht-degree: 94%
       + [구독자에게 메시지 보내기](using/building-journeys/message-to-subscribers-uc.md)
       + [평일에만 이메일 보내기](using/building-journeys/weekday-email-uc.md)
       + [사용자 정의 액션 매개 변수에 컬렉션 전달](using/building-journeys/collections.md)
-      + [게재 램프 업](using/building-journeys/ramp-up-deliveries-uc.md)
+      + {hide-from-toc}[점진적 게재 늘리기](using/building-journeys/ramp-up-deliveries-uc.md)
       + [외부 데이터 원본 및 사용자 정의 작업으로 처리량 제한](using/building-journeys/limit-throughput.md)
       + [사용자 정의 작업을 사용하여 Experience Platform에 여정 이벤트 작성](using/building-journeys/custom-action-aep.md)
 + 충성도 챌린지 {#loyalty-challenges}
-   + [충성도 문제 시작](using/loyalty-challenges/get-started.md)
-   + [과제 및 작업 액세스 및 관리](using/loyalty-challenges/access-loyalty-challenges.md)
-   + [과제 만들기](using/loyalty-challenges/create-challenges.md)
-   + [작업 만들기](using/loyalty-challenges/create-tasks.md)
+   + {hide-from-toc}[충성도 문제 시작](using/loyalty-challenges/get-started.md)
+   + {hide-from-toc}[문제 및 작업 액세스 및 관리](using/loyalty-challenges/access-loyalty-challenges.md)
+   + {hide-from-toc}[문제 만들기](using/loyalty-challenges/create-challenges.md)
+   + {hide-from-toc}[작업 만들기](using/loyalty-challenges/create-tasks.md)
 + 캠페인 {#campaigns}
-   + [캠페인](/help/rp_landing_pages/campaigns-landing-page.md)
+   + {hide-from-toc}[캠페인](/help/rp_landing_pages/campaigns-landing-page.md)
    + [캠페인 시작](using/campaigns/get-started-with-campaigns.md)
    + [캠페인 액세스 및 관리](using/campaigns/manage-campaigns.md)
    + 액션 캠페인 {#action-campaigns}
@@ -228,7 +228,7 @@ ht-degree: 94%
       + [방해 금지 시간 설정](using/conflict-prioritization/quiet-hours.md)
    + 여정 중재 {#journey-arbitration}
       + [공식을 사용하여 여정 등급 지정](using/conflict-prioritization/journey-ranking-formulas.md)
-      + [AI 모델을 사용하여 여정 등급 지정](using/conflict-prioritization/journey-ai-models.md)
+      + {hide-from-toc}[AI 모델을 사용하여 여정 등급을 매기십시오](using/conflict-prioritization/journey-ai-models.md)
 + 테스트 및 승인 {#test}
    + [테스트, 유효성 검사 및 승인](/help/rp_landing_pages/test-landing-page.md)
    + 콘텐츠 미리 보기 및 테스트 {#preview-test}
@@ -239,7 +239,7 @@ ht-degree: 94%
       + [테스트 프로필 데이터를 사용한 증명 전송](using/content-management/proofs.md)
       + [이메일 렌더링 테스트](using/content-management/rendering.md)
       + [콘텐츠 변형 시뮬레이션](using/test-approve/simulate-sample-input.md)
-      + [콘텐츠 베리에이션 자동 생성](using/test-approve/simulate-sample-input-generated.md)
+      + {hide-from-toc}[콘텐츠 변형의 자동 생성](using/test-approve/simulate-sample-input-generated.md)
       + [이메일 스팸 보고서](using/content-management/spam-report.md)
    + 여정 및 캠페인 승인 {#approve}
       + [여정 및 캠페인 승인](/help/rp_landing_pages/approve-landing-page.md)
@@ -272,7 +272,7 @@ ht-degree: 94%
       + [이메일 만들기](using/email/create-email.md)
       + 이메일 콘텐츠 디자인 {#design-email}
          + [이메일 콘텐츠 디자인](/help/rp_landing_pages/design-email-landing-page.md)
-         + [메시지 콘텐츠 디자인](using/start/message-content-design.md)
+         + {hide-from-toc}[메시지 콘텐츠 디자인](using/start/message-content-design.md)
          + [이메일 디자인 시작](using/email/get-started-email-design.md)
          + 콘텐츠 만들기 시작 {#start-creating-content}
             + [콘텐츠 만들기 시작](/help/rp_landing_pages/start-creating-content-landing-page.md)
@@ -433,7 +433,7 @@ ht-degree: 94%
       + 도우미 함수 목록 {#functions}
          + [도우미 함수 목록](/help/rp_landing_pages/functions-landing-page.md)
          + [도우미 함수 시작](using/personalization/functions/functions.md)
-         + [외부 데이터 조회 도우미](using/personalization/external-data-lookup.md)
+         + {hide-from-toc}[외부 데이터 조회 도우미](using/personalization/external-data-lookup.md)
          + [집계 함수](using/personalization/functions/aggregation.md)
          + [산술 함수](using/personalization/functions/arithmetic-functions.md)
          + [배열 및 목록 함수](using/personalization/functions/arrays-list.md)
@@ -483,7 +483,7 @@ ht-degree: 94%
       + [기존 콘텐츠를 조각으로 저장](using/content-management/save-fragments.md)
       + [사용자 정의 가능한 조각](using/content-management/customizable-fragments.md)
       + [조각 관리](using/content-management/manage-fragments.md)
-      + [게시된 조각에 상황별 속성 추가](using/content-management/manage-fragments-contextual-attributes.md)
+      + {hide-from-toc}[게시된 조각에 컨텍스트 특성 추가](using/content-management/manage-fragments-contextual-attributes.md)
    + 다이내믹 콘텐츠 {#dynamic}
       + [다이내믹 콘텐츠](/help/rp_landing_pages/dynamic-landing-page.md)
       + [다이내믹 콘텐츠 시작](using/personalization/get-started-dynamic-content.md)
@@ -495,16 +495,17 @@ ht-degree: 94%
       + [Experience Manager Assets 작업](using/integrations/assets.md)
       + [Adobe Stock 작업](using/integrations/stock.md)
       + [Adobe Express 작업](using/integrations/express.md)
-      + [Experience Manager 템플릿 작업](using/integrations/aem-templates.md)
+      + {hide-from-toc}[Experience Manager 템플릿 작업](using/integrations/aem-templates.md)
       + Experience Manager 컨텐츠 조각 {#aem}
          + [Experience Manager 콘텐츠 조각 시작](using/integrations/aem-fragments-gs.md)
          + [Experience Manager 콘텐츠 조각 작업](using/integrations/aem-fragments.md)
          + [고려 사항 및 문제 해결](using/integrations/aem-fragments-limitations.md)
-      + [Experience Manager Content Advisor 작업](using/content-management/aem-content-advisor.md)
-      + [카운트다운 타이머 삽입](using/integrations/countdown.md)
+      + {hide-from-toc}[Experience Manager 콘텐츠 관리자 작업](using/content-management/aem-content-advisor.md)
+      + {hide-from-toc}[카운트다운 타이머 삽입](using/integrations/countdown.md)
       + [Dynamic Media 작업](using/integrations/aem-dynamic.md)
       + [GenStudio for Performance Marketing 작업](using/integrations/genstudio.md)
-      + [통합 작업](using/integrations/external-sources.md)
+      + {hide-from-toc}[통합 작업](using/integrations/external-sources.md)
+      + {hide-from-toc}[MCP를 통해 AI 도우미와 작업](using/integrations/ajo-mcp.md)
    + 콘텐츠 생성을 위한 AI 어시스턴트 {#ai-assistant}
       + [콘텐츠 생성을 위한 AI 어시스턴트](/help/rp_landing_pages/ai-assistant-landing-page.md)
       + [AI 어시스턴트 시작하기](using/content-management/gs-generative.md)
@@ -513,6 +514,7 @@ ht-degree: 94%
       + [AI로 텍스트 생성](using/content-management/generative-text.md)
       + [AI로 이미지 생성](using/content-management/generative-image.md)
       + [AI를 사용한 콘텐츠 실험](using/content-management/generative-experimentation.md)
+      + [Personalization 표현식을 위한 AI 지원](using/content-management/generative-personalization-expressions.md)
       + [AI 어시스턴트 사용 사례](using/content-management/generative-uc.md)
       + 브랜드 {#brands}
          + [브랜드](/help/rp_landing_pages/brands-landing-page.md)
@@ -589,7 +591,7 @@ ht-degree: 94%
          + [이메일 캠페인 보고서](using/reports/campaign-global-report-cja-email.md)
          + [실험 캠페인 보고서](using/reports/campaign-global-report-cja-experimentation.md)
          + [인앱 캠페인 보고서](using/reports/campaign-global-report-cja-inapp.md)
-         + [라이브 활동 캠페인 보고서](using/reports/campaign-global-report-cja-activity.md)
+         + {hide-from-toc}[라이브 활동 캠페인 보고서](using/reports/campaign-global-report-cja-activity.md)
          + [푸시 알림 캠페인 보고서](using/reports/campaign-global-report-cja-push.md)
          + [SMS 캠페인 보고서](using/reports/campaign-global-report-cja-sms.md)
          + [웹 캠페인 보고서](using/reports/campaign-global-report-cja-web.md)
@@ -633,7 +635,7 @@ ht-degree: 94%
          + [Decisioning으로 마이그레이션할 때의 이점](using/experience-decisioning/migrate-to-decisioning.md)
          + [의사 결정 마이그레이션 API](using/experience-decisioning/decisioning-migration-api.md)
       + API 참조 {#experience-decisioning-api-reference}
-         + [API 참조](/help/rp_landing_pages/experience-decisioning-api-reference-landing-page.md)
+         + {hide-from-toc}[API 참조](/help/rp_landing_pages/experience-decisioning-api-reference-landing-page.md)
          + [API 결정하기 시작](using/experience-decisioning/api-reference/getting-started.md)
          + 결정 항목 {#decision-items}
             + [결정 항목 만들기](using/experience-decisioning/api-reference/decisions-items/create.md)
@@ -701,8 +703,8 @@ ht-degree: 94%
       + [결정 보고서](using/experience-decisioning/cja-reporting.md)
       + [결정 사용 사례](using/experience-decisioning/experience-decisioning-uc.md)
       + 이벤트 데이터 수집 {#experience-decisioning-collect-event-data}
-         + [데이터 수집 시작하기](using/experience-decisioning/data-collection/data-collection.md)
-         + [이벤트를 수집할 데이터 세트 만들기](using/experience-decisioning/data-collection/create-dataset.md)
+         + {hide-from-toc}[데이터 수집 시작](using/experience-decisioning/data-collection/data-collection.md)
+         + {hide-from-toc}[이벤트를 수집할 데이터 집합을 만듭니다](using/experience-decisioning/data-collection/create-dataset.md)
          + [이벤트 캡처 구성](using/experience-decisioning/data-collection/schema-requirement.md)
    + 의사 결정 관리 {#offer-decisioning}
       + [의사 결정 관리](/help/rp_landing_pages/offer-decisioning-landing-page.md)
@@ -900,16 +902,16 @@ ht-degree: 94%
       + [IP 워밍업 캠페인 만들기](using/configuration/ip-warmup-campaign.md)
       + [IP 워밍업 플랜 만들기](using/configuration/ip-warmup-plan.md)
       + [IP 준비 계획 실행](using/configuration/ip-warmup-execution.md)
-      + [IP 준비 계획 파일](using/configuration/ip-warmup-plan-files.md)
+      + {hide-from-toc}[IP 준비 계획 파일](using/configuration/ip-warmup-plan-files.md)
    + 이메일 주소 모니터링 {#monitor-reputation}
       + [이메일 주소 모니터링](/help/rp_landing_pages/monitor-reputation-landing-page.md)
-      + [이메일 오류 유형](using/configuration/email-error-types.md)
+      + {hide-from-toc}[전자 메일 오류 유형](using/configuration/email-error-types.md)
       + [금지 목록](using/configuration/manage-suppression-list.md)
       + [다시 시도](using/configuration/retries.md)
       + [허용 목록](using/configuration/allow-list.md)
    + [시드 목록 사용](using/configuration/seed-lists.md)
    + [전자 메일 보관 지원](using/configuration/archiving-support.md)
-   + [이메일에 참조 필드 추가](using/configuration/cc-email-field.md)
+   + {hide-from-toc}[전자 메일에 참조 필드 추가](using/configuration/cc-email-field.md)
    + [실행 필드 관리](using/configuration/primary-email-addresses.md)
    + [피드백 웹후크 만들기](using/configuration/feedback-webhooks.md)
 + 여정 구성 {#configure-journeys}

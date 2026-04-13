@@ -4,14 +4,13 @@ product: journey optimizer
 title: AEM 템플릿 작업
 description: AEM에서 템플릿을 만들고 Journey Optimizer으로 내보내는 방법에 대해 알아봅니다
 hide: true
-hidefromtoc: true
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 badge: label="Beta" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '741'
 ht-degree: 2%

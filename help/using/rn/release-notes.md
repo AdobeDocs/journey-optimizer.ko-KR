@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4bdc4ee38dcc42af2a2a3f0d87e2f4747310b98b
+source-git-commit: 42bd2e0e3f203784d831582416a8e92083388450
 workflow-type: tm+mt
-source-wordcount: '2210'
+source-wordcount: '2386'
 ht-degree: 22%
 
 ---
@@ -108,6 +108,25 @@ ht-degree: 22%
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Personalization 표현식을 위한 AI 지원</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>[!DNL Adobe Journey Optimizer] 이제 Personalization Editor에 AI Assistant가 포함됩니다. 개인화할 내용을 일반 언어로 설명하면 도우미가 그대로 사용하거나 짧은 후속 대화에서 세분화할 수 있는 개인화 표현식을 생성합니다.</p>
+<p>기존 개인화 코드를 선택하고 도우미에게 설명하거나 수정하거나 개선 사항을 제안하도록 요청할 수도 있습니다. 식을 생성한 후 <strong>샘플 프로필에 대한 미리 보기 표시</strong>는 제한된 합성 샘플 프로필 집합에 대해 빠른 검사를 실행합니다.</p>
+<p><img src="assets/do-not-localize/assistant-perso.gif"></p>
+<p>자세한 내용은 <a href="../content-management/generative-personalization-expressions.md">Personalization 표현식 AI 지원</a>을 참조하세요.</p>
+<p>가용성 일자: 2026년 4월 13일 화요일</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ### 개선 사항 {#april-26-improv}
 
 #### 여정 경로 최적화
@@ -128,15 +147,17 @@ ht-degree: 22%
 
   가용성 일자: 2026년 4월 7일 수요일
 
-<!--
-* **Adobe Experience Manager Content Fragment context while authoring** - Your Content Fragment selection stays active as you move between text fields and content blocks, so you can add more fragment fields without reopening **Open AEM Content advisor** each time. [Read more](../integrations/aem-fragments.md)
+* **작성 중 Adobe Experience Manager 콘텐츠 조각 컨텍스트** - 콘텐츠 조각 선택 항목은 텍스트 필드와 콘텐츠 블록 사이를 이동할 때 활성 상태로 유지되므로 매번 **AEM 콘텐츠 관리자 열기**&#x200B;를 다시 열지 않고 조각 필드를 더 추가할 수 있습니다. [자세히 보기](../integrations/aem-fragments.md)
 
-  Availability date: April 1, 2026
--->
+  이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
+
+  가용성 일자: 2026년 4월 1일 목요일
 
 #### Adobe Experience Manager 통합
 
 * **Adobe Experience Manager 콘텐츠 조각 변형 지원** - 로케일 및 다국어 시나리오에 대한 개선된 처리로 Adobe Experience Manager 콘텐츠 조각을 삽입할 때 **콘텐츠 조각 변형**(예: 언어 또는 채널 변형)을 선택할 수 있습니다. [자세히 보기](../integrations/aem-fragments.md#aem-variations)
+
+  이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
 
   가용성 일자: 2026년 4월 3일 토요일
 

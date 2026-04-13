@@ -7,10 +7,9 @@ feature: Journeys, Get Started, Overview
 role: User
 level: Beginner, Intermediate
 hide: true
-hidefromtoc: true
 keywords: 여정, 오케스트레이션, 시작, 온보딩, 기능
 exl-id: 96b1d619-986d-493d-a73b-d7c63b92cca8
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '839'
 ht-degree: 50%
@@ -184,7 +183,7 @@ AI 기반의 전송 시간 최적화를 사용하여 각 고객이 참여할 가
 
 개인화된 옴니채널 캠페인을 작성할 수 있는 고객 여정의 디자인, 테스트, 게시 및 추적에 대한 단계별 지침입니다.
 
-[여정 만들기 살펴보기](../../rp_landing_pages/create-journey-landing-page.md) | [여정 관리 학습](../../rp_landing_pages/manage-journey-landing-page.md) | [여정 워크플로 단계](journey.md#workflow)
+[여정 만들기 살펴보기](../../rp_landing_pages/create-journey-landing-page.md) | [여정 관리에 대해 알아보기](../../rp_landing_pages/manage-journey-landing-page.md) | [워크플로우 단계 여정](journey.md#workflow)
 :::
 
 :::

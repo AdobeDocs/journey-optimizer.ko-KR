@@ -9,10 +9,10 @@ role: Developer
 level: Beginner
 keywords: 표현식, 편집기, 시작, 개인화
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+source-git-commit: 8f28414c5aa567e60975e01d66dd1725ac9fa20a
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 24%
+source-wordcount: '569'
+ht-degree: 22%
 
 ---
 
@@ -31,9 +31,7 @@ ht-degree: 24%
 
 Journey Optimizer에서는 중괄호 **`{{}}`**&#x200B;로 묶은 내용을 포함하는 식을 만들 수 있는 Handlebars를 기반으로 하는 인라인 개인화 구문을 사용합니다.
 
-메시지를 처리할 때 Journey Optimizer은 표현식을 Experience Platform 데이터 세트에 포함된 데이터로 대체합니다. 예를 들어 `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}`은(는) 동적으로 `Hello John Doe`이(가) 됩니다.
-
-이 구문을 사용하면 이메일 제목 줄, 메시지 본문, 푸시 알림 또는 URL을 포함하여 여러 필드에 메시지를 개인화할 수 있습니다.
+메시지를 처리할 때 Journey Optimizer은 표현식을 Experience Platform 데이터 세트에 포함된 데이터로 대체합니다. 예를 들어 `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}`은(는) 동적으로 `Hello John Doe`이(가) 됩니다. 이 구문을 사용하면 이메일 제목 줄, 메시지 본문, 푸시 알림 또는 URL을 포함하여 여러 필드에 메시지를 개인화할 수 있습니다.
 
 ## 개인화에 사용되는 데이터
 
@@ -52,6 +50,14 @@ Personalization은 Adobe Experience Platform에 정의된 **XDM 개인 프로필
 ![개인화 플레이그라운드](assets/playground.png)
 
 ➡️ [개인화 플레이그라운드에 액세스](https://experienceleague.adobe.com/ko/apps/journey-optimizer/ajo-personalization){target="_blank"}
+
+## Personalization 편집기의 AI 지원 {#ai-personalization-expressions}
+
+**[!UICONTROL Personalization Editor]**&#x200B;에서 **[!UICONTROL AI Assistant]**&#x200B;는 자연어에서 새 표현식을 생성하고, 기존 코드가 수행하는 작업을 설명하고, 선택 항목의 문제를 해결한 다음, 출력이 사용자의 의도와 일치할 때 출력을 적용하는 데 도움이 됩니다.
+
+![](../content-management/assets/ai-perso-generate.png)
+
+➡️ [Personalization Expressions에서 AI Assistant를 사용하여 작업하는 방법을 알아봅니다](../content-management/generative-personalization-expressions.md)
 
 ## 더 자세히 알아보기
 

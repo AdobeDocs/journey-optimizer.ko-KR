@@ -65,7 +65,7 @@ AI 모델을 만들고 사용하는 주요 단계는 다음과 같습니다.
 
 1. 적격 오퍼의 등급을 지정하기 위한 의사 결정의 배치에 AI 모델을 지정합니다. [자세히 알아보기](../offer-activities/configure-offer-selection.md)
 
-## 방법 비디오 {#video}
+## 사용 방법 비디오 {#video}
 
 Offer Decisioning용 AI 모델을 만드는 방법과 이 모델을 의사 결정에 적용하는 방법을 알아봅니다.
 

@@ -9,9 +9,8 @@ level: Beginner
 keywords: 여정 유형, 단일, 대상자 읽기, 대상자 자격, 비즈니스 이벤트, 비교, 결정 안내서, 선택, 선택, 실시간, 예약됨, 일괄 처리, 이벤트 트리거
 version: Journey Orchestration
 hide: true
-hidefromtoc: true
 exl-id: 0c894dc1-76b6-4b33-baf8-eaf6686f7d38
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '977'
 ht-degree: 4%

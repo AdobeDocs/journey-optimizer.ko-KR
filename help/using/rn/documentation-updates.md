@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b579e39194f70dd3cb67577b82fa4868de36c5e2
+source-git-commit: 9c71686e91cfb203ad3b372c84677275cc4c512c
 workflow-type: tm+mt
-source-wordcount: '6654'
-ht-degree: 72%
+source-wordcount: '6761'
+ht-degree: 71%
 
 ---
 
@@ -20,6 +20,12 @@ ht-degree: 72%
 이 페이지에는 월별 릴리스 기능 및 개선 사항과 관련된 업데이트 외에도 [!DNL Journey Optimizer] 설명서의 모든 최신 변경 사항이 나와 있습니다.
 
 ## 2026년 4월 {#april-2026}
+
+* **오케스트레이션된 캠페인 시작 및 모니터링** 설명서에 캠페인 라이프사이클 상태 표, 게시 전 체크리스트 및 반복되지 않는 캠페인에 대한 전송 확인 경고와 함께 내부 게시-시간 실행 시퀀스를 자세히 설명하는 새 섹션이 업데이트되었습니다. [자세히 보기](../orchestrated/start-monitor-campaigns.md#publication-sequence)
+
+* **대상자 저장** 활동 설명서에 게시될 때 항상 메시지 활동 전에 대상자 저장 활동이 실행된다는 점을 설명하는 메모를 업데이트했습니다. [자세히 보기](../orchestrated/activities/save-audience.md)
+
+* **오케스트레이션된 캠페인 FAQ**&#x200B;에 세 가지 새로운 Q&amp;A가 추가되었습니다. 게시 시 내부적으로 발생하는 내용, 게시 후 메시지가 전송되지 않을 수 있는 이유에 대한 7포인트 검사 목록, 프로필 스냅숏 조회가 실시간 프로필 확인과 어떻게 다른지. [자세히 보기](../orchestrated/orchestrated-campaigns-faq.md)
 
 * 여정 인스턴스가 차단되어 삭제된 **[이벤트](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached)** 섹션이 여정 문제 해결 설명서에 추가되어 `maxInstanceStackEventsReached` 폐기 이유, 발생 시기 및 완화 방법을 설명합니다. 보호 및 단계 이벤트 필드 목록 페이지도 이에 따라 업데이트되었습니다.
 

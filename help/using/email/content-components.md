@@ -12,7 +12,7 @@ exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
 source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
 workflow-type: tm+mt
 source-wordcount: '1448'
-ht-degree: 48%
+ht-degree: 49%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 48%
 
 >[!NOTE]
 >
->[유럽 접근성 법률](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}에는 모든 디지털 통신에 액세스할 수 있어야 한다고 명시되어 있습니다. 콘텐츠 구성 요소를 활용하여 [에서 전자 메일을 디자인할 때(예: 액세스 가능한 글꼴, 읽을 수 있는 형식 사용 및 이미지에 대한 대체 텍스트 제공) &#x200B;](accessible-content.md)이 페이지[!DNL Journey Optimizer]에 나열된 특정 지침을 따라야 합니다.
+>[유럽 접근성법](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}에는 모든 디지털 통신의 접근성을 보장해야 한다고 명시되어 있습니다. 콘텐츠 구성 요소를 활용하여 [에서 전자 메일을 디자인할 때(예: 액세스 가능한 글꼴, 읽을 수 있는 형식 사용 및 이미지에 대한 대체 텍스트 제공) &#x200B;](accessible-content.md)이 페이지[!DNL Journey Optimizer]에 나열된 특정 지침을 따라야 합니다.
 
 ## 콘텐츠 구성 요소 추가 {#add-content-components}
 
@@ -133,7 +133,7 @@ ht-degree: 48%
    * **[!UICONTROL 복제]**: 텍스트 구성 요소의 복사본을 추가합니다.
    * **[!UICONTROL 삭제]**: 이메일에서 선택한 텍스트 구성 요소를 삭제합니다.
 
-1. 다음에서 텍스트 색상, 글꼴 패밀리, 테두리, 패딩, 여백 등 다른 스타일 속성을 조정합니다. **[!UICONTROL 스타일]** 탭에서
+1. [구성 요소 설정] 창에서 텍스트 색상, 글꼴 패밀리, 테두리, 패딩, 여백 등과 같은 기타 스타일 속성을 조정합니다. **[!UICONTROL 스타일]** 탭에서
 
    ![](assets/email_designer_text_component_2.png)
 
@@ -212,7 +212,7 @@ ht-degree: 48%
 
 1. 필요한 경우 Assets에서 각 소셜 미디어의 아이콘을 변경할 수도 있습니다.
 
-1. 다음에서 스타일, 여백, 테두리 등 다른 스타일 속성을 조정합니다. **[!UICONTROL 스타일]** 탭에서
+1. [구성 요소 설정] 창에서 스타일, 여백, 테두리 등과 같은 다른 스타일 속성을 조정합니다. **[!UICONTROL 스타일]** 탭에서
 
 ## 오퍼 결정 {#offer-decision}
 

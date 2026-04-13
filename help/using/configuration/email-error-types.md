@@ -9,12 +9,11 @@ role: Admin
 level: Experienced
 keywords: 다시 시도, 바운스, 소프트, 무시됨, 하드, 최적화 프로그램, 오류
 hide: true
-hidefromtoc: true
 exl-id: a8908b11-2288-4d53-897c-3f99cb5ceab4
-source-git-commit: 0cb73489981659c3f231b9def40e0e483ed3aef8
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '422'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -43,4 +42,4 @@ ht-degree: 6%
 | **릴레이 거부됨** | 소프트 바운스 | 54 | 대상 도메인이 릴레이에 허용 목록에 없으므로 메시지를 수락할 수 없습니다. |
 | **자동 회신** | 무시됨 | 60 | 전달을 사용하지 않으면 [!DNL Journey Optimizer]이(가) 받는 동안 이 메시지를 무시합니다. |
 | **일시적인 오류** | 무시됨 | 70 | 제한된 비율로 게재를 다시 시도하거나 일시 중단의 경우 지연될 수 있습니다. |
-| **Challenge-Response** | 소프트 바운스 | 10 | [!DNL Journey Optimizer]이(가) 문제 응답 인증 메커니즘을 지원하지 않으므로 게재가 영구적으로 실패할 수 있습니다. |
+| **Challenge-Response** | 소프트 바운스 | 100 | [!DNL Journey Optimizer]이(가) 문제 응답 인증 메커니즘을 지원하지 않으므로 게재가 영구적으로 실패할 수 있습니다. |

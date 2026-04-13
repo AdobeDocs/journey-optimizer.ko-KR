@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 hide: true
-hidefromtoc: true
 keywords: 콘텐츠, 디자인, 이메일, 푸시, sms, 개인화, 템플릿
-source-git-commit: 945f684f4ad30da38907ff967692a3d359f56bf0
+exl-id: a5700c92-1f6a-4c78-9c8e-81f8fd2fe8e3
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 4%
@@ -103,4 +103,3 @@ SMS를 사용하여 개인화된 텍스트 메시지를 작성하고, MMS를 사
 - **[자산 관리](../integrations/assets.md)** - Adobe Experience Manager Assets Essentials를 활용하여 메시지를 보강하고, 브랜드 자산을 관리하고, 중앙 집중식 콘텐츠 라이브러리를 유지할 수 있습니다.
 - **[Adobe Stock 통합](../integrations/stock.md)** - Journey Optimizer 내에서 로열티가 없는 수백만 장의 사진, 비디오 및 일러스트레이션에 직접 액세스하여 콘텐츠 디자인을 향상시킬 수 있습니다.
 - **[다국어 콘텐츠](../content-management/multilingual-gs.md)** - 다국어 캠페인 및 여정을 만들고 관리하여 현지화된 콘텐츠 변형을 통해 여러 언어로 대상자에게 도달합니다.
-

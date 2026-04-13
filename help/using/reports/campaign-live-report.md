@@ -28,7 +28,7 @@ ht-degree: 26%
 
 Campaign **[!UICONTROL 라이브 보고서]** 페이지가 다음 탭과 함께 표시됩니다.
 
-* [Campaign](#campaign-live)
+* [캠페인](#campaign-live)
 * [이메일](#email-live)
 * [인앱](#inapp-live)
 * [푸시](#push-live)

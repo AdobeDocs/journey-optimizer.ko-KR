@@ -13,7 +13,7 @@ exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 source-git-commit: 478bd6df8a82c9e37ec9319dedb27d99c021ee99
 workflow-type: tm+mt
 source-wordcount: '1682'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -263,9 +263,9 @@ API 트리거 캠페인 목록에 액세스하려면 **[!UICONTROL API 트리거
 
 * **시작하기** - [캠페인 시작](get-started-with-campaigns.md) | [첫 번째 액션 캠페인 만들기](create-campaign.md) | [API 트리거 캠페인 안내서](api-triggered-campaigns.md) | [오케스트레이션된 캠페인 안내서](../orchestrated/gs-orchestrated-campaigns.md)
 
-* **캠페인 구성** - [캠페인 속성](campaign-properties.md) | [캠페인 작업 및 채널](campaign-action.md) | [Campaign 콘텐츠 디자인](campaign-content.md) | [캠페인 대상자 선택](campaign-audience.md) | [캠페인 예약](campaign-schedule.md)
+* **캠페인 구성** - [캠페인 속성](campaign-properties.md) | [캠페인 작업 및 채널](campaign-action.md) | [캠페인 콘텐츠 디자인](campaign-content.md) | [캠페인 대상 선택](campaign-audience.md) | [캠페인 예약](campaign-schedule.md)
 
-* **고급 기능** - [승인 워크플로](../test-approve/gs-approval.md) | [충돌 관리 및 우선 순위 지정](../conflict-prioritization/gs-conflict-prioritization.md) | 채널별 [빈도 제한](../conflict-prioritization/channel-capping.md) | [우선 순위 점수](../conflict-prioritization/priority-scores.md) | [다른 샌드박스로 캠페인 내보내기](../configuration/copy-objects-to-sandbox.md)
+* **고급 기능** - [승인 워크플로](../test-approve/gs-approval.md) | [충돌 관리 및 우선 순위 지정](../conflict-prioritization/gs-conflict-prioritization.md) | [채널별 빈도 제한](../conflict-prioritization/channel-capping.md) | [우선 순위 점수](../conflict-prioritization/priority-scores.md) | [다른 샌드박스로 캠페인 내보내기](../configuration/copy-objects-to-sandbox.md)
 
 * **모니터링 및 최적화** - [캠페인 보고서(CJA)](../reports/campaign-global-report-cja.md) | [경고 설정](../reports/alerts.md)
 

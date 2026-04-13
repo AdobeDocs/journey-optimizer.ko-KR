@@ -127,6 +127,6 @@ ht-degree: 49%
 
    ![](assets/email_designer_simulate_content.png)
 
-1. 컨텐츠 품질을 확인하여 가독성, 효율성 및 컨텐츠 응집성을 평가할 수도 있습니다. [콘텐츠 품질 유효성 검사에 대해 자세히 알아보기](../content-management/brands-score.md#validate-quality)
+1. 컨텐츠 품질을 확인하여 가독성, 효율성 및 컨텐츠 응집성을 평가할 수도 있습니다. [콘텐츠 품질 확인에 대해 자세히 알아보기](../content-management/brands-score.md#validate-quality)
 
 1. 콘텐츠가 준비되면 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
