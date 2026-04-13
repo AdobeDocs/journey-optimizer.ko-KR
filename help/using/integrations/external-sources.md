@@ -10,14 +10,25 @@ level: Beginner
 keywords: 통합
 hide: true
 exl-id: 104f283e-f6a5-431b-919a-d97b83d19632
-source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+source-git-commit: 3733c9ab401f85b22e1d6e07dbf4db535ff8a96d
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '643'
 ht-degree: 1%
 
 ---
 
 # 통합 작업 {#external-sources}
+
+>[!BEGINSHADEBOX]
+
+목차:
+
+* **[통합 작업](external-sources.md)**
+* [공급업체 통합 시작](vendor-integration-gs.md)
+* [사용 가능한 공급업체](vendor-integration.md)
+* [FAQ](vendor-integration-faq.md)
+
+>[!ENDSHADEBOX]
 
 ## 개요
 
