@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: MCP를 통해 AI 지원 팀과 작업
-description: MCP(Model Context Protocol) 서버를 사용하여 Adobe Journey Optimizer을 AI 지원에 연결하는 방법에 대해 알아봅니다
+description: MCP 서버를 사용하여 Adobe Journey Optimizer을 AI 도우미에 연결하는 방법에 대해 알아봅니다
 feature: Integrations
 topic: Content Management, Artificial Intelligence
 badge: label="제한된 가용성" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: b92ef33b03e0bdcd6e615846cd7654aaab1b4a1a
+source-git-commit: 5eca5b3794731f030427fa426cb09e705d491b6f
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '605'
 ht-degree: 1%
 
 ---
