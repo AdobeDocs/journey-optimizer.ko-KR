@@ -8,7 +8,7 @@ topic: Content Management, Artificial Intelligence
 badge: label="제한된 가용성" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: 5eca5b3794731f030427fa426cb09e705d491b6f
+source-git-commit: 5c2c3ae045b37c734c9cf18ad60bd92d6a98c67f
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 1%
@@ -91,4 +91,3 @@ Step-by-step connection instructions to be added here, including:
 
 프롬프트를 제출하면 AI 도우미는 처리를 위해 해당 컨텍스트(MCP 서버에서 반환된 [!DNL Adobe Journey Optimizer] 데이터 포함)를 해당 모델에 보낼 수 있습니다. 프로덕션 데이터에 연결하기 전에 AI 지원 공급자의 개인정보 보호 및 데이터 처리 정책을 검토하십시오.
 +++
-
