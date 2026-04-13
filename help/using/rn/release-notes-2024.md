@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 65b4b80aa1e68bf72bc0621ad22597f8273ec0a1
 workflow-type: tm+mt
 source-wordcount: '6783'
 ht-degree: 100%
@@ -1367,3 +1367,4 @@ table>
 **의사 결정 관리**
 
 * **Edge 빈도 상한 설정** - 이제 빈도 상한 설정 카운터가 업데이트되어 Edge Decisioning API 결정에서 3초 이내에 사용할 수 있습니다. [자세히 알아보기](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
+
