@@ -10,7 +10,7 @@ level: Beginner
 keywords: 여정, 캠페인, 오케스트레이션, 비교, 선택, 결정, 워크플로우, 실시간, 일괄 처리, 오케스트레이션, 여러 단계, 예약됨, API 트리거, 이벤트 기반
 hide: true
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
-source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
 workflow-type: tm+mt
 source-wordcount: '1613'
 ht-degree: 4%
@@ -76,7 +76,7 @@ ht-degree: 4%
 * 복잡한 여러 단계 논리 필요 없음
 
 **외부 시스템에 의해 트리거된 즉각적인 메시지입니까?**
-→1&rbrace;API 트리거 캠페인 사용&#x200B;**&#x200B;**
+→1}API 트리거 캠페인 사용****
 * API 호출을 통해 요청 시 트리거됨
 * 페이로드 기반 개인화
 * 복잡한 여러 단계 논리 필요 없음

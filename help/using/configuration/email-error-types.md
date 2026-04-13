@@ -10,7 +10,7 @@ level: Experienced
 keywords: 다시 시도, 바운스, 소프트, 무시됨, 하드, 최적화 프로그램, 오류
 hide: true
 exl-id: a8908b11-2288-4d53-897c-3f99cb5ceab4
-source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 8%
@@ -21,7 +21,7 @@ ht-degree: 8%
 
 게재 실패의 가능한 원인은 여러 가지입니다. 아래 표에는 [!DNL Journey Optimizer]과(와) 함께 전자 메일 게재를 보낼 때 발생할 수 있는 모든 오류와 설명 및 오류 유형이 자세히 나와 있습니다.
 
-이러한 오류는 [의 모든 메시지 게재 정보와 바운스 시 이메일 ISP의 피드백 레코드를 포함하여 메시지 게재 로그가 들어 있는 &#x200B;](../data/datasets-query-examples.md#message-feedback-event-dataset)AJO 메시지 피드백 이벤트 데이터 세트[!DNL Journey Optimizer]에서 찾을 수 있습니다.
+이러한 오류는 [의 모든 메시지 게재 정보와 바운스 시 이메일 ISP의 피드백 레코드를 포함하여 메시지 게재 로그가 들어 있는 ](../data/datasets-query-examples.md#message-feedback-event-dataset)AJO 메시지 피드백 이벤트 데이터 세트[!DNL Journey Optimizer]에서 찾을 수 있습니다.
 
 | 오류 레이블 | 오류 유형 | 기술적 가치 | 설명 |
 | --- | --- | --- | --- |
