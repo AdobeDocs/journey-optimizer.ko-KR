@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: 46c7e9bbcd26a055bf85446605b00b5536b7543b
 workflow-type: tm+mt
-source-wordcount: '2742'
+source-wordcount: '2721'
 ht-degree: 4%
 
 ---
@@ -377,15 +377,16 @@ Infobip의 경우 피드백 이벤트에 대해 만들고 인바운드 이벤트
 
    +++페이로드 예제
 
-       &quot;json
-       &lbrace;
-       &quot;inboundMessage&quot;: &quot;{{inboundMessage}}&quot;,
-       &quot;profileNumber&quot;: &quot;{{profileNumber}}&quot;,
-       &quot;requestId&quot;: &quot;{{requestId}}&quot;,
-       &quot;originTimestamp&quot;: &quot;{{originTimestamp}}&quot;,
-       &quot;인바운드 번호&quot;: &quot;{{inboundNumber}}&quot;
-       
-       &quot;
+   ```json
+   {
+   "inboundMessage": "{{inboundMessage}}",
+   "profileNumber": "{{profileNumber}}",
+   "requestId": "{{requestId}}",
+   "originTimestamp": "{{originTimestamp}}",
+   "inboundNumber": "{{inboundNumber}}"
+   }
+   ```
+
    +++
 
 1. JSON 파일이 만들어지면 **[!UICONTROL 페이로드 편집기 보기]**&#x200B;를 클릭한 다음, JSON 페이로드를 복사하여 편집기에 붙여 넣고 저장하십시오.
@@ -416,18 +417,18 @@ Infobip의 경우 피드백 이벤트에 대해 만들고 인바운드 이벤트
 
    +++페이로드 예제
 
-       &quot;json
-       &lbrace;
-       &quot;clientReference&quot;: &quot;{{client_reference}}&quot;,
-       &quot;상태&quot;: &lbrack;
-       &lbrace;
-       &quot;code&quot;: &quot;{{failureCode}}&quot;,
-       &quot;상태&quot;: &quot;{{feedbackStatus}}&quot;
-       
-       &rbrack;
-       &rbrace;
-       &quot;
-   
+   ```json
+   {
+   "clientReference": "{{client_reference}}",
+   "statuses": [
+       {
+           "code": "{{failureCode}}",
+           "status": "{{feedbackStatus}}"
+       }
+   ]
+   }
+   ```
+
    +++
 
 1. **[!UICONTROL 페이로드 편집기 보기]**&#x200B;를 클릭한 다음 JSON 페이로드를 복사하여 편집기에 붙여 넣고 저장합니다.
