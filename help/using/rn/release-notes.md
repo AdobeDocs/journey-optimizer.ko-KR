@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4bdc4ee38dcc42af2a2a3f0d87e2f4747310b98b
+source-git-commit: f57b1f026543c5d360a0658f2028d1c543e71650
 workflow-type: tm+mt
-source-wordcount: '2210'
-ht-degree: 22%
+source-wordcount: '2305'
+ht-degree: 21%
 
 ---
 
@@ -108,6 +108,25 @@ ht-degree: 22%
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Personalization 표현식을 위한 AI 지원</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>[!DNL Adobe Journey Optimizer] 이제 Personalization Editor에 AI Assistant가 포함됩니다. 개인화할 내용을 일반 언어로 설명하면 도우미가 그대로 사용하거나 짧은 후속 대화에서 세분화할 수 있는 개인화 표현식을 생성합니다.</p>
+<p>기존 개인화 코드를 선택하고 도우미에게 설명하거나 수정하거나 개선 사항을 제안하도록 요청할 수도 있습니다. 식을 생성한 후 <strong>샘플 프로필에 대한 미리 보기 표시</strong>는 제한된 합성 샘플 프로필 집합에 대해 빠른 검사를 실행합니다.</p>
+<p><img src="assets/do-not-localize/assistant-perso.gif"></p>
+<p>자세한 내용은 <a href="../content-management/generative-personalization-expressions.md">Personalization 표현식 AI 지원</a>을 참조하세요.</p>
+<p>가용성 일자: 2026년 4월 13일 화요일</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ### 개선 사항 {#april-26-improv}
 
 #### 여정 경로 최적화
@@ -148,7 +167,7 @@ ht-degree: 22%
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 **릴리스 날짜**: 2026년 3월 24~25일
@@ -338,7 +357,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p><strong>Adobe Experience Platform Agent Orchestrator</strong>에서 제공하는 <strong>Journey Agent</strong>은(는) Journey Optimizer에서 사용할 수 있으며 자연어 인터페이스를 통해 여정을 분석할 수 있도록 해줍니다. 이제 Journey Agent에서 직접 채널별 콘텐츠를 생성하고 관리할 수도 있습니다. 또한 이메일 및 푸시와 같은 채널용 콘텐츠를 만들고, 템플릿을 적용하고 미리 보고, 프롬프트를 통해 색조와 스타일을 개선하고, <strong>콘텐츠 Designer</strong>에서 콘텐츠를 열어 상황에 맞게 편집할 수 있습니다.</p>
 <p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
-<p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=ko" target="_blank">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html" target="_blank">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2026년 3월 4일 목요일</p>
 </td>
 </tr>
