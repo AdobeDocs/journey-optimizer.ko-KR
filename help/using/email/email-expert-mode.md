@@ -1,33 +1,29 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 고급 HTML 편집기를 사용하여 이메일 템플릿 편집
-description: 전문가 모드를 사용하여 기능 플래그 제어, 보호 및 저장 유효성 검사와 함께 WYSIWYG 편집기에서 HTML 이메일 콘텐츠 소스를 보고 편집할 수 있습니다.
-feature: Templates
+title: 고급 HTML 편집기를 사용하여 이메일 콘텐츠 편집
+description: 전문가 모드를 사용하여 기능 플래그 제어, 보호 및 저장 유효성 검사와 함께 이메일 Designer에서 이메일 콘텐츠의 HTML 소스를 보고 편집할 수 있습니다.
+feature: Email Design
 topic: Content Management
 role: User
 level: Experienced
 exl-id: 0c586565-0c65-435f-986d-cd08b59de159
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 36fc8247844a2f6a5e9b478d9c3a31ed82a40356
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '559'
 ht-degree: 7%
 
 ---
 
-# 고급 HTML 편집기를 사용하여 이메일 템플릿 편집 {#email-template-expert-mode}
+# 고급 HTML 편집기를 사용하여 이메일 콘텐츠 편집 {#email-expert-mode}
 
 >[!AVAILABILITY]
 >
 >이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.
 
-**고급 HTML 편집기**&#x200B;는 [!DNL Journey Optimizer] 전자 메일 Designer 인터페이스에서 직접 전자 메일 콘텐츠 템플릿의 원시 소스 코드를 보고 편집할 수 있는 전문가 모드입니다.
+**고급 HTML 편집기**&#x200B;는 여정, 캠페인에 대한 **이메일 디자인** 또는 [!DNL Journey Optimizer]이메일 콘텐츠 템플릿[을(를) 편집하든 간에 &#x200B;](get-started-email-design.md) [이메일 Designer](content-from-scratch.md)에서 직접 [이메일 콘텐츠](../content-management/create-content-templates.md)의 원시 HTML 소스를 보고 편집할 수 있는 전문가 모드입니다.
 
 이 기능을 사용하면 조건과 같은 고급 표현식을 소스에 직접 삽입할 수 있습니다. 시각적(데스크톱) 보기로 다시 전환하면 컨텐츠가 다시 렌더링되므로 어떻게 표시되는지 확인하고 두 보기 중 하나에서 편집을 계속할 수 있습니다.
-
->[!NOTE]
->
->이 기능은 콘텐츠 템플릿 및 이메일 채널에서만 사용할 수 있습니다.
 
 ## 가드레일 {#guardrails}
 
@@ -45,13 +41,13 @@ ht-degree: 7%
 
 >[!WARNING]
 >
->콘텐츠 템플릿의 고급 HTML 편집기가 이메일 Designer의 **[!UICONTROL 직접 코드 작성]** 모드와 다릅니다. [!UICONTROL 나만의 코드 작성] 모드에서는 비주얼 편집기로 다시 전환할 수 없습니다. 해당 경로를 선택하면 코드 전용 편집이 유지됩니다. 반대로 고급 HTML 편집기를 사용하면 언제든지 HTML 보기와 데스크탑(시각적) 보기 간을 전환할 수 있습니다. [코드 편집기에 대해 자세히 알아보기](../email/code-content.md)
+>고급 HTML 편집기는 이메일 Designer의 **[!UICONTROL 직접 코드 작성]** 모드와 다릅니다. [!UICONTROL 나만의 코드 작성] 모드에서는 비주얼 편집기로 다시 전환할 수 없습니다. 해당 경로를 선택하면 코드 전용 편집이 유지됩니다. 반대로 고급 HTML 편집기를 사용하면 언제든지 HTML 보기와 데스크탑(시각적) 보기 간을 전환할 수 있습니다. [코드 편집기에 대해 자세히 알아보기](code-content.md)
 
 ## 고급 HTML 보기로 전환 {#switch-to-html-view}
 
-고급 HTML 편집기를 열고 템플릿 소스를 편집하려면 다음 단계를 따르십시오.
+고급 HTML 편집기를 열고 HTML 소스를 편집하려면 다음 단계를 따르십시오.
 
-1. 콘텐츠를 편집하려면 [이메일 템플릿](../content-management/create-content-templates.md)을(를) 열거나 만들고 [이메일 Designer](../email/get-started-email-design.md)을(를) 여십시오.
+1. 여정 또는 캠페인에서 [이메일 만들기 또는 편집](create-email.md)과 같이 이메일 Designer에서 편집할 이메일 또는 템플릿을 열거나 [이메일 콘텐츠 템플릿](../content-management/create-content-templates.md)을 열고 [이메일 Designer](get-started-email-design.md)에서 본문을 편집합니다.
 
 1. 화면 오른쪽 상단의 **[!UICONTROL HTML]** 단추를 클릭합니다.
 
@@ -67,7 +63,7 @@ ht-degree: 7%
 
 1. 고급 HTML 편집기가 표시됩니다.
 
-   ![전자 메일 템플릿 소스 코드를 표시하는 고급 HTML 편집기 인터페이스](assets/email-template-expert-mode.png)
+   ![전자 메일 소스 코드를 표시하는 고급 HTML 편집기 인터페이스](assets/email-template-expert-mode.png)
 
 1. 이메일 콘텐츠에 원하는 변경 사항을 추가합니다.
 
@@ -89,7 +85,6 @@ ht-degree: 7%
 
 ## 관련 항목
 
-* [자체 이메일 콘텐츠 코딩](../email/code-content.md)
-* [콘텐츠 템플릿 만들기](create-content-templates.md)
-* [이메일 디자이너 시작](../email/get-started-email-design.md)
-
+* [자체 이메일 콘텐츠 코딩](code-content.md)
+* [콘텐츠 템플릿 만들기](../content-management/create-content-templates.md)
+* [이메일 디자이너 시작](get-started-email-design.md)

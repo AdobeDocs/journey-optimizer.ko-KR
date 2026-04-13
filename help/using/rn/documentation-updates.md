@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 9c71686e91cfb203ad3b372c84677275cc4c512c
+source-git-commit: c0dcd7f206f76d133ed2e77ef692f0ae0054a6b5
 workflow-type: tm+mt
-source-wordcount: '6761'
+source-wordcount: '6825'
 ht-degree: 71%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 71%
 이 페이지에는 월별 릴리스 기능 및 개선 사항과 관련된 업데이트 외에도 [!DNL Journey Optimizer] 설명서의 모든 최신 변경 사항이 나와 있습니다.
 
 ## 2026년 4월 {#april-2026}
+
+* **고급 HTML 편집기를 사용하여 전자 메일 콘텐츠 편집** 페이지가 콘텐츠 관리 섹션에서 문서의 **전자 메일** 섹션(전자 메일 디자인 아래)으로 이동되었으며 페이지 파일의 이름이 **email-expert-mode.md**(으)로 변경되었습니다. 이제 페이지는 고급 HTML 편집기를 이메일 메시지 및 이메일 콘텐츠 템플릿용 이메일 Designer에서 사용할 수 있도록 문서화합니다. [자세히 보기](../email/email-expert-mode.md)
 
 * **오케스트레이션된 캠페인 시작 및 모니터링** 설명서에 캠페인 라이프사이클 상태 표, 게시 전 체크리스트 및 반복되지 않는 캠페인에 대한 전송 확인 경고와 함께 내부 게시-시간 실행 시퀀스를 자세히 설명하는 새 섹션이 업데이트되었습니다. [자세히 보기](../orchestrated/start-monitor-campaigns.md#publication-sequence)
 
@@ -65,7 +67,7 @@ ht-degree: 71%
 
 * 이제 의사 결정 설명서에서 새 **AI 모델 모니터링** 페이지를 사용할 수 있습니다. [!DNL Journey Optimizer]에서 직접 개인화된 최적화 모델의 상태, 교육 상태 및 성능을 추적하는 방법에 대해 설명합니다. [자세히 보기](../experience-decisioning/ranking/ai-model-observability.md)
 
-* 이제 전자 메일 서식 파일용 **고급 HTML 편집기**(전문가 모드)를 제한된 가용성으로 사용할 수 있습니다. 이제 설명서 페이지에 공개적으로 액세스할 수 있습니다. 이 기능을 사용하면 이메일 Designer에서 직접 이메일 콘텐츠 템플릿의 원시 HTML 소스를 보고 편집할 수 있습니다. [자세히 보기](../content-management/email-template-expert-mode.md)
+* 이제 전자 메일 서식 파일용 **고급 HTML 편집기**(전문가 모드)를 제한된 가용성으로 사용할 수 있습니다. 이제 설명서 페이지에 공개적으로 액세스할 수 있습니다. 이 기능을 사용하면 이메일 Designer에서 직접 이메일 콘텐츠 템플릿의 원시 HTML 소스를 보고 편집할 수 있습니다. [자세히 보기](../email/email-expert-mode.md)
 
 * **URL 추적** 및 **여정 문제 해결** 설명서가 닫힌 여정에서 `context.system.source.actionId`의 동작을 문서화하도록 업데이트되었습니다. 닫거나 다시 게시하지 않은 여정은 추적 URL에 빈 `{}`개의 자리 표시자를 생성할 수 있습니다. 여정을 다시 게시하거나 영향을 받는 매개 변수를 제거하여 문제를 해결하는 방법에 대한 지침을 추가했습니다. [자세히 보기](../email/url-tracking.md)
 

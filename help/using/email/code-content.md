@@ -9,9 +9,9 @@ role: User
 level: Intermediate, Experienced
 keywords: 코드, HTML, 편집기
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
-source-git-commit: 2240a4bf85d3f5f41a12d128afdc15431dbab75b
+source-git-commit: c0dcd7f206f76d133ed2e77ef692f0ae0054a6b5
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '492'
 ht-degree: 23%
 
 ---
@@ -26,7 +26,7 @@ HTML 스킬이 있어야 하며, 이 모드를 선택하면 코드 편집기에 
 
 >[!NOTE]
 >
->**[!UICONTROL 직접 코드]**&#x200B;은(는) 콘텐츠 템플릿의 고급 HTML 편집기와 다릅니다. 고급 HTML 편집기를 사용하면 코드 편집기가 아니라 언제든지 HTML 보기와 시각적(데스크톱) 보기 사이를 전환할 수 있습니다. [고급 HTML 편집기에 대해 자세히 알아보세요](../content-management/email-template-expert-mode.md).
+>**[!UICONTROL 직접 코드]**&#x200B;은(는) 전자 메일 Designer의 고급 HTML 편집기와 다릅니다. 고급 HTML 편집기를 사용하면 코드 편집기가 아니라 언제든지 HTML 보기와 시각적(데스크톱) 보기 사이를 전환할 수 있습니다. [고급 HTML 편집기에 대해 자세히 알아보세요](email-expert-mode.md).
 
 ## 코드 편집기 사용 {#use-code-editor}
 
