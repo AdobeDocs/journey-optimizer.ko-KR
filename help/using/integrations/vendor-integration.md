@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 hide: true
 keywords: 통합, 공급업체, 서드파티
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 9d839f8ac20b80e4abf5bedb881908f4e24964fc
 workflow-type: tm+mt
 source-wordcount: '9157'
 ht-degree: 5%
@@ -47,6 +47,7 @@ Contents는 REST 또는 GraphQL보다 구조화된 항목 및 에셋을 위한 H
 
 * 게재 API 액세스 및 읽기 중심 API 키를 사용하는 콘텐츠 공간.
 * 컨텐츠 유형 및 필드 ID를 지웁니다. 통합을 만들려면 Journey Optimizer에서 관리자 액세스 권한이 필요합니다.
+
 
 다음 제한 사항 및 제외가 적용됩니다.
 
