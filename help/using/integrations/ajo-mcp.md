@@ -5,12 +5,13 @@ title: MCP를 통해 AI 지원 팀과 작업
 description: MCP 서버를 사용하여 Adobe Journey Optimizer을 AI 도우미에 연결하는 방법에 대해 알아봅니다
 feature: Integrations
 topic: Content Management, Artificial Intelligence
-badge: label="제한된 가용성" type="Informative"
+badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: 5c2c3ae045b37c734c9cf18ad60bd92d6a98c67f
+hide: true
+source-git-commit: 03ac391f57c271416506b1213c4b8da5f06b32d5
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '793'
 ht-degree: 1%
 
 ---
@@ -19,7 +20,9 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->[!DNL Adobe Journey Optimizer] MCP 서버는 현재 **클라우드 웹** 및 **클라우드 데스크톱**&#x200B;에서만 사용할 수 있습니다.
+>[!DNL Adobe Journey Optimizer] MCP 서버는 현재 **클라우드 웹** 및 **클라우드 데스크톱**&#x200B;에서만 사용할 수 있습니다. 추가 MCP 호환 애플리케이션에 대한 지원은 향후 릴리스에 추가될 예정입니다.
+
+[!DNL Adobe Journey Optimizer] MCP 통합을 사용하면 API 호출을 작성하거나 제품 화면을 탐색하지 않고도 일반 언어 프롬프트를 사용하여 캠페인, 여정 및 오퍼를 쿼리할 수 있습니다. 이 페이지에서는 통합 작동 방식, 통합 기능으로 수행할 수 있는 작업 및 시작 방법을 설명합니다.
 
 ## 모델 컨텍스트 프로토콜이란 무엇입니까? {#mcp-overview}
 
@@ -29,7 +32,7 @@ ht-degree: 1%
 
 ## 주요 기능 {#mcp-capabilities}
 
-[!DNL Adobe Journey Optimizer] MCP 서버를 사용하면 AI 도우미에서 직접 [!DNL Adobe Journey Optimizer]개의 여정, 캠페인 및 오퍼를 검사, 요약 및 해결할 수 있습니다. [!DNL Adobe Journey Optimizer]의 검색 API는 일반 언어 답변으로 변경되므로 다음을 수행할 수 있습니다.
+[!DNL Adobe Journey Optimizer] MCP 서버를 사용하면 AI 도우미에서 직접 여정, 캠페인 및 오퍼를 검사, 요약 및 해결할 수 있습니다. 모든 작업은 **읽기 전용**&#x200B;입니다. MCP 서버 표면이 API를 일반 언어 답변으로 검색하므로 다음을 수행할 수 있습니다.
 
 * **여정 논리 이해** - 사람이 인식할 수 있는 여정 분기, 조건 및 작업에 대한 요약을 가져옵니다.
 * **캠페인 준비 확인** - 캠페인이 게시되지 않도록 하는 차단기를 식별합니다.
@@ -61,7 +64,13 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->통합을 일반적으로 사용할 수 있게 되면 자세한 설정 단계가 추가됩니다. 조기 액세스는 Adobe 담당자에게 문의하십시오.
+>이 통합은 Beta에 있습니다. 자세한 설정 단계는 일반 가용성에 도달하면 게시됩니다. 조기 액세스를 요청하고 구성 지침을 받으려면 Adobe 담당자에게 문의하십시오.
+
+Beta 단계에서 Adobe 담당자는 다음을 제공합니다.
+
+* 조직에 관련된 MCP 서버 엔드포인트 URL.
+* AI 도우미를 [!DNL Adobe Journey Optimizer]에 연결하기 위한 인증 자격 증명입니다.
+* Cloud Desktop 또는 Cloud Web에서 MCP 서버 구성에 대한 지침
 
 <!--
 Step-by-step connection instructions to be added here, including:
@@ -90,4 +99,14 @@ Step-by-step connection instructions to be added here, including:
 +++AI 비서 공급자에게 데이터가 전송됩니까?
 
 프롬프트를 제출하면 AI 도우미는 처리를 위해 해당 컨텍스트(MCP 서버에서 반환된 [!DNL Adobe Journey Optimizer] 데이터 포함)를 해당 모델에 보낼 수 있습니다. 프로덕션 데이터에 연결하기 전에 AI 지원 공급자의 개인정보 보호 및 데이터 처리 정책을 검토하십시오.
++++
+
++++[!DNL Adobe Journey Optimizer]에서 어떤 권한이 필요합니까?
+
+쿼리할 개체(캠페인, 여정 또는 오퍼)에 대해 최소 **보기** 권한이 필요합니다. MCP 서버는 읽기 작업만 수행하므로 쓰기 권한이 필요하지 않습니다. 현재 액세스 수준을 잘 모를 경우 [!DNL Adobe Journey Optimizer] 관리자에게 문의하십시오.
++++
+
++++샌드박스 환경에서 MCP 서버를 사용할 수 있습니까?
+
+예. MCP 서버는 [!DNL Adobe Journey Optimizer] 샌드박스 구성을 준수합니다. 프롬프트에서 샌드박스를 지정하거나 특정 샌드박스에 지정된 자격 증명으로 연결하여 샌드박스 특정 데이터를 쿼리할 수 있습니다.
 +++
