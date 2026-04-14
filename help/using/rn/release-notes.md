@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c0dcd7f206f76d133ed2e77ef692f0ae0054a6b5
+source-git-commit: 7529370ed8308dea4ab39aaf6b7f82f4982933ca
 workflow-type: tm+mt
 source-wordcount: '2482'
 ht-degree: 21%
@@ -129,8 +129,6 @@ ht-degree: 21%
 
 ### 개선 사항 {#april-26-improv}
 
-#### 여정 경로 최적화
-
 #### 이메일 디자인
 
 * **전자 메일 콘텐츠에 대한 고급 HTML 편집기** - 고급 HTML 모드를 사용하면 전자 메일 Designer에서 콘텐츠의 HTML 소스를 편집하고, 소스에 고급 표현식(예: 조건)을 추가하고, 변경 내용을 손실하지 않고 HTML 보기와 데스크톱 보기 간에 전환할 수 있습니다.
@@ -138,6 +136,8 @@ ht-degree: 21%
   이전에는 전자 메일 콘텐츠 템플릿에만 사용할 수 있었지만, 이제 이 기능은 전자 메일 콘텐츠 템플릿 외에 전자 메일 Designer의 **전자 메일** 콘텐츠(예: 여정 및 캠페인으로 작성된 전자 메일)에도 배포됩니다. 현재 제한된 가용성 상태입니다. Adobe 담당자에게 문의하여 액세스 권한을 받으십시오. [자세히 보기](../email/email-expert-mode.md)
 
   가용성 일자: 2026년 4월 9일 금요일
+
+#### 여정 경로 최적화
 
 * **실험 유형** - 이제 경로 실험을 구성할 때 A/B 실험(시작 시 고정 분할) 또는 Multi-armed bandit(주별 가중치 업데이트가 있는 자동 분할) 중에서 선택할 수 있습니다. [자세히 보기](../building-journeys/path-experimentation.md)
 
