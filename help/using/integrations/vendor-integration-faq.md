@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 통합, FAQ, 외부 데이터, 개인화
 hide: true
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 9d839f8ac20b80e4abf5bedb881908f4e24964fc
 workflow-type: tm+mt
 source-wordcount: '886'
 ht-degree: 1%
@@ -30,6 +30,7 @@ ht-degree: 1%
 >[!ENDSHADEBOX]
 
 다음은 Adobe Journey Optimizer의 **통합**&#x200B;에 대한 FAQ입니다.
+
 
 ## 시작하기
 

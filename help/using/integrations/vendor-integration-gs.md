@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 hide: true
 keywords: 통합, 공급업체, 서드파티
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 9d839f8ac20b80e4abf5bedb881908f4e24964fc
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 1%
@@ -29,6 +29,7 @@ ht-degree: 1%
 * [FAQ](vendor-integration-faq.md)
 
 >[!ENDSHADEBOX]
+
 
 각 시스템이 사용 사례에 적합하고 통합에서 요청을 처리하고 응답을 사용하는 방식과 호환되는 **API 끝점**&#x200B;을(를) 노출할 때 Adobe Journey Optimizer에서 **통합**&#x200B;을 사용하여 **HTTP를 통한 외부 시스템**&#x200B;을(를) 호출할 수 있습니다. 전체 워크플로를 보려면 [통합 작업](external-sources.md)을 참조하십시오.
 
