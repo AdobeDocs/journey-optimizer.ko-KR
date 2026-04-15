@@ -6,7 +6,7 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1859'
 ht-degree: 6%
@@ -232,7 +232,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%=equals(profile.person.name,"John") %}
 ```
 
-## 같음 대/소문자 무시{#equalsIgnoreCase}
+## 대/소문자 무시와 같음{#equalsIgnoreCase}
 
 `equalsIgnoreCase` 함수는 대/소문자를 구분하지 않고 문자열이 지정된 문자열과 같은지 확인하는 데 사용합니다.
 
@@ -575,7 +575,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= notEqualTo(profile.person.name,"John") %}
 ```
 
-## 대/소문자 무시와 같지 않음 {#not-equal-with-ignore-case}
+## 대소문자 무시와 같지 않음 {#not-equal-with-ignore-case}
 
 `notEqualWithIgnoreCase` 함수는 대/소문자를 무시하는 두 문자열을 비교하는 데 사용됩니다.
 
@@ -658,7 +658,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 >[!NOTE]
 >
-> 두 번째 인수로 사용된 식이 특수 정규 표현식 문자인 경우 이중 백슬래시(`//`)를 사용합니다.  특수 정규 표현식 문자는 [., +, *, ?, ^, $, (, ), [,], {, }, |, \.]
+> 두 번째 인수로 사용된 식이 특수 정규 표현식 문자인 경우 이중 백슬래시(`//`)를 사용합니다.  특수 정규 표현식 문자는 [., +, *, ?, ^, $, (, ), [,], {, }, |, \.]입니다.
 > 
 > 자세한 내용은 [Oracle 설명서](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}를 참조하세요.
 >
@@ -798,7 +798,7 @@ doesNotEndWith(person.emailAddress,".com")
 {= toBool(string) %}: boolean
 ```
 
-## 종료 날짜/시간 {#to-date-time}
+## 종료 날짜 시간 {#to-date-time}
 
 `toDateTime` 함수는 문자열을 날짜로 변환하는 데 사용합니다. 잘못된 입력에 대한 출력으로 에포크 날짜를 반환합니다.
 
@@ -808,7 +808,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= toDateTime(string, string) %}: date-time
 ```
 
-## 종료 날짜/시간만 {#to-date-time-only}
+## 종료 날짜 시간만 {#to-date-time-only}
 
 `toDateTimeOnly` 함수는 인수 값을 날짜/시간 전용 값으로 변환하는 데 사용합니다. 잘못된 입력에 대한 출력으로 에포크 날짜를 반환합니다. 이 함수는 문자열, 날짜, long 및 int 필드 유형을 수락합니다.
 

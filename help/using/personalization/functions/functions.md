@@ -6,7 +6,7 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: e8ace59ea50d35de1f1b3b9a6417e5eb7961c236
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '2496'
 ht-degree: 2%
@@ -46,7 +46,7 @@ ht-degree: 2%
 
 ## 함수{#functions-helper}
 
-### 집계 및 스토리지 기능
+### 집계 및 배열 함수
 
 <table>
     <tr>
@@ -533,4 +533,4 @@ ht-degree: 2%
 
 개인화 도우미 기능을 사용하여 개인화 값을 변형하는 방법을 알아보고 도우미 기능의 다양한 사용 사례를 이해합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416646?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

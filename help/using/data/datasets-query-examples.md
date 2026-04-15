@@ -9,7 +9,7 @@ role: Developer, Admin
 level: Experienced
 keywords: 데이터 세트, 최적화 도구, 사용 사례
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: e9b748591c425395e71b53c5e80f03a42ce0563d
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1086'
 ht-degree: 2%
@@ -274,7 +274,7 @@ group by
 
 [여정_step_events](../reports/sharing-field-list.md#discarded-events)에서 삭제된 이벤트 유형 문제를 해결하는 방법을 알아봅니다.
 
-## 의사 결정 이벤트 데이터 세트{#ode-decisionevents}
+## Decisioning 이벤트 데이터 세트{#ode-decisionevents}
 
 _인터페이스의 이름: ODE DecisionEvents(시스템 데이터 세트)_
 
@@ -305,7 +305,7 @@ group by proposedOffers.id, proposedOffers.name, po._experience.decisioning.rank
 ```
 
 <!--
-## Consent Service Dataset{#consent-service-dataset}
+## Consent service dataset{#consent-service-dataset}
 
 _Name in the interface: CJM Consent Service Dataset (system dataset)_
 

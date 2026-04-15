@@ -10,14 +10,14 @@ level: Beginner, Intermediate
 keywords: 여정, 질문, 답변, 문제 해결, 도움말, 안내서, 오케스트레이션
 version: Journey Orchestration
 exl-id: cac9fc24-b78e-48d9-9c0c-f43181246f6f
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '5191'
 ht-degree: 0%
 
 ---
 
-# Journey Orchestration - 자주 묻는 질문 {#faq-journeys}
+# 여정 편성 - 자주 묻는 질문 {#faq-journeys}
 
 [!DNL Adobe Journey Optimizer]에서 Journey Orchestration에 대한 일반적인 질문에 대한 답변을 찾아보세요.
 
@@ -933,7 +933,7 @@ Journey Optimizer은 기본적으로 [!DNL Adobe Campaign]과(와) 통합되어 
 
 * 게시하기 전에 성능을 확인하려면 [테스트 모드](testing-the-journey.md) 및 [시험 실행](journey-dry-run.md)을 사용하십시오.
 * [사용자 지정 작업](using-custom-actions.md)을 통해 외부 API 호출을 최소화하여 대기 시간과 서드파티 시스템에 대한 종속성을 방지하십시오.
-* 가능한 경우 외부 호출을 수행하는 대신 [!DNL Adobe Experience Platform]데이터 집합 조회[를 사용하여 &#x200B;](dataset-lookup.md)에서 자주 사용하는 데이터를 저장합니다.
+* 가능한 경우 외부 호출을 수행하는 대신 [!DNL Adobe Experience Platform]데이터 집합 조회[를 사용하여 ](dataset-lookup.md)에서 자주 사용하는 데이터를 저장합니다.
 * [메시지 게재](journey-action.md) 성능 검토 및 최적화
 
 [보호 기능 및 제한 사항](../start/guardrails.md)에 대해 자세히 알아보세요.

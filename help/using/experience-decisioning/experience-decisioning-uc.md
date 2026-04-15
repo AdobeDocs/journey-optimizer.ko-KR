@@ -7,14 +7,14 @@ role: User
 level: Intermediate, Experienced
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
 version: Journey Orchestration
-source-git-commit: 21de0b9616c414db204a3eafebc6a8184028a1e1
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '880'
 ht-degree: 4%
 
 ---
 
-# 콘텐츠 실험을 통한 코드 기반 경험에서 Decisioning 사용 {#experience-decisioning-uc}
+# 콘텐츠 실험을 통한 코드 기반 경험에서 의사 결정 사용 {#experience-decisioning-uc}
 
 이 사용 사례에서는 [!DNL Journey Optimizer] 코드 기반 채널에서 Decisioning을 사용하는 데 필요한 모든 단계를 제공합니다.
 

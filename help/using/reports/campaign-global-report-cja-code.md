@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
-source-git-commit: 670464cf2e6fdec6e1f74cc472fe15ad35760765
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '931'
 ht-degree: 1%
@@ -165,7 +165,7 @@ ht-degree: 1%
 >
 >현재 [상승도 측정](../experience-decisioning/ranking/auto-optimization-model.md#lift) 보고서는 [개인화된 최적화](../experience-decisioning/ranking/personalized-optimization-model.md) AI 모델에만 사용할 수 있습니다. 상승도 측정 보고가 필요한 경우 개인화된 최적화 모델을 대신 사용하십시오.
 
-### 홀드아웃 및 모델 제어 트래픽에 대한 전환율 {#conversion-rate}
+### 홀드아웃 및 모델 기반 트래픽에 대한 전환율 {#conversion-rate}
 
 >[!NOTE]
 >

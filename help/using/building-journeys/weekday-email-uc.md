@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 여정, 사용 사례, 평일, 조건, 이메일, 예약
 version: Journey Orchestration
 exl-id: 2f313e59-ee50-473c-9346-8859889346ec
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1068'
 ht-degree: 1%
@@ -51,11 +51,11 @@ ht-degree: 1%
    * **[대상자 읽기](read-audience.md)**: 특정 대상자를 타겟팅하는 일괄 캠페인의 경우
    * **[이벤트](../event/about-events.md)**: 고객 행동에 따라 실시간으로 트리거되는 여정
 
-### 2단계: 요일을 확인하는 조건 활동 추가
+### 2단계: 요일을 확인하는 조건 활동을 추가합니다.
 
 여정 시작 직후 **[!UICONTROL 조건]** 활동을 추가하여 현재 날짜가 토요일이나 일요일인지 확인하십시오. 이에 따라 워크플로우가 분기됩니다.
 
-1. 진입점 뒤에 [**[!UICONTROL Optimize &#x200B;]**&#x200B;활동](optimize.md)을(를) 캔버스로 끌어서 놓습니다.
+1. 진입점 뒤에 [**[!UICONTROL Optimize ]**활동](optimize.md)을(를) 캔버스로 끌어서 놓습니다.
 
 1. **[!UICONTROL 조건]** 활동을 클릭하여 구성 패널을 엽니다.
 

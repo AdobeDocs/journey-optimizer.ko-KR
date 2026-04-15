@@ -6,10 +6,11 @@ description: Adobe Journey Optimizer의 필수 용어 및 개념
 feature: Get Started
 role: Admin, Developer, User
 level: Beginner
-source-git-commit: 4ae9e908d259dbd266417242cf9e65d693227061
+exl-id: 14e72376-87ad-4fae-bf8c-f347109d7903
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '751'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -48,7 +49,7 @@ ht-degree: 9%
 | **참여 가능한 대상** | 라이선스 계약에 따라 Adobe Journey Optimizer을 통해 적극적으로 연락할 수 있는 고객 프로필 수입니다. 이는 일반적으로 지난 12개월 내에 관여한 프로필을 나타냅니다. |
 | **테스트 프로필** | 실제 고객에게 보내기 전에 메시지를 테스트하고 미리 보는 데 사용되는 가상 프로필입니다. 테스트 프로필은 개인화, 콘텐츠 및 여정 논리를 확인하는 데 도움이 됩니다. [자세히 알아보기](../audience/creating-test-profiles.md) |
 
-## 컨텐츠 및 Personalization 약관 {#content-terms}
+## 콘텐츠 및 개인화 용어 {#content-terms}
 
 | 용어 | 정의 |
 |------|------------|
@@ -74,11 +75,10 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->Adobe Experience Platform 용어에 대한 포괄적인 용어집은 [Adobe Experience Platform 용어집](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=ko){target="_blank"}을 참조하세요.
+>Adobe Experience Platform 용어에 대한 포괄적인 용어집은 [Adobe Experience Platform 용어집](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html){target="_blank"}을 참조하세요.
 
 ## 관련 항목 {#related-topics}
 
 * [Journey Optimizer 작동 방식 이해](understanding-ajo.md)
 * [사용자 인터페이스 시작](user-interface.md)
 * [역할 및 학습 경로 선택](quick-start.md)
-

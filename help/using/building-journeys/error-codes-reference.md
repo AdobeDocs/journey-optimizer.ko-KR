@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 오류, 코드, 문제 해결, 여정, 캠페인, 메시지
 exl-id: 84924153-1bb5-465a-b91c-797628fc816c
-source-git-commit: 63fb247449dfb989b191254ec6d117a403edd29d
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '2383'
 ht-degree: 1%
@@ -65,7 +65,7 @@ ht-degree: 1%
 
 | 오류 코드 | 설명 | 근본 원인 | 해결 방법 |
 |------------|-------------|-----------|-----------|
-| **CJMRT-110001-500** | 워크플로우 단계에 대한 최대 실행 수를 초과했습니다(예: IP 선호도 프로비저닝 단계 시간 초과) | 인프라/서비스 지연 또는 일시적인 백엔드 문제로 인해 허용된 다시 시도/시간 내에 워크플로/프로비저닝 작업이 완료되지 않았습니다. | &#x200B;1. 잠시 후 다시 시도하십시오<br/>2. [Adobe 상태](https://status.adobe.com/ko-kr/)에서 중단을 확인<br/>3. 워크플로우/작업/조직 세부 정보<br/>4을(를) 사용하여 Adobe 지원으로 에스컬레이션합니다. 가능한 경우 로그 및 네트워크 캡처를 제공합니다&#x200B;<br/><br/>**관련 설명서**: [여정 문제 해결](troubleshooting.md) |
+| **CJMRT-110001-500** | 워크플로우 단계에 대한 최대 실행 수를 초과했습니다(예: IP 선호도 프로비저닝 단계 시간 초과) | 인프라/서비스 지연 또는 일시적인 백엔드 문제로 인해 허용된 다시 시도/시간 내에 워크플로/프로비저닝 작업이 완료되지 않았습니다. | &#x200B;1. 잠시 후 다시 시도하십시오<br/>2. [Adobe Status](https://status.adobe.com/)에서 중단을 확인<br/>3. 워크플로우/작업/조직 세부 정보<br/>4을(를) 사용하여 Adobe 지원으로 에스컬레이션합니다. 가능한 경우 로그 및 네트워크 캡처를 제공합니다&#x200B;<br/><br/>**관련 설명서**: [여정 문제 해결](troubleshooting.md) |
 | **CJMRT-000071-400** | 여정/테스트 이벤트 또는 API 호출 중 잘못된 요청 | 페이로드/매개 변수의 형식이 잘못되었거나 누락되었습니다. 입력이 존재하지 않거나 비활성 리소스를 참조합니다. | &#x200B;1. 요청 본문에서 오류 세부 정보를 검토합니다<br/>2. 올바른 참조/매개 변수<br/>3. 고급 구성을 제거하고 <br/>4을(를) 다시 시도하십시오. 문제를 식별하기 위한 기능을 하나씩 다시 추가하십시오&#x200B;<br/><br/>**관련 설명서**: [여정 문제 해결](troubleshooting.md), [이벤트 구성](../event/about-events.md) |
 | **CJMRT-000013-401** | 메시지 런타임 작업/API 이벤트 중 승인되지 않은 오류 | 인증 실패: 토큰이 만료되었거나, 권한이 없거나, 통합/사용자가 환경 액세스 권한을 잃었습니다. | &#x200B;1. 권한 및 역할을 확인합니다<br/>2. 인증 토큰 <br/>3을(를) 새로 고칩니다. 알려진 유효한 사용자/서비스 계정<br/>4을(를) 사용하십시오. 제품 프로필 할당 검토&#x200B;<br/><br/>**관련 설명서**: [권한](../administration/permissions.md) |
 | **CJMRT-080605-400** | 여정 런타임의 잘못된 요청(예: 노드 트리거, 작업 등) | 구성은 제거/이름 변경 또는 오래된 기능/템플릿/채널을 참조합니다. | &#x200B;1. 모든 리소스 참조를 확인합니다<br/>2. 여정 구성 및 기능 플래그 감사<br/>3. 끊어진 참조를 업데이트하십시오<br/>4. 최근 시스템 업데이트 및 마이그레이션 검토&#x200B;<br/><br/>**관련 설명서**: [여정 만들기](journey-gs.md) |
@@ -83,7 +83,7 @@ ht-degree: 1%
 | 오류 코드 | 설명 | 근본 원인 | 해결 방법 |
 |------------|-------------|-----------|-----------|
 | **CJMMAS-1732-500** | 증명 실패 - AEM 에셋으로 증명/테스트를 전송할 때 모든 에셋이 게시되지 않음 | 최근에 게시된 자산이 아직 AJO에 없습니다. 자산 ID가 일치하지 않습니다. 교차 리포지토리 사용, AEM 동기화 지연 | &#x200B;1. 올바른 저장소/환경에서 게시된 자산 ID만 사용합니다<br/>2. AEM과 AJO<br/>3 간의 동기화 시간을 허용합니다. 정상 작동이 확인된 자산<br/>4을(를) 사용하여 다시 시도하십시오. AEM에서 에셋 게시 상태 확인&#x200B;<br/><br/>**관련 설명서**: [Assets 통합](../integrations/assets.md) |
-| **CJMMAS-1069-500** | 메시지 템플릿을 저장하거나 게시하는 도중 내부 오류 발생 | 백엔드 예외(인프라/서비스 버그 또는 콘텐츠 문제), 지원되지 않는 마크업/기능 | &#x200B;1. 템플릿 복잡성을 단순화하거나 줄입니다<br/>2. 문제를 식별하기 위해 증분 단계로 콘텐츠를 다시 추가하십시오<br/>3. [Adobe 상태 페이지](https://status.adobe.com/ko-kr/)<br/>4를 확인하세요. 지원되지 않는 기능 또는 마크업을 제거합니다&#x200B;<br/><br/>**관련 설명서**: [콘텐츠 템플릿](../content-management/content-templates.md) |
+| **CJMMAS-1069-500** | 메시지 템플릿을 저장하거나 게시하는 도중 내부 오류 발생 | 백엔드 예외(인프라/서비스 버그 또는 콘텐츠 문제), 지원되지 않는 마크업/기능 | &#x200B;1. 템플릿 복잡성을 단순화하거나 줄입니다<br/>2. 문제를 식별하기 위해 증분 단계로 콘텐츠를 다시 추가하십시오<br/>3. [Adobe Status 페이지](https://status.adobe.com/)<br/>4를 확인하세요. 지원되지 않는 기능 또는 마크업을 제거합니다&#x200B;<br/><br/>**관련 설명서**: [콘텐츠 템플릿](../content-management/content-templates.md) |
 | **CJMMAS-1149-400** | 메시지, 사전 설정 또는 변형을 저장할 때 잘못된 요청 | 메시지에 필수 필드가 누락되었거나 구성이 잘못되었습니다. | &#x200B;1. 모든 필수 필드(별표로 표시)를 작성합니다<br/>2. 메시지/사전 설정 구성의 유효성을 검사합니다<br/>3. 필드 값 형식 및 제약 조건을 확인하십시오<br/>4. UI에서 유효성 검사 메시지 검토&#x200B;<br/><br/>**관련 설명서**: [전자 메일 채널](../email/get-started-email.md), [채널 표면](../configuration/channel-surfaces.md) |
 | **CJMMAS-2073-422** | 메시지 사전 설정 편집에서 처리할 수 없는 엔티티 | 유효성 검사 오류, 지원되지 않는 필드 또는 잘못된 구문 | &#x200B;1. 표시된 대로 구문/필드 오류를 수정합니다<br/>2. 정상 작동이 확인된 구성과 비교<br/>3. 저장하기 전에 메시지 UI 유효성 검사 사용<br/>4. 설명서에서 필드 요구 사항 검토&#x200B;<br/><br/>**관련 설명서**: [메시지 사전 설정](../configuration/channel-surfaces.md), [전자 메일 설정](../email/email-settings.md) |
 | **CJMMAS-1300-500** | 메시지 작성의 내부 오류 | 인프라 문제, 대용량 콘텐츠 또는 서비스 다운타임으로 인한 백엔드 충돌 | &#x200B;1. 템플릿/콘텐츠를 단순화합니다(크기/복잡성 감소)<br/>2. <br/>3 작업을 다시 시도하십시오. 작업을 증분 저장<br/>4. 영구적인 경우 Adobe 지원&#x200B;<br/><br/>**관련 설명서**: [콘텐츠 템플릿](../content-management/content-templates.md)(으)로 에스컬레이션 |
@@ -101,7 +101,7 @@ ht-degree: 1%
 | **CJMCMP-3001-400** | 시뮬레이션/미리보기 &quot;잘못된 표면 유형 필터&quot; | 레거시 구조를 사용하여 빌드된 노드가 type=surfaceId를 전송하고 백엔드에 brandingPresetId가 필요합니다. | &#x200B;1. 영향을 받는 노드<br/>2을(를) 삭제하고 다시 만듭니다. 새 여정 버전/템플릿<br/>3을 사용하십시오. 테스트 모드를 사용하여 구성<br/>4을(를) 지웁니다. 문제가 광범위할 경우 노드를 대량 다시 만들기&#x200B;<br/><br/>**관련 설명서**: [채널 표면](../configuration/channel-surfaces.md), [메시지 시뮬레이션](../content-management/preview.md) |
 | **CJMCMP-2050-400** | 캠페인 활성화 또는 승인의 잘못된 요청 | 캠페인이 유효하지 않거나 누락된 정책 또는 세그먼트를 참조합니다. | &#x200B;1. 모든 캠페인 노드 구성을 감사<br/>2. 정책/세그먼트 링크가 최신 링크이고 유효한지 확인<br/>3. 올바른 구성으로 업데이트하십시오<br/>4. 활성화 전에 캠페인 다시 테스트&#x200B;<br/><br/>**관련 설명서**: [캠페인 만들기](../campaigns/create-campaign.md), [캠페인 승인](../test-approve/gs-approval.md) |
 
-### CJMTL: 전송 레이어 오류 {#cjmtl-errors}
+### CJMTL: 전송 계층 오류 {#cjmtl-errors}
 
 이러한 오류는 메시지 전송 및 게재 작업 중에 발생합니다.
 
@@ -110,7 +110,7 @@ ht-degree: 1%
 | **CJMTL-010018-422** | 콘텐츠를 저장/전송할 때 &quot;Personalization이 도메인 이름에 허용되지 않음&quot; | 지나치게 엄격한 유효성 검사가 일시적으로 동적 href 도메인 개인화를 중단했습니다. | &#x200B;1. 도메인 변수를 사용하는 경우 링크를 리팩터링합니다<br/>2. 최신 AJO 버전이 사용 중인지 확인<br/>3. <br/>4 작업을 다시 시도하십시오. 문제가 지속되면 정적 도메인을 사용합니다&#x200B;<br/><br/>**관련 설명서**: [Personalization 구문](../personalization/personalization-syntax.md), [이메일 디자인](../email/content-from-scratch.md) |
 | **CJMTL-010011-422** | 처리할 수 없는 엔티티 - 푸시/SMS/이메일 전송이 실패함, &quot;잘못된 필드&quot;라고 메시지 표시 | 페이로드 또는 수신자/연락처 데이터가 누락되었거나 잘못됨 | &#x200B;1. 로그에서 특정 필드 오류를 검사합니다<br/>2. 프로필/연락처 정보를 수정<br/>3. 테스트 프로필 <br/>4을(를) 사용하여 확인합니다. 필요에 따라 페이로드 포맷 리팩터링&#x200B;<br/><br/>**관련 설명서**: [프로필 관리](../audience/get-started-profiles.md), [테스트 프로필](../audience/creating-test-profiles.md) |
 
-### CJMRPS: Reporting and Provisioning 서비스 오류 {#cjmrps-errors}
+### CJMRPS: 서비스 오류 보고 및 프로비저닝 {#cjmrps-errors}
 
 이러한 오류는 보고 구성 및 데이터 세트 프로비저닝 작업 중에 발생합니다.
 
@@ -181,16 +181,16 @@ ht-degree: 1%
 이 안내서를 사용하여 해결할 수 없는 지속적인 오류가 발생하는 경우:
 
 1. **정보 수집**: 오류 코드, 요청 ID, 타임스탬프 및 재현 단계를 수집합니다.
-2. **시스템 상태 확인**: 알려진 서비스 문제에 대해서는 [Adobe 상태](https://status.adobe.com/ko-kr/){target="_blank"}를 방문하세요.
+2. **시스템 상태 확인**: 알려진 서비스 문제에 대해서는 [Adobe Status](https://status.adobe.com/){target="_blank"}을(를) 방문하십시오.
 3. **설명서 검색**: 솔루션에 대한 [Adobe Experience League](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=ko){target="_blank"} 검토
 4. **커뮤니티 참여**: [[!DNL Adobe Journey Optimizer] 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"}에 질문 게시
 5. **Adobe 지원에 문의**: [지원 티켓 제출](../start/user-interface.md#support-ticket-guidelines) 관련 세부 정보 모두
 
 >[!NOTE]
 >
->이 오류 코드 참조는 새 코드가 식별되고 문서화됨에 따라 계속 업데이트됩니다. 최신 정보는 [[!DNL Adobe Journey Optimizer] 커뮤니티 블로그](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs?profile.language=ko){target="_blank"}를 정기적으로 확인하십시오.
+>이 오류 코드 참조는 새 코드가 식별되고 문서화됨에 따라 계속 업데이트됩니다. 최신 정보는 [[!DNL Adobe Journey Optimizer] 커뮤니티 블로그](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs){target="_blank"}를 정기적으로 확인하십시오.
 
 **관련 항목**
 
-* [Demystifying [!DNL Adobe Journey Optimizer] 오류 코드: 파트1](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=ko){target="_blank"}
-* [Demystifying [!DNL Adobe Journey Optimizer] 오류 코드: Part 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661?profile.language=ko){target="_blank"}
+* [Demystifying [!DNL Adobe Journey Optimizer] 오류 코드: 파트1](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884){target="_blank"}
+* [Demystifying [!DNL Adobe Journey Optimizer] 오류 코드: Part 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661){target="_blank"}

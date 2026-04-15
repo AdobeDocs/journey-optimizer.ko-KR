@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 7e91face-c8f4-4e70-9123-9e36bae7e67e
-source-git-commit: db1e4ee5b2b4bb3a3d7d9e86aded14ad3c613765
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 1%
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->* 대시보드를 보려면 [라이선스 사용량 대시보드 보기](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html?lang=ko#available-permissions){target="_blank"} 권한이 있어야 합니다.
+>* 대시보드를 보려면 [라이선스 사용량 대시보드 보기](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html#available-permissions){target="_blank"} 권한이 있어야 합니다.
 >
 >* 할당량 열에 `N/A`로 표시된 대로 특정 지표(예: 계산 시간, 이메일)는 개발 샌드박스에 표시되지 않습니다. 대시보드에는 null이 아닌 값만 표시됩니다. 지표가 0이거나 0에 가까우면 값이 채워지지 않습니다.
 
@@ -79,7 +79,7 @@ ht-degree: 1%
 
 2. **대규모 대상을 타겟팅하는 여정, 캠페인 및 의사 결정 조사:**
 
-   * [참여 가능한 프로필 쿼리](../reports/query-examples.md#engageable-profiles-queries) 또는 [쿼리 서비스](https://experienceleague.adobe.com/ko/docs/experience-platform/query/home){target="_blank"}를 사용하여 많은 프로필을 타겟팅하는 최근 여정 및 캠페인을 검토하십시오.
+   * [참여 가능한 프로필 쿼리](../reports/query-examples.md#engageable-profiles-queries) 또는 [쿼리 서비스](https://experienceleague.adobe.com/en/docs/experience-platform/query/home){target="_blank"}를 사용하여 많은 프로필을 타겟팅하는 최근 여정 및 캠페인을 검토하십시오.
    * 프로필 수가 급증하는 데 기여한 특정 여정 버전을 식별합니다.
    * 새 프로필과 관련된 여정, 캠페인 및 의사 결정은 여정 데이터 세트의 이벤트 수를 증가시켜 참여 가능한 프로필 수 증가에 기여할 수 있습니다.
 
@@ -106,13 +106,13 @@ ht-degree: 1%
 **참고 항목:**
 
 * [참여 가능한 프로필 쿼리 예제](../reports/query-examples.md#engageable-profiles-queries) - 참여 가능한 프로필을 모니터링하고 분석하는 샘플 쿼리
-* [Adobe Experience Platform 쿼리 서비스 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/query/home){target="_blank"}
+* [Adobe Experience Platform 쿼리 서비스 개요](https://experienceleague.adobe.com/en/docs/experience-platform/query/home){target="_blank"}
 
 ## 관련 설명서 {#related-documentation}
 
 Adobe Experience Platform 설명서에서 자세히 알아보십시오.
 
-* [라이선스 사용 대시보드 개요](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=ko){target="_blank"}
-* [라이선스 사용 대시보드 살펴보기](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=ko#exploring-the-license-usage-dashboard){target="_blank"}
+* [라이선스 사용 대시보드 개요](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html){target="_blank"}
+* [라이선스 사용 대시보드 살펴보기](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#exploring-the-license-usage-dashboard){target="_blank"}
 * [사용 가능한 지표](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=ko#available-metrics){target="_blank"}
-* [익명 프로필 데이터 만료](https://experienceleague.adobe.com/docs/experience-platform/profile/pseudonymous-profiles.html?lang=ko){target="_blank"}
+* [익명 프로필 데이터 만료](https://experienceleague.adobe.com/docs/experience-platform/profile/pseudonymous-profiles.html){target="_blank"}

@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 인바운드 작업, 문제 해결, 여정, 디버그, 자가 도움말, 확인, 오류
 exl-id: 5c56786f-da22-4558-b2ae-01f762175a7f
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1725'
 ht-degree: 1%
@@ -34,7 +34,7 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 
 문제 해결을 시작하기 전에 다음을 확인하십시오.
 
-1. **Assurance** 세션을 설정합니다. [[!DNL Adobe Experience Platform] Assurance 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}에서 방법을 알아보세요.
+1. **Assurance** 세션을 설정합니다. [[!DNL Adobe Experience Platform] Assurance 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}에서 방법을 알아보세요.
 
 1. 여정 이름과 버전 ID를 검색하려면 인바운드 작업이 포함된 여정으로 이동합니다.
 
@@ -48,7 +48,7 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 
    ![활동 구성 패널 코드 보기의 작업 ID](assets/troubleshoot-inbound-retrieve-action-id.png)
 
-1. 프로필 네임스페이스 및 ID를 가져와서 문제가 발생하는 프로필을 식별합니다. 구성에 따라 네임스페이스는 ECID, 이메일 또는 고객 ID 등이 될 수 있습니다. [Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}에서 프로필을 찾는 방법에 대해 알아보세요.
+1. 프로필 네임스페이스 및 ID를 가져와서 문제가 발생하는 프로필을 식별합니다. 구성에 따라 네임스페이스는 ECID, 이메일 또는 고객 ID 등이 될 수 있습니다. [Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}에서 프로필을 찾는 방법에 대해 알아보세요.
 
 ## 시나리오 1: 사용자가 인바운드 콘텐츠를 받지 못했습니다. {#scenario-1}
 
@@ -63,7 +63,7 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 
 2. **&#39;joai&#39; id가 플랫폼 id에 정의됨**
 
-   인바운드 작업에서는 **프로필의** joai`segmentMembership` 네임스페이스를 사용하여 인바운드 단계에 대한 프로필을 활성화합니다. 샌드박스의 Platform ID에서 정의되었는지 확인합니다. [Experience Platform ID 서비스](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/home){target="_blank"}에 대해 자세히 알아보기
+   인바운드 작업에서는 **프로필의** joai`segmentMembership` 네임스페이스를 사용하여 인바운드 단계에 대한 프로필을 활성화합니다. 샌드박스의 Platform ID에서 정의되었는지 확인합니다. [Experience Platform ID 서비스](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home){target="_blank"}에 대해 자세히 알아보기
 
 ### 디버깅 단계 {#debugging-steps}
 
@@ -71,7 +71,7 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 
 ![인바운드 메시지에 대한 문제 해결 워크플로우가 표시되지 않음: 여정, Edge 게재 및 프로필 확인](assets/troubleshoot-inbound-scenario-1-steps.png){width="70%" align="center"}
 
-### 1단계: 장치/클라이언트가 Edge Network에서 콘텐츠를 수신하고 있는지 확인 {#step-1}
+### 1단계: 장치/클라이언트가 에지 네트워크에서 콘텐츠를 수신하고 있는지 확인 {#step-1}
 
 먼저 장치/클라이언트가 예상 콘텐츠를 가져오는지 확인합니다.
 
@@ -79,7 +79,7 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 
 >[!TAB 인앱 채널]
 
-1. [Assurance](https://experienceleague.adobe.com/ko/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} 세션으로 이동하여 왼쪽 패널에서 **[!UICONTROL 인앱 메시지]** 섹션을 선택합니다.
+1. [Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} 세션으로 이동하여 왼쪽 패널에서 **[!UICONTROL 인앱 메시지]** 섹션을 선택합니다.
 
 1. **[!UICONTROL 장치의 메시지]** 탭에서 **[!UICONTROL 메시지]** 드롭다운 목록을 클릭합니다.
 
@@ -91,15 +91,15 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 
 >[!TAB 웹 채널]
 
-페이지를 방문하여 네트워킹 탭을 검사하거나 **[!UICONTROL Assurance]** 세션의 [Edge Delivery](https://experienceleague.adobe.com/ko/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} 섹션에서 Edge 응답 페이로드를 확인하십시오.
+페이지를 방문하여 네트워킹 탭을 검사하거나 **[!UICONTROL Assurance]** 세션의 [Edge Delivery](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} 섹션에서 Edge 응답 페이로드를 확인하십시오.
 
 >[!TAB 코드 기반 경험 채널]
 
-[Adobe의 API](https://developer.adobe.com/data-collection-apis/docs/api/)를 사용하여 CURL 요청을 수행하고 **[!UICONTROL Assurance]** 세션의 [Edge Delivery](https://experienceleague.adobe.com/ko/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} 섹션에서 Edge 응답 페이로드를 확인합니다.
+[Adobe의 API](https://developer.adobe.com/data-collection-apis/docs/api/)를 사용하여 CURL 요청을 수행하고 **[!UICONTROL Assurance]** 세션의 [Edge Delivery](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} 섹션에서 Edge 응답 페이로드를 확인합니다.
 
 >[!ENDTABS]
 
-### 2단계: Edge Network에서 콘텐츠를 반환하는지 확인 {#step-2}
+### 2단계: 에지 네트워크가 콘텐츠를 반환하는지 확인 {#step-2}
 
 이 단계는 Edge Network이 장치/클라이언트에서 렌더링할 예상 인바운드 콘텐츠를 반환하는지 확인하는 것입니다.
 
@@ -129,9 +129,9 @@ Edge Network 동작을 디버깅하려면 아래 단계를 수행합니다.
 
    프로필 섹션의 **segmentsMap** 요소를 열고 **joai** 세그먼트 ID가 있는지 확인하여 **joai** 세그먼트가 Edge Network 게재 서버의 프로필 보기에 있는지 다시 확인할 수 있습니다.
 
-1. Edge Network 게재 서버에서 프로필을 관련 **joai** 세그먼트에 있는 것으로 보지 않으면 다음 단계로 이동하십시오.<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
+1. Edge Network 게재 서버에서 프로필을 관련 **joai** 세그먼트에 있는 것으로 보지 않으면 다음 단계로 이동하십시오.<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
 
-### 3단계: &#39;joai&#39; 대상 멤버십이 Edge Network에 전파되었는지 확인 {#step-3}
+### 3단계: &#39;joai&#39; 대상 멤버십이 에지 네트워크로 전파되었는지 확인 {#step-3}
 
 이 단계는 프로필이 인바운드 여정 작업을 입력하고 프로필이 해당 **joai** 세그먼트에 한정될 때 Edge 프로필이 올바르게 업데이트되었는지 확인하는 것입니다.
 
@@ -216,7 +216,7 @@ Hub 프로필의 **특성에** joai`segmentMembership` 세그먼트가 있는지
 <!--
 ## Reference Section {#reference-section}
 
-- [Assurance Setup Guide](https://experienceleague.adobe.com/ko/docs/experience-platform/assurance/tutorials/using-assurance)
+- [Assurance Setup Guide](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance)
 - [[!DNL Adobe Experience Platform] Documentation](https://experienceleague.adobe.com/docs/experience-platform/home.html)
-- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=ko)
+- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html)
 -->

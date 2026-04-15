@@ -9,7 +9,7 @@ role: User
 level: Experienced
 keywords: 내용, 실험, 통계, 계산
 exl-id: 60a1a488-a119-475b-8f80-3c6f43c80ec9
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1067'
 ht-degree: 0%
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 신뢰 시퀀스가 &quot;유효한 시간&quot;이므로, 동일한 샘플 크기에서 사용되는 고정 대상 기간 방법론보다 더 보수적일 것이라는 점을 참고하십시오. 신뢰 시퀀스의 경계는 일반적으로 신뢰 구간 계산보다 넓은 반면, 언제든지 유효한 신뢰도는 고정 대상 기간 신뢰 계산보다 작습니다. 이 보수의 이점은 여러분이 항상 여러분의 결과를 안전하게 해석할 수 있다는 것이다.
 
-## 실험에 결론이 있다고 선언
+## 실험을 결정적이라고 선언
 
 ![](assets/experimentation_report_2.png)
 
