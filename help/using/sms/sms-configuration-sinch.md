@@ -166,7 +166,7 @@ RCS(Rich Communication Services) 메시징은 Sinch를 통해 Journey Optimizer�
 
    Sinch 대시보드에서 브랜드 RCS 에이전트를 만듭니다. [브랜드 RCS 에이전트에 대해 자세히 알아보기](https://community.sinch.com/t5/RCS/Getting-Started-with-RCS-using-Conversation-API/ta-p/17844)
 
-1. **사용자 지정 API 자격 증명 설정[](sms-configuration-custom.md)**
+1. **사용자 지정 API 자격 증명 설정[&#128279;](sms-configuration-custom.md)**
 
    RCS 에이전트가 승인되면 AppId, 이름, URL 및 인증 유형을 포함하는 사용자 정의 API 자격 증명을 설정해야 합니다.
 
@@ -178,7 +178,7 @@ RCS(Rich Communication Services) 메시징은 Sinch를 통해 Journey Optimizer�
 
    Sinch 자격 증명을 연결하고 메시징 매개 변수를 정의하여 Journey Optimizer에서 채널 표면을 구성합니다. 이 설정을 통해 Journey Optimizer에서 RCS 메시지를 구성하고 전송할 수 있습니다.
 
-1. **SMS 메시지 만들기 및 개인화[2}](../sms/create-sms.md)**
+1. **SMS 메시지 만들기 및 개인화[2&rbrace;](../sms/create-sms.md)**
 
    페이로드를 SMS 콘텐츠에 직접 붙여넣어 RCS(Rich Communication Services) 메시지를 임베드하고 전달합니다.
 
