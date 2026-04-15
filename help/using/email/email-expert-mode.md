@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 0c586565-0c65-435f-986d-cd08b59de159
-source-git-commit: 36fc8247844a2f6a5e9b478d9c3a31ed82a40356
+source-git-commit: 110c4c9b12b085f3febb83f799f5fd0ba8a8b1fb
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 7%
@@ -21,7 +21,7 @@ ht-degree: 7%
 >
 >이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.
 
-**고급 HTML 편집기**&#x200B;는 여정, 캠페인에 대한 **이메일 디자인** 또는 [!DNL Journey Optimizer]이메일 콘텐츠 템플릿[을(를) 편집하든 간에 &#x200B;](get-started-email-design.md) [이메일 Designer](content-from-scratch.md)에서 직접 [이메일 콘텐츠](../content-management/create-content-templates.md)의 원시 HTML 소스를 보고 편집할 수 있는 전문가 모드입니다.
+**고급 HTML 편집기**&#x200B;는 여정, 캠페인에 대한 **이메일 디자인** 또는 [!DNL Journey Optimizer]이메일 콘텐츠 템플릿[을(를) 편집하든 간에 ](get-started-email-design.md) [이메일 Designer](content-from-scratch.md)에서 직접 [이메일 콘텐츠](../content-management/create-content-templates.md)의 원시 HTML 소스를 보고 편집할 수 있는 전문가 모드입니다.
 
 이 기능을 사용하면 조건과 같은 고급 표현식을 소스에 직접 삽입할 수 있습니다. 시각적(데스크톱) 보기로 다시 전환하면 컨텐츠가 다시 렌더링되므로 어떻게 표시되는지 확인하고 두 보기 중 하나에서 편집을 계속할 수 있습니다.
 

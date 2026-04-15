@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 version: Journey Orchestration
 exl-id: 90e71c42-94f3-4cc5-bd6e-1df29def4d39
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 110c4c9b12b085f3febb83f799f5fd0ba8a8b1fb
 workflow-type: tm+mt
 source-wordcount: '1432'
 ht-degree: 2%
@@ -104,7 +104,7 @@ ht-degree: 2%
 
 1. 모델의 **[!UICONTROL 속성]**&#x200B;에서 선택한 데이터 세트를 확인할 수 있습니다. 다른 데이터 집합을 선택하려면 **[!UICONTROL 속성 편집]**&#x200B;을 클릭하세요. [자세히 알아보기](create-ai-models.md)
 
-   ![](../assets/ai-model-properties-edit-dataset.png){align="left" width="45%"}
+   ![](../assets/ai-model-properties-edit-dataset.png){align="center" width="45%"}
 
 ## 자주 묻는 질문 {#faq}
 
@@ -167,7 +167,7 @@ If no model has been successfully deployed yet, the "currently deployed model" s
 
 [!DNL Journey Optimizer]에서 AI 등급 모델을 모니터링하고 교육 상태 및 성과를 해석하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479856?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479849?quality=12)
 
 ## 관련 설명서 {#related}
 
