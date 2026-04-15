@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 5c2c3ae045b37c734c9cf18ad60bd92d6a98c67f
+source-git-commit: 97b94cfb13a9a435df2accfce34c95856b67b11b
 workflow-type: tm+mt
-source-wordcount: '3213'
+source-wordcount: '3206'
 ht-degree: 91%
 
 ---
@@ -428,9 +428,8 @@ ht-degree: 91%
       + [개인화 구문](using/personalization/personalization-syntax.md)
       + [상황별 데이터 반복](using/personalization/iterate-contextual-data.md)
       + [표현식 조각 다시 사용](using/personalization/use-expression-fragments.md)
-      + 개인화에 Adobe Experience Platform 데이터 사용 {#aep-data-perso}
-         + [개인화에 Adobe Experience Platform 데이터 사용](using/personalization/aep-data-perso.md)
-         + [추적 링크의 URL 매개 변수 암호화](using/personalization/url-parameter-encryption.md)
+      + [개인화에 Adobe Experience Platform 데이터 사용](using/personalization/aep-data-perso.md)
+      + [추적 링크의 URL 매개 변수 암호화](using/personalization/url-parameter-encryption.md)
       + 도우미 함수 목록 {#functions}
          + [도우미 함수 목록](/help/rp_landing_pages/functions-landing-page.md)
          + [도우미 함수 시작](using/personalization/functions/functions.md)
