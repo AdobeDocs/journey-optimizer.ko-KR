@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 텍스트, 이메일, 버전, 일반, 편집기
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
-source-git-commit: 6304c4db02526ca6e774792474d3a495c7180f95
+source-git-commit: 0aa9e539422d87567b68d89c40aa0ca888c84b05
 workflow-type: tm+mt
-source-wordcount: '1232'
-ht-degree: 7%
+source-wordcount: '1141'
+ht-degree: 8%
 
 ---
 
@@ -48,21 +48,24 @@ ht-degree: 7%
 >
 > * 일반 텍스트 콘텐츠를 업데이트한 후 **[!UICONTROL HTML과 동기화]** 옵션을 다시 사용하도록 설정하면 변경 내용이 손실되고 HTML 버전에서 생성된 텍스트 콘텐츠로 바뀝니다.
 
-## AI 받은 편지함에 대한 텍스트 버전 최적화 {#optimize-plain-text-ai}
+<!--
+## Optimize the text version for AI inboxes {#optimize-plain-text-ai}
 
-[!DNL Gmail]AI 받은 편지함에 최적화[!DNL Outlook] 단추를 사용하여 AI 기반 받은 편지함 기능(예: [!DNL Apple Mail], **[!UICONTROL 또는]**&#x200B;의 요약)이 주요 오퍼와 세부 정보를 표시하도록 지원할 수 있습니다. 이 작업을 수행하면 정보 도우미에 초점을 맞춘 향상된 일반 텍스트 버전이 메시지의 텍스트 부분에서 읽힐 수 있습니다.
+You can help AI-powered inbox features (such as summaries in [!DNL Gmail], [!DNL Outlook], or [!DNL Apple Mail]) surface your key offers and details by using the **[!UICONTROL Optimize for AI Inbox]** button. That action generates an improved plain text version focused on information assistants are likely to read from the text part of the message.
 
-![텍스트 버전 보기의 AI 받은 편지함에 최적화](assets/text-optimizer-for-ai-button.png){zoomable="yes" width="80%"}
+![Optimize for AI Inbox button in the text version view](assets/text-optimizer-for-ai-button.png){zoomable="yes" width="80%"}
 
 >[!IMPORTANT]
 >
->이 기능을 사용하면 **[!UICONTROL HTML과 동기화]** 옵션이 자동으로 비활성화됩니다.
+>When using this capability, the **[!UICONTROL Sync with HTML]** option is automatically disabled.
 
-전체 연습 및 권장 시나리오가 필요하면 [AI 받은 편지함에 대한 전자 메일 텍스트 최적화](llm-email-optimizer.md)를 참조하십시오.
+For a full walkthrough and recommended scenarios, see [Optimize email text for AI inboxes](llm-email-optimizer.md).
+-->
 
 ## 사용자 정의 일반 텍스트 버전을 사용해야 하는 경우 {#when-to-use}
 
 사용자 정의 일반 텍스트 버전을 만드는 시기와 자동 동기화를 사용하는 시기를 이해하면 최적의 이메일 전달 및 가독성을 보장할 수 있습니다.
+
 
 ### 다음과 같은 경우 사용자 정의 일반 텍스트 사용(동기화 비활성화):
 
