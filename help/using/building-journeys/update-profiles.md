@@ -28,7 +28,7 @@ ht-degree: 4%
 
 ## 데이터 세트 선택 {#dataset-selection}
 
-**[!UICONTROL 프로필 업데이트]** 활동에는 업데이트를 저장할 전용 데이터 세트가 필요합니다. 이 활동은 [프로필 저장소](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}만 업데이트하므로(Datalake는 아님), 모든 업데이트는 [프로필 업데이트](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"} 작업에 대해 특별히 지정된 **[!UICONTROL 프로필 사용 데이터 세트]**&#x200B;에 저장되어야 합니다.
+**[!UICONTROL 프로필 업데이트]** 활동에는 업데이트를 저장할 전용 데이터 세트가 필요합니다. 이 활동은 [프로필 저장소](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko#profile-data-store){target="_blank"}만 업데이트하므로(Datalake는 아님), 모든 업데이트는 [프로필 업데이트](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"} 작업에 대해 특별히 지정된 **[!UICONTROL 프로필 사용 데이터 세트]**&#x200B;에 저장되어야 합니다.
 
 >[!CAUTION]
 >
@@ -95,6 +95,6 @@ ht-degree: 4%
 * **[!UICONTROL 프로필 업데이트]** 작업을 사용하여 구매와 같은 [경험 이벤트](../event/about-events.md)를 생성할 수 없습니다.
 * 다른 작업과 마찬가지로 오류 또는 시간 초과 시 [대체 경로를 정의할 수 있습니다](using-the-journey-designer.md#paths). 두 가지 작업을 동시에 수행할 수 없습니다.
 * 프로필 업데이트는 동일한 여정에서 다운스트림으로 즉시 사용할 수 없습니다. 업데이트된 값이 아직 반영되지 않았을 수 있으므로 필드를 작성하는 **[!UICONTROL 프로필 업데이트]** 작업 바로 뒤에 필드를 읽는 작업을 삽입하지 마십시오.
-* **[!UICONTROL 프로필 업데이트]** 활동은 데이터 레이크가 아닌 [프로필 저장소](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}만 업데이트합니다.
+* **[!UICONTROL 프로필 업데이트]** 활동은 데이터 레이크가 아닌 [프로필 저장소](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko#profile-data-store){target="_blank"}만 업데이트합니다.
 * 하나의 **[!UICONTROL 프로필 업데이트]** 작업에서 최대 5개의 필드/값 쌍을 업데이트할 수 있습니다. **[!UICONTROL 다른 필드 업데이트]** 단추를 사용하여 쌍을 더 추가합니다.
 * 성능을 향상시키기 위해 여러 특성 업데이트를 특성당 하나의 동작을 사용하지 않고 단일 **[!UICONTROL 프로필 업데이트]** 동작으로 그룹화합니다.

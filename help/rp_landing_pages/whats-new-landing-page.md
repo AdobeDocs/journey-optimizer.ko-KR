@@ -36,7 +36,7 @@ Adobe Journey Optimizer의 Adobe Express 통합을 통해 콘텐츠를 만드는
 
 Immerse yourself in a hands-on experience with our [AI Assistant](../help/using/content-management/gs-generative.md) live feature preview, designed to let you explore its features firsthand and fully understand its capabilities.
 
-[![learn more](../using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![learn more](../using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/ko/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 -->
 
 >[!TAB AEM 콘텐츠 조각]

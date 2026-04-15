@@ -120,7 +120,7 @@ Journey Optimizer 인터페이스를 사용하고, 주요 기능에 액세스하
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 검색 및 구성
 

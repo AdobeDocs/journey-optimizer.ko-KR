@@ -29,7 +29,7 @@ ht-degree: 1%
 * [규칙 세트](#rule-sets)
 * [최적화 모델](#optimization-models)
 
-Customer Journey Analytics Workspace과 데이터를 필터링하고 분석하는 방법에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)를 참조하세요.
+Customer Journey Analytics Workspace과 데이터를 필터링하고 분석하는 방법에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/home)를 참조하세요.
 
 ## 강조 표시 {#highlights}
 

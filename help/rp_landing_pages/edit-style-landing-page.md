@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 이메일 Designer에는 시각적으로 매력적인
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 이메일 스타일 사용자 지정
 

@@ -23,7 +23,7 @@ ht-degree: 86%
 >id="ajo_journey_canvas"
 >title="여정 만들기"
 >abstract="드래그하여 놓기 캔버스를 사용하여 컨텍스트 기반 데이터와 대상 타겟팅을 활용하여 여러 채널 간에 메시지와 작업을 조율할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs" text="첫 여정 만들기"
+>additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs" text="첫 여정 만들기"
 
 
 [!DNL Adobe Journey Optimizer]은(는) 대상자의 행동과 필요에 맞게 실시간으로 조정되는 개인화된 여러 단계로 구성된 고객 여정을 만들 수 있도록 해 줍니다. 직관적인 드래그 앤 드롭 캔버스를 사용하여 여러 채널에서 메시지와 액션을 오케스트레이션하고, 상황별 데이터와 대상자 타기팅을 활용하여 최대의 효과를 얻을 수 있습니다.
@@ -124,7 +124,7 @@ ht-degree: 86%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 **외부 시스템 연결**
 
@@ -245,7 +245,7 @@ AI를 사용하여 각 고객이 참여할 가능성이 가장 높은 시점에 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
 
 **점진적 게재 늘리기**
 
@@ -275,7 +275,7 @@ AI를 사용하여 각 고객이 참여할 가능성이 가장 높은 시점에 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
 
 **모든 사용 사례**
 
@@ -293,7 +293,7 @@ AI를 사용하여 각 고객이 참여할 가능성이 가장 높은 시점에 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
 
 **고급 표현식**
 
@@ -313,7 +313,7 @@ AI를 사용하여 각 고객이 참여할 가능성이 가장 높은 시점에 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
 
 **테스트 모드 및 시험 실행**
 
@@ -333,7 +333,7 @@ AI를 사용하여 각 고객이 참여할 가능성이 가장 높은 시점에 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
 
 **태그 및 구성**
 
@@ -343,7 +343,7 @@ AI를 사용하여 각 고객이 참여할 가능성이 가장 높은 시점에 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 **처리량 제어**
 
