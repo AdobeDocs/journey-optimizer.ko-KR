@@ -9,7 +9,7 @@ role: Developer
 level: Beginner
 keywords: 표현식, 편집기, 시작, 개인화
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 8f28414c5aa567e60975e01d66dd1725ac9fa20a
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 22%
@@ -51,7 +51,7 @@ Personalization은 Adobe Experience Platform에 정의된 **XDM 개인 프로필
 
 ➡️ [개인화 플레이그라운드에 액세스](https://experienceleague.adobe.com/ko/apps/journey-optimizer/ajo-personalization){target="_blank"}
 
-## Personalization 편집기의 AI 지원 {#ai-personalization-expressions}
+## 개인화 편집기의 AI 도우미 {#ai-personalization-expressions}
 
 **[!UICONTROL Personalization Editor]**&#x200B;에서 **[!UICONTROL AI Assistant]**&#x200B;는 자연어에서 새 표현식을 생성하고, 기존 코드가 수행하는 작업을 설명하고, 선택 항목의 문제를 해결한 다음, 출력이 사용자의 의도와 일치할 때 출력을 적용하는 데 도움이 됩니다.
 

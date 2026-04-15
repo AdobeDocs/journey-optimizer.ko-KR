@@ -10,10 +10,10 @@ level: Experienced
 keywords: 하위 도메인, 위임, 도메인, DNS
 badge: label="제한된 가용성" type="Informative"
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: 316553be4f04e4fc0ae11bc767f7e48f64fc5ccd
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '953'
-ht-degree: 22%
+ht-degree: 21%
 
 ---
 

@@ -9,14 +9,14 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 스키마, XDM, 플랫폼, 스트리밍, 수집, 여정
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 1%
 
 ---
 
-# [!DNL Journey Optimizer] 이벤트에 대한 ExperienceEvent 스키마 정보 {#about-experienceevent-schemas}
+# [!DNL Journey Optimizer]개 이벤트에 대한 experienceevent 스키마 정보 {#about-experienceevent-schemas}
 
 [!DNL Journey Optimizer] 이벤트는 스트리밍 수집을 통해 Adobe Experience Platform으로 전송되는 XDM 경험 이벤트입니다.
 

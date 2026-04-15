@@ -10,7 +10,7 @@ level: Beginner
 keywords: 여정, 캠페인, 오케스트레이션, 비교, 선택, 결정, 워크플로우, 실시간, 일괄 처리, 오케스트레이션, 여러 단계, 예약됨, API 트리거, 이벤트 기반
 hide: true
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1613'
 ht-degree: 4%

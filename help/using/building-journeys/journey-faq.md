@@ -10,14 +10,14 @@ level: Beginner, Intermediate
 keywords: 여정, 질문, 답변, 문제 해결, 도움말, 안내서, 오케스트레이션
 version: Journey Orchestration
 exl-id: cac9fc24-b78e-48d9-9c0c-f43181246f6f
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '5191'
 ht-degree: 0%
 
 ---
 
-# Journey Orchestration - 자주 묻는 질문 {#faq-journeys}
+# 여정 편성 - 자주 묻는 질문 {#faq-journeys}
 
 [!DNL Adobe Journey Optimizer]에서 Journey Orchestration에 대한 일반적인 질문에 대한 답변을 찾아보세요.
 

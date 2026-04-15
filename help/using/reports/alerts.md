@@ -8,10 +8,10 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 4f22dd804410ba20a5f7364f5100f5b24ed851c4
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '2876'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -206,7 +206,7 @@ Journey Optimizer은 두 가지 범주의 시스템 경고를 제공합니다.
 
 **대상 읽기** 경고 문제를 해결하려면 Experience Platform 인터페이스에서 대상자 규모를 확인하십시오.
 
-### 프로필 삭제율 초과 {#alert-discard-rate}
+### 프로필 삭제 비율 초과 {#alert-discard-rate}
 
 이 경고는 지난 5분 동안 입력한 프로필에 대한 프로필 폐기 비율이 임계값을 초과하는 경우 경고합니다. 기본 임계값이 20%로 설정되어 있지만 [사용자 지정 임계값을 정의](#custom-threshold)할 수 있습니다.
 
@@ -221,7 +221,7 @@ Journey Optimizer은 두 가지 범주의 시스템 경고를 제공합니다.
 * 이벤트 처리량이 초과되었습니다. 이를 해결하려면 시스템으로 들어오는 이벤트가 이러한 제한을 초과하지 않도록 하십시오.
 
 
-### 사용자 정의 액션 오류율 초과 {#alert-custom-action-error-rate}
+### 사용자 지정 작업 오류율 초과 {#alert-custom-action-error-rate}
 
 이 경고는 최근 5분 동안 성공한 HTTP 호출에 대한 사용자 지정 작업 오류의 비율이 임계값을 초과하는 경우 경고합니다. 기본 임계값이 20%로 설정되어 있지만 [사용자 지정 임계값을 정의](#custom-threshold)할 수 있습니다.
 

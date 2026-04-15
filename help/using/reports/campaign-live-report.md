@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '3543'
 ht-degree: 26%
@@ -470,7 +470,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 +++
 
-### SMS - 오류 이유 {#sms-error-reasons}
+### SMS - 오류 원인 {#sms-error-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_error_reasons"
@@ -556,7 +556,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 Campaign **[!UICONTROL 라이브 보고서]**&#x200B;에서 **[!UICONTROL DM]** 탭은 DM과 관련된 기본 정보를 자세히 설명합니다.
 
-### 다이렉트 메일 - 전송 통계 {#direct-mail-sending}
+### DM - 전송 통계 {#direct-mail-sending}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_sending_statistics"
@@ -579,7 +579,7 @@ Campaign **[!UICONTROL 라이브 보고서]**&#x200B;에서 **[!UICONTROL DM]** 
 
 +++
 
-### 다이렉트 메일 - 오류 이유 {#direct-mail-error-reasons}
+### 다이렉트 메일 - 오류 원인 {#direct-mail-error-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_error_reasons"
@@ -590,7 +590,7 @@ Campaign **[!UICONTROL 라이브 보고서]**&#x200B;에서 **[!UICONTROL DM]** 
 
 **[!UICONTROL DM - 오류 원인]** 그래프와 표는 DM 메시지를 보내는 동안 발생한 특정 오류를 식별하는 수단을 제공하여 지난 24시간 동안 발생한 모든 문제를 자세히 분석할 수 있도록 합니다.
 
-### 다이렉트 메일 - 제외된 이유 {#direct-mail-excluded-reasons}
+### DM - 제외된 이유 {#direct-mail-excluded-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_excluded_reasons"

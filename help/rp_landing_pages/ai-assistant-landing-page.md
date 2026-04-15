@@ -5,10 +5,10 @@ title: 콘텐츠 생성을 위한 AI 어시스턴트
 description: 콘텐츠 생성을 위한 AI 어시스턴트
 redpen-status: CREATED_||_2025-08-12_00-42-48
 exl-id: 0fdc67ab-3646-4c6e-884d-604238549c3d
-source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
-workflow-type: ht
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+workflow-type: tm+mt
 source-wordcount: '279'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 Adobe Journey Optimizer의 AI 어시스턴트는 생성형 AI를 활용하여 이메일, SMS, 푸시 알림, 웹 페이지 등에 개인화된 텍스트와 시각적 요소를 제작함으로써 콘텐츠 생성에 혁신을 가져옵니다. 전체 캠페인을 생성하든 특정 자산을 개선하든, 이 기능을 사용하면 시간을 절약하면서 콘텐츠를 브랜드 가이드라인에 맞게 원활하게 조정할 수 있습니다. AI 어시스턴트에 액세스하는 방법, 가드레일을 이해하는 방법, 다양한 채널에서 해당 기능을 활용하는 방법을 살펴보겠습니다. 각 하위 주제에서는 매력적인 이메일 작성부터 콘텐츠 변형 실험까지 실질적인 지침을 제공하여 대상자에게 공감을 불러일으키는 영향력 있고 브랜드에 맞는 캠페인을 자신 있게 만들 수 있도록 도와줍니다.
 
-## 콘텐츠 생성을 위한 AI 어시스턴트
+## 콘텐츠 생성을 위한 AI 지원
 
 :::: landing-cards-container
 :::
@@ -50,7 +50,7 @@ AI 어시스턴트를 사용하여 이메일, SMS, 푸시 알림, 웹 페이지 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
 
 이미지만 생성
 

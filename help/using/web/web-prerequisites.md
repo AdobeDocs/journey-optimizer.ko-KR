@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: d1f651eeb9401e4344f5bff12e6b706ff0080320
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1241'
 ht-degree: 10%
@@ -64,7 +64,7 @@ ht-degree: 10%
 >
 >Google Chrome 및 Microsoft Edge은 현재 [!DNL Journey Optimizer]에서 웹 페이지 작성을 지원하는 유일한 브라우저입니다.
 
-### Visual Editing Helper 확장 기능 설치 {#install-visual-editing-helper}
+### Visual editing helper 확장 기능 설치 {#install-visual-editing-helper}
 
 Visual Editing Helper 브라우저 확장 기능을 다운로드하여 설치하려면 아래 단계를 수행하십시오.
 

@@ -7,14 +7,14 @@ role: User
 level: Beginner, Intermediate
 hide: true
 exl-id: 842d69e3-be7f-4a81-8161-6c6ecd571f95
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
 
 ---
 
-# Adobe Experience Manager Content Advisor 작업 {#aem-content-advisor}
+# Adobe Experience Manager 콘텐츠 관리자 작업 {#aem-content-advisor}
 
 >[!AVAILABILITY]
 >
@@ -123,7 +123,7 @@ Adobe Experience Manager Content Advisor는 다음과 같은 콘텐츠 조각 �
 
 +++
 
-## Adobe Experience Manager Content Advisor 액세스 {#access}
+## Adobe Experience Manager 콘텐츠 관리자 액세스 {#access}
 
 Journey Optimizer에서 Adobe Experience Manager Content Advisor에 액세스하려면 다음 단계를 수행하십시오.
 

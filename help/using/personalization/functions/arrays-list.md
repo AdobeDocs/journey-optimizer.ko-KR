@@ -6,7 +6,7 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 5%
@@ -71,7 +71,7 @@ ht-degree: 5%
 {%= distinct(person.orders.storeId).count() > 1 %}
 ```
 
-## Null이 포함된 고유 개수 {#distinct-count-with-null}
+## null이 포함된 고유 개수 {#distinct-count-with-null}
 
 `distinctCountWithNull` 함수는 null 값을 포함하는 목록의 다른 값 수를 계산하는 데 사용됩니다.
 

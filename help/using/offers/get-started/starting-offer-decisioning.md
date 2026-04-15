@@ -10,10 +10,10 @@ role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 version: Journey Orchestration
-source-git-commit: 083545ff7b2dc5ce45ef3766321fdf12e1b96c5c
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '896'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 100%
 
   ![](../../assets/do-not-localize/call-center.png)
 
-## 의사 결정 관리 액세스 권한 부여 {#granting-acess-to-decision-management}
+## 의사 결정 관리에 대한 액세스 권한 부여 {#granting-acess-to-decision-management}
 
 결정 기능 액세스 및 사용 권한은 [Adobe Admin Console](https://helpx.adobe.com/kr/enterprise/managing/user-guide.html){target="_blank"}을 통해 관리할 수 있습니다.
 

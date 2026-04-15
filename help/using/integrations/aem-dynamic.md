@@ -7,7 +7,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3e777cc5-a935-4e68-9de7-60b241e78f63
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '993'
 ht-degree: 8%
@@ -198,7 +198,7 @@ HTML 구성 요소를 사용하여 다이내믹 템플릿을 콘텐츠에 직접
 테스트를 수행하고 콘텐츠의 유효성을 검사하면 대상자에게 메시지를 보낼 수 있습니다.
 
 <!--
-## Personalization with Text Overlay
+## Personalization with text overlay
 
 Easily customize any dynamic media by replacing the existing text overlay with new text of your choice, allowing for seamless updates and personalization.
 

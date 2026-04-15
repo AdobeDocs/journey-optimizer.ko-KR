@@ -6,7 +6,7 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '993'
 ht-degree: 3%
@@ -321,7 +321,7 @@ ht-degree: 3%
 * Adobe 기술 블로그: [Adobe Experience Platform 웹 SDK의 하이브리드 Personalization](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
 * SDK 설명서: [Web SDK 및 Edge Network Server API를 사용한 하이브리드 개인화](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html?lang=ko){target="_blank"}
 
-## Adobe Experience Platform Assurance을 사용하여 Edge 네트워크 API 호출 디버그 {#debugging-edge-api-assurance}
+## Adobe Experience Platform Assurance를 사용하여 Edge Network API 호출 디버그 {#debugging-edge-api-assurance}
 
 코드 기반 경험을 위해 Edge Network API를 직접 사용할 때(웹 SDK 또는 모바일 SDK을 사용하지 않음), Assurance 세션 ID를 유효성 검사 토큰 헤더로 포함하여 Adobe Experience Platform Assurance에서 API 호출을 디버그할 수 있습니다.
 

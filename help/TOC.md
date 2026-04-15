@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ac163c2bfd1ec59fbf39547fbefdacd1adec3838
+source-git-commit: bff1526dc5a0553741f688032745861debc17ddd
 workflow-type: tm+mt
-source-wordcount: '3200'
+source-wordcount: '3205'
 ht-degree: 91%
 
 ---
@@ -288,6 +288,7 @@ ht-degree: 91%
             + [시각적 조각 활용](using/email/use-visual-fragments.md)
             + [링크 추가 및 메시지 추적](using/email/message-tracking.md)
             + [개인화된 오퍼 삽입](using/email/add-offers-email.md)
+            + [AI 받은 편지함에 대한 이메일 최적화](using/email/llm-email-optimizer.md)
             + [텍스트 버전 관리](using/email/text-version-email.md)
             + [메타데이터 추가](using/email/email-metadata.md)
             + [고급 HTML 편집기로 편집](using/email/email-expert-mode.md)
@@ -978,4 +979,3 @@ ht-degree: 91%
       + [고객의 환경 설정 관리](using/action/preference-center.md)
    + [데이터 거버넌스](using/action/action-privacy.md)
    + [고객 관리 키 설정 및 관리](using/privacy/cmk.md)
-

@@ -10,7 +10,7 @@ role: User
 level: Beginner
 keywords: 에셋, 통합
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
-source-git-commit: 070debe5c4fb5e39316b12a0788ec55abbf3c005
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 18%
@@ -41,7 +41,7 @@ Adobe Express에 대한 자세한 내용은 [이 설명서](https://helpx.adobe.
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
 
-## Enterprise 라이선스와 함께 Adobe Express 사용 {#licence}
+## 엔터프라이즈 라이선스와 함께 Adobe Express 사용 {#licence}
 
 아래 섹션에 설명된 기능은 Adobe Express Enterprise 라이센스가 없는 사용자가 액세스할 수 있습니다.
 
@@ -51,7 +51,7 @@ Enterprise 라이선스를 사용하면 사용자가 Adobe Express 웹 편집기
 
 Adobe Express용 Enterprise 라이선스가 있는 사용자가 사용할 수 있는 사용 사례에 대한 자세한 내용은 [Adobe Express 웹 설명서](https://helpx.adobe.com/kr/express/web.html)를 참조하세요.
 
-## Enterprise 라이선스 없이 Adobe Express 사용  {#edit}
+## 엔터프라이즈 라이선스 없이 Adobe Express 사용  {#edit}
 
 Enterprise 라이센스가 없는 사용자는 Adobe Express에서 사용할 수 있는 다음 사용 사례에 액세스할 수 있습니다.
 

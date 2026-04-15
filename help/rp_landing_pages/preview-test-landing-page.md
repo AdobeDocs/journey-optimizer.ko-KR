@@ -5,8 +5,8 @@ title: 콘텐츠 미리 보기 및 테스트
 description: 시작 전에 메시지 정확성을 확인합니다. 테스트 프로필을 사용해 개인화된 콘텐츠를 미리 보고, 이해 당사자에게 교정본을 보내고, 클라이언트별 이메일 렌더링을 확인하고, 스팸 점수를 평가하고, 다양한 콘텐츠 변형을 효율적으로 테스트할 수 있습니다.
 redpen-status: CREATED_||_2025-08-11_20-30-05
 exl-id: bd78e0af-573b-4880-a9f1-44467c9db159
-source-git-commit: 6b83b015dfd74da9eb58bd06958d0963d81c6489
-workflow-type: ht
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 콘텐츠를 미리 보고 테스트하는 방법
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 테스트 프로필을 선택하는 방법
 
@@ -48,7 +48,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 테스트 프로필을 사용한 콘텐츠 미리 보기
 
@@ -58,7 +58,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 테스트 프로필 데이터를 사용한 증명 전송
 
@@ -68,7 +68,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg)
 
 Litmus를 사용하여 이메일 렌더링을 테스트하는 방법
 
@@ -78,7 +78,7 @@ Litmus를 통합하여 인기 있는 이메일 클라이언트 간의 이메일 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 콘텐츠 변형을 시뮬레이션하고 테스트하는 방법
 

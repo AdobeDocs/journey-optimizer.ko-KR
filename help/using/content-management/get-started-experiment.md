@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 시작하기, 시작, 콘텐츠, 실험
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '2085'
-ht-degree: 93%
+ht-degree: 92%
 
 ---
 
@@ -129,7 +129,7 @@ Adobe Journey Optimizer가 메시지를 추적하는 직접적 목표 지표의 
 
 예를 들어 실험에서 **[!UICONTROL 고유 오픈 수]**&#x200B;를 측정 목표로 해당 처리 버전에 프로필 10,000개를 노출했을 때 고유 오픈 수가 200으로 기록되었다면 이 결과는 **[!UICONTROL 전환율]** 2%로 나타납니다. 고유하지 않은 지표(예: 오픈 수 지표)의 경우 표준화된 지표는 **[!UICONTROL 프로필당 카운트]**&#x200B;로 나타나고, 가격 총계 등 연속 지표의 경우 표준화된 지표는 **[!UICONTROL 프로필당 총합]**&#x200B;으로 나타납니다.
 
-### &#x200B;2. 신뢰 구간에 집중하기 {#confidence-intervals}
+### &#x200B;2. 신뢰 구간에 집중 {#confidence-intervals}
 
 프로필 샘플에 대해 실험을 진행하는 경우 특정 처리 버전에서 관찰된 전환율은 그 기저에 있는 실제 전환율의 추정치입니다.
 
@@ -141,7 +141,7 @@ Adobe Journey Optimizer가 메시지를 추적하는 직접적 목표 지표의 
 
 Adobe은 95%의 언제나 유효한(Anytime Valid) 신뢰 구간(신뢰 시퀀스)를 사용합니다. 즉, 실험 중 언제든지 결과를 안전하게 볼 수 있습니다.
 
-### &#x200B;3. 상승도 이해하기 {#understand-lift}
+### &#x200B;3. 상승도 이해 {#understand-lift}
 
 실험 보고서 요약에는 **[!UICONTROL 기준선 대비 상승도]**&#x200B;가 표시됩니다. 이 지표는 특정 처리의 전환율이 기준선 대비 향상된 정도를 백분율로 측정한 것입니다. 정확하게 정의하면 해당 처리 버전과 기준선 간 성과의 차이를 기준선의 성과로 나눈 값을 백분율로 표현한 것입니다.
 

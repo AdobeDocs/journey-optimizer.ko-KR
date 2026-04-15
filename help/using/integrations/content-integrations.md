@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 에셋, 통합
 exl-id: 3e72df85-ba80-4cec-848b-7441cb3e7fef
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 27%
@@ -78,7 +78,7 @@ Enterprise 라이선스를 사용하면 사용자가 Adobe Express 편집기에 
 
 [Journey Optimizer + Adobe Express](../integrations/express.md)에 대해 자세히 알아보세요.
 
-## GenStudio for Performance Marketing
+## 성능 마케팅을 위한 GenStudio
 
 Adobe GenStudio for Performance Marketing은 마케팅 팀이 자체 광고 및 이메일을 만들어 브랜드 표준을 준수하고 엔터프라이즈 정책을 준수하는 영향력이 큰 개인화된 마케팅 캠페인을 유도할 수 있는 생성 AI 우선 애플리케이션입니다. Adobe AI 기술을 활용하여 컨텐츠 생성 및 관리의 복잡성을 간소화하여 크리에이티브가 혁신에 집중할 수 있는 포괄적인 도구 모음을 제공합니다.
 

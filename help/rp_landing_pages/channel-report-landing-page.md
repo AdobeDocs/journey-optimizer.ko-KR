@@ -5,10 +5,10 @@ title: 전체 시간 보고서
 description: 전체 시간 보고서
 redpen-status: CREATED_||_2025-08-11_20-52-29
 exl-id: cc658ad0-79ec-4403-bdda-18f0c428d3fa
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '357'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 100%
 
 Adobe Journey Optimizer의 &#39;전체 시간 보고서&#39;는 시간 경과에 따른 캠페인 및 여정의 성과를 파악하기 위한 길입니다. 이 기능을 사용하면 Customer Journey Analytics와의 통합을 통해 데이터를 원활하게 분석할 수 있으므로 이메일, SMS, 푸시 알림 등 채널 전체에 걸쳐 정확한 인사이트를 확보할 수 있습니다. 세부 지표에 액세스하고 보고 데이터 소스를 구성하고 보고서에서 직접 대상자를 만드는 방법을 알아봅니다. 이 상호 연결된 주제는 캠페인의 효과를 탐색하거나 여정 분석을 시작할 때 보고 도구를 마스터하여 확신을 가지고 고객 참여를 최적화할 수 있는 명확한 로드맵을 제공합니다.
 
-## 전체 시간 보고서 기능
+## 모든 시간 보고서 기능
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 전체 시간 보고 시작
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 &#39;전체 시간 보고서&#39;는 시간 경과에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 종합 지표 목록
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer의 &#39;전체 시간 보고서&#39;는 시간 경과에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Customer Journey Analytics 수동 구성
 
@@ -50,7 +50,7 @@ Customer Journey Analytics 수동 구성
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 보고서 관리
 
@@ -60,7 +60,7 @@ Customer Journey Analytics 수동 구성
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 보고 데이터 소스 구성
 
@@ -70,7 +70,7 @@ Customer Journey Analytics 수동 구성
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 제외 이유
 

@@ -7,7 +7,7 @@ feature: Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 02ca7c8e-105a-4e77-9aad-2381904255d0
-source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 1%
@@ -187,7 +187,7 @@ struct FoodDeliveryLiveActivityWidget: Widget {
 }
 ```
 
-## 5단계: 로컬에서 라이브 활동 시작(선택 사항) {#local}
+## 5단계: 라이브 활동을 로컬에서 시작(선택 사항) {#local}
 
 Journey Optimizer은 라이브 활동을 원격으로 시작할 수 있지만 로컬로 시작할 수도 있습니다.
 

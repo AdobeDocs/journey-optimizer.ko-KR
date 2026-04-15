@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: 여정, 검색, 시작, 단일, 대상자 읽기, 대상자 선별, 비즈니스 이벤트, 실시간, 예약, 배치, 이벤트 트리거, 워크플로, 오케스트레이션, 개인화, 멀티채널
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1470'
-ht-degree: 87%
+ht-degree: 86%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 87%
 
 ➡️ **빌드를 시작할 준비가 되셨나요?** 5분이면 [첫 번째 여정 만들기](journey-gs.md)를 완료할 수 있습니다.
 
-### 여정과 캠페인: 각 접근 방식을 사용해야 하는 경우 {#journeys-vs-campaigns-intro}
+### 여정과 캠페인: 각각 사용해야 하는 경우 {#journeys-vs-campaigns-intro}
 
 [!DNL Adobe Journey Optimizer]은(는) 고객에게 도달하기 위한 세 가지 방법을 제공합니다. **여정**(1:1 실시간 오케스트레이션), **캠페인**(단순 일괄 처리 또는 API 트리거 게재) 및 **오케스트레이션된 캠페인**(다중 엔터티 데이터가 있는 일괄 처리 캔버스 워크플로).
 
@@ -84,7 +84,7 @@ ht-degree: 87%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **진입점 정의**
 
@@ -94,7 +94,7 @@ ht-degree: 87%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **메시지 보내기**
 
@@ -104,7 +104,7 @@ ht-degree: 87%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **논리 및 조건 추가**
 
@@ -114,7 +114,7 @@ ht-degree: 87%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **데이터 활용**
 
@@ -134,7 +134,7 @@ ht-degree: 87%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **오케스트레이션 활동 추가**
 
@@ -225,7 +225,7 @@ ht-degree: 87%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **신규 구독자 환영**
 
@@ -235,7 +235,7 @@ ht-degree: 87%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **전송 시간 최적화**
 
@@ -255,7 +255,7 @@ AI를 사용하여 각 고객이 참여할 가능성이 가장 높은 시점에 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **요일별 타기팅**
 
@@ -265,7 +265,7 @@ AI를 사용하여 각 고객이 참여할 가능성이 가장 높은 시점에 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **멀티채널 캠페인**
 
@@ -303,7 +303,7 @@ AI를 사용하여 각 고객이 참여할 가능성이 가장 높은 시점에 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **표준 시간대 관리**
 
@@ -323,7 +323,7 @@ AI를 사용하여 각 고객이 참여할 가능성이 가장 높은 시점에 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **샌드박스에 복사**
 

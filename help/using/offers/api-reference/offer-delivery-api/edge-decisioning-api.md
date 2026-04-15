@@ -10,7 +10,7 @@ role: Developer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '953'
 ht-degree: 3%
@@ -68,7 +68,7 @@ SDK을 사용하려면 [스키마](../../../data/get-started-schemas.md)와 [데
 
 의사 결정 관리에 사용할 SDK을 구성하려면 아래 두 단계 중 하나를 수행합니다.
 
-## 옵션 1 - Launch를 사용하여 Tag 확장 및 구현 설치
+## 옵션 1 - launch를 사용하여 태그 확장 및 구현 설치
 
 이 옵션은 코딩 경험이 적을 수 있는 사용자에게 보다 편리합니다.
 

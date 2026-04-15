@@ -7,14 +7,14 @@ role: User
 level: Intermediate
 version: Journey Orchestration
 exl-id: 7bb72527-d4e1-49f8-b2c3-c943d65903f2
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 0%
 
 ---
 
-# 의사 결정 FAQ {#decisioning-faq}
+# FAQ 의사 결정 {#decisioning-faq}
 
 이 페이지에서는 Adobe Journey Optimizer의 Decisioning 기능에 대한 FAQ에 대한 답변을 제공합니다.
 
