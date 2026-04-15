@@ -1,22 +1,22 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: MCP를 통해 AI 지원 팀과 작업
-description: MCP 서버를 사용하여 Adobe Journey Optimizer을 AI 도우미에 연결하는 방법에 대해 알아봅니다
+title: MCP 클라이언트 작업
+description: MCP 서버를 사용하여 Adobe Journey Optimizer을 MCP 클라이언트에 연결하는 방법에 대해 알아봅니다
 feature: Integrations
 topic: Content Management, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
 hide: true
-source-git-commit: 03ac391f57c271416506b1213c4b8da5f06b32d5
+source-git-commit: 7ae497e7a0e4d1652413a5a6dbd5d617a3ec31fe
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '792'
 ht-degree: 1%
 
 ---
 
-# MCP를 통해 AI 지원 팀과 작업 {#ajo-mcp}
+# MCP 클라이언트 작업 {#ajo-mcp}
 
 >[!AVAILABILITY]
 >
@@ -54,7 +54,7 @@ ht-degree: 1%
 
 ## 전제 조건 {#mcp-prerequisites}
 
-[!DNL Adobe Journey Optimizer] MCP 서버를 AI 도우미에 연결하기 전에 다음 사항을 확인하십시오.
+[!DNL Adobe Journey Optimizer] MCP 서버를 MCP 클라이언트에 연결하기 전에 다음 사항을 확인하십시오.
 
 * 활성 [!DNL Adobe Journey Optimizer] 라이선스가 있습니다.
 * 지원되는 MCP 호환 애플리케이션(현재 클라우드 웹 또는 클라우드 데스크탑)에 액세스할 수 있습니다.
@@ -81,7 +81,7 @@ Step-by-step connection instructions to be added here, including:
 
 ## 자주 묻는 질문 {#mcp-faq}
 
-+++지원되는 AI 도우미는 무엇입니까?
++++지원되는 MCP 클라이언트는 무엇입니까?
 
 [!DNL Adobe Journey Optimizer] MCP 서버는 현재 **클라우드 웹** 및 **클라우드 데스크톱**&#x200B;에서 사용할 수 있습니다. 추가 MCP 호환 애플리케이션에 대한 지원은 향후 릴리스에 추가될 수 있습니다.
 +++
@@ -93,12 +93,12 @@ Step-by-step connection instructions to be added here, including:
 
 +++[!DNL Adobe Journey Optimizer] MCP 서버를 사용하려면 개발자 액세스 권한이 필요합니까?
 
-아니요. MCP 서버는 마케팅 및 기술 담당자 모두를 위해 설계되었습니다. 마케터는 Claude의 자연어 프롬프트를 사용하여 상호 작용할 수 있으며, 개발자는 MCP를 지원하는 개발자 도구에서도 사용할 수 있습니다.
+아니요. MCP 서버는 마케팅 및 기술 담당자 모두를 위해 설계되었습니다. 마케터는 지원되는 모든 MCP 클라이언트에서 자연어 프롬프트를 사용하여 상호 작용할 수 있으며, 개발자는 MCP를 지원하는 개발자 도구에서 사용할 수도 있습니다.
 +++
 
-+++AI 비서 공급자에게 데이터가 전송됩니까?
++++내 데이터가 MCP 클라이언트 공급자에게 전송됩니까?
 
-프롬프트를 제출하면 AI 도우미는 처리를 위해 해당 컨텍스트(MCP 서버에서 반환된 [!DNL Adobe Journey Optimizer] 데이터 포함)를 해당 모델에 보낼 수 있습니다. 프로덕션 데이터에 연결하기 전에 AI 지원 공급자의 개인정보 보호 및 데이터 처리 정책을 검토하십시오.
+프롬프트를 제출하면 MCP 클라이언트는 관련 컨텍스트(MCP 서버에서 반환된 [!DNL Adobe Journey Optimizer] 데이터 포함)를 처리를 위해 해당 모델로 보낼 수 있습니다. 프로덕션 데이터에 연결하기 전에 MCP 클라이언트 공급자의 개인정보 보호 및 데이터 처리 정책을 검토하십시오.
 +++
 
 +++[!DNL Adobe Journey Optimizer]에서 어떤 권한이 필요합니까?
