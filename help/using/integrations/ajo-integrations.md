@@ -7,10 +7,10 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 41fc96cb43c28e823c3b927901ad01e7d15bd5ef
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 68%
+source-wordcount: '1005'
+ht-degree: 64%
 
 ---
 
@@ -137,3 +137,9 @@ Journey Optimizer + Adobe Workfront에 대해 자세히 알아보기 [Adobe Work
 Journey Optimizer에서는 사용자 지정 데이터 소스 및 사용자 지정 작업을 통해 외부 시스템에 대한 연결을 구성할 수 있습니다. 예를 들어, 외부 예약 시스템에서 오는 데이터로 여정을 보강할 수 있습니다.
 
 [이 섹션](../datasource/external-data-sources.md)에서 외부 데이터 소스를 사용하여 서드파티 시스템에 대한 연결을 정의하는 방법을 알아봅니다.
+
+## MCP를 통한 AI 도구(Beta) {#integration-mcp}
+
+[!DNL Adobe Journey Optimizer]은(는) API 호출을 작성하거나 제품 화면을 탐색하지 않고도 Claude Web 및 Claude Desktop과 같은 MCP 호환 AI 도구에서 직접 일반 언어 프롬프트를 사용하여 캠페인을 쿼리하고 데이터를 제공할 수 있는 MCP(Model Context Protocol) 서버를 제공합니다.
+
+[Journey Optimizer + MCP](../integrations/ajo-mcp.md)에 대해 자세히 알아보세요.
