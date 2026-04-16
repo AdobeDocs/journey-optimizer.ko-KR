@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Personalization 표현식을 위한 AI 지원
-description: Journey Optimizer Personalization 편집기에서 AI Assistant를 사용하여 자연어에서 새 표현식을 생성하고, 기존 코드를 설명 또는 수정하며, 선택 항목을 구체화하는 방법에 대해 알아봅니다.
+description: Journey Optimizer에서 AI Assistant를 사용하여 Personalization 편집기 또는 이메일 Designer의 인라인으로 자연어에서 개인화 표현식을 생성하는 방법을 알아봅니다.
 feature: Content Assistant
 topic: Content Management, Artificial Intelligence
 role: User
 level: Intermediate
 mini-toc-levels: 1
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 8a905fd7e51c2dac60f4edccb9e9dd790a0dd424
 workflow-type: tm+mt
-source-wordcount: '806'
-ht-degree: 2%
+source-wordcount: '1010'
+ht-degree: 1%
 
 ---
 
@@ -26,19 +26,18 @@ ht-degree: 2%
 
 ## 개요 {#where-available}
 
-[!UICONTROL Personalization Editor]에서 [!UICONTROL AI Assistant]는 일반 언어로 새 개인화를 생성하고, 기존 표현식이 수행하는 작업을 설명하고, 선택한 코드의 문제를 수정하여 구문 및 수동 필드 검색에 드는 시간을 줄이는 데 도움이 됩니다. 선택 내용을 반복하거나 대화의 다른 변경 사항을 요청할 수도 있습니다.
+[!UICONTROL AI Assistant]를 사용하면 일반 언어로 새로운 개인화를 생성하고, 기존 표현식이 수행하는 작업을 설명하고, 선택한 코드의 문제를 수정하여 구문 및 수동 필드 검색에 드는 시간을 줄일 수 있습니다. 선택 내용을 반복하거나 대화의 다른 변경 사항을 요청할 수도 있습니다. 다음 두 가지 진입점에서 사용할 수 있습니다.
 
-* 더 광범위한 AI Assistant 설정 및 언어에 대해서는 [AI Assistant 시작](gs-generative.md)을 참조하십시오.
-* [!DNL Journey Optimizer]의 개인화에 대한 자세한 내용은 [개인화 시작](../personalization/personalize.md)을 참조하세요.
-* 프롬프트 아이디어는 [AI 프롬프트 모범 사례](ai-assistant-prompting-guide.md)를 참조하십시오.
+* **[!UICONTROL Personalization 편집기]** — 편집기를 사용할 수 있는 모든 위치(제목 줄, 본문 및 해당 편집기를 여는 기타 필드)입니다. 편집기를 여는 위치 및 방법은 [개인화 추가](../personalization/personalization-build-expressions.md#where)를 참조하십시오.
+* **이메일 Designer 인라인 텍스트 편집** — 텍스트 구성 요소를 편집할 때 인라인 편집 팝오버에서 바로 가져옵니다. [전자 메일 Designer에서 생성](#generate-email-designer)을 참조하세요.
 
-제목 줄, 본문 및 해당 편집기를 여는 기타 필드 등 해당 편집기를 사용할 수 있는 모든 위치에서 [!UICONTROL Personalization 편집기]에서 [!UICONTROL AI 길잡이]를 사용합니다. 편집기를 여는 위치 및 방법은 [개인화 추가](../personalization/personalization-build-expressions.md#where)를 참조하십시오.
+더 광범위한 AI Assistant 설정 및 언어에 대해서는 [AI Assistant 시작](gs-generative.md)을 참조하십시오. 개인화 개념에 대해서는 [개인화 시작](../personalization/personalize.md)을 참조하십시오. 프롬프트 아이디어는 [AI 프롬프트 모범 사례](ai-assistant-prompting-guide.md)를 참조하십시오.
 
 캠페인 또는 여정 컨텍스트에 따라 도우미는 데이터를 사용하여 작업하고 이미 노출된 [!UICONTROL Personalization 편집기]를 구성할 수 있습니다(예: 프로필 특성, 세그먼트 멤버십, 도우미 기능 및 관련 개인화 소스).
 
 >[!NOTE]
 >
->도우미는 해당 편집기 세션에서 [!UICONTROL AI 도우미]를 여는 동안에만 프롬프트의 컨텍스트를 유지합니다. 도우미 또는 [!UICONTROL Personalization 편집기]를 닫으면 대화가 저장되지 않습니다. 다음에 도우미를 열면 새 대화가 시작됩니다.
+>해당 세션에서 [!UICONTROL AI Assistant]가 열려 있는 동안에만 도우미가 프롬프트에서 컨텍스트를 유지합니다. 도우미나 편집기를 닫으면 대화가 지워집니다. 다음에 도우미를 열면 새 대화가 시작됩니다.
 
 ## 개인화 표현식 생성 {#generate}
 
@@ -107,3 +106,30 @@ ht-degree: 2%
    ![](assets/ai-perso-fix.png)
 
 1. 개인화 식을 생성할 때와 마찬가지로 **[!UICONTROL 적용]**&#x200B;을 클릭하여 도우미 출력을 구현합니다. 개인화 편집기에서 선택한 코드를 대체합니다. 예를 들어 코드에 대한 설명을 요청한 경우 을 적용하면 표현식에 수행하는 작업을 설명하는 주석이 추가됩니다.
+
+## 이메일 Designer에서 생성 {#generate-email-designer}
+
+[!UICONTROL 개인화 표현식에 대한 AI 도우미]도 전체 [!UICONTROL Personalization 편집기]를 열지 않고 이메일 Designer의 인라인 편집 환경에서 바로 사용할 수 있습니다. 생성된 표현식은 텍스트 구성 요소의 커서 위치에 삽입됩니다.
+
+1. 이메일 Designer에서 텍스트 구성 요소를 선택하고 인라인 편집을 시작합니다.
+
+1. 다음 두 가지 방법 중 하나로 인라인 개인화 팝오버를 엽니다.
+
+   * 식을 삽입할 위치에 `{{`을(를) 입력하십시오. 팝오버가 자동으로 열립니다.
+   * 이미 열려 있는 경우 인라인 편집 팝오버에서 **[!UICONTROL AI를 사용하여 생성]**&#x200B;을 클릭합니다.
+
+   ![](assets/ai-perso-email-entry.png)
+
+1. 텍스트 필드에서 원하는 개인화 표현식을 일반 언어로 설명한 다음 **[!UICONTROL 생성]**&#x200B;을 클릭합니다.
+
+1. **[!UICONTROL 식]** 탭의 결과를 검토하여 생성된 식을 확인합니다.
+
+   샘플 프로필 값을 사용하여 식이 평가되는 방식을 보려면 **[!UICONTROL 미리 보기]** 탭으로 전환하여 출력을 삽입하기 전에 확인할 수 있습니다.
+
+   ![](assets/ai-perso-email-result.png)
+
+1. 텍스트 구성 요소의 커서 위치에 식을 적용하려면 **[!UICONTROL 삽입]**&#x200B;을 클릭하십시오. 새 제안을 만들려면 **[!UICONTROL 다시 생성]**&#x200B;을 사용하고, 다시 시작하려면 **[!UICONTROL 다시 설정]**&#x200B;을 사용하세요.
+
+>[!NOTE]
+>
+>인라인 이메일 Designer 팝오버의 [!UICONTROL 개인화 표현식에 대한 AI 도우미] 세션은 [!UICONTROL Personalization 편집기]의 세션과 독립적입니다. 팝오버를 닫으면 대화가 지워집니다.
