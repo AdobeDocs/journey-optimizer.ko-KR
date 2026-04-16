@@ -9,7 +9,7 @@ badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
 hide: true
-source-git-commit: 5727d4596749099152bf0757d23a0fa1259fbfd8
+source-git-commit: 64e51368b5b099819829572ea9f7daf441fb3671
 workflow-type: tm+mt
 source-wordcount: '1370'
 ht-degree: 1%
@@ -26,11 +26,11 @@ ht-degree: 1%
 >
 >Adobe Journey Optimizer MCP 서버(Beta)(&quot;Beta&quot;)를 사용하면 Beta이 어떠한 종류의 보증도 없이 **&quot;있는 그대로&quot; 제공된다는 것을 인정합니다**. Adobe은 Beta을 유지, 수정, 업데이트, 변경, 수정 또는 지원할 의무가 없습니다. 이러한 Beta 및/또는 동봉된 자료의 올바른 기능이나 성능에 어떤 식으로든 의존하지 말고 주의하는 것이 좋습니다. Beta은 Adobe의 기밀 정보로 간주됩니다. 귀하가 Adobe에 제공한 &quot;피드백&quot;(Beta 사용 중 발생하는 문제 또는 결함, 제안, 개선 사항 및 권장 사항을 포함하되 이에 제한되지 않는 Beta 관련 정보)은 해당 피드백에 대한 모든 권한, 제목 및 관심을 포함하여 Adobe에 할당됩니다.
 
+[!DNL Adobe Journey Optimizer] MCP 통합을 사용하면 API 호출을 작성하거나 제품 화면을 탐색하지 않고도 일반 언어 프롬프트를 사용하여 캠페인, 여정 및 오퍼를 쿼리할 수 있습니다. 이 페이지에서는 통합 작동 방식, 통합 기능으로 수행할 수 있는 작업 및 시작 방법을 설명합니다.
+
 >[!AVAILABILITY]
 >
 >[!DNL Adobe Journey Optimizer] MCP 서버는 현재 **클라우드 웹** 및 **클라우드 데스크톱**&#x200B;에서만 사용할 수 있습니다. 추가 MCP 호환 애플리케이션에 대한 지원은 향후 릴리스에 추가될 예정입니다.
-
-[!DNL Adobe Journey Optimizer] MCP 통합을 사용하면 API 호출을 작성하거나 제품 화면을 탐색하지 않고도 일반 언어 프롬프트를 사용하여 캠페인, 여정 및 오퍼를 쿼리할 수 있습니다. 이 페이지에서는 통합 작동 방식, 통합 기능으로 수행할 수 있는 작업 및 시작 방법을 설명합니다.
 
 ## 모델 컨텍스트 프로토콜이란 무엇입니까? {#mcp-overview}
 
