@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 434480b9ea30ab456e97c2cf281adb1253b8f73d
+source-git-commit: 541e7c8b9969188fc4a7d51187e3d0703a4303ec
 workflow-type: tm+mt
-source-wordcount: '3206'
+source-wordcount: '3205'
 ht-degree: 91%
 
 ---
@@ -360,7 +360,7 @@ ht-degree: 91%
          + [웹 채널 전제 조건](using/web/web-prerequisites.md)
          + [웹 하위 도메인 구성](using/web/web-delegated-subdomains.md)
          + [웹 채널 구성 만들기](using/web/web-configuration.md)
-      + [웹 경험 만들기 &#x200B;](using/web/create-web.md)
+      + [웹 경험 만들기 ](using/web/create-web.md)
       + 웹 페이지 작성 {#author-web-pages}
          + [웹 페이지 작성](/help/rp_landing_pages/author-web-pages-landing-page.md)
          + [웹 디자이너를 사용하여 작업](using/web/web-visual-editor.md)
@@ -420,7 +420,7 @@ ht-degree: 91%
          + [Journey Optimizer에서 라이브 활동 구성](using/mobile-live/mobile-live-configuration.md)
          + [라이브 활동 SDK 통합 구성](using/mobile-live/mobile-live-configuration-sdk.md)
 + 콘텐츠 관리 {#content-management}
-   + [콘텐츠 관리 &#x200B;](/help/rp_landing_pages/content-management-landing-page.md)
+   + [콘텐츠 관리 ](/help/rp_landing_pages/content-management-landing-page.md)
    + 개인화 {#personalization}
       + [개인화](/help/rp_landing_pages/personalization-landing-page.md)
       + [개인화 시작](using/personalization/personalize.md)
@@ -507,7 +507,7 @@ ht-degree: 91%
       + {hide-from-toc}[공급업체 통합 시작](using/integrations/vendor-integration-gs.md)
       + {hide-from-toc}[사용 가능한 공급업체](using/integrations/vendor-integration.md)
       + {hide-from-toc}[FAQ](using/integrations/vendor-integration-faq.md)
-      + {hide-from-toc}[MCP를 통해 AI 도구로 작업 - 숨김](/help/using/integrations/ajo-mcp.md)
+      + {hide-from-toc}[MCP를 통해 AI 도구 작업](/help/using/integrations/ajo-mcp.md)
    + 콘텐츠 생성을 위한 AI 어시스턴트 {#ai-assistant}
       + [콘텐츠 생성을 위한 AI 어시스턴트](/help/rp_landing_pages/ai-assistant-landing-page.md)
       + [AI 어시스턴트 시작하기](using/content-management/gs-generative.md)

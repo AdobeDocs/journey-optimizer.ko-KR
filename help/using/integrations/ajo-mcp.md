@@ -9,9 +9,9 @@ badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
 hide: true
-source-git-commit: 9450ff7b477ef3ef6825eb2c2feec77ffaec389f
+source-git-commit: 541e7c8b9969188fc4a7d51187e3d0703a4303ec
 workflow-type: tm+mt
-source-wordcount: '1370'
+source-wordcount: '1330'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 1%
 >
 >Adobe Journey Optimizer MCP 서버(Beta)(&quot;Beta&quot;)를 사용하면 Beta이 어떠한 종류의 보증도 없이 **&quot;있는 그대로&quot; 제공된다는 것을 인정합니다**. Adobe은 Beta을 유지, 수정, 업데이트, 변경, 수정 또는 지원할 의무가 없습니다. 이러한 Beta 및/또는 동봉된 자료의 올바른 기능이나 성능에 어떤 식으로든 의존하지 말고 주의하는 것이 좋습니다. Beta은 Adobe의 기밀 정보로 간주됩니다. 귀하가 Adobe에 제공한 &quot;피드백&quot;(Beta 사용 중 발생하는 문제 또는 결함, 제안, 개선 사항 및 권장 사항을 포함하되 이에 제한되지 않는 Beta 관련 정보)은 해당 피드백에 대한 모든 권한, 제목 및 관심을 포함하여 Adobe에 할당됩니다.
 
-[!DNL Adobe Journey Optimizer] MCP 통합을 사용하면 API 호출을 작성하거나 제품 화면을 탐색하지 않고도 일반 언어 프롬프트를 사용하여 캠페인, 여정 및 오퍼를 쿼리할 수 있습니다. 이 페이지에서는 통합 작동 방식, 통합 기능으로 수행할 수 있는 작업 및 시작 방법을 설명합니다.
+[!DNL Adobe Journey Optimizer] MCP 통합을 사용하면 API 호출을 작성하거나 제품 화면을 탐색하지 않고도 일반 언어 프롬프트를 사용하여 캠페인 및 오퍼를 쿼리할 수 있습니다. 이 페이지에서는 통합 작동 방식, 통합 기능으로 수행할 수 있는 작업 및 시작 방법을 설명합니다.
 
 >[!AVAILABILITY]
 >
@@ -36,17 +36,17 @@ ht-degree: 1%
 
 마케팅 및 고객 경험 팀은 일상적인 업무를 간소화하기 위해 Anthropic Claude, OpenAI ChatGPT, Cursor, Microsoft Copilot Studio와 같은 채팅 기반 애플리케이션과 개발자 도구에 점점 더 의존하고 있습니다. 이러한 응용 프로그램은 응용 프로그램이 백엔드 도구를 대형 언어 모델(LLM)에 균일한 방식으로 노출할 수 있도록 해주는 개방형 표준인 **MCP(Model Context Protocol)**&#x200B;을 지원합니다.
 
-[!DNL Adobe Journey Optimizer]은(는) 이제 MCP 호환 응용 프로그램 내에서 직접 캠페인, 여정, 충성도 및 샌드박스 작업을 나타내는 MCP 서버를 제공합니다. [!DNL Adobe Journey Optimizer] MCP 통합을 통해 서로 다른 가상 사용자가 [!DNL Adobe Journey Optimizer] REST API에 대한 쿼리를 작성하거나 여러 UI 화면을 탐색하지 않고도 동일한 오케스트레이션 데이터를 공동 작업할 수 있습니다. 고객은 대화식으로 자신의 의도를 설명하고 LLM이 적절한 MCP 도구를 호출하도록 할 수 있다.
+[!DNL Adobe Journey Optimizer]은(는) 이제 MCP 호환 응용 프로그램 내에서 직접 캠페인, 충성도 및 샌드박스 작업을 나타내는 MCP 서버를 제공합니다. [!DNL Adobe Journey Optimizer] MCP 통합을 통해 서로 다른 가상 사용자가 [!DNL Adobe Journey Optimizer] REST API에 대한 쿼리를 작성하거나 여러 UI 화면을 탐색하지 않고도 동일한 오케스트레이션 데이터를 공동 작업할 수 있습니다. 고객은 대화식으로 자신의 의도를 설명하고 LLM이 적절한 MCP 도구를 호출하도록 할 수 있다.
 
 ## 주요 기능 {#mcp-capabilities}
 
-[!DNL Adobe Journey Optimizer] MCP 서버를 사용하면 AI 도우미에서 직접 여정, 캠페인 및 오퍼를 검사, 요약 및 해결할 수 있습니다. 모든 작업은 **읽기 전용**&#x200B;입니다. MCP 서버 표면이 API를 일반 언어 답변으로 검색하므로 다음을 수행할 수 있습니다.
+[!DNL Adobe Journey Optimizer] MCP 서버를 사용하면 AI 도우미에서 직접 캠페인 및 오퍼를 검사, 요약 및 해결할 수 있습니다. 모든 작업은 **읽기 전용**&#x200B;입니다. MCP 서버 표면이 API를 일반 언어 답변으로 검색하므로 다음을 수행할 수 있습니다.
 
 <!--* **Understand journey logic** — Get a human-readable summary of any journey's branching, conditions, and actions.-->
-* **즉각적인 캠페인 가시성 확보** — 일반 언어로 캠페인 상태, 여정 성능 또는 채널 구성에 대해 질문하고 메뉴를 탐색하거나 보고서를 수동으로 가져오지 않고 즉시 답변을 얻을 수 있습니다.
+* **즉각적인 캠페인 가시성 확보** - 메뉴를 탐색하거나 보고서를 수동으로 가져오지 않고 일반 언어로 캠페인 상태 및 채널 구성에 대해 질문하고 즉시 답변을 얻을 수 있습니다.
 * **문제를 조기에 발견** — 요청 시 표면 중단 캠페인, 분리된 초안 및 채널 구성 문제가 발생하여 팀이 신속하게 조치를 취할 수 있습니다.
 * **라이브 데이터를 중심으로 공동 작업** - 마케터, 캠페인 관리자 및 관련자는 모두 AI 도우미를 통해 동일한 라이브 [!DNL Adobe Journey Optimizer] 데이터를 쿼리할 수 있으므로 더 쉽게 정렬, 결정 및 이동할 수 있습니다.
-* **오케스트레이션 포트폴리오 감사** - JSON을 구문 분석하거나 제품 화면 사이를 이동하지 않고 캠페인 및 여정의 전체 상태를 검토합니다.
+* **오케스트레이션 포트폴리오 감사** - JSON을 구문 분석하거나 제품 화면 간에 이동하지 않고 캠페인의 전체 상태를 검토합니다.
 
 ## 사용 가능한 도구 {#mcp-tools}
 
@@ -56,7 +56,6 @@ ht-degree: 1%
 |---|---|
 | **캠페인 나열** | [!DNL Adobe Journey Optimizer] 마케팅 캠페인을 찾아봅니다. 상태(초안, 라이브, 중단됨, 완료됨)별로 필터링을 지원합니다. |
 | **캠페인 가져오기** | 대상 타기팅, 일정, 채널 및 콘텐츠 설정을 포함하여 ID별로 특정 캠페인에 대한 전체 세부 정보 및 구성을 가져옵니다. |
-| **목록 여정** | 초안, 라이브, 마감됨 또는 완료됨 상태별로 선택적으로 필터링하여 [!DNL Adobe Journey Optimizer] 고객 여정(자동화된 워크플로)을 봅니다. |
 | **채널 구성 나열** | 이메일, SMS, 푸시 또는 WhatsApp 채널에 대한 표면 사전 설정 및 브랜딩 설정을 봅니다. |
 
 >[!NOTE]
@@ -75,7 +74,6 @@ ht-degree: 1%
 | **대상 및 타깃팅** | &quot;캠페인 [ID]에서 타깃팅된 대상은 무엇입니까?&quot; / &quot;캠페인 [ID]에 설정된 자격 규칙은 무엇입니까?&quot; |
 | **일정 및 시간** | &quot;[ID] 캠페인은 언제 실행되도록 예약됩니까?&quot; / &quot;[ID] 캠페인이 일회성 전송입니까, 반복 전송입니까?&quot; |
 | **문제 해결** | &quot;캠페인 [ID]을(를) 보내지 않는 이유는 무엇입니까?&quot; / &quot;문제에 대한 [ID] 캠페인 설정을 검토하십시오.&quot; |
-| **여정 인벤토리** | &quot;모든 라이브 여정 나열&quot; / &quot;초안 상태의 여정 표시&quot; |
 | **채널 구성** | &quot;내 샌드박스에서 사용할 수 있는 채널 사전 설정은 무엇입니까?&quot; / &quot;내 이메일 채널 구성을 모두 표시합니다.&quot; |
 | **채널 감사** | &quot;누락되었거나 불완전한 채널 구성은 무엇입니까?&quot; / &quot;모든 채널에서 몇 개의 채널 구성을 사용할 수 있습니까?&quot; |
 
@@ -85,7 +83,7 @@ ht-degree: 1%
 
 * 활성 [!DNL Adobe Journey Optimizer] 라이선스가 있습니다.
 * 지원되는 MCP 호환 애플리케이션(현재 클라우드 웹 또는 클라우드 데스크탑)에 액세스할 수 있습니다.
-* [!DNL Adobe Journey Optimizer]에서 캠페인, 여정 및 오퍼를 볼 수 있는 권한이 있습니다.
+* [!DNL Adobe Journey Optimizer]에서 캠페인과 오퍼를 볼 수 있는 권한이 있습니다.
 
 ## [!DNL Adobe Journey Optimizer] MCP 서버 연결 {#mcp-connect}
 
@@ -126,7 +124,7 @@ Step-by-step connection instructions to be added here, including:
 
 +++MCP를 통해 액세스할 수 있는 [!DNL Adobe Journey Optimizer] 개체는 무엇입니까?
 
-캠페인, 여정, 오퍼, 충성도 데이터 및 샌드박스 정보에 액세스할 수 있습니다. 작업은 읽기 전용(API 검색)이며 쓰기 작업은 현재 릴리스에서 지원되지 않습니다.
+캠페인, 오퍼, 충성도 데이터 및 샌드박스 정보에 액세스할 수 있습니다. 작업은 읽기 전용(API 검색)이며 쓰기 작업은 현재 릴리스에서 지원되지 않습니다.
 +++
 
 +++[!DNL Adobe Journey Optimizer] MCP 서버를 사용하려면 개발자 액세스 권한이 필요합니까?
@@ -141,7 +139,7 @@ Step-by-step connection instructions to be added here, including:
 
 +++[!DNL Adobe Journey Optimizer]에서 어떤 권한이 필요합니까?
 
-쿼리할 개체(캠페인, 여정 또는 오퍼)에 대해 최소 **보기** 권한이 필요합니다. MCP 서버는 읽기 작업만 수행하므로 쓰기 권한이 필요하지 않습니다. 현재 액세스 수준을 잘 모를 경우 [!DNL Adobe Journey Optimizer] 관리자에게 문의하십시오.
+쿼리할 개체(캠페인 또는 오퍼)에 대해 최소 **보기** 권한이 필요합니다. MCP 서버는 읽기 작업만 수행하므로 쓰기 권한이 필요하지 않습니다. 현재 액세스 수준을 잘 모를 경우 [!DNL Adobe Journey Optimizer] 관리자에게 문의하십시오.
 +++
 
 +++샌드박스 환경에서 MCP 서버를 사용할 수 있습니까?
