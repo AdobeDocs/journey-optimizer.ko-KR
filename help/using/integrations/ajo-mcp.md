@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: MCP 클라이언트 작업
+title: MCP 클라이언트(Beta) 작업
 description: MCP 서버를 사용하여 Adobe Journey Optimizer을 MCP 클라이언트에 연결하는 방법에 대해 알아봅니다
 feature: Integrations
 topic: Content Management, Artificial Intelligence
@@ -9,14 +9,22 @@ badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
 hide: true
-source-git-commit: d4d746cdab0f30a09d04855768912927007bc12b
+source-git-commit: 5727d4596749099152bf0757d23a0fa1259fbfd8
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '1370'
 ht-degree: 1%
 
 ---
 
-# MCP 클라이언트 작업 {#ajo-mcp}
+# MCP 클라이언트(Beta) 작업 {#ajo-mcp}
+
+>[!CAUTION]
+>
+>**Beta 설명서 알림:** 이 설명서는 Beta 기능을 다루고 있으며 최종 설명서를 구성하지 않습니다. 여기에 설명된 콘텐츠는 Beta 릴리스와 관련되며, 일반 공급 이전에 변경될 수 있습니다. Adobe은 이 설명서의 완벽성이나 정확성에 대해 어떠한 표현도 하지 않습니다.
+>
+>© Inc. All rights reserved. Adobe, Adobe 로고 및 Adobe Journey Optimizer은 미국 및/또는 기타 국가에서 Adobe의 등록 상표 또는 상표입니다.
+>
+>Adobe Journey Optimizer MCP 서버(Beta)(&quot;Beta&quot;)를 사용하면 Beta이 어떠한 종류의 보증도 없이 **&quot;있는 그대로&quot; 제공된다는 것을 인정합니다**. Adobe은 Beta을 유지, 수정, 업데이트, 변경, 수정 또는 지원할 의무가 없습니다. 이러한 Beta 및/또는 동봉된 자료의 올바른 기능이나 성능에 어떤 식으로든 의존하지 말고 주의하는 것이 좋습니다. Beta은 Adobe의 기밀 정보로 간주됩니다. 귀하가 Adobe에 제공한 &quot;피드백&quot;(Beta 사용 중 발생하는 문제 또는 결함, 제안, 개선 사항 및 권장 사항을 포함하되 이에 제한되지 않는 Beta 관련 정보)은 해당 피드백에 대한 모든 권한, 제목 및 관심을 포함하여 Adobe에 할당됩니다.
 
 >[!AVAILABILITY]
 >
@@ -34,10 +42,26 @@ ht-degree: 1%
 
 [!DNL Adobe Journey Optimizer] MCP 서버를 사용하면 AI 도우미에서 직접 여정, 캠페인 및 오퍼를 검사, 요약 및 해결할 수 있습니다. 모든 작업은 **읽기 전용**&#x200B;입니다. MCP 서버 표면이 API를 일반 언어 답변으로 검색하므로 다음을 수행할 수 있습니다.
 
-* **여정 논리 이해** - 사람이 인식할 수 있는 여정 분기, 조건 및 작업에 대한 요약을 가져옵니다.
-* **캠페인 준비 확인** - 캠페인이 게시되지 않도록 하는 차단기를 식별합니다.
-* **범위 간격 확인** — 라이브 여정 및 캠페인에 적용되는 채널과 간격이 있는 위치를 확인합니다.
+<!--* **Understand journey logic** — Get a human-readable summary of any journey's branching, conditions, and actions.-->
+* **즉각적인 캠페인 가시성 확보** — 일반 언어로 캠페인 상태, 여정 성능 또는 채널 구성에 대해 질문하고 메뉴를 탐색하거나 보고서를 수동으로 가져오지 않고 즉시 답변을 얻을 수 있습니다.
+* **문제를 조기에 발견** — 요청 시 표면 중단 캠페인, 분리된 초안 및 채널 구성 문제가 발생하여 팀이 신속하게 조치를 취할 수 있습니다.
+* **라이브 데이터를 중심으로 공동 작업** - 마케터, 캠페인 관리자 및 관련자는 모두 AI 도우미를 통해 동일한 라이브 [!DNL Adobe Journey Optimizer] 데이터를 쿼리할 수 있으므로 더 쉽게 정렬, 결정 및 이동할 수 있습니다.
 * **오케스트레이션 포트폴리오 감사** - JSON을 구문 분석하거나 제품 화면 사이를 이동하지 않고 캠페인 및 여정의 전체 상태를 검토합니다.
+
+## 사용 가능한 도구 {#mcp-tools}
+
+[!DNL Adobe Journey Optimizer] MCP 서버에서 다음 도구를 노출합니다.
+
+| 도구 | 설명 |
+|---|---|
+| **캠페인 나열** | [!DNL Adobe Journey Optimizer] 마케팅 캠페인을 찾아봅니다. 상태(초안, 라이브, 중단됨, 완료됨)별로 필터링을 지원합니다. |
+| **캠페인 가져오기** | 대상 타기팅, 일정, 채널 및 콘텐츠 설정을 포함하여 ID별로 특정 캠페인에 대한 전체 세부 정보 및 구성을 가져옵니다. |
+| **목록 여정** | 초안, 라이브, 마감됨 또는 완료됨 상태별로 선택적으로 필터링하여 [!DNL Adobe Journey Optimizer] 고객 여정(자동화된 워크플로)을 봅니다. |
+| **채널 구성 나열** | 이메일, SMS, 푸시 또는 WhatsApp 채널에 대한 표면 사전 설정 및 브랜딩 설정을 봅니다. |
+
+>[!NOTE]
+>
+>모든 도구는 읽기 전용입니다. 현재 Beta 릴리스에서는 쓰기 작업(개체 만들기, 업데이트 또는 삭제)이 지원되지 않습니다.
 
 ## 사용 사례 {#mcp-use-cases}
 
@@ -45,12 +69,15 @@ ht-degree: 1%
 
 | 목표 | 예제 프롬프트 |
 |---|---|
-| **캠페인 세부 정보 요약** | &quot;캠페인 cmp456을 가져오고 대상, 일정, 상태 및 패키지를 요약합니다.&quot; |
-| **인벤토리 및 상태 감사** | &quot;우리는 무엇을 가지고 있으며, 어떤 상태에 있습니까? 캠페인에 대한 실시간 및 초안, 완료/중지/보관된 수를 보여줍니다.&quot; |
-| **게시 준비 확인** | &quot;campaign cmp456을 게시할 준비가 되지 않은 이유는 무엇입니까? 차단기를 보여 주세요.&quot; |
-| **개체 비교** | &quot;캠페인 abc123과 xyz789 비교 — 상태 및 일정에서 변경된 사항?&quot; |
-| **포트폴리오 감사** | &quot;모든 라이브 여정 및 캠페인에서 어떤 채널이 적용되며 그 차이는 어디에 있습니까?&quot; |
-| **채널 범위 및 혼합** | &quot;여정, 캠페인 및 오퍼 배치(이메일 전용 및 다중 채널, 푸시/SMS/인앱 사용, 여정 채널 간 불일치)에서 채널 풋프린트를 표시합니다.&quot; |
+| **캠페인 개요** | &quot;모든 AJO 캠페인 표시&quot; / &quot;AJO에 설정된 캠페인은 몇 개입니까?&quot; |
+| **상태 감사** | &quot;현재 어떤 캠페인이 라이브됩니까?&quot; / &quot;일시 중지되거나 중지된 캠페인을 나열합니다.&quot; |
+| **캠페인 세부 정보** | &quot;캠페인 [ID]&quot;에 대한 전체 세부 정보 가져오기 / &quot;캠페인 [ID]에 설정된 모든 항목을 소개합니다.&quot; |
+| **대상 및 타깃팅** | &quot;캠페인 [ID]에서 타깃팅된 대상은 무엇입니까?&quot; / &quot;캠페인 [ID]에 설정된 자격 규칙은 무엇입니까?&quot; |
+| **일정 및 시간** | &quot;[ID] 캠페인은 언제 실행되도록 예약됩니까?&quot; / &quot;[ID] 캠페인이 일회성 전송입니까, 반복 전송입니까?&quot; |
+| **문제 해결** | &quot;캠페인 [ID]을(를) 보내지 않는 이유는 무엇입니까?&quot; / &quot;문제에 대한 [ID] 캠페인 설정을 검토하십시오.&quot; |
+| **여정 인벤토리** | &quot;모든 라이브 여정 나열&quot; / &quot;초안 상태의 여정 표시&quot; |
+| **채널 구성** | &quot;내 샌드박스에서 사용할 수 있는 채널 사전 설정은 무엇입니까?&quot; / &quot;내 이메일 채널 구성을 모두 표시합니다.&quot; |
+| **채널 감사** | &quot;누락되었거나 불완전한 채널 구성은 무엇입니까?&quot; / &quot;모든 채널에서 몇 개의 채널 구성을 사용할 수 있습니까?&quot; |
 
 ## 전제 조건 {#mcp-prerequisites}
 
@@ -78,6 +105,17 @@ Step-by-step connection instructions to be added here, including:
 - How to configure the MCP server in Claude Desktop / Claude Web
 - How to authenticate
 -->
+
+## 알려진 제한 사항(Beta) {#mcp-limitations}
+
+다음 제한 사항은 [!DNL Adobe Journey Optimizer] MCP 서버의 현재 Beta 릴리스에 적용됩니다.
+
+| 제한 사항 | 설명 | 해결 방법 |
+|---|---|---|
+| **참여 또는 성능 지표 없음** | MCP 서버는 보고 데이터를 노출하지 않습니다. 도구는 노출 횟수, 클릭스루 비율, 전환 또는 게재 통계를 반환하지 않습니다. | 지표에 AJO Reporting UI, CJA MCP 또는 Adobe Analytics MCP를 사용합니다. AEP 쿼리 서비스는 캠페인 실행 ID를 사용하여 원시 이벤트 데이터를 쿼리할 수 있습니다. |
+| **캠페인 목록 페이지 매김이 제한됨** | `List Campaigns`은(는) 항상 결과의 첫 페이지를 반환합니다(최대 50개의 캠페인을 사전순으로 정렬). 오프셋 및 제한 값이 적용되지 않으므로 대형 샌드박스에서 전체 열거를 사용할 수 없습니다. | 캠페인 ID 또는 이름이 알려진 경우 `Get Campaign`을(를) 직접 사용하십시오. 전체 목록을 탐색 및 필터링하려면 AJO UI를 사용하십시오. |
+| **날짜, 채널 또는 일정별 서버측 필터링 없음** | `List Campaigns`은(는) 상태별 필터링만 지원합니다. 게시 날짜, 예약 날짜, 채널 또는 캠페인 유형별 필터링은 서버측에서 사용할 수 없습니다. | 기본 날짜 및 채널 필터링을 지원하는 AJO UI 캠페인 목록을 사용합니다. |
+| **메시지 콘텐츠 검색을 사용할 수 없음** | 메시지 콘텐츠 도구는 모든 채널 유형(이메일, 코드 기반 등)에 대해 HTTP 502를 반환합니다. 메시지 HTML, 제목 줄, 개인화 토큰 및 오퍼 콘텐츠는 MCP를 통해 검색할 수 없습니다. | **캠페인 > [캠페인] > 컨텐츠** 아래의 AJO UI에서 직접 메시지 컨텐츠 및 개인화 토큰을 봅니다. |
 
 ## 자주 묻는 질문 {#mcp-faq}
 
@@ -110,5 +148,3 @@ Step-by-step connection instructions to be added here, including:
 
 예. MCP 서버는 [!DNL Adobe Journey Optimizer] 샌드박스 구성을 준수합니다. 프롬프트에서 샌드박스를 지정하거나 특정 샌드박스에 지정된 자격 증명으로 연결하여 샌드박스 특정 데이터를 쿼리할 수 있습니다.
 +++
-
-끝
