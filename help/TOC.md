@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d4d746cdab0f30a09d04855768912927007bc12b
+source-git-commit: 2f15ec4954bc93e2273788c5dcd54b2a89ab8299
 workflow-type: tm+mt
 source-wordcount: '3206'
 ht-degree: 91%
@@ -507,7 +507,7 @@ ht-degree: 91%
       + {hide-from-toc}[공급업체 통합 시작](using/integrations/vendor-integration-gs.md)
       + {hide-from-toc}[사용 가능한 공급업체](using/integrations/vendor-integration.md)
       + {hide-from-toc}[FAQ](using/integrations/vendor-integration-faq.md)
-      + {hide-from-toc}[MCP를 통해 AI 도우미와 작업 - 숨김](/help/using/integrations/ajo-mcp.md)
+      + {hide-from-toc}[MCP를 통해 AI 도구로 작업 - 숨김](/help/using/integrations/ajo-mcp.md)
    + 콘텐츠 생성을 위한 AI 어시스턴트 {#ai-assistant}
       + [콘텐츠 생성을 위한 AI 어시스턴트](/help/rp_landing_pages/ai-assistant-landing-page.md)
       + [AI 어시스턴트 시작하기](using/content-management/gs-generative.md)
