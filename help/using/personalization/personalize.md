@@ -9,9 +9,9 @@ role: Developer
 level: Beginner
 keywords: 표현식, 편집기, 시작, 개인화
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: de51f967cfcdd5934d79148e9c4dc933c12808a8
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '576'
 ht-degree: 22%
 
 ---
@@ -49,11 +49,11 @@ Personalization은 Adobe Experience Platform에 정의된 **XDM 개인 프로필
 
 ![개인화 플레이그라운드](assets/playground.png)
 
-➡️ [개인화 플레이그라운드에 액세스](https://experienceleague.adobe.com/ko/apps/journey-optimizer/ajo-personalization){target="_blank"}
+➡️ [개인화 플레이그라운드에 액세스](https://experienceleague.adobe.com/en/apps/journey-optimizer/ajo-personalization){target="_blank"}
 
-## 개인화 편집기의 AI 도우미 {#ai-personalization-expressions}
+## 개인화 표현식을 위한 AI 지원 {#ai-personalization-expressions}
 
-**[!UICONTROL Personalization Editor]**&#x200B;에서 **[!UICONTROL AI Assistant]**&#x200B;는 자연어에서 새 표현식을 생성하고, 기존 코드가 수행하는 작업을 설명하고, 선택 항목의 문제를 해결한 다음, 출력이 사용자의 의도와 일치할 때 출력을 적용하는 데 도움이 됩니다.
+**[!UICONTROL Personalization 편집기]** 또는 전자 메일 Designer 도구 모음(**[!UICONTROL 식 추가]**)에서 **[!UICONTROL AI 도우미]**&#x200B;를 사용하면 자연어에서 새 식을 생성하고, 기존 코드가 수행하는 작업을 설명하고, 선택 항목의 문제를 해결한 다음 출력이 사용자의 의도와 일치할 때 출력을 적용할 수 있습니다.
 
 ![](../content-management/assets/ai-perso-generate.png)
 
@@ -103,14 +103,14 @@ Personalization은 Adobe Experience Platform에 정의된 **XDM 개인 프로필
 
 여정에서 얻은 컨텍스트 기반 이벤트 정보를 사용하여 메시지를 개인화하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448143?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
 메시지에 프로필 기반 개인 맞춤화를 추가하는 방법과 개인 맞춤화 블록의 전제 조건으로 대상자 멤버십을 사용하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416272?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)
 
 개인화 편집기 플레이그라운드를 활용하여 샘플 데이터를 사용하여 개인화 코드를 작성하고 테스트하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475959?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3457868?quality=12)
 
 [Personalization 자습서](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/personalize-content/personalization-editor-overview){target="_blank"}에서 개인화 기능 및 모범 사례에 대한 비디오 튜토리얼을 더 살펴보십시오
