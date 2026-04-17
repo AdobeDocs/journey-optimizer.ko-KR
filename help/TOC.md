@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a5a7b756bb2e398e88feb3bc65d9a0e1a163c4ed
+source-git-commit: dce9c31a7d7dea53928b9eefaf46b446cce2a874
 workflow-type: tm+mt
 source-wordcount: '3205'
 ht-degree: 91%
@@ -288,7 +288,7 @@ ht-degree: 91%
             + [시각적 조각 활용](using/email/use-visual-fragments.md)
             + [링크 추가 및 메시지 추적](using/email/message-tracking.md)
             + [개인화된 오퍼 삽입](using/email/add-offers-email.md)
-            + {hide-from-toc}[AI 받은 편지함에 대한 전자 메일 최적화](using/email/llm-email-optimizer.md)
+            + [AI 받은 편지함에 대한 이메일 최적화](using/email/llm-email-optimizer.md)
             + [텍스트 버전 관리](using/email/text-version-email.md)
             + [메타데이터 추가](using/email/email-metadata.md)
             + [고급 HTML 편집기로 편집](using/email/email-expert-mode.md)
@@ -360,7 +360,7 @@ ht-degree: 91%
          + [웹 채널 전제 조건](using/web/web-prerequisites.md)
          + [웹 하위 도메인 구성](using/web/web-delegated-subdomains.md)
          + [웹 채널 구성 만들기](using/web/web-configuration.md)
-      + [웹 경험 만들기 &#x200B;](using/web/create-web.md)
+      + [웹 경험 만들기 ](using/web/create-web.md)
       + 웹 페이지 작성 {#author-web-pages}
          + [웹 페이지 작성](/help/rp_landing_pages/author-web-pages-landing-page.md)
          + [웹 디자이너를 사용하여 작업](using/web/web-visual-editor.md)
@@ -420,7 +420,7 @@ ht-degree: 91%
          + [Journey Optimizer에서 라이브 활동 구성](using/mobile-live/mobile-live-configuration.md)
          + [라이브 활동 SDK 통합 구성](using/mobile-live/mobile-live-configuration-sdk.md)
 + 콘텐츠 관리 {#content-management}
-   + [콘텐츠 관리 &#x200B;](/help/rp_landing_pages/content-management-landing-page.md)
+   + [콘텐츠 관리 ](/help/rp_landing_pages/content-management-landing-page.md)
    + 개인화 {#personalization}
       + [개인화](/help/rp_landing_pages/personalization-landing-page.md)
       + [개인화 시작](using/personalization/personalize.md)
