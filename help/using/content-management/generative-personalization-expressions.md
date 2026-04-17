@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Personalization 표현식을 위한 AI 지원
-description: Journey Optimizer에서 AI Assistant를 사용하여 Personalization 편집기 또는 이메일 Designer 도구 모음에서 자연어로 개인화 표현식을 생성하는 방법을 알아봅니다.
+description: Journey Optimizer에서 AI Assistant를 사용하여 Personalization 편집기의 자연어에서 개인화 표현식을 생성하는 방법과 이메일 Designer에서 표현식 추가 컨트롤이 작동하는 방법에 대해 알아봅니다.
 feature: Content Assistant
 topic: Content Management, Artificial Intelligence
 role: User
 level: Intermediate
 mini-toc-levels: 1
-source-git-commit: 36d6158d7983f51d1480cc3c8c769159b4c528f2
+source-git-commit: a71456af0d414ba435e307f29dd6dd70ba2737a8
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '1064'
 ht-degree: 2%
 
 ---
@@ -28,8 +28,8 @@ ht-degree: 2%
 
 [!UICONTROL AI Assistant]를 사용하면 일반 언어로 새로운 개인화를 생성하고, 기존 표현식이 수행하는 작업을 설명하고, 선택한 코드의 문제를 수정하여 구문 및 수동 필드 검색에 드는 시간을 줄일 수 있습니다. 선택 내용을 반복하거나 대화의 다른 변경 사항을 요청할 수도 있습니다. 다음 두 가지 방법으로 사용할 수 있습니다.
 
-* **[!UICONTROL Personalization 편집기]** — 편집기를 사용할 수 있는 모든 위치(제목 줄, 본문 및 해당 편집기를 여는 기타 필드)입니다. 편집기를 여는 위치 및 방법은 [개인화 추가](../personalization/personalization-build-expressions.md#where)를 참조하십시오.
-* **이메일 Designer** — 구성 요소를 선택한 경우 상황별 도구 모음에서 **[!UICONTROL 식 추가]**&#x200B;를 사용하여 도구 상자에서 도우미를 엽니다. [전자 메일 Designer에서 생성](#generate-email-designer)을 참조하세요.
+* **[!UICONTROL Personalization 편집기]** — 여러 채널(제목 줄, 본문 및 이를 여는 기타 필드)에서 편집기를 사용할 수 있는 모든 위치. 다음은 AI 지원 개인화의 일반적인 경로입니다. 편집기를 여는 위치 및 방법은 [개인화 추가](../personalization/personalization-build-expressions.md#where)를 참조하십시오.
+* **전자 메일 Designer 도구 모음** — 전자 메일 Designer에서 전자 메일을 작성할 때 구성 요소를 선택하고 상황별 도구 모음에서 **[!UICONTROL 식 추가]**&#x200B;를 사용하여 전체 편집기를 먼저 열지 않고 도구 상자에서 도우미를 엽니다. 이 진입점은 이메일 작성 외부에서는 사용할 수 없습니다. [전자 메일 Designer에서 생성](#generate-email-designer)을 참조하세요.
 
 더 광범위한 AI Assistant 설정 및 언어에 대해서는 [AI Assistant 시작](gs-generative.md)을 참조하십시오. 개인화 개념에 대해서는 [개인화 시작](../personalization/personalize.md)을 참조하십시오. 프롬프트 아이디어는 [AI 프롬프트 모범 사례](ai-assistant-prompting-guide.md)를 참조하십시오.
 
@@ -63,9 +63,9 @@ ht-degree: 2%
 
    ![](assets/ai-perso-question.png)
 
-1. 표현식을 생성한 후 **[!UICONTROL 샘플 프로필에 대한 미리 보기 표시]**&#x200B;를 클릭하여 표현식이 샘플 데이터로 평가되는 방식을 확인하고 연결된 페이로드를 JSON으로 확인합니다. 이 검사를 위해 도우미는 제한된 합성 샘플 프로필 집합을 생성합니다. 이러한 프로필은 조직에 저장되거나 저장되지 않습니다.
+1. 표현식을 생성한 후 **[!UICONTROL 샘플 프로필에 대한 미리 보기 표시]**&#x200B;를 클릭하여 **one** 합성 샘플 프로필에 대해 표현식이 평가되는 방식을 확인하고 관련 페이로드를 JSON으로 확인합니다. 미리 보기는 **단일** 별색 검사이므로 코드가 예상대로 확인될 수 있습니다. 여러 수신자, 다양한 데이터 또는 전체 범위를 **시뮬레이트하지 않습니다**. 샘플 데이터는 조직에 저장되거나 저장되지 않습니다.
 
-   사용자 지정 또는 추가 샘플 프로필이 필요한 경우 도우미와 토론에서 필요한 내용을 설명하고 확인에 적합한 미리 보기 프로필을 생성할 수 있도록 **미리 보기** 키워드를 프롬프트에 포함하십시오.
+   샘플을 조정해야 하는 경우(예: 강조된 다른 특성), 도우미를 사용한 토론에서 필요한 사항을 설명하고 프롬프트에 **미리 보기** 키워드를 포함하십시오.
 
    ![](assets/ai-perso-preview-button.png)
 
@@ -75,7 +75,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >추가 미리보기는 얼룩 검사를 위한 것입니다. 보조자는 약 1~5개의 프로필을 생성하도록 조정되며, 매우 큰 숫자를 요청하면 요청이 실패할 수 있습니다.
+   >여기에서는 여러 개의 미리 보기 행 또는 완벽한 시나리오를 예상하지 마십시오. 컨트롤은 많은 프로필에서 부분 범위가 아니라 빠른 코드 검사를 위해 **one** 샘플 평가로 의도적으로 제한됩니다. 비현실적으로 큰 미리보기 세트를 요청하면 요청이 실패할 수 있습니다.
 
    +++
 
@@ -109,6 +109,10 @@ ht-degree: 2%
 
 ## 이메일 Designer 도구 모음에서 생성 {#generate-email-designer}
 
+>[!NOTE]
+>
+>이 섹션은 전자 메일 Designer에서 **전자 메일** 콘텐츠를 편집하는 경우에만 적용됩니다. 다른 채널의 경우 **[!UICONTROL Personalization 편집기]**&#x200B;를 사용하십시오.
+
 이메일 Designer에서 먼저 전체 [!UICONTROL Personalization 편집기]를 열지 않고도 상황별 도구 모음에서 개인화 표현식에 [!UICONTROL AI Assistant]를 사용할 수 있습니다.
 
 1. 이메일 Designer에서 개인화할 구성 요소를 선택하고 표현식을 삽입할 위치를 클릭합니다.
@@ -125,7 +129,7 @@ ht-degree: 2%
 
    다음과 같은 작업을 수행할 수 있습니다.
 
-   * 샘플 값으로 식 출력의 유효성을 검사합니다. **[!UICONTROL 미리 보기]** 탭을 사용하십시오.
+   * 샘플 값 하나로 식 출력의 유효성을 검사합니다. **[!UICONTROL 미리 보기]** 탭을 사용하십시오.
    * 같은 프롬프트에서 다른 제안을 생성합니다. **[!UICONTROL 다시 생성]**&#x200B;을 사용하십시오.
    * 토론을 지우고 다시 시작하십시오. **[!UICONTROL 다시 설정]**&#x200B;을 사용하십시오.
    * 전체 편집기에서 식을 다듬어 ![편집 아이콘](assets/do-not-localize/Smock_Edit_18_N.svg "편집") 아이콘을 클릭하여 **[!UICONTROL Personalization 편집기]**&#x200B;를 엽니다.
