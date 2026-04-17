@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6c4fe0f03508068d7078d23d525f11a14ed73260
+source-git-commit: 36d6158d7983f51d1480cc3c8c769159b4c528f2
 workflow-type: tm+mt
-source-wordcount: '2510'
-ht-degree: 22%
+source-wordcount: '2490'
+ht-degree: 23%
 
 ---
 
@@ -139,7 +139,7 @@ ht-degree: 22%
 
 #### 이메일 디자인
 
-* **이메일 Designer의 개인화 표현식에 대한 AI 도우미** - 이제 개인화 표현식에 대한 AI 도우미를 이메일 Designer의 인라인 편집 경험에서도 바로 사용할 수 있습니다. 텍스트 구성 요소를 편집할 때 인라인 편집 팝오버에서 **AI를 사용하여 생성**&#x200B;을 클릭하여 필요한 개인화를 일반 언어로 설명하고 생성된 표현식을 검토한 다음 이메일 Designer을 종료하지 않고 삽입합니다. [자세히 알아보기](../content-management/generative-personalization-expressions.md#generate-email-designer)
+* **이메일 Designer의 개인화 표현식에 대한 AI 도우미** - 이메일 Designer에서 구성 요소를 선택하고 상황별 도구 모음의 **표현식 추가**&#x200B;를 사용하여 필요한 개인화를 일반 언어로 설명하고 생성된 표현식을 검토한 다음 디자이너를 떠나지 않고 삽입합니다. [자세히 알아보기](../content-management/generative-personalization-expressions.md#generate-email-designer)
 
   가용성 일자: 2026년 4월 15일 목요일
 
