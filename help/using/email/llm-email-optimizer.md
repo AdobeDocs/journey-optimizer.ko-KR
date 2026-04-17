@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 0c2f95ce-28a0-480c-9829-b7e4975b6340
 hide: true
-source-git-commit: 93e19a78dc942f8897b306f4549e971542f01c3a
+source-git-commit: a807b2ccd56678ce5ef0da6f8bdf5471c9dbca16
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1090'
 ht-degree: 1%
 
 ---
@@ -18,11 +18,13 @@ ht-degree: 1%
 
 [!DNL Adobe Journey Optimizer]에는 개선된 AI 지원 받은 편지함 환경(예: [!DNL Apple Intelligence]의 [!DNL Google Gemini] 및 [!DNL Gmail])을 위해 특정 버전의 메시지를 구성하는 데 도움이 되는 이메일 채널 기능이 포함되어 있으므로 질문에 답변하고 콘텐츠를 기반으로 메일을 보다 정확하게 요약하여 더 나은 결과를 얻을 수 있습니다.
 
-이 기능을 사용하면 자동 생성된 텍스트나 관련 없는 컨텍스트가 아닌 AI 지원 받은 편지함 경험에서 오퍼, 작업 호출 및 의도한 세부 정보를 표시할 수 있도록 전용 텍스트 버전의 메시지를 생성하고 개선할 수 있습니다.
+이 기능을 사용하면 얇은 자동 생성 텍스트나 관련 없는 컨텍스트가 아닌 AI 지원 받은 편지함 경험에서 오퍼, 작업 호출 및 의도한 세부 정보를 표시할 수 있도록 전용 메시지 버전을 생성하고 개선할 수 있습니다.
 
+<!--
 >[!NOTE]
 >
->AI 받은 편지함 텍스트 버전에 최적화된 이 버전은 메시지의 기본 또는 사용자 지정 일반 텍스트 버전과 동일하지 않습니다. [자세히 알아보기](text-version-email.md)
+>This optimized for AI inboxes text version is not the same as the default or custom plain text version of your messages. [Learn more](text-version-email.md)
+-->
 
 ## 작동 방식 {#how-it-works}
 
