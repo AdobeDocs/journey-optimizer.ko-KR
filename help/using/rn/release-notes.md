@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 36d6158d7983f51d1480cc3c8c769159b4c528f2
+source-git-commit: a807b2ccd56678ce5ef0da6f8bdf5471c9dbca16
 workflow-type: tm+mt
-source-wordcount: '2490'
-ht-degree: 23%
+source-wordcount: '2568'
+ht-degree: 22%
 
 ---
 
@@ -30,6 +30,25 @@ ht-degree: 23%
 ## 2026년 4월 업데이트 {#april-26-rn}
 
 ### 새로운 기능 {#april-26-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>AI 받은 편지함에 대한 이메일 최적화</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 Adobe Journey Optimizer에는 Gmail의 Apple Intelligence 및 Google Gemini와 같은 AI 기반 받은 편지함에 대해 이메일이 최적으로 구성되도록 하는 새로운 기능이 포함됩니다.</p>
+<p>AI 어시스턴트가 수신자가 이메일을 읽고 행동하는 방법을 점점 더 제어하므로 이 기능은 요약, 분류, 우선 순위 지정 및 의도 추출을 비롯한 다운스트림 AI 작업에서 잘 수행되는 콘텐츠를 작성하는 데 도움이 됩니다.</p>
+<p><img src="assets/do-not-localize/optimize-for-ai.gif"></p>
+<p>자세한 내용은 <a href="../email/llm-email-optimizer.md">AI 받은 편지함에 대한 전자 메일 텍스트 최적화</a>를 참조하세요.</p>
+<p>가용성 일자: 2026년 4월 17일 토요일</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
