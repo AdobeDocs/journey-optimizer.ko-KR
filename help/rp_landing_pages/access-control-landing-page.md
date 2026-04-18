@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 액세스 제어를 통해 관리자는 조직의 요
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 액세스 제어 시작
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer에서 사용자 액세스 및 권한을 제어하기 위
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 권한 수준
 

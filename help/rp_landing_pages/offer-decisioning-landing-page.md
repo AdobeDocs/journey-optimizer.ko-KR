@@ -55,7 +55,7 @@ Adobe Journey Optimizer의 의사 결정 관리를 통해 적절한 대상자에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 오퍼 만들기 및 관리
 

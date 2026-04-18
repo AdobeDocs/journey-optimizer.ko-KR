@@ -45,7 +45,7 @@ Adobe Journey Optimizer의 오퍼 구성
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 오퍼 컬렉션을 만들고 관리하는 방법
 

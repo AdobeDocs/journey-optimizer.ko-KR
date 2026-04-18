@@ -60,7 +60,7 @@ Adobe 솔루션으로 보내기
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 Adobe Journey Optimizer의 샌드박스 관리
 

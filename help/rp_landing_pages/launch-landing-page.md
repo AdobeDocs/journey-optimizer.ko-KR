@@ -20,7 +20,7 @@ Adobe Journey Optimizer에서 첫 번째 오케스트레이션된 캠페인을 �
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 오케스트레이션된 캠페인 만들기에 대한 단계별 안내서
 

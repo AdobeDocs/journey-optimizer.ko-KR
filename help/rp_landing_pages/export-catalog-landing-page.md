@@ -45,7 +45,7 @@ Adobe Journey Optimizer에서 오퍼 카탈로그를 내보내는 것은 Adobe E
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 개인화된 오퍼 데이터 세트 참조
 
@@ -55,7 +55,7 @@ Adobe Journey Optimizer에서 오퍼 카탈로그를 내보내는 것은 Adobe E
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 의사 결정 데이터 세트 개요
 
