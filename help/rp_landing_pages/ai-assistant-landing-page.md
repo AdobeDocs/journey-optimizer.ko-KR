@@ -50,7 +50,7 @@ AI 어시스턴트를 사용하여 이메일, SMS, 푸시 알림, 웹 페이지 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=ko)
 
 이미지만 생성
 

@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 데이터 조작 및 개인화에 도우미 함수
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 산술 함수 라이브러리
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer에서 데이터 조작 및 개인화에 도우미 함수
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 배열 및 목록 함수 참조
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer에서 데이터 조작 및 개인화에 도우미 함수
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 부울 및 비교 함수 라이브러리
 

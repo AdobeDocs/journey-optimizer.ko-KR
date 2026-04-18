@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 고급 표현식 편집기의 강력한 구문 기능
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 고급 표현식 편집기 구문
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 고급 표현식 편집기의 강력한 구문 기능
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 조건부 지침(if, then, else)
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer의 고급 표현식 편집기의 강력한 구문 기능
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
 
 데이터 유형 이해
 
@@ -50,7 +50,7 @@ JSON 형식, 직렬화 및 예시를 포함하여 표현식에 사용되는 데�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 필드 참조 사용
 
@@ -60,7 +60,7 @@ JSON 형식, 직렬화 및 예시를 포함하여 표현식에 사용되는 데�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 컬렉션 관리 기능
 
@@ -70,7 +70,7 @@ JSON 형식, 직렬화 및 예시를 포함하여 표현식에 사용되는 데�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=ko)
 
 고급 표현식의 연산자
 

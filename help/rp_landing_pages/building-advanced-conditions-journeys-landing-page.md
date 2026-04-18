@@ -30,7 +30,7 @@ Adobe Journey Optimizer에는 여정 내에 복잡한 로직을 작성할 수 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 표현식의 고급 구문
 

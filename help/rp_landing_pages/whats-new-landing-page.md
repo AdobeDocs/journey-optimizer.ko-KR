@@ -52,7 +52,7 @@ Immerse yourself in a hands-on experience with our [AI Assistant](../help/using/
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 Adobe Journey Optimizer 최신 릴리스 정보
 
@@ -62,7 +62,7 @@ Adobe Journey Optimizer 최신 릴리스 정보
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
 
 Adobe Journey Optimizer에 대한 이전 릴리스 노트
 
@@ -72,7 +72,7 @@ Adobe Journey Optimizer의 기능, 통합, 개선 사항에 대한 자세한 업
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
 
 Adobe Journey Optimizer 설명서의 최신 업데이트
 
