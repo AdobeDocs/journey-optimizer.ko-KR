@@ -9,7 +9,7 @@ role: Admin, Developer, User
 level: Beginner
 keywords: 여정 최적화 도구, 작동 방식, 아키텍처, experience platform, 기능 영역
 exl-id: 9df179a0-a5f6-4dbd-a9db-a103731b1854
-source-git-commit: 83a4b2d85866d5bbad607c6b84d0573f211fad89
+source-git-commit: 3983f5912cb0579d489af6466025551b60d6938e
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 3%
@@ -30,7 +30,7 @@ Adobe Journey Optimizer은 개인화된 고객 여정을 만들기 위해 데이
 
 ![실시간 고객 프로필, 데이터 거버넌스 및 ID 확인과 같은 핵심 서비스를 공유하는 Real-Time CDP, Customer Journey Analytics 및 Adobe Mix Modeler과 함께 구축된 Journey Optimizer을 통해 Adobe Experience Platform을 기본 데이터 레이어로 표시하는 다이어그램입니다.](assets/ajo-aep-architecture-diagram.png)
 
-### Adobe Experience Platform: The Foundation {#aep-foundation}
+### Adobe Experience Platform: 기초 {#aep-foundation}
 
 Adobe Experience Platform은 브랜드가 고객 데이터를 중앙 집중화하고 개인화된 경험에 대해 활성화할 수 있도록 하는 뼈대 역할을 합니다.
 
@@ -87,6 +87,6 @@ Journey Optimizer은 Real-Time CDP, Customer Journey Analytics 및 Adobe Mix Mod
 
 통합 패턴, 사전 요구 사항 및 시스템 데이터 흐름을 포함한 기술 아키텍처에 대한 자세한 내용은 [Adobe Journey Optimizer 블루프린트](https://experienceleague.adobe.com/ko/docs/blueprints-learn/architecture/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}를 참조하십시오. 구현 고려 사항에 대해서는 [보호 기능 및 제한 사항을 검토하십시오](guardrails.md).
 
-## 개인 정보 보호 및 보안 {#privacy-security}
+## 개인정보보호 및 보안 {#privacy-security}
 
 Adobe Experience Cloud의 개인 정보 보호 및 보안 방침은 Adobe Journey Optimizer에 적용됩니다. 이러한 조치는 GDPR과 같은 개인 정보 보호 규정을 준수하도록 함으로써 고객 신뢰를 유지하면서 개인화된 경험을 제공할 수 있도록 합니다. [Journey Optimizer의 개인 정보 보호에 대해 자세히 알아보기](../privacy/get-started-privacy.md)
