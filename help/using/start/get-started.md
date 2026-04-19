@@ -9,18 +9,18 @@ role: User
 level: Beginner
 keywords: 여정 최적화 도구, ajo, adobe 여정 최적화 도구, 시작하기, 옴니채널, 개인화, 고객 여정
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: cccc064de7f05b6502c54ae539b4cf1cc722f212
+source-git-commit: a528fba262dccf93edb4eb2b04dba83c72793206
 workflow-type: tm+mt
 source-wordcount: '1216'
 ht-degree: 14%
 
 ---
 
-# Journey Optimizer 시작 {#cjm-gs}
+# Journey Optimizer 시작 {#ajo-gs}
 
 이 페이지에서는 Adobe Journey Optimizer의 정의, 대상, 주요 기능 및 Adobe Experience Platform 아키텍처에 적합한 방식을 소개합니다. 새 사용자에게 권장되는 시작점입니다.
 
-## [!DNL Adobe Journey Optimizer] 소개{#about-cjm}
+## [!DNL Adobe Journey Optimizer] 소개{#about-ajo}
 
 [!DNL Adobe Journey Optimizer]은(는) 모든 채널 및 접점에서 연관성 있고 상황에 맞는 개인화된 고객 경험을 만들고 제공하기 위한 엔터프라이즈 애플리케이션입니다. 기본적으로 [!DNL Adobe Experience Platform]을(를) 기반으로 구축되었으며 통합 실시간 고객 프로필, API 우선 오픈 프레임워크, 중앙 집중식 Offer Decisioning 및 AI/ML 기능을 활용합니다. Journey Optimizer을 사용하면 브랜드가 예약된 마케팅 캠페인과 실시간, 이벤트 트리거 커뮤니케이션을 모두 단일 애플리케이션에서 규모에 맞게 오케스트레이션할 수 있습니다. 그 결과는 고객 충성도와 라이프타임 가치를 높이는 의미 있는 브랜드 경험입니다.
 
@@ -34,6 +34,27 @@ ht-degree: 14%
 
 You can also create audience-based campaigns to send messages.
 -->
+
+
+## 주요 기능 {#key-capabilities}
+
+[!DNL Adobe Journey Optimizer]는 모든 앱, 장치 또는 채널에서 개인화되고, 연결되며, 시기적절한 고객 경험을 만들고 게재할 수 있는 민첩하고 확장 가능한 애플리케이션입니다.
+
+![Journey Optimizer의 세 가지 핵심 기능 영역인 실시간 고객 인사이트 및 참여, 최신 옴니채널 오케스트레이션 및 실행, Intelligent Decisioning 및 Personalization을 모두 Adobe Experience Platform을 기반으로 하는 다이어그램을 표시합니다.](assets/ajo-capabilities.png)
+
+주요 기능은 다음을 포함합니다.
+
+### 실시간 고객 인사이트 및 참여
+
+통합 프로필은 행동, 트랜잭션, 재무 및 운영 데이터를 포함하여 고객 접점 전반에 걸쳐 있는 모든 소스의 라이브 데이터를 융합하여 고객을 위한 개인적이고 상황별 경험을 적시에 최적화합니다. [프로필 및 대상자에 대해 알아보기](../audience/get-started-profiles.md)
+
+### 최신 옴니채널 오케스트레이션 및 실행
+
+1:1 고객 참여 및 마케팅 전달을 위한 고객 여정을 조화롭게 최적화하고 최적화하여 브랜드가 고객 라이프사이클에서 더 많은 가치를 제공할 수 있는 단일 캔버스입니다. [!DNL Adobe Journey Optimizer]에 디자인된 고객 여정은 브랜드가 실시간 신호에 반응하고 이러한 상호 작용을 예약된 캠페인과 연결할 수 있도록 동적 및 이벤트를 기반으로 할 수 있으므로 고객이 언제 어떤 채널을 통해 보낼 커뮤니케이션에 대해 올바른 결정을 내릴 수 있습니다. 끌어다 놓기 비주얼 디자이너, 재사용 가능한 템플릿, 콘텐츠 조각 및 개인화 편집기를 포함한 포함된 콘텐츠 작성 도구를 통해 팀은 동일한 워크플로 내에서 모든 채널에 대한 메시지를 직접 작성, 개인화 및 관리할 수 있습니다. [첫 번째 여정 만들기](../building-journeys/journey-gs.md) | [콘텐츠 디자인](../../rp_landing_pages/content-management-landing-page.md)
+
+### Intelligent Decisioning &amp; Personalization
+
+브랜드는 중앙 집중식 의사 결정을 적용하고 인공 지능과 머신 러닝을 통합하여 고객 경험 전반에 대한 예측 인사이트를 구성할 수 있으므로 의사 결정을 보다 쉽게 자동화하고 경험을 규모에 맞게 최적화할 수 있습니다. Decisioning은 [!DNL Adobe Journey Optimizer]을(를) 통해 대규모로 채널 전반에서 중앙 집중식 오퍼를 구동합니다. [Offer Decisioning 살펴보기](../offers/get-started/starting-offer-decisioning.md) | [AI 기능 살펴보기](ai-features.md)
 
 
 ## 사용 사례 {#use-cases}
@@ -103,27 +124,6 @@ You can also create audience-based campaigns to send messages.
 운영 팀 및 고객 지원과 같은 비마케터는 [!DNL Adobe Journey Optimizer]을(를) 사용하여 운영 알림을 관리하거나 온보딩 프로세스를 모니터링할 수 있습니다. 예를 들어 방문자가 경험의 일부로 모바일 앱을 다운로드하는 놀이공원: 유지 관리 직원은 Journey Optimizer을 사용하여 공원 방문자에게 유지 관리로 인해 현재 닫힌 놀이기구를 알릴 수 있습니다.
 
 [첫 번째 여정 구축](../building-journeys/journey-gs.md)
-
-
-## 주요 기능 {#key-capabilities}
-
-[!DNL Adobe Journey Optimizer]는 모든 앱, 장치 또는 채널에서 개인화되고, 연결되며, 시기적절한 고객 경험을 만들고 게재할 수 있는 민첩하고 확장 가능한 애플리케이션입니다.
-
-![Journey Optimizer의 세 가지 핵심 기능 영역인 실시간 고객 인사이트 및 참여, 최신 옴니채널 오케스트레이션 및 실행, Intelligent Decisioning 및 Personalization을 모두 Adobe Experience Platform을 기반으로 하는 다이어그램을 표시합니다.](assets/ajo-capabilities.png)
-
-주요 기능은 다음을 포함합니다.
-
-### 실시간 고객 인사이트 및 참여
-
-통합 프로필은 행동, 트랜잭션, 재무 및 운영 데이터를 포함하여 고객 접점 전반에 걸쳐 있는 모든 소스의 라이브 데이터를 융합하여 고객을 위한 개인적이고 상황별 경험을 적시에 최적화합니다. [프로필 및 대상자에 대해 알아보기](../audience/get-started-profiles.md)
-
-### 최신 옴니채널 오케스트레이션 및 실행
-
-1:1 고객 참여 및 마케팅 전달을 위한 고객 여정을 조화롭게 최적화하고 최적화하여 브랜드가 고객 라이프사이클에서 더 많은 가치를 제공할 수 있는 단일 캔버스입니다. [!DNL Adobe Journey Optimizer]에 디자인된 고객 여정은 브랜드가 실시간 신호에 반응하고 이러한 상호 작용을 예약된 캠페인과 연결할 수 있도록 동적 및 이벤트를 기반으로 할 수 있으므로 고객이 언제 어떤 채널을 통해 보낼 커뮤니케이션에 대해 올바른 결정을 내릴 수 있습니다. 끌어다 놓기 비주얼 디자이너, 재사용 가능한 템플릿, 콘텐츠 조각 및 개인화 편집기를 포함한 포함된 콘텐츠 작성 도구를 통해 팀은 동일한 워크플로 내에서 모든 채널에 대한 메시지를 직접 작성, 개인화 및 관리할 수 있습니다. [첫 번째 여정 만들기](../building-journeys/journey-gs.md) | [콘텐츠 디자인](../../rp_landing_pages/content-management-landing-page.md)
-
-### Intelligent Decisioning &amp; Personalization
-
-브랜드는 중앙 집중식 의사 결정을 적용하고 인공 지능과 머신 러닝을 통합하여 고객 경험 전반에 대한 예측 인사이트를 구성할 수 있으므로 의사 결정을 보다 쉽게 자동화하고 경험을 규모에 맞게 최적화할 수 있습니다. Decisioning은 [!DNL Adobe Journey Optimizer]을(를) 통해 대규모로 채널 전반에서 중앙 집중식 오퍼를 구동합니다. [Offer Decisioning 살펴보기](../offers/get-started/starting-offer-decisioning.md) | [AI 기능 살펴보기](ai-features.md)
 
 
 ## 가용성 및 라이선스 {#availability}
