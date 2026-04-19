@@ -5,10 +5,10 @@ title: 시작하기
 description: Adobe Journey Optimizer 시작하기
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
-source-git-commit: 46b1e980ebe480b19b2796c34de676935c272fb9
+source-git-commit: 2f266c189514d92309ad199685222af3a3973b11
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 88%
+ht-degree: 89%
 
 ---
 
@@ -140,7 +140,7 @@ Journey Optimizer 인터페이스를 사용하고, 주요 기능에 액세스하
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/help.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=ko)
 
 문제 해결 FAQ
 
