@@ -10,9 +10,9 @@ level: Beginner
 keywords: 여정, 캠페인, 오케스트레이션, 비교, 선택, 결정, 워크플로우, 실시간, 일괄 처리, 오케스트레이션, 여러 단계, 예약됨, API 트리거, 이벤트 기반
 hide: true
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 8d7d97857eb65359bee6165d43427e92a2ce4fc5
 workflow-type: tm+mt
-source-wordcount: '1613'
+source-wordcount: '1696'
 ht-degree: 4%
 
 ---
@@ -111,6 +111,10 @@ ht-degree: 4%
 * 행동 및 이벤트에 기반한 실시간 의사 결정
 * 대기 활동은 개인화된 타이밍을 만듭니다.
 * 조건부 분기는 프로필당 고유한 경로를 만듭니다.
+* 기본 제공 활성 수신 — 정의된 기간 동안 아무 조치도 취하지 않으면 명시적인 이벤트뿐만 아니라 다음 단계를 트리거할 수도 있습니다. [대기 활동에 대해 알아보기](../building-journeys/wait-activity.md)
+* 빈도 제한 — 고객이 여정에 메시지를 입력하거나 수신할 수 있는 빈도를 제어합니다. [여정 제한에 대해 알아보기](../conflict-prioritization/journey-capping.md)
+* 백분율로 대상 분할 — 프로필을 무작위, 백분율 기반 그룹으로 분할하여 여정 경로 간에 A/B 실험을 실행합니다. [분할 비율에 대해 알아보기](../building-journeys/condition-activity.md)
+* 테스트 모드 — 라이브로 게시하기 전에 테스트 프로필을 사용하여 여정 논리 및 메시지 게재를 확인합니다. [테스트 모드에 대해 알아보기](../building-journeys/testing-the-journey.md)
 
 **흐름 예:**
 
@@ -212,6 +216,8 @@ Enrich with product data → Build segments → Send personalized offers → All
 | 코드 기반 | ✅ | ✅ | ❌ | ❌ |
 | 콘텐츠 카드 | ✅ | ✅ | ❌ | ❌ |
 | 다이렉트 메일 | ✅ | ✅ | ❌ | ✅ |
+| LINE | ✅ | ✅ | ✅ | ✅ |
+| WhatsApp | ✅ | ✅ | ✅ | ✅ |
 
 ### 고급 기능
 
@@ -226,7 +232,7 @@ Enrich with product data → Build segments → Send personalized offers → All
 | 다중 엔티티 데이터 | ❌ | ❌ | ❌ | ✅ |
 | 정확한 사전 전송 카운트 | ❌ | ❌ | ❌ | ✅ |
 | 온디맨드 세분화 | ❌ | ❌ | ❌ | ✅ |
-| 전송 시간 최적화 | ✅ | ✅ | ✅ | ✅ |
+| 전송 시간 최적화 | ✅ | ❌ | ❌ | ❌ |
 | A/B 테스트 | ✅ | ✅ | ❌ | ❌ |
 | 승인 작업 과정 | ✅ | ✅ | ✅ | ❌ |
 

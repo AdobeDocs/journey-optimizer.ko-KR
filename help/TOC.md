@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1e42168a8eb2e5824a4054cced014b6ec57afd7f
+source-git-commit: c8eb1df8094843049077a18118d2c8f7c0b57fe3
 workflow-type: tm+mt
-source-wordcount: '3207'
+source-wordcount: '3209'
 ht-degree: 91%
 
 ---
@@ -35,18 +35,19 @@ ht-degree: 91%
    + 기본 사항 {#essentials}
       + [Journey Optimizer 소개](using/start/get-started.md)
       + [작동 방식 이해](using/start/understanding-ajo.md)
+      + [AI 및 지능형 기능](using/start/ai-features.md)
       + [주요 용어](using/start/terminology.md)
       + [가드레일 및 제한 사항](using/start/guardrails.md)
    + 역할별 시작 {#by-role}
-      + [학습 경로 선택](using/start/quick-start.md)
-      + [마케터로 시작하기](using/start/path/marketer.md)
-      + [데이터 엔지니어로 시작하기](using/start/path/data-engineer.md)
+      + [역할 및 책임](using/start/quick-start.md)
       + [관리자로 시작하기](using/start/path/administrator.md)
+      + [데이터 엔지니어로 시작하기](using/start/path/data-engineer.md)
       + [개발자로 시작하기](using/start/path/developer.md)
+      + [마케터로 시작하기](using/start/path/marketer.md)
    + 효율적으로 작업 {#work-efficiently}
       + [인터페이스 살펴보기](using/start/user-interface.md)
       + [검색, 필터링 및 정리](using/start/search-filter-categorize.md)
-      + [AI 및 지능형 기능](using/start/ai-features.md)
+      + [문제 해결 FAQ](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [접근성](using/start/accessibility.md)
       + {hide-from-toc}[여정 대 캠페인](using/start/journeys-vs-campaigns.md)
 + 여정 {#orchestrate-journeys}

@@ -4,14 +4,16 @@ product: journey optimizer
 title: 역할 및 책임
 description: Adobe Journey Optimizer와 관련된 다양한 역할과 책임에 대해 알아보기
 feature: Get Started
+topic: Get Started
 role: Admin, Developer, User
 level: Beginner
+keywords: 역할, 책임, 마케터, 관리자, 데이터 엔지니어, 개발자, 빠른 시작
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 227dde4212a2a0caa4c46cc2151a4a5cc11d011f
 workflow-type: tm+mt
-source-wordcount: '1867'
-ht-degree: 83%
+source-wordcount: '2177'
+ht-degree: 73%
 
 ---
 
@@ -24,14 +26,34 @@ ht-degree: 83%
 * 실시간 캠페인과 일괄 여정, 최신 메시지 디자이너를 위한 통합 캔버스를 통해 **최신 옴니채널 오케스트레이션**
 * 의사 결정 관리 및 AI/ML 기능을 통해 **지능형 의사 결정 및 개인화**
 
-Journey Optimizer는 다양한 마케팅 요구 사항을 충족하는 두 가지 오케스트레이션 접근 방식을 제공합니다.
+Journey Optimizer은 고객에게 도달하고 참여하기 위한 두 가지 주요 접근 방식을 제공합니다.
 
-* **여정**: 각 고객이 비헤이비어 또는 이벤트에 의해 트리거된 각자의 속도로 진행하는 실시간 일대일 참여에 가장 적합합니다.
-* **오케스트레이션된 캠페인**: 계절별 프로모션, 제품 출시 및 계정 기반 커뮤니케이션에 이상적인, 일정에 따라 여러 단계 워크플로우를 통해 대상자가 함께 진행하는 일괄 일대다 캠페인에 적합합니다.
+* **여정** — 비헤이비어 또는 이벤트에 의해 트리거된 각 고객이 각자의 속도로 이동하는 실시간 일대일 오케스트레이션. 온보딩 시퀀스, 장바구니 포기 및 라이프사이클 참여에 적합합니다.
+* **캠페인** — 사용 사례에 따라 세 가지 게재 모드가 있는 대상 기반 메시지:
+   * **작업 캠페인** — 정의된 대상자에게 한 번에 배달되는 예약 또는 반복 메시지. 뉴스레터, 프로모션 공지 및 제품 출시에 가장 적합합니다.
+   * **API 트리거 캠페인** — API를 통해 외부 시스템에 의해 트리거된 온디맨드 메시지. 주문 확인, 배송 알림 및 계정 알림과 같은 트랜잭션 메시지에 가장 적합합니다.
+   * **오케스트레이션된 캠페인** - 다중 엔티티 세그멘테이션 및 캔버스 기반 실행을 사용하는 복잡한 일괄 처리 워크플로우입니다. 정확한 사전 전송 카운트가 필요한 계절 프로모션, 여러 단계의 일괄 처리 프로그램 및 캠페인에 적합합니다.
 
 이 통합 경험을 사용하면 대상을 정의하고 여정을 디자인하는 것부터 개인화된 콘텐츠를 만들고 결과를 분석하는 것에 이르기까지 전체 사용 사례를 한 곳에서 구현할 수 있습니다. 이 설명서에서는 Journey Optimizer를 효과적으로 사용하는 데 필요한 주요 역할과 그 책임 및 시작 방법을 설명합니다.
 
 **중요 정보:** Adobe Journey Optimizer는 구체적인 책임에 따라 각기 역할을 정의합니다. 조직의 구조에 따라 한 개인이 여러 역할 또는 모든 역할을 수행할 수 있습니다.
+
+>[!NOTE]
+>
+>* 사용자 환경에서 사용할 수 있는 구성 요소 및 기능은 [사용 권한](../administration/permissions.md) 및 [라이선스 패키지](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}에 따라 다릅니다. 질문이 있는 경우 Adobe 고객 성공 관리자 또는 Adobe 담당자에게 문의하세요.
+>
+>* Adobe Experience Cloud 일반 개인 정보 보호 지침 및 절차는 [!DNL Journey Optimizer]에 적용됩니다. [Adobe Experience Cloud 개인 정보에 대한 자세한 내용을 살펴보십시오](https://www.adobe.com/kr/privacy/experience-cloud.html){target="_blank"}.
+
+## 시작하기에 앞서 {#before-you-begin}
+
+성공적인 구현은 준비로 시작됩니다. Journey Optimizer을 구성하기 전에 다음을 기준으로 팀을 정렬하십시오.
+
+* **사용 사례를 먼저 정의** — 처리할 고객 시나리오를 식별하고 우선 순위를 지정합니다. 이는 [데이터 관리](../data/gs-data.md)부터 [채널 설정](../configuration/get-started-configuration.md)까지 모든 구성 결정을 안내합니다.
+* **고객 경험에 영향을 주는 모든 팀을 참여시킵니다** — Journey Optimizer 구현은 일반적으로 마케팅, IT, 데이터 및 운영에 적용됩니다. 팀 간의 조기 정렬은 재작업을 방지합니다.
+* **공유 고객 식별자 설정** — 모든 데이터 원본에 있는 공통 식별자(예: CRM ID 또는 이메일 주소)에 동의합니다. 이는 [통합 고객 프로필](../audience/get-started-profiles.md)의 기반입니다.
+* **데이터 개인 정보 보호 규정 준수 확인** — 연결하려는 모든 데이터 원본이 수집 전에 해당 [개인 정보 보호 규정](../privacy/get-started-privacy.md)을 준수하는지 확인하십시오.
+* **Go-Live 전 테스트 계획** — [이벤트 트리거, 여정 조건 및 채널 작업이 개발 또는 스테이징 샌드박스에서 예상대로 작동하는지 확인](../building-journeys/journey-gs.md)합니다.
+* **브랜드 콘텐츠 및 자산 라이브러리 준비** - 여정 및 캠페인에서 팀이 사용할 디지털 자산, 템플릿 및 브랜드 지침을 식별합니다. 시작 전 Journey Optimizer의 [기본 제공 에셋 라이브러리](../integrations/assets.md)에 로드하면 메시지 생성이 빨라지고 첫날부터 브랜드 일관성이 보장됩니다.
 
 ## 역할 기반 빠른 시작 안내서
 
