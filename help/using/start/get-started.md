@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 여정 최적화 도구, ajo, adobe 여정 최적화 도구, 시작하기, 옴니채널, 개인화, 고객 여정
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: a528fba262dccf93edb4eb2b04dba83c72793206
+source-git-commit: c4404de32e9a1d400273863185c1b7fa9b21eb6d
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1218'
 ht-degree: 14%
 
 ---
@@ -138,12 +138,12 @@ Adobe Experience Cloud 일반 개인 정보 보호 지침 및 절차는 [!DNL Jo
 Journey Optimizer은 기본적으로 Adobe Experience Platform을 기반으로 구축되어 데이터 기반, ID 그래프 및 거버넌스 서비스를 공유합니다. 이러한 시스템이 함께 작동하는 방법에 대한 자세한 설명은 [Journey Optimizer 이해](understanding-ajo.md)를 참조하십시오.
 
 
->[!MORELIKETHIS]
->
->* [시작하는 주요 단계](quick-start.md) — 관리자, 마케터 및 데이터 엔지니어를 위한 역할 기반 빠른 시작 안내서입니다.
->* [데이터 관리 시작](../data/gs-data.md) - Journey Optimizer에서 데이터를 수집, 통합 및 활성화하는 방법에 대해 알아봅니다.
->* [여정 디자인 및 메시지 보내기](../building-journeys/journey-gs.md) - 첫 번째 고객 여정을 빌드하고 채널 작업을 구성합니다.
->* [실시간 보고서](../reports/live-report.md) - 캠페인 및 여정 성과를 실시간으로 모니터링합니다.
->* [Journey Optimizer 자습서 소개](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction){target="_blank"} - 핵심 Journey Optimizer 개념에 대한 안내 비디오 연습입니다.
->* [Journey Optimizer 보안 개요](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf)&#x200B;(PDF) - 보안 아키텍처, 데이터 보호 및 규정 준수에 대한 세부 정보.
->* [Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} — 공식 라이선스 사용 약관 및 편집 기능 분류.
+## 관련 리소스 {#related-resources}
+
+* [시작하는 주요 단계](quick-start.md) — 관리자, 마케터 및 데이터 엔지니어를 위한 역할 기반 빠른 시작 안내서입니다.
+* [데이터 관리 시작](../data/gs-data.md) - Journey Optimizer에서 데이터를 수집, 통합 및 활성화하는 방법에 대해 알아봅니다.
+* [여정 디자인 및 메시지 보내기](../building-journeys/journey-gs.md) - 첫 번째 고객 여정을 빌드하고 채널 작업을 구성합니다.
+* [실시간 보고서](../reports/live-report.md) - 캠페인 및 여정 성과를 실시간으로 모니터링합니다.
+* [Journey Optimizer 자습서 소개](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction){target="_blank"} - 핵심 Journey Optimizer 개념에 대한 안내 비디오 연습입니다.
+* [Journey Optimizer 보안 개요](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf)&#x200B;(PDF) - 보안 아키텍처, 데이터 보호 및 규정 준수에 대한 세부 정보.
+* [Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} — 공식 라이선스 사용 약관 및 편집 기능 분류.
