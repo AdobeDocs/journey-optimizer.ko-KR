@@ -1,14 +1,14 @@
 ---
-title: AI 받은 편지함에 대한 이메일 텍스트 최적화
+title: AI 받은 편지함에 대한 이메일 최적화
 description: AI 지원 받은 편지함 클라이언트가 AI로 최적화 Designer에서 메일을 요약하거나 의도를 추출할 때 오퍼와 CTA를 사용할 수 있도록 메시지의 전용 버전을 생성하고 세분화합니다.
 feature: Email Design
 topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner, Intermediate
 exl-id: 0c2f95ce-28a0-480c-9829-b7e4975b6340
-source-git-commit: 6983ec41e45a9a874caafd982c3f5872036565ae
+source-git-commit: 0d0999b831d01442c46015361018d6e646abc33c
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1069'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 * 또한, 도우미들이 적극적으로 브랜드와 관련된 할인이나 쿠폰을 검색한 후 이를 답안에 접어 넣으면 사용자는 더 이상 사용자의 메시지가 실제로 약속한 내용만 보지 않게 된다. 이 동작은 최종 사용자에게 유용하지만, 전송에서 실제 용어를 추적하기 위해 답변이 필요한 마케터에는 제어를 희석합니다.
 
-이러한 문제를 방지하기 위해 [!DNL Journey Optimizer]은(는) 쿠폰, 할인 범위, 콜 투 액션 및 기타 우선 순위가 명확한 선형 복사본에 맨 앞에 표시되도록 메시지의 추가 특정 텍스트 버전을 만듭니다. 이 버전은 메시지의 기본 또는 사용자 지정 [일반 텍스트 버전](text-version-email.md)과(와) 다릅니다.
+이러한 문제를 방지하기 위해 [!DNL Journey Optimizer]은(는) 쿠폰, 할인 범위, 콜 투 액션 및 기타 우선 순위가 명확한 선형 복사본에 맨 앞에 표시되도록 메시지의 추가 특정 버전을 만듭니다. <!--This version is different from the HTML view and default or custom plain text version of your messages.-->
 
 목표는 받은 편지함 AI가 얇은 기본 텍스트 부분이나 관련 없는 웹 결과에 기대지 않고 정의된 오퍼와 작업에서 요약과 Q&amp;A를 접지하는 것입니다.
 
@@ -41,7 +41,7 @@ ht-degree: 1%
 >
 >정확한 AI 지원 동작은 받은 편지함 공급자 및 모델 버전에 따라 다릅니다. 이메일이 게재되면 외부 AI 클라이언트가 제공하는 답변 및 요약이 잘못되거나 불완전하거나 웹 결과와 혼용될 수 있습니다.
 >
->AI 받은 편지함에 대한 이메일 텍스트 최적화 기능은 Journey Optimizer의 전용 버전만 생성합니다. 서드파티 도우미가 메시지를 해석하거나 표시하는 방식을 보장하지는 않습니다. 타사 받은 편지함 AI의 [제한 사항 및 위험](#inbox-ai-risks)에 대해 자세히 알아보세요.
+>AI 받은 편지함에 대한 이메일 최적화 기능은 Journey Optimizer의 전용 버전만 생성합니다. 서드파티 도우미가 메시지를 해석하거나 표시하는 방식을 보장하지는 않습니다. 타사 받은 편지함 AI의 [제한 사항 및 위험](#inbox-ai-risks)에 대해 자세히 알아보세요.
 
 ## 권장 사용 사례 {#use-cases}
 
@@ -49,7 +49,7 @@ ht-degree: 1%
 * **Critical details only in images** — Offers, promo codes, or deadlines shown in banners or graphics are invisible in plain text. Use the optimizer (and manual edits) so the same facts appear as text, improving extraction by AI summaries and text-only clients.
 -->
 
-* **조밀하거나 조각난 텍스트** — 전자 메일 내용을 스캔하기 어려운 경우 최적화를 통해 명확한 오퍼 및 링크를 통해 선형의 설명을 더 명확하게 만들 수 있습니다.
+* **조밀하거나 조각난 콘텐츠** — 전자 메일의 콘텐츠를 스캔하기 어려운 경우 최적화는 명확한 오퍼 및 링크를 통해 명확한 선형 설명을 생성할 수 있습니다.
 
 * **받은 편지함 Q&amp;A 제어** — 받는 사람이 도우미에게 *이메일이 무엇인지* 또는 *오퍼가 무엇인지*&#x200B;를 물을 것으로 예상할 때 AI 버전에 맞게 최적화된 강력한 기능을 통해 부분 요약을 줄이고 승인된 복사본에 연결되지 않은 웹 보충 답변을 사용하지 않습니다.
 
@@ -111,7 +111,7 @@ AI 받은 편지함에 대한 전자 메일 최적화 기능을 사용하면 사
 
 * **브랜드 및 법적 노출** — 잘못되거나 불완전한 AI 요약으로 인해 여전히 고객 혼란 또는 프로모션, 약관 또는 옵트아웃 언어에 대한 분쟁이 발생할 수 있습니다. [!DNL Journey Optimizer]은(는) 서드파티 모델이 최적화된 버전의 전자 메일을 충실하게 재현할 수 있는지 확인하지 않습니다.
 
-* **[!UICONTROL 의]** AI 받은 편지함에 최적화[!DNL Journey Optimizer] — 전자 메일 Designer의 작성 시간 컨트롤은 최종 사용자 받은 편지함 도우미와 별개입니다. 보내기 전에 항상 생성된 일반 텍스트를 검토하십시오.
+* **[!UICONTROL 의]** AI 받은 편지함에 최적화[!DNL Journey Optimizer] — 전자 메일 Designer의 작성 시간 컨트롤은 최종 사용자 받은 편지함 도우미와 별개입니다. 보내기 전에 항상 생성된 콘텐츠를 검토하십시오.
 
 ## 관련 항목 {#related-topics}
 
