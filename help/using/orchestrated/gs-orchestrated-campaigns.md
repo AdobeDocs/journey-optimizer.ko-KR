@@ -6,10 +6,10 @@ description: 오케스트레이션된 캠페인을 시작하는 방법 알아보
 short-description: 오케스트레이션된 캠페인 주요 기능 및 사용 사례 살펴보기
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
-source-git-commit: 5ca8ff7abaaf4eef33a85682370a125af6836f2f
+source-git-commit: ef53fc88dfeb05b171b8aa819830c9fb771697f6
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 94%
+source-wordcount: '876'
+ht-degree: 86%
 
 ---
 
@@ -81,6 +81,13 @@ ht-degree: 94%
 
 * **작업 테이블**: 작업 테이블에는 전환에 의해 전달되는 모든 정보가 포함됩니다. 오케스트레이션된 캠페인마다 여러 작업 테이블을 사용합니다. 이 테이블로 전달된 데이터는 오케스트레이션된 캠페인의 수명 주기 전체에서 사용할 수 있습니다.
 
+일반적인 시작 수준 오케스트레이션된 캠페인은 다음과 같은 패턴을 따릅니다. **대상 → 빌드 → Fork 채널 A + 채널 B**.
+
+이 접근 방식을 사용하면 단일 캠페인 실행에 동일한 대상을 두 개의 병렬 분기로 타깃팅할 수 있습니다. 예를 들어, 한 분기는 마케팅 이메일을 사용하고 다른 분기는 트랜잭션 이메일을 사용합니다. 각 분기는 독립적이며 다른 채널 구성, 메시지 콘텐츠 또는 범주를 사용할 수 있습니다.
+
+➡️ [포크 활동을 사용하는 방법에 대해 알아보기](activities/fork.md)
+
+➡️ [마케팅 및 트랜잭션 메시지 이해](activities/channels.md#marketing-vs-transactional)
 
 ## 소개 비디오 {#video-oc}
 

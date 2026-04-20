@@ -5,10 +5,10 @@ title: 여러 단계로 구성된 캠페인에 채널 활동 추가
 description: 여러 단계로 구성된 캠페인에 채널 활동을 추가하는 방법 알아보기
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: ef53fc88dfeb05b171b8aa819830c9fb771697f6
 workflow-type: tm+mt
-source-wordcount: '1682'
-ht-degree: 41%
+source-wordcount: '1769'
+ht-degree: 39%
 
 ---
 
@@ -90,6 +90,22 @@ UNUSED IDs in BJ
    ![이메일 활동이 있는 캔버스를 보여 주는 이미지](../assets/channel-edit.png)
 
 1. **[!UICONTROL 속성]** 탭에서 설명을 입력한 다음 **[!UICONTROL 액션]** 탭으로 전환하여 활동을 구성합니다.
+
+## 마케팅 및 트랜잭션 메시지 {#marketing-vs-transactional}
+
+올바른 범주를 선택하면 메시지 전달 방법과 적용되는 규칙이 결정됩니다.
+
+| | 마케팅 | 트랜잭션 |
+| --- | --- | --- |
+| **옵트인 필요** | 예 | 아니요 |
+| **비즈니스 규칙** | 적용됨(빈도 제한, 피로도 규칙) | 무시됨 |
+| **채널 구성 유형** | 마케팅 채널 구성 | 트랜잭션 채널 구성 |
+| **일반적인 사용 사례** | 프로모션, 뉴스레터, 시즌 캠페인 | 주문 확인, 암호 재설정, 중단 경고 |
+| **대상자** | 옵트인 구독자만 | 옵트인 상태에 관계없이 모든 프로필 |
+
+>[!NOTE]
+>
+>운영 또는 시간에 민감한 커뮤니케이션에만 트랜잭션 을 사용합니다. 홍보 메시지를 거래로 잘못 분류하면 동의 및 비즈니스 규칙이 우회하여 규정 요구 사항을 위반할 수 있습니다.
 
 ## 채널 구성 및 설정 설정 {#configuration}
 

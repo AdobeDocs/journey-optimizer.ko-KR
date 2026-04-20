@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: c0dcd7f206f76d133ed2e77ef692f0ae0054a6b5
+source-git-commit: ed45338736108969831bee4317a1bc4cd40c4dc7
 workflow-type: tm+mt
-source-wordcount: '6825'
-ht-degree: 71%
+source-wordcount: '6969'
+ht-degree: 69%
 
 ---
 
@@ -21,6 +21,13 @@ ht-degree: 71%
 
 ## 2026년 4월 {#april-2026}
 
+* **채널 활동** 설명서에 두 채널 범주(옵트인 요구 사항, 비즈니스 규칙 응용 프로그램, 채널 구성 유형 및 권장 사용 사례) 간의 동작 차이를 설명하는 새로운 **마케팅 및 트랜잭션 메시지** 섹션이 업데이트되었습니다. [자세히 보기](../orchestrated/activities/channels.md#marketing-vs-transactional)
+
+* **포크 활동** 설명서가 단일 캠페인 실행에서 포크 활동을 사용하여 대상을 두 개의 병렬 이메일 분기(하나의 마케팅 및 하나의 트랜잭션)로 분할하는 방법을 보여 주는 새로운 **예** 섹션으로 보강되었습니다. [자세히 보기](../orchestrated/activities/fork.md#fork-examples)
+
+* 규칙 빌더를 사용하여 구독 계획 특성별로 프로필을 필터링하는 방법을 보여 주는 새로운 예를 통해 **대상 활동 빌드** 설명서를 보강했습니다. [자세히 보기](../orchestrated/activities/build-audience.md#build-audience-examples)
+
+* **오케스트레이션된 캠페인 시작** 페이지 문서에는 **오케스트레이션된 캠페인 내부의 내용→ 대한 초급**&#x200B;포크 → 채널 A + 채널 B **패턴을 포함합니다.**(포크 활동 및 마케팅/트랜잭션 메시지 페이지에 대한 상호 참조 포함). [자세히 보기](../orchestrated/gs-orchestrated-campaigns.md#gs-ms-campaign-inside)
 * **고급 HTML 편집기를 사용하여 전자 메일 콘텐츠 편집** 페이지가 콘텐츠 관리 섹션에서 문서의 **전자 메일** 섹션(전자 메일 디자인 아래)으로 이동되었으며 페이지 파일의 이름이 **email-expert-mode.md**(으)로 변경되었습니다. 이제 페이지는 고급 HTML 편집기를 이메일 메시지 및 이메일 콘텐츠 템플릿용 이메일 Designer에서 사용할 수 있도록 문서화합니다. [자세히 보기](../email/email-expert-mode.md)
 
 * **오케스트레이션된 캠페인 시작 및 모니터링** 설명서에 캠페인 라이프사이클 상태 표, 게시 전 체크리스트 및 반복되지 않는 캠페인에 대한 전송 확인 경고와 함께 내부 게시-시간 실행 시퀀스를 자세히 설명하는 새 섹션이 업데이트되었습니다. [자세히 보기](../orchestrated/start-monitor-campaigns.md#publication-sequence)
