@@ -6,10 +6,10 @@ description: Adobe Journey Optimizer 사전 릴리스 정보
 feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: b2098decc7e9d76163f4425c99adda6fa03ca9cf
+source-git-commit: 9d7475d8b0dc941fee3c0769d28c7d9c0f314f44
 workflow-type: tm+mt
-source-wordcount: '1733'
-ht-degree: 21%
+source-wordcount: '1729'
+ht-degree: 20%
 
 ---
 
@@ -36,8 +36,8 @@ ht-degree: 21%
 <tbody>
 <tr>
 <td>
-<p>[!DNL Adobe Journey Optimizer] 이제 MCP 호환 응용 프로그램 내에서 직접 캠페인, 여정, 충성도 및 샌드박스 작업을 표시하는 <strong>MCP(Model Context Protocol) 서버</strong>를 제공합니다. 이 통합을 통해 다양한 가상 사용자가 동일한 오케스트레이션 데이터를 기반으로 공동 작업할 수 있습니다. AJO REST API에 대해 쿼리를 작성하거나 여러 UI 화면을 탐색하는 대신, 사용자의 의도를 대화식으로 설명하고 LLM이 적절한 MCP 도구를 호출하도록 할 수 있습니다. 이 기능은 현재 클라우드 웹 및 데스크탑에서 사용할 수 있습니다.</p>
-<p>이 기능은 현재 Beta에 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.</p>
+<p>[!DNL Adobe Journey Optimizer] 이제 MCP 호환 응용 프로그램 내에서 직접 캠페인, 충성도 및 샌드박스 작업을 표시하는 <strong>MCP(Model Context Protocol) 서버</strong>를 제공합니다. 이 통합을 통해 다양한 가상 사용자가 동일한 오케스트레이션 데이터를 기반으로 공동 작업할 수 있습니다. AJO REST API에 대해 쿼리를 작성하거나 여러 UI 화면을 탐색하는 대신, 사용자의 의도를 대화식으로 설명하고 LLM이 적절한 MCP 도구를 호출하도록 할 수 있습니다. 이 기능은 현재 클라우드 웹 및 데스크탑에서 사용할 수 있습니다.</p>
+<p>이 기능은 공용 Beta의 모든 고객이 사용할 수 있습니다.</p>
 <p>설명서 JIRA 작업: <a href="https://jira.corp.adobe.com/browse/DOCAC-14509">DOCAC-14509</a></p>
 </td>
 </tr>
@@ -400,7 +400,7 @@ ht-degree: 21%
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: March 24-25, 2026
 
@@ -694,7 +694,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: February 17, 2026
 
@@ -947,7 +947,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -1124,7 +1124,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
