@@ -6,9 +6,9 @@ description: Adobe Journey Optimizer 사전 릴리스 정보
 feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 9d7475d8b0dc941fee3c0769d28c7d9c0f314f44
+source-git-commit: 3919d6514554748c4b49987fee70685a4b34b2ff
 workflow-type: tm+mt
-source-wordcount: '1729'
+source-wordcount: '1743'
 ht-degree: 20%
 
 ---
@@ -103,7 +103,7 @@ ht-degree: 20%
 <tbody>
 <tr>
 <td>
-<p>이제 마케터는 공식 및 AI 모델을 사용하여 특정 제한에 따라 여정 선택을 지능적으로 자동화할 수 있습니다. AI 모델은 클릭률, 구매 또는 마케터가 최적화하려는 기타 사용자 지정 지표와 같은 참여 지표를 기반으로 여정 선택을 최적화할 수 있습니다.</p>
+<p>이제 등급 공식에서 AI 모델을 사용하여 고객 프로필 속성 및 컨텍스트 요인에 따라 여정 우선 순위 점수를 자동으로 높여 고객이 가장 관련성이 높은 여정을 입력하도록 할 수 있습니다.</p>
 <p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
 <p>설명서 JIRA 작업: <a href="https://jira.corp.adobe.com/browse/DOCAC-14295">DOCAC-14295</a></p>
 </td>
@@ -369,7 +369,7 @@ ht-degree: 20%
 
 #### 구성
 
-* **URL 매개 변수 암호화에 대한 특정 권한** - &lt;TBC>
+* **URL 매개 변수 암호화 키에 대한 특정 권한** - URL 매개 변수 암호화에 대한 키에 액세스하고 관리하기 위해 새 권한을 만들었습니다. 이제 **키 레지스트리 보기** 및 **키 레지스트리 관리** 권한이 부여되어야 합니다.
 
   설명서 JIRA 작업: [DOCAC-14490](https://jira.corp.adobe.com/browse/DOCAC-14490)
 
