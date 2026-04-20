@@ -9,26 +9,34 @@ badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
 hide: true
-source-git-commit: f2ca2e6e118389949edd8b7263011014a15195ec
+source-git-commit: 31fb00bc82b6bbc664c37beba263ce94851bf8bd
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1418'
 ht-degree: 1%
 
 ---
 
 # MCP 클라이언트(Beta) 작업 {#ajo-mcp}
 
->[!CAUTION]
->
->**Beta 설명서 알림:** 이 설명서는 Beta 기능을 다루고 있으며 최종 설명서를 구성하지 않습니다. 여기에 설명된 콘텐츠는 Beta 릴리스와 관련되며, 일반 공급 이전에 변경될 수 있습니다. Adobe은 이 설명서의 완벽성이나 정확성에 대해 어떠한 표현도 하지 않습니다.
->
->Adobe Journey Optimizer MCP 서버(Beta)(&quot;Beta&quot;)를 사용하면 Beta이 어떠한 종류의 보증도 없이 **&quot;있는 그대로&quot; 제공된다는 것을 인정합니다**. Adobe은 Beta을 유지, 수정, 업데이트, 변경, 수정 또는 지원할 의무가 없습니다. 이러한 Beta 및/또는 동봉된 자료의 올바른 기능이나 성능에 어떤 식으로든 의존하지 말고 주의하는 것이 좋습니다. Beta은 Adobe의 기밀 정보로 간주됩니다. 귀하가 Adobe에 제공한 &quot;피드백&quot;(Beta 사용 중 발생하는 문제 또는 결함, 제안, 개선 사항 및 권장 사항을 포함하되 이에 제한되지 않는 Beta 관련 정보)은 해당 피드백에 대한 모든 권한, 제목 및 관심을 포함하여 Adobe에 할당됩니다.
-
 [!DNL Adobe Journey Optimizer] MCP 통합을 사용하면 API 호출을 작성하거나 제품 화면을 탐색하지 않고도 일반 언어 프롬프트를 사용하여 캠페인 및 오퍼를 쿼리할 수 있습니다. 이 페이지에서는 통합 작동 방식, 통합 기능으로 수행할 수 있는 작업 및 시작 방법을 설명합니다.
 
 >[!AVAILABILITY]
 >
 >[!DNL Adobe Journey Optimizer] MCP 서버는 현재 **클라우드 웹** 및 **클라우드 데스크톱**&#x200B;에서만 사용할 수 있습니다. 추가 MCP 호환 애플리케이션에 대한 지원은 향후 릴리스에 추가될 예정입니다.
+
+## Beta, 보안 및 법적 고지 사항 {#mcp-notices}
+
+**Beta 설명서 알림:** 이 설명서는 Beta 기능을 다루고 있으며 최종 설명서를 구성하지 않습니다. 여기에 설명된 콘텐츠는 Beta 릴리스와 관련되며, 일반 공급 이전에 변경될 수 있습니다. Adobe은 이 설명서의 완벽성이나 정확성에 대해 어떠한 표현도 하지 않습니다.
+
+Adobe Journey Optimizer MCP 서버(Beta)(&quot;Beta&quot;)를 사용하면 Beta이 어떠한 종류의 보증도 없이 **&quot;있는 그대로&quot; 제공된다는 것을 인정합니다**. Adobe은 Beta을 유지, 수정, 업데이트, 변경, 수정 또는 지원할 의무가 없습니다. 이러한 Beta 및/또는 동봉된 자료의 올바른 기능이나 성능에 어떤 식으로든 의존하지 말고 주의하는 것이 좋습니다. Beta은 Adobe의 기밀 정보로 간주됩니다. 귀하가 Adobe에 제공한 &quot;피드백&quot;(Beta 사용 중 발생하는 문제 또는 결함, 제안, 개선 사항 및 권장 사항을 포함하되 이에 제한되지 않는 Beta 관련 정보)은 해당 피드백에 대한 모든 권한, 제목 및 관심을 포함하여 Adobe에 할당됩니다.
+
+>[!WARNING]
+>
+>MCP(Model Context Protocol)는 새로운 오픈 소스 표준이며 보안 또는 신뢰성 위험을 제시할 수 있습니다. Adobe MCP 서버 통합 및 관련 설명서는 어떠한 종류의 보증도 없이 &quot;있는 그대로&quot; 제공됩니다.
+>
+>MCP 클라이언트 또는 서버를 Adobe 제품에 연결하는 것은 고객이 선택한 구성입니다. 고객은 MCP 통합의 보안 및 적합성을 평가할 책임이 있습니다. Adobe은 잘못된 구성, MCP 오용, 서드파티 구현의 취약점 또는 MCP 지원 워크플로우를 통해 수행된 의도하지 않은 작업으로 인해 발생하는 문제에 대해 책임을 지지 않습니다.
+>
+>위험을 줄이기 위해 Adobe에서는 생산적 사용을 시작하기 전에 샌드박스 환경에서 통합을 테스트하고, 이를 확인하거나 의존하기 전에 모든 MCP에서 시작한 작업과 응답을 주의 깊게 검토하고 유효성을 검사하는 것을 권장합니다.
 
 ## 모델 컨텍스트 프로토콜이란 무엇입니까? {#mcp-overview}
 
