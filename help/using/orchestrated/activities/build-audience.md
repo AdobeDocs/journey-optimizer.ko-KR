@@ -5,10 +5,10 @@ title: 대상자 작성 활동 사용
 description: 오케스트레이션된 캠페인에서 대상자 빌드 활동을 사용하는 방법을 알아봅니다
 exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: f8ddcd970f61018004ae1387fee2881d3a76c763
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 74%
+source-wordcount: '337'
+ht-degree: 64%
 
 ---
 
@@ -54,3 +54,7 @@ ht-degree: 74%
 다음은 두 개의 **[!UICONTROL 대상자 작성]** 활동을 통해 오케스트레이션된 캠페인의 예입니다. 첫 번째는 장바구니에 상품을 담은 프로필, 이메일 게재 순으로 타겟팅합니다. 두 번째는 위시리스트를 포함한 프로필, SMS 게재 순으로 타겟팅합니다.
 
 ![](../assets/build-audience-2.png)
+
+아래 예에서 **[!UICONTROL 대상자 작성]** 활동은 규칙 빌더를 사용하여 구독 플랜별로 프로필을 필터링합니다. `plan`인 프로필만 포함하도록 조건이 `plan = "basic"` 특성에 설정되어 다음 활동으로 전달하기 전에 대상을 기본 계층 구독자로 좁힙니다.
+
+![](../assets/build-audience-plan.png){width="50%" align="left"}

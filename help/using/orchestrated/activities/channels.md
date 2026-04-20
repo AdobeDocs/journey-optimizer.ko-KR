@@ -5,10 +5,10 @@ title: 여러 단계로 구성된 캠페인에 채널 활동 추가
 description: 여러 단계로 구성된 캠페인에 채널 활동을 추가하는 방법 알아보기
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: ef53fc88dfeb05b171b8aa819830c9fb771697f6
 workflow-type: tm+mt
-source-wordcount: '1682'
-ht-degree: 41%
+source-wordcount: '1769'
+ht-degree: 39%
 
 ---
 
@@ -91,6 +91,22 @@ UNUSED IDs in BJ
 
 1. **[!UICONTROL 속성]** 탭에서 설명을 입력한 다음 **[!UICONTROL 액션]** 탭으로 전환하여 활동을 구성합니다.
 
+## 마케팅 및 트랜잭션 메시지 {#marketing-vs-transactional}
+
+올바른 범주를 선택하면 메시지 전달 방법과 적용되는 규칙이 결정됩니다.
+
+| | 마케팅 | 트랜잭션 |
+| --- | --- | --- |
+| **옵트인 필요** | 예 | 아니요 |
+| **비즈니스 규칙** | 적용됨(빈도 제한, 피로도 규칙) | 무시됨 |
+| **채널 구성 유형** | 마케팅 채널 구성 | 트랜잭션 채널 구성 |
+| **일반적인 사용 사례** | 프로모션, 뉴스레터, 시즌 캠페인 | 주문 확인, 암호 재설정, 중단 경고 |
+| **대상자** | 옵트인 구독자만 | 옵트인 상태에 관계없이 모든 프로필 |
+
+>[!NOTE]
+>
+>운영 또는 시간에 민감한 커뮤니케이션에만 트랜잭션 을 사용합니다. 홍보 메시지를 거래로 잘못 분류하면 동의 및 비즈니스 규칙이 우회하여 규정 요구 사항을 위반할 수 있습니다.
+
 ## 채널 구성 및 설정 설정 {#configuration}
 
 **[!UICONTROL 액션]** 탭을 사용하여 메시지의 채널 구성을 선택하고 추적, 콘텐츠 실험 또는 다국어 콘텐츠와 같은 추가 설정을 구성합니다.
@@ -125,7 +141,7 @@ UNUSED IDs in BJ
 
 +++**빠른 전송 모드를 사용**(푸시)합니다.
 
-빠른 전송 모드는 캠페인을 통해 대량으로 매우 빠른 푸시 메시지를 전송할 수 있는 [!DNL Journey Optimizer] 추가 기능입니다. 신속한 전달은 메시지 전달 지연이 비즈니스에 중요한 경우 사용됩니다. 예를 들어 뉴스 채널 앱을 설치한 사용자에게 속보 등 휴대폰에 긴급 푸시 알림을 전송하려는 경우가 있습니다. 푸시 알림에 대해 빠른 전송 모드를 사용하는 방법을 알아봅니다. [&#x200B; 이 페이지](../../push/create-push.md#rapid-delivery).
+빠른 전송 모드는 캠페인을 통해 대량으로 매우 빠른 푸시 메시지를 전송할 수 있는 [!DNL Journey Optimizer] 추가 기능입니다. 신속한 전달은 메시지 전달 지연이 비즈니스에 중요한 경우 사용됩니다. 예를 들어 뉴스 채널 앱을 설치한 사용자에게 속보 등 휴대폰에 긴급 푸시 알림을 전송하려는 경우가 있습니다. 푸시 알림에 대해 빠른 전송 모드를 사용하는 방법을 알아봅니다. [ 이 페이지](../../push/create-push.md#rapid-delivery).
 
 빠른 전송 모드를 사용할 때의 성능에 대한 자세한 내용은 [Adobe Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}을 참조하세요.
 
