@@ -6,9 +6,9 @@ description: Adobe Journey Optimizer 사전 릴리스 정보
 feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 90bc3ad994e941d0e888cabb327b934719a03a5b
+source-git-commit: 121171b536964efef5fdb1a7f1390bf10719735e
 workflow-type: tm+mt
-source-wordcount: '1828'
+source-wordcount: '1724'
 ht-degree: 17%
 
 ---
@@ -27,22 +27,23 @@ Adobe Journey Optimizer은 새로운 기능, 기존 기능 개선 사항 및 버
 
 ### 새로운 기능 {#april-26-features}
 
+
 <table>
 <thead>
 <tr>
-<th><strong>MCP를 통한 Journey Optimizer AI 에이전트 통합</strong><br/></th>
+<th><strong>여정 시뮬레이션</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 Adobe Journey Optimizer은 MCP 호환 애플리케이션 내에서 직접 캠페인, 충성도 및 샌드박스 작업을 표시하는 <strong>MCP(Model Context Protocol) 서버</strong>를 제공합니다. 이 통합을 통해 다양한 가상 사용자가 동일한 오케스트레이션 데이터를 기반으로 공동 작업할 수 있습니다. AJO REST API에 대해 쿼리를 작성하거나 여러 UI 화면을 탐색하는 대신, 사용자의 의도를 대화식으로 설명하고 LLM이 적절한 MCP 도구를 호출하도록 할 수 있습니다. 이 기능은 현재 클라우드 웹 및 데스크탑에서 사용할 수 있습니다.</p>
-<p>이 기능은 공용 Beta의 모든 고객이 사용할 수 있습니다.</p>
-<p>설명서 JIRA 작업: <a href="https://jira.corp.adobe.com/browse/DOCAC-14509">DOCAC-14509</a></p>
+<p>이제 여정을 <strong>시뮬레이션</strong>(으)로 설정할 수 있습니다. 이 모드를 사용하면 <strong>시뮬레이션된 사용자</strong>를 사용하여 논리의 유효성을 검사할 수 있습니다. 이러한 프로필은 시뮬레이션을 위해 특별히 생성된 임시 프로필로서, Adobe Experience Platform에서 지속적인 테스트 프로필을 관리할 필요 없이 자유롭게 테스트할 수 있습니다.</p>
+<p>설명서 JIRA 작업: <a href="https://jira.corp.adobe.com/browse/DOCAC-14050">DOCAC-14050</a></p>
 </td>
 </tr>
 </tbody>
 </table>
+
 
 <table>
 <thead>
@@ -60,6 +61,77 @@ Adobe Journey Optimizer은 새로운 기능, 기존 기능 개선 사항 및 버
 </tr>
 </tbody>
 </table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>여정 및 캠페인용 폴더</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 여정 및 캠페인을 <strong>폴더</strong>(으)로 구성하여 인터페이스에서 탐색 및 관리를 개선할 수 있습니다.</p>
+<p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
+<p>설명서 JIRA 작업: <a href="https://jira.corp.adobe.com/browse/DOCAC-14038">DOCAC-14038</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>MCP를 통한 Journey Optimizer AI 에이전트 통합</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 Adobe Journey Optimizer은 MCP 호환 애플리케이션 내에서 직접 캠페인, 충성도 및 샌드박스 작업을 표시하는 <strong>MCP(Model Context Protocol) 서버</strong>를 제공합니다. 이 통합을 통해 다양한 가상 사용자가 동일한 오케스트레이션 데이터를 기반으로 공동 작업할 수 있습니다. AJO REST API에 대해 쿼리를 작성하거나 여러 UI 화면을 탐색하는 대신, 사용자의 의도를 대화식으로 설명하고 LLM이 적절한 MCP 도구를 호출하도록 할 수 있습니다. 이 기능은 현재 클라우드 웹 및 데스크탑에서 사용할 수 있습니다.</p>
+<p>이 기능은 공용 Beta의 모든 고객이 사용할 수 있습니다.</p>
+<p>설명서 JIRA 작업: <a href="https://jira.corp.adobe.com/browse/DOCAC-14509">DOCAC-14509</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>오케스트레이션된 캠페인용 샌드박스 사본</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 <strong>샌드박스 도구</strong>에서 패키지를 통해 샌드박스 간 <strong>오케스트레이션된 캠페인</strong> 내보내기 및 가져오기를 지원합니다.</p>
+<p>설명서 JIRA 작업: <a href="https://jira.corp.adobe.com/browse/DOCAC-13760">DOCAC-13760</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>오케스트레이션된 캠페인의 증분 쿼리 활동</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 <strong>오케스트레이션된 캠페인</strong>에서 <strong>증분 쿼리</strong> 활동을 사용할 수 있습니다. 이 타깃팅 활동은 캠페인이 실행될 때마다 쿼리를 실행하고 이전 실행에서 반환되지 않은 레코드만 반환합니다. 동일한 프로필을 다시 타겟팅하지 않고 새 등록, 새 골드 멤버 또는 기타 "마지막 실행 이후 신규" 세그먼트만 메시지나 내보낼 수 있습니다.</p>
+<p>설명서 JIRA 작업: <a href="https://jira.corp.adobe.com/browse/DOCAC-14262">DOCAC-14262</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 <table>
 <thead>
@@ -81,39 +153,6 @@ Adobe Journey Optimizer은 새로운 기능, 기존 기능 개선 사항 및 버
 <table>
 <thead>
 <tr>
-<th><strong>여정 및 캠페인용 폴더</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 여정 및 캠페인을 <strong>폴더</strong>(으)로 구성하여 인터페이스에서 탐색 및 관리를 개선할 수 있습니다.</p>
-<p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
-<p>설명서 JIRA 작업: <a href="https://jira.corp.adobe.com/browse/DOCAC-14038">DOCAC-14038</a></p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>오케스트레이션된 캠페인용 샌드박스 사본</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 <strong>샌드박스 도구</strong>에서 패키지를 통해 샌드박스 간 <strong>오케스트레이션된 캠페인</strong> 내보내기 및 가져오기를 지원합니다.</p>
-<p>설명서 JIRA 작업: <a href="https://jira.corp.adobe.com/browse/DOCAC-13760">DOCAC-13760</a></p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>AI 받은 편지함에 대한 이메일 최적화: 업데이트된 워크플로</strong><br/></th>
 </tr>
 </thead>
@@ -127,55 +166,25 @@ Adobe Journey Optimizer은 새로운 기능, 기존 기능 개선 사항 및 버
 </tbody>
 </table>
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>오케스트레이션된 캠페인의 증분 쿼리 활동</strong><br/></th>
+<th><strong>Journey fragments</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 <strong>오케스트레이션된 캠페인</strong>에서 <strong>증분 쿼리</strong> 활동을 사용할 수 있습니다. 이 타깃팅 활동은 캠페인이 실행될 때마다 쿼리를 실행하고 이전 실행에서 반환되지 않은 레코드만 반환합니다. 동일한 프로필을 다시 타겟팅하지 않고 새 등록, 새 골드 멤버 또는 기타 "마지막 실행 이후 신규" 세그먼트만 메시지나 내보낼 수 있습니다.</p>
-<p>설명서 JIRA 작업: <a href="https://jira.corp.adobe.com/browse/DOCAC-14262">DOCAC-14262</a></p>
+<p><strong>Journey fragments</strong> are reusable sets of journey nodes that you can build once and drop into any journey across your sandbox. Whether it's an eligibility check, a preferred channel routing logic, or a welcome sequence, fragments help teams move faster and stay consistent — without rebuilding the same logic from scratch every time. Once created, fragments are stored in a dedicated <strong>Fragment inventory</strong> and can be inserted into any journey using the <strong>Journey fragments</strong> activity.</p>
+<p>This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
+<p>Documentation JIRA task: <a href="https://jira.corp.adobe.com/browse/DOCAC-11529">DOCAC-11529</a></p>
+<p>Availability date: May 4, 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
-
-<table>
-<thead>
-<tr>
-<th><strong>여정 시뮬레이션</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 여정을 <strong>시뮬레이션</strong>(으)로 설정할 수 있습니다. 이 모드를 사용하면 <strong>시뮬레이션된 사용자</strong>를 사용하여 논리의 유효성을 검사할 수 있습니다. 이러한 프로필은 시뮬레이션을 위해 특별히 생성된 임시 프로필로서, Adobe Experience Platform에서 지속적인 테스트 프로필을 관리할 필요 없이 자유롭게 테스트할 수 있습니다.</p>
-<p>설명서 JIRA 작업: <a href="https://jira.corp.adobe.com/browse/DOCAC-14050">DOCAC-14050</a></p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>여정 조각</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p><strong>여정 조각</strong>은(는) 한 번 빌드하고 샌드박스 전체에서 모든 여정에 드롭할 수 있는 재사용 가능한 여정 노드 집합입니다. 자격 확인, 기본 채널 라우팅 논리 또는 환영 시퀀스 중 어느 것이든 조각은 팀이 더 빨리 이동하고 일관성을 유지하는 데 도움이 됩니다. 매번 처음부터 동일한 논리를 다시 작성하지 않아도 됩니다. 조각이 만들어지면 전용 <strong>조각 인벤토리</strong>에 저장되고 <strong>여정 조각</strong> 활동을 사용하여 모든 여정에 삽입할 수 있습니다.</p>
-<p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
-<p>설명서 JIRA 작업: <a href="https://jira.corp.adobe.com/browse/DOCAC-11529">DOCAC-11529</a></p>
-<p>사용 가능한 날짜: 2026년 5월 4일 화요일</p>
-</td>
-</tr>
-</tbody>
-</table>
+-->
 
 <table>
 <thead>
