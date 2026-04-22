@@ -10,7 +10,7 @@ level: Intermediate
 badge: label="제한된 가용성" type="Informative"
 keywords: 암호화, URL, 추적, 랜딩 페이지, 키 레지스트리, 개인화, 보안, 개인 정보, 샌드박스
 exl-id: 82e2b6e4-769f-4bdc-b2e2-19352fbaec8e
-source-git-commit: 5c8d615b5f6b2c2cb80a21c59f3ea5f12325e6fd
+source-git-commit: 1039daee3b328828361976513cc4d1ba5ce1169a
 workflow-type: tm+mt
 source-wordcount: '693'
 ht-degree: 2%
@@ -101,3 +101,4 @@ URL 매개 변수 암호화 도우미를 사용하려면 먼저 키를 만들어
    >[!NOTE]
    >
    >개인화 편집기에서 새 값을 암호화하려면 활성 키만 선택해야 합니다. 새 콘텐츠에 대해 해지된 키를 사용하지 마십시오.
+
