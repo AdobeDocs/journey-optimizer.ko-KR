@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: ed45338736108969831bee4317a1bc4cd40c4dc7
+source-git-commit: 2ed9e23201e2f7459609b1e387a1c5ac64af4e85
 workflow-type: tm+mt
-source-wordcount: '6969'
+source-wordcount: '7025'
 ht-degree: 69%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 69%
 이 페이지에는 월별 릴리스 기능 및 개선 사항과 관련된 업데이트 외에도 [!DNL Journey Optimizer] 설명서의 모든 최신 변경 사항이 나와 있습니다.
 
 ## 2026년 4월 {#april-2026}
+
+* **전자 메일에 CC 필드 추가** 설명서의 보호 기능이 향상되었습니다. 이제 CC 주소가 동의 또는 억제에 대해 검사되지 않으며, CC 주소로 전송된 이메일에서 열고 클릭스루하는 것이 전송 분석에서 열린 총 횟수와 클릭수로 고려되도록 지정합니다. [자세히 보기](../configuration/cc-email-field.md)
 
 * **채널 활동** 설명서에 두 채널 범주(옵트인 요구 사항, 비즈니스 규칙 응용 프로그램, 채널 구성 유형 및 권장 사용 사례) 간의 동작 차이를 설명하는 새로운 **마케팅 및 트랜잭션 메시지** 섹션이 업데이트되었습니다. [자세히 보기](../orchestrated/activities/channels.md#marketing-vs-transactional)
 
