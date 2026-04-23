@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 랜딩, 랜딩 페이지, 작성, 페이지, 양식
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: d0dd382521aeb2c7e18dc547c2ec55fa1472ab8d
+source-git-commit: 26d0fa859d1ef161ac62674cd38d7620429c24d3
 workflow-type: tm+mt
 source-wordcount: '2029'
 ht-degree: 7%
@@ -33,6 +33,12 @@ ht-degree: 7%
 >title="데이터 세트 선택"
 >abstract="양식 응답을 저장하고 반영할 데이터 세트를 정의합니다. 특정 데이터 세트를 검색하도록 입력하거나 목록에서 선택할 수 있습니다."
 
+<!--
+>[!NOTE]
+>
+>To access and edit form presets, you must have the **[!UICONTROL View form presets]**, **[!UICONTROL Manage form presets]**, and **[!UICONTROL Publish form presets]** permissions. Learn more about permissions in [this section](../administration/high-low-permissions.md#administration-permissions).
+-->
+
 양식을 만들려면 먼저 양식 제출 데이터가 전송되는 연결 끝점을 선택하는 전용 사전 설정과 양식을 통해 캡처한 데이터가 저장되는 데이터 세트를 만들어야 합니다.
 
 스트리밍 끝점에 데이터가 도달하면 데이터 세트 정보와 연결됩니다. 그런 다음 생성된 소스/타겟 연결 및 소스 흐름을 사용하여 데이터가 데이터 세트로 푸시됩니다.
@@ -45,12 +51,6 @@ ht-degree: 7%
    * **Source 연결** - 데이터가 생성되는 위치입니다.
    * **대상 연결** - 데이터가 저장되거나 사용되는 위치입니다.
    * **Source 흐름** - 매핑, 변환 및 유효성 검사를 처리하고 소스 연결에서 [!DNL Experience Platform]&#x200B;(으)로 데이터를 이동하는 파이프라인.
-
-<!--
->[!NOTE]
->
-> To access and edit form presets, you must have the **[!UICONTROL Manage form presets]** permission on the production sandbox. Learn more about permissions in [this section](../administration/high-low-permissions.md#administration-permissions).TBC
--->
 
 양식 사전 설정을 만들려면 아래 단계를 수행합니다.
 
@@ -84,6 +84,12 @@ ht-degree: 7%
 1. **[!UICONTROL 게시]**&#x200B;를 클릭합니다. 이제 사전 설정을 양식에서 사용할 준비가 되었습니다.
 
 ## 양식 액세스 및 관리 {#access-forms}
+
+<!--
+>[!NOTE]
+>
+>To access and edit forms, you must have the **[!UICONTROL View forms]**, **[!UICONTROL Manage forms]**, and **[!UICONTROL Publish forms]** permissions. Learn more about permissions in [this section](../administration/high-low-permissions.md#administration-permissions).
+-->
 
 양식 목록에 액세스하려면 왼쪽 메뉴에서 **[!UICONTROL 콘텐츠 관리]** > **[!UICONTROL Forms]**&#x200B;을(를) 선택하십시오.
 
