@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4d5808f5485a524c08f8a16a442fce08d4baedb5
+source-git-commit: d92712c7e9279d2d86a56b3d22d77adfffe11d7d
 workflow-type: tm+mt
-source-wordcount: '2569'
+source-wordcount: '2631'
 ht-degree: 22%
 
 ---
@@ -30,6 +30,26 @@ ht-degree: 22%
 ## 2026년 4월 업데이트 {#april-26-rn}
 
 ### 새로운 기능 {#april-26-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Adobe Express 통합</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer의 <b>Adobe Express 통합</b>을(를) 사용하면 콘텐츠를 만드는 동안 Adobe Express의 편집 도구를 직접 사용할 수 있으므로 에셋의 크기를 조정하고, 배경을 제거하고, 자르고, JPEG 또는 PNG로 변환할 수 있습니다.
+</p>
+<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
+<p><img src="assets/do-not-localize/express_resize.gif"></p>
+<p>자세한 내용은 <a href="../integrations/express.md">세부 설명서</a>를 참조하십시오.</p>
+<p>가용성 일자: 2026년 4월 23일 금요일</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
