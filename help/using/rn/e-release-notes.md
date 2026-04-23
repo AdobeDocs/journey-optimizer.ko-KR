@@ -6,9 +6,9 @@ description: Adobe Journey Optimizer 사전 릴리스 정보
 feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 7944c8b391a6af0c58dc6f2727270a48ab7ac347
+source-git-commit: dd17038e3bae77f9de2642d2578e5fa4cad54d43
 workflow-type: tm+mt
-source-wordcount: '2138'
+source-wordcount: '2189'
 ht-degree: 14%
 
 ---
@@ -322,6 +322,12 @@ Adobe Journey Optimizer은 새로운 기능, 기존 기능 개선 사항 및 버
 
   가용성 일자: 2026년 4월 9일 금요일
 
+#### 푸시
+
+* **채널 설정에서 앱 ID 개인화** - 이제 푸시 채널 구성 설정에서 **앱 ID** 필드를 개인화할 수 있으므로 각 수신자는 프로필 정보를 기반으로 해당 브랜드에서 푸시 알림을 받을 수 있습니다.
+
+  설명서 JIRA 작업: [DOCAC-14592](https://jira.corp.adobe.com/browse/DOCAC-14592)
+
 #### SMS
 
 * **문자 수** - 이제 Adobe Journey Optimizer에서 문자 수를 사용하여 SMS 메시지의 길이를 실시간으로 모니터링할 수 있습니다. 이렇게 하면 메시지를 여러 세그먼트로 분할하여 서식을 보다 효율적으로 관리하고 예기치 않은 전송 비용 증가를 방지할 수 있습니다. [자세히 보기](../sms/create-sms.md)
@@ -396,7 +402,7 @@ Adobe Journey Optimizer은 새로운 기능, 기존 기능 개선 사항 및 버
 
 #### 오케스트레이션된 캠페인
 
-* **데이터 Modeler 개선 사항** - 오케스트레이션된 관계형 스키마의 경우 데이터 Modeler에서 이제 여러 필드를 사용하여 복합 키 만들기를 지원합니다. 테이블 간의 복합 관계는 DDL 또는 Excel 파일에서 스키마를 로드할 때 생성됩니다. 엔티티 관계 보기에서 파일을 업로드한 후 합성 링크에 테이블 간의 전체 필드 연결 집합이 표시됩니다.
+* **데이터 Modeler 개선 사항** - 이제 오케스트레이션된 관계형 스키마가 여러 필드에 걸친 복합 키를 지원합니다. DDL 파일에서 스키마를 로드하면 열거형이 발생하고 DDL 또는 Excel 파일에서 로드하면 자동으로 테이블 간에 복합 관계가 만들어집니다. 이제 엔티티 관계 보기에서 합성 링크는 파일을 업로드한 후 테이블 간의 전체 필드 연결 집합을 표시합니다.
 
   설명서 JIRA 작업: [DOCAC-14334](https://jira.corp.adobe.com/browse/DOCAC-14334)
 
