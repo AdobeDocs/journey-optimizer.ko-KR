@@ -5,12 +5,11 @@ title: Journey Optimizer에서 Adobe Express을 사용하여 에셋 편집
 description: Adobe Express 시작
 feature: Assets, Integrations
 topic: Content Management, Integrations
-badge: label="제한된 가용성" type="Informative"
 role: User
 level: Beginner
 keywords: 에셋, 통합
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: d92712c7e9279d2d86a56b3d22d77adfffe11d7d
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 18%
@@ -24,14 +23,13 @@ ht-degree: 18%
 >title="Adobe Express 통합"
 >abstract="Adobe Express 통합 기능을 활용하여 자산을 개인화합니다. 이 기능을 사용하면 이미지 크기를 조정하고, 배경을 제거하고, 시각 자료를 자르고, 자산을 JPEG 또는 PNG로 변환할 수 있습니다."
 
+>[!IMPORTANT]
+>
+>Adobe Express 통합을 사용하면 데이터가 Journey Optimizer에서 제거됩니다. PHI 또는 기타 상태 데이터와 이 통합을 사용하지 마십시오.
+
 Adobe Journey Optimizer의 Adobe Express 통합을 통해 콘텐츠를 만드는 동안 Adobe Express의 강력한 편집 도구에 쉽게 액세스할 수 있습니다. 이 통합을 통해 여러 솔루션 간에 전환할 필요 없이 이미지 크기를 조정하고, 배경을 제거하고, 시각적 개체를 자르고, 자산을 JPEG 또는 PNG로 변환할 수 있습니다.
 
 <img src="../rn/assets/do-not-localize/express_resize.gif">
-
-
->[!AVAILABILITY]
->
->Adobe Journey Optimizer의 Adobe Express 통합은 현재 Healthcare Shield 또는 Privacy and Security Shield에서 사용할 수 없습니다.
 
 Adobe Express에 대한 자세한 내용은 [이 설명서](https://helpx.adobe.com/kr/express/user-guide.html)를 참조하세요.
 
@@ -41,7 +39,7 @@ Adobe Express에 대한 자세한 내용은 [이 설명서](https://helpx.adobe.
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
 
-## 엔터프라이즈 라이선스와 함께 Adobe Express 사용 {#licence}
+## Enterprise 라이선스와 함께 Adobe Express 사용 {#licence}
 
 아래 섹션에 설명된 기능은 Adobe Express Enterprise 라이센스가 없는 사용자가 액세스할 수 있습니다.
 
@@ -49,9 +47,9 @@ Enterprise 라이선스를 사용하면 사용자가 Adobe Express 웹 편집기
 
 ![](assets/express-licence.png)
 
-Adobe Express용 Enterprise 라이선스가 있는 사용자가 사용할 수 있는 사용 사례에 대한 자세한 내용은 [Adobe Express 웹 설명서](https://helpx.adobe.com/kr/express/web.html)를 참조하세요.
+Adobe Express용 Enterprise 라이선스가 있는 사용자가 사용할 수 있는 사용 사례에 대한 자세한 내용은 [Adobe Express 웹 설명서](https://helpx.adobe.com/express/web.html)를 참조하세요.
 
-## 엔터프라이즈 라이선스 없이 Adobe Express 사용  {#edit}
+## Enterprise 라이선스 없이 Adobe Express 사용  {#edit}
 
 Enterprise 라이센스가 없는 사용자는 Adobe Express에서 사용할 수 있는 다음 사용 사례에 액세스할 수 있습니다.
 
@@ -148,7 +146,7 @@ Enterprise 라이센스가 없는 사용자는 Adobe Express에서 사용할 수
 
 Adobe Express 도구를 사용하여 Adobe Journey Optimizer에서 자산을 편집하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3455530/?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
 
 
 
