@@ -6,10 +6,10 @@ description: Adobe Journey Optimizer 사전 릴리스 정보
 feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 36ccd3383eef4bed54e727a74bf0db6c7a34fe43
+source-git-commit: a68397c6d77fd5b1a76bd87c340a86d9e27c2b50
 workflow-type: tm+mt
-source-wordcount: '1817'
-ht-degree: 16%
+source-wordcount: '2023'
+ht-degree: 15%
 
 ---
 
@@ -305,6 +305,32 @@ Adobe Journey Optimizer은 새로운 기능, 기존 기능 개선 사항 및 버
 
   가용성 일자: 2026년 4월 9일 금요일
 
+#### SMS
+
+* **문자 수** - 이제 Adobe Journey Optimizer에서 문자 수를 사용하여 SMS 메시지의 길이를 실시간으로 모니터링할 수 있습니다. 이렇게 하면 메시지를 여러 세그먼트로 분할하여 서식을 보다 효율적으로 관리하고 예기치 않은 전송 비용 증가를 방지할 수 있습니다. [자세히 보기](../sms/create-sms.md)
+
+  설명서 JIRA 작업: [DOCAC-14346](https://jira.corp.adobe.com/browse/DOCAC-14346)
+
+* **전화 번호 및 발신자에서의 옵트아웃 및 동의** - 이제 SMS의 경우 Journey Optimizer에서 프로필의 전화 번호와 짧은 코드 수준에서 마케팅 동의 및 옵트아웃을 기록합니다. 프로필의 전화 번호가 변경되면 이전 번호에 연결된 동의가 새 번호로 전송되지 않습니다. 수신자는 모든 메시지가 특정 번호 및 발신자 수준에서 동의로 정렬되도록 다시 옵트인해야 합니다.
+
+  이 기능은 현재 Sinch SMS 구성에만 사용할 수 있습니다. [자세히 보기](../sms/sms-configuration-sinch.md)
+
+  설명서 JIRA 작업: [DOCAC-14344](https://jira.corp.adobe.com/browse/DOCAC-14344)
+
+* **사용자 지정 데이터 세트 선택 지원** - 인바운드 SMS 이벤트를 사용자가 선택한 **사용자 지정 데이터 세트**&#x200B;에 쓸 수 있으므로 대상자와 여정이 기본 메시지 피드백 경로 및 스트리밍 대상 새로 고침을 기다리는 것보다 빨리 해당 데이터를 사용할 수 있습니다. 이는 **양방향 SMS**&#x200B;에 유용합니다. [자세히 보기](../sms/sms-webhook.md)
+
+  설명서 JIRA 작업: [DOCAC-14356](https://jira.corp.adobe.com/browse/DOCAC-14356)
+
+* **Webhook 인터페이스 개선 사항** - SMS Webhooks를 구성할 때 이제 사용자 인터페이스에 실제 예제가 포함된 기본 제공 설정 가이드가 포함되어 있으므로 구성 흐름을 종료하지 않고도 공급자 페이로드를 조정하고 문제를 해결할 수 있습니다. [자세히 보기](../sms/sms-webhook.md)
+
+  설명서 JIRA 작업: [DOCAC-14589](https://jira.corp.adobe.com/browse/DOCAC-14589)
+
+#### WhatsApp
+
+* **WhatsApp 대화형 단추 및 추적** - 이제 Journey Optimizer의 WhatsApp이 템플릿과 사용 사례에 필요한 대화형 단추 및 내장된 대화형 추적을 지원하므로 다른 채널 보고와 함께 참여를 측정하고 성능을 분석할 수 있습니다.
+
+  설명서 JIRA 작업: [DOCAC-14590](https://jira.corp.adobe.com/browse/DOCAC-14590)
+
 #### 여정 경로 최적화
 
 * **실험 유형** - 이제 경로 실험을 구성할 때 A/B 실험(시작 시 고정 분할) 또는 Multi-armed bandit(주별 가중치 업데이트가 있는 자동 분할) 중에서 선택할 수 있습니다. [자세히 보기](../building-journeys/path-experimentation.md)
@@ -321,7 +347,7 @@ Adobe Journey Optimizer은 새로운 기능, 기존 기능 개선 사항 및 버
 
 #### Adobe Experience Manager 통합
 
-* **콘텐츠 관리자 선택기** - 이제 AEM Assets 및 콘텐츠 조각 선택기가 모든 AEM Assets 및 AEM 콘텐츠 조각을 검색, 검색, 필터링 및 액세스할 수 있는 통합 모달인 **콘텐츠 관리자 선택기**&#x200B;로 대체되었습니다. Dynamic Media 렌디션 지원도 포함되어 있으므로 Dynamic Media 에셋을 선택한 경우 UI에서 이미지 렌디션을 추가할 수 있습니다. 이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).
+* **콘텐츠 관리자 선택기** - 이제 Adobe Experience Manager Assets 및 콘텐츠 조각 선택기가 모든 AEM Assets 및 AEM 콘텐츠 조각을 검색, 검색, 필터링 및 액세스할 수 있는 통합 모달인 **콘텐츠 관리자 선택기**&#x200B;로 대체되었습니다. Dynamic Media 렌디션 지원도 포함되어 있으므로 Dynamic Media 에셋을 선택한 경우 UI에서 이미지 렌디션을 추가할 수 있습니다. 이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).
 
   설명서 JIRA 작업: [DOCAC-13802](https://jira.corp.adobe.com/browse/DOCAC-13802)
 
@@ -337,11 +363,13 @@ Adobe Journey Optimizer은 새로운 기능, 기존 기능 개선 사항 및 버
 
   가용성 일자: 2026년 4월 1일 목요일
 
+<!--
 #### WhatsApp
 
-* **WhatsApp 채널: 포함된 등록** - 이제 Adobe Journey Optimizer에서 WhatsApp 채널 구성에 대해 Meta의 <strong>포함된 등록</strong> 흐름을 지원합니다. 이 간소화된 온보딩 환경을 사용하면 <strong>Meta Business Manager</strong>(으)로 이동하지 않고도 <strong>WhatsApp Business 계정</strong> 및 전화 번호를 AJO 인터페이스 내에서 직접 연결할 수 있으므로 설정 시간이 크게 단축됩니다. 또한 기존 전화 번호와 <strong>WABA(WhatsApp Business Accounts)</strong>을(를) Adobe으로 전송하는 마이그레이션 도구로도 사용됩니다.
+* **WhatsApp Channel: Embedded Sign Up** - Adobe Journey Optimizer now supports Meta's <strong>Embedded Sign Up</strong> flow for WhatsApp channel configuration. This streamlined onboarding experience allows you to connect your <strong>WhatsApp Business Account</strong> and phone numbers directly within the AJO interface, without navigating to <strong>Meta Business Manager</strong>, reducing setup time significantly. It also serves as a migration tool to transfer existing phone numbers and <strong>WhatsApp Business Accounts (WABAs)</strong> to Adobe.
 
-  설명서 JIRA 작업: [DOCAC-13386](https://jira.corp.adobe.com/browse/DOCAC-13386)
+  Documentation JIRA task: [DOCAC-13386](https://jira.corp.adobe.com/browse/DOCAC-13386)
+-->
 
 #### 구성
 
@@ -362,7 +390,7 @@ Adobe Journey Optimizer은 새로운 기능, 기존 기능 개선 사항 및 버
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: March 24-25, 2026
 
@@ -653,7 +681,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: February 17, 2026
 
@@ -906,7 +934,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -1083,7 +1111,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
