@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 2ed9e23201e2f7459609b1e387a1c5ac64af4e85
+source-git-commit: 0980d5da677edb4cf21b7a86549ffc32d0b666a1
 workflow-type: tm+mt
-source-wordcount: '7025'
-ht-degree: 69%
+source-wordcount: '7188'
+ht-degree: 68%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 69%
 
 ## 2026년 4월 {#april-2026}
 
+* **차원 변경** 활동 설명서에 외부 조인을 사용하고 차원 변경 단계에서 모든 레코드를 유지하는 동안 새 타겟팅 차원에 일치하는 프로필이 없는 레코드는 메시지 게재 시 자동으로 제외된다는 점을 명확히 설명했습니다. [자세히 보기](../orchestrated/activities/change-dimension.md)
+
 * **전자 메일에 CC 필드 추가** 설명서의 보호 기능이 향상되었습니다. 이제 CC 주소가 동의 또는 억제에 대해 검사되지 않으며, CC 주소로 전송된 이메일에서 열고 클릭스루하는 것이 전송 분석에서 열린 총 횟수와 클릭수로 고려되도록 지정합니다. [자세히 보기](../configuration/cc-email-field.md)
 
 * **채널 활동** 설명서에 두 채널 범주(옵트인 요구 사항, 비즈니스 규칙 응용 프로그램, 채널 구성 유형 및 권장 사용 사례) 간의 동작 차이를 설명하는 새로운 **마케팅 및 트랜잭션 메시지** 섹션이 업데이트되었습니다. [자세히 보기](../orchestrated/activities/channels.md#marketing-vs-transactional)
@@ -29,7 +31,7 @@ ht-degree: 69%
 
 * 규칙 빌더를 사용하여 구독 계획 특성별로 프로필을 필터링하는 방법을 보여 주는 새로운 예를 통해 **대상 활동 빌드** 설명서를 보강했습니다. [자세히 보기](../orchestrated/activities/build-audience.md#build-audience-examples)
 
-* **오케스트레이션된 캠페인 시작** 페이지 문서에는 **오케스트레이션된 캠페인 내부의 내용→ 대한 초급**&#x200B;포크 → 채널 A + 채널 B **패턴을 포함합니다.**(포크 활동 및 마케팅/트랜잭션 메시지 페이지에 대한 상호 참조 포함). [자세히 보기](../orchestrated/gs-orchestrated-campaigns.md#gs-ms-campaign-inside)
+* **오케스트레이션된 캠페인 시작** 페이지는 포크 활동 및 마케팅 및 트랜잭션 메시지 페이지에 대한 상호 참조와 함께 시작 수준 **포크 → 채널 A + 채널 B→ 대상을 빌드**&#x200B;오케스트레이션된 캠페인 내부의 내용?**을(를) 문서화합니다.**[자세히 보기](../orchestrated/gs-orchestrated-campaigns.md#gs-ms-campaign-inside)
 * **고급 HTML 편집기를 사용하여 전자 메일 콘텐츠 편집** 페이지가 콘텐츠 관리 섹션에서 문서의 **전자 메일** 섹션(전자 메일 디자인 아래)으로 이동되었으며 페이지 파일의 이름이 **email-expert-mode.md**(으)로 변경되었습니다. 이제 페이지는 고급 HTML 편집기를 이메일 메시지 및 이메일 콘텐츠 템플릿용 이메일 Designer에서 사용할 수 있도록 문서화합니다. [자세히 보기](../email/email-expert-mode.md)
 
 * **오케스트레이션된 캠페인 시작 및 모니터링** 설명서에 캠페인 라이프사이클 상태 표, 게시 전 체크리스트 및 반복되지 않는 캠페인에 대한 전송 확인 경고와 함께 내부 게시-시간 실행 시퀀스를 자세히 설명하는 새 섹션이 업데이트되었습니다. [자세히 보기](../orchestrated/start-monitor-campaigns.md#publication-sequence)
@@ -52,11 +54,11 @@ ht-degree: 69%
 
 * **대상 읽기** 활동 및 **여정 속성** 설명서를 업데이트하여 항상 켜지는 반복 여정의 91일 여정 라이프사이클을 명확하게 수정했습니다. 이제 예약 섹션에서 종료 날짜가 없는 반복 여정이 91일 이상 라이브로 유지됨을 명시적으로 확인하고 전역 시간 초과 FAQ 를 확장하여 91일 프로필 TTL과 91일 보고 기간을 구분했습니다. [자세히 보기](../building-journeys/read-audience.md#schedule)
 
-* **구문이 다운스트림 조건 활동에서 작동하려면 조회 키를 고급 모드로 구성해야 함을 명확히 하기 위해**&#x200B;데이터 집합 조회`@datasetLookup{}` 활동 설명서를 업데이트했습니다. 문제 해결 섹션이 &quot;데이터 세트 조회를 찾을 수 없음&quot; 오류 해결에 대한 지침과 함께 추가되었습니다. [자세히 보기](../building-journeys/dataset-lookup.md#troubleshooting)
+* `@datasetLookup{}` 구문이 다운스트림 조건 활동에서 작동하려면 조회 키를 고급 모드로 구성해야 함을 명확히 하기 위해 **데이터 집합 조회** 활동 설명서를 업데이트했습니다. 문제 해결 섹션이 &quot;데이터 세트 조회를 찾을 수 없음&quot; 오류 해결에 대한 지침과 함께 추가되었습니다. [자세히 보기](../building-journeys/dataset-lookup.md#troubleshooting)
 
-* **요구 사항, 숫자 이벤트 ID에 대한 백틱 구문, PQL &quot;일치하지 않는 입력&quot; 오류에 대한 일반적인 오류 콜아웃을 포함하여 컨텍스트 이벤트 특성에서 타임스탬프를 포맷하는 방법을 보여 주는 새 예제로**&#x200B;날짜 시간 함수`toDateTime()` 설명서를 업데이트했습니다. [자세히 보기](../personalization/functions/dates.md#format-date)
+* `toDateTime()` 요구 사항, 숫자 이벤트 ID에 대한 백틱 구문, PQL &quot;일치하지 않는 입력&quot; 오류에 대한 일반적인 오류 콜아웃을 포함하여 컨텍스트 이벤트 특성에서 타임스탬프를 포맷하는 방법을 보여 주는 새 예제로 **날짜 시간 함수** 설명서를 업데이트했습니다. [자세히 보기](../personalization/functions/dates.md#format-date)
 
-* 파일 기반 변경 데이터 캡처의 경우 **필드가 필수이고 해당 값은 대문자가 아닌 소문자**(업데이트) 또는 **(삭제)이어야 함을 명확히 하기 위해**&#x200B;오케스트레이션된 캠페인 보호 및 제한 사항`_change_request_type` 및 `u`소스 커넥터 시작하기`d` 설명서가 업데이트되었습니다. [자세히 보기](../orchestrated/guardrails.md)
+* 파일 기반 변경 데이터 캡처의 경우 `_change_request_type` 필드가 필수이고 해당 값은 대문자가 아닌 소문자 `u`(업데이트) 또는 `d`(삭제)이어야 함을 명확히 하기 위해 **오케스트레이션된 캠페인 보호 및 제한 사항** 및 **소스 커넥터 시작하기** 설명서가 업데이트되었습니다. [자세히 보기](../orchestrated/guardrails.md)
 
 * **링크 및 추적 메시지 추가** 설명서에 추적 식별자(urlID)를 생성하는 방법에 대한 지침을 업데이트했습니다. URL과 레이블이 모두 고유한 경우에만 고유한 urlID가 할당됩니다. 여러 전자 메일에서(또는 한 전자 메일에서 여러 번) 동일한 URL을 추적하려면 사용자는 유사한 각 URL에 대해 고유한 레이블을 사용해야 합니다. 그렇지 않으면 [!DNL Journey Optimizer]에서 클릭한 링크를 확인할 수 없습니다. [자세히 보기](../email/message-tracking.md#track-across-multiple-emails)
 
@@ -84,7 +86,7 @@ ht-degree: 69%
 
 * **TTL(데이터 세트 Time-to-Live) 보호** 설명서가 TTL의 대상이 되는 데이터 세트를 명확하게 식별할 수 있도록 새로운 FAQ 항목으로 향상되었습니다. TTL은 시계열 데이터 세트에만 적용됩니다. 엔티티 데이터 세트, 분류 데이터 세트 및 의사 결정 개체 저장소와 같은 레코드 유형 데이터 세트는 TTL의 적용을 받지 않으므로 보호 롤아웃의 영향을 받지 않습니다. [자세히 보기](../data/datasets-ttl.md)
 
-* **여정 속성** 및 **여정 일시 중지** 설명서가 업데이트되어 이제 여정 기술 세부 정보에서 사용할 수 있는 새 일시 중지 및 다시 시작 필드를 문서화합니다. 이제 **기술 세부 정보 복사** 단추에 기존 `lastPausedAt` 블록 외에 `lastPausedBy`, `lastPausedById`, `lastResumedAt`, `lastResumedBy`, `lastResumedById` 및 `pausedJourneySettings`이(가) 포함됩니다. 여정 속성에서 직접 일시 중지 및 다시 시작 타임스탬프를 보는 방법에 대해 설명하는 새 섹션이 **여정 일시 중지** 페이지에도 추가되었습니다. [자세히 보기](../building-journeys/journey-properties.md)
+* **여정 속성** 및 **여정 일시 중지** 설명서가 업데이트되어 이제 여정 기술 세부 정보에서 사용할 수 있는 새 일시 중지 및 다시 시작 필드를 문서화합니다. 이제 **기술 세부 정보 복사** 단추에 기존 `pausedJourneySettings` 블록 외에 `lastPausedAt`, `lastPausedBy`, `lastPausedById`, `lastResumedAt`, `lastResumedBy` 및 `lastResumedById`이(가) 포함됩니다. 여정 속성에서 직접 일시 중지 및 다시 시작 타임스탬프를 보는 방법에 대해 설명하는 새 섹션이 **여정 일시 중지** 페이지에도 추가되었습니다. [자세히 보기](../building-journeys/journey-properties.md)
 
 ## 2026년 2월 {#february-2026}
 
@@ -164,7 +166,7 @@ ht-degree: 69%
 
 * 테스트, 유효성 검사, 승인 랜딩 페이지에 테스트 기능 개요, 일반적인 질문 FAQ, 탐색 링크가 있는 의사 결정 트리, 설명서 링크의 용어 향상 등 새로운 섹션을 추가해 개선했습니다. [자세히 보기](../../rp_landing_pages/test-landing-page.md)
 
-* 개인화 구문 설명서에 개인화 표현식에서 예약된 키워드를 사용하는 방법을 명확히 설명하는 새 섹션을 추가했습니다. `next`, `last`, `this` 등 특정 PQL 키워드를 XDM 스키마에서 필드 이름으로 사용하는 경우 백틱(&grave;)을 붙여 이스케이프 처리해야 합니다. [자세히 보기](../personalization/personalization-syntax.md#reserved-keywords)
+* 개인화 구문 설명서에 개인화 표현식에서 예약된 키워드를 사용하는 방법을 명확히 설명하는 새 섹션을 추가했습니다. `next`, `last`, `this` 등 특정 PQL 키워드를 XDM 스키마에서 필드 이름으로 사용하는 경우 백틱(`)을 붙여 이스케이프 처리해야 합니다. [자세히 보기](../personalization/personalization-syntax.md#reserved-keywords)
 
 * [캠페인 시작](../campaigns/get-started-with-campaigns.md) 및 [캠페인 관리](../campaigns/manage-campaigns.md) 페이지를 유형별 안내서가 있는 포괄적 워크플로, 향상된 캠페인 유형 비교, 종합 상태 테이블 등 개선된 정보 아키텍처로 재구성했습니다.
 
@@ -339,7 +341,7 @@ ht-degree: 69%
 
    * 보조 식별자는 DULE(Data Usage Labeling &amp; Enforcement) 정책을 기준으로 확인되지 않으며, 여정의 데이터 거버넌스 검사 중에 고려되지 않습니다.
 
-[자세히 보기](../building-journeys/supplemental-identifier.md)
+     [자세히 보기](../building-journeys/supplemental-identifier.md)
 
 * 캠페인의 최적화 페이지에 이제 여정에서도 최적화를 사용할 수 있다는 사실을 반영하여 업데이트했습니다. [자세히 보기](../content-management/gs-message-optimization.md)
 
@@ -474,7 +476,7 @@ ht-degree: 69%
 
 * **이메일 설정 구성** 페이지의 가독성을 개선하기 위해 여러 하위 페이지로 나누고 [구독 취소 목록](../email/list-unsubscribe.md), [헤더 매개변수](../email/header-parameters.md), [URL 추적](../email/url-tracking.md)에 대한 새로운 독립형 페이지를 추가했습니다.
 
-+++ 2024년
++++ 2024
 
 ## 2024년 12월 {#nov-2024}
 
@@ -585,7 +587,7 @@ ht-degree: 69%
 * Information has been added regarding the behavior of timeouts on event activities in journeys. When no event is received during the specified timeout period, individuals will continue the journey if no timeout path is defined. [Read more](../building-journeys/general-events.md#events-specific-time)
 * In-app channel configuration prerequisites have been updated with a note about the usage of a custom Dataset preference merge policy. [Read more](../in-app/inapp-configuration.md)
 * More details have been added about how to manipulate collections in a custom action response. [Read more](../action/action-response.md#exp-syntax).
-* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko) has been added to the home page.
+* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html) has been added to the home page.
 * An outdated reference to the AJO Message resource has been removed from the list of resources available in the Audit Log. When an update is done on a message in a journey, a **Journey** log is created. [Read more](../privacy/audit-logs.md)
 * Additional recommendations have been added about the usage of the **Read Audience** activity. [Read more](../building-journeys/read-audience.md#must-read)
 * The Get started with Adobe Experience Platform audiences page has been improved with a list of audience generation methods. [Read more](../audience/about-audiences.md)
@@ -615,7 +617,7 @@ ht-degree: 69%
 * Decision management guardrails have been added to the Guardrails and limitations page. [Read more](../start/guardrails.md#decision-management)
 * The Header parameters section has been updated to reflect how out-of-office notifications and challenge responses are handled (they are received on the **[!UICONTROL Error email]**). [Read more](../email/email-settings.md#email-header)
 * A new section on how to preview and test your content has been created. [Read more](../content-management/preview-test.md)
-* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=ko){target="_blank"}
+* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
 * The Capping section has been updated to reflect the label changes relating to offer capping in the Decision management interface. [Read more](../offers/offer-library/add-constraints.md#capping)
 * The Add dynamic content into emails has been updated with details on how to delete a variant. [Read more](../personalization/dynamic-content.md#emails)
 * The example for capping & throttling configurations has been updated. [Read more](../configuration/external-systems.md)
@@ -690,7 +692,7 @@ ht-degree: 69%
 
 ## March 2023 {#march-2023}
 
-* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko)
+* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
 * All new features and improvements coming with [!DNL Journey Optimizer] March '23 release have been detailed in the documentation. [Read more](release-notes.md)
 * Added a step to enable Adobe Analytics events in your journeys. [Read more](../event/about-analytics.md)
 * A new section has been created in the Decision management guide on how to collect offer decisioning feedback in Adobe Experience Platform, including which offers are displayed and how users interact with them. [Read more](../offers/data-collection/data-collection.md)
@@ -818,7 +820,7 @@ ht-degree: 69%
 * The **reactions** event documentation page has been updated. [Read more](../building-journeys/reaction-events.md)
 * Videos for Decision management capabilities have been updated to reflect Journey Optimizer user interface. [Read more](../offers/get-started/starting-offer-decisioning.md)
 * The **Get Started with Datasets** section has been improved to detail how to access and create datasets. [Read more](../data/get-started-datasets.md)
-* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=ko)
+* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html)
 * The **Create message presets** section now specifies that you cannot proceed with preset creation while the selected IP pool is under edition (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. [Read more](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * The message presets **URL tracking** section has been updated to reflect minor changes in the user interface. [Read more](../configuration/channel-surfaces.md#url-tracking)
 
