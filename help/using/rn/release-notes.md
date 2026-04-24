@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7944c8b391a6af0c58dc6f2727270a48ab7ac347
+source-git-commit: b3663df6447d0f689f598f258f050891388a8729
 workflow-type: tm+mt
-source-wordcount: '2631'
-ht-degree: 22%
+source-wordcount: '3896'
+ht-degree: 19%
 
 ---
 
@@ -27,9 +27,145 @@ ht-degree: 22%
 
 [!DNL Adobe Journey Optimizer]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko){target="_blank"}를 참조하십시오.
 
-## 2026년 4월 업데이트 {#april-26-rn}
+## 2026년 4월 프리릴리스 정보 {#april-26-rn}
+
+**아래 사전 릴리스 정보는 릴리스 공개 당일까지 사전 통지 없이 변경될 수 있습니다**. 링크, 화면, 업데이트된 설명서는 릴리스 일자에 릴리스 정보에 게시됩니다.
+
+[Adobe Experience Platform 사전 릴리스 정보](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}도 참조하십시오.
+
+4월 초에 출시된 새로운 기능 및 개선 사항은 출시 일자와 함께 발표됩니다.
+
+**릴리스 날짜**: 2026년 4월 28~29일
 
 ### 새로운 기능 {#april-26-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>여정 시뮬레이션</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 여정을 <strong>시뮬레이션</strong>(으)로 설정할 수 있습니다. 이 모드를 사용하면 <strong>시뮬레이션된 사용자</strong>를 사용하여 논리의 유효성을 검사할 수 있습니다. 이러한 프로필은 시뮬레이션을 위해 특별히 생성된 임시 프로필로서, Adobe Experience Platform에서 지속적인 테스트 프로필을 관리할 필요 없이 자유롭게 테스트할 수 있습니다.</p>
+<p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>이메일 헤더의 발신자 매개 변수</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 Journey Optimizer을 사용하여 전송 엔티티(발신자)가 작성 엔티티(보낸 사람)와 다른 위치에 이메일을 보낼 수 있습니다. 이를 지원하는 이메일 클라이언트는 일반적으로 "보낸 사람을 대신하여 보낸 사람"으로 렌더링하거나 "경유" 표시기를 표시합니다. 이 기능을 구성하려면 전자 메일 채널 설정의 선택적 <strong>보낸 사람 헤더</strong> 필드를 입력하십시오.</p>
+<p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>이메일 채널 설정의 CC 필드</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 이메일 채널 설정에서 선택적 CC(Carbon Copy) 필드를 구성할 수 있습니다. BCC와 달리 CC 수신자는 1차 수신자가 볼 수 있어 투명한 의사소통이 가능하고 소유권이 명확해진다.</p>
+<p>이를 통해 관계 관리자나 계정 소유자와 같은 각 메시지에 적합한 이해 당사자를 자동으로 복사하는 동시에 고객이 후속 조치를 위해 연락할 사람을 알 수 있습니다.</p>
+<p>CC 필드는 개인화를 지원하므로 단일 구성이 프로필 데이터를 기반으로 복사본을 동적으로 라우팅하여 추가 설정 없이 여러 사용 사례에서 확장 가능합니다.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>이메일 Designer의 딥링크</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 이메일 Designer의 전용 옵션을 통해 이메일 콘텐츠에 딥 링크를 추가할 수 있습니다. 이렇게 하면 사용자가 브라우저나 앱스토어로 리디렉션되지 않고 올바른 인앱 콘텐츠로 바로 이동하여 컨텍스트와 참여를 유지할 수 있습니다.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>MCP를 통한 Journey Optimizer AI 에이전트 통합</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 Adobe Journey Optimizer은 MCP 호환 애플리케이션 내에서 직접 캠페인, 충성도, 채널 구성 및 샌드박스 작업을 표시하는 <strong>MCP(Model Context Protocol) 서버</strong>를 제공합니다. 이 통합을 통해 다양한 가상 사용자가 동일한 오케스트레이션 데이터를 기반으로 공동 작업할 수 있습니다. Adobe Journey Optimizer REST API에 대해 쿼리를 작성하거나 여러 UI 화면을 탐색하는 대신, 사용자의 의도를 대화식으로 설명하고 LLM이 적절한 MCP 도구를 호출하도록 할 수 있습니다. 이 기능은 현재 클라우드 웹 및 데스크탑에서 사용할 수 있습니다.</p>
+<p>이 기능은 공용 Beta의 모든 고객이 사용할 수 있습니다.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>샌드박스 간 조정된 캠페인 복사</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 샌드박스 도구 는 한 샌드박스에서 다른 샌드박스로 오케스트레이션된 캠페인을 패키징 및 복사할 수 있도록 지원합니다. 따라서 각 환경에서 캠페인을 수동으로 재구축할 필요가 없습니다. 캠페인이 패키지화되면 병합 정책, 메시지와 같은 핵심 종속 오브젝트가 자동으로 포함되므로, 가져온 캠페인이 구성 및 유효성 검사를 수행할 준비가 된 상태로 도착합니다. 프로덕션 환경을 보호하기 위해 가져온 모든 캠페인은 대상 샌드박스에 초안 상태로 전환되므로, 캠페인이 실행되기 전에 팀에서 검토 및 승인 단계를 거치게 됩니다.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>오케스트레이션된 캠페인의 증분 쿼리 활동</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong>오케스트레이션된 캠페인</strong>은(는) 이제 마지막 실행 이후 새로 적격한 프로필 또는 이벤트만 타겟팅하는 <strong>증분 쿼리</strong> 활동을 지원합니다.
+
+이렇게 하면 쿼리 워크로드를 줄이고 시간이 지남에 따라 중복 전송을 방지하면서 순 신규 대상자(새 등록, 새로 자격을 얻은 충성도 멤버 및 유사한 세그먼트)에 초점을 맞춘 반복 캠페인을 유지할 수 있습니다.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>여정 중재 - AI 모델</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 등급 수식에서 <strong>AI 모델</strong>을 사용하여 고객 프로필 특성 및 컨텍스트 요인에 따라 여정 우선 순위 점수를 자동으로 높여 고객이 가장 관련성이 높은 여정을 입력하도록 할 수 있습니다.</p>
+<p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -70,6 +206,24 @@ ht-degree: 22%
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Personalization 표현식을 위한 AI 지원</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>[!DNL Adobe Journey Optimizer] 이제 <strong>AI Assistant</strong>이(가) 자연어 프롬프트를 유효한 개인화 표현식 및 조건부 논리로 변환하는 개인화 편집기에 직접 포함되므로 구문 전문 지식이 필요하지 않습니다. 달성하고자 하는 개인화에 대해 설명하고, AI는 즉시 적용하거나 후속 프롬프트를 통해 구체화할 수 있는 사용 준비 코드를 생성합니다.</p>
+<p>그 보조원은 또한 역순으로 일한다. 기존 표현식을 선택하고 논리를 설명하거나 문제를 식별하거나 개선 사항을 제안하도록 요청합니다. 이렇게 하면 새 표현식을 작성할 뿐만 아니라 팀 전체에서 기존 표현식을 검토하고 디버깅하는 데에도 유용합니다.</p>
+<p><img src="assets/do-not-localize/assistant-perso.gif"></p>
+<p>자세한 내용은 <a href="../content-management/generative-personalization-expressions.md">Personalization 표현식 AI 지원</a>을 참조하세요.</p>
+<p>가용성 일자: 2026년 4월 13일 화요일</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -150,44 +304,81 @@ ht-degree: 22%
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>Personalization 표현식을 위한 AI 지원</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>[!DNL Adobe Journey Optimizer] 이제 Personalization Editor에 AI Assistant가 포함됩니다. 개인화할 내용을 일반 언어로 설명하면 도우미가 그대로 사용하거나 짧은 후속 대화에서 세분화할 수 있는 개인화 표현식을 생성합니다.</p>
-<p>기존 개인화 코드를 선택하고 도우미에게 설명하거나 수정하거나 개선 사항을 제안하도록 요청할 수도 있습니다. 식을 생성한 후 <strong>샘플 프로필에 대한 미리 보기 표시</strong>는 제한된 합성 샘플 프로필 집합에 대해 빠른 검사를 실행합니다.</p>
-<p><img src="assets/do-not-localize/assistant-perso.gif"></p>
-<p>자세한 내용은 <a href="../content-management/generative-personalization-expressions.md">Personalization 표현식 AI 지원</a>을 참조하세요.</p>
-<p>가용성 일자: 2026년 4월 13일 화요일</p>
-</td>
-</tr>
-</tbody>
-</table>
-
 ### 개선 사항 {#april-26-improv}
 
+#### AI
+
+* **Campaign 대시보드의 브랜드 정렬 점수** - 이제 Campaign 대시보드 내에서 직접 브랜드 정렬 점수를 평가하여 콘텐츠를 브랜드에 유지할 수 있습니다. 이렇게 하면 콘텐츠 디자이너를 열지 않고도 지침을 한 눈에 확인할 수 있습니다.
+
+* **프롬프트 길잡이 개선 사항** - 프롬프트가 모호하거나 불완전하거나 여러 목표를 혼합하는 경우 **프롬프트 길잡이**&#x200B;는 이제 명확한 질문을 묻거나 생성 전에 요청을 더 명확하게 다시 작성하도록 제안할 수 있으므로 길잡이가 응답하기 전에 필요한 내용을 고정하여 일관성을 향상시키고 재시도를 줄일 수 있습니다. [자세히 알아보기](../content-management/ai-assistant-prompting-guide.md)
+
 #### 결정
+
+* **의사 결정 항목에 조각 첨부** - 이제 Journey Optimizer에서 의사 결정 정책을 통해 코드 기반 경험 및 이메일 캠페인에서 활용할 수 있는 의사 결정 항목에 조각을 첨부할 수 있는 기능을 제공합니다. 이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).
 
 * **일시적으로 사용할 수 없는 조각을 건너뜁니다** - 의사 결정 항목에서 조각을 사용할 때 Edge에서 조각을 일시적으로 사용할 수 없는 경우 해당 조각을 건너뛰고 여정 또는 캠페인이 실패하는 대신 렌더링을 계속합니다. [자세히 보기](../experience-decisioning/fragments-decision-policies.md#temporary-unavailable-fragments)
 
   가용성 일자: 2026년 4월 14일 수요일
 
+#### 푸시
+
+* **채널 설정에서 앱 ID 개인화** - 이제 푸시 채널 구성 설정에서 **앱 ID** 필드를 개인화할 수 있으므로 각 수신자는 프로필 정보를 기반으로 해당 브랜드에서 푸시 알림을 받을 수 있습니다.
+
+#### SMS
+
+* **문자 수** - 이제 Adobe Journey Optimizer에서 문자 수를 사용하여 SMS 메시지의 길이를 실시간으로 모니터링할 수 있습니다. 이렇게 하면 메시지를 여러 세그먼트로 분할하여 서식을 보다 효율적으로 관리하고 예기치 않은 전송 비용 증가를 방지할 수 있습니다. [자세히 보기](../sms/create-sms.md)
+
+* **전화 번호 및 발신자에서의 옵트아웃 및 동의** - 이제 SMS의 경우 Journey Optimizer에서 프로필의 전화 번호와 짧은 코드 수준에서 마케팅 동의 및 옵트아웃을 기록합니다.
+
+  이 기능은 현재 Sinch SMS 구성에만 사용할 수 있습니다. [자세히 보기](../sms/sms-configuration-sinch.md)
+
+* **SMS에서 사용자 지정 데이터 집합으로 인바운드** - **SMS API 자격 증명**&#x200B;에서 **인바운드 SMS**&#x200B;를 **사용자 지정, 프로필 사용 경험 이벤트 데이터 집합으로 라우팅**&#x200B;합니다. 기본 추적 데이터 집합만 선택하는 것이 아니라 선택하는 것입니다. [자세히 보기](../sms/sms-webhook.md)
+
+* **Webhook 인터페이스 개선 사항** - SMS Webhooks를 구성할 때 이제 사용자 인터페이스에 실제 예제가 포함된 기본 제공 설정 가이드가 포함되어 있으므로 구성 흐름을 종료하지 않고도 공급자 페이로드를 조정하고 문제를 해결할 수 있습니다. [자세히 보기](../sms/sms-webhook.md)
+
+#### WhatsApp
+
+* **WhatsApp 대화형 단추 및 추적** - 이제 Journey Optimizer의 WhatsApp이 템플릿과 사용 사례에 필요한 대화형 단추 및 내장된 대화형 추적을 지원하므로 다른 채널 보고와 함께 참여를 측정하고 성능을 분석할 수 있습니다.
+
+#### Adobe Experience Manager 통합
+
+* **콘텐츠 관리자 선택기** - 이제 Adobe Experience Manager Assets 및 콘텐츠 조각 선택기가 모든 AEM Assets 및 AEM 콘텐츠 조각을 검색, 검색, 필터링 및 액세스할 수 있는 통합 모달인 **콘텐츠 관리자 선택기**&#x200B;로 대체되었습니다. Dynamic Media 렌디션 지원도 포함되어 있으므로 Dynamic Media 에셋을 선택한 경우 UI에서 이미지 렌디션을 추가할 수 있습니다. 이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).
+
+* **Dynamic Media를 사용하여 카운트다운 타이머가 있는 오픈 타임 개인화** - Journey Optimizer 및 Adobe Experience Manager Dynamic Media 통합을 통해 Dynamic Media 템플릿에 대한 오픈 타임 개인화를 활성화하여 초개인화된 사용 사례를 잠글 수 있습니다. 고객은 Adobe Experience Manager에서 개인화된 템플릿을 만들고 게시하며, 오픈타임에 렌더링되는 데이터를 사용하여 Journey Optimizer에서 사용할 수 있습니다.
+
+* **Adobe Experience Manager 콘텐츠 조각 변형 지원** - 로케일 및 다국어 시나리오에 대한 개선된 처리로 Adobe Experience Manager 콘텐츠 조각을 삽입할 때 **콘텐츠 조각 변형**(예: 언어 또는 채널 변형)을 선택할 수 있습니다. [자세히 보기](../integrations/aem-fragments.md#aem-variations)
+
+  이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
+
+  가용성 일자: 2026년 4월 3일 토요일
+
+* **작성 중 Adobe Experience Manager 콘텐츠 조각 컨텍스트** - 콘텐츠 조각 선택 항목은 텍스트 필드와 콘텐츠 블록 사이를 이동할 때 활성 상태로 유지되므로 매번 **AEM 콘텐츠 관리자 열기**&#x200B;를 다시 열지 않고 조각 필드를 더 추가할 수 있습니다. [자세히 보기](../integrations/aem-fragments.md)
+
+  이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
+
+  가용성 일자: 2026년 4월 1일 목요일
+
+#### 구성
+
+* **URL 매개 변수 암호화 키에 대한 특정 권한** - URL 매개 변수 암호화에 대한 키에 액세스하고 관리하기 위해 새 권한을 만들었습니다. 이제 **키 레지스트리 보기** 및 **키 레지스트리 관리** 권한이 부여되어야 합니다.
+
+#### 오케스트레이션된 캠페인
+
+* **데이터 Modeler 개선 사항** - 이제 오케스트레이션된 관계형 스키마가 여러 필드에 걸친 복합 키를 지원합니다. DDL 파일에서 스키마를 로드하면 열거형이 발생하고 DDL 또는 Excel 파일에서 로드하면 자동으로 테이블 간에 복합 관계가 만들어집니다. 이제 엔티티 관계 보기에서 합성 링크는 파일을 업로드한 후 테이블 간의 전체 필드 연결 집합을 표시합니다.
+
+* **오케스트레이션된 캠페인의 전역 변수** - 이제 오케스트레이션된 캠페인이 한 번 정의하여 워크플로우 내의 모든 활동에서 재사용할 수 있는 전역 변수를 지원하므로 구성을 단순화하고 동적 값, 표현식 및 콘텐츠 개인화의 일관성을 보장합니다.
+
 #### 이메일 디자인
-
-* **이메일 Designer의 개인화 표현식에 대한 AI 도우미** - 이메일 Designer에서 구성 요소를 선택하고 상황별 도구 모음의 **표현식 추가**&#x200B;를 사용하여 필요한 개인화를 일반 언어로 설명하고 생성된 표현식을 검토한 다음 디자이너를 떠나지 않고 삽입합니다. [자세히 알아보기](../content-management/generative-personalization-expressions.md#generate-email-designer)
-
-  가용성 일자: 2026년 4월 15일 목요일
 
 * **전자 메일 콘텐츠에 대한 고급 HTML 편집기** - 고급 HTML 모드를 사용하면 전자 메일 Designer에서 콘텐츠의 HTML 소스를 편집하고, 소스에 고급 표현식(예: 조건)을 추가하고, 변경 내용을 손실하지 않고 HTML 보기와 데스크톱 보기 간에 전환할 수 있습니다.
 
   이전에는 전자 메일 콘텐츠 템플릿에만 사용할 수 있었지만, 이제 이 기능은 전자 메일 콘텐츠 템플릿 외에 전자 메일 Designer의 **전자 메일** 콘텐츠(예: 여정 및 캠페인으로 작성된 전자 메일)에도 배포됩니다. 현재 제한된 가용성 상태입니다. Adobe 담당자에게 문의하여 액세스 권한을 받으십시오. [자세히 보기](../email/email-expert-mode.md)
 
   가용성 일자: 2026년 4월 9일 금요일
+
+* **이메일 Designer의 개인화 표현식에 대한 AI 도우미** - 이메일 Designer에서 구성 요소를 선택하고 상황별 도구 모음의 **표현식 추가**&#x200B;를 사용하여 필요한 개인화를 일반 언어로 설명하고 생성된 표현식을 검토한 다음 디자이너를 떠나지 않고 삽입합니다. [자세히 알아보기](../content-management/generative-personalization-expressions.md#generate-email-designer)
+
+  가용성 일자: 2026년 4월 15일 목요일
 
 #### 여정 경로 최적화
 
@@ -207,24 +398,10 @@ ht-degree: 22%
 
   가용성 일자: 2026년 4월 7일 수요일
 
-#### Adobe Experience Manager 통합
-
-* **Adobe Experience Manager 콘텐츠 조각 변형 지원** - 로케일 및 다국어 시나리오에 대한 개선된 처리로 Adobe Experience Manager 콘텐츠 조각을 삽입할 때 **콘텐츠 조각 변형**(예: 언어 또는 채널 변형)을 선택할 수 있습니다. [자세히 보기](../integrations/aem-fragments.md#aem-variations)
-
-  이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
-
-  가용성 일자: 2026년 4월 3일 토요일
-
-* **작성 중 Adobe Experience Manager 콘텐츠 조각 컨텍스트** - 콘텐츠 조각 선택 항목은 텍스트 필드와 콘텐츠 블록 사이를 이동할 때 활성 상태로 유지되므로 매번 **AEM 콘텐츠 관리자 열기**&#x200B;를 다시 열지 않고 조각 필드를 더 추가할 수 있습니다. [자세히 보기](../integrations/aem-fragments.md)
-
-  이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
-
-  가용성 일자: 2026년 4월 1일 목요일
-
 
 ## 2026년 3월 릴리스 정보 {#march-26-rn}
 
-[새 기능](#march-26-features) 및 [개선 사항](#march-26-improv) 섹션에서는 이미 사용 가능한 기능을 다룹니다. [준비 중](#coming-soon) 섹션에는 3월 말에 릴리스될 예정인 기능 및 개선 사항이 나와 있습니다.
+[새 기능](#march-26-features) 및 [개선 사항](#march-26-improv) 섹션에서는 이미 사용 가능한 기능을 다룹니다. <!--The [Coming soon](#coming-soon) section lists features and improvements scheduled for release later in March.-->
 
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
