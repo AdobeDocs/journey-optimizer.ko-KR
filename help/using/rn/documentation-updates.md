@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 2ed9e23201e2f7459609b1e387a1c5ac64af4e85
+source-git-commit: 0980d5da677edb4cf21b7a86549ffc32d0b666a1
 workflow-type: tm+mt
-source-wordcount: '7025'
-ht-degree: 69%
+source-wordcount: '7188'
+ht-degree: 68%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 69%
 
 ## 2026년 4월 {#april-2026}
 
+* **차원 변경** 활동 설명서에 외부 조인을 사용하고 차원 변경 단계에서 모든 레코드를 유지하는 동안 새 타겟팅 차원에 일치하는 프로필이 없는 레코드는 메시지 게재 시 자동으로 제외된다는 점을 명확히 설명했습니다. [자세히 보기](../orchestrated/activities/change-dimension.md)
+
 * **전자 메일에 CC 필드 추가** 설명서의 보호 기능이 향상되었습니다. 이제 CC 주소가 동의 또는 억제에 대해 검사되지 않으며, CC 주소로 전송된 이메일에서 열고 클릭스루하는 것이 전송 분석에서 열린 총 횟수와 클릭수로 고려되도록 지정합니다. [자세히 보기](../configuration/cc-email-field.md)
 
 * **채널 활동** 설명서에 두 채널 범주(옵트인 요구 사항, 비즈니스 규칙 응용 프로그램, 채널 구성 유형 및 권장 사용 사례) 간의 동작 차이를 설명하는 새로운 **마케팅 및 트랜잭션 메시지** 섹션이 업데이트되었습니다. [자세히 보기](../orchestrated/activities/channels.md#marketing-vs-transactional)
@@ -29,7 +31,7 @@ ht-degree: 69%
 
 * 규칙 빌더를 사용하여 구독 계획 특성별로 프로필을 필터링하는 방법을 보여 주는 새로운 예를 통해 **대상 활동 빌드** 설명서를 보강했습니다. [자세히 보기](../orchestrated/activities/build-audience.md#build-audience-examples)
 
-* **오케스트레이션된 캠페인 시작** 페이지 문서에는 **오케스트레이션된 캠페인 내부의 내용→ 대한 초급**&#x200B;포크 → 채널 A + 채널 B **패턴을 포함합니다.**(포크 활동 및 마케팅/트랜잭션 메시지 페이지에 대한 상호 참조 포함). [자세히 보기](../orchestrated/gs-orchestrated-campaigns.md#gs-ms-campaign-inside)
+* **오케스트레이션된 캠페인 시작** 페이지는 포크 활동 및 마케팅 및 트랜잭션 메시지 페이지에 대한 상호 참조와 함께 시작 수준 **포크 → 채널 A + 채널 B→ 대상을 빌드**&#x200B;오케스트레이션된 캠페인 내부의 내용?**을(를) 문서화합니다.**&#x200B;[자세히 보기](../orchestrated/gs-orchestrated-campaigns.md#gs-ms-campaign-inside)
 * **고급 HTML 편집기를 사용하여 전자 메일 콘텐츠 편집** 페이지가 콘텐츠 관리 섹션에서 문서의 **전자 메일** 섹션(전자 메일 디자인 아래)으로 이동되었으며 페이지 파일의 이름이 **email-expert-mode.md**(으)로 변경되었습니다. 이제 페이지는 고급 HTML 편집기를 이메일 메시지 및 이메일 콘텐츠 템플릿용 이메일 Designer에서 사용할 수 있도록 문서화합니다. [자세히 보기](../email/email-expert-mode.md)
 
 * **오케스트레이션된 캠페인 시작 및 모니터링** 설명서에 캠페인 라이프사이클 상태 표, 게시 전 체크리스트 및 반복되지 않는 캠페인에 대한 전송 확인 경고와 함께 내부 게시-시간 실행 시퀀스를 자세히 설명하는 새 섹션이 업데이트되었습니다. [자세히 보기](../orchestrated/start-monitor-campaigns.md#publication-sequence)
@@ -52,11 +54,11 @@ ht-degree: 69%
 
 * **대상 읽기** 활동 및 **여정 속성** 설명서를 업데이트하여 항상 켜지는 반복 여정의 91일 여정 라이프사이클을 명확하게 수정했습니다. 이제 예약 섹션에서 종료 날짜가 없는 반복 여정이 91일 이상 라이브로 유지됨을 명시적으로 확인하고 전역 시간 초과 FAQ 를 확장하여 91일 프로필 TTL과 91일 보고 기간을 구분했습니다. [자세히 보기](../building-journeys/read-audience.md#schedule)
 
-* **구문이 다운스트림 조건 활동에서 작동하려면 조회 키를 고급 모드로 구성해야 함을 명확히 하기 위해**&#x200B;데이터 집합 조회`@datasetLookup{}` 활동 설명서를 업데이트했습니다. 문제 해결 섹션이 &quot;데이터 세트 조회를 찾을 수 없음&quot; 오류 해결에 대한 지침과 함께 추가되었습니다. [자세히 보기](../building-journeys/dataset-lookup.md#troubleshooting)
+* `@datasetLookup{}` 구문이 다운스트림 조건 활동에서 작동하려면 조회 키를 고급 모드로 구성해야 함을 명확히 하기 위해 **데이터 집합 조회** 활동 설명서를 업데이트했습니다. 문제 해결 섹션이 &quot;데이터 세트 조회를 찾을 수 없음&quot; 오류 해결에 대한 지침과 함께 추가되었습니다. [자세히 보기](../building-journeys/dataset-lookup.md#troubleshooting)
 
-* **요구 사항, 숫자 이벤트 ID에 대한 백틱 구문, PQL &quot;일치하지 않는 입력&quot; 오류에 대한 일반적인 오류 콜아웃을 포함하여 컨텍스트 이벤트 특성에서 타임스탬프를 포맷하는 방법을 보여 주는 새 예제로**&#x200B;날짜 시간 함수`toDateTime()` 설명서를 업데이트했습니다. [자세히 보기](../personalization/functions/dates.md#format-date)
+* `toDateTime()` 요구 사항, 숫자 이벤트 ID에 대한 백틱 구문, PQL &quot;일치하지 않는 입력&quot; 오류에 대한 일반적인 오류 콜아웃을 포함하여 컨텍스트 이벤트 특성에서 타임스탬프를 포맷하는 방법을 보여 주는 새 예제로 **날짜 시간 함수** 설명서를 업데이트했습니다. [자세히 보기](../personalization/functions/dates.md#format-date)
 
-* 파일 기반 변경 데이터 캡처의 경우 **필드가 필수이고 해당 값은 대문자가 아닌 소문자**(업데이트) 또는 **(삭제)이어야 함을 명확히 하기 위해**&#x200B;오케스트레이션된 캠페인 보호 및 제한 사항`_change_request_type` 및 `u`소스 커넥터 시작하기`d` 설명서가 업데이트되었습니다. [자세히 보기](../orchestrated/guardrails.md)
+* 파일 기반 변경 데이터 캡처의 경우 `_change_request_type` 필드가 필수이고 해당 값은 대문자가 아닌 소문자 `u`(업데이트) 또는 `d`(삭제)이어야 함을 명확히 하기 위해 **오케스트레이션된 캠페인 보호 및 제한 사항** 및 **소스 커넥터 시작하기** 설명서가 업데이트되었습니다. [자세히 보기](../orchestrated/guardrails.md)
 
 * **링크 및 추적 메시지 추가** 설명서에 추적 식별자(urlID)를 생성하는 방법에 대한 지침을 업데이트했습니다. URL과 레이블이 모두 고유한 경우에만 고유한 urlID가 할당됩니다. 여러 전자 메일에서(또는 한 전자 메일에서 여러 번) 동일한 URL을 추적하려면 사용자는 유사한 각 URL에 대해 고유한 레이블을 사용해야 합니다. 그렇지 않으면 [!DNL Journey Optimizer]에서 클릭한 링크를 확인할 수 없습니다. [자세히 보기](../email/message-tracking.md#track-across-multiple-emails)
 
@@ -84,7 +86,7 @@ ht-degree: 69%
 
 * **TTL(데이터 세트 Time-to-Live) 보호** 설명서가 TTL의 대상이 되는 데이터 세트를 명확하게 식별할 수 있도록 새로운 FAQ 항목으로 향상되었습니다. TTL은 시계열 데이터 세트에만 적용됩니다. 엔티티 데이터 세트, 분류 데이터 세트 및 의사 결정 개체 저장소와 같은 레코드 유형 데이터 세트는 TTL의 적용을 받지 않으므로 보호 롤아웃의 영향을 받지 않습니다. [자세히 보기](../data/datasets-ttl.md)
 
-* **여정 속성** 및 **여정 일시 중지** 설명서가 업데이트되어 이제 여정 기술 세부 정보에서 사용할 수 있는 새 일시 중지 및 다시 시작 필드를 문서화합니다. 이제 **기술 세부 정보 복사** 단추에 기존 `lastPausedAt` 블록 외에 `lastPausedBy`, `lastPausedById`, `lastResumedAt`, `lastResumedBy`, `lastResumedById` 및 `pausedJourneySettings`이(가) 포함됩니다. 여정 속성에서 직접 일시 중지 및 다시 시작 타임스탬프를 보는 방법에 대해 설명하는 새 섹션이 **여정 일시 중지** 페이지에도 추가되었습니다. [자세히 보기](../building-journeys/journey-properties.md)
+* **여정 속성** 및 **여정 일시 중지** 설명서가 업데이트되어 이제 여정 기술 세부 정보에서 사용할 수 있는 새 일시 중지 및 다시 시작 필드를 문서화합니다. 이제 **기술 세부 정보 복사** 단추에 기존 `pausedJourneySettings` 블록 외에 `lastPausedAt`, `lastPausedBy`, `lastPausedById`, `lastResumedAt`, `lastResumedBy` 및 `lastResumedById`이(가) 포함됩니다. 여정 속성에서 직접 일시 중지 및 다시 시작 타임스탬프를 보는 방법에 대해 설명하는 새 섹션이 **여정 일시 중지** 페이지에도 추가되었습니다. [자세히 보기](../building-journeys/journey-properties.md)
 
 ## 2026년 2월 {#february-2026}
 
@@ -339,7 +341,7 @@ ht-degree: 69%
 
    * 보조 식별자는 DULE(Data Usage Labeling &amp; Enforcement) 정책을 기준으로 확인되지 않으며, 여정의 데이터 거버넌스 검사 중에 고려되지 않습니다.
 
-[자세히 보기](../building-journeys/supplemental-identifier.md)
+     [자세히 보기](../building-journeys/supplemental-identifier.md)
 
 * 캠페인의 최적화 페이지에 이제 여정에서도 최적화를 사용할 수 있다는 사실을 반영하여 업데이트했습니다. [자세히 보기](../content-management/gs-message-optimization.md)
 
@@ -474,7 +476,7 @@ ht-degree: 69%
 
 * **이메일 설정 구성** 페이지의 가독성을 개선하기 위해 여러 하위 페이지로 나누고 [구독 취소 목록](../email/list-unsubscribe.md), [헤더 매개변수](../email/header-parameters.md), [URL 추적](../email/url-tracking.md)에 대한 새로운 독립형 페이지를 추가했습니다.
 
-+++ 2024년
++++ 2024
 
 ## 2024년 12월 {#nov-2024}
 

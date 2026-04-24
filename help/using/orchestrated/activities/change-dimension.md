@@ -5,10 +5,10 @@ title: 차원 변경 활동 사용
 description: 차원 변경 활동을 사용하는 방법 알아보기
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
 version: Campaign Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0980d5da677edb4cf21b7a86549ffc32d0b666a1
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 74%
+source-wordcount: '336'
+ht-degree: 50%
 
 ---
 
@@ -43,7 +43,11 @@ ht-degree: 74%
 
    ![](../assets/orchestrated-change-dimension.png)
 
-1. **[!UICONTROL 새 타깃 차원]**&#x200B;을 정의합니다. 차원 변경 중에는 모든 레코드가 유지됩니다.
+1. **[!UICONTROL 새 타깃 차원]**&#x200B;을 정의합니다. 차원 변경 단계에서는 외부 조인을 사용합니다. 새 차원에 일치하는 항목이 없는 레코드를 포함하여 입력 모집단의 모든 레코드가 전달됩니다.
+
+   >[!IMPORTANT]
+   >
+   >새 타겟팅 차원에 일치하는 프로필이 없는 레코드는 **메시지 배달 시간에 자동으로 제외됩니다**. 이 제외는 현재 제외 로그에 반영되지 않습니다. 일치하지 않는 레코드를 조기에 식별하려면 차원 변경 단계 후 전환에서 **결과 미리 보기** 옵션을 사용하고 계속하기 전에 레코드 수가 예상과 일치하는지 확인하십시오.
 
 
 ## 예 {#example}
@@ -52,6 +56,6 @@ ht-degree: 74%
 
 먼저 **[!UICONTROL 대상자 작성]** 활동을 만들며 **[!UICONTROL 위시리스트]** 타기팅 차원으로 모든 관련 위시리스트를 식별합니다.
 
-그런 다음 **[!UICONTROL 차원 변경]** 활동을 추가하여 타기팅 차원을 **[!UICONTROL 위시리스트]**&#x200B;에서 **[!UICONTROL 수신자]로 전환합니다.** 이 단계에서는 오케스트레이션된 캠페인 타겟이 해당 위시리스트에 연결된 올바른 프로필을 사용하도록 하여 의도한 프로필로 SMS를 보낼 수 있도록 합니다.
+그런 다음 **[!UICONTROL 차원 변경]** 활동을 추가하여 타겟팅 차원을 **[!UICONTROL 위시리스트]**&#x200B;에서 **[!UICONTROL 수신자] (으)로 전환합니다.** 이 단계에서는 오케스트레이션된 캠페인 타겟이 해당 위시리스트에 연결된 올바른 프로필을 타겟팅하여 의도한 프로필로 SMS를 전송할 수 있도록 합니다.
 
 ![](../assets/orchestrated-change-dimension-example.png)
