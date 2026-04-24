@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b3663df6447d0f689f598f258f050891388a8729
+source-git-commit: 7284814029465a8806b78640b8ffe6c44ad030a7
 workflow-type: tm+mt
-source-wordcount: '3896'
-ht-degree: 19%
+source-wordcount: '3902'
+ht-degree: 17%
 
 ---
 
@@ -181,7 +181,7 @@ ht-degree: 19%
 <p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
 <p><img src="assets/do-not-localize/express_resize.gif"></p>
 <p>자세한 내용은 <a href="../integrations/express.md">세부 설명서</a>를 참조하십시오.</p>
-<p>가용성 일자: 2026년 4월 23일 금요일</p>
+<p>사용 가능한 날짜: 2026년 4월 23일</p>
 </td>
 </tr>
 </tbody>
@@ -200,7 +200,7 @@ ht-degree: 19%
 <p>AI 어시스턴트가 수신자가 이메일을 읽고 행동하는 방법을 점점 더 제어하므로 이 기능은 요약, 등급, 우선 순위 지정 및 의도 추출을 비롯한 다운스트림 AI 작업에서 잘 수행되는 콘텐츠를 생성하고 작성하는 데 도움이 됩니다.</p>
 <p><img src="assets/do-not-localize/optimize-for-ai.gif"></p>
 <p>자세한 내용은 <a href="../email/llm-email-optimizer.md">AI 받은 편지함에 대한 전자 메일 최적화</a>를 참조하세요.</p>
-<p>가용성 일자: 2026년 4월 17일 토요일</p>
+<p>사용 가능한 날짜: 2026년 4월 17일</p>
 </td>
 </tr>
 </tbody>
@@ -219,7 +219,7 @@ ht-degree: 19%
 <p>그 보조원은 또한 역순으로 일한다. 기존 표현식을 선택하고 논리를 설명하거나 문제를 식별하거나 개선 사항을 제안하도록 요청합니다. 이렇게 하면 새 표현식을 작성할 뿐만 아니라 팀 전체에서 기존 표현식을 검토하고 디버깅하는 데에도 유용합니다.</p>
 <p><img src="assets/do-not-localize/assistant-perso.gif"></p>
 <p>자세한 내용은 <a href="../content-management/generative-personalization-expressions.md">Personalization 표현식 AI 지원</a>을 참조하세요.</p>
-<p>가용성 일자: 2026년 4월 13일 화요일</p>
+<p>사용 가능한 날짜: 2026년 4월 13일</p>
 </td>
 </tr>
 </tbody>
@@ -240,7 +240,7 @@ ht-degree: 19%
 <p>일반 가용성의 일부로 이 릴리스에서는 단일 여정에 대해 <strong>실험 유형</strong> 선택(A/B 또는 multi-armed bandit) 및 <strong>승자 크기 조정</strong>을 도입합니다.</p>
 <p><img src="assets/do-not-localize/optimize-experiment.gif"></p>
 <p>자세한 내용은 <a href="../building-journeys/path-experimentation.md">세부 설명서</a>를 참조하십시오.</p>
-<p>가용성 일자: 2026년 4월 7일 수요일</p>
+<p>사용 가능한 날짜: 2026년 4월 7일</p>
 </td>
 </tr>
 </tbody>
@@ -258,7 +258,7 @@ ht-degree: 19%
 <p><strong>받은 편지함</strong>은(는) 콘텐츠 카드에서 사용할 수 있는 모바일 기능으로, 이를 통해 고객은 앱 또는 웹 사이트 내에서 중앙 위치를 만들어 사용자에게 보낸 메시지를 표시할 수 있습니다. 따라서 메시지가 종료된 후에도 계속 액세스할 수 있도록 보장함으로써 마케팅 커뮤니케이션의 수명을 연장할 수 있습니다.</p>
 <p><img src="assets/do-not-localize/inbox.gif"/></p>
 <p>자세한 내용은 <a href="../inbox/inbox-gs.md">세부 설명서</a>를 참조하십시오.</p>
-<p>가용성 일자: 2026년 4월 7일 수요일</p>
+<p>사용 가능한 날짜: 2026년 4월 7일</p>
 </td>
 </tr>
 </tbody>
@@ -298,7 +298,7 @@ ht-degree: 19%
 <p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성). 이번 GA 릴리스에서는 미러 페이지가 지원됩니다.</p>
 <p><img src="assets/do-not-localize/exd-email.gif"></p>
 <p>자세한 내용은 <a href="../experience-decisioning/create-decision-policy.md">세부 설명서</a>를 참조하십시오.</p>
-<p>가용성 일자: 2026년 4월 6일 화요일</p>
+<p>사용 가능한 날짜: 2026년 4월 6일</p>
 </td>
 </tr>
 </tbody>
@@ -318,7 +318,7 @@ ht-degree: 19%
 
 * **일시적으로 사용할 수 없는 조각을 건너뜁니다** - 의사 결정 항목에서 조각을 사용할 때 Edge에서 조각을 일시적으로 사용할 수 없는 경우 해당 조각을 건너뛰고 여정 또는 캠페인이 실패하는 대신 렌더링을 계속합니다. [자세히 보기](../experience-decisioning/fragments-decision-policies.md#temporary-unavailable-fragments)
 
-  가용성 일자: 2026년 4월 14일 수요일
+  사용 가능한 날짜: 2026년 4월 14일
 
 #### 푸시
 
@@ -342,21 +342,17 @@ ht-degree: 19%
 
 #### Adobe Experience Manager 통합
 
-* **콘텐츠 관리자 선택기** - 이제 Adobe Experience Manager Assets 및 콘텐츠 조각 선택기가 모든 AEM Assets 및 AEM 콘텐츠 조각을 검색, 검색, 필터링 및 액세스할 수 있는 통합 모달인 **콘텐츠 관리자 선택기**&#x200B;로 대체되었습니다. Dynamic Media 렌디션 지원도 포함되어 있으므로 Dynamic Media 에셋을 선택한 경우 UI에서 이미지 렌디션을 추가할 수 있습니다. 이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).
-
-* **Dynamic Media를 사용하여 카운트다운 타이머가 있는 오픈 타임 개인화** - Journey Optimizer 및 Adobe Experience Manager Dynamic Media 통합을 통해 Dynamic Media 템플릿에 대한 오픈 타임 개인화를 활성화하여 초개인화된 사용 사례를 잠글 수 있습니다. 고객은 Adobe Experience Manager에서 개인화된 템플릿을 만들고 게시하며, 오픈타임에 렌더링되는 데이터를 사용하여 Journey Optimizer에서 사용할 수 있습니다.
-
 * **Adobe Experience Manager 콘텐츠 조각 변형 지원** - 로케일 및 다국어 시나리오에 대한 개선된 처리로 Adobe Experience Manager 콘텐츠 조각을 삽입할 때 **콘텐츠 조각 변형**(예: 언어 또는 채널 변형)을 선택할 수 있습니다. [자세히 보기](../integrations/aem-fragments.md#aem-variations)
 
   이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
 
-  가용성 일자: 2026년 4월 3일 토요일
+  사용 가능한 날짜: 2026년 4월 3일
 
 * **작성 중 Adobe Experience Manager 콘텐츠 조각 컨텍스트** - 콘텐츠 조각 선택 항목은 텍스트 필드와 콘텐츠 블록 사이를 이동할 때 활성 상태로 유지되므로 매번 **AEM 콘텐츠 관리자 열기**&#x200B;를 다시 열지 않고 조각 필드를 더 추가할 수 있습니다. [자세히 보기](../integrations/aem-fragments.md)
 
   이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
 
-  가용성 일자: 2026년 4월 1일 목요일
+  사용 가능한 날짜: 2026년 4월 1일
 
 #### 구성
 
@@ -374,29 +370,29 @@ ht-degree: 19%
 
   이전에는 전자 메일 콘텐츠 템플릿에만 사용할 수 있었지만, 이제 이 기능은 전자 메일 콘텐츠 템플릿 외에 전자 메일 Designer의 **전자 메일** 콘텐츠(예: 여정 및 캠페인으로 작성된 전자 메일)에도 배포됩니다. 현재 제한된 가용성 상태입니다. Adobe 담당자에게 문의하여 액세스 권한을 받으십시오. [자세히 보기](../email/email-expert-mode.md)
 
-  가용성 일자: 2026년 4월 9일 금요일
+  사용 가능한 날짜: 2026년 4월 9일
 
 * **이메일 Designer의 개인화 표현식에 대한 AI 도우미** - 이메일 Designer에서 구성 요소를 선택하고 상황별 도구 모음의 **표현식 추가**&#x200B;를 사용하여 필요한 개인화를 일반 언어로 설명하고 생성된 표현식을 검토한 다음 디자이너를 떠나지 않고 삽입합니다. [자세히 알아보기](../content-management/generative-personalization-expressions.md#generate-email-designer)
 
-  가용성 일자: 2026년 4월 15일 목요일
+  사용 가능한 날짜: 2026년 4월 15일
 
 #### 여정 경로 최적화
 
 * **실험 유형** - 이제 경로 실험을 구성할 때 A/B 실험(시작 시 고정 분할) 또는 Multi-armed bandit(주별 가중치 업데이트가 있는 자동 분할) 중에서 선택할 수 있습니다. [자세히 보기](../building-journeys/path-experimentation.md)
 
-  가용성 일자: 2026년 4월 7일 수요일
+  사용 가능한 날짜: 2026년 4월 7일
 
 * **경로 실험: 우승자 크기 조정** - 이제 실험의 성공 경로를 전체 대상자에게 자동 또는 수동으로 롤아웃할 수 있습니다. 일단 승자가 결정되면 실험을 지속적으로 모니터링하지 않고 그 도달 범위와 효과를 증폭시킬 수 있다. [자세히 보기](../building-journeys/path-experimentation.md#scale-winner)
 
   이 기능은 단일 여정(이벤트 트리거 및 대상 자격 조건)에서만 사용할 수 있습니다. 대상자 읽기 여정에 사용할 수 없습니다.
 
-  가용성 일자: 2026년 4월 7일 수요일
+  사용 가능한 날짜: 2026년 4월 7일
 
 * **조건** - [최적화](../building-journeys/optimize.md) 활동은 여정에서 조건부 경로를 만드는 새로운 수단입니다. UI에서 제거된 이전의 **조건** 활동을 대체합니다. 모든 조건부 논리는 유지되고 이제 **최적화** 활동의 조건을 통해 처리됩니다. [자세히 보기](../building-journeys/conditions.md)
 
   이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).
 
-  가용성 일자: 2026년 4월 7일 수요일
+  사용 가능한 날짜: 2026년 4월 7일
 
 
 ## 2026년 3월 릴리스 정보 {#march-26-rn}
@@ -430,7 +426,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
 <p><img src="assets/do-not-localize/encrypt-helper.gif"></p>
 <p>자세한 내용은 <a href="../personalization/url-parameter-encryption.md">세부 설명서</a>를 참조하십시오.</p>
-<p>사용 가능한 날짜: 2026년 3월 31일 수요일</p>
+<p>사용 가능한 날짜: 2026년 3월 31일</p>
 </td>
 </tr>
 </tbody>
@@ -449,7 +445,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
 <p><img src="assets/do-not-localize/image-converter.gif"></p>
 <p>자세한 내용은 <a href="../content-management/image-to-html.md">세부 설명서</a>를 참조하십시오.</p>
-<p>사용 가능한 날짜: 2026년 3월 31일 수요일</p>
+<p>사용 가능한 날짜: 2026년 3월 31일</p>
 </td>
 </tr>
 </tbody>
@@ -542,7 +538,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>이 기능은 이메일 채널의 콘텐츠 템플릿에서만 사용할 수 있습니다. 현재 제한된 가용성 상태입니다. Adobe 담당자에게 문의하여 액세스 권한을 받으십시오.</p>
 <p><img src="assets/do-not-localize/expert-mode.gif"/></p>
 <p>자세한 내용은 <a href="../email/email-expert-mode.md">세부 설명서</a>를 참조하십시오.</p>
-<p>사용 가능한 날짜: 2026년 3월 10일 수요일</p>
+<p>사용 가능한 날짜: 2026년 3월 10일</p>
 </td>
 </tr>
 </tbody>
@@ -561,7 +557,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>요구 사항에 맞는 모델을 선택하십시오.</p>
 <ul><li> 추가 설정 없이 즉각적인 이미지를 생성할 수 있도록 <strong>Adobe 모델</strong>(Firefly Image Model 4 제공)</li><li> 특수 기능을 위한 <strong>파트너 모델</strong>(Gemini 2.5 Flash 지원)</li><li>브랜드 정체성, 스타일 및 시각적 지침에 따라 정확하게 일치하는 온브랜드 생성을 위한 <strong>사용자 지정 모델</strong>(사용자 고유의 자산에 대해 교육된 브랜드별 모델).</li></ul>
 <p>자세한 내용은 <a href="../content-management/generative-models.md">세부 설명서</a>를 참조하십시오.</p>
-<p>사용 가능한 날짜: 2026년 3월 2일 화요일</p>
+<p>사용 가능한 날짜: 2026년 3월 2일</p>
 </td>
 </tr>
 </tbody>
@@ -579,7 +575,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>Adobe Journey Optimizer에서 <strong>iOS 라이브 활동</strong>을 통해 고객의 Screens 및 Dynamic Island 잠금에 직접 실시간 경험을 제공할 수 있습니다. 사용자가 앱을 열지 않고도 주문 추적 및 비행 상태부터 이벤트 처리, 라이브 점수 및 게재 진행률에 이르기까지 라이브 업데이트를 제공할 수 있습니다. 대상자가 있는 바로 그 순간에 정보를 얻고 참여하도록 하십시오.</p>
 <p>이전에 베타 버전으로 출시된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 공급).</p>
 <p>자세한 내용은 <a href="../mobile-live/get-started-mobile-live.md">세부 설명서</a>를 참조하십시오.</p>
-<p>사용 가능한 날짜: 2026년 3월 3일 수요일</p>
+<p>사용 가능한 날짜: 2026년 3월 3일</p>
 </td>
 </tr>
 </tbody>
@@ -597,7 +593,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p><strong>Adobe Experience Platform Agent Orchestrator</strong>에서 제공하는 <strong>Journey Agent</strong>은(는) Journey Optimizer에서 사용할 수 있으며 자연어 인터페이스를 통해 여정을 분석할 수 있도록 해줍니다. 이제 Journey Agent에서 직접 채널별 콘텐츠를 생성하고 관리할 수도 있습니다. 또한 이메일 및 푸시와 같은 채널용 콘텐츠를 만들고, 템플릿을 적용하고 미리 보고, 프롬프트를 통해 색조와 스타일을 개선하고, <strong>콘텐츠 Designer</strong>에서 콘텐츠를 열어 상황에 맞게 편집할 수 있습니다.</p>
 <p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
 <p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=ko" target="_blank">세부 설명서</a>를 참조하십시오.</p>
-<p>사용 가능한 날짜: 2026년 3월 4일 목요일</p>
+<p>사용 가능한 날짜: 2026년 3월 4일</p>
 </td>
 </tr>
 </tbody>
@@ -616,7 +612,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>이 기능은 현재 <strong>개인화된 최적화</strong> 모델에만 사용할 수 있습니다(자동 최적화는 아님).</p>
 <p><img src="assets/do-not-localize/ai-model-observability.gif"/></p>
 <p>자세한 내용은 <a href="../experience-decisioning/ranking/ai-model-observability.md">세부 설명서</a>를 참조하십시오.</p>
-<p>사용 가능한 날짜: 2026년 3월 9일 화요일</p>
+<p>사용 가능한 날짜: 2026년 3월 9일</p>
 </td>
 </tr>
 </tbody>
@@ -667,13 +663,13 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 
   이전에 여정에서 사용할 수 있도록 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).
 
-  가용성 일자: 2026년 4월 1일 목요일
+  사용 가능한 날짜: 2026년 4월 1일
 
 #### 보고
 
 * **전송 시간 최적화: 컨트롤 위치 및 새 리프트 보고서를 업데이트했습니다** - STO(전송 시간 최적화) 컨트롤이 작업 구성 메뉴로 재배치되었습니다. 또한 이제 여정 보고서에서 STO가 캠페인 성과 지표에 미치는 영향을 측정하는 새로운 상승도 보고서를 사용할 수 있습니다. [자세히 보기](../reports/channel-report-cja.md#optimization-models)
 
-  사용 가능한 날짜: 2026년 3월 27일 토요일
+  사용 가능한 날짜: 2026년 3월 27일
 
 <!--
 * **Exclude bot clicks for email and SMS reporting** - Email and SMS reporting now automatically filters out bot clicks from click metrics, providing more accurate engagement data and preventing automated traffic from inflating your performance figures.
@@ -693,7 +689,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 
 * **AJO 도메인 인증서 갱신 실패** - 이제 전자 메일 게재에 사용되는 도메인 인증서가 곧 만료되거나 이미 만료된 경우 전자 메일 또는 Journey Optimizer 알림 센터에서 시스템 경고를 수신하도록 구독할 수 있습니다. [자세히 보기](../reports/alerts.md#alert-certificates-renewal-unsuccessful)
 
-  사용 가능한 날짜: 2026년 3월 26일 금요일
+  사용 가능한 날짜: 2026년 3월 26일
 
 * **AJO 보조 받는 사람 피드백 이벤트 데이터 세트 이름 바꾸기** - `AJO Email BCC Feedback Event` 데이터 세트의 이름이 `AJO Secondary Recipient Feedback Event` 데이터 세트로 바뀌었습니다. 영향은 상황에 따라 다릅니다.
 
@@ -705,7 +701,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
   >
   >새 데이터 세트에는 새 이름이 즉시 표시됩니다. 이전 데이터 세트 이름의 경우 채우기 및 조정은 점진적으로 진행되며 완료하는 데 몇 주가 걸릴 수 있습니다.
 
-  사용 가능한 날짜: 2026년 3월 2일 화요일
+  사용 가능한 날짜: 2026년 3월 2일
 
 
 #### 여정
@@ -716,17 +712,17 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 
   이전에 여정에서 사용할 수 있도록 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).
 
-  사용 가능한 날짜: 2026년 3월 16일 화요일
+  사용 가능한 날짜: 2026년 3월 16일
 
 * **여정 기술 세부 정보의 일시 중지 및 다시 시작 세부 정보** - 이제 **기술 세부 정보** 여정에 마지막 일시 중지 및 다시 시작 날짜 및 시간, 각 작업을 수행한 사용자의 표시 이름 및 내부 식별자, 일시 중지 동작, 최대 일시 중지 기간 및 자동 다시 시작 상태와 같은 일시 중지된 여정 설정의 전체 집합과 같은 추가 일시 중지 및 다시 시작 정보가 포함됩니다. [자세히 알아보기](../building-journeys/journey-properties.md)
 
-  사용 가능한 날짜: 2026년 3월 2일 화요일
+  사용 가능한 날짜: 2026년 3월 2일
 
 #### 결정
 
 * **Decisioning 마이그레이션 — 오퍼 및 컨텍스트 특성** - 이제 마이그레이션 API 엔터티 매핑에 **오퍼 특성**(`migratedofferattributes`은(는) 개인화된 오퍼 항목 스키마에 있음) 및 **컨텍스트 특성**(`migratedcontextattributes`은(는) 마이그레이션 데이터 세트 스키마에 있음)이 나열됩니다. [자세히 보기](../experience-decisioning/decisioning-migration-api.md#entity-mapping)
 
-  사용 가능한 날짜: 2026년 3월 31일 수요일
+  사용 가능한 날짜: 2026년 3월 31일
 
 <!--
 ## Coming soon {#coming-soon}
