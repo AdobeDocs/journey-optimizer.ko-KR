@@ -30,7 +30,7 @@ Centralized Offer Management 및 고급 의사 결정 엔진을 통해 개인화
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 Adobe Journey Optimizer에서의 의사 결정
 

@@ -50,7 +50,7 @@ Customer Journey Analytics 수동 구성
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 보고서 관리
 
