@@ -30,7 +30,7 @@ LINE 메시지를 만들기 전에 Journey Optimizer에서 LINE 채널을 구성
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 LINE 채널 구성
 
@@ -50,7 +50,7 @@ LINE 메시지 만들기 및 구성
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 LINE 메시지 확인 및 전송
 
