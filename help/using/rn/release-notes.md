@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 89b884cf1feb7af9fe52b14b4ae706013ed70247
+source-git-commit: 4c42f2ec6b427cf48550fc38a81d47c16a08b5fc
 workflow-type: tm+mt
-source-wordcount: '3965'
+source-wordcount: '4017'
 ht-degree: 17%
 
 ---
@@ -42,6 +42,22 @@ ht-degree: 17%
 <table>
 <thead>
 <tr>
+<th><strong>통합</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><b>통합</b> 기능을 사용하면 타사 데이터 소스를 Adobe Journey Optimizer에 직접 연결할 수 있습니다. 외부 데이터 및 <b>구성 가능한 콘텐츠</b>를 가져오는 방법을 단순화하여 이 기능을 사용하면 모든 채널에서 개인화된 동적 메시지를 보다 쉽게 전달할 수 있습니다.</p>
+<p>이전에 베타 버전으로 출시된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 공급).</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>여정 시뮬레이션</strong><br/></th>
 </tr>
 </thead>
@@ -49,7 +65,7 @@ ht-degree: 17%
 <tr>
 <td>
 <p>이제 여정을 <strong>시뮬레이션</strong>(으)로 설정할 수 있습니다. 이 모드를 사용하면 <strong>시뮬레이션된 사용자</strong>를 사용하여 논리의 유효성을 검사할 수 있습니다. 이러한 프로필은 시뮬레이션을 위해 특별히 생성된 임시 프로필로서, Adobe Experience Platform에서 지속적인 테스트 프로필을 관리할 필요 없이 자유롭게 테스트할 수 있습니다.</p>
-<p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
+<p>이 통합은 현재 Healthcare Shield 또는 Privacy and Security Shield와 함께 사용할 수 없습니다.</p>
 </td>
 </tr>
 </tbody>
