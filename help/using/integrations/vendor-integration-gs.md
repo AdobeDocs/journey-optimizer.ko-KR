@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 hide: true
 keywords: 통합, 공급업체, 서드파티
-source-git-commit: 9d839f8ac20b80e4abf5bedb881908f4e24964fc
+source-git-commit: e4c298fb1c47501920a27a93b43878327b6c5861
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '378'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 목차:
 
-* [통합 작업](external-sources.md)
+* [통합 작업](integrations.md)
 * **[공급업체 통합 시작](vendor-integration-gs.md)**
 * [사용 가능한 공급업체](vendor-integration.md)
 * [FAQ](vendor-integration-faq.md)
@@ -31,7 +31,7 @@ ht-degree: 1%
 >[!ENDSHADEBOX]
 
 
-각 시스템이 사용 사례에 적합하고 통합에서 요청을 처리하고 응답을 사용하는 방식과 호환되는 **API 끝점**&#x200B;을(를) 노출할 때 Adobe Journey Optimizer에서 **통합**&#x200B;을 사용하여 **HTTP를 통한 외부 시스템**&#x200B;을(를) 호출할 수 있습니다. 전체 워크플로를 보려면 [통합 작업](external-sources.md)을 참조하십시오.
+각 시스템이 사용 사례에 적합하고 통합에서 요청을 처리하고 응답을 사용하는 방식과 호환되는 **API 끝점**&#x200B;을(를) 노출할 때 Adobe Journey Optimizer에서 **통합**&#x200B;을 사용하여 **HTTP를 통한 외부 시스템**&#x200B;을(를) 호출할 수 있습니다. 전체 워크플로를 보려면 [통합 작업](integrations.md)을 참조하십시오.
 
 본 명세서에 기술된 타사 솔루션 목록은 예시적인 것이며, 완전한 것은 아니다. 제품 요구 사항을 충족하는 다른 플랫폼이 사용될 수도 있습니다.
 
@@ -41,7 +41,7 @@ ht-degree: 1%
 
 * **응답 형식:** 통합 맵은 **JSON** 응답의 필드를 매핑합니다. 작성 시간에 API가 매핑에 적합한 JSON을 반환하도록 디자인됩니다.
 * **페이로드 및 필드:** 필요한 특성만 요청하고 매핑합니다. 응답 크기가 작을수록 대기 시간이 단축되고 중요한 데이터의 노출이 제한됩니다.
-* **끝점 셰이프:** 제품이 대상 조회를 예상할 때 광범위한 목록 또는 페이지 매김 끝점보다 안정적인 **단일 리소스** 검색(예: 하나의 시작, 제품 또는 멤버)을 선호합니다. [제한 및 제외](#limitations-exclusions) 및 [통합 작업](external-sources.md)을 참조하세요.
+* **끝점 셰이프:** 제품이 대상 조회를 예상할 때 광범위한 목록 또는 페이지 매김 끝점보다 안정적인 **단일 리소스** 검색(예: 하나의 시작, 제품 또는 멤버)을 선호합니다. [제한 및 제외](#limitations-exclusions) 및 [통합 작업](integrations.md)을 참조하세요.
 * **볼륨 및 안정성:** 공급업체의 **속도 제한**&#x200B;을 준수합니다. 채널에 대해 **시간 초과**, **다시 시도** 및 **캐시** 정책을 구성하고(예: 일괄 전자 메일과 트랜잭션 전송) 로드 중에 유효성을 검사하십시오.
 * **보안:** 조직의 정책에 따라 토큰, API 키 및 OAuth 자격 증명을 저장하고 회전합니다. 메시지 콘텐츠에 비밀을 임베드하지 마십시오.
 

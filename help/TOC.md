@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c8eb1df8094843049077a18118d2c8f7c0b57fe3
+source-git-commit: e4c298fb1c47501920a27a93b43878327b6c5861
 workflow-type: tm+mt
-source-wordcount: '3209'
+source-wordcount: '3275'
 ht-degree: 91%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 91%
    + 효율적으로 작업 {#work-efficiently}
       + [인터페이스 살펴보기](using/start/user-interface.md)
       + [검색, 필터링 및 정리](using/start/search-filter-categorize.md)
-      + [문제 해결 FAQ](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [문제 해결 FAQ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [접근성](using/start/accessibility.md)
       + {hide-from-toc}[여정 대 캠페인](using/start/journeys-vs-campaigns.md)
 + 여정 {#orchestrate-journeys}
@@ -362,7 +362,7 @@ ht-degree: 91%
          + [웹 채널 전제 조건](using/web/web-prerequisites.md)
          + [웹 하위 도메인 구성](using/web/web-delegated-subdomains.md)
          + [웹 채널 구성 만들기](using/web/web-configuration.md)
-      + [웹 경험 만들기 &#x200B;](using/web/create-web.md)
+      + [웹 경험 만들기](using/web/create-web.md)
       + 웹 페이지 작성 {#author-web-pages}
          + [웹 페이지 작성](/help/rp_landing_pages/author-web-pages-landing-page.md)
          + [웹 디자이너를 사용하여 작업](using/web/web-visual-editor.md)
@@ -422,7 +422,7 @@ ht-degree: 91%
          + [Journey Optimizer에서 라이브 활동 구성](using/mobile-live/mobile-live-configuration.md)
          + [라이브 활동 SDK 통합 구성](using/mobile-live/mobile-live-configuration-sdk.md)
 + 콘텐츠 관리 {#content-management}
-   + [콘텐츠 관리 &#x200B;](/help/rp_landing_pages/content-management-landing-page.md)
+   + [콘텐츠 관리](/help/rp_landing_pages/content-management-landing-page.md)
    + 개인화 {#personalization}
       + [개인화](/help/rp_landing_pages/personalization-landing-page.md)
       + [개인화 시작](using/personalization/personalize.md)
@@ -505,7 +505,7 @@ ht-degree: 91%
       + {hide-from-toc}[카운트다운 타이머 삽입](using/integrations/countdown.md)
       + [Dynamic Media 작업](using/integrations/aem-dynamic.md)
       + [GenStudio for Performance Marketing 작업](using/integrations/genstudio.md)
-      + {hide-from-toc}[통합 작업](using/integrations/external-sources.md)
+      + {hide-from-toc}[통합 작업](using/integrations/integrations.md)
       + {hide-from-toc}[공급업체 통합 시작](using/integrations/vendor-integration-gs.md)
       + {hide-from-toc}[사용 가능한 공급업체](using/integrations/vendor-integration.md)
       + {hide-from-toc}[FAQ](using/integrations/vendor-integration-faq.md)
@@ -942,7 +942,7 @@ ht-degree: 91%
       + [사용자 정의 작업에서 API 호출 응답 사용](using/action/action-response.md)
       + [사용자 정의 액션 모니터링](using/action/reporting.md)
 + 시스템과 환경 연결 {#connect-systems}
-   + [시스템 및 환경 연결](/help/rp_landing_pages/connect-systems-landing-page.md)
+   + [시스템과 환경 연결](/help/rp_landing_pages/connect-systems-landing-page.md)
    + [다른 솔루션과 통합](using/integrations/ajo-integrations.md)
    + [Journey Optimizer API 작업](using/configuration/ajo-apis.md)
    + 외부 시스템과 여정 통합 {#external-systems}
@@ -969,7 +969,7 @@ ht-degree: 91%
    + [속성 기반 액세스 제어](using/administration/attribute-based-access.md)
    + [오브젝트 수준 액세스 제어](using/administration/object-based-access.md)
 + 개인 정보 보호 {#privacy}
-   + [개인정보](/help/rp_landing_pages/privacy-landing-page.md)
+   + [개인 정보 보호](/help/rp_landing_pages/privacy-landing-page.md)
    + [개인 정보 시작](using/privacy/get-started-privacy.md)
    + [개인 정보 요청](using/privacy/requests.md)
    + [리소스에 대한 작업 감사](using/privacy/audit-logs.md)
