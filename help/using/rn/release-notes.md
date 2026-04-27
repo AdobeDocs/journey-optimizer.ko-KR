@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3e2fbd4a800bdba143caaf0350026e6cd959271d
+source-git-commit: 89b884cf1feb7af9fe52b14b4ae706013ed70247
 workflow-type: tm+mt
-source-wordcount: '3944'
+source-wordcount: '3965'
 ht-degree: 17%
 
 ---
@@ -326,7 +326,7 @@ ht-degree: 17%
 
 * **Campaign 대시보드의 브랜드 정렬 점수** - 이제 Campaign 대시보드 내에서 직접 브랜드 정렬 점수를 평가하여 콘텐츠를 브랜드에 유지할 수 있습니다. 이렇게 하면 콘텐츠 디자이너를 열지 않고도 지침을 한 눈에 확인할 수 있습니다.
 
-* **프롬프트 길잡이 개선 사항** - 프롬프트가 모호하거나 불완전하거나 여러 목표를 혼합하는 경우 **프롬프트 길잡이**&#x200B;는 이제 명확한 질문을 묻거나 생성 전에 요청을 더 명확하게 다시 작성하도록 제안할 수 있으므로 길잡이가 응답하기 전에 필요한 내용을 고정하여 일관성을 향상시키고 재시도를 줄일 수 있습니다. [자세히 알아보기](../content-management/ai-assistant-prompting-guide.md)
+* **프롬프트 길잡이 개선** - 프롬프트 길잡이는 사용자 프롬프트를 실시간으로 분석하고 명확성, 완전성 및 컨텍스트의 차이를 식별하여 AI 콘텐츠 생성을 개선합니다. 향상된 재작성을 제안하고 대상, 색조 및 의도와 같은 주요 세부 사항으로 프롬프트를 보강하는 실행 가능한 지침을 제공합니다. 이 기능은 또한 사용자가 생성 전에 입력을 구체화하는 데 도움이 되는 타겟팅된 명확화 질문을 제공합니다. 따라서 반복이 적을수록 보다 정확하고 고품질의 출력이 생성됩니다. [자세히 알아보기](../content-management/ai-assistant-prompting-guide.md)
 
 #### 결정
 
