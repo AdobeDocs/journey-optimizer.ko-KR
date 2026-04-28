@@ -10,10 +10,10 @@ level: Beginner
 keywords: 통합
 hide: true
 exl-id: 104f283e-f6a5-431b-919a-d97b83d19632
-source-git-commit: 16eb46843d0369ae14f004a5e0f9e743cad3170b
+source-git-commit: f40e030e7d14120cdbc118a8f93e2f752d713f6b
 workflow-type: tm+mt
-source-wordcount: '1055'
-ht-degree: 9%
+source-wordcount: '1227'
+ht-degree: 7%
 
 ---
 
@@ -134,6 +134,10 @@ ht-degree: 9%
 
    ![](assets/external-integration-config-5.png)
 
+   >[!NOTE]
+   >
+   >**[!UICONTROL 응답 페이로드]** 구성은 해당 단계에 적용된 스키마를 포함하여 작성에 필요한 응답을 정의합니다. 마케터는 노출된 필드만 참조할 수 있으며 다른 경로에 대한 토큰은 편집기에서 유효성 검사에 실패합니다.
+
 1. **[!UICONTROL 테스트 연결 보내기]**&#x200B;를 사용하여 통합의 유효성을 검사합니다.
 
    유효성을 검사하면 **[!UICONTROL 활성화]**&#x200B;를 클릭합니다.
@@ -146,7 +150,14 @@ ht-degree: 9%
 
 큐에 있는 각 메시지에는 TTL(유효성 기간)도 전달됩니다. 처리가 지연되고 메시지가 해당 창을 지나면 시스템이 **메시지를 삭제하고** **`MessageValidityExclusion`** 이벤트를 발생시키므로 큐에서 오래된 작업이 지워지고 리소스가 사용 가능한 상태로 유지됩니다.
 
+
 ## 개인화에 외부 통합 사용 {#personalization}
+
+개인화를 위해 외부 통합을 사용하기 전에 통합 호출의 예약 및 격리는 실행 컨텍스트에 따라 다릅니다.
+
+* **일괄 실행**(일괄 캠페인, 오케스트레이션된 캠페인 및 API 트리거된 마케팅 캠페인): 각 일괄 실행은 전용 격리된 환경에서 작동합니다. 따라서 외부 시스템을 호출하는 동시 배치 실행은 서로 충돌하거나 방해하지 않습니다.
+
+* **단일 실행**(단일 여정, 일괄 여정 및 API 트리거 트랜잭션 캠페인): 통합 트래픽은 브랜드 샌드박스별로 격리되므로 한 브랜드에 대해 느린 외부 API로 다른 브랜드가 지연되지 않습니다. 샌드박스 내에서 동시 통합은 다른 통합 지원 메시지를 잠시 지연시킬 수 있습니다. 각 메시지는 만료 전 최대 12시간 동안 시도됩니다.
 
 마케터는 구성된 통합을 사용하여 콘텐츠를 개인화할 수 있습니다. 다음 단계를 수행하십시오.
 
@@ -186,6 +197,10 @@ ht-degree: 9%
 1. 통합 특성이 정의되면 이제 ![추가](assets/do-not-localize/Smock_Add_18_N.svg) 아이콘을 클릭하여 개인화된 메시지를 보내는 데 콘텐츠의 통합 필드를 사용할 수 있습니다.
 
    ![](assets/external-integration-content-6.png)
+
+   >[!NOTE]
+   >
+   >템플릿의 토큰은 통합 구성에 노출된 관리자 필드만 사용해야 합니다. 예를 들어 `temperature`이(가) 노출되면 `{{weatherResponse.temperature}}`이(가) 유효하며, `humidity`이(가) 노출되지 않으면 편집기에서 `{{weatherResponse.humidity}}`이(가) 거부됩니다.
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
