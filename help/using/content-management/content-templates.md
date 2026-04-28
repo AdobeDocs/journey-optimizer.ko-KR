@@ -48,4 +48,4 @@ To create, edit, and delete content templates, ensure you have the **[!DNL Manag
 
 Learn how to create, edit, and use content templates in [!DNL Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3413743/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3418588/?captions=kor&quality=12)
