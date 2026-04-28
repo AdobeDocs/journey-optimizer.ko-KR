@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 충성도 문제 시작
-description: 매력적인 충성도 프로그램을 구축하기 위해 Adobe Journey Optimizer에서 충성도 문제를 만들고 관리하는 방법을 알아봅니다.
+description: Learn how to create and manage loyalty challenges in Adobe Journey Optimizer to build engaging loyalty programs.
 feature: Journeys
 topic: Content Management
 role: User
@@ -11,24 +11,24 @@ hide: true
 badge: label="비공개 베타" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '742'
 ht-degree: 15%
 
 ---
 
-# 충성도 문제 시작 {#get-started-loyalty-challenges}
+# Get started with loyalty challenges {#get-started-loyalty-challenges}
 
 >[!BEGINSHADEBOX]
 
 **충성도 과제 설명서:**
 
-* **충성도 문제 시작** ◀︎**현재 상태**
+* **Get started with Loyalty Challenges** ◀︎ **You are here**
 * [과제 및 작업 액세스 및 관리](access-loyalty-challenges.md)
 * [과제 만들기](create-challenges.md)
 * [작업 만들기](create-tasks.md)
-* [충성도 문제 API 참조](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}
+* [충성도 과제 API 참조](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
 >[!ENDSHADEBOX]
 
@@ -45,22 +45,22 @@ ht-degree: 15%
 
 충성도 챌린지를 사용하면 고객 행동을 유도하고 브랜드 관계를 심화하는 매력적이고 게임화된 충성도 프로그램을 만들 수 있습니다. 구매 및 리뷰 작성부터 소셜 미디어 참여 및 친구 추천에 이르기까지 특정 액션에 대해 고객에게 보상해 주는 챌린지를 작성하십시오.
 
-충성도 문제를 통해 다음과 같은 작업을 수행할 수 있습니다.
+With Loyalty Challenges, you can:
 
-* **유연한 과제 유형 디자인**: 비즈니스 목표에 맞게 표준, 연속 또는 순차적 과제 만들기
-* **전략적으로 보상 구성**: 작업 마일스톤 또는 전체 완료 시 포인트를 전달하여 참여 유지
-* **경험 개인화**: 콘텐츠 카드 및 다중 채널 메시지를 사용하여 몰입형 브랜드 경험을 만듭니다
-* **원활하게 통합**: 기존 충성도 공급자와 연결하고 Experience Platform 데이터 활용
-* **자동으로 추적**: 사용자 지정 개발 없이 자동 생성된 여정을 통해 고객 진행 상황을 모니터링합니다.
+* **Design flexible challenge types**: Create Standard, Streak, or Sequential challenges to match your business goals
+* **Configure rewards strategically**: Deliver points at task milestones or upon full completion to maintain engagement
+* **Personalize the experience**: Use content cards and multi-channel messaging to create immersive, branded experiences
+* **Integrate seamlessly**: Connect with your existing loyalty providers and leverage Experience Platform data
+* **Track automatically**: Monitor customer progress through auto-generated journeys without custom development
 
 ![](assets/challenges-gs.png)
 
-다음과 같은 세 가지 유형의 과제 경험을 만들 수 있습니다.
+You can create three types of challenge experiences:
 
-* **표준 과제**: 고객은 순서에 관계없이 지정된 수의 작업을 완료합니다. 유연성과 여러 경로를 완성하려면 이 유형을 사용하십시오.\
-  *예: &quot;Summer Wellness Challenge&quot; - 5가지 작업 중 3가지 완료: 건강 제품 구입, 소셜 미디어 공유, 친구 추천, 리뷰 작성 또는 가상 이벤트 참석*
+* **Standard challenges**: Customers complete any specified number of tasks in any order. Use this type when you want flexibility and multiple paths to completion.\
+  *Example: &quot;Summer Wellness Challenge&quot; - Complete 3 out of 5 tasks: buy health products, share on social media, refer a friend, write a review, or attend a virtual event*
 
-* **연속 문제**: 고객은 동일한 작업을 여러 번 연속적으로 완료합니다. 이 유형을 사용하여 시간이 지남에 따라 일관되고 반복되는 동작을 장려합니다.\
+* **Streak challenges**: Customers complete the same task multiple times consecutively. Use this type to encourage consistent, repeated behavior over time.\
   *예: &quot;커피 애호가 주간&quot; - 7일 연속으로 커피 제품을 구입하여 무료 음료 보상을 받으세요*
 
 * **순차적인 문제**: 고객은 정의된 순서로 작업을 완료합니다. 이 유형을 사용하여 특정 여정 또는 온보딩 프로세스를 안내합니다.\
@@ -165,4 +165,4 @@ ht-degree: 15%
 
 ## API 참조 {#api-reference}
 
-충성도 문제를 프로그래밍 방식으로 관리하려면 [충성도 문제 API](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}를 사용하십시오. API를 사용하면 REST 끝점을 통해 과제 및 작업을 만들고, 업데이트하고, 관리할 수 있습니다.
+충성도 문제를 프로그래밍 방식으로 관리하려면 [충성도 문제 API](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}를 사용하십시오. API를 사용하면 REST 끝점을 통해 과제 및 작업을 만들고, 업데이트하고, 관리할 수 있습니다.

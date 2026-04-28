@@ -7,9 +7,9 @@ role: Developer
 level: Experienced
 exl-id: 78ed06a3-7787-4aab-8373-df7eb40c1727
 version: Journey Orchestration
-source-git-commit: df7591e337ad11cd51ec1a1c06312823a27561a2
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '339'
 ht-degree: 5%
 
 ---
@@ -20,7 +20,7 @@ Decisioning API를 사용하면 고객에게 개인화된 오퍼를 제공하는
 
 ## 인증 {#authentication}
 
-Decisioning API를 사용하기 전에 API 끝점에 액세스할 수 있는 인증을 설정해야 합니다. 단계별 지침은 [Journey Optimizer 인증 안내서](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}를 참조하십시오.
+Decisioning API를 사용하기 전에 API 끝점에 액세스할 수 있는 인증을 설정해야 합니다. 단계별 지침은 [Journey Optimizer 인증 안내서](https://developer.adobe.com/journey-optimizer-apis/references/authentication){target="_blank"}를 참조하십시오.
 
 ## 사용 가능한 API 작업 {#available-operations}
 
@@ -63,4 +63,4 @@ Decisioning API는 의사 결정 구성 요소를 위한 포괄적인 관리 기
 
 >[!NOTE]
 >
->기존 의사 결정 관리 개체를 Decisioning으로 마이그레이션해야 하는 경우 전용 [Decisioning 마이그레이션 API](../decisioning-migration-api.md)를 사용하십시오. 이 전문 API는 샌드박스 간 엔티티 마이그레이션을 결정하도록 특별히 설계된 자동 종속성 해결 및 롤백 기능을 제공합니다.
+>If you need to migrate existing Decision management objects to Decisioning, use the dedicated [Decisioning Migration API](../decisioning-migration-api.md). This specialized API provides automated dependency resolution and rollback capabilities specifically designed for decisioning entity migration across sandboxes.

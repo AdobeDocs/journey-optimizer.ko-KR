@@ -11,7 +11,7 @@ hide: true
 badge: label="비공개 베타" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
 source-wordcount: '1828'
 ht-degree: 18%
@@ -28,7 +28,7 @@ ht-degree: 18%
 * [과제 및 작업 액세스 및 관리](access-loyalty-challenges.md)
 * **문제 만들기** ◀︎**현재 상태**
 * [작업 만들기](create-tasks.md)
-* [충성도 과제 API 참조](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}
+* [충성도 과제 API 참조](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
 >[!ENDSHADEBOX]
 

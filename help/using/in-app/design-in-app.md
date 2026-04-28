@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: 인앱, 메시지, 디자인, 서식
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '1272'
 ht-degree: 26%
 
 ---
@@ -244,7 +244,7 @@ ht-degree: 26%
 
 **데이터** 탭에서 페이로드에 사용자 지정 변수를 포함하도록 **[!UICONTROL 키]** &#x200B; 및 **[!UICONTROL 값]**&#x200B;을 정의할 수 있습니다. 이러한 키/값 쌍을 사용하면 특정 구성에 따라 추가 데이터를 전달할 수 있습니다.
 
-자세한 내용은 [개발자 설명서](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/in-app-message/tutorials/messaging-metadata/)를 참조하세요.
+자세한 내용은 [개발자 설명서](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/in-app-message/tutorials/messaging-metadata)를 참조하세요.
 
 1. **[!UICONTROL 데이터]** 탭에서 **[!UICONTROL 키/값 쌍 추가]**&#x200B;를 선택합니다.
 
@@ -259,11 +259,11 @@ ht-degree: 26%
 **관련 항목:**
 
 * [인앱 메시지 만들기](create-in-app.md)
-* [인앱 보고서 &#x200B;](../reports/campaign-global-report-cja-inapp.md)
+* [인앱 보고서](../reports/campaign-global-report-cja-inapp.md)
 * [인앱 구성](inapp-configuration.md)
 
 ## 사용 방법 비디오{#video}
 
 아래 비디오에서는 인앱 메시지를 작성하고 테스트하는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3422079?captions=kor&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410471?quality=12&learn=on)

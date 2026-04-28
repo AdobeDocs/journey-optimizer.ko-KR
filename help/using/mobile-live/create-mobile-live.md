@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 9864a136-e129-4279-bb09-081b72f584df
-source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 3%
+source-wordcount: '421'
+ht-degree: 4%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 3%
    >
    >**API 트리거 마케팅** 캠페인의 경우 API 페이로드에서 APNs channelID 구독을 확인하기 전에 첫 번째 세그먼테이션으로 작동하는 기존 대상을 선택할 수 있습니다.
 
-1. 캠페인은 특정 날짜 또는 되풀이되는 빈도로 실행되도록 디자인됩니다. **[!UICONTROL 이 섹션]**&#x200B;에서 캠페인의 [일정](../campaigns/create-campaign.md#schedule)을 구성하는 방법을 알아보세요.
+1. 캠페인은 특정 날짜 또는 되풀이되는 빈도로 실행되도록 디자인됩니다. [이 섹션](../campaigns/create-campaign.md#schedule)에서 캠페인의 **[!UICONTROL 일정]**&#x200B;을 구성하는 방법을 알아보세요.
 
 1. 구성이 완료되면 **[!UICONTROL 활성화 검토]**&#x200B;를 클릭한 다음 **[!UICONTROL 활성화]**&#x200B;를 클릭합니다.
 
@@ -56,7 +56,7 @@ ht-degree: 3%
 
    페이로드에 포함할 **[!UICONTROL 캠페인 ID]** 식별자도 복사하십시오.
 
-   ➡️ OAuth 토큰 및 API 키를 포함한 인증 요구 사항은 [API 트리거된 캠페인 설명서](https://developer.adobe.com/journey-optimizer-apis/references/messaging/)를 참조하십시오.
+   ➡️ OAuth 토큰 및 API 키를 포함한 인증 요구 사항은 [API 트리거된 캠페인 설명서](https://developer.adobe.com/journey-optimizer-apis/references/messaging)를 참조하십시오.
 
    ![](assets/create-live-3.png)
 
@@ -161,4 +161,4 @@ ht-degree: 3%
 
 Adobe Journey Optimizer을 사용하여 iOS 라이브 활동을 구성하여 iPhone 잠금 화면 및 Dynamic Island에서 다양한 실시간 업데이트를 제공하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479871?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3479864)

@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 콘텐츠 템플릿 시작
-description: 콘텐츠 템플릿을 사용하여 Journey Optimizer 캠페인 및 여정에서 콘텐츠를 재사용하는 방법에 대해 알아봅니다
+description: Learn how to work with content templates to reuse content in Journey Optimizer campaigns and journeys
 feature: Templates
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '232'
 ht-degree: 6%
 
 ---
@@ -20,32 +20,32 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->2025년 3월부터 HTML 유형의 콘텐츠 템플릿은 더 이상 사용되지 않습니다. [!DNL Journey Optimizer]에서 이전에 만든 기존 HTML 콘텐츠 템플릿을 계속 사용할 수 있습니다.
+>Starting from March 2025, HTML-type content templates are deprecated. You can still use existing HTML content templates previously created in [!DNL Journey Optimizer].
 
-디자인 프로세스를 가속화하고 개선하려면 독립 실행형 템플릿을 만들어 [!DNL Journey Optimizer] 캠페인 및 여정 전반에서 사용자 지정 콘텐츠를 쉽게 재사용할 수 있습니다.
+For an accelerated and improved design process, create standalone templates to reuse custom content easily across [!DNL Journey Optimizer] campaigns and journeys.
 
-이 기능을 사용하면 콘텐츠 중심의 사용자가 캠페인이나 여정 외부의 템플릿에서 작업할 수 있습니다. 그런 다음 마케팅 사용자는 이러한 독립 실행형 콘텐츠 템플릿을 자체 여정 또는 캠페인 내에서 재사용하고 조정할 수 있습니다.
+This functionality allows content-oriented users to work on templates outside campaigns or journeys. Marketing users can then reuse and adapt these standalone content templates inside their own journeys or campaigns.
 
 <!--![](../rn/assets/do-not-localize/content-template.gif)-->
 
-예를 들어 회사 내의 사용자는 콘텐츠에만 집중할 수 있으며 캠페인이나 여정에 액세스할 수 없습니다. 이 사용자는 조직의 마케터가 모든 이메일의 시작점으로 선택할 수 있는 이메일 템플릿을 만들 수 있습니다.
+For example, a user within your company may focus solely on content and have no access to campaigns or journeys. This user can create an email template that your organization&#39;s marketers can select as a starting point for all emails.
 
-이메일, 푸시, 인앱, SMS 및 DM 채널에 대한 콘텐츠 템플릿을 만들 수 있습니다.
+You can create content templates for the Email, Push, In-App, SMS, and Direct Mail channels.
 
 >[!AVAILABILITY]
 >
->현재 웹 채널에는 콘텐츠 템플릿을 사용할 수 없습니다.
+>Currently content templates are not available for the Web channel.
 
-콘텐츠 템플릿을 만들고, 편집하고, 삭제하려면 **[!DNL Manage library items]** 제품 프로필에 **[!DNL Content Library Manager]** 권한이 포함되어 있는지 확인하십시오. [자세히 알아보기](../administration/ootb-product-profiles.md#content-library-manager)
+To create, edit, and delete content templates, ensure you have the **[!DNL Manage library items]** permission included in the **[!DNL Content Library Manager]** product profile. [자세히 알아보기](../administration/ootb-product-profiles.md#content-library-manager)
 
-➡️ [이 비디오에서 템플릿을 만들고 사용하는 방법을 알아보세요](#video-templates)
+➡️ [Learn how to create and use templates in this video](#video-templates)
 
 >[!NOTE]
 >
->API를 사용하여 콘텐츠 템플릿을 만들고 관리할 수도 있습니다. 자세한 내용은 [Journey Optimizer API 설명서](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}를 참조하세요.
+>You can also create and manage content templates using APIs. For more information, refer to the [Journey Optimizer APIs documentation](https://developer.adobe.com/journey-optimizer-apis/references/content){target="_blank"}.
 
 ## 사용 방법 비디오 {#video-templates}
 
-[!DNL Journey Optimizer]에서 콘텐츠 템플릿을 만들고 편집하고 사용하는 방법에 대해 알아봅니다.
+Learn how to create, edit, and use content templates in [!DNL Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3418588/?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3413743/?quality=12)

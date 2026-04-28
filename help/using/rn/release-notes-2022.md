@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 hide: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '3599'
-ht-degree: 100%
+source-wordcount: '3645'
+ht-degree: 97%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 100%
 <p>이제 조건부 규칙에 따라 메시지 콘텐츠를 조정할 수 있는 다이내믹 콘텐츠를 만들 수 있습니다.</p> 
 <p>조건부 규칙은 표현식 편집기 내에서 시각적 규칙 빌더를 사용하여 작성되며, 이 빌더를 저장하여 여정 및 캠페인 간에 다시 사용할 수 있습니다.</p>
 <img src="assets/do-not-localize/dynamic-content.gif"/>
-<p>자세한 내용은 <a href="../personalization/get-started-dynamic-content.md">세부 설명서</a>를 참조하세요.
+<p>자세한 내용은 <a href="../personalization/get-started-dynamic-content.md">세부 설명서</a>를 참조하십시오.
 </td>
 </tr>
 </tbody>
@@ -94,7 +94,7 @@ ht-degree: 100%
 <p>이제 기존의 예약된 캠페인 외에도, Journey Optimizer에서 API 트리거된 캠페인을 만들고 API를 사용하여 외부 시스템에서 호출할 수 있습니다.</p>
 <p>이를 통해 암호 재설정, OTP 토큰 등과 같은 다양한 운영 및 트랜잭션 메시지 요구 사항을 처리할 수 있습니다.</p>
 <img src="assets/do-not-localize/api-triggered.gif"/>
-<p>자세한 내용은 <a href="../campaigns/api-triggered-campaigns.md">세부 설명서</a>를 참조하세요.
+<p>자세한 내용은 <a href="../campaigns/api-triggered-campaigns.md">세부 설명서</a>를 참조하십시오.
 </td>
 </tr>
 </tbody>
@@ -112,7 +112,7 @@ ht-degree: 100%
 <p>속성 기반 액세스 제어를 통해 관리자는 특정 속성에 따라 특정 객체에 대한 액세스를 제어할 수 있습니다. 이러한 속성은 레이블과 같은 객체에 추가된 메타데이터일 수 있습니다. 이번 릴리스부터 관리자는 특정 필드 및/또는 개체에만 액세스할 수 있는 사용자 역할과 해당 필드 및/또는 개체에 해당하는 데이터를 정의할 수 있습니다.</p>
 <p> 속성 기반 액세스 제어 사용은 현재 선택한 고객으로 제한되며 향후 릴리스의 모든 환경에 배포될 예정입니다.</p>
 <img src="assets/do-not-localize/olac.gif"/>
-<p>자세한 내용은 <a href="../administration/object-based-access.md">세부 설명서</a>를 참조하세요.
+<p>자세한 내용은 <a href="../administration/object-based-access.md">세부 설명서</a>를 참조하십시오.
 </td>
 </tr>
 </tbody>
@@ -130,7 +130,7 @@ ht-degree: 100%
 <td>
 <p>DULE(데이터 사용 레이블 및 적용) 거버넌스 프레임워크를 사용하여 Journey Optimizer는 이제 Adobe Experience Platform 거버넌스 정책을 활용하여 사용자 지정 작업을 통해 중요한 필드를 타사 시스템으로 내보내지는 것을 방지할 수 있습니다. 시스템이 사용자 지정 작업 매개 변수에서 제한된 필드를 식별하면 여정을 게시하지 못하게 하는 오류가 표시됩니다.</p>
 <p>DULE(데이터 사용 레이블 및 적용) 사용은 현재 선택한 고객으로 제한되며, 향후 릴리스의 모든 환경에 배포될 예정입니다.</p>
-<p>자세한 내용은 <a href="../action/action-privacy.md">세부 설명서</a>를 참조하세요.
+<p>자세한 내용은 <a href="../action/action-privacy.md">세부 설명서</a>를 참조하십시오.
 </td>
 </tr>
 </tbody>
@@ -147,7 +147,7 @@ ht-degree: 100%
 <td>
 <p>Adobe Experience Platform을 사용하면 고객의 동의 환경 설정을 준수하도록 마케팅 정책을 쉽게 채택하고 적용할 수 있습니다. 동의 정책은 Adobe Experience Platform에 정의되어 있습니다. Journey Optimizer에서는 이러한 동의 정책을 사용자 지정 작업에 적용할 수 있습니다. 예를 들어 이메일, 푸시 또는 SMS 커뮤니케이션에 동의하지 않은 고객을 제외하는 동의 정책을 정의할 수 있습니다.
 <p>현재 자동화된 동의 적용은 Healthcare Shield 추가 기능 서비스를 구입한 조직에서만 사용할 수 있습니다.</p>
-<p>자세한 내용은 <a href="../action/consent.md">세부 설명서</a>를 참조하세요.
+<p>자세한 내용은 <a href="../action/consent.md">세부 설명서</a>를 참조하십시오.
 </td>
 </tr>
 </tbody>
@@ -164,7 +164,7 @@ ht-degree: 100%
 <td>
 <p>Journey Optimizer에서는 기능 및 개체의 권한을 관리하기 위한 사용자 역할 및 액세스 정책 정의를 지원합니다. <strong>Adobe Experience Cloud 권한</strong>을 통해 역할을 만들고 관리하며, 이러한 역할에 대해 원하는 리소스 권한을 지정할 수 있습니다. 또한 권한을 사용하여 레이블, 샌드박스 및 특정 역할과 연관된 사용자를 관리할 수 있습니다.</p>
 <p> 권한의 사용은 현재 선택한 고객으로 제한되며 향후 릴리스의 모든 환경에 배포될 예정입니다.</p>
-<p>자세한 내용은 <a href="../administration/attribute-based-access.md">세부 설명서</a>를 참조하세요.
+<p>자세한 내용은 <a href="../administration/attribute-based-access.md">세부 설명서</a>를 참조하십시오.
 </td>
 </tr>
 </tbody>
@@ -222,7 +222,7 @@ table>
 
 **감사 제어**
 
-* Journey Optimizer를 사용하면 캠페인, 여정, 메시지, 랜딩 페이지 등과 같은 다양한 서비스 및 기능에 대해 시스템에서 사용자가 수행한 작업을 식별할 수 있습니다. 감사 로그 리소스에는 이제 다양한 다른 작업에 대한 변경 사항이 포함되어 있으며, 활동이 발생하면 자동으로 기록됩니다. [이 페이지](../privacy/audit-logs.md)에서 자세히 알아보십시오.
+* Journey Optimizer을 사용하면 캠페인, 여정, 메시지, 랜딩 페이지 등과 같은 다양한 서비스 및 기능에 대해 시스템에서 사용자가 수행한 작업을 식별할 수 있습니다. 이제 감사 로그 리소스에는 다양한 다른 작업에 대한 변경 사항이 포함되어 있으며, 활동이 발생하면 자동으로 기록됩니다. [이 페이지](../privacy/audit-logs.md)에서 자세히 알아보십시오.
 
 **아카이브 지원**
 
@@ -409,7 +409,7 @@ table>
 
 * **허용 목록 로직 업데이트** - 이제 목록이 비어 있더라도 기능이 활성화되는 즉시 허용 목록 로직이 적용됩니다. [자세히 보기](../configuration/allow-list.md#logic)
 
-* **URL 추적 매개 변수** - 이제 표현식 편집기를 사용하여 이메일 표면(즉, 사전 설정)에서 URL 추적 매개 변수를 구성할 수 있습니다. [자세히 보기](../email/email-settings.md#url-tracking)
+* **URL 추적 매개 변수** - 이제 표현식 편집기를 사용하여 이메일 표면(즉, 사전 설정)에서 URL 추적 매개 변수를 구성할 수 있습니다. [자세히 알아보기](../email/email-settings.md#url-tracking)
 
 **의사 결정 관리**
 
@@ -448,7 +448,7 @@ table>
 <tbody>
 <tr>
 <td>
-<p>Adobe Stock 및 Adobe Journey Optimizer 이메일 디자이너 통합 플러그인을 사용하면 메시지를 작성하는 데 사용할 이미지를 쉽게 탐색, 라이선싱 및 저장할 수 있습니다. </br> 새로운 <b>유사한 스톡 사진 찾기</b> 옵션으로도 이미지의 내용, 색상 및 컴포지션과 일치하는 스톡 사진을 찾을 수 있습니다. </p>
+<p>Adobe Stock 및 Adobe Journey Optimizer 이메일 Designer 통합 플러그인을 통해 고객은 메시지 작성에 사용할 이미지를 쉽게 탐색, 라이선싱 및 저장할 수 있습니다. </br> 새로운 <b>유사한 스톡 사진 찾기</b> 옵션을 사용하면 이미지의 내용, 색상 및 컴포지션과 일치하는 스톡 사진을 찾을 수 있습니다. </p>
 <p>자세한 내용은 <a href="../integrations/stock.md">세부 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
@@ -650,7 +650,7 @@ table>
 
 **사용자 인터페이스**
 
-* **Journey Optimizer UI의 상황별 도움말** - Journey Optimizer의 여러 페이지에 상황별 도움말 링크가 추가되었습니다. &quot;i&quot; 아이콘을 클릭할 수 있는 경우, 클릭하면 현재 기능에 대한 간단한 설명을 보고 관련 문서에 액세스합니다.
+* **Journey Optimizer UI의 상황별 도움말** - Journey Optimizer의 여러 페이지에 상황별 도움말 링크가 추가되었습니다. &amp;quot;i&amp;quot; 아이콘을 클릭할 수 있는 경우, 클릭하면 현재 기능에 대한 간단한 설명을 보고 관련 문서에 액세스합니다.
 
 **Adobe Campaign Standard 통합**
 
@@ -738,7 +738,7 @@ table>
 Developer SDK for Journey Optimizer is now available with the Suppression API (beta).</p>
 <p>With this API, you can control your outgoing messages using suppression and allow lists.
 The suppression list helps you with honoring the ISPs' feedback to preserve sending IP reputation. The allow list helps you ensure that you send only to those email addresses which are in the allowed list, and typically to ensure that you do not send mails to customers from your development sandbox.</p>
-<p>See <a href="https://developer.adobe.com/journey-optimizer-apis/">Adobe Journey Optimizer APIs</a>.</p>
+<p>See <a href="https://developer.adobe.com/journey-optimizer-apis">Adobe Journey Optimizer APIs</a>.</p>
 </td>
 </tr>
 </tbody>

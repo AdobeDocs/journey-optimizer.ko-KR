@@ -11,9 +11,9 @@ keywords: 표현식, 편집기
 mini-toc-levels: 1
 badge: label="제한 공개" type="Informative"
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 8da2bb4123394d60e397409f6401434d215fd463
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '890'
 ht-degree: 10%
 
 ---
@@ -109,7 +109,7 @@ ht-degree: 10%
 
 ### API 메서드
 
-[이 설명서](https://developer.adobe.com/journey-optimizer-apis/references/authentication/)에 설명된 지침에 따라 API 명령을 보내도록 환경을 구성하십시오.
+[이 설명서](https://developer.adobe.com/journey-optimizer-apis/references/authentication)에 설명된 지침에 따라 API 명령을 보내도록 환경을 구성하십시오.
 
 #### 전제 조건
 
