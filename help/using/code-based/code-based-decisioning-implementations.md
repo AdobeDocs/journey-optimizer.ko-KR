@@ -6,10 +6,10 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 1%
+source-wordcount: '549'
+ht-degree: 6%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 1%
 
 의사 결정을 사용하여 [코드 기반 경험](create-code-based.md)을(를) 테스트할 때 `dryRun` 플래그를 사용하여 보고 및 최대 가용량 카운터 모두에 대한 피드백 이벤트를 표시하지 않을 수 있습니다.
 
-캠페인을 게시한 후 클라이언트 구현의 XDM 이벤트 `dryRun` 블록에 `data` 플래그를 추가하십시오.
+캠페인을 게시한 후 클라이언트 구현의 XDM 이벤트 `data` 블록에 `dryRun` 플래그를 추가하십시오.
 
 ```
 {
@@ -296,7 +296,7 @@ curl --location 'https://edge-int.adobedc.net/ee/v1/interact?configId=2f21d344-b
 
 ## 튜토리얼 {#tutorials}
 
-[이 자습서](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/#implement-extension-in-mobile-app){target="_blank"}에서 Adobe Experience Platform Mobile SDK용 [Adobe Journey Optimizer 확장](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"}을 사용하여 코드 기반 경험을 가져오고, 표시하고, 추적하는 방법에 대해 알아봅니다.
+[이 자습서](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial){target="_blank"}에서 Adobe Experience Platform Mobile SDK용 [Adobe Journey Optimizer 확장](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/#implement-extension-in-mobile-app){target="_blank"}을 사용하여 코드 기반 경험을 가져오고, 표시하고, 추적하는 방법에 대해 알아봅니다.
 
 [이 자습서](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/use-decisioning-to-personalize-web-offers/introduction){target="_blank"}에서 Journey Optimizer의 의사 결정을 사용하여 웹 SDK 구성에 초점을 맞춰 웹 사이트에서 콘텐츠 오퍼를 개인화하는 방법을 알아봅니다.
 

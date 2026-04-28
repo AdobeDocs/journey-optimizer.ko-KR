@@ -4,10 +4,10 @@ product: Journey Optimizer
 title: Adobe Journey Optimizer 도움말
 description: Adobe Journey Optimizer 도움말
 redpen-status: CREATED_||_2025-08-11_21-21-01
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 100%
+source-wordcount: '462'
+ht-degree: 95%
 
 ---
 
@@ -81,7 +81,7 @@ Adobe Journey Optimizer의 기능, 아키텍처, 사용자 인터페이스 등 �
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>Adobe Journey Optimizer</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=ko" target="_blank">튜토리얼</a> - <a href="https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">제품 설명</a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">보안 개요(PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">API 참조</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko" target="_blank">Journey Optimizer 스키마 사전</a>
+<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=ko" target="_blank">튜토리얼</a> - <a href="https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">제품 설명</a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">보안 개요(PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis" target="_blank">API 참조</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko" target="_blank">Journey Optimizer 스키마 사전</a>
 
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>

@@ -6,10 +6,10 @@ topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 3ec084ca-af9e-4b5e-b66f-ec390328a9d6
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1127'
-ht-degree: 4%
+source-wordcount: '1143'
+ht-degree: 3%
 
 ---
 
@@ -55,58 +55,58 @@ Decisioning 마이그레이션 서비스 API는 다음 기능을 제공합니다
 
 ### Target 샌드박스 준비 {#target-sandbox-preparation}
 
-마이그레이션을 실행하기 전에 대상 샌드박스가 올바르게 구성되었는지 확인하십시오.
+Before running a migration, ensure your target sandbox is properly configured:
 
-* **특성** - 필요한 프로필 특성과 컨텍스트 특성이 대상 샌드박스에 있는지 확인하거나 매핑을 준비합니다.
-* **세그먼트** - 필요한 세그먼트가 대상 샌드박스에 있는지 확인하거나 네임스페이스와 ID를 사용하여 매핑할 계획입니다.
-* **데이터 집합** - 마이그레이션에 사용할 데이터 집합 이름을 식별합니다(`dependency.datasetName`).
-* **데이터스트림** - 마이그레이션에서 데이터스트림(`createDataStream`)을 만들지 여부를 결정합니다.
+* **Attributes** - Verify that required profile attributes and context attributes exist in the target sandbox, or prepare mappings for them.
+* **Segments** - Ensure required segments exist in the target sandbox, or plan to map them using namespace and ID.
+* **Dataset** - Identify a dataset name to use for the migration (`dependency.datasetName`).
+* **Datastream** - Decide whether the migration should create a datastream (`createDataStream`).
 
-샌드박스 관리에 대한 자세한 내용은 [샌드박스 사용 및 할당](../administration/sandboxes.md)을 참조하세요.
+For more information about sandbox management, refer to [Use and assign sandboxes](../administration/sandboxes.md).
 
 ## API 기본 사항 {#api-basics}
 
 ### 기본 URL {#base-url}
 
-다음 기본 URL을 사용하십시오.
+Use the following base URL:
 
-* **프로덕션**: `https://decisioning-migration.adobe.io`
+* **Production**: `https://decisioning-migration.adobe.io`
   <!--* **Staging**: `https://decisioning-migration-stage.adobe.io`-->
 
 ### 인증 {#authentication}
 
-모든 API 요청에는 다음 헤더가 필요합니다.
+All API requests require the following headers:
 
 * `Authorization: Bearer <IMS_ACCESS_TOKEN>`
 * `x-gw-ims-org-id: <IMS_ORG_ID>`
 * `Content-Type: application/json`
 
-인증 설정에 대한 자세한 지침은 [Journey Optimizer 인증 안내서](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}를 참조하세요.
+For detailed instructions on setting up authentication, refer to the [Journey Optimizer authentication guide](https://developer.adobe.com/journey-optimizer-apis/references/authentication){target="_blank"}.
 
-### 워크플로 모델 {#workflow-model}
+### Workflow model {#workflow-model}
 
-각 API 호출은 워크플로우 리소스를 만들거나 검색합니다. 워크플로우는 마이그레이션 작업의 진행 상황과 결과를 추적하는 비동기 작업입니다.
+Each API call creates or retrieves a workflow resource. Workflows are asynchronous operations that track the progress and results of migration tasks.
 
-워크플로에는 다음과 같은 속성이 있습니다.
+A workflow has the following properties:
 
-* `id` - 고유한 워크플로우 식별자(UUID)
-* `status` - 현재 워크플로 상태: `New`, `Running`, `Completed` 또는 `Failed`
-* `result` - 완료 시 워크플로 출력(마이그레이션 결과 및 경고 포함)
-* `errors` - 실패 시 구조적 오류 세부 정보
-* `_links.self` - 상태를 검색하기 위한 워크플로 URL
+* `id` - Unique workflow identifier (UUID)
+* `status` - Current workflow status: `New`, `Running`, `Completed`, or `Failed`
+* `result` - Workflow output when completed (includes migration results and warnings)
+* `errors` - Structured error details when failed
+* `_links.self` - Workflow URL for retrieving status
   <!--* `_etag` - Version identifier used for delete operations (service users only)-->
 
-## 마이그레이션 워크플로 {#migration-workflow}
+## Migration workflow {#migration-workflow}
 
-마이그레이션 프로세스는 종속성 분석과 마이그레이션 실행의 두 가지 주요 단계로 구성됩니다. 마이그레이션을 성공적으로 수행하려면 다음 단계를 따르십시오.
+The migration process consists of two main steps: analyzing dependencies and executing the migration. Follow these steps to ensure a successful migration.
 
-### 1단계: 종속성 분석 {#analyze-dependencies}
+### Step 1: Analyze dependencies {#analyze-dependencies}
 
-마이그레이션하기 전에 종속성 워크플로우를 사용하여 대상 샌드박스에서 의사 결정 관리에서 의사 결정에 매핑해야 하는 항목을 식별합니다. 이러한 분석은 객체 간의 관계를 이해하고 필요한 매핑을 준비하는 데 도움이 됩니다.
+Before migrating, use the dependency workflow to identify what needs to be mapped from Decision management to Decisioning in your target sandbox. This analysis helps you understand the relationships between objects and prepare the necessary mappings.
 
-#### 종속성 워크플로우 만들기 {#create-dependency-workflow}
+#### Create a dependency workflow {#create-dependency-workflow}
 
-다음 API 호출을 사용하여 종속성 분석 워크플로우를 만듭니다.
+Use the following API call to create a dependency analysis workflow.
 
 **API 형식**
 
@@ -114,9 +114,9 @@ Decisioning 마이그레이션 서비스 API는 다음 기능을 제공합니다
 POST /workflows/generate-dependencies
 ```
 
-**샌드박스 수준 종속성(먼저 권장됨)**
+**Sandbox-level dependency (recommended first)**
 
-샌드박스 수준 분석으로 시작하여 모든 종속성에 대한 전체 보기를 확인합니다.
+Start with a sandbox-level analysis to get a complete view of all dependencies:
 
 ```shell
 curl --request POST \
@@ -132,17 +132,17 @@ curl --request POST \
   }'
 ```
 
-**오퍼 수준 종속성**
+**Offer-level dependency**
 
-특정 오퍼에 대한 종속성만 분석하려면 `requestLevel: "offer"`을(를) 설정하고 분석할 오퍼 ID가 있는 `offersList` 배열을 제공하십시오.
+To analyze dependencies for specific offers only, set `requestLevel: "offer"` and provide an `offersList` array with the offer IDs you want to analyze.
 
-**의사 결정 수준 종속성**
+**Decision-level dependency**
 
-특정 결정에 대해서만 종속성을 분석하려면 `requestLevel: "decision"`을(를) 설정하고 분석할 결정 ID가 있는 `decisionsList` 배열을 제공하십시오.
+To analyze dependencies for specific decisions only, set `requestLevel: "decision"` and provide a `decisionsList` array with the decision IDs you want to analyze.
 
-#### 종속성 워크플로 상태 확인 {#poll-dependency-status}
+#### Check dependency workflow status {#poll-dependency-status}
 
-종속성 워크플로우를 폴링하여 분석이 완료되면 확인합니다.
+Poll the dependency workflow to check when the analysis is complete.
 
 **API 형식**
 
@@ -159,20 +159,20 @@ curl --request GET \
   --header "x-gw-ims-org-id: <IMS_ORG_ID>"
 ```
 
-`status` 필드에 `Completed`이(가) 표시되면 종속성 분석이 준비되었습니다. 워크플로우 출력을 사용하여 마이그레이션 종속성 매핑을 빌드합니다.
+When the `status` field shows `Completed`, the dependency analysis is ready. Use the workflow output to build your migration dependency mappings:
 
-* **profileAttributes** - 소스 프로필 특성을 대상 프로필 특성에 매핑합니다.
-* **contextAttributes** - 소스 컨텍스트 특성을 대상 컨텍스트 특성에 매핑합니다.
-* **세그먼트** - 소스 세그먼트 키를 대상 세그먼트 식별자(`{namespace, id}`)에 매핑합니다.
-* **datasetName** - 마이그레이션의 대상 데이터 세트 이름을 지정합니다.
+* **profileAttributes** - Maps source profile attributes to target profile attributes
+* **contextAttributes** - Maps source context attributes to target context attributes
+* **segments** - Maps source segment keys to target segment identifiers (`{namespace, id}`)
+* **datasetName** - Specifies the target dataset name for the migration
 
-### 2단계: 마이그레이션 실행 {#execute-migration}
+### Step 2: Execute the migration {#execute-migration}
 
-종속성을 분석하고 매핑을 준비하면 마이그레이션을 실행할 수 있습니다.
+Once you have analyzed the dependencies and prepared your mappings, you can execute the migration.
 
-#### 마이그레이션 워크플로우 만들기 {#create-migration-workflow}
+#### Create a migration workflow {#create-migration-workflow}
 
-1단계의 종속성 매핑을 사용하여 마이그레이션을 구성하고 실행합니다.
+Use the dependency mappings from Step 1 to configure and execute your migration.
 
 **API 형식**
 
@@ -180,7 +180,7 @@ curl --request GET \
 POST /workflows/migration
 ```
 
-**샌드박스 수준 마이그레이션**
+**Sandbox-level migration**
 
 모든 의사 결정 개체를 한 샌드박스에서 다른 샌드박스로 마이그레이션하려면 다음을 수행하십시오.
 

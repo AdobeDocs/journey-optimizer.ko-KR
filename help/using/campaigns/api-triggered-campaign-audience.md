@@ -8,10 +8,10 @@ role: Developer
 level: Experienced
 keywords: 캠페인, API 트리거, REST, 최적화 도구, 메시지
 exl-id: 6dda5687-3742-4e88-be7c-c4969b183161
-source-git-commit: 31fcdf7e0cb63df24b01be13b2a4a8822768e1b7
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 2%
+source-wordcount: '543'
+ht-degree: 3%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 2%
 >
 >[대상 구성](../audience/get-started-audience-orchestration.md)의 대상 및 특성을 현재 Healthcare Shield 또는 Privacy and Security Shield에서 사용할 수 없습니다.
 
-**트랜잭션 API 트리거 캠페인**&#x200B;의 경우 API 호출에 타겟팅된 프로필을 정의해야 합니다. 단일 API 호출은 최대 20개의 고유 수신자를 지원합니다. 각 수신자는 고유한 사용자 ID를 가져야 하며, 중복된 사용자 ID는 허용되지 않습니다. 자세한 내용은 [대화형 메시지 실행 API 설명서](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution/operation/postIMUnitaryMessageExecution){target="_blank"}를 참조하세요
+**트랜잭션 API 트리거 캠페인**&#x200B;의 경우 API 호출에 타겟팅된 프로필을 정의해야 합니다. 단일 API 호출은 최대 20개의 고유 수신자를 지원합니다. 각 수신자는 고유한 사용자 ID를 가져야 하며, 중복된 사용자 ID는 허용되지 않습니다. 자세한 내용은 [대화형 메시지 실행 API 설명서](https://developer.adobe.com/journey-optimizer-apis/references/messaging#operation/postIMUnitaryMessageExecution){target="_blank"}를 참조하세요
 
 ## ID 유형 선택
 

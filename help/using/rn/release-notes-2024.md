@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 65b4b80aa1e68bf72bc0621ad22597f8273ec0a1
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '6783'
-ht-degree: 100%
+source-wordcount: '6916'
+ht-degree: 99%
 
 ---
 
@@ -89,7 +89,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer에서 너무 많은 상호 작용으로 고객에게 부담 주는 상황을 피하려면 캠페인과 여정의 양과 타이밍을 관리하는 것이 필수적입니다. 이제 Journey Optimizer에서 충돌 관리 및 우선 순위를 위한 몇 가지 도구를 제공합니다. <p>자세한 내용은 <a href="../conflict-prioritization/gs-conflict-prioritization.md">세부 설명서</a>를 참조하십시오.</p></p><p><ul><li><b>여정 빈도 캡핑</b>: 이제 여정에 적용할 규칙 집합을 만들어 일별, 주별 또는 월별로 한 프로필의 여정 수를 제한하고, 한꺼번에 실행되는 동시 여정 수도 제어할 수 있습니다.</li>
+<p>Journey Optimizer에서 너무 많은 상호 작용으로 고객에게 부담 주는 상황을 피하려면 캠페인과 여정의 양과 타이밍을 관리하는 것이 필수적입니다. 이제 Journey Optimizer에서 충돌 관리 및 우선 순위를 위한 몇 가지 도구를 제공합니다. <p>자세한 내용은 <a href="../conflict-prioritization/gs-conflict-prioritization.md">세부 설명서</a>를 참조하세요.</p></p><p><ul><li><b>여정 빈도 캡핑</b>: 이제 여정에 적용할 규칙 집합을 만들어 일별, 주별 또는 월별로 한 프로필의 여정 수를 제한하고, 한꺼번에 실행되는 동시 여정 수도 제어할 수 있습니다.</li>
 <li><b>우선 순위 점수</b>: 이제 캠페인이나 여정에 0에서 100 사이의 우선 순위 점수를 할당할 수 있습니다. 숫자가 높을수록 우선 순위가 높다는 뜻입니다. 두 캠페인 또는 여정이 동일한 채널 구성을 사용하는 경우 Journey Optimizer에서 우선 순위 점수가 가장 높은 캠페인 또는 여정을 선택합니다. 캠페인의 점수가 동일한 경우, 수정한지 가장 오래된 캠페인을 선택합니다.</li>
 <li><b>잠재적 충돌 보기</b>: 이제 여정 및 캠페인의 새로운 "잠재적 충돌 보기" 버튼을 사용하여 시작 일자, 타깃팅된 대상자 또는 선택한 채널 구성 등이 다른 여정 또는 캠페인과 겹치는지 확인할 수 있습니다.</li>
 <li><b>여정 중재</b>: 이 새로운 기능을 사용하면 고객에게 가장 중요한 여정을 우선시할 수 있습니다. 고객이 우선 순위가 더 높은 예정된 여정에 입장할 자격이 있는 경우 우선 순위가 낮은 여정에 들어가지 않도록 하는 규칙을 만들 수 있습니다.</li>
@@ -504,12 +504,12 @@ ht-degree: 100%
 
 **API**
 
-* **캠페인 시뮬레이션 API** - 이 API를 사용하여 캠페인의 교정 작업을 트리거합니다. 캠페인 증명 보내기가 비동기 프로세스인 경우 이 API는 증명 상태를 확인하는 데 사용할 수 있는 proofJobId를 반환합니다. [자세히 알아보기](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
+* **캠페인 시뮬레이션 API** - 이 API를 사용하여 캠페인의 교정 작업을 트리거합니다. 캠페인 증명 보내기가 비동기 프로세스인 경우 이 API는 증명 상태를 확인하는 데 사용할 수 있는 proofJobId를 반환합니다. [자세히 알아보기](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"}
 
-* (가용성 일자: 9월 10일) [Adobe Journey Optimizer API 설명서](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}가 대화형으로 변경되었습니다. 설명서 페이지에서 직접 API 엔드포인트를 탐색하여 즉각적인 피드백을 얻고 기술 구현 속도를 높일 수 있습니다. 
+* (가용성 일자: 9월 10일) [Adobe Journey Optimizer API 설명서](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"}가 대화형으로 변경되었습니다. 설명서 페이지에서 직접 API 엔드포인트를 탐색하여 즉각적인 피드백을 얻고 기술 구현 속도를 높일 수 있습니다.
 
 
-  이제 모든 API 참조 페이지에는 설명서 웹 사이트 페이지에서 직접 API 호출을 테스트하는 데 사용할 수 있는 **사용해 보기** 기능이 있습니다. [필요한 인증 자격 증명을 얻고](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} 이 기능을 사용하여 API 엔드포인트를 탐색하십시오.
+  이제 모든 API 참조 페이지에는 설명서 웹 사이트 페이지에서 직접 API 호출을 테스트하는 데 사용할 수 있는 **사용해 보기** 기능이 있습니다. [필요한 인증 자격 증명을 얻고](https://developer.adobe.com/journey-optimizer-apis/references/authentication){target="_blank"} 이 기능을 사용하여 API 엔드포인트를 탐색하십시오.
 
   이 새로운 기능을 사용하여 API 엔드포인트에 대한 요청과 응답을 살펴보고 즉각적인 피드백을 받고 기술 구현 속도를 높일 수 있습니다.
 
@@ -835,7 +835,7 @@ table>
 * 콘텐츠 조각에 대해 상태 설정이 새로 도입되었습니다. **초안**, **라이브**, **게시 중**, **보관됨** 상태를 설정할 수 있습니다.
 * 이제 여정 또는 캠페인에서 조각을 사용하려면 해당 조각이 **라이브** 상태여야 합니다. 조각을 만드는 프로세스에 새로운 단계를 추가하여 조각을 게시하고 여정 및 캠페인에서 사용할 수 있도록 했습니다. 단, 조각을 게시하려면 새로운 권한이 필요합니다.
 
-  **주의** - **초안** 및 **라이브** 상태는 Journey Optimizer 6월 릴리스에서 도입되었으므로 이 릴리스 이전에 만든 모든 조각은 여정 또는 캠페인에서 사용되더라도 **초안** 상태입니다. 이 조각을 변경할 경우 [해당 조각을 게시](../content-management/create-fragments.md#publish)하여 “라이브”로 만들고 관련 캠페인 및 여정에 변경 사항을 전파해야 합니다. 또한 여정/캠페인 버전을 새로 만들어 게시해야 합니다. 
+  **주의** - **초안** 및 **라이브** 상태는 Journey Optimizer 6월 릴리스에서 도입되었으므로 이 릴리스 이전에 만든 모든 조각은 여정 또는 캠페인에서 사용되더라도 **초안** 상태입니다. 이 조각을 변경할 경우 [해당 조각을 게시](../content-management/create-fragments.md#publish)하여 “라이브”로 만들고 관련 캠페인 및 여정에 변경 사항을 전파해야 합니다. 또한 여정/캠페인 버전을 새로 만들어 게시해야 합니다.
 
 자세한 내용은 [콘텐츠 조각](../content-management/fragments.md) 설명서를 참조하십시오.
 
@@ -1031,7 +1031,7 @@ Beta부터 이 릴리스까지 다음과 같은 개선 사항이 추가되었습
 
 <!--* **Merge policies** (Limited Availability)- Merge policies used by a journey are now visible and consistent throughout the journey.-->
 * **mTLS 지원** - 이제 사용자 정의 작업에 mTLS 인증이 지원됩니다. mTLS를 활성화하기 위해 사용자 정의 작업 또는 여정에 구성을 추가할 필요는 없습니다. mTLS 활성화 엔드포인트가 감지되면 자동으로 활성화됩니다. [자세히 보기](../action/about-custom-action-configuration.md#mtls-protocol-support)
-* **이벤트의 조회 테이블** - 이제 개체 배열 내의 속성을 사용하여 관계를 정의한 경우 조회 데이터 세트의 데이터를 활용할 수 있습니다. 조회 값을 여정(조건, 사용자 정의 작업 등) 및 메시지 개인화에서 사용할 수 있습니다. [자세히 보기](../event/experience-event-schema.md#relationships_limitations)
+* **이벤트의 조회 테이블** - 이제 개체 배열 내의 속성을 사용하여 관계를 정의한 경우 조회 데이터 세트의 데이터를 활용할 수 있습니다. 조회 값은 여정(조건, 사용자 지정 작업 등)에서 사용할 수 있습니다. 및 메시지 개인화를 참조하십시오. [자세히 보기](../event/experience-event-schema.md#relationships_limitations)
 * **이벤트 구성의 고급 표현식 편집기**(LA) - 이제 이벤트를 구성할 때 고급 표현식 편집기를 활용하여 이벤트 ID 조건에 보다 복잡한 표현식을 정의하거나 함수를 사용할 수 있습니다. 이 기능은 일부 고객 대상 제한된 가용성으로 릴리스됩니다. [자세히 보기](../event/about-creating.md#adv-exp-editor)
 * **병합 정책**(LA) - 여정에서 사용하는 병합 정책이 이제 여정 전체에서 일관적이며 직접 볼 수 있습니다. 이 기능은 일부 고객 대상 제한된 가용성으로 릴리스됩니다. [자세히 보기](../building-journeys/journey-properties.md#merge-policies)
 
@@ -1197,7 +1197,7 @@ table>
 
 * **초안** 상태와 **라이브** 상태 사이의 **게시 중** 상태
 * **라이브** 상태와 **정지됨** 상태 사이의 **멈추는 중** 상태
-* **초안** 상태와 **초안(테스트)** 상태 사이의 **테스트 모드 활성화 중** 또는 **테스트 모드 비활성화 중** 
+* **초안** 상태와 **초안(테스트)** 상태 사이의 **테스트 모드 활성화 중** 또는 **테스트 모드 비활성화 중**
 
 여정이 중간 상태일 때는 읽기 전용입니다. [자세히 알아보기](../building-journeys/journey-gs.md#filter)
 

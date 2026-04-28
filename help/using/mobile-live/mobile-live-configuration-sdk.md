@@ -7,10 +7,10 @@ feature: Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 02ca7c8e-105a-4e77-9aad-2381904255d0
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 1%
+source-wordcount: '546'
+ht-degree: 0%
 
 ---
 
@@ -150,7 +150,7 @@ if #available(iOS 16.1, *) {
 
 ## 4단계: 라이브 활동 위젯 만들기 {#widgets}
 
-라이브 활동은 위젯을 통해 표시됩니다. 위젯 번들 및 구성을 만들어야 합니다.
+라이브 활동은 위젯을 통해 표시됩니다. You need to create a widget bundle and configuration:
 
 **음식 배달 라이브 활동의 예:**
 
@@ -187,9 +187,9 @@ struct FoodDeliveryLiveActivityWidget: Widget {
 }
 ```
 
-## 5단계: 라이브 활동을 로컬에서 시작(선택 사항) {#local}
+## Step 5: start a live activity locally (optional) {#local}
 
-Journey Optimizer은 라이브 활동을 원격으로 시작할 수 있지만 로컬로 시작할 수도 있습니다.
+While Journey Optimizer can remotely start Live activities, you can also start them locally:
 
 **음식 배달 라이브 활동의 예:**
 
@@ -210,9 +210,9 @@ let activity = try Activity<FoodDeliveryLiveActivityAttributes>.request(
 )
 ```
 
-## 6단계: 디버그 지원 추가(선택 사항) {#debug}
+## Step 6: Add debug support (optional) {#debug}
 
-필요한 경우 Adobe Assurance에서 라이브 활동 스키마를 디버깅할 수 있습니다.
+If needed, you can debug Live activity schemas in Adobe Assurance:
 
 **음식 배달 라이브 활동의 예:**
 
@@ -233,13 +233,13 @@ extension FoodDeliveryLiveActivityAttributes: LiveActivityAssuranceDebuggable {
 
 ## 추가 리소스
 
-포괄적인 SDK 설명서 및 구현 세부 정보의 경우:
+For comprehensive SDK documentation and implementation details:
 
-* [라이브 활동 개발자 안내서](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities)
-* [API 참조](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/api-reference/)
-* [라이브 활동 자습서](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/tutorial/)
-* [공용 클래스](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/public-classes/live-activity-attributes/)
+* [Live activities Developer Guide](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities)
+* [API 참조](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/api-reference)
+* [Live activity Tutorial](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/tutorial)
+* [Public Classes](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/public-classes/live-activity-attributes)
 
 >[!TIP]
 >
->토큰 등록, 페이로드 정렬 또는 라이브 활동 전달에 문제가 있는 경우 자세한 디버깅 지침은 [라이브 활동 문제 해결](troubleshoot-mobile-live.md)을 참조하세요.
+>If you are experiencing issues with token registration, payload alignment, or Live activity delivery, see [Troubleshoot Live activities](troubleshoot-mobile-live.md) for detailed debugging guidance.

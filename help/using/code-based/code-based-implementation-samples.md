@@ -6,10 +6,10 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 3%
+source-wordcount: '1114'
+ht-degree: 7%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 3%
 
 * [아래](#client-side-how) 단계에서는 샘플 **Web SDK** 구현의 코드 기반 경험 여정 및 캠페인이 에지에 게시된 콘텐츠를 가져오고 개인화된 콘텐츠를 표시하는 프로세스를 설명합니다.
 
-* **모바일 SDK**&#x200B;을 사용하여 코드 기반 채널을 구현하는 단계는 [이 자습서](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"}에 설명되어 있습니다.
+* **모바일 SDK**&#x200B;을 사용하여 코드 기반 채널을 구현하는 단계는 [이 자습서](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial){target="_blank"}에 설명되어 있습니다.
 
   >[!NOTE]
   >
@@ -82,7 +82,7 @@ ht-degree: 3%
    }
    ```
 
-1. 코드 기반 경험 여정 및 캠페인의 경우 사용자가 콘텐츠와 상호 작용한 시기를 나타내기 위해 상호 작용 이벤트를 수동으로 전송해야 합니다. 이 작업은 `sendEvent` 명령을 통해 수행됩니다.
+1. 코드 기반 경험 여정 및 캠페인의 경우 사용자가 콘텐츠와 상호 작용한 시기를 나타내기 위해 상호 작용 이벤트를 수동으로 전송해야 합니다. This is done via the `sendEvent` command.
 
    ```javascript
    function sendInteractEvent(label, proposition) {
@@ -118,34 +118,34 @@ ht-degree: 3%
 
    >[!IMPORTANT]
    >
-   >`tokens`의 `propositionAction` 필드는 Adobe Journey Optimizer Decisioning에서 정확한 추적 및 속성에 중요합니다. 이러한 토큰을 사용하면 다음 작업을 수행할 수 있습니다.
-   >* 의사 결정 활동에 대한 적절한 클릭 속성
-   >* 의사 결정 콘텐츠와의 사용자 상호 작용에 대한 정확한 보고
-   >* 사용자 참여를 기반으로 오퍼 성능 최적화
+   >The `tokens` field in `propositionAction` is critical for accurate tracking and attribution in Adobe Journey Optimizer Decisioning. These tokens enable:
+   >* Proper click attribution for decisioning activities
+   >* Accurate reporting of user interactions with decision content
+   >* Optimization of offer performance based on user engagement
    >
-   >토큰은 일반적으로 `proposition.items[0].characteristics.tokens`에서 찾을 수 있으며 결정 콘텐츠와의 사용자 상호 작용을 추적할 때 항상 포함되어야 합니다.
+   >The tokens are typically found in `proposition.items[0].characteristics.tokens` and should always be included when tracking user interactions with decision content.
 
-### 주요 관찰
+### Key Observations
 
 **쿠키**
 
-쿠키는 사용자 ID 및 클러스터 정보를 유지하는 데 사용됩니다. 클라이언트측 구현을 사용하는 경우 웹 SDK은 요청 라이프사이클 동안 이러한 쿠키의 저장 및 전송을 자동으로 처리합니다.
+Cookies are used to persist user identity and cluster information. When using a client-side implementation, the Web SDK handles the storing and sending of these cookies automatically during the request lifecycle.
 
-| 쿠키 | 용도 | 저장 주체 | 보낸 사람 |
+| 쿠키 | 용도 | Stored by | Sent by |
 | ------------------------ | -------------------------------------------------------------------------- | --------- | ------- |
-| kndctr_AdobeOrg_identity | 사용자 ID 세부 정보 포함 | Web SDK | Web SDK |
-| kndctr_AdobeOrg_cluster | 요청을 이행하는 데 사용해야 하는 경험 에지 클러스터를 나타냅니다. | Web SDK | Web SDK |
+| kndctr_AdobeOrg_identity | Contains user identity details | Web SDK | Web SDK |
+| kndctr_AdobeOrg_cluster | Indicates which experience edge cluster should be used to fulfill requests | Web SDK | Web SDK |
 
-**배치 요청**
+**Request placement**
 
-제안을 가져오고 디스플레이 알림을 보내려면 Adobe Experience Platform API에 대한 요청이 필요합니다. 클라이언트측 구현을 사용하는 경우 `sendEvent` 명령이 사용될 때 웹 SDK에서 이러한 요청을 수행합니다.
+Requests to Adobe Experience Platform API are required to get propositions and send a display notification. When using a client-side implementation, the Web SDK makes these requests when the `sendEvent` command is used.
 
-| 요청 | 만든 사람 |
+| 요청 | Made by |
 | ---------------------------------------------- | ----------------------------------- |
-| 제안 가져오기를 위한 요청 상호 작용 | sendEvent 명령을 사용하는 웹 SDK |
-| 디스플레이 알림 전송을 위한 상호 작용 요청 | sendEvent 명령을 사용하는 웹 SDK |
+| interact request to get propositions | Web SDK using the sendEvent command |
+| interact request to send display notifications | Web SDK using the sendEvent command |
 
-**흐름 다이어그램**
+**Flow Diagram**
 
 ![](assets/code-based-client-side-implementation.png)
 
@@ -364,7 +364,7 @@ ht-degree: 3%
 
 To help you get started with implementing code-based experiences, refer to the comprehensive step-by-step tutorials below:
 
-* **Mobile SDK implementation**: Follow [this tutorial](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"} to learn how to set up code-based experiences on mobile apps using the Adobe Experience Platform Mobile SDK.
+* **Mobile SDK implementation**: Follow [this tutorial](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial){target="_blank"} to learn how to set up code-based experiences on mobile apps using the Adobe Experience Platform Mobile SDK.
 
 * **Web SDK implementation**: Learn how to configure the Web SDK for decisioning and code-based experiences in [these tutorials](code-based-decisioning-implementations.md#tutorials).
 

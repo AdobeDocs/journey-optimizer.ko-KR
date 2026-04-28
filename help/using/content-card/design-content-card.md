@@ -6,9 +6,9 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: b83bdade-7275-4eef-9c49-fc1d157cee0d
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '641'
 ht-degree: 1%
 
 ---
@@ -27,15 +27,15 @@ ht-degree: 1%
 
 * **[!UICONTROL 작은 이미지]**: 텍스트와 함께 컴팩트한 이미지를 표시하며 시각 이미지보다 콘텐츠가 우선시되는 메시지에 적합합니다.
 
-  자세한 내용은 Adobe Developer 설명서 [iOS용](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/smallimage-template/) 및 [Android용](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/smallimagecarduistate/)을 참조하세요.
+  자세한 내용은 Adobe Developer 설명서 [iOS용](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/smallimage-template) 및 [Android용](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/smallimagecarduistate)을 참조하세요.
 
 * **[!UICONTROL 큰 이미지]**: 텍스트 위나 옆에 눈에 띄는 이미지를 사용하여 시각적 개체를 메시지의 주요 초점으로 만듭니다.
 
-  자세한 내용은 Adobe Developer 설명서 [iOS용](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/largeimage-template/) 및 [Android용](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/largeimagecarduistate/)을 참조하세요.
+  자세한 내용은 Adobe Developer 설명서 [iOS용](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/largeimage-template) 및 [Android용](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/largeimagecarduistate)을 참조하세요.
 
 * **[!UICONTROL 이미지만]**: 텍스트 없이 이미지를 표시하며, 비주얼 기반 메시지나 독립 실행형 이미지에 적합합니다.
 
-  자세한 내용은 Adobe Developer 설명서 [iOS용](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/imageonly-template/) 및 [Android용](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/imageonlycarduistate/)을 참조하세요.
+  자세한 내용은 Adobe Developer 설명서 [iOS용](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/imageonly-template) 및 [Android용](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/imageonlycarduistate)을 참조하세요.
 
 ## 컨텐츠 탭 {#content-tab}
 

@@ -5,10 +5,10 @@ feature: Get Started
 role: Developer
 level: Experienced
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1918'
-ht-degree: 93%
+source-wordcount: '2079'
+ht-degree: 90%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 93%
 
 1. **XDM 데이터 모델**: Journey Optimizer는 XDM(경험 데이터 모델)을 사용하여 이벤트 및 프로필 데이터를 구조화합니다. 개발자는 [데이터 엔지니어](data-engineer.md)가 구성한 스키마를 준수하는 데이터를 보내는 방법을 이해해야 합니다. [XDM 스키마](../../data/get-started-schemas.md)에 대해 알아보세요.
 
-1. **인증 및 보안**: 모든 구현에는 적절한 인증이 필요합니다. SDK 및 API에 대한 인증을 설정하는 방법을 이해합니다. [API 인증](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}에 대해 알아봅니다.
+1. **인증 및 보안**: 모든 구현에는 적절한 인증이 필요합니다. SDK 및 API에 대한 인증을 설정하는 방법을 이해합니다. [API 인증](https://developer.adobe.com/journey-optimizer-apis/references/authentication){target="_blank"}에 대해 알아봅니다.
 
 ## 모바일 앱 통합 설정 {#mobile-integration}
 
@@ -56,9 +56,9 @@ ht-degree: 93%
 
 푸시 알림, 인앱 메시지 및 기타 모바일 기능을 사용하려면 Adobe Experience Platform Mobile SDK를 모바일 애플리케이션에 통합합니다.
 
-1. **Mobile SDK 설치 및 구성**: SDK 통합을 시작하려면 [Adobe Experience Platform Mobile SDK 문서](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"}를 따르세요.
+1. **Mobile SDK 설치 및 구성**: SDK 통합을 시작하려면 [Adobe Experience Platform Mobile SDK 문서](https://developer.adobe.com/client-sdks/documentation/getting-started){target="_blank"}를 따르세요.
 
-1. **모바일 속성 생성**: [!DNL Adobe Experience Platform Data Collection]에서 모바일 속성을 설정합니다. [모바일 속성을 생성하고 구성](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}하는 방법을 알아보세요.
+1. **모바일 속성 생성**: [!DNL Adobe Experience Platform Data Collection]에서 모바일 속성을 설정합니다. [모바일 속성을 생성하고 구성](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property){target="_blank"}하는 방법을 알아보세요.
 
 1. **푸시 알림 구성**:
    * **iOS 앱**&#x200B;의 경우: APNs(Apple Push Notification service)에 앱을 등록합니다. 자세한 내용은 [Apple 문서](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns){target="_blank"}에서 확인하세요.
@@ -72,7 +72,7 @@ ht-degree: 93%
 
 코드 기반 경험을 사용하는 기본 모바일 앱 개인화:
 
-* Mobile SDK 구현을 위해 [이 튜토리얼](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"}을 따르세요.
+* Mobile SDK 구현을 위해 [이 튜토리얼](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial){target="_blank"}을 따르세요.
 * [iOS](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI){target="_blank"} 및 [Android](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp){target="_blank"}에 대한 샘플 구현을 검토합니다.
 
 ## 웹 경험 구현 {#web-implementation}
@@ -163,7 +163,7 @@ Content-Type: application/json
 
 1. **사용자 정의 액션 기능 이해**: 사용자 정의 액션은 Epsilon, Slack, Firebase와 같은 타사 시스템이나 자체 서비스에 연결할 수 있습니다. [사용자 지정 작업](../../action/action.md)에 대해 자세히 알아보세요.
 
-1. **액션 구성 작업**: [관리자](administrator.md) 또는 [데이터 엔지니어](data-engineer.md)가 Journey Optimizer에서 사용자 정의 액션을 구성하여 API 엔드포인트 URL, 인증 방법 및 매개 변수를 정의합니다. API 사양을 제공해야 합니다. [사용자 지정 작업 구성](../../action/about-custom-action-configuration.md)에 대해 알아봅니다. 시간 초과/오류 분기에서 더 풍부한 대체 논리를 위해 선택적 **오류 응답 페이로드**&#x200B;를 정의할 수 있습니다.
+1. **액션 구성 작업**: [관리자](administrator.md) 또는 [데이터 엔지니어](data-engineer.md)가 Journey Optimizer에서 사용자 정의 액션을 구성하여 API 엔드포인트 URL, 인증 방법 및 매개 변수를 정의합니다. API 사양을 제공해야 합니다. [사용자 정의 액션 구성](../../action/about-custom-action-configuration.md)에 대해 알아보세요. 시간 초과/오류 분기에서 더 풍부한 대체 논리를 위해 선택적 **오류 응답 페이로드**&#x200B;를 정의할 수 있습니다.
 
 1. **실행 가능한 데이터 반환**: 후속 여정 단계에서 사용할 수 있는 데이터를 반환하도록 API를 디자인합니다. [액션 응답](../../action/action-response.md)에 대해 알아보세요.
 
@@ -179,9 +179,9 @@ Journey Optimizer는 프로그래밍 방식으로 액세스할 수 있는 포괄
 
 1. **API 기능 이해**: Journey Optimizer API를 사용하면 다양한 리소스를 프로그래밍 방식으로 생성하고 읽고 업데이트 및 삭제할 수 있습니다. [Journey Optimizer API](../../configuration/ajo-apis.md)에 대해 알아보세요.
 
-1. **인증**: Adobe Developer Console을 사용하여 API 인증을 설정하려면 [이 튜토리얼](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}을 따르세요.
+1. **인증**: Adobe Developer Console을 사용하여 API 인증을 설정하려면 [이 튜토리얼](https://developer.adobe.com/journey-optimizer-apis/references/authentication){target="_blank"}을 따르세요.
 
-1. **API 참조 살펴보기**: 전체 API 문서를 찾아보고 [Adobe Journey Optimizer API 참조](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}에서 API를 직접 사용해 보세요.
+1. **API 참조 살펴보기**: 전체 API 문서를 찾아보고 [Adobe Journey Optimizer API 참조](https://developer.adobe.com/journey-optimizer-apis){target="_blank"}에서 API를 직접 사용해 보세요.
 
 1. **API 트리거 캠페인**: API 트리거 캠페인을 사용하여 트랜잭션 메시지를 작성합니다. 대용량 시나리오(최대 5000TPS)의 경우 [높은 처리량 모드](../../campaigns/api-triggered-high-throughput.md)를 살펴보세요(추가 라이선스 필요).
 
@@ -255,9 +255,9 @@ Journey Optimizer는 프로그래밍 방식으로 액세스할 수 있는 포괄
 * 데이터 수집 요구 사항과 데이터 품질 표준에 맞게 조정
 * 테스트 이벤트 게재 및 데이터 수집을 함께 수행
 
->[!TAB 관리자와 협력]
+>[!TAB 관리자와 협업]
 
-액세스와 구성에 대해 [관리자](administrator.md)와 협업합니다.
+액세스 및 구성에 대해 다음과 같이 [관리자](administrator.md)와 협업합니다.
 
 * 사용자가 구성할 사용자 정의 액션에 대한 API 사양 제공
 * 필요한 권한과 API 자격 증명 요청
@@ -279,9 +279,9 @@ Journey Optimizer는 프로그래밍 방식으로 액세스할 수 있는 포괄
 
 빌드를 시작할 준비가 되셨나요? 위의 섹션에서 첫 번째 구현 영역을 선택합니다.
 
-1. **모바일 앱?** [Mobile SDK 통합](#mobile-integration)으로 시작
-2. **웹 사이트?** [Web SDK 설정](#web-implementation)부터 시작
-3. **API 통합?** [API 작업](#apis)으로 이동
-4. **사용자 정의 시스템?** [사용자 정의 액션](#custom-actions) 확인
+1. **모바일 앱** [Mobile SDK 통합](#mobile-integration)(으)로 시작
+2. **웹 사이트** [웹 SDK 설치](#web-implementation)(으)로 시작
+3. **API 통합?** [API 작업](#apis)(으)로 이동
+4. **사용자 지정 시스템** [사용자 지정 작업](#custom-actions) 확인
 
 각 섹션에는 구현을 안내하는 자세한 기술 문서, 코드 샘플 및 튜토리얼 링크가 포함되어 있습니다.

@@ -2,64 +2,64 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 금지 목록 관리
-description: Journey Optimizer 제외 목록에 액세스하고 관리하는 방법을 알아봅니다
+description: Learn how to access and manage the Journey Optimizer suppression list
 feature: Deliverability, Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
-keywords: 제외, 목록, 바운스, 이메일, 최적화 도구, 격리
+keywords: suppression, list, bounce, email, optimizer, quarantine
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1600'
-ht-degree: 21%
+source-wordcount: '1611'
+ht-degree: 22%
 
 ---
 
 # 금지 목록 관리 {#manage-suppression-list}
 
-[!DNL Journey Optimizer]을(를) 사용하면 하드 바운스, 소프트 바운스, 스팸 불만 등 여정 또는 캠페인에서 자동으로 제외되는 모든 이메일 주소를 모니터링할 수 있습니다.
+With [!DNL Journey Optimizer], you can monitor all the email addresses that are automatically excluded from sending in a journey or a campaign, such as hard bounces, soft bounces, and spam complaints.
 
-이러한 전자 메일 주소는 Journey Optimizer **제외 목록**&#x200B;에 자동으로 수집됩니다. 제외 목록은 대상에서 제외할 주소 및 도메인으로 구성됩니다. 샌드박스 ID와 연관된 조직 ID와 관련된 것을 의미하는 단일 클라이언트 환경의 모든 메일링에서 억제되는 이메일 주소 및 도메인을 수집합니다.
+Such email addresses are automatically collected into the Journey Optimizer **suppression list**. A suppression list consists of addresses and domains to exclude from your audiences. 샌드박스 ID와 연관된 조직 ID와 관련된 것을 의미하는 단일 클라이언트 환경의 모든 메일링에서 억제되는 이메일 주소 및 도메인을 수집합니다.
 
-[이 섹션](../reports/suppression-list.md)에서 제외 목록 개념과 사용에 대해 자세히 알아보세요.
+Learn more about the suppression list concept and usage in [this section](../reports/suppression-list.md).
 
 >[!NOTE]
 >
 >Adobe은 참여 및 메일링 평판에 유해한 것으로 입증된 알려진 잘못된 주소 목록을 업데이트하고 이메일이 게재되지 않도록 합니다. 이 목록은 모든 Adobe 고객에게 공통으로 적용되는 글로벌 금지 목록에서 관리됩니다. 글로벌 금지 목록에 포함된 주소와 도메인 이름은 숨겨집니다. 게재 보고서에는 제외된 수신자 수만 표시됩니다.
 
-또한 Journey Optimizer **제외 REST API**&#x200B;를 활용하여 제외 및 허용 목록을 사용하여 보내는 메시지를 제어할 수 있습니다. [Suppression REST API 사용 방법 알아보기](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
+In addition, you can leverage the Journey Optimizer **Suppression REST API** to control your outgoing messages using suppression and allow lists. [Suppression REST API 사용 방법 알아보기](https://developer.adobe.com/journey-optimizer-apis/references/suppression){target="_blank"}
 
-## 제외 목록 액세스 {#access-suppression-list}
+## Access the suppression list {#access-suppression-list}
 
-제외된 전자 메일 주소 및 도메인의 세부 목록에 액세스하려면 **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL 전자 메일 설정]**&#x200B;으로 이동한 다음 **[!UICONTROL 제외 목록]**&#x200B;을 선택하세요.
+To access the detailed list of excluded email addresses and domains, browse to **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email settings]**, and select **[!UICONTROL Suppression list]**.
 
 
 ![](assets/suppression-list-access.png)
 
 >[!CAUTION]
 >
->비표시 목록을 보고, 내보내고 관리할 수 있는 권한이 [관리자 여정](../administration/ootb-product-profiles.md#journey-administrator)(으)로 제한됩니다. [!DNL Journey Optimizer]이 섹션[에서 &#x200B;](../administration/permissions-overview.md) 사용자의 액세스 권한 관리에 대해 자세히 알아보세요.
+>Permissions to view, export and manage the suppression list are restricted to [Journey Administrators](../administration/ootb-product-profiles.md#journey-administrator). [이 섹션](../administration/permissions-overview.md)에서 [!DNL Journey Optimizer] 사용자의 액세스 권한 관리에 대해 자세히 알아보세요.
 
 
 필터를 사용하여 목록을 탐색할 수 있습니다.
 
 ![](assets/suppression-list-filters.png)
 
-**[!UICONTROL 제외 범주]**, **[!UICONTROL 주소 유형]** 또는 **[!UICONTROL 이유]**&#x200B;를 필터링할 수 있습니다. 각 기준에 대해 하나 이상의 옵션을 선택합니다. 선택하면 목록 위에 표시된 각 필터 또는 모든 필터를 지울 수 있습니다.
+You can filter on the **[!UICONTROL Suppression category]**, **[!UICONTROL Address type]**, or **[!UICONTROL Reason]**. Select one or more options for each criterion. Once selected, you can clear each filter or all filters displayed on top of the list.
 
 ![](assets/suppression-list-filtering-example.png)
 
 
-## 실패 이유 이해 {#suppression-categories-and-reasons}
+## Understand failure reasons {#suppression-categories-and-reasons}
 
-메시지가 전자 메일 주소로 배달되지 않으면 [!DNL Journey Optimizer]에서 배달이 실패한 이유를 확인하고 **[!UICONTROL 제외 범주]**&#x200B;와 연결합니다.
+When a message fails to be delivered to an email address, [!DNL Journey Optimizer] determines why the delivery failed and associates it with a **[!UICONTROL Suppression category]**.
 
-제외 범주는 다음과 같습니다.
+The suppression categories are as follows:
 
-* **하드**: 하드 바운스는 잘못된 전자 메일 주소(즉, 존재하지 않는 전자 메일 주소)를 나타냅니다. 여기에는 주소가 유효하지 않다는 것을 명시적으로 설명하는 수신 이메일 서버의 바운스 메시지가 포함됩니다. 이메일 주소가 즉시 비표시 목록으로 전송됩니다.
+* **Hard**: A hard bounce indicates an invalid email address (i.e. an email address that does not exist). 여기에는 주소가 유효하지 않다는 것을 명시적으로 설명하는 수신 이메일 서버의 바운스 메시지가 포함됩니다. The email address is immediately sent to the suppression list.
 
-  스팸 불만의 결과인 경우 **Hard** 범주도 포함됩니다. 컴플레인을 발급한 수신자의 이메일 주소가 즉시 비표시 목록으로 전송됩니다.
+  When the error is the result of a spam complaint, it also falls into the **Hard** category. The email address of the recipient who issued the complaint is immediately sent to the suppression list.
 
 * **소프트**: 소프트 바운스는 올바른 전자 메일 주소에 대해 발생한 임시 전자 메일 바운스입니다. 이메일 주소는 몇 번 다시 시도한 후 제외 목록에 추가됩니다. 소프트 오류는 오류 카운터가 제한 임계값에 도달하면 주소를 제외 목록으로 보냅니다. [다시 시도에 대해 자세히 알아보기](retries.md)
 
@@ -136,7 +136,7 @@ ht-degree: 21%
    >
    >유효한 이메일 주소(예: abc@company.com) 또는 도메인(예: abc.company.com)을 입력했는지 확인합니다.
 
-1. (선택 사항) 사유를 입력합니다. 이 필드에는 32에서 126 사이의 모든 ASCII 인쇄 가능 문자가 허용됩니다.
+1. (선택 사항) 사유를 입력합니다. 이 필드에는 32~126 사이로 구성된 모든 ASCII 인쇄 가능 문자가 허용됩니다.
 
 1. **[!UICONTROL 제출]** 단추를 사용하여 확인하십시오.
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '9005'
+source-wordcount: '9308'
 ht-degree: 99%
 
 ---
@@ -333,7 +333,7 @@ table>
 <tr>
 <td>
 <p>이제 새로운 Journey Optimizer API를 사용하여 캠페인과 표면 등 여정 및 관련 개체를 검색할 수 있습니다.</p>
-<p>자세한 내용은 <a href="https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve/">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2025년 9월 25일</p>
 </td>
 </tr>
@@ -586,8 +586,8 @@ You can now use AI models to optimize the best content in your email through the
 
   사용 가능한 날짜: 2025년 9월 29일
 
-* **SMS 채널에 대한 mTLS 지원**
-이제 사용자 정의 SMS 공급자를 설정할 때 상호 TLS(mTLS) 인증을 활성화하는 옵션이 있습니다. 이 옵션을 선택하면 보안 연결이 설정되기 전에 클라이언트와 서버가 서로의 ID를 확인하도록 요구합니다. [자세히 보기](../sms/sms-configuration-custom.md) - 사용 가능한 날짜: 2025년 9월 23일
+* SMS 채널에 대한 **mTLS 지원**
+이제 사용자 지정 SMS 공급자를 설정할 때 상호 TLS(mTLS) 인증을 활성화하는 옵션이 있으므로 보안 연결이 설정되기 전에 클라이언트와 서버가 서로의 ID를 확인해야 합니다. [자세히 보기](../sms/sms-configuration-custom.md) - 사용 가능한 날짜: 2025년 9월 23일
 
 * **관계형 스키마**\
   이제 오케스트레이션된 캠페인에서 관계형 모델링 요구 사항을 지원하기 위해 관계형 스키마를 사용할 수 있습니다. [자세히 보기](../orchestrated/gs-schemas.md) - 사용 가능한 날짜: 2025년 9월 23일
@@ -838,7 +838,7 @@ table>
 
    * **아웃바운드 캠페인의 속도 제어** - 이제 아웃바운드 캠페인(이메일, SMS, 푸시 알림)에 대한 속도 제어를 활성화하여 랜딩 페이지나 고객 지원 플랫폼과 같은 다운스트림 시스템의 과부하를 방지할 수 있습니다. [자세히 보기](../campaigns/campaign-schedule.md#set-rate-control)
 
-   * **액션 캠페인 예약** - 되풀이 일정을 보다 세부적으로 제어하는 기능을 제공하기 위해 캠페인 일별, 주별, 월별 스케줄러를 업데이트했습니다. 
+   * **액션 캠페인 예약** - 되풀이 일정을 보다 세부적으로 제어하는 기능을 제공하기 위해 캠페인 일별, 주별, 월별 스케줄러를 업데이트했습니다.
 
       * **주별 반복**: 이제 캠페인 반복 주기를 매주 또는 격주 중 선택하고 실행할 요일도 선택할 수 있습니다.
 
@@ -1083,12 +1083,12 @@ table>
 
    * **캠페인 인벤토리 재구성** - 이제 예약된 캠페인 및 API 트리거 캠페인이 더 쉬운 탐색 및 관리를 위해 캠페인 인벤토리에서 별도의 탭으로 분할됩니다.
 
-[자세히 보기](../campaigns/manage-campaigns.md)
+  [자세히 보기](../campaigns/manage-campaigns.md)
 
 * **데이터 관리**
    * **의사 결정 관리 시스템 데이터 세트 업데이트** - 이제 삭제된 개인화된 오퍼 및 대체 오퍼가 “decision_object_repository_personalized_offers” 및 “decision_object_repository_fallback_offers” 데이터 세트에 보관된 것으로 표시됩니다. 데이터 세트의 기존 레코드는 변경되지 않습니다.
 
-[자세히 보기](../offers/export-catalog/access-dataset.md)
+  [자세히 보기](../offers/export-catalog/access-dataset.md)
 
 * **여정**
    * **여정 샌드박스 도구 개선 사항** - 패키지 내보내기 및 가져오기 기능을 사용하여 여러 샌드박스에서 여정을 복사할 때 이제 다음 기능도 사용할 수 있습니다.
@@ -1096,7 +1096,7 @@ table>
       * 여정과 독립적으로 이벤트 복사
       * 필드 그룹/데이터 소스 관계 감지, 대상(있는 경우)에서 연결, 없는 경우 생성.
 
-[자세히 보기](../configuration/copy-objects-to-sandbox.md)
+  [자세히 보기](../configuration/copy-objects-to-sandbox.md)
 
 * **채널 - 인앱**
    * **인앱 키/값 쌍** - 인앱 메시지를 사용하여 메시지 페이로드에 사용자 지정 변수를 포함하도록 키 및 값 쌍을 정의할 수 있습니다. 이러한 키-값 쌍을 사용하면 특정 구성 및 사용 사례에 따라 추가 데이터를 전달할 수 있습니다. [자세히 보기](../in-app/design-in-app.md)
@@ -1108,7 +1108,7 @@ table>
       * 다음과 같은 경우 메시지 닫기: 컨텐츠 카드를 일시적으로 숨기는 조건. 표시 조건이 다시 충족되는 경우 다시 나타날 수 있습니다.
       * 메시지 부적격: 컨텐츠 카드가 다시 표시되지 않도록 영구적으로 차단하는 조건.
 
-[자세히 보기](../content-card/design-content-card.md)
+     [자세히 보기](../content-card/design-content-card.md)
 
 * **의사 결정**
    * **마이그레이션 도구 API** - Journey Optimizer 팀은 현재 의사 결정 관리 엔터티를 Decisioning으로 마이그레이션하기 위한 마이그레이션 도구 API를 작업 중입니다. 이 도구를 사용하면 종속성 해결 및 롤백 기능을 통해 샌드박스 간에 원활하게 마이그레이션할 수 있습니다. 관심이 있는 경우 Adobe 담당자에게 문의하십시오.
@@ -1116,7 +1116,7 @@ table>
 * **개인화**
    * 개인화 편집기에 새로운 헬퍼 함수 “SHA256”이 추가되었습니다. 이 함수는 문자열의 sha256 해시를 계산하고 반환하는 데 사용합니다.
 
-[자세히 보기](../personalization/functions/string.md#sha256)
+  [자세히 보기](../personalization/functions/string.md#sha256)
 
 
 ## 25년 6월 릴리스 정보 {#25-6-rn}
@@ -1327,7 +1327,7 @@ table>
 
 * **Interactive Message Execution API 업데이트** - 사용 가능한 날짜: 2025년 6월 6일
 
-  이제 Interactive Message Execution API를 사용하여 예정된 캠페인 실행 일정을 삭제할 수 있습니다. [자세히 보기](https://developer.adobe.com/journey-optimizer-apis/references/messaging/){target="_blank"}
+  이제 Interactive Message Execution API를 사용하여 예정된 캠페인 실행 일정을 삭제할 수 있습니다. [자세히 보기](https://developer.adobe.com/journey-optimizer-apis/references/messaging){target="_blank"}
 
 
 ## 25년 5월 릴리스 정보 {#25-5-rn}
@@ -2185,7 +2185,7 @@ You can now choose to have your emails relayed to your SMTP servers instead of b
    * 프로필 스토어의 데이터에 대해 90일
    * 데이터 레이크의 데이터에 대해 13개월
 
-  이 변경 사항은 차후 기존 고객 샌드박스에 대해서도 롤아웃됩니다. 
+  이 변경 사항은 차후 기존 고객 샌드박스에 대해서도 롤아웃됩니다.
 
   [해당 FAQ](../data/datasets-ttl.md#frequently-asked-questions)에서 이 업데이트에 대해 자세히 알아보세요.
 
@@ -2203,7 +2203,7 @@ You can now choose to have your emails relayed to your SMTP servers instead of b
 -->
 
 
-* **이메일 구성** - Adobe 외부에서 동의를 관리하는 경우 이제 이메일 채널 구성 설정의 일부로 사용자 정의 구독 취소 이메일 주소와 사용자 정의 원클릭 구독 취소 URL을 설정할 수 있습니다. [자세히 보기](../email/list-unsubscribe.md#custom-managed)
+* **이메일 구성** - Adobe 외부에서 동의를 관리하는 경우 이제 이메일 채널 구성 설정의 일부로 사용자 정의 구독 취소 이메일 주소와 사용자 정의 원클릭 구독 취소 URL을 설정할 수 있습니다. [자세히 보기](../email/list-unsubscribe.md#custom-managed)
 
   ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
 
