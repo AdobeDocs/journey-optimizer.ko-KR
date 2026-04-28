@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e4c298fb1c47501920a27a93b43878327b6c5861
+source-git-commit: 16eb46843d0369ae14f004a5e0f9e743cad3170b
 workflow-type: tm+mt
-source-wordcount: '3275'
-ht-degree: 91%
+source-wordcount: '3276'
+ht-degree: 90%
 
 ---
 
@@ -507,7 +507,7 @@ ht-degree: 91%
       + [GenStudio for Performance Marketing 작업](using/integrations/genstudio.md)
       + {hide-from-toc}[통합 작업](using/integrations/integrations.md)
       + {hide-from-toc}[공급업체 통합 시작](using/integrations/vendor-integration-gs.md)
-      + {hide-from-toc}[사용 가능한 공급업체](using/integrations/vendor-integration.md)
+      + {hide-from-toc}[공급업체 구성 샘플](using/integrations/vendor-integration.md)
       + {hide-from-toc}[FAQ](using/integrations/vendor-integration-faq.md)
       + {hide-from-toc}[MCP를 통해 AI 도구 작업](/help/using/integrations/ajo-mcp.md)
    + 콘텐츠 생성을 위한 AI 어시스턴트 {#ai-assistant}

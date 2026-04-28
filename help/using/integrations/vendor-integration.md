@@ -9,14 +9,14 @@ role: User
 level: Intermediate
 hide: true
 keywords: 통합, 공급업체, 서드파티
-source-git-commit: eab38d6c5f07af0f2dc403abaf0deb3a09f0d392
+source-git-commit: 16eb46843d0369ae14f004a5e0f9e743cad3170b
 workflow-type: tm+mt
-source-wordcount: '9327'
+source-wordcount: '9348'
 ht-degree: 5%
 
 ---
 
-# 사용 가능한 공급업체
+# 샘플 공급업체 구성 {#vendor-integration}
 
 >[!BEGINSHADEBOX]
 
@@ -24,8 +24,14 @@ ht-degree: 5%
 
 * [통합 작업](integrations.md)
 * [공급업체 통합 시작](vendor-integration-gs.md)
-* **[사용 가능한 공급업체](vendor-integration.md)**
+* **[공급업체 구성 샘플](vendor-integration.md)**
 * [FAQ](vendor-integration-faq.md)
+
+>[!ENDSHADEBOX]
+
+>[!BEGINSHADEBOX]
+
+고객 및 서드파티 공급자는 보안 및 규정 준수 요구 사항에 필요한 API 종단점을 보호할 책임이 있습니다.
 
 >[!ENDSHADEBOX]
 

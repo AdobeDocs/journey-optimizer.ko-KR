@@ -10,10 +10,10 @@ level: Beginner
 keywords: 통합
 hide: true
 exl-id: 104f283e-f6a5-431b-919a-d97b83d19632
-source-git-commit: e4c298fb1c47501920a27a93b43878327b6c5861
+source-git-commit: 16eb46843d0369ae14f004a5e0f9e743cad3170b
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 1%
+source-wordcount: '1055'
+ht-degree: 9%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 목차:
 
 * **[통합 작업](integrations.md)**
-* [공급업체 통합 시작](vendor-integration-gs.md)
+* [시작하기](vendor-integration-gs.md)
 * [사용 가능한 공급업체](vendor-integration.md)
 * [FAQ](vendor-integration-faq.md)
 
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 ## 개요
 
-**통합** 기능을 사용하면 타사 데이터 소스를 Adobe Journey Optimizer에 원활하게 통합할 수 있습니다. 이 기능을 사용하면 외부 데이터 및 콘텐츠 소스를 캠페인에 효율적으로 통합할 수 있으므로 여러 채널에 걸쳐 고도로 개인화되고 동적인 메시지를 전달할 수 있습니다.
+**통합** 기능은 다른 곳에서 이미 관리하고 있는 데이터와 구성 가능한 콘텐츠가 있는 서드파티 시스템에 Adobe Journey Optimizer을 연결합니다. 작성 중 및 전송 시간에 해당 자료를 표시할 수 있으며, 이는 Journey Optimizer에서 사용하는 채널 전반에서 보다 반응적이고 개인화된 경험을 지원합니다.
 
 이 기능을 사용하여 외부 데이터에 액세스하고 다음과 같은 서드파티 도구에서 콘텐츠를 가져올 수 있습니다.
 
@@ -41,19 +41,35 @@ ht-degree: 1%
 * 추천 엔진에서 **제품 추천**.
 * **물류 업데이트**(게재 상태 등).
 
-## Beta 제한 사항 {#limitations}
+통합을 사용하려면 사용자에게 **[!UICONTROL AJO 통합 구성 관리]** 및 **[!UICONTROL AJO 통합 보기]** 권한을 부여해야 합니다. [권한에 대해 자세히 알아보기](../administration/permissions.md)
 
-베타 릴리스에는 다음과 같은 제한 사항이 있습니다.
++++ 통합 관련 권한을 할당하는 방법을 알아봅니다
 
-* 아웃바운드 채널만 지원됩니다.
+1. **[!UICONTROL 권한]** 제품에서 **[!UICONTROL 역할]** 탭으로 이동하여 원하는 **[!UICONTROL 역할]**&#x200B;을 선택하십시오.
 
-* API 호출 응답에 대해서는 JSON 형식만 지원됩니다. HTML 및 원시 이진 이미지 출력을 사용할 수 없습니다.
+1. 권한을 수정하려면 **[!UICONTROL 편집]**&#x200B;을 클릭하십시오.
 
-* 특정 콘텐츠를 대상으로 하는 검색 API만 지원되며 목록 API는 사용할 수 없습니다.
+1. **[!UICONTROL AJO 통합 구성]** 리소스를 추가한 다음 드롭다운 메뉴에서 적절한 통합 권한을 선택합니다.
 
-* 통합 기능은 여정과 캠페인 모두에 사용할 수 있지만, 조각에서는 지원되지 않습니다.
+   ![](assets/external-integration-config-9.png)
+
+1. 변경 내용을 적용하려면 **[!UICONTROL 저장]**&#x200B;을 클릭하십시오.
+
+   이 역할에 이미 할당된 모든 사용자의 권한은 자동으로 업데이트됩니다.
+
+1. 새 사용자에게 이 역할을 할당하려면 **[!UICONTROL 역할]** 대시보드의 **[!UICONTROL 사용자]** 탭으로 이동하여 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭하십시오.
+
+1. 사용자 이름, 이메일 주소를 입력하거나 목록에서 선택한 다음 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+
+사용자를 이전에 만들지 않은 경우 [이 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/abac/permissions-ui/users)를 참조하세요.
+
++++
 
 ## 통합 구성 {#configure}
+
+>[!AVAILABILITY]
+>
+> 이 통합 기능은 아웃바운드 채널(이메일, SMS 및 푸시)로 제한되며 데이터를 JSON 또는 HTML 형식으로 제공합니다. API는 읽기 전용이며 검색 작업만 지원합니다.
 
 관리자는 다음 단계에 따라 외부 통합을 설정할 수 있습니다.
 
@@ -62,6 +78,8 @@ ht-degree: 1%
    그런 다음 **[!UICONTROL 통합 만들기]**&#x200B;를 클릭하여 새 구성을 시작합니다.
 
    ![](assets/external-integration-config-1.png)
+
+1. 필요한 경우 **cURL** 명령을 붙여넣어 URL, HTTP 메서드, 헤더 및 쿼리 매개 변수를 자동으로 채웁니다.
 
 1. 통합을 위해 **[!UICONTROL 이름]** 및 **[!UICONTROL 설명]**&#x200B;을 제공하세요.
 
@@ -103,7 +121,10 @@ ht-degree: 1%
 
    ![](assets/external-integration-config-4.png)
 
-1. API 요청에 대해 **[!UICONTROL 시간 초과]** 기간과 같은 **[!UICONTROL 정책 구성]**&#x200B;을(를) 설정하고 제한, 캐시 및/또는 다시 시도하도록 선택하십시오.
+1. API 요청에 대해 **[!UICONTROL 시간 초과]** 기간과 같은 **[!UICONTROL 정책 구성]**&#x200B;을(를) 설정하고 제한, 캐시 및/또는 다시 시도하도록 선택합니다.
+
+   제한이 활성화된 경우 지원되는 속도는 **50** TPS(최소)에서 **5,000**&#x200B;TPS(최대)까지 다양합니다.
+다시 시도가 활성화되면 다른 실패는 기본적으로 **3번**&#x200B;번 다시 시도 후 **200ms**, **400ms**, **800ms**&#x200B;번 다시 시도합니다.
 
 1. **[!UICONTROL 응답 페이로드]** 필드를 사용하여 메시지 개인화에 사용해야 하는 샘플 출력의 필드를 결정할 수 있습니다.
 
@@ -117,6 +138,14 @@ ht-degree: 1%
 
    유효성을 검사하면 **[!UICONTROL 활성화]**&#x200B;를 클릭합니다.
 
+### 전송 시간 제한 및 동작 {#configure-send-time}
+
+전송 시 외부 API의 응답은 기본적으로 최대 **4MB**&#x200B;일 수 있습니다. 더 큰 모든 항목은 통합 오류로 처리되며, 응답 크기로 인해 오류가 발생한 경우 **다시 시도가 시도되지 않습니다**.
+
+호출은 사용자가 구성한 **조절** 속도를 따릅니다. Journey Optimizer에서는 외부 시스템이 다운되었거나 오류가 반환되는 경우에도 해당 제한까지 시도를 예약합니다. **cache**&#x200B;이(가) 활성화되면 정의한 캐시 **TTL**&#x200B;이(가) 만료될 때까지 **successful** 응답만 저장되고 재사용됩니다. 실패한 응답은 캐시되지 않습니다.
+
+큐에 있는 각 메시지에는 TTL(유효성 기간)도 전달됩니다. 처리가 지연되고 메시지가 해당 창을 지나면 시스템이 **메시지를 삭제하고** **`MessageValidityExclusion`** 이벤트를 발생시키므로 큐에서 오래된 작업이 지워지고 리소스가 사용 가능한 상태로 유지됩니다.
+
 ## 개인화에 외부 통합 사용 {#personalization}
 
 마케터는 구성된 통합을 사용하여 콘텐츠를 개인화할 수 있습니다. 다음 단계를 수행하십시오.
@@ -129,6 +158,8 @@ ht-degree: 1%
 
 1. 모든 활성 통합을 보려면 **[!UICONTROL 통합]** 섹션으로 이동하고 **[!UICONTROL 통합 열기]**&#x200B;를 클릭하십시오.
 
+   콘텐츠 조각은 통합에서 사용할 수 있지만 아웃바운드 채널만 지원하므로 인바운드 게시가 성공하지 못합니다. 조각이 게시되면 기존 여정 및 캠페인에 영향을 주지 않도록 새 통합 추가 및 저장이 비활성화됩니다.
+
    ![](assets/external-integration-content-2.png)
 
 1. 통합을 선택하고 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
@@ -138,6 +169,13 @@ ht-degree: 1%
 1. **[!UICONTROL 알약]** 모드를 활성화하여 고급 통합 메뉴를 잠금 해제합니다.
 
    ![](assets/external-integration-content-4.png)
+
+1. 통합 개인화를 작성할 때 통합 도우미에는 오류 또는 누락된 데이터가 기본 콘텐츠와 상호 작용하는 방법을 정의하는 **`required`** 필드가 포함됩니다.
+
+   * **`required=true`**(기본값): 해당 메시지에 대한 렌더링이 중지됩니다. 전송이 **`ExternalDataLookupExclusion`**(으)로 제외되며 해당 제외는 **메시지 피드백 데이터 세트**&#x200B;에 기록됩니다.
+   * **`required=false`**: 결과 변수가 **`null`**(으)로 설정되어 렌더링이 계속됩니다. 통합에서 데이터를 반환하지 않을 때 프로필이 빈 콘텐츠를 수신하지 않도록 템플릿에 기본 텍스트, 폴백 또는 조건부 논리를 사용하십시오.
+
+     ![](assets/external-integration-content-8.png)
 
 1. 통합 설정을 완료하려면 이전에 [구성](#configure) 중에 지정한 통합 특성을 정의하세요.
 
@@ -154,3 +192,4 @@ ht-degree: 1%
 이제 통합 개인화가 귀하의 콘텐츠에 성공적으로 적용되어 각 수신자가 귀하가 구성한 속성에 따라 맞춤형의 관련 경험을 받게 됩니다.
 
 ![](assets/external-integration-content-7.png)
+
