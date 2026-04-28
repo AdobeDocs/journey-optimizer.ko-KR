@@ -12,8 +12,8 @@ exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
 source-git-commit: 9822d87484947a3e86412e4dbe2d20fbef39acf1
 workflow-type: tm+mt
-source-wordcount: '3380'
-ht-degree: 10%
+source-wordcount: '3446'
+ht-degree: 13%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties"
 >title="여정 속성"
->abstract="이름, 태그, 시작 규칙, 시간대, 날짜, 시간 초과 및 충돌 관리를 포함하여 이 여정에 대한 전역 설정을 구성합니다. 읽기 전용 매개 변수는 기본적으로 숨겨져 있습니다. 사용 가능한 옵션은 여정 상태, 사용 권한 및 제품 구성에 따라 다릅니다."
+>abstract="이 여정을 위해 이름, 태그, 진입 규칙, 시간대, 날짜, 시간 초과, 충돌 관리 등 글로벌 설정을 구성합니다. 기본적으로 읽기 전용 매개변수는 숨겨져 있습니다. 사용 가능한 옵션은 여정 상태, 사용 권한 및 제품 구성에 따라 다릅니다."
 
 ## 여정 속성 액세스 {#access-properties}
 
@@ -299,7 +299,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_merge_policy"
 >title="병합 정책"
->abstract="병합 정책은 선택한 이벤트 또는 대상을 기반으로 자동으로 검색됩니다. 이 병합 정책은 전체 여정에서 사용됩니다."
+>abstract="병합 정책은 선택한 이벤트 또는 대상자를 기반으로 자동 검색됩니다. 이 병합 정책은 전체 여정에서 사용됩니다."
 
 [!DNL Adobe Journey Optimizer]이(가) [!DNL Adobe Experience Platform]에서 프로필 데이터를 검색하는 동안 병합 정책을 사용합니다. 여정 유형에 따라 서로 다른 병합 정책이 사용됩니다.
 

@@ -11,12 +11,12 @@ level: Beginner, Intermediate
 exl-id: c22a44a8-e4e2-453a-9ca2-b80f7c0edc19
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
-source-wordcount: '1252'
-ht-degree: 8%
+source-wordcount: '1334'
+ht-degree: 9%
 
 ---
 
-# 성과 마케팅을 위해 GenStudio과 협력 {#ajo-genstudio}
+# GenStudio for Performance Marketing 작업 {#ajo-genstudio}
 
 >[!CONTEXTUALHELP]
 >id="ajo_genstudio_button"
@@ -33,25 +33,25 @@ ht-degree: 8%
 >
 >* 이 기능은 이메일 채널에만 사용할 수 있습니다.
 
-마케팅 효율성을 높이고 브랜드 일관성을 유지하기 위해 [!DNL **GenStudio for Performance Marketing**] 경험을 [!DNL **Adobe Journey Optimizer**]&#x200B;과(와) 원활하게 통합할 수 있습니다. 이를 통해 [!DNL GenStudio]의 고급 오케스트레이션 기능과 함께 [!DNL Journey Optimizer]의 AI 기반 콘텐츠 생성을 활용할 수 있습니다.
+마케팅 효율성을 높이고 브랜드 일관성을 유지하기 위해 [!DNL **GenStudio for Performance Marketing**] 경험을 [!DNL **Adobe Journey Optimizer**]&#x200B;과(와) 원활하게 통합할 수 있습니다. 이를 통해 [!DNL Journey Optimizer]의 고급 오케스트레이션 기능과 함께 [!DNL GenStudio]의 AI 기반 콘텐츠 생성을 활용할 수 있습니다.
 
 ![GenStudio 콘텐츠를 Adobe Journey Optimizer으로 가져오기](../rn/assets/do-not-localize/genstudio.gif)
 
 >[!INFO]
 >
->더 자세히 알아보려면 이 [개요](https://business.adobe.com/kr/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"}와 [의 &#x200B;](https://business.adobe.com/kr/products/genstudio-for-performance-marketing.html#demo){target="_blank"}데모[!DNL Adobe GenStudio for Performance Marketing]을(를) 확인하십시오.
+>더 자세히 알아보려면 이 [개요](https://business.adobe.com/kr/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"}와 [!DNL Adobe GenStudio for Performance Marketing]의 [데모](https://business.adobe.com/kr/products/genstudio-for-performance-marketing.html#demo){target="_blank"}을(를) 확인하십시오.
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
 
 ## 전제 조건 {#genstudio-prerequisites}
 
-[!DNL GenStudio for Performance Marketing]과(와) [!DNL Journey Optimizer] 통합을 사용하려면 다음 요구 사항이 충족되었는지 확인하십시오.
+[!DNL Journey Optimizer]과(와) [!DNL GenStudio for Performance Marketing] 통합을 사용하려면 다음 요구 사항이 충족되었는지 확인하십시오.
 
 * 조직에 [!DNL GenStudio for Performance Marketing]에 대한 활성 라이선스가 있어야 합니다.
 
 * [!DNL GenStudio for Performance Marketing]과(와) [!DNL Adobe Journey Optimizer]은(는) 모두 동일한 IMS 조직에 속해야 합니다.
 
-* 통합 기능을 활용하려면 **에서 사용자에게 최소** Collaborator[!DNL GenStudio for Performance Marketing] 이상의 역할이 있어야 합니다. [GenStudio에서 사용자 역할에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles){target="_blank"}
+* 통합 기능을 활용하려면 [!DNL GenStudio for Performance Marketing]에서 사용자에게 최소 **Collaborator** 이상의 역할이 있어야 합니다. [GenStudio에서 사용자 역할에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles){target="_blank"}
 
 <!--
 To access the GenStudio integration in [!DNL Adobe Journey Optimizer] feature, users need to be granted the **xxx** permission. [Learn more](../administration/permissions.md)
@@ -123,7 +123,7 @@ The following limitations apply to GenStudio integration in [!DNL Adobe Journey 
 
    >[!NOTE]
    >
-   >HTML 템플릿을 [!DNL GenStudio]Adobe GenStudio for Performance Marketing 사용 안내서[&#x200B; 전용 섹션에서 &#x200B;](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"}에 업로드하는 방법을 알아봅니다.
+   >HTML 템플릿을 [Adobe GenStudio for Performance Marketing 사용 안내서](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"} 전용 섹션에서 [!DNL GenStudio]에 업로드하는 방법을 알아봅니다.
 
 1. GenStudio에서 이 템플릿을 사용하여 AI 프롬프트가 있는 여러 이메일 변형을 만들고 저장합니다.
 
@@ -161,7 +161,7 @@ GenStudio에서 전자 메일 변형을 만든 후 [!DNL Journey Optimizer]&#x20
 
    >[!NOTE]
    >
-   >[템플릿 [!DNL Journey Optimizer] 에서 만든 GenStudio 경험 &#x200B;](#export-from-ajo-to-genstudio)을(를) 전체 편집 기능이 있는 이메일 Designer으로 직접 가져옵니다. [!DNL Journey Optimizer] 템플릿 없이 만든 GenStudio 경험을 [호환성 모드](../email/existing-content.md)(으)로 가져옵니다. 편집 기능이 제한될 수 있습니다.
+   > [!DNL Journey Optimizer] 템플릿[&#128279;](#export-from-ajo-to-genstudio)에서 만든 GenStudio 경험 을(를) 전체 편집 기능이 있는 이메일 Designer으로 직접 가져옵니다. [!DNL Journey Optimizer] 템플릿 없이 만든 GenStudio 경험을 [호환성 모드](../email/existing-content.md)(으)로 가져옵니다. 편집 기능이 제한될 수 있습니다.
 
 1. [전자 메일 콘텐츠 편집 도구](../email/content-from-scratch.md) 및 [개인화 필드](../personalization/personalize.md)를 사용하여 필요에 따라 전자 메일을 편집하세요. 콘텐츠를 저장합니다.
 
@@ -179,7 +179,7 @@ GenStudio에서 전자 메일 변형을 만든 후 [!DNL Journey Optimizer]&#x20
 
 ## 자주 묻는 질문 {#genstudio-faq}
 
-[!DNL GenStudio for Performance Marketing]과의 [!DNL Journey Optimizer] 통합에 대한 일반적인 질문에 대한 답변을 찾아보십시오.
+[!DNL Journey Optimizer]과의 [!DNL GenStudio for Performance Marketing] 통합에 대한 일반적인 질문에 대한 답변을 찾아보십시오.
 
 +++이메일 이외의 채널에 GenStudio 통합을 사용할 수 있습니까?
 

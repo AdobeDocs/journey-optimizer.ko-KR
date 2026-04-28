@@ -12,8 +12,8 @@ exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
 source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
-source-wordcount: '3435'
-ht-degree: 9%
+source-wordcount: '3538'
+ht-degree: 10%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 9%
 
 **사전 요구 사항:** 작성 및 평가된 [!DNL Adobe Experience Platform] 대상(실현된 상태), 여정에 대해 선택된 사용자 기반 ID 네임스페이스 및 반복 실행을 위해 [예약 및 처리량 제한을 이해](../start/guardrails.md#read-segment-g)하는 대상입니다.
 
-예를 들어 `Luma app opening and checkout`대상 작성[&#x200B; 사용 사례에서 만든 &#x200B;](../audience/about-audiences.md) 대상을 진입점으로 사용할 수 있습니다. 모든 적격 프로필은 조건, 타이머, 이벤트 및 작업을 사용하여 개별화된 경로를 통해 여정 및 진행률을 입력합니다.
+예를 들어 [대상 작성](../audience/about-audiences.md) 사용 사례에서 만든 `Luma app opening and checkout` 대상을 진입점으로 사용할 수 있습니다. 모든 적격 프로필은 조건, 타이머, 이벤트 및 작업을 사용하여 개별화된 경로를 통해 여정 및 진행률을 입력합니다.
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
 
@@ -78,11 +78,11 @@ ht-degree: 9%
 
 1. 활동에 **[!UICONTROL Label]**&#x200B;을(를) 추가합니다(선택 사항). 선택적 레이블은 보고 및 테스트 모드 로그에서 활동을 식별하는 데 도움이 됩니다.
 
-1. **[!UICONTROL 대상]** 필드에서 여정을 입력할 [!DNL Adobe Experience Platform] 대상을 선택한 다음 **[!UICONTROL 저장]**&#x200B;을 클릭합니다. [!DNL Adobe Experience Platform]세그먼트 정의[를 사용하여 생성된 &#x200B;](../audience/creating-a-segment-definition.md) 대상을 선택할 수 있습니다.
+1. **[!UICONTROL 대상]** 필드에서 여정을 입력할 [!DNL Adobe Experience Platform] 대상을 선택한 다음 **[!UICONTROL 저장]**&#x200B;을 클릭합니다. [세그먼트 정의](../audience/creating-a-segment-definition.md)를 사용하여 생성된 [!DNL Adobe Experience Platform] 대상을 선택할 수 있습니다.
 
    >[!NOTE]
    >
-   >또한 [!DNL Adobe Experience Platform]대상자 구성[을 사용하여 만든 &#x200B;](../audience/get-started-audience-orchestration.md)대상자를 타깃팅할 수 있습니다.
+   >또한 [대상자 구성](../audience/get-started-audience-orchestration.md)을 사용하여 만든 [!DNL Adobe Experience Platform]대상자를 타깃팅할 수 있습니다.
    >[CSV 파일에서 업로드한 대상](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko#import-audience){target="_blank"}을 타깃팅할 수도 있습니다.
    >[Journey Optimizer에서 대상자를 생성하고 타깃팅하는 방법에 대해 자세히 알아보세요](../audience/about-audiences.md).
 
@@ -186,7 +186,7 @@ ht-degree: 9%
 >
 >**여정 상태 및 91일 전역 시간 제한:**
 >
->* 여정 실행 후 91일(**여정 글로벌 시간 초과**) 후에 **일회성** 대상자 읽기 여정이 [완료됨](journey-properties.md#global_timeout) 상태로 이동합니다.
+>* 여정 실행 후 91일([여정 글로벌 시간 초과](journey-properties.md#global_timeout)) 후에 **일회성** 대상자 읽기 여정이 **완료됨** 상태로 이동합니다.
 >* **반복** 종료 날짜가 없는 대상 여정 읽기 **여정이 게시되는 동안 라이브로 유지**&#x200B;합니다. 이 사용자는 **마지막 항목**&#x200B;을 실행한 후 91일 후에 **완료됨** 상태로 이동합니다.
 >* 91일 시간 제한은 여정의 라이브 상태가 아니라 여정을 통해 흐르는 개별 **프로필**&#x200B;에 적용됩니다(프로필이 활성 상태로 유지될 수 있는 최대 시간).
 >* 91일 **보고 기간**&#x200B;은(는) 별도의 개념입니다. UI는 대략 지난 91일 동안의 성능 데이터를 표시합니다. 이전 데이터는 UI에서 액세스할 수 없지만 여정은 계속 실행됩니다. [자세히 알아보기](journey-properties.md#global_timeout)
@@ -207,7 +207,7 @@ ht-degree: 9%
 
 되풀이하는 **대상자 읽기**&#x200B;를 사용하는 여정이 처음 실행되면 대상자의 모든 프로필이 여정에 들어갑니다. 이 옵션을 사용하면 여정의 마지막 실행 이후 대상에 들어온 개인만 첫 번째 발생 이후에 타깃팅할 수 있습니다.
 
-이 옵션을 사용하면 시스템은 **의 세분화 서비스에서 마지막으로 수행한 대상 평가 작업의 시간으로부터** 24시간[!DNL Adobe Experience Platform]을(를) 되돌아봅니다.
+이 옵션을 사용하면 시스템은 [!DNL Adobe Experience Platform]의 세분화 서비스에서 마지막으로 수행한 대상 평가 작업의 시간으로부터 **24시간**&#x200B;을(를) 되돌아봅니다.
 
 세그멘테이션이 완료되면 Journey Optimizer에서 새 프로필을 감지하고 처리할 수 있는 프로필 스냅샷 내보내기 작업이 시작됩니다. 이 두 작업 사이에 여정이 예약되는 경우 증분 읽기는 여정의 마지막 실행 이후 대상자의 멤버가 된 프로필을 선택하지 않습니다.
 
@@ -279,7 +279,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 ## 여정의 대상 타기팅 {#audience-targeting-in-journeys}
 
-대상 기반 여정은 항상 **대상에 속하는 개인을 검색하기 위해**&#x200B;대상 읽기[!DNL Adobe Experience Platform] 활동으로 시작합니다. 이러한 프로필은 한 번 또는 되풀이하는 일정에서 읽혀집니다.
+대상 기반 여정은 항상 [!DNL Adobe Experience Platform] 대상에 속하는 개인을 검색하기 위해 **대상 읽기** 활동으로 시작합니다. 이러한 프로필은 한 번 또는 되풀이하는 일정에서 읽혀집니다.
 
 사용자가 여정을 입력한 후 **조건** 활동을 사용하여 이를 오케스트레이션합니다. 특성 또는 동작을 기준으로 세그먼트화하거나, 모집단의 일부를 제외하거나, 분기를 다시 병합(결합)합니다. 아래 섹션에서는 각 패턴에 대해 설명합니다.
 
@@ -348,7 +348,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 * **일괄 처리 세분화 작업 완료**: 일괄 처리 대상의 경우 여정 실행 전에 일일 일괄 처리 세분화 작업이 완료되었고 스냅숏이 업데이트되었는지 확인하십시오. 일괄 처리 대상자는 세분화 작업 완료 후 약 **2시간**&#x200B;에 사용할 준비가 됩니다. [대상 평가 방법](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ko#evaluate-segments){target="_blank"}에 대해 자세히 알아보세요.
 
-* **데이터 수집 타이밍**: 여정 실행 전에 프로필 데이터 수집이 완전히 완료되었는지 확인하십시오. 프로필이 여정 시작 직전에 수집된 경우 아직 대상자에 반영되지 않을 수 있습니다. [&#x200B; [!DNL Adobe Experience Platform]의 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ko){target="_blank"}데이터 수집에 대해 자세히 알아보세요.
+* **데이터 수집 타이밍**: 여정 실행 전에 프로필 데이터 수집이 완전히 완료되었는지 확인하십시오. 프로필이 여정 시작 직전에 수집된 경우 아직 대상자에 반영되지 않을 수 있습니다.  [!DNL Adobe Experience Platform][&#128279;](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ko){target="_blank"}의 데이터 수집에 대해 자세히 알아보세요.
 
 * **일괄 처리 대상 평가 후 트리거 옵션을 사용합니다**: 일괄 처리 대상을 사용하는 매일 예약된 여정의 경우 **[!UICONTROL 일괄 처리 대상 평가 후 트리거]** 옵션을 사용하도록 설정하는 것이 좋습니다. 이렇게 하면 여정이 실행되기 전에 새 대상 데이터(최대 6시간)를 대기합니다. [예약에 대해 자세히 알아보기](#schedule)
 
@@ -360,7 +360,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 * **세그먼테이션 작업 상태 확인**: [!DNL Adobe Experience Platform] [모니터링 대시보드](https://experienceleague.adobe.com/docs/experience-platform/dataflows/ui/monitor-segments.html?lang=ko){target="_blank"}에서 배치 세그먼테이션 작업 완료 시간을 모니터링합니다. 대상 데이터가 준비되면 이를 사용하여 확인합니다.
 
-* **병합 정책 확인**: 대상자에 대해 구성된 병합 정책이 다른 소스의 프로필 데이터를 조합하는 데 필요한 동작과 일치하는지 확인하십시오. [&#x200B; [!DNL Adobe Experience Platform]의 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=ko){target="_blank"}병합 정책에 대해 자세히 알아보세요.
+* **병합 정책 확인**: 대상자에 대해 구성된 병합 정책이 다른 소스의 프로필 데이터를 조합하는 데 필요한 동작과 일치하는지 확인하십시오.  [!DNL Adobe Experience Platform][&#128279;](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=ko){target="_blank"}의 병합 정책에 대해 자세히 알아보세요.
 
 * **세그먼트 정의 검토**: 세그먼트 정의가 올바르게 구성되었는지 확인하고 모든 예상 자격 조건을 포함하십시오. [대상자 빌드](../audience/creating-a-segment-definition.md)에 대해 자세히 알아보세요. 다음 사항에 특별히 주의하십시오.
    * 이벤트 타임스탬프를 기반으로 프로필을 제외할 수 있는 시간 기반 조건
@@ -373,7 +373,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 * **세그먼테이션 후 여정 예약**: 배치 대상의 경우 일반적인 배치 세그먼테이션 작업 완료 시간 후 최소 2~3시간 후에 여정 실행을 예약하십시오. [여정 예약에 대해 자세히 알아보기](#schedule)
 
-* **실시간 사용 사례에 스트리밍 대상 사용**: 즉시 프로필 자격 및 여정 입력이 필요한 경우 일괄 대상이 있는 [대상 읽기](audience-qualification-events.md) 대신 스트리밍 대상이 있는 **대상 자격** 활동을 사용하십시오.
+* **실시간 사용 사례에 스트리밍 대상 사용**: 즉시 프로필 자격 및 여정 입력이 필요한 경우 일괄 대상이 있는 **대상 읽기** 대신 스트리밍 대상이 있는 [대상 자격](audience-qualification-events.md) 활동을 사용하십시오.
 
 * **먼저 소규모 대상을 사용하여 테스트**: 대규모 여정을 시작하기 전에 더 작은 하위 집합으로 테스트하여 예상과 일치하는 항목을 확인해야 합니다. [여정 테스트 방법 알아보기](testing-the-journey.md)
 

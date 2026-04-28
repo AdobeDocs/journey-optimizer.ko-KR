@@ -11,8 +11,8 @@ exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
-source-wordcount: '1470'
-ht-degree: 86%
+source-wordcount: '1615'
+ht-degree: 82%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 86%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_canvas"
 >title="여정 만들기"
->abstract="드래그하여 놓기 캔버스를 사용하여 컨텍스트 기반 데이터와 대상 타겟팅을 활용하여 여러 채널 간에 메시지와 작업을 조율할 수 있습니다."
+>abstract="드래그 앤 드롭 캔버스를 사용하여 여러 채널에서 메시지와 액션을 오케스트레이션하고, 상황별 데이터와 대상자 타기팅을 활용하여 최대의 효과를 얻을 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs" text="첫 여정 만들기"
 
 
@@ -42,7 +42,7 @@ ht-degree: 86%
 
 ![팔레트, 캔버스, 속성 창이 있는 여정 디자이너 인터페이스](assets/journey38.png)
 
-➡️ **빌드를 시작할 준비가 되셨나요?** 5분이면 [첫 번째 여정 만들기](journey-gs.md)를 완료할 수 있습니다.
+➡️ **빌드를 시작할 준비가 되셨습니까?** 5분 후에 [첫 번째 여정 만들기](journey-gs.md).
 
 ### 여정과 캠페인: 각각 사용해야 하는 경우 {#journeys-vs-campaigns-intro}
 
@@ -157,10 +157,10 @@ ht-degree: 86%
 
 디자이너를 열기 전에 목표를 명확히 설정해야 합니다.
 
-* **목표가 무엇인가요?**(예: 신규 고객 온보딩, 비활성 사용자 재참여)
-* **대상자는 누구인가요?**(특정 세그먼트, 이벤트 기반 개인)
-* **어떤 여정 유형이 적합한가요?**(위의 [여정 유형](#journey-types) 참조)
-* **어떤 채널을 사용하나요?**(이메일, 푸시, SMS 등)
+* **목표가 무엇입니까?** (예: 신규 고객 온보딩, 비활성 사용자 재참여)
+* **대상이 누구입니까?** (특정 세그먼트, 이벤트 기반 개인)
+* **어떤 여정 유형에 적합합니까?** (위의 [여정 유형](#journey-types)을 참조하십시오.)
+* **어떤 채널을 사용하시겠습니까?** (이메일, 푸시, SMS 등)
 
 ### &#x200B;2. 캔버스에서 디자인 {#design}
 
@@ -174,7 +174,7 @@ ht-degree: 86%
 
 [여정 디자이너 사용 방법 알아보기 →](using-the-journey-designer.md)
 
-### &#x200B;3. 라이브 전환 전 테스트 {#test}
+### &#x200B;3. 시작하기 전에 테스트 {#test}
 
 항상 여정을 테스트하여 고객이 문제를 경험하기 전에 문제를 파악해야 합니다.
 
@@ -195,7 +195,7 @@ ht-degree: 86%
 
 [여정 게시 →](publish-journey.md)
 
-### &#x200B;5. 성과 모니터링 {#monitor}
+### &#x200B;5. 성능 모니터링 {#monitor}
 
 실제 환경에서 여정의 성과를 추적합니다.
 
@@ -216,7 +216,7 @@ ht-degree: 86%
 
 [여정 최적화 →](optimize.md) | [전송 시간 최적화 →](send-time-optimization.md)
 
-➡️ **시작할 준비가 되셨나요?** [지금 첫 여정 만들어 보기 →](journey-gs.md)
+➡️ **시작할 준비가 되셨습니까?** [지금 첫 번째 여정 만들기 →](journey-gs.md)
 
 ## 실제 사용 사례 {#use-cases}
 
@@ -362,7 +362,7 @@ AI를 사용하여 각 고객이 참여할 가능성이 가장 높은 시점에 
 
 >[!VIDEO](https://video.tv.adobe.com/v/3430355?captions=kor&quality=12)
 
-➡️ **더 많은 비디오를 시청하고 싶으신가요?** [여정 비디오 튜토리얼 살펴보기](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
+➡️ **더 많은 비디오를 원하십니까?** [여정 비디오 튜토리얼 살펴보기](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 
 ## 일반적인 질문 {#common-questions}
 
@@ -398,7 +398,7 @@ Use the [decision guide](#decision-guide) or [comparison table](#journey-types-c
 
 +++
 
-➡️ **질문이 더 있으신가요?** 세부 답변 40여 개가 있는 [전체 여정 FAQ 보기](journey-faq.md)
+➡️ **추가 질문** 40개 이상의 상세 답변이 포함된 [전체 여정 FAQ 보기](journey-faq.md)
 
 ## 도움이 필요하십니까? {#help}
 
@@ -423,4 +423,4 @@ Use the [decision guide](#decision-guide) or [comparison table](#journey-types-c
 * **[실행 문제 해결](troubleshooting-execution.md)** - 여정 실행 문제 디버그
 * **[인바운드 활동 문제 해결](troubleshooting-inbound.md)** - 진입 및 선별 문제 해결
 
-**첫 번째 여정을 작성할 준비가 되셨나요?** [지금 시작하기 →](journey-gs.md)
+**첫 번째 여정을 만들 준비가 되셨습니까?** [지금 시작 →](journey-gs.md)

@@ -9,7 +9,7 @@ keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
-source-wordcount: '1708'
+source-wordcount: '1820'
 ht-degree: 21%
 
 ---
@@ -177,7 +177,7 @@ SSH 키 인증과 함께 SFTP를 사용하는 경우 Base64로 인코딩된 Open
 1. PuTTYgen에서 키 쌍을 생성합니다. 2048비트 이상의 RSA를 사용하는 것이 좋습니다.
 1. 메뉴에서 **전환** > **OpenSSH 키 내보내기**&#x200B;를 선택합니다.
 1. 메시지가 표시되면 개인 키 **암호 보호 없이**&#x200B;을(를) 저장하도록 선택합니다.
-1. 저장 대화 상자에서 **모든 파일(*)을 선택합니다.키를 .ppk 파일이 아닌 일반 텍스트로 저장하려면*)**&#x200B;을(를) 파일 형식으로 사용하십시오.
+1. 저장 대화 상자에서 **모든 파일(*.*)**&#x200B;을 선택합니다. 키를 .ppk 파일이 아닌 일반 텍스트로 저장하는 데 사용하는 파일 형식입니다.
 1. 텍스트 편집기로 저장된 파일을 열고 형식을 확인합니다.
    * 파일은 `-----BEGIN RSA PRIVATE KEY-----`(앞/뒤 다섯 개의 대시)로 시작해야 합니다.
    * 암호화를 나타내는 문구가 없어야 합니다.

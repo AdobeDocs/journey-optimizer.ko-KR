@@ -9,7 +9,7 @@ exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
 version: Journey Orchestration
 source-git-commit: 7a06b03bda6d07f00f4453397b035073ad1354a4
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '943'
 ht-degree: 16%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_rules"
 >title="규칙 만들기"
->abstract="다음 두 가지 유형의 규칙을 만들 수 있습니다. 어떤 항목을 어떤 대상자에게 제시해야 하는지 제어하는 의사 결정 항목이나 선택 전략에 사용할 수 있는 **의사 결정 규칙**, 또는 특정 대상자 세그먼트가 개인화된 콘텐츠를 받을 자격이 있는지 결정하거나 특정 여정 경로에 들어갈 수 있는 **타기팅 규칙**.<br/><br/>의사 결정 규칙을 만들 때 **[!UICONTROL 데이터 세트 조회 활성화]**&#x200B;를 선택하여 Adobe Experience Platform 데이터를 사용할 수 있습니다. 이를 통해 동적 외부 속성을 기반으로 적격성 기준을 정의하여 관련이 있는 경우에만 결정 항목이 표시되도록 할 수 있습니다."
+>abstract="어떤 항목을 어떤 대상자에게 제시해야 하는지 제어하는 의사 결정 항목이나 선택 전략에 사용할 수 있는 **의사 결정 규칙** 또는 특정 대상자 세그먼트가 개인화된 콘텐츠를 받을 자격이 있는지 결정하거나 특정 여정 경로에 들어갈 수 있는 **타기팅 규칙**&#x200B;의 두 가지 유형 규칙을 만들 수 있습니다.<br/><br/>의사 결정 규칙을 만들 때 **[!UICONTROL 데이터 세트 조회 활성화]**&#x200B;를 선택하여 Adobe Experience Platform 데이터를 사용할 수 있습니다. 이를 통해 동적 외부 속성을 기반으로 적격성 기준을 정의하여 관련이 있는 경우에만 결정 항목이 표시되도록 할 수 있습니다."
 
 ## 규칙 기본 정보 {#about}
 
@@ -90,7 +90,7 @@ ht-degree: 16%
    ![](assets/rules-select-entity.png){width=90%}
 
    * **[!UICONTROL 결정 항목]** - 이 규칙은 의사 결정 컨텍스트의 [결정 항목](#decision-rules)에 적용할 수 있습니다.
-   * **[!UICONTROL 타깃팅]** - [여정 활동 최적화](#targeting-rules)에서 캠페인 또는 여정의 [콘텐츠 최적화](../building-journeys/path-targeting.md)의 일부로 [타깃팅](../building-journeys/path-targeting.md) 규칙을 작성할 때 규칙을 사용할 수 있습니다.
+   * **[!UICONTROL 타깃팅]** - [여정 활동 최적화](../building-journeys/path-targeting.md)에서 캠페인 또는 여정의 [콘텐츠 최적화](../building-journeys/path-targeting.md)의 일부로 [타깃팅](#targeting-rules) 규칙을 작성할 때 규칙을 사용할 수 있습니다.
 
 1. **[!UICONTROL 의사 결정 항목]** 규칙을 만드는 경우 **[!UICONTROL 데이터 집합 조회 사용]**&#x200B;을 선택하여 Adobe Experience Platform의 데이터를 사용하여 외부 데이터로 의사 결정 논리를 보강할 수 있습니다. 이 기능은 제품 가용성 또는 실시간 가격과 같이 자주 변경되는 속성에 특히 유용합니다. [의사 결정을 위해 Adobe Experience Platform 데이터를 사용하는 방법 알아보기](../experience-decisioning/aep-data-exd.md)
 
