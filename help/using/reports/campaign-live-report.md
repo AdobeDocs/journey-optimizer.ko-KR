@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
-source-wordcount: '3543'
+source-wordcount: '3575'
 ht-degree: 26%
 
 ---
@@ -37,7 +37,7 @@ Campaign **[!UICONTROL 라이브 보고서]** 페이지가 다음 탭과 함께 
 * [다이렉트 메일](#direct-mail-tab)
 
 >[!AVAILABILITY]
->오케스트레이션된 캠페인은 SMS, 이메일 및 푸시 채널만 지원합니다. 다른 채널(인앱, 웹, DM 등)은 오케스트레이션된 캠페인에서 사용할 수 없으며 보고에 표시되지 않습니다.
+>오케스트레이션된 캠페인은 SMS, 이메일 및 푸시 채널만 지원합니다. 기타 채널(인앱, 웹, DM 등) 오케스트레이션된 캠페인에서는 사용할 수 없으며, 보고에 표시되지 않습니다.
 
 Campaign **[!UICONTROL 라이브 보고서]**&#x200B;는 캠페인의 성공 및 오류를 자세히 설명하는 다양한 위젯으로 나뉩니다. 필요한 경우 각 위젯의 크기를 조정하고 삭제할 수 있습니다. 자세한 내용은 이 [섹션](../reports/live-report.md#modify-dashboard)을 참조하세요.
 
@@ -470,7 +470,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 +++
 
-### SMS - 오류 원인 {#sms-error-reasons}
+### SMS - 오류 이유 {#sms-error-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_error_reasons"
@@ -556,7 +556,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 Campaign **[!UICONTROL 라이브 보고서]**&#x200B;에서 **[!UICONTROL DM]** 탭은 DM과 관련된 기본 정보를 자세히 설명합니다.
 
-### DM - 전송 통계 {#direct-mail-sending}
+### 다이렉트 메일 - 전송 통계 {#direct-mail-sending}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_sending_statistics"
@@ -579,7 +579,7 @@ Campaign **[!UICONTROL 라이브 보고서]**&#x200B;에서 **[!UICONTROL DM]** 
 
 +++
 
-### 다이렉트 메일 - 오류 원인 {#direct-mail-error-reasons}
+### 다이렉트 메일 - 오류 이유 {#direct-mail-error-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_error_reasons"
@@ -590,7 +590,7 @@ Campaign **[!UICONTROL 라이브 보고서]**&#x200B;에서 **[!UICONTROL DM]** 
 
 **[!UICONTROL DM - 오류 원인]** 그래프와 표는 DM 메시지를 보내는 동안 발생한 특정 오류를 식별하는 수단을 제공하여 지난 24시간 동안 발생한 모든 문제를 자세히 분석할 수 있도록 합니다.
 
-### DM - 제외된 이유 {#direct-mail-excluded-reasons}
+### 다이렉트 메일 - 제외된 이유 {#direct-mail-excluded-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_excluded_reasons"

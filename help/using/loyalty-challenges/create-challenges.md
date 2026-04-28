@@ -13,7 +13,7 @@ mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
 source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
 workflow-type: tm+mt
-source-wordcount: '1807'
+source-wordcount: '1828'
 ht-degree: 18%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 18%
 * [과제 및 작업 액세스 및 관리](access-loyalty-challenges.md)
 * **문제 만들기** ◀︎**현재 상태**
 * [작업 만들기](create-tasks.md)
-* [충성도 문제 API 참조](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}
+* [충성도 과제 API 참조](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}
 
 >[!ENDSHADEBOX]
 
@@ -84,7 +84,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_schedule"
 >title="챌린지 일정"
->abstract="일정을 사용하여 챌린지가 활성화되는 시점을 정의할 수 있습니다. 고객이 이를 사용할 수 있게 되는 시작 날짜 및 시간과 완료 수락을 중단하는 종료 날짜 및 시간을 설정합니다. 시간대를 선택하고 고객이 **[!UICONTROL 작업 완료 창 섹션]**&#x200B;에서 작업을 완료할 수 있는 시점을 선택합니다."
+>abstract="일정을 사용하여 챌린지가 활성화되는 시점을 정의할 수 있습니다. 고객이 이를 사용할 수 있게 되는 시작 일자 및 시간과 완료 수락을 중단하는 종료 일자 및 시간을 설정합니다. 시간대를 선택하고 고객이 **[!UICONTROL 작업 완료 창 섹션]**&#x200B;에서 작업을 완료할 수 있는 시점을 선택합니다."
 
 과제 실행 시기 구성:
 
@@ -213,7 +213,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_content"
 >title="콘텐츠"
->abstract="고객 디바이스에서의 챌린지를 설명하고 챌린지 정보, 진행 상황 및 보상을 나타내는 콘텐츠 카드를 구성합니다. 카드 이름을 입력하고, 게재에서 올바른 기술 설정(예: 헤더, 하위 도메인 또는 모바일 앱)을 사용하도록 채널 구성을 선택한 다음, 콘텐츠 편집을 선택하여 카드 환경을 디자인하고 개인화합니다."
+>abstract="고객 디바이스에서의 챌린지를 설명하고 챌린지 정보, 진행 상황 및 보상을 나타내는 콘텐츠 카드를 구성합니다. 카드 이름을 입력하고, 게재에서 올바른 기술 설정(예: 헤더, 하위 도메인 또는 모바일 앱)을 사용하도록 채널 구성을 선택한 다음 콘텐츠 편집을 선택하여 카드 환경을 디자인하고 개인화합니다."
 
 콘텐츠 카드는 고객 장치에서 도전을 시각적으로 나타내며 도전 정보, 진행 상황 및 보상을 표시합니다. [콘텐츠 카드에 대해 자세히 알아보기](../content-card/create-content-card.md).
 
@@ -221,7 +221,7 @@ ht-degree: 18%
 
 1. **[!UICONTROL 콘텐츠]** 탭으로 이동하여 콘텐츠 카드의 **[!UICONTROL 이름]**&#x200B;을(를) 입력하십시오.
 
-1. **[!UICONTROL 채널 구성]**&#x200B;을 선택하십시오. 채널 구성에는 헤더 매개 변수, 하위 도메인, 모바일 앱 등과 같이 메시지를 전송하기 위한 모든 기술 매개 변수가 포함되어 있습니다. [채널 구성에 대해 자세히 알아보세요](../configuration/channel-surfaces.md).
+1. **[!UICONTROL 채널 구성]**&#x200B;을 선택하십시오. 채널 구성에는 헤더 매개 변수, 하위 도메인, 모바일 앱 등 메시지를 보내는 데 필요한 모든 기술 매개 변수가 포함되어 있습니다. [채널 구성에 대해 자세히 알아보기](../configuration/channel-surfaces.md).
 
 1. **[!UICONTROL 콘텐츠 편집]**&#x200B;을 선택하여 콘텐츠 카드를 디자인합니다. [콘텐츠 카드를 디자인하고 개인화하는 방법을 알아보세요](../content-card/design-content-card.md).
 
@@ -233,7 +233,7 @@ ht-degree: 18%
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_messaging"
->title="메시징"
+>title="메시지"
 >abstract="메시징은 챌린지 라이프사이클 전반에 대한 참여를 돕습니다. 메시징 탭에서 각 단계에 대해 실행(챌린지 시작 시), 진행 중(미리 알림 및 진행 중 업데이트) 및 완료(성공 축하 및 보상 확정)와 같은 메시지를 추가합니다. 각 단계에 대해 메시지를 추가하고 채널을 선택하고 채널 구성을 선택한 다음 편집을 선택하여 메시지 콘텐츠를 디자인합니다."
 
 멀티채널 메시지를 설정하여 과제 라이프사이클의 주요 단계에서 고객을 참여시킵니다. 메시지는 선택 사항이지만 고객 참여를 극대화하기 위해 권장됩니다.

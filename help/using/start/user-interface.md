@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
-source-wordcount: '1495'
-ht-degree: 83%
+source-wordcount: '1525'
+ht-degree: 84%
 
 ---
 
@@ -342,7 +342,7 @@ AI 어시스턴트는 즉각적인 도움과 운영 인사이트를 제공합니
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_incrementalquery"
 >title="증분 쿼리"
->abstract="증분 쿼리는 오케스트레이션된 캠페인이 실행될 때마다 데이터베이스 쿼리를 실행하는 타깃팅 활동입니다. 새 레코드만 반환하고 이전 실행에 이미 포함된 모든 레코드는 제외하므로 동일한 사용자를 다시 타겟팅하거나 동일한 행을 다시 내보내는 일은 방지할 수 있습니다."
+>abstract="증분 쿼리는 오케스트레이션된 캠페인이 실행될 때마다 데이터베이스 쿼리를 실행하는 타깃팅 활동입니다. 새 레코드만 반환하고 이전 실행에 이미 포함된 모든 레코드는 제외하므로 동일한 사용자를 다시 타기팅하거나 동일한 행을 다시 내보내는 일은 방지할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_incrementalquery_processeddata"
