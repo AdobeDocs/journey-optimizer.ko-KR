@@ -47,7 +47,7 @@ ht-degree: 90%
    + 효율적으로 작업 {#work-efficiently}
       + [인터페이스 살펴보기](using/start/user-interface.md)
       + [검색, 필터링 및 정리](using/start/search-filter-categorize.md)
-      + [문제 해결 FAQ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [문제 해결 FAQ](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [접근성](using/start/accessibility.md)
       + {hide-from-toc}[여정 대 캠페인](using/start/journeys-vs-campaigns.md)
 + 여정 {#orchestrate-journeys}
