@@ -650,7 +650,7 @@ table>
 
 **사용자 인터페이스**
 
-* **Journey Optimizer UI의 상황별 도움말** - Journey Optimizer의 여러 페이지에 상황별 도움말 링크가 추가되었습니다. &amp;quot;i&amp;quot; 아이콘을 클릭할 수 있는 경우, 클릭하면 현재 기능에 대한 간단한 설명을 보고 관련 문서에 액세스합니다.
+* **Journey Optimizer UI의 상황별 도움말** - Journey Optimizer의 여러 페이지에 상황별 도움말 링크가 추가되었습니다. &quot;i&quot; 아이콘을 클릭할 수 있는 경우, 클릭하면 현재 기능에 대한 간단한 설명을 보고 관련 문서에 액세스합니다.
 
 **Adobe Campaign Standard 통합**
 
