@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 16eb46843d0369ae14f004a5e0f9e743cad3170b
+source-git-commit: aef18a41657866c5c612442c460b5c464553eaba
 workflow-type: tm+mt
 source-wordcount: '3276'
-ht-degree: 90%
+ht-degree: 91%
 
 ---
 
@@ -230,7 +230,7 @@ ht-degree: 90%
       + [방해 금지 시간 설정](using/conflict-prioritization/quiet-hours.md)
    + 여정 중재 {#journey-arbitration}
       + [공식을 사용하여 여정 등급 지정](using/conflict-prioritization/journey-ranking-formulas.md)
-      + {hide-from-toc}[AI 모델을 사용하여 여정 등급을 매기십시오](using/conflict-prioritization/journey-ai-models.md)
+      + [AI 모델을 사용하여 여정 등급 지정](using/conflict-prioritization/journey-ai-models.md)
 + 테스트 및 승인 {#test}
    + [테스트, 유효성 검사 및 승인](/help/rp_landing_pages/test-landing-page.md)
    + 콘텐츠 미리 보기 및 테스트 {#preview-test}
@@ -509,7 +509,7 @@ ht-degree: 90%
       + {hide-from-toc}[공급업체 통합 시작](using/integrations/vendor-integration-gs.md)
       + {hide-from-toc}[공급업체 구성 샘플](using/integrations/vendor-integration.md)
       + {hide-from-toc}[FAQ](using/integrations/vendor-integration-faq.md)
-      + {hide-from-toc}[MCP를 통해 AI 도구 작업](/help/using/integrations/ajo-mcp.md)
+      + [MCP를 통해 AI 도구 작업](/help/using/integrations/ajo-mcp.md)
    + 콘텐츠 생성을 위한 AI 어시스턴트 {#ai-assistant}
       + [콘텐츠 생성을 위한 AI 어시스턴트](/help/rp_landing_pages/ai-assistant-landing-page.md)
       + [AI 어시스턴트 시작하기](using/content-management/gs-generative.md)
@@ -915,7 +915,7 @@ ht-degree: 90%
       + [허용 목록](using/configuration/allow-list.md)
    + [시드 목록 사용](using/configuration/seed-lists.md)
    + [전자 메일 보관 지원](using/configuration/archiving-support.md)
-   + {hide-from-toc}[전자 메일에 참조 필드 추가](using/configuration/cc-email-field.md)
+   + [이메일에 참조 필드 추가](using/configuration/cc-email-field.md)
    + [실행 필드 관리](using/configuration/primary-email-addresses.md)
    + [피드백 웹후크 만들기](using/configuration/feedback-webhooks.md)
 + 여정 구성 {#configure-journeys}
