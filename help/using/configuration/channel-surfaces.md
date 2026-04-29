@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 채널, 표면, 기술, 매개변수, optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
+source-git-commit: 599669d2a1c398292930d60a75b4054e59f017c6
 workflow-type: tm+mt
-source-wordcount: '1876'
+source-wordcount: '1898'
 ht-degree: 12%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 12%
 >title="마케팅 액션"
 >abstract="마케팅 액션을 선택하여 해당 설정을 사용하는 메시지에 동의 정책을 연결합니다. 마케팅 액션과 연결된 모든 동의 정책은 고객의 선호도를 반영하는 데 사용됩니다."
 
-[!DNL Journey Optimizer]을(를) 사용하면 메시지에 필요한 모든 기술 매개 변수(이메일 유형, 보낸 사람 전자 메일 및 이름, 모바일 앱, SMS 구성 등)를 정의하는 채널 구성(즉, 메시지 사전 설정)을 설정할 수 있습니다.
+[!DNL Journey Optimizer]을(를) 사용하면 메시지에 필요한 모든 기술 매개 변수(이메일 유형, 보낸 사람 전자 메일 및 이름, 회신 및 오류 라우팅, 모바일 앱, SMS 구성 등)를 정의하는 채널 구성(즉, 메시지 사전 설정)을 설정할 수 있습니다.
 
 >[!CAUTION]
 >
@@ -292,4 +292,4 @@ ht-degree: 12%
 
 채널 구성의 정의와 Adobe Journey Optimizer에서 이를 사용하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3480458/?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433124/?learn=on)
