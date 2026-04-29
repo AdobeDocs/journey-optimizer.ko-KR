@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 26d493f16353fd51dbf1b542e62cf80444e05e11
+source-git-commit: 23923500c9244e895fbc2d5b5980c852e6711542
 workflow-type: tm+mt
-source-wordcount: '2019'
+source-wordcount: '2026'
 ht-degree: 20%
 
 ---
@@ -68,8 +68,9 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tbody>
 <tr>
 <td>
-<p>이제 Adobe Journey Optimizer은 MCP 호환 애플리케이션 내에서 직접 캠페인, 충성도, 채널 구성 및 샌드박스 작업을 표시하는 <strong>MCP(Model Context Protocol) 서버</strong>를 제공합니다. 이 통합을 통해 다양한 가상 사용자가 동일한 오케스트레이션 데이터를 기반으로 공동 작업할 수 있습니다. Adobe Journey Optimizer REST API에 대해 쿼리를 작성하거나 여러 UI 화면을 탐색하는 대신, 사용자의 의도를 대화식으로 설명하고 LLM이 적절한 MCP 도구를 호출하도록 할 수 있습니다. 이 기능은 현재 클라우드 웹 및 데스크탑에서 사용할 수 있습니다.</p>
+<p>이제 Adobe Journey Optimizer은 MCP 호환 애플리케이션 내에서 직접 캠페인, 채널 구성 및 샌드박스 작업을 표시하는 <strong>MCP(Model Context Protocol) 서버</strong>를 제공합니다. 이 통합을 통해 다양한 가상 사용자가 동일한 오케스트레이션 데이터를 기반으로 공동 작업할 수 있습니다. Adobe Journey Optimizer REST API에 대해 쿼리를 작성하거나 여러 UI 화면을 탐색하는 대신, 사용자의 의도를 대화식으로 설명하고 LLM이 적절한 MCP 도구를 호출하도록 할 수 있습니다. 이 기능은 현재 클라우드 웹 및 데스크탑에서 사용할 수 있습니다.</p>
 <p>이 기능은 공용 Beta의 모든 고객이 사용할 수 있습니다.</p>
+<p>자세한 내용은 <a href="../integrations/ajo-mcp.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
