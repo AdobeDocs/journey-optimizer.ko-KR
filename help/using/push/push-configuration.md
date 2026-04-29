@@ -7,9 +7,9 @@ feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: 9195a5cd0b8c76cc5a580fc89d2324786931bcfe
 workflow-type: tm+mt
-source-wordcount: '1989'
+source-wordcount: '2189'
 ht-degree: 6%
 
 ---
@@ -27,11 +27,11 @@ ht-degree: 6%
 
 ### 권한 설정 {#setup-permissions}
 
-모바일 애플리케이션을 만들기 전에 먼저 Adobe Experience Platform의 태그에 대한 올바른 사용자 권한이 있는지 확인하거나 사용자에게 할당해야 합니다. 자세한 내용은 [태그 설명서](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=ko){target="_blank"}를 참조하세요.
+모바일 애플리케이션을 만들기 전에 먼저 Adobe Experience Platform의 태그에 대한 올바른 사용자 권한이 있는지 확인하거나 사용자에게 할당해야 합니다. 자세한 내용은 [태그 설명서](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}를 참조하세요.
 
 >[!CAUTION]
 >
->푸시 구성은 전문가 사용자가 수행해야 합니다. 구현 모델 및 이 구현에 관련된 담당자에 따라 단일 제품 프로필에 전체 권한 집합을 할당하거나 앱 개발자와 **Adobe Journey Optimizer** 관리자 간에 권한을 공유해야 할 수 있습니다. [이 설명서](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=ko){target="_blank"}에서 **태그** 권한에 대해 자세히 알아보세요.
+>푸시 구성은 전문가 사용자가 수행해야 합니다. 구현 모델 및 이 구현에 관련된 담당자에 따라 단일 제품 프로필에 전체 권한 집합을 할당하거나 앱 개발자와 **Adobe Journey Optimizer** 관리자 간에 권한을 공유해야 할 수 있습니다. [이 설명서](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}에서 **태그** 권한에 대해 자세히 알아보세요.
 
 <!--
 ou need to your have access to perform following roles :
@@ -49,7 +49,7 @@ ou need to your have access to perform following roles :
 
    ![](assets/push_product_1.png)
 
-1. 기존 **[!UICONTROL 제품 프로필]**&#x200B;을 선택하거나 **[!UICONTROL 새 프로필]** 버튼을 사용하여 새 프로필을 만드십시오. [Admin Console 설명서](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html?lang=ko#ui){target="_blank"}에서 새 **[!UICONTROL 새 프로필]**&#x200B;을 만드는 방법을 알아보세요.
+1. 기존 **[!UICONTROL 제품 프로필]**&#x200B;을 선택하거나 **[!UICONTROL 새 프로필]** 버튼을 사용하여 새 프로필을 만드십시오. [Admin Console 설명서](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui){target="_blank"}에서 새 **[!UICONTROL 새 프로필]**&#x200B;을 만드는 방법을 알아보세요.
 
 1. **[!UICONTROL 권한]** 탭에서 **[!UICONTROL 속성 권한]**&#x200B;을 선택합니다.
 
@@ -95,7 +95,7 @@ ou need to your have access to perform following roles :
 
    >[!NOTE]
    >
-   >사용자가 이전에 Admin Console에서 만들어진 것이 아니라면 [사용자 추가 설명서](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users)를 참조하세요.
+   >사용자가 이전에 Admin Console에서 만들어진 것이 아니라면 [사용자 추가 설명서](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users)를 참조하세요.
 
    ![](assets/push_product_7.png)
 
@@ -210,7 +210,7 @@ To get the SDKs needed for push notification to work you will need the following
 * **[!UICONTROL Adobe Experience Platform Edge]**
 * **[!UICONTROL Adobe Experience Platform Assurance]**, optional but recommended to debug the mobile implementation.
 
-Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-mobile-android-apps-with-launch/configure-launch/launch-add-extensions.html?lang=ko).
+Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-mobile-android-apps-with-launch/configure-launch/launch-add-extensions.html).
 -->
 
 ## 2단계: 푸시할 채널 구성 만들기{#message-preset}
@@ -238,11 +238,28 @@ Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Ex
 
 1. **[!UICONTROL 플랫폼]**: Android 및/또는 iOS <!--and/or Web-->을(를) 선택하십시오.
 
-1. 위에 구성된 [푸시 자격 증명](#push-credentials-launch)과 동일한 **[!UICONTROL 앱 ID]**&#x200B;을(를) 선택하십시오.
+1. **[!UICONTROL 앱 ID]**&#x200B;에 대해 [푸시 자격 증명](#push-credentials-launch)과 일치하는 값을 선택하십시오. 원할 경우 개인화를 사용하여 한 여정 또는 캠페인에서 많은 앱을 가져옵니다. [자세히 알아보기](#app-id-personalization)
 
-1. 변경 내용을 저장합니다.
+1. 변경 내용을 **저장**&#x200B;합니다.
 
 이제 푸시 알림을 만들 때 구성을 선택할 수 있습니다.
+
+### 앱 ID 개인화(선택 사항) {#app-id-personalization}
+
+>[!CONTEXTUALHELP]
+>id="ajo_surface_dynamic_app_id"
+>title="앱 ID 개인화"
+>abstract="여러 모바일 앱을 관리하는 경우 프로필에 각 앱 ID를 저장하고 단일 푸시 채널 구성을 사용합니다. 앱 ID 필드 옆에 있는 개인화 편집기를 열어 프로필 속성을 선택합니다. 표현식은 각 수신자에 대해 전송 시 평가됩니다. 표현식이 반환할 수 있는 모든 앱 ID에 대해 푸시 자격 증명이 있는지 확인합니다."
+
+별도의 앱을 가진 많은 브랜드 또는 테넌트가 있는 경우 프로필에 각 **[!UICONTROL 앱 ID]**&#x200B;를 저장하고 단일 채널 구성을 사용하여 각 수신자에 대해 올바른 앱으로 푸시 알림을 전송할 수 있습니다.
+
+이렇게 하려면 **[!UICONTROL 앱 ID]** 필드 옆에 있는 Personalization 아이콘을 클릭하고 앱 ID에 매핑된 프로필 특성을 선택한 다음 저장합니다. 이 필드에서는 전송 시 각 받는 사람에 대해 평가된 해당 [Handlebars 식](../personalization/personalization-syntax.md)을 사용합니다.
+
+![](assets/push-config-11.png){width="70%"}
+
+>[!CAUTION]
+>
+>[!DNL Journey Optimizer]은(는) 식이 반환할 수 있는 모든 값에 대해 [푸시 자격 증명](#push-credentials-launch)이 있는지 확인하지 않습니다. 가능한 모든 앱 ID에 대한 푸시 자격 증명이 있는지 확인하고 대표 프로필로 테스트합니다. 수신자의 해결된 앱 ID에 일치하는 푸시 자격 증명이 없으면 예상대로 전달되지 않습니다.
 
 ## 3단계: 모바일 속성에서 Adobe Journey Optimizer 확장 구성 {#configure-journey-optimizer-extension}
 
@@ -324,13 +341,13 @@ To configure the `ProfileDataSource`, use the `ProfileDCInletURL` from [!DNL Ado
 You can use a test mobile app for this use case. For more on this, refer to this [page](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=CJM&title=Details+of+setting+the+mobile+test+app) (internal use only).
 -->
 
-이 여정이 작동하려면 XDM 스키마를 만들어야 합니다. 자세한 내용은 [XDM 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ko#schemas-and-data-ingestion){target="_blank"}를 참조하세요.
+이 여정이 작동하려면 XDM 스키마를 만들어야 합니다. 자세한 내용은 [XDM 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#schemas-and-data-ingestion){target="_blank"}를 참조하세요.
 
-1. 데이터 관리 메뉴 섹션에서 **[!UICONTROL 스키마]**&#x200B;를 클릭합니다.
+1. 데이터 관리 메뉴 섹션에서 **[!UICONTROL 스키마]**를 클릭합니다.
    ![](assets/test_push_1.png)
-1. **[!UICONTROL 스키마 만들기]**&#x200B;를 클릭하고 오른쪽 상단에서 **[!UICONTROL 경험 이벤트]**&#x200B;를 선택한 후 **다음**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 스키마 만들기]**&#x200B;를 클릭하고 오른쪽 상단에서 **[!UICONTROL 경험 이벤트]**&#x200B;를 선택한 후 **다음**을 클릭합니다.
    ![](assets/test_push_2.png)
-1. 스키마의 이름과 설명을 입력하고 **마침**&#x200B;을 클릭합니다.
+1. 스키마의 이름과 설명을 입력하고 **마침**을 클릭합니다.
    ![](assets/test_push_3.png)
 1. **필드 그룹** 섹션에서 왼쪽의 **추가**&#x200B;를 클릭하고 **[!UICONTROL 새 필드 그룹 만들기]**&#x200B;를 선택합니다.
 
