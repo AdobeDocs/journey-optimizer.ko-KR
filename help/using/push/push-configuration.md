@@ -7,7 +7,7 @@ feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 9195a5cd0b8c76cc5a580fc89d2324786931bcfe
+source-git-commit: 6143eaf5d973d3e457b89a69ed0ec63724270f5e
 workflow-type: tm+mt
 source-wordcount: '2189'
 ht-degree: 6%
@@ -21,7 +21,6 @@ ht-degree: 6%
 >[!AVAILABILITY]
 >
 >이제 새 **모바일 온보딩 빠른 시작 워크플로우**&#x200B;를 사용할 수 있습니다. 이 새로운 제품 기능을 사용하여 모바일 이벤트 데이터 수집 및 유효성 검사를 시작하고 모바일 푸시 알림을 전송할 모바일 SDK을 신속하게 구성할 수 있습니다. 이 기능은 공개 Beta 중이며 [데이터 수집] 홈 페이지를 통해 액세스할 수 있습니다. [자세히 알아보기](mobile-onboarding-wf.md)
->
 
 ## 시작하기 전 {#start-push}
 
@@ -428,4 +427,3 @@ You can use a test mobile app for this use case. For more on this, refer to this
 1. **[!UICONTROL 보내기]**&#x200B;를 클릭합니다.
 
 이벤트가 트리거되고 모바일 앱에 대한 푸시 알림을 받게 됩니다.
-

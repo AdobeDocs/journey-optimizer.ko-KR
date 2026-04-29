@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 23923500c9244e895fbc2d5b5980c852e6711542
+source-git-commit: 6143eaf5d973d3e457b89a69ed0ec63724270f5e
 workflow-type: tm+mt
-source-wordcount: '2026'
+source-wordcount: '2038'
 ht-degree: 20%
 
 ---
@@ -41,23 +41,59 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 ### 새로운 기능 {#april-26-features}
 
-<!--
 <table>
 <thead>
 <tr>
-<th><strong>Folders for journeys and campaigns</strong><br/></th>
+<th><strong>이메일 헤더의 발신자 매개 변수</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now organize your journeys and campaigns into <strong>folders</strong> to improve navigation and management in the interface.</p>
-<p>This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
+<p>이제 Journey Optimizer을 사용하여 전송 엔티티(발신자)가 작성 엔티티(보낸 사람)와 다른 위치에 이메일을 보낼 수 있습니다. 이를 지원하는 이메일 클라이언트는 일반적으로 "보낸 사람을 대신하여 보낸 사람"으로 렌더링하거나 "경유" 표시기를 표시합니다. 이 기능을 구성하려면 전자 메일 채널 설정의 선택적 <strong>보낸 사람 헤더</strong> 필드를 입력하십시오.</p>
+<p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
+<p><img src="assets/do-not-localize/sender-headers.gif"></p>
+<p>자세한 내용은 <a href="../email/header-parameters.md#sender-header">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
 </table>
--->
+
+<table>
+<thead>
+<tr>
+<th><strong>이메일 채널 설정의 CC 필드</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 이메일 채널 설정에서 선택적 CC(Carbon Copy) 필드를 구성할 수 있습니다. BCC와 달리 CC 수신자는 1차 수신자가 볼 수 있어 투명한 의사소통이 가능하고 소유권이 명확해진다.</p>
+<p>이를 통해 관계 관리자나 계정 소유자와 같은 각 메시지에 적합한 이해 당사자를 자동으로 복사하는 동시에 고객이 후속 조치를 위해 연락할 사람을 알 수 있습니다.</p>
+<p>CC 필드는 개인화를 지원하므로 단일 구성이 프로필 데이터를 기반으로 복사본을 동적으로 라우팅하여 추가 설정 없이 여러 사용 사례에서 확장 가능합니다.</p>
+<p><img src="../configuration/assets/email-config-cc.png"></p>
+<p>자세한 내용은 <a href="../configuration/cc-email-field.md">세부 설명서</a>를 참조하십시오.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>샌드박스 간 조정된 캠페인 복사</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 샌드박스 도구 는 한 샌드박스에서 다른 샌드박스로 오케스트레이션된 캠페인을 패키징 및 복사할 수 있도록 지원합니다. 따라서 각 환경에서 캠페인을 수동으로 재구축할 필요가 없습니다. 캠페인이 패키지화되면 병합 정책, 메시지와 같은 핵심 종속 오브젝트가 자동으로 포함되므로, 가져온 캠페인이 구성 및 유효성 검사를 수행할 준비가 된 상태로 도착합니다. 프로덕션 환경을 보호하기 위해 가져온 모든 캠페인은 대상 샌드박스에 초안 상태로 전환되므로, 캠페인이 실행되기 전에 팀에서 검토 및 승인 단계를 거치게 됩니다.</p>
+<p><img src="assets/do-not-localize/oc-sandbox.gif"></p>
+<p>자세한 내용은 <a href="../configuration/copy-objects-to-sandbox.md">세부 설명서</a>를 참조하십시오.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -220,6 +256,10 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 * **Prompt Assistant enhancement** - Prompt Assistant enhances AI content generation by analyzing user prompts in real time and identifying gaps in clarity, completeness, and context. It suggests improved rewrites and provides actionable guidance to enrich prompts with key details like audience, tone, and intent. The feature also asks targeted clarifying questions to help users refine their inputs before generation. This results in more accurate, high-quality outputs with fewer iterations. [Learn more](../content-management/ai-assistant-prompting-guide.md)
 -->
 
+#### 푸시
+
+* **채널 설정에서 앱 ID 개인화** - 이제 푸시 채널 구성 설정에서 **앱 ID** 필드를 개인화할 수 있으므로 각 수신자는 프로필 정보를 기반으로 해당 브랜드에서 푸시 알림을 받을 수 있습니다. [자세히 보기](../push/push-configuration.md#app-id-personalization)
+
 #### 결정
 
 * **의사 결정 항목에 조각 첨부** - 이제 Journey Optimizer에서 의사 결정 정책을 통해 코드 기반 경험 및 이메일 캠페인에서 활용할 수 있는 의사 결정 항목에 조각을 첨부할 수 있는 기능을 제공합니다. 이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성). [자세히 보기](../experience-decisioning/fragments-decision-policies.md)
@@ -286,28 +326,15 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
   사용 가능한 날짜: 2026년 4월 7일
 
+#### 오케스트레이션된 캠페인
+
+* **데이터 Modeler 개선 사항** - 이제 오케스트레이션된 관계형 스키마가 여러 필드에 걸친 복합 키를 지원합니다. DDL 파일에서 스키마를 로드하면 열거형이 발생하고 DDL 또는 Excel 파일에서 로드하면 자동으로 테이블 간에 복합 관계가 만들어집니다. 이제 엔티티 관계 보기에서 합성 링크는 파일을 업로드한 후 테이블 간의 전체 필드 연결 집합을 표시합니다. [자세히 보기](../orchestrated/gs-schemas.md)
+
 ## 곧 출시 예정 {#coming-soon}
 
 다음 기능 및 개선 사항은 며칠 내에 릴리스될 예정입니다. **이 정보는 변경될 수 있습니다**. 업데이트된 링크, 화면, 설명서는 업데이트가 프로덕션에서 제공될 때 공유 예정입니다.
 
 ### 새로운 기능 {#comming-soon-features}
-
-<table>
-<thead>
-<tr>
-<th><strong>샌드박스 간 조정된 캠페인 복사</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 샌드박스 도구 는 한 샌드박스에서 다른 샌드박스로 오케스트레이션된 캠페인을 패키징 및 복사할 수 있도록 지원합니다. 따라서 각 환경에서 캠페인을 수동으로 재구축할 필요가 없습니다. 캠페인이 패키지화되면 병합 정책, 메시지와 같은 핵심 종속 오브젝트가 자동으로 포함되므로, 가져온 캠페인이 구성 및 유효성 검사를 수행할 준비가 된 상태로 도착합니다. 프로덕션 환경을 보호하기 위해 가져온 모든 캠페인은 대상 샌드박스에 초안 상태로 전환되므로, 캠페인이 실행되기 전에 팀에서 검토 및 승인 단계를 거치게 됩니다.</p>
-<!--<p><img src="assets/do-not-localize/oc-sandbox.gif"></p>-->
-<!--<p>For more information, refer to the <a href="../integrations/express.md">detailed documentation</a>.</p>-->
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
@@ -362,43 +389,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <table>
 <thead>
 <tr>
-<th><strong>이메일 헤더의 발신자 매개 변수</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 Journey Optimizer을 사용하여 전송 엔티티(발신자)가 작성 엔티티(보낸 사람)와 다른 위치에 이메일을 보낼 수 있습니다. 이를 지원하는 이메일 클라이언트는 일반적으로 "보낸 사람을 대신하여 보낸 사람"으로 렌더링하거나 "경유" 표시기를 표시합니다. 이 기능을 구성하려면 전자 메일 채널 설정의 선택적 <strong>보낸 사람 헤더</strong> 필드를 입력하십시오.</p>
-<p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
-<!--<p><img src="assets/do-not-localize/forms.gif"></p>-->
-<p>자세한 내용은 <a href="../email/header-parameters.md">세부 설명서</a>를 참조하십시오.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>이메일 채널 설정의 CC 필드</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 이메일 채널 설정에서 선택적 CC(Carbon Copy) 필드를 구성할 수 있습니다. BCC와 달리 CC 수신자는 1차 수신자가 볼 수 있어 투명한 의사소통이 가능하고 소유권이 명확해진다.</p>
-<p>이를 통해 관계 관리자나 계정 소유자와 같은 각 메시지에 적합한 이해 당사자를 자동으로 복사하는 동시에 고객이 후속 조치를 위해 연락할 사람을 알 수 있습니다.</p>
-<p>CC 필드는 개인화를 지원하므로 단일 구성이 프로필 데이터를 기반으로 복사본을 동적으로 라우팅하여 추가 설정 없이 여러 사용 사례에서 확장 가능합니다.</p>
-<!--<p><img src="assets/do-not-localize/forms.gif"></p>-->
-<p>자세한 내용은 <a href="../configuration/cc-email-field.md">세부 설명서</a>를 참조하십시오.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>이메일 Designer의 딥링크</strong><br/></th>
 </tr>
 </thead>
@@ -415,16 +405,11 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 ### 개선 사항 {#comming-soon-improv}
 
-#### 푸시
-
-* **채널 설정에서 앱 ID 개인화** - 이제 푸시 채널 구성 설정에서 **앱 ID** 필드를 개인화할 수 있으므로 각 수신자는 프로필 정보를 기반으로 해당 브랜드에서 푸시 알림을 받을 수 있습니다. [자세히 보기](../push/push-configuration.md)
-
 #### 구성
 
 * **URL 매개 변수 암호화 키에 대한 특정 권한** - URL 매개 변수 암호화에 대한 키에 액세스하고 관리하기 위해 새 권한을 만들었습니다. 이제 **키 레지스트리 보기** 및 **키 레지스트리 관리** 권한이 부여되어야 합니다. <!--[Read more](../personalization/url-parameter-encryption.md#create-keys)-->
 
 #### 오케스트레이션된 캠페인
 
-* **데이터 Modeler 개선 사항** - 이제 오케스트레이션된 관계형 스키마가 여러 필드에 걸친 복합 키를 지원합니다. DDL 파일에서 스키마를 로드하면 열거형이 발생하고 DDL 또는 Excel 파일에서 로드하면 자동으로 테이블 간에 복합 관계가 만들어집니다. 이제 엔티티 관계 보기에서 합성 링크는 파일을 업로드한 후 테이블 간의 전체 필드 연결 집합을 표시합니다.
-
 * **오케스트레이션된 캠페인의 전역 변수** - 이제 오케스트레이션된 캠페인이 한 번 정의하여 워크플로우 내의 모든 활동에서 재사용할 수 있는 전역 변수를 지원하므로 구성을 단순화하고 동적 값, 표현식 및 콘텐츠 개인화의 일관성을 보장합니다.
+
