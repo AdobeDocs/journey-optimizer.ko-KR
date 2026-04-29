@@ -5,10 +5,10 @@ title: 구성 단계
 description: DDL을 업로드하여 Adobe Experience Platform 내에서 관계형 스키마를 만드는 방법을 알아봅니다
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+source-git-commit: ae8892498c23965056241b87d361e46567000ce4
 workflow-type: tm+mt
-source-wordcount: '1084'
-ht-degree: 46%
+source-wordcount: '1222'
+ht-degree: 42%
 
 ---
 
@@ -40,8 +40,9 @@ Excel 기반 스키마 파일 업로드가 지원됩니다. 스키마 정의를 
 +++Adobe Experience Platform에서 관계형 스키마를 생성할 때 지원되는 기능은 다음과 같습니다
 
 * **열거형**\
-  ENUM 필드는 DDL 기반 및 수동 스키마 생성 모두에서 지원되므로 고정된 허용된 값 집합으로 속성을 정의할 수 있습니다.
-다음은 한 예입니다.
+  ENUM 필드는 DDL 기반 및 수동 스키마 생성 모두에서 지원됩니다. DDL 파일에서 스키마를 로드할 때 파일에 정의된 열거형을 자동으로 가져와서 고정된 허용된 값 집합으로 속성을 정의할 수 있습니다.
+
+  다음은 한 예입니다.
 
   ```
   CREATE TABLE orders (
@@ -54,6 +55,12 @@ Excel 기반 스키마 파일 업로드가 지원됩니다. 스키마 정의를 
   PRIMARY KEY (order_id, product_id)
   );
   ```
+
+* **복합 키** 및 **복합 관계**
+
+  여러 필드에 걸친 복합 기본 키가 관계형 스키마 정의에서 지원되므로 여러 필드를 함께 사용하여 레코드를 고유하게 식별할 수 있습니다.
+
+  DDL 또는 Excel 파일에서 스키마를 로드할 경우 테이블 간의 복합 관계가 자동으로 생성됩니다. 엔티티 관계 보기에서 각 복합 링크는 연결된 테이블 간의 전체 필드 연결 집합을 표시합니다.
 
 * **데이터 거버넌스용 스키마 레이블**\
   액세스 제어 및 사용 제한과 같은 데이터 거버넌스 정책을 적용하기 위해 스키마 필드 수준에서 레이블 지정이 지원됩니다. 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR)를 참조하세요.
@@ -75,13 +82,13 @@ Excel 기반 스키마 파일 업로드가 지원됩니다. 스키마 정의를 
    테이블 구조에는 다음이 포함되어야 합니다.
    * 하나 이상의 기본 키.
    * `datetime` 또는 `number` 유형의 `lastmodified` 필드와 같은 버전 식별자.
-   * CDC(변경 데이터 캡처) 수집의 경우, 데이터 변경 유형(예: 삽입, 업데이트, 삭제)을 나타내고 증분 처리를 가능하게 하는 `_change_request_type` 유형의 이름이 `String`인 특수 열입니다.
+   * CDC(변경 데이터 캡처) 수집의 경우, 데이터 변경 유형(예: 삽입, 업데이트, 삭제)을 나타내고 증분 처리를 가능하게 하는 `String` 유형의 이름이 `_change_request_type`인 특수 열입니다.
    * DDL 파일은 200개 이상의 테이블을 정의하면 안 됩니다.
 
 
    >[!IMPORTANT]
    >
-   > 타깃팅에 사용되는 스키마에는 연결된 `String`ID 네임스페이스&#x200B;**가 있는** 유형의 ID 필드가 하나 이상 포함되어야 합니다.\
+   > 타깃팅에 사용되는 스키마에는 연결된 **ID 네임스페이스**&#x200B;가 있는 `String` 유형의 ID 필드가 하나 이상 포함되어야 합니다.\
    >이렇게 하면 Adobe Journey Optimizer의 타기팅 및 ID 해결 기능과의 호환성이 보장됩니다.
 
 1. DDL 파일을 드래그 앤 드롭한 후 **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
@@ -114,7 +121,7 @@ Excel 기반 스키마 파일 업로드가 지원됩니다. 스키마 정의를 
 
    >[!NOTE]
    >
-   >DDL 파일에 정의된 경우 복합 키가 지원됩니다.
+   >DDL 파일에 정의된 경우 여러 필드에 걸쳐 있는 복합 키가 지원됩니다. DDL 또는 Excel 파일에서 로드할 경우 테이블 간의 복합 관계가 자동으로 생성됩니다. 엔티티 관계 보기에서 합성 링크는 연결된 테이블 간의 전체 필드 연결 집합을 표시합니다.
 
    ![](assets/admin_schema_5.png)
 
