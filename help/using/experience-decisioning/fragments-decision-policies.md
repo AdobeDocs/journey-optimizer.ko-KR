@@ -6,11 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 70f64348-092b-4350-91dc-72c3c07300f9
-badge: label="제한 공개" type="Informative"
-source-git-commit: 0acb0a6aa6a00acd3ba99bc9ccd36e83b9fb7b3c
+source-git-commit: e33a18cdb330f9d5d1a88b771a648031176c20a8
 workflow-type: tm+mt
-source-wordcount: '759'
-ht-degree: 1%
+source-wordcount: '752'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +19,7 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->이 기능은 **코드 기반 경험** 및 **이메일** 채널에 대해 제한된 가용성으로 사용할 수 있습니다. 액세스 권한을 요청하려면 Adobe 담당자에게 문의하십시오.
+>이 기능은 **코드 기반 경험** 및 **이메일** 채널에서 사용할 수 있습니다.
 
 예를 들어 여러 모바일 디바이스 모델에 대해 서로 다른 콘텐츠를 표시하려고 한다고 가정해 보겠습니다. 다른 전화 모델에 속하는 지정된 조각을 결정 정책에서 사용 중인 결정 항목에 추가합니다. [방법을 알아보세요](items.md#attributes).
 
