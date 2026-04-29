@@ -9,10 +9,10 @@ feature: Channel Configuration, Email
 topic: Administration
 keywords: 이메일, 구성, 표면, 하위 도메인
 exl-id: 1fc9a4f6-6c34-4414-b400-aac6bda9ee25
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 9274277872e34f47e05be1acfe248a3b3303cb13
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 100%
+source-wordcount: '229'
+ht-degree: 84%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 
    ![](assets/surface-subdomain-ip-pool.png)
 
-   * **[!UICONTROL 보내는 사람 이메일]**&#x200B;과 **[!UICONTROL 오류 이메일]** 주소는 현재 선택한 위임된 하위 도메인을 사용해야 합니다. [자세히 알아보기](email-settings.md#email-header)
+   * **[!UICONTROL 보낸 사람 전자 메일 접두사]** 및 **[!UICONTROL 오류 전자 메일 접두사]**&#x200B;은(는) 현재 선택한 [위임된 하위 도메인](../configuration/about-subdomain-delegation.md)을(를) 사용합니다. 선택적으로 **[!UICONTROL 보낸 사람 이름]** 및 **[!UICONTROL 보낸 사람 전자 메일]**&#x200B;은(는) 다른 보낸 사람(하위 도메인 접미사에 연결되지 않은 전체 **보낸 사람** 주소)을 식별할 수 있습니다. [자세히 알아보기](header-parameters.md#sender-header)
 
    ![](assets/preset-header.png)
 

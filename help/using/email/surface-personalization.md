@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 설정, 이메일, 구성, 하위 도메인
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 599669d2a1c398292930d60a75b4054e59f017c6
 workflow-type: tm+mt
-source-wordcount: '1310'
+source-wordcount: '1336'
 ht-degree: 5%
 
 ---
@@ -92,14 +92,14 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->* **[!UICONTROL 헤더 매개 변수]** 필드는 모두 개인화할 수 있습니다. 단, **[!UICONTROL 오류 전자 메일 접두사]** 필드는 예외입니다.
+>* **[!UICONTROL 헤더 매개 변수]** 및 선택적 **[!UICONTROL 보낸 사람 헤더]** 필드는 개인화할 수 있습니다. 단, **[!UICONTROL 오류 전자 메일 접두사]** 필드는 예외입니다.
 >* [전자 메일 구성을 편집](../configuration/channel-surfaces.md#edit-channel-surface)할 때 헤더 매개 변수에 새 [프로필 특성](../personalization/personalization-build-expressions.md#sources)을 추가할 수 없습니다. 대신 새 채널 구성을 만들어야 합니다.
 
 예를 들어 여러 브랜드가 있는 경우 단일 구성을 만들고 이메일 헤더에 개인화된 값을 사용할 수 있습니다. 이를 통해 서로 다른 브랜드에서 보낸 모든 이메일이 올바른 **보낸 사람** 이름과 이메일을 사용하여 각 고객에게 발송되도록 할 수 있습니다. 마찬가지로 수신자가 이메일 클라이언트 소프트웨어에서 **회신** 버튼을 누르면 **회신 대상** 이름 및 이메일이 올바른 사용자에 대한 올바른 브랜드에 해당하게 됩니다.
 
 구성 헤더 매개 변수에 개인화된 변수를 사용하려면 아래 단계를 따르십시오.
 
-1. 일반적인 방법으로 헤더 매개 변수를 정의합니다. [방법 알아보기](email-settings.md#email-header)
+1. 일반적인 방법으로 헤더 매개 변수를 정의합니다. [방법 알아보기](header-parameters.md)
 
 1. 각 필드에 대해 편집 아이콘을 선택합니다.
 
@@ -125,7 +125,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->구성에 동적 하위 도메인을 하나 이상 추가한 경우 **전자 메일에서** 및 **오류 전자 메일** 접미사는 해결된 [동적 하위 도메인](#dynamic-subdomains)을 기반으로 채워집니다.
+>구성에 동적 하위 도메인을 하나 이상 추가한 경우 **전자 메일에서** 및 **오류 전자 메일** 접미사는 해결된 [동적 하위 도메인](#dynamic-subdomains)을 기반으로 채워집니다. 설정된 경우 **[!UICONTROL 보낸 사람 전자 메일]**&#x200B;은(는) 전체 주소이며 해당 하위 도메인 접미사에서 빌드되지 않습니다.
 
 ## 개인화된 URL 추적 사용 {#personalize-url-tracking}
 
