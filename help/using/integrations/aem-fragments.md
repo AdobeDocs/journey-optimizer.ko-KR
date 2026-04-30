@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
-source-git-commit: 1f5d5138674633b8b2da1d54b45d66a17ab30dcc
+source-git-commit: 5bbe7aa2e1acfc02fc8d6fdd571c9640d848dc76
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1479'
 ht-degree: 0%
 
 ---
@@ -156,7 +156,7 @@ Journey Optimizer에서 컨텐츠 조각을 사용하기 전에 Journey Optimize
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다. 이제 [이 섹션](../content-management/preview.md)에 자세히 설명된 대로 메시지 콘텐츠를 테스트하고 확인할 수 있습니다.
 
-   <!--Note that the Content Fragment you selected stays active for this message. When you open the Personalization Editor in another field or content block, you can keep working with the same fragment from the **[!UICONTROL AEM Content Fragment]** section and add more fields without reopening **[!UICONTROL Open AEM CF selector]**.-->
+   선택한 콘텐츠 조각은 이 메시지에 대해 활성 상태를 유지합니다. 다른 필드 또는 콘텐츠 블록에서 Personalization 편집기를 열면 **[!UICONTROL AEM 콘텐츠 조각]** 섹션에서 동일한 조각으로 계속 작업하고 **[!UICONTROL AEM CF 선택기 열기]**&#x200B;를 다시 열지 않고 필드를 더 추가할 수 있습니다.
 
 테스트를 수행하고 콘텐츠의 유효성을 검사하면 대상자에게 [캠페인을 전송](../campaigns/review-activate-campaign.md)하거나 [여정을 게시](../building-journeys/publish-journey.md)할 수 있습니다.
 
