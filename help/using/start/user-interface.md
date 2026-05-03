@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: 76ca2ff7ceccd333016291c9f6de269934ed544f
 workflow-type: tm+mt
-source-wordcount: '1525'
-ht-degree: 84%
+source-wordcount: '1378'
+ht-degree: 83%
 
 ---
 
@@ -338,28 +338,3 @@ AI 어시스턴트는 즉각적인 도움과 운영 인사이트를 제공합니
 >id="ajo_channels_feedback_webhook_settings_header_parameters"
 >title="헤더 매개변수"
 >abstract="이 섹션에서는 각 Webhook 요청과 함께 전송할 추가 사용자 정의 헤더를 구성할 수 있습니다."
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_incrementalquery"
->title="증분 쿼리"
->abstract="증분 쿼리는 오케스트레이션된 캠페인이 실행될 때마다 데이터베이스 쿼리를 실행하는 타깃팅 활동입니다. 새 레코드만 반환하고 이전 실행에 이미 포함된 모든 레코드는 제외하므로 동일한 사용자를 다시 타기팅하거나 동일한 행을 다시 내보내는 일은 방지할 수 있습니다."
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_incrementalquery_processeddata"
->title="처리된 데이터"
->abstract="처리된 데이터에서 이전 실행에서 레코드를 제외하는 방법을 선택합니다. 이전 실행의 제외 결과를 사용하면 활동은 이전 실행에서 반환된 레코드 목록을 유지합니다. 각 실행은 이러한 레코드를 제외하고 새 레코드만 반환합니다. 날짜 필드 사용 옵션을 사용하면 활동에서 개별 ID를 추적하는 대신 선택한 날짜 필드를 사용하며, 각 실행은 날짜가 마지막 실행 이후인 행만 반환합니다."
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_incrementalquery_history"
->title="기록(일)"
->abstract="이 설정은 해당 목록이 유지되는 기간을 제어합니다. 값이 0이면 무한한 보존을 의미합니다. 어떤 기록도 제거되지 않습니다."
-
->[!CONTEXTUALHELP]
->id="ajo_inbox_location"
->title="페이지 상의 위치"
->abstract="."
-
->[!CONTEXTUALHELP]
->id="ajo_inbox_app_id"
->title="앱 ID"
->abstract="."
