@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6143eaf5d973d3e457b89a69ed0ec63724270f5e
+source-git-commit: 8175f63d4e1055d285d2f3f12a498a9dbd3fa1ba
 workflow-type: tm+mt
-source-wordcount: '2038'
+source-wordcount: '2028'
 ht-degree: 20%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 20%
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 4월 초에 출시된 새로운 기능 및 개선 사항은 출시 일자와 함께 발표됩니다.
@@ -40,6 +40,24 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 **릴리스 날짜**: 2026년 4월 28~29일
 
 ### 새로운 기능 {#april-26-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>오케스트레이션된 캠페인의 증분 쿼리 활동</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong>오케스트레이션된 캠페인</strong>은(는) 이제 마지막 실행 이후 새로 적격한 프로필 또는 이벤트만 타겟팅하는 <strong>증분 쿼리</strong> 활동을 지원합니다.
+
+이렇게 하면 쿼리 워크로드를 줄이고 시간이 지남에 따라 중복 전송을 방지하면서 순 신규 대상자(새 등록, 새로 자격을 얻은 충성도 멤버 및 유사한 세그먼트)에 초점을 맞춘 반복 캠페인을 유지할 수 있습니다.</p>
+<p>자세한 내용은 <a href="../orchestrated/activities/incremental-query.md">세부 설명서</a>를 참조하십시오.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -290,15 +308,11 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **Adobe Experience Manager 콘텐츠 조각 변형 지원** - 로케일 및 다국어 시나리오에 대한 개선된 처리로 Adobe Experience Manager 콘텐츠 조각을 삽입할 때 **콘텐츠 조각 변형**(예: 언어 또는 채널 변형)을 선택할 수 있습니다. [자세히 보기](../integrations/aem-fragments.md#aem-variations)
 
-  이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
-
-  사용 가능한 날짜: 2026년 4월 3일
+  이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).
 
 * **작성 중 Adobe Experience Manager 콘텐츠 조각 컨텍스트** - 콘텐츠 조각 선택 항목은 텍스트 필드와 콘텐츠 블록 사이를 이동할 때 활성 상태로 유지되므로 매번 **AEM 콘텐츠 관리자 열기**&#x200B;를 다시 열지 않고 조각 필드를 더 추가할 수 있습니다. [자세히 보기](../integrations/aem-fragments.md)
 
-  이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
-
-  사용 가능한 날짜: 2026년 4월 1일
+  이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).
 
 #### 이메일 디자인
 
@@ -328,6 +342,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### 오케스트레이션된 캠페인
 
+* **오케스트레이션된 캠페인의 전역 변수** - 이제 오케스트레이션된 캠페인이 한 번 정의하여 워크플로우 내의 모든 활동에서 재사용할 수 있는 전역 변수를 지원하므로 구성을 단순화하고 동적 값, 표현식 및 콘텐츠 개인화의 일관성을 보장합니다. [자세히 보기](../orchestrated/global-variables.md)
 * **데이터 Modeler 개선 사항** - 이제 오케스트레이션된 관계형 스키마가 여러 필드에 걸친 복합 키를 지원합니다. DDL 파일에서 스키마를 로드하면 열거형이 발생하고 DDL 또는 Excel 파일에서 로드하면 자동으로 테이블 간에 복합 관계가 만들어집니다. 이제 엔티티 관계 보기에서 합성 링크는 파일을 업로드한 후 테이블 간의 전체 필드 연결 집합을 표시합니다. [자세히 보기](../orchestrated/gs-schemas.md)
 
 ## 곧 출시 예정 {#coming-soon}
@@ -372,23 +387,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <table>
 <thead>
 <tr>
-<th><strong>오케스트레이션된 캠페인의 증분 쿼리 활동</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p><strong>오케스트레이션된 캠페인</strong>은(는) 이제 마지막 실행 이후 새로 적격한 프로필 또는 이벤트만 타겟팅하는 <strong>증분 쿼리</strong> 활동을 지원합니다.
-
-이렇게 하면 쿼리 워크로드를 줄이고 시간이 지남에 따라 중복 전송을 방지하면서 순 신규 대상자(새 등록, 새로 자격을 얻은 충성도 멤버 및 유사한 세그먼트)에 초점을 맞춘 반복 캠페인을 유지할 수 있습니다.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>이메일 Designer의 딥링크</strong><br/></th>
 </tr>
 </thead>
@@ -408,8 +406,3 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 #### 구성
 
 * **URL 매개 변수 암호화 키에 대한 특정 권한** - URL 매개 변수 암호화에 대한 키에 액세스하고 관리하기 위해 새 권한을 만들었습니다. 이제 **키 레지스트리 보기** 및 **키 레지스트리 관리** 권한이 부여되어야 합니다. <!--[Read more](../personalization/url-parameter-encryption.md#create-keys)-->
-
-#### 오케스트레이션된 캠페인
-
-* **오케스트레이션된 캠페인의 전역 변수** - 이제 오케스트레이션된 캠페인이 한 번 정의하여 워크플로우 내의 모든 활동에서 재사용할 수 있는 전역 변수를 지원하므로 구성을 단순화하고 동적 값, 표현식 및 콘텐츠 개인화의 일관성을 보장합니다.
-

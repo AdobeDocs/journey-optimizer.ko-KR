@@ -5,10 +5,10 @@ title: 표현식 편집
 description: 표현식을 편집하는 방법을 알아봅니다.
 exl-id: bf0a905f-00af-4ed7-9e4f-bf8cb0af9ea9
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 8175f63d4e1055d285d2f3f12a498a9dbd3fa1ba
 workflow-type: tm+mt
-source-wordcount: '2034'
-ht-degree: 100%
+source-wordcount: '2071'
+ht-degree: 97%
 
 ---
 
@@ -33,9 +33,11 @@ ht-degree: 100%
 
 * 표현식이 정의된 **입력 필드(1)**&#x200B;입니다.
 * 표현식에서 사용할 수 있고 쿼리의 대상 차원에 해당하는 사용 가능한 **필드(2)** 목록입니다.
-* 범주별로 정렬된 **도우미 함수(3)**&#x200B;입니다.
+* 식에 사용할 수 있는 사용 가능한 **변수(3)** 목록입니다. 이 메뉴는 **값** 필드에 사용할 수 있습니다. [오케스트레이션된 캠페인에서 변수를 사용하는 방법을 알아봅니다](variables-orchestrated-campaigns.md)
 
-입력 필드에 직접 표현식을 입력하여 표현식을 편집합니다. 필드나 도우미 함수를 추가하려면 추가할 표현식에 커서를 놓고 + 버튼을 클릭합니다.
+* 범주별로 정렬된 **도우미 함수(4)**.
+
+입력 필드에 직접 표현식을 입력하여 표현식을 편집합니다. 필드, 변수 또는 도우미 함수를 추가하려면 추가하려는 표현식에 커서를 놓고 + 단추를 클릭합니다.
 
 ![표현식 편집기 인터페이스](assets/rule-builder-expression-editor.png){zoomable="yes"}
 
@@ -102,7 +104,7 @@ ht-degree: 100%
 </tbody>
 </table>
 
-### Date
+### 일자
 
 날짜 함수는 날짜 또는 시간 값을 조작합니다.
 

@@ -5,10 +5,10 @@ title: 오케스트레이션된 캠페인에서 테스트 활동 사용
 description: 테스트 활동을 사용하는 방법을 알아봅니다.
 exl-id: edd70849-0a21-45f2-91f3-4774a0cad9dd
 version: Campaign Orchestration
-source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
+source-git-commit: 8175f63d4e1055d285d2f3f12a498a9dbd3fa1ba
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 28%
+source-wordcount: '412'
+ht-degree: 26%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 28%
 
    * **레이블**: 캔버스에서 식별할 수 있는 전환 이름입니다.
 
-   * **조건 유형**: 기본적으로 모집단 수를 평가할 데이터입니다.
+   * **조건 유형**: 기본적으로 모집단 수를 평가할 데이터입니다.  변수(전역 변수 또는 트리거 신호에서 오는 변수)도 여기에 나열되며 변수 값을 기준으로 조건을 선택하도록 할 수 있습니다. [오케스트레이션된 캠페인에서 변수를 사용하는 방법을 알아봅니다](../variables-orchestrated-campaigns.md)
 
    * **연산자**: 적용할 비교(예: 같음, 큼, 작음) 연산자 목록은 조건 유형의 데이터 유형에 따라 다릅니다.
 
