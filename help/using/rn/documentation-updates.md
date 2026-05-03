@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 0980d5da677edb4cf21b7a86549ffc32d0b666a1
+source-git-commit: 3e2d661a6b06032b7d67f41324930c5a0f691221
 workflow-type: tm+mt
-source-wordcount: '7188'
+source-wordcount: '7252'
 ht-degree: 68%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 68%
 # 설명서 업데이트 {#latest-updates}
 
 이 페이지에는 월별 릴리스 기능 및 개선 사항과 관련된 업데이트 외에도 [!DNL Journey Optimizer] 설명서의 모든 최신 변경 사항이 나와 있습니다.
+
+## 2026년 5월 {#may-2026}
+
+* 새 **비즈니스 규칙 쿼리** 섹션이 쿼리 예제 페이지에 추가되어 특정 날짜 이후 특정 여정에 대한 여정 빈도 제한 제외로 인한 모든 프로필 취소를 확인하는 Data Lake 쿼리를 제공합니다. 상한에 도달했거나(`CAP_REACHED`) 우선 순위가 낮아(`LOWER_PRIORITY`) 프로필이 제외되었는지 여부를 확인하기 위해 쿼리에 `eventCodeReason` 필드가 포함되어 있습니다. [자세히 보기](../reports/query-examples.md#business-rules-queries)
 
 ## 2026년 4월 {#april-2026}
 

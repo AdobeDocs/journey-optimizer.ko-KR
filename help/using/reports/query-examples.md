@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 07f842fbb1c495c39f4e225c1d0089667c5d6f40
 workflow-type: tm+mt
-source-wordcount: '3542'
-ht-degree: 1%
+source-wordcount: '3739'
+ht-degree: 3%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 1%
 
 >[!TIP]
 >
->쿼리 서비스에 **새로운 기능?** [Adobe Experience Platform](https://experience.adobe.com/)을 열고 **쿼리 서비스 > 쿼리**&#x200B;로 이동하고 아래 예제를 붙여 넣고 자리 표시자 값(예: `<journeyVersionID>`, `<last x hours>`)을 바꾼 다음 **실행**&#x200B;을 선택합니다.
+>**쿼리 서비스를 처음 사용하십니까?** [Adobe Experience Platform](https://experience.adobe.com/)을 열고 **쿼리 서비스 > 쿼리**&#x200B;로 이동하고 아래 예제를 붙여 넣고 자리 표시자 값(예: `<journeyVersionID>`, `<last x hours>`)을 바꾼 다음 **실행**&#x200B;을 선택합니다.
 
 ## 적합한 쿼리 찾기 {#find-query}
 
@@ -41,6 +41,7 @@ ht-degree: 1%
 | 대상자 읽기 실행 또는 오류 조사 | [대상 쿼리 읽기](#read-segment-queries) |
 | 메시지 또는 작업 오류 문제 해결 | [메시지 및 작업 오류](#message-action-errors) |
 | 대상 자격 분석 취소 | [대상 자격 쿼리](#segment-qualification-queries) |
+| 비즈니스 규칙 폐기 조사 | [비즈니스 규칙 쿼리](#business-rules-queries) |
 | 외부 또는 비즈니스 이벤트 디버그 | [이벤트 기반 쿼리](#event-based-queries) |
 | 사용자 지정 작업 끝점 성능 모니터링 | [사용자 지정 작업 쿼리](#query-custom-action) |
 | 참여 가능한 프로필 및 라이선스 사용 추적 | [참여 가능한 프로필 쿼리](#engageable-profiles-queries) |
@@ -57,7 +58,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->문제를 해결하려면 여정을 쿼리할 때 journeyVersionName 대신 journeyVersionID를 사용하는 것이 좋습니다. 이 섹션[에서 여정 속성 특성 &#x200B;](../building-journeys/expression/journey-properties.md#journey-properties-fields)에 대해 자세히 알아보세요.
+>문제를 해결하려면 여정을 쿼리할 때 journeyVersionName 대신 journeyVersionID를 사용하는 것이 좋습니다. 이 섹션[&#128279;](../building-journeys/expression/journey-properties.md#journey-properties-fields)에서 여정 속성 특성 에 대해 자세히 알아보세요.
 
 +++
 
@@ -371,7 +372,7 @@ WHERE
 
 +++serviceEvent 세부 사항을 확인하는 방법 
 
-여정 단계 이벤트 데이터 세트에는 모든 stepEvents 및 serviceEvents가 포함되어 있습니다. stepEvents는 여정 프로필의 활동(이벤트, 작업 등)과 관련하여 보고에 사용됩니다. serviceEvents는 동일한 데이터 세트에 저장되며 디버깅 목적을 위한 추가 정보(예: 경험 이벤트가 삭제되는 이유)를 나타냅니다.
+여정 단계 이벤트 데이터 세트에는 모든 stepEvents 및 serviceEvents가 포함되어 있습니다. stepEvents는 활동(이벤트, 작업 등)과 관련하여 보고에 사용됩니다. 여정 내 프로필 개수 serviceEvents는 동일한 데이터 세트에 저장되며 디버깅 목적을 위한 추가 정보(예: 경험 이벤트가 삭제되는 이유)를 나타냅니다.
 
 다음은 serviceEvent의 세부 사항을 확인하는 쿼리의 예입니다.
 
@@ -558,11 +559,11 @@ _샘플 출력_
 
 | ENTRY_DATE | PROFILES_COUNT |
 |---|---|
-| 2024년 11월 25일 | 1,245 |
-| 2024년 11월 24일 | 1,189 |
-| 2024년 11월 23일 | 15,340 |
-| 2024년 11월 22일 | 1,205 |
-| 2024년 11월 21일 | 1,167 |
+| 2024-11-25 | 1,245 |
+| 2024-11-24 | 1,189 |
+| 2024-11-23 | 15,340 |
+| 2024-11-22 | 1,205 |
+| 2024-11-21 | 1,167 |
 
 쿼리는 정의된 기간 동안 매일 여정에 입력한 프로필 수를 반환합니다. 프로필이 여러 ID를 통해 입력된 경우 두 번 계산됩니다. 재입력이 활성화된 경우 다른 날에 여정을 다시 입력한 경우 다른 날에 프로필 수가 중복될 수 있습니다.
 
@@ -965,6 +966,60 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SER
 
 +++
 
+## 비즈니스 규칙 관련 쿼리 {#business-rules-queries}
+
++++특정 날짜 이후 특정 여정에서 여정 빈도 제한 제외로 인한 모든 폐기 확인
+
+이 쿼리는 특정 여정의 빈도 제한 규칙으로 인해 삭제된 모든 프로필에 대해 지정된 날짜부터 거부된 규칙 세트와 규칙 세부 정보를 반환합니다.
+
+_데이터 레이크 쿼리_
+
+```sql
+SELECT
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventType,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCodeReason,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.ID AS RULESET_ID,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.name AS RULESET_NAME,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.rejectedRules.ID AS RULE_ID,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.rejectedRules.name AS RULE_NAME
+FROM
+    journey_step_events
+WHERE
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard'
+AND
+    _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersionId>'
+AND
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.ID is not null
+AND
+    timestamp >= to_date('<YYYY-MM-DD>')
+```
+
+_예_
+
+```sql
+SELECT
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventType,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCodeReason,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.ID AS RULESET_ID,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.name AS RULESET_NAME,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.rejectedRules.ID AS RULE_ID,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.rejectedRules.name AS RULE_NAME
+FROM
+    journey_step_events
+WHERE
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard'
+AND
+    _experience.journeyOrchestration.stepEvents.journeyVersionID='3855072d-79c3-438a-a5c3-c77fd6843812'
+AND
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.ID is not null
+AND
+    timestamp >= to_date('2025-05-16')
+```
+
+이 쿼리는 규칙 집합이 일치하는 모든 폐기(null이 아닌 `rejectedRuleset.ID`)를 반환합니다. `eventCodeReason` 필드는 삭제의 하위 이유를 제공합니다. `LOWER_PRIORITY`(여정 중재로 인해 삭제된 프로필) 또는 `CAP_REACHED`(빈도 상한에 도달하여 삭제된 프로필). 결과는 프로필이 지정된 날짜 이후에 여정에서 제외되는 특정 빈도 제한 규칙 세트 및 규칙을 보여 줍니다.
+
++++
+
 ## 이벤트 기반 쿼리 {#event-based-queries}
 
 +++여정에 대한 비즈니스 이벤트가 수신되었는지 확인
@@ -1053,13 +1108,12 @@ _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard
 
 이러한 쿼리는 참여 가능한 프로필 수를 모니터링하고 분석하는 데 도움이 됩니다. 참여 가능 프로필은 지난 12개월 동안 여정 또는 캠페인을 통해 참여했던 고유한 프로필입니다. [참여 가능한 프로필 및 라이선스 사용](../audience/license-usage.md#what-is-engageable-profile)에 대해 자세히 알아보세요.
 
->[!IMPORTANT]
->
->**참여 가능한 프로필 쿼리 모범 사례:**
->* 집계되지 않는 각 필드가 `GROUP BY` 절에 포함되어 있는지 확인합니다.
->* 샌드박스에 존재하지 않는 데이터 세트를 참조하지 마십시오. Platform UI에서 데이터 세트 이름 확인
->* ID 네임스페이스 전체에서 중복을 방지하려면 고유 프로필을 계산할 때 `distinct`을(를) 사용합니다.
->* `LIMIT`을(를) 사용하는 경우 `ORDER BY` 절 뒤에 쿼리의 끝에 배치하십시오.
+**참여 가능한 프로필 쿼리 모범 사례:**
+
+* 집계되지 않는 각 필드가 `GROUP BY` 절에 포함되어 있는지 확인합니다.
+* 샌드박스에 존재하지 않는 데이터 세트를 참조하지 마십시오. Platform UI에서 데이터 세트 이름 확인
+* ID 네임스페이스 전체에서 중복을 방지하려면 고유 프로필을 계산할 때 `distinct`을(를) 사용합니다.
+* `LIMIT`을(를) 사용하는 경우 `ORDER BY` 절 뒤에 쿼리의 끝에 배치하십시오.
 
 +++특정 여정에 연결된 고유 프로필 수
 
@@ -1127,11 +1181,11 @@ _샘플 출력_
 
 | ENGAGEMENT_DATE | 참여 프로필 |
 |---|---|
-| 2024년 11월 25일 | 8,450 |
-| 2024년 11월 24일 | 7,820 |
-| 2024년 11월 23일 | 125,340 |
-| 2024년 11월 22일 | 9,230 |
-| 2024년 11월 21일 | 8,670 |
+| 2024-11-25 | 8,450 |
+| 2024-11-24 | 7,820 |
+| 2024-11-23 | 125,340 |
+| 2024-11-22 | 9,230 |
+| 2024-11-21 | 8,670 |
 
 이 출력을 통해 일일 트렌드를 모니터링하고 많은 수의 프로필이 참여 중인 시기를 식별할 수 있습니다. 이 예제에서 11월 23일은 일반적인 일일 참여(프로필 약 8,000개)와 비교하여 상당한 스파이크(프로필 125,340개)를 보여 줍니다. 이는 여정 또는 캠페인으로 인해 [참여 가능한 프로필](../audience/license-usage.md) 수가 증가한 이유를 파악하기 위한 조사를 보장합니다.
 
@@ -1162,9 +1216,9 @@ _샘플 출력_
 
 | 여정 버전 ID | 여정 이름 | ENGAGEMENT_DATE | 참여 프로필 |
 |---|---|---|---|
-| 67b14482-143e-4f83-9cf5-cfec0fca3d26 | 블랙 프라이데이 캠페인 | 2024년 11월 23일 | 125,340 |
-| a3c21b89-456d-4e21-b8f3-9a8e7c6d5432 | 제품 출시 여정 | 2024년 11월 22일 | 45,230 |
-| f9e8d7c6-b5a4-3210-9876-543210fedcba | 휴일 뉴스레터 | 2024년 11월 21일 | 32,150 |
+| 67b14482-143e-4f83-9cf5-cfec0fca3d26 | 블랙 프라이데이 캠페인 | 2024-11-23 | 125,340 |
+| a3c21b89-456d-4e21-b8f3-9a8e7c6d5432 | 제품 출시 여정 | 2024-11-22 | 45,230 |
+| f9e8d7c6-b5a4-3210-9876-543210fedcba | 휴일 뉴스레터 | 2024-11-21 | 32,150 |
 
 이 쿼리는 지난 7일 동안 하루에 1,000개 이상의 프로필을 사용한 여정을 필터링합니다. 큰 프로필 참여를 담당하는 특정 여정 및 날짜가 출력됩니다. 필요에 따라 `HAVING` 절 임계값을 조정합니다(예: 더 큰 임계값의 경우 `> 1000`을(를) `> 10000`(으)로 변경).
 
@@ -1213,11 +1267,11 @@ _샘플 출력_
 
 | ACTIVITY_DATE | 활성 여정 |
 |---|---|
-| 2024년 11월 25일 | 12 |
-| 2024년 11월 24일 | 15 |
-| 2024년 11월 23일 | 14 |
-| 2024년 11월 22일 | 11 |
-| 2024년 11월 21일 | 13 |
+| 2024-11-25 | 12 |
+| 2024-11-24 | 15 |
+| 2024-11-23 | 14 |
+| 2024-11-22 | 11 |
+| 2024-11-21 | 13 |
 
 쿼리는 정의된 기간 동안 매일 트리거된 고유한 여정 수를 반환합니다. 여러 날에 트리거되는 단일 여정은 하루에 한 번 계산됩니다.
 
