@@ -7,10 +7,10 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="제한 공개" type="Informative"
 exl-id: b172e0e1-b78e-4d96-ab88-254507b55f48
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 07f842fbb1c495c39f4e225c1d0089667c5d6f40
 workflow-type: tm+mt
-source-wordcount: '1089'
-ht-degree: 2%
+source-wordcount: '1131'
+ht-degree: 3%
 
 ---
 
@@ -186,7 +186,7 @@ ht-degree: 2%
 
 이 여정 세트를 사용하는 모든 규칙은 상한선이 적용될 때 선택한 수식으로 순위가 지정됩니다.
 
-규칙 집합 및 등급 수식의 수행 방식을 모니터링하려면 개요 보고서의 [여정 제한 및 충돌](../reports/channel-report-cja.md#rule-sets) 섹션을 참조하십시오.
+규칙 집합 및 등급 수식의 수행 방식을 모니터링하려면 개요 보고서의 [여정 제한 및 충돌](../reports/channel-report-cja.md#rule-sets) 섹션을 참조하십시오. 상한에 도달하여(`CAP_REACHED`) 또는 낮은 우선 순위(`LOWER_PRIORITY`)에 도달하여 프로필이 제외되었는지 여부를 확인하고 데이터 레이크 수준에서 discards를 조사하려면 [이 섹션](../reports/query-examples.md#business-rules-queries)에서 사용할 수 있는 쿼리를 사용하십시오.
 
 <!--
 ## Reporting {#reporting}

@@ -8,9 +8,9 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: c6e38d43a682c10bbb7ceb075a0f4b72d75c62a4
+source-git-commit: 07f842fbb1c495c39f4e225c1d0089667c5d6f40
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '781'
 ht-degree: 8%
 
 ---
@@ -70,7 +70,7 @@ journeyStepEvent의 경우 ID와 관련된 필드도 추가해야 합니다.
 | eventType | 문자열 | 오류 이벤트인지 정보 이벤트인지를 나타내는 이벤트 유형: 정보, 오류 |
 | eventCode | 문자열 | 해당 eventType의 이유를 나타내는 오류 코드 |
 
-이 섹션[에서 eventTypes &#x200B;](#discarded-events)에 대해 자세히 알아보세요.
+이 섹션](#discarded-events)에서 eventTypes [에 대해 자세히 알아보세요.
 
 ## stepEvent {#stepevents-field}
 
@@ -124,5 +124,6 @@ journeyStepEvent의 경우 ID와 관련된 필드도 추가해야 합니다.
 
 * [데이터 집합 쿼리 샘플 - 여정 단계 이벤트](../data/datasets-query-examples.md#journey-step-event).
 * [쿼리의 예 - 이벤트 기반 쿼리](query-examples.md#event-based-queries).
-* [기본 제공 스키마 사전](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko)
+* [쿼리의 예 - 비즈니스 규칙 쿼리](query-examples.md#business-rules-queries).
+* [내장 스키마 사전](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko)
 
