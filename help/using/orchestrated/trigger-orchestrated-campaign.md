@@ -2,32 +2,34 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 신호를 사용하여 오케스트레이션된 캠페인 트리거
-description: ' [!DNL Adobe Journey Optimizer]의 신호를 사용하여 오케스트레이션된 캠페인을 트리거하는 방법을 알아봅니다.'
+description: 신호를 사용하여 오케스트레이션된 캠페인을 트리거하고 캠페인에서처럼 사용할 수 있는 매개 변수를 전달하는 방법을 알아봅니다.
 feature: Campaigns
 topic: Content Management
 role: Developer
 level: Intermediate
 version: Campaign Orchestration
 exl-id: d1fd072d-b143-4752-822f-23f98684ba80
-source-git-commit: 6bae2fd7d52dd779d272a9a39ba4dfb7e852d4a8
+source-git-commit: 8175f63d4e1055d285d2f3f12a498a9dbd3fa1ba
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '941'
 ht-degree: 0%
 
 ---
 
 # 신호를 사용하여 오케스트레이션된 캠페인 트리거 {#trigger-signal}
 
-오케스트레이션된 캠페인을 일정에 따라 실행하는 대신 신호를 전송하여 트리거할 수 있습니다. 신호는 외부 시스템 또는 애플리케이션에서 API 호출을 통해 전송됩니다. 신호를 사용할 때 매개 변수를 전달할 수 있습니다. 그런 다음 오케스트레이션된 캠페인에서 타겟팅, 조건 또는 표현식에 사용할 수 있도록 실행 컨텍스트의 이벤트 변수로 사용할 수 있습니다.
+오케스트레이션된 캠페인을 일정에 따라 실행하는 대신 신호를 전송하여 트리거할 수 있습니다. 신호는 외부 시스템 또는 애플리케이션에서 API 호출을 통해 전송됩니다. 신호를 사용할 때 캠페인에서 변수로 사용할 수 있는 매개 변수를 전달하여 타깃팅, 조건 또는 표현식에 사용할 수 있습니다.
+
+이 페이지에서는 신호를 구성하고 트리거하는 방법을 설명합니다. 변수를 사용할 수 있게 되면 규칙 및 **[!UICONTROL 테스트]** 조건에 변수를 사용하는 방법에 대한 자세한 내용은 [오케스트레이션된 캠페인에서 변수 사용](variables-orchestrated-campaigns.md)을 참조하세요.
 
 트리거 끝점(경로, 헤더, 본문, 응답 및 오류)에 대한 전체 REST 사양은 Adobe Journey Optimizer API 설명서의 [오케스트레이션된 캠페인 API 트리거](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"}를 참조하십시오.
 
 신호를 사용하여 오케스트레이션된 캠페인을 트리거하는 엔드투엔드 프로세스:
 
-1. [신호에 의해 트리거될 캠페인 예약](#set-an-orchestrated-campaign-to-wait-for-a-signal-configure-signal)
-1. [신호 페이로드에 대한 매개 변수 추가](#add-parameters-for-the-signal-payload-optional-parameters)(선택 사항)
-1. [캠페인 빌드 및 테스트](#build-and-test-the-campaign-build-and-test)
-1. [캠페인 게시 및 트리거](#publish-and-trigger-the-campaign-publish)
+1. [신호에 의해 트리거될 캠페인 예약](#configure-signal)
+1. [신호 페이로드에 대한 매개 변수 추가](#parameters)(선택 사항)
+1. [캠페인 빌드 및 테스트](#build-and-test)
+1. [캠페인 게시 및 트리거](#publish)
 
 >[!NOTE]
 >

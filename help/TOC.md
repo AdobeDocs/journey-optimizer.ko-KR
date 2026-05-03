@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: aef18a41657866c5c612442c460b5c464553eaba
+source-git-commit: 8175f63d4e1055d285d2f3f12a498a9dbd3fa1ba
 workflow-type: tm+mt
-source-wordcount: '3276'
+source-wordcount: '3289'
 ht-degree: 91%
 
 ---
@@ -206,6 +206,7 @@ ht-degree: 91%
          + [중복 제거](using/orchestrated/activities/deduplication.md)
          + [보강](using/orchestrated/activities/enrichment.md)
          + [포크](using/orchestrated/activities/fork.md)
+         + [증분 쿼리](using/orchestrated/activities/incremental-query.md)
          + [대상자 읽기](using/orchestrated/activities/read-audience.md)
          + [조정](using/orchestrated/activities/reconciliation.md)
          + [대상자 저장](using/orchestrated/activities/save-audience.md)
@@ -217,6 +218,8 @@ ht-degree: 91%
          + [활동을 탐색하여 고객 참여](using/orchestrated/engage-customers-uc.md)
          + [사용자에게 제품 출시 알림](using/orchestrated/product-availability-uc.md)
       + 고급 작업 {#orchestrated-advanced}
+         + [오케스트레이션된 캠페인에서 변수 사용](using/orchestrated/variables-orchestrated-campaigns.md)
+         + [오케스트레이션된 캠페인에서 전역 변수 정의](using/orchestrated/global-variables.md)
          + [신호를 사용하여 오케스트레이션된 캠페인 트리거](using/orchestrated/trigger-orchestrated-campaign.md)
 + 충돌 및 우선순위 지정 {#conflict-prioritization}
    + [충돌 관리 및 우선순위 지정](using/conflict-prioritization/gs-conflict-prioritization.md)
