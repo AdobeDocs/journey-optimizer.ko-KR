@@ -115,7 +115,7 @@ ht-degree: 18%
 
 ![](assets/journey-report.png)
 
-또한 [Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}를 사용하여 특정 여정에 프로필이 입력되지 않은 규칙을 식별하는 쿼리를 작성할 수 있습니다. 하위 이유 삭제(`CAP_REACHED` 또는 `LOWER_PRIORITY`)를 포함한 쿼리 예는 [이 섹션](../reports/query-examples.md#business-rules-queries)에서 사용할 수 있습니다.
+또한 [Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ko){target="_blank"}를 사용하여 특정 여정에 프로필이 입력되지 않은 규칙을 식별하는 쿼리를 작성할 수 있습니다. 하위 이유 삭제(`CAP_REACHED` 또는 `LOWER_PRIORITY`)를 포함한 쿼리 예는 [이 섹션](../reports/query-examples.md#business-rules-queries)에서 사용할 수 있습니다.
 
 ## 사용 방법 비디오 {#video}
 
