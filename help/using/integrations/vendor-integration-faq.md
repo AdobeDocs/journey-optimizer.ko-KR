@@ -8,26 +8,14 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 통합, FAQ, 외부 데이터, 개인화
-hide: true
-source-git-commit: e4c298fb1c47501920a27a93b43878327b6c5861
+source-git-commit: 4cc3c959fe08c1d574a5d041bf7721441bc96f97
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 2%
+source-wordcount: '852'
+ht-degree: 1%
 
 ---
 
 # 통합에 대해 자주 묻는 질문 {#vendor-integration-faq}
-
->[!BEGINSHADEBOX]
-
-목차:
-
-* [통합 작업](integrations.md)
-* [공급업체 통합 시작](vendor-integration-gs.md)
-* [사용 가능한 공급업체](vendor-integration.md)
-* **[FAQ](vendor-integration-faq.md)**
-
->[!ENDSHADEBOX]
 
 다음은 Adobe Journey Optimizer의 **통합**&#x200B;에 대한 FAQ입니다.
 
@@ -114,9 +102,9 @@ ht-degree: 2%
 
 +++ 재사용 가능한 조각에서 통합을 사용할 수 있습니까?
 
-통합 기능은 조각에서 **지원되지 않습니다**. 제품이 지원하는 캠페인 및 여정 메시지 콘텐츠에서 통합을 사용합니다.
+통합 기능은 조각에서 지원됩니다.
 
-➡️ [조각 및 베타 제한에 대해 자세히 알아보기](integrations.md#limitations)
+➡️ [조각에 대해 자세히 알아보기](aem-fragments-gs.md)
 
 +++
 
@@ -132,7 +120,7 @@ ht-degree: 2%
 
 +++ 지원되는 API 응답 형식은 무엇입니까?
 
-API 호출 응답의 경우 필드 매핑에 대해 **JSON**&#x200B;이(가) 지원됩니다. JSON이 아닌 원시 바이너리 이미지 출력 및 형식은 이 워크플로우에서 사용할 수 없습니다.
+API 호출 응답의 경우 필드 매핑에 대해 **JSON** 및 **HTML**&#x200B;이(가) 지원됩니다. JSON이 아닌 원시 바이너리 이미지 출력 및 형식은 이 워크플로우에서 사용할 수 없습니다.
 
 ➡️ [JSON 및 응답 형식에 대해 자세히 알아보기](integrations.md#limitations)
 
@@ -150,9 +138,9 @@ API 호출 응답의 경우 필드 매핑에 대해 **JSON**&#x200B;이(가) 지
 
 +++ 통합을 구성하는 데 필요한 권한은 무엇입니까?
 
-구성은 **[!UICONTROL 구성]** > **[!UICONTROL 통합]**&#x200B;에서 관리자 워크플로입니다. 정확한 권한 이름은 조직의 Admin Console 및 Journey Optimizer 제품 프로필에 따라 다릅니다. 관리자 또는 Adobe 담당자에게 확인합니다.
+통합을 사용하려면 사용자에게 **[!UICONTROL AJO 통합 구성 관리]** 및 **[!UICONTROL AJO 통합 구성 보기]** 권한을 부여해야 합니다.
 
-➡️ [통합이 구성된 위치에 대해 자세히 알아보기](integrations.md#configure)
+➡️ [통합 권한에 대해 자세히 알아보기](integrations.md#overview)
 
 +++
 

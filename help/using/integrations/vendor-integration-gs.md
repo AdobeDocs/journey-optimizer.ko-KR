@@ -7,28 +7,16 @@ feature: Integrations
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
 keywords: 통합, 공급업체, 서드파티
-source-git-commit: 16eb46843d0369ae14f004a5e0f9e743cad3170b
+source-git-commit: 4cc3c959fe08c1d574a5d041bf7721441bc96f97
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 1%
+source-wordcount: '375'
+ht-degree: 0%
 
 ---
 
 
 # 공급업체 통합 {#vendor-integration}
-
->[!BEGINSHADEBOX]
-
-목차:
-
-* [통합 작업](integrations.md)
-* **[공급업체 통합 시작](vendor-integration-gs.md)**
-* [사용 가능한 공급업체](vendor-integration.md)
-* [FAQ](vendor-integration-faq.md)
-
->[!ENDSHADEBOX]
 
 각 시스템이 사용 사례에 적합하고 통합에서 요청을 처리하고 응답을 사용하는 방식과 호환되는 **API 끝점**&#x200B;을(를) 노출할 때 Adobe Journey Optimizer에서 **통합**&#x200B;을 사용하여 **HTTP를 통한 외부 시스템**&#x200B;을(를) 호출할 수 있습니다. 전체 워크플로를 보려면 [통합 작업](integrations.md)을 참조하십시오.
 
@@ -44,6 +32,7 @@ ht-degree: 1%
 * **볼륨 및 안정성:** 공급업체의 **속도 제한**&#x200B;을 준수합니다. 채널에 대해 **시간 초과**, **다시 시도** 및 **캐시** 정책을 구성하고(예: 일괄 전자 메일과 트랜잭션 전송) 로드 중에 유효성을 검사하십시오.
 * **보안:** 조직의 정책에 따라 토큰, API 키 및 OAuth 자격 증명을 저장하고 회전합니다. 메시지 콘텐츠에 비밀을 임베드하지 마십시오.
 
+
 ## 제한 사항 및 제외 {#limitations-exclusions}
 
 타사 솔루션 목록은 완전하지 않은 **그림**&#x200B;입니다. 공급업체 API, 호스트, 속도 제한 및 JSON 또는 HTML 응답 모양이 변경될 수 있습니다. 공급업체의 현재 설명서 및 구독을 통해 엔드포인트, 인증 및 필드 매핑을 확인합니다. 여기에 있는 패턴은 개인화에 적합한 **읽기 지향** 호출을 가정합니다. 통합은 **JSON** 및 **HTML** 응답에서만 매핑을 지원합니다. **다시 쓰기**, **일괄 내보내기** 및 다른 형식의 응답은 지원되지 않습니다.
@@ -52,8 +41,8 @@ ht-degree: 1%
 
 이러한 그룹화된 링크를 사용하여 관련 공급업체 패턴으로 빠르게 이동합니다.
 
-* **콘텐츠 관리 시스템:** [콘텐츠화](#contentful), [사이트코어](#sitecore), [Salsify](#salsify), [콘텐츠스택](#contentstack), [Akeneo](#akeneo), [목련](#magnolia)
-* **충성도 및 보상:** [Voucherify](#voucherify), [Talon.One](#talon-one), [Antavo](#antavo), [Salesforce 충성도](#salesforce-loyalty), [모세관](#capillary)
-* **템플릿, 개인화 및 권장 사항:** [Stensul](#stensul), [Marigold](#marigold), [Adobe Target 권장 사항](#adobe-target-recommendations)
-* **데이터, 날씨 및 작업:** [AccuWeather](#accuweather), [ShipStation](#shipstation), [RevenueCat](#revenuecat), [데이터 집합](#databricks)
-* **검토, 동의 및 소셜:** [바이더](#bynder), [Trustpilot](#trustpilot), [Bazaarvoice](#bazaarvoice), [OneTrust](#onetrust), [Meta](#meta), [Aprimo](#aprimo), [Epsilon(Epsilon3)](#epsilon)
+* **콘텐츠 관리 시스템:** [콘텐츠화](vendor-integration.md#contentful), [사이트코어](vendor-integration.md#sitecore), [Salsify](vendor-integration.md#salsify), [콘텐츠스택](vendor-integration.md#contentstack), [Akeneo](vendor-integration.md#akeneo), [목련](vendor-integration.md#magnolia)
+* **충성도 및 보상:** [Voucherify](vendor-integration.md#voucherify), [Talon.One](vendor-integration.md#talon-one), [Antavo](vendor-integration.md#antavo), [Salesforce 충성도](vendor-integration.md#salesforce-loyalty), [모세관](vendor-integration.md#capillary)
+* **템플릿, 개인화 및 권장 사항:** [Stensul](vendor-integration.md#stensul), [Marigold](vendor-integration.md#marigold), [Adobe Target 권장 사항](vendor-integration.md#adobe-target-recommendations)
+* **데이터, 날씨 및 작업:** [AccuWeather](vendor-integration.md#accuweather), [ShipStation](vendor-integration.md#shipstation), [RevenueCat](vendor-integration.md#revenuecat), [데이터 집합](vendor-integration.md#databricks)
+* **검토, 동의 및 소셜:** [바이더](vendor-integration.md#bynder), [Trustpilot](vendor-integration.md#trustpilot), [Bazaarvoice](vendor-integration.md#bazaarvoice), [OneTrust](vendor-integration.md#onetrust), [Meta](vendor-integration.md#meta), [Aprimo](vendor-integration.md#aprimo), [Epsilon(Epsilon3)](vendor-integration.md#epsilon)
