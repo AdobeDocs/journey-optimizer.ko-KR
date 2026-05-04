@@ -8,7 +8,7 @@ topic: Building campaigns
 role: User
 level: Intermediate
 version: Campaign Orchestration
-source-git-commit: 0ec63458f12381b0b818f2cf35f9d6f4d7fb7729
+source-git-commit: 4c306ef5dddca4917b6b964979023b9574f59a90
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 20%
@@ -79,3 +79,4 @@ ht-degree: 20%
 * **[!UICONTROL 전자 메일 게재]**: 쿼리가 출력한 프로필에 환영 전자 메일을 보냅니다.
 
 ![오케스트레이션된 캠페인 캔버스에서 증분 쿼리 활동 구성](../assets/incremental-query-example.png)
+
