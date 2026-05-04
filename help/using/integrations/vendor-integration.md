@@ -1192,7 +1192,7 @@ Marigold는 충성도 및 참여 API를 노출하며, 호스트는 지역에 따
 
 >[!IMPORTANT]
 >
->이 구성은 Adobe Journey Optimizer 팀에서 테스트한 예제 패턴입니다. Adobe Target Recommendations는 자체 릴리스 주기 및 API 버전 관리가 있는 별도의 Adobe 제품입니다. 프로덕션에 배포하기 전에 항상 [Adobe Target 개발자 설명서](https://experienceleague.adobe.com/en/docs/target-dev/developer/overview)를 사용하여 현재 API 세부 정보를 확인하십시오.
+>이 구성은 Adobe Journey Optimizer 팀에서 테스트한 예제 패턴입니다. Adobe Target Recommendations는 자체 릴리스 주기 및 API 버전 관리가 있는 별도의 Adobe 제품입니다. 프로덕션에 배포하기 전에 항상 [Adobe Target 개발자 설명서](https://experienceleague.adobe.com/ko/docs/target-dev/developer/overview)를 사용하여 현재 API 세부 정보를 확인하십시오.
 
 >[!BEGINSHADEBOX]
 
@@ -1218,7 +1218,7 @@ Adobe Target에는 권한에 따라 서버측 또는 통합 경험을 위한 권
 
 아래 절차를 사용하여 Journey Optimizer에서 이 통합을 구성합니다. 요청 세부 정보는 **샘플 통합 필드**&#x200B;를 참조하고 해당 환경에 대한 공급업체 설명서를 통해 해당 값을 확인하십시오.
 
-1. [통합 작업](integrations.md)을 따르십시오. 게재 호출은 종종 JSON 본문이 있는 **POST**&#x200B;입니다. [Target 인증](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication){target="_blank"}당 OAuth를 구성하고 샘플 응답을 붙여 넣고 필드를 매핑한 다음 예상 볼륨에서 테스트하십시오.
+1. [통합 작업](integrations.md)을 따르십시오. 게재 호출은 종종 JSON 본문이 있는 **POST**&#x200B;입니다. [Target 인증](https://experienceleague.adobe.com/ko/docs/target-dev/developer/api/configure-authentication){target="_blank"}당 OAuth를 구성하고 샘플 응답을 붙여 넣고 필드를 매핑한 다음 예상 볼륨에서 테스트하십시오.
 
 1. Journey Optimizer에서 **[!UICONTROL 구성]** > **[!UICONTROL 관리]**(으)로 이동한 다음 **[!UICONTROL 통합 만들기]**&#x200B;를 선택합니다.
 
@@ -1271,7 +1271,7 @@ Adobe Target에는 권한에 따라 서버측 또는 통합 경험을 위한 권
 
 **인증**
 
-[Target 인증 구성](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication)을 참조하고 페이로드에 JSON을 추가하십시오.
+[Target 인증 구성](https://experienceleague.adobe.com/ko/docs/target-dev/developer/api/configure-authentication)을 참조하고 페이로드에 JSON을 추가하십시오.
 
 **요청 페이로드**
 
