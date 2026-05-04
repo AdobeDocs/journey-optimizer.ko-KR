@@ -8,27 +8,15 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 통합
-hide: true
 exl-id: 104f283e-f6a5-431b-919a-d97b83d19632
-source-git-commit: f40e030e7d14120cdbc118a8f93e2f752d713f6b
+source-git-commit: 4cc3c959fe08c1d574a5d041bf7721441bc96f97
 workflow-type: tm+mt
-source-wordcount: '1227'
+source-wordcount: '1125'
 ht-degree: 7%
 
 ---
 
 # 통합 작업 {#external-sources}
-
->[!BEGINSHADEBOX]
-
-목차:
-
-* **[통합 작업](integrations.md)**
-* [시작하기](vendor-integration-gs.md)
-* [사용 가능한 공급업체](vendor-integration.md)
-* [FAQ](vendor-integration-faq.md)
-
->[!ENDSHADEBOX]
 
 ## 개요
 
@@ -41,7 +29,7 @@ ht-degree: 7%
 * 추천 엔진에서 **제품 추천**.
 * **물류 업데이트**(게재 상태 등).
 
-통합을 사용하려면 사용자에게 **[!UICONTROL AJO 통합 구성 관리]** 및 **[!UICONTROL AJO 통합 보기]** 권한을 부여해야 합니다. [권한에 대해 자세히 알아보기](../administration/permissions.md)
+통합을 사용하려면 사용자에게 **[!UICONTROL AJO 통합 구성 관리]** 및 **[!UICONTROL AJO 통합 구성 보기]** 권한을 부여해야 합니다. [권한에 대해 자세히 알아보기](../administration/permissions.md)
 
 +++ 통합 관련 권한을 할당하는 방법을 알아봅니다
 
@@ -69,7 +57,7 @@ ht-degree: 7%
 
 >[!AVAILABILITY]
 >
-> 이 통합 기능은 아웃바운드 채널(이메일, SMS 및 푸시)로 제한되며 데이터를 JSON 또는 HTML 형식으로 제공합니다. API는 읽기 전용이며 검색 작업만 지원합니다.
+> 이 통합 기능은 아웃바운드 채널(이메일, SMS 및 푸시)로 제한되며 JSON 또는 HTML 가져오기를 지원합니다.
 
 관리자는 다음 단계에 따라 외부 통합을 설정할 수 있습니다.
 
@@ -85,11 +73,15 @@ ht-degree: 7%
 
    >[!NOTE]
    >
-   >이러한 필드에는 공백을 포함할 수 없습니다.
+   >**[!UICONTROL 이름]** 필드에는 공백을 포함할 수 없습니다.
 
-1. 레이블과 기본값을 사용하여 정의할 수 있는 변수가 있는 경로 매개 변수를 포함할 수 있는 API 끝점 **[!UICONTROL URL]**&#x200B;을(를) 입력하십시오.
+1. API 끝점 **[!UICONTROL URL]**&#x200B;을(를) 입력하십시오.
 
-1. **[!UICONTROL 이름]** 및 **[!UICONTROL 기본값]**&#x200B;을(를) 사용하여 **[!UICONTROL 경로 템플릿]**&#x200B;을(를) 구성하십시오.
+   경로 변수의 경우 레이블을 URL에서 중괄호로 묶어 `https://api.example.com/v1/products/{{productId}}`과(와) **[!UICONTROL 경로 템플릿]**&#x200B;에서 각 자리 표시자를 설정합니다.
+
+1. URL에 추가한 모든 자리 표시자에 대해 **[!UICONTROL 이름]** 및 **[!UICONTROL 기본값]**&#x200B;을(를) 사용하여 **[!UICONTROL 경로 템플릿]**&#x200B;을 구성하십시오.
+
+   **[!UICONTROL Name]**&#x200B;은(는) 편집기에서만 마케터를 나타내는 레이블이며 API 요청 시 전송되지 않습니다.
 
    ![](assets/external-integration-config-2.png)
 
@@ -97,15 +89,15 @@ ht-degree: 7%
 
 1. 통합에 필요한 경우 **[!UICONTROL 헤더 추가]** 및/또는 **[!UICONTROL 쿼리 매개 변수 추가]**&#x200B;를 클릭합니다. 각 매개 변수에 대해 다음 세부 사항을 제공합니다.
 
-   * **[!UICONTROL 매개 변수]**:: 매개 변수를 참조하는 데 내부적으로 사용되는 고유 식별자입니다.
+   * **[!UICONTROL 매개 변수]**: API에 필요한 실제 헤더 또는 쿼리 매개 변수 이름입니다.
 
-   * **[!UICONTROL 이름]**: API에 필요한 매개 변수의 실제 이름입니다.
+   * **[!UICONTROL 이름]**: 이 매개 변수에 대한 마케터용 레이블입니다. 작성자는 캠페인에서 값을 매핑할 때 이 매개 변수를 선택합니다.
 
    * **[!UICONTROL 유형]**: 고정 값으로 **상수**&#x200B;를 선택하거나 동적 입력으로 **변수**&#x200B;를 선택합니다.
 
    * **[!UICONTROL 값]**: 상수에 직접 값을 입력하거나 변수 매핑을 선택하십시오.
 
-   * **[!UICONTROL 필수]**: 이 매개 변수가 필요한지 여부를 지정합니다.
+   * **[!UICONTROL 필수]**: 이 매개 변수가 필요한지 여부를 지정합니다. 필수 **[!UICONTROL 변수]** 매개 변수의 경우 런타임 시 확인된 값이 없고 기본값을 제공하지 않으면 요청 생성에 실패하고 오류가 발생하며 아웃바운드 API 호출이 수행되지 않습니다.
 
    ![](assets/external-integration-config-3.png)
 
@@ -113,7 +105,7 @@ ht-degree: 7%
 
    * **[!UICONTROL 인증 없음]**: 자격 증명이 필요하지 않은 열린 API의 경우.
 
-   * **[!UICONTROL API 키]**: 정적 API 키를 사용하여 요청을 인증합니다. **[!UICONTROL API 키 이름{&#x200B;1},**&#x200B;[!UICONTROL &#x200B; API 키 값{3&#x200B;}을(를) 입력하고 **[!UICONTROL 위치]**&#x200B;를 지정하십시오.]&#x200B;**]**
+   * **[!UICONTROL API 키]**: 정적 API 키를 사용하여 요청을 인증합니다. **[!UICONTROL API 키 이름{&#x200B;1},**[!UICONTROL  API 키 값{3&#x200B;}을(를) 입력하고 **[!UICONTROL 위치]**&#x200B;를 지정하십시오.]**]**
 
    * **[!UICONTROL 기본 인증]**: 표준 HTTP 기본 인증을 사용합니다. **[!UICONTROL 사용자 이름]** 및 **[!UICONTROL 암호]**&#x200B;를 입력하십시오.
 
@@ -123,8 +115,11 @@ ht-degree: 7%
 
 1. API 요청에 대해 **[!UICONTROL 시간 초과]** 기간과 같은 **[!UICONTROL 정책 구성]**&#x200B;을(를) 설정하고 제한, 캐시 및/또는 다시 시도하도록 선택합니다.
 
-   제한이 활성화된 경우 지원되는 속도는 **50** TPS(최소)에서 **5,000**&#x200B;TPS(최대)까지 다양합니다.
-다시 시도가 활성화되면 다른 실패는 기본적으로 **3번**&#x200B;번 다시 시도 후 **200ms**, **400ms**, **800ms**&#x200B;번 다시 시도합니다.
+   >[!NOTE]
+   >
+   >제한이 활성화된 경우 지원되는 비율은 50~5000TPS입니다. 각 API 끝점이 아닌 **통합**&#x200B;에 제한이 적용됩니다.
+   >
+   >다시 시도가 활성화된 상태에서 다른 실패가 기본적으로 **3**&#x200B;번 다시 시도되며, 시도 간격은 **200ms**, **400ms**, **800ms**&#x200B;입니다.
 
 1. **[!UICONTROL 응답 페이로드]** 필드를 사용하여 메시지 개인화에 사용해야 하는 샘플 출력의 필드를 결정할 수 있습니다.
 
@@ -138,9 +133,20 @@ ht-degree: 7%
    >
    >**[!UICONTROL 응답 페이로드]** 구성은 해당 단계에 적용된 스키마를 포함하여 작성에 필요한 응답을 정의합니다. 마케터는 노출된 필드만 참조할 수 있으며 다른 경로에 대한 토큰은 편집기에서 유효성 검사에 실패합니다.
 
-1. **[!UICONTROL 테스트 연결 보내기]**&#x200B;를 사용하여 통합의 유효성을 검사합니다.
+1. **[!UICONTROL 테스트 연결 보내기]**&#x200B;를 사용하여 통합의 유효성을 검사합니다. [연결 테스트 방법에 대해 자세히 알아보기](#connection)
 
    유효성을 검사하면 **[!UICONTROL 활성화]**&#x200B;를 클릭합니다.
+
+1. 새로 생성된 통합에 액세스하여 다음을 수행할 수 있습니다.
+
+   * **업데이트**: **인증** 세부 정보 및 **정책 구성**&#x200B;만 변경합니다. 업데이트는 라이브 여정 및 캠페인에 적용됩니다. 변경 내용을 저장하기 전에 **[!UICONTROL 참조 탐색]** 메뉴를 사용하여 통합 사용 위치를 확인하십시오.
+   * **보관**: 통합 구성을 보관합니다.
+
+   ![](assets/external-integration-config-7.png)
+
+활성화한 후 ![고급 메뉴](assets/do-not-localize/Smock_More_18_N.svg) 아이콘을 클릭하여 **[!UICONTROL 참조 탐색]** 메뉴에 액세스하고 이를 사용하는 여정 및 캠페인을 포함하여 이 구성에 대한 사용을 검토하십시오.
+
+![](assets/external-integration-config-6.png)
 
 ### 전송 시간 제한 및 동작 {#configure-send-time}
 
@@ -150,61 +156,25 @@ ht-degree: 7%
 
 큐에 있는 각 메시지에는 TTL(유효성 기간)도 전달됩니다. 처리가 지연되고 메시지가 해당 창을 지나면 시스템이 **메시지를 삭제하고** **`MessageValidityExclusion`** 이벤트를 발생시키므로 큐에서 오래된 작업이 지워지고 리소스가 사용 가능한 상태로 유지됩니다.
 
+## 연결 테스트 {#connection}
 
-## 개인화에 외부 통합 사용 {#personalization}
+**[!UICONTROL 테스트 연결 보내기]**&#x200B;는 활성화 전에 대상 API에 대해 끝점 URL, 인증 및 요청 구조를 확인합니다. 이렇게 하면 메시지 처리 중 런타임 오류가 발생할 위험이 줄어듭니다.
 
-개인화를 위해 외부 통합을 사용하기 전에 통합 호출의 예약 및 격리는 실행 컨텍스트에 따라 다릅니다.
+1. URL, HTTP 메서드, 헤더 및 쿼리 매개 변수가 정의된 경우 **[!UICONTROL 테스트 연결 보내기]**&#x200B;를 클릭하여 연결 테스트를 실행하고 구성을 확인하십시오.
 
-* **일괄 실행**(일괄 캠페인, 오케스트레이션된 캠페인 및 API 트리거된 마케팅 캠페인): 각 일괄 실행은 전용 격리된 환경에서 작동합니다. 따라서 외부 시스템을 호출하는 동시 배치 실행은 서로 충돌하거나 방해하지 않습니다.
+1. **[!UICONTROL 테스트 연결 보내기]** 대화 상자에서 URL 경로, 헤더 및 쿼리 매개 변수에 **[!UICONTROL 변수]** 자리 표시자의 기본값을 입력합니다.
 
-* **단일 실행**(단일 여정, 일괄 여정 및 API 트리거 트랜잭션 캠페인): 통합 트래픽은 브랜드 샌드박스별로 격리되므로 한 브랜드에 대해 느린 외부 API로 다른 브랜드가 지연되지 않습니다. 샌드박스 내에서 동시 통합은 다른 통합 지원 메시지를 잠시 지연시킬 수 있습니다. 각 메시지는 만료 전 최대 12시간 동안 시도됩니다.
+   이러한 값은 테스트 요청에 포함됩니다. Journey Optimizer은 끝점을 호출하고 연결 성공 또는 실패 여부를 보고합니다.
 
-마케터는 구성된 통합을 사용하여 콘텐츠를 개인화할 수 있습니다. 다음 단계를 수행하십시오.
+   ![](assets/external-integration-config-11.png)
 
-1. 캠페인 콘텐츠에 액세스하고 텍스트 또는 HTML **[!UICONTROL 구성 요소]**&#x200B;에서 **[!UICONTROL 개인화 추가]**&#x200B;를 클릭하세요.
+1. 테스트가 성공적인 응답을 반환하는 경우 **[!UICONTROL 응답 페이로드로 사용]**&#x200B;을 선택하여 응답 본문을 **[!UICONTROL 응답 페이로드]** 필드에 복사합니다. [통합 구성](#configure)의 10단계를 참조하십시오. 여기에서 데이터 형식을 감지하고 개인화를 위해 필드를 선택할 수 있습니다.
 
-   [구성 요소에 대해 자세히 알아보기](../email/content-components.md)
+   ![](assets/external-integration-config-10.png)
 
-   ![](assets/external-integration-content-1.png)
+1. 테스트가 성공하지 않으면 **[!UICONTROL 오류]** 드롭다운을 확장하여 오류 세부 정보를 검토하고 필요에 따라 통합 구성을 업데이트한 다음 **[!UICONTROL 테스트 연결 보내기]**&#x200B;를 다시 실행하십시오.
 
-1. 모든 활성 통합을 보려면 **[!UICONTROL 통합]** 섹션으로 이동하고 **[!UICONTROL 통합 열기]**&#x200B;를 클릭하십시오.
+   ![](assets/external-integration-content-12.png)
 
-   콘텐츠 조각은 통합에서 사용할 수 있지만 아웃바운드 채널만 지원하므로 인바운드 게시가 성공하지 못합니다. 조각이 게시되면 기존 여정 및 캠페인에 영향을 주지 않도록 새 통합 추가 및 저장이 비활성화됩니다.
-
-   ![](assets/external-integration-content-2.png)
-
-1. 통합을 선택하고 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
-
-   ![](assets/external-integration-content-3.png)
-
-1. **[!UICONTROL 알약]** 모드를 활성화하여 고급 통합 메뉴를 잠금 해제합니다.
-
-   ![](assets/external-integration-content-4.png)
-
-1. 통합 개인화를 작성할 때 통합 도우미에는 오류 또는 누락된 데이터가 기본 콘텐츠와 상호 작용하는 방법을 정의하는 **`required`** 필드가 포함됩니다.
-
-   * **`required=true`**(기본값): 해당 메시지에 대한 렌더링이 중지됩니다. 전송이 **`ExternalDataLookupExclusion`**(으)로 제외되며 해당 제외는 **메시지 피드백 데이터 세트**&#x200B;에 기록됩니다.
-   * **`required=false`**: 결과 변수가 **`null`**(으)로 설정되어 렌더링이 계속됩니다. 통합에서 데이터를 반환하지 않을 때 프로필이 빈 콘텐츠를 수신하지 않도록 템플릿에 기본 텍스트, 폴백 또는 조건부 논리를 사용하십시오.
-
-     ![](assets/external-integration-content-8.png)
-
-1. 통합 설정을 완료하려면 이전에 [구성](#configure) 중에 지정한 통합 특성을 정의하세요.
-
-   일정하게 유지되는 정적 값이나 사용자 프로필에서 정보를 동적으로 가져오는 프로필 속성을 사용하여 이러한 속성에 값을 할당할 수 있습니다.
-
-   ![](assets/external-integration-content-5.png)
-
-1. 통합 특성이 정의되면 이제 ![추가](assets/do-not-localize/Smock_Add_18_N.svg) 아이콘을 클릭하여 개인화된 메시지를 보내는 데 콘텐츠의 통합 필드를 사용할 수 있습니다.
-
-   ![](assets/external-integration-content-6.png)
-
-   >[!NOTE]
-   >
-   >템플릿의 토큰은 통합 구성에 노출된 관리자 필드만 사용해야 합니다. 예를 들어 `temperature`이(가) 노출되면 `{{weatherResponse.temperature}}`이(가) 유효하며, `humidity`이(가) 노출되지 않으면 편집기에서 `{{weatherResponse.humidity}}`이(가) 거부됩니다.
-
-1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
-
-이제 통합 개인화가 귀하의 콘텐츠에 성공적으로 적용되어 각 수신자가 귀하가 구성한 속성에 따라 맞춤형의 관련 경험을 받게 됩니다.
-
-![](assets/external-integration-content-7.png)
+테스트가 성공하면 통합 구성에서 **[!UICONTROL 활성화]**&#x200B;를 선택합니다. [통합 구성](#configure)을 참조하세요.
 
