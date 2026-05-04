@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 설정, 이메일, 구성, 발신자 헤더, SMTP
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
-source-git-commit: 48a25f41701f5e42c15fb8149b03cabcc575db24
+source-git-commit: bf5f369a5cf4341fb815928765b3cf73bf1ff204
 workflow-type: tm+mt
-source-wordcount: '1089'
-ht-degree: 53%
+source-wordcount: '1108'
+ht-degree: 54%
 
 ---
 
@@ -57,6 +57,10 @@ ht-degree: 53%
 >id="ajo_admin_preset_sender_header"
 >title="보낸 사람 헤더"
 >abstract="전송 엔티티(발신자)가 작성 엔티티(보낸 사람)와 다른 경우(예: 하위 브랜드에 대한 메시지를 발송하는 기업 상위 또는 여러 고객을 위한 메시지를 보내는 에이전시) 이러한 옵션 필드를 사용합니다. 이를 지원하는 이메일 클라이언트는 일반적으로 &quot;보낸 사람을 대신하여 보낸 사람&quot;으로 렌더링하거나 &quot;경유&quot; 표시기를 표시합니다."
+
+>[!AVAILABILITY]
+>
+>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
 
 일부 사용 사례에서는 메시지를 전송하는 사서함이 **보낸 사람** 작성자와 달라야 합니다(예: 자회사를 대신하여 보내는 상위 조직, 여러 브랜드의 공유 마케팅 팀 또는 여러 클라이언트의 에이전시에서 보내는 경우).
 
