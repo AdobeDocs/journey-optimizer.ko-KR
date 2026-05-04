@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8175f63d4e1055d285d2f3f12a498a9dbd3fa1ba
+source-git-commit: 9a240f0a70842a00af81f771440f9b00b74cd0cb
 workflow-type: tm+mt
-source-wordcount: '3289'
+source-wordcount: '3297'
 ht-degree: 91%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 91%
    + 효율적으로 작업 {#work-efficiently}
       + [인터페이스 살펴보기](using/start/user-interface.md)
       + [검색, 필터링 및 정리](using/start/search-filter-categorize.md)
-      + [문제 해결 FAQ](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [문제 해결 FAQ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [접근성](using/start/accessibility.md)
       + {hide-from-toc}[여정 대 캠페인](using/start/journeys-vs-campaigns.md)
 + 여정 {#orchestrate-journeys}
@@ -508,10 +508,13 @@ ht-degree: 91%
       + {hide-from-toc}[카운트다운 타이머 삽입](using/integrations/countdown.md)
       + [Dynamic Media 작업](using/integrations/aem-dynamic.md)
       + [GenStudio for Performance Marketing 작업](using/integrations/genstudio.md)
-      + {hide-from-toc}[통합 작업](using/integrations/integrations.md)
-      + {hide-from-toc}[공급업체 통합 시작](using/integrations/vendor-integration-gs.md)
-      + {hide-from-toc}[공급업체 구성 샘플](using/integrations/vendor-integration.md)
-      + {hide-from-toc}[FAQ](using/integrations/vendor-integration-faq.md)
+      + 통합 {#integrations}
+         + [통합 작업](using/integrations/integrations.md)
+         + [개인화에 외부 통합 사용](using/integrations/integrations-personalization.md)
+         + [FAQ](using/integrations/vendor-integration-faq.md)
+         + 샘플 공급업체 {#vendors}
+            + [공급업체 통합 시작](using/integrations/vendor-integration-gs.md)
+            + [공급업체 구성 샘플](using/integrations/vendor-integration.md)
       + [MCP를 통해 AI 도구 작업](/help/using/integrations/ajo-mcp.md)
    + 콘텐츠 생성을 위한 AI 어시스턴트 {#ai-assistant}
       + [콘텐츠 생성을 위한 AI 어시스턴트](/help/rp_landing_pages/ai-assistant-landing-page.md)
