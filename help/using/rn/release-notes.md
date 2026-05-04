@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: bf5f369a5cf4341fb815928765b3cf73bf1ff204
+source-git-commit: d975d9cd95d33ea8972cf9388e7f868009c4fb95
 workflow-type: tm+mt
-source-wordcount: '2047'
+source-wordcount: '1990'
 ht-degree: 21%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 21%
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 4월 초에 출시된 새로운 기능 및 개선 사항은 출시 일자와 함께 발표됩니다.
@@ -40,6 +40,24 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 **릴리스 날짜**: 2026년 4월 28~29일
 
 ### 새로운 기능 {#april-26-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>통합</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><b>통합</b> 기능을 사용하면 타사 데이터 소스를 Adobe Journey Optimizer에 직접 연결할 수 있습니다. 외부 데이터 및 <b>구성 가능한 콘텐츠</b>를 가져오는 방법을 단순화하여 이 기능을 사용하면 모든 채널에서 개인화된 동적 메시지를 보다 쉽게 전달할 수 있습니다.</p>
+<p>이전에 Beta로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
+<p>자세한 내용은 <a href="../integrations/integrations.md">세부 설명서</a>를 참조하십시오.</p>
+<p>사용 가능한 날짜: 2026년 5월 4일</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -53,7 +71,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <p><strong>오케스트레이션된 캠페인</strong>은(는) 이제 마지막 실행 이후 새로 적격한 프로필 또는 이벤트만 타겟팅하는 <strong>증분 쿼리</strong> 활동을 지원합니다.
 
 이렇게 하면 쿼리 워크로드를 줄이고 시간이 지남에 따라 중복 전송을 방지하면서 순 신규 대상자(새 등록, 새로 자격을 얻은 충성도 멤버 및 유사한 세그먼트)에 초점을 맞춘 반복 캠페인을 유지할 수 있습니다.</p>
-<p>자세한 내용은 <a href="../orchestrated/activities/incremental-query.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../orchestrated/activities/incremental-query.md#incremental-query-configuration">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -69,7 +87,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>이제 Journey Optimizer을 사용하여 전송 엔티티(발신자)가 작성 엔티티(보낸 사람)와 다른 위치에 이메일을 보낼 수 있습니다. 이를 지원하는 이메일 클라이언트는 일반적으로 "보낸 사람을 대신하여 보낸 사람"으로 렌더링하거나 "경유" 표시기를 표시합니다. 이 기능을 구성하려면 전자 메일 채널 설정의 선택적 <strong>보낸 사람 헤더</strong> 필드를 입력하십시오.</p>
-<p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
 <p><img src="assets/do-not-localize/sender-headers.gif"></p>
 <p>자세한 내용은 <a href="../email/header-parameters.md#sender-header">세부 설명서</a>를 참조하십시오.</p>
 </td>
@@ -278,8 +295,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **채널 설정에서 앱 ID 개인화** - 이제 푸시 채널 구성 설정에서 **앱 ID** 필드를 개인화할 수 있으므로 각 수신자는 프로필 정보를 기반으로 해당 브랜드에서 푸시 알림을 받을 수 있습니다. [자세히 보기](../push/push-configuration.md#app-id-personalization)
 
-  이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
-
 #### 결정
 
 * **의사 결정 항목에 조각 첨부** - 이제 Journey Optimizer에서 의사 결정 정책을 통해 코드 기반 경험 및 이메일 캠페인에서 활용할 수 있는 의사 결정 항목에 조각을 첨부할 수 있는 기능을 제공합니다. [자세히 보기](../experience-decisioning/fragments-decision-policies.md)
@@ -358,22 +373,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <table>
 <thead>
 <tr>
-<th><strong>통합</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p><b>통합</b> 기능을 사용하면 타사 데이터 소스를 Adobe Journey Optimizer에 직접 연결할 수 있습니다. 외부 데이터 및 <b>구성 가능한 콘텐츠</b>를 가져오는 방법을 단순화하여 이 기능을 사용하면 모든 채널에서 개인화된 동적 메시지를 보다 쉽게 전달할 수 있습니다.</p>
-<p>이전에 베타 버전으로 출시된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 공급).</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>여정 시뮬레이션</strong><br/></th>
 </tr>
 </thead>
@@ -400,13 +399,9 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <p>이제 이메일 Designer의 전용 옵션을 통해 이메일 콘텐츠에 딥 링크를 추가할 수 있습니다.</p><p>이렇게 하면 사용자가 브라우저나 앱스토어로 리디렉션되지 않고 올바른 인앱 콘텐츠로 바로 이동하여 컨텍스트와 참여를 유지할 수 있습니다.</p>
 <!--<p><img src="assets/do-not-localize/forms.gif"></p>-->
 <p>자세한 내용은 <a href="../email/message-tracking.md">세부 설명서</a>를 참조하십시오.</p>
+<p>사용 가능한 날짜: 2026년 5월 7일</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-### 개선 사항 {#comming-soon-improv}
-
-#### 구성
-
-* **URL 매개 변수 암호화 키에 대한 특정 권한** - URL 매개 변수 암호화에 대한 키에 액세스하고 관리하기 위해 새 권한을 만들었습니다. 이제 **키 레지스트리 보기** 및 **키 레지스트리 관리** 권한이 부여되어야 합니다. <!--[Read more](../personalization/url-parameter-encryption.md#create-keys)-->
