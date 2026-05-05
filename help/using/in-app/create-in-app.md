@@ -7,14 +7,14 @@ role: User
 level: Beginner
 keywords: 인앱, 메시지, 만들기, 시작
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: e5e8e7a99e53069b5c08562414663a847c413bc9
 workflow-type: tm+mt
-source-wordcount: '2178'
-ht-degree: 12%
+source-wordcount: '2301'
+ht-degree: 11%
 
 ---
 
-# 인앱 메시지 만들기  {#create-in-app}
+# 인앱 메시지 만들기 {#create-in-app}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_triggers"
@@ -59,7 +59,7 @@ ht-degree: 12%
 
    1. 필요한 경우 이벤트 드롭다운을 클릭하여 트리거 를 변경합니다.
 
-      +++사용 가능한 트리거 를 참조하십시오.
+      사용 가능한 트리거
 
       | 패키지 | 트리거 | 정의 |
       |---|---|---|
@@ -75,8 +75,6 @@ ht-degree: 12%
       | 장소 | POI 입력 | 고객이 사용자가 구성한 관심 영역(POI)에 들어갈 때 위치 SDK에 의해 트리거됩니다. |
       | 장소 | POI 종료 | 고객이 사용자가 구성한 관심 영역(POI)을 종료할 때 위치 SDK에 의해 트리거됩니다. |
 
-      +++
-
    1. 트리거에서 여러 이벤트 또는 조건을 고려하려면 **[!UICONTROL 조건 추가]**&#x200B;를 클릭하십시오.
 
    1. **[!UICONTROL 트리거]**&#x200B;를 더 추가하여 규칙을 확장하려면 **[!UICONTROL Or]** 조건을 선택하십시오.
@@ -85,7 +83,7 @@ ht-degree: 12%
 
    1. **[!UICONTROL 트레이트]**&#x200B;를 추가하고 규칙을 보다 세밀하게 조정하려면 **[!UICONTROL And]** 조건을 선택하십시오.
 
-      +++사용 가능한 트레이트를 참조하십시오.
+      사용 가능한 트레이트
 
       | 패키지 | 특성 | 정의 |
       |---|---|---|
@@ -106,8 +104,6 @@ ht-degree: 12%
       | 장소 | 현재 POI | 고객이 지정된 관심 영역(POI)에 들어갈 때 위치 SDK에 의해 트리거됩니다. |
       | 장소 | 마지막으로 입력한 POI | 마지막으로 입력한 POI(관심 영역)에 따라 위치 SDK에 의해 트리거됩니다. |
       | 장소 | 마지막으로 종료한 POI | 고객이 마지막으로 종료한 관심 영역(POI)에 따라 위치 SDK에 의해 트리거됩니다. |
-
-      +++
 
       ![](assets/in_app_create_8.png)
 
@@ -165,7 +161,7 @@ ht-degree: 12%
 
    1. 필요한 경우 이벤트 드롭다운을 클릭하여 트리거 를 변경합니다.
 
-      +++사용 가능한 트리거 를 참조하십시오.
+      사용 가능한 트리거
 
       | 패키지 | 트리거 | 정의 |
       |---|---|---|
@@ -181,8 +177,6 @@ ht-degree: 12%
       | 장소 | POI 입력 | 고객이 사용자가 구성한 관심 영역(POI)에 들어갈 때 위치 SDK에 의해 트리거됩니다. |
       | 장소 | POI 종료 | 고객이 사용자가 구성한 관심 영역(POI)을 종료할 때 위치 SDK에 의해 트리거됩니다. |
 
-      +++
-
    1. 트리거에서 여러 이벤트 또는 조건을 고려하려면 **[!UICONTROL 조건 추가]**&#x200B;를 클릭하십시오.
 
    1. **[!UICONTROL 트리거]**&#x200B;를 더 추가하여 규칙을 확장하려면 **[!UICONTROL Or]** 조건을 선택하십시오.
@@ -191,7 +185,7 @@ ht-degree: 12%
 
    1. **[!UICONTROL 트레이트]**&#x200B;를 추가하고 규칙을 보다 세밀하게 조정하려면 **[!UICONTROL And]** 조건을 선택하십시오.
 
-      +++사용 가능한 트레이트를 참조하십시오.
+      사용 가능한 트레이트
 
       | 패키지 | 특성 | 정의 |
       |---|---|---|
@@ -213,8 +207,6 @@ ht-degree: 12%
       | 장소 | 마지막으로 입력한 POI | 마지막으로 입력한 POI(관심 영역)에 따라 위치 SDK에 의해 트리거됩니다. |
       | 장소 | 마지막으로 종료한 POI | 고객이 마지막으로 종료한 관심 영역(POI)에 따라 위치 SDK에 의해 트리거됩니다. |
 
-      +++
-
       ![](assets/in_app_create_8.png)
 
    1. 트리거를 함께 그룹화하려면 **[!UICONTROL 그룹 만들기]**&#x200B;를 클릭하세요.
@@ -228,7 +220,7 @@ ht-degree: 12%
 
 1. 필요한 경우 인앱 메시지를 표시할 **[!UICONTROL 요일]** 또는 **[!UICONTROL 시간]**&#x200B;을(를) 선택하십시오.
 
-1. 캠페인은 특정 날짜 또는 되풀이되는 빈도로 실행되도록 디자인됩니다. **[!UICONTROL 이 섹션]**&#x200B;에서 캠페인의 [일정](../campaigns/create-campaign.md#schedule)을 구성하는 방법을 알아보세요.
+1. 캠페인은 특정 날짜 또는 되풀이되는 빈도로 실행되도록 디자인됩니다. [이 섹션](../campaigns/create-campaign.md#schedule)에서 캠페인의 **[!UICONTROL 일정]**&#x200B;을 구성하는 방법을 알아보세요.
 
    ![](assets/in-app-schedule.png)
 
@@ -270,5 +262,5 @@ ht-degree: 12%
 
 * [인앱 메시지 디자인](design-in-app.md)
 * [인앱 메시지 테스트 및 보내기](send-in-app.md)
-* [인앱 보고서 &#x200B;](../reports/campaign-global-report-cja-inapp.md)
+* [인앱 보고서](../reports/campaign-global-report-cja-inapp.md)
 * [인앱 구성](inapp-configuration.md)
