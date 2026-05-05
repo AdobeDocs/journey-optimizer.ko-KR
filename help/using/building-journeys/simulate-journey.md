@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 테스트, 여정, 확인, 오류, 문제 해결
 version: Journey Orchestration
 badge: label="제한 공개" type="Informative"
-source-git-commit: b858b41cf65ed28e229938102e0f44b369180da8
+source-git-commit: 064a1e595e4b8ac532b9d9c24b0c1d490ab5e1ce
 workflow-type: tm+mt
-source-wordcount: '1858'
+source-wordcount: '1861'
 ht-degree: 1%
 
 ---
@@ -89,7 +89,7 @@ Adobe Journey Optimizer은 여정을 테스트하고 확인하는 두 가지 방
 
    ![시뮬레이션된 사용자 선택 패널](assets/simulate-5.png)
 
-1. **[!UICONTROL 결과]** 탭에 액세스하여 실행 결과를 열고 각 단계가 실행되는 방식을 검토하십시오. 자세한 내용은 [결과 보기](#viewing-logs)를 참조하세요.
+1. **[!UICONTROL 결과]** 탭에 액세스하여 실행 로그를 열고 각 단계가 실행되는 방식을 검토하십시오. 자세한 내용은 [결과 보기](#viewing-results)를 참조하세요.
 
 **[!UICONTROL 시뮬레이션]**&#x200B;에서 여정의 유효성을 검사한 후 **[!UICONTROL 결과]** 로그를 검토하십시오. 오류가 나타나면 **[!UICONTROL 시뮬레이션]**&#x200B;을 종료하고 필요한 변경 내용을 여정에 적용한 다음 실행이 올바르게 나타날 때까지 **[!UICONTROL 시뮬레이션]**&#x200B;을 다시 실행하십시오. 그런 다음 여정을 게시할 수 있습니다. [여정 게시](../building-journeys/publish-journey.md)를 참조하십시오.
 
@@ -119,7 +119,7 @@ Adobe Journey Optimizer은 여정을 테스트하고 확인하는 두 가지 방
 
    ![시뮬레이션된 사용자 선택 패널](assets/simulate-5.png)
 
-1. 실행 로그를 열고 각 단계가 어떻게 실행되었는지 검토하려면 **[!UICONTROL 로그 표시]**&#x200B;를 클릭하십시오. 자세한 내용은 [결과 보기](#viewing-logs)를 참조하세요.
+1. **[!UICONTROL 결과]** 탭에 액세스하여 실행 로그를 열고 각 단계가 실행되는 방식을 검토하십시오. 자세한 내용은 [결과 보기](#viewing-results)를 참조하세요.
 
 **[!UICONTROL 시뮬레이션]**&#x200B;에서 여정의 유효성을 검사한 후 **[!UICONTROL 결과]** 로그를 검토하십시오. 오류가 나타나면 **[!UICONTROL 시뮬레이션]**&#x200B;을 종료하고 필요한 변경 내용을 여정에 적용한 다음 실행이 올바르게 나타날 때까지 **[!UICONTROL 시뮬레이션]**&#x200B;을 다시 실행하십시오. 그런 다음 여정을 게시할 수 있습니다. [여정 게시](../building-journeys/publish-journey.md)를 참조하십시오.
 
@@ -143,9 +143,9 @@ Adobe Journey Optimizer은 여정을 테스트하고 확인하는 두 가지 방
 
    시뮬레이션된 사용자가 여정을 성공적으로 입력하면 `Events triggered successfully` 확인 메시지가 나타납니다.
 
-1. 실행 로그를 열고 각 단계가 어떻게 실행되었는지 검토하려면 **[!UICONTROL 로그 표시]**&#x200B;를 클릭하십시오. 자세한 내용은 [결과 보기](#viewing-logs)를 참조하세요.
+1. **[!UICONTROL 결과]** 탭에 액세스하여 실행 로그를 열고 각 단계가 실행되는 방식을 검토하십시오. 자세한 내용은 [결과 보기](#viewing-results)를 참조하세요.
 
-## 결과 보기 {#viewing-logs}
+## 결과 보기 {#viewing-results}
 
 **[!UICONTROL 결과]** 탭에서 테스트 결과를 볼 수 있습니다. 보기 선택기를 사용하여 로그를 검색하는 방법을 선택합니다.
 
