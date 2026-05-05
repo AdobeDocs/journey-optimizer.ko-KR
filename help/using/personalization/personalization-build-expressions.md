@@ -10,10 +10,10 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: 표현식, 편집기, 정보, 시작
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 03d9f3a09683f53dc666c8ab28117b95c121868f
+source-git-commit: f9fbf3d0dd49c98d3e4d88fc97ff26f44835769c
 workflow-type: tm+mt
-source-wordcount: '1566'
-ht-degree: 10%
+source-wordcount: '1532'
+ht-degree: 11%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 10%
 
 ## 개인화를 추가할 수 있는 위치 {#where}
 
-**[!DNL Journey Optimizer]**&#x200B;개인화 추가 아이콘![&#x200B; 아이콘을 사용하여 모든 필드의 &#x200B;](assets/do-not-localize/add-perso-icon.svg)에 개인화를 추가할 수 있습니다. 자세한 내용을 보려면 아래 섹션을 확장하십시오.
+![개인화 추가 아이콘](assets/do-not-localize/add-perso-icon.svg) 아이콘을 사용하여 모든 필드의 **[!DNL Journey Optimizer]**&#x200B;에 개인화를 추가할 수 있습니다. 자세한 내용을 보려면 아래 섹션을 확장하십시오.
 
 +++메시지
 
@@ -46,48 +46,21 @@ ht-degree: 10%
 
 +++이메일 디자이너
 
-[전자 메일 Designer](../email/get-started-email-design.md)에서 전자 메일 콘텐츠를 편집할 때 상황별 도구 모음의 아이콘을 사용하여 텍스트 블록 및 URL에 개인화를 추가할 수 있습니다.
+[전자 메일 Designer](../email/get-started-email-design.md)에서 전자 메일 콘텐츠를 편집할 때 상황별 도구 모음의 아이콘을 사용하여 대부분의 텍스트 요소에 개인화를 추가할 수 있습니다.
 
 ![](assets/perso_insert.png)
 
 +++
 
-+++오퍼
-
-**오퍼 표시**&#x200B;에서 텍스트 유형 콘텐츠를 사용할 때 개인화를 추가할 수 있습니다. [개인화된 오퍼를 만드는 방법을 알아봅니다](../offers/offer-library/creating-personalized-offers.md)
-
-+++
-
 +++URL
 
-Journey Optimizer을 사용하면 메시지에서 **URL**&#x200B;을(를) 개인화할 수도 있습니다.  개인화된 URL은 프로필 속성에 따라 수신자를 웹사이트의 특정 페이지 또는 개인화된 마이크로사이트로 이동합니다. URL 개인화는 **외부 링크**, **구독 취소 링크** 및 **옵트아웃** 유형의 링크에서 사용할 수 있습니다.
-
-샘플 개인화된 URL:
-
-* `https://www.adobe.com/users/{{profile.person.name.lastName}}`
-* `https://www.adobe.com/users?uid={{profile.person.name.firstName}}`
-* `https://www.adobe.com/usera?uid={{context.journey.technicalProperties.journeyUID}}`
-* `https://www.adobe.com/users?uid={{profile.person.crmid}}&token={{context.token}}`
+Journey Optimizer을 사용하면 메시지에서 **URL**&#x200B;을(를) 개인화할 수도 있습니다. 개인화된 URL은 프로필 속성에 따라 수신자를 웹사이트의 특정 페이지 또는 개인화된 마이크로사이트로 이동합니다. [자세히 알아보기](../email/url-personalization.md)
 
 ![](assets/perso-url.png){width="50%"}
 
 >[!NOTE]
 >
->개인화 편집기에서 개인화된 URL을 편집할 때 보안상의 이유로 도우미 함수와 대상자 멤버십이 비활성화됩니다.
->
->URL 내에서 사용되는 개인화 토큰에는 공백이 지원되지 않습니다.
-
-Journey Optimizer은 전체/기본 URL 개인화도 지원합니다. 예:
-
-```
-<a href="{{profile.social.link}}" />
-<a href="{{profile.social.baseUrl}}/profile" />
-<a href="https://{{profile.social.baseUrl}}/profile" />
-```
-
->[!NOTE]
->
->전체 또는 기본 URL 개인화를 활성화하려면 Adobe에 연락하여 허용된 도메인 목록을 제공하십시오.
+>URL 개인화는 **외부 링크**, **구독 취소 링크** 및 **옵트아웃** 유형의 링크에서 사용할 수 있습니다.
 
 +++
 
@@ -97,13 +70,19 @@ Journey Optimizer은 전체/기본 URL 개인화도 지원합니다. 예:
 
 +++
 
++++오퍼
+
+**오퍼 표시**&#x200B;에서 텍스트 유형 콘텐츠를 사용할 때 개인화를 추가할 수 있습니다. [개인화된 오퍼를 만드는 방법을 알아봅니다](../offers/offer-library/creating-personalized-offers.md)
+
++++
+
 ## Personalization 소스 {#sources}
 
 탐색 창에서는 개인화를 위한 소스를 선택할 수 있습니다. 사용 가능한 소스는 다음과 같습니다.
 
 * **[!UICONTROL 프로필 특성]** : [XDM(Adobe Experience Platform 데이터 모델) 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR){target="_blank"}에 설명된 프로필 스키마와 관련된 모든 참조를 나열합니다.
 * **[!UICONTROL 대상 특성]** : 이 폴더는 오케스트레이션된 캠페인에만 적용됩니다. 여기에는 캠페인 캔버스 내에서 직접 계산된 속성이 포함됩니다. [오케스트레이션된 캠페인에서 개인화를 추가하는 방법을 알아봅니다](../orchestrated/activities/channels.md#add-personalization)
-* **[!UICONTROL 대상]** : Adobe Experience Platform 세분화 서비스에서 만든 모든 대상을 나열합니다. 사용 가능한 세분화에 대한 자세한 정보는 [여기](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ko){target="_blank"}를 참조하세요.
+* **[!UICONTROL 대상]** : Adobe Experience Platform 세분화 서비스에서 만든 모든 대상을 나열합니다. 자세한 내용은 [Adobe Experience Platform 세그멘테이션 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ko){target="_blank"}를 참조하세요.
 * **[!UICONTROL 오퍼 결정]** : 특정 배치와 관련된 모든 오퍼를 나열합니다. 배치를 선택한 다음 콘텐츠에 오퍼를 삽입합니다. 오퍼 관리 방법에 대한 전체 문서를 보려면 [이 섹션](../offers/get-started/starting-offer-decisioning.md)을 참조하세요.
 * **[!UICONTROL 컨텍스트 특성]** : 여정 또는 캠페인에서 채널 작업 활동(이메일, 푸시, SMS)을 사용하면 이벤트 및 속성과 관련된 컨텍스트 특성을 개인화할 수 있습니다. 컨텍스트 특성을 활용하는 개인화의 예는 [이 섹션](personalization-use-case.md)에 나와 있습니다. 또한 사용자 지정 작업 응답을 개인화에 사용할 수 있습니다. [기본 채널에서 사용자 지정 작업 응답을 사용하는 방법을 알아봅니다](../action/action-response.md#response-in-channels).
 
@@ -250,7 +229,7 @@ Offer.<offerType>.[PlacementID].[ActivityID].<offer-attribute>
  </thead> 
  <tbody> 
   <tr> 
-   <td>ID placementID 및 유형 OfferPlacement의 리소스를 찾을 수 없습니다. <br/>
+   <td>ID placementID 및 유형 OfferPlacement의 리소스를 찾을 수 없음 <br/>
 ID activityID 및 유형의 리소스를 찾을 수 없음<br/></td> 
    <td>ActivityID 및/또는 PlacementID를 사용할 수 있는지 확인</td> 
   </tr> 
@@ -272,9 +251,9 @@ ID activityID 및 유형의 리소스를 찾을 수 없음<br/></td>
   </tr>
   <tr> 
    <td>오퍼 속성 offer-attribute가 잘못되었습니다.</td> 
-   <td>오퍼 DRP에서 참조된 오퍼 속성이 유효한지 확인합니다. 다음은 올바른 특성입니다. <br/>
+   <td>오퍼 DRP에서 참조된 오퍼 속성이 유효한지 확인합니다. 다음은 유효한 속성입니다. <br/>
 이미지: deliveryURL, linkURL<br/>
-텍스트: 컨텐츠<br/>
+텍스트: 콘텐츠<br/>
 HTML: 콘텐츠<br/></td> 
   </tr> 
  </tbody> 

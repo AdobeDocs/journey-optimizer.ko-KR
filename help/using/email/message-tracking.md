@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 링크, 추적, 모니터링, 이메일
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 4a78734dc7f9fafd1e8c64aab310cb130ffd928f
+source-git-commit: f9fbf3d0dd49c98d3e4d88fc97ff26f44835769c
 workflow-type: tm+mt
-source-wordcount: '1513'
-ht-degree: 22%
+source-wordcount: '1364'
+ht-degree: 26%
 
 ---
 
@@ -56,11 +56,11 @@ ht-degree: 22%
 여러 전자 메일에서(또는 한 전자 메일에서 여러 번) 동일한 URL을 추적하려면 유사한 각 URL에 대해 고유한 레이블을 사용합니다. 그렇지 않으면 [!DNL Journey Optimizer]에서 클릭한 링크를 추적할 수 없습니다. `data-label` 특성을 통해 이메일 Designer 또는 HTML의 경우 개별 레이블을 설정할 수 있습니다.
 
 | URL | 태그 | 레이블 | urlID 동작 |
-|-----|-----|-------|----------------|
-| www.example.com | 첫 번째 | (공백) | urlID(예: A)를 가져옵니다. |
-| www.example.com | Second | (공백) | urlID A 재사용 — 클릭한 링크를 파악할 수 없음 |
-| www.example.com | 세 번째 | 첫 번째 레이블 | urlID를 가져옵니다(예: B). |
-| www.example.com | 네 번째 | 두 번째 레이블 | urlID(예: C)를 가져옵니다. |
+| --- | --- | --- | --- |
+| `https://www.example.com` | 첫 번째 | (공백) | urlID(예: A)를 가져옵니다. |
+| `https://www.example.com` | Second | (공백) | urlID A 재사용 — 클릭한 링크를 파악할 수 없음 |
+| `https://www.example.com` | 세 번째 | 첫 번째 레이블 | urlID를 가져옵니다(예: B). |
+| `https://www.example.com` | 네 번째 | 두 번째 레이블 | urlID(예: C)를 가져옵니다. |
 
 ## 링크 삽입 {#insert-links}
 
@@ -96,7 +96,7 @@ ht-degree: 22%
    >
    >URL을 해석하기 위해 [!DNL Journey Optimizer]은(는) URL에 일부 특수 국제 문자를 사용하지 않도록 설정하는 URI 구문([RFC 3986 standard](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"})을 준수합니다. 증명 또는 이메일을 전송하려고 할 때 콘텐츠에 추가된 URL과 관련된 오류가 반환되면 URL로 문자열을 인코딩할 수 있습니다.
 
-1. 링크를 개인화할 수 있습니다. [자세히 알아보기](../personalization/personalization-build-expressions.md)
+1. 링크를 개인화할 수 있습니다. [자세히 알아보기](url-personalization.md)
 
 1. 변경 내용을 저장합니다.
 
@@ -106,13 +106,13 @@ ht-degree: 22%
 
 >[!NOTE]
 >
->마케팅 유형 이메일 메시지에는 [옵트아웃 링크](../privacy/opt-out.md#opt-out-decision-management)가 포함되어야 합니다. 이는 트랜잭션 메시지에는 필요하지 않습니다. 메시지를 만들 때 **[!UICONTROL 채널 구성]**&#x200B;에 메시지 범주(**[!UICONTROL 마케팅]** 또는 [트랜잭션](email-settings.md#email-type))가 정의되어 있습니다.
+>마케팅 유형 이메일 메시지에는 [옵트아웃 링크](../privacy/opt-out.md#opt-out-decision-management)가 포함되어야 합니다. 이는 트랜잭션 메시지에는 필요하지 않습니다. 메시지를 만들 때 [채널 구성](email-settings.md#email-type)에 메시지 범주(**[!UICONTROL 마케팅]** 또는 **[!UICONTROL 트랜잭션]**)가 정의되어 있습니다.
 
 메시지를 보낸 후 링크의 유지 기간은 **25개월**&#x200B;입니다. 해당 지연 후에는 링크를 더 이상 사용할 수 없습니다.
 
 >[!CAUTION]
 >
->**사용자 지정 가능한 조각**&#x200B;에서 단추의 **레이블**&#x200B;과(와) [URL](../content-management/customizable-fragments.md)을(를) 모두 편집할 수 있게 되면 추적 보고서에 단추 레이블 대신 URL이 표시됩니다.
+>[사용자 지정 가능한 조각](../content-management/customizable-fragments.md)에서 단추의 **레이블**&#x200B;과(와) **URL**&#x200B;을(를) 모두 편집할 수 있게 되면 추적 보고서에 단추 레이블 대신 URL이 표시됩니다.
 
 ## 미러 페이지 링크 {#mirror-page}
 
@@ -199,26 +199,4 @@ Adobe Journey Optimizer에서 생성한 미러 페이지에는 모든 개인화 
 
 ## URL 추적 개인화 {#url-tracking}
 
-[URL 추적](email-settings.md#url-tracking)은(는) 구성 수준에서 관리되며 메시지 콘텐츠에 포함된 모든 URL에 적용됩니다.
-
-이메일 Designer에서 개별 URL을 개인화할 수도 있습니다. 개인화된 URL 추적 매개 변수를 콘텐츠의 단일 링크에 추가하려면 아래 단계를 따르십시오.
-
-1. 링크를 선택하고 상황별 도구 모음에서 **[!UICONTROL 링크 삽입]**&#x200B;을 클릭합니다.
-
-1. 개인화 아이콘을 선택합니다. **외부 링크**, **구독 취소 링크** 및 **옵트아웃** 링크 유형에만 사용할 수 있습니다.
-
-   ![](assets/message-tracking-insert-link-perso.png)
-
-1. URL 추적 매개 변수를 추가하고 [개인화 편집기](../personalization/personalization-build-expressions.md)에서 선택한 프로필 특성을 선택합니다.
-
-   ![](assets/message-tracking-perso-parameter.png)
-
-1. 변경 내용을 저장합니다.
-
-1. 이 추적 매개 변수를 추가할 각 링크에 대해 위의 단계를 반복합니다.
-
-이제 이메일이 발송되면 이 매개 변수가 URL의 끝에 자동으로 추가됩니다. 그런 다음 웹 분석 도구 또는 성능 보고서에서 이 매개 변수를 캡처할 수 있습니다.
-
->[!NOTE]
->
->최종 URL을 확인하려면 증명을 [보내고](../content-management/proofs.md) 증명을 받은 후 전자 메일의 콘텐츠에서 링크를 클릭할 수 있습니다. URL에 추적 매개 변수가 표시되어야 합니다. 위의 예에서 최종 URL은 <https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>입니다.
+URL 개인화에 대한 자세한 지침(URL 추적 매개 변수를 개인화하는 방법 및 전체/기본 URL을 개인화하는 방법 포함)은 [URL 개인화](url-personalization.md)를 참조하십시오.
