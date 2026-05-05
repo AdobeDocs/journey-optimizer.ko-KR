@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
 version: Journey Orchestration
-source-git-commit: 7a06b03bda6d07f00f4453397b035073ad1354a4
+source-git-commit: 626d83c872f2900de7b11337faab5012bc346e34
 workflow-type: tm+mt
-source-wordcount: '943'
-ht-degree: 16%
+source-wordcount: '1106'
+ht-degree: 13%
 
 ---
 
@@ -129,8 +129,30 @@ ht-degree: 16%
 >
 >[자격 규칙 보호 및 제한에 대해 자세히 알아보기](decisioning-guardrails.md#eligibility-rules)
 
+## AI 기반 규칙 최적화 {#optimize}
+
+[!DNL Journey Optimizer]은(는) 규칙을 자동으로 분석하고 원래 논리를 유지하는 단순화를 제안할 수 있습니다. PQL 표현식이 **2KB**(UTF-8 인코딩)보다 큰 규칙만 해당되며 더 작은 표현식은 분석되지 않습니다. 단순화가 발견되면 인벤토리의 규칙 옆에 빨간색 **[!UICONTROL 최적화]** 표시기가 나타납니다.
+
+>[!NOTE]
+>
+>AI 기반 규칙 최적화는 **AI Assistant**&#x200B;와 동일한 생성 AI 기능을 사용하며 동일한 액세스 제어를 사용합니다. 사용자에게 **[!UICONTROL AI 도우미]** 리소스에 대한 **[!UICONTROL 콘텐츠 생성]** 권한이 부여되어야 합니다. 자세한 내용은 [AI 길잡이에 액세스](../content-management/gs-generative.md#generative-access)를 참조하세요.
+
+![](assets/decision-rules-ai.png)
+
+규칙을 최적화하려면 다음을 수행합니다.
+
+1. 규칙 인벤토리에서 규칙 이름 옆에 있는 빨간색 표시기 아이콘을 클릭합니다.
+
+1. AI가 제안하는 버전과 함께 원래 PQL 표현식을 표시하는 **[!UICONTROL 최적화]** 창이 열립니다.
+
+   ![](assets/decision-rules-ai-details.png)
+
+1. 두 식이 모두 동일하게 동작하는지 확인하려면 **[!UICONTROL TSV(최적화 분석) 다운로드]**&#x200B;를 클릭하여 시뮬레이트된 프로필이 각 버전에 대해 평가되는 방식을 보여 주는 파일을 다운로드하십시오.
+
+1. 만족하면 **[!UICONTROL 적용]**&#x200B;을 클릭하여 원래 식을 최적화된 식으로 바꿉니다.
+
 ## 사용 방법 비디오 {#video}
 
 Adobe Journey Optimizer에서 재사용 가능한 **타깃팅 규칙**&#x200B;을(를) 만들고, 복제하고, 적용하여 지역, 언어 및 동작과 같은 고객 특성을 기반으로 캠페인을 효율적으로 개인화하여 시간을 절약하고 대상 정밀도를 향상시키는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476134/?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476127/?quality=12)

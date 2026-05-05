@@ -7,14 +7,14 @@ role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 626d83c872f2900de7b11337faab5012bc346e34
 workflow-type: tm+mt
-source-wordcount: '1459'
+source-wordcount: '1731'
 ht-degree: 5%
 
 ---
 
-# AI 공식 빌더 사용 {#create-ranking-formulas}
+# 순위 공식 만들기 {#create-ranking-formulas}
 
 **등급 수식**&#x200B;을 사용하면 우선 순위 점수를 고려하지 않고 먼저 제시해야 할 오퍼를 결정하는 규칙을 정의할 수 있습니다.
 
@@ -26,7 +26,18 @@ ht-degree: 5%
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
 
-## 순위 공식 만들기 {#create-ranking-formula}
+## 가드레일 및 제한 사항 {#ranking-guardrails}
+
+등급 수식을 만들기 전에 다음 제한 사항을 염두에 두십시오.
+
+* AI 수식 빌더는 연속 지표를 사용하는 [개인화된 최적화 모델](personalized-optimization-model.md)을 지원하지 않습니다.
+* AI 모델을 순위 공식에 사용하면 데이터가 [보류 및 모델 기반 트래픽에 대한 전환율](../../reports/campaign-global-report-cja-code.md#conversion-rate) 보고서에 반영되지 않습니다.
+* 순위 수식의 중첩 깊이는 PQL 문자열에서 `)`을(를) 계산하여 측정한 30개 수준으로 제한됩니다.
+* 순위 공식 문자열은 UTF-8 인코딩 문자(8,000개의 ASCII 문자 또는 2,000-4,000개의 비 ASCII 문자)에 대해 최대 8KB일 수 있습니다.
+* 전환 확인 기간은 등급 수식(예: 지난 달의 경험 이벤트)에서 지원되지 않습니다. 이러한 수식을 저장하려고 하면 오류가 트리거됩니다.
+* [AI 기반 수식 최적화](#optimize)은(는) 코드 기반 PQL 식이 UTF-8 인코딩 크기로 **2KB**&#x200B;보다 큰 등급 수식에만 적용되며 더 작은 수식은 분석되지 않습니다.
+
+## 등급 수식 만들기 및 속성 설정 {#create-ranking-formula}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_formulas"
@@ -47,52 +58,36 @@ ht-degree: 5%
 
 1. 선택적으로 **[!UICONTROL AI 모델 선택]**&#x200B;을 클릭하여 순위 공식을 만드는 데 참조로 사용할 모델을 설정합니다.
 
-   >[!NOTE]
-   >
-   >연속 지표를 사용하는 [개인화된 최적화 모델](personalized-optimization-model.md)은(는) AI 수식 빌더에서 지원되지 않습니다.
-
    아래 공식을 정의할 때 모델 점수를 참조할 때마다 선택한 AI 모델이 사용됩니다.
 
-   >[!CAUTION]
-   >
-   >순위 공식에 통합된 AI 모델을 사용할 때 데이터는 [홀드아웃 및 모델 기반 트래픽에 대한 전환율](../../reports/campaign-global-report-cja-code.md#conversion-rate) 보고서에 반영되지 않습니다.
+1. 일치하는 결정 항목에 대한 순위 점수를 결정할 조건을 정의합니다. 다음과 같은 작업을 수행할 수 있습니다.
 
-1. 일치하는 결정 항목에 대한 순위 점수를 결정할 조건을 정의합니다. 다음을 수행할 수 있습니다.
+   * [수식 빌더](#ranking-select-criteria)를 사용하여 **[!UICONTROL 기준]** 섹션을 채우거나
+   * **[!UICONTROL 코드 편집기로 전환]**&#x200B;을 클릭하여 코드 편집기에서 [PQL](#ranking-code-editor)을(를) 사용하여 순위 논리를 정의하거나 세분화합니다.
 
-   * **[!UICONTROL 사용자 인터페이스]**&#x200B;에서 [기준](#ranking-select-criteria) 섹션을 채우십시오.
-   * 또는 [코드 편집기](#ranking-code-editor)(으)로 전환하십시오.
+## Adobe Experience Platform 데이터 사용 {#aep-data}
 
-   >[!NOTE]
-   >
-   >순위 수식의 중첩 깊이는 30개 수준으로 제한됩니다. 이는 PQL 문자열에서 `)` 닫는 괄호를 계산하여 측정됩니다. 규칙 문자열의 크기는 UTF-8 인코딩 문자의 경우 최대 8KB까지 가능합니다. 이는 8,000개의 ASCII 문자(각각 1바이트) 또는 2,000-4,000개의 비 ASCII 문자(각각 2-4바이트)에 해당합니다. [보호 기능 및 제한 결정에 대해 자세히 알아보기](../decisioning-guardrails.md#ranking-formulas)
+**[!UICONTROL 데이터 집합 조회]** 섹션에서 Adobe Experience Platform의 데이터를 사용하여 실제 조건을 반영하도록 순위 논리를 동적으로 조정할 수 있습니다.
 
-1. Adobe Experience Platform의 데이터를 사용하여 실제 조건을 반영하도록 순위 논리를 동적으로 조정할 수도 있습니다. 이 기능은 제품 가용성 또는 실시간 가격과 같이 자주 변경되는 속성에 특히 유용합니다. [의사 결정을 위해 Adobe Experience Platform 데이터를 사용하는 방법 알아보기](../aep-data-exd.md)
+이 기능은 제품 가용성 또는 실시간 가격과 같이 자주 변경되는 속성에 특히 유용합니다. [의사 결정을 위해 Adobe Experience Platform 데이터를 사용하는 방법 알아보기](../aep-data-exd.md)
 
-<!--
-## Select an ELS dataset {#els-dataset}
-
-Journey Optimizer allows you to leverage data from Adobe Experience Platform. [Learn more](../data/aep-data-perso.md)
-
-To leverage data from an AEP dataset, follow the steps below.
-
-1. From the **[!UICONTROL ELS settings]** section, select an ELS dataset from the list.
-
-1. Select a decision attribute.
-
-    >[!NOTE]
-    >
-    >This action is mandatory.
-
-![](../assets/formula-els-settings.png){width="80%"}
--->
+![](../assets/ranking-formula-dataset.png)
 
 ## 공식 빌더를 사용하여 기준 정의 {#ranking-select-criteria}
 
+일치하는 결정 항목의 순위 점수를 결정할 **기준**&#x200B;을(를) 정의합니다.
+
 직관적인 인터페이스를 통해 AI 점수(성향), 오퍼 가치(우선 순위), 컨텍스트 레버 및 외부 프로필 성향을 개별적으로 또는 조합하여 조정하여 의사 결정을 세밀하게 조정하여 모든 상호 작용을 최적화할 수 있습니다. <!--Whether you are maximizing revenue, promoting strategic offers, or balancing business goals with real-time context, the formula builder gives you total control in defining ranking strategies.-->
 
-인터페이스에서 직접 기준을 정의하려면 아래 단계를 따르십시오.
-
 <!--![](../assets/ranking-formula-criteria.png){width="80%"}-->
+
+1. 필요한 경우 **[!UICONTROL 코드 편집기로 전환]**&#x200B;을 클릭하여 수식 빌더와 함께 **PQL 구문**&#x200B;을 사용하는 식을 추가합니다. 이 옵션은 아래 단계의 사용자 인터페이스 필드를 보완하므로, 동일한 순위 공식에서 두 접근 방식을 모두 결합할 수 있습니다. PQL 구문을 사용하는 방법에 대한 자세한 내용은 [전용 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=ko)를 참조하세요. 결정 항목 특성 및 복사-붙여넣기 예제에 대한 구문은 [코드 편집기 사용](#ranking-code-editor) 섹션에 제공됩니다.
+
+   ![](../assets/ranking-formula-code-editor-button.png)
+
+   >[!NOTE]
+   >
+   >코드 편집기로 전환하면 기준에 표현식 기반 입력이 추가되고 다른 사용자 인터페이스 필드는 제거되지 않습니다.
 
 1. **[!UICONTROL 기준 1]** 섹션에서 다음을 수행하여 순위 점수를 적용할 결정 항목을 지정합니다.
    * [결정 항목 특성](../items.md#attributes) 선택
@@ -129,33 +124,33 @@ To leverage data from an AEP dataset, follow the steps below.
 
    ![](../assets/ranking-formula-criteria-not-met.png){width="70%"}
 
-1. 순위 공식을 완료하려면 **[!UICONTROL 만들기]**&#x200B;를 클릭하세요. 이제 목록에서 선택하여 세부 정보를 보고 편집하거나 삭제할 수 있습니다. 적격한 결정 항목의 등급을 매기기 위해 [선택 전략](../selection-strategies.md)에서 사용할 준비가 되었습니다.
+   +++순위 공식 예
 
-### 순위 공식 예 {#ranking-formula-example}
+   ![](../assets/ranking-formula-example.png){width="80%"}
 
-아래 예를 생각해 보십시오.
+   의사 결정 항목의 지역(사용자 지정 속성)이 프로필의 지리적 레이블(프로필 속성)과 같은 경우, 여기에 표시된 등급 점수(의사 결정 항목 우선 순위, AI 모델 점수 및 정적 값의 조합임)는 해당 조건을 충족하는 모든 의사 결정 항목에 적용됩니다.
 
-![](../assets/ranking-formula-example.png){width="80%"}
+   +++
 
-의사 결정 항목의 지역(사용자 지정 속성)이 프로필의 지리적 레이블(프로필 속성)과 같은 경우, 여기에 표시된 등급 점수(의사 결정 항목 우선 순위, AI 모델 점수 및 정적 값의 조합임)는 해당 조건을 충족하는 모든 의사 결정 항목에 적용됩니다.
+1. 수식이 준비되면 **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
 
-## 코드 편집기 사용 {#ranking-code-editor}
+이제 목록에서 순위 공식에 액세스하여 세부 정보를 보고 편집하거나 삭제할 수 있습니다. 적격한 결정 항목의 등급을 매기기 위해 [선택 전략](../selection-strategies.md)에서 사용할 준비가 되었습니다.
 
-**PQL 구문**&#x200B;에서 등급 수식을 표현하려면 화면 오른쪽 상단의 전용 단추를 사용하여 코드 편집기로 전환하십시오. PQL 구문을 사용하는 방법에 대한 자세한 내용은 [전용 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=ko)를 참조하세요.
+## 코드 편집기를 사용하여 기준 정의 {#ranking-code-editor}
 
->[!CAUTION]
+순위 논리를 **PQL** 식으로 작성하거나 편집하려면 **[!UICONTROL 코드 편집기로 전환]**&#x200B;을 사용하십시오.
+
+![](../assets/ranking-formula-switch.png)
+
+>[!NOTE]
 >
 >이 작업을 수행하면 이 수식의 기본 빌더 보기로 되돌아 가는 것이 방지됩니다.
 
-그런 다음 프로필 특성 [컨텍스트 데이터](../context-data.md) 및 [결정 항목 특성](../items.md#attributes)을 활용할 수 있습니다.
+프로필 특성 [컨텍스트 데이터](../context-data.md) 및 [결정 항목 특성](../items.md#attributes)을 활용할 수 있습니다.
 
-예를 들어, 실제 날씨가 더운 경우 &quot;hot&quot; 속성을 사용하여 모든 오퍼의 우선 순위를 높이려고 합니다. 이를 위해 **contextData.weather=hot**&#x200B;이(가) 의사 결정 호출에서 전달되었습니다. <!--[Learn how to work with context data](context-data.md)-->
+예를 들어, 실제 날씨가 더운 경우 &quot;hot&quot; 속성을 사용하여 모든 오퍼의 우선 순위를 높이려고 합니다. 이를 위해 **contextData.weather=hot**&#x200B;이(가) 의사 결정 호출에서 전달되었습니다.
 
 ![](../assets/ranking-formula-code-editor.png){width="80%"}
-
->[!IMPORTANT]
->
->등급 수식 생성 시 공식의 구성 요소로 지난 달 내에 발생한 경험 이벤트를 추가하는 등 이전 기간을 되돌아보는 기능은 지원되지 않습니다. 공식을 만드는 동안 전환 확인 기간을 포함하려고 하면 저장 시 오류가 트리거됩니다.
 
 공식에서 의사 결정 항목과 관련된 속성을 활용하려면 등급 공식 코드의 올바른 구문을 따라야 합니다. 자세한 내용을 보려면 각 섹션을 확장하십시오.
 
@@ -171,9 +166,7 @@ To leverage data from an AEP dataset, follow the steps below.
 
 +++
 
-### 등급 공식 PQL 예 {#ranking-formula-examples}
-
-필요에 따라 다양한 등급 수식을 만들 수 있습니다. 다음은 몇 가지 예입니다.
+필요에 따라 다양한 코드 기반 등급 수식을 만들 수 있습니다. 다음은 몇 가지 예입니다.
 
 +++프로필 속성에 따라 특정 오퍼 속성을 사용하여 오퍼 증폭
 
@@ -276,6 +269,28 @@ if( offer._luma.offerDetails.zipCode = _luma.zipCode,luma.annualIncome / 1000 + 
 ```
 
 +++
+
+## AI 기반 공식 최적화 {#optimize}
+
+[!DNL Journey Optimizer]은(는) 자동으로 등급 수식을 분석하고 원래 논리를 유지하는 단순화를 제안할 수 있습니다. PQL 표현식이 **2KB**(UTF-8 인코딩)보다 큰 공식만 사용할 수 있으며 더 작은 표현식은 분석되지 않습니다. 단순화가 발견되면 목록의 공식 이름 옆에 빨간색 표시기가 나타납니다.
+
+![](../assets/ranking-formula-ai.png)
+
+>[!NOTE]
+>
+>AI 기반 수식 최적화는 **AI Assistant**&#x200B;와 동일한 생성 AI 기능을 사용하며 동일한 액세스 제어를 사용합니다. 사용자에게 **[!UICONTROL AI 도우미]** 리소스에 대한 **[!UICONTROL 콘텐츠 생성]** 권한이 부여되어야 합니다. 자세한 내용은 [AI 길잡이에 액세스](../../content-management/gs-generative.md#generative-access)를 참조하세요.
+
+순위 공식을 최적화하려면
+
+1. 등급 수식 목록에서 수식 이름 옆에 있는 빨간색 표시기 아이콘을 클릭합니다.
+
+1. AI가 제안하는 버전과 함께 원래 PQL 표현식을 표시하는 **[!UICONTROL 최적화]** 창이 열립니다.
+
+   ![](../assets/ranking-formula-ai-details.png)
+
+1. 두 식이 동일한 순위 결과를 생성하는지 확인하려면 **[!UICONTROL TSV(최적화 분석) 다운로드]**&#x200B;를 클릭하여 각 버전에 대해 시뮬레이션된 프로필을 평가하는 방법을 보여 주는 파일을 다운로드합니다.
+
+1. 만족하면 **[!UICONTROL 적용]**&#x200B;을 클릭하여 원래 식을 최적화된 식으로 바꿉니다.
 
 ## 사용 방법 비디오 {#video}
 
