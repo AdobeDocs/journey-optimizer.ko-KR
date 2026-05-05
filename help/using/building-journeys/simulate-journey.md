@@ -10,14 +10,14 @@ level: Intermediate
 keywords: 테스트, 여정, 확인, 오류, 문제 해결
 version: Journey Orchestration
 badge: label="제한 공개" type="Informative"
-source-git-commit: 064a1e595e4b8ac532b9d9c24b0c1d490ab5e1ce
+source-git-commit: 458b4ff29023e56e68655bcb7bdf3e647c8e8168
 workflow-type: tm+mt
 source-wordcount: '1861'
 ht-degree: 1%
 
 ---
 
-# 여정 시뮬레이션{#testing_the_journey}
+# 여정 시뮬레이션{#simulate-journey}
 
 >[!IMPORTANT]
 >
