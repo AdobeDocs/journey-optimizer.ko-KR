@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 테스트, 여정, 확인, 오류, 문제 해결
 version: Journey Orchestration
 badge: label="제한 공개" type="Informative"
-source-git-commit: 51a8ad000bbb485852d6e3daee13a7c1852123fc
+source-git-commit: b858b41cf65ed28e229938102e0f44b369180da8
 workflow-type: tm+mt
 source-wordcount: '1858'
 ht-degree: 1%
