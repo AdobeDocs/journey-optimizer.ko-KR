@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 626d83c872f2900de7b11337faab5012bc346e34
+source-git-commit: 2fa5933d2b4f2c44829da1927cabf1a03998889f
 workflow-type: tm+mt
-source-wordcount: '2165'
+source-wordcount: '2183'
 ht-degree: 20%
 
 ---
@@ -32,6 +32,25 @@ ht-degree: 20%
 <table>
 <thead>
 <tr>
+<th><strong>여정 시뮬레이션</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 여정을 <strong>시뮬레이션</strong>(으)로 설정할 수 있습니다. 이 모드를 사용하면 <strong>시뮬레이션된 사용자</strong>를 사용하여 논리의 유효성을 검사할 수 있습니다. 이러한 프로필은 시뮬레이션을 위해 특별히 생성된 임시 프로필로서, Adobe Experience Platform에서 지속적인 테스트 프로필을 관리할 필요 없이 자유롭게 테스트할 수 있습니다.</p>
+<p>이 기능은 필수 기능을 갖춘 제한된 가용성으로 모든 고객이 사용할 수 있습니다.</p>
+<p><img src="assets/do-not-localize/simulate-user.gif"></p>
+<p>자세한 내용은 <a href="../building-journeys/simulate-journey.md">세부 설명서</a>를 참조하십시오.</p>
+<p>사용 가능한 날짜: 2026년 5월 5일</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>의사 결정 규칙 및 등급 수식 AI 최적화</strong><br/></th>
 </tr>
 </thead>
@@ -45,20 +64,6 @@ ht-degree: 20%
 </tr>
 </tbody>
 </table>
-
-## 2026년 4월 릴리스 정보 {#april-26-rn}
-
-<!--
-**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
-
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
--->
-
-4월 초에 출시된 새로운 기능 및 개선 사항은 출시 일자와 함께 발표됩니다.
-
-**릴리스 날짜**: 2026년 4월 28~29일
-
-### 새로운 기능 {#april-26-features}
 
 <table>
 <thead>
@@ -78,6 +83,20 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 </tbody>
 </table>
 
+## 2026년 4월 릴리스 정보 {#april-26-rn}
+
+<!--
+**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
+
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+-->
+
+4월 초에 출시된 새로운 기능 및 개선 사항은 출시 일자와 함께 발표됩니다.
+
+**릴리스 날짜**: 2026년 4월 28~29일
+
+### 새로운 기능 {#april-26-features}
+
 <table>
 <thead>
 <tr>
@@ -91,6 +110,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 이렇게 하면 쿼리 워크로드를 줄이고 시간이 지남에 따라 중복 전송을 방지하면서 순 신규 대상자(새 등록, 새로 자격을 얻은 충성도 멤버 및 유사한 세그먼트)에 초점을 맞춘 반복 캠페인을 유지할 수 있습니다.</p>
 <p>자세한 내용은 <a href="../orchestrated/activities/incremental-query.md#incremental-query-configuration">세부 설명서</a>를 참조하십시오.</p>
+<p>사용 가능한 날짜: 2026년 4월 30일</p>
 </td>
 </tr>
 </tbody>
@@ -390,23 +410,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 다음 기능 및 개선 사항은 며칠 내에 릴리스될 예정입니다. **이 정보는 변경될 수 있습니다**. 업데이트된 링크, 화면, 설명서는 업데이트가 프로덕션에서 제공될 때 공유 예정입니다.
 
 ### 새로운 기능 {#comming-soon-features}
-
-<table>
-<thead>
-<tr>
-<th><strong>여정 시뮬레이션</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 여정을 <strong>시뮬레이션</strong>(으)로 설정할 수 있습니다. 이 모드를 사용하면 <strong>시뮬레이션된 사용자</strong>를 사용하여 논리의 유효성을 검사할 수 있습니다. 이러한 프로필은 시뮬레이션을 위해 특별히 생성된 임시 프로필로서, Adobe Experience Platform에서 지속적인 테스트 프로필을 관리할 필요 없이 자유롭게 테스트할 수 있습니다.</p>
-<p>이 기능은 필수 기능을 갖춘 제한된 가용성으로 모든 고객이 사용할 수 있습니다.</p>
-<!--p><img src="assets/do-not-localize/simulate-user.gif"></p-->
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
