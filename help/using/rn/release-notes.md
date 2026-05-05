@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d975d9cd95d33ea8972cf9388e7f868009c4fb95
+source-git-commit: f274d56a19ccc21b04452b2bca2b17e07159d819
 workflow-type: tm+mt
-source-wordcount: '1990'
-ht-degree: 21%
+source-wordcount: '2046'
+ht-degree: 20%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 21%
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 4월 초에 출시된 새로운 기능 및 개선 사항은 출시 일자와 함께 발표됩니다.
@@ -283,13 +283,15 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 ### 개선 사항 {#april-26-improv}
 
-<!--
 #### AI
 
+<!--
 * **Brand alignment score in Campaign dashboard** - You can now assess your brand alignment score directly within your Campaign dashboard to ensure content stays on-brand. This allows you to verify guidelines at a glance without having to open the content designer.
-
-* **Prompt Assistant enhancement** - Prompt Assistant enhances AI content generation by analyzing user prompts in real time and identifying gaps in clarity, completeness, and context. It suggests improved rewrites and provides actionable guidance to enrich prompts with key details like audience, tone, and intent. The feature also asks targeted clarifying questions to help users refine their inputs before generation. This results in more accurate, high-quality outputs with fewer iterations. [Learn more](../content-management/ai-assistant-prompting-guide.md)
 -->
+
+* **프롬프트 길잡이 개선** - 프롬프트 길잡이는 사용자 프롬프트를 실시간으로 분석하고 명확성, 완전성 및 컨텍스트의 차이를 식별하여 AI 콘텐츠 생성을 개선합니다. 향상된 재작성을 제안하고 대상, 색조 및 의도와 같은 주요 세부 사항으로 프롬프트를 보강하는 실행 가능한 지침을 제공합니다. 이 기능은 또한 사용자가 생성 전에 입력을 구체화하는 데 도움이 되는 타겟팅된 명확화 질문을 제공합니다. 따라서 반복이 적을수록 보다 정확하고 고품질의 출력이 생성됩니다. [자세히 알아보기](../content-management/ai-assistant-prompting-guide.md#prompt-assistant)
+
+  사용 가능한 날짜: 2026년 5월 5일
 
 #### 푸시
 
