@@ -11,7 +11,7 @@ hide: true
 keywords: 조각, 여정, 재사용, 노드, 캔버스, 인벤토리, 재사용 가능
 badge: label="제한 공개" type="Informative"
 version: Journey Orchestration
-source-git-commit: d18f56e2730ba4b59d2923ed0b7a00ccfff06b3f
+source-git-commit: b3eea401c9073ff7ff6c0f5397552ef037371664
 workflow-type: tm+mt
 source-wordcount: '1482'
 ht-degree: 9%
@@ -71,6 +71,7 @@ ht-degree: 9%
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다. 조각은 초안으로 저장됩니다.
 
 >[!TIP]
+>
 >여정에서 조각을 만드는 경우 [여정을 테스트하거나 시뮬레이션](testing-the-journey.md) **이전**&#x200B;하여 선택한 노드가 예상대로 작동하도록 조각을 저장합니다.
 
 >[!TAB 조각 인벤토리에서]
@@ -83,6 +84,7 @@ ht-degree: 9%
 1. 완료되면 **[!UICONTROL 저장]**&#x200B;을 클릭하여 조각을 초안으로 저장합니다.
 
 >[!CAUTION]
+>
 >조각 편집기에서 테스트 모드 및 시뮬레이션을 사용할 수 없습니다. 즉, 조각이 활성화되고 여정에 삽입되기 전에 구성된 활동의 동작을 확인할 수 없습니다. 논리 정확도가 중요한 조각의 경우 먼저 [전체 여정에서 노드를 빌드하고 테스트하거나 시뮬레이션](testing-the-journey.md)한 다음 위의 캔버스 탭에서 조각으로 저장하는 것이 좋습니다.
 
 >[!ENDTABS]
