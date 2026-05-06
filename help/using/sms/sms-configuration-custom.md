@@ -7,7 +7,7 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: ea2753bd9ce7372e53fefc7816d19a7a3c73b87d
+source-git-commit: 5beaf2b7dc339cb94352cd7503dd86a97a6db6bd
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 11%
@@ -62,13 +62,13 @@ Adobe에서 즉시 사용할 수 없는 사용자 정의 공급자(예: Sinch, I
 
    * **[!UICONTROL 공급자 URL]**: SMS 공급자의 URL을 입력하십시오.
 
-   * **인증 유형{&#x200B;1}: 인증 유형을 선택하고 [선택한 인증 방법에 따라 해당 필드를 완료](#auth-options)합니다.**
+   * **[!UICONTROL 인증 유형{&#x200B;1}: 인증 유형을 선택하고 [선택한 인증 방법에 따라 해당 필드를 완료](#auth-options)합니다.]**
 
      ![](assets/sms-byop.png)
 
 1. 보안 연결을 설정하기 전에 클라이언트와 서버가 서로 인증하도록 하는 **[!UICONTROL mTLS 지원]** 옵션을 사용하도록 설정하십시오.
 
-   mTLS만 사용하려면 **[!UICONTROL 인증 유형]** 드롭다운에서 **[!UICONTROL 인증 없음]**&#x200B;을 선택한 다음 **[!UICONTROL mTLS 지원]**&#x200B;을 사용하도록 설정하십시오.
+   mTLS만 사용하려면 **[!UICONTROL 인증 유형]** 드롭다운에서 **[!UICONTROL 인증 없음]**&#x200B;을 선택한 다음 ** [!UICONTROL mTLS 지원]을 **.
 
 1. **[!UICONTROL Headers]** 섹션에서 **[!UICONTROL 새 매개 변수 추가]**&#x200B;를 클릭하여 외부 서비스로 전송될 요청 메시지에 대한 HTTP 헤더를 지정합니다.
 
