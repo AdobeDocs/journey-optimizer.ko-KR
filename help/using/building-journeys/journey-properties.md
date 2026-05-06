@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 여정, 구성, 속성
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 9822d87484947a3e86412e4dbe2d20fbef39acf1
+source-git-commit: 18984a14c6831c6476be18bd48266f3f265a7456
 workflow-type: tm+mt
-source-wordcount: '3446'
-ht-degree: 13%
+source-wordcount: '3633'
+ht-degree: 12%
 
 ---
 
@@ -41,6 +41,7 @@ ht-degree: 13%
 * 여정 및 프로필 [시간대](#timezone) 선택
 * 사용자 지정 [시작 및 종료 날짜 선택](#dates)
 * 여정 활동에서 [시간 제한 기간](#timeout)을(를) 정의합니다(관리자 전용).
+* 게시 오류를 방지하려면 [현재 여정 페이로드 크기](#journey-payload-size)를 모니터링하십시오.
 * [충돌 관리 도구](#conflict)를 사용하여 충돌을 모니터링하고 여정 우선 순위 지정
 
 일반 설정 및 고급 옵션이 있는 ![여정 속성 구성 창](assets/new-journey-properties.png){width="80%"}{zoomable="yes"}
@@ -112,6 +113,23 @@ ht-degree: 13%
 여정 지정 데이터 사용 레이블을 사용자에게 할당하려면 **[!UICONTROL 액세스 레이블 관리]** 아이콘을 클릭하고 하나 또는 여러 레이블을 선택합니다.
 
 [OLAC(Object Level Access Control)에 대해 자세히 알아보기](../administration/object-based-access.md)
+
+## 여정 페이로드 크기 {#journey-payload-size}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties_payload_size"
+>title="현재 여정 페이로드 크기"
+>abstract="구성된 제한과 비교한 여정 페이로드의 현재 크기를 표시합니다. 이 지표를 사용하여 게시 전에 여정 복잡성을 모니터링하고 페이로드 크기 제한 초과로 인한 오류를 방지할 수 있습니다."
+
+여정 속성 패널의 **[!UICONTROL 현재 여정 페이로드 크기]** 필드에는 구성된 제한과 관련된 여정 페이로드의 현재 크기(예: *1.5MB(2MB 중)*)가 표시됩니다. 이 읽기 전용 표시기는 여정 작성 단계에서 볼 수 있습니다.
+
+![여정 속성 패널의 현재 여정 페이로드 크기 표시기](assets/journey-payload-size.png){width="50%" zoomable="yes"}
+
+이 정보를 사용하여 게시하기 전에 여정의 복잡성을 모니터링합니다. 페이로드 크기가 제한에 근접하거나 초과할 경우 여정 게시가 실패합니다. 크기를 줄이려면 여정 논리를 단순화하거나 활동 수를 줄이는 것이 좋습니다.
+
+기본 제한은 2MB입니다. 조직에 대한 더 높은 제한을 요청해야 하는 경우 Adobe 고객 지원 센터에 문의하십시오.
+
+임계값, 경고 및 오류 메시지, 문제 해결 단계에 대한 자세한 내용은 [여정 페이로드 크기 유효성 검사](../start/guardrails.md#journey-payload-size) 및 [일반 여정 보호](../start/guardrails.md#journeys-guardrails-journeys)를 참조하세요.
 
 ## 여정 및 프로필 시간대 {#timezone}
 

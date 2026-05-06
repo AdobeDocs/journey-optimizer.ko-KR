@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 17be9168735f33a3f1417524ce6cbbc698457935
+source-git-commit: 2b5b7ded23bb14e75aecd5a412b6c372cac3f630
 workflow-type: tm+mt
-source-wordcount: '7267'
+source-wordcount: '7327'
 ht-degree: 67%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 67%
 * 동적 URL 개인화, 전체/기본 URL 개인화, URL 추적 매개 변수 개인화 및 키 가드레일에 대한 지침을 통합하는 새 **전자 메일의 URL 개인화** 페이지가 추가되었습니다. [자세히 보기](../email/url-personalization.md)
 
 * 새 **비즈니스 규칙 쿼리** 섹션이 쿼리 예제 페이지에 추가되어 특정 날짜 이후 특정 여정에 대한 여정 빈도 제한 제외로 인한 모든 프로필 취소를 확인하는 Data Lake 쿼리를 제공합니다. 상한에 도달했거나(`CAP_REACHED`) 우선 순위가 낮아(`LOWER_PRIORITY`) 프로필이 제외되었는지 여부를 확인하기 위해 쿼리에 `eventCodeReason` 필드가 포함되어 있습니다. [자세히 보기](../reports/query-examples.md#business-rules-queries)
+
+* **여정 속성** 설명서가 여정 속성 패널에서 새 **현재 여정 페이로드 크기** 표시기를 문서화하도록 업데이트되었습니다. 이 읽기 전용 필드는 구성된 제한(예: 2MB 중 1.5MB)과 비교한 여정 페이로드의 현재 크기를 표시하므로 게시하기 전에 여정 복잡성을 모니터링하고 크기 관련 게시 오류를 방지할 수 있습니다. [자세히 보기](../building-journeys/journey-properties.md#journey-payload-size)
 
 ## 2026년 4월 {#april-2026}
 

@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5beaf2b7dc339cb94352cd7503dd86a97a6db6bd
+source-git-commit: 2b5b7ded23bb14e75aecd5a412b6c372cac3f630
 workflow-type: tm+mt
-source-wordcount: '2545'
-ht-degree: 18%
+source-wordcount: '2609'
+ht-degree: 17%
 
 ---
 
@@ -437,6 +437,12 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
   이전에는 전자 메일 콘텐츠 템플릿에만 사용할 수 있었지만, 이제 이 기능은 전자 메일 콘텐츠 템플릿 외에 전자 메일 Designer의 **전자 메일** 콘텐츠(예: 여정 및 캠페인으로 작성된 전자 메일)에도 배포됩니다. 현재 제한된 가용성 상태입니다. Adobe 담당자에게 문의하여 액세스 권한을 받으십시오. [자세히 보기](../email/email-expert-mode.md)
 
   사용 가능한 날짜: 2026년 4월 9일
+
+#### 여정
+
+* **현재 여정 페이로드 크기가 여정 속성에 표시됨** - 이제 여정 속성 패널에 구성된 제한과 비교한 여정 페이로드의 현재 크기가 표시됩니다(예: *1.5MB(2MB 중)*). 이 읽기 전용 표시기는 게시 전에 여정 복잡성을 모니터링하고 페이로드 크기 제한 초과로 인한 오류를 방지하는 데 도움이 됩니다. [자세히 보기](../building-journeys/journey-properties.md#journey-payload-size)
+
+  사용 가능한 날짜: 2026년 4월 30일
 
 #### 여정 경로 최적화
 
