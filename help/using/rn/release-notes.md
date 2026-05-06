@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8218f868dd777345aa1415edc8ebdc97bdc31a3e
+source-git-commit: 11234e03589d1e39efc0702a3c423e017cf9b816
 workflow-type: tm+mt
 source-wordcount: '2386'
 ht-degree: 19%
@@ -83,7 +83,13 @@ ht-degree: 19%
 </tbody>
 </table>
 
+### 개선 사항 {#may-26-improv}
 
+#### 결정
+
+* **마이그레이션 워크플로 API 결정** - 종속성 분석 및 마이그레이션 워크플로를 만들기 위한 API 계약이 업데이트되었습니다. 요청 URL(`sandbox`, `offer` 또는 `decision`)에서 **`request-level`**&#x200B;을(를) **쿼리 매개 변수**(으)로 전달하십시오. 요청 수준은 더 이상 JSON 본문에 전송되지 않아야 합니다. [자세히 보기](../experience-decisioning/decisioning-migration-api.md)
+
+  사용 가능한 날짜: 2026년 5월 6일
 
 ## 곧 출시 예정 {#coming-soon}
 
@@ -129,13 +135,7 @@ ht-degree: 19%
 </tbody>
 </table>
 
-### 개선 사항 {#may-26-improv}
 
-#### 결정
-
-* **마이그레이션 워크플로 API 결정** - 종속성 분석 및 마이그레이션 워크플로를 만들기 위한 API 계약이 업데이트되었습니다. 요청 URL(`sandbox`, `offer` 또는 `decision`)에서 **`request-level`**&#x200B;을(를) **쿼리 매개 변수**(으)로 전달하십시오. 요청 수준은 더 이상 JSON 본문에 전송되지 않아야 합니다. [자세히 보기](../experience-decisioning/decisioning-migration-api.md)
-
-  사용 가능한 날짜: 2026년 5월 6일
 
 ## 2026년 4월 릴리스 정보 {#april-26-rn}
 
