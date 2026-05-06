@@ -37,7 +37,7 @@ ht-degree: 67%
 
 * 규칙 빌더를 사용하여 구독 계획 특성별로 프로필을 필터링하는 방법을 보여 주는 새로운 예를 통해 **대상 활동 빌드** 설명서를 보강했습니다. [자세히 보기](../orchestrated/activities/build-audience.md#build-audience-examples)
 
-* **오케스트레이션된 캠페인 시작** 페이지는 포크 활동 및 마케팅 및 트랜잭션 메시지 페이지에 대한 상호 참조와 함께 시작 수준 **포크 → 채널 A + 채널 B→ 대상을 빌드**&#x200B;오케스트레이션된 캠페인 내부의 내용?**을(를) 문서화합니다.**[자세히 보기](../orchestrated/gs-orchestrated-campaigns.md#gs-ms-campaign-inside)
+* **오케스트레이션된 캠페인 시작** 페이지는 포크 활동 및 마케팅 및 트랜잭션 메시지 페이지에 대한 상호 참조와 함께 시작 수준 **포크 → 채널 A + 채널 B→ 대상을 빌드**&#x200B;오케스트레이션된 캠페인 내부의 내용?**을(를) 문서화합니다.**&#x200B;[자세히 보기](../orchestrated/gs-orchestrated-campaigns.md#gs-ms-campaign-inside)
 
 * **고급 HTML 편집기를 사용하여 전자 메일 콘텐츠 편집** 페이지가 콘텐츠 관리 섹션에서 문서의 **전자 메일** 섹션으로 이동되었습니다. 이제 페이지는 고급 HTML 편집기를 이메일 메시지 및 이메일 콘텐츠 템플릿용 이메일 Designer에서 사용할 수 있도록 문서화합니다. [자세히 보기](../email/email-expert-mode.md)
 
@@ -173,7 +173,7 @@ ht-degree: 67%
 
 * 테스트, 유효성 검사, 승인 랜딩 페이지에 테스트 기능 개요, 일반적인 질문 FAQ, 탐색 링크가 있는 의사 결정 트리, 설명서 링크의 용어 향상 등 새로운 섹션을 추가해 개선했습니다. [자세히 보기](../../rp_landing_pages/test-landing-page.md)
 
-* 개인화 구문 설명서에 개인화 표현식에서 예약된 키워드를 사용하는 방법을 명확히 설명하는 새 섹션을 추가했습니다. `next`, `last`, `this` 등 특정 PQL 키워드를 XDM 스키마에서 필드 이름으로 사용하는 경우 백틱(`)을 붙여 이스케이프 처리해야 합니다. [자세히 보기](../personalization/personalization-syntax.md#reserved-keywords)
+* 개인화 구문 설명서에 개인화 표현식에서 예약된 키워드를 사용하는 방법을 명확히 설명하는 새 섹션을 추가했습니다. `next`, `last`, `this` 등 특정 PQL 키워드를 XDM 스키마에서 필드 이름으로 사용하는 경우 백틱(&grave;)을 붙여 이스케이프 처리해야 합니다. [자세히 보기](../personalization/personalization-syntax.md#reserved-keywords)
 
 * [캠페인 시작](../campaigns/get-started-with-campaigns.md) 및 [캠페인 관리](../campaigns/manage-campaigns.md) 페이지를 유형별 안내서가 있는 포괄적 워크플로, 향상된 캠페인 유형 비교, 종합 상태 테이블 등 개선된 정보 아키텍처로 재구성했습니다.
 
