@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 0d541520-016e-468f-b011-808712847556
-source-git-commit: fc12ee65fc773c70b88504a951e5f5c5b2b3b0e6
+source-git-commit: ea2753bd9ce7372e53fefc7816d19a7a3c73b87d
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 13%
+source-wordcount: '560'
+ht-degree: 14%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 13%
 >id="ajo_admin_surface_sms_type"
 >title="메시지 카테고리 정의"
 >abstract="이 구성을 사용하는 문자 메시지 유형 선택: 사용자 동의가 필요한 프로모션 메시지를 위한 마케팅 또는 암호 재설정과 같은 비상업적 메시지를 위한 트랜잭션."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=ko#sms-opt-out-management" text="마케팅 문자 메시지 옵트아웃"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#sms-opt-out-management" text="마케팅 문자 메시지 옵트아웃"
 
 SMS/MMS/RCS 채널이 구성되면 **[!DNL Journey Optimizer]**&#x200B;에서 SMS, RCS 및 MMS 메시지를 보낼 수 있도록 채널 구성을 만들어야 합니다.
 
@@ -70,6 +70,17 @@ SMS/MMS/RCS 채널이 구성되면 **[!DNL Journey Optimizer]**&#x200B;에서 SM
    >[!NOTE]
    >
    >기본적으로 [!DNL Journey Optimizer]은(는) 샌드박스 수준의 [일반 설정](../configuration/primary-email-addresses.md)에 지정된 전화 번호를 사용합니다. 이 필드를 업데이트하면 이 구성을 사용하는 여정 및 캠페인에 대한 기본값이 재정의됩니다.
+
+1. 이 자격 증명의 인바운드 SMS를 드롭다운에서 선택한 미리 만들어진 데이터 세트로 라우팅하려면 **[!UICONTROL 인바운드에 대한 사용자 지정 데이터 세트 사용]**&#x200B;을 선택하십시오. [데이터 세트 만들기에 대해 자세히 알아보기](../experience-decisioning/data-collection/create-dataset.md)
+
+   >[!NOTE]
+   >
+   >데이터 세트 스키마는 **[!UICONTROL XDM ExperienceEvent]**&#x200B;이어야 하며 다음 필드 그룹을 하나 이상 포함해야 합니다.
+   >* Adobe CJM ExperienceEvent - 메시지 상호 작용 세부 정보
+   >* Adobe CJM ExperienceEvent - 메시지 실행 세부 정보
+   >* Adobe CJM ExperienceEvent - 메시지 프로필 세부 정보
+   >
+   >프로필에 대해 스키마 및 데이터 세트를 활성화해야 합니다.
 
 1. 모든 매개 변수가 구성되면 **[!UICONTROL 제출]**&#x200B;을 클릭하여 확인합니다. 채널 구성을 초안으로 저장하고 나중에 구성을 다시 시작할 수도 있습니다.
 

@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
-source-git-commit: 46c7e9bbcd26a055bf85446605b00b5536b7543b
+source-git-commit: d999f48597fab65e7239883f6b40c338532f1ef1
 workflow-type: tm+mt
-source-wordcount: '2721'
-ht-degree: 4%
+source-wordcount: '2818'
+ht-degree: 3%
 
 ---
 
@@ -69,8 +69,8 @@ API 자격 증명이 정상적으로 생성되면 이제 옵트인 및 옵트아
 | 공급자 | 인바운드 Webhook | 피드백 Webhook | 키워드 | 페이로드 생성 필요 | Webhook 필요 | 페이로드 생성 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 정보 피드 | 구성 가능 | 구성 가능 | 구성 가능 | 필요 없음 | 필수 여부 | 필요 없음 |
-| Sinch | 구성 가능 | 구성 가능 | 구성 가능 | 필요 없음 | 아니요. 통합 지원 | N/A |
-| Sinch 대화 | 구성 가능 | 구성 가능 | 구성 가능 | 필요 없음 | 아니요. 통합 지원 | N/A |
+| Sinch | 구성 가능 | 구성 가능 | 구성 가능 | 필요 없음 | 아니요. 통합 | N/A |
+| Sinch 대화 | 구성 가능 | 구성 가능 | 구성 가능 | 필요 없음 | 아니요. 통합 | N/A |
 | 트빌리오 | 사용할 수 없음 | 사용할 수 없음 | 사용할 수 없음 | 사용할 수 없음 | 사용할 수 없음 | N/A |
 | 사용자 정의 | 구성 가능 | 구성 가능 | 구성 가능 | 필수 여부 | 필수 여부 | 필수 여부 |
 
@@ -375,19 +375,10 @@ Infobip의 경우 피드백 이벤트에 대해 만들고 인바운드 이벤트
    * **OriginTimestamp**: 메시지가 수신된 시점의 타임스탬프(UTC 형식)입니다.
    * **InboundNumber**: 이 웹후크 구성에 사용되는 전화 번호입니다.
 
-   +++페이로드 예제
+   >[!TIP]
+   >
+   > 샘플 JSON 페이로드 및 단계별 지침을 보려면 **[!UICONTROL 설치 가이드]**&#x200B;를 여십시오.
 
-   ```json
-   {
-   "inboundMessage": "{{inboundMessage}}",
-   "profileNumber": "{{profileNumber}}",
-   "requestId": "{{requestId}}",
-   "originTimestamp": "{{originTimestamp}}",
-   "inboundNumber": "{{inboundNumber}}"
-   }
-   ```
-
-   +++
 
 1. JSON 파일이 만들어지면 **[!UICONTROL 페이로드 편집기 보기]**&#x200B;를 클릭한 다음, JSON 페이로드를 복사하여 편집기에 붙여 넣고 저장하십시오.
 
