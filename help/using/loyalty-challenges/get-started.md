@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 충성도 문제 시작
-description: 매력적인 충성도 프로그램을 구축하기 위해 Adobe Journey Optimizer에서 충성도 문제를 만들고 관리하는 방법을 알아봅니다.
+description: Adobe Journey Optimizer에서 충성도 문제를 만들고 관리하여 매력적이고 보람 있는 충성도 프로그램을 구축하는 방법을 알아봅니다.
 feature: Journeys
 topic: Content Management
 role: User
@@ -11,9 +11,9 @@ hide: true
 badge: label="비공개 베타" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: 3bfc2ad5aab60ba8b1672c12268b92a424faa2a3
+source-git-commit: cfd307c78624486c9791f8d3821f9d24f409cdcc
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '827'
 ht-degree: 14%
 
 ---
