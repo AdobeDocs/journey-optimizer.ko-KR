@@ -11,10 +11,10 @@ hide: true
 badge: label="비공개 베타" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: f72950486be1dbe37b908ede8b40fee686d1a11d
+source-git-commit: d41999da88f39a9e5bfe5e98fd5cb5d69a1893e6
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 15%
+source-wordcount: '791'
+ht-degree: 14%
 
 ---
 
@@ -28,6 +28,7 @@ ht-degree: 15%
 * [과제 및 작업 액세스 및 관리](access-loyalty-challenges.md)
 * [과제 만들기](create-challenges.md)
 * [작업 만들기](create-tasks.md)
+* [충성도 과제 성능 모니터링](loyalty-reporting.md)
 * [충성도 과제 API 참조](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
 >[!ENDSHADEBOX]
@@ -52,6 +53,7 @@ ht-degree: 15%
 * **경험 개인화**: 콘텐츠 카드 및 다중 채널 메시지를 사용하여 몰입형 브랜드 경험을 만듭니다
 * **원활하게 통합**: 기존 충성도 공급자와 연결하고 Experience Platform 데이터 활용
 * **자동으로 추적**: 사용자 지정 개발 없이 자동 생성된 여정을 통해 고객 진행 상황을 모니터링합니다.
+* **성과 측정**: 기본 제공 보고 대시보드를 사용하여 프로그램 KPI, 과제 결과 및 작업 수준 지표를 추적합니다.
 
 ![](assets/challenges-gs.png)
 
@@ -158,6 +160,17 @@ ht-degree: 15%
     </div>
     <p>
     <em>고객이 어려움에 대해 완료하는 작업을 정의하는 방법을 알아보세요</em>
+    </p>
+  </td>
+  <td>
+    <a href="loyalty-reporting.md">
+      <img alt="보고서" src="assets/do-not-localize/icon-reporting.png" width="200"/>
+    </a>
+    <div>
+    <a href="loyalty-reporting.md"><strong>성능 모니터링</strong></a>
+    </div>
+    <p>
+    <em>기본 제공 대시보드를 사용하여 프로그램 KPI, 과제 결과 및 작업 지표 추적</em>
     </p>
   </td>
 </tr>

@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f9fbf3d0dd49c98d3e4d88fc97ff26f44835769c
+source-git-commit: d41999da88f39a9e5bfe5e98fd5cb5d69a1893e6
 workflow-type: tm+mt
-source-wordcount: '3302'
-ht-degree: 91%
+source-wordcount: '3306'
+ht-degree: 90%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 91%
    + 효율적으로 작업 {#work-efficiently}
       + [인터페이스 살펴보기](using/start/user-interface.md)
       + [검색, 필터링 및 정리](using/start/search-filter-categorize.md)
-      + [문제 해결 FAQ](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [문제 해결 FAQ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [접근성](using/start/accessibility.md)
       + {hide-from-toc}[여정 대 캠페인](using/start/journeys-vs-campaigns.md)
 + 여정 {#orchestrate-journeys}
@@ -142,6 +142,7 @@ ht-degree: 91%
    + {hide-from-toc}[문제 및 작업 액세스 및 관리](using/loyalty-challenges/access-loyalty-challenges.md)
    + {hide-from-toc}[문제 만들기](using/loyalty-challenges/create-challenges.md)
    + {hide-from-toc}[작업 만들기](using/loyalty-challenges/create-tasks.md)
+   + {hide-from-toc}[충성도 챌린지 성능 모니터링](using/loyalty-challenges/loyalty-reporting.md)
 + 캠페인 {#campaigns}
    + {hide-from-toc}[캠페인](/help/rp_landing_pages/campaigns-landing-page.md)
    + [캠페인 시작](using/campaigns/get-started-with-campaigns.md)

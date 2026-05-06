@@ -11,9 +11,9 @@ hide: true
 badge: label="비공개 베타" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: f72950486be1dbe37b908ede8b40fee686d1a11d
+source-git-commit: d41999da88f39a9e5bfe5e98fd5cb5d69a1893e6
 workflow-type: tm+mt
-source-wordcount: '1918'
+source-wordcount: '1937'
 ht-degree: 17%
 
 ---
@@ -28,6 +28,7 @@ ht-degree: 17%
 * [과제 및 작업 액세스 및 관리](access-loyalty-challenges.md)
 * **문제 만들기** ◀︎**현재 상태**
 * [작업 만들기](create-tasks.md)
+* [충성도 과제 성능 모니터링](loyalty-reporting.md)
 * [충성도 과제 API 참조](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
 >[!ENDSHADEBOX]
@@ -299,7 +300,7 @@ ht-degree: 17%
 
 1. 여정을 열고 게시합니다. 여정은 지정된 챌린지 시작 날짜에 자동으로 시작되며 구성에 따라 컨텐츠 및 메시지를 전달합니다. [여정 게시 방법을 알아보세요](../building-journeys/publish-journey.md).
 
-1. 문제가 실행되면 [여정 보고서](../reports/journey-global-report-cja.md)에서 성능 및 메시지 전달을 모니터링합니다.
+1. 문제가 실행되면 [충성도 문제 보고서](loyalty-reporting.md)에서 프로그램 KPI, 문제 결과 및 작업 수준 지표를 모니터링합니다. [여정 보고서](../reports/journey-global-report-cja.md)에서 메시지 배달을 모니터링할 수도 있습니다.
 
 >[!NOTE]
 >
