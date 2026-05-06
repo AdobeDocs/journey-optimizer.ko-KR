@@ -11,9 +11,9 @@ hide: true
 badge: label="비공개 베타" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: d41999da88f39a9e5bfe5e98fd5cb5d69a1893e6
+source-git-commit: 3bfc2ad5aab60ba8b1672c12268b92a424faa2a3
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '826'
 ht-degree: 14%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 14%
 
 ![](assets/challenges-gs.png)
 
-다음과 같은 세 가지 유형의 과제 경험을 만들 수 있습니다.
+다음과 같은 유형의 과제 경험을 만들 수 있습니다.
 
 * **표준 과제**: 고객은 순서에 관계없이 지정된 수의 작업을 완료합니다. 유연성과 여러 경로를 완성하려면 이 유형을 사용하십시오.\
   *예: &quot;Summer Wellness Challenge&quot; - 5가지 작업 중 3가지 완료: 건강 제품 구입, 소셜 미디어 공유, 친구 추천, 리뷰 작성 또는 가상 이벤트 참석*
@@ -67,6 +67,8 @@ ht-degree: 14%
 
 * **순차적인 문제**: 고객은 정의된 순서로 작업을 완료합니다. 이 유형을 사용하여 특정 여정 또는 온보딩 프로세스를 안내합니다.\
   *예: &quot;새 구성원 여정&quot; - 전자 메일→ 등록하여 첫 번째 구매 → 제품 리뷰 작성 → 친구 참조(이 순서로 완료)*
+
+* **고유한 데이터 문제 해결**(제한된 가용성): 충성도 문제 데이터 통합에서 문제 프레임워크(작업 및 보상)를 취합합니다. 다른 모든 과제 유형의 경우와 마찬가지로 컨텐츠, 메시징 및 대상을 구성합니다.
 
 ## 작동 방식 {#how-it-works}
 
