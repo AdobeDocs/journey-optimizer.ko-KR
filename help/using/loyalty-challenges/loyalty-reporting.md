@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 충성도 과제 성능 모니터링
-description: 충성도 과제 보고 대시보드를 사용하여 Adobe Journey Optimizer에서 프로그램 성능, 과제 결과 및 작업 지표를 추적하는 방법에 대해 알아봅니다.
+description: Adobe Journey Optimizer에서 충성도 과제 보고 대시보드를 사용하여 과제 성능 및 작업 지표를 추적하는 방법에 대해 알아봅니다.
 feature: Journeys
 topic: Content Management
 role: User
@@ -11,9 +11,9 @@ hide: true
 badge: label="비공개 베타" type="Informative"
 mini-toc-levels: 1
 exl-id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
-source-git-commit: d41999da88f39a9e5bfe5e98fd5cb5d69a1893e6
+source-git-commit: cfd307c78624486c9791f8d3821f9d24f409cdcc
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '529'
 ht-degree: 3%
 
 ---
