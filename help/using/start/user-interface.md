@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 76ca2ff7ceccd333016291c9f6de269934ed544f
+source-git-commit: ba3ceaeebb11d62c95586be86c0f0ad8c903e39c
 workflow-type: tm+mt
-source-wordcount: '1378'
-ht-degree: 83%
+source-wordcount: '1511'
+ht-degree: 75%
 
 ---
 
@@ -338,3 +338,29 @@ AI 어시스턴트는 즉각적인 도움과 운영 인사이트를 제공합니
 >id="ajo_channels_feedback_webhook_settings_header_parameters"
 >title="헤더 매개변수"
 >abstract="이 섹션에서는 각 Webhook 요청과 함께 전송할 추가 사용자 정의 헤더를 구성할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_content_fragment_configuration"
+>title="&quot;AEM 구성 도움말"
+>abstract="구성 생성 및 관리에 대해 자세히 알아보기"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_configure_instance"
+>title="인스턴스 구성"
+>abstract="설정에 적합한 인스턴스 구성 유형을 선택합니다. </br>작성자만 설정: AEM 작성자 인스턴스의 콘텐츠 조각을 사용합니다. 게시 인스턴스 구성 및 라이브 업데이트는 지원되지 않습니다.</br>게시 인스턴스 설정: 게시 인스턴스 설정을 구성합니다. 선택적으로 &quot;게시 인스턴스로 토큰 보내기&quot;를 활성화하여 인증에 서비스 자격 증명을 제공할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_send_token"
+>title="게시 인스턴스로 토큰 전송"
+>abstract="활성화되면 게시 인스턴스에 대한 요청을 인증하기 위해 서비스 자격 증명이 전송됩니다. 아래에 올바른 서비스 자격 증명 JSON을 제공하십시오."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_service_credential"
+>title="서비스 자격 증명 JSON 붙여넣기"
+>abstract="공개 기술 계정 설명서를 통해 AEM 서비스 자격 증명 JSON을 만든 후 JSON을 붙여 넣습니다. 자동으로 형식이 지정되고 유효성이 검사됩니다."
+>additional-url=""
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_custom_domain"
+>title="사용자 정의 도메인"
+>abstract="선택 사항입니다. 조직의 콘텐츠를 가져오지 못하도록 차단된 사용자 정의 도메인 ifpublish-p16552-e147195.adobeaemcloud.comis를 제공합니다."
