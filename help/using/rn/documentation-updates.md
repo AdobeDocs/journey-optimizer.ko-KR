@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 3e2d661a6b06032b7d67f41324930c5a0f691221
+source-git-commit: 17be9168735f33a3f1417524ce6cbbc698457935
 workflow-type: tm+mt
-source-wordcount: '7252'
-ht-degree: 68%
+source-wordcount: '7267'
+ht-degree: 67%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 68%
 이 페이지에는 월별 릴리스 기능 및 개선 사항과 관련된 업데이트 외에도 [!DNL Journey Optimizer] 설명서의 모든 최신 변경 사항이 나와 있습니다.
 
 ## 2026년 5월 {#may-2026}
+
+* 동적 URL 개인화, 전체/기본 URL 개인화, URL 추적 매개 변수 개인화 및 키 가드레일에 대한 지침을 통합하는 새 **전자 메일의 URL 개인화** 페이지가 추가되었습니다. [자세히 보기](../email/url-personalization.md)
 
 * 새 **비즈니스 규칙 쿼리** 섹션이 쿼리 예제 페이지에 추가되어 특정 날짜 이후 특정 여정에 대한 여정 빈도 제한 제외로 인한 모든 프로필 취소를 확인하는 Data Lake 쿼리를 제공합니다. 상한에 도달했거나(`CAP_REACHED`) 우선 순위가 낮아(`LOWER_PRIORITY`) 프로필이 제외되었는지 여부를 확인하기 위해 쿼리에 `eventCodeReason` 필드가 포함되어 있습니다. [자세히 보기](../reports/query-examples.md#business-rules-queries)
 
@@ -36,7 +38,8 @@ ht-degree: 68%
 * 규칙 빌더를 사용하여 구독 계획 특성별로 프로필을 필터링하는 방법을 보여 주는 새로운 예를 통해 **대상 활동 빌드** 설명서를 보강했습니다. [자세히 보기](../orchestrated/activities/build-audience.md#build-audience-examples)
 
 * **오케스트레이션된 캠페인 시작** 페이지는 포크 활동 및 마케팅 및 트랜잭션 메시지 페이지에 대한 상호 참조와 함께 시작 수준 **포크 → 채널 A + 채널 B→ 대상을 빌드**&#x200B;오케스트레이션된 캠페인 내부의 내용?**을(를) 문서화합니다.**&#x200B;[자세히 보기](../orchestrated/gs-orchestrated-campaigns.md#gs-ms-campaign-inside)
-* **고급 HTML 편집기를 사용하여 전자 메일 콘텐츠 편집** 페이지가 콘텐츠 관리 섹션에서 문서의 **전자 메일** 섹션(전자 메일 디자인 아래)으로 이동되었으며 페이지 파일의 이름이 **email-expert-mode.md**(으)로 변경되었습니다. 이제 페이지는 고급 HTML 편집기를 이메일 메시지 및 이메일 콘텐츠 템플릿용 이메일 Designer에서 사용할 수 있도록 문서화합니다. [자세히 보기](../email/email-expert-mode.md)
+
+* **고급 HTML 편집기를 사용하여 전자 메일 콘텐츠 편집** 페이지가 콘텐츠 관리 섹션에서 문서의 **전자 메일** 섹션으로 이동되었습니다. 이제 페이지는 고급 HTML 편집기를 이메일 메시지 및 이메일 콘텐츠 템플릿용 이메일 Designer에서 사용할 수 있도록 문서화합니다. [자세히 보기](../email/email-expert-mode.md)
 
 * **오케스트레이션된 캠페인 시작 및 모니터링** 설명서에 캠페인 라이프사이클 상태 표, 게시 전 체크리스트 및 반복되지 않는 캠페인에 대한 전송 확인 경고와 함께 내부 게시-시간 실행 시퀀스를 자세히 설명하는 새 섹션이 업데이트되었습니다. [자세히 보기](../orchestrated/start-monitor-campaigns.md#publication-sequence)
 
