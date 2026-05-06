@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
+source-git-commit: ea2753bd9ce7372e53fefc7816d19a7a3c73b87d
 workflow-type: tm+mt
-source-wordcount: '818'
-ht-degree: 12%
+source-wordcount: '881'
+ht-degree: 11%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_provider_url"
 >title="제공자 URL"
->abstract="외부 API에 연결할 URL을 지정합니다. 이 URL은 해당 API의 특징과 기능에 액세스하기 위한 엔드포인트 역할을 합니다"
+>abstract="연결하려는 외부 API의 URL을 지정합니다. 이 URL은 해당 API의 특징과 기능에 액세스하기 위한 엔드포인트 역할을 합니다"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_header_parameters"
@@ -62,7 +62,7 @@ Adobe에서 즉시 사용할 수 없는 사용자 정의 공급자(예: Sinch, I
 
    * **[!UICONTROL 공급자 URL]**: SMS 공급자의 URL을 입력하십시오.
 
-   * **[!UICONTROL 인증 유형{&#x200B;1}: 인증 유형을 선택하고]**&#x200B;선택한 인증 방법에 따라 해당 필드를 완료[합니다.](#auth-options)
+   * **인증 유형{&#x200B;1}: 인증 유형을 선택하고 [선택한 인증 방법에 따라 해당 필드를 완료](#auth-options)합니다.**
 
      ![](assets/sms-byop.png)
 
@@ -84,6 +84,16 @@ Adobe에서 즉시 사용할 수 없는 사용자 정의 공급자(예: Sinch, I
    >
    >기본 또는 전달자 인증을 사용하여 사용자 지정 SMS 공급자를 구성할 때는 JSON 페이로드에 `authOption` 매개 변수를 포함해야 합니다. 또한 **공급자 페이로드**&#x200B;는 템플릿 변수 `{{fromNumber}}`, `{{toNumber}}` 및 `{{message}}`을(를) 참조해야 합니다.
 
+1. 이 자격 증명의 인바운드 SMS를 드롭다운에서 선택한 미리 만들어진 데이터 세트로 라우팅하려면 **[!UICONTROL 인바운드에 대한 사용자 지정 데이터 세트 사용]**&#x200B;을 선택하십시오. [데이터 세트 만들기에 대해 자세히 알아보기](../experience-decisioning/data-collection/create-dataset.md)
+
+   >[!NOTE]
+   >
+   >데이터 세트 스키마는 **[!UICONTROL XDM ExperienceEvent]**&#x200B;이어야 하며 다음 필드 그룹을 하나 이상 포함해야 합니다.
+   >* Adobe CJM ExperienceEvent - 메시지 상호 작용 세부 정보
+   >* Adobe CJM ExperienceEvent - 메시지 실행 세부 정보
+   >* Adobe CJM ExperienceEvent - 메시지 프로필 세부 정보
+   >
+   >프로필에 대해 스키마 및 데이터 세트를 활성화해야 합니다.
 
 1. API 자격 증명 구성을 마치면 **[!UICONTROL 제출]**&#x200B;을 클릭합니다.
 

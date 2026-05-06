@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: ea2753bd9ce7372e53fefc7816d19a7a3c73b87d
 workflow-type: tm+mt
-source-wordcount: '1358'
+source-wordcount: '941'
 ht-degree: 1%
 
 ---
@@ -33,18 +33,6 @@ Sinch 공급자를 구성하려면 아래 단계를 수행하십시오.
 
 ## SMS에 대한 API 자격 증명 구성{#create-api}
 
->[!BEGINSHADEBOX]
-
-옵트인 또는 옵트아웃 키워드가 제공되지 않으면 표준 동의 메시지가 사용자 개인 정보를 보장하는 데 사용됩니다. 사용자 지정 키워드를 추가하면 기본값이 자동으로 재정의됩니다.
-
-**기본 키워드:**
-
-* **옵트인**: 구독, 예, 중지 취소, 시작, 계속, 다시 시작, 시작
-* **옵트아웃**: 중지, 종료, 취소, 종료, 구독 취소, 아니요
-* **도움말**: 도움말
-
->[!ENDSHADEBOX]
-
 Journey Optimizer에서 SMS 메시지 및 MMS를 전송하도록 Sinch 공급자를 구성하려면 다음 단계를 수행합니다.
 
 1. 왼쪽 레일에서 **[!UICONTROL 관리]** > **[!UICONTROL 채널]** `>` **[!UICONTROL SMS 설정]**&#x200B;으로 이동한 다음 **[!UICONTROL API 자격 증명]** 메뉴를 선택합니다. **[!UICONTROL 새 API 자격 증명 만들기]** 단추를 클릭합니다.
@@ -58,24 +46,30 @@ Journey Optimizer에서 SMS 메시지 및 MMS를 전송하도록 Sinch 공급자
    | SMS 공급업체 | Sinch |
    | 이름 | API 자격 증명의 이름을 선택합니다. |
    | 서비스 ID 및 API 토큰 | API 페이지에 액세스하면 SMS 탭에서 자격 증명을 찾을 수 있습니다. 자세한 내용은 [Sinch 설명서](https://developers.sinch.com/docs/sms/getting-started/){target="_blank"}를 참조하세요. |
-   | 옵트인 키워드 | **새 SMS 구성의 경우 [Webhooks 메뉴](sms-webhook.md)를 사용하여 동의 키워드를 구성하십시오. 기존 구성은 이 섹션에서 동의 키워드를 계속 사용할 수 있습니다.** </br>옵트인 메시지를 자동으로 트리거할 기본 또는 사용자 지정 키워드를 입력합니다. 여러 키워드의 경우 쉼표로 구분된 값을 사용하십시오. |
-   | 옵트인 메시지 | **새 SMS 구성의 경우 [Webhooks 메뉴](sms-webhook.md)를 사용하여 동의 키워드를 구성하십시오. 기존 구성은 이 섹션에서 동의 키워드를 계속 사용할 수 있습니다.** </br> 옵트인 메시지로 자동 전송되는 사용자 지정 응답을 입력합니다. |
-   | 옵트아웃 키워드 | **새 SMS 구성의 경우 [Webhooks 메뉴](sms-webhook.md)를 사용하여 동의 키워드를 구성하십시오. 기존 구성은 이 섹션에서 동의 키워드를 계속 사용할 수 있습니다.** </br> 옵트아웃 메시지를 자동으로 트리거할 기본 또는 사용자 지정 키워드를 입력합니다. 여러 키워드의 경우 쉼표로 구분된 값을 사용하십시오. |
-   | 옵트아웃 메시지 | **새 SMS 구성의 경우 [Webhooks 메뉴](sms-webhook.md)를 사용하여 동의 키워드를 구성하십시오. 기존 구성은 이 섹션에서 동의 키워드를 계속 사용할 수 있습니다.** </br>옵트아웃 메시지로 자동 전송되는 사용자 지정 응답을 입력합니다. |
-   | 도움말 키워드 | **새 SMS 구성의 경우 [Webhooks 메뉴](sms-webhook.md)를 사용하여 동의 키워드를 구성하십시오. 기존 구성은 이 섹션에서 동의 키워드를 계속 사용할 수 있습니다.** </br> **도움말 메시지**&#x200B;를 자동으로 트리거할 기본 키워드 또는 사용자 지정 키워드를 입력합니다. 여러 키워드의 경우 쉼표로 구분된 값을 사용하십시오. |
-   | 도움말 메시지 | **새 SMS 구성의 경우 [Webhooks 메뉴](sms-webhook.md)를 사용하여 동의 키워드를 구성하십시오. 기존 구성은 이 섹션에서 동의 키워드를 계속 사용할 수 있습니다.** </br>자동으로 **도움말 메시지**(으)로 전송되는 사용자 지정 응답을 입력하십시오. |
-   | 이중 옵트인 키워드 | **새 SMS 구성의 경우 [Webhooks 메뉴](sms-webhook.md)를 사용하여 동의 키워드를 구성하십시오. 기존 구성은 이 섹션에서 동의 키워드를 계속 사용할 수 있습니다.** </br>이중 옵트인 프로세스를 트리거하는 키워드를 입력합니다. 사용자 프로필이 존재하지 않으면 확인 후 생성됩니다. 여러 키워드의 경우 쉼표로 구분된 값을 사용하십시오. [SMS 이중 옵트인에 대해 자세히 알아보기](https://video.tv.adobe.com/v/3440286/?captions=kor&learn=on). |
-   | 이중 옵트인 메시지 | **새 SMS 구성의 경우 [Webhooks 메뉴](sms-webhook.md)를 사용하여 동의 키워드를 구성하십시오. 기존 구성은 이 섹션에서 동의 키워드를 계속 사용할 수 있습니다.** </br>이중 옵트인 확인에 대한 응답으로 자동으로 전송되는 사용자 지정 응답을 입력합니다. |
    | 인바운드 번호 | 고유한 인바운드 번호 또는 짧은 코드를 추가합니다. 이를 통해 서로 다른 샌드박스에서 동일한 API 자격 증명을 사용할 수 있습니다. 각 샌드박스는 고유한 인바운드 번호 또는 짧은 코드를 갖습니다. |
-   | 사용자 지정 인바운드 키워드 | 배치 기반 작업(예: 할인, 오퍼, 등록)에 대해 고유한 비동의 관련 키워드를 정의합니다. 이러한 키워드는 프로필의 속성으로 캡처 및 저장되므로 여정 내에서 일괄 처리된 세그먼트 자격을 트리거하고 사용자 지정된 응답 또는 작업을 제공할 수 있습니다. |
-   | 기본 인바운드 회신 메시지 | 최종 사용자가 정의된 키워드와 일치하지 않는 인바운드 SMS를 전송할 때 전송되는 기본 응답을 입력합니다. |
    | URL 재정의 | SMS 게재 보고서, 피드백 데이터, 인바운드 메시지 또는 이벤트 알림의 기본 끝점을 대체할 사용자 지정 URL을 입력합니다. Sinch는 사전 정의된 업데이트 대신 이 URL에 관련된 모든 업데이트를 보냅니다. |
 
    +++
 
-1. **[!UICONTROL 유사 옵트아웃]** 옵션을 활성화하여 옵트아웃 키워드와 유사한 메시지(예: &#39;CANCIL&#39;)를 감지하고 **[!UICONTROL 유사 자동 회신]** 필드에서 확인 회신을 사용자 지정합니다.
+<!--
+1. Choose how user consent should be tracked for messaging:
 
-   **[!UICONTROL 퍼지 옵트아웃]**&#x200B;은(는) 메시지가 정의된 옵트아웃 키워드와 정확히 일치하지 않더라도 사용자가 구독을 취소하려고 함을 나타내는 SMS 메시지를 식별합니다. 일반적인 옵트아웃 구문과 특정 공격 용어를 탐지할 수 있으므로 캠페인이 사용자 환경 설정을 준수하고 규정을 준수하도록 하는 데 도움이 됩니다.
+    * **[!UICONTROL Sender short code]**: Inbound keyword consent is keyed to your **sender short code** only. Use when one inbound number is enough to represent consent.
+
+    * **[!UICONTROL Sender short code + profile number]**: Consent is keyed to the **sender short code** and the profile **mobile number**. Use when profiles can have several numbers, or when opt-in/out must apply per sender and recipient pair.
+-->
+
+1. 이 자격 증명의 인바운드 SMS를 드롭다운에서 선택한 미리 만들어진 데이터 세트로 라우팅하려면 **[!UICONTROL 인바운드에 대한 사용자 지정 데이터 세트 사용]**&#x200B;을 선택하십시오. [데이터 세트 만들기에 대해 자세히 알아보기](../experience-decisioning/data-collection/create-dataset.md)
+
+   >[!NOTE]
+   >
+   >데이터 세트 스키마는 **[!UICONTROL XDM ExperienceEvent]**&#x200B;이어야 하며 다음 필드 그룹을 하나 이상 포함해야 합니다.
+   >* Adobe CJM ExperienceEvent - 메시지 상호 작용 세부 정보
+   >* Adobe CJM ExperienceEvent - 메시지 실행 세부 정보
+   >* Adobe CJM ExperienceEvent - 메시지 프로필 세부 정보
+   >
+   >프로필에 대해 스키마 및 데이터 세트를 활성화해야 합니다.
+
 
 1. API 자격 증명 구성을 마치면 **[!UICONTROL 제출]**&#x200B;을 클릭합니다.
 

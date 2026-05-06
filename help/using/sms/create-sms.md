@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
+source-git-commit: 51de1b4f89f4fcad8e5b8acb3988675ed885c13d
 workflow-type: tm+mt
-source-wordcount: '1283'
-ht-degree: 8%
+source-wordcount: '1323'
+ht-degree: 9%
 
 ---
 
@@ -90,7 +90,7 @@ Adobe Journey Optimizer에서 텍스트(SMS), 풍부한 커뮤니케이션(RCS) 
 
 1. **[!UICONTROL 작업 추적]** 섹션에서 SMS 메시지의 링크 클릭을 추적할지 여부를 지정합니다.
 
-1. 캠페인은 특정 날짜 또는 되풀이되는 빈도로 실행되도록 디자인됩니다. **[!UICONTROL 이 섹션]**&#x200B;에서 캠페인의 [일정](../campaigns/campaign-schedule.md#action-campaign-schedule)을 구성하는 방법을 알아보세요.
+1. 캠페인은 특정 날짜 또는 되풀이되는 빈도로 실행되도록 디자인됩니다. [이 섹션](../campaigns/campaign-schedule.md#action-campaign-schedule)에서 캠페인의 **[!UICONTROL 일정]**&#x200B;을 구성하는 방법을 알아보세요.
 
 1. **[!UICONTROL 작업 트리거]** 메뉴에서 SMS 메시지의 **[!UICONTROL 빈도]**&#x200B;를 선택합니다.
 
@@ -149,7 +149,11 @@ Adobe Journey Optimizer에서 텍스트(SMS), 풍부한 커뮤니케이션(RCS) 
    >
    > 짧은 URL의 수명은 30일로 설정됩니다. 이 기간이 지나면 이러한 짧은 URL에 더 이상 액세스할 수 없으며 `404 short-code not found` 메시지를 표시합니다.
 
-1. **[!UICONTROL 저장]**&#x200B;을 클릭하고 미리 보기에서 메시지를 확인합니다. 이제 [이 섹션](#sms-mms-test)에 자세히 설명된 대로 메시지 콘텐츠를 테스트하고 확인할 수 있습니다.
+1. 메시지를 작성할 때 SMS 길이를 모니터링하려면 **[!UICONTROL 문자 수]**&#x200B;를 사용하십시오. 실시간으로 업데이트되며, 콘텐츠가 여러 세그먼트로 전달되는 시기를 나타냅니다.
+
+   ![](assets/sms_tracking_3.png)
+
+1. **[!UICONTROL 저장]**&#x200B;을 클릭하고 미리보기에서 메시지를 확인합니다. 이제 [이 섹션](#sms-mms-test)에 자세히 설명된 대로 메시지 콘텐츠를 테스트하고 확인할 수 있습니다.
 
 ## Decisioning을 통한 개인화 {#decisioning-sms}
 
@@ -181,7 +185,7 @@ MMS 콘텐츠를 만들려면 다음 단계를 수행합니다.
 
    ![](assets/sms_create_7.png)
 
-1. **[!UICONTROL 저장]**&#x200B;을 클릭하고 미리 보기에서 메시지를 확인합니다. 이제 아래에 자세히 설명된 대로 메시지 콘텐츠를 테스트하고 확인할 수 있습니다.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭하고 미리보기에서 메시지를 확인합니다. 이제 아래에 자세히 설명된 대로 메시지 콘텐츠를 테스트하고 확인할 수 있습니다.
 
 ## 메시지 테스트 및 보내기 {#sms-mms-test}
 
