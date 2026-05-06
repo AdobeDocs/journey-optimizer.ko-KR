@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: 인앱, 메시지, 만들기, 시작
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: e5e8e7a99e53069b5c08562414663a847c413bc9
+source-git-commit: 79c7689ee40e347533bbe6e025e6846d8ef0bf8e
 workflow-type: tm+mt
-source-wordcount: '2301'
+source-wordcount: '2305'
 ht-degree: 11%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 11%
 
    1. 필요한 경우 이벤트 드롭다운을 클릭하여 트리거 를 변경합니다.
 
-      사용 가능한 트리거
+      +++ 사용 가능한 트리거 보기
 
       | 패키지 | 트리거 | 정의 |
       |---|---|---|
@@ -75,6 +75,8 @@ ht-degree: 11%
       | 장소 | POI 입력 | 고객이 사용자가 구성한 관심 영역(POI)에 들어갈 때 위치 SDK에 의해 트리거됩니다. |
       | 장소 | POI 종료 | 고객이 사용자가 구성한 관심 영역(POI)을 종료할 때 위치 SDK에 의해 트리거됩니다. |
 
+      +++
+
    1. 트리거에서 여러 이벤트 또는 조건을 고려하려면 **[!UICONTROL 조건 추가]**&#x200B;를 클릭하십시오.
 
    1. **[!UICONTROL 트리거]**&#x200B;를 더 추가하여 규칙을 확장하려면 **[!UICONTROL Or]** 조건을 선택하십시오.
@@ -83,7 +85,7 @@ ht-degree: 11%
 
    1. **[!UICONTROL 트레이트]**&#x200B;를 추가하고 규칙을 보다 세밀하게 조정하려면 **[!UICONTROL And]** 조건을 선택하십시오.
 
-      사용 가능한 트레이트
+      +++ 사용 가능한 트레이트 보기
 
       | 패키지 | 특성 | 정의 |
       |---|---|---|
@@ -104,6 +106,8 @@ ht-degree: 11%
       | 장소 | 현재 POI | 고객이 지정된 관심 영역(POI)에 들어갈 때 위치 SDK에 의해 트리거됩니다. |
       | 장소 | 마지막으로 입력한 POI | 마지막으로 입력한 POI(관심 영역)에 따라 위치 SDK에 의해 트리거됩니다. |
       | 장소 | 마지막으로 종료한 POI | 고객이 마지막으로 종료한 관심 영역(POI)에 따라 위치 SDK에 의해 트리거됩니다. |
+
+      +++
 
       ![](assets/in_app_create_8.png)
 
@@ -161,7 +165,7 @@ ht-degree: 11%
 
    1. 필요한 경우 이벤트 드롭다운을 클릭하여 트리거 를 변경합니다.
 
-      사용 가능한 트리거
+      +++ 사용 가능한 트리거 보기
 
       | 패키지 | 트리거 | 정의 |
       |---|---|---|
@@ -177,6 +181,8 @@ ht-degree: 11%
       | 장소 | POI 입력 | 고객이 사용자가 구성한 관심 영역(POI)에 들어갈 때 위치 SDK에 의해 트리거됩니다. |
       | 장소 | POI 종료 | 고객이 사용자가 구성한 관심 영역(POI)을 종료할 때 위치 SDK에 의해 트리거됩니다. |
 
+      +++
+
    1. 트리거에서 여러 이벤트 또는 조건을 고려하려면 **[!UICONTROL 조건 추가]**&#x200B;를 클릭하십시오.
 
    1. **[!UICONTROL 트리거]**&#x200B;를 더 추가하여 규칙을 확장하려면 **[!UICONTROL Or]** 조건을 선택하십시오.
@@ -185,7 +191,7 @@ ht-degree: 11%
 
    1. **[!UICONTROL 트레이트]**&#x200B;를 추가하고 규칙을 보다 세밀하게 조정하려면 **[!UICONTROL And]** 조건을 선택하십시오.
 
-      사용 가능한 트레이트
+      +++ 사용 가능한 트레이트 보기
 
       | 패키지 | 특성 | 정의 |
       |---|---|---|
@@ -206,6 +212,8 @@ ht-degree: 11%
       | 장소 | 현재 POI | 고객이 지정된 관심 영역(POI)에 들어갈 때 위치 SDK에 의해 트리거됩니다. |
       | 장소 | 마지막으로 입력한 POI | 마지막으로 입력한 POI(관심 영역)에 따라 위치 SDK에 의해 트리거됩니다. |
       | 장소 | 마지막으로 종료한 POI | 고객이 마지막으로 종료한 관심 영역(POI)에 따라 위치 SDK에 의해 트리거됩니다. |
+
+      +++
 
       ![](assets/in_app_create_8.png)
 
@@ -238,7 +246,7 @@ ht-degree: 11%
 
   +++비디오 보기
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451889?captions=kor&quality=12&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
   +++
 
@@ -246,7 +254,7 @@ ht-degree: 11%
 
   +++비디오 보기
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3445295/?captions=kor&learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
 
   +++
 
