@@ -11,10 +11,10 @@ hide: true
 badge: label="비공개 베타" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: f72950486be1dbe37b908ede8b40fee686d1a11d
 workflow-type: tm+mt
-source-wordcount: '1828'
-ht-degree: 18%
+source-wordcount: '1918'
+ht-degree: 17%
 
 ---
 
@@ -57,7 +57,13 @@ ht-degree: 18%
    * **[!UICONTROL 순차적]**: 고객은 정의된 순서로 작업을 완료합니다\
      *예: 구매 → 검토 → 공유(이 순서로 완료해야 함)*
 
-   챌린지 유형을 선택하면 챌린지 만들기 인터페이스가 여러 구성 탭으로 열립니다. 먼저 과제 구조를 구성합니다.
+   * **[!UICONTROL 고유 데이터 가져오기]**: 충성도 과제 데이터 통합에서 작업 및 보상과 같은 과제 프레임워크를 조합하려면 **[!UICONTROL 고유 데이터 가져오기]**&#x200B;를 선택하십시오. 이 유형을 선택한 경우 과제 구조를 구성할 필요가 없으며, 다른 과제와 동일한 방식으로 **[!UICONTROL 콘텐츠]**, **[!UICONTROL 메시징]** 및 **[!UICONTROL 대상]**&#x200B;만 구성합니다.
+
+     >[!AVAILABILITY]
+     >
+     >**[!UICONTROL 자신의 데이터 가져오기]** 챌린지 유형은 현재 제한된 조직 집합에서 사용할 수 있으며 향후 릴리스에서 더 광범위하게 사용할 수 있습니다.
+
+   챌린지 유형을 선택하면 챌린지 만들기 인터페이스가 여러 구성 탭으로 열립니다. **[!UICONTROL 고유 데이터 가져오기]**&#x200B;를 제외한 모든 형식의 경우 먼저 문제 구조를 구성하십시오.
 
 ## 과제 구조 구성 {#structure}
 
