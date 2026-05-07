@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 메시지, 빈도, 규칙, 압력
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
-source-git-commit: 2dc69f4479c86f0cfee62cd345ad7b5e1618506b
+source-git-commit: c05665beac8e479bcae124b70318bcc48ebf548b
 workflow-type: tm+mt
 source-wordcount: '1280'
 ht-degree: 8%
@@ -84,7 +84,7 @@ ht-degree: 8%
 
 1. 이 규칙에 사용할 채널을 선택하십시오. **[!UICONTROL 이메일]**, **[!UICONTROL SMS]**, **[!UICONTROL 푸시 알림]**, **[!UICONTROL 다이렉트 메일]** 또는 **[!UICONTROL WhatsApp]**.
 
-   ![](assets/rule-set-channels.png)
+   ![](assets/rule-sets-channels.png)
 
    선택한 모든 채널에 캡핑을 총 카운트로 적용하려면 여러 채널을 선택하십시오.
 
@@ -168,4 +168,4 @@ In this scenario, an individual profile:
 
 ## 사용 방법 비디오 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444733?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
