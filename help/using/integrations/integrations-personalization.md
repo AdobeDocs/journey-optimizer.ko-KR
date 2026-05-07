@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 통합
-source-git-commit: c5defc4940043753ff6c4e27d2ebafc807f8c9ba
+source-git-commit: c672ebaf4c0616a2a2bca39bb849bb835c304449
 workflow-type: tm+mt
 source-wordcount: '809'
 ht-degree: 0%
@@ -131,4 +131,4 @@ ht-degree: 0%
 
 이 비디오는 **통합**&#x200B;에서 Adobe Journey Optimizer을 외부 API에 연결하여 보다 관련성 있는 개인화를 위해 라이브 데이터 및 콘텐츠를 **아웃바운드** 채널, 이메일, SMS 및 푸시로 가져오는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3484125/?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3484118/?learn=on)
