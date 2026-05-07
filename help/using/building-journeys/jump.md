@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 이동, 활동, 여정, 분할, 분할
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
 version: Journey Orchestration
-source-git-commit: 9d9c1c4981f6429b0714e27a9df78a5f533eac72
+source-git-commit: 96b003c3e45550e89454366387a6aea20cfea9c8
 workflow-type: tm+mt
-source-wordcount: '1418'
+source-wordcount: '1405'
 ht-degree: 6%
 
 ---
@@ -108,7 +108,7 @@ ht-degree: 6%
 
 >[!TIP]
 >
->이 접근 방식에 대한 자세한 설명은 [Journey Optimizer의 고급 여정 모범 사례](https://experienceleague.adobe.com/ko/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}를 참조하세요.
+>다단계 충성도 프로그램을 사용한 작업 예제는 [다단계 충성도 여정](journeys-uc.md#multi-phase-loyalty)을 참조하십시오.
 
 ## 점프 활동 구성 {#jump-configure}
 
