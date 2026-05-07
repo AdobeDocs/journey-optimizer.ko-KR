@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 테스트, 여정, 확인, 오류, 문제 해결
 version: Journey Orchestration
 badge: label="제한 공개" type="Informative"
-source-git-commit: b51ab228d4c7612f85db14f58d71d52d246c4cf0
+source-git-commit: 615c970210894c9d189f86b7ed6363593c39f6d7
 workflow-type: tm+mt
-source-wordcount: '1952'
+source-wordcount: '1900'
 ht-degree: 1%
 
 ---
@@ -147,11 +147,11 @@ Adobe Journey Optimizer은 여정을 테스트하고 확인하는 두 가지 방
 
 ## 결과 보기 {#viewing-results}
 
-**[!UICONTROL 결과]** 탭에서 테스트 결과를 볼 수 있습니다. 보기 선택기를 사용하여 로그를 검색하는 방법을 선택합니다.
+**[!UICONTROL 결과]** 탭에서 테스트 결과를 볼 수 있습니다. **[!UICONTROL 사용자 테스트]** 드롭다운에서 실행을 검사할 시뮬레이션된 사용자를 선택합니다.
 
-* **시뮬레이션된 모든 사용자**: 실행 중인 모든 시뮬레이션된 사용자 간에 집계된 결과를 보려면 **[!UICONTROL 모두]**&#x200B;를 선택합니다. 이 보기는 시뮬레이트된 단일 사용자를 먼저 선택하지 않고 전체 시뮬레이션을 한 눈에 스캔하는 데 도움이 됩니다.
-
-* **시뮬레이션된 사용자 한 명**: **[!UICONTROL 테스트 사용자]** 드롭다운에서 실행을 검사할 시뮬레이션된 사용자를 선택합니다.
+<!--
+* **All simulated users**: Select **[!UICONTROL All]** to see results aggregated across every simulated user in the run. This view helps you scan the full simulation at a glance, activity, outcomes, and errors, without picking a single simulated user first.
+-->
 
 각 활동에 대해 로그는 시뮬레이션된 사용자가 단계를 시작했는지 또는 종료했는지 여부와 시뮬레이션 중에 발생한 오류를 표시할 수 있습니다.
 
