@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: ba3ceaeebb11d62c95586be86c0f0ad8c903e39c
+source-git-commit: 1054bbf73dc7e37efb07cc1336c11107da27345f
 workflow-type: tm+mt
-source-wordcount: '1511'
+source-wordcount: '1524'
 ht-degree: 75%
 
 ---
@@ -364,3 +364,10 @@ AI 어시스턴트는 즉각적인 도움과 운영 인사이트를 제공합니
 >id="ajo_admin_aem_custom_domain"
 >title="사용자 정의 도메인"
 >abstract="선택 사항입니다. 조직의 콘텐츠를 가져오지 못하도록 차단된 사용자 정의 도메인 ifpublish-p16552-e147195.adobeaemcloud.comis를 제공합니다."
+
+<!-- JOURNEYS - EXPRESSION ASSISTANT -->
+
+>[!CONTEXTUALHELP]
+>id="journeyExpAI"
+>title="표현식 도우미"
+>abstract="표현식 도우미를 사용하여 Journey Optimizer에서 표현식을 생성하고 구체화합니다."
