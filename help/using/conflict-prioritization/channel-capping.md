@@ -9,16 +9,16 @@ role: User
 level: Intermediate
 keywords: 메시지, 빈도, 규칙, 압력
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 2dc69f4479c86f0cfee62cd345ad7b5e1618506b
 workflow-type: tm+mt
-source-wordcount: '1249'
-ht-degree: 6%
+source-wordcount: '1280'
+ht-degree: 8%
 
 ---
 
 # 채널 및 커뮤니케이션 유형별 빈도 캡핑 {#rule-sets}
 
-**채널** 규칙 집합은 최대 가용량 규칙을 통신 채널에 적용합니다. 예를 들어, 하루에 1회 이상의 이메일 또는 SMS 커뮤니케이션을 보내지 않도록 합니다.
+**채널** 규칙 집합은 최대 가용량 규칙을 통신 채널에 적용합니다. 예를 들어 하루에 1회 이상의 이메일 또는 SMS 커뮤니케이션을 보내지 않도록 합니다.
 
 채널 규칙 세트를 활용하면 통신 유형별로 빈도 상한을 설정하여 유사한 메시지가 있는 고객을 오버로드할 수 있습니다. 예를 들어 고객에게 전송되는 **프로모션 커뮤니케이션**&#x200B;의 수를 제한하는 규칙 세트와 고객에게 전송되는 **뉴스레터**&#x200B;의 수를 제한하는 규칙 세트를 만들 수 있습니다. 생성 중인 캠페인 유형에 따라 프로모션 커뮤니케이션 또는 뉴스레터 규칙 세트를 적용하도록 선택할 수 있습니다.
 
@@ -82,11 +82,13 @@ ht-degree: 6%
 
    새 시간 범위가 시작되면 카운터가 자동으로 0으로 재설정됩니다. 2일 빈도 상한의 경우 이 재설정은 2일마다 자정(UTC)에 발생합니다.
 
-1. 이 규칙에 사용할 채널을 선택하십시오. **[!UICONTROL 전자 메일]**, **[!UICONTROL SMS]**, **[!UICONTROL 푸시 알림]** 또는 **[!UICONTROL DM]**.
+1. 이 규칙에 사용할 채널을 선택하십시오. **[!UICONTROL 이메일]**, **[!UICONTROL SMS]**, **[!UICONTROL 푸시 알림]**, **[!UICONTROL 다이렉트 메일]** 또는 **[!UICONTROL WhatsApp]**.
 
-1. 선택한 모든 채널에 캡핑을 총 카운트로 적용하려면 여러 채널을 선택하십시오.
+   ![](assets/rule-set-channels.png)
 
-   예를 들어 최대 가용량 을 5로 설정하고 이메일 채널과 sms 채널을 모두 선택합니다. 프로필이 선택한 기간 동안 이미 3개의 마케팅 이메일과 2개의 마케팅 SMS를 받은 경우, 이 프로필은 다음 마케팅 이메일 또는 SMS 게재에서 제외됩니다.
+   선택한 모든 채널에 캡핑을 총 카운트로 적용하려면 여러 채널을 선택하십시오.
+
+   예를 들어 캡핑을 5로 설정하고 이메일 및 SMS 채널을 모두 선택합니다. 프로필이 선택한 기간 동안 이미 3개의 마케팅 이메일과 2개의 마케팅 SMS 메시지를 받은 경우, 이 프로필은 다음 마케팅 이메일 또는 SMS 메시지 게재에서 제외됩니다.
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭하여 규칙 만들기를 확인합니다. 메시지가 **[!UICONTROL 초안]** 상태로 규칙 집합에 추가됩니다.
 
@@ -166,4 +168,4 @@ In this scenario, an individual profile:
 
 ## 사용 방법 비디오 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444733?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
