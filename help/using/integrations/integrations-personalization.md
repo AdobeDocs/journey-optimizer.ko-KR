@@ -1,17 +1,17 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 외부 통합 활성화
+title: 외부 통합 사용
 description: 채널 작성 프로세스에 외부 통합을 통합하여 개인화된 동적 정보로 콘텐츠를 보강합니다
 feature: Integrations
 topic: Content Management
 role: User
 level: Beginner
 keywords: 통합
-source-git-commit: 4cc3c959fe08c1d574a5d041bf7721441bc96f97
+source-git-commit: c5defc4940043753ff6c4e27d2ebafc807f8c9ba
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 1%
+source-wordcount: '809'
+ht-degree: 0%
 
 ---
 
@@ -73,43 +73,59 @@ ht-degree: 1%
 
 ![](assets/external-integration-content-7.png)
 
-<!--
+## 한 API 호출을 다른 API 호출에 매핑 {#map-integration-chain}
 
-## Map one API call to another {#map-integration-chain}
+한 호출의 결과가 경로 세그먼트, 헤더 또는 쿼리 매개 변수와 같은 다음 결과를 제공하도록 통합을 연결할 수 있습니다. 호출은 동일한 메시지에서 순서대로 실행되므로 사용자 지정 코드 없이 보다 풍부한 개인화를 지원합니다.
 
-You can **chain** integrations so that values returned by one active integration drive the inputs (path, headers, or query parameters) of another. That lets you build a real-time data flow in a single message without custom code.
+시작하기 전에 다음을 확인하십시오.
 
-Before you start, make sure that:
+* 관리자는 필요한 모든 통합을 구성하고 활성화했습니다. [통합 구성](integrations.md)을 참조하세요.
+* 변수 경로 자리 표시자, 헤더 및 쿼리 매개 변수는 마케터 관련 레이블이 있는 통합 구성에서 설정됩니다.
+* 관리자는 작성 시 표시되도록 각 통합의 **[!UICONTROL 응답 페이로드]**&#x200B;에 필요한 응답 필드를 노출했습니다.
 
-* An administrator has configured and activated every integration you need. See [Configure your Integration](integrations.md).
-* Variable path placeholders, headers, and query parameters are set up in the integration configuration with marketer-facing labels.
-* The administrator exposed the response fields you need in each integration's **[!UICONTROL Response payload]** so they appear when authoring.
+아래 예제는 프로필의 예약에서 비행 번호를 반환하는 예약 통합을 사용한 다음 라이브 상태(지연, 대상)에 해당 번호를 사용하는 비행 정보 통합을 사용합니다. 두 번째 통합의 입력을 첫 번째 호출의 응답에 매핑합니다.
 
-In the below example, a reservation system integration returns a flight booking reference from the profile context. A separate flight-information integration expects that reference as a **path variable**. In the personalization editor, you map the second integration's variable to a field from the first integration's response, instead of a static value or profile attribute alone.
+1. 메시지 또는 조각을 열고 개인화 편집기를 엽니다.
 
-1. Open your message or fragment and place the cursor where you want personalized content (for example, a **[!UICONTROL Text]** field).
+   ![](assets/uc-integrations-1.png)
 
-1. Open the personalization editor and go to **[!UICONTROL Integrations]** → **[!UICONTROL Open integrations]**.
+1. **[!UICONTROL 통합]**&#x200B;에서 **[!UICONTROL 통합 열기]**&#x200B;를 클릭합니다.
 
-1. Select the integration whose output will supply the downstream input (in the example, the reservation or profile API that returns the flight identifier).
+   ![](assets/uc-integrations-2.png)
 
-1. Define that integration's inputs as usual—static values, profile attributes, or other allowed mappings—then save so its response is available for chaining.
+1. 응답이 다음 호출(예: 비행 식별자를 포함하는 예약 또는 예약 데이터)을 제공할 통합을 추가합니다.
 
-    >[!NOTE]
-    >
-    > Fields must appear in the administrator-defined response payload for each integration. You cannot reference response properties that were not exposed in configuration.
+   ![](assets/uc-integrations-3.png)
 
-1. Select the **second** integration (for example, the API that needs the flight number or booking reference on the URL path).
+1. (선택 사항) 이름이 지정된 변수를 예약 응답에 바인딩하려면 **[!UICONTROL Helper 함수]** 메뉴를 열고 도우미(예: `Let` 함수)를 추가합니다.
 
-1. For each input that must come from the first call—often a **path variable** or **variable** header/query parameter—choose the mapping source that references the **first integration's response** (for example, the flight booking reference field from the reservation payload). Do not use a static test value if you need live, profile-specific data.
+   >[!NOTE]
+   >
+   > 관리자 정의 **[!UICONTROL 응답 페이로드]**&#x200B;에 노출된 필드만 사용할 수 있습니다. 구성에 노출되지 않은 속성은 참조할 수 없습니다.
 
-1. Insert the response tokens you need in the content (for example, destination name from the flight API, loyalty balance from a loyalty integration) using the ![add](assets/do-not-localize/Smock_Add_18_N.svg) control.
+1. 도우미 변수를 사용하는 경우 해당 변수를 예약 통합이 다운스트림 사용을 위해 반환하는 필드(예: 승객 또는 예약 페이로드의 비행 번호)에 매핑합니다.
 
-1. Save the personalization.
+   ![](assets/uc-integrations-4.png)
 
-When you **simulate** or send, Journey Optimizer resolves integrations in order: the first call runs with the profile context you configured; its output is used to build the second request. Different integrations may run at simulation time and at send time according to your setup and channel behavior.
+1. **[!UICONTROL 통합 열기]** 메뉴에서 두 번째 통합(예: 비행 상태)을 추가합니다.
 
--->
+   ![](assets/uc-integrations-5.png)
+
+1. 두 번째 통합에서 **[!UICONTROL 통합 특성]**&#x200B;을 엽니다. 경로 변수, 헤더 또는 쿼리 매개 변수와 같이 첫 번째 호출의 데이터를 재사용해야 하는 각 입력에 대해 첫 번째 통합 응답에서 매핑 소스를 선택합니다.
+
+   **[!UICONTROL 알약]** 경험에서는 `Let` 문 없이 첫 번째 호출 출력을 두 번째 호출 입력에 직접 매핑할 수 있습니다. `Let`을(를) 사용한 경우 대신 해당 변수를 통해 매핑할 수 있습니다.
+
+   ![](assets/uc-integrations-6.png)
+
+1. 두 번째 통합의 토큰을 ![add](assets/do-not-localize/Smock_Add_18_N.svg) 컨트롤(예: 비행 정보 응답의 대상)이 있는 콘텐츠에 삽입합니다.
+
+   ![](assets/uc-integrations-8.png)
+
+1. 콘텐츠를 저장합니다.
+
+**[!UICONTROL 시뮬레이션]** 또는 전송 시 Journey Optimizer은 통합 순서를 실행합니다. 첫 번째 호출에서는 구성된 프로필 컨텍스트를 사용하고 그 결과는 두 번째 요청을 빌드합니다. 주어진 통합이 시뮬레이션에서 실행되는지 또는 전송 시간에 실행되는지는 설정 및 채널에 따라 다릅니다.
+
+![](assets/uc-integrations-7.png)
 
 ## 사용 방법 비디오 {#video}
 
