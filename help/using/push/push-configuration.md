@@ -7,10 +7,10 @@ feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 14aa1c3a470bfebad0632614808380bab8b953b0
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '2189'
-ht-degree: 6%
+ht-degree: 9%
 
 ---
 
@@ -248,7 +248,7 @@ Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Ex
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_app_id"
 >title="앱 ID 개인화"
->abstract="여러 모바일 앱을 관리하는 경우 프로필에 각 앱 ID를 저장하고 단일 푸시 채널 구성을 사용합니다. 앱 ID 필드 옆에 있는 개인화 편집기를 열어 프로필 속성을 선택합니다. 표현식은 각 수신자에 대해 전송 시 평가됩니다. 표현식이 반환할 수 있는 모든 앱 ID에 대해 푸시 자격 증명이 있는지 확인합니다."
+>abstract="여러 모바일 앱을 관리하는 경우, 각 앱 ID를 프로필에 저장하고 단일 푸시 채널 구성을 사용합니다. 앱 ID 필드 옆의 개인화 편집기를 열어 프로필 속성을 선택합니다. 표현식은 각 수신자에 대해 전송 시점에 평가됩니다. 표현식이 반환할 수 있는 모든 앱 ID에 대해 푸시 자격 증명이 있는지 확인하십시오."
 
 별도의 앱을 가진 많은 브랜드 또는 테넌트가 있는 경우 프로필에 각 **[!UICONTROL 앱 ID]**&#x200B;를 저장하고 단일 채널 구성을 사용하여 각 수신자에 대해 올바른 앱으로 푸시 알림을 전송할 수 있습니다.
 

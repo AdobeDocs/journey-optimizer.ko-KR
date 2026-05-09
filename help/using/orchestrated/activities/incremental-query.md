@@ -8,10 +8,10 @@ topic: Building campaigns
 role: User
 level: Intermediate
 version: Campaign Orchestration
-source-git-commit: 4c306ef5dddca4917b6b964979023b9574f59a90
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '518'
-ht-degree: 20%
+ht-degree: 22%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_incrementalquery_history"
 >title="기록(일)"
->abstract="이 설정은 해당 목록이 유지되는 기간을 제어합니다. 값이 0이면 무한한 보존을 의미하며 레코드가 제거되지 않습니다."
+>abstract="이 설정은 해당 목록이 유지되는 기간을 제어합니다. 값이 0이면 무한한 보존을 의미하며 어떤 기록도 제거되지 않습니다."
 
 **[!UICONTROL 증분 쿼리]** 활동은 오케스트레이션된 캠페인이 실행될 때마다 데이터베이스 쿼리를 실행하는 **[!UICONTROL 타깃팅]** 활동입니다. 중요한 점은 **새** 레코드만 출력한다는 것입니다. 이전 실행에서 이미 선택된 모든 사용자는 제외되므로, 동일한 사용자를 다시 타겟팅하거나 동일한 행을 다시 내보내는 일은 피하십시오.
 
