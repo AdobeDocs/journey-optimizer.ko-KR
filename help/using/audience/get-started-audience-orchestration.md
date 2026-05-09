@@ -107,7 +107,7 @@ ht-degree: 50%
 
 대상 컴포지션을 사용하면 기존 Adobe Experience Platform 대상을 시각적 캔버스로 결합하고 다양한 활동(분할, 제외...)을 활용할 수 있는 **컴포지션 워크플로**&#x200B;를 만들 수 있습니다. 새 대상자를 생성합니다.
 
-완료되면 **결과 대상**이 기존 대상과 함께 Adobe Experience Platform에 다시 저장되며 Journey Optimizer 캠페인 및 여정에서 타겟 고객에게 활용될 수 있습니다. Journey Optimizer에서 대상을 타기팅하는 방법 알아보기
+완료되면 **결과 대상**&#x200B;이 기존 대상과 함께 Adobe Experience Platform에 다시 저장되며 Journey Optimizer 캠페인 및 여정에서 타겟 고객에게 활용될 수 있습니다. Journey Optimizer에서 대상을 타기팅하는 방법 알아보기
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]

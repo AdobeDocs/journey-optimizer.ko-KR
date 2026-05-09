@@ -177,7 +177,7 @@ ht-degree: 11%
 
 * **[!UICONTROL 대상 자격]** 활동에서 일괄 처리 대상을 만든 후 바로 사용하지 마십시오. 이렇게 하면 첫 번째 계산 피크가 나타나지 않습니다. 계산된 적이 없는 대상을 사용하려는 경우 여정 캔버스에 노란색 경고가 표시됩니다.
 
-  [!DNL Adobe Experience Platform]](assets/segment-error.png)에서 대상을 찾을 수 없을 때 ![오류 메시지
+  [!DNL Adobe Experience Platform]![&#128279;](assets/segment-error.png)에서 대상을 찾을 수 없을 때 오류 메시지
 
 * 여정에서 사용되는 데이터 소스 및 작업에 대한 최대 가용량 규칙을 적용하여 오버로드를 방지합니다. 자세한 내용은 [Journey Orchestration 설명서](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}를 참조하세요. 최대 가용량 규칙에는 재시도가 없습니다. 다시 시도해야 하는 경우 **[!UICONTROL 조건 또는 작업에서 시간 초과 또는 오류 발생 시 대체 경로를 추가]** 상자를 선택하여 여정에서 대체 경로를 사용하십시오.
 
