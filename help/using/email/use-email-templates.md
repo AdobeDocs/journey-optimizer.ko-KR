@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 이메일, 템플릿, 디자인
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 20%
+source-wordcount: '271'
+ht-degree: 21%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 20%
 
 샘플 또는 저장된 템플릿 중 하나를 사용하여 콘텐츠 작성을 시작하려면 아래 단계를 따르십시오.
 
-1. [전자 메일 &#x200B;](get-started-email-design.md)콘텐츠 편집&#x200B;**[!UICONTROL 화면에서 전자 메일 Designer에 액세스]**&#x200B;합니다.
+1. [전자 메일 **[!UICONTROL 콘텐츠 편집]** 화면에서 전자 메일 Designer에 액세스](get-started-email-design.md)합니다.
 
 1. **[!UICONTROL 전자 메일 만들기]** 화면에서 기본적으로 **[!UICONTROL 샘플 템플릿]** 탭이 선택됩니다.
 

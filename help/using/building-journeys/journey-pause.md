@@ -9,9 +9,9 @@ level: Intermediate
 keywords: 게시, 여정, 라이브, 유효성, 확인
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '2626'
+source-wordcount: '2649'
 ht-degree: 5%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_pause"
 >title="여정 일시 중지"
->abstract="라이브 여정을 일시 중지하여 새로운 프로필이 진입하지 않도록 합니다. 현재 여정에 있는 프로필을 삭제할지 아니면 그대로 유지할지 선택합니다. 유지할 경우, 여정이 재개되면 다음 액션 활동에서 실행이 재개됩니다.  업데이트 또는 긴급 중단 시에도 진행 과정을 그대로 유지하면서 사용할 수 있는 이상적인 방법입니다."
+>abstract="라이브 여정을 일시 중지하여 새로운 프로필이 진입하지 않도록 합니다. 현재 여정에 있는 프로필을 삭제할지 아니면 그대로 유지할지 선택합니다. 유지할 경우, 여정이 재개되면 다음 액션 활동에서 실행이 재개됩니다. 업데이트 또는 긴급 중단 시에도 진행 과정을 그대로 유지하면서 사용할 수 있는 이상적인 방법입니다."
 
-라이브 여정을 일시 중지하고 필요한 모든 변경 사항을 수행한 다음 언제든지 다시 시작할 수 있습니다.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> 일시 중지 중에 [프로필 특성 종료 기준을 적용](#journey-exit-criteria)하여 특성을 기준으로 프로필을 제외할 수 있습니다. 여정은 일시 중지 기간이 끝나면 자동으로 다시 시작됩니다. [수동으로 다시 시작](#journey-resume-steps)할 수도 있습니다.
+실시간 여정을 일시 중지하고 필요한 모든 변경 내용을 수행한 다음 언제든지 다시 시작할 수 있습니다.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> 일시 중지 중에 [프로필 특성 종료 기준을 적용](#journey-exit-criteria)하여 해당 특성에 따라 프로필을 제외할 수 있습니다. 여정은 일시 중지 기간이 끝나면 자동으로 다시 시작됩니다. [수동으로 다시 시작](#journey-resume-steps)할 수도 있습니다.
 
 ## 주요 이점 {#journey-pause-benefits}
 
@@ -33,7 +33,7 @@ ht-degree: 5%
 
 >[!CAUTION]
 >
->* 여정을 일시 중지하고 다시 시작할 수 있는 권한은 **[!DNL Publish journeys]** 높은 수준의 권한을 가진 사용자로 제한됩니다. [!DNL Journey Optimizer]이 섹션[에서 &#x200B;](../administration/permissions-overview.md) 사용자의 액세스 권한 관리에 대해 자세히 알아보세요.
+>* 여정을 일시 중지하고 다시 시작할 수 있는 권한은 **[!DNL Publish journeys]** 높은 수준의 권한을 가진 사용자로 제한됩니다. [이 섹션](../administration/permissions-overview.md)에서 [!DNL Journey Optimizer] 사용자의 액세스 권한 관리에 대해 자세히 알아보세요.
 >
 >* 일시 중지/다시 시작 기능을 사용하기 전에 [보호 기능 및 제한 사항을 읽어보세요](#journey-pause-guardrails).
 
@@ -162,7 +162,7 @@ ht-degree: 5%
 
 ## 가드레일 및 제한 사항 {#journey-pause-guardrails}
 
-* 최대 **14일** 동안 여정 버전을 일시 중지할 수 있으며, 조직 전체에서 일시 중지된 프로필에 최대 **1천만 개**&#x200B;의 여정이 허용됩니다.
+* 최대 **14일** 동안 여정 버전을 일시 중지할 수 있으며, 조직 전체에서 일시 중지된 프로필에 최대 **1천만 개**의 여정이 허용됩니다.
 이 제한은 개별 프로필이 아닌 일시 중지된 모든 여정에 걸쳐 유지된 총 프로필 수를 계산합니다. 예를 들어 동일한 5M 프로필이 일시 중지된 두 개의 여정에 유지되면 10M 제한에 도달합니다.
 이 제한은 30분마다 확인됩니다. 즉, 일시적으로 1,000만 임계값을 초과할 수 있지만, 시스템에서 이를 감지하면 추가 프로필이 자동으로 삭제됩니다.
 
@@ -211,7 +211,7 @@ ht-degree: 5%
 
 ## 일시 중지된 프로필의 여정 카드 문제 해결 {#discards-troubleshoot}
 
-[[!DNL Adobe Experience Platform] 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ko){target="_blank"}를 사용하여 단계 이벤트를 쿼리할 수 있습니다. 이 이벤트는 발생한 시기에 따라 프로필 삭제에 대한 자세한 정보를 제공할 수 있습니다.
+[[!DNL Adobe Experience Platform] 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}를 사용하여 단계 이벤트를 쿼리할 수 있습니다. 이 이벤트는 발생한 시기에 따라 프로필 삭제에 대한 자세한 정보를 제공할 수 있습니다.
 
 * 프로필이 여정에 들어가기 전에 발생하는 폐기물의 경우 다음 코드를 사용하십시오.
 

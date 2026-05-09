@@ -8,9 +8,9 @@ feature: Web Channel, Subdomains
 level: Experienced
 keywords: 웹, 하위 도메인, 구성
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '991'
 ht-degree: 22%
 
 ---
@@ -88,7 +88,7 @@ ht-degree: 22%
 
    **기본** 하위 도메인만 사용됩니다.
 
-1. **[!UICONTROL 제출]**&#x200B;을 클릭합니다. 하위 도메인이 **[!UICONTROL 성공]** 상태를 가져옵니다. 웹 경험에 사용할 준비가 되었습니다.
+1. **[!UICONTROL 제출을 클릭합니다]**. 하위 도메인이 **[!UICONTROL 성공]** 상태를 가져옵니다. 웹 경험에 사용할 준비가 되었습니다.
 
    매우 드문 경우이지만 하위 도메인 설정이 실패할 수 있습니다. 이 경우 **[!UICONTROL 추가 작업]** 아이콘에서 **[!UICONTROL 삭제]** 단추를 사용하여 **[!UICONTROL 실패]** 하위 도메인을 삭제하여 목록을 정리할 수 있습니다.
 

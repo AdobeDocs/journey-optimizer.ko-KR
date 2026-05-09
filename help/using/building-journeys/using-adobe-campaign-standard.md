@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 여정, 통합, standard, campaign, ACS
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
 version: Journey Orchestration
-source-git-commit: 339285cbc82d5b30b221feb235ed8425a66f8802
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 4%
+source-wordcount: '981'
+ht-degree: 8%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 4%
 >
 >Journey Optimizer에서 사용하려면 Campaign Standard 트랜잭션 메시지와 관련 이벤트를 게시해야 합니다. 이벤트가 게시되었지만 메시지는 게시되지 않은 경우 Journey Optimizer 인터페이스에 표시되지 않습니다. 메시지가 게시되었지만 연결된 이벤트가 게시되지 않은 경우 Journey Optimizer 인터페이스에 표시되지만 사용할 수 없습니다.
 
-여정![[!DNL Adobe Campaign]의 &#x200B;](assets/journey59.png) 표준 작업 구성
+여정](assets/journey59.png)의 ![[!DNL Adobe Campaign] 표준 작업 구성
 
 이벤트(실시간 이라고도 함) 또는 프로필 트랜잭션 메시지 템플릿을 사용할 수 있습니다.
 
@@ -55,7 +55,7 @@ ht-degree: 4%
 >[!NOTE]
 >
 >프로필의 트랜잭션 템플릿을 전자 메일에 사용할 때 구독 취소 메커니즘은 [!DNL Adobe Campaign] Standard에서 자동으로 처리됩니다.
->**[!UICONTROL 트랜잭션 전자 메일 템플릿]**&#x200B;에 [구독 취소 링크](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=ko) 콘텐츠 블록을 포함하십시오.
+>[트랜잭션 전자 메일 템플릿](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=ko)에 **[!UICONTROL 구독 취소 링크]** 콘텐츠 블록을 포함하십시오.
 >이벤트 기반 템플릿(rtEvent)을 사용하는 경우 메시지에 링크를 통합하여 수신자의 이메일을 URL 매개 변수로 전달하고 구독 취소 랜딩 페이지로 안내합니다.
 >랜딩 페이지를 만들고 수신자의 구독 취소 결정이 Adobe에 전송되도록 합니다.
 
@@ -99,7 +99,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->이 범주는 이벤트 메시지를 선택한 경우에만 표시됩니다. 프로필 메시지의 경우 **[!UICONTROL Standard에서 수행한 조정을 사용하여 시스템에서]** Target[!DNL Adobe Campaign] 필드를 자동으로 검색합니다.
+>이 범주는 이벤트 메시지를 선택한 경우에만 표시됩니다. 프로필 메시지의 경우 [!DNL Adobe Campaign] Standard에서 수행한 조정을 사용하여 시스템에서 **[!UICONTROL Target]** 필드를 자동으로 검색합니다.
 
 이 섹션에서는 **[!UICONTROL 푸시 플랫폼]**&#x200B;을 정의해야 합니다. 드롭다운 목록에서 **[!UICONTROL Apple 푸시 알림 서버]**(iOS) 또는 **[!UICONTROL Firebase Cloud 메시징]**(Android)을 선택할 수 있습니다. 이벤트 또는 데이터 소스에서 특정 필드를 선택하거나 고급 표현식을 정의할 수도 있습니다.
 

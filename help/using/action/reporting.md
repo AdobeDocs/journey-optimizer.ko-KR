@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 908f553a-6d2b-45e5-bdb2-eb685f5e1165
-source-git-commit: df7591e337ad11cd51ec1a1c06312823a27561a2
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '659'
 ht-degree: 6%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 6%
 
 사용자 지정 작업 보고 페이지는 Journey Optimizer의 다른 모든 시간 보고서와 마찬가지로 작동합니다. 대시보드 기능에 대한 자세한 내용은 [이 설명서](../reports/report-cja-manage.md)를 참조하세요.
 
-**[!UICONTROL 사용자 지정 작업]** 보고 페이지에 액세스하려면 ![](assets/do-not-localize/Smock_Monitoring_18_N.svg)작업&#x200B;**[!UICONTROL 홈 페이지에서]**&#x200B;을(를) 클릭하십시오.
+**[!UICONTROL 사용자 지정 작업]** 보고 페이지에 액세스하려면 **[!UICONTROL 작업]** 홈 페이지에서 ![](assets/do-not-localize/Smock_Monitoring_18_N.svg)을(를) 클릭하십시오.
 
 ![](assets/monitor-1.png)
 
@@ -103,6 +103,6 @@ ht-degree: 6%
 
 +++비디오 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3479548?captions=kor&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3479541?quality=12&learn=on)
 
 +++

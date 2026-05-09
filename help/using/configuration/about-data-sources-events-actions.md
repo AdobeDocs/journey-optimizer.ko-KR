@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 구성, 여정, 대시보드, 데이터 소스, 이벤트, 작업
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
-source-git-commit: 9eda5416ba72fae390fc7eca6d9a3c699cedde50
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 59%
+source-wordcount: '539'
+ht-degree: 64%
 
 ---
 

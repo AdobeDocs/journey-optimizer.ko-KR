@@ -10,10 +10,10 @@ mini-toc-levels: 1
 level: Beginner
 keywords: 캠페인, 상태, 일정, 액세스, 최적화 도구 관리
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 478bd6df8a82c9e37ec9319dedb27d99c021ee99
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1682'
-ht-degree: 9%
+source-wordcount: '1692'
+ht-degree: 10%
 
 ---
 
@@ -81,7 +81,7 @@ API 트리거 캠페인 목록에 액세스하려면 **[!UICONTROL API 트리거
 
 ## 캠페인 작업 {#operations}
 
-캠페인 인벤토리의 추가 작업 단추![&#x200B; 단추를 표시하는 &#x200B;](assets/do-not-localize/rule-builder-icon-more.svg)이미지를 사용하면 다양한 작업을 수행할 수 있습니다.
+캠페인 인벤토리의 추가 작업 단추](assets/do-not-localize/rule-builder-icon-more.svg) 단추를 표시하는 ![이미지를 사용하면 다양한 작업을 수행할 수 있습니다.
 
 ![캠페인 인벤토리를 표시하는 이미지](assets/inventory-actions.png)
 
@@ -142,7 +142,7 @@ API 트리거 캠페인 목록에 액세스하려면 **[!UICONTROL API 트리거
 >title="캠페인 목록 및 캘린더 보기"
 >abstract="캠페인 목록 외에도 [!DNL Journey Optimizer]는 캠페인에 대한 캘린더 보기를 제공하여 일정을 명확하게 시각적으로 보여 줍니다. 이들 버튼을 사용하여 언제든지 목록 보기와 캘린더 보기 사이를 전환할 수 있습니다."
 
-[!DNL Journey Optimizer]은(는) 캠페인 목록 외에 캠페인의 일정 보기를 제공하여 일정에 대한 명확한 시각적 표현을 제공합니다.
+캠페인 목록 외에도 [!DNL Journey Optimizer]는 캠페인에 대한 캘린더 보기를 제공하여 일정을 명확하게 시각적으로 보여 줍니다.
 
 ### 달력 작동 방식
 
@@ -243,7 +243,7 @@ API 트리거 캠페인 목록에 액세스하려면 **[!UICONTROL API 트리거
 
 ## 캠페인 삭제 {#delete-a-campaign}
 
-캠페인을 삭제하려면 추가 작업 단추![&#x200B; 단추를 표시하는 줄임표 &#x200B;](assets/do-not-localize/rule-builder-icon-more.svg)이미지를 사용하고 **[!UICONTROL 삭제]**&#x200B;를 선택하십시오.
+캠페인을 삭제하려면 추가 작업 단추](assets/do-not-localize/rule-builder-icon-more.svg) 단추를 표시하는 줄임표 ![이미지를 사용하고 **[!UICONTROL 삭제]**&#x200B;를 선택하십시오.
 
 ![](assets/delete-a-campaign.png){width="70%" align="left"}
 
@@ -253,7 +253,7 @@ API 트리거 캠페인 목록에 액세스하려면 **[!UICONTROL API 트리거
 
 ## 캠페인 복제 {#duplicate-a-campaign}
 
-캠페인을 복제하려면, 예를 들어 중단된 경우 추가 작업 단추![&#x200B; 단추를 표시하는 줄임표 &#x200B;](assets/do-not-localize/rule-builder-icon-more.svg)이미지를 사용하고 **[!UICONTROL 복제]**&#x200B;를 선택하십시오.
+캠페인을 복제하려면, 예를 들어 중단된 경우 추가 작업 단추](assets/do-not-localize/rule-builder-icon-more.svg) 단추를 표시하는 줄임표 ![이미지를 사용하고 **[!UICONTROL 복제]**&#x200B;를 선택하십시오.
 
 캠페인 이름을 입력하고 확인합니다.
 
@@ -263,7 +263,7 @@ API 트리거 캠페인 목록에 액세스하려면 **[!UICONTROL API 트리거
 
 * **시작하기** - [캠페인 시작](get-started-with-campaigns.md) | [첫 번째 액션 캠페인 만들기](create-campaign.md) | [API 트리거 캠페인 안내서](api-triggered-campaigns.md) | [오케스트레이션된 캠페인 안내서](../orchestrated/gs-orchestrated-campaigns.md)
 
-* **캠페인 구성** - [캠페인 속성](campaign-properties.md) | [캠페인 작업 및 채널](campaign-action.md) | [캠페인 콘텐츠 디자인](campaign-content.md) | [캠페인 대상 선택](campaign-audience.md) | [캠페인 예약](campaign-schedule.md)
+* **캠페인 구성** - [캠페인 속성](campaign-properties.md) | [캠페인 작업 및 채널](campaign-action.md) | [Campaign 콘텐츠 디자인](campaign-content.md) | [캠페인 대상자 선택](campaign-audience.md) | [캠페인 예약](campaign-schedule.md)
 
 * **고급 기능** - [승인 워크플로](../test-approve/gs-approval.md) | [충돌 관리 및 우선 순위 지정](../conflict-prioritization/gs-conflict-prioritization.md) | [채널별 빈도 제한](../conflict-prioritization/channel-capping.md) | [우선 순위 점수](../conflict-prioritization/priority-scores.md) | [다른 샌드박스로 캠페인 내보내기](../configuration/copy-objects-to-sandbox.md)
 

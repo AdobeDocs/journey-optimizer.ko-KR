@@ -10,10 +10,10 @@ role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '2746'
-ht-degree: 16%
+source-wordcount: '2787'
+ht-degree: 17%
 
 ---
 
@@ -83,7 +83,7 @@ ht-degree: 16%
 >title="오퍼 적격성 정보"
 >abstract="이 섹션에서는 결정 규칙을 사용하여 오퍼에 적합한 사용자를 결정할 수 있습니다."
 
-<!--additional-url="https://video.tv.adobe.com/v/341375?captions=kor" text="Watch demo video"-->
+<!--additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
@@ -94,7 +94,7 @@ ht-degree: 16%
 
 >[!NOTE]
 >
->**이 섹션**&#x200B;에서 **대상**&#x200B;과 [결정 규칙](#segments-vs-decision-rules)을 사용하는 방법에 대해 자세히 알아보세요.
+>[이 섹션](#segments-vs-decision-rules)에서 **대상**&#x200B;과 **결정 규칙**&#x200B;을 사용하는 방법에 대해 자세히 알아보세요.
 
 * 기본적으로 **[!UICONTROL 모든 방문자]** 옵션이 선택됩니다. 즉, 모든 프로필에서 오퍼를 표시할 수 있습니다.
 
@@ -112,9 +112,9 @@ ht-degree: 16%
 
   >[!CAUTION]
   >
-  >이벤트 기반 오퍼는 현재 [!DNL Journey Optimizer]에서 지원되지 않습니다. [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ko#events){target="_blank"}을(를) 기반으로 의사 결정 규칙을 만드는 경우 오퍼에서 이를 활용할 수 없습니다.
+  >이벤트 기반 오퍼는 현재 [!DNL Journey Optimizer]에서 지원되지 않습니다. [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}을(를) 기반으로 의사 결정 규칙을 만드는 경우 오퍼에서 이를 활용할 수 없습니다.
 
-대상자 또는 의사 결정 규칙을 선택하면 예상 적격 프로필에 대한 정보를 볼 수 있습니다. 데이터를 업데이트하려면 **[!UICONTROL 새로 고침]**&#x200B;을 클릭하세요.
+대상자 또는 결정 규칙을 선택하면 예상 적격 프로필에 대한 정보를 볼 수 있습니다. 데이터를 업데이트하려면 **[!UICONTROL 새로 고침]**&#x200B;을 클릭하세요.
 
 ![](../assets/offer-eligibility-segment-estimate.png)
 

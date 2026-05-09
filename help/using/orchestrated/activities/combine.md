@@ -5,7 +5,7 @@ title: 결합 활동 사용
 description: 결합 활동을 사용하는 방법 알아보기
 exl-id: af3c3a9c-8172-43b0-bba1-4a3d068b9a9e
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 100%
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 다음 세분화 옵션을 사용할 수 있습니다.
 
-* **[!UICONTROL 합집합]**: 여러 활동의 결과를 하나의 통합 타깃으로 병합합니다. 
+* **[!UICONTROL 합집합]**: 여러 활동의 결과를 하나의 통합 타깃으로 병합합니다.
 
 * **[!UICONTROL 교집합]**: 모든 인바운드 집단에 공통으로 포함되는 원소만 유지합니다.
 
@@ -83,7 +83,7 @@ ht-degree: 100%
 
 **[!UICONTROL 결합]** 활동에서 **[!UICONTROL 교집합]**&#x200B;을 구성할 수 있습니다. 그러려면 아래의 추가 단계를 수행해야 합니다.
 
-1. 중복 처리 방법을 정의하기 위해 **[!UICONTROL 조정 유형]**&#x200B;을 선택합니다. 
+1. 중복 처리 방법을 정의하기 위해 **[!UICONTROL 조정 유형]**&#x200B;을 선택합니다.
 
    * **[!UICONTROL 키만]**(기본값): 여러 인바운드 전환이 동일한 키를 공유할 때 단일 레코드를 유지합니다. 이 옵션은 인바운드 집단이 동질적일 경우에만 적용할 수 있습니다.
 

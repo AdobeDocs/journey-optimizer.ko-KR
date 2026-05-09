@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 랜딩, 랜딩 페이지, 작성, 페이지, 양식
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: 26d0fa859d1ef161ac62674cd38d7620429c24d3
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '2029'
-ht-degree: 7%
+source-wordcount: '2080'
+ht-degree: 8%
 
 ---
 
@@ -73,7 +73,7 @@ ht-degree: 7%
    >* **데이터 형식**&#x200B;은(는) 원시 데이터가 아닌 **XDM**(으)로 설정되어야 합니다.
    >* **인증**&#x200B;은(는) **사용 안 함**(인증되지 않은 연결)이어야 합니다.
    >
-   >스트리밍 연결이 목록에 표시되지 않으면 이러한 조건이 모두 충족되는지 확인하십시오. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
+   >스트리밍 연결이 목록에 표시되지 않으면 이러한 조건이 모두 충족되는지 확인하십시오. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
 
 1. 양식에 연결할 **[!UICONTROL 데이터 집합]**&#x200B;을(를) 선택하십시오. 여기에서 양식 응답이 저장되고 반영됩니다. 특정 데이터 세트를 검색하도록 입력하거나 목록에서 선택할 수 있습니다.
 

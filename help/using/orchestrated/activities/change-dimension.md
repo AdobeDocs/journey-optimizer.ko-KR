@@ -5,7 +5,7 @@ title: 차원 변경 활동 사용
 description: 차원 변경 활동을 사용하는 방법 알아보기
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
 version: Campaign Orchestration
-source-git-commit: 0980d5da677edb4cf21b7a86549ffc32d0b666a1
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 50%
@@ -56,6 +56,6 @@ ht-degree: 50%
 
 먼저 **[!UICONTROL 대상자 작성]** 활동을 만들며 **[!UICONTROL 위시리스트]** 타기팅 차원으로 모든 관련 위시리스트를 식별합니다.
 
-그런 다음 **[!UICONTROL 차원 변경]** 활동을 추가하여 타겟팅 차원을 **[!UICONTROL 위시리스트]**&#x200B;에서 **[!UICONTROL 수신자] (으)로 전환합니다.** 이 단계에서는 오케스트레이션된 캠페인 타겟이 해당 위시리스트에 연결된 올바른 프로필을 타겟팅하여 의도한 프로필로 SMS를 전송할 수 있도록 합니다.
+그런 다음 **[!UICONTROL 차원 변경]** 활동을 추가하여 타겟팅 차원을 **[!UICONTROL 위시리스트]**&#x200B;에서 **[!UICONTROL 수신자](으)로 전환합니다.** 이 단계에서는 오케스트레이션된 캠페인 타겟이 해당 위시리스트에 연결된 올바른 프로필을 타겟팅하여 의도한 프로필로 SMS를 전송할 수 있도록 합니다.
 
 ![](../assets/orchestrated-change-dimension-example.png)

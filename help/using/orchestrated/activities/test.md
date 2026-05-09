@@ -5,7 +5,7 @@ title: 오케스트레이션된 캠페인에서 테스트 활동 사용
 description: 테스트 활동을 사용하는 방법을 알아봅니다.
 exl-id: edd70849-0a21-45f2-91f3-4774a0cad9dd
 version: Campaign Orchestration
-source-git-commit: 8175f63d4e1055d285d2f3f12a498a9dbd3fa1ba
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 26%

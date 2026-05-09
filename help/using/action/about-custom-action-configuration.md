@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Experienced
 keywords: 작업, 서드파티, 사용자 지정, 여정, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '2022'
+source-wordcount: '2057'
 ht-degree: 14%
 
 ---
@@ -163,7 +163,7 @@ Adobe Journey Optimizer은 사용자 지정 작업에 대해 기본적으로 TLS
 
 mTLS(상호 전송 계층 보안)를 사용하여 Adobe Journey Optimizer 사용자 지정 작업에 대한 아웃바운드 연결에서 보안을 강화할 수 있습니다. mTLS는 상호 인증을 위한 종단간 보안 방법으로, 정보를 공유하는 양 당사자가 데이터를 공유하기 전에 자신이 주장하는 사람임을 보장합니다. mTLS에는 TLS와 비교하여 추가 단계가 포함되어 있으며, 이 단계에서 서버는 클라이언트의 인증서를 요청하고 마지막에 검증한다.
 
-사용자 지정 작업에서 상호 TLS(mTLS) 인증이 지원됩니다. mTLS를 활성화하기 위해 사용자 정의 작업 또는 여정에 구성을 추가할 필요는 없습니다. mTLS 활성화 엔드포인트가 감지되면 자동으로 활성화됩니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
+사용자 지정 작업에서 상호 TLS(mTLS) 인증이 지원됩니다. mTLS를 활성화하기 위해 사용자 정의 작업 또는 여정에 구성을 추가할 필요는 없습니다. mTLS 활성화 엔드포인트가 감지되면 자동으로 활성화됩니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
 
 ## 페이로드 매개 변수 정의 {#define-the-message-parameters}
 
@@ -171,7 +171,7 @@ mTLS(상호 전송 계층 보안)를 사용하여 Adobe Journey Optimizer 사용
 
 1. **[!UICONTROL 요청]** 섹션에 외부 서비스로 전송할 JSON 페이로드의 예제를 붙여 넣으십시오. 이 필드는 선택 사항이며 POST 및 PUT 호출 메서드에만 사용할 수 있습니다.
 
-   외부 호출에서 Null 값을 유지하려면 **[!UICONTROL NULL 값 허용]** 옵션을 활성화하십시오. int, string 등의 배열을 전송하는 것을 참고하십시오. 내의 Null 값이 있는 은(는) 완전히 지원되지 않습니다. 예를 들어, 다음 정수 배열 `[1, null, 2, 3]`은(는) 이 옵션이 선택된 경우에도 `[1, 2, 3]`(으)로 전송됩니다. 또한 이러한 배열이 null이면 빈 배열로 전송됩니다.
+   외부 호출에서 Null 값을 유지하려면 **[!UICONTROL NULL 값 허용]** 옵션을 활성화하십시오. 내에 Null 값이 있는 int, string 등의 배열 전송은 완전히 지원되지 않습니다. 예를 들어, 다음 정수 배열 `[1, null, 2, 3]`은(는) 이 옵션이 선택된 경우에도 `[1, 2, 3]`(으)로 전송됩니다. 또한 이러한 배열이 null이면 빈 배열로 전송됩니다.
 
    ![](assets/null-values.png){width="70%" align="left"}
 

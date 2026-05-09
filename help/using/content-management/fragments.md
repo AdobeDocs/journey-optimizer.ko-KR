@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 21%
@@ -60,8 +60,8 @@ ht-degree: 21%
 
 [!DNL Journey Optimizer]에서 **시각적 조각**&#x200B;을(를) 관리, 작성 및 사용하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451189/?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3419932/?quality=12)
 
 [!DNL Journey Optimizer]에서 **표현식 조각**&#x200B;을(를) 관리, 작성 및 사용하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3438924/?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424587/?quality=12)

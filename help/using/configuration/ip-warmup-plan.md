@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: IP, 그룹, 하위 도메인, 전달성
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1765'
-ht-degree: 6%
+source-wordcount: '1833'
+ht-degree: 8%
 
 ---
 
@@ -206,7 +206,7 @@ Hotmail 외부 도메인과 도메인 그룹 Microsoft의 도메인은 **[!UICON
 
 1. 동일한 행에 모든 Hotmail 도메인을 추가합니다.
 
-   [OOTB 도메인 그룹 탭](#copy-paste) 섹션에 나열된 모든 Hotmail 도메인을 [복사 및 붙여넣기](#ootb-domain-groups-tab)할 수 있습니다.
+   [OOTB 도메인 그룹 탭](#ootb-domain-groups-tab) 섹션에 나열된 모든 Hotmail 도메인을 [복사 및 붙여넣기](#copy-paste)할 수 있습니다.
 
 1. 다른 행을 추가합니다.
 
@@ -224,7 +224,7 @@ Hotmail 외부 도메인과 도메인 그룹 Microsoft의 도메인은 **[!UICON
 
 ### 기본 도메인 복사-붙여넣기 {#copy-paste}
 
-예를 들어 모든 Hotmail 도메인을 포함하는 사용자 정의 도메인 그룹을 만들려면 **IP 준비 계획 템플릿**&#x200B;의 [OOTB 도메인 그룹](assets/IPWarmupPlan-Template.xlsx) 탭이나 [위](#ip-warmup-plan-tab)에 제공된 목록에서 도메인을 복사하여 붙여 넣을 수 있습니다.
+예를 들어 모든 Hotmail 도메인을 포함하는 사용자 정의 도메인 그룹을 만들려면 [IP 준비 계획 템플릿](assets/IPWarmupPlan-Template.xlsx)의 **OOTB 도메인 그룹** 탭이나 [위](#ip-warmup-plan-tab)에 제공된 목록에서 도메인을 복사하여 붙여 넣을 수 있습니다.
 
 그런 다음 Excel 변환 도구를 사용하여 텍스트를 열로 변환합니다.
 
@@ -262,14 +262,14 @@ Hotmail 외부 도메인과 도메인 그룹 Microsoft의 도메인은 **[!UICON
 >id="ajo_admin_ip_warmup_upload"
 >title="IP 워밍업 플랜 지정"
 >abstract="IP 워밍업 단계, 목표 프로필 수와 같이 플랜에 필요한 모든 데이터를 입력하여 Excel 템플릿을 작성하고 여기에 업로드합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html?lang=ko#prepare-file" text="IP 워밍업 플랜 파일 준비"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html#prepare-file" text="IP 워밍업 플랜 파일 준비"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_surface"
 >title="마케팅 구성 선택"
 >abstract="IP 워밍업 플랜과 연결하려는 캠페인에서 선택한 것과 동일한 구성을 선택해야 합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=ko" text="채널 구성 설정"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=ko" text="IP 워밍업 캠페인 만들기"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html" text="채널 구성 설정"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html" text="IP 워밍업 캠페인 만들기"
 
 IP 준비 계획을 만들려면 아래 단계를 수행합니다.
 

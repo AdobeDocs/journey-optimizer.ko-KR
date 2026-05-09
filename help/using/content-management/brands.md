@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 33%
+source-wordcount: '688'
+ht-degree: 35%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 33%
 
 ## 브랜드 액세스 {#generative-access}
 
-**[!UICONTROL 에서]**&#x200B;브랜드[!DNL Adobe Journey Optimizer] 메뉴에 액세스하려면 사용자에게 **[!UICONTROL 브랜드 키트 관리]** 또는 **[!UICONTROL AI 지원 사용]** 권한을 부여해야 합니다. [자세히 알아보기](../administration/permissions.md)
+[!DNL Adobe Journey Optimizer]에서 **[!UICONTROL 브랜드]** 메뉴에 액세스하려면 사용자에게 **[!UICONTROL 브랜드 키트 관리]** 또는 **[!UICONTROL AI 지원 사용]** 권한을 부여해야 합니다. [자세히 알아보기](../administration/permissions.md)
 
 +++  브랜드 관련 권한을 할당하는 방법을 알아봅니다.
 

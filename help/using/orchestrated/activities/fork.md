@@ -5,9 +5,9 @@ title: 포크 활동 사용
 description: 오케스트레이션된 캠페인에서 포크 활동을 사용하는 방법을 알아봅니다
 exl-id: 52e8057b-dac1-45f5-9dd0-1b28a59adde9
 version: Campaign Orchestration
-source-git-commit: 4ba956e83c4e28a6d578ffa093d8b8e5fbd2c50b
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '256'
 ht-degree: 47%
 
 ---

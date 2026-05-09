@@ -4,7 +4,7 @@ description: 여정에 대한 최대 가용량 규칙을 만드는 방법과 여
 role: User
 level: Beginner
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: 07f842fbb1c495c39f4e225c1d0089667c5d6f40
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 18%
@@ -115,8 +115,8 @@ ht-degree: 18%
 
 ![](assets/journey-report.png)
 
-또한 [Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ko){target="_blank"}를 사용하여 특정 여정에 프로필이 입력되지 않은 규칙을 식별하는 쿼리를 작성할 수 있습니다. 하위 이유 삭제(`CAP_REACHED` 또는 `LOWER_PRIORITY`)를 포함한 쿼리 예는 [이 섹션](../reports/query-examples.md#business-rules-queries)에서 사용할 수 있습니다.
+또한 [Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}를 사용하여 특정 여정에 프로필이 입력되지 않은 규칙을 식별하는 쿼리를 작성할 수 있습니다. 하위 이유 삭제(`CAP_REACHED` 또는 `LOWER_PRIORITY`)를 포함한 쿼리 예는 [이 섹션](../reports/query-examples.md#business-rules-queries)에서 사용할 수 있습니다.
 
 ## 사용 방법 비디오 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3447622?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)
