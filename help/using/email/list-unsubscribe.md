@@ -265,7 +265,7 @@ GET 호출은 다음과 같습니다.
 
    * 구문 분석된 값: *v1.xyz*
 
-API 예: https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&emailParamsBody=v1.xyz
+API 예: https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&amp;emailParamsBody=v1.xyz
 
 >[!CAUTION]
 >

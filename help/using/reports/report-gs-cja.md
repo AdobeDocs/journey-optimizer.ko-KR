@@ -53,15 +53,15 @@ Journey Optimizer의 보고 기능은 Customer Journey Analytics 기능의 개�
 
 * Customer Journey Analytics을 **소유**&#x200B;하고 Customer Journey Analytics 제품 프로필에 액세스할 수 있는 경우 다음이 필요합니다.
 
-   * Customer Journey Analytics에 대한 **[!UICONTROL 대상 만들기]** 및 **[!UICONTROL 대상 보기]** 권한. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/technotes/access-control){target="_blank"}
+   * Customer Journey Analytics에 대한 **[!UICONTROL 대상 만들기]** 및 **[!UICONTROL 대상 보기]** 권한. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control){target="_blank"}
 
    * Adobe Journey Optimizer에 대한 **[!UICONTROL 프로필 관리]** 권한. [자세히 알아보기](../administration/permissions.md)
 
-* **Adobe Journey Optimizer에서 기본 데이터 보기로 설정**&#x200B;을 설정하여 Customer Journey Analytics 데이터 보기를 구성해야 합니다. [데이터 보기에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}
+* **Adobe Journey Optimizer에서 기본 데이터 보기로 설정**&#x200B;을 설정하여 Customer Journey Analytics 데이터 보기를 구성해야 합니다. [데이터 보기에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}
 
 
 ## 사용 방법 비디오{#video}
 
 아래 비디오에서는 Customer Journey Analytics에서 향상된 Journey Optimizer 보고를 사용하는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3443158?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3430413)
