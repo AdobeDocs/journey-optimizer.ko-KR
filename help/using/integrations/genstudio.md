@@ -161,7 +161,7 @@ GenStudio에서 전자 메일 변형을 만든 후 [!DNL Journey Optimizer]&#x20
 
    >[!NOTE]
    >
-   > [!DNL Journey Optimizer] 템플릿](#export-from-ajo-to-genstudio)에서 만든 GenStudio 경험 [을(를) 전체 편집 기능이 있는 이메일 Designer으로 직접 가져옵니다. [!DNL Journey Optimizer] 템플릿 없이 만든 GenStudio 경험을 [호환성 모드](../email/existing-content.md)(으)로 가져옵니다. 편집 기능이 제한될 수 있습니다.
+   > [!DNL Journey Optimizer] 템플릿[&#128279;](#export-from-ajo-to-genstudio)에서 만든 GenStudio 경험 을(를) 전체 편집 기능이 있는 이메일 Designer으로 직접 가져옵니다. [!DNL Journey Optimizer] 템플릿 없이 만든 GenStudio 경험을 [호환성 모드](../email/existing-content.md)(으)로 가져옵니다. 편집 기능이 제한될 수 있습니다.
 
 1. [전자 메일 콘텐츠 편집 도구](../email/content-from-scratch.md) 및 [개인화 필드](../personalization/personalize.md)를 사용하여 필요에 따라 전자 메일을 편집하세요. 콘텐츠를 저장합니다.
 
