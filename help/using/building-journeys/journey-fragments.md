@@ -11,10 +11,10 @@ hide: true
 keywords: 조각, 여정, 재사용, 노드, 캔버스, 인벤토리, 재사용 가능
 badge: label="제한 공개" type="Informative"
 version: Journey Orchestration
-source-git-commit: b3eea401c9073ff7ff6c0f5397552ef037371664
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '1482'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -147,7 +147,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_fragment_add"
 >title="여정 조각 추가"
->abstract="선택기에서 **[!UICONTROL 활성]** 조각만 사용할 수 있습니다. 조각을 삽입하면 해당 노드의 **정적 복사본**&#x200B;이 만들어집니다. 원본 조각에 대한 업데이트는 여정에 반영되지 않습니다."
+>abstract="선택기에서 **[!UICONTROL 활성]** 조각만 사용할 수 있습니다. 조각을 삽입하면 해당 노드의 **정적 사본**&#x200B;이 만들어집니다. 원본 조각에 대한 업데이트는 여정에 반영되지 않습니다."
 
 여정에 조각을 삽입하려면 다음 작업을 수행하십시오.
 
