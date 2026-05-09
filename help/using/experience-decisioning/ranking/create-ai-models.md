@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 exl-id: 532392d6-3637-4381-984d-f5b630f6d32d
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 14%
+source-wordcount: '771'
+ht-degree: 16%
 
 ---
 
@@ -62,7 +62,7 @@ AI 모델을 만들려면 아래 단계를 수행합니다.
    * **노출 이벤트**(표시되는 오퍼)
    * **전환 이벤트**(전자 메일 또는 웹을 통해 클릭을 발생시키는 오퍼).
 
-   이러한 이벤트는 제공된 웹 SDK 또는 모바일 SDK을 사용하여 자동으로 캡처됩니다. [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko) 개요에서 자세히 알아보세요.
+   이러한 이벤트는 제공된 Web SDK 또는 Mobile SDK를 사용하여 자동으로 캡처됩니다. [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko) 개요에서 자세히 알아보세요.
 
    +++ 사용자 지정 [!DNL Customer Journey Analytics] 지표에 대한 모델 최적화 중
 
@@ -116,7 +116,7 @@ At this point, you must have:
 * and in which dataset you want to collect the event data.
 -->
 
-이제 오퍼가 표시 및/또는 클릭될 때마다 **[!UICONTROL Adobe Experience Platform Web SDK]** 또는 Mobile SDK을 사용하여 [경험 이벤트 - 제안 상호 작용](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html?lang=ko#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} 필드 그룹에 의해 해당 이벤트가 자동으로 캡처되도록 할 수 있습니다.
+이제 오퍼가 표시 및/또는 클릭될 때마다 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html?lang=ko#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} 또는 Mobile SDK을 사용하여 **[!UICONTROL 경험 이벤트 - 제안 상호 작용]** 필드 그룹에 의해 해당 이벤트가 자동으로 캡처되도록 할 수 있습니다.
 
 이벤트 유형(표시된 오퍼 또는 클릭한 오퍼)을 보낼 수 있으려면 Adobe Experience Platform으로 전송되는 경험 이벤트의 각 이벤트 유형에 대해 올바른 값을 설정해야 합니다. [방법 알아보기](../data-collection/schema-requirement.md)
 

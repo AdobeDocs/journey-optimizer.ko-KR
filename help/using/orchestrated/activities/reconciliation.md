@@ -5,9 +5,9 @@ title: 조정 활동 사용
 description: 오케스트레이션된 캠페인에서 조정 활동을 사용하는 방법을 알아봅니다
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
 version: Campaign Orchestration
-source-git-commit: 8510004a3e1726dedc1103ff974c456155a131c8
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '549'
 ht-degree: 84%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 84%
 >title="조정 생성 여집합"
 >abstract="조정 생성 여집합"
 
-**[!UICONTROL 조정]** 활동은 Adobe Journey Optimizer의 데이터와 작업 테이블의 데이터(예: 외부 파일에서 로드된 데이터) 간 링크를 정의할 수 있는 **[!UICONTROL 타기팅]** 활동입니다. 
+**[!UICONTROL 조정]** 활동은 Adobe Journey Optimizer의 데이터와 작업 테이블의 데이터(예: 외부 파일에서 로드된 데이터) 간 링크를 정의할 수 있는 **[!UICONTROL 타기팅]** 활동입니다.
 
 **[!UICONTROL 데이터 보강]** 활동을 사용하면 여러 소스의 데이터를 결합하거나 임시 리소스에 연결하는 등의 방법으로 오케스트레이션된 캠페인에 데이터를 추가할 수 있습니다. 반대로 **[!UICONTROL 조정]** 활동은 미확인 또는 외부 데이터를 데이터베이스의 기존 리소스와 맞추는 데 사용됩니다.
 
@@ -46,7 +46,7 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_targeting"
 >title="타기팅 차원"
->abstract="새로운 타기팅 차원을 선택합니다. 차원을 사용하여 대상 모집단(수신자, 앱 구독자, 운영자, 구독자 등)을 정의할 수 있습니다. 기본적으로 현재 타기팅 차원이 선택됩니다."
+>abstract="새로운 타기팅 차원을 선택합니다. 차원을 사용하면 수신자, 앱 구독자, 운영자, 구독자 등 타기팅된 집단을 정의할 수 있습니다. 기본적으로 현재 타기팅 차원이 선택됩니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_rules"

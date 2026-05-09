@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 만들기, 최적화 도구, 캠페인, 표면, 메시지
 exl-id: fed96e48-2e54-4bd4-ae17-77434d1b90eb
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 34%
+source-wordcount: '856'
+ht-degree: 33%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 34%
 
 1. **채널 구성 선택**
 
-   구성은 [시스템 관리자](../start/path/administrator.md)가 정의합니다. 여기에는 헤더 매개변수, 하위 도메인, 모바일 앱 등 메시지 전송을 위한 모든 기술적 매개변수가 포함되어 있습니다. [채널 구성을 설정하는 방법 알아보기](../configuration/channel-surfaces.md)
+   구성은 [시스템 관리자](../start/path/administrator.md)가 정의합니다. 여기에는 헤더 매개 변수, 하위 도메인, 모바일 앱 등 메시지를 보내는 데 필요한 모든 기술 매개 변수가 포함되어 있습니다. [채널 구성을 설정하는 방법에 대해 알아보세요](../configuration/channel-surfaces.md)
 
    ![](assets/create-campaign-action.png)
 
@@ -113,7 +113,7 @@ ht-degree: 34%
 
 캠페인에서 여러 인바운드 작업을 정의하려면 아래 단계를 따르십시오.
 
-1. **작업** 섹션에서 인바운드 작업(**코드 기반 경험**, **인앱 메시지**, **콘텐츠 카드** 또는 **[!UICONTROL 웹]**)을 선택하십시오.
+1. **[!UICONTROL 작업]** 섹션에서 인바운드 작업(**코드 기반 경험**, **인앱 메시지**, **콘텐츠 카드** 또는 **웹**)을 선택하십시오.
 
 1. 채널 구성을 선택하고 해당 작업에 대한 특정 콘텐츠를 정의합니다.
 

@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 구성 요소, 이메일 Designer, 편집기, 이메일
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1448'
-ht-degree: 49%
+source-wordcount: '1468'
+ht-degree: 47%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 49%
 
 >[!NOTE]
 >
->[유럽 접근성법](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}에는 모든 디지털 통신의 접근성을 보장해야 한다고 명시되어 있습니다. 콘텐츠 구성 요소를 활용하여 [에서 전자 메일을 디자인할 때(예: 액세스 가능한 글꼴, 읽을 수 있는 형식 사용 및 이미지에 대한 대체 텍스트 제공) &#x200B;](accessible-content.md)이 페이지[!DNL Journey Optimizer]에 나열된 특정 지침을 따라야 합니다.
+>[유럽 접근성법](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}에는 모든 디지털 통신의 접근성을 보장해야 한다고 명시되어 있습니다. 콘텐츠 구성 요소를 활용하여 [!DNL Journey Optimizer]에서 전자 메일을 디자인할 때(예: 액세스 가능한 글꼴, 읽을 수 있는 형식 사용 및 이미지에 대한 대체 텍스트 제공) [이 페이지](accessible-content.md)에 나열된 특정 지침을 따라야 합니다.
 
 ## 콘텐츠 구성 요소 추가 {#add-content-components}
 
@@ -102,11 +102,11 @@ ht-degree: 49%
 
    ![](assets/email_designer_button_link.png)
 
-1. [구성 요소 설정] 창에서 **[!UICONTROL 테두리]**, **[!UICONTROL 크기]**, **[!UICONTROL 여백]**&#x200B;과 같은 스타일 속성을 변경하여 다른 스타일 속성을 조정할 수 있습니다.**&#x200B;**
+1. **[!UICONTROL 구성 요소 설정]** 창에서 **[!UICONTROL 테두리]**, **[!UICONTROL 크기]**, **[!UICONTROL 여백]** 등의 스타일 특성을 변경하여 단추를 추가로 개인화할 수 있습니다.
 
 ## 텍스트 {#text}
 
-**[!UICONTROL 텍스트]** 구성 요소를 사용하여 전자 메일에 텍스트를 삽입하고 **[!UICONTROL 스타일]** 탭을 사용하여 스타일(테두리, 크기, 패딩 등)을 조정합니다.
+**[!UICONTROL 텍스트]** 구성 요소를 사용하여 전자 메일에 텍스트를 삽입하고 스타일(테두리, 크기, 패딩 등)을 조정합니다. **[!UICONTROL 스타일]** 탭을 사용합니다.
 
 ![](assets/email_designer_text_component.png)
 
@@ -127,13 +127,13 @@ ht-degree: 49%
    * **[!UICONTROL 링크 삽입]**: 콘텐츠에 모든 유형의 링크를 추가합니다.
    * **[!UICONTROL 이미지 편집]**: 텍스트 구성 요소에 이미지 또는 자산을 추가합니다. [자산 관리에 대해 자세히 알아보기](../integrations/assets.md)
    * **[!UICONTROL 글꼴 색 변경]**: 글꼴 색을 선택합니다.
-   * **[!UICONTROL 개인화 추가]**: 프로필 데이터에서 콘텐츠를 사용자 지정할 개인화 필드를 추가합니다. [콘텐츠 개인화에 대해 자세히 알아보기](../personalization/personalize.md)
+   * **[!UICONTROL 개인화 추가]**: 개인화 필드를 추가하여 프로필 데이터의 콘텐츠를 사용자 정의합니다. [콘텐츠 개인화에 대해 자세히 알아보기](../personalization/personalize.md)
    * **[!UICONTROL 소스 코드 표시]**: 텍스트의 소스 코드를 표시합니다. 소스 코드는 수정할 수 없습니다.
    * **[!UICONTROL 조건부 콘텐츠 사용]**: 조건부 콘텐츠를 추가하여 구성 요소의 콘텐츠를 타겟팅된 프로필로 조정하십시오. [다이내믹 콘텐츠에 대해 자세히 알아보기](../personalization/get-started-dynamic-content.md)
    * **[!UICONTROL 복제]**: 텍스트 구성 요소의 복사본을 추가합니다.
    * **[!UICONTROL 삭제]**: 이메일에서 선택한 텍스트 구성 요소를 삭제합니다.
 
-1. [구성 요소 설정] 창에서 텍스트 색상, 글꼴 패밀리, 테두리, 패딩, 여백 등과 같은 기타 스타일 속성을 조정합니다. **[!UICONTROL 스타일]** 탭에서
+1. **[!UICONTROL 스타일]** 탭에서 텍스트 색상, 글꼴 모음, 테두리, 패딩, 여백 등의 다른 스타일 특성을 조정합니다.
 
    ![](assets/email_designer_text_component_2.png)
 
@@ -184,13 +184,13 @@ ht-degree: 49%
 1. 새로 추가한 구성 요소를 클릭하고 이미지 속성을 설정합니다.
 
    * **[!UICONTROL 이미지 제목]** 속성을 사용하면 이미지의 제목을 정의할 수 있습니다.
-   * **[!UICONTROL 대체 텍스트]** 속성을 사용하면 이미지에 연결된 캡션을 정의할 수 있습니다. 이는 alt HTML 속성에 해당합니다. [자세히 알아보기](../email/accessible-content.md#alt-text)
+   * **[!UICONTROL 대체 텍스트]** 속성을 사용하면 이미지에 연결된 캡션을 정의할 수 있습니다. 이는 대체 HTML 속성에 해당합니다. [자세히 알아보기](../email/accessible-content.md#alt-text)
 
    ![](assets/email_designer_10.png)
 
 1. **[!UICONTROL 유사한 스톡 사진 찾기]**&#x200B;를 선택할 수도 있습니다. [자세히 알아보기](../integrations/stock.md)
 
-1. **[!UICONTROL 스타일]** 탭에서 여백, 테두리 등의 다른 스타일 특성을 조정합니다. 대상자를 다른 콘텐츠로 리디렉션하도록 링크를 추가할 수 있습니다.**&#x200B;**
+1. **[!UICONTROL 스타일]** 탭에서 여백, 테두리 등과 같은 다른 스타일 특성을 조정하거나 **[!UICONTROL 구성 요소 설정]** 창에서 다른 콘텐츠로 대상자를 리디렉션할 수 있는 링크를 추가하십시오.
 
 ## Social {#social}
 
@@ -212,7 +212,7 @@ ht-degree: 49%
 
 1. 필요한 경우 Assets에서 각 소셜 미디어의 아이콘을 변경할 수도 있습니다.
 
-1. [구성 요소 설정] 창에서 스타일, 여백, 테두리 등과 같은 다른 스타일 속성을 조정합니다. **[!UICONTROL 스타일]** 탭에서
+1. **[!UICONTROL 스타일]** 탭에서 스타일, 여백, 테두리 등의 다른 스타일 특성을 조정합니다.
 
 ## 오퍼 결정 {#offer-decision}
 

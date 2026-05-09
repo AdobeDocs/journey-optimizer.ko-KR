@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 여정, 첫 번째, 시작, 빠른 시작, 대상, 이벤트, 작업
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
-source-git-commit: 5095ab4994910d1bb4542f4d5a7ed8e79667852d
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '1455'
 ht-degree: 13%

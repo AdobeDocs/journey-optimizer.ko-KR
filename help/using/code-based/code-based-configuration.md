@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1182'
 ht-degree: 22%
 
 ---
@@ -148,11 +148,11 @@ ht-degree: 22%
 
    * Android의 경우
 
-      * [앱 컨텍스트에 대한 딥 링크 만들기](https://developer.android.com/training/app-links/deep-linking)
+      * [앱 컨텍스트에 대한 딥링크 만들기](https://developer.android.com/training/app-links/deep-linking)
 
    * iOS의 경우
 
-      * [앱에 대한 사용자 정의 URL 체계 정의](https://developer.apple.com/documentation/xcode/defining-a-custom-url-scheme-for-your-app)
+      * [앱에 대한 사용자 지정 URL 체계 정의](https://developer.apple.com/documentation/xcode/defining-a-custom-url-scheme-for-your-app)
 
       * [앱에서 범용 링크 지원](https://developer.apple.com/documentation/xcode/supporting-universal-links-in-your-app)
 

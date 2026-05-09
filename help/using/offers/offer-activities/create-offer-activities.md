@@ -10,10 +10,10 @@ role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '2566'
-ht-degree: 9%
+source-wordcount: '2569'
+ht-degree: 10%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 9%
 
    ![](../assets/activities-name.png)
 
-1. 사용자 지정 또는 핵심 데이터 사용 레이블을 결정에 할당하려면 **[!UICONTROL 액세스 관리]**&#x200B;를 선택하세요. [OLAC(개체 수준 액세스 제어)에 대해 자세히 알아보기](../../administration/object-based-access.md)
+1. 결정에 사용자 정의 또는 핵심 데이터 사용 레이블을 할당하려면 **[!UICONTROL 액세스 관리]**&#x200B;를 선택합니다. [OLAC(개체 수준 액세스 제어)에 대해 자세히 알아보기](../../administration/object-based-access.md)
 
 ## 결정 범위 정의 {#add-decision-scopes}
 
@@ -118,7 +118,7 @@ ht-degree: 9%
 
      [이 섹션](../offer-library/creating-decision-rules.md)에서 의사 결정 규칙을 만드는 방법을 알아봅니다.
 
-1. 대상자 또는 의사 결정 규칙을 선택하면 예상 적격 프로필에 대한 정보를 볼 수 있습니다. 데이터를 업데이트하려면 **[!UICONTROL 새로 고침]**&#x200B;을 클릭하세요.
+1. 대상자 또는 결정 규칙을 선택하면 예상 적격 프로필에 대한 정보를 볼 수 있습니다. 데이터를 업데이트하려면 **[!UICONTROL 새로 고침]**&#x200B;을 클릭하세요.
 
    >[!NOTE]
    >

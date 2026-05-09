@@ -5,9 +5,9 @@ title: 대상자 읽기 활동 사용
 description: 오케스트레이션된 캠페인에서 대상자 읽기 활동을 사용하는 방법을 알아봅니다
 exl-id: ef8eba57-cd33-4746-8eb4-5214ef9cbe2f
 version: Campaign Orchestration
-source-git-commit: eaaa11352bcb0b77c5517836b26eb2e72b82ac20
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '669'
 ht-degree: 11%
 
 ---

@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 만들기, 이메일, 시작, 여정, 캠페인
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1187'
-ht-degree: 9%
+source-wordcount: '1196'
+ht-degree: 11%
 
 ---
 
@@ -101,7 +101,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
 1. 전자 메일에 결정 정책을 추가하려면 **[!UICONTROL 결정 사용]**&#x200B;을 전환합니다.
 
-   의사 결정 정책은 의사 결정 엔진을 활용하여 각 대상 구성원에 대해 제공할 최상의 콘텐츠를 동적으로 반환하는 오퍼에 대한 컨테이너입니다. [전자 메일에 결정 정책을 추가하는 방법을 알아보세요](../experience-decisioning/create-decision.md#create-decision)
+   의사 결정 정책은 의사 결정 엔진을 활용하여 각 대상자 구성원에게 제공할 최상의 콘텐츠를 동적으로 반환하는 오퍼 컨테이너입니다. [전자 메일에 결정 정책을 추가하는 방법을 알아보세요](../experience-decisioning/create-decision.md#create-decision)
 
    ![](assets/../../experience-decisioning/assets/decision-policy-enable.png)
 

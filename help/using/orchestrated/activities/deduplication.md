@@ -5,9 +5,9 @@ title: 중복 제거 활동 사용
 description: 중복 제거 활동을 사용하는 방법 알아보기
 exl-id: 4aa79448-f75a-48d5-8819-f4cb4baad5c7
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '614'
 ht-degree: 98%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_deduplication_fields"
 >title="중복 요소 식별을 위한 필드"
->abstract="**중복 요소 식별을 위한 필드** 섹션에서 **속성 추가** 버튼을 클릭하여 이메일 주소, 이름, 성 등 동일한 값으로 중복 요소를 식별할 수 있는 필드를 지정합니다. 필드 순서에 따라 먼저 처리할 필드를 지정할 수 있습니다."
+>abstract="**중복 항목을 식별할 수 있는 필드** 섹션에서 **속성 추가** 버튼을 클릭하여 동일한 값을 통해 중복 항목을 식별할 수 있는 필드(이메일 주소, 이름, 성 등)를 지정할 수 있습니다. 필드 순서에 따라 먼저 처리할 필드를 지정할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_deduplication"
@@ -44,7 +44,7 @@ ht-degree: 98%
 
 1. 오케스트레이션된 캠페인에 **[!UICONTROL 중복 제거]** 활동을 추가합니다.
 
-1. **[!UICONTROL 중복 요소 식별을 위한 필드]** 섹션에서 **[!UICONTROL 속성 추가]** 버튼을 클릭하여 이메일 주소, 이름, 성 등 동일한 값으로 중복 요소를 식별할 수 있는 필드를 지정합니다. 필드 순서에 따라 먼저 처리할 필드를 지정할 수 있습니다.
+1. **[!UICONTROL 중복 항목을 식별할 수 있는 필드]** 섹션에서 **[!UICONTROL 속성 추가]** 버튼을 클릭하여 동일한 값을 통해 중복 항목을 식별할 수 있는 필드(이메일 주소, 이름, 성 등)를 지정할 수 있습니다. 필드 순서에 따라 먼저 처리할 필드를 지정할 수 있습니다.
 
    ![](../assets/deduplication-1.png)
 

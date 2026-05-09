@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 랜딩, 랜딩 페이지, 작성, 게시
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1613'
-ht-degree: 22%
+source-wordcount: '1716'
+ht-degree: 26%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 22%
    * **[!UICONTROL 구독/구독 취소]**: 이 형식을 사용하여 구독 또는 구독 취소 사용 사례에 대한 랜딩 페이지를 만드십시오. [자세히 알아보기](lp-use-cases.md#subscription-to-a-service)
    * **[!UICONTROL 데이터 캡처]**: 이 형식을 사용하여 데이터 캡처 사용 사례에 대한 랜딩 페이지를 만드십시오. [자세히 알아보기](get-started-lp.md#data-capture-lp)
 
-1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
+1. Click **[!UICONTROL Create]**.
 
 1. 기본 페이지 및 해당 속성이 표시됩니다. 기본 페이지 설정 [여기](#configure-primary-page)를 구성하는 방법에 대해 알아봅니다.
 
@@ -279,7 +279,7 @@ The settings and elements checked by the system are listed below. You will also 
 
 랜딩 페이지가 게시되면 **[!UICONTROL 게시됨]** 상태로 랜딩 페이지 목록에 추가됩니다.
 
-이제 실시간 상태로 [!DNL Journey Optimizer]여정[을(를) 통해 전송되는 &#x200B;](../building-journeys/journey.md) 메시지에 사용할 준비가 되었습니다.
+이제 실시간 상태로 [여정](../building-journeys/journey.md)을(를) 통해 전송되는 [!DNL Journey Optimizer] 메시지에 사용할 준비가 되었습니다.
 
 >[!NOTE]
 >

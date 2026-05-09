@@ -5,10 +5,10 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 14%
+source-wordcount: '731'
+ht-degree: 15%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 14%
 
 승인 정책을 만들려면 다음 단계를 수행합니다.
 
-1. **[!UICONTROL 의]**&#x200B;관리[!DNL Journey Optimizer] 메뉴에서 **[!UICONTROL 권한]** 및 **[!UICONTROL 정책]**&#x200B;에 액세스합니다.
+1. [!DNL Journey Optimizer]의 **[!UICONTROL 관리]** 메뉴에서 **[!UICONTROL 권한]** 및 **[!UICONTROL 정책]**&#x200B;에 액세스합니다.
 
    ![권한 메뉴의 승인 정책 만들기 단추](assets/policy_create_1.png)
 
@@ -130,7 +130,7 @@ ht-degree: 14%
     <td>대상을 구성하는 데 사용되는 태그의 이름입니다. </td>
     </tr>
     <tr>
-    <td>개체 이름</td>
+    <td>오브젝트 이름</td>
     <td>개체의 이름입니다.</td>
     </tr>
     <tr>

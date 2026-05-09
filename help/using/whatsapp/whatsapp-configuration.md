@@ -7,10 +7,10 @@ feature: Whatsapp, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: 8b042e4750dd7f7d841717f648afe120d0bdfc4a
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1130'
-ht-degree: 12%
+source-wordcount: '1196'
+ht-degree: 13%
 
 ---
 
@@ -122,7 +122,7 @@ Webhooks는 Meta의 WhatsApp Business Platform과 Adobe Journey Optimizer 간의
     
     You can dynamically personalize your payload using profile attributes, and ensure accurate data is sent for processing and response generation with the help of built-in helper functions.
 -->
-1. ![인바운드 키워드](assets/do-not-localize/Smock_AddCircle_18_N.svg)을(를) 추가하려면 **[!UICONTROL 추가]**&#x200B;를 클릭하십시오.
+1. **[!UICONTROL 인바운드 키워드]**&#x200B;을(를) 추가하려면 ![추가](assets/do-not-localize/Smock_AddCircle_18_N.svg)를 클릭하십시오.
 
 1. WhatsApp Webhook 구성을 마치면 **[!UICONTROL 제출]**&#x200B;을 클릭합니다.
 

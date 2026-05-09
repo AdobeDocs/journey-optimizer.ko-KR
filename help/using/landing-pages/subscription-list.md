@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 랜딩, 랜딩 페이지, 목록, 구독, 서비스
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: c18f6f450bdc37f7ffbe87befb8601a920e46171
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 7%
+source-wordcount: '748'
+ht-degree: 8%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 7%
 >abstract="구독 목록을 만들어 특정 주제 또는 이벤트에 대한 커뮤니케이션을 수신하도록 옵트인한 프로필을 수집합니다. "
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/subscription-list.html?lang=ko#define-subscription-list" text="구독 목록 만들기"
 
-구독 서비스는 특정 주제/이벤트/관심 분야 등에 대한 커뮤니케이션을 수신하도록 선택한 고객에게 제공되는 마케팅 상품 및 서비스를 의미합니다. 지속적으로. [!DNL Journey Optimizer]에서 이러한 옵트인 고객은 구독 목록에 수집됩니다.
+구독 서비스는 특정 주제/이벤트/관심 분야 등에 대한 커뮤니케이션을 지속적으로 받도록 선택한 고객에게 제공되는 마케팅 상품 및 서비스를 말합니다. [!DNL Journey Optimizer]에서 이러한 옵트인 고객은 구독 목록에 수집됩니다.
 
 구독 서비스는 다음 용도로 사용할 수 있습니다.
 

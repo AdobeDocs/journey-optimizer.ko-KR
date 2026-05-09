@@ -10,9 +10,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 이메일 테마, 모듈, 재사용 가능성, 브랜드 일관성, 이메일 디자인, 사용자 지정 CSS, 모바일 최적화
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
-source-git-commit: 8caa8f8e126f062535b5276b4d96de10875a3406
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1741'
+source-wordcount: '1748'
 ht-degree: 3%
 
 ---
@@ -256,7 +256,7 @@ ht-degree: 3%
 
 1. 테마의 이름을 입력합니다.
 
-1. 색상 변형 추가, 글꼴 편집 등과 같이 테마를 처음부터 새로 만들 때와 마찬가지로 필요에 따라 직접 조정합니다. [방법 알아보기](#create-and-edit-themes)
+1. 색상 변형 추가, 글꼴 편집 등 테마를 처음부터 새로 만들 때와 마찬가지로 필요에 따라 직접 조정하십시오. [방법 알아보기](#create-and-edit-themes)
 
    ![](assets/generate-theme-colors.png){width=90%}
 

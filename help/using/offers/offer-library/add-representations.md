@@ -10,10 +10,10 @@ role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
 version: Journey Orchestration
-source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '847'
-ht-degree: 9%
+source-wordcount: '900'
+ht-degree: 6%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 9%
 >title="표시"
 >abstract="표현을 추가하여 메시지에 오퍼가 표시될 위치를 정의합니다. 오퍼에 표현이 많을수록 오퍼를 다양한 배치 컨텍스트에서 사용할 기회가 많아집니다."
 
-오퍼는 메시지의 다른 위치에 표시될 수 있습니다. 이미지가 있는 상단 배너에서 단락 내 텍스트, HTML 블록 등으로 표시됩니다. 오퍼에 표현이 많을수록 오퍼를 다양한 배치 컨텍스트에서 사용할 기회가 많아집니다.
+오퍼는 메시지의 다른 위치에 표시될 수 있습니다. 이미지가 있는 상단 배너에서 단락 내 텍스트, HTML 블록 등으로 표시됩니다. 오퍼에 대한 표시가 많을수록 다른 배치 컨텍스트에서 오퍼를 사용할 수 있는 기회가 많아집니다.
 
 ## 오퍼의 표시 구성 {#representations}
 
@@ -78,7 +78,7 @@ ht-degree: 9%
 
 ### 이미지 추가 {#images}
 
-선택한 배치가 이미지 유형인 경우 **에서 제공하는 자산의 중앙 집중식 저장소인** Adobe Experience Cloud 자산[!DNL Adobe Experience Manager Assets] 라이브러리에서 얻은 콘텐츠를 추가할 수 있습니다.
+선택한 배치가 이미지 유형인 경우 [!DNL Adobe Experience Manager Assets]에서 제공하는 자산의 중앙 집중식 저장소인 **Adobe Experience Cloud 자산** 라이브러리에서 얻은 콘텐츠를 추가할 수 있습니다.
 
 >[!NOTE]
 >
@@ -102,7 +102,7 @@ ht-degree: 9%
 
 예를 들어, [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html?lang=ko){target="_blank"}에서 HTML 이메일 템플릿을 만들었고, 이 파일을 오퍼 콘텐츠에 사용하려고 합니다. 새 파일을 만드는 대신 템플릿을 **자산 라이브러리**&#x200B;에 업로드하여 오퍼의 표시에서 다시 사용할 수 있습니다.
 
-표현에서 콘텐츠를 다시 사용하려면 **이 섹션**&#x200B;에 설명된 대로 [자산 라이브러리](#images)를 찾은 다음 선택한 HTML 또는 JSON 파일을 선택하십시오.
+표현에서 콘텐츠를 다시 사용하려면 [이 섹션](#images)에 설명된 대로 **자산 라이브러리**&#x200B;를 찾은 다음 선택한 HTML 또는 JSON 파일을 선택하십시오.
 
 ![](../assets/offer-browse-asset-library-json.png)
 

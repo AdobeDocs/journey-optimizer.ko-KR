@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 여정, 첫 번째, 시작, 빠른 시작, 대상, 이벤트, 작업
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1477'
-ht-degree: 10%
+source-wordcount: '1485'
+ht-degree: 14%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 10%
 
 ### 여정 개요
 
-**[!UICONTROL 개요]** 탭에는 여정과 관련된 주요 지표가 있는 대시보드가 표시됩니다.
+**[!UICONTROL 개요]** 탭에는 여정과 관련된 주요 지표가 포함된 대시보드가 &#x200B;&#x200B;표시됩니다.
 
 개요 탭을 강조 표시하는 ![여정 대시보드](assets/journeys-dashboard.png)
 
@@ -53,7 +53,7 @@ ht-degree: 10%
 
 ### 여정 달력 {#calendar}
 
-[!DNL Journey Optimizer]은(는) 여정 목록 외에도 여정의 일정을 시각적으로 명확하게 보여 주는 달력 보기를 제공합니다.
+여정 목록 외에도 [!DNL Journey Optimizer]는 여정에 대한 캘린더 보기를 제공하여 일정을 명확하게 시각적으로 보여 줍니다.
 
 여정 표시 방법:
 
@@ -108,7 +108,7 @@ ht-degree: 10%
 
 ![두 가지 여정 유형을 선택한 여정 필터링 샘플을 보여 주는 화면](assets/filter-journeys.png)
 
-[상태 및 버전 필터](#journey-statuses)에서 [상태](#journey-types), [유형](publish-journey.md#journey-versions), [버전](../start/search-filter-categorize.md#tags) 및 할당된 **[!UICONTROL 여정]**&#x200B;에 따라 태그를 필터링할 수 있습니다.
+**[!UICONTROL 상태 및 버전 필터]**&#x200B;에서 [상태](#journey-statuses), [유형](#journey-types), [버전](publish-journey.md#journey-versions) 및 할당된 [여정](../start/search-filter-categorize.md#tags)에 따라 태그를 필터링할 수 있습니다.
 
 **[!UICONTROL 만들기 필터]**&#x200B;를 사용하여 만든 날짜 또는 만든 사용자에 따라 여정을 필터링합니다.
 
@@ -127,7 +127,7 @@ ht-degree: 10%
 여정 유형은 해당 여정에 사용된 활동에 따라 다릅니다. 다음과 같을 수 있습니다.
 
 * **[!UICONTROL 단일 이벤트]** - 단일 이벤트 여정이 특정 프로필에 연결되어 있습니다. 이벤트는 한 사람의 행동 또는 한 사람과 관련하여 발생하는 일에 관한 것입니다(예: 한 사람이 충성도 점수 10,000점에 도달함). [자세히 알아보기](../event/about-events.md).
-* **[!UICONTROL 비즈니스 이벤트]**. 비즈니스 이벤트 여정은 프로필과 관련되지 않은 이벤트로 시작합니다. 이벤트 구성은 기술 사용자가 수행하므로 편집할 수 없습니다. [자세히 알아보기](../event/about-events.md).
+* **[!UICONTROL 비즈니스 이벤트]**. 비즈니스 이벤트 여정은 프로필과 관련되지 않은 이벤트로 시작합니다. 기술 사용자가 수행하는 이벤트 구성은 편집할 수 없습니다. [자세히 알아보기](../event/about-events.md).
 * **[!UICONTROL 대상 선별]** - 대상 선별 여정은 [!DNL Adobe Experience Platform] 대상의 프로필의 출입구에서 수신 대기함으로써 개인이 여정에 들어오거나 앞으로 이동하도록 할 수 있습니다. [자세히 알아보기](audience-qualification-events.md).
 * **[!UICONTROL 대상 읽기]** - 대상 여정 읽기에서 대상에 있는 모든 개인이 여정을 입력하고 여정에 포함된 메시지를 받습니다.  [자세히 알아보기](read-audience.md).
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 98e99978-8538-40b4-92ac-7184864017eb
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '934'
-ht-degree: 10%
+source-wordcount: '946'
+ht-degree: 11%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 10%
    >
    >비주얼 편집기를 로드하지 않고 웹 콘텐츠를 편집할 수도 있습니다. 이렇게 하려면 **[!UICONTROL 시각적 편집기]** 옵션을 선택 취소하여 비시각적 편집 모드를 대신 사용하십시오. [자세히 알아보기](web-non-visual-editor.md)
 
-1. 웹 디자이너에 있는 경우 캔버스에서 이미지, 단추, 단락, 텍스트, 컨테이너, 머리글, 링크 등과 같은 요소를 선택합니다. [자세히 알아보기](#content-components)
+1. 웹 디자이너에서 이미지, 단추, 단락, 텍스트, 컨테이너, 머리글, 링크 등과 같은 요소를 캔버스에서 선택합니다. [자세히 알아보기](#content-components)
 
 1. 요소를 편집하려면 다음을 사용할 수 있습니다.
 
@@ -107,7 +107,7 @@ ht-degree: 10%
 
    ![](assets/web-designer-edit-header.png)
 
-1. 배경, 텍스트 색상, 테두리, 크기, 위치 등과 같이 오른쪽에 있는 상황별 창에서 표시되는 스타일을 조정합니다. - 선택한 구성 요소에 따라 다릅니다.
+1. 선택한 구성 요소에 따라 배경, 텍스트 색상, 테두리, 크기, 위치 등과 같이 오른쪽에 있는 컨텍스트 창에서 표시되는 스타일을 조정합니다.
 
    ![](assets/web-designer-header-style.png)
 

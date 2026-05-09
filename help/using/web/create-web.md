@@ -1,19 +1,19 @@
 ---
-title: '웹 경험 만들기 '
+title: 웹 경험 만들기
 description: Journey Optimizer에서 웹 페이지를 작성하고 콘텐츠를 편집하는 방법에 대해 알아봅니다
 feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1619'
+source-wordcount: '1646'
 ht-degree: 17%
 
 ---
 
-# 웹 경험 만들기  {#create-web}
+# 웹 경험 만들기 {#create-web}
 
 [!DNL Journey Optimizer]을(를) 사용하면 인바운드 여정 또는 캠페인을 통해 고객에게 제공하는 웹 경험을 개인화할 수 있습니다.
 
@@ -85,7 +85,7 @@ ht-degree: 17%
 
    * **예약됨 - 마케팅**: 캠페인을 즉시 또는 지정한 날짜에 실행합니다. 예약된 캠페인은 마케팅 메시지 전송을 목적으로 합니다. 사용자 인터페이스에서 구성 및 실행됩니다.
 
-   * **API 트리거됨 - 마케팅/트랜잭션**: API 호출을 사용하여 캠페인을 실행하십시오. API 트리거 캠페인은 마케팅 또는 트랜잭션 메시지(예: 암호 재설정, 장바구니 구매 등 개인이 수행한 작업에 따라 전송된 메시지)를 보내는 것을 목표로 합니다. [API를 사용하여 캠페인을 트리거하는 방법을 알아봅니다](../campaigns/api-triggered-campaigns.md)
+   * **API 트리거됨 - 마케팅/트랜잭션**: API 호출을 사용하여 캠페인을 실행하십시오. API 트리거 캠페인은 마케팅 또는 트랜잭션 메시지(예: 암호 재설정, 장바구니 구매 등 개인이 수행한 작업에 따라 발송된 메시지)를 보내는 것을 목표로 합니다. [API를 사용하여 캠페인을 트리거하는 방법에 대해 알아보세요](../campaigns/api-triggered-campaigns.md)
 
 1. 캠페인 속성, [대상자](../audience/about-audiences.md) 및 [일정](../campaigns/create-campaign.md#schedule)과 같은 웹 캠페인을 만드는 단계를 완료합니다.
 

@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 keywords: 랜딩, 랜딩 페이지, 구성, 환경, 하위 도메인, 사전 설정
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '414'
 ht-degree: 13%
 
 ---
@@ -84,7 +84,7 @@ ht-degree: 13%
 
 1. 랜딩 페이지 사전 설정이 만들어지면 목록에 **[!UICONTROL 활성]** 상태로 표시됩니다. 랜딩 페이지에 사용할 준비가 되었습니다.
 
-이제 [에서 &#x200B;](../landing-pages/create-lp.md)랜딩 페이지를 만들[!DNL Journey Optimizer]할 준비가 되었습니다.
+이제 [!DNL Journey Optimizer]에서 [랜딩 페이지를 만들](../landing-pages/create-lp.md)할 준비가 되었습니다.
 <!--
 >[!NOTE]
 >

@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 여정, 메시지, 푸시, sms, 이메일, 인앱, 웹, 콘텐츠 카드, 코드 기반 경험
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: 4f22dd804410ba20a5f7364f5100f5b24ed851c4
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1514'
-ht-degree: 8%
+source-wordcount: '1569'
+ht-degree: 14%
 
 ---
 
@@ -94,7 +94,7 @@ ht-degree: 8%
       </td>
       <td>
       <a href="../push/create-push.md">
-      <img alt="드물게" src="../assets/do-not-localize/push.jpg">
+      <img alt="저빈도" src="../assets/do-not-localize/push.jpg">
       </a>
       <div>
       <a href="../push/create-push.md"><strong>푸시 알림 만들기<strong></a>
@@ -143,7 +143,7 @@ ht-degree: 8%
       </td>
       <td>
       <a href="../code-based/create-code-based.md">
-      <img alt="드물게" src="../assets/do-not-localize/web-design.jpg">
+      <img alt="저빈도" src="../assets/do-not-localize/web-design.jpg">
       </a>
       <div>
       <a href="../code-based/create-code-based.md"><strong>코드 기반 경험 만들기<strong></a>
@@ -169,7 +169,7 @@ ht-degree: 8%
 
    이러한 다양한 옵션과 따라야 할 단계는 [이 섹션](../content-management/gs-message-optimization.md)에 자세히 설명되어 있습니다.
 
-1. **[!UICONTROL 언어]** 섹션을 사용하여 여정 작업에서 여러 언어로 콘텐츠를 만듭니다. 이렇게 하려면 **[!UICONTROL 언어 추가]** 단추를 클릭하고 원하는 **[!UICONTROL 언어 설정]**&#x200B;을 선택합니다.
+1. **[!UICONTROL 언어]** 섹션을 사용하여 여정 작업에서 여러 언어로 콘텐츠를 만듭니다. 이렇게 하려면 **[!UICONTROL 언어 추가]** 버튼을 클릭하고 원하는 **[!UICONTROL 언어 설정]**&#x200B;을 선택합니다.
 
    다국어 기능을 설정하고 사용하는 방법에 대한 자세한 내용은 [이 섹션](../content-management/multilingual-gs.md)을 참조하세요.
 
@@ -187,7 +187,7 @@ ht-degree: 8%
 
 +++**참여 추적**(전자 메일, SMS).
 
-**[!UICONTROL 작업 추적]** 섹션을 사용하여 수신자가 이메일 또는 SMS 게재에 어떻게 반응하는지를 추적하세요.
+**[!UICONTROL 액션 추적]** 섹션을 사용하여 수신자가 이메일 또는 SMS 게재에 어떻게 반응하는지 추적할 수 있습니다.
 
 여정이 실행되면 여정 보고서에서 추적 결과에 액세스할 수 있습니다.
 
@@ -197,9 +197,9 @@ ht-degree: 8%
 
 +++**빠른 전송 모드를 사용**(푸시)합니다.
 
-빠른 전송 모드는 캠페인을 통해 대량으로 매우 빠른 푸시 메시지를 전송할 수 있는 [!DNL Journey Optimizer] 추가 기능입니다.
+빠른 전송 모드는 캠페인을 통해 대량으로 매우 빠르게 푸시 메시지를 전송할 수 있는 [!DNL Journey Optimizer] 추가 기능입니다.
 
-빠른 게재는 메시지 게재 지연이 비즈니스에 중요한 경우, 휴대폰에 긴급 푸시 알림(예: 뉴스 채널 앱을 설치한 사용자에게 속보)을 전송하려는 경우 사용됩니다.
+빠른 게재는 메시지 게재 지연이 비즈니스에 중요한 경우, 휴대폰에 긴급 푸시 알림을 전송하려는 경우(예: 뉴스 채널 앱을 설치한 사용자에게 속보 전달) 사용됩니다.
 
 푸시 알림에 대해 빠른 전송 모드를 사용하는 방법을 알아봅니다. [&#x200B; 이 페이지](../push/create-push.md#rapid-delivery).
 
@@ -268,7 +268,7 @@ ht-degree: 8%
 
    실행할 작업 목록을 표시하는 ![다중 작업 구성](assets/journey-multi-action-configuration.png){width="70%"}
 
-1. **작업** 섹션에서 인바운드 작업(**코드 기반 경험**, **인앱 메시지**, **콘텐츠 카드** 또는 **[!UICONTROL 웹]**)을 선택하십시오.
+1. **[!UICONTROL 작업]** 섹션에서 인바운드 작업(**코드 기반 경험**, **인앱 메시지**, **콘텐츠 카드** 또는 **웹**)을 선택하십시오.
 
 1. 채널 구성을 선택하고 해당 작업에 대한 특정 콘텐츠를 정의합니다.
 

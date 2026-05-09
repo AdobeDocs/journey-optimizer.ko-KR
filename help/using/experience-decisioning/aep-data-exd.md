@@ -11,10 +11,10 @@ level: Intermediate
 keywords: 표현식, 편집기
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
 version: Journey Orchestration
-source-git-commit: 6c85cfa27002de17f6625447fa0b7eaaceb9f829
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1213'
-ht-degree: 24%
+source-wordcount: '1218'
+ht-degree: 27%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 24%
 
 ### 매핑 만들기
 
-의사 결정에 Adobe Experience Platform의 특성을 사용하려면 매핑을 만들어 Adobe Experience Platform 데이터 집합이 [!DNL Journey Optimizer]의 데이터와 결합하는 방법을 정의해야 합니다. 이렇게 하려면 다음 단계를 수행합니다.
+의사 결정을 위해 Adobe Experience Platform의 속성을 사용하려면 Adobe Experience Platform 데이터 세트가 [!DNL Journey Optimizer]의 데이터와 어떻게 결합되는지 정의하는 매핑을 만들어야 합니다. 이렇게 하려면 다음 단계를 수행합니다.
 
 1. **[!UICONTROL 카탈로그]** / **[!UICONTROL 데이터 세트 조회]**(으)로 이동한 다음 **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
 

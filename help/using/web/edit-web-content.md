@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1069'
-ht-degree: 18%
+source-wordcount: '1096'
+ht-degree: 20%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 18%
    >
    >로드하지 못하는 웹 사이트를 로드하려고 하면 [Visual Editing Helper 브라우저 확장 기능](#install-visual-editing-helper)을 설치하라는 메시지가 표시됩니다. [이 섹션](web-prerequisites.md#troubleshooting)에서 문제 해결을 위한 팁을 확인하십시오.
 
-1. 캔버스에서 이미지, 단추, 단락, 텍스트, 컨테이너, 머리글, 링크 등과 같은 요소를 선택합니다. [자세히 알아보기](#content-components)
+1. 캔버스에서 이미지, 단추, 단락, 텍스트, 컨테이너, 제목, 링크 등의 요소를 선택합니다. [자세히 알아보기](#content-components)
 
 1. 사용:
 
@@ -121,7 +121,7 @@ ht-degree: 18%
 
    ![](assets/web-designer-edit-header.png)
 
-1. 배경, 텍스트 색상, 테두리, 크기, 위치 등과 같이 오른쪽에 있는 상황별 창에서 표시되는 스타일을 조정합니다. - 선택한 구성 요소에 따라 다릅니다.
+1. 선택한 구성 요소에 따라 배경, 텍스트 색상, 테두리, 크기, 위치 등과 같이 오른쪽에 있는 컨텍스트 창에서 표시되는 스타일을 조정합니다.
 
    ![](assets/web-designer-header-style.png)
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 실험, 실험, 여정, 경로, 최적화, A/B 테스트, multi-armed bandit, 승자 크기 조정
 exl-id: 7241ade3-577c-4bb3-b0c3-017133871ca5
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1107'
-ht-degree: 4%
+source-wordcount: '1147'
+ht-degree: 6%
 
 ---
 

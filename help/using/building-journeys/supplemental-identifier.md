@@ -3,9 +3,9 @@ title: 여정에서 추가 식별자 사용
 description: 여정에서 보조 식별자를 사용하는 방법을 알아봅니다.
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '1450'
 ht-degree: 4%
 
 ---

@@ -5,9 +5,9 @@ title: 대상자 저장 활동 사용
 description: 오케스트레이션된 캠페인에서 대상자 저장 활동을 사용하는 방법을 알아봅니다
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
 version: Campaign Orchestration
-source-git-commit: 5b60213ecba97e9539ea817ab00ee1c3c8dace50
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '597'
 ht-degree: 20%
 
 ---

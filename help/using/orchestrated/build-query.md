@@ -5,10 +5,10 @@ title: 첫 번째 규칙 작성
 description: 오케스트레이션된 캠페인에 대한 규칙을 만드는 방법을 알아봅니다
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
 version: Campaign Orchestration
-source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1895'
-ht-degree: 89%
+source-wordcount: '1912'
+ht-degree: 91%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 89%
 
    조건을 더 빨리 만들려면 값을 선택하고 **[!UICONTROL 특성 및 값 선택]**&#x200B;을 클릭하여 현재 조건에서 특성 및 값을 채웁니다.
 
-   표현식 편집기 아이콘![을 보여 주는 &#x200B;](assets/do-not-localize/activity-copy.svg)이미지를 사용하여 클립보드에 값을 복사할 수도 있습니다. 예를 들어 표현식 편집기에 붙여 넣을 수 있습니다.
+   표현식 편집기 아이콘![&#128279;](assets/do-not-localize/activity-copy.svg)을 보여 주는 이미지를 사용하여 클립보드에 값을 복사할 수도 있습니다. 예를 들어 표현식 편집기에 붙여 넣을 수 있습니다.
 
    ![값 분포 인터페이스를 보여 주는 이미지](assets/rule-builder-distribution-values.png)
 
@@ -219,7 +219,7 @@ ht-degree: 89%
 * **결과 보기:** 쿼리의 결과 데이터를 표시합니다.
 * **코드 보기**: SQL에 쿼리의 코드 기반 버전을 표시합니다.
 * **계산**: 규칙에서 타기팅한 레코드 수를 업데이트하고 표시합니다.
-* **필터 선택 또는 저장**: 캔버스에서 사용할 미리 정의된 기존 필터를 선택하거나 나중에 다시 사용할 수 있도록 쿼리를 미리 정의된 필터로 저장합니다. 필터에 매개 변수가 포함되어 있으면 적용하기 전에 값을 제공합니다. 자세한 내용은 [미리 정의된 필터를 사용하여 작업](predefined-filters.md)을 참조하세요.
+* **필터 선택 또는 저장**: 캔버스에서 사용할 미리 정의된 기존 필터를 선택하거나, 쿼리를 나중에 다시 사용할 수 있도록 미리 정의된 필터로 저장합니다. 필터에 매개 변수가 포함되어 있으면 적용하기 전에 값을 제공합니다. 자세한 내용은 [미리 정의된 필터를 사용하여 작업](predefined-filters.md)을 참조하세요.
 
 <br/>
 

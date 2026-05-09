@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 시작하기, 시작, 콘텐츠, 실험
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '2085'
+source-wordcount: '2117'
 ht-degree: 92%
 
 ---
@@ -123,7 +123,7 @@ Adobe Journey Optimizer가 메시지를 추적하는 직접적 목표 지표의 
 
 통계적 계산에 대해 이해하려면 이 [페이지](../content-management/experiment-calculations.md)를 참조하십시오.
 
-### &#x200B;1. 표준화한 지표 비교하기 {#normalized-metrics}
+### &#x200B;1. 표준화된 지표 비교 {#normalized-metrics}
 
 두 처리 버전의 성과를 비교할 때에는 항상 표준화한 지표를 비교해야 각 처리 버전에 노출된 프로필 수의 차이를 고려할 수 있습니다.
 

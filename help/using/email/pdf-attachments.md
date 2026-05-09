@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 이메일, 메시지, 첨부 파일, pdf, 편집기
 exl-id: 71e218d0-5b3b-4db5-8b7b-d08df8f088c4
-source-git-commit: 8be7a537781331fdc8cf198c366868ab1c886b38
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '351'
 ht-degree: 38%
 
 ---

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: be05bb72ace2e2084675f4278501a520d592e304
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 17%
+source-wordcount: '629'
+ht-degree: 19%
 
 ---
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer은 대상을 만들고, 관리하고, 보강하여 마�
 
 * [세그먼테이션 서비스 UI 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/overview){target="_blank"}
 
-* [세분화 서비스 - 자주 묻는 질문](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/faq){target="_blank"}
+* [세그먼테이션 서비스 - 자주 묻는 질문](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/faq){target="_blank"}
 
 >[!ENDSHADEBOX]
 

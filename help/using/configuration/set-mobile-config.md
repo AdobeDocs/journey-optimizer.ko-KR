@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 채널, 표면, 기술, 매개변수, optimizer
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
-source-git-commit: 21cb23fd4e7f69c2a8180150c5a7a3e52975fd9e
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '858'
 ht-degree: 83%
 
 ---
@@ -184,7 +184,7 @@ ht-degree: 83%
   </tr>
   <tr>
   <td>
-  <p>보증</p>
+  <p>Assurance</p>
   </td>
   <td>
   <p>Assurance 세션</p>
@@ -279,7 +279,7 @@ ht-degree: 83%
   </tr>
   <tr>
   <td>
-  <p>보증</p>
+  <p>Assurance</p>
   </td>
   <td>
   <p>Assurance 세션</p>
@@ -374,7 +374,7 @@ ht-degree: 83%
   </tr>
   <tr>
   <td>
-  <p>보증</p>
+  <p>Assurance</p>
   </td>
   <td>
   <p>Assurance 세션</p>

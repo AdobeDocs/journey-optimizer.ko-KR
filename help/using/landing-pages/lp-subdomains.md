@@ -8,10 +8,10 @@ role: Admin
 level: Experienced
 keywords: 랜딩, 랜딩 페이지, 하위 도메인, 구성
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 42d40abf8290bac64e142f5cf0bf595446ccb2e9
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 19%
+source-wordcount: '1013'
+ht-degree: 22%
 
 ---
 
@@ -147,7 +147,7 @@ ht-degree: 19%
 
    >[!NOTE]
    >
-   >랜딩 페이지 하위 도메인은 CNAME 레코드를 지정할 수 있습니다. 이는 [CNAME 메서드](#lp-use-existing-subdomain)을(를) 사용하여 Adobe에 위임된 [기존 하위 도메인](../configuration/delegate-subdomain.md#cname-subdomain-setup) 또는 구성한 [새 랜딩 페이지 하위 도메인](#lp-configure-new-subdomain)이기 때문입니다.
+   >랜딩 페이지 하위 도메인은 CNAME 레코드를 지정할 수 있습니다. 이는 [CNAME 메서드](../configuration/delegate-subdomain.md#cname-subdomain-setup)을(를) 사용하여 Adobe에 위임된 [기존 하위 도메인](#lp-use-existing-subdomain) 또는 구성한 [새 랜딩 페이지 하위 도메인](#lp-configure-new-subdomain)이기 때문입니다.
 
 1. 위임을 해제할 하위 도메인을 사용하여 Adobe 담당자에게 문의하십시오.
 

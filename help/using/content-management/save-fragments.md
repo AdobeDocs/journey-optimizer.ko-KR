@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 70e88ea0-f2b0-4c13-8693-619741762429
-source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 13%
+source-wordcount: '510'
+ht-degree: 14%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 13%
 
 1. **태그** 필드에서 Adobe Experience Platform 태그를 선택하거나 만들어 검색 개선을 위해 템플릿을 분류합니다. [자세히 알아보기](../start/search-filter-categorize.md#tags)
 
-1. Click **[!UICONTROL Create]**. 조각이 [초안](#access-manage-fragments) 상태의 **조각 목록**&#x200B;에 추가됩니다. 해당 목록에서 다른 시각적 조각으로 사용할 수 있는 독립 실행형 조각이 됩니다.
+1. Click **[!UICONTROL Create]**. 조각이 **초안** 상태의 [조각 목록](#access-manage-fragments)에 추가됩니다. 해당 목록에서 다른 시각적 조각으로 사용할 수 있는 독립 실행형 조각이 됩니다.
 
    >[!NOTE]
    >
@@ -86,6 +86,6 @@ ht-degree: 13%
 
    <!--An expression fragment cannot be nested inside another fragment.-->
 
-1. 조각이 [초안](#access-manage-fragments) 상태의 **조각 목록**&#x200B;에 추가됩니다. 해당 목록에서 다른 표현식 조각으로 사용할 수 있는 독립형 조각이 됩니다.
+1. 조각이 **초안** 상태의 [조각 목록](#access-manage-fragments)에 추가됩니다. 해당 목록에서 다른 표현식 조각으로 사용할 수 있는 독립형 조각이 됩니다.
 
 1. 여정 및 캠페인에서 조각을 사용하려면 해당 조각을 라이브로 만들어야 합니다. [조각을 미리 보고 게시하는 방법을 알아봅니다](../content-management/create-fragments.md#publish)

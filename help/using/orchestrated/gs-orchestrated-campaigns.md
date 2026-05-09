@@ -6,10 +6,10 @@ description: 오케스트레이션된 캠페인을 시작하는 방법 알아보
 short-description: 오케스트레이션된 캠페인 주요 기능 및 사용 사례 살펴보기
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
-source-git-commit: ef53fc88dfeb05b171b8aa819830c9fb771697f6
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '876'
-ht-degree: 86%
+source-wordcount: '909'
+ht-degree: 85%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 86%
 <td><img alt="온디맨드 대상자" src="assets/do-not-localize/icon-audience.svg" width="150px"></a></td><td><b>온디맨드 대상자</b><br/>데이터 세트 간 즉각적 쿼리를 통해 모든 데이터 형식과 차원의 조합을 자유롭게 사용하여 대상자 세그먼트를 만듭니다.</td></tr>
 <tr style="border: 0;">
 <td><img alt="다중 엔터티 세분화 및 전송" src="assets/do-not-localize/icon-entity.svg" width="150px"></a></td><td><b>다중 엔터티 세분화 및 전송</b><br/>개인 기반 캠페인을 넘어 제품 카탈로그, 스토어 위치 또는 서비스 데이터와 같은 엔터티를 사용하여 정밀하게 타기팅합니다.<br/><br/>
-프로필 및 연결된 보조 엔터티별로 메시지가 하나씩 전송되는 다중 레벨 전송을 지원합니다. 이 보조 엔터티에는 연락처, 예약, 구독, 계약 또는 기타 연결된 데이터를 포함할 수 있습니다. 예를 들어 이 기능으로 프로필의 알려진 모든 주소 또는 해당 프로필과 연결된 각 예약에 대해 캠페인을 전송할 수 있습니다.</td></tr>
+프로필 및 연결된 보조 엔티티당 하나의 메시지가 전송되는 다중 레벨 전송을 지원합니다. 이 보조 엔터티에는 연락처, 예약, 구독, 계약 또는 기타 연결된 데이터를 포함할 수 있습니다. 예를 들어 이 기능으로 프로필의 알려진 모든 주소 또는 해당 프로필과 연결된 각 예약에 대해 캠페인을 전송할 수 있습니다.</td></tr>
 <tr style="border: 0;">
 <td><img alt="사전 전송 가시성 및 정밀도" src="assets/do-not-localize/icon-visibility.svg" width="150px"></a></td><td><b>사전 전송 가시성 및 정밀도</b><br/>실행 전에 정확한 세분화 수와 전체 캠페인 범위를 가져와 정확성과 신뢰도를 보장합니다.</td></tr>
 <tr style="border: 0;">
@@ -121,7 +121,7 @@ ht-degree: 86%
 </td>
 <td>
 <a href="activities/about-activities.md">
-<img alt="드물게" src="assets/do-not-localize/workflow-activities.jpeg">
+<img alt="저빈도" src="assets/do-not-localize/workflow-activities.jpeg">
 </a>
 <div>
 <a href="activities/about-activities.md"><strong>활동을 사용하여 작업</strong></a>

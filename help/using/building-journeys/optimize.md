@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 활동, 조건, 캔버스, 여정, 최적화
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: 8aeb3e3769e28419982c28620e5b141778d2fa67
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '470'
-ht-degree: 8%
+ht-degree: 14%
 
 ---
 
@@ -62,6 +62,6 @@ ht-degree: 8%
 
 사용 사례에 가장 적합한 최적화 방법을 선택합니다.
 
-* 어떤 경로가 가장 성과가 좋은지 테스트하고 학습하시겠습니까? →0&rbrace;경로 실험[(으)로 이동](path-experimentation.md)
-* 서로 다른 대상을 특정 경로로 전송하시겠습니까? →0&rbrace;경로 타깃팅[(으)로 이동](path-targeting.md)
-* 조건부 논리(if/then 시나리오)를 생성하시겠습니까? →0&rbrace;조건[(으)로 이동](conditions.md)
+* 어떤 경로가 가장 성과가 좋은지 테스트하고 학습하시겠습니까? →0&rbrace;경로 실험[&#128279;](path-experimentation.md)(으)로 이동
+* 서로 다른 대상을 특정 경로로 전송하시겠습니까? →0&rbrace;경로 타깃팅[&#128279;](path-targeting.md)(으)로 이동
+* 조건부 논리(if/then 시나리오)를 생성하시겠습니까? →0&rbrace;조건[&#128279;](conditions.md)(으)로 이동

@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 여정에서  [!DNL Adobe Experience Platform] 데이터 사용
-description: ' [!DNL Adobe Journey Optimizer] 의 외부 데이터로 고객 여정을 보강하기 위해  [!DNL Adobe Experience Platform]의 데이터 세트 조회 활동을 사용하는 방법에 대해 알아봅니다.'
+description: ' [!DNL Adobe Experience Platform]의 외부 데이터로 고객 여정을 보강하기 위해  [!DNL Adobe Journey Optimizer] 의 데이터 세트 조회 활동을 사용하는 방법에 대해 알아봅니다.'
 feature: Journeys, Activities
 topic: Content Management
 role: User
@@ -10,10 +10,10 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="제한 공개" type="Informative"
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: 6836d30ca7864a82a75a73b8944e43691338558e
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 10%
+source-wordcount: '908'
+ht-degree: 11%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dataset_lookup"
 >title="데이터 세트 조회 활동"
->abstract="**[!UICONTROL 데이터 세트 조회]** 활동을 통해 런타임 중에 [!DNL Adobe Experience Platform] 레코드 데이터 세트에서 동적으로 데이터를 가져올 수 있습니다. 이 기능을 활용하면 프로필이나 이벤트 페이로드에 없을 수 있는 데이터에 액세스하여 고객 상호 작용이 적시에 적절하게 이루어질 수 있습니다."
+>abstract="**[!UICONTROL 데이터 세트 조회]** 활동을 통해 런타임 중에 [!DNL Adobe Experience Platform] 레코드 데이터 세트에서 동적으로 데이터를 가져올 수 있습니다. 이 기능을 활용하면 프로필 또는 이벤트 페이로드에 없는 데이터에 액세스할 수 있게 되어 고객 상호 작용이 더 관련성 있게 알맞은 시간에 이루어지도록 할 수 있습니다."
 
-**[!UICONTROL 데이터 세트 조회]** 활동을 통해 런타임 중에 [!DNL Adobe Experience Platform] 레코드 데이터 세트에서 동적으로 데이터를 가져올 수 있습니다. 이 기능을 활용하면 프로필이나 이벤트 페이로드에 없을 수 있는 데이터에 액세스하여 고객 상호 작용이 적시에 적절하게 이루어질 수 있습니다.
+**[!UICONTROL 데이터 세트 조회]** 활동을 통해 런타임 중에 [!DNL Adobe Experience Platform] 레코드 데이터 세트에서 동적으로 데이터를 가져올 수 있습니다. 이 기능을 활용하면 프로필 또는 이벤트 페이로드에 없는 데이터에 액세스할 수 있게 되어 고객 상호 작용이 더 관련성 있게 알맞은 시간에 이루어지도록 할 수 있습니다.
 
 >[!AVAILABILITY]
 >
@@ -66,7 +66,7 @@ ht-degree: 10%
 
 1. **[!UICONTROL Orchestration]** 범주를 펼친 다음 **[!UICONTROL 데이터 집합 조회]** 활동을 캔버스에 놓습니다.
 
-   ![[!DNL Adobe Experience Platform] 여정에서 &#x200B;](assets/aep-data-activity.png) 데이터 집합 조회 활동
+   ![&#128279;](assets/aep-data-activity.png) 여정에서 [!DNL Adobe Experience Platform] 데이터 집합 조회 활동
 
 1. 레이블과 설명을 추가합니다.
 

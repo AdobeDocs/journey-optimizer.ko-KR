@@ -9,7 +9,7 @@ level: Beginner, Intermediate
 keywords: 여정, 검색, 시작, 단일, 대상자 읽기, 대상자 선별, 비즈니스 이벤트, 실시간, 예약, 배치, 이벤트 트리거, 워크플로, 오케스트레이션, 개인화, 멀티채널
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '1615'
 ht-degree: 82%

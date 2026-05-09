@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 사용자 정의, 일반, 이벤트, 여정
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 20%
+source-wordcount: '645'
+ht-degree: 23%
 
 ---
 

@@ -5,7 +5,7 @@ title: 분할 활동 사용
 description: 오케스트레이션된 캠페인에서 분할 활동을 사용하는 방법을 알아봅니다
 exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 88%

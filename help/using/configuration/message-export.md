@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 내보내기, 메시지, HIPAA, 이메일, SMS, 구성
 exl-id: 7b50c933-9738-4b1b-acae-08f0a8d41dab
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 11%
+source-wordcount: '737'
+ht-degree: 12%
 
 ---
 
@@ -43,8 +43,8 @@ ht-degree: 11%
 
 메시지 내보내기 기능에 대한 온보딩 프로세스는 다음 두 단계로 구성됩니다.
 
-1. [에서 &#x200B;](#set-up-export-dataflow)내보내기 데이터 흐름을 설정[!DNL Experience Platform];
-1. [의 채널 구성에서 &#x200B;](#config-message-export)메시지 내보내기 사용[!DNL Journey Optimizer].
+1. [!DNL Experience Platform]에서 [내보내기 데이터 흐름을 설정](#set-up-export-dataflow);
+1. [!DNL Journey Optimizer]의 채널 구성에서 [메시지 내보내기 사용](#config-message-export).
 
 >[!WARNING]
 >

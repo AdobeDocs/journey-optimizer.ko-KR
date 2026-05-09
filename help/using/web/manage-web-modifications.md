@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 213511b4-7556-4a25-aa23-b50acd11cd34
-source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 21%
+source-wordcount: '973'
+ht-degree: 24%
 
 ---
 
@@ -118,7 +118,7 @@ ht-degree: 21%
 
    >[!CAUTION]
    >
-   >`<script>` 섹션에는 `<style>` 및 `<head>` 요소만 추가할 수 있습니다. `<div>`개 태그 및 기타 요소를 추가하면 나머지 `<head>`개 요소가 `<body>`에 들어갈 수 있습니다.
+   >`<head>` 섹션에는 `<script>` 및 `<style>` 요소만 추가할 수 있습니다. `<div>`개 태그 및 기타 요소를 추가하면 나머지 `<head>`개 요소가 `<body>`에 들어갈 수 있습니다.
 
 1. **[!UICONTROL 고급 편집 옵션]** 단추를 클릭합니다. 개인화 편집기가 열립니다.
 
@@ -177,7 +177,7 @@ ht-degree: 21%
 
 +++ **요소를 만든 다음 수정하는 경우 원래 요소를 삭제하지 마십시오.**
 
-각 변경 사항은 **[!UICONTROL 수정 사항]** 패널에 새 요소를 만듭니다. 두 번째 작업은 요소 1을 수정하므로, 요소 1을 삭제하면 해당 작업에는 더 이상 수정할 사항이 없게 되며, 따라서 변경이 더 이상 작동하지 않습니다.
+각 변경 사항은 **[!UICONTROL 수정 사항]** 패널에 새 요소를 만듭니다. 두 번째 작업은 요소 1을 수정하므로, 요소 1을 삭제하면 해당 작업에서는 더 이상 수정할 사항이 없게 되며, 따라서 변경이 더 이상 작동하지 않습니다.
 
 +++
 

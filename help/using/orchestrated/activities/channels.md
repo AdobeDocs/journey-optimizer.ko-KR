@@ -5,10 +5,10 @@ title: 여러 단계로 구성된 캠페인에 채널 활동 추가
 description: 여러 단계로 구성된 캠페인에 채널 활동을 추가하는 방법 알아보기
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: ef53fc88dfeb05b171b8aa819830c9fb771697f6
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1769'
-ht-degree: 39%
+source-wordcount: '1803'
+ht-degree: 40%
 
 ---
 
@@ -113,7 +113,7 @@ UNUSED IDs in BJ
 
 1. **채널 구성 선택**
 
-   구성은 [시스템 관리자](../../start/path/administrator.md)가 정의합니다. 여기에는 헤더 매개변수, 하위 도메인, 모바일 앱 등 메시지 전송을 위한 모든 기술적 매개변수가 포함되어 있습니다. [채널 구성을 설정하는 방법 알아보기](../../configuration/channel-surfaces.md)
+   구성은 [시스템 관리자](../../start/path/administrator.md)가 정의합니다. 여기에는 헤더 매개 변수, 하위 도메인, 모바일 앱 등 메시지를 보내는 데 필요한 모든 기술 매개 변수가 포함되어 있습니다. [채널 구성을 설정하는 방법에 대해 알아보세요](../../configuration/channel-surfaces.md)
 
    ![액션 섹션을 보여 주는 이미지](../assets/channel-actions.png)
 
@@ -208,7 +208,7 @@ UNUSED IDs in BJ
 
 [!DNL Journey Optimizer]을(를) 사용하면 오케스트레이션된 캠페인의 아웃바운드 작업에 대한 비율 제어를 사용하도록 설정할 수 있습니다.
 
-이 기능은 랜딩 페이지나 고객 지원 플랫폼과 같은 다운스트림 시스템의 오버로드를 방지하는 데 특히 유용합니다. 예를 들어, 속도가 초당 165개의 메시지로 제한하여 다운스트림 시스템을 압도하지 않고도 지속적인 전송을 보장할 수 있습니다.
+이 기능은 랜딩 페이지나 고객 지원 센터 플랫폼과 같은 다운스트림 시스템의 오버로드를 방지하는 데 특히 유용합니다. 예를 들어, 속도가 초당 165개의 메시지로 제한하여 다운스트림 시스템을 압도하지 않고도 지속적인 전송을 보장할 수 있습니다.
 
 비율 제어를 설정하려면 다음 단계를 수행합니다.
 

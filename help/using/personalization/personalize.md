@@ -9,10 +9,10 @@ role: Developer
 level: Beginner
 keywords: 표현식, 편집기, 시작, 개인화
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: de51f967cfcdd5934d79148e9c4dc933c12808a8
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 22%
+source-wordcount: '605'
+ht-degree: 24%
 
 ---
 
@@ -83,7 +83,7 @@ Personalization은 Adobe Experience Platform에 정의된 **XDM 개인 프로필
 </td>
 <td>
 <a href="../personalization/functions/functions.md">
-<img alt="드물게" src="assets/do-not-localize/functions.png">
+<img alt="저빈도" src="assets/do-not-localize/functions.png">
 </a>
 <div>
 <a href="../personalization/functions/functions.md"><strong>도우미 함수 목록</strong></a>
@@ -91,7 +91,7 @@ Personalization은 Adobe Experience Platform에 정의된 **XDM 개인 프로필
 <p></td>
 <td>
 <a href="../personalization/personalization-use-case.md">
-<img alt="드물게" src="assets/do-not-localize/uc.png">
+<img alt="저빈도" src="assets/do-not-localize/uc.png">
 </a>
 <div>
 <a href="../personalization/personalization-use-case.md"><strong>Personalization 사용 사례</strong></a>

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b33e4bca-d2e9-4610-9f04-008d47f686d0
-source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 16%
+source-wordcount: '500'
+ht-degree: 27%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 16%
 
 [이 비디오에서는 단일 페이지 애플리케이션을 제작하는 방법에 대해 알아봅니다](#video)
 
-보기는 전체 사이트 또는 홈 페이지, 전체 제품 사이트 또는 모든 체크아웃 페이지의 게재 환경 설정 프레임과 같은 사이트의 시각적 요소 그룹으로 정의할 수 있습니다.
+보기는 전체 사이트로 정의하거나 홈 페이지, 전체 제품 사이트 또는 모든 체크아웃 페이지의 게재 환경 설정 프레임과 같은 사이트의 시각적 요소 그룹으로 정의할 수 있습니다.
 
 Adobe Experience Platform Web SDK 구현에서 보기를 정의하려면 일회용 개발자 설정이 필요합니다. 이를 통해 SPA에서 Adobe Journey Optimizer 웹 캠페인을 만들고 실행할 수 있습니다.
 

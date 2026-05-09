@@ -10,10 +10,10 @@ role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 19%
+source-wordcount: '440'
+ht-degree: 27%
 
 ---
 
@@ -67,6 +67,6 @@ AI 모델을 만들고 사용하는 주요 단계는 다음과 같습니다.
 
 ## 사용 방법 비디오 {#video}
 
-Offer Decisioning용 AI 모델을 만드는 방법과 이 모델을 의사 결정에 적용하는 방법을 알아봅니다.
+Offer Decisioning용 AI 모델을 만드는 방법과 이를 의사결정에 적용하는 방법에 대해 알아봅니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3445651?captions=kor&quality=12)

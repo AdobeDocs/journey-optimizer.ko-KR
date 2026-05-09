@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: css, 편집기, 요약, 이메일
 exl-id: e4645bc7-fb99-4fcc-8d0e-bf8b9efc828e
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '734'
 ht-degree: 10%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 10%
 
    >[!NOTE]
    >
-   >잠긴 콘텐츠[가 있는 &#x200B;](../content-management/content-locking.md#use)템플릿을 사용하는 경우 콘텐츠에 사용자 지정 CSS를 추가할 수 없습니다. 단추 레이블이 **[!UICONTROL 사용자 지정 CSS 보기]**(으)로 변경되고 콘텐츠에 이미 있는 사용자 지정 CSS는 읽기 전용입니다.
+   >잠긴 콘텐츠[&#128279;](../content-management/content-locking.md#use)가 있는 템플릿을 사용하는 경우 콘텐츠에 사용자 지정 CSS를 추가할 수 없습니다. 단추 레이블이 **[!UICONTROL 사용자 지정 CSS 보기]**(으)로 변경되고 콘텐츠에 이미 있는 사용자 지정 CSS는 읽기 전용입니다.
 
 1. 사용자 지정 CSS를 저장하고 사용자 지정 CSS가 콘텐츠에 올바르게 적용되었는지 확인합니다. 그렇지 않은 경우 [문제 해결](#troubleshooting) 섹션을 확인하십시오.
 
@@ -172,7 +172,7 @@ body {
 
 ## 기술 구현 {#implementation}
 
-사용자 지정 CSS는 아래 예와 같이 `<head>` 특성이 있는 `<style>` 태그의 일부로 `data-name="global-custom"` 섹션의 끝에 추가됩니다. 이렇게 하면 사용자 지정 스타일이 콘텐츠에 전체적으로 적용됩니다.
+사용자 지정 CSS는 아래 예와 같이 `data-name="global-custom"` 특성이 있는 `<style>` 태그의 일부로 `<head>` 섹션의 끝에 추가됩니다. 이렇게 하면 사용자 지정 스타일이 콘텐츠에 전체적으로 적용됩니다.
 
 +++ 샘플 참조 
 
@@ -232,7 +232,7 @@ body {
 
 * CSS가 올바르고 구문 오류(예: 중괄호 누락, 잘못된 속성 이름)가 없는지 확인합니다. [방법 알아보기](#use-valid-css)
 
-* CSS가 `<style>` 특성이 있는 `data-name="global-custom"` 태그에 추가되고 있는지 확인하십시오.
+* CSS가 `data-name="global-custom"` 특성이 있는 `<style>` 태그에 추가되고 있는지 확인하십시오.
 
 * `global-custom` 스타일 태그에 `data-disabled` 특성이 `true`(으)로 설정되어 있는지 확인하십시오. 이 경우 사용자 지정 CSS는 적용되지 않습니다.
 

@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 랜딩, 랜딩 페이지, 작성, 페이지, 양식, 구성 요소
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: d0dd382521aeb2c7e18dc547c2ec55fa1472ab8d
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1571'
-ht-degree: 9%
+source-wordcount: '1633'
+ht-degree: 12%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 9%
 
 * 옵트인, 옵트아웃 및 구독 시나리오의 경우 [기본 제공 양식 구성 요소](#use-form-component)를 사용하고 [랜딩 페이지별 스타일](#lp-form-styles)을(를) 정의합니다.
 
-* 사용자가 특정 양식을 통해 데이터를 제출하도록 허용하려면(예: [!DNL Experience Platform] 데이터 집합을 보강하기 위해) [데이터 캡처](#embed-form) 랜딩 페이지에서 **[!UICONTROL 게시된 양식을 포함]**&#x200B;하십시오. [양식 만들기에 대해 자세히 알아보기](lp-forms.md)
+* 사용자가 특정 양식을 통해 데이터를 제출하도록 허용하려면(예: [!DNL Experience Platform] 데이터 집합을 보강하기 위해) **[!UICONTROL 데이터 캡처]** 랜딩 페이지에서 [게시된 양식을 포함](#embed-form)하십시오. [양식 만들기에 대해 자세히 알아보기](lp-forms.md)
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->[유럽 접근성법](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}에는 모든 디지털 통신의 접근성을 보장해야 한다고 명시되어 있습니다. [에서 콘텐츠를 디자인할 때는 &#x200B;](../email/accessible-content.md)이 페이지[!DNL Journey Optimizer]에 나열된 특정 지침을 따라야 합니다.
+>[유럽 접근성법](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}에는 모든 디지털 통신의 접근성을 보장해야 한다고 명시되어 있습니다. [!DNL Journey Optimizer]에서 콘텐츠를 디자인할 때는 [이 페이지](../email/accessible-content.md)에 나열된 특정 지침을 따라야 합니다.
 
 ## 양식 구성 요소 사용 {#use-form-component}
 

@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 프로필, 업데이트, 여정, 활동
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 version: Journey Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 4%
+source-wordcount: '909'
+ht-degree: 7%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 4%
 
 ## 데이터 세트 선택 {#dataset-selection}
 
-**[!UICONTROL 프로필 업데이트]** 활동에는 업데이트를 저장할 전용 데이터 세트가 필요합니다. 이 활동은 [프로필 저장소](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko#profile-data-store){target="_blank"}만 업데이트하므로(Datalake는 아님), 모든 업데이트는 [프로필 업데이트](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"} 작업에 대해 특별히 지정된 **[!UICONTROL 프로필 사용 데이터 세트]**&#x200B;에 저장되어야 합니다.
+**[!UICONTROL 프로필 업데이트]** 활동에는 업데이트를 저장할 전용 데이터 세트가 필요합니다. 이 활동은 [프로필 저장소](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko#profile-data-store){target="_blank"}만 업데이트하므로(Datalake는 아님), 모든 업데이트는 **[!UICONTROL 프로필 업데이트]** 작업에 대해 특별히 지정된 [프로필 사용 데이터 세트](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}에 저장되어야 합니다.
 
 >[!CAUTION]
 >

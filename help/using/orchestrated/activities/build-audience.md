@@ -5,10 +5,10 @@ title: 대상자 작성 활동 사용
 description: 오케스트레이션된 캠페인에서 대상자 빌드 활동을 사용하는 방법을 알아봅니다
 exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
 version: Campaign Orchestration
-source-git-commit: f8ddcd970f61018004ae1387fee2881d3a76c763
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 64%
+source-wordcount: '338'
+ht-degree: 56%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 64%
 
 1. 아래 탭에 자세히 나와 있는 단계에 따라 대상자를 구성합니다.
 
-1. **[!UICONTROL 차원 타겟팅]**&#x200B;을 선택합니다. 타기팅 차원을 사용하면 수신자, 약정 수혜자, 운영자, 구독자 등 작업에서 타기팅하는 집단을 정의할 수 있습니다. 기본적으로 대상은 수신자 중에서 선택됩니다.
+1. **[!UICONTROL 차원 타겟팅]**&#x200B;을 선택합니다. 타겟팅 차원을 사용하면 작업에서 타겟팅한 모집단, 즉 수신자, 계약 수혜자, 운영자, 구독자 등을 정의할 수 있습니다. 기본적으로 대상은 수신자에서 선택됩니다.
 
 1. **[!UICONTROL 계속]**&#x200B;을 클릭합니다.
 
@@ -55,6 +55,6 @@ ht-degree: 64%
 
 ![](../assets/build-audience-2.png)
 
-아래 예에서 **[!UICONTROL 대상자 작성]** 활동은 규칙 빌더를 사용하여 구독 플랜별로 프로필을 필터링합니다. `plan`인 프로필만 포함하도록 조건이 `plan = "basic"` 특성에 설정되어 다음 활동으로 전달하기 전에 대상을 기본 계층 구독자로 좁힙니다.
+아래 예에서 **[!UICONTROL 대상자 작성]** 활동은 규칙 빌더를 사용하여 구독 플랜별로 프로필을 필터링합니다. `plan = "basic"`인 프로필만 포함하도록 조건이 `plan` 특성에 설정되어 다음 활동으로 전달하기 전에 대상을 기본 계층 구독자로 좁힙니다.
 
 ![](../assets/build-audience-plan.png){width="50%" align="left"}
