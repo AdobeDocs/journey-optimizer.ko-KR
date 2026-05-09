@@ -100,4 +100,4 @@ Adobe Journey Optimizer은 현재 Adobe Journey Optimizer과 독립적으로 서
 
 단일 캠페인 또는 여정 내에서 여러 언어로 콘텐츠를 만드는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430921/)
+>[!VIDEO](https://video.tv.adobe.com/v/3452120?captions=kor)
