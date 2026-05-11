@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 455f6d00c9f5e4377408ddf89c80444c56cb0d55
+source-git-commit: a0277e825a3e08f09ba0085f77b02dbec409747b
 workflow-type: tm+mt
-source-wordcount: '3307'
+source-wordcount: '3311'
 ht-degree: 90%
 
 ---
@@ -896,6 +896,7 @@ ht-degree: 90%
    + [채널 구성 시작](using/configuration/get-started-configuration.md)
    + [채널 구성 설정](using/configuration/channel-surfaces.md)
    + [메시지 콘텐츠 내보내기](using/configuration/message-export.md)
+   + {hide-from-toc}[AJO 메시지 내보내기 스키마](using/configuration/message-export-schema.md)
    + 가이드 채널 설정 {#guided-setup}
       + [안내형 채널 설정 시작](using/configuration/set-mobile-config.md)
       + [채널 설정 만들기](using/configuration/create-channel-set-up.md)

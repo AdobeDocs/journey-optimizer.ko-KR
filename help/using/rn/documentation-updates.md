@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 2b5b7ded23bb14e75aecd5a412b6c372cac3f630
+source-git-commit: 751514af18e4d8e36ac7d9bc4c64e95a0514446d
 workflow-type: tm+mt
-source-wordcount: '7327'
-ht-degree: 67%
+source-wordcount: '7393'
+ht-degree: 66%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 67%
 이 페이지에는 월별 릴리스 기능 및 개선 사항과 관련된 업데이트 외에도 [!DNL Journey Optimizer] 설명서의 모든 최신 변경 사항이 나와 있습니다.
 
 ## 2026년 5월 {#may-2026}
+
+* **메시지 콘텐츠 내보내기** 설명서는 SMS 및 이메일에 대한 **메시지 내보내기 FAQ**(개인 맞춤화된 콘텐츠, 이미지 및 미디어, 추적된 링크, PII, 보존, 사용 사례 등) 및 **샘플 내보낸 JSON** 예제를 사용하여 확장되었습니다. [자세히 보기](../configuration/message-export.md)
+
+* 새로운 **AJO 메시지 내보내기 스키마** 페이지는 AJO 메시지 내보내기 데이터 세트의 모든 필드에 내보낸 전자 메일 및 SMS 페이로드의 데이터 형식 및 계층 구조를 포함합니다. [자세히 보기](../configuration/message-export-schema.md)
 
 * 동적 URL 개인화, 전체/기본 URL 개인화, URL 추적 매개 변수 개인화 및 키 가드레일에 대한 지침을 통합하는 새 **전자 메일의 URL 개인화** 페이지가 추가되었습니다. [자세히 보기](../email/url-personalization.md)
 
