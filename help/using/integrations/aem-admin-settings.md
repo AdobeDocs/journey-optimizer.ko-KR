@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 hide: true
 keywords: AEM, 콘텐츠 조각, 관리, 저장소, 인증, 작성자, 게시
-source-git-commit: edea85366fb6f3a031c0eaec321e6d37bb41dd18
+source-git-commit: acbc63b37802bfe27a24246d4701efb00ac95940
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 0%
@@ -52,15 +52,15 @@ Journey Optimizer은 조직, 샌드박스 및 Adobe Experience Manager 저장소
 
 1. 설정 선택:
 
-   >[!BEGINTABS]
-
-   >[!TAB 작성자만 설정]
+   +++ 작성자만 설정
 
    Journey Optimizer에서 Adobe Experience Manager **작성자** 환경에서만 콘텐츠 조각을 읽어야 하는 경우 **[!UICONTROL 작성자만 설정]**&#x200B;을 선택합니다. 작성자에서 게시 및 라이브 게시 업데이트로의 복제는 지원되지 않습니다.
 
    ![](assets/aem-admin-settings-3.png)
 
-   >[!TAB 게시 인스턴스 설정]
+   +++
+
+   +++ 게시 인스턴스 설정
 
    1. 게시 인스턴스 설정을 켜려면 **[!UICONTROL 게시 인스턴스 설정]**&#x200B;을(를) 선택하십시오.
 
@@ -74,7 +74,7 @@ Journey Optimizer은 조직, 샌드박스 및 Adobe Experience Manager 저장소
 
       ![](assets/aem-admin-settings-5.png)
 
-   >[!ENDTABS]
+   +++
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
