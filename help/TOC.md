@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d41999da88f39a9e5bfe5e98fd5cb5d69a1893e6
+source-git-commit: 23191f22b6314f9d08cb12da8027bfbbf9550c34
 workflow-type: tm+mt
-source-wordcount: '3306'
+source-wordcount: '3312'
 ht-degree: 90%
 
 ---
@@ -505,6 +505,7 @@ ht-degree: 90%
       + {hide-from-toc}[Experience Manager 템플릿 작업](using/integrations/aem-templates.md)
       + Experience Manager 컨텐츠 조각 {#aem}
          + [Experience Manager 콘텐츠 조각 시작](using/integrations/aem-fragments-gs.md)
+         + {hide-from-toc}[콘텐츠 조각에 대한 저장소 구성](using/integrations/aem-admin-settings.md)
          + [Experience Manager 콘텐츠 조각 작업](using/integrations/aem-fragments.md)
          + [고려 사항 및 문제 해결](using/integrations/aem-fragments-limitations.md)
       + {hide-from-toc}[Experience Manager 콘텐츠 관리자 작업](using/content-management/aem-content-advisor.md)

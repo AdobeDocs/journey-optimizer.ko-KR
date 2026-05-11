@@ -7,18 +7,14 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
-source-git-commit: 5bbe7aa2e1acfc02fc8d6fdd571c9640d848dc76
+source-git-commit: 62ad835119b42be20152e85817eddf13e3793af7
 workflow-type: tm+mt
-source-wordcount: '1479'
+source-wordcount: '1453'
 ht-degree: 0%
 
 ---
 
 # Adobe Experience Manager 컨텐츠 조각을 사용한 작업 {#aem-fragments}
-
->[!AVAILABILITY]
->
->이 통합은 **Adobe Experience Manager as a Cloud Service 사이트**&#x200B;에 적용되며, **콘텐츠 조각**&#x200B;에만 적용됩니다. Journey Optimizer은 **Publish** 계층(작성자 아님)에서 조각을 읽습니다.
 
 Adobe Experience Manager과 Journey Optimizer 간의 통합은 다음 데이터 흐름을 따릅니다.
 
