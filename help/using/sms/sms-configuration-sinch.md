@@ -8,12 +8,21 @@ role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
 TQID: https://experienceleague.adobe.com/24n9GhVTfQ9y4hlvY6g67dyL0FHqNOJW0aP-WIpzRqs
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126
-subfeature_v2: id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+subfeature_v2:
+  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 9e5edbefb19b7cf30da3a7164300e966a42e8711
 workflow-type: tm+mt
 source-wordcount: 946
@@ -167,7 +176,7 @@ RCS(Rich Communication Services) 메시징은 Sinch를 통해 Journey Optimizer�
 
    Sinch 대시보드에서 브랜드 RCS 에이전트를 만듭니다. [브랜드 RCS 에이전트에 대해 자세히 알아보기](https://community.sinch.com/t5/RCS/Getting-Started-with-RCS-using-Conversation-API/ta-p/17844)
 
-1. **사용자 지정 API 자격 증명 설정](sms-configuration-custom.md)**[
+1. **사용자 지정 API 자격 증명 설정[&#128279;](sms-configuration-custom.md)**
 
    RCS 에이전트가 승인되면 AppId, 이름, URL 및 인증 유형을 포함하는 사용자 정의 API 자격 증명을 설정해야 합니다.
 
@@ -179,7 +188,7 @@ RCS(Rich Communication Services) 메시징은 Sinch를 통해 Journey Optimizer�
 
    Sinch 자격 증명을 연결하고 메시징 매개 변수를 정의하여 Journey Optimizer에서 채널 표면을 구성합니다. 이 설정을 통해 Journey Optimizer에서 RCS 메시지를 구성하고 전송할 수 있습니다.
 
-1. **SMS 메시지 만들기 및 개인화[2}](../sms/create-sms.md)**
+1. **SMS 메시지 만들기 및 개인화[2&rbrace;](../sms/create-sms.md)**
 
    페이로드를 SMS 콘텐츠에 직접 붙여넣어 RCS(Rich Communication Services) 메시지를 임베드하고 전달합니다.
 
