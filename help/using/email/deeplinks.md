@@ -8,7 +8,7 @@ topic: Content Management
 role: User, Developer
 level: Intermediate
 keywords: 딥링크, 딥링크, 범용 링크, 앱 링크, 이메일
-source-git-commit: f00bb7373065f199346326b3b3e85c542dcd56d8
+source-git-commit: 8efe5aaf0ebf24aa61decf40651c2ecc198ab0bc
 workflow-type: tm+mt
 source-wordcount: '1182'
 ht-degree: 1%
@@ -43,7 +43,7 @@ ht-degree: 1%
 
 1. 하위 도메인에서 iOS용 AASA 파일 및 Android용 assetLinks.json 파일을 호스팅합니다. 자세한 내용은 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} 또는 Adobe 담당자에게 문의하십시오.
 
-   * AASA(iOS)의 **1&rbrace;:**
+   * AASA(iOS)의 **1}:**
       * 위임된 하위 도메인
       * 앱 번들 ID
    * **Android(assetLinks.json)의 경우**:
@@ -307,3 +307,4 @@ URL 인코딩 쿼리 매개 변수 값입니다. 이렇게 하면 게재 및 렌
 링크는 이 페이지에 설명된 `mclick` 흐름을 통해 앱 딥링크로 처리되지 않고, 장치의 기본 웹 브라우저(표준 클릭 추적 동작)에서 열립니다.
 
 +++
+
