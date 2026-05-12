@@ -8,9 +8,9 @@ topic: Content Management
 role: User, Developer
 level: Intermediate
 keywords: 딥링크, 딥링크, 범용 링크, 앱 링크, 이메일
-source-git-commit: bdf9528e298bd8e348d59a660a4cbceb35660625
+source-git-commit: 850b97c292679353e5e5f429f9703d31b773c10b
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: '1182'
 ht-degree: 1%
 
 ---
@@ -43,64 +43,13 @@ ht-degree: 1%
 
 1. 하위 도메인에서 iOS용 AASA 파일 및 Android용 assetLinks.json 파일을 호스팅합니다. 자세한 내용은 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} 또는 Adobe 담당자에게 문의하십시오.
 
-   * AASA(iOS)의 **1&rbrace;:**
+   * AASA(iOS)의 **1}:**
       * 위임된 하위 도메인
       * 앱 번들 ID
    * **Android(assetLinks.json)의 경우**:
       * 위임된 하위 도메인
       * 앱 번들 ID
       * SHA-256 인증서 지문
-
-<!--
-Adobe is hosting these files internally so not on customer's side.
-
-1. Validate the URLs below and ensure the content matches the expected format such as in the examples below.
-
-    * **For iOS (AASA)**: `https://data.<delegated_subdomain>/.well-known/apple-app-site-association`
-
-      +++ Example:
-
-      ```json
-      {
-        "applinks": {
-          "apps": [],
-          "details": [
-            {
-              "appID": "<app_bundle_id>",
-              "paths": [
-                "NOT /ee/v1/click/*",
-                "/ee/v1/mclick/*"
-              ]
-            }
-          ]
-        }
-      }
-      ```
-      
-      +++
-
-    * **For Android (assetLinks.json)**: `https://data.<delegated_subdomain>/.well-known/assetlinks.json`
-
-      +++ Example:
-
-      ```json
-      [
-        {
-          "relation": ["delegate_permission/common.handle_all_urls"],
-          "target": {
-            "namespace": "android_app",
-            "package_name": "<app_bundle_id>",
-            "sha256_cert_fingerprints": [
-              "12:34:56:78:90:AB:CD:EF:12:34:56:78:90:AB:CD:EF:12:34:56:78:90:AB:CD:EF:12:34"
-            ]
-          }
-        }
-      ]
-      ```
-
-      +++
-
--->
 
 >[!IMPORTANT]
 >
@@ -293,7 +242,7 @@ Adobe is hosting these files internally so not on customer's side.
 * **딥 링크를 테스트합니다**: 증명을 보내고 앱이 설치된 장치에서 딥 링크를 클릭합니다.
 * **실제 장치에서 유효성 검사**: 범용 링크 및 추적된 링크 확인 동작은 시뮬레이터보다 실제 장치에서 유효성을 검사하는 데 더 안정적입니다.
 * **앱 측 라우팅 유효성 검사**: 딥링크가 필요한 화면을 열지 않으면 앱 측 라우팅 및 URL 형식(호스트/경로/쿼리 및 URL 인코딩)을 검사하십시오.
-* 앱 링크 / 범용 링크 동작은 앱을 한 번 이상 설치하고 연 후에 가장 안정적입니다.
+* **앱 초기화를 염두에 두십시오**: 앱 링크/범용 링크 동작은 앱을 한 번 이상 설치하고 연 후에 가장 안정적입니다.
 
 ## 문제 해결 및 FAQ {#troubleshooting-faq}
 
