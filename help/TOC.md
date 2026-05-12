@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a0277e825a3e08f09ba0085f77b02dbec409747b
+source-git-commit: d28376a9c7296dbb4e508dbb87b53658692e1e89
 workflow-type: tm+mt
-source-wordcount: '3311'
+source-wordcount: '3322'
 ht-degree: 90%
 
 ---
@@ -317,6 +317,7 @@ ht-degree: 90%
          + [헤더 매개변수](using/email/header-parameters.md)
          + [URL 추적](using/email/url-tracking.md)
          + [이메일 구성 개인화](using/email/surface-personalization.md)
+         + [이메일에서 딥 링크 구성](using/email/deeplinks.md)
    + 인앱 채널 {#in-app}
       + [인앱 채널](/help/rp_landing_pages/in-app-landing-page.md)
       + [인앱 시작](using/in-app/get-started-in-app.md)
@@ -353,6 +354,7 @@ ht-degree: 90%
          + [사용자 정의 제공자 구성](using/sms/sms-configuration-custom.md)
          + [웹후크 만들기](using/sms/sms-webhook.md)
          + [SMS / MMS / RCS 구성 만들기](using/sms/sms-configuration-surface.md)
+         + [인바운드 키워드에 대한 사용자 지정 데이터 세트 사용](using/sms/custom-dataset-inbound-keywords.md)
    + 다이렉트 메일 {#direct-mail}
       + [다이렉트 메일](/help/rp_landing_pages/direct-mail-landing-page.md)
       + [다이렉트 메일 시작](using/direct-mail/get-started-direct-mail.md)

@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+source-git-commit: 8d00060a8801a0d29a86894494b9fd7a69f30d88
 workflow-type: tm+mt
-source-wordcount: '2818'
+source-wordcount: '2855'
 ht-degree: 3%
 
 ---
@@ -47,6 +47,10 @@ API 자격 증명이 정상적으로 생성되면 이제 옵트인 및 옵트아
 * **인바운드**: 옵트인 또는 옵트아웃과 같은 동의 응답을 캡처하고 사용자 환경 설정을 수집하려면 이 옵션을 사용합니다.
 
 * **피드백**: 보고 및 분석을 지원하기 위해 게재, 아웃바운드 오류, 수신 확인 읽기(해당되는 경우)를 포함한 게재 및 참여 이벤트를 추적하려면 이 옵션을 선택합니다.
+
+>[!NOTE]
+>
+>사용자 지정 데이터 집합이 구성되어 있지 않으면 인바운드 키워드 데이터가 _AJO 인바운드 활동 이벤트 데이터 집합_ 시스템 데이터 집합에 저장됩니다. 들어오는 메시지를 캡처하기 전에 프로필에 [!DNL Journey Optimizer]에서 보낸 메시지가 하나 이상 있어야 합니다. [자세히 알아보기](../data/get-started-datasets.md#system-datasets)
 
 공급업체에 따라 SMS를 성공적으로 구현하기 위해 설정해야 하는 항목에 대한 다양한 기대가 있습니다.
 

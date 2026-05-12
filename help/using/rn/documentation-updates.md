@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 1d60e27225dbcbc3ccfc8cf4f5a2c024e0e80422
+source-git-commit: 8d00060a8801a0d29a86894494b9fd7a69f30d88
 workflow-type: tm+mt
-source-wordcount: '7393'
+source-wordcount: '7447'
 ht-degree: 66%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 66%
 이 페이지에는 월별 릴리스 기능 및 개선 사항과 관련된 업데이트 외에도 [!DNL Journey Optimizer] 설명서의 모든 최신 변경 사항이 나와 있습니다.
 
 ## 2026년 5월 {#may-2026}
+
+* **데이터 세트 시작** 페이지가 시스템 데이터 세트 섹션의 새 **인바운드** 항목으로 업데이트되어 _AJO 인바운드 활동 이벤트 데이터 세트_&#x200B;를 문서화합니다. 이 데이터 집합에 들어오는 메시지를 캡처하기 전에 프로필에 [!DNL Journey Optimizer]에서 보낸 메시지가 하나 이상 있어야 함을 명확히 하기 위해 메모가 추가되었습니다. [자세히 보기](../data/get-started-datasets.md#system-datasets)
 
 * **메시지 콘텐츠 내보내기** 설명서는 SMS 및 이메일에 대한 **메시지 내보내기 FAQ**(개인 맞춤화된 콘텐츠, 이미지 및 미디어, 추적된 링크, PII, 보존, 사용 사례 등) 및 **샘플 내보낸 JSON** 예제를 사용하여 확장되었습니다. [자세히 보기](../configuration/message-export.md)
 

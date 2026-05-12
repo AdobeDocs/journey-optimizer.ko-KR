@@ -8,9 +8,25 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 38d537eb7a14f926cafd2769fd09821eebb1186a
+TQID: https://experienceleague.adobe.com/mQVaZ8jb-hBBPxDnztkayDEI4vj0KvMTREI0KxOgAf0
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2:
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 8d00060a8801a0d29a86894494b9fd7a69f30d88
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: 673
 ht-degree: 14%
 
 ---
@@ -49,7 +65,7 @@ SMS API 자격 증명에서 사용자 지정 옵트아웃 키워드를 정의하
 
 >[!NOTE]
 >
->양방향 SMS(STOP, QUIT 등으로 회신)를 사용할 계획이라면 먼저 하나 이상의 단방향 SMS를 전송하여 전화 번호를 프로필 매핑으로 설정해야 합니다. 공급자 자격 증명이 만료되거나 잘못 구성되면 인바운드 키워드가 사용자 프로필을 업데이트하지 못해 옵트아웃 레코드가 누락되거나 지연됩니다.
+>양방향 SMS(STOP, QUIT 등으로 회신)를 사용할 계획이라면 먼저 하나 이상의 단방향 SMS를 전송하여 전화 번호를 프로필 매핑으로 설정해야 합니다. 공급자 자격 증명이 만료되거나 잘못 구성되면 인바운드 키워드가 사용자 프로필을 업데이트하지 못해 옵트아웃 레코드가 누락되거나 지연됩니다. 인바운드 응답은 _AJO 인바운드 활동 이벤트 데이터 세트_ 시스템 데이터 세트에 저장됩니다. [자세히 알아보기](../data/get-started-datasets.md#system-datasets)
 
 
 ## 차단 목록 {#sms-blocklists}

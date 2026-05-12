@@ -9,10 +9,33 @@ role: User
 level: Beginner, Intermediate
 keywords: 링크, 추적, 모니터링, 이메일
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: f9fbf3d0dd49c98d3e4d88fc97ff26f44835769c
+TQID: https://experienceleague.adobe.com/mY-h-cTs9mlZH5XJNS9Yv3pxGVoRn-pBTHAh8TlBi8I
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
+  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+  - id: f550d0f2-143d-4093-9463-467fbec95fcc
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f00bb7373065f199346326b3b3e85c542dcd56d8
 workflow-type: tm+mt
-source-wordcount: '1364'
-ht-degree: 26%
+source-wordcount: 1461
+ht-degree: 24%
 
 ---
 
@@ -89,6 +112,14 @@ ht-degree: 26%
    * **[!UICONTROL 외부 옵트아웃/구독 취소]**&#x200B;를 선택하여 브랜드로부터 커뮤니케이션 수신을 취소할 링크를 삽입합니다. [이 섹션](email-opt-out.md#email-opt-out)에서 옵트아웃 관리에 대해 자세히 알아보세요.
 
    * **[!UICONTROL 미러 페이지]**&#x200B;을(를) 선택하여 이메일 미러 페이지에 대한 링크를 추가하십시오. [자세히 알아보기](#mirror-page)
+
+   * 모바일 앱에 대한 링크를 삽입하려면 **[!UICONTROL 딥링크]**&#x200B;를 선택하십시오. 이렇게 하면 사용자가 브라우저나 앱스토어로 리디렉션되지 않고 올바른 인앱 콘텐츠로 바로 이동하여 컨텍스트와 참여를 유지할 수 있습니다. [자세히 알아보기](deeplinks.md)
+
+     >[!IMPORTANT]
+     >
+     >딥링크를 사용하기 전에 Journey Optimizer에서 해당 [구성 단계](deeplinks.md#configuration)를 완료하고 모바일 앱에서 [딥링크 처리](deeplinks.md#mobile-implementation)를 구현했는지 확인하십시오. 아직 수행하지 않았다면 딥링크는 사용자를 의도한 인앱 콘텐츠로 안내하지 않습니다.
+     >
+     >또한 URL이 Adobe 시스템을 통해 다시 작성되도록 메시지에 대해 [링크 추적이 사용](#enable-tracking)되어 있는지 확인하십시오.
 
 1. 해당 필드에 원하는 URL을 입력하거나 랜딩 페이지를 선택하고 링크 설정 및 스타일을 정의합니다. [자세히 알아보기](#adjust-links)
 
@@ -200,3 +231,4 @@ Adobe Journey Optimizer에서 생성한 미러 페이지에는 모든 개인화 
 ## URL 추적 개인화 {#url-tracking}
 
 URL 개인화에 대한 자세한 지침(URL 추적 매개 변수를 개인화하는 방법 및 전체/기본 URL을 개인화하는 방법 포함)은 [URL 개인화](url-personalization.md)를 참조하십시오.
+
