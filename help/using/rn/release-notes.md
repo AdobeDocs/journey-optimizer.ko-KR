@@ -30,10 +30,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 4b514dea522be3648542a868be7c26b63715a1ff
+source-git-commit: 2f18acd2f3164432260e1a45bc6a9ff567b1ebe9
 workflow-type: tm+mt
-source-wordcount: 2609
-ht-degree: 81%
+source-wordcount: 2579
+ht-degree: 82%
 
 ---
 
@@ -51,6 +51,28 @@ ht-degree: 81%
 [!DNL Adobe Journey Optimizer]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko){target="_blank"}를 참조하십시오.
 
 ## 2026년 5월 업데이트 {#may-26-rn}
+
+
+<table>
+<thead>
+<tr>
+<th><strong>여정 조각</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 Adobe Journey Optimizer에서 <strong>여정 조각</strong>을 만들 수 있습니다. 여정 조각 은 한 번 빌드하고 샌드박스 전체의 여정에 드롭할 수 있는 재사용 가능한 여정 노드 세트입니다. 자격 확인, 기본 채널 라우팅 논리 또는 환영 시퀀스 중 어느 것이든 조각은 팀이 더 빨리 이동하고 일관성을 유지하는 데 도움이 됩니다. 매번 처음부터 동일한 논리를 다시 작성하지 않아도 됩니다.</p>
+<p>조각이 만들어지면 전용 <strong>조각 인벤토리</strong>에 저장되고 <strong>여정 조각</strong> 활동을 사용하여 모든 여정에 삽입할 수 있습니다.</p>
+<!--<p><img src="assets/do-not-localize/journey-fragments.gif"></p>-->
+<p>이 기능은 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
+<p>자세한 내용은 <a href="../building-journeys/journey-fragments.md">세부 설명서</a>를 참조하십시오.</p>
+<p>사용 가능한 날짜: 2026년 5월 13일</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 <table>
 <thead>
@@ -150,31 +172,13 @@ ht-degree: 81%
 
 * **WhatsApp 단추 지원 및 추적** - WhatsApp 템플릿은 이제 **빠른 회신**, **Call to action - URL** 및 **Call to action - 전화**, **코드 복사**&#x200B;를 지원하지 않습니다. Journey Optimizer은 다른 채널 보고와 함께 지원되는 버튼을 전송하고 상호 작용을 추적합니다.
 
-## 곧 출시 예정 {#coming-soon}
+<!-- 
+## Coming soon {#coming-soon}
 
-다음 기능 및 개선 사항은 며칠 내에 릴리스될 예정입니다. **이 정보는 변경될 수 있습니다**. 업데이트된 링크, 화면, 설명서는 업데이트가 프로덕션에서 제공될 때 공유 예정입니다.
+The following capabilities and enhancements are scheduled for release in the next few days. **Information is subject to change**. Updated links, screens, and documentation will be shared once these updates are live in production.
 
-### 새로운 기능 {#comming-soon-features}
-
-<table>
-<thead>
-<tr>
-<th><strong>여정 조각</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 Adobe Journey Optimizer에서 <strong>여정 조각</strong>을 만들 수 있습니다. 여정 조각 은 한 번 빌드하고 샌드박스 전체의 여정에 드롭할 수 있는 재사용 가능한 여정 노드 세트입니다. 자격 확인, 기본 채널 라우팅 논리 또는 환영 시퀀스 중 어느 것이든 조각은 팀이 더 빨리 이동하고 일관성을 유지하는 데 도움이 됩니다. 매번 처음부터 동일한 논리를 다시 작성하지 않아도 됩니다.</p>
-<p>조각이 만들어지면 전용 <strong>조각 인벤토리</strong>에 저장되고 <strong>여정 조각</strong> 활동을 사용하여 모든 여정에 삽입할 수 있습니다.</p>
-<!--<p><img src="assets/do-not-localize/journey-fragments.gif"></p>-->
-<p>이 기능은 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
-<!--p>For more information, refer to the <a href="../building-journeys/journey-fragments.md">detailed documentation</a>.</p-->
-<p>사용 가능한 날짜: 2026년 5월 12일</p>
-</td>
-</tr>
-</tbody>
-</table>
+### New capabilities {#comming-soon-features}
+-->
 
 ## 2026년 4월 릴리스 정보 {#april-26-rn}
 
