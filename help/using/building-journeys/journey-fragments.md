@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 조각, 여정, 재사용, 노드, 캔버스, 인벤토리, 재사용 가능
 badge: label="제한 공개" type="Informative"
 version: Journey Orchestration
-source-git-commit: 289d8b669530198d3e2722b9cc10a6bcc84980f6
+source-git-commit: 5e806bf6931a5c067adde232f61ff446bee18cca
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1484'
 ht-degree: 10%
 
 ---
@@ -77,8 +77,8 @@ ht-degree: 10%
 
 인벤토리에서 직접 조각을 생성하려면 다음을 수행합니다.
 
-1. **[!UICONTROL 여정]** > **[!UICONTROL 조각]** 탭으로 이동합니다.
-1. **[!UICONTROL 조각 만들기]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 여정]** > **[!UICONTROL 여정 조각]** 탭으로 이동합니다.
+1. **[!UICONTROL 여정 조각 만들기]**&#x200B;를 클릭합니다.
 1. 조각 작성 캔버스에서 여정 활동을 추가하고 구성합니다.
 1. 완료되면 **[!UICONTROL 저장]**&#x200B;을 클릭하여 조각을 초안으로 저장합니다.
 
