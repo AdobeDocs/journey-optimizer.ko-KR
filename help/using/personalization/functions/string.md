@@ -6,9 +6,19 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/idwoj9f3zFS64ifjzcSASPaUQTaNYtyS-HI6c3-7AI0
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c5ecc28ec44a9c608f4fe5011e061cad62d92e2b
 workflow-type: tm+mt
-source-wordcount: '1859'
+source-wordcount: 1955
 ht-degree: 6%
 
 ---
@@ -658,10 +668,34 @@ doesNotEndWith(person.emailAddress,".com")
 
 >[!NOTE]
 >
-> 두 번째 인수로 사용된 식이 특수 정규 표현식 문자인 경우 이중 백슬래시(`//`)를 사용합니다.  특수 정규 표현식 문자는 [., +, *, ?, ^, $, (, ), [,], {, }, |, \.]입니다.
+> 두 번째 인수로 사용된 식이 특수 정규 표현식 문자인 경우 이중 백슬래시(`//`)를 사용합니다.  특수 정규 표현식 문자는 [., +, *, ?, ^, $, (, ), [,], {, }, |, \.]
 > 
 > 자세한 내용은 [Oracle 설명서](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}를 참조하세요.
 >
+
++++예 — 기본 대체
+
+```sql
+{%= replaceAll("Hello World","World","AJO") %}
+```
+
+`Hello AJO`을(를) 반환합니다
+
++++
+
++++실제 예 — replaceAll 이후 변수 재할당
+
+`replaceAll`이(가) 새 문자열을 반환하지만 원래 값은 수정하지 않습니다. 정리된 문자열을 여러 번 다시 사용하려면 `{% let %}`을(를) 사용하여 결과를 변수에 지정하십시오.
+
+```handlebars
+{% let cleanName = replaceAll(profile.person.name.firstName, "[^a-zA-Z]", "") %}
+Hello {{cleanName}}, your personalized offer is ready.
+Your code: WELCOME-{%= upperCase(cleanName) %}
+```
+
+`{% let %}` 할당은 `replaceAll`의 결과를 저장하므로 함수를 다시 호출하지 않고 `{{cleanName}}`(으)로 참조할 수 있습니다. 올바른 패턴입니다. 내부 `replaceAll`을(를) 체인화하거나 동일한 프로필 변수에 다시 할당할 수 없습니다.
+
++++
 
 ## 오른쪽 트림 {#rightTrim}
 

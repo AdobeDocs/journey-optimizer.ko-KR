@@ -9,10 +9,10 @@ role: Developer
 level: Beginner
 keywords: 표현식, 편집기, 시작, 개인화
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+source-git-commit: 6d62604f975fce76860eba000a09870806d54934
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 24%
+source-wordcount: '608'
+ht-degree: 25%
 
 ---
 
@@ -51,7 +51,7 @@ Personalization은 Adobe Experience Platform에 정의된 **XDM 개인 프로필
 
 ➡️ [개인화 플레이그라운드에 액세스](https://experienceleague.adobe.com/ko/apps/journey-optimizer/ajo-personalization){target="_blank"}
 
-## 개인화 표현식을 위한 AI 지원 {#ai-personalization-expressions}
+## 개인화 표현식에 AI 어시스턴트 사용 {#ai-personalization-expressions}
 
 **[!UICONTROL Personalization 편집기]** 또는 전자 메일 Designer 도구 모음(**[!UICONTROL 식 추가]**)에서 **[!UICONTROL AI 도우미]**&#x200B;를 사용하면 자연어에서 새 식을 생성하고, 기존 코드가 수행하는 작업을 설명하고, 선택 항목의 문제를 해결한 다음 출력이 사용자의 의도와 일치할 때 출력을 적용할 수 있습니다.
 
@@ -87,6 +87,14 @@ Personalization은 Adobe Experience Platform에 정의된 **XDM 개인 프로필
 </a>
 <div>
 <a href="../personalization/functions/functions.md"><strong>도우미 함수 목록</strong></a>
+</div>
+<p></td>
+<td>
+<a href="../personalization/personalization-recipes.md">
+<img alt="저빈도" src="assets/do-not-localize/uc.png">
+</a>
+<div>
+<a href="../personalization/personalization-recipes.md"><strong>Personalization 레시피</strong></a>
 </div>
 <p></td>
 <td>

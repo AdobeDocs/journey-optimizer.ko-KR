@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 4b514dea522be3648542a868be7c26b63715a1ff
+source-git-commit: c5ecc28ec44a9c608f4fe5011e061cad62d92e2b
 workflow-type: tm+mt
-source-wordcount: '7447'
-ht-degree: 96%
+source-wordcount: '7709'
+ht-degree: 93%
 
 ---
 
@@ -20,6 +20,16 @@ ht-degree: 96%
 이 페이지에는 월별 릴리스 기능 및 개선 사항과 관련된 업데이트 외에도 [!DNL Journey Optimizer] 설명서의 모든 최신 변경 사항이 나와 있습니다.
 
 ## 2026년 5월 {#may-2026}
+
+* Journey Optimizer의 가장 일반적인 사용 사례에 즉시 사용할 수 있는 개인화 패턴을 제공하는 새로운 **Personalization 레서피** 페이지가 추가되었습니다. 날짜 및 시간 레서피(현재 날짜 형식 지정, 만료 카운트다운, 이전 일 계산, 시간 전용 표시 및 주말 대 평일 감지), 문자열 레서피(변수 할당으로 `replaceAll` 사용) 및 조건부 대체 레서피(`isEmpty`을(를) 사용한 빈 필드 폴백)를 다룹니다. [자세히 보기](../personalization/personalization-recipes.md)
+
+* **Personalization 구문** 설명서에 사용 표, 리터럴 큰따옴표 이스케이프 처리 지침, 특수 특성 키에 대한 새 **PQL 구문 규칙** 섹션(예약된 키워드, 하이픈이 연결된 특성 키 및 숫자 이벤트 ID 포함)을 포함하여 Handlebars(`{{...}}`)와 PQL(`{%= ... %}`) 구문 간의 차이점을 명확하게 설명하는 확장된 소개가 업데이트되었습니다. 백틱 이스케이프 시 참고도 수정되었습니다. 하이픈이 있는 필드 이름은 `{{...}}`개 블록에서 직접 참조할 수 있으며 백틱 구문만 실패합니다. [자세히 보기](../personalization/personalization-syntax.md)
+
+* **날짜 시간 함수** 설명서가 새로운 실제 예제로 보강되었습니다. `dateDiff`의 카운트다운 패턴, `dayOfWeek`의 주말 및 평일 조건부 비교(사용 사례 라우팅을 위한 여정 조건 활동 사용에 대한 참고 사항 포함) 및 0 가드가 앞에 있는 `extractHours`과(와) `extractMinutes`을(를) 결합한 시간 전용 표시 패턴입니다. [자세히 보기](../personalization/functions/dates.md)
+
+* **문자열 함수** 설명서에 `replaceAll`에 대한 새로운 예제를 업데이트했습니다. 이 예제는 동일한 템플릿의 여러 식에서 재사용할 수 있도록 결과를 `{% let %}` 변수에 할당하는 방법을 보여 줍니다. [자세히 보기](../personalization/functions/string.md#replace-all)
+
+* **배열 함수** 설명서에 Handlebars `{{#each}}` 블록 도우미를 문서화하는 새 **배열 반복** 섹션을 업데이트했습니다. 여기에는 `{{#each}}`이(가) 개인화 편집기에서만 지원되며 여정 조건 활동 내에서 사용할 수 없음을 설명하는 메모가 포함됩니다. [자세히 보기](../personalization/functions/arrays-list.md#each-loop)
 
 * **데이터 세트 시작** 페이지가 시스템 데이터 세트 섹션의 새 **인바운드** 항목으로 업데이트되어 _AJO 인바운드 활동 이벤트 데이터 세트_&#x200B;를 문서화합니다. 이 데이터 집합에 들어오는 메시지를 캡처하기 전에 프로필에 [!DNL Journey Optimizer]에서 보낸 메시지가 하나 이상 있어야 함을 명확히 하기 위해 메모가 추가되었습니다. [자세히 보기](../data/get-started-datasets.md#system-datasets)
 

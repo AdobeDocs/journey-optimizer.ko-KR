@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4b514dea522be3648542a868be7c26b63715a1ff
+source-git-commit: c5ecc28ec44a9c608f4fe5011e061cad62d92e2b
 workflow-type: tm+mt
-source-wordcount: '3322'
-ht-degree: 98%
+source-wordcount: '3324'
+ht-degree: 97%
 
 ---
 
@@ -80,7 +80,6 @@ ht-degree: 98%
       + [여정 끝내기](using/building-journeys/end-journey.md)
       + [다른 샌드박스로 여정 복사](using/building-journeys/copy-to-sandbox.md)
       + [인텔리전트 서비스와 통합](using/building-journeys/ai-services-overview.md)
-      + {hide-from-toc}[여정 조각](using/building-journeys/journey-fragments.md)
    + 활동 {#about-journey-building}
       + [활동](/help/rp_landing_pages/about-journey-building-landing-page.md)
       + [여정 활동 시작](using/building-journeys/about-journey-activities.md)
@@ -94,6 +93,7 @@ ht-degree: 98%
          + [조건](using/building-journeys/conditions.md)
       + [대상자 읽기](using/building-journeys/read-audience.md)
       + [대기](using/building-journeys/wait-activity.md)
+      + [여정 조각](using/building-journeys/journey-fragments.md)
       + [콘텐츠 결정](using/building-journeys/content-decision.md)
       + [데이터 세트 조회](using/building-journeys/dataset-lookup.md)
       + [작업](using/building-journeys/journey-action.md)
@@ -455,6 +455,7 @@ ht-degree: 98%
          + [문자열 함수](using/personalization/functions/string.md)
       + 개인화 사용 사례 {#personalization-use-cases}
          + [개인화 사용 사례](/help/rp_landing_pages/personalization-use-cases-landing-page.md)
+         + [Personalization 레서피](using/personalization/personalization-recipes.md)
          + [주문 상태 알림](using/personalization/personalization-use-case.md)
          + [장바구니 포기 이메일](using/personalization/personalization-use-case-helper-functions.md)
          + [건강 계획 처방 이메일](using/personalization/perso-uc-plan-prescriptions.md)
