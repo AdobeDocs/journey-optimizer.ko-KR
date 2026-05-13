@@ -118,7 +118,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-이 설명서는 Adobe Journey Optimizer 내에서 대상 구성을 사용하여 작업하는 방법에 대한 자세한 정보를 제공합니다. 실시간 고객 프로필 전용 고객이고 Adobe Journey Optimizer을 사용하지 않는 경우 [여기를 클릭](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html){target="_blank"}하십시오.
+이 설명서는 Adobe Journey Optimizer 내에서 대상 구성을 사용하여 작업하는 방법에 대한 자세한 정보를 제공합니다. 실시간 고객 프로필 전용 고객이고 Adobe Journey Optimizer을 사용하지 않는 경우 [여기를 클릭](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=ko){target="_blank"}하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -137,7 +137,7 @@ ht-degree: 0%
 
 ![](assets/audiences-browse.png)
 
-* **[!UICONTROL 개요]** 탭은 조직의 대상 데이터와 관련된 주요 지표가 있는 전용 대시보드를 제공합니다. 자세한 내용은 [Adobe Experience Platform 대시보드 안내서](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/segments.html)를 참조하세요.
+* **[!UICONTROL 개요]** 탭은 조직의 대상 데이터와 관련된 주요 지표가 있는 전용 대시보드를 제공합니다. 자세한 내용은 [Adobe Experience Platform 대시보드 안내서](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/segments.html?lang=ko)를 참조하세요.
 
 * **[!UICONTROL 찾아보기]** 탭에는 Adobe Experience Platform에 저장된 모든 기존 대상자가 나열됩니다.
 
@@ -165,7 +165,7 @@ ht-degree: 0%
 
    ![](assets/audiences-properties.png)
 
-1. **[!UICONTROL 대상]** 및 **[!UICONTROL 저장]** 활동 사이에 필요한 만큼 활동을 추가하여 구성을 구성합니다. 컴포지션을 만드는 방법에 대한 자세한 내용은 [대상 컴포지션 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition)를 참조하세요.
+1. **[!UICONTROL 대상]** 및 **[!UICONTROL 저장]** 활동 사이에 필요한 만큼 활동을 추가하여 구성을 구성합니다. 컴포지션을 만드는 방법에 대한 자세한 내용은 [대상 컴포지션 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/audience-composition)를 참조하세요.
 
    ![](assets/audiences-publish.png)
 
@@ -198,4 +198,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->대상 구성은 현재 샌드박스 재설정 기능과 통합되지 않았습니다. 샌드박스 재설정을 시작하기 전에 관련 대상 데이터가 제대로 정리되도록 컴포지션을 수동으로 삭제해야 합니다. 자세한 내용은 Adobe Experience Platform [샌드박스 설명서](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html#delete-audience-compositions)를 참조하세요.
+>대상 구성은 현재 샌드박스 재설정 기능과 통합되지 않았습니다. 샌드박스 재설정을 시작하기 전에 관련 대상 데이터가 제대로 정리되도록 컴포지션을 수동으로 삭제해야 합니다. 자세한 내용은 Adobe Experience Platform [샌드박스 설명서](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ko#delete-audience-compositions)를 참조하세요.

@@ -119,7 +119,7 @@ ht-degree: 0%
 
 ### 옵트아웃 관리 {#opt-out-management}
 
-수신자가 브랜드로부터 커뮤니케이션 수신을 거부할 수 있는 기능을 제공하는 것은 법적 요구 사항입니다. [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html#regulations){target="_blank"}에서 해당 법률에 대해 자세히 알아보세요.
+수신자가 브랜드로부터 커뮤니케이션 수신을 거부할 수 있는 기능을 제공하는 것은 법적 요구 사항입니다. [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=ko#regulations){target="_blank"}에서 해당 법률에 대해 자세히 알아보세요.
 
 따라서 수신자에게 보내는 모든 이메일에 항상 **구독 취소 링크**&#x200B;를 포함해야 합니다.
 
@@ -178,7 +178,7 @@ ht-degree: 0%
 
    * 프로필 데이터가 업데이트되며, 다시 구독하지 않는 한 브랜드로부터 커뮤니케이션을 받지 않습니다.
 
-해당 프로필의 선택 사항이 업데이트되었는지 확인하려면 Experience Platform으로 이동하여 ID 네임스페이스 및 해당 ID 값을 선택하여 프로필에 액세스합니다. 자세한 내용은 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target="_blank"}를 참조하세요.
+해당 프로필의 선택 사항이 업데이트되었는지 확인하려면 Experience Platform으로 이동하여 ID 네임스페이스 및 해당 ID 값을 선택하여 프로필에 액세스합니다. 자세한 내용은 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ko#getting-started){target="_blank"}를 참조하세요.
 
 ![](assets/lp_opt-out-profile-choice.png)
 
@@ -188,7 +188,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->기본 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target="_blank"} **[!UICONTROL 프로필]** 병합 정책의 병합 방법이 **[!UICONTROL 데이터 세트 우선 순위]**&#x200B;인 경우 **[!UICONTROL AJO 동의 서비스 데이터 세트]**&#x200B;를 사용하도록 설정하고 병합 정책에서 우선 순위를 지정하십시오. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
+>기본 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target="_blank"} **[!UICONTROL 프로필]** 병합 정책의 병합 방법이 **[!UICONTROL 데이터 세트 우선 순위]**&#x200B;인 경우 **[!UICONTROL AJO 동의 서비스 데이터 세트]**&#x200B;를 사용하도록 설정하고 병합 정책에서 우선 순위를 지정하십시오. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ko#dataset-precedence-profile){target="_blank"}
 >
 >이 데이터 세트에 일괄 처리가 추가되지 않았더라도 여전히 옵트인/옵트아웃 정보가 포함됩니다.
 

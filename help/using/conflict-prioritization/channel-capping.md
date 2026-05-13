@@ -41,7 +41,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->여정 수준 제한이 올바로 작동하도록 하려면 캠페인이나 채널을 작성하는 동안 우선 순위가 가장 높은 네임스페이스를 선택해야 합니다. [플랫폼 ID 서비스 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}에서 네임스페이스 우선 순위에 대해 자세히 알아보세요.
+>여정 수준 제한이 올바로 작동하도록 하려면 캠페인이나 채널을 작성하는 동안 우선 순위가 가장 높은 네임스페이스를 선택해야 합니다. [플랫폼 ID 서비스 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}에서 네임스페이스 우선 순위에 대해 자세히 알아보세요.
 
 ## 채널 제한 규칙 만들기
 
@@ -89,7 +89,7 @@ ht-degree: 0%
 
    >[!IMPORTANT]
    >
-   >* 정확성을 보장하려면 캠페인이나 여정을 작성하는 동안 우선 순위가 가장 높은 네임스페이스를 선택해야 합니다. [플랫폼 ID 서비스 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}<br/>에서 네임스페이스 우선 순위에 대해 자세히 알아보세요.
+   >* 정확성을 보장하려면 캠페인이나 여정을 작성하는 동안 우선 순위가 가장 높은 네임스페이스를 선택해야 합니다. [플랫폼 ID 서비스 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}<br/>에서 네임스페이스 우선 순위에 대해 자세히 알아보세요.
    >
    >* 프로필 카운터 값은 통신이 전달되면 업데이트됩니다. 대량의 통신을 전송하는 경우 처리량으로 인해 수신자는 통신을 시작한 후 몇 분 또는 몇 시간 만에 이메일을 받을 수 있으므로(수백만 개의 통신을 동시에 전송하는 경우) 이 사실을 알고 있어야 합니다. 이는 수신자가 두 개의 커뮤니케이션을 밀접하게 함께 받는 경우에 중요합니다. 수신자가 통신을 수신할 충분한 시간을 주고 그에 따라 카운터 값을 업데이트할 수 있는 경우, 최소 2시간 간격으로 통신을 구분하는 것이 좋습니다.
 

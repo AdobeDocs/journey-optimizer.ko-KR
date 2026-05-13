@@ -57,6 +57,6 @@ Adobe Experience Platform 데이터를 사용하여 Decisioning에 데이터를 
 
 Adobe Experience Platform을 사용하여 작업하는 방법에 대한 추가 지침을 보려면 다음 리소스를 살펴보십시오.
 
-* [XDM(경험 데이터 모델) 스키마](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition){target="_blank"}
+* [XDM(경험 데이터 모델) 스키마](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/composition){target="_blank"}
 * [데이터 세트](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview){target="_blank"}
 * [데이터 스트림](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview){target="_blank"}

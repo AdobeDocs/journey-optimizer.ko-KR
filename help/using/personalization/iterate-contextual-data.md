@@ -105,7 +105,7 @@ context.journey.events.<event_ID>.<fieldPath>
 
 ### 예: 이벤트의 장바구니 항목
 
-[이벤트 스키마](../event/experience-event-schema.md)에 `productListItems` 배열(표준 [XDM 형식](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"})이 포함된 경우 아래 샘플에 자세히 설명된 대로 장바구니 콘텐츠를 표시할 수 있습니다.
+[이벤트 스키마](../event/experience-event-schema.md)에 `productListItems` 배열(표준 [XDM 형식](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=ko){target="_blank"})이 포함된 경우 아래 샘플에 자세히 설명된 대로 장바구니 콘텐츠를 표시할 수 있습니다.
 
 +++ 예제 코드 보기
 
@@ -278,7 +278,7 @@ context.journey.actions.<actionName>.<fieldPath>
 
 ## 데이터 세트 조회 결과 반복 {#dataset-lookup}
 
-[데이터 세트 조회 활동](../building-journeys/dataset-lookup.md)을 사용하면 여정 런타임 동안 [Adobe Experience Platform 데이터 세트](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target="_blank"}에서 데이터를 검색할 수 있습니다. 보강된 데이터는 배열로 저장되며 메시지에서 반복될 수 있습니다.
+[데이터 세트 조회 활동](../building-journeys/dataset-lookup.md)을 사용하면 여정 런타임 동안 [Adobe Experience Platform 데이터 세트](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=ko){target="_blank"}에서 데이터를 검색할 수 있습니다. 보강된 데이터는 배열로 저장되며 메시지에서 반복될 수 있습니다.
 
 [이 섹션](../building-journeys/dataset-lookup.md)에서 데이터 집합 조회 활동을 구성하는 방법에 대해 자세히 알아보세요. 데이터 집합 조회는 이벤트 데이터와 결합할 때 특히 유용합니다. 실제 사용 사례는 [예: 데이터 집합 조회로 보강된 이벤트 데이터](#combine-sources)를 참조하십시오.
 
@@ -526,7 +526,7 @@ context.journey.technicalProperties.supplementalId
 
 이 안내서는 배열 상에서의 반복에 중점을 두고 있지만, 일반적으로 반복이 필요하지 않은 개인화에는 다른 컨텍스트 유형을 사용할 수 있습니다. 루프가 아닌 직접 액세스합니다.
 
-* **[프로필 특성](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target="_blank"}**(`profile.*`): Adobe Experience Platform의 개별 프로필 필드
+* **[프로필 특성](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target="_blank"}**(`profile.*`): Adobe Experience Platform의 개별 프로필 필드
 * **[대상](../audience/about-audiences.md)**(`inAudience()`): 대상 멤버십 확인
 * **[오퍼 결정](../offers/get-started/starting-offer-decisioning.md)**: 의사 결정 관리 오퍼
 * **[타겟 특성](../orchestrated/activities/channels.md#add-personalization)**(오케스트레이션된 캠페인만 해당): 캠페인 캔버스에서 계산된 특성

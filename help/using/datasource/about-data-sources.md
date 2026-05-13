@@ -72,7 +72,7 @@ ht-degree: 29%
 
 ## 데이터 액세스 전략 선택 {#data-access-strategy}
 
-데이터 소스를 구성하기 전에 사용 사례에 가장 적합한 접근 방식을 고려하십시오. 세 가지 옵션을 사용할 수 있으며, 각 옵션은 지속성, 프로필 보강 및 재사용 가능성 측면에서 서로 다른 장단점을 갖습니다. 이러한 옵션에 대한 자세한 내용은 [Journey Optimizer의 고급 여정 모범 사례](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}를 참조하십시오.
+데이터 소스를 구성하기 전에 사용 사례에 가장 적합한 접근 방식을 고려하십시오. 세 가지 옵션을 사용할 수 있으며, 각 옵션은 지속성, 프로필 보강 및 재사용 가능성 측면에서 서로 다른 장단점을 갖습니다. 이러한 옵션에 대한 자세한 내용은 [Journey Optimizer의 고급 여정 모범 사례](https://experienceleague.adobe.com/ko/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}를 참조하십시오.
 
 **옵션 1 — 사용자 지정 작업으로 외부 데이터에 액세스(데이터 레이크 없음)**
 

@@ -65,7 +65,7 @@ ht-degree: 0%
 >id="ajo_lp_access_management_labels"
 >title="랜딩 페이지에 레이블 할당"
 >abstract="민감한 디지털 에셋을 보호하기 위해 레이블을 사용하여 랜딩 페이지에 대한 데이터 액세스를 관리하는 권한을 정의할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html" text="객체 수준 액세스 제어"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html?lang=ko" text="객체 수준 액세스 제어"
 
 
 랜딩 페이지를 만들려면 사전 설정을 선택한 다음 기본 페이지와 하위 페이지를 구성하고 페이지를 게시하기 전에 마지막으로 테스트해야 합니다. 이러한 단계는 아래에 자세히 설명되어 있습니다.
@@ -117,15 +117,15 @@ ht-degree: 0%
 >title="기본 페이지 설정 정의"
 >abstract="사용자는 이메일이나 웹 사이트 등 랜딩 페이지 링크를 클릭하면 기본 페이지가 즉시 표시됩니다."
 <!--
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="Design the landing page content"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html?lang=ko" text="Design the landing page content"
 -->
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_settings"
 >title="랜딩 페이지 URL 정의"
 >abstract="이 섹션에서 고유한 랜딩 페이지 URL을 정의합니다. URL의 첫 번째 부분에서는 이전에 선택한 사전 설정의 일부로 랜딩 페이지 하위 도메인을 설정해야 합니다."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-subdomains" text="랜딩 페이지 하위 도메인 구성"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets#lp-create-preset" text="랜딩 페이지 사전 설정 만들기"
+>additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-subdomains" text="랜딩 페이지 하위 도메인 구성"
+>additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets#lp-create-preset" text="랜딩 페이지 사전 설정 만들기"
 
 기본 페이지는 이메일이나 웹 사이트 등과 같이 사용자가 랜딩 페이지에 대한 링크를 클릭한 후 즉시 표시되는 페이지입니다.
 
@@ -187,14 +187,14 @@ ht-degree: 0%
 >id="ajo_lp_subpage"
 >title="하위 페이지 설정 정의"
 >abstract="최대 2개의 하위 페이지를 추가할 수 있습니다. 예를 들어 사용자가 양식을 제출하면 표시되는 &#39;감사&#39; 페이지를 만들 수 있으며 랜딩 페이지에 문제가 발생할 경우 호출될 오류 페이지를 정의할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/landing-pages-design/design-lp" text="랜딩 페이지 콘텐츠 디자인"
+>additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/landing-pages/landing-pages-design/design-lp" text="랜딩 페이지 콘텐츠 디자인"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_settings-subpage"
 >title="랜딩 페이지 URL 정의"
 >abstract="이 섹션에서 고유한 랜딩 페이지 URL을 정의합니다. URL의 첫 번째 부분에서는 이전에 선택한 사전 설정의 일부로 랜딩 페이지 하위 도메인을 설정해야 합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-subdomains.html" text="랜딩 페이지 하위 도메인 구성"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="랜딩 페이지 사전 설정 만들기"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-subdomains.html?lang=ko" text="랜딩 페이지 하위 도메인 구성"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html?lang=ko#lp-create-preset" text="랜딩 페이지 사전 설정 만들기"
 
 최대 2개의 하위 페이지를 추가할 수 있습니다. 예를 들어 사용자가 양식을 제출하면 표시되는 &#39;감사&#39; 페이지를 만들 수 있으며 랜딩 페이지에 문제가 발생할 경우 호출될 오류 페이지를 정의할 수 있습니다.
 
@@ -224,7 +224,7 @@ ht-degree: 0%
 >id="ac_preview_lp_profiles"
 >title="랜딩 페이지 미리보기 및 테스트"
 >abstract="랜딩 페이지 설정 및 콘텐츠를 정의하면 테스트 프로필을 사용하여 미리 볼 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/profiles/creating-test-profiles.html" text="테스트 프로필 선택"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/profiles/creating-test-profiles.html?lang=ko" text="테스트 프로필 선택"
 
 랜딩 페이지 설정 및 콘텐츠를 정의하고 나면 테스트 프로필을 사용하여 미리 볼 수 있습니다. [개인화된 콘텐츠](../personalization/personalize.md)를 삽입하면 테스트 프로필 데이터를 사용하여 이 콘텐츠가 랜딩 페이지에 표시되는 방식을 확인할 수 있습니다.
 

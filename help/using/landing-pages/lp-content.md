@@ -39,7 +39,7 @@ ht-degree: 0%
 >id="ac_lp_components"
 >title="콘텐츠 구성 요소 사용"
 >abstract="콘텐츠 구성 요소는 랜딩 페이지의 레이아웃을 만드는 데 사용할 수 있는 빈 콘텐츠 자리 표시자입니다. 사용자가 선택 항목을 선택하고 제출할 수 있도록 해 주는 특정 콘텐츠를 정의하려면 양식 구성 요소를 사용하십시오."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/add-content/content-components#add-content-components" text="콘텐츠 구성 요소 추가"
+>additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/email/design-email/add-content/content-components#add-content-components" text="콘텐츠 구성 요소 추가"
 
 랜딩 페이지 콘텐츠를 디자인하기 위해 이메일과 동일한 구성 요소를 사용할 수 있습니다. [자세히 알아보기](../email/content-components.md#add-content-components)
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 >id="ac_lp_formfield"
 >title="양식 구성 요소 필드 설정"
 >abstract="수신자가 랜딩 페이지에서 선택한 항목을 보고 제출하는 방법을 정의합니다."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content#lp-form-styles" text="랜딩 페이지 양식 스타일 정의"
+>additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content#lp-form-styles" text="랜딩 페이지 양식 스타일 정의"
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_submission"

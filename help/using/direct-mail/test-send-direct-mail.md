@@ -78,6 +78,6 @@ DM 캠페인이 준비되면 [여정](../building-journeys/journey-gs.md) 또는
 
 다시 활성화하려면 프로필 특성을 `consents.marketing.postalMail.val`: `y`(으)로 다시 변경해야 합니다.
 
-프로필의 속성을 관리하려면 Experience Platform으로 이동하여 ID 네임스페이스 및 해당 ID 값을 선택하여 프로필에 액세스합니다. 자세한 내용은 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target="_blank"}를 참조하세요.
+프로필의 속성을 관리하려면 Experience Platform으로 이동하여 ID 네임스페이스 및 해당 ID 값을 선택하여 프로필에 액세스합니다. 자세한 내용은 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ko#getting-started){target="_blank"}를 참조하세요.
 
 [이 섹션](../privacy/opt-out.md)에서 Journey Optimizer의 옵트아웃 관리에 대해 자세히 알아보세요.
