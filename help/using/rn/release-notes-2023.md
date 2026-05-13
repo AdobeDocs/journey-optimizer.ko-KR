@@ -12,7 +12,7 @@ exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
 source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
 source-wordcount: '4441'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -120,7 +120,7 @@ ht-degree: 98%
 <tr>
 <td>
 <p>계산된 속성을 사용하면 향상된 동작 기반 세분화, 개인화 및 활성화를 위해 직관적인 사용자 인터페이스를 통해 이벤트 데이터를 프로필 속성으로 쉽게 요약할 수 있습니다. 이 기능을 사용하면 셀프서비스 방식으로 계산된 속성을 만들고 관리하여 세분화, 실시간 고객 프로필 대상 또는 Journey Optimizer에서 사용할 수 있습니다.<br/><br/>
-또한 계산된 속성은 세분화 및 여정 워크플로를 단순화하여 관련 경험을 원활하게 전달할 수 있습니다. <a href="../audience/computed-attributes.md">상세 설명서</a>에서 자세히 알아보십시오.</p>
+또한 계산된 속성은 세분화 및 여정 워크플로를 간소화하므로 관련성 높은 경험을 원활하게 게재할 수 있습니다. <a href="../audience/computed-attributes.md">상세 설명서</a>에서 자세히 알아보십시오.</p>
 <img src="assets/do-not-localize/computed-attributes.gif">
 </tr>
 </tbody>
@@ -343,7 +343,7 @@ A new option is available in the email surface settings to include email address
 <tbody>
 <tr>
 <td>
-<p>이제 작성 워크플로우를 만들어 기존 Adobe Experience Platform 대상을 시각적 캔버스로 결합하고 다양한 활동(분할, 강화...)을 활용할 수 있습니다. 새 대상자를 생성합니다. 새로 만든 대상자는 기존 대상자와 함께 다시 Adobe Experience Platform에 저장되며, 이를 Journey Optimizer 캠페인에서 활용하여 고객을 타겟팅할 수 있습니다.</p>
+<p>이제 구성 워크플로를 만들어 기존 Adobe Experience Platform 대상자를 시각적 캔버스로 결합하고 다양한 활동(분할, 보강 등)을 활용하여 새 대상자를 생성할 수 있습니다. 새로 만든 대상자는 기존 대상자와 함께 다시 Adobe Experience Platform에 저장되며, 이를 Journey Optimizer 캠페인에서 활용하여 고객을 타겟팅할 수 있습니다.</p>
 <img src="assets/do-not-localize/gif-ao.gif"/>
 <p>자세한 내용은 <a href="../audience/get-started-audience-orchestration.md">세부 설명서</a>를 참조하십시오.</p>
 <p>대상자 컴포지션은 대상자에게 중앙 포털 역할을 하는 새 Adobe Experience Platform "대상자" 메뉴와 완전히 통합됩니다. 이제 브라우저 페이지에서 새 대시보드를 사용할 수 있습니다. 새 대시보드에는 세그먼트 트렌드와 중복 사항이 표시되어 새로운 인사이트를 얻을 수 있고 폴더링과 태깅을 통해 조직 툴을 탐색할 수 있습니다. 여기에는 워크플로를 관리하기 위한 대상자 라이프사이클 관리 기능과 표준화된 대상자 레이블 지정을 위한 거버넌스 컨트롤이 임베드되어 있습니다. 이 같은 새로운 관리 경험을 통해 한 곳에서 대상자를 쉽고 안전하게 관리할 수 있습니다. 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko" target="_blank">Adobe Experience Platform 설명서</a>를 참고하세요.</p></p>
@@ -397,7 +397,7 @@ A new option is available in the email surface settings to include email address
 <tbody>
 <tr>
 <td>
-<p>이제 캠페인과 여정 외에도 Adobe Experience Platform 통합 태그를 랜딩 페이지, 콘텐츠 템플릿, 조각 및 구독 목록에 할당할 수 있습니다. 이렇게 하면 해당 항목을 쉽게 분류하고, 모든 목록에서 검색과 탐색을 개선할 수 있습니다. </p>
+<p>이제 캠페인과 여정 외에도 Adobe Experience Platform 통합 태그를 랜딩 페이지, 콘텐츠 템플릿, 조각, 구독 목록에 할당할 수 있습니다. 이렇게 하면 해당 항목을 쉽게 분류하고, 모든 목록에서 검색과 탐색을 개선할 수 있습니다. </p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
 <p>자세한 내용은 <a href="../start/search-filter-categorize.md#tags">세부 설명서</a>를 참조하십시오.</p>
 </td>
@@ -975,7 +975,7 @@ Note that each widget can be resized and deleted as needed.
 <tbody>
 <tr>
 <td>
-<p>Adobe Experience Platform은 프로그램 수준에서 소비자 기록 및 데이터 세트를 삭제함으로써 저장 데이터를 관리할 수 있도록 해 주는 데이터 위생 기능 세트를 제공합니다. 이제 Adobe Journey Optimizer에서 이 기능을 사용할 수 있습니다. </p>
+<p>Adobe Experience Platform은 프로그램 수준에서 소비자 기록 및 데이터 세트를 삭제함으로써 저장 데이터를 관리할 수 있도록 해주는 데이터 위생 기능 세트를 제공합니다. 이제 Adobe Journey Optimizer에서 이 기능을 사용할 수 있습니다. </p>
 <p>데이터 저장소를 관리하여 정보를 의도대로 사용하고 정확하지 않은 데이터를 수정해야 할 때 업데이트하며 조직 정책에 따라 필요한 경우 삭제할 수 있습니다.</p>
 <p><strong>주의</strong> - 데이터 위생 기능은 현재 <strong>Healthcare Shield</strong>와 <strong>Privacy and Security Shield</strong> 추가 기능 서비스를 구매한 조직에만 제공됩니다.</p><p>자세한 내용은 <a href="../privacy/data-hygiene.md">세부 설명서</a>를 참조하십시오.
 </td>

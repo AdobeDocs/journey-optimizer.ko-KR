@@ -9,10 +9,47 @@ role: User
 level: Beginner, Intermediate
 hide: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+TQID: https://experienceleague.adobe.com/C8d6L0NrvfiqCKnEFxitLC-X-6mrG3oWvNTV2LwyWyI
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: a653cc2e-bc85-4353-a306-399e5b247978
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
+  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
+  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+  - id: e57d1da4-32c2-4cc6-945c-9feb219156ff
+  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '3645'
-ht-degree: 97%
+source-wordcount: 3645
+ht-degree: 100%
 
 ---
 
@@ -85,7 +122,7 @@ ht-degree: 97%
 <table>
 <thead>
 <tr>
-<th><strong>API-트리거된 캠페인</strong><br/></th>
+<th><strong>API로 트리거되는 캠페인</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -222,7 +259,7 @@ table>
 
 **감사 제어**
 
-* Journey Optimizer을 사용하면 캠페인, 여정, 메시지, 랜딩 페이지 등과 같은 다양한 서비스 및 기능에 대해 시스템에서 사용자가 수행한 작업을 식별할 수 있습니다. 이제 감사 로그 리소스에는 다양한 다른 작업에 대한 변경 사항이 포함되어 있으며, 활동이 발생하면 자동으로 기록됩니다. [이 페이지](../privacy/audit-logs.md)에서 자세히 알아보십시오.
+* Journey Optimizer를 사용하면 캠페인, 여정, 메시지, 랜딩 페이지 등과 같은 다양한 서비스 및 기능에 대해 시스템에서 사용자가 수행한 작업을 식별할 수 있습니다. 이제 감사 로그에 여러 다른 액션의 변경 사항이 포함되며, 활동이 발생하면 자동으로 로그가 기록됩니다. [이 페이지](../privacy/audit-logs.md)에서 자세히 알아보십시오.
 
 **아카이브 지원**
 
@@ -260,7 +297,7 @@ table>
 <td>
 <p>Journey Optimizer 캠페인으로 다양한 채널을 사용하는 특정 대상자에 일회성 콘텐츠를 게재할 수 있습니다. 여정을 사용할 때 작업은 순서대로 실행되도록 디자인됩니다. 캠페인을 사용하면 작업을 동시에 즉시 또는 지정한 일정에 따라 수행합니다. </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
-<p><a href="../campaigns/get-started-with-campaigns.md">세부 설명서</a> 및 <a href="https://video.tv.adobe.com/v/346680">기능 비디오</a>에서 캠페인을 만드는 방법을 알아보세요.
+<p><a href="../campaigns/get-started-with-campaigns.md">세부 설명서</a> 및 <a href="https://video.tv.adobe.com/v/346680">기능 비디오</a>에서 캠페인 만드는 방법을 알아보세요.
 </td>
 </tr>
 </tbody>
@@ -269,13 +306,13 @@ table>
 <table>
 <thead>
 <tr>
-<th><strong>사용자에게 SMS 보내기(일반적인 가용성)</strong><br/></th>
+<th><strong>사용자에게 SMS 보내기(일반 가용성)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 <b>Sinch</b> 또는 <b>Twilio</b>와의 통합을 통해 Journey Optimizer에서 SMS를 만들고, 개인화하고, 보낼 수 있습니다.</p>
+<p>이제 <b>Sinch</b> / <b>Twilio</b>와의 통합을 통해 Journey Optimizer에서 SMS를 만들고, 개인화하고, 보낼 수 있습니다.</p>
 <img src="assets/do-not-localize/SMS.gif"/>
 <p>이 <a href="../sms/create-sms.md">세부 설명서</a>에서 SMS를 만들고 보내는 방법을 알아보십시오.</p>
 </td>
@@ -429,7 +466,7 @@ table>
 <tbody>
 <tr>
 <td>
-<p>이제 <b>Sinch</b> 또는 <b>Twilio</b>와의 통합을 통해 Journey Optimizer에서 SMS를 만들고, 개인화하고, 보낼 수 있습니다.</p>
+<p>이제 <b>Sinch</b> / <b>Twilio</b>와의 통합을 통해 Journey Optimizer에서 SMS를 만들고, 개인화하고, 보낼 수 있습니다.</p>
 <!--img src="assets/do-not-localize/SMS.gif"/-->
 <p>SMS 채널은 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 자세한 내용은 Adobe 직원에게 문의하십시오.</p>
 <p>이 <a href="../sms/create-sms.md">세부 설명서</a>에서 SMS를 만들고 보내는 방법을 알아보십시오.</p>
@@ -448,7 +485,7 @@ table>
 <tbody>
 <tr>
 <td>
-<p>Adobe Stock 및 Adobe Journey Optimizer 이메일 Designer 통합 플러그인을 통해 고객은 메시지 작성에 사용할 이미지를 쉽게 탐색, 라이선싱 및 저장할 수 있습니다. </br> 새로운 <b>유사한 스톡 사진 찾기</b> 옵션을 사용하면 이미지의 내용, 색상 및 컴포지션과 일치하는 스톡 사진을 찾을 수 있습니다. </p>
+<p>Adobe Stock 및 Adobe Journey Optimizer 이메일 디자이너 통합 플러그인을 사용하면 메시지를 작성하는 데 사용할 이미지를 쉽게 탐색, 라이선싱, 저장할 수 있습니다. </br> 또한 새로운 <b>유사한 Stock 사진 찾기</b> 옵션으로 이미지의 내용, 색상, 컴포지션과 일치하는 Stock 사진을 찾을 수 있습니다. </p>
 <p>자세한 내용은 <a href="../integrations/stock.md">세부 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
@@ -650,7 +687,7 @@ table>
 
 **사용자 인터페이스**
 
-* **Journey Optimizer UI의 상황별 도움말** - Journey Optimizer의 여러 페이지에 상황별 도움말 링크가 추가되었습니다. &quot;i&quot; 아이콘을 클릭할 수 있는 경우, 클릭하면 현재 기능에 대한 간단한 설명을 보고 관련 문서에 액세스합니다.
+* **Journey Optimizer UI의 상황별 도움말** - Journey Optimizer의 여러 페이지에 상황별 도움말 링크가 추가되었습니다. &amp;quot;i&amp;quot; 아이콘을 클릭할 수 있는 경우, 클릭하면 현재 기능에 대한 간단한 설명을 보고 관련 문서에 액세스합니다.
 
 **Adobe Campaign Standard 통합**
 
