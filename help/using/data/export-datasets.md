@@ -8,10 +8,17 @@ role: User
 level: Beginner
 keywords: Platform, Data Lake, 만들기, 레이크, 데이터 세트, 프로필
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+TQID: https://experienceleague.adobe.com/5jeWrWwq-7qu4UcfgYuum2n5o8ITy2HAdSSCfBJbg3U
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 4%
+source-wordcount: 1113
+ht-degree: 5%
 
 ---
 
@@ -29,17 +36,17 @@ Journey Optimizer을 사용하면 데이터 세트의 콘텐츠를 내보내기 
 
 각 대상에 대한 자세한 내용은 Adobe Experience Platform 설명서에서 확인할 수 있습니다.
 
-* [Amazon S3](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3.html?lang=ko){target="_blank"}
-* [Azure Blob](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob.html?lang=ko){target="_blank"}
-* [Azure Data Lake Gen 2](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/adls-gen2.html?lang=ko){target="_blank"}
-* [데이터 랜딩 영역](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=ko){target="_blank"}
-* [Google 클라우드 저장소](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html?lang=ko){target="_blank"}
-* [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html?lang=ko){target="_blank"}
+* [Amazon S3](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3.html){target="_blank"}
+* [Azure Blob](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob.html){target="_blank"}
+* [Azure 데이터 레이크 Gen 2](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/adls-gen2.html){target="_blank"}
+* [데이터 랜딩 구역](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html){target="_blank"}
+* [Google 클라우드 스토리지](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html){target="_blank"}
+* [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html){target="_blank"}
 
 
 ## 전제 조건 {#prerequisites}
 
-데이터 세트를 내보내려면 아래 나열된 [액세스 제어 권한](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ko#permissions){target="_blank"}이 필요합니다. [액세스 제어 개요](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html?lang=ko){target="_blank"}를 읽거나 제품 관리자에게 문의하여 필요한 권한을 받으십시오.
+데이터 세트를 내보내려면 아래 나열된 [액세스 제어 권한](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions){target="_blank"}이 필요합니다. [액세스 제어 개요](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html){target="_blank"}를 읽거나 제품 관리자에게 문의하여 필요한 권한을 받으십시오.
 
 | 카테고리 | 사용 권한 |
 |--|--|
@@ -53,9 +60,9 @@ Journey Optimizer을 사용하면 데이터 세트의 콘텐츠를 내보내기 
 
 ![](assets/dataset-export-process.png)
 
-각 단계에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=ko){target="_blank"}를 참조하세요.
+각 단계에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target="_blank"}를 참조하세요.
 
-1. **클라우드 저장소 대상을 설정**&#x200B;합니다. 아직 연결하지 않은 경우 대상 카탈로그에서 클라우드 스토리지 대상에 연결합니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=ko#setup){target="_blank"}에서 새 대상 연결을 만드는 방법을 알아보세요.
+1. **클라우드 저장소 대상을 설정**&#x200B;합니다. 아직 연결하지 않은 경우 대상 카탈로그에서 클라우드 스토리지 대상에 연결합니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html#setup){target="_blank"}에서 새 대상 연결을 만드는 방법을 알아보세요.
 
    <!--![](assets/dataset-export-setup.png)-->
 
@@ -79,7 +86,7 @@ Journey Optimizer을 사용하면 데이터 세트의 콘텐츠를 내보내기 
 
    <!--![](assets/dataset-export-review.png)-->
 
-내보내기가 완료되면 데이터 세트의 콘텐츠가 사용자가 구성한 일정에 따라 클라우드 저장소 위치에 저장됩니다. [데이터 세트 내보내기가 성공했는지 확인하는 방법을 알아보세요](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=ko#verify){target="_blank"}.
+내보내기가 완료되면 데이터 세트의 콘텐츠가 사용자가 구성한 일정에 따라 클라우드 저장소 위치에 저장됩니다. [데이터 세트 내보내기가 성공했는지 확인하는 방법을 알아보세요](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html#verify){target="_blank"}.
 
 ## 내보내기에 사용 가능한 데이터 세트 {#datasets}
 
@@ -106,7 +113,7 @@ Journey Optimizer을 사용하면 데이터 세트의 콘텐츠를 내보내기 
 | 의사 결정 개체 저장소 - 대체 오퍼 | 사용자가 만드는 다른 유형의 오퍼에 대한 저장소입니다. 특히 개인화된 오퍼를 볼 자격이 없고 항목을 봐야 하는 경우 적어도 대체 오퍼가 표시됩니다. 이 데이터 세트에는 이 유형의 오퍼에 대한 특성이 포함되어 있습니다. |
 | 의사 결정 개체 저장소 - 개인화된 오퍼 | 사용자가 만드는 오퍼 유형에 대한 저장소입니다. 따라서 이 데이터 세트에는 이 유형의 오퍼에 대한 속성이 포함되어 있습니다. |
 | 의사 결정 객체 저장소 - 배치 | 오퍼가 표시되어야 하는 위치를 정의하는 객체의 저장소입니다. |
-| Experience Decisioning 개체 저장소 - 개인화된 오퍼 항목 | 채널 간 개인화 및 보고를 지원하기 위해 모든 속성 및 라이프사이클 상태를 포함하여 모든 오퍼 항목을 저장합니다. </br> 새 사용자 지정 특성 필드를 오퍼 항목 스키마에 추가한 후 이러한 새 특성이 데이터 집합에 표시되기 전에 최대 한 시간이 지연될 수 있습니다. 잠재적인 데이터 손실 또는 불일치를 방지하려면 새로 추가된 속성에 따라 변경 또는 업데이트하기 전에 적어도 한 시간을 기다리는 것이 좋습니다. |
+| Experience Decisioning 개체 저장소 - 개인화된 오퍼 항목 | 채널 간 개인화 및 보고를 지원하기 위해 모든 속성 및 라이프사이클 상태를 포함하여 모든 오퍼 항목을 저장합니다. </br> 오퍼 항목 스키마에 새 사용자 지정 속성 필드를 추가한 후 이러한 새 속성이 데이터 세트에 표시되기 전에 최대 한 시간이 지연될 수 있습니다. 잠재적인 데이터 손실 또는 불일치를 방지하려면 새로 추가된 속성에 따라 변경 또는 업데이트하기 전에 적어도 한 시간을 기다리는 것이 좋습니다. |
 | 여정 단계 이벤트 | Journey Optimizer에서 생성된 모든 여정 단계 경험 이벤트를 캡처하여 보고와 같은 서비스에서 사용할 수 있습니다. |
 | 여정 | 여정 내 각 단계의 메타데이터 데이터 세트 하우징 정보 |
 | ODE DecisionEvents - prod decisioning | 우리가 요청에 따라 결정을 내릴 때마다, 우리는 그것을 결정 이벤트로 간주한다 |

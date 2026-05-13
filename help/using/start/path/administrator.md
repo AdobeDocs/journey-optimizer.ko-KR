@@ -7,14 +7,21 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/D--D1ynxQx-Q9eSzjU-fwG0Hc3emaCfa2gIwizpHsQU
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62aid: c343082f-e963-4f57-a96b-b64d27f8118eid: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: d712382d-29ef-487a-93a7-cbebdd2ef24aid: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 89%
+source-wordcount: 1076
+ht-degree: 100%
 
 ---
 
-# 시스템 관리자용 시작하기 {#get-started-sys-admins}
+# 시스템 관리자를 위한 시작 {#get-started-sys-admins}
 
 **시스템 관리자**&#x200B;로서 Journey Optimizer 환경을 설정하고 액세스 권한을 관리하여 팀이 효율적이고 안전하게 작업할 수 있도록 합니다. [데이터 엔지니어](data-engineer.md), [개발자](developer.md) 및 [마케터](marketer.md)가 [!DNL Adobe Journey Optimizer]로 작업을 시작할 수 있도록 필수 구성 단계를 수행합니다.
 
@@ -50,11 +57,11 @@ ht-degree: 89%
 
 다음 단계를 수행하십시오.
 
-1. **채널 구성 설정**. 이메일, SMS, 푸시 알림, 웹 푸시, DM 및 기타 채널에 필요한 모든 기술 매개 변수를 정의합니다.
+1. **채널 구성 설정**. 이메일, SMS, 푸시 알림, 웹 푸시, 다이렉트 메일 및 기타 채널에 필요한 모든 기술 매개변수를 정의합니다.
 
    * [!DNL Adobe Experience Platform]과 Adobe Experience Platform 데이터 수집 모두에서 **푸시 알림 설정**&#x200B;을 정의합니다. [자세히 알아보기](../../push/push-gs.md)
 
-   * 모바일 및 데스크톱 브라우저에 알림을 전달하도록 **웹 푸시 알림**&#x200B;을 구성하십시오. [자세히 알아보기](../../push/push-configuration-web.md)
+   * 모바일 및 데스크탑 브라우저로 알림을 전달하도록 **웹 푸시 알림**&#x200B;을 구성합니다. [자세히 알아보기](../../push/push-configuration-web.md)
 
    * 이메일, SMS, 푸시, 인앱, 웹 및 기타 채널에 필요한 모든 기술 매개 변수를 구성하려면 **채널 구성**&#x200B;을 만드세요. [자세히 알아보기](../../configuration/channel-surfaces.md)
 
@@ -62,9 +69,9 @@ ht-degree: 89%
 
    * 금지 목록에 이메일 주소를 보내기 전에 **재시도**&#x200B;를 하는 기간(일)을 관리합니다. [자세히 알아보기](../../configuration/manage-suppression-list.md)
 
-   * 필요한 경우 보낸 전자 메일 및 SMS 콘텐츠를 보관하려면 채널 구성 수준에서 **메시지 내보내기**&#x200B;를 사용하도록 설정하십시오(추가 기능 제공). [자세히 알아보기](../../configuration/message-export.md)
+   * 필요에 따라 전송된 이메일 및 SMS 콘텐츠를 보관하기 위해 채널 구성 수준에서 **메시지 내보내기**&#x200B;를 활성화합니다(추가 기능). [자세히 알아보기](../../configuration/message-export.md)
 
-1. **하위 도메인 위임**: Journey Optimizer에서 사용할 새 하위 도메인의 경우 첫 번째 단계는 이를 위임하는 것입니다. [자세히 알아보기](../../configuration/about-subdomain-delegation.md) 필요한 경우 하위 도메인을 CNAME에서 사용자 지정 위임으로 마이그레이션할 수 있습니다. [자세히 알아보기](../../configuration/custom-subdomain-migration.md)
+1. **하위 도메인 위임**: Journey Optimizer에서 사용할 새 하위 도메인의 경우 첫 번째 단계는 이를 위임하는 것입니다. [자세히 알아보기](../../configuration/about-subdomain-delegation.md). 필요한 경우 하위 도메인을 CNAME에서 사용자 정의 위임으로 마이그레이션할 수 있습니다. [자세히 알아보기](../../configuration/custom-subdomain-migration.md)
 
    ![](../assets/subdomain.png)
 
@@ -92,7 +99,7 @@ ht-degree: 89%
 
 * **IP 워밍업 계획**: 이메일 공급자를 통해 보낸 사람의 평판을 구축하기 위해 이메일 전송 볼륨을 점차 늘립니다. [자세히 알아보기](../../configuration/ip-warmup-gs.md)
 
-* **방해 금지 시간**: 특정 기간에 메시지를 보내지 말아야 할 경우 시간 기반 제외에 대한 규칙 집합을 구성합니다. [자세히 알아보기](../../conflict-prioritization/quiet-hours.md)
+* **방해 금지 시간**: 특정 기간 동안 메시지를 전송하지 않아야 하는 경우 시간 기반 제외 규칙 세트를 구성합니다. [자세히 알아보기](../../conflict-prioritization/quiet-hours.md)
 
 ## 다양한 역할 간의 협업
 
@@ -102,7 +109,7 @@ ht-degree: 89%
 
 >[!TAB 데이터 엔지니어 지원]
 
-데이터 관리 및 액세스에 대해 [데이터 엔지니어](data-engineer.md)와 공동 작업합니다. 데이터 엔지니어가 구성해야 하는 스키마, 데이터 세트 및 데이터 소스를 이해하려면 [데이터 관리 시작하기](../../data/gs-data.md) 개요를 검토하십시오.
+[데이터 엔지니어](data-engineer.md)와 데이터 관리 및 액세스에 대해 협업합니다. [데이터 관리 시작](../../data/gs-data.md) 개요를 검토하여 데이터 엔지니어가 구성해야 하는 스키마, 데이터 세트 및 데이터 소스를 이해합니다.
 
 * 데이터 관리 및 스키마 생성에 대한 권한 부여
 * 개발 및 테스트를 위한 샌드박스 액세스 승인

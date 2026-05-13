@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: 오퍼에 표현 추가
+title: 오퍼에 표시 추가
 description: 오퍼에 표시를 추가하는 방법을 알아봅니다
 badge: label="레거시" type="Informative"
 feature: Decision Management
@@ -10,23 +10,29 @@ role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
 version: Journey Orchestration
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/lu90DQdZQ6ECl4WCWqJ8aIbVmR63xScb3K0dLNh-hNc
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: c132d929-fa62-4271-803e-b823be07b914id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '900'
-ht-degree: 6%
+source-wordcount: 900
+ht-degree: 0%
 
 ---
 
-# 오퍼에 표현 추가 {#add-representations}
+# 오퍼에 표시 추가 {#add-representations}
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer]의 새로운 의사 결정 기능인 [결정]을 이제 코드 기반 경험 및 이메일 채널을 통해 사용할 수 있습니다. [자세히 알아보기](../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer]의 새로운 결정 기능인 Decisioning은 이제 코드 기반 경험 및 이메일 채널을 통해 사용할 수 있습니다. [자세히 알아보기](../../experience-decisioning/gs-experience-decisioning.md)
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_representation"
 >title="표시"
->abstract="표현을 추가하여 메시지에 오퍼가 표시될 위치를 정의합니다. 오퍼에 표현이 많을수록 오퍼를 다양한 배치 컨텍스트에서 사용할 기회가 많아집니다."
+>abstract="표시를 추가하여 오퍼가 메시지에 표시되는 위치를 정의합니다. 오퍼에 대한 표시가 많을수록 다른 배치 컨텍스트에서 오퍼를 사용할 수 있는 기회가 많아집니다."
 
 오퍼는 메시지의 다른 위치에 표시될 수 있습니다. 이미지가 있는 상단 배너에서 단락 내 텍스트, HTML 블록 등으로 표시됩니다. 오퍼에 대한 표시가 많을수록 다른 배치 컨텍스트에서 오퍼를 사용할 수 있는 기회가 많아집니다.
 
@@ -82,7 +88,7 @@ ht-degree: 6%
 
 >[!NOTE]
 >
-> [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=ko){target="_blank"}을(를) 사용하여 작업하려면 조직에 대해 [!DNL Assets Essentials]을(를) 배포하고 사용자가 **Assets Essentials 소비자 사용자** 또는/및 **Assets Essentials 사용자** 제품 프로필에 포함되어 있는지 확인해야 합니다. [이 페이지](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=ko){target="_blank"}에 대해 자세히 알아보세요.
+> [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}을(를) 사용하여 작업하려면 조직에 대해 [!DNL Assets Essentials]을(를) 배포하고 사용자가 **Assets Essentials 소비자 사용자** 또는/및 **Assets Essentials 사용자** 제품 프로필에 포함되어 있는지 확인해야 합니다. [이 페이지](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html){target="_blank"}에 대해 자세히 알아보세요.
 
 1. **[!UICONTROL 자산 라이브러리]** 옵션을 선택하십시오.
 
@@ -98,9 +104,9 @@ ht-degree: 6%
 
 ### HTML 또는 JSON 파일 추가 {#html-json}
 
-선택한 배치가 HTML 유형인 경우 [Adobe Experience Cloud 자산 라이브러리](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=ko){target="_blank"}에서 제공되는 HTML 또는 JSON 컨텐츠를 추가할 수도 있습니다.
+선택한 배치가 HTML 유형인 경우 [Adobe Experience Cloud 자산 라이브러리](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}에서 제공되는 HTML 또는 JSON 컨텐츠를 추가할 수도 있습니다.
 
-예를 들어, [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html?lang=ko){target="_blank"}에서 HTML 이메일 템플릿을 만들었고, 이 파일을 오퍼 콘텐츠에 사용하려고 합니다. 새 파일을 만드는 대신 템플릿을 **자산 라이브러리**&#x200B;에 업로드하여 오퍼의 표시에서 다시 사용할 수 있습니다.
+예를 들어, [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html){target="_blank"}에서 HTML 이메일 템플릿을 만들었고, 이 파일을 오퍼 콘텐츠에 사용하려고 합니다. 새 파일을 만드는 대신 템플릿을 **자산 라이브러리**&#x200B;에 업로드하여 오퍼의 표시에서 다시 사용할 수 있습니다.
 
 표현에서 콘텐츠를 다시 사용하려면 [이 섹션](#images)에 설명된 대로 **자산 라이브러리**&#x200B;를 찾은 다음 선택한 HTML 또는 JSON 파일을 선택하십시오.
 
@@ -116,7 +122,7 @@ ht-degree: 6%
 
 예를 들어 오퍼로 표시되는 이미지를 개인화하려고 합니다. 뉴욕시의 스카이라인을 보기 위해 도시 휴가를 선호하는 이용자들과 하와이 북해안을 보기 위해 해변 휴가를 선호하는 이용자들을 원한다는 것이다.
 
-개인화 편집기를 사용하여 유니온 스키마를 사용하여 Adobe Experience Platform에 저장된 프로필 속성을 검색합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html?lang=ko){target="_blank"} 의사 결정 관리에서 지원되는 기능은 [개인화 편집기에서 지원되는 기능](personalization-editor-supported-functions.md)을 참조하세요.
+개인화 편집기를 사용하여 유니온 스키마를 사용하여 Adobe Experience Platform에 저장된 프로필 속성을 검색합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html){target="_blank"} 의사 결정 관리에서 지원되는 기능은 [개인화 편집기에서 지원되는 기능](personalization-editor-supported-functions.md)을 참조하세요.
 
 ![](../assets/offer-content-url-personalization.png)
 

@@ -9,10 +9,17 @@ role: User
 level: Beginner
 keywords: 에셋, 통합
 exl-id: 3e72df85-ba80-4cec-848b-7441cb3e7fef
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/Kzrp9ksDq5kU4yPs8-3r-zipBqogMN3PqXucfhqtPeo
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: da3860b0-d637-47df-bef0-273751180266
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 27%
+source-wordcount: 704
+ht-degree: 26%
 
 ---
 
@@ -82,6 +89,6 @@ Enterprise 라이선스를 사용하면 사용자가 Adobe Express 편집기에 
 
 Adobe GenStudio for Performance Marketing은 마케팅 팀이 자체 광고 및 이메일을 만들어 브랜드 표준을 준수하고 엔터프라이즈 정책을 준수하는 영향력이 큰 개인화된 마케팅 캠페인을 유도할 수 있는 생성 AI 우선 애플리케이션입니다. Adobe AI 기술을 활용하여 컨텐츠 생성 및 관리의 복잡성을 간소화하여 크리에이티브가 혁신에 집중할 수 있는 포괄적인 도구 모음을 제공합니다.
 
-마케팅 효율성을 높이고 브랜드 일관성을 유지하기 위해 [!DNL **GenStudio for Performance Marketing**] 경험을 [!DNL **Adobe Journey Optimizer**]&#x200B;과(와) 원활하게 통합할 수 있습니다. 이를 통해 [!DNL GenStudio]의 고급 오케스트레이션 기능과 함께 [!DNL Journey Optimizer]의 AI 파워 콘텐츠 생성을 활용할 수 있습니다.
+마케팅 효율성을 높이고 브랜드 일관성을 유지하기 위해 [!DNL **GenStudio for Performance Marketing**] 경험을 [!DNL **Adobe Journey Optimizer**]&#x200B;과(와) 원활하게 통합할 수 있습니다. 이를 통해 [!DNL Journey Optimizer]의 고급 오케스트레이션 기능과 함께 [!DNL GenStudio]의 AI 파워 콘텐츠 생성을 활용할 수 있습니다.
 
 [Journey Optimizer + GenStudio for Performance Marketing](../integrations/genstudio.md)에 대해 자세히 알아보세요.

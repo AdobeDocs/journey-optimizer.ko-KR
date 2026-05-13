@@ -1,5 +1,5 @@
 ---
-title: 다이렉트 메일 메시지 확인 및 보내기
+title: DM 메시지 확인 및 보내기
 description: Journey Optimizer에서 DM 메시지를 확인하고 보내는 방법 알아보기
 feature: Direct Mail, Test Profiles, Preview
 topic: Content Management
@@ -7,14 +7,21 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
-source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
+TQID: https://experienceleague.adobe.com/4GZKFKOx-D-RT1mssiV5vpmZQSJGVbGMro8Q-suhtPE
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 8%
+source-wordcount: 478
+ht-degree: 0%
 
 ---
 
-# 다이렉트 메일 메시지 확인 및 보내기 {#direct-mail-test-send}
+# DM 메시지 확인 및 보내기 {#direct-mail-test-send}
 
 ## 추출 파일 미리 보기 {#preview-dm}
 
@@ -54,12 +61,12 @@ DM 캠페인이 준비되면 [여정](../building-journeys/journey-gs.md) 또는
 
 ## DM에 대한 동의 관리 {#dm-consent-management}
 
-[!DNL Journey Optimizer]에서 동의는 Experience Platform [동의 스키마](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=ko){target="_blank"}가 처리합니다. 기본적으로 동의 필드의 값은 비어 있으며 커뮤니케이션을 수신하기 위한 동의로 처리됩니다.
+[!DNL Journey Optimizer]에서 동의는 Experience Platform [동의 스키마](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html){target="_blank"}에 의해 처리됩니다. 기본적으로 동의 필드의 값은 비어 있으며 커뮤니케이션을 수신하기 위한 동의로 처리됩니다.
 
 프로필이 DM 수신을 옵트아웃한 경우 해당 Experience Platform 프로필 특성에서 `consents.marketing.postalMail.val`의 값은 `n`이(가) 되며 해당 프로필은 후속 게재에서 제외됩니다.
 
 다시 활성화하려면 프로필 특성을 `consents.marketing.postalMail.val`: `y`(으)로 다시 변경해야 합니다.
 
-프로필의 속성을 관리하려면 Experience Platform으로 이동하여 ID 네임스페이스 및 해당 ID 값을 선택하여 프로필에 액세스합니다. [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ko#getting-started){target="_blank"}에서 자세한 내용을 알아보십시오.
+프로필의 속성을 관리하려면 Experience Platform으로 이동하여 ID 네임스페이스 및 해당 ID 값을 선택하여 프로필에 액세스합니다. 자세한 내용은 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target="_blank"}를 참조하세요.
 
 [이 섹션](../privacy/opt-out.md)에서 Journey Optimizer의 옵트아웃 관리에 대해 자세히 알아보세요.

@@ -9,10 +9,17 @@ role: User
 level: Beginner
 keywords: 랜딩, 랜딩 페이지, 작성, 페이지, 양식, 구성 요소
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/F-E8Fy-EYYhS-PqrpQJZKO4MUKfJBTWX9V0DpUyudXU
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: d595a60b-bcf5-4a63-a189-66a0be755cc7id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1633'
-ht-degree: 12%
+source-wordcount: 1633
+ht-degree: 0%
 
 ---
 
@@ -21,8 +28,8 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ac_lp_components"
 >title="콘텐츠 구성 요소 사용"
->abstract="콘텐츠 구성 요소는 랜딩 페이지 레이아웃 제작에 사용할 수 있는 빈 콘텐츠 플레이스홀더입니다. 사용자가 선택 사항을 선택하고 제출할 수 있는 특정 콘텐츠를 정의하려면 양식 구성 요소를 사용합니다."
->additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/email/design-email/add-content/content-components#add-content-components" text="콘텐츠 구성 요소 추가"
+>abstract="콘텐츠 구성 요소는 랜딩 페이지의 레이아웃을 만드는 데 사용할 수 있는 빈 콘텐츠 자리 표시자입니다. 사용자가 선택 항목을 선택하고 제출할 수 있도록 해 주는 특정 콘텐츠를 정의하려면 양식 구성 요소를 사용하십시오."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/add-content/content-components#add-content-components" text="콘텐츠 구성 요소 추가"
 
 랜딩 페이지 콘텐츠를 디자인하기 위해 이메일과 동일한 구성 요소를 사용할 수 있습니다. [자세히 알아보기](../email/content-components.md#add-content-components)
 
@@ -40,22 +47,22 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->[유럽 접근성법](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}에는 모든 디지털 통신의 접근성을 보장해야 한다고 명시되어 있습니다. [!DNL Journey Optimizer]에서 콘텐츠를 디자인할 때는 [이 페이지](../email/accessible-content.md)에 나열된 특정 지침을 따라야 합니다.
+>[유럽 접근성 법률](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}에는 모든 디지털 통신에 액세스할 수 있어야 한다고 명시되어 있습니다. [!DNL Journey Optimizer]에서 콘텐츠를 디자인할 때는 [이 페이지](../email/accessible-content.md)에 나열된 특정 지침을 따라야 합니다.
 
 ## 양식 구성 요소 사용 {#use-form-component}
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_formfield"
 >title="양식 구성 요소 필드 설정"
->abstract="수신자가 랜딩 페이지에서 선택 사항을 표시하고 제출하는 방법을 정의합니다."
->additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content#lp-form-styles" text="랜딩 페이지 양식 스타일 정의"
+>abstract="수신자가 랜딩 페이지에서 선택한 항목을 보고 제출하는 방법을 정의합니다."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content#lp-form-styles" text="랜딩 페이지 양식 스타일 정의"
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_submission"
->title="버튼 클릭 시 나타나는 결과"
->abstract="사용자가 랜딩 페이지 양식을 제출할 때 나타나는 결과를 정의합니다."
+>title="버튼을 클릭하면 발생하는 작업"
+>abstract="사용자가 랜딩 페이지 양식을 제출할 때 어떤 일이 발생하는지 정의합니다."
 
-사용자가 랜딩 페이지에서 선택한 항목을 선택하고 제출할 수 있도록 특정 콘텐츠를 정의하려면 **[!UICONTROL 양식]** 구성 요소를 사용합니다. 그 방법은 다음과 같습니다.
+사용자가 랜딩 페이지에서 선택한 항목을 선택하고 제출할 수 있도록 특정 콘텐츠를 정의하려면 **[!UICONTROL 양식]** 구성 요소를 사용합니다. 이렇게 하려면 아래 단계를 수행합니다.
 
 1. 왼쪽 팔레트에서 랜딩 페이지별 **[!UICONTROL 양식]** 구성 요소를 기본 작업 영역으로 끌어다 놓습니다.
 
@@ -214,7 +221,7 @@ ht-degree: 12%
 
 기본 페이지의 두 확인란을 두 개의 다른 구독 목록에 연결한다고 가정해 보겠습니다. 사용자가 이 중 하나를 구독하면 선택한 확인란에 따라 양식 제출 시 특정 메시지를 표시할 수 있습니다.
 
-이렇게 하려면 아래 절차를 따르십시오.
+이렇게 하려면 아래 단계를 수행합니다.
 
 1. 기본 페이지에서 **[!UICONTROL Form]** 구성 요소의 각 확인란을 관련 구독 목록에 연결합니다. [자세히 알아보기](#use-form-component).
 
@@ -238,7 +245,7 @@ ht-degree: 12%
    >
    >표현식에 하이픈과 같은 특수 문자가 있으면 하이픈을 포함하는 텍스트를 이스케이프해야 합니다.
 
-1. 변경 내용을 저장합니다.
+1. 변경 사항을 저장합니다.
 
 이제 사용자가 확인란 중 하나를 선택하면
 

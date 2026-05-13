@@ -10,10 +10,15 @@ role: Developer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+TQID: https://experienceleague.adobe.com/jhf2EpgMU35YmRWeatijWUFz3KwwjFfKP8lHtX8eyEU
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: c132d929-fa62-4271-803e-b823be07b914id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1129'
-ht-degree: 4%
+source-wordcount: 1153
+ht-degree: 0%
 
 ---
 
@@ -21,7 +26,7 @@ ht-degree: 4%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer]의 새로운 의사 결정 기능인 [결정]을 이제 코드 기반 경험 및 이메일 채널을 통해 사용할 수 있습니다. [자세히 알아보기](../../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer]의 새로운 결정 기능인 Decisioning은 이제 코드 기반 경험 및 이메일 채널을 통해 사용할 수 있습니다. [자세히 알아보기](../../../experience-decisioning/gs-experience-decisioning.md)
 
 의사 결정 관리를 사용하면 비즈니스 논리 및 의사 결정 규칙을 사용하여 채널 및 애플리케이션 전반에 개인화된 오퍼 경험을 제작하여 제공할 수 있습니다. 오퍼는 오퍼를 볼 자격이 있는 사람을 지정하는 규칙과 관련된 마케팅 메시지입니다.
 
@@ -41,9 +46,9 @@ ht-degree: 4%
 
 | 헤더 이름 | 값 |
 | ----------- | ----- |
-| 수락 | `application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-response;version=1.0"` |
+| Accept | `application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-response;version=1.0"` |
 | Content-Type | `application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-request;version=1.0"` |
-| Authorization | `Bearer {ACCESS_TOKEN}` |
+| 인증 | `Bearer {ACCESS_TOKEN}` |
 | x-gw-ims-org-id | `{IMS_ORG}` |
 | x-sandbox-name | `{SANDBOX_NAME}` |
 | x-api-key | `{API_KEY}` |
@@ -63,7 +68,7 @@ ht-degree: 4%
 POST /{ENDPOINT_PATH}/decisions
 ```
 
-| 매개변수 | 설명 | 예 |
+| 매개 변수 | 설명 | 예 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 저장소 API의 끝점 경로입니다. | `https://platform.adobe.io/data/core/ods` |
 
@@ -217,7 +222,7 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
 
 | 코드 | 설명 |
 |  ---  |  ---  |
-| 200 | 성공. 해당 활동에 대해 결정됨 |
+| 20 | 성공. 해당 활동에 대해 결정됨 |
 | 400 | 잘못된 요청 매개변수. 잘못된 구문 때문에 서버에서 요청을 이해할 수 없습니다. |
 | 403 | 사용할 수 없음. 권한이 충분하지 않음. |
 | 422 | 처리할 수 없는 엔티티. 요청 구문은 올바르지만 의미 체계 오류로 인해 처리할 수 없습니다. |
@@ -235,7 +240,7 @@ The following video is intended to support your understanding of the components 
 >
 >This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/342832/?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12)
 -->
 
 ## 다음 단계 {#next-steps}

@@ -5,20 +5,23 @@ title: 대상자 읽기 활동 사용
 description: 오케스트레이션된 캠페인에서 대상자 읽기 활동을 사용하는 방법을 알아봅니다
 exl-id: ef8eba57-cd33-4746-8eb4-5214ef9cbe2f
 version: Campaign Orchestration
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/godxGm-QCWx-dIIL3IJcabSf60m5rVvn6hP1Ck6OAQ8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 11%
+source-wordcount: 669
+ht-degree: 0%
 
 ---
-
 
 # 대상자 읽기 {#read-audience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_read_audience"
->title="대상자 빌드 활동"
->abstract="**대상자 읽기** 활동을 통해 오케스트레이션된 캠페인에 참여할 대상자를 선택할 수 있습니다. 이 대상자는 기존 Adobe Experience Platform 대상자이거나 CSV 파일에서 가져온 대상자일 수 있습니다. 오케스트레이션된 캠페인 컨텍스트에서 메시지를 전송할 때 메시지 대상자는 채널 활동에서 정의되지 않고 **대상자 읽기** 또는 **대상자 빌드** 활동에서 정의됩니다."
+>title="대상자 활동 작성"
+>abstract="**대상자 읽기** 활동을 통해 오케스트레이션된 캠페인을 시작할 대상자를 선택할 수 있습니다. 이 대상은 기존 Adobe Experience Platform 대상이거나 CSV 파일에서 가져온 대상일 수 있습니다. 오케스트레이션된 캠페인의 컨텍스트에서 메시지를 보낼 때 메시지 대상자는 채널 활동에 정의되지 않고 **대상자 읽기** 또는 **대상자 빌드** 활동에 정의됩니다."
 
 **[!UICONTROL 대상자 읽기]** 활동을 사용하면 이전에 저장했거나 가져온 기존 대상자를 검색하고 오케스트레이션된 캠페인 내에서 재사용할 수 있습니다. 이 활동은 새로운 세분화 프로세스를 실행할 필요 없이 사전 정의된 프로필 세트를 타겟팅하는 데 특히 유용합니다.
 

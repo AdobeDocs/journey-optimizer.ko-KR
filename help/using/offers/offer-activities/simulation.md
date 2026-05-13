@@ -10,9 +10,15 @@ role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
 version: Journey Orchestration
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/8ukemQq3fMq5LCEGdkLlHYj0iZXatFD32-BIeAPYTGA
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: c132d929-fa62-4271-803e-b823be07b914id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: 912
 ht-degree: 15%
 
 ---
@@ -73,7 +79,7 @@ ht-degree: 15%
 
    >[!NOTE]
    >
-   >ID 네임스페이스는 이메일 주소 또는 CRM ID와 같은 식별자의 컨텍스트를 정의합니다. 이 섹션[&#128279;](../../audience/get-started-identity.md){target="_blank"}에서 Adobe Experience Platform ID 네임스페이스 에 대해 자세히 알아보세요.
+   >ID 네임스페이스는 이메일 주소 또는 CRM ID와 같은 식별자의 컨텍스트를 정의합니다. 이 섹션](../../audience/get-started-identity.md){target="_blank"}에서 Adobe Experience Platform ID 네임스페이스 [에 대해 자세히 알아보세요.
 
 1. ID 값을 입력하고 **[!UICONTROL 보기]**&#x200B;를 클릭하여 사용 가능한 프로필을 나열합니다.
 

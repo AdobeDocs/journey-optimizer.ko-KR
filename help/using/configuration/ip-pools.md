@@ -9,10 +9,16 @@ role: Admin
 level: Experienced
 keywords: IP, 풀, 그룹, 하위 도메인, 전달성
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/z-91TIrSp9KXlFcJRG9wmTRNRA2RU-AaEoMtaLcmNWM
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 12%
+source-wordcount: 699
+ht-degree: 0%
 
 ---
 
@@ -21,12 +27,12 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_pool_header"
 >title="IP 풀 설정"
->abstract="IP 풀은 이메일 전달성을 개선할 수 있도록 하위 도메인의 IP 주소를 수집합니다."
+>abstract="IP 풀은 하위 도메인의 IP 주소를 수집하여 이메일 전달성을 향상시킵니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_pool"
 >title="IP 풀 설정"
->abstract="Journey Optimizer를 통해 IP 풀을 만들어 하위 도메인의 IP 주소를 함께 그룹화할 수 있습니다. 이렇게 하면 하위 도메인의 신뢰도가 다른 하위 도메인에 영향을 미칠 수 없으므로 이메일 전달성이 크게 개선될 수 있습니다."
+>abstract="Journey Optimizer을 사용하면 IP 풀을 만들어 하위 도메인의 IP 주소를 함께 그룹화할 수 있습니다. 이렇게 하면 하위 도메인의 평판이 다른 하위 도메인에 영향을 주지 않도록 할 수 있으므로 이메일 전달성을 크게 향상시킬 수 있습니다."
 
 ## IP 풀 기본 정보 {#about-ip-pools}
 
@@ -58,7 +64,7 @@ IP 풀을 만들려면 다음 단계를 수행합니다.
 
    ![](assets/ip-pool-config.png)
 
-IP를 선택하면 목록에서 IP와 연결된 PTR 레코드를 볼 수 있습니다. 이렇게 하면 IP 풀을 만들 때 각 IP에 대한 브랜딩 정보를 확인하고 예를 들어 동일한 브랜딩 정보가 있는 IP를 선택할 수 있습니다. [PTR 기록에 대해 자세히 알아보기](ptr-records.md)
+IP를 선택하면 목록에서 IP와 연결된 PTR 레코드를 볼 수 있습니다. 이렇게 하면 IP 풀을 만들 때 각 IP에 대한 브랜딩 정보를 확인하고 예를 들어 동일한 브랜딩 정보가 있는 IP를 선택할 수 있습니다. [PTR 레코드에 대해 자세히 알아보기](ptr-records.md)
 
 ![](assets/ip-pool-ptr-record.png)
 
@@ -86,7 +92,7 @@ IP 풀을 편집하려면 아래 단계를 따르십시오.
    >
    >IP를 삭제하면 다른 IP에 추가 로드가 발생하고 전달성에 심각한 영향을 미칠 수 있으므로 IP 삭제를 고려할 때 각별한 주의를 기울여 진행하십시오. 의심이 가는 경우 게재 가능성 전문가에게 문의하십시오.
 
-1. 변경 내용을 저장합니다.
+1. 변경 사항을 저장합니다.
 
 업데이트는 [채널 구성](channel-surfaces.md)에 연결된 IP 풀에 따라 즉시 또는 비동기적으로 적용됩니다.
 

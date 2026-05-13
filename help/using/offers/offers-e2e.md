@@ -10,10 +10,15 @@ role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+TQID: https://experienceleague.adobe.com/m5tujeeveBXer8JDWUhe3-QmJhQMV9czOWC-8StyaT0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: c132d929-fa62-4271-803e-b823be07b914id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1118'
-ht-degree: 6%
+source-wordcount: 1128
+ht-degree: 0%
 
 ---
 
@@ -21,7 +26,7 @@ ht-degree: 6%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer]의 새로운 의사 결정 기능인 [결정]을 이제 코드 기반 경험 및 이메일 채널을 통해 사용할 수 있습니다. [자세히 알아보기](../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer]의 새로운 결정 기능인 Decisioning은 이제 코드 기반 경험 및 이메일 채널을 통해 사용할 수 있습니다. [자세히 알아보기](../experience-decisioning/gs-experience-decisioning.md)
 
 이 섹션에서는 이전에 만든 의사 결정에 따라 오퍼를 구성하고 이메일에서 오퍼를 사용하는 방법을 보여주는 전체적인 예를 제공합니다.
 
@@ -32,7 +37,7 @@ ht-degree: 6%
 1. 오퍼를 만들기 전에 [구성 요소를 정의](#define-components)
 
    * 배치 만들기
-   * 결정 규칙 만들기
+   * 의사 결정 규칙 만들기
    * 컬렉션 한정자 만들기(이전의 &quot;태그&quot;)
    * 등급 만들기(선택 사항)
 
@@ -122,7 +127,7 @@ ht-degree: 6%
 
 이제 오퍼를 만들고 구성할 수 있습니다. 이 예제에서는 각 특정 프로필에 따라 표시할 4개의 오퍼를 만듭니다.
 
-1. 오퍼를 만듭니다. 자세한 내용은 [이 섹션](../../using/offers/offer-library/creating-personalized-offers.md#create-offer)을 참조하십시오.
+1. 오퍼를 만듭니다. 자세한 내용은 [이 섹션](../../using/offers/offer-library/creating-personalized-offers.md#create-offer)을 참조하세요.
 
 1. 이 오퍼에서는 세 개의 표현을 만듭니다. 각 표현은 이전에 생성한 배치와 자산의 조합이어야 합니다.
 
@@ -203,7 +208,7 @@ ht-degree: 6%
 
 오퍼 결정을 만들고 구성하려면 아래의 주요 단계를 수행합니다.
 
-1. 의사 결정을 만듭니다. 자세한 내용은 [이 섹션](../../using/offers/offer-activities/create-offer-activities.md#create-activity)을 참조하십시오.
+1. 의사 결정을 만듭니다. 자세한 내용은 [이 섹션](../../using/offers/offer-activities/create-offer-activities.md#create-activity)을 참조하세요.
 
 1. *웹 - 이미지*, *전자 메일 - 이미지* 및 *디지털 이외 - 텍스트* 배치를 선택하십시오.
 

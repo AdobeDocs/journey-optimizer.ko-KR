@@ -8,10 +8,17 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1f16edd-efdf-41c2-a0ad-5f55009008f5
-source-git-commit: ad3b64cb0ba6af5df654b340b4524161a94297e1
+TQID: https://experienceleague.adobe.com/S-3ZtTNfgZGEFChfjaXPihxGWpdkWacrWF9AWc-AyZY
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 90%
+source-wordcount: 367
+ht-degree: 100%
 
 ---
 
@@ -21,7 +28,7 @@ ht-degree: 90%
 >
 >[푸시 알림]을 처음 만드는 경우 [푸시] 채널 구성을 완료했는지 확인해야 합니다. [자세히 알아보기](push-gs.md).
 
-푸시 알림을 통해 모바일 앱 사용자와 웹 방문자에게 언제든지 연락할 수 있습니다. 특히 해당 사용자가 활발하게 사용자의 앱을 사용하거나 웹사이트를 탐색하고 있지 않을 때 유용합니다. 푸시 알림은 서비스에 대한 업데이트 제공, 사용자에게 조치 요청하기, 사용자에게 새로운 딜 알리기 등 다양한 사용 사례를 달성하는 데 도움이 될 수 있습니다.  플랫폼의 규정에 따라 최종 사용자가 알림을 받거나 보려면 옵트인이 필요합니다. 사용자 옵트인은 앱을 설치한 후 처음 시작할 때 바로 받거나, 필요에 따라 후속 세션이나 워크플로를 통해 받을 수 있습니다.
+푸시 알림을 통해 모바일 앱 사용자와 웹 방문자에게 언제든지 연락할 수 있습니다. 특히 해당 사용자가 활발하게 사용자의 앱을 사용하거나 웹사이트를 탐색하고 있지 않을 때 유용합니다. 푸시 알림은 서비스 업데이트 제공, 사용자 행동 요청, 새로운 프로모션 알림 등 다양한 사용 사례를 달성하는 데 도움이 될 수 있습니다. 장치 플랫폼에 따라 최종 사용자가 알림을 수신하거나 확인하려면 옵트인을 해야 합니다. 사용자 옵트인은 앱을 설치한 후 처음 시작할 때 바로 받거나, 필요에 따라 후속 세션이나 워크플로를 통해 받을 수 있습니다.
 
 [!DNL Journey Optimizer]는 푸시 알림을 지원하며 업계 최고 수준의 처리 속도로 적절한 알림을 보내는 데 도움이 됩니다. 푸시 알림에 개인화와 여정 기반 컨텍스트를 포함하여 브랜드가 Adobe Experience Cloud에서 보유한 데이터 인사이트를 활용할 수 있습니다.
 
@@ -35,7 +42,7 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->**[!DNL Journey Optimizer]**&#x200B;는 이메일 및 SMS 메시지에서 옵트아웃을 관리하는 방법을 제공하지만, 푸시 알림은 수신자가 디바이스를 통해 직접 구독을 취소할 수 있으므로 별도의 작업이 필요하지 않습니다. 예를 들어, 앱을 다운로드하거나 사용하는 경우 알림을 중지하도록 선택할 수 있습니다. 마찬가지로 모바일 운영 체제나 웹 브라우저 설정을 통해 알림 설정을 변경할 수 있습니다. AEP 프로필 뷰어에서 프로필의 푸시 동의 상태를 확인하려면 [푸시 옵트아웃 상태 확인](../privacy/opt-out.md#push-opt-out-status)을 참조하세요.
+>**[!DNL Journey Optimizer]**&#x200B;는 이메일 및 SMS 메시지에서 옵트아웃을 관리하는 방법을 제공하지만, 푸시 알림은 수신자가 디바이스를 통해 직접 구독을 취소할 수 있으므로 별도의 작업이 필요하지 않습니다. 예를 들어, 앱을 다운로드하거나 사용하는 경우 알림을 중지하도록 선택할 수 있습니다. 마찬가지로 수신자는 모바일 운영 체제나 웹 브라우저 설정을 통해 알림 설정을 변경할 수 있습니다. AEP 프로필 뷰어에서 프로필의 푸시 동의 상태를 확인하려면 [푸시 옵트아웃 상태 확인](../privacy/opt-out.md#push-opt-out-status)을 참조하세요.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -48,7 +55,7 @@ ht-degree: 90%
 </td>
 <td>
 <a href="design-push.md">
-<img alt="드물게" src="../assets/do-not-localize/push-design.jpg">
+<img alt="저빈도" src="../assets/do-not-localize/push-design.jpg">
 </a>
 <div>
 <a href="design-push.md"><strong>푸시 알림 디자인</strong></a>

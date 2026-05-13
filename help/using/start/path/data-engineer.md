@@ -7,14 +7,21 @@ feature: Get Started
 role: Developer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/BAnAycmwv9oD4On4LSMwm7bBRKOuw5Tbv5a-r3ND-Dw
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: af7571a6-3ddb-4c1c-abdf-4d4dde592140id: d08afb72-92f6-4856-88e3-11ec34313c2fid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 92%
+source-wordcount: 991
+ht-degree: 100%
 
 ---
 
-# 데이터 엔지니어 시작하기 {#data-engineer}
+# 데이터 엔지니어를 위한 시작 {#data-engineer}
 
 **데이터 아키텍트** 또는 **데이터 엔지니어**&#x200B;로서 [!DNL Journey Optimizer]에서 오케스트레이션하는 경험을 지원하는 고객 프로필 데이터와 기타 데이터 소스를 설정하고 유지 관리합니다. 여기에는 웹, CRM 또는 오프라인 소스 등 모든 고객 및 비즈니스 데이터를 통합하여 고객에 대한 360도 통합 보기를 구축하는 것이 포함됩니다. 고객 프로필 데이터와 비즈니스 데이터를 스키마로 모델링하고, 데이터 수집을 위한 소스 커넥터를 구성하며, 데이터가 원활하게 전달되도록 하여 실시간 고객 인사이트 및 참여를 가능하게 합니다. [시스템 관리자](administrator.md)가 액세스 권한을 부여하고 환경을 준비하면 [!DNL Adobe Journey Optimizer] 작업을 시작할 수 있습니다.
 
@@ -24,7 +31,7 @@ ht-degree: 92%
 
 >[!TIP]
 >
->Journey Optimizer의 데이터를 처음 사용하십니까? 구성을 시작하기 전에 스키마, 데이터 세트, ID, 프로필 조각 모델 및 전체 데이터 준비 체크리스트를 이해하려면 [데이터 관리 시작하기](../../data/gs-data.md) 개요로 시작하십시오.
+>Journey Optimizer의 데이터를 처음 사용하시나요? 구성을 시작하기 전에 [데이터 관리 시작하기](../../data/gs-data.md) 개요를 통해 스키마, 데이터 세트, ID, 프로필 조각 모델, 전체 데이터 준비 체크리스트를 살펴볼 수 있습니다.
 
 ## 필수 데이터 구성 단계
 
@@ -49,7 +56,7 @@ Journey Optimizer의 데이터 기반을 설정하려면 다음 단계를 따르
 
 1. **계산된 속성 구성**(선택 사항). 프로필 데이터에서 파생된 속성을 생성하여 세분화와 개인화를 간소화합니다. 계산된 속성은 &quot;지난 90일간 총 구매액&quot; 또는 &quot;평균 주문 금액&quot;과 같은 복잡한 지표를 자동으로 계산합니다. [계산된 속성](../../audience/computed-attributes.md)에 대해 알아보세요.
 
-1. **메시지 내보내기 데이터 세트**(선택 사항). 채널 구성 수준에서 메시지 내보내기가 활성화되면 전송된 이메일 및 SMS 콘텐츠가 규정 준수, 보관 또는 다운스트림 분석을 위해 전용 Experience Platform 데이터 세트로 자동 내보내집니다. [메시지 내보내기](../../configuration/message-export.md)에 대해 알아봅니다.
+1. **메시지 내보내기 데이터 세트**(선택 사항). 채널 구성 수준에서 메시지 내보내기가 활성화되면 전송된 이메일 및 SMS 콘텐츠가 규정 준수, 보관 또는 다운스트림 분석을 위해 자동으로 전용 Experience Platform 데이터 세트로 내보내집니다. [메시지 내보내기](../../configuration/message-export.md)에 대해 알아봅니다.
 
 또한 여정에서 메시지를 보내려면 **[!UICONTROL 데이터 소스]**, **[!UICONTROL 이벤트]**, **[!UICONTROL 액션]**&#x200B;을 구성해야 합니다. 자세한 내용은 [이 섹션](../../configuration/about-data-sources-events-actions.md)을 참조하세요.
 

@@ -10,10 +10,14 @@ role: Developer
 level: Experienced
 exl-id: 91317c46-d8b6-456e-8282-aef1169941af
 version: Journey Orchestration
-source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
+TQID: https://experienceleague.adobe.com/xrPunLrH7qiFNVM4mznVAIJS6rBTIQ0q1iiEwvQgbX4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 11%
+source-wordcount: 194
+ht-degree: 12%
 
 ---
 
@@ -26,7 +30,7 @@ ht-degree: 11%
 
 컬렉션은 오퍼의 카테고리와 같이 마케터가 정의한 사전 정의된 조건을 기반으로 하는 오퍼의 하위 집합입니다.
 
-[!DNL Offer Library] 컬렉션 또는 요청 경로에 있는 컬렉션의 이름을 포함하는 `@id` API에 대한 GET 요청을 수행하여 특정 컬렉션을 조회할 수 있습니다.
+`@id` 컬렉션 또는 요청 경로에 있는 컬렉션의 이름을 포함하는 [!DNL Offer Library] API에 대한 GET 요청을 수행하여 특정 컬렉션을 조회할 수 있습니다.
 
 **API 형식**
 
@@ -34,7 +38,7 @@ ht-degree: 11%
 GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FILTER}&{QUERY_PARAMS}
 ```
 
-| 매개변수 | 설명 | 예 |
+| 매개 변수 | 설명 | 예 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 저장소 API의 끝점 경로입니다. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | 컬렉션이 있는 컨테이너입니다. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |

@@ -7,10 +7,16 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: 19ec3410-761e-4a9c-a277-f105fc446d7a
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/eZC9hzg7Yf9sZ17idMlFYOX-Rn7lwGL6J2AyFaj0CV4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 94%
+source-wordcount: 542
+ht-degree: 100%
 
 ---
 
@@ -22,11 +28,11 @@ Adobe Experience Platform **Privacy Service**&#x200B;는 고객 데이터 요청
 
 ![](assets/requests.png)
 
-Privacy Service에 대한 자세한 내용 및 개인 정보 요청을 만들고 관리하는 방법은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko-KR){target="_blank"}를 참조하세요.
+개인 정보 보호 서비스 관련 및 개인 정보 요청 생성/관리법 관련한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko-KR){target="_blank"}를 참조하세요.
 
 <!--
-* [Privacy Service overview](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko)
-* [Managing privacy jobs in the Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ko)
+* [Privacy Service overview](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)
+* [Managing privacy jobs in the Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html)
 -->
 
 ## Adobe Journey Optimizer에 보낼 수 있는 개별 데이터 개인 정보 요청 관리 {#data-privacy-requests}
@@ -51,7 +57,7 @@ Privacy Service는 **데이터 액세스**&#x200B;와 **데이터 삭제**&#x200
 
 >[!NOTE]
 >
->이 안내서에서는 [!UICONTROL Adobe Journey Optimizer]에 개인 정보 요청을 보내는 방법만 다룹니다. 
+>이 안내서에서는 [!UICONTROL Adobe Journey Optimizer]에 개인 정보 요청을 보내는 방법만 다룹니다.
 >
 >* Platform 데이터 레이크에도 개인 정보 요청을 보내려면 이 튜토리얼 외에 이 [안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/privacy)도 참조하십시오.
 >

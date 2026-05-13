@@ -10,10 +10,15 @@ role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
 version: Journey Orchestration
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/Du6LWrtaD6lS54qfxT7K8YIRvft8gO8ZlZabCMJ84tk
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 22%
+source-wordcount: 411
+ht-degree: 0%
 
 ---
 
@@ -21,17 +26,17 @@ ht-degree: 22%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer]의 새로운 의사 결정 기능인 [결정]을 이제 코드 기반 경험 및 이메일 채널을 통해 사용할 수 있습니다. [자세히 알아보기](../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer]의 새로운 결정 기능인 Decisioning은 이제 코드 기반 경험 및 이메일 채널을 통해 사용할 수 있습니다. [자세히 알아보기](../../experience-decisioning/gs-experience-decisioning.md)
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_new_fallback"
 >title="대체 오퍼"
->abstract="대체 오퍼는 최종 사용자가 맞춤형 오퍼를 받을 자격이 없는 경우 표시되는 기본 오퍼입니다."
+>abstract="대체 오퍼는 최종 사용자가 개인화된 오퍼에 대한 자격이 없을 때 표시되는 기본 오퍼입니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_fallback_offer_details "
 >title="대체 오퍼 세부 정보"
->abstract="대체 오퍼의 이름을 지정합니다. 또한 하나 또는 여러 개의 기존 컬렉션 한정자를 연결하여 오퍼 라이브러리를 더 쉽게 검색하고 구성할 수 있습니다."
+>abstract="대체 오퍼의 이름을 지정합니다. 하나 또는 여러 개의 기존 컬렉션 한정자를 연결하여 오퍼 라이브러리를 보다 쉽게 검색하고 구성할 수 있습니다."
 
 다른 오퍼에 적합하지 않은 경우 고객에게 대체 오퍼가 전송됩니다. 대체 오퍼를 만드는 단계는 오퍼를 만들 때와 같이 하나 또는 여러 개의 표현을 만드는 것으로 구성됩니다.
 
@@ -77,7 +82,7 @@ ht-degree: 22%
 
    ![](../assets/fallback_created.png)
 
-## 사용 방법 비디오 {#video}
+## 방법 비디오 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341359?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329383?quality=12)
 

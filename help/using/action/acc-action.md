@@ -9,9 +9,16 @@ role: Developer, Admin
 level: Intermediate
 keywords: campaign, acc, 통합
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/Ho00nWReUS7S4PnmCzle6RbPzwt0DlZN43IQoF2918k
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: 716
 ht-degree: 9%
 
 ---
@@ -61,7 +68,7 @@ Adobe Campaign Classic v7 또는 Campaign v8이 있는 경우 여정에서 Adobe
 
 ## 전제 조건 {#prerequisites}
 
-Adobe Campaign에서는 트랜잭션 메시지와 관련 이벤트를 만들고 게시해야 합니다. [Adobe Campaign 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}를 참조하세요.
+Adobe Campaign에서는 트랜잭션 메시지와 관련 이벤트를 만들고 게시해야 합니다. [Adobe Campaign 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}를 참조하세요.
 
 아래 패턴에 따라 각 메시지에 해당하는 JSON 페이로드를 빌드할 수 있습니다. 그런 다음 Journey Optimizer에서 작업을 구성할 때 이 페이로드를 붙여 넣습니다(아래 참조).
 
@@ -92,7 +99,7 @@ Campaign 작업을 만들려면 다음 단계를 수행합니다.
 
 1. 새 작업을 만듭니다. [사용자 지정 작업을 만드는 방법을 알아봅니다](../action/action.md).
 1. 이름과 설명을 입력합니다.
-1. **[!UICONTROL 작업 유형]** 필드에서 **[!UICONTROL Adobe Campaign Classic]**&#x200B;을(를) 선택합니다.
+1. **[!UICONTROL 작업 유형]** 필드에서 **[!UICONTROL Adobe Campaign Classic]**을(를) 선택합니다.
    ![](assets/accintegration1.png)
 1. **[!UICONTROL 페이로드]** 필드를 클릭하고 캠페인 메시지에 해당하는 JSON 페이로드의 예제를 붙여 넣습니다. 이 페이로드를 가져오려면 Adobe에 문의하십시오.
 1. 여정 캔버스에서 매핑할지 여부를 기준으로 각 필드를 정적 또는 변수로 설정합니다. 예를 들어 전자 메일 채널 매개 변수 및 개인화 필드(`ctx`)와 같은 필드는 일반적으로 여정 내에서 동적으로 조정할 수 있도록 변수로 설정해야 합니다.

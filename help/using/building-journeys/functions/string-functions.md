@@ -8,9 +8,14 @@ level: Experienced
 keywords: 문자열, 함수, 표현식, 여정, 텍스트, 조작
 version: Journey Orchestration
 exl-id: 8186c564-56fa-417a-afd3-8e479e5b23b9
-source-git-commit: 11997fed640a626717ceef4201fcb7735f96cd89
+TQID: https://experienceleague.adobe.com/wrP3c7l3uHzN6w3l-fXBQOSb5Tx2NuW-6iyogKpDPc8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: 1140
 ht-degree: 15%
 
 ---
@@ -575,7 +580,7 @@ true를 반환합니다.
 * 프로필 특성 `#{ExperiencePlatform.myFieldGroup.profile.myOffers}`에서 제공함
 * 바꿀 문자열: `|OFFER_A`
 * 문자열을 `''`(으)로 대체함
-* `\\`자 앞에 `|`을(를) 추가해야 합니다.
+* `|`자 앞에 `\\`을(를) 추가해야 합니다.
 
 표현식:
 

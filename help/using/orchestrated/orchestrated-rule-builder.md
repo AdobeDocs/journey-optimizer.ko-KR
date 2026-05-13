@@ -5,13 +5,14 @@ title: 규칙 빌더를 사용하여 작업
 description: 오케스트레이션된 캠페인에 대한 규칙을 만드는 방법을 알아봅니다
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
 version: Campaign Orchestration
-source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+TQID: https://experienceleague.adobe.com/-qNlZ2dLqShJwhcIlEe3a9W8eJ-JCoTt8AzT-DU-vJA
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: 340
 ht-degree: 69%
 
 ---
-
 
 # 규칙 빌더를 사용하여 작업 {#orchestrated-rule-builder}
 

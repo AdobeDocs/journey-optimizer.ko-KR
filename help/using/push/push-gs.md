@@ -8,10 +8,17 @@ feature: Push, Overview
 role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+TQID: https://experienceleague.adobe.com/Nrs2AwD4RfgeXcAP3mhZBwt6WQUd4vUBC9CeCtIIgCU
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d3cdead0-685a-4489-9250-4bb709942f66id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '792'
-ht-degree: 1%
+source-wordcount: 829
+ht-degree: 4%
 
 ---
 
@@ -22,7 +29,7 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->이제 새 **모바일 온보딩 빠른 시작 워크플로우**&#x200B;를 사용할 수 있습니다. 이 새로운 제품 기능을 사용하여 모바일 이벤트 데이터 수집 및 유효성 검사를 시작하고 모바일 푸시 알림을 전송할 모바일 SDK을 신속하게 구성할 수 있습니다. 이 기능은 데이터 수집 홈 페이지를 통해 공개 베타로 액세스할 수 있습니다. [자세히 알아보기](mobile-onboarding-wf.md)
+>이제 새 **모바일 온보딩 빠른 시작 워크플로우**&#x200B;를 사용할 수 있습니다. 이 새로운 제품 기능을 사용하여 모바일 이벤트 데이터 수집 및 유효성 검사를 시작하고 모바일 푸시 알림을 전송할 모바일 SDK을 신속하게 구성할 수 있습니다. 이 기능은 공개 Beta 중이며 [데이터 수집] 홈 페이지를 통해 액세스할 수 있습니다. [자세히 알아보기](mobile-onboarding-wf.md)
 >
 
 [이 페이지](create-push.md)에서 푸시 알림을 만드는 방법을 알아봅니다.
@@ -61,7 +68,7 @@ ht-degree: 1%
 
 * Android 및 iOS 호환 SDK를 통해 모바일에 대한 클라이언트측 통합 API를 제공하는 **Adobe Experience Platform Mobile SDK**. SDK은 푸시 메시지에 대한 다양한 API를 노출하고 푸시 토큰을 등록하거나 푸시 추적 이벤트 또는 기타 사용자 지정 경험 이벤트를 Adobe Experience Platform에 전송하는 것과 같은 데이터 흐름을 사용하는 [!DNL Adobe Journey Optimizer] 확장을 제공합니다. SDK은 타사 파트너 기능뿐만 아니라 다른 Adobe Experience Cloud을 사용할 수 있도록 하는 기타 다양한 확장도 제공합니다.
 
-  SDK 통합에도 다음과 같은 Adobe Experience Platform [데이터 수집](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko){target="_blank"} 서비스 설정이 필요합니다.
+  SDK 통합에도 다음과 같은 Adobe Experience Platform [데이터 수집](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html){target="_blank"} 서비스 설정이 필요합니다.
 
    * 데이터 스트림을 만들어 Adobe Experience Platform으로 유입되는 데이터가 포함된 프로필 및 경험 이벤트 데이터 세트를 구성합니다.
    * 클라이언트측 모바일 속성을 만들고 확장을 추가합니다. SDK은 이러한 확장과 긴밀하게 통합되어 원활한 데이터 수집 경험을 제공합니다.

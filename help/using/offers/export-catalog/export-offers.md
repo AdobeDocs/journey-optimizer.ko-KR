@@ -10,9 +10,15 @@ role: User, Developer
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
 version: Journey Orchestration
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+TQID: https://experienceleague.adobe.com/ZnlEExKq7uM-qxcva2e0MxLFHXwGoW00axWjS-XaTZo
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: c132d929-fa62-4271-803e-b823be07b914id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1951'
+source-wordcount: 2006
 ht-degree: 1%
 
 ---
@@ -188,7 +194,7 @@ ht-degree: 1%
   **필드:** linkURL
   **설명:** 사용자 상호 작용을 위한 선택적 고유 리소스 로케이터입니다. 이 URL은 사용자 에이전트에서 최종 사용자를에 연결하는 데 사용되며 추적할 수 있습니다.
   **유형:** 문자열
-  **예:** &quot;https://cdn.adobe.io/tracker?code=23432&redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
+  **예:** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 +++_experience > 의사 결정 > 컨텐츠 > 배치
 
@@ -221,7 +227,7 @@ ht-degree: 1%
 +++ 경험 > 의사 결정 > 프로필 제한(_E)
 
 **필드:** 프로필 제약 조건
-**제목:** 프로필 제한 세부 정보
+**제목:** 프로필 제약 조건 세부 정보
 **설명:** 프로필 제약 조건은 현재 이 컨텍스트에서 옵션이 이 프로필 ID에 적합한지 여부를 결정합니다. 프로필 제약 조건이 각 옵션의 값을 고려할 필요가 없는 경우(즉, 옵션 선택의 옵션이 불변인 경우) &#39;false&#39;로 평가되는 프로필 제약 조건은 전체 옵션 선택을 취소합니다. 반면에 옵션을 매개변수로 사용하는 프로파일 제한 규칙은 옵션 선택의 각 자격 옵션에 대해 평가됩니다.
 **유형:** 개체
 
@@ -240,7 +246,7 @@ ht-degree: 1%
 
 **필드:** eligibilityRule
 **제목:** 자격 규칙
-**설명:** 지정한 프로필 및/또는 지정한 상황별 XDM 개체에 대해 참 또는 거짓로 평가되는 의사 결정 규칙에 대한 참조입니다. 규칙은 옵션이 주어진 프로필에 적합한지 여부를 결정하는 데 사용됩니다. 값은 참조되는 결정 규칙의 URI(@id)입니다. 스키마 https://ns.adobe.com/experience/decisioning/rule 를 참조하십시오.
+**설명:** 지정한 프로필 및/또는 지정한 상황별 XDM 개체에 대해 참 또는 거짓로 평가되는 결정 규칙에 대한 참조입니다. 규칙은 옵션이 주어진 프로필에 적합한지 여부를 결정하는 데 사용됩니다. 값은 참조되는 결정 규칙의 URI(@id)입니다. 스키마 https://ns.adobe.com/experience/decisioning/rule 를 참조하십시오.
 **유형:** 문자열
 
 +++
@@ -248,7 +254,7 @@ ht-degree: 1%
 +++_experience > 의사 결정 > profileConstraints > 프로필 제약 유형
 
 **필드:** profileConstraintType
-**제목:** 프로필 제한 유형
+**제목:** 프로필 제약 조건 유형
 **설명:** 현재 설정된 제약 조건이 있는지 여부와 제약 조건이 표현되는 방법을 결정합니다. 규칙 또는 하나 이상의 대상 멤버십을 통해 실행될 수 있습니다.
 **유형:** 문자열
 **가능한 값:**

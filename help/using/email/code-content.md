@@ -9,10 +9,17 @@ role: User
 level: Intermediate, Experienced
 keywords: 코드, HTML, 편집기
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
-source-git-commit: c0dcd7f206f76d133ed2e77ef692f0ae0054a6b5
+TQID: https://experienceleague.adobe.com/8CR92GEP0qQqj2h-JqzUdu9oq07Ahedcs1xh8rINvkY
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: d595a60b-bcf5-4a63-a189-66a0be755cc7id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 23%
+source-wordcount: 496
+ht-degree: 22%
 
 ---
 
@@ -94,7 +101,7 @@ HTML 스킬이 있어야 하며, 이 모드를 선택하면 코드 편집기에 
 
   예: `{%= profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate %}`
 
-* **날짜 조작 함수 사용** - 프로필 특성의 날짜 값과 함께 [&#x200B; 또는 &#x200B;](../personalization/functions/dates.md)과(와) 같은 `dayOfYear()`날짜/시간 함수 사용`diffInDays()`을(를) 사용합니다.
+* **날짜 조작 함수 사용** - 프로필 특성의 날짜 값과 함께 `dayOfYear()` 또는 `diffInDays()`과(와) 같은 [날짜/시간 함수 사용](../personalization/functions/dates.md)을(를) 사용합니다.
 
   예: `{%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/dd/YY") %}`
 

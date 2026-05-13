@@ -6,10 +6,17 @@ feature: In App
 level: Intermediate
 keywords: 인앱, 메시지, 구성, 플랫폼
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: ee9055c75ff122adcdeb8b9580701db8cd778d61
+TQID: https://experienceleague.adobe.com/GWlxb1IJ5oZue5m0s4nN7iOa1S-IfHEFNuU7Lcj0H2s
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a653cc2e-bc85-4353-a306-399e5b247978id: b3538224-471e-4c63-a444-9b19d89ae29cid: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62aid: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: fa683eda-48de-4558-af32-2673edcd44feid: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c18d9e03-ac7d-4811-9c92-3e92ddc70adeid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1005'
-ht-degree: 8%
+source-wordcount: 1113
+ht-degree: 11%
 
 ---
 
@@ -36,7 +43,7 @@ ht-degree: 8%
 
 * [Adobe Experience Platform 데이터 수집](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=ko-KR){target="_blank"}에서 **[!UICONTROL Adobe Experience Platform]** 서비스 아래에 Adobe Experience Platform Edge 및 **[!UICONTROL Adobe Journey Optimizer]** 옵션이 활성화되어 있는지와 같이 데이터 스트림이 정의되어 있는지 확인합니다.
 
-  이렇게 하면 Journey Optimizer 인바운드 이벤트가 Adobe Experience Platform Edge에서 올바르게 처리됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=ko){target="_blank"}
+  이렇게 하면 Journey Optimizer 인바운드 이벤트가 Adobe Experience Platform Edge에서 올바르게 처리됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html){target="_blank"}
 
   >[!NOTE]
   >
@@ -44,7 +51,7 @@ ht-degree: 8%
 
   ![](assets/inapp_config_6.png)
 
-* [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target="_blank"}에서 **[!UICONTROL Active-On-Edge 병합 정책]** 옵션이 활성화된 기본 병합 정책이 있는지 확인하십시오. 이렇게 하려면 **[!UICONTROL 고객]** > **[!UICONTROL 프로필]** > **[!UICONTROL 정책 병합]** Experience Platform 메뉴에서 정책을 선택합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ko#configure){target="_blank"}
+* [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target="_blank"}에서 **[!UICONTROL Active-On-Edge 병합 정책]** 옵션이 활성화된 기본 병합 정책이 있는지 확인하십시오. 이렇게 하려면 **[!UICONTROL 고객]** > **[!UICONTROL 프로필]** > **[!UICONTROL 정책 병합]** Experience Platform 메뉴에서 정책을 선택합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
 
   [!DNL Journey Optimizer] 인바운드 채널이 이 병합 정책을 사용하여 에지에서 인바운드 캠페인을 올바르게 활성화하고 게시합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ko){target="_blank"}
 
@@ -86,7 +93,7 @@ Journey Optimizer에서 인앱 구성을 만들려면 다음 단계를 수행하
 
    >[!NOTE]
    >
-   >iOS 및 Android 플랫폼의 경우 게재는 앱 ID만을 기반으로 합니다. 두 앱이 동일한 앱 ID를 공유하는 경우 **[!UICONTROL 채널 구성]**&#x200B;에서 선택한 플랫폼에 관계없이 콘텐츠가 두 앱 ID 모두에 전달됩니다.
+   >iOS 및 Android 플랫폼의 경우 게재는 앱 ID만을 기반으로 합니다. 두 앱이 동일한 앱 ID를 공유하는 경우 **[!UICONTROL 채널 구성]**에서 선택한 플랫폼에 관계없이 콘텐츠가 두 앱 ID 모두에 전달됩니다.
    >인앱 메시지 게재를 특정 플랫폼으로 제한하려면 여정 또는 캠페인 논리 내에서 장치별 규칙을 구현해야 합니다.
 
    ![](assets/inapp_config_10.png)
@@ -126,9 +133,9 @@ Journey Optimizer에서 인앱 구성을 만들려면 다음 단계를 수행하
 
 ## 보고 사전 요구 사항 {#experiment-prerequisites}
 
-인앱 채널에 대한 보고를 활성화하려면 인앱 구현 [데이터스트림](../data/get-started-datasets.md)에 사용된 [데이터 세트](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=ko){target="_blank"}도 보고 구성에 포함되어 있는지 확인해야 합니다. 즉, 보고를 구성할 때 앱 데이터 스트림에 없는 데이터 세트를 추가하면 앱 데이터가 보고서에 표시되지 않습니다. [이 섹션](../reports/reporting-configuration.md#add-datasets)에서 보고할 데이터 세트를 추가하는 방법을 알아보세요.
+인앱 채널에 대한 보고를 활성화하려면 인앱 구현 [데이터스트림](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"}에 사용된 [데이터 세트](../data/get-started-datasets.md)도 보고 구성에 포함되어 있는지 확인해야 합니다. 즉, 보고를 구성할 때 앱 데이터 스트림에 없는 데이터 세트를 추가하면 앱 데이터가 보고서에 표시되지 않습니다. [이 섹션](../reports/reporting-configuration.md#add-datasets)에서 보고할 데이터 세트를 추가하는 방법을 알아보세요.
 
-데이터 세트 스키마에 대해 미리 정의된 **필드 그룹**([이 페이지](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko#field-group){target="_blank"}에 정의된 대로) `AEP Web SDK ExperienceEvent` 및 `Consumer Experience Event`을(를) 사용하여 [not](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html?lang=ko#add-field-groups){target="_blank"}하는 경우 `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details` 및 `Web Details` 필드 그룹을 추가해야 합니다. [!DNL Journey Optimizer] 보고에서는 각 프로필이 참여하고 있는 캠페인과 여정을 추적하므로 이러한 항목이 필요합니다.
+데이터 세트 스키마에 대해 미리 정의된 [필드 그룹](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko#field-group){target="_blank"}([이 페이지](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"}에 정의된 대로) `AEP Web SDK ExperienceEvent` 및 `Consumer Experience Event`을(를) 사용하여 **not**&#x200B;하는 경우 `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details` 및 `Web Details` 필드 그룹을 추가해야 합니다. [!DNL Journey Optimizer] 보고에서는 각 프로필이 참여하고 있는 캠페인과 여정을 추적하므로 이러한 항목이 필요합니다.
 
 [보고 구성에 대해 자세히 알아보기](../reports/reporting-configuration.md)
 
@@ -139,9 +146,9 @@ Journey Optimizer에서 인앱 구성을 만들려면 다음 단계를 수행하
 
 **관련 항목:**
 
-* [인앱 메시지 만들기 &#x200B;](create-in-app.md)
+* [인앱 메시지 만들기](create-in-app.md)
 * [캠페인 만들기](../campaigns/create-campaign.md)
 * [인앱 메시지 디자인](design-in-app.md)
-* [인앱 보고서 &#x200B;](../reports/campaign-global-report-cja-inapp.md)
+* [인앱 보고서](../reports/campaign-global-report-cja-inapp.md)
 
 

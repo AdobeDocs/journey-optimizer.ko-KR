@@ -10,13 +10,18 @@ hide: true
 keywords: 표현식, 조건, 사용 사례, 이벤트
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
 version: Journey Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/UUeCcATC7MFHsLuI8TPoVHqwVe9GOXUq3U3RoAG-a1o
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 1%
+source-wordcount: 588
+ht-degree: 4%
 
 ---
-
 
 # 고급 표현식 예{#advanced-expression-examples}
 
@@ -138,7 +143,7 @@ toDateTimeOnly(currentDataPackField.timestamp) < toDateTimeOnly(nowWithDelta(4, 
                     .name} == "Arlington"
 ```
 
-설명: 이는 엄격한 문자열 비교(대/소문자 구분)입니다. `equal to`이(가) 선택된 상태에서 `Is sensitive`을(를) 사용하는 단순 모드의 쿼리와 같습니다.
+설명: 이는 엄격한 문자열 비교(대/소문자 구분)입니다. `Is sensitive`이(가) 선택된 상태에서 `equal to`을(를) 사용하는 단순 모드의 쿼리와 같습니다.
 
 `Is sensitive`을(를) 선택 취소한 동일한 쿼리는 고급 모드에서 다음 식을 생성합니다.
 

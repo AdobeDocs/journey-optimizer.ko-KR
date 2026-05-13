@@ -10,9 +10,13 @@ role: Developer
 level: Experienced
 exl-id: 7d766f0a-4fcb-434a-bbfd-e18ade71ae56
 version: Journey Orchestration
-source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
+TQID: https://experienceleague.adobe.com/VFpsMqLFVSUNz8RrlgqUNQDOR4-3F7R8-Xi6C1oI9gI
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: 174
 ht-degree: 18%
 
 ---
@@ -42,7 +46,7 @@ ht-degree: 18%
 PATCH /{ENDPOINT_PATH}/offer-collections/{ID}
 ```
 
-| 매개변수 | 설명 | 예 |
+| 매개 변수 | 설명 | 예 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 지속성 API의 끝점 경로입니다. | `https://platform.adobe.io/data/core/dps` |
 | `{ID}` | 업데이트하려는 엔티티의 ID입니다. | `offerCollection1234` |
@@ -70,7 +74,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offer-collections/offerCo
 ]'
 ```
 
-| 매개변수 | 설명 |
+| 매개 변수 | 설명 |
 | --------- | ----------- |
 | `op` | 연결을 업데이트하는 데 필요한 작업을 정의하는 데 사용되는 작업 호출입니다. 작업은 `add`, `replace`, `remove`, `copy` 및 `test`입니다. |
 | `path` | 업데이트할 매개 변수의 경로입니다. |

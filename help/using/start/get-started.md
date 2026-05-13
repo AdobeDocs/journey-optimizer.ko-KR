@@ -7,24 +7,31 @@ feature: Get Started
 topic: Content Management
 role: User
 level: Beginner
-keywords: 여정 최적화 도구, ajo, adobe 여정 최적화 도구, 시작하기, 옴니채널, 개인화, 고객 여정
+keywords: journey optimizer, ajo의 , adobe journey optimizer, 시작, 옴니채널, 개인화, 고객 여정
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: c4404de32e9a1d400273863185c1b7fa9b21eb6d
+TQID: https://experienceleague.adobe.com/HYykJIqT1bcoN1oXrG6uvfNuhDNOGLfPtOAf-Y3hzsQ
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: addf009e-030a-4310-8534-776a3e62ed48id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 14%
+source-wordcount: 1296
+ht-degree: 100%
 
 ---
 
 # Journey Optimizer 시작 {#ajo-gs}
 
-이 페이지에서는 Adobe Journey Optimizer의 정의, 대상, 주요 기능 및 Adobe Experience Platform 아키텍처에 적합한 방식을 소개합니다. 새 사용자에게 권장되는 시작점입니다.
+이 페이지에서는 Adobe Journey Optimizer의 정의, 대상 사용자, 주요 기능, Adobe Experience Platform 아키텍처에서 담당하는 역할을 소개합니다. 신규 사용자가 시작 지점으로 사용하는 것을 추천합니다.
 
 ## [!DNL Adobe Journey Optimizer] 소개{#about-ajo}
 
-[!DNL Adobe Journey Optimizer]은(는) 모든 채널 및 접점에서 연관성 있고 상황에 맞는 개인화된 고객 경험을 만들고 제공하기 위한 엔터프라이즈 애플리케이션입니다. 기본적으로 [!DNL Adobe Experience Platform]을(를) 기반으로 구축되었으며 통합 실시간 고객 프로필, API 우선 오픈 프레임워크, 중앙 집중식 Offer Decisioning 및 AI/ML 기능을 활용합니다. Journey Optimizer을 사용하면 브랜드가 예약된 마케팅 캠페인과 실시간, 이벤트 트리거 커뮤니케이션을 모두 단일 애플리케이션에서 규모에 맞게 오케스트레이션할 수 있습니다. 그 결과는 고객 충성도와 라이프타임 가치를 높이는 의미 있는 브랜드 경험입니다.
+[!DNL Adobe Journey Optimizer]은(는) 모든 채널 및 접점에서 연결되고 상황에 적합하며 개인화된 고객 경험을 만들고 게재하기 위한 엔터프라이즈 애플리케이션입니다. 기본적으로 [!DNL Adobe Experience Platform] 기반으로 구축되었으며 통합 실시간 고객 프로필, API 중심 오픈 프레임워크, 중앙 집중식 오퍼 결정, AI/ML 기능을 활용합니다. Journey Optimizer를 사용하면 브랜드가 예약된 마케팅 캠페인과 이벤트에 의해 트리거되는 실시간 커뮤니케이션 모두를 단일 애플리케이션에서 대규모로 오케스트레이션할 수 있습니다. 그 결과 고객 충성도와 생애 가치를 높이는 의미 있는 브랜드 경험을 제공할 수 있습니다.
 
-이 안내서는 Journey Optimizer을 처음 사용하는 마케팅 실무자, 운영 팀 및 관리자에게 적용됩니다.
+이 안내서는 Journey Optimizer를 처음 사용하는 마케팅 실무자, 운영 팀, 관리자에게 적용됩니다.
 
 ➡️ [Journey Optimizer 살펴보기](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html?lang=ko){target="_blank"}(비디오)
 
@@ -40,110 +47,110 @@ You can also create audience-based campaigns to send messages.
 
 [!DNL Adobe Journey Optimizer]는 모든 앱, 장치 또는 채널에서 개인화되고, 연결되며, 시기적절한 고객 경험을 만들고 게재할 수 있는 민첩하고 확장 가능한 애플리케이션입니다.
 
-![Journey Optimizer의 세 가지 핵심 기능 영역인 실시간 고객 인사이트 및 참여, 최신 옴니채널 오케스트레이션 및 실행, Intelligent Decisioning 및 Personalization을 모두 Adobe Experience Platform을 기반으로 하는 다이어그램을 표시합니다.](assets/ajo-capabilities.png)
+![Journey Optimizer의 세 가지 핵심 기능 영역이며 Adobe Experience Platform을 기반으로 하는 실시간 고객 인사이트 및 참여, 최신 옴니채널 오케스트레이션 및 실행, 지능형 의사 결정 및 개인화를 보여 주는 다이어그램입니다.](assets/ajo-capabilities.png)
 
-주요 기능은 다음을 포함합니다.
+주요 기능은 다음과 같습니다.
 
 ### 실시간 고객 인사이트 및 참여
 
-통합 프로필은 행동, 트랜잭션, 재무 및 운영 데이터를 포함하여 고객 접점 전반에 걸쳐 있는 모든 소스의 라이브 데이터를 융합하여 고객을 위한 개인적이고 상황별 경험을 적시에 최적화합니다. [프로필 및 대상자에 대해 알아보기](../audience/get-started-profiles.md)
+통합된 프로필은 행동, 트랜잭션, 재무, 운영 데이터를 포함하여 고객 접점 전반에 걸쳐 있는 모든 소스의 라이브 데이터를 융합하여 고객을 위해 개인과 상황에 맞는 경험을 적시에 최적화합니다. [프로필과 대상자에 대해 알아보기](../audience/get-started-profiles.md)
 
 ### 최신 옴니채널 오케스트레이션 및 실행
 
-1:1 고객 참여 및 마케팅 전달을 위한 고객 여정을 조화롭게 최적화하고 최적화하여 브랜드가 고객 라이프사이클에서 더 많은 가치를 제공할 수 있는 단일 캔버스입니다. [!DNL Adobe Journey Optimizer]에 디자인된 고객 여정은 브랜드가 실시간 신호에 반응하고 이러한 상호 작용을 예약된 캠페인과 연결할 수 있도록 동적 및 이벤트를 기반으로 할 수 있으므로 고객이 언제 어떤 채널을 통해 보낼 커뮤니케이션에 대해 올바른 결정을 내릴 수 있습니다. 끌어다 놓기 비주얼 디자이너, 재사용 가능한 템플릿, 콘텐츠 조각 및 개인화 편집기를 포함한 포함된 콘텐츠 작성 도구를 통해 팀은 동일한 워크플로 내에서 모든 채널에 대한 메시지를 직접 작성, 개인화 및 관리할 수 있습니다. [첫 번째 여정 만들기](../building-journeys/journey-gs.md) | [콘텐츠 디자인](../../rp_landing_pages/content-management-landing-page.md)
+1:1 고객 참여 및 마케팅 제공을 위한 고객 여정을 조화롭게 결합하고 최적화하여 브랜드가 고객 라이프사이클 전반에 걸쳐 더 많은 가치를 제공할 수 있도록 지원하는 단일 캔버스입니다. [!DNL Adobe Journey Optimizer]에서 디자인한 고객 여정은 동적이고 이벤트 기반으로 작동할 수 있으므로 브랜드가 실시간 신호에 반응하고 이 상호 작용을 예약된 캠페인과 연결하여 고객에게 보낼 커뮤니케이션, 그 시점, 이때 사용할 채널에 대해 올바른 결정을 내리는 데 도움이 됩니다. 드래그 앤 드롭 방식의 비주얼 디자이너, 재사용 가능한 템플릿, 콘텐츠 조각, 개인화 편집기 등 콘텐츠 제작 도구가 포함되어 있어 팀이 동일한 워크플로 내에서 모든 채널의 메시지를 직접 작성, 개인화, 관리할 수 있습니다. [첫 번째 여정 작성](../building-journeys/journey-gs.md) | [콘텐츠 디자인](../../rp_landing_pages/content-management-landing-page.md)
 
-### Intelligent Decisioning &amp; Personalization
+### 지능형 의사 결정 및 개인화
 
-브랜드는 중앙 집중식 의사 결정을 적용하고 인공 지능과 머신 러닝을 통합하여 고객 경험 전반에 대한 예측 인사이트를 구성할 수 있으므로 의사 결정을 보다 쉽게 자동화하고 경험을 규모에 맞게 최적화할 수 있습니다. Decisioning은 [!DNL Adobe Journey Optimizer]을(를) 통해 대규모로 채널 전반에서 중앙 집중식 오퍼를 구동합니다. [Offer Decisioning 살펴보기](../offers/get-started/starting-offer-decisioning.md) | [AI 기능 살펴보기](ai-features.md)
+브랜드는 중앙 집중식 의사 결정을 적용하고 인공 지능과 머신 러닝을 통합하여 고객 경험 전반에 대한 예측 인사이트를 구성함으로써 보다 쉽게 의사 결정을 자동화하고 경험을 대규모로 최적화할 수 있습니다. 의사 결정은 [!DNL Adobe Journey Optimizer]을(를) 통해 대규모로 채널 전반에서 중앙 집중식 오퍼를 제공합니다. [오퍼 결정 살펴보기](../offers/get-started/starting-offer-decisioning.md) | [AI 기능 살펴보기](ai-features.md)
 
 
 ## 사용 사례 {#use-cases}
 
-이러한 예는 다양한 역할, 업계 및 채널에서 Journey Optimizer의 기능이 함께 작동하는 방식을 보여 줍니다.
+다양한 역할, 업계, 채널에서 Journey Optimizer의 여러 기능이 함께 작동하는 방식을 보여 주는 예시입니다.
 
-### 선적 복구 지연 {#uc-delayed-shipment}
+### 배송 지연 후 회복 조치 {#uc-delayed-shipment}
 
 **역할:** 마케터 | **핵심 기능:** [통합 프로필 + 대상 제외](../audience/get-started-profiles.md)
 
-의류 매장은 일반적으로 지난 주에 제품을 구매한 모든 고객에게 구매 후 설문 조사를 보냅니다. 악천후 때문에 몇 개의 배송이 지연되었습니다. 배송을 받지 않은 고객을 확인하면 의류 매장에서는 예정된 고객 만족도 조사 전송 대상에서 해당 고객을 제외하고 지연에 대해 사과한 후 할인 코드를 제공하며 고객의 과거 구매 내역을 기반으로 제품을 추천할 수 있습니다.
+어느 의류 매장에서는 일반적으로 지난주에 제품을 구매한 모든 고객에게 구매 후 설문 조사를 보냅니다. 악천후 때문에 몇 개의 배송이 지연되었습니다. 배송을 받지 않은 고객을 확인하면 의류 매장에서는 예정된 고객 만족도 조사 전송 대상에서 해당 고객을 제외하고 지연에 대해 사과한 후 할인 코드를 제공하며 고객의 과거 구매 내역을 기반으로 제품을 추천할 수 있습니다.
 
 [캠페인 시작](../campaigns/get-started-with-campaigns.md)
 
-### 실시간 매장 참여 {#uc-instore}
+### 실시간 매장 내 참여 {#uc-instore}
 
 **역할:** 마케터 | **핵심 기능:** [Geofence 트리거 + 푸시](../push/get-started-push.md)
 
-같은 retailer은 재입고된 고객 사이즈 스웨터에 대한 푸시 알림을 보내어 매장 주차장에 실시간으로 들어오는 단골 고객을 참여시킬 수 있다.
+동일한 가게에서 고객이 매장 주차장에 들어올 때 실시간으로 재입고된 해당 고객 사이즈 스웨터에 대한 푸시 알림을 보내어 단골 고객의 관심을 사로잡을 수 있습니다.
 
-[푸시 알림 시작하기](../push/get-started-push.md)
+[푸시 알림 시작](../push/get-started-push.md)
 
-### 장바구니 포기 복구 {#uc-cart}
+### 장바구니 포기 후 회복 조치 {#uc-cart}
 
-**역할:** 마케터 | **핵심 기능:** [이벤트 트리거된 여러 단계 여정](../building-journeys/journey-gs.md)
+**역할:** 마케터 | **핵심 기능:** [이벤트로 트리거되는 단계 여정](../building-journeys/journey-gs.md)
 
-고객이 온라인 장바구니에 항목을 추가했지만 구매를 완료하지 않고 떠나면 Journey Optimizer이 실시간으로 이벤트를 감지하고 자동으로 복구 여정을 시작합니다. 고객은 남겨진 항목을 알려 주는 개인화된 이메일을 받게 됩니다. 24시간 이내에 클릭스루하지 않으면 후속 푸시 알림이 전송되며, 브라우징 기록 및 충성도 상태에 따라 개인화됩니다.
+고객이 온라인 장바구니에 항목을 추가했지만 구매를 완료하지 않고 떠나면 Journey Optimizer가 실시간으로 이벤트를 감지하고 자동으로 회복 여정을 시작합니다. 고객은 구매하지 않고 남긴 제품을 알려 주는 개인화된 이메일을 받게 됩니다. 24시간 이내에 클릭스루하지 않으면 브라우징 기록 및 충성도 상태에 따라 개인화된 후속 푸시 알림이 전송됩니다.
 
-[첫 번째 여정 구축](../building-journeys/journey-gs.md)
+[첫 번째 여정 작성](../building-journeys/journey-gs.md)
 
-### 스트리밍 서비스 시작 시리즈 {#uc-welcome}
+### 스트리밍 서비스 환영 시리즈 {#uc-welcome}
 
-**역할:** 마케터 | **핵심 기능:** [이벤트 트리거 시작 여정](../building-journeys/journey-gs.md)
+**역할:** 마케터 | **핵심 기능:** [이벤트로 트리거되는 환영 여정](../building-journeys/journey-gs.md)
 
-고객이 스트리밍 서비스에 가입하면 Journey Optimizer이 가입 이벤트를 감지하고 즉시 다단계 환영 여정을 시작합니다. 고객은 앱을 처음 열 수 있도록 권장하는 시작 이메일을 수신합니다. 48시간 이내에 로그인 활동이 감지되지 않으면 등록 중에 명시된 관심사를 기반으로 개인화된 콘텐츠 추천과 함께 후속 푸시 알림이 전송되어 패시브 가입자가 첫날부터 능동적인 참여 사용자로 전환됩니다.
+고객이 스트리밍 서비스에 가입하면 Journey Optimizer가 가입 이벤트를 감지하여 즉시 여러 단계 환영 여정을 시작합니다. 고객은 앱을 처음으로 열어 보라고 추천하는 환영 이메일을 수신합니다. 48시간 이내에 로그인 활동이 감지되지 않으면 등록할 때 명시한 관심사를 기반으로 개인화된 콘텐츠 추천이 포함된 후속 푸시 알림이 전송되어 첫날부터 수동적인 구독자를 능동적으로 참여하는 사용자로 전환할 수 있습니다.
 
-[첫 번째 여정 구축](../building-journeys/journey-gs.md)
+[첫 번째 여정 작성](../building-journeys/journey-gs.md)
 
 ### 지침이 포함된 예약 미리 알림 {#uc-reservation}
 
-**역할:** 마케터 | **핵심 기능:** [예약된 + 위치 인식 메시지](../campaigns/get-started-with-campaigns.md)
+**역할:** 마케터 | **핵심 기능:** [예약된 + 위치 인식형 메시지](../campaigns/get-started-with-campaigns.md)
 
-접대 브랜드는 예약 한 시간 전에 각 고객에게 적시에 미리 알림을 보냅니다. 알림에는 게스트의 이름, 예약 시간 및 장소에 대한 위치 기반 지침이 포함되어 있으며 마케팅 팀의 수동 노력 없이 고객 프로필 및 예약 데이터에서 자동으로 조합됩니다.
+어느 호스피탈리티 브랜드에서는 예약 한 시간 전에 각 고객에게 적시 미리 알림을 보냅니다. 알림에는 게스트의 이름, 예약 시간, 장소에 대한 위치 기반 안내가 포함되어 있으며, 이 내용은 마케팅 팀의 수작업 없이 고객 프로필 및 예약 데이터 자동으로 조합됩니다.
 
 [캠페인 시작](../campaigns/get-started-with-campaigns.md)
 
-### 사전 서비스 중단 알림 {#uc-outage}
+### 서비스 중단 사전 알림 {#uc-outage}
 
-**역할:** 작업 | **핵심 기능:** [규모에 맞게 자동화된 대상 선택](../audience/about-audiences.md)
+**역할:** 운영 | **핵심 기능:** [자동화된 대규모 대상자 선택](../audience/about-audiences.md)
 
-서비스가 중단되면 Journey Optimizer은 계정 데이터 및 사용 패턴을 기반으로 영향을 받는 고객을 자동으로 식별합니다. 이러한 고객은 문제를 인정하는 사전 알림을 받고 다음 단계를 요약합니다. 즉, 잠재적으로 부정적인 경험을 투명성과 신뢰의 순간으로 전환하여 규모에 맞게 제공할 수 있습니다.
+서비스가 중단되면 Journey Optimizer는 계정 데이터 및 사용 패턴을 기반으로 영향을 받는 고객을 자동으로 식별합니다. 해당 고객은 문제에 대해 알리고 다음 단계를 요약하는 사전 알림을 받게 됩니다. 이를 통해 부정적일 수 있는 경험을 투명성과 신뢰의 순간으로 전환하여 대규모로 할 수 있습니다.
 
-[첫 번째 여정 구축](../building-journeys/journey-gs.md)
+[첫 번째 여정 작성](../building-journeys/journey-gs.md)
 
 ### AI 기반 홍보 캠페인 {#uc-ai-campaign}
 
 **역할:** 마케터 | **핵심 기능:** [AI 콘텐츠 생성 + 실험](ai-features.md)
 
-제품 출시를 계획하는 소매 브랜드는 Journey Optimizer의 AI Assistant를 사용하여 자연어 프롬프트 및 업로드된 브랜드 지침에 따라 분 단위로 여러 제목 줄 및 본문 사본 변형을 생성합니다. 기본 제공 콘텐츠 실험은 초기 대상 샘플 중에서 가장 성과가 좋은 변형을 자동으로 식별합니다. 그런 다음 우수성이 검증된 메시지가 나머지 수신자에게 배포되어 추가적인 카피라이팅 노력 없이 참여를 극대화합니다.
+제품 출시를 계획하는 소매 브랜드에서 Journey Optimizer의 AI 어시스턴트를 사용하여 자연어 프롬프트 및 업로드된 브랜드 지침에 기반한 여러 제목 및 본문 카피 베리에이션을 몇 분만에 생성합니다. 기본 제공 콘텐츠 실험은 초기 대상자 샘플 중에서 가장 성과가 좋은 변형을 자동으로 식별합니다. 그런 다음 우수성이 검증된 메시지가 나머지 수신자에게 배포되어 추가적인 카피라이팅 노력 없이 참여도를 극대화할 수 있습니다.
 
-[AI 및 지능형 기능 살펴보기](ai-features.md) | [콘텐츠 실험에 대해 알아보기](../content-management/experiment-accelerator-gs.md)
+[AI 및 인텔리전트 기능 살펴보기](ai-features.md) | [콘텐츠 실험에 대해 알아보기](../content-management/experiment-accelerator-gs.md)
 
 ### 모바일 앱을 통한 유지 관리 경고 {#uc-maintenance}
 
-**역할:** 작업 | **핵심 기능:** [비마케팅 여정 오케스트레이션](../building-journeys/journey-gs.md)
+**역할:** 운영 | **핵심 기능:** [비마케팅 여정 오케스트레이션](../building-journeys/journey-gs.md)
 
-운영 팀 및 고객 지원과 같은 비마케터는 [!DNL Adobe Journey Optimizer]을(를) 사용하여 운영 알림을 관리하거나 온보딩 프로세스를 모니터링할 수 있습니다. 예를 들어 방문자가 경험의 일부로 모바일 앱을 다운로드하는 놀이공원: 유지 관리 직원은 Journey Optimizer을 사용하여 공원 방문자에게 유지 관리로 인해 현재 닫힌 놀이기구를 알릴 수 있습니다.
+운영 팀 및 고객 지원 센터 등 마케터가 아닌 사용자는 [!DNL Adobe Journey Optimizer]을(를) 사용하여 운영 알림을 관리하거나 온보딩 프로세스를 모니터링할 수 있습니다. 예를 들어 방문자가 경험의 일부로 모바일 앱을 다운로드하는 놀이공원의 경우, 유지 관리 직원은 Journey Optimizer를 사용하여 공원 방문자에게 유지 관리 작업으로 인해 현재 운행하지 않는 놀이기구에 대해 알릴 수 있습니다.
 
-[첫 번째 여정 구축](../building-journeys/journey-gs.md)
+[첫 번째 여정 작성](../building-journeys/journey-gs.md)
 
 
 ## 가용성 및 라이선스 {#availability}
 
-이 설명서는 Journey Optimizer의 현재 릴리스에 대해 설명하며, 별도로 언급되지 않는 한 B2C 및 B2B edition 사용자 모두에게 적용됩니다. 사용자 환경에서 사용할 수 있는 구성 요소 및 기능은 [사용 권한](../administration/permissions.md) 및 [라이선스 패키지](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}에 따라 다릅니다. 질문이 있는 경우 Adobe 고객 성공 관리자 또는 Adobe 담당자에게 문의하세요.
+이 설명서는 Journey Optimizer의 현재 릴리스에 대해 설명하며, 별도로 언급되지 않는 한 B2C 및 B2B Edition 사용자 모두에게 적용됩니다. 사용자 환경에서 사용할 수 있는 구성 요소 및 기능은 [사용 권한](../administration/permissions.md) 및 [라이선스 패키지](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}에 따라 다릅니다. 질문이 있는 경우 Adobe 고객 성공 관리자 또는 Adobe 담당자에게 문의하세요.
 
 Adobe Experience Cloud 일반 개인 정보 보호 지침 및 절차는 [!DNL Journey Optimizer]에 적용됩니다. [Adobe Experience Cloud 개인 정보에 대한 자세한 내용을 살펴보십시오](https://www.adobe.com/kr/privacy/experience-cloud.html){target="_blank"}.
 
 
 ## 아키텍처 {#architecture}
 
-Journey Optimizer은 기본적으로 Adobe Experience Platform을 기반으로 구축되어 데이터 기반, ID 그래프 및 거버넌스 서비스를 공유합니다. 이러한 시스템이 함께 작동하는 방법에 대한 자세한 설명은 [Journey Optimizer 이해](understanding-ajo.md)를 참조하십시오.
+Journey Optimizer는 기본적으로 Adobe Experience Platform을 기반으로 구축되어 그 데이터 기반, ID 그래프, 거버넌스 서비스를 공유합니다. 이러한 시스템이 함께 작동하는 방법에 대한 자세한 설명은 [Journey Optimizer 이해](understanding-ajo.md)를 참조하십시오.
 
 
 ## 관련 리소스 {#related-resources}
 
-* [시작하는 주요 단계](quick-start.md) — 관리자, 마케터 및 데이터 엔지니어를 위한 역할 기반 빠른 시작 안내서입니다.
-* [데이터 관리 시작](../data/gs-data.md) - Journey Optimizer에서 데이터를 수집, 통합 및 활성화하는 방법에 대해 알아봅니다.
-* [여정 디자인 및 메시지 보내기](../building-journeys/journey-gs.md) - 첫 번째 고객 여정을 빌드하고 채널 작업을 구성합니다.
-* [실시간 보고서](../reports/live-report.md) - 캠페인 및 여정 성과를 실시간으로 모니터링합니다.
-* [Journey Optimizer 자습서 소개](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction){target="_blank"} - 핵심 Journey Optimizer 개념에 대한 안내 비디오 연습입니다.
-* [Journey Optimizer 보안 개요](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf)&#x200B;(PDF) - 보안 아키텍처, 데이터 보호 및 규정 준수에 대한 세부 정보.
-* [Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} — 공식 라이선스 사용 약관 및 편집 기능 분류.
+* [시작하기 위한 주요 단계](quick-start.md) — 관리자, 마케터, 데이터 엔지니어를 위한 역할 빠른 시작 안내서입니다.
+* [데이터 관리 시작](../data/gs-data.md) — Journey Optimizer에서 데이터를 수집, 통합, 활성화하는 방법에 대해 알아봅니다.
+* [여정 디자인 및 메시지 보내기](../building-journeys/journey-gs.md) — 첫 번째 고객 여정을 작성하고 채널 액션을 구성합니다.
+* [실시간 보고서](../reports/live-report.md) — 캠페인 및 여정 성과를 실시간으로 모니터링합니다.
+* [Journey Optimizer 소개 튜토리얼](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction){target="_blank"} — 핵심 Journey Optimizer 개념에 대한 안내형 비디오 연습입니다.
+* [Journey Optimizer 보안 개요](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf)&#x200B;(PDF) — 보안 아키텍처, 데이터 보호, 규정 준수 관련 세부 정보를 제공합니다.
+* [Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} — 공식 라이선스 약관 및 편집 기능 분류를 제공합니다.

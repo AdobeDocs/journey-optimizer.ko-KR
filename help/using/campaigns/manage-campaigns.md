@@ -10,9 +10,16 @@ mini-toc-levels: 1
 level: Beginner
 keywords: 캠페인, 상태, 일정, 액세스, 최적화 도구 관리
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/k-BZOO4BOzdW2TVlBrDx1CH-Wte7KEXffXqZYRvUI7w
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1692'
+source-wordcount: 1692
 ht-degree: 10%
 
 ---
@@ -81,7 +88,7 @@ API 트리거 캠페인 목록에 액세스하려면 **[!UICONTROL API 트리거
 
 ## 캠페인 작업 {#operations}
 
-캠페인 인벤토리의 추가 작업 단추![&#128279;](assets/do-not-localize/rule-builder-icon-more.svg) 단추를 표시하는 이미지를 사용하면 다양한 작업을 수행할 수 있습니다.
+캠페인 인벤토리의 추가 작업 단추](assets/do-not-localize/rule-builder-icon-more.svg) 단추를 표시하는 ![이미지를 사용하면 다양한 작업을 수행할 수 있습니다.
 
 ![캠페인 인벤토리를 표시하는 이미지](assets/inventory-actions.png)
 
@@ -108,7 +115,7 @@ API 트리거 캠페인 목록에 액세스하려면 **[!UICONTROL API 트리거
 
 각 캠페인은 인터페이스의 상태가 반영하는 라이프사이클을 통해 이동합니다. 이러한 상태를 이해하면 사용 가능한 작업과 다음 작업을 이해하는 데 도움이 됩니다.
 
-| 상태 | 액션 캠페인 | API-트리거된 캠페인 | 오케스트레이션된 캠페인 | 의미 | 다음 작업 |
+| 상태 | 액션 캠페인 | API로 트리거되는 캠페인 | 오케스트레이션된 캠페인 | 의미 | 다음 작업 |
 |--------|:----------------:|:-----------------------:|:----------------------:|---------------|--------------|
 | **[!UICONTROL 초안]** | ✅ | ✅ | ✅ | 편집 중, 활성화되지 않음 | 편집을 계속하거나 [캠페인을 활성화](review-activate-campaign.md) |
 | **[!UICONTROL 예약됨]** | ✅ | ✅ | ✅ | 특정 시작 날짜에 대해 구성됨 | 시작 대기, 필요한 경우 [수정](#modify) 또는 [일정에서 보기](#calendar) |
@@ -243,7 +250,7 @@ API 트리거 캠페인 목록에 액세스하려면 **[!UICONTROL API 트리거
 
 ## 캠페인 삭제 {#delete-a-campaign}
 
-캠페인을 삭제하려면 추가 작업 단추![&#128279;](assets/do-not-localize/rule-builder-icon-more.svg) 단추를 표시하는 줄임표 이미지를 사용하고 **[!UICONTROL 삭제]**&#x200B;를 선택하십시오.
+캠페인을 삭제하려면 추가 작업 단추](assets/do-not-localize/rule-builder-icon-more.svg) 단추를 표시하는 줄임표 ![이미지를 사용하고 **[!UICONTROL 삭제]**&#x200B;를 선택하십시오.
 
 ![](assets/delete-a-campaign.png){width="70%" align="left"}
 
@@ -253,7 +260,7 @@ API 트리거 캠페인 목록에 액세스하려면 **[!UICONTROL API 트리거
 
 ## 캠페인 복제 {#duplicate-a-campaign}
 
-캠페인을 복제하려면, 예를 들어 중단된 경우 추가 작업 단추![&#128279;](assets/do-not-localize/rule-builder-icon-more.svg) 단추를 표시하는 줄임표 이미지를 사용하고 **[!UICONTROL 복제]**&#x200B;를 선택하십시오.
+캠페인을 복제하려면, 예를 들어 중단된 경우 추가 작업 단추](assets/do-not-localize/rule-builder-icon-more.svg) 단추를 표시하는 줄임표 ![이미지를 사용하고 **[!UICONTROL 복제]**&#x200B;를 선택하십시오.
 
 캠페인 이름을 입력하고 확인합니다.
 

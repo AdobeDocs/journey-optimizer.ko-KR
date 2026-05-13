@@ -10,10 +10,14 @@ role: Developer
 level: Experienced
 exl-id: 52f4803b-9e9a-4ad0-ae24-de652006763d
 version: Journey Orchestration
-source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
+TQID: https://experienceleague.adobe.com/JZhp7DudmeNDzePS2JYGVq-JHcnKPSj-HgsEvFtiSmc
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: c132d929-fa62-4271-803e-b823be07b914id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 19%
+source-wordcount: 139
+ht-degree: 20%
 
 ---
 
@@ -24,7 +28,7 @@ ht-degree: 19%
 >[!DNL Adobe Journey Optimizer]의 새로운 의사 결정 기능인 [결정]을 이제 코드 기반 경험 및 이메일 채널을 통해 사용할 수 있습니다. [자세히 알아보기](../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
-때때로 결정 규칙을 제거(DELETE)해야 할 수 있습니다. 이 작업은 삭제할 결정 규칙의 [!DNL Offer Library]을(를) 사용하여 `id` API에 대한 DELETE 요청을 수행함으로써 수행됩니다.
+때때로 결정 규칙을 제거(DELETE)해야 할 수 있습니다. 이 작업은 삭제할 결정 규칙의 `id`을(를) 사용하여 [!DNL Offer Library] API에 대한 DELETE 요청을 수행함으로써 수행됩니다.
 
 **API 형식**
 
@@ -32,7 +36,7 @@ ht-degree: 19%
 DELETE /{ENDPOINT_PATH}/offer-rules/{ID}
 ```
 
-| 매개변수 | 설명 | 예 |
+| 매개 변수 | 설명 | 예 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 지속성 API의 끝점 경로입니다. | `https://platform.adobe.io/data/core/dps` |
 | `{ID}` | 삭제하려는 엔티티의 ID입니다. | `offerRule1234` |

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: 결정 만들기
+title: 의사 결정 만들기
 description: 의사 결정을 만드는 방법 알아보기
 badge: label="레거시" type="Informative"
 feature: Decision Management
@@ -10,18 +10,23 @@ role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 version: Journey Orchestration
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/30rooSeteomQEDdTg97LiJDU6-YUiRA0Au3DJp-LQH0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: c132d929-fa62-4271-803e-b823be07b914id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '2569'
-ht-degree: 10%
+source-wordcount: 2569
+ht-degree: 0%
 
 ---
 
-# 결정 만들기 {#create-offer-activities}
+# 의사 결정 만들기 {#create-offer-activities}
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer]의 새로운 의사 결정 기능인 [결정]을 이제 코드 기반 경험 및 이메일 채널을 통해 사용할 수 있습니다. [자세히 알아보기](../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer]의 새로운 결정 기능인 Decisioning은 이제 코드 기반 경험 및 이메일 채널을 통해 사용할 수 있습니다. [자세히 알아보기](../../experience-decisioning/gs-experience-decisioning.md)
 
 의사 결정은 게재 대상에 따라 제공할 최상의 오퍼를 선택하기 위해 오퍼 의사 결정 엔진을 활용하는 오퍼에 대한 컨테이너입니다.
 
@@ -38,12 +43,12 @@ ht-degree: 10%
 * [개인화된 오퍼](../offer-library/creating-personalized-offers.md)
 * [대체 오퍼](../offer-library/creating-fallback-offers.md)
 
-## 결정 만들기 {#create-activity}
+## 의사 결정 만들기 {#create-activity}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_details"
 >title="오퍼 결정 세부 정보"
->abstract="결정의 이름을 지정하고 필요한 경우 시작 및 종료 날짜와 시간을 정의합니다. 결정에 사용자 정의 또는 핵심 데이터 사용 레이블을 할당하려면 **[!UICONTROL 액세스 관리]**&#x200B;를 선택합니다."
+>abstract="의사 결정 이름을 지정하고 필요한 경우 시작 및 종료 날짜 및 시간을 정의합니다. 사용자 지정 또는 핵심 데이터 사용 레이블을 결정에 할당하려면 **[!UICONTROL 액세스 관리]**&#x200B;를 선택하세요."
 
 1. 결정 목록에 액세스한 다음 **[!UICONTROL 결정 만들기]**&#x200B;를 클릭합니다.
 
@@ -53,24 +58,24 @@ ht-degree: 10%
 
    ![](../assets/activities-name.png)
 
-1. 결정에 사용자 정의 또는 핵심 데이터 사용 레이블을 할당하려면 **[!UICONTROL 액세스 관리]**&#x200B;를 선택합니다. [OLAC(개체 수준 액세스 제어)에 대해 자세히 알아보기](../../administration/object-based-access.md)
+1. 사용자 지정 또는 핵심 데이터 사용 레이블을 결정에 할당하려면 **[!UICONTROL 액세스 관리]**&#x200B;를 선택하세요. [OLAC(개체 수준 액세스 제어)에 대해 자세히 알아보기](../../administration/object-based-access.md)
 
 ## 결정 범위 정의 {#add-decision-scopes}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_scopes"
 >title="결정 범위"
->abstract="오퍼 결정에 대한 범위를 하나 또는 여러 개로 구성하여 표시할 제안을 결정합니다. 이 작업은 배치 및 이 배치에 대한 관련 평가 기준을 선택하여 수행됩니다."
+>abstract="오퍼 결정에 대해 하나 이상의 범위를 구성하여 표시할 오퍼를 결정합니다. 이 작업은 배치 및 이 배치에 대한 연관된 평가 기준을 선택하여 수행됩니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_placement"
 >title="배치"
->abstract="오퍼를 게재할 배치를 선택합니다."
+>abstract="오퍼가 게재될 배치를 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_evaluation"
 >title="평가 기준"
->abstract="평가 기준은 자격 제약과 관련된 오퍼 컬렉션과 순위 결정 방법으로 구성되어 배치에 표시될 오퍼를 결정합니다. 평가 기준의 순서에 따라 먼저 평가할 컬렉션을 결정합니다. 최소한 하나 이상의 평가 기준이 필요합니다."
+>abstract="평가 기준은 자격 제한 사항과 연관된 오퍼 컬렉션 및 배치에 표시할 오퍼를 결정하는 순위 메서드로 구성됩니다. 평가 기준의 시퀀스에 따라 먼저 평가될 컬렉션이 결정됩니다. 하나 이상의 평가 기준이 필요합니다."
 
 1. 드롭다운 목록에서 배치를 선택합니다. 귀하의 결정 중 첫 번째 결정 범위에 추가됩니다.
 
@@ -118,7 +123,7 @@ ht-degree: 10%
 
      [이 섹션](../offer-library/creating-decision-rules.md)에서 의사 결정 규칙을 만드는 방법을 알아봅니다.
 
-1. 대상자 또는 결정 규칙을 선택하면 예상 적격 프로필에 대한 정보를 볼 수 있습니다. 데이터를 업데이트하려면 **[!UICONTROL 새로 고침]**&#x200B;을 클릭하세요.
+1. 대상자 또는 의사 결정 규칙을 선택하면 예상 적격 프로필에 대한 정보를 볼 수 있습니다. 데이터를 업데이트하려면 **[!UICONTROL 새로 고침]**&#x200B;을 클릭하세요.
 
    >[!NOTE]
    >
@@ -239,7 +244,7 @@ ht-degree: 10%
 * 범위 1: 4개의 적격 오퍼(오퍼 1, 오퍼 2, 오퍼 3, 오퍼 4)가 있으며 요청은 2개의 오퍼를 다시 전송하는 것입니다.
 * 범위 2: 4개의 적격 오퍼(오퍼 1, 오퍼 2, 오퍼 3, 오퍼 4)가 있으며 요청은 2개의 오퍼를 다시 전송하는 것입니다.
 
-+++ **예제 1**
++++ **예 1**
 
 선택은 다음과 같습니다.
 
@@ -248,7 +253,7 @@ ht-degree: 10%
 
 +++
 
-+++ **예제 2**
++++ **예 2**
 
 이 예에서 오퍼 1은 빈도 상한 제한에 도달했습니다. [빈도 설정에 대해 자세히 알아보기](../offer-library/add-constraints.md#capping)
 
@@ -259,7 +264,7 @@ ht-degree: 10%
 
 +++
 
-+++ **예제 3**
++++ **예 3**
 
 이 예에서 오퍼 1과 오퍼 3은 빈도 상한 제한에 도달했습니다. [빈도 설정에 대해 자세히 알아보기](../offer-library/add-constraints.md#capping)
 
@@ -279,7 +284,7 @@ ht-degree: 10%
 * 범위 1: 4개의 적격 오퍼(오퍼 1, 오퍼 2, 오퍼 3, 오퍼 4)가 있으며 요청은 2개의 오퍼를 다시 전송하는 것입니다.
 * 범위 2: 4개의 적격 오퍼(오퍼 1, 오퍼 2, 오퍼 3, 오퍼 4)가 있으며 요청은 2개의 오퍼를 다시 전송하는 것입니다.
 
-+++ **예제 1**
++++ **예 1**
 
 선택은 다음과 같습니다.
 
@@ -288,7 +293,7 @@ ht-degree: 10%
 
 +++
 
-+++ **예제 2**
++++ **예 2**
 
 이 예에서 오퍼 1은 빈도 상한 제한에 도달했습니다. [빈도 설정에 대해 자세히 알아보기](../offer-library/add-constraints.md#capping)
 
@@ -300,7 +305,7 @@ ht-degree: 10%
 
 +++
 
-+++ **예제 3**
++++ **예 3**
 
 이 예에서 오퍼 1과 오퍼 3은 빈도 상한 제한에 도달했습니다. [빈도 설정에 대해 자세히 알아보기](../offer-library/add-constraints.md#capping)
 
@@ -312,12 +317,12 @@ ht-degree: 10%
 
 +++
 
-## 대체 제안 추가 {#add-fallback}
+## 대체 오퍼 추가 {#add-fallback}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_fallback"
->title="대체 제안 추가"
->abstract="결정 범위를 정의한 후에는 오퍼 자격 규칙 및 제약 조건을 충족하지 못하는 고객에게 최후의 수단으로 제공되는 대체 제안을 정의합니다."
+>title="대체 오퍼 추가"
+>abstract="결정 범위를 정의한 후 오퍼 자격 규칙 및 제약 조건과 일치하지 않는 고객에게 마지막 수단으로 제공될 대체 오퍼를 정의합니다."
 
 결정 범위를 정의한 후 오퍼 자격 규칙 및 제약 조건과 일치하지 않는 고객에게 마지막 수단으로 제공할 [대체 오퍼](../offer-library/creating-fallback-offers.md)를 정의합니다.
 
@@ -345,7 +350,7 @@ ht-degree: 10%
 
    ![](../assets/review-decision-details.png)
 
-1. **[!UICONTROL 마침을 클릭합니다]**.
+1. **[!UICONTROL 마침]**&#x200B;을 클릭합니다.
 1. **[!UICONTROL 저장 및 활성화]**&#x200B;를 선택합니다.
 
    ![](../assets/save-activities.png)
@@ -386,7 +391,7 @@ ht-degree: 10%
 
   >[!CAUTION]
   >
-  >결정 및 해당 콘텐츠에 더 이상 액세스할 수 없습니다. 이 작업은 실행 취소할 수 없습니다.
+  >결정 및 해당 콘텐츠에 더 이상 액세스할 수 없습니다. 이 작업은 취소할 수 없습니다.
   >
   >결정이 다른 오브젝트에서 사용되는 경우 삭제할 수 없습니다.
 
@@ -408,10 +413,10 @@ ht-degree: 10%
 
 ![](../assets/decision_information.png)
 
-## 사용 방법 비디오{#video}
+## 방법 비디오{#video}
 
 의사 결정 관리에서 오퍼 활동을 만드는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/346696?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 
 

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Personalization 사용 사례&콜론; 장바구니 포기 이메일
+title: Personalization 사용 사례&colon, 장바구니 포기 이메일
 description: 사용 사례를 통해 이메일 메시지의 본문을 개인화하는 방법을 알아봅니다.
 feature: Personalization, Use Cases
 topic: Personalization
@@ -9,9 +9,16 @@ role: Developer
 level: Intermediate
 keywords: 표현식, 편집기, 도우미, 사용 사례, 개인화
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 58b4acf8cccfc3a5e507a738bdf6755a8decbaca
+TQID: https://experienceleague.adobe.com/93bIkfyck5u-tQNGr7jGRORQiTa3gaMHn4H5RP-dpYo
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: d08afb72-92f6-4856-88e3-11ec34313c2fid: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1238'
+source-wordcount: 1263
 ht-degree: 2%
 
 ---
@@ -52,7 +59,7 @@ ht-degree: 2%
 1. 스키마에 `productListItems` 배열이 포함된 이벤트를 만듭니다.
 1. 이 배열의 모든 필드를 이 이벤트의 페이로드 필드로 정의합니다.
 
-   [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=ko){target="_blank"}에서 제품 목록 항목 데이터 형식에 대해 자세히 알아보세요.
+   [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}에서 제품 목록 항목 데이터 형식에 대해 자세히 알아보세요.
 
 1. 이 이벤트로 시작하는 여정을 만듭니다.
 1. **전자 메일** 활동을 여정에 추가합니다.
@@ -105,7 +112,7 @@ ht-degree: 2%
 
       ![프로필 이름 토큰이 있는 upperCase를 표시하는 식 편집기](assets/personalization-uc-helpers-5.png)
 
-      [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=ko){target="_blank"}에서 사용자 이름 데이터 유형에 대해 자세히 알아보세요.
+      [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target="_blank"}에서 사용자 이름 데이터 유형에 대해 자세히 알아보세요.
 
 1. **[!UICONTROL 유효성 검사]**&#x200B;를 클릭한 다음 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
@@ -144,7 +151,7 @@ ht-degree: 2%
 
       **[!UICONTROL 컨텍스트 특성]**&#x200B;은(는) 여정 컨텍스트가 메시지에 전달된 후에만 사용할 수 있습니다.
 
-   1. **[!UICONTROL Journey Optimizer]** > **[!UICONTROL 이벤트]** > ***[!UICONTROL event_name]***&#x200B;을 선택한 다음 **[!UICONTROL productListItems]** 노드를 확장합니다.
+   1. **[!UICONTROL Journey Optimizer]** > **[!UICONTROL 이벤트]** > ***[!UICONTROL event_name]***을 선택한 다음 **[!UICONTROL productListItems]** 노드를 확장합니다.
 
       이 예제에서 *event_name*&#x200B;은 이벤트의 이름을 나타냅니다.
 
@@ -254,7 +261,7 @@ ht-degree: 2%
 1. 조건에 제품 이름 토큰을 추가합니다.
    1. 표현식에서 &quot;condition1&quot; 자리 표시자를 제거합니다.
    1. 왼쪽 메뉴에서 **[!UICONTROL 컨텍스트 특성]**&#x200B;을 선택합니다.
-   1. **[!UICONTROL Journey Orchestration]** > **[!UICONTROL 이벤트]** > ***[!UICONTROL event_name]***&#x200B;을 선택한 다음 **[!UICONTROL productListItems]** 노드를 확장합니다.
+   1. **[!UICONTROL Journey Orchestration]** > **[!UICONTROL 이벤트]** > ***[!UICONTROL event_name]***을 선택한 다음 **[!UICONTROL productListItems]** 노드를 확장합니다.
 
       이 예제에서 *event_name*&#x200B;은 이벤트의 이름을 나타냅니다.
 
@@ -346,4 +353,4 @@ ht-degree: 2%
 
 도우미 함수를 사용하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416646?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

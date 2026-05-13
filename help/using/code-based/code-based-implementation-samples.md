@@ -6,9 +6,15 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+TQID: https://experienceleague.adobe.com/YJlONn7IigQAhIQJLvX58tmAYzvaTCnRdModuGJTeB0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: 1114
 ht-degree: 7%
 
 ---
@@ -41,7 +47,7 @@ ht-degree: 7%
 
 ### 작동 방법 - 웹 SDK {#client-side-how}
 
-1. [웹 SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko){target="_blank"}이(가) 페이지에 포함되어 있습니다.
+1. [웹 SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"}이(가) 페이지에 포함되어 있습니다.
 
 1. 개인화 콘텐츠를 가져오려면 `sendEvent` 명령을 사용하고 [표면 URI](code-based-surface.md)<!--( or location/path)-->를 지정해야 합니다.
 
@@ -82,7 +88,7 @@ ht-degree: 7%
    }
    ```
 
-1. 코드 기반 경험 여정 및 캠페인의 경우 사용자가 콘텐츠와 상호 작용한 시기를 나타내기 위해 상호 작용 이벤트를 수동으로 전송해야 합니다. This is done via the `sendEvent` command.
+1. 코드 기반 경험 여정 및 캠페인의 경우 사용자가 콘텐츠와 상호 작용한 시기를 나타내기 위해 상호 작용 이벤트를 수동으로 전송해야 합니다. 이 작업은 `sendEvent` 명령을 통해 수행됩니다.
 
    ```javascript
    function sendInteractEvent(label, proposition) {
@@ -118,34 +124,34 @@ ht-degree: 7%
 
    >[!IMPORTANT]
    >
-   >The `tokens` field in `propositionAction` is critical for accurate tracking and attribution in Adobe Journey Optimizer Decisioning. These tokens enable:
-   >* Proper click attribution for decisioning activities
-   >* Accurate reporting of user interactions with decision content
-   >* Optimization of offer performance based on user engagement
+   >`propositionAction`의 `tokens` 필드는 Adobe Journey Optimizer Decisioning에서 정확한 추적 및 속성에 중요합니다. 이러한 토큰을 사용하면 다음 작업을 수행할 수 있습니다.
+   >* 의사 결정 활동에 대한 적절한 클릭 속성
+   >* 의사 결정 콘텐츠와의 사용자 상호 작용에 대한 정확한 보고
+   >* 사용자 참여를 기반으로 오퍼 성능 최적화
    >
-   >The tokens are typically found in `proposition.items[0].characteristics.tokens` and should always be included when tracking user interactions with decision content.
+   >토큰은 일반적으로 `proposition.items[0].characteristics.tokens`에서 찾을 수 있으며 결정 콘텐츠와의 사용자 상호 작용을 추적할 때 항상 포함되어야 합니다.
 
-### Key Observations
+### 주요 관찰
 
 **쿠키**
 
-Cookies are used to persist user identity and cluster information. When using a client-side implementation, the Web SDK handles the storing and sending of these cookies automatically during the request lifecycle.
+쿠키는 사용자 ID 및 클러스터 정보를 유지하는 데 사용됩니다. 클라이언트측 구현을 사용하는 경우 웹 SDK은 요청 라이프사이클 동안 이러한 쿠키의 저장 및 전송을 자동으로 처리합니다.
 
-| 쿠키 | 용도 | Stored by | Sent by |
+| 쿠키 | 용도 | 저장 주체 | 보낸 사람 |
 | ------------------------ | -------------------------------------------------------------------------- | --------- | ------- |
-| kndctr_AdobeOrg_identity | Contains user identity details | Web SDK | Web SDK |
-| kndctr_AdobeOrg_cluster | Indicates which experience edge cluster should be used to fulfill requests | Web SDK | Web SDK |
+| kndctr_AdobeOrg_identity | 사용자 ID 세부 정보 포함 | Web SDK | Web SDK |
+| kndctr_AdobeOrg_cluster | 요청을 이행하는 데 사용해야 하는 경험 에지 클러스터를 나타냅니다. | Web SDK | Web SDK |
 
-**Request placement**
+**배치 요청**
 
-Requests to Adobe Experience Platform API are required to get propositions and send a display notification. When using a client-side implementation, the Web SDK makes these requests when the `sendEvent` command is used.
+제안을 가져오고 디스플레이 알림을 보내려면 Adobe Experience Platform API에 대한 요청이 필요합니다. 클라이언트측 구현을 사용하는 경우 `sendEvent` 명령이 사용될 때 웹 SDK에서 이러한 요청을 수행합니다.
 
-| 요청 | Made by |
+| 요청 | 만든 사람 |
 | ---------------------------------------------- | ----------------------------------- |
-| interact request to get propositions | Web SDK using the sendEvent command |
-| interact request to send display notifications | Web SDK using the sendEvent command |
+| 제안 가져오기를 위한 요청 상호 작용 | sendEvent 명령을 사용하는 웹 SDK |
+| 디스플레이 알림 전송을 위한 상호 작용 요청 | sendEvent 명령을 사용하는 웹 SDK |
 
-**Flow Diagram**
+**흐름 다이어그램**
 
 ![](assets/code-based-client-side-implementation.png)
 
@@ -319,7 +325,7 @@ Requests to Adobe Experience Platform API are required to get propositions and s
 하이브리드 구현이 있는 경우 아래 링크를 확인하십시오.
 
 * Adobe 기술 블로그: [Adobe Experience Platform 웹 SDK의 하이브리드 Personalization](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
-* SDK 설명서: [Web SDK 및 Edge Network Server API를 사용한 하이브리드 개인화](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html?lang=ko){target="_blank"}
+* SDK 설명서: [Web SDK 및 Edge Network Server API를 사용한 하이브리드 개인화](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html){target="_blank"}
 
 ## Adobe Experience Platform Assurance를 사용하여 Edge Network API 호출 디버그 {#debugging-edge-api-assurance}
 
@@ -368,5 +374,5 @@ To help you get started with implementing code-based experiences, refer to the c
 
 * **Web SDK implementation**: Learn how to configure the Web SDK for decisioning and code-based experiences in [these tutorials](code-based-decisioning-implementations.md#tutorials).
 
-* **Decisioning implementation**: To learn how to implement decisioning capabilities on a code-based campaign, follow [this use case tutorial](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-uc){target="_blank"}.
+* **Decisioning implementation**: To learn how to implement decisioning capabilities on a code-based campaign, follow [this use case tutorial](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-uc){target="_blank"}.
 -->

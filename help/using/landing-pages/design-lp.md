@@ -9,10 +9,17 @@ role: User
 level: Beginner
 keywords: 랜딩, 랜딩 페이지, 디자인, HTML
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: d0dd382521aeb2c7e18dc547c2ec55fa1472ab8d
+TQID: https://experienceleague.adobe.com/r5bRBvFpObXc35G2H8a-WwoTXnyZ6--MEYzk7ooUpsA
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 17%
+source-wordcount: 245
+ht-degree: 20%
 
 ---
 
@@ -28,11 +35,11 @@ ht-degree: 17%
 
 * **AI 도우미를 사용하여 콘텐츠를 생성**&#x200B;하여 AI가 생성한 텍스트 및 이미지를 사용하여 랜딩 페이지 생성을 가속화합니다. [AI Assistant에 대해 자세히 알아보기](../content-management/generative-full-content.md).
 
-* **원시 HTML을 콘텐츠 디자이너에 직접 코딩하거나 붙여 넣으십시오**. 이 섹션[에서 자신의 콘텐츠 &#x200B;](../email/code-content.md)을(를) 코딩하는 방법을 알아보세요.
+* **원시 HTML을 콘텐츠 디자이너에 직접 코딩하거나 붙여 넣으십시오**. 이 섹션](../email/code-content.md)에서 자신의 콘텐츠 [을(를) 코딩하는 방법을 알아보세요.
 
-* 파일이나 .zip 폴더의 **기존 HTML 콘텐츠를 가져옵니다**. 이 섹션[에서 &#x200B;](../email/existing-content.md) 콘텐츠를 가져오는 방법을 알아보세요.
+* 파일이나 .zip 폴더의 **기존 HTML 콘텐츠를 가져옵니다**. 이 섹션](../email/existing-content.md)에서 [ 콘텐츠를 가져오는 방법을 알아보세요.
 
-* **에서 만든**&#x200B;저장된 랜딩 페이지 템플릿을 사용[!DNL Journey Optimizer]합니다. [자세히 알아보기](lp-templates.md)
+* [!DNL Journey Optimizer]에서 만든 **저장된 랜딩 페이지 템플릿을 사용**&#x200B;합니다. [자세히 알아보기](lp-templates.md)
 
 랜딩 페이지 콘텐츠 디자이너에서 이메일과 동일한 구성 요소를 사용하고 양식 구성 요소를 사용하여 랜딩 페이지별 콘텐츠를 정의할 수 있습니다. [방법 알아보기](lp-content.md)
 
@@ -40,4 +47,4 @@ ht-degree: 17%
 >
 >랜딩 페이지 콘텐츠 디자이너는 대부분 이메일 Designer과 유사합니다. [콘텐츠를 디자인 [!DNL Journey Optimizer]](../email/get-started-email-design.md)하는 방법에 대해 자세히 알아보세요.
 >
->[유럽 접근성법](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}에는 모든 디지털 통신의 접근성을 보장해야 한다고 명시되어 있습니다. [에서 콘텐츠를 디자인할 때는 &#x200B;](../email/accessible-content.md)이 페이지[!DNL Journey Optimizer]에 나열된 특정 지침을 따라야 합니다.
+>[유럽 접근성법](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}에는 모든 디지털 통신의 접근성을 보장해야 한다고 명시되어 있습니다. [!DNL Journey Optimizer]에서 콘텐츠를 디자인할 때는 [이 페이지](../email/accessible-content.md)에 나열된 특정 지침을 따라야 합니다.

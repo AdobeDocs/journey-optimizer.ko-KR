@@ -9,10 +9,16 @@ role: Admin
 level: Experienced
 keywords: 채널, 표면, 기술, 매개변수, optimizer
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/wZkMADPKflUPDtBaSa0eEdHESX-0X0MQCqmk98fZn9k
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 83%
+source-wordcount: 858
+ht-degree: 100%
 
 ---
 
@@ -29,15 +35,15 @@ ht-degree: 83%
 >abstract="Adobe Experience Platform Assurance가 이 워크플로에 임베드되어 있어 SDK 구현을 검사하고 애플리케이션 이벤트를 시뮬레이션 및 검증하는 데 도움이 됩니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-platform/assurance/home" text="Adobe Experience Platform Assurance 개요"
 
-**안내 채널 설정**&#x200B;은(는) 모바일 및 웹 마케팅 채널을 빠르게 구성하는 데 도움이 되는 Adobe Journey Optimizer의 간소화된 워크플로우입니다. 이 서비스는 **관리** > **채널** > **채널 구성**&#x200B;에 있으며 Adobe Experience Platform, Journey Optimizer 및 데이터 수집에서 태그 속성, 데이터스트림 및 채널 구성과 같은 필수 리소스의 생성을 자동화합니다. 각 구성 요소를 수동으로 구성하는 대신, 모든 것을 자동으로 설정하는 안내식 흐름을 따르므로 마케팅 팀이 인앱 메시지, 푸시 알림 및 웹 경험을 지체 없이 만들 수 있습니다.
+**안내형 채널 설정**&#x200B;은 모바일 및 웹 마케팅 채널을 빠르게 구성하는 데 도움이 되는 Adobe Journey Optimizer의 간소화된 워크플로입니다. 이 서비스는 **관리** > **채널** > **채널 구성**&#x200B;에 있으며 Adobe Experience Platform, Journey Optimizer, 데이터 수집에 걸쳐 태그 속성, 데이터 스트림, 채널 구성과 같은 필수 리소스를 만드는 과정을 자동화합니다. 사용지가 각 구성 요소를 수동으로 구성하는 대신 모든 것을 자동으로 설정하는 안내형 흐름을 따라가게 되므로 마케팅 팀이 지체 없이 인앱 메시지, 푸시 알림, 웹 경험을 만들 수 있습니다.
 
-안내식 채널 설정은 다음 플랫폼 및 채널을 지원합니다.
+[안내형 채널 설정]은 다음 플랫폼 및 채널을 지원합니다.
 
 >[!BEGINTABS]
 
 >[!TAB iOS]
 
-**SDK:** Swift by Apple
+**SDK:** Apple의 Swift
 
 **채널:** 모바일 인앱, 모바일 푸시 메시지
 
@@ -137,7 +143,7 @@ ht-degree: 83%
 
 안내형 채널 설정을 사용하면 마케팅 채널을 간단하고 빠르게 구성하여 Experience Platform, Journey Optimizer, 데이터 수집 앱에서 모든 기본 리소스를 바로 사용할 수 있습니다. 따라서 마케팅 팀이 캠페인 및 여정 만들기를 빠르게 시작할 수 있습니다. 다음은 안내형 채널 설정의 일부로 자동 생성 및 구성되는 리소스 목록입니다.
 
-아래 탭을 탐색하여 자동으로 생성된 모든 리소스의 전체 목록에 액세스합니다.
+아래 탭을 탐색하여 자동으로 생성되는 모든 리소스를 종합한 목록에 액세스할 수 있습니다.
 
 >[!BEGINTABS]
 
@@ -192,7 +198,7 @@ ht-degree: 83%
   </tr>
   <tr>
   <td>
-  <p>데이터스트림</p>
+  <p>데이터 스트림</p>
   </td>
   <td>
   <p>서비스 데이터 스트림</p>
@@ -287,7 +293,7 @@ ht-degree: 83%
   </tr>
   <tr>
   <td>
-  <p>데이터스트림</p>
+  <p>데이터 스트림</p>
   </td>
   <td>
   <p>서비스 데이터 스트림</p>
@@ -382,7 +388,7 @@ ht-degree: 83%
   </tr>
   <tr>
   <td>
-  <p>데이터스트림</p>
+  <p>데이터 스트림</p>
   </td>
   <td>
   <p>서비스 데이터 스트림</p>

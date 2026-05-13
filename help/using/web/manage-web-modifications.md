@@ -6,9 +6,16 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 213511b4-7556-4a25-aa23-b50acd11cd34
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/8T04E9mgfsmZxHAv0lSgWd9owrKjxW9xWRE76iYMvz8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e9001ce2-5245-4a8e-8601-dd958009072f
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: 973
 ht-degree: 24%
 
 ---
@@ -181,7 +188,7 @@ ht-degree: 24%
 
 +++
 
-+++ **동일한 URL에 영향을 주는 두 캠페인에 대해**&#x200B;[!UICONTROL &#x200B;페이지 `<head>`]&#x200B;**수정 형식을 사용할 때는 주의하십시오.**
++++ **동일한 URL에 영향을 주는 두 캠페인에 대해**[!UICONTROL &#x200B;페이지 `<head>`]**수정 형식을 사용할 때는 주의하십시오.**
 
 동일한 URL에 영향을 주는 두 개의 캠페인에 **[!UICONTROL 페이지`<head>`]** 수정 형식을 사용하는 경우 두 캠페인의 페이지에 JavaScript이 삽입됩니다. [!DNL Journey Optimizer]은(는) 배달된 콘텐츠의 순서를 자동으로 결정합니다. 코드가 배치에 종속되지 않는지 확인하십시오. 코드에 충돌이 없도록 하는 것은 여러분에게 달려 있습니다.
 

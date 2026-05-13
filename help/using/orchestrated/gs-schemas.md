@@ -5,13 +5,16 @@ title: 구성 단계
 description: DDL을 업로드하여 Adobe Experience Platform 내에서 관계형 스키마를 만드는 방법을 알아봅니다
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
 version: Campaign Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/tNL6BkFKuOWMyEnR-FWc38mYrcA15wAdsHzZntCEwVw
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: 485
 ht-degree: 1%
 
 ---
-
 
 # 관계형 스키마 및 데이터 세트 시작{#gs-schemas}
 
@@ -52,7 +55,7 @@ ht-degree: 1%
 
 관계형 데이터 모델에서 스키마 또는 테이블 구성은 데이터를 여러 테이블로 구조화하는 것입니다. 각 테이블에 한 가지 유형의 엔티티/스키마가 저장되는지 확인
 
-➡️ [Adobe Experience Platform 설명서에서 스키마에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
+➡️ [Adobe Experience Platform 설명서에서 스키마에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
 
 ## 구현 단계 {#implementation}
 

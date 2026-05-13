@@ -10,10 +10,17 @@ level: Intermediate
 keywords: 활동, 조건, 캔버스, 여정, 최적화
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/hbDoGEHdCBcOe-e9h06kGY2Rvb129cIzto6jJAuGkX4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 14%
+source-wordcount: 470
+ht-degree: 17%
 
 ---
 
@@ -26,7 +33,7 @@ ht-degree: 14%
 
 >[!IMPORTANT]
 >
->**최적화** 활동은 여정에서 조건부 경로를 만드는 새로운 방법입니다. UI에서 제거된 이전의 **조건** 활동을 대체합니다. 모든 조건부 논리는 유지되고 이제 **Optimize** 활동의 [조건](conditions.md)을(를) 통해 처리됩니다.
+>**최적화** 활동은 여정에서 조건부 경로를 만드는 새로운 방법입니다. 이 활동은 UI에서 제거된 이전 **조건** 활동을 대체합니다. 모든 조건부 논리는 유지되고 이제 **Optimize** 활동의 [조건](conditions.md)을(를) 통해 처리됩니다.
 >
 >**[!UICONTROL 조건]** 활동을 사용한 기존 여정이 있는 경우 이전처럼 계속 사용할 수 있습니다. 이제 새 아이콘과 함께 **[!UICONTROL Condition]** 메서드를 사용하여 **[!UICONTROL Optimize]** 활동으로 표시되지만 동작은 변경되지 않습니다. 노드에 설정한 모든 사용자 지정 레이블이 유지됩니다.
 
@@ -62,6 +69,6 @@ ht-degree: 14%
 
 사용 사례에 가장 적합한 최적화 방법을 선택합니다.
 
-* 어떤 경로가 가장 성과가 좋은지 테스트하고 학습하시겠습니까? →0&rbrace;경로 실험[&#128279;](path-experimentation.md)(으)로 이동
-* 서로 다른 대상을 특정 경로로 전송하시겠습니까? →0&rbrace;경로 타깃팅[&#128279;](path-targeting.md)(으)로 이동
-* 조건부 논리(if/then 시나리오)를 생성하시겠습니까? →0&rbrace;조건[&#128279;](conditions.md)(으)로 이동
+* 어떤 경로가 가장 성과가 좋은지 테스트하고 학습하시겠습니까? →0}경로 실험](path-experimentation.md)(으)로 이동[
+* 서로 다른 대상을 특정 경로로 전송하시겠습니까? →0}경로 타깃팅](path-targeting.md)(으)로 이동[
+* 조건부 논리(if/then 시나리오)를 생성하시겠습니까? →0}조건](conditions.md)(으)로 이동[

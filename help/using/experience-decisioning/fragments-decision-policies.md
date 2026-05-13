@@ -1,19 +1,24 @@
 ---
-title: 의사 결정 정책의 구성요소 활용
+title: 의사 결정 정책에 조각 활용
 description: 의사 결정 정책에서 조각을 활용하는 방법 알아보기
 feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
 exl-id: 70f64348-092b-4350-91dc-72c3c07300f9
-source-git-commit: e33a18cdb330f9d5d1a88b771a648031176c20a8
+TQID: https://experienceleague.adobe.com/5Vpngi03UnC9YPlB5tdTRcd0NoT7iglH2pRDkmeZKOg
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 2225d3c796e777f459bebc35a5c33ce1a0635f42
 workflow-type: tm+mt
-source-wordcount: '752'
-ht-degree: 0%
+source-wordcount: 752
+ht-degree: 1%
 
 ---
 
-# 의사 결정 정책의 구성요소 활용 {#fragments}
+# 의사 결정 정책에 조각 활용 {#fragments}
 
 의사 결정 정책에 조각이 포함된 의사 결정 항목이 포함되어 있는 경우 의사 결정 정책 내에서 메시지를 작성할 때 이러한 조각을 활용할 수 있습니다. [조각에 대해 자세히 알아보기](../content-management/fragments.md)
 
@@ -122,4 +127,3 @@ ht-degree: 0%
 >[!NOTE]
 >
 >`required` 플래그를 `true`(으)로 설정하여 조각을 필수 항목으로 표시할 수 있습니다. 그러나 조각이 일시적으로 누락된 경우 여정 또는 캠페인 렌더링이 실패할 수 있습니다.
-

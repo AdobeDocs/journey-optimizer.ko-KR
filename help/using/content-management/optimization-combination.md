@@ -1,19 +1,25 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 타깃팅과 실험 결합
+title: 타기팅과 실험 결합
 description: 단일 여정 또는 캠페인 내에서 타기팅과 실험을 결합하여 정교한 최적화 전략을 만드는 방법을 알아봅니다.
 role: User
 level: Intermediate
 keywords: 최적화, 타기팅, 실험, 조합, 고급
-source-git-commit: f4eb982ba0840acfe336e759fcbf9cfd47b3b98c
+exl-id: dafcb4d3-e33c-40c5-a5c6-972822a23cc0
+TQID: https://experienceleague.adobe.com/klXmy7KQLcIHm-T6BMS1RaMKrwzdCfzvK3KK6fUs7KU
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 1%
+source-wordcount: 306
+ht-degree: 3%
 
 ---
 
-# 타깃팅과 실험 결합 {#combination}
+# 타기팅과 실험 결합 {#combination}
 
 또한 Journey Optimizer을 사용하면 단일 여정 또는 캠페인 내에 타기팅과 실험을 결합하여 보다 정교한 전략을 만들 수 있습니다.
 
@@ -54,4 +60,3 @@ ht-degree: 1%
 
 E.g. explaining how a marketer can look at the report to determine which treatment (e.g. which message content) is performing the best for the targeting audience
 -->
-

@@ -9,10 +9,15 @@ role: User, Developer
 level: Intermediate
 exl-id: f85563e2-fc83-49fb-8771-0f0656a90f9a
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+TQID: https://experienceleague.adobe.com/TLkfs8ADogMCSIC3CS24Hzao-BhoxxIBp0GGw0ufg-o
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 69%
+source-wordcount: 127
+ht-degree: 68%
 
 ---
 
@@ -34,5 +39,5 @@ ht-degree: 69%
 
 XDM 스키마 및 필드를 사용하여 작업하는 방법에 대한 자세한 내용은 Experience 데이터 모델 설명서를 참조하십시오.
 
-* [XDM 시스템 개요](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko)
+* [XDM 시스템 개요](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR)
 * [XDM 리소스 살펴보기](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/explore.html?lang=ko)

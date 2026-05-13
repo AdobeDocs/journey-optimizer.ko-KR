@@ -5,13 +5,16 @@ title: 첫 번째 규칙 작성
 description: 오케스트레이션된 캠페인에 대한 규칙을 만드는 방법을 알아봅니다
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
 version: Campaign Orchestration
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/0uQ81kuezTaU4m83ZP6OiKFpM66ngzHqVKaGQqiFzNE
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe338112-e2ce-4876-8989-fc4d497613f1
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1912'
+source-wordcount: 1912
 ht-degree: 91%
 
 ---
-
 
 # 첫 번째 규칙 작성 {#build-query}
 
@@ -56,7 +59,7 @@ ht-degree: 91%
 
    조건을 더 빨리 만들려면 값을 선택하고 **[!UICONTROL 특성 및 값 선택]**&#x200B;을 클릭하여 현재 조건에서 특성 및 값을 채웁니다.
 
-   표현식 편집기 아이콘![&#128279;](assets/do-not-localize/activity-copy.svg)을 보여 주는 이미지를 사용하여 클립보드에 값을 복사할 수도 있습니다. 예를 들어 표현식 편집기에 붙여 넣을 수 있습니다.
+   표현식 편집기 아이콘](assets/do-not-localize/activity-copy.svg)을 보여 주는 ![이미지를 사용하여 클립보드에 값을 복사할 수도 있습니다. 예를 들어 표현식 편집기에 붙여 넣을 수 있습니다.
 
    ![값 분포 인터페이스를 보여 주는 이미지](assets/rule-builder-distribution-values.png)
 

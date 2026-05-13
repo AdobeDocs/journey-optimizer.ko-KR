@@ -9,10 +9,15 @@ role: Admin, Developer
 level: Experienced
 keywords: 샌드박스, 가상, 환경, 조직, 플랫폼
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: 56faee8badff99ff9a39cfd85a78c1ed272cd2ca
+TQID: https://experienceleague.adobe.com/8vcaHkqHeyoP-TZltCkjpBhvZIifuiPbKy-Whoj74Z8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 22%
+source-wordcount: 434
+ht-degree: 25%
 
 ---
 
@@ -60,7 +65,7 @@ ht-degree: 22%
 
 ## 콘텐츠에 액세스 {#content-access}
 
-컨텐츠 액세스 가능성을 구성하려면 각 샌드박스에 컨텐츠 공유 폴더를 할당합니다. 관리자용 **[!UICONTROL 에 표시된]**&#x200B;저장소[!DNL Admin Console] 탭에서 공유 폴더를 만들고 구성할 수 있습니다. 시스템 관리자로서 [!DNL Admin Console]에 액세스할 수 있는 경우 공유 폴더를 만들고 다른 액세스 수준의 위임자를 공유 폴더에 추가할 수 있습니다.
+컨텐츠 액세스 가능성을 구성하려면 각 샌드박스에 컨텐츠 공유 폴더를 할당합니다. 관리자용 [!DNL Admin Console]에 표시된 **[!UICONTROL 저장소]** 탭에서 공유 폴더를 만들고 구성할 수 있습니다. 시스템 관리자로서 [!DNL Admin Console]에 액세스할 수 있는 경우 공유 폴더를 만들고 다른 액세스 수준의 위임자를 공유 폴더에 추가할 수 있습니다.
 
 ![](assets/do-not-localize/content_access.png)
 
@@ -72,4 +77,4 @@ ht-degree: 22%
 
 샌드박스의 정의, 그리고 개발과 프로덕션 샌드박스를 구분하는 방법을 이해합니다. 샌드박스를 만들고, 재설정하고, 삭제하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416656?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334355?quality=12)
