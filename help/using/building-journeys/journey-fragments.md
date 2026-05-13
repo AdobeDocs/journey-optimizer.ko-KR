@@ -11,7 +11,7 @@ hide: true
 keywords: 조각, 여정, 재사용, 노드, 캔버스, 인벤토리, 재사용 가능
 badge: label="제한 공개" type="Informative"
 version: Journey Orchestration
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+source-git-commit: 4b514dea522be3648542a868be7c26b63715a1ff
 workflow-type: tm+mt
 source-wordcount: '1482'
 ht-degree: 10%
