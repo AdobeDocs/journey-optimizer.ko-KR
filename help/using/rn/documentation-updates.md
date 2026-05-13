@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 8d00060a8801a0d29a86894494b9fd7a69f30d88
+source-git-commit: 4b514dea522be3648542a868be7c26b63715a1ff
 workflow-type: tm+mt
 source-wordcount: '7447'
-ht-degree: 66%
+ht-degree: 96%
 
 ---
 
@@ -35,131 +35,131 @@ ht-degree: 66%
 
 ## 2026년 4월 {#april-2026}
 
-* **차원 변경** 활동 설명서에 외부 조인을 사용하고 차원 변경 단계에서 모든 레코드를 유지하는 동안 새 타겟팅 차원에 일치하는 프로필이 없는 레코드는 메시지 게재 시 자동으로 제외된다는 점을 명확히 설명했습니다. [자세히 보기](../orchestrated/activities/change-dimension.md)
+* **차원 변경** 활동 설명서가 업데이트되어 이 활동이 외부 조인을 사용하고 차원 변경 단계에서 모든 레코드를 유지하지만 새 대상 차원에 일치하는 프로필이 없는 레코드는 메시지 게재 시 자동으로 제외된다는 점이 명확해졌습니다. [자세히 보기](../orchestrated/activities/change-dimension.md)
 
-* **전자 메일에 CC 필드 추가** 설명서의 보호 기능이 향상되었습니다. 이제 CC 주소가 동의 또는 억제에 대해 검사되지 않으며, CC 주소로 전송된 이메일에서 열고 클릭스루하는 것이 전송 분석에서 열린 총 횟수와 클릭수로 고려되도록 지정합니다. [자세히 보기](../configuration/cc-email-field.md)
+* **이메일에 참조(CC) 필드 추가** 설명서의 가드레일이 강화되었습니다. 이제 참조(CC) 주소는 동의 또는 수신 거부 여부를 확인하지 않으며, 참조(CC) 주소로 전송된 이메일의 열람 및 클릭은 전송 분석의 전체 열람 및 클릭 수에 포함됩니다. [자세히 보기](../configuration/cc-email-field.md)
 
-* **채널 활동** 설명서에 두 채널 범주(옵트인 요구 사항, 비즈니스 규칙 응용 프로그램, 채널 구성 유형 및 권장 사용 사례) 간의 동작 차이를 설명하는 새로운 **마케팅 및 트랜잭션 메시지** 섹션이 업데이트되었습니다. [자세히 보기](../orchestrated/activities/channels.md#marketing-vs-transactional)
+* **채널 활동** 설명서가 업데이트되어 두 채널 범주 간의 동작 차이(옵트인 요건, 비즈니스 규칙 적용, 채널 구성 유형 및 권장 사용 사례)를 설명하는 새로운 **마케팅 메시지 vs 트랜잭션 메시지** 섹션이 추가되었습니다. [자세히 보기](../orchestrated/activities/channels.md#marketing-vs-transactional)
 
-* **포크 활동** 설명서가 단일 캠페인 실행에서 포크 활동을 사용하여 대상을 두 개의 병렬 이메일 분기(하나의 마케팅 및 하나의 트랜잭션)로 분할하는 방법을 보여 주는 새로운 **예** 섹션으로 보강되었습니다. [자세히 보기](../orchestrated/activities/fork.md#fork-examples)
+* **포크 활동** 설명서가 보강되어 단일 캠페인 실행에서 마케팅 및 트랜잭션이라는 두 개의 병렬 이메일 분기로 대상자를 분할하는 포크 활동 사용 방법을 보여주는 새로운 **예시** 섹션이 추가되었습니다. [자세히 보기](../orchestrated/activities/fork.md#fork-examples)
 
-* 규칙 빌더를 사용하여 구독 계획 특성별로 프로필을 필터링하는 방법을 보여 주는 새로운 예를 통해 **대상 활동 빌드** 설명서를 보강했습니다. [자세히 보기](../orchestrated/activities/build-audience.md#build-audience-examples)
+* **대상자 구축 활동** 설명서에는 규칙 빌더를 사용하여 구독 플랜 속성별로 프로필을 필터링하는 방법을 보여주는 새로운 예시가 추가되었습니다. [자세히 보기](../orchestrated/activities/build-audience.md#build-audience-examples)
 
-* **오케스트레이션된 캠페인 시작** 페이지는 포크 활동 및 마케팅 및 트랜잭션 메시지 페이지에 대한 상호 참조와 함께 시작 수준 **포크 → 채널 A + 채널 B→ 대상을 빌드**&#x200B;오케스트레이션된 캠페인 내부의 내용?**을(를) 문서화합니다.**&#x200B;[자세히 보기](../orchestrated/gs-orchestrated-campaigns.md#gs-ms-campaign-inside)
+* **오케스트레이션된 캠페인 시작** 페이지는 **오케스트레이션된 캠페인 속에는 무엇이 있을까요?**&#x200B;에 있는 기본 **대상자 구축 → 포크 → 채널 A + 채널 B** 패턴을 문서화하고 포크 활동 및 마케팅 메시지와 트랜잭션 메시지 페이지에 대한 상호 참조를 제공합니다. [자세히 보기](../orchestrated/gs-orchestrated-campaigns.md#gs-ms-campaign-inside)
 
-* **고급 HTML 편집기를 사용하여 전자 메일 콘텐츠 편집** 페이지가 콘텐츠 관리 섹션에서 문서의 **전자 메일** 섹션으로 이동되었습니다. 이제 페이지는 고급 HTML 편집기를 이메일 메시지 및 이메일 콘텐츠 템플릿용 이메일 Designer에서 사용할 수 있도록 문서화합니다. [자세히 보기](../email/email-expert-mode.md)
+* **고급 HTML 편집기를 사용하여 전자 메일 콘텐츠 편집** 페이지가 콘텐츠 관리 섹션에서 문서의 **전자 메일** 섹션으로 이동되었습니다. 이제 이 페이지에서는 이메일 디자이너에서 이메일 메시지뿐만 아니라 이메일 콘텐츠 템플릿에도 고급 HTML 편집기를 사용할 수 있음을 설명합니다. [자세히 보기](../email/email-expert-mode.md)
 
-* **오케스트레이션된 캠페인 시작 및 모니터링** 설명서에 캠페인 라이프사이클 상태 표, 게시 전 체크리스트 및 반복되지 않는 캠페인에 대한 전송 확인 경고와 함께 내부 게시-시간 실행 시퀀스를 자세히 설명하는 새 섹션이 업데이트되었습니다. [자세히 보기](../orchestrated/start-monitor-campaigns.md#publication-sequence)
+* **오케스트레이션된 캠페인 시작 및 모니터링** 설명서가 업데이트되어 내부 게시 시간 실행 순서에 대한 자세한 내용과 캠페인 라이프사이클 상태 표, 게시 전 체크리스트, 일회성 캠페인에 대한 전송 확인 경고가 포함된 새 섹션이 추가되었습니다. [자세히 보기](../orchestrated/start-monitor-campaigns.md#publication-sequence)
 
-* **대상자 저장** 활동 설명서에 게시될 때 항상 메시지 활동 전에 대상자 저장 활동이 실행된다는 점을 설명하는 메모를 업데이트했습니다. [자세히 보기](../orchestrated/activities/save-audience.md)
+* **대상자 저장** 활동 설명서가 업데이트되어 대상자 저장 활동은 게시 시점에 메시지 활동보다 항상 먼저 실행된다는 점을 명확히 하는 참고 사항이 추가되었습니다. [자세히 보기](../orchestrated/activities/save-audience.md)
 
-* **오케스트레이션된 캠페인 FAQ**&#x200B;에 세 가지 새로운 Q&amp;A가 추가되었습니다. 게시 시 내부적으로 발생하는 내용, 게시 후 메시지가 전송되지 않을 수 있는 이유에 대한 7포인트 검사 목록, 프로필 스냅숏 조회가 실시간 프로필 확인과 어떻게 다른지. [자세히 보기](../orchestrated/orchestrated-campaigns-faq.md)
+* **오케스트레이션된 캠페인 FAQ**&#x200B;에는 게시 시 내부적으로 발생하는 작업, 게시 후 메시지가 전송되지 않을 수 있는 7가지 이유에 대한 체크리스트, 프로필 스냅샷 조회와 실시간 프로필 확인의 차이점 등 새로운 Q&amp;A 세 개가 추가되었습니다. [자세히 보기](../orchestrated/orchestrated-campaigns-faq.md)
 
-* 여정 인스턴스가 차단되어 삭제된 **[이벤트](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached)** 섹션이 여정 문제 해결 설명서에 추가되어 `maxInstanceStackEventsReached` 폐기 이유, 발생 시기 및 완화 방법을 설명합니다. 보호 및 단계 이벤트 필드 목록 페이지도 이에 따라 업데이트되었습니다.
+* 여정 문제 해결 설명서에 새로운 **[차단된 여정 인스턴스로 인해 폐기된 이벤트](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached)** 섹션이 추가되어 `maxInstanceStackEventsReached` 폐기 사유, 발생 시점 및 완화 방법을 설명합니다. 가드레일 및 단계 이벤트 필드 목록 페이지도 이에 따라 업데이트되었습니다.
 
-* **의사 결정 정책의 조각 활용** 설명서에 이제 **이메일** 채널에 대한 보호 메모가 포함되어 있습니다. **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;은(는) 의사 결정 항목에서 표현식 조각을 표시하지 않지만 **[!UICONTROL 증명 보내기]** 및 활성화된 캠페인은 표시합니다. 또한 이 페이지에는 **[!UICONTROL 시각적 조각]**&#x200B;을(를) 결정 항목에 할당할 수 없다고 설명되어 있습니다. 이 컨텍스트에서는 **식 조각**&#x200B;만 지원됩니다. [자세히 보기](../experience-decisioning/fragments-decision-policies.md)
+* **결정 정책의 조각 활용** 문서에는 이제 **이메일** 채널에 대한 가드레일 참고 사항이 포함됩니다. **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;은 결정 항목의 표현식 조각을 표시하지 않지만 **[!UICONTROL 교정쇄 전송]** 및 활성화된 캠페인은 표시합니다. 또한 이 페이지에서는 **[!UICONTROL 시각적 조각]**&#x200B;은 결정 항목에 할당할 수 없으며, 이 컨텍스트에서는 **표현식 조각**&#x200B;만 지원된다고 명시하고 있습니다. [자세히 보기](../experience-decisioning/fragments-decision-policies.md)
 
 ## 2026년 3월 {#march-2026}
 
-* 이제 **Experience Decisioning을 사용하여 코드 기반 경험 미리 보기**&#x200B;에 대한 설명서에서 **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;이 콘텐츠 미리 보기임을 명확히 합니다. 라이브 Edge 요청의 컨텍스트 데이터는 작성 미리 보기에서 시뮬레이트되지 않습니다. [자세히 보기](../code-based/test-code-based.md#preview-code-based)
+* **경험 결정을 사용한 코드 기반 경험 미리 보기**&#x200B;에 대한 문서에서 이제 **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;은 콘텐츠 미리 보기 전용임을 명확히 합니다. 실제 Edge 요청의 컨텍스트 데이터는 작성 미리 보기에서 시뮬레이션되지 않습니다. [자세히 보기](../code-based/test-code-based.md#preview-code-based)
 
-* **Adobe Experience Platform 데이터 사용** 설명서가 업데이트되었습니다. 현재 제품 동작을 반영하여 보호 기능에 더 이상 데이터 세트 조회를 연결할 수 없다는 내용이 표시되지 않습니다. [자세히 보기](../data/lookup-aep-data.md)
+* **Adobe Experience Platform 데이터 사용** 문서가 업데이트되었습니다. 데이터 세트 조회를 연결할 수 없다는 가드레일이 더 이상 언급되지 않으며, 현재 제품 동작을 반영합니다. [자세히 보기](../data/lookup-aep-data.md)
 
-* **프로필 업데이트** 활동 설명서가 업데이트되어 한 번의 작업으로 최대 5개의 프로필 특성을 업데이트하는 데 대한 지원을 문서화했습니다. [자세히 보기](../building-journeys/update-profiles.md)
+* **프로필 업데이트** 활동 문서가 업데이트되어 단일 액션에서 최대 5개의 프로필 속성을 업데이트할 수 있도록 지원합니다. [자세히 보기](../building-journeys/update-profiles.md)
 
-* **대상 읽기** 활동 및 **여정 속성** 설명서를 업데이트하여 항상 켜지는 반복 여정의 91일 여정 라이프사이클을 명확하게 수정했습니다. 이제 예약 섹션에서 종료 날짜가 없는 반복 여정이 91일 이상 라이브로 유지됨을 명시적으로 확인하고 전역 시간 초과 FAQ 를 확장하여 91일 프로필 TTL과 91일 보고 기간을 구분했습니다. [자세히 보기](../building-journeys/read-audience.md#schedule)
+* **대상자 읽기** 활동 및 **여정 속성** 문서가 업데이트되어 상시 활성화 반복 여정의 91일 여정 라이프사이클을 명확히 했습니다. 일정 섹션에서는 종료일이 없는 반복 여정이 91일 이후에도 활성 상태로 유지됨을 명시적으로 확인했으며, 전역 시간 초과 FAQ는 91일 프로필 TTL과 91일 보고 기간을 구분하도록 확장되었습니다. [자세히 보기](../building-journeys/read-audience.md#schedule)
 
-* `@datasetLookup{}` 구문이 다운스트림 조건 활동에서 작동하려면 조회 키를 고급 모드로 구성해야 함을 명확히 하기 위해 **데이터 집합 조회** 활동 설명서를 업데이트했습니다. 문제 해결 섹션이 &quot;데이터 세트 조회를 찾을 수 없음&quot; 오류 해결에 대한 지침과 함께 추가되었습니다. [자세히 보기](../building-journeys/dataset-lookup.md#troubleshooting)
+* **데이터 세트 조회** 활동 문서가 업데이트되어 다운스트림 조건 활동에서 `@datasetLookup{}` 구문이 작동하려면 조회 키를 고급 모드에서 구성해야 함을 명확히 했습니다. &quot;데이터 세트 조회를 찾을 수 없음&quot; 오류를 해결하는 방법에 대한 지침이 포함된 문제 해결 섹션이 추가되었습니다. [자세히 보기](../building-journeys/dataset-lookup.md#troubleshooting)
 
-* `toDateTime()` 요구 사항, 숫자 이벤트 ID에 대한 백틱 구문, PQL &quot;일치하지 않는 입력&quot; 오류에 대한 일반적인 오류 콜아웃을 포함하여 컨텍스트 이벤트 특성에서 타임스탬프를 포맷하는 방법을 보여 주는 새 예제로 **날짜 시간 함수** 설명서를 업데이트했습니다. [자세히 보기](../personalization/functions/dates.md#format-date)
+* **날짜/시간 함수** 문서가 업데이트되어 컨텍스트 이벤트 속성에서 타임스탬프 형식을 지정하는 방법을 보여주는 새로운 예시가 추가되었습니다. 여기에는 `toDateTime()` 요구 사항, 숫자 이벤트 ID에 대한 백틱 구문, PQL &quot;입력 불일치&quot; 오류에 대한 일반적인 오류 메시지가 포함됩니다. [자세히 보기](../personalization/functions/dates.md#format-date)
 
-* 파일 기반 변경 데이터 캡처의 경우 `_change_request_type` 필드가 필수이고 해당 값은 대문자가 아닌 소문자 `u`(업데이트) 또는 `d`(삭제)이어야 함을 명확히 하기 위해 **오케스트레이션된 캠페인 보호 및 제한 사항** 및 **소스 커넥터 시작하기** 설명서가 업데이트되었습니다. [자세히 보기](../orchestrated/guardrails.md)
+* **오케스트레이션된 캠페인 가드레일 및 제한 사항** 및 **소스 커넥터 시작** 문서가 업데이트되어 파일 기반 변경 데이터 캡처의 경우 `_change_request_type` 필드가 필수이며 해당 값은 대문자가 아닌 소문자 `u`(업서트) 또는 `d`(삭제)여야 함을 명확히 합니다. [자세히 보기](../orchestrated/guardrails.md)
 
-* **링크 및 추적 메시지 추가** 설명서에 추적 식별자(urlID)를 생성하는 방법에 대한 지침을 업데이트했습니다. URL과 레이블이 모두 고유한 경우에만 고유한 urlID가 할당됩니다. 여러 전자 메일에서(또는 한 전자 메일에서 여러 번) 동일한 URL을 추적하려면 사용자는 유사한 각 URL에 대해 고유한 레이블을 사용해야 합니다. 그렇지 않으면 [!DNL Journey Optimizer]에서 클릭한 링크를 확인할 수 없습니다. [자세히 보기](../email/message-tracking.md#track-across-multiple-emails)
+* **링크 추가 및 메시지 추적** 문서가 추적 식별자(urlID) 생성 방법에 대한 지침으로 업데이트되었습니다. 고유한 urlID는 URL과 레이블이 모두 고유한 경우에만 할당됩니다. 여러 이메일에서 동일한 URL을 추적하거나 하나의 이메일에서 여러 번 추적하려면 각 유사한 URL에 대해 고유한 레이블을 사용해야 합니다. 그렇지 않으면 [!DNL Journey Optimizer]에서 어떤 링크가 클릭되었는지 확인할 수 없습니다. [자세히 보기](../email/message-tracking.md#track-across-multiple-emails)
 
-* **테스트 프로필 만들기** 설명서에 ID 설명자 요구 사항에 대한 중요한 메모를 업데이트했습니다. 데이터 세트를 삭제하고 다시 만들 때 스키마는 기본 ID 필드에 올바른 ID 설명자를 유지해야 합니다. 이 기능이 없으면 수집이 완료된 경우에도 수집된 프로필에 `testProfile = true`(으)로 플래그가 지정되지 않습니다. 문제 해결 체크리스트가 추가되었습니다. [자세히 보기](../audience/creating-test-profiles.md)
+* **테스트 프로필 생성** 설명서가 ID 설명자 요구 사항에 대한 중요한 참고 사항으로 업데이트되었습니다. 데이터 세트를 삭제하고 다시 생성할 때 스키마는 기본 ID 필드에 올바른 ID 설명자를 유지해야 합니다. 그렇지 않으면 수집이 성공적으로 완료되더라도 수집된 프로필에 `testProfile = true` 플래그가 지정되지 않습니다. 문제 해결 체크리스트가 추가되었습니다. [자세히 보기](../audience/creating-test-profiles.md)
 
-* **대상자 읽기** 활동 설명서가 업데이트되어 **비즈니스 이벤트** 활동이 여정의 첫 번째 활동이어야 하는 규칙에 대한 예외임을 명확히 합니다. 대상 타깃팅을 제어하기 위한 고급 대체 요소로 **최적화** 활동을 참조하는 메모도 추가되었습니다. [자세히 보기](../building-journeys/read-audience.md)
+* **대상자 읽기** 활동 설명서가 업데이트되어 **비즈니스 이벤트** 활동은 대상자 읽기가 여정의 첫 번째 활동이어야 한다는 규칙의 예외임을 명확히 했습니다. 또한 대상 타겟팅을 제어하는 고급 대안으로 **최적화** 활동을 참조하는 참고 사항이 추가되었습니다. [자세히 보기](../building-journeys/read-audience.md)
 
-* 이제 여정에서 **웨이브를 사용하여 보내기**&#x200B;를 일반적으로 사용할 수 있습니다. 설명서에서 제한된 가용성 플래그가 제거되었습니다. [자세히 보기](../building-journeys/send-using-waves.md)
+* 여정에서 **예약된 일괄 처리를 사용하여 전송** 기능이 이제 정식으로 제공됩니다. 설명서에서 제한된 가용성 플래그가 제거되었습니다. [자세히 보기](../building-journeys/send-using-waves.md)
 
-* **Jump** 활동 설명서는 새로운 디자인 전략 섹션(**바이트 크기 하위 여정**)으로 보강되었으며, 복잡한 전체 흐름을 Jump 활동을 통해 연결된 작고 집중된 하위 여정으로 변환하는 방법에 대해 설명합니다. [자세히 보기](../building-journeys/jump.md#jump-strategy)
+* **Jump** 활동 설명서에는 복잡한 엔드투엔드 흐름을 Jump 활동을 통해 연결된 더 작고 집중된 하위 여정으로 나누는 방법을 설명하는 새로운 디자인 전략 섹션인 **간단한 하위 여정**&#x200B;이 추가되었습니다. [자세히 보기](../building-journeys/jump.md#jump-strategy)
 
-* **태그** 설명서에 복잡한 명명 규칙 대신 태그 범주를 사용하는 방법에 대한 지침을 업데이트했습니다. 새 섹션에서는 확장 가능한 여정 관리를 위한 태그 범주를 설정하는 방법에 대해 설명합니다. [자세히 보기](../building-journeys/tags.md)
+* **태그** 설명서는 복잡한 명명 규칙 대신 태그 범주를 사용하는 방법에 대한 지침으로 업데이트되었습니다. 새 섹션에서는 확장 가능한 여정 관리를 위해 태그 범주를 설정하는 방법을 설명합니다. [자세히 보기](../building-journeys/tags.md)
 
-* 이제 **데이터 원본 정보** 설명서에는 관리자가 사용자 지정 작업을 통해 외부 데이터에 액세스하거나, 프로필에 대해 활성화되지 않은 데이터 집합을 사용하거나, 프로필이 활성화된 데이터 집합을 사용하는 세 가지 데이터 액세스 전략 중에서 선택할 수 있는 새로운 섹션이 포함되어 있습니다. 각 옵션은 장단점 및 권장 사용 사례와 함께 설명되어 있습니다. [자세히 보기](../datasource/about-data-sources.md#data-access-strategy)
+* **데이터 소스 정보** 설명서에는 실무자가 세 가지 데이터 액세스 전략(사용자 정의 액션을 통한 외부 데이터 액세스, 프로필이 활성화되지 않은 데이터 세트 사용, 프로필이 활성화된 데이터 세트 사용) 중에서 선택할 수 있도록 지원하는 새로운 섹션이 포함되었습니다. 각 옵션에 대한 장단점과 권장 사용 사례가 설명되어 있습니다. [자세히 보기](../datasource/about-data-sources.md#data-access-strategy)
 
-* **푸시 알림 디자인** 설명서에 iOS의 범용 링크 동작을 설명하는 메모가 업데이트되었습니다. 알림 URL이 범용 링크로 등록되어 있으면 선택한 웹 URL 동작과 관계없이 연결된 앱이 열립니다. 브라우저를 강제로 여는 방법에 대한 지침을 추가했습니다. [자세히 보기](../push/design-push.md)
+* **푸시 알림 디자인** 설명서가 업데이트되어 iOS에서 범용 링크의 동작을 명확히 하는 내용이 추가되었습니다. 알림 URL이 범용 링크로 등록된 경우, 선택한 웹 URL 액션과 관계없이 연결된 앱이 열립니다. 브라우저를 강제로 여는 방법에 대한 지침도 추가되었습니다. [자세히 보기](../push/design-push.md)
 
-* 이제 의사 결정 설명서에서 새 **AI 모델 모니터링** 페이지를 사용할 수 있습니다. [!DNL Journey Optimizer]에서 직접 개인화된 최적화 모델의 상태, 교육 상태 및 성능을 추적하는 방법에 대해 설명합니다. [자세히 보기](../experience-decisioning/ranking/ai-model-observability.md)
+* 의사 결정 설명서에 **AI 모델 모니터링** 페이지가 새로 추가되었습니다. 이 페이지에서는 [!DNL Journey Optimizer]에서 직접 개인화된 최적화 모델의 상태, 학습 상태 및 성능을 추적하는 방법을 설명합니다. [자세히 보기](../experience-decisioning/ranking/ai-model-observability.md)
 
-* 이제 전자 메일 서식 파일용 **고급 HTML 편집기**(전문가 모드)를 제한된 가용성으로 사용할 수 있습니다. 이제 설명서 페이지에 공개적으로 액세스할 수 있습니다. 이 기능을 사용하면 이메일 Designer에서 직접 이메일 콘텐츠 템플릿의 원시 HTML 소스를 보고 편집할 수 있습니다. [자세히 보기](../email/email-expert-mode.md)
+* 이메일 템플릿용 **고급 HTML 편집기**(전문가 모드)가 제한적으로 제공됩니다. 해당 설명서 페이지는 이제 공개적으로 액세스할 수 있습니다. 이 기능을 사용하면 이메일 디자이너에서 이메일 콘텐츠 템플릿의 원시 HTML 소스를 직접 보고 편집할 수 있습니다. [자세히 보기](../email/email-expert-mode.md)
 
-* **URL 추적** 및 **여정 문제 해결** 설명서가 닫힌 여정에서 `context.system.source.actionId`의 동작을 문서화하도록 업데이트되었습니다. 닫거나 다시 게시하지 않은 여정은 추적 URL에 빈 `{}`개의 자리 표시자를 생성할 수 있습니다. 여정을 다시 게시하거나 영향을 받는 매개 변수를 제거하여 문제를 해결하는 방법에 대한 지침을 추가했습니다. [자세히 보기](../email/url-tracking.md)
+* **URL 추적** 및 **여정 문제 해결** 설명서가 업데이트되어 종료된 여정에서 `context.system.source.actionId`의 동작을 설명합니다. 종료되었거나 다시 게시되지 않은 여정은 추적 URL에 빈 `{}` 자리 표시자를 생성할 수 있습니다. 여정을 다시 게시하거나 영향을 받는 매개변수를 제거하여 문제를 해결하는 방법에 대한 지침이 추가되었습니다. [자세히 보기](../email/url-tracking.md)
 
-* **Adobe Experience Platform 데이터 소스** 설명서에 XDM 개인 프로필 기반 스키마만 Data Source 구성에서 지원된다는 점을 참고하십시오. [자세히 보기](../datasource/adobe-experience-platform-data-source.md)
+* **Adobe Experience Platform 데이터 소스** 문서가 업데이트되어 데이터 소스 구성에서 XDM 개별 프로필 기반 스키마만 지원된다는 참고 사항이 추가되었습니다. [자세히 보기](../datasource/adobe-experience-platform-data-source.md)
 
-* **TTL(데이터 세트 Time-to-Live) 보호** 설명서가 TTL의 대상이 되는 데이터 세트를 명확하게 식별할 수 있도록 새로운 FAQ 항목으로 향상되었습니다. TTL은 시계열 데이터 세트에만 적용됩니다. 엔티티 데이터 세트, 분류 데이터 세트 및 의사 결정 개체 저장소와 같은 레코드 유형 데이터 세트는 TTL의 적용을 받지 않으므로 보호 롤아웃의 영향을 받지 않습니다. [자세히 보기](../data/datasets-ttl.md)
+* **데이터 세트 TTL(Time-to-Live) 가드레일** 문서가 개선되어 TTL이 적용되는 데이터 세트를 명확하게 식별하는 새로운 FAQ 항목이 추가되었습니다. TTL은 시계열 데이터 세트에만 적용되며, 엔티티 데이터 세트, 분류 데이터 세트, 결정 오브젝트 저장소와 같은 레코드 유형 데이터 세트는 TTL이 적용되지 않으므로 가드레일 롤아웃의 영향을 받지 않습니다. [자세히 보기](../data/datasets-ttl.md)
 
-* **여정 속성** 및 **여정 일시 중지** 설명서가 업데이트되어 이제 여정 기술 세부 정보에서 사용할 수 있는 새 일시 중지 및 다시 시작 필드를 문서화합니다. 이제 **기술 세부 정보 복사** 단추에 기존 `pausedJourneySettings` 블록 외에 `lastPausedAt`, `lastPausedBy`, `lastPausedById`, `lastResumedAt`, `lastResumedBy` 및 `lastResumedById`이(가) 포함됩니다. 여정 속성에서 직접 일시 중지 및 다시 시작 타임스탬프를 보는 방법에 대해 설명하는 새 섹션이 **여정 일시 중지** 페이지에도 추가되었습니다. [자세히 보기](../building-journeys/journey-properties.md)
+* **여정 속성** 및 **여정 일시 중지** 문서가 업데이트되어 이제 여정 기술 세부 정보에서 사용할 수 있는 새로운 일시 중지 및 재개 필드를 설명합니다. **기술 세부 정보 복사** 버튼에는 이제 기존 `pausedJourneySettings` 블록 외에도 `lastPausedAt`, `lastPausedBy`, `lastPausedById`, `lastResumedAt`, `lastResumedBy`, `lastResumedById`도 포함됩니다. 또한 **여정 일시 중지** 페이지에는 여정 속성에서 일시 중지 및 재개 타임스탬프를 직접 보는 방법을 설명하는 새 섹션이 추가되었습니다. [자세히 보기](../building-journeys/journey-properties.md)
 
 ## 2026년 2월 {#february-2026}
 
-* 이제 [의사 결정 관리]에 새 페이지를 사용할 수 있습니다. 개인화 편집기로 오퍼 콘텐츠(표시)를 개인화할 때 지원되는 모든 연산자, 도우미 및 함수를 나열합니다. 런타임 오류를 방지하려면 이 목록을 사용하십시오. Offer Decisioning에서 콘텐츠를 개인화할 때는 문서화된 기능만 지원됩니다. [자세히 보기](../offers/offer-library/personalization-editor-supported-functions.md)
+* 의사 결정 관리를 위한 새로운 페이지도 제공됩니다. 이 페이지에는 개인화 편집기를 사용하여 오퍼 콘텐츠(표현)를 개인화할 때 지원되는 모든 연산자, 도우미 및 함수가 나열됩니다. 런타임 오류를 방지하려면 이 목록을 사용하세요. 오퍼 결정에서 콘텐츠를 개인화할 때는 문서화된 함수만 지원됩니다. [자세히 보기](../offers/offer-library/personalization-editor-supported-functions.md)
 
-* 전자 메일에 대한 **의사 결정 정책 만들기** 및 **메시지에 의사 결정 정책 사용** 설명서를 업데이트했습니다. 이제 전자 메일 본문에서 두 개 이상의 의사 결정 정책에 의해 동일한 오퍼를 선택할 수 있는 경우 엔진에서 오퍼를 중복 제거합니다(각 배치에서 다른 오퍼를 받음). 여러 배치(예: 머리글 및 바닥글)에서 동일한 오퍼를 표시하려면 **결정 출력 재사용**&#x200B;을 사용하십시오. [자세히 보기](../experience-decisioning/create-decision-policy.md)
+* **결정 정책 생성** 및 **메시지에서 결정 정책 사용** 문서가 이메일에 대해 업데이트되었습니다. 이제 이메일 본문에서 동일한 오퍼가 둘 이상의 결정 정책에 의해 선택될 수 있는 경우 엔진이 중복 오퍼를 제거한다는 설명이 추가되었습니다(각 배치에 다른 오퍼가 전송됨). 여러 위치(예: 머리글과 바닥글)에 동일한 오퍼를 표시하려면 **결정 출력 재사용**&#x200B;을 사용하세요. [자세히 보기](../experience-decisioning/create-decision-policy.md)
 
-* 푸시 채널 및 사용자 지정 이벤트 제한에 대한 정보로 [의사 결정 항목] 페이지를 업데이트했습니다. [자세히 보기](../experience-decisioning/items.md#capping)
+* 결정 항목 페이지가 푸시 채널 및 사용자 지정 이벤트 제한에 대한 정보로 업데이트되었습니다. [자세히 보기](../experience-decisioning/items.md#capping)
 
-* **여정의 경험 이벤트 조회** 설명서가 사용 중단 타임라인으로 업데이트되었습니다. 2026년 4월 1일부터 지난 90일 동안 여정 식에서 경험 이벤트 특성을 사용하지 않은 조직에서는 더 이상 이 기능에 액세스할 수 없습니다. 이제 FAQ는 중단 타임라인 및 영향을 받는 사람에 중점을 두고 있으며 경험 이벤트 스키마 페이지는 대체 접근 방식에 대한 직접 링크로 정렬되었습니다. [자세히 보기](../building-journeys/exp-event-lookup.md)
+* **여정에서 경험 이벤트 조회** 문서가 사용 중단 타임라인으로 업데이트되었습니다. 2026년 4월 1일부터 지난 90일 동안 여정 표현식에서 경험 이벤트 속성을 사용하지 않은 조직은 더 이상 이 기능을 사용할 수 없습니다. FAQ는 이제 사용 중단 타임라인과 영향을 받는 조직에 초점을 맞추고 있으며, 경험 이벤트 스키마 페이지는 대체 접근 방식에 대한 직접 링크와 함께 업데이트되었습니다. [자세히 보기](../building-journeys/exp-event-lookup.md)
 
-* **Decisioning** 설명서가 Adobe Experience Platform 데이터를 사용하는 **데이터 세트 조회**&#x200B;에 대해 업데이트되었습니다. 이제 지원되는 채널 가드레일에서는 Decisioning을 사용할 수 있는 모든 채널(코드 기반 경험, 이메일, 푸시, SMS 및 여정의 콘텐츠 결정 활동)에 대해 데이터 세트 조회가 작동한다고 명시합니다. 제한된 가용성 및 공개 베타 노트가 의사 결정 규칙, 등급 수식 및 의사 결정 항목 페이지에서 제거되었습니다. [자세히 보기](../experience-decisioning/aep-data-exd.md)
+* **의사 결정** 설명서가 Adobe Experience Platform 데이터를 사용한 **데이터 세트 조회**&#x200B;에 대해 업데이트되었습니다. 지원되는 채널 가드레일은 이제 의사 결정을 사용할 수 있는 모든 채널(코드 기반 환경, 이메일, 푸시, SMS 및 여정에서 콘텐츠 결정 활동)에서 데이터 세트 조회가 작동함을 명시합니다. 결정 규칙, 순위 공식 및 결정 항목 페이지에서 제한된 가용성 및 공개 베타 관련 참고 사항이 제거되었습니다. [자세히 보기](../experience-decisioning/aep-data-exd.md)
 
-* 외부 시스템 통합 페이지가 사용자 지정 데이터 소스 및 사용자 지정 작업에 대한 링크로 업데이트되었습니다. 또한 이그레스 프록시가 외부 시스템에 대한 **사용자 지정 작업**&#x200B;의 아웃바운드 호출에 대해 정적 IP를 제공한다는 것을 명확히 합니다. [자세히 보기](../configuration/external-systems.md)
+* 외부 시스템 통합 페이지가 업데이트되어 사용자 정의 데이터 소스와 사용자 정의 액션에 대한 링크가 추가되었으며, 전송 프록시가 **사용자 정의 액션**&#x200B;에서 외부 시스템으로의 발신 호출에 대해 고정 IP를 제공한다는 내용이 명확해졌습니다. [자세히 보기](../configuration/external-systems.md)
 
-* 여정 시험 실행 설명서가 명확해졌습니다. 이제 단계 이벤트 특성 `inDryRun` 및 `dryRunID`이(가) 시험 실행 모드에 있을 때 `true`/인스턴스 ID를 반환하고, 테스트 또는 라이브 여정에 대해 `null`을(를) 반환한다고 문서화합니다. 보고 쿼리에서 드라이 실행 단계 이벤트를 제외하기 위한 지침을 그에 따라 업데이트했습니다. [자세히 보기](../building-journeys/journey-dry-run.md)
+* 여정 시험 실행 설명서가 명확해졌습니다. 단계 이벤트 속성 `inDryRun` 및 `dryRunID`은(는) 시험 실행 모드에서 `true`/인스턴스 ID를, 테스트 또는 실제 여정에서 `null`을(를) 반환한다는 내용이 추가되었습니다. 보고 쿼리에서 시험 실행 단계 이벤트를 제외하는 방법에 대한 지침도 이에 따라 업데이트되었습니다. [자세히 보기](../building-journeys/journey-dry-run.md)
 
-* **웹 푸시**&#x200B;를 이제 일반적으로 사용할 수 있습니다. 푸시 알림 설명서가 그에 따라 재구성 및 업데이트되었습니다(시작, 디자인, 보내기, 만들기). [자세히 보기](../push/get-started-push.md)
+* **웹 푸시** 기능이 이제 정식으로 제공됩니다. 푸시 알림 설명서가 재구성되고 이에 따라 업데이트되었습니다(시작, 디자인, 전송, 생성). [자세히 보기](../push/get-started-push.md)
 
-* 이제 설명서에서 웹 푸시 구성 페이지를 사용할 수 있습니다. [자세히 보기](../push/push-configuration-web.md)
+* 웹 푸시 구성 페이지가 이제 설명서에 추가되었습니다. [자세히 보기](../push/push-configuration-web.md)
 
-* 의사 결정의 조각 사용에 대한 설명서가 업데이트되었습니다. 조각 및 의사 결정 섹션에 메모가 추가되었으며 의사 결정 정책 페이지의 조각이 업데이트되었습니다. [자세히 보기](../experience-decisioning/fragments-decision-policies.md)
+* 의사 결정에서 조각 사용에 대한 설명서가 업데이트되었습니다. 조각 및 의사 결정 섹션에 참고 사항이 추가되었고, 결정 정책의 조각 페이지가 업데이트되었습니다. [자세히 보기](../experience-decisioning/fragments-decision-policies.md)
 
-* SMS 웹후크 설명서가 업데이트되었습니다. Twilio 웹후크 콘텐츠가 제거되었습니다. [자세히 보기](../sms/sms-webhook.md)
+* SMS 웹훅 설명서가 업데이트되었으며, Twilio 웹훅 관련 내용은 제거되었습니다. [자세히 보기](../sms/sms-webhook.md)
 
-* **이미지를 콘텐츠 템플릿으로 변환** 설명서는 확장된 보호 기능 및 권장 사항, 일반적인 사용 사례, 이미지 디자인을 편집 가능한 HTML 콘텐츠 템플릿으로 변환하는 보다 명확한 지침을 통해 개선되었습니다. 또한 이제 전환을 위한 입력으로 테마를 사용할 수 있다는 사실을 언급합니다. [자세히 보기](../content-management/image-to-html.md)
+* **이미지를 콘텐츠 템플릿으로 변환** 설명서가 개선되어 가드레일과 권장 사항이 확장되었고, 일반적인 사용 사례와 이미지 디자인을 편집 가능한 HTML 콘텐츠 템플릿으로 변환하는 방법에 대한 명확한 지침이 추가되었습니다. 또한 이제 테마를 전환 입력으로 사용할 수 있다는 내용도 언급되어 있습니다. [자세히 보기](../content-management/image-to-html.md)
 
-* Decisioning 마이그레이션 API 설명서가 업데이트되었습니다. [자세히 보기](../experience-decisioning/decisioning-migration-api.md)
+* 의사 결정 마이그레이션 API 설명서가 업데이트되었습니다. [자세히 보기](../experience-decisioning/decisioning-migration-api.md)
 
-* 이제 **콘텐츠 결정** 활동을 일반적으로 사용할 수 있습니다. 콘텐츠 의사 결정 활동 페이지가 단계 이벤트에서 사용할 수 있는 의사 결정 데이터에 대한 섹션으로 업데이트되었습니다. [자세히 보기](../building-journeys/content-decision.md)
+* 이제 **콘텐츠 결정** 활동이 정식으로 제공됩니다. 콘텐츠 결정 활동 페이지가 업데이트되어 단계 이벤트에서 사용 가능한 결정 데이터에 대한 섹션이 추가되었습니다. [자세히 보기](../building-journeys/content-decision.md)
 
-* 충성도 과제 API 설명서에 대한 링크를 충성도 과제 섹션(시작하기, 과제 만들기, 작업 만들기, 충성도 과제 액세스)에 추가했습니다. [자세히 보기](../loyalty-challenges/get-started.md)
+* 충성도 챌린지 섹션(시작, 챌린지 생성, 작업 생성, 충성도 챌린지 액세스)에 충성도 챌린지 API 문서 링크가 추가되었습니다. [자세히 보기](../loyalty-challenges/get-started.md)
 
-* 캠페인 생성 마법사 설명서의 지원되는 채널 정보가 수정되었습니다. 채널 시작 및 오케스트레이션된 캠페인 FAQ 페이지가 이에 따라 업데이트되었습니다. [자세히 보기](../campaigns/get-started-with-campaigns.md)
+* 캠페인 생성 마법사 설명서의 지원 채널 정보가 수정되었습니다. 채널 시작 및 오케스트레이션된 캠페인 FAQ 페이지도 이에 따라 업데이트되었습니다. [자세히 보기](../campaigns/get-started-with-campaigns.md)
 
-* **권한 관리** 및 **승인** 여정에 대한 권한 설명서가 수정되었습니다. [자세히 보기](../administration/ootb-permissions.md)
+* **여정 관리** 및 **승인** 권한에 대한 권한 설명서가 수정되었습니다. [자세히 보기](../administration/ootb-permissions.md)
 
-* AEM(Adobe Experience Manager) 통합 설명서에 수정된 이름 지정(AEM 다이내믹 콘텐츠 및 AEM 조각)을 업데이트했습니다. [자세히 보기](../integrations/aem-fragments.md)
+* AEM(Adobe Experience Manager) 통합 설명서가 개정된 명칭(AEM 다이내믹 콘텐츠 및 AEM 조각)으로 업데이트되었습니다. [자세히 보기](../integrations/aem-fragments.md)
 
-* 제외 목록에 새 제외 이유를 추가했습니다. **UnsubscribeLinkNotValid**(오류 코드 050081). 이 제외는 List-Unsubscribe mailTo 제목 길이가 RFC 제한인 998자보다 클 때 생성됩니다. [자세히 보기](../reports/exclusion-list.md)
+* 제외 목록에 새로운 제외 사유인 **UnsubscribeLinkNotValid**(오류 코드 050081)가 추가되었습니다. 이 제외 사유는 List-Unsubscribe mailTo 제목의 길이가 RFC에서 정한 998자 제한을 초과할 때 발생합니다. [자세히 보기](../reports/exclusion-list.md)
 
-* formatDate 도우미 함수 설명서가 개선되었습니다. 함수에는 날짜-시간 필드 유형(문자열 아님)이 필요하며 날짜-시간 필드 서식 지정, 문자열을 먼저 날짜로 변환, 요일 이름이 있는 전체 날짜, 시스템 시간의 동적 날짜 및 소문자 출력을 포함하는 요일 형식 등의 여러 가지 예가 있습니다. [자세히 보기](../personalization/functions/dates.md#format-date)
+* formatDate 도우미 함수 설명서가 개선되었습니다. 함수가 날짜/시간 필드 유형(문자열이 아님)을 필요로 한다는 점과 날짜/시간 필드 서식 지정, 문자열을 먼저 날짜로 변환, 요일 이름을 포함한 전체 날짜, 시스템 시간을 사용한 동적 날짜, 소문자 출력을 포함한 요일 형식 지정 등 다양한 예시가 추가되었습니다. [자세히 보기](../personalization/functions/dates.md#format-date)
 
-* 텍스트 버전 이메일 설명서는 사용자 정의 일반 텍스트와 자동 동기화를 사용하는 경우에 대한 결정 기준, 실제 시나리오가 포함된 실용적인 예제, 일반적인 질문이 있는 FAQ 섹션 등 포괄적인 사용 사례 안내로 개선되었습니다. [자세히 보기](../email/text-version-email.md#when-to-use)
+* 텍스트 버전 이메일 설명서에는 포괄적인 사용 사례 지침이 추가되어 더욱 향상되었습니다. 여기에는 사용자 정의 일반 텍스트와 자동 동기화 중 어떤 것을 사용할지 결정하는 기준, 실제 시나리오를 활용한 실용적인 예시, 그리고 FAQ 섹션이 포함됩니다. [자세히 보기](../email/text-version-email.md#when-to-use)
 
-* 이메일 Designer 테마 설명서에 웹 글꼴 지원 제한 사항과 대체 글꼴의 중요성에 대한 정보를 업데이트했습니다. [자세히 보기](../email/apply-email-themes.md#themes-guardrails)
+* 이메일 디자이너 테마 설명서는 웹 글꼴 지원 제한 사항과 대체 글꼴의 중요성 정보로 업데이트되었습니다. [자세히 보기](../email/apply-email-themes.md#themes-guardrails)
 
-* 작업에서 제외된 프로필에 대한 메타데이터가 캡처되지 않는다는 것을 명확하게 하기 위해 실행 메타데이터 도우미 설명서에 제한을 추가했습니다. [자세히 보기](../personalization/functions/helpers.md#execution-metadata)
+* 실행 메타데이터 도우미 설명서에 제한 사항이 추가되어 액션에서 제외된 프로필에 대한 메타데이터는 캡처되지 않는다는 점을 명확히 했습니다. [자세히 보기](../personalization/functions/helpers.md#execution-metadata)
 
-* 코드 기반 구현 샘플 설명서가 Decisioning에서 정확한 추적 및 속성을 위해 propositionAction에 토큰 필드를 포함하도록 업데이트되었습니다. [자세히 보기](../code-based/code-based-implementation-samples.md#client-side-how)
+* 코드 기반 구현 샘플 설명서가 업데이트되어 의사 결정 과정에서 정확한 추적 및 기여도 파악을 위해 propositionAction에 토큰 필드가 포함되었습니다. [자세히 보기](../code-based/code-based-implementation-samples.md#client-side-how)
 
-* URL에 추가된 URL 추적 매개 변수의 순서가 임의적이며 제어할 수 없다는 것을 명확히 하기 위해 URL 추적 및 목록 구독 취소 설명서에 메모가 추가되었습니다. [자세히 보기](../email/url-tracking.md)
+* URL 추적 및 목록 구독 취소 설명서에는 URL에 추가되는 추적 매개변수의 순서는 임의적이며 제어할 수 없다는 점을 명확히 하는 내용이 추가되었습니다. [자세히 보기](../email/url-tracking.md)
 
 ## 2026년 1월 {#january-2026}
 
-* 라이선스 사용 대시보드 설명서에 정의 세부 정보 및 문제 해결 지침을 포함하여 **참여 가능한 프로필**&#x200B;에 대한 업데이트된 지침이 명확해졌습니다. [자세히 보기](../audience/license-usage.md#what-is-engageable-profile)
+* 라이선스 사용 대시보드 문서가 **참여 가능한 프로필**&#x200B;에 대한 업데이트된 지침으로 명확해졌습니다. 여기에는 정의 세부 정보와 문제 해결 지침이 포함됩니다. [자세히 보기](../audience/license-usage.md#what-is-engageable-profile)
 
-* 웹 글꼴 지원 제한 사항을 명확하게 하기 위해 이메일 Designer 테마 설명서에 메모가 추가되었습니다. [자세히 보기](../email/apply-email-themes.md#themes-guardrails)
+* 이메일 디자이너 테마 설명서에 웹 글꼴 지원 제한 사항을 명확히 하기 위한 참고 사항이 추가되었습니다. [자세히 보기](../email/apply-email-themes.md#themes-guardrails)
 
 * 경고 및 오류 임계값과 여정 최적화 방법에 대한 지침을 포함하여 여정 페이로드 크기 유효성 검사에 대해 정리한 새 가드레일 섹션을 추가했습니다. [자세히 보기](../start/guardrails.md#journey-payload-size)
 
