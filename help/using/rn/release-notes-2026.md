@@ -11,7 +11,7 @@ exl-id: 65ca94cf-8e17-4a25-90f3-238083f81477
 source-git-commit: 70a9be0c253bbed319510058f7f249f5919bf7b8
 workflow-type: tm+mt
 source-wordcount: '4254'
-ht-degree: 46%
+ht-degree: 76%
 
 ---
 
@@ -21,36 +21,36 @@ ht-degree: 46%
 
 ## 2026년 3월 릴리스 정보 {#march-26-rn}
 
-[새 기능](#march-26-features) 및 [개선 사항](#march-26-improv) 섹션에서는 이미 사용 가능한 기능을 다룹니다. <!--The [Coming soon](#coming-soon) section lists features and improvements scheduled for release later in March.-->
+[새로운 기능](#march-26-features) 및 [개선 사항](#march-26-improv) 섹션에서는 이미 사용 가능한 기능에 대해 다룹니다. <!--The [Coming soon](#coming-soon) section lists features and improvements scheduled for release later in March.-->
 
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
-**릴리스 날짜**: 2026년 3월 24~25일
+**출시일**: 2026년 3월 24~25일
 
 ### 새로운 기능 {#march-26-features}
 
 <table>
 <thead>
 <tr>
-<th><strong>URL 매개 변수 암호화</strong><br/></th>
+<th><strong>URL 매개변수 암호화</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 이메일 메시지에 추가된 추적 및 랜딩 페이지 링크의 URL 매개 변수를 암호화할 수 있으므로, 중요한 매개 변수 데이터에 대한 추가 보안 계층을 제공합니다.</p>
+<p>이메일 메시지에 추가된 추적 및 랜딩 페이지 링크의 URL 매개변수를 이제 암호화할 수 있어 민감한 매개변수 데이터에 대한 보안을 강화할 수 있습니다.</p>
 <ul>
-<li>전용 <strong>관리</strong> 레지스트리에서 암호화 키를 등록 및 관리합니다.</li>
-<li>표현식에 새로운 'Encrypt' 도우미 함수를 사용하여 렌더링 시 보호하려는 쿼리 매개변수에 대한 URL의 중요 데이터를 암호화합니다.</li>
+<li>전용 <strong>관리</strong> 레지스트리에서 암호화 키를 등록하고 관리하세요.</li>
+<li>표현식에서 새로운 `Encrypt` 도우미 함수를 사용하여 렌더링 시 보호하려는 쿼리 매개변수의 URL에 있는 민감한 데이터를 암호화할 수 있습니다.</li>
 </ul>
 <p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
 <p><img src="assets/do-not-localize/encrypt-helper.gif"></p>
 <p>자세한 내용은 <a href="../personalization/url-parameter-encryption.md">세부 설명서</a>를 참조하십시오.</p>
-<p>사용 가능한 날짜: 2026년 3월 31일</p>
+<p>가용성 일자: 2026년 3월 31일</p>
 </td>
 </tr>
 </tbody>
@@ -65,11 +65,11 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <tbody>
 <tr>
 <td>
-<p>이제 Journey Optimizer에서 직접 이미지를 이메일 콘텐츠 템플릿으로 변환할 수 있습니다. AI 기반 분석을 사용하여 시각적 참조에서 구조화된 HTML 템플릿을 자동으로 생성하여 이메일 디자인 시간을 크게 단축할 수 있습니다.</p>
+<p>이제 Journey Optimizer에서 직접 이미지를 이메일 콘텐츠 템플릿으로 변환할 수 있습니다. AI 기반 분석을 사용하여 시각적 참조 자료를 기반으로 구조화된 HTML 템플릿을 자동으로 생성함으로써 이메일을 디자인하는 시간을 크게 단축할 수 있습니다.</p>
 <p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
 <p><img src="assets/do-not-localize/image-converter.gif"></p>
 <p>자세한 내용은 <a href="../content-management/image-to-html.md">세부 설명서</a>를 참조하십시오.</p>
-<p>사용 가능한 날짜: 2026년 3월 31일</p>
+<p>가용성 일자: 2026년 3월 31일</p>
 </td>
 </tr>
 </tbody>
@@ -84,12 +84,12 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <tbody>
 <tr>
 <td>
-<p>[!DNL Journey Optimizer]을(를) 사용하면 랜딩 페이지를 통해 프로필 특성을 캡처할 수 있습니다.</p>
+<p>[!DNL Journey Optimizer]에서 랜딩 페이지를 통해 프로필 속성을 캡처할 수 있습니다.</p>
 <p>특정 데이터 세트를 기반으로 필요에 맞는 사용자 정의 양식을 만들고 디자인하고 관리합니다. 그런 다음 랜딩 페이지에서 이 양식을 활용하여 선택한 프로필 속성을 각 양식별로 정의한 데이터 세트에 추가할 수 있습니다.</p>
-<p>이전에 미국 및 오스트레일리아의 고객을 위한 제한된 가용성에 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
+<p>이전에 미국과 호주에 있는 고객에게 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
 <p><img src="assets/do-not-localize/forms.gif"/></p>
 <p>자세한 내용은 <a href="../landing-pages/lp-forms.md">세부 설명서</a>를 참조하십시오.</p>
-<p>사용 가능한 날짜: 2026년 3월 26일</p>
+<p>가용성 일자: 2026년 3월 26일.</p>
 </td>
 </tr>
 </tbody>
@@ -98,13 +98,13 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <table>
 <thead>
 <tr>
-<th><strong>오케스트레이션된 캠페인에서 활동 테스트</strong><br/></th>
+<th><strong>오케스트레이션된 캠페인의 테스트 활동</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 오케스트레이션된 캠페인에서 새 <strong>Test</strong> 활동을 사용할 수 있습니다. 이 활동은 정의된 조건에 따라 워크플로우 실행을 다른 분기로 라우팅하므로 라이브 게재를 활성화하기 전에 캠페인 논리 및 구성을 확인할 수 있습니다.</p>
+<p>이제 오케스트레이션된 캠페인에서 새로운 <strong>테스트</strong> 활동을 사용할 수 있습니다. 이 활동은 정의된 조건에 따라 워크플로 실행을 다른 분기로 라우팅하므로 라이브 게재를 활성화하기 전에 캠페인 논리 및 구성을 확인할 수 있습니다.</p>
 <p><img src="../orchestrated/assets/test-1.png"></p>
 <p>자세한 내용은 <a href="../orchestrated/activities/test.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
@@ -115,14 +115,14 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <table>
 <thead>
 <tr>
-<th><strong>여정의 데이터 세트 조회 지원</strong><br/></th>
+<th><strong>여정 데이터 세트 조회 지원</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>여정의 새 <strong>데이터 세트 조회</strong> 활동을 사용하면 런타임 시 Adobe Experience Platform 레코드 데이터 세트에서 데이터를 동적으로 검색할 수 있으므로 프로필 또는 이벤트 페이로드의 일부가 아닌 정보에 액세스할 수 있으므로 고객 상호 작용이 적절하고 적시에 유지됩니다.</p>
-<p>이전에는 제한된 조직 집합에 대해 제한된 가용성으로 릴리스되었지만 이제 제한된 가용성으로 남아 있으면서 [데이터 집합 조회](../data/lookup-aep-data.md)를 사용할 수 있는 모든 고객이 여정의 데이터 집합 조회 활동을 사용할 수 있습니다.</p>
+<p>여정에 새로 추가된 <strong>데이터 세트 조회</strong> 활동을 사용하면 런타임 시 Adobe Experience Platform 레코드 데이터 세트에서 데이터를 동적으로 검색하여 프로필 또는 이벤트 페이로드의 일부가 아닌 정보에 액세스함으로써 지속적으로 적시에 적절한 고객 상호 작용을 수행할 수 있습니다.</p>
+<p>이전에는 일부 조직에만 제한된 가용성으로 릴리스되었던 여정의 데이터 세트 조회 활동은 여전히 제한된 가용성 단계이지만 이제 [데이터 세트 조회](../data/lookup-aep-data.md) 권한이 있는 모든 고객이 사용할 수 있습니다.</p>
 <p><img src="../building-journeys/assets/aep-data-activity.png"></p>
 <p>자세한 내용은 <a href="../building-journeys/dataset-lookup.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
@@ -133,15 +133,15 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <table>
 <thead>
 <tr>
-<th><strong>작업 활동은 채널별 여정 활동을 대체합니다</strong><br/></th>
+<th><strong>채널별 여정 활동 대신 액션 활동 사용</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>2026년 2월에 <strong>작업 활동</strong>이 일반 지원됨에 따라 여정 캔버스에서 레거시 기본 채널 활동(전자 메일, 푸시, SMS, 인앱, 웹, 코드 기반 경험 및 콘텐츠 카드)이 이제 더 이상 사용되지 않습니다.</p>
-<p>이제 별도의 채널별 노드가 필요하므로 단일 작업 활동을 사용하여 모든 채널 작업을 구성해야 합니다.</p>
-<p>기존 채널 활동을 사용하는 기존 여정은 변경 사항이나 마이그레이션이 필요 없이 계속 작동합니다.</p>
+<p>2026년 2월에 <strong>액션 활동</strong>이 일반 가용성으로 공개됨에 따라 여정 캔버스에서 레거시 기본 채널 활동(이메일, 푸시, SMS, 인앱, 웹, 코드 기반 경험, 콘텐츠 카드)의 사용이 종료될 예정입니다.</p>
+<p>이제 별도의 채널별 노드를 만들 필요 없이 단일 액션 활동을 사용하여 모든 채널 액션을 구성해야 합니다.</p>
+<p>레거시 채널 활동을 사용 기존 여정은 수정이나 마이그레이션을 수행할 필요 없이 계속 정상적으로 작동합니다.</p>
 <p><img src="assets/do-not-localize/action-activity.gif"></p>
 <p>자세한 내용은 <a href="../building-journeys/journey-action.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
@@ -158,11 +158,11 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <tbody>
 <tr>
 <td>
-<p>이메일 콘텐츠 템플릿에 대한 고급 HTML 모드를 사용하면 이메일 Designer에서 콘텐츠의 HTML 소스를 편집하고, 소스에 고급 표현식(예: 조건)을 추가하고, 변경 내용을 유지한 채 HTML 보기와 데스크탑 보기 간에 전환할 수 있습니다.</p>
-<p>이 기능은 이메일 채널의 콘텐츠 템플릿에서만 사용할 수 있습니다. 현재 제한된 가용성 상태입니다. Adobe 담당자에게 문의하여 액세스 권한을 받으십시오.</p>
+<p>이메일 콘텐츠 템플릿용 고급 HTML 모드를 사용하면 이메일 디자이너에서 콘텐츠의 HTML 소스를 편집하고, 소스에 고급 표현식(조건 등)을 추가하고, 변경 내용을 유지하면서 HTML 보기와 데스크탑 보기를 전환할 수 있습니다.</p>
+<p>이 기능은 이메일 채널의 콘텐츠 템플릿에서만 사용할 수 있습니다. 현재 제한된 가용성 단계이므로 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
 <p><img src="assets/do-not-localize/expert-mode.gif"/></p>
 <p>자세한 내용은 <a href="../email/email-expert-mode.md">세부 설명서</a>를 참조하십시오.</p>
-<p>사용 가능한 날짜: 2026년 3월 10일</p>
+<p>가용성 일자: 2026년 3월 10일</p>
 </td>
 </tr>
 </tbody>
@@ -171,17 +171,17 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <table>
 <thead>
 <tr>
-<th><strong>사용자 정의 Firefly 모델과 서드파티 이미지 생성 모델의 통합</strong><br/></th>
+<th><strong>사용자 정의 Firefly 모델과 서드파티 이미지 생성 모델 통합</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>승인된 서드파티 이미지 모델과 함께 표준 및 사용자 정의 Firefly 모델의 원활한 통합을 활성화하여 이미지 생성 시 더 큰 유연성, 컨트롤 및 브랜드 정렬을 제공합니다.</p>
-<p>요구 사항에 맞는 모델을 선택하십시오.</p>
-<ul><li> 별도의 설정 없이 즉시 이미지 생성을 위한 <strong>Adobe 모델</strong>(Firefly Image Model 4 기반)</li><li> 특수 기능을 위한 <strong>파트너 모델</strong>(Gemini 2.5 Flash 기반)</li><li>브랜드 정체성, 스타일 및 시각적 가이드라인에 정확히 일치하는 브랜드 콘텐츠 생성을 위한 <strong>사용자 정의 모델</strong>(사용자 고유의 자산에 대해 학습된 브랜드 전용 모델)</li></ul>
+<p>필요에 따라 적합한 모델을 선택하십시오.</p>
+<ul><li> 추가 설정 없이 즉각적으로 이미지를 생성하려는 경우 <strong>Adobe 모델</strong>(Firefly Image Model 4 기반)</li><li> 특수 기능이 필요한 경우 <strong>파트너 모델</strong>(Gemini 2.5 Flash 지원)</li><li>브랜드 정체성, 스타일, 비주얼 가이드라인을 정확하게 준수하여 브랜드에 맞는 이미지를 생성하려는 경우 <strong>사용자 정의 모델</strong>(사용자 고유의 에셋으로 학습한 브랜드별 모델).</li></ul>
 <p>자세한 내용은 <a href="../content-management/generative-models.md">세부 설명서</a>를 참조하십시오.</p>
-<p>사용 가능한 날짜: 2026년 3월 2일</p>
+<p>가용성 일자: 2026년 3월 2일</p>
 </td>
 </tr>
 </tbody>
@@ -190,16 +190,16 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <table>
 <thead>
 <tr>
-<th><strong>iOS에 대한 라이브 활동</strong><br/></th>
+<th><strong>iOS 라이브 활동</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer에서 <strong>iOS 라이브 활동</strong>을 통해 고객의 Screens 및 Dynamic Island 잠금에 직접 실시간 경험을 제공할 수 있습니다. 사용자가 앱을 열지 않고도 주문 추적 및 비행 상태부터 이벤트 처리, 라이브 점수 및 게재 진행률에 이르기까지 라이브 업데이트를 제공할 수 있습니다. 대상자가 있는 바로 그 순간에 정보를 얻고 참여하도록 하십시오.</p>
-<p>이전에 베타 버전으로 출시된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 공급).</p>
+<p>Adobe Journey Optimizer에서 <strong>iOS 라이브 활동</strong>을 통해 고객의 잠금 화면 및 Dynamic Island에 직접 실시간 경험을 보낼 수 있습니다. 사용자가 앱을 열지 않아도 주문 추적 및 항공편 상태부터 이벤트 카운트다운, 라이브 점수, 배송 진행 상황에 이르기까지 실시간 업데이트를 제공할 수 있습니다. 바로 그 순간에 대상자가 있는 바로 그 자리로 정보를 제공하고 참여를 유도합니다.</p>
+<p>이전에 Beta로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
 <p>자세한 내용은 <a href="../mobile-live/get-started-mobile-live.md">세부 설명서</a>를 참조하십시오.</p>
-<p>사용 가능한 날짜: 2026년 3월 3일</p>
+<p>가용성 : 2026년 3월 3일</p>
 </td>
 </tr>
 </tbody>
@@ -208,16 +208,16 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <table>
 <thead>
 <tr>
-<th><strong>Journey Agent: 채널 컨텐츠 만들기</strong><br/></th>
+<th><strong>Journey 에이전트: 채널 콘텐츠 작성</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p><strong>Adobe Experience Platform Agent Orchestrator</strong>에서 제공하는 <strong>Journey Agent</strong>은(는) Journey Optimizer에서 사용할 수 있으며 자연어 인터페이스를 통해 여정을 분석할 수 있도록 해줍니다. 이제 Journey Agent에서 직접 채널별 콘텐츠를 생성하고 관리할 수도 있습니다. 또한 이메일 및 푸시와 같은 채널용 콘텐츠를 만들고, 템플릿을 적용하고 미리 보고, 프롬프트를 통해 색조와 스타일을 개선하고, <strong>콘텐츠 Designer</strong>에서 콘텐츠를 열어 상황에 맞게 편집할 수 있습니다.</p>
+<p><strong>Adobe Experience Platform Agent Orchestrator</strong>에서 제공하는 <strong>Journey 에이전트</strong>를 Journey Optimizer에서 사용하여 자연어 인터페이스를 통해 여정을 분석할 수 있습니다. 이제 Journey 에이전트에서 직접 채널별 콘텐츠를 생성 및 관리하고, 이메일 및 푸시와 같은 채널을 위한 콘텐츠를 작성하고, 템플릿을 적용하고 미리 보고, 프롬프트를 통해 톤과 스타일을 개선하고, <strong>콘텐츠 디자이너</strong>에서 콘텐츠를 열어 컨텍스트를 확인하며 편집할 수도 있습니다.</p>
 <p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
 <p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=ko" target="_blank">세부 설명서</a>를 참조하십시오.</p>
-<p>사용 가능한 날짜: 2026년 3월 4일</p>
+<p>: 2026년 3월 4일</p>
 </td>
 </tr>
 </tbody>
@@ -232,11 +232,11 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <tbody>
 <tr>
 <td>
-<p>이제 Journey Optimizer을 통해 Decisioning AI 모델의 상태, 교육 상태 및 성능을 모니터링할 수 있습니다. 이를 통해 교육 성공을 확인하고, 실패를 해결하며, 결과에 미치는 영향을 파악하여 AI를 사용하는 각 고객을 위한 최상의 오퍼를 선택할 수 있습니다. 이 기능은 <strong>Decisioning</strong>에만 사용할 수 있습니다(이전 의사 결정 관리 모델에는 사용할 수 없음).</p>
-<p>이 기능은 현재 <strong>개인화된 최적화</strong> 모델에만 사용할 수 있습니다(자동 최적화는 아님).</p>
+<p>이제 Journey Optimizer에서 의사 결정 AI 모델의 상태, 학습 진행 상황, 성과를 모니터링할 수 있습니다. 이를 통해 모델의 학습 성공을 확인하고 실패를 해결하며 결과에 미치는 영향을 파악하여 AI로 각 고객을 위한 최상의 오퍼를 선택할 수 있습니다. 이 기능은 <strong>의사 결정</strong>에만 사용할 수 있습니다(레거시 의사 결정 관리 모델에는 사용 불가).</p>
+<p>이 기능은 현재 <strong>개인화된 최적화</strong> 모델에만 사용할 수 있습니다(자동 최적화에는 사용 불가).</p>
 <p><img src="assets/do-not-localize/ai-model-observability.gif"/></p>
 <p>자세한 내용은 <a href="../experience-decisioning/ranking/ai-model-observability.md">세부 설명서</a>를 참조하십시오.</p>
-<p>사용 가능한 날짜: 2026년 3월 9일</p>
+<p>가용성 일자: 2026년 3월 9일</p>
 </td>
 </tr>
 </tbody>
@@ -251,7 +251,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <tbody>
 <tr>
 <td>
-<p>이제 오케스트레이션된 캠페인을 <strong>API 신호</strong>를 통해 트리거할 수 있습니다. 이를 설정하려면 Target 캠페인을 <strong>신호에 의해 트리거됨</strong>(으)로 구성하고 게시한 다음 API 호출을 사용하여 실행합니다. API 호출에 포함된 모든 매개 변수는 실행 중인 캠페인 내에서 변수로 사용할 수 있습니다. 신호 트리거 오케스트레이션된 캠페인은 <strong>일괄</strong> 캠페인으로 유지되며 API 트리거 캠페인과 다릅니다.</p>
+<p>이제 <strong>API 신호</strong>를 통해 오케스트레이션된 캠페인을 트리거할 수 있습니다. 대상 캠페인을 <strong>신호에 의해 트리거됨</strong>으로 구성하고 게시한 다음 API 호출을 사용하여 실행하면 됩니다. API 호출에 포함된 모든 매개 변수는 실행하는 캠페인 내에서 변수로 사용할 수 있습니다. 신호에 의해 트리거되는 오케스트레이션된 캠페인은 <strong>배치</strong> 캠페인으로 유지되며 API 트리거 캠페인과는 다릅니다.</p>
 <p><img src="assets/do-not-localize/oc-triggered.gif"></p>
 <p>자세한 내용은 <a href="../orchestrated/trigger-orchestrated-campaign.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
@@ -268,10 +268,10 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <tbody>
 <tr>
 <td>
-<p>오케스트레이션된 캠페인에서는 이제 채널 활동을 <strong>트랜잭션</strong> 범주로 설정할 수 있습니다. 이렇게 하면 해당 활동에 트랜잭션 채널 구성이 적용되며, 비즈니스 규칙이 적용되지 않거나 고객의 옵트인이 필요하지 않은 경우에 유용합니다.</p>
+<p>이제 오케스트레이션된 캠페인에서 채널 활동을 <strong>트랜잭션</strong> 범주로 설정할 수 있습니다. 이렇게 하면 해당 활동에 트랜잭션 채널 구성이 적용되며, 비즈니스 규칙을 적용하면 안 되거나 고객의 옵트인이 필요하지 않은 경우에 유용합니다.</p>
 <p><img src="assets/do-not-localize/oc-transactional.gif"></p>
 <p>자세한 내용은 <a href="../orchestrated/activities/channels.md#add">세부 설명서</a>를 참조하십시오.</p>
-<p>이 기능은 앞으로 며칠 동안 모든 지역으로 점진적으로 배포될 예정입니다.</p>
+<p>이 기능은 향후 며칠 동안 모든 지역에 점진적으로 롤아웃될 예정입니다.</p>
 </td>
 </tr>
 </tbody>
@@ -283,7 +283,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 
 #### 개인화
 
-* **전체/기본 URL 개인화** - 프로필 특성(예: 도메인 또는 경로)을 사용하여 대상 URL을 개인화할 수 있습니다. 이 기능을 활성화하려면 Adobe에 허용된 도메인 목록을 제공하십시오. [자세히 보기](../personalization/personalization-build-expressions.md#where)
+* **전체/기본 URL 개인화** - 프로필 속성(예: 도메인 또는 경로)을 사용하여 대상 URL을 개인화할 수 있습니다. 이 기능을 활성화하려면 Adobe에 허용할 도메인 목록을 제공해 주십시오. [자세히 보기](../personalization/personalization-build-expressions.md#where)
 
   이전에 여정에서 사용할 수 있도록 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).
 
@@ -291,9 +291,9 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 
 #### 보고
 
-* **전송 시간 최적화: 컨트롤 위치 및 새 리프트 보고서를 업데이트했습니다** - STO(전송 시간 최적화) 컨트롤이 작업 구성 메뉴로 재배치되었습니다. 또한 이제 여정 보고서에서 STO가 캠페인 성과 지표에 미치는 영향을 측정하는 새로운 상승도 보고서를 사용할 수 있습니다. [자세히 보기](../reports/channel-report-cja.md#optimization-models)
+* **전송 시간 최적화: 컨트롤 위치 업데이트 및 새로운 상승도 보고서 추가** - 전송 시간 최적화(STO) 컨트롤이 액션 구성 메뉴로 재배치되었습니다. 또한 이제 여정 보고서에서 새로운 상승도 보고서를 사용하여 STO가 캠페인 성과 지표에 미치는 영향을 측정할 수 있습니다. [자세히 보기](../reports/channel-report-cja.md#optimization-models)
 
-  사용 가능한 날짜: 2026년 3월 27일
+  가용성 일자: 2026년 3월 27일
 
 <!--
 * **Exclude bot clicks for email and SMS reporting** - Email and SMS reporting now automatically filters out bot clicks from click metrics, providing more accurate engagement data and preventing automated traffic from inflating your performance figures.
@@ -311,42 +311,42 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 
 <!--* **Folders for journeys and campaigns** - You can now organize your journeys and campaigns into folders, enabling structured navigation and easier management for teams working with large volumes of content. This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.-->
 
-* **AJO 도메인 인증서 갱신 실패** - 이제 전자 메일 게재에 사용되는 도메인 인증서가 곧 만료되거나 이미 만료된 경우 전자 메일 또는 Journey Optimizer 알림 센터에서 시스템 경고를 수신하도록 구독할 수 있습니다. [자세히 보기](../reports/alerts.md#alert-certificates-renewal-unsuccessful)
+* **AJO 도메인 인증서 갱신 실패** - 이제 구독을 통해 이메일 게재에 사용되는 도메인 인증서가 곧 만료되거나 이미 만료된 경우 이메일 또는 Journey Optimizer 알림 센터를 통해 시스템 경고를 수신할 수 있습니다. [자세히 보기](../reports/alerts.md#alert-certificates-renewal-unsuccessful)
 
-  사용 가능한 날짜: 2026년 3월 26일
+  가용성 일자: 2026년 3월 26일
 
-* **AJO 보조 받는 사람 피드백 이벤트 데이터 세트 이름 바꾸기** - `AJO Email BCC Feedback Event` 데이터 세트의 이름이 `AJO Secondary Recipient Feedback Event` 데이터 세트로 바뀌었습니다. 영향은 상황에 따라 다릅니다.
+* **AJO 보조 수신자 피드백 이벤트 데이터 세트 이름 변경** - `AJO Email BCC Feedback Event` 데이터 세트의 이름이 `AJO Secondary Recipient Feedback Event` 데이터 세트로 바뀌었습니다. 영향은 상황에 따라 다릅니다.
 
    * **기존 사용자**: 표시 이름만 업데이트됩니다. 기본 테이블 이름은 변경되지 않습니다.
-   * **새 사용자 및 샌드박스**: 표시 이름과 테이블 이름이 모두 새 이름을 반영합니다.
-   * **새 샌드박스를 가진 기존 사용자**: 표시 이름과 테이블 이름이 모두 새 이름으로 업데이트됩니다.
+   * **신규 사용자 및 샌드박스**: 표시 이름과 테이블 이름에 모두 새로운 이름이 반영됩니다.
+   * **새 샌드박스를 보유한 기존 사용자**: 표시 이름과 테이블 이름이 모두 새로운 이름으로 업데이트됩니다.
 
   >[!NOTE]
   >
-  >새 데이터 세트에는 새 이름이 즉시 표시됩니다. 이전 데이터 세트 이름의 경우 채우기 및 조정은 점진적으로 진행되며 완료하는 데 몇 주가 걸릴 수 있습니다.
+  >새 데이터 세트에는 즉시 새로운 이름이 표시됩니다. 이전 데이터 세트 이름의 경우 채우기 및 조정 작업이 점진적으로 진행되며 완료되는 데 몇 주 정도 걸릴 수 있습니다.
 
-  사용 가능한 날짜: 2026년 3월 2일
+  가용성 일자: 2026년 3월 2일
 
 
 #### 여정
 
-* **프로필 업데이트 작업: 여러 프로필 특성 지원** - **프로필 업데이트** 작업 활동은 이제 단일 노드에서 최대 5개의 프로필 특성 업데이트를 지원합니다. 이전에는 각 작업이 한 번에 하나의 속성만 업데이트할 수 있으므로 여러 노드가 여러 속성을 업데이트해야 했습니다. 새 **다른 필드 업데이트** 단추를 사용하여 필드/값 쌍을 추가하여 캔버스 복잡성을 줄이고 성능을 개선합니다. [자세히 알아보기](../building-journeys/update-profiles.md)
+* **프로필 업데이트 액션: 여러 프로필 속성 지원** - **프로필 업데이트** 액션 활동이 이제 단일 노드에서 최대 5개의 프로필 속성 업데이트를 지원합니다. 이전에는 각 액션별로 한 번에 하나의 속성만 업데이트할 수 있어 여러 속성을 업데이트하려면 여러 노드에서 작업해야 했습니다. 새로운 **다른 필드 업데이트** 버튼을 사용하여 필드/값 쌍을 추가하면 캔버스의 복잡성을 줄이고 성능을 개선할 수 있습니다. [자세히 알아보기](../building-journeys/update-profiles.md)
 
-* **여정에서 아웃바운드 메시지의 웨이브 전송** - 이제 Journey Optimizer 여정의 메시지를 시간에 따라 제어된 배치로 전달하도록 예약할 수 있습니다. [자세히 알아보기](../building-journeys/send-using-waves.md)
+* **여정의 아웃바운드 메시지 웨이브 전송** - 이제 Journey Optimizer 여정에서 메시지를 시간에 따라 제어되는 배치 단위로 게재하는 작업을 예약할 수 있습니다. [자세히 알아보기](../building-journeys/send-using-waves.md)
 
   이전에 여정에서 사용할 수 있도록 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).
 
-  사용 가능한 날짜: 2026년 3월 16일
+  가용성 일자: 2026년 3월 16일
 
-* **여정 기술 세부 정보의 일시 중지 및 다시 시작 세부 정보** - 이제 **기술 세부 정보** 여정에 마지막 일시 중지 및 다시 시작 날짜 및 시간, 각 작업을 수행한 사용자의 표시 이름 및 내부 식별자, 일시 중지 동작, 최대 일시 중지 기간 및 자동 다시 시작 상태와 같은 일시 중지된 여정 설정의 전체 집합과 같은 추가 일시 중지 및 다시 시작 정보가 포함됩니다. [자세히 알아보기](../building-journeys/journey-properties.md)
+* **여정 기술 세부 정보의 일시 중지 및 다시 시작 세부 정보** - 이제 여정의 **기술 세부 정보**&#x200B;에 추가적인 일시 중지 및 다시 시작 정보가 포함됩니다. 여기에는 마지막으로 일시 중지 및 다시 시작한 날짜 및 시간, 각 액션을 수행한 사용자의 표시 이름 및 내부 식별자, 일시 중지된 여정 설정의 전체 집합(예: 일시 중지 동작, 최대 일시 중지 기간, 자동 다시 시작 상태)이 포함됩니다. [자세히 알아보기](../building-journeys/journey-properties.md)
 
-  사용 가능한 날짜: 2026년 3월 2일
+  가용성 일자: 2026년 3월 2일
 
 #### 결정
 
-* **Decisioning 마이그레이션 — 오퍼 및 컨텍스트 특성** - 이제 마이그레이션 API 엔터티 매핑에 **오퍼 특성**(`migratedofferattributes`은(는) 개인화된 오퍼 항목 스키마에 있음) 및 **컨텍스트 특성**(`migratedcontextattributes`은(는) 마이그레이션 데이터 세트 스키마에 있음)이 나열됩니다. [자세히 보기](../experience-decisioning/decisioning-migration-api.md#entity-mapping)
+* **의사 결정 마이그레이션 — 오퍼 및 컨텍스트 속성** - 이제 마이그레이션 API 엔터티 매핑에 **오퍼 속성**(개인화된 오퍼 항목 스키마의 `migratedofferattributes`) 및 **컨텍스트 속성**(마이그레이션 데이터 세트 스키마의 `migratedcontextattributes`)이 표시됩니다. [자세히 보기](../experience-decisioning/decisioning-migration-api.md#entity-mapping)
 
-  사용 가능한 날짜: 2026년 3월 31일
+  가용성 일자: 2026년 3월 31일
 
 <!--
 ## Coming soon {#coming-soon}
@@ -780,7 +780,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 
 * **AI 어시스턴트 콘텐츠 품질 검사** - 이제 브랜드 일관성 외에도 전체 <strong>콘텐츠 품질</strong>을 평가하여 브랜드 가이드라인과 별개로 <strong>가독성</strong>, 일치도, 효과성 관련 잠재적인 문제를 찾을 수 있습니다. 이 자동화된 검사는 명확하지 않은 메시지, 일관되지 않은 톤 또는 구조적으로 빠진 부분을 식별하는 데 도움이 됩니다. [자세히 보기](../content-management/brands-score.md#validate-quality).
 
-  [비디오에서 이 기능을 살펴보십시오](https://video.tv.adobe.com/v/3470553/?captions=kor&learn=on).
+  [비디오에서 이 기능을 살펴보십시오](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### 여정
 
