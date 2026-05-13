@@ -39,7 +39,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6edc6e8ac53eac365a86ac97e6ce7f3d37754e33
+source-git-commit: 5e806bf6931a5c067adde232f61ff446bee18cca
 workflow-type: tm+mt
 source-wordcount: 3633
 ht-degree: 12%
@@ -156,7 +156,7 @@ ht-degree: 12%
 
 이 정보를 사용하여 게시하기 전에 여정의 복잡성을 모니터링합니다. 페이로드 크기가 제한에 근접하거나 초과할 경우 여정 게시가 실패합니다. 크기를 줄이려면 여정 논리를 단순화하거나 활동 수를 줄이는 것이 좋습니다.
 
-기본 제한은 2MB입니다. 조직에 대한 더 높은 제한을 요청해야 하는 경우 Adobe 고객 지원 센터에 문의하십시오.
+기본 제한은 4MB입니다. 조직에 대한 더 높은 제한을 요청해야 하는 경우 Adobe 고객 지원 센터에 문의하십시오.
 
 임계값, 경고 및 오류 메시지, 문제 해결 단계에 대한 자세한 내용은 [여정 페이로드 크기 유효성 검사](../start/guardrails.md#journey-payload-size) 및 [일반 여정 보호](../start/guardrails.md#journeys-guardrails-journeys)를 참조하세요.
 

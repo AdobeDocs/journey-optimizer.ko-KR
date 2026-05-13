@@ -30,7 +30,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 593d3e784bc260603423e1e6c70549b3a0e394d4
+source-git-commit: 5e806bf6931a5c067adde232f61ff446bee18cca
 workflow-type: tm+mt
 source-wordcount: 2578
 ht-degree: 82%
@@ -467,7 +467,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### 여정
 
-* **현재 여정 페이로드 크기가 여정 속성에 표시됨** - 이제 여정 속성 패널에 구성된 제한과 비교한 여정 페이로드의 현재 크기가 표시됩니다(예: *1.5MB(2MB 중)*). 이 읽기 전용 표시기는 게시 전에 여정 복잡성을 모니터링하고 페이로드 크기 제한 초과로 인한 오류를 방지하는 데 도움이 됩니다. [자세히 보기](../building-journeys/journey-properties.md#journey-payload-size)
+* **현재 여정 페이로드 크기가 여정 속성에 표시됨** - 이제 여정 속성 패널에 구성된 제한과 비교한 여정 페이로드의 현재 크기가 표시됩니다(예: *1.5MB(4MB 중)*). 이 읽기 전용 표시기는 게시 전에 여정 복잡성을 모니터링하고 페이로드 크기 제한 초과로 인한 오류를 방지하는 데 도움이 됩니다. [자세히 보기](../building-journeys/journey-properties.md#journey-payload-size)
 
   사용 가능한 날짜: 2026년 4월 30일
 
