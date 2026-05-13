@@ -59,4 +59,4 @@ ht-degree: 100%
 
 Adobe Journey Optimizer의 다이렉트 메일 채널을 활용하여 여정 내에서 다이렉트 메일 전달을 자동화하고 예약하는 방법을 알아보세요.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479162?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479169?captions=kor&quality=12)

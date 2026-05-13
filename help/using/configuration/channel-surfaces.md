@@ -313,4 +313,4 @@ ht-degree: 0%
 
 채널 구성이 무엇이며 Adobe Journey Optimizer에서 어떻게 사용되는지 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3433124/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3480458/?captions=kor&learn=on)
