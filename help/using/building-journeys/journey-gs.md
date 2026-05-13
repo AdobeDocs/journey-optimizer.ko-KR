@@ -11,12 +11,36 @@ keywords: 여정, 첫 번째, 시작, 빠른 시작, 대상, 이벤트, 작업
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/7zNDOi2SUTyttgR6I1iOYQb61ejxpqLYznweU8alnPw
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: baecb07f-ce89-4ebb-9cd9-0f7c053f944fid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2: id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: b9d00d1b-a371-4a75-a52a-3f8ea2029020id: ba62ad25-65cb-4ea9-b7aa-0fa87c4a9fa0id: da923278-9c80-47b0-bebd-b68c341e76fbid: da93876b-ee00-430d-8321-f7d7f692b547id: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: c1579802-ddd4-4214-8a91-97b2066abe11id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2:
+  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
+  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: b9d00d1b-a371-4a75-a52a-3f8ea2029020
+  - id: ba62ad25-65cb-4ea9-b7aa-0fa87c4a9fa0
+  - id: da923278-9c80-47b0-bebd-b68c341e76fb
+  - id: da93876b-ee00-430d-8321-f7d7f692b547
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1455
@@ -128,9 +152,9 @@ ht-degree: 13%
 
 ## 여정 테스트 {#jo-test}
 
-여정을 빌드했으면 게시하기 전에 테스트합니다. Journey Optimizer은 여정을 따라 이동하면서 테스트 프로필을 볼 수 있는 방법으로 **테스트 모드**&#x200B;를 제공하여 활성화 전에 잠재적인 오류를 감지합니다. 빠른 테스트를 실행하면 여정이 올바르게 작동하여 안심하고 게시할 수 있습니다. 이 섹션](testing-the-journey.md)에서 여정 [을(를) 테스트하는 방법을 알아보세요.
+여정을 빌드했으면 게시하기 전에 테스트합니다. Journey Optimizer은 여정을 따라 이동하면서 테스트 프로필을 볼 수 있는 방법으로 **테스트 모드**&#x200B;를 제공하여 활성화 전에 잠재적인 오류를 감지합니다. 빠른 테스트를 실행하면 여정이 올바르게 작동하여 안심하고 게시할 수 있습니다. 이 섹션[&#128279;](testing-the-journey.md)에서 여정 을(를) 테스트하는 방법을 알아보세요.
 
-**시험 실행**&#x200B;에서도 여정을 실행할 수 있습니다. 여정 시험 실행은 Adobe Journey Optimizer의 특별한 여정 게시 모드로, 이를 통해 여정 실무자가 실제 고객과 연락하거나 프로필 정보를 업데이트하지 않고도 실제 프로덕션 데이터를 사용하여 여정을 테스트할 수 있습니다. 이 기능을 사용하여 여정 실무자는 여정 설계와 대상 타기팅에 대한 확신을 가지고 라이브로 게시할 수 있습니다. 이 섹션](journey-dry-run.md)에서 여정을 시험 실행 모드 [에 게시하는 방법을 알아봅니다.
+**시험 실행**&#x200B;에서도 여정을 실행할 수 있습니다. 여정 시험 실행은 Adobe Journey Optimizer의 특별한 여정 게시 모드로, 이를 통해 여정 실무자가 실제 고객과 연락하거나 프로필 정보를 업데이트하지 않고도 실제 프로덕션 데이터를 사용하여 여정을 테스트할 수 있습니다. 이 기능을 사용하여 여정 실무자는 여정 설계와 대상 타기팅에 대한 확신을 가지고 라이브로 게시할 수 있습니다. 이 섹션[&#128279;](journey-dry-run.md)에서 여정을 시험 실행 모드 에 게시하는 방법을 알아봅니다.
 
 ## 여정 게시 {#jo-pub}
 
