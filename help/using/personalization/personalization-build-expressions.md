@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: 표현식, 편집기, 정보, 시작
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+source-git-commit: ec0232dc13c259941e85d8e5d520e6ea523aacd8
 workflow-type: tm+mt
-source-wordcount: '1532'
+source-wordcount: '1563'
 ht-degree: 11%
 
 ---
@@ -155,6 +155,10 @@ Journey Optimizer을 사용하면 메시지에서 **URL**&#x200B;을(를) 개인
 * **[!UICONTROL 조건]** - 라이브러리에서 만든 조건부 규칙을 활용하여 동적 콘텐츠를 메시지에 추가합니다. 이를 통해 조건을 기반으로 메시지의 여러 변형을 만들 수 있습니다. [동적 콘텐츠를 만드는 방법을 알아봅니다](../personalization/get-started-dynamic-content.md)
 
 * **[!UICONTROL 조각]** - 현재 샌드박스에 생성되거나 저장된 표현식 조각을 활용합니다. 조각은 [!DNL Journey Optimizer] 캠페인 및 여정에서 참조할 수 있는 재사용 가능한 구성 요소입니다. 이 기능을 사용하면 마케팅 사용자가 개선된 디자인 프로세스에서 콘텐츠를 빠르게 조합하는 데 사용할 수 있는 여러 사용자 지정 콘텐츠 블록을 미리 빌드할 수 있습니다. [개인화에 식 조각을 사용하는 방법을 알아봅니다](../personalization/use-expression-fragments.md)
+
+>[!TIP]
+>
+>바로 사용할 수 있는 표현식을 찾고 계십니까? **[Personalization 레서피](personalization-recipes.md)** 페이지에서는 날짜 형식 지정, 카운트다운 타이머, 조건부 폴백, 시간 전용 표시 등의 가장 일반적인 사용 사례에 대한 복사 붙여넣기 패턴을 제공합니다.
 
 개인화 표현식이 준비되면 개인화 편집기에서 유효성을 검사해야 합니다. 자세한 내용은 [이 섹션](../personalization/personalization-build-expressions.md)을 참조하십시오.
 

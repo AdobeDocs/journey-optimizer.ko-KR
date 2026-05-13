@@ -6,10 +6,14 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/CUiT5GFH9o4q-oOSWuKC8ZyLbRbH9lj88M92LhMIX9E
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c5ecc28ec44a9c608f4fe5011e061cad62d92e2b
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 5%
+source-wordcount: 742
+ht-degree: 4%
 
 ---
 
@@ -289,3 +293,77 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 ```sql
 {%= supersetOf(person.eatenFoods,["sushi", "pizza"]) %}
 ```
+
+## 배열 반복 {#each-loop}
+
+Handlebars `{{#each}}` 블록 도우미를 사용하여 배열을 반복하고 **개인화된 콘텐츠**&#x200B;의 각 항목에 대한 콘텐츠를 렌더링합니다(전자 메일, SMS, 푸시).
+
+>[!NOTE]
+>
+>`{{#each}}`은(는) **개인화 편집기**&#x200B;에서만 사용할 수 있습니다(전자 메일 본문, SMS, 푸시 콘텐츠). 여정 조건 활동에서 **지원되지 않음**&#x200B;입니다. 여정 조건 내의 배열에서 항목을 필터링하거나 일치시키려면 대신 [컬렉션 관리 함수](../../building-journeys/expression/collection-management-functions.md)를 사용하십시오.
+
+**구문**
+
+```handlebars
+{{#each arrayAttribute}}
+  {{this}}
+{{/each}}
+```
+
++++예 — 배열의 모든 항목 나열
+
+```handlebars
+{{#each profile.purchases.items}}
+  - {{this.name}}: {{this.price}}€
+{{/each}}
+```
+
+출력(예):
+
+```
+- Running shoes: 89€
+- Water bottle: 15€
+- Gym bag: 45€
+```
+
++++
+
++++예 — 루프 인덱스에 액세스합니다
+
+`@index`을(를) 사용하여 현재 루프 위치(0 기반)에 액세스합니다.
+
+```handlebars
+{{#each profile.preferences.languages}}
+  {{@index}}: {{this}}
+{{/each}}
+```
+
+출력(예):
+
+```
+0: English
+1: French
+2: Spanish
+```
+
++++
+
++++예 — 루프 내의 조건부 렌더링
+
+조건이 충족될 때만 콘텐츠를 렌더링하려면 `{{#each}}` 내의 `{%#if%}` 블록을 사용합니다.
+
+>[!NOTE]
+>
+>`{% if %}` / `{% endif %}`은(는) 지원되지 않습니다. 대신 `{%#if%}` / `{%/if%}`을(를) 사용합니다. 또한 `this.<field>`은(는) PQL 조건 표현식 내에서 작동하지 않습니다. 특성 이름(예: `order.status`)을 사용하여 직접 필드를 참조합니다.
+
+```handlebars
+{{#each profile.orders as |order|}}
+  {%#if order.status = "pending"%}
+  Your order {{order.id}} is still pending.
+  {%/if%}
+{{/each}}
+```
+
+이 패턴은 &quot;조건에 따른 브레이크&quot;를 시뮬레이션하는 데 권장되는 패턴입니다. 조건과 일치하는 항목만 출력을 생성합니다.
+
++++

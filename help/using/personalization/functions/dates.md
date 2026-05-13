@@ -6,9 +6,14 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/J-aZtYitBu8T4oSwTwKNNDeA-7tA4l8Wi5YZ1WLcT3E
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c5ecc28ec44a9c608f4fe5011e061cad62d92e2b
 workflow-type: tm+mt
-source-wordcount: '1419'
+source-wordcount: 1762
 ht-degree: 5%
 
 ---
@@ -245,15 +250,32 @@ The following operation gets all the keys for the map `identityMap`.
 {%= dateDiff(datetime,datetime) %}
 ```
 
-<!--
-**Example**
++++예 — 이벤트까지 남은 일 수
 
-The following operation gets all the values for the map `identityMap`.
+다음 작업은 오늘과 프로필에 저장된 미래 날짜 사이의 일 수(예: 구독 종료 날짜 또는 이벤트 날짜)를 반환합니다.
 
 ```sql
-{%= values(identityMap) %}
+{%= dateDiff(getCurrentZonedDateTime(), stringToDate(profile.events.subscriptionEndDate)) %}
 ```
--->
+
++++
+
++++실제 사례 — 제목 줄의 카운트다운
+
+`dateDiff`을(를) 사용하여 전자 메일 제목 줄 또는 콘텐츠에 대한 동적 카운트다운을 만듭니다.
+
+```handlebars
+{% let daysLeft = dateDiff(getCurrentZonedDateTime(), stringToDate(profile.loyalty.expiryDate)) %}
+{%#if daysLeft > 0%}
+Your points expire in {{daysLeft}} day{%#if daysLeft > 1%}s{%/if%} — use them before they're gone!
+{%else%}
+Your points have expired.
+{%/if%}
+```
+
+출력(예): `Your points expire in 7 days — use them before they're gone!`
+
++++
 
 ## 월일 {#day-month}
 
@@ -275,7 +297,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## 요일 {#day-week}
 
-`dayOfWeek` 함수는 요일을 검색하는 데 사용됩니다.
+`dayOfWeek` 함수는 요일을 검색하는 데 사용됩니다. ISO-8601 표준에 따라 1(월요일)에서 7(일요일)까지의 정수를 반환합니다.
 
 **구문**
 
@@ -283,15 +305,33 @@ The following operation gets all the values for the map `identityMap`.
 {%= dayOfWeek(datetime) %}
 ```
 
-<!--
-**Example**
++++예 — 개인화된 컨텐츠에서 주말 감지
 
-The following operation gets all the values for the map `identityMap`.
+이 함수를 이메일 또는 콘텐츠 내에서 사용하여 날짜에 따라 메시지를 조정할 수 있습니다. PQL의 비교 연산자는 `=`입니다(`==`이(가) 아닌 단일 같음).
 
-```sql
-{%= values(identityMap) %}
+```handlebars
+{%#if dayOfWeek(getCurrentZonedDateTime()) = 6 or dayOfWeek(getCurrentZonedDateTime()) = 7%}
+We're closed on weekends — your request will be processed on the next business day.
+{%else%}
+Our team will get back to you within 24 hours.
+{%/if%}
 ```
--->
+
+| Day | 반환된 값 |
+|-----|----------------|
+| 월요일 | 1 |
+| 화요일 | 2 |
+| 수요일 | 3 |
+| 목요일 | 4 |
+| 금요일 | 5 |
+| 토요일 | 6 |
+| 일요일 | 7 |
+
++++
+
+>[!NOTE]
+>
+>`dayOfWeek()`은(는) **콘텐츠 개인화**&#x200B;를 위해 설계되었습니다(예: 날짜에 따라 이메일 본문 텍스트 조정). 여정에서 요일을 기준으로 프로필을 다르게 **라우팅해야 하는 경우**(예: 대기 활동을 위해 주말 건너뛰기) 여정 조건 활동에서 바로 사용할 수 있는 기본 제공 **시간 조건 → 요일** 옵션을 사용하십시오. [자세히 알아보기](../../building-journeys/condition-activity.md#date_condition)
 
 ## 일(한 해 기준){#day-year}
 
@@ -303,15 +343,12 @@ The following operation gets all the values for the map `identityMap`.
 {%= dayOfYear(datetime) %}
 ```
 
-<!--
-**Example**
++++예
 
-The following operation gets all the values for the map `identityMap`.
+* 입력: `{%= dayOfYear(stringToDate("2024-03-15T00:00:00Z")) %}`
+* 출력: `75`
 
-```sql
-{%= values(identityMap) %}
-```
--->
++++
 
 ## 초 단위 차이 {#diff-seconds}
 
@@ -361,6 +398,22 @@ The following operation gets all the values for the map `identityMap`.
 
 * 입력: `{%= extractMinutes(stringToDate("2024-11-01T17:19:51Z"))%}`
 * 출력: `19`
+
++++
+
++++실제 예 — 현재 시간을 HH:MM(으)로만 표시
+
+`extractHours`과(와) `extractMinutes`을(를) 결합하여 날짜, 일 또는 연도 없이 시간 부분만 렌더링합니다.
+
+```handlebars
+{% let h = extractHours(getCurrentZonedDateTime()) %}
+{% let m = extractMinutes(getCurrentZonedDateTime()) %}
+Your appointment is confirmed for {{h}}:{%#if m < 10%}0{%/if%}{{m}}.
+```
+
+출력(예): `Your appointment is confirmed for 14:05.`
+
+앞에 영(0) 가드(`{%#if m < 10%}0{%/if%}`)를 사용하면 10분 미만이 두 자리 숫자로 표시됩니다(예: `9` 대신 `09`).
 
 +++
 
@@ -490,7 +543,7 @@ The following operation gets all the values for the map `identityMap`.
 
 * **타임스탬프를`toDateTime()`**(으)로 래핑 — 컨텍스트 이벤트 타임스탬프는 `formatDate()`에 의해 날짜-시간 값으로 자동으로 인식되지 않습니다.
 * **백틱에서 숫자 이벤트 ID 줄바꿈** — 이벤트 ID가 숫자인 경우(예: `1697323153`) 표현식 경로에서 백틱으로 이스케이프해야 합니다. 그렇지 않으면 편집기에서 PQL 구문 오류가 발생합니다.
-* **`{% let %}` 할당 구문 사용** — 인라인 `{%= %}` 구문은 이 패턴을 지원하지 않습니다. 먼저 결과를 변수에 할당한 다음 `{{varName}}`(으)로 렌더링합니다.
+* **`{% let %}` 또는 `{%= %}` 구문 사용** — `{% let %}`을(를) 사용하여 결과를 변수에 할당하고 `{{varName}}`을(를) 사용하여 렌더링하거나 인라인 `{%= %}` 구문을 직접 사용할 수 있습니다.
 
 ```handlebars
 {% let appointmentDate = formatDate(toDateTime(context.journey.events.`1697323153`.timestamp), "dd/MM/yyyy HH:mm") %}
@@ -505,7 +558,7 @@ The following operation gets all the values for the map `identityMap`.
 >
 >**일반적인 오류: &quot;입력이 일치하지 않습니다. &#39;(&#39; 필요: \&lt;EOF\>&quot;**
 >
->컨텍스트 이벤트 타임스탬프 인라인(`formatDate()`)이 있는 `{%= formatDate(...) %}`을(를) 사용할 때 이 PQL 구문 오류가 발생합니다. 가장 일반적인 원인은 백틱(`` ` ``)으로 래핑되지 않은 숫자 이벤트 ID나 `formatDate()`에 래핑되지 않고 `toDateTime()`에 직접 전달된 타임스탬프 필드입니다. 두 문제를 모두 해결하려면 위의 예제에 표시된 `{% let %}` 할당 패턴을 사용합니다.
+>컨텍스트 이벤트 타임스탬프 인라인(`{%= formatDate(...) %}`)이 있는 `formatDate()`을(를) 사용할 때 이 PQL 구문 오류가 발생합니다. 가장 일반적인 원인은 백틱(`` ` ``)으로 래핑되지 않은 숫자 이벤트 ID나 `toDateTime()`에 래핑되지 않고 `formatDate()`에 직접 전달된 타임스탬프 필드입니다. 두 문제를 모두 해결하려면 위의 예제에 표시된 `{% let %}` 할당 패턴을 사용합니다.
 
 ### 패턴 문자 {#pattern-characters}
 
@@ -626,15 +679,14 @@ The following operation gets all the values for the map `identityMap`.
 {%= setDays(datetime, day) %}
 ```
 
-<!--
-**Example**
++++예
 
-The following operation gets all the values for the map `identityMap`.
+날짜를 1일로 설정합니다.
 
-```sql
-{%= values(identityMap) %}
-```
--->
+* 입력: `{%= setDays(stringToDate("2024-11-15T17:19:51Z"), 1) %}`
+* 출력: `2024-11-01T17:19:51Z`
+
++++
 
 ## 시간 설정{#set-hours}
 
@@ -646,15 +698,28 @@ The following operation gets all the values for the map `identityMap`.
 {%= setHours(datetime, hour) %}
 ```
 
-<!--
-**Example**
++++예 — 날짜-시간을 특정 시간으로 설정
 
-The following operation gets all the values for the map `identityMap`.
+* 입력: `{%= setHours(stringToDate("2024-11-01T17:19:51Z"), 0) %}`
+* 출력: `2024-11-01T00:19:51Z`
+
++++
+
++++실제 예 — 동적 종료 날짜보다 X일 전
+
+프로필에 저장된 날짜(예: 구독 만료)보다 X일 전에 프로필을 타겟팅하려면 음수 값으로 `addDays`을(를) 사용합니다.
 
 ```sql
-{%= values(identityMap) %}
+{%= addDays(stringToDate(profile.subscription.endDate), -7) %}
 ```
--->
+
+또한 시간을 고정된 시간(예: 오전 9시)으로 정규화하려면 `setHours`과(와) 결합하십시오.
+
+```sql
+{%= setHours(addDays(stringToDate(profile.subscription.endDate), -7), 9) %}
+```
+
++++
 
 ## 종료 날짜 시간 {#to-date-time}
 
@@ -771,15 +836,12 @@ The following operation gets all the values for the map `identityMap`.
 {%= weekOfYear(datetime) %}
 ```
 
-<!--
-**Example**
++++예
 
-The following operation gets all the values for the map `identityMap`.
+* 입력: `{%= weekOfYear(stringToDate("2024-11-01T17:19:51Z")) %}`
+* 출력: `44`
 
-```sql
-{%= values(identityMap) %}
-```
--->
++++
 
 ## 연도 차이 {#diff-years}
 
