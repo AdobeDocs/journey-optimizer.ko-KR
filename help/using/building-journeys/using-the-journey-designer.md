@@ -10,9 +10,35 @@ level: Intermediate
 keywords: 디자인, 캔버스, 여정, 인터페이스, 드래그, 놓기
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 version: Journey Orchestration
-source-git-commit: 9691a5c7f3654c8c5d7945bb32ad772cf189d000
+TQID: https://experienceleague.adobe.com/Mn8oR-jsUTbkXoohAgCulA-SBY8xRVy75z6H7j9ETvE
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
+  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
+  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
+  - id: e57d1da4-32c2-4cc6-945c-9feb219156ff
+  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 82c3ff093eef40fa31fc0f3bb7baa32c857ff6ea
 workflow-type: tm+mt
-source-wordcount: '1706'
+source-wordcount: 1770
 ht-degree: 2%
 
 ---
@@ -91,6 +117,8 @@ ht-degree: 2%
 오케스트레이션 활동은 여정의 다음 단계를 결정하는 데 도움이 되는 다양한 조건입니다.
 
 오케스트레이션 활동에서 **대상 읽기** 활동을 사용하여 [!DNL Adobe Experience Platform] 대상을 수신하도록 여정을 설정합니다. [대상자 읽기 활동에 대해 자세히 알아보기](read-audience.md).
+
+**여정 조각**&#x200B;을 사용하여 재사용 가능한 사전 빌드된 여정 노드 집합을 캔버스에 직접 삽입합니다. 조각을 사용하면 자격 확인, 채널 라우팅 또는 시작 시퀀스 같은 동일한 논리를 처음부터 다시 빌드하지 않으므로 팀이 일관성을 유지하고 더 빠르게 이동할 수 있습니다. [여정 조각에 대해 자세히 알아보세요](journey-fragments.md).
 
 다른 활동을 사용하면 여정에 조건을 추가하여 여러 경로를 정의하고, 다음 활동을 실행하기 전에 대기 시간을 설정하거나, 여정을 종료할 수 있습니다. [오케스트레이션 활동에 대해 자세히 알아보세요](about-journey-activities.md#orchestration-activities).
 
