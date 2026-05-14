@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 258d22c6b95db138e927d96f04215c0623e53913
 workflow-type: tm+mt
-source-wordcount: '2496'
+source-wordcount: '2536'
 ht-degree: 2%
 
 ---
@@ -464,6 +464,9 @@ ht-degree: 2%
         <td><a href="helpers.md#url-parameter-encryption-helper">암호화</a></td><td>샌드박스 레지스트리의 활성 키를 사용하여 렌더링 시 URL 쿼리 매개변수의 표현식 값을 암호화합니다. </td>
     </tr>
     <tr>
+        <td><a href="helpers.md#url-function">Url</a></td><td>이 함수는 SMS 메시지 콘텐츠의 URL을 처리합니다. <code>originalUrl</code>와 함께 사용하여 URL을 단축하고 <code>type='DEEPLINK'</code>과(와) 함께 사용하여 딥 링크를 삽입합니다.</td>
+    </tr>
+    <tr>
         <td><a href="helpers.md#with">포함</a></td><td>이 함수는 템플릿 일부의 평가 토큰을 변경하는 데 사용합니다.</td>
     </tr>
 </table>
@@ -533,4 +536,4 @@ ht-degree: 2%
 
 개인화 도우미 기능을 사용하여 개인화 값을 변형하는 방법을 알아보고 도우미 기능의 다양한 사용 사례를 이해합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416646?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
