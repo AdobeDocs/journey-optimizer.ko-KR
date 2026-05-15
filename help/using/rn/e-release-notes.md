@@ -4,15 +4,13 @@ product: journey optimizer
 title: Journey Optimizer에 대한 사전 릴리스 정보
 description: Adobe Journey Optimizer 사전 릴리스 정보
 feature: Release Notes
-hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: 916ac37acb0101d02e7c0da87b36a23e362b359a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+source-git-commit: 9e3d5c09f9a636727c545df5fd9831e075de14f0
 workflow-type: tm+mt
-source-wordcount: 1658
-ht-degree: 13%
+source-wordcount: 1605
+ht-degree: 11%
 
 ---
 
@@ -32,13 +30,13 @@ ht-degree: 13%
 <table>
 <thead>
 <tr>
-<th><strong>RCS 메시지</strong><br/></th>
+<th><strong>새로운 모바일 메시지 채널 및 향상된 RCS 메시지</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>RCS 추가를 지원하기 위해 <strong>모바일 메시징 워크플로</strong>가 업데이트되었습니다. 이제 SMS, MMS 및 RCS가 Adobe Journey Optimizer의 단일 <strong>모바일 메시지</strong> 채널로 편리하게 그룹화되었습니다.</p>
+<p>이제 Adobe Journey Optimizer의 단일 <strong>모바일 메시지</strong> 작업에 따라 SMS, MMS 및 RCS가 통합되므로 한 곳에서 모든 모바일 메시지 유형을 보다 쉽게 관리할 수 있습니다. 이 업데이트의 일부로, 이제 새로운 기본 작성 환경을 통해 Journey Optimizer에서 직접 이미지, 회전 메뉴 및 제안 작업 등 리치 미디어 RCS 메시지를 작성할 수 있습니다.</p>
 <p>사용 가능한 날짜: 2026년 5월 19일</p>
 </td>
 </tr>
@@ -62,23 +60,6 @@ ht-degree: 13%
 </tbody>
 </table>
 
-
-<table>
-<thead>
-<tr>
-<th><strong>여정 시뮬레이션</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 여정을 <strong>시뮬레이션</strong>으로 설정할 수 있습니다. 이 모드를 사용하면 <strong>시뮬레이션된 사용자</strong>를 사용하여 논리의 유효성을 검사할 수 있습니다. 시뮬레이션된 사용자는 시뮬레이션을 위해 특별히 생성된 임시 프로필로, Adobe Experience Platform에서 영구 테스트 프로필을 관리할 필요 없이 자유롭게 테스트할 수 있습니다.</p>
-<p>이전에 [제한된 가용성]으로 릴리스된 이 기능은 이제 모든 환경(일반 가용성)에서 사용할 수 있습니다. 이제 [일반 가용성] 릴리스를 통해 Journey Agent을 사용하여 시뮬레이션 메뉴에서 직접 시뮬레이션된 사용자 및 이벤트를 생성할 수 있습니다.</p>
-<p>사용 가능한 날짜: 2026년 5월 28일</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
@@ -204,6 +185,40 @@ ht-degree: 13%
 <table>
 <thead>
 <tr>
+<th><strong>여정 표현식을 위한 AI 지원</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 AI Assistant가 여정 고급 표현식 편집기에서 작동하여 자연어 프롬프트를 유효한 표현식과 조건부 논리로 변환합니다. 빌드할 표현식을 설명하고 AI Assistant는 즉시 적용하거나 후속 프롬프트를 통해 구체화할 수 있는 사용 준비 코드를 생성합니다.</p>
+<p>이 기능은 모든 고객이 공용 Beta으로 사용할 수 있습니다.</p>
+<p>사용 가능한 날짜: 2026년 5월 19일</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>여정 시뮬레이션</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 여정을 <strong>시뮬레이션</strong>으로 설정할 수 있습니다. 이 모드를 사용하면 <strong>시뮬레이션된 사용자</strong>를 사용하여 논리의 유효성을 검사할 수 있습니다. 시뮬레이션된 사용자는 시뮬레이션을 위해 특별히 생성된 임시 프로필로, Adobe Experience Platform에서 영구 테스트 프로필을 관리할 필요 없이 자유롭게 테스트할 수 있습니다.</p>
+<p>이전에 [제한된 가용성]으로 릴리스된 이 기능은 이제 모든 환경(일반 가용성)에서 사용할 수 있습니다. 이제 [일반 가용성] 릴리스를 통해 Journey Agent을 사용하여 시뮬레이션 메뉴에서 직접 시뮬레이션된 사용자 및 이벤트를 생성할 수 있습니다.</p>
+<p>사용 가능한 날짜: 2026년 5월 28일</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>오케스트레이션된 캠페인을 위한 파일 기반 타기팅</strong><br/></th>
 </tr>
 </thead>
@@ -218,22 +233,7 @@ ht-degree: 13%
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>여정 표현식을 위한 AI 지원</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 AI Assistant가 여정 고급 표현식 편집기에서 작동하여 자연어 프롬프트를 유효한 표현식과 조건부 논리로 변환합니다. 빌드할 표현식을 설명하고 AI Assistant는 즉시 적용하거나 후속 프롬프트를 통해 구체화할 수 있는 사용 준비 코드를 생성합니다.</p>
-<p>이 기능은 모든 고객이 공용 Beta으로 사용할 수 있습니다.</p>
-<p>사용 가능한 날짜: 2026년 5월 19일</p>
-</td>
-</tr>
-</tbody>
-</table>
+
 
 ### 개선 사항 {#may-26-improv}
 
@@ -270,12 +270,14 @@ ht-degree: 13%
 
   사용 가능한 날짜: 2026년 5월 19일
 
-#### 구성
+<!--
+#### Configuration
 
-* **처리량이 많은 푸시용 성능 추가 기능** - API 트리거 캠페인에서 새로운 처리량 트랜잭션 메시지 모드를 사용할 수 있습니다. 이 모드는 대규모 실시간 트랜잭션 메시지 전송을 위해 설계되었으며 더 높은 가용성으로 초당 최대 5,000개의 트랜잭션을 지원합니다. 이전에는 이메일 채널에서만 사용할 수 있었지만, 이제 이 기능은 Adobe 고처리량 트랜잭션 메시지 추가 기능 서비스를 구입한 조직의 푸시 채널에서도 사용할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
+* **Performance Add-on for high-throughput Push** - A new high throughput transactional messaging mode is available in API-triggered campaigns. This mode is designed for large-scale, real-time transactional messaging and supports up to 5,000 transactions per second with higher availability. Previously only available for the email channel, this capability is now also available for the push channel, for organizations that have purchased the Adobe High Throughput Transactional Messaging add-on offering. Contact your Adobe representative for more details.
 
 
-  사용 가능한 날짜: 2026년 5월 19일
+  Availability date: May 19, 2026
+-->
 
 #### 결정
 
@@ -355,12 +357,12 @@ FEEDBACK FROM TYSON WAI - TW: Remove this release, it is not ready for May 19th-
 
 #### 이메일
 
-**받는 사람 및 캠페인별로 전자 메일 보낸 사람 세부 정보 개인화** - 이제 오케스트레이션된 캠페인에서 프로필 특성 또는 관계 데이터를 사용하여 보낸 사람 이름, 보낸 사람 주소 및 회신 주소를 포함한 전자 메일 헤더 필드를 개인화할 수 있습니다. 이를 통해 보낸 사람의 세부 정보가 하나의 회사 주소를 통해 모든 전송을 라우팅하는 대신 각 받는 사람에 대한 관련 조언자, 위치 또는 분기를 반영할 수 있습니다.
+* **받는 사람 및 캠페인별로 전자 메일 보낸 사람 세부 정보 개인화** - 이제 오케스트레이션된 캠페인에서 프로필 특성 또는 관계 데이터를 사용하여 보낸 사람 이름, 보낸 사람 주소 및 회신 주소를 포함한 전자 메일 헤더 필드를 개인화할 수 있습니다. 이를 통해 보낸 사람의 세부 정보가 하나의 회사 주소를 통해 모든 전송을 라우팅하는 대신 각 받는 사람에 대한 관련 조언자, 위치 또는 분기를 반영할 수 있습니다.
 
-헤더 값은 채널 수준에서 설정할 수 있으며 보다 정밀한 제어를 위해 컨텍스트 데이터를 사용하여 캠페인별로 재정의할 수 있습니다.
+  헤더 값은 채널 수준에서 설정할 수 있으며 보다 정밀한 제어를 위해 컨텍스트 데이터를 사용하여 캠페인별로 재정의할 수 있습니다.
 
 
-사용 가능한 날짜: 2026년 5월 29일
+  사용 가능한 날짜: 2026년 5월 29일
 
 <!--
 # Pre-release notes {#e-release-notes}
@@ -374,7 +376,7 @@ Adobe Journey Optimizer continuously delivers new features, enhancements to exis
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: April 28-29, 2026
 
@@ -741,7 +743,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: March 24-25, 2026
 
@@ -1007,7 +1009,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: February 17, 2026
 
@@ -1260,7 +1262,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -1437,7 +1439,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
