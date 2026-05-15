@@ -10,26 +10,15 @@ level: Experienced
 keywords: 설정, 이메일, 구성, 하위 도메인
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
 TQID: https://experienceleague.adobe.com/NcnCL11koNfpNF-RDrVPyBsBgMuvpfSNlUcAfwOeGBg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fae48155-b23f-40d2-a252-a25bce350b4d
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fae48155-b23f-40d2-a252-a25bce350b4d
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1214
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -41,13 +30,13 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_perso_not_available"
->title="Personalization을 사용할 수 없음"
->abstract="이 구성은 개인화 속성 없이 만들어졌습니다. 개인화가 필요한 경우 해결할 수 있는 단계에 대해서는 설명서를 참조하십시오."
+>title="개인화를 사용할 수 없음"
+>abstract="이 구성은 개인화 속성 없이 생성되었습니다. 개인화가 필요한 경우 해결 단계는 설명서를 참조하십시오."
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain"
 >title="동적 하위 도메인 활성화"
->abstract="이메일 구성을 만들 때 개인화 편집기를 사용하여 정의하는 조건에 따라 동적 하위 도메인을 설정할 수 있습니다. 최대 50개의 동적 하위 도메인을 추가할 수 있습니다."
+>abstract="이메일 구성을 생성할 때 개인화 편집기를 사용하여 정의한 조건을 기반으로 동적 하위 도메인을 설정할 수 있습니다. 최대 50개의 동적 하위 도메인을 추가할 수 있습니다."
 
 이메일 구성을 만들 때 특정 조건에 따라 동적 하위 도메인을 설정할 수 있습니다.
 
@@ -77,7 +66,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >보류 중인 [피드백 루프](../reports/deliverability.md#feedback-loops) 등록으로 인해 특정 하위 도메인을 선택할 수 없습니다. 이 프로세스는 영업일 기준으로 최대 10일이 소요될 수 있습니다. 완료되면 사용 가능한 모든 하위 도메인 중에서 선택할 수 있습니다. <!--where FL registration happens? is it when delegating a subdomain and you are awaiting from subdomain validation? or is it on ISP side only?-->
+   >보류 중인 [피드백 루프](../reports/deliverability.md#feedback-loops) 등록으로 인해 특정 하위 도메인을 선택할 수 없습니다. 이 프로세스는 영업일 기준 최대 10일이 소요될 수 있습니다. 완료되면 사용 가능한 모든 하위 도메인 중에서 선택할 수 있습니다. <!--where FL registration happens? is it when delegating a subdomain and you are awaiting from subdomain validation? or is it on ISP side only?-->
 
    ![](assets/surface-email-select-subdomain.png)
 

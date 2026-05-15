@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 컨텍스트 기반 데이터 반복
+title: 상황별 데이터 반복
 description: Handlebars 구문을 사용하여 다양한 컨텍스트 소스에서 배열을 반복하는 방법에 대해 알아봅니다
 feature: Personalization
 topic: Personalization
@@ -10,37 +10,20 @@ level: Intermediate
 keywords: 표현식, 편집기, 핸들바, 반복, 배열, 컨텍스트, 개인화
 exl-id: 1a7c490f-6490-4785-a44d-bddd5482754d
 TQID: https://experienceleague.adobe.com/fOnI9VWpgrFCfUhnvkaiK-Ecsa-LOn8YJpdWZNnQilY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 3075
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# 컨텍스트 기반 데이터 반복 {#personalization-contexts}
+# 상황별 데이터 반복 {#personalization-contexts}
 
 Handlebars 반복 구문을 사용하여 이벤트, 사용자 지정 작업 응답 및 기타 상황별 데이터를 포함하여 메시지에 있는 다양한 소스의 동적 데이터 목록을 표시하는 방법에 대해 알아봅니다.
 
@@ -105,7 +88,7 @@ context.journey.events.<event_ID>.<fieldPath>
 
 ### 예: 이벤트의 장바구니 항목
 
-[이벤트 스키마](../event/experience-event-schema.md)에 `productListItems` 배열(표준 [XDM 형식](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=ko){target="_blank"})이 포함된 경우 아래 샘플에 자세히 설명된 대로 장바구니 콘텐츠를 표시할 수 있습니다.
+[이벤트 스키마](../event/experience-event-schema.md)에 `productListItems` 배열(표준 [XDM 형식](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"})이 포함된 경우 아래 샘플에 자세히 설명된 대로 장바구니 콘텐츠를 표시할 수 있습니다.
 
 +++ 예제 코드 보기
 
@@ -148,7 +131,7 @@ context.journey.events.<event_ID>.<fieldPath>
 
 >[!NOTE]
 >
->이 기능을 사용하려면 사용자 지정 작업을 응답 페이로드로 구성해야 합니다. 자세한 내용은 [이 섹션](../action/action-response.md#config-response)을 참조하세요. 사용자 지정 작업 응답을 이벤트 데이터 또는 데이터 세트 조회와 결합할 수도 있습니다. 예를 보려면 [여러 컨텍스트 소스 결합](#combine-sources)을 참조하십시오.
+>이 기능을 사용하려면 사용자 지정 작업을 응답 페이로드로 구성해야 합니다. 자세한 내용은 [이 섹션](../action/action-response.md#config-response)을 참조하십시오. 사용자 지정 작업 응답을 이벤트 데이터 또는 데이터 세트 조회와 결합할 수도 있습니다. 예를 보려면 [여러 컨텍스트 소스 결합](#combine-sources)을 참조하십시오.
 
 ### 사용자 지정 작업에 대한 컨텍스트 경로
 
@@ -535,7 +518,7 @@ context.journey.technicalProperties.supplementalId
 완벽한 개인화 구문 및 이러한 소스를 사용한 예는 다음을 참조하십시오.
 
 * [개인화 추가](personalization-build-expressions.md)
-* [Personalization 구문](personalization-syntax.md)
+* [개인화 구문](personalization-syntax.md)
 
 ## 여정 표현식에서 배열 작업 {#arrays-in-journeys}
 
@@ -844,7 +827,7 @@ list(@event{purchaseEvent.productListItems.SKU})
 
 +++
 
-## 우수 사례 {#best-practices}
+## 모범 사례 {#best-practices}
 
 컨텍스트 기반 데이터를 반복하여 유지 관리가 가능하고 성능이 좋은 개인화를 만들 때 다음 모범 사례를 따르십시오.
 

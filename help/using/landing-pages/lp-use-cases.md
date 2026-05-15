@@ -10,28 +10,16 @@ level: Intermediate
 keywords: 랜딩, 랜딩 페이지, 사용 사례
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
 TQID: https://experienceleague.adobe.com/2NYDW7eFKVVHVzD-GFZkylilJp6AvzEm0r2Conlecss
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b19d9237-76be-466d-a869-aacf2d72205f
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1238
-ht-degree: 0%
+ht-degree: 12%
 
 ---
 
@@ -49,7 +37,7 @@ ht-degree: 0%
 
 ### 랜딩 페이지 설정 {#set-up-lp}
 
-이벤트 등록을 위한 랜딩 페이지를 설정하려면 구독 목록을 만들고, 등록 양식으로 랜딩 페이지를 디자인하고, 필요한 페이지와 설정을 구성합니다. 다음 단계를 수행합니다.
+이벤트 등록을 위한 랜딩 페이지를 설정하려면 구독 목록을 만들고, 등록 양식으로 랜딩 페이지를 디자인하고, 필요한 페이지와 설정을 구성합니다. 다음 단계를 수행하십시오.
 
 1. 등록된 사용자를 저장하는 이벤트 등록의 구독 목록을 만듭니다. 구독 목록을 만드는 방법을 알아보세요. [여기](subscription-list.md#define-subscription-list).
 
@@ -83,13 +71,13 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >메시지를 보내려면 선택한 랜딩 페이지가 아직 만료되지 않았는지 확인하십시오. 이 섹션[&#128279;](create-lp.md#configure-primary-page)에서 만료 날짜 을(를) 업데이트하는 방법을 알아보세요.
+   >메시지를 보내려면 선택한 랜딩 페이지가 아직 만료되지 않았는지 확인하십시오. 이 섹션](create-lp.md#configure-primary-page)에서 만료 날짜 [을(를) 업데이트하는 방법을 알아보세요.
 
    이메일을 수신하면 수신자가 랜딩 페이지 링크를 클릭하면 &#39;감사&#39; 페이지로 이동하며 구독 목록에 추가됩니다.
 
 ### 확인 이메일 보내기 {#send-confirmation-email}
 
-또한 이벤트를 등록한 수신자에게 확인 이메일을 보낼 수 있습니다. 이렇게 하려면 아래 단계를 수행합니다.
+또한 이벤트를 등록한 수신자에게 확인 이메일을 보낼 수 있습니다. 그 방법은 다음과 같습니다.
 
 1. 다른 [여정](../building-journeys/journey.md)을(를) 만듭니다. **[!UICONTROL 여정 만들기]** 단추를 클릭하여 랜딩 페이지에서 직접 수행할 수 있습니다. [자세히 알아보기](create-lp.md#configure-primary-page)
 
@@ -119,11 +107,11 @@ ht-degree: 0%
 
 ### 옵트아웃 관리 {#opt-out-management}
 
-수신자가 브랜드로부터 커뮤니케이션 수신을 거부할 수 있는 기능을 제공하는 것은 법적 요구 사항입니다. [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=ko#regulations){target="_blank"}에서 해당 법률에 대해 자세히 알아보세요.
+수신자가 브랜드로부터 커뮤니케이션 수신을 거부할 수 있는 기능을 제공하는 것은 법적 요구사항입니다. [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=ko#regulations){target="_blank"}에서 해당 법률에 대해 자세히 알아보십시오.
 
 따라서 수신자에게 보내는 모든 이메일에 항상 **구독 취소 링크**&#x200B;를 포함해야 합니다.
 
-* 이 링크를 클릭하면 수신자는 옵트아웃을 확인하는 버튼이 포함된 랜딩 페이지로 이동합니다.
+* 이 링크를 클릭하면 수신자는 옵트아웃을 확인하는 버튼이 포함된 랜딩 페이지로 이동됩니다.
 * 옵트아웃 버튼을 클릭하면 프로필 데이터가 이 정보로 업데이트됩니다.
 
 ### 이메일 옵트아웃 구성 {#configure-opt-out}
@@ -160,7 +148,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >메시지를 보내려면 선택한 랜딩 페이지가 아직 만료되지 않았는지 확인하십시오. 이 섹션[&#128279;](create-lp.md#configure-primary-page)에서 만료 날짜 을(를) 업데이트하는 방법을 알아보세요.
+   >메시지를 보내려면 선택한 랜딩 페이지가 아직 만료되지 않았는지 확인하십시오. 이 섹션](create-lp.md#configure-primary-page)에서 만료 날짜 [을(를) 업데이트하는 방법을 알아보세요.
 
 1. 여정을 게시하고 실행합니다. [자세히 알아보기](../building-journeys/journey.md).
 
@@ -178,7 +166,7 @@ ht-degree: 0%
 
    * 프로필 데이터가 업데이트되며, 다시 구독하지 않는 한 브랜드로부터 커뮤니케이션을 받지 않습니다.
 
-해당 프로필의 선택 사항이 업데이트되었는지 확인하려면 Experience Platform으로 이동하여 ID 네임스페이스 및 해당 ID 값을 선택하여 프로필에 액세스합니다. 자세한 내용은 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ko#getting-started){target="_blank"}를 참조하세요.
+해당 프로필의 선택 사항이 업데이트되었는지 확인하려면 Experience Platform으로 이동하여 ID 네임스페이스 및 해당 ID 값을 선택하여 프로필에 액세스합니다. [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ko#getting-started){target="_blank"}에서 자세한 내용을 알아보십시오.
 
 ![](assets/lp_opt-out-profile-choice.png)
 
@@ -188,7 +176,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->기본 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target="_blank"} **[!UICONTROL 프로필]** 병합 정책의 병합 방법이 **[!UICONTROL 데이터 세트 우선 순위]**&#x200B;인 경우 **[!UICONTROL AJO 동의 서비스 데이터 세트]**&#x200B;를 사용하도록 설정하고 병합 정책에서 우선 순위를 지정하십시오. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ko#dataset-precedence-profile){target="_blank"}
+>기본 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target="_blank"} **[!UICONTROL 프로필]** 병합 정책의 병합 방법이 **[!UICONTROL 데이터 세트 우선 순위]**&#x200B;인 경우 **[!UICONTROL AJO 동의 서비스 데이터 세트]**&#x200B;를 사용하도록 설정하고 병합 정책에서 우선 순위를 지정하십시오. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
 >
 >이 데이터 세트에 일괄 처리가 추가되지 않았더라도 여전히 옵트인/옵트아웃 정보가 포함됩니다.
 

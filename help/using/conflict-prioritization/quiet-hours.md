@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 자동 시간 설정
+title: 방해 금지 시간 설정
 description: 방해 금지 모드 설정 및 적용 방법 알아보기
 feature: Rules
 topic: Content Management
@@ -10,37 +10,26 @@ level: Intermediate
 keywords: 메시지, 빈도, 규칙, 압력
 exl-id: defebd53-fa80-4720-acdc-0f41ceb00214
 TQID: https://experienceleague.adobe.com/I-zCSU3tp4n-i-EEkx118svN7R9bfUh0phCB-B5ZZ5Q
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 918
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
-# 자동 시간 설정 {#quiet-hours}
+# 방해 금지 시간 설정 {#quiet-hours}
 
 ## 조용한 시간은 언제입니까
 
-**방해 금지 시간**&#x200B;을(를) 사용하면 **이메일**, **SMS**, **푸시** 및 **WhatsApp** 채널에 대한 시간 기반 제외를 정의할 수 있습니다. 특정 기간 동안 메시지가 전송되지 않도록 하여 고객 선호도 및 규정 준수 요구 사항을 준수할 수 있습니다.
+**방해 금지 시간**&#x200B;을(를) 사용하면 **이메일**, **SMS**, **푸시** 및 **WhatsApp** 채널에 대한 시간 기반 제외를 정의할 수 있습니다. 특정 시간 동안 메시지가 전송되지 않도록 하여 고객 환경 설정과 및 규정 요건을 준수할 수 있습니다.
 
-정확한 제어를 위해 캠페인 또는 여정의 개별 작업에 할당할 수 있는 **규칙 집합**&#x200B;을 통해 방해 금지 시간을 적용할 수 있습니다.
+**규칙 세트**&#x200B;를 통해 방해 금지 시간을 적용할 수 있으며, 정확한 제어를 위해 이 규칙 세트를 캠페인이나 여정의 개별 액션에 할당할 수 있습니다.
 
 이러한 프로세스를 간소화함으로써 고객 경험을 향상시키고, 시간을 절약하며, 커뮤니케이션 규칙을 준수할 수 있습니다.
 
@@ -51,7 +40,7 @@ ht-degree: 0%
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
 
-## 보호 기능 및 제한 사항
+## 가드레일 및 제한 사항
 
 * **지원되는 채널** - 전자 메일, SMS, 푸시 및 WhatsApp.
 * **오케스트레이션된 캠페인** - 오케스트레이션된 캠페인에는 자동 시간이 지원되지 않습니다.
@@ -63,7 +52,7 @@ ht-degree: 0%
 
 ## 자동 중지 시간 규칙 만들기
 
-방해 금지 시간을 설정하려면 사용자 지정 규칙 세트 내에 규칙을 만듭니다. [규칙 집합을 만드는 방법을 알아봅니다](../conflict-prioritization/rule-sets.md#Create). 다음 단계를 수행합니다.
+방해 금지 시간을 설정하려면 사용자 지정 규칙 세트 내에 규칙을 만듭니다. [규칙 집합을 만드는 방법을 알아봅니다](../conflict-prioritization/rule-sets.md#Create). 다음 단계를 수행하십시오.
 
 1. 규칙 집합 인벤토리에 액세스하려면 **[!UICONTROL 비즈니스 규칙]**(으)로 이동하십시오.
 
@@ -204,8 +193,8 @@ ht-degree: 0%
 -->
 
 
-## 방법 비디오 {#video}
+## 사용 방법 비디오 {#video}
 
 Adobe Journey Optimizer에서 방해 금지 모드 해제 시간 기능을 사용하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475859?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475851?quality=12)
