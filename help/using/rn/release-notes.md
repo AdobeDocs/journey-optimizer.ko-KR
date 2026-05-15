@@ -8,32 +8,16 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5e806bf6931a5c067adde232f61ff446bee18cca
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 4c76084f6e13d8428071d68d41d46c59b5f095d0
 workflow-type: tm+mt
-source-wordcount: 2578
-ht-degree: 82%
+source-wordcount: 2625
+ht-degree: 80%
 
 ---
 
@@ -50,8 +34,13 @@ ht-degree: 82%
 
 [!DNL Adobe Journey Optimizer]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko){target="_blank"}를 참조하십시오.
 
+>[!NOTE]
+>
+>무슨 일이 일어날지 살짝 보실래요? 예정된 기능이 공식적으로 릴리스되기 전에 미리 살펴보려면 [프리릴리스 정보](e-release-notes.md)를 확인하십시오.
+
 ## 2026년 5월 업데이트 {#may-26-rn}
 
+다음 기능 및 개선 사항은 2026년 5월에 릴리스되었습니다.
 
 <table>
 <thead>
@@ -72,7 +61,6 @@ ht-degree: 82%
 </tr>
 </tbody>
 </table>
-
 
 <table>
 <thead>
@@ -148,6 +136,8 @@ ht-degree: 82%
 
 ### 개선 사항 {#may-26-improv}
 
+2026년 5월에도 다음과 같은 개선 사항이 릴리스되었습니다.
+
 #### 결정
 
 * **마이그레이션 워크플로 API 결정** - 종속성 분석 및 마이그레이션 워크플로를 만들기 위한 API 계약이 업데이트되었습니다. 요청 URL(`sandbox`, `offer` 또는 `decision`)에서 **`request-level`**&#x200B;을(를) **쿼리 매개 변수**(으)로 전달하십시오. 요청 수준은 더 이상 JSON 본문에 전송되지 않아야 합니다. [자세히 보기](../experience-decisioning/decisioning-migration-api.md)
@@ -182,17 +172,12 @@ The following capabilities and enhancements are scheduled for release in the nex
 
 ## 2026년 4월 릴리스 정보 {#april-26-rn}
 
-<!--
-**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
-
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
--->
-
-4월 중 이미 릴리스된 새로운 기능 및 개선 사항은 출시 날짜와 함께 공지됩니다.
 
 **릴리스 날짜**: 2026년 4월 28~29일
 
 ### 새로운 기능 {#april-26-features}
+
+다음 기능은 2026년 4월에 출시되었습니다.
 
 <table>
 <thead>
@@ -418,6 +403,8 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 </table>
 
 ### 개선 사항 {#april-26-improv}
+
+2026년 4월에도 다음과 같은 개선 사항이 릴리스되었습니다.
 
 #### AI
 
