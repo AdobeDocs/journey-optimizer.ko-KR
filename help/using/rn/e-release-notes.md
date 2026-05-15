@@ -7,11 +7,10 @@ feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: 88a58f65d19f2bd1d10c4d8cc6a3d63d50a6df8c
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+source-git-commit: 94e82065c51a925c73eb4a759a39f65737382fdc
 workflow-type: tm+mt
-source-wordcount: 1954
+source-wordcount: 1847
 ht-degree: 11%
 
 ---
@@ -311,23 +310,23 @@ ht-degree: 11%
 
   사용 가능한 날짜: 2026년 5월 19일
 
-* **조각에서 상속 나누기 제한** - 이제 조각을 만들거나 편집할 때 상속을 끊을 수 있는지 여부를 선택할 수 있습니다. 이를 통해 전자 메일에 사용할 때 잠금을 해제할 수 없는 조각을 만들 수 있습니다. 이를 통해 거버넌스를 강화하고, 브랜드 일관성을 유지하며, 중앙 집중식으로 관리되거나 규제되는 콘텐츠 블록의 규정 준수 요구 사항을 지원할 수 있습니다.
+* **조각에서 상속 나누기 제한** - 이제 조각을 만들거나 편집할 때 전자 메일에서 사용할 때 수정할 수 있는지 여부를 선택할 수 있습니다. 조각을 잠그면 나타나는 모든 곳에서 동기화를 유지하여 브랜드 표준이나 규정 준수 요구 사항을 위반할 수 있는 로컬 편집을 방지할 수 있습니다. 이 설정은 나중에 업데이트하여 향후 사용에 적용할 수 있습니다.
 
   설명서 JIRA 작업: [DOCAC-14716](https://jira.corp.adobe.com/browse/DOCAC-14716)
 
   사용 가능한 날짜: 2026년 5월 19일
 
-* **랜딩 페이지에서 컨텐츠 잠금** - 이제 전자 메일 템플릿에 사용할 수 있는 잠금 컨트롤과 유사한 랜딩 페이지 템플릿의 일부를 잠글 수 있습니다. 디자인, 콘텐츠, 위치를 잠그고 허용된 구성 요소의 수 및/또는 유형을 제한하여 콘텐츠를 제한하는 옵션을 포함하여 편집 가능한 구조, 구성 요소 및 속성을 정의할 수 있습니다.
+<!--FEEDBACK FROM TYSON WAI - * **Content locking in landing pages** - You can now lock portions of landing page templates, similar to the locking controls available for email templates. You can define which structures, components, and properties are editable — including options to lock design, content, position, and restrict content by limiting the number and/or types of components allowed.
 
-  설명서 JIRA 작업: [DOCAC-14714](https://jira.corp.adobe.com/browse/DOCAC-14714)
+  Documentation JIRA task: [DOCAC-14714](https://jira.corp.adobe.com/browse/DOCAC-14714)
 
-  사용 가능한 날짜: 2026년 5월 19일
+  Availability date: May 19, 2026-->
 
-* **통합 쉘의 이메일 Designer** - 이제 이메일 Designer이 전체 화면에서 바로 시작되는 대신 Journey Optimizer 통합 쉘 인터페이스에 통합됩니다.
+<!--FEEDBACK FROM TYSON WAI - TW: Remove this release, it is not ready for May 19th- * **Email Designer in Unified Shell** - The Email Designer is now integrated into the Journey Optimizer Unified Shell interface instead of being launched directly in full screen.
 
-  설명서 JIRA 작업: [DOCAC-14254](https://jira.corp.adobe.com/browse/DOCAC-14254)
+  Documentation JIRA task: [DOCAC-14254](https://jira.corp.adobe.com/browse/DOCAC-14254)
 
-  사용 가능한 날짜: 2026년 5월 19일
+  Availability date: May 19, 2026-->
 
 #### 여정
 
@@ -395,7 +394,7 @@ Adobe Journey Optimizer continuously delivers new features, enhancements to exis
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: April 28-29, 2026
 
@@ -787,7 +786,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: March 24-25, 2026
 
@@ -1078,7 +1077,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: February 17, 2026
 
@@ -1331,7 +1330,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -1508,7 +1507,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
