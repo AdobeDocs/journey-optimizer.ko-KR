@@ -82,7 +82,7 @@ ht-degree: 0%
 
 1. 사용자 이름, 전자 메일 주소를 입력하거나 목록에서 선택한 다음 **저장**&#x200B;을 클릭합니다.
 
-1. 사용자를 이전에 만들지 않은 경우 [이 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/users)를 참조하세요.
+1. 사용자를 이전에 만들지 않은 경우 [이 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/abac/permissions-ui/users)를 참조하세요.
 
 +++
 

@@ -117,8 +117,8 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_fragment_statuses"
 >title="새 조각 상태"
->abstract="**초안** 및 **라이브** 상태가 Journey Optimizer 6월 릴리스와 함께 도입되었으므로 이 릴리스 전에 만들어진 모든 조각은 여정 또는 캠페인에서 사용되더라도 **초안** 상태입니다. 이러한 조각을 변경하는 경우 해당 조각을 게시하여 **Live**&#x200B;로 설정하고 변경 내용을 관련 캠페인 및 여정에 전파해야 합니다. 또한 새 여정/캠페인 버전을 만들고 게시해야 합니다. <br/>게시하려면 <a href="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/ootb-product-profiles#content-library-manage">조각 게시</a> 사용자 권한이 필요합니다."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/ootb-product-profiles#content-library-manager" text="콘텐츠 조각 권한에 대해 자세히 알아보기"
+>abstract="**초안** 및 **라이브** 상태가 Journey Optimizer 6월 릴리스와 함께 도입되었으므로 이 릴리스 전에 만들어진 모든 조각은 여정 또는 캠페인에서 사용되더라도 **초안** 상태입니다. 이러한 조각을 변경하는 경우 해당 조각을 게시하여 **Live**&#x200B;로 설정하고 변경 내용을 관련 캠페인 및 여정에 전파해야 합니다. 또한 새 여정/캠페인 버전을 만들고 게시해야 합니다. <br/>게시하려면 <a href="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/access-control/ootb-product-profiles#content-library-manage">조각 게시</a> 사용자 권한이 필요합니다."
+>additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/access-control/ootb-product-profiles#content-library-manager" text="콘텐츠 조각 권한에 대해 자세히 알아보기"
 
 조각에는 여러 상태가 있을 수 있습니다.
 

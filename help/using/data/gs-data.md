@@ -295,7 +295,7 @@ Journey Optimizer에서 실시간 고객 프로필이 작동하는 방식과 Pla
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 **데이터 설정 개요 튜토리얼**
 
@@ -305,7 +305,7 @@ Journey Optimizer에서 데이터 설정을 시작하는 초보자를 위한 비
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 **데이터 세트 생성 및 데이터 수집 튜토리얼**
 
