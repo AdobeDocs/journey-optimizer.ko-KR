@@ -8,9 +8,9 @@ topic: Content Management
 role: User, Developer
 level: Intermediate
 keywords: 딥링크, 딥링크, 범용 링크, 앱 링크, 이메일, sms
-source-git-commit: 258d22c6b95db138e927d96f04215c0623e53913
+source-git-commit: 3ae5c801412831d1f28286bd7b6c28ee78ca61ec
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: '1277'
 ht-degree: 1%
 
 ---
@@ -20,10 +20,11 @@ ht-degree: 1%
 
 딥 링크를 사용하면 이메일 또는 SMS 메시지에서 수신자를 모바일 앱의 특정 화면이나 콘텐츠로 안내할 수 있습니다. 웹 브라우저나 앱스토어를 통해 라우팅하지 않고도 의도한 인앱 여정으로 바로 이동할 수 있으므로 사용자가 브랜드에 맞게 적절한 작업을 수행할 수 있습니다.
 
-수신자가 딥 링크를 클릭하면 의도한 인앱 콘텐츠로 바로 이동합니다. **구성 단계를 완료한 경우** 이 페이지에 자세히 설명되어 있으며 다음이 해당됩니다.
+수신자가 딥링크를 클릭하면 의도한 인앱 콘텐츠로 바로 이동합니다. **완료한 경우**:
 
-* Journey Optimizer에서 이메일에 대한 딥 링크를 구성하는 방법
-* 모바일 앱에서 iOS 및 Android에 대한 딥링크 처리를 구현하는 방법
+* Journey Optimizer의 [구성 단계](#configuration);
+
+* 모바일 앱에서 iOS 및 Android에 대한 [모바일 앱 구현](#mobile-implementation) 단계입니다.
 
 >[!NOTE]
 >
@@ -69,7 +70,7 @@ SMS 콘텐츠에 딥링크를 삽입하려면 다음 구문을 사용합니다.
 
 1. 하위 도메인에서 iOS용 AASA 파일 및 Android용 assetLinks.json 파일을 호스팅합니다. 자세한 내용은 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} 또는 Adobe 담당자에게 문의하십시오.
 
-   * AASA(iOS)의 **1&rbrace;:**
+   * AASA(iOS)의 **1}:**
       * 위임된 하위 도메인
       * 앱 번들 ID
    * **Android(assetLinks.json)의 경우**:
