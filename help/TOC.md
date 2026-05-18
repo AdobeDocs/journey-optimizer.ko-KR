@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3ae5c801412831d1f28286bd7b6c28ee78ca61ec
+source-git-commit: d189ba524cdccaf0a220608680425d0a275c3ed9
 workflow-type: tm+mt
-source-wordcount: '3324'
+source-wordcount: '3326'
 ht-degree: 97%
 
 ---
@@ -105,6 +105,7 @@ ht-degree: 97%
    + 표현식 작성 {#building-advanced-conditions-journeys}
       + [표현식 작성](/help/rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
       + [고급 표현식 편집기 작업](using/building-journeys/expression/expressionadvanced.md)
+      + {hide-from-toc}[식 도우미](using/building-journeys/expression/expression-agent.md)
       + 구문 {#syntax}
          + [구문](/help/rp_landing_pages/syntax-landing-page.md)
          + [고급 표현식 편집기 구문](using/building-journeys/expression/generalities.md)
@@ -316,7 +317,7 @@ ht-degree: 97%
          + [헤더 매개변수](using/email/header-parameters.md)
          + [URL 추적](using/email/url-tracking.md)
          + [이메일 구성 개인화](using/email/surface-personalization.md)
-      + [딥 링크 사용 및 구성](using/email/deeplinks.md)
+      + [딥링크 사용 및 구성](using/email/deeplinks.md)
       + [이메일 옵트아웃 관리](using/email/email-opt-out.md)
    + 인앱 채널 {#in-app}
       + [인앱 채널](/help/rp_landing_pages/in-app-landing-page.md)
