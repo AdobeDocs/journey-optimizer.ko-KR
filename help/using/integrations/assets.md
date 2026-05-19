@@ -30,14 +30,20 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: da3860b0-d637-47df-bef0-273751180266
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 5b85708af07883e4690a0234399344012091844e
 workflow-type: tm+mt
-source-wordcount: 1198
-ht-degree: 9%
+source-wordcount: 1252
+ht-degree: 8%
 
 ---
 
 # [!DNL Experience Manager Assets]&#x200B;(으)로 자산 만들기 및 관리{#experience-manager-assets}
+
+>[!BEGINSHADEBOX]
+
+Adobe Journey Optimizer 워크플로의 기존 **자산 선택기** 및 **콘텐츠 조각 선택기** 경험이 **콘텐츠 관리자**&#x200B;로 대체됩니다. Content Advisor는 AJO 작성 워크플로 내에서 Assets, 콘텐츠 조각 및 Dynamic Media를 직접 검색하고 선택할 수 있는 AI 기반의 통합 인터페이스를 제공합니다. 기존 통합은 전환 기간 동안 계속 작동합니다.
+
+>[!ENDSHADEBOX]
 
 ## [!DNL Experience Manager Assets] 시작 {#get-started-assets}
 
