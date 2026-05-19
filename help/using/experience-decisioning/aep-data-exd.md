@@ -1,9 +1,9 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 의사 결정에 Adobe Experience Platform 데이터 사용
+title: 결정을 위해 Adobe Experience Platform 데이터 사용
 description: 의사 결정에 Adobe Experience Platform 데이터를 사용하는 방법을 알아봅니다.
-badge: label="제한된 가용성" type="Informative"
+badge: label="제한 공개" type="Informative"
 feature: Personalization, Rules, Decisioning
 topic: Personalization
 role: Developer
@@ -12,58 +12,52 @@ keywords: 표현식, 편집기
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/PpKizv9cq9CzZkYL1CpTXgYJk8T3o4HRWLlncAmgqg8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 297a00585ee98161bead7014cddfe394b73de778
 workflow-type: tm+mt
-source-wordcount: 1218
-ht-degree: 0%
+source-wordcount: 1215
+ht-degree: 26%
 
 ---
 
-# 의사 결정에 Adobe Experience Platform 데이터 사용 {#aep-data}
+# 결정을 위해 Adobe Experience Platform 데이터 사용 {#aep-data}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_catalogs_dataset"
 >title="데이터 세트 조회"
->abstract="의사 결정에 Adobe Experience Platform의 특성을 사용하려면 매핑을 만들어 Adobe Experience Platform 데이터 집합이 [!DNL Journey Optimizer]의 데이터와 결합하는 방법을 정의해야 합니다."
+>abstract="의사 결정을 위해 Adobe Experience Platform의 속성을 사용하려면 Adobe Experience Platform 데이터 세트가 [!DNL Journey Optimizer]의 데이터와 어떻게 결합되는지 정의하는 매핑을 만들어야 합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_catalogs_dataset_create"
 >title="데이터 세트 조회"
->abstract="조회가 활성화된 모든 Adobe Experience Platform 데이터 세트 중에서 필요한 특성이 있는 데이터 세트를 선택한 다음, 의사 결정 항목 속성과 데이터 세트 모두에 있는 매핑 키(예: 비행 번호 또는 고객 ID)를 선택합니다."
+>abstract="조회에 대해 활성화된 모든 Adobe Experience Platform 데이터 세트 중에서 필요한 속성이 포함된 데이터 세트를 선택한 다음, 결정 항목 속성 및 데이터 세트 모두에 있는 매핑 키(예: 비행 번호 또는 고객 ID)를 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_rules_dataset_lookup"
 >title="데이터 세트 조회"
->abstract="필요한 속성을 사용하여 Adobe Experience Platform 데이터 세트를 선택합니다. 데이터 세트가 목록에 표시되지 않으면 조회에 대해 활성화했으며 데이터 세트 조회 매핑을 만들었는지 확인하십시오."
+>abstract="필요한 속성이 포함된 Adobe Experience Platform 데이터 세트를 선택합니다. 목록에 데이터 세트가 표시되지 않으면 조회에 대해 데이터 세트를 활성화하고 데이터 세트 조회 매핑을 생성했는지 확인합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_formula_dataset_lookup"
 >title="데이터 세트 조회"
->abstract="[!DNL Adobe Experience Platform] 데이터 세트 특성을 사용하여 실제 상황을 반영하도록 순위 논리를 동적으로 조정합니다. 필요한 특성이 있는 Adobe Experience Platform 데이터 집합을 선택하려면 **[!UICONTROL 데이터 집합 추가]**&#x200B;를 클릭하십시오. 데이터 세트가 목록에 표시되지 않으면 조회에 대해 활성화했으며 데이터 세트 조회 매핑을 만들었는지 확인하십시오."
+>abstract="[!DNL Adobe Experience Platform] 데이터 세트 속성을 사용하여 실제 조건을 반영하도록 순위 논리를 동적으로 조정합니다. **[!UICONTROL 데이터 세트 추가]**&#x200B;를 클릭하여 필요한 속성이 포함된 Adobe Experience Platform 데이터 세트를 선택합니다. 목록에 데이터 세트가 표시되지 않으면 조회에 대해 데이터 세트를 활성화하고 데이터 세트 조회 매핑을 생성했는지 확인합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_capping_dataset"
 >title="데이터 세트 추가"
->abstract="[!DNL Adobe Experience Platform] 데이터 세트 특성을 사용하여 동적, 외부 특성을 기반으로 한도 기준을 정의합니다. 필요한 특성이 있는 Adobe Experience Platform 데이터 집합을 선택하려면 **[!UICONTROL 데이터 집합 추가]**&#x200B;를 클릭하십시오. 데이터 세트가 목록에 표시되지 않으면 조회에 대해 활성화했으며 데이터 세트 조회 매핑을 만들었는지 확인하십시오."
+>abstract="[!DNL Adobe Experience Platform] 데이터 세트 속성을 사용하여 동적 외부 속성을 기반으로 상한 기준을 정의합니다. 필요한 특성이 있는 데이터 집합을 선택하려면 **[!UICONTROL 데이터 집합 추가]**&#x200B;를 클릭하세요. 목록에 데이터 세트가 표시되지 않으면 조회에 대해 데이터 세트를 활성화하고 데이터 세트 조회 매핑을 생성했는지 확인합니다."
 
-[!DNL Journey Optimizer]을(를) 사용하면 의사 결정을 위해 [!DNL Adobe Experience Platform]의 데이터를 활용할 수 있습니다. 이렇게 하면 속성을 한 번에 하나씩 수동으로 업데이트할 필요 없이 주기적으로 변경되는 벌크 업데이트에 대해 의사 결정 속성의 정의를 데이터 세트의 추가 데이터로 확장할 수 있습니다. 예: 가용성, 대기 시간 등
+[!DNL Journey Optimizer]을(를) 사용하면 의사 결정을 위해 [!DNL Adobe Experience Platform]의 데이터를 활용할 수 있습니다. 그러면 주기적으로 변경되는 일괄 업데이트 시 속성을 일일이 수동으로 업데이트할 필요 없이 결정 속성의 정의를 데이터 세트의 추가 데이터로 확장할 수 있습니다. 예를 들면 가용성, 대기 시간 등이 있습니다.
 
 >[!AVAILABILITY]
 >
 >이 기능은 현재 모든 고객이 제한된 가용성 릴리스로 사용할 수 있습니다.
 
-## 보호 기능 및 제한 사항 {#guardrails}
+## 가드레일 및 제한 사항 {#guardrails}
 
 * **지원되는 채널** - Decisioning을 사용한 데이터 세트 조회는 Decisioning을 사용할 수 있는 모든 채널, 즉 코드 기반 경험(인바운드), 이메일, 푸시, SMS 및 여정의 콘텐츠 결정 노드에 대해 작동합니다.
 * **특성 사용** - 의사 결정을 위한 데이터 집합 조회 기능은 결정 항목 정의를 추가 특성으로 확장합니다. 특성이 프로필로 확장되지 않습니다.
@@ -77,7 +71,7 @@ ht-degree: 0%
 
 ### 매핑 만들기
 
-의사 결정에 Adobe Experience Platform의 특성을 사용하려면 매핑을 만들어 Adobe Experience Platform 데이터 집합이 [!DNL Journey Optimizer]의 데이터와 결합하는 방법을 정의해야 합니다. 이렇게 하려면 다음 단계를 수행합니다.
+의사 결정을 위해 Adobe Experience Platform의 속성을 사용하려면 Adobe Experience Platform 데이터 세트가 [!DNL Journey Optimizer]의 데이터와 어떻게 결합되는지 정의하는 매핑을 만들어야 합니다. 이렇게 하려면 다음 단계를 수행합니다.
 
 1. **[!UICONTROL 카탈로그]** / **[!UICONTROL 데이터 세트 조회]**(으)로 이동한 다음 **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
 
@@ -105,7 +99,7 @@ Adobe Experience Platform 데이터 세트의 속성은 의사 결정 논리의 
 
 다음 섹션에서는 이러한 컨텍스트에서 Adobe Experience Platform 데이터를 사용하는 방법을 설명합니다.
 
-### 의사 결정 규칙 {#rules}
+### 결정 규칙 {#rules}
 
 의사 결정 규칙에서 Adobe Experience Platform 데이터를 사용하면 동적 외부 속성에 따라 자격 조건을 정의할 수 있으므로 의사 결정 항목이 관련성이 있을 때만 표시되도록 합니다.
 
@@ -125,9 +119,9 @@ Adobe Experience Platform 데이터 세트의 속성은 의사 결정 논리의 
 
    ![](assets/exd-lookup-menu.png)
 
-### 등급 수식 {#ranking-formulas}
+### 순위 공식 {#ranking-formulas}
 
-등급 공식은 의사 결정 항목의 우선 순위를 정의합니다. [!DNL Adobe Experience Platform] 데이터 세트 특성을 사용하면 실제 상황을 반영하도록 순위 논리를 동적으로 조정할 수 있습니다.
+순위 공식은 결정 항목의 우선순위를 정의합니다. [!DNL Adobe Experience Platform] 데이터 세트 특성을 사용하면 실제 상황을 반영하도록 순위 논리를 동적으로 조정할 수 있습니다.
 
 예를 들어 항공사가 등급 공식을 사용하여 업그레이드 오퍼의 우선 순위를 정한다고 가정해 보겠습니다. 고객이 높은 충성도 계층을 가지고 있고 현재 시트 가용성이 낮은 경우(시간별로 업데이트된 데이터 세트 기반) 더 높은 우선 순위가 제공됩니다. 데이터 집합에 `flight_number`, `available_seats`, `loyalty_score` 등의 필드가 포함되어 있습니다.
 
