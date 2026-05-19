@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: e2ec3d856f115befc34d435e26696c4cb4e13301
+source-git-commit: 8f23da537097fa514b19f9d6e8be025ba86f8a05
 workflow-type: tm+mt
-source-wordcount: '7859'
+source-wordcount: '7833'
 ht-degree: 91%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 91%
 
 ## 2026년 5월 {#may-2026}
 
-* **주요 용어** 페이지가 새로운 **용어가 비슷하게 보이는 경우** 의사 결정 및 의사 결정 관리(의사 결정 관리의 기존 상태 포함), 세 가지 캠페인 유형(작업, API 트리거 및 오케스트레이션), 빈도 제한 및 여정 중재, 콘텐츠 카드와 인앱 메시지 등 일반적으로 혼동되는 네 가지 용어 쌍을 다루는 명확화 안내서로 보강되었습니다. **Campaign** 정의 및 **의사 결정 및 오퍼 용어** 표도 업데이트되었습니다. 이제 의사 결정은 명시적으로 레거시로 표시된 의사 결정 관리와 함께 나열됩니다. [자세히 보기](../start/terminology.md#disambiguation)
+* **주요 용어** 페이지가 변경되었습니다. 6개의 새로운 용어가 추가되고, 새로운 **충돌 및 우선 순위 지정 용어** 섹션이 도입되고, 새로운 **용어가 비슷해 보이는 경우** 명확화 가이드가 혼동되는 4개의 용어 쌍에 추가되었습니다. Adobe Experience Platform 관련 용어가 제거되고 Adobe Experience Platform 용어집에 연결된 메모로 대체되었습니다. [자세히 보기](../start/terminology.md)
 
 * **딥링크** 설명서가 이메일에 사용할 수 있는 두 옵션(이메일 Designer UI 및 Personalization 편집기 코드)과 SMS의 URL 함수 구문을 자세히 설명하는 새로운 **딥링크 작성** 섹션으로 확장되었습니다. 이제 **SMS 메시지 만들기** 페이지에 콘텐츠 작성 흐름의 딥 링크 단계가 포함됩니다. [자세히 보기](../email/deeplinks.md)
 

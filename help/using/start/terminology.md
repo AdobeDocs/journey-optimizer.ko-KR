@@ -29,10 +29,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: b4ce14492d56e7121f827cf6a46abc5c222180e5
+source-git-commit: 26ebbdc6d51ee9ad7c47ce26e7df04064b90268f
 workflow-type: tm+mt
-source-wordcount: 1760
-ht-degree: 8%
+source-wordcount: 1576
+ht-degree: 7%
 
 ---
 
@@ -42,20 +42,11 @@ ht-degree: 8%
 
 **의사 결정과 의사 결정 관리** 또는 **콘텐츠 카드와 인앱 메시지**&#x200B;와 같이 종종 혼동되는 유사한 소리 용어 쌍에 대해서는 이 페이지 하단의 [용어가 비슷해 보이는 경우](#disambiguation)를 참조하십시오.
 
->[!TIP]
+>[!NOTE]
 >
->기능 및 워크플로에 대한 자세한 설명은 이 안내서 전체에 연결된 특정 설명서 섹션을 참조하십시오.
+>Adobe Journey Optimizer은 **Adobe Experience Platform**&#x200B;을 기반으로 빌드되었습니다. 실시간 고객 프로필, 샌드박스, 스키마 및 데이터 세트와 같이 사용자가 접할 수 있는 많은 기본 개념은 Journey Optimizer 관련 개념이 아닌 Adobe Experience Platform 개념입니다. 이러한 용어에 대한 정의는 [Adobe Experience Platform 용어집](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=ko){target="_blank"}을 참조하세요.
 
-## 핵심 플랫폼 약관 {#core-terms}
-
-| 용어 | 정의 |
-|------|------------|
-| **Adobe Journey Optimizer** | 여러 채널(이메일, SMS, 푸시 알림, 웹)에서 고객에게 개인화된 메시지를 만들고 게재하기 위한 애플리케이션입니다. 실시간 고객 행동에 대응하는 고객 여정을 디자인할 수 있습니다. |
-| **Adobe Experience Platform** | 모든 고객 데이터를 한 곳에서 수집하고 구성하는 Adobe Journey Optimizer의 기반. Journey Optimizer이 개인화에 사용하는 통합 고객 프로필을 만듭니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ko){target="_blank"} |
-| **실시간 고객 프로필** | 온라인, 오프라인, CRM 및 서드파티 데이터를 비롯한 여러 채널의 데이터를 결합하는 각 고객에 대한 통합된 실시간 보기입니다. 고객이 브랜드와 상호 작용할 때 각 프로필은 동적으로 업데이트됩니다. [자세히 알아보기](../audience/get-started-profiles.md) |
-| **샌드박스** | 라이브 고객 커뮤니케이션에 영향을 주지 않고 테스트 및 실험을 위한 별도의 작업 영역입니다. Adobe Journey Optimizer은 개발, 테스트 및 프로덕션 환경을 위한 여러 샌드박스를 제공합니다. [자세히 알아보기](../administration/sandboxes.md) |
-
-## 여정 및 캠페인 약관 {#journey-campaign-terms}
+## 여정 및 캠페인 용어 {#journey-campaign-terms}
 
 | 용어 | 정의 |
 |------|------------|
@@ -97,8 +88,6 @@ ht-degree: 8%
 
 | 용어 | 정의 |
 |------|------------|
-| **스키마** | 필드 이름, 데이터 유형 및 관계를 포함하여 Adobe Experience Platform에서 데이터가 구성되는 방식을 정의하는 구조입니다. 스키마는 시스템 간에 데이터 일관성을 보장합니다. [자세히 알아보기](../data/get-started-schemas.md) |
-| **데이터 집합** | 특정 스키마를 따르는 데이터 컬렉션(일반적으로 테이블)입니다. 데이터 세트는 고객 데이터, 상호 작용 이벤트 및 개인화에 사용되는 기타 정보를 저장합니다. [자세히 알아보기](../data/get-started-datasets.md) |
 | **채널 구성** | 보낸 사람 세부 정보, 하위 도메인, IP 풀 및 메시지 유형(마케팅 또는 트랜잭션)을 포함하여 특정 채널에 대해 메시지를 배달하는 방법을 정의하는 설정입니다. 이전 설명서에서는 &quot;표면&quot; 또는 &quot;사전 설정&quot;이라고 했습니다. [자세히 알아보기](../configuration/channel-surfaces.md) |
 | **금지 목록** | 하드 바운스, 스팸 불만 또는 수동 추가로 인해 메시지 게재에서 자동으로 제외되는 이메일 주소 및 도메인 목록입니다. 숨겨진 주소로 보내는 것은 전달성과 발신자의 평판을 보호하기 위해 차단됩니다. [자세히 알아보기](../reports/suppression-list.md) |
 
@@ -108,10 +97,6 @@ ht-degree: 8%
 |------|------------|
 | **규칙 집합** | 메시징 동작을 제어하기 위해 여정 및 캠페인에 적용되는 비즈니스 규칙의 명명된 그룹입니다. 규칙 세트는 빈도 제한, 여정 시작 제한 및 중지 시간을 하나의 재사용 가능한 정책으로 결합할 수 있습니다. [자세히 알아보기](../conflict-prioritization/rule-sets.md) |
 | **빈도 제한** | 채널 또는 통신 유형(판매, 프로모션 등)별로 지정된 기간 내에 프로필에서 받을 수 있는 메시지 수를 제한하는 규칙 세트 내의 규칙입니다. 한도를 초과하는 프로필은 자동으로 게재에서 제외됩니다. [자세히 알아보기](../conflict-prioritization/channel-capping.md) |
-
->[!NOTE]
->
->Adobe Experience Platform 용어에 대한 포괄적인 용어집은 [Adobe Experience Platform 용어집](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=ko){target="_blank"}을 참조하세요.
 
 ## 용어가 비슷할 때: 명확화 안내서 {#disambiguation}
 
