@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3d3218e24074ffb8ec36f1ec14ff8a6c45950d90
+source-git-commit: 9ad454186eced1eeb56fef8019b6c1c48db513b7
 workflow-type: tm+mt
 source-wordcount: '3326'
 ht-degree: 97%
@@ -511,9 +511,9 @@ ht-degree: 97%
          + {hide-from-toc}[콘텐츠 조각에 대한 저장소 구성](using/integrations/aem-admin-settings.md)
          + [Experience Manager 콘텐츠 조각 작업](using/integrations/aem-fragments.md)
          + [고려할 사항 및 문제 해결](using/integrations/aem-fragments-limitations.md)
-      + {hide-from-toc}[Experience Manager 콘텐츠 어드바이저 작업](using/content-management/aem-content-advisor.md)
-      + {hide-from-toc}[카운트다운 타이머 삽입](using/integrations/countdown.md)
+      + [Experience Manager Content Advisor 작업](using/content-management/aem-content-advisor.md)
       + [Dynamic Media 작업](using/integrations/aem-dynamic.md)
+      + {hide-from-toc}[카운트다운 타이머 삽입](using/integrations/countdown.md)
       + [GenStudio for Performance Marketing 작업](using/integrations/genstudio.md)
       + 통합 {#integrations}
          + [통합 작업](using/integrations/integrations.md)
