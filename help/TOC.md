@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d189ba524cdccaf0a220608680425d0a275c3ed9
+source-git-commit: 3d3218e24074ffb8ec36f1ec14ff8a6c45950d90
 workflow-type: tm+mt
 source-wordcount: '3326'
 ht-degree: 97%
@@ -317,7 +317,7 @@ ht-degree: 97%
          + [헤더 매개변수](using/email/header-parameters.md)
          + [URL 추적](using/email/url-tracking.md)
          + [이메일 구성 개인화](using/email/surface-personalization.md)
-      + [딥링크 사용 및 구성](using/email/deeplinks.md)
+      + [딥 링크 사용 및 구성](using/email/deeplinks.md)
       + [이메일 옵트아웃 관리](using/email/email-opt-out.md)
    + 인앱 채널 {#in-app}
       + [인앱 채널](/help/rp_landing_pages/in-app-landing-page.md)
@@ -995,3 +995,4 @@ ht-degree: 97%
       + [고객의 환경 설정 관리](using/action/preference-center.md)
    + [데이터 거버넌스](using/action/action-privacy.md)
    + [고객 관리 키 설정 및 관리](using/privacy/cmk.md)
+
