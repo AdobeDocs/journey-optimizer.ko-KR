@@ -8,10 +8,24 @@ role: Developer, Admin
 level: Experienced
 keywords: 스키마, 플랫폼, 데이터, 구조
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
+TQID: https://experienceleague.adobe.com/fWsW9Rvyd8L4nphczzc7GF1rbO7HuYsjqDBBpy3uoGU
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 98%
+source-wordcount: 440
+ht-degree: 100%
 
 ---
 
@@ -49,7 +63,7 @@ Adobe Experience Platform에는 두 가지 유형의 스키마가 있습니다.
    1. **스키마를 연결**&#x200B;하여 엔티티와 사람 간의 관계를 정의합니다(예: 충성도 트랜잭션과 구성원 연결, 보상과 브랜드 연결).
    1. 지원되는 소스에서 데이터 세트로 **데이터를 수집**&#x200B;합니다.
 
-  ➡️ [관계형 스키마 및 데이터 세트를 관리하는 방법 알아보기](../orchestrated/gs-schemas.md)
+  ➡️ [관계형 스키마와 데이터 세트를 관리하는 방법 알아보기](../orchestrated/gs-schemas.md)
 ➡️ [오케스트레이션된 캠페인 시작](../orchestrated/gs-schemas.md)
 
 ## 사용 방법 비디오{#video-schema}

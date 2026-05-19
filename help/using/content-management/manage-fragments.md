@@ -8,10 +8,30 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/zGML5v-T-z6d-r8J8lzWBl-bCo7UX9zqH1XTlw42y-k
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
+  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
+  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1456'
-ht-degree: 19%
+source-wordcount: 1456
+ht-degree: 0%
 
 ---
 
@@ -57,8 +77,8 @@ ht-degree: 19%
 
 >[!CONTEXTUALHELP]
 >id="ajo_fragments_folders"
->title="조각을 폴더로 정리"
->abstract="조직의 필요에 따라 폴더를 사용하여 조각을 분류하고 관리합니다."
+>title="조각을 폴더로 구성"
+>abstract="폴더를 사용하여 조직의 필요에 따라 조각을 분류하고 관리합니다."
 
 조각을 쉽게 탐색하기 위해 폴더를 사용하여 조각을 구조화된 계층으로 보다 효과적으로 구성할 수 있습니다. 이를 통해 조직의 요구 사항에 따라 항목을 분류하고 관리할 수 있습니다.
 
@@ -96,8 +116,8 @@ ht-degree: 19%
 
 >[!CONTEXTUALHELP]
 >id="ajo_fragment_statuses"
->title="새로운 조각 상태"
->abstract="**초안** 및 **라이브** 상태가 Journey Optimizer 6월 릴리스에 도입되었으므로 이 릴리스 이전에 생성된 모든 조각은 여정이나 캠페인에서 사용되더라도 **초안** 상태입니다. 이 조각을 변경할 경우 해당 조각을 게시하여 **라이브**&#x200B;로 만들고 관련 캠페인 및 여정에 변경 사항을 전파해야 합니다. 또한 여정/캠페인 버전을 새로 만들어 게시해야 합니다. <br/>게시하려면 <a href="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/access-control/ootb-product-profiles#content-library-manage">조각 게시</a> 사용자 권한이 필요합니다."
+>title="새 조각 상태"
+>abstract="**초안** 및 **라이브** 상태가 Journey Optimizer 6월 릴리스와 함께 도입되었으므로 이 릴리스 전에 만들어진 모든 조각은 여정 또는 캠페인에서 사용되더라도 **초안** 상태입니다. 이러한 조각을 변경하는 경우 해당 조각을 게시하여 **Live**&#x200B;로 설정하고 변경 내용을 관련 캠페인 및 여정에 전파해야 합니다. 또한 새 여정/캠페인 버전을 만들고 게시해야 합니다. <br/>게시하려면 <a href="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/access-control/ootb-product-profiles#content-library-manage">조각 게시</a> 사용자 권한이 필요합니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/access-control/ootb-product-profiles#content-library-manager" text="콘텐츠 조각 권한에 대해 자세히 알아보기"
 
 조각에는 여러 상태가 있을 수 있습니다.
@@ -113,19 +133,19 @@ ht-degree: 19%
 
 >[!CAUTION]
 >
->**초안** 및 **라이브** 상태가 2024년 6월 Journey Optimizer 릴리스와 함께 도입되었으므로 이 릴리스 전에 만들어진 모든 조각은 여정 또는 캠페인에서 사용되더라도 **초안** 상태입니다. 이 조각을 변경할 경우 해당 조각을 게시하여 **라이브**&#x200B;로 만들고 관련 캠페인 및 여정에 변경 사항을 전파해야 합니다. 또한 여정/캠페인 버전을 새로 만들어 게시해야 합니다. 게시하려면 [조각 게시](../administration/ootb-product-profiles.md#content-library-manager) 사용자 권한이 필요합니다.
+>**초안** 및 **라이브** 상태가 2024년 6월 Journey Optimizer 릴리스와 함께 도입되었으므로 이 릴리스 전에 만들어진 모든 조각은 여정 또는 캠페인에서 사용되더라도 **초안** 상태입니다. 이러한 조각을 변경하는 경우 해당 조각을 게시하여 **Live**&#x200B;로 설정하고 변경 내용을 관련 캠페인 및 여정에 전파해야 합니다. 또한 새 여정/캠페인 버전을 만들고 게시해야 합니다. 게시하려면 [조각 게시](../administration/ootb-product-profiles.md#content-library-manager) 사용자 권한이 필요합니다.
 
 ## 조각 편집 {#edit-fragments}
 
 >[!CONTEXTUALHELP]
 >id="ajo_fragments_update_campaigns"
->title="캠페인에서의 조각 업데이트"
->abstract="조각에 대한 변경 사항을 게시하면 이 캠페인은 업데이트되지 않습니다. 조각 업데이트 기능을 지원하려면 새 버전을 게시해야 합니다."
+>title="캠페인의 조각 업데이트"
+>abstract="조각에 변경 사항을 게시하는 경우 이 캠페인은 업데이트되지 않습니다. 조각 업데이트 기능을 지원할 수 있도록 새 버전을 게시해야 합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_fragments_update_journeys"
->title="여정에서의 조각 업데이트"
->abstract="조각에 대한 변경 사항을 게시하면 이 여정은 업데이트되지 않습니다. 조각 업데이트 기능을 지원하려면 새 버전을 게시해야 합니다."
+>title="여정의 조각 업데이트"
+>abstract="조각에 변경 사항을 게시하는 경우 이 여정은 업데이트되지 않습니다. 조각 업데이트 기능을 지원할 수 있도록 새 버전을 게시해야 합니다."
 
 조각을 편집하려면 아래 단계를 따르십시오.
 

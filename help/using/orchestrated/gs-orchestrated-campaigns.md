@@ -6,13 +6,26 @@ description: 오케스트레이션된 캠페인을 시작하는 방법 알아보
 short-description: 오케스트레이션된 캠페인 주요 기능 및 사용 사례 살펴보기
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/ePbw3PWwBuZl5A3bdBzM0gb4koCEH09WUX0P-g8z3VM
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 85%
+source-wordcount: 909
+ht-degree: 100%
 
 ---
-
 
 # 오케스트레이션된 캠페인 시작 {#orchestrated-camp}
 
@@ -21,7 +34,7 @@ ht-degree: 85%
 >title="오케스트레이션된 캠페인 개요"
 >abstract="<b>Campaign 오케스트레이션</b><br/>관계형 데이터 세트를 분할, 결합, 강화, 조작하여 대상자를 정의합니다<br/><br/> <b>다중 엔티티 데이터 활용</b><br/>오케스트레이션된 캠페인이 관계형 데이터 세트를 활용하여 세분화 및 개인화를 위한 데이터를 확장하는 방법 알아보기<br/><br/><b>애드혹 세분화 및 정확한 카운트</b><br/>정확한 카운트를 기반으로 단계별로 세그먼트 빌드<br/><br/><b>사용 가능한 채널</b><br/>이메일, SMS, 푸시 알림, 다이렉트 메일"
 
-[!DNL Adobe Journey Optimizer]의 Campaign Orchestration은 **마케팅** 및 **트랜잭션** 모두에서 채널 전반에서 정교한 브랜드 주도 캠페인을 지원합니다. 마케팅 캠페인은 규모에 맞게 참여, 매출 및 고객 충성도를 높이는 데 도움이 됩니다. 트랜잭션 메시지는 옵트인이 필요하지 않으며, 중단, 긴급 상황 또는 취소와 같이 시간에 민감한 커뮤니케이션에 적합합니다.
+[!DNL Adobe Journey Optimizer]의 캠페인 오케스트레이션은 **마케팅** 및 **트랜잭션**&#x200B;을 포함한 모든 채널에서 정교하고 브랜드 주도적인 캠페인을 지원합니다. 마케팅 캠페인은 참여도, 매출 및 고객 충성도를 대규모로 높이는 데 도움이 됩니다. 트랜잭션 메시지는 옵트인이 필요하지 않으며, 서비스 중단, 긴급 상황 또는 취소와 같이 시급한 커뮤니케이션에 적합합니다.
 
 >[!IMPORTANT]
 >
@@ -41,8 +54,8 @@ ht-degree: 85%
 <tr style="border: 0;">
 <td><img alt="온디맨드 대상자" src="assets/do-not-localize/icon-audience.svg" width="150px"></a></td><td><b>온디맨드 대상자</b><br/>데이터 세트 간 즉각적 쿼리를 통해 모든 데이터 형식과 차원의 조합을 자유롭게 사용하여 대상자 세그먼트를 만듭니다.</td></tr>
 <tr style="border: 0;">
-<td><img alt="다중 엔터티 세분화 및 전송" src="assets/do-not-localize/icon-entity.svg" width="150px"></a></td><td><b>다중 엔터티 세분화 및 전송</b><br/>개인 기반 캠페인을 넘어 제품 카탈로그, 스토어 위치 또는 서비스 데이터와 같은 엔터티를 사용하여 정밀하게 타기팅합니다.<br/><br/>
-프로필 및 연결된 보조 엔티티당 하나의 메시지가 전송되는 다중 레벨 전송을 지원합니다. 이 보조 엔터티에는 연락처, 예약, 구독, 계약 또는 기타 연결된 데이터를 포함할 수 있습니다. 예를 들어 이 기능으로 프로필의 알려진 모든 주소 또는 해당 프로필과 연결된 각 예약에 대해 캠페인을 전송할 수 있습니다.</td></tr>
+<td><img alt="다중 엔터티 세분화 및 전송" src="assets/do-not-localize/icon-entity.svg" width="150px"></a></td><td><b>다중 엔터티 세분화 및 전송</b><br/>개인 기반 캠페인을 넘어 제품 카탈로그, 매장 위치, 서비스 데이터 같은 엔터티를 사용하여 정밀하게 타기팅합니다.<br/><br/>
+프로필별 및 연결된 보조 엔티티별로 메시지를 전송하는 다단계 전송을 지원합니다. 이 보조 엔터티에는 연락처, 예약, 구독, 계약 또는 기타 연결된 데이터를 포함할 수 있습니다. 예를 들어 이 기능으로 프로필의 알려진 모든 주소 또는 해당 프로필과 연결된 각 예약에 대해 캠페인을 전송할 수 있습니다.</td></tr>
 <tr style="border: 0;">
 <td><img alt="사전 전송 가시성 및 정밀도" src="assets/do-not-localize/icon-visibility.svg" width="150px"></a></td><td><b>사전 전송 가시성 및 정밀도</b><br/>실행 전에 정확한 세분화 수와 전체 캠페인 범위를 가져와 정확성과 신뢰도를 보장합니다.</td></tr>
 <tr style="border: 0;">
@@ -81,13 +94,13 @@ ht-degree: 85%
 
 * **작업 테이블**: 작업 테이블에는 전환에 의해 전달되는 모든 정보가 포함됩니다. 오케스트레이션된 캠페인마다 여러 작업 테이블을 사용합니다. 이 테이블로 전달된 데이터는 오케스트레이션된 캠페인의 수명 주기 전체에서 사용할 수 있습니다.
 
-일반적인 시작 수준 오케스트레이션된 캠페인은 다음과 같은 패턴을 따릅니다. **대상 → 빌드 → Fork 채널 A + 채널 B**.
+일반적인 초급 수준의 오케스트레이션된 캠페인은 다음과 같은 패턴을 따릅니다. **대상자 작성 → 포크 → 채널 A+채널 B**.
 
-이 접근 방식을 사용하면 단일 캠페인 실행에 동일한 대상을 두 개의 병렬 분기로 타깃팅할 수 있습니다. 예를 들어, 한 분기는 마케팅 이메일을 사용하고 다른 분기는 트랜잭션 이메일을 사용합니다. 각 분기는 독립적이며 다른 채널 구성, 메시지 콘텐츠 또는 범주를 사용할 수 있습니다.
+이 접근 방식을 사용하면 단일 캠페인 실행에서 동일한 대상자를 두 개의 병렬 분기로 타기팅할 수 있습니다. 예를 들어, 한 분기에서는 마케팅 이메일을 사용하고 다른 분기에서는 트랜잭션 이메일을 사용하는 식입니다. 각 분기는 독립적이며 서로 다른 채널 구성, 메시지 콘텐츠 또는 카테고리를 사용할 수 있습니다.
 
-➡️ [포크 활동을 사용하는 방법에 대해 알아보기](activities/fork.md)
+➡️ [포크 활동을 사용하는 방법 알아보기](activities/fork.md)
 
-➡️ [마케팅 및 트랜잭션 메시지 이해](activities/channels.md#marketing-vs-transactional)
+➡️ [마케팅과 트랜잭션 메시지의 차이 이해](activities/channels.md#marketing-vs-transactional)
 
 ## 소개 비디오 {#video-oc}
 

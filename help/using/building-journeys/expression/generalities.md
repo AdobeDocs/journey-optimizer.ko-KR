@@ -9,9 +9,16 @@ level: Experienced
 keywords: 구문, 편집기, 여정
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+TQID: https://experienceleague.adobe.com/-PTYUf-njT3-LsI-A5IKEMDGOl4JecZ-ayM0rU4f2HI
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: 250
 ht-degree: 5%
 
 ---
@@ -37,7 +44,7 @@ ht-degree: 5%
 
 다른 대소문자 구분 규칙은 다음과 같습니다.
 
-* 모든 연산자(및, 또는 등)는 소문자로 작성해야 합니다. 예를 들어 _`<expression1>`및`<expression2>`_&#x200B;은(는) 올바른 식이지만 _`<expression1>`및`<expression2>`_ 식은 올바른 식이 아닙니다.
+* 모든 연산자(및, 또는 등) 소문자로 작성해야 합니다. 예를 들어 _`<expression1>`및`<expression2>`_&#x200B;은(는) 올바른 식이지만 _`<expression1>`및`<expression2>`_ 식은 올바른 식이 아닙니다.
 * 모든 함수 이름은 대소문자를 구분합니다. 예를 들어 _inAudience()_&#x200B;은(는) 유효하지만 _INAUDIENCE()_ 함수는 유효하지 않습니다.
 * 필드 참조 및 상수 값은 대소문자를 구분합니다. 연산자 및 함수와 달리 언어의 기본 제공 요소가 아니며, 최종 사용자가 작성합니다.
 
@@ -49,4 +56,4 @@ ht-degree: 5%
 |--- |--- |
 | 조건(데이터 소스 조건, 날짜 조건) | 부울 |
 | 사용자 지정 타이머 | dateTimeOnly |
-| 작업 매개 변수 매핑 | 모두 |
+| 작업 매개 변수 매핑 | Any |

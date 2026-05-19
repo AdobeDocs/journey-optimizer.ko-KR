@@ -9,10 +9,28 @@ role: Admin
 level: Experienced
 keywords: 설정, 이메일, 구성
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/WyaT1gRFAeGUCWn74PC3qyRpLn3hHMOniVbzifStsxA
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+  - id: fae48155-b23f-40d2-a252-a25bce350b4d
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1884'
-ht-degree: 98%
+source-wordcount: 1884
+ht-degree: 100%
 
 ---
 
@@ -87,7 +105,7 @@ ht-degree: 98%
 
      ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
-   * 메시지 콘텐츠에 원클릭 옵트아웃 링크를 추가하지 않고 채널 구성 설정에서 기본 **[!UICONTROL 원클릭 구독 취소 URL]**&#x200B;이 선택 해제되어 있는 경우, URL이 이메일 헤더에 목록 구독 취소 헤더의 일부로  포함되지 않습니다.
+   * 메시지 콘텐츠에 원클릭 옵트아웃 링크를 추가하지 않고 채널 구성 설정에서 기본 **[!UICONTROL 원클릭 구독 취소 URL]**&#x200B;이 선택 해제되어 있는 경우, URL이 이메일 헤더에 목록 구독 취소 헤더의 일부로 포함되지 않습니다.
 
   >[!NOTE]
   >
@@ -135,7 +153,7 @@ Adobe 외부에서 동의를 관리하는 경우 **[!UICONTROL 고객 관리]** 
 
 >[!NOTE]
 >
->URL에 추가되는 UTM 매개 변수의 순서는 임의적이며 제어할 수 없습니다. 시스템에 특정 순서로 매개 변수가 필요한 경우 구문 분석하고 측면에서 매개 변수를 재정렬해야 합니다.
+>URL에 추가되는 UTM 매개변수의 순서는 임의적이며 제어할 수 없습니다. 시스템에서 특정 순서의 매개변수가 필요한 경우, 직접 구문 분석하여 순서를 변경해야 합니다.
 
 ### 암호 해독 API 구성 {#configure-decrypt-api}
 
@@ -265,7 +283,7 @@ GET 호출은 다음과 같습니다.
 
    * 구문 분석된 값: *v1.xyz*
 
-API 예: https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&emailParamsBody=v1.xyz
+API 예: https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&amp;emailParamsBody=v1.xyz
 
 >[!CAUTION]
 >

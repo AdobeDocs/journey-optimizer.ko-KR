@@ -10,10 +10,26 @@ role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
 version: Journey Orchestration
-source-git-commit: 90b7d9bfe40e6d68e22a9f1aa8ef6d302a1035d9
+TQID: https://experienceleague.adobe.com/TMWU9R07fDaJpqQHKLt2yOFAdu8dlJhtqXIgv7e8oaU
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: a37e4ecd-c740-426a-addf-cb1b483c5c5a
+  - id: c132d929-fa62-4271-803e-b823be07b914
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2:
+  - id: d1823595-9241-4128-8a33-e4ac3bf08773
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 7%
+source-wordcount: 469
+ht-degree: 8%
 
 ---
 
@@ -21,7 +37,7 @@ ht-degree: 7%
 
 >[!IMPORTANT]
 >
->이 페이지에서는 기존 **의사 결정 관리** 기능에 대한 의사 결정 규칙을 다룹니다. 코드 기반 경험 및 전자 메일 채널을 통해 사용할 수 있는 **의 현재 의사 결정 기능인**&#x200B;의사 결정[!DNL Adobe Journey Optimizer]을 사용하는 경우 대신 [규칙 작성](../../experience-decisioning/rules.md)을 참조하세요.
+>이 페이지에서는 기존 **의사 결정 관리** 기능에 대한 의사 결정 규칙을 다룹니다. 코드 기반 경험 및 전자 메일 채널을 통해 사용할 수 있는 [!DNL Adobe Journey Optimizer]의 현재 의사 결정 기능인 **의사 결정**&#x200B;을 사용하는 경우 대신 [규칙 작성](../../experience-decisioning/rules.md)을 참조하세요.
 >
 >사용 중인 기능을 모르시겠습니까? [의사 결정에 대해 알아보기](../../experience-decisioning/gs-experience-decisioning.md).
 

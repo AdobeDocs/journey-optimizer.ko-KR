@@ -8,9 +8,16 @@ level: Experienced
 keywords: 전환, 함수, 표현식, 여정, 유형, 캐스트
 version: Journey Orchestration
 exl-id: f1267c9e-200c-43ae-8b98-3c5951a2f2d7
-source-git-commit: 57da5ea1cae21ed370b1cc58d953ba740b7ac2c6
+TQID: https://experienceleague.adobe.com/CoDxFCoJOwwmPHOG6pxMxmSASUbATkUoguBjNkrMKeQ
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: 1271
 ht-degree: 6%
 
 ---
@@ -52,7 +59,7 @@ ht-degree: 6%
 * **시간대는 문자열 상수여야 합니다** — `toDateTime`의 시간대 인수는 필드 참조나 동적 식일 수 없습니다. 항상 `"UTC"` 또는 `"Europe/Paris"`과(와) 같은 리터럴 문자열을 전달하십시오.
 * **문자열 입력에 필요한 ISO-8601 형식** — 문자열을 `toDateTime` 또는 `toDateTimeOnly`에 전달할 때 ISO-8601 형식(예: `"2023-08-18T23:17:59.123Z"`)을 따르는지 확인하십시오. 잘못된 형식의 문자열이 오류 없이 null을 반환합니다.
 * **Epoch 값이 밀리초 단위입니다** — `toDateTime(1560762190189)`에는 밀리초가 필요합니다. 소스에서 Unix 타임스탬프를 초 단위로 제공하는 경우 먼저 1000을 곱하십시오(예: `toDateTime(myField * 1000)`).
-* 예기치 않은 문자열이 있는 **toBool** — `toBool`은(는) 문자열 값이 정확히 `true`인 경우에만 `"true"`을(를) 반환합니다. 다른 문자열(`"1"`, `"yes"`, `"TRUE"` 포함)은 `false`을 반환합니다.
+* 예기치 않은 문자열이 있는 **toBool** — `toBool`은(는) 문자열 값이 정확히 `"true"`인 경우에만 `true`을(를) 반환합니다. 다른 문자열(`"1"`, `"yes"`, `"TRUE"` 포함)은 `false`을 반환합니다.
 
 ## toBool {#toBool}
 
@@ -167,7 +174,7 @@ dateOnly를 반환합니다.
 
 +++매개변수
 
-| 매개변수 | 설명 |
+| 매개 변수 | 설명 |
 |--- |--- |
 | 문자열 | ISO-8601 형식의 날짜 시간입니다. 시간대 정보가 있는 날짜/시간의 문자열 표현 |
 | 문자열 | 시간대 id입니다. 시간대 식별자(예: &quot;UTC&quot;, &quot;Europe/Paris&quot;) |
@@ -274,12 +281,12 @@ Unix 타임스탬프(밀리초)를 dateTime 값으로 변환합니다.
 
 +++매개변수
 
-| 매개변수 | 설명 |
+| 매개 변수 | 설명 |
 |--- |--- |
 | 문자열 | 문자열 값을 소수로 변환합니다. |
 | dateTime | 날짜를 밀리초 단위로 변환(에포크 밀리초) |
 | 부울 | true이면 부울 값을 1, false이면 부울 값으로 변환합니다. |
-| 정수 | 소수로 변환합니다(예: ).: 1이 1.0이 됨) |
+| 정수 | 소수로 변환(예: 1이 1.0이 됨) |
 
 +++
 
@@ -317,7 +324,7 @@ Unix 타임스탬프(밀리초)를 dateTime 값으로 변환합니다.
 
 +++매개변수
 
-| 매개변수 | 설명 |
+| 매개 변수 | 설명 |
 |--- |--- |
 | 문자열 | ISO-8601 기간 형식 PnDTnHnMn.nS를 기반으로 하는 형식이며, 일 수는 정확히 24시간으로 간주됩니다. |
 | 정수 | 시간(밀리초) |
@@ -366,7 +373,7 @@ Unix 타임스탬프(밀리초)를 dateTime 값으로 변환합니다.
 
 +++매개변수
 
-| 매개변수 | 설명 |
+| 매개 변수 | 설명 |
 |--- |--- |
 | 문자열 | 문자열 값을 정수로 변환합니다. |
 | dateTime | 날짜를 밀리초 단위로 변환(에포크 밀리초) |
@@ -411,7 +418,7 @@ Unix 타임스탬프(밀리초)를 dateTime 값으로 변환합니다.
 
 +++매개변수
 
-| 매개변수 | 설명 |
+| 매개 변수 | 설명 |
 |--- |--- |
 | dateTime | 날짜를 UTC 날짜 형식으로 변환 |
 | dateTimeOnly | 날짜를 UTC 날짜 형식으로 변환 |

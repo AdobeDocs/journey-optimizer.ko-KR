@@ -9,9 +9,22 @@ role: Developer
 level: Experienced
 keywords: 랜딩, 랜딩 페이지, javascript, 코드
 exl-id: 2a7ebead-5f09-4ea5-8f00-8b5625963290
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+TQID: https://experienceleague.adobe.com/h-F683Mfa0y21OXjFHlow5FHQA-EOgFanOyMP7R7jug
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b19d9237-76be-466d-a869-aacf2d72205f
+  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: 568
 ht-degree: 2%
 
 ---
@@ -24,13 +37,13 @@ ht-degree: 2%
 
 사용자 지정 JavaScript을 랜딩 페이지 콘텐츠에 삽입하려면 다음 중 하나를 수행할 수 있습니다.
 
-* 콘텐츠 만들기를 시작할 때 기존 HTML 콘텐츠를 가져온 다음 사용자 지정 JavaScript 코드가 포함된 파일을 선택합니다. 이 섹션[에서 &#x200B;](../email/existing-content.md) 콘텐츠를 가져오는 방법을 알아보세요.
+* 콘텐츠 만들기를 시작할 때 기존 HTML 콘텐츠를 가져온 다음 사용자 지정 JavaScript 코드가 포함된 파일을 선택합니다. 이 섹션[&#128279;](../email/existing-content.md)에서  콘텐츠를 가져오는 방법을 알아보세요.
 
 * 랜딩 페이지를 처음부터 디자인하거나 저장된 템플릿에서 디자인할 수 있습니다. **[!UICONTROL HTML]** 콘텐츠 구성 요소를 캔버스로 드래그 앤 드롭하고 소스 코드를 표시하여 JavaScript을 구성 요소에 추가하십시오. [이 섹션](../email/content-components.md#HTML)에서 HTML 구성 요소를 사용하는 방법을 알아봅니다. <!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
 
   ![](assets/lp_designer-html-component.png)
 
-* 콘텐츠 디자이너에 바로 JavaScript 코드를 입력하거나 붙여 넣습니다. 이 섹션[에서 자신의 콘텐츠 &#x200B;](../email/code-content.md)을(를) 코딩하는 방법을 알아보세요.
+* 콘텐츠 디자이너에 바로 JavaScript 코드를 입력하거나 붙여 넣습니다. 이 섹션[&#128279;](../email/code-content.md)에서 자신의 콘텐츠 을(를) 코딩하는 방법을 알아보세요.
 
 >[!NOTE]
 >
@@ -94,7 +107,7 @@ lpRuntime.hooks.addBeforeSubmitHook(function(){
 | submitForm | 이 메서드는 양식을 제출하고 사후 제출 플로우를 처리합니다. |
 | 양식 전송 | 이 메서드는 양식도 제출하지만 이후 제출 흐름은 건너뜁니다. 예를 들어 제출 성공 페이지로의 리디렉션을 구성한 경우 부분 양식 제출의 경우 해당 리디렉션이 발생하지 않습니다. |
 
-**예:**
+**예**
 
 ```
 //LpRuntime methods

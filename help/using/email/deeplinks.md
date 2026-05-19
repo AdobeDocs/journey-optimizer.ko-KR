@@ -1,39 +1,66 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 이메일 메시지에서 딥링크 사용
-description: 이메일 콘텐츠에 딥링크를 추가하는 방법과 iOS 및 Android 앱에서 딥링크 처리를 구현하는 방법을 알아봅니다.
-feature: Email
+title: 이메일 및 SMS 메시지에서 딥링크 사용 및 구성
+description: 이메일 및 SMS 콘텐츠에 딥링크를 추가하는 방법과 iOS 및 Android 앱에서 딥링크 처리를 구현하는 방법을 알아봅니다.
+feature: Email, SMS
 topic: Content Management
 role: User, Developer
 level: Intermediate
-keywords: 딥링크, 딥링크, 범용 링크, 앱 링크, 이메일
-source-git-commit: 8efe5aaf0ebf24aa61decf40651c2ecc198ab0bc
+keywords: 딥링크, 딥링크, 범용 링크, 앱 링크, 이메일, sms
+source-git-commit: 3d3218e24074ffb8ec36f1ec14ff8a6c45950d90
 workflow-type: tm+mt
-source-wordcount: '1182'
+source-wordcount: '1277'
 ht-degree: 1%
 
 ---
 
 
-# 이메일에서 딥 링크 구성 {#email-deeplinks}
+# 이메일 및 SMS에서 딥 링크 사용 및 구성 {#deeplinks}
 
-이메일의 딥 링크를 사용하면 이메일의 수신자를 모바일 앱의 특정 화면이나 콘텐츠로 안내할 수 있습니다. 웹 브라우저나 앱스토어를 통해 라우팅하지 않고도 의도한 인앱 여정으로 바로 이동할 수 있으므로 사용자가 브랜드에 맞게 적절한 작업을 수행할 수 있습니다.
+딥 링크를 사용하면 이메일 또는 SMS 메시지에서 수신자를 모바일 앱의 특정 화면이나 콘텐츠로 안내할 수 있습니다. 웹 브라우저나 앱스토어를 통해 라우팅하지 않고도 의도한 인앱 여정으로 바로 이동할 수 있으므로 사용자가 브랜드에 맞게 적절한 작업을 수행할 수 있습니다.
 
-전자 메일에 딥 링크를 추가하려면 [링크 추적이 활성화되어 있는지](message-tracking.md#enable-tracking)하세요. 이메일 Designer에서 연결할 요소(텍스트, 단추 또는 이미지)를 선택하고 상황별 도구 모음에서 **[!UICONTROL 링크 삽입]**&#x200B;을 클릭한 다음 **[!UICONTROL 딥링크]**&#x200B;를 선택하여 딥링크 URL을 입력합니다. [링크 삽입에 대한 자세한 정보](message-tracking.md#insert-links)
+수신자가 딥링크를 클릭하면 의도한 인앱 콘텐츠로 바로 이동합니다. **완료한 경우**:
 
-수신자가 딥 링크를 클릭하면 의도한 인앱 콘텐츠로 바로 이동합니다. **구성 단계를 완료한 경우** 이 페이지에 자세히 설명되어 있으며 다음이 해당됩니다.
+* Journey Optimizer의 [구성 단계](#configuration);
 
-* Journey Optimizer에서 이메일에 대한 딥 링크를 구성하는 방법
-* 모바일 앱에서 iOS 및 Android에 대한 딥링크 처리를 구현하는 방법
+* 모바일 앱에서 iOS 및 Android에 대한 [모바일 앱 구현](#mobile-implementation) 단계입니다.
 
 >[!NOTE]
 >
 >[!DNL Adobe Journey Optimizer]에서는 호환성과 클릭 추적을 보장하기 위해 추적된 URL(`/ee/v1/mclick/*`)을 사용하여 iOS과 Android 모두에 대한 딥링크를 지원합니다.
 
+## 딥링크 작성 {#authoring}
+
+### 이메일 {#authoring-email}
+
+이메일 메시지의 경우 딥 링크를 삽입하는 두 가지 옵션이 있습니다.
+
+* **전자 메일 Designer**: [링크 추적이 활성화되어 있는지 확인](message-tracking.md#enable-tracking). 연결할 요소(텍스트, 단추 또는 이미지)를 선택하고 상황별 도구 모음에서 **[!UICONTROL 링크 삽입]**&#x200B;을 클릭한 다음 **[!UICONTROL 딥링크]**&#x200B;를 선택하여 딥링크 URL을 입력합니다. [링크 삽입에 대한 자세한 정보](message-tracking.md#insert-links)
+
+* **Personalization 편집기(코드)**: 다음 코드 조각을 사용하여 HTML에 바로 딥링크를 삽입합니다.
+
+  ```html
+  <a class="arc-link" data-nl-type="DEEPLINK" href="<<deeplink_url>>" id="acr-link-7821368" style="text-decoration:underline;" target="_blank" data-tracking-type="DEEPLINK">Click Here</a>
+  ```
+
+  `<<deeplink_url>>`을(를) 실제 딥링크 URL로 바꾸고 각 블록에 대해 고유한 `id`을(를) 사용하여 충돌을 방지하십시오.
+
+### SMS {#authoring-sms}
+
+SMS의 경우, 딥링크는 개인화 편집기에서 **Url** 도우미 함수를 사용하여 작성됩니다. [이 섹션](../sms/create-sms.md#sms-content)에서 SMS 콘텐츠에 링크를 추가하는 방법에 대해 자세히 알아보세요.
+
+SMS 콘텐츠에 딥링크를 삽입하려면 다음 구문을 사용합니다.
+
+```
+{{url originalUrl='<<url>>' type='DEEPLINK' action='CLICK'}}
+```
+
+`<<url>>`을(를) 실제 딥링크 URL로 바꾸십시오.
+
 ## Journey Optimizer의 구성 {#configuration}
 
-모바일 앱용 이메일에서 딥 링크를 사용하려면 아래 구성 단계를 완료하십시오.
+모바일 앱용 이메일 및 SMS에서 딥 링크를 사용하려면 아래 구성 단계를 완료하십시오.
 
 >[!NOTE]
 >
@@ -53,7 +80,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Adobe 이메일 인프라를 통한 딥링크는 [링크 추적을 사용하도록 설정](message-tracking.md#enable-tracking)할 때 적용됩니다. 추적된 딥링크 클릭은 Adobe에서 호스팅 및 확인하는 `/ee/v1/mclick/*`의 URL을 사용합니다.
+>Adobe 인프라를 통한 딥링크는 SMS 캠페인에 대한 [전자 메일 추적 설정](message-tracking.md#enable-tracking) 또는 **[!UICONTROL 작업 추적]** 섹션에서 메시지에 대해 링크 추적이 활성화되면 적용됩니다. 추적된 딥링크 클릭은 Adobe에서 호스팅 및 확인하는 `/ee/v1/mclick/*`의 URL을 사용합니다.
 >
 >**추적되지 않는** 링크의 경우 Adobe 시스템을 통해 URL이 다시 작성되지 않습니다. 범용 링크 또는 앱 링크를 자체 도메인 및 호스팅에 구성하여 해당 링크가 의도한 대로 앱을 열도록 해야 합니다.
 
@@ -64,7 +91,7 @@ ht-degree: 1%
 * 앱이 설치되면 모바일 앱 내의 특정 화면을 엽니다. 또는
 * 앱이 설치되지 않은 경우 웹 사이트를 대체 항목으로 엽니다.
 
-메시지에 대해 [링크 추적이 활성화됨](message-tracking.md#enable-tracking)인 경우 [!DNL Journey Optimizer]은(는) 이러한 클릭을 계속 추적하여 보고에 포함시키며, 메시지에서 실행하는 경우 [콘텐츠 실험](../content-management/content-experiment.md)에서 사용할 수 있습니다.
+메시지에 대해 링크 추적이 활성화되면 [!DNL Journey Optimizer]은(는) 이러한 클릭을 계속 추적하여 보고에 포함시키며, 메시지에서 실행하는 경우 [콘텐츠 실험](../content-management/content-experiment.md)에서 사용할 수 있습니다.
 
 이 섹션에서는 딥링크에 대한 일반적인 구현 패턴을 제공합니다. 정확한 설정은 앱 아키텍처 및 라우팅 프레임워크에 따라 다릅니다.
 
@@ -278,7 +305,7 @@ URL 인코딩 쿼리 매개 변수 값입니다. 이렇게 하면 게재 및 렌
 
 * 딥 링크를 사용하여 증명을 만든 후 iOS 및 Android 장치(설치 및 설치되지 않은 시나리오)에서 클릭합니다.
 * 유효성 검사:
-   * 최종 이메일 링크 값(호스트/경로/쿼리)
+   * 최종 이메일 또는 SMS 링크 값(호스트/경로/쿼리)
    * OS 수준 연결(범용 링크/앱 링크를 사용하는 경우)
    * 인앱 라우팅 결과
 
@@ -307,4 +334,3 @@ URL 인코딩 쿼리 매개 변수 값입니다. 이렇게 하면 게재 및 렌
 링크는 이 페이지에 설명된 `mclick` 흐름을 통해 앱 딥링크로 처리되지 않고, 장치의 기본 웹 브라우저(표준 클릭 추적 동작)에서 열립니다.
 
 +++
-

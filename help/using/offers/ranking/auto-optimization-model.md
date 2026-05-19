@@ -9,9 +9,20 @@ role: User
 level: Experienced
 exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+TQID: https://experienceleague.adobe.com/DZ2NFuxDJRdZFLESrEwe-lfnt14vO93xxA-1U0zokPQ
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: 1561
 ht-degree: 1%
 
 ---
@@ -49,17 +60,17 @@ ht-degree: 1%
 
 * **톰슨 샘플링**: 톰슨 샘플링은 즉각적인 성과를 최대화하는 것으로 알려진 것을 이용하는 것과 미래 성과를 향상시킬 수 있는 새로운 정보를 축적하는 투자 사이에서 균형을 이루어야 하는 방식으로 작업을 순차적으로 수행하는 온라인 의사 결정 문제에 대한 알고리즘입니다. [자세히 알아보기](#thompson-sampling)
 
-* [**Beta 배포**](https://en.wikipedia.org/wiki/Beta_distribution){target="_blank"}: 두 개의 양수 [모양 매개 변수](https://en.wikipedia.org/wiki/Probability_distribution){target="_blank"}에 의해 [0, 1] [매개 변수화된](https://en.wikipedia.org/wiki/Statistical_parameter){target="_blank"} 간격에 정의된 연속 [확률 배포](https://en.wikipedia.org/wiki/Shape_parameter){target="_blank"} 집합입니다.
+* [**Beta 배포**](https://en.wikipedia.org/wiki/Beta_distribution){target="_blank"}: 두 개의 양수 [모양 매개 변수](https://en.wikipedia.org/wiki/Shape_parameter){target="_blank"}에 의해 [0, 1] [매개 변수화된](https://en.wikipedia.org/wiki/Statistical_parameter){target="_blank"} 간격에 정의된 연속 [확률 배포](https://en.wikipedia.org/wiki/Probability_distribution){target="_blank"} 집합입니다.
 
-## 톰슨 샘플링 {#thompson-sampling}
+## Thompson 샘플링 {#thompson-sampling}
 
 자동 최적화의 기반이 되는 알고리즘은 **Thompson 샘플링**&#x200B;입니다. 이 절에서는 Thompson 표본추출의 직관에 대해 논의한다.
 
-[Thompson 샘플링](https://en.wikipedia.org/wiki/Thompson_sampling){target="_blank"} 또는 베이지안 산적들은 다발 산적 문제에 대한 베이지안 접근법입니다.  기본 아이디어는 각 오퍼의 평균 보상 𝛍을(를) **무작위 변수**(으)로 취급하고 지금까지 수집한 데이터를 사용하여 평균 보상에 대한 &quot;믿음&quot;을 업데이트하는 것입니다. 이 &quot;믿음&quot;은 수학적으로 **사후 확률 분포**(기본적으로 각 오퍼에 대해 보상에 해당 값이 있다는 가능성(또는 확률)과 함께 평균 보상에 대한 값의 범위)로 표시됩니다. 그런 다음 모든 결정에 대해 **이러한 사후 보상 분포에서 한 지점을 샘플링하고** 샘플링된 보상이 가장 높은 값을 가진 오퍼를 선택합니다.
+[Thompson 샘플링](https://en.wikipedia.org/wiki/Thompson_sampling){target="_blank"} 또는 베이지안 산적들은 다발 산적 문제에 대한 베이지안 접근법입니다.  기본 아이디어는 각 오퍼의 평균 보상 𝛍을(를) **무작위 변수**(으)로 취급하고 지금까지 수집한 데이터를 사용하여 평균 보상에 대한 &quot;믿음&quot;을 업데이트하는 것입니다. 이 &quot;믿음&quot;은 수학적으로 **사후 확률 분포**(기본적으로 각 오퍼에 대해 보상에 해당 값이 있다는 가능성(또는 확률)과 함께 평균 보상에 대한 값의 범위)로 표시됩니다. 그런 다음 모든 의사 결정에 대해 **이러한 사후 보상 분포의 한 지점을 샘플링하고** 샘플링된 보상이 가장 높은 값을 가진 오퍼를 선택합니다.
 
 이 프로세스는 아래 그림과 같으며, 여기서는 3개의 오퍼가 있습니다. 처음에 우리는 자료로부터 아무런 증거도 가지고 있지 않으며, 우리는 모든 제안들이 균일한 사후 보상 분포를 가지고 있다고 가정한다. 우리는 각 오퍼의 사후 보상 분포에서 샘플을 도출한다. 오퍼 2의 배포에서 선택한 샘플의 값이 가장 높습니다. **탐색**&#x200B;의 예입니다. 오퍼 2를 표시한 후 잠재적 보상(예: 전환/전환 없음)을 수집하고 아래 설명된 대로 베이즈 정리를 사용하여 오퍼 2의 사후 분포를 업데이트합니다.  이 프로세스를 계속 진행하고 오퍼가 표시되고 보상이 수집될 때마다 사후 분포를 업데이트합니다. 두 번째 그림에서는 오퍼 3이 선택되었습니다. 오퍼 1이 가장 높은 평균 보상(사후 보상 분포는 오른쪽으로 가장 멀리 있음)을 제공함에도 불구하고 각 분포에서 샘플링하는 프로세스는 명백히 최적이 아닌 오퍼 3을 선택하게 만들었습니다. 이를 통해 Offer 3의 진정한 보상 분배에 대해 자세히 알아볼 수 있는 기회를 제공합니다.
 
-더 많은 표본이 수집될수록 신뢰도는 증가하고, 가능한 보상에 대한 보다 정확한 추정치가 얻어진다(더 좁은 보상 분포에 해당함). 더 많은 증거를 사용할 수 있을 때 신념을 업데이트하는 이러한 과정을 **베이지안 추론**&#x200B;이라고 합니다.
+더 많은 표본이 수집되면 신뢰도가 높아지고 가능한 보상에 대한 보다 정확한 추정치가 얻어집니다(더 좁은 보상 분포에 해당). 더 많은 증거가 확보될 때 신념을 업데이트하는 이 프로세스는 **베이지안 추론**&#x200B;으로 알려져 있습니다.
 
 결국, 하나의 오퍼(예를 들어, 오퍼 1)가 명백한 승자일 경우, 그 사후 보상 분포는 다른 오퍼들과 분리될 것이다. 이 시점에서 각 결정에 대해 오퍼 1에서 표본으로 추출된 보상이 가장 높을 가능성이 있으며, 우리는 더 높은 확률로 선택할 것이다. 이것은 **착취**&#x200B;입니다. 오퍼 1이 가장 우수하다는 강력한 믿음을 가지고 있으므로 보상을 극대화하기 위해 선택됩니다.
 
@@ -75,7 +86,7 @@ ht-degree: 1%
 
 +++**기술 세부 정보**
 
-분포를 계산/업데이트하려면 **베이즈 정리**&#x200B;를 사용합니다. 각 오퍼 ***i***&#x200B;에 대해 ***P(𝛍i)를 계산합니다 | data)***(예: 각 오퍼 ***i***&#x200B;에 대해, 해당 오퍼에 대해 지금까지 수집한 데이터를 고려할 때 보상 값 **𝛍i**&#x200B;이(가) 제공될 가능성이 얼마나 됩니까?
+분포를 계산/업데이트하려면 **베이즈 정리**&#x200B;를 사용합니다. 각 오퍼 ***i***&#x200B;에 대해 ***P(𝛍i)를 계산합니다 | data)***(예: 각 오퍼 ***i***에 대해, 해당 오퍼에 대해 지금까지 수집한 데이터를 고려할 때 보상 값&#x200B;**𝛍 i**&#x200B;이(가) 제공될 가능성이 얼마나 됩니까?
 
 베이즈 정리에서:
 
@@ -83,11 +94,11 @@ ht-degree: 1%
 
 **이전 확률**&#x200B;은(는) 출력을 생성할 가능성에 대한 초기 추측입니다. 일부 증거가 수집된 후의 확률을 **사후 확률**&#x200B;이라고 합니다. 
 
-자동 최적화는 이진 보상(클릭/클릭 안 함)을 고려하도록 설계되었습니다. 이 경우 가능성은 N번의 시도에서 성공한 횟수이며 **이항 분포**&#x200B;로 모델링됩니다. 어떤 우도 함수의 경우, 어떤 전조를 선택하면, 후위는 전차와 같은 분포에 있게 된다. 그런 다음 이러한 전이를 **conjugate prior**&#x200B;이라고 합니다. 이러한 종류의 선행은 사후분포의 계산을 매우 간단하게 만든다. **Beta 분포**&#x200B;은(는) 이항 가능성(이진 보상) 이전의 결합체이므로 이전 및 이후 확률 분포에 편리하고 합리적인 선택입니다. Beta 분포에는 두 개의 매개 변수인 ***α***&#x200B;과(와) ***β***&#x200B;이(가) 사용됩니다. 이러한 매개 변수는 성공 및 실패 횟수와 다음에 의해 주어진 평균 값으로 생각할 수 있습니다.
+자동 최적화는 이진 보상(클릭/클릭 안 함)을 고려하도록 설계되었습니다. 이 경우 가능성은 N번의 시도에서 성공한 횟수이며 **이항 분포**&#x200B;로 모델링됩니다. 어떤 우도 함수의 경우, 어떤 전조를 선택하면, 후위는 전차와 같은 분포에 있게 된다. 그런 다음 이러한 전이를 **conjugate prior**&#x200B;이라고 합니다. 이러한 종류의 선행은 사후분포의 계산을 매우 간단하게 만든다. **Beta 분포**&#x200B;는 이항 가능성(이진 보상) 이전의 일치이므로 이전 및 이후 확률 분포에 편리하고 합리적인 선택입니다.Beta 배포에는 두 개의 매개 변수인 ***α***&#x200B;과(와) ***β***&#x200B;이(가) 사용됩니다. 이러한 매개 변수는 성공 및 실패 횟수와 다음에 의해 지정된 평균값으로 간주할 수 있습니다.
 
 ![](../assets/ai-ranking-beta-distribution.png)
 
-위에서 설명한 것과 같은 Likelihood 함수는 성공(전환) 및 f 실패(전환 없음)가 있는 이항 분포로 모델링되며, q는 [베타 분포](https://en.wikipedia.org/wiki/Random_variable){target="_blank"}가 있는 [무작위 변수](https://en.wikipedia.org/wiki/Beta_distribution){target="_blank"}입니다.
+위에서 설명한 것과 같은 Likelihood 함수는 성공(전환) 및 f 실패(전환 없음)가 있는 이항 분포로 모델링되며, q는 [베타 분포](https://en.wikipedia.org/wiki/Beta_distribution){target="_blank"}가 있는 [무작위 변수](https://en.wikipedia.org/wiki/Random_variable){target="_blank"}입니다.
 
 이전 차원은 Beta 분포로 모델링되고 이후 분포는 다음 형식을 취합니다.
 
@@ -102,8 +113,8 @@ ht-degree: 1%
 
 Thompson 샘플링에 대한 자세한 내용은 다음 연구 논문을 참조하십시오.
 
-* [Thompson 샘플링의 경험적 평가](https://proceedings.neurips.cc/paper/2011/file/e53a0a2978c28872a4505bdb51db06dc-Paper.pdf){target="_blank"}
-* [Multi-armed Bandit 문제에 대한 Thompson 샘플링 분석](https://proceedings.mlr.press/v23/agrawal12/agrawal12.pdf){target="_blank"}
+* [톰슨 표본추출에 관한 실증적 평가](https://proceedings.neurips.cc/paper/2011/file/e53a0a2978c28872a4505bdb51db06dc-Paper.pdf){target="_blank"}
+* [Multi-armed Bandit 문제에 대한 Thompson 표본 분석](https://proceedings.mlr.press/v23/agrawal12/agrawal12.pdf){target="_blank"}
 
 ## 냉시동 문제 {#cold-start}
 

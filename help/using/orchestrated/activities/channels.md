@@ -5,13 +5,26 @@ title: 여러 단계로 구성된 캠페인에 채널 활동 추가
 description: 여러 단계로 구성된 캠페인에 채널 활동을 추가하는 방법 알아보기
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/ouwufvPEUXGewSP5TvsfI0qPxpVqaqso3me4qEc2WQM
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: a653cc2e-bc85-4353-a306-399e5b247978
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1803'
-ht-degree: 40%
+source-wordcount: 1803
+ht-degree: 41%
 
 ---
-
 
 # 채널 활동 {#channel}
 
@@ -83,7 +96,7 @@ UNUSED IDs in BJ
 
    ![사용 가능한 활동이 있는 캔버스를 보여 주는 이미지](../assets/channel-add.png)
 
-1. 오른쪽 레일에서 **[!UICONTROL 카테고리]** 필드를 사용하여 이 메시지에 대해 **[!UICONTROL 마케팅]** 또는 **[!UICONTROL 트랜잭션]**&#x200B;을(를) 선택하십시오. 트랜잭션 메시지는 옵트인이 필요하지 않으며, 중단, 긴급 상황 또는 취소와 같이 시간에 민감한 커뮤니케이션에 적합합니다.
+1. 오른쪽 레일에서 **[!UICONTROL 카테고리]** 필드를 사용하여 이 메시지에 대해 **[!UICONTROL 마케팅]** 또는 **[!UICONTROL 트랜잭션]**&#x200B;을(를) 선택하십시오. 트랜잭션 메시지는 옵트인이 필요하지 않으며, 서비스 중단, 긴급 상황 또는 취소와 같이 시급한 커뮤니케이션에 적합합니다.
 
 1. 선택한 채널에 따라 활동을 선택하고 **[!UICONTROL 전자 메일 편집]**, **[!UICONTROL SMS 편집]**, **[!UICONTROL 푸시 편집]** 또는 **[!UICONTROL DM 편집]**&#x200B;을 클릭합니다.
 

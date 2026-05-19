@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: c5ecc28ec44a9c608f4fe5011e061cad62d92e2b
+source-git-commit: 258d22c6b95db138e927d96f04215c0623e53913
 workflow-type: tm+mt
-source-wordcount: '7709'
-ht-degree: 93%
+source-wordcount: '7777'
+ht-degree: 92%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 93%
 이 페이지에는 월별 릴리스 기능 및 개선 사항과 관련된 업데이트 외에도 [!DNL Journey Optimizer] 설명서의 모든 최신 변경 사항이 나와 있습니다.
 
 ## 2026년 5월 {#may-2026}
+
+* **딥링크** 설명서가 이메일에 사용할 수 있는 두 옵션(이메일 Designer UI 및 Personalization 편집기 코드)과 SMS의 URL 함수 구문을 자세히 설명하는 새로운 **딥링크 작성** 섹션으로 확장되었습니다. 이제 **SMS 메시지 만들기** 페이지에 콘텐츠 작성 흐름의 딥 링크 단계가 포함됩니다. [자세히 보기](../email/deeplinks.md)
+
+* **Url** 도우미 참조가 Personalization 설명서의 전용 섹션으로 업데이트되었습니다. [자세히 보기](../personalization/functions/helpers.md#url)
 
 * Journey Optimizer의 가장 일반적인 사용 사례에 즉시 사용할 수 있는 개인화 패턴을 제공하는 새로운 **Personalization 레서피** 페이지가 추가되었습니다. 날짜 및 시간 레서피(현재 날짜 형식 지정, 만료 카운트다운, 이전 일 계산, 시간 전용 표시 및 주말 대 평일 감지), 문자열 레서피(변수 할당으로 `replaceAll` 사용) 및 조건부 대체 레서피(`isEmpty`을(를) 사용한 빈 필드 폴백)를 다룹니다. [자세히 보기](../personalization/personalization-recipes.md)
 

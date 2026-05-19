@@ -9,9 +9,20 @@ level: Experienced
 keywords: 여정, 필드, 표현식, 이벤트
 exl-id: 2348646a-b205-4b50-a08f-6625e92f44d7
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+TQID: https://experienceleague.adobe.com/G8ooc1R2PwL06V89EBs-jH8Lf43F6q5xj3I4Wl6hDHk
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: 557
 ht-degree: 2%
 
 ---
@@ -24,9 +35,9 @@ ht-degree: 2%
 
 * 필드는 숫자로 시작합니다.
 * 필드는 &quot;-&quot; 문자로 시작합니다.
-* 필드에 _a_-_z_, _A_-_Z_, _0_-_9_, _ , _-_ 이외의 항목이 포함되어 있습니다.
+* 필드에 _a_-_z_, _A_-_Z_, _0_-_9_, _,_-_ 이외의 항목이 포함되어 있습니다.
 
-예를들어 필드가 _3h_&#x200B;인 경우 _#{OpenWeather.weatherData.rain&#39;.3h&#39;} > 0_
+예를 들어 필드가 _3h_&#x200B;인 경우: _#{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0_
 
 ```json
 // event field
@@ -59,7 +70,7 @@ ht-degree: 2%
 >
 >필드 유형과 기본값은 동일해야 합니다. 예를 들어 `@event{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2}`은(는) 기본값이 정수이지만 예상 값은 문자열이어야 하므로 잘못되었습니다.
 
-예:
+예
 
 ```json
 // for an event 'OrderEvent' having the following payload:

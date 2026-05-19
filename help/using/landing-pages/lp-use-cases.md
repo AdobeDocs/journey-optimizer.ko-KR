@@ -9,10 +9,29 @@ role: User
 level: Intermediate
 keywords: 랜딩, 랜딩 페이지, 사용 사례
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+TQID: https://experienceleague.adobe.com/2NYDW7eFKVVHVzD-GFZkylilJp6AvzEm0r2Conlecss
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b19d9237-76be-466d-a869-aacf2d72205f
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1184'
-ht-degree: 10%
+source-wordcount: 1238
+ht-degree: 12%
 
 ---
 
@@ -64,7 +83,7 @@ ht-degree: 10%
 
    >[!NOTE]
    >
-   >메시지를 보내려면 선택한 랜딩 페이지가 아직 만료되지 않았는지 확인하십시오. 이 섹션[에서 만료 날짜 &#x200B;](create-lp.md#configure-primary-page)을(를) 업데이트하는 방법을 알아보세요.
+   >메시지를 보내려면 선택한 랜딩 페이지가 아직 만료되지 않았는지 확인하십시오. 이 섹션[&#128279;](create-lp.md#configure-primary-page)에서 만료 날짜 을(를) 업데이트하는 방법을 알아보세요.
 
    이메일을 수신하면 수신자가 랜딩 페이지 링크를 클릭하면 &#39;감사&#39; 페이지로 이동하며 구독 목록에 추가됩니다.
 
@@ -141,7 +160,7 @@ ht-degree: 10%
 
    >[!NOTE]
    >
-   >메시지를 보내려면 선택한 랜딩 페이지가 아직 만료되지 않았는지 확인하십시오. 이 섹션[에서 만료 날짜 &#x200B;](create-lp.md#configure-primary-page)을(를) 업데이트하는 방법을 알아보세요.
+   >메시지를 보내려면 선택한 랜딩 페이지가 아직 만료되지 않았는지 확인하십시오. 이 섹션[&#128279;](create-lp.md#configure-primary-page)에서 만료 날짜 을(를) 업데이트하는 방법을 알아보세요.
 
 1. 여정을 게시하고 실행합니다. [자세히 알아보기](../building-journeys/journey.md).
 
@@ -196,7 +215,7 @@ You can also enable your recipients to unsubscribe whithout using landing pages.
 
 랜딩 페이지에 제출된 정보를 사용하여 추가 작업을 수행할 수 있습니다. 예를 들어 사용자가 지정된 구독 목록에 가입하면 해당 정보를 활용하여 다른 구독 목록을 추천하는 이메일을 해당 사용자에게 보낼 수 있습니다.
 
-이렇게 하려면 제출 정보가 포함된 [AJO 전자 메일 추적 경험 이벤트 스키마](../event/about-creating.md)를 기반으로 **[!UICONTROL 규칙 기반 단일 이벤트]**&#x200B;를 만들고 [여정에서 이 이벤트를 사용](../building-journeys/general-events.md)해야 합니다.
+이렇게 하려면 제출 정보가 포함된 **[!UICONTROL AJO 전자 메일 추적 경험 이벤트 스키마]**&#x200B;를 기반으로 [규칙 기반 단일 이벤트](../event/about-creating.md)를 만들고 [여정에서 이 이벤트를 사용](../building-journeys/general-events.md)해야 합니다.
 
 >[!NOTE]
 >

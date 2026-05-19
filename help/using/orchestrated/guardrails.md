@@ -5,13 +5,24 @@ title: 조정된 캠페인 보호 및 제한 사항
 description: 오케스트레이션된 캠페인 보호 및 제한 사항에 대해 알아봅니다
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/ViPJaOPo-AT-naQqq-PaPw-BI5YupYuYAEy56AUEp2A
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+topic_v2:
+  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 1%
+source-wordcount: 534
+ht-degree: 3%
 
 ---
-
 
 # 가드레일 및 제한 사항 {#guardrails}
 
@@ -29,7 +40,7 @@ ht-degree: 1%
 
 * 관계형 데이터는 수집, 데이터 모델링 및 세그먼테이션 사용 사례에 대해 지원되는 기본 모델입니다.
 
-* 타깃팅에 사용되는 스키마에는 정의된 ID 네임스페이스에 매핑된 **유형의 ID 필드가`String`**&#x200B;개 이상 있어야 합니다.
+* 타깃팅에 사용되는 스키마에는 정의된 ID 네임스페이스에 매핑된 `String`**유형의 ID 필드가**&#x200B;개 이상 있어야 합니다.
 
 * 관리 용이성과 성능을 유지하려면 스키마 **당 평균 특성 수가 50개 열**&#x200B;을(를) 초과할 수 없습니다.
 
@@ -41,7 +52,7 @@ ht-degree: 1%
 
 * 모든 수집은 **데이터 캡처 변경** 원본을 통해 수행되어야 합니다.
 
-   * **파일 기반**&#x200B;의 경우 `_change_request_type` 필드가 필요합니다. 지원되는 값은 `u`(업데이트) 또는 `d`(삭제)입니다. 이 값은 대문자 `u` 및 `d`이(가) 아닌 소문자 `U` 및 `D`이어야 합니다.
+   * **파일 기반**&#x200B;의 경우 `_change_request_type` 필드가 필요합니다. 지원되는 값은 `u`(업데이트) 또는 `d`(삭제)입니다. 이 값은 대문자 `U` 및 `D`이(가) 아닌 소문자 `u` 및 `d`(으)로 입력해야 합니다.
 
    * **클라우드 기반**&#x200B;의 경우: 테이블 로깅을 사용하도록 설정해야 합니다.
 

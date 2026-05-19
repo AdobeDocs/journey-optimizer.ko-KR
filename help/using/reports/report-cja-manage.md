@@ -8,9 +8,26 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+TQID: https://experienceleague.adobe.com/xxARWBrCc61gvHReQfoliwB378PrDbsxM8ONSHrg9a4
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2:
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1327'
+source-wordcount: 1441
 ht-degree: 2%
 
 ---
@@ -25,11 +42,11 @@ ht-degree: 2%
 
 ![](assets/cja-analyze.png)
 
-모든 보고서에서 사용할 수 있는 **[!DNL Customer Journey Analytics]** CJA에서 분석&#x200B;**[!UICONTROL 기능을 활용하여]** 라이선스로 데이터 분석 환경을 향상시킵니다.
+모든 보고서에서 사용할 수 있는 **[!UICONTROL CJA에서 분석]** 기능을 활용하여 **[!DNL Customer Journey Analytics]** 라이선스로 데이터 분석 환경을 향상시킵니다.
 
 이 강력한 옵션을 사용하면 **[!DNL Customer Journey Analytics]** 환경으로 원활하게 리디렉션되어 보고서를 광범위하게 개인화할 수 있습니다. 전문 Customer Journey Analytics 지표로 위젯을 보강하여 통찰력을 완전히 새로운 수준으로 끌어올릴 수 있습니다.
 
-[Customer Journey Analytics 인터페이스에 대해 자세히 알아보세요.](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-getting-started)
+[Customer Journey Analytics 인터페이스에 대해 자세히 알아보십시오.](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-getting-started)
 
 ## 보고서 기간 정의 {#report-period}
 
@@ -247,7 +264,7 @@ d. Open the report for the journey that you added the metric to and ensure that 
 
    >[!IMPORTANT]
    >
-   > **사용 사례**&#x200B;에서 **[!UICONTROL Journey Optimizer]**&#x200B;을(를) 선택하고 해당 **Journey Optimizer 활동 유형** 및 **활동**&#x200B;을(를) 지정하십시오. 이렇게 하면 보고서가 Journey Optimizer에 표시됩니다.
+   > **[!UICONTROL 사용 사례]**&#x200B;에서 **Journey Optimizer**&#x200B;을(를) 선택하고 해당 **Journey Optimizer 활동 유형** 및 **활동**&#x200B;을(를) 지정하십시오. 이렇게 하면 보고서가 Journey Optimizer에 표시됩니다.
 
    ![](assets/cja_template_3.png)
 

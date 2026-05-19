@@ -42,7 +42,7 @@ topic_v2:
 source-git-commit: 5e806bf6931a5c067adde232f61ff446bee18cca
 workflow-type: tm+mt
 source-wordcount: 3633
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
@@ -148,7 +148,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_payload_size"
 >title="현재 여정 페이로드 크기"
->abstract="구성된 제한과 비교한 여정 페이로드의 현재 크기를 표시합니다. 이 지표를 사용하여 게시 전에 여정 복잡성을 모니터링하고 페이로드 크기 제한 초과로 인한 오류를 방지할 수 있습니다."
+>abstract="구성된 제한과 비교한 여정 페이로드의 현재 크기를 표시합니다. 이 표시기를 사용하여 게시 전에 여정 복잡성을 모니터링하고 페이로드 크기 제한 초과로 인한 오류를 방지할 수 있습니다."
 
 여정 속성 패널의 **[!UICONTROL 현재 여정 페이로드 크기]** 필드에는 구성된 제한과 관련된 여정 페이로드의 현재 크기(예: *1.5MB(2MB 중)*)가 표시됩니다. 이 읽기 전용 표시기는 여정 작성 단계에서 볼 수 있습니다.
 

@@ -8,9 +8,24 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 42aec986-2352-456a-a725-7f1585ae01f8
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+TQID: https://experienceleague.adobe.com/MWcV6FkgtiFJd9Y7q8CvTXQsL68cD5JcvqjmoEyiYhI
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2:
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: 634
 ht-degree: 0%
 
 ---
@@ -21,12 +36,12 @@ ht-degree: 0%
 
 [!DNL Journey Optimizer]이(가) Adobe Experience Platform으로 보내는 일반적인 XDM 필드입니다. 여정에서 처리되는 모든 단계에 대해 공통 필드가 전송됩니다. 사용자 지정 작업 및 보강에는 더 구체적인 필드가 사용됩니다.
 
-이러한 필드 중 일부는 이벤트 크기를 제한하기 위해 특정 처리 패턴(작업 실행, 데이터 가져오기 등)에서만 사용할 수 있습니다.
+이러한 필드 중 일부는 특정 처리 패턴(작업 실행, 데이터 가져오기 등)에서만 사용할 수 있습니다 이벤트 크기를 제한하기 위해
 
 
 >[!NOTE]
 >
->이 섹션[에서 여정 속성 특성 &#x200B;](../building-journeys/expression/journey-properties.md#journey-properties-fields)에 대해 자세히 알아보세요.
+>이 섹션[&#128279;](../building-journeys/expression/journey-properties.md#journey-properties-fields)에서 여정 속성 특성 에 대해 자세히 알아보세요.
 
 
 ## 입구 {#entrance-field}

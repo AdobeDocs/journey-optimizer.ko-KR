@@ -6,10 +6,23 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: bb67b55f-2eac-4775-a9f5-78288009477e
-source-git-commit: 37862682a25843ce138c076e443f6d9b6229ece3
+TQID: https://experienceleague.adobe.com/g6SvbQdYTKgvcbEggw4RmjGY-25x7Abm-byZ4UqT4NE
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2:
+  - id: bc543dba-f0db-4234-b5da-877a5c1664e2
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 4%
+source-wordcount: 509
+ht-degree: 3%
 
 ---
 
@@ -46,7 +59,7 @@ ht-degree: 4%
 
 ## 작동 방식 {#setup}
 
-1. 샘플 폴더에 있는 [&#x200B; 파일의 설정을 사용하여 페이지에서 &#x200B;](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/home)웹 SDK`.env`을(를) 포함하고 구성하십시오.
+1. 샘플 폴더에 있는 `.env` 파일의 설정을 사용하여 페이지에서 [웹 SDK](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/home)을(를) 포함하고 구성하십시오.
 
    ```
    <script src="https://cdn1.adoberesources.net/alloy/2.18.0/alloy.min.js" async></script>
@@ -87,7 +100,7 @@ ht-degree: 4%
    });
    ```
 
-1. 콘텐츠 카드 렌더링을 관리하고 `interact`에 있는 `display` 개체를 사용하여 `contentCardsManager` 및 `script.js` 이벤트를 보냅니다. 수신된 제안에서 콘텐츠 카드를 추출, 정렬 및 처리합니다.
+1. 콘텐츠 카드 렌더링을 관리하고 `script.js`에 있는 `contentCardsManager` 개체를 사용하여 `interact` 및 `display` 이벤트를 보냅니다. 수신된 제안에서 콘텐츠 카드를 추출, 정렬 및 처리합니다.
 
    ```
    const createContentCard = (proposition, item) => {
@@ -198,7 +211,7 @@ ht-degree: 4%
 
 ### personalizationStorageEnabled
 
-`personalizationStorageEnabled` 명령에서 `true` 옵션이 `configure`(으)로 설정되어 있습니다. 이렇게 하면 이전 자격을 갖춘 콘텐츠 카드가 저장되고 사용자 세션 간에 계속 표시됩니다.
+`configure` 명령에서 `personalizationStorageEnabled` 옵션이 `true`(으)로 설정되어 있습니다. 이렇게 하면 이전 자격을 갖춘 콘텐츠 카드가 저장되고 사용자 세션 간에 계속 표시됩니다.
 
 ### 트리거
 

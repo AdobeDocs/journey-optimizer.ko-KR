@@ -9,10 +9,29 @@ role: Admin,Leader
 level: Intermediate
 keywords: abac, 속성, 권한, 데이터, 액세스, 중요, 에셋
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+TQID: https://experienceleague.adobe.com/PrmjDN7KDV5Y1NRxfEyQ-3ADOIWjgMv2OuRXitt-Wzk
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1006'
-ht-degree: 2%
+source-wordcount: 1074
+ht-degree: 4%
 
 ---
 
@@ -28,7 +47,7 @@ Adobe Journey Optimizer의 속성 기반 액세스 제어를 사용하여 데이
 
 1. 사용자가 스키마 필드에 액세스하고 사용할 수 있도록 새 **[!UICONTROL 역할]**&#x200B;을(를) 만들고 해당 **[!UICONTROL 레이블]**&#x200B;과(와) 함께 할당하십시오.
 
-1. Adobe Experience Platform의 **[!UICONTROL 국적]** 스키마 필드에 **Label**&#x200B;을(를) 할당합니다.
+1. Adobe Experience Platform의 **국적** 스키마 필드에 **[!UICONTROL Label]**&#x200B;을(를) 할당합니다.
 
 1. Adobe Journey Optimizer의 **[!UICONTROL 스키마 필드]**&#x200B;을(를) 사용합니다.
 
@@ -42,7 +61,7 @@ Adobe Journey Optimizer의 속성 기반 액세스 제어를 사용하여 데이
 
 **[!UICONTROL 역할]**&#x200B;은(는) 조직 내에서 동일한 권한, 레이블 및 샌드박스를 공유하는 사용자 집합입니다. **[!UICONTROL 역할]**&#x200B;에 속하는 각 사용자는 제품에 포함된 Adobe 앱 및 서비스에 대한 권한이 있습니다. 자신만의 **[!UICONTROL 역할]**&#x200B;을 만들어 인터페이스의 특정 기능이나 개체에 대한 사용자 액세스를 세밀하게 조정할 수도 있습니다.
 
-선택한 사용자에게 C2 레이블이 지정된 **국적** 필드에 대한 액세스 권한을 부여하려면 특정 사용자 집합으로 새 **[!UICONTROL 역할]**&#x200B;을(를) 만들고 레이블 C2를 부여하면 **여정**&#x200B;에서 **[!UICONTROL 국적]** 세부 정보를 사용할 수 있습니다.
+선택한 사용자에게 C2 레이블이 지정된 **국적** 필드에 대한 액세스 권한을 부여하려면 특정 사용자 집합으로 새 **[!UICONTROL 역할]**&#x200B;을(를) 만들고 레이블 C2를 부여하면 **[!UICONTROL 여정]**&#x200B;에서 **국적** 세부 정보를 사용할 수 있습니다.
 
 1. [!DNL Permissions] 제품의 왼쪽 창 메뉴에서 **[!UICONTROL 역할]**&#x200B;을(를) 선택하고 **[!UICONTROL 역할 만들기]**&#x200B;를 클릭합니다. 기본 제공 역할에 **[!UICONTROL Label]**&#x200B;을(를) 추가할 수도 있습니다.
 
@@ -94,7 +113,7 @@ Adobe Journey Optimizer의 속성 기반 액세스 제어를 사용하여 데이
 
    ![](assets/label_1.png)
 
-1. 새로 만든 **[!UICONTROL 스키마]**&#x200B;에서 먼저 **[!UICONTROL 국적]** 필드가 포함된 **인구 통계학적 세부 정보** 필드 그룹을 추가합니다.
+1. 새로 만든 **[!UICONTROL 스키마]**&#x200B;에서 먼저 **국적** 필드가 포함된 **[!UICONTROL 인구 통계학적 세부 정보]** 필드 그룹을 추가합니다.
 
    ![](assets/label_2.png)
 
@@ -144,7 +163,7 @@ Adobe Journey Optimizer의 속성 기반 액세스 제어를 사용하여 데이
 
    ![](assets/journey_6.png)
 
-1. 제한된 **[!UICONTROL 국적]** 필드를 가진 특정 모집단을 타깃팅하려면 **조건**&#x200B;을(를) 편집하세요.
+1. 제한된 **국적** 필드를 가진 특정 모집단을 타깃팅하려면 **[!UICONTROL 조건]**&#x200B;을(를) 편집하세요.
 
    ![](assets/journey_7.png)
 

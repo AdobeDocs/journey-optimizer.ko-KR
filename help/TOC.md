@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c5ecc28ec44a9c608f4fe5011e061cad62d92e2b
+source-git-commit: 3d3218e24074ffb8ec36f1ec14ff8a6c45950d90
 workflow-type: tm+mt
-source-wordcount: '3324'
+source-wordcount: '3326'
 ht-degree: 97%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 97%
 + [Journey Optimizer 설명서](ajo-home.md)
 + 새로운 기능 {#whats-new}
    + [릴리스 주기](using/rn/releases.md)
-   + {hide-from-toc}[초기 릴리스 정보](using/rn/e-release-notes.md)
+   + [사전 릴리스 정보](using/rn/e-release-notes.md)
    + [최신 릴리스 정보](using/rn/release-notes.md)
    + 이전 릴리스 정보 {#previous-rn-new}
       + {hide-from-toc}[이전 릴리스 정보](/help/rp_landing_pages/previous-rn-new-landing-page.md)
@@ -105,6 +105,7 @@ ht-degree: 97%
    + 표현식 작성 {#building-advanced-conditions-journeys}
       + [표현식 작성](/help/rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
       + [고급 표현식 편집기 작업](using/building-journeys/expression/expressionadvanced.md)
+      + {hide-from-toc}[식 도우미](using/building-journeys/expression/expression-agent.md)
       + 구문 {#syntax}
          + [구문](/help/rp_landing_pages/syntax-landing-page.md)
          + [고급 표현식 편집기 구문](using/building-journeys/expression/generalities.md)
@@ -277,19 +278,19 @@ ht-degree: 97%
       + [이메일 시작](using/email/get-started-email.md)
       + [이메일 만들기](using/email/create-email.md)
       + 이메일 콘텐츠 디자인 {#design-email}
-         + [이메일 콘텐츠 디자인](/help/rp_landing_pages/design-email-landing-page.md)
+         + {hide-from-toc}[전자 메일 콘텐츠 디자인](/help/rp_landing_pages/design-email-landing-page.md)
          + {hide-from-toc}[메시지 콘텐츠 디자인](using/start/message-content-design.md)
          + [이메일 디자인 시작](using/email/get-started-email-design.md)
          + 콘텐츠 만들기 시작 {#start-creating-content}
-            + [콘텐츠 만들기 시작](/help/rp_landing_pages/start-creating-content-landing-page.md)
+            + {hide-from-toc}[콘텐츠 만들기 시작](/help/rp_landing_pages/start-creating-content-landing-page.md)
             + [처음부터 컨텐츠 만들기](using/email/content-from-scratch.md)
             + [콘텐츠 가져오기](using/email/existing-content.md)
             + [나만의 콘텐츠 코딩](using/email/code-content.md)
             + [이메일 템플릿 사용](using/email/use-email-templates.md)
             + [이메일 테마 활용](using/email/apply-email-themes.md)
             + [이메일에 PDF 파일 첨부](using/email/pdf-attachments.md)
-         + 콘텐츠 디자인 {#add-content}
-            + [콘텐츠 디자인](/help/rp_landing_pages/add-content-landing-page.md)
+         + 콘텐츠 작성 {#add-content}
+            + {hide-from-toc}[콘텐츠 디자인](/help/rp_landing_pages/add-content-landing-page.md)
             + [콘텐츠 구성 요소 사용](using/email/content-components.md)
             + [시각적 조각 활용](using/email/use-visual-fragments.md)
             + [링크 추가 및 메시지 추적](using/email/message-tracking.md)
@@ -300,7 +301,7 @@ ht-degree: 97%
             + [메타데이터 추가](using/email/email-metadata.md)
             + [고급 HTML 편집기 편집](using/email/email-expert-mode.md)
          + 스타일 편집 {#edit-style}
-            + [스타일 편집](/help/rp_landing_pages/edit-style-landing-page.md)
+            + {hide-from-toc}[스타일 편집](/help/rp_landing_pages/edit-style-landing-page.md)
             + [이메일 스타일 시작](using/email/get-started-email-style.md)
             + [배경 설정 편집](using/email/backgrounds.md)
             + [세로 정렬 및 패딩 조정](using/email/alignment-and-padding.md)
@@ -308,16 +309,16 @@ ht-degree: 97%
             + [사용자 정의 CSS 추가](using/email/custom-css.md)
             + [다크 모드 콘텐츠 관리](using/email/dark-mode.md)
          + [접근성 높은 콘텐츠 만들기](using/email/accessible-content.md)
-      + [이메일 옵트아웃 관리](using/email/email-opt-out.md)
       + 이메일 채널 구성 {#configure-email}
-         + [이메일 채널 구성](/help/rp_landing_pages/configure-email-landing-page.md)
+         + {hide-from-toc}[이메일 채널 구성](/help/rp_landing_pages/configure-email-landing-page.md)
          + [이메일 구성 시작](using/email/get-started-email-config.md)
          + [이메일 구성 설정 정의](using/email/email-settings.md)
          + [목록 구독 취소 활성화](using/email/list-unsubscribe.md)
          + [헤더 매개변수](using/email/header-parameters.md)
          + [URL 추적](using/email/url-tracking.md)
          + [이메일 구성 개인화](using/email/surface-personalization.md)
-         + [이메일에서 딥 링크 구성](using/email/deeplinks.md)
+      + [딥 링크 사용 및 구성](using/email/deeplinks.md)
+      + [이메일 옵트아웃 관리](using/email/email-opt-out.md)
    + 인앱 채널 {#in-app}
       + [인앱 채널](/help/rp_landing_pages/in-app-landing-page.md)
       + [인앱 시작](using/in-app/get-started-in-app.md)
@@ -994,3 +995,4 @@ ht-degree: 97%
       + [고객의 환경 설정 관리](using/action/preference-center.md)
    + [데이터 거버넌스](using/action/action-privacy.md)
    + [고객 관리 키 설정 및 관리](using/privacy/cmk.md)
+

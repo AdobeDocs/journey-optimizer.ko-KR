@@ -2,17 +2,41 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 이메일 만들기
-description: Journey Optimizer에서 이메일을 작성하는 방법 알아보기
+description: Journey Optimizer에서 이메일을 만드는 방법 알아보기
 feature: Email
 topic: Content Management
 role: User
 level: Beginner
 keywords: 만들기, 이메일, 시작, 여정, 캠페인
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/EM2msybn-3qaRJz113oIwMOU4Aj9h3BiDeLnl4vpO-Q
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+  - id: fae48155-b23f-40d2-a252-a25bce350b4d
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1196'
-ht-degree: 11%
+source-wordcount: 1196
+ht-degree: 0%
 
 ---
 
@@ -20,8 +44,8 @@ ht-degree: 11%
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_email"
->title="이메일 작성"
->abstract="이메일 제목 줄을 정의하고 이메일 디자이너를 열어 이메일 콘텐츠를 만듭니다."
+>title="이메일 만들기"
+>abstract="이메일 제목 줄을 정의하고 이메일 Designer을 열어 이메일 콘텐츠를 만듭니다."
 
 ## 이메일 작업 추가 {#email-action}
 
@@ -91,9 +115,9 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 >[!CONTEXTUALHELP]
 >id="test_id"
 >title="이메일 콘텐츠 구성"
->abstract="이메일 콘텐츠를 만듭니다. 제목을 정의한 다음 이메일 디자이너를 활용하여 이메일 본문을 작성하고 개인화합니다."
+>abstract="이메일 콘텐츠를 만듭니다. 제목을 정의한 다음 이메일 Designer을 활용하여 이메일 본문을 작성하고 개인화합니다."
 
-여정 또는 캠페인에 이메일 작업을 추가한 후에는 이메일 Designer을 사용하여 제목란, 보낸 사람 정보 및 이메일 본문을 포함한 이메일 콘텐츠를 정의해야 합니다. 다음 단계를 수행하십시오.
+여정 또는 캠페인에 이메일 작업을 추가한 후에는 이메일 Designer을 사용하여 제목란, 보낸 사람 정보 및 이메일 본문을 포함한 이메일 콘텐츠를 정의해야 합니다. 다음 단계를 수행합니다.
 
 1. 여정 또는 캠페인 구성 화면에서 **[!UICONTROL 콘텐츠 편집]** 단추를 클릭하여 전자 메일 콘텐츠를 구성합니다. [자세히 알아보기](get-started-email-design.md)
 
@@ -101,7 +125,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
 1. 전자 메일에 결정 정책을 추가하려면 **[!UICONTROL 결정 사용]**&#x200B;을 전환합니다.
 
-   의사 결정 정책은 의사 결정 엔진을 활용하여 각 대상자 구성원에게 제공할 최상의 콘텐츠를 동적으로 반환하는 오퍼 컨테이너입니다. [전자 메일에 결정 정책을 추가하는 방법을 알아보세요](../experience-decisioning/create-decision.md#create-decision)
+   의사 결정 정책은 의사 결정 엔진을 활용하여 각 대상 구성원에 대해 제공할 최상의 콘텐츠를 동적으로 반환하는 오퍼에 대한 컨테이너입니다. [전자 메일에 결정 정책을 추가하는 방법을 알아보세요](../experience-decisioning/create-decision.md#create-decision)
 
    ![](assets/../../experience-decisioning/assets/decision-policy-enable.png)
 
@@ -151,7 +175,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
      >[!NOTE]
      >
-     >마케팅 유형 이메일 메시지에는 옵트아웃 링크가 포함되어야 합니다. 옵트아웃 링크는 트랜잭션 메시지에는 필요 없습니다. 메시지 범주(**[!UICONTROL 마케팅]** 또는 **[!UICONTROL 트랜잭션]**)는 [채널 구성](email-settings.md#email-type) 수준에서 [여정 또는 캠페인에서 메시지를 만드는](#create-email-journey-campaign)때 정의됩니다.
+     >마케팅 유형 이메일 메시지에는 옵트아웃 링크가 포함되어야 합니다. 옵트아웃 링크는 트랜잭션 메시지에는 필요하지 않습니다. 메시지 범주(**[!UICONTROL 마케팅]** 또는 **[!UICONTROL 트랜잭션]**)는 [채널 구성](email-settings.md#email-type) 수준에서 [여정 또는 캠페인에서 메시지를 만드는](#create-email-journey-campaign)때 정의됩니다.
 
    * **[!UICONTROL HTML의 텍스트 버전이 비어 있음]**: 이메일 본문의 텍스트 버전은 HTML 콘텐츠를 표시할 수 없을 때 사용되므로 정의하는 것을 잊지 마십시오. [이 섹션](text-version-email.md)에서 텍스트 버전을 만드는 방법을 알아봅니다.
 
@@ -177,7 +201,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
 메시지 콘텐츠가 정의되면 테스트 프로필을 사용하여 콘텐츠를 미리 보고, 증명을 보내고, 인기 있는 데스크탑, 모바일 및 웹 기반 클라이언트에서 렌더링을 제어할 수 있습니다. 개인화된 콘텐츠를 삽입한 경우 테스트 프로필 데이터를 활용하여 이 콘텐츠가 메시지에 어떻게 표시되는지 확인할 수 있습니다.
 
-컨텐츠 품질을 확인하여 가독성, 효율성 및 컨텐츠 응집성을 평가할 수도 있습니다. [콘텐츠 품질 확인에 대해 자세히 알아보기](../content-management/brands-score.md#validate-quality)
+컨텐츠 품질을 확인하여 가독성, 효율성 및 컨텐츠 응집성을 평가할 수도 있습니다. [콘텐츠 품질 유효성 검사에 대해 자세히 알아보기](../content-management/brands-score.md#validate-quality)
 
 >[!NOTE]
 >

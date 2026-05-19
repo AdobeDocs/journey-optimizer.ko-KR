@@ -9,10 +9,27 @@ role: User
 level: Beginner, Intermediate
 keywords: 다크 모드, 이메일, 색상, 편집기
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/joz1hfodSkao9CO5rlgKad4RhcV1XFCf6Ll6wjqLvPI
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8
+  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1517'
-ht-degree: 10%
+source-wordcount: 1517
+ht-degree: 0%
 
 ---
 
@@ -21,12 +38,12 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode"
 >title="다크 모드로 전환"
->abstract="다크 모드로 전환하면 어떻게 렌더링되는지 미리 보고 특정 사용자 정의 설정을 정의할 수 있습니다. <br>최종 렌더링은 수신자의 이메일 클라이언트에 따라 다릅니다. 모든 이메일 클라이언트가 사용자 정의 다크 모드를 지원하지 않음에 유의하여 주십시오."
+>abstract="렌더링 방법을 미리 보고 특정 사용자 지정 설정을 정의할 수 있는 다크 모드로 전환합니다. <br>최종 렌더링은 받는 사람의 전자 메일 클라이언트에 따라 다릅니다. 모든 이메일 클라이언트는 사용자 지정 다크 모드를 지원하지 않습니다."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode_preview"
 >title="다크 모드로 전환"
->abstract="다크 모드로 전환하여 지원되는 이메일 클라이언트에서 어떻게 렌더링되는지 미리 확인합니다. <br>최종 렌더링은 수신자의 이메일 클라이언트에 따라 다릅니다. 모든 이메일 클라이언트가 다크 모드를 지원하지 않음에 유의하여 주십시오."
+>abstract="지원 이메일 클라이언트에서 렌더링할 방법을 미리 보려면 다크 모드로 전환하십시오. <br>최종 렌더링은 받는 사람의 전자 메일 클라이언트에 따라 다릅니다. 모든 이메일 클라이언트가 다크 모드를 지원하지 않습니다."
 
 전자 메일을 디자인할 때 [!DNL Journey Optimizer] [전자 메일 Designer](get-started-email-design.md)을(를) 사용하면 **[!UICONTROL 어두운 모드]** 보기로 전환할 수 있습니다.
 
@@ -44,7 +61,7 @@ ht-degree: 10%
 
 주요 운영 체제 및 앱<!-- (Apple Mail, Gmail, Outlook, Twitter, Slack)-->에서 증가하는 추세로, 콘텐츠를 읽기 쉽고 시각적으로 모든 사용자에게 어필할 수 있도록 하는 것이 최신 이메일 디자인에서 중요한 고려 사항이 되었습니다.
 
-## 가드레일 {#guardrails}
+## 보호 기능 {#guardrails}
 
 다크모드 렌더링 측면에서의 기대는 다양한 이메일 클라이언트에서 적용하는 방식이 많이 달라질 수 있어 신중하게 고려해야 한다.
 
@@ -110,7 +127,7 @@ ht-degree: 10%
 
 최적의 결과를 얻으려면 타겟팅하는 이메일 클라이언트로 콘텐츠를 테스트합니다. 각 클라이언트의 최종 결과에 최대한 근접한 시뮬레이션을 보려면 이메일 Designer에서 [이메일 렌더링](../content-management/rendering.md) 옵션을 사용하십시오.
 
-## 이메일 디자이너의 다크 모드 {#dark-mode-email-designer}
+## 이메일 Designer의 다크 모드 {#dark-mode-email-designer}
 
 이메일 Designer의 다크 모드와 관련하여 두 가지 측면을 고려해야 합니다.
 
@@ -173,8 +190,8 @@ Here you can see that we have applied a different background, defined another im
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode_image"
->title="다크 모드용 특정 이미지 사용"
->abstract="다크 모드가 켜져 있을 때 표시될 다른 이미지를 선택할 수 있습니다. <br>다크 모드용 특정 이미지를 추가해도 모든 이메일 클라이언트에서의 올바른 렌더링을 보장하지는 않습니다. 모든 이메일 클라이언트가 사용자 정의 다크 모드를 지원하지 않음에 유의하여 주십시오."
+>title="다크 모드로 특정 이미지 사용"
+>abstract="다크 모드가 켜져 있을 때 표시할 다른 이미지를 선택할 수 있습니다. <br>다크 모드에 대한 특정 이미지를 추가한다고 해서 모든 이메일 클라이언트에서 올바르게 렌더링되는 것은 아닙니다. 모든 이메일 클라이언트는 사용자 지정 다크 모드를 지원하지 않습니다."
 
 **[!UICONTROL 어두운 모드]**(으)로 전환한 후에는 받는 사람의 전자 메일 클라이언트에서 어두운 모드가 활성화된 경우에만 표시되는 콘텐츠의 특정 스타일 요소를 편집할 수 있습니다(해당 기능이 지원되는 경우).
 
@@ -220,7 +237,7 @@ Here you can see that we have applied a different background, defined another im
    >
    >시뮬레이션은 이메일이 다크 모드로 표시되는 방식과 거의 유사하지만 실제 렌더링은 이메일 서비스 공급자 또는 장치 수준 설정의 변경으로 인해 달라질 수 있습니다.
 
-## 모범 사례 {#best-practices}
+## 우수 사례 {#best-practices}
 
 주요 이메일 클라이언트에서 다크 모드 채택이 증가함에 따라 [사용자 지정 다크 모드](#define-custom-dark-mode)를 사용하는지 여부에 관계없이 밝은 환경과 어두운 환경 모두에서 이메일이 렌더링되는 방식을 고려해야 합니다.
 

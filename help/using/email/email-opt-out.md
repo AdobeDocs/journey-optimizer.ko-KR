@@ -9,16 +9,39 @@ role: User
 level: Intermediate
 keywords: 옵트아웃, 이메일, 링크, 구독 취소
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: af7451c0495e442328368a6a308af5c14dcda142
+TQID: https://experienceleague.adobe.com/F77MDJH94Db-fXGpbhKBUGok48jNIiFu3x2R6x2DYeA
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: fae48155-b23f-40d2-a252-a25bce350b4d
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1117'
-ht-degree: 20%
+source-wordcount: 1220
+ht-degree: 22%
 
 ---
 
 # 이메일 옵트아웃 관리 {#email-opt-out}
 
-여정 또는 캠페인에서 메시지를 보낼 때 고객이 향후 커뮤니케이션에서 구독을 취소할 수 있도록 항상 확인해야 합니다. 구독을 취소하면 향후 마케팅 메시지 대상자에서 프로필이 자동으로 제거됩니다.  [개인 정보 및 옵트아웃 관리에 대해 자세히 알아보기](../privacy/opt-out.md)
+여정 또는 캠페인에서 메시지를 보낼 때 고객이 향후 커뮤니케이션에서 구독을 취소할 수 있도록 항상 확인해야 합니다. 구독이 취소되면 향후 마케팅 메시지 대상자에서 프로필이 자동으로 제거됩니다.  [개인 정보 및 옵트아웃 관리에 대해 자세히 알아보기](../privacy/opt-out.md)
 
 >[!NOTE]
 >
@@ -34,7 +57,7 @@ ht-degree: 20%
 
 수신자가 옵트아웃 링크를 클릭하면 그에 따라 구독 취소 요청이 처리됩니다.
 
-해당 프로필의 선택 사항이 업데이트되었는지 확인하려면 Experience Platform으로 이동하여 [해당 프로필을 찾아봅니다](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/ui/user-guide?lang=en#browse-tab){target="_blank"}. [특성 탭](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/ui/user-guide#attributes){target="_blank"}에서 **[!UICONTROL choice]**&#x200B;의 값이 **[!UICONTROL no]**(으)로 변경되었음을 확인할 수 있습니다. [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=ko){target="_blank"}에서 동의 처리에 대해 자세히 알아보세요.
+해당 프로필의 선택 사항이 업데이트되었는지 확인하려면 Experience Platform으로 이동하여 [해당 프로필을 찾아봅니다](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide?lang=en#browse-tab){target="_blank"}. [특성 탭](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/ui/user-guide#attributes){target="_blank"}에서 **[!UICONTROL choice]**&#x200B;의 값이 **[!UICONTROL no]**(으)로 변경되었음을 확인할 수 있습니다. [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=ko){target="_blank"}에서 동의 처리에 대해 자세히 알아보세요.
 
 ![](assets/opt-out-profile-choice.png)
 
@@ -48,7 +71,7 @@ ht-degree: 20%
 
 ### 이메일 헤더의 원클릭 구독 취소 URL {#unsubscribe-header}
 
-원클릭 목록 구독 취소 URL은 이메일 발신자 정보 옆에 표시되는 구독 취소 링크 또는 단추이며 한 번의 클릭으로 수신자가 메일링 목록에서 즉시 옵트아웃할 수 있습니다. **[!UICONTROL 이 섹션]**&#x200B;에서 [구독 취소 목록](list-unsubscribe.md) 옵션을 관리하는 방법을 알아보세요.
+원클릭 목록 구독 취소 URL은 이메일 발신자 정보 옆에 표시되는 구독 취소 링크 또는 단추이며 한 번의 클릭으로 수신자가 메일링 목록에서 즉시 옵트아웃할 수 있습니다. [이 섹션](list-unsubscribe.md)에서 **[!UICONTROL 구독 취소 목록]** 옵션을 관리하는 방법을 알아보세요.
 
 ### 이메일 콘텐츠의 원클릭 옵트아웃 {#one-click-opt-out}
 
@@ -63,7 +86,7 @@ ht-degree: 20%
 
    >[!NOTE]
    >
-   >**[!UICONTROL 채널 구성 수준]**&#x200B;에서 [목록 구독 취소](email-settings.md#list-unsubscribe) 옵션을 사용하도록 설정하고 기본 **[!UICONTROL 한 번 클릭 구독 취소 URL]** 옵션을 선택하지 않은 경우 사용자가 이메일 헤더의 구독 취소 링크를 클릭할 때도 이 랜딩 페이지 URL이 사용됩니다. [자세히 알아보기](list-unsubscribe.md)
+   >[채널 구성 수준](email-settings.md#list-unsubscribe)에서 **[!UICONTROL 목록 구독 취소]** 옵션을 사용하도록 설정하고 기본 **[!UICONTROL 한 번 클릭 구독 취소 URL]** 옵션을 선택하지 않은 경우 사용자가 이메일 헤더의 구독 취소 링크를 클릭할 때도 이 랜딩 페이지 URL이 사용됩니다. [자세히 알아보기](list-unsubscribe.md)
 
    ![](assets/message-tracking-opt-out-confirmation.png)
 

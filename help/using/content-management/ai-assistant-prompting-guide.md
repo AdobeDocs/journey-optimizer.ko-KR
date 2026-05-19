@@ -7,19 +7,36 @@ topic: Artificial Intelligence
 role: User
 level: Intermediate
 exl-id: f931372e-6cf2-4f27-b12a-ed5ca0c1b87b
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/SxuygPzpfRd-fvB9fOSZo6JR428cRzLukvbawfYwcFs
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '2352'
-ht-degree: 2%
+source-wordcount: 2352
+ht-degree: 0%
 
 ---
 
-# AI 어시스턴트 프롬프트 모범 사례 {#ai-assistant-prompting-guide}
+# AI Assistant 프롬프트 우수 사례 {#ai-assistant-prompting-guide}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_assistant_prompt"
->title="프롬프트 예제"
->abstract="Journey Optimizer 설명서에서 전환율이 높고 브랜드에 맞는 마케팅 콘텐츠를 생성하는 효과적인 프롬프트를 만드는 방법을 알아보십시오."
+>title="프롬프트 예"
+>abstract="Journey Optimizer 설명서를 탐색하여 고전환 온-브랜드 마케팅 콘텐츠를 생성하는 효과적인 프롬프트를 생성하는 방법에 대해 알아보십시오."
 
 이 안내서는 요청을 구조화하고, 의도를 명확하게 전달하며, AI가 브랜드 지침, 대상 요구 사항 및 캠페인 목표에 맞는 메시지를 생성하도록 도와줍니다.
 AI Assistant를 통해 목표에 맞는 고품질의 온-브랜드 마케팅 콘텐츠를 생성할 수 있는 효과적인 프롬프트를 작성하는 방법을 알아봅니다.
@@ -58,7 +75,7 @@ AI Assistant를 통해 목표에 맞는 고품질의 온-브랜드 마케팅 콘
 
 AI Assistant를 사용하여 최상의 결과를 얻으려면 CO-STAR 프레임워크를 사용하여 프롬프트를 구성하십시오. 이러한 구조화된 접근 방식은 AI가 사용자가 필요로 하는 것을 정확히 이해할 수 있도록 해줍니다.
 
-| 구성 요소 | 의미 | 이것이 중요한 이유 |
+| 구성 요소 | 의미 | 중요한 이유 |
 |-|-|-|
 | **C - 컨텍스트** | 캠페인, 제품 또는 상황에 대한 배경 정보 | AI가 더 큰 그림을 이해할 수 있도록 지원 |
 | **O - 목표** | 구체적인 마케팅 목표 | 컨텐츠가 달성해야 하는 목표 달성 |
@@ -221,7 +238,7 @@ AI가 관련 콘텐츠를 생성할 수 있도록 항상 컨텍스트와 가치 
 
 >[!BEGINSHADEBOX]
 
-**예**
+**예:**
 
 * **SaaS 평가판**: &quot;소규모 비즈니스 소유자에게 새로운 CRM 소프트웨어를 출시하여 50% 시간 절약, 90% 빠른 리드 자격을 강조하고 맞춤형 온보딩을 통한 30일 무료 평가판을 제공합니다.&quot;
 * **기능 발표**: &quot;기술 의사 결정자를 대상으로 기업 고객의 개발 시간을 60% 단축하는 새로운 API 통합 기능을 발표하십시오.&quot;
@@ -241,7 +258,7 @@ AI가 관련 콘텐츠를 생성할 수 있도록 항상 컨텍스트와 가치 
 
 >[!BEGINSHADEBOX]
 
-**예**
+**예:**
 
 * **캠페인 새로 고침**: &quot;일반적인 생산성 혜택 대신 엔터프라이즈 보안 기능에 집중하도록 제품 출시 이메일을 수정하여 규정 준수 인증을 보유한 IT 의사 결정자를 대상으로 함&quot;
 * **대상 피벗**: &quot;소프트웨어 데모 초대를 특별히 대상 의료 서비스에 맞추고, 일반 예제를 의료 사용 사례 및 HIPAA 준수 혜택으로 대체하십시오.&quot;

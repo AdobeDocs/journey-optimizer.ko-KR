@@ -9,10 +9,31 @@ role: Developer, Admin
 level: Experienced
 keywords: 정책, 거버넌스, 플랫폼, 동의, 헬스케어 실드
 exl-id: a3e68015-c8f8-4b01-8171-f39d70b7e59d
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+TQID: https://experienceleague.adobe.com/TPg5xSOHgXIBE4trUJiI3MoKjSGqvT1NtGI2Cg7ynFo
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '859'
-ht-degree: 6%
+source-wordcount: 941
+ht-degree: 10%
 
 ---
 
@@ -76,7 +97,7 @@ ht-degree: 6%
 
 1. 이 페이지에서 고객은 확인란을 선택하거나 선택 취소하여 주제 단위 구독과 같은 환경 설정을 업데이트할 수 있습니다.
 
-   각 작업은 프로필 사용 데이터 세트 스키마`true`에 데이터를 수집하여 해당 프로필 특성(`false`(옵트인, <!-- that contains the corresponding preference fields-->(옵트아웃)에 대해 저장된 동의 이벤트를 트리거합니다.
+   각 작업은 프로필 사용 데이터 세트 스키마<!-- that contains the corresponding preference fields-->에 데이터를 수집하여 해당 프로필 특성(`true`(옵트인, `false`(옵트아웃)에 대해 저장된 동의 이벤트를 트리거합니다.
 
    <!--Record your users' preferences through the web page or landing page that you created. The data is saved against the corresponding profile, meaning that the preference data is ingested into a Profile-enabled dataset whose schema contains consent/preference fields.-->
 
@@ -100,7 +121,7 @@ The corresponding profile dataset is updated as follows:
 
    >[!AVAILABILITY]
    >
-   >동의 정책은 현재 Adobe **Healthcare Shield** 또는 **Privacy and Security Shield** 추가 기능 서비스를 구입한 조직에서만 사용할 수 있습니다. [동의 정책에 대해 자세히 알아보기](consent.md)
+   >동의 정책 기능은 현재 **Healthcare Shield** 또는 **Privacy and Security Shield** 추가 기능 서비스를 구매한 조직에만 제공됩니다. [동의 정책에 대해 자세히 알아보기](consent.md)
 
    동의 정책을 사용하려면 프로필 데이터에 기본 설정 속성이 있어야 합니다. 따라서 1단계에서 설명한 대로 프로필 수준에서 이러한 속성을 정의해야 합니다.
 
@@ -118,14 +139,14 @@ Consent policies are comprised of two logical components:
     
     * **[!UICONTROL 마케팅 액션]**&#x200B;이 **[!UICONTROL 이메일]**
     
-    인 경우 **[!UICONTROL 뉴스레터_이메일]**&#x200B;이 존재하지 않습니다 **[!UICONTROL false]** 또는 **[!UICONTROL 뉴스레터_이메일]**&#x200B;이(가) 존재하지 않습니다 **[!UICONTROL false]**
+    *인 경우 **[!UICONTROL 뉴스레터_이메일]**&#x200B;이 존재하지 않습니다 **[!UICONTROL false]** 또는 **[!UICONTROL 뉴스레터_이메일]**&#x200B;이 존재하지 않습니다 **[!UICONTROL false]**
     
-    ![](assets/consent-policy-email-newsletter.png){width=80%}
+    ![]&#x200B;(assets/consent-policy-email-newsletter.png){width=80%}
     
     >[!TIP]
     >
-    >프로필 사용 데이터 세트에는 프로필 속성 **[!UICONTROL Newsletter_Email]**&#x200B;이 포함되며 값은 &#39;true&#39;로 설정되어야 합니다(예: 1단계에서 설명)
+    >프로필 사용 데이터 세트에는 프로필 특성 **[!UICONTROL 뉴스레터가 포함되어야 합니다. 값이 &#39;true&#39;로 설정된 이메일]**(예: 1단계에서 설명)
 
-1. 동의 정책을 만든 후에는 [!DNL Journey Optimizer]채널 구성[&#x200B; 또는 &#x200B;](consent.md#surface-marketing-actions)사용자 지정 작업 여정[을 사용하여 &#x200B;](consent.md#journey-custom-actions)에서 활용하십시오.
+1. 동의 정책을 만든 후에는 [채널 구성](consent.md#surface-marketing-actions) 또는 [사용자 지정 작업 여정](consent.md#journey-custom-actions)을 사용하여 [!DNL Journey Optimizer]에서 활용하십시오.
 
 1. 이제 여정 및 캠페인에서 이러한 채널 구성 또는 사용자 지정 작업을 사용하여 <!--targeted--> 고객의 환경 설정을 적용할 수 있습니다.

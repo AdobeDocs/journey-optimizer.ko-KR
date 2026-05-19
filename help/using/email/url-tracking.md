@@ -9,10 +9,24 @@ role: Admin
 level: Experienced
 keywords: 설정, 이메일, 구성
 exl-id: 5a12280c-b937-4cd9-a1ef-563bab48e42e
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/q1T-efX3vK77d1PfKA8mWU73w6Cj4-H95RynkHHg16U
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: fae48155-b23f-40d2-a252-a25bce350b4d
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 61%
+source-wordcount: 489
+ht-degree: 65%
 
 ---
 
@@ -34,7 +48,7 @@ ht-degree: 61%
 
 >[!NOTE]
 >
->URL에 추가되는 URL 추적 매개 변수의 순서는 임의적이며 제어할 수 없습니다. 시스템에 특정 순서로 매개 변수가 필요한 경우 구문 분석하고 측면에서 매개 변수를 재정렬해야 합니다.
+>URL에 추가되는 URL 추적 매개 변수의 순서는 임의적이며 제어할 수 없습니다. 시스템에서 특정 순서의 매개변수가 필요한 경우, 직접 구문 분석하여 순서를 변경해야 합니다.
 
 **[!UICONTROL 새 매개변수 추가]** 버튼을 사용하여 최대 10개의 추적 매개변수를 추가할 수 있습니다.
 

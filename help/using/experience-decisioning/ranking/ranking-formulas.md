@@ -7,9 +7,21 @@ role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 version: Journey Orchestration
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/WycI0aO1o4KFH1gNieayuhpyNZuoVxL6zhGJBNOht8g
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1731'
+source-wordcount: 1731
 ht-degree: 5%
 
 ---
@@ -37,7 +49,7 @@ ht-degree: 5%
 * 전환 확인 기간은 등급 수식(예: 지난 달의 경험 이벤트)에서 지원되지 않습니다. 이러한 수식을 저장하려고 하면 오류가 트리거됩니다.
 * [AI 기반 수식 최적화](#optimize)은(는) 코드 기반 PQL 식이 UTF-8 인코딩 크기로 **2KB**&#x200B;보다 큰 등급 수식에만 적용되며 더 작은 수식은 분석되지 않습니다.
 
-## 등급 수식 만들기 및 속성 설정 {#create-ranking-formula}
+## 순위 공식 만들기 및 속성 설정 {#create-ranking-formula}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_formulas"

@@ -30,10 +30,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5e806bf6931a5c067adde232f61ff446bee18cca
+source-git-commit: ec8cf345e0860d8cc1ca9d8b4f76a9cb46a878fe
 workflow-type: tm+mt
-source-wordcount: 2578
-ht-degree: 82%
+source-wordcount: 2770
+ht-degree: 74%
 
 ---
 
@@ -50,8 +50,13 @@ ht-degree: 82%
 
 [!DNL Adobe Journey Optimizer]은 기본적으로 [!DNL Adobe Experience Platform] 기반으로 빌드되었으며 최신 혁신 및 향상된 기능을 활용할 수 있습니다. 변경 사항에 대한 자세한 내용은 [Adobe Experience Platform 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko){target="_blank"}를 참조하십시오.
 
+>[!NOTE]
+>
+>무슨 일이 일어날지 살짝 보실래요? 예정된 기능이 공식적으로 릴리스되기 전에 미리 살펴보려면 [프리릴리스 정보](e-release-notes.md)를 확인하십시오.
+
 ## 2026년 5월 업데이트 {#may-26-rn}
 
+다음 기능 및 개선 사항은 2026년 5월에 릴리스되었습니다.
 
 <table>
 <thead>
@@ -72,7 +77,6 @@ ht-degree: 82%
 </tr>
 </tbody>
 </table>
-
 
 <table>
 <thead>
@@ -148,6 +152,8 @@ ht-degree: 82%
 
 ### 개선 사항 {#may-26-improv}
 
+2026년 5월에도 다음과 같은 개선 사항이 릴리스되었습니다.
+
 #### 결정
 
 * **마이그레이션 워크플로 API 결정** - 종속성 분석 및 마이그레이션 워크플로를 만들기 위한 API 계약이 업데이트되었습니다. 요청 URL(`sandbox`, `offer` 또는 `decision`)에서 **`request-level`**&#x200B;을(를) **쿼리 매개 변수**(으)로 전달하십시오. 요청 수준은 더 이상 JSON 본문에 전송되지 않아야 합니다. [자세히 보기](../experience-decisioning/decisioning-migration-api.md)
@@ -172,6 +178,27 @@ ht-degree: 82%
 
 * **WhatsApp 단추 지원 및 추적** - WhatsApp 템플릿은 이제 **빠른 회신**, **Call to action - URL** 및 **Call to action - 전화**, **코드 복사**&#x200B;를 지원하지 않습니다. Journey Optimizer은 다른 채널 보고와 함께 지원되는 버튼을 전송하고 상호 작용을 추적합니다.
 
+* **WhatsApp 채널 컨텍스트 데이터** - 이제 Journey Optimizer이 WhatsApp 채널에서 반환된 추가 상호 작용 데이터를 캡처하여 `whatsAppChannelContext` 필드 그룹 아래의 **AJO EmailTrackingExperienceEvent 데이터 세트**&#x200B;에 저장합니다.
+
+  +++ 다음 필드가 캡처되며 대상자를 빌드하고 WhatsApp 참여를 분석하는 데 사용할 수 있습니다.
+
+   * **`messageType`** - WhatsApp 메시지 유형(예: `templateBased`, `response`)
+   * **`inboundMessage`** - 인바운드 회신 콘텐츠(예: `stop`, `start`, `subscribe`)
+   * **`inboundNumber`** - 인바운드 메시지를 받은 보낸 사람 ID
+   * **`channelType`** - 채널 범주(`Utility`, `Marketing` 또는 `Promotional`)
+   * **`profileNumber`** - 인바운드 메시지를 받은 전화 번호
+   * **`origTimestamp`** - Meta/WhatsApp의 원래 타임스탬프
+   * **`status`** - 표준화된 공급자 피드백(`sent`, `delivered`, `bounce`, `error`, `delay`, `duplicate`, `denylist`, `exclude` 또는 `unknown`) 및 원시 공급자 상태 메시지를 포함하는 게재 상태
+   * **`reactionEvent`** - 사용자 응답 내용: 반응을 위한 이모지 또는 특정 메시지에 대한 회신을 위한 메시지 텍스트
+   * **`reactionMessageID`** - 응답 중인 원본 메시지의 ID
+   * **`reactionActionName`** - 응답 작업 유형(`react`, `unreact` 또는 `reply`)
+   * **`interactiveSelectedTitle`** - WhatsApp 대화형 메시지에서 사용자가 선택한 제목
+   * **`interactiveType`** - 대화형 메시지 유형(`list reply`, `button reply` 또는 `button`)
+   * **`interactiveSelectedDescription`** - 선택한 WhatsApp 대화형 옵션에 대한 설명
+   * **`interactiveSelectedID`** - WhatsApp에서 선택한 옵션의 ID
+
+  +++
+
 <!-- 
 ## Coming soon {#coming-soon}
 
@@ -182,17 +209,12 @@ The following capabilities and enhancements are scheduled for release in the nex
 
 ## 2026년 4월 릴리스 정보 {#april-26-rn}
 
-<!--
-**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
-
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
--->
-
-4월 중 이미 릴리스된 새로운 기능 및 개선 사항은 출시 날짜와 함께 공지됩니다.
 
 **릴리스 날짜**: 2026년 4월 28~29일
 
 ### 새로운 기능 {#april-26-features}
+
+다음 기능은 2026년 4월에 출시되었습니다.
 
 <table>
 <thead>
@@ -368,7 +390,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tbody>
 <tr>
 <td>
-<p>새로운 <strong>최적화</strong> 노드를 사용하여 A/B 테스트 또는 멀티암 밴딧 실험을 실행하여 비즈니스 중심 KPI를 충족하는 최적의 경로를 결정합니다. 이 도구를 사용하여 테스트 및 변경을 수행하고 커뮤니케이션, 시퀀스, 타이밍을 사용자 정의하여 고객에게 가장 효과적으로 다가갈 수 있습니다.
+<p>새로운 <strong>최적화</strong> 노드를 사용하여 A/B 테스트 또는 멀티암 밴딧 실험을 실행하여 비즈니스 중심 KPI를 충족하는 최적의 경로를 결정합니다. 이 도구를 사용하면 커뮤니케이션, 시퀀스 및 타이밍을 테스트하고, 다양화하고, 사용자 정의하여 고객에게 가장 효과적으로 다가갈 수 있습니다.
 </p>
 <p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
 <p>이번 일반 출시에는 <strong>실험 유형</strong> 선택(A/B 또는 멀티암 밴딧) 및 단일 여정에 대한 <strong>성과 극대화</strong> 기능이 도입되었습니다.</p>
@@ -419,6 +441,8 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 ### 개선 사항 {#april-26-improv}
 
+2026년 4월에도 다음과 같은 개선 사항이 릴리스되었습니다.
+
 #### AI
 
 <!--
@@ -449,7 +473,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### Adobe Experience Manager 통합
 
-* **Adobe Experience Manager 콘텐츠 조각 변형 지원** - Adobe Experience Manager 콘텐츠 조각을 삽입할 때 **콘텐츠 조각 변형**(예: 언어 또는 채널 변형)을 선택할 수 있으며, 로케일 및 다국어 시나리오에 대한 처리가 향상되었습니다. [자세히 보기](../integrations/aem-fragments.md#aem-variations)
+* **Adobe Experience Manager 콘텐츠 조각 변형 지원** - 로케일 및 다국어 시나리오에 대한 개선된 처리로 Adobe Experience Manager 콘텐츠 조각을 삽입할 때 **콘텐츠 조각 변형**(예: 언어 또는 채널 변형)을 선택할 수 있습니다. [자세히 보기](../integrations/aem-fragments.md#aem-variations)
 
   이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).
 
@@ -493,4 +517,3 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **오케스트레이션된 캠페인의 전역 변수** - 오케스트레이션된 캠페인은 이제 워크플로 내의 모든 활동에서 한 번 정의하고 재사용할 수 있는 전역 변수를 지원하여 구성을 간소화하고 동적 값, 표현식 및 콘텐츠 개인화의 일관성을 보장합니다. [자세히 보기](../orchestrated/global-variables.md)
 * **데이터 모델러 개선 사항** - 이제 오케스트레이션된 관계형 스키마에서 여러 필드에 걸쳐 있는 복합 키를 지원합니다. DDL 파일에서 스키마를 로드하면 열거형도 함께 로드되며, DDL 또는 Excel 파일에서 로드하면 테이블 간에 복합 관계가 자동으로 생성됩니다. 엔티티 관계 보기에서 파일 업로드 후 복합 링크에 테이블 간의 전체 필드 쌍이 표시됩니다. [자세히 보기](../orchestrated/gs-schemas.md)
-

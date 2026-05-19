@@ -8,10 +8,29 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/xgPlWorA3lsIF8ZBPHdg2UAK8cLKUsJO-2ONc7ZG8AU
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2:
+  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 2b865f11ee97d976b6bb1ad8232d8227d86fe093
 workflow-type: tm+mt
-source-wordcount: '1323'
-ht-degree: 9%
+source-wordcount: 1379
+ht-degree: 8%
 
 ---
 
@@ -129,25 +148,31 @@ Adobe Journey Optimizer에서 텍스트(SMS), 풍부한 커뮤니케이션(RCS) 
 
 1. 콘텐츠를 정의한 후 추적된 URL을 메시지에 추가할 수 있습니다. 이렇게 하려면 **[!UICONTROL 도우미 함수]** 메뉴에 액세스하고 **[!UICONTROL 도우미]**&#x200B;를 선택하세요.
 
-   URL 단축 기능을 사용하려면 먼저 구성에 연결할 하위 도메인을 구성해야 합니다. [자세히 알아보기](sms-subdomains.md)
-
-   >[!NOTE]
-   >
-   > SMS 하위 도메인에 액세스하고 편집하려면 프로덕션 샌드박스에 대해 **[!UICONTROL SMS 하위 도메인 관리]** 권한이 있어야 합니다. [이 섹션](../administration/high-low-permissions.md)에서 권한에 대해 자세히 알아보십시오.
-
    ![](assets/sms_tracking_1.png)
 
-1. **[!UICONTROL 도우미 함수]** 메뉴에서 **[!UICONTROL URL 함수]**&#x200B;을 클릭한 다음 **[!UICONTROL URL 추가]**&#x200B;를 선택하십시오.
+1. **[!UICONTROL URL]**&#x200B;을(를) 선택하고 **[!UICONTROL URL 추가]**&#x200B;를 클릭합니다.
 
    ![](assets/sms_tracking_2.png)
 
-   <!--The URL shortening function cannot be used within a fragment. TBC-->
-
-1. `originalUrl` 필드에 단축할 URL을 붙여 넣고 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+1. URL의 길이를 줄이려면 `originalUrl` 필드에 URL을 붙여 넣고 **[!UICONTROL 저장]**&#x200B;을 클릭하세요.
 
    >[!CAUTION]
    >
+   >URL 단축 기능을 사용하려면 먼저 구성에 연결할 하위 도메인을 구성해야 합니다. [자세히 알아보기](sms-subdomains.md)
+   >
    > 짧은 URL의 수명은 30일로 설정됩니다. 이 기간이 지나면 이러한 짧은 URL에 더 이상 액세스할 수 없으며 `404 short-code not found` 메시지를 표시합니다.
+
+1. 모바일 앱에서 특정 화면을 여는 딥링크를 추가하려면 `DEEPLINK` 형식의 URL 도우미를 사용하십시오. [딥링크에 대해 자세히 알아보기](../email/deeplinks.md)
+
+   ```
+   {{url originalUrl='<<deeplink_url>>' type='DEEPLINK' action='CLICK'}}
+   ```
+
+   >[!IMPORTANT]
+   >
+   >딥링크를 사용하기 전에 Journey Optimizer에서 해당 [구성 단계](../email/deeplinks.md#configuration)를 완료하고 모바일 앱에서 [딥링크 처리](../email/deeplinks.md#mobile-implementation)를 구현했는지 확인하십시오. 아직 수행하지 않았다면 딥링크는 사용자를 의도한 인앱 콘텐츠로 안내하지 않습니다.
+   >
+   >또한 여정 또는 캠페인의 **[!UICONTROL 작업]** 섹션에서 링크 추적이 활성화되어 있는지 확인하여 Adobe 시스템을 통해 URL이 다시 작성되도록 하십시오.
 
 1. 메시지를 작성할 때 SMS 길이를 모니터링하려면 **[!UICONTROL 문자 수]**&#x200B;를 사용하십시오. 실시간으로 업데이트되며, 콘텐츠가 여러 세그먼트로 전달되는 시기를 나타냅니다.
 

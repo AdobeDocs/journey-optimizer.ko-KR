@@ -9,10 +9,32 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 이벤트, 이벤트, 여정, 정의, 시작
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/xvLSBd-rwKKNqwQNDa4D8GfFzc-ND1FkC3EdstufkIY
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
+  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '2152'
-ht-degree: 26%
+source-wordcount: 2152
+ht-degree: 27%
 
 ---
 
@@ -86,7 +108,7 @@ ht-degree: 26%
 
 >[!NOTE]
 >
->Journey Optimizer에서 여정을 트리거하기 위해서는 이벤트를 Data Collection Core Service(DCCS)로 스트리밍해야 합니다. 일괄 수집된 이벤트, **쿼리 서비스**&#x200B;를 통해 삽입된 이벤트 또는 내부 Journey Optimizer 데이터 세트의 이벤트(메시지 피드백, 전자 메일 추적 등) 은(는) 여정을 트리거하는 데 사용할 수 없습니다. 스트리밍된 이벤트를 가져올 수 없는 사용 사례의 경우에는 대신 이 이벤트를 기반으로 대상자를 작성하고 **대상자 읽기** 활동을 사용합니다. 대상 자격은 기술적으로 사용할 수 있지만, 사용된 작업에 따라 다운스트림 문제를 발생시킬 수 있습니다. 이 데이터가 반드시 실시간 프로필로 이동할 필요는 없습니다. 세그멘테이션에 이벤트를 사용하려면 프로필에 데이터 세트를 활성화하는 것이 좋습니다.
+>Journey Optimizer에서 여정을 트리거하기 위해서는 이벤트를 Data Collection Core Service(DCCS)로 스트리밍해야 합니다. 배치로 수집된 이벤트, **쿼리 서비스**&#x200B;를 통해 삽입된 이벤트 또는 내부 Journey Optimizer 데이터 세트의 이벤트(메시지 피드백, 이메일 추적 등)는 여정을 트리거하는 데 사용할 수 없습니다. 스트리밍된 이벤트를 가져올 수 없는 사용 사례의 경우에는 대신 이 이벤트를 기반으로 대상자를 작성하고 **대상자 읽기** 활동을 사용합니다. 대상 자격은 기술적으로 사용할 수 있지만, 사용된 작업에 따라 다운스트림 문제를 발생시킬 수 있습니다. 이 데이터가 반드시 실시간 프로필로 이동할 필요는 없습니다. 세그멘테이션에 이벤트를 사용하려면 프로필에 데이터 세트를 활성화하는 것이 좋습니다.
 
 ## 선택 방법 {#choose-event-type}
 

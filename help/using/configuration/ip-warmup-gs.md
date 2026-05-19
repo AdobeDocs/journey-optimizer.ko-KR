@@ -2,23 +2,41 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: IP 준비 계획 시작
-description: IP 준비 계획을 구현하는 방법 알아보기
+description: IP 웜업 계획을 구현하는 방법 알아보기
 feature: IP Warmup Plans
 topic: Administration
 role: Admin
 level: Experienced
 keywords: IP, 전달성
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
-source-git-commit: 5dd6ebadd7b8c7490cb10496282697ce32ff3693
+TQID: https://experienceleague.adobe.com/xjJKrCXUmQY5sZu2w-B09agQh-tb4qkSXM0Vh2-TDnc
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: c343082f-e963-4f57-a96b-b64d27f8118e
+  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 43%
+source-wordcount: 459
+ht-degree: 0%
 
 ---
 
 # IP 준비 계획 시작 {#ip-warmup-gs}
 
-[!DNL Journey Optimizer]을(를) 사용하면 최적의 전달성을 위한 모범 사례를 따르는 표준화되고 효율적인 방식으로 사용자 인터페이스에서 직접 IP 워밍업 워크플로우를 쉽게 수행할 수 있습니다. 새로운 플랫폼을 사용하여 이메일이 전송되면 인터넷 서비스 공급자(ISP)는 인식되지 않는 IP 주소를 의심합니다. 대량의 이메일이 갑자기 전송되면 ISP는 해당 이메일을 스팸으로 표시하는 경우가 많습니다.
+[!DNL Journey Optimizer]을(를) 사용하면 최적의 전달성을 위한 모범 사례를 따르는 표준화되고 효율적인 방식으로 사용자 인터페이스에서 직접 IP 워밍업 워크플로우를 쉽게 수행할 수 있습니다. 새로운 플랫폼을 사용해 이메일을 보낼 때 인터넷 서비스 제공자(ISP)는 인지되지 않은 IP 주소를 의심하게 된다. 대량의 이메일이 갑자기 전송되면 ISP는 해당 이메일을 스팸으로 표시하는 경우가 많습니다.
 
 스팸으로 표시되지 않도록 하기 위해 IP 준비 계획 기능을 사용하여 전송되는 볼륨을 점진적으로 늘릴 수 있습니다. **[!UICONTROL 관리]** 메뉴의 이 새로운 옵션을 사용하면 복잡한 여정 구성 없이도 볼륨 관리를 자동화하고 준비 프로세스를 단순화할 수 있습니다.
 
@@ -46,15 +64,15 @@ Benefits
 
 IP 준비 계획을 구현하는 주요 단계는 다음과 같습니다.
 
-1. 먼저 IP 준비 옵션이 활성화된 캠페인을 하나 이상 만들어야 합니다. [자세히 알아보기](ip-warmup-campaign.md)
+1. 먼저 IP 웜업 옵션이 활성화된 캠페인을 하나 이상 만들어야 합니다. [자세히 알아보기](ip-warmup-campaign.md)
 
-1. [!DNL Journey Optimizer]에서 IP 준비 계획을 만들고 전달성 컨설턴트의 도움을 받아 준비된 Excel 시트를 업로드합니다. [자세히 알아보기](ip-warmup-plan.md)
+1. [!DNL Journey Optimizer]에서 IP 준비 계획을 만들고 게재 컨설턴트의 도움을 받아 준비된 Excel 시트를 업로드합니다. [자세히 알아보기](ip-warmup-plan.md)
 
-1. 계획의 각 단계에 대한 캠페인을 선택하고 해당 실행을 활성화합니다. [자세히 알아보기](ip-warmup-execution.md)
+1. 플랜의 각 단계에 대한 캠페인을 선택하고 해당 실행을 활성화합니다. [자세히 알아보기](ip-warmup-execution.md)
 
 ## 방법 비디오 {#video}
 
-IP 준비 계획을 만들고 실행하는 방법을 알아봅니다.
+IP 준비 계획을 만들고 실행하는 방법에 대해 알아봅니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3453847/?captions=kor&learn=on)
 

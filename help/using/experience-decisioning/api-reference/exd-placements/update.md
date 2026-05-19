@@ -6,10 +6,18 @@ topic: Integrations
 role: Developer
 level: Experienced
 version: Journey Orchestration
-source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
+exl-id: 74e090e1-4dbe-484b-a482-ef43e082e7b1
+TQID: https://experienceleague.adobe.com/6RpNeMQUn2qEfAzQ-Q7f7PgBRJCLqp7WnsoKx0xr12s
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 6%
+source-wordcount: 151
+ht-degree: 5%
 
 ---
 
@@ -23,7 +31,7 @@ ht-degree: 6%
 
 다음 표는 요청 헤더의 콘텐츠 유형 필드를 구성하는 유효한 값을 보여 줍니다.
 
-| 매개변수 | 설명 |
+| 매개 변수 | 설명 |
 | --------- | ----------- |
 | Content-Type | `application/json` |
 
@@ -33,7 +41,7 @@ ht-degree: 6%
 PUT /{ENDPOINT_PATH}/exd-placements/{ID}
 ```
 
-| 매개변수 | 설명 | 예 |
+| 매개 변수 | 설명 | 예 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 지속성 API의 끝점 경로입니다. | `https://platform.adobe.io/data/core/dps` |
 | `{ID}` | 업데이트하려는 엔티티의 ID입니다. | `placement1234` |
@@ -54,7 +62,7 @@ curl --location --request PUT 'https://platform-stage.adobe.io/data/core/dps/exd
 }'
 ```
 
-| 매개변수 | 설명 |
+| 매개 변수 | 설명 |
 | --------- | ----------- |
 | `value` | 매개 변수를 업데이트할 새 값입니다. |
 | `path` | 업데이트할 매개 변수의 경로입니다. |

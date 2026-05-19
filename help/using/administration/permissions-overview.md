@@ -9,10 +9,26 @@ role: Admin, Developer
 level: Intermediate
 keywords: 권한, 권한, 제한, 액세스, 샌드박스
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+TQID: https://experienceleague.adobe.com/VRUXM-o41h44PxMAKyafwqSHKmduyt48j4sr11Gh-EQ
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+subfeature_v2:
+  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 8%
+source-wordcount: 453
+ht-degree: 9%
 
 ---
 
@@ -39,7 +55,7 @@ Journey Optimizer에 대한 액세스 제어를 구성하려면 조직에 대한
 [!DNL Journey Optimizer]의 사용자 관리는 다음 주요 개념을 기반으로 합니다.
 
 * **[!UICONTROL 역할]**: 역할은 동일한 권한과 샌드박스를 공유하는 사용자 컬렉션을 참조합니다. 이러한 역할을 사용하면 조직 내의 다양한 사용자 그룹에 대한 액세스 및 권한을 쉽게 관리할 수 있습니다. 역할에는 사용자가 인터페이스의 특정 기능이나 개체에 액세스할 수 있도록 하는 통합된 권한(권한) 세트가 포함되어 있습니다.
-[!DNL Journey Optimizer]을(를) 사용하면 다양한 수준의 권한을 가진 기존 **[!UICONTROL 역할]** 범위 중에서 선택하여 사용자에게 할당할 수 있습니다. **이 페이지**&#x200B;에서 사용 가능한 [기본 제공 역할](ootb-product-profiles.md)에 대해 자세히 알아보세요.
+[!DNL Journey Optimizer]을(를) 사용하면 다양한 수준의 권한을 가진 기존 **[!UICONTROL 역할]** 범위 중에서 선택하여 사용자에게 할당할 수 있습니다. [이 페이지](ootb-product-profiles.md)에서 사용 가능한 **기본 제공 역할**&#x200B;에 대해 자세히 알아보세요.
 
 * **[!UICONTROL 권한]**: 권한은 **[!UICONTROL 역할]**&#x200B;에 할당된 권한을 정의할 수 있는 단일 권한입니다. 각 권한은 [!DNL Journey Optimizer]의 다양한 기능 또는 개체를 나타내는 리소스(예: 여정 또는 오퍼)에 수집됩니다. 자세한 내용은 [권한 수준](high-low-permissions.md) 섹션을 참조하십시오.
 

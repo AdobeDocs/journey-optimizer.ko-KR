@@ -10,10 +10,25 @@ role: User, Developer
 level: Intermediate
 exl-id: 3e45f3cf-e17e-43a6-8424-98afef07aaa3
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+TQID: https://experienceleague.adobe.com/UFE7I-hQM4jKPpclDl3avrcE-q-vwRq-c91WOLdPBgo
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 5%
+source-wordcount: 388
+ht-degree: 6%
 
 ---
 
@@ -88,7 +103,7 @@ ht-degree: 5%
 +++_experience > 의사 결정 > contentTypes > MIME 미디어 유형
 
 **제목:** MIME 미디어 유형
-**설명:** 해당 배치에 필요한 구성 요소의 미디어 유형에 대한 제한 사항입니다. 하나의 구성 요소(예: 다른 이미지 형식)에 대해 가능한 미디어 유형은 두 개 이상일 수 있습니다.
+**설명:** 해당 배치에 필요한 구성 요소의 미디어 유형에 대한 제약 조건입니다. 하나의 구성 요소(예: 다른 이미지 형식)에 대해 가능한 미디어 유형은 두 개 이상일 수 있습니다.
 **유형:** 문자열
 
 +++
@@ -97,7 +112,7 @@ ht-degree: 5%
 
 **필드:** 설명
 **제목:** 배치 설명
-**설명:** 동적 콘텐츠가 전체 메시지 게재에서 사용되는 방식에 대해 사람이 읽을 수 있는 의도를 전달하는 데 사용됩니다. 웹 페이지의 특정 공간이 \&quot;Banner\&quot;라는 사실은 대개 설명을 통해 전달되며, 공식적인 방법으로는 전달되지 않습니다.
+**설명:** 전체 메시지 게재에서 동적 콘텐츠가 사용되는 방식에 대해 사람이 읽을 수 있는 의도를 전달하는 데 사용됩니다. 웹 페이지의 특정 공간이 \&quot;Banner\&quot;라는 사실은 대개 설명을 통해 전달되며, 공식적인 방법으로는 전달되지 않습니다.
 **유형:** 문자열
 
 +++
@@ -106,7 +121,7 @@ ht-degree: 5%
 
 **필드:** 이름
 **제목:** 배치 이름
-**설명:** 상호 작용에서 참조할 수 있도록 배치에 할당된 이름입니다.
+**설명:** 사람 상호 작용에서 참조할 수 있도록 배치에 할당된 이름입니다.
 **유형:** 문자열
 
 +++

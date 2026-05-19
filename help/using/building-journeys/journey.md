@@ -2,31 +2,64 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 여정 시작
-description: 여정 시작 -  [!DNL Adobe Journey Optimizer]에서 개인화된 고객 경험을 만들기 위한 여정 유형, 워크플로, 기능 및 모범 사례에 대해 알아봅니다.
+description: 여정 시작 -  [!DNL Adobe Journey Optimizer]에서 개인화된 고객 경험을 만들기 위한 여정의 유형, 워크플로, 기능, 모범 사례에 대해 알아봅니다
 feature: Journeys, Get Started, Overview
 role: User
 level: Beginner, Intermediate
 keywords: 여정, 검색, 시작, 단일, 대상자 읽기, 대상자 선별, 비즈니스 이벤트, 실시간, 예약, 배치, 이벤트 트리거, 워크플로, 오케스트레이션, 개인화, 멀티채널
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/FsZLMlzVj6CcTqVp9BPUmiCf2piZL8zaj2WfWv8FMSQ
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
+  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+  - id: b9d00d1b-a371-4a75-a52a-3f8ea2029020
+  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
+  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+  - id: ead8d40a-1b24-451e-a7c4-b2f1acb19f2e
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1615'
-ht-degree: 82%
+source-wordcount: 1615
+ht-degree: 100%
 
 ---
-
 
 # 여정 시작 {#jo-general-principle}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_canvas"
 >title="여정 만들기"
->abstract="드래그 앤 드롭 캔버스를 사용하여 여러 채널에서 메시지와 액션을 오케스트레이션하고, 상황별 데이터와 대상자 타기팅을 활용하여 최대의 효과를 얻을 수 있습니다."
+>abstract="드래그 앤 드롭 캔버스를 사용하여 여러 채널에서 메시지와 액션을 오케스트레이션하고, 상황별 데이터와 대상자 타기팅을 활용하여 효과를 극대화합니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs" text="첫 여정 만들기"
 
 
-[!DNL Adobe Journey Optimizer]은(는) 대상자의 행동과 필요에 맞게 실시간으로 조정되는 개인화된 여러 단계로 구성된 고객 여정을 만들 수 있도록 해 줍니다. 직관적인 드래그 앤 드롭 캔버스를 사용하여 여러 채널에서 메시지와 액션을 오케스트레이션하고, 상황별 데이터와 대상자 타기팅을 활용하여 최대의 효과를 얻을 수 있습니다.
+[!DNL Adobe Journey Optimizer]에서는 대상자의 행동 및 요구에 실시간으로 적응하는 여러 단계의 개인화된 고객 여정을 만들 수 있습니다. 직관적인 드래그 앤 드롭 캔버스를 사용하여 여러 채널에서 메시지와 액션을 오케스트레이션하고, 상황별 데이터와 대상자 타기팅을 활용하여 최대의 효과를 얻을 수 있습니다.
 
 이 안내서에서는 여정의 기본을 이해하고 사용 사례에 적합한 여정 유형을 선택하며 의미 있고 시의적절한 고객 경험을 제공하는 여정을 자신 있게 설계하는 데 도움이 되는 명확한 로드맵을 제공합니다.
 
@@ -42,17 +75,17 @@ ht-degree: 82%
 
 ![팔레트, 캔버스, 속성 창이 있는 여정 디자이너 인터페이스](assets/journey38.png)
 
-➡️ **빌드를 시작할 준비가 되셨습니까?** 5분 후에 [첫 번째 여정 만들기](journey-gs.md).
+➡️ **작성을 시작할 준비가 되셨나요?** 5분이면 [첫 번째 여정 만들기](journey-gs.md)를 완료할 수 있습니다.
 
-### 여정과 캠페인: 각각 사용해야 하는 경우 {#journeys-vs-campaigns-intro}
+### 여정과 캠페인: 각 접근 방식을 사용해야 하는 경우 {#journeys-vs-campaigns-intro}
 
-[!DNL Adobe Journey Optimizer]은(는) 고객에게 도달하기 위한 세 가지 방법을 제공합니다. **여정**(1:1 실시간 오케스트레이션), **캠페인**(단순 일괄 처리 또는 API 트리거 게재) 및 **오케스트레이션된 캠페인**(다중 엔터티 데이터가 있는 일괄 처리 캔버스 워크플로).
+[!DNL Adobe Journey Optimizer]에서는 고객에게 도달하기 위한 세 가지 접근 방식을 제공합니다. 바로 **여정**(1:1 실시간 오케스트레이션), **캠페인**(단순 배치 또는 API 트리거 게재), **오케스트레이션된 캠페인**(다중 엔터티 데이터가 있는 배치 캔버스 워크플로)입니다.
 
 **빠른 결정:**
 
 * 각 고객이 원하는 속도로 진행하며 행동에 따라 결정되는 여러 단계의 경험에는 **여정** 사용
-* 대상자에 대한 단순, 예약 또는 트리거된 메시지 배달에 **작업 및 API 트리거된 캠페인**&#x200B;을(를) 사용합니다.
-* 다중 엔티티 세분화 및 정확한 사전 전송 카운트가 필요한 복잡한 일괄 처리 워크플로에 **오케스트레이션된 캠페인**&#x200B;을(를) 사용합니다.
+* 대상자에 대한 단순, 예약 또는 트리거 방식의 메시지 게재에는 **액션 및 API 트리거 캠페인** 사용
+* 다중 엔터티 세분화 및 전송 전에 정확한 카운트 파악이 필요한 복잡한 배치 워크플로에는 **오케스트레이션된 캠페인** 사용
 
 <!--
  waiting for DOCAC-13912
@@ -61,7 +94,7 @@ ht-degree: 82%
 
 ## 여정 유형 선택 {#journey-types}
 
-[!DNL Adobe Journey Optimizer]은(는) 각기 다른 시작 메커니즘과 비즈니스 시나리오에 맞게 디자인된 네 가지 여정 형식을 지원합니다.
+[!DNL Adobe Journey Optimizer]에서는 서로 다른 진입 메커니즘 및 비즈니스 시나리오에 맞추어 디자인된 4가지 여정 유형을 지원합니다.
 
 * **단일 여정**: 이벤트에 의해 트리거되는 실시간 경험(주문 확인, 환영 이메일)
 * **대상자 읽기 여정**: 대상자 세그먼트에 예약된 배치 커뮤니케이션 전송(뉴스레터, 프로모션 캠페인)
@@ -94,7 +127,7 @@ ht-degree: 82%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **메시지 보내기**
 
@@ -104,7 +137,7 @@ ht-degree: 82%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **논리 및 조건 추가**
 
@@ -118,7 +151,7 @@ ht-degree: 82%
 
 **데이터 활용**
 
-이벤트, [!DNL Adobe Experience Platform] 또는 타사 API 서비스의 컨텍스트 데이터를 사용합니다.
+이벤트, [!DNL Adobe Experience Platform] 또는 서드파티 API 서비스의 컨텍스트 데이터를 사용합니다.
 
 [데이터 소스 작업](../datasource/about-data-sources.md)
 :::
@@ -157,10 +190,10 @@ ht-degree: 82%
 
 디자이너를 열기 전에 목표를 명확히 설정해야 합니다.
 
-* **목표가 무엇입니까?** (예: 신규 고객 온보딩, 비활성 사용자 재참여)
-* **대상이 누구입니까?** (특정 세그먼트, 이벤트 기반 개인)
-* **어떤 여정 유형에 적합합니까?** (위의 [여정 유형](#journey-types)을 참조하십시오.)
-* **어떤 채널을 사용하시겠습니까?** (이메일, 푸시, SMS 등)
+* **목표는 무엇인가요?** (예: 신규 고객 온보딩, 비활성 사용자 재참여 유도)
+* **대상자는 누구인가요?** (특정 세그먼트, 이벤트 기반 개인)
+* **어떤 여정 유형이 적합한가요?** (위의 [여정 유형](#journey-types) 참조)
+* **어떤 채널을 사용하나요?** (이메일, 푸시, SMS 등)
 
 ### &#x200B;2. 캔버스에서 디자인 {#design}
 
@@ -174,7 +207,7 @@ ht-degree: 82%
 
 [여정 디자이너 사용 방법 알아보기 →](using-the-journey-designer.md)
 
-### &#x200B;3. 시작하기 전에 테스트 {#test}
+### &#x200B;3. 라이브 전환 전 테스트 {#test}
 
 항상 여정을 테스트하여 고객이 문제를 경험하기 전에 문제를 파악해야 합니다.
 
@@ -195,7 +228,7 @@ ht-degree: 82%
 
 [여정 게시 →](publish-journey.md)
 
-### &#x200B;5. 성능 모니터링 {#monitor}
+### &#x200B;5. 성과 모니터링 {#monitor}
 
 실제 환경에서 여정의 성과를 추적합니다.
 
@@ -216,7 +249,7 @@ ht-degree: 82%
 
 [여정 최적화 →](optimize.md) | [전송 시간 최적화 →](send-time-optimization.md)
 
-➡️ **시작할 준비가 되셨습니까?** [지금 첫 번째 여정 만들기 →](journey-gs.md)
+➡️ **시작할 준비가 되셨나요?** [지금 첫 여정을 만들어 보세요 →](journey-gs.md)
 
 ## 실제 사용 사례 {#use-cases}
 
@@ -225,7 +258,7 @@ ht-degree: 82%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **신규 구독자 환영**
 
@@ -235,7 +268,7 @@ ht-degree: 82%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **전송 시간 최적화**
 
@@ -275,7 +308,7 @@ AI를 사용하여 각 고객이 참여할 가능성이 가장 높은 시점에 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **모든 사용 사례**
 
@@ -303,7 +336,7 @@ AI를 사용하여 각 고객이 참여할 가능성이 가장 높은 시점에 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **표준 시간대 관리**
 
@@ -313,7 +346,7 @@ AI를 사용하여 각 고객이 참여할 가능성이 가장 높은 시점에 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **테스트 모드 및 시험 실행**
 
@@ -333,7 +366,7 @@ AI를 사용하여 각 고객이 참여할 가능성이 가장 높은 시점에 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **태그 및 구성**
 
@@ -362,7 +395,7 @@ AI를 사용하여 각 고객이 참여할 가능성이 가장 높은 시점에 
 
 >[!VIDEO](https://video.tv.adobe.com/v/3430355?captions=kor&quality=12)
 
-➡️ **더 많은 비디오를 원하십니까?** [여정 비디오 튜토리얼 살펴보기](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
+➡️ **더 많은 비디오를 시청하고 싶으신가요?** [여정 비디오 튜토리얼 살펴보기](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 
 ## 일반적인 질문 {#common-questions}
 
@@ -374,9 +407,9 @@ AI를 사용하여 각 고객이 참여할 가능성이 가장 높은 시점에 
 
 * **캠페인(액션 및 API 트리거)**: 단순히 메시지를 대상자에게 전달하며, 예약한 일정에 따라서나 API 트리거를 통해 모든 프로필에 동시에 실행됩니다. 프로모션 캠페인, 뉴스레터, 트랜잭션 메시지에 적합합니다.
 
-* **오케스트레이션된 캠페인**: 관계형 데이터(프로필 + 제품/스토어/예약)를 사용하여 복잡한 세분화를 사용하는 여러 단계 일괄 처리 워크플로우입니다. 모든 프로필이 한꺼번에 처리되며 정확한 사전 전송 수를 파악할 수 있습니다. 여러 엔터티의 데이터가 필요한 시즌 프로모션, 제품 출시, 캠페인에 적합합니다.
+* **오케스트레이션된 캠페인**: 관계형 데이터(프로필 + 제품/매장/예약)를 사용한 복잡한 세분화를 포함하는 다단계 배치 워크플로입니다. 모든 프로필이 한꺼번에 처리되며 정확한 사전 전송 수를 파악할 수 있습니다. 여러 엔터티의 데이터가 필요한 시즌 프로모션, 제품 출시, 캠페인에 적합합니다.
 
-**주요 차이점**: 여정은 실시간 작업에 대한 개별 고객 상태를 유지 관리합니다. 작업 및 API 트리거 캠페인은 간단한 메시지를 일괄적으로 전달합니다. 오케스트레이션된 캠페인은 다중 엔티티 세분화 기능이 있는 일괄 워크플로우 캔버스를 제공합니다.
+**주요 차이점**: 여정은 실시간 액션을 위해 개별 고객 상태를 유지합니다. 액션 및 API 트리거 캠페인은 간단한 메시지를 일괄적으로 전달합니다. 오케스트레이션된 캠페인은 다중 엔티티 세분화 기능을 갖춘 배치 워크플로 캔버스를 제공합니다.
 
 <!-- waiting for DOCAC-13912 - [See detailed comparison](#journeys-vs-campaigns) -->
 [오케스트레이션된 캠페인에 대해 알아보기](../orchestrated/gs-orchestrated-campaigns.md)
@@ -398,11 +431,11 @@ Use the [decision guide](#decision-guide) or [comparison table](#journey-types-c
 
 +++
 
-➡️ **추가 질문** 40개 이상의 상세 답변이 포함된 [전체 여정 FAQ 보기](journey-faq.md)
+➡️ **추가 질문** 자세한 답변 40개 이상이 포함된 [전체 여정 FAQ 보기](journey-faq.md)
 
 ## 도움이 필요하십니까? {#help}
 
-이 링크를 사용하여 지침, 문제 해결 및 리소스를 찾을 수 있습니다.
+이 링크를 사용하여 지침, 문제 해결, 리소스를 찾을 수 있습니다.
 
 ### 일반적인 작업에 대한 빠른 링크
 
@@ -423,4 +456,4 @@ Use the [decision guide](#decision-guide) or [comparison table](#journey-types-c
 * **[실행 문제 해결](troubleshooting-execution.md)** - 여정 실행 문제 디버그
 * **[인바운드 활동 문제 해결](troubleshooting-inbound.md)** - 진입 및 선별 문제 해결
 
-**첫 번째 여정을 만들 준비가 되셨습니까?** [지금 시작 →](journey-gs.md)
+**첫 번째 여정을 작성할 준비가 되셨나요?** [지금 시작 →](journey-gs.md)

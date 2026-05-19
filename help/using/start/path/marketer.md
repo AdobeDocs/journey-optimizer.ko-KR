@@ -7,10 +7,36 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+TQID: https://experienceleague.adobe.com/IShBBUqM44JIe07teFasScDIa-a1D2j-gCRVBHGfAv4
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
+  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1612'
-ht-degree: 84%
+source-wordcount: 1721
+ht-degree: 100%
 
 ---
 
@@ -20,20 +46,20 @@ ht-degree: 84%
 
 ## 필수 사항으로 시작
 
-Journey Optimizer는 실시간 고객 인사이트, 최신 옴니채널 오케스트레이션 및 지능형 의사 결정을 단일 애플리케이션에 통합합니다. 이메일, SMS, 푸시, 웹 푸시, 인앱, 웹, DM, 콘텐츠 카드 등에서 개인화되고 연결된 고객 경험을 만듭니다.
+Journey Optimizer는 실시간 고객 인사이트, 최신 옴니채널 오케스트레이션 및 지능형 의사 결정을 단일 애플리케이션에 통합합니다. 이메일, SMS, 푸시, 웹 프시, 인앱, 웹, 다이렉트 메일, 콘텐츠 카드 등에서 개인화되고 연결된 고객 경험을 만듭니다.
 
 Journey Optimizer는 두 가지 강력한 오케스트레이션 접근 방식을 제공합니다.
 
 * **여정**: 비헤이비어 또는 이벤트에 의해 트리거된 각 고객이 원하는 속도로 진행하는 실시간 일대일 참여
-* **오케스트레이션된 캠페인**: 워크플로우를 통해 대상자가 함께 진행하는 규모의 복잡한 여러 단계 일괄 처리 캠페인으로 계절별 프로모션, 제품 출시 또는 계정 기반 통신과 같은 브랜드 주도 캠페인에 적합합니다.
+* **오케스트레이션된 캠페인**: 워크플로를 통해 대상자가 함께 진행하는 대규모의 복잡한 다단계 배치 캠페인으로 시즌 프로모션, 제품 출시 또는 계정 기반 커뮤니케이션과 같은 브랜드 주도 캠페인에 적합
 
-[관리자](administrator.md)와(과) 협력하여 액세스 권한을 얻고 [데이터 엔지니어](data-engineer.md)와(과) 협력하여 고급 세분화를 위한 대상, 데이터 및 관계형 스키마를 설정하십시오. 여정 및 캠페인을 빌드하기 전에 필요한 데이터 설정을 이해하려면 [데이터 관리 시작하기](../../data/gs-data.md) 개요를 참조하십시오.
+[관리자](administrator.md)와 협력하여 액세스 권한을 얻고 [데이터 엔지니어](data-engineer.md)와 협력하여 고급 세분화를 위한 대상, 데이터, 관계형 스키마를 설정하세요. 여정 및 캠페인을 작성하기 전에 필요한 데이터 설정을 이해하려면 [데이터 관리 시작하기](../../data/gs-data.md) 개요를 참조하십시오.
 
 다음 핵심 단계에 따라 경험을 구축하세요.
 
 1. **대상자 만들기**. 세그먼트 정의를 통해 대상자를 만들거나, CSV 파일을 업로드하거나, 대상자 구성을 사용하세요. Journey Optimizer는 적합한 고객을 타깃팅하는 다양한 방법을 제공합니다. [대상](../../audience/about-audiences.md) 및 [세그먼트 정의 만들기](../../audience/creating-a-segment-definition.md)에 대해 자세히 알아보세요.
 
-1. **콘텐츠 디자인** 이메일, SMS, 푸시, 웹 푸시, 인앱, 웹, DM 및 콘텐츠 카드를 포함하여 모든 채널에서 매력적인 메시지를 만듭니다.
+1. **콘텐츠 디자인** 이메일, SMS, 푸시, 웹 푸시 인앱, 웹, 다이렉트 메일, 콘텐츠 카드를 포함하여 모든 채널에서 매력적인 메시지를 만듭니다.
    * **AI 어시스턴트**&#x200B;를 사용하여 브랜드 지침을 기반으로 이메일 콘텐츠, 제목 줄 및 이미지를 생성합니다. [AI 콘텐츠 생성에 대해 알아보기](../../content-management/gs-generative.md)
    * 고객 데이터, 다이내믹 콘텐츠 및 조건부 논리를 사용하여 **메시지를 개인화**&#x200B;합니다. [개인화에 대해 알아보기](../../personalization/personalize.md)
    * 이벤트, 사용자 지정 작업 및 데이터 집합 조회의 동적 목록을 표시하려면 **상황별 데이터를 반복합니다**. [상황별 데이터 반복에 대해 알아보기](../../personalization/iterate-contextual-data.md)
@@ -43,7 +69,7 @@ Journey Optimizer는 두 가지 강력한 오케스트레이션 접근 방식을
 
    ![](../assets/perso_ee2.png)
 
-1. **오퍼 및 의사 결정 추가**. AI 기반 의사 결정을 사용하여 각 고객에게 적시에 최상의 오퍼를 제공합니다. Decisioning을 사용하여 푸시, SMS 및 기타 채널을 개인화합니다. [의사 결정 관리](../../offers/get-started/starting-offer-decisioning.md) 및 [의사 결정](../../experience-decisioning/gs-experience-decisioning.md)에 대해 알아봅니다.
+1. **오퍼 및 의사 결정 추가**. AI 기반 의사 결정을 사용하여 각 고객에게 적시에 최상의 오퍼를 제공합니다. 의사 결정을 사용하여 푸시, SMS, 기타 채널을 개인화합니다. [의사 결정 관리](../../offers/get-started/starting-offer-decisioning.md) 및 [의사 결정](../../experience-decisioning/gs-experience-decisioning.md)에 대해 알아봅니다.
 
    ![](../assets/offers-e2e-offers-displayed.png)
 
@@ -56,15 +82,15 @@ Journey Optimizer는 두 가지 강력한 오케스트레이션 접근 방식을
 
    [메시지 테스트 및 유효성 검사](../../content-management/preview-test.md)하는 방법을 알아보세요.
 
-1. **고객 여정 작성**. 여정 캔버스를 사용하여 실시간으로 개인화된 경험을 만듭니다. AI Assistant의 **Journey Agent**&#x200B;을(를) 사용하여 자연어 프롬프트에서 여정을 만드십시오. [Journey Agent에 대해 알아보기](../ai-features.md#journey-agent)
+1. **고객 여정 작성**. 여정 캔버스를 사용하여 개인화된 실시간 경험을 만듭니다. AI 어시스턴트의 **Journey 에이전트**&#x200B;를 사용하여 자연어 프롬프트로 여정을 만듭니다. [Journey 에 대해 알아보기](../ai-features.md#journey-agent)
 
    * **이벤트**(고객 작업) 또는 **대상**(일괄 전송)으로 여정 트리거
    * 고객 데이터를 기반으로 개인화된 경로를 만들려면 **조건**&#x200B;을 추가하세요.
-   * 모든 채널 작업(이메일, 푸시, SMS 등)에 통합 **작업 활동**&#x200B;을 사용하십시오. [작업 활동에 대해 알아보기](../../building-journeys/journey-action.md)
-   * 개인화된 오퍼를 여정 흐름에 직접 통합하려면 **콘텐츠 결정 활동**&#x200B;을 추가하세요. [콘텐츠 결정 활동에 대해 알아보기](../../building-journeys/content-decision.md)
+   * 모든 채널 액션(이메일, 푸시, SMS 등)에 통합 **액션 활동**&#x200B;을 사용합니다. [액션 활동에 대해 알아보기](../../building-journeys/journey-action.md)
+   * 개인화된 오퍼를 여정 흐름에 직접 통합하려면 **콘텐츠 결정 활동**&#x200B;을 추가. [콘텐츠 결정 활동에 대해 알아보기](../../building-journeys/content-decision.md)
    * **대기 활동**&#x200B;을 사용하여 메시지 사이에 완벽한 타이밍을 만드세요.
    * 한 여정 내에서 **여러 채널**&#x200B;을 통해 메시지 보내기
-   * **웨이브 전송**&#x200B;을(를) 사용하여 제어된 배치로 메시지를 전달합니다(여정의 제한된 가용성).
+   * **웨이브 전송**&#x200B;을 사용하여 제어되는 배치 단위로 메시지 게재(제한된 가용성으로 여정에만 사용 가능)
    * **A/B 테스트**&#x200B;를 적용하고 전송 시간을 최적화하여 참여를 극대화합니다.
    * **데이터 세트 조회**&#x200B;를 사용하여 Adobe Experience Platform의 실시간 데이터로 여정을 보강합니다. [데이터 세트 조회 알아보기](../../building-journeys/dataset-lookup.md)
    * **보조 식별자**&#x200B;를 활용하여 동일한 프로필로 여러 여정 인스턴스(예: 다른 주문 또는 예약)에 참여할 수 있도록 합니다. [보조 식별자 알아보기](../../building-journeys/supplemental-identifier.md)
@@ -81,7 +107,7 @@ Journey Optimizer는 두 가지 강력한 오케스트레이션 접근 방식을
    * 계절별 프로모션, 제품 출시, 로열티 오퍼 또는 계정 기반 마케팅을 위한 **다단계 워크플로**&#x200B;를 디자인합니다.
    * 캠페인을 즉시 실행하거나, 특정 시간에 실행하거나, 되풀이 일정(매일, 매주, 매월)에 따라 실행하도록 예약합니다.
    * 모든 프로필이 워크플로를 통해 함께 진행되는 **배치 모드**&#x200B;에서 대상자를 처리합니다.
-   * 더 나은 전달성 및 로드 제어를 위해 제어된 배치로 메시지를 전달하려면 **웨이브 전송**&#x200B;을 사용하세요.
+   * 전달성 및 로드 제어를 개선하기 위해 제어되는 배치 단위로 메시지를 게재하려면 **웨이브 전송**&#x200B;을 사용합니다
 
    [오케스트레이션 캠페인을 시작](../../orchestrated/gs-orchestrated-campaigns.md)하는 방법과 언제 [캠페인과 여정을 사용](../../orchestrated/orchestrated-campaigns-faq.md)해야 하는지 알아봅니다.
 
@@ -90,8 +116,8 @@ Journey Optimizer는 두 가지 강력한 오케스트레이션 접근 방식을
    * **메시지 게재** 비율 및 참여 지표 분석
    * Customer Journey Analytics 통합으로 **보고 대시보드** 사용
    * **전환** 및 비즈니스 영향 추적
-   * 과도한 통신을 방지하기 위해 충돌 관리 규칙을 사용하여 **메시지 빈도 및 우선 순위 지정**&#x200B;을(를) 관리합니다.
-   * 특정 기간 동안 보내지 않으려면 **방해 금지 시간**(시간 기반 제외)을 사용합니다. [충돌 관리에 대해 알아보기](../../conflict-prioritization/gs-conflict-prioritization.md) 및 [방해 금지 시간](../../conflict-prioritization/quiet-hours.md)
+   * 과도한 커뮤니케이션을 방지하기 위해 충돌 관리 규칙으로 **메시지 빈도와 우선순위** 관리
+   * 특정 기간 동안 보내지 않으려면 **방해 금지 시간**(시간 기반 제외)을 사용합니다. [충돌 관리](../../conflict-prioritization/gs-conflict-prioritization.md) 및 [방해 금지 시간에 대해 알아보기](../../conflict-prioritization/quiet-hours.md)
 
    [성능 모니터링](../../reports/report-gs-cja.md) 방법을 알아봅니다.
 

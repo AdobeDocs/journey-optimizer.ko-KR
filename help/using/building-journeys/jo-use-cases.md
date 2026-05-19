@@ -9,10 +9,33 @@ level: Intermediate, Experienced
 keywords: 사용 사례, 다중 채널, 여정, 이벤트
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+TQID: https://experienceleague.adobe.com/2CSLnzEioabgXOTNK8fm-uq6gjq63tVdry3UWMai4oU
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 8%
+source-wordcount: 1134
+ht-degree: 16%
 
 ---
 
@@ -53,7 +76,7 @@ ht-degree: 8%
     <div>
     <a href="../data/datasets-query-examples.md">
     <img alt="쿼리 샘플" src="../assets/do-not-localize/icon-configure.svg"/></a> 
-    <br>사용 사례를 만들려면 추적 경험 이벤트를 수집하기 위한 시스템 데이터 세트, 여정에서 단계 이벤트를 수집하기 위한 데이터 세트, 사용자에게 오퍼 제안을 수집하기 위한 데이터 세트 등과 같은 [!DNL Adobe Journey Optimizer] 데이터 세트를 쿼리해야 합니다.
+    <br>사용 사례를 만들려면 추적 경험 이벤트를 수집하기 위한 시스템 데이터 세트, 여정의 단계 이벤트를 수집하기 위한 데이터 세트, 사용자에게 오퍼 제안을 수집하기 위한 데이터 세트 등과 같은 [!DNL Adobe Journey Optimizer] 데이터 세트를 쿼리해야 합니다.
     </div>
       <div>
      <a href="../data/datasets-query-examples.md">자세히 알아보기</a></div>
@@ -205,7 +228,7 @@ ht-degree: 8%
 <td>
 <img alt="여정의 단계 이벤트" src="../assets/do-not-localize/list.jpeg">
 <div>
-<a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-step-events-in-adobe-journey-optimizer-fundamentals/ba-p/762024?profile.language=ko" target="_blank">에서 [!DNL Adobe Journey Optimizer]단계 이벤트 마스터하기: 데이터 기반 캠페인을 위한 기본, 스키마 및 필수 쿼리
+[!DNL Adobe Journey Optimizer]에서 <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-step-events-in-adobe-journey-optimizer-fundamentals/ba-p/762024?profile.language=ko" target="_blank">단계 이벤트 마스터하기: 데이터 기반 캠페인을 위한 기본, 스키마 및 필수 쿼리
 </a></p>
 <p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/fast-external-audience-activation-with-custom-upload/ba-p/761658?profile.language=ko" target="_blank">사용 사례: 사용자 정의 업로드를 통한 빠른 외부 Audience Activation</a></p>
 <p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/personalization-beyond-the-ajo-profile-bringing-non-profile/ba-p/769225?profile.language=ko" target="_blank">사용 사례: 프로필 이후의 Personalization

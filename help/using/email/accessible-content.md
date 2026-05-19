@@ -9,10 +9,28 @@ role: User
 level: Beginner, Intermediate
 keywords: 이메일, 디자인, 접근성
 exl-id: 78011ec0-a3b6-4d4e-ab4b-9da032c283a2
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+TQID: https://experienceleague.adobe.com/aV2B02I-zFMavzM3OuLJnihia0YOenMn3FXsJXfpdJs
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b19d9237-76be-466d-a869-aacf2d72205f
+  - id: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8
+  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1652'
-ht-degree: 1%
+source-wordcount: 1696
+ht-degree: 0%
 
 ---
 
@@ -22,7 +40,7 @@ ht-degree: 1%
 
 이 규정은 이메일, 뉴스레터, PDF 및 다운로드 가능한 콘텐츠를 포함한 모든 디지털 통신에 액세스할 수 있어야 한다고 명시합니다. 따라서 수신자를 위한 컨텐츠를 만들 때는 액세스 가능한 글꼴, 읽을 수 있는 형식 및 이미지에 대한 대체 텍스트 제공과 같은 특정 지침을 따라야 합니다.
 
-마케터가 [!DNL Journey Optimizer]이메일[&#x200B; 및 &#x200B;](content-from-scratch.md)랜딩 페이지&#x200B;**에 대한 콘텐츠를 모두 만들 수 있는** **이메일 Designer**&#x200B;을(를) 사용하면 WCAG(Web Content Accessibility Guidelines) 2.1, 레벨 AA를 기반으로 이 지시문을 쉽게 준수할 수 있습니다.
+마케터가 **이메일** 및 **랜딩 페이지**&#x200B;에 대한 콘텐츠를 모두 만들 수 있는 [!DNL Journey Optimizer] [이메일 Designer](content-from-scratch.md)을(를) 사용하면 WCAG(Web Content Accessibility Guidelines) 2.1, 레벨 AA를 기반으로 이 지시문을 쉽게 준수할 수 있습니다.
 
 이에 따라 [!DNL Journey Optimizer]을(를) 사용하여 액세스 가능한 콘텐츠를 디자인하는 모범 사례가 아래에 나와 있습니다.
 
@@ -96,7 +114,7 @@ ht-degree: 1%
 디지털 제품의 효과적인 대체 텍스트를 보려면 아래 지침을 따르십시오.
 
 * 이미지의 목적을 간결하고 상황에 맞게 설명하십시오.
-* ...의 이미지&quot;와 같은 중복 구문을 피하고 장식 이미지에 빈 대체 텍스트를 사용합니다.
+* &quot;이미지 ...&quot;와 같은 중복 구문을 피하십시오. 장식용 이미지에는 빈 대체 텍스트를 사용하십시오.
 * 의미가 있는 아이콘의 경우 의미 있는 레이블을 제공하고, 복잡한 이미지의 경우에는 다른 곳에서 간단한 대체 텍스트와 더 긴 설명을 사용하십시오.
 
 ## 읽을 수 있는 형식 사용 {#readable-format}
@@ -162,7 +180,7 @@ ht-degree: 1%
 
 * `lang` 특성은 단어를 올바로 발음하도록 보조 기술에 대한 전자 메일의 언어를 나타냅니다.
 
-  +++예시
+  +++예
 
   영어의 예:
 
@@ -180,7 +198,7 @@ ht-degree: 1%
 
 * `dir` 특성은 텍스트 방향을 지정합니다. 영어와 프랑스어를 포함한 대부분의 언어는 왼쪽에서 오른쪽으로(ltr) 읽지만, 아랍어와 히브리어 같은 언어는 오른쪽에서 왼쪽으로(rtl) 읽습니다.
 
-  +++예시
+  +++예
 
   영어의 예(왼쪽에서 오른쪽):
 
@@ -202,7 +220,7 @@ ht-degree: 1%
 >
 >전자 메일에 여러 언어가 포함되어 있는 경우 각 부분이 올바르게 읽히도록 특정 섹션(예: `<table>` 또는 `<td>` 블록)에 적절한 언어 특성을 할당하십시오.
 
-### 테이블 {#tables}
+### 표 {#tables}
 
 HTML 컨텐츠에서 테이블은 종종 레이아웃에 사용됩니다. 기본적으로 화면 판독기는 행, 열 및 구조를 알리는 모든 `<table>`을(를) 데이터 테이블로 취급합니다. 이 경우 표를 포맷에만 사용하는 경우 혼동을 줄 수 있습니다.
 

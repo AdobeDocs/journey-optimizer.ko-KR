@@ -8,10 +8,28 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+TQID: https://experienceleague.adobe.com/tcx8KXGtorgevwLUj6rnvoE1mFYESJ4VaLL2vn3aZfA
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 10%
+source-wordcount: 811
+ht-degree: 11%
 
 ---
 
@@ -47,7 +65,7 @@ ht-degree: 10%
 
 * **캠페인** 대상자를 선택하면 선택한 대상자에 속하는 모든 개인에게 메시지를 보냅니다. [캠페인의 대상자를 정의하는 방법을 알아봅니다](../campaigns/create-campaign.md#define-the-audience-audience).
 
-* 여정에서 **대상자 읽기** 오케스트레이션 활동을 사용하여 대상자의 모든 개인이 여정을 입력하고 여정에 포함된 메시지를 받도록 합니다. “실버 고객”이라는 대상자가 있다고 가정해 보겠습니다. 이 활동을 통해 모든 실버 고객이 여정을 입력하도록 할 수 있습니다. 그런 다음 일련의 개인화된 메시지를 보낼 수 있습니다. [대상자 읽기 활동을 구성하는 방법을 알아보세요](../building-journeys/read-audience.md#configuring-segment-trigger-activity). 여정을 입력한 후 세그먼트를 세그먼트화하거나, 제외하거나, 병합하려면 [대상의 대상 타깃팅](../building-journeys/read-audience.md#audience-targeting-in-journeys)을 참조하세요.
+* 여정에서 **대상자 읽기** 오케스트레이션 활동을 사용하여 대상자의 모든 개인이 여정을 입력하고 여정에 포함된 메시지를 받도록 합니다. “실버 고객”이라는 대상자가 있다고 가정해 보겠습니다. 이 활동을 통해 모든 실버 고객이 여정을 입력하도록 할 수 있습니다. 그런 다음 일련의 개인화된 메시지를 보낼 수 있습니다. [대상자 읽기 활동을 구성하는 방법을 알아봅니다](../building-journeys/read-audience.md#configuring-segment-trigger-activity). 여정을 입력한 후 세그먼트를 세그먼트화하거나, 제외하거나, 병합하려면 [대상의 대상 타깃팅](../building-journeys/read-audience.md#audience-targeting-in-journeys)을 참조하세요.
 
   입력 후 **Condition** 활동을 사용하여 [특성 또는 동작별로 세그먼트화하거나, 모집단의 일부를 제외하거나, 분기를 병합합니다](../building-journeys/read-audience.md#audience-targeting-in-journeys).
 

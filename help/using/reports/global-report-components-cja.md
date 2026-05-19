@@ -8,9 +8,28 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: aa060d8e-23e2-4bab-b709-636077eb5d20
-source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
+TQID: https://experienceleague.adobe.com/4gzLvShm8zKHTfFLYU7FR8LxaC3F1uUs9HXcln6NL5w
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '2189'
+source-wordcount: 2213
 ht-degree: 0%
 
 ---
@@ -156,7 +175,7 @@ ht-degree: 0%
   </tr>
   <tr> 
    <td> 고유 클릭수<br/> </td> 
-   <td> 이메일에서 콘텐츠를 클릭한 프로필 수입니다.<br> 고유 클릭수를 계산할 때 지난 10일을 고려합니다. 프로필에서 10일 기간 내에 여러 번의 클릭을 등록하는 경우 고유 클릭으로 카운트됩니다. 그러나 프로필에서 10일 이상 떨어진 두 번의 클릭은 고유한 클릭으로 간주되지 않습니다.<br/> </td> 
+   <td> 전자 메일의 콘텐츠를 클릭한 프로필 수입니다.<br> 고유 클릭수를 계산할 때에는 지난 10일이 고려됩니다. 프로필에서 10일 기간 내에 여러 번의 클릭을 등록하는 경우 고유 클릭으로 카운트됩니다. 그러나 프로필에서 10일 이상 떨어진 두 번의 클릭은 고유한 클릭으로 간주되지 않습니다.<br/> </td> 
   </tr>
   <tr> 
    <td>고유 클릭스루 열람율<br/> </td> 
@@ -180,7 +199,7 @@ ht-degree: 0%
   </tr>
   <tr> 
    <td> 고유 열기 수<br/> </td> 
-   <td> 게재를 연 프로필 수입니다. <br> 고유 열람수를 계산할 때 지난 10일을 고려합니다. 프로필에서 10일 기간 내에 여러 개의 열기를 등록하는 경우 고유 열림으로 계산됩니다. 그러나 프로필의 열기가 10일 이상 차이가 나면 고유한 열기로 간주되지 않습니다.<br/> </td> 
+   <td> 게재를 연 프로필 수입니다. <br> 고유 열람 수를 계산할 때에는 지난 10일이 고려됩니다. 프로필에서 10일 기간 내에 여러 개의 열기를 등록하는 경우 고유 열림으로 계산됩니다. 그러나 프로필의 열기가 10일 이상 차이가 나면 고유한 열기로 간주되지 않습니다.<br/> </td> 
   </tr> 
   <tr>
   <tr> 

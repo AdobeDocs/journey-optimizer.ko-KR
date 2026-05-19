@@ -5,10 +5,28 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner, Intermediate
 exl-id: 01e74670-7431-4791-b98c-12278e6d3332
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/hs1F6tz-XHYH6u8jO4kspRcX-ftY-SwilqMfcaLhTfg
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: ea4139d9-3405-4b34-ad6e-c3ca120cc269
+  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 9%
+source-wordcount: 667
+ht-degree: 0%
 
 ---
 
@@ -17,7 +35,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_brand_score"
 >title="브랜드 정렬 점수"
->abstract="브랜드 정렬 점수는 콘텐츠가 브랜드의 지침을 얼마나 잘 준수하는지 측정하여 색상, 글꼴, 로고, 이미지 및 작성 스타일에서의 일관성을 보장합니다."
+>abstract="브랜드 정렬 점수는 색상, 글꼴, 로고, 이미지 및 작성 스타일의 일관성을 보장하면서 콘텐츠가 브랜드 지침을 얼마나 준수하는지 측정합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_colors"
@@ -36,7 +54,7 @@ ht-degree: 9%
 
 >[!AVAILABILITY]
 >
->Adobe Journey Optimizer에서 AI 도우미를 사용하려면 먼저 [사용자 동의](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
+>Adobe Journey Optimizer에서 AI 도우미를 사용하려면 먼저 [사용자 동의](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
 브랜드 정렬 기능은 브랜드 지침을 준수하는 콘텐츠를 만들고, 검토하고, 관리하는 데 도움이 됩니다. 이메일 캠페인 전반에 걸쳐 톤, 메시징 및 시각적 ID의 일관성을 보장하는 동시에 콘텐츠가 라이브로 전환되기 전에 품질을 확인하는 역할을 합니다.
 
@@ -128,7 +146,7 @@ ht-degree: 9%
 
 1. 품질 점수를 새로 고치려면 변경한 후 **[!UICONTROL 점수 다시 평가]**&#x200B;를 클릭하십시오.
 
-## 사용 방법 비디오 {#video}
+## 방법 비디오 {#video}
 
 아래 비디오에서는 고유한 브랜드를 만들고 사용자 정의하여 커뮤니케이션 전반에 걸쳐 시각적 및 언어적 정체성을 명확하게 정의하는 방법을 보여줍니다.
 
