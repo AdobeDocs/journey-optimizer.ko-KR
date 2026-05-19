@@ -305,10 +305,6 @@ IP 준비 계획을 만들려면 아래 단계를 수행합니다.
 
 1. IP 준비 계획이 포함된 Excel 파일을 업로드합니다. [자세히 알아보기](#prepare-file)
 
-   <!--
-    You can also download the Excel template from the [!DNL Journey Optimizer] user interface and upload it after filling it with the IP warmup details.
-—>
-
     ![](assets/ip-warmup-upload-success.png)
     
     >[!NOTE]
