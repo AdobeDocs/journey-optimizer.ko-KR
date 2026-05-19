@@ -10,24 +10,11 @@ level: Experienced
 keywords: 작업, 서드파티, 사용자 지정, 여정, API
 exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
 TQID: https://experienceleague.adobe.com/SBF--1O5Edtk2OKch-n0ukkfxsTwRn-lLqBPncM-UAk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944fid: bb359667-ec7d-4d4b-8663-5850fc219d32id: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1051
@@ -47,7 +34,7 @@ Journey Optimizer 사용자 인터페이스의 관리 섹션에서 API 호출을
 
 >[!NOTE]
 >
->조직에서 IP(이그레스) 프록시를 사용하도록 설정한 경우 **[!UICONTROL 테스트 요청 보내기]** 호출이 이를 무시합니다. 프록시 라우팅을 확인하려면 테스트 또는 라이브 여정을 실행하십시오. [외부 시스템과 통합](../configuration/external-systems.md#faq)에서 IP(이그레스) 프록시 및 활성화에 대해 자세히 알아보세요.
+조직에서 IP(이그레스) 프록시를 사용하도록 설정한 경우 **[!UICONTROL 테스트 요청 보내기]** 호출이 이를 무시합니다. 프록시 라우팅을 확인하려면 테스트 또는 라이브 여정을 실행하십시오. [외부 시스템과 통합](../configuration/external-systems.md#faq)에서 IP(이그레스) 프록시 및 활성화에 대해 자세히 알아보세요.
 
 
 ## 전제 조건 {#troubleshoot-custom-action-prereq}
@@ -76,7 +63,7 @@ Journey Optimizer 사용자 인터페이스의 관리 섹션에서 API 호출을
 
      >[!NOTE]
      >
-     >Adobe Journey Optimizer은 이 JSON의 구조가 잘못된 경우 오류를 발생시키지만 데이터 유형과 불일치하는 경우 오류를 발생시키지 않습니다. 예를 들어 문자열이어야 하는 항목에 정수 매개 변수를 사용하는 경우 오류가 발생하지 않습니다.
+     Adobe Journey Optimizer은 이 JSON의 구조가 잘못된 경우 오류를 발생시키지만 데이터 유형과 불일치하는 경우 오류를 발생시키지 않습니다. 예를 들어 문자열이어야 하는 항목에 정수 매개 변수를 사용하는 경우 오류가 발생하지 않습니다.
 
    * 인증이 정의된 경우 인증 세부 정보를 입력하라는 메시지가 표시됩니다.
 

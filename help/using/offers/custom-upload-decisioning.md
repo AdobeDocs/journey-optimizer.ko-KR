@@ -10,19 +10,11 @@ level: Intermediate
 exl-id: bd950410-691b-49d8-8851-8c6c448c00fd
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/ffeoNY5SR6RmhqfGzpDwryo0Ss7XL4td-9gnQm15Sik
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: c132d929-fa62-4271-803e-b823be07b914
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: c132d929-fa62-4271-803e-b823be07b914id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 641
@@ -46,7 +38,7 @@ ht-degree: 5%
 사용자 지정 업로드 대상자에 대한 자세한 내용은 다음 섹션을 참조하십시오.
 
 * [대상자 및 Journey Optimizer 시작](../audience/about-audiences.md)
-* [Adobe Experience Platform에서 대상자 가져오기](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
+* [Adobe Experience Platform에서 대상자 가져오기](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
 
 ## 반드시 알아야 할 사항 {#must-read}
 

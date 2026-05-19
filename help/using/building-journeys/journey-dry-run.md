@@ -10,30 +10,12 @@ keywords: 게시, 여정, 라이브, 유효성, 확인
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/a7qFw84obtkCRDmiqMxQNgvqhI4b6t5suROeF7ZPh1I
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: da923278-9c80-47b0-bebd-b68c341e76fb
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: baecb07f-ce89-4ebb-9cd9-0f7c053f944fid: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: da923278-9c80-47b0-bebd-b68c341e76fbid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1158
@@ -83,7 +65,7 @@ ht-degree: 15%
 
   ![시험 실행 여정의 작업 활동이 회색으로 표시됨](assets/dry-run-greyed-activities.png){width="80%" align="left"}
 
-* **외부 데이터 원본을 포함한 데이터 원본** 및 **대기** 활동은 기본적으로 시험 실행 중에 비활성화되어 있습니다. 그러나 시험 실행 모드를 활성화[&#128279;](#journey-dry-run-start)할 때 이 동작을 변경할 수 있습니다.
+* **외부 데이터 원본을 포함한 데이터 원본** 및 **대기** 활동은 기본적으로 시험 실행 중에 비활성화되어 있습니다. 그러나 시험 실행 모드를 활성화](#journey-dry-run-start)할 때 이 동작을 [변경할 수 있습니다.
 
 * **반응** 노드가 실행되지 않습니다. 입력한 모든 프로필이 성공하면 종료됩니다. 그러나 다음 우선순위 규칙이 적용됩니다.
    * **Reaction** 노드를 하나 또는 여러 **단일 이벤트** 노드와 병렬로 사용하면 프로필은 항상 반응 이벤트를 통과합니다.
@@ -174,4 +156,4 @@ stepEvent 데이터를 **외부 시스템**(으)로 내보내는 경우 `inDryRu
 
 이 비디오에서는 여정을 시험 실행하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464689/?captions=kor&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)

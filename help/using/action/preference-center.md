@@ -10,26 +10,11 @@ level: Experienced
 keywords: 정책, 거버넌스, 플랫폼, 동의, 헬스케어 실드
 exl-id: a3e68015-c8f8-4b01-8171-f39d70b7e59d
 TQID: https://experienceleague.adobe.com/TPg5xSOHgXIBE4trUJiI3MoKjSGqvT1NtGI2Cg7ynFo
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 941
@@ -81,13 +66,13 @@ ht-degree: 10%
    >
    >고객 동의 및 연락처 환경 설정은 복잡한 주제입니다. 동의 및 컨텍스트 환경 설정을 [!DNL Experience Platform]에서 수집, 처리 및 필터링하는 방법에 대해 알아보려면 다음 문서를 읽는 것이 좋습니다.
    >
-   >* 동의 데이터를 수집하는 데 필요한 스키마 필드 그룹에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview){target="_blank"}를 참조하세요. 고객으로부터 수집한 동의 데이터를 처리하고 저장된 고객 프로필에 통합하는 방법에 대해 자세히 설명합니다.
-   >* 동의 및 환경 설정 필드 그룹에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/field-groups/profile/consents#ingest){target="_blank"}를 참조하세요.
-   >* 사용자 지정 환경 설정 필드를 스키마에 추가하려면 [이 섹션](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/governance-privacy-security/consent/adobe/dataset#custom-consent){target="_blank"}의 단계를 따르십시오.
+   >* 동의 데이터를 수집하는 데 필요한 스키마 필드 그룹에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview){target="_blank"}를 참조하세요. 고객으로부터 수집한 동의 데이터를 처리하고 저장된 고객 프로필에 통합하는 방법에 대해 자세히 설명합니다.
+   >* 동의 및 환경 설정 필드 그룹에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/consents#ingest){target="_blank"}를 참조하세요.
+   >* 사용자 지정 환경 설정 필드를 스키마에 추가하려면 [이 섹션](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/adobe/dataset#custom-consent){target="_blank"}의 단계를 따르십시오.
 
 1. 고객의 환경 설정을 캡처할 페이지를 만듭니다. 다음 방법 중 하나를 사용하십시오.
 
-   * [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/home){target="_blank"}를 사용하여 고객의 환경 설정을 기록할 웹 페이지를 만듭니다.
+   * [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home){target="_blank"}를 사용하여 고객의 환경 설정을 기록할 웹 페이지를 만듭니다.
 
    * 프로필 데이터를 통해 고객의 환경 설정을 캡처하는 양식을 포함하는 [!DNL Journey Optimizer] [랜딩 페이지](../landing-pages/create-lp.md)를 사용합니다.  [양식에 대해 자세히 알아보기](../landing-pages/lp-forms.md) <!--Forms not released/announced yet - TBC-->
 
@@ -137,9 +122,9 @@ Consent policies are comprised of two logical components:
 
     예를 들어 이메일 뉴스레터 수신을 옵트아웃하지 않은 고객에게만 커뮤니케이션을 보내려면 사용자 지정 정책을 만들고 다음 조건을 정의합니다.
     
-    * **[!UICONTROL 마케팅 액션]**&#x200B;이 **[!UICONTROL 이메일]**
+    * **[!UICONTROL 마케팅 액션]**이 **[!UICONTROL 이메일]**
     
-    *인 경우 **[!UICONTROL 뉴스레터_이메일]**&#x200B;이 존재하지 않습니다 **[!UICONTROL false]** 또는 **[!UICONTROL 뉴스레터_이메일]**&#x200B;이 존재하지 않습니다 **[!UICONTROL false]**
+    *인 경우 **[!UICONTROL 뉴스레터_이메일]**이 존재하지 않습니다 **[!UICONTROL false]** 또는 **[!UICONTROL 뉴스레터_이메일]**이 존재하지 않습니다 **[!UICONTROL false]**
     
     ![]&#x200B;(assets/consent-policy-email-newsletter.png){width=80%}
     

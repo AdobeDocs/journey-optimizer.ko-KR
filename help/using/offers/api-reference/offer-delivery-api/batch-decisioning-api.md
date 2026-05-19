@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: 일괄 의사 결정 API
+title: Batch Decisioning API
 description: Batch Decisioning API를 사용하여 사전 정의된 결정 범위 내에서 대상자 프로필에 대한 최상의 오퍼를 선택하는 방법을 알아봅니다.
 badge: label="레거시" type="Informative"
 feature: Decision Management, API
@@ -11,22 +11,14 @@ level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/2FrtFGbl169aXj29ltmUKS23eXFns1cG8TPojw3TwCY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2:
-  - id: c132d929-fa62-4271-803e-b823be07b914
-  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: c132d929-fa62-4271-803e-b823be07b914id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 749
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -34,7 +26,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer]의 새로운 결정 기능인 Decisioning은 이제 코드 기반 경험 및 이메일 채널을 통해 사용할 수 있습니다. [자세히 알아보기](../../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer]의 새로운 의사 결정 기능인 [결정]을 이제 코드 기반 경험 및 이메일 채널을 통해 사용할 수 있습니다. [자세히 알아보기](../../../experience-decisioning/gs-experience-decisioning.md)
 
 [!DNL Batch Decisioning] API를 사용하면 한 번의 호출로 주어진 대상의 모든 프로필에 대해 의사 결정 기능을 사용할 수 있습니다. 대상의 각 프로필에 대한 오퍼 콘텐츠는 사용자 지정 일괄 처리 워크플로우에 사용할 수 있는 Adobe Experience Platform 데이터 세트에 배치됩니다.
 
@@ -50,7 +42,7 @@ ht-degree: 0%
 
 * 데이터 세트를 메시지 게재 공급업체 API로 내보냅니다.
 
-<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=ko) to learn more about exporting audiences.) -->
+<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html) to learn more about exporting audiences.) -->
 
 >[!NOTE]
 >
@@ -71,7 +63,7 @@ ht-degree: 0%
 
 모든 [!DNL Batch Decisioning] 요청에는 [의사 결정 관리 API 개발자 안내서](../getting-started.md)에서 참조한 헤더 외에 다음 헤더가 필요합니다.
 
-* `Content-Type`: `application/json`
+* `Content-Type`:`application/json`
 * `x-request-id`: 요청을 식별하는 고유한 문자열입니다.
 * `x-sandbox-name`: 샌드박스 이름입니다.
 

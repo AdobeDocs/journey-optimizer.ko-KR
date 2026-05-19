@@ -8,20 +8,11 @@ role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
 TQID: https://experienceleague.adobe.com/v5gRCHjcQjn0kXPdtakSZRNlRIA-PVyGpctdn7zwXSI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 9e5edbefb19b7cf30da3a7164300e966a42e8711
 workflow-type: tm+mt
 source-wordcount: 886
@@ -77,13 +68,13 @@ Adobe에서 즉시 사용할 수 없는 사용자 정의 공급자(예: Sinch, I
 
    * **[!UICONTROL 공급자 URL]**: SMS 공급자의 URL을 입력하십시오.
 
-   * **인증 유형{&#x200B;1}: 인증 유형을 선택하고 [선택한 인증 방법에 따라 해당 필드를 완료](#auth-options)합니다.**
+   * **[!UICONTROL 인증 유형{&#x200B;1}: 인증 유형을 선택하고 [선택한 인증 방법에 따라 해당 필드를 완료](#auth-options)합니다.]**
 
      ![](assets/sms-byop.png)
 
 1. 보안 연결을 설정하기 전에 클라이언트와 서버가 서로 인증하도록 하는 **[!UICONTROL mTLS 지원]** 옵션을 사용하도록 설정하십시오.
 
-   mTLS만 사용하려면 **[!UICONTROL 인증 유형]** 드롭다운에서 **[!UICONTROL 인증 없음]**&#x200B;을 선택한 다음 **&#x200B; [!UICONTROL mTLS 지원]을 &#x200B;**.
+   mTLS만 사용하려면 **[!UICONTROL 인증 유형]** 드롭다운에서 **[!UICONTROL 인증 없음]**&#x200B;을 선택한 다음 ** [!UICONTROL mTLS 지원]을 **.
 
 1. **[!UICONTROL Headers]** 섹션에서 **[!UICONTROL 새 매개 변수 추가]**&#x200B;를 클릭하여 외부 서비스로 전송될 요청 메시지에 대한 HTTP 헤더를 지정합니다.
 

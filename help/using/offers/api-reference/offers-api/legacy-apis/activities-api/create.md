@@ -11,20 +11,13 @@ level: Experienced
 exl-id: 7cb906b9-8925-4482-9915-448a41e11d9d
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/ZSGnM6ab3lRA3tFax09mDx7Aaw32b01Mxduq-MrMDrQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 129
-ht-degree: 0%
+ht-degree: 25%
 
 ---
 
@@ -32,7 +25,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer]의 새로운 결정 기능인 Decisioning은 이제 코드 기반 경험 및 이메일 채널을 통해 사용할 수 있습니다. [자세히 알아보기](../../../../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer]의 새로운 의사 결정 기능인 [결정]을 이제 코드 기반 경험 및 이메일 채널을 통해 사용할 수 있습니다. [자세히 알아보기](../../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
 컨테이너 ID를 제공하는 동안 [!DNL Offer Library] API에 대한 POST 요청을 수행하여 결정을 만들 수 있습니다.

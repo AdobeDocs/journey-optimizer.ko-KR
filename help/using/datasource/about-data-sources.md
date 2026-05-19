@@ -10,23 +10,12 @@ level: Intermediate, Experienced
 keywords: 데이터, 소스, 여정, 플랫폼
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
 TQID: https://experienceleague.adobe.com/eG1QcfpHtxpabUt5e7RZiMIpSAJD6Z6bjO-4wtZEUOg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: dd51b532-b93f-4bcf-8dbf-0d007f593acaid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 917
@@ -72,7 +61,7 @@ ht-degree: 29%
 
 ## 데이터 액세스 전략 선택 {#data-access-strategy}
 
-데이터 소스를 구성하기 전에 사용 사례에 가장 적합한 접근 방식을 고려하십시오. 세 가지 옵션을 사용할 수 있으며, 각 옵션은 지속성, 프로필 보강 및 재사용 가능성 측면에서 서로 다른 장단점을 갖습니다. 이러한 옵션에 대한 자세한 내용은 [Journey Optimizer의 고급 여정 모범 사례](https://experienceleague.adobe.com/ko/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}를 참조하십시오.
+데이터 소스를 구성하기 전에 사용 사례에 가장 적합한 접근 방식을 고려하십시오. 세 가지 옵션을 사용할 수 있으며, 각 옵션은 지속성, 프로필 보강 및 재사용 가능성 측면에서 서로 다른 장단점을 갖습니다. 이러한 옵션에 대한 자세한 내용은 [Journey Optimizer의 고급 여정 모범 사례](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}를 참조하십시오.
 
 **옵션 1 — 사용자 지정 작업으로 외부 데이터에 액세스(데이터 레이크 없음)**
 
@@ -129,5 +118,5 @@ Adobe Experience Platform 데이터 소스 및 외부 데이터 소스를 구성
 
 데이터 소스의 정의를 이해하고 Experience Platform 및 외부 데이터 소스를 구성하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416636?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334256?quality=12)
 

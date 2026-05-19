@@ -11,21 +11,11 @@ keywords: 프로필, 업데이트, 여정, 활동
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/ifDBXoNDryXLKMkm59mVqT7-unQYG1JKTfMN7zAoWsA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 909
@@ -44,7 +34,7 @@ ht-degree: 7%
 
 ## 데이터 세트 선택 {#dataset-selection}
 
-**[!UICONTROL 프로필 업데이트]** 활동에는 업데이트를 저장할 전용 데이터 세트가 필요합니다. 이 활동은 [프로필 저장소](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko#profile-data-store){target="_blank"}만 업데이트하므로(Datalake는 아님), 모든 업데이트는 **[!UICONTROL 프로필 업데이트]** 작업에 대해 특별히 지정된 [프로필 사용 데이터 세트](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}에 저장되어야 합니다.
+**[!UICONTROL 프로필 업데이트]** 활동에는 업데이트를 저장할 전용 데이터 세트가 필요합니다. 이 활동은 [프로필 저장소](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}만 업데이트하므로(Datalake는 아님), 모든 업데이트는 **[!UICONTROL 프로필 업데이트]** 작업에 대해 특별히 지정된 [프로필 사용 데이터 세트](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}에 저장되어야 합니다.
 
 >[!CAUTION]
 >
@@ -111,6 +101,6 @@ ht-degree: 7%
 * **[!UICONTROL 프로필 업데이트]** 작업을 사용하여 구매와 같은 [경험 이벤트](../event/about-events.md)를 생성할 수 없습니다.
 * 다른 작업과 마찬가지로 오류 또는 시간 초과 시 [대체 경로를 정의할 수 있습니다](using-the-journey-designer.md#paths). 두 가지 작업을 동시에 수행할 수 없습니다.
 * 프로필 업데이트는 동일한 여정에서 다운스트림으로 즉시 사용할 수 없습니다. 업데이트된 값이 아직 반영되지 않았을 수 있으므로 필드를 작성하는 **[!UICONTROL 프로필 업데이트]** 작업 바로 뒤에 필드를 읽는 작업을 삽입하지 마십시오.
-* **[!UICONTROL 프로필 업데이트]** 활동은 데이터 레이크가 아닌 [프로필 저장소](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko#profile-data-store){target="_blank"}만 업데이트합니다.
+* **[!UICONTROL 프로필 업데이트]** 활동은 데이터 레이크가 아닌 [프로필 저장소](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}만 업데이트합니다.
 * 하나의 **[!UICONTROL 프로필 업데이트]** 작업에서 최대 5개의 필드/값 쌍을 업데이트할 수 있습니다. **[!UICONTROL 다른 필드 업데이트]** 단추를 사용하여 쌍을 더 추가합니다.
 * 성능을 향상시키기 위해 여러 특성 업데이트를 특성당 하나의 동작을 사용하지 않고 단일 **[!UICONTROL 프로필 업데이트]** 동작으로 그룹화합니다.

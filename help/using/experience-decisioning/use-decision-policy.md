@@ -1,5 +1,5 @@
 ---
-title: 메시지에 의사 결정 정책 사용
+title: 메시지에 결정 정책 사용
 description: 메시지에서 의사 결정 정책을 사용하는 방법을 알아봅니다.
 feature: Decisioning
 topic: Integrations
@@ -9,28 +9,18 @@ mini-toc-levels: 1
 version: Journey Orchestration
 exl-id: 35fc3cf2-1b91-4f30-ad71-f9d7d2a0291c
 TQID: https://experienceleague.adobe.com/zKV67LEfRVmEk9Fac-D45qdHLqbuVCS3rUt6Rt0HB7w
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 771
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# 메시지에 의사 결정 정책 사용 {#create-decision}
+# 메시지에 결정 정책 사용 {#create-decision}
 
 콘텐츠에 의사 결정 정책을 추가한 후에는 개인화를 위해 반환된 의사 결정 항목의 속성을 사용할 수 있습니다. 이렇게 하려면 먼저 의사 결정 정책 코드를 콘텐츠에 삽입합니다.
 
@@ -54,7 +44,7 @@ ht-degree: 0%
 >
 >코드 기반 경험의 경우 의사 결정 정책에 조각이 포함된 의사 결정 항목이 포함되어 있으면 의사 결정 정책 코드에서 이러한 조각을 활용할 수 있습니다. [조각을 활용하는 방법 알아보기](fragments-decision-policies.md)
 
->[!TAB 전자 메일]
+>[!TAB 이메일]
 
 1. **Personalization 편집기**&#x200B;를 열고 **[!UICONTROL 의사 결정 정책]**(으)로 이동합니다.
 
@@ -137,7 +127,7 @@ ht-degree: 0%
 
 * 결정 항목 추적을 사용하려면 `trackingToken` 특성을 추가하십시오. `trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
-## 콘텐츠 미리보기 및 테스트
+## 콘텐츠 미리 보기 및 테스트
 
 콘텐츠를 빌드한 후 여정 또는 캠페인을 활성화하기 전에 미리보기 및 테스트하십시오. 시뮬레이션 인터페이스에서 선택한 프로필을 기반으로 의사 결정 항목을 렌더링합니다. [콘텐츠를 미리 보고 테스트하는 방법에 대해 알아보세요](../content-management/preview-test.md).
 

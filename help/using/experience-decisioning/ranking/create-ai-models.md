@@ -10,18 +10,11 @@ level: Intermediate
 exl-id: 532392d6-3637-4381-984d-f5b630f6d32d
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/Mmplq31zfIn3ieSWbe4Kc3EeJoMJ45vjI51t8GsgGgs
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 771
@@ -99,7 +92,7 @@ AI 모델을 만들려면 아래 단계를 수행합니다.
    >
    >속성 모델을 수정할 수 있지만 모든 속성 모델이 AI 모델 최적화에 이상적이지는 않습니다. 모델의 정확도와 성능을 보장하기 위해 최적화 목표에 맞는 속성 모델을 신중하게 선택하는 것이 좋습니다.
    >
-   >사용 가능한 속성 모델 및 사용 지침에 대한 자세한 내용은 [[!DNL Customer Journey Analytics] 설명서](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/component-settings/attribution){target="_blank"}를 참조하세요.
+   >사용 가능한 속성 모델 및 사용 지침에 대한 자세한 내용은 [[!DNL Customer Journey Analytics] 설명서](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution){target="_blank"}를 참조하세요.
 
    +++
 
@@ -129,7 +122,7 @@ At this point, you must have:
 * and in which dataset you want to collect the event data.
 -->
 
-이제 오퍼가 표시 및/또는 클릭될 때마다 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html?lang=ko#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} 또는 Mobile SDK을 사용하여 **[!UICONTROL 경험 이벤트 - 제안 상호 작용]** 필드 그룹에 의해 해당 이벤트가 자동으로 캡처되도록 할 수 있습니다.
+이제 오퍼가 표시 및/또는 클릭될 때마다 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} 또는 Mobile SDK을 사용하여 **[!UICONTROL 경험 이벤트 - 제안 상호 작용]** 필드 그룹에 의해 해당 이벤트가 자동으로 캡처되도록 할 수 있습니다.
 
 이벤트 유형(표시된 오퍼 또는 클릭한 오퍼)을 보낼 수 있으려면 Adobe Experience Platform으로 전송되는 경험 이벤트의 각 이벤트 유형에 대해 올바른 값을 설정해야 합니다. [방법 알아보기](../data-collection/schema-requirement.md)
 
@@ -138,5 +131,5 @@ At this point, you must have:
 
 Learn how to create a personalized optimization model and how to apply it to a decision.
 
->[!VIDEO](https://video.tv.adobe.com/v/3445958?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3419954?quality=12)
 -->

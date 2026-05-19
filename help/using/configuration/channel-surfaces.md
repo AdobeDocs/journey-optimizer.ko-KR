@@ -7,33 +7,18 @@ feature: Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
-keywords: 채널, 표면, 기술, 매개변수, 최적기
+keywords: 채널, 표면, 기술, 매개변수, optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 TQID: https://experienceleague.adobe.com/tdx7MWEI1dzl2d8XsgStZmt2ccngiRJapEF-yxfv5vw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-  - id: fae48155-b23f-40d2-a252-a25bce350b4d
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62aid: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: fae48155-b23f-40d2-a252-a25bce350b4d
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1898
-ht-degree: 0%
+ht-degree: 12%
 
 ---
 
@@ -42,12 +27,12 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_channel_surfaces"
 >title="채널 구성"
->abstract="채널 구성은 시스템 관리자가 정의한 구성입니다. 여기에는 헤더 매개 변수, 하위 도메인, 모바일 앱 등과 같이 메시지를 전송하기 위한 모든 기술 매개 변수가 포함되어 있습니다."
+>abstract="채널 구성은 시스템 관리자가 정의한 구성입니다. 여기에는 헤더 매개변수, 하위 도메인, 모바일 앱 등 메시지 전송을 위한 모든 기술적 매개변수가 포함되어 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_marketing_action"
 >title="마케팅 액션"
->abstract="이 설정을 사용하여 메시지에 동의 정책을 연결하려면 마케팅 작업을 선택하십시오. 마케팅 액션에 연결된 모든 동의 정책은 고객의 선호도를 존중하는 데 사용됩니다."
+>abstract="마케팅 액션을 선택하여 해당 설정을 사용하는 메시지에 동의 정책을 연결합니다. 마케팅 액션과 연결된 모든 동의 정책은 고객의 선호도를 반영하는 데 사용됩니다."
 
 [!DNL Journey Optimizer]을(를) 사용하면 메시지에 필요한 모든 기술 매개 변수(이메일 유형, 보낸 사람 전자 메일 및 이름, 회신 및 오류 라우팅, 모바일 앱, SMS 구성 등)를 정의하는 채널 구성(즉, 메시지 사전 설정)을 설정할 수 있습니다.
 
@@ -70,17 +55,17 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets_header"
 >title="채널 구성 설정"
->abstract="채널 구성을 설정할 때 적용되는 채널을 선택하고 이메일 유형, 발신자 이름, 모바일 앱, SMS 구성 등과 같이 전송에 필요한 모든 기술 매개 변수를 정의합니다."
+>abstract="채널 구성을 설정할 때 적용할 채널을 선택하고, 이메일 유형, 보낸 사람 이름, 모바일 앱, SMS 구성 등과 같이 전송에 필요한 모든 기술 매개변수를 정의합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
 >title="채널 구성 설정"
->abstract="여정 또는 캠페인의 이메일과 같은 작업을 만들려면 먼저 메시지에 필요한 모든 기술 설정을 정의하는 채널 구성을 만들어야 합니다. 채널 구성을 생성, 편집 및 삭제하려면 메시지 사전 설정 관리 권한이 있어야 합니다."
+>abstract="여정 또는 캠페인에서 이메일과 같은 액션을 만들려면 먼저 메시지에 필요한 모든 기술 설정을 정의하는 채널 구성을 만들어야 합니다. 채널 구성을 만들고, 편집하고, 삭제하려면 메시지 사전 설정 관리 권한이 있어야 합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_marketing_action"
 >title="마케팅 액션 선택"
->abstract="동의 정책을 메시지에 연결하려면 구성에서 마케팅 작업을 선택하십시오."
+>abstract="동의 정책을 메시지와 연결하려면 구성에서 마케팅 액션을 선택합니다."
 
 채널 구성을 만들려면 다음 단계를 수행하십시오.
 
@@ -94,7 +79,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > 이름은 문자(A-Z)로 시작해야 합니다. 영숫자만 포함할 수 있습니다. 밑줄 `_`, 점`.` 및 하이픈 `-`자를 사용할 수도 있습니다.
+   > 이름은 문자(A-Z)로 시작해야 합니다. 영숫자만 포함할 수 있습니다. 밑줄 `_`, 점 `.`, 하이픈 `-`도 사용할 수 있습니다.
 
 1. 구성에 사용자 지정 또는 핵심 데이터 사용 레이블을 할당하려면 **[!UICONTROL 액세스 관리]**&#x200B;를 선택할 수 있습니다. [OLAC(개체 수준 액세스 제어)에 대해 자세히 알아보세요](../administration/object-based-access.md).
 
@@ -309,8 +294,8 @@ ht-degree: 0%
 
 1. 채널 구성에 태그를 할당하면 태그에서 태그를 [필터링](../start/search-filter-categorize.md#filter-on-tags)할 수 있습니다.
 
-## 방법 비디오{#video-presets}
+## 사용 방법 비디오{#video-presets}
 
-채널 구성이 무엇이며 Adobe Journey Optimizer에서 어떻게 사용되는지 알아봅니다.
+채널 구성의 정의와 Adobe Journey Optimizer에서 이를 사용하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3480458/?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433124/?learn=on)

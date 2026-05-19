@@ -7,22 +7,18 @@ role: Developer
 level: Experienced
 exl-id: 832b0bfa-ec74-4b1d-ad85-d4e4ea2f8863
 TQID: https://experienceleague.adobe.com/fZtkkz9pvdZ3G7ojmHlNhasxawVbXmBHX-uznq6hseY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 131
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# 의료 서비스 플랜 처방 전자 메일 {#plan-prescription}
+# 건강 계획 처방 이메일 {#plan-prescription}
 
 프로필에는 상태 플랜이 포함되어 있으며 각 플랜에는 처방이 포함됩니다. 처방에는 &quot;준비됨&quot;, &quot;회수&quot; 또는 &quot;수거&quot;와 같이 다양한 상태가 있습니다.
 

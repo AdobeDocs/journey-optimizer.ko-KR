@@ -10,27 +10,16 @@ level: Beginner, Intermediate
 keywords: 이메일, 디자인, 접근성
 exl-id: 78011ec0-a3b6-4d4e-ab4b-9da032c283a2
 TQID: https://experienceleague.adobe.com/aV2B02I-zFMavzM3OuLJnihia0YOenMn3FXsJXfpdJs
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b19d9237-76be-466d-a869-aacf2d72205f
-  - id: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1696
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -180,7 +169,7 @@ ht-degree: 0%
 
 * `lang` 특성은 단어를 올바로 발음하도록 보조 기술에 대한 전자 메일의 언어를 나타냅니다.
 
-  +++예
+  +++예시
 
   영어의 예:
 
@@ -198,7 +187,7 @@ ht-degree: 0%
 
 * `dir` 특성은 텍스트 방향을 지정합니다. 영어와 프랑스어를 포함한 대부분의 언어는 왼쪽에서 오른쪽으로(ltr) 읽지만, 아랍어와 히브리어 같은 언어는 오른쪽에서 왼쪽으로(rtl) 읽습니다.
 
-  +++예
+  +++예시
 
   영어의 예(왼쪽에서 오른쪽):
 
@@ -220,7 +209,7 @@ ht-degree: 0%
 >
 >전자 메일에 여러 언어가 포함되어 있는 경우 각 부분이 올바르게 읽히도록 특정 섹션(예: `<table>` 또는 `<td>` 블록)에 적절한 언어 특성을 할당하십시오.
 
-### 표 {#tables}
+### 테이블 {#tables}
 
 HTML 컨텐츠에서 테이블은 종종 레이아웃에 사용됩니다. 기본적으로 화면 판독기는 행, 열 및 구조를 알리는 모든 `<table>`을(를) 데이터 테이블로 취급합니다. 이 경우 표를 포맷에만 사용하는 경우 혼동을 줄 수 있습니다.
 

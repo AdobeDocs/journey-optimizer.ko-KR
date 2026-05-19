@@ -11,22 +11,15 @@ level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/B33mvmBY4p0K43oK-NeaWGfbwhvHMyiLkM7dhxT8-WI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2:
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 523
-ht-degree: 0%
+ht-degree: 29%
 
 ---
 
@@ -34,7 +27,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer]의 새로운 결정 기능인 Decisioning은 이제 코드 기반 경험 및 이메일 채널을 통해 사용할 수 있습니다. [자세히 알아보기](../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer]의 새로운 의사 결정 기능인 [결정]을 이제 코드 기반 경험 및 이메일 채널을 통해 사용할 수 있습니다. [자세히 알아보기](../../experience-decisioning/gs-experience-decisioning.md)
 
 [!DNL Journey Optimizer]을(를) 사용하면 **AI 모델**&#x200B;을(를) 만들어 비즈니스 목표에 따라 오퍼의 등급을 지정할 수 있습니다.
 
@@ -47,7 +40,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_ai_model_metric"
 >title="최적화 지표"
->abstract="[!DNL Journey Optimizer] **전환율**&#x200B;을(를) 기반으로 하는 등급 오퍼입니다(전환율 = 총 전환 이벤트 수 / 총 노출 이벤트 수). 전환율은 두 가지 유형의 지표를 사용하여 계산됩니다. **노출 이벤트**(표시되는 오퍼)와 **전환 이벤트**(전자 메일 또는 웹을 통한 클릭으로 이어지는 오퍼). 이러한 이벤트는 제공된 웹 SDK 또는 모바일 SDK을 사용하여 자동으로 캡처됩니다."
+>abstract="[!DNL Journey Optimizer]는 **전환율**(전환율 = 총 전환 이벤트 수 / 총 노출 이벤트 수)을 기준으로 오퍼의 순위를 매깁니다. 전환율은 다음 두 가지 유형의 지표를 사용하여 계산됩니다. **노출 이벤트**(표시되는 오퍼)와 **전환 이벤트**(이메일이나 웹을 통해 클릭을 유도하는 오퍼). 이러한 이벤트는 제공된 Web SDK 또는 Mobile SDK를 사용하여 자동으로 캡처됩니다."
 
 AI 모델을 만들려면 아래 단계를 수행합니다.
 
@@ -72,11 +65,11 @@ AI 모델을 만들려면 아래 단계를 수행합니다.
    >
    >**[!UICONTROL 최적화 지표]** 섹션에서는 오퍼의 순위를 계산하기 위해 AI 모델이 사용하는 전환 이벤트에 대한 정보를 제공합니다.
    >
-   >[!DNL Journey Optimizer] **전환율**&#x200B;을(를) 기반으로 하는 등급 오퍼입니다(전환율 = 총 전환 이벤트 수 / 총 노출 이벤트 수). 전환율은 두 가지 유형의 지표를 사용하여 계산됩니다.
+   >[!DNL Journey Optimizer]는 **전환율**(전환율 = 총 전환 이벤트 수 / 총 노출 이벤트 수)을 기준으로 오퍼의 순위를 매깁니다. 전환율은 두 가지 유형의 지표를 사용하여 계산됩니다.
    >* **노출 이벤트**(표시되는 오퍼)
    >* **전환 이벤트**(전자 메일 또는 웹을 통해 클릭을 발생시키는 오퍼).
    >
-   >이러한 이벤트는 제공된 웹 SDK 또는 모바일 SDK을 사용하여 자동으로 캡처됩니다. [Adobe Experience Platform Web SDK 개요](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko)에서 이에 대해 자세히 알아보세요.
+   >이러한 이벤트는 제공된 Web SDK 또는 Mobile SDK를 사용하여 자동으로 캡처됩니다. [Adobe Experience Platform Web SDK 개요](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)에서 이에 대해 자세히 알아보세요.
 
 1. 전환 및 노출 이벤트가 수집되는 데이터 세트를 선택합니다. [이 섹션](../data-collection/create-dataset.md)에서 이러한 데이터 세트를 만드는 방법을 알아봅니다. <!--This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.-->
 
@@ -108,12 +101,12 @@ At this point, you must have:
 * and in which dataset you want to collect the event data.
 -->
 
-이제 오퍼가 표시 및/또는 클릭될 때마다 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html?lang=ko#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} 또는 Mobile SDK을 사용하여 **[!UICONTROL 경험 이벤트 - 제안 상호 작용]** 필드 그룹에 의해 해당 이벤트가 자동으로 캡처되도록 할 수 있습니다.
+이제 오퍼가 표시 및/또는 클릭될 때마다 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} 또는 Mobile SDK을 사용하여 **[!UICONTROL 경험 이벤트 - 제안 상호 작용]** 필드 그룹에 의해 해당 이벤트가 자동으로 캡처되도록 할 수 있습니다.
 
 이벤트 유형(표시된 오퍼 또는 클릭한 오퍼)을 보낼 수 있으려면 Adobe Experience Platform으로 전송되는 경험 이벤트의 각 이벤트 유형에 대해 올바른 값을 설정해야 합니다. [방법 알아보기](../data-collection/schema-requirement.md)
 
-## 방법 비디오 {#video}
+## 사용 방법 비디오 {#video}
 
 개인화된 최적화 모델을 만드는 방법과 이 모델을 의사 결정에 적용하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3445958?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3419954?quality=12)

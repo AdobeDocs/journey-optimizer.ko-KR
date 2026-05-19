@@ -7,31 +7,18 @@ feature: Subdomains, Channel Configuration, Deliverability
 topic: Administration
 role: Admin
 level: Experienced
-keywords: 하위 도메인, 도메인, 메일, 도메인, 레코드
+keywords: 하위 도메인, 도메인, 메일, DMARC, 레코드
 exl-id: f9e217f8-5aa8-4d3a-96fc-65defcb5d340
 TQID: https://experienceleague.adobe.com/fsJdrJpxUvLKk4V-7aXmNaVTesjVc4tRxbEmxc-Qyiw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1597
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
@@ -40,7 +27,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_record"
 >title="DMARC 레코드 설정"
->abstract="DMARC은 도메인 소유자가 도메인을 무단 사용으로부터 보호하고 사서함 공급자의 게재 문제를 방지할 수 있는 이메일 인증 방법입니다.<br>시행 중인 업계 모범 사례의 일부로 Google과 Yahoo! 은 둘 다 이메일을 보내는 데 사용하는 도메인에 대한 DMARC 레코드가 있어야 합니다."
+>abstract="DMARC는 도메인 소유자가 자신의 도메인이 무단으로 사용되지 않도록 보호하고 사서함 서비스 제공업체와의 전달성 문제를 방지할 수 있는 이메일 인증 방법입니다.<br>시행 중인 업계 모범 사례의 일부인 Google 및 Yahoo! 이메일을 보내는 데 사용하는 모든 도메인에 DMARC 레코드를 요구합니다."
 
 ## DMARC란? {#what-is-dmarc}
 
@@ -81,11 +68,11 @@ DMARC을 전달하려면 메시지가 SPF 또는 DKIM을 전달해야 합니다.
 
 ## DMARC 요구 사항 업데이트 {#dmarc-update}
 
-시행 중인 업계 모범 사례의 일부로서 Google 및 Yahoo! 전자 메일을 보내는 데 사용하는 모든 도메인에 대해 **DMARC 레코드**&#x200B;가 있어야 합니다. 이 새 요구 사항은 **2024년 2월 1일**&#x200B;부터 적용됩니다.
+시행 중인 업계 모범 사례의 일부인 Google 및 Yahoo! 전자 메일을 보내는 데 사용하는 모든 도메인에 대해 **DMARC 레코드**&#x200B;가 있어야 합니다. 이 새 요구 사항은 **2024년 2월 1일**&#x200B;부터 적용됩니다.
 
 >[!CAUTION]
 >
->Gmail 및 Yahoo의 새로운 요구 사항을 준수하지 못함! 이(가) 발생할 경우 이메일이 스팸 폴더로 도달하거나 차단됩니다.
+>Gmail 및 Yahoo!의 새로운 요구 사항을 준수하지 못하면 이메일이 스팸 폴더에 포함되거나 차단될 수 있습니다.
 
 따라서 Adobe에서는 다음 작업을 수행할 것을 강력히 권장합니다.
 
@@ -129,7 +116,7 @@ DMARC을 전달하려면 메시지가 SPF 또는 DKIM을 전달해야 합니다.
 
      DNS 레코드가 도메인 호스팅 솔루션에 생성되었는지 확인하고 &quot;I confirm...&quot; 상자를 선택합니다.
 
-1. 변경 사항을 저장합니다.
+1. 변경 내용을 저장합니다.
 
 ### 새 하위 도메인용 DMARC 설정 {#set-up-dmarc}
 

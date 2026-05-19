@@ -1,21 +1,20 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 사전 정의된 필터 작업
+title: 미리 정의된 필터 작업
 description: 오케스트레이션된 캠페인에서 사전 정의된 필터를 저장, 적용 및 관리하는 방법을 알아봅니다
 version: Campaign Orchestration
 exl-id: fc508eb7-5b7a-4736-967b-523639eeb096
 TQID: https://experienceleague.adobe.com/6awSMB2-cIw-gbUxluLDuCdOLkLKho7QGSR7QHtOshA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 507
-ht-degree: 0%
+ht-degree: 20%
 
 ---
 
-# 사전 정의된 필터 작업 {#predefined-filters}
+# 미리 정의된 필터 작업 {#predefined-filters}
 
 사전 정의된 필터는 규칙 빌더에서 재사용할 수 있는 저장된 규칙입니다. 이를 사용하여 일반적인 쿼리를 다시 작성하지 않도록 하고 오케스트레이션된 캠페인 간에 타깃팅 논리를 표준화합니다.
 
@@ -23,9 +22,9 @@ ht-degree: 0%
 
 ## 사전 정의된 필터 만들기 {#create}
 
-나중에 사용할 수 있도록 규칙 빌더에서 사용자 지정 필터를 저장합니다. 다음 단계를 수행합니다.
+나중에 사용할 수 있도록 규칙 빌더에서 사용자 지정 필터를 저장합니다. 다음 단계를 수행하십시오.
 
-1. 규칙 빌더를 열고 필터링 조건을 정의합니다. [규칙을 만드는 방법을 알아봅니다](../orchestrated/build-query.md)
+1. 규칙 빌더를 열고 필터링 조건을 정의합니다. [규칙 작성 방법 알아보기](../orchestrated/build-query.md)
 
 1. 선택 사항: 필터를 사용할 때 특정 필드를 편집할 수 있도록 하려면 필드를 선택하고 **[!UICONTROL 매개 변수로 설정]**&#x200B;을 켭니다. 필터를 적용하면 이러한 필드만 편집할 수 있습니다.
 
@@ -37,12 +36,12 @@ ht-degree: 0%
 
 1. 필터에 대한 레이블과 설명을 입력한 다음 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-   * 필터를 즐겨찾기로 저장하려면 **[!UICONTROL 즐겨찾는 필터]** 옵션을 켜십시오. 자세한 내용은 [이 섹션](#fav-filter)을 참조하세요.
-   * 다른 사용자가 필터에 액세스할 수 있도록 하려면 **[!UICONTROL 공유 필터]** 옵션을 사용하도록 설정하십시오. 자세한 내용은 [이 섹션](#share-filter)을 참조하세요.
+   * 필터를 즐겨찾기로 저장하려면 **[!UICONTROL 자주 사용하는 필터]** 옵션을 켜십시오. 자세한 내용은 [이 섹션](#fav-filter)을 참조하십시오.
+   * 다른 사용자가 필터에 액세스할 수 있도록 하려면 **[!UICONTROL 공유 필터]** 옵션을 사용하도록 설정하십시오. 자세한 내용은 [이 섹션](#share-filter)을 참조하십시오.
 
    ![](assets/predefined-filter-save-name.png)
 
-이제 사용자 지정 필터를 **미리 정의된 필터** 목록에서 사용할 수 있습니다.
+이제 **미리 정의된 필터** 목록에서 사용자 정의 필터를 사용할 수 있습니다.
 
 ## 규칙에서 사전 정의된 필터 사용 {#apply}
 
@@ -76,11 +75,11 @@ ht-degree: 0%
 
 필터를 즐겨찾기로 저장하면 아래와 같이 필터 목록의 **[!UICONTROL 즐겨찾는 필터]** 섹션에 표시됩니다.
 
-![즐겨 찾는 필터 섹션](assets/predefined-filter-favorites.png)
+![즐겨찾기 필터 섹션](assets/predefined-filter-favorites.png)
 
-## 사전 정의된 필터 공유 {#share-filter}
+## 미리 정의된 필터 공유 {#share-filter}
 
-기본적으로 사전 정의된 필터는 비공개이며 사용자에게만 표시됩니다. 조직의 다른 연산자가 필터에 액세스할 수 있도록 하려면 **[!UICONTROL 공유 필터]** 옵션을 사용하도록 설정하십시오.
+기본적으로 사용자가 생성한 미리 정의된 필터는 비공개이며 사용자에게만 표시됩니다. 조직의 다른 연산자가 필터에 액세스할 수 있도록 하려면 **[!UICONTROL 공유 필터]** 옵션을 활성화하십시오.
 
 ![공유 필터 옵션](assets/predefined-filter-shared.png)
 
