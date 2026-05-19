@@ -185,6 +185,6 @@ In this scenario, an individual profile:
 
 ## 사용 방법 비디오 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3444733?captions=kor&quality=12)
 
 ➡️ **실제로 보기:** 이 커뮤니티 사용 사례에서 [Adobe Journey Optimizer의 일일 빈도 제한](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=ko){target="_blank"}을 구현하는 방법을 알아봅니다.
