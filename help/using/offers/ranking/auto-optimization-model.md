@@ -10,10 +10,16 @@ level: Experienced
 exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/DZ2NFuxDJRdZFLESrEwe-lfnt14vO93xxA-1U0zokPQ
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2: id: fe338112-e2ce-4876-8989-fc4d497613f1
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1561
@@ -80,7 +86,7 @@ ht-degree: 1%
 
 +++**기술 세부 정보**
 
-분포를 계산/업데이트하려면 **베이즈 정리**&#x200B;를 사용합니다. 각 오퍼 ***i***&#x200B;에 대해 ***P(𝛍i)를 계산합니다 | data)***(예: 각 오퍼 ***i***에 대해, 해당 오퍼에 대해 지금까지 수집한 데이터를 고려할 때 보상 값**𝛍 i**이(가) 제공될 가능성이 얼마나 됩니까?
+분포를 계산/업데이트하려면 **베이즈 정리**&#x200B;를 사용합니다. 각 오퍼 ***i***&#x200B;에 대해 ***P(𝛍i)를 계산합니다 | data)***(예: 각 오퍼 ***i***에 대해, 해당 오퍼에 대해 지금까지 수집한 데이터를 고려할 때 보상 값&#x200B;**𝛍 i**&#x200B;이(가) 제공될 가능성이 얼마나 됩니까?
 
 베이즈 정리에서:
 
