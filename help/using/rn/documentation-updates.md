@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 258d22c6b95db138e927d96f04215c0623e53913
+source-git-commit: e2ec3d856f115befc34d435e26696c4cb4e13301
 workflow-type: tm+mt
-source-wordcount: '7777'
-ht-degree: 92%
+source-wordcount: '7859'
+ht-degree: 91%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 92%
 이 페이지에는 월별 릴리스 기능 및 개선 사항과 관련된 업데이트 외에도 [!DNL Journey Optimizer] 설명서의 모든 최신 변경 사항이 나와 있습니다.
 
 ## 2026년 5월 {#may-2026}
+
+* **주요 용어** 페이지가 새로운 **용어가 비슷하게 보이는 경우** 의사 결정 및 의사 결정 관리(의사 결정 관리의 기존 상태 포함), 세 가지 캠페인 유형(작업, API 트리거 및 오케스트레이션), 빈도 제한 및 여정 중재, 콘텐츠 카드와 인앱 메시지 등 일반적으로 혼동되는 네 가지 용어 쌍을 다루는 명확화 안내서로 보강되었습니다. **Campaign** 정의 및 **의사 결정 및 오퍼 용어** 표도 업데이트되었습니다. 이제 의사 결정은 명시적으로 레거시로 표시된 의사 결정 관리와 함께 나열됩니다. [자세히 보기](../start/terminology.md#disambiguation)
 
 * **딥링크** 설명서가 이메일에 사용할 수 있는 두 옵션(이메일 Designer UI 및 Personalization 편집기 코드)과 SMS의 URL 함수 구문을 자세히 설명하는 새로운 **딥링크 작성** 섹션으로 확장되었습니다. 이제 **SMS 메시지 만들기** 페이지에 콘텐츠 작성 흐름의 딥 링크 단계가 포함됩니다. [자세히 보기](../email/deeplinks.md)
 
