@@ -25,9 +25,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: c4e75817cb619d586db753fa296e0b101663c850
 workflow-type: tm+mt
-source-wordcount: 1833
+source-wordcount: 1824
 ht-degree: 8%
 
 ---
@@ -307,13 +307,13 @@ IP 준비 계획을 만들려면 아래 단계를 수행합니다.
 
    <!--
     You can also download the Excel template from the [!DNL Journey Optimizer] user interface and upload it after filling it with the IP warmup details.
--->
+    -->
 
-    ![](assets/ip-warmup-upload-success.png)
-    
-    >[!NOTE]
-    >
-    >업로드가 실패할 경우 올바른 형식 및 파일 형식(.xls 또는 .xlsx)을 사용하고 있는지 확인하십시오. Adobe에서 제공한 [template](assets/IPWarmupPlan-Template.xlsx)을 사용하십시오.
+   ![](assets/ip-warmup-upload-success.png)
+
+   >[!NOTE]
+   >
+   >업로드가 실패할 경우 올바른 형식 및 파일 형식(.xls 또는 .xlsx)을 사용하고 있는지 확인하십시오. Adobe에서 제공한 [템플릿](assets/IPWarmupPlan-Template.xlsx)을(를) 사용합니다.
 
 1. Click **[!UICONTROL Create]**. 업로드한 파일에 정의된 모든 단계, 실행, 열 및 내용이 [!DNL Journey Optimizer] 인터페이스에 자동으로 표시됩니다.
 
