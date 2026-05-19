@@ -25,10 +25,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 1e0a06dddba6c5ca4c53e4b143eb7fa7763ded6b
 workflow-type: tm+mt
-source-wordcount: 712
-ht-degree: 100%
+source-wordcount: 735
+ht-degree: 96%
 
 ---
 
@@ -130,3 +130,5 @@ ht-degree: 100%
 아래 비디오에서는 구독 목록을 만들고, 서비스 옵트인/옵트아웃을 위한 랜딩 페이지를 설정하고, 메시지에 옵트인/옵트아웃 옵션을 통합하고, 관련 여정을 구성하는 방법을 확인할 수 있습니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/344401?captions=kor&quality=12&learn=on)
+
+➡️ **실제로 보기:** 구독 관리, 확인 전자 메일 및 데이터 캡처 시나리오에 대한 단계별 예제를 보려면 [랜딩 페이지 사용 사례](lp-use-cases.md)를 살펴보십시오.

@@ -18,11 +18,11 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 131
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# 의료 서비스 플랜 처방 전자 메일 {#plan-prescription}
+# 건강 계획 처방 이메일 {#plan-prescription}
 
 프로필에는 상태 플랜이 포함되어 있으며 각 플랜에는 처방이 포함됩니다. 처방에는 &quot;준비됨&quot;, &quot;회수&quot; 또는 &quot;수거&quot;와 같이 다양한 상태가 있습니다.
 

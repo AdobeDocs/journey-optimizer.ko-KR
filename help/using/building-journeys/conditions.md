@@ -28,9 +28,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 1e0a06dddba6c5ca4c53e4b143eb7fa7763ded6b
 workflow-type: tm+mt
-source-wordcount: 1921
+source-wordcount: 1941
 ht-degree: 16%
 
 ---
@@ -221,3 +221,5 @@ ht-degree: 16%
    >[!NOTE]
    >
    >대상자 참여 상태가 **실현됨**&#x200B;인 개인만 대상자의 구성원으로 간주됩니다. 대상자를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ko#interpret-segment-results){target="_blank"}를 참조하세요.
+
+➡️ **실제로 보기:** 시간 및 요일 조건을 사용하여 [평일에만 전자 메일을 보내는 방법](weekday-email-uc.md)을 알아보세요.

@@ -75,7 +75,7 @@ AI 모델을 만들려면 아래 단계를 수행합니다.
    * **노출 이벤트**(표시되는 오퍼)
    * **전환 이벤트**(전자 메일 또는 웹을 통해 클릭을 발생시키는 오퍼).
 
-   이러한 이벤트는 제공된 Web SDK 또는 Mobile SDK를 사용하여 자동으로 캡처됩니다. [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) 개요에서 자세히 알아보세요.
+   이러한 이벤트는 제공된 Web SDK 또는 Mobile SDK를 사용하여 자동으로 캡처됩니다. [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko) 개요에서 자세히 알아보세요.
 
    +++ 사용자 지정 [!DNL Customer Journey Analytics] 지표에 대한 모델 최적화 중
 
@@ -89,7 +89,7 @@ AI 모델을 만들려면 아래 단계를 수행합니다.
 
    기본적으로 개인화된 최적화 모델은 **오퍼 클릭 수**&#x200B;를 최적화 지표로 사용합니다. [!DNL Customer Journey Analytics]을(를) 사용하여 작업하는 경우 [!DNL Decisioning]을(를) 사용하면 사용자 지정 지표를 활용하여 모델을 최적화할 수 있습니다.
 
-   이렇게 하려면 **[!UICONTROL 개인화된 최적화]** 모델 유형을 선택하고 **[!UICONTROL 전환 이벤트]** 드롭다운을 확장합니다. 기본 [!DNL Customer Journey Analytics] [데이터 보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"}의 모든 지표가 목록에 표시됩니다. 모델을 최적화할 지표를 선택합니다.
+   이렇게 하려면 **[!UICONTROL 개인화된 최적화]** 모델 유형을 선택하고 **[!UICONTROL 전환 이벤트]** 드롭다운을 확장합니다. 기본 [!DNL Customer Journey Analytics] [데이터 보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"}의 모든 지표가 목록에 표시됩니다. 모델을 최적화할 지표를 선택합니다.
 
    ![](../assets/ai-model-custom-metrics.png){width=85%}
 

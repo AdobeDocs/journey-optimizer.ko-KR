@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: IP 준비 계획 만들기
+title: IP 워밍업 플랜 만들기
 description: Journey Optimizer에서 IP 준비 계획을 만드는 방법을 알아봅니다.
 feature: IP Warmup Plans
 topic: Administration
@@ -28,11 +28,11 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1833
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
-# IP 준비 계획 만들기 {#ip-warmup}
+# IP 워밍업 플랜 만들기 {#ip-warmup}
 
 전용 구성과 해당 옵션이 활성화된 하나 이상의 [IP 준비 캠페인](ip-warmup-campaign.md)을(를) 만들면 IP 준비 계획을 만들 수 있습니다.
 
@@ -78,7 +78,7 @@ IP 준비 계획에 액세스, 만들기, 편집 및 삭제하려면 **[!UICONTR
 
 +++
 
-## IP 준비 계획 파일 준비 {#prepare-file}
+## IP 워밍업 플랜 파일 준비 {#prepare-file}
 
 IP 웜업은 합법적인 발신자로서의 평판을 확립하기 위해 IP 및 도메인에서 주요 인터넷 서비스 공급자(ISP)로 나가는 이메일 양을 점차적으로 늘리는 작업입니다.
 
@@ -169,7 +169,7 @@ aol.fi;games.com;cs.com;yahoo.com.in;y7mail.com;yahoo.co.uk;yahoo.hu;yahoo.co.hu
 mac.com;icloud.com;apple.com;me.com
 +++
 
-+++컴캐스트
++++Comcast
 comcast.net
 +++
 
@@ -272,20 +272,20 @@ Hotmail 외부 도메인과 도메인 그룹 Microsoft의 도메인은 **[!UICON
 
    ![](assets/ip-warmup-delete-plan.png)
 
-## IP 준비 계획 만들기 {#create-ip-warmup-plan}
+## IP 워밍업 플랜 만들기 {#create-ip-warmup-plan}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_upload"
->title="IP 준비 계획 지정"
->abstract="IP 웜업 단계 및 대상 프로필 수와 같이 계획에 도움이 되는 모든 데이터를 Excel 템플릿에 입력하고 여기에 업로드합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html?lang=ko#prepare-file" text="IP 준비 계획 파일 준비"
+>title="IP 워밍업 플랜 지정"
+>abstract="IP 워밍업 단계, 목표 프로필 수와 같이 플랜에 필요한 모든 데이터를 입력하여 Excel 템플릿을 작성하고 여기에 업로드합니다."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html?lang=ko#prepare-file" text="IP 워밍업 플랜 파일 준비"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_surface"
 >title="마케팅 구성 선택"
->abstract="IP 준비 계획과 연결할 캠페인에서 선택한 구성과 동일한 구성을 선택해야 합니다."
+>abstract="IP 워밍업 플랜과 연결하려는 캠페인에서 선택한 것과 동일한 구성을 선택해야 합니다."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=ko" text="채널 구성 설정"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=ko" text="IP 준비 캠페인 만들기"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=ko" text="IP 워밍업 캠페인 만들기"
 
 IP 준비 계획을 만들려면 아래 단계를 수행합니다.
 
@@ -305,13 +305,17 @@ IP 준비 계획을 만들려면 아래 단계를 수행합니다.
 
 1. IP 준비 계획이 포함된 Excel 파일을 업로드합니다. [자세히 알아보기](#prepare-file)
 
+   <!--
+    You can also download the Excel template from the [!DNL Journey Optimizer] user interface and upload it after filling it with the IP warmup details.
+-->
+
     ![](assets/ip-warmup-upload-success.png)
     
     >[!NOTE]
     >
     >업로드가 실패할 경우 올바른 형식 및 파일 형식(.xls 또는 .xlsx)을 사용하고 있는지 확인하십시오. Adobe에서 제공한 [template](assets/IPWarmupPlan-Template.xlsx)을 사용하십시오.
 
-1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다. 업로드한 파일에 정의된 모든 단계, 실행, 열 및 내용이 [!DNL Journey Optimizer] 인터페이스에 자동으로 표시됩니다.
+1. Click **[!UICONTROL Create]**. 업로드한 파일에 정의된 모든 단계, 실행, 열 및 내용이 [!DNL Journey Optimizer] 인터페이스에 자동으로 표시됩니다.
 
    ![](assets/ip-warmup-plan-uploaded.png)
 

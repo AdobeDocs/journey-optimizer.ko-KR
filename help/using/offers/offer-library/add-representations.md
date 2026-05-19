@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: 오퍼에 표시 추가
+title: 오퍼에 표현 추가
 description: 오퍼에 표시를 추가하는 방법을 알아봅니다
 badge: label="레거시" type="Informative"
 feature: Decision Management
@@ -28,20 +28,20 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 900
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
-# 오퍼에 표시 추가 {#add-representations}
+# 오퍼에 표현 추가 {#add-representations}
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer]의 새로운 결정 기능인 Decisioning은 이제 코드 기반 경험 및 이메일 채널을 통해 사용할 수 있습니다. [자세히 알아보기](../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer]의 새로운 의사 결정 기능인 [결정]을 이제 코드 기반 경험 및 이메일 채널을 통해 사용할 수 있습니다. [자세히 알아보기](../../experience-decisioning/gs-experience-decisioning.md)
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_representation"
 >title="표시"
->abstract="표시를 추가하여 오퍼가 메시지에 표시되는 위치를 정의합니다. 오퍼에 대한 표시가 많을수록 다른 배치 컨텍스트에서 오퍼를 사용할 수 있는 기회가 많아집니다."
+>abstract="표현을 추가하여 메시지에 오퍼가 표시될 위치를 정의합니다. 오퍼에 표현이 많을수록 오퍼를 다양한 배치 컨텍스트에서 사용할 기회가 많아집니다."
 
 오퍼는 메시지의 다른 위치에 표시될 수 있습니다. 이미지가 있는 상단 배너에서 단락 내 텍스트, HTML 블록 등으로 표시됩니다. 오퍼에 대한 표시가 많을수록 다른 배치 컨텍스트에서 오퍼를 사용할 수 있는 기회가 많아집니다.
 

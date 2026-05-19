@@ -23,7 +23,7 @@ role_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 117
-ht-degree: 0%
+ht-degree: 20%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer]의 새로운 결정 기능인 Decisioning은 이제 코드 기반 경험 및 이메일 채널을 통해 사용할 수 있습니다. [자세히 알아보기](../../../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer]의 새로운 의사 결정 기능인 [결정]을 이제 코드 기반 경험 및 이메일 채널을 통해 사용할 수 있습니다. [자세히 알아보기](../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
 요청 경로에 컬렉션 한정자 ID를 포함하는 오퍼 라이브러리 API에 GET 요청을 하여 특정 컬렉션 한정자(이전의 &quot;태그&quot;라고 함)를 조회할 수 있습니다.

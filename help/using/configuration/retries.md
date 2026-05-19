@@ -23,7 +23,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 569
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -51,12 +51,12 @@ ht-degree: 0%
 
 이 두 이메일 사이에 다른 게재를 시도하지 않고 성공한 경우, 누적된 3+2 오류로 인해 `emma.jones@mail.com` 주소가 제외 목록에 추가됩니다.
 
-## 임계값 편집 다시 시도 {#edit-retry-threshold}
+## 재시도 임계값 버전 {#edit-retry-threshold}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_bounces"
 >title="재시도 임계값 업데이트"
->abstract="기본값이 사용자의 요구 사항에 맞지 않으면 허용된 연속 소프트 바운스 수를 수정할 수 있습니다. 재시도 카운터가 특정 이메일 주소에 대한 오류 임계값에 도달하면 이 주소는 제외 목록에 추가됩니다."
+>abstract="기본값이 사용자 요구에 맞지 않으면 허용되는 연속 소프트 바운스 수를 수정할 수 있습니다. 재시도 카운터가 특정 이메일 주소에 대한 오류 임계값에 도달하면 이 주소를 금지 목록에 추가합니다."
 <!--
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html?lang=ko" text="Understand the suppresion list"
 -->

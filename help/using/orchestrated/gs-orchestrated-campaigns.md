@@ -20,10 +20,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 1e0a06dddba6c5ca4c53e4b143eb7fa7763ded6b
 workflow-type: tm+mt
-source-wordcount: 909
-ht-degree: 100%
+source-wordcount: 963
+ht-degree: 94%
 
 ---
 
@@ -151,3 +151,6 @@ ht-degree: 100%
 * **[가드레일 및 제한 사항](guardrails.md)** - 최적의 캠페인 성능을 보장하기 위해 중요한 가드레일, 제한 사항, 모범 사례를 검토합니다.
 * **[자주 하는 질문](orchestrated-campaigns-faq.md)** - 오케스트레이션된 캠페인의 기능 및 사용 사례와 관련해 많이 나오는 질문에 대한 답변을 찾을 수 있습니다.
 * **[오케스트레이션된 캠페인 튜토리얼](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/create-campaigns/orchestrated-campaigns/introduction-to-orchestrated-campaigns){target="_blank"}** - 기능 및 모범 사례를 다루는 단계별 비디오 튜토리얼을 살펴봅니다.
+* **[활동을 탐색하여 고객 참여](engage-customers-uc.md)** - 여러 단계로 구성된 오케스트레이션된 캠페인을 사용하여 탐색했지만 구매하지 않은 프로필을 다시 참여시킵니다.
+* **[제품 사용 가능 여부에 대해 사용자에게 알림](product-availability-uc.md)** - 관심을 보였던 제품이 재입고되는 경우 고객에게 알립니다.
+* **[위시리스트 항목 업데이트 보내기](wishlist-uc.md)** - 위시리스트 항목을 판매하거나 사용할 수 있게 되면 개인화된 메시지를 트리거합니다.

@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 2080
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -41,13 +41,13 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_connection"
 >title="사용할 엔드포인트 선택"
->abstract="양식 제출 시 데이터가 전송되는 스트리밍 끝점을 정의합니다."
+>abstract="양식 제출 시 데이터가 전송되는 스트리밍 엔드포인트를 정의합니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="HTTP API 스트리밍 연결 만들기"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
 >title="데이터 세트 선택"
->abstract="양식 응답을 저장 및 반영할 데이터 세트를 정의합니다. 특정 데이터 세트를 검색하도록 입력하거나 목록에서 선택할 수 있습니다."
+>abstract="양식 응답을 저장하고 반영할 데이터 세트를 정의합니다. 특정 데이터 세트를 검색하도록 입력하거나 목록에서 선택할 수 있습니다."
 
 <!--
 >[!NOTE]
@@ -118,7 +118,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_preset"
 >title="사전 설정 선택"
->abstract="사용할 연결 및 양식에 대한 사전 정의된 데이터 세트가 포함된 사전 정의된 사전 설정을 선택합니다."
+>abstract="사용할 연결이 포함된 사전 정의 사전 설정과 양식에 맞는 사전 정의 데이터 세트를 선택합니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="양식 사전 설정 만들기"
 
 양식을 만들려면 아래 단계를 수행합니다.
@@ -131,7 +131,7 @@ ht-degree: 0%
 
 1. 사용할 연결 및 양식에 대해 미리 정의된 데이터 세트가 포함된 **[!UICONTROL 사전 설정]**&#x200B;을(를) 선택하십시오. [양식 사전 설정을 만드는 방법을 알아봅니다](#create-form-preset)
 
-1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다. 양식 디자이너가 열리고 구조체 및 콘텐츠 [구성 요소](../email/content-components.md#add-content-components)를 추가하여 콘텐츠를 작성할 수 있습니다. [텍스트](../email/content-components.md#text) 및 **[!UICONTROL 필드]** 구성 요소를 사용할 수 있습니다.
+1. Click **[!UICONTROL Create]**. 양식 디자이너가 열리고 구조체 및 콘텐츠 [구성 요소](../email/content-components.md#add-content-components)를 추가하여 콘텐츠를 작성할 수 있습니다. [텍스트](../email/content-components.md#text) 및 **[!UICONTROL 필드]** 구성 요소를 사용할 수 있습니다.
 
 1. 프로필 데이터 및 속성을 캡처하려면 양식에 특정 필드를 추가합니다. [자세히 알아보기](#define-fields)
 
@@ -216,7 +216,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_lp_forms_thankyou_page"
 >title="감사 인사 페이지"
->abstract="누군가가 양식을 작성하거나 전송할 때 발생하는 작업을 구성합니다."
+>abstract="누군가 양식을 작성하거나 전송할 때 발생하는 작업을 구성합니다."
 
 **[!UICONTROL 감사 페이지]** 섹션에서 양식 세부 정보로 돌아가서 사용자가 양식을 작성할 때 수행되는 작업을 구성하십시오.
 
@@ -305,7 +305,7 @@ ht-degree: 0%
 >
 >랜딩 페이지에 사용된 양식을 게시 취소하고 이 양식을 편집한 후 다시 게시하는 경우, 랜딩 페이지는 항상 게시된 최신 버전의 양식을 사용합니다.
 
-## FAQ(자주 묻는 질문) {#lp-forms-faq}
+## 자주 묻는 질문 {#lp-forms-faq}
 
 +++양식을 사용해야 하는 랜딩 페이지 유형은 무엇입니까?
 
@@ -327,7 +327,7 @@ ht-degree: 0%
 
 +++랜딩 페이지에서 초안 양식을 사용할 수 있습니까?
 
-아니. **게시됨** 양식만 선택하고 랜딩 페이지에 포함할 수 있습니다.
+아니요. **게시됨** 양식만 선택하고 랜딩 페이지에 포함할 수 있습니다.
 
 +++
 

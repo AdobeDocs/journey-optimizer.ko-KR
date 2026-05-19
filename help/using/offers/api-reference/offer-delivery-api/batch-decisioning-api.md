@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: 일괄 의사 결정 API
+title: Batch Decisioning API
 description: Batch Decisioning API를 사용하여 사전 정의된 결정 범위 내에서 대상자 프로필에 대한 최상의 오퍼를 선택하는 방법을 알아봅니다.
 badge: label="레거시" type="Informative"
 feature: Decision Management, API
@@ -26,7 +26,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 749
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer]의 새로운 결정 기능인 Decisioning은 이제 코드 기반 경험 및 이메일 채널을 통해 사용할 수 있습니다. [자세히 알아보기](../../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer]의 새로운 의사 결정 기능인 [결정]을 이제 코드 기반 경험 및 이메일 채널을 통해 사용할 수 있습니다. [자세히 알아보기](../../../experience-decisioning/gs-experience-decisioning.md)
 
 [!DNL Batch Decisioning] API를 사용하면 한 번의 호출로 주어진 대상의 모든 프로필에 대해 의사 결정 기능을 사용할 수 있습니다. 대상의 각 프로필에 대한 오퍼 콘텐츠는 사용자 지정 일괄 처리 워크플로우에 사용할 수 있는 Adobe Experience Platform 데이터 세트에 배치됩니다.
 
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 모든 [!DNL Batch Decisioning] 요청에는 [의사 결정 관리 API 개발자 안내서](../getting-started.md)에서 참조한 헤더 외에 다음 헤더가 필요합니다.
 
-* `Content-Type`: `application/json`
+* `Content-Type`:`application/json`
 * `x-request-id`: 요청을 식별하는 고유한 문자열입니다.
 * `x-sandbox-name`: 샌드박스 이름입니다.
 

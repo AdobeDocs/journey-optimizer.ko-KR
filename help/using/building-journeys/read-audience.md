@@ -36,10 +36,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 1e0a06dddba6c5ca4c53e4b143eb7fa7763ded6b
 workflow-type: tm+mt
-source-wordcount: 3612
-ht-degree: 10%
+source-wordcount: 3767
+ht-degree: 9%
 
 ---
 
@@ -426,13 +426,15 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 ## 관련 항목
 
-* [대상자 빌드](../audience/about-audiences.md)
-* [대상자 선별 활동](audience-qualification-events.md)
-* [여정에서 추가 식별자 사용](supplemental-identifier.md)
-* [가드레일 및 제한 사항](../start/guardrails.md#read-segment-g)
-* [여정 처리 속도 및 항목 관리](entry-management.md)
-* [여정 테스트](testing-the-journey.md)
-* [여정 게시](../building-journeys/publish-journey.md)
+* [대상 작성](../audience/about-audiences.md) - 대상 읽기 여정에서 타깃팅할 대상 세그먼트를 만들고 관리합니다.
+* [대상 자격 활동](audience-qualification-events.md) - 프로필이 대상을 일괄적으로 처리하지 않고 들어오거나 종료할 때 실시간으로 여정을 트리거합니다.
+* [여정에서 보조 식별자 사용](supplemental-identifier.md) - 읽기 대상 여정을 확장하여 프로필에 연결된 예약, 계약 또는 구독과 같은 보조 엔터티를 타깃팅합니다.
+* [보호 기능 및 제한 사항](../start/guardrails.md#read-segment-g) - 대규모로 실행하기 전에 처리량 제한, 다시 시도 동작 및 대상 크기 임계값을 검토하십시오.
+* [여정 처리 속도 및 시작 관리](entry-management.md) - 프로필이 여정에 삽입되는 방법과 시작 및 재시작을 제어하는 항목을 이해합니다.
+* [여정 테스트](testing-the-journey.md) - 시작하기 전에 테스트 프로필을 사용하여 여정 논리의 유효성을 검사합니다.
+* [여정 게시](../building-journeys/publish-journey.md) - 여정을 활성화하고 초기 실행을 모니터링합니다.
+* [구독자에게 메시지 보내기](message-to-subscribers-uc.md) - 엔드 투 엔드 사용 사례: 설정에서 게재까지 대상 읽기 여정이 있는 구독 목록을 대상으로 합니다.
+* [대상자 읽기 여정에 대한 모범 사례](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445?profile.language=ko){target="_blank"} - 일반적인 위험, 개수 불일치 및 입증된 모범 사례를 다루는 커뮤니티 블로그.
 
 ## 사용 방법 비디오 {#video}
 

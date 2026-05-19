@@ -1,5 +1,5 @@
 ---
-title: 메시지에 의사 결정 정책 사용
+title: 메시지에 결정 정책 사용
 description: 메시지에서 의사 결정 정책을 사용하는 방법을 알아봅니다.
 feature: Decisioning
 topic: Integrations
@@ -26,11 +26,11 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 771
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# 메시지에 의사 결정 정책 사용 {#create-decision}
+# 메시지에 결정 정책 사용 {#create-decision}
 
 콘텐츠에 의사 결정 정책을 추가한 후에는 개인화를 위해 반환된 의사 결정 항목의 속성을 사용할 수 있습니다. 이렇게 하려면 먼저 의사 결정 정책 코드를 콘텐츠에 삽입합니다.
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 >
 >코드 기반 경험의 경우 의사 결정 정책에 조각이 포함된 의사 결정 항목이 포함되어 있으면 의사 결정 정책 코드에서 이러한 조각을 활용할 수 있습니다. [조각을 활용하는 방법 알아보기](fragments-decision-policies.md)
 
->[!TAB 전자 메일]
+>[!TAB 이메일]
 
 1. **Personalization 편집기**&#x200B;를 열고 **[!UICONTROL 의사 결정 정책]**(으)로 이동합니다.
 
@@ -137,7 +137,7 @@ ht-degree: 0%
 
 * 결정 항목 추적을 사용하려면 `trackingToken` 특성을 추가하십시오. `trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
-## 콘텐츠 미리보기 및 테스트
+## 콘텐츠 미리 보기 및 테스트
 
 콘텐츠를 빌드한 후 여정 또는 캠페인을 활성화하기 전에 미리보기 및 테스트하십시오. 시뮬레이션 인터페이스에서 선택한 프로필을 기반으로 의사 결정 항목을 렌더링합니다. [콘텐츠를 미리 보고 테스트하는 방법에 대해 알아보세요](../content-management/preview-test.md).
 
