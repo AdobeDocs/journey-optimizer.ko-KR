@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ded80e8d1293462687404d67045bdccde2cb96ed
+source-git-commit: 6f5d3c09cb360cd0211b9f8db0aef926b8e2d9a2
 workflow-type: tm+mt
 source-wordcount: '3326'
 ht-degree: 97%
@@ -18,7 +18,7 @@ ht-degree: 97%
 + [Journey Optimizer 설명서](ajo-home.md)
 + 새로운 기능 {#whats-new}
    + [릴리스 주기](using/rn/releases.md)
-   + [사전 릴리스 정보](using/rn/e-release-notes.md)
+   + {hide-from-toc}[사전 릴리스 정보](using/rn/e-release-notes.md)
    + [최신 릴리스 정보](using/rn/release-notes.md)
    + 이전 릴리스 정보 {#previous-rn-new}
       + {hide-from-toc}[이전 릴리스 정보](/help/rp_landing_pages/previous-rn-new-landing-page.md)
@@ -511,7 +511,7 @@ ht-degree: 97%
          + {hide-from-toc}[콘텐츠 조각에 대한 저장소 구성](using/integrations/aem-admin-settings.md)
          + [Experience Manager 콘텐츠 조각 작업](using/integrations/aem-fragments.md)
          + [고려할 사항 및 문제 해결](using/integrations/aem-fragments-limitations.md)
-      + [Experience Manager Content Advisor 작업](using/content-management/aem-content-advisor.md)
+      + [Experience Manager Content Advisor 작업](using/integrations/aem-content-advisor.md)
       + [Dynamic Media 작업](using/integrations/aem-dynamic.md)
       + {hide-from-toc}[카운트다운 타이머 삽입](using/integrations/countdown.md)
       + [GenStudio for Performance Marketing 작업](using/integrations/genstudio.md)
