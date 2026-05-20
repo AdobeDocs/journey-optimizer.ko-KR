@@ -30,10 +30,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 4e836dc988654ef5d529e4583e06592fb2e168a6
+source-git-commit: f8fa72eadbc8381486290379f98025a10001f997
 workflow-type: tm+mt
-source-wordcount: 1814
-ht-degree: 33%
+source-wordcount: 1922
+ht-degree: 31%
 
 ---
 
@@ -67,8 +67,13 @@ ht-degree: 33%
 <tbody>
 <tr>
 <td>
-<p>이제 Journey Optimizer에서는 Experience Manager Assets 및 콘텐츠 조각을 모두 선택하는 데 통합 모달인 <strong>콘텐츠 관리자 선택기</strong>를 사용합니다. 새 선택기는 모든 에셋에서 탐색, 검색 및 필터링을 지원하고, Dynamic Media 렌디션을 포함하며, 동적 에셋 사용 시 이미지 렌디션을 쉽게 추가할 수 있는 향상된 사용자 인터페이스 기능을 통합합니다.</p>
-<p>이전에는 제한된 가용성으로 제공되었지만 이제 모든 환경에서 이 기능을 사용할 수 있습니다(일반 가용성).</p>
+<p>이제 Journey Optimizer에서는 Experience Manager Assets 및 콘텐츠 조각을 모두 선택하는 데 통합 모달인 <strong>콘텐츠 관리자 선택기</strong>를 사용합니다. 새 선택기에는 다음이 포함됩니다.</p>
+<ul>
+<li>모든 에셋 및 조각에서 <strong>검색, 검색 및 필터링</strong>.</li>
+<li><strong>AI 의미 체계 검색</strong>: 텍스트만 일치하는 것이 아니라 의미와 콘텐츠를 기반으로 컨텍스트에 맞는 에셋을 표시하기 위해 필요한 것을 일반 언어로 설명합니다(예: "산에 있는 커피"). 다국어 쿼리도 지원됩니다.</li>
+<li><strong>간단한 업로드</strong>: 마케팅 개요를 업로드하여 콘텐츠 및 요구 사항에 따라 캠페인 컨텍스트에 맞는 에셋을 자동으로 표시합니다.</li>
+<li><strong>Dynamic Media 렌디션</strong>: 선택기에서 나가지 않고 dynamic assets에 대한 이미지 렌디션을 선택하여 적용합니다.</li>
+</ul>
 <p>자세한 내용은 <a href="../integrations/aem-content-advisor.md">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2026년 5월 19일</p>
 </td>
@@ -253,6 +258,24 @@ ht-degree: 33%
 <p>이제 마지막 활성 프로필이 종료되면 반복되지 않는 <strong>대상자 읽기</strong> 여정이 <strong>중지됨</strong> 상태로 자동 전환됩니다. 이전에는 프로필이 더 이상 전달되지 않는 경우에도 91일 글로벌 시간 제한이 만료될 때까지 이러한 여정이 <strong>Live</strong> 상태로 유지되었습니다. 이 개선 사항을 통해 여정 상태는 완료되는 즉시 실제 실행 상태를 반영하므로 수동 개입 없이 여정 인벤토리를 정확하게 유지할 수 있습니다.</p>
 <p>대기 노드, 반응 노드 또는 여정 트리거된 전환과 같이 대기 기간을 유발하는 노드를 포함하는 이벤트에는 이 동작이 적용되지 않습니다. 이러한 여정은 표준 91일 글로벌 시간 초과의 적용을 받습니다.</p>
 <p>사용 가능한 날짜: 2026년 5월 21일</p>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>DM 채널에서의 의사 결정 지원</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 DM 여정 및 캠페인에 의사 결정 정책을 추가할 수 있습니다. 의사 결정 정책은 의사 결정 엔진을 활용하여 각 대상 구성원에 대해 최상의 콘텐츠를 동적으로 반환하는 오퍼에 대한 컨테이너입니다. 또한 Dm Decisioning은 일괄 의사 결정 사용 사례를 지원하므로 주어진 Adobe Experience Platform 대상의 모든 프로필에 대해 해당 오퍼 항목을 내보낼 수 있습니다.</p>
+<!--<p><img src="assets/do-not-localize/exd-dm.gif"></p>-->
+<p>사용 가능한 날짜: 2026년 5월 21일</p>
+</td>
 </tr>
 </tbody>
 </table>
