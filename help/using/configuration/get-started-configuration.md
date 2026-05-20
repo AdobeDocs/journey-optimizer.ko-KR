@@ -33,7 +33,7 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 471
 ht-degree: 32%
@@ -56,8 +56,8 @@ ht-degree: 32%
    <table style="table-layout:fixed"><tr style="border: 0;">
     <td><a href="../email/get-started-email-config.md"><img alt="이메일" src="../channels/assets/do-not-localize/email.png"></a>
     <div align="center"><a href="../email/get-started-email-config.md"><strong>이메일</strong></a></div></td>
-    <td><a href="../sms/sms-configuration.md"><img alt="sms" src="../channels/assets/do-not-localize/sms.png"></a>
-    <div align="center"><a href="../sms/sms-configuration.md"><strong>SMS</strong></a></div></td>
+    <td><a href="../mobile/mobile-configuration.md"><img alt="sms" src="../channels/assets/do-not-localize/sms.png"></a>
+    <div align="center"><a href="../mobile/mobile-configuration.md"><strong>SMS</strong></a></div></td>
     <td><a href="../push/push-configuration.md"><img alt="푸시" src="../channels/assets/do-not-localize/push.png"></a>
     <div align="center"><a href="../push/push-configuration.md"><strong>푸시 알림</strong></a></div></td>
     <td><a href="../direct-mail/direct-mail-configuration.md"><img alt="다이렉트 메일" src="../channels/assets/do-not-localize/direct-mail.jpg"></a>
@@ -85,7 +85,7 @@ ht-degree: 32%
 
 1. 사용 중인 채널, 환경 및 요구 사항에 따라 다음 단계도 수행해야 합니다.
 
-   * 채널에 대한 하위 도메인 구성 및 위임(예: [이메일](about-subdomain-delegation.md), [SMS](../sms/sms-subdomains.md), [랜딩 페이지](../landing-pages/lp-subdomains.md) 및 [웹 경험](../web/web-delegated-subdomains.md)).
+   * 채널에 대한 하위 도메인 구성 및 위임(예: [이메일](about-subdomain-delegation.md), [SMS](../mobile/mobile-subdomains.md), [랜딩 페이지](../landing-pages/lp-subdomains.md) 및 [웹 경험](../web/web-delegated-subdomains.md)).
 
    * 최적의 전달성을 위해 IP 준비 계획을 설정합니다. [자세히 알아보기](ip-warmup-gs.md)
 

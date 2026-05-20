@@ -23,7 +23,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 9a68782b0ca1a9a65db621209cf4f39ea5ce911d
 workflow-type: tm+mt
 source-wordcount: 544
 ht-degree: 1%
@@ -52,7 +52,7 @@ Journey Optimizer에서는 SMS 메시지 본문에 최대 1,500자를 사용할 
 
 ## 길이가 늘어나는 특수 문자는 사용하지 마십시오 {#avoid-special-characters}
 
-특정 문자(예: `| ^ € { } [ ] ~ \`)는 GSM 인코딩에서 두 문자로 계산됩니다. 이 문자를 포함하면 메시지가 **160자 제한**&#x200B;을(를) 더 빨리 초과할 수 있습니다.
+특정 문자(예: `| ^ &euro; { } [ ] ~ \`)는 GSM 인코딩에서 두 문자로 계산됩니다. 이 문자를 포함하면 메시지가 **160자 제한**&#x200B;을(를) 더 빨리 초과할 수 있습니다.
 
 ## UCS-2 인코딩 방지 {#prevent-ucs2-encoding}
 

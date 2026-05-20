@@ -46,7 +46,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 3645
 ht-degree: 100%
@@ -314,7 +314,7 @@ table>
 <td>
 <p>이제 <b>Sinch</b> / <b>Twilio</b>와의 통합을 통해 Journey Optimizer에서 SMS를 만들고, 개인화하고, 보낼 수 있습니다.</p>
 <img src="assets/do-not-localize/SMS.gif"/>
-<p>이 <a href="../sms/create-sms.md">세부 설명서</a>에서 SMS를 만들고 보내는 방법을 알아보십시오.</p>
+<p>이 <a href="../mobile/create-mobile-message.md">세부 설명서</a>에서 SMS를 만들고 보내는 방법을 알아보십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -469,7 +469,7 @@ table>
 <p>이제 <b>Sinch</b> / <b>Twilio</b>와의 통합을 통해 Journey Optimizer에서 SMS를 만들고, 개인화하고, 보낼 수 있습니다.</p>
 <!--img src="assets/do-not-localize/SMS.gif"/-->
 <p>SMS 채널은 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 자세한 내용은 Adobe 직원에게 문의하십시오.</p>
-<p>이 <a href="../sms/create-sms.md">세부 설명서</a>에서 SMS를 만들고 보내는 방법을 알아보십시오.</p>
+<p>이 <a href="../mobile/create-mobile-message.md">세부 설명서</a>에서 SMS를 만들고 보내는 방법을 알아보십시오.</p>
 </td>
 </tr>
 </tbody>

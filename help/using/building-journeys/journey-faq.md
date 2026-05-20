@@ -52,7 +52,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 82c3ff093eef40fa31fc0f3bb7baa32c857ff6ea
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 5499
 ht-degree: 1%
@@ -661,7 +661,7 @@ Learn more about [action responses](../action/action-response.md).
 2. 기본 채널 프로필 특성(예: `profile.preferredChannel`)을 확인하여 각 채널의 경로를 만듭니다.
 3. 채널별 경로 구성:
    * **전자 메일 경로**: 전자 메일에 최적화된 콘텐츠로 [전자 메일 동작](../email/create-email.md) 추가
-   * **SMS 경로**: 간결한 메시징을 사용하여 [SMS 작업](../sms/create-sms.md) 추가
+   * **SMS 경로**: 간결한 메시징을 사용하여 [SMS 작업](../mobile/create-mobile-message.md) 추가
    * **푸시 경로**: 짧고 실행 가능한 콘텐츠로 [푸시 알림 동작](../push/create-push.md)을 추가합니다.
    * **앱 내 경로**: 참여 앱 사용자에 대한 [앱 내 메시지 작업](../in-app/create-in-app.md) 추가
 4. 환경 설정 없이 프로필의 기본 경로를 추가하여 기본 채널로 라우팅

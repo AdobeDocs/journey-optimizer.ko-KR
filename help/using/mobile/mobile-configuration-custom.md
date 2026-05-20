@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 사용자 정의 공급자 구성
-description: 사용자 지정 공급자를 통해 Journey Optimizer에서 텍스트 메시지를 보내도록 환경을 구성하는 방법에 대해 알아봅니다
+description: 사용자 지정 공급자를 통해 Journey Optimizer에서 모바일 메시지를 보내도록 환경을 구성하는 방법에 대해 알아봅니다
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
@@ -22,9 +22,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 9e5edbefb19b7cf30da3a7164300e966a42e8711
+source-git-commit: 9a68782b0ca1a9a65db621209cf4f39ea5ce911d
 workflow-type: tm+mt
-source-wordcount: 886
+source-wordcount: 881
 ht-degree: 11%
 
 ---
@@ -46,20 +46,20 @@ ht-degree: 11%
 >title="공급자 페이로드"
 >abstract="올바른 데이터가 처리 및 응답 생성에 사용될 수 있도록 요청 페이로드를 제공합니다."
 
-이 기능을 사용하면 고유한 메시징 공급자를 통합 및 구성하여 기본 옵션(Sinch, Twilio 및 Infobip) 이상의 유연성을 제공할 수 있습니다. 이를 통해 SMS 및 RCS 메시지 모두에 대해 원활한 작성, 전달, 보고 및 동의 관리가 가능합니다.
+이 기능을 사용하면 고유한 메시징 공급자를 통합 및 구성하여 기본 옵션(Sinch, Twilio 및 Infobip) 이상의 유연성을 제공할 수 있습니다. 이를 통해 모바일 메시지에 대한 원활한 작성, 전달, 보고 및 동의 관리가 가능합니다.
 
 사용자 정의 공급자 구성을 통해 Journey Optimizer 내에서 직접 서드파티 메시징 서비스에 연결하고, 다이내믹 컨텐츠에 대한 메시지 페이로드를 사용자 정의하고, 옵트인/옵트아웃 환경 설정을 관리하여 SMS와 RCS 채널 모두에서 규정 준수를 보장할 수 있습니다.
 
 사용자 지정 공급자를 구성하려면 아래 단계를 수행하십시오.
 
 1. [API 자격 증명 만들기](#api-credential)
-1. [웹후크 만들기](sms-webhook.md)
-1. [채널 구성 만들기](sms-configuration-surface.md)
-1. [SMS 채널 작업으로 여정 또는 캠페인 만들기](create-sms.md)
+1. [웹후크 만들기](mobile-webhook.md)
+1. [채널 구성 만들기](mobile-configuration-surface.md)
+1. [SMS 채널 작업으로 여정 또는 캠페인 만들기](create-mobile-message.md)
 
 ## API 자격 증명 만들기 {#api-credential}
 
-Adobe에서 즉시 사용할 수 없는 사용자 정의 공급자(예: Sinch, Infobip, Twilio)를 사용하여 Journey Optimizer에서 SMS 및 RCS 메시지를 보내려면 다음 단계를 따르십시오.
+Adobe에서 즉시 사용할 수 없는 사용자 지정 공급자(예: Sinch, Infobip, Twilio)를 사용하여 Journey Optimizer에서 모바일 메시지를 보내려면 다음 단계를 따르십시오.
 
 1. 왼쪽 레일에서 **[!UICONTROL 관리]** `>` **[!UICONTROL 채널]**(으)로 이동하고 **[!UICONTROL SMS 설정]**&#x200B;에서 **[!UICONTROL API 자격 증명]** 메뉴를 선택한 다음 **[!UICONTROL 새 API 자격 증명 만들기]** 단추를 클릭합니다.
 
@@ -83,7 +83,7 @@ Adobe에서 즉시 사용할 수 없는 사용자 정의 공급자(예: Sinch, I
 
 1. 보안 연결을 설정하기 전에 클라이언트와 서버가 서로 인증하도록 하는 **[!UICONTROL mTLS 지원]** 옵션을 사용하도록 설정하십시오.
 
-   mTLS만 사용하려면 **[!UICONTROL 인증 유형]** 드롭다운에서 **[!UICONTROL 인증 없음]**&#x200B;을 선택한 다음 **&#x200B; [!UICONTROL mTLS 지원]을 &#x200B;**.
+   mTLS만 사용하려면 **[!UICONTROL 인증 유형]** 드롭다운에서 **[!UICONTROL 인증 없음]**&#x200B;을 선택한 다음 **[!UICONTROL mTLS 지원]**&#x200B;을 사용하도록 설정하십시오.
 
 1. **[!UICONTROL Headers]** 섹션에서 **[!UICONTROL 새 매개 변수 추가]**&#x200B;를 클릭하여 외부 서비스로 전송될 요청 메시지에 대한 HTTP 헤더를 지정합니다.
 
@@ -93,7 +93,7 @@ Adobe에서 즉시 사용할 수 없는 사용자 정의 공급자(예: Sinch, I
 
 1. **[!UICONTROL 공급자 페이로드]**&#x200B;를 추가하여 요청 페이로드의 유효성을 검사하고 사용자 지정합니다.
 
-   RCS 메시지의 경우 이 페이로드는 나중에 [콘텐츠 디자인](create-sms.md#sms-content) 중에 사용됩니다.
+   RCS 메시지의 경우 이 페이로드는 나중에 [콘텐츠 디자인](create-mobile-message.md#sms-content) 중에 사용됩니다.
 
    >[!NOTE]
    >

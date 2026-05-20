@@ -27,7 +27,7 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 1625
 ht-degree: 3%
@@ -145,13 +145,13 @@ AI Assistant는 푸시 알림 및 SMS 메시지에 대한 매력적인 텍스트
 
 1. 모바일 캠페인을 만들고 구성합니다.
    * **푸시 알림**: 푸시 알림 캠페인을 만들고 구성한 후 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 클릭하세요. [자세히 알아보기](../push/create-push.md)
-   * **SMS**: SMS 캠페인을 만들고 구성한 후 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 클릭하세요. [자세히 알아보기](../sms/create-sms.md)
+   * **SMS**: SMS 캠페인을 만들고 구성한 후 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 클릭하세요. [자세히 알아보기](../mobile/create-mobile-message.md)
 
 1. 캠페인에 대한 **[!UICONTROL 기본 세부 정보]**&#x200B;를 입력하십시오. 완료되면 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 클릭하세요.
 
 1. 필요에 따라 메시지를 개인화합니다.
    * **푸시 알림**: [자세히 알아보기](../push/design-push.md)
-   * **SMS**: [자세히 알아보기](../sms/create-sms.md)
+   * **SMS**: [자세히 알아보기](../mobile/create-mobile-message.md)
 
 1. AI Assistant 액세스:
    * **푸시 알림용**: **[!UICONTROL 제목]** 또는 **[!UICONTROL 메시지]** 필드 옆에 있는 **[!UICONTROL AI Assistant로 텍스트 편집]** 메뉴를 클릭합니다. **AI 도우미** 메뉴에 직접 액세스할 수도 있습니다.

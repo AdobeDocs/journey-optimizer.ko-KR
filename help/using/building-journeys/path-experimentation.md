@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 실험, 실험, 여정, 경로, 최적화, A/B 테스트, multi-armed bandit, 승자 크기 조정
 exl-id: 7241ade3-577c-4bb3-b0c3-017133871ca5
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: '1147'
 ht-degree: 6%
@@ -83,7 +83,7 @@ ht-degree: 6%
 
    * 이틀 동안의 [대기](wait-activity.md) 활동을 첫 번째 분기로 끌어다 놓은 다음 [이메일](../email/create-email.md) 활동(**처리 B**)을 끌어다 놓습니다.
 
-   * [Email](../email/create-email.md) 활동을 세 번째 분기로 드래그한 다음 [SMS](../sms/create-sms.md) 활동(**처리 C**)을 드래그합니다.
+   * [Email](../email/create-email.md) 활동을 세 번째 분기로 드래그한 다음 [SMS](../mobile/create-mobile-message.md) 활동(**처리 C**)을 드래그합니다.
 
    ![3개의 처리 경로를 사용한 경로 실험 예](assets/journey-optimize-experiment-ex.png){width=100%}
 
@@ -153,7 +153,7 @@ REMOVED WITH GA
 >
 >경로 실험의 경우 우승자 크기 조정 기능은 단일 여정(이벤트 트리거 및 대상 자격 조건)에서만 사용할 수 있습니다.
 >
->대상자 읽기 여정에 사용할 수 없습니다.
+>대상자 읽기 여정에는 사용할 수 없습니다.
 
 우승자 적용 확대 기능을 사용하면 실험에서 우승한 베리에이션을 전체 대상자에게 자동 또는 수동으로 롤아웃할 수 있습니다. 이 기능은 일단 승자가 결정되면 실험을 지속적으로 모니터링하지 않고 도달 범위와 효과를 증폭시킬 수 있도록 한다.
 

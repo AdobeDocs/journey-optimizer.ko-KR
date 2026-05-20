@@ -33,7 +33,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 2079
 ht-degree: 97%
@@ -217,7 +217,7 @@ Journey Optimizer는 프로그래밍 방식으로 액세스할 수 있는 포괄
 
 1. **의사 결정 마이그레이션 API**: 의사 결정 관리 엔터티를 프로그래밍 방식으로 유연한 범위, 자동 유효성 검사, 롤백 지원을 제공하는 의사 결정으로 마이그레이션합니다. 자세한 내용은 [의사 결정 마이그레이션 API 안내서](../../experience-decisioning/decisioning-migration-api.md)에서 확인하세요.
 
-1. **SMS Webhook**: 들어오는 메시지를 캡처하는 인바운드 Webhook과 게재 확인 및 상태 업데이트를 수신하는 피드백 Webhook을 구성합니다. [자세히 알아보기](../../sms/sms-webhook.md).
+1. **SMS Webhook**: 들어오는 메시지를 캡처하는 인바운드 Webhook과 게재 확인 및 상태 업데이트를 수신하는 피드백 Webhook을 구성합니다. [자세히 알아보기](../../mobile/mobile-webhook.md).
 
 ## 테스트 및 디버깅 {#testing}
 

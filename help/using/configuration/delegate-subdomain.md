@@ -26,7 +26,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 1963
 ht-degree: 19%
@@ -273,7 +273,7 @@ CNAME을 사용하여 하위 도메인을 설정하려면 아래 단계를 따�
 
 1. 이 하위 도메인과 연결된 모든 랜딩 페이지 하위 도메인, SMS 하위 도메인 및 웹 하위 도메인의 위임을 취소합니다.
 
-   각 [랜딩 페이지](../landing-pages/lp-subdomains.md#undelegate-subdomain), [SMS](../sms/sms-subdomains.md#undelegate-subdomain) 또는 [웹 하위 도메인](../web/web-delegated-subdomains.md#undelegate-subdomain)에 대해 전용 요청을 제기해야 합니다.
+   각 [랜딩 페이지](../landing-pages/lp-subdomains.md#undelegate-subdomain), [SMS](../mobile/mobile-subdomains.md#undelegate-subdomain) 또는 [웹 하위 도메인](../web/web-delegated-subdomains.md#undelegate-subdomain)에 대해 전용 요청을 제기해야 합니다.
 
 1. 하위 도메인과 연관된 활성 캠페인을 중지합니다. [방법 알아보기](../campaigns/manage-campaigns.md#stop)
 

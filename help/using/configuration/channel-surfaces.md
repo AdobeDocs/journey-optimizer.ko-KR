@@ -30,7 +30,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 1898
 ht-degree: 12%
@@ -55,7 +55,7 @@ ht-degree: 12%
 >
 > * 채널 구성을 만들고 편집하고 삭제하려면 [메시지 사전 설정 관리](../administration/high-low-permissions.md#administration-permissions) 권한이 있어야 합니다.
 >
-> * 채널 구성을 만들기 전에 [이메일 구성](../email/get-started-email-config.md), [푸시 구성](../push/push-configuration.md), [SMS 구성](../sms/sms-configuration.md), [인앱 구성](../in-app/inapp-configuration.md), [코드 기반 구성](../code-based/code-based-configuration.md), [웹 구성](../web/web-configuration.md) 및 [DM 구성](../direct-mail/direct-mail-configuration.md) 단계를 수행해야 합니다.
+> * 채널 구성을 만들기 전에 [이메일 구성](../email/get-started-email-config.md), [푸시 구성](../push/push-configuration.md), [SMS 구성](../mobile/mobile-configuration.md), [인앱 구성](../in-app/inapp-configuration.md), [코드 기반 구성](../code-based/code-based-configuration.md), [웹 구성](../web/web-configuration.md) 및 [DM 구성](../direct-mail/direct-mail-configuration.md) 단계를 수행해야 합니다.
 
 채널 구성이 구성되면 여정 또는 캠페인에서 메시지를 만들 때 선택할 수 있습니다.
 

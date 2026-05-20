@@ -24,7 +24,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 633
 ht-degree: 11%
@@ -83,7 +83,7 @@ ht-degree: 11%
    다음 섹션에서 다양한 채널에 대한 콘텐츠를 만드는 방법을 알아봅니다.
    * [이메일 콘텐츠 정의](../email/get-started-email-design.md)
    * [푸시 콘텐츠 정의](../push/design-push.md)
-   * [SMS 콘텐츠 정의](../sms/create-sms.md#sms-content)
+   * [SMS 콘텐츠 정의](../mobile/create-mobile-message.md#sms-content)
    * [DM 콘텐츠 정의](../direct-mail/create-direct-mail.md)
    * [인앱 콘텐츠 정의](../in-app/design-in-app.md)
    * [웹 콘텐츠 정의](../web/create-web.md#edit-web-content)

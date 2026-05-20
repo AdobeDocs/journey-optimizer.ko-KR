@@ -9,7 +9,7 @@ hide: true
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: '4441'
 ht-degree: 99%
@@ -55,7 +55,7 @@ ht-degree: 99%
 <td>
 <p>이제 [SMS 채널]을 통해 MMS(멀티미디어 메시지 서비스) 메시지를 보내 고객과 이미지, GIF 또는 비디오를 공유하는 기능이 추가되어 커뮤니케이션을 더욱 원활하게 진행할 수 있습니다. 단, 이 기능은 현재 Sinch에서만 사용할 수 있습니다.</p>
 <img src="assets/do-not-localize/mms.gif"/>
-<p>자세한 내용은 <a href="../sms/create-sms.md#mms-content">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../mobile/create-mobile-message.md#mms-content">세부 설명서</a>를 참조하십시오.</p>
 </tr>
 </tbody>
 </table>
@@ -216,9 +216,9 @@ ht-degree: 99%
 
 **SMS 채널**
 
-* 두 개의 새 필드인 **옵트인 메시지** 및 **도움말 메시지**&#x200B;가 API 구성 화면에 추가되어 사용자가 인바운드 키워드에 대한 응답을 사용자 지정할 수 있습니다. Sinch SMS 공급자만 사용할 수 있습니다. [자세히 알아보기](../sms/sms-configuration.md)
+* 두 개의 새 필드인 **옵트인 메시지** 및 **도움말 메시지**&#x200B;가 API 구성 화면에 추가되어 사용자가 인바운드 키워드에 대한 응답을 사용자 지정할 수 있습니다. Sinch SMS 공급자만 사용할 수 있습니다. [자세히 알아보기](../mobile/mobile-configuration.md)
 
-* SMS 옵트아웃은 더 이상 채널 수준에서 관리되지 않습니다. 이제는 번호별로 지정됩니다. 즉, 일부 프로필이 지정된 번호나 짧은 코드에서 옵트아웃해도 SMS 메시지를 보내는 데 사용할 수 있는 다른 번호에서 메시지를 보낼 수 있습니다. 새 옵션을 사용하면 특정 표면에 사용할 **옵트아웃 번호**&#x200B;를 선택할 수 있습니다. [자세히 알아보기](../sms/sms-configuration.md)
+* SMS 옵트아웃은 더 이상 채널 수준에서 관리되지 않습니다. 이제는 번호별로 지정됩니다. 즉, 일부 프로필이 지정된 번호나 짧은 코드에서 옵트아웃해도 SMS 메시지를 보내는 데 사용할 수 있는 다른 번호에서 메시지를 보낼 수 있습니다. 새 옵션을 사용하면 특정 표면에 사용할 **옵트아웃 번호**&#x200B;를 선택할 수 있습니다. [자세히 알아보기](../mobile/mobile-configuration.md)
 
 **DM 채널**
 
@@ -624,8 +624,8 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 **SMS 채널**
 
-* SMS 채널 구성을 구성할 때 공급업체 목록에 Infobip을 추가했습니다. [자세히 보기](../sms/sms-configuration.md)
-* Twillio - 이제 API 자격 증명 설정에 Twillio 계정과의 원활한 통합을 위해 메시징 서비스 SID를 추가하는 기능이 포함됩니다. [자세히 보기](../sms/sms-configuration.md)
+* SMS 채널 구성을 구성할 때 공급업체 목록에 Infobip을 추가했습니다. [자세히 보기](../mobile/mobile-configuration.md)
+* Twillio - 이제 API 자격 증명 설정에 Twillio 계정과의 원활한 통합을 위해 메시징 서비스 SID를 추가하는 기능이 포함됩니다. [자세히 보기](../mobile/mobile-configuration.md)
 
 **인앱 채널**
 
@@ -727,7 +727,7 @@ Information below is subject to change without prior notice until the release av
 * 이제 여정 캔버스에서 메시지 활동 및 종료 태그에 활동 ID가 표시됩니다. 보고와 재타겟팅에 도움이 됩니다.
 * 작업과 데이터 소스, 이벤트 및 여정에 표시되는 구성 창의 레이아웃을 개선했습니다.
 * 캔버스의 여러 노드에 성장에 도움이 되는 새로운 인사이트와 보로 장치를 추가했습니다. 여정의 가독성을 유지하고 QA와 문제 해결을 간편하게 만들기 위해 한 여정의 노드 수를 최대 50개로 제한했습니다. [자세히 보기](../start/guardrails.md#journeys-guardrails-journeys)
-* 여정에 [이메일](../email/create-email.md), [SMS](../sms/create-sms.md) 또는 [푸시](../push/create-push.md) 작업을 추가하면 이제 표면을 미리 입력합니다. 현재 여정에서 해당 채널에 대해 최근에 사용한 표면을 기본적으로 사용합니다.
+* 여정에 [이메일](../email/create-email.md), [SMS](../mobile/create-mobile-message.md) 또는 [푸시](../push/create-push.md) 작업을 추가하면 이제 표면을 미리 입력합니다. 현재 여정에서 해당 채널에 대해 최근에 사용한 표면을 기본적으로 사용합니다.
 * 이제 사용자 정의 작업에서 정적 또는 동적 쿼리 매개 변수를 정의할 수 있습니다. [자세히 알아보기](../action/about-custom-action-configuration.md#url-configuration)
 
 **보고**
@@ -771,7 +771,7 @@ Information below is subject to change without prior notice until the release av
 <td>
 <p>SMS 클릭 추적을 사용하면 단축 URL의 성능을 모니터링하고, 클릭한 사람이 누구인지 확인하고, 이 데이터를 사용하여 후속 캠페인에서 해당 고객을 재타겟팅할 수 있습니다.</p>
 <img src="assets/do-not-localize/sms-tracking.gif"/>
-<p>자세한 내용은 <a href="../sms/create-sms.md#sms-content">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../mobile/create-mobile-message.md#sms-content">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>

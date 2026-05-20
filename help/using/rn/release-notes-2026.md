@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 65ca94cf-8e17-4a25-90f3-238083f81477
-source-git-commit: 8bfc5386378ee87faa197a8cfa21247fa6025f94
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: '6076'
 ht-degree: 79%
@@ -921,7 +921,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 
 #### SMS
 
-* **SMS Webhooks** - 이제 모든 SMS 공급자에서 Webhooks가 지원됩니다. 각각의 목적을 기반으로 각 웹후크를 구성할 수 있습니다. 수신 메시지를 캡처하는 인바운드 웹후크와 게재 확인, 상태 업데이트 및 기타 메시지 관련 이벤트를 수신하는 피드백 웹후크. [자세히 보기](../sms/sms-webhook.md)
+* **SMS Webhooks** - 이제 모든 SMS 공급자에서 Webhooks가 지원됩니다. 각각의 목적을 기반으로 각 웹후크를 구성할 수 있습니다. 수신 메시지를 캡처하는 인바운드 웹후크와 게재 확인, 상태 업데이트 및 기타 메시지 관련 이벤트를 수신하는 피드백 웹후크. [자세히 보기](../mobile/mobile-webhook.md)
 
   사용 가능한 날짜: 2026년 2월 2일
 

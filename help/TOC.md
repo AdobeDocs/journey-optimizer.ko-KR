@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a9be72c0fe115e44a6cf9ef9e877c0eb97b9cc00
+source-git-commit: 64bd2abc41469c6624debaea96555e2aecdb82c3
 workflow-type: tm+mt
-source-wordcount: '3326'
-ht-degree: 97%
+source-wordcount: '3318'
+ht-degree: 96%
 
 ---
 
@@ -340,22 +340,22 @@ ht-degree: 97%
          + [웹 푸시 알림 채널 구성](using/push/push-configuration-web.md)
          + [모바일 온보딩 빠른 시작 워크플로](using/push/mobile-onboarding-wf.md)
    + SMS / MMS / RCS 채널 {#sms}
-      + [SMS / MMS / RCS 채널](/help/rp_landing_pages/sms-landing-page.md)
-      + [텍스트 메시지 시작](using/sms/get-started-sms.md)
-      + [SMS / MMS / RCS 메시지 만들기](using/sms/create-sms.md)
-      + [텍스트 메시지 확인 및 보내기](using/sms/send-sms.md)
-      + [텍스트 메시지 옵트아웃 관리](using/sms/sms-opt-out.md)
-      + [SMS 하위 도메인 설정](using/sms/sms-subdomains.md)
-      + [SMS 비용 최적화 모범 사례](using/sms/sms-cost-optimization.md)
-      + SMS / MMS / RCS 채널 구성 {#configure-sms}
-         + [SMS / MMS / RCS 구성 시작](using/sms/sms-configuration.md)
-         + [Sinch 제공자 구성](using/sms/sms-configuration-sinch.md)
-         + [Infobip 제공자 구성](using/sms/sms-configuration-infobip.md)
-         + [Twilio 제공자 구성](using/sms/sms-configuration-twilio.md)
-         + [사용자 정의 제공자 구성](using/sms/sms-configuration-custom.md)
-         + [웹후크 만들기](using/sms/sms-webhook.md)
-         + [SMS / MMS / RCS 구성 만들기](using/sms/sms-configuration-surface.md)
-         + [인바운드 키워드에 대한 사용자 지정 데이터 세트 사용](using/sms/custom-dataset-inbound-keywords.md)
+      + [모바일 메시지 시작](using/mobile/get-started-mobile.md)
+      + [모바일 메시지 만들기](using/mobile/create-mobile-message.md)
+      + [모바일 메시지 디자인](using/mobile/design-mobile.md)
+      + [모바일 메시지 확인 및 보내기](using/mobile/send-mobile-message.md)
+      + [모바일 메시지 옵트아웃 관리](using/mobile/mobile-opt-out.md)
+      + [SMS 하위 도메인 설정](using/mobile/mobile-subdomains.md)
+      + [SMS 비용 최적화 모범 사례](using/mobile/mobile-cost-optimization.md)
+      + 모바일 채널 구성 {#configure-sms}
+         + [모바일 구성 시작](using/mobile/mobile-configuration.md)
+         + [Sinch 제공자 구성](using/mobile/mobile-configuration-sinch.md)
+         + [Infobip 제공자 구성](using/mobile/mobile-configuration-infobip.md)
+         + [Twilio 제공자 구성](using/mobile/mobile-configuration-twilio.md)
+         + [사용자 정의 제공자 구성](using/mobile/mobile-configuration-custom.md)
+         + [웹후크 만들기](using/mobile/mobile-webhook.md)
+         + [모바일 구성 만들기](using/mobile/mobile-configuration-surface.md)
+         + [인바운드 키워드에 대한 사용자 지정 데이터 세트 사용](using/mobile/custom-dataset-inbound-keywords.md)
    + 다이렉트 메일 {#direct-mail}
       + [다이렉트 메일](/help/rp_landing_pages/direct-mail-landing-page.md)
       + [다이렉트 메일 시작](using/direct-mail/get-started-direct-mail.md)

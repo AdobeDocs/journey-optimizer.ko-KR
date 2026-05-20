@@ -6,7 +6,7 @@ description: Experience Platform 스키마, 데이터 세트 및 SMS API 자격 
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: 8d00060a8801a0d29a86894494b9fd7a69f30d88
+source-git-commit: 9a68782b0ca1a9a65db621209cf4f39ea5ce911d
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 8%
@@ -91,7 +91,7 @@ ht-degree: 8%
 
 ## API 자격 증명 구성 {#configure-api-credentials}
 
-[SMS/MMS/RCS 구성 시작](sms-configuration.md)을 사용하여 SMS 공급자에 따라 자격 증명을 구성합니다. 그런 다음 아래 단계를 완료하여 사용자 지정 인바운드 데이터 세트를 선택합니다.
+[SMS/MMS/RCS 구성 시작](mobile-configuration.md)을 사용하여 SMS 공급자에 따라 자격 증명을 구성합니다. 그런 다음 아래 단계를 완료하여 사용자 지정 인바운드 데이터 세트를 선택합니다.
 
 1. 왼쪽 레일에서 **[!UICONTROL 관리]** > **[!UICONTROL 채널]** `>` **[!UICONTROL SMS 설정]**&#x200B;으로 이동한 다음 **[!UICONTROL API 자격 증명]** 메뉴를 선택합니다. **[!UICONTROL 새 API 자격 증명 만들기]** 단추를 클릭합니다.
 

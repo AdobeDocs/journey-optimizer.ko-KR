@@ -42,7 +42,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 1962
 ht-degree: 3%
@@ -193,9 +193,9 @@ SMS 추적을 사용하려면 최소 설정이 필요합니다. Journey Optimize
 
 **작동 방식:**
 
-* **자동 링크 추적** - URL 도우미 함수를 사용하여 SMS 콘텐츠에 URL을 추가합니다. Journey Optimizer은 링크를 자동으로 단축하고 추가 구성 없이 클릭 수를 추적합니다. URL 단축법을 사용하려면 먼저 SMS 하위 도메인을 구성해야 합니다. [자세히 알아보기](../sms/sms-subdomains.md)
+* **자동 링크 추적** - URL 도우미 함수를 사용하여 SMS 콘텐츠에 URL을 추가합니다. Journey Optimizer은 링크를 자동으로 단축하고 추가 구성 없이 클릭 수를 추적합니다. URL 단축법을 사용하려면 먼저 SMS 하위 도메인을 구성해야 합니다. [자세히 알아보기](../mobile/mobile-subdomains.md)
 
-* **인바운드 메시지 추적** - 받는 사람의 회신이 자동으로 캡처되므로 양방향 대화 및 응답 패턴을 모니터링할 수 있습니다. [자세히 알아보기](../sms/sms-opt-out.md#sms-native-keywords)
+* **인바운드 메시지 추적** - 받는 사람의 회신이 자동으로 캡처되므로 양방향 대화 및 응답 패턴을 모니터링할 수 있습니다. [자세히 알아보기](../mobile/mobile-opt-out.md#sms-native-keywords)
 
 **지표 보기:** 보고서에서 링크 클릭 데이터, 인바운드 메시지 볼륨 및 메시지 유형 성능에 액세스합니다. [캠페인 보고서](../reports/campaign-global-report-cja-sms.md) | [보고서 여정](../reports/journey-global-report-cja-sms.md)
 

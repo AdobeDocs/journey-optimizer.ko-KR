@@ -22,14 +22,14 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 9a68782b0ca1a9a65db621209cf4f39ea5ce911d
 workflow-type: tm+mt
-source-wordcount: 433
-ht-degree: 43%
+source-wordcount: 429
+ht-degree: 41%
 
 ---
 
-# SMS / MMS / RCS 구성 시작 {#sms-configuration}
+# 모바일 구성 시작 {#sms-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
@@ -61,22 +61,22 @@ SMS, MMS 또는 RCS를 보내기 전에 Adobe Journey Optimizer 환경을 구성
 
 1. Journey Optimizer과 공급자 설정을 통합합니다.
 단계는 SMS 공급자에 따라 다릅니다. 자세한 설명서에 액세스하려면 아래 링크를 찾아보십시오.
-   * [정보 피드](sms-configuration-infobip.md)
-   * [Sinch](sms-configuration-sinch.md)
-   * [트빌리오](sms-configuration-twilio.md)
-   * [사용자 정의 공급자](sms-configuration-custom.md)
-1. [웹후크 만들기](sms-webhook.md)
-1. [SMS 구성 만들기](sms-configuration-surface.md)
+   * [정보 피드](mobile-configuration-infobip.md)
+   * [Sinch](mobile-configuration-sinch.md)
+   * [트빌리오](mobile-configuration-twilio.md)
+   * [사용자 정의 공급자](mobile-configuration-custom.md)
+1. [웹후크 만들기](mobile-webhook.md)
+1. [모바일 구성 만들기](mobile-configuration-surface.md)
 
 이 단계는 Adobe Journey Optimizer [시스템 관리자](../start/path/administrator.md)가 수행해야 합니다.
 
 ## 전제 조건{#sms-prerequisites}
 
-Adobe Journey Optimizer은 현재 Adobe Journey Optimizer과 독립적으로 텍스트 메시지 서비스를 제공하는 서드파티 공급자와 통합됩니다. 문자 메시지 및 MMS에 대해 지원되는 공급자는 **Sinch**, **Twilio** 및 **Infobip**&#x200B;입니다. [사용자 지정 공급자 구성](sms-configuration-custom.md)을 사용하여 추가 메시징 공급자를 구성할 수 있습니다.
+Adobe Journey Optimizer은 현재 Adobe Journey Optimizer과 독립적으로 텍스트 메시지 서비스를 제공하는 서드파티 공급자와 통합됩니다. 문자 메시지 및 MMS에 대해 지원되는 공급자는 **Sinch**, **Twilio** 및 **Infobip**&#x200B;입니다. [사용자 지정 공급자 구성](mobile-configuration-custom.md)을 사용하여 추가 메시징 공급자를 구성할 수 있습니다.
 
-SMS 채널을 구성하기 전에 이러한 공급자 중 하나로 계정을 만들어 **API 토큰** 및 **서비스 ID**&#x200B;를 받아야 합니다. 이 ID는 Adobe Journey Optimizer과 해당 공급자 간의 연결을 구성해야 합니다.
+모바일 채널을 구성하기 전에 이러한 공급자 중 하나로 계정을 만들어 **API 토큰** 및 **서비스 ID**&#x200B;를 받아야 합니다. 이 ID는 Adobe Journey Optimizer과 해당 공급자 간의 연결을 구성해야 합니다.
 
-문자 메시지 및 MMS 서비스의 사용은 해당 공급자의 추가 약관을 따릅니다. 타사 솔루션인 Sinch, Twilio 및 Infobip은 통합을 통해 Adobe Journey Optimizer 사용자에게 제공됩니다. Adobe은 서드파티 제품을 제어하지 않으며 이에 대해 책임을 지지 않습니다. 문자 메시지 서비스(SMS/MMS)와 관련된 문제 또는 지원 요청은 공급자에게 문의하십시오.
+문자 메시지 및 MMS 서비스의 사용은 해당 공급자의 추가 약관을 따릅니다. 타사 솔루션인 Sinch, Twilio 및 Infobip은 통합을 통해 Adobe Journey Optimizer 사용자에게 제공됩니다. Adobe은 서드파티 제품을 제어하지 않으며 이에 대해 책임을 지지 않습니다. 모바일 메시징 서비스와 관련된 문제 또는 지원 요청은 공급자에게 문의하십시오.
 
 >[!CAUTION]
 >

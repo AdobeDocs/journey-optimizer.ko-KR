@@ -34,7 +34,7 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 1076
 ht-degree: 100%
@@ -85,7 +85,7 @@ ht-degree: 100%
 
    * 이메일, SMS, 푸시, 인앱, 웹 및 기타 채널에 필요한 모든 기술 매개 변수를 구성하려면 **채널 구성**&#x200B;을 만드세요. [자세히 알아보기](../../configuration/channel-surfaces.md)
 
-   * SMS에 필요한 모든 기술 매개 변수를 구성하려면 **SMS 채널**&#x200B;을 구성합니다. [자세히 알아보기](../../sms/sms-configuration.md)
+   * SMS에 필요한 모든 기술 매개 변수를 구성하려면 **SMS 채널**&#x200B;을 구성합니다. [자세히 알아보기](../../mobile/mobile-configuration.md)
 
    * 금지 목록에 이메일 주소를 보내기 전에 **재시도**&#x200B;를 하는 기간(일)을 관리합니다. [자세히 알아보기](../../configuration/manage-suppression-list.md)
 

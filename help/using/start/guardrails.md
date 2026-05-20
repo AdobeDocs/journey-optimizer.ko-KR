@@ -39,7 +39,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 45054647f14fdf4b073825b4db2715a323f2a7a0
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 4262
 ht-degree: 98%
@@ -111,7 +111,7 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 
 ### SMS 가드레일 {#sms-guardrails}
 
-[SMS 채널](../sms/get-started-sms.md) 활동에 다음 가드레일이 적용됩니다.
+[SMS 채널](../mobile/get-started-mobile.md) 활동에 다음 가드레일이 적용됩니다.
 
 * 지원 URL을 통해 MMS에 넣을 미디어 파일을 포함할 수 있습니다. 미디어 파일이 별도로 업로드되는지 확인해야 합니다.
 * 현재 MMS에는 메시지 피드백 동기화를 사용할 수 없습니다.

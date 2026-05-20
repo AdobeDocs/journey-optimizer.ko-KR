@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 문자 메시지(SMS/MMS)에 대한 하위 도메인 구성
+title: 모바일 메시지에 대한 하위 도메인 구성
 description: Journey Optimizer을 사용하여 SMS 하위 도메인을 구성하는 방법 알아보기
 role: Admin
 feature: SMS, Channel Configuration
@@ -29,10 +29,10 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 258d22c6b95db138e927d96f04215c0623e53913
+source-git-commit: 9a68782b0ca1a9a65db621209cf4f39ea5ce911d
 workflow-type: tm+mt
-source-wordcount: 1039
-ht-degree: 20%
+source-wordcount: 1035
+ht-degree: 16%
 
 ---
 
@@ -40,24 +40,24 @@ ht-degree: 20%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms_header"
->title="SMS/MMS 하위 도메인 위임"
->abstract="문자 메시지(SMS/MMS)용 하위 도메인을 설정합니다. Adobe에 이미 위임된 하위 도메인을 사용하거나 새 하위 도메인을 구성할 수 있습니다."
+>title="모바일 메시지 하위 도메인 위임"
+>abstract="모바일 메시지에 대한 하위 도메인을 설정합니다. Adobe에 이미 위임된 하위 도메인을 사용하거나 새 하위 도메인을 구성할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms"
->title="SMS/MMS 하위 도메인 위임"
->abstract="문자 메시지에 사용할 하위 도메인을 구성해야 하는데, 이는 SMS 구성을 만들기 위해 이 하위 도메인이 필요하기 때문입니다. Adobe에 이미 위임된 하위 도메인을 사용하거나 새 하위 도메인을 구성할 수 있습니다."
+>title="모바일 메시지 하위 도메인 위임"
+>abstract="SMS 구성을 만들려면 이 하위 도메인이 필요하므로 모바일 메시지에 사용할 하위 도메인을 구성해야 합니다. Adobe에 이미 위임된 하위 도메인을 사용하거나 새 하위 도메인을 구성할 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="SMS 구성 만들기"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_sms_subdomain"
->title="SMS/MMS 하위 도메인 선택"
+>title="모바일 메시지 하위 도메인 선택"
 >abstract="SMS 구성을 만들려면 하위 도메인 이름 목록에서 선택할 SMS 하위 도메인을 이전에 하나 이상 구성했는지 확인합니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="SMS 구성 만들기"
 
 ## SMS 하위 도메인 시작 {#gs-sms-mms-subdomains}
 
-SMS/MMS 메시지에 추가되는 URL을 단축하려면 [SMS 구성을 만들 때](sms-configuration.md#sms-prerequisites)선택할 하위 도메인을 설정해야 합니다.
+SMS/MMS 메시지에 추가되는 URL을 단축하려면 [SMS 구성을 만들 때](mobile-configuration.md#sms-prerequisites)선택할 하위 도메인을 설정해야 합니다.
 
 이미 Adobe에 위임된 하위 도메인을 사용하거나 다른 하위 도메인을 구성할 수 있습니다. [이 섹션](../configuration/delegate-subdomain.md)에서 하위 도메인을 Adobe으로 위임하는 방법에 대해 자세히 알아보세요.
 

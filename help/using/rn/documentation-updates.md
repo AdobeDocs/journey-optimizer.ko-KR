@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 8f23da537097fa514b19f9d6e8be025ba86f8a05
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: '7833'
 ht-degree: 91%
@@ -141,7 +141,7 @@ ht-degree: 91%
 
 * 의사 결정에서 조각 사용에 대한 설명서가 업데이트되었습니다. 조각 및 의사 결정 섹션에 참고 사항이 추가되었고, 결정 정책의 조각 페이지가 업데이트되었습니다. [자세히 보기](../experience-decisioning/fragments-decision-policies.md)
 
-* SMS 웹훅 설명서가 업데이트되었으며, Twilio 웹훅 관련 내용은 제거되었습니다. [자세히 보기](../sms/sms-webhook.md)
+* SMS 웹훅 설명서가 업데이트되었으며, Twilio 웹훅 관련 내용은 제거되었습니다. [자세히 보기](../mobile/mobile-webhook.md)
 
 * **이미지를 콘텐츠 템플릿으로 변환** 설명서가 개선되어 가드레일과 권장 사항이 확장되었고, 일반적인 사용 사례와 이미지 디자인을 편집 가능한 HTML 콘텐츠 템플릿으로 변환하는 방법에 대한 명확한 지침이 추가되었습니다. 또한 이제 테마를 전환 입력으로 사용할 수 있다는 내용도 언급되어 있습니다. [자세히 보기](../content-management/image-to-html.md)
 
@@ -453,9 +453,9 @@ ht-degree: 91%
 * 다이렉트 메일 구성 페이지에 출력 파일의 임시 저장에 대한 메모를 추가했습니다. [자세히 보기](../direct-mail/direct-mail-configuration.md)
 * 여정 고급 표현식 편집기 섹션에 조건문 형식 지침에 대한 팁을 추가했습니다. [자세히 보기](../building-journeys/expression/expressionadvanced.md)
 * `inAudience` 함수 섹션에 대상자의 이름을 바꿀 때의 영향과 모범 사례에 대한 주의 메모를 추가했습니다. [자세히 보기](../building-journeys/functions/functioninaudience.md)
-* 양방향 SMS 사용 시 기본 키워드 사용에 대한 권장 사항을 추가했습니다. [자세히 보기](../sms/sms-opt-out.md)
+* 양방향 SMS 사용 시 기본 키워드 사용에 대한 권장 사항을 추가했습니다. [자세히 보기](../mobile/mobile-opt-out.md)
 * 여정 테스트 페이지를 업데이트하여 사용하는 이벤트에 ID 네임스페이스를 포함할 필요성에 대한 메모를 추가했습니다. [자세히 보기](../building-journeys/testing-the-journey.md)
-* 현재는 [!UICONTROL Journey Optimizer] 사용자 인터페이스를 통해 하위 도메인의 위임을 해제할 수 없습니다. Adobe 담당자에게 연락해야 합니다. 이제 [이메일](../configuration/delegate-subdomain.md#undelegate-subdomain), [SMS](../sms/sms-subdomains.md#undelegate-subdomain), [웹 경험](../web/web-delegated-subdomains.md#undelegate-subdomain), [랜딩 페이지](../landing-pages/lp-subdomains.md#undelegate-subdomain)에서 하위 도메인의 위임을 취소하는 단계를 자세히 설명합니다.<!--[Read more](../configuration/delegate-subdomain.md#undelegate-subdomain)-->
+* 현재는 [!UICONTROL Journey Optimizer] 사용자 인터페이스를 통해 하위 도메인의 위임을 해제할 수 없습니다. Adobe 담당자에게 연락해야 합니다. 이제 [이메일](../configuration/delegate-subdomain.md#undelegate-subdomain), [SMS](../mobile/mobile-subdomains.md#undelegate-subdomain), [웹 경험](../web/web-delegated-subdomains.md#undelegate-subdomain), [랜딩 페이지](../landing-pages/lp-subdomains.md#undelegate-subdomain)에서 하위 도메인의 위임을 취소하는 단계를 자세히 설명합니다.<!--[Read more](../configuration/delegate-subdomain.md#undelegate-subdomain)-->
 * 여정 캡핑 API의 선택적 `maxHttpConnections` 매개 변수에 대한 설명을 추가했습니다. 여기에는 이 매개 변수를 동일한 엔드포인트에 대한 제한 구성과 함께 사용하는 방법에 대한 지침이 포함됩니다. [자세히 보기](../configuration/throttling.md)
 * 의사 결정 섹션에 승인된 오퍼 항목은 컬렉션이나 의사 결정에 사용된 경우 삭제할 수 없다는 설명이 추가되었습니다. **[!UICONTROL 승인 실행 취소]** 옵션을 사용하여 상태를 “초안”으로 변경하는 단계를 포함했습니다. [자세히 보기](../experience-decisioning/items.md#manage)
 * 샌드박스에 대한 정보를 새로운 “샌드박스 관리” 섹션으로 그룹화했습니다. 이 새로운 섹션에서는 샌드박스를 사용 및 할당하는 방법과 패키지 내보내기 및 가져오기 기능을 사용하여 여러 샌드박스 간에 여정, 콘텐츠 템플릿 또는 조각과 같은 오브젝트를 복사하는 방법에 대해 설명합니다. [자세히 보기](../administration/sandboxes.md)
@@ -764,7 +764,7 @@ ht-degree: 91%
 
     * [Email channel](../email/get-started-email.md)
     * [Push notification channel](../../rp_landing_pages/push-landing-page.md)
-    * [SMS channel](../sms/get-started-sms.md)
+    * [SMS channel](../mobile/get-started-mobile.md)
 
 * The Configuration guide has been reorganized for improved readability. [Read more](../configuration/get-started-configuration.md)
 

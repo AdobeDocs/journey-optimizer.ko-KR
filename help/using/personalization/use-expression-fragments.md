@@ -25,7 +25,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 1313
 ht-degree: 0%
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->여러 줄 바꿈이 포함된 식 조각을 만들어 [SMS](../sms/create-sms.md#sms-content) 또는 [푸시](../push/design-push.md) 콘텐츠에서 사용하면 줄 바꿈이 유지됩니다. 따라서 메시지를 보내기 전에 [SMS](../sms/send-sms.md) 또는 [푸시](../push/send-push.md) 메시지를 테스트하십시오.
+>여러 줄 바꿈이 포함된 식 조각을 만들어 [SMS](../mobile/create-mobile-message.md#sms-content) 또는 [푸시](../push/design-push.md) 콘텐츠에서 사용하면 줄 바꿈이 유지됩니다. 따라서 메시지를 보내기 전에 [SMS](../mobile/send-mobile-message.md) 또는 [푸시](../push/send-push.md) 메시지를 테스트하십시오.
 
 ## 암시적 변수 사용 {#implicit-variables}
 
