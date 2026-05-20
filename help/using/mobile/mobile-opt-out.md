@@ -1,0 +1,85 @@
+---
+solution: Journey Optimizer
+product: journey optimizer
+title: 모바일 메시지에 대한 옵트아웃 관리
+description: SMS/MMS 메시지로 옵트아웃을 관리하는 방법 알아보기
+feature: SMS
+topic: Content Management
+role: User
+level: Intermediate
+exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
+TQID: https://experienceleague.adobe.com/mQVaZ8jb-hBBPxDnztkayDEI4vj0KvMTREI0KxOgAf0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 9a68782b0ca1a9a65db621209cf4f39ea5ce911d
+workflow-type: tm+mt
+source-wordcount: 673
+ht-degree: 14%
+
+---
+
+# 모바일 메시지에 대한 옵트아웃 관리 {#sms-opt-out}
+
+업계 표준 및 규정에 따라 모든 SMS 마케팅 메시지에는 수신자가 간편하게 구독을 취소할 수 있는 방법이 포함되어야 합니다. [개인 정보 및 옵트아웃 관리에 대해 자세히 알아보기](../privacy/opt-out.md)
+
+>[!IMPORTANT]
+>
+>모바일 메시지 통신은 그 특성, 모바일 메시지를 보내는 위치 및 받는 사람의 위치에 따라 다양한 법적 준수 요구 사항이 적용될 수 있습니다. Adobe Journey Optimizer은 아래 자세히 설명된 대로 짧은 코드, 긴 코드 및 수신자 부담 전화번호에 대한 메시지를 처리하지만, 모바일 메시징 통신이 적용 가능한 모든 법적 준수 요구 사항을 준수하는지 확인하려면 법률적인 자문을 구하십시오.
+>
+
+## 기본 인바운드 키워드 {#sms-native-keywords}
+
+>[!NOTE]
+>
+> Journey Optimizer과 함께 사용할 경우 Sinch 및 Infobip만 기본 키워드를 지원합니다.
+
+기본적으로 Adobe Journey Optimizer은 짧은 코드, 수신자 부담 및 긴 코드 메시지에 대해 다음과 같은 표준 영문 회신 메시지를 처리합니다.
+
+* **옵트아웃**: 중지, 종료, 취소, 종료, 구독 취소, 아니요.
+* **옵트인**: 구독, 예, 중지 취소, 시작, 계속, 다시 시작, 시작.
+* **도움말**: 도움말.
+
+이러한 키워드는 일반적으로 서드파티 공급자로부터 자동 표준 응답을 트리거합니다. 공급자나 설명서 사이트를 통해 직접 확인할 수 있습니다.
+
+Infobip을 사용할 때 전달 작업이 끌어오기 구성으로 설정되어 있는지 확인합니다.
+
+키워드 응답 STOP, UNSTOP, START, QUIT, CANCEL, END 및 UNSUBSCRIBE가 자동으로 인식되므로, Adobe Journey Optimizer에서 SMS 옵트아웃 기능이 작동하는지 확인하는 데는 단계가 필요하지 않습니다. 프로필 옵트아웃 상태는 Adobe Journey Optimizer에서 실시간으로 업데이트됩니다.
+
+SMS API 자격 증명에서 사용자 지정 옵트아웃 키워드를 정의하는 경우 위에 나열된 기본 인바운드 키워드를 재정의합니다. STOP, QUIT, CANCEL, END 및 UNSUBSCRIBE와 같은 기본 키워드가 작동하도록 하려면 SMS 구성의 옵트아웃 키워드 필드에 사용자 지정 키워드와 함께 명시적으로 포함하십시오. 그렇지 않으면 사용자 지정 키워드만 인식되고 기본 키워드는 더 이상 옵트아웃 작업을 트리거하지 않습니다.
+
+고객이 모바일 메시지에 대해 STOP에 응답하면 공급자는 트랜잭션 메시지를 포함하여 해당 특정 발신자 ID(짧은 코드 또는 긴 번호)에서 모든 후속 SMS를 차단합니다. 트랜잭션 SMS를 중단 없이 게재하려면 이전에 옵트아웃되지 않은 별도의 발신자 ID를 사용하십시오.
+
+
+>[!NOTE]
+>
+>양방향 SMS(STOP, QUIT 등으로 회신)를 사용할 계획이라면 먼저 하나 이상의 단방향 SMS를 전송하여 전화 번호를 프로필 매핑으로 설정해야 합니다. 공급자 자격 증명이 만료되거나 잘못 구성되면 인바운드 키워드가 사용자 프로필을 업데이트하지 못해 옵트아웃 레코드가 누락되거나 지연됩니다. 인바운드 응답은 _AJO 인바운드 활동 이벤트 데이터 세트_ 시스템 데이터 세트에 저장됩니다. [자세히 알아보기](../data/get-started-datasets.md#system-datasets)
+
+
+## 차단 목록 {#sms-blocklists}
+
+Adobe Journey Optimizer에서 옵트아웃 상태(Twilio, Infoip 또는 Sinch와의 직접 통합을 위해)에 따라 전송을 중지하는 것 외에도 대부분의 SMS 게이트웨이 공급자는 SMS 메시지가 옵트아웃을 선택한 개인에게 전달되지 않도록 하는 차단 목록에 추가하다도 유지 관리합니다. Sinch 또는 Twilio 이외의 공급자를 사용하고 [사용자 지정 채널](../building-journeys/using-custom-actions.md)을 통해 SMS를 전송하는 경우 공급자에게 확인해야 합니다.
+
+
+## 짧은 코드 {#short-codes}
+
+기본적으로 짧은 코드 번호에 대한 옵트인 또는 도움말 키워드는 Adobe Journey Optimizer에서 처리되지 않습니다. 옵트아웃 처리에 대한 업계 규정 및 규칙을 준수하려면 짧은 코드가 모든 지침을 준수하는지 확인하는 것이 중요합니다.
+
+하지만 Journey Optimizer에서는 다른 발신자 ID를 가진 수신 키워드를 기반으로 전역 옵트아웃을 지원합니다.
+
+## 영문과 숫자로 구성된 발신자 ID {#alphanumeric}
+
+영문과 숫자로 구성된 발신자 ID는 단방향 통신 전용이며 인바운드 메시지를 받을 수 없습니다. 따라서 Adobe Journey Optimizer의 SMS STOP, START, HELP 키워드는 Alpha 발신자 ID에 적용할 수 없습니다. 사용자가 영문과 숫자로 구성된 발신자 ID를 통해 발송된 메시지를 거부할 수 있도록 지원 팀에 문의하거나, 지원 팀에 전화하거나, 다른 전화 번호 또는 코드를 문자로 보내는 등의 다른 지침을 제공해야 합니다.
+
+## 비디오 {#video-sms}
+
+* 아래 비디오에서는 SMS에 대한 이중 옵트인을 구성하는 방법을 알아봅니다.
+
+  +++ 비디오 보기
+
+  >[!VIDEO](https://video.tv.adobe.com/v/3427129/?learn=on)
+
+  +++
