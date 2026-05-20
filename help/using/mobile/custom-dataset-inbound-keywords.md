@@ -6,7 +6,7 @@ description: Experience Platform 스키마, 데이터 세트 및 SMS API 자격 
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: 9a68782b0ca1a9a65db621209cf4f39ea5ce911d
+source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 8%
