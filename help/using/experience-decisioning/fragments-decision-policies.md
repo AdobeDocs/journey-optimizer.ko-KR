@@ -7,30 +7,29 @@ role: User
 level: Experienced
 exl-id: 70f64348-092b-4350-91dc-72c3c07300f9
 TQID: https://experienceleague.adobe.com/5Vpngi03UnC9YPlB5tdTRcd0NoT7iglH2pRDkmeZKOg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 2225d3c796e777f459bebc35a5c33ce1a0635f42
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: f816ee04639846ffd18c3d6723f4616ada24892d
 workflow-type: tm+mt
-source-wordcount: 752
+source-wordcount: 1114
 ht-degree: 1%
 
 ---
 
 # 의사 결정 정책에 조각 활용 {#fragments}
 
-의사 결정 정책에 조각이 포함된 의사 결정 항목이 포함되어 있는 경우 의사 결정 정책 내에서 메시지를 작성할 때 이러한 조각을 활용할 수 있습니다. [조각에 대해 자세히 알아보기](../content-management/fragments.md)
+의사 결정 항목은 의사 결정 정책 내에서 메시지를 작성할 때 활용할 수 있는 두 가지 유형의 조각 콘텐츠를 지원합니다.
 
->[!AVAILABILITY]
->
->이 기능은 **코드 기반 경험** 및 **이메일** 채널에서 사용할 수 있습니다.
+* **Journey Optimizer 콘텐츠 조각** — 재사용 가능한 표현식 조각이 Journey Optimizer에서 만들어져서 결정 항목의 **[!UICONTROL 조각]** 섹션에 추가되었습니다. [AJO 콘텐츠 조각에 대해 자세히 알아보기](../content-management/fragments.md)
+* **AEM 콘텐츠 조각** — Adobe Experience Manager에서 작성되고, 결정 항목의 속성에 매핑되고, 개인화 편집기에서 키 이름으로 선택된 콘텐츠입니다. [AEM 콘텐츠 조각을 결정 항목에 연결하는 방법을 알아봅니다](items.md#aem-fragments)
 
-예를 들어 여러 모바일 디바이스 모델에 대해 서로 다른 콘텐츠를 표시하려고 한다고 가정해 보겠습니다. 다른 전화 모델에 속하는 지정된 조각을 결정 정책에서 사용 중인 결정 항목에 추가합니다. [방법을 알아보세요](items.md#attributes).
+## Journey Optimizer 콘텐츠 조각 {#ajo-fragments}
+
+의사 결정 정책에 AJO 콘텐츠 조각을 포함한 의사 결정 항목이 포함되어 있는 경우 의사 결정을 사용할 수 있는 모든 채널(코드 기반 경험, 이메일, 푸시, SMS 및 여정)에서 의사 결정 정책 내에서 메시지를 작성할 때 이러한 조각을 활용할 수 있습니다.
+
+예를 들어 여러 모바일 디바이스 모델에 대해 서로 다른 콘텐츠를 표시하려고 한다고 가정해 보겠습니다. 다른 전화 모델에 속하는 지정된 조각을 결정 정책에서 사용 중인 결정 항목에 추가합니다. [결정 항목에 조각을 추가하는 방법을 알아봅니다](items.md#attributes).
 
 ![조각 참조 및 배치 키를 표시하는 결정 항목의 조각 섹션.](assets/item-fragments.png){width=70%}
 
@@ -73,19 +72,25 @@ ht-degree: 1%
 >
 >조각 키가 올바르지 않거나 조각 컨텐츠가 유효하지 않은 경우 렌더링이 실패하고 Edge 호출에 오류가 발생할 수 있습니다.
 >
->조각을 일시적으로 사용할 수 없을 때 오류를 방지하기 위해 `required=false` 플래그가 사용되므로 대신 해당 조각을 건너뜁니다. [자세히 알아보기](#temporary-unavailable-fragments)
+>조각을 일시적으로 사용할 수 없을 때 오류를 방지하기 위해 `required=false` 플래그가 사용되므로 대신 해당 조각을 건너뜁니다. [일시적으로 사용할 수 없는 조각에 대한 자세한 정보](#temporary-unavailable-fragments)
 
-## 사용 및 보호 {#fragments-guardrails}
+### 사용 및 보호 {#fragments-guardrails}
 
-### 이메일의 콘텐츠 및 표현식 조각 시뮬레이션 {#simulate-content-expression-fragments}
+결정 항목에 사용된 **AJO 콘텐츠 조각**&#x200B;에는 특히 다음 보호가 적용됩니다.
+
++++이메일의 콘텐츠 및 표현식 조각 시뮬레이션
 
 **이메일** 채널의 경우 **[!UICONTROL 증명 보내기]** 또는 캠페인이 활성화될 때 결정 항목과 연결된 표현식 조각이 올바르게 표시됩니다. 그러나 **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;은(는) 결정 항목의 표현식 조각을 표시하지 않습니다.
 
-### 이메일의 시각적 조각 및 의사 결정 항목 {#visual-fragments-decision-items}
++++
+
++++이메일의 시각적 조각 및 의사 결정 항목
 
 **[!UICONTROL 시각적 조각]**&#x200B;을(를) 결정 항목에 할당할 수 없습니다. 이 컨텍스트에서는 **식 조각**&#x200B;만 지원됩니다.
 
-### 의사 결정 항목 및 컨텍스트 속성 {#decision-item-context-attributes}
++++
+
++++의사 결정 항목 및 컨텍스트 속성
 
 [!DNL Journey Optimizer] 조각에서는 기본적으로 의사 결정 항목 특성 및 컨텍스트 특성이 지원되지 않습니다. 그러나 아래 설명된 것처럼 전역 변수를 대신 사용할 수 있습니다.
 
@@ -106,7 +111,9 @@ ht-degree: 1%
    {{/each}}
    ```
 
-### 의사 결정 항목 조각 콘텐츠 유효성 검사 {#fragment-content-validation}
++++
+
++++의사 결정 항목 조각 콘텐츠 유효성 검사
 
 * 이러한 조각의 동적 특성으로 인해 캠페인에서 사용할 경우, 의사 결정 항목에서 참조되는 조각에 대해 캠페인 콘텐츠 생성 중 메시지 유효성 검사를 건너뜁니다.
 
@@ -116,7 +123,9 @@ ht-degree: 1%
 
 런타임 시 캠페인 콘텐츠(의사 결정 항목의 조각 콘텐츠 포함)의 유효성이 검사됩니다. 유효성 검사 실패 시 캠페인이 렌더링되지 않습니다.
 
-### 일시적으로 사용할 수 없는 조각은 건너뜁니다. {#temporary-unavailable-fragments}
++++
+
++++일시적으로 사용할 수 없는 조각은 {#temporary-unavailable-fragments} 건너뜀
 
 여정 또는 캠페인이 의사 결정 항목에 첨부된 조각을 참조하는 경우 업데이트된 조각을 Edge에서 사용하기 전에 잠시 동기화가 지연될 수 있습니다.
 
@@ -128,6 +137,35 @@ ht-degree: 1%
 
 결정 정책이 두 개의 오퍼에 적합하고 각 오퍼에 조각(예: &quot;20% 할인&quot; 및 &quot;30% 할인&quot;)이 있고 두 번째 조각을 일시적으로 사용할 수 없는 경우 `required=false`을(를) 사용하면 시스템에서 여정 또는 캠페인에 실패하는 대신 사용 가능한 오퍼를 렌더링하고(20% 할인) 다른 조각을 건너뜁니다(30% 할인). 이렇게 하면 콘텐츠가 여전히 동기화 중일 때 안정성이 향상됩니다.
 
++++
+
 >[!NOTE]
 >
 >`required` 플래그를 `true`(으)로 설정하여 조각을 필수 항목으로 표시할 수 있습니다. 그러나 조각이 일시적으로 누락된 경우 여정 또는 캠페인 렌더링이 실패할 수 있습니다.
+
+## AEM 컨텐츠 조각 {#aem-fragments-decisioning}
+
+>[!AVAILABILITY]
+>
+>이 기능은 Decisioning 지원이 있는 아웃바운드 채널에 대해 제한된 가용성으로 사용할 수 있습니다. 액세스 권한을 요청하려면 Adobe 담당자에게 문의하십시오.
+
+의사 결정 정책에서 AEM 콘텐츠 조각을 활용하기 전에 다음을 확인하십시오.
+
+* Adobe Experience Manager에서 콘텐츠 조각을 만들고 `ajo-enabled:{OrgId}/{SandboxName}`(으)로 태그를 지정하여 Journey Optimizer에서 검색할 수 있도록 했습니다. [태그를 만들고 할당하는 방법을 알아보세요](../integrations/aem-fragments.md#create-tag)
+* 고유한 참조 이름을 할당하여 조각을 오퍼 항목의 **[!UICONTROL AEM 조각]** 섹션에 연결했습니다. [AEM 콘텐츠 조각을 결정 항목에 연결하는 방법을 알아봅니다](items.md#attributes)
+
+개인화 편집기에서는 정책에 의해 선택된 결정 항목과 연관된 모든 AEM 콘텐츠 조각을 사용할 수 있습니다. 조각 키 이름당 하나의 폴더가 표시됩니다.
+
+이 예제에서 의사 결정 정책에는 참조 이름을 통해 연결된 AEM 조각이 있는 두 개의 의사 결정 항목이 포함되어 있습니다.
+
+![](assets/aem-fragment-select.png)
+
+1. + 단추를 클릭하여 원하는 조각을 표현식에 추가합니다.
+
+   단일 참조 이름에는 여러 개의 조각이 서로 다른 오퍼 항목에 걸쳐 연결되어 있을 수 있으므로, Decisioning은 의사 결정 정책의 순위 기준에 따라 각 고객에게 제공할 최상의 이름을 결정합니다.
+
+1. 조각을 선택한 후에는 이미지 URL, 텍스트 필드 또는 기타 콘텐츠와 같은 해당 속성을 활용하고, 의사 결정 을 사용하여 적시에 적절한 고객에게 적절한 콘텐츠를 제공할 수 있습니다.
+
+   ![](assets/aem-fragment-attribute.png)
+
+1. 캠페인이나 여정을 활성화하기 전에 **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 사용하여 AEM 콘텐츠 조각 필드 값이 특정 테스트 프로필에 대해 렌더링되는 방법을 미리 볼 수 있습니다. [콘텐츠 시뮬레이션에 대한 자세한 정보](../content-management/preview-test.md)

@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-source-git-commit: dfffbdc916a2ea6082d747927c28486e51fb381e
+source-git-commit: f816ee04639846ffd18c3d6723f4616ada24892d
 workflow-type: tm+mt
-source-wordcount: '2247'
+source-wordcount: '2347'
 ht-degree: 15%
 
 ---
@@ -58,13 +58,19 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
 
 1. **태그** 필드를 사용하면 Adobe Experience Platform 통합 태그를 의사 결정 항목에 할당할 수 있습니다. 이를 통해 손쉽게 분류하고 검색을 개선할 수 있습니다. [태그 작업 방법 알아보기](../start/search-filter-categorize.md#tags)
 
-1. [조각](../content-management/fragments.md)을(를) 사용하여 결정 항목에 여러 콘텐츠를 추가합니다. 예를 들어 여러 모바일 장치 모델에 대해 서로 다른 콘텐츠를 표시하려는 경우 이러한 작업을 수행할 수 있습니다. 그런 다음 의사 결정 정책에서 이러한 조각을 활용할 수 있습니다. [방법 알아보기](fragments-decision-policies.md)
+1. 결정 항목에 조각을 추가하여 콘텐츠를 보강합니다. 지원되는 조각 유형은 두 가지입니다.
 
-   >[!AVAILABILITY]
-   >
-   >이 기능은 **코드 기반 경험** 및 **이메일** 채널에 대해 제한된 가용성으로 사용할 수 있습니다. 액세스 권한을 요청하려면 Adobe 담당자에게 문의하십시오.
+   * **Journey Optimizer 콘텐츠 조각** — Journey Optimizer에서 만든 재사용 가능한 표현식 조각을 사용하여 컨텍스트에 따라 다른 콘텐츠(예: 여러 모바일 디바이스 모델)를 표시합니다. 의사 결정을 사용할 수 있는 모든 채널(코드 기반 경험, 이메일, 푸시, SMS 및 여정)에서 의사 결정 정책에 이러한 조각을 활용할 수 있습니다. [방법 알아보기](fragments-decision-policies.md#ajo-fragments)
 
-   의사 결정 정책에서 이러한 조각을 사용할 때 Edge에서 일시적으로 사용할 수 없는 경우 건너뛸 수 있도록 조각을 선택 사항으로 만들 수 있습니다. [방법 알아보기](fragments-decision-policies.md#optional-fragments)
+     의사 결정 정책에서 이러한 조각을 사용할 때 Edge에서 일시적으로 사용할 수 없는 경우 건너뛸 수 있도록 조각을 선택 사항으로 만들 수 있습니다. [방법 알아보기](fragments-decision-policies.md#temporary-unavailable-fragments)
+
+   * **AEM 콘텐츠 조각** - Adobe Experience Manager 콘텐츠 조각을 결정 항목의 특성에 직접 매핑합니다. **조각 참조 키** 필드를 입력한 다음 **값** 필드에서 조각을 선택합니다. 매핑되면 결정 정책에서 콘텐츠 조각 필드를 선택할 수 있으며 Journey Optimizer은 각 프로필에 제공되는 조각을 최적화할 수 있습니다. [방법 알아보기](fragments-decision-policies.md#aem-fragments-decisioning)
+
+     >[!AVAILABILITY]
+     >
+     >이 기능은 Decisioning 지원이 있는 아웃바운드 채널에 대해 제한된 가용성으로 사용할 수 있습니다. 액세스 권한을 요청하려면 Adobe 담당자에게 문의하십시오.
+
+     사전 요구 사항 및 보호 기능은 [Experience Decisioning에서 AEM 콘텐츠 조각 사용](../integrations/aem-fragments.md#aem-decisioning)을 참조하세요.
 
 1. 사용자 지정 특성을 지정합니다(선택 사항). 사용자 정의 속성은 결정 항목에 할당할 수 있으며 필요에 맞게 조정된 특정 속성입니다. 의사 결정 항목의 카탈로그 스키마에 정의됩니다. [카탈로그 작업 방법 알아보기](catalogs.md)
 
@@ -78,8 +84,8 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
 >abstract="기본적으로 모든 프로필은 결정 항목을 수신할 수 있지만 대상자 또는 규칙을 사용하여 항목을 특정 프로필로만 제한할 수 있습니다."
 
 <!--
->"additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
