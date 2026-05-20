@@ -37,7 +37,7 @@ ht-degree: 8%
 
 스키마는 수집된 데이터에 적용되는 구조 및 유효성 검사 규칙을 정의합니다. 아래 나열된 기존 필드 그룹을 추가하여 인바운드 키워드 수집을 위한 경험 이벤트 스키마를 구성합니다.
 
-➡️ [Adobe Experience Platform 설명서에서 스키마 만들기에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition)
+➡️ [Adobe Experience Platform 설명서에서 스키마 만들기에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/composition)
 
 1. Adobe Experience Platform의 **[!UICONTROL 데이터 관리]**&#x200B;에서 **[!UICONTROL 스키마]**&#x200B;에 액세스하고 **[!UICONTROL 스키마 만들기]**&#x200B;를 선택합니다.
 
