@@ -11,7 +11,7 @@ hide: true
 badge: label="비공개 베타" type="Informative"
 mini-toc-levels: 1
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
-source-git-commit: e66628ab1d9df497226ab625947aa18a2a3b6f48
+source-git-commit: aea783bd8f2351d4a5d8aa6b84c24a713a6c0306
 workflow-type: tm+mt
 source-wordcount: '1221'
 ht-degree: 2%
@@ -38,7 +38,7 @@ ht-degree: 2%
 >
 >이 기능은 현재 **개인 베타**&#x200B;에 있습니다. 릴리스 주기 및 가용성 단계에 대한 자세한 내용은 [Journey Optimizer 릴리스 주기](../rn/releases.md)를 참조하십시오.
 
-**[!UICONTROL 충성도 관리자]** 섹션에서 관리자는 Journey Optimizer이 충성도 프로그램 백엔드에 연결하는 방법을 구성합니다. 마케터는 **[!UICONTROL 충성도 과제(Beta)]**&#x200B;를 사용하여 과제, 작업, 콘텐츠 및 메시지를 디자인합니다. 충성도 관리자는 보상 이행 및 이벤트 매핑을 위한 별도의 일회성 설정입니다.
+**[!UICONTROL 충성도 관리자]** 섹션에서는 Journey Optimizer이 충성도 프로그램 백엔드에 연결하는 방법을 구성합니다. 마케터는 **[!UICONTROL 충성도 과제(Beta)]**&#x200B;를 사용하여 과제, 작업, 콘텐츠 및 메시지를 디자인합니다. 충성도 관리자는 보상 이행 및 이벤트 매핑을 위한 별도의 일회성 설정입니다.
 
 고객이 도전을 완료하거나 보상 이정표에 도달하면, Journey Optimizer은 여기서 구성한 보상 제공자를 호출하여 점수 또는 기타 보상을 제공합니다. **[!UICONTROL 콘텐츠]**, **[!UICONTROL 메시징]** 및 **[!UICONTROL 대상자]** 설정은 충성도 관리자 구성의 영향을 받지 않습니다.
 
