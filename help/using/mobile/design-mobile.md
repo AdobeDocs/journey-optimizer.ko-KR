@@ -1,15 +1,15 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: SMS/MMS 메시지 만들기
-description: Journey Optimizer에서 SMS/MMS 메시지를 만드는 방법 알아보기
+title: SMS/RCS/MMS 메시지 만들기
+description: Journey Optimizer에서 SMS/RCS/MMS 메시지를 만드는 방법 알아보기
 feature: SMS
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1380'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 Adobe Journey Optimizer을 사용하여 텍스트(SMS), 풍부한 커뮤니케이션(RCS) 및 멀티미디어(MMS) 메시지를 디자인하고 보낼 수 있습니다. 먼저 여정 또는 캠페인에 모바일 메시지 작업을 추가한 다음 아래에 설명된 대로 모바일 메시지의 콘텐츠를 정의해야 합니다. Adobe Journey Optimizer은 전송 전에 모바일 메시지를 테스트하여 렌더링, 개인화 속성 및 기타 모든 설정을 확인할 수 있는 기능도 제공합니다.
 
-업계 표준 및 규정에 따라 모든 SMS/MMS 마케팅 메시지에는 프로필에서 쉽게 구독을 취소할 수 있는 방법이 포함되어야 합니다. 이렇게 하려면 SMS 프로필에서 옵트인 및 옵트아웃 키워드로 회신할 수 있습니다. [옵트아웃 관리 방법 알아보기](../privacy/opt-out.md#opt-out-decision-management)
+업계 표준 및 규정에 따라 모든 SMS/RCS/MMS 마케팅 메시지에는 프로필이 쉽게 구독을 취소할 수 있는 방법이 포함되어야 합니다. 이렇게 하려면 SMS 프로필에서 옵트인 및 옵트아웃 키워드로 회신할 수 있습니다. [옵트아웃 관리 방법 알아보기](../privacy/opt-out.md#opt-out-decision-management)
 
 ## RCS 콘텐츠 정의{#rcs-content}
 
