@@ -8,22 +8,14 @@ level: Experienced
 version: Journey Orchestration
 exl-id: e7a89354-28ea-431f-a15d-a8c18946d266
 TQID: https://experienceleague.adobe.com/ooRR2Tz1Tphu4JUHgeYjfz-guj8S87NVaWKxM4jShEM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: ede238f1b1acd119cc201639488dd12fbcd518cf
 workflow-type: tm+mt
-source-wordcount: 2257
+source-wordcount: 2285
 ht-degree: 6%
 
 ---
@@ -131,9 +123,13 @@ ht-degree: 6%
 
    +++
 
-전자 메일 Designer에서 **[!UICONTROL 직접 코드 작성]** 모드를 사용할 때 결정 정책을 추가할 수도 있습니다. 이렇게 하려면 **[!UICONTROL 의사 결정 정책]**(으)로 이동하여 의사 결정 정책 코드를 삽입합니다. [자신의 전자 메일 콘텐츠를 코딩하는 방법에 대해 알아보세요](../email/code-content.md).
+전자 메일 Designer에서 **[!UICONTROL 직접 코드 작성]** 모드를 사용할 때 결정 정책을 추가할 수도 있습니다. 이렇게 하려면 **[!UICONTROL 의사 결정 정책]**(으)로 이동하여 의사 결정 정책 코드를 삽입합니다. 의사 결정 정책의 배치를 선택할 수 있는 배치 선택 UI가 표시됩니다. [자신의 전자 메일 콘텐츠를 코딩하는 방법에 대해 알아보세요](../email/code-content.md).
 
 ![](assets/decision-policy-add-code-your-own.png)
+
+>[!AVAILABILITY]
+>
+>**[!UICONTROL 자신의 코드 작성]** 모드에서 의사 결정 정책을 삽입하는 방법은 제한된 가용성입니다.
 
 >[!NOTE]
 >

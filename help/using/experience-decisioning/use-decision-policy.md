@@ -9,23 +9,13 @@ mini-toc-levels: 1
 version: Journey Orchestration
 exl-id: 35fc3cf2-1b91-4f30-ad71-f9d7d2a0291c
 TQID: https://experienceleague.adobe.com/zKV67LEfRVmEk9Fac-D45qdHLqbuVCS3rUt6Rt0HB7w
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: ede238f1b1acd119cc201639488dd12fbcd518cf
 workflow-type: tm+mt
-source-wordcount: 771
+source-wordcount: 853
 ht-degree: 3%
 
 ---
@@ -73,6 +63,16 @@ ht-degree: 3%
    >[!NOTE]
    >
    >동일한 이메일에서 여러 개의 결정 정책을 사용하는 경우(예: 머리글에 대해 한 개의 결정 정책과 바닥글에 대해 한 개의 결정 정책), 동일한 오퍼가 배치 간에 중복 제거됩니다. 이 오퍼는 두 번 렌더링되지 않습니다. 두 번째 결정 정책은 대체 오퍼를 구성하지 않은 경우 콘텐츠를 반환하지 않고 빈 공간을 표시합니다. 이 경우 대체 오퍼가 대신 표시됩니다.
+
+전자 메일 Designer에서 **[!UICONTROL 직접 코드 작성]** 모드를 사용할 때 의사 결정 정책 코드를 삽입할 수도 있습니다. **[!UICONTROL 의사 결정 정책]**(으)로 이동하고 **[!UICONTROL 구문 삽입]**&#x200B;을 선택합니다. 배치를 직접 할당할 수 있도록 배치 선택 UI가 표시됩니다. [자신의 전자 메일 콘텐츠를 코딩하는 방법에 대해 알아보세요](../email/code-content.md).
+
+>[!AVAILABILITY]
+>
+>**[!UICONTROL 자신의 코드 작성]** 모드에서 의사 결정 정책을 삽입하는 방법은 제한된 가용성입니다.
+
+>[!NOTE]
+>
+>**[!UICONTROL 자체 코드 작성]** 모드에서는 **[!UICONTROL 반복 그리드]** 구성 요소를 사용할 수 없으므로 정책당 하나의 결정 항목만 반환할 수 있습니다.
 
 >[!TAB SMS]
 
