@@ -30,9 +30,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 79a3c31dd4d85707556db7cb1daf8c54464395a1
+source-git-commit: f816ee04639846ffd18c3d6723f4616ada24892d
 workflow-type: tm+mt
-source-wordcount: 2010
+source-wordcount: 2076
 ht-degree: 30%
 
 ---
@@ -209,6 +209,12 @@ ht-degree: 30%
 * **마이그레이션 워크플로 API 결정** - 종속성 분석 및 마이그레이션 워크플로를 만들기 위한 API 계약이 업데이트되었습니다. 요청 URL(`sandbox`, `offer` 또는 `decision`)에서 **`request-level`**&#x200B;을(를) **쿼리 매개 변수**(으)로 전달하십시오. 요청 수준은 더 이상 JSON 본문에 전송되지 않아야 합니다. [자세히 보기](../experience-decisioning/decisioning-migration-api.md)
 
   사용 가능한 날짜: 2026년 5월 6일
+
+* **Decisioning의 Adobe Experience Manager 콘텐츠 조각** - 이제 Adobe Experience Manager 콘텐츠 조각을 Decisioning의 의사 결정 항목에 매핑하고 의사 결정 정책 내에서 활용하여 적절한 시기에 적절한 고객에게 적절한 조각을 전달할 수 있습니다. [자세히 보기](../integrations/aem-fragments.md#aem-decisioning)
+
+  이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
+
+  사용 가능한 날짜: 2026년 5월 20일
 
 #### SMS
 

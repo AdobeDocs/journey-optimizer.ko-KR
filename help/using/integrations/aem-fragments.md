@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ded80e8d1293462687404d67045bdccde2cb96ed
+source-git-commit: f816ee04639846ffd18c3d6723f4616ada24892d
 workflow-type: tm+mt
-source-wordcount: 1534
+source-wordcount: 1722
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Adobe Experience Manager과 Journey Optimizer 간의 통합은 다음 데이터 
 >
 >의료 고객의 경우 Journey Optimizer Healthcare Shield 및 Adobe Experience Manager Extended Security for Healthcare 추가 기능 오퍼링의 라이선스가 있을 때만 통합이 가능합니다.
 
-## Experience Manager에서 태그 만들기 및 할당
+## Experience Manager에서 태그 만들기 및 할당 {#create-tag}
 
 >[!IMPORTANT]
 >
@@ -186,6 +186,31 @@ Journey Optimizer에서 컨텐츠 조각을 사용하기 전에 Journey Optimize
 테스트를 수행하고 콘텐츠의 유효성을 검사하면 대상자에게 [캠페인을 전송](../campaigns/review-activate-campaign.md)하거나 [여정을 게시](../building-journeys/publish-journey.md)할 수 있습니다.
 
 Adobe Experience Manager을 사용하면 컨텐츠 조각이 사용되는 Journey Optimizer 캠페인 또는 여정을 식별할 수 있습니다. 자세한 내용은 [Adobe Experience Manager 설명서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/extension-content-fragment-ajo-external-references){target="_blank"}를 참조하세요.
+
+## Experience Decisioning에서 AEM 콘텐츠 조각 사용 {#aem-decisioning}
+
+>[!AVAILABILITY]
+>
+>이 기능은 Decisioning 지원이 있는 아웃바운드 채널에 대해 제한된 가용성으로 사용할 수 있습니다. 액세스 권한을 요청하려면 Adobe 담당자에게 문의하십시오.
+
+AEM 콘텐츠 조각은 **Experience Decisioning**&#x200B;에서 오퍼 항목 특성으로 사용할 수도 있습니다. 콘텐츠 조각 필드를 의사 결정 항목 속성에 매핑하면 Journey Optimizer 의사 결정 모델, 공식 및 등급 기준을 사용하여 각 프로필에 제공되는 조각을 최적화할 수 있습니다.
+
+### 사전 요구 사항 및 가드레일
+
+* 콘텐츠 조각은 결정 선택기에 표시되기 전에 Adobe Experience Manager에서 `ajo-enabled:{OrgId}/{SandboxName}` 태그로 태그가 지정되어야 합니다. [태그를 만들고 할당하는 방법을 알아보세요](#create-tag)
+* **게시됨** 상태의 콘텐츠 조각만 사용할 수 있습니다.
+* 단일 결정 항목에 최대 **5개**&#x200B;개의 AEM 콘텐츠 조각을 추가할 수 있습니다.
+
+### Decisioning에서 AEM 콘텐츠 조각 활용
+
+AEM 콘텐츠 조각을 만들고 게시하면 다음 작업을 수행해야 합니다.
+
+1. 결정 항목의 속성에서 선택하여 결정 항목에 연결합니다.
+1. 의사 결정 정책에 활용하여 적합한 고객에게 적합한 콘텐츠를 제공할 수 있습니다.
+
+➡️ [AEM 콘텐츠 조각을 결정 항목에 연결](../experience-decisioning/items.md#aem-fragments)
+
+➡️ [의사 결정 정책에서 AEM 콘텐츠 조각 활용](../experience-decisioning/fragments-decision-policies.md#aem-fragments-decisioning)
 
 ## 컨텐츠 조각 변형 작업 {#aem-variations}
 

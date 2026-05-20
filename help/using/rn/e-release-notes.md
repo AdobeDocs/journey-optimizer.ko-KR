@@ -9,10 +9,10 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: d680f881dcc9290a01efd0803db36fadc3307d2f
+source-git-commit: f816ee04639846ffd18c3d6723f4616ada24892d
 workflow-type: tm+mt
-source-wordcount: 803
-ht-degree: 9%
+source-wordcount: 738
+ht-degree: 7%
 
 ---
 
@@ -177,15 +177,6 @@ ht-degree: 9%
 -->
 
 
-
-#### 결정
-
-* **Decisioning의 Adobe Experience Manager 콘텐츠 조각** - 이제 Adobe Experience Manager 콘텐츠 조각을 Decisioning의 의사 결정 항목에 매핑하고 의사 결정 정책 내에서 활용하여 적절한 시기에 적절한 고객에게 적절한 조각을 전달할 수 있습니다.
-
-  이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
-
-
-  사용 가능한 날짜: 2026년 5월 19일
 
 #### 이메일 디자이너
 
