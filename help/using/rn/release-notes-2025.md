@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: '9308'
 ht-degree: 99%
@@ -587,7 +587,7 @@ You can now use AI models to optimize the best content in your email through the
   사용 가능한 날짜: 2025년 9월 29일
 
 * **SMS 채널의 mTLS 지원**
-이제 사용자 정의 SMS 공급자를 설정할 때 상호 TLS(mTLS) 인증을 활성화하는 옵션이 있습니다. 이 옵션을 선택하면 보안 연결이 설정되기 전에 클라이언트와 서버가 서로의 ID를 확인하도록 요구합니다. [자세히 보기](../sms/sms-configuration-custom.md) - 사용 가능한 날짜: 2025년 9월 23일
+이제 사용자 정의 SMS 공급자를 설정할 때 상호 TLS(mTLS) 인증을 활성화하는 옵션이 있습니다. 이 옵션을 선택하면 보안 연결이 설정되기 전에 클라이언트와 서버가 서로의 ID를 확인하도록 요구합니다. [자세히 보기](../mobile/mobile-configuration-custom.md) - 사용 가능한 날짜: 2025년 9월 23일
 
 * **관계형 스키마**\
   이제 오케스트레이션된 캠페인에서 관계형 모델링 요구 사항을 지원하기 위해 관계형 스키마를 사용할 수 있습니다. [자세히 보기](../orchestrated/gs-schemas.md) - 사용 가능한 날짜: 2025년 9월 23일
@@ -620,13 +620,13 @@ You can now use AI models to optimize the best content in your email through the
 
 * **웹후크** - 이 릴리스에서는 사용자 정의 SMS 공급자를 구성할 때 웹후크에 대해 다음과 같은 개선 사항이 도입되었습니다.
 
-   * 이제 수집하려는 데이터 유형에 따라 인바운드 또는 피드백 중 웹후크의 목적을 정의할 수 있습니다. [자세히 보기](../sms/sms-configuration-custom.md#webhook) - 사용 가능한 날짜: 2025년 9월 23일
+   * 이제 수집하려는 데이터 유형에 따라 인바운드 또는 피드백 중 웹후크의 목적을 정의할 수 있습니다. [자세히 보기](../mobile/mobile-configuration-custom.md#webhook) - 사용 가능한 날짜: 2025년 9월 23일
 
-   * 키워드 구성을 위한 인터페이스가 개선되어 설정이 더욱 쉬워졌습니다. [자세히 보기](../sms/sms-configuration-custom.md#webhook) - 사용 가능한 날짜: 2025년 9월 23일
+   * 키워드 구성을 위한 인터페이스가 개선되어 설정이 더욱 쉬워졌습니다. [자세히 보기](../mobile/mobile-configuration-custom.md#webhook) - 사용 가능한 날짜: 2025년 9월 23일
 
 * **SMS**
 
-   * 사용자 정의 SMS 공급자를 설정할 때, 수신 SMS에 인식할 수 없는 키워드가 포함된 경우 사용되는 **기본값** 키워드를 정의할 수 있습니다. 특정 작업에 대해 **사용자 정의** 키워드를 만들 수도 있습니다. [자세히 보기](../sms/sms-configuration-custom.md) - 사용 가능한 날짜: 2025년 9월 23일
+   * 사용자 정의 SMS 공급자를 설정할 때, 수신 SMS에 인식할 수 없는 키워드가 포함된 경우 사용되는 **기본값** 키워드를 정의할 수 있습니다. 특정 작업에 대해 **사용자 정의** 키워드를 만들 수도 있습니다. [자세히 보기](../mobile/mobile-configuration-custom.md) - 사용 가능한 날짜: 2025년 9월 23일
 
    * 이제 SMS 메시지를 통해 전송되는 정의되지 않은 인바운드 키워드 응답에 액세스할 수 있습니다. 여기에는 구성에서 명시적으로 정의되지 않은 오타, 단어 또는 문장이 포함됩니다. 해당 응답은 **AJO 이메일 추적 경험 이벤트** 데이터 세트의 **InboundMessage**&#x200B;에 13개월 동안 저장됩니다. Sinch, Infobip 및 사용자 정의 SMS 공급자를 통해서만 사용할 수 있습니다. - 사용 가능한 날짜: 2025년 9월 23일
 
@@ -858,13 +858,13 @@ table>
 
 * **채널 - SMS**
 
-   * **퍼지 옵트아웃** - **퍼지 옵트아웃** 옵션을 활성화하면 정의된 옵트아웃 키워드(예: &#39;CANCIL&#39;)와 유사한 인바운드 메시지를 감지하고 자동으로 확인 응답을 보내 사용자의 구독 취소 의도를 확인합니다. 사용자가 정의된 프롬프트를 통해 확인을 완료하면 해당 사용자의 구독을 취소합니다. [자세히 보기](../sms/sms-configuration-sinch.md)
+   * **퍼지 옵트아웃** - **퍼지 옵트아웃** 옵션을 활성화하면 정의된 옵트아웃 키워드(예: &#39;CANCIL&#39;)와 유사한 인바운드 메시지를 감지하고 자동으로 확인 응답을 보내 사용자의 구독 취소 의도를 확인합니다. 사용자가 정의된 프롬프트를 통해 확인을 완료하면 해당 사용자의 구독을 취소합니다. [자세히 보기](../mobile/mobile-configuration-sinch.md)
 
      >[!NOTE]
      >
      >**퍼지 옵트아웃**&#x200B;은 Sinch 및 Infobip에서만 사용할 수 있습니다.
 
-   * **SMS 연결 확인** - 이제 샘플 메시지를 지정된 디바이스로 전송하여 Adobe Journey Optimizer 내에서 SMS API 자격 증명을 쉽게 테스트하고 확인할 수 있습니다. [자세히 보기](../sms/sms-configuration-sinch.md)
+   * **SMS 연결 확인** - 이제 샘플 메시지를 지정된 디바이스로 전송하여 Adobe Journey Optimizer 내에서 SMS API 자격 증명을 쉽게 테스트하고 확인할 수 있습니다. [자세히 보기](../mobile/mobile-configuration-sinch.md)
 
 * **구성**
 
@@ -1155,7 +1155,7 @@ table>
 <tr>
 <td>
 <p>이제 사용자 정의 SMS 공급자 솔루션 통합으로 서드파티 공급자를 통해 RCS(Rich Communication Services) 메시지를 구성, 사용자 정의, 전달할 수 있습니다.</p>
-<p>자세한 내용은 <a href="../sms/sms-configuration-custom.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../mobile/mobile-configuration-custom.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -1474,7 +1474,7 @@ li>Create offers by directly selecting an AEM Content Fragment.</li>
 <tr>
 <td>
 <p>이제 Journey Optimizer에서 Sinch, Infobip, Twilio와 같은 기본 옵션 외에 추가 SMS 공급자를 구성할 수 있습니다. 사용자 정의 SMS 공급자 구성을 통해 서드파티 공급자를 직접 통합하고, 동적 메시지를 위한 고급 페이로드 사용자 정의를 활용하고, 동의 환경 설정(옵트인/옵트아웃)을 관리하여 규정 준수를 보장할 수 있습니다.</p>
-<p>자세한 내용은 <a href="../sms/sms-configuration-custom.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../mobile/mobile-configuration-custom.md">세부 설명서</a>를 참조하십시오.</p>
 <p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
 <p>사용 가능한 날짜: 2025년 5월 20일</p>
 </td>
@@ -1671,7 +1671,7 @@ table>
 <tr>
 <td>
 <p>Adobe Journey Optimizer now supports custom SMS providers, allowing you to integrate your preferred SMS services for enhanced communication flexibility.</p>
-<p>For more information, refer to the <a href="../sms/sms-configuration-custom.md">detailed documentation</a>.</p></td>
+<p>For more information, refer to the <a href="../mobile/mobile-configuration-custom.md">detailed documentation</a>.</p></td>
 </tr>
 </tbody>
 -->
@@ -2193,7 +2193,7 @@ You can now choose to have your emails relayed to your SMTP servers instead of b
 
 * **다이렉트 메일** - 이제 다이렉트 메일 채널 구성에서 파일 라우팅에 대해 새로운 서버 유형인 데이터 랜딩 구역이 지원됩니다. [자세히 보기](../direct-mail/direct-mail-configuration.md#file-routing-configuration)
 
-* **SMS** - 이제 게재, 피드백, 인바운드 및 콜백 URL을 재정의하여 다중 지역 엔드포인트의 SMS 메시지 게재를 관리할 수 있습니다. 이를 지원하기 위해 새 필드인 재정의 URL이 API 자격 증명 구성에 추가되었습니다. 이 변경 사항은 Sinch 공급자에서만 사용할 수 있습니다. [자세히 보기](../sms/sms-configuration-sinch.md)
+* **SMS** - 이제 게재, 피드백, 인바운드 및 콜백 URL을 재정의하여 다중 지역 엔드포인트의 SMS 메시지 게재를 관리할 수 있습니다. 이를 지원하기 위해 새 필드인 재정의 URL이 API 자격 증명 구성에 추가되었습니다. 이 변경 사항은 Sinch 공급자에서만 사용할 수 있습니다. [자세히 보기](../mobile/mobile-configuration-sinch.md)
 
 * **개인화**(사용 가능한 날짜: 2025년 1월 29일) - 새로운 날짜/시간 도우미 함수를 개인화 편집기에서 사용할 수 있습니다. [자세히 보기](../personalization/functions/dates.md)
 

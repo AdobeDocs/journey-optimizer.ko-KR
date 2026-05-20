@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: '6916'
 ht-degree: 99%
@@ -277,7 +277,7 @@ ht-degree: 99%
 
 **SMS 채널**
 
-* 이제 SMS API 채널 구성을 편집하거나 삭제할 수 있습니다. [자세히 알아보기](../sms/sms-configuration.md)
+* 이제 SMS API 채널 구성을 편집하거나 삭제할 수 있습니다. [자세히 알아보기](../mobile/mobile-configuration.md)
 
 * Infobip 및 Sinch를 통한 SMS 메시지 기능 강화를 위해 다음 같은 개선 사항이 도입되었습니다.
 
@@ -285,7 +285,7 @@ ht-degree: 99%
 
    * 키워드가 인식되지 않을 때 사용할 기본 SMS 메시지를 만들고 전송할 수 있습니다.
 
-  [Infoip](../sms/sms-configuration-infobip.md) 및 [Sinch](../sms/sms-configuration-sinch.md)에 대한 SMS 구성 설명서에서 이러한 개선 사항에 대해 자세히 알아보십시오.
+  [Infoip](../mobile/mobile-configuration-infobip.md) 및 [Sinch](../mobile/mobile-configuration-sinch.md)에 대한 SMS 구성 설명서에서 이러한 개선 사항에 대해 자세히 알아보십시오.
 
 
 <!--**Journeys**-->
@@ -674,7 +674,7 @@ ht-degree: 99%
 <td>
 <p>이제 Journey Optimizer 내에서 기본 공급자인 Sinch, Infobip, Twilio 외 추가 SMS 공급자를 구성할 수 있습니다.</p>
 <img src="assets/do-not-localize/byo_sms.gif"/>
-<p>자세한 내용은 <a href="../sms/sms-configuration-custom.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../mobile/mobile-configuration-custom.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -864,7 +864,7 @@ table>
 
 #### SMS 채널
 
-* 이제 한 번의 API 구성으로 각 샌드박스마다 고유한 짧은 코드를 추가할 수 있어 프로세스가 효율화, 간소화됩니다. [자세히 알아보기](../sms/sms-configuration.md)
+* 이제 한 번의 API 구성으로 각 샌드박스마다 고유한 짧은 코드를 추가할 수 있어 프로세스가 효율화, 간소화됩니다. [자세히 알아보기](../mobile/mobile-configuration.md)
 
 * 이제 **API 자격 증명 세부 정보** 페이지의 **API 토큰** 필드가 토큰을 만든 후 마스킹됩니다.
 
@@ -1272,7 +1272,7 @@ table>
 
 **SMS 채널**
 
-* **옵트인/옵트아웃 키워드** - 이제 SMS 채널을 구성할 때 원하는 대로 **옵트인 및 옵트아웃 키워드**&#x200B;를 사용자 정의할 수 있습니다. Journey Optimizer는 지정된 이러한 키워드를 기반으로 응답을 트리거합니다. [자세히 알아보기](../sms/sms-configuration.md)
+* **옵트인/옵트아웃 키워드** - 이제 SMS 채널을 구성할 때 원하는 대로 **옵트인 및 옵트아웃 키워드**&#x200B;를 사용자 정의할 수 있습니다. Journey Optimizer는 지정된 이러한 키워드를 기반으로 응답을 트리거합니다. [자세히 알아보기](../mobile/mobile-configuration.md)
 
 **캠페인**
 
@@ -1340,7 +1340,7 @@ table>
 
 **SMS 채널**
 
-* **이중 옵트인** - SMS에 대한 이중 옵트인 워크플로를 사용하면 장치에서 요청을 시작할 때 사용자가 메시지를 수신하도록 명시적으로 옵트인할 수 있습니다. 사용자는 인바운드 SMS 메시지를 전송하여 동의 프로세스를 시작합니다. 동의를 확인하면 최종 확인을 요청하는 후속 메시지가 발송됩니다. 사용자 프로필이 존재하지 않으면 확인 후 생성됩니다. [자세히 알아보기](../sms/sms-configuration.md)
+* **이중 옵트인** - SMS에 대한 이중 옵트인 워크플로를 사용하면 장치에서 요청을 시작할 때 사용자가 메시지를 수신하도록 명시적으로 옵트인할 수 있습니다. 사용자는 인바운드 SMS 메시지를 전송하여 동의 프로세스를 시작합니다. 동의를 확인하면 최종 확인을 요청하는 후속 메시지가 발송됩니다. 사용자 프로필이 존재하지 않으면 확인 후 생성됩니다. [자세히 알아보기](../mobile/mobile-configuration.md)
 
   이 기능은 Sinch 및 Infobip SMS 공급자만 사용할 수 있습니다.
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: User, Developer
 level: Intermediate
 keywords: 딥링크, 딥링크, 범용 링크, 앱 링크, 이메일, sms
-source-git-commit: 3d3218e24074ffb8ec36f1ec14ff8a6c45950d90
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: '1277'
 ht-degree: 1%
@@ -48,7 +48,7 @@ ht-degree: 1%
 
 ### SMS {#authoring-sms}
 
-SMS의 경우, 딥링크는 개인화 편집기에서 **Url** 도우미 함수를 사용하여 작성됩니다. [이 섹션](../sms/create-sms.md#sms-content)에서 SMS 콘텐츠에 링크를 추가하는 방법에 대해 자세히 알아보세요.
+SMS의 경우, 딥링크는 개인화 편집기에서 **Url** 도우미 함수를 사용하여 작성됩니다. [이 섹션](../mobile/create-mobile-message.md#sms-content)에서 SMS 콘텐츠에 링크를 추가하는 방법에 대해 자세히 알아보세요.
 
 SMS 콘텐츠에 딥링크를 삽입하려면 다음 구문을 사용합니다.
 
@@ -70,7 +70,7 @@ SMS 콘텐츠에 딥링크를 삽입하려면 다음 구문을 사용합니다.
 
 1. 하위 도메인에서 iOS용 AASA 파일 및 Android용 assetLinks.json 파일을 호스팅합니다. 자세한 내용은 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} 또는 Adobe 담당자에게 문의하십시오.
 
-   * AASA(iOS)의 **1&rbrace;:**
+   * AASA(iOS)의 **1}:**
       * 위임된 하위 도메인
       * 앱 번들 ID
    * **Android(assetLinks.json)의 경우**:
