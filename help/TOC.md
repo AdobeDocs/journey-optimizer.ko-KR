@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 64bd2abc41469c6624debaea96555e2aecdb82c3
+source-git-commit: 53399d695edcef2a2e836f584b261d279eb49116
 workflow-type: tm+mt
 source-wordcount: '3318'
 ht-degree: 96%
@@ -339,7 +339,7 @@ ht-degree: 96%
          + [푸시 알림 채널 구성](using/push/push-configuration.md)
          + [웹 푸시 알림 채널 구성](using/push/push-configuration-web.md)
          + [모바일 온보딩 빠른 시작 워크플로](using/push/mobile-onboarding-wf.md)
-   + SMS / MMS / RCS 채널 {#sms}
+   + SMS / MMS / RCS 채널 {#mobile}
       + [모바일 메시지 시작](using/mobile/get-started-mobile.md)
       + [모바일 메시지 만들기](using/mobile/create-mobile-message.md)
       + [모바일 메시지 디자인](using/mobile/design-mobile.md)
@@ -347,7 +347,7 @@ ht-degree: 96%
       + [모바일 메시지 옵트아웃 관리](using/mobile/mobile-opt-out.md)
       + [SMS 하위 도메인 설정](using/mobile/mobile-subdomains.md)
       + [SMS 비용 최적화 모범 사례](using/mobile/mobile-cost-optimization.md)
-      + 모바일 채널 구성 {#configure-sms}
+      + 모바일 채널 구성 {#configure-mobile}
          + [모바일 구성 시작](using/mobile/mobile-configuration.md)
          + [Sinch 제공자 구성](using/mobile/mobile-configuration-sinch.md)
          + [Infobip 제공자 구성](using/mobile/mobile-configuration-infobip.md)
