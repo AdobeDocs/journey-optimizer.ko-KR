@@ -13,10 +13,10 @@ feature_v2:
   - id: d556b755-390a-43f0-be32-a08cf6236126
 subfeature_v2:
   - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: ede238f1b1acd119cc201639488dd12fbcd518cf
 workflow-type: tm+mt
-source-wordcount: 1183
-ht-degree: 63%
+source-wordcount: 1227
+ht-degree: 55%
 
 ---
 
@@ -63,17 +63,17 @@ ht-degree: 63%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_scheduler"
 >title="스케줄러"
->abstract="캠페인 관리자는 특정 시간에 자동으로 캠페인이 시작되도록 일정을 예약하여 마케팅 커뮤니케이션을 위한 정확한 타이밍과 정확한 타기팅 데이터를 확보할 수 있습니다."
+>abstract="캠페인 관리자는 특정 시간에 자동으로 실행되도록 캠페인을 예약하거나, REST API 또는 오케스트레이션된 다른 캠페인의 **종료** 활동에서 호출될 때 시작되도록 **신호에 의해 트리거됨**&#x200B;으로 설정할 수 있습니다. [자세히 알아보기](trigger-orchestrated-campaign.md)"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_schedule_validity"
 >title="스케줄러 유효성"
->abstract="스케줄러의 유효 기간을 정의할 수 있습니다. 영구적(기본값)이거나 특정 날짜까지 유효할 수 있습니다."
+>abstract="예약된 캠페인의 경우 스케줄러에 대한 유효 기간을 정의합니다. 영구(기본값)이거나 특정 날짜까지 유효할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_schedule_options"
 >title="스케줄러 옵션"
->abstract="스케줄러의 빈도를 정의합니다. 특정 순간, 하루에 한 번 또는 여러 번, 일주일 또는 한 달로 실행할 수 있습니다."
+>abstract="API 호출 또는 업스트림 캠페인의 **종료** 활동을 기다리도록 일회성 또는 반복 일정(한 번, 매일, 주별, 월별 등)에서 또는 **신호에 의해 트리거됨**&#x200B;에서 캠페인이 시작되는 방법을 선택하십시오. 신호가 트리거되는 캠페인의 경우 페이로드에 전달할 매개 변수를 정의할 수 있습니다. [자세히 알아보기](trigger-orchestrated-campaign.md)"
 
 기본적으로 오케스트레이션된 캠페인은 수동으로 활성화될 때 시작되고 관련 활동이 실행되면 종료됩니다. 실행을 지연하거나 반복적으로 캠페인을 실행하려는 경우 캠페인에 대한 일정을 정의할 수 있습니다.
 

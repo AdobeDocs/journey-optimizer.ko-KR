@@ -12,10 +12,10 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
   - id: d556b755-390a-43f0-be32-a08cf6236126
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: ede238f1b1acd119cc201639488dd12fbcd518cf
 workflow-type: tm+mt
-source-wordcount: 886
-ht-degree: 50%
+source-wordcount: 937
+ht-degree: 48%
 
 ---
 
@@ -110,6 +110,8 @@ ht-degree: 50%
 * **[!UICONTROL 결합]** 활동은 이메일이 있는 고객과 최소 100달러 이상 구매한 고객을 하나로 그룹화합니다.
 * **[!UICONTROL 결합]** 활동은 충성도 점수가 50점 미만인 고객을 제외합니다.
 * **[!UICONTROL 이메일 게재]** 활동은 결과 고객에게 이메일을 보냅니다.
+
+분기의 끝에 도달하면 캔버스에 완료 표시를 위해 **[!UICONTROL End]** 활동을 추가할 수 있습니다. **[!UICONTROL End]** 활동을 구성하여 **[!UICONTROL 신호에 의해 트리거됨]**(으)로 설정된 다른 오케스트레이션된 캠페인으로 신호를 보내고 페이로드에서 매개 변수를 전달할 수도 있습니다. [자세히 알아보기](trigger-orchestrated-campaign.md#signal-end).
 
 ## 다음 단계 {#next}
 

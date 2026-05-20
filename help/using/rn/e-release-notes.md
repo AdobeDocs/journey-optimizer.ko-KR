@@ -9,10 +9,10 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: f8fa72eadbc8381486290379f98025a10001f997
+source-git-commit: ede238f1b1acd119cc201639488dd12fbcd518cf
 workflow-type: tm+mt
-source-wordcount: 883
-ht-degree: 8%
+source-wordcount: 803
+ht-degree: 9%
 
 ---
 
@@ -39,24 +39,6 @@ ht-degree: 8%
 <tr>
 <td>
 <p>이제 Adobe Journey Optimizer의 단일 <strong>모바일 메시지</strong> 작업에 따라 SMS, MMS 및 RCS가 통합되므로 한 곳에서 모든 모바일 메시지 유형을 보다 쉽게 관리할 수 있습니다. 이 업데이트의 일부로, 이제 새로운 기본 작성 환경을 통해 Journey Optimizer에서 직접 이미지, 회전 메뉴 및 제안 작업 등 리치 미디어 RCS 메시지를 작성할 수 있습니다.</p>
-<p>사용 가능한 날짜: 2026년 5월 19일</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>연결된 오케스트레이션된 캠페인</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 오케스트레이션된 다른 캠페인의 <strong>종료 활동</strong>에서 오케스트레이션된 캠페인을 직접 트리거하여 오케스트레이션된 캠페인을 함께 연결할 수 있습니다.</p>
-<p>이렇게 하면 복잡한 오케스트레이션 논리를 매번 다시 빌드되지 않고 여러 상위 캠페인에서 호출할 수 있는 더 작고 재사용 가능한 흐름으로 나눌 수 있습니다. 런타임 시 전달된 페이로드는 다운스트림 캠페인의 세분화 및 개인화에 사용할 수 있으므로 연결된 각 캠페인은 받은 컨텍스트를 기반으로 작동할 수 있습니다.</p>
-<!--<p><img src="assets/do-not-localize/oc-trigger.gif"></p>-->
 <p>사용 가능한 날짜: 2026년 5월 19일</p>
 </td>
 </tr>

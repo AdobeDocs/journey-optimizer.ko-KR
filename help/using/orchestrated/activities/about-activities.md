@@ -12,10 +12,10 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: ede238f1b1acd119cc201639488dd12fbcd518cf
 workflow-type: tm+mt
-source-wordcount: 413
-ht-degree: 61%
+source-wordcount: 471
+ht-degree: 47%
 
 ---
 
@@ -66,12 +66,12 @@ Adobe Journey Optimizer에서는 여러 채널에 걸쳐 마케팅 캠페인을 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_end"
 >title="종료 활동"
->abstract="**종료** 활동을 사용하여 오케스트레이션된 캠페인의 끝을 그래픽으로 표시할 수 있습니다. 이 활동은 기능에 영향을 미치지 않으므로 선택 사항입니다."
+>abstract="**End** 활동은 캔버스에서 분기의 끝을 표시합니다. 필요한 경우 **외부 신호**&#x200B;를 사용하여 다운스트림 오케스트레이션된 캠페인을 시작하고 분기가 완료될 때 매개 변수를 전달합니다. [자세히 알아보기](../trigger-orchestrated-campaign.md#signal-end)"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_signal"
 >title="외부 신호"
->abstract="외부 신호"
+>abstract="이 분기가 종료될 때 시작할 다운스트림 오케스트레이션된 캠페인을 선택하고, 신호를 전송할 매개 변수 이름 및 값을 매핑합니다. 다운스트림 캠페인은 **신호에 의해 트리거됨**(으)로 설정되어야 이 캠페인이 종료 활동에 도달하기 전에 게시됩니다. [자세히 알아보기](../trigger-orchestrated-campaign.md#signal-end)"
 
 다음 활동은 오케스트레이션된 캠페인을 구성하고 실행하는 데 특정적입니다. 이들의 주요 임무는 다른 활동을 조정하는 것입니다.
 
@@ -84,5 +84,4 @@ Adobe Journey Optimizer에서는 여러 채널에 걸쳐 마케팅 캠페인을 
 * [대기](wait.md): 오케스트레이션된 캠페인의 일부 실행을 잠시 일시 중지합니다.
   <!--* [Test](test.md): Enable transitions based on specified conditions.-->
 
->[!NOTE]
->**End** 활동은 오케스트레이션된 캠페인의 끝을 그래픽으로 표시합니다. 이 활동은 기능에 영향을 미치지 않으므로 선택 사항입니다.
+* **[!UICONTROL 끝]**: 캔버스에서 분기의 끝을 표시합니다. 원할 경우 이를 사용하여 신호에서 시작하는 다른 오케스트레이션된 캠페인에 신호를 보낼 수 있습니다. [자세히 알아보기](../trigger-orchestrated-campaign.md#signal-end)
