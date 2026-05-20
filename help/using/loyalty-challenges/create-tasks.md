@@ -11,7 +11,7 @@ hide: true
 badge: label="비공개 베타" type="Informative"
 mini-toc-levels: 1
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+source-git-commit: e66628ab1d9df497226ab625947aa18a2a3b6f48
 workflow-type: tm+mt
 source-wordcount: '993'
 ht-degree: 18%
@@ -29,6 +29,7 @@ ht-degree: 18%
 * [과제 만들기](create-challenges.md)
 * **작업 만들기** ◀︎**현재 상태**
 * [충성도 과제 성능 모니터링](loyalty-reporting.md)
+<!-- * [Configure the loyalty program](loyalty-admin.md) -->
 * [충성도 과제 API 참조](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
 >[!ENDSHADEBOX]
@@ -72,6 +73,7 @@ ht-degree: 18%
 
 * **[!UICONTROL 구매]**: 이 작업을 완료하려면 고객이 하나 이상의 항목을 구입해야 합니다.
 * **[!UICONTROL 지출]**: 이 작업을 완료하려면 고객이 지정된 금액을 사용해야 합니다.
+<!-- * **[!UICONTROL Custom event]**: Customers must perform an activity tracked as an Adobe Experience Platform event. The event must be defined in **[!UICONTROL Loyalty Admin]** before you can select it here. [Learn how to create event definitions](loyalty-admin.md#event-definitions) -->
 
 활동을 선택하려면 **+** 아이콘을 클릭하고 결과 목표에 가장 적합한 고객 활동을 선택하십시오. 각 활동 유형에는 작업 요구 사항을 추가로 정의하고 형성하기 위해 구성 가능한 특정 속성이 있습니다.
 ![](assets/task-create-activity.png)

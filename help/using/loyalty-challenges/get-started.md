@@ -11,10 +11,10 @@ hide: true
 badge: label="비공개 베타" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+source-git-commit: e66628ab1d9df497226ab625947aa18a2a3b6f48
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 14%
+source-wordcount: '843'
+ht-degree: 15%
 
 ---
 
@@ -29,6 +29,7 @@ ht-degree: 14%
 * [과제 만들기](create-challenges.md)
 * [작업 만들기](create-tasks.md)
 * [충성도 과제 성능 모니터링](loyalty-reporting.md)
+<!-- * [Configure the loyalty program](loyalty-admin.md) -->
 * [충성도 과제 API 참조](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
 >[!ENDSHADEBOX]
@@ -73,6 +74,8 @@ ht-degree: 14%
 ## 작동 방식 {#how-it-works}
 
 충성도 문제를 만들고 실행하는 것은 다음 워크플로를 따릅니다.
+
+<!-- 1. **Configure the loyalty program** (administrators) - Set up your Adobe Experience Platform namespace, reward providers, and optionally event definitions and product inventory so rewards can be fulfilled when customers complete challenges. [Learn how to configure the loyalty program](loyalty-admin.md). -->
 
 1. **과제 만들기** - 이름, 유형(표준, 연속, 순차적 또는 가능한 경우 고유한 데이터 가져오기), 날짜 범위를 포함한 기본 과제 속성을 정의합니다. [챌린지 유형을 선택하는 방법을 알아보세요](create-challenges.md#create-the-challenge).
 
@@ -119,6 +122,18 @@ ht-degree: 14%
 
 +++
 
+<!--
+
++++Configure the loyalty program (administrators)
+
+To configure **[!UICONTROL Loyalty Admin]** (reward providers, event definitions, and global settings), you need administrator access to your Journey Optimizer organization. Marketers who only create challenges do not need access to this area. [Learn how to configure the loyalty program](loyalty-admin.md).
+
+Contact your administrator if **[!UICONTROL Loyalty Admin]** is not visible in the left navigation.
+
++++
+
+-->
+
 +++타깃 대상자
 
 과제를 만들기 전에 필요한 타겟 대상이 Adobe Experience Platform에 있는지 확인하십시오. 과제 구성 중에 참여할 수 있는 고객을 정의하는 대상을 선택합니다. [대상자를 사용하여 작업하는 방법을 알아봅니다](../audience/about-audiences.md).
@@ -136,7 +151,7 @@ ht-degree: 14%
       <img alt="액세스" src="assets/do-not-localize/icon-access.png" width="200"/>
     </a>
     <div>
-    <a href="access-loyalty-challenges.md"><strong>문제 및 작업 액세스 및 관리</strong></a>
+    <a href="access-loyalty-challenges.md"><strong>챌린지 및 작업 액세스 및 관리</strong></a>
     </div>
     <p>
     <em>인벤토리에 액세스하고 문제 및 작업을 관리하는 방법을 알아봅니다.</em>
@@ -147,7 +162,7 @@ ht-degree: 14%
       <img alt="만들기" src="assets/do-not-localize/icon-challenge.png" width="200"/>
     </a>
     <div>
-    <a href="create-challenges.md"><strong>문제 만들기</strong></a>
+    <a href="create-challenges.md"><strong>챌린지 만들기</strong></a>
     </div>
     <p>
     <em>첫 번째 충성도 과제를 만들고 구성하는 방법에 대해 알아봅니다.</em>
@@ -175,6 +190,21 @@ ht-degree: 14%
     <em>기본 제공 대시보드를 사용하여 프로그램 KPI, 과제 결과 및 작업 지표 추적</em>
     </p>
   </td>
+  &lt;!--
+
+<td>
+    <a href="loyalty-admin.md">
+      <img alt="구성" src="assets/do-not-localize/icon-access.png" width="200"/>
+    </a>
+    <div>
+    <a href="loyalty-admin.md"><strong>충성도 프로그램 구성</strong></a>
+    </div>
+    <p>
+    <em>이행에 대한 보상 공급자, 이벤트 정의 및 조직 설정</em>
+    </p>
+  </td>
+
+-->
 </tr>
 </table>
 

@@ -11,7 +11,7 @@ hide: true
 badge: label="비공개 베타" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+source-git-commit: e66628ab1d9df497226ab625947aa18a2a3b6f48
 workflow-type: tm+mt
 source-wordcount: '1937'
 ht-degree: 17%
@@ -29,6 +29,7 @@ ht-degree: 17%
 * **문제 만들기** ◀︎**현재 상태**
 * [작업 만들기](create-tasks.md)
 * [충성도 과제 성능 모니터링](loyalty-reporting.md)
+<!-- * [Configure the loyalty program](loyalty-admin.md) -->
 * [충성도 과제 API 참조](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
 >[!ENDSHADEBOX]
@@ -186,6 +187,8 @@ ht-degree: 17%
      *예: 작업 1 다음에 10포인트, 작업 2 다음에 20포인트, 작업 3 다음에 50포인트를 부여합니다*
 
 1. 보상 제공자를 선택합니다. 고객 포인트와 보상을 관리하는 충성도 솔루션입니다.
+
+   <!-- Reward providers are created in **[!UICONTROL Loyalty Admin]** before you author challenges. [Learn how to configure reward providers](loyalty-admin.md#reward-providers). -->
 
    ![](assets/challenge-create-reward-type.png)
 
