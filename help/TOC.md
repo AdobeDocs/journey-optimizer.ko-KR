@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4af4762e4f090650ed7033f1352adb7acec0670b
+source-git-commit: e66628ab1d9df497226ab625947aa18a2a3b6f48
 workflow-type: tm+mt
-source-wordcount: '3314'
-ht-degree: 96%
+source-wordcount: '3330'
+ht-degree: 95%
 
 ---
 
@@ -144,6 +144,8 @@ ht-degree: 96%
    + {hide-from-toc}[챌린지 만들기](using/loyalty-challenges/create-challenges.md)
    + {hide-from-toc}[작업 만들기](using/loyalty-challenges/create-tasks.md)
    + {hide-from-toc}[충성도 챌린지 성능 모니터링](using/loyalty-challenges/loyalty-reporting.md)
+   + {hide-from-toc}[충성도 프로그램 구성](using/loyalty-challenges/loyalty-admin.md)
+   + {hide-from-toc}[충성도 문제 API 참조](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges)
 + 캠페인 {#campaigns}
    + {hide-from-toc}[캠페인](/help/rp_landing_pages/campaigns-landing-page.md)
    + [캠페인 시작](using/campaigns/get-started-with-campaigns.md)
