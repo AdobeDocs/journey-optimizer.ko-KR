@@ -37,7 +37,7 @@ ht-degree: 5%
 >id="ajo_admin_surface_sms_type"
 >title="메시지 카테고리 정의"
 >abstract="모바일 메시지 유형을 선택합니다. 이 구성은 사용자 동의가 필요한 프로모션 메시지에 대한 마케팅 또는 암호 재설정과 같은 비상업적인 메시지에 대한 트랜잭션 중 하나입니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#sms-opt-out-management" text="마케팅 모바일 메시지에서 옵트아웃"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=ko#sms-opt-out-management" text="마케팅 모바일 메시지에서 옵트아웃"
 
 모바일 메시지 채널이 구성되면 **[!DNL Journey Optimizer]**&#x200B;에서 SMS, RCS 및 MMS 메시지를 보낼 수 있도록 채널 구성을 만들어야 합니다.
 
