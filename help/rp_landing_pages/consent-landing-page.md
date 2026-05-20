@@ -5,7 +5,7 @@ title: 동의 관리
 description: 동의 관리
 redpen-status: CREATED_||_2025-08-11_21-19-40
 exl-id: ea8d895d-ec7e-40d9-814d-32135bcb8a2e
-source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 31%
@@ -58,4 +58,4 @@ ht-degree: 31%
 - **[개인 정보 보호 시작](../using/privacy/get-started-privacy.md)** - 데이터 요청 및 감사 로그를 포함한 Journey Optimizer의 개인 정보 관리 개요.
 - **[데이터 거버넌스](../using/action/action-privacy.md)** - 사용자 지정 작업을 통해 중요한 필드를 서드파티 시스템으로 내보내지 않도록 보호합니다.
 - **[전자 메일 옵트아웃 관리](../using/email/email-opt-out.md)** - 전자 메일 관련 옵트아웃 및 구독 취소 처리를 구성합니다.
-- **[문자 메시지 옵트아웃 관리](../using/mobile/mobile-opt-out.md)** - SMS/MMS/RCS 옵트아웃 및 구독 취소 처리를 구성합니다.
+- **[모바일 메시지 옵트아웃 관리](../using/mobile/mobile-opt-out.md)** - SMS/MMS/RCS 옵트아웃 및 구독 취소 처리를 구성합니다.

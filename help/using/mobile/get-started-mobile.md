@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 모바일 메시지 시작
-description: Journey Optimizer에서 텍스트 메시지를 만들고 보내는 방법 알아보기
+description: Journey Optimizer에서 모바일 메시지를 만들고 보내는 방법 알아보기
 feature: SMS
 topic: Content Management
 role: User
@@ -30,10 +30,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: 1005
-ht-degree: 30%
+source-wordcount: 1006
+ht-degree: 24%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 30%
 
 ## 구성 요구 사항 {#configuration-requirements}
 
-텍스트 메시지를 보내기 전에 다음을 수행해야 합니다.
+모바일 메시지를 보내기 전에 다음을 수행해야 합니다.
 
 1. **SMS 공급자 선택**: Sinch, Twilio, Infobip 중에서 선택하거나 사용자 지정 공급자를 구성하십시오.
 2. **API 자격 증명 설정**: 공급자의 API 토큰 및 서비스 ID를 Journey Optimizer과 통합합니다.
@@ -90,7 +90,7 @@ Journey Optimizer에서 RCS를 사용하려면 다음 전제 조건이 필요합
 
 ## 추가 리소스 {#additional-resources}
 
-Journey Optimizer의 텍스트 메시지에 대한 자세한 내용은 아래 항목을 참조하십시오.
+Journey Optimizer의 모바일 메시지에 대한 자세한 내용은 아래 항목을 참조하십시오.
 
 +++구성 안내서
 
@@ -115,11 +115,11 @@ SMS 환경을 설정하고 구성하는 방법 알아보기:
 
 +++콘텐츠 제작 및 관리
 
-텍스트 메시지 콘텐츠 만들기, 개인화, 관리:
+모바일 메시지 콘텐츠를 만들고, 개인화하고, 관리합니다.
 
-* [SMS/MMS 메시지 만들기](create-mobile-message.md)
+* [SMS/RCS/MMS 메시지 만들기](create-mobile-message.md)
 * [메시지 미리 보기, 테스트, 보내기](send-mobile-message.md)
-* [텍스트 메시지의 개인화](../personalization/personalize.md)
+* [모바일 메시지의 Personalization](../personalization/personalize.md)
 * [다이내믹 콘텐츠](../personalization/get-started-dynamic-content.md)
 * [AI 어시스턴트로 SMS 콘텐츠 생성](../content-management/generative-text.md)
 
@@ -127,7 +127,7 @@ SMS 환경을 설정하고 구성하는 방법 알아보기:
 
 +++규정 준수 및 개인 정보
 
-문자 메시지가 규정 및 개인 정보 보호 표준을 준수하는지 확인:
+모바일 메시징이 규정 및 개인 정보 보호 표준을 준수하는지 확인합니다.
 
 * [옵트아웃 관리](mobile-opt-out.md)
 * [개인 정보 보호 및 동의](../privacy/opt-out.md#opt-out-decision-management)

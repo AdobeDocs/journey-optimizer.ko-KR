@@ -41,10 +41,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: 941
-ht-degree: 53%
+source-wordcount: 943
+ht-degree: 49%
 
 ---
 
@@ -94,7 +94,7 @@ Journey Optimizer 여정 디자이너는 마케터와 여정 실무자가 전체
 
 **기본 제공 작업**
 
-**기본 제공 채널 작업**&#x200B;을(를) 사용하여 [!DNL Journey Optimizer]에서 디자인된 메시지를 전자 메일, 푸시, SMS/MMS 등으로 보냅니다.
+**기본 제공 채널 작업**&#x200B;을 사용하여 [!DNL Journey Optimizer]에서 디자인된 메시지를 전자 메일, 푸시, SMS/RCS/MMS 등으로 보냅니다.
 
 [여정에서 메시지 보내기](journey-action.md)
 :::
@@ -135,13 +135,13 @@ Journey Optimizer 여정 디자이너는 마케터와 여정 실무자가 전체
 
 마케터는 여정 디자이너 내에서 이벤트가 발생할 때 모든 채널을 통해 실시간으로 트리거된 1:1 메시지를 보낼 수 있습니다. 예를 들어 고객이 서비스에 가입하면 [환영 이메일을 트리거](message-to-subscribers-uc.md)하여 앱에 처음 로그인하고 기본 설정을 지정하게 유도할 수 있습니다. 구매 완료, 이메일 열기, 앱 로그인과 같은 작업으로 여정을 통해 새로운 고객을 확보할 수 있습니다.
 
-[여정 디자이너](using-the-journey-designer.md)는 이메일, 푸시 알림 및 SMS/MMS와 같은 아웃바운드 메시지와 모바일 앱, 웹 사이트 및 Journey Optimizer 내에서 직접 빌드된 코드 기반 경험을 비롯한 인바운드 채널을 지원하는 [기본 제공 채널 작업](journey-action.md)을 제공합니다. 서드파티 시스템을 사용하여 메시지를 보낼 수도 있습니다. Journey Optimizer에는 이러한 시스템을 여정 디자이너에서 직접 여정에 통합할 수 있도록 하는 [사용자 지정 작업](using-custom-actions.md)이 포함되어 있습니다.
+[여정 디자이너](using-the-journey-designer.md)은(는) 이메일, 푸시 알림 및 SMS/RCS/MMS와 같은 아웃바운드 메시지와 모바일 앱, 웹 사이트 및 Journey Optimizer 내에 직접 내장된 코드 기반 경험을 포함한 인바운드 채널을 지원하는 [기본 제공 채널 작업](journey-action.md)을 제공합니다. 서드파티 시스템을 사용하여 메시지를 보낼 수도 있습니다. Journey Optimizer에는 이러한 시스템을 여정 디자이너에서 직접 여정에 통합할 수 있도록 하는 [사용자 지정 작업](using-custom-actions.md)이 포함되어 있습니다.
 
 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
 
 **사용 사례를 통해 알아보기**
 
@@ -161,7 +161,7 @@ Journey Optimizer 여정 디자이너는 마케터와 여정 실무자가 전체
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ko)
 
 **전자 메일 전송 시간 최적화**
 
@@ -181,7 +181,7 @@ AI 기반의 전송 시간 최적화를 사용하여 각 고객이 참여할 가
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 **요일별 타기팅**
 
@@ -191,7 +191,7 @@ AI 기반의 전송 시간 최적화를 사용하여 각 고객이 참여할 가
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=ko)
 
 **여정 FAQ**
 
@@ -249,7 +249,7 @@ AI 기반의 전송 시간 최적화를 사용하여 각 고객이 참여할 가
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
 
 **여정 디자이너 개요**
 

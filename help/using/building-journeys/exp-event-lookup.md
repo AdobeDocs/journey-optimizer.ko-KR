@@ -21,7 +21,7 @@ topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
 source-wordcount: 1095
 ht-degree: 6%
@@ -52,7 +52,7 @@ ht-degree: 6%
 
 * [동의 관리](../privacy/opt-out.md)
 * [이메일 옵트아웃 관리](../email/email-opt-out.md)
-* [텍스트 메시지에 대한 옵트아웃 관리](../mobile/mobile-opt-out.md)
+* [모바일 메시지에 대한 옵트아웃 관리](../mobile/mobile-opt-out.md)
 
 
 ## 바운스 기반 제외

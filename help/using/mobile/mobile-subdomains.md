@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: 1035
+source-wordcount: 1036
 ht-degree: 16%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 16%
 
 ## SMS 하위 도메인 시작 {#gs-sms-mms-subdomains}
 
-SMS/MMS 메시지에 추가되는 URL을 단축하려면 [SMS 구성을 만들 때](mobile-configuration.md#sms-prerequisites)선택할 하위 도메인을 설정해야 합니다.
+SMS/RCS/MMS 메시지에 추가되는 URL을 단축하려면 [SMS 구성을 만들 때](mobile-configuration.md#sms-prerequisites)선택할 하위 도메인을 설정해야 합니다.
 
 이미 Adobe에 위임된 하위 도메인을 사용하거나 다른 하위 도메인을 구성할 수 있습니다. [이 섹션](../configuration/delegate-subdomain.md)에서 하위 도메인을 Adobe으로 위임하는 방법에 대해 자세히 알아보세요.
 

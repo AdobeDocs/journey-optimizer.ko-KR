@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Twilio 제공자 구성
-description: Twilio를 사용하여 Journey Optimizer에서 텍스트 메시지를 보내도록 환경을 구성하는 방법에 대해 알아봅니다
+description: Twilio를 사용하여 Journey Optimizer에서 모바일 메시지를 보내도록 환경을 구성하는 방법에 대해 알아봅니다
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
@@ -21,16 +21,16 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: 606
+source-wordcount: 607
 ht-degree: 1%
 
 ---
 
 # Twilio 제공자 구성 {#sms-configuration-twilio}
 
-Twilio를 Adobe Journey Optimizer과 통합하면 여정 및 캠페인의 일부로 프로필에 텍스트 메시지를 전달할 수 있습니다.
+Twilio를 Adobe Journey Optimizer과 통합하면 여정 및 캠페인의 일부로 프로필에 모바일 메시지를 전달할 수 있습니다.
 
 Twilio를 SMS 공급자로 구성하려면 아래 단계를 수행합니다.
 
@@ -39,7 +39,7 @@ Twilio를 SMS 공급자로 구성하려면 아래 단계를 수행합니다.
 1. [채널 구성 만들기](mobile-configuration-surface.md)
 1. [SMS 채널 작업으로 여정 또는 캠페인 만들기](create-mobile-message.md)
 
-## SMS/MMS에 대한 API 자격 증명 구성 {#api-credential}
+## SMS/RCS/MMS에 대한 API 자격 증명 구성 {#api-credential}
 
 Journey Optimizer으로 Twilio를 구성하려면 Twilio에 대한 새 API 자격 증명을 만들어야 합니다.
 

@@ -5,16 +5,16 @@ title: SMS / MMS / RCS 채널 구성
 description: SMS / MMS / RCS 채널 구성
 redpen-status: CREATED_||_2025-08-11_20-38-02
 exl-id: f92e23ee-2478-4f16-85d0-4c88c9be08b1
-source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 100%
+ht-degree: 69%
 
 ---
 
 # SMS / MMS / RCS 채널 구성{#section-overview}
 
-Adobe Journey Optimizer의 SMS/MMS/RCS 채널을 사용하면 트랜잭션 알림 또는 마케팅 캠페인을 위한 문자 메시지로 고객과 소통할 수 있습니다. 간단한 SMS 알림을 보내든, 멀티미디어를 넣은 MMS 메시지를 보내거나 브랜디드 프로필 등 RCS의 인터랙티브한 기능을 활용하든, 이 안내서에서는 메시지 채널을 구성하는 모든 단계를 안내합니다. Sinch, Twilio, Infobip과 같이 인기 있는 서비스 제공자를 통합하거나 사용자 정의 제공자를 설정해 필요에 맞는 맞춤형 메시지를 보내는 방법에 대해 알아봅니다. 사용 권한 및 설정에 대한 명확한 지침, 실용적인 예시, 인사이트로 목표에 적합한 텍스트 커뮤니케이션을 설정할 수 있습니다.
+Adobe Journey Optimizer의 SMS/MMS/RCS 채널을 통해 기업은 트랜잭션 알림 또는 마케팅 캠페인을 위한 모바일 메시지를 통해 고객과 연결할 수 있습니다. 간단한 SMS 알림, 멀티미디어가 풍부한 MMS 메시지를 보내거나 브랜드 프로필과 같은 대화형 RCS 기능을 활용하는 경우 이 안내서에서는 메시징 채널을 구성하는 모든 단계를 안내합니다. Sinch, Twilio 및 Infobip과 같이 인기 있는 공급자를 통합하거나 맞춤형 메시징 요구 사항에 맞게 사용자 지정 공급자를 설정하는 방법에 대해 알아봅니다. 사용 권한 및 설정에 대한 명확한 지침, 실제 예제 및 통찰력을 통해 목표에 맞는 텍스트 커뮤니케이션을 설정할 수 있습니다.
 
 ## SMS / MMS / RCS 채널 구성
 

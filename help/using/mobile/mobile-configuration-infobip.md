@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Infobip 제공자 구성
-description: Infobip을 사용하여 Journey Optimizer으로 문자 메시지 및 MMS를 전송하도록 환경을 구성하는 방법에 대해 알아봅니다
+description: Infobip을 사용하여 Journey Optimizer으로 모바일 메시지 및 MMS를 전송하도록 환경을 구성하는 방법에 대해 알아봅니다
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
@@ -22,7 +22,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
 source-wordcount: 769
 ht-degree: 1%
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 # Infobip 제공자 구성 {#sms-configuration-infobip}
 
-Infobip을 Adobe Journey Optimizer과 통합하여 여정 및 캠페인의 일부로 프로필에 텍스트 메시지를 전달할 수 있습니다.
+Infobip을 Adobe Journey Optimizer과 통합하여 여정 및 캠페인의 일부로서 프로필에 모바일 메시지를 전달할 수 있습니다.
 
 Infobip를 SMS 공급자로 구성하려면 아래 단계를 따르십시오.
 

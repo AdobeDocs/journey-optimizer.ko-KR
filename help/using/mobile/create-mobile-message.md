@@ -27,10 +27,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: 747
-ht-degree: 3%
+source-wordcount: 748
+ht-degree: 2%
 
 ---
 
@@ -38,24 +38,24 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
->title="텍스트 메시지 만들기"
+>title="모바일 메시지 만들기"
 >abstract="모바일 메시지를 만들려면 여정 또는 캠페인에 SMS 작업을 추가하고 개인화 편집기로 개인화를 시작합니다."
 
 >[!AVAILABILITY]
 >
 >RCS는 HIPAA 지원 서비스가 아니므로 Journey Optimizer에서 처리할 수 있도록 귀하의 조직에서 허용할 수 있는 허용된 상태 데이터(예: 개인 건강 정보)를 비롯한 민감한 개인 데이터를 수집, 저장 또는 처리하는 데 사용되어서는 안 됩니다.
 
-Adobe Journey Optimizer에서 텍스트(SMS), 풍부한 커뮤니케이션(RCS) 및 멀티미디어(MMS) 메시지를 디자인하고 보낼 수 있습니다. 먼저 여정 또는 캠페인에 모바일 메시지 작업을 추가한 다음 아래에 설명된 대로 텍스트 메시지의 콘텐츠를 정의해야 합니다. Adobe Journey Optimizer은 전송 전에 텍스트 메시지를 테스트하여 렌더링, 개인화 속성 및 기타 모든 설정을 확인할 수 있는 기능도 제공합니다.
+Adobe Journey Optimizer에서 텍스트(SMS), 풍부한 커뮤니케이션(RCS) 및 멀티미디어(MMS) 메시지를 디자인하고 보낼 수 있습니다. 먼저 여정 또는 캠페인에 모바일 메시지 작업을 추가한 다음 아래에 설명된 대로 모바일 메시지의 콘텐츠를 정의해야 합니다. Adobe Journey Optimizer은 전송 전에 모바일 메시지를 테스트하여 렌더링, 개인화 속성 및 기타 모든 설정을 확인할 수 있는 기능도 제공합니다.
 
-업계 표준 및 규정에 따라 모든 SMS/MMS 마케팅 메시지에는 수신자가 간편하게 구독을 취소할 수 있는 방법이 포함되어야 합니다. 이를 위해 SMS 수신자는 옵트인 및 옵트아웃 키워드로 회신할 수 있습니다. [옵트아웃 관리 방법 알아보기](../privacy/opt-out.md#opt-out-decision-management)
+업계 표준 및 규정에 따라 모든 SMS/RCS/MMS 마케팅 메시지에는 수신자가 쉽게 구독을 취소할 수 있는 방법이 포함되어야 합니다. 이를 위해 SMS 수신자는 옵트인 및 옵트아웃 키워드로 회신할 수 있습니다. [옵트아웃 관리 방법 알아보기](../privacy/opt-out.md#opt-out-decision-management)
 
-## 문자 메시지 추가 {#create-sms-journey-campaign}
+## 모바일 메시지 추가 {#create-sms-journey-campaign}
 
 캠페인이나 여정에 모바일 메시지를 추가하는 방법을 배우려면 아래 탭을 살펴보십시오.
 
 >[!BEGINTABS]
 
->[!TAB 여정에 문자 메시지 추가]
+>[!TAB 여정에 모바일 메시지 추가]
 
 1. 여정을 열고 팔레트의 **[!UICONTROL 작업]** 섹션에서 **[!UICONTROL 작업]** 활동을 끌어서 놓습니다. [작업 활동](../building-journeys/journey-action.md)에 대해 자세히 알아보세요.
 
@@ -83,7 +83,7 @@ Adobe Journey Optimizer에서 텍스트(SMS), 풍부한 커뮤니케이션(RCS) 
 
 여정 만들기, 구성 및 게시 방법에 대한 자세한 내용은 [이 페이지](../building-journeys/journey-gs.md)를 참조하세요.
 
->[!TAB 캠페인에 문자 메시지 추가]
+>[!TAB Campaign에 모바일 메시지 추가]
 
 1. **[!UICONTROL 캠페인]** 메뉴에 액세스한 다음 **[!UICONTROL 캠페인 만들기]**&#x200B;를 클릭합니다.
 
@@ -118,7 +118,7 @@ Adobe Journey Optimizer에서 텍스트(SMS), 풍부한 커뮤니케이션(RCS) 
    * 매주
    * Month
 
-이제 아래 자세히 설명된 대로 **[!UICONTROL 콘텐츠 편집]** 단추에서 문자 메시지의 콘텐츠 디자인을 시작할 수 있습니다. [자세히 알아보기](design-mobile.md)
+이제 아래에 자세히 설명된 대로 **[!UICONTROL 콘텐츠 편집]** 단추에서 모바일 메시지의 콘텐츠 디자인을 시작할 수 있습니다. [자세히 알아보기](design-mobile.md)
 
 캠페인을 만들고 구성하고 활성화하는 방법에 대한 자세한 내용은 [이 페이지](../campaigns/get-started-with-campaigns.md)를 참조하세요.
 
@@ -128,7 +128,7 @@ Adobe Journey Optimizer에서 텍스트(SMS), 풍부한 커뮤니케이션(RCS) 
 
 * [모바일 메시지 디자인](design-mobile.md)
 * [캠페인에 메시지 추가](../campaigns/create-campaign.md)
-* [문자 메시지 미리 보기, 테스트 및 보내기](send-mobile-message.md)
+* [모바일 메시지 미리 보기, 테스트 및 보내기](send-mobile-message.md)
 * [모바일 메시지 채널 구성](mobile-configuration.md)
 * [모바일 메시지 보고서](../reports/journey-global-report-cja-sms.md)
 

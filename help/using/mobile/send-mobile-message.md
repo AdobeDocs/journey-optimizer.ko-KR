@@ -28,9 +28,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: 536
+source-wordcount: 537
 ht-degree: 1%
 
 ---
@@ -94,6 +94,6 @@ Journey Optimizer은 SMS 편집기에서 UTF-8 인코딩을 사용하므로 더�
 **관련 항목**
 
 * [SMS 채널 구성](mobile-configuration.md)
-* [SMS/MMS 보고서](../reports/journey-global-report-cja-sms.md)
+* [SMS/RCS/MMS 보고서](../reports/journey-global-report-cja-sms.md)
 * [모바일 메시지 만들기](create-mobile-message.md)
 * [여정에 메시지 추가](../building-journeys/journey-action.md)
