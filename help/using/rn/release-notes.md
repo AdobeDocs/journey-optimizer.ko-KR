@@ -8,31 +8,15 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f816ee04639846ffd18c3d6723f4616ada24892d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5a6f276fe4d372a31b72429d50725cde64ff81c6
 workflow-type: tm+mt
-source-wordcount: 2076
+source-wordcount: 2084
 ht-degree: 30%
 
 ---
@@ -57,6 +41,23 @@ ht-degree: 30%
 ### 새로운 기능 {#may-26-features}
 
 다음 기능은 2026년 5월에 출시되었습니다.
+
+<table>
+<thead>
+<tr>
+<th><strong>새로운 모바일 메시지 채널 및 향상된 RCS 메시지</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 Adobe Journey Optimizer의 단일 <strong>모바일 메시지</strong> 작업에 따라 SMS, MMS 및 RCS가 통합되므로 한 곳에서 모든 모바일 메시지 유형을 보다 쉽게 관리할 수 있습니다. 이 업데이트의 일부로, 이제 새로운 기본 작성 환경을 통해 Journey Optimizer에서 직접 이미지, 회전 메뉴 및 제안 작업 등 리치 미디어 RCS 메시지를 작성할 수 있습니다.</p>
+<p>자세한 내용은 <a href="../mobile/get-started-mobile.md">세부 설명서</a>를 참조하십시오.</p>
+<p>사용 가능한 날짜: 2026년 5월 20일</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -261,22 +262,6 @@ ht-degree: 30%
 다음 기능 및 개선 사항은 5월 말에 릴리스될 예정입니다. **이 정보는 변경될 수 있습니다**. 업데이트된 링크, 화면, 설명서는 업데이트가 프로덕션에서 제공될 때 공유 예정입니다.
 
 ### 새로운 기능 {#coming-soon-features}
-
-<table>
-<thead>
-<tr>
-<th><strong>새로운 모바일 메시지 채널 및 향상된 RCS 메시지</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 Adobe Journey Optimizer의 단일 <strong>모바일 메시지</strong> 작업에 따라 SMS, MMS 및 RCS가 통합되므로 한 곳에서 모든 모바일 메시지 유형을 보다 쉽게 관리할 수 있습니다. 이 업데이트의 일부로, 이제 새로운 기본 작성 환경을 통해 Journey Optimizer에서 직접 이미지, 회전 메뉴 및 제안 작업 등 리치 미디어 RCS 메시지를 작성할 수 있습니다.</p>
-<p>사용 가능한 날짜: 2026년 5월 20일</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
