@@ -9,10 +9,10 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: f816ee04639846ffd18c3d6723f4616ada24892d
+source-git-commit: d8fca628ab6f521f868ce26345126cc4245588a5
 workflow-type: tm+mt
-source-wordcount: 738
-ht-degree: 7%
+source-wordcount: 578
+ht-degree: 9%
 
 ---
 
@@ -119,23 +119,7 @@ ht-degree: 7%
 </table>
 -->
 
-<table>
-<thead>
-<tr>
-<th><strong>여정 표현식을 위한 AI 지원</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 AI Assistant가 여정 고급 표현식 편집기에서 작동하여 자연어 프롬프트를 유효한 표현식과 조건부 논리로 변환합니다. 빌드할 표현식을 설명하고 AI Assistant는 즉시 적용하거나 후속 프롬프트를 통해 구체화할 수 있는 사용 준비 코드를 생성합니다.</p>
-<p>이 기능은 모든 고객이 공용 Beta으로 사용할 수 있습니다.</p>
-<!--<p><img src="assets/do-not-localize/expression-assistant.gif"></p>-->
-<p>사용 가능한 날짜: 2026년 5월 19일</p>
-</td>
-</tr>
-</tbody>
-</table>
+
 
 
 
@@ -154,13 +138,6 @@ ht-degree: 7%
   Availability date: May 19, 2026
 
 -->
-
-#### 캠페인
-
-* **캠페인 라이프사이클 이벤트에 대한 고객 알림** - 이제 새로운 시스템 알림이 작업 및 API 트리거 캠페인에 대한 주요 라이프사이클 이벤트를 알려줍니다. 샌드박스 수준에서 가입합니다.
-
-
-  사용 가능한 날짜: 2026년 5월 19일
 
 * **캠페인의 기본 실행 필드 재정의** - 이전에는 여정 수준에서 사용할 수 있었지만, 이제 캠페인 매개 변수에서 이메일, SMS 및 WhatsApp 게재에 대해 전역으로 설정된 기본 실행 필드를 재정의할 수 있습니다.
 
@@ -205,12 +182,6 @@ FEEDBACK FROM TYSON WAI - TW: Remove this release, it is not ready for May 19th-
   Availability date: May 19, 2026
   -->
 
-#### 여정
-
-* **외부 대상에 대한 보조 식별자 지원** - 이제 CSV 파일에서 가져온 대상과 Federated Audience Composition으로 만든 대상을 포함하여 외부 대상에 대해 여정의 보조 식별자가 지원됩니다. 대상자의 모든 비ID 속성 또는 비개인 ID 속성을 보조 ID로 지정할 수 있으며, 스키마 레이블 지정은 필요하지 않습니다.
-
-
-  사용 가능한 날짜: 2026년 5월 19일
 
 
 #### 보고
