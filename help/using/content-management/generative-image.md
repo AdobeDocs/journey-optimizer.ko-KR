@@ -8,10 +8,10 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 exl-id: f0585411-c862-45f2-9a10-d8a72497c533
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 4af4762e4f090650ed7033f1352adb7acec0670b
 workflow-type: tm+mt
-source-wordcount: '1504'
-ht-degree: 2%
+source-wordcount: '1511'
+ht-degree: 3%
 
 ---
 
@@ -61,7 +61,7 @@ AI Assistant를 사용하여 효과적인 프롬프트를 작성하고 이미지
 
 1. **[!UICONTROL 이미지 설정]** 옵션을 사용하여 메시지를 사용자 지정합니다.
 
-   * **[!UICONTROL 생성 모델]**: 사용할 준비가 된 **[!UICONTROL Adobe 모델]**, 특수 기능을 위한 **[!UICONTROL 파트너 모델]** 또는 브랜드 자산에 대해 교육된 **[!UICONTROL 사용자 지정 모델]**&#x200B;에서 선택하십시오. [자세히 알아보기](generative-models.md) 생성된 이미지에서 **텍스트 오버레이**&#x200B;와 함께 파트너(**Gemini**) 모델을 사용하려면 [텍스트 오버레이 이미지에 대한 생성 모델로 Gemini 사용](generative-uc.md#generative-gemini)을 참조하십시오.
+   * **[!UICONTROL 생성 모델]**: 사용할 준비가 된 **[!UICONTROL Adobe 모델]**, 특수 기능을 위한 **[!UICONTROL 파트너 모델]** 또는 브랜드 자산에 대해 교육된 **[!UICONTROL 사용자 지정 모델]**&#x200B;에서 선택하십시오. [자세히 알아보기](generative-models.md). 생성된 이미지에서 **텍스트 오버레이**&#x200B;와 함께 파트너(**Gemini**) 모델을 사용하려면 [텍스트 오버레이 이미지에 대한 생성 모델로 Gemini 사용](generative-uc.md#generative-gemini)을 참조하십시오.
    * **[!UICONTROL 종횡비]**: 에셋의 너비와 높이를 결정합니다. 16:9, 4:3, 3:2 또는 1:1과 같은 일반적인 비율 중에서 선택할 수 있는 옵션이 있거나 사용자 지정 크기를 입력할 수 있습니다.
    * **[!UICONTROL 콘텐츠 형식]**: 이 옵션은 시각적 요소의 특성을 분류하여 사진, 그래픽 또는 미술과 같은 시각적 표현의 다른 형식을 구분합니다.
    * **[!UICONTROL 시각적 강도]**: 이미지의 강도를 조정하여 이미지의 영향을 제어할 수 있습니다. 낮은 설정 (2)는 부드럽고 절제된 모양을 만들고, 높은 설정 (10)은 이미지를 더 생동감 있고 시각적으로 강력하게 만듭니다.
@@ -96,15 +96,13 @@ AI Assistant를 사용하여 효과적인 프롬프트를 작성하고 이미지
    * 이 변형과 관련된 이미지를 보려면 **[!UICONTROL 유사한 이미지를 생성]**&#x200B;하십시오.
    * 에셋을 추가로 사용자 지정하려면 **[!UICONTROL Adobe Express에서 편집]**&#x200B;하십시오.
 
-[Adobe Express 통합에 대해 자세히 알아보기](../integrations/express.md)
+     [Adobe Express 통합에 대해 자세히 알아보기](../integrations/express.md)
 
    * 나중에 액세스할 수 있도록 자산을 저장하려면 **[!UICONTROL 저장]**&#x200B;하세요.
 
      ![사용 가능한 작업을 표시하는 옵션 세분화](assets/image-genai-5.png){zoomable="yes"}
 
 1. 적절한 콘텐츠를 찾으면 **[!UICONTROL 선택]**&#x200B;을 클릭합니다.
-
-   콘텐츠에 대한 실험을 활성화할 수도 있습니다. [자세히 알아보기](generative-experimentation.md)
 
 1. 메시지 콘텐츠를 정의한 후 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭하여 렌더링을 제어하고 테스트 프로필로 개인화 설정을 확인합니다. [자세히 알아보기](../personalization/personalize.md)
 
@@ -149,7 +147,7 @@ AI Assistant에 액세스한 후 생성 설정을 조정하여 내 브랜드에 
 
 1. **[!UICONTROL 이미지 설정]** 선택:
 
-   * **[!UICONTROL 생성 모델]**: 사용할 준비가 된 **[!UICONTROL Adobe 모델]**, 특수 기능을 위한 **[!UICONTROL 파트너 모델]** 또는 브랜드 자산에 대해 교육된 **[!UICONTROL 사용자 지정 모델]**&#x200B;에서 선택하십시오. [자세히 알아보기](generative-models.md) 생성된 이미지에서 **텍스트 오버레이**&#x200B;와 함께 파트너(**Gemini**) 모델을 사용하려면 [텍스트 오버레이 이미지에 대한 생성 모델로 Gemini 사용](generative-uc.md#generative-gemini)을 참조하십시오.
+   * **[!UICONTROL 생성 모델]**: 사용할 준비가 된 **[!UICONTROL Adobe 모델]**, 특수 기능을 위한 **[!UICONTROL 파트너 모델]** 또는 브랜드 자산에 대해 교육된 **[!UICONTROL 사용자 지정 모델]**&#x200B;에서 선택하십시오. [자세히 알아보기](generative-models.md). 생성된 이미지에서 **텍스트 오버레이**&#x200B;와 함께 파트너(**Gemini**) 모델을 사용하려면 [텍스트 오버레이 이미지에 대한 생성 모델로 Gemini 사용](generative-uc.md#generative-gemini)을 참조하십시오.
    * **[!UICONTROL 콘텐츠 형식]**: 이 옵션은 시각적 요소의 특성을 분류하여 사진, 그래픽 또는 미술과 같은 시각적 표현의 다른 형식을 구분합니다.
    * **[!UICONTROL 시각적 강도]**: 이미지의 강도를 조정하여 이미지의 영향을 제어할 수 있습니다. 낮은 설정 (2)는 부드럽고 절제된 모양을 만들고, 높은 설정 (10)은 이미지를 더 생동감 있고 시각적으로 강력하게 만듭니다.
    * **[!UICONTROL 색상 및 색조]**: 이미지 내의 전체 색상 모양과 이미지 내의 분위기 또는 분위기를 전달합니다.
@@ -181,7 +179,5 @@ AI Assistant에 액세스한 후 생성 설정을 조정하여 내 브랜드에 
 1. **[!UICONTROL 브랜드 정렬]** 탭을 열어 콘텐츠가 [브랜드 지침](brands.md)에 어떻게 적합한지 확인합니다.
 
 1. 적절한 콘텐츠를 찾으면 **[!UICONTROL 선택]**&#x200B;을 클릭합니다.
-
-   콘텐츠에 대한 실험을 활성화할 수도 있습니다. [자세히 알아보기](generative-experimentation.md)
 
 콘텐츠, 대상자 및 일정을 정의했으면 푸시 캠페인을 준비할 준비가 되었습니다. [자세히 알아보기](../campaigns/review-activate-campaign.md)
