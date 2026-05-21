@@ -29,9 +29,9 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: e232ccfded6b522d99a93d8368cb8085231ccac7
 workflow-type: tm+mt
-source-wordcount: 2699
+source-wordcount: 2746
 ht-degree: 11%
 
 ---
@@ -435,7 +435,11 @@ Yes, follow the best practices below:
 
 +++ 오케스트레이션된 캠페인당 최대 활동 수는 얼마입니까?
 
-오케스트레이션된 캠페인의 활동 수는 500개로 제한됩니다.
+두 개의 개별 제한이 적용됩니다.
+
+* **채널 활동** — 오케스트레이션된 캠페인당 최대 10개의 채널 활동(이메일, SMS, 푸시 또는 DM). 타겟팅 및 흐름 제어 활동은 포함되지 않습니다. 저장 또는 게시 시 이 제한을 초과하면 작업이 실패합니다.
+
+* **캔버스 크기** — 캔버스에서 최대 **500개의 활동**. 유지 관리를 위해 실제로 **100개의 활동** 아래에 워크플로우를 유지하십시오.
 
 **자세히 알아보기**
 

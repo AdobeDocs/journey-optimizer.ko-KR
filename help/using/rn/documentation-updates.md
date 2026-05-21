@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
+source-git-commit: e232ccfded6b522d99a93d8368cb8085231ccac7
 workflow-type: tm+mt
-source-wordcount: '7833'
+source-wordcount: '7851'
 ht-degree: 91%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 91%
 이 페이지에는 월별 릴리스 기능 및 개선 사항과 관련된 업데이트 외에도 [!DNL Journey Optimizer] 설명서의 모든 최신 변경 사항이 나와 있습니다.
 
 ## 2026년 5월 {#may-2026}
+
+* **오케스트레이션된 캠페인 보호 및 제한 사항** 페이지는 이제 오케스트레이션된 캠페인당 **채널 활동** 제한을 문서화합니다. [자세히 보기](../orchestrated/guardrails.md#activities-limitations)
 
 * **주요 용어** 페이지가 변경되었습니다. 6개의 새로운 용어가 추가되고, 새로운 **충돌 및 우선 순위 지정 용어** 섹션이 도입되고, 새로운 **용어가 비슷해 보이는 경우** 명확화 가이드가 혼동되는 4개의 용어 쌍에 추가되었습니다. Adobe Experience Platform 관련 용어가 제거되고 Adobe Experience Platform 용어집에 연결된 메모로 대체되었습니다. [자세히 보기](../start/terminology.md)
 
