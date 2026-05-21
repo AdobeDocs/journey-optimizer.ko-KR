@@ -6,16 +6,13 @@ description: 캠페인 활동을 오케스트레이션하는 방법 알아보기
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/OUKBJeSTaPJKav-NNCCxKZ8esY-62JkdRMmcwoJpZJ0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ede238f1b1acd119cc201639488dd12fbcd518cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: e232ccfded6b522d99a93d8368cb8085231ccac7
 workflow-type: tm+mt
-source-wordcount: 471
-ht-degree: 47%
+source-wordcount: 530
+ht-degree: 43%
 
 ---
 
@@ -31,13 +28,17 @@ ht-degree: 47%
 
 ![캔버스에서 사용 가능한 활동 목록](../assets/orchestrated-activities.png){width="80%" align="left"}
 
-
 >[!NOTE]
 >
->* 라이선스 모델, 권한 및 구현에 따라 사용 가능한 활동이 다를 수 있습니다.
->
->* 오케스트레이션된 캠페인의 활동 수는 500개로 제한됩니다.
+>라이선스 모델, 권한 및 구현에 따라 사용 가능한 활동이 다를 수 있습니다.
 
+## 가드레일 및 제한 사항 {#activity-guardrails}
+
+* **채널 활동 제한** - 오케스트레이션된 캠페인은 게시 시 최대 10개의 채널 활동(전자 메일, SMS, 푸시 또는 DM)을 지원합니다. 타겟팅 및 흐름 제어 활동은 이 제한에 포함되지 않습니다.
+
+* **캔버스 활동 제한** - 캔버스의 활동 수는 500개로 제한됩니다. 유지 관리 및 성능을 위해 워크플로우를 100개 미만으로 유지하십시오.
+
+오케스트레이션된 모든 캠페인 보호 및 제한 사항에 대해서는 [보호 및 제한 사항](../guardrails.md)을 참조하십시오.
 
 ## 타기팅 활동 {#targeting}
 
