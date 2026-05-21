@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 hide: true
-source-git-commit: bd22257dbb42de3c1b180566b38f5cf406bf72bb
+source-git-commit: 6f67786674f995422a5add1600d7f0dbfe915067
 workflow-type: tm+mt
-source-wordcount: '2853'
+source-wordcount: '2835'
 ht-degree: 18%
 
 ---
@@ -217,8 +217,6 @@ ht-degree: 18%
 </table>
 
 ### 캠페인 {#may-26-campaigns}
-
-다음 캠페인 개선 사항은 향후 며칠 또는 몇 주 이내에 제공될 예정입니다. 아래의 [곧 출시](#may-26-campaigns-coming-soon) 섹션을 참조하십시오.
 
 #### 곧 출시 예정 {#may-26-campaigns-coming-soon}
 
