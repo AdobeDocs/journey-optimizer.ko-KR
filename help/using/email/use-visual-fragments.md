@@ -33,9 +33,9 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: e7a784445f135c53fe1de127ea74f03d28029282
 workflow-type: tm+mt
-source-wordcount: 1029
+source-wordcount: 1104
 ht-degree: 1%
 
 ---
@@ -169,3 +169,17 @@ ht-degree: 1%
    ![](assets/fragment-break-inheritance.png)
 
 1. 해당 조각은 원래 조각에 더 이상 연결되지 않는 독립 실행형 요소가 됩니다. 콘텐츠의 다른 콘텐츠 구성 요소로 편집합니다. [자세히 알아보기](content-components.md)
+
+### 잠긴 조각 {#locked-fragments}
+
+작성자가 조각을 잠근 경우 잠금 해제 아이콘이 회색으로 표시되고 상속을 중단하는 데 사용할 수 없습니다.
+
+![](assets/fragment-locked.png)
+
+잠긴 조각은 나타나는 모든 곳에서 동기화된 상태로 유지되므로 브랜드 표준이나 규정 준수 요구 사항을 위반할 수 있는 로컬 편집을 방지할 수 있습니다.
+
+[이 섹션](../content-management/create-fragments.md#lock-visual-fragment)에서 조각을 잠그는 방법에 대해 알아봅니다.
+
+>[!NOTE]
+>
+>조각 작성자는 나중에 조각 설정에서 상속이 끊어지도록 **[!UICONTROL 허용]**(으)로 동작을 다시 설정하여 설정을 변경할 수 있습니다.
