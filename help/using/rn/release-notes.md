@@ -30,7 +30,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 57fc51eea5cf9884d7c741263bda0db6951ac7b9
+source-git-commit: 46e1b1fa15586254383c41dc76a5c67a1b1373fa
 workflow-type: tm+mt
 source-wordcount: 2771
 ht-degree: 23%
@@ -452,7 +452,7 @@ ht-degree: 23%
 
 * **여정 및 캠페인용 폴더** - 이제 인터페이스 탐색 및 관리를 개선하기 위해 여정 및 캠페인을 폴더로 구성할 수 있습니다.
 
-  사용 가능한 날짜: 2026년 5월 21일
+  사용 가능한 날짜: 2026년 6월 2일
 
 #### 여정
 
