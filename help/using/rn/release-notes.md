@@ -8,32 +8,16 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 82bdcd9fdfbe947a45bf6b1f3be19e53b326727b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5f32fb17a6738f2be1e883484276f1fd7ffcd44a
 workflow-type: tm+mt
-source-wordcount: 2560
-ht-degree: 25%
+source-wordcount: 2883
+ht-degree: 22%
 
 ---
 
@@ -335,6 +319,40 @@ ht-degree: 25%
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>여정 경로 최적화 - 타깃팅</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>새로운 <strong>최적화</strong> 노드를 사용하여 특정 대상을 타깃팅하여 비즈니스 중심 KPI를 충족하는 최상의 경로를 결정하십시오.</p>
+<p>이 도구를 사용하면 1:1 수준에서 반향을 일으킬 가능성이 높은 보다 효과적인 마케팅 캠페인을 개발하고, 고객을 위한 마케팅 개인화 노력을 향상시키고, 전환 및 매출과 같은 중요한 고객 참여 KPI를 향상시킬 수 있습니다.</p>
+<p>이전에는 제한된 가용성으로 제공되었지만 이제 모든 환경에서 이 기능을 사용할 수 있습니다(일반 가용성).</p>
+<p>사용 가능한 날짜: 2026년 5월 21일</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>여정 중재 - 등급 수식</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 공식을 사용하여 고객 프로필 속성 및 컨텍스트 요인에 따라 여정 우선 순위 점수를 자동으로 높여 고객이 가장 관련성이 높은 여정을 입력하도록 할 수 있습니다.</p>
+<p>이전에는 제한된 가용성으로 제공되었지만 이제 모든 환경에서 이 기능을 사용할 수 있습니다(일반 가용성).</p>
+<p>사용 가능한 날짜: 2026년 5월 21일</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -406,7 +424,7 @@ ht-degree: 25%
 </table>
 
 
-### 개선 사항  {#coming-soon-improvements}
+### 개선 사항 {#coming-soon-improvements}
 
 #### 내비게이션
 
@@ -447,6 +465,18 @@ ht-degree: 25%
 
   사용 가능한 날짜: 2026년 6월 1일
 
+#### 이메일 디자이너
+
+* **조각에서 상속 나누기 제한** - 이제 조각을 만들거나 편집할 때 전자 메일에서 사용할 때 수정할 수 있는지 여부를 선택할 수 있습니다. 조각을 잠그면 나타나는 모든 곳에서 동기화를 유지하여 브랜드 표준이나 규정 준수 요구 사항을 위반할 수 있는 로컬 편집을 방지할 수 있습니다. 이 설정은 나중에 업데이트하여 향후 사용에 적용할 수 있습니다.
+
+
+  사용 가능한 날짜: 2026년 6월 1일
+
+* **편집 가능한 조각 필드의 서식 있는 텍스트** - 이제 전자 메일 콘텐츠에 사용되는 사용자 지정 가능한 조각에 서식 있는 텍스트를 추가할 수 있습니다. 예를 들어 텍스트 구성 요소를 이메일 Designer에서 편집 가능한 필드로 사용하는 경우 콘텐츠의 형식(예: 굵은 글꼴 및 기울임꼴)을 직접 지정하고 하이퍼링크를 삽입할 수 있습니다.
+
+
+  사용 가능한 날짜: 2026년 6월 1일
+
 #### 구성
 
 * **일괄 처리 수집으로 이동하는 메시지 피드백 이벤트 데이터 집합** - `AJO Message Feedback Event Dataset`이(가) 스트리밍에서 일괄 처리 수집 모드로 전환됩니다. 이 변경 사항은 데이터 수집이 스트리밍 수집 제한을 초과하지 않도록 합니다. Customer Journey Analytics 보고서에서 이 데이터 세트를 사용하거나 이에 대한 쿼리를 실행하는 경우 향후 최대 2시간의 데이터 지연 증가가 예상됩니다.
@@ -461,6 +491,13 @@ ht-degree: 25%
   사용 가능한 날짜: 2026년 6월 1일
 
 * **조각에서 상속 나누기 제한** - 이제 조각을 만들거나 편집할 때 전자 메일에서 사용할 때 수정할 수 있는지 여부를 선택할 수 있습니다. 조각을 잠그면 나타나는 모든 곳에서 동기화를 유지하여 브랜드 표준이나 규정 준수 요구 사항을 위반할 수 있는 로컬 편집을 방지할 수 있습니다. 이 설정은 나중에 업데이트하여 향후 사용에 적용할 수 있습니다.
+
+
+  사용 가능한 날짜: 2026년 6월 1일
+
+#### 보고
+
+* **이메일 및 SMS 보고에 대한 봇 클릭 제외** - 이제 새로운 예상 지표를 사용하여 이메일 및 SMS 보고에서 비사람(봇) 상호 작용을 필터링할 수 있습니다. 여기에는 예상 클릭수, 클릭스루 비율(CTR) 및 클릭스루 비율(CTOR)이 포함되며, 이를 통해 실제 고객 참여를 보다 정확하게 파악할 수 있습니다. 기존 지표는 변경되지 않으며, 이러한 새로운 지표는 개선된 분석을 위해 현재 보고와 함께 사용할 수 있습니다.
 
 
   사용 가능한 날짜: 2026년 6월 1일
