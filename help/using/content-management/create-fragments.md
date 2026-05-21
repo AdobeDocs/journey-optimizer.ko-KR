@@ -9,29 +9,16 @@ role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
 TQID: https://experienceleague.adobe.com/NlC-JLidAL9r-1-8rX4hX-WxCkr-Nv1e6YKSisx1n28
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a653cc2e-bc85-4353-a306-399e5b247978id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c6e980f5-2d4f-494f-beef-186b9ecf1513id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: e7a784445f135c53fe1de127ea74f03d28029282
 workflow-type: tm+mt
-source-wordcount: 832
-ht-degree: 23%
+source-wordcount: 980
+ht-degree: 20%
 
 ---
 
@@ -116,6 +103,30 @@ ht-degree: 23%
 >시각적 조각은 100KB를 초과할 수 없습니다. 표현식 조각은 200KB를 초과할 수 없습니다.
 
 조각이 만들어지고 **[!UICONTROL 초안]** 상태의 조각 목록에 추가됩니다. 이를 미리 보고 게시하여 여정 및 캠페인에서 사용할 수 있도록 할 수 있습니다.
+
+### 시각적 조각 잠금 {#lock-visual-fragment}
+
+시각적 조각을 만들거나 편집하는 경우, 편집자가 이메일에 사용할 때 수정하거나 분리하는 것을 방지하기 위해 이 조각을 잠글 수 있습니다.
+
+이 옵션을 선택하면 사용된 위치에 관계없이 조각의 동기화가 유지되므로 브랜드를 적용하고 일관성을 유지하며 법적 요구 사항을 준수할 수 있습니다.
+
+시각적 조각을 잠그려면 아래 단계를 수행합니다.
+
+1. 조각 콘텐츠 편집 화면에서 **[!UICONTROL 설정]** 탭으로 이동합니다.
+
+1. 기본적으로 조각은 잠금 해제되어 있습니다. 조각을 잠그려면 **[!UICONTROL 상속이 끊어지지 않도록 방지]**&#x200B;를 선택하세요.
+
+1. **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
+
+   >[!NOTE]
+   >
+   >이 설정은 언제든지 업데이트할 수 있습니다. 그러나 변경 사항은 향후 사용에만 적용됩니다. 이 조각을 사용하는 기존 이메일은 수정되지 않습니다.
+
+![](assets/fragment-lock.png){width="70%" align="center"}
+
+이제 이메일에서 이 조각을 사용할 때 이 조각은 잠겨서 원본 조각에서 분리할 수 없습니다. [자세히 알아보기](../email/use-visual-fragments.md#locked-fragments)
+
+원래 잠긴 조각에 대한 새 업데이트는 이를 사용하는 모든 이메일에 자동으로 전파됩니다.
 
 ## 조각 미리보기 및 게시 {#publish}
 

@@ -8,31 +8,15 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 66475544e7d1a8694fd83a8bae93b0cef036d4ec
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 57fc51eea5cf9884d7c741263bda0db6951ac7b9
 workflow-type: tm+mt
-source-wordcount: 2765
+source-wordcount: 2771
 ht-degree: 23%
 
 ---
@@ -213,6 +197,12 @@ ht-degree: 23%
 ### 개선 사항 {#may-26-improv}
 
 2026년 5월에도 다음과 같은 개선 사항이 릴리스되었습니다.
+
+#### 이메일 디자이너
+
+* **조각에서 상속 나누기 제한** - 이제 조각을 만들거나 편집할 때 전자 메일에서 사용할 때 수정할 수 있는지 여부를 선택할 수 있습니다. 조각을 잠그면 나타나는 모든 곳에서 동기화를 유지하여 브랜드 표준이나 규정 준수 요구 사항을 위반할 수 있는 로컬 편집을 방지할 수 있습니다. 이 설정은 나중에 업데이트하여 향후 사용에 적용할 수 있습니다. [자세히 보기](../content-management/create-fragments.md#lock-visual-fragment)
+
+  사용 가능한 날짜: 2026년 5월 21일
 
 #### 오케스트레이션된 캠페인
 
@@ -454,19 +444,17 @@ ht-degree: 23%
 
   사용 가능한 날짜: 2026년 5월 21일
 
-* **관계형 데이터에 대한 루프 기반 개인화** - 이제 개인화 편집기에서 주문, 계정 또는 예약과 같은 관계형 컬렉션을 반복하고 단일 전자 메일 또는 SMS 내에서 레코드당 하나의 콘텐츠 블록을 렌더링하는 루프 블록을 지원합니다. 컬렉션은 표현식 쓰기가 필요하지 않고 개인화 토큰을 사용하여 데이터 선택기를 통해 구성됩니다.
-
-  사용 가능한 날짜: 2026년 6월 1일
-
 * **외부 대상에 대한 보조 식별자 지원** - 이제 CSV 파일에서 가져온 대상과 Federated Audience Composition으로 만든 대상을 포함하여 외부 대상에 대해 여정의 보조 식별자가 지원됩니다. 대상자의 모든 비ID 속성 또는 비개인 ID 속성을 보조 ID로 지정할 수 있으며, 스키마 레이블 지정은 필요하지 않습니다.
 
   사용 가능한 날짜: 2026년 6월 1일
 
+#### 오케스트레이션된 캠페인
+
+* **관계형 데이터에 대한 루프 기반 개인화** - 이제 개인화 편집기에서 주문, 계정 또는 예약과 같은 관계형 컬렉션을 반복하고 단일 전자 메일 또는 SMS 내에서 레코드당 하나의 콘텐츠 블록을 렌더링하는 루프 블록을 지원합니다. 컬렉션은 표현식 쓰기가 필요하지 않고 개인화 토큰을 사용하여 데이터 선택기를 통해 구성됩니다.
+
+  사용 가능한 날짜: 2026년 6월 1일
+
 #### 이메일 디자이너
-
-* **조각에서 상속 나누기 제한** - 이제 조각을 만들거나 편집할 때 전자 메일에서 사용할 때 수정할 수 있는지 여부를 선택할 수 있습니다. 조각을 잠그면 나타나는 모든 곳에서 동기화를 유지하여 브랜드 표준이나 규정 준수 요구 사항을 위반할 수 있는 로컬 편집을 방지할 수 있습니다. 이 설정은 나중에 업데이트하여 향후 사용에 적용할 수 있습니다.
-
-  사용 가능한 날짜: 2026년 5월 21일
 
 * **편집 가능한 조각 필드의 서식 있는 텍스트** - 이제 전자 메일 콘텐츠에 사용되는 사용자 지정 가능한 조각에 서식 있는 텍스트를 추가할 수 있습니다. 예를 들어 텍스트 구성 요소를 이메일 Designer에서 편집 가능한 필드로 사용하는 경우 콘텐츠의 형식(예: 굵은 글꼴 및 기울임꼴)을 직접 지정하고 하이퍼링크를 삽입할 수 있습니다.
 
