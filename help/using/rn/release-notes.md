@@ -30,10 +30,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 47ed60f4f8d9e45fa6e692335610537ec340c807
+source-git-commit: f7524e295032c5ac4bb230a0f4c4965a764ee2c8
 workflow-type: tm+mt
-source-wordcount: 2771
-ht-degree: 23%
+source-wordcount: 2581
+ht-degree: 25%
 
 ---
 
@@ -353,7 +353,7 @@ ht-degree: 23%
 <p>새로운 <strong>최적화</strong> 노드를 사용하여 특정 대상을 타깃팅하여 비즈니스 중심 KPI를 충족하는 최상의 경로를 결정하십시오.</p>
 <p>이 도구를 사용하면 1:1 수준에서 반향을 일으킬 가능성이 높은 보다 효과적인 마케팅 캠페인을 개발하고, 고객을 위한 마케팅 개인화 노력을 향상시키고, 전환 및 매출과 같은 중요한 고객 참여 KPI를 향상시킬 수 있습니다.</p>
 <p>이전에는 제한된 가용성으로 제공되었지만 이제 모든 환경에서 이 기능을 사용할 수 있습니다(일반 가용성).</p>
-<p>사용 가능한 날짜: 2026년 5월 22일</p>
+<p>사용 가능한 날짜: 2026년 6월 1일</p>
 </td>
 </tr>
 </tbody>
@@ -370,7 +370,7 @@ ht-degree: 23%
 <td>
 <p>이제 공식을 사용하여 고객 프로필 속성 및 컨텍스트 요인에 따라 여정 우선 순위 점수를 자동으로 높여 고객이 가장 관련성이 높은 여정을 입력하도록 할 수 있습니다.</p>
 <p>이전에는 제한된 가용성으로 제공되었지만 이제 모든 환경에서 이 기능을 사용할 수 있습니다(일반 가용성).</p>
-<p>사용 가능한 날짜: 2026년 5월 22일</p>
+<p>사용 가능한 날짜: 2026년 6월 1일</p>
 </td>
 </tr>
 </tbody>
@@ -410,41 +410,6 @@ ht-degree: 23%
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>여정 경로 최적화 - 타깃팅</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>새로운 <strong>최적화</strong> 노드를 사용하여 특정 대상을 타깃팅하여 비즈니스 중심 KPI를 충족하는 최상의 경로를 결정하십시오.</p>
-<p>이 도구를 사용하면 1:1 수준에서 반향을 일으킬 가능성이 높은 보다 효과적인 마케팅 캠페인을 개발하고, 고객을 위한 마케팅 개인화 노력을 향상시키고, 전환 및 매출과 같은 중요한 고객 참여 KPI를 향상시킬 수 있습니다.</p>
-<p>이전에는 제한된 가용성으로 제공되었지만 이제 모든 환경에서 이 기능을 사용할 수 있습니다(일반 가용성).</p>
-<p>사용 가능한 날짜: 2026년 5월 22일</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>여정 중재 - 등급 수식</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 공식을 사용하여 고객 프로필 속성 및 컨텍스트 요인에 따라 여정 우선 순위 점수를 자동으로 높여 고객이 가장 관련성이 높은 여정을 입력하도록 할 수 있습니다.</p>
-<p>이전에는 제한된 가용성으로 제공되었지만 이제 모든 환경에서 이 기능을 사용할 수 있습니다(일반 가용성).</p>
-<p>사용 가능한 날짜: 2026년 5월 22일</p>
-</td>
-</tr>
-</tbody>
-</table>
-
 
 ### 개선 사항 {#coming-soon-improvements}
 
@@ -470,11 +435,15 @@ ht-degree: 23%
 
   사용 가능한 날짜: 2026년 6월 1일
 
-#### 이메일 디자이너
+<!--
 
-* **편집 가능한 조각 필드의 서식 있는 텍스트** - 이제 전자 메일 콘텐츠에 사용되는 사용자 지정 가능한 조각에 서식 있는 텍스트를 추가할 수 있습니다. 예를 들어 텍스트 구성 요소를 이메일 Designer에서 편집 가능한 필드로 사용하는 경우 콘텐츠의 형식(예: 굵은 글꼴 및 기울임꼴)을 직접 지정하고 하이퍼링크를 삽입할 수 있습니다.
+#### Email Designer
 
-  사용 가능한 날짜: 2026년 6월 1일
+* **Rich text in editable fragment fields** - You can now add rich text to customizable fragments that are used in your email content. For example, when using the Text component as an editable field in the Email Designer, you can directly format the content (for example, bold and italics) and insert hyperlinks.
+
+  Availability date: June 1, 2026
+  
+-->
 
 #### 캠페인
 
