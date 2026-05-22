@@ -11,9 +11,9 @@ hide: true
 badge: label="비공개 베타" type="Informative"
 mini-toc-levels: 1
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
-source-git-commit: 3ed592e5a9a0671ddd09d648f7407a391cc9684f
+source-git-commit: 9383220dd57f6a3ebfe67d0d1081b8834b524293
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1349'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 1%
 
 * **전역 설정** — 프로그램의 Experience Platform ID 네임스페이스를 선택합니다. [전역 설정을 구성하는 방법을 알아봅니다](#global-settings)
 * **보상 제공자** - 고객이 진행하거나 문제를 완료할 때 보상을 이행하는 API를 연결합니다. [보상 공급자를 구성하는 방법을 알아보세요](#reward-providers)
-* **이벤트 정의** — 들어오는 경험 이벤트를 **[!UICONTROL 사용자 지정 이벤트]** 작업에 사용되는 활동에 매핑합니다. [이벤트 정의를 구성하는 방법을 알아봅니다](#event-definitions)
+* **이벤트 정의** — 들어오는 경험 이벤트를 **[!UICONTROL 사용자 지정 AEP 이벤트]** 작업에 사용되는 활동에 매핑합니다. [이벤트 정의를 구성하는 방법을 알아봅니다](#event-definitions)
 * **제품 인벤토리** - 작업 자격 규칙에 사용할 항목-그룹 매핑을 업로드합니다. [제품 인벤토리를 구성하는 방법을 알아봅니다](#product-inventory)
 * **제외** — 작업 구성에 대한 조직 전체 항목 및 그룹 제외를 업로드합니다. [제외 구성 방법 알아보기](#exclusions)
 
@@ -100,12 +100,16 @@ ht-degree: 1%
 
    +++리워드 프록시
 
-   중간 서버를 통해 라우트 이행 호출을 라우팅하여 엔드포인트로 직접 전송하는 대신
+   중간 서버를 통해 라우트 이행 호출을 라우팅하여 엔드포인트로 직접 전송하는 대신 보상 공급자와 **[!UICONTROL 프록시 만들기]** 화면에서 프록시 인증에 **[!UICONTROL 자격 증명]** 필드를 사용하십시오.
 
    * **[!UICONTROL 이름]** 및 **[!UICONTROL 설명]**&#x200B;을 입력하십시오.
    * **[!UICONTROL 호스트]** 및 **[!UICONTROL 포트]**&#x200B;를 입력하십시오.
    * 프록시가 **[!UICONTROL 사용]**&#x200B;인지 여부를 지정하십시오.
-   * 프록시 **[!UICONTROL 자격 증명]**&#x200B;을(를) 추가합니다.
+   * **[!UICONTROL 자격 증명]**&#x200B;에서 프록시 사용자 이름과 암호를 JSON으로 입력하십시오. 자격 증명 값은 일반적으로 다음과 같습니다.
+
+     ```json
+     { "userName": "test", "password": "xxxx" }
+     ```
 
    ![](assets/admin-reward-proxies.png)
 
@@ -140,7 +144,7 @@ ht-degree: 1%
 
 ## 이벤트 정의 {#event-definitions}
 
-**[!UICONTROL 이벤트 정의]**&#x200B;은(는) 처리할 수신 경험 이벤트를 [!DNL Journey Optimizer]에 알려줍니다. 예를 들어, 구매 또는 호텔 체크인 등이 있습니다. 마케터는 **[!UICONTROL 사용자 지정 이벤트]** 작업에서 이러한 정의를 참조합니다. 정의와 일치하지 않는 이벤트는 무시됩니다.
+**[!UICONTROL 이벤트 정의]**&#x200B;은(는) 처리할 수신 Adobe Experience Platform 경험 이벤트를 [!DNL Journey Optimizer]에 알려줍니다. 예를 들어, 구매 또는 호텔 체크인 등이 있습니다. 마케터는 **[!UICONTROL 사용자 지정 AEP 이벤트]** 작업을 만들 때 이러한 정의를 참조합니다. 정의와 일치하지 않는 이벤트는 무시됩니다.
 
 조직이 자체 JSON 형식으로 이벤트를 보내면 **[!UICONTROL 스키마]** 및 **[!UICONTROL 변환기]**&#x200B;에서 [!DNL Journey Optimizer]이(가) 페이로드의 유효성을 검사하고, 페이로드를 구문 분석하고, 활동을 추적할지 여부를 결정합니다.
 
@@ -150,7 +154,7 @@ ht-degree: 1%
 
    ![](assets/admin-event-definition.png)
 
-1. 이벤트의 **[!UICONTROL 이름]**&#x200B;을(를) 입력하십시오(예: `Coffee purchase`). 마케터는 **[!UICONTROL 사용자 지정 이벤트]** 작업을 구성할 때 이 이름을 확인합니다.
+1. 이벤트의 **[!UICONTROL 이름]**&#x200B;을(를) 입력하십시오(예: `Coffee purchase`). 마케터는 **[!UICONTROL 사용자 지정 AEP 이벤트]** 작업을 구성할 때 이 이름을 확인합니다.
 
 1. [!DNL Journey Optimizer]이(가) 수신 페이로드에서 이벤트를 인식하는 방법을 지정합니다. **[!UICONTROL 식별자 경로]**, **[!UICONTROL XDM 스키마 ID]** 또는 둘 다 제공:
 
@@ -163,7 +167,7 @@ ht-degree: 1%
    * **[!UICONTROL 스키마]** — 들어오는 페이로드의 유효성 검사 문자열입니다.
    * **[!UICONTROL 변환기]** — 페이로드를 충성도 문제가 예상하는 형식에 매핑하는 변환 표현식(예: JSONata).
 
-1. 이벤트 정의를 저장합니다. **[!UICONTROL 이벤트 정의]** 목록에 표시되며 마케터가 문제를 만들 때 사용할 수 있습니다. [문제를 만드는 방법을 알아보세요](create-challenges.md)
+1. 이벤트 정의를 저장합니다. **[!UICONTROL 이벤트 정의]** 목록에 표시되며 마케터가 **[!UICONTROL 사용자 지정 AEP 이벤트]** 작업을 만들 때 사용할 수 있습니다. [작업을 만드는 방법 알아보기](create-tasks.md#choose-activity)
 
 ## 제품 재고 {#product-inventory}
 
