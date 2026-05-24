@@ -8,29 +8,13 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f7524e295032c5ac4bb230a0f4c4965a764ee2c8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 11de3921d586d1a62d6e89be65a35fbd0fba7e53
 workflow-type: tm+mt
 source-wordcount: 2581
 ht-degree: 25%
@@ -87,7 +71,7 @@ ht-degree: 25%
 <p>이제 오케스트레이션된 다른 캠페인의 <strong>종료 활동</strong>에서 오케스트레이션된 캠페인을 직접 트리거하여 오케스트레이션된 캠페인을 함께 연결할 수 있습니다.</p>
 <p>이렇게 하면 복잡한 오케스트레이션 논리를 매번 다시 빌드되지 않고 여러 상위 캠페인에서 호출할 수 있는 더 작고 재사용 가능한 흐름으로 나눌 수 있습니다. 런타임 시 전달된 페이로드는 다운스트림 캠페인의 세분화 및 개인화에 사용할 수 있으므로 연결된 각 캠페인은 받은 컨텍스트를 기반으로 작동할 수 있습니다.</p>
 <p><img src="assets/do-not-localize/oc-trigger.gif"></p>
-<p>자세한 내용은 <a href="../orchestrated/trigger-orchestrated-campaign.md#signal-end">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../orchestrated/trigger-orchestrated-campaign.md#signal-end">세부 설명서</a>를 참조하세요.</p>
 <p>사용 가능한 날짜: 2026년 5월 20일</p>
 </td>
 </tr>
@@ -148,7 +132,7 @@ ht-degree: 25%
 <td>
 <p>이제 이메일 디자이너의 전용 옵션을 통해 이메일 콘텐츠에 딥링크를 추가할 수 있습니다.</p><p>이렇게 하면 사용자가 브라우저나 앱스토어로 리디렉션되지 않고 올바른 인앱 콘텐츠로 바로 이동하도록 하여 컨텍스트와 참여도를 유지할 수 있습니다.</p>
 <p><img src="assets/do-not-localize/deeplinks.gif"></p>
-<p>자세한 내용은 <a href="../email/deeplinks.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../email/deeplinks.md">세부 설명서</a>를 참조하세요.</p>
 <p>사용 가능한 날짜: 2026년 5월 12일</p>
 </td>
 </tr>
@@ -167,7 +151,7 @@ ht-degree: 25%
 <p>이제 여정을 <strong>시뮬레이션</strong>으로 설정할 수 있습니다. 이 모드를 사용하면 <strong>시뮬레이션된 사용자</strong>를 사용하여 논리의 유효성을 검사할 수 있습니다. 시뮬레이션된 사용자는 시뮬레이션을 위해 특별히 생성된 임시 프로필로, Adobe Experience Platform에서 영구 테스트 프로필을 관리할 필요 없이 자유롭게 테스트할 수 있습니다.</p>
 <p>이 기능은 기본 기능에만 제한된 가용성으로 모든 고객에게 제공됩니다.</p>
 <p><img src="assets/do-not-localize/simulate-user.gif"></p>
-<p>자세한 내용은 <a href="../building-journeys/simulate-journey.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../building-journeys/simulate-journey.md">세부 설명서</a>를 참조하세요.</p>
 <p>사용 가능한 날짜: 2026년 5월 5일</p>
 </td>
 </tr>
@@ -185,7 +169,7 @@ ht-degree: 25%
 <td>
 <p>[!DNL Adobe Journey Optimizer] 이제 는 AI를 사용하여 의사 결정 규칙 및 간소화할 수 있는 등급 공식을 감지합니다. 인벤토리에서 AI가 최적화 기회를 식별한 모든 규칙에 빨간색 표시기가 나타납니다. 표시기를 클릭하면 AI가 제안하는 버전과 함께 원래 표현식이 표시됩니다. 여기에서 파일을 다운로드하여 시뮬레이트된 프로필이 각 버전별로 평가되는 방법을 검토하고 동일하게 동작하는지 확인한 다음 표현식을 최적화된 표현식으로 바꿀 수 있습니다.</p>
 <p><img src="assets/do-not-localize/rule-ai.gif"></p>
-<p>자세한 내용은 <a href="../start/ai-features.md#decisioning-optimization">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../start/ai-features.md#decisioning-optimization">세부 설명서</a>를 참조하세요.</p>
 <p>사용 가능한 날짜: 2026년 5월 5일</p>
 </td>
 </tr>
@@ -301,7 +285,7 @@ ht-degree: 25%
 <p>이제 AI Assistant가 여정 고급 표현식 편집기에서 작동하여 자연어 프롬프트를 유효한 표현식과 조건부 논리로 변환합니다. 빌드할 표현식을 설명하고 AI Assistant는 즉시 적용하거나 후속 프롬프트를 통해 구체화할 수 있는 사용 준비 코드를 생성합니다.</p>
 <p>이 기능은 모든 고객이 공용 Beta으로 사용할 수 있습니다.</p>
 <!--<p><img src="assets/do-not-localize/expression-assistant.gif"></p>-->
-<p>사용 가능한 날짜: 2026년 5월 22일</p>
+<p>사용 가능한 날짜: 2026년 6월 2일</p>
 </td>
 </tr>
 </tbody>
@@ -318,7 +302,7 @@ ht-degree: 25%
 <td>
 <p>이제 마지막 활성 프로필이 종료되면 반복되지 않는 <strong>대상자 읽기</strong> 여정이 <strong>중지됨</strong> 상태로 자동 전환됩니다. 이전에는 프로필이 더 이상 전달되지 않는 경우에도 91일 글로벌 시간 제한이 만료될 때까지 이러한 여정이 <strong>Live</strong> 상태로 유지되었습니다. 이 개선 사항을 통해 여정 상태는 완료되는 즉시 실제 실행 상태를 반영하므로 수동 개입 없이 여정 인벤토리를 정확하게 유지할 수 있습니다.</p>
 <p>대기 노드, 반응 노드 또는 여정 트리거된 전환과 같이 대기 기간을 유발하는 노드를 포함하는 이벤트에는 이 동작이 적용되지 않습니다. 이러한 여정은 표준 91일 글로벌 시간 초과의 적용을 받습니다.</p>
-<p>사용 가능한 날짜: 2026년 5월 22일</p>
+<p>사용 가능한 날짜: 2026년 6월 2일</p>
 </tr>
 </tbody>
 </table>
@@ -423,7 +407,7 @@ ht-degree: 25%
 
 * **사용자 지정 작업의 인증서 기반 사용자 지정 인증** - 이제 사용자 지정 작업에서 인증서 기반 사용자 지정 인증을 지원합니다. Journey Optimizer은 사용자 정의 권한 부여 구성에 subType: &quot;certificateCredential&quot;을 추가하여 Adobe의 관리 인증서를 사용하여 JWT 클라이언트 어설션에 서명하고 액세스 토큰으로 교환합니다. 클라이언트 암호는 필요하지 않습니다. Azure Entra ID와 같이 인증서 기반 ID 확인을 적용하는 엔터프라이즈 API용으로 설계되었습니다.
 
-  사용 가능한 날짜: 2026년 5월 22일
+  사용 가능한 날짜: 2026년 6월 2일
 
 * **외부 대상에 대한 보조 식별자 지원** - 이제 CSV 파일에서 가져온 대상과 Federated Audience Composition으로 만든 대상을 포함하여 외부 대상에 대해 여정의 보조 식별자가 지원됩니다. 대상자의 모든 비ID 속성 또는 비개인 ID 속성을 보조 ID로 지정할 수 있으며, 스키마 레이블 지정은 필요하지 않습니다.
 
