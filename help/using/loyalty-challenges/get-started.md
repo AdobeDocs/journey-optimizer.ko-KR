@@ -11,7 +11,7 @@ hide: true
 badge: label="비공개 베타" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: 894dd7f811e87a8551f92654e5b913a459c1382e
+source-git-commit: 0104f7b79145d7defee673fc6c9cd7d86fef3201
 workflow-type: tm+mt
 source-wordcount: '854'
 ht-degree: 14%
@@ -22,7 +22,7 @@ ht-degree: 14%
 
 >[!BEGINSHADEBOX]
 
-**충성도 과제 설명서**
+**목차**
 
 **[충성도 문제 시작](get-started.md)** ◀︎**현재 상태**
 
