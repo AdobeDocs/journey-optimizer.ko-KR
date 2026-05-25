@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: e232ccfded6b522d99a93d8368cb8085231ccac7
+source-git-commit: 04e549fa4e51f22cdf53b5666b43e09f729a97b4
 workflow-type: tm+mt
-source-wordcount: '7851'
-ht-degree: 91%
+source-wordcount: '7894'
+ht-degree: 90%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 91%
 이 페이지에는 월별 릴리스 기능 및 개선 사항과 관련된 업데이트 외에도 [!DNL Journey Optimizer] 설명서의 모든 최신 변경 사항이 나와 있습니다.
 
 ## 2026년 5월 {#may-2026}
+
+* **릴리스 정보** 페이지가 주제 기반 레이아웃으로 재구성되었습니다. 이제 변경 사항이 변경 유형 대신 제품 영역별로 그룹화되어 새로운 전용 **유용성 개선 사항** 섹션이 제공됩니다. 곧 제공될 항목은 각 항목 내에서 확장 가능한 아코디언으로 표시됩니다. [자세히 보기](release-notes.md)
 
 * **오케스트레이션된 캠페인 보호 및 제한 사항** 페이지는 이제 오케스트레이션된 캠페인당 **채널 활동** 제한을 문서화합니다. [자세히 보기](../orchestrated/guardrails.md#activities-limitations)
 
