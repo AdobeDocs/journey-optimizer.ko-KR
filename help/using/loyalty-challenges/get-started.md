@@ -11,10 +11,10 @@ hide: true
 badge: label="비공개 베타" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: e66628ab1d9df497226ab625947aa18a2a3b6f48
+source-git-commit: dfeaa32ed3b216fdf63806356e1e5750db0c80cb
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 15%
+source-wordcount: '854'
+ht-degree: 14%
 
 ---
 
@@ -22,15 +22,26 @@ ht-degree: 15%
 
 >[!BEGINSHADEBOX]
 
-**충성도 과제 설명서:**
+**충성도 과제 설명서**
 
-* **충성도 문제 시작** ◀︎**현재 상태**
+**[충성도 문제 시작](get-started.md)** ◀︎**현재 상태**
+
++++과제 생성 및 관리
+
 * [과제 및 작업 액세스 및 관리](access-loyalty-challenges.md)
 * [과제 만들기](create-challenges.md)
 * [작업 만들기](create-tasks.md)
 * [충성도 과제 성능 모니터링](loyalty-reporting.md)
-<!-- * [Configure the loyalty program](loyalty-admin.md) -->
+
++++
+
++++구성 및 통합
+
+<!-- * [Configure loyalty challenges](loyalty-admin.md) -->
+* [충성도 데이터 및 데이터 세트](loyalty-data-and-datasets.md)
 * [충성도 과제 API 참조](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
+
++++
 
 >[!ENDSHADEBOX]
 
@@ -74,8 +85,6 @@ ht-degree: 15%
 ## 작동 방식 {#how-it-works}
 
 충성도 문제를 만들고 실행하는 것은 다음 워크플로를 따릅니다.
-
-<!-- 1. **Configure the loyalty program** (administrators) - Set up your Adobe Experience Platform namespace, reward providers, and optionally event definitions and product inventory so rewards can be fulfilled when customers complete challenges. [Learn how to configure the loyalty program](loyalty-admin.md). -->
 
 1. **과제 만들기** - 이름, 유형(표준, 연속, 순차적 또는 가능한 경우 고유한 데이터 가져오기), 날짜 범위를 포함한 기본 과제 속성을 정의합니다. [챌린지 유형을 선택하는 방법을 알아보세요](create-challenges.md#create-the-challenge).
 
