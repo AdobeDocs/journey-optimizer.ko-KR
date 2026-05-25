@@ -9,10 +9,10 @@ role: Developer
 level: Beginner
 keywords: 표현식, 편집기, 시작, 개인화
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 6d62604f975fce76860eba000a09870806d54934
+source-git-commit: 124dbfa4f2798aa7839dd9215b96207f43fac3d6
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 25%
+source-wordcount: '681'
+ht-degree: 23%
 
 ---
 
@@ -58,6 +58,18 @@ Personalization은 Adobe Experience Platform에 정의된 **XDM 개인 프로필
 ![](../content-management/assets/ai-perso-generate.png)
 
 ➡️ [Personalization Expressions에서 AI Assistant를 사용하여 작업하는 방법을 알아봅니다](../content-management/generative-personalization-expressions.md)
+
+## 프로필 속성의 인라인 편집 {#inline-personalization}
+
+전체 개인화 편집기를 열지 않고도 **이메일 Designer** 또는 **푸시 채널** 편집기에서 콘텐츠를 편집하는 동안 프로필 특성 식을 직접 삽입할 수 있습니다.
+
+이렇게 하려면 다음 단계를 수행합니다.
+
+1. 텍스트 필드에 `{{`을(를) 입력합니다. 커서 위치에서 인라인 자동 완성 드롭다운이 열립니다.
+1. 사용 가능한 프로필 속성을 필터링하려면 입력을 시작하십시오.
+1. 필요한 속성을 선택합니다. 이 속성은 커서 위치에 개인화 토큰으로 삽입됩니다.
+
+![](assets/inline-profile-attributes.png)
 
 ## 더 자세히 알아보기
 

@@ -27,9 +27,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 74203348941e21c5491877d9553114fe81955f2f
 workflow-type: tm+mt
-source-wordcount: 1692
+source-wordcount: 1760
 ht-degree: 10%
 
 ---
@@ -96,6 +96,8 @@ API 트리거 캠페인 목록에 액세스하려면 **[!UICONTROL API 트리거
 
 또한 목록에서 쉽게 검색할 수 있도록 검색 창과 필터를 사용할 수 있습니다. 예를 들어 지정된 채널 또는 태그와 연결된 캠페인 또는 특정 날짜 범위 동안 만들어진 캠페인만 표시하도록 캠페인을 필터링할 수 있습니다.
 
+대부분의 열 헤더를 클릭하여 목록을 정렬할 수도 있습니다. 폴더 보기에서 **[!UICONTROL 우선 순위]** 및 **[!UICONTROL 채널 구성]** 열별 정렬 및 필터링도 지원됩니다.
+
 ## 캠페인 작업 {#operations}
 
 캠페인 인벤토리의 추가 작업 단추![&#128279;](assets/do-not-localize/rule-builder-icon-more.svg) 단추를 표시하는 이미지를 사용하면 다양한 작업을 수행할 수 있습니다.
@@ -120,6 +122,10 @@ API 트리거 캠페인 목록에 액세스하려면 **[!UICONTROL API 트리거
 **오케스트레이션된 캠페인에만 해당:**
 
 * **[!UICONTROL 초안으로 돌아가기]** - 게시를 취소하고 오류 복구를 위해 캠페인을 초안 상태로 되돌립니다. 이 작업은 예약된 캠페인이 아직 시작되지 않았거나 라이브 캠페인에 실행이 완료되기 전에 오류가 발생하는 경우 사용할 수 있습니다. [캠페인 되돌리기→ 대한 자세한 정보](../orchestrated/start-monitor-campaigns.md#back-to-draft)
+
+### 일괄 액션 {#bulk-actions-campaigns}
+
+여러 캠페인을 한 번에 선택하고 일괄 작업을 모든 캠페인에 적용할 수 있습니다. 사용 가능한 작업에는 패키지에 항목 추가, 폴더로 이동, 태그 편집, 액세스 관리 및 삭제가 포함됩니다. [일괄 작업에 대해 자세히 →](../start/search-filter-categorize.md#bulk-actions)
 
 ## 캠페인 상태 이해 {#statuses}
 

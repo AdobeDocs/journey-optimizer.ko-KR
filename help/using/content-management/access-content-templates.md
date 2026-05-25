@@ -21,16 +21,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 74203348941e21c5491877d9553114fe81955f2f
 workflow-type: tm+mt
-source-wordcount: 833
+source-wordcount: 900
 ht-degree: 3%
 
 ---
 
 # 콘텐츠 템플릿 액세스 및 관리 {#access-manage-templates}
 
-## 전제 조건 {#prerequisites}
+## 사전 요구 사항 {#prerequisites}
 
 콘텐츠 템플릿에 액세스하고 관리하려면 다음을 확인하십시오.
 
@@ -114,6 +114,12 @@ ht-degree: 3%
 >[!NOTE]
 >
 >템플릿을 편집하거나 삭제할 때 이 템플릿을 사용하여 만든 콘텐츠가 포함된 캠페인 또는 여정은 영향을 받지 않습니다.
+
+## 일괄 액션 {#bulk-actions-templates}
+
+여러 템플릿을 한 번에 선택하고 모든 템플릿에 일괄 작업을 적용할 수 있습니다. 사용 가능한 작업에는 패키지에 항목 추가, 폴더로 이동, 태그 편집, 액세스 관리 및 보관이 포함됩니다. [일괄 작업에 대해 자세히 →](../start/search-filter-categorize.md#bulk-actions)
+
+대부분의 열 머리글을 클릭하여 템플릿 목록을 정렬하고 열 테두리를 필요한 데이터에 맞게 드래그하여 열 크기를 조정할 수도 있습니다.
 
 ## [!BADGE 제한된 가용성]{type=Informative} 템플릿을 썸네일로 표시 {#template-thumbnails}
 

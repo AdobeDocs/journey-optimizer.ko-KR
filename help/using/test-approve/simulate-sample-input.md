@@ -26,7 +26,7 @@ level_v2:
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: a5b3c77265409031736232f33e0c750403a04bb5
 workflow-type: tm+mt
 source-wordcount: 992
 ht-degree: 4%
@@ -136,6 +136,14 @@ ht-degree: 4%
 변형이 추가되면 오른쪽 창에서 콘텐츠를 미리 보고 이메일 증명을 보낼 수 있습니다.
 
 ### 콘텐츠 변형 미리 보기 {#preview}
+
+<!--
+The preview screen uses a **side-by-side layout** that displays multiple profiles simultaneously, so you can compare how your content renders for different recipients at a glance without switching between variants.
+
+![](assets/simulation-preview-redesign.png)
+
+To preview your content, select a variant from the list — the preview pane updates to show the content rendered with that variant's values. Select multiple variants to display them side by side for quick comparison.
+-->
 
 변형을 사용하여 콘텐츠를 미리 보려면 목록에서 관련 변형을 선택하여 미리 보기 창의 콘텐츠를 이 변형에 대해 입력한 정보로 업데이트합니다.
 
