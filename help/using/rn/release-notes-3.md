@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 hide: true
-source-git-commit: 53a6074756eac6b8009ebf3948a21c67862ee3c9
+source-git-commit: e6a0079c3bdc9760bd149bb487520214f0a4e877
 workflow-type: tm+mt
-source-wordcount: '2734'
-ht-degree: 20%
+source-wordcount: '2957'
+ht-degree: 18%
 
 ---
 
@@ -427,6 +427,28 @@ ht-degree: 20%
 </table>
 
 * **Assets 선택기에서 조직 간 저장소 액세스** - 이제 Adobe Experience Manager 자산 선택기 내에서 바로 여러 조직의 저장소에서 자산을 원활하게 선택할 수 있습니다.
+
+### 유용성 {#may-26-usability}
+
+이 릴리스에는 다음과 같은 유용성 개선 사항이 추가되었습니다.
+
+#### 목록
+
+* **일괄 작업** - 이제 **캠페인**, **조각** 및 **템플릿** 목록에서 한 번에 여러 항목을 선택하고, 패키지에 항목 추가, 폴더로 이동, 태그 편집, 액세스 관리 및 보관 또는 삭제를 포함하여 단일 작업 표시줄에서 일괄 작업을 수행할 수 있습니다. [자세히 알아보기](../start/search-filter-categorize.md#bulk-actions)
+
+  ![](../start/assets/bulk-actions-campaigns.png)
+
+* **정렬 및 열 크기 조정** - **캠페인**, **조각** 및 **템플릿** 목록은 이제 열 머리글을 클릭하여 정렬을 지원합니다. 캠페인 폴더 보기에서 **[!UICONTROL 우선 순위]** 및 **[!UICONTROL 채널 구성]**&#x200B;을 기준으로 정렬 및 필터링할 수도 있습니다. **조각** 및 **템플릿** 목록의 열 너비도 크기 조정할 수 있습니다. 가장 중요한 데이터에 맞게 열 테두리를 끌어서 놓으십시오. [자세히 알아보기](../start/search-filter-categorize.md#filter-lists)
+
+#### 컨텐츠 작성
+
+* **인라인 프로필 특성 편집** - 이제 전체 개인화 편집기를 열지 않고도 프로필 특성 식을 이메일 Designer에 직접 삽입할 수 있습니다. 텍스트 필드에 `{{`을(를) 입력하여 인라인 자동 완성 드롭다운을 연 다음 필요한 속성을 찾아 선택합니다. 이 속성은 즉시 커서 위치에 삽입됩니다. 이 기능은 푸시 채널 편집기에서도 사용할 수 있습니다. [자세히 알아보기](../personalization/personalize.md#inline-personalization)
+
+  ![](../personalization/assets/inline-profile-attributes.png)
+
+* **푸시 채널 편집기의 링크 URL 툴팁** - 링크 또는 미디어 필드의 URL이 너무 길어 표시할 수 없는 경우 필드 옆에 툴팁 아이콘이 항상 표시됩니다. 마우스를 필드 위로 가져가면 전체 URL이 표시됩니다. [자세히 알아보기](../push/design-push.md#on-click-behavior)
+
+  ![](../rn/assets/do-not-localize/push-link-tooltip.png)
 
 ### 관리 {#may-26-admin}
 
