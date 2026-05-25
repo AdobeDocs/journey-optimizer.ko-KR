@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 테스트, 여정, 확인, 오류, 문제 해결
 version: Journey Orchestration
 badge: label="제한 공개" type="Informative"
-source-git-commit: 8600c70ad6cd8db0322c17b3f255530a39bf56ed
+source-git-commit: b8e3b2cbda83edece62a32555068f8519271a3eb
 workflow-type: tm+mt
-source-wordcount: '1900'
-ht-degree: 1%
+source-wordcount: '1912'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
-> 이 기능은 필수 기능을 갖춘 제한된 가용성으로 모든 고객이 사용할 수 있습니다.
+> 이 기능은 기본 기능에만 제한된 가용성으로 모든 고객에게 제공됩니다.
 
 **초안**, **테스트 모드** 및 **라이브** 외에 **[!UICONTROL 시뮬레이션]**(으)로 여정을 설정할 수 있습니다. 시뮬레이션에서 **시뮬레이션된 사용자**: Adobe Experience Platform에서 영구 테스트 프로필을 사용하지 않고 추가하는 임시 프로필과 유사한 엔터티로 테스트합니다.
 
@@ -39,7 +39,7 @@ Adobe Journey Optimizer은 여정을 테스트하고 확인하는 두 가지 방
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 시뮬레이션]** 기능에 액세스하려면 **여정 시뮬레이션** 권한이 필요합니다. [자세히 알아보기](../administration/permissions.md)
+>**[!UICONTROL 시뮬레이션]** 기능에 액세스하려면 **여정 시뮬레이션**, **여정 게시** 또는 **여정 승인 및 게시** 중 하나 이상의 권한이 필요합니다. [자세히 알아보기](../administration/permissions.md)
 
 시뮬레이션된 사용자는 **[!UICONTROL 시뮬레이션 설정]**&#x200B;에서 정의한 임시 프로필과 같은 엔터티입니다. 이 섹션에서는 UI 또는 JSON 파일에서 이러한 구성 요소를 만들고, 재사용을 위해 저장하고, 목록에서 조정 또는 제거하고, 여정으로 전송하는 방법에 대해 설명합니다.
 
