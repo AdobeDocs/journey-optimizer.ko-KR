@@ -11,7 +11,7 @@ hide: true
 badge: label="비공개 베타" type="Informative"
 mini-toc-levels: 1
 exl-id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
-source-git-commit: 894dd7f811e87a8551f92654e5b913a459c1382e
+source-git-commit: 0104f7b79145d7defee673fc6c9cd7d86fef3201
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 2%
@@ -22,18 +22,16 @@ ht-degree: 2%
 
 >[!BEGINSHADEBOX]
 
-**충성도 과제 설명서**
+**목차**
 
 [충성도 문제 시작](get-started.md)
 
-+++과제 생성 및 관리
+**문제 만들기 및 관리**
 
 * [과제 및 작업 액세스 및 관리](access-loyalty-challenges.md)
 * [과제 만들기](create-challenges.md)
 * [작업 만들기](create-tasks.md)
 * **충성도 챌린지 성능 모니터링** ◀︎**현재 상태**
-
-+++
 
 +++구성 및 통합
 

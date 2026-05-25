@@ -11,7 +11,7 @@ hide: true
 badge: label="비공개 베타" type="Informative"
 mini-toc-levels: 1
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
-source-git-commit: 894dd7f811e87a8551f92654e5b913a459c1382e
+source-git-commit: 0104f7b79145d7defee673fc6c9cd7d86fef3201
 workflow-type: tm+mt
 source-wordcount: '1636'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 >[!BEGINSHADEBOX]
 
-**충성도 과제 설명서**
+**목차**
 
 [충성도 문제 시작](get-started.md)
 
@@ -37,13 +37,11 @@ ht-degree: 1%
 
 +++
 
-+++구성 및 통합
+**구성 및 통합**
 
 * **충성도 문제 구성** ◀︎**현재 상태**
 * [충성도 데이터 및 데이터 세트](loyalty-data-and-datasets.md)
 * [충성도 과제 API 참조](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
-
-+++
 
 >[!ENDSHADEBOX]
 
