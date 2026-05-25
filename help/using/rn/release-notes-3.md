@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 hide: true
-source-git-commit: 11de3921d586d1a62d6e89be65a35fbd0fba7e53
+source-git-commit: 53a6074756eac6b8009ebf3948a21c67862ee3c9
 workflow-type: tm+mt
-source-wordcount: '2770'
-ht-degree: 19%
+source-wordcount: '2734'
+ht-degree: 20%
 
 ---
 
@@ -222,8 +222,6 @@ ht-degree: 19%
 
 ### 캠페인 {#may-26-campaigns}
 
-향후 며칠 또는 몇 주 이내에 다음 캠페인 개선이 예상됩니다.
-
 +++ 곧 출시 예정 — **아래 정보는 변경될 수 있습니다.**
 
 * **캠페인 라이프사이클 이벤트에 대한 고객 알림** - 이제 새로운 시스템 알림이 작업 및 API 트리거 캠페인에 대한 주요 라이프사이클 이벤트를 알려줍니다. 샌드박스 수준에서 가입합니다.
@@ -432,8 +430,6 @@ ht-degree: 19%
 
 ### 관리 {#may-26-admin}
 
-향후 며칠 또는 몇 주 이내에 다음과 같은 관리 개선이 예상됩니다.
-
 +++ 곧 출시 예정 — **아래 정보는 변경될 수 있습니다.**
 
 * **여정 및 캠페인용 폴더** - 이제 인터페이스 탐색 및 관리를 개선하기 위해 여정 및 캠페인을 폴더로 구성할 수 있습니다.
@@ -447,8 +443,6 @@ ht-degree: 19%
 +++
 
 ### 보고 {#may-26-reporting}
-
-향후 며칠 또는 몇 주 이내에 다음의 보고 개선이 예상됩니다.
 
 +++ 곧 출시 예정 — **아래 정보는 변경될 수 있습니다.**
 
