@@ -8,32 +8,16 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 11de3921d586d1a62d6e89be65a35fbd0fba7e53
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 48b80ac49ca434330ce929e6db7b778412f4759c
 workflow-type: tm+mt
-source-wordcount: 2581
-ht-degree: 25%
+source-wordcount: 2805
+ht-degree: 23%
 
 ---
 
@@ -282,6 +266,35 @@ ht-degree: 25%
 
   +++
 
+### 유용성 개선 {#may-26-usability}
+
+다음과 같은 사용성 개선 사항이 2026년 5월에 함께 릴리스되었습니다.
+
+#### 목록
+
+* **일괄 작업** - 이제 **캠페인**, **조각** 및 **템플릿** 목록에서 한 번에 여러 항목을 선택하고, 패키지에 항목 추가, 폴더로 이동, 태그 편집, 액세스 관리 및 보관 또는 삭제를 포함하여 단일 작업 표시줄에서 일괄 작업을 수행할 수 있습니다. [자세히 알아보기](../start/search-filter-categorize.md#bulk-actions)
+
+  ![](../start/assets/bulk-actions-campaigns.png)
+
+* **정렬 및 열 크기 조정** - **캠페인**, **조각** 및 **템플릿** 목록은 이제 열 머리글을 클릭하여 정렬을 지원합니다. 캠페인 폴더 보기에서 **[!UICONTROL 우선 순위]** 및 **[!UICONTROL 채널 구성]**&#x200B;을 기준으로 정렬 및 필터링할 수도 있습니다. **조각** 및 **템플릿** 목록의 열 너비도 크기 조정할 수 있습니다. 가장 중요한 데이터에 맞게 열 테두리를 끌어서 놓으십시오. [자세히 알아보기](../start/search-filter-categorize.md#filter-lists)
+
+#### 컨텐츠 작성
+
+* **인라인 프로필 특성 편집** - 이제 전체 개인화 편집기를 열지 않고도 프로필 특성 식을 이메일 Designer에 직접 삽입할 수 있습니다. 텍스트 필드에 `{{`을(를) 입력하여 인라인 자동 완성 드롭다운을 연 다음 필요한 속성을 찾아 선택합니다. 이 속성은 즉시 커서 위치에 삽입됩니다. 이 기능은 푸시 채널 편집기에서도 사용할 수 있습니다. [자세히 알아보기](../personalization/personalize.md#inline-personalization)
+
+  ![](../personalization/assets/inline-profile-attributes.png)
+
+* **푸시 채널 편집기의 링크 URL 툴팁** - 링크 또는 미디어 필드의 URL이 너무 길어 표시할 수 없는 경우 필드 옆에 툴팁 아이콘이 항상 표시됩니다. 마우스를 필드 위로 가져가면 전체 URL이 표시됩니다. [자세히 알아보기](../push/design-push.md#on-click-behavior)
+
+  ![](../rn/assets/do-not-localize/push-link-tooltip.png)
+
+<!--
+#### Simulation & Preview
+
+* **Redesigned preview experience** - The content preview screen has been redesigned with a side-by-side layout that lets you compare how your content renders across multiple profiles at a glance, enabling quicker and more confident reviews before sending. [Learn more](../test-approve/simulate-sample-input.md#preview)
+
+  ![](../test-approve/assets/simulation-preview-redesign.png)
+-->
 
 ## 곧 출시 예정 {#coming-soon}
 
