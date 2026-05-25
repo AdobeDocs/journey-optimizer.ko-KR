@@ -11,7 +11,7 @@ hide: true
 badge: label="비공개 베타" type="Informative"
 mini-toc-levels: 1
 exl-id: a7c4e1b2-8f3d-4a6c-9e0b-1d2e3f4a5b6c
-source-git-commit: 0104f7b79145d7defee673fc6c9cd7d86fef3201
+source-git-commit: 0769c486386ce27079244a3ff36cdd2fedf27214
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 5%
@@ -26,20 +26,29 @@ ht-degree: 5%
 
 [충성도 문제 시작](get-started.md)
 
-+++과제 생성 및 관리
+<table style="table-layout:fixed">
+<tr style="border: 0;">
+<td style="vertical-align:top;">
+
+**문제 만들기 및 관리**
 
 * [과제 및 작업 액세스 및 관리](access-loyalty-challenges.md)
 * [과제 만들기](create-challenges.md)
 * [작업 만들기](create-tasks.md)
 * [충성도 과제 성능 모니터링](loyalty-reporting.md)
 
-+++
+</td>
+<td style="vertical-align:top;">
 
 **구성 및 통합**
 
 <!-- * [Configure loyalty challenges](loyalty-admin.md) -->
 * **충성도 데이터 및 데이터 세트** ◀︎ **현재 상태**
 * [충성도 과제 API 참조](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
+
+</td>
+</tr>
+</table>
 
 >[!ENDSHADEBOX]
 
@@ -59,9 +68,9 @@ Journey Optimizer 프로그램 설정(보상 이행 및 이벤트 매핑)에 대
 
 Challenge 대상자, 개인화 및 보고는 **[!DNL XDM Individual Profile]** 클래스의 프로필을 사용합니다. 충성도 문제에 사용하는 ID [namespace](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/namespaces){target="_blank"}을(를) 프로필 데이터에서 구성원이 식별되는 방식과 맞춥니다.
 
-프로필의 표준 충성도 특성(포인트, 계층, 프로그램, 상태 및 관련 필드)에 대해서는 Experience Platform **[충성도 세부 정보](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}** 스키마 필드 그룹을 사용하십시오. 해당 필드 그룹은 `loyalty` 개체와 해당 속성을 정의합니다(예: `points`, `tier`, `program` 및 `status`).
+프로필의 표준 충성도 특성(포인트, 계층, 프로그램, 상태 및 관련 필드)에 대해서는 Experience Platform **[충성도 세부 정보](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}** 스키마 필드 그룹을 사용하십시오. 해당 필드 그룹은 `loyalty` 개체와 해당 속성을 정의합니다(예: `points`, `tier`, `program` 및 `status`).
 
-➡️ [충성도 세부 정보 스키마 필드 그룹](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
+➡️ [충성도 세부 정보 스키마 필드 그룹](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
 
 ### 경험 이벤트 {#experience-events}
 
