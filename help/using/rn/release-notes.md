@@ -8,32 +8,16 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 48b80ac49ca434330ce929e6db7b778412f4759c
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 60ff16ebd1889e1f53ef47f56f33f3ff4f0b0000
 workflow-type: tm+mt
-source-wordcount: 2805
-ht-degree: 23%
+source-wordcount: 2807
+ht-degree: 22%
 
 ---
 
@@ -105,7 +89,7 @@ ht-degree: 23%
 <td>
 <p>이제 Journey Optimizer에서는 Experience Manager Assets 및 콘텐츠 조각을 모두 선택하는 데 통합 모달인 <strong>콘텐츠 관리자 선택기</strong>를 사용합니다. 새 선택기에는 다음이 포함됩니다.</p>
 <ul>
-<li>모든 에셋 및 조각에서 <strong>검색, 검색 및 필터링</strong>.</li>
+<li><strong>모든 에셋 및 조각에서 </strong>을(를) 탐색, 검색 및 필터링합니다.</li>
 <li><strong>AI 의미 체계 검색</strong>: 텍스트만 일치하는 것이 아니라 의미와 콘텐츠를 기반으로 컨텍스트에 맞는 에셋을 표시하기 위해 필요한 것을 일반 언어로 설명합니다(예: "산에 있는 커피"). 다국어 쿼리도 지원됩니다.</li>
 <li><strong>간단한 업로드</strong>: 마케팅 개요를 업로드하여 콘텐츠 및 요구 사항에 따라 캠페인 컨텍스트에 맞는 에셋을 자동으로 표시합니다.</li>
 <li><strong>Dynamic Media 렌디션</strong>: 선택기에서 나가지 않고 dynamic assets에 대한 이미지 렌디션을 선택하여 적용합니다.</li>
@@ -126,7 +110,7 @@ ht-degree: 23%
 <tbody>
 <tr>
 <td>
-<p>이제 Adobe Journey Optimizer에서 <strong>여정 조각</strong>을 만들 수 있습니다. 여정 조각 은 한 번 빌드하고 샌드박스 전체의 여정에 드롭할 수 있는 재사용 가능한 여정 노드 세트입니다. 자격 확인, 기본 채널 라우팅 논리 또는 환영 시퀀스 중 어느 것이든 조각은 팀이 더 빨리 이동하고 일관성을 유지하는 데 도움이 됩니다. 매번 처음부터 동일한 논리를 다시 작성하지 않아도 됩니다.</p>
+<p>이제 Adobe Journey Optimizer에서 <strong>여정 조각</strong>을 만들 수 있습니다. 여정 조각 은 한 번 빌드하고 샌드박스 전체의 여정에 드롭할 수 있는 재사용 가능한 여정 노드 세트입니다. 자격 확인, 선호 채널 라우팅 논리 또는 환영 시퀀스 중 어느 것이든 조각은 팀이 매번 처음부터 동일한 논리를 다시 작성하지 않고도 더 빠르게 이동하고 일관성을 유지하는 데 도움이 됩니다.</p>
 <p>조각이 만들어지면 전용 <strong>조각 인벤토리</strong>에 저장되고 <strong>여정 조각</strong> 활동을 사용하여 모든 여정에 삽입할 수 있습니다.</p>
 <!--<p><img src="assets/do-not-localize/journey-fragments.gif"></p>-->
 <p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
@@ -140,13 +124,14 @@ ht-degree: 23%
 <table>
 <thead>
 <tr>
-<th><strong>이메일 디자이너의 딥링크</strong><br/></th>
+<th><strong>이메일 Designer의 딥링크</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 이메일 디자이너의 전용 옵션을 통해 이메일 콘텐츠에 딥링크를 추가할 수 있습니다.</p><p>이렇게 하면 사용자가 브라우저나 앱스토어로 리디렉션되지 않고 올바른 인앱 콘텐츠로 바로 이동하도록 하여 컨텍스트와 참여도를 유지할 수 있습니다.</p>
+<p>이제 이메일 Designer의 전용 옵션을 통해 이메일 콘텐츠에 딥 링크를 추가할 수 있습니다.</p>
+<p>이렇게 하면 사용자가 브라우저나 앱스토어로 리디렉션되지 않고 올바른 인앱 콘텐츠로 바로 이동하도록 하여 컨텍스트와 참여도를 유지할 수 있습니다.</p>
 <p><img src="assets/do-not-localize/deeplinks.gif"></p>
 <p>자세한 내용은 <a href="../email/deeplinks.md">세부 설명서</a>를 참조하세요.</p>
 <p>사용 가능한 날짜: 2026년 5월 12일</p>
