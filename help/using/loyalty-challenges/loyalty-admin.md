@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 충성도 프로그램 구성
-description: Adobe [!DNL Journey Optimizer]에서 충성도 프로그램에 대한 보상 공급자, 이벤트 정의, 제품 인벤토리, 제외 및 조직 수준 설정을 구성하는 방법에 대해 알아봅니다.
+title: 충성도 문제 구성
+description: Adobe [!DNL Journey Optimizer]에서 충성도 문제에 대한 보상 공급자, 이벤트 정의, 제품 인벤토리, 제외 및 조직 수준 설정을 구성하는 방법에 대해 알아봅니다.
 feature: Journeys
 topic: Content Management
 role: Admin
@@ -11,26 +11,39 @@ hide: true
 badge: label="비공개 베타" type="Informative"
 mini-toc-levels: 1
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
-source-git-commit: 863c3405e5509938cb6b9180c16d5c89fb439814
+source-git-commit: dfeaa32ed3b216fdf63806356e1e5750db0c80cb
 workflow-type: tm+mt
-source-wordcount: '1631'
+source-wordcount: '1636'
 ht-degree: 1%
 
 ---
 
-# 충성도 프로그램 구성 {#loyalty-admin}
+# 충성도 문제 구성 {#loyalty-admin}
+
+<!-- Unpublished draft: Loyalty Admin UI documentation is not validated for Experience League. This page uses hide: true until review. -->
 
 >[!BEGINSHADEBOX]
 
-**충성도 과제 설명서:**
+**충성도 과제 설명서**
 
-* [충성도 문제 시작](get-started.md)
+[충성도 문제 시작](get-started.md)
+
++++과제 생성 및 관리
+
 * [과제 및 작업 액세스 및 관리](access-loyalty-challenges.md)
 * [과제 만들기](create-challenges.md)
 * [작업 만들기](create-tasks.md)
 * [충성도 과제 성능 모니터링](loyalty-reporting.md)
-* **충성도 프로그램 구성** ◀︎**현재 상태**
+
++++
+
++++구성 및 통합
+
+* **충성도 문제 구성** ◀︎**현재 상태**
+* [충성도 데이터 및 데이터 세트](loyalty-data-and-datasets.md)
 * [충성도 과제 API 참조](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
+
++++
 
 >[!ENDSHADEBOX]
 
@@ -40,11 +53,11 @@ ht-degree: 1%
 
 ## 개요 {#access-loyalty-admin}
 
-충성도 프로그램 구성은 마케터가 도전하기 전에 보상 이행, 이벤트 매핑, 제품 인벤토리 및 제외를 설정하여 [!DNL Journey Optimizer]을(를) 외부 충성도 시스템에 연결합니다.
+충성도 과제 구성은 마케터가 도전하기 전에 보상 이행, 이벤트 매핑, 제품 인벤토리 및 제외를 설정하여 [!DNL Journey Optimizer]을(를) 외부 충성도 시스템에 연결합니다.
 
 >[!NOTE]
 >
->충성도 프로그램을 구성하려면 충성도 문제에 필요한 권한과 함께 [!DNL Journey Optimizer] 인스턴스에 대한 관리자 액세스 권한이 필요합니다. 액세스 권한을 얻으려면 Adobe 관리자에게 문의하십시오.
+>충성도 문제를 구성하려면 충성도 문제에 필요한 권한과 함께 [!DNL Journey Optimizer] 인스턴스에 대한 관리자 액세스 권한이 필요합니다. 액세스 권한을 얻으려면 Adobe 관리자에게 문의하십시오.
 
 구성 인터페이스를 열려면 **[!UICONTROL 충성도]**(으)로 이동하고 **[!UICONTROL 충성도 관리자]**&#x200B;를 선택합니다. 인터페이스는 탭으로 구성됩니다.
 
@@ -59,9 +72,9 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_global_settings"
 >title="전역 설정"
->abstract="전역 설정은 이벤트 및 과제 전반에서 구성원을 식별하는 데 사용되는 ID 네임스페이스를 포함하여 고객 충성도 프로그램에 대한 조직 수준 구성을 정의합니다."
+>abstract="전역 설정에서는 이벤트 및 과제 전반에서 구성원을 식별하는 데 사용되는 ID 네임스페이스를 포함하여 충성도 과제에 대한 조직 수준의 구성을 정의합니다."
 
-**[!UICONTROL 전역 설정]** 탭을 열고 **[!UICONTROL 네임스페이스]** 드롭다운에서 충성도 프로그램에 대한 Adobe Experience Platform [ID 네임스페이스](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/namespaces)을(를) 선택합니다. 이 네임스페이스는 멤버 프로필이 데이터에서 식별되는 방식과 일치해야 합니다.
+**[!UICONTROL 전역 설정]** 탭을 열고 **[!UICONTROL 네임스페이스]** 드롭다운에서 충성도 문제를 해결하기 위한 Adobe Experience Platform [ID 네임스페이스](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/namespaces)을(를) 선택합니다. 이 네임스페이스는 멤버 프로필이 데이터에서 식별되는 방식과 일치해야 합니다.
 
 ![](assets/admin-global-settings.png)
 
@@ -229,7 +242,7 @@ ht-degree: 1%
 
    ![](assets/admin-inventory-upload.png)
 
-1. 인벤토리 목록에서 가져온 데이터를 검토합니다. 목록에는 항목당 하나의 행이 표시됩니다. **열에 포함된**&#x200B;그룹 열은 해당 항목에 대한 모든 제품 그룹을 알약 또는 여러 그룹에 속하는 경우 여러 알약으로 표시합니다.
+1. 인벤토리 목록에서 가져온 데이터를 검토합니다. 목록에는 항목당 하나의 행이 표시됩니다. ]**열에 포함된**[!UICONTROL &#x200B;그룹 열은 해당 항목에 대한 모든 제품 그룹을 알약 또는 여러 그룹에 속하는 경우 여러 알약으로 표시합니다.
 
    ![](assets/admin-inventory-imported.png)
 
@@ -266,7 +279,7 @@ ht-degree: 1%
 
    ![](assets/admin-exclusions-upload.png)
 
-1. 제외 목록에서 가져온 데이터를 검토합니다. 목록에는 항목당 하나의 행이 표시됩니다. **열에 포함된**&#x200B;그룹 열은 해당 항목에 대한 모든 제외 그룹을 알약 또는 여러 그룹에 속하는 경우 여러 알약으로 표시합니다.
+1. 제외 목록에서 가져온 데이터를 검토합니다. 목록에는 항목당 하나의 행이 표시됩니다. ]**열에 포함된**[!UICONTROL &#x200B;그룹 열은 해당 항목에 대한 모든 제외 그룹을 알약 또는 여러 그룹에 속하는 경우 여러 알약으로 표시합니다.
 
 <!-- SCREENSHOT: Exclusions list after CSV upload -->
 
