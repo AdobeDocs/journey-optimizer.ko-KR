@@ -29,9 +29,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0b129e622e0172233b9513c580627530573ed8ee
+source-git-commit: 8fa02f51c6b9bb9c98b7f20264c677d065ef0b75
 workflow-type: tm+mt
-source-wordcount: 2958
+source-wordcount: 2937
 ht-degree: 18%
 
 ---
@@ -462,7 +462,7 @@ ht-degree: 18%
 
 #### 컨텐츠 작성
 
-* **인라인 프로필 특성 편집** - 이제 전체 개인화 편집기를 열지 않고도 프로필 특성 식을 이메일 Designer에 직접 삽입할 수 있습니다. 텍스트 필드에 `{{`을(를) 입력하여 인라인 자동 완성 드롭다운을 연 다음 필요한 속성을 찾아 선택합니다. 이 속성은 즉시 커서 위치에 삽입됩니다. 이 기능은 푸시 채널 편집기에서도 사용할 수 있습니다. [자세히 알아보기](../personalization/personalize.md#inline-personalization)
+* **인라인 프로필 특성 편집** - 이메일 Designer의 인라인 프로필 특성 편집은 4월에 처음 릴리스되었습니다. 5월 릴리스의 일부로 이 기능은 AI Assistant에서 분리되고 푸시 채널 편집기로 확장되었습니다. [자세히 알아보기](../personalization/personalize.md#inline-personalization)
 
   ![](../personalization/assets/inline-profile-attributes.png)
 
