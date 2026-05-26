@@ -8,9 +8,9 @@ topic: Content Management
 role: User, Developer
 level: Intermediate
 keywords: 딥링크, 딥링크, 범용 링크, 앱 링크, 이메일, sms
-source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
+source-git-commit: a3b48494fe64842121c5c3711cdd7117b30747a4
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1327'
 ht-degree: 1%
 
 ---
@@ -31,6 +31,10 @@ ht-degree: 1%
 >[!DNL Adobe Journey Optimizer]은(는) 추적된 URL(`/ee/v1/mclick/*`)을 사용하여 iOS 및 Android 모두에 대한 딥링크를 지원하여 호환성과 클릭 추적을 보장합니다.
 
 ## 딥링크 작성 {#authoring}
+
+>[!CAUTION]
+>
+>이 페이지에서 [구성](#configuration) 및 [모바일 앱 구현](#mobile-implementation) 단계를 완료하지 않으면 딥링크가 작동하지 않습니다.
 
 ### 이메일 {#authoring-email}
 
@@ -70,7 +74,7 @@ SMS 콘텐츠에 딥링크를 삽입하려면 다음 구문을 사용합니다.
 
 1. 하위 도메인에서 iOS용 AASA 파일 및 Android용 assetLinks.json 파일을 호스팅합니다. 자세한 내용은 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} 또는 Adobe 담당자에게 문의하십시오.
 
-   * AASA(iOS)의 **1&rbrace;:**
+   * AASA(iOS)의 **1}:**
       * 위임된 하위 도메인
       * 앱 번들 ID
    * **Android(assetLinks.json)의 경우**:
