@@ -8,30 +8,15 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 8fa02f51c6b9bb9c98b7f20264c677d065ef0b75
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: fdd4853a97a3a794323ac460ea85966248dbd2bd
 workflow-type: tm+mt
-source-wordcount: 2937
+source-wordcount: 2945
 ht-degree: 18%
 
 ---
@@ -448,6 +433,26 @@ ht-degree: 18%
 
 * **Assets 선택기에서 조직 간 저장소 액세스** - 이제 Adobe Experience Manager 자산 선택기 내에서 바로 여러 조직의 저장소에서 자산을 원활하게 선택할 수 있습니다.
 
+### 관리 {#may-26-admin}
+
++++ 곧 출시 예정 — **아래 정보는 변경될 수 있습니다.**
+
+* **일괄 처리 수집으로 이동하는 메시지 피드백 이벤트 데이터 집합** - `AJO Message Feedback Event Dataset`이(가) 스트리밍에서 일괄 처리 수집 모드로 전환됩니다. 이 변경 사항은 데이터 수집이 스트리밍 수집 제한을 초과하지 않도록 합니다. Customer Journey Analytics 보고서에서 이 데이터 세트를 사용하거나 이에 대한 쿼리를 실행하는 경우 향후 최대 2시간의 데이터 지연 증가가 예상됩니다.
+
+  사용 가능한 날짜: 2026년 6월 1일
+
++++
+
+### 보고 {#may-26-reporting}
+
++++ 곧 출시 예정 — **아래 정보는 변경될 수 있습니다.**
+
+* **이메일 및 SMS 보고에 대한 봇 클릭 제외** - 이제 새로운 예상 지표를 사용하여 이메일 및 SMS 보고에서 비사람(봇) 상호 작용을 필터링할 수 있습니다. 여기에는 예상 클릭수, 클릭스루 비율(CTR) 및 클릭스루 비율(CTOR)이 포함되며, 이를 통해 실제 고객 참여를 보다 정확하게 파악할 수 있습니다. 기존 지표는 변경되지 않으며, 이러한 새로운 지표는 개선된 분석을 위해 현재 보고와 함께 사용할 수 있습니다.
+
+  사용 가능한 날짜: 2026년 6월 1일
+
++++
+
 ### 유용성 개선 {#may-26-usability}
 
 다음과 같은 사용성 개선 사항이 2026년 5월에 함께 릴리스되었습니다.
@@ -478,26 +483,10 @@ ht-degree: 18%
   ![](../test-approve/assets/simulation-preview-redesign.png)
 -->
 
-### 관리 {#may-26-admin}
-
 +++ 곧 출시 예정 — **아래 정보는 변경될 수 있습니다.**
 
 * **여정 및 캠페인용 폴더** - 이제 인터페이스 탐색 및 관리를 개선하기 위해 여정 및 캠페인을 폴더로 구성할 수 있습니다.
 
   사용 가능한 날짜: 2026년 6월 2일
-
-* **일괄 처리 수집으로 이동하는 메시지 피드백 이벤트 데이터 집합** - `AJO Message Feedback Event Dataset`이(가) 스트리밍에서 일괄 처리 수집 모드로 전환됩니다. 이 변경 사항은 데이터 수집이 스트리밍 수집 제한을 초과하지 않도록 합니다. Customer Journey Analytics 보고서에서 이 데이터 세트를 사용하거나 이에 대한 쿼리를 실행하는 경우 향후 최대 2시간의 데이터 지연 증가가 예상됩니다.
-
-  사용 가능한 날짜: 2026년 6월 1일
-
-+++
-
-### 보고 {#may-26-reporting}
-
-+++ 곧 출시 예정 — **아래 정보는 변경될 수 있습니다.**
-
-* **이메일 및 SMS 보고에 대한 봇 클릭 제외** - 이제 새로운 예상 지표를 사용하여 이메일 및 SMS 보고에서 비사람(봇) 상호 작용을 필터링할 수 있습니다. 여기에는 예상 클릭수, 클릭스루 비율(CTR) 및 클릭스루 비율(CTOR)이 포함되며, 이를 통해 실제 고객 참여를 보다 정확하게 파악할 수 있습니다. 기존 지표는 변경되지 않으며, 이러한 새로운 지표는 개선된 분석을 위해 현재 보고와 함께 사용할 수 있습니다.
-
-  사용 가능한 날짜: 2026년 6월 1일
 
 +++
