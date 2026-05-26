@@ -8,9 +8,9 @@ topic: Content Management
 role: User, Developer
 level: Intermediate
 keywords: 딥링크, 딥링크, 범용 링크, 앱 링크, 이메일, sms
-source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
+source-git-commit: a3b48494fe64842121c5c3711cdd7117b30747a4
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1327'
 ht-degree: 1%
 
 ---
@@ -31,6 +31,10 @@ ht-degree: 1%
 >[!DNL Adobe Journey Optimizer]은(는) 추적된 URL(`/ee/v1/mclick/*`)을 사용하여 iOS 및 Android 모두에 대한 딥링크를 지원하여 호환성과 클릭 추적을 보장합니다.
 
 ## 딥링크 작성 {#authoring}
+
+>[!CAUTION]
+>
+>이 페이지에서 [구성](#configuration) 및 [모바일 앱 구현](#mobile-implementation) 단계를 완료하지 않으면 딥링크가 작동하지 않습니다.
 
 ### 이메일 {#authoring-email}
 
