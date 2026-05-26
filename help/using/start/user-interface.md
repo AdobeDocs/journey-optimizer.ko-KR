@@ -51,10 +51,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 96221256a5733f40470c4b1210f1d40eaacab184
 workflow-type: tm+mt
-source-wordcount: 1524
-ht-degree: 100%
+source-wordcount: 1587
+ht-degree: 96%
 
 ---
 
@@ -414,3 +414,11 @@ AI 어시스턴트는 즉각적인 도움과 운영 인사이트를 제공합니
 >id="journeyExpAI"
 >title="표현식 어시스턴트"
 >abstract="표현식 어시스턴트를 사용하여 Journey Optimizer에서 표현식을 생성하고 구체화합니다."
+
+
+<!-- OC - LOAD FILE ACTIVITY -->
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_load_file"
+>title="파일 로드 활동"
+>abstract="**파일 로드** 활동은 **타깃팅** 활동입니다. 오케스트레이션된 캠페인 캔버스에 CSV 또는 TXT 파일을 업로드하고 캠페인 대상자로 사용하는 데 사용합니다. 파일 데이터는 실행 시 사용되며 Adobe Experience Platform 데이터 세트로 지속되지 않습니다. 행은 ID 열과 타겟팅 차원을 사용하여 기존 수신자에게 조정됩니다."
