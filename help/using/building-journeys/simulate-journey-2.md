@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 테스트, 여정, 확인, 오류, 문제 해결
 version: Journey Orchestration
 hide: true
-source-git-commit: 1d63f476bb7f82d1c67a0d464afcc960edc5bc50
+source-git-commit: fa0145b495c840f9dd838672c5dfb7e5e52b6f0e
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1319'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 시뮬레이션]** 기능에 액세스하려면 **여정 시뮬레이션** 권한이 필요합니다. [자세히 알아보기](../administration/permissions.md)
+>**[!UICONTROL 시뮬레이션]** 기능에 액세스하려면 **여정 시뮬레이션**, **여정 게시** 또는 **여정 승인 및 게시** 중 하나 이상의 권한이 필요합니다. [자세히 알아보기](../administration/permissions.md)
 
 시뮬레이션된 사용자는 **[!UICONTROL 시뮬레이션 설정]**&#x200B;에서 정의한 임시 프로필과 같은 엔터티입니다. 이 섹션에서는 이러한 구성 요소를 만들고, 재사용하기 위해 저장하고, 목록에서 조정 또는 제거하고, 여정으로 보내는 방법을 다룹니다.
 
@@ -115,7 +115,7 @@ ht-degree: 0%
 
    +++
 
-1. 만든 시뮬레이션 사용자가 **[!UICONTROL 테스트 사용자]** 목록에 나타납니다. 각 항목에 대해 옵션 메뉴를 열고 다음 중 하나를 선택합니다.
+1. 만든 시뮬레이션 사용자가 **[!UICONTROL 테스트 사용자]** 목록에 나타납니다. 각 항목에 대해 다음 중 하나를 선택합니다.
 
    * ![편집 아이콘](assets/do-not-localize/Smock_Edit_18_N.svg): 시뮬레이션된 사용자의 세부 정보를 업데이트합니다.
    * ![보내기 아이콘](assets/do-not-localize/Smock_Send_18_N.svg): 이 시뮬레이션된 사용자에 대해서만 시뮬레이션을 실행합니다.
@@ -129,7 +129,7 @@ ht-degree: 0%
 
 1. 여정에 **[!UICONTROL 대기]** 활동이 포함된 경우 **[!UICONTROL 테스트 설정]** 탭을 열어 시뮬레이션 중 대기 시간을 미세 조정하십시오. 예를 들어 라이브 **[!UICONTROL 대기]** 활동이 며칠 동안 구성된 경우 시뮬레이션된 사용자가 다음 활동으로 이동하기 전에 해당 기간만 노드에서 보내도록 10초로 재정의할 수 있습니다.
 
-1. **[!UICONTROL 모두 보내기]**&#x200B;를 클릭하여 목록의 모든 시뮬레이션된 사용자를 여정으로 보내거나 ![보내기 아이콘](assets/do-not-localize/Smock_Send_18_N.svg)을 클릭하여 해당 사용자만 보냅니다. 시뮬레이션된 사용자가 여정을 성공적으로 입력하면 `Simulated users have been sent successfully.` 확인 메시지가 나타납니다.
+1. **[!UICONTROL 모두 보내기]**&#x200B;를 클릭하여 목록의 모든 시뮬레이션된 사용자를 여정으로 보내거나 ![보내기 아이콘](assets/do-not-localize/Smock_Send_18_N.svg)을 클릭하여 해당 사용자만 보냅니다. 시뮬레이션된 사용자가 여정을 성공적으로 입력하면 `Simulated users have entered the journey successfully.` 확인 메시지가 나타납니다.
 
    ![시뮬레이션된 사용자 선택 패널](assets/simulate-5-2.png)
 
