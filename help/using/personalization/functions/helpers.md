@@ -6,7 +6,7 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 258d22c6b95db138e927d96f04215c0623e53913
+source-git-commit: 1f64b250a6bf7352d510b4097ee21fc395e11eec
 workflow-type: tm+mt
 source-wordcount: '1184'
 ht-degree: 4%
@@ -134,7 +134,7 @@ Some edu specific content
 ## 각{#each}
 
 `each` 도우미는 배열을 반복하는 데 사용됩니다.
-도우미의 구문은 ```{{#each ArrayName}}``` YourContent입니다. `{{/each}}`
+도우미의 구문은 `{{#each ArrayName}}` YourContent `{{/each}}`입니다.
 블록 내에서 **this** 키워드를 사용하여 개별 배열 항목을 참조할 수 있습니다. `{{@index}}`을(를) 사용하여 배열 요소의 인덱스를 렌더링할 수 있습니다.
 
 **구문**
@@ -228,7 +228,7 @@ Some edu specific content
 
 **매개 변수**
 
-| 매개 변수 | 설명 |
+| 매개변수 | 설명 |
 |---|---|
 | `originalUrl` | 단축할 URL입니다. |
 | `type` | 링크 유형. `DEEPLINK`을(를) 사용하여 모바일 앱에서 특정 화면을 엽니다. |
