@@ -1,24 +1,24 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 이메일 및 SMS 메시지에서 딥링크 사용 및 구성
+title: 이메일 및 SMS 메시지의 딥링크 사용 및 구성
 description: 이메일 및 SMS 콘텐츠에 딥링크를 추가하는 방법과 iOS 및 Android 앱에서 딥링크 처리를 구현하는 방법을 알아봅니다.
 feature: Email, SMS
 topic: Content Management
 role: User, Developer
 level: Intermediate
 keywords: 딥링크, 딥링크, 범용 링크, 앱 링크, 이메일, sms
-source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
+source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1308'
 ht-degree: 1%
 
 ---
 
 
-# 이메일 및 SMS에서 딥 링크 사용 및 구성 {#deeplinks}
+# 이메일 및 SMS에서 딥링크 사용 및 구성 {#deeplinks}
 
-딥 링크를 사용하면 이메일 또는 SMS 메시지에서 수신자를 모바일 앱의 특정 화면이나 콘텐츠로 안내할 수 있습니다. 웹 브라우저나 앱스토어를 통해 라우팅하지 않고도 의도한 인앱 여정으로 바로 이동할 수 있으므로 사용자가 브랜드에 맞게 적절한 작업을 수행할 수 있습니다.
+딥 링크를 사용하면 이메일 또는 SMS 메시지에서 수신자를 모바일 앱의 특정 화면 또는 콘텐츠로 안내할 수 있습니다. 웹 브라우저나 앱스토어를 통해 라우팅하지 않고도 의도한 인앱 여정으로 바로 이동할 수 있으므로 사용자가 브랜드에 맞게 적절한 작업을 수행할 수 있습니다.
 
 수신자가 딥링크를 클릭하면 의도한 인앱 콘텐츠로 바로 이동합니다. **완료한 경우**:
 
@@ -28,7 +28,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->[!DNL Adobe Journey Optimizer]에서는 호환성과 클릭 추적을 보장하기 위해 추적된 URL(`/ee/v1/mclick/*`)을 사용하여 iOS과 Android 모두에 대한 딥링크를 지원합니다.
+>[!DNL Adobe Journey Optimizer]은(는) 추적된 URL(`/ee/v1/mclick/*`)을 사용하여 iOS 및 Android 모두에 대한 딥링크를 지원하여 호환성과 클릭 추적을 보장합니다.
 
 ## 딥링크 작성 {#authoring}
 
@@ -44,11 +44,11 @@ ht-degree: 1%
   <a class="arc-link" data-nl-type="DEEPLINK" href="<<deeplink_url>>" id="acr-link-7821368" style="text-decoration:underline;" target="_blank" data-tracking-type="DEEPLINK">Click Here</a>
   ```
 
-  `<<deeplink_url>>`을(를) 실제 딥링크 URL로 바꾸고 각 블록에 대해 고유한 `id`을(를) 사용하여 충돌을 방지하십시오.
+  `<<deeplink_url>>`을(를) 실제 딥링크 URL로 바꾸고 충돌을 방지하려면 각 블록에 대해 고유한 `id`을(를) 사용하십시오.
 
 ### SMS {#authoring-sms}
 
-SMS의 경우, 딥링크는 개인화 편집기에서 **Url** 도우미 함수를 사용하여 작성됩니다. [이 섹션](../mobile/create-mobile-message.md#sms-content)에서 SMS 콘텐츠에 링크를 추가하는 방법에 대해 자세히 알아보세요.
+SMS의 경우 딥링크는 개인화 편집기에서 **Url** 도우미 함수를 사용하여 작성됩니다. [이 섹션](../mobile/design-mobile.md#sms-content)에서 SMS 콘텐츠에 링크를 추가하는 방법에 대해 자세히 알아보세요.
 
 SMS 콘텐츠에 딥링크를 삽입하려면 다음 구문을 사용합니다.
 
@@ -70,7 +70,7 @@ SMS 콘텐츠에 딥링크를 삽입하려면 다음 구문을 사용합니다.
 
 1. 하위 도메인에서 iOS용 AASA 파일 및 Android용 assetLinks.json 파일을 호스팅합니다. 자세한 내용은 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} 또는 Adobe 담당자에게 문의하십시오.
 
-   * AASA(iOS)의 **1&rbrace;:**
+   * AASA(iOS)의 **1}:**
       * 위임된 하위 도메인
       * 앱 번들 ID
    * **Android(assetLinks.json)의 경우**:
@@ -80,13 +80,13 @@ SMS 콘텐츠에 딥링크를 삽입하려면 다음 구문을 사용합니다.
 
 >[!IMPORTANT]
 >
->Adobe 인프라를 통한 딥링크는 SMS 캠페인에 대한 [전자 메일 추적 설정](message-tracking.md#enable-tracking) 또는 **[!UICONTROL 작업 추적]** 섹션에서 메시지에 대해 링크 추적이 활성화되면 적용됩니다. 추적된 딥링크 클릭은 Adobe에서 호스팅 및 확인하는 `/ee/v1/mclick/*`의 URL을 사용합니다.
+>Adobe 인프라를 통한 딥링크는 SMS 캠페인의 [전자 메일 추적 설정](message-tracking.md#enable-tracking) 또는 **[!UICONTROL 작업 추적]** 섹션에서 메시지에 대해 링크 추적이 활성화되어 있을 때 적용됩니다. 추적된 딥링크 클릭은 Adobe에서 호스팅 및 확인하는 `/ee/v1/mclick/*`의 URL을 사용합니다.
 >
 >**추적되지 않는** 링크의 경우 Adobe 시스템을 통해 URL이 다시 작성되지 않습니다. 범용 링크 또는 앱 링크를 자체 도메인 및 호스팅에 구성하여 해당 링크가 의도한 대로 앱을 열도록 해야 합니다.
 
 ## 모바일 앱 구현 {#mobile-implementation}
 
-이 섹션에서는 일반적인 **HTTPS** 설정(범용 링크 및 앱 링크)에서 단일 URL이 다음을 수행할 수 있도록 [!DNL Adobe Journey Optimizer]을(를) 사용하여 모바일 딥링크를 구현하는 방법을 설명합니다.
+이 섹션에서는 일반적인 **HTTPS** 설정(범용 링크 및 앱 링크)에서 단일 URL이 다음을 수행할 수 있도록 [!DNL Adobe Journey Optimizer]과(와) 함께 모바일 딥링크를 구현하는 방법을 설명합니다.
 
 * 앱이 설치되면 모바일 앱 내의 특정 화면을 엽니다. 또는
 * 앱이 설치되지 않은 경우 웹 사이트를 대체 항목으로 엽니다.
@@ -266,14 +266,14 @@ SMS 콘텐츠에 딥링크를 삽입하려면 다음 구문을 사용합니다.
 * **추적된 경로에 대한 계정**: 링크 추적이 활성화되면 클릭한 링크는 추적된 경로 패턴(예: `/ee/v1/mclick/`)을 사용할 수 있습니다. 추적된 링크를 확인한 후 라우터가 최종 URL을 구문 분석할 수 있는지 확인합니다.
 * **매개 변수를 예측 가능한 상태로 유지**: 일관된 매개 변수 체계를 정의합니다(예: `?orderId=12345`).
 * **URL에 중요한 데이터를 사용하지 마십시오**: 딥링크 URL에 직접 비밀 또는 개인 데이터를 넣지 마십시오.
-* **딥 링크를 테스트합니다**: 증명을 보내고 앱이 설치된 장치에서 딥 링크를 클릭합니다.
+* **딥링크를 테스트하십시오**: 증명을 보내고 앱이 설치된 장치에서 딥링크를 클릭합니다.
 * **실제 장치에서 유효성 검사**: 범용 링크 및 추적된 링크 확인 동작은 시뮬레이터보다 실제 장치에서 유효성을 검사하는 데 더 안정적입니다.
 * **앱 측 라우팅 유효성 검사**: 딥링크가 필요한 화면을 열지 않으면 앱 측 라우팅 및 URL 형식(호스트/경로/쿼리 및 URL 인코딩)을 검사하십시오.
 * **앱 초기화를 염두에 두십시오**: 앱 링크/범용 링크 동작은 앱을 한 번 이상 설치하고 연 후에 가장 안정적입니다.
 
 ## 문제 해결 및 FAQ {#troubleshooting-faq}
 
-+++ 딥 링크를 탭해도 앱이 열리지 않습니다.
++++ 딥링크를 탭해도 앱이 열리지 않습니다.
 
 * 링크 추적이 활성화된 경우 추적된 클릭 경로를 포함하여 URL이 앱이 처리하도록 등록된 호스트 및 경로 패턴과 일치하는지 확인합니다(예: `/ee/v1/mclick/` 아래의 경로).
 * iOS 범용 링크 및 Android 앱 링크의 경우 도메인 연결(AASA / `assetlinks.json`)이 올바르게 구성되어 연결할 수 있는지 확인하십시오.
@@ -303,7 +303,7 @@ URL 인코딩 쿼리 매개 변수 값입니다. 이렇게 하면 게재 및 렌
 
 +++ 엔드투엔드 테스트를 어떻게 수행합니까?
 
-* 딥 링크를 사용하여 증명을 만든 후 iOS 및 Android 장치(설치 및 설치되지 않은 시나리오)에서 클릭합니다.
+* 딥링크로 증명을 만든 후 iOS 및 Android 장치(설치 및 설치되지 않은 시나리오)에서 클릭합니다.
 * 유효성 검사:
    * 최종 이메일 또는 SMS 링크 값(호스트/경로/쿼리)
    * OS 수준 연결(범용 링크/앱 링크를 사용하는 경우)
@@ -313,7 +313,7 @@ URL 인코딩 쿼리 매개 변수 값입니다. 이렇게 하면 게재 및 렌
 
 +++ 나는 하나의 앱이 있지만 조직에 대한 하위 도메인은 다릅니다. 각 하위 도메인에 대해 AASA 및 assetLinks.json을 생성하도록 요청해야 합니까?
 
-예. 위임된 모든 하위 도메인을 정의하려면 기능을 지원해야 하는 각 하위 도메인에 대해 AASA 및 `assetlinks.json` 구성을 요청하십시오.
+예. 위임된 모든 하위 도메인에서 딥링크를 만들려면 해당 기능을 지원해야 하는 각 하위 도메인에 대해 AASA 및 `assetlinks.json` 구성을 요청하십시오.
 
 +++
 

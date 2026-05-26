@@ -8,24 +8,15 @@ level: Beginner
 keywords: 인앱, 메시지, 디자인, 서식
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
 TQID: https://experienceleague.adobe.com/DBRGZUXPBo-2-EX0i3RSGQc4G1-zbsee4u3oF1cU-ng
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
 workflow-type: tm+mt
-source-wordcount: 1272
+source-wordcount: 1273
 ht-degree: 26%
 
 ---
@@ -169,7 +160,7 @@ ht-degree: 26%
 
 1. 사용자가 상호 작용한 후 단추의 동작을 정의하는 **[!UICONTROL 상호 작용 이벤트]**&#x200B;를 선택하세요.
 
-1. **[!UICONTROL Target]** 필드에 웹 URL이나 딥 링크를 입력합니다.
+1. **[!UICONTROL Target]** 필드에 웹 URL 또는 딥링크를 입력하십시오.
 
 1. 여러 단추를 추가하려면 **[!UICONTROL 단추 추가]**&#x200B;를 클릭하세요.
 
@@ -282,4 +273,4 @@ ht-degree: 26%
 
 아래 비디오에서는 인앱 메시지를 작성하고 테스트하는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3422079?captions=kor&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410471?quality=12&learn=on)

@@ -8,30 +8,15 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e9136cd715af3a80a485d67431eec7ada7697016
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
 workflow-type: tm+mt
-source-wordcount: 2924
+source-wordcount: 2973
 ht-degree: 18%
 
 ---
@@ -367,6 +352,8 @@ ht-degree: 18%
 * **사용자 정의 데이터 세트로의 SMS 인바운드** - **SMS API 자격 증명**&#x200B;에서 기본 추적 데이터 세트만 아니라, 선택한 **맞춤형 프로필 활성화 경험 이벤트 데이터 세트**&#x200B;로 **인바운드 SMS**&#x200B;를 라우팅합니다. [자세히 보기](../mobile/mobile-webhook.md)
 
 * **Webhook 인터페이스 개선** - SMS Webhook을 구성할 때 사용자 인터페이스에 실용적인 예시가 포함된 기본 설정 가이드가 제공되어 구성 흐름을 벗어나지 않고도 공급자 페이로드를 정렬하고 문제를 쉽게 해결할 수 있습니다. [자세히 보기](../mobile/mobile-webhook.md)
+
+* **SMS 콘텐츠의 딥링크** - 이제 URL 도우미 기능을 사용하여 SMS 콘텐츠에 딥링크를 추가할 수 있습니다. 이렇게 하면 수신자를 웹 브라우저나 앱스토어를 통해 라우팅하지 않고도 의도한 인앱 콘텐츠로 바로 안내할 수 있습니다. [자세히 보기](../email/deeplinks.md)
 
 ### WhatsApp 채널 {#may-26-whatsapp}
 
