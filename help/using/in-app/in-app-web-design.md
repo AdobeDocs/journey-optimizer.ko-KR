@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: 인앱, 메시지, 만들기, 시작
 hide: true
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '801'
 ht-degree: 7%
 
 ---
@@ -128,7 +128,7 @@ ht-degree: 7%
 
 1. 사용자가 상호 작용한 후 단추의 동작을 정의하는 **[!UICONTROL 상호 작용 이벤트]**&#x200B;를 선택하세요.
 
-1. **[!UICONTROL Target]** 필드에 웹 URL이나 딥 링크를 입력합니다.
+1. **[!UICONTROL Target]** 필드에 웹 URL 또는 딥링크를 입력하십시오.
 
 1. 여러 단추를 추가하려면 **[!UICONTROL 단추 추가]**&#x200B;를 클릭하세요.
 
@@ -183,5 +183,5 @@ ht-degree: 7%
 **관련 항목:**
 
 * [인앱 메시지 테스트 및 보내기](send-in-app.md)
-* [인앱 보고서 &#x200B;](../reports/campaign-global-report-cja-inapp.md)
+* [인앱 보고서](../reports/campaign-global-report-cja-inapp.md)
 * [인앱 구성](inapp-configuration.md)

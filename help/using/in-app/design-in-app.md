@@ -23,9 +23,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
 workflow-type: tm+mt
-source-wordcount: 1272
+source-wordcount: 1273
 ht-degree: 26%
 
 ---
@@ -169,7 +169,7 @@ ht-degree: 26%
 
 1. 사용자가 상호 작용한 후 단추의 동작을 정의하는 **[!UICONTROL 상호 작용 이벤트]**&#x200B;를 선택하세요.
 
-1. **[!UICONTROL Target]** 필드에 웹 URL이나 딥 링크를 입력합니다.
+1. **[!UICONTROL Target]** 필드에 웹 URL 또는 딥링크를 입력하십시오.
 
 1. 여러 단추를 추가하려면 **[!UICONTROL 단추 추가]**&#x200B;를 클릭하세요.
 

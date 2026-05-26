@@ -6,9 +6,9 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: b83bdade-7275-4eef-9c49-fc1d157cee0d
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '643'
 ht-degree: 1%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 1%
 
 1. **[!UICONTROL Interact 이벤트]**&#x200B;를 선택하여 사용자가 단추를 클릭하거나 단추와 상호 작용할 때 트리거될 작업을 정의합니다.
 
-1. 버튼과 상호 작용한 후 사용자가 이동할 웹 URL 또는 딥 링크를 **[!UICONTROL Target]** 필드에 입력합니다.
+1. **[!UICONTROL Target]** 필드에 버튼과 상호 작용한 후 사용자가 이동할 웹 URL 또는 딥링크를 입력합니다.
 
 <!--
 +++More options with advanced formatting
@@ -122,7 +122,7 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose 
 
 ![](assets/content-card-design-5.png)
 
-**[!UICONTROL 대상 URL]** 필드에 사용자가 콘텐츠 카드와 상호 작용한 후 원하는 대상으로 안내하는 웹 URL 또는 딥 링크를 입력합니다. 외부 웹 사이트, 앱 내의 특정 페이지 또는 상호 작용에 따라 사용자를 이동시키고자 하는 기타 모든 위치일 수 있습니다.
+**[!UICONTROL 대상 URL]** 필드에 사용자가 콘텐츠 카드와 상호 작용한 후 원하는 대상으로 안내하는 웹 URL 또는 딥링크를 입력합니다. 외부 웹 사이트, 앱 내의 특정 페이지 또는 상호 작용에 따라 사용자를 이동시키고자 하는 기타 모든 위치일 수 있습니다.
 
 ## 데이터 탭
 

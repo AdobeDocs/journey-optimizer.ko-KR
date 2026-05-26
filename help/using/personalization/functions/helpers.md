@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 1f64b250a6bf7352d510b4097ee21fc395e11eec
+source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
 workflow-type: tm+mt
-source-wordcount: '1184'
+source-wordcount: '1185'
 ht-degree: 4%
 
 ---
@@ -218,7 +218,7 @@ Some edu specific content
 
 ## Url {#url}
 
-`url` 도우미는 링크를 추적하고 URL을 줄이며 SMS 메시지 콘텐츠에 [딥링크](../../email/deeplinks.md)를 삽입하는 데 사용됩니다.
+`url` 도우미는 링크를 추적하고, URL을 줄이고, SMS 메시지 콘텐츠에 [딥링크](../../email/deeplinks.md)를 삽입하는 데 사용됩니다.
 
 **구문**
 

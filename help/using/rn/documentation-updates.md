@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 04e549fa4e51f22cdf53b5666b43e09f729a97b4
+source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
 workflow-type: tm+mt
-source-wordcount: '7894'
+source-wordcount: '7897'
 ht-degree: 90%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 90%
 
 * **주요 용어** 페이지가 변경되었습니다. 6개의 새로운 용어가 추가되고, 새로운 **충돌 및 우선 순위 지정 용어** 섹션이 도입되고, 새로운 **용어가 비슷해 보이는 경우** 명확화 가이드가 혼동되는 4개의 용어 쌍에 추가되었습니다. Adobe Experience Platform 관련 용어가 제거되고 Adobe Experience Platform 용어집에 연결된 메모로 대체되었습니다. [자세히 보기](../start/terminology.md)
 
-* **딥링크** 설명서가 이메일에 사용할 수 있는 두 옵션(이메일 Designer UI 및 Personalization 편집기 코드)과 SMS의 URL 함수 구문을 자세히 설명하는 새로운 **딥링크 작성** 섹션으로 확장되었습니다. 이제 **SMS 메시지 만들기** 페이지에 콘텐츠 작성 흐름의 딥 링크 단계가 포함됩니다. [자세히 보기](../email/deeplinks.md)
+* **딥링크** 설명서가 이메일에 사용할 수 있는 두 옵션(이메일 Designer UI 및 Personalization 편집기 코드)과 SMS의 URL 함수 구문을 자세히 설명하는 새로운 **딥링크 작성** 섹션으로 확장되었습니다. 이제 **SMS 메시지 만들기** 페이지에 콘텐츠 작성 흐름의 딥링크 단계가 포함됩니다. [자세히 보기](../email/deeplinks.md)
 
 * **Url** 도우미 참조가 Personalization 설명서의 전용 섹션으로 업데이트되었습니다. [자세히 보기](../personalization/functions/helpers.md#url)
 
