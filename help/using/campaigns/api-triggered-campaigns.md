@@ -21,10 +21,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 901ecd19969ea7a79d1fad38c4e3140fea2e01ec
 workflow-type: tm+mt
 source-wordcount: 293
-ht-degree: 41%
+ht-degree: 38%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 41%
 
 API 트리거 캠페인을 사용하면 마케팅 커뮤니케이션이 적시에 대상자에게 연락하거나, 암호 재설정과 같은 개인에 대한 트랜잭션/운영 메시지가 필요할 때 프로필 속성을 사용하는 것뿐만 아니라 REST API 페이로드인 트리거에서 실시간 컨텍스트 데이터를 사용하는 개인화가 포함될 수 있습니다.
 
-이렇게 하려면 먼저 Journey Optimizer에서 API 트리거 캠페인을 만든 다음 [대화형 메시지 실행 REST API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution)를 사용하여 API 호출을 통해 실행을 시작해야 합니다.
+이렇게 하려면 먼저 Journey Optimizer에서 API 트리거 캠페인을 만든 다음 [대화형 메시지 실행 REST API](https://developer.adobe.com/journey-optimizer-apis/references/messaging#tag/execution)를 사용하여 API 호출을 통해 실행을 시작해야 합니다.
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
 
