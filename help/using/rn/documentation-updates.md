@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
+source-git-commit: 9baa78e1449e43b269fdb271c1f6c9d611d454cb
 workflow-type: tm+mt
-source-wordcount: '7897'
+source-wordcount: '7927'
 ht-degree: 90%
 
 ---
@@ -30,6 +30,8 @@ ht-degree: 90%
 * **딥링크** 설명서가 이메일에 사용할 수 있는 두 옵션(이메일 Designer UI 및 Personalization 편집기 코드)과 SMS의 URL 함수 구문을 자세히 설명하는 새로운 **딥링크 작성** 섹션으로 확장되었습니다. 이제 **SMS 메시지 만들기** 페이지에 콘텐츠 작성 흐름의 딥링크 단계가 포함됩니다. [자세히 보기](../email/deeplinks.md)
 
 * **Url** 도우미 참조가 Personalization 설명서의 전용 섹션으로 업데이트되었습니다. [자세히 보기](../personalization/functions/helpers.md#url)
+
+* **실행 메타데이터** 도우미 설명서에 제한을 추가했습니다. 인바운드 채널(웹, 코드 기반 경험, 인앱 메시지, 콘텐츠 카드)에서는 이 함수가 지원되지 않습니다. [자세히 보기](../personalization/functions/helpers.md#execution-metadata)
 
 * Journey Optimizer의 가장 일반적인 사용 사례에 즉시 사용할 수 있는 개인화 패턴을 제공하는 새로운 **Personalization 레서피** 페이지가 추가되었습니다. 날짜 및 시간 레서피(현재 날짜 형식 지정, 만료 카운트다운, 이전 일 계산, 시간 전용 표시 및 주말 대 평일 감지), 문자열 레서피(변수 할당으로 `replaceAll` 사용) 및 조건부 대체 레서피(`isEmpty`을(를) 사용한 빈 필드 폴백)를 다룹니다. [자세히 보기](../personalization/personalization-recipes.md)
 

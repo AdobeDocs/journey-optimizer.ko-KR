@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
+source-git-commit: 9baa78e1449e43b269fdb271c1f6c9d611d454cb
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1198'
 ht-degree: 4%
 
 ---
@@ -264,6 +264,11 @@ Some edu specific content
 
 `executionMetadata` 도우미를 통해 사용자 지정 키-값 쌍을 동적으로 캡처하고 메시지 실행 컨텍스트에 저장할 수 있습니다.
 
+>[!NOTE]
+>
+>* 실행 메타데이터 함수는 [사용자 지정 작업](../../action/action.md) 및 인바운드 채널(웹, 코드 기반 경험, 인앱 메시지, 콘텐츠 카드)에서 지원되지 않습니다.
+>* 컨텐츠 자체가 표시되면 실행 메타데이터 기능이 표시되지 않습니다.
+
 **구문**
 
 ```
@@ -275,11 +280,6 @@ Some edu specific content
 **사용 사례**
 
 이 함수를 사용하면 캠페인 또는 여정의 모든 기본 작업에 컨텍스트 정보를 추가할 수 있습니다. 이렇게 하면 추적, 분석, 개인화 및 다운스트림 처리와 같은 다양한 목적을 위해 실시간 게재 컨텍스트 데이터를 외부 시스템으로 내보낼 수 있습니다.
-
->[!NOTE]
->
->* 실행 메타데이터 함수는 [사용자 지정 작업](../../action/action.md)에서 지원되지 않습니다.
->* 컨텐츠 자체가 표시되면 실행 메타데이터 기능이 표시되지 않습니다.
 
 예를 들어 실행 메타데이터 도우미를 사용하여 각 프로필로 전송된 각 게재에 특정 ID를 추가할 수 있습니다. 이 정보는 런타임 중에 생성되며, 그런 다음 외부 보고 플랫폼과의 다운스트림 조정을 위해 보강된 실행 메타데이터를 내보낼 수 있습니다.
 
