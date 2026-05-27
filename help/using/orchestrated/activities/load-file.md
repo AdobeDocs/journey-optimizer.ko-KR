@@ -5,16 +5,12 @@ title: 파일 로드 활동 사용
 description: 파일 로드 활동을 사용하여 Adobe Experience Platform으로 파일을 수집하지 않고 CSV 또는 TXT 파일에서 오케스트레이션된 캠페인 대상자를 타깃팅하는 방법에 대해 알아봅니다
 exl-id: a7c3e891-4f2d-4b8e-9c1a-6e8f0d3b2a41
 version: Campaign Orchestration
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 9c2ed338c676a02055802ce8ea956b5b698f3d7c
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: e0a0782647a051bf139b82a8bff9e47f97b1f1b9
 workflow-type: tm+mt
-source-wordcount: 1258
+source-wordcount: 1234
 ht-degree: 2%
 
 ---
@@ -41,7 +37,6 @@ ht-degree: 2%
 * 파일당 최대 50MB를 업로드할 수 있습니다.
 * 플랫 구조 CSV 및 TXT 파일만 지원됩니다.
 * 업로드된 데이터는 캠페인이 실행될 때 사용되며 Adobe Experience Platform 데이터 세트로 저장되지 않습니다.
-* 각 행은 선택한 타겟팅 차원에 대한 기존 수신자와 일치해야 합니다. 파일 로드 활동은 파일에서 새 프로필을 만들지 않습니다.
 
 채널 및 캔버스 활동에 대한 제한 사항은 [보호 기능 및 제한 사항](../guardrails.md#activities-limitations)을 참조하세요.
 
