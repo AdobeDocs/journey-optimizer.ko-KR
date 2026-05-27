@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 hide: true
 keywords: AEM, 콘텐츠 조각, 관리, 저장소, 인증, 작성자, 게시
-source-git-commit: acbc63b37802bfe27a24246d4701efb00ac95940
+source-git-commit: 9da185872d2742799f1a2a2c85a840c84cb8b329
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,10 @@ Journey Optimizer은 조직, 샌드박스 및 Adobe Experience Manager 저장소
 1. **[!UICONTROL 통합 만들기]**&#x200B;를 클릭합니다.
 
    ![](assets/aem-admin-settings-1.png)
+
+1. **[!DNL Adobe Experience Manager Managed Services]**&#x200B;을(를) 사용하는 경우 **[!UICONTROL 사용자 지정 AMS 저장소 ID]** 필드에 `adobecqms.net`(으)로 끝나는 저장소 호스트 이름을 입력하십시오.
+
+   ![](assets/aem-admin-settings-6.png)
 
 1. 구성할 리포지토리를 선택하고 **[!UICONTROL 다음]**&#x200B;을(를) 클릭합니다.
 
@@ -76,9 +80,19 @@ Journey Optimizer은 조직, 샌드박스 및 Adobe Experience Manager 저장소
 
    +++
 
+1. 인스턴스 설정을 완료한 후 콘텐츠 조각을 선택하여 통합이 작동하는지 확인합니다.
+
+   ![](assets/aem-admin-settings-7.png)
+
+1. **콘텐츠 관리자** 창에서 테스트할 조각을 선택한 다음 **[!UICONTROL 선택]**&#x200B;을 클릭합니다.
+
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+
+1. 테스트 콘텐츠 조각을 선택한 상태로 저장하면 유효성 검사가 자동으로 실행됩니다. 유효성 검사가 실패하면 구성을 수정할 수 있도록 오류 목록이 표시됩니다.
+
+   ![](assets/aem-admin-settings-8.png)
 
 1. 이 리포지토리 통합을 편집하거나 비활성화하려면 **[!UICONTROL AEM 통합]** 메뉴에서 이전에 만든 구성에 액세스하십시오.
 
-저장하면 해당 샌드박스는 콘텐츠 조각 선택기에 저장소를 사용하고 **Adobe Experience Manager 콘텐츠 관리자**&#x200B;를 사용합니다.
+이 구성을 저장하면 Journey Optimizer이 현재 샌드박스의 해당 저장소에 대해 저장합니다. 그런 다음 **콘텐츠 관리자** 선택기에서 콘텐츠를 탐색하고 선택할 때 해당 리포지토리와 해당 설정을 사용할 수 있습니다.
 
