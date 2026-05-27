@@ -7,9 +7,9 @@ feature: SMS
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: e9ef94bf9797c536a140be444b586a3dc0940e4e
+source-git-commit: 30eecc21809cf818ae7530187782b370240830e7
 workflow-type: tm+mt
-source-wordcount: '1448'
+source-wordcount: '1456'
 ht-degree: 2%
 
 ---
@@ -135,7 +135,7 @@ RCS 메시지 콘텐츠를 정의하려면 아래 단계를 따르십시오.
 
    ![](assets/sms_tracking_1.png)
 
-1. **[!UICONTROL Url]**&#x200B;을(를) 선택하고 **[!UICONTROL URL 추가]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Url]**&#x200B;을(를) 선택하고 **[!UICONTROL URL 추가]**&#x200B;를 클릭합니다. [이 섹션](../personalization/functions/helpers.md#url)에서 `Url` 도우미 함수에 대해 자세히 알아보세요.
 
    ![](assets/sms_tracking_2.png)
 
@@ -147,13 +147,13 @@ RCS 메시지 콘텐츠를 정의하려면 아래 단계를 따르십시오.
    >
    > 짧은 URL의 수명은 30일로 설정됩니다. 이 기간이 지나면 이러한 짧은 URL에 더 이상 액세스할 수 없으며 `404 short-code not found` 메시지를 표시합니다.
 
-1. 모바일 앱에서 특정 화면을 여는 딥링크를 추가하려면 아래 예제와 같이 `DEEPLINK` 형식의 **[!UICONTROL Url]** 도우미 함수를 사용합니다. [딥링크에 대해 자세히 알아보기](../email/deeplinks.md)
+1. 모바일 앱에서 특정 화면을 여는 딥링크를 추가하려면 아래 예제와 같이 `DEEPLINK` 유형과 함께 `Url` 도우미 함수를 사용합니다. [딥링크에 대해 자세히 알아보기](../email/deeplinks.md)
 
    ```
    {{url originalUrl='<<deeplink_url>>' type='DEEPLINK' action='CLICK'}}
    ```
 
-   >[!IMPORTANT]
+   >[!CAUTION]
    >
    >딥링크를 사용하기 전에 Journey Optimizer에서 해당 [구성 단계](../email/deeplinks.md#configuration)를 완료하고 모바일 앱에서 [딥링크 처리](../email/deeplinks.md#mobile-implementation)를 구현했는지 확인하십시오. 아직 수행하지 않았다면 딥링크는 사용자를 의도한 인앱 콘텐츠로 안내하지 않습니다.
    >
@@ -192,3 +192,4 @@ MMS 콘텐츠를 만들려면 다음 단계를 수행합니다.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭하고 미리보기에서 메시지를 확인합니다. 이제 아래에 자세히 설명된 대로 메시지 콘텐츠를 테스트하고 확인할 수 있습니다.
 
 테스트를 수행하고 콘텐츠의 유효성을 검사하면 대상자에게 모바일 메시지를 보낼 수 있습니다. 이러한 단계는 [이 페이지](send-mobile-message.md)에 자세히 설명되어 있습니다
+
