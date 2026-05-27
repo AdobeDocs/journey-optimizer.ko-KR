@@ -9,7 +9,7 @@ hide: true
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
+source-git-commit: 901ecd19969ea7a79d1fad38c4e3140fea2e01ec
 workflow-type: tm+mt
 source-wordcount: '4441'
 ht-degree: 99%
@@ -82,7 +82,7 @@ ht-degree: 99%
 **캠페인**
 
 <!--* You can now stop a live one-time campaign, make modifications and resume it again. This improvement is available in Beta.-->
-* 이제 캠페인 중 하나에서 오류가 발생하면 캠페인 목록의 캠페인 상태 옆에 경고 아이콘이 표시됩니다. [자세히 보기](../campaigns/manage-campaigns.md#statuses)
+* 이제 캠페인 중 하나에서 오류가 발생하면 캠페인 목록의 캠페인 상태 옆에 경고 아이콘이 표시됩니다. [자세히 알아보기](../campaigns/manage-campaigns.md#statuses)
 
 **여정**
 
@@ -191,7 +191,7 @@ ht-degree: 99%
 
 **경고**
 
-* 새로운 유형의 시스템 경고가 도입되었습니다. 이제 **대상자 읽기** 활동이 실패하면 알림을 받을 수 있습니다. [자세히 알아보기](../reports/alerts.md).
+* 새로운 유형의 시스템 경고가 도입되었습니다. 이제 **대상자 읽기** 활동이 실패하면 알림을 받을 수 있습니다. [자세히 알아보기](../reports/alerts.md)
 
 **웹 채널**
 
@@ -199,7 +199,7 @@ ht-degree: 99%
 
 * 이제 웹 디자이너를 사용하여 페이지를 편집할 때 구성 요소를 선택하고 디자이너 인터페이스에서 편집할 필요 없이 수정 창에서 직접 콘텐츠에 새 변경 사항을 추가할 수 있습니다. [자세히 알아보기](../web/manage-web-modifications.md#add-modifications)
 
-* 이제 웹 하위 도메인을 설정할 때 Adobe로 이미 위임된 하위 도메인을 사용할 수 있을 뿐만 아니라 고유한 하위 도메인을 추가할 수 있는 옵션이 제공됩니다. [자세히 보기](../web/web-delegated-subdomains.md#web-configure-new-subdomain)
+* 이제 웹 하위 도메인을 설정할 때 Adobe로 이미 위임된 하위 도메인을 사용할 수 있을 뿐만 아니라 고유한 하위 도메인을 추가할 수 있는 옵션이 제공됩니다. [자세히 알아보기](../web/web-delegated-subdomains.md#web-configure-new-subdomain)
 
 **여정**
 
@@ -306,7 +306,7 @@ table>
 <!--
 **APIs**
 
-A new API to create and manage Content Fragments is now available. [Learn more](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/#tag/Content-fragment-API){target="_blank"}.
+A new API to create and manage Content Fragments is now available. [Learn more](https://developer.adobe.com/journey-optimizer-apis/references/content#tag/Content-fragment-API){target="_blank"}.
 -->
 
 <!--
@@ -317,7 +317,7 @@ A new option is available in the email surface settings to include email address
 
 **여정**
 
-* 이제 사용자 정의 작업에 API 호출 응답을 활용하고, 이 응답을 기반으로 여정을 오케스트레이션할 수 있습니다. 이 기능은 현재 Beta로 사용할 수 있습니다. [자세히 알아보기](../action/action-response.md).
+* 이제 사용자 정의 작업에 API 호출 응답을 활용하고, 이 응답을 기반으로 여정을 오케스트레이션할 수 있습니다. 이 기능은 현재 Beta로 사용할 수 있습니다. [자세히 알아보기](../action/action-response.md)
 * 새로운 유형의 시스템 경고가 도입되었습니다. 이제 사용자 정의 작업이 실패하면 알림을 받을 수 있습니다. [자세히 알아보기](../reports/alerts.md).
   <!--* When duplicating a journey, you can now define the name of the journey copy.-->
 
@@ -443,7 +443,7 @@ A new option is available in the email surface settings to include email address
 
 **API**
 
-Adobe Journey Optimizer APIsauthentication용 액세스 토큰을 생성하는 JWT 메서드가 더 이상 사용되지 않습니다. 모든 새 통합은 OAuth 서버 간 인증 방법을 사용하여 생성해야 합니다. 또한 Adobe 기존 통합을 OAuth 메서드로 마이그레이션할 것을 권장합니다. [자세히 알아보기](https://developer.adobe.com/journey-optimizer-apis/references/authentication){target="_blank"}.
+Adobe Journey Optimizer APIsauthentication용 액세스 토큰을 생성하는 JWT 메서드가 더 이상 사용되지 않습니다. 모든 새 통합은 OAuth 서버 간 인증 방법을 사용하여 생성해야 합니다. 또한 Adobe 기존 통합을 OAuth 메서드로 마이그레이션할 것을 권장합니다. [자세히 알아보기](https://developer.adobe.com/journey-optimizer-apis/references/authentication){target="_blank"}
 
 
 **기타 변경 사항**

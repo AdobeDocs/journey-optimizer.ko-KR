@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
+source-git-commit: 901ecd19969ea7a79d1fad38c4e3140fea2e01ec
 workflow-type: tm+mt
 source-wordcount: '9308'
 ht-degree: 99%
@@ -73,7 +73,7 @@ ht-degree: 99%
 <p>특정 데이터 세트를 기반으로 필요에 맞는 사용자 정의 양식을 만들고 디자인하고 관리합니다. 그런 다음 랜딩 페이지에서 이 양식을 활용하여 선택한 프로필 속성을 각 양식별로 정의한 데이터 세트에 추가할 수 있습니다.</p>
 <p>이 기능은 현재 미국 및 호주 고객에게 제한된 가용성으로 제공되고 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.</p>
 <p><img src="assets/do-not-localize/forms.gif"/></p>
-<p>자세한 내용은 <a href="../landing-pages/lp-forms.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../landing-pages/lp-forms.md">세부 설명서</a>를 참조하세요.</p>
 <p>가용성 일자: 2025년 10월 23일</p>
 </td>
 </tr>
@@ -316,7 +316,7 @@ table>
 </ul>
 <p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
 <p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
-<p>자세한 내용은 <a href="../email/pdf-attachments.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../email/pdf-attachments.md">세부 설명서</a>를 참조하세요.</p>
 <p>사용 가능한 날짜: 2025년 9월 30일</p>
 </td>
 </tr>
@@ -975,7 +975,7 @@ table>
 <p>이제 커뮤니케이션 전반에 걸쳐 시각적, 언어적 정체성을 명확하게 정의하기 위해 자체 브랜드를 만들고 사용자 정의할 수 있습니다. 브랜드 정렬 점수를 사용하면 콘텐츠가 브랜드의 톤, 스타일, 가이드라인을 얼마나 잘 반영하는지에 대한 실시간 피드백을 받을 수 있으므로 보내는 모든 메시지에서 일관되게 브랜드에 맞는 내용을 전달하는 데 도움이 됩니다.</p>
 <p>이전에 Beta로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
 <p><img src="assets/do-not-localize/brand-score.gif"/></p>
-<p>자세한 내용은 <a href="../content-management/brands.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../content-management/brands.md">세부 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
@@ -1812,7 +1812,7 @@ table>
 
 **캠페인 미리 보기 API**
 
-기존 증명 전송 기능 외에 새로운 API를 사용하여 캠페인을 미리 볼 수 있습니다. [자세히 보기](https://developer.adobe.com/journey-optimizer-apis/references/simulations/#operation/createCampaignPreview){target="_blank"}.
+기존 증명 전송 기능 외에 새로운 API를 사용하여 캠페인을 미리 볼 수 있습니다. [자세히 보기](https://developer.adobe.com/journey-optimizer-apis/references/simulations#operation/createCampaignPreview){target="_blank"}.
 
 **샌드박스 도구**
 
