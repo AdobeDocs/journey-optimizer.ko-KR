@@ -26,9 +26,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 59d843037ed63ac2d474f29125eba4f0cef5c61b
 workflow-type: tm+mt
-source-wordcount: 1503
+source-wordcount: 1627
 ht-degree: 1%
 
 ---
@@ -163,6 +163,17 @@ HTML 구성 요소의 경우 특정 요소만 편집 가능한 필드가 될 수
    ![](assets/fragment-expression-use.png)
 
 ## 사용자 지정 가능한 조각에 서식 있는 텍스트 추가 {#rich-text}
+
+>[!CONTEXTUALHELP]
+>id="ajo_editable_fragment_compatibility"
+>title="레거시 조각"
+>abstract="이 조각의 편집 가능한 필드는 텍스트 전용 모드입니다. 변환하기 전까지는 이메일의 이 조각을 편집할 때 일반 텍스트만 입력할 수 있습니다. 굵게, 기울임꼴, 하이퍼링크 및 줄 바꿈과 같은 서식 있는 텍스트는 지원되지 않습니다. 구성 요소를 HTML 호환 모드로 업그레이드하려면 <b>변환</b>을 클릭하십시오."
+
+>[!CONTEXTUALHELP]
+>id="ac_editable_fragment_compatibility"
+>title="레거시 조각"
+>abstract="이 사용자 지정 가능한 조각의 편집 가능한 필드는 텍스트 전용입니다. 서식 있는 텍스트 서식(굵게, 기울임꼴, 하이퍼링크, 줄바꿈 등) 조각 작성자가 조각 편집기의 <b>변환</b> 단추를 사용하여 조각을 HTML 호환 모드로 업그레이드할 때까지 이메일 Designer에서 사용할 수 없습니다."
+>additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="조각에서 편집 가능한 필드 사용자 지정"
 
 HTML 구성 요소를 사용하여 사용자 지정 가능한 조각에 줄 바꿈, 굵게, 기울임체 등과 같은 리치 텍스트를 추가할 수 있습니다. 그 방법은 다음과 같습니다.
 <!--
