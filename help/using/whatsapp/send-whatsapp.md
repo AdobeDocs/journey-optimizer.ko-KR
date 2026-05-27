@@ -23,10 +23,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 1ed76bda056ea59a11a6133e83934bfc47ccb4e9
 workflow-type: tm+mt
-source-wordcount: 242
-ht-degree: 3%
+source-wordcount: 420
+ht-degree: 2%
 
 ---
 
@@ -55,3 +55,28 @@ ht-degree: 3%
 > 캠페인이 승인 정책의 적용을 받는 경우 문자 메시지를 보내려면 승인을 요청해야 합니다. [자세히 알아보기](../test-approve/gs-approval.md)
 
 WhatsApp 메시지가 준비되면 [여정](../building-journeys/publish-journey.md) 또는 [캠페인](../campaigns/review-activate-campaign.md)의 구성을 완료하여 보내십시오.
+
+## WhatsApp 상호 작용 분석 {#whatsapp-channel-context}
+
+Journey Optimizer은 WhatsApp 채널에서 반환된 추가 상호 작용 데이터를 캡처하여 `whatsAppChannelContext` 필드 그룹 아래의 **보고 - 전자 메일 추적 경험 이벤트 데이터 세트**&#x200B;에 저장합니다. 이 필드를 사용하여 [대상](../audience/about-audiences.md)을(를) 빌드하고, [쿼리](../data/get-started-queries.md)를 실행하고, WhatsApp 참여를 분석하십시오. [시스템 데이터 세트에 대해 자세히 알아보세요](../data/get-started-datasets.md#system-datasets).
+
+다음 필드가 캡처됩니다.
+
+| 필드 | 설명 |
+|-|-|
+| `messageType` | WhatsApp 메시지 유형(예: `templateBased`, `response`). |
+| `inboundMessage` | 인바운드 회신 콘텐츠(예: `stop`, `start`, `subscribe`). |
+| `inboundNumber` | 인바운드 메시지가 수신된 발신자 ID. |
+| `channelType` | 채널 범주(`Utility`, `Marketing` 또는 `Promotional`). |
+| `profileNumber` | 인바운드 메시지가 수신된 전화 번호. |
+| `origTimestamp` | Meta / WhatsApp의 원래 타임스탬프. |
+| `status` | 표준화된 공급자 피드백(`sent`, `delivered`, `bounce`, `error`, `delay`, `duplicate`, `denylist`, `exclude` 또는 `unknown`)과 원시 공급자 상태 메시지를 포함하는 게재 상태입니다. |
+| `reactionEvent` | 사용자 응답 콘텐츠: 반응을 위한 이모지 또는 특정 메시지에 대한 답글을 위한 메시지 텍스트. |
+| `reactionMessageID` | 응답 중인 원래 메시지의 ID입니다. |
+| `reactionActionName` | 응답 작업 유형(`react`, `unreact` 또는 `reply`). |
+| `interactiveSelectedTitle` | WhatsApp 대화형 메시지에서 사용자가 선택한 제목입니다. |
+| `interactiveType` | 대화형 메시지 유형(`list reply`, `button reply` 또는 `button`). |
+| `interactiveSelectedDescription` | 선택한 WhatsApp 대화형 옵션에 대한 설명입니다. |
+| `interactiveSelectedID` | WhatsApp에서 선택한 옵션의 ID입니다. |
+
+이 데이터 집합을 쿼리하려면 쿼리 서비스의 `ajo_email_tracking_experience_event_dataset` 테이블을 사용합니다. 쿼리 패턴 및 관련 사용 사례는 [데이터 집합 쿼리 예제](../data/datasets-query-examples.md)를 참조하십시오.
