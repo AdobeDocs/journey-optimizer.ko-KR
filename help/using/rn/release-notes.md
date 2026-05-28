@@ -8,27 +8,15 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 83d84795cd444615143554bb54d803c6afe7ca33
 workflow-type: tm+mt
-source-wordcount: 3012
+source-wordcount: 3073
 ht-degree: 17%
 
 ---
@@ -86,7 +74,7 @@ ht-degree: 17%
 <p>이제 여정을 <strong>시뮬레이션</strong>으로 설정할 수 있습니다. 이 모드를 사용하면 <strong>시뮬레이션된 사용자</strong>를 사용하여 논리의 유효성을 검사할 수 있습니다. 시뮬레이션된 사용자는 시뮬레이션을 위해 특별히 생성된 임시 프로필로, Adobe Experience Platform에서 영구 테스트 프로필을 관리할 필요 없이 자유롭게 테스트할 수 있습니다.</p>
 <p>이 기능은 기본 기능에만 제한된 가용성으로 모든 고객에게 제공됩니다.</p>
 <p><img src="assets/do-not-localize/simulate-user.gif"></p>
-<p>자세한 내용은 <a href="../building-journeys/simulate-journey.md">세부 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../building-journeys/simulate-journey.md">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2026년 5월 5일</p>
 </td>
 </tr>
@@ -198,7 +186,7 @@ ht-degree: 17%
 <p>이제 오케스트레이션된 다른 캠페인의 <strong>종료 활동</strong>에서 오케스트레이션된 캠페인을 직접 트리거하여 오케스트레이션된 캠페인을 함께 연결할 수 있습니다.</p>
 <p>이렇게 하면 복잡한 오케스트레이션 논리를 매번 다시 빌드되지 않고 여러 상위 캠페인에서 호출할 수 있는 더 작고 재사용 가능한 흐름으로 나눌 수 있습니다. 런타임 시 전달된 페이로드는 다운스트림 캠페인의 세분화 및 개인화에 사용할 수 있으므로 연결된 각 캠페인은 받은 컨텍스트를 기반으로 작동할 수 있습니다.</p>
 <p><img src="assets/do-not-localize/oc-trigger.gif"></p>
-<p>자세한 내용은 <a href="../orchestrated/trigger-orchestrated-campaign.md#signal-end">세부 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../orchestrated/trigger-orchestrated-campaign.md#signal-end">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2026년 5월 20일</p>
 </td>
 </tr>
@@ -271,22 +259,26 @@ ht-degree: 17%
 <td>
 <p>[!DNL Adobe Journey Optimizer] 이제 는 AI를 사용하여 의사 결정 규칙 및 간소화할 수 있는 등급 공식을 감지합니다. 인벤토리에서 AI가 최적화 기회를 식별한 모든 규칙에 빨간색 표시기가 나타납니다. 표시기를 클릭하면 AI가 제안하는 버전과 함께 원래 표현식이 표시됩니다. 여기에서 파일을 다운로드하여 시뮬레이트된 프로필이 각 버전별로 평가되는 방법을 검토하고 동일하게 동작하는지 확인한 다음 표현식을 최적화된 표현식으로 바꿀 수 있습니다.</p>
 <p><img src="assets/do-not-localize/rule-ai.gif"></p>
-<p>자세한 내용은 <a href="../start/ai-features.md#decisioning-optimization">세부 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../start/ai-features.md#decisioning-optimization">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2026년 5월 5일</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-* **마이그레이션 워크플로 API 결정** - 종속성 분석 및 마이그레이션 워크플로를 만들기 위한 API 계약이 업데이트되었습니다. 요청 URL(`sandbox`, `offer` 또는 `decision`)에서 **`request-level`**&#x200B;을(를) **쿼리 매개 변수**(으)로 전달하십시오. 요청 수준은 더 이상 JSON 본문에 전송되지 않아야 합니다. [자세히 보기](../experience-decisioning/decisioning-migration-api.md)
-
-  사용 가능한 날짜: 2026년 5월 6일
-
 * **Decisioning의 Adobe Experience Manager 콘텐츠 조각** - 이제 Adobe Experience Manager 콘텐츠 조각을 Decisioning의 의사 결정 항목에 매핑하고 의사 결정 정책 내에서 활용하여 적절한 시기에 적절한 고객에게 적절한 조각을 전달할 수 있습니다. [자세히 보기](../integrations/aem-fragments.md#aem-decisioning)
 
   이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
 
   사용 가능한 날짜: 2026년 5월 20일
+
+* **캠페인 요약의 의사 결정 정책 세부 정보** - 이제 캠페인 요약 페이지에서 캠페인을 복제하거나 편집하지 않고도 각 의사 결정 정책의 전체 구조(선택 전략, 의사 결정 항목 및 대체 오퍼 등)를 검토할 수 있습니다. Adobe 지원 또는 엔지니어링 팀과 함께 문제를 해결하기 위해 JSON 요약을 클립보드에 복사할 수도 있습니다. [자세히 보기](../experience-decisioning/use-decision-policy.md#decision-policy-summary)
+
+  사용 가능한 날짜: 2026년 5월 20일
+
+* **마이그레이션 워크플로 API 결정** - 종속성 분석 및 마이그레이션 워크플로를 만들기 위한 API 계약이 업데이트되었습니다. 요청 URL(`sandbox`, `offer` 또는 `decision`)에서 **`request-level`**&#x200B;을(를) **쿼리 매개 변수**(으)로 전달하십시오. 요청 수준은 더 이상 JSON 본문에 전송되지 않아야 합니다. [자세히 보기](../experience-decisioning/decisioning-migration-api.md)
+
+  사용 가능한 날짜: 2026년 5월 6일
 
 +++ 곧 출시 예정 — **아래 정보는 변경될 수 있습니다.**
 
@@ -327,7 +319,7 @@ ht-degree: 17%
 <p>이제 이메일 Designer의 전용 옵션을 통해 이메일 콘텐츠에 딥 링크를 추가할 수 있습니다. 이렇게 하면 사용자가 브라우저나 앱스토어로 리디렉션되지 않고 올바른 인앱 콘텐츠로 바로 이동하도록 하여 컨텍스트와 참여도를 유지할 수 있습니다.</p>
 <p>모든 고객이 딥링크 옵션을 사용할 수 있지만 딥링크는 필수 구성 및 모바일 앱 구현 단계를 완료한 경우에만 작동합니다.</p>
 <p><img src="assets/do-not-localize/deeplinks.gif"></p>
-<p>자세한 내용은 <a href="../email/deeplinks.md">세부 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../email/deeplinks.md">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2026년 5월 12일</p>
 </td>
 </tr>

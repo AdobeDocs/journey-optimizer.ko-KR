@@ -9,24 +9,15 @@ mini-toc-levels: 1
 version: Journey Orchestration
 exl-id: 35fc3cf2-1b91-4f30-ad71-f9d7d2a0291c
 TQID: https://experienceleague.adobe.com/zKV67LEfRVmEk9Fac-D45qdHLqbuVCS3rUt6Rt0HB7w
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: eb2b97776f60b73c53d666b11f807aca29514059
 workflow-type: tm+mt
-source-wordcount: 853
-ht-degree: 3%
+source-wordcount: 1164
+ht-degree: 2%
 
 ---
 
@@ -159,6 +150,47 @@ ht-degree: 3%
 * [캠페인 검토 및 활성화](../campaigns/review-activate-campaign.md)
 
 코드 기반 경험의 경우 개발자가 채널 구성에 정의된 표면에 대한 콘텐츠를 가져오기 위해 API 또는 SDK 호출을 수행하면 바로 웹 페이지 또는 앱에 변경 사항이 적용됩니다.
+
+## 캠페인 요약에서 의사 결정 정책 세부 정보 보기 {#decision-policy-summary}
+
+작업 또는 API로 트리거된 [캠페인](../campaigns/get-started-with-campaigns.md)이(가) 해당 콘텐츠에서 의사 결정 정책을 사용하면 캠페인 요약 페이지에 캠페인에 사용된 모든 정책을 나열하는 **[!UICONTROL 의사 결정 정책]** 섹션이 표시됩니다.
+
+각 의사 결정 정책의 기술 세부 사항에 액세스하여 클립보드에 복사할 수 있으므로 Adobe 지원 또는 엔지니어링 팀의 문제를 해결하는 데 유용합니다.
+
+의사 결정 정책 세부 정보 및 기술 정보에 액세스하려면 아래 단계를 따르십시오.
+
+1. [구성](../campaigns/review-activate-campaign.md#action-campaign-review) 중에 **[!UICONTROL 활성화 검토]**&#x200B;를 클릭하거나 **[!UICONTROL 캠페인]** 목록에서 캠페인을 열어 캠페인 요약을 엽니다.
+
+1. **[!UICONTROL 의사 결정 정책]** 섹션에는 캠페인에 사용된 모든 정책이 나열됩니다.
+
+   ![](assets/campaign-summary-decision-policies.png)
+
+1. 결정 정책을 선택하거나 **[!UICONTROL 모두 보기]**&#x200B;를 클릭합니다. 다음을 포함하여 각 정책에 대한 세부 사항을 검토할 수 있습니다.
+
+   * 의사 결정 정책에 사용된 전략
+   * 반환할 항목 수
+   * 각 선택 전략에 사용되는 컬렉션, 등급 방법 및 자격 규칙
+   * 적합한 결정 항목이 없는 경우 사용되는 대체 오퍼
+
+   ![](assets/campaign-decision-policy-details.png)
+
+1. 컬렉션을 클릭하여 포함된 모든 결정 항목을 표시합니다.
+
+1. 의사 결정 항목을 클릭하여 세부 정보에 액세스하고 필요한 경우 편집합니다. 그러면 새 브라우저 탭에서 열립니다. 또는 **[!UICONTROL 항목 보기]**&#x200B;를 클릭하여 컬렉션에 없는 결정 항목을 표시합니다.
+
+   ![](assets/campaign-decision-policy-collection.png)
+
+1. 각 선택 전략에 사용되는 순위 방법 및 자격 규칙에 대한 정보를 볼 수도 있습니다.
+
+   ![](assets/campaign-decision-policy-eligibility.png){width="80%"}
+
+1. 캠페인 요약으로 돌아가서 **[!UICONTROL 작업]** 섹션에서 결정 정책을 선택하고 **정보** 아이콘을 클릭하여 결정 정책의 기술 세부 정보에 액세스할 수도 있습니다.
+
+   ![](assets/campaign-decision-policy-information.png)
+
+1. 결정 정책의 JSON 표현을 클립보드에 복사하려면 **클립보드에 복사** 아이콘을 클릭하십시오.
+
+   복사된 JSON에는 조직 이름 및 ID, 샌드박스 이름, 의사 결정 정책 ID 및 전체 의사 결정 정책 구조가 포함됩니다. 이 정보를 Adobe 지원 또는 엔지니어링 팀과 공유하여 의사 결정 정책 문제를 보다 신속하게 해결할 수 있습니다.
 
 ## 보고 대시보드 사용
 
