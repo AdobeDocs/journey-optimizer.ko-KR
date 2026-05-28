@@ -41,8 +41,8 @@ Adobe Experience Platform **Privacy Service**&#x200B;는 고객 데이터 요청
 개인 정보 보호 서비스 관련 및 개인 정보 요청 생성/관리법 관련한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko-KR){target="_blank"}를 참조하세요.
 
 <!--
-* [Privacy Service overview](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)
-* [Managing privacy jobs in the Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html)
+* [Privacy Service overview](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko)
+* [Managing privacy jobs in the Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ko)
 -->
 
 ## Adobe Journey Optimizer에 보낼 수 있는 개별 데이터 개인 정보 요청 관리 {#data-privacy-requests}
