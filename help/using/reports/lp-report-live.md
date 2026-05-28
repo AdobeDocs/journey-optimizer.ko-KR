@@ -9,12 +9,21 @@ role: User
 level: Intermediate
 exl-id: df13e473-8003-4dde-aaf8-df8385c9ee21
 TQID: https://experienceleague.adobe.com/23vO219dTe7pQPoU2K1Rv3CsEEVJvzkRmzrHo2y-wDU
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: a9f73820-6899-47c2-a597-3fec28ab756a
+  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2:
+  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
+  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
+  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 459
@@ -63,7 +72,7 @@ ht-degree: 14%
 
 **[!UICONTROL 메시지를 통한 방문]** / **[!UICONTROL 메시지를 통한 전환]** 그래프는 보낸 메시지에 따라 지난 24시간 동안 랜딩 페이지와 성공적으로 상호 작용한 총 방문 및 사용자 수를 나타냅니다.
 
-**[!UICONTROL 채널별 방문]**/채널별 전환&#x200B;]**그래프는 채널에 따라 지난 24시간 동안 랜딩 페이지와 성공적으로 상호 작용한 총 방문 및 사용자 수를 나타냅니다.**[!UICONTROL 
+**[!UICONTROL 채널별 방문]**/채널별 전환&#x200B;**그래프는 채널에 따라 지난 24시간 동안 랜딩 페이지와 성공적으로 상호 작용한 총 방문 및 사용자 수를 나타냅니다.**
 +++
 
 Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 목록은 [이 페이지](live-report.md#live-report)를 참조하세요.
