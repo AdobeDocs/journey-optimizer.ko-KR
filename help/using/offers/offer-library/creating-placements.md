@@ -11,21 +11,13 @@ level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/VXoRuAT-zgYqxbfQBCZcqE16lCrGhQceLyexyijxsTI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 678
 ht-degree: 31%
@@ -90,11 +82,11 @@ ht-degree: 31%
 
    * **[!UICONTROL 콘텐츠 포함]** / **[!UICONTROL 메타데이터 포함]**: 오퍼의 콘텐츠 및 메타데이터를 API 응답에서 반환할지 여부를 지정합니다. 모든 메타데이터 또는 특정 필드만 포함할 수 있습니다. 기본적으로 메타데이터 포함 값은 참으로 설정됩니다.
 
-   이러한 매개 변수는 [Decisioning API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/decisioning-api.html?lang=ko)을(를) 사용하여 작업하는 경우 API 요청에 직접 설정할 수도 있습니다. 그러나 사용자 인터페이스에서 이를 구성하면 각 API 요청에서 전달할 필요가 없으므로 시간을 절약할 수 있습니다. 사용자 인터페이스와 API 요청 모두에서 매개 변수를 구성하는 경우 API 요청의 값이 인터페이스의 값보다 우선합니다.
+   이러한 매개 변수는 [Decisioning API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/decisioning-api.html)을(를) 사용하여 작업하는 경우 API 요청에 직접 설정할 수도 있습니다. 그러나 사용자 인터페이스에서 이를 구성하면 각 API 요청에서 전달할 필요가 없으므로 시간을 절약할 수 있습니다. 사용자 인터페이스와 API 요청 모두에서 매개 변수를 구성하는 경우 API 요청의 값이 인터페이스의 값보다 우선합니다.
 
    >[!NOTE]
    >
-   >[Edge Decisioning API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api.html?lang=ko&)로 작업하는 경우 이러한 매개 변수를 요청에 설정할 수 없습니다. 이 화면에서 정의해야 합니다.
+   >[Edge Decisioning API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api.html?)로 작업하는 경우 이러한 매개 변수를 요청에 설정할 수 없습니다. 이 화면에서 정의해야 합니다.
    >
    >[Batch Decisioning API](../api-reference/offer-delivery-api/batch-decisioning-api.md)로 작업하는 경우 이 화면 또는 API 요청에서 이러한 매개 변수를 설정할 수 있습니다. 화면과 APi 요청 사이에 매개 변수 값이 일치하지 않으면 요청 값이 사용됩니다.
 
@@ -108,5 +100,5 @@ ht-degree: 31%
 
 의사 결정 관리에서 배치를 만드는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/341390?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329372?quality=12)
 

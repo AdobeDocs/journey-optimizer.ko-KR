@@ -8,16 +8,11 @@ level: Experienced
 exl-id: 60b2990e-e3a6-4d4b-8851-889cf91b0eef
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/OJjohSCs2aEsSwxCLbMMqyCSovn88mBt-iocCZPrRXw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 85
 ht-degree: 5%
@@ -26,7 +21,7 @@ ht-degree: 5%
 
 # 항목 컬렉션 조회 {#lookup-item-collection}
 
-요청 경로에 ID가 포함된 오퍼 라이브러리 API에 대한 GET 요청을 하여 특정 항목 컬렉션을 조회할 수 있습니다.
+요청 경로에 ID가 포함된 오퍼 라이브러리 API에 대해 GET 요청을 수행하여 특정 항목 컬렉션을 조회할 수 있습니다.
 
 **API 형식**
 

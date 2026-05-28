@@ -7,12 +7,9 @@ role: User
 level: Intermediate
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
 version: Journey Orchestration
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 759
 ht-degree: 24%
@@ -93,7 +90,7 @@ ht-degree: 24%
 >id="ajo_exd_strategy_ranking"
 >title="오퍼 순위 지정하는 방법에 대한 정의"
 >abstract="특정 선택 전략에 여러 오퍼가 적합한 경우 선택 전략을 만들 때 각 프로필에 가장 적합한 오퍼를 선택하는 방법(우선순위 또는 순위 공식)을 선택합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-policies/create-decision.html?lang=ko" text="결정 정책 만들기"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-policies/create-decision.html" text="결정 정책 만들기"
 
 여러 오퍼가 주어진 선택 전략에 적합한 경우 선택 전략을 생성할 때 각 프로필에 가장 적합한 오퍼를 선택하는 방법을 선택할 수 있습니다. 오퍼의 순위를 지정할 수 있는 기준:
 

@@ -11,25 +11,16 @@ level: Intermediate
 exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/eRaNYYWH1ECH4zmW0-3wGdh7Bls1CC4fZgb-EEplNAw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 1060
-ht-degree: 1%
+source-wordcount: 458
+ht-degree: 4%
 
 ---
 
@@ -138,7 +129,7 @@ ht-degree: 1%
    * **id**
 
      **필드:** ID
-     **설명:** 콘텐츠 저장소의 자산을 참조하는 선택적 고유 식별자입니다. Platform API를 사용하여 표현을 검색하는 경우 클라이언트는 추가 속성 \&quot;repo:resolveUrl\&quot;을(를) 사용하여 에셋을 검색할 수 있습니다.
+     **설명:** 콘텐츠 저장소의 자산을 참조하는 선택적 고유 식별자입니다. Platform API를 사용하여 표현을 검색하는 경우 클라이언트는 추가 속성 \&quot;repo:resolveUrl\&quot;를 사용하여 에셋을 검색할 수 있습니다.
      **유형:** 문자열
      **예:** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
 
@@ -151,7 +142,7 @@ ht-degree: 1%
    * **repositoryID**
 
      **필드:** 저장소 ID
-     **설명:** 콘텐츠 저장소의 자산을 참조하는 선택적 고유 식별자입니다. Platform API를 사용하여 표현을 검색하는 경우 클라이언트는 추가 속성 \&quot;repo:resolveUrl\&quot;을(를) 사용하여 에셋을 검색할 수 있습니다.
+     **설명:** 콘텐츠 저장소의 자산을 참조하는 선택적 고유 식별자입니다. Platform API를 사용하여 표현을 검색하는 경우 클라이언트는 추가 속성 \&quot;repo:resolveUrl\&quot;를 사용하여 에셋을 검색할 수 있습니다.
      **유형:** 문자열
      **예:** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
 
@@ -180,7 +171,7 @@ ht-degree: 1%
   **필드:** linkURL
   **설명:** 사용자 상호 작용을 위한 선택적 고유 리소스 로케이터입니다. 이 URL은 사용자 에이전트에서 최종 사용자를에 연결하는 데 사용되며 추적할 수 있습니다.
   **유형:** 문자열
-  **예:** &quot;https://cdn.adobe.io/tracker?code=23432&redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
+  **예:** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 +++
 

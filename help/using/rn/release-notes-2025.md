@@ -8,15 +8,11 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: e42070c4cc1dde06786c4075b1e6e45e8c323c12
 workflow-type: tm+mt
-source-wordcount: 9308
+source-wordcount: 9272
 ht-degree: 99%
 
 ---
@@ -79,7 +75,7 @@ ht-degree: 99%
 <p>특정 데이터 세트를 기반으로 필요에 맞는 사용자 정의 양식을 만들고 디자인하고 관리합니다. 그런 다음 랜딩 페이지에서 이 양식을 활용하여 선택한 프로필 속성을 각 양식별로 정의한 데이터 세트에 추가할 수 있습니다.</p>
 <p>이 기능은 현재 미국 및 호주 고객에게 제한된 가용성으로 제공되고 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.</p>
 <p><img src="assets/do-not-localize/forms.gif"/></p>
-<p>자세한 내용은 <a href="../landing-pages/lp-forms.md">세부 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../landing-pages/lp-forms.md">세부 설명서</a>를 참조하십시오.</p>
 <p>가용성 일자: 2025년 10월 23일</p>
 </td>
 </tr>
@@ -322,7 +318,7 @@ table>
 </ul>
 <p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
 <p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
-<p>자세한 내용은 <a href="../email/pdf-attachments.md">세부 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../email/pdf-attachments.md">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2025년 9월 30일</p>
 </td>
 </tr>
@@ -981,7 +977,7 @@ table>
 <p>이제 커뮤니케이션 전반에 걸쳐 시각적, 언어적 정체성을 명확하게 정의하기 위해 자체 브랜드를 만들고 사용자 정의할 수 있습니다. 브랜드 정렬 점수를 사용하면 콘텐츠가 브랜드의 톤, 스타일, 가이드라인을 얼마나 잘 반영하는지에 대한 실시간 피드백을 받을 수 있으므로 보내는 모든 메시지에서 일관되게 브랜드에 맞는 내용을 전달하는 데 도움이 됩니다.</p>
 <p>이전에 Beta로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
 <p><img src="assets/do-not-localize/brand-score.gif"/></p>
-<p>자세한 내용은 <a href="../content-management/brands.md">세부 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../content-management/brands.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -1210,7 +1206,7 @@ table>
 <tbody>
 <tr>
 <td>
-<p>이제 여정 캔버스에서 전용 [콘텐츠 결정] 활동을 통해 개인화된 오퍼를 여정에 포함하고, 조건 및 사용자 정의 액션을 포함한 여정 활동에 사용할 수 있습니다.</p>
+<p>이제 여정 캔버스에서 전용 [콘텐츠 결정] 활동을 통해 개인화된 오퍼를 여정에 포함하고 조건 및 사용자 정의 액션을 포함한 여정 활동에 사용할 수 있습니다.</p>
 <img src="assets/do-not-localize/content-decision.gif">
 <p>이 기능은 일부 조직에서만 사용할 수 있으며(제한된 가용성) 향후 릴리스에서 전체 사용자를 대상으로 공개될 예정입니다.</p>
 <p>자세한 내용은 <a href="../building-journeys/content-decision.md">세부 설명서</a>를 참조하십시오.</p>
@@ -1283,7 +1279,7 @@ table>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer에서 너무 많은 상호 작용으로 고객에게 부담을 주는 상황을 피하려면 캠페인과 여정의 양과 타이밍을 관리하는 것이 필수적입니다. 이제 Journey Optimizer에서 충돌 관리 및 우선순위 지정을 위한 몇 가지 도구를 제공합니다. 이전에는 제한된 액세스(LA) 조직에서만 사용할 수 있었지만 현재는 일반 가용성(GA)으로 사용할 수 있습니다.</p>
+<p>Journey Optimizer에서 너무 많은 상호 작용으로 고객에게 부담 주는 상황을 피하려면 캠페인과 여정의 양과 타이밍을 관리하는 것이 필수적입니다. 이제 Journey Optimizer에서 충돌 관리 및 우선순위 지정을 위한 몇 가지 도구를 제공합니다. 이전에는 제한된 액세스(LA) 조직에서만 사용할 수 있었지만 현재는 일반 가용성(GA)으로 사용할 수 있습니다.</p>
 <p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다. 이번 일반 가용성 릴리스에서는 다음과 같은 개선 사항이 도입되었습니다.</p>
 <ul>
 <li>지원 확대: 이제 충돌 관리 도구가 대상자 읽기 여정 외에도 단일 여정 및 대상자 선별 여정을 모두 지원합니다.</li>
@@ -1692,7 +1688,7 @@ table>
 <tbody>
 <tr>
 <td>
-<p>이제 여정 지표를 사용하면 비즈니스의 주요 지표 전반에서 활동이 미치는 영향을 측정하고 성과에 대해 보다 명확한 인사이트를 제공할 수 있습니다.</p>
+<p>이제 여정 지표를 사용하면 비즈니스의 주요 지표 전반에 걸쳐 활동이 미치는 영향을 측정하고 성과에 대해 보다 명확한 인사이트를 제공할 수 있습니다.</p>
 </br>
 <img src="assets/do-not-localize/success-metric.gif"/>
 <p>자세한 내용은 <a href="../building-journeys/success-metrics.md">세부 설명서</a>를 참조하십시오.</p>
@@ -1958,7 +1954,7 @@ table>
 <tbody>
 <tr>
 <td>
-<p>이제 Journey Optimizer에서 Dynamic Media 자산을 바로 사용 및 액세스할 수 있습니다. 이 통합을 통해 다음과 같은 작업을 수행할 수 있습니다.
+<p>이제 Journey Optimizer에서 Dynamic Media 에셋을 바로 사용할 수 있고 액세스할 수 있습니다. 이 통합을 통해 다음과 같은 작업을 수행할 수 있습니다.
 <ul>
 <li>자산을 중앙에서 관리하며 실시간 업데이트 확인</li>
 <li>너비 및 높이와 같은 자산 설정을 즉시 수정</li>
@@ -2171,7 +2167,7 @@ You can now choose to have your emails relayed to your SMTP servers instead of b
 <tbody>
 <tr>
 <td>
-<p>유연한 대상자 평가를 사용하면 선택한 대상자에 대해 온디맨드로 세분화 작업을 실행할 수 있어, 대상자를 Journey Optimizer 여정 및 캠페인으로 타기팅하기 전에 항상 최신 대상자 데이터를 보유할 수 있습니다.</p>
+<p>유연한 대상자 평가를 사용하면 선택한 대상자에 대해 온디맨드로 세분화 작업을 실행할 수 있어 대상자를 Journey Optimizer 여정 및 캠페인으로 타기팅하기 전에 항상 최신 대상자 데이터를 보유할 수 있습니다.</p>
 <img src="assets/do-not-localize/flexible-audience.gif">
 <p>자세한 내용은 <a href="../audience/creating-a-segment-definition.md#flexible">세부 설명서</a>를 참조하십시오.</p>
 <p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>

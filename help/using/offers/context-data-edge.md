@@ -10,20 +10,12 @@ level: Experienced
 exl-id: c9e14d4d-f2e2-43f9-b1c5-4b005ce858ad
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/uUlnfdFBE4-6tCklMD-ZwpyVI75hMgSoFftS8n-cC1Y
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 920
 ht-degree: 3%
@@ -70,11 +62,11 @@ Decisioning API를 사용하여 컨텍스트를 자유 형식으로 전달하는
 
    ![언어 및 deviceType 속성이 있는 오퍼 컨텍스트 필드 그룹을 표시하는 XDM 스키마](assets/context-edge-xdm.png){width="60%" align="center" zoomable="yes"}
 
-   [!DNL Adobe Experience Platform] [XDM(Experience Data Model) 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home){target="_blank"}에서 스키마 작업 방법을 알아봅니다
+   [!DNL Adobe Experience Platform] [XDM(Experience Data Model) 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}에서 스키마 작업 방법을 알아봅니다
 
 1. 데이터 세트(&quot;오퍼 컨텍스트&quot;)를 만들고 프로필에 대해 활성화되어 있는지 확인합니다.
 
-1. **[!UICONTROL 데이터 수집]** > **[!UICONTROL 데이터스트림]** 메뉴에서 새 데이터스트림을 만듭니다. [!DNL Adobe Experience Platform] [데이터스트림 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/configure){target="_blank"}에서 데이터스트림을 만들고 구성하는 방법에 대해 알아봅니다.
+1. **[!UICONTROL 데이터 수집]** > **[!UICONTROL 데이터스트림]** 메뉴에서 새 데이터스트림을 만듭니다. [!DNL Adobe Experience Platform] [데이터스트림 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure){target="_blank"}에서 데이터스트림을 만들고 구성하는 방법에 대해 알아봅니다.
 
    여기에서는 &quot;오퍼 컨텐츠&quot; 이벤트 스키마가 선택된 상태로 &quot;오퍼 컨텍스트&quot; 데이터스트림을 생성했습니다.
 
