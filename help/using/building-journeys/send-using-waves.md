@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 여정에서 웨이브를 사용하여 보내기
+title: 여정에서 예약된 일괄 처리를 사용하여 전송
 description: 아웃바운드 여정 메시지가 시간에 따라 제어된 배치(예약된 일괄 처리)로 전달되도록 예약합니다. 읽기 대상 여정에서 웨이브를 보내면 로드 밸런싱과 전달성 지원에 도움이 됩니다.
 feature: Journeys, Activities, Audiences
 topic: Content Management
@@ -10,14 +10,16 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: 예약된 일괄 처리, 일정, 여정, 대상자 읽기, 전달성
 exl-id: 1aaff17f-aa08-4f10-903c-8335a86ac6eb
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 1%
+source-wordcount: 868
+ht-degree: 2%
 
 ---
 
-# 여정에서 웨이브를 사용하여 보내기 {#send-using-waves-journeys}
+# 여정에서 예약된 일괄 처리를 사용하여 전송 {#send-using-waves-journeys}
 
 여정의 아웃바운드 메시지를 한 번에 모두 전달하는 대신 시간이 지남에 따라 배치(예약된 일괄 처리)로 전달할 수 있습니다. Wave Sending은 로드 밸런싱을 지원하고, 과도한 다운스트림 시스템(예: 콜 센터나 랜딩 페이지)을 방지하고, 특히 대량 읽기 대상 여정의 경우 전달성과 발신자의 평판을 지원합니다.
 

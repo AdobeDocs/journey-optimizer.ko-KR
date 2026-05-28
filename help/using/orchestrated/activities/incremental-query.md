@@ -8,9 +8,13 @@ topic: Building campaigns
 role: User
 level: Intermediate
 version: Campaign Orchestration
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+feature_v2:
+  - id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
+subfeature_v2:
+  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: 518
 ht-degree: 22%
 
 ---
@@ -21,7 +25,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_incrementalquery"
 >title="증분 쿼리"
->abstract="증분 쿼리는 오케스트레이션된 캠페인이 실행될 때마다 데이터베이스 쿼리를 실행하는 타깃팅 활동입니다. 새 레코드만 반환하고 이전 실행에 이미 포함된 모든 레코드는 제외하므로 동일한 사용자를 다시 타기팅하거나 동일한 행을 다시 내보내는 일은 방지할 수 있습니다."
+>abstract="증분 쿼리는 오케스트레이션된 캠페인이 실행될 때마다 데이터베이스 쿼리를 실행하는 타깃팅 활동입니다. 새 레코드만 반환하고 이전 실행에 이미 포함된 모든 레코드는 제외하므로 동일한 사용자를 다시 타겟팅하거나 동일한 행을 다시 내보내는 일은 방지할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_incrementalquery_processeddata"

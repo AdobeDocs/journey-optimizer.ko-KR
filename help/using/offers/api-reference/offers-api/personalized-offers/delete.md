@@ -13,14 +13,15 @@ version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/q2fFLSdcuNPwgSB--vYHbpS5xAYcoL-v6pAbQhtl69U
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
 feature_v2:
-  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+subfeature_v2:
+  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+  - id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 137
 ht-degree: 20%
@@ -42,7 +43,7 @@ ht-degree: 20%
 DELETE /{ENDPOINT_PATH}/offers/{ID}?offer-type=personalized
 ```
 
-| 매개 변수 | 설명 | 예 |
+| 매개변수 | 설명 | 예 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 지속성 API의 끝점 경로입니다. | `https://platform.adobe.io/data/core/dps/` |
 | `{ID}` | 삭제하려는 엔티티의 ID입니다. | `personalizedOffer1234` |
@@ -62,4 +63,4 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/offers/personalizedOffer
 
 성공적인 응답은 HTTP 상태 200과 빈 본문을 반환합니다.
 
-개인화된 오퍼에 대한 조회(GET) 요청을 시도하여 삭제를 확인할 수 있으며, 개인화된 오퍼가 제거되었기 때문에 HTTP 상태 404(찾을 수 없음)를 수신해야 합니다.
+개인화된 오퍼에 대한 조회(GET) 요청을 시도하여 삭제를 확인할 수 있으며 개인화된 오퍼가 제거되었기 때문에 HTTP 상태 404(찾을 수 없음)를 수신해야 합니다.

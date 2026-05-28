@@ -7,9 +7,14 @@ role: Developer
 level: Experienced
 exl-id: c8f88954-a721-4d18-9137-035ee9dc1bcf
 version: Journey Orchestration
-source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
+feature_v2:
+  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2:
+  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+  - id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: 196
 ht-degree: 4%
 
 ---
@@ -41,7 +46,7 @@ GET /{ENDPOINT_PATH}/offer-rules?{QUERY_PARAMS}
 
 | 매개변수 | 설명 | 예 |
 | --------- | ----------- | ------- |
-| `property` | 선택적 속성 필터: <ul><li>속성은 AND 작업별로 그룹화됩니다.</li><li>매개 변수는 다음과 같이 반복될 수 있습니다. property={PROPERTY_EXPR}[&amp;property={PROPERTY_EXPR2}..] 또는 property={PROPERTY_EXPR1}[,{PROPERTY_EXPR2}...]</li><li>속성 표현식이 `[ !]field[op]value` 형식이며 `op`에 `[==,!=,<=,>=,<,>,~]`이(가) 있어 정규 표현식을 지원합니다.</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
+| `property` | 선택적 속성 필터: <ul><li>속성은 AND 작업별로 그룹화됩니다.</li><li>매개 변수는 다음과 같이 반복될 수 있습니다. property={PROPERTY_EXPR}[&amp;property={PROPERTY_EXPR2}..] 또는 property={PROPERTY_EXPR1}[,{PROPERTY_EXPR2}...]</li><li>속성 표현식이 `[!]field[op]value` 형식이며 `[==,!=,<=,>=,<,>,~]`에 `op`이(가) 있어 정규 표현식을 지원합니다.</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
 | `orderBy` | 특정 속성별로 결과를 정렬합니다. 이름 앞에 - 를 추가하면 (orderby=-name) 내림차순 (Z-A)으로 이름별로 항목이 정렬됩니다. 경로 표현식은 점으로 구분된 경로 형식입니다. 이 매개 변수는 다음과 같이 반복될 수 있습니다. `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name` |
 | `limit` | 반환되는 엔티티 수를 제한합니다. | `limit=5` |
 

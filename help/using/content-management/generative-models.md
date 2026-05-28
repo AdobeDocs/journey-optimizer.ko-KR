@@ -7,14 +7,17 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 9ef6b02c-0a17-4b46-bcd3-8e922eef059a
-source-git-commit: d2110b995bc26df861825cdd49ca2fd39f904442
+feature_v2: []
+subfeature_v2:
+  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '501'
-ht-degree: 0%
+source-wordcount: 565
+ht-degree: 2%
 
 ---
 
-# 생성 모델 생성 및 관리 {#generative-models}
+# 생성형 모델 만들기 및 관리 {#generative-models}
 
 내장된 모델, 맞춤형 Firefly 모델 및 서드파티 이미지 생성 공급자를 통해 AI 이미지 생성 기능을 확장하여 특정 요구 사항을 충족하고 브랜드 정렬을 개선합니다.
 
@@ -24,7 +27,7 @@ ht-degree: 0%
 - Gemini 2.5 Flash에서 제공하는 **[!UICONTROL 파트너 모델]**&#x200B;은(는) 특정 사용 사례에 특화된 기능을 제공합니다. AI Assistant의 이미지에 대해 **텍스트 오버레이**&#x200B;와 함께 **Gemini**&#x200B;를 사용하는 단계별 워크플로에 대해서는 [텍스트 오버레이 이미지에 대한 생성 모델로 Gemini 사용](generative-uc.md#generative-gemini)을 참조하십시오.
 - **[!UICONTROL 사용자 지정 모델]**&#x200B;은(는) 자신의 자산에 대해 교육되고 조직에서 추가한 브랜드별 모델입니다.
 
-  **[!UICONTROL Adobe Firefly 설명서]**&#x200B;의 [사용자 지정 모델](https://helpx.adobe.com/kr/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html)에 대해 자세히 알아보기
+  [Adobe Firefly 설명서](https://helpx.adobe.com/kr/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html)의 **[!UICONTROL 사용자 지정 모델]**&#x200B;에 대해 자세히 알아보기
 
 구성하고 나면 콘텐츠에서 이미지를 만들 때 생성 모델을 선택할 수 있습니다. [이미지 생성에 대해 자세히 알아보세요](generative-image.md).
 

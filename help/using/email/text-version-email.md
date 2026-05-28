@@ -9,9 +9,11 @@ role: User
 level: Intermediate
 keywords: 텍스트, 이메일, 버전, 일반, 편집기
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
-source-git-commit: 0aa9e539422d87567b68d89c40aa0ca888c84b05
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: 1171
 ht-degree: 8%
 
 ---
@@ -36,7 +38,7 @@ ht-degree: 8%
 
 1. 이메일에서 **[!UICONTROL 일반 텍스트]** 아이콘을 선택합니다.
 
-1. **[!UICONTROL HTML과 동기화]** 전환을 사용하여 동기화를 비활성화하십시오. 확인 표시를 클릭하여 선택을 확인합니다.
+1. **[!UICONTROL HTML과 동기화]** 토글을 사용하여 동기화를 비활성화합니다. 확인 표시를 클릭하여 선택을 확인합니다.
 
    ![](assets/text_version_2.png)
 
@@ -222,7 +224,8 @@ FEATURED PRODUCTS
 
 ```
 We'd love your feedback!
-------------------------
+---------------------
+---
 
 Please take 2 minutes to complete our survey:
 https://example.com/survey/customer-feedback

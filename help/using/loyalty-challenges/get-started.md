@@ -11,10 +11,13 @@ hide: true
 badge: label="비공개 베타" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: 0769c486386ce27079244a3ff36cdd2fedf27214
+feature_v2: []
+subfeature_v2:
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 14%
+source-wordcount: 911
+ht-degree: 13%
 
 ---
 
@@ -42,7 +45,7 @@ ht-degree: 14%
 
 **구성 및 통합**
 
-<!-- * [Configure loyalty challenges](loyalty-admin.md) -->
+* [충성도 문제 구성](loyalty-admin.md)
 * [충성도 데이터 및 데이터 세트](loyalty-data-and-datasets.md)
 * [충성도 과제 API 참조](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
@@ -95,7 +98,7 @@ ht-degree: 14%
 
 1. **과제 만들기** - 이름, 유형(표준, 연속, 순차적 또는 가능한 경우 고유한 데이터 가져오기), 날짜 범위를 포함한 기본 과제 속성을 정의합니다. [챌린지 유형을 선택하는 방법을 알아보세요](create-challenges.md#create-the-challenge).
 
-1. **작업 추가** - 작업 유형(구매, 지출), 수량, 제품 필터 및 보상을 포함하여 고객이 완료해야 하는 특정 작업을 정의합니다.
+1. **작업 추가** - 작업 유형(구매, 지출 또는 사용자 지정 이벤트), 수량, 제품 필터 및 보상을 포함하여 고객이 완료해야 하는 특정 작업을 정의합니다.
 
 1. **콘텐츠 카드 디자인** - 고객 장치에 표시되는 Journey Optimizer 콘텐츠 카드를 사용하여 도전의 시각적 표현을 만듭니다. 콘텐츠 카드에는 도전 정보, 진행 상황, 보상 등이 표시된다.
 
@@ -107,7 +110,7 @@ ht-degree: 14%
 
 자세한 단계별 지침은 [문제 만들기](create-challenges.md)를 참조하십시오.
 
-## 전제 조건 {#prerequisites}
+## 사전 요구 사항 {#prerequisites}
 
 충성도 문제를 사용하기 전에 다음을 확인하십시오.
 
@@ -138,17 +141,13 @@ ht-degree: 14%
 
 +++
 
-<!--
++++고객 충성도 프로그램 구성(관리자)
 
-+++Configure the loyalty program (administrators)
+관리자는 **[!UICONTROL 충성도 관리자]** 메뉴에서 보상 공급자, 이벤트 정의, 제품 인벤토리, 제외 및 전역 설정을 구성합니다. 도전만 생성하는 마케터는 이 메뉴에 액세스할 필요가 없습니다. [충성도 문제를 구성하는 방법에 대해 알아보세요](loyalty-admin.md)
 
-To configure **[!UICONTROL Loyalty Admin]** (reward providers, event definitions, and global settings), you need administrator access to your Journey Optimizer organization. Marketers who only create challenges do not need access to this area. [Learn how to configure the loyalty program](loyalty-admin.md).
-
-Contact your administrator if **[!UICONTROL Loyalty Admin]** is not visible in the left navigation.
+왼쪽 탐색에 **[!UICONTROL 충성도 관리자]** 메뉴가 표시되지 않는 경우 관리자에게 문의하십시오.
 
 +++
-
--->
 
 +++타깃 대상자
 
@@ -206,21 +205,20 @@ Contact your administrator if **[!UICONTROL Loyalty Admin]** is not visible in t
     <em>기본 제공 대시보드를 사용하여 프로그램 KPI, 과제 결과 및 작업 지표 추적</em>
     </p>
   </td>
-  &lt;!--
-
-<td>
+  <!--
+    <a href="loyalty-admin.md"><strong>Configure the loyalty program</strong></a>
+  <td>
     <a href="loyalty-admin.md">
-      <img alt="구성" src="assets/do-not-localize/icon-access.png" width="200"/>
+    <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
     </a>
     <div>
-    <a href="loyalty-admin.md"><strong>충성도 프로그램 구성</strong></a>
+  -->
+    <a href="loyalty-admin.md"><strong>충성도 문제 구성</strong></a>
     </div>
     <p>
-    <em>이행에 대한 보상 공급자, 이벤트 정의 및 조직 설정</em>
+    <em>보상 공급자, 이벤트 정의 및 조직 설정을 설정합니다</em>
     </p>
   </td>
-
--->
 </tr>
 </table>
 

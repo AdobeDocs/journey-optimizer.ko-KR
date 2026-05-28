@@ -8,9 +8,15 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
+feature_v2:
+  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2:
+  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
+  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
+  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '6916'
+source-wordcount: 6916
 ht-degree: 99%
 
 ---
@@ -89,7 +95,7 @@ ht-degree: 99%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer에서 너무 많은 상호 작용으로 고객에게 부담을 주는 상황을 피하려면 캠페인과 여정의 양과 타이밍을 관리하는 것이 필수적입니다. 이제 Journey Optimizer에서 충돌 관리 및 우선 순위를 위한 몇 가지 도구를 제공합니다. <p>자세한 내용은 <a href="../conflict-prioritization/gs-conflict-prioritization.md">세부 설명서</a>를 참조하십시오.</p></p><p><ul><li><b>여정 빈도 캡핑</b>: 이제 여정에 적용할 규칙 집합을 만들어 일별, 주별 또는 월별로 한 프로필의 여정 수를 제한하고, 한꺼번에 실행되는 동시 여정 수도 제어할 수 있습니다.</li>
+<p>Journey Optimizer에서 너무 많은 상호 작용으로 고객에게 부담을 주는 상황을 피하려면 캠페인과 여정의 양과 타이밍을 관리하는 것이 필수적입니다. 이제 Journey Optimizer에서 충돌 관리 및 우선 순위를 위한 몇 가지 도구를 제공합니다. <p>자세한 내용은 <a href="../conflict-prioritization/gs-conflict-prioritization.md">세부 설명서</a>를 참조하세요.</p></p><p><ul><li><b>여정 빈도 캡핑</b>: 이제 여정에 적용할 규칙 집합을 만들어 일별, 주별 또는 월별로 한 프로필의 여정 수를 제한하고, 한꺼번에 실행되는 동시 여정 수도 제어할 수 있습니다.</li>
 <li><b>우선 순위 점수</b>: 이제 캠페인이나 여정에 0에서 100 사이의 우선 순위 점수를 할당할 수 있습니다. 숫자가 높을수록 우선 순위가 높다는 뜻입니다. 두 캠페인 또는 여정이 동일한 채널 구성을 사용하는 경우 Journey Optimizer에서 우선 순위 점수가 가장 높은 캠페인 또는 여정을 선택합니다. 캠페인의 점수가 동일한 경우, 수정한지 가장 오래된 캠페인을 선택합니다.</li>
 <li><b>잠재적 충돌 보기</b>: 이제 여정 및 캠페인의 새로운 "잠재적 충돌 보기" 버튼을 사용하여 시작 일자, 타깃팅된 대상자 또는 선택한 채널 구성 등이 다른 여정 또는 캠페인과 겹치는지 확인할 수 있습니다.</li>
 <li><b>여정 중재</b>: 이 새로운 기능을 사용하면 고객에게 가장 중요한 여정을 우선시할 수 있습니다. 고객이 우선 순위가 더 높은 예정된 여정에 입장할 자격이 있는 경우 우선 순위가 낮은 여정에 들어가지 않도록 하는 규칙을 만들 수 있습니다.</li>
@@ -1169,7 +1175,7 @@ table>
 <tr>
 <td>
 <p>새로운 [코드 기반 경험] 채널로 Adobe Journey Optimizer에서 원하는 인바운드 속성에 대해 고급 개인화 및 테스트를 수행할 수 있으므로 웹 앱, 모바일 앱, 데스크탑 앱, 비디오 콘솔, TV에 연결된 디바이스, 스마트 TV, 키오스크, ATM, IoT 디바이스 등과 같은 다양한 접점에서 맞춤형 경험을 원활하게 전달할 수 있습니다.</p>
-<P>주요 기능은 다음을 포함합니다.</p>
+<P>주요 기능은 다음과 같습니다.</p>
 <ul><li> 범용 개인화: 개인화된 경험을 모든 접점으로 확장하여 통합적이고 맞춤화된 사용자 여정을 보장합니다.</li>
 <li>세분화된 편집 정밀도: 앱 또는 웹 페이지 내의 개별 위치에서 있는 특정 콘텐츠를 편집할 수 있습니다.</li>
 <li>다목적 구현: 개발 환경과 원활하게 통합할 수 있도록 서버측, API 기반 또는 SDK 기반 구현 방법을 지원합니다.</li></ul></p>

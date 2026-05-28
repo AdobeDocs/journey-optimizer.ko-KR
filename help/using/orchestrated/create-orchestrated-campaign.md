@@ -10,13 +10,13 @@ product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
 subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-source-git-commit: ede238f1b1acd119cc201639488dd12fbcd518cf
+  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 1227
-ht-degree: 55%
+ht-degree: 64%
 
 ---
 
@@ -68,12 +68,12 @@ ht-degree: 55%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_schedule_validity"
 >title="스케줄러 유효성"
->abstract="예약된 캠페인의 경우 스케줄러에 대한 유효 기간을 정의합니다. 영구(기본값)이거나 특정 날짜까지 유효할 수 있습니다."
+>abstract="예약 캠페인의 경우, 스케줄러의 유효 기간을 정의합니다. 영구적(기본값)이거나 특정 날짜까지 유효할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_schedule_options"
 >title="스케줄러 옵션"
->abstract="API 호출 또는 업스트림 캠페인의 **종료** 활동을 기다리도록 일회성 또는 반복 일정(한 번, 매일, 주별, 월별 등)에서 또는 **신호에 의해 트리거됨**&#x200B;에서 캠페인이 시작되는 방법을 선택하십시오. 신호가 트리거되는 캠페인의 경우 페이로드에 전달할 매개 변수를 정의할 수 있습니다. [자세히 알아보기](trigger-orchestrated-campaign.md)"
+>abstract="API 호출 또는 업스트림 캠페인의 **종료** 활동을 기다리도록 일회성 또는 반복 일정(한 번, 매일, 주별, 월별 등)에서 또는 **신호에 의해 트리거됨**&#x200B;에서 캠페인이 시작되는 방법을 선택합니다. 신호가 트리거되는 캠페인의 경우 페이로드에 전달할 매개변수를 정의할 수 있습니다. [자세히 알아보기](trigger-orchestrated-campaign.md)"
 
 기본적으로 오케스트레이션된 캠페인은 수동으로 활성화될 때 시작되고 관련 활동이 실행되면 종료됩니다. 실행을 지연하거나 반복적으로 캠페인을 실행하려는 경우 캠페인에 대한 일정을 정의할 수 있습니다.
 

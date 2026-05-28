@@ -9,10 +9,17 @@ role: User
 level: Beginner
 keywords: 통합
 exl-id: 104f283e-f6a5-431b-919a-d97b83d19632
-source-git-commit: 4cc3c959fe08c1d574a5d041bf7721441bc96f97
+feature_v2:
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2:
+  - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
+  - id: c08fcc42-2918-421a-a25e-e1bd9464c290
+  - id: c6fdb8b1-45ee-460a-a859-9031c59118b7
+  - id: d16f7424-4847-4b90-a37c-4b52cbdabee5
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '1125'
-ht-degree: 7%
+source-wordcount: 1125
+ht-degree: 8%
 
 ---
 
@@ -49,7 +56,7 @@ ht-degree: 7%
 
 1. 사용자 이름, 이메일 주소를 입력하거나 목록에서 선택한 다음 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-사용자를 이전에 만들지 않은 경우 [이 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/abac/permissions-ui/users)를 참조하세요.
+이전에 사용자를 만들지 않은 경우 [이 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/abac/permissions-ui/users)를 참조하십시오.
 
 +++
 
@@ -85,7 +92,7 @@ ht-degree: 7%
 
    ![](assets/external-integration-config-2.png)
 
-1. GET과 POST 사이의 **[!UICONTROL HTTP 메서드]**&#x200B;를 선택합니다.
+1. GET과 POST 사이의 **[!UICONTROL HTTP 메서드]**&#x200B;을(를) 선택하십시오.
 
 1. 통합에 필요한 경우 **[!UICONTROL 헤더 추가]** 및/또는 **[!UICONTROL 쿼리 매개 변수 추가]**&#x200B;를 클릭합니다. 각 매개 변수에 대해 다음 세부 사항을 제공합니다.
 

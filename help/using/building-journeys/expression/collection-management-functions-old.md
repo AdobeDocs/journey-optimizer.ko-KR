@@ -9,9 +9,11 @@ role: Developer
 level: Experienced
 keywords: 쿼리, 컬렉션, 함수, 페이로드, 여정
 version: Journey Orchestration
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: 740
 ht-degree: 2%
 
 ---
@@ -75,7 +77,7 @@ ht-degree: 2%
 Data Source 조건 활동에서 **[!UICONTROL all]** 함수의 결과가 null인지 여부를 확인할 수 있습니다. 이 **[!UICONTROL all]** 함수를 **[!UICONTROL count]**&#x200B;와 같은 다른 함수와 결합할 수도 있습니다. 자세한 내용은 [데이터 Source 조건 활동](../conditions.md#data_source_condition)을 참조하세요.
 
 
-## 예시
+## 예
 
 >[!CAUTION]
 >

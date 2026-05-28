@@ -10,9 +10,12 @@ level: Intermediate
 keywords: 하위 도메인, 위임, 마이그레이션, CNAME, 사용자 정의 위임
 badge: label="제한된 가용성" type="Informative"
 exl-id: f74139cf-640f-4b7b-a0b1-6eae9c75e7e4
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+feature_v2: []
+subfeature_v2:
+  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '1251'
+source-wordcount: 1258
 ht-degree: 5%
 
 ---
@@ -197,10 +200,10 @@ ht-degree: 5%
 
 * _리소스를 확인할 수 없습니다. DNS가 아직 있으므로 삭제해야 합니다._ — 호스팅 솔루션에서 모든 레코드를 삭제해야 합니다. [방법 알아보기](#delete-dns)
 * _리소스를 확인할 수 없습니다. SSL 인증서를 업로드하고 다시 시도하십시오._ — SSL 인증서가 업로드되지 않았습니다. 업로드해야 합니다. [방법 알아보기](#upload-ssl-certificate)
-* _인증서의 SAN(주체 대체 이름)에 예기치 않은 도메인이 있습니다._ — 올바른 SSL 인증서를 업로드해야 합니다. [방법 알아보기](#upload-ssl-certificate)
-* _인증서에 SAN(주체 대체 이름)에 필요한 다음 도메인이 없습니다._ — 올바른 SSL 인증서를 업로드해야 합니다. [방법 알아보기](#upload-ssl-certificate)
+* _SAN(주체 대체 이름)에 예기치 않은 도메인이 포함되어 있습니다._ — 올바른 SSL 인증서를 업로드해야 합니다. [방법 알아보기](#upload-ssl-certificate)
+* _SAN(주체 대체 이름)에 다음 필수 도메인이 없습니다._ — 올바른 SSL 인증서를 업로드해야 합니다. [방법 알아보기](#upload-ssl-certificate)
 
-**참조**
+**참조 항목**
 
 * [사용자 정의 하위 도메인 설정](delegate-custom-subdomain.md)
 * [하위 도메인 위임 방법](about-subdomain-delegation.md#subdomain-delegation-methods)

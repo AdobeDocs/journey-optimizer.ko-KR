@@ -6,16 +6,18 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner, Intermediate
 exl-id: 0c2f95ce-28a0-480c-9829-b7e4975b6340
-source-git-commit: 0d0999b831d01442c46015361018d6e646abc33c
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '1069'
-ht-degree: 1%
+source-wordcount: 1115
+ht-degree: 3%
 
 ---
 
 # AI 받은 편지함에 대한 이메일 최적화 {#email-text-optimizer}
 
-[!DNL Adobe Journey Optimizer]에는 개선된 AI 지원 받은 편지함 환경(예: [!DNL Apple Intelligence]의 [!DNL Google Gemini] 및 [!DNL Gmail])을 위해 특정 버전의 메시지를 구성하는 데 도움이 되는 이메일 채널 기능이 포함되어 있으므로 질문에 답변하고 콘텐츠를 기반으로 메일을 보다 정확하게 요약하여 더 나은 결과를 얻을 수 있습니다.
+[!DNL Adobe Journey Optimizer]에는 개선된 AI 지원 받은 편지함 환경(예: [!DNL Gmail]의 [!DNL Apple Intelligence] 및 [!DNL Google Gemini])을 위해 특정 버전의 메시지를 구성하는 데 도움이 되는 이메일 채널 기능이 포함되어 있으므로 질문에 답변하고 콘텐츠를 기반으로 메일을 보다 정확하게 요약하여 더 나은 결과를 얻을 수 있습니다.
 
 이 기능을 사용하면 얇은 자동 생성 텍스트나 관련 없는 컨텍스트가 아닌 AI 지원 받은 편지함 경험에서 오퍼, 작업 호출 및 의도한 세부 정보를 표시할 수 있도록 전용 메시지 버전을 생성하고 개선할 수 있습니다.
 
@@ -27,7 +29,7 @@ ht-degree: 1%
 
 ## 작동 방식 {#how-it-works}
 
-받는 사람이 AI 지원 받은 편지함 경험에서 물어볼 수 있는 일반적인 질문은 *입니다. 이 이메일은 무엇에 관한 것입니까?* 또는 *이러한 오퍼는 무엇입니까?*.
+받는 사람이 AI 지원 받은 편지함 경험에서 물어볼 수 있는 일반적인 질문은 다음과 같습니다. *이 전자 메일은 무엇에 관한 것입니까?* 또는 *이러한 오퍼는 무엇입니까?*.
 
 * 이러한 AI 도우미가 제공하는 답변은 간단한 요약일 수 있습니다(예: 메시지가 홍보용이며, VIP 조기 액세스 및 판매라고 언급되며, 제품 카테고리에 대한 링크가 포함됨). 그러나 보조자들이 효과적으로 볼 수 있는 텍스트(의도한 전체 스토리가 아닌)에서 추론하고 있기 때문에 마케터가 신경 쓴 목표를 여전히 생략합니다.
 
@@ -111,7 +113,7 @@ AI 받은 편지함에 대한 전자 메일 최적화 기능을 사용하면 사
 
 * **브랜드 및 법적 노출** — 잘못되거나 불완전한 AI 요약으로 인해 여전히 고객 혼란 또는 프로모션, 약관 또는 옵트아웃 언어에 대한 분쟁이 발생할 수 있습니다. [!DNL Journey Optimizer]은(는) 서드파티 모델이 최적화된 버전의 전자 메일을 충실하게 재현할 수 있는지 확인하지 않습니다.
 
-* **[!UICONTROL 의]** AI 받은 편지함에 최적화[!DNL Journey Optimizer] — 전자 메일 Designer의 작성 시간 컨트롤은 최종 사용자 받은 편지함 도우미와 별개입니다. 보내기 전에 항상 생성된 콘텐츠를 검토하십시오.
+* [!DNL Journey Optimizer]의 **[!UICONTROL AI 받은 편지함에 최적화]** — 전자 메일 Designer의 작성 시간 컨트롤은 최종 사용자 받은 편지함 도우미와 별개입니다. 보내기 전에 항상 생성된 콘텐츠를 검토하십시오.
 
 ## 관련 항목 {#related-topics}
 

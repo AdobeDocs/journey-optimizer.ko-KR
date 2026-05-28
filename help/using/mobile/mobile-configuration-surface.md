@@ -11,23 +11,20 @@ TQID: https://experienceleague.adobe.com/J5h64ccVVJUTCIk7FMMolKfEZy6rjEn-jwj1dEn
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
 subfeature_v2:
+  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 522
-ht-degree: 5%
+ht-degree: 13%
 
 ---
 
@@ -36,8 +33,8 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"
 >title="메시지 카테고리 정의"
->abstract="모바일 메시지 유형을 선택합니다. 이 구성은 사용자 동의가 필요한 프로모션 메시지에 대한 마케팅 또는 암호 재설정과 같은 비상업적인 메시지에 대한 트랜잭션 중 하나입니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=ko#sms-opt-out-management" text="마케팅 모바일 메시지에서 옵트아웃"
+>abstract="이 구성을 사용하는 모바일 메시지 유형 선택: 사용자 동의가 필요한 프로모션 메시지를 위한 마케팅 또는 암호 재설정과 같은 비상업적 메시지를 위한 트랜잭션."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=ko#sms-opt-out-management" text="마케팅 모바일 메시지 옵트아웃"
 
 모바일 메시지 채널이 구성되면 **[!DNL Journey Optimizer]**&#x200B;에서 SMS, RCS 및 MMS 메시지를 보낼 수 있도록 채널 구성을 만들어야 합니다.
 

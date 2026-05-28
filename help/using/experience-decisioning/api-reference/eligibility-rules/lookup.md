@@ -7,16 +7,21 @@ role: Developer
 level: Experienced
 exl-id: a74f4c87-0b89-4583-97f5-df8e2a30a19b
 version: Journey Orchestration
-source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
+feature_v2:
+  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2:
+  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+  - id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: 88
 ht-degree: 5%
 
 ---
 
 # 자격 규칙 조회 {#list-eligibility-rule}
 
-요청 경로에 ID를 포함하는 오퍼 라이브러리 API에 대한 GET 요청을 수행하여 특정 자격 규칙을 조회할 수 있습니다.
+요청 경로에 ID를 포함하는 오퍼 라이브러리 API에 대한 GET 요청을 하여 특정 자격 규칙을 조회할 수 있습니다.
 
 **API 형식**
 

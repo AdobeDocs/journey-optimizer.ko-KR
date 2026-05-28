@@ -11,9 +11,11 @@ hide: true
 badge: label="비공개 베타" type="Informative"
 mini-toc-levels: 1
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
-source-git-commit: 0769c486386ce27079244a3ff36cdd2fedf27214
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: 1642
 ht-degree: 1%
 
 ---
@@ -66,7 +68,7 @@ ht-degree: 1%
 >
 >충성도 문제를 구성하려면 충성도 문제에 필요한 권한과 함께 [!DNL Journey Optimizer] 인스턴스에 대한 관리자 액세스 권한이 필요합니다. 액세스 권한을 얻으려면 Adobe 관리자에게 문의하십시오.
 
-구성 인터페이스를 열려면 **[!UICONTROL 충성도]**(으)로 이동하고 **[!UICONTROL 충성도 관리자]**&#x200B;를 선택합니다. 인터페이스는 탭으로 구성됩니다.
+구성 인터페이스를 열려면 왼쪽 탐색에서 **[!UICONTROL 충성도 관리자]** 메뉴를 선택하십시오. 인터페이스는 탭으로 구성됩니다.
 
 * **전역 설정** — 프로그램의 Experience Platform ID 네임스페이스를 선택합니다. [전역 설정을 구성하는 방법을 알아봅니다](#global-settings)
 * **보상 제공자** - 고객이 진행하거나 문제를 완료할 때 보상을 이행하는 API를 연결합니다. [보상 공급자를 구성하는 방법을 알아보세요](#reward-providers)
@@ -74,11 +76,11 @@ ht-degree: 1%
 * **제품 인벤토리** - 작업 자격 규칙에 사용할 항목-그룹 매핑을 업로드합니다. [제품 인벤토리를 구성하는 방법을 알아봅니다](#product-inventory)
 * **제외** — 작업 구성에 대한 조직 전체 항목 및 그룹 제외를 업로드합니다. [제외 구성 방법 알아보기](#exclusions)
 
-## 전역 설정 {#global-settings}
+## 글로벌 설정 {#global-settings}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_global_settings"
->title="전역 설정"
+>title="글로벌 설정"
 >abstract="전역 설정에서는 이벤트 및 과제 전반에서 구성원을 식별하는 데 사용되는 ID 네임스페이스를 포함하여 충성도 과제에 대한 조직 수준의 구성을 정의합니다."
 
 **[!UICONTROL 전역 설정]** 탭을 열고 **[!UICONTROL 네임스페이스]** 드롭다운에서 충성도 문제를 해결하기 위한 Adobe Experience Platform [ID 네임스페이스](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/namespaces)을(를) 선택합니다. 이 네임스페이스는 멤버 프로필이 데이터에서 식별되는 방식과 일치해야 합니다.
@@ -199,7 +201,7 @@ ht-degree: 1%
 >title="이벤트 식별"
 >abstract="식별자 경로, 식별자 값, XDM 스키마 ID 또는 이러한 필드의 조합을 사용하여 [!DNL Journey Optimizer]이(가) 들어오는 페이로드에서 이벤트를 인식하는 방법을 지정합니다."
 
-**[!UICONTROL 이벤트 정의]**&#x200B;은(는) 처리할 수신 Adobe Experience Platform 경험 이벤트를 [!DNL Journey Optimizer]에 알려줍니다. 예를 들어, 구매 또는 호텔 체크인 등이 있습니다. 마케터는 **[!UICONTROL 사용자 지정 이벤트]** 작업을 만들 때 이러한 정의를 참조합니다. 정의와 일치하지 않는 이벤트는 무시됩니다.
+**[!UICONTROL 이벤트 정의]**&#x200B;은(는) 처리할 수신 Adobe Experience Platform 경험 이벤트를 [!DNL Journey Optimizer]에 알려줍니다. 예를 들어, 구매 또는 호텔 체크인 등이 있습니다. 마케터는 작업 빌더에서 **[!UICONTROL 사용자 지정 이벤트]** 작업을 만들 때 이러한 정의를 참조합니다. 정의와 일치하지 않는 이벤트는 무시됩니다.
 
 조직이 자체 JSON 형식으로 이벤트를 보내면 **[!UICONTROL 스키마]** 및 **[!UICONTROL 변환기]**&#x200B;에서 [!DNL Journey Optimizer]이(가) 페이로드의 유효성을 검사하고, 페이로드를 구문 분석하고, 활동을 추적할지 여부를 결정합니다.
 

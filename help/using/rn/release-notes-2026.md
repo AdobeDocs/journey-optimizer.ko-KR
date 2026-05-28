@@ -8,9 +8,15 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 65ca94cf-8e17-4a25-90f3-238083f81477
-source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
+feature_v2:
+  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2:
+  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
+  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
+  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '6076'
+source-wordcount: 6076
 ht-degree: 79%
 
 ---
@@ -58,7 +64,7 @@ ht-degree: 79%
 <td>
 <p>이제 Journey Optimizer로 전송 엔터티(발신자)와 작성 엔터티(보내는 사람)가 다른 이메일을 보낼 수 있습니다. 이를 지원하는 이메일 클라이언트는 일반적으로 해당 이메일을 '발신자가 보내는 사람 대신 발신' 형태로 전달하거나 '경유' 표시자를 표시합니다. 이메일 채널 설정에서 선택에 따라 사용할 수 있는 <strong>발신자 헤더</strong> 필드에 값을 입력하면 이 기능을 구성할 수 있습니다.</p>
 <p><img src="assets/do-not-localize/sender-headers.gif"></p>
-<p>자세한 내용은 <a href="../email/header-parameters.md#sender-header">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../email/header-parameters.md#sender-header">세부 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
@@ -77,7 +83,7 @@ ht-degree: 79%
 <p>관계 관리자나 계정 소유자 등 각 메시지에 적합한 이해 당사자를 자동으로 복사하는 동시에 고객에게 후속 조치를 위해 연락할 사람을 알릴 수 있습니다.</p>
 <p>CC 필드는 개인화를 지원하여 단일 구성이 프로필 데이터를 기반으로 복사본을 동적으로 라우팅하므로 추가 설정 없이 여러 사용 사례로 확장 가능합니다.</p>
 <p><img src="../configuration/assets/email-config-cc.png"></p>
-<p>자세한 내용은 <a href="../configuration/cc-email-field.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../configuration/cc-email-field.md">세부 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
@@ -94,7 +100,7 @@ ht-degree: 79%
 <td>
 <p>이제 샌드박스 도구가 오케스트레이션된 캠페인을 한 샌드박스에서 패키지화해 다른 샌드박스로 복사할 수 있도록 지원합니다. 각 환경에서 캠페인을 수동으로 재작성할 필요가 없습니다. 캠페인이 패키지화되면 병합 정책, 메시지와 같은 핵심 종속 오브젝트가 자동으로 포함되므로, 가져온 캠페인은 구성 및 유효성 검사를 수행할 준비가 된 상태로 도착합니다. 프로덕션 환경을 보호하기 위해 가져온 모든 캠페인은 대상 샌드박스에서 초안 상태로 전환되므로, 캠페인이 라이브로 전환되기 전에 팀에서 검토 및 승인하는 단계를 거치게 됩니다.</p>
 <p><img src="assets/do-not-localize/oc-sandbox.gif"></p>
-<p>자세한 내용은 <a href="../configuration/copy-objects-to-sandbox.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../configuration/copy-objects-to-sandbox.md">세부 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
@@ -129,7 +135,7 @@ ht-degree: 79%
 <p>이제 순위 공식에서 <strong>AI 모델</strong>을 사용하여 고객 프로필 속성 및 컨텍스트 요인에 따라 여정 우선순위 점수를 자동으로 높임으로써 고객이 가장 관련성이 높은 여정에 입장하도록 할 수 있습니다.</p>
 <p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
 <p><img src="assets/do-not-localize/journey-arbitration-ai-models.gif"></p>
-<p>자세한 내용은 <a href="../conflict-prioritization/journey-ai-models.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../conflict-prioritization/journey-ai-models.md">세부 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
@@ -148,7 +154,7 @@ ht-degree: 79%
 </p>
 <p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
 <p><img src="assets/do-not-localize/express_resize.gif"></p>
-<p>자세한 내용은 <a href="../integrations/express.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../integrations/express.md">세부 설명서</a>를 참조하세요.</p>
 <p>가용성 일자: 2026년 4월 23일</p>
 </td>
 </tr>
@@ -207,7 +213,7 @@ ht-degree: 79%
 <p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
 <p>이번 일반 출시에는 <strong>실험 유형</strong> 선택(A/B 또는 멀티암 밴딧) 및 단일 여정에 대한 <strong>성과 극대화</strong> 기능이 도입되었습니다.</p>
 <p><img src="assets/do-not-localize/optimize-experiment.gif"></p>
-<p>자세한 내용은 <a href="../building-journeys/path-experimentation.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../building-journeys/path-experimentation.md">세부 설명서</a>를 참조하세요.</p>
 <p>사용 가능한 날짜: 2026년 4월 7일</p>
 </td>
 </tr>
@@ -225,7 +231,7 @@ ht-degree: 79%
 <td>
 <p><strong>받은 편지함</strong>은 콘텐츠 카드와 함께 사용할 수 있는 모바일 기능으로, 고객이 앱이나 웹 사이트 내에 사용자에게 전송된 메시지를 표시하는 중앙 집중식 위치를 만들 수 있도록 지원합니다. 이를 통해 메시지를 닫은 후에도 계속 액세스할 수 있도록 하여 마케팅 커뮤니케이션의 수명을 연장할 수 있습니다.</p>
 <p><img src="assets/do-not-localize/inbox.gif"/></p>
-<p>자세한 내용은 <a href="../inbox/inbox-gs.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../inbox/inbox-gs.md">세부 설명서</a>를 참조하세요.</p>
 <p>사용 가능한 날짜: 2026년 4월 7일</p>
 </td>
 </tr>
@@ -244,7 +250,7 @@ ht-degree: 79%
 <p>이제 <strong>의사 결정</strong>을 사용하여 이메일 메시지 콘텐츠를 개인화하고 최적화할 수 있습니다. 우선순위 점수, 공식 또는 AI 모델을 활용하여 각 수신자에게 가장 관련성이 높은 오퍼와 콘텐츠를 표시하세요.</p>
 <p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성). 이번 일반 출시를 통해 미러 페이지가 지원됩니다.</p>
 <p><img src="assets/do-not-localize/exd-email.gif"></p>
-<p>자세한 내용은 <a href="../experience-decisioning/create-decision-policy.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../experience-decisioning/create-decision-policy.md">세부 설명서</a>를 참조하세요.</p>
 <p>사용 가능한 날짜: 2026년 4월 6일</p>
 </td>
 </tr>
@@ -361,7 +367,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 </ul>
 <p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
 <p><img src="assets/do-not-localize/encrypt-helper.gif"></p>
-<p>자세한 내용은 <a href="../personalization/url-parameter-encryption.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../personalization/url-parameter-encryption.md">세부 설명서</a>를 참조하세요.</p>
 <p>가용성 일자: 2026년 3월 31일</p>
 </td>
 </tr>
@@ -380,7 +386,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>이제 Journey Optimizer에서 직접 이미지를 이메일 콘텐츠 템플릿으로 변환할 수 있습니다. AI 기반 분석을 사용하여 시각적 참조 자료를 기반으로 구조화된 HTML 템플릿을 자동으로 생성함으로써 이메일을 디자인하는 시간을 크게 단축할 수 있습니다.</p>
 <p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
 <p><img src="assets/do-not-localize/image-converter.gif"></p>
-<p>자세한 내용은 <a href="../content-management/image-to-html.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../content-management/image-to-html.md">세부 설명서</a>를 참조하세요.</p>
 <p>가용성 일자: 2026년 3월 31일</p>
 </td>
 </tr>
@@ -400,7 +406,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>특정 데이터 세트를 기반으로 필요에 맞는 사용자 정의 양식을 만들고 디자인하고 관리합니다. 그런 다음 랜딩 페이지에서 이 양식을 활용하여 선택한 프로필 속성을 각 양식별로 정의한 데이터 세트에 추가할 수 있습니다.</p>
 <p>이전에 미국과 호주에 있는 고객에게 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
 <p><img src="assets/do-not-localize/forms.gif"/></p>
-<p>자세한 내용은 <a href="../landing-pages/lp-forms.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../landing-pages/lp-forms.md">세부 설명서</a>를 참조하세요.</p>
 <p>가용성 일자: 2026년 3월 26일.</p>
 </td>
 </tr>
@@ -418,7 +424,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p>이제 오케스트레이션된 캠페인에서 새로운 <strong>테스트</strong> 활동을 사용할 수 있습니다. 이 활동은 정의된 조건에 따라 워크플로 실행을 다른 분기로 라우팅하므로 라이브 게재를 활성화하기 전에 캠페인 논리 및 구성을 확인할 수 있습니다.</p>
 <p><img src="../orchestrated/assets/test-1.png"></p>
-<p>자세한 내용은 <a href="../orchestrated/activities/test.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../orchestrated/activities/test.md">세부 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
@@ -436,7 +442,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>여정에 새로 추가된 <strong>데이터 세트 조회</strong> 활동을 사용하면 런타임 시 Adobe Experience Platform 레코드 데이터 세트에서 데이터를 동적으로 검색하여 프로필 또는 이벤트 페이로드의 일부가 아닌 정보에 액세스함으로써 지속적으로 적시에 적절한 고객 상호 작용을 수행할 수 있습니다.</p>
 <p>이전에는 일부 조직에만 제한된 가용성으로 릴리스되었던 여정의 데이터 세트 조회 활동은 여전히 제한된 가용성 단계이지만 이제 [데이터 세트 조회](../data/lookup-aep-data.md) 권한이 있는 모든 고객이 사용할 수 있습니다.</p>
 <p><img src="../building-journeys/assets/aep-data-activity.png"></p>
-<p>자세한 내용은 <a href="../building-journeys/dataset-lookup.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../building-journeys/dataset-lookup.md">세부 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
@@ -455,7 +461,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>이제 별도의 채널별 노드를 만들 필요 없이 단일 액션 활동을 사용하여 모든 채널 액션을 구성해야 합니다.</p>
 <p>레거시 채널 활동을 사용 기존 여정은 수정이나 마이그레이션을 수행할 필요 없이 계속 정상적으로 작동합니다.</p>
 <p><img src="assets/do-not-localize/action-activity.gif"></p>
-<p>자세한 내용은 <a href="../building-journeys/journey-action.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../building-journeys/journey-action.md">세부 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
@@ -473,7 +479,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>이메일 콘텐츠 템플릿용 고급 HTML 모드를 사용하면 이메일 디자이너에서 콘텐츠의 HTML 소스를 편집하고, 소스에 고급 표현식(조건 등)을 추가하고, 변경 내용을 유지하면서 HTML 보기와 데스크탑 보기를 전환할 수 있습니다.</p>
 <p>이 기능은 이메일 채널의 콘텐츠 템플릿에서만 사용할 수 있습니다. 현재 제한된 가용성 단계이므로 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
 <p><img src="assets/do-not-localize/expert-mode.gif"/></p>
-<p>자세한 내용은 <a href="../email/email-expert-mode.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../email/email-expert-mode.md">세부 설명서</a>를 참조하세요.</p>
 <p>가용성 일자: 2026년 3월 10일</p>
 </td>
 </tr>
@@ -547,7 +553,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>이제 Journey Optimizer에서 의사 결정 AI 모델의 상태, 학습 진행 상황, 성과를 모니터링할 수 있습니다. 이를 통해 모델의 학습 성공을 확인하고 실패를 해결하며 결과에 미치는 영향을 파악하여 AI로 각 고객을 위한 최상의 오퍼를 선택할 수 있습니다. 이 기능은 <strong>의사 결정</strong>에만 사용할 수 있습니다(레거시 의사 결정 관리 모델에는 사용 불가).</p>
 <p>이 기능은 현재 <strong>개인화된 최적화</strong> 모델에만 사용할 수 있습니다(자동 최적화에는 사용 불가).</p>
 <p><img src="assets/do-not-localize/ai-model-observability.gif"/></p>
-<p>자세한 내용은 <a href="../experience-decisioning/ranking/ai-model-observability.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../experience-decisioning/ranking/ai-model-observability.md">세부 설명서</a>를 참조하세요.</p>
 <p>가용성 일자: 2026년 3월 9일</p>
 </td>
 </tr>
@@ -565,7 +571,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p>이제 <strong>API 신호</strong>를 통해 오케스트레이션된 캠페인을 트리거할 수 있습니다. 대상 캠페인을 <strong>신호에 의해 트리거됨</strong>으로 구성하고 게시한 다음 API 호출을 사용하여 실행하면 됩니다. API 호출에 포함된 모든 매개 변수는 실행하는 캠페인 내에서 변수로 사용할 수 있습니다. 신호에 의해 트리거되는 오케스트레이션된 캠페인은 <strong>배치</strong> 캠페인으로 유지되며 API 트리거 캠페인과는 다릅니다.</p>
 <p><img src="assets/do-not-localize/oc-triggered.gif"></p>
-<p>자세한 내용은 <a href="../orchestrated/trigger-orchestrated-campaign.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../orchestrated/trigger-orchestrated-campaign.md">세부 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
@@ -582,7 +588,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p>이제 오케스트레이션된 캠페인에서 채널 활동을 <strong>트랜잭션</strong> 범주로 설정할 수 있습니다. 이렇게 하면 해당 활동에 트랜잭션 채널 구성이 적용되며, 비즈니스 규칙을 적용하면 안 되거나 고객의 옵트인이 필요하지 않은 경우에 유용합니다.</p>
 <p><img src="assets/do-not-localize/oc-transactional.gif"></p>
-<p>자세한 내용은 <a href="../orchestrated/activities/channels.md#add">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../orchestrated/activities/channels.md#add">세부 설명서</a>를 참조하세요.</p>
 <p>이 기능은 향후 며칠 동안 모든 지역에 점진적으로 롤아웃될 예정입니다.</p>
 </td>
 </tr>
@@ -800,7 +806,7 @@ WAITING RELEASE DATE CONFIRMATION
 <p>이제 개인 맞춤화된 오퍼를 고객 여정에 직접 통합하기 위해 여정 캔버스에서 새로운 <strong>콘텐츠 결정 활동</strong>을 사용할 수 있습니다. 이 활동을 사용하면 의사 결정 기반 콘텐츠를 제공하고 자격 기반 분기를 만들기 위한 조건, 외부 시스템에 오퍼 데이터를 전달하기 위한 사용자 지정 작업 및 완전히 개인화된 고객 경험을 구축하기 위한 기타 활동에서 여정 전체에서 이러한 오퍼를 참조할 수 있습니다.</p>
 <p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
 <p><img src="assets/do-not-localize/content-decision.gif"/></p>
-<p>자세한 내용은 <a href="../building-journeys/content-decision.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../building-journeys/content-decision.md">세부 설명서</a>를 참조하세요.</p>
 <p>사용 가능한 날짜: 2026년 2월 10일</p>
 </td>
 </tr>
@@ -964,7 +970,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 <p>전에는 캠페인에서만 사용할 수 있던 <strong>다이렉트 메일</strong> 채널을 이제 여정 캔버스에서 사용하여 DM을 여정에 통합할 수 있습니다. 이제 파일 추출 구성 및 시간 기반 빈도 설정 지원이 추가되어 DM을 <strong>배치 및 1:1 여정 시나리오</strong> 모두에서 사용할 수 있습니다.</p>
 <p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
 <p><img src="assets/do-not-localize/dm-journey.gif"/></p>
-<p>자세한 내용은 <a href="../direct-mail/get-started-direct-mail.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../direct-mail/get-started-direct-mail.md">세부 설명서</a>를 참조하세요.</p>
 <p>사용 가능한 날짜: 2026년 1월 29일 금요일</p>
 </td>
 </tr>
@@ -983,7 +989,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 <p><strong>방해 금지 시간</strong> 기능으로 이메일, SMS, 푸시, WhatsApp 채널에 대한 시간 기반 제외를 정의할 수 있습니다. 특정 시간 동안 메시지가 전송되지 않도록 하여 고객 환경 설정과 및 규정 요건을 준수할 수 있습니다. <strong>규칙 세트</strong>를 통해 방해 금지 시간을 적용할 수 있으며, 정확한 제어를 위해 이 규칙 세트를 캠페인이나 여정의 개별 액션에 할당할 수 있습니다.</p>
 <p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다. 이번 일반 가용성 릴리스에서는 고객이 방해 금지 시간이 끝날 때까지 캠페인 액션을 대기열에 추가할 수 있는 기능과 활성화된 방해 금지 시간 규칙을 미리 볼 수 있는 기능이 제공됩니다.</p>
 <p><img src="assets/do-not-localize/quiet-hour-ga.gif"/></p>
-<p>자세한 내용은 <a href="../conflict-prioritization/quiet-hours.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../conflict-prioritization/quiet-hours.md">세부 설명서</a>를 참조하세요.</p>
 <p>사용 가능한 날짜: 2026년 1월 29일 금요일</p>
 </td>
 </tr>
@@ -1008,7 +1014,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 <p>레코드는 수집 후 7일 동안 AJO 메시지 내보내기 데이터 세트에 보존됩니다. 이 보존 기간 동안 Experience Platform 대상을 통해 자체 스토리지로 내보낼 수 있습니다. 이 기능은 채널 구성 수준에서 활성화되므로 내보낼 메시지를 <strong>세밀하게 제어</strong>할 수 있습니다.</p>
 <p>이 기능은 메시지 내보내기 추가 기능 서비스를 구입한 조직의 이메일 및 SMS 채널에서만 사용할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.</p>
 <p><img src="assets/do-not-localize/message-export.gif"/></p>
-<p>자세한 내용은 <a href="../configuration/message-export.md#message-export">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../configuration/message-export.md#message-export">세부 설명서</a>를 참조하세요.</p>
 <p>사용 가능한 날짜: 2026년 1월 28일</p>
 </td>
 </tr>
@@ -1026,7 +1032,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 <td>
 <p>이제 오케스트레이션 캠페인에서 다이렉트 메일 채널을 사용할 수 있습니다. <strong>다이렉트 메일 활동</strong>은 오케스트레이션된 캠페인 내에서 다이렉트 메일 전송 과정을 원활하게 하며 일회성 메시지와 되풀이 메시지에 모두 적용됩니다. 이는 다이렉트 메일 제공업체에 필요한 <strong>추출 파일</strong> 생성 프로세스를 자동화하는 역할을 합니다. 채널 활동을 오케스트레이션된 캠페인 캔버스에 결합하여 고객 행동 및 데이터에 따라 액션을 트리거할 수 있는 크로스 채널 캠페인을 만들 수 있습니다.</p>
 <p><img src="assets/do-not-localize/dm-oc.gif"/></p>
-<p>자세한 내용은 <a href="../orchestrated/activities/channels.md#channel">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../orchestrated/activities/channels.md#channel">세부 설명서</a>를 참조하세요.</p>
 <p>사용 가능한 날짜: 2026년 1월 28일</p>
 </td>
 </tr>

@@ -15,18 +15,20 @@ TQID: https://experienceleague.adobe.com/PpKizv9cq9CzZkYL1CpTXgYJk8T3o4HRWLlncAm
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 297a00585ee98161bead7014cddfe394b73de778
+subfeature_v2:
+  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+  - id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 1215
-ht-degree: 26%
+ht-degree: 27%
 
 ---
 
@@ -55,7 +57,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_capping_dataset"
 >title="데이터 세트 추가"
->abstract="[!DNL Adobe Experience Platform] 데이터 세트 속성을 사용하여 동적 외부 속성을 기반으로 상한 기준을 정의합니다. 필요한 특성이 있는 데이터 집합을 선택하려면 **[!UICONTROL 데이터 집합 추가]**&#x200B;를 클릭하세요. 목록에 데이터 세트가 표시되지 않으면 조회에 대해 데이터 세트를 활성화하고 데이터 세트 조회 매핑을 생성했는지 확인합니다."
+>abstract="[!DNL Adobe Experience Platform] 데이터 세트 속성을 사용하여 동적 외부 속성을 기반으로 상한 기준을 정의합니다. **[!UICONTROL 데이터 세트 추가]**&#x200B;를 클릭하여 필요한 속성이 포함된 데이터 세트를 선택합니다. 목록에 데이터 세트가 표시되지 않으면 조회에 대해 데이터 세트를 활성화하고 데이터 세트 조회 매핑을 생성했는지 확인합니다."
 
 [!DNL Journey Optimizer]을(를) 사용하면 의사 결정을 위해 [!DNL Adobe Experience Platform]의 데이터를 활용할 수 있습니다. 그러면 주기적으로 변경되는 일괄 업데이트 시 속성을 일일이 수동으로 업데이트할 필요 없이 결정 속성의 정의를 데이터 세트의 추가 데이터로 확장할 수 있습니다. 예를 들면 가용성, 대기 시간 등이 있습니다.
 

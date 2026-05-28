@@ -5,9 +5,12 @@ feature: Preview
 role: User
 level: Beginner
 exl-id: fe077a8b-9788-4723-a1e7-32816a879af9
-source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
+feature_v2: []
+subfeature_v2:
+  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: 159
 ht-degree: 3%
 
 ---
@@ -40,4 +43,4 @@ ht-degree: 3%
 
 >[!CAUTION]
 >
->**과(와)** Litmus[!DNL Journey Optimizer] 계정에 연결할 때 테스트 메시지가 Litmus로 전송되는 것에 동의합니다. 전송되면 이러한 이메일은 더 이상 Adobe에서 관리되지 않습니다. 따라서 이러한 테스트 메시지에 포함될 수 있는 개인화 데이터를 포함하여 이러한 이메일에 Litmus 데이터 보존 이메일 정책이 적용됩니다.
+>[!DNL Journey Optimizer]과(와) **Litmus** 계정에 연결할 때 테스트 메시지가 Litmus로 전송되는 것에 동의합니다. 전송되면 이러한 이메일은 더 이상 Adobe에서 관리되지 않습니다. 따라서 이러한 테스트 메시지에 포함될 수 있는 개인화 데이터를 포함하여 이러한 이메일에 Litmus 데이터 보존 이메일 정책이 적용됩니다.
