@@ -30,10 +30,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: c5965ac7ea1465a20335536ebebf409e63bce98b
 workflow-type: tm+mt
-source-wordcount: 2057
-ht-degree: 14%
+source-wordcount: 2200
+ht-degree: 13%
 
 ---
 
@@ -184,7 +184,16 @@ Adobe Journey Optimizer은 사용자 지정 작업에 대해 기본적으로 TLS
 
 mTLS(상호 전송 계층 보안)를 사용하여 Adobe Journey Optimizer 사용자 지정 작업에 대한 아웃바운드 연결에서 보안을 강화할 수 있습니다. mTLS는 상호 인증을 위한 종단간 보안 방법으로, 정보를 공유하는 양 당사자가 데이터를 공유하기 전에 자신이 주장하는 사람임을 보장합니다. mTLS에는 TLS와 비교하여 추가 단계가 포함되어 있으며, 이 단계에서 서버는 클라이언트의 인증서를 요청하고 마지막에 검증한다.
 
-사용자 지정 작업에서 상호 TLS(mTLS) 인증이 지원됩니다. mTLS를 활성화하기 위해 사용자 정의 작업 또는 여정에 구성을 추가할 필요는 없습니다. mTLS 활성화 엔드포인트가 감지되면 자동으로 활성화됩니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
+사용자 지정 작업에서 상호 TLS(mTLS) 인증이 지원됩니다. mTLS를 활성화하기 위해 사용자 정의 작업 또는 여정에 구성을 추가할 필요는 없습니다. mTLS 활성화 엔드포인트가 감지되면 자동으로 활성화됩니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support)
+
+>[!IMPORTANT]
+>
+>Adobe은 사용자 지정 작업 연결에 사용되는 mTLS 클라이언트 인증서를 주기적으로 회전합니다. 새 인증서가 발행되면 끝점의 Trust Store를 업데이트하여 이를 수락해야 합니다. 그렇지 않으면 인증서 불일치 오류로 인해 Journey Optimizer에서 서비스에 대한 아웃바운드 연결이 실패합니다. 중단을 방지하려면
+>
+>* 서비스와 관련된 업데이트된 인증서가 있는지 [Adobe 공개 인증서 API](https://platform.adobe.io/data/core/mtls/v1/certificate/public-certificate)를 정기적으로 확인하십시오.
+>* **겹치는 인증서**(이전 인증서와 새 인증서가 동시에)를 수락하도록 끝점을 구성하면 순환 중에 연결 간격이 없습니다.
+>* Adobe은 현재 인증서가 회전할 때 사전 알림을 전송하지 않습니다. 인증서 업데이트를 모니터링하고 신뢰 저장소를 최신 상태로 유지하는 것은 사용자의 책임입니다.
+>* 트러스트 유효성 검사는 특정 리프 인증서 지문에 고정하지 않고 루트 CA(DigiCert)까지의 인증서 체인을 기반으로 해야 합니다.
 
 ## 페이로드 매개 변수 정의 {#define-the-message-parameters}
 
