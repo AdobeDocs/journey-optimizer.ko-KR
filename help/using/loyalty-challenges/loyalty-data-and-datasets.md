@@ -70,9 +70,9 @@ Journey Optimizer 프로그램 설정의 Adobe 관리자에게 문의하거나 *
 
 Challenge 대상자, 개인화 및 보고는 **[!DNL XDM Individual Profile]** 클래스의 프로필을 사용합니다. 충성도 문제에 사용하는 ID [네임스페이스](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/namespaces){target="_blank"}를 프로필 데이터에서 구성원이 식별되는 방식과 **[!UICONTROL 충성도 관리자]** 메뉴의 **[!UICONTROL 전역 설정]**&#x200B;에서 선택한 네임스페이스와 연결합니다.
 
-프로필의 표준 충성도 특성(포인트, 계층, 프로그램, 상태 및 관련 필드)에 대해서는 Experience Platform **[충성도 세부 정보](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}** 스키마 필드 그룹을 사용하십시오. 해당 필드 그룹은 `loyalty` 개체와 해당 속성을 정의합니다(예: `points`, `tier`, `program` 및 `status`).
+프로필의 표준 충성도 특성(포인트, 계층, 프로그램, 상태 및 관련 필드)에 대해서는 Experience Platform **[충성도 세부 정보](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}** 스키마 필드 그룹을 사용하십시오. 해당 필드 그룹은 `loyalty` 개체와 해당 속성을 정의합니다(예: `points`, `tier`, `program` 및 `status`).
 
-➡️ [충성도 세부 정보 스키마 필드 그룹](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
+➡️ [충성도 세부 정보 스키마 필드 그룹](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
 
 ### 경험 이벤트 {#experience-events}
 

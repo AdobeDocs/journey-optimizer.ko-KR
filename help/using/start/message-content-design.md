@@ -93,7 +93,7 @@ SMS를 사용하여 개인화된 모바일 메시지를 작성하고, MMS를 사
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 템플릿 및 조각 사용
 

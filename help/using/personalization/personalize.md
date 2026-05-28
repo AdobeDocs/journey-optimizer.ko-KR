@@ -54,7 +54,7 @@ Personalization은 Adobe Experience Platform에 정의된 **XDM 개인 프로필
 
 ![개인화 플레이그라운드](assets/playground.png)
 
-➡️ [개인화 플레이그라운드에 액세스](https://experienceleague.adobe.com/en/apps/journey-optimizer/ajo-personalization){target="_blank"}
+➡️ [개인화 플레이그라운드에 액세스](https://experienceleague.adobe.com/ko/apps/journey-optimizer/ajo-personalization){target="_blank"}
 
 ## 개인화 표현식에 AI 어시스턴트 사용 {#ai-personalization-expressions}
 
