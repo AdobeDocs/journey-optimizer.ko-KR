@@ -12,7 +12,6 @@ TQID: https://experienceleague.adobe.com/cwg-nGPftYg6UgVSKXZPdW6DZr4-m5UM5Wqzfx3
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
   - id: dc22c819-3f29-4e91-8b7d-5c6719831141
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
 subfeature_v2:
@@ -26,7 +25,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 59d843037ed63ac2d474f29125eba4f0cef5c61b
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 1627
 ht-degree: 1%
@@ -123,7 +122,7 @@ HTML 구성 요소의 경우 특정 요소만 편집 가능한 필드가 될 수
 
 1. 아래 표에 설명된 매개 변수를 추가하여 필요에 맞게 구문을 조정합니다.
 
-   | 작업 | 매개변수 | 예 |
+   | 작업 | 매개 변수 | 예 |
    | ------- | ------- | ------- |
    | 편집 가능한 필드를 **기본값**(으)로 선언합니다. 조각을 콘텐츠에 추가할 때 사용자 지정하지 않으면 이 기본값이 사용됩니다. | 인라인 태그 사이에 기본값을 추가합니다. | `{{#inline "editableFieldID"}}default_value{{/inline}}` |
    | 편집 가능한 필드에 대해 **레이블**&#x200B;을(를) 정의합니다. 이 레이블은 조각의 필드를 편집할 때 이메일 Designer에 표시됩니다. | `name="title"` | `{{#inline "editableFieldID" name="title"}}default_value{{/inline}}` |
