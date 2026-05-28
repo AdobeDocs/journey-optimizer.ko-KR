@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: a99544946642a625594f4c99eb869dd33299d583
+source-git-commit: eb2b97776f60b73c53d666b11f807aca29514059
 workflow-type: tm+mt
-source-wordcount: 7969
-ht-degree: 90%
+source-wordcount: 8005
+ht-degree: 89%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 90%
 이 페이지에는 월별 릴리스 기능 및 개선 사항과 관련된 업데이트 외에도 [!DNL Journey Optimizer] 설명서의 모든 최신 변경 사항이 나와 있습니다.
 
 ## 2026년 5월 {#may-2026}
+
+* 이제 **메시지의 의사 결정 정책 사용** 설명서에서 캠페인 요약에서 의사 결정 정책의 전체 구조를 보고 문제 해결을 위해 JSON 기술 요약을 클립보드에 복사하는 방법을 설명합니다. [자세히 보기](../experience-decisioning/use-decision-policy.md#decision-policy-summary)
 
 * **릴리스 정보** 페이지가 주제 기반 레이아웃으로 재구성되었습니다. 이제 변경 사항이 변경 유형 대신 제품 영역별로 그룹화되어 새로운 전용 **유용성 개선 사항** 섹션이 제공됩니다. 곧 제공될 항목은 각 항목 내에서 확장 가능한 아코디언으로 표시됩니다. [자세히 보기](release-notes.md)
 

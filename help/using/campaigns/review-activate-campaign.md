@@ -24,16 +24,16 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 087a4bd254486a4962d8338d1d35ffb5345341af
 workflow-type: tm+mt
-source-wordcount: 283
-ht-degree: 3%
+source-wordcount: 310
+ht-degree: 4%
 
 ---
 
 # 액션 캠페인 검토 및 활성화 {#action-campaign-review}
 
-작업 캠페인이 구성되면 활성화하기 전에 해당 매개 변수와 콘텐츠를 검토해야 합니다. 이렇게 하려면 다음 단계를 수행합니다.
+작업 캠페인이 구성되면 활성화하기 전에 해당 매개 변수와 콘텐츠를 검토해야 합니다. 이렇게 하려면 아래 단계를 수행합니다.
 
 >[!IMPORTANT]
 >
@@ -48,6 +48,8 @@ ht-degree: 3%
    오류가 발생한 경우 캠페인을 활성화할 수 없습니다. 계속하기 전에 오류를 해결하십시오.
 
    ![](assets/create-campaign-alerts.png)
+
+1. 캠페인이 콘텐츠에서 [의사 결정 정책](../experience-decisioning/create-decision.md)을 사용하는 경우 각 정책의 구조를 검토하고 캠페인 요약에서 직접 기술 세부 정보를 복사할 수 있습니다. [방법 알아보기](../experience-decisioning/use-decision-policy.md#decision-policy-summary)
 
 1. 캠페인이 올바르게 구성되었는지 확인한 다음 **[!UICONTROL 활성화]**&#x200B;를 클릭합니다.
 
