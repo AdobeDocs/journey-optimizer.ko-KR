@@ -9,21 +9,12 @@ mini-toc-levels: 1
 version: Journey Orchestration
 exl-id: 35fc3cf2-1b91-4f30-ad71-f9d7d2a0291c
 TQID: https://experienceleague.adobe.com/zKV67LEfRVmEk9Fac-D45qdHLqbuVCS3rUt6Rt0HB7w
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: c36f91b8e7afa80945f975828b7682a1a1cc296f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: b94f1c1a557a6c47d3eb81f3660b09b1fde59f5a
 workflow-type: tm+mt
 source-wordcount: 1164
 ht-degree: 2%
@@ -166,7 +157,7 @@ ht-degree: 2%
 
 각 의사 결정 정책의 기술 세부 사항에 액세스하여 클립보드에 복사할 수 있으므로 Adobe 지원 또는 엔지니어링 팀의 문제를 해결하는 데 유용합니다.
 
-의사 결정 정책 세부 정보 및 기술 정보에 액세스하려면 아래 단계를 따르십시오.
++++ 의사 결정 정책 세부 정보 및 기술 정보에 액세스하려면 아래 단계를 따르십시오.
 
 1. [구성](../campaigns/review-activate-campaign.md#action-campaign-review) 중에 **[!UICONTROL 활성화 검토]**&#x200B;를 클릭하거나 **[!UICONTROL 캠페인]** 목록에서 캠페인을 열어 캠페인 요약을 엽니다.
 
@@ -200,6 +191,8 @@ ht-degree: 2%
 1. 결정 정책의 JSON 표현을 클립보드에 복사하려면 **클립보드에 복사** 아이콘을 클릭하십시오.
 
    복사된 JSON에는 조직 이름 및 ID, 샌드박스 이름, 의사 결정 정책 ID 및 전체 의사 결정 정책 구조가 포함됩니다. 이 정보를 Adobe 지원 또는 엔지니어링 팀과 공유하여 의사 결정 정책 문제를 보다 신속하게 해결할 수 있습니다.
+
++++
 
 ## 보고 대시보드 사용
 
