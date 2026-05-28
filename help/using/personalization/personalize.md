@@ -9,9 +9,11 @@ role: Developer
 level: Beginner
 keywords: 표현식, 편집기, 시작, 개인화
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 124dbfa4f2798aa7839dd9215b96207f43fac3d6
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: a757b957-83f3-4a4d-9775-a93854f84f77id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: 681
 ht-degree: 23%
 
 ---
@@ -49,7 +51,7 @@ Personalization은 Adobe Experience Platform에 정의된 **XDM 개인 프로필
 
 ![개인화 플레이그라운드](assets/playground.png)
 
-➡️ [개인화 플레이그라운드에 액세스](https://experienceleague.adobe.com/ko/apps/journey-optimizer/ajo-personalization){target="_blank"}
+➡️ [개인화 플레이그라운드에 액세스](https://experienceleague.adobe.com/en/apps/journey-optimizer/ajo-personalization){target="_blank"}
 
 ## 개인화 표현식에 AI 어시스턴트 사용 {#ai-personalization-expressions}
 
@@ -123,14 +125,14 @@ Personalization은 Adobe Experience Platform에 정의된 **XDM 개인 프로필
 
 여정에서 얻은 컨텍스트 기반 이벤트 정보를 사용하여 메시지를 개인화하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448143?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
 메시지에 프로필 기반 개인 맞춤화를 추가하는 방법과 개인 맞춤화 블록의 전제 조건으로 대상자 멤버십을 사용하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416272?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)
 
 개인화 편집기 플레이그라운드를 활용하여 샘플 데이터를 사용하여 개인화 코드를 작성하고 테스트하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475959?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3457868?quality=12)
 
 [Personalization 자습서](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/personalize-content/personalization-editor-overview){target="_blank"}에서 개인화 기능 및 모범 사례에 대한 비디오 튜토리얼을 더 살펴보십시오

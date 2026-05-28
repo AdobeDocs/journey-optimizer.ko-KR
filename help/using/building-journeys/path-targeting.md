@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 경로 타기팅
+title: 경로 타겟팅
 description: 여정에서 경로 타깃팅을 사용하는 방법 알아보기
 feature: Journeys, Activities
 topic: Content Management
@@ -10,10 +10,12 @@ level: Intermediate
 keywords: 타깃팅, 규칙, 여정, 경로, 최적화, 개인화
 exl-id: b30ce5c9-a0e2-4601-97a3-5bec648368e4
 badge: label="제한 공개" type="Informative"
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '812'
-ht-degree: 7%
+source-wordcount: 812
+ht-degree: 8%
 
 ---
 

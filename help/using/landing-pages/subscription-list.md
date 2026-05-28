@@ -10,26 +10,13 @@ level: Beginner
 keywords: 랜딩, 랜딩 페이지, 목록, 구독, 서비스
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
 TQID: https://experienceleague.adobe.com/NgCn1-WZaoBA73hleiFJGucgUSzfmEF43eEWZhGJnj0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b19d9237-76be-466d-a869-aacf2d72205f
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 748
 ht-degree: 8%
@@ -42,7 +29,7 @@ ht-degree: 8%
 >id="ajo_subscription_list"
 >title="구독 목록 설정"
 >abstract="구독 목록을 만들어 특정 주제 또는 이벤트에 대한 커뮤니케이션을 수신하도록 옵트인한 프로필을 수집합니다. "
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/subscription-list.html?lang=ko#define-subscription-list" text="구독 목록 만들기"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/subscription-list.html#define-subscription-list" text="구독 목록 만들기"
 
 구독 서비스는 특정 주제/이벤트/관심 분야 등에 대한 커뮤니케이션을 지속적으로 받도록 선택한 고객에게 제공되는 마케팅 상품 및 서비스를 말합니다. [!DNL Journey Optimizer]에서 이러한 옵트인 고객은 구독 목록에 수집됩니다.
 
@@ -60,7 +47,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->구독 목록을 만들면 연관된 스트리밍 세그먼트가 Adobe Experience Platform에서 자동으로 생성됩니다. 스트리밍 세그먼트를 만들려면 병합 정책에 **Active-On-Edge** 옵션이 활성화되어 있어야 합니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/methods/streaming-segmentation)에서 스트리밍 세그먼트 자격 조건에 대해 자세히 알아보세요.
+>구독 목록을 만들면 연관된 스트리밍 세그먼트가 Adobe Experience Platform에서 자동으로 생성됩니다. 스트리밍 세그먼트를 만들려면 병합 정책에 **Active-On-Edge** 옵션이 활성화되어 있어야 합니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation)에서 스트리밍 세그먼트 자격 조건에 대해 자세히 알아보세요.
 
 구독 목록을 만들려면 아래 단계를 수행하십시오.
 

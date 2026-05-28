@@ -10,9 +10,11 @@ level: Intermediate
 keywords: 조각, 여정, 재사용, 노드, 캔버스, 인벤토리, 재사용 가능
 badge: label="제한 공개" type="Informative"
 version: Journey Orchestration
-source-git-commit: 5e806bf6931a5c067adde232f61ff446bee18cca
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '1484'
+source-wordcount: 1484
 ht-degree: 10%
 
 ---

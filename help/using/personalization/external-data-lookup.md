@@ -8,20 +8,22 @@ level: Experienced
 hide: true
 badge: label="제한된 가용성" type="Informative"
 exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 3%
+source-wordcount: 1264
+ht-degree: 5%
 
 ---
 
 # 외부 데이터 조회 도우미
 
-`externalDataLookup` 개인화 편집기의 [!DNL Journey Optimizer] 도우미는 코드 기반 경험, 웹 및 인앱 메시지 채널과 같은 인바운드 채널에 대한 콘텐츠를 생성하는 데 사용할 외부 끝점에서 데이터를 동적으로 가져오는 데 사용할 수 있습니다.
+[!DNL Journey Optimizer] 개인화 편집기의 `externalDataLookup` 도우미는 코드 기반 경험, 웹 및 인앱 메시지 채널과 같은 인바운드 채널에 대한 콘텐츠를 생성하는 데 사용할 외부 끝점에서 데이터를 동적으로 가져오는 데 사용할 수 있습니다.
 
 >[!AVAILABILITY]
 >
->이 기능은 조직 집합(제한된 가용성)에만 사용할 수 있습니다.
+>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성).
 
 도우미를 사용하려면 먼저 **[!UICONTROL 관리]** > **[!UICONTROL 구성]** 메뉴에서 동작을 정의해야 합니다. 작업은 URL, GET 및 POST 메서드, 헤더 매개 변수, 쿼리 매개 변수, POST 본문 JSON 스키마 및 응답 JSON 스키마와 같은 외부 끝점에 대한 세부 사항을 구성하는 것입니다.
 

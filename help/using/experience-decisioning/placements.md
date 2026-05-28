@@ -7,10 +7,12 @@ role: User
 level: Experienced
 exl-id: 20246512-ab7e-451a-83de-49cc339c481a
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 6%
+source-wordcount: 302
+ht-degree: 12%
 
 ---
 
@@ -18,7 +20,7 @@ ht-degree: 6%
 
 ## 배치 기본 정보 {#about}
 
-배치는 결정 항목을 표시하는 데 사용되는 컨테이너입니다. 이렇게 하면 메시지 내의 올바른 위치에 올바른 오퍼 컨텐츠가 표시됩니다.
+배치는 결정 항목을 표시하는 데 사용되는 컨테이너입니다. 올바른 오퍼 콘텐츠가 메시지 내의 적합한 위치에 표시되도록 할 수 있습니다.
 
 이메일에 의사 결정 정책을 추가할 때 반환된 의사 결정 항목을 보여 주는 구성 요소에 배치를 연결해야 합니다. 예를 들어 보고의 다양한 배치 간에 의사 결정 항목 성과를 추적할 수 있습니다.
 

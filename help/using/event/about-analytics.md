@@ -10,27 +10,13 @@ level: Intermediate, Experienced
 keywords: analytics, 통합, 웹 sdk, 플랫폼
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
 TQID: https://experienceleague.adobe.com/V5-w3dcJXFTUVIui1XODX0mfVboO781ts9w0X1uDIjc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: c6fdb8b1-45ee-460a-a859-9031c59118b7
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe96aceb-8194-4a8a-a6b0-75302d02804did: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: d08afb72-92f6-4856-88e3-11ec34313c2fid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 778
 ht-degree: 6%
@@ -82,7 +68,7 @@ Adobe Analytics 또는 Adobe Experience Platform Web SDK에서 가져온 데이�
 
 ![](assets/ajo-aa_4.png)
 
-[Adobe Analytics 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=ko){target="_blank"} 및 [자습서](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko){target="_blank"}에서 Adobe Experience Platform 소스 커넥터에 대해 자세히 알아보세요.
+[Adobe Analytics 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html){target="_blank"} 및 [자습서](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html){target="_blank"}에서 Adobe Experience Platform 소스 커넥터에 대해 자세히 알아보세요.
 
 ## 이 구성 활성화 {#activate-analytics-data}
 
@@ -123,7 +109,7 @@ Adobe Analytics 또는 Adobe Experience Platform Web SDK에서 가져온 데이�
    * **[!UICONTROL 이름]**: **[!UICONTROL 이벤트]**&#x200B;의 이름을 개인화합니다.
    * **[!UICONTROL 유형]**: **[!UICONTROL 단일]** 유형을 선택합니다. [자세히 알아보기](../event/about-events.md)
    * **[!UICONTROL 이벤트 ID 유형]**: **[!UICONTROL 규칙 기반]** 이벤트 ID 유형을 선택합니다. [자세히 알아보기](../event/about-events.md#event-id-type)
-   * **[!UICONTROL 스키마]**: [&#128279;](#leverage-analytics-data) 전에 만든 Analytics 또는 WebSDK 스키마 을(를) 선택하십시오.
+   * **[!UICONTROL 스키마]**: ](#leverage-analytics-data) 전에 만든 Analytics 또는 WebSDK 스키마 [을(를) 선택하십시오.
    * **[!UICONTROL 필드]**: 페이로드 필드를 선택합니다. [자세히 알아보기](../event/about-creating.md#define-the-payload-fields)
    * **[!UICONTROL 여정 ID 조건]**: 이벤트를 트리거할 이벤트를 식별하는 조건을 정의합니다.
 

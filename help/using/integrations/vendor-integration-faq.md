@@ -8,9 +8,11 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 통합, FAQ, 외부 데이터, 개인화
-source-git-commit: 4cc3c959fe08c1d574a5d041bf7721441bc96f97
+subfeature_v2: []
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: 852
 ht-degree: 1%
 
 ---
@@ -60,7 +62,7 @@ ht-degree: 1%
 
 +++ 높은 수준에서 관리자 권한으로 통합을 구성하려면 어떻게 해야 합니까?
 
-이름 및 설명, API 끝점 URL(경로 변수 포함), 경로 템플릿 값, **[!UICONTROL GET]** 또는 **[!UICONTROL POST]**, 선택적 헤더 및 쿼리 매개 변수, 인증 방법, 정책 설정(시간 초과 및 선택적 캐시 또는 다시 시도 등), 필드 매핑에 대한 샘플 JSON 응답, 유효한 경우 **[!UICONTROL 테스트 연결 보내기]** 및 **[!UICONTROL 활성화]**&#x200B;를 실행합니다.
+이름 및 설명, API 끝점 URL(경로 변수 포함), 경로 템플릿 값, **[!UICONTROL GET]** 또는 **[!UICONTROL POST]**, 선택적 헤더 및 쿼리 매개 변수, 인증 방법, 정책 설정(시간 제한 및 선택적 캐시 또는 다시 시도 등), 필드 매핑을 위한 샘플 JSON 응답, 유효한 경우 **[!UICONTROL 테스트 연결 보내기]** 및 **[!UICONTROL 활성화]**&#x200B;를 실행합니다.
 
 ➡️ [통합 구성에 대해 자세히 알아보기](integrations.md#configure)
 

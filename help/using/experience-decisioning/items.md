@@ -7,10 +7,12 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-source-git-commit: f816ee04639846ffd18c3d6723f4616ada24892d
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '2347'
-ht-degree: 15%
+source-wordcount: 2347
+ht-degree: 17%
 
 ---
 
@@ -37,7 +39,7 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_ajo_fragment"
 >title="Journey Optimizer 콘텐츠 조각을 이 결정 항목에 매핑"
->abstract="Journey Optimizer 조각 라이브러리에서 컨텐츠 조각을 연결합니다."
+>abstract="Journey Optimizer 조각 라이브러리에서 콘텐츠 조각을 첨부합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_aem_fragment"
@@ -84,8 +86,8 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
 >abstract="기본적으로 모든 프로필은 결정 항목을 수신할 수 있지만 대상자 또는 규칙을 사용하여 항목을 특정 프로필로만 제한할 수 있습니다."
 
 <!--
->"additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 

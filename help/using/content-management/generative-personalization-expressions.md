@@ -1,21 +1,23 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Personalization 표현식을 위한 AI 지원
+title: 개인화 표현식에 AI 어시스턴트 사용
 description: Journey Optimizer에서 AI Assistant를 사용하여 Personalization 편집기의 자연어에서 개인화 표현식을 생성하는 방법과 이메일 Designer에서 표현식 추가 컨트롤이 작동하는 방법에 대해 알아봅니다.
 feature: Content Assistant
 topic: Content Management, Artificial Intelligence
 role: User
 level: Intermediate
 mini-toc-levels: 1
-source-git-commit: a71456af0d414ba435e307f29dd6dd70ba2737a8
+feature_v2: []
+subfeature_v2: id: d6e0d39b-5df3-4c72-8263-fd834397ee97id: c41e8697-e629-4c38-96b3-564faaa17acf
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '1064'
-ht-degree: 2%
+source-wordcount: 1082
+ht-degree: 3%
 
 ---
 
-# 개인화 표현식을 위한 AI 지원{#generative-personalization-expressions}
+# 개인화 표현식에 AI 어시스턴트 사용{#generative-personalization-expressions}
 
 >[!IMPORTANT]
 >
@@ -127,7 +129,7 @@ ht-degree: 2%
 
    ![](assets/ai-perso-add-expression-insert.png)
 
-   다음과 같은 작업을 수행할 수 있습니다.
+   다음을 수행할 수 있습니다.
 
    * 샘플 값 하나로 식 출력의 유효성을 검사합니다. **[!UICONTROL 미리 보기]** 탭을 사용하십시오.
    * 같은 프롬프트에서 다른 제안을 생성합니다. **[!UICONTROL 다시 생성]**&#x200B;을 사용하십시오.

@@ -11,9 +11,11 @@ hide: true
 badge: label="비공개 베타" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: 0769c486386ce27079244a3ff36cdd2fedf27214
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
 workflow-type: tm+mt
-source-wordcount: '1948'
+source-wordcount: 1973
 ht-degree: 16%
 
 ---
@@ -42,7 +44,7 @@ ht-degree: 16%
 
 **구성 및 통합**
 
-<!-- * [Configure loyalty challenges](loyalty-admin.md) -->
+* [충성도 문제 구성](loyalty-admin.md)
 * [충성도 데이터 및 데이터 세트](loyalty-data-and-datasets.md)
 * [충성도 과제 API 참조](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
@@ -137,7 +139,7 @@ ht-degree: 16%
 >title="작업"
 >abstract="챌린지 완료를 위해 수행할 작업을 선택합니다. 다음으로 챌린지 완료 방법을 구성합니다. 사용 가능한 옵션은 챌린지 유형(표준, 연속 또는 순차적)에 따라 다릅니다."
 
-작업은 고객이 보상을 받기 위해 완료해야 하는 특정 작업을 정의합니다. 태스크 유형(구매, 지출), 수량, 제품 필터 및 기타 속성을 구성할 수 있습니다.
+작업은 고객이 보상을 받기 위해 완료해야 하는 특정 작업을 정의합니다. 작업 유형(구매, 지출 또는 사용자 지정 이벤트), 수량, 제품 필터 및 기타 속성을 구성할 수 있습니다.
 
 과제에 작업을 추가하려면 다음 단계를 수행합니다.
 
@@ -204,9 +206,7 @@ ht-degree: 16%
    * **[!UICONTROL 과제 진행에 따라 과제 완료 시점에 따라 보상 제공]**: 고객이 개별 과제를 완료하면 점진적으로 보상 제공(두 개 이상의 과제를 요구하는 과제에만 제공)\
      *예: 작업 1 다음에 10포인트, 작업 2 다음에 20포인트, 작업 3 다음에 50포인트를 부여합니다*
 
-1. 보상 제공자를 선택합니다. 고객 포인트와 보상을 관리하는 충성도 솔루션입니다.
-
-   <!-- Reward providers are created in **[!UICONTROL Loyalty Admin]** before you author challenges. [Learn how to configure reward providers](loyalty-admin.md#reward-providers). -->
+1. 보상 제공자를 선택합니다. 고객 포인트와 보상을 관리하는 충성도 솔루션입니다. 보상 공급자는 **[!UICONTROL 충성도 관리자]** 메뉴에서 만든 후에 문제를 작성합니다. [보상 공급자를 구성하는 방법을 알아보세요](loyalty-admin.md#reward-providers)
 
    ![](assets/challenge-create-reward-type.png)
 

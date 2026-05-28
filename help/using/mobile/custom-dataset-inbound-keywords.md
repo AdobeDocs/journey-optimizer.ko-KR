@@ -6,9 +6,11 @@ description: Experience Platform 스키마, 데이터 세트 및 SMS API 자격 
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7id: d6e5c7fd-c1d6-4137-98cd-138ccde6752fid: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: 518
 ht-degree: 8%
 
 ---
@@ -37,7 +39,7 @@ ht-degree: 8%
 
 스키마는 수집된 데이터에 적용되는 구조 및 유효성 검사 규칙을 정의합니다. 아래 나열된 기존 필드 그룹을 추가하여 인바운드 키워드 수집을 위한 경험 이벤트 스키마를 구성합니다.
 
-➡️ [Adobe Experience Platform 설명서에서 스키마 만들기에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/composition)
+➡️ [Adobe Experience Platform 설명서에서 스키마 만들기에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition)
 
 1. Adobe Experience Platform의 **[!UICONTROL 데이터 관리]**&#x200B;에서 **[!UICONTROL 스키마]**&#x200B;에 액세스하고 **[!UICONTROL 스키마 만들기]**&#x200B;를 선택합니다.
 

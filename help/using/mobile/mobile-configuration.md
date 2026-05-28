@@ -8,33 +8,25 @@ role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 TQID: https://experienceleague.adobe.com/dO8HoRdGLuYVFN2YVjRCiFJQHmWHApROU8qz2-hKmTs
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 432
-ht-degree: 30%
+ht-degree: 42%
 
 ---
 
-# 모바일 구성 시작 {#sms-configuration}
+# 모바일 구성 시작하기 {#sms-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
 >title="Journey Optimizer로 SMS 공급자 구성"
->abstract="Adobe Journey Optimizer은 SMS 서비스 공급자를 통해 모바일 메시지를 보냅니다. 제공자를 선택하고 API 자격 증명을 입력하십시오."
+>abstract="Adobe Journey Optimizer는 SMS 서비스 제공자를 통해 모바일 메시지를 보냅니다. 제공자를 선택하고 API 자격 증명을 입력하십시오."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_mms_api_header"
@@ -43,8 +35,8 @@ ht-degree: 30%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"
->title="Journey Optimizer을 사용하여 SMS/RCS/MMS 공급자 구성"
->abstract="모바일 메시지(SMS/RCS/MMS)를 보내기 전에 공급자 설정을 Journey Optimizer과 통합해야 합니다. 완료되면 SMS/RCS/MMS 구성을 만들어야 합니다. 이 단계는 Adobe Journey Optimizer 시스템 관리자가 수행해야 합니다."
+>title="Journey Optimizer로 SMS/RCS/MMS 제공자 구성"
+>abstract="모바일 메시지(SMS/RCS/MMS)를 전송하기 전에 제공자 설정을 Journey Optimizer와 통합해야 합니다. 이 작업이 완료되면 SMS/RCS/MMS 구성을 만들어야 합니다. 이 단계는 Adobe Journey Optimizer 시스템 관리자가 수행해야 합니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="SMS 채널 구성 만들기"
 
 >[!CONTEXTUALHELP]

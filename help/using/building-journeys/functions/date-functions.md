@@ -9,20 +9,15 @@ keywords: 날짜, 함수, 표현식, 여정, 시간
 version: Journey Orchestration
 exl-id: 68c102c1-f1c7-44b7-893f-9a3b7e0854b6
 TQID: https://experienceleague.adobe.com/C2Z5SufckUxCNf9TsloziZS-Q3KPzmgMVNGJGiwDQ08
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 834
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
@@ -54,7 +49,7 @@ ht-degree: 0%
 
 +++
 
-+++매개 변수
++++매개변수
 
 이 함수는 매개 변수를 사용하지 않습니다.
 
@@ -68,7 +63,7 @@ ht-degree: 0%
 
 +++
 
-+++예
++++예시
 
 `currentTimeInMillis()`
 
@@ -86,7 +81,7 @@ ht-degree: 0%
 
 +++
 
-+++매개 변수
++++매개변수
 
 | 매개 변수 | 유형 |
 |-----------|------------------|
@@ -103,7 +98,7 @@ ht-degree: 0%
 
 +++
 
-+++예
++++예시
 
 `inLastDays(toDateTime('2023-12-12T01:11:00Z'), 4)`
 
@@ -111,7 +106,7 @@ true를 반환합니다.
 
 +++
 
-## in마지막 시간 {#inLastHours}
+## inLastHours {#inLastHours}
 
 지정된 날짜 시간이 지금부터 델타 시간 사이인 경우 true를 반환합니다.
 
@@ -121,7 +116,7 @@ true를 반환합니다.
 
 +++
 
-+++매개 변수
++++매개변수
 
 | 매개 변수 | 유형 |
 |-----------|------------------|
@@ -138,7 +133,7 @@ true를 반환합니다.
 
 +++
 
-+++예
++++예시
 
 `inLastHours(toDateTime('2023-12-12T01:11:00Z'), 4)`
 
@@ -160,7 +155,7 @@ true를 반환합니다.
 
 +++
 
-+++매개 변수
++++매개변수
 
 | 매개 변수 | 유형 |
 |-----------|------------------|
@@ -177,7 +172,7 @@ true를 반환합니다.
 
 +++
 
-+++예
++++예시
 
 `inLastMonths(toDateTime('2023-12-12T01:11:00Z'), 4)`
 
@@ -185,7 +180,7 @@ true를 반환합니다.
 
 +++
 
-## inlastYears {#inLastYears}
+## inLastYears {#inLastYears}
 
 지정된 date 또는 dateTime이 now와 now 사이에 있으면 true를 반환합니다(델타 연도).
 
@@ -195,7 +190,7 @@ true를 반환합니다.
 
 +++
 
-+++매개 변수
++++매개변수
 
 | 매개 변수 | 유형 |
 |-----------|------------------|
@@ -212,7 +207,7 @@ true를 반환합니다.
 
 +++
 
-+++예
++++예시
 
 `inLastYears(toDateTime('2023-12-12T01:11:00Z'), 4)`
 
@@ -230,7 +225,7 @@ true를 반환합니다.
 
 +++
 
-+++매개 변수
++++매개변수
 
 | 매개 변수 | 유형 |
 |-----------|------------------|
@@ -247,7 +242,7 @@ true를 반환합니다.
 
 +++
 
-+++예
++++예시
 
 `inNextDays(toDateTime('2023-12-12T01:11:00Z'), 4)`
 
@@ -265,7 +260,7 @@ true를 반환합니다.
 
 +++
 
-+++매개 변수
++++매개변수
 
 | 매개 변수 | 유형 |
 |-----------|------------------|
@@ -282,7 +277,7 @@ true를 반환합니다.
 
 +++
 
-+++예
++++예시
 
 `inNextHours(toDateTime('2023-12-12T01:11:00Z'), 4)`
 
@@ -290,7 +285,7 @@ true를 반환합니다.
 
 +++
 
-## inNextMonters {#inNextMonths}
+## inNextMonths {#inNextMonths}
 
 지정된 date 또는 dateTime이 now와 now + delta 개월 사이에 있으면 true를 반환합니다.
 
@@ -300,7 +295,7 @@ true를 반환합니다.
 
 +++
 
-+++매개 변수
++++매개변수
 
 | 매개 변수 | 유형 |
 |-----------|------------------|
@@ -317,7 +312,7 @@ true를 반환합니다.
 
 +++
 
-+++예
++++예시
 
 `inNextMonths(toDateTime('2023-01-12T01:11:00Z'), 4)`
 
@@ -335,7 +330,7 @@ true를 반환합니다.
 
 +++
 
-+++매개 변수
++++매개변수
 
 | 매개 변수 | 유형 |
 |-----------|------------------|
@@ -352,7 +347,7 @@ true를 반환합니다.
 
 +++
 
-+++예
++++예시
 
 `inNextYears(toDateTime('2021-12-12T01:11:00Z'), 4)`
 
@@ -374,9 +369,9 @@ true를 반환합니다.
 
 +++
 
-+++매개 변수
++++매개변수
 
-| 매개 변수 | 설명 |
+| 매개변수 | 설명 |
 |--- |--- |
 | 문자열 | 시간대 식별자(선택 사항) |
 
@@ -392,7 +387,7 @@ dateTime을 반환합니다.
 
 +++
 
-+++예
++++예시
 
 `now()`
 
@@ -418,9 +413,9 @@ dateTime을 반환합니다.
 
 +++
 
-+++매개 변수
++++매개변수
 
-| 매개 변수 | 설명 |
+| 매개변수 | 설명 |
 |--- |--- |
 | 델타 | 양의 정수 값 또는 음의 정수 값 |
 | 날짜 부분 | years, months, days, hours, minutes 또는 seconds as a string |
@@ -438,7 +433,7 @@ dateTime을 반환합니다.
 
 +++
 
-+++예
++++예시
 
 `nowWithDelta(-2, "hours")`
 
@@ -458,7 +453,7 @@ dateTime을 반환합니다.
 
 +++
 
-+++매개 변수
++++매개변수
 
 | 매개 변수 | 유형 |
 |--- |--- |
@@ -480,7 +475,7 @@ dateTime을 반환합니다.
 
 +++
 
-+++예
++++예시
 
 `setHours(toDateTime('2023-12-12T01:11:00Z'), 4)`
 
@@ -502,7 +497,7 @@ dateTime을 반환합니다.
 
 +++
 
-+++매개 변수
++++매개변수
 
 | 매개 변수 | 유형 |
 |--- |--- |
@@ -524,7 +519,7 @@ dateTime을 반환합니다.
 
 +++
 
-+++예
++++예시
 
 `setDays(toDateTime('2023-12-12T01:11:00Z'), 25)`
 
@@ -534,7 +529,7 @@ dateTime을 반환합니다.
 
 +++
 
-## updateTimezone {#updateTimeZone}
+## updateTimeZone {#updateTimeZone}
 
 같은 순간에 새 시간대와 함께 새 날짜 시간을 반환합니다.
 
@@ -544,7 +539,7 @@ dateTime을 반환합니다.
 
 +++
 
-+++매개 변수
++++매개변수
 
 * 시간대 id: 문자열
 * dateTime
@@ -559,7 +554,7 @@ dateTime을 반환합니다.
 
 +++
 
-+++예
++++예시
 
 `updateTimeZone( toDateTime("2023-08-28T08:15:30.123-07:00"), "Europe/Paris"))`
 

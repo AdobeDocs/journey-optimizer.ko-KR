@@ -10,20 +10,12 @@ level: Beginner
 keywords: 시작하기, 시작, 콘텐츠, 실험
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 TQID: https://experienceleague.adobe.com/dnae-RgLGPhxmtipYP6sTPTmA64LSfWYYH6gk5Fd3dk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: ea4139d9-3405-4b34-ad6e-c3ca120cc269
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: ea4139d9-3405-4b34-ad6e-c3ca120cc269id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebbid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 636
 ht-degree: 33%
@@ -66,7 +58,7 @@ Adobe Journey Optimizer은 현재 Adobe Journey Optimizer과 독립적으로 서
 
 다국어 콘텐츠의 경우 다음 설정을 정의해야 합니다.
 
-* Journey Optimizer에서 번역 기능을 사용하려면 해당 역할에 API를 할당해야 합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
+* Journey Optimizer에서 번역 기능을 사용하려면 해당 역할에 API를 할당해야 합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
 
 * 다국어 콘텐츠 만들기를 시작하려면 사용자에게 **[!UICONTROL 언어 설정 관리]** 권한이 부여되어야 합니다. 자동 흐름의 경우 사용자는 **[!UICONTROL 번역 서비스]** 기능과 관련된 권한도 필요합니다. [권한에 대해 자세히 알아보기](../administration/permissions.md)
 
@@ -114,4 +106,4 @@ Adobe Journey Optimizer은 현재 Adobe Journey Optimizer과 독립적으로 서
 
 단일 캠페인 또는 여정 내에서 여러 언어로 콘텐츠를 만드는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452120?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3430921/)
