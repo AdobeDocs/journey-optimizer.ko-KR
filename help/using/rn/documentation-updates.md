@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: e42070c4cc1dde06786c4075b1e6e45e8c323c12
+source-git-commit: 3b761a8741061aac35ed39c6bb41bd00ab9cbcaf
 workflow-type: tm+mt
-source-wordcount: 8005
+source-wordcount: 8040
 ht-degree: 89%
 
 ---
@@ -28,6 +28,8 @@ ht-degree: 89%
 ## 2026년 5월 {#may-2026}
 
 * 이제 **메시지의 의사 결정 정책 사용** 설명서에서 캠페인 요약에서 의사 결정 정책의 전체 구조를 보고 문제 해결을 위해 JSON 기술 요약을 클립보드에 복사하는 방법을 설명합니다. [자세히 보기](../experience-decisioning/use-decision-policy.md#decision-policy-summary)
+
+* 강화 학습 개요, 요구 사항 및 제한 사항, 학습과의 균형 최적화, Thompson 샘플링 세부 사항을 포함하여 업데이트된 Decisioning 설명서에 맞게 이전 **의사 결정 관리** [자동 최적화 모델](../offers/ranking/auto-optimization-model.md) 페이지가 다시 작성되었습니다. [자세히 보기](../offers/ranking/auto-optimization-model.md)
 
 * **릴리스 정보** 페이지가 주제 기반 레이아웃으로 재구성되었습니다. 이제 변경 사항이 변경 유형 대신 제품 영역별로 그룹화되어 새로운 전용 **유용성 개선 사항** 섹션이 제공됩니다. 곧 제공될 항목은 각 항목 내에서 확장 가능한 아코디언으로 표시됩니다. [자세히 보기](release-notes.md)
 
