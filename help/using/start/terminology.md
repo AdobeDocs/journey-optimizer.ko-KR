@@ -40,7 +40,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->Adobe Journey Optimizer은 **Adobe Experience Platform**&#x200B;을 기반으로 빌드되었습니다. 실시간 고객 프로필, 샌드박스, 스키마 및 데이터 세트와 같이 사용자가 접할 수 있는 많은 기본 개념은 Journey Optimizer 관련 개념이 아닌 Adobe Experience Platform 개념입니다. 이러한 용어에 대한 정의는 [Adobe Experience Platform 용어집](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html){target="_blank"}을 참조하세요.
+>Adobe Journey Optimizer은 **Adobe Experience Platform**&#x200B;을 기반으로 빌드되었습니다. 실시간 고객 프로필, 샌드박스, 스키마 및 데이터 세트와 같이 사용자가 접할 수 있는 많은 기본 개념은 Journey Optimizer 관련 개념이 아닌 Adobe Experience Platform 개념입니다. 이러한 용어에 대한 정의는 [Adobe Experience Platform 용어집](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=ko){target="_blank"}을 참조하세요.
 
 ## 여정 및 캠페인 용어 {#journey-campaign-terms}
 
