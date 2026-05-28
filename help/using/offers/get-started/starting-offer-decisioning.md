@@ -27,7 +27,7 @@ subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 914
 ht-degree: 100%
@@ -79,7 +79,7 @@ ht-degree: 100%
 
   ![](../assets/website.png)
 
-* 고객이 매장 근처에 있는 경우, 고객의 속성(충성도 등급, 성별, 이전 구매...)에 따라 사용 가능한 오퍼를 알려 주는 푸시 알림을 보냅니다.
+* 고객이 매장 근처에 있는 경우, 고객의 속성(로열티 등급, 성별, 이전 구매...)에 따라 사용 가능한 오퍼를 알려 주는 푸시 알림을 보냅니다.
 
   ![](../assets/push_sample.png)
 

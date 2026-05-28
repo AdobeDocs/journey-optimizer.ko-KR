@@ -17,7 +17,7 @@ role_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 112
 ht-degree: 4%
@@ -55,4 +55,4 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/offer-items/offerItem123
 
 성공적인 응답은 HTTP 상태 200과 빈 본문을 반환합니다.
 
-결정 항목에 대한 조회(GET) 요청을 시도하여 삭제를 확인할 수 있습니다. 결정 항목이 제거되었기 때문에 HTTP 상태 404(찾을 수 없음)를 수신해야 합니다.
+의사 결정 항목에 대한 조회(GET) 요청을 시도하여 삭제를 확인할 수 있습니다. 결정 항목이 제거되었기 때문에 HTTP 상태 404(찾을 수 없음)를 수신해야 합니다.

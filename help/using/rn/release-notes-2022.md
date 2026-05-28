@@ -32,10 +32,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 3645
-ht-degree: 100%
+source-wordcount: 3603
+ht-degree: 99%
 
 ---
 
@@ -99,7 +99,7 @@ ht-degree: 100%
 <p>이제 조건부 규칙에 따라 메시지 콘텐츠를 조정할 수 있는 다이내믹 콘텐츠를 만들 수 있습니다.</p> 
 <p>조건부 규칙은 표현식 편집기 내에서 시각적 규칙 빌더를 사용하여 작성되며, 이 빌더를 저장하여 여정 및 캠페인 간에 다시 사용할 수 있습니다.</p>
 <img src="assets/do-not-localize/dynamic-content.gif"/>
-<p>자세한 내용은 <a href="../personalization/get-started-dynamic-content.md">세부 설명서</a>를 참조하십시오.
+<p>자세한 내용은 <a href="../personalization/get-started-dynamic-content.md">세부 설명서</a>를 참조하세요.
 </td>
 </tr>
 </tbody>
@@ -108,7 +108,7 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>API로 트리거되는 캠페인</strong><br/></th>
+<th><strong>API-트리거된 캠페인</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -117,7 +117,7 @@ ht-degree: 100%
 <p>이제 기존의 예약된 캠페인 외에도, Journey Optimizer에서 API 트리거된 캠페인을 만들고 API를 사용하여 외부 시스템에서 호출할 수 있습니다.</p>
 <p>이를 통해 암호 재설정, OTP 토큰 등과 같은 다양한 운영 및 트랜잭션 메시지 요구 사항을 처리할 수 있습니다.</p>
 <img src="assets/do-not-localize/api-triggered.gif"/>
-<p>자세한 내용은 <a href="../campaigns/api-triggered-campaigns.md">세부 설명서</a>를 참조하십시오.
+<p>자세한 내용은 <a href="../campaigns/api-triggered-campaigns.md">세부 설명서</a>를 참조하세요.
 </td>
 </tr>
 </tbody>
@@ -153,7 +153,7 @@ ht-degree: 100%
 <td>
 <p>DULE(데이터 사용 레이블 및 적용) 거버넌스 프레임워크를 사용하여 Journey Optimizer는 이제 Adobe Experience Platform 거버넌스 정책을 활용하여 사용자 지정 작업을 통해 중요한 필드를 타사 시스템으로 내보내지는 것을 방지할 수 있습니다. 시스템이 사용자 지정 작업 매개 변수에서 제한된 필드를 식별하면 여정을 게시하지 못하게 하는 오류가 표시됩니다.</p>
 <p>DULE(데이터 사용 레이블 및 적용) 사용은 현재 선택한 고객으로 제한되며, 향후 릴리스의 모든 환경에 배포될 예정입니다.</p>
-<p>자세한 내용은 <a href="../action/action-privacy.md">세부 설명서</a>를 참조하십시오.
+<p>자세한 내용은 <a href="../action/action-privacy.md">세부 설명서</a>를 참조하세요.
 </td>
 </tr>
 </tbody>
@@ -168,9 +168,9 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>Adobe Experience Platform을 사용하면 고객의 동의 환경 설정을 준수하도록 마케팅 정책을 쉽게 채택하고 적용할 수 있습니다. 동의 정책은 Adobe Experience Platform에 정의되어 있습니다. Journey Optimizer에서는 이러한 동의 정책을 사용자 지정 작업에 적용할 수 있습니다. 예를 들어 이메일, 푸시 또는 SMS 커뮤니케이션에 동의하지 않은 고객을 제외하는 동의 정책을 정의할 수 있습니다.
+<p>Adobe Experience Platform을 사용하면 고객의 동의 환경 설정을 준수하도록 마케팅 정책을 쉽게 채택하고 적용할 수 있습니다. 동의 정책은 Adobe Experience Platform에 정의되어 있습니다. Journey Optimizer에서는 이러한 동의 정책을 사용자 지정 작업에 적용할 수 있습니다. 예를 들어 이메일, 푸시 또는 SMS 커뮤니케이션 수신에 동의하지 않은 고객을 제외하는 동의 정책을 정의할 수 있습니다.
 <p>현재 자동화된 동의 적용은 Healthcare Shield 추가 기능 서비스를 구입한 조직에서만 사용할 수 있습니다.</p>
-<p>자세한 내용은 <a href="../action/consent.md">세부 설명서</a>를 참조하십시오.
+<p>자세한 내용은 <a href="../action/consent.md">세부 설명서</a>를 참조하세요.
 </td>
 </tr>
 </tbody>
@@ -283,7 +283,7 @@ table>
 <td>
 <p>Journey Optimizer 캠페인으로 다양한 채널을 사용하는 특정 대상자에 일회성 콘텐츠를 게재할 수 있습니다. 여정을 사용할 때 작업은 순서대로 실행되도록 디자인됩니다. 캠페인을 사용하면 작업을 동시에 즉시 또는 지정한 일정에 따라 수행합니다. </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
-<p><a href="../campaigns/get-started-with-campaigns.md">세부 설명서</a> 및 <a href="https://video.tv.adobe.com/v/346680">기능 비디오</a>에서 캠페인 만드는 방법을 알아보세요.
+<p><a href="../campaigns/get-started-with-campaigns.md">세부 설명서</a> 및 <a href="https://video.tv.adobe.com/v/346680">기능 비디오</a>에서 캠페인을 만드는 방법을 알아보세요.
 </td>
 </tr>
 </tbody>
@@ -292,13 +292,13 @@ table>
 <table>
 <thead>
 <tr>
-<th><strong>사용자에게 SMS 보내기(일반 가용성)</strong><br/></th>
+<th><strong>사용자에게 SMS 보내기(일반적인 가용성)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 <b>Sinch</b> / <b>Twilio</b>와의 통합을 통해 Journey Optimizer에서 SMS를 만들고, 개인화하고, 보낼 수 있습니다.</p>
+<p>이제 <b>Sinch</b> 또는 <b>Twilio</b>와의 통합을 통해 Journey Optimizer에서 SMS를 만들고, 개인화하고, 보낼 수 있습니다.</p>
 <img src="assets/do-not-localize/SMS.gif"/>
 <p>이 <a href="../mobile/create-mobile-message.md">세부 설명서</a>에서 SMS를 만들고 보내는 방법을 알아보십시오.</p>
 </td>
@@ -452,7 +452,7 @@ table>
 <tbody>
 <tr>
 <td>
-<p>이제 <b>Sinch</b> / <b>Twilio</b>와의 통합을 통해 Journey Optimizer에서 SMS를 만들고, 개인화하고, 보낼 수 있습니다.</p>
+<p>이제 <b>Sinch</b> 또는 <b>Twilio</b>와의 통합을 통해 Journey Optimizer에서 SMS를 만들고, 개인화하고, 보낼 수 있습니다.</p>
 <!--img src="assets/do-not-localize/SMS.gif"/-->
 <p>SMS 채널은 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 자세한 내용은 Adobe 직원에게 문의하십시오.</p>
 <p>이 <a href="../mobile/create-mobile-message.md">세부 설명서</a>에서 SMS를 만들고 보내는 방법을 알아보십시오.</p>
@@ -673,7 +673,7 @@ table>
 
 **사용자 인터페이스**
 
-* **Journey Optimizer UI의 상황별 도움말** - Journey Optimizer의 여러 페이지에 상황별 도움말 링크가 추가되었습니다. &amp;quot;i&amp;quot; 아이콘을 클릭할 수 있는 경우, 클릭하면 현재 기능에 대한 간단한 설명을 보고 관련 문서에 액세스합니다.
+* **Journey Optimizer UI의 상황별 도움말** - Journey Optimizer의 여러 페이지에 상황별 도움말 링크가 추가되었습니다. &quot;i&quot; 아이콘을 클릭할 수 있는 경우, 클릭하면 현재 기능에 대한 간단한 설명을 보고 관련 문서에 액세스합니다.
 
 **Adobe Campaign Standard 통합**
 

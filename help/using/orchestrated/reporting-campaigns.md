@@ -15,10 +15,10 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 191
-ht-degree: 63%
+source-wordcount: 151
+ht-degree: 54%
 
 ---
 
@@ -35,14 +35,14 @@ ht-degree: 63%
     <tr>
       <td><a href="../reports/live-report.md"><img alt="라이브 보고서" src="assets/last-24hours.png"></a></td>
       <td>
-        <b>라이브 보고서</b>를 사용하여 내장된 대시보드에서 오케스트레이션된 캠페인의 영향과 성과를 실시간으로 측정하고 시각화할 수 있습니다. 오케스트레이션된 캠페인이 <b>최근 24시간 보고서 보기</b> 메뉴에서 실행되는 즉시 <b>실시간 보고서</b>에서 데이터를 사용할 수 있습니다. <a href="../reports/live-report.md">이 섹션</a>에서 라이브 보고서에 대해 자세히 알아보십시오.
+        <b>라이브 보고서</b>를 사용하여 내장된 대시보드에서 오케스트레이션된 캠페인의 영향과 성과를 실시간으로 측정하고 시각화할 수 있습니다. 오케스트레이션된 캠페인이 <b>최근 24시간 보고서 보기</b> 메뉴에서 실행되는 즉시 <b>실시간 보고서</b>에서 데이터를 사용할 수 있습니다. 라이브 보고서 <a href="../reports/live-report.md">에 대한 자세한 내용은 이 섹션</a>을 참조하세요.
       </td>
         </br>
     </tr>
     <tr style="background-color: #FFFFFF;">
       <td><a href="../reports/report-gs-cja.md"><img alt="전체 시간 보고서" src="assets/all-time-report.png"></a></td>
       <td>
-        <b>전체 시간 보고서</b>는 Customer Journey Analytics 기능과 완벽하게 통합되어 두 플랫폼에서 보고를 표준화하고 데이터 일관성과 안정성을 향상시킵니다. <a href="../reports/report-gs-cja.md">이 섹션에서</a> 전체 시간 보고서에 대해 자세히 알아보십시오.
+        <b>모든 시간 보고서</b>는 Customer Journey Analytics 기능과 완전히 통합되어 두 플랫폼 간에 보고를 표준화하고 데이터 일관성과 안정성을 개선합니다. 이 섹션</a>에서 모든 시간 보고서 <a href="../reports/report-gs-cja.md">에 대해 자세히 알아보세요.
       </td>
     </tr>
   </tbody>

@@ -26,10 +26,10 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 1060
-ht-degree: 1%
+source-wordcount: 458
+ht-degree: 4%
 
 ---
 
@@ -138,7 +138,7 @@ ht-degree: 1%
    * **id**
 
      **필드:** ID
-     **설명:** 콘텐츠 저장소의 자산을 참조하는 선택적 고유 식별자입니다. Platform API를 사용하여 표현을 검색하는 경우 클라이언트는 추가 속성 \&quot;repo:resolveUrl\&quot;을(를) 사용하여 에셋을 검색할 수 있습니다.
+     **설명:** 콘텐츠 저장소의 자산을 참조하는 선택적 고유 식별자입니다. Platform API를 사용하여 표현을 검색하는 경우 클라이언트는 추가 속성 \&quot;repo:resolveUrl\&quot;를 사용하여 에셋을 검색할 수 있습니다.
      **유형:** 문자열
      **예:** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
 
@@ -151,7 +151,7 @@ ht-degree: 1%
    * **repositoryID**
 
      **필드:** 저장소 ID
-     **설명:** 콘텐츠 저장소의 자산을 참조하는 선택적 고유 식별자입니다. Platform API를 사용하여 표현을 검색하는 경우 클라이언트는 추가 속성 \&quot;repo:resolveUrl\&quot;을(를) 사용하여 에셋을 검색할 수 있습니다.
+     **설명:** 콘텐츠 저장소의 자산을 참조하는 선택적 고유 식별자입니다. Platform API를 사용하여 표현을 검색하는 경우 클라이언트는 추가 속성 \&quot;repo:resolveUrl\&quot;를 사용하여 에셋을 검색할 수 있습니다.
      **유형:** 문자열
      **예:** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
 
