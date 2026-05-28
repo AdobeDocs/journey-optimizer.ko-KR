@@ -8,9 +8,15 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 9baa78e1449e43b269fdb271c1f6c9d611d454cb
+feature_v2:
+  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2:
+  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
+  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
+  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: a99544946642a625594f4c99eb869dd33299d583
 workflow-type: tm+mt
-source-wordcount: '7927'
+source-wordcount: 7969
 ht-degree: 90%
 
 ---
@@ -24,6 +30,8 @@ ht-degree: 90%
 * **릴리스 정보** 페이지가 주제 기반 레이아웃으로 재구성되었습니다. 이제 변경 사항이 변경 유형 대신 제품 영역별로 그룹화되어 새로운 전용 **유용성 개선 사항** 섹션이 제공됩니다. 곧 제공될 항목은 각 항목 내에서 확장 가능한 아코디언으로 표시됩니다. [자세히 보기](release-notes.md)
 
 * **오케스트레이션된 캠페인 보호 및 제한 사항** 페이지는 이제 오케스트레이션된 캠페인당 **채널 활동** 제한을 문서화합니다. [자세히 보기](../orchestrated/guardrails.md#activities-limitations)
+
+* 이제 **샌드박스 간 Journey Optimizer 개체 복사** 설명서에 **오케스트레이션된 캠페인**&#x200B;에 대한 중요 참고 사항이 포함되어 있습니다. 가져오기 후 대상 샌드박스에서 캠페인을 복제하고 복사를 실행에 사용하여 보고에 올바르게 피드백 및 추적 데이터를 캡처하도록 하십시오. [자세히 보기](../configuration/copy-objects-to-sandbox.md#copy-to-sandbox)
 
 * **주요 용어** 페이지가 변경되었습니다. 6개의 새로운 용어가 추가되고, 새로운 **충돌 및 우선 순위 지정 용어** 섹션이 도입되고, 새로운 **용어가 비슷해 보이는 경우** 명확화 가이드가 혼동되는 4개의 용어 쌍에 추가되었습니다. Adobe Experience Platform 관련 용어가 제거되고 Adobe Experience Platform 용어집에 연결된 메모로 대체되었습니다. [자세히 보기](../start/terminology.md)
 
