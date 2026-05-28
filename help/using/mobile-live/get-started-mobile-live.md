@@ -8,12 +8,22 @@ role: User
 level: Beginner
 exl-id: c9766603-df19-4efd-8319-27e9764254b4
 TQID: https://experienceleague.adobe.com/IB00r0QSfCthvgvyqubGwsaUoiJKBL-E96duLn4R5i0
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: ed2fba79-65cb-4680-96d2-2ad5d851714did: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2:
+  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
+  - id: ed2fba79-65cb-4680-96d2-2ad5d851714d
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 404
@@ -52,7 +62,7 @@ ht-degree: 94%
 
 Adobe Journey Optimizer를 사용하면 API 트리거 캠페인을 통해 프로그래밍 방식으로 **시작**, **업데이트**, **종료** 라이브 활동을 원격 수행할 수 있습니다. 이는 개인별 및 대상자 기반 사용 사례를 모두 대규모로 지원합니다.
 
-**API 트리거** 캠페인을 통해 라이브 활동을 **only**할 수 있으므로 사용자 지정 페이로드를 제공하고 자체 페이로드를 통해 모든 개인화를 수행할 수 있습니다.
+**API 트리거** 캠페인을 통해 라이브 활동을 **only**&#x200B;할 수 있으므로 사용자 지정 페이로드를 제공하고 자체 페이로드를 통해 모든 개인화를 수행할 수 있습니다.
 의도한 라이브 활동 사용 사례를 기반으로 적절한 **API-triggered** 캠페인 유형을 선택해야 합니다.
 
 * 브로드캐스트 사용 사례의 경우 **API 트리거된 마케팅**&#x200B;을 선택합니다. 대상자 기반 업데이트가 대규모로 전송됩니다.
