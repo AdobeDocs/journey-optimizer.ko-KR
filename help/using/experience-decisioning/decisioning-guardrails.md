@@ -7,18 +7,14 @@ level: Intermediate
 exl-id: 73548973-ff8d-4d6c-b383-dd3679fa159a
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/oTljriepwffzR-LIAc2kWjTQx9Oj0QMgJpbghkSEsmY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: f816ee04639846ffd18c3d6723f4616ada24892d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: d4ea4f32486c74b97e4a8d6ddd29e98c75fba060
 workflow-type: tm+mt
-source-wordcount: 275
+source-wordcount: 281
 ht-degree: 16%
 
 ---
@@ -59,6 +55,7 @@ Decisioning을 최적으로 사용하려면 다음 보호 기능 및 제한 사�
 | ------- | ------- |
 | 의사 결정 정책당 선택 전략 및 수동 항목 수 | 10 |
 | 결정 정책당 반환되는 최대 결정 항목 수 | 30 |
+| 이메일당 최대 결정 정책 | 10 |
 
 ## 자격 규칙 {#eligibility-rules}
 
