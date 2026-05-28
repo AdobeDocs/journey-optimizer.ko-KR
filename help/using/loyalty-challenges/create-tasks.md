@@ -11,10 +11,12 @@ hide: true
 badge: label="비공개 베타" type="Informative"
 mini-toc-levels: 1
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
-source-git-commit: 0769c486386ce27079244a3ff36cdd2fedf27214
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
 workflow-type: tm+mt
-source-wordcount: '1004'
-ht-degree: 17%
+source-wordcount: 1145
+ht-degree: 10%
 
 ---
 
@@ -42,7 +44,7 @@ ht-degree: 17%
 
 **구성 및 통합**
 
-<!-- * [Configure loyalty challenges](loyalty-admin.md) -->
+* [충성도 문제 구성](loyalty-admin.md)
 * [충성도 데이터 및 데이터 세트](loyalty-data-and-datasets.md)
 * [충성도 과제 API 참조](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
@@ -56,7 +58,7 @@ ht-degree: 17%
 >
 >이 기능은 현재 **개인 베타**&#x200B;에 있습니다. 릴리스 주기 및 가용성 단계에 대한 자세한 내용은 [Journey Optimizer 릴리스 주기](../rn/releases.md)를 참조하십시오.
 
-작업은 고객이 충성도 도전에서 보상을 얻기 위해 완료해야 하는 특정 작업 또는 이정표를 정의합니다. 매력적인 개인화된 충성도 경험을 만들기 위해 작업 유형, 수량 및 제품 요구 사항을 구성할 수 있습니다.
+작업은 고객이 충성도 도전에서 보상을 얻기 위해 완료해야 하는 특정 작업 또는 이정표를 정의합니다. 구매 및 지출 작업 또는 조직에서 이미 캡처한 Adobe Experience Platform 경험 이벤트를 추적하는 **[!UICONTROL 사용자 지정 이벤트]** 작업을 구성할 수 있습니다.
 
 각 작업은 측정 가능한 작업을 나타내며 과제 완성에 기여합니다. 작업은 재사용 가능한 구성 요소로서 독립적으로 만든 다음 하나 이상의 문제에 추가하거나 과제 내에서 직접 만들 수 있습니다.
 
@@ -65,7 +67,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_task_create"
 >title="작업 만들기"
->abstract="고객 활동(구매 또는 지출)을 선택한 다음 활동별 속성(수량 또는 금액, 적격 품목 및 제외, 최소 지출 또는 최대 트랜잭션과 같은 선택적 한도)을 구성합니다. 속성 창에서 작업 이름과 설명을 설정합니다."
+>abstract="고객 활동(구매, 지출 또는 사용자 지정 이벤트)을 선택한 다음, 활동별 속성을 구성합니다. 속성 창에서 작업 이름과 설명을 설정합니다."
 
 두 진입점에서 작업을 생성할 수 있습니다. 구성 프로세스는 시작하는 위치에 관계없이 동일합니다.
 
@@ -91,7 +93,7 @@ ht-degree: 17%
 
 * **[!UICONTROL 구매]**: 이 작업을 완료하려면 고객이 하나 이상의 항목을 구입해야 합니다.
 * **[!UICONTROL 지출]**: 이 작업을 완료하려면 고객이 지정된 금액을 사용해야 합니다.
-<!-- * **[!UICONTROL Custom event]**: Customers must perform an activity tracked as an Adobe Experience Platform event. The event must be defined in **[!UICONTROL Loyalty Admin]** before you can select it here. [Learn how to create event definitions](loyalty-admin.md#event-definitions) -->
+* **[!UICONTROL 사용자 지정 이벤트]**: 고객은 Adobe Experience Platform 경험 이벤트가 나타내는 활동을 수행해야 합니다. 예를 들어 호텔 체크인, 모바일 앱 작업 또는 검토 제출이 있습니다. 기본 이벤트는 이미 Experience Platform에서 캡처되고 **[!UICONTROL 충성도 관리자]** 메뉴의 이벤트 정의를 통해 매핑되어야 합니다. [이벤트 정의를 구성하는 방법을 알아봅니다](loyalty-admin.md#event-definitions)
 
 활동을 선택하려면 **+** 아이콘을 클릭하고 결과 목표에 가장 적합한 고객 활동을 선택하십시오. 각 활동 유형에는 작업 요구 사항을 추가로 정의하고 형성하기 위해 구성 가능한 특정 속성이 있습니다.
 ![](assets/task-create-activity.png)
@@ -123,6 +125,14 @@ ht-degree: 17%
 
 ![](assets/task-create-spend.png)
 
+>[!TAB 사용자 지정 이벤트 활동]
+
+**[!UICONTROL 사용자 지정 이벤트]** 활동에 사용 가능한 특성:
+
+* **[!UICONTROL 사용자 지정 이벤트 값]**: 고객이 완료해야 하는 사용자 지정 이벤트의 값을 입력하십시오. 각 값을 구분하려면 쉼표를 사용하십시오. 이 값은 **[!UICONTROL 충성도 관리자]** 메뉴에 구성된 이벤트 정의와 일치해야 합니다. [이벤트 정의를 구성하는 방법을 알아봅니다](loyalty-admin.md#event-definitions)
+
+![](assets/task-create-custom.png)
+
 >[!ENDTABS]
 
 ## 적격 품목 및 제외 정의 {#eligible-items-exclusions}
@@ -134,7 +144,9 @@ ht-degree: 17%
 
 <!-- SCREENSHOT: Eligible items & exclusions popup showing the two sections: "Eligible task purchases are limited to the following" and "The following are excluded from this task" with text input fields -->
 
-**구매**&#x200B;와 **지출** 활동 모두에 대해 **[!UICONTROL 적격 항목 및 제외]** 특성을 사용하여 적격 항목 및 그룹과 제외 그룹을 정의할 수 있습니다. 이를 통해 챌린지 목표에 부합하는 구체적인 제품, 카테고리 또는 위치를 타깃팅할 수 있습니다.
+**구매** 및 **지출** 활동의 경우 **[!UICONTROL 적격 항목 및 제외]** 특성을 사용하여 적격 항목 및 제외된 그룹을 정의할 수 있습니다. 이를 통해 챌린지 목표에 부합하는 구체적인 제품, 카테고리 또는 위치를 타깃팅할 수 있습니다. 이 특성을 구성할 때 **[!UICONTROL 충성도 관리자]** 메뉴에 업로드된 제품 그룹 및 제외 그룹을 사용할 수 있습니다. [제품 인벤토리 및 제외를 구성하는 방법을 알아봅니다.](loyalty-admin.md#product-inventory)
+
+**[!UICONTROL 사용자 지정 이벤트]** 작업은 적격 항목 및 제외를 사용하지 않습니다. 완료는 사용자가 구성한 **[!UICONTROL 사용자 지정 이벤트 값]**&#x200B;에 의해 결정됩니다.
 
 예를 들어 작업을 특정 제품 범주로 제한하거나 작업 완료 시 기프트 카드나 프로모션 항목을 카운트하지 않도록 할 수 있습니다.
 
