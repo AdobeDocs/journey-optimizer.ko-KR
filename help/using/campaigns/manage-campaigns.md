@@ -26,7 +26,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 1315e30c843f37083346d0289a00f9abdcaca472
 workflow-type: tm+mt
 source-wordcount: 1760
 ht-degree: 10%
@@ -115,6 +115,10 @@ API 트리거 캠페인 목록에 액세스하려면 **[!UICONTROL API 트리거
 
 **작업 및 API 트리거 캠페인에 대해서만:**
 
+<!--
+Per-campaign alert subscription is deferred (CJM-112845, CJM-112849). Campaign lifecycle alerts can currently be subscribed to at the sandbox level only. See ../reports/alerts.md#subscribe-alerts
+* **[!UICONTROL Subscribe to alerts]** - Choose which campaign lifecycle system alerts apply to this campaign only (in addition to any sandbox-wide alert subscriptions). [Learn more about system alerts →](../reports/alerts.md#subscribe-alerts)
+-->
 * **[!UICONTROL 패키지에 추가]** - 다른 샌드박스로 내보내려면 패키지에 캠페인을 추가하십시오. [개체를 내보내는 방법에 대해 알아봅니다→](../configuration/copy-objects-to-sandbox.md)
 * **[!UICONTROL 초안 버전 열기]** - 캠페인의 새 버전이 만들어지고 아직 활성화되지 않은 경우 이 작업을 사용하여 해당 초안 버전에 액세스할 수 있습니다.
 
@@ -147,7 +151,7 @@ API 트리거 캠페인 목록에 액세스하려면 **[!UICONTROL API 트리거
 >
 >작업 및 API 트리거 캠페인의 경우 **[!UICONTROL Live]** 또는 **[!UICONTROL 예약됨]** 상태 옆에 있는 &quot;초안 버전 열기&quot; 아이콘은 새 버전이 만들어졌고 아직 활성화되지 않았음을 나타냅니다.
 
-### 오류 표시기
+### 오류 표시기 {#error-indicators}
 
 캠페인 중 하나에서 오류가 발생하면 캠페인 상태와 함께 경고 아이콘이 표시됩니다. 경고와 관련된 정보를 표시하려면 이 패널을 클릭합니다. 이러한 경고는 캠페인 메시지가 게시되지 않았거나 선택한 구성이 잘못된 경우와 같은 다양한 상황에서 발생할 수 있습니다.
 
