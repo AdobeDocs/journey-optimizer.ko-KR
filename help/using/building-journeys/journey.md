@@ -108,7 +108,7 @@ ht-degree: 98%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 **진입점 정의**
 
@@ -128,7 +128,7 @@ ht-degree: 98%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 **논리 및 조건 추가**
 
@@ -259,7 +259,7 @@ ht-degree: 98%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ko)
 
 **전송 시간 최적화**
 
@@ -269,7 +269,7 @@ AI를 사용하여 각 고객이 참여할 가능성이 가장 높은 시점에 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
 
 **점진적 게재 늘리기**
 
@@ -299,7 +299,7 @@ AI를 사용하여 각 고객이 참여할 가능성이 가장 높은 시점에 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
 
 **모든 사용 사례**
 
@@ -317,7 +317,7 @@ AI를 사용하여 각 고객이 참여할 가능성이 가장 높은 시점에 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
 
 **고급 표현식**
 
@@ -357,7 +357,7 @@ AI를 사용하여 각 고객이 참여할 가능성이 가장 높은 시점에 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
 
 **태그 및 구성**
 
