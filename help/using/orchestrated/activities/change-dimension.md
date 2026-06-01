@@ -6,9 +6,11 @@ description: 차원 변경 활동을 사용하는 방법 알아보기
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/yN2RlYom4xpdiG0G8pt3U4MeY0C1JjDudDqYg-HPv1w
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: 
-subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+subfeature_v2:
+  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
 source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
 workflow-type: tm+mt
 source-wordcount: 336
@@ -59,6 +61,6 @@ ht-degree: 50%
 
 먼저 **[!UICONTROL 대상자 작성]** 활동을 만들며 **[!UICONTROL 위시리스트]** 타기팅 차원으로 모든 관련 위시리스트를 식별합니다.
 
-그런 다음 **[!UICONTROL 차원 변경]** 활동을 추가하여 타겟팅 차원을 **[!UICONTROL 위시리스트]**&#x200B;에서 **[!UICONTROL 수신자](으)로 전환합니다.** 이 단계에서는 오케스트레이션된 캠페인 타겟이 해당 위시리스트에 연결된 올바른 프로필을 타겟팅하여 의도한 프로필로 SMS를 전송할 수 있도록 합니다.
+그런 다음 **[!UICONTROL 차원 변경]** 활동을 추가하여 타겟팅 차원을 **[!UICONTROL 위시리스트]**&#x200B;에서 **[!UICONTROL 수신자] (으)로 전환합니다.** 이 단계에서는 오케스트레이션된 캠페인 타겟이 해당 위시리스트에 연결된 올바른 프로필을 타겟팅하여 의도한 프로필로 SMS를 전송할 수 있도록 합니다.
 
 ![](../assets/orchestrated-change-dimension-example.png)
