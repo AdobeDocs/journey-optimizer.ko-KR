@@ -19,7 +19,7 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 427
 ht-degree: 0%
@@ -65,7 +65,7 @@ ht-degree: 0%
 
    수정 내용 옆에 있는 **[!UICONTROL 추가 작업]** 단추를 클릭하고 **[!UICONTROL 정보]**&#x200B;를 선택하여 세부 정보를 표시합니다. 필요한 경우 **[!UICONTROL 수정 내용을 삭제]**&#x200B;할 수도 있습니다.
 
-   ![](assets/web-non-visual-editor-ex-more.png){width="50%" align="left"}
+   ![](assets/web-non-visual-editor-ex-more.png){width="50%"}
 
    >[!NOTE]
    >
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 1. 또한 웹 사이트의 요소를 선택하고 해당 요소에 대한 클릭 수를 추적할 수 있습니다. 클릭 추적을 활성화하고 추적할 작업을 정의하려면 아래와 같이 왼쪽 레일에서 두 번째 아이콘을 클릭합니다.
 
-   ![](assets/web-campaign-click.png){width="50%" align="left"}
+   ![](assets/web-campaign-click.png){width="50%"}
 
    **구성 요소 추가** 단추를 사용하여 추적할 새 작업을 선택하십시오. [이 섹션](monitor-web-experiences.md#use-click-tracking)에서 클릭 추적 사용에 대해 자세히 알아보세요.
 

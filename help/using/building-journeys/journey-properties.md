@@ -28,7 +28,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 3633
 ht-degree: 13%
@@ -391,7 +391,7 @@ ht-degree: 13%
 
 여러 종료 기준을 추가할 수 있습니다. 종료 기준이 이제 활성 상태이며 여정의 각 단계에서 평가됩니다.
 
-![여정 종료에 대한 대상 조건을 보여 주는 종료 기준 패널](assets/exitcriteria-sample.png){width="40%" align="left"}
+![여정 종료에 대한 대상 조건을 보여 주는 종료 기준 패널](assets/exitcriteria-sample.png){width="40%"}
 
 
 ### 프로필 속성 기반 종료 기준 {#profile-exit-criteria}

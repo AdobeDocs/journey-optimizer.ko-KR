@@ -24,7 +24,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 1008
 ht-degree: 2%
@@ -107,7 +107,7 @@ ht-degree: 2%
 1. **[!UICONTROL 여정]** 목록에서 닫을 여정을 클릭합니다.
 1. 오른쪽 상단에서 아래쪽 화살표를 클릭합니다.
 
-   ![종료 여정 및 대체 작업을 표시하는 옵션 메뉴](assets/finish_drop_down_list.png){width="50%" align="left" zoomable="yes"}
+   ![종료 여정 및 대체 작업을 표시하는 옵션 메뉴](assets/finish_drop_down_list.png){width="50%" zoomable="yes"}
 
 1. **[!UICONTROL 새 출입문 닫기]**&#x200B;를 클릭하고 대화 상자에서 확인합니다.
 
@@ -127,7 +127,7 @@ ht-degree: 2%
 1. **[!UICONTROL 여정]** 목록에서 중지할 여정을 클릭합니다.
 1. 오른쪽 상단에서 아래쪽 화살표를 클릭합니다.
 
-   ![여정 닫기 및 정리 등 추가 완료 옵션](assets/finish_drop_down_list2.png){width="50%" align="left" zoomable="yes"}
+   ![여정 닫기 및 정리 등 추가 완료 옵션](assets/finish_drop_down_list2.png){width="50%" zoomable="yes"}
 
 1. **[!UICONTROL 중지]**&#x200B;를 클릭하고 대화 상자에서 확인합니다.
 

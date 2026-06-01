@@ -29,9 +29,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
-source-wordcount: 2649
+source-wordcount: 2585
 ht-degree: 5%
 
 ---
@@ -71,7 +71,7 @@ ht-degree: 5%
 
 1. 현재 여정에 있는 프로필을 관리하는 방법을 선택합니다.
 
-   ![여정 옵션 일시 중지](assets/pause-confirm.png){width="50%" align="left"}
+   ![여정 옵션 일시 중지](assets/pause-confirm.png){width="50%"}
 
    다음과 같은 작업을 수행할 수 있습니다.
 
@@ -84,7 +84,7 @@ ht-degree: 5%
 
 조직의 일시 중지된 여정에 보유할 수 있는 최대 프로필 수가 여정 인벤토리에 표시됩니다. 하나 이상의 여정이 일시 중지된 경우에만 표시됩니다. 이 표시기는 일시 중지된 총 여정 수도 표시합니다. 30분마다 새로 고쳐집니다. 자세한 내용은 [보호 기능 및 제한 사항](#guardrails-and-limitations)을 참조하세요.
 
-![현재 일시 중지된 여정 및 프로필 수](assets/profiles-in-paused-journeys.png){width="50%" align="left"}
+![현재 일시 중지된 여정 및 프로필 수](assets/profiles-in-paused-journeys.png){width="50%"}
 
 여정 목록에서 하나 또는 여러 개의 **Live** 여정을 일시 중지할 수 있습니다. 여정 그룹(_일괄 일시 중지_)을 일시 중지하려면 목록에서 해당 그룹을 선택하고 화면 하단의 파란색 막대에 있는 **일시 중지** 단추를 클릭합니다. **일시 중지** 단추는 **Live** 여정을 선택한 경우에만 사용할 수 있습니다.
 

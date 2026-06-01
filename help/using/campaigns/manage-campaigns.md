@@ -26,7 +26,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 1315e30c843f37083346d0289a00f9abdcaca472
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 1760
 ht-degree: 10%
@@ -271,7 +271,7 @@ Per-campaign alert subscription is deferred (CJM-112845, CJM-112849). Campaign l
 
 캠페인을 삭제하려면 추가 작업 단추![&#128279;](assets/do-not-localize/rule-builder-icon-more.svg) 단추를 표시하는 줄임표 이미지를 사용하고 **[!UICONTROL 삭제]**&#x200B;를 선택하십시오.
 
-![](assets/delete-a-campaign.png){width="70%" align="left"}
+![](assets/delete-a-campaign.png){width="70%"}
 
 >[!IMPORTANT]
 >

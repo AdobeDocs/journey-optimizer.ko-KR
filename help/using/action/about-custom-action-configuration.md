@@ -30,7 +30,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: c5965ac7ea1465a20335536ebebf409e63bce98b
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 2200
 ht-degree: 13%
@@ -126,7 +126,7 @@ Journey Optimizer에서는 데이터 거버넌스 및 동의 정책을 사용자
 
 사용자 지정 작업을 구성할 때 다음 **[!UICONTROL 끝점 구성]** 매개 변수를 정의해야 합니다.
 
-![](assets/action-response1bis.png){width="70%" align="left"}
+![](assets/action-response1bis.png){width="70%"}
 
 1. **[!UICONTROL URL]** 필드에 외부 서비스의 URL을 지정하십시오.
 
@@ -136,7 +136,7 @@ Journey Optimizer에서는 데이터 거버넌스 및 동의 정책을 사용자
 
      예: `https://xxx.yyy.com/somethingstatic/`
 
-     사용자 지정 작업을 여정에 추가할 때 URL의 동적 경로를 지정합니다. [자세히 알아보기](../building-journeys/using-custom-actions.md).
+     사용자 지정 작업을 여정에 추가할 때 URL의 동적 경로를 지정합니다. [자세히 알아보기](../building-journeys/using-custom-actions.md)
 
    >[!NOTE]
    >
@@ -203,15 +203,15 @@ mTLS(상호 전송 계층 보안)를 사용하여 Adobe Journey Optimizer 사용
 
    외부 호출에서 Null 값을 유지하려면 **[!UICONTROL NULL 값 허용]** 옵션을 활성화하십시오. 내에 Null 값이 있는 int, string 등의 배열 전송은 완전히 지원되지 않습니다. 예를 들어, 다음 정수 배열 `[1, null, 2, 3]`은(는) 이 옵션이 선택된 경우에도 `[1, 2, 3]`(으)로 전송됩니다. 또한 이러한 배열이 null이면 빈 배열로 전송됩니다.
 
-   ![](assets/null-values.png){width="70%" align="left"}
+   ![](assets/null-values.png){width="70%"}
 
 1. **[!UICONTROL 응답]** 섹션에 호출이 성공하면 반환되는 페이로드의 예제를 붙여 넣으십시오. 이 필드는 선택 사항이며 모든 호출 방법에서 사용할 수 있습니다. 사용자 지정 작업에서 API 호출 응답을 활용하는 방법에 대한 자세한 내용은 [이 페이지](../action/action-response.md)를 참조하세요.
 
-   ![](assets/response-values.png){width="70%" align="left"}
+   ![](assets/response-values.png){width="70%"}
 
 1. (선택 사항) 오류 응답 페이로드 필드를 활성화하려면 **[!UICONTROL 오류 응답 페이로드 정의]**&#x200B;를 선택하십시오. 활성화하면 **[!UICONTROL 오류 응답]** 섹션을 사용하여 호출이 실패할 때 반환되는 페이로드의 예제를 붙여 넣으십시오. 응답 페이로드(필드 유형 및 형식)와 동일한 요구 사항이 적용됩니다. 여정 [여기](../action/action-response.md)에서 오류 응답 페이로드를 활용하는 방법을 알아봅니다.
 
-   ![](assets/response-values.png){width="70%" align="left"}
+   ![](assets/response-values.png){width="70%"}
 
 >[!NOTE]
 >

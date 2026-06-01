@@ -26,7 +26,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 1523
 ht-degree: 18%
@@ -55,7 +55,7 @@ ht-degree: 18%
 * 상태(보관 여부)
 * 태그
 
-![](assets/fragment-list-filters.png){width="90%" align="left"}
+![](assets/fragment-list-filters.png){width="90%"}
 
 모든 조각을 표시하도록 선택하거나 현재 사용자가 만들거나 수정한 항목만 표시하도록 선택할 수도 있습니다.
 
@@ -159,7 +159,7 @@ ht-degree: 18%
 
 1. 편집 중인 조각의 상태가 **[!UICONTROL Live]**&#x200B;인 경우 **[!UICONTROL 수정]** 단추를 클릭하여 조각의 초안 버전을 만드십시오. **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
 
-   ![](assets/fragment-live-modify.png){width="70%" align="left"}
+   ![](assets/fragment-live-modify.png){width="70%"}
 
    >[!NOTE]
    >
@@ -169,7 +169,7 @@ ht-degree: 18%
 
 1. 조각의 콘텐츠를 수정하려면 **[!UICONTROL 편집]** 단추를 클릭하고 조각을 처음부터 만들 때와 마찬가지로 콘텐츠를 업데이트하십시오. [조각을 만드는 방법을 알아봅니다](create-fragments.md#content)
 
-   ![](assets/fragment-edit.png){width="70%" align="left"}
+   ![](assets/fragment-edit.png){width="70%"}
 
    >[!NOTE]
    >
@@ -195,13 +195,13 @@ ht-degree: 18%
 
 1. **[!UICONTROL 추가 작업]** 단추를 사용하여 기존 조각을 복제합니다.
 
-   ![](assets/fragment-list-more-actions.png){width="70%" align="left"}
+   ![](assets/fragment-list-more-actions.png){width="70%"}
 
 1. 복제된 조각을 선택하여 열고 **[!UICONTROL 편집]** 단추를 클릭합니다.
 
 1. [새 원하는 특성을 &#x200B;](../personalization/personalization-build-expressions.md#add) 개인화 필드와 같이 복제된 조각에 추가합니다.
 
-   ![](assets/fragment-add-new-attribute.png){width="70%" align="left"}
+   ![](assets/fragment-add-new-attribute.png){width="70%"}
 
 1. 변경 사항을 저장하고 새 조각을 게시합니다. [방법 알아보기](create-fragments.md#publish)
 
@@ -214,11 +214,11 @@ ht-degree: 18%
 
 현재 조각을 사용 중인 여정, 캠페인 및 콘텐츠 템플릿 목록을 표시할 수 있습니다. 이렇게 하려면 조각 목록 또는 조각 속성 화면의 **[!UICONTROL 추가 작업]** 메뉴에서 **[!UICONTROL 참조 탐색]**&#x200B;을(를) 선택하십시오.
 
-![](assets/fragment-explore-references.png){width="70%" align="left"}
+![](assets/fragment-explore-references.png){width="70%"}
 
 여정, 캠페인, 템플릿 및 조각 간에 전환하려면 탭을 선택합니다. 해당 상태를 보고 조각을 참조하는 해당 항목으로 리디렉션할 이름을 클릭할 수 있습니다.
 
-![](assets/fragment-usage-screen.png){width="70%" align="left"}
+![](assets/fragment-usage-screen.png){width="70%"}
 
 >[!NOTE]
 >
@@ -230,7 +230,7 @@ ht-degree: 18%
 
 이렇게 하려면 원하는 조각 옆에 있는 **[!UICONTROL 추가 작업]** 단추를 클릭하고 **[!UICONTROL 보관]**&#x200B;을 선택합니다. 조각 목록에서 사라지므로 사용자가 향후 이메일 또는 템플릿에서 사용할 수 없습니다.
 
-![](assets/fragment-list-archive.png){width="70%" align="left"}
+![](assets/fragment-list-archive.png){width="70%"}
 
 >[!NOTE]
 >
@@ -238,7 +238,7 @@ ht-degree: 18%
 
 조각을 보관 해제하려면 **[!UICONTROL 보관됨]** 항목을 필터링하고 **[!UICONTROL 추가 작업]** 메뉴에서 **[!UICONTROL 보관 해제]**&#x200B;을(를) 선택하십시오. 이제 조각 목록에서 다시 액세스할 수 있으며 모든 이메일 또는 템플릿에서 사용할 수 있습니다.
 
-![](assets/fragment-list-unarchive.png){width="70%" align="left"}
+![](assets/fragment-list-unarchive.png){width="70%"}
 
 ## 다른 샌드박스로 조각 내보내기 {#export}
 

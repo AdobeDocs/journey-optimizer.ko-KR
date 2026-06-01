@@ -12,7 +12,7 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 1227
 ht-degree: 64%
@@ -163,7 +163,7 @@ ht-degree: 64%
 
 다음 예에서는 오케스트레이션된 캠페인이 2025년 10월 1일부터 2026년 1월 1일까지 매주 오전 9시와 12시에 하루에 두 번 실행되도록 활동이 구성됩니다.
 
-![하루에 두 번, 오전 9시와 12시에 캠페인을 실행하도록 구성된 스케줄러](assets/scheduler-sample.png){width="50%" align="left"}
+![하루에 두 번, 오전 9시와 12시에 캠페인을 실행하도록 구성된 스케줄러](assets/scheduler-sample.png){width="50%"}
 
 ## 다음 단계 {#next}
 

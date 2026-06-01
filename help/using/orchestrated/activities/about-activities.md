@@ -14,7 +14,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 530
 ht-degree: 56%
@@ -31,7 +31,7 @@ ht-degree: 56%
 * [채널 활동](#channel)
 * [흐름 제어 활동](#flow-control)
 
-![캔버스에서 사용 가능한 활동 목록](../assets/orchestrated-activities.png){width="80%" align="left"}
+![캔버스에서 사용 가능한 활동 목록](../assets/orchestrated-activities.png){width="80%"}
 
 >[!NOTE]
 >
@@ -49,7 +49,7 @@ ht-degree: 56%
 
 이 활동은 타기팅에만 해당됩니다. 이를 통해 대상자를 정의하고 교차, 합집합 또는 제외 작업을 사용하여 이러한 대상자를 분할 또는 결합하여 하나 이상의 대상을 빌드할 수 있습니다.
 
-![타기팅 활동 목록](../assets/targeting-activities.png){width="40%" align="left"}
+![타기팅 활동 목록](../assets/targeting-activities.png){width="40%"}
 
 사용 가능한 타겟팅 활동은 다음과 같습니다.
 
@@ -81,7 +81,7 @@ Adobe Journey Optimizer에서는 여러 채널에 걸쳐 마케팅 캠페인을 
 
 다음 활동은 오케스트레이션된 캠페인을 구성하고 실행하는 데 특정적입니다. 이들의 주요 임무는 다른 활동을 조정하는 것입니다.
 
-![흐름 제어 활동 목록](../assets/flow-control-activities.png){width="20%" align="left"}
+![흐름 제어 활동 목록](../assets/flow-control-activities.png){width="20%"}
 
 사용 가능한 흐름 제어 활동은 다음과 같습니다.
 

@@ -32,7 +32,7 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 467fa00fa91c2e0f124c9aace8c7e6946dc9dd34
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 1082
 ht-degree: 16%
@@ -79,7 +79,7 @@ ht-degree: 16%
 
   가독성을 높이기 위해 사용자 지정 작업 및 채널 활동은 시험 실행 중에 회색으로 표시됩니다.
 
-  ![시험 실행 여정의 작업 활동이 회색으로 표시됨](assets/dry-run-greyed-activities.png){width="80%" align="left"}
+  ![시험 실행 여정의 작업 활동이 회색으로 표시됨](assets/dry-run-greyed-activities.png){width="80%"}
 
 * **외부 데이터 원본을 포함한 데이터 원본** 및 **대기** 활동은 기본적으로 시험 실행 중에 비활성화되어 있습니다. 그러나 시험 실행 모드를 활성화[&#128279;](#journey-dry-run-start)할 때 이 동작을 변경할 수 있습니다.
 
@@ -107,7 +107,7 @@ ht-degree: 16%
 
 1. **대기** 활동 및 **외부 데이터 원본** 호출을 활성화하거나 비활성화하려면 을(를) 선택하고 시험 실행 게시를 확인합니다.
 
-   ![여정 시험 실행 게시 확인](assets/dry-run-publish.png){width="50%" align="left"}
+   ![여정 시험 실행 게시 확인](assets/dry-run-publish.png){width="50%"}
 
    전환이 진행되는 동안 **[!UICONTROL 시험 실행 활성화]** 상태 메시지가 나타납니다.
 
@@ -141,7 +141,7 @@ ht-degree: 16%
 1. **[!UICONTROL 닫기]** 단추를 선택하여 테스트를 종료합니다.
 지난 24시간 및 모든 시간 보고서에 대한 링크는 확인 화면에서 사용할 수 있습니다.
 
-   ![여정 시험 실행 중지](assets/dry-run-stop.png){width="50%" align="left"}
+   ![여정 시험 실행 중지](assets/dry-run-stop.png){width="50%"}
 
 1. **[!UICONTROL 초안으로 돌아가기]**&#x200B;를 클릭하여 확인합니다.
 

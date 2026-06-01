@@ -29,7 +29,7 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 2177
 ht-degree: 6%
@@ -80,7 +80,7 @@ AI Assistant는 Adobe Journey Optimizer에 대한 대화형 안내서입니다. 
 4. 관련 문서에 액세스하려면 **소스 표시**&#x200B;를 클릭하십시오.
 5. 엄지 손가락을 사용하여 응답 품질 평가
 
-![](assets/do-not-localize/ai-assistant-answer.png){width="40%" align="left"}
+![](assets/do-not-localize/ai-assistant-answer.png){width="40%"}
 
 [Experience Platform의 AI Assistant에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/home){target="_blank"}
 

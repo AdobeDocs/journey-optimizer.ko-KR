@@ -25,7 +25,7 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 1490
 ht-degree: 96%
@@ -44,7 +44,7 @@ ht-degree: 96%
 
 이메일 설정은 아래 설명과 같이 채널 구성의 전용 섹션에서 정의합니다.
 
-![](assets/surface-email-settings.png){width="50%" align="left"}
+![](assets/surface-email-settings.png){width="50%"}
 
 이메일 구성은 아래 로직에 따라 커뮤니케이션 전송 시 자동으로 적용됩니다.
 
@@ -85,7 +85,7 @@ ht-degree: 96%
 
 구성에 연결할 IP 풀을 선택합니다. [자세히 알아보기](../configuration/ip-pools.md)
 
-![](assets/surface-subdomain-ip-pool.png){width="50%" align="left"}
+![](assets/surface-subdomain-ip-pool.png){width="50%"}
 
 선택한 IP 풀이 [편집](../configuration/ip-pools.md#edit-ip-pool)(**[!UICONTROL 처리 중]** 상태)이고 선택한 하위 도메인과 연결된 적이 없는 경우, 구성 만들기를 진행할 수 없습니다. 다른 경우에는 가장 오래된 버전의 IP 풀/하위 도메인 연결이 계속 사용됩니다. 이 경우 해당 구성을 초안으로 저장하고 IP 풀의 상태가&#x200B;**[!UICONTROL 성공]**&#x200B;으로 바뀐 후에 다시 시도하십시오.
 

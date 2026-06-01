@@ -32,10 +32,10 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
-source-wordcount: 1770
-ht-degree: 2%
+source-wordcount: 1675
+ht-degree: 3%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 2%
 
 <!--and show/hide timeout and error paths-->
 
-![확대/축소, 격자 및 스크린샷 컨트롤이 있는 여정 도구 모음](assets/toolbar.png){width="70%" align="left"}
+![확대/축소, 격자 및 스크린샷 컨트롤이 있는 여정 도구 모음](assets/toolbar.png){width="70%"}
 
 팔레트에서 활동을 클릭하면 **활동 구성 창**&#x200B;이 나타납니다. 필수 필드를 입력합니다. 활동을 삭제하려면 **[!UICONTROL 삭제]** 아이콘을 클릭하십시오. **[!UICONTROL 취소]**&#x200B;를 클릭하여 수정 사항을 취소하거나 **[!UICONTROL 확인]**&#x200B;을 클릭하여 확인하십시오. 활동을 삭제하려면 하나의 활동(또는 여러 활동)을 선택하고 백스페이스 키를 누를 수도 있습니다. Esc 키를 누르면 활동 구성 창이 닫힙니다.
 
