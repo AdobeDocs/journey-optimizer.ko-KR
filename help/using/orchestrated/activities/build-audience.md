@@ -6,13 +6,10 @@ description: 오케스트레이션된 캠페인에서 대상자 빌드 활동을
 exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/9hEr5kAHco1iq8arv-FddaG3vm54CS-cPFUA63soeAg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 338
 ht-degree: 56%
@@ -63,4 +60,4 @@ ht-degree: 56%
 
 아래 예에서 **[!UICONTROL 대상자 작성]** 활동은 규칙 빌더를 사용하여 구독 플랜별로 프로필을 필터링합니다. `plan = "basic"`인 프로필만 포함하도록 조건이 `plan` 특성에 설정되어 다음 활동으로 전달하기 전에 대상을 기본 계층 구독자로 좁힙니다.
 
-![](../assets/build-audience-plan.png){width="50%" align="left"}
+![](../assets/build-audience-plan.png){width="50%"}

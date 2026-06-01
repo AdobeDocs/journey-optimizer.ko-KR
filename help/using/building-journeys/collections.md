@@ -10,19 +10,12 @@ level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/zhAlHWwS8UOup7yqqVc2d0lqj4JUj5gOvz7JAwVwZPk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 794
 ht-degree: 3%
@@ -54,7 +47,7 @@ ht-degree: 3%
 
   각 항목에 여러 필드 또는 속성이 포함된 경우 개체 컬렉션을 사용합니다. 일반적으로 제품 세부 사항, 이벤트 레코드 또는 항목 속성과 같은 구조화된 데이터를 전달하는 데 사용됩니다.
 
-  예제:
+  예:
 
   ```json
   {
@@ -132,7 +125,7 @@ ht-degree: 3%
 
 1. 각 필드에 대해 여정 캔버스에 표시될 레이블을 정의합니다.
 
-   ![조건 빌더 인터페이스를 사용한 컬렉션 함수 필터링](assets/uc-collection-2.png){width="70%" align="left"}
+   ![조건 빌더 인터페이스를 사용한 컬렉션 함수 필터링](assets/uc-collection-2.png){width="70%"}
 
 1. 여정을 만들고 만든 사용자 지정 작업을 추가합니다. [이 페이지](../building-journeys/using-custom-actions.md)에서 자세히 알아보십시오.
 
@@ -142,7 +135,7 @@ ht-degree: 3%
 
 1. 다음 각 오브젝트 필드에 대해 소스 XDM 스키마의 해당 필드 이름을 입력합니다. 이름이 동일한 경우 이 작업이 필요하지 않습니다. 이 예제에서는 `product id`과(와) &quot;color&quot;만 정의하면 됩니다.
 
-   ![순서 지정 구성이 있는 컬렉션 정렬 함수](assets/uc-collection-4.png){width="50%" align="left"}
+   ![순서 지정 구성이 있는 컬렉션 정렬 함수](assets/uc-collection-4.png){width="50%"}
 
 배열 필드의 경우 고급 표현식 편집기를 사용하여 데이터 조작을 수행할 수도 있습니다. 다음 예제에서는 [filter](functions/list-functions.md#filter) 및 [intersect](functions/list-functions.md#intersect) 함수를 사용합니다.
 
@@ -206,7 +199,7 @@ ht-degree: 3%
 
 이기종 유형 및 배열 배열의 경우 배열은 listAny 형식으로 정의됩니다. 개별 항목만 매핑할 수 있지만 배열을 변수로 변경할 수는 없습니다.
 
-![데이터 형식과 필드 선택이 혼합된 다른 형식 컬렉션](assets/uc-collection-heterogeneous.png){width="70%" align="left"}
+![데이터 형식과 필드 선택이 혼합된 다른 형식 컬렉션](assets/uc-collection-heterogeneous.png){width="70%"}
 
 형식이 다른 형식의 예:
 

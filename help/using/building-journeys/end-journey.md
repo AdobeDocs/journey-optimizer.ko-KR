@@ -10,21 +10,13 @@ keywords: 재입력, 여정, 종료, 라이브, 중지
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/-mknoNfkNCnfnLD1UCiA6C88NjookKqGr5tQdJ-f3T4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: d7dd6f7f-9e2a-47ee-a2bc-b7b9caaefc1d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: d7dd6f7f-9e2a-47ee-a2bc-b7b9caaefc1d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 1008
 ht-degree: 2%
@@ -107,7 +99,7 @@ ht-degree: 2%
 1. **[!UICONTROL 여정]** 목록에서 닫을 여정을 클릭합니다.
 1. 오른쪽 상단에서 아래쪽 화살표를 클릭합니다.
 
-   ![종료 여정 및 대체 작업을 표시하는 옵션 메뉴](assets/finish_drop_down_list.png){width="50%" align="left" zoomable="yes"}
+   ![종료 여정 및 대체 작업을 표시하는 옵션 메뉴](assets/finish_drop_down_list.png){width="50%" zoomable="yes"}
 
 1. **[!UICONTROL 새 출입문 닫기]**&#x200B;를 클릭하고 대화 상자에서 확인합니다.
 
@@ -127,7 +119,7 @@ ht-degree: 2%
 1. **[!UICONTROL 여정]** 목록에서 중지할 여정을 클릭합니다.
 1. 오른쪽 상단에서 아래쪽 화살표를 클릭합니다.
 
-   ![여정 닫기 및 정리 등 추가 완료 옵션](assets/finish_drop_down_list2.png){width="50%" align="left" zoomable="yes"}
+   ![여정 닫기 및 정리 등 추가 완료 옵션](assets/finish_drop_down_list2.png){width="50%" zoomable="yes"}
 
 1. **[!UICONTROL 중지]**&#x200B;를 클릭하고 대화 상자에서 확인합니다.
 

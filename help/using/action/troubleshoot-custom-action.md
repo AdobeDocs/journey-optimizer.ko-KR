@@ -10,24 +10,12 @@ level: Experienced
 keywords: 작업, 서드파티, 사용자 지정, 여정, API
 exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
 TQID: https://experienceleague.adobe.com/SBF--1O5Edtk2OKch-n0ukkfxsTwRn-lLqBPncM-UAk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944fid: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 1051
 ht-degree: 1%
@@ -40,7 +28,7 @@ Journey Optimizer 사용자 인터페이스의 관리 섹션에서 API 호출을
 
 관리자는 **[!UICONTROL 테스트 요청 보내기]** 기능을 사용하여 Adobe Journey Optimizer에서 직접 실제 API를 호출하여 사용자 지정 작업 구성의 유효성을 검사합니다. 이 기능을 사용하면 여정에서 사용하기 전에 요청 구조, 헤더, 인증 및 페이로드의 형식이 올바르게 지정됩니다.
 
-![](assets/send-test-request.png){width="70%" align="left"}
+![](assets/send-test-request.png){width="70%"}
 
 이 기능을 사용하면 테스트 및 유효성 검사 프로세스를 간소화하여 사용자 지정 작업이 라이브 여정에서 올바르게 작동하도록 할 수 있습니다.
 
@@ -67,7 +55,7 @@ Journey Optimizer 사용자 인터페이스의 관리 섹션에서 API 호출을
 
 1. **작업** 구성 화면으로 이동하여 사용자 지정 작업을 선택합니다.
 1. 작업 구성 화면 하단의 **[!UICONTROL 테스트 요청 보내기]** 단추를 클릭합니다.
-   ![작업 구성 패널의 테스트 요청 보내기 단추](assets/test-request.png){width="70%" align="left"}
+   ![작업 구성 패널의 테스트 요청 보내기 단추](assets/test-request.png){width="70%"}
 1. 팝업 창에서 요청 매개 변수를 지정할 수 있습니다.
 
    * **사용자 지정 작업 메서드가 GET**&#x200B;인 경우 페이로드가 필요하지 않습니다.

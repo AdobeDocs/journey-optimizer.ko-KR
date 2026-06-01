@@ -10,28 +10,15 @@ keywords: 게시, 여정, 라이브, 유효성, 확인
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/gIj6jGScvIDgAJxb3B4wiuqP6BKZS0tvCeqC6wRo5IQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
-source-wordcount: 2649
+source-wordcount: 2585
 ht-degree: 5%
 
 ---
@@ -71,7 +58,7 @@ ht-degree: 5%
 
 1. 현재 여정에 있는 프로필을 관리하는 방법을 선택합니다.
 
-   ![여정 옵션 일시 중지](assets/pause-confirm.png){width="50%" align="left"}
+   ![여정 옵션 일시 중지](assets/pause-confirm.png){width="50%"}
 
    다음과 같은 작업을 수행할 수 있습니다.
 
@@ -84,7 +71,7 @@ ht-degree: 5%
 
 조직의 일시 중지된 여정에 보유할 수 있는 최대 프로필 수가 여정 인벤토리에 표시됩니다. 하나 이상의 여정이 일시 중지된 경우에만 표시됩니다. 이 표시기는 일시 중지된 총 여정 수도 표시합니다. 30분마다 새로 고쳐집니다. 자세한 내용은 [보호 기능 및 제한 사항](#guardrails-and-limitations)을 참조하세요.
 
-![현재 일시 중지된 여정 및 프로필 수](assets/profiles-in-paused-journeys.png){width="50%" align="left"}
+![현재 일시 중지된 여정 및 프로필 수](assets/profiles-in-paused-journeys.png){width="50%"}
 
 여정 목록에서 하나 또는 여러 개의 **Live** 여정을 일시 중지할 수 있습니다. 여정 그룹(_일괄 일시 중지_)을 일시 중지하려면 목록에서 해당 그룹을 선택하고 화면 하단의 파란색 막대에 있는 **일시 중지** 단추를 클릭합니다. **일시 중지** 단추는 **Live** 여정을 선택한 경우에만 사용할 수 있습니다.
 
@@ -182,7 +169,7 @@ ht-degree: 5%
 
 ## 가드레일 및 제한 사항 {#journey-pause-guardrails}
 
-* 최대 **14일** 동안 여정 버전을 일시 중지할 수 있으며, 조직 전체에서 일시 중지된 프로필에 최대 **1천만 개**&#x200B;의 여정이 허용됩니다.
+* 최대 **14일** 동안 여정 버전을 일시 중지할 수 있으며, 조직 전체에서 일시 중지된 프로필에 최대 **1천만 개**의 여정이 허용됩니다.
 이 제한은 개별 프로필이 아닌 일시 중지된 모든 여정에 걸쳐 유지된 총 프로필 수를 계산합니다. 예를 들어 동일한 5M 프로필이 일시 중지된 두 개의 여정에 유지되면 10M 제한에 도달합니다.
 이 제한은 30분마다 확인됩니다. 즉, 일시적으로 1,000만 임계값을 초과할 수 있지만, 시스템에서 이를 감지하면 추가 프로필이 자동으로 삭제됩니다.
 
@@ -231,7 +218,7 @@ ht-degree: 5%
 
 ## 일시 중지된 프로필의 여정 카드 문제 해결 {#discards-troubleshoot}
 
-[[!DNL Adobe Experience Platform] 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ko){target="_blank"}를 사용하여 단계 이벤트를 쿼리할 수 있습니다. 이 이벤트는 발생한 시기에 따라 프로필 삭제에 대한 자세한 정보를 제공할 수 있습니다.
+[[!DNL Adobe Experience Platform] 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}를 사용하여 단계 이벤트를 쿼리할 수 있습니다. 이 이벤트는 발생한 시기에 따라 프로필 삭제에 대한 자세한 정보를 제공할 수 있습니다.
 
 * 프로필이 여정에 들어가기 전에 발생하는 폐기물의 경우 다음 코드를 사용하십시오.
 

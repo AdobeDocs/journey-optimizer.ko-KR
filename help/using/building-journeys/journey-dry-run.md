@@ -10,29 +10,13 @@ keywords: 게시, 여정, 라이브, 유효성, 확인
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/a7qFw84obtkCRDmiqMxQNgvqhI4b6t5suROeF7ZPh1I
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 467fa00fa91c2e0f124c9aace8c7e6946dc9dd34
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 1082
 ht-degree: 16%
@@ -79,9 +63,9 @@ ht-degree: 16%
 
   가독성을 높이기 위해 사용자 지정 작업 및 채널 활동은 시험 실행 중에 회색으로 표시됩니다.
 
-  ![시험 실행 여정의 작업 활동이 회색으로 표시됨](assets/dry-run-greyed-activities.png){width="80%" align="left"}
+  ![시험 실행 여정의 작업 활동이 회색으로 표시됨](assets/dry-run-greyed-activities.png){width="80%"}
 
-* **외부 데이터 원본을 포함한 데이터 원본** 및 **대기** 활동은 기본적으로 시험 실행 중에 비활성화되어 있습니다. 그러나 시험 실행 모드를 활성화[&#128279;](#journey-dry-run-start)할 때 이 동작을 변경할 수 있습니다.
+* **외부 데이터 원본을 포함한 데이터 원본** 및 **대기** 활동은 기본적으로 시험 실행 중에 비활성화되어 있습니다. 그러나 시험 실행 모드를 활성화](#journey-dry-run-start)할 때 이 동작을 [변경할 수 있습니다.
 
 * **반응** 노드가 실행되지 않습니다. 입력한 모든 프로필이 성공하면 종료됩니다. 그러나 다음 우선순위 규칙이 적용됩니다.
 
@@ -107,7 +91,7 @@ ht-degree: 16%
 
 1. **대기** 활동 및 **외부 데이터 원본** 호출을 활성화하거나 비활성화하려면 을(를) 선택하고 시험 실행 게시를 확인합니다.
 
-   ![여정 시험 실행 게시 확인](assets/dry-run-publish.png){width="50%" align="left"}
+   ![여정 시험 실행 게시 확인](assets/dry-run-publish.png){width="50%"}
 
    전환이 진행되는 동안 **[!UICONTROL 시험 실행 활성화]** 상태 메시지가 나타납니다.
 
@@ -141,7 +125,7 @@ ht-degree: 16%
 1. **[!UICONTROL 닫기]** 단추를 선택하여 테스트를 종료합니다.
 지난 24시간 및 모든 시간 보고서에 대한 링크는 확인 화면에서 사용할 수 있습니다.
 
-   ![여정 시험 실행 중지](assets/dry-run-stop.png){width="50%" align="left"}
+   ![여정 시험 실행 중지](assets/dry-run-stop.png){width="50%"}
 
 1. **[!UICONTROL 초안으로 돌아가기]**&#x200B;를 클릭하여 확인합니다.
 
@@ -173,4 +157,4 @@ stepEvent 데이터를 **외부 시스템**(으)로 내보내는 경우 `inDryRu
 
 이 비디오에서는 여정을 시험 실행하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464689/?captions=kor&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)
