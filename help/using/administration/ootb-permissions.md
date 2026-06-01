@@ -32,7 +32,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 99aa72f0a45e504b0a22ca171b2f96e90c28e1af
+source-git-commit: 39c76d0356b15ec6b9cb9634d080d2f79e591adb
 workflow-type: tm+mt
 source-wordcount: 1210
 ht-degree: 2%
@@ -73,4 +73,3 @@ ht-degree: 2%
 | 번역 서비스 | **[!DNL Manage translation in house]**: 집에서 번역을 읽고, 만들고, 편집하고, 삭제합니다.</br>**[!DNL Manage translation projects]**: 번역 프로젝트를 읽고, 만들고, 편집하고, 삭제합니다.</br> **[!DNL Manage translation reviews]**: 번역 검토를 읽고, 만들고, 편집하고, 삭제합니다.</br>**[!DNL Manage translation settings]**: 번역 설정을 읽고, 만들고, 편집하고, 삭제합니다.</br>**[!DNL Manage translation tasks]**: 번역 작업을 읽고, 만들고, 편집하고, 삭제합니다.</br>**[!DNL View translation in house]**: 사내 번역에 대한 읽기 전용 액세스.</br>**[!DNL View translation projects]**: 번역 프로젝트에 대한 읽기 전용 액세스.</br>**[!DNL View translation reviews]**: 번역 검토에 대한 읽기 전용 액세스.</br>**[!DNL View translation tasks]**: 번역 작업에 대한 읽기 전용 액세스. |
 
 {style="table-layout:fixed"}
-
