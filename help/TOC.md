@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: dfe268a55e099fa69ac8ccd6645faf65d4512460
+source-git-commit: 4dd5fc79ef209265b1367d414fe6020d9a50064c
 workflow-type: tm+mt
-source-wordcount: '3335'
+source-wordcount: '3343'
 ht-degree: 95%
 
 ---
@@ -63,6 +63,8 @@ ht-degree: 95%
       + [여정 지표 구성 및 추적](using/building-journeys/success-metrics.md)
       + [여정 디자인](using/building-journeys/using-the-journey-designer.md)
       + [여정 시뮬레이션](using/building-journeys/simulate-journey.md)
+      + {hide-from-toc}[여정 시뮬레이션 시작](using/building-journeys/simulate-journey-gs.md)
+      + {hide-from-toc}[여정 시뮬레이션](using/building-journeys/simulate-journey-2.md)
       + [여정 테스트](using/building-journeys/testing-the-journey.md)
       + [여정 시험 실행](using/building-journeys/journey-dry-run.md)
       + [여정 게시](using/building-journeys/publish-journey.md)
@@ -352,7 +354,7 @@ ht-degree: 95%
       + [SMS 하위 도메인 설정](using/mobile/mobile-subdomains.md)
       + [SMS 비용 최적화 모범 사례](using/mobile/mobile-cost-optimization.md)
       + 모바일 채널 구성 {#configure-mobile}
-         + [모바일 구성 시작](using/mobile/mobile-configuration.md)
+         + [모바일 구성 시작하기](using/mobile/mobile-configuration.md)
          + [Sinch 제공자 구성](using/mobile/mobile-configuration-sinch.md)
          + [Infobip 제공자 구성](using/mobile/mobile-configuration-infobip.md)
          + [Twilio 제공자 구성](using/mobile/mobile-configuration-twilio.md)
