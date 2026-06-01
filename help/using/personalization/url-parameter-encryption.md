@@ -7,25 +7,22 @@ feature: Personalization
 topic: Personalization
 role: Admin
 level: Intermediate
-badge: label="제한된 가용성" type="Informative"
 keywords: 암호화, URL, 추적, 랜딩 페이지, 키 레지스트리, 개인화, 보안, 개인 정보, 샌드박스
 exl-id: 82e2b6e4-769f-4bdc-b2e2-19352fbaec8e
 feature_v2:
   - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0db9be747a60ae40c881227ce7b8da251abec042
 workflow-type: tm+mt
-source-wordcount: 695
-ht-degree: 2%
+source-wordcount: 663
+ht-degree: 1%
 
 ---
 
 # URL 매개 변수 암호화 {#url-parameter-encryption}
 
 >[!AVAILABILITY]
->
->이 기능은 제한된 가용성으로 사용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.
 >
 >이 기능은 현재 이메일 채널에만 사용할 수 있습니다.
 
@@ -54,15 +51,9 @@ ht-degree: 2%
 
 URL 매개 변수 암호화 도우미를 사용하려면 먼저 키를 만들어야 합니다. 그 방법은 다음과 같습니다.
 
->[!NOTE]
->
->현재 키에 액세스하고 관리할 수 있는 특정 권한이 없습니다. **[!UICONTROL 관리]**&#x200B;의 **[!UICONTROL 구성]** 섹션에 대한 액세스 권한을 부여하는 역할도 키 레지스트리에 대한 액세스 권한을 부여합니다. 그러나 특정 권한은 향후 릴리스에 포함될 예정입니다.
-
-<!--
 >[!IMPORTANT]
 >
->To access and manage keys, you you must have the **View Key Registry** and **Manage Key Registry** permissions granted. [Learn more](../administration/high-low-permissions.md)
--->
+>키에 액세스하고 관리하려면 **키 레지스트리 보기** 및 **키 레지스트리 관리** 권한이 부여되어야 합니다. [자세히 알아보기](../administration/high-low-permissions.md#administration-permissions)
 
 1. **[!UICONTROL 관리]** > **[!UICONTROL 구성]**(으)로 이동합니다.
 

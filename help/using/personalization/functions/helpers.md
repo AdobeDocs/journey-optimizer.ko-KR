@@ -9,9 +9,9 @@ exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
 feature_v2:
   - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: aba0c6daa1f1f1258b424bc5b57fbca694dfabbf
 workflow-type: tm+mt
-source-wordcount: 1198
+source-wordcount: 1121
 ht-degree: 4%
 
 ---
@@ -137,7 +137,7 @@ Some edu specific content
 ## 각{#each}
 
 `each` 도우미는 배열을 반복하는 데 사용됩니다.
-도우미의 구문은 `{{#each ArrayName}}` YourContent `{{/each}}`입니다.
+도우미 구문은 `{{#each ArrayName}}` YourContent `{{/each}}`입니다.
 블록 내에서 **this** 키워드를 사용하여 개별 배열 항목을 참조할 수 있습니다. `{{@index}}`을(를) 사용하여 배열 요소의 인덱스를 렌더링할 수 있습니다.
 
 **구문**
@@ -231,7 +231,7 @@ Some edu specific content
 
 **매개 변수**
 
-| 매개변수 | 설명 |
+| 매개 변수 | 설명 |
 |---|---|
 | `originalUrl` | 단축할 URL입니다. |
 | `type` | 링크 유형. `DEEPLINK`을(를) 사용하여 모바일 앱에서 특정 화면을 엽니다. |
@@ -333,8 +333,6 @@ Some edu specific content
 ## 암호화 {#url-parameter-encryption-helper}
 
 >[!AVAILABILITY]
->
->이 기능은 제한된 가용성으로 사용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.
 >
 >이 기능은 현재 이메일 채널에만 사용할 수 있습니다.
 

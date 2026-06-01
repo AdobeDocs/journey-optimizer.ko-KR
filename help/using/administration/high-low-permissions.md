@@ -23,9 +23,9 @@ role_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: d8be8fcb4fb36c583a3d0b4d57f127686d682866
 workflow-type: tm+mt
-source-wordcount: 1457
+source-wordcount: 1516
 ht-degree: 0%
 
 ---
@@ -207,10 +207,10 @@ ht-degree: 0%
       * 캠페인 읽기
       * campaign-게시
      <!--
-      * experiments.activate
-     -->
+      * experiments.activate    
+      -->
 
-+++
+  +++
 
 * **[!DNL View campaigns report]** 높은 수준의 권한으로 사용자가 캠페인 보고서를 읽고 편집할 수 있습니다.
 
@@ -222,9 +222,9 @@ ht-degree: 0%
      <!--
       * experiments.read
       * experiments_report.read
-     -->
+      -->
 
-+++
+  +++
 
 ## 의사 결정 관리 리소스 {#decisions-permissions}
 
@@ -352,6 +352,16 @@ ht-degree: 0%
 
   +++
 
+* **[!DNL Manage key registry]** 높은 수준의 권한을 통해 사용자는 키 레지스트리에서 키를 보고, 만들고, 회전하고, 취소할 수 있습니다.
+
+  +++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다.  
+
+   * Journey Optimizer 관련:
+      * key-registry.read
+      * key-registry.write
+
+  +++
+
 * **[!DNL Manage landing page settings]** 높은 수준의 권한을 통해 사용자가 랜딩 페이지 하위 도메인 및 사전 설정 설정을 읽고, 만들고, 편집할 수 있습니다.
 
   +++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다. 
@@ -408,7 +418,7 @@ ht-degree: 0%
 
   +++
 
-* **[!DNL Manage Seedlist]** 높은 수준의 사용 권한을 통해 사용자가 Seedlist를 읽고 만들고 편집하고 삭제할 수 있습니다.
+* **[!DNL Manage seed lists]** 높은 수준의 권한을 통해 사용자는 시드 목록을 읽고 만들고 편집하고 삭제할 수 있습니다.
 
   +++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다. 
 
@@ -459,6 +469,15 @@ ht-degree: 0%
    * Journey Optimizer 관련:
 
       * file_routing.read
+
+  +++
+
+* **[!DNL View key registry]** 높은 수준의 권한을 통해 사용자는 키 레지스트리 목록과 키 세부 정보를 볼 수 있습니다.
+
+  +++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다.  
+
+   * Journey Optimizer 관련:
+      * key-registry.read
 
   +++
 

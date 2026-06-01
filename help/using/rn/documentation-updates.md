@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 3b761a8741061aac35ed39c6bb41bd00ab9cbcaf
+source-git-commit: 11d7941699213e9a0f3172bea2f4f46f303741bc
 workflow-type: tm+mt
-source-wordcount: 8040
-ht-degree: 89%
+source-wordcount: 8083
+ht-degree: 88%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 89%
 이 페이지에는 월별 릴리스 기능 및 개선 사항과 관련된 업데이트 외에도 [!DNL Journey Optimizer] 설명서의 모든 최신 변경 사항이 나와 있습니다.
 
 ## 2026년 5월 {#may-2026}
+
+* 사용자가 키 레지스트리에서 키를 보고, 만들고, 회전하고, 취소할 수 있는 **키 레지스트리 관리**&#x200B;와 키 레지스트리 목록과 키 세부 정보를 볼 수 있는 **키 레지스트리 보기**&#x200B;와 같은 두 가지 높은 수준의 권한이 새로 추가되었습니다. [자세히 보기](../administration/high-low-permissions.md#administration-permissions)
 
 * 이제 **메시지의 의사 결정 정책 사용** 설명서에서 캠페인 요약에서 의사 결정 정책의 전체 구조를 보고 문제 해결을 위해 JSON 기술 요약을 클립보드에 복사하는 방법을 설명합니다. [자세히 보기](../experience-decisioning/use-decision-policy.md#decision-policy-summary)
 
