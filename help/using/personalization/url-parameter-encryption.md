@@ -9,11 +9,9 @@ role: Admin
 level: Intermediate
 keywords: 암호화, URL, 추적, 랜딩 페이지, 키 레지스트리, 개인화, 보안, 개인 정보, 샌드박스
 exl-id: 82e2b6e4-769f-4bdc-b2e2-19352fbaec8e
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 0db9be747a60ae40c881227ce7b8da251abec042
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
+source-git-commit: 39c76d0356b15ec6b9cb9634d080d2f79e591adb
 workflow-type: tm+mt
 source-wordcount: 663
 ht-degree: 1%
@@ -96,4 +94,3 @@ URL 매개 변수 암호화 도우미를 사용하려면 먼저 키를 만들어
    >[!NOTE]
    >
    >개인화 편집기에서 새 값을 암호화하려면 활성 키만 선택해야 합니다. 새 콘텐츠에 대해 해지된 키를 사용하지 마십시오.
-
