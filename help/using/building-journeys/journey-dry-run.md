@@ -32,10 +32,10 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 467fa00fa91c2e0f124c9aace8c7e6946dc9dd34
 workflow-type: tm+mt
-source-wordcount: 1158
-ht-degree: 15%
+source-wordcount: 1082
+ht-degree: 16%
 
 ---
 
@@ -84,6 +84,7 @@ ht-degree: 15%
 * **외부 데이터 원본을 포함한 데이터 원본** 및 **대기** 활동은 기본적으로 시험 실행 중에 비활성화되어 있습니다. 그러나 시험 실행 모드를 활성화[&#128279;](#journey-dry-run-start)할 때 이 동작을 변경할 수 있습니다.
 
 * **반응** 노드가 실행되지 않습니다. 입력한 모든 프로필이 성공하면 종료됩니다. 그러나 다음 우선순위 규칙이 적용됩니다.
+
    * **Reaction** 노드를 하나 또는 여러 **단일 이벤트** 노드와 병렬로 사용하면 프로필은 항상 반응 이벤트를 통과합니다.
    * **반응** 노드를 하나 이상의 **반응 이벤트** 노드와 병렬로 사용하는 경우 프로필은 항상 캔버스의 첫 번째 노드(맨 위에 있는 노드)를 통과합니다.
 
@@ -152,7 +153,7 @@ ht-degree: 15%
 * 시험 실행 여정은 비즈니스 규칙에 영향을 주지 않음
   <!--* When creating a new journey version, if a previous journey version is **Live**, then the Dry run activation is not allowed on the new version.-->
 * **이동** 작업은 시험 실행 시 사용할 수 없습니다.
-소스 여정이 대상 이벤트로의 **Jump** 이벤트를 트리거하면 해당 점프 이벤트는 시험 실행 여정 버전에 적용할 수 없습니다. 예를 들어, 최신 버전의 여정이 시험 실행 중이고 이전 버전이 **Live**&#x200B;인 경우 점프 이벤트는 시험 실행 버전을 무시하고 **Live** 버전에만 적용할 수 있습니다.
+소스 여정이 대상 이벤트로의 **Jump** 이벤트를 트리거하면 해당 점프 이벤트는 시험 실행 여정 버전에 적용할 수 없습니다. 예를 들어 최신 버전의 여정이 시험 실행 중이고 이전 버전이 **Live**&#x200B;인 경우 점프 이벤트는 시험 실행 버전을 무시하고 **Live** 버전에만 적용할 수 있습니다.
 
 ## 여정 단계 이벤트 및 시험 실행 {#journey-step-events}
 
