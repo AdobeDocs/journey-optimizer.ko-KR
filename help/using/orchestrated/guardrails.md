@@ -44,7 +44,7 @@ ht-degree: 2%
 
 * **스키마당 특성** - 관리 용이성과 성능을 유지하려면 스키마당 평균 특성 수가 50열을 초과할 수 없습니다.
 
-* **프로필 사용** - Adobe Experience Platform 프로필에 대해 관계형 스키마를 사용할 수 없습니다. Adobe Experience Platform 프로필에는 표준 XDM 스키마만 지원됩니다. 오케스트레이션된 캠페인 또는 작업 캠페인에 대해 관계형 스키마를 활성화할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
+* **프로필 사용** - Adobe Experience Platform 프로필에 대해 관계형 스키마를 사용할 수 없습니다. Adobe Experience Platform 프로필에는 표준 XDM 스키마만 지원됩니다. 오케스트레이션된 캠페인 또는 작업 캠페인에 대해 관계형 스키마를 활성화할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
 
 ### 데이터 수집 {#data-ingestion}
 
