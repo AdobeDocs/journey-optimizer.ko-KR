@@ -12,9 +12,9 @@ version: Journey Orchestration
 badge: label="제한 공개" type="Informative"
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 4dd5fc79ef209265b1367d414fe6020d9a50064c
+source-git-commit: 62ae2ce8fc9eeea58a2f4028a34492276723e98a
 workflow-type: tm+mt
-source-wordcount: 1912
+source-wordcount: 1910
 ht-degree: 2%
 
 ---
@@ -182,8 +182,7 @@ Adobe Journey Optimizer은 여정을 테스트하고 확인하는 두 가지 방
 | 보조 ID(다중 재입력) | 동시 다시 시작(동일한 시뮬레이션된 사용자의 여러 활성 인스턴스)으로 인해 **[!UICONTROL 시뮬레이션]**&#x200B;을 시작할 수 없습니다. |
 | 콘텐츠 결정 노드 | 여정을 시뮬레이션하려면 이 활동을 제거하거나 변경해야 합니다. |
 | 데이터 세트 조회 | 키별 고객 데이터 세트 조회는 지원되지 않습니다. 이 활동을 포함하는 여정은 **[!UICONTROL 시뮬레이션]**&#x200B;에서 실행할 수 없습니다. |
-| 경로 실험(최적화 — 실험 변형) | **[!UICONTROL 시뮬레이션]**&#x200B;에서는 지원되지 않습니다. **[!UICONTROL 조건]**(예: 데이터 소스 조건)에서 라이브하던 플로우에 대해 **[!UICONTROL 최적화]**&#x200B;를 사용할 수 있습니다. |
-| 경로 타깃팅(최적화, 타깃팅 규칙 변형) | **[!UICONTROL 시뮬레이션]**&#x200B;에서는 지원되지 않습니다. |
+| **[!UICONTROL 최적화]** 활동 | 다음 **[!UICONTROL Optimize]** 메서드는 **[!UICONTROL 시뮬레이션]**&#x200B;에서 지원되지 않습니다. **[!UICONTROL 실험]**, **[!UICONTROL 타깃팅 규칙]**, **[!UICONTROL 비율 분할]**, **[!UICONTROL 시간 조건]**, **[!UICONTROL 조건]**, **[!UICONTROL 날짜 조건]**, **[!UICONTROL 프로필 상한]** 및 **[!UICONTROL 외부 데이터 Source]**. 시뮬레이션하기 전에 노드를 제거하거나 변경합니다. |
 | 외부 대상 속성 보강 | 외부 대상 원본의 개인화된 특성을 사용하는 여정은 이 유효성 검사가 활성 상태일 때 **[!UICONTROL 시뮬레이션]**&#x200B;에서 시작되지 않습니다. |
 
 +++

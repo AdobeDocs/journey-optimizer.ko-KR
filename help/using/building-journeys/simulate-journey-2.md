@@ -12,9 +12,9 @@ version: Journey Orchestration
 hide: true
 feature_v2: []
 subfeature_v2: []
-source-git-commit: e444e235c4530b3c3e9bf2f3f410732bf5fee698
+source-git-commit: 62ae2ce8fc9eeea58a2f4028a34492276723e98a
 workflow-type: tm+mt
-source-wordcount: 1319
+source-wordcount: 1358
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ ht-degree: 0%
 
    +++ 양식에서 만들기
 
-   1. 이 시뮬레이션된 사용자를 식별하려면 **[!UICONTROL 표시 이름]** 및 **[!UICONTROL 설명]**&#x200B;을 입력하십시오.
+   1. 이 시뮬레이션된 사용자를 식별하려면 **[!UICONTROL 표시 이름]**, **[!UICONTROL ID 네임스페이스]** 및 **[!UICONTROL 설명]**&#x200B;을(를) 입력하십시오.
 
       ![시뮬레이션된 사용자 선택 패널](assets/simulate-form.png)
 
@@ -99,9 +99,13 @@ ht-degree: 0%
 
    1. 세그먼트 멤버십을 시뮬레이션하려면 **[!UICONTROL 대상 멤버십 추가]**&#x200B;를 클릭하십시오.
 
-   1. 하나의 세션에서 시뮬레이션된 사용자를 여러 개 만들려면 **[!UICONTROL 프로필 추가]**&#x200B;를 클릭하십시오.
+   1. **[!UICONTROL 시뮬레이션된 사용자 만들기]** 창에서 **[!UICONTROL 시뮬레이션된 사용자 추가]**&#x200B;를 클릭하여 하나의 세션에서 시뮬레이션된 사용자를 여러 개 정의합니다.
 
-   1. 메뉴에서 **[!UICONTROL 복제]**&#x200B;를 사용하여 사용자를 복사하고, **[!UICONTROL 모두 적용]**&#x200B;을 사용하여 한 사용자의 특성을 세션의 다른 모든 사용자에게 복사하거나, **[!UICONTROL 삭제]**&#x200B;를 사용하여 사용자를 제거합니다.
+      사용자가 목록에 표시되는 방식을 변경하거나, 누적 보기에서 모든 카드를 축소하거나, 사용자의 속성 메타데이터를 열 수 있습니다.
+
+      ![시뮬레이션된 사용자 선택 패널](assets/simulate-form-3.png)
+
+   1. 시뮬레이션된 사용자 메뉴에서 **[!UICONTROL 복제]**&#x200B;를 사용하여 사용자를 복사하거나 **[!UICONTROL 다른 사용자에게 모든 특성을 적용]**&#x200B;하여 한 사용자의 특성을 세션의 다른 모든 사용자에게 복사하거나 **[!UICONTROL 삭제]**&#x200B;를 사용하여 사용자를 제거합니다.
 
       ![시뮬레이션된 사용자 선택 패널](assets/simulate-form-2.png)
 
