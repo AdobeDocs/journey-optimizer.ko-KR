@@ -16,7 +16,7 @@ subfeature_v2:
 source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
 workflow-type: tm+mt
 source-wordcount: 1234
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_load_file"
 >title="파일 로드 활동"
->abstract="**파일 로드** 활동은 **데이터 관리** 활동입니다. 오케스트레이션된 캠페인 캔버스에서 외부 파일에 저장된 프로필 및 데이터로 작업하고 캠페인 대상자를 정의하는 데 사용합니다. 파일 데이터는 실행 시 사용되며 Adobe Experience Platform 데이터 세트로 지속되지 않습니다."
+>abstract="**파일 로드** 활동은 **데이터 관리** 활동입니다. 오케스트레이션된 캠페인 캔버스에서 외부 파일에 저장된 프로필 및 데이터로 작업하고 캠페인 대상자를 정의하는 데 사용합니다. 파일 데이터는 실행 시 소비되며 Adobe Experience Platform 데이터 세트로 지속되지 않습니다."
 
 **[!UICONTROL 파일 로드]** 활동은 **[!UICONTROL 데이터 관리]** 활동입니다. 외부 파일에 저장된 프로필 및 데이터로 작업할 때 사용합니다. 받는 사람 목록이 외부 시스템(예: CRM 내보내기 또는 파트너 파일)에서 나오고 전체 Adobe Experience Platform 수집 파이프라인을 먼저 빌드하지 않고 캠페인을 실행하려는 경우 오케스트레이션된 캠페인에서 **파일 기반 타깃팅**&#x200B;을 지원합니다.
 
