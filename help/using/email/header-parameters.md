@@ -10,24 +10,15 @@ level: Experienced
 keywords: 설정, 이메일, 구성, 발신자 헤더, SMTP
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
 TQID: https://experienceleague.adobe.com/SKYkdRHCsbMq6sD1phQHt0TCqy2kLUb26dT-BZHSWEA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-  - id: fae48155-b23f-40d2-a252-a25bce350b4d
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: fae48155-b23f-40d2-a252-a25bce350b4d
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 4ec62b4411a46304364ca1f122e9745b143bcaa1
 workflow-type: tm+mt
-source-wordcount: 1089
-ht-degree: 58%
+source-wordcount: 1137
+ht-degree: 55%
 
 ---
 
@@ -91,15 +82,16 @@ ht-degree: 58%
 
 **[!UICONTROL 보낸 사람 이름]** 및 **[!UICONTROL 보낸 사람 전자 메일]**&#x200B;이 설정되면 [!DNL Journey Optimizer]에서 **보낸 사람** SMTP 헤더를 전자 메일<!--as defined in [RFC 5322](https://datatracker.ietf.org/doc/html/rfc5322#section-3.6.2){target="_blank"}-->에 추가합니다. 이를 지원하는 이메일 클라이언트에는 **보낸 사람 대신 보낸 사람** 또는 **via** 표시기와 같은 단어가 표시될 수 있습니다.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->**[!UICONTROL 보낸 사람 이름]** 및 **[!UICONTROL 보낸 사람 전자 메일]**&#x200B;을 비워 두거나 확인된 **보낸 사람**&#x200B;이(가) **보낸 사람**&#x200B;과(와) 같은 경우 **보낸 사람** 헤더가 추가되지 않습니다.
+>**[!UICONTROL 보낸 사람 이름]**&#x200B;과(와) **[!UICONTROL 보낸 사람 전자 메일]**&#x200B;을(를) 함께 구성해야 합니다. 두 필드를 모두 채우거나 둘 다 비워 둡니다. 이 중 하나만 채우면 이 채널 구성을 통해 여정 및 캠페인이 게시되지 않습니다.
 
-참고:
+**Sender** 헤더를 구성할 때 다음 사항을 고려하십시오.
 
+* **[!UICONTROL 보낸 사람 이름]** 및 **[!UICONTROL 보낸 사람 전자 메일]** 필드를 모두 비워 두거나 확인된 **보낸 사람**&#x200B;이(가) **보낸 사람**&#x200B;과(와) 동일한 경우 **보낸 사람** 헤더가 추가되지 않습니다.
 * **Sender** 주소는 SPF, DKIM 또는 DMARC 정렬에 사용되지 않습니다. **format** 유효성 검사만 수행됩니다. SPF, DKIM 및 DMARC은 **시작** 필드에 계속 의존합니다. 구성에 대해 선택한 [위임된 하위 도메인](../configuration/about-subdomain-delegation.md)은(는) 이러한 검사에 사용된 전송 도메인으로 유지됩니다.
 
-* **Sender**&#x200B;이(가) 구성되어 있고 개인화가 받는 사람의 값으로 확인되지 않으면 해당 받는 사람에게 메시지가 배달되지 않습니다.
+* **Sender** 헤더가 구성되어 있고 개인화가 받는 사람에 대한 값으로 확인되지 않으면 해당 받는 사람에게 메시지가 배달되지 않습니다.
 
 ## 회신 대상 이메일 {#reply-to-email}
 
