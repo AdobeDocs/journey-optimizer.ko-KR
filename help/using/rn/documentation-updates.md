@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 39c76d0356b15ec6b9cb9634d080d2f79e591adb
+source-git-commit: e3c588e5d0eb5c227873f1af2ca9b3ba5bd6e02e
 workflow-type: tm+mt
-source-wordcount: 8083
+source-wordcount: 8114
 ht-degree: 88%
 
 ---
@@ -24,6 +24,10 @@ ht-degree: 88%
 # 설명서 업데이트 {#latest-updates}
 
 이 페이지에는 월별 릴리스 기능 및 개선 사항과 관련된 업데이트 외에도 [!DNL Journey Optimizer] 설명서의 모든 최신 변경 사항이 나와 있습니다.
+
+## 2026년 6월 {#june-2026}
+
+* 이제 **보낸 사람 헤더** 설명서에 **[!UICONTROL 보낸 사람 이름]**&#x200B;과(와) **[!UICONTROL 보낸 사람 전자 메일]**&#x200B;을(를) 모두 설정하거나 모두 비워 두어야 한다고 명시되어 있습니다. 그렇지 않으면 여정 및 캠페인을 게시할 수 없습니다. [자세히 보기](../email/header-parameters.md#sender-header)
 
 ## 2026년 5월 {#may-2026}
 
