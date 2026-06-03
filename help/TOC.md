@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 2ec7de841e3d871ad4cfc545d80c5271c4137d2c
+source-git-commit: f39bcb2f8b68315b082014b96801c51223ac8a54
 workflow-type: tm+mt
-source-wordcount: '3355'
+source-wordcount: '3359'
 ht-degree: 95%
 
 ---
@@ -109,7 +109,7 @@ ht-degree: 95%
    + 표현식 작성 {#building-advanced-conditions-journeys}
       + [표현식 작성](/help/rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
       + [고급 표현식 편집기 작업](using/building-journeys/expression/expressionadvanced.md)
-      + {hide-from-toc}[식 도우미](using/building-journeys/expression/expression-agent.md)
+      + [표현식 어시스턴트를 사용하여 표현식 생성](using/building-journeys/expression/expression-agent.md)
       + 구문 {#syntax}
          + [구문](/help/rp_landing_pages/syntax-landing-page.md)
          + [고급 표현식 편집기 구문](using/building-journeys/expression/generalities.md)

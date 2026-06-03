@@ -24,10 +24,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: f39bcb2f8b68315b082014b96801c51223ac8a54
 workflow-type: tm+mt
-source-wordcount: 716
-ht-degree: 55%
+source-wordcount: 738
+ht-degree: 53%
 
 ---
 
@@ -75,6 +75,10 @@ ht-degree: 55%
 
 * 사용자 지정 타이머를 만들 때 고급 편집기가 바로 나타납니다.
 * 작업 매개 변수를 매핑할 때 **[!UICONTROL 고급 모드]**&#x200B;를 클릭합니다.
+
+>[!NOTE]
+>
+>자연어 프롬프트를 사용하여 여정 표현식을 생성하려면 고급 편집기 내의 AI 컨트롤을 통해 **[Expression Assistant](expression-agent.md)**(**공개 Beta**)를 사용하십시오.
 
 ## 인터페이스 살펴보기 {#discovering-the-interface}
 
