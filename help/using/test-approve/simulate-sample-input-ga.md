@@ -10,22 +10,13 @@ level: Intermediate
 hide: true
 exl-id: 2744974b-62cc-4d25-acc3-edd4c53a9a58
 TQID: https://experienceleague.adobe.com/Y8qsGW8XqSVqag4yqRinnem9w2PYJyKIDIWvuGqAchU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2ec7de841e3d871ad4cfc545d80c5271c4137d2c
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c5a6e06cc93e8ed03edc368f3d02eccd655a7461
 workflow-type: tm+mt
 source-wordcount: 1313
 ht-degree: 1%
@@ -144,19 +135,15 @@ ht-degree: 1%
 
 ### 콘텐츠 변형 자동 생성 {#auto-generate-variants}
 
-[!DNL Journey Optimizer]은(는) AI 기반 시뮬레이션을 사용하여 콘텐츠 변형을 자동으로 생성할 수 있으므로 직접 변형을 작성하지 않고도 개인화 논리의 유효성을 검사할 수 있습니다.
+[!DNL Journey Optimizer]은(는) AI 기반 시뮬레이션을 사용하여 콘텐츠 변형을 자동으로 생성할 수 있으므로 직접 변형을 작성하지 않고도 개인화 논리의 유효성을 검사할 수 있습니다. 시뮬레이션 또는 증명을 위해 콘텐츠를 렌더링할 때 시스템이 콘텐츠를 분석하고 개인화 필드를 식별한 후, 거의 사실적인 미리 보기를 위해 의미 있는 값으로 대체합니다.
 
-시뮬레이션 또는 증명을 위해 콘텐츠를 렌더링할 때 시스템이 콘텐츠를 분석하고 개인화 필드를 식별한 후, 거의 사실적인 미리 보기를 위해 의미 있는 값으로 대체합니다.
+변형을 자동으로 생성하려면 **[!UICONTROL 생성]** 단추를 클릭하고 시스템이 변형을 생성할 때까지 기다리십시오. 변형 목록 및 해당 렌더링에서 생성된 변형을 검토합니다.
 
-변형을 자동으로 생성하려면 **[!UICONTROL 생성]** 단추를 클릭하고 시스템이 변형을 생성할 때까지 기다리십시오.
-
-![변형 생성 단추](assets/simulate-generate-variant.png)
+![변형 생성 단추](assets/simulate-variants-generate.png)
 
 >[!NOTE]
 >
 >생성은 단일 변형을 생성합니다. **[!UICONTROL 생성]**&#x200B;을 클릭하면 수동으로 추가한 콘텐츠 또는 파일에서 추가한 콘텐츠 변형을 포함하여 목록의 기존 콘텐츠 변형이 모두 생성된 변형 하나로 바뀝니다.
-
-변형 목록 및 해당 렌더링에서 생성된 변형을 검토합니다.
 
 ### 시뮬레이션된 사용자의 변형 선택 {#simulated-users}
 
