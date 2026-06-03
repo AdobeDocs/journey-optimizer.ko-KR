@@ -10,24 +10,15 @@ keywords: 표현식 편집기, 데이터, 여정
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/8RsF-CRRrsLiCzwsaqfJQnWcyy6frmKkdSJBKnIhGgE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: ac5d9310-7772-40fb-9d78-864562e1bfd6
-  - id: e51e8901-97d9-4f7d-a835-503025a90e32
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: ac5d9310-7772-40fb-9d78-864562e1bfd6id: e51e8901-97d9-4f7d-a835-503025a90e32id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f39bcb2f8b68315b082014b96801c51223ac8a54
 workflow-type: tm+mt
-source-wordcount: 716
-ht-degree: 55%
+source-wordcount: 738
+ht-degree: 53%
 
 ---
 
@@ -75,6 +66,10 @@ ht-degree: 55%
 
 * 사용자 지정 타이머를 만들 때 고급 편집기가 바로 나타납니다.
 * 작업 매개 변수를 매핑할 때 **[!UICONTROL 고급 모드]**&#x200B;를 클릭합니다.
+
+>[!NOTE]
+>
+>자연어 프롬프트를 사용하여 여정 표현식을 생성하려면 고급 편집기 내의 AI 컨트롤을 통해 **[Expression Assistant](expression-agent.md)**(**공개 Beta**)를 사용하십시오.
 
 ## 인터페이스 살펴보기 {#discovering-the-interface}
 

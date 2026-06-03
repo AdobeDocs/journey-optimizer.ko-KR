@@ -8,27 +8,15 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: deba11139fa381bb54c8929a84f9386ab6888821
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f39bcb2f8b68315b082014b96801c51223ac8a54
 workflow-type: tm+mt
-source-wordcount: 2561
+source-wordcount: 2647
 ht-degree: 21%
 
 ---
@@ -47,6 +35,27 @@ ht-degree: 21%
 >[!NOTE]
 >
 >이 릴리스 정보에 나열된 기능에는 사용자의 환경에서 각 변경 사항에 액세스할 수 있는 시기를 나타내는 **사용 가능 날짜**&#x200B;가 포함됩니다. **곧 출시** 아코디언의 항목은 향후 며칠 또는 몇 주에 필요합니다. 이 섹션의 정보는 변경될 수 있습니다.
+
+## 2026년 6월 업데이트 {#june-26-updates}
+
+<table>
+<thead>
+<tr>
+<th><strong>여정 표현식을 위한 AI 지원(공개 Beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 AI Assistant가 여정 고급 표현식 편집기에서 작동하여 자연어 프롬프트를 유효한 표현식과 조건부 논리로 변환합니다. 빌드할 표현식을 설명하고 AI Assistant는 즉시 적용하거나 후속 프롬프트를 통해 구체화할 수 있는 사용 준비 코드를 생성합니다.</p>
+<p>이 기능은 모든 고객이 공용 Beta으로 사용할 수 있습니다.</p>
+<p><img src="assets/do-not-localize/expression-assistant.gif"></p>
+<p>자세한 내용은 <a href="../building-journeys/expression/expression-agent.md">세부 설명서</a>를 참조하십시오.</p>
+<p>사용 가능한 날짜: 2026년 6월 3일</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## 2026년 5월 릴리스 정보 {#may-26-rn}
 
@@ -137,24 +146,6 @@ ht-degree: 21%
 <table>
 <thead>
 <tr>
-<th><strong>여정 표현식을 위한 AI 지원(공개 Beta)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 AI Assistant가 여정 고급 표현식 편집기에서 작동하여 자연어 프롬프트를 유효한 표현식과 조건부 논리로 변환합니다. 빌드할 표현식을 설명하고 AI Assistant는 즉시 적용하거나 후속 프롬프트를 통해 구체화할 수 있는 사용 준비 코드를 생성합니다.</p>
-<p>이 기능은 모든 고객이 공용 Beta으로 사용할 수 있습니다.</p>
-<!--<p><img src="assets/do-not-localize/expression-assistant.gif"></p>-->
-<p>사용 가능한 날짜: 2026년 6월 초</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>여정 시뮬레이션(일반 공급)</strong><br/></th>
 </tr>
 </thead>
@@ -187,6 +178,25 @@ ht-degree: 21%
 ### 오케스트레이션된 캠페인 {#may-26-oc}
 
 이 릴리스의 오케스트레이션된 캠페인에 다음과 같은 기능 및 개선 사항이 추가되었습니다. 향후 며칠 또는 몇 주 이내에 추가 변경 사항이 있을 것으로 예상됩니다.
+
+<table>
+<thead>
+<tr>
+<th><strong>여정 표현식을 위한 AI 지원</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 AI Assistant가 여정 고급 표현식 편집기에서 작동하여 자연어 프롬프트를 유효한 표현식과 조건부 논리로 변환합니다. 빌드할 표현식을 설명하고 AI Assistant는 즉시 적용하거나 후속 프롬프트를 통해 구체화할 수 있는 사용 준비 코드를 생성합니다.</p>
+<p>이 기능은 모든 고객이 공용 Beta으로 사용할 수 있습니다.</p>
+<p><img src="assets/do-not-localize/expression-assistant.gif"></p>
+<p>자세한 내용은 <a href="../building-journeys/expression/expression-agent.md">세부 설명서</a>를 참조하십시오.</p>
+<p>사용 가능한 날짜: 2026년 5월 20일</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
