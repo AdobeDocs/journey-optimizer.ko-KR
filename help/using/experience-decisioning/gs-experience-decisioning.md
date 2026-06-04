@@ -23,10 +23,10 @@ subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: e42070c4cc1dde06786c4075b1e6e45e8c323c12
+source-git-commit: 7f1e16e7700a5b381893a79b2ce57b14fb17cd4a
 workflow-type: tm+mt
-source-wordcount: 700
-ht-degree: 26%
+source-wordcount: 732
+ht-degree: 24%
 
 ---
 
@@ -106,7 +106,13 @@ Decisioning을 사용하는 주요 단계는 다음과 같습니다.
    ➡️ [의사 결정 정책 사용 방법 알아보기](create-decision.md)
 ➡️ 코드 기반 경험 채널을 통해 오퍼를 성공적으로 게재하려면 [이 섹션](../code-based/code-based-implementation-samples.md)의 구현 단계를 따르십시오.
 
-## 추가 리소스
+## 의사 결정 프로세스 {#process}
+
+아래 차트에는 의사 결정 항목 관리 및 선택 전략 구성에서, 의사 결정 정책을 코드 기반 경험 여정 또는 캠페인에 포함하는 전체적인 의사 결정 프로세스가 요약되어 있습니다.
+
+![](assets/decisioning-process.png)
+
+## 추가 리소스 {#additional-resources}
 
 * **[의사 결정 항목 만들기](items.md)** - 오퍼, 콘텐츠 변형 및 경험을 포함하여 의사 결정 항목을 만들고 관리하는 방법을 알아봅니다.
 * **[의사 결정 카탈로그 구성](catalogs.md)** - 더 나은 관리를 위해 의사 결정 항목을 카탈로그로 구성하는 방법을 이해합니다.
