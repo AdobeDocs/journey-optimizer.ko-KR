@@ -30,10 +30,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: d12c1812e2e9eff38ad7a24ef32bd947dfb8cbc7
 workflow-type: tm+mt
-source-wordcount: 2200
-ht-degree: 13%
+source-wordcount: 2332
+ht-degree: 12%
 
 ---
 
@@ -67,6 +67,11 @@ ht-degree: 13%
 1. 이 작업을 사용하는 여정 수는 **[!UICONTROL 다음 항목에서 사용됨]** 필드에 표시됩니다. **[!UICONTROL 여정 보기]** 단추를 클릭하여 이 동작을 사용하여 여정 목록을 표시할 수 있습니다.
 1. 다른 **[!UICONTROL URL 구성]** 매개 변수를 정의하십시오. [이 페이지](../action/about-custom-action-configuration.md#url-configuration)를 참조하십시오.
 1. **[!UICONTROL 인증]** 섹션을 구성합니다. 이 구성은 데이터 소스의 경우와 동일합니다.  [이 섹션](../datasource/external-data-sources.md#custom-authentication-mode)을 참조하십시오.
+
+   >[!NOTE]
+   >
+   >끝점이 OpenID Connect를 사용하고 뱅킹 및 금융 서비스 API에 일반적인 패턴인 `access_token` 및 `id_token`을(를) 모두 반환하는 경우 사용자 지정 인증 페이로드에서 선택적 `idTokenInResponse` 필드를 사용하십시오. 이렇게 하면 Journey Optimizer은 액세스 토큰 대신 ID 토큰을 인증 자격 증명으로 사용하게 됩니다. [사용자 지정 인증에 대해 자세히 알아보세요](../datasource/external-data-sources.md#custom-authentication-mode).
+
 1. **[!UICONTROL 작업 매개 변수]**&#x200B;을(를) 정의합니다. [이 페이지](../action/about-custom-action-configuration.md#define-the-message-parameters)를 참조하십시오.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
@@ -194,6 +199,14 @@ mTLS(상호 전송 계층 보안)를 사용하여 Adobe Journey Optimizer 사용
 >* **겹치는 인증서**(이전 인증서와 새 인증서가 동시에)를 수락하도록 끝점을 구성하면 순환 중에 연결 간격이 없습니다.
 >* Adobe은 현재 인증서가 회전할 때 사전 알림을 전송하지 않습니다. 인증서 업데이트를 모니터링하고 신뢰 저장소를 최신 상태로 유지하는 것은 사용자의 책임입니다.
 >* 트러스트 유효성 검사는 특정 리프 인증서 지문에 고정하지 않고 루트 CA(DigiCert)까지의 인증서 체인을 기반으로 해야 합니다.
+
+### 인증서 기반 사용자 지정 인증 {#certificate-based-auth}
+
+Azure Entra ID와 같이 인증서 기반 ID 확인을 적용하는 엔터프라이즈 API의 경우 사용자 지정 작업이 **인증서 기반 사용자 지정 인증**&#x200B;을 지원합니다. 활성화하려면 **[!UICONTROL 인증]** 섹션에 구성된 사용자 지정 권한 부여 페이로드에서 `"subType": "certificateCredential"`을(를) 설정하십시오.
+
+Journey Optimizer은 Adobe의 관리 인증서를 사용하여 JWT 클라이언트 어설션에 서명하고 자동으로 액세스 토큰으로 교환합니다. 클라이언트 암호는 필요하지 않습니다.
+
+전체 페이로드 구조, 필드 설명 및 구성 가드레일에 대해서는 [인증서 기반 사용자 지정 인증](../datasource/external-data-sources.md#certificate-credential)을 참조하십시오.
 
 ## 페이로드 매개 변수 정의 {#define-the-message-parameters}
 
