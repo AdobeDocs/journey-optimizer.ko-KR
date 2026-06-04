@@ -8,9 +8,9 @@ exl-id: c51e4089-7f51-437d-a5ed-de10bab46cf8
 feature_v2: []
 subfeature_v2:
   - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
 workflow-type: tm+mt
-source-wordcount: 276
+source-wordcount: 279
 ht-degree: 18%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 18%
 
 테스트 프로필을 사용하여 콘텐츠를 테스트하기 전에 먼저 해당 프로필을 선택해야 합니다. 이렇게 하려면 다음 단계를 수행합니다.
 
-1. 메시지의 콘텐츠 편집 화면 또는 이메일 Designer에서 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭하고 **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 선택합니다.
+1. 메시지의 콘텐츠 편집 화면 또는 이메일 Designer에서 **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭한 다음 드롭다운에서 **[!UICONTROL 콘텐츠 시뮬레이션(AEP 프로필)]**&#x200B;을 선택합니다.
 
 1. **[!UICONTROL 테스트 프로필 관리]** 단추를 클릭한 다음 **[!UICONTROL ID 네임스페이스]** 선택 아이콘을 클릭하여 테스트 프로필을 식별하는 데 사용할 네임스페이스를 선택하십시오. [Adobe Experience Platform ID 네임스페이스에 대해 자세히 알아보기](../audience/get-started-identity.md).
 

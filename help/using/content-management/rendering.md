@@ -8,9 +8,9 @@ exl-id: fe077a8b-9788-4723-a1e7-32816a879af9
 feature_v2: []
 subfeature_v2:
   - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
 workflow-type: tm+mt
-source-wordcount: 159
+source-wordcount: 166
 ht-degree: 3%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 3%
 
 전자 메일 렌더링을 확인하려면 다음 단계를 수행합니다.
 
-1. 메시지의 콘텐츠 편집 화면 또는 이메일 Designer에서 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭합니다.
+1. 메시지의 콘텐츠 편집 화면 또는 이메일 Designer에서 **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭한 다음 드롭다운에서 **[!UICONTROL 콘텐츠 시뮬레이션(AEP 프로필)]**&#x200B;을 선택합니다.
 
 1. **[!UICONTROL 전자 메일 렌더링]** 단추를 선택합니다.
 
