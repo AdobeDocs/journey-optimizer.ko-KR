@@ -32,9 +32,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: e2a95ed7dcdafd4f27f015722e7ae6a16f63118b
 workflow-type: tm+mt
-source-wordcount: 3767
+source-wordcount: 3793
 ht-degree: 9%
 
 ---
@@ -149,7 +149,7 @@ ht-degree: 9%
 
 * 신뢰할 수 있고 일관된 카운트를 위해서는 **대상자 읽기** 활동에서 일괄 대상자를 사용하는 것이 좋습니다. 대상자 읽기는 일괄 사용 사례용으로 설계되었습니다. 사용 사례에 실시간 데이터가 필요한 경우 대신 [대상 자격](audience-qualification-events.md) 활동을 사용하십시오.
 * CSV 파일에서 가져온 대상 [개](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko#import-audience) 또는 [컴포지션 워크플로](../audience/get-started-audience-orchestration.md)의 결과로 가져온 대상은 **대상 읽기** 활동에서 선택할 수 있습니다. 이러한 대상은 **대상 자격** 활동에서 사용할 수 없습니다.
-* 대상 스냅숏 시간, 일괄 처리 세분화 완료 기간 및 여정이 항상 최신 데이터에서 실행되도록 하는 방법에 대한 자세한 내용은 [시간 및 데이터 전파](#timing-and-data-propagation)를 참조하십시오. 반복 여정의 경우 **[!UICONTROL 일괄 대상 평가 후 트리거]** 옵션을 활성화하여 최신 대상 스냅숏이 준비될 때까지 실행을 자동으로 지연시키는 것이 좋습니다. [자세히 알아보기](#schedule).
+* 대상 스냅숏 시간, 일괄 처리 세분화 완료 기간 및 여정이 항상 최신 데이터에서 실행되도록 하는 방법에 대한 자세한 내용은 [시간 및 데이터 전파](#timing-and-data-propagation)를 참조하십시오. 반복 여정의 경우 **[!UICONTROL 일괄 대상 평가 후 트리거]** 옵션을 활성화하여 최신 대상 스냅숏이 준비될 때까지 실행을 자동으로 지연시키는 것이 좋습니다. [자세히 알아보기](#schedule)
 
 >[!CAUTION]
 >
@@ -215,7 +215,7 @@ ht-degree: 9%
 >
 >**여정 상태 및 91일 전역 시간 제한:**
 >
->* 여정 실행 후 91일([여정 글로벌 시간 초과](journey-properties.md#global_timeout)) 후에 **일회성** 대상자 읽기 여정이 **완료됨** 상태로 이동합니다.
+>* **반복되지 않는** 마지막 활성 여정이 종료되면 대상 여정 읽기 상태가 **중지됨** 상태로 자동 전환됩니다. 대기 기간(대기 노드, 반응 노드 또는 이벤트 트리거된 전환)을 유발하는 노드가 포함되어 있지 않은 경우 표준 91일 전역 시간 제한이 적용됩니다. [자세히 알아보기](end-journey.md#auto-stop-non-recurring)
 >* **반복** 종료 날짜가 없는 대상 여정 읽기 **여정이 게시되는 동안 라이브로 유지**&#x200B;합니다. 이 사용자는 **마지막 항목**&#x200B;을 실행한 후 91일 후에 **완료됨** 상태로 이동합니다.
 >* 91일 시간 제한은 여정의 라이브 상태가 아니라 여정을 통해 흐르는 개별 **프로필**&#x200B;에 적용됩니다(프로필이 활성 상태로 유지될 수 있는 최대 시간).
 >* 91일 **보고 기간**&#x200B;은(는) 별도의 개념입니다. UI는 대략 지난 91일 동안의 성능 데이터를 표시합니다. 이전 데이터는 UI에서 액세스할 수 없지만 여정은 계속 실행됩니다. [자세히 알아보기](journey-properties.md#global_timeout)
