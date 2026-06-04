@@ -9,24 +9,15 @@ role: User
 level: Intermediate
 exl-id: 8462c75e-4f4b-4c4f-8734-19efbbc70c7a
 TQID: https://experienceleague.adobe.com/Y8qsGW8XqSVqag4yqRinnem9w2PYJyKIDIWvuGqAchU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5646481058c0855034cb559f18f44fad6f43fa15
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
 workflow-type: tm+mt
-source-wordcount: 992
+source-wordcount: 990
 ht-degree: 4%
 
 ---
@@ -61,7 +52,7 @@ ht-degree: 4%
 
   >[!NOTE]
   >
-  >현재 환경에서는 받은 편지함 렌더링 및 스팸 보고서를 사용할 수 없습니다. 이러한 기능을 사용하려면 콘텐츠에서 **[!UICONTROL 콘텐츠 시뮬레이션]** 버튼을 선택하여 이전 사용자 인터페이스에 액세스합니다.
+  >현재 환경에서는 받은 편지함 렌더링 및 스팸 보고서를 사용할 수 없습니다. 이러한 기능을 사용하려면 **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭한 다음 드롭다운에서 **[!UICONTROL 콘텐츠 시뮬레이션(AEP 프로필)]**&#x200B;을 선택하여 이전 사용자 인터페이스에 액세스합니다.
 
 * **특성** - 프로필과 컨텍스트 특성이 모두 지원됩니다.
 
@@ -71,9 +62,9 @@ ht-degree: 4%
 
 ## 콘텐츠 변형 추가 및 미리 보기
 
-콘텐츠의 변형을 만들고 미리 보려면 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭하고 **[!UICONTROL 콘텐츠 변형 시뮬레이션]**&#x200B;을 선택하십시오.
+콘텐츠의 변형을 만들고 미리 보려면 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭하십시오.
 
-![콘텐츠 변형 시뮬레이션 옵션](assets/simulate-sample.png)
+![콘텐츠 시뮬레이션 단추](assets/simulate-sample.png)
 
 콘텐츠를 테스트하는 주요 단계는 다음과 같습니다.
 

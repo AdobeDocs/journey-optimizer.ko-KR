@@ -6,11 +6,10 @@ role: User
 level: Beginner
 exl-id: 6477270c-0309-411a-8254-c7ffc4419492
 feature_v2: []
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
 workflow-type: tm+mt
-source-wordcount: 260
+source-wordcount: 263
 ht-degree: 4%
 
 ---
@@ -19,7 +18,7 @@ ht-degree: 4%
 
 [테스트 프로필](test-profiles.md)을 선택하면 해당 데이터를 사용하여 콘텐츠를 미리 볼 수 있습니다. 다음 단계를 수행하십시오.
 
-1. 메시지의 콘텐츠 편집 화면 또는 이메일 Designer에서 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭하고 **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 선택합니다.
+1. 메시지의 콘텐츠 편집 화면 또는 이메일 Designer에서 **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭한 다음 드롭다운에서 **[!UICONTROL 콘텐츠 시뮬레이션(AEP 프로필)]**&#x200B;을 선택합니다.
 
 1. 테스트 프로필을 선택합니다. 열에서 사용 가능한 값을 확인할 수 있습니다. 오른쪽/왼쪽 화살표를 사용하여 데이터를 찾아봅니다.
 

@@ -10,24 +10,15 @@ level: Intermediate
 hide: true
 exl-id: 2744974b-62cc-4d25-acc3-edd4c53a9a58
 TQID: https://experienceleague.adobe.com/Y8qsGW8XqSVqag4yqRinnem9w2PYJyKIDIWvuGqAchU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 1a2d7e68da120ab231958d453add66a03eb4d65e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
 workflow-type: tm+mt
-source-wordcount: 1313
+source-wordcount: 1321
 ht-degree: 1%
 
 ---
@@ -43,7 +34,7 @@ ht-degree: 1%
 
 [!DNL Journey Optimizer]의 **[!UICONTROL 콘텐츠 변형 시뮬레이션]** 경험은 AI로 자동으로 생성되거나, 수동으로 입력되거나, 파일에서 가져오거나, 재사용 가능한 시뮬레이션된 사용자를 기반으로 한 단일 화면에서 콘텐츠의 여러 변형을 테스트할 수 있도록 함으로써 이를 해결합니다. Adobe Experience Platform에서 영구 프로필을 미리 만들지 않고도 각 변형이 어떻게 렌더링하고 증명을 전송하는지 미리 볼 수 있습니다.
 
-콘텐츠에서 **[!UICONTROL 콘텐츠 시뮬레이션]**, **[!UICONTROL 콘텐츠 변형 시뮬레이션]**&#x200B;을 선택하여 다음 작업을 수행할 수 있는 단일 환경을 엽니다.
+콘텐츠에서 **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭하여 다음 작업을 수행할 수 있는 단일 환경을 엽니다.
 
 * 개인화 및 조건부 분기를 처리하기 위해 AI를 사용하여 **변형 자동 생성**
 * **변형을 수동으로 추가** 또는 CSV 또는 JSON 파일에서 추가
@@ -63,7 +54,8 @@ ht-degree: 1%
 * **채널** - 콘텐츠 변형 시뮬레이션을 사용할 수 있는 대상:
 
    * 이메일, SMS 및 푸시 알림 채널
-   * 모든 인바운드 채널(웹, 코드 기반 경험, 인앱, 콘텐츠 카드).
+   * 모든 인바운드 채널(웹, 코드 기반 경험, 인앱, 콘텐츠 카드);
+   * 조정된 캠페인.
 
 * **지원되는 기능** - 콘텐츠 변형을 [!DNL Journey Optimizer] 다국어 콘텐츠 및 콘텐츠 실험 기능과 함께 사용할 수 있습니다. 이를 통해 여러 언어로 메시지를 테스트하고 실험을 통해 콘텐츠를 최적화할 수 있습니다.
 
@@ -71,19 +63,19 @@ ht-degree: 1%
 
   >[!NOTE]
   >
-  >현재 환경에서는 받은 편지함 렌더링 및 스팸 보고서를 사용할 수 없습니다. 이러한 기능을 사용하려면 콘텐츠에서 **[!UICONTROL 콘텐츠 시뮬레이션]** 버튼을 선택하여 이전 사용자 인터페이스에 액세스합니다.
+  >현재 환경에서는 받은 편지함 렌더링 및 스팸 보고서를 사용할 수 없습니다. 이러한 기능을 사용하려면 **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭한 다음 드롭다운에서 **[!UICONTROL 콘텐츠 시뮬레이션(AEP 프로필)]**&#x200B;을 선택하여 이전 사용자 인터페이스에 액세스합니다.
 
 * **특성** - 프로필과 컨텍스트 특성이 모두 지원됩니다.
 
 * **데이터 형식** - 변형에 대한 데이터를 입력할 때 숫자(정수 및 십진수), 문자열, 부울 및 날짜 형식만 지원됩니다. 다른 데이터 유형에는 오류가 표시됩니다.
 
-* **변형 수** - 파일을 사용하거나 수동으로 또는 자동 생성을 통해 최대 30개의 변형을 추가하여 콘텐츠를 테스트할 수 있습니다.
+* **변형 수** - 파일을 사용하거나 수동으로 또는 자동 생성을 통해 최대 30개의 변형을 추가하여 콘텐츠를 테스트할 수 있습니다. AI 자동 생성을 사용할 경우 최대 20개의 변형이 생성됩니다.
 
 ## 콘텐츠 변형 만들기
 
-콘텐츠의 변형을 만들려면 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭하고 **[!UICONTROL 콘텐츠 변형 시뮬레이션]**&#x200B;을 선택합니다.
+콘텐츠의 변형을 만들려면 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭하십시오.
 
-![콘텐츠 변형 시뮬레이션 옵션](assets/simulate-sample.png)
+![콘텐츠 시뮬레이션 단추](assets/simulate-sample.png)
 
 다음과 같은 방법으로 변형을 만들 수 있습니다.
 
