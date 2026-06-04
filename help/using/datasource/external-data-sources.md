@@ -10,26 +10,16 @@ level: Intermediate, Experienced
 keywords: 외부, 소스, 데이터, 구성, 연결, 서드파티
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 TQID: https://experienceleague.adobe.com/B7ByDzFxOmtiWSNyc35w28v3j1osGVOyU8LYJrzxGSE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: d12c1812e2e9eff38ad7a24ef32bd947dfb8cbc7
 workflow-type: tm+mt
-source-wordcount: 1803
-ht-degree: 35%
+source-wordcount: 2077
+ht-degree: 30%
 
 ---
 
@@ -250,6 +240,48 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 >
 >* 캐시 지속 시간은 인증 끝점에 대한 너무 많은 호출을 방지하는 데 도움이 됩니다. 서비스에서 인증 토큰 보존이 캐시되므로 지속성이 없습니다. 서비스가 다시 시작되면 클린 캐시로 시작합니다. 기본적으로 캐시 지속 시간은 1시간입니다. 사용자 지정 인증 페이로드에서는 다른 보존 기간을 지정하여 조정할 수 있습니다.
 >
+
+### 인증서 기반 사용자 지정 인증 {#certificate-credential}
+
+Azure Entra ID와 같이 인증서 기반 ID 확인을 적용하는 엔터프라이즈 API의 경우 사용자 지정 권한 부여 페이로드에 `"subType": "certificateCredential"`을(를) 추가하여 인증서 기반 사용자 지정 인증을 구성할 수 있습니다. Journey Optimizer은 Adobe의 관리 인증서를 사용하여 JWT 클라이언트 어설션에 서명하고 액세스 토큰으로 교환합니다. 클라이언트 암호는 필요하지 않습니다.
+
+이 옵션은 표준 `customAuthorization` 스키마에 두 개의 선택적 필드 `subType` 및 `aud`을(를) 추가합니다. 다른 모든 필드(`endpoint`, `method`, 본문 매개 변수, `tokenInResponse`)는 변경되지 않습니다. `subType`이(가) 없는 경우 동작은 표준 사용자 지정 인증과 동일합니다. 기존 구성은 영향을 받지 않습니다.
+
+* **`subType`**: 인증서 기반 인증을 활성화하려면 `"certificateCredential"`(으)로 설정합니다.
+* **`aud`**: JWT 클라이언트 어설션에 포함된 대상 값입니다. 설정하지 않으면 기본값이 `endpoint` URL로 설정됩니다. ID 공급자에 다른 대상 값이 필요한 경우에만 이 필드를 지정하십시오.
+
+사용자가 `client_assertion` 및 `client_assertion_type` 필드를 작성하지 않습니다. 런타임 시 토큰 엔드포인트 호출 직전에 플랫폼에서 자동으로 삽입됩니다.
+
+다음은 인증서 자격 증명 인증 유형의 예입니다.
+
+```json
+{
+  "type": "customAuthorization",
+  "subType": "certificateCredential",
+  "aud": "https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token",
+  "authorizationType": "bearer",
+  "endpoint": "https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token",
+  "method": "POST",
+  "body": {
+    "bodyType": "form",
+    "bodyParams": {
+      "client_id": "<your-client-id>",
+      "grant_type": "client_credentials",
+      "scope": "https://api.example.com/.default"
+    }
+  },
+  "tokenInResponse": "json://access_token"
+}
+```
+
+>[!CAUTION]
+>
+>인증서 기반 사용자 지정 인증을 구성할 때는 다음 가드레일을 염두에 두십시오.
+>
+>* **토큰 끝점 URL**: HTTPS여야 합니다. `?`이(가) 포함된 URL은 사용하지 마십시오. 이는 인증 끝점이 토큰 끝점 대신 붙여넣어졌다는 신호입니다.
+>* **`client_id`**: 비워 둘 수 없으며 앞 또는 뒤에 공백을 사용할 수 없습니다. 빈 값은 ID 공급자가 불투명한 오류와 함께 거부할 올바른 형식의 JWT를 생성합니다.
+>* **`scope`**: `bodyParams`에서 공백으로 구분된 단일 문자열로 표현됩니다. 최대 1000자.
+>* **인증서**: Adobe에서 인증서 및 개인 키를 관리합니다. 인증서를 업로드하거나 입력하지 않습니다. 라이브 여정에서 사용자 지정 작업을 사용하기 전에 ID 공급자에 **Adobe의 리프 인증서**(루트 CA 아님)를 등록해야 합니다.
 
 다음은 헤더 인증 유형의 예입니다.
 
