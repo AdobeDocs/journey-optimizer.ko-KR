@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: 0d5bd22d50b503737428e63285eb0e04e20c5c76
 workflow-type: tm+mt
 source-wordcount: 1703
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -161,7 +161,7 @@ HTML 구성 요소의 경우 특정 요소만 편집 가능한 필드가 될 수
 
    ![](assets/fragment-expression-use.png)
 
-## 사용자 지정 가능한 조각에 서식 있는 텍스트 추가 {#rich-text}
+## 맞춤화가 가능한 조각에 리치 텍스트 추가 {#rich-text}
 
 >[!CONTEXTUALHELP]
 >id="ajo_editable_fragment_compatibility"
@@ -171,14 +171,14 @@ HTML 구성 요소의 경우 특정 요소만 편집 가능한 필드가 될 수
 >[!CONTEXTUALHELP]
 >id="ajo_editable_field_compatibility"
 >title="레거시 조각"
->abstract="이 편집 가능한 필드는 텍스트 전용 모드입니다. 서식 있는 텍스트 서식(굵게, 기울임꼴, 하이퍼링크, 줄바꿈 등) 조각이 HTML 호환 모드로 업그레이드될 때까지 를 사용할 수 없습니다. 조각 본문 설정으로 이동하여 <b>HTML 모드로 전환</b>을 클릭하여 서식 있는 텍스트 편집을 활성화합니다."
->additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="조각에서 편집 가능한 필드 사용자 지정"
+>abstract="이 편집 가능한 필드는 텍스트 전용 모드입니다. 리치 텍스트 서식(굵게, 기울임꼴, 하이퍼링크, 줄바꿈 등) 조각이 HTML 호환 모드로 업그레이드될 때까지 를 사용할 수 없습니다. 조각 본문 설정으로 이동하여 <b>HTML 모드로 전환</b>을 클릭하여 서식 있는 텍스트 편집을 활성화합니다."
+>additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="조각에서 편집 가능한 필드 맞춤화"
 
 >[!CONTEXTUALHELP]
 >id="ac_editable_fragment_compatibility"
 >title="레거시 조각"
->abstract="이 조각의 편집 가능한 필드는 텍스트 전용 모드입니다. 서식 있는 텍스트 서식(굵게, 기울임꼴, 하이퍼링크, 줄바꿈 등) 조각이 HTML 호환 모드로 업그레이드될 때까지 를 사용할 수 없습니다. 이렇게 하려면 조각 편집기를 열고 <b>HTML 모드로 전환</b>을 클릭합니다."
->additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="조각에서 편집 가능한 필드 사용자 지정"
+>abstract="이 조각의 편집 가능한 필드는 텍스트 전용 모드입니다. 리치 텍스트 서식(굵게, 기울임꼴, 하이퍼링크, 줄바꿈 등) 조각이 HTML 호환 모드로 업그레이드될 때까지 를 사용할 수 없습니다. 이렇게 하려면 조각 편집기를 열고 <b>HTML 모드로 전환</b>을 클릭합니다."
+>additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="조각에서 편집 가능한 필드 맞춤화"
 
 HTML 구성 요소를 사용하여 사용자 지정 가능한 조각에 줄 바꿈, 굵게, 기울임체 등과 같은 리치 텍스트를 추가할 수 있습니다. 그 방법은 다음과 같습니다.
 <!--
