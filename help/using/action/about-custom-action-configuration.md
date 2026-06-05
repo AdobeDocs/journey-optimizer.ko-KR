@@ -10,29 +10,14 @@ level: Experienced
 keywords: 작업, 서드파티, 사용자 지정, 여정, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 TQID: https://experienceleague.adobe.com/q4zuwxmF2Gr5P5IkdZCKFHoA18-GGrlLD0f-WPCQ3q4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d12c1812e2e9eff38ad7a24ef32bd947dfb8cbc7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: e3ade9a651638c321aa0dd837e09cc2d44359797
 workflow-type: tm+mt
-source-wordcount: 2332
+source-wordcount: 2324
 ht-degree: 12%
 
 ---
@@ -70,7 +55,11 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >끝점이 OpenID Connect를 사용하고 뱅킹 및 금융 서비스 API에 일반적인 패턴인 `access_token` 및 `id_token`을(를) 모두 반환하는 경우 사용자 지정 인증 페이로드에서 선택적 `idTokenInResponse` 필드를 사용하십시오. 이렇게 하면 Journey Optimizer은 액세스 토큰 대신 ID 토큰을 인증 자격 증명으로 사용하게 됩니다. [사용자 지정 인증에 대해 자세히 알아보세요](../datasource/external-data-sources.md#custom-authentication-mode).
+   >끝점이 `access_token`과(와) `id_token`을(를) 모두 반환하는 경우 `tokenInResponse` 필드를 사용하여 Journey Optimizer에서 인증 자격 증명으로 사용할 토큰을 지정합니다.
+   >* `"tokenInResponse": "json://access_token"` — 액세스 토큰 사용(OAuth 2.0의 기본값)
+   >* `"tokenInResponse": "json://id_token"` — ID 토큰 사용(OpenID Connect 흐름에서 공통)
+   >
+   >[사용자 지정 인증에 대해 자세히 알아보기](../datasource/external-data-sources.md#custom-authentication-mode)
 
 1. **[!UICONTROL 작업 매개 변수]**&#x200B;을(를) 정의합니다. [이 페이지](../action/about-custom-action-configuration.md#define-the-message-parameters)를 참조하십시오.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
@@ -169,7 +158,7 @@ Journey Optimizer에서는 데이터 거버넌스 및 동의 정책을 사용자
 
 1. 필드의 레이블 또는 이름을 입력합니다.
 
-1. **[!UICONTROL 상수]** 또는 **[!UICONTROL 변수]** 형식을 선택하십시오. **[!UICONTROL 상수]**&#x200B;를 선택한 경우 **[!UICONTROL 값]** 필드에 상수 값을 입력하십시오. **[!UICONTROL 변수]**&#x200B;을(를) 선택한 경우 여정에 사용자 지정 작업을 추가할 때 이 변수를 지정합니다. [자세히 알아보기](../building-journeys/using-custom-actions.md).
+1. **[!UICONTROL 상수]** 또는 **[!UICONTROL 변수]** 형식을 선택하십시오. **[!UICONTROL 상수]**&#x200B;를 선택한 경우 **[!UICONTROL 값]** 필드에 상수 값을 입력하십시오. **[!UICONTROL 변수]**&#x200B;을(를) 선택한 경우 여정에 사용자 지정 작업을 추가할 때 이 변수를 지정합니다. [자세히 알아보기](../building-journeys/using-custom-actions.md)
 
    ![](assets/journeyurlconfiguration2.png)
 
@@ -189,7 +178,7 @@ Adobe Journey Optimizer은 사용자 지정 작업에 대해 기본적으로 TLS
 
 mTLS(상호 전송 계층 보안)를 사용하여 Adobe Journey Optimizer 사용자 지정 작업에 대한 아웃바운드 연결에서 보안을 강화할 수 있습니다. mTLS는 상호 인증을 위한 종단간 보안 방법으로, 정보를 공유하는 양 당사자가 데이터를 공유하기 전에 자신이 주장하는 사람임을 보장합니다. mTLS에는 TLS와 비교하여 추가 단계가 포함되어 있으며, 이 단계에서 서버는 클라이언트의 인증서를 요청하고 마지막에 검증한다.
 
-사용자 지정 작업에서 상호 TLS(mTLS) 인증이 지원됩니다. mTLS를 활성화하기 위해 사용자 정의 작업 또는 여정에 구성을 추가할 필요는 없습니다. mTLS 활성화 엔드포인트가 감지되면 자동으로 활성화됩니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support)
+사용자 지정 작업에서 상호 TLS(mTLS) 인증이 지원됩니다. mTLS를 활성화하기 위해 사용자 정의 작업 또는 여정에 구성을 추가할 필요는 없습니다. mTLS 활성화 엔드포인트가 감지되면 자동으로 활성화됩니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support)
 
 >[!IMPORTANT]
 >
@@ -202,7 +191,7 @@ mTLS(상호 전송 계층 보안)를 사용하여 Adobe Journey Optimizer 사용
 
 ### 인증서 기반 사용자 지정 인증 {#certificate-based-auth}
 
-Azure Entra ID와 같이 인증서 기반 ID 확인을 적용하는 엔터프라이즈 API의 경우 사용자 지정 작업이 **인증서 기반 사용자 지정 인증**&#x200B;을 지원합니다. 활성화하려면 **[!UICONTROL 인증]** 섹션에 구성된 사용자 지정 권한 부여 페이로드에서 `"subType": "certificateCredential"`을(를) 설정하십시오.
+Microsoft Entra ID와 같이 인증서 기반 ID 확인을 적용하는 엔터프라이즈 API의 경우 사용자 지정 작업이 **인증서 기반 사용자 지정 인증**&#x200B;을 지원합니다. 활성화하려면 **[!UICONTROL 인증]** 섹션에 구성된 사용자 지정 권한 부여 페이로드에서 `"subType": "certificateCredential"`을(를) 설정하십시오.
 
 Journey Optimizer은 Adobe의 관리 인증서를 사용하여 JWT 클라이언트 어설션에 서명하고 자동으로 액세스 토큰으로 교환합니다. 클라이언트 암호는 필요하지 않습니다.
 
