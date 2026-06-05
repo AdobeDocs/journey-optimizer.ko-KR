@@ -15,8 +15,8 @@ feature_v2: []
 subfeature_v2: []
 source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
 workflow-type: tm+mt
-source-wordcount: 1145
-ht-degree: 10%
+source-wordcount: 1130
+ht-degree: 12%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_task_create"
 >title="작업 만들기"
->abstract="고객 활동(구매, 지출 또는 사용자 지정 이벤트)을 선택한 다음, 활동별 속성을 구성합니다. 속성 창에서 작업 이름과 설명을 설정합니다."
+>abstract="고객 활동(구매, 지출 또는 사용자 정의 이벤트)을 선택한 다음 활동별 속성을 구성합니다. 속성 창에서 작업 이름과 설명을 설정합니다."
 
 두 진입점에서 작업을 생성할 수 있습니다. 구성 프로세스는 시작하는 위치에 관계없이 동일합니다.
 
