@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 keywords: 일괄 의사 결정, dm, 의사 결정
-source-git-commit: b91d7609df9d05a2ef04dbdbe2a78d9a084f95ac
+source-git-commit: 3c50b7886c95a45f60f7ebd92dd7ea28bd128b77
 workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 0%
@@ -92,3 +92,4 @@ Experience Decisioning이 포함된 DM 채널을 통해 일괄 의사 결정 사
 * [결정 정책 만들기](create-decision-policy.md#add) - DM 탭에서 결정 정책을 추가합니다.
 * [DM 구성](../direct-mail/direct-mail-configuration.md) - 파일 라우팅 및 채널 구성
 * [의사 결정 시작](gs-experience-decisioning.md) - 개념 및 보호
+
