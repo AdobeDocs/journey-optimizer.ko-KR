@@ -23,10 +23,10 @@ subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 014e80a81e9f04f74f0a97c380feab5bbfc8856f
+source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
 workflow-type: tm+mt
-source-wordcount: 732
-ht-degree: 24%
+source-wordcount: 751
+ht-degree: 22%
 
 ---
 
@@ -41,11 +41,11 @@ ht-degree: 24%
 
 의사 결정 기능은 &#39;의사 결정 항목&#39;이라는 중앙 집중식 마케팅 카탈로그와 정교한 의사 결정 엔진을 제공하여 개인화를 간소화합니다. 이 엔진은 규칙과 순위 기준을 활용하여 각 개인에게 가장 관련성 높은 의사 결정 항목을 선택하고 제공합니다.
 
-이러한 결정 항목은 [!DNL Adobe Journey Optimizer] 채널([코드 기반 경험](../code-based/get-started-code-based.md), 이메일, SMS 및 푸시 알림)의 메시지 및 경험에 원활하게 통합됩니다.
+이러한 결정 항목은 [!DNL Adobe Journey Optimizer]개 채널([코드 기반 경험](../code-based/get-started-code-based.md), 이메일, SMS, 푸시 알림 및 일괄 의사 결정 및 개인화된 DM 내보내기를 위한 [DM](batch-decisioning-direct-mail.md))의 메시지 및 경험에 원활하게 통합됩니다. DM에 대한 Experience Decisioning 지원은 새로운 기능입니다. 이전에는 DM 추출 파일에 Decisioning 엔진을 사용할 수 없었습니다.
 
 >[!IMPORTANT]
 >
->결정 정책은 **코드 기반 경험**, **이메일**, **푸시 알림** 및 **SMS** 채널에 대해 모든 고객이 사용할 수 있습니다. 릴리스 주기 및 가용성 단계에 대한 자세한 내용은 [Journey Optimizer 릴리스 주기](../rn/releases.md)를 참조하십시오.
+>결정 정책은 **코드 기반 경험**, **이메일**, **푸시 알림**, **SMS** 및 **다이렉트 메일** 채널에 대해 모든 고객이 사용할 수 있습니다.
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
 

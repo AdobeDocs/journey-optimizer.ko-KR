@@ -23,9 +23,9 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: b94f1c1a557a6c47d3eb81f3660b09b1fde59f5a
+source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
 workflow-type: tm+mt
-source-wordcount: 1164
+source-wordcount: 1230
 ht-degree: 2%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->결정 정책은 **코드 기반 경험**, **SMS**, **푸시 알림** 및 **이메일** 채널에 대해 모든 고객이 사용할 수 있습니다.
+>결정 정책은 **코드 기반 경험**, **이메일**, **SMS**, **푸시 알림** 및 **다이렉트 메일** 채널에 대해 모든 고객이 사용할 수 있습니다.
 
 ## 의사 결정 정책 코드 삽입 {#insert}
 
@@ -104,13 +104,23 @@ ht-degree: 2%
 >
 >푸시 알림을 사용하는 Experience Decisioning에는 모바일 SDK의 특정 버전이 필요합니다. 이 기능을 구현하기 전에 [릴리스 정보](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"}를 확인하여 필요한 버전을 식별하고 그에 따라 업그레이드했는지 확인하십시오. [이 섹션](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"}에서 사용 가능한 플랫폼에 대한 모든 SDK 버전을 볼 수도 있습니다.
 
+>[!TAB DM]
+
+1. 추출 파일 구성에서 **Personalization 편집기**&#x200B;를 엽니다(예: 열의 **[!UICONTROL 데이터]** 필드).
+
+2. **[!UICONTROL 의사 결정 정책]**(으)로 이동한 다음 **[!UICONTROL 정책 삽입]**&#x200B;을 선택하여 의사 결정 정책에 대한 코드를 추가합니다.
+
+   ![](assets/decision-policy-add-dm-syntax.png)
+
+3. 반환된 의사 결정 항목 속성을 열 데이터로 사용하여 선택한 오퍼 정보가 각 프로필의 추출 파일에 포함되도록 합니다.
+
 >[!ENDTABS]
 
 결정 정책 코드가 추가됩니다. 이제 반환된 의사 결정 항목의 속성을 사용하여 콘텐츠를 개인화할 수 있습니다.
 
 >[!NOTE]
 >
->코드 기반 경험 및 이메일 채널의 경우 반환할 의사 결정 항목마다 이 시퀀스를 한 번씩 반복합니다. 예를 들어 [결정을 만들 때](create-decision-policy.md) 2개 항목을 반환하도록 선택한 경우 시퀀스를 두 번 반복합니다. SMS 및 푸시 채널의 경우 하나의 결정 항목만 반환할 수 있습니다.
+>코드 기반 경험, 이메일 및 DM 채널의 경우 반환할 의사 결정 항목마다 이 시퀀스를 한 번씩 반복합니다. 예를 들어 [결정을 만들 때](create-decision-policy.md) 2개 항목을 반환하도록 선택한 경우 시퀀스를 두 번 반복합니다. SMS 및 푸시 채널의 경우 하나의 결정 항목만 반환할 수 있습니다.
 
 ## 의사 결정 항목 속성을 사용하여 개인화 {#attributes}
 
@@ -126,7 +136,7 @@ ht-degree: 2%
 
 특성을 추가하려면 특성 옆에 있는 **`+`** 아이콘을 클릭합니다. 필요한 만큼 속성을 추가할 수 있습니다. 프로필 데이터와 같은 다른 개인화 속성도 포함할 수 있습니다.
 
-* **Email** 및 **코드 기반** 채널의 경우 `#each` 루프 내에서 대괄호 `[ ]`을(를) 사용하여 특성을 래핑한 다음 닫는 `/each` 태그 앞에 쉼표를 추가하십시오.
+* **전자 메일**, **코드 기반** 및 **DM** 채널의 경우 `#each` 루프 내에서 대괄호 `[ ]`을(를) 사용하여 특성을 래핑한 다음 닫는 `/each` 태그 앞에 쉼표를 추가하십시오.
 
   +++예제 참조
 
