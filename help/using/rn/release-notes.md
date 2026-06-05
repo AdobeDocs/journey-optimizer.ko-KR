@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b91d7609df9d05a2ef04dbdbe2a78d9a084f95ac
+source-git-commit: f037ccbe655dbd283307191f58c31d4806045441
 workflow-type: tm+mt
-source-wordcount: 2637
+source-wordcount: 2562
 ht-degree: 21%
 
 ---
@@ -210,25 +210,6 @@ ht-degree: 21%
 ### 오케스트레이션된 캠페인 {#may-26-oc}
 
 이 릴리스의 오케스트레이션된 캠페인에 다음과 같은 기능 및 개선 사항이 추가되었습니다. 향후 며칠 또는 몇 주 이내에 추가 변경 사항이 있을 것으로 예상됩니다.
-
-<table>
-<thead>
-<tr>
-<th><strong>여정 표현식을 위한 AI 지원</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 AI Assistant가 여정 고급 표현식 편집기에서 작동하여 자연어 프롬프트를 유효한 표현식과 조건부 논리로 변환합니다. 빌드할 표현식을 설명하고 AI Assistant는 즉시 적용하거나 후속 프롬프트를 통해 구체화할 수 있는 사용 준비 코드를 생성합니다.</p>
-<p>이 기능은 모든 고객이 공용 Beta으로 사용할 수 있습니다.</p>
-<p><img src="assets/do-not-localize/expression-assistant.gif"></p>
-<p>자세한 내용은 <a href="../building-journeys/expression/expression-agent.md">세부 설명서</a>를 참조하십시오.</p>
-<p>사용 가능한 날짜: 2026년 5월 20일</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
