@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
+source-git-commit: 738f708832176c1554e64fce9954d899cc221b13
 workflow-type: tm+mt
 source-wordcount: '3368'
 ht-degree: 94%
@@ -38,7 +38,7 @@ ht-degree: 94%
       + [AI 및 지능형 기능](using/start/ai-features.md)
       + [주요 용어](using/start/terminology.md)
       + [가드레일 및 제한 사항](using/start/guardrails.md)
-      + {hide-from-toc}[패키지별 기능](using/start/ajo-packages.md)
+      + 패키지별 {hide-from-toc}[기능](using/start/ajo-packages.md)
       + {hide-from-toc}[패키지 및 기능(v2)](using/start/ajo-packages-v2.md)
       + {hide-from-toc}[패키지 및 기능(v3)](using/start/ajo-packages-v3.md)
    + 역할별 시작 {#by-role}
@@ -1005,4 +1005,5 @@ ht-degree: 94%
       + [고객의 환경 설정 관리](using/action/preference-center.md)
    + [데이터 거버넌스](using/action/action-privacy.md)
    + [고객 관리 키 설정 및 관리](using/privacy/cmk.md)
+
 
