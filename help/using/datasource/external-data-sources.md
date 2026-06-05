@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d12c1812e2e9eff38ad7a24ef32bd947dfb8cbc7
+source-git-commit: e3ade9a651638c321aa0dd837e09cc2d44359797
 workflow-type: tm+mt
-source-wordcount: 2077
+source-wordcount: 2084
 ht-degree: 30%
 
 ---
@@ -253,12 +253,12 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 
 ### 인증서 기반 사용자 지정 인증 {#certificate-credential}
 
-Azure Entra ID와 같이 인증서 기반 ID 확인을 적용하는 엔터프라이즈 API의 경우 사용자 지정 권한 부여 페이로드에 `"subType": "certificateCredential"`을(를) 추가하여 인증서 기반 사용자 지정 인증을 구성할 수 있습니다. Journey Optimizer은 Adobe의 관리 인증서를 사용하여 JWT 클라이언트 어설션에 서명하고 액세스 토큰으로 교환합니다. 클라이언트 암호는 필요하지 않습니다.
+Microsoft Entra ID와 같이 인증서 기반 ID 확인을 적용하는 엔터프라이즈 API의 경우 사용자 지정 권한 부여 페이로드에 `"subType": "certificateCredential"`을(를) 추가하여 인증서 기반 사용자 지정 인증을 구성할 수 있습니다. Journey Optimizer은 Adobe의 관리 인증서를 사용하여 JWT 클라이언트 어설션에 서명하고 액세스 토큰으로 교환합니다. 클라이언트 암호는 필요하지 않습니다.
 
-이 옵션은 표준 `customAuthorization` 스키마에 두 개의 선택적 필드 `subType` 및 `aud`을(를) 추가합니다. 다른 모든 필드(`endpoint`, `method`, 본문 매개 변수, `tokenInResponse`)는 변경되지 않습니다. `subType`이(가) 없는 경우 동작은 표준 사용자 지정 인증과 동일합니다. 기존 구성은 영향을 받지 않습니다.
+이 옵션은 표준 `customAuthorization` 스키마에 두 개의 필수 필드인 `subType` 및 `aud`을(를) 추가합니다. 다른 모든 필드(`endpoint`, `method`, 본문 매개 변수, `tokenInResponse`)는 변경되지 않습니다. `subType`이(가) 없는 경우 동작은 표준 사용자 지정 인증과 동일합니다. 기존 구성은 영향을 받지 않습니다.
 
 * **`subType`**: 인증서 기반 인증을 활성화하려면 `"certificateCredential"`(으)로 설정합니다.
-* **`aud`**: JWT 클라이언트 어설션에 포함된 대상 값입니다. 설정하지 않으면 기본값이 `endpoint` URL로 설정됩니다. ID 공급자에 다른 대상 값이 필요한 경우에만 이 필드를 지정하십시오.
+* **`aud`**: JWT 클라이언트 어설션에 포함된 대상 값입니다. Microsoft Entra ID의 경우 `endpoint` URL과 동일하지만 항상 명시적으로 설정해야 합니다.
 
 사용자가 `client_assertion` 및 `client_assertion_type` 필드를 작성하지 않습니다. 런타임 시 토큰 엔드포인트 호출 직전에 플랫폼에서 자동으로 삽입됩니다.
 
@@ -269,7 +269,7 @@ Azure Entra ID와 같이 인증서 기반 ID 확인을 적용하는 엔터프라
   "type": "customAuthorization",
   "subType": "certificateCredential",
   "aud": "https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token",
-  "authorizationType": "bearer",
+  "authorizationType": "Bearer",
   "endpoint": "https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token",
   "method": "POST",
   "body": {
@@ -289,6 +289,7 @@ Azure Entra ID와 같이 인증서 기반 ID 확인을 적용하는 엔터프라
 >인증서 기반 사용자 지정 인증을 구성할 때는 다음 가드레일을 염두에 두십시오.
 >
 >* **토큰 끝점 URL**: HTTPS여야 합니다. `?`이(가) 포함된 URL은 사용하지 마십시오. 이는 인증 끝점이 토큰 끝점 대신 붙여넣어졌다는 신호입니다.
+>* **`method`**: `POST`이어야 합니다. OAuth 토큰 종단점은 POST 요청만 수락합니다.
 >* **`client_id`**: 비워 둘 수 없으며 앞 또는 뒤에 공백을 사용할 수 없습니다. 빈 값은 ID 공급자가 불투명한 오류와 함께 거부할 올바른 형식의 JWT를 생성합니다.
 >* **`scope`**: `bodyParams`에서 공백으로 구분된 단일 문자열로 표현됩니다. 최대 1000자.
 >* **인증서**: Adobe에서 인증서 및 개인 키를 관리합니다. 인증서를 업로드하거나 입력하지 않습니다. 라이브 여정에서 사용자 지정 작업을 사용하기 전에 ID 공급자에 **Adobe의 리프 인증서**(루트 CA 아님)를 등록해야 합니다.
