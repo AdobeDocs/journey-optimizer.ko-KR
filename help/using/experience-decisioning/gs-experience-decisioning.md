@@ -8,25 +8,16 @@ level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/z-9FSXpQNMyy0KcGaLWgDYHqAx-BWhIEJYAq4wVqmv4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 014e80a81e9f04f74f0a97c380feab5bbfc8856f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
 workflow-type: tm+mt
-source-wordcount: 732
-ht-degree: 24%
+source-wordcount: 751
+ht-degree: 22%
 
 ---
 
@@ -41,11 +32,11 @@ ht-degree: 24%
 
 의사 결정 기능은 &#39;의사 결정 항목&#39;이라는 중앙 집중식 마케팅 카탈로그와 정교한 의사 결정 엔진을 제공하여 개인화를 간소화합니다. 이 엔진은 규칙과 순위 기준을 활용하여 각 개인에게 가장 관련성 높은 의사 결정 항목을 선택하고 제공합니다.
 
-이러한 결정 항목은 [!DNL Adobe Journey Optimizer] 채널([코드 기반 경험](../code-based/get-started-code-based.md), 이메일, SMS 및 푸시 알림)의 메시지 및 경험에 원활하게 통합됩니다.
+이러한 결정 항목은 [!DNL Adobe Journey Optimizer]개 채널([코드 기반 경험](../code-based/get-started-code-based.md), 이메일, SMS, 푸시 알림 및 일괄 의사 결정 및 개인화된 DM 내보내기를 위한 [DM](batch-decisioning-direct-mail.md))의 메시지 및 경험에 원활하게 통합됩니다. DM에 대한 Experience Decisioning 지원은 새로운 기능입니다. 이전에는 DM 추출 파일에 Decisioning 엔진을 사용할 수 없었습니다.
 
 >[!IMPORTANT]
 >
->결정 정책은 **코드 기반 경험**, **이메일**, **푸시 알림** 및 **SMS** 채널에 대해 모든 고객이 사용할 수 있습니다. 릴리스 주기 및 가용성 단계에 대한 자세한 내용은 [Journey Optimizer 릴리스 주기](../rn/releases.md)를 참조하십시오.
+>결정 정책은 **코드 기반 경험**, **이메일**, **푸시 알림**, **SMS** 및 **다이렉트 메일** 채널에 대해 모든 고객이 사용할 수 있습니다.
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
 
@@ -83,11 +74,11 @@ Decisioning을 사용하는 주요 단계는 다음과 같습니다.
 
 1. 타깃팅된 대상자에게 표시할 **결정 항목을 만듭니다**.
 
-   ➡️ [&#128279;](items.md)사용자 인터페이스 및 [API 설명서](api-reference/decisions-items/create.md)에서 의사 결정 항목을 만드는 방법을 알아봅니다
+   ➡️ [사용자 인터페이스 및 [API 설명서](api-reference/decisions-items/create.md)에서 의사 결정 항목을 만드는 방법을 알아봅니다](items.md)
 
 1. **컬렉션으로 구성**: 컬렉션을 사용하여 특성 기반 규칙에 따라 결정 항목을 분류합니다. 컬렉션을 선택 전략에 통합하여 고려해야 하는 결정 항목의 컬렉션을 결정합니다.
 
-   ➡️ [&#128279;](collections.md)사용자 인터페이스 및 [API 설명서](api-reference/items-collections/create.md)에서 항목 컬렉션을 관리하는 방법을 알아봅니다
+   ➡️ [사용자 인터페이스 및 [API 설명서](api-reference/items-collections/create.md)에서 항목 컬렉션을 관리하는 방법을 알아봅니다](collections.md)
 
 1. **의사 결정 규칙 만들기**: 의사 결정 규칙은 의사 결정 항목 및/또는 선택 전략에서 의사 결정 항목을 표시할 대상을 결정하는 데 사용됩니다.
 
@@ -99,7 +90,7 @@ Decisioning을 사용하는 주요 단계는 다음과 같습니다.
 
 1. **선택 전략 만들기**: 컬렉션, 의사 결정 규칙 및 등급 방법을 활용하여 프로필에 표시하는 데 적합한 의사 결정 항목을 식별하는 선택 전략을 만듭니다.
 
-   ➡️ [&#128279;](selection-strategies.md)사용자 인터페이스 및 [API 설명서](api-reference/selection-strategies/create.md)의 사용자 인터페이스에서 선택 전략을 만드는 방법을 알아봅니다
+   ➡️ [사용자 인터페이스 및 [API 설명서](api-reference/selection-strategies/create.md)의 사용자 인터페이스에서 선택 전략을 만드는 방법을 알아봅니다](selection-strategies.md)
 
 1. **의사 결정 정책을 만들어 여정 또는 캠페인에 임베드합니다**(코드 기반 경험, 이메일, SMS 또는 푸시). 의사 결정 정책은 여러 선택 전략을 결합하여 의도한 대상자에게 표시할 적합한 의사 결정 항목을 결정합니다.
 
@@ -127,4 +118,4 @@ Decisioning을 사용하는 주요 단계는 다음과 같습니다.
 
 Adobe Journey Optimizer의 Decisioning 기능에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475870?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)

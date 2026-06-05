@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a3301bfc25f76ba0f74622fd1f169585c2d96ebd
+source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
 workflow-type: tm+mt
-source-wordcount: '3363'
-ht-degree: 95%
+source-wordcount: '3368'
+ht-degree: 94%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 95%
       + [AI 및 지능형 기능](using/start/ai-features.md)
       + [주요 용어](using/start/terminology.md)
       + [가드레일 및 제한 사항](using/start/guardrails.md)
-      + {hide-from-toc}[패키지별 기능](using/start/ajo-packages.md)
+      + 패키지별 {hide-from-toc}[기능](using/start/ajo-packages.md)
       + {hide-from-toc}[패키지 및 기능(v2)](using/start/ajo-packages-v2.md)
       + {hide-from-toc}[패키지 및 기능(v3)](using/start/ajo-packages-v3.md)
    + 역할별 시작 {#by-role}
@@ -726,6 +726,7 @@ ht-degree: 95%
          + [결정 정책 만들기](using/experience-decisioning/create-decision-policy.md)
          + [메시지에 결정 정책 사용](using/experience-decisioning/use-decision-policy.md)
          + [의사 결정 정책에 조각 활용](using/experience-decisioning/fragments-decision-policies.md)
+         + [DM에서의 일괄 의사 결정](using/experience-decisioning/batch-decisioning-direct-mail.md)
       + [결정 보고서](using/experience-decisioning/cja-reporting.md)
       + [결정 사용 사례](using/experience-decisioning/experience-decisioning-uc.md)
       + 이벤트 데이터 수집 {#experience-decisioning-collect-event-data}
