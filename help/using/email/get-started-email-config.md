@@ -114,7 +114,7 @@ BCC, 제외 무시, URL 추적과 같은 고급 기능을 사용하여 전달성
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
 
 이메일 채널에 대한 URL 추적 구성
 
