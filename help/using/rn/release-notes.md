@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 3c50b7886c95a45f60f7ebd92dd7ea28bd128b77
+source-git-commit: 161b043b801d8c35e2dd590f1f85d52829d6a459
 workflow-type: tm+mt
-source-wordcount: 2562
+source-wordcount: 2564
 ht-degree: 21%
 
 ---
@@ -383,7 +383,7 @@ The following orchestrated campaign capability is expected in the upcoming days 
 
 * **WhatsApp 단추 지원 및 추적** - WhatsApp 템플릿은 이제 **빠른 회신**, **Call to action - URL** 및 **Call to action - 전화**, **코드 복사**&#x200B;를 지원하지 않습니다. Journey Optimizer은 다른 채널 보고와 함께 지원되는 버튼을 전송하고 상호 작용을 추적합니다.
 
-* **WhatsApp 채널 컨텍스트 데이터** - 이제 Journey Optimizer이 WhatsApp 채널에서 반환된 추가 상호 작용 데이터를 캡처하여 `whatsAppChannelContext` 필드 그룹 아래의 **AJO EmailTrackingExperienceEvent 데이터 세트**&#x200B;에 저장합니다.
+* **WhatsApp 채널 컨텍스트 데이터** - 이제 Journey Optimizer이 WhatsApp 채널에서 반환된 추가 상호 작용 데이터를 캡처하여 `whatsAppChannelContext` 필드 그룹 아래의 **AJO EmailTrackingExperienceEvent 데이터 세트**&#x200B;에 저장합니다. [자세히 보기](../whatsapp/send-whatsapp.md#whatsapp-channel-context)
 
   +++ 다음 필드가 캡처되며 대상자를 빌드하고 WhatsApp 참여를 분석하는 데 사용할 수 있습니다.
 
