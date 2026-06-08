@@ -12,9 +12,9 @@ version: Journey Orchestration
 hide: true
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 45161c22a2988de8d844e1f9958e72506c269956
+source-git-commit: 97a1387dbac4443f3c9bb0fb21334a8071505961
 workflow-type: tm+mt
-source-wordcount: 1840
+source-wordcount: 1841
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ ht-degree: 0%
 
    Adobe Journey Optimizer은 여정 정의에서 시뮬레이션된 사용자 세트를 생성합니다.
 
-   이메일 또는 SMS 노드가 있는 여정의 경우 AI가 사용할 이메일 주소 또는 전화번호를 확인하라는 메시지를 표시합니다. 이러한 정의된 값을 사용하여 시뮬레이션된 사용자가 생성됩니다. 완료되면 **[!UICONTROL 생성]**&#x200B;을 클릭하세요.
+   이메일, 푸시 또는 SMS 노드가 있는 여정의 경우 AI가 사용할 이메일 주소 또는 전화번호를 확인하라는 메시지를 표시합니다. 이러한 정의된 값을 사용하여 시뮬레이션된 사용자가 생성됩니다. 완료되면 **[!UICONTROL 생성]**&#x200B;을 클릭하세요.
 
    ![실행 전자 메일 및 전화 필드가 있는 시뮬레이션된 사용자 대화 상자 및 생성 단추](assets/simulate-generate.png)
 
