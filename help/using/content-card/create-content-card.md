@@ -6,19 +6,27 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: a26bb3bd-d593-466b-9852-94e194d6d2b7
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909
+source-git-commit: e41af203a353dd0c5f34c5c9f1915892e7c95999
 workflow-type: tm+mt
-source-wordcount: 1562
-ht-degree: 12%
+source-wordcount: 1755
+ht-degree: 10%
 
 ---
 
 # 콘텐츠 템플릿 만들기 {#create-content-card}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_content_card"
+>title="컨텐츠 카드 작업"
+>abstract="여정의 이 단계에 도달하면 콘텐츠 카드 인바운드 작업에 프로필에 콘텐츠 카드가 표시됩니다. 레이블은 여정 캔버스에서 활동을 식별하고, 작업은 표시된 콘텐츠를 정의하는 콘텐츠 카드 구성을 참조합니다. **최적화** 섹션에는 콘텐츠 실험 또는 타깃팅 규칙이 포함될 수 있습니다. 이 활동(기본적으로 3일) 후에 **대기** 노드가 자동으로 삽입되므로 프로필에서 콘텐츠 카드를 볼 수 있습니다."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="채널 작업 시작"
+
+
+콘텐츠 카드는 프로모션, 공지 또는 권장 사항과 같은 개인화된 콘텐츠를 모바일 앱의 전용 표면 내에 직접 표시하는 인바운드 인앱 경험입니다. 중단 메시지와 달리 사용자가 메시지를 해제하거나 게재 규칙이 메시지를 숨길 때까지 앱에서 계속 사용할 수 있습니다.
+
+이 페이지에서는 [여정](../building-journeys/journey-gs.md) 또는 [캠페인](../campaigns/create-campaign.md)의 일부로 콘텐츠 카드를 작성하고 콘텐츠를 정의하는 방법에 대해 설명합니다. 추가되면 카드를 디자인하고 카드를 표시하거나, 해제하거나, 영구적으로 숨길 때를 제어하는 추가 게재 규칙을 설정하고, 성능을 최적화하기 위해 콘텐츠 실험을 실행할 수 있습니다.
 
 >[!IMPORTANT]
 >
