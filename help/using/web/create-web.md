@@ -25,14 +25,20 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: 675606750af67b398f18646dddf901778625fb30
 workflow-type: tm+mt
-source-wordcount: 1647
-ht-degree: 17%
+source-wordcount: 1741
+ht-degree: 16%
 
 ---
 
 # 웹 경험 만들기 {#create-web}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_web"
+>title="웹 액션"
+>abstract="웹 경험 인바운드 작업은 프로필이 이 여정 단계에 도달하면 프로필에 웹 경험을 표시합니다. 레이블은 여정 캔버스에서 활동을 식별하고, 작업은 표시된 콘텐츠를 정의하는 웹 구성을 참조합니다. **최적화** 섹션에는 콘텐츠 실험 또는 타깃팅 규칙이 포함될 수 있습니다. 이 활동(기본적으로 3일) 후에 **대기** 노드가 자동으로 삽입되므로 프로필에서 웹 경험을 볼 수 있습니다."
+>additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="채널 작업 시작"
 
 [!DNL Journey Optimizer]을(를) 사용하면 인바운드 여정 또는 캠페인을 통해 고객에게 제공하는 웹 경험을 개인화할 수 있습니다.
 

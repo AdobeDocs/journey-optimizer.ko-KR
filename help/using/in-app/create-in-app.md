@@ -22,9 +22,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 675606750af67b398f18646dddf901778625fb30
 workflow-type: tm+mt
-source-wordcount: 2305
+source-wordcount: 2405
 ht-degree: 11%
 
 ---
@@ -35,6 +35,12 @@ ht-degree: 11%
 >id="ajo_campaigns_inapp_triggers"
 >title="인앱 트리거 관리"
 >abstract="메시지를 활성화할 특정 이벤트 및 기준을 선택하여 트리거를 효율적으로 제어합니다. 사용자는 규칙 빌더를 사용하여 정확한 조건 및 값을 정의할 수 있습니다. 이러한 조건이 충족되면 인앱 메시지 게재를 포함한 일련의 작업이 시작됩니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_in_app"
+>title="인앱 메시지 작업"
+>abstract="인앱 메시지 인바운드 작업은 프로필이 여정의 이 단계에 도달하면 인앱 메시지를 프로필에 표시합니다. 레이블은 여정 캔버스에서 활동을 식별하고, 작업은 표시된 콘텐츠를 정의하는 인앱 구성을 참조합니다. **최적화** 섹션에는 콘텐츠 실험 또는 타깃팅 규칙이 포함될 수 있습니다. 이 활동(기본적으로 3일) 후에 **대기** 노드가 자동으로 삽입되므로 프로필에서 인앱 메시지를 볼 수 있습니다."
+>additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="채널 작업 시작"
 
 캠페인 또는 여정에서 인앱 메시지를 추가할 수 있습니다. 아래 설명된 단계에 따라 두 컨텍스트에서 인앱 메시지를 만드십시오.
 
@@ -160,13 +166,13 @@ ht-degree: 11%
 
 1. **[!UICONTROL 속성]** 섹션에서 **[!UICONTROL 제목]** 및 **[!UICONTROL 설명]** 설명을 입력하십시오.
 
-1. 인앱 메시지에 사용자 지정 또는 핵심 데이터 사용 레이블을 할당하려면 **[!UICONTROL 액세스 관리]**&#x200B;를 선택하세요. [자세히 알아보기](../administration/object-based-access.md).
+1. 인앱 메시지에 사용자 지정 또는 핵심 데이터 사용 레이블을 할당하려면 **[!UICONTROL 액세스 관리]**&#x200B;를 선택하세요. [자세히 알아보기](../administration/object-based-access.md)
 
-1. 사용 가능한 Adobe Experience Platform 대상 목록에서 타깃팅할 대상을 정의하려면 **[!UICONTROL 대상 선택]** 단추를 클릭하십시오. [자세히 알아보기](../audience/about-audiences.md).
+1. 사용 가능한 Adobe Experience Platform 대상 목록에서 타깃팅할 대상을 정의하려면 **[!UICONTROL 대상 선택]** 단추를 클릭하십시오. [자세히 알아보기](../audience/about-audiences.md)
 
    ![](assets/in_app_create_2.png)
 
-1. **[!UICONTROL ID 네임스페이스]** 필드에서 선택한 대상에서 개인을 식별하기 위해 사용할 네임스페이스를 선택합니다. [자세히 알아보기](../event/about-creating.md#select-the-namespace).
+1. **[!UICONTROL ID 네임스페이스]** 필드에서 선택한 대상에서 개인을 식별하기 위해 사용할 네임스페이스를 선택합니다. [자세히 알아보기](../event/about-creating.md#select-the-namespace)
 
 1. **[!UICONTROL 작업]** 섹션에서 **[!UICONTROL 인앱 메시지]**&#x200B;를 선택하고 새 구성을 선택하거나 만드십시오.
 

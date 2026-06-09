@@ -26,10 +26,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: e41af203a353dd0c5f34c5c9f1915892e7c95999
 workflow-type: tm+mt
-source-wordcount: 884
-ht-degree: 12%
+source-wordcount: 908
+ht-degree: 9%
 
 ---
 
@@ -116,7 +116,7 @@ Select the date for the execution of the next activity.
 >| **수정** | `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00"))` |
 >| **잘못됨** | `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00Z"))` ❌(`Z` 포함) |
 
-대기 활동이 예상대로 작동하는지 확인하려면 단계 이벤트를 사용할 수 있습니다. [자세히 알아보기](../reports/query-examples.md#common-queries).
+대기 활동이 예상대로 작동하는지 확인하려면 단계 이벤트를 사용할 수 있습니다. [자세히 알아보기](../reports/query-examples.md#common-queries)
 
 ## 대기 후 프로필 새로 고침 {#profile-refresh}
 
@@ -132,8 +132,8 @@ Select the date for the execution of the next activity.
 ## 자동 대기 노드  {#auto-wait-node}
 
 >[!CONTEXTUALHELP]
->id="ajo_journey_auto_wait_node "
+>id="ajo_journey_auto_wait_node"
 >title="자동 대기 노드 정보"
->abstract="이 활동 뒤에 **대기** 활동이 자동으로 추가됩니다. 3일로 설정되어 있습니다. 필요에 따라 제거하거나 구성할 수 있습니다."
+>abstract="이 인바운드 동작 후에 **대기** 노드가 자동으로 삽입됩니다. 프로필이 메시지 또는 경험을 볼 수 있을 만큼 충분히 오래 여정에 남아 있도록 기본적으로 3일로 설정됩니다. 대기 기간을 업데이트하거나 사용 사례에서 필요로 하는 경우 이 노드를 제거할 수 있습니다."
 
 각 인바운드 경험 활동(인앱 메시지, 코드 기반 경험 또는 카드)에는 3일 **대기** 활동이 제공됩니다. 프로필이 여정 끝에 도달하면 인바운드 메시지가 자동으로 종료되므로 사용자가 적어도 3일 동안 이를 볼 수 있다고 가정합니다. 이 **대기** 활동을 제거하거나 필요한 경우 구성을 변경할 수 있습니다.

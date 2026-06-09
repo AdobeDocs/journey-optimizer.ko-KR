@@ -28,9 +28,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: 84d3c8bd62648c7d1b6cd969ceb7f80329110982
 workflow-type: tm+mt
-source-wordcount: 3633
+source-wordcount: 3646
 ht-degree: 13%
 
 ---
@@ -178,9 +178,9 @@ ht-degree: 13%
 ### 여정 활동의 시간 초과 {#timeout_and_error}
 
 >[!CONTEXTUALHELP]
->id="ajo_journey_properties_timeout"
+>id="ajo_journey_action_timeout"
 >title="시간 초과 또는 오류"
->abstract="여정이 시간 초과로 간주되기 전에 액션을 수행하거나 조건을 평가하는 데 소요되는 시간을 지정합니다. 권장되는 값은 1~30초입니다."
+>abstract="**시간 초과 또는 오류** 옵션은 작업이 시간 초과되거나 오류를 반환할 때 여정에서 대체 경로를 정의하므로 프로필은 이 단계에서 중지되지 않고 대체 경로를 통해 계속됩니다. 권장되는 값은 1~30초입니다."
 
 작업 또는 조건 활동을 편집할 때 오류 또는 시간 초과가 발생하는 경우 대체 경로를 정의할 수 있습니다. 서드파티 시스템에 문의하는 활동 처리가 여정 속성의 **[!UICONTROL 시간 초과 또는 오류]** 필드에 정의된 시간 초과 기간을 초과하는 경우 잠재적인 대체 작업을 수행하도록 두 번째 경로가 선택됩니다.
 

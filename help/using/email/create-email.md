@@ -31,10 +31,10 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: 675606750af67b398f18646dddf901778625fb30
 workflow-type: tm+mt
-source-wordcount: 1147
-ht-degree: 12%
+source-wordcount: 1242
+ht-degree: 11%
 
 ---
 
@@ -46,6 +46,12 @@ ht-degree: 12%
 >abstract="이메일 제목 줄을 정의하고 이메일 디자이너를 열어 이메일 콘텐츠를 만듭니다."
 
 ## 이메일 작업 추가 {#email-action}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_email"
+>title="이메일 작업"
+>abstract="이메일 채널 작업은 프로필이 여정의 이 단계에 도달하면 프로필로 이메일을 보냅니다. 레이블은 여정 캔버스에서 활동을 식별하고, 작업은 전달된 콘텐츠를 정의하는 이메일 구성을 참조합니다. **최적화** 섹션에는 콘텐츠 실험 또는 타깃팅 규칙이 포함될 수 있고, **다국어** 섹션은 여러 언어로 콘텐츠를 제공할 수 있으며, **시간 초과 또는 오류** 섹션은 작업이 실패할 경우 대체 경로를 정의할 수 있습니다."
+>additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="채널 작업 시작"
 
 [!DNL Journey Optimizer]에서 전자 메일을 만들려면 여정 또는 캠페인에 **[!UICONTROL 전자 메일]** 액션을 추가하십시오. 그런 다음 사용 사례에 따라 아래 단계를 수행합니다.
 
