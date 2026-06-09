@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 3902d92e0306ea23fa877dca64165b14c4e3f9dd
+source-git-commit: a6ea8da3868e235ccd19e66426cb77b8e5300ac2
 workflow-type: tm+mt
-source-wordcount: 1960
+source-wordcount: 2000
 ht-degree: 10%
 
 ---
@@ -83,6 +83,9 @@ Adobe Journey Optimizer은 새로운 기능, 기존 기능 개선 사항 및 버
 
 * **일시 중지된 여정을 직접 중지하거나 닫을 수 있습니다** - 이제 **일시 중지됨** 상태에서 **여정을 중지하거나 새 출구로 닫을 수 있습니다**. 이전에는 일시 중지된 여정을 중단하거나 닫으려면 먼저 라이브로 다시 시작해야 했습니다.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14229">DOCAC JIRA 작업에 연결</a>
+
+* **외부 대상에 대한 보조 식별자 지원** - 이제 CSV 파일에서 가져온 대상과 Federated Audience Composition으로 만든 대상을 포함하여 외부 대상에 대해 여정의 보조 식별자가 지원됩니다. 대상자의 모든 비ID 속성 또는 비개인 ID 속성을 보조 ID로 지정할 수 있으며, 스키마 레이블 지정은 필요하지 않습니다.
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-14541">DOCAC JIRA 작업에 연결</a>
 
 ### 오케스트레이션된 캠페인 {#june-26-oc}
 
