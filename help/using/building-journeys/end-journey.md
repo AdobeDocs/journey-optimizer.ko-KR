@@ -10,21 +10,13 @@ keywords: 재입력, 여정, 종료, 라이브, 중지
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/-mknoNfkNCnfnLD1UCiA6C88NjookKqGr5tQdJ-f3T4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: d7dd6f7f-9e2a-47ee-a2bc-b7b9caaefc1d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: dba48e1d1e3e000a251db3082f6d98efdde5cdb5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: d7dd6f7f-9e2a-47ee-a2bc-b7b9caaefc1d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 23655e3e59cc14dea254f0e39a1f8f96bf2b295f
 workflow-type: tm+mt
 source-wordcount: 1171
 ht-degree: 2%
@@ -94,10 +86,8 @@ ht-degree: 2%
 >[!NOTE]
 >
 >이 자동 중지 동작은 **대기** 노드(타이머 기반), **반응** 노드(이메일 열기 또는 클릭과 같은 여정 대기) 또는 이벤트 트리거된 전환과 같이 대기 기간을 유발하는 노드를 포함하는 반복되지 않는 이벤트에 **적용되지 않습니다**. 이러한 여정은 표준 91일 글로벌 시간 초과의 적용을 받습니다.
-
->[!NOTE]
 >
->**[!UICONTROL 새 등록에 닫기]** 옵션을 사용하여 언제든지 반복되지 않는 대상 읽기 여정을 수동으로 닫을 수 있습니다. 자동 중지 동작은 수동으로 개입할 필요 없이 더 이상 필요하지 않을 때 여정이 자동으로 중지되도록 하는 것입니다.
+>[**[!UICONTROL 새 등록에 닫기]**](#close-to-new-entrances) 옵션을 사용하여 언제든지 반복되지 않는 대상 읽기 여정을 수동으로 닫을 수 있습니다. 자동 중지 동작은 수동으로 개입할 필요 없이 더 이상 필요하지 않을 때 여정이 자동으로 중지되도록 하는 것입니다.
 
 ### 여정이 언제 &quot;완료됨&quot;으로 간주됩니까? {#journey-finished-definition}
 
