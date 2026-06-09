@@ -9,28 +9,16 @@ role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
 TQID: https://experienceleague.adobe.com/2XVXr3MjYnD-7o0C2ARXQ8j3sJOFfJfvjfCEZdkV50I
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c6e980f5-2d4f-494f-beef-186b9ecf1513id: d595a60b-bcf5-4a63-a189-66a0be755cc7id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebbid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 14e6ebce6a8cecdf672526daabf3f7202f5755a4
 workflow-type: tm+mt
-source-wordcount: 346
-ht-degree: 21%
+source-wordcount: 382
+ht-degree: 19%
 
 ---
 
@@ -52,6 +40,15 @@ ht-degree: 21%
 
 * **나만의 조각 만들기**: 처음부터 만들거나 콘텐츠를 조각으로 저장하여 시각적 또는 표현식 조각을 만듭니다. [조각을 만드는 방법을 알아보세요](create-fragments.md). 또한 Journey Optimizer **콘텐츠 REST API**&#x200B;를 활용하여 콘텐츠 조각을 관리할 수 있습니다. 자세한 내용은 [Journey Optimizer API 설명서](https://developer.adobe.com/journey-optimizer-apis/references/content){target="_blank"}를 참조하세요.
 * **조각 재사용:** 콘텐츠에 필요한 만큼 조각을 사용합니다. [시각적 조각 추가](../email/use-visual-fragments.md) 및 [식 조각 활용](../personalization/use-expression-fragments.md)을 참조하십시오.
+
+
+>[!NOTE]
+>
+>이 페이지에 설명된 **[!UICONTROL 조각]**&#x200B;은(는) 재사용 가능한 **콘텐츠** 구성 요소입니다. 다음과 다릅니다.
+>
+>* **[여정 조각](../building-journeys/journey-fragments.md)** — 여정에 삽입된 재사용 가능한 여정 노드 집합입니다.
+>* **[AEM 콘텐츠 조각](../integrations/aem-fragments.md)** - Adobe Experience Manager에서 작성되고 [!DNL Journey Optimizer]에서 사용되는 콘텐츠.
+
 
 ## 시작하기 전 {#fragment-prerequisites}
 
@@ -79,8 +76,8 @@ ht-degree: 21%
 
 [!DNL Journey Optimizer]에서 **시각적 조각**&#x200B;을(를) 관리, 작성 및 사용하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451189/?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3419932/?quality=12)
 
 [!DNL Journey Optimizer]에서 **표현식 조각**&#x200B;을(를) 관리, 작성 및 사용하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3438924/?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424587/?quality=12)
