@@ -9,10 +9,9 @@ role: User
 level: Intermediate
 keywords: 테스트, 여정, 확인, 오류, 문제 해결
 version: Journey Orchestration
-hide: true
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 45161c22a2988de8d844e1f9958e72506c269956
+source-git-commit: 66ebb638e3633152294b431a1003786433a3ba7d
 workflow-type: tm+mt
 source-wordcount: 1427
 ht-degree: 2%
@@ -69,7 +68,7 @@ Adobe Journey Optimizer은 여정을 테스트하고 확인하는 두 가지 방
 
 ## 시뮬레이션 실행 {#launch}
 
-시뮬레이션 사용자를 테스트하려면 여정을 **[!UICONTROL 시뮬레이션]**(으)로 전환하십시오. 단계별 작업은 [여정 시뮬레이션](simulate-journey-2.md)에 자세히 설명되어 있습니다.
+시뮬레이션 사용자를 테스트하려면 여정을 **[!UICONTROL 시뮬레이션]**(으)로 전환하십시오. 단계별 작업은 [여정 시뮬레이션](simulate-journey.md)에 자세히 설명되어 있습니다.
 
 1. 여정에서 **[!UICONTROL 시뮬레이션]**&#x200B;을 클릭하고 **[!UICONTROL 시뮬레이션]**&#x200B;을 선택합니다.
 
