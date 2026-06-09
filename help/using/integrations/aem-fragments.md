@@ -21,9 +21,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2cd1292b544b9aa6e80b3e871e7f6f917d0ab19a
+source-git-commit: 06565328f42ff79943f774df55d8e41118b40815
 workflow-type: tm+mt
-source-wordcount: 1712
+source-wordcount: 1752
 ht-degree: 0%
 
 ---
@@ -35,6 +35,13 @@ ht-degree: 0%
 Adobe Journey Optimizer 워크플로의 기존 **자산 선택기** 및 **콘텐츠 조각 선택기** 경험이 **콘텐츠 관리자**&#x200B;로 대체됩니다. Content Advisor는 AJO 작성 워크플로 내에서 Assets, 콘텐츠 조각 및 Dynamic Media를 직접 검색하고 선택할 수 있는 AI 기반의 통합 인터페이스를 제공합니다. 기존 통합은 전환 기간 동안 계속 작동합니다.
 
 >[!ENDSHADEBOX]
+
+>[!NOTE]
+>
+>**AEM 콘텐츠 조각**&#x200B;은(는) Adobe Experience Manager에서 작성되고 [!DNL Journey Optimizer]에서 사용됩니다. 다음과 다릅니다.
+>
+>* **[조각](../content-management/fragments.md)** — [!DNL Journey Optimizer]에서 만들어져 캠페인 및 여정의 전자 메일에 사용되는 재사용 가능한 콘텐츠 구성 요소입니다.
+>* **[여정 조각](../building-journeys/journey-fragments.md)** — 여정에 삽입된 재사용 가능한 여정 노드 집합입니다.
 
 Adobe Experience Manager과 Journey Optimizer 간의 통합은 다음 데이터 흐름을 따릅니다.
 

@@ -27,10 +27,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 14e6ebce6a8cecdf672526daabf3f7202f5755a4
 workflow-type: tm+mt
-source-wordcount: 346
-ht-degree: 21%
+source-wordcount: 382
+ht-degree: 19%
 
 ---
 
@@ -52,6 +52,15 @@ ht-degree: 21%
 
 * **나만의 조각 만들기**: 처음부터 만들거나 콘텐츠를 조각으로 저장하여 시각적 또는 표현식 조각을 만듭니다. [조각을 만드는 방법을 알아보세요](create-fragments.md). 또한 Journey Optimizer **콘텐츠 REST API**&#x200B;를 활용하여 콘텐츠 조각을 관리할 수 있습니다. 자세한 내용은 [Journey Optimizer API 설명서](https://developer.adobe.com/journey-optimizer-apis/references/content){target="_blank"}를 참조하세요.
 * **조각 재사용:** 콘텐츠에 필요한 만큼 조각을 사용합니다. [시각적 조각 추가](../email/use-visual-fragments.md) 및 [식 조각 활용](../personalization/use-expression-fragments.md)을 참조하십시오.
+
+
+>[!NOTE]
+>
+>이 페이지에 설명된 **[!UICONTROL 조각]**&#x200B;은(는) 재사용 가능한 **콘텐츠** 구성 요소입니다. 다음과 다릅니다.
+>
+>* **[여정 조각](../building-journeys/journey-fragments.md)** — 여정에 삽입된 재사용 가능한 여정 노드 집합입니다.
+>* **[AEM 콘텐츠 조각](../integrations/aem-fragments.md)** - Adobe Experience Manager에서 작성되고 [!DNL Journey Optimizer]에서 사용되는 콘텐츠.
+
 
 ## 시작하기 전 {#fragment-prerequisites}
 

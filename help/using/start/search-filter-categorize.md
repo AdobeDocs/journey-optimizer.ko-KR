@@ -22,9 +22,9 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 06565328f42ff79943f774df55d8e41118b40815
 workflow-type: tm+mt
-source-wordcount: 798
+source-wordcount: 800
 ht-degree: 82%
 
 ---
@@ -96,6 +96,7 @@ Journey Optimizer의 대상자에게 의미 있는 태그를 추가하면 나중
 * [캠페인](../campaigns/create-campaign.md)
 * [결정 항목](../experience-decisioning/items.md)
 * [조각](../content-management/fragments.md)
+* [여정 조각](../building-journeys/journey-fragments.md)
 * [여정](../building-journeys/journey-properties.md)
 * [랜딩 페이지](../landing-pages/create-lp.md)
 * [구독 목록](../landing-pages/subscription-list.md)

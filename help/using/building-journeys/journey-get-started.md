@@ -30,10 +30,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 06565328f42ff79943f774df55d8e41118b40815
 workflow-type: tm+mt
-source-wordcount: 943
-ht-degree: 49%
+source-wordcount: 979
+ht-degree: 47%
 
 ---
 
@@ -106,6 +106,16 @@ Journey Optimizer 여정 디자이너는 마케터와 여정 실무자가 전체
 **여정 디자이너**&#x200B;를 사용하면 여러 단계로 이루어진 사용 사례를 구축할 수 있습니다. 간단하게 시작 이벤트나 대상자 읽기 활동을 끌어다 놓고 조건을 추가하며 개인화된 메시지를 보내세요.
 
 [여정 디자이너 탐색](using-the-journey-designer.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+
+**재사용 가능한 여정 조각**
+
+자격 확인 또는 여정 라우팅 논리와 같은 여정 노드 집합을 한 번 빌드하고 **여정 조각**&#x200B;을 사용하여 여러 노드에서 다시 사용합니다.
+
+[여정 조각에 대해 알아보기](journey-fragments.md)
 :::
 
 :::
