@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 199f9b1a152ab9bd0c2a31145c03666bcf698123
+source-git-commit: a122a8a609748b46480a9664f1efc5524582deca
 workflow-type: tm+mt
-source-wordcount: 8367
-ht-degree: 86%
+source-wordcount: 8429
+ht-degree: 85%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 86%
 이 페이지에는 월별 릴리스 기능 및 개선 사항과 관련된 업데이트 외에도 [!DNL Journey Optimizer] 설명서의 모든 최신 변경 사항이 나와 있습니다.
 
 ## 2026년 6월 {#june-2026}
+
+* **게재 기능 시작** 페이지가 수신자별 FBL이 없는 새 **공급자** 하위 섹션으로 업데이트되었습니다. Gmail/Google Workspace, Apple iCloud 및 Corporate Microsoft 365/Exchange Online 등 수신자별 스팸 불만을 반환하지 않는 주요 사서함 공급자를 나열하고 이러한 서비스를 사용하는 수신자에게 제외 목록 항목의 부재가 예상되는 이유를 설명합니다. [자세히 보기](../reports/deliverability.md#providers-no-fbl)
 
 * **이제 DM 채널에 Experience Decisioning을 사용할 수 있습니다.** 새 **DM의 일괄 의사 결정** 페이지에서는 의사 결정 엔진을 사용하여 DM 추출 파일을 개인화하거나 다운스트림 시스템에서 사용할 프로필 및 의사 결정 결과를 내보내는 방법을 설명합니다. **DM**&#x200B;이(가) **[!UICONTROL 항목 수]** 필드를 통해 프로필당 여러 결정 항목을 반환하는 기능을 포함하여 의사 결정 문서(시작, 의사 결정 정책 만들기, 메시지에 의사 결정 정책 사용, 의사 결정 정책 시작)에서 지원되는 채널로 추가되었습니다. [자세히 보기](../experience-decisioning/batch-decisioning-direct-mail.md)
 
