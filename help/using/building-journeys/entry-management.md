@@ -27,9 +27,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: cdd39eeee822908393aa85c3999081de4ca7f2e8
+source-git-commit: dba48e1d1e3e000a251db3082f6d98efdde5cdb5
 workflow-type: tm+mt
-source-wordcount: 1201
+source-wordcount: 1199
 ht-degree: 3%
 
 ---
@@ -128,9 +128,9 @@ Business events follow reentrance rules in the same way as for unitary events. I
 
 ## 대상자 여정 읽기 {#entry-read-audience}
 
-**대상자 읽기** 여정은 반복 또는 &quot;일회성&quot;일 수 있습니다.
+**대상자 읽기** 여정은 되풀이이거나 되풀이되지 않을 수 있습니다.
 
-* 반복되지 않는/&quot;단발성&quot; 여정의 경우: 프로필은 여정에 한 번만 입력합니다.
+* 반복되지 않는 여정의 경우: 프로필은 여정에 한 번만 입력합니다.
 
 * 반복 여정의 경우: 기본적으로 대상에 속하는 모든 프로필은 각 반복에 여정을 입력합니다. 다른 경우에 다시 입력하기 전에 여정을 완료해야 합니다.
 
