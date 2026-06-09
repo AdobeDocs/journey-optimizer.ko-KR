@@ -7,18 +7,13 @@ feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: c7c4dfa34d3886f665e3051c34ea9f2093562dac
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 361e8f77dc32fb9154cc5ed156822bc402934595
 workflow-type: tm+mt
-source-wordcount: 2287
-ht-degree: 6%
+source-wordcount: 2169
+ht-degree: 7%
 
 ---
 
@@ -38,23 +33,6 @@ Adobe Journey Optimizer은 새로운 기능, 기존 기능 개선 사항 및 버
 ### 충성도 {#june-26-loyalty}
 
 이 릴리스에서는 다음 기능이 충성도로 제공됩니다.
-
-<table>
-<thead>
-<tr>
-<th><strong>충성도 문제</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>충성도 문제를 통해 충성도 이니셔티브는 고객이 구매를 하거나, 리뷰를 작성하거나, 소셜 미디어에 참여하거나, 친구를 참조하는 등 중요한 작업을 수행하도록 유도하는 <strong>게임화된 경험</strong>으로 바뀝니다.</p>
-<p>관리자는 충성도 관리 메뉴를 사용하여 보상 이행 API, 이벤트 정의, 제품 인벤토리, 제외 및 ID 설정을 포함하여 Journey Optimizer을 충성도 생태계와 연결할 수 있습니다. 그런 다음 마케터는 표준, 연속 또는 순차적 문제를 디자인하고, 작업 및 보상을 정의하고, 브랜드 콘텐츠 카드 및 메시지를 제공하고, 내장된 보고 대시보드를 사용하여 성능을 모니터링할 수 있습니다. Journey Optimizer은 백그라운드에서 각 과제를 오케스트레이션하는 여정을 생성하므로 팀이 고객 경험과 비즈니스 목표에 집중할 수 있습니다.</p>
-<p>이제 모든 환경에서 이 기능을 사용할 수 있습니다(일반 공급).</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 ### 여정 {#june-26-journeys}
 
