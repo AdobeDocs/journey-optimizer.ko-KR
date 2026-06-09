@@ -32,10 +32,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: cdd39eeee822908393aa85c3999081de4ca7f2e8
+source-git-commit: 1c2e1cc6c0107416cc8d8180e8850e76c6383b2e
 workflow-type: tm+mt
-source-wordcount: 3767
-ht-degree: 9%
+source-wordcount: 3891
+ht-degree: 6%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"
 >title="대상자 읽기 활동"
->abstract="선택한 [!DNL Adobe Experience Platform] 대상자의 모든 적격 프로필을 이 여정에 추가합니다. 한 번 또는 일정에 따라 실행합니다."
+>abstract="선택한 [!DNL Adobe Experience Platform] 대상자의 모든 적격 프로필을 이 여정에 추가합니다. 한 번 또는 일정에 따라 실행됩니다."
 
 **대상 읽기** 활동은 선택한 [!DNL Adobe Experience Platform] 대상의 모든 프로필을 여정에 추가하는 여정 진입점 활동입니다. 출입문은 한 번 또는 되풀이하는 일정에 따라 실행할 수 있습니다. API 및 기술 참조에서 이 활동을 세그먼트 트리거 또는 대상 기반 여정 항목이라고도 합니다.
 
@@ -94,12 +94,12 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_audience"
 >title="대상자"
->abstract="이 여정에 들어갈 프로필을 가진 대상자 [!DNL Adobe Experience Platform]명을 선택합니다."
+>abstract="프로필이 이 여정에 들어가는 [!DNL Adobe Experience Platform] 대상자입니다. 자격을 갖춘 모든 프로필을 읽을 수 있습니다. 일괄 처리 대상은 신뢰할 수 있고 일관된 카운트를 위해 권장되며 활동당 하나의 대상만 읽을 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_namespace"
 >title="네임스페이스"
->abstract="여정에 들어가는 개인을 식별하는 데 사용되는 ID(예: 이메일, ECID)를 선택합니다. 기본적으로 필드는 마지막으로 사용된 네임스페이스로 미리 채워집니다."
+>abstract="여정에 들어가는 개인을 식별하는 데 사용되는 ID(예: 이메일, ECID)입니다. 사용자 기반 네임스페이스만 사용할 수 있으며 이 ID가 없는 프로필은 시작할 수 없습니다. 기본적으로 필드는 마지막으로 사용된 네임스페이스로 미리 채워집니다."
 
 1. **[!UICONTROL Orchestration]** 범주를 펼친 후 **[!UICONTROL 대상자 읽기]** 활동을 캔버스에 넣으십시오.
 
@@ -177,17 +177,17 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_start_date"
 >title="시작 날짜/시간"
->abstract="이 여정을 시작할 시점을 정의합니다."
+>abstract="여정이 대상자 읽기를 시작하고 프로필이 입력을 시작하는 날짜 및 시간입니다. 이를 아래 반복 옵션과 결합하여 반복 실행을 예약합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_repeat_until"
 >title="다음 시간까지 반복"
->abstract="반복 실행의 종료 일자를 정의합니다."
+>abstract="반복 실행이 중지되는 날짜입니다. 이 날짜 이후, 여정은 더 이상 대상자를 읽거나 새 프로필을 승인하지 않습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_repeat_every"
 >title="모두 반복"
->abstract="여정 실행 빈도(예: 매일, 매주)입니다."
+>abstract="여정이 대상자를 다시 읽고 다시 실행하는 빈도(예: 매일 또는 매주)입니다. 반복 종료 날짜에 도달할 때까지 실행 사이의 반복 간격을 결정합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_incremental_read"
@@ -197,12 +197,12 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_force_reentrance"
 >title="강제 재진입"
->abstract="새로운 대상자가 읽기 전에 여정에서 모든 참가자를 지웁니다."
+>abstract="새로운 대상자가 읽히기 전에 여정에서 모든 참가자를 지워 모든 실행이 새로 시작되고 프로필이 각 발생 시 다시 입력할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience"
 >title="배치 대상자 평가 후 트리거"
->abstract="배치 대상자가 새로 평가된 후에만 여정을 실행합니다."
+>abstract="배치 대상이 새로 평가될 때까지 각 실행을 지연하므로 여정은 오래된 데이터 대신 최신 대상 스냅샷을 읽습니다. 최신 세그먼테이션 결과에 의존하는 반복 여정에 권장됩니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
@@ -275,7 +275,7 @@ ht-degree: 9%
 [!CONTEXTUALHELP]
 >id="jo_segment_filters"
 >title="About segment filters"
->abstract="You can choose to target only the individuals who entered or exited a specific segment during a specific time window. For example, you can decide to only retrieve all the customers who entered the VIP segment since last week."
+>abstract="This option targets only the individuals who entered or exited a specific segment during a specific time window. For example, it can retrieve only the customers who entered the VIP segment since last week."
 
 You can choose to target only the individuals who entered or exited a specific segment during a specific time window. For example, you can decide to only retrieve all the customers who entered the VIP segment since last week. Only the new VIP customers will be targeted. All the customers who were already part of the VIP segment before will be excluded.
 

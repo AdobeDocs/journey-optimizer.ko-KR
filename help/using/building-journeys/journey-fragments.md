@@ -11,10 +11,10 @@ keywords: 조각, 여정, 재사용, 노드, 캔버스, 인벤토리, 재사용 
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: bd17716b18efd2a9043bcfd7389e6a4082f56bcc
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 1482
-ht-degree: 9%
+source-wordcount: 1516
+ht-degree: 7%
 
 ---
 
@@ -24,6 +24,13 @@ ht-degree: 9%
 여정 조각 은 한 번 빌드하고 샌드박스 전체의 여정에 드롭할 수 있는 재사용 가능한 여정 노드 세트입니다. 자격 확인, 기본 채널 라우팅 논리 또는 환영 시퀀스 중 어느 것이든 조각은 팀이 더 빨리 이동하고 일관성을 유지하는 데 도움이 됩니다. 매번 처음부터 동일한 논리를 다시 작성하지 않아도 됩니다. [사용 사례 예제를 참조하십시오.](#examples)
 
 조각이 만들어지면 전용 **[!UICONTROL 조각 인벤토리]**&#x200B;에 저장되고 **[!UICONTROL 여정 조각]** 활동을 사용하여 모든 여정에 삽입할 수 있습니다.
+
+>[!NOTE]
+>
+>**여정 조각**&#x200B;은(는) 재사용 가능한 여정 노드 집합입니다. 다음과 다릅니다.
+>
+>* **[조각](../content-management/fragments.md)** — 캠페인 및 여정 간 전자 메일에 사용된 재사용 가능한 콘텐츠 구성 요소입니다.
+>* **[AEM 콘텐츠 조각](../integrations/aem-fragments.md)** - Adobe Experience Manager에서 작성되고 [!DNL Journey Optimizer]에서 사용되는 콘텐츠.
 
 >[!NOTE]
 >여정 조각에서 **복사 동작**&#x200B;을 사용합니다. 여정에 조각을 삽입하면 원본 노드의 정적 복사본이 만들어집니다. 원래 조각에 대한 모든 업데이트는 이미 사용한 여정에 반영되지 않습니다.
@@ -46,7 +53,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_fragment_create_canvas"
 >title="여정 조각으로 저장"
->abstract="조각의 고유 이름을 입력하고 저장을 클릭합니다. 선택한 노드는 조각 인벤토리에서 사용할 수 있는 재사용 가능한 조각으로 저장됩니다."
+>abstract="저장하기 전에 고유한 조각 이름을 입력합니다. 선택한 노드는 조각 인벤토리에서 사용할 수 있는 재사용 가능한 조각으로 저장됩니다."
 
 여정 캔버스(권장)에서 직접 만들거나 조각 인벤토리에서 만드는 두 가지 방법으로 여정 조각을 만들 수 있습니다.
 
@@ -91,7 +98,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_fragment_properties"
 >title="여정 조각 속성"
->abstract="인벤토리에서 조각을 열어 노드, 속성, 태그 또는 레이블을 수정합니다. 활성 조각을 편집하려면 먼저 비활성화해야 합니다."
+>abstract="인벤토리에서 조각을 열면 해당 노드, 속성, 태그 또는 레이블을 수정할 수 있습니다. 활성 조각을 편집하려면 먼저 비활성화해야 합니다."
 
 조각을 편집하려면 해당 이름을 클릭하여 **[!UICONTROL 조각 인벤토리]**&#x200B;에서 여십시오. 조각 작성 UI에서 다음을 수행할 수 있습니다.
 

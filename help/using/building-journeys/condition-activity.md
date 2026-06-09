@@ -23,10 +23,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 1863
-ht-degree: 16%
+source-wordcount: 1861
+ht-degree: 14%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_simple"
 >title="단순 표현식 편집기 정보"
->abstract="단순 표현식 편집기 모드를 사용하여 필드 조합을 기반으로 간단한 쿼리를 수행할 수 있습니다. 사용 가능한 모든 필드가 화면 왼쪽에 표시됩니다. 필드를 기본 영역으로 드래그 앤 드롭합니다. 다양한 요소를 결합하려면 서로 인터로크하여 다른 그룹 및/또는 그룹 수준을 만듭니다. 그런 다음 논리 연산자를 선택하여 동일한 수준에서 요소를 결합할 수 있습니다."
+>abstract="단순 표현식 편집기 모드를 사용하여 필드 조합을 기반으로 간단한 쿼리를 수행할 수 있습니다. 사용 가능한 모든 필드가 화면 왼쪽에 표시됩니다. 필드를 드래그하여 주 영역에 놓습니다. 서로 다른 요소들을 결합하기 위해 서로 연동되어 서로 다른 그룹 및/또는 그룹 레벨들을 생성한다. 그런 다음 논리 연산자는 동일한 수준에서 요소를 결합합니다."
 
 여정에서 여러 조건을 사용할 때 각 조건에 대한 레이블을 정의하여 보다 쉽게 식별할 수 있습니다.
 
@@ -118,7 +118,7 @@ ht-degree: 16%
 >
 >혼동을 방지하기 위해 프로필이 여정에 들어가기 전에 조건 표현식에서 사용하는 특성이 실제 데이터로 수집되었는지 확인하십시오. [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target="_blank"}에서 특성 값을 확인하여 조건에 사용된 필드에 대한 데이터가 있는지 확인할 수 있습니다.
 
-고급 표현식 편집기를 사용하여 컬렉션을 조작하거나 매개 변수를 전달해야 하는 데이터 소스를 사용하는 고급 조건을 설정할 수 있습니다. [자세히 알아보기](../datasource/external-data-sources.md).
+고급 표현식 편집기를 사용하여 컬렉션을 조작하거나 매개 변수를 전달해야 하는 데이터 소스를 사용하는 고급 조건을 설정할 수 있습니다. [자세히 알아보기](../datasource/external-data-sources.md)
 
 ![식 편집기를 사용한 데이터 Source 조건 구성](assets/journey50.png)
 

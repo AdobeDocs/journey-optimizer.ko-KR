@@ -32,10 +32,10 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 1082
-ht-degree: 16%
+source-wordcount: 1080
+ht-degree: 15%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run_start"
 >title="시험 실행 모드로 여정 게시"
->abstract="여정 시험 실행은 [!DNL Adobe Journey Optimizer]의 특별한 여정 게시 모드로, 이를 통해 여정 실무자가 실제 프로덕션 데이터를 사용하여 여정을 테스트할 수 있습니다. 여정을 설계한 후 시험 실행을 실행하여 기능이 정상적으로 작동하는지 확인하고 단계가 정확한지 확인하십시오. 이 게시 모드를 사용하여 프로필에 메시지를 전송하지 않고도 여정을 미리 테스트할 수 있습니다."
+>abstract="여정 시험 실행은 [!DNL Adobe Journey Optimizer]의 특별한 여정 게시 모드로, 이를 통해 여정 실무자가 실제 프로덕션 데이터를 사용하여 여정을 테스트할 수 있습니다. 여정이 설계되면 시험 실행을 통해 기능이 제대로 작동하는지 확인하고 단계가 올바른지 확인합니다. 이 게시 모드를 사용하여 프로필에 메시지를 전송하지 않고도 여정을 미리 테스트할 수 있습니다."
 
 여정 시험 실행은 [!DNL Adobe Journey Optimizer]의 특별한 여정 게시 모드로, 이를 통해 여정 실무자가 실제 고객과 연락하거나 프로필 정보를 업데이트하지 않고도 실제 프로덕션 데이터를 사용하여 여정을 테스트할 수 있습니다.  이 기능을 사용하여 여정 실무자는 여정 설계와 대상 타기팅에 대한 확신을 가지고 라이브로 게시할 수 있습니다.
 

@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 1c2e1cc6c0107416cc8d8180e8850e76c6383b2e
 workflow-type: tm+mt
-source-wordcount: 1767
-ht-degree: 11%
+source-wordcount: 1825
+ht-degree: 6%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
 >title="대상자 선별"
->abstract="프로필이 [!DNL Adobe Experience Platform] 대상자에 적합하거나 종료되면 여정 진입 또는 계속을 트리거합니다. 스트리밍 대상자에게 권장됩니다. 배치 시나리오에서는 읽기 대상자 활동을 사용하십시오."
+>abstract="프로필이 [!DNL Adobe Experience Platform] 대상자에 대해 자격이 되거나 종료되는 경우 여정 시작 또는 계속을 트리거합니다. 스트리밍 대상에 권장, 일괄 처리 시나리오에는 대상 읽기 활동이 사용됩니다."
 
 ## 대상자 선별 이벤트 정보{#about-segment-qualification}
 
@@ -64,22 +64,22 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_label"
 >title="레이블"
->abstract="보고 및 테스트 모드 로그에서 이 활동을 식별하는 선택적 레이블을 추가합니다."
+>abstract="보고 및 테스트 모드 로그에서 이 활동을 식별하는 선택적 레이블입니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_audience"
 >title="대상자"
->abstract="활용할 [!DNL Adobe Experience Platform] 대상자를 선택합니다. 여정은 이 대상자의 프로필 진입 및 종료 정보를 수신합니다."
+>abstract="여정이 모니터링하는 [!DNL Adobe Experience Platform] 대상자입니다. 프로필은 이 대상에 대해 자격이 되거나 종료됨에 따라 들어오거나 앞으로 이동합니다. 스트리밍 대상이 권장되므로 자격이 실시간으로 평가됩니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_behavior"
 >title="비헤이비어"
->abstract="대상자 진입, 종료 또는 둘 다에서의 수신 여부를 선택합니다."
+>abstract="프로필이 대상에 대한 자격이 있는 경우(입력), 대상에서 벗어나는 경우(종료) 또는 둘 다에 대해 여정이 반응하는 대상 멤버십 변경을 정의합니다. 두 옵션을 모두 수신하면 전체 멤버십 라이프사이클이 적용되지만, 단일 옵션을 사용하면 여정이 한 방향으로 제한됩니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_identity"
 >title="ID 유형"
->abstract="개인 식별에 사용되는 ID 유형을 선택합니다. 사용자 기반 ID 네임스페이스만 사용할 수 있습니다."
+>abstract="대상자에 대한 자격이 되는 개인을 인식하는 데 사용되는 ID 네임스페이스입니다. 사용자 기반 ID 네임스페이스만 사용할 수 있으며 이 ID가 없는 프로필은 여정에 들어갈 수 없습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_merge_policy"

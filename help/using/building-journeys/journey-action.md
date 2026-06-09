@@ -31,10 +31,10 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 84d3c8bd62648c7d1b6cd969ceb7f80329110982
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 1736
-ht-degree: 14%
+source-wordcount: 1734
+ht-degree: 13%
 
 ---
 
@@ -280,7 +280,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="ajo_multi_action_journey"
 >title="여러 인바운드 액션 추가"
->abstract="단일 여정 내에서 여러 인바운드 액션을 선택할 수 있습니다. 이 기능을 사용하면 여러 코드 기반 경험, 인앱 메시지, 콘텐츠 카드 또는 웹 액션을 동시에 여러 위치에 게재할 수 있으며, 각 액션에는 특정 콘텐츠가 포함됩니다."
+>abstract="단일 여정에 여러 인바운드 작업이 포함될 수 있습니다. 이 기능을 사용하면 여러 코드 기반 경험, 인앱 메시지, 콘텐츠 카드 또는 웹 액션을 동시에 여러 위치에 게재할 수 있으며, 각 액션에는 특정 콘텐츠가 포함됩니다."
 
 여정 오케스트레이션을 단순화하기 위해 단일 여정 작업 내에 여러 인바운드 작업을 정의할 수 있습니다.
 

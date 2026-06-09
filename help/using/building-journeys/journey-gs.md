@@ -30,10 +30,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 1455
-ht-degree: 13%
+source-wordcount: 1451
+ht-degree: 12%
 
 ---
 
@@ -42,12 +42,12 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card2"
 >title="여정 만들기"
->abstract="**[!DNL Adobe Journey Optimizer]**&#x200B;를 통해 이벤트 또는 데이터 소스에 저장된 상황별 데이터를 활용하여 실시간 오케스트레이션 사용 사례를 빌드할 수 있습니다."
+>abstract="**[!DNL Adobe Journey Optimizer]**&#x200B;은(는) 이벤트 또는 데이터 소스에 저장된 상황별 데이터를 사용하여 실시간 오케스트레이션 사용 사례를 빌드합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_create"
 >title="여정"
->abstract="고객 여정 설계를 통해 개인화된 상황별 경험을 제공할 수 있습니다. Journey Optimizer를 사용하면 이벤트 또는 데이터 소스에 저장된 상황별 데이터를 활용하여 실시간 오케스트레이션 사용 사례를 빌드할 수 있습니다. **개요** 탭에는 여정과 관련된 주요 지표가 포함된 대시보드가 &#x200B;&#x200B;표시됩니다. **찾아보기** 탭에는 기존 여정의 목록이 표시됩니다."
+>abstract="고객 여정은 개인화되고 상황에 맞는 경험을 제공합니다. Journey Optimizer를 사용하면 이벤트 또는 데이터 소스에 저장된 상황별 데이터를 활용하여 실시간 오케스트레이션 사용 사례를 빌드할 수 있습니다. **개요** 탭에는 여정과 관련된 주요 지표가 포함된 대시보드가 &#x200B;&#x200B;표시됩니다. **찾아보기** 탭에는 기존 여정의 목록이 표시됩니다."
 
 [!DNL Adobe Journey Optimizer]에는 마케터가 마케팅 활동과 일대일 고객 참여를 조화롭게 조정할 수 있는 옴니채널 오케스트레이션 캔버스가 포함되어 있습니다. 사용자 인터페이스를 사용하면 팔레트에서 캔버스로 활동을 쉽게 끌어다 놓아 여정을 빌드할 수 있습니다. 여정 사용자 인터페이스는 [이 페이지](journey-ui.md)에 자세히 설명되어 있습니다.
 

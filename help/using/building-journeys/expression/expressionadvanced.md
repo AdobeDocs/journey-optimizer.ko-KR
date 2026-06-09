@@ -24,10 +24,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f39bcb2f8b68315b082014b96801c51223ac8a54
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 738
-ht-degree: 53%
+source-wordcount: 736
+ht-degree: 51%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 53%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_advanced"
 >title="고급 표현식 편집기 정보"
->abstract="고급 표현식 편집기를 사용하여 다양한 인터페이스 화면에서 고급 표현식을 작성합니다. 예를 들어 여정을 구성 및 사용할 때와 데이터 원본 조건을 정의할 때 표현식을 작성할 수 있습니다."
+>abstract="고급 표현식 편집기는 인터페이스의 다양한 화면에서 고급 표현식을 작성합니다. 예를 들어 여정을 구성 및 사용할 때와 데이터 원본 조건을 정의할 때 표현식을 작성할 수 있습니다."
 
 여정 고급 표현식 편집기를 사용하여 인터페이스의 다양한 화면에서 고급 표현식을 작성합니다. 예를 들어 여정을 구성 및 사용할 때와 데이터 원본 조건을 정의할 때 표현식을 작성할 수 있습니다.
 
