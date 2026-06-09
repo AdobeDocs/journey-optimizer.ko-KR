@@ -7,14 +7,11 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+source-git-commit: 07322bd265647528f8e2e4a5f39d7806fd03b565
 workflow-type: tm+mt
-source-wordcount: 2855
+source-wordcount: 2801
 ht-degree: 3%
 
 ---
@@ -55,7 +52,7 @@ API 자격 증명이 정상적으로 생성되면 이제 옵트인 및 옵트아
 
 >[!NOTE]
 >
->사용자 지정 데이터 집합이 구성되어 있지 않으면 인바운드 키워드 데이터가 _AJO 인바운드 활동 이벤트 데이터 집합_ 시스템 데이터 집합에 저장됩니다. 들어오는 메시지를 캡처하기 전에 프로필에 [!DNL Journey Optimizer]에서 보낸 메시지가 하나 이상 있어야 합니다. [자세히 알아보기](../data/get-started-datasets.md#system-datasets)
+>사용자 지정 데이터 세트가 구성되어 있지 않으면 인바운드 키워드 데이터가 _AJO 전자 메일 추적 데이터 세트_ 시스템 데이터 세트에 저장됩니다. 들어오는 메시지를 캡처하기 전에 프로필에 [!DNL Journey Optimizer]에서 보낸 메시지가 하나 이상 있어야 합니다. [자세히 알아보기](../data/get-started-datasets.md#system-datasets)
 
 공급업체에 따라 SMS를 성공적으로 구현하기 위해 설정해야 하는 항목에 대한 다양한 기대가 있습니다.
 
