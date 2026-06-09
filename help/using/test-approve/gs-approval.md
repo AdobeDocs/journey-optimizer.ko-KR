@@ -6,20 +6,15 @@ level: Beginner
 feature: Approval
 exl-id: 92d1439e-5cac-4e7d-85f8-ebf432e9ef7c
 TQID: https://experienceleague.adobe.com/dKfstmm0ilHKUATU-sz7c04IZBu2O7Ju-srPPoKJVl4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-subfeature_v2:
-  - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+subfeature_v2: id: bf7a266e-e483-42c6-b5bc-09ca6e49900cid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 984
-ht-degree: 100%
+source-wordcount: 1006
+ht-degree: 96%
 
 ---
 
@@ -33,7 +28,7 @@ ht-degree: 100%
 
 또한 이 기능을 사용하면 여정 및 캠페인의 게시에 대한 통제력이 강화됩니다. Journey Optimizer에 승인 프로세스가 임베드되면 검토하는 동안 캠페인 및 여정이 &#39;잠긴&#39; 상태로 유지되므로 필요한 모든 승인이 완료되기 전에 변경이나 의도하지 않은 활성화가 발생하지 않도록 할 수 있습니다.
 
-## 전제 조건 {#prerequisites}
+## 사전 요구 사항 {#prerequisites}
 
 시작하기 전에 아래 권한이 구성되어 있는지 확인해야 합니다.
 
@@ -140,4 +135,4 @@ ht-degree: 100%
 * **[승인 정책 만들기](approval-policies.md)** - 캠페인 및 여정에 검토 워크플로를 적용하기 위해 승인 정책을 설정하는 방법에 대해 알아봅니다.
 * **[승인 요청](request-approval.md)** - 승인을 위해 콘텐츠를 제출하고 승인 상태를 추적하는 방법을 이해합니다.
 * **[요청 검토 및 승인](review-approve-request.md)** - 승인자로서 승인 요청을 검토, 승인 또는 거부하는 방법을 알아봅니다.
-* **[샘플 입력을 사용한 시뮬레이션](simulate-sample-input.md)** - 샘플 프로필 데이터를 사용하여 콘텐츠를 테스트하고 확인하는 방법을 알아봅니다.
+* **[콘텐츠 변형 시뮬레이션](simulate-sample-input.md)** - **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭하여 샘플 입력 데이터, AI 자동 생성 또는 시뮬레이션된 사용자를 사용하여 콘텐츠 변형을 테스트합니다. **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭한 다음 드롭다운에서 **[!UICONTROL 콘텐츠 시뮬레이션(AEP 프로필)]**&#x200B;을 선택하여 테스트 프로필로 미리 봅니다.

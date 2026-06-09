@@ -5,10 +5,10 @@ title: 콘텐츠 미리 보기 및 테스트
 description: 시작 전에 메시지 정확성을 확인합니다. 테스트 프로필을 사용해 개인화된 콘텐츠를 미리 보고, 이해 당사자에게 교정본을 보내고, 클라이언트별 이메일 렌더링을 확인하고, 스팸 점수를 평가하고, 다양한 콘텐츠 변형을 효율적으로 테스트할 수 있습니다.
 redpen-status: CREATED_||_2025-08-11_20-30-05
 exl-id: bd78e0af-573b-4880-a9f1-44467c9db159
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 100%
+source-wordcount: '704'
+ht-degree: 83%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 콘텐츠를 미리 보고 테스트하는 방법
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 테스트 프로필을 선택하는 방법
 
@@ -48,7 +48,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 테스트 프로필을 사용한 콘텐츠 미리 보기
 
@@ -58,7 +58,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 테스트 프로필 데이터를 사용한 증명 전송
 
@@ -68,7 +68,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg)
 
 Litmus를 사용하여 이메일 렌더링을 테스트하는 방법
 
@@ -78,11 +78,11 @@ Litmus를 통합하여 인기 있는 이메일 클라이언트 간의 이메일 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 콘텐츠 변형을 시뮬레이션하고 테스트하는 방법
 
-샘플 입력 데이터를 사용하여 콘텐츠 변형을 시뮬레이션하여 개인화된 콘텐츠를 테스트하고 정확성을 확인합니다.
+샘플 입력 데이터 또는 AI가 생성한 변형을 사용하여 콘텐츠 변형을 시뮬레이트하여 개인화된 콘텐츠를 테스트하고 정확성을 보장합니다.
 
 [콘텐츠 변형 시뮬레이션](../using/test-approve/simulate-sample-input.md)
 :::
@@ -122,14 +122,14 @@ Litmus를 통합하여 인기 있는 이메일 클라이언트 간의 이메일 
 
 **컨텍스트:** 일반적인 사용 사례에서 테스트 도구를 적용하는 방법을 보여주는 실제 예시입니다.
 
-**시나리오 1: 다중 세그먼트 캠페인을 위한 개인화된 이메일 테스트**
-→ 개별 테스트 프로필을 생성하지 않고 20~30개 변형을 테스트하기 위해 [샘플 입력 데이터](../using/test-approve/simulate-sample-input.md)를 사용합니다. 다양한 고객 속성이 포함된 CSV 파일을 업로드하고 한 번에 미리 볼 수 있습니다.
+**시나리오 1: 다중 세그먼트 캠페인에 대한 개인화된 이메일 테스트**
+→ [샘플 입력 데이터](../using/test-approve/simulate-sample-input.md)를 사용하여 개별 테스트 프로필을 만들지 않고 최대 30개의 변형을 테스트합니다. 다양한 고객 속성을 사용하는 CSV를 업로드하거나, 값을 수동으로 추가하거나, AI를 사용하여 변형을 자동 생성하고 한 번에 모두 미리 볼 수 있습니다.
 
-**시나리오 2: 주요 전송 전 이메일 렌더링 유효성 검사**
-→ [Litmus 테스트](../using/content-management/rendering.md)를 실행하여 주요 이메일 클라이언트에서 표시 여부를 확인한 다음 [스팸 보고서](../using/content-management/spam-report.md)를 확인하여 받은 편지함에 도달했는지 확인합니다.
+**시나리오 2: 주 전송 전에 전자 메일 렌더링 확인**
+→ [Litmus 테스트](../using/content-management/rendering.md)를 실행하여 상위 이메일 클라이언트에 대한 표시를 확인한 다음 [스팸 보고서](../using/content-management/spam-report.md)를 확인하여 받은 편지함 배치를 확인합니다.
 
-**시나리오 3: 이해 당사자 승인 받기**
-→ 테스트 프로필 데이터가 포함된 [교정본을 내부 검토자에게 보내](../using/content-management/proofs.md) 고객이 받게 될 내용을 정확히 확인할 수 있도록 합니다.
+**시나리오 3: 이해 당사자 승인을 가져오는 중**
+→ 프로필 데이터를 사용하여 내부 검토자에게 [증명을 보내기](../using/content-management/proofs.md)하여 고객이 받게 될 내용을 정확히 확인합니다.
 
 ## 주요 학습 사항
 

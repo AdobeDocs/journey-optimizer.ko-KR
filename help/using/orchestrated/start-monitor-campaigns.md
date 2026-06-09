@@ -8,19 +8,13 @@ feature: Monitoring
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ZFSEl140wBA-sWfOVUMk9U5La9sJSlgGrNMhSF4Xp4s
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1604
+source-wordcount: 1599
 ht-degree: 22%
 
 ---
@@ -76,7 +70,7 @@ ht-degree: 22%
 
 각 활동에 직접 표시되는 [시각적 상태 표시기](#activities)를 사용하여 실패한 활동을 빠르게 식별할 수도 있습니다. 자세한 문제 해결 방법이 필요한 경우 오류와 오류 발생 컨텍스트에 대해 상세한 정보를 제공하는 [캠페인의 로그](#logs-tasks)를 엽니다.
 
-캔버스에 채널 활동을 추가한 경우 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 사용하여 메시지 콘텐츠를 미리 보고 테스트할 수 있습니다. [채널 활동을 사용하여 작업하고 콘텐츠를 시뮬레이션하는 방법에 대해 알아봅니다](activities/channels.md#simulate-content-test-profiles).
+캔버스에 채널 활동을 추가한 경우 메시지 콘텐츠를 미리 보고 테스트할 수 있습니다. [채널 활동을 사용하여 작업하고 콘텐츠를 시뮬레이션하는 방법에 대해 알아봅니다](activities/channels.md#simulate-content-test-profiles).
 
 >[!TIP]
 >

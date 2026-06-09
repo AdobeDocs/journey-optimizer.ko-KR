@@ -6,11 +6,10 @@ role: User
 level: Beginner
 exl-id: e742c04e-2987-4466-84af-bdaf4d714552
 feature_v2: []
-subfeature_v2:
-  - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+subfeature_v2: id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 464
+source-wordcount: 479
 ht-degree: 10%
 
 ---
@@ -19,9 +18,10 @@ ht-degree: 10%
 
 증명은 메시지를 주 대상자에게 보내기 전에 테스트하기 위해 사용할 수 있는 전용 메시지입니다. 증명의 수신자는 메시지의 렌더링, 내용, 개인화 설정, 구성 등 요소를 승인해야 합니다.
 
->[!NOTE]
->
->[!DNL Journey Optimizer]을(를) 사용하면 CSV/JSON 파일에서 업로드하거나 수동으로 추가한 샘플 입력 데이터를 사용하여 콘텐츠를 미리 보고 증명을 전송하여 다양한 변형을 테스트할 수도 있습니다. [콘텐츠 변형을 시뮬레이션하는 방법을 알아봅니다](../test-approve/simulate-sample-input.md)
+다음 중 한 가지 시뮬레이션 방법을 사용하여 증명을 보낼 수 있습니다.
+
+* **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭한 다음 드롭다운에서 **[!UICONTROL 콘텐츠 시뮬레이션(AEP 프로필)]**&#x200B;을 선택하여 테스트 프로필과 함께 증명을 보냅니다.
+* 샘플 입력 데이터 또는 AI 자동 생성으로 만든 콘텐츠 변형에 대한 증명을 보내려면 **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭합니다. [콘텐츠 변형을 시뮬레이션하는 방법을 알아봅니다](../test-approve/simulate-sample-input.md#proofs)
 
 ## 반드시 알아야 할 사항 {#must-read}
 

@@ -2,32 +2,24 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 콘텐츠 변형 시뮬레이션
-description: CSV 또는 JSON 파일의 샘플 입력 데이터를 사용하거나 수동으로 추가하여 콘텐츠를 미리 보고 이메일 증명을 보내는 방법에 대해 알아봅니다.
+description: 콘텐츠 변형 시뮬레이션 경험에서 콘텐츠 변형을 미리 보고, AI를 통해 변형을 자동 생성하고, 테스트 프로필을 관리하고, 증명을 보내는 방법을 알아봅니다.
 feature: Email, Email Rendering, Personalization, Preview, Proofs
 topic: Content Management
 role: User
 level: Intermediate
-exl-id: 8462c75e-4f4b-4c4f-8734-19efbbc70c7a
+hide: true
+exl-id: 2744974b-62cc-4d25-acc3-edd4c53a9a58
 TQID: https://experienceleague.adobe.com/Y8qsGW8XqSVqag4yqRinnem9w2PYJyKIDIWvuGqAchU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 990
-ht-degree: 4%
+source-wordcount: 1362
+ht-degree: 1%
 
 ---
 
@@ -36,11 +28,20 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"
 >title="샘플 입력을 사용하여 시뮬레이션"
->abstract="이 화면에서는 CSV 또는 JSON 템플릿을 통해 개인화 필드에 값을 제공하거나 수동으로 값을 입력하여 콘텐츠의 다양한 변형을 테스트할 수 있습니다."
+>abstract="이 화면에서는 AI로 콘텐츠 변형을 자동 생성하거나, CSV 또는 JSON 템플릿을 통해 값을 추가하거나, 수동으로 입력하거나, 테스트 프로필을 사용하여 콘텐츠 변형을 테스트할 수 있습니다."
 
-[!DNL Journey Optimizer]을(를) 사용하면 CSV 또는 JSON 파일에서 업로드하거나 수동으로 추가한 샘플 입력 데이터를 사용하여 다양한 콘텐츠 변형을 미리 볼 수 있습니다.
+콘텐츠에 개인화 또는 조건부 논리가 포함된 경우 콘텐츠를 보내기 전에 모든 유형의 수신자에 대해 올바르게 렌더링되는지 확인해야 합니다.
 
-개인화를 위해 콘텐츠에 사용된 모든 속성은 시스템에서 자동으로 감지되며 테스트에 사용하여 여러 변형을 만들 수 있습니다. 변형은 속성에 대해 다른 값을 갖는 콘텐츠 버전을 나타냅니다.
+[!DNL Journey Optimizer]의 **[!UICONTROL 콘텐츠 변형 시뮬레이션]** 경험은 AI로 자동으로 생성되거나, 수동으로 입력되거나, 파일에서 가져오거나, 재사용 가능한 시뮬레이션된 사용자를 기반으로 한 단일 화면에서 콘텐츠의 여러 변형을 테스트할 수 있도록 함으로써 이를 해결합니다. Adobe Experience Platform에서 영구 프로필을 미리 만들지 않고도 각 변형이 어떻게 렌더링하고 증명을 전송하는지 미리 볼 수 있습니다.
+
+콘텐츠에서 **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭하여 다음 작업을 수행할 수 있는 단일 환경을 엽니다.
+
+* 개인화 및 조건부 분기를 처리하기 위해 AI를 사용하여 **변형 자동 생성**
+* **변형을 수동으로 추가** 또는 CSV 또는 JSON 파일에서 추가
+* **시뮬레이트된 사용자를 사용**&#x200B;하여 저장하고 재사용 가능한 테스트 데이터를 사용하여 미리 보고 증명을 확인할 수 있습니다.
+* 선택한 변형에 대해 **미리 보기** 렌더링 및 **전자 메일 증명 보내기**
+
+개인화를 위해 콘텐츠에 사용된 모든 속성이 자동으로 감지됩니다. 변형은 속성에 대해 다른 값을 갖는 콘텐츠 버전입니다.
 
 >[!NOTE]
 >
@@ -53,7 +54,8 @@ ht-degree: 4%
 * **채널** - 콘텐츠 변형 시뮬레이션을 사용할 수 있는 대상:
 
    * 이메일, SMS 및 푸시 알림 채널
-   * 모든 인바운드 채널(웹, 코드 기반 경험, 인앱, 콘텐츠 카드).
+   * 모든 인바운드 채널(웹, 코드 기반 경험, 인앱, 콘텐츠 카드);
+   * 조정된 캠페인.
 
 * **지원되는 기능** - 콘텐츠 변형을 [!DNL Journey Optimizer] 다국어 콘텐츠 및 콘텐츠 실험 기능과 함께 사용할 수 있습니다. 이를 통해 여러 언어로 메시지를 테스트하고 실험을 통해 콘텐츠를 최적화할 수 있습니다.
 
@@ -67,51 +69,51 @@ ht-degree: 4%
 
 * **데이터 형식** - 변형에 대한 데이터를 입력할 때 숫자(정수 및 십진수), 문자열, 부울 및 날짜 형식만 지원됩니다. 다른 데이터 유형에는 오류가 표시됩니다.
 
-* **변형 수** - 파일을 사용하거나 수동으로 콘텐츠를 테스트하는 최대 30개의 변형을 추가할 수 있습니다.
+* **변형 수** - 파일을 사용하거나 수동으로 추가할 때 최대 30개의 변형을 추가하여 콘텐츠를 테스트할 수 있습니다. AI 자동 생성을 사용할 때 시스템은 콘텐츠(개인화 필드 및 조건부 분기)를 기반으로 최대 40개의 변형을 만들어 낼 변형 수를 결정합니다.
 
-## 콘텐츠 변형 추가 및 미리 보기
+## 콘텐츠 변형 만들기
 
-콘텐츠의 변형을 만들고 미리 보려면 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭하십시오.
+콘텐츠의 변형을 만들려면 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭하십시오.
 
-![콘텐츠 시뮬레이션 단추](assets/simulate-sample.png)
+다음과 같은 방법으로 변형을 만들 수 있습니다.
 
-콘텐츠를 테스트하는 주요 단계는 다음과 같습니다.
+* [수동으로 또는 파일에서 변형을 추가](#profiles).
+* AI를 사용하여 [변형 자동 생성](#auto-generate-variants).
+* [기존 시뮬레이션된 사용자의 변형을 선택하십시오](#simulated-users).
 
-1. **변형 추가** - 파일을 업로드하거나 수동으로 데이터를 추가하여 샘플 입력 데이터를 사용하여 최대 30개의 변형을 추가합니다. [변형을 추가하는 방법 알아보기](#profiles)
-1. **콘텐츠 변형 미리 보기** - 다른 변형을 사용하는 콘텐츠의 미리 보기를 확인합니다. [콘텐츠를 미리 보는 방법 알아보기](#preview)
-1. **전자 메일 증명 보내기** - 전자 메일 콘텐츠의 경우 다른 변형을 사용하여 전자 메일 주소에 최대 10개의 증명을 보냅니다. [증명을 보내는 방법 알아보기](#proofs)
+변형이 만들어지면 [콘텐츠를 미리 보고 증명을 보낼 수 있습니다](#preview-proofs).
 
-### 변형 추가 {#profiles}
+### 수동으로 또는 파일에서 변형 추가 {#profiles}
 
-콘텐츠 변형 경험에 액세스하면 콘텐츠에 사용된 모든 개인화 필드가 자동으로 감지되어 빈 변형 목록에 표시됩니다.
+콘텐츠 변형 경험에 액세스하면 콘텐츠에 사용된 모든 개인화 필드가 자동으로 감지되어 빈 변형에 표시됩니다.
 
-예를 들어 이메일에 두 개의 개인화 필드 &quot;도시&quot;와 &quot;프로그램 포인트 균형&quot;이 포함되어 있으면 목록에 표시됩니다. 처음에는 값을 입력하지 않으며 미리 보기 창에 개인화된 콘텐츠가 표시되지 않습니다.
+예를 들어 이메일에 두 개의 개인화 필드 &quot;이름&quot;과 &quot;구/군/시&quot;가 포함되어 있는 경우 목록에 표시됩니다. 처음에는 값을 입력하지 않으며 미리 보기 창에 개인화된 콘텐츠가 표시되지 않습니다.
 
 ![샘플 입력 변형 목록](assets/simulate-custom-variants-list.png)
 
-변형 값을 편집하려면 다음을 수행하십시오.
+변형을 수동으로 추가하거나 파일에서 업로드할 수 있습니다.
 
-1. 변형 옆에 있는 줄임표 버튼을 클릭합니다.
-1. 각 개인화 필드에 사용자 지정 값을 제공하려면 **[!UICONTROL 편집]**&#x200B;을(를) 선택하십시오.
-1. 미리 보기 창이 업데이트되어 콘텐츠가 입력된 값으로 렌더링되는 방식을 보여 줍니다.
++++ 수동으로 변형 추가
 
-새 변형을 추가하려면:
+기본 변형의 값을 편집하려면 **[!UICONTROL 편집]** 단추를 클릭하여 각 개인화 필드에 대한 사용자 지정 값을 제공하십시오. 미리 보기 창이 업데이트되어 콘텐츠가 입력된 값으로 렌더링되는 방식을 보여 줍니다.
 
-1. **[!UICONTROL 샘플 입력 만들기]** 단추를 클릭합니다.
-1. 감지된 모든 개인화 필드를 포함하는 새로운 빈 변형이 나타납니다.
-1. 필요에 따라 새 변형을 편집합니다.
+새 변형을 추가하려면 **[!UICONTROL 샘플 만들기]** 단추를 클릭합니다. 감지된 모든 개인화 필드를 포함하는 새로운 빈 변형이 나타납니다. 필요에 따라 새 변형을 편집할 수 있습니다.
 
 ![샘플 입력 단추 만들기](assets/simulate-custom-add.png)
 
-사전 정의된 변형과 값이 있는 파일을 업로드하여 프로세스 속도를 높일 수도 있습니다.
++++
 
-1. 파일 템플릿을 다운로드하려면 **[!UICONTROL 샘플 다운로드]**&#x200B;를 클릭하십시오.
-1. CSV, JSON 또는 JSONLINES와 같은 파일 형식을 선택합니다.
++++ 파일에서 변형 추가
+
+사전 정의된 변형과 값이 있는 파일을 업로드하여 프로세스 속도를 높일 수 있습니다.
+
+1. **[!UICONTROL 데이터 업로드]** 단추를 클릭하여 파일 업로드 화면을 엽니다.
+1. **[!UICONTROL 샘플 다운로드]**&#x200B;를 선택하여 CSV, JSON 또는 JSONLINES 파일 템플릿을 다운로드합니다.
 1. 템플릿 파일을 열고 각 프로필 속성에 대해 원하는 값을 입력합니다. 템플릿에는 개인화를 위한 콘텐츠에 사용되는 각 프로필 속성에 대한 열이 포함되어 있습니다.
 
    JSON 구문 예:
 
-   ```
+   ```json
    {
    "profile": {
        "attributes": {
@@ -126,22 +128,42 @@ ht-degree: 4%
    }
    ```
 
-1. 파일이 준비되면 **[!UICONTROL 입력 데이터 업로드]**&#x200B;를 클릭하여 로드합니다.
-1. 업로드한 후에는 파일의 각 항목에 대한 목록에 새 변형이 추가됩니다.
+1. 파일이 준비되면 **[!UICONTROL 확인]**&#x200B;을 선택하여 로드합니다. 업로드한 후에는 파일의 각 항목에 대한 목록에 새 변형이 추가됩니다.
 
-   ![업로드된 샘플 입력 변형](assets/simulate-custom-variants.png)
++++
+
+### 콘텐츠 변형 자동 생성 {#auto-generate-variants}
+
+[!DNL Journey Optimizer]은(는) AI 기반 시뮬레이션을 사용하여 콘텐츠 변형을 자동으로 생성할 수 있으므로 직접 변형을 작성하지 않고도 개인화 논리의 유효성을 검사할 수 있습니다. 시스템은 콘텐츠를 분석하고 개인화 필드 및 조건부 분기를 식별하며 거의 사실적인 미리 보기에 대해 의미 있는 값으로 해당 필드를 커버하는 데 필요한 만큼 변형을 만듭니다.
+
+변형을 자동으로 생성하려면 **[!UICONTROL 생성]** 단추를 클릭하고 시스템이 생성이 완료될 때까지 기다립니다. 변형 목록에서 생성된 변형을 검토하고 미리 보기 창에서 해당 렌더링을 검토합니다.
+
+![변형 생성 단추](assets/simulate-variants-generate.png)
+
+>[!NOTE]
+>
+>생성된 변형의 수는 콘텐츠에 따라 다릅니다. 간단한 개인화가 있는 메시지는 단일 변형을 생성할 수 있는 반면, 여러 조건부 분기가 있는 콘텐츠는 여러 변형을 생성할 수 있습니다. **[!UICONTROL 생성]**&#x200B;을 클릭하면 수동으로 추가했거나 파일에서 추가한 콘텐츠 변형을 포함하여 목록의 모든 기존 콘텐츠 변형이 AI가 생성한 변형으로 바뀝니다.
+
+### 시뮬레이션된 사용자의 변형 선택 {#simulated-users}
+
+**[!UICONTROL 콘텐츠 변형 시뮬레이션]**&#x200B;에서 **시뮬레이션된 사용자**&#x200B;를 기준으로 변형을 만들 수 있습니다. 시뮬레이션된 사용자는 Adobe Experience Platform에서 영구 프로필을 사용하지 않고 테스트를 위해 만든 프로필과 유사한 임시 엔티티입니다. 현재 브라우저 세션에 대해서만 추가된 변형과 달리, 시뮬레이션된 사용자는 저장되고 여정 간 및 다른 사용자가 재사용할 수 있습니다.
+
+시뮬레이션된 사용자는 여정 **[!UICONTROL 시뮬레이션]** 기능에서 만들고 관리합니다. 생성, 저장 및 재사용을 위한 전체 절차는 [시뮬레이션된 사용자 만들기 및 관리](../building-journeys/simulate-journey.md#test-users)를 참조하십시오.
+
+시뮬레이션된 사용자가 만들어지면 해당 사용자를 사용하여 콘텐츠를 미리 볼 수 있습니다. 이렇게 하려면 다음 단계를 수행합니다.
+
+1. **[!UICONTROL 변형 선택]** 단추를 클릭합니다.
+1. 기존 시뮬레이션 사용자 목록에서 사용할 사용자를 선택한 다음 **[!UICONTROL 선택]**&#x200B;을 클릭합니다.
+
+   ![콘텐츠 변형으로 사용할 시뮬레이션된 사용자 선택](assets/simulate-custom-simulated.png)
+
+1. 선택한 시뮬레이션된 사용자는 콘텐츠 변형 목록에 추가되며, 여기에서 속성 값으로 콘텐츠를 미리 볼 수 있습니다. 테스트를 위해 변형 값을 수동으로 편집할 수도 있지만 이러한 변경 사항은 시뮬레이션된 사용자에게 다시 저장되지 않습니다.
+
+## 콘텐츠 미리보기 및 증명 보내기 {#preview-proofs}
 
 변형이 추가되면 오른쪽 창에서 콘텐츠를 미리 보고 이메일 증명을 보낼 수 있습니다.
 
 ### 콘텐츠 변형 미리 보기 {#preview}
-
-<!--
-The preview screen uses a **side-by-side layout** that displays multiple profiles simultaneously, so you can compare how your content renders for different recipients at a glance without switching between variants.
-
-![](assets/simulation-preview-redesign.png)
-
-To preview your content, select a variant from the list — the preview pane updates to show the content rendered with that variant's values. Select multiple variants to display them side by side for quick comparison.
--->
 
 변형을 사용하여 콘텐츠를 미리 보려면 목록에서 관련 변형을 선택하여 미리 보기 창의 콘텐츠를 이 변형에 대해 입력한 정보로 업데이트합니다.
 
@@ -151,11 +173,11 @@ To preview your content, select a variant from the list — the preview pane upd
 |----------|-------------|
 | ![변형 1 선택](assets/simulate-custom-boxes.png) | ![변형 2 선택](assets/simulate-custom-boxes2.png) |
 
-다국어 콘텐츠 및 실험의 경우 다양한 언어 변형 또는 처리 간을 전환하는 드롭다운을 사용할 수 있습니다.
+<!--
+For multilingual content and experimentation, a dropdown is available to switch between the different language variants or treatments.
 
-![언어 또는 처리 선택기](assets/simulate-custom-experiment.png)
-
-언제든지 오른쪽 상단의 줄임표 버튼을 사용하고 **[!UICONTROL 제거]**&#x200B;를 선택하여 변형을 제거할 수 있습니다. 변형에 대한 정보를 편집하려면 줄임표 버튼을 클릭하고 **[!UICONTROL 편집]**&#x200B;을 선택하세요.
+![Language or treatment selector](assets/simulate-custom-experiment.png)
+-->
 
 ### 교정쇄 보내기 {#proofs}
 
