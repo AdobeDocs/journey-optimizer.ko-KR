@@ -26,7 +26,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 04ecbcc3623868aa46ba81f7558df0e1ccf405b5
+source-git-commit: f9fbf21341466e71c0e6b3580659b6261a828bd6
 workflow-type: tm+mt
 source-wordcount: 2842
 ht-degree: 21%
@@ -89,6 +89,29 @@ ht-degree: 21%
 </tbody>
 </table>
 
+
+<table>
+<thead>
+<tr>
+<th><strong>콘텐츠 변형 시뮬레이션 — 업데이트된 경험 및 AI 변형 생성</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 <strong>콘텐츠 시뮬레이션</strong> 워크플로에서 두 가지 업데이트를 사용할 수 있습니다.</p>
+<ul>
+<li><strong>새 기본 경로</strong> — <strong>콘텐츠 시뮬레이션</strong>을 클릭하면 기본적으로 <strong>콘텐츠 변형 시뮬레이션</strong> 경험이 열립니다. 단일 화면에서 수동으로 또는 CSV/JSON 파일에서 샘플 입력을 추가하고, 시뮬레이션된 사용자를 재사용하고, 렌더링을 미리 보고, 증명을 보낼 수 있습니다. Adobe Experience Platform 테스트 프로필로 미리 보거나 테스트 프로필 데이터로 증명을 보내거나 받은 편지함 렌더링 및 스팸 보고서를 확인하려면 <strong>콘텐츠 시뮬레이션</strong>을 클릭한 다음 드롭다운에서 <strong>콘텐츠 시뮬레이션(AEP 프로필)</strong>을 선택합니다.</li>
+<li><strong>AI 생성 콘텐츠 변형</strong> — <strong>콘텐츠 변형 시뮬레이션</strong> 경험에서 <strong>생성</strong>을 클릭하여 AI를 사용하여 콘텐츠 변형을 자동으로 만듭니다. 시스템은 메시지를 분석하고, 개인화 필드 및 조건부 분기를 감지하고, 모든 변형을 직접 작성하지 않고도 렌더링의 유효성을 확인할 수 있도록 실제 값을 채웁니다.</li>
+</ul>
+<p>자세한 내용은 <a href="../test-approve/simulate-sample-input.md">세부 설명서</a>를 참조하십시오.</p>
+<p>사용 가능한 날짜: 2026년 6월 9일</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
 <table>
 <thead>
 <tr>
@@ -126,36 +149,16 @@ ht-degree: 21%
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>콘텐츠 변형 시뮬레이션 — 업데이트된 경험 및 AI 변형 생성</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 <strong>콘텐츠 시뮬레이션</strong> 워크플로에서 두 가지 업데이트를 사용할 수 있습니다.</p>
-<ul>
-<li><strong>새 기본 경로</strong> — <strong>콘텐츠 시뮬레이션</strong>을 클릭하면 기본적으로 <strong>콘텐츠 변형 시뮬레이션</strong> 경험이 열립니다. 단일 화면에서 수동으로 또는 CSV/JSON 파일에서 샘플 입력을 추가하고, 시뮬레이션된 사용자를 재사용하고, 렌더링을 미리 보고, 증명을 보낼 수 있습니다. Adobe Experience Platform 테스트 프로필로 미리 보거나 테스트 프로필 데이터로 증명을 보내거나 받은 편지함 렌더링 및 스팸 보고서를 확인하려면 <strong>콘텐츠 시뮬레이션</strong>을 클릭한 다음 드롭다운에서 <strong>콘텐츠 시뮬레이션(AEP 프로필)</strong>을 선택합니다.</li>
-<li><strong>AI 생성 콘텐츠 변형</strong> — <strong>콘텐츠 변형 시뮬레이션</strong> 경험에서 <strong>생성</strong>을 클릭하여 AI를 사용하여 콘텐츠 변형을 자동으로 만듭니다. 시스템은 메시지를 분석하고, 개인화 필드 및 조건부 분기를 감지하고, 모든 변형을 직접 작성하지 않고도 렌더링의 유효성을 확인할 수 있도록 실제 값을 채웁니다.</li>
-</ul>
-<p>자세한 내용은 <a href="../test-approve/simulate-sample-input.md">세부 설명서</a>를 참조하십시오.</p>
-<p>사용 가능한 날짜: 2026년 6월 9일</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-* **사용자 지정 작업의 인증서 기반 사용자 지정 인증** - 이제 사용자 지정 작업에서 인증서 기반 사용자 지정 인증을 지원합니다. Journey Optimizer은 사용자 지정 인증 구성에 `subType: "certificateCredential"`을(를) 추가하여 Adobe의 관리 인증서를 사용하여 JWT 클라이언트 어설션에 서명하고 액세스 토큰으로 교환합니다. 클라이언트 암호는 필요하지 않습니다. Microsoft Entra ID와 같이 인증서 기반 ID 확인을 적용하는 엔터프라이즈 API용으로 설계되었습니다. [자세히 알아보기](../datasource/external-data-sources.md#certificate-credential)
-
-  사용 가능한 날짜: 2026년 6월 4일
-
 * **반복되지 않는 대상 읽기 여정에 대한 자동 중지** - 이제 반복되지 않는 **대상 읽기** 여정은 마지막 활성 프로필이 종료되면 **중지됨** 상태로 자동 전환됩니다. 이전에는 프로필이 더 이상 전달되지 않는 경우에도 91일 글로벌 시간 제한이 만료될 때까지 이러한 여정이 **Live** 상태로 유지되었습니다. 이 개선 사항을 통해 여정 상태는 완료되는 즉시 실제 실행 상태를 반영하므로 수동 개입 없이 여정 인벤토리를 정확하게 유지할 수 있습니다.
 
   대기 노드, 반응 노드 또는 여정 트리거된 전환과 같이 대기 기간을 유발하는 노드를 포함하는 이벤트에는 이 동작이 적용되지 않습니다. 이러한 여정은 표준 91일 글로벌 시간 초과의 적용을 받습니다. [자세히 알아보기](../building-journeys/end-journey.md#auto-stop-non-recurring)
 
   사용 가능한 날짜: 2026년 6월 9일
+
+* **사용자 지정 작업의 인증서 기반 사용자 지정 인증** - 이제 사용자 지정 작업에서 인증서 기반 사용자 지정 인증을 지원합니다. Journey Optimizer은 사용자 지정 인증 구성에 `subType: "certificateCredential"`을(를) 추가하여 Adobe의 관리 인증서를 사용하여 JWT 클라이언트 어설션에 서명하고 액세스 토큰으로 교환합니다. 클라이언트 암호는 필요하지 않습니다. Microsoft Entra ID와 같이 인증서 기반 ID 확인을 적용하는 엔터프라이즈 API용으로 설계되었습니다. [자세히 알아보기](../datasource/external-data-sources.md#certificate-credential)
+
+  사용 가능한 날짜: 2026년 6월 4일
+
 
 * **캠페인 라이프사이클 이벤트에 대한 고객 알림** - 이제 새로운 시스템 알림이 작업 및 API 트리거 캠페인에 대한 주요 라이프사이클 이벤트를 알려줍니다. 샌드박스 수준에서 가입합니다. [자세히 보기](../reports/alerts.md)
 
