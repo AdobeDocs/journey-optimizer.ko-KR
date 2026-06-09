@@ -11,27 +11,16 @@ keywords: 여정, 구성, 속성
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/fDzEwuisEjAKvpIs9SKoz-9IIJXJQ-md9FlCbWQOJz8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: ba62ad25-65cb-4ea9-b7aa-0fa87c4a9fa0
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 84d3c8bd62648c7d1b6cd969ceb7f80329110982
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: ba62ad25-65cb-4ea9-b7aa-0fa87c4a9fa0id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 3646
-ht-degree: 13%
+source-wordcount: 3657
+ht-degree: 9%
 
 ---
 
@@ -42,7 +31,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties"
 >title="여정 속성"
->abstract="이 여정을 위해 이름, 태그, 진입 규칙, 시간대, 날짜, 시간 초과, 충돌 관리 등 글로벌 설정을 구성합니다. 기본적으로 읽기 전용 매개변수는 숨겨져 있습니다. 사용 가능한 옵션은 여정 상태, 사용 권한 및 제품 구성에 따라 다릅니다."
+>abstract="여정 속성에는 이름, 태그, 시작 규칙, 시간대, 날짜, 시간 초과 및 충돌 관리 등 이 여정에 대한 전역 설정이 포함됩니다. 기본적으로 읽기 전용 매개변수는 숨겨져 있습니다. 사용 가능한 옵션은 여정 상태, 사용 권한 및 제품 구성에 따라 다릅니다."
 
 ## 여정 속성 액세스 {#access-properties}
 
@@ -109,7 +98,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_entrance"
 >title="재진입 허용"
->abstract="기본적으로 새 여정은 재진입을 허용합니다. 예를 들어 사용자가 상점에 입장할 때 일회성 선물을 제공하려 한다면 **재진입 허용** 옵션을 선택 해제하면 됩니다."
+>abstract="기본적으로 새 여정은 재진입을 허용합니다. **재입장 허용** 옵션을 선택 취소하면 여정에 다시 입장할 수 없습니다. 예를 들어, 한 사람이 상점에 입장할 때 일회성 선물을 제공할 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="프로필 시작 관리"
 
 기본적으로 새 여정은 재진입을 허용합니다. 예를 들어, 한 사람이 상점에 들어갈 때 일회성 선물을 제공하려는 경우 &quot;한 번&quot; 여정에 대해 **재입장 허용** 옵션의 선택을 취소할 수 있습니다.
@@ -119,7 +108,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_re-entrance_wait"
 >title="재진입 대기 기간"
->abstract="프로필이 단일 여정에서 다시 여정에 진입할 수 있도록 허용하기 전에 대기할 시간을 설정하십시오. 이렇게 하면 선택한 기간 동안 사용자가 여정에 재진입하는 것을 방지할 수 있습니다. 최대 기간은 90일입니다."
+>abstract="재입력 대기 기간은 프로필이 단일 여정에서 여정을 다시 입력할 수 있기 전에 대기하는 시간입니다. 사용자가 선택한 기간 동안 여정으로 다시 들어가는 것을 방지합니다. 최대 기간은 90일입니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="프로필 시작 관리"
 
 **재입력 허용** 옵션이 활성화되면 **재입력 대기 기간** 필드가 표시됩니다. 이 필드에서는 단일 여정(이벤트 또는 대상자 선별로 시작)에서 프로필이 다시 여정에 들어오려면 기다려야 하는 시간을 정의할 수 있습니다. 이를 통해 동일한 이벤트에 대해 여정을 여러 번 트리거하는 오류를 방지할 수 있습니다. 이 필드는 기본적으로 5분으로 설정되어 있습니다. 최대 기간은 90일입니다.
@@ -137,7 +126,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_payload_size"
 >title="현재 여정 페이로드 크기"
->abstract="구성된 제한과 비교한 여정 페이로드의 현재 크기를 표시합니다. 이 표시기를 사용하여 게시 전에 여정 복잡성을 모니터링하고 페이로드 크기 제한 초과로 인한 오류를 방지할 수 있습니다."
+>abstract="구성된 제한과 비교한 여정 페이로드의 현재 크기를 표시합니다. 이 표시기는 게시 전에 여정 복잡성을 모니터링하고 페이로드 크기 제한 초과로 인한 오류를 방지하는 데 도움이 됩니다."
 
 여정 속성 패널의 **[!UICONTROL 현재 여정 페이로드 크기]** 필드에는 구성된 제한과 관련된 여정 페이로드의 현재 크기(예: *1.5MB(2MB 중)*)가 표시됩니다. 이 읽기 전용 표시기는 여정 작성 단계에서 볼 수 있습니다.
 
@@ -160,12 +149,12 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_start_date"
 >title="시작 날짜"
->abstract="프로필이 여정 진입을 시작할 수 있는 날짜를 선택하십시오. 시작 일자를 설정하지 않으면 여정의 게시 일자가 기본으로 설정됩니다."
+>abstract="시작 날짜는 프로필이 여정 입력을 시작할 수 있는 날짜입니다. 시작 일자를 설정하지 않으면 여정의 게시 일자가 기본으로 설정됩니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_end_date"
 >title="종료 날짜"
->abstract="여정이 종료되는 날짜를 설정하십시오. 활성화된 프로필은 이 날짜에 자동으로 여정에서 종료되며 새로 진입할 수 없습니다."
+>abstract="종료 날짜는 여정이 종료되는 날짜입니다. 활성화된 프로필은 이 날짜에 자동으로 여정에서 종료되며 새로 진입할 수 없습니다."
 
 기본적으로 프로필은 게시되는 즉시 여정을 입력할 수 있으며 [전역 여정 시간 제한](#global_timeout)에 도달할 때까지 유지될 수 있습니다. 유일한 예외는 **되풀이 시 강제 재입력**&#x200B;이 활성화된 되풀이 대상 여정 읽기이며, 다음 발생의 시작 날짜에 끝납니다.
 
@@ -356,7 +345,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_exit_criterias"
 >title="종료 기준"
->abstract="이 섹션에는 종료 기준 옵션이 표시됩니다. 여정에 대해 하나 이상의 종료 기준 규칙과 필터를 만들 수 있습니다."
+>abstract="이 섹션에는 종료 기준 옵션이 표시됩니다. 여기서 여정에 대해 하나 이상의 종료 기준 규칙 및 필터를 정의할 수 있습니다."
 
 ### 여정 종료 기준 {#exit-criteria-desc}
 

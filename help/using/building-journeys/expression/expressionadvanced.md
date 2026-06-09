@@ -10,24 +10,15 @@ keywords: 표현식 편집기, 데이터, 여정
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/8RsF-CRRrsLiCzwsaqfJQnWcyy6frmKkdSJBKnIhGgE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: ac5d9310-7772-40fb-9d78-864562e1bfd6
-  - id: e51e8901-97d9-4f7d-a835-503025a90e32
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f39bcb2f8b68315b082014b96801c51223ac8a54
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: ac5d9310-7772-40fb-9d78-864562e1bfd6id: e51e8901-97d9-4f7d-a835-503025a90e32id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 738
-ht-degree: 53%
+source-wordcount: 736
+ht-degree: 51%
 
 ---
 
@@ -36,7 +27,7 @@ ht-degree: 53%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_advanced"
 >title="고급 표현식 편집기 정보"
->abstract="고급 표현식 편집기를 사용하여 다양한 인터페이스 화면에서 고급 표현식을 작성합니다. 예를 들어 여정을 구성 및 사용할 때와 데이터 원본 조건을 정의할 때 표현식을 작성할 수 있습니다."
+>abstract="고급 표현식 편집기는 인터페이스의 다양한 화면에서 고급 표현식을 작성합니다. 예를 들어 여정을 구성 및 사용할 때와 데이터 원본 조건을 정의할 때 표현식을 작성할 수 있습니다."
 
 여정 고급 표현식 편집기를 사용하여 인터페이스의 다양한 화면에서 고급 표현식을 작성합니다. 예를 들어 여정을 구성 및 사용할 때와 데이터 원본 조건을 정의할 때 표현식을 작성할 수 있습니다.
 

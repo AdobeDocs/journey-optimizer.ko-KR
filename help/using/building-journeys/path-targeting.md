@@ -12,10 +12,10 @@ exl-id: b30ce5c9-a0e2-4601-97a3-5bec648368e4
 badge: label="제한 공개" type="Informative"
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 812
-ht-degree: 8%
+source-wordcount: 811
+ht-degree: 4%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_path_targeting_fallback"
 >title="대체 경로란 무엇입니까?"
->abstract="대체 경로를 사용하여 타기팅 규칙이 적격하지 않을 때 대상자가 대체 경로로 입장할 수 있도록 합니다. </br>이 옵션을 선택하지 않으면 타기팅 규칙에 적합하지 않은 대상자는 대체 경로로 들어가지 않고 여정을 종료합니다."
+>abstract="대체 경로를 사용하여 타기팅 규칙이 적격하지 않을 때 대상자가 대체 경로로 입장할 수 있도록 합니다. </br>이 옵션을 선택하지 않으면 타깃팅 규칙에 적합하지 않은 대상은 대체 경로로 들어가지 않고 여정을 종료합니다."
 
 >[!AVAILABILITY]
 >
