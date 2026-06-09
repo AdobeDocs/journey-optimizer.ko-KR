@@ -11,9 +11,9 @@ keywords: 테스트, 여정, 확인, 오류, 문제 해결
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: c2c8b1a64e79482fcc9340950209579cf74c50b3
+source-git-commit: a61f805d573f11f255e386c35a5d79ab6650bcc5
 workflow-type: tm+mt
-source-wordcount: 1427
+source-wordcount: 1452
 ht-degree: 2%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 2%
 >[!IMPORTANT]
 >
 >**[!UICONTROL 시뮬레이션]** 기능에 액세스하려면 **여정 시뮬레이션**, **여정 게시** 또는 **여정 승인 및 게시** 중 하나 이상의 권한이 필요합니다. [자세히 알아보기](../administration/permissions.md)
+>
+>**[!UICONTROL 시뮬레이션]**&#x200B;에서 AI를 사용하려면(**[!UICONTROL 빠른 시뮬레이션]**, AI로 시뮬레이션된 사용자 생성 **[!UICONTROL 이벤트 값 생성]**) 사용자는 **[!UICONTROL AI 길잡이]** 기능에서 **[!UICONTROL 콘텐츠 생성]** 권한이 필요합니다.
 
 **초안**, **테스트 모드** 및 **라이브** 외에 **[!UICONTROL 시뮬레이션]**(으)로 여정을 설정할 수 있습니다. 시뮬레이션에서 **시뮬레이션된 사용자**: Adobe Experience Platform에서 영구 테스트 프로필을 사용하지 않고 추가하는 임시 프로필과 유사한 엔터티로 테스트합니다.
 
