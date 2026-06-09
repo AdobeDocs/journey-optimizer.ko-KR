@@ -22,9 +22,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 07322bd265647528f8e2e4a5f39d7806fd03b565
 workflow-type: tm+mt
-source-wordcount: 674
+source-wordcount: 673
 ht-degree: 14%
 
 ---
@@ -63,7 +63,7 @@ SMS API 자격 증명에서 사용자 지정 옵트아웃 키워드를 정의하
 
 >[!NOTE]
 >
->양방향 SMS(STOP, QUIT 등으로 회신)를 사용할 계획이라면 먼저 하나 이상의 단방향 SMS를 전송하여 전화 번호를 프로필 매핑으로 설정해야 합니다. 공급자 자격 증명이 만료되거나 잘못 구성되면 인바운드 키워드가 사용자 프로필을 업데이트하지 못해 옵트아웃 레코드가 누락되거나 지연됩니다. 인바운드 응답은 _AJO 인바운드 활동 이벤트 데이터 세트_ 시스템 데이터 세트에 저장됩니다. [자세히 알아보기](../data/get-started-datasets.md#system-datasets)
+>양방향 SMS(STOP, QUIT 등으로 회신)를 사용할 계획이라면 먼저 하나 이상의 단방향 SMS를 전송하여 전화 번호를 프로필 매핑으로 설정해야 합니다. 공급자 자격 증명이 만료되거나 잘못 구성되면 인바운드 키워드가 사용자 프로필을 업데이트하지 못해 옵트아웃 레코드가 누락되거나 지연됩니다. 인바운드 응답은 _AJO 전자 메일 추적 데이터 세트_ 시스템 데이터 세트에 저장됩니다. [자세히 알아보기](../data/get-started-datasets.md#system-datasets)
 
 
 ## 차단 목록 {#sms-blocklists}

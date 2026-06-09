@@ -21,7 +21,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 07322bd265647528f8e2e4a5f39d7806fd03b565
 workflow-type: tm+mt
 source-wordcount: 420
 ht-degree: 2%
@@ -56,7 +56,7 @@ WhatsApp 메시지가 준비되면 [여정](../building-journeys/publish-journey
 
 ## WhatsApp 상호 작용 분석 {#whatsapp-channel-context}
 
-Journey Optimizer은 WhatsApp 채널에서 반환된 추가 상호 작용 데이터를 캡처하여 `whatsAppChannelContext` 필드 그룹 아래의 **보고 - 전자 메일 추적 경험 이벤트 데이터 세트**&#x200B;에 저장합니다. 이 필드를 사용하여 [대상](../audience/about-audiences.md)을(를) 빌드하고, [쿼리](../data/get-started-queries.md)를 실행하고, WhatsApp 참여를 분석하십시오. [시스템 데이터 세트에 대해 자세히 알아보세요](../data/get-started-datasets.md#system-datasets).
+Journey Optimizer은 WhatsApp 채널에서 반환된 추가 상호 작용 데이터를 캡처하여 `whatsAppChannelContext` 필드 그룹의 **AJO - 전자 메일 추적 경험 이벤트 데이터 세트**&#x200B;에 저장합니다. 이 필드를 사용하여 [대상](../audience/about-audiences.md)을(를) 빌드하고, [쿼리](../data/get-started-queries.md)를 실행하고, WhatsApp 참여를 분석하십시오. [시스템 데이터 세트에 대해 자세히 알아보세요](../data/get-started-datasets.md#system-datasets).
 
 다음 필드가 캡처됩니다.
 

@@ -12,9 +12,9 @@ subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
   - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 07322bd265647528f8e2e4a5f39d7806fd03b565
 workflow-type: tm+mt
-source-wordcount: 518
+source-wordcount: 517
 ht-degree: 8%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->사용자 지정 데이터 세트가 구성되지 않은 경우 기본적으로 인바운드 키워드가 시스템 _AJO 인바운드 활동 이벤트 데이터 세트_&#x200B;에 저장됩니다. 들어오는 메시지가 이 데이터 집합에 캡처되기 전에 프로필에 [!DNL Journey Optimizer]에서 보낸 메시지가 하나 이상 있어야 합니다. [시스템 데이터 세트에 대해 자세히 알아보기](../data/get-started-datasets.md#system-datasets)
+>사용자 지정 데이터 세트가 구성되지 않은 경우 기본적으로 인바운드 키워드가 시스템 _AJO 전자 메일 추적 데이터 세트_&#x200B;에 저장됩니다. 들어오는 메시지가 이 데이터 집합에 캡처되기 전에 프로필에 [!DNL Journey Optimizer]에서 보낸 메시지가 하나 이상 있어야 합니다. [시스템 데이터 세트에 대해 자세히 알아보기](../data/get-started-datasets.md#system-datasets)
 
 스키마, 필드 그룹 및 데이터 세트에 대한 배경은 다음 Adobe Experience Platform 설명서를 참조하십시오.
 
