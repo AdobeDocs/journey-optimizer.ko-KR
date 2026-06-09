@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: 0e4ee7788c6a015a63bafcb7976ac5e4696e5d7a
 workflow-type: tm+mt
-source-wordcount: '3361'
+source-wordcount: '3355'
 ht-degree: 95%
 
 ---
@@ -83,8 +83,6 @@ ht-degree: 95%
       + [시간대 관리](using/building-journeys/timezone-management.md)
       + [전송 시간 최적화](using/building-journeys/send-time-optimization.md)
       + [여정 끝내기](using/building-journeys/end-journey.md)
-      + [다른 샌드박스로 여정 복사](using/building-journeys/copy-to-sandbox.md)
-      + [인텔리전트 서비스와 통합](using/building-journeys/ai-services-overview.md)
    + 활동 {#about-journey-building}
       + [활동](/help/rp_landing_pages/about-journey-building-landing-page.md)
       + [여정 활동 시작](using/building-journeys/about-journey-activities.md)
@@ -524,6 +522,7 @@ ht-degree: 95%
       + [Dynamic Media 작업](using/integrations/aem-dynamic.md)
       + {hide-from-toc}[카운트다운 타이머 삽입](using/integrations/countdown.md)
       + [GenStudio for Performance Marketing 작업](using/integrations/genstudio.md)
+      + [인텔리전트 서비스와 통합](using/integrations/intelligent-services.md)
       + 통합 {#integrations}
          + [통합 작업](using/integrations/integrations.md)
          + [개인화에 외부 통합 사용](using/integrations/integrations-personalization.md)

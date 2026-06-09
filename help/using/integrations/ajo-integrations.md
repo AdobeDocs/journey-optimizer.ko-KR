@@ -26,7 +26,7 @@ subfeature_v2:
   - id: c08fcc42-2918-421a-a25e-e1bd9464c290
   - id: c6fdb8b1-45ee-460a-a859-9031c59118b7
   - id: d16f7424-4847-4b90-a37c-4b52cbdabee5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0e4ee7788c6a015a63bafcb7976ac5e4696e5d7a
 workflow-type: tm+mt
 source-wordcount: 1007
 ht-degree: 69%
@@ -39,7 +39,7 @@ Adobe Journey Optimizer를 사용하면 이 데이터를 쉽게 관리하고 유
 
 >[!NOTE]
 >
-> Adobe Experience Platform을 기반으로 구축된 Adobe Journey Optimizer은 기본적으로 [Adobe 실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target="_blank"}에 연결됩니다. 기본 제공 데이터 소스는 사전 구성되어 있으며 실시간 고객 프로필에서 데이터를 검색하고 사용하도록 설계되었습니다(예: 여정에 참여한 사람이 클라이언트인지 여부 확인). 프로필 데이터를 사용할 수 있습니다. [자세히 알아보기](../datasource/adobe-experience-platform-data-source.md).
+> Adobe Experience Platform을 기반으로 구축된 Adobe Journey Optimizer은 기본적으로 [Adobe 실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target="_blank"}에 연결됩니다. 기본 제공 데이터 소스는 사전 구성되어 있으며 실시간 고객 프로필에서 데이터를 검색하고 사용하도록 설계되었습니다(예: 여정에 참여한 사람이 클라이언트인지 여부 확인). 프로필 데이터를 사용할 수 있습니다. [자세히 알아보기](../datasource/adobe-experience-platform-data-source.md)
 
 
 ## Adobe Customer Journey Analytics {#integration-cja}
@@ -121,7 +121,7 @@ Adobe GenStudio for Performance Marketing은 마케팅 팀이 자체 광고 및 
 
 고객 AI는 브랜드가 Adobe Experience Platform에서 프로필 속성으로 사용할 수 있고 여정을 개인화하는 데 사용할 수 있는 회전 또는 변환 머신 러닝 기반 점수를 만들 수 있도록 합니다.
 
-[Journey Optimizer + Adobe Intelligent Services](../building-journeys/ai-services-overview.md)에 대해 자세히 알아보세요.
+[Journey Optimizer + Adobe Intelligent Services](intelligent-services.md)에 대해 자세히 알아보세요.
 
 
 ## Adobe Campaign {#integration-ac}

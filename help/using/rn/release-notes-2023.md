@@ -15,7 +15,7 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: e42070c4cc1dde06786c4075b1e6e45e8c323c12
+source-git-commit: 9372a9bed5c6da5db33567557944d69af9d56913
 workflow-type: tm+mt
 source-wordcount: 4372
 ht-degree: 98%
@@ -44,7 +44,7 @@ ht-degree: 98%
 <td>
 <p>샌드박스 도구를 사용하면 패키지 내보내기 및 가져오기를 활용하여 여러 샌드박스 간에 개체를 복사할 수 있습니다. 패키지는 단일 개체 또는 여러 개체로 구성될 수 있습니다. 패키지에 포함되는 모든 개체는 동일한 샌드박스에서 가져온 개체여야 합니다.</p>
 <!--img src="../data/assets/dataset-export-setup.png"-->
-<p>자세한 내용은 <a href="../building-journeys/copy-to-sandbox.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../configuration/copy-objects-to-sandbox.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>

@@ -5,9 +5,9 @@ title: 여정 관리
 description: 여정 관리
 redpen-status: CREATED_||_2025-08-11_20-08-03
 exl-id: 9f74019a-9a29-40f3-8f94-253814b984c0
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 0e4ee7788c6a015a63bafcb7976ac5e4696e5d7a
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '322'
 ht-degree: 100%
 
 ---
@@ -84,5 +84,5 @@ Adobe Journey Optimizer에서 여정을 종료하는 방법을 살펴봅니다. 
 
 ## 추가 리소스
 
-- **[다른 샌드박스에 여정 복사](../using/building-journeys/copy-to-sandbox.md)** - 패키지 내보내기 및 가져오기를 사용하여 샌드박스 환경 간에 여정 및 종속 오브젝트를 전송하는 방법에 대해 알아봅니다.
-- **[인텔리전트 서비스와 통합](../using/building-journeys/ai-services-overview.md)** - Adobe 인텔리전트 서비스를 통한 고객 행동 예측 및 캠페인 영향 측정을 위해 AI 및 머신 러닝을 활용합니다.
+- **[다른 샌드박스에 여정 복사](../using/configuration/copy-objects-to-sandbox.md#objects)** - 패키지 내보내기 및 가져오기를 사용하여 샌드박스 환경 간에 여정 및 종속 오브젝트를 전송하는 방법에 대해 알아봅니다.
+- **[인텔리전트 서비스와 통합](../using/integrations/intelligent-services.md)** - Adobe 인텔리전트 서비스를 통한 고객 행동 예측 및 캠페인 영향 측정을 위해 AI 및 머신 러닝을 활용합니다.
