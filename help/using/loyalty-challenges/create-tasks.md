@@ -13,10 +13,10 @@ mini-toc-levels: 1
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
+source-git-commit: 024bf7a15ca8ef80dfd948ad226958ed71f22413
 workflow-type: tm+mt
-source-wordcount: 1130
-ht-degree: 12%
+source-wordcount: 1178
+ht-degree: 6%
 
 ---
 
@@ -140,29 +140,39 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_task_eligible_items_exclusion"
 >title="적격 항목 및 제외"
->abstract="**구매**&#x200B;와 **지출** 활동 모두에 대해 **[!UICONTROL 적격 항목 및 제외]** 특성을 사용하여 적격 항목 및 그룹과 제외 그룹을 정의할 수 있습니다. 이를 통해 챌린지 목표에 부합하는 구체적인 제품, 카테고리 또는 위치를 타깃팅할 수 있습니다. 예를 들어 지출 작업을 특정 제품 카테고리로 제한하거나 작업 완료 시 기프트 카드나 프로모션 항목을 카운트하지 않도록 할 수 있습니다."
+>abstract="**구매**&#x200B;와(과) **지출** 활동 모두에 대해 **[!UICONTROL 적격 항목 및 제외]** 특성을 사용하여 작업 완료에 포함되는 항목 및 그룹과 제외되는 항목을 선택하십시오. 관리자가 구성한 제품 재고에서 품목 또는 그룹을 검색한 다음 필요에 따라 포함 또는 제외합니다."
 
-<!-- SCREENSHOT: Eligible items & exclusions popup showing the two sections: "Eligible task purchases are limited to the following" and "The following are excluded from this task" with text input fields -->
+<!-- SCREENSHOT: Eligible items & exclusions picker showing the item and group table with Include and Exclude actions -->
 
-**구매** 및 **지출** 활동의 경우 **[!UICONTROL 적격 항목 및 제외]** 특성을 사용하여 적격 항목 및 제외된 그룹을 정의할 수 있습니다. 이를 통해 챌린지 목표에 부합하는 구체적인 제품, 카테고리 또는 위치를 타깃팅할 수 있습니다. 이 특성을 구성할 때 **[!UICONTROL 충성도 관리자]** 메뉴에 업로드된 제품 그룹 및 제외 그룹을 사용할 수 있습니다. [제품 인벤토리 및 제외를 구성하는 방법을 알아봅니다.](loyalty-admin.md#product-inventory)
+**구매** 및 **지출** 활동의 경우 **[!UICONTROL 적격 항목 및 제외]** 섹션을 사용하여 적격 항목 및 그룹과 제외된 그룹을 정의할 수 있습니다. 이를 통해 챌린지 목표에 부합하는 구체적인 제품, 카테고리 또는 위치를 타깃팅할 수 있습니다.
+
+선택기에서 사용할 수 있는 항목 및 그룹은 관리자 사용자가 **[!UICONTROL 충성도 관리자]** 메뉴에서 정의합니다. 관리자는 적격 항목에 사용된 제품 인벤토리를 업로드하고 마케터가 작업을 작성할 때 자동으로 적용되는 조직 전체의 제외를 구성합니다. [제품 인벤토리를 구성하는 방법을 알아봅니다](loyalty-admin.md#product-inventory) 및 [제외](loyalty-admin.md#exclusions)
 
 **[!UICONTROL 사용자 지정 이벤트]** 작업은 적격 항목 및 제외를 사용하지 않습니다. 완료는 사용자가 구성한 **[!UICONTROL 사용자 지정 이벤트 값]**&#x200B;에 의해 결정됩니다.
 
 예를 들어 작업을 특정 제품 범주로 제한하거나 작업 완료 시 기프트 카드나 프로모션 항목을 카운트하지 않도록 할 수 있습니다.
 
-![](assets/tasks-create-eligible.png)
+![](assets/task-create-eligible.png)
 
 ### 작업에 대한 적격 항목 설정
 
-적격 항목을 정의하려면 **[!UICONTROL 적격 작업 구매는 다음]** 필드로 제한됩니다. 필드에 특정 항목 ID, 범주 또는 대상 ID를 쉼표로 구분하여 입력하십시오. 이 필드를 비워 두면 기본적으로 모든 구매를 이용할 수 있습니다. 또한 `*`을(를) 입력하여 모든 구매를 명시적으로 적용할 수 있습니다.
+적격 항목을 정의하려면 **[!UICONTROL 적격 항목 및 제외]** 섹션에서 **[!UICONTROL 추가]**&#x200B;를 선택합니다.
 
-예: `SKU001, SKU002, CategoryA`
+선택기에서 작업 완료 시 계산되어야 하는 항목이나 그룹을 선택한 다음 **[!UICONTROL 포함]**&#x200B;을 선택합니다. 포함된 항목 및 그룹이 적격 목록에 추가됩니다.
+
+![](assets/task-create-eligible-add.png)
+
+적격 품목 또는 그룹을 선택하지 않은 경우 제외가 구성되지 않은 경우 구매는 특정 재고 세트로 제한되지 않습니다.
 
 ### 작업에서 항목 제외
 
-작업에서 항목을 제외하려면 **[!UICONTROL 다음 항목이 이 작업에서 제외됩니다]** 필드에 특정 항목 ID, 범주 또는 대상 ID를 입력하십시오.
+작업에서 항목을 제외하려면 **[!UICONTROL 적격 항목 및 제외]** 섹션에서 **[!UICONTROL 추가]**&#x200B;를 선택하십시오.
 
-예: `CLEARANCE01, GIFTCARD, SALE_CATEGORY`
+작업 완료 시 카운트되지 않아야 하는 항목이나 그룹을 선택한 다음 **[!UICONTROL 제외]**&#x200B;를 선택하십시오.
+
+![](assets/task-create-exclusion-add.png)
+
+전역 제외 목록의 항목은 자동으로 제외로 추가됩니다. 제외는 포함보다 우선합니다. 제외됨으로 나열된 항목은 포함된 그룹의 일부라도 계산되지 않습니다.
 
 ### 자격 및 제외를 위한 자체 데이터 가져오기 {#byod-personalization}
 
@@ -170,7 +180,7 @@ ht-degree: 12%
 >
 >**[!UICONTROL 자신의 데이터 가져오기]** 옵션은 현재 제한된 조직 집합에서 사용할 수 있으며 향후 릴리스에서 더 광범위하게 사용할 수 있습니다.
 
-항목 ID를 입력하여 자격을 부여하거나 제외할 수 있을 뿐만 아니라, **[!UICONTROL 고유한 데이터 가져오기]** 옵션을 사용하여 런타임 시 외부 충성도 과제 데이터에서 자격을 부여할 수도 있습니다.
+Journey Optimizer에서 항목 및 그룹을 선택할 수 있을 뿐만 아니라 **[!UICONTROL 고유한 데이터 가져오기]** 옵션을 사용하여 런타임에 외부 로열티 문제 데이터에서 자격을 얻을 수도 있습니다.
 
 **[!UICONTROL 고유 데이터 가져오기]**&#x200B;를 선택하면 참가자 당 자격 요건이 항목 ID 목록 대신 충성도 과제 환경과 동기화된 데이터에서 런타임에 해결됩니다.
 
