@@ -8,27 +8,15 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 161b043b801d8c35e2dd590f1f85d52829d6a459
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: d5b5559d40411d2c66e0b7144a9ce6945c491391
 workflow-type: tm+mt
-source-wordcount: 2564
+source-wordcount: 2694
 ht-degree: 21%
 
 ---
@@ -92,6 +80,25 @@ ht-degree: 21%
 * **사용자 지정 작업의 인증서 기반 사용자 지정 인증** - 이제 사용자 지정 작업에서 인증서 기반 사용자 지정 인증을 지원합니다. Journey Optimizer은 사용자 지정 인증 구성에 `subType: "certificateCredential"`을(를) 추가하여 Adobe의 관리 인증서를 사용하여 JWT 클라이언트 어설션에 서명하고 액세스 토큰으로 교환합니다. 클라이언트 암호는 필요하지 않습니다. Microsoft Entra ID와 같이 인증서 기반 ID 확인을 적용하는 엔터프라이즈 API용으로 설계되었습니다. [자세히 알아보기](../datasource/external-data-sources.md#certificate-credential)
 
   사용 가능한 날짜: 2026년 6월 4일
+
+<table>
+<thead>
+<tr>
+<th><strong>여정 조각(일반 공급)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 Adobe Journey Optimizer에서 <strong>여정 조각</strong>을 만들 수 있습니다. 여정 조각 은 한 번 빌드하고 샌드박스 전체의 여정에 드롭할 수 있는 재사용 가능한 여정 노드 세트입니다. 자격 확인, 선호 채널 라우팅 논리 또는 환영 시퀀스 중 어느 것이든 조각은 팀이 매번 처음부터 동일한 논리를 다시 작성하지 않고도 더 빠르게 이동하고 일관성을 유지하는 데 도움이 됩니다.</p>
+<p>조각이 만들어지면 전용 <strong>조각 인벤토리</strong>에 저장되고 <strong>여정 조각</strong> 활동을 사용하여 모든 여정에 삽입할 수 있습니다.</p>
+<p>이전에는 제한적 가용성으로 제공되었지만, 이제 모든 고객이 이 기능을 일반적으로 사용할 수 있습니다. 여정 조각은 <strong>샌드박스 도구</strong>도 지원하므로 샌드박스 간에 조각을 패키징하고 내보낼 수 있습니다.</p>
+<p>자세한 내용은 <a href="../building-journeys/journey-fragments.md">세부 설명서</a>를 참조하십시오.</p>
+<p>사용 가능한 날짜: 2026년 6월 9일</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## 2026년 5월 릴리스 정보 {#may-26-rn}
 
