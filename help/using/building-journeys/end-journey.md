@@ -24,7 +24,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 23655e3e59cc14dea254f0e39a1f8f96bf2b295f
+source-git-commit: 8a60b2d54073f30628f1939839faf992fcfd151b
 workflow-type: tm+mt
 source-wordcount: 1171
 ht-degree: 2%
@@ -93,9 +93,9 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->이 자동 중지 동작은 **대기** 노드(타이머 기반), **반응** 노드(이메일 열기 또는 클릭과 같은 여정 대기) 또는 이벤트 트리거된 전환과 같이 대기 기간을 유발하는 노드를 포함하는 반복되지 않는 이벤트에 **적용되지 않습니다**. 이러한 여정은 표준 91일 글로벌 시간 초과의 적용을 받습니다.
+>* 이 자동 중지 동작은 **대기** 노드(타이머 기반), **반응** 노드(이메일 열기 또는 클릭과 같은 여정 대기) 또는 이벤트 트리거된 전환과 같이 대기 기간을 유발하는 노드를 포함하는 반복되지 않는 이벤트에 **적용되지 않습니다**. 이러한 여정은 표준 [91일 전역 시간 제한](../building-journeys/journey-properties.md#global_timeout)의 적용을 받습니다.
 >
->[**[!UICONTROL 새 등록에 닫기]**](#close-to-new-entrances) 옵션을 사용하여 언제든지 반복되지 않는 대상 읽기 여정을 수동으로 닫을 수 있습니다. 자동 중지 동작은 수동으로 개입할 필요 없이 더 이상 필요하지 않을 때 여정이 자동으로 중지되도록 하는 것입니다.
+>* [**[!UICONTROL 새 등록에 닫기]**](#close-to-new-entrances) 옵션을 사용하여 언제든지 반복되지 않는 대상 읽기 여정을 수동으로 닫을 수 있습니다. 자동 중지 동작은 수동으로 개입할 필요 없이 더 이상 필요하지 않을 때 여정이 자동으로 중지되도록 하는 것입니다.
 
 ### 여정이 언제 &quot;완료됨&quot;으로 간주됩니까? {#journey-finished-definition}
 
@@ -125,8 +125,6 @@ ht-degree: 2%
    ![종료 여정 및 대체 작업을 표시하는 옵션 메뉴](assets/finish_drop_down_list.png){width="50%" zoomable="yes"}
 
 1. **[!UICONTROL 새 출입문 닫기]**&#x200B;를 클릭하고 대화 상자에서 확인합니다.
-
-
 
 
 ## 여정 중지 {#stop-journey}
