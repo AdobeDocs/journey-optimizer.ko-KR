@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: 0e4ee7788c6a015a63bafcb7976ac5e4696e5d7a
 workflow-type: tm+mt
-source-wordcount: '3361'
+source-wordcount: '3355'
 ht-degree: 95%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 95%
       + [AI 및 지능형 기능](using/start/ai-features.md)
       + [주요 용어](using/start/terminology.md)
       + [가드레일 및 제한 사항](using/start/guardrails.md)
-      + {hide-from-toc}[패키지별 기능](using/start/ajo-packages.md)
+      + 패키지별 {hide-from-toc}[기능](using/start/ajo-packages.md)
       + {hide-from-toc}[패키지 및 기능(v2)](using/start/ajo-packages-v2.md)
       + {hide-from-toc}[패키지 및 기능(v3)](using/start/ajo-packages-v3.md)
    + 역할별 시작 {#by-role}
@@ -83,8 +83,6 @@ ht-degree: 95%
       + [시간대 관리](using/building-journeys/timezone-management.md)
       + [전송 시간 최적화](using/building-journeys/send-time-optimization.md)
       + [여정 끝내기](using/building-journeys/end-journey.md)
-      + [다른 샌드박스로 여정 복사](using/building-journeys/copy-to-sandbox.md)
-      + [인텔리전트 서비스와 통합](using/building-journeys/ai-services-overview.md)
    + 활동 {#about-journey-building}
       + [활동](/help/rp_landing_pages/about-journey-building-landing-page.md)
       + [여정 활동 시작](using/building-journeys/about-journey-activities.md)
@@ -524,6 +522,7 @@ ht-degree: 95%
       + [Dynamic Media 작업](using/integrations/aem-dynamic.md)
       + {hide-from-toc}[카운트다운 타이머 삽입](using/integrations/countdown.md)
       + [GenStudio for Performance Marketing 작업](using/integrations/genstudio.md)
+      + [인텔리전트 서비스와 통합](using/integrations/intelligent-services.md)
       + 통합 {#integrations}
          + [통합 작업](using/integrations/integrations.md)
          + [개인화에 외부 통합 사용](using/integrations/integrations-personalization.md)
@@ -725,7 +724,7 @@ ht-degree: 95%
          + [결정 정책 만들기](using/experience-decisioning/create-decision-policy.md)
          + [메시지에 결정 정책 사용](using/experience-decisioning/use-decision-policy.md)
          + [의사 결정 정책에 조각 활용](using/experience-decisioning/fragments-decision-policies.md)
-         + [DM에서 일괄 처리 결정](using/experience-decisioning/batch-decisioning-direct-mail.md)
+         + DM에서 [일괄 처리 결정](using/experience-decisioning/batch-decisioning-direct-mail.md)
       + [결정 보고서](using/experience-decisioning/cja-reporting.md)
       + [결정 사용 사례](using/experience-decisioning/experience-decisioning-uc.md)
       + 이벤트 데이터 수집 {#experience-decisioning-collect-event-data}

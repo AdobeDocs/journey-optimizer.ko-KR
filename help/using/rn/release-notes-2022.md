@@ -10,29 +10,13 @@ level: Beginner, Intermediate
 hide: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 TQID: https://experienceleague.adobe.com/C8d6L0NrvfiqCKnEFxitLC-X-6mrG3oWvNTV2LwyWyI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 9372a9bed5c6da5db33567557944d69af9d56913
 workflow-type: tm+mt
 source-wordcount: 3603
 ht-degree: 99%
@@ -233,15 +217,15 @@ table>
 
 **여정**
 
-* **엔티티 데이터 세트**&#x200B;를 Adobe Journey Optimizer에서 바로 사용할 수 있는 데이터 세트로 이제 사용할 수 있습니다. 이 조회 데이터 세트에는 추적 및 피드백 데이터 세트 정보를 보강하는 메타 데이터가 포함되어 있습니다. 이렇게 하면 보다 이해하기 쉬운 데이터로 보고서 및 쿼리를 향상시킬 수 있습니다. [자세히 보기](../data/datasets-query-examples.md#entity-dataset)
+* **엔티티 데이터 세트**&#x200B;를 Adobe Journey Optimizer에서 바로 사용할 수 있는 데이터 세트로 이제 사용할 수 있습니다. 이 조회 데이터 세트에는 추적 및 피드백 데이터 세트 정보를 보강하는 메타 데이터가 포함되어 있습니다. 이렇게 하면 보다 이해하기 쉬운 데이터로 보고서 및 쿼리를 향상시킬 수 있습니다. [자세히 알아보기](../data/datasets-query-examples.md#entity-dataset)
 * 동일한 이벤트에 대해 여정이 여러 번 잘못 트리거되는 것을 방지하기 위해 단일 여정(이벤트 또는 대상자 선별 시작)에 새로운 가드레일을 추가했습니다. 프로필 재진입은 이제 기본 5분 동안 일시적으로 차단됩니다. [자세히 알아보기](../start/guardrails.md#events-g)
 
 **관리**
 
-* 허용 목록을 활성화하거나 비활성화할 때 이제 각 작업의 영향을 자세히 설명하는 새로운 경고가 표시됩니다. [자세히 보기](../configuration/allow-list.md#enable-allow-list)
+* 허용 목록을 활성화하거나 비활성화할 때 이제 각 작업의 영향을 자세히 설명하는 새로운 경고가 표시됩니다. [자세히 알아보기](../configuration/allow-list.md#enable-allow-list)
 * 채널 구성 만들기, IP 풀 만들기, 금지 목록 및 허용 목록 관리, SMS 채널 구성을 위한 사용자 인터페이스가 업데이트되었습니다.
-* 이제 특정 하위 도메인에 대한 첫 번째 채널 구성을 만들 때 처리 시간이 10분에서 10일정도 소요되며, 해당 하위 도메인을 사용하는 후속 구성을 만들 때는 최대 3시간만 소요됩니다. [자세히 보기](../configuration/channel-surfaces.md#create-channel-surface)
-* 랜딩 페이지 사전 설정 및 랜딩 페이지 하위 도메인을 만들기 위한 사용자 인터페이스가 업데이트되었습니다. [자세히 보기](../landing-pages/lp-subdomains.md)
+* 이제 특정 하위 도메인에 대한 첫 번째 채널 구성을 만들 때 처리 시간이 10분에서 10일정도 소요되며, 해당 하위 도메인을 사용하는 후속 구성을 만들 때는 최대 3시간만 소요됩니다. [자세히 알아보기](../configuration/channel-surfaces.md#create-channel-surface)
+* 랜딩 페이지 사전 설정 및 랜딩 페이지 하위 도메인을 만들기 위한 사용자 인터페이스가 업데이트되었습니다. [자세히 알아보기](../landing-pages/lp-subdomains.md)
 
 **감사 제어**
 
@@ -249,11 +233,11 @@ table>
 
 **아카이브 지원**
 
-* 새로운 **엔티티 데이터 세트**&#x200B;에는 보관을 위해 모든 채널에서 보낸 메시지의 형식 및 구조를 내보낼 수 있는 템플릿 필드가 포함되어 있습니다. [자세히 보기](../configuration/archiving-support.md)
+* 새로운 **엔티티 데이터 세트**&#x200B;에는 보관을 위해 모든 채널에서 보낸 메시지의 형식 및 구조를 내보낼 수 있는 템플릿 필드가 포함되어 있습니다. [자세히 알아보기](../configuration/archiving-support.md)
 
 **랜딩 페이지**
 
-* 이제 동일한 랜딩 페이지 내에서 다른 페이지에서 가져온 상황별 데이터를 사용할 수 있습니다. 예를 들어, 기본 랜딩 페이지의 구독 목록에 확인란을 연결하는 경우, 하위 페이지 “감사합니다”에서 해당 구독 목록을 사용할 수 있습니다. [자세히 보기](../landing-pages/lp-content.md#use-primary-page-context)
+* 이제 동일한 랜딩 페이지 내에서 다른 페이지에서 가져온 상황별 데이터를 사용할 수 있습니다. 예를 들어, 기본 랜딩 페이지의 구독 목록에 확인란을 연결하는 경우, 하위 페이지 “감사합니다”에서 해당 구독 목록을 사용할 수 있습니다. [자세히 알아보기](../landing-pages/lp-content.md#use-primary-page-context)
 
 <!--* When configuring the primary page, you can now create additional data to enable storing information when the landing page is being submitted. [Learn more](../landing-pages/lp-content.md#use-additional-data)-->
 
@@ -261,7 +245,7 @@ table>
 
 ### 기타 변경 사항{#sept-2022-other}
 
-* 여정 버스트 모드가 캠페인 신속 전달 모드로 대체되었습니다. [자세히 보기](../push/create-push.md#rapid-delivery)
+* 여정 버스트 모드가 캠페인 신속 전달 모드로 대체되었습니다. [자세히 알아보기](../push/create-push.md#rapid-delivery)
 * 성능을 개선하기 위해 대상자 읽기, 대상자 선별 또는 비즈니스 이벤트 활동으로 시작하는 여정에서 더 이상 경험 이벤트 필드 그룹을 사용할 수 없습니다. 이 변경 사항은 새로운 여정에만 적용됩니다. 기존 동작은 현재 동작을 유지합니다. [자세히 알아보기](../start/guardrails.md#expression-editor)
 * 예약된 대상자 읽기 여정의 1시간 제한이 제거되었습니다. 이제 이러한 여정을 지연 없이 실행할 수 있습니다.
 
@@ -329,13 +313,13 @@ table>
 
 **보고**
 
-* 이제 [여정] 글로벌 보고서에서 동의 정책 테이블 및 그래프를 사용할 수 있습니다. 이 위젯을 사용하여 사용자 정의 작업의 정책에서 제외된 프로필을 추적할 수 있습니다. [자세히 보기](../reports/journey-global-report-cja.md#journey-global)
+* 이제 [여정] 글로벌 보고서에서 동의 정책 테이블 및 그래프를 사용할 수 있습니다. 이 위젯을 사용하여 사용자 정의 작업의 정책에서 제외된 프로필을 추적할 수 있습니다. [자세히 알아보기](../reports/journey-global-report-cja.md#journey-global)
 
   최신 위젯에 액세스하려면 다른 보고 대시보드를 재설정해야 합니다. 대시보드 사용자 정의에 대한 자세한 내용은 [자세한 설명서](../reports/report-gs-cja.md)를 참조하세요.
 
 **관리**
 
-* 이제 SMS 채널에 사용할 기본 전화 번호를 업데이트할 수 있습니다. [자세히 보기](../configuration/primary-email-addresses.md)
+* 이제 SMS 채널에 사용할 기본 전화 번호를 업데이트할 수 있습니다. [자세히 알아보기](../configuration/primary-email-addresses.md)
 
 
 ## 2022년 7월 릴리스 {#july-2022-release}
@@ -418,7 +402,7 @@ table>
 * **여정 종료** - 여정 캔버스에서 **종료** 활동이 팔레트에서 제거되었습니다. 이제 종료 태그가 각 경로 끝에 기본적으로 추가되므로 제거할 수 없습니다. 이 개선 사항을 통해 고객이 여정에서 드롭된 위치를 여정 전문가의 작업 없이 더 잘 보고할 수 있습니다. 자세한 내용은 [설명서](../building-journeys/end-journey.md) 및 [기능 비디오](https://video.tv.adobe.com/v/345376){target="_blank"}를 참조하세요.
 
 
-* 이제 여정 속성에서 **프로필 시간대** 옵션이 기본적으로 선택되지 않습니다. [자세히 보기](../building-journeys/timezone-management.md#timezone-from-profiles)
+* 이제 여정 속성에서 **프로필 시간대** 옵션이 기본적으로 선택되지 않습니다. [자세히 알아보기](../building-journeys/timezone-management.md#timezone-from-profiles)
 
 **메시지**
 
@@ -426,11 +410,11 @@ table>
 
 **관리**
 
-* **PTR 기록 편집** - 이제 PTR 기록을 업데이트할 때 처리 시간은 최대 3시간만 소요됩니다. [자세히 보기](../configuration/ptr-records.md#processing)
+* **PTR 기록 편집** - 이제 PTR 기록을 업데이트할 때 처리 시간은 최대 3시간만 소요됩니다. [자세히 알아보기](../configuration/ptr-records.md#processing)
 
-* **허용 목록 UI** - 이제 Journey Optimizer 사용자 인터페이스를 사용하여 허용 목록에 새 이메일 주소 또는 도메인을 추가할 수 있습니다. [자세히 보기](../configuration/allow-list.md)
+* **허용 목록 UI** - 이제 Journey Optimizer 사용자 인터페이스를 사용하여 허용 목록에 새 이메일 주소 또는 도메인을 추가할 수 있습니다. [자세히 알아보기](../configuration/allow-list.md)
 
-* **허용 목록 로직 업데이트** - 이제 목록이 비어 있더라도 기능이 활성화되는 즉시 허용 목록 로직이 적용됩니다. [자세히 보기](../configuration/allow-list.md#logic)
+* **허용 목록 로직 업데이트** - 이제 목록이 비어 있더라도 기능이 활성화되는 즉시 허용 목록 로직이 적용됩니다. [자세히 알아보기](../configuration/allow-list.md#logic)
 
 * **URL 추적 매개 변수** - 이제 표현식 편집기를 사용하여 이메일 표면(즉, 사전 설정)에서 URL 추적 매개 변수를 구성할 수 있습니다. [자세히 알아보기](../email/email-settings.md#url-tracking)
 
@@ -524,7 +508,7 @@ table>
 <tr>
 <td>
 <p>이제 Journey Optimizer 샌드박스에서 다른 샌드박스(예: 비프로덕션 샌드박스에서 프로덕션 샌드박스로)로 경험을 다시 만들 수 있습니다. 이 새 기능은 여정이 올바르게 실행하기 위해 사용하는 개체 등 전체 여정을 특정 환경에서 다른 환경으로 복사합니다. 여정 외에도 오퍼, 메시지, 스키마, 데이터 세트, 데이터 소스, 이벤트, 작업과 같은 다른 구성 요소를 복사할 수 있습니다.</p>
-<p>자세한 내용은 <a href="../building-journeys/copy-to-sandbox.md">세부 설명서</a>를 참조하십시오.
+<p>자세한 내용은 <a href="../configuration/copy-objects-to-sandbox.md">세부 설명서</a>를 참조하십시오.
 </td>
 </tr>
 </tbody>
@@ -537,7 +521,7 @@ table>
 
 **의사 결정 관리**
 
-* **HTML 및 JSON 파일 지원** - 이제 Adobe Experience Cloud 자산 라이브러리의 외부 HTML 및 JSON 파일을 오퍼 표시 컨텐츠로 끌어다 놓을 수 있습니다. [자세히 보기](../offers/offer-library/add-representations.md#html-json)
+* **HTML 및 JSON 파일 지원** - 이제 Adobe Experience Cloud 자산 라이브러리의 외부 HTML 및 JSON 파일을 오퍼 표시 컨텐츠로 끌어다 놓을 수 있습니다. [자세히 알아보기](../offers/offer-library/add-representations.md#html-json)
 
 
 **이메일**
@@ -547,11 +531,11 @@ table>
 
 **관리**
 
-* **미리 보기 추적 URL 매개 변수** - 메시지 사전 설정을 구성할 때 URL 추적 매개 변수를 정의하는 경우 결과 추적 URL의 동적 미리 보기가 표시됩니다. [자세히 보기](../email/email-settings.md#url-tracking)
+* **미리 보기 추적 URL 매개 변수** - 메시지 사전 설정을 구성할 때 URL 추적 매개 변수를 정의하는 경우 결과 추적 URL의 동적 미리 보기가 표시됩니다. [자세히 알아보기](../email/email-settings.md#url-tracking)
 
-* **메시지 사전 설정 에디션** - 메시지 사전 설정을 업데이트할 때 드는 최대 처리 시간이 3시간으로 단축되었습니다. [자세히 보기](../configuration/channel-surfaces.md#edit-channel-surface)
+* **메시지 사전 설정 에디션** - 메시지 사전 설정을 업데이트할 때 드는 최대 처리 시간이 3시간으로 단축되었습니다. [자세히 알아보기](../configuration/channel-surfaces.md#edit-channel-surface)
 
-* **IP 풀 에디션** - IP 풀을 업데이트할 때 드는 최대 처리 시간이 최대 3시간으로 단축되었습니다. [자세히 보기](../configuration/ip-pools.md#edit-ip-pool)
+* **IP 풀 에디션** - IP 풀을 업데이트할 때 드는 최대 처리 시간이 최대 3시간으로 단축되었습니다. [자세히 알아보기](../configuration/ip-pools.md#edit-ip-pool)
 
 
 
@@ -630,23 +614,23 @@ table>
 
 **개인화**
 
-* **문자 숨김을 위한 새 도우미 함수** - `mask` 도우미 함수를 사용하면 문자열의 일부를 &quot;X&quot; 문자로 바꿀 수 있습니다. [자세히 보기](../personalization/functions/string.md#mask)
+* **문자 숨김을 위한 새 도우미 함수** - `mask` 도우미 함수를 사용하면 문자열의 일부를 &quot;X&quot; 문자로 바꿀 수 있습니다. [자세히 알아보기](../personalization/functions/string.md#mask)
 
 **랜딩 페이지**
 
 * **양식이 없는 랜딩 페이지** - 이제 양식을 포함하지 않고 방문자의 작업이 필요 없는 랜딩 페이지를 만들어 게시할 수 있습니다.
-* **랜딩 페이지 템플릿** - 이제 랜딩 페이지를 템플릿으로 저장하고 다른 랜딩 페이지를 만들 때 다시 사용할 수 있습니다. [자세히 보기](../landing-pages/lp-templates.md)
+* **랜딩 페이지 템플릿** - 이제 랜딩 페이지를 템플릿으로 저장하고 다른 랜딩 페이지를 만들 때 다시 사용할 수 있습니다. [자세히 알아보기](../landing-pages/lp-templates.md)
 * **기본 페이지로 돌아가기** - 이제 동일한 랜딩 페이지 내의 하위 페이지에서 기본 페이지에 링크를 추가할 수 있습니다.
-* **사용자 지정 JavaScript 지원** - 이제 사용자 지정 JavaScript를 랜딩 페이지 콘텐츠에 추가하여 고급 스타일을 수행하거나 사용자 지정 동작을 랜딩 페이지에 추가할 수 있습니다.    [자세히 보기](../landing-pages/lp-custom-js.md)
+* **사용자 지정 JavaScript 지원** - 이제 사용자 지정 JavaScript를 랜딩 페이지 콘텐츠에 추가하여 고급 스타일을 수행하거나 사용자 지정 동작을 랜딩 페이지에 추가할 수 있습니다.    [자세히 알아보기](../landing-pages/lp-custom-js.md)
 
 **여정**
 
-* **대상자 읽기** - 이제 일회성 대상자 읽기 여정을 실행한 후 30일이 지나면 여정이 완료 상태로 이동합니다. 예약된 대상자 읽기의 경우 마지막 읽기를 실행한 후 30일이 경과한 시점에 이동합니다. [자세히 보기](../building-journeys/read-audience.md)
+* **대상자 읽기** - 이제 일회성 대상자 읽기 여정을 실행한 후 30일이 지나면 여정이 완료 상태로 이동합니다. 예약된 대상자 읽기의 경우 마지막 읽기를 실행한 후 30일이 경과한 시점에 이동합니다. [자세히 알아보기](../building-journeys/read-audience.md)
 * **표현식 편집기** - 목록의 항목 수를 제한할 수 있도록 [limit](../building-journeys/functions/list-functions.md#limit) 함수가 추가되었습니다. 이제 [sort](../building-journeys/functions/list-functions.md#sort) 함수를 사용하여 목록 개체를 정렬할 수 있습니다. 또한 [disctinct](../building-journeys/functions/list-functions.md#distinct) 및 [distinctWithNull](../building-journeys/functions/list-functions.md#distinctWithNull) 함수에 listObject에 대한 지원도 추가되었습니다.
 
 **관리**
 
-* **라이선스 사용 대시보드 업데이트** - 이제 사용자 인터페이스에서 [!DNL Adobe Journey Optimizer]사용할 수 있는 라이선스 사용 대시보드가 **라이선스** 평균 프로필 풍부도의 정확한 값을 반영합니다. 이 지표 표시에 감소가 표시되는데, 이것은 이제 라이선스 제한이 올바로 보고됨을 의미합니다. [자세히 보기](../audience/license-usage.md)
+* **라이선스 사용 대시보드 업데이트** - 이제 사용자 인터페이스에서 [!DNL Adobe Journey Optimizer]사용할 수 있는 라이선스 사용 대시보드가 **라이선스** 평균 프로필 풍부도의 정확한 값을 반영합니다. 이 지표 표시에 감소가 표시되는데, 이것은 이제 라이선스 제한이 올바로 보고됨을 의미합니다. [자세히 알아보기](../audience/license-usage.md)
 
 
 ## 2022년 4월 릴리스 {#april-2022-release}
@@ -655,7 +639,7 @@ table>
 
 **랜딩 페이지**
 
-* **새로운 옵트인/옵트아웃 확인란 옵션** - 이제 옵트인/옵트아웃에 대한 단일 확인란을 구독 랜딩 페이지에 삽입할 수 있습니다. 사용자는 동의(옵트인)하려면 이 확인란을 선택하고 동의를 제거(옵트아웃)하려면 선택을 해제해야 합니다. [자세히 보기](../landing-pages/design-lp.md#design-lp)
+* **새로운 옵트인/옵트아웃 확인란 옵션** - 이제 옵트인/옵트아웃에 대한 단일 확인란을 구독 랜딩 페이지에 삽입할 수 있습니다. 사용자는 동의(옵트인)하려면 이 확인란을 선택하고 동의를 제거(옵트아웃)하려면 선택을 해제해야 합니다. [자세히 알아보기](../landing-pages/design-lp.md#design-lp)
 
 * **랜딩 페이지 필드 미리 채우기** - 이제 사용자에게 랜딩 페이지 필드를 프로필 정보로 미리 채우는 기능을 제공할 수 있습니다. [자세히 알아보기](../landing-pages/create-lp.md#configure-primary-page)
 
@@ -665,7 +649,7 @@ table>
 
 **관리**
 
-* **PTR 제출 기간** - PTR 편집 유효 기간이 몇 시간 수준으로 변경되었습니다. [자세히 보기](../configuration/ptr-records.md#processing)
+* **PTR 제출 기간** - PTR 편집 유효 기간이 몇 시간 수준으로 변경되었습니다. [자세히 알아보기](../configuration/ptr-records.md#processing)
 
 **이메일 디자인**
 
@@ -673,11 +657,11 @@ table>
 
 **사용자 인터페이스**
 
-* **Journey Optimizer UI의 상황별 도움말** - Journey Optimizer의 여러 페이지에 상황별 도움말 링크가 추가되었습니다. &quot;i&quot; 아이콘을 클릭할 수 있는 경우, 클릭하면 현재 기능에 대한 간단한 설명을 보고 관련 문서에 액세스합니다.
+* **Journey Optimizer UI의 상황별 도움말** - Journey Optimizer의 여러 페이지에 상황별 도움말 링크가 추가되었습니다. &amp;quot;i&amp;quot; 아이콘을 클릭할 수 있는 경우, 클릭하면 현재 기능에 대한 간단한 설명을 보고 관련 문서에 액세스합니다.
 
 **Adobe Campaign Standard 통합**
 
-이제 Adobe Campaign Standard 고객이 Journey Optimizer를 사용하여 이메일, 푸시 알림, SMS를 보낼 수 있습니다. 새로운 기본 제공 작업으로 Journey Optimizer에 Campaign Standard의 트랜잭션 메시지 기능을 활용하세요.  [자세히 보기](../action/acs-action.md)
+이제 Adobe Campaign Standard 고객이 Journey Optimizer를 사용하여 이메일, 푸시 알림, SMS를 보낼 수 있습니다. 새로운 기본 제공 작업으로 Journey Optimizer에 Campaign Standard의 트랜잭션 메시지 기능을 활용하세요.  [자세히 알아보기](../action/acs-action.md)
 
 <!--
 ### Fixes
