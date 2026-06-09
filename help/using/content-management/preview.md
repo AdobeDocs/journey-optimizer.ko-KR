@@ -8,16 +8,16 @@ exl-id: 6477270c-0309-411a-8254-c7ffc4419492
 feature_v2: []
 subfeature_v2:
   - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 263
-ht-degree: 4%
+source-wordcount: 231
+ht-degree: 3%
 
 ---
 
 # 테스트 프로필을 사용하여 콘텐츠 미리보기 {#preview}
 
-[테스트 프로필](test-profiles.md)을 선택하면 해당 데이터를 사용하여 콘텐츠를 미리 볼 수 있습니다. 다음 단계를 수행하십시오.
+[테스트 프로필](test-profiles.md)을 선택하면 해당 데이터를 사용하여 콘텐츠를 미리 볼 수 있습니다. 다음 중 하나의 시뮬레이션 방법을 사용할 수 있습니다.
 
 1. 메시지의 콘텐츠 편집 화면 또는 이메일 Designer에서 **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭한 다음 드롭다운에서 **[!UICONTROL 콘텐츠 시뮬레이션(AEP 프로필)]**&#x200B;을 선택합니다.
 
@@ -46,7 +46,3 @@ ht-degree: 4%
    >구성 세부 정보에서 오류가 발견되면 **[!UICONTROL 구성 세부 정보 보기]** 단추를 클릭하십시오. [자세히 알아보기](../email/surface-personalization.md#check-configuration)
 
 코드 기반 경험을 만들 때, 실제 시뮬레이션을 위해 브라우저 또는 모바일 장치에서 개인화된 콘텐츠를 바로 미리 볼 수 있습니다. [자세히 알아보기](../code-based/test-code-based.md#preview-on-device)
-
->[!NOTE]
->
->[!DNL Journey optimizer]을(를) 사용하면 CSV/JSON 파일에서 업로드하거나 수동으로 추가한 샘플 입력 데이터를 사용하여 콘텐츠를 미리 보고 증명을 전송하여 다양한 변형을 테스트할 수도 있습니다. [콘텐츠 변형을 시뮬레이션하는 방법을 알아봅니다](../test-approve/simulate-sample-input.md)

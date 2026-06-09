@@ -24,9 +24,9 @@ feature_v2:
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
   - id: f0577040-fadd-46a1-b0ae-9c7f828bb2da
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 728
+source-wordcount: 756
 ht-degree: 3%
 
 ---
@@ -114,7 +114,7 @@ Journey Optimizer을 사용하면 개인화 편집기에서 Adobe Experience Pla
    * `{{flight._myorg.booking.boardingTime}}`
    * `{{flight._myorg.booking.gate}}`
 
-1. 이제 코드가 준비되었으므로 평소와 같이 콘텐츠를 완료하고 **콘텐츠 시뮬레이션** 단추를 사용하여 테스트하여 개인화를 확인할 수 있습니다. [콘텐츠를 미리 보고 테스트하는 방법에 대해 알아보세요](../content-management/preview-test.md)
+1. 이제 코드가 준비되었으므로 평소대로 콘텐츠를 완료하고 시뮬레이션 방법을 사용하여 테스트할 수 있습니다. **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭하여 샘플 입력 데이터 또는 AI 자동 생성을 통해 콘텐츠 변형을 테스트하거나 **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭한 다음 드롭다운에서 **[!UICONTROL 콘텐츠 시뮬레이션(AEP 프로필)]**&#x200B;을 선택하여 테스트 프로필로 미리 봅니다. [콘텐츠를 미리 보고 테스트하는 방법에 대해 알아보세요](../content-management/preview-test.md)
 
 
    ![](assets/aep-data-sample.png)

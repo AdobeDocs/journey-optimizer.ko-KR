@@ -27,9 +27,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1962
+source-wordcount: 1991
 ht-degree: 6%
 
 ---
@@ -252,7 +252,7 @@ Bring your own Multi-armed bandit 실험은 다음에서만 사용할 수 있습
 
    ![](assets/content_experiment_19.png)
 
-1. 메시지 콘텐츠가 정의되면 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭하여 게재 렌더링을 제어하고 테스트 프로필로 개인화 설정을 확인합니다. [자세히 알아보기](../content-management/preview-test.md)
+1. 메시지 콘텐츠가 정의되면 시뮬레이션 방법 중 하나를 사용하여 게재 렌더링을 제어하고 개인화 설정을 확인합니다. 샘플 입력 데이터 또는 AI 자동 생성으로 콘텐츠 변형을 테스트하려면 **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭하고, **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭한 다음, 드롭다운에서 **[!UICONTROL 콘텐츠 시뮬레이션(AEP 프로필)]**&#x200B;을 선택하여 테스트 프로필로 미리 봅니다. [자세히 알아보기](../content-management/preview-test.md)
 
 실험을 구성한 다음에는 보고서를 통해 게재의 성공을 추적할 수 있습니다. [자세히 알아보기](../reports/campaign-global-report-cja-experimentation.md)
 

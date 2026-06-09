@@ -15,10 +15,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1883
-ht-degree: 39%
+source-wordcount: 1908
+ht-degree: 37%
 
 ---
 
@@ -112,7 +112,7 @@ UNUSED IDs in BJ
 
 | | 마케팅 | 트랜잭션 |
 | --- | --- | --- |
-| **옵트인 필요** | 예 | 아니요 |
+| **옵트인 필요** | 예 | 아니오 |
 | **비즈니스 규칙** | 적용됨(빈도 제한, 피로도 규칙) | 무시됨 |
 | **채널 구성 유형** | 마케팅 채널 구성 | 트랜잭션 채널 구성 |
 | **일반적인 사용 사례** | 프로모션, 뉴스레터, 시즌 캠페인 | 주문 확인, 암호 재설정, 중단 경고 |
@@ -199,7 +199,10 @@ UNUSED IDs in BJ
 
 ### 콘텐츠 확인 및 테스트 {#simulate-content-test-profiles}
 
-콘텐츠가 생성되면 **[!UICONTROL 콘텐츠 시뮬레이션]** 버튼을 사용하여 CSV/JSON 파일에서 업로드하거나 수동으로 추가한 테스트 프로필이나 샘플 입력 데이터로 콘텐츠를 미리 보고 테스트합니다. [자세히 알아보기](../../content-management/preview-test.md)
+콘텐츠가 만들어지면 다음 중 하나의 시뮬레이션 방법을 사용하여 콘텐츠를 미리 보고 테스트할 수 있습니다.
+
+* 샘플 입력 데이터 또는 AI 자동 생성을 사용하여 콘텐츠 변형을 테스트하려면 **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭하십시오. [콘텐츠 변형을 시뮬레이션하는 방법을 알아봅니다](../../test-approve/simulate-sample-input.md)
+* **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭한 다음 드롭다운에서 **[!UICONTROL 콘텐츠 시뮬레이션(AEP 프로필)]**&#x200B;을 선택하여 테스트 프로필로 콘텐츠를 미리 보고 테스트합니다. [자세히 알아보기](../../content-management/preview-test.md)
 
 ![콘텐츠 시뮬레이션 버튼을 표시하는 이미지](../assets/channel-simulate.png)
 

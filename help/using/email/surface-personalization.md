@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1214
+source-wordcount: 1191
 ht-degree: 6%
 
 ---
@@ -181,15 +181,12 @@ ht-degree: 6%
 
 ## 구성 확인 {#check-configuration}
 
-캠페인 또는 여정에서 개인화된 구성을 사용할 때 테스트 프로필을 사용하여 이메일 콘텐츠를 미리 보고 정의한 동적 설정으로 잠재적인 오류를 확인할 수 있습니다. 아래 단계를 수행합니다.
+캠페인 또는 여정에서 개인화된 구성을 사용할 때 이메일 콘텐츠를 미리 보고 정의한 동적 설정으로 잠재적인 오류가 있는지 확인할 수 있습니다. 다음 중 하나의 시뮬레이션 방법을 사용할 수 있습니다.
 
->[!NOTE]
->
->테스트 프로필 외에도 [!DNL Journey optimizer]을(를) 사용하면 CSV/JSON 파일에서 업로드하거나 수동으로 추가한 샘플 입력 데이터를 사용하여 콘텐츠를 미리 보고 증명을 전송하여 다양한 변형의 콘텐츠를 테스트할 수도 있습니다. [콘텐츠 변형을 시뮬레이션하는 방법을 알아봅니다](../test-approve/simulate-sample-input.md)
+* 샘플 입력 데이터 또는 AI 자동 생성을 사용하여 콘텐츠 변형을 테스트하려면 **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭하십시오. [콘텐츠 변형을 시뮬레이션하는 방법을 알아봅니다](../test-approve/simulate-sample-input.md)
+* **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭한 다음 드롭다운에서 **[!UICONTROL 콘텐츠 시뮬레이션(AEP 프로필)]**&#x200B;을 선택하여 테스트 프로필로 미리 봅니다.
 
 테스트 프로필을 사용하여 콘텐츠를 미리 보려면 다음 단계를 수행합니다.
-
-1. 메시지의 콘텐츠 편집 화면 또는 이메일 Designer에서 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭합니다. [자세히 알아보기](../content-management/preview.md)
 
 1. [테스트 프로필](../content-management/test-profiles.md)을 선택하세요.
 

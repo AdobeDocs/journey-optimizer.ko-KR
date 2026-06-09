@@ -25,9 +25,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 623
+source-wordcount: 652
 ht-degree: 1%
 
 ---
@@ -93,7 +93,7 @@ ht-degree: 1%
 
 1. 오퍼를 미리 보는 데 사용할 테스트 프로필을 선택하십시오.
 
-   1. **[!UICONTROL 콘텐츠 시뮬레이션 단추]** 단추를 클릭한 다음 **[!UICONTROL ID 네임스페이스]** 필드에서 테스트 프로필을 식별하는 데 사용할 네임스페이스를 선택하십시오.
+   1. **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭한 다음 드롭다운에서 **[!UICONTROL 콘텐츠 시뮬레이션(AEP 프로필)]**&#x200B;을 선택하고 **[!UICONTROL ID 네임스페이스]** 필드에서 테스트 프로필을 식별하는 데 사용할 네임스페이스를 선택합니다. 대신 샘플 입력 데이터 또는 AI 자동 생성으로 콘텐츠 변형을 테스트하려면 **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 직접 클릭합니다. [콘텐츠 변형을 시뮬레이션하는 방법을 알아봅니다](../test-approve/simulate-sample-input.md)
 
       >[!NOTE]
       >

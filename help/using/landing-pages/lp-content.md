@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1633
+source-wordcount: 1630
 ht-degree: 12%
 
 ---
@@ -177,7 +177,7 @@ ht-degree: 12%
 
    ![](assets/lp_designer-form-style-buttons.png)
 
-   **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 사용하여 마우스로 가리키면 단추 레이블 색상과 같은 일부 설정을 미리 볼 수 있습니다. 랜딩 페이지 [여기](create-lp.md#test-landing-page)를 테스트하는 방법에 대해 자세히 알아보세요.
+   시뮬레이션 방법 중 하나를 사용하여 마우스로 가리키면 단추 레이블 색상과 같은 일부 설정을 미리 볼 수 있습니다. [랜딩 페이지 테스트에 대해 자세히 알아보기](create-lp.md#test-landing-page)
 
    <!--![](assets/lp_designer-form-style-buttons-preview.png)-->
 
@@ -233,7 +233,7 @@ ht-degree: 12%
 
 이렇게 하려면 아래 절차를 따르십시오.
 
-1. 기본 페이지에서 **[!UICONTROL Form]** 구성 요소의 각 확인란을 관련 구독 목록에 연결합니다. [자세히 알아보기](#use-form-component).
+1. 기본 페이지에서 **[!UICONTROL Form]** 구성 요소의 각 확인란을 관련 구독 목록에 연결합니다. [자세히 알아보기](#use-form-component)
 
    ![](assets/lp_designer-form-luma-newsletter.png)
 

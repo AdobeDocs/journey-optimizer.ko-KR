@@ -22,9 +22,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 428
+source-wordcount: 450
 ht-degree: 2%
 
 ---
@@ -73,7 +73,12 @@ ht-degree: 2%
 
 ## 콘텐츠 테스트 및 확인
 
-콘텐츠가 정의되면 **[!UICONTROL 콘텐츠 시뮬레이션]** 버튼을 사용하여 CSV/JSON 파일에서 업로드하거나 수동으로 추가한 테스트 프로필 또는 샘플 입력 데이터로 콘텐츠를 미리 보고 테스트합니다. [콘텐츠를 미리 보고 테스트하는 방법에 대해 알아보세요](../content-management/preview-test.md). 캠페인 생성 화면으로 돌아가려면 왼쪽 화살표를 클릭합니다.
+콘텐츠가 정의되면 **[!UICONTROL 콘텐츠 시뮬레이션]** 버튼을 사용하여 콘텐츠를 미리 보고 테스트하십시오. 다음 중 하나의 시뮬레이션 방법을 사용할 수 있습니다.
+
+* 샘플 입력 데이터 또는 AI 자동 생성을 사용하여 콘텐츠 변형을 테스트하려면 **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭하십시오.
+* **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭한 다음 드롭다운에서 **[!UICONTROL 콘텐츠 시뮬레이션(AEP 프로필)]**&#x200B;을 선택하여 테스트 프로필로 미리 봅니다.
+
+[콘텐츠를 미리 보고 테스트하는 방법에 대해 알아보세요](../content-management/preview-test.md). 캠페인 생성 화면으로 돌아가려면 왼쪽 화살표를 클릭합니다.
 
 ![](assets/create-campaign-design.png)
 

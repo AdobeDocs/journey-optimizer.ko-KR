@@ -18,9 +18,9 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1114
+source-wordcount: 1143
 ht-degree: 1%
 
 ---
@@ -175,4 +175,4 @@ ht-degree: 1%
 
    ![](assets/aem-fragment-attribute.png)
 
-1. 캠페인이나 여정을 활성화하기 전에 **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 사용하여 AEM 콘텐츠 조각 필드 값이 특정 테스트 프로필에 대해 렌더링되는 방법을 미리 볼 수 있습니다. [콘텐츠 시뮬레이션에 대한 자세한 정보](../content-management/preview-test.md)
+1. 캠페인이나 여정을 활성화하기 전에 시뮬레이션 방법을 사용하여 AEM 콘텐츠 조각 필드 값이 렌더링되는 방법을 미리 봅니다. 샘플 입력 데이터 또는 AI 자동 생성으로 콘텐츠 변형을 테스트하려면 **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭하고, **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭한 다음 드롭다운에서 **[!UICONTROL 콘텐츠 시뮬레이션(AEP 프로필)]**&#x200B;을 선택하여 특정 테스트 프로필로 미리 봅니다. [콘텐츠 시뮬레이션에 대한 자세한 정보](../content-management/preview-test.md)

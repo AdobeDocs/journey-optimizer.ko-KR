@@ -28,10 +28,10 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 754
-ht-degree: 50%
+source-wordcount: 743
+ht-degree: 51%
 
 ---
 
@@ -142,7 +142,7 @@ ht-degree: 50%
    >
    >코드 편집기로 전환한 후에는 이 이메일의 비주얼 디자이너로 되돌릴 수 없습니다.
 
-1. 콘텐츠가 준비되면 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭하여 렌더링을 확인합니다. 데스크탑 또는 모바일 보기 중 선택할 수 있습니다. 테스트 프로필을 선택하고 콘텐츠를 미리 보는 방법에 대한 자세한 내용은 [콘텐츠 관리](../content-management/preview-test.md) 섹션에서 확인할 수 있습니다.
+1. 콘텐츠가 준비되면 두 방법 중 하나를 사용하여 렌더링을 확인합니다. 데스크탑 또는 모바일 보기 중 선택할 수 있습니다. 자세한 정보는 [콘텐츠 관리](../content-management/preview-test.md) 섹션에서 확인할 수 있습니다.
 
    ![](assets/email_designer_simulate_content.png)
 

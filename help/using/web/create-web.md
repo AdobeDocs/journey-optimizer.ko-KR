@@ -25,9 +25,9 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1646
+source-wordcount: 1647
 ht-degree: 17%
 
 ---
@@ -166,9 +166,10 @@ ht-degree: 17%
 >title="웹 경험 미리보기"
 >abstract="웹 경험이 어떻게 시각화되는지 시뮬레이션을 수행합니다."
 
-웹 디자이너를 사용하여 [웹 경험을 작성](web-visual-editor.md)하면 테스트 프로필을 사용하여 수정된 웹 페이지를 미리 볼 수 있습니다. 개인화된 콘텐츠를 삽입한 경우 테스트 프로필 데이터를 활용하여 이 콘텐츠가 어떻게 표시되는지 확인할 수 있습니다.
+웹 디자이너를 사용하여 [웹 경험을 작성](web-visual-editor.md)하면 다음 시뮬레이션 방법을 사용하여 수정된 웹 페이지를 미리 볼 수 있습니다.
 
-이렇게 하려면 여정 또는 캠페인 콘텐츠 편집 화면에서 **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭한 다음 테스트 프로필을 추가하여 테스트 프로필 데이터를 사용하여 웹 페이지를 확인합니다.
+* 샘플 입력 데이터 또는 AI 자동 생성을 사용하여 콘텐츠 변형을 테스트하려면 **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭하십시오. [콘텐츠 변형을 시뮬레이션하는 방법을 알아봅니다](../test-approve/simulate-sample-input.md)
+* **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭한 다음 드롭다운에서 **[!UICONTROL 콘텐츠 시뮬레이션(AEP 프로필)]**&#x200B;을 선택하여 테스트 프로필을 미리 보고 테스트 프로필을 추가하여 웹 페이지를 확인합니다.
 
 ![](assets/web-designer-preview.png)
 
