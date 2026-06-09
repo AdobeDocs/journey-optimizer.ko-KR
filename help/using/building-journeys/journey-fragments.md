@@ -8,22 +8,18 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 조각, 여정, 재사용, 노드, 캔버스, 인벤토리, 재사용 가능
-badge: label="제한 공개" type="Informative"
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bd17716b18efd2a9043bcfd7389e6a4082f56bcc
 workflow-type: tm+mt
-source-wordcount: 1484
-ht-degree: 10%
+source-wordcount: 1482
+ht-degree: 9%
 
 ---
 
 
 # 여정 조각 {#journey-fragments}
-
->[!AVAILABILITY]
->이 기능은 현재 제한된 가용성입니다. 액세스 권한을 요청하려면 Adobe 담당자에게 문의하십시오.
 
 여정 조각 은 한 번 빌드하고 샌드박스 전체의 여정에 드롭할 수 있는 재사용 가능한 여정 노드 세트입니다. 자격 확인, 기본 채널 라우팅 논리 또는 환영 시퀀스 중 어느 것이든 조각은 팀이 더 빨리 이동하고 일관성을 유지하는 데 도움이 됩니다. 매번 처음부터 동일한 논리를 다시 작성하지 않아도 됩니다. [사용 사례 예제를 참조하십시오.](#examples)
 
@@ -187,6 +183,7 @@ ht-degree: 10%
 * [태그](tags.md) 및 **레이블**&#x200B;은(는) 조각에서 지원됩니다.
 * [감사 로그](../privacy/audit-logs.md)가 지원됩니다.
 * 이전 스택에서 실행 중인 여정(인라인 캠페인 사용)는 여정 조각을 지원하지 않습니다. 이 기능을 사용하기 전에 이러한 여정을 복제하여 새 스택으로 이동합니다.
+* 여정 조각은 [샌드박스 도구](../configuration/copy-objects-to-sandbox.md)를 지원합니다. 조각을 패키징하여 다른 샌드박스로 내보낼 수 있습니다.
 
 ## 사용 사례 예 {#examples}
 
