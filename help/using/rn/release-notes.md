@@ -26,7 +26,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: ac5d3c36f0af1db72a83d25e49e20ff59dbfa5bd
 workflow-type: tm+mt
 source-wordcount: 2840
 ht-degree: 21%
@@ -62,6 +62,7 @@ ht-degree: 21%
 <td>
 <p>이제 여정을 시뮬레이션으로 설정할 수 있습니다. 이 모드에서는 시뮬레이션된 사용자를 사용하여 논리의 유효성을 검사할 수 있습니다. 시뮬레이션된 사용자는 시뮬레이션을 위해 특별히 생성된 임시 프로필로, Adobe Experience Platform에서 영구 테스트 프로필을 관리할 필요 없이 자유롭게 테스트할 수 있습니다. </p>
 <p>이전에 제한된 가용성으로 릴리스된 여정 시뮬레이션은 이제 모든 환경에서 사용할 수 있습니다. 이번 일반 가용성 릴리스를 통해 이제 Journey Agent을 사용하여 시뮬레이션 메뉴에서 직접 시뮬레이션된 사용자 및 이벤트를 생성할 수 있습니다.</p>
+<p><img src="assets/do-not-localize/journey-simulation.gif"></p>
 <p>자세한 내용은 <a href="../building-journeys/simulate-journey-gs.md">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2026년 6월 9일</p>
 </td>
