@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 09c00832ec61f9b5a4c03867ddb227abb079afe1
+source-git-commit: 51d356bfab2f989422d43c5e6582901519f5ebf1
 workflow-type: tm+mt
-source-wordcount: 1945
+source-wordcount: 1851
 ht-degree: 10%
 
 ---
@@ -90,30 +90,11 @@ Adobe Journey Optimizer은 새로운 기능, 기존 기능 개선 사항 및 버
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>오케스트레이션된 캠페인에 대한 Quiet Hours 지원</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 오케스트레이션된 캠페인에 <strong>조용한 시간</strong>을 적용할 수 있습니다. 방해 금지 모드를 사용하면 특정 기간 동안 메시지가 전송되지 않도록 <strong>시간 기반 제외</strong>를 정의할 수 있으므로, 캠페인 오케스트레이션 사용 사례에서 고객 환경 설정 및 준수 요구 사항을 준수하는 데 도움이 됩니다.</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14054">DOCAC JIRA 작업 링크</a></p>
-</td>
-</tr>
-</tbody>
-</table>
-
 * **오케스트레이션된 캠페인의 관계형 데이터에 대한 루프 기반 개인화** - 이제 개인화 편집기는 주문, 계정 또는 예약과 같은 관계형 컬렉션을 반복하고 단일 전자 메일 또는 SMS 내에서 레코드당 하나의 콘텐츠 블록을 렌더링하는 **루프 블록**&#x200B;을 지원합니다. 컬렉션은 표현식 쓰기가 필요하지 않고 개인화 토큰을 사용하여 데이터 선택기를 통해 구성됩니다.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14703">DOCAC JIRA 작업에 연결</a>
 
 * **받는 사람 및 캠페인별 전자 메일 보낸 사람 세부 정보 개인화** - 이제 오케스트레이션된 캠페인이 프로필 특성 또는 관계 데이터를 사용하여 보낸 사람 이름, 보낸 사람 주소 및 회신 주소를 포함한 **전자 메일 머리글 필드**&#x200B;의 개인화를 지원합니다. 이를 통해 보낸 사람의 세부 정보가 하나의 회사 주소를 통해 모든 전송을 라우팅하는 대신 각 받는 사람에 대한 관련 조언자, 위치 또는 분기를 반영할 수 있습니다. 헤더 값은 채널 수준에서 설정할 수 있으며 보다 정밀한 제어를 위해 컨텍스트 데이터를 사용하여 캠페인별로 재정의할 수 있습니다.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13761">DOCAC JIRA 작업에 연결</a>
-
-* **오케스트레이션된 캠페인의 차원 단순화** - 이제 활성 **타깃팅 차원**&#x200B;이 워크플로 캔버스에 표시되므로 채널 활동에서 사용하는 차원을 확인할 수 있습니다. 다중 엔티티 세분화 흐름은 더 이상 별도의 &quot;차원 변경&quot; 활동이 필요하지 않으므로 더 간단합니다. 또한 이제 메시지가 프로필 수준에서 전송되는지 또는 보조 차원 수준에서 전송되는지를 명시적으로 선택할 수 있습니다.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13554">DOCAC JIRA 작업에 연결</a>
 
 * **캠페인의 기본 실행 필드 재정의** - 이전에는 여정 수준에서 사용할 수 있었지만, 이제 캠페인 매개 변수에서 이메일, SMS 및 WhatsApp 게재에 대해 전역적으로 설정된 기본 **실행 필드**&#x200B;을(를) 재정의할 수 있습니다.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14718">DOCAC JIRA 작업에 연결</a>
