@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: ea1a283aacceafad32bd26560941a1bf613f3fea
+source-git-commit: d7d879286ccb9c2e4567bb70a8f78d34bd663c54
 workflow-type: tm+mt
-source-wordcount: 2002
+source-wordcount: 2035
 ht-degree: 10%
 
 ---
@@ -239,7 +239,7 @@ Adobe Journey Optimizer은 새로운 기능, 기존 기능 개선 사항 및 버
 <table>
 <thead>
 <tr>
-<th><strong>Adobe Experience Manager을 사용한 컨텐츠 조각</strong><br/></th>
+<th><strong>Journey Optimizer의 Adobe Experience Manager 콘텐츠 조각 개선 사항</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -251,8 +251,12 @@ Adobe Journey Optimizer은 새로운 기능, 기존 기능 개선 사항 및 버
 <li>조각을 선택하면 해당 컨텍스트가 메시지 전체에 유지되므로 작성자가 다시 선택하지 않고도 콘텐츠 블록 간 조각 필드를 재사용할 수 있습니다.</li>
 <li>라이프사이클 관리를 개선하기 위해 새로운 전용 콘텐츠 조각 목록 페이지가 Journey Optimizer에 도입되었습니다. 사용자는 동기화 중단 조각을 식별하고 수동 동기화를 트리거하여 최신 상태를 유지할 수 있습니다.</li>
 <li>이제 로케일 및 변형 지원을 통해 마케터는 보다 의도적으로 동일한 콘텐츠 조각의 대체 버전을 사용하여 작업할 수 있습니다.</li>
+<li>이제 Adobe Journey Optimizer에서 Adobe Experience Manager 콘텐츠에 액세스하는 방법을 유연하게 사용할 수 있습니다. 이 릴리스에서는 여정 및 캠페인에 사용된 콘텐츠 조각에 대해 <strong>소스 리포지토리를 전환</strong>하는 기능을 도입했습니다.</li>
+<li>이제 <b>Managed Services</b>과(와) 호환되므로 개인화를 위해 Journey Optimizer에서 직접 Adobe Experience Manager 콘텐츠 조각을 보고 액세스하고 사용할 수 있습니다. 구성 설정에 Adobe Experience Manager Managed Services 저장소 URL을 1회 설정으로 추가하기만 하면 됩니다.</li>
 </ul>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-14686">DOCAC JIRA 작업 링크</a></p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14821">DOCAC JIRA 작업 링크</a></p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14684">DOCAC JIRA 작업 링크</a></p>
 </td>
 </tr>
 </tbody>
@@ -261,24 +265,18 @@ Adobe Journey Optimizer은 새로운 기능, 기존 기능 개선 사항 및 버
 <table>
 <thead>
 <tr>
-<th><strong>Adobe Experience Manager 저장소 구성</strong><br/></th>
+<th><strong>Adobe Experience Manager Asset Essentials와 AI Assistant 통합</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 Adobe Journey Optimizer에서 Adobe Experience Manager 콘텐츠에 액세스하는 방법을 유연하게 사용할 수 있습니다. 이 릴리스에서는 여정 및 캠페인에 사용된 콘텐츠 조각에 대해 <strong>소스 리포지토리를 전환</strong>하는 기능을 도입했습니다.</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14684">DOCAC JIRA 작업 링크</a></p>
+<p>이제 이메일, 웹 페이지 및 푸시 알림을 생성할 때 AI 도우미가 Adobe Experience Manager Assets에서 직접 <b>브랜드 승인 이미지</b>를 자동으로 가져옵니다. 이렇게 하면 Assets을 수동으로 검색하거나 일반 AI 폴백에 의존할 필요가 없어 모든 시각적 요소가 완벽하게 정확하고 브랜드 규정을 준수하도록 할 수 있습니다.</p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14761">DOCAC JIRA 작업 링크</a></p>
 </td>
 </tr>
 </tbody>
 </table>
-
-* **기본 Adobe Experience Manager 콘텐츠 조각(Managed Services) 통합** - 이제 **Managed Services**&#x200B;과(와) 호환되며, 개인화를 위해 Journey Optimizer에서 직접 Adobe Experience Manager 콘텐츠 조각을 보고, 액세스하고, 사용할 수 있습니다. 구성 설정에 Adobe Experience Manager Managed Services 저장소 URL을 1회 설정으로 추가하기만 하면 됩니다.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14821">DOCAC JIRA 작업에 연결</a>
-
-* **Adobe Experience Manager Asset Essentials와 AI Assistant 통합** - 이제 이메일, 웹 페이지 및 푸시 알림을 생성할 때 AI Assistant가 Adobe Experience Manager Assets에서 직접 **브랜드 승인 이미지**&#x200B;를 자동으로 가져옵니다. 이렇게 하면 Assets을 수동으로 검색하거나 일반 AI 폴백에 의존할 필요가 없어 모든 시각적 요소가 완벽하게 정확하고 브랜드 규정을 준수하도록 할 수 있습니다.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14761">DOCAC JIRA 작업에 연결</a>
 
 ### 사용자 지정 채널 {#june-26-channels}
 
