@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 1f3adcb8c636ccd1a354af910441f4bda57015d7
+source-git-commit: c59ff3fc53db9654789dbb1b1be0baf04937d64a
 workflow-type: tm+mt
-source-wordcount: 1809
+source-wordcount: 1842
 ht-degree: 10%
 
 ---
@@ -174,6 +174,9 @@ Adobe Journey Optimizer은 새로운 기능, 기존 기능 개선 사항 및 버
 </tr>
 </tbody>
 </table>
+
+* **조각에 대해 편집 가능한 필드에 서식 있는 텍스트** - 이제 전자 메일 콘텐츠에 사용되는 사용자 지정 가능한 조각에 서식 있는 텍스트를 추가할 수 있습니다. 예를 들어 텍스트 구성 요소를 이메일 Designer에서 편집 가능한 필드로 사용하는 경우 콘텐츠의 형식(예: 굵은 글꼴 및 기울임꼴)을 직접 지정하고 하이퍼링크를 삽입할 수 있습니다.
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-14715">DOCAC JIRA 작업에 연결</a>
 
 * **조각의 텍스트 모드 지원** - 텍스트 기반 전자 메일 워크플로를 지원하기 위해 이제 해당 조각을 포함하는 일반 텍스트 버전의 전자 메일에서 최적으로 사용할 수 있도록 시각적 조각의 텍스트 버전을 만들고 관리할 수 있습니다. 현재 릴리스 전에 생성된 조각을 사용하는 경우 조각 텍스트 버전이 이메일 Designer 및 수신자에게 전달된 최종 이메일 모두에서 잘못 렌더링될 수 있습니다. 이전 조각을 사용하여 최상의 결과를 얻으려면 각 조각을 편집, 저장 및 다시 게시하십시오.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14204">DOCAC JIRA 작업에 연결</a>
