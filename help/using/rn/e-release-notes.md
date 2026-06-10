@@ -15,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: e04a4e5ae5fb69494b46f7ae25095c637bb19842
+source-git-commit: 5e5a00be28f5b7bcae1fd3810f64302a0248799c
 workflow-type: tm+mt
-source-wordcount: 1791
-ht-degree: 10%
+source-wordcount: 1737
+ht-degree: 9%
 
 ---
 
@@ -39,23 +39,6 @@ Adobe Journey Optimizer은 새로운 기능, 기존 기능 개선 사항 및 버
 ### 여정 {#june-26-journeys}
 
 이 릴리스의 여정은 다음과 같은 기능 및 개선 사항을 제공합니다.
-
-<table>
-<thead>
-<tr>
-<th><strong>여정 중재 - 공식</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 <strong>수식</strong>을 사용하여 고객 프로필 특성 및 컨텍스트 요인에 따라 자동으로 <strong>우선 순위 지정 및 중재</strong>할 수 있으므로 고객이 가장 관련성이 높은 여정을 입력하도록 할 수 있습니다.</p>
-<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14719">DOCAC JIRA 작업 링크</a></p>
-</td>
-</tr>
-</tbody>
-</table>
 
 * **실시간 여정 제한 및 새 보호 기능 증가** - 이제 최대 **200개의 활성 여정을 사용할 수 있습니다**. 이전 제한인 100개에서 증가했습니다.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14826">DOCAC JIRA 작업에 연결</a>
