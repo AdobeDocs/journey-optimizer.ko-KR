@@ -27,9 +27,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 5f839a4ab1e599764c9b797e4a9a42850808e3e3
 workflow-type: tm+mt
-source-wordcount: 1114
+source-wordcount: 1128
 ht-degree: 5%
 
 ---
@@ -56,7 +56,7 @@ Journey Optimizer을 사용하면 데이터 세트의 콘텐츠를 내보내기 
 * [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html?lang=ko){target="_blank"}
 
 
-## 전제 조건 {#prerequisites}
+## 사전 요구 사항 {#prerequisites}
 
 데이터 세트를 내보내려면 아래 나열된 [액세스 제어 권한](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ko#permissions){target="_blank"}이 필요합니다. [액세스 제어 개요](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html?lang=ko){target="_blank"}를 읽거나 제품 관리자에게 문의하여 필요한 권한을 받으십시오.
 
@@ -112,7 +112,7 @@ Journey Optimizer을 사용하면 데이터 세트의 콘텐츠를 내보내기 
 | AJO 엔티티 데이터 세트 | 최종 사용자에게 전송된 메시지의 엔티티 메타데이터를 저장하는 데이터 세트입니다.  |
 | AJO 인바운드 활동 이벤트 데이터 세트 | 게재 및 상호 작용 이벤트를 위한 Journey Optimizer 웹 및 inApp 채널에 대한 데이터 세트입니다. |
 | AJO 대화형 메시징 프로필 데이터 세트 | API 트리거 캠페인을 지원하기 위해 만든 프로필을 저장합니다. |
-| AJO 메시지 피드백 이벤트 데이터 세트 | 메시지 게재 로그. Journey Optimizer의 모든 메시지 게재에 대한 정보입니다. 보고하고 대상자를 만드는 데 사용합니다. 바운스에 대한 이메일 ISP의 피드백도 이 데이터 세트에 기록됩니다. 이 데이터 세트에는 모든 채널에 대한 이벤트(이메일, SMS/RCS/MMS, DM 등)가 포함됩니다. |
+| AJO 메시지 피드백 이벤트 데이터 세트 | 메시지 게재 로그. Journey Optimizer의 모든 메시지 게재에 대한 정보입니다. 보고하고 대상자를 만드는 데 사용합니다. 바운스에 대한 이메일 ISP의 피드백도 이 데이터 세트에 기록됩니다. 이 데이터 집합에는 모든 채널의 이벤트가 포함됩니다. 전자 메일, SMS/RCS/MMS, DM 등 **이 데이터 집합은 일괄 처리 수집을 사용하므로 최대 2시간의 데이터 지연이 예상됩니다.** |
 | AJO 메시지 내보내기 데이터 세트 | 내보내기로 표시된 보낸 전자 메일 및 SMS 메시지 콘텐츠를 저장합니다. 데이터는 수집 후 7일 동안 유지됩니다. |
 | AJO 프로필 카운터 확장 | counter_value 및 expiryDate를 포함하고 counter_id로 키로 처리된 오브젝트 맵을 보관합니다. |
 | AJO 푸시 프로필 데이터 세트 | 프로필의 푸시 토큰을 저장합니다. |

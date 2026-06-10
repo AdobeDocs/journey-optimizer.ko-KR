@@ -27,9 +27,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
+source-git-commit: 5f839a4ab1e599764c9b797e4a9a42850808e3e3
 workflow-type: tm+mt
-source-wordcount: 1094
+source-wordcount: 1118
 ht-degree: 2%
 
 ---
@@ -98,6 +98,10 @@ _인터페이스의 이름: AJO 메시지 피드백 이벤트 데이터 세트_
 Journey Optimizer에서 이메일 및 푸시 애플리케이션 피드백 이벤트를 수집하기 위한 데이터 세트입니다.
 
 관련 스키마는 AJO 메시지 피드백 이벤트 스키마입니다.
+
+>[!NOTE]
+>
+>이 데이터 세트는 일괄 처리 수집을 사용합니다. 이 데이터 세트를 쿼리하거나 보고 목적으로 사용할 때 최대 2시간의 데이터 지연이 예상됩니다.
 
 이 쿼리는 지정된 메시지에 대한 다른 이메일 피드백 상태(보냄, 바운스 등)의 수를 보여줍니다.
 
@@ -192,7 +196,7 @@ ORDER BY timestamp DESC;
 
 여기서 날짜 형식은 `YYYY-MM-DD HH:MM:SS`입니다.
 
-식별되면 Journey Optimizer 제외 목록에서 해당 주소를 제거합니다. [자세히 알아보기](../configuration/manage-suppression-list.md#remove-from-suppression-list).
+식별되면 Journey Optimizer 제외 목록에서 해당 주소를 제거합니다. [자세히 알아보기](../configuration/manage-suppression-list.md#remove-from-suppression-list)
 
 >[!NOTE]
 >
