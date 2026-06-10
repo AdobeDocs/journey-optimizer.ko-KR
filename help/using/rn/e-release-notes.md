@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 51d356bfab2f989422d43c5e6582901519f5ebf1
+source-git-commit: 1f3adcb8c636ccd1a354af910441f4bda57015d7
 workflow-type: tm+mt
-source-wordcount: 1851
+source-wordcount: 1809
 ht-degree: 10%
 
 ---
@@ -96,8 +96,8 @@ Adobe Journey Optimizer은 새로운 기능, 기존 기능 개선 사항 및 버
 * **받는 사람 및 캠페인별 전자 메일 보낸 사람 세부 정보 개인화** - 이제 오케스트레이션된 캠페인이 프로필 특성 또는 관계 데이터를 사용하여 보낸 사람 이름, 보낸 사람 주소 및 회신 주소를 포함한 **전자 메일 머리글 필드**&#x200B;의 개인화를 지원합니다. 이를 통해 보낸 사람의 세부 정보가 하나의 회사 주소를 통해 모든 전송을 라우팅하는 대신 각 받는 사람에 대한 관련 조언자, 위치 또는 분기를 반영할 수 있습니다. 헤더 값은 채널 수준에서 설정할 수 있으며 보다 정밀한 제어를 위해 컨텍스트 데이터를 사용하여 캠페인별로 재정의할 수 있습니다.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13761">DOCAC JIRA 작업에 연결</a>
 
-* **캠페인의 기본 실행 필드 재정의** - 이전에는 여정 수준에서 사용할 수 있었지만, 이제 캠페인 매개 변수에서 이메일, SMS 및 WhatsApp 게재에 대해 전역적으로 설정된 기본 **실행 필드**&#x200B;을(를) 재정의할 수 있습니다.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14718">DOCAC JIRA 작업에 연결</a>
+* **오케스트레이션된 캠페인의 차원 단순화** - 이제 활성 **타깃팅 차원**&#x200B;이 워크플로 캔버스에 표시되므로 채널 활동에서 사용하는 차원을 확인할 수 있습니다. 다중 엔티티 세분화 흐름은 더 이상 별도의 &quot;차원 변경&quot; 활동이 필요하지 않으므로 더 간단합니다. 또한 이제 메시지가 프로필 수준에서 전송되는지 또는 보조 차원 수준에서 전송되는지를 명시적으로 선택할 수 있습니다.
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-13554">DOCAC JIRA 작업에 연결</a>
 
 ### 결정 {#june-26-decisioning}
 
@@ -124,26 +124,28 @@ Adobe Journey Optimizer은 새로운 기능, 기존 기능 개선 사항 및 버
 
 이 릴리스의 이메일 채널에는 다음과 같은 기능 및 개선 사항이 적용됩니다.
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>고급 구성 요소 - 레이아웃 (수퍼 구성 요소)</strong><br/></th>
+<th><strong>Advanced Components</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 전자 메일 Designer에 머리글, 제품 카드(1, 2 또는 3열), 정보 블록 및 바닥글과 같은 <strong>바로 사용할 수 있는 레이아웃 구성 요소 라이브러리</strong>가 포함되어 있으므로 전자 메일 캔버스로 바로 끌어서 놓을 수 있습니다. 각 구성 요소는 편집 가능한 속성(이미지, 제목, 텍스트, 버튼, 링크)으로 사전 구성되어 있으며 WYSIWYG 인터페이스를 통해 완전히 맞춤화할 수 있으므로 처음부터 구조를 빌드하지 않고도 이메일 작성 시간을 단축할 수 있습니다.</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14877">DOCAC JIRA 작업 링크</a></p>
+<p>The Email Designer now includes a library of ready-to-use layout components — such as Headers, Product Cards (1, 2, or 3 columns), Information blocks, and Footers — that you can drag and drop directly into your email canvas. Each component comes pre-configured with editable properties (image, title, text, button, links) and can be fully customized through the WYSIWYG interface, speeding up email creation without requiring you to build structures from scratch.</p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14877">Link to DOCAC JIRA task</a></p>
 </td>
 </tr>
 </tbody>
 </table>
+-->
 
 <table>
 <thead>
 <tr>
-<th><strong>이메일 Designer에서 컨텐츠 확인</strong><br/></th>
+<th><strong>이메일 Designer의 콘텐츠 확인</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -173,10 +175,10 @@ Adobe Journey Optimizer은 새로운 기능, 기존 기능 개선 사항 및 버
 </tbody>
 </table>
 
-* **조각의 텍스트 모드 지원** - 이제 텍스트 기반 이메일 워크플로를 지원하기 위해 해당 조각을 포함하는 일반 텍스트 버전의 이메일에 최적의 사용을 위해 시각적 조각의 **텍스트 버전**&#x200B;을 만들고 관리할 수 있습니다. 현재 릴리스 전에 생성된 조각을 사용하는 경우 조각 텍스트 버전이 이메일 Designer 및 수신자에게 전달된 최종 이메일 모두에서 잘못 렌더링될 수 있습니다. 이전 조각을 사용하여 최상의 결과를 얻으려면 각 조각을 편집, 저장 및 다시 게시하십시오.
+* **조각의 텍스트 모드 지원** - 텍스트 기반 전자 메일 워크플로를 지원하기 위해 이제 해당 조각을 포함하는 일반 텍스트 버전의 전자 메일에서 최적으로 사용할 수 있도록 시각적 조각의 텍스트 버전을 만들고 관리할 수 있습니다. 현재 릴리스 전에 생성된 조각을 사용하는 경우 조각 텍스트 버전이 이메일 Designer 및 수신자에게 전달된 최종 이메일 모두에서 잘못 렌더링될 수 있습니다. 이전 조각을 사용하여 최상의 결과를 얻으려면 각 조각을 편집, 저장 및 다시 게시하십시오.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14204">DOCAC JIRA 작업에 연결</a>
 
-* **고객 응대 시나리오를 사용한 일괄 전송 처리량 벤치마크 업데이트됨** - Adobe Journey Optimizer의 **일괄 전송 처리량 벤치마크**&#x200B;는 조건부 논리를 사용하는 기본 전송부터 복잡한 동적 콘텐츠까지 여러 개인화 시나리오에서 프로덕션 수준의 성능을 반영하도록 업데이트되었습니다. 이제 고객이 메시지 볼륨을 정확하게 계획하는 데 도움이 되도록 제품 설명서에서 새로 고친 지표를 사용할 수 있습니다.
+* **고객 응대 시나리오를 사용한 일괄 처리 종료 처리량 벤치마크 업데이트됨** - Adobe Journey Optimizer의 일괄 전송 처리량 벤치마크는 기본 전송에서 조건부 논리를 사용하는 복잡한 동적 콘텐츠로의 여러 개인화 시나리오에서 프로덕션 수준의 성능을 반영하도록 업데이트되었습니다. 이제 고객이 메시지 볼륨을 정확하게 계획하는 데 도움이 되도록 제품 설명서에서 새로 고친 지표를 사용할 수 있습니다.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14816">DOCAC JIRA 작업에 연결</a>
 
 * **사용자 지정 하위 도메인에 대한 피드백 루프 OTP 프로세스** - 제품 UI 내에서 Yahoo 보낸 사람 허브 **OTP(일회용 암호)**&#x200B;를 직접 표시하여 FBL(피드백 루프) 사용자 지정 하위 도메인 구성 프로세스가 개선되었습니다. 이제 사용자는 Yahoo 발신자 허브 도메인 소유권 확인 중에 생성된 OTP를 자동으로 검색하고 표시할 수 있습니다.
@@ -254,13 +256,21 @@ Adobe Journey Optimizer은 새로운 기능, 기존 기능 개선 사항 및 버
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer은 이제 관리자가 <strong>코드 없는 채널 빌더</strong>를 통해 직접 AJO으로 WeChat, Kakao Talk, Messenger 또는 독점 공급자와 같은 아웃바운드 HTTP 기반 메시징 채널을 가져올 수 있는 새로운 기능인 <strong>사용자 지정 채널</strong>을 도입했습니다. 구성하고 나면 캠페인, 여정 및 오케스트레이션된 캠페인에서 기본 채널과 동일한 전체 기능 세트를 사용하여 사용자 정의 채널을 사용할 수 있습니다. 표현식 편집기를 사용한 개인화, 콘텐츠 실험, 미리보기 및 증명, 즉시 사용 가능한 보고, 동의 및 거버넌스 적용. 이렇게 하면 이전에 여정으로 제한되고 전용 콘텐츠 작성이 부족했던 사용자 지정 작업에서 다루었던 간격이 채워집니다.</p>
+<p>Journey Optimizer은 이제 관리자가 WeChat, KakaoTalk, Messenger 또는 독점 공급자와 같은 아웃바운드 HTTP 기반 메시징 채널을 코드 없는 채널 빌더를 통해 Journey Optimizer으로 직접 가져올 수 있는 새로운 기능인 <strong>사용자 지정 채널</strong>을 도입했습니다.</p>
+<p>구성하고 나면 캠페인, 여정 및 오케스트레이션된 캠페인 전반에서 기본 채널과 동일한 전체 기능 세트를 사용하여 사용자 정의 채널을 사용할 수 있습니다. 표현식 편집기를 사용한 개인화, 콘텐츠 실험, 미리보기 및 증명, 기본 보고, 동의 및 거버넌스 시행. 이렇게 하면 이전에 여정으로 제한되고 전용 콘텐츠 작성이 부족했던 사용자 지정 작업으로 인해 발생한 간격을 메웁니다.</p>
 <p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-11381">DOCAC JIRA 작업 링크</a></p>
 </td>
 </tr>
 </tbody>
 </table>
+
+### 캠페인 {#june-26-campaigns}
+
+이 릴리스의 캠페인에는 다음과 같은 개선 사항이 적용됩니다.
+
+* **캠페인의 기본 실행 필드 재정의** - 이전에는 여정 수준에서 사용할 수 있었지만, 이제 캠페인 매개 변수에서 이메일, SMS 및 WhatsApp 게재에 대해 전역적으로 설정된 기본 **실행 필드**&#x200B;을(를) 재정의할 수 있습니다.
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-14718">DOCAC JIRA 작업에 연결</a>
 
 ### 보고 {#june-26-reporting}
 
@@ -277,7 +287,7 @@ Adobe Journey Optimizer은 새로운 기능, 기존 기능 개선 사항 및 버
 
 이 릴리스의 구성 및 관리에는 다음과 같은 개선 사항이 적용됩니다.
 
-* **AJO 랜딩 페이지의 웹 응용 프로그램 방화벽(WAF) IP 허용 목록** - Adobe Journey Optimizer은 이제 랜딩 페이지의 **웹 응용 프로그램 방화벽(WAF) IP 허용 목록**&#x200B;을 지원하므로 조직에서 구성된 WAF 인프라를 통해서만 모든 수신 요청이 라우팅되도록 할 수 있습니다. 이 향상된 기능을 통해 고객은 WAF 계층을 무시하는 직접 요청을 거부하도록 AJO을 구성할 수 있으므로 Imperva와 같은 도구에 정의된 보안 정책이 일관되게 적용됩니다. 이 기능은 엄격한 네트워크 액세스 요구 사항을 가진 기업의 보안 태세를 강화하여 AJO이 호스팅하는 랜딩 페이지로의 트래픽 흐름을 완벽하게 제어합니다.
+* **웹 응용 프로그램 방화벽(WAF) IP 허용 목록** - 이제 Adobe Journey Optimizer에서 랜딩 페이지의 WAF IP 허용 목록을 지원하므로 조직에서 구성된 WAF 인프라를 통해서만 모든 수신 요청이 라우팅되도록 할 수 있습니다. 이 향상된 기능을 통해 고객은 WAF 계층을 무시하는 직접 요청을 거부하도록 Journey Optimizer을 구성할 수 있으므로 Imperva와 같은 도구에 정의된 보안 정책이 일관되게 적용됩니다. 이 기능은 엄격한 네트워크 액세스 요구 사항을 가진 기업의 보안 태세를 강화하여 Journey Optimizer이 호스팅하는 랜딩 페이지로의 트래픽 흐름을 완벽하게 제어합니다.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14814">DOCAC JIRA 작업에 연결</a>
 
 * **스트리밍에서 일괄 처리 모드로 데이터 세트 이동** - AJO 메시지 피드백 이벤트 데이터 세트가 스트리밍에서 **일괄 처리 수집 모드**(으)로 전환됩니다. 이 변경 사항은 데이터 수집이 스트리밍 수집 제한을 초과하지 않도록 합니다. Customer Journey Analytics 보고서에서 이 데이터 세트를 사용하거나 이에 대한 쿼리를 실행하는 경우 향후 최대 2시간의 데이터 지연 증가가 예상됩니다.
