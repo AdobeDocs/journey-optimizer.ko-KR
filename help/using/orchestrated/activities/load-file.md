@@ -5,18 +5,14 @@ title: 파일 로드 활동 사용
 description: 파일 로드 활동을 사용하여 Adobe Experience Platform으로 파일을 수집하지 않고 CSV 또는 TXT 파일에서 오케스트레이션된 캠페인 대상자를 타깃팅하는 방법에 대해 알아봅니다
 exl-id: a7c3e891-4f2d-4b8e-9c1a-6e8f0d3b2a41
 version: Campaign Orchestration
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: 5464e4954af28984836c4343a2b83d41b665a490
 workflow-type: tm+mt
-source-wordcount: 1234
-ht-degree: 6%
+source-wordcount: 1650
+ht-degree: 5%
 
 ---
 
@@ -35,6 +31,15 @@ ht-degree: 6%
 >
 >현재 **Healthcare Shield**&#x200B;에서 사용할 수 없는 활동입니다.
 
+## 권한 {#permissions}
+
+오케스트레이션된 캠페인에서 **[!UICONTROL 파일 로드]** 활동을 사용하려면 사용자에게 올바른 권한을 할당해야 합니다. 두 권한 모두 권한 UI의 **[!UICONTROL Adobe Experience Platform]** > **[!UICONTROL Adobe Journey Optimizer]** > **[!UICONTROL 오케스트레이션된 캠페인]**&#x200B;에서 사용할 수 있습니다.
+
+* **[!UICONTROL 오케스트레이션된 캠페인에서 파일 보기]** - 읽기 전용 액세스 권한을 부여합니다. 이 권한이 있는 사용자는 **[!UICONTROL 파일 로드]** 활동이 포함된 오케스트레이션된 캠페인의 결과를 미리 볼 수 있지만 활동을 추가하거나 파일을 업로드할 수 없습니다.
+* **[!UICONTROL 오케스트레이션된 캠페인에서 파일 관리]** — **[!UICONTROL 파일 로드]** 활동을 캠페인 캔버스에 추가하고 파일을 업로드하는 데 필요합니다. **[!UICONTROL 파일 로드]** 활동을 만들거나 구성해야 하는 사용자에게 이 권한을 할당하십시오.
+
+권한 할당에 대한 지침은 [사용자 및 역할 관리](../../administration/permissions.md)를 참조하십시오.
+
 ## 가드레일 및 제한 사항 {#limitations}
 
 파일 로드 활동에는 다음 제한 사항이 적용됩니다.
@@ -44,6 +49,42 @@ ht-degree: 6%
 * 업로드된 데이터는 캠페인이 실행될 때 사용되며 Adobe Experience Platform 데이터 세트로 저장되지 않습니다.
 
 채널 및 캔버스 활동에 대한 제한 사항은 [보호 기능 및 제한 사항](../guardrails.md#activities-limitations)을 참조하세요.
+
+## 사전 요구 사항 {#prerequisites}
+
+**[!UICONTROL 파일 로드]** 활동을 오케스트레이션된 캠페인에 추가하고 메시지 활동에 연결하려면 먼저 관리자가 다음의 일회성 설정을 완료해야 합니다.
+
+### 파일 유형 대상 차원 만들기 {#file-target-dimension}
+
+**[!UICONTROL 파일]** 유형의 **[!UICONTROL 프로필 대상 Dimension]**&#x200B;을(를) 사용하면 오케스트레이션된 캠페인으로 Adobe Experience Platform 스키마 대신 업로드된 파일에서 수신자를 확인할 수 있습니다. 캠페인 실행 시 파일 대상자를 처리할 때 사용되는 ID 네임스페이스 및 식별자 필드를 정의합니다.
+
+**[!UICONTROL 관리]** > **[!UICONTROL 구성]** > **[!UICONTROL Campaign Target Dimension]**&#x200B;에서 대상 차원을 만듭니다. [대상 차원에 대해 자세히 알아보기](../target-dimension.md)
+
+파일 기반 타깃팅에 대한 대상 차원을 생성할 때 다음을 확인하십시오.
+
+* **[!UICONTROL Dimension 소스]**&#x200B;을(를) **[!UICONTROL 파일]**(으)로 설정합니다.
+* 파일의 식별자 열과 일치하는 **[!UICONTROL ID 네임스페이스]**&#x200B;를 선택합니다(예: **[!UICONTROL 이메일]**).
+* **[!UICONTROL ID 필드 경로]**&#x200B;를 입력하십시오. 식별자가 포함된 파일 필드를 사용하십시오(예: 업로드한 파일에 `email` 열이 포함된 경우 `email`).
+
+>[!CAUTION]
+>
+>대상 차원이 저장된 후에는 스키마 및 ID 값을 변경할 수 없습니다. 저장하기 전에 ID 네임스페이스 및 ID 필드 경로를 확인하십시오.
+
+### 파일 기반 전달을 위한 채널 구성 만들기 {#file-channel-configuration}
+
+파일 유형 대상 차원을 사용하는 전용 채널 구성을 만듭니다. 이 구성은 캠페인 캔버스에서 **[!UICONTROL 파일 로드]** 활동 뒤에 오는 메시지 활동에서 선택됩니다.
+
+1. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL 채널 구성]**&#x200B;으로 이동하여 새 구성을 만드십시오.
+
+1. **[!UICONTROL 실행 세부 정보]**&#x200B;에서 **[!UICONTROL 오케스트레이션된 캠페인]** 탭을 선택하고 오케스트레이션된 캠페인에 대한 구성을 활성화합니다.
+
+1. **[!UICONTROL 프로필 대상 Dimension]** 필드에서 이전 단계에서 만든 파일 유형 대상 차원을 선택합니다.
+
+1. 나머지 채널 구성 필드를 완료하고 저장합니다. [오케스트레이션된 캠페인에 대한 채널 구성에 대해 자세히 알아보세요](../channel-config.md)
+
+>[!IMPORTANT]
+>
+>표준 프로필 기반 채널 구성은 파일 기반 대상자에서 작동하지 않습니다. **[!UICONTROL 파일 로드]** 활동을 따르는 모든 메시지 활동에 대해 파일 유형 차원을 타겟팅하는 채널 구성을 사용하십시오.
 
 ## 파일 로드 활동 구성 {#load-file-configuration}
 
@@ -168,7 +209,7 @@ ht-degree: 6%
 
 캠페인 실행 시 로드할 파일과 각 행이 기존 수신자와 일치하는 방식을 지정합니다.
 
-1. **[!UICONTROL 대상 파일]** 섹션에서 대상을 포함하는 CSV 또는 TXT 파일을 선택합니다.
+1. **[!UICONTROL 대상 파일]** 섹션에서 대상을 포함하는 CSV 또는 TXT 파일을 선택하십시오.
 
    ![](../assets/load-file-target.png)
 
