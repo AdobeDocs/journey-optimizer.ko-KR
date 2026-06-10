@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: d7d879286ccb9c2e4567bb70a8f78d34bd663c54
+source-git-commit: 09c00832ec61f9b5a4c03867ddb227abb079afe1
 workflow-type: tm+mt
-source-wordcount: 2035
+source-wordcount: 1945
 ht-degree: 10%
 
 ---
@@ -39,24 +39,6 @@ Adobe Journey Optimizer은 새로운 기능, 기존 기능 개선 사항 및 버
 ### 여정 {#june-26-journeys}
 
 이 릴리스의 여정은 다음과 같은 기능 및 개선 사항을 제공합니다.
-
-<table>
-<thead>
-<tr>
-<th><strong>여정 경로 최적화 - 타깃팅</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 <strong>활동 최적화</strong>에서 <strong>타깃팅 규칙</strong>을 지원합니다. 타깃팅 규칙을 사용하면 대상 세그먼트 또는 프로필 속성에 따라 고객이 특정 여정 경로에 대해 자격을 부여하기 위해 충족해야 하는 특정 기준을 정의할 수 있습니다.</p>
-<p>고객을 경로에 무작위로 할당하는 실험과 달리 타깃팅에서는 결정론적 논리를 사용하여 적절한 대상 또는 고객 프로필이 의도한 경로로 라우팅되도록 합니다.</p>
-<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14720">DOCAC JIRA 작업 링크</a></p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
