@@ -24,7 +24,7 @@ ht-degree: 10%
 >id="ajo_journey_action_content_card"
 >title="컨텐츠 카드 작업"
 >abstract="여정의 이 단계에 도달하면 콘텐츠 카드 인바운드 작업에 프로필에 콘텐츠 카드가 표시됩니다. 레이블은 여정 캔버스에서 활동을 식별하고, 작업은 표시된 콘텐츠를 정의하는 콘텐츠 카드 구성을 참조합니다. **최적화** 섹션에는 콘텐츠 실험 또는 타깃팅 규칙이 포함될 수 있습니다. 이 활동(기본적으로 3일) 후에 **대기** 노드가 자동으로 삽입되므로 프로필에서 콘텐츠 카드를 볼 수 있습니다."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="채널 작업 시작"
+>additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="채널 작업 시작"
 
 
 콘텐츠 카드는 프로모션, 공지 또는 권장 사항과 같은 개인화된 콘텐츠를 모바일 앱의 전용 표면 내에 직접 표시하는 인바운드 인앱 경험입니다. 중단 메시지와 달리 사용자가 메시지를 해제하거나 게재 규칙이 메시지를 숨길 때까지 앱에서 계속 사용할 수 있습니다.
