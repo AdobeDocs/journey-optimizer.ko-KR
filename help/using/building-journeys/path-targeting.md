@@ -12,9 +12,9 @@ exl-id: b30ce5c9-a0e2-4601-97a3-5bec648368e4
 badge: label="제한 공개" type="Informative"
 feature_v2: []
 subfeature_v2: []
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+source-git-commit: 09c00832ec61f9b5a4c03867ddb227abb079afe1
 workflow-type: tm+mt
-source-wordcount: 811
+source-wordcount: 797
 ht-degree: 4%
 
 ---
@@ -25,10 +25,6 @@ ht-degree: 4%
 >id="ajo_path_targeting_fallback"
 >title="대체 경로란 무엇입니까?"
 >abstract="대체 경로를 사용하여 타기팅 규칙이 적격하지 않을 때 대상자가 대체 경로로 입장할 수 있도록 합니다. </br>이 옵션을 선택하지 않으면 타깃팅 규칙에 적합하지 않은 대상은 대체 경로로 들어가지 않고 여정을 종료합니다."
-
->[!AVAILABILITY]
->
->이 기능은 현재 제한된 가용성입니다. 액세스 권한을 요청하려면 Adobe 담당자에게 문의하십시오.
 
 타깃팅 규칙을 사용하면 특정 대상 세그먼트<!-- depending on profile attributes or contextual attributes-->에 따라 고객이 여정 경로 중 하나를 입력할 수 있도록 충족해야 하는 특정 규칙이나 자격을 결정할 수 있습니다.
 
