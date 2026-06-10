@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
 source-wordcount: 1735
-ht-degree: 6%
+ht-degree: 12%
 
 ---
 
@@ -161,23 +161,23 @@ HTML 구성 요소의 경우 특정 요소만 편집 가능한 필드가 될 수
 
    ![](assets/fragment-expression-use.png)
 
-## 맞춤화가 가능한 조각에 리치 텍스트 추가 {#rich-text}
+## 맞춤화가 가능한 조각에 서식 있는 텍스트 추가 {#rich-text}
 
 >[!CONTEXTUALHELP]
 >id="ajo_editable_fragment_compatibility"
 >title="레거시 조각"
->abstract="이 조각의 편집 가능한 필드는 텍스트 전용 모드입니다. 즉, 이메일에서는 이 조각을 편집할 때 일반 텍스트만 입력할 수 있습니다. 굵게, 기울임꼴, 하이퍼링크 및 줄 바꿈과 같은 서식 있는 텍스트는 지원되지 않습니다. 이메일에 조각을 사용할 때 편집 가능한 필드에 서식 있는 텍스트를 사용하려면 <b>HTML 모드로 전환</b>을 클릭합니다."
+>abstract="이 조각의 편집 가능한 필드는 텍스트 전용 모드입니다. 이는 사용자가 이메일의 이 조각을 편집할 때 일반 텍스트만 입력할 수 있으며 굵게, 기울임꼴, 하이퍼링크 및 줄바꿈과 같은 서식 있는 텍스트는 지원되지 않음을 의미합니다. 이메일에서 조각을 사용할 때 편집 가능한 필드에 서식 있는 텍스트를 활성화하려면 <b>HTML 모드로 전환</b>을 클릭합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_editable_field_compatibility"
 >title="레거시 조각"
->abstract="이 편집 가능한 필드는 텍스트 전용 모드입니다. 리치 텍스트 서식(굵게, 기울임꼴, 하이퍼링크, 줄바꿈 등) 조각이 HTML 호환 모드로 업그레이드될 때까지 를 사용할 수 없습니다. 조각 본문 설정으로 이동하여 <b>HTML 모드로 전환</b>을 클릭하여 서식 있는 텍스트 편집을 활성화합니다."
+>abstract="이 편집 가능한 필드는 텍스트 전용 모드입니다. 서식 있는 텍스트 서식(굵게, 기울임꼴, 하이퍼링크, 줄바꿈 등) 은 조각이 HTML 호환 모드로 업그레이드될 때까지 사용할 수 없습니다. 조각 본문 설정으로 이동하고 <b>HTML 모드로 전환</b>을 클릭하여 서식 있는 텍스트 편집을 활성화합니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="조각에서 편집 가능한 필드 맞춤화"
 
 >[!CONTEXTUALHELP]
 >id="ac_editable_fragment_compatibility"
 >title="레거시 조각"
->abstract="이 조각의 편집 가능한 필드는 텍스트 전용 모드입니다. 리치 텍스트 서식(굵게, 기울임꼴, 하이퍼링크, 줄바꿈 등) 조각이 HTML 호환 모드로 업그레이드될 때까지 를 사용할 수 없습니다. 이렇게 하려면 조각 편집기를 열고 <b>HTML 모드로 전환</b>을 클릭합니다."
+>abstract="이 조각의 편집 가능한 필드는 텍스트 전용 모드입니다. 서식 있는 텍스트 서식(굵게, 기울임꼴, 하이퍼링크, 줄바꿈 등) 은 조각이 HTML 호환 모드로 업그레이드될 때까지 사용할 수 없습니다. 이렇게 하려면 조각 편집기를 열고 <b>HTML 모드로 전환</b>을 클릭합니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="조각에서 편집 가능한 필드 맞춤화"
 
 HTML 구성 요소를 사용하여 사용자 지정 가능한 조각에 줄 바꿈, 굵게, 기울임체 등과 같은 리치 텍스트를 추가할 수 있습니다. 그 방법은 다음과 같습니다.

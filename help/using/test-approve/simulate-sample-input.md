@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
 source-wordcount: 1362
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"
 >title="샘플 입력을 사용하여 시뮬레이션"
->abstract="이 화면에서는 AI로 콘텐츠 변형을 자동 생성하거나, CSV 또는 JSON 템플릿을 통해 값을 추가하거나, 수동으로 입력하거나, 테스트 프로필을 사용하여 콘텐츠 변형을 테스트할 수 있습니다."
+>abstract="이 화면에서는 AI를 통해 콘텐츠 변형을 자동 생성하거나, CSV 또는 JSON 템플릿을 통해 값을 추가하거나, 수동으로 입력하거나, 테스트 프로필을 사용해 콘텐츠 변형을 테스트할 수 있습니다."
 
 콘텐츠에 개인화 또는 조건부 논리가 포함된 경우 콘텐츠를 보내기 전에 모든 유형의 수신자에 대해 올바르게 렌더링되는지 확인해야 합니다.
 
