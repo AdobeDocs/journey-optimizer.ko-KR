@@ -24,10 +24,10 @@ topic_v2:
 subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: a6c2d7e9827b30995397540761522c680c237bc8
+source-git-commit: cf1c53fc42cbe0eb019b1733091c5f22021767bb
 workflow-type: tm+mt
-source-wordcount: 1046
-ht-degree: 9%
+source-wordcount: 1050
+ht-degree: 11%
 
 ---
 
@@ -96,7 +96,7 @@ Adobe에서 즉시 사용할 수 없는 사용자 지정 공급자(예: Sinch, I
 
    >[!IMPORTANT]
    >
-   >[MTLS 공개 인증서 API](https://platform.adobe.io/data/core/mtls/v1/certificate/public-certificate)에서 공개 인증서를 다운로드하고 서버 신뢰 저장소(예상 클라이언트 CN: `ajo-sms.aep-mtls.adobe.com`)에 추가하여 Adobe Experience Platform 인증 기관 체인을 신뢰하도록 SMS 전송 끝점을 구성하십시오. 그렇지 않으면 Journey Optimizer에서 클라이언트 인증서를 생략하고 SMS 배달이 실패합니다.
+   >[MTLS 공개 인증서 API](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint)에서 공개 인증서를 다운로드하고 서버 신뢰 저장소(예상 클라이언트 CN: `ajo-sms.aep-mtls.adobe.com`)에 추가하여 Adobe Experience Platform 인증 기관 체인을 신뢰하도록 SMS 전송 끝점을 구성하십시오. 그렇지 않으면 Journey Optimizer에서 클라이언트 인증서를 생략하고 SMS 배달이 실패합니다.
 
 1. **[!UICONTROL Headers]** 섹션에서 **[!UICONTROL 새 매개 변수 추가]**&#x200B;를 클릭하여 외부 서비스로 전송될 요청 메시지에 대한 HTTP 헤더를 지정합니다.
 
