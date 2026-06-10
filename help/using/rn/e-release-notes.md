@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: a6ea8da3868e235ccd19e66426cb77b8e5300ac2
+source-git-commit: ea1a283aacceafad32bd26560941a1bf613f3fea
 workflow-type: tm+mt
-source-wordcount: 2000
+source-wordcount: 2002
 ht-degree: 10%
 
 ---
@@ -49,8 +49,8 @@ Adobe Journey Optimizer은 새로운 기능, 기존 기능 개선 사항 및 버
 <tbody>
 <tr>
 <td>
-<p>새로운 <strong>노드 최적화</strong>를 사용하여 특정 대상을 타깃팅하여 비즈니스 중심 KPI를 충족하는 최상의 경로를 결정하십시오.</p>
-<p>이 도구를 사용하면 1:1 수준에서 반향을 일으킬 가능성이 높은 보다 효과적인 마케팅 캠페인을 개발하고, 고객을 위한 마케팅 개인화 노력을 향상시키고, 전환 및 매출과 같은 중요한 고객 참여 KPI를 향상시킬 수 있습니다.</p>
+<p>이제 <strong>활동 최적화</strong>에서 <strong>타깃팅 규칙</strong>을 지원합니다. 타깃팅 규칙을 사용하면 대상 세그먼트 또는 프로필 속성에 따라 고객이 특정 여정 경로에 대해 자격을 부여하기 위해 충족해야 하는 특정 기준을 정의할 수 있습니다.</p>
+<p>고객을 경로에 무작위로 할당하는 실험과 달리 타깃팅에서는 결정론적 논리를 사용하여 적절한 대상 또는 고객 프로필이 의도한 경로로 라우팅되도록 합니다.</p>
 <p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-14720">DOCAC JIRA 작업 링크</a></p>
 </td>
@@ -67,7 +67,7 @@ Adobe Journey Optimizer은 새로운 기능, 기존 기능 개선 사항 및 버
 <tbody>
 <tr>
 <td>
-<p>이제 <strong>수식</strong>을 사용하여 고객 프로필 특성 및 컨텍스트 요인에 따라 <strong>여정 우선 순위 점수</strong>를 자동으로 높여 고객이 가장 관련성이 높은 여정을 입력하도록 할 수 있습니다.</p>
+<p>이제 <strong>수식</strong>을 사용하여 고객 프로필 특성 및 컨텍스트 요인에 따라 자동으로 <strong>우선 순위 지정 및 중재</strong>할 수 있으므로 고객이 가장 관련성이 높은 여정을 입력하도록 할 수 있습니다.</p>
 <p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-14719">DOCAC JIRA 작업 링크</a></p>
 </td>
@@ -229,7 +229,7 @@ Adobe Journey Optimizer은 새로운 기능, 기존 기능 개선 사항 및 버
 * **LINE 채널 - 변경 내용 작성** - LINE 채널 UI가 고급 메시지 작성 기능으로 업그레이드되었습니다. 이 릴리스에서는 실시간 장치 미리 보기와 함께 텍스트, 이미지, 이미지 맵, 회전판 및 Flex(JSON 편집기)를 비롯한 **여러 메시지 형식**&#x200B;에 대한 지원이 도입되었습니다. 이제 사용자는 최대 5개의 순서가 지정된 메시지로 구성된 그룹화된 메시지를 관리하고(추가, 제거 및 순서 조정 컨트롤 포함), 검증된 다이내믹 메시징을 위해 통합 개인화 편집기를 활용할 수 있습니다.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14869">DOCAC JIRA 작업에 연결</a>
 
-* **Journey Optimizer 재판매 - 사용 지표 표시** - Adobe Journey Optimizer을 통해 직접 SMS를 구매하는 고객의 경우 새 **SMS 사용 대시보드**&#x200B;가 도입되었습니다. 이제 MO(Mobile Originated) 및 MT(Mobile Terminated) 메시지로 분류된 최근 90일 간의 메시지 전송 지표를 보고 추적할 수 있습니다. 이 데이터는 CSV를 통해서도 다운로드할 수 있으므로 SMS 소비에 대한 가시성과 제어 능력이 향상됩니다.
+* **SMS - 사용 지표 표시** - Adobe Journey Optimizer을 통해 SMS를 직접 구매하는 고객의 경우 새 **SMS 사용 대시보드**&#x200B;가 도입되었습니다. 이제 MO(Mobile Originated) 및 MT(Mobile Terminated) 메시지로 분류된 최근 90일 간의 메시지 전송 지표를 보고 추적할 수 있습니다. 이 데이터는 CSV를 통해서도 다운로드할 수 있으므로 SMS 소비에 대한 가시성과 제어 능력이 향상됩니다.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14345">DOCAC JIRA 작업에 연결</a>
 
 ### 컨텐츠 및 통합 {#june-26-content}
@@ -305,7 +305,7 @@ Adobe Journey Optimizer은 새로운 기능, 기존 기능 개선 사항 및 버
 
 이번 릴리스에서는 다음과 같은 개선 사항이 보고되었습니다.
 
-* **이메일 및 SMS 보고에 대한 봇 클릭 제외** - 실제 고객 참여를 보다 정확하게 파악할 수 있도록 여정, 캠페인 및 채널 보고서에서 새로운 예상 지표를 사용할 수 있습니다. 이러한 지표는 보고 데이터에서 비인적 상호 작용(NHI) 및 보트 클릭을 필터링하는 데 도움이 됩니다.
+* **이메일 및 SMS 보고에 대한 새로운 예상 클릭 메트릭** - 실제 고객 참여를 보다 정확하게 파악할 수 있도록 여정, 캠페인 및 채널 보고서에서 새로운 예상 메트릭을 사용할 수 있습니다. 이러한 지표는 보고 데이터에서 비인적 상호 작용(NHI) 및 보트 클릭을 필터링하는 데 도움이 됩니다.
    * 예상 클릭 수: 식별된 봇 및 비사람 트래픽을 제거한 후 카운트된 총 클릭 수입니다.
    * 예상 CTR: 총 게재와 관련된 예상 클릭 수입니다.
    * 이메일에 대한 예상 CTOR 전용: 예상 열람에 대한 예상 클릭수.
