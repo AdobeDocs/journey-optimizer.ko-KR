@@ -26,7 +26,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 3722a09a14327f3fe70ff43216b16172ca75efe7
+source-git-commit: b7554a029037a3e5d31b824b6b36343daa6728e9
 workflow-type: tm+mt
 source-wordcount: 2943
 ht-degree: 21%
@@ -169,7 +169,7 @@ ht-degree: 21%
 </tbody>
 </table>
 
-* [!BADGE 중요]{type=Informative} **AJO 메시지 피드백 이벤트 데이터 세트가 일괄 처리 수집으로 이동** - **AJO 메시지 피드백 이벤트 데이터 세트**&#x200B;가 스트리밍 수집에서 일괄 처리 수집으로 이동하고 있습니다. 따라서 이 데이터 세트에 대해 최대 2시간의 데이터 지연이 예상됩니다. Customer Journey Analytics에서 보고서를 작성했거나 이 데이터 세트를 사용하여 쿼리를 실행하는 경우 앞으로 이러한 추가적인 지연 시간을 고려하십시오. [자세히 보기](../data/get-started-datasets.md)
+* [!BADGE 중요]{type=Informative} **AJO 메시지 피드백 이벤트 데이터 세트가 일괄 처리 수집으로 이동** - **AJO 메시지 피드백 이벤트 데이터 세트**&#x200B;가 스트리밍 수집에서 일괄 처리 수집으로 이동하고 있습니다. 따라서 이 데이터 세트에 대해 최대 2시간의 데이터 지연이 예상됩니다. Customer Journey Analytics에서 보고서를 작성했거나 이 데이터 세트를 사용하여 쿼리를 실행하는 경우 앞으로 이러한 추가적인 지연 시간을 고려하십시오. [자세히 보기](../data/datasets-query-examples.md#message-feedback-event-dataset)
 
   사용 가능한 날짜: 2026년 6월 10일
 
