@@ -14,7 +14,7 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 351bb6d71cebf09d0bb378653d4e97edb2a8cffc
+source-git-commit: a144c1518f1835495eaf27fa055b89a3bf8d5559
 workflow-type: tm+mt
 source-wordcount: 1706
 ht-degree: 7%
@@ -269,4 +269,3 @@ Adobe Journey Optimizer은 새로운 기능, 기존 기능 개선 사항 및 버
 이번 릴리스에서는 다음과 같은 사용 편의성 개선 사항이 적용되었습니다.
 
 * **여정 및 캠페인용 폴더** - 이제 인터페이스 탐색 및 관리를 개선하기 위해 여정 및 캠페인을 **폴더**&#x200B;로 구성할 수 있습니다.
-
