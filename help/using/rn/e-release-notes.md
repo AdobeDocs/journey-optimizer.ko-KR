@@ -6,18 +6,13 @@ description: Adobe Journey Optimizer 사전 릴리스 정보
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: a144c1518f1835495eaf27fa055b89a3bf8d5559
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: abc97745136ffe596325df644831a346e2bb5dcc
 workflow-type: tm+mt
-source-wordcount: 1706
-ht-degree: 7%
+source-wordcount: 1660
+ht-degree: 6%
 
 ---
 
@@ -96,47 +91,9 @@ Adobe Journey Optimizer은 새로운 기능, 기존 기능 개선 사항 및 버
 </tbody>
 </table>
 
-### 채널 {#june-26-channels}
-
-이 릴리스에는 다음과 같은 기능이 도입되었습니다.
-
-<table>
-<thead>
-<tr>
-<th><strong>사용자 지정 아웃바운드 채널</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer은 이제 관리자가 WeChat, KakaoTalk, Messenger 또는 독점 공급자와 같은 아웃바운드 HTTP 기반 메시징 채널을 코드 없는 채널 빌더를 통해 Journey Optimizer으로 직접 가져올 수 있는 새로운 기능인 <strong>사용자 지정 채널</strong>을 도입했습니다.</p>
-<p>구성하고 나면 캠페인, 여정 및 오케스트레이션된 캠페인 전반에서 기본 채널과 동일한 전체 기능 세트를 사용하여 사용자 정의 채널을 사용할 수 있습니다. 표현식 편집기를 사용한 개인화, 콘텐츠 실험, 미리보기 및 증명, 기본 보고, 동의 및 거버넌스 시행. 이렇게 하면 이전에 여정으로 제한되고 전용 콘텐츠 작성이 부족했던 사용자 지정 작업으로 인해 발생한 간격을 메웁니다.</p>
-<p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
 ### 이메일 {#june-26-email}
 
 이 릴리스의 이메일 채널에는 다음과 같은 기능 및 개선 사항이 적용됩니다.
-
-<!--
-<table>
-<thead>
-<tr>
-<th><strong>Advanced Components</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>The Email Designer now includes a library of ready-to-use layout components — such as Headers, Product Cards (1, 2, or 3 columns), Information blocks, and Footers — that you can drag and drop directly into your email canvas. Each component comes pre-configured with editable properties (image, title, text, button, links) and can be fully customized through the WYSIWYG interface, speeding up email creation without requiring you to build structures from scratch.</p>
-</td>
-</tr>
-</tbody>
-</table>
--->
 
 <table>
 <thead>
@@ -163,17 +120,45 @@ Adobe Journey Optimizer은 새로운 기능, 기존 기능 개선 사항 및 버
 <tr>
 <td>
 <p>이 새 옵션을 사용하면 전자 메일의 모양을 변경하지 않고도 불필요한 공백, 주석 및 중복 코드를 제거하여 전자 메일의 <strong>HTML 크기를 줄일 수 있습니다</strong>. 이렇게 하면 게재 능력을 향상시키고(일부 이메일 공급자는 크기 초과된 이메일을 거부하거나 플래그를 지정) 수신자의 로드 시간을 단축할 수 있습니다.</p>
-<p>사용 가능한 날짜: 2026년 6월 10일</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-* **조각에 대해 편집 가능한 필드에 서식 있는 텍스트** - 이제 전자 메일 콘텐츠에 사용되는 사용자 지정 가능한 조각에 서식 있는 텍스트를 추가할 수 있습니다. 예를 들어 텍스트 구성 요소를 이메일 Designer에서 편집 가능한 필드로 사용하는 경우 콘텐츠의 형식(예: 굵은 글꼴 및 기울임꼴)을 직접 지정하고 하이퍼링크를 삽입할 수 있습니다.
+<table>
+<thead>
+<tr>
+<th><strong>조각에 대해 편집 가능한 필드의 리치 텍스트</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 이메일 콘텐츠에 사용되는 사용자 지정 가능한 조각에 서식 있는 텍스트를 추가할 수 있습니다. 예를 들어 텍스트 구성 요소를 이메일 Designer에서 편집 가능한 필드로 사용하는 경우 콘텐츠의 형식(예: 굵은 글꼴 및 기울임꼴)을 직접 지정하고 하이퍼링크를 삽입할 수 있습니다.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-<!--
-* **Text mode support in fragments** - To support text-based email workflows, you can now create and manage text versions of your visual fragments for optimal use in the plain text version of emails that include that fragment. When using a fragment that was created before the current release, the fragment text version may be incorrectly rendered — both in the Email Designer and in the final email delivered to your recipients. For best results with older fragments, edit, save and republish each fragment.
--->
++++ 곧 출시 예정 — **아래 정보는 변경될 수 있습니다.**
+
+<table>
+<thead>
+<tr>
+<th><strong>이메일 Designer의 모듈</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 이메일 Designer에 머리글, 제품 카드(1, 2 또는 3열), 정보 블록 및 바닥글과 같이 이메일 캔버스로 바로 드래그하여 놓을 수 있는 즉시 사용 가능한 레이아웃 구성 요소 라이브러리가 포함됩니다. 각 구성 요소는 편집 가능한 속성(이미지, 제목, 텍스트, 버튼, 링크)으로 사전 구성되어 있으며 WYSIWYG 인터페이스를 통해 완전히 맞춤화할 수 있으므로 처음부터 구조를 빌드하지 않고도 이메일 작성 시간을 단축할 수 있습니다.</p>
+<p>사용 가능한 날짜: 2026년 6월 22일</p>
+</td>
+</tr>
+</tbody>
+</table>
+
++++
 
 ### 모바일 메시징(SMS, MMS, RCS 및 LINE) {#june-26-mobile}
 
