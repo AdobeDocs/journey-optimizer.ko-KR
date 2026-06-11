@@ -6,18 +6,13 @@ description: Adobe Journey Optimizer 사전 릴리스 정보
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 677ecfacfbe12250fef9e28b685dfe1e173d08dc
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 9915d814778a8d18cf4a691e8e2d351c2ac7c405
 workflow-type: tm+mt
-source-wordcount: 1557
-ht-degree: 8%
+source-wordcount: 1599
+ht-degree: 7%
 
 ---
 
@@ -237,10 +232,18 @@ Adobe Journey Optimizer은 새로운 기능, 기존 기능 개선 사항 및 버
 
 이번 릴리스에서는 다음과 같은 개선 사항이 보고되었습니다.
 
-* **이메일 및 SMS 보고에 대한 새로운 예상 클릭 메트릭** - 실제 고객 참여를 보다 정확하게 파악할 수 있도록 여정, 캠페인 및 채널 보고서에서 새로운 예상 메트릭을 사용할 수 있습니다. 이러한 지표는 보고 데이터에서 비인적 상호 작용(NHI) 및 보트 클릭을 필터링하는 데 도움이 됩니다.
-   * 예상 클릭 수: 식별된 봇 및 비사람 트래픽을 제거한 후 카운트된 총 클릭 수입니다.
+* **이메일 및 SMS 보고에 대한 예상 클릭 메트릭** - **예상 클릭 수**&#x200B;를 이제 여정, 캠페인 및 채널 보고서에서 사용할 수 있습니다. 이 지표는 식별된 보트 및 비사람(NHI) 트래픽을 제외한 후 총 클릭 수를 반영하므로 실제 고객 참여를 보다 명확하게 파악할 수 있습니다.
+
++++ 곧 출시 예정 — **아래 정보는 변경될 수 있습니다.**
+
+* **이메일 및 SMS 보고에 대한 새로운 예상 클릭 메트릭** - 실제 고객 참여를 보다 정확하게 볼 수 있도록 여정, 캠페인 및 채널 보고서에서 새로운 예상 메트릭을 사용할 수 있습니다. 이러한 지표는 보고 데이터에서 비인적 상호 작용(NHI) 및 보트 클릭을 필터링하는 데 도움이 됩니다.
+
    * 예상 CTR: 총 게재와 관련된 예상 클릭 수입니다.
    * 이메일에 대한 예상 CTOR 전용: 예상 열람에 대한 예상 클릭수.
+
+  사용 가능한 날짜: 2026년 6월 말
+
++++
 
 ### 구성 {#june-26-configuration}
 
