@@ -31,9 +31,9 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d9a93a5ae5dfbb21b4dfd102b356c15982e6d5a1
+source-git-commit: 49b3594b414b03a4a184830435a843103b517c1a
 workflow-type: tm+mt
-source-wordcount: 1775
+source-wordcount: 1777
 ht-degree: 13%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 13%
 
 **Action** 활동은 여정 캔버스에서 고객에게 콘텐츠를 제공하기 위한 단일 진입점입니다. 각 채널에 대해 별도의 활동에서 선택하는 대신 단일 **[!UICONTROL Action]** 활동을 캔버스로 드래그하고 사용할 채널을 선택합니다.
 
-이메일, 푸시, SMS, 인앱, 웹, 코드 기반 경험, 콘텐츠 카드 등 모든 기본 제공 채널을 하나의 통합 활동 유형으로 통합하여 이전에 사용했던 개별 채널 활동을 대체합니다.
+또한 이메일, 푸시, SMS, 인앱, 웹, 코드 기반 경험, 컨텐츠 카드 등 기존의 모든 기본 제공 채널을 하나의 통합된 활동 유형으로 통합하여 이전에 사용된 개별 채널 활동을 대체합니다.
 
 **Action** 활동을 사용하여 다음을 수행할 수 있습니다.
 
