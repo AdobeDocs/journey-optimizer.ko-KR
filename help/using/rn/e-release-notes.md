@@ -6,17 +6,12 @@ description: Adobe Journey Optimizer 사전 릴리스 정보
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: b7088f7f9a21839bde56b71ccacd6c62d4e004ff
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 140204b92956663f75893c09a61c6b2bfa97a2b1
 workflow-type: tm+mt
-source-wordcount: 2008
+source-wordcount: 2036
 ht-degree: 5%
 
 ---
@@ -112,7 +107,10 @@ Adobe Journey Optimizer은 새로운 기능, 기존 기능 개선 사항 및 버
 <tbody>
 <tr>
 <td>
-<p>이제 Journey Optimizer에는 시작 전 세 가지 차원(철자, 문법 및 구두점), 가독성 및 음색(긴 문장, 수동적인 음성 및 전문어 플래그 포함), 명확성, 긴급성 및 구조를 위해 채점된 제목 줄 및 CTA 효과를 분석하는 이메일 Designer에 컨텐츠 품질 점수가 직접 포함됩니다. 각 검사는 실행 가능한 제안을 표시하므로 팀이 작성 인터페이스를 벗어나지 않고도 문제를 포착하고 해결할 수 있습니다.</p>
+<p>이제 Journey Optimizer에는 이메일 Designer에 직접 자동화된 기술 유효성 검사가 포함되어 있으므로 보내기 전에 HTML 및 CSS 문제를 catch할 수 있습니다.</p>
+<p>이 검사에서는 <code>&lt;script&gt;</code> 및 <code>&lt;base&gt;</code> 태그, Microsoft Outlook의 레이아웃을 나눌 수 있는 빈 div, HTML 메타 새로 고침 태그, Gmail에서 렌더링 오류를 트리거하는 CSS 또는 HTML 크기 임계값과 같은 지원되지 않는 요소를 다룹니다.</p>
+<p>결과는 상황별 세부 정보와 원클릭 수정 사항(사용 가능한 경우)으로 작성 패널에 직접 오류, 경고 또는 정보 알림으로 표시되므로 편집기를 종료하지 않고도 문제를 해결할 수 있습니다.</p>
+<p>자세한 내용은 <a href="../email/content-check.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -127,7 +125,8 @@ Adobe Journey Optimizer은 새로운 기능, 기존 기능 개선 사항 및 버
 <tbody>
 <tr>
 <td>
-<p>이제 Journey Optimizer에는 이메일 렌더링 방식에 영향을 주지 않고 불필요한 공백, 댓글 및 중복 코드를 제거하여 이메일 HTML의 크기를 줄이는 옵션이 포함됩니다. 이렇게 하면 일부 이메일 공급자가 메시지를 플래그 지정하거나 거부하는 데 사용하는 크기 임계값을 방지하여 게재 능력을 향상시킬 수 있으며, 수신자의 로드 시간을 줄일 수 있습니다.</p>
+<p>이제 Journey Optimizer에는 이메일 렌더링 방식에 영향을 주지 않고 불필요한 공백, 댓글 및 중복 코드를 제거하여 이메일 HTML의 크기를 줄이는 옵션이 포함됩니다.</p>
+<p>이렇게 하면 일부 이메일 공급자가 메시지를 플래그 지정하거나 거부하는 데 사용하는 크기 임계값을 방지하여 게재 능력을 향상시킬 수 있으며, 수신자의 로드 시간을 줄일 수 있습니다.</p>
 </td>
 </tr>
 </tbody>
@@ -142,7 +141,8 @@ Adobe Journey Optimizer은 새로운 기능, 기존 기능 개선 사항 및 버
 <tbody>
 <tr>
 <td>
-<p>이제 이메일 콘텐츠에 사용되는 사용자 지정 가능한 조각에 서식 있는 텍스트를 추가할 수 있습니다. 예를 들어 텍스트 구성 요소를 이메일 Designer에서 편집 가능한 필드로 사용하는 경우 콘텐츠의 형식(예: 굵은 글꼴 및 기울임꼴)을 직접 지정하고 하이퍼링크를 삽입할 수 있습니다.</p>
+<p>이제 이메일 콘텐츠에 사용되는 사용자 지정 가능한 조각에 서식 있는 텍스트를 추가할 수 있습니다.</p>
+<p>예를 들어 텍스트 구성 요소를 이메일 Designer에서 편집 가능한 필드로 사용하는 경우 콘텐츠의 형식(예: 굵은 글꼴 및 기울임꼴)을 직접 지정하고 하이퍼링크를 삽입할 수 있습니다.</p>
 </td>
 </tr>
 </tbody>
