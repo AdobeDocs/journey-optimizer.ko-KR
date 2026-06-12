@@ -10,32 +10,16 @@ keywords: 게시, 여정, 라이브, 유효성, 확인
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/a7qFw84obtkCRDmiqMxQNgvqhI4b6t5suROeF7ZPh1I
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: d9a93a5ae5dfbb21b4dfd102b356c15982e6d5a1
 workflow-type: tm+mt
-source-wordcount: 1080
-ht-degree: 15%
+source-wordcount: 1377
+ht-degree: 12%
 
 ---
 
@@ -81,7 +65,7 @@ ht-degree: 15%
 
   ![시험 실행 여정의 작업 활동이 회색으로 표시됨](assets/dry-run-greyed-activities.png){width="80%"}
 
-* **외부 데이터 원본을 포함한 데이터 원본** 및 **대기** 활동은 기본적으로 시험 실행 중에 비활성화되어 있습니다. 그러나 시험 실행 모드를 활성화[&#128279;](#journey-dry-run-start)할 때 이 동작을 변경할 수 있습니다.
+* **외부 데이터 원본을 포함한 데이터 원본** 및 **대기** 활동은 기본적으로 시험 실행 중에 비활성화되어 있습니다. 그러나 시험 실행 모드를 활성화](#journey-dry-run-start)할 때 이 동작을 [변경할 수 있습니다.
 
 * **반응** 노드가 실행되지 않습니다. 입력한 모든 프로필이 성공하면 종료됩니다. 그러나 다음 우선순위 규칙이 적용됩니다.
 
@@ -169,8 +153,42 @@ stepEvent 데이터를 **외부 시스템**(으)로 내보내는 경우 `inDryRu
 
 [!DNL Adobe Experience Platform] 여정 서비스를 사용하여 **쿼리 보고 지표**&#x200B;을(를) 분석할 때 시험 실행 생성 단계 이벤트를 제외해야 합니다. 이렇게 하려면 `inDryRun`이(가) `true`인 단계 이벤트를 제외합니다(즉, `inDryRun`이(가) `null` 또는 `false`인 이벤트만 포함).
 
+## 자주 묻는 질문 {#faq}
+
+**시험 실행이 실제 고객에게 메시지를 전송합니까?**
+
+아니요. 드라이 실행은 실제 프로덕션 데이터를 사용하지만 프로필에 연락하거나 프로필 정보를 업데이트하지 않습니다. 채널 작업(이메일, SMS, 푸시)은 실행되지 않으며, 사용자 지정 작업은 응답이 `null`(으)로 설정되어 비활성화됩니다.
+
+**시험 실행을 시작하거나 중지하려면 어떤 권한이 필요합니까?**
+
+시험 실행을 시작하려면 **[!DNL Publish journeys]** 높은 수준의 권한이 필요합니다. 시험 실행을 중지하려면 **[!DNL Manage journeys]** 높은 수준의 권한이 필요합니다. 자세한 내용은 [권한 섹션](../administration/permissions-overview.md)을 참조하세요.
+
+**시험 실행을 실행할 수 있는 여정은 무엇입니까?**
+
+오류가 없는 **[!UICONTROL 초안]** 여정에서 시험 실행을 사용할 수 있습니다.
+
+**시험 실행이 얼마나 오래 지속됩니까?**
+
+14일 후 시험 실행 여정은 자동으로 **[!UICONTROL 초안]** 상태로 다시 전환됩니다. 언제든지 수동으로 시험 실행을 중지할 수도 있습니다.
+
+**시험 실행 중에 대기 활동 및 외부 데이터 원본이 실행됩니까?**
+
+기본적으로 시험 실행 중에는 **대기** 활동 및 **데이터 원본**(외부 데이터 원본 포함)이 비활성화됩니다. [시험 실행 모드를 활성화](#journey-dry-run-start)할 때 이 동작을 변경할 수 있습니다.
+
+**시험 실행 프로필과 여정이 할당량에 포함됩니까?**
+
+예. 시험 실행 모드의 프로필은 [참여 가능한 프로필](../audience/license-usage.md)에 계산되며, 시험 실행 모드의 여정은 라이브 여정 할당량에 계산됩니다. 그러나 시험 실행 여정은 비즈니스 규칙에 영향을 주지 않습니다.
+
+**테스트를 중지한 후에도 시험 실행 보고서에 계속 액세스할 수 있습니까?**
+
+아니요. 보고 데이터는 시험 실행이 **활성**&#x200B;인 동안에만 사용할 수 있습니다. 중지되면 더 이상 데이터에 액세스할 수 없습니다. 필요한 경우 보고서 위의 **내보내기** 단추를 사용하여 미리 다운로드하십시오.
+
+**내 보고에서 시험 실행 데이터를 제외하려면 어떻게 해야 합니까?**
+
+시험 실행은 `inDryRun` 및 `dryRunID`(으)로 플래그가 지정된 **stepEvents**&#x200B;을(를) 생성합니다. [!DNL Adobe Experience Platform] 쿼리 서비스를 사용하여 여정 보고 지표를 분석할 때 `inDryRun`이(가) `true`인 단계 이벤트를 제외합니다(`inDryRun`이(가) `null` 또는 `false`인 이벤트만 포함).
+
 ## 사용 방법 비디오 {#dry-run-video}
 
 이 비디오에서는 여정을 시험 실행하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464689/?captions=kor&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)
