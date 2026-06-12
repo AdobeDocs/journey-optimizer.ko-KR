@@ -14,7 +14,7 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 23458e8e761e640e7428f1f048b1c79fad02e1a0
+source-git-commit: 02ce60020012083981c5599789b9e86804190627
 workflow-type: tm+mt
 source-wordcount: 1921
 ht-degree: 5%
@@ -43,10 +43,6 @@ Adobe Journey Optimizer은 새로운 기능, 기존 기능 개선 사항 및 버
 * **여정 헤더의 시작 및 종료 날짜** - 시작 및/또는 종료 날짜가 라이브 여정에 구성되면 이제 라이브 상태 배지 옆의 **여정 헤더**&#x200B;에 표시됩니다. 표시된 레이블은 각 날짜가 예정된 날짜인지 또는 이미 지난 날짜인지에 따라 조정됩니다.
 
 * **일시 중지된 여정을 직접 중지하거나 닫을 수 있습니다** - 이제 **일시 중지됨** 상태에서 **여정을 중지하거나 새 출구로 닫을 수 있습니다**. 이전에는 일시 중지된 여정을 중단하거나 닫으려면 먼저 라이브로 다시 시작해야 했습니다.
-
-<!--
-* **Supplemental identifier support for external audiences** - Supplemental identifiers in journeys are now supported for external audiences, including audiences imported from a CSV file and audiences created with Federated Audience Composition. You can designate any non-identity attribute or non-person identity attribute from the audience as the supplemental ID, no schema labeling is required.
--->
 
 ### 오케스트레이션된 캠페인 {#june-26-oc}
 

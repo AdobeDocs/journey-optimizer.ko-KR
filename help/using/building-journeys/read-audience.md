@@ -32,9 +32,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 8a60b2d54073f30628f1939839faf992fcfd151b
+source-git-commit: 02ce60020012083981c5599789b9e86804190627
 workflow-type: tm+mt
-source-wordcount: 3917
+source-wordcount: 3958
 ht-degree: 6%
 
 ---
@@ -139,7 +139,7 @@ ht-degree: 6%
 
 필요에 따라 **보조 식별자를 사용**&#x200B;하여 여정 ID 외에 보조 식별자(예: 주문 ID 또는 예약 ID)의 컨텍스트에서 프로필을 실행할 수 있습니다. 보조 식별자가 다른 경우 동일한 프로필에 여러 번 들어갈 수 있습니다.
 
-[여정에서 보조 식별자를 사용하는 방법을 알아보세요](supplemental-identifier.md). 대상자 읽기 여정의 경우 보조 식별자는 프로필 속성이어야 합니다. 보조 ID가 사용되는 경우 읽기 속도는 초당 500개의 프로필로 제한됩니다.
+[여정에서 보조 식별자를 사용하는 방법을 알아보세요](supplemental-identifier.md). 대상자 읽기 여정의 경우, 보조 식별자는 **통합 프로필 서비스** 대상자에 대한 **유니온/프로필 스키마**&#x200B;에서 준비되거나 **외부 대상자**&#x200B;의 적격 특성에서 선택됩니다(예: [CSV 파일에서 가져온 대상자](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko#import-audience){target="_blank"} 또는 [작성 워크플로](../audience/get-started-audience-orchestration.md)의 결과). 보조 ID를 사용하는 경우 읽기 속도는 여정 인스턴스당 초당 500개의 프로필로 제한됩니다.
 
 ### 가드레일 및 추천 사항 {#must-read}
 

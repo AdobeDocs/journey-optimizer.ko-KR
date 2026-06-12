@@ -15,10 +15,10 @@ subfeature_v2:
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+source-git-commit: 02ce60020012083981c5599789b9e86804190627
 workflow-type: tm+mt
-source-wordcount: 1395
-ht-degree: 3%
+source-wordcount: 2009
+ht-degree: 2%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_parameters_supplemental_identifier"
 >title="추가 식별자 사용"
->abstract="추가 식별자는 여정 실행을 위한 추가 컨텍스트를 제공하는 보조 식별자입니다. 보조 식별자로 사용되는 필드와 관련 네임스페이스로 구성됩니다."
+>abstract="추가 식별자는 여정 실행을 위한 추가 컨텍스트를 제공하는 보조 식별자입니다. 이를 정의하려면 대상자 또는 이벤트에서 보조 식별자로 사용할 ID가 아닌 속성(또는 비개인 ID)을 선택합니다."
 
 <table style="border-collapse: collapse; width: 100%;">
   <tr>
@@ -49,9 +49,9 @@ ht-degree: 3%
 
 * **지원되는 여정**: 보조 식별자는 **이벤트 트리거됨** 및 **대상 읽기** 여정에 대해 지원됩니다. 대상 자격 여정(예: 대상 자격 활동으로 시작하는 여정)에 대해 **지원되지 않음**&#x200B;입니다.
 
-* **동시 인스턴스 제한**: 프로필에는 동시 여정 인스턴스가 10개를 초과할 수 없습니다.
+* **인바운드 동작**: 추가 식별자는 현재 인앱 및 웹 동작과 같은 인바운드 동작에 대해 지원되지 않습니다.
 
-* **빈도 규칙**: 보조 식별자 사용에서 만들어진 각 여정 인스턴스는 보조 식별자를 사용하면 여러 여정 인스턴스가 발생하는 경우에도 빈도 제한에 포함됩니다.
+* **동시 인스턴스 제한**: 프로필에는 동시 여정 인스턴스가 10개를 초과할 수 없습니다.
 
 * **데이터 형식 및 스키마 구조**: 보조 식별자는 `string` 형식이어야 합니다. 독립 문자열 속성이거나 객체 배열 내의 문자열 속성일 수 있습니다. 독립 문자열 속성은 단일 여정 인스턴스를 발생시키지만, 객체 배열 내의 문자열 속성은 객체 배열의 반복마다 고유한 여정 인스턴스를 발생시킵니다. 문자열 배열 및 맵은 지원되지 않습니다.
 
@@ -70,10 +70,10 @@ ht-degree: 3%
 
 * **대상 여정 읽기**
 
-   * 비즈니스 이벤트를 사용하는 경우 보조 ID가 비활성화됩니다.
-   * 보조 ID는 프로필의 필드여야 합니다(즉, 이벤트/컨텍스트 필드가 아님).
-   * 보조 ID를 사용하는 대상자 읽기 여정의 경우 각 여정 인스턴스에 대한 대상자 읽기 활동의 읽기 속도는 초당 최대 500개의 프로필로 제한됩니다.
-   * 보조 ID가 있는 대상자 여정 읽기를 사용할 경우 통합 프로필 서비스 대상만 지원됩니다.
+   * **비즈니스 이벤트**: 비즈니스 이벤트를 사용하는 경우 보조 ID를 사용할 수 없습니다.
+   * **이벤트 및 컨텍스트 필드**: 보조 식별자는 이벤트 또는 여정 컨텍스트 필드에서 가져오지 않아야 합니다.
+   * **특성 선택**: 모든 대상 유형(통합 프로필 서비스, CSV 가져오기 및 Federated Audience Composition)에 대해 ID가 아닌 모든 특성(또는 비개인 ID)을 보조 ID로 사용할 수 있습니다. 사용자 기반 ID 속성은 허용되지 않습니다. 외부 대상의 경우 지원되는 데이터 패턴 및 구성 요구 사항에 대해서는 [외부 대상이 있는 보조 식별자](#external-audiences)를 참조하십시오.
+   * **읽기 속도**: 배열 형식 보조 ID 필드를 사용하는 대상 여정 읽기의 경우 대상 읽기 활동의 읽기 속도는 초당 최대 500개의 프로필로 제한됩니다.
 
 ## 보조 ID가 있는 종료 기준 동작 {#exit-criteria}
 
@@ -95,37 +95,19 @@ ht-degree: 3%
 
 이벤트가 트리거된 여정에서 보조 식별자를 사용하려면 다음 단계를 수행하십시오.
 
-1. **특성을 이벤트 스키마의 식별자로 표시**
-
-   1. 이벤트 스키마에 액세스하여 보조 식별자로 사용할 속성(예: 예약 ID, 구독 ID)을 찾아 ID로 표시합니다. [스키마 작업 방법 알아보기](../data/get-started-schemas.md)
-
-   1. 식별자를 **[!UICONTROL ID]**(으)로 표시합니다.
-
-      보조 식별자 필드 그룹이 있는 ![스키마 구성](assets/supplemental-ID-schema.png)
-
-      >[!IMPORTANT]
-      >
-      >특성을 **기본 ID**(으)로 표시하지 않도록 하십시오.
-
-   1. 보조 ID와 연결할 네임스페이스를 선택하십시오. 이는 비개인 식별자 네임스페이스여야 합니다.
-
-      스키마에 비개인 ID 네임스페이스를 적용한 후 보조 식별자를 사용하려면 새 이벤트를 만들어야 합니다. 새 식별자를 인식하기 위해 기존 엔티티를 새로 고칠 수 없습니다.
-
 1. **보조 ID를 이벤트에 추가**
 
    1. 원하는 이벤트를 만들거나 편집합니다. [단일 이벤트를 구성하는 방법을 알아봅니다](../event/about-creating.md)
 
    1. 이벤트 구성 화면에서 **[!UICONTROL 보조 식별자 사용]** 옵션을 선택합니다.
 
-      ![보조 식별자 네임스페이스 선택이 있는 이벤트 구성](assets/supplemental-ID-event.png)
+      ![보조 식별자 옵션을 사용한 이벤트 구성](assets/supplemental-ID-event.png)
 
-   1. 표현식 편집기를 사용하여 보조 ID로 표시한 속성을 선택합니다.
+   1. 표현식 편집기를 사용하여 보조 ID로 사용할 필드를 선택합니다(예: 예약 ID, 구독 ID).
 
       >[!NOTE]
       >
       >**[!UICONTROL 고급 모드]**&#x200B;에서 식 편집기를 사용하여 특성을 선택했는지 확인하십시오.
-
-   1. 보조 ID를 선택하면 연관된 네임스페이스가 이벤트 구성 화면에 읽기 전용으로 표시됩니다.
 
 1. **여정에 이벤트 추가**
 
@@ -137,32 +119,6 @@ ht-degree: 3%
 
 대상자 읽기 여정에서 보조 식별자를 사용하려면 다음 단계를 수행하십시오.
 
-1. **공용 구조체/프로필 스키마에서 특성을 식별자로 표시**
-
-   1. 유니온/프로필 스키마에 액세스하여 보조 식별자로 사용할 속성(예: 예약 ID, 구독 ID)을 찾아 ID로 표시합니다. [스키마 작업 방법 알아보기](../data/get-started-schemas.md)
-
-   1. 식별자를 **[!UICONTROL ID]**(으)로 표시합니다.
-
-      ![보조 식별자 필드가 구성된 프로필 스키마](assets/supplemental-ID-schema-profile.png)
-
-      >[!IMPORTANT]
-      >
-      >특성을 **기본 ID**(으)로 표시하지 않도록 하십시오.
-
-   1. 보조 ID와 연결할 네임스페이스를 선택하십시오. 이는 비개인 식별자 네임스페이스여야 합니다.
-
-      스키마에 비개인 ID 네임스페이스를 적용한 후 보조 식별자를 사용하려면 새 필드 그룹을 만들어야 합니다. 새 식별자를 인식하기 위해 기존 엔티티를 새로 고칠 수 없습니다.
-
-<!--
-1. **Add the supplemental ID field to the data source**
-
-    1. Navigate to the **[!UICONTROL Configuration]** / **[!UICONTROL Data Sources]** menu, then locate the "ExperiencePlatformDataSource" data source.
-
-        ![Data source configuration with supplemental identifier mapping](assets/supplemental-ID-data-source.png)
-
-    1. Open the field selector then select the attribute you want to use as a supplemental identifier (e.g., booking ID, subscription ID).
--->
-
 1. **여정에서 대상자 읽기 활동을 추가하고 구성합니다**
 
    1. 여정에서 **[!UICONTROL 대상자 읽기]** 활동을 드래그합니다.
@@ -171,14 +127,14 @@ ht-degree: 3%
 
       ![보조 식별자 구성이 있는 대상 활동 읽기](assets/supplemental-ID-read-audience.png)
 
-   1. **[!UICONTROL 보조 식별자]** 필드에서 식 편집기를 사용하여 보조 ID로 표시한 특성을 선택합니다.
+   1. **[!UICONTROL 보조 식별자]** 필드에서 식 편집기를 사용하여 보조 식별자 특성을 선택합니다.
 
-      >[!NOTE]
-      >
-      >**[!UICONTROL 고급 모드]**&#x200B;에서 식 편집기를 사용하여 특성을 선택했는지 확인하십시오.
+   CSV 파일에서 가져온 [대상](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko#import-audience){target="_blank"}의 경우, CSV 대상에 프로필 ID당 여러 행이 포함되어 있으면 먼저 빠른 활성화가 활성화되었는지 확인하십시오. [외부 대상이 있는 보조 식별자](#external-audiences)를 참조하십시오.
 
-   1. 보조 ID를 선택하면 연결된 네임스페이스가 **[!UICONTROL 보조 네임스페이스]** 필드에 읽기 전용으로 표시됩니다.
-
+       >[!NOTE]
+       >
+       >**[!UICONTROL 고급 모드]**&#x200B;에서 식 편집기를 사용하여 특성을 선택하는지 확인하십시오.
+   
 >[!ENDTABS]
 
 ## 보조 ID 속성 활용
@@ -229,6 +185,113 @@ ht-degree: 3%
   ```
 
 +++
+
+## 보충 ID 및 여정 중재 {#arbitration}
+
+여정 중재(규칙 세트 내의 동시 상한과 항목 수 포함)는 (프로필 ID, 보조 ID) 쌍 수준이 아닌 프로필 ID 수준에서 작동합니다. 즉, 1의 동시성 상한은 다른 보조 ID 값을 전달하는 경우에도 동일한 프로필에 대한 두 번째 여정 인스턴스를 차단할 수 있습니다.
+
+프로덕션의 특정 중재 설정에 의존하기 전에 Adobe 담당자에게 문의하여 중재 동작에 대한 지침을 확인하십시오.
+
+**관련 설명서:**
+
+* [여정 캡핑 및 중재](../conflict-prioritization/journey-capping.md)
+* [규칙 세트 작업](../conflict-prioritization/rule-sets.md)
+* [충돌 관리 및 우선순위 지정](../conflict-prioritization/gs-conflict-prioritization.md)
+
+## 외부 대상이 있는 보조 식별자 {#external-audiences}
+
+보조 ID는 CSV 파일에서 가져온 대상 [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko#import-audience)과(와) [Federated Audience Composition](../audience/get-started-audience-orchestration.md)(으){target="_blank"}로 만든 대상 &#x200B;을(를) 포함하여 외부 대상에 대해 지원됩니다. CSV 또는 Federated Audience Composition 대상에서 읽는 여정을 구성할 때 해당 대상의 ID가 아닌 속성을 보조 ID로 지정할 수 있습니다. 그런 다음 Journey Optimizer은 고유 프로필 + 보조 ID 조합에 따라 별도의 여정 인스턴스를 만듭니다.
+
+* 사용 사례 1: 고유 프로필당 행 1개 + 보조 ID 쌍
+
+  CSV 및 Federated Audience Composition 대상의 기본 사용 사례입니다. 대상에는 여러 행이 포함되며 각 행은 프로필(예: 고객)과 보충 ID(예: 계정 또는 주문 ID)의 고유한 조합을 나타냅니다. 각 행은 독립적인 활성화 레코드로 처리됩니다.
+
+  | profile_id | account_id *(보조 ID)* | 기타_속성 |
+  | --- | --- | --- |
+  | customer_001 | AC-1001 | ... |
+  | customer_001 | AC-1002 | ... |
+  | customer_002 | ACC- | ... |
+
+  이 예제에서는 `customer_001`에 계정이 두 개 있습니다. Journey Optimizer은 각 고유 프로필 + `account_id` 쌍에 대해 별도의 여정 인스턴스를 만듭니다.
+
+* 사용 사례 2: 보조 ID 배열이 있는 프로필당 하나의 행
+
+  이 사용 사례는 배열을 지원하는 대상 유형에 사용할 수 있습니다. 대상의 단일 행에는 여러 보조 ID 값을 포함하는 배열 특성이 있는 프로필이 포함됩니다. Journey Optimizer은 배열에서 값당 하나의 여정 인스턴스를 만듭니다.
+
+  | profile_id | account_ids *(array, Supplemental ID)* | 기타_속성 |
+  | --- | --- | --- |
+  | customer_001 | [ACC-1001, ACC-1002] | ... |
+  | customer_002 | [ACC-2001] | ... |
+
+  이 예에서 Journey Optimizer은 `customer_001`에 대한 두 개의 여정 인스턴스(계정 ID당 하나)와 `customer_002`에 대한 한 개의 인스턴스를 생성합니다. 이는 통합 프로필 서비스 대상자에게 보조 ID가 작동하는 방식과 일관되게 작동합니다.
+
+### 구성 방법 {#external-configuration}
+
+사용 사례 1(대상이 의도적으로 동일한 프로필 ID에 대해 여러 행을 포함하는 경우)을 사용하는 CSV 대상의 경우 여정을 구성하기 전에 빠른 활성화를 활성화해야 합니다. 아래 전제 조건을 참조하십시오. 다른 모든 경우에는 여정을 직접 구성합니다.
+
++++ 사전 요구 사항: API를 통해 CSV 대상에서 Express 활성화를 사용하도록 설정
+
+>[!IMPORTANT]
+>
+>이 사전 요구 사항은 대상자가 의도적으로 동일한 프로필 ID에 대해 여러 행을 포함하는 CSV 대상자에만 적용됩니다(사용 사례 1). Federated Audience Composition 대상은 기본적으로 빠른 활성화 가 활성화되어 있으며 이 단계가 필요하지 않습니다. 대상 포털 UI는 `expressActivation` 설정을 지원하지 않습니다. 외부 대상 API를 사용해야 합니다.
+
+만들 때 대상에 대해 `expressActivation`을(를) 사용하도록 설정해야 합니다. 이는 Journey Optimizer에 프로필 ID별로 중복 제거하지 않고 모든 레코드를 독립적으로 활성화하도록 지시합니다. 대상자를 만든 후에는 이 플래그를 변경할 수 없습니다.
+
+대상자를 만들 때 다음 API 호출을 사용하십시오.
+
+끝점:
+
+```http
+POST https://platform.adobe.io/data/core/ais/external-audience
+```
+
+필수 헤더:
+
+```http
+Authorization: Bearer {ACCESS_TOKEN}
+Content-Type: application/json
+x-api-key: {API_KEY}
+x-gw-ims-org-id: {IMS_ORG}
+x-sandbox-name: {SANDBOX_NAME}
+```
+
+요청 본문(설정 `expressActivation: true`):
+
+```json
+{
+  "name": "my_audience_name",
+  "fields": [ ... ],
+  "sourceSpec": { ... },
+  "audienceType": "people",
+  "namespace": "CustomerAudienceUpload",
+  "expressActivation": true
+}
+```
+
+>[!NOTE]
+>
+>`expressActivation`의 기본값은 `false`입니다. 대상 생성 시 설정해야 하며, 생성 후에는 변경할 수 없습니다. 모든 Federated Audience Composition 대상은 기본적으로 빠른 활성화 가 활성화되어 있으며 이 플래그는 필요하지 않습니다.
+
+전체 참조는 [외부 대상 API 만들기 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/tutorials/create-external-audience#create){target="_blank"}를 참조하십시오.
+
++++
+
+여정을 구성하려면:
+
+1. **[!UICONTROL 대상자 읽기]** 노드로 여정을 열거나 만듭니다.
+1. **[!UICONTROL 대상 읽기]** 노드 설정에서 CSV 또는 Federated 대상 구성 대상을 선택합니다.
+1. **[!UICONTROL 보조 식별자 사용]** 옵션을 전환한 다음, **[!UICONTROL 보조 식별자 사용]** 필드에서 **[!UICONTROL 고급 모드]**&#x200B;에서 식 편집기를 사용하여 보조 식별자로 사용할 특성(예: `account_id`, `order_number`)을 선택합니다.
+1. 선택한 속성은 여정의 보조 ID로 처리되므로 ID 등록이 필요하지 않습니다.
+
+### 중복 제거 동작 {#external-dedup}
+
+대상에 빠른 활성화가 활성화된 경우(항상 Federated Audience Composition에 대해 true - CSV에 대해 명시적으로 설정해야 함) Journey Optimizer은 여정이 구성되는 방식에 따라 중복 제거를 처리합니다.
+
+| 시나리오 | 대상 행 예 | 비헤이비어 |
+| --- | --- | --- |
+| **보조 ID가 있는 여정 — 중복(프로필 ID, 보조 ID) 쌍이 없음** | (P1, S1), (P1, S2) | 의도한 사용 사례입니다. Journey Optimizer은 고유 프로필 + 보조 ID 조합에 따라 별도의 여정 인스턴스를 만듭니다. 모든 행이 허용됩니다. |
+| **보조 ID를 가진 여정 — 중복(프로필 ID, 보조 ID) 쌍이 있음** | (P1, S1), (P1, S1), (P1, S2) | 동일한 (프로필 ID, 보조 ID) 조합을 공유하는 행은 일반 여정 재입력 논리에 의해 필터링됩니다. 고유 조합당 첫 번째 일치하는 행만 허용됩니다. |
+| **보조 ID가 구성되지 않은 여정** | (P1, S1), (P1, S2) | 보조 ID가 없으면 Journey Optimizer은 동일한 프로필 ID에 대한 모든 행을 동일한 프로필로 처리합니다. 프로필 ID당 하나의 여정 인스턴스만 허용되며, 동일한 프로필에 대한 추가 행은 무시됩니다. |
 
 ## 예시 사용 사례
 
