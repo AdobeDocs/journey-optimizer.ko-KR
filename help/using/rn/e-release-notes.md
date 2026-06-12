@@ -6,17 +6,12 @@ description: Adobe Journey Optimizer 사전 릴리스 정보
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: a2257f19ea46aaf4bcf45580a0e6cf0d207be355
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: b7088f7f9a21839bde56b71ccacd6c62d4e004ff
 workflow-type: tm+mt
-source-wordcount: 1876
+source-wordcount: 2008
 ht-degree: 5%
 
 ---
@@ -218,6 +213,27 @@ Adobe Journey Optimizer은 새로운 기능, 기존 기능 개선 사항 및 버
 <tr>
 <td>
 <p>이제 이메일, 웹 페이지 및 푸시 알림을 생성할 때 AI 도우미가 Adobe Experience Manager Assets에서 직접 <b>브랜드 승인 이미지</b>를 자동으로 가져옵니다. 이렇게 하면 Assets을 수동으로 검색하거나 일반 AI 폴백에 의존할 필요가 없어 모든 시각적 요소가 완벽하게 정확하고 브랜드 규정을 준수하도록 할 수 있습니다.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>콘텐츠 생성 향상을 위한 AI Assistant</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이 릴리스는 이미지 흐름에서 강력한 이미지 편집, 보다 안정적인 브랜드 추출 및 콘텐츠 신뢰성 지원을 통해 <strong>AI Assistant</strong> 콘텐츠 생성 경험을 개선합니다.</p>
+<ul>
+<li><strong>AI 이미지 편집</strong>을(를) 이제 Firefly 타사 모델 지원을 포함한 이미지 생성 흐름에서 사용할 수 있으므로 도우미를 종료하지 않고도 소스 이미지를 개선할 수 있습니다.</li>
+<li><strong>브랜드 신호 추출</strong>은(는) 더 높은 품질의 결과를 제공합니다. 선택한 페이지에 충분한 신호가 없으면 향상된 폴백이 색상, 타이포그래피, 작성 지침 및 기타 브랜드 속성을 채웁니다.</li>
+<li><strong>웹 기반 브랜드 추출</strong>이 더 안정적입니다. 향상된 시간 제한 처리는 느린 페이지, 팝업 및 쿠키 배너가 추출을 차단하는 것을 방지하는 데 도움이 됩니다.</li>
+<li><strong>CAI(콘텐츠 정품 인증)</strong>이(가) 이제 이미지 흐름에서 지원됩니다. 또한 이 릴리스에서는 참조 이미지 업로드 문제를 수정하고 기존 C2PA 매니페스트가 없는 이미지에 대한 처리를 개선합니다.</li>
+</ul>
 </td>
 </tr>
 </tbody>
