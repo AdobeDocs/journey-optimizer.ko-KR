@@ -18,9 +18,9 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: ac47bdffab45e4b7645430a4dab687a47844c140
 workflow-type: tm+mt
-source-wordcount: 1143
+source-wordcount: 1177
 ht-degree: 1%
 
 ---
@@ -163,6 +163,8 @@ ht-degree: 1%
 
 개인화 편집기에서는 정책에 의해 선택된 결정 항목과 연관된 모든 AEM 콘텐츠 조각을 사용할 수 있습니다. 조각 키 이름당 하나의 폴더가 표시됩니다.
 
+➡️ [비디오에서 Journey Optimizer Decisioning과 함께 AEM 콘텐츠 조각을 사용하는 방법을 알아봅니다](#video)
+
 이 예제에서 의사 결정 정책에는 참조 이름을 통해 연결된 AEM 조각이 있는 두 개의 의사 결정 항목이 포함되어 있습니다.
 
 ![](assets/aem-fragment-select.png)
@@ -176,3 +178,9 @@ ht-degree: 1%
    ![](assets/aem-fragment-attribute.png)
 
 1. 캠페인이나 여정을 활성화하기 전에 시뮬레이션 방법을 사용하여 AEM 콘텐츠 조각 필드 값이 렌더링되는 방법을 미리 봅니다. 샘플 입력 데이터 또는 AI 자동 생성으로 콘텐츠 변형을 테스트하려면 **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭하고, **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭한 다음 드롭다운에서 **[!UICONTROL 콘텐츠 시뮬레이션(AEP 프로필)]**&#x200B;을 선택하여 특정 테스트 프로필로 미리 봅니다. [콘텐츠 시뮬레이션에 대한 자세한 정보](../content-management/preview-test.md)
+
+## 사용 방법 비디오 {#video}
+
+Journey Optimizer Decisioning과 함께 Adobe Experience Manager 콘텐츠 조각을 사용하여 콘텐츠를 개인화하고 최적화하는 방법을 알아봅니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3492220/?captions=kor&learn=on&enablevpops)
