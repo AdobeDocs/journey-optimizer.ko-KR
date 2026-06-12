@@ -31,9 +31,9 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+source-git-commit: d9a93a5ae5dfbb21b4dfd102b356c15982e6d5a1
 workflow-type: tm+mt
-source-wordcount: 1734
+source-wordcount: 1775
 ht-degree: 13%
 
 ---
@@ -45,15 +45,15 @@ ht-degree: 13%
 >title="액션 활동"
 >abstract="**액션** 활동을 사용하면 단일 기본 채널 액션과 여러 인바운드 활동을 구성하고 모든 기본 제공 채널 액션에 최적화를 추가할 수 있습니다."
 
-**Action** 활동은 여정 캔버스에서 모든 채널 작업의 단일 진입점입니다.
+**Action** 활동은 여정 캔버스에서 고객에게 콘텐츠를 제공하기 위한 단일 진입점입니다. 각 채널에 대해 별도의 활동에서 선택하는 대신 단일 **[!UICONTROL Action]** 활동을 캔버스로 드래그하고 사용할 채널을 선택합니다.
 
-이는 이전의 개별 기본 제공 채널 활동을 대체하며 이메일, 푸시, SMS, 인앱, 웹, 코드 기반 경험 및 콘텐츠 카드를 하나의 통합 활동 유형으로 통합합니다.
+이메일, 푸시, SMS, 인앱, 웹, 코드 기반 경험, 콘텐츠 카드 등 모든 기본 제공 채널을 하나의 통합 활동 유형으로 통합하여 이전에 사용했던 개별 채널 활동을 대체합니다.
 
-사용 방법:
+**Action** 활동을 사용하여 다음을 수행할 수 있습니다.
 
 * 간소화된 단일 인터페이스에서 모든 기본 제공 채널 작업을 구성합니다.
-* 다중 작업 인바운드 작업 그룹을 빌드합니다.
-* 모든 채널 작업에 최적화를 적용합니다.
+* 여러 인바운드 경험을 하나의 [다중 작업 그룹](#multi-action)에 결합합니다.
+* 모든 작업에 [최적화](../content-management/gs-message-optimization.md), [다국어 콘텐츠](../content-management/multilingual-gs.md) 및 채널별 설정을 적용합니다.
 
 >[!NOTE]
 >
