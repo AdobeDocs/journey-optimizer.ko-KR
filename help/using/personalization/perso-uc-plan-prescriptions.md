@@ -7,26 +7,25 @@ role: Developer
 level: Experienced
 exl-id: 832b0bfa-ec74-4b1d-ad85-d4e4ea2f8863
 TQID: https://experienceleague.adobe.com/fZtkkz9pvdZ3G7ojmHlNhasxawVbXmBHX-uznq6hseY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-  - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: cb09dcb7-3367-4b63-b02c-8a1356eb876eid: a757b957-83f3-4a4d-9775-a93854f84f77
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 116
-ht-degree: 3%
+source-wordcount: 148
+ht-degree: 2%
 
 ---
 
 # 건강 계획 처방 이메일 {#plan-prescription}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 조건부 규칙을 사용하여 중첩된 프로필 배열을 반복하는 개인화 사용 사례를 따라 픽업 또는 회수할 준비가 된 상태 계획 전자 메일 목록 처방전을 작성하십시오.
+
+>[!ENDSHADEBOX]
 
 프로필에는 상태 플랜이 포함되어 있으며 각 플랜에는 처방이 포함됩니다. 처방에는 &quot;준비됨&quot;, &quot;회수&quot; 또는 &quot;수거&quot;와 같이 다양한 상태가 있습니다.
 

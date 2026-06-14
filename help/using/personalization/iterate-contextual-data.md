@@ -10,28 +10,26 @@ level: Intermediate
 keywords: 표현식, 편집기, 핸들바, 반복, 배열, 컨텍스트, 개인화
 exl-id: 1a7c490f-6490-4785-a44d-bddd5482754d
 TQID: https://experienceleague.adobe.com/fOnI9VWpgrFCfUhnvkaiK-Ecsa-LOn8YJpdWZNnQilY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: f0577040-fadd-46a1-b0ae-9c7f828bb2da
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: f0577040-fadd-46a1-b0ae-9c7f828bb2da
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 3075
+source-wordcount: 3109
 ht-degree: 1%
 
 ---
 
 # 상황별 데이터 반복 {#personalization-contexts}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Handlebars 반복 구문을 사용하여 이벤트, 사용자 지정 작업 응답 및 데이터 집합 조회 같은 컨텍스트 데이터 원본에서 배열을 반복하여 메시지에 동적 목록을 표시하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 Handlebars 반복 구문을 사용하여 이벤트, 사용자 지정 작업 응답 및 기타 상황별 데이터를 포함하여 메시지에 있는 다양한 소스의 동적 데이터 목록을 표시하는 방법에 대해 알아봅니다.
 
@@ -96,7 +94,7 @@ context.journey.events.<event_ID>.<fieldPath>
 
 ### 예: 이벤트의 장바구니 항목
 
-[이벤트 스키마](../event/experience-event-schema.md)에 `productListItems` 배열(표준 [XDM 형식](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=ko){target="_blank"})이 포함된 경우 아래 샘플에 자세히 설명된 대로 장바구니 콘텐츠를 표시할 수 있습니다.
+[이벤트 스키마](../event/experience-event-schema.md)에 `productListItems` 배열(표준 [XDM 형식](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"})이 포함된 경우 아래 샘플에 자세히 설명된 대로 장바구니 콘텐츠를 표시할 수 있습니다.
 
 +++ 예제 코드 보기
 

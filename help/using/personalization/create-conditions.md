@@ -9,18 +9,22 @@ role: Developer
 level: Intermediate
 keywords: 표현식, 편집기, 조건부, 규칙
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: a757b957-83f3-4a4d-9775-a93854f84f77
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 635
-ht-degree: 11%
+source-wordcount: 666
+ht-degree: 10%
 
 ---
 
 # 조건부 규칙 작업 {#conditions}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 프로필 특성, 컨텍스트 기반 이벤트 및 개인화 편집기의 대상자로부터 조건부 규칙을 만든 다음 콘텐츠에 다시 사용할 수 있도록 라이브러리에 저장하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 조건부 규칙은 프로필의 속성, 대상자 멤버십 또는 컨텍스트 이벤트와 같은 다양한 기준에 따라 메시지에 표시할 콘텐츠를 정의하는 규칙 세트입니다.
 
@@ -60,7 +64,7 @@ ht-degree: 11%
 
 1. 필요에 따라 조건부 규칙을 만듭니다. 이렇게 하려면 왼쪽 메뉴에서 원하는 속성을 캔버스로 드래그 앤 드롭하고 정렬합니다.
 
-   속성을 캔버스에 결합하는 단계는 세그먼트 빌드 경험과 유사합니다. 규칙 빌더 캔버스로 작업하는 방법에 대한 자세한 내용은 [이 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ko#rule-builder-canvas)를 참조하세요.
+   속성을 캔버스에 결합하는 단계는 세그먼트 빌드 경험과 유사합니다. 규칙 빌더 캔버스로 작업하는 방법에 대한 자세한 내용은 [이 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#rule-builder-canvas)를 참조하세요.
 
    ![](assets/conditions-create.png)
 

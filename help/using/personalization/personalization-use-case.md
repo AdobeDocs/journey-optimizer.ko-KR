@@ -10,28 +10,26 @@ level: Intermediate
 keywords: 표현식, 편집기, 사용 사례, 개인화
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
 TQID: https://experienceleague.adobe.com/TzGxWPRUHz4Hf-Acni4-LjNTpAYTjZBBt-GMxlNXQHM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-  - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: cb09dcb7-3367-4b63-b02c-8a1356eb876eid: a757b957-83f3-4a4d-9775-a93854f84f77
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 532
+source-wordcount: 559
 ht-degree: 2%
 
 ---
 
 # Personalization 사용 사례: 주문 상태 알림 {#personalization-use-case}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer에서 푸시 알림을 개인화하기 위해 프로필, 오퍼 결정 및 상황별 여정 데이터를 결합하는 주문 상태 사용 사례를 따릅니다.
+
+>[!ENDSHADEBOX]
 
 이 사용 사례에서는 단일 푸시 알림 메시지에 여러 유형의 개인화를 사용하는 방법을 알아봅니다. 세 가지 유형의 개인화가 사용됩니다.
 
@@ -125,4 +123,4 @@ ht-degree: 2%
 
 아래 비디오에서는 여정의 컨텍스트 데이터를 활용하여 이메일을 개인화하는 유사한 사용 사례를 보여줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3428531?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425027?quality=12)

@@ -10,45 +10,44 @@ level: Intermediate
 keywords: 표현식, 편집기, 도우미, 사용 사례, 개인화
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
 TQID: https://experienceleague.adobe.com/93bIkfyck5u-tQNGr7jGRORQiTa3gaMHn4H5RP-dpYo
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 1263
+source-wordcount: 1289
 ht-degree: 2%
 
 ---
 
 # Personalization 사용 사례: 장바구니 포기 이메일 {#personalization-use-case-helper-functions}
 
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** upperCase를 사용하여 전자 메일 본문을 개인화하는 장바구니 포기 사용 사례를 팔로우합니다. 각 사례는 Adobe Journey Optimizer에서 도우미 기능을 수행하는 경우입니다.
+
+>[!ENDSHADEBOX]
+
 이 예제에서는 이메일 메시지의 본문을 개인화합니다. 이 메시지는 장바구니에 품목을 남겨두었지만 구매를 완료하지 않은 고객을 타겟팅합니다.
 
 다음 유형의 도우미 함수를 사용합니다.
 
-* 고객의 이름을 대문자로 삽입하는 `upperCase` 문자열 함수입니다. [자세히 알아보기](functions/string.md#upper).
-* `each` 도우미가 장바구니에 있는 항목을 나열합니다. [자세히 알아보기](functions/helpers.md#each).
-* 관련 제품이 장바구니에 있는 경우 제품별 메모를 삽입하려면 `if` 도우미를 사용하십시오. [자세히 알아보기](functions/helpers.md#if-function).
+* 고객의 이름을 대문자로 삽입하는 `upperCase` 문자열 함수입니다. [자세히 알아보기](functions/string.md#upper)
+* `each` 도우미가 장바구니에 있는 항목을 나열합니다. [자세히 알아보기](functions/helpers.md#each)
+* 관련 제품이 장바구니에 있는 경우 제품별 메모를 삽입하려면 `if` 도우미를 사용하십시오. [자세히 알아보기](functions/helpers.md#if-function)
 <!-- **Context**: personalization based on contextual data from the journey -->
 
 ➡️ [이 비디오에서 도우미 함수를 사용하는 방법에 대해 알아보세요](#video)
 
 시작하기 전에 다음 요소를 구성하는 방법을 알고 있어야 합니다.
 
-* 단일 이벤트입니다. [자세히 알아보기](../event/about-events.md).
-* 이벤트로 시작하는 여정. [자세히 알아보기](../building-journeys/using-the-journey-designer.md).
+* 단일 이벤트입니다. [자세히 알아보기](../event/about-events.md)
+* 이벤트로 시작하는 여정. [자세히 알아보기](../building-journeys/using-the-journey-designer.md)
 * 여정 내 이메일 메시지. [자세히 알아보기](../email/create-email.md)
-* 이메일의 본문. [자세히 알아보기](../email/content-from-scratch.md).
+* 이메일의 본문. [자세히 알아보기](../email/content-from-scratch.md)
 
 다음 단계를 수행하십시오.
 
@@ -66,7 +65,7 @@ ht-degree: 2%
 1. 스키마에 `productListItems` 배열이 포함된 이벤트를 만듭니다.
 1. 이 배열의 모든 필드를 이 이벤트의 페이로드 필드로 정의합니다.
 
-   [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=ko){target="_blank"}에서 제품 목록 항목 데이터 형식에 대해 자세히 알아보세요.
+   [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}에서 제품 목록 항목 데이터 형식에 대해 자세히 알아보세요.
 
 1. 이 이벤트로 시작하는 여정을 만듭니다.
 1. **전자 메일** 활동을 여정에 추가합니다.
@@ -119,7 +118,7 @@ ht-degree: 2%
 
       ![프로필 이름 토큰이 있는 upperCase를 표시하는 식 편집기](assets/personalization-uc-helpers-5.png)
 
-      [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=ko){target="_blank"}에서 사용자 이름 데이터 유형에 대해 자세히 알아보세요.
+      [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target="_blank"}에서 사용자 이름 데이터 유형에 대해 자세히 알아보세요.
 
 1. **[!UICONTROL 유효성 검사]**&#x200B;를 클릭한 다음 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
@@ -158,7 +157,7 @@ ht-degree: 2%
 
       **[!UICONTROL 컨텍스트 특성]**&#x200B;은(는) 여정 컨텍스트가 메시지에 전달된 후에만 사용할 수 있습니다.
 
-   1. **[!UICONTROL Journey Optimizer]** > **[!UICONTROL 이벤트]** > ***[!UICONTROL event_name]***&#x200B;을 선택한 다음 **[!UICONTROL productListItems]** 노드를 확장합니다.
+   1. **[!UICONTROL Journey Optimizer]** > **[!UICONTROL 이벤트]** > ***[!UICONTROL event_name]***을 선택한 다음 **[!UICONTROL productListItems]** 노드를 확장합니다.
 
       이 예제에서 *event_name*&#x200B;은 이벤트의 이름을 나타냅니다.
 
@@ -268,7 +267,7 @@ ht-degree: 2%
 1. 조건에 제품 이름 토큰을 추가합니다.
    1. 표현식에서 &quot;condition1&quot; 자리 표시자를 제거합니다.
    1. 왼쪽 메뉴에서 **[!UICONTROL 컨텍스트 특성]**&#x200B;을 선택합니다.
-   1. **[!UICONTROL Journey Orchestration]** > **[!UICONTROL 이벤트]** > ***[!UICONTROL event_name]***&#x200B;을 선택한 다음 **[!UICONTROL productListItems]** 노드를 확장합니다.
+   1. **[!UICONTROL Journey Orchestration]** > **[!UICONTROL 이벤트]** > ***[!UICONTROL event_name]***을 선택한 다음 **[!UICONTROL productListItems]** 노드를 확장합니다.
 
       이 예제에서 *event_name*&#x200B;은 이벤트의 이름을 나타냅니다.
 
@@ -360,4 +359,4 @@ ht-degree: 2%
 
 도우미 함수를 사용하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416646?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
