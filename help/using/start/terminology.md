@@ -25,14 +25,20 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0047bf4386b33c99fded37750e24ed9fbf4188f6
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 1569
+source-wordcount: 1595
 ht-degree: 7%
 
 ---
 
 # 주요 용어 {#key-terminology}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 플랫폼을 자신 있게 탐색하고 팀과 효과적으로 공동 작업할 수 있도록 중요한 Adobe Journey Optimizer 용어 및 개념을 살펴보십시오.
+
+>[!ENDSHADEBOX]
 
 이 참조 안내서는 Adobe Journey Optimizer을 사용할 때 접하게 되는 필수 용어를 정의합니다. 이러한 개념을 이해하면 자신 있게 플랫폼을 탐색하고 팀과 효과적으로 공동 작업을 수행할 수 있습니다.
 

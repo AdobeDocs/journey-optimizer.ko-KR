@@ -33,14 +33,20 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 1296
-ht-degree: 100%
+source-wordcount: 1323
+ht-degree: 97%
 
 ---
 
 # Journey Optimizer 시작 {#ajo-gs}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer이 무엇인지, 핵심 기능 및 구체적인 사용 사례를 이해하여 고객 참여 목표에 어떻게 적합한지 결정할 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 이 페이지에서는 Adobe Journey Optimizer의 정의, 대상 사용자, 주요 기능, Adobe Experience Platform 아키텍처에서 담당하는 역할을 소개합니다. 신규 사용자가 시작 지점으로 사용하는 것을 추천합니다.
 

@@ -26,14 +26,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 997
+source-wordcount: 1026
 ht-degree: 4%
 
 ---
 
 # 모범 사례 {#best-practices}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** ID 연결, 옴니채널 개인화 및 여정 보호 기능에 대한 Journey Optimizer 모범 사례를 적용하여 시스템 제한 내에서 신뢰할 수 있는 사용 사례를 구축하고 효율적으로 확장할 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 ## 실시간 사용 사례 및 옴니채널 개인화 지침 {#real-time-guidance}
 

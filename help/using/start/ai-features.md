@@ -29,14 +29,20 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 2177
+source-wordcount: 2216
 ht-degree: 6%
 
 ---
 
 # AI 및 지능형 기능 {#ai-features}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 더 빠르게 작업하고 더 적절한 고객 경험을 제공할 수 있도록 AI Assistant 및 에이전트에서 콘텐츠 생성, 전송 시간 최적화, 의사 결정에 이르기까지 Adobe Journey Optimizer 전반의 AI 및 머신 러닝 기능을 살펴보십시오.
+
+>[!ENDSHADEBOX]
 
 Adobe Journey Optimizer은 인공 지능과 머신 러닝의 기능을 활용하여 탁월한 고객 경험을 만들고, 최적화하고, 제공할 수 있도록 지원합니다. AI 기능은 개인화된 콘텐츠 생성에서 최적의 전송 시간 예측에 이르기까지 워크플로를 간소화하고 효과를 극대화합니다. 사용 사례 플레이북은 일반적인 마케팅 시나리오를 빠르게 구현하기 위해 사전 빌드된 템플릿을 제공합니다.
 

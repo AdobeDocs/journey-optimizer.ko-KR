@@ -27,14 +27,20 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 1721
-ht-degree: 100%
+source-wordcount: 1751
+ht-degree: 98%
 
 ---
 
 # 마케터를 위한 시작 {#get-started-marketers}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Journey Optimizer에서 대상을 구축하고, 콘텐츠를 디자인하고, 개인화된 고객 경험을 제공하는 여정 및 캠페인을 조정할 수 있도록 마케터를 위한 시작 경로를 따르십시오.
+
+>[!ENDSHADEBOX]
 
 **마케터** 또는 **비즈니스 전문가**&#x200B;로서, 고객에게 개인적이고 상황에 맞는 경험을 제공하기 위해 고객 여정을 디자인합니다. 메시지 콘텐츠를 지능적으로 개인화하기 위해 이메일 및 푸시 메시지, 오퍼 및 의사 결정 구성 요소를 포함하여 이러한 개인화된 여정의 모든 다양한 구성 요소를 만들고 관리합니다. Journey Optimizer는 전체 엔드투엔드 사용 사례를 한 곳에서 구현할 수 있는 통합 사용자 경험을 제공합니다. [시스템 관리자](administrator.md) 및 [데이터 엔지니어](data-engineer.md)에 액세스 권한을 부여하고 환경을 준비하면 [!DNL Adobe Journey Optimizer]&#x200B;(으)로 작업을 시작할 수 있습니다.
 

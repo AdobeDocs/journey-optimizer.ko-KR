@@ -40,14 +40,20 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 2269
-ht-degree: 100%
+source-wordcount: 2300
+ht-degree: 98%
 
 ---
 
 # 역할 및 책임
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 팀에 적합한 시작점과 빠른 시작 작업을 찾을 수 있도록 Adobe Journey Optimizer 구현의 주요 역할과 책임을 이해합니다.
+
+>[!ENDSHADEBOX]
 
 브랜드는 Adobe Journey Optimizer를 사용해 고객 여정 전반에 걸쳐 연결되고 상황에 맞는 개인화된 경험을 제공할 수 있습니다. 규모, 속도 및 유연성에 대한 종합적인 초점을 바탕으로 구축된 Journey Optimizer는 통합 애플리케이션에 다음과 같은 세 가지 주요 가치 요소를 결합합니다.
 

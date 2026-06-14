@@ -28,14 +28,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 4714
+source-wordcount: 4739
 ht-degree: 0%
 
 ---
 
 # 문제 해결 FAQ {#ajo-troubleshooting}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 채널, 데이터, 대상 및 구성에 걸쳐 일반적인 Adobe Journey Optimizer 문제에 대한 답변과 수정 사항을 찾아 문제를 신속하게 해결할 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 다음은 Adobe Journey Optimizer 문제 해결 문서 목록입니다. 각 문제 해결 섹션은 FAQ에 대한 답변과 문제에 대한 솔루션을 제공합니다.
 

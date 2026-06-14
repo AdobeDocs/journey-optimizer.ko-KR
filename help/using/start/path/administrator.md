@@ -28,14 +28,20 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 1076
-ht-degree: 100%
+source-wordcount: 1099
+ht-degree: 97%
 
 ---
 
 # 시스템 관리자를 위한 시작 {#get-started-sys-admins}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 팀이 Adobe Journey Optimizer에서 안전하고 효율적으로 작업할 수 있도록 사용자, 권한, 샌드박스 및 채널 구성을 설정합니다.
+
+>[!ENDSHADEBOX]
 
 **시스템 관리자**&#x200B;로서 Journey Optimizer 환경을 설정하고 액세스 권한을 관리하여 팀이 효율적이고 안전하게 작업할 수 있도록 합니다. [데이터 엔지니어](data-engineer.md), [개발자](developer.md) 및 [마케터](marketer.md)가 [!DNL Adobe Journey Optimizer]로 작업을 시작할 수 있도록 필수 구성 단계를 수행합니다.
 
@@ -85,7 +91,7 @@ ht-degree: 100%
 
    * 필요에 따라 전송된 이메일 및 SMS 콘텐츠를 보관하기 위해 채널 구성 수준에서 **메시지 내보내기**&#x200B;를 활성화합니다(추가 기능). [자세히 알아보기](../../configuration/message-export.md)
 
-1. **하위 도메인 위임**: Journey Optimizer에서 사용할 새 하위 도메인의 경우 첫 번째 단계는 이를 위임하는 것입니다. [자세히 알아보기](../../configuration/about-subdomain-delegation.md). 필요한 경우 하위 도메인을 CNAME에서 사용자 정의 위임으로 마이그레이션할 수 있습니다. [자세히 알아보기](../../configuration/custom-subdomain-migration.md)
+1. **하위 도메인 위임**: Journey Optimizer에서 사용할 새 하위 도메인의 경우 첫 번째 단계는 이를 위임하는 것입니다. [자세히 알아보기](../../configuration/about-subdomain-delegation.md) 필요한 경우 하위 도메인을 CNAME에서 사용자 정의 위임으로 마이그레이션할 수 있습니다. [자세히 알아보기](../../configuration/custom-subdomain-migration.md)
 
    ![](../assets/subdomain.png)
 

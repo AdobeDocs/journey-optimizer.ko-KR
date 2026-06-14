@@ -29,14 +29,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 991
-ht-degree: 100%
+source-wordcount: 1017
+ht-degree: 97%
 
 ---
 
 # 데이터 엔지니어를 위한 시작 {#data-engineer}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 팀이 개인화된 실시간 고객 경험을 제공할 수 있도록 Adobe Journey Optimizer을 지원하는 스키마, 데이터 세트, ID 및 데이터 소스를 빌드합니다.
+
+>[!ENDSHADEBOX]
 
 **데이터 아키텍트** 또는 **데이터 엔지니어**&#x200B;로서 [!DNL Journey Optimizer]에서 오케스트레이션하는 경험을 지원하는 고객 프로필 데이터와 기타 데이터 소스를 설정하고 유지 관리합니다. 여기에는 웹, CRM 또는 오프라인 소스 등 모든 고객 및 비즈니스 데이터를 통합하여 고객에 대한 360도 통합 보기를 구축하는 것이 포함됩니다. 고객 프로필 데이터와 비즈니스 데이터를 스키마로 모델링하고, 데이터 수집을 위한 소스 커넥터를 구성하며, 데이터가 원활하게 전달되도록 하여 실시간 고객 인사이트 및 참여를 가능하게 합니다. [시스템 관리자](administrator.md)가 액세스 권한을 부여하고 환경을 준비하면 [!DNL Adobe Journey Optimizer] 작업을 시작할 수 있습니다.
 

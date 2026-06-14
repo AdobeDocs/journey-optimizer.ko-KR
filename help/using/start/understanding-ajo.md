@@ -38,14 +38,20 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 957
+source-wordcount: 986
 ht-degree: 3%
 
 ---
 
 # Journey Optimizer 이해 {#understanding-ajo}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 개인화된 여정 이면의 데이터 대 경험 주기, 기능 영역 및 아키텍처를 이해할 수 있도록 Adobe Journey Optimizer이 Adobe Experience Platform과 어떻게 작동하는지 확인하십시오.
+
+>[!ENDSHADEBOX]
 
 이 페이지에서는 Adobe Experience Platform과 Journey Optimizer이 함께 작동하는 방식을 설명하며 지속적인 데이터 경험 주기, 주요 기능 영역, 아키텍처 세부 정보 및 통합 지점에 대해 설명합니다.
 

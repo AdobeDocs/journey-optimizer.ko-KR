@@ -9,15 +9,21 @@ role: Admin, User
 level: Beginner
 keywords: 여정 최적화 도구, 패키지, 라이선스, 선택, prime, ultimate, 기능, 기능, 모듈식, 채널
 hide: true
-source-git-commit: 5e9ffb790127aae281dd15ad0eac03dbe0bb05e2
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 6%
+source-wordcount: '1007'
+ht-degree: 5%
 
 ---
 
 
 # 내 [!DNL Adobe Journey Optimizer] 패키지에서 사용할 수 있는 항목 {#ajo-packages}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 패키지에서 잠금 해제하는 Adobe Journey Optimizer 기능, 현재 Campaigns and Campaigns 모델 또는 레거시 Select, Prime 및 Ultimate 라이선싱을 사용하는지 여부를 확인하여 사용 가능한 기능을 확인하고 각 기능으로 이동할 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer] 기능은 사용권 계약, 사용 가능한 채널 및 사용자 권한에 따라 다릅니다. 이 안내서를 사용하여 패키지에서 일반적으로 사용할 수 있는 기능을 파악하고 각 기능에 대한 제품 설명서로 직접 이동합니다.
 

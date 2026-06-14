@@ -31,16 +31,22 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 1587
-ht-degree: 100%
+source-wordcount: 1617
+ht-degree: 98%
 
 ---
 
 # 인터페이스 살펴보기 {#user-interface}
 
-Adobe Journey Optimizer에 액세스하려면 Adobe ID로 [Adobe Experience Cloud](https://experience.adobe.com)에 로그인한 다음, [!DNL Journey Optimizer]을(를) 선택하세요.
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 필요한 기능에 빠르게 액세스할 수 있도록 Adobe Journey Optimizer 인터페이스(상단 표시줄, 홈 페이지 및 왼쪽 탐색)를 살펴보십시오.
+
+>[!ENDSHADEBOX]
+
+Adobe Journey Optimizer에 액세스하려면 Adobe ID로 [Adobe Experience Cloud](https://experience.adobe.com)에 로그인한 다음 [!DNL Journey Optimizer]을 선택하세요.
 
 >[!NOTE]
 >

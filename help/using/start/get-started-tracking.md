@@ -34,14 +34,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 1964
+source-wordcount: 1995
 ht-degree: 3%
 
 ---
 
 # Journey Optimizer에서 추적 시작 {#get-started-tracking}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 캠페인 효과를 측정하고 데이터 기반 결정을 내릴 수 있도록 여러 채널에서 고객 상호 작용을 추적하고 Journey Optimizer의 게재 가능성 및 시스템 상태를 모니터링하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 추적을 사용하면 캠페인 효과를 측정하고, 고객 경험을 최적화하고, 메시지가 의도한 수신자에게 도달하는지 확인할 수 있습니다. Journey Optimizer은 고객 상호 작용, 게재 성능 및 시스템 상태를 캡처하는 포괄적인 추적 기능을 제공하여 개인 정보를 존중하고 규정 준수를 유지하면서 데이터 중심의 의사 결정을 내리는 데 도움이 됩니다.
 
