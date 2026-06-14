@@ -8,31 +8,26 @@ role: User
 level: Beginner
 exl-id: be3936e4-8185-4031-9daf-95eea58077d0
 TQID: https://experienceleague.adobe.com/QpLGV-y5qbtmksC-99GU5PtaV-mUA-imew8JDj7-weA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: e95b6013-acbe-46e9-a3b5-b80e14088d7did: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 537
-ht-degree: 35%
+source-wordcount: 527
+ht-degree: 36%
 
 ---
 
 # 프로필 시작 {#profiles-gs}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer의 실시간 고객 프로필에서 온라인, 오프라인 및 서드파티 소스의 고객 데이터를 단일 보기로 통합하는 방법과 프로필 대시보드에 액세스하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 ## 프로필 정보
 
@@ -40,7 +35,7 @@ ht-degree: 35%
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
 
-**실시간 고객 프로필{&#x200B;1} - 온라인, 오프라인 및 익명 소스의 고객 특성 및 이벤트를 하나의 통합 프로필에 통합합니다.**&#x200B;프로필&#x200B;을 사용하여 여러 접점에서 개인화된 실시간 경험으로 고객의 참여를 유도하십시오. &#x200B;
+**실시간 고객 프로필{&#x200B;1} - 온라인, 오프라인 및 익명 소스의 고객 특성 및 이벤트를 하나의 통합 프로필에 통합합니다. 프로필&#x200B;을 사용하여 여러 접점에서 개인화된 실시간 경험으로 고객의 참여를 유도하십시오. &#x200B;**
 
 **데이터 수집** - 동작, 트랜잭션, 재무 및 운영 데이터를 수집하려면 다양한 데이터 소스에 연결합니다. 실시간으로 또는 일괄 업로드를 통해 데이터를 수집하여 프로필을 지속적으로 업데이트합니다. 프로필은 [!DNL Journey Optimizer] 인터페이스 내에서 직접 만들어지지 않습니다. 데이터를 수집할 때 Adobe Experience Platform에서 자동으로 만들어지거나 업데이트됩니다.
 
@@ -59,7 +54,7 @@ ht-degree: 35%
 >* [Journey Optimizer에서 데이터 관리 시작](../data/gs-data.md)
 >* [실시간 고객 프로필 설명서](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ko){target="_blank"}
 >* [실시간 고객 프로필 데이터 및 세분화를 위한 기본 보호 기능](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails){target="_blank"}
->* {&#x200B;0}데이터 수집 설명서[&#128279;](https://experienceleague.adobe.com/ko/docs/experience-platform/ingestion/home){target="_blank"}
+>* {&#x200B;0}데이터 수집 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home){target="_blank"}[
 
 ## 프로필 대시보드
 
@@ -77,4 +72,4 @@ ht-degree: 35%
 
 Adobe Experience Platform에서 실시간 고객 프로필을 조합하고 업데이트하는 방법과 이러한 프로필에 액세스하여 사용하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/31709?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27251?quality=12)

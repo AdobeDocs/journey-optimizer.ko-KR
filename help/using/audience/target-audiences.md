@@ -9,29 +9,26 @@ role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
 TQID: https://experienceleague.adobe.com/tcx8KXGtorgevwLUj6rnvoE1mFYESJ4VaLL2vn3aZfA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 811
-ht-degree: 11%
+source-wordcount: 841
+ht-degree: 10%
 
 ---
 
 # [!DNL Journey Optimizer]의 대상자 활성화 {#segments-in-journey-optimizer}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 활성화 지연 및 다양한 대상 유형에 적용되는 보호 기능 등 Adobe Journey Optimizer 캠페인과 여정에서 Adobe Experience Platform 대상을 타깃팅하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 캠페인 및 여정에서 세그먼트 정의, 사용자 지정 업로드, 작성 워크플로우 또는 페더레이션 대상 작성을 사용하여 생성된 대상을 선택할 수 있습니다.
 
