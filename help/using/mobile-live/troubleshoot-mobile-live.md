@@ -49,7 +49,7 @@ Adobe Journey Optimizer의 라이브 활동을 통해 iOS 잠금 화면 및 Dyna
 * 푸시 토큰 등록
 * 라이브 활동 라이프사이클 이벤트
 
-[Assurance 설명서](https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance)에서 Adobe Experience Platform Assurance을 설정하는 방법을 알아보세요.
+[Assurance 설명서](https://experienceleague.adobe.com/ko/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance)에서 Adobe Experience Platform Assurance을 설정하는 방법을 알아보세요.
 
 **참고**: iOS Live 활동의 경우 앱이 실제 iOS 장치(iOS 16.1 이상) 또는 Xcode 시뮬레이터(iOS 16.1 이상)에서 실행되고 있는지 확인하십시오.
 
