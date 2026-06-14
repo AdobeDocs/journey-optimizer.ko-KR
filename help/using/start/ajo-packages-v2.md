@@ -9,15 +9,21 @@ role: Admin, User
 level: Beginner
 keywords: 여정 최적화 도구, 패키지, 라이선스, 캠페인, 여정, 채널, 의사 결정, 아웃바운드, 모바일, 웹, 모듈식
 hide: true
-source-git-commit: d0e43b37ab759fde2794e2bf981e233875ba620a
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '974'
 ht-degree: 2%
 
 ---
 
 
 # Adobe Journey Optimizer 패키지 및 기능 {#ajo-packages-v2}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 기본 오퍼, 채널 추가 기능 및 Decisioning 추가 기능 전체에 걸쳐 모듈식 Adobe Journey Optimizer 패키징이 작동하는 방식을 알아봅니다. 이를 통해 참여 사용 사례와 예산에 맞는 조합을 선택할 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer]은(는) 모듈식 패키징 모델을 사용합니다. 기본 사용 사례와 일치하는 기본 오퍼로 시작한 다음 필요한 채널 및 고급 기능을 추가합니다.
 

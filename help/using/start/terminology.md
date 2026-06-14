@@ -8,31 +8,26 @@ role: Admin, Developer, User
 level: Beginner
 exl-id: 14e72376-87ad-4fae-bf8c-f347109d7903
 TQID: https://experienceleague.adobe.com/-aDvt4RUXyf0EnPfFTJkG1CvWgte-1Fr6YaWvgcNNu4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0047bf4386b33c99fded37750e24ed9fbf4188f6
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 1569
+source-wordcount: 1595
 ht-degree: 7%
 
 ---
 
 # 주요 용어 {#key-terminology}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 플랫폼을 자신 있게 탐색하고 팀과 효과적으로 공동 작업할 수 있도록 중요한 Adobe Journey Optimizer 용어 및 개념을 살펴보십시오.
+
+>[!ENDSHADEBOX]
 
 이 참조 안내서는 Adobe Journey Optimizer을 사용할 때 접하게 되는 필수 용어를 정의합니다. 이러한 개념을 이해하면 자신 있게 플랫폼을 탐색하고 팀과 효과적으로 공동 작업을 수행할 수 있습니다.
 
@@ -40,7 +35,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->Adobe Journey Optimizer은 **Adobe Experience Platform**&#x200B;을 기반으로 빌드되었습니다. 실시간 고객 프로필, 샌드박스, 스키마 및 데이터 세트와 같이 사용자가 접할 수 있는 많은 기본 개념은 Journey Optimizer 관련 개념이 아닌 Adobe Experience Platform 개념입니다. 이러한 용어에 대한 정의는 [Adobe Experience Platform 용어집](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=ko){target="_blank"}을 참조하세요.
+>Adobe Journey Optimizer은 **Adobe Experience Platform**&#x200B;을 기반으로 빌드되었습니다. 실시간 고객 프로필, 샌드박스, 스키마 및 데이터 세트와 같이 사용자가 접할 수 있는 많은 기본 개념은 Journey Optimizer 관련 개념이 아닌 Adobe Experience Platform 개념입니다. 이러한 용어에 대한 정의는 [Adobe Experience Platform 용어집](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html){target="_blank"}을 참조하세요.
 
 ## 여정 및 캠페인 용어 {#journey-campaign-terms}
 

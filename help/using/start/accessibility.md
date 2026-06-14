@@ -8,27 +8,26 @@ role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
 TQID: https://experienceleague.adobe.com/ONswG5tDxJQKJ7xm-7zlXk1HE0G7Y927Qbsdiahzf5E
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e9001ce2-5245-4a8e-8601-dd958009072f
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 503
-ht-degree: 100%
+source-wordcount: 533
+ht-degree: 94%
 
 ---
 
 # Journey Optimizer의 접근성{#accessibility}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Journey Optimizer이 WCAG 정렬 접근성 기능과 키보드 단축키를 통해 모든 기능의 사용자를 지원하므로 인터페이스에서 효율적으로 탐색하고 작업할 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 접근성은 시각, 청각, 인지, 운동 장애 또는 기타 유형의 장애가 있는 사용자가 가능한 적은 노력으로 소프트웨어 제품을 사용할 수 있도록 해주는 일련의 기능을 말합니다. .Adobe는 접근성 분야의 업계 리더이며, 개발자로 하여금 모든 사용자가 액세스할 수 있는 풍부하고 매력적인 콘텐츠를 제작하도록 장려하여 뛰어난 웹 경험을 제공할 수 있도록 지원합니다. [Adobe 접근성 페이지](https://www.adobe.com/accessibility.html){target="_blank"}에서 접근성을 위한 Adobe의 노력에 대해 자세히 알아보십시오.
 
