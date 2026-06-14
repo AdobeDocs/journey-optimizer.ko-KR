@@ -9,29 +9,25 @@ role: Developer, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
 TQID: https://experienceleague.adobe.com/7sYxw--oKKa6SnRgoXnwFxme5n-6L4pe9SR-AKZOmHA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-subfeature_v2:
-  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
-  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
-  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 781
+source-wordcount: 806
 ht-degree: 8%
 
 ---
 
 # 단계 이벤트 필드 목록 {#sharing-field-list}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 디버그, 여정, 프로필 및 서비스 이벤트 필드를 포함하여 범주별로 구성된 여정 단계 이벤트 필드를 참조하고 삭제된 이벤트 형식 문제를 해결하십시오.
+
+>[!ENDSHADEBOX]
 
 단계 이벤트 필드는 카테고리별로 구성됩니다.
 
@@ -86,7 +82,7 @@ journeyStepEvent의 경우 ID와 관련된 필드도 추가해야 합니다.
 | eventType | 문자열 | 오류 이벤트인지 정보 이벤트인지를 나타내는 이벤트 유형: 정보, 오류 |
 | eventCode | 문자열 | 해당 eventType의 이유를 나타내는 오류 코드 |
 
-이 섹션[&#128279;](#discarded-events)에서 eventTypes 에 대해 자세히 알아보세요.
+이 섹션](#discarded-events)에서 eventTypes [에 대해 자세히 알아보세요.
 
 ## stepEvent {#stepevents-field}
 

@@ -9,30 +9,26 @@ role: User
 level: Intermediate
 exl-id: d1c4ae5f-2f5c-4e25-a8b4-4c5fe254bfb9
 TQID: https://experienceleague.adobe.com/GMuI1OYuumsM7Zt7jis5IPr2ZdMsHrPzucyRZidWopw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-subfeature_v2:
-  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
-  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
-  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 441
+source-wordcount: 466
 ht-degree: 1%
 
 ---
 
 # 구독 보고서 {#subscription-report-global-cja}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 구독 보고서를 사용하여 목록, 여정, 캠페인 및 채널에서 프로필 구독 및 구독 취소를 분석하여 참여를 측정하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 **구독 보고서**&#x200B;는 특정 목록과 연결된 프로필의 구독 및 구독 취소에 대한 중요한 통찰력을 제공하여 참여 및 전환을 추진하는 데 있어 다양한 구독 캠페인과 이니셔티브의 효과를 이해하는 데 도움이 됩니다.
 
@@ -40,7 +36,7 @@ ht-degree: 1%
 
 ![](assets/cja-sub-access.png)
 
-Customer Journey Analytics 작업 영역 및 데이터를 필터링하고 분석하는 방법에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/home)를 참조하세요.
+Customer Journey Analytics 작업 영역 및 데이터를 필터링하고 분석하는 방법에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)를 참조하세요.
 
 ## 구독 목록 추가
 

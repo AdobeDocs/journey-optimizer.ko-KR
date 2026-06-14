@@ -9,34 +9,29 @@ role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
 TQID: https://experienceleague.adobe.com/-JJssuHJ4-RPjn8TpxLWRANyjoOOyK6BZEb1ABO0Qps
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
-  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
-  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 3739
+source-wordcount: 3763
 ht-degree: 3%
 
 ---
 
 # 쿼리 예제{#query-examples}
 
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Experience Platform 데이터 레이크에서 여정 단계 이벤트를 분석하고 문제를 해결하기 위한 즉시 사용 가능한 SQL 쿼리 예제를 찾으십시오.
+
+>[!ENDSHADEBOX]
+
 이 섹션에서는 데이터 레이크에서 여정 단계 이벤트를 쿼리하는 데 일반적으로 사용되는 예를 제공합니다. 특정 사용 사례로 이동하기 전에 여정 이벤트 데이터에 사용되는 주요 식별자를 이해하는 것이 중요합니다.
 
-## 전제 조건 {#prerequisites}
+## 사전 요구 사항 {#prerequisites}
 
 이 페이지에서 쿼리를 실행하기 전에 다음을 확인하십시오.
 
@@ -75,7 +70,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->문제를 해결하려면 여정을 쿼리할 때 journeyVersionName 대신 journeyVersionID를 사용하는 것이 좋습니다. 이 섹션[&#128279;](../building-journeys/expression/journey-properties.md#journey-properties-fields)에서 여정 속성 특성 에 대해 자세히 알아보세요.
+>문제를 해결하려면 여정을 쿼리할 때 journeyVersionName 대신 journeyVersionID를 사용하는 것이 좋습니다. 이 섹션](../building-journeys/expression/journey-properties.md#journey-properties-fields)에서 여정 속성 특성 [에 대해 자세히 알아보세요.
 
 +++
 

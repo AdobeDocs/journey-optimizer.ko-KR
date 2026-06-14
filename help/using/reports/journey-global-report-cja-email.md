@@ -9,38 +9,31 @@ role: User
 level: Intermediate
 exl-id: 82558447-9d42-4fac-8fc1-fded9bf4bfcc
 TQID: https://experienceleague.adobe.com/nZejBuTk9AqwR77k6-odCK66c2UbGwMspElt2-1riz4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-subfeature_v2:
-  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
-  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
-  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: beb7a3c1-66ab-4786-b879-7621375b3c40id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 1118
+source-wordcount: 1125
 ht-degree: 2%
 
 ---
 
 # 이메일 여정 보고서 {#journey-global-report}
 
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 게재됨 대 클릭 트렌드, 게재 상태, 전송 및 추적 통계, 전자 메일 도메인, 추적된 링크, 주제, 바운스 및 제외 이유 등 여정 보고서에서 전자 메일 지표를 읽는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
+
 >[!INFO]
 >
 >Apple에서 메일 개인 정보 보호 기능을 포함하여 기본 메일 앱에 새로운 개인 정보 보호 기능을 도입했기 때문에, 발신자는 더 이상 Apple의 메일 개인 정보 보호를 사용하도록 설정한 프로필의 데이터를 수집하기 위해 추적 픽셀을 사용할 수 없습니다. 따라서 추적 픽셀을 사용하여 이메일 열기를 추적하는 Adobe Journey Optimizer 기능에 영향을 줄 수 있습니다.
-> [Apple iOS 개인 정보 보호 변경이 이메일 마케팅에 미치는 영향에 대해 자세히 알아보세요](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780?profile.language=ko).
+Apple iOS 개인 정보 보호 변경이 이메일 마케팅에 미치는 영향에 대해 > [자세히 알아보기](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780).
 > 
 > 보다 정확한 통찰력을 위해 오픈율 대신 클릭 및 전환 지표에 집중하는 것이 좋습니다.
 

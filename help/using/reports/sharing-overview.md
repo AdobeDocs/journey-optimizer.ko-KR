@@ -9,30 +9,25 @@ role: Developer, Admin
 level: Experienced
 exl-id: 29d6b881-35a3-4c62-9e7d-d0aeb206ea77
 TQID: https://experienceleague.adobe.com/JnA4LJ-FiCILS42uZZ5hUBUBQLmSn-R0TwUe-eGhCCg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-subfeature_v2:
-  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
-  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
-  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 643
+source-wordcount: 676
 ht-degree: 4%
 
 ---
 
 # 여정 보고서 만들기 {#design-jo-reports}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Journey Optimizer에서 여정 단계 이벤트 데이터를 다른 데이터와 결합하고 Customer Journey Analytics에서 여정 성능을 분석할 수 있도록 Adobe Experience Platform에서 자동으로 에 스트리밍하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 [실시간 보고서](live-report.md) 및 기본 제공 [보고 기능](report-gs-cja.md) 외에도 [!DNL Journey Optimizer]은(는) 여정 성능 데이터를 Adobe Experience Platform에 자동으로 전송할 수 있으므로 분석 목적으로 다른 데이터와 결합할 수 있습니다.
 
@@ -90,6 +85,6 @@ Adobe Experience Platform에 전달된 XDM 필드 목록은 여기에 자세히 
 
 * [!DNL Customer Journey Analytics]이(가) &quot;여정 단계 이벤트&quot; 데이터 집합을 수집합니다.
 * 연결된 &quot;Journey Orchestration에 대한 여정 단계 이벤트 스키마&quot;의 **profileID** 필드가 ID 필드로 정의되어 있습니다. 그런 다음 [!DNL Customer Journey Analytics]에서 이 데이터 세트를 개인 기반 식별자와 동일한 값을 가진 다른 데이터 세트에 연결할 수 있습니다.
-* [!DNL Customer Journey Analytics]에서 이 데이터 세트를 사용하려면 크로스 채널 여정 분석을 위해 [Customer Journey Analytics 설명서](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=ko){target="_blank"}를 참조하세요.
+* [!DNL Customer Journey Analytics]에서 이 데이터 세트를 사용하려면 크로스 채널 여정 분석을 위해 [Customer Journey Analytics 설명서](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html){target="_blank"}를 참조하세요.
 
 ➡️ [Customer Journey Analytics 작업](cja-ajo.md){target="_blank"}

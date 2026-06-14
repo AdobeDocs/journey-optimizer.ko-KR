@@ -9,29 +9,26 @@ role: User
 level: Beginner
 exl-id: 5349b0cf-da4e-458c-89be-c75a38e4721a
 TQID: https://experienceleague.adobe.com/ngycFQdp8CtLTngxpPBlAW9xXtCDzo807YdH1xJ8T8A
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-subfeature_v2:
-  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
-  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
-  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 5f839a4ab1e599764c9b797e4a9a42850808e3e3
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 475
-ht-degree: 6%
+source-wordcount: 507
+ht-degree: 5%
 
 ---
 
 # 수동으로 [!DNL Customer Journey Analytics] 구성 {#cja-ajo}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 연결 및 데이터 보기를 만들어 여정 및 메시지 데이터를 분석하여 Adobe Journey Optimizer과 Customer Journey Analytics 간의 통합을 수동으로 구성하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer]과(와) [!DNL Customer Journey Analytics]의 통합은 자동화된 보고서 배포와 데이터의 사용자 지정 시각화를 통해 모든 여정을 전체적으로 볼 수 있도록 합니다.
 
@@ -41,7 +38,7 @@ ht-degree: 6%
 
 [!DNL Journey Optimizer]에서 여정을 만든 후 고객 데이터를 [!DNL Customer Journey Analytics]&#x200B;(으)로 가져와서 보고를 시작하고 고객이 여정과 갖는 모든 상호 작용의 영향을 이해할 수 있습니다.
 
-➡️ [Customer Journey Analytics 검색](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/integrations/ajo#manually-configure-a-data-view-to-be-used-with-journey-optimizer){target="_blank"}
+➡️ [Customer Journey Analytics 검색](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/ajo#manually-configure-a-data-view-to-be-used-with-journey-optimizer){target="_blank"}
 
 >[!NOTE]
 >
@@ -50,20 +47,20 @@ ht-degree: 6%
 
 여정에 [!DNL Customer Journey Analytics]을(를) 사용하기 전에 먼저 이 통합을 구성해야 합니다.
 
-1. Adobe Experience Platform으로 보낼 **[!UICONTROL 데이터 세트]**&#x200B;를 사용하여 [연결을 만듭니다](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=ko){target="_blank"}.[!DNL Customer Journey Analytics]
+1. Adobe Experience Platform으로 보낼 **[!UICONTROL 데이터 세트]**&#x200B;를 사용하여 [연결을 만듭니다](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html){target="_blank"}.[!DNL Customer Journey Analytics]
 
    다음 [!DNL Journey Optimizer]을(를) 구성할 수 있습니다.
    * [여정 단계 이벤트](../data/datasets-query-examples.md#journey-step-event): 여정에 입장한 사람과 입장한 거리를 볼 수 있습니다.
    * [메시지 피드백/추적 데이터 세트](../data/datasets-query-examples.md#message-feedback-event-dataset): [!DNL Journey Optimizer]을(를) 통해 보낸 메시지에 대한 게재 정보를 볼 수 있습니다. 메시지 피드백 이벤트 데이터 세트는 일괄 처리 수집을 사용하므로 CJA 보고서에서 최대 2시간의 데이터 지연이 예상됩니다.
    * [엔터티 및 여정 데이터 세트](../data/datasets-query-examples.md#entity-dataset): 알기 쉬운 이름을 검색하고 보고에 사용할 수 있습니다.
 
-1. 보고서에 사용할 차원 및 지표를 구성하려면 [데이터 보기를 만듭니다](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=ko){target="_blank"}.
+1. 보고서에 사용할 차원 및 지표를 구성하려면 [데이터 보기를 만듭니다](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html){target="_blank"}.
 
-   Journey Optimizer 관련 지표를 만들어 여정 데이터를 더 잘 반영할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/integrations/ajo.html?lang=ko#configure-the-data-view-to-accommodate-journey-optimizer-dimensions-and-metrics){target="_blank"}
+   Journey Optimizer 관련 지표를 만들어 여정 데이터를 더 잘 반영할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/analytics-platform/using/integrations/ajo.html#configure-the-data-view-to-accommodate-journey-optimizer-dimensions-and-metrics){target="_blank"}
 
 >[!NOTE]
 >
->샌드박스에 대한 연결이 여러 개 있는 경우 [데이터 보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=ko){target="_blank"}가 **[!UICONTROL CJA에서 사용]** 플래그가 지정된 [연결](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-connections/manage-connections){target="_blank"}을 참조하는지 확인하십시오. 그렇지 않으면 [!DNL Journey Optimizer]에서 [**CJA에서 분석** 단추](report-cja-manage.md#analyze)이(가) 비활성화될 수 있습니다.
+>샌드박스에 대한 연결이 여러 개 있는 경우 [데이터 보기](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html){target="_blank"}가 **[!UICONTROL CJA에서 사용]** 플래그가 지정된 [연결](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/manage-connections){target="_blank"}을 참조하는지 확인하십시오. 그렇지 않으면 [!DNL Journey Optimizer]에서 [**CJA에서 분석** 단추](report-cja-manage.md#analyze)이(가) 비활성화될 수 있습니다.
 
 [!DNL Journey Optimizer]을(를) [!DNL Customer Journey Analytics]과(와) 함께 사용하면 다음 원인으로 인해 데이터 보고에 불일치가 발생할 수 있습니다.
 

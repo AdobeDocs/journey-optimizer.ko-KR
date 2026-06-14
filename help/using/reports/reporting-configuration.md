@@ -10,32 +10,26 @@ level: Intermediate
 keywords: 구성, 실험, 보고, 최적화 도구
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
 TQID: https://experienceleague.adobe.com/GiszI8Z-dWb13HjGdIVPEKwdSw8DwesEadPBbbqhUkM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-subfeature_v2:
-  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
-  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
-  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 656
-ht-degree: 33%
+source-wordcount: 685
+ht-degree: 32%
 
 ---
 
 # 보고 및 실험 전제 조건 {#reporting-configuration}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Journey Optimizer에서 실험 및 캠페인 보고서에 사용된 추가 지표를 검색할 수 있도록 데이터 세트를 추가하여 보고 데이터 소스를 구성하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_config"
@@ -57,9 +51,9 @@ ht-degree: 33%
 
 웹, 코드 기반 및 인앱 채널의 경우 데이터 수집을 위해 구성된 [데이터 세트](../data/get-started-datasets.md)도 이 보고 구성에 추가되었는지 확인해야 합니다. 그렇지 않으면 웹 및 인앱 데이터가 콘텐츠 실험 보고서에 표시되지 않습니다.
 
-## 전제 조건
+## 사전 요구 사항
 
-보고 구성에 데이터 세트를 추가하려면 먼저 해당 데이터 세트를 만들어야 합니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ko#create){target="_blank"}에서 방법을 알아보세요.
+보고 구성에 데이터 세트를 추가하려면 먼저 해당 데이터 세트를 만들어야 합니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#create){target="_blank"}에서 방법을 알아보세요.
 
 * 이벤트 유형 데이터 세트만 추가할 수 있습니다.
 
