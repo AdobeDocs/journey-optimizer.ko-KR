@@ -10,28 +10,25 @@ level: Experienced
 keywords: IP, 그룹, 하위 도메인, 전달성
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
 TQID: https://experienceleague.adobe.com/UdieayUZxB6syucHx93TgILpTl6Tmg2DggCKuYAt048
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-  - id: c343082f-e963-4f57-a96b-b64d27f8118e
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62aid: c343082f-e963-4f57-a96b-b64d27f8118eid: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1824
+source-wordcount: 1853
 ht-degree: 8%
 
 ---
 
 # IP 워밍업 플랜 만들기 {#ip-warmup}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 필요한 권한을 설정하고, 도메인 그룹을 사용하여 Excel 계획 파일을 준비하고, Adobe Journey Optimizer에서 IP 준비 계획을 만드는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 전용 구성과 해당 옵션이 활성화된 하나 이상의 [IP 준비 캠페인](ip-warmup-campaign.md)을(를) 만들면 IP 준비 계획을 만들 수 있습니다.
 
@@ -277,14 +274,14 @@ Hotmail 외부 도메인과 도메인 그룹 Microsoft의 도메인은 **[!UICON
 >id="ajo_admin_ip_warmup_upload"
 >title="IP 워밍업 플랜 지정"
 >abstract="IP 워밍업 단계, 목표 프로필 수와 같이 플랜에 필요한 모든 데이터를 입력하여 Excel 템플릿을 작성하고 여기에 업로드합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html?lang=ko#prepare-file" text="IP 워밍업 플랜 파일 준비"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html#prepare-file" text="IP 워밍업 플랜 파일 준비"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_surface"
 >title="마케팅 구성 선택"
 >abstract="IP 워밍업 플랜과 연결하려는 캠페인에서 선택한 것과 동일한 구성을 선택해야 합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=ko" text="채널 구성 설정"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=ko" text="IP 워밍업 캠페인 만들기"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html" text="채널 구성 설정"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html" text="IP 워밍업 캠페인 만들기"
 
 IP 준비 계획을 만들려면 아래 단계를 수행합니다.
 

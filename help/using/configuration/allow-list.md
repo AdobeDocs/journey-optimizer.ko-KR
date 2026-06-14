@@ -9,30 +9,25 @@ level: Intermediate
 keywords: 허용 목록, 안전 목록, 이메일, 전달성, 샌드박스, 도메인, 억제, 구성
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 TQID: https://experienceleague.adobe.com/Q33GwgA8mJ4JPHuIb7mT8l5bKkzICX32-EXxtI5ug9Q
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: fae48155-b23f-40d2-a252-a25bce350b4d
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: fae48155-b23f-40d2-a252-a25bce350b4did: fb9a80eb-bebc-492f-a0e9-584595621ebbid: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1341
+source-wordcount: 1371
 ht-degree: 12%
 
 ---
 
 # 허용 목록 설정 {#allow-list}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer에서 허용 목록을 활성화, 채우기 및 관리하여 샌드박스 수준에서 신뢰할 수 있는 주소 및 도메인으로 전자 메일 전송을 제한하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 허용 목록은 [샌드박스](../administration/sandboxes.md) 수준에서 정의할 수 있는 전송 안전 목록입니다. 이메일 전송을 특정 주소 또는 도메인으로 제한하여 명시적으로 나열된 수신자만 특정 샌드박스에서 메시지를 수신할 수 있습니다.
 
@@ -163,7 +158,7 @@ Journey Optimizer **제외 REST API**&#x200B;를 사용하여 제외 및 허용 
 
 **추가**, **삭제** 및 **가져오기** 작업을 수행할 수 있습니다.
 
-[Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=ko){target="_blank"} 참조 설명서에서 API 호출에 대해 자세히 알아보세요.
+[Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target="_blank"} 참조 설명서에서 API 호출에 대해 자세히 알아보세요.
 
 ## 허용 목록 다운로드 {#download-allowed-list}
 
@@ -218,7 +213,7 @@ Journey Optimizer **제외 REST API**&#x200B;를 사용하여 제외 및 허용 
 
 ## 제외 보고 {#reporting}
 
-허용 목록이 활성화되면 허용 목록에 있지 않아 전송에서 제외된 이메일 주소 또는 도메인을 검색할 수 있습니다. 이렇게 하려면 [Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ko){target="_blank"}를 사용하여 아래 API를 호출할 수 있습니다.
+허용 목록이 활성화되면 허용 목록에 있지 않아 전송에서 제외된 이메일 주소 또는 도메인을 검색할 수 있습니다. 이렇게 하려면 [Adobe Experience Platform 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}를 사용하여 아래 API를 호출할 수 있습니다.
 
 수신자가 허용 목록에 없어서 전송되지 않은 **이메일 개수**&#x200B;를 가져오려면 다음 쿼리를 사용하십시오.
 

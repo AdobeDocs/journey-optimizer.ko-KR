@@ -10,16 +10,21 @@ level: Experienced
 keywords: CC, Carbon Copy, 이메일, 채널 구성, 이메일 헤더, BCC
 exl-id: 9649cc07-3183-4510-b5d9-b1e33eff43e9
 feature_v2: []
-subfeature_v2:
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 906
+source-wordcount: 937
 ht-degree: 5%
 
 ---
 
 # 이메일에 참조 필드 추가 {#cc-email-field}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer 채널 구성에서 전자 메일에 표시되는 CC 필드를 추가하는 방법, BCC와 차이점, 관련 권장 사항 및 제한 사항에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_cc"
