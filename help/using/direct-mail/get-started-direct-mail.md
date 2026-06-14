@@ -10,26 +10,25 @@ level: Beginner
 keywords: 다이렉트 메일, 메시지, 캠페인
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
 TQID: https://experienceleague.adobe.com/Gmtr-7HW70-cg7va8iHfR5xKdYts-ZdDCm6CeQHJ0tg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: b91d7609df9d05a2ef04dbdbe2a78d9a084f95ac
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: cb1f1586-9fb4-4de2-8332-02cebb88d42did: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
 workflow-type: tm+mt
-source-wordcount: 458
-ht-degree: 79%
+source-wordcount: 487
+ht-degree: 74%
 
 ---
 
 # 다이렉트 메일 시작 {#create-direct}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 서드파티 공급자가 실제 메일을 고객에게 보내는 데 사용하는 추출 파일을 생성할 수 있도록 DM 채널의 작동 방식을 이해합니다.
+
+>[!ENDSHADEBOX]
 
 다이렉트 메일은 서드파티 다이렉트 메일 공급자가 고객에게 메일을 보내는 데 필요한 추출 파일을 개인화하고 생성할 수 있는 오프라인 채널입니다.
 
@@ -67,7 +66,7 @@ Adobe Journey Optimizer의 다이렉트 메일 채널을 활용하여 여정 내
 
 +++ 비디오 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3479169?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479162?quality=12)
 
 +++
 
