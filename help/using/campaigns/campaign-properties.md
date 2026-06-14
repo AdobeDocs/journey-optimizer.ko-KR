@@ -11,25 +11,25 @@ mini-toc-levels: 1
 keywords: 만들기, 최적화 도구, 캠페인, 표면, 메시지
 exl-id: a7b03b71-0f2c-45ca-a2f7-38ddc64913c1
 TQID: https://experienceleague.adobe.com/3A1lHDHkq2FajKJD02iyM66Y7JEsBlMCmNTjSgv98HA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-subfeature_v2:
-  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
-  - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a653cc2e-bc85-4353-a306-399e5b247978
+subfeature_v2: id: f7479fa1-474b-479d-8c98-f6cee5865a38id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 165
-ht-degree: 34%
+source-wordcount: 200
+ht-degree: 28%
 
 ---
 
 # 액션 캠페인 속성 정의 {#action-campaign-properties}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 액션을 구성하기 전에 캠페인을 식별하고 구성하고 액세스를 제어할 수 있도록 액션 캠페인을 만들고 이름, 설명, 태그 및 액세스 레이블과 같은 핵심 속성을 정의합니다.
+
+>[!ENDSHADEBOX]
 
 작업 캠페인을 만들고 속성을 정의하려면 다음 단계를 수행합니다.
 

@@ -10,19 +10,22 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 만들기, 최적화 도구, 캠페인, 표면, 메시지
 exl-id: bcb7a5e4-440d-4548-b305-c320bafe6ee7
-feature_v2:
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-subfeature_v2:
-  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
-  - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+feature_v2: id: a653cc2e-bc85-4353-a306-399e5b247978
+subfeature_v2: id: f7479fa1-474b-479d-8c98-f6cee5865a38id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 192
-ht-degree: 16%
+source-wordcount: 216
+ht-degree: 14%
 
 ---
 
 # 액션 캠페인 콘텐츠 편집 {#action-campaign-content}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 캠페인을 활성화하기 전에 각 메시지가 준비되도록 선택한 채널에 대한 캠페인 콘텐츠를 디자인하고 테스트합니다.
+
+>[!ENDSHADEBOX]
 
 메시지 콘텐츠를 구성하려면 **[!UICONTROL 콘텐츠]** 탭으로 이동하거나 **[!UICONTROL 콘텐츠 편집]** 단추를 클릭합니다.
 
