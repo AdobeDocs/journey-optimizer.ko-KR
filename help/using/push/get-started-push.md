@@ -9,32 +9,30 @@ role: User
 level: Beginner
 exl-id: c1f16edd-efdf-41c2-a0ad-5f55009008f5
 TQID: https://experienceleague.adobe.com/S-3ZtTNfgZGEFChfjaXPihxGWpdkWacrWF9AWc-AyZY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
-source-wordcount: 367
-ht-degree: 100%
+source-wordcount: 392
+ht-degree: 93%
 
 ---
 
 # 푸시 알림 시작 {#gs-push-notification}
 
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer에서 푸시 알림을 시작하여 여정 및 캠페인을 통해 모바일 앱 사용자 및 웹 방문자에게 연결합니다.
+
+>[!ENDSHADEBOX]
+
 >[!IMPORTANT]
 >
->[푸시 알림]을 처음 만드는 경우 [푸시] 채널 구성을 완료했는지 확인해야 합니다. [자세히 알아보기](push-gs.md).
+>[푸시 알림]을 처음 만드는 경우 [푸시] 채널 구성을 완료했는지 확인해야 합니다. [자세히 알아보기](push-gs.md)
 
 푸시 알림을 통해 모바일 앱 사용자와 웹 방문자에게 언제든지 연락할 수 있습니다. 특히 해당 사용자가 활발하게 사용자의 앱을 사용하거나 웹사이트를 탐색하고 있지 않을 때 유용합니다. 푸시 알림은 서비스 업데이트 제공, 사용자 행동 요청, 새로운 프로모션 알림 등 다양한 사용 사례를 달성하는 데 도움이 될 수 있습니다. 장치 플랫폼에 따라 최종 사용자가 알림을 수신하거나 확인하려면 옵트인을 해야 합니다. 사용자 옵트인은 앱을 설치한 후 처음 시작할 때 바로 받거나, 필요에 따라 후속 세션이나 워크플로를 통해 받을 수 있습니다.
 
