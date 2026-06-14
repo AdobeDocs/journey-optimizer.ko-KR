@@ -10,31 +10,25 @@ level: Experienced
 keywords: 작업, 서드파티, 사용자 지정, 여정, API
 exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
 TQID: https://experienceleague.adobe.com/SBF--1O5Edtk2OKch-n0ukkfxsTwRn-lLqBPncM-UAk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944fid: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
-source-wordcount: 1051
+source-wordcount: 1077
 ht-degree: 1%
 
 ---
 
 # 사용자 지정 작업 문제 해결 {#troubleshoot-a-custom-action}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 실제 테스트 API 호출을 보내 사용자 지정 작업 구성을 확인한 후 실시간 여정에서 오류를 신뢰하기 전에 오류를 발견할 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 Journey Optimizer 사용자 인터페이스의 관리 섹션에서 API 호출을 전송하여 사용자 지정 작업을 테스트할 수 있습니다. 이 기능은 여정에서 사용자 지정 작업을 사용하기 전이나 후에 문제를 해결하는 데 도움이 됩니다.
 
@@ -49,7 +43,7 @@ Journey Optimizer 사용자 인터페이스의 관리 섹션에서 API 호출을
 >조직에서 IP(이그레스) 프록시를 사용하도록 설정한 경우 **[!UICONTROL 테스트 요청 보내기]** 호출이 이를 무시합니다. 프록시 라우팅을 확인하려면 테스트 또는 라이브 여정을 실행하십시오. [외부 시스템과 통합](../configuration/external-systems.md#faq)에서 IP(이그레스) 프록시 및 활성화에 대해 자세히 알아보세요.
 
 
-## 전제 조건 {#troubleshoot-custom-action-prereq}
+## 사전 요구 사항 {#troubleshoot-custom-action-prereq}
 
 **[!UICONTROL 테스트 요청 보내기]** 기능을 사용하려면 **사용자 지정 작업**&#x200B;을(를) URL, 헤더 및 인증 설정으로 미리 구성해야 합니다.
 

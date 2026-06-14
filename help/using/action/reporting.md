@@ -9,26 +9,26 @@ role: User
 level: Intermediate
 exl-id: 908f553a-6d2b-45e5-bdb2-eb685f5e1165
 TQID: https://experienceleague.adobe.com/LhxU-3DQ-FDIENfVtadz5nURxZideeUFE9K5MciA93w
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
 subfeature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
-source-wordcount: 659
-ht-degree: 6%
+source-wordcount: 689
+ht-degree: 5%
 
 ---
 
 # 사용자 정의 액션 모니터링 {#reporting}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 여정이 서드파티 시스템에 대해 수행하는 API 호출의 안정성과 성능을 모니터링하여 통합 문제, 지연 및 제한 제한을 빠르게 확인할 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_custom_actions_monitor"
@@ -116,6 +116,6 @@ ht-degree: 6%
 
 +++비디오 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3479548?captions=kor&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3479541?quality=12&learn=on)
 
 +++
