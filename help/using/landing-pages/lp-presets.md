@@ -9,25 +9,25 @@ level: Experienced
 keywords: 랜딩, 랜딩 페이지, 구성, 환경, 하위 도메인, 사전 설정
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
 TQID: https://experienceleague.adobe.com/BrNNR0ayMFPS-njxDgJwdNSkvlIuA2ZJdosqdmR2PfU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a26cfd05faa746308e7734ea9df28287d06e7290
 workflow-type: tm+mt
-source-wordcount: 414
-ht-degree: 13%
+source-wordcount: 440
+ht-degree: 12%
 
 ---
 
 # 랜딩 페이지 사전 설정 정의 {#lp-presets}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 랜딩 페이지를 빌드하고 게시하기 전에 설정한 필수 구성 요소인 랜딩 페이지 사전 설정이 하위 도메인과 추적 설정을 연결하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain_header"

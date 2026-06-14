@@ -10,25 +10,24 @@ level: Experienced
 keywords: 랜딩, 랜딩 페이지, javascript, 코드
 exl-id: 2a7ebead-5f09-4ea5-8f00-8b5625963290
 TQID: https://experienceleague.adobe.com/h-F683Mfa0y21OXjFHlow5FHQA-EOgFanOyMP7R7jug
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b19d9237-76be-466d-a869-aacf2d72205f
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: d595a60b-bcf5-4a63-a189-66a0be755cc7id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 4a6224453ae94fd5eb8ddee612ad2c4ea0f122e8
 workflow-type: tm+mt
-source-wordcount: 568
+source-wordcount: 596
 ht-degree: 2%
 
 ---
 
 # 랜딩 페이지에서 사용자 지정 JavaScript 사용 {#lp-custom-js}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 랜딩 페이지를 사용자 지정 JavaScript으로 확장하여 입력의 유효성을 검사하거나, 사용자 지정 양식 제출을 실행하거나, Analytics 이벤트를 실행하거나, 표준 편집기를 벗어난 동적 동작을 빌드합니다.
+
+>[!ENDSHADEBOX]
 
 사용자 지정 JavaScript을 사용하여 랜딩 페이지 콘텐츠를 정의할 수 있습니다. 예를 들어 고급 스타일을 수행해야 하거나 랜딩 페이지에 사용자 지정 동작을 추가하려는 경우, 고유한 컨트롤을 빌드하여 [!DNL Journey Optimizer]에서 실행할 수 있습니다.
 
@@ -36,13 +35,13 @@ ht-degree: 2%
 
 사용자 지정 JavaScript을 랜딩 페이지 콘텐츠에 삽입하려면 다음 중 하나를 수행할 수 있습니다.
 
-* 콘텐츠 만들기를 시작할 때 기존 HTML 콘텐츠를 가져온 다음 사용자 지정 JavaScript 코드가 포함된 파일을 선택합니다. 이 섹션[&#128279;](../email/existing-content.md)에서  콘텐츠를 가져오는 방법을 알아보세요.
+* 콘텐츠 만들기를 시작할 때 기존 HTML 콘텐츠를 가져온 다음 사용자 지정 JavaScript 코드가 포함된 파일을 선택합니다. 이 섹션](../email/existing-content.md)에서 [ 콘텐츠를 가져오는 방법을 알아보세요.
 
 * 랜딩 페이지를 처음부터 디자인하거나 저장된 템플릿에서 디자인할 수 있습니다. **[!UICONTROL HTML]** 콘텐츠 구성 요소를 캔버스로 드래그 앤 드롭하고 소스 코드를 표시하여 JavaScript을 구성 요소에 추가하십시오. [이 섹션](../email/content-components.md#HTML)에서 HTML 구성 요소를 사용하는 방법을 알아봅니다. <!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
 
   ![](assets/lp_designer-html-component.png)
 
-* 콘텐츠 디자이너에 바로 JavaScript 코드를 입력하거나 붙여 넣습니다. 이 섹션[&#128279;](../email/code-content.md)에서 자신의 콘텐츠 을(를) 코딩하는 방법을 알아보세요.
+* 콘텐츠 디자이너에 바로 JavaScript 코드를 입력하거나 붙여 넣습니다. 이 섹션](../email/code-content.md)에서 자신의 콘텐츠 [을(를) 코딩하는 방법을 알아보세요.
 
 >[!NOTE]
 >
