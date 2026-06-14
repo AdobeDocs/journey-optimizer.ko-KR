@@ -13,14 +13,20 @@ feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2:
   - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7cf2235a14f9ebb49fac02161743f75fee141504
 workflow-type: tm+mt
-source-wordcount: 430
+source-wordcount: 467
 ht-degree: 0%
 
 ---
 
 # Adobe Experience Manager 저장소 액세스 구성 {#aem-admin-settings}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 관리자가 작성자 전용 또는 게시 액세스, 사용자 지정 도메인 및 인증을 설정하여 마케터가 여정 및 캠페인에서 AEM 콘텐츠 조각을 사용할 수 있도록 샌드박스를 Adobe Experience Manager 저장소에 연결하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 Adobe Journey Optimizer은 **[!DNL Adobe Experience Manager as a Cloud Service]**&#x200B;과(와) 통합되므로 여정 및 캠페인에서 **콘텐츠 조각**&#x200B;을(를) 사용할 수 있습니다. **콘텐츠 조각**&#x200B;은(는) 기본적으로 Adobe Experience Manager 게시 리포지토리에서 읽혀집니다. 관리자는 **[!UICONTROL AEM 통합]** 메뉴에서 작성자 전용으로 전환하거나 게시 액세스를 조정할 수 있습니다.
 

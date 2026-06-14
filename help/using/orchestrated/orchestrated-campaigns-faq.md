@@ -21,14 +21,20 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 2765
+source-wordcount: 2785
 ht-degree: 11%
 
 ---
 
 # 자주 묻는 질문 {#faq-oc}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 데이터 모델, 채널, 활동, 게시 및 동의를 포함하여 오케스트레이션된 캠페인에 대해 자주 묻는 질문에 대한 답변을 찾아보십시오.
+
+>[!ENDSHADEBOX]
 
 Adobe Journey Optimizer 오케스트레이션된 캠페인에 대한 FAQ는 다음과 같습니다.
 

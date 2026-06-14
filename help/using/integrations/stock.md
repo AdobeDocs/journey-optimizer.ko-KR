@@ -20,14 +20,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 subfeature_v2:
   - id: c08fcc42-2918-421a-a25e-e1bd9464c290
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 597
-ht-degree: 13%
+source-wordcount: 622
+ht-degree: 12%
 
 ---
 
 # [!DNL Adobe Stock]개 이미지로 작업 {#stock}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer의 이메일 Designer에서 직접 유사한 사진을 포함한 Adobe Stock 이미지를 찾고, 라이선스를 부여하고, 삽입하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 ## [!DNL Adobe Stock] 시작 {#get-started-stock}
 

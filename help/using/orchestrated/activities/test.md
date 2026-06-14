@@ -14,14 +14,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 412
-ht-degree: 26%
+source-wordcount: 439
+ht-degree: 24%
 
 ---
 
 # 테스트 {#test}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 테스트 흐름 제어 활동을 사용하여 정의한 조건에 따라 다양한 전환을 활성화하여 오케스트레이션된 캠페인을 분기하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_test"

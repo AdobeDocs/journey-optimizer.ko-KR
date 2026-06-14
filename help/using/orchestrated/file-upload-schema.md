@@ -14,14 +14,20 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 1222
-ht-degree: 42%
+source-wordcount: 1255
+ht-degree: 41%
 
 ---
 
 # DDL 파일을 사용하여 관계형 스키마 생성 {#file-upload-schema}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** DDL 파일을 업로드하고, 테이블 간의 관계를 정의하고, 오케스트레이션된 캠페인에서 사용할 기존 엔터티에 스키마를 연결하여 Adobe Experience Platform에서 관계형 스키마를 만드는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 **충성도 멤버십**, **충성도 트랜잭션** 및 **충성도 보상**&#x200B;과 같은 스키마를 만들어 오케스트레이션된 캠페인에 필요한 관계형 데이터 모델을 정의합니다. 각 스키마에는 기본 키, 버전 관리 특성 및 **수신자** 또는 **브랜드**&#x200B;와 같은 참조 엔터티에 대한 적절한 관계가 포함되어야 합니다.
 

@@ -14,14 +14,20 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 151
-ht-degree: 54%
+source-wordcount: 185
+ht-degree: 44%
 
 ---
 
 # 오케스트레이션된 캠페인 보고 {#report-campaigns}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer에서 오케스트레이션된 캠페인에 사용할 수 있는 실시간 및 실시간 보고서를 검색하고 전자 메일, SMS, 푸시 및 DM에서 참여 및 채널 성능을 측정하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 오케스트레이션된 캠페인은 강력한 보고 기능을 통해 실행 가능한 인사이트를 제공합니다. 이러한 인사이트를 통해 대상자 행동을 더 잘 이해하고, 고객 여정의 각 단계 성과를 측정하며, 데이터 중심의 결정을 내려 향후 캠페인을 최적화할 수 있습니다. 자세한 지표와 시각화를 통해 참여를 추적하고 타겟팅 전략을 세밀하게 조정하여 영향을 극대화할 수 있습니다.
 

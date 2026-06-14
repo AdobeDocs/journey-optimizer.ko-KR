@@ -27,14 +27,20 @@ subfeature_v2:
   - id: c08fcc42-2918-421a-a25e-e1bd9464c290
   - id: c6fdb8b1-45ee-460a-a859-9031c59118b7
   - id: d16f7424-4847-4b90-a37c-4b52cbdabee5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 704
-ht-degree: 26%
+source-wordcount: 734
+ht-degree: 25%
 
 ---
 
 # 솔루션과 앱을 결합하여 콘텐츠 관리 {#combine-solutions}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Experience Manager Assets, Stock, Express, GenStudio과 같은 Adobe 솔루션 및 앱을 Adobe Journey Optimizer과 결합하여 콘텐츠를 작성하고 관리하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 옴니채널 고객 여정 및 캠페인에서 활성화할 메시지 및 콘텐츠를 만들려면 마케터와 고객 경험 전문가는 워크플로우 내 생성 AI, 편집 기능, 에셋, 템플릿 및 조각 관리 등 사용하기 쉬운 작성 옵션이 필요합니다.  Adobe Journey Optimizer을 사용하면 Adobe 솔루션과 앱을 쉽게 결합하여 Adobe 도구를 최대한 활용할 수 있습니다. 이러한 기본 통합을 통해 특정 사용 사례를 해결하고, Adobe Journey Optimizer 기능 범위를 확장할 수 있습니다.
 

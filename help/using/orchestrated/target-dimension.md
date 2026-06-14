@@ -13,14 +13,20 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 466
+source-wordcount: 497
 ht-degree: 0%
 
 ---
 
 # 타겟팅 차원 구성 {#configuration}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 엔터티 수준에서 메시지를 전달할 수 있도록 관계형 스키마를 고객 프로필에 매핑하여 오케스트레이션된 캠페인에 대한 타깃팅 차원을 구성하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 **[!UICONTROL 오케스트레이션된 캠페인]**&#x200B;을 통해 Adobe Experience Platform의 관계형 스키마 기능을 활용하여 엔터티 수준에서 타깃팅된 커뮤니케이션을 디자인하고 제공할 수 있습니다. Experience Platform은 스키마를 사용하여 데이터의 구조를 일관되고 재사용 가능한 방식으로 설명합니다. 데이터가 Experience Platform에 수집되면 XDM 스키마에 따라 구조화됩니다.
 

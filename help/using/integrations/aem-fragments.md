@@ -21,14 +21,20 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 06565328f42ff79943f774df55d8e41118b40815
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 1752
+source-wordcount: 1780
 ht-degree: 0%
 
 ---
 
 # Adobe Experience Manager 컨텐츠 조각을 사용한 작업 {#aem-fragments}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 변형 및 Experience Decisioning 작업을 포함하여 Journey Optimizer 캠페인 및 여정에서 Adobe Experience Manager 콘텐츠 조각에 태그를 지정하고, 추가하고, 개인화하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 

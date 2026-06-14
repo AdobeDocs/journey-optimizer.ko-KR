@@ -25,14 +25,20 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 subfeature_v2: []
-source-git-commit: 0e4ee7788c6a015a63bafcb7976ac5e4696e5d7a
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 196
-ht-degree: 2%
+source-wordcount: 228
+ht-degree: 1%
 
 ---
 
 # 인텔리전트 서비스와 통합 {#ai-overview}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Intelligent Services 및 Customer AI 예측을 Journey Optimizer과 통합하여 결정, 작업 및 세그먼트 작성을 위한 프로필 특성으로 이탈 및 전환 점수를 사용하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 **[!DNL Adobe Intelligent Services]**&#x200B;과의 통합을 통해 고객 경험 사용 사례에 인공 지능과 머신 러닝을 활용할 수 있습니다. 이를 통해 마케팅 분석가는 데이터 과학 전문 지식 없이도 비즈니스 수준의 구성을 사용하여 기업의 요구 사항에 맞게 예측을 설정할 수 있습니다.
 

@@ -16,14 +16,20 @@ subfeature_v2:
   - id: c08fcc42-2918-421a-a25e-e1bd9464c290
   - id: c6fdb8b1-45ee-460a-a859-9031c59118b7
   - id: d16f7424-4847-4b90-a37c-4b52cbdabee5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 1125
+source-wordcount: 1153
 ht-degree: 8%
 
 ---
 
 # 통합 작업 {#external-sources}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 관리자가 아웃바운드 채널의 개인화된 동적 콘텐츠를 위해 Adobe Journey Optimizer을 타사 API에 연결하는 외부 통합을 구성, 테스트 및 활성화하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 ## 개요
 

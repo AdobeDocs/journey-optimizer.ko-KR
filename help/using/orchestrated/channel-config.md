@@ -15,14 +15,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 467
+source-wordcount: 501
 ht-degree: 0%
 
 ---
 
 # 채널 구성 {#channel-configuration}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 게재 수준, 대상 차원 및 실행 주소를 정의하여 오케스트레이션된 캠페인에 대한 채널 구성을 설정하는 방법과 링크에 URL 추적 매개 변수를 추가하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 [Target Dimension](target-dimension.md)을 설정한 후에는 **[!UICONTROL 채널 구성]**&#x200B;을 구성하고 적절한 **[!UICONTROL 실행 세부 정보]**&#x200B;를 정의해야 합니다. 이를 통해 을(를) 정의할 수 있습니다.
 

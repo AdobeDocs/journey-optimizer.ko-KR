@@ -15,14 +15,20 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 932
+source-wordcount: 960
 ht-degree: 11%
 
 ---
 
 # 수동 관계형 스키마 설정 {#manual-schema}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 사용자 인터페이스에서 관계형 스키마를 수동으로 만들고, 특성을 추가하고, 스키마를 연결하고, 오케스트레이션된 캠페인에 대한 데이터 집합을 만들고 사용하도록 설정하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 사용자 인터페이스를 통해 직접 관계형 스키마를 생성할 수 있으므로 속성, 기본 키, 버전 관리 필드 및 관계를 세부적으로 구성할 수 있습니다.
 

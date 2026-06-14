@@ -11,14 +11,20 @@ product_v2:
 feature_v2: 
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 815
+source-wordcount: 838
 ht-degree: 18%
 
 ---
 
 # 데이터 수집 {#ingest-data}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 지원되는 소스에서 Adobe Experience Platform으로 데이터를 수집하고 오케스트레이션된 캠페인에 대한 데이터 흐름을 구성하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >

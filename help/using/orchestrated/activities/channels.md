@@ -15,14 +15,20 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: cd1eb9b21a3201c2a01c1781220570236977a736
 workflow-type: tm+mt
-source-wordcount: 1908
-ht-degree: 37%
+source-wordcount: 1935
+ht-degree: 36%
 
 ---
 
 # 채널 활동 {#channel}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 전자 메일, SMS, 푸시 및 DM 채널 활동을 추가하고 구성하여 오케스트레이션된 캠페인 내에서 마케팅 또는 트랜잭션 메시지를 보내는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_email"

@@ -12,14 +12,20 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 801
-ht-degree: 88%
+source-wordcount: 832
+ht-degree: 85%
 
 ---
 
 # 분할 {#split}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 분할 타기팅 활동을 사용하여 오케스트레이션된 캠페인의 들어오는 모집단을 필터링 규칙, 제한 또는 모집단 크기를 기반으로 여러 하위 집합으로 분할하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split"

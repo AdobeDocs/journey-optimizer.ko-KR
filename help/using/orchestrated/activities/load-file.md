@@ -13,14 +13,20 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 5464e4954af28984836c4343a2b83d41b665a490
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 1650
+source-wordcount: 1687
 ht-degree: 5%
 
 ---
 
 # 파일 로드 {#load-file}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 파일 로드 데이터 관리 활동을 사용하여 파일을 Adobe Experience Platform에 수집하지 않고 실행 시 외부 CSV 또는 TXT 파일에서 오케스트레이션된 캠페인 대상을 타깃팅하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_load_file"

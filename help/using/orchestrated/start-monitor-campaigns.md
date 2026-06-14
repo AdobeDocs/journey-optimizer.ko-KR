@@ -18,14 +18,20 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 1599
+source-wordcount: 1625
 ht-degree: 22%
 
 ---
 
 # 오케스트레이션된 캠페인 시작 및 모니터링 {#start-monitor}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 캠페인 라이프사이클, 실행 로그 및 활동 상태 지표를 포함하여 Adobe Journey Optimizer에서 오케스트레이션된 캠페인을 테스트, 게시 및 모니터링하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_publication"

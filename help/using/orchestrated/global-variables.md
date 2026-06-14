@@ -12,15 +12,21 @@ exl-id: 7a4e8f2c-91d3-4b65-8e10-2c9f4a6b8d1e
 feature_v2: 
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 189
+source-wordcount: 222
 ht-degree: 0%
 
 ---
 
 
 # 오케스트레이션된 캠페인에서 전역 변수 정의 {#define-global-variables}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 규칙 빌더, 테스트 조건 및 기타 캔버스 논리에서 공유 이름-값 쌍을 다시 사용할 수 있도록 오케스트레이션된 캠페인에 전역 변수를 추가하고 관리하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 **전역 변수**&#x200B;은(는) 오케스트레이션된 단일 캠페인에 설정한 이름-값 쌍이며 각 실행에서 재사용되므로 모든 활동에 동일한 값을 붙여넣지 않고 공유 값(예: 기본 채널 또는 테스트 이메일)으로 **[!UICONTROL Test]** 조건, 규칙 빌더 및 기타 캔버스 논리를 제어할 수 있습니다.
 

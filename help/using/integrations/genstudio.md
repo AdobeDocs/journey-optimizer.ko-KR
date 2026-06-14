@@ -28,14 +28,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 1334
+source-wordcount: 1367
 ht-degree: 9%
 
 ---
 
 # GenStudio for Performance Marketing 작업 {#ajo-genstudio}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** GenStudio for Performance Marketing을 Journey Optimizer과 통합하여 전자 메일 템플릿을 내보내고 브랜드 콘텐츠 변형을 생성한 다음 다시 가져와 전자 메일 캠페인에서 사용하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_genstudio_button"
@@ -62,7 +68,7 @@ ht-degree: 9%
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
 
-## 전제 조건 {#genstudio-prerequisites}
+## 사전 요구 사항 {#genstudio-prerequisites}
 
 [!DNL Journey Optimizer]과(와) [!DNL GenStudio for Performance Marketing] 통합을 사용하려면 다음 요구 사항이 충족되었는지 확인하십시오.
 

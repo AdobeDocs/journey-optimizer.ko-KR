@@ -14,14 +14,20 @@ topic_v2:
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 485
+source-wordcount: 508
 ht-degree: 1%
 
 ---
 
 # 관계형 스키마 및 데이터 세트 시작{#gs-schemas}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 관계형 스키마와 데이터 세트를 만들고, 연결하고, 오케스트레이션된 캠페인에 대한 데이터를 수집하는 주요 개념과 단계를 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 이 안내서에서는 관계형 스키마를 만들고, 오케스트레이션된 캠페인에 대한 데이터 세트를 구성하고, 데이터를 수집하는 프로세스를 안내합니다.
 

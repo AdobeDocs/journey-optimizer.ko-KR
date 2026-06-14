@@ -12,14 +12,20 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: 77cddc86596959e06b20154c1e51c6b84375b39b
 workflow-type: tm+mt
-source-wordcount: 276
-ht-degree: 84%
+source-wordcount: 309
+ht-degree: 75%
 
 ---
 
 # AND-결합 {#join}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 오케스트레이션된 캠페인에서 And-join 흐름 제어 활동을 사용하여 여러 실행 분기를 동기화하여 이전 활동이 모두 완료된 후에만 해당 캠페인을 계속하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_and-join"

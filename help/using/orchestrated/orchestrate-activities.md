@@ -12,14 +12,20 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 937
-ht-degree: 48%
+source-wordcount: 957
+ht-degree: 47%
 
 ---
 
 # 오케스트레이션된 캠페인 활동 {#orchestrate}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 시각적 캔버스에서 활동을 추가, 구성 및 연결하여 오케스트레이션된 캠페인을 만드는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 [오케스트레이션된 캠페인을 생성](gs-campaign-creation.md)한 후에는 수행할 다양한 작업의 오케스트레이션을 시작할 수 있습니다. 이를 위해 오케스트레이션된 캠페인 캔버스를 만들 수 있는 시각적 캔버스가 제공됩니다. 이 캔버스 내에서 다양한 활동을 추가하고 순차적 순서로 연결할 수 있습니다.
 
@@ -111,7 +117,7 @@ ht-degree: 48%
 * **[!UICONTROL 결합]** 활동은 충성도 점수가 50점 미만인 고객을 제외합니다.
 * **[!UICONTROL 이메일 게재]** 활동은 결과 고객에게 이메일을 보냅니다.
 
-분기의 끝에 도달하면 캔버스에 완료 표시를 위해 **[!UICONTROL End]** 활동을 추가할 수 있습니다. **[!UICONTROL End]** 활동을 구성하여 **[!UICONTROL 신호에 의해 트리거됨]**(으)로 설정된 다른 오케스트레이션된 캠페인으로 신호를 보내고 페이로드에서 매개 변수를 전달할 수도 있습니다. [자세히 알아보기](trigger-orchestrated-campaign.md#signal-end).
+분기의 끝에 도달하면 캔버스에 완료 표시를 위해 **[!UICONTROL End]** 활동을 추가할 수 있습니다. **[!UICONTROL End]** 활동을 구성하여 **[!UICONTROL 신호에 의해 트리거됨]**(으)로 설정된 다른 오케스트레이션된 캠페인으로 신호를 보내고 페이로드에서 매개 변수를 전달할 수도 있습니다. [자세히 알아보기](trigger-orchestrated-campaign.md#signal-end)
 
 ## 다음 단계 {#next}
 

@@ -13,14 +13,20 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 1912
-ht-degree: 91%
+source-wordcount: 1947
+ht-degree: 89%
 
 ---
 
 # 첫 번째 규칙 작성 {#build-query}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 데이터베이스 특성 및 식에서 조건을 추가하고 논리 연산자와 결합하여 결과를 확인하여 규칙 빌더를 사용하여 오케스트레이션된 캠페인에 대한 타깃팅된 쿼리를 만드는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 오케스트레이션된 캠페인에 대한 규칙을 작성하는 주요 단계는 다음과 같습니다.
 
@@ -89,7 +95,7 @@ ht-degree: 91%
 
    +++사용 가능한 연산자 목록
 
-   | 연산자 | 용도 | 예 |
+   | 연산자 | 용도 | 예제 |
    |---|---|---|
    | 다음과 같음 | 두 번째 Value 열에 입력한 데이터와 동일한 결과를 반환합니다. | Last name (@lastName) equal to &#39;Jones&#39;를 사용하면 성이 Jones인 수신자만 반환합니다. |
    | 다음과 같지 않음 | 입력한 값과 동일하지 않은 모든 값을 반환합니다. | Language (@language) not equal to &#39;English&#39;. |

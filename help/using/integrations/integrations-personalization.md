@@ -12,15 +12,21 @@ feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2:
   - id: d16f7424-4847-4b90-a37c-4b52cbdabee5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 809
+source-wordcount: 836
 ht-degree: 0%
 
 ---
 
 
 # 개인화에 외부 통합 사용 {#integrations-personalization}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 마케터가 구성된 통합을 적용하여 전자 메일, SMS 및 푸시 콘텐츠를 개인화하고 API 호출을 다른 호출로 연결하여 더 풍부하고 다이내믹한 메시지를 보내는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 콘텐츠에서 외부 통합을 사용하기 전에 관리자가 [통합 작업](integrations.md)에 설명된 대로 각 통합(끝점, 인증, 정책, 응답 페이로드 및 활성화)을 **구성 및 활성화**&#x200B;했는지 확인하십시오.
 

@@ -11,14 +11,20 @@ product_v2:
 feature_v2: 
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: 77cddc86596959e06b20154c1e51c6b84375b39b
 workflow-type: tm+mt
-source-wordcount: 336
-ht-degree: 50%
+source-wordcount: 367
+ht-degree: 46%
 
 ---
 
 # 차원 변경 {#change-dimension}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 차원 변경 활동을 사용하여 오케스트레이션된 캠페인 내에서 타깃팅 차원을 이동하는 방법을 배웁니다(예: 위시리스트에서 연결된 수신자로 전환).
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_dimension_complement"

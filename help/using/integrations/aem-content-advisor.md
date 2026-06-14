@@ -10,14 +10,20 @@ feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2:
   - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 837
+source-wordcount: 870
 ht-degree: 0%
 
 ---
 
 # Adobe Experience Manager Content Advisor 작업 {#aem-content-advisor}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Experience Manager Content Advisor에 액세스하고 사용하여 Journey Optimizer 작성 워크플로에서 직접 AI 기반 의미 체계 검색을 통해 에셋, 다이내믹 미디어 및 콘텐츠 조각을 검색하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 Adobe Experience Manager Content Advisor는 결정론적 검색을 통합 환경에서 표준화된 의도 중심의 검색으로 대체합니다. Journey Optimizer 작성 워크플로 내에서 Assets, 다이내믹 미디어 및 콘텐츠 조각을 AI 기반의 통합 검색으로 직접 검색할 수 있어 마케터 생산성과 캠페인 효율성이 향상됩니다.
 

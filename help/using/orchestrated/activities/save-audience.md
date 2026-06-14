@@ -16,14 +16,20 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 548
-ht-degree: 21%
+source-wordcount: 576
+ht-degree: 20%
 
 ---
 
 # 대상자 저장 {#save-audience}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 대상자 저장 타깃팅 활동을 사용하여 오케스트레이션된 캠페인에서 이전에 빌드한 모집단에서 재사용 가능한 대상자를 만들거나 덮어쓰는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_save_audience"

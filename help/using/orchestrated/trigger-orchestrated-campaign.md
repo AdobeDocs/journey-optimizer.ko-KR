@@ -12,14 +12,20 @@ exl-id: d1fd072d-b143-4752-822f-23f98684ba80
 feature_v2: 
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 1429
+source-wordcount: 1466
 ht-degree: 0%
 
 ---
 
 # 신호를 사용하여 오케스트레이션된 캠페인 트리거 {#trigger-signal}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** REST API 또는 다른 캠페인의 종료 활동에서 신호로 오케스트레이션된 캠페인을 트리거하는 방법과 타깃팅, 조건 및 표현식의 변수가 되는 페이로드 매개 변수를 전달하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 고정된 일정 대신 신호로 오케스트레이션된 캠페인을 시작할 수 있습니다. 캠페인이 신호를 받으면 실행되며 페이로드에 매개 변수를 전달할 수 있습니다. 타겟팅, 조건 또는 표현식에 변수로 사용할 수 있습니다.
 

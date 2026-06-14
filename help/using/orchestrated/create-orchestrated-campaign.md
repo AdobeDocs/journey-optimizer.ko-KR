@@ -12,14 +12,20 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 1227
-ht-degree: 64%
+source-wordcount: 1261
+ht-degree: 63%
 
 ---
 
 # 오케스트레이션된 캠페인 만들기 및 예약 {#create-first-campaign}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer에서 오케스트레이션된 캠페인을 만들고 실행 일정을 정의하여 특정 날짜 및 시간에 또는 반복적으로 실행하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer]에서 오케스트레이션된 캠페인을 만들고 실행 일정을 구성하여 시작 시기와 실행 빈도를 제어합니다. 캠페인을 즉시 시작하거나, 특정 일시에 시작하거나, 되풀이 주기에 따라 시작하도록 일일, 주별 또는 월별 빈도 등 유연한 예약 옵션을 통해 선택합니다.
 

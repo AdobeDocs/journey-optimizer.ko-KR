@@ -11,15 +11,21 @@ version: Campaign Orchestration
 feature_v2: 
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 518
-ht-degree: 22%
+source-wordcount: 547
+ht-degree: 21%
 
 ---
 
 
 # 증분 쿼리 {#incremental-query}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 증분 쿼리 타깃팅 활동을 사용하여 오케스트레이션된 각 캠페인 실행에 대해 이미 이전 실행에서 타깃팅된 프로필을 제외하고 새 레코드만 반환하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_incrementalquery"

@@ -16,14 +16,20 @@ topic_v2:
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 306
-ht-degree: 67%
+source-wordcount: 337
+ht-degree: 61%
 
 ---
 
 # 오케스트레이션된 캠페인을 만드는 주요 단계 {#orchestrated-campaign-creation}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 통합 캠페인을 만들고 예약하는 것부터 활동 조정, 실행 모니터링 및 결과 분석에 이르기까지 Adobe Journey Optimizer에서 통합 캠페인을 만들고 시작하는 주요 단계를 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 이 페이지에서는 설정 및 디자인에서 모니터링 및 보고에 이르기까지 오케스트레이션된 캠페인을 구축하고 실행하는 필수 단계를 안내합니다.
 

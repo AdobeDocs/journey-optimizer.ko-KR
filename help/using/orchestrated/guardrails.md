@@ -17,14 +17,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 734
+source-wordcount: 756
 ht-degree: 2%
 
 ---
 
 # 가드레일 및 제한 사항 {#guardrails}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 오케스트레이션된 캠페인의 데이터 저장, 수집, 데이터 모델링, 활동 및 채널에 적용되는 보호 기능 및 제한 사항을 검토하십시오.
+
+>[!ENDSHADEBOX]
 
 오케스트레이션된 캠페인을 사용할 때는 다음과 같은 보호 기능 및 제한 사항이 있습니다.
 

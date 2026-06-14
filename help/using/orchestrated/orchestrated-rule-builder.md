@@ -11,14 +11,20 @@ product_v2:
 feature_v2: 
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 340
-ht-degree: 69%
+source-wordcount: 364
+ht-degree: 65%
 
 ---
 
 # 규칙 빌더를 사용하여 작업 {#orchestrated-rule-builder}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 규칙 빌더를 사용하여 데이터를 필터링하고 오케스트레이션된 캠페인에서 대상을 타깃팅하는 쿼리를 만드는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 오케스트레이션된 캠페인에는 다양한 기준을 기반으로 데이터베이스를 필터링하는 프로세스를 간소화하는 규칙 빌더가 함께 제공됩니다. 규칙 빌더는 매우 복잡하고 긴 쿼리를 효율적으로 관리하여 향상된 유연성과 정밀성을 제공합니다.
 

@@ -22,14 +22,20 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 269
-ht-degree: 18%
+source-wordcount: 296
+ht-degree: 16%
 
 ---
 
 # Adobe Experience Manager 콘텐츠 조각 시작 {#aem-fragments}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Experience Manager 콘텐츠 조각을 시작하고 작성자 및 게시 주기에 따라 Journey Optimizer에서 사용할 수 있는 조각이 결정되는 방법을 이해합니다.
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

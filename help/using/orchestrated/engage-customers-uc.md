@@ -16,14 +16,20 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cd1eb9b21a3201c2a01c1781220570236977a736
 workflow-type: tm+mt
-source-wordcount: 590
+source-wordcount: 625
 ht-degree: 4%
 
 ---
 
 # 활동을 탐색하여 고객 참여 {#engage-customers-uc}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 대상자를 읽고, 중복 제거하고, 이탈 위험으로 분할하고, 개인화된 후속 메시지를 전송하여 탐색 활동을 기반으로 고객을 다시 유도하는 오케스트레이션된 캠페인 사용 사례를 따르십시오.
+
+>[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
@@ -105,7 +111,7 @@ ht-degree: 4%
 
    ![](assets/uc-interest-8.png){zoomable="yes"}
 
-그러면 이 대상자는 Experience Cloud에 저장되며, 여기에서 나중에 특정 타겟팅된 캠페인에 사용할 수 있습니다.
+그런 다음 이 대상자는 Experience Cloud에 저장되며, 여기서 나중에 특정 타겟팅된 캠페인에 사용할 수 있습니다.
 
 ## 낮은/중간 위험 세그먼트 {#low-medium-risk}
 

@@ -11,14 +11,20 @@ exl-id: 4c1d39c4-3154-4bec-ac3c-c2ead7164d69
 subfeature_v2: []
 feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 364
+source-wordcount: 391
 ht-degree: 0%
 
 ---
 
 # 카운트다운 타이머 삽입 {#countdown}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Journey Optimizer 이메일에 Dynamic Media 카운트다운 타이머를 삽입하여 Flash 판매 및 시간에 민감한 프로모션에 대한 긴급성을 만드는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 수신자가 이메일을 열면 실시간으로 업데이트되는 Dynamic Media 카운트다운 타이머로 긴급도를 만들고 전환을 극대화합니다. 이 기능은 플래시 판매, 제한 시간 오퍼 및 시간에 민감한 프로모션에 이상적입니다.
 

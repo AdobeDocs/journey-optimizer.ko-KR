@@ -11,15 +11,21 @@ keywords: 통합, 공급업체, 서드파티
 subfeature_v2: []
 feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 375
+source-wordcount: 401
 ht-degree: 0%
 
 ---
 
 
 # 공급업체 통합 {#vendor-integration}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 콘텐츠, 충성도, 추천, 데이터 및 동의 플랫폼에서 Adobe 통합을 타사 공급업체에 연결하기 위한 샘플, Adobe Journey Optimizer 테스트 구성을 찾아봅니다.
+
+>[!ENDSHADEBOX]
 
 각 시스템이 사용 사례에 적합하고 통합에서 요청을 처리하고 응답을 사용하는 방식과 호환되는 **API 끝점**&#x200B;을(를) 노출할 때 Adobe Journey Optimizer에서 **통합**&#x200B;을 사용하여 **HTTP를 통한 외부 시스템**&#x200B;을(를) 호출할 수 있습니다. 전체 워크플로를 보려면 [통합 작업](integrations.md)을 참조하십시오.
 

@@ -15,14 +15,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 669
-ht-degree: 11%
+source-wordcount: 706
+ht-degree: 10%
 
 ---
 
 # 대상자 읽기 {#read-audience}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 대상자 읽기 활동을 사용하여 저장되거나 가져온 기존 대상자를 검색하고 오케스트레이션된 캠페인에서 다시 사용하는 방법에 대해 알아봅니다. 선택적으로 타겟팅, 개인화 또는 보고를 위한 프로필 특성으로 강화합니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_read_audience"
