@@ -8,28 +8,26 @@ role: User
 level: Beginner
 exl-id: 9864a136-e129-4279-bb09-081b72f584df
 TQID: https://experienceleague.adobe.com/orXAhry8onHXUejP5pzOyHdKbAcD8fiDmvRk-s74xLo
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: ed2fba79-65cb-4680-96d2-2ad5d851714d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: ed2fba79-65cb-4680-96d2-2ad5d851714d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
 workflow-type: tm+mt
-source-wordcount: 421
+source-wordcount: 447
 ht-degree: 9%
 
 ---
 
 # 라이브 활동 만들기 {#create-mobile-live}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 개별 사용자 또는 대상의 라이브 활동을 원격으로 시작, 업데이트 및 종료할 수 있도록 Journey Optimizer에서 API 트리거 캠페인을 빌드합니다.
+
+>[!ENDSHADEBOX]
 
 모바일 구성을 구성하고 Adobe Experience Platform mobile SDK을 구현한 후 Journey Optimizer에서 라이브 활동을 만들 수 있습니다.
 
@@ -176,4 +174,4 @@ ht-degree: 9%
 
 Adobe Journey Optimizer로 iOS 라이브 활동을 구성하여 iPhone 잠금 화면 및 Dynamic Island에서 다양한 실시간 업데이트를 제공하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479871?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3479864)
