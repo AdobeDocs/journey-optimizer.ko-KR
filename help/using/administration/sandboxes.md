@@ -10,26 +10,25 @@ level: Experienced
 keywords: 샌드박스, 가상, 환경, 조직, 플랫폼
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
 TQID: https://experienceleague.adobe.com/8vcaHkqHeyoP-TZltCkjpBhvZIifuiPbKy-Whoj74Z8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
 workflow-type: tm+mt
-source-wordcount: 434
-ht-degree: 25%
+source-wordcount: 464
+ht-degree: 24%
 
 ---
 
 # 샌드박스 사용 및 할당 {#sandboxes}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 샌드박스를 사용하여 Adobe Journey Optimizer 인스턴스를 격리된 환경으로 분할하면 다른 작업에 영향을 주지 않고 프로덕션에서 개발, 테스트 및 실행할 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 **샌드박스**&#x200B;는 개발, 테스트 또는 프로덕션을 위해 Adobe Journey Optimizer 인스턴스를 별도의 격리된 작업 공간으로 분할하는 가상 환경입니다. **관리** > **채널** > **시스템 및 환경 연결**(또는 인터페이스 오른쪽 상단의 샌드박스 전환기를 통해)에서 샌드박스 관리를 찾을 수 있습니다. 샌드박스를 사용하면 안전하게 실험하고, 역할별로 다른 액세스 권한을 할당하고, 콘텐츠를 체계적으로 관리할 수 있습니다. 이 페이지에서는 샌드박스를 사용 및 할당하고, 콘텐츠 액세스를 구성하고, [다른 샌드박스로 개체 내보내기](../configuration/copy-objects-to-sandbox.md) 문서에서 샌드박스 간에 여정과 템플릿을 복사하는 방법을 다룹니다.
 
@@ -85,4 +84,4 @@ ht-degree: 25%
 
 샌드박스의 정의, 그리고 개발과 프로덕션 샌드박스를 구분하는 방법을 이해합니다. 샌드박스를 만들고, 재설정하고, 삭제하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416656?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334355?quality=12)
