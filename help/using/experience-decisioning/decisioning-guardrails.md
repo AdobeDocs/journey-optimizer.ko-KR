@@ -19,14 +19,20 @@ level_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: e42070c4cc1dde06786c4075b1e6e45e8c323c12
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 281
-ht-degree: 16%
+source-wordcount: 314
+ht-degree: 14%
 
 ---
 
 # 의사 결정 가드레일 및 제한 사항 {#decisioning-guardrails}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 의사 결정 요청, 항목, 정책, 자격 규칙 및 등급 수식 전반에 적용되는 보호 기능 및 제한을 검토하여 지원되는 임계값 내에 있는 의사 결정 구성을 디자인할 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 Decisioning을 최적으로 사용하려면 다음 보호 기능 및 제한 사항을 염두에 두십시오.
 

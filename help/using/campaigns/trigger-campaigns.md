@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 551
+source-wordcount: 584
 ht-degree: 1%
 
 ---
 
 # API에서 트리거된 캠페인 실행 {#execute}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 생성된 cURL 요청을 검색하고 이를 사용하여 배달 지연 및 인증 오류를 해결할 수 있도록 문제 해결 지침과 함께 API를 통해 API에서 트리거된 실시간 API 캠페인을 트리거합니다.
+
+>[!ENDSHADEBOX]
 
 캠페인이 활성화되면 생성된 샘플 cURL 요청을 검색하고 API에 사용하여 페이로드를 빌드하고 캠페인을 트리거해야 합니다.
 

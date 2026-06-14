@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 210
+source-wordcount: 230
 ht-degree: 6%
 
 ---
 
 # 액션 캠페인 대상자 정의 {#action-campaign-audience}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 대상 탭에서 대상 및 ID 유형을 선택하여 캠페인이 올바른 개인을 타깃팅하도록 합니다.
+
+>[!ENDSHADEBOX]
 
 **[!UICONTROL 대상자]** 탭을 사용하여 캠페인 대상자를 정의합니다.
 

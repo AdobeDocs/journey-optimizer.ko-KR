@@ -14,14 +14,20 @@ feature_v2:
 subfeature_v2:
   - id: f7479fa1-474b-479d-8c98-f6cee5865a38
   - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 786
-ht-degree: 2%
+source-wordcount: 813
+ht-degree: 1%
 
 ---
 
 # 캠페인에서 웨이브를 사용하여 보내기 {#send-using-waves}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 아웃바운드 캠페인 게재를 예약된 일괄 처리(예약된 일괄 처리)로 분할하면 로드 밸런싱을 수행하고 보낸 사람의 평판을 보호하며 대량 전송을 위한 게재 능력을 향상시킬 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 아웃바운드 캠페인 메시지 게재를 여러 배치(예약된 일괄 처리)로 나누어 시간별로 예약할 수 있습니다. Wave Sending은 특히 대량 전송을 위해 로드 밸런스를 조정하고, 과도한 다운스트림 시스템(예: 콜 센터나 랜딩 페이지)을 방지하고, 전달성과 발신자의 평판을 지원합니다.
 

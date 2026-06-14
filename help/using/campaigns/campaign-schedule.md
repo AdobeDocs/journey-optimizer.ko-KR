@@ -23,14 +23,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 821
-ht-degree: 14%
+source-wordcount: 857
+ht-degree: 13%
 
 ---
 
 # 작업 캠페인 예약 {#action-campaign-schedule}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 메시지가 강력한 다운스트림 시스템 없이 적시에 적절한 대상에게 도달하도록 시작 및 종료 날짜, 받는 사람 시간대 배달, 실행 빈도 및 비율 제어를 설정하여 작업 캠페인을 예약합니다.
+
+>[!ENDSHADEBOX]
 
 **[!UICONTROL 일정]** 탭을 사용하여 캠페인 일정을 정의합니다.
 

@@ -22,14 +22,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 450
+source-wordcount: 480
 ht-degree: 2%
 
 ---
 
 # API에서 트리거된 캠페인 콘텐츠 편집 {#api-content}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** API 페이로드에서 전달된 컨텍스트 데이터를 사용하여 API에서 트리거된 캠페인 콘텐츠를 디자인하고 개인화하여 모든 받는 사람에 대해 각 메시지를 실시간으로 맞춤화할 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 메시지 콘텐츠를 구성하려면 **[!UICONTROL 콘텐츠]** 탭으로 이동하거나 **[!UICONTROL 콘텐츠 편집]** 단추를 클릭합니다.
 

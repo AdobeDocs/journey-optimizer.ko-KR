@@ -20,14 +20,20 @@ level_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 460
-ht-degree: 11%
+source-wordcount: 489
+ht-degree: 10%
 
 ---
 
 # 항목 카탈로그 구성 {#catalog}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 결정 항목을 구성하고 작성할 때 사용할 수 있는 표준 및 사용자 지정 특성을 정의할 수 있도록 항목 카탈로그를 구성하고 스키마를 편집합니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_custom_attributes"

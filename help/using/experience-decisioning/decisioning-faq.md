@@ -23,14 +23,20 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 858
+source-wordcount: 887
 ht-degree: 0%
 
 ---
 
 # FAQ 의사 결정 {#decisioning-faq}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 최대 가용량 규칙, 등급 수식, AI 모델 동작 등 Decisioning 기능에 대한 일반적인 질문에 대한 답변을 찾아 자신 있게 Decisioning을 구성하고 문제를 해결할 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 이 페이지에서는 Adobe Journey Optimizer의 Decisioning 기능에 대한 FAQ에 대한 답변을 제공합니다.
 

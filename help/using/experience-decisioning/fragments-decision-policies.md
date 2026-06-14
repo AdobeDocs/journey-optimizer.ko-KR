@@ -18,14 +18,20 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ac47bdffab45e4b7645430a4dab687a47844c140
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 1177
+source-wordcount: 1204
 ht-degree: 1%
 
 ---
 
 # 의사 결정 정책에 조각 활용 {#fragments}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 의사 결정 정책 내에서 Journey Optimizer 콘텐츠 조각 및 AEM 콘텐츠 조각을 활용하므로 여러 채널에서 콘텐츠 의사 결정 전달을 개인화하고 최적화할 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 의사 결정 항목은 의사 결정 정책 내에서 메시지를 작성할 때 활용할 수 있는 두 가지 유형의 조각 콘텐츠를 지원합니다.
 

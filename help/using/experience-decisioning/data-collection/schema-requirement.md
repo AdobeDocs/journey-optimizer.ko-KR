@@ -23,14 +23,20 @@ feature_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 291
-ht-degree: 1%
+source-wordcount: 323
+ht-degree: 0%
 
 ---
 
 # 데이터 수집 구성 {#schema-requirements}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 의사 결정을 통해 보고 및 AI 기반 순위 최적화를 위한 피드백을 정확하게 파악할 수 있도록 노출, 클릭 및 사용자 지정 이벤트에 대한 경험 이벤트 필드 및 제안 상호 작용 스키마 요구 사항을 구성합니다.
+
+>[!ENDSHADEBOX]
 
 결정 이벤트 이외의 이벤트 유형에 대한 피드백을 받으려면 Adobe Experience Platform으로 전송된 **경험 이벤트**&#x200B;에서 각 이벤트 유형에 올바른 값을 설정해야 합니다.
 

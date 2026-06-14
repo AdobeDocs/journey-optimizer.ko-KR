@@ -22,14 +22,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 633
-ht-degree: 5%
+source-wordcount: 666
+ht-degree: 4%
 
 ---
 
 # API 트리거 캠페인에 대해 높은 처리량 모드 활성화 {#high-throughput}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** API 트리거 캠페인에 대해 처리량이 많은 모드를 활성화하여 프로필에 의존하지 않고 초당 최대 5000개의 트랜잭션으로 대규모 실시간 트랜잭션 전자 메일을 보낼 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 높은 처리량 모드는 **매우 큰 규모의 실시간 트랜잭션 메시지**(초당 최대 5000개의 트랜잭션)가 필요한 조직을 위해 설계되었습니다. 일반적인 API 트리거 캠페인과 달리, 처리량이 많은 캠페인은 Adobe 프로필과 독립적으로 작동하므로 다른 구성 모델이 필요합니다.
 

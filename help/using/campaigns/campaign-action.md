@@ -28,14 +28,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 856
-ht-degree: 33%
+source-wordcount: 890
+ht-degree: 31%
 
 ---
 
 # 캠페인 액션 구성 {#action-campaign-action}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 최적화 및 다국어 콘텐츠와 함께 채널 및 채널 구성을 선택하여 캠페인 작업을 구성하고, 캠페인이 채널 전체에 올바른 경험을 제공할 수 있도록 여러 인바운드 작업을 추가합니다.
+
+>[!ENDSHADEBOX]
 
 **[!UICONTROL 액션]** 탭을 사용하여 메시지의 채널 구성을 선택하고 추적, 콘텐츠 실험 또는 다국어 콘텐츠와 같은 추가 설정을 구성합니다.
 

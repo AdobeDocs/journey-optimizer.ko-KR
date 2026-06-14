@@ -25,14 +25,20 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 1215
-ht-degree: 27%
+source-wordcount: 1251
+ht-degree: 26%
 
 ---
 
 # 결정을 위해 Adobe Experience Platform 데이터 사용 {#aep-data}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 의사 결정 규칙, 등급 수식 및 최대 가용량 규칙에 Adobe Experience Platform 데이터 집합 특성을 사용하면 인벤토리 또는 가격과 같이 자주 변경되는 동적 외부 데이터로 의사 결정 논리를 강화할 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_catalogs_dataset"
@@ -71,7 +77,7 @@ ht-degree: 27%
 * **특성 사용** - 의사 결정을 위한 데이터 집합 조회 기능은 결정 항목 정의를 추가 특성으로 확장합니다. 특성이 프로필로 확장되지 않습니다.
 * **조회 제한**: [!DNL Journey Optimizer]은(는) 단일 결정 정책당 최대 1,000개의 조회를 지원합니다.
 
-## 전제 조건
+## 사전 요구 사항
 
 ### 조회에 데이터 세트 활성화
 

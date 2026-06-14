@@ -22,14 +22,20 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 1731
+source-wordcount: 1775
 ht-degree: 5%
 
 ---
 
 # 순위 공식 만들기 {#create-ranking-formulas}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** AI 모델 점수, 오퍼 우선 순위, 프로필 속성 및 컨텍스트 신호를 결합하는 AI 수식 빌더로 등급 수식을 만들어, 먼저 표시되는 오퍼를 제어하고 비즈니스 목표 및 고객의 요구 사항에 따라 의사 결정을 조정할 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 **등급 수식**&#x200B;을 사용하면 우선 순위 점수를 고려하지 않고 먼저 제시해야 할 오퍼를 결정하는 규칙을 정의할 수 있습니다.
 

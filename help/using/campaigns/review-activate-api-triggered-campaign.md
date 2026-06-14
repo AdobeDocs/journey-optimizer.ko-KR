@@ -22,14 +22,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: c998adc41e5696cc24bb7c640ec330ccfefa139a
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 314
-ht-degree: 5%
+source-wordcount: 345
+ht-degree: 4%
 
 ---
 
 # API 트리거 캠페인 검토 및 활성화 {#api-review}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** API를 활성화하기 전에 트리거된 캠페인의 구성 및 콘텐츠를 검토하여 오류를 catch하면 API를 통해 캠페인을 실행 및 트리거할 준비가 된 상태로 만들 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 API에서 트리거된 캠페인이 구성되면 활성화하기 전에 해당 매개 변수와 콘텐츠를 검토해야 합니다. 이렇게 하려면 다음 단계를 수행합니다.
 

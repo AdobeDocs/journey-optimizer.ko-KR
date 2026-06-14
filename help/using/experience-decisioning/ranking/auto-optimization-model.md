@@ -22,14 +22,20 @@ feature_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 1763
+source-wordcount: 1795
 ht-degree: 0%
 
 ---
 
 # 자동 최적화 모델 {#auto-optimization-model}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 자동 최적화 강화 학습 모델이 클릭스루 속도를 최대화하기 위해 오퍼를 탐색하고 순위를 매겨 단일 채널 최적화에 사용할 시기를 결정하는 방법을 이해합니다.
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer]의 자동 최적화 모델은 자격 규칙 및 빈도 상한이 적용된 후 모든 오퍼(또는 콘텐츠)를 탐색한 다음 예측된 CTR을 기반으로 항목의 등급을 매겨 오퍼 클릭스루 비율(CTR)을 극대화하는 강화 학습 모델입니다.
 

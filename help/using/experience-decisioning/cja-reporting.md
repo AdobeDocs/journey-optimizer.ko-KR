@@ -19,14 +19,20 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 270
-ht-degree: 4%
+source-wordcount: 299
+ht-degree: 3%
 
 ---
 
 # 결정 보고서 {#decisioning-report}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 전용 Decisioning 보고서에 액세스하고 Customer Journey Analytics 대시보드를 빌드하여 주요 성능 지표를 모니터링하고 고객이 의사 결정 항목과 상호 작용하는 방법을 분석할 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 ## 의사 결정 보고 {#campaigns}
 

@@ -28,14 +28,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: e42070c4cc1dde06786c4075b1e6e45e8c323c12
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 1294
+source-wordcount: 1320
 ht-degree: 4%
 
 ---
 
 # 의사 결정으로 마이그레이션할 때의 이점 {#migrate-to-decisioning}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 사용 가능한 마이그레이션 도구와 함께 의사 결정 관리에 대한 기능 및 이점 Decisioning 오퍼를 이해하여 마이그레이션 여부를 결정할 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 ## Decisioning 소개 {#what-is-decisioning}
 

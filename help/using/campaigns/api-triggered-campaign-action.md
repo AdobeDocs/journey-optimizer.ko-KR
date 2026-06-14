@@ -25,14 +25,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7c48f88df2a2607d23eefe95998ce6b7fe9689ae
 workflow-type: tm+mt
-source-wordcount: 461
-ht-degree: 51%
+source-wordcount: 494
+ht-degree: 48%
 
 ---
 
 # API에서 트리거된 캠페인 작업 구성 {#api-action}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** API에서 트리거된 캠페인이 보내는 채널 및 채널 구성을 선택하고, 올바른 채널에서 올바른 메시지를 전달할 수 있도록 추적, 콘텐츠 실험 및 다국어 옵션을 설정합니다.
+
+>[!ENDSHADEBOX]
 
 **[!UICONTROL 액션]** 탭을 사용하여 메시지의 채널 구성을 선택하고 추적, 콘텐츠 실험 또는 다국어 콘텐츠와 같은 추가 설정을 구성합니다.
 

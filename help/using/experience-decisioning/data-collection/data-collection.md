@@ -22,14 +22,20 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 406
+source-wordcount: 437
 ht-degree: 2%
 
 ---
 
 # 의사 결정 관리 데이터 수집 {#data-collection}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Experience Platform에서 노출 횟수, 클릭 수, 사용자 지정 이벤트에 대한 의사 결정 피드백을 수집하는 방법을 이해하여 의사 결정 보고서, 최대 가용량 규칙 및 AI 등급 모델을 강화할 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 ## 데이터 수집 이해
 

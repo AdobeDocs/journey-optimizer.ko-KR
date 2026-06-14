@@ -24,14 +24,20 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 896
+source-wordcount: 931
 ht-degree: 4%
 
 ---
 
 # 콘텐츠 실험을 통한 코드 기반 경험에서 의사 결정 사용 {#experience-decisioning-uc}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 코드 기반 경험 콘텐츠 실험에서 두 가지 선택 전략을 세우고 순위 방법을 비교하는 사용 사례를 따라 대상에 가장 적합한 의사 결정 접근 방식을 결정할 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 이 사용 사례에서는 [!DNL Journey Optimizer] 코드 기반 채널에서 Decisioning을 사용하는 데 필요한 모든 단계를 제공합니다.
 

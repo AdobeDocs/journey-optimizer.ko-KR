@@ -20,14 +20,20 @@ subfeature_v2:
   - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 316
-ht-degree: 12%
+source-wordcount: 345
+ht-degree: 11%
 
 ---
 
 # API 트리거 캠페인 예약 {#api-schedule}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** API에서 트리거된 캠페인이 다운스트림 시스템을 압도적으로 사용하지 않고 적시에 전송되도록 [예약] 탭에서 시작 및 종료 날짜와 속도 제어를 설정합니다.
+
+>[!ENDSHADEBOX]
 
 **[!UICONTROL 일정]** 탭을 사용하여 캠페인 일정을 정의합니다.
 

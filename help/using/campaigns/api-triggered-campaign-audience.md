@@ -23,14 +23,20 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 543
+source-wordcount: 571
 ht-degree: 3%
 
 ---
 
 # API에서 트리거된 캠페인 대상 정의 {#api-audience}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** API 트리거 캠페인이 올바른 개인에게 도달하고 실시간 게재 상태를 반환하도록 대상, ID 유형, 자동 프로필 만들기 및 웹후크를 정의합니다.
+
+>[!ENDSHADEBOX]
 
 **[!UICONTROL 대상자]** 탭을 사용하여 캠페인 대상자를 정의합니다.
 

@@ -19,14 +19,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b91d7609df9d05a2ef04dbdbe2a78d9a084f95ac
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 2372
-ht-degree: 6%
+source-wordcount: 2404
+ht-degree: 5%
 
 ---
 
 # 결정 정책 만들기 {#create-decision}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 지원되는 채널에서 각 프로필에 대해 최상의 결정 항목을 반환하고 등급을 매길 수 있도록 캠페인 또는 여정 콘텐츠에 결정 정책을 추가하고 구성합니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_item_number"

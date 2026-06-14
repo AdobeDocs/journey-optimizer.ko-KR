@@ -22,14 +22,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 216
-ht-degree: 54%
+source-wordcount: 248
+ht-degree: 47%
 
 ---
 
 # 액션 캠페인 작업 {#gs-action-campaigns}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 작업 캠페인이 무엇인지 이해하고 주요 단계에 따라 작업 캠페인을 만들어 프로모션 오퍼, 공지 또는 정책 업데이트와 같은 간단한 예약된 일괄 처리 통신을 보낼 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_action"

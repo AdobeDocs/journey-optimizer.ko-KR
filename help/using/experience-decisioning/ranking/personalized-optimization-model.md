@@ -22,14 +22,20 @@ feature_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 893
+source-wordcount: 938
 ht-degree: 5%
 
 ---
 
 # 개인화된 최적화 모델 {#personalized-optimization-model}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 개인화된 최적화 모델이 머신 러닝을 사용하여 데이터 세트 요구 사항, 가정 및 콜드 스타트 동작을 포함하여 고객, 오퍼 및 컨텍스트 데이터에서 학습하는 방법을 이해하면 개인화된 오퍼를 제공하고 KPI를 최대화하기 위해 이 모델을 사용할 시기를 결정할 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 ## 개요 {#overview}
 

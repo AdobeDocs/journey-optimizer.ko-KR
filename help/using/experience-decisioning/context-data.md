@@ -19,14 +19,20 @@ level_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 316
+source-wordcount: 352
 ht-degree: 0%
 
 ---
 
 # 의사 결정에 컨텍스트 데이터 활용 {#context}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 의사 결정 요청 시 전송된 실시간 정보를 의사 결정 규칙 및 등급 수식에서 사용할 수 있도록 Adobe Experience Platform의 컨텍스트 데이터를 정의하고 Decisioning에 연결합니다.
+
+>[!ENDSHADEBOX]
 
 Decisioning을 사용하면 Adobe Experience Platform에서 사용할 수 있는 정보를 활용하여 [의사 결정 규칙](rules.md) 또는 [등급 수식](ranking/ranking.md)을 만드는 등 다양한 작업을 수행할 수 있습니다.
 

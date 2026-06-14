@@ -21,14 +21,20 @@ feature_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 270
-ht-degree: 9%
+source-wordcount: 296
+ht-degree: 8%
 
 ---
 
 # 이벤트를 수집할 데이터 세트 만들기 {#create-dataset}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 제안 상호 작용을 캡처하는 데 필요한 경험 이벤트 스키마 및 데이터 세트를 빌드하면 의사 결정 피드백을 AI 등급 모델에 제공할 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 경험 이벤트를 수집하려면 먼저 이러한 이벤트를 전송할 데이터 세트를 만들어야 합니다.
 

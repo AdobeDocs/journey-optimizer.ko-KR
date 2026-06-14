@@ -21,14 +21,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 293
-ht-degree: 38%
+source-wordcount: 322
+ht-degree: 34%
 
 ---
 
 # API 트리거 캠페인 작업 {#trigger-campaigns}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 프로필 및 컨텍스트 데이터를 사용하여 실시간 마케팅 및 트랜잭션 메시지를 보낼 수 있도록 REST API 호출을 통해 API 트리거 캠페인을 만들고 시작합니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_api_triggered"

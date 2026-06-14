@@ -15,14 +15,20 @@ feature_v2:
 subfeature_v2:
   - id: f7479fa1-474b-479d-8c98-f6cee5865a38
   - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 192
-ht-degree: 16%
+source-wordcount: 216
+ht-degree: 14%
 
 ---
 
 # 액션 캠페인 콘텐츠 편집 {#action-campaign-content}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 캠페인을 활성화하기 전에 각 메시지가 준비되도록 선택한 채널에 대한 캠페인 콘텐츠를 디자인하고 테스트합니다.
+
+>[!ENDSHADEBOX]
 
 메시지 콘텐츠를 구성하려면 **[!UICONTROL 콘텐츠]** 탭으로 이동하거나 **[!UICONTROL 콘텐츠 편집]** 단추를 클릭합니다.
 

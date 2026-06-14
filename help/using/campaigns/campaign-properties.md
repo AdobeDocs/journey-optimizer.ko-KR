@@ -22,14 +22,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 165
-ht-degree: 34%
+source-wordcount: 200
+ht-degree: 28%
 
 ---
 
 # 액션 캠페인 속성 정의 {#action-campaign-properties}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 액션을 구성하기 전에 캠페인을 식별하고 구성하고 액세스를 제어할 수 있도록 액션 캠페인을 만들고 이름, 설명, 태그 및 액세스 레이블과 같은 핵심 속성을 정의합니다.
+
+>[!ENDSHADEBOX]
 
 작업 캠페인을 만들고 속성을 정의하려면 다음 단계를 수행합니다.
 

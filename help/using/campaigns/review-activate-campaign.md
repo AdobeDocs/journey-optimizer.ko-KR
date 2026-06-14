@@ -24,14 +24,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: c998adc41e5696cc24bb7c640ec330ccfefa139a
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 310
-ht-degree: 4%
+source-wordcount: 340
+ht-degree: 3%
 
 ---
 
 # 액션 캠페인 검토 및 활성화 {#action-campaign-review}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 동작 캠페인의 구성 및 콘텐츠를 검토하여 활성화하기 전에 오류를 발견하면 메시지를 즉시 보내거나 예약된 날짜에 보낼 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 작업 캠페인이 구성되면 활성화하기 전에 해당 매개 변수와 콘텐츠를 검토해야 합니다. 이렇게 하려면 아래 단계를 수행합니다.
 
