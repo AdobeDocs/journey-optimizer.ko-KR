@@ -6,23 +6,25 @@ level: Beginner
 feature: Approval
 exl-id: 75dafecd-805d-4aa2-86c6-99e6da4d378b
 TQID: https://experienceleague.adobe.com/UQ-5ddCbDJsF6muK1Am74fpx4ptRvHvB5VKwiIxd9d4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-subfeature_v2:
-  - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+subfeature_v2: id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
+source-git-commit: ad8f6662e1f2358071ae923d88630d5f34d9ccf3
 workflow-type: tm+mt
-source-wordcount: 431
+source-wordcount: 476
 ht-degree: 0%
 
 ---
 
 # 승인 요청 {#request-approval}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 여정 또는 캠페인을 올바른 검토자에게 보내어 신뢰하고 라이브로 전환하고, 필요할 때 검토하고, 취소하거나, 편집하고, 다시 제출하여 승인된 온브랜드 콘텐츠만 고객에게 도달하도록 하는 동안 계속 제어할 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 승인 작업 과정에 대한 액세스는 특정 사용 사례에 따라 결정됩니다.
 
