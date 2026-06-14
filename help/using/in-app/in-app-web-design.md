@@ -7,19 +7,22 @@ role: User
 level: Beginner
 keywords: 인앱, 메시지, 만들기, 시작
 hide: true
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909
+source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
 workflow-type: tm+mt
-source-wordcount: 801
+source-wordcount: 829
 ht-degree: 7%
 
 ---
 
 # 웹 인앱 콘텐츠 디자인 {#in-app-web-design}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 메시지 레이아웃, 미디어, 텍스트, 단추 및 고급 서식 옵션을 포함하여 Adobe Journey Optimizer에서 웹 인앱 메시지 콘텐츠를 디자인하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 

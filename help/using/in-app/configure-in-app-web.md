@@ -6,14 +6,11 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 인앱, 메시지, 만들기, 시작
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909
+source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
 workflow-type: tm+mt
-source-wordcount: 724
+source-wordcount: 756
 ht-degree: 3%
 
 ---
@@ -21,13 +18,19 @@ ht-degree: 3%
 
 # 웹 인앱 채널 구성 {#configure-in-app-web}
 
-## 전제 조건 {#prerequisites}
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 웹 SDK, 트리거 규칙 및 인앱 웹 구성을 설정하여 Adobe Experience Platform 데이터 수집에서 웹 인앱 채널을 구성하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
+
+## 사전 요구 사항 {#prerequisites}
 
 * **Adobe Experience Platform Web SDK** 확장 프로그램에 최신 버전을 사용하고 있는지 확인하십시오.
 
 * **태그 속성**&#x200B;에 **Adobe Experience Platform Web SDK** 확장을 설치하고 **Personalization 저장소** 옵션을 사용하도록 설정합니다.
 
-  이 구성은 클라이언트에서 이벤트 기록을 저장하는 데 필수적이며, 규칙 빌더에서 빈도 규칙을 구현하기 위한 전제 조건입니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=ko){target="_blank"}
+  이 구성은 클라이언트에서 이벤트 기록을 저장하는 데 필수적이며, 규칙 빌더에서 빈도 규칙을 구현하기 위한 전제 조건입니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html){target="_blank"}
 
   ![](assets/configure_web_inapp_1.png)
 
@@ -67,7 +70,7 @@ ht-degree: 3%
 
 1. **변경 내용 유지**&#x200B;를 클릭하여 **작업** 구성을 저장합니다.
 
-1. **게시 흐름** 메뉴로 이동합니다. 새 **라이브러리**&#x200B;를 만들거나 기존 **라이브러리**&#x200B;를 선택하고 새로 만든 **규칙**&#x200B;을(를) 추가하십시오. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=ko#create-a-library){target="_blank"}
+1. **게시 흐름** 메뉴로 이동합니다. 새 **라이브러리**&#x200B;를 만들거나 기존 **라이브러리**&#x200B;를 선택하고 새로 만든 **규칙**&#x200B;을(를) 추가하십시오. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html#create-a-library){target="_blank"}
 
 1. **라이브러리**&#x200B;에서 **개발에 저장 및 빌드**&#x200B;를 선택합니다.
 
@@ -109,7 +112,7 @@ ht-degree: 3%
 
 1. **결정 컨텍스트** 섹션에서 전달할 경험을 결정하는 **키** 및 **값** 쌍을 정의합니다.
 
-1. **게시 흐름** 메뉴에 액세스하거나 새 **라이브러리**&#x200B;를 만들거나 기존 **라이브러리**&#x200B;를 선택하고 새로 만든 **규칙**&#x200B;을(를) 추가하십시오. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=ko#create-a-library){target="_blank"}
+1. **게시 흐름** 메뉴에 액세스하거나 새 **라이브러리**&#x200B;를 만들거나 기존 **라이브러리**&#x200B;를 선택하고 새로 만든 **규칙**&#x200B;을(를) 추가하십시오. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html#create-a-library){target="_blank"}
 
 1. **라이브러리**&#x200B;에서 **개발에 저장 및 빌드**&#x200B;를 선택합니다.
 
