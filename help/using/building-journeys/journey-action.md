@@ -83,21 +83,21 @@ ht-degree: 12%
 >id="ajo_journey_action_auto_wait"
 >title="자동 대기 노드"
 >abstract="인바운드 채널 작업(인앱 메시지, 웹, 콘텐츠 카드 및 코드 기반 경험)의 경우 작업(기본적으로 3일) 후에 **대기** 노드가 자동으로 삽입됩니다. 이렇게 하면 프로필이 다음 단계로 진행하기 전에 인바운드 경험을 볼 수 있는 시간을 여정에게 제공합니다."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="채널 작업 시작"
+>additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="채널 작업 시작"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_optimization"
 >title="최적화"
 >abstract="**최적화** 섹션은 콘텐츠 실험, 타깃팅 규칙 또는 두 가지 모두를 채널 작업에 추가합니다. 변형을 테스트하고 각 대상 멤버에게 가장 효과적인 콘텐츠를 전달할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/optimize-activity/optimize" text="최적화 활동 사용"
+>additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/optimize-activity/optimize" text="최적화 활동 사용"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_multilingual"
 >title="다국어"
 >abstract="**다국어** 섹션은 단일 여정 내에서 여러 언어로 채널 작업 콘텐츠를 제공합니다. 언어 설정 구성은 이 작업에 지원되는 로케일과 기본 언어를 정의합니다."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-multilingual/multilingual-gs" text="다국어 콘텐츠 시작"
+>additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/content-multilingual/multilingual-gs" text="다국어 콘텐츠 시작"
 
 
 **[!UICONTROL Action]** 활동을 사용하여 여정에 기본 제공 채널 작업을 추가하려면 아래 단계를 따르십시오.
