@@ -24,14 +24,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 1285
-ht-degree: 30%
+source-wordcount: 1319
+ht-degree: 29%
 
 ---
 
 # 이메일 템플릿의 콘텐츠 잠그기 {#lock-content-email-templates}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 마케터가 Adobe Journey Optimizer에서 템플릿을 다시 사용할 때 의도하지 않은 편집을 방지하기 위해 구조 또는 구성 요소 수준에서 또는 읽기 전용으로 전자 메일 템플릿의 콘텐츠를 잠그는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_locking_governance"

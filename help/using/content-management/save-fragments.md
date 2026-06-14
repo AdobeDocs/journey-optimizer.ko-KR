@@ -25,14 +25,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 510
-ht-degree: 14%
+source-wordcount: 541
+ht-degree: 13%
 
 ---
 
 # 콘텐츠를 조각으로 저장 {#save-as-fragment}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 여정 및 캠페인에서 재사용할 수 있도록 콘텐츠의 전부 또는 일부를 Adobe Journey Optimizer에서 시각적 또는 표현식 조각으로 저장하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer]에서 콘텐츠를 편집할 때 나중에 다시 사용할 수 있도록 콘텐츠의 전부 또는 일부를 조각으로 저장할 수 있습니다. 콘텐츠를 [이메일 Designer에서](#save-as-visual-fragment) 또는 [식 편집기에서](#save-as-expression-fragment) 조각으로 저장할 수 있습니다.
 

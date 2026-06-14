@@ -28,14 +28,20 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 1663
+source-wordcount: 1694
 ht-degree: 2%
 
 ---
 
 # AI Assistant를 사용하여 텍스트 생성 {#generative-text}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer의 이메일, 웹, 랜딩 페이지, 푸시 알림 및 SMS 채널을 위한 AI Assistant를 사용하여 브랜드 내 텍스트 콘텐츠를 생성하고, 세분화하고, 마무리하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >

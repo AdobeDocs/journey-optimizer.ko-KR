@@ -23,14 +23,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 218
+source-wordcount: 247
 ht-degree: 4%
 
 ---
 
 # 이메일 콘텐츠 템플릿 테스트 {#test-template}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer에서 전자 메일 콘텐츠 템플릿의 렌더링을 미리 보고 테스트하고 사용하기 전에 승인하도록 증명을 보내는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 처음부터 만들거나 기존 콘텐츠에서 만든 일부 이메일 템플릿의 렌더링을 테스트할 수 있습니다. 그 방법은 다음과 같습니다.
 

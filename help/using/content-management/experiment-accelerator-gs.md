@@ -24,14 +24,20 @@ level_v2:
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 202
-ht-degree: 93%
+source-wordcount: 235
+ht-degree: 80%
 
 ---
 
 # Journey Optimizer 실험 가속기 시작 {#content-experiment}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer Experimentation Accelerator이 Adobe Target 및 Adobe Journey Optimizer의 실험을 중앙 집중화하여 적응형 테스트를 실행하고, AI 기반 인사이트를 제공하고, 주요 성능 지표를 추적하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

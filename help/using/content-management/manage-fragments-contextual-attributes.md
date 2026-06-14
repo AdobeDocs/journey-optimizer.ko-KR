@@ -24,14 +24,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 363
-ht-degree: 8%
+source-wordcount: 392
+ht-degree: 7%
 
 ---
 
 # 게시된 조각에 상황별 속성 추가 {#adding-contextual-attributes}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 일부 고객이 코드 편집기를 사용하여 이미 게시된 조각에 컨텍스트 특성을 추가하고, 보호 기능 및 제한 사항을 염두에 두는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

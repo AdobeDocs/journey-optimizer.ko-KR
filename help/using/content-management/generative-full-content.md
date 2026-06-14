@@ -25,14 +25,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 1999
+source-wordcount: 2033
 ht-degree: 2%
 
 ---
 
 # AI Assistant를 사용하여 전체 콘텐츠 생성 {#generative-full-content}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer에서 AI Assistant를 사용하여 이메일, 웹, 랜딩 페이지 및 푸시 알림 채널에 대한 전체 텍스트 및 이미지 콘텐츠 경험을 생성하고, 세분화하고, 마무리하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >

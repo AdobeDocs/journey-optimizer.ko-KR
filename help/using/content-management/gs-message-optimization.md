@@ -30,14 +30,20 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 742
+source-wordcount: 770
 ht-degree: 15%
 
 ---
 
 # 콘텐츠 최적화 시작하기 {#message-optimization}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer의 콘텐츠 최적화가 타깃팅, 실험 또는 두 가지 모두를 사용하여 캠페인과 여정 전반에 걸쳐 최상의 성과를 내는 개인화된 콘텐츠를 제공하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_optimization"

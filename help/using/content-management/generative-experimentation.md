@@ -27,14 +27,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 259
-ht-degree: 8%
+source-wordcount: 289
+ht-degree: 7%
 
 ---
 
 # AI Assistant를 사용한 콘텐츠 실험{#generative-experimentation}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer에서 AI Assistant를 사용하여 콘텐츠 변형을 생성하고 이를 대상 대상 간의 성능을 측정하는 실험 처리로 변환하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >

@@ -20,14 +20,20 @@ topic_v2:
 feature_v2: []
 subfeature_v2:
   - id: f29a52db-c90c-4345-902e-b586d1406d8d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 306
+source-wordcount: 331
 ht-degree: 3%
 
 ---
 
 # 타기팅과 실험 결합 {#combination}
+
+>[!BEGINSHADEBOX]
+
+**이 여정에서:** 실험이 각 타깃팅 규칙별로 유지되도록 단일 페이지 또는 캠페인 내에서 타깃팅과 실험을 결합하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 또한 Journey Optimizer을 사용하면 단일 여정 또는 캠페인 내에 타기팅과 실험을 결합하여 보다 정교한 전략을 만들 수 있습니다.
 

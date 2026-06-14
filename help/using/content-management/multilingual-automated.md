@@ -29,14 +29,20 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 2063
+source-wordcount: 2099
 ht-degree: 19%
 
 ---
 
 # 자동 번역을 사용하여 다국어 콘텐츠 만들기 {#multilingual-automated}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 번역 프로젝트 및 언어 설정을 설정한 다음 검토 및 게시를 위해 캠페인 또는 여정 콘텐츠를 번역 공급업체에 보내어 자동 번역을 통해 다국어 콘텐츠를 만드는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_add_provider"

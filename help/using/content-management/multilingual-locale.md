@@ -21,14 +21,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 120
-ht-degree: 29%
+source-wordcount: 146
+ht-degree: 23%
 
 ---
 
 # 로케일 만들기 {#multilingual-locale}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 필요한 언어 또는 지역을 다국어 콘텐츠에 사용할 수 없는 경우 번역 메뉴에서 새 로케일을 만드는 방법을 알아보세요.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_add_locale"

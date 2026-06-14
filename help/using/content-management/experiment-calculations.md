@@ -21,14 +21,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 1073
+source-wordcount: 1080
 ht-degree: 0%
 
 ---
 
 # 통계 계산 이해 {#experiment-calculations}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 언제든지 유효한 신뢰 시퀀스 및 결과를 지속적으로 모니터링하고 실험이 확정되는 시기를 결정할 수 있는 신뢰도를 포함하여 Adobe Journey Optimizer에서 실험에 숨겨진 통계적 방법론을 이해합니다.
+
+>[!ENDSHADEBOX]
 
 이 문서에서는 Adobe Journey Optimizer에서 실험을 실행할 때 사용되는 통계 계산에 대해 설명합니다.
 

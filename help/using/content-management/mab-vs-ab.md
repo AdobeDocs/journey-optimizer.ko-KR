@@ -19,14 +19,20 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 subfeature_v2:
   - id: f29a52db-c90c-4345-902e-b586d1406d8d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 629
-ht-degree: 19%
+source-wordcount: 658
+ht-degree: 18%
 
 ---
 
 # A/B vs 멀티 암드 밴딧 실험 {#mab-vs-ab}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer에서 A/B와 multi-armed bandit 실험을 비교합니다. 여기에는 각각의 강점, 제한 사항 및 각 트래픽 할당 방법이 가장 잘 작동하는 시나리오가 포함됩니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_ab_test_mab"

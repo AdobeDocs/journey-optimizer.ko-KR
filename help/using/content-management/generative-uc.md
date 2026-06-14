@@ -27,14 +27,20 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 1287
+source-wordcount: 1320
 ht-degree: 1%
 
 ---
 
 # AI 어시스턴트 사용 사례 {#generative-uc}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 기존 콘텐츠를 재사용하고 텍스트 변형을 개선하는 것에서부터 이미지 생성, 스타일 참조 적용, 지원되는 언어 작업에 이르기까지 Adobe Journey Optimizer에서 AI Assistant의 실제 사용 사례를 살펴보십시오.
+
+>[!ENDSHADEBOX]
 
 >[!NOTE]
 >

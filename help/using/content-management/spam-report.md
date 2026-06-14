@@ -17,14 +17,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 369
-ht-degree: 17%
+source-wordcount: 398
+ht-degree: 16%
 
 ---
 
 # 이메일 스팸 신고 {#spam-report}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer에서 스팸 보고서를 사용하여 전자 메일 콘텐츠 스팸 점수를 확인하고 보내기 전에 전달성을 개선하는 조언을 적용하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_spam_report"

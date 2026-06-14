@@ -20,14 +20,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 900
-ht-degree: 3%
+source-wordcount: 923
+ht-degree: 2%
 
 ---
 
 # 콘텐츠 템플릿 액세스 및 관리 {#access-manage-templates}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer의 샌드박스 간에 콘텐츠 템플릿을 액세스, 검색, 폴더로 구성, 편집, 삭제 및 내보내는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 ## 사전 요구 사항 {#prerequisites}
 
@@ -126,7 +132,7 @@ ht-degree: 3%
 
 >[!AVAILABILITY]
 >
->이 기능은 소규모 고객을 위해 LA(Limited Availability)에서 출시됩니다.
+>이 기능은 소수의 고객을 위해 LA(Limited Availability)에서 출시됩니다.
 
 ![](assets/content-template-grid-view.png)
 

@@ -22,14 +22,20 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 subfeature_v2:
   - id: f29a52db-c90c-4345-902e-b586d1406d8d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 294
-ht-degree: 2%
+source-wordcount: 323
+ht-degree: 1%
 
 ---
 
 # 실험 사용 {#experimentation}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 콘텐츠 실험을 사용하여 여정 또는 캠페인 내의 여러 콘텐츠 변형을 테스트하고 성공 지표에 대해 가장 성과가 좋은 변형을 식별하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!NOTE]
 >

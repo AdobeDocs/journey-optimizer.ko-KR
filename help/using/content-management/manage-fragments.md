@@ -26,14 +26,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 1523
+source-wordcount: 1551
 ht-degree: 18%
 
 ---
 
 # 조각 관리 {#manage-fragments}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 폴더 사용, 조각 상태 추적, 각 조각이 참조되는 위치 탐색 등 콘텐츠 조각에 액세스하고, 구성하고, 편집하고, 보관하고, 내보내는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 ## 조각 액세스 {#access-fragments}
 

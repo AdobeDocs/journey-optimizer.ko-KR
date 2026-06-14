@@ -26,14 +26,20 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 965
+source-wordcount: 995
 ht-degree: 2%
 
 ---
 
 # 수동 번역을 사용하여 다국어 콘텐츠 만들기 {#multilingual-manual}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 언어 설정을 구성하고 각 로케일에 대해 캠페인 및 여정에서 직접 콘텐츠를 번역하거나 가져와서 수동 번역을 통해 다국어 콘텐츠를 만드는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >

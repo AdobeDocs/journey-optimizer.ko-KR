@@ -26,14 +26,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 980
-ht-degree: 20%
+source-wordcount: 1008
+ht-degree: 19%
 
 ---
 
 # 조각 만들기 {#create-fragments}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer 캠페인 및 여정 간에 콘텐츠를 재사용할 수 있도록 시각적 및 표현식 조각을 만들고, 디자인하고, 잠그고, 미리 보고, 게시하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_visual_fragment"

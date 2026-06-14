@@ -8,14 +8,20 @@ exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
 feature_v2: []
 subfeature_v2:
   - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 575
-ht-degree: 88%
+source-wordcount: 606
+ht-degree: 84%
 
 ---
 
 # 콘텐츠 미리 보기 및 테스트 {#preview-test}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 보내기 전에 렌더링, 개인화 및 정확성을 확인하기 위해 테스트 프로필 또는 샘플 입력 데이터를 사용하여 Adobe Journey Optimizer에서 메시지 콘텐츠를 미리 보고 테스트하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ac_preview_testprofiles"

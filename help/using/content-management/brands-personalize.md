@@ -22,14 +22,20 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 990
-ht-degree: 10%
+source-wordcount: 1014
+ht-degree: 9%
 
 ---
 
 # 브랜드 개인화 {#brands-personalize}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer에서 브랜드 ID, 작성 스타일 및 시각적 콘텐츠 규칙을 정의하여 브랜드 지침을 개인화하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 ## 브랜드 정보 {#about-brand}
 

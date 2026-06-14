@@ -23,14 +23,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 177
-ht-degree: 6%
+source-wordcount: 203
+ht-degree: 5%
 
 ---
 
 # 콘텐츠 템플릿 사용 {#use-content-templates}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer에서 웹을 제외한 모든 채널에 대한 콘텐츠를 만들 때 콘텐츠 템플릿을 적용하여 메시지 작성을 더 빠르게 시작하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer]에서 모든 채널(웹 제외)에 대한 콘텐츠를 만들 때 다음 중 하나를 수행하는 사용자 지정 템플릿을 사용할 수 있습니다.
 

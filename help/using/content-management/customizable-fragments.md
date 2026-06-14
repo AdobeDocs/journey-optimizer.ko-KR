@@ -25,14 +25,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 1735
+source-wordcount: 1771
 ht-degree: 12%
 
 ---
 
 # 사용자 정의 가능한 조각 {#customizable-fragments}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 사용자가 캠페인 또는 여정에 조각을 추가할 때 원본 조각의 상속을 중단하지 않고 사용자 지정할 수 있도록 시각적 및 표현식 조각의 특정 필드를 편집할 수 있도록 하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 조각이 캠페인이나 여정 작업에 사용되면 상속으로 인해 기본적으로 잠깁니다. 즉, 조각에 수행된 모든 변경 사항은 조각이 사용되는 모든 캠페인 및 여정에 자동으로 전파됩니다.
 

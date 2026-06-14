@@ -27,14 +27,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 1991
+source-wordcount: 2025
 ht-degree: 6%
 
 ---
 
 # 콘텐츠 실험 만들기 {#content-experiment}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 콘텐츠 실험을 만들어 여러 처리를 정의 및 비교하고, 실험 유형을 선택하고, Adobe Journey Optimizer의 캠페인 및 여정에서 가장 성과가 좋은 변형을 확장하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment"

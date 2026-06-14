@@ -22,14 +22,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 232
-ht-degree: 6%
+source-wordcount: 268
+ht-degree: 5%
 
 ---
 
 # 콘텐츠 템플릿 시작 {#content-templates}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 콘텐츠 템플릿을 사용하여 마케터가 Adobe Journey Optimizer의 캠페인 및 여정 간에 재사용할 수 있는 이메일, 푸시, 인앱, SMS 및 DM 채널에 대해 독립 실행형 재사용 가능한 콘텐츠를 만드십시오.
+
+>[!ENDSHADEBOX]
 
 >[!NOTE]
 >

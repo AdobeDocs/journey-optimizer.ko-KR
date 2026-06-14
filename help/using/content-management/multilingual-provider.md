@@ -21,14 +21,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 201
+source-wordcount: 227
 ht-degree: 2%
 
 ---
 
 # 언어 공급자 추가 {#multilingual-provider}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 다국어 콘텐츠에 사용할 수 있도록 서드파티 번역 공급자와 지원되는 로케일을 추가하고 구성하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >
