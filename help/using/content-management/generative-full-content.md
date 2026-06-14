@@ -9,30 +9,26 @@ role: User
 level: Beginner
 exl-id: 9f395b3d-8414-4e88-b849-6d9af9640b32
 TQID: https://experienceleague.adobe.com/0Xf8qIELy-rLrPg-5slKXt4dlurcaUwXhAW6VWxWuPQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: d6e0d39b-5df3-4c72-8263-fd834397ee97
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 1999
+source-wordcount: 2033
 ht-degree: 2%
 
 ---
 
 # AI Assistant를 사용하여 전체 콘텐츠 생성 {#generative-full-content}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer에서 AI Assistant를 사용하여 이메일, 웹, 랜딩 페이지 및 푸시 알림 채널에 대한 전체 텍스트 및 이미지 콘텐츠 경험을 생성하고, 세분화하고, 마무리하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >

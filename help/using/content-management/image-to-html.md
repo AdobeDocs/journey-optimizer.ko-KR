@@ -10,16 +10,21 @@ level: Beginner
 keywords: 이메일, 템플릿, 이미지, HTML, AI, 디자인, 변환기
 exl-id: d13467b7-2f3c-4707-a7e0-9b46cb6cafb1
 feature_v2: []
-subfeature_v2:
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+subfeature_v2: id: d595a60b-bcf5-4a63-a189-66a0be755cc7
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 2097
+source-wordcount: 2126
 ht-degree: 4%
 
 ---
 
 # 이미지를 이메일 콘텐츠 템플릿으로 변환 {#image-to-html}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer에서 AI 기반 이미지를 HTML 변환기로 전환하여 정적 이미지 디자인을 편집 가능하고 재사용 가능한 이메일 콘텐츠 템플릿으로 변환하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer]을(를) 사용하면 정적 이미지 디자인을 사용자 지정 가능한 모듈식 이메일 콘텐츠 템플릿으로 변환하여 이메일 제작 속도를 크게 높일 수 있습니다.
 

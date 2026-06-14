@@ -8,26 +8,26 @@ level: Intermediate
 keywords: 타깃팅, 최적화, 대상, 개인화, 규칙
 exl-id: ced2248a-e0fb-4fc5-b00b-13972618eeb9
 TQID: https://experienceleague.adobe.com/TbxDXnkVruD3-kutQx5eA5IbF1XawoB40WgqLVZnEMs
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 563
+source-wordcount: 589
 ht-degree: 8%
 
 ---
 
 # 타기팅 사용 {#targeting}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 타깃팅 규칙을 사용하여 프로필 특성, 컨텍스트 데이터 또는 대상 멤버십을 기반으로 특정 대상 세그먼트에 개인화된 콘텐츠를 전달하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_content_targeting_fallback"

@@ -6,16 +6,21 @@ role: User
 level: Beginner
 exl-id: 6477270c-0309-411a-8254-c7ffc4419492
 feature_v2: []
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 231
+source-wordcount: 254
 ht-degree: 3%
 
 ---
 
 # 테스트 프로필을 사용하여 콘텐츠 미리보기 {#preview}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 선택한 테스트 프로필에 대해 메시지 콘텐츠를 미리 보고 각 변형에 대해 개인화된 필드가 표시되는 방식을 확인하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 [테스트 프로필](test-profiles.md)을 선택하면 해당 데이터를 사용하여 콘텐츠를 미리 볼 수 있습니다. 다음 중 하나의 시뮬레이션 방법을 사용할 수 있습니다.
 

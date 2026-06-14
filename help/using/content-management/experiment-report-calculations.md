@@ -6,24 +6,25 @@ role: User
 level: Experienced
 exl-id: 67ba8861-be6f-42ae-b9b8-96168d0dd15c
 TQID: https://experienceleague.adobe.com/fvhdR1yMUsQ9H6N2V1-q-nEWXhuKkzcfRgeEKH-vsbk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-subfeature_v2:
-  - id: f29a52db-c90c-4345-902e-b586d1406d8d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+subfeature_v2: id: f29a52db-c90c-4345-902e-b586d1406d8d
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 942
+source-wordcount: 977
 ht-degree: 1%
 
 ---
 
 # 실험 보고서의 통계 계산 이해 {#experiment-report-calculations}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 전환율, 상승도, 항시 유효한 신뢰 시퀀스, 최상의 성과를 결정하는 방법 등 Adobe Journey Optimizer의 캠페인에 대한 실험 보고서에 사용되는 자세한 통계 계산을 살펴봅니다.
+
+>[!ENDSHADEBOX]
 
 이 페이지에서는 Adobe Journey Optimizer의 캠페인에 대한 실험 보고서에 사용된 자세한 통계 계산을 문서화합니다.
 

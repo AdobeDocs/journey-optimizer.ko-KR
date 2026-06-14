@@ -8,43 +8,41 @@ role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
 TQID: https://experienceleague.adobe.com/z-uBnjTprUGtSOa6yxa7WKs5zc7ZvY5PaF5snrOsGuE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e6ff21d3-dec6-4298-8590-7c749fffaf78
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 688
-ht-degree: 0%
+source-wordcount: 721
+ht-degree: 33%
 
 ---
 
-# 브랜드 생성 및 관리 {#brands}
+# 브랜드 만들기 및 관리 {#brands}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** AI Assistant가 Adobe Journey Optimizer에서 브랜드 ID에 맞게 콘텐츠를 생성할 수 있도록 기본 브랜드 설정을 포함하여 브랜드 지침을 만들고, 구성하고, 게시하고, 관리하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_overview"
->title="브랜드 시작"
->abstract="자체 브랜드를 만들고 사용자 정의하여 고유한 시각적 및 언어적 정체성을 정의하는 동시에 브랜드의 스타일 및 목소리와 일치하는 콘텐츠를 더 쉽게 생성할 수 있습니다."
+>title="브랜드 시작하기"
+>abstract="고유한 시각적 및 언어적 정체성을 정의하고, 브랜드 스타일과 표현에 맞는 콘텐츠를 손쉽게 생성할 수 있도록 자체 브랜드를 만들고 맞춤화합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_ai_menu"
 >title="브랜드 선택"
->abstract="모든 AI 생성 콘텐츠가 브랜드 사양 및 지침에 맞게 맞춤화되도록 하려면 브랜드를 선택하십시오."
+>abstract="브랜드를 선택하여 모든 AI 생성 콘텐츠가 브랜드의 사양과 지침에 맞게 조정되도록 합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_score_overview"
 >title="브랜드 선택"
->abstract="일관성과 브랜드 무결성을 유지하면서 특정 지침, 표준 및 정체성에 맞게 콘텐츠를 제작하려면 브랜드를 선택하십시오."
+>abstract="브랜드를 선택하여 콘텐츠가 브랜드의 특정 지침, 기준 및 정체성에 맞게 제작되도록 하여 일관성과 브랜드 무결성을 유지합니다."
 
 
 브랜드 지침은 브랜드의 시각적 및 언어적 정체성을 확립하는 상세한 규칙 및 표준 세트입니다. 모든 마케팅 및 커뮤니케이션 플랫폼에서 일관된 브랜드 표현을 유지하는 참조 역할을 합니다.
@@ -53,7 +51,7 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->Adobe Journey Optimizer에서 AI 도우미를 사용하려면 먼저 [사용자 동의](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
+>Adobe Journey Optimizer에서 AI 도우미를 사용하려면 먼저 [사용자 동의](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
 
 ## 브랜드 액세스 {#generative-access}
@@ -64,7 +62,7 @@ ht-degree: 0%
 
 브랜드에 대한 권한을 할당하려면 다음 단계를 따르십시오.
 
-1. **권한** 제품에서 **역할** 탭으로 이동하여 원하는 **역할**&#x200B;을(를) 선택하십시오.
+1. **권한** 제품에서 **역할** 탭으로 이동하여 원하는 **역할**&#x200B;을 선택하십시오.
 
 1. 권한을 수정하려면 **편집**&#x200B;을 클릭하십시오.
 
@@ -74,24 +72,24 @@ ht-degree: 0%
 
    ![](assets/brands-permission.png){zoomable="yes"}
 
-1. 변경 내용을 적용하려면 **저장**&#x200B;을 클릭하세요.
+1. 변경 내용을 적용하려면 **저장**&#x200B;을 클릭하십시오.
 
    이 역할에 이미 할당된 모든 사용자의 권한은 자동으로 업데이트됩니다.
 
-1. 새 사용자에게 이 역할을 할당하려면 **역할** 대시보드의 **사용자** 탭으로 이동하여 **사용자 추가**&#x200B;를 클릭하세요.
+1. 새 사용자에게 이 역할을 할당하려면 **역할** 대시보드의 **사용자** 탭으로 이동하여 **사용자 추가**&#x200B;를 클릭하십시오.
 
-1. 사용자 이름, 전자 메일 주소를 입력하거나 목록에서 선택한 다음 **저장**&#x200B;을 클릭합니다.
+1. 사용자 이름, 이메일 주소를 입력하거나 목록에서 선택한 다음 **저장**&#x200B;을 클릭합니다.
 
-1. 사용자를 이전에 만들지 않은 경우 [이 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/abac/permissions-ui/users)를 참조하세요.
+1. 이전에 사용자를 생성하지 않은 경우 [이 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/abac/permissions-ui/users)를 참조하십시오.
 
 +++
 
-## 브랜드 생성 및 관리 {#create-brand-kit}
+## 브랜드 만들기 및 관리 {#create-brand-kit}
 
 >[!CONTEXTUALHELP]
 >id="ajo_brands_create"
 >title="브랜드 만들기"
->abstract="브랜드 이름을 입력하고 브랜드 지침 파일을 업로드하십시오. 이 도구는 주요 세부 정보를 자동으로 추출하므로 브랜드 정체성을 쉽게 유지할 수 있습니다."
+>abstract="브랜드 이름을 입력하고 브랜드 지침 파일을 업로드합니다. 이 도구는 주요 세부 정보를 자동으로 추출하여 브랜드의 정체성을 유지하기 쉽게 만듭니다."
 
 브랜드 지침을 만들고 관리하기 위해 직접 세부 정보를 입력하거나 브랜드 지침 문서를 업로드하여 정보를 자동으로 추출할 수 있습니다.
 

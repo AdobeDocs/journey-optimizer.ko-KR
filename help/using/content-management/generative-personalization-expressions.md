@@ -9,17 +9,21 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 feature_v2: []
-subfeature_v2:
-  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-  - id: c41e8697-e629-4c38-96b3-564faaa17acf
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+subfeature_v2: id: d6e0d39b-5df3-4c72-8263-fd834397ee97id: c41e8697-e629-4c38-96b3-564faaa17acf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 1082
+source-wordcount: 1113
 ht-degree: 2%
 
 ---
 
 # 개인화 표현식에 AI 어시스턴트 사용{#generative-personalization-expressions}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer에서 AI Assistant를 사용하여 Personalization 편집기 및 이메일 Designer에서 자연어로 개인화 표현식을 생성하고 수정하고 설명하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >

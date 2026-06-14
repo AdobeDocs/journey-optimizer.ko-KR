@@ -10,35 +10,26 @@ level: Beginner
 keywords: 시작하기, 시작, 콘텐츠, 실험
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
 TQID: https://experienceleague.adobe.com/6RWh7aUUasaT-BIe90rkSJf66-G3Ika81AhufKSnqjw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: f29a52db-c90c-4345-902e-b586d1406d8d
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: f29a52db-c90c-4345-902e-b586d1406d8did: fb9a80eb-bebc-492f-a0e9-584595621ebbid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 2117
-ht-degree: 92%
+source-wordcount: 1988
+ht-degree: 89%
 
 ---
 
 # 콘텐츠 실험 시작하기 {#get-started-experiment}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer의 콘텐츠 실험에서 무작위 실험을 사용하여 메시지 변형을 테스트하는 방법, 결과를 계산하는 방법 및 캠페인을 최적화하기 위해 보고서를 해석하는 방법을 이해합니다.
+
+>[!ENDSHADEBOX]
 
 ## 콘텐츠 실험이란 무엇인가요?
 
@@ -113,14 +104,14 @@ Adobe Journey Optimizer가 메시지를 추적하는 직접적 목표 지표의 
 
 +++적절한 대상 크기로 테스트를 실행합니다. 또는 충분히 오랫동안 테스트를 실행합니다.
 
-테스트를 더 오래 진행하면 처리에 따라 목표 지표에 나타나는 더 작은 차이도 감지할 수 있습니다. 하지만 목표 지표의 기준선 값이 작은 경우에는 샘플 크기가 더 커야 합니다.
-실험에 포함해야 하는 사용자 수는 찾으려는 효과의 크기, 목표 지표의 분산이나 확산도, 긍정 오류와 부정 오류 허용치 등에 따라 달라집니다. 고전적 실험에서는 [표본 크기 계산기](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=ko-KR){_blank}를 사용하여 테스트를 실행해야 하는 시간을 결정할 수 있습니다.
+테스트를 더 오래 실행하면 치료 간 목표 지표에서 더 작은 차이를 감지할 수 있습니다. 그러나 목표 지표의 기준 값이 작으면 더 큰 샘플 크기가 필요합니다.
+실험에 포함되어야 하는 사용자 수는 감지하려는 효과 크기, 목표 지표의 분산 또는 확산뿐만 아니라 긍정 오류(false positive) 및 부정 오류(false negative error)에 대한 허용 오차에 따라 달라집니다. 고전적 실험에서는 [표본 크기 계산기](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=ko-KR){_blank}를 사용하여 테스트를 실행해야 하는 시간을 결정할 수 있습니다.
 +++ 
 
 +++통계적 불확실성 이해
 
-1,000명의 사용자가 한 번의 처리에 노출되는 실험을 진행했고 전환율이 5%로 나타난 경우를 생각해 보겠습니다. 이 값은 사용자 전체가 같은 처치에 노출되었을 때 실제 전환율과 같을까요? 실제 전환율은 몇 %일까요?
-통계적 방법으로 그 불확실성을 공식화할 수 있습니다. 온라인 실험을 진행할 때 이해해야 할 가장 중요한 개념 중 하나는 관찰된 전환율이 근본적인 실제 전환율 범위와 어느 정도 일치해야 한다는 것입니다. 즉, 측정치가 충분히 정밀해진 이후에 결과를 도출해야 합니다. 신뢰 구간과 신뢰도는 이 불확실성을 정량화하는 데 도움이 됩니다.
+1000명의 사용자가 한 번의 처리를 본 실험의 경우 전환율이 5%로 설정됩니다. 모든 사용자가 포함되면 실제 전환율이 됩니까? 실제 전환율은 어떻게 됩니까?
+통계적 방법은 우리에게 그 불확실성을 공식화하는 방법을 제공한다. 온라인 실험을 실행할 때 이해해야 하는 가장 중요한 개념 중 하나는 관찰된 전환율이 기본 실제 전환율 범위와 일치한다는 것입니다. 즉, 결론을 도출하기 전에 이러한 추정치가 충분히 정확할 때까지 기다려야 합니다. 신뢰 구간 및 신뢰도는 이러한 불확실성을 정량화하는 데 도움이 된다.
 +++
 
 +++새로운 가설을 세우고 지속적으로 테스트하십시오

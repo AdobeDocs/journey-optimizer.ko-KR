@@ -9,27 +9,25 @@ role: User
 level: Beginner
 exl-id: a205539b-b7ea-4832-92b0-49637c4dac47
 TQID: https://experienceleague.adobe.com/E9gFX9CtjkzhDBeVqcaOE-7kNWygH2CVIikDLZ3ZqR8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: d595a60b-bcf5-4a63-a189-66a0be755cc7id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 633
-ht-degree: 11%
+source-wordcount: 660
+ht-degree: 10%
 
 ---
 
 # 콘텐츠 템플릿 만들기 {#create-content-templates}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 콘텐츠 템플릿을 처음부터 만들거나 기존 캠페인 또는 여정 콘텐츠를 Adobe Journey Optimizer에서 재사용 가능한 템플릿으로 저장하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_template"
@@ -129,7 +127,7 @@ ht-degree: 11%
 
 1. **태그** 필드에서 Adobe Experience Platform 태그를 선택하거나 만들어 템플릿을 분류합니다. [자세히 알아보기](../start/search-filter-categorize.md#tags)
 
-1. 사용자 지정 또는 핵심 데이터 사용 레이블을 템플릿에 할당하려면 **[!UICONTROL 액세스 관리]**&#x200B;를 선택합니다. [자세히 알아보기](../administration/object-based-access.md).
+1. 사용자 지정 또는 핵심 데이터 사용 레이블을 템플릿에 할당하려면 **[!UICONTROL 액세스 관리]**&#x200B;를 선택합니다. [자세히 알아보기](../administration/object-based-access.md)
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 

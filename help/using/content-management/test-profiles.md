@@ -6,16 +6,21 @@ role: User
 level: Beginner
 exl-id: c51e4089-7f51-437d-a5ed-de10bab46cf8
 feature_v2: []
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 279
-ht-degree: 18%
+source-wordcount: 308
+ht-degree: 16%
 
 ---
 
 # 테스트 프로필 선택 {#select-test-profiles}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 다양한 프로필 데이터 변형에 대해 콘텐츠를 미리 보고 테스트할 수 있도록 Adobe Journey Optimizer에서 ID 네임스페이스별로 테스트 프로필을 선택하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_preview_test_profiles"

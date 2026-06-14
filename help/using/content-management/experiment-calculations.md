@@ -10,25 +10,25 @@ level: Experienced
 keywords: 내용, 실험, 통계, 계산
 exl-id: 60a1a488-a119-475b-8f80-3c6f43c80ec9
 TQID: https://experienceleague.adobe.com/FK4Ze6jAsBbzBDRxCSLVnbfeoErPniPPUAfSLYVECOI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: f29a52db-c90c-4345-902e-b586d1406d8d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebbid: f29a52db-c90c-4345-902e-b586d1406d8d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 1073
+source-wordcount: 1080
 ht-degree: 0%
 
 ---
 
 # 통계 계산 이해 {#experiment-calculations}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 언제든지 유효한 신뢰 시퀀스 및 결과를 지속적으로 모니터링하고 실험이 확정되는 시기를 결정할 수 있는 신뢰도를 포함하여 Adobe Journey Optimizer에서 실험에 숨겨진 통계적 방법론을 이해합니다.
+
+>[!ENDSHADEBOX]
 
 이 문서에서는 Adobe Journey Optimizer에서 실험을 실행할 때 사용되는 통계 계산에 대해 설명합니다.
 

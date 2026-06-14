@@ -6,16 +6,21 @@ role: User
 level: Beginner
 exl-id: fe077a8b-9788-4723-a1e7-32816a879af9
 feature_v2: []
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 166
+source-wordcount: 192
 ht-degree: 3%
 
 ---
 
 # 이메일 렌더링 테스트 {#email-rendering}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 인기 있는 데스크톱, 모바일 및 웹 기반 클라이언트에서 이메일 렌더링을 테스트하기 위해 Litmus 계정을 Adobe Journey Optimizer에 연결하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 **Litmus** 계정을 [!DNL Journey Optimizer]에 활용하면 인기 있는 이메일 클라이언트에서 **이메일 렌더링**&#x200B;을(를) 즉시 미리 볼 수 있습니다. 그런 다음 모든 받은 편지함에서 이메일 콘텐츠가 제대로 표시되고 제대로 작동하는지 확인할 수 있습니다.
 
