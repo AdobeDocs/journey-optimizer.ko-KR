@@ -16,14 +16,20 @@ level_v2:
 subfeature_v2:
   - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: 36b855c6d66a614f4c0374cbd1b4746ec68fde21
 workflow-type: tm+mt
-source-wordcount: 1006
-ht-degree: 96%
+source-wordcount: 1037
+ht-degree: 93%
 
 ---
 
 # 여정 및 캠페인 승인 시작 {#send-proofs}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 포함된 승인 프로세스는 검토 중에 여정과 캠페인을 잠궈 적절한 이해 당사자가 종료되도록 하므로 모든 요청이 중앙에서 관리 및 추적됩니다.
+
+>[!ENDSHADEBOX]
 
 ## 승인 정책 시작 {#gs}
 

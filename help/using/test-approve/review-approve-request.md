@@ -17,14 +17,20 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 subfeature_v2:
   - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 36b855c6d66a614f4c0374cbd1b4746ec68fde21
 workflow-type: tm+mt
-source-wordcount: 345
+source-wordcount: 376
 ht-degree: 3%
 
 ---
 
 # 요청 검토 및 승인 {#approve-requests}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 지정된 승인자는 제출된 여정 또는 캠페인을 검토하고 승인하여 게시하거나, 변경 요청이 라이브로 전환되기 전에 작성자에게 다시 보내십시오.
+
+>[!ENDSHADEBOX]
 
 승인 정책이 여정 또는 캠페인에 적용되는 경우 게시하려면 승인을 위해 제출해야 합니다. 이를 위해 여정/캠페인 작성자가 승인 정책에 정의된 승인자에게 요청을 보내고 여정/캠페인이 **[!UICONTROL 검토 중]** 상태를 받습니다.
 

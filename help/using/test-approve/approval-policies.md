@@ -18,14 +18,20 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 subfeature_v2:
   - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 36b855c6d66a614f4c0374cbd1b4746ec68fde21
 workflow-type: tm+mt
-source-wordcount: 731
-ht-degree: 15%
+source-wordcount: 760
+ht-degree: 14%
 
 ---
 
 # 승인 정책 만들기 및 관리 {#approval-policies}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 승인 정책은 라이브로 전환되기 전에 로그오프해야 하는 여정 및 캠페인을 결정하고 관리자가 각 요청을 제어하는 조건, 타깃팅 기준 및 검토자를 설정할 수 있도록 합니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_approval_policy_request_approval"
