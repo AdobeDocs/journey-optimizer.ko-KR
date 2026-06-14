@@ -21,14 +21,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 8f016fe08e76f896eeb71b96e582e4e7e8fc3c9f
 workflow-type: tm+mt
-source-wordcount: 365
+source-wordcount: 397
 ht-degree: 8%
 
 ---
 
 # Journey Optimizer에서 LINE 채널 구성 {#line-configuration}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer에서 LINE 메시징 API를 인증하고 고객에게 메시지를 보낼 수 있도록 인터페이스 또는 API에서 LINE 채널 구성을 설정합니다.
+
+>[!ENDSHADEBOX]
 
 1. **[!UICONTROL 채널]** > **[!UICONTROL 일반 설정]** > **[!UICONTROL 채널 구성]** 메뉴에 액세스한 다음 **[!UICONTROL 채널 구성 만들기]**&#x200B;를 클릭하십시오.
 
