@@ -25,14 +25,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 4e89993a998268ae2810c949d0669bf6dc458dd6
 workflow-type: tm+mt
-source-wordcount: 235
-ht-degree: 100%
+source-wordcount: 262
+ht-degree: 89%
 
 ---
 
 # 데이터 수명주기 작업 수행 {#data-hygiene}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 조직 정책에 따라 레코드를 정확하게 유지하고, 의도한 대로 사용하고, 삭제할 수 있도록 데이터 수명 주기 작업을 구성하고 예약합니다.
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

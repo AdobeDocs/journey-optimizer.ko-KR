@@ -26,14 +26,20 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 867eeef1f90c152c463397222f5ed95f3b9c264b
 workflow-type: tm+mt
-source-wordcount: 318
+source-wordcount: 347
 ht-degree: 5%
 
 ---
 
 # 추가적인 이벤트 전송 단계 {#additional-steps-to-send-events}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 구성한 이벤트가 실제로 Journey Optimizer에 도달하고 여정을 트리거하도록 스트리밍 수집 API에 이벤트를 푸시하도록 데이터 시스템을 설정합니다.
+
+>[!ENDSHADEBOX]
 
 **[!UICONTROL 스트리밍 수집 API]**&#x200B;에 보내고 [!DNL Journey Optimizer]에서 사용할 이벤트를 구성하려면 다음 단계를 수행해야 합니다.
 

@@ -27,14 +27,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 867eeef1f90c152c463397222f5ed95f3b9c264b
 workflow-type: tm+mt
-source-wordcount: 1160
+source-wordcount: 1191
 ht-degree: 14%
 
 ---
 
 # 비즈니스 이벤트 구성 {#configure-a-business-event}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 제품이 재입고되는 것과 같은 전역 상황이 발생할 때마다 프로필 집합에 대한 여정을 트리거할 수 있도록 비즈니스 이벤트를 구성합니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_business"

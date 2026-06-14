@@ -25,14 +25,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 867eeef1f90c152c463397222f5ed95f3b9c264b
 workflow-type: tm+mt
-source-wordcount: 393
+source-wordcount: 422
 ht-degree: 1%
 
 ---
 
 # [!DNL Journey Optimizer]개 이벤트에 대한 experienceevent 스키마 정보 {#about-experienceevent-schemas}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 스트리밍된 이벤트를 Adobe Experience Platform에 수집하여 여정을 트리거하는 데 사용할 수 있도록 필요한 구조를 충족하는 XDM 경험 이벤트 스키마를 빌드합니다.
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] 이벤트는 스트리밍 수집을 통해 Adobe Experience Platform으로 전송되는 XDM 경험 이벤트입니다.
 

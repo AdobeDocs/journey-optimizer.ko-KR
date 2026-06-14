@@ -26,14 +26,20 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 06565328f42ff79943f774df55d8e41118b40815
+source-git-commit: 4e89993a998268ae2810c949d0669bf6dc458dd6
 workflow-type: tm+mt
-source-wordcount: 349
-ht-degree: 97%
+source-wordcount: 380
+ht-degree: 90%
 
 ---
 
 # Journey Optimizer 리소스에 대한 작업 감사 {#track-changes}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 가시성을 높이고 문제를 해결하며 규정 및 데이터 관리 정책을 준수하는지 확인할 수 있도록 Journey Optimizer 리소스에 대한 사용자 작업을 기록하는 감사 로그를 검토하십시오.
+
+>[!ENDSHADEBOX]
 
 ## 감사 로그 정보 {#audit-logs}
 
