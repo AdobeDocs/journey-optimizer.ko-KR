@@ -21,14 +21,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
-source-wordcount: 659
-ht-degree: 6%
+source-wordcount: 689
+ht-degree: 5%
 
 ---
 
 # 사용자 정의 액션 모니터링 {#reporting}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 여정이 서드파티 시스템에 대해 수행하는 API 호출의 안정성과 성능을 모니터링하여 통합 문제, 지연 및 제한 제한을 빠르게 확인할 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_custom_actions_monitor"

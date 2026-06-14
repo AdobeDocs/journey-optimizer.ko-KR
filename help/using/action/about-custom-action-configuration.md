@@ -30,14 +30,20 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: e3ade9a651638c321aa0dd837e09cc2d44359797
+source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
-source-wordcount: 2324
+source-wordcount: 2354
 ht-degree: 12%
 
 ---
 
 # 사용자 정의 작업 구성 {#configure-a-custom-action}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 여정이 해당 서비스를 호출할 수 있도록 사용자 지정 작업의 끝점, 인증, 보안 및 페이로드 매개 변수를 설정하여 타사 REST API를 여정에 연결합니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_configuration"

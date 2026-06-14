@@ -27,21 +27,27 @@ topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
-source-wordcount: 326
+source-wordcount: 352
 ht-degree: 3%
 
 ---
 
 # Marketo Engage와 통합 {#integrating-with-marketo-engage}
 
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 여정의 사용자 및 사용자 지정 개체 데이터를 Marketo Engage에 동기화할 수 있도록 Marketo Engage 사용자 지정 작업을 구성하고 사용하십시오.
+
+>[!ENDSHADEBOX]
+
 Marketo Engage과의 원활한 데이터 통합 여정을 시작하십시오. Adobe Journey Optimizer과 Marketo Engage을 통합하는 여정에서 특정 사용자 지정 작업을 사용할 수 있습니다. 이 사용자 지정 작업은 두 가지 주요 데이터 유형의 수집을 지원합니다.
 
 * **사용자**(프로필): Marketo은 프로필을 실행 가능한 인사이트로 변환합니다.
 * **사용자 지정 개체**: 개인화된 마케팅 접근 방식을 위해 제품과 같은 사용자 지정 개체로 데이터를 사용자 지정합니다.
 
-## 전제 조건 {#prerequisites}
+## 사전 요구 사항 {#prerequisites}
 
 이 통합에는 다음 사전 요구 사항이 적용됩니다.
 

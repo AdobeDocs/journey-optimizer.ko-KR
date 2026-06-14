@@ -22,14 +22,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: b91d7609df9d05a2ef04dbdbe2a78d9a084f95ac
+source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
 workflow-type: tm+mt
-source-wordcount: 458
-ht-degree: 79%
+source-wordcount: 487
+ht-degree: 74%
 
 ---
 
 # 다이렉트 메일 시작 {#create-direct}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 서드파티 공급자가 실제 메일을 고객에게 보내는 데 사용하는 추출 파일을 생성할 수 있도록 DM 채널의 작동 방식을 이해합니다.
+
+>[!ENDSHADEBOX]
 
 다이렉트 메일은 서드파티 다이렉트 메일 공급자가 고객에게 메일을 보내는 데 필요한 추출 파일을 개인화하고 생성할 수 있는 오프라인 채널입니다.
 

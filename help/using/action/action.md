@@ -26,14 +26,20 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
-source-wordcount: 365
-ht-degree: 40%
+source-wordcount: 397
+ht-degree: 37%
 
 ---
 
 # 사용자 정의 액션 시작 {#about_actions}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 동작 및 사용자 지정 동작을 통해 개인화된 환경을 제공하고 REST API 호출을 통해 서드파티 시스템을 연결하여 기본 제공 메시지를 넘어 여정을 확장하는 방법을 이해합니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_list"

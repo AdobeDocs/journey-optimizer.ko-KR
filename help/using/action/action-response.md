@@ -25,14 +25,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
-source-wordcount: 843
+source-wordcount: 874
 ht-degree: 6%
 
 ---
 
 # 사용자 정의 작업에서 API 호출 응답 사용 {#custom-action-enhancements}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 사용자 지정 작업의 API 호출에서 반환된 응답 페이로드를 캡처하여 여정을 조정하고, 메시지를 개인화하고, 외부 시스템의 데이터를 기반으로 오류를 처리할 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 사용자 지정 작업에서 API 호출 응답을 활용하고, 이러한 응답을 기반으로 여정을 오케스트레이션할 수 있습니다.
 

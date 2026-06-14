@@ -23,14 +23,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 675606750af67b398f18646dddf901778625fb30
+source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
 workflow-type: tm+mt
-source-wordcount: 1232
-ht-degree: 15%
+source-wordcount: 1266
+ht-degree: 14%
 
 ---
 
 # 다이렉트 메일 메시지 만들기 {#create-direct}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 캠페인 또는 여정에 DM 메시지를 추가하고 DM 공급자가 고객에게 메일을 보내는 데 필요한 개인화된 데이터를 갖도록 추출 파일을 구성하십시오.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail"

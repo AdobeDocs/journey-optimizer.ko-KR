@@ -22,14 +22,20 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
 workflow-type: tm+mt
-source-wordcount: 1964
+source-wordcount: 1994
 ht-degree: 20%
 
 ---
 
 # DM 구성 {#direct-mail-configuration}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** DM 공급자가 검색할 수 있도록 추출 파일을 올바른 서버로 내보낼 수 있도록 파일 라우팅 및 DM 채널 구성을 설정합니다.
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer]을(를) 사용하면 다이렉트 메일 공급자가 고객에게 메일을 보내는 데 필요한 파일을 개인화하고 생성할 수 있습니다.
 

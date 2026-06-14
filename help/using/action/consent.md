@@ -28,14 +28,20 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
-source-wordcount: 1367
-ht-degree: 100%
+source-wordcount: 1395
+ht-degree: 97%
 
 ---
 
 # 동의 정책 사용 {#consent-management}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 커뮤니케이션이 각 고객의 동의 선택을 존중하고 데이터 사용 규칙을 준수하도록 Journey Optimizer에서 Adobe Experience Platform 동의 정책을 적용합니다.
+
+>[!ENDSHADEBOX]
 
 사용자의 데이터에는 조직 규정이나 법적 규정에 따른 사용 제한이 적용될 수 있습니다. 따라서 Journey Optimizer 내 데이터 작업 시에는 [데이터 사용 정책](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ko){target="_blank"}을 준수해야 합니다. 정책은 데이터에 대해 수행할 수 있는 마케팅 액션을 정의하는 Adobe Experience Platform의 규칙입니다.
 

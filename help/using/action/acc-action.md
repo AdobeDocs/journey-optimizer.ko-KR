@@ -28,14 +28,20 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
-source-wordcount: 716
+source-wordcount: 742
 ht-degree: 9%
 
 ---
 
 # Adobe Campaign v7/v8과 통합 {#integrating-with-adobe-campaign-v7-v8}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 여정이 Campaign 트랜잭션 메시지를 통해 이메일, 푸시 알림 및 SMS를 전송할 수 있도록 Journey Optimizer을 Adobe Campaign v7 또는 v8에 연결합니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_acc"
@@ -78,7 +84,7 @@ Adobe Campaign Classic v7 또는 Campaign v8이 있는 경우 여정에서 Adobe
 
 * 대상자 자격 이벤트에는 Campaign 작업을 사용할 수 없습니다.
 
-## 전제 조건 {#prerequisites}
+## 사전 요구 사항 {#prerequisites}
 
 Adobe Campaign에서는 트랜잭션 메시지와 관련 이벤트를 만들고 게시해야 합니다. [Adobe Campaign 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}를 참조하세요.
 

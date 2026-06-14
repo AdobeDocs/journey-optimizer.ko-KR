@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
 workflow-type: tm+mt
-source-wordcount: 578
-ht-degree: 16%
+source-wordcount: 605
+ht-degree: 15%
 
 ---
 
 # 다이렉트 메일 메시지 확인 및 보내기 {#direct-mail-test-send}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 추출 파일을 미리 보고, 캠페인이나 여정의 유효성을 검사하고 활성화하며, DM이 올바른 받는 사람에게 정확하게 도달하도록 우편 동의를 관리합니다.
+
+>[!ENDSHADEBOX]
 
 Journey Optimizer에서 추출 파일을 미리 보고, DM 캠페인 또는 여정의 유효성을 검사 및 활성화하고, 우편 동의를 관리하는 방법을 알아봅니다.
 
