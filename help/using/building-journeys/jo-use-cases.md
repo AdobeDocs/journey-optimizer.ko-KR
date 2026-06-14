@@ -10,34 +10,26 @@ keywords: 사용 사례, 다중 채널, 여정, 이벤트
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/2CSLnzEioabgXOTNK8fm-uq6gjq63tVdry3UWMai4oU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1134
-ht-degree: 16%
+source-wordcount: 1054
+ht-degree: 17%
 
 ---
 
 # 사용 사례를 통해 알아보기 {#jo-uc-gs}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 실제 Adobe Journey Optimizer 사용 사례 및 전체 시나리오의 라이브러리를 탐색하여 여정을 디자인하고, 데이터를 모델링하고, 활성화 논리를 빌드합니다.
+
+>[!ENDSHADEBOX]
 
 이 섹션에서는 [!DNL Adobe Journey Optimizer]을(를) 최대한 활용하는 데 도움이 되는 실용적인 사용 사례 컬렉션을 소개합니다. 억제 논리, 개인화 기법 또는 여정 종료 전략과 같은 전술적 패턴을 찾거나 마케팅 및 기술 워크플로우를 다루는 전체적인 시나리오를 찾고 있는 경우 아래에 관련 샘플에 대한 링크를 찾을 수 있습니다.
 
@@ -74,7 +66,7 @@ ht-degree: 16%
     <div>
     <a href="../data/datasets-query-examples.md">
     <img alt="쿼리 샘플" src="../assets/do-not-localize/icon-configure.svg"/></a> 
-    <br>사용 사례를 만들려면 추적 경험 이벤트를 수집하기 위한 시스템 데이터 세트, 여정의 단계 이벤트를 수집하기 위한 데이터 세트, 사용자에게 오퍼 제안을 수집하기 위한 데이터 세트 등과 같은 [!DNL Adobe Journey Optimizer] 데이터 세트를 쿼리해야 합니다.
+    <br>사용 사례를 만들려면 추적 경험 이벤트를 수집하기 위한 시스템 데이터 세트, 여정에서 단계 이벤트를 수집하기 위한 데이터 세트, 사용자에게 오퍼 제안을 수집하기 위한 데이터 세트 등과 같은 [!DNL Adobe Journey Optimizer] 데이터 세트를 쿼리해야 합니다.
     </div>
       <div>
      <a href="../data/datasets-query-examples.md">자세히 알아보기</a></div>
@@ -214,41 +206,41 @@ ht-degree: 16%
 <td>
 <img alt="블로그 게시물" src="../assets/do-not-localize/community.jpeg">
 <div>
-<p><a href="weekday-email-uc.md">사용 사례: [!DNL Adobe Journey Optimizer]</a>에서 평일에만 전자 메일을 보내는 방법 - <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400?profile.language=ko" target="_blank">커뮤니티 블로그 게시물</a>로도 사용 가능</p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-approval-strategies-in-adobe-journey-optimizer/ba-p/761396?profile.language=ko" target="_blank">사용 사례: 고급 승인 전략</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=ko" target="_blank">사용 사례: 일별 빈도 제한</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445?profile.language=ko" target="_blank">모범 사례: 대상 여정 읽기</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/from-plan-to-perfection-how-to-test-your-ajo-journeys-for-10/ba-p/761270?profile.language=ko" target="_blank">사용 사례: 여정 테스트</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/deliver-with-confidence-approval-workflows-across-adobe-journey/ba-p/760900?profile.language=ko" target="_blank">사용 사례: 승인 워크플로</a></p>
+<p><a href="weekday-email-uc.md">사용 사례: [!DNL Adobe Journey Optimizer]</a>에서 평일에만 전자 메일을 보내는 방법 - <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400" target="_blank">커뮤니티 블로그 게시물</a>로도 사용 가능</p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-approval-strategies-in-adobe-journey-optimizer/ba-p/761396" target="_blank">사용 사례: 고급 승인 전략</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510" target="_blank">사용 사례: 일별 빈도 제한</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445" target="_blank">모범 사례: 대상 여정 읽기</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/from-plan-to-perfection-how-to-test-your-ajo-journeys-for-10/ba-p/761270" target="_blank">사용 사례: 여정 테스트</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/deliver-with-confidence-approval-workflows-across-adobe-journey/ba-p/760900" target="_blank">사용 사례: 승인 워크플로</a></p>
 </div>
 <p>
 </td>
 <td>
 <img alt="여정의 단계 이벤트" src="../assets/do-not-localize/list.jpeg">
 <div>
-[!DNL Adobe Journey Optimizer]에서 <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-step-events-in-adobe-journey-optimizer-fundamentals/ba-p/762024?profile.language=ko" target="_blank">단계 이벤트 마스터하기: 데이터 기반 캠페인을 위한 기본, 스키마 및 필수 쿼리
+[!DNL Adobe Journey Optimizer]에서 <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-step-events-in-adobe-journey-optimizer-fundamentals/ba-p/762024" target="_blank">단계 이벤트 마스터하기: 데이터 기반 캠페인을 위한 기본, 스키마 및 필수 쿼리
 </a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/fast-external-audience-activation-with-custom-upload/ba-p/761658?profile.language=ko" target="_blank">사용 사례: 사용자 정의 업로드를 통한 빠른 외부 Audience Activation</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/personalization-beyond-the-ajo-profile-bringing-non-profile/ba-p/769225?profile.language=ko" target="_blank">사용 사례: 프로필 이후의 Personalization
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/fast-external-audience-activation-with-custom-upload/ba-p/761658" target="_blank">사용 사례: 사용자 정의 업로드를 통한 빠른 외부 Audience Activation</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/personalization-beyond-the-ajo-profile-bringing-non-profile/ba-p/769225" target="_blank">사용 사례: 프로필 이후의 Personalization
 </a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/take-flight-with-personalization-how-airlines-can-elevate-offers/ba-p/767513?profile.language=ko" target="_blank">Personalization 항공편 이용: 항공사가 오퍼를 향상시키는 방법 [!DNL Adobe Journey Optimizer]
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/take-flight-with-personalization-how-airlines-can-elevate-offers/ba-p/767513" target="_blank">Personalization 항공편 이용: 항공사가 오퍼를 향상시키는 방법 [!DNL Adobe Journey Optimizer]
 </a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-real-time-personalization-a-marketer-s-guide-to-aem/ba-p/762606?profile.language=ko" target="_blank">실시간 Personalization 마스터링: AEM 콘텐츠 조각 및 [!DNL Adobe Journey Optimizer]
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-real-time-personalization-a-marketer-s-guide-to-aem/ba-p/762606" target="_blank">실시간 Personalization 마스터링: AEM 콘텐츠 조각 및 [!DNL Adobe Journey Optimizer]
 </a></p>
 </div>
 <p></td>
 <td>
 <img alt="사용자 정의 액션" src="../assets/do-not-localize/step-event.jpeg">
-<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-extend-adobe-journey-optimizer-with-custom-actions/ba-p/761323?profile.language=ko" target="_blank">사용자 지정 작업으로 [!DNL Adobe Journey Optimizer]을(를) 확장하는 방법: 통합 사용 사례
+<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-extend-adobe-journey-optimizer-with-custom-actions/ba-p/761323" target="_blank">사용자 지정 작업으로 [!DNL Adobe Journey Optimizer]을(를) 확장하는 방법: 통합 사용 사례
 </a></p>
 </div>
-<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/breaking-down-barriers-how-adobe-journey-optimizer-s-custom/ba-p/759223?profile.language=ko" target="_blank">[!DNL Adobe Journey Optimizer]의 사용자 정의 위임 기능은 기업 규정 준수 문제를 해결하고 있습니다.
+<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/breaking-down-barriers-how-adobe-journey-optimizer-s-custom/ba-p/759223" target="_blank">[!DNL Adobe Journey Optimizer]의 사용자 정의 위임 기능은 기업 규정 준수 문제를 해결하고 있습니다.
 </a></p>
 </div>
-<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/line-in-ajo-from-first-campaign-to-advanced-expression-fragment/ba-p/771048?profile.language=ko" target="_blank">Journey Optimizer의 LINE: 첫 번째 캠페인에서 고급 표현식 조각 및 사용자 지정 작업 사용 사례까지
+<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/line-in-ajo-from-first-campaign-to-advanced-expression-fragment/ba-p/771048" target="_blank">Journey Optimizer의 LINE: 첫 번째 캠페인에서 고급 표현식 조각 및 사용자 지정 작업 사용 사례까지
 </a></p>
 </div>
-<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-universal-link-integration-guide-for-ios/ba-p/768669?profile.language=ko" target="_blank">iOS용 Journey Optimizer 범용 링크 통합 안내서
+<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-universal-link-integration-guide-for-ios/ba-p/768669" target="_blank">iOS용 Journey Optimizer 범용 링크 통합 안내서
 </a></p>
 </div>
 </td>

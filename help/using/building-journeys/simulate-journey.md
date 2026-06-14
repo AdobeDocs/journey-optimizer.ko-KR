@@ -11,14 +11,20 @@ keywords: 테스트, 여정, 확인, 오류, 문제 해결
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: c2c8b1a64e79482fcc9340950209579cf74c50b3
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1891
+source-wordcount: 1916
 ht-degree: 0%
 
 ---
 
 # 여정 시뮬레이션 {#simulate-journey}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 게시 전에 시뮬레이션 사용자와 빠른 시뮬레이션 및 수동 시뮬레이션을 실행하여 여정 경로를 확인하고 결과를 검토하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >

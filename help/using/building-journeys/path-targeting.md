@@ -11,14 +11,20 @@ keywords: 타깃팅, 규칙, 여정, 경로, 최적화, 개인화
 exl-id: b30ce5c9-a0e2-4601-97a3-5bec648368e4
 feature_v2: []
 subfeature_v2: []
-source-git-commit: eb72b6c86793153cbbdb330427cc1f663705072e
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 795
+source-wordcount: 823
 ht-degree: 3%
 
 ---
 
 # 경로 타기팅 활용 {#targeting}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 최적화 활동에서 타깃팅 규칙을 사용하여 선택적 대체 경로를 사용하여 특정 대상을 올바른 여정 경로 아래로 결정적으로 라우팅하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_path_targeting_fallback"

@@ -11,14 +11,20 @@ keywords: 실험, 실험, 여정, 경로, 최적화, A/B 테스트, multi-armed 
 exl-id: 7241ade3-577c-4bb3-b0c3-017133871ca5
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1147
+source-wordcount: 1186
 ht-degree: 6%
 
 ---
 
 # 경로 실험 사용 {#experimentation}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** A/B 또는 multi-armed bandit 실험을 사용하여 서로 다른 여정 경로를 테스트하고, 성공 지표로 최상의 처리를 식별하고, 승자의 크기를 조정하는 Optimize 활동을 사용하여 경로 실험을 설정하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_path_experiment_success_metric"
@@ -69,7 +75,7 @@ ht-degree: 6%
    <!--
     DOES THIS APPLY TO PATH EXPERIMENT?
     IMPORTANT: When a holdout group is used in an action for path experimentation, the holdout assignment only applies to that specific action. After the action is completed, profiles in the holdout group will continue down the journey path and can receive messages from other actions. Therefore, ensure that any subsequent messages do not rely on the receipt of a message by a profile that might be in a holdout group. If they do, you may need to remove the holdout assignment.
-   -->
+-->
 
 1. 각 **[!UICONTROL 처리]**&#x200B;에 정확한 백분율을 할당하거나 **[!UICONTROL 균등 분포]** 토글 막대를 켜기만 하면 됩니다.
 

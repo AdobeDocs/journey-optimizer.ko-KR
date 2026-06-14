@@ -11,15 +11,21 @@ keywords: 조각, 여정, 재사용, 노드, 캔버스, 인벤토리, 재사용 
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: d9a93a5ae5dfbb21b4dfd102b356c15982e6d5a1
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1644
+source-wordcount: 1671
 ht-degree: 6%
 
 ---
 
 
 # 여정 조각 {#journey-fragments}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 여정 조각(재사용 가능한 여정 노드 집합)을 만들고, 관리하고, 재사용하여 여정을 더 빨리 빌드하고, 샌드박스 전체에서 일관성을 유지하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 여정 조각 은 한 번 빌드하고 샌드박스 전체의 여정에 드롭할 수 있는 재사용 가능한 여정 노드 세트입니다. 자격 확인, 기본 채널 라우팅 논리 또는 환영 시퀀스 중 어느 것이든 조각은 팀이 더 빨리 이동하고 일관성을 유지하는 데 도움이 됩니다. 매번 처음부터 동일한 논리를 다시 작성하지 않아도 됩니다. [사용 사례 예제를 참조하십시오.](#examples)
 

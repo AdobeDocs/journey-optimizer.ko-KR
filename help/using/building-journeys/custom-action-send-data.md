@@ -11,14 +11,20 @@ keywords: 여정, 사용 사례
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 289
-ht-degree: 8%
+source-wordcount: 324
+ht-degree: 7%
 
 ---
 
 # 사용 사례: 사용자 지정 작업을 만들어 [!DNL Adobe Experience Platform]&#x200B;(으)로 데이터 보내기{#send-data-to-aep}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** IP를 정리하고 보낸 사람의 평판을 보호하기 위해 프로필 상한 조건이 있는 최적화 활동을 사용하여 전자 메일 볼륨을 점차적으로 늘리는 여정을 만드는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 최근 다른 이메일 서비스 공급자, IP 주소, 이메일 도메인 또는 하위 도메인으로 이동한 경우 발신자로서의 신뢰도를 높이십시오. 그렇지 않으면 게재가 차단되거나 수신자의 스팸 폴더로 이동될 수 있습니다. 지침은 [게재 가능성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=ko){target="_blank"}를 참조하세요.
 
