@@ -24,14 +24,20 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
-source-wordcount: 1137
+source-wordcount: 1164
 ht-degree: 8%
 
 ---
 
 # 웹 푸시 알림 채널 구성 {#push-notification-configuration}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 권한, 데이터 세트, 푸시 자격 증명, 채널 구성 및 설정 테스트를 포함하여 Adobe Journey Optimizer에서 웹 푸시 알림 채널을 구성하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer]에서는 여정을 만들고 타겟팅한 대상자에게 메시지를 보낼 수 있습니다. [!DNL Journey Optimizer]을(를) 사용하여 웹 푸시 알림을 전송하기 전에 Adobe Experience Platform에 구성 및 통합이 제대로 되어 있는지 확인해야 합니다. [!DNL Adobe Journey Optimizer]의 푸시 알림 데이터 흐름을 파악하려면 [이 페이지](push-gs.md)를 참조하십시오.
 

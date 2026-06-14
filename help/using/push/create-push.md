@@ -22,14 +22,20 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 675606750af67b398f18646dddf901778625fb30
+source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
-source-wordcount: 1066
+source-wordcount: 1094
 ht-degree: 16%
 
 ---
 
 # 푸시 알림 만들기 {#create-push-notification}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 여정 또는 모바일 및 웹용 캠페인 내에서 푸시 알림을 만드는 방법을 알아봅니다. 대량 전송을 위한 빠른 전송 모드를 포함합니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_push"

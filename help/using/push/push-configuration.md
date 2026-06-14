@@ -27,14 +27,20 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
-source-wordcount: 2189
+source-wordcount: 2210
 ht-degree: 9%
 
 ---
 
 # 모바일 앱 푸시 알림 채널 구성 {#push-notification-configuration}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 권한, 푸시 자격 증명, 채널 구성 및 Adobe Experience Platform Mobile SDK과 앱 통합을 포함하여 Adobe Journey Optimizer에서 모바일 앱 푸시 알림 채널을 구성하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer]에서는 여정을 만들고 타겟팅한 대상자에게 메시지를 보낼 수 있습니다. [!DNL Journey Optimizer]을(를) 사용하여 푸시 알림을 전송하기 전에 모바일 앱과 Adobe Experience Platform의 태그에 대한 구성 및 통합을 수행해야 합니다. [!DNL Adobe Journey Optimizer]의 푸시 알림 데이터 흐름을 파악하려면 [이 페이지](push-gs.md)를 참조하십시오.
 

@@ -24,14 +24,20 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
 subfeature_v2:
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
-source-wordcount: 369
-ht-degree: 10%
+source-wordcount: 401
+ht-degree: 9%
 
 ---
 
 # 모바일 온보딩 빠른 시작 워크플로 {#mobile-wf}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 모바일 온보딩 빠른 시작 워크플로우를 사용하여 Adobe Experience Platform Mobile SDK을 빠르게 구성하고, 모바일 이벤트 데이터를 수집 및 유효성을 검사하고, 푸시 알림을 보내는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 새로운 **모바일 온보딩 빠른 시작 워크플로**&#x200B;는 Adobe Experience Platform Mobile SDK을 빠르게 구성하고, 모바일 이벤트 데이터의 수집 및 유효성 검사를 시작하고, [!DNL Journey Optimizer]을(를) 사용하여 푸시 알림을 전송하는 새로운 제품 기능입니다.
 

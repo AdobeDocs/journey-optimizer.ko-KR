@@ -24,14 +24,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
-source-wordcount: 829
+source-wordcount: 856
 ht-degree: 4%
 
 ---
 
 # 푸시 알림 데이터 흐름 및 구성 요소 {#get-started-push}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 푸시 알림 데이터 흐름, 관련된 주요 서비스 및 구성 요소, Adobe Journey Optimizer을 통해 알림이 전체적으로 제공되는 방식을 이해합니다.
+
+>[!ENDSHADEBOX]
 
 이 페이지는 [!DNL Journey Optimizer]의 푸시 알림과 관련된 주요 서비스 및 워크플로를 설정하고 이해하는 데 도움이 됩니다.
 

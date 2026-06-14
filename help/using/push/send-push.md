@@ -23,14 +23,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
-source-wordcount: 394
+source-wordcount: 411
 ht-degree: 6%
 
 ---
 
 # 푸시 알림 확인 및 보내기 {#send-push}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer에서 푸시 알림을 미리 보고, 확인하고, 보내는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 ## 푸시 알림 미리 보기 {#preview-push}
 
