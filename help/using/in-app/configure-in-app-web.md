@@ -11,9 +11,9 @@ feature_v2:
 subfeature_v2:
   - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
 workflow-type: tm+mt
-source-wordcount: 724
+source-wordcount: 756
 ht-degree: 3%
 
 ---
@@ -21,7 +21,13 @@ ht-degree: 3%
 
 # 웹 인앱 채널 구성 {#configure-in-app-web}
 
-## 전제 조건 {#prerequisites}
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 웹 SDK, 트리거 규칙 및 인앱 웹 구성을 설정하여 Adobe Experience Platform 데이터 수집에서 웹 인앱 채널을 구성하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
+
+## 사전 요구 사항 {#prerequisites}
 
 * **Adobe Experience Platform Web SDK** 확장 프로그램에 최신 버전을 사용하고 있는지 확인하십시오.
 

@@ -22,14 +22,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 675606750af67b398f18646dddf901778625fb30
+source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
 workflow-type: tm+mt
-source-wordcount: 2405
+source-wordcount: 2435
 ht-degree: 11%
 
 ---
 
 # 인앱 메시지 만들기 {#create-in-app}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 트리거 및 표시 빈도 구성을 포함하여 Adobe Journey Optimizer에서 인앱 메시지를 만들고 이를 여정 또는 캠페인에 추가하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_triggers"

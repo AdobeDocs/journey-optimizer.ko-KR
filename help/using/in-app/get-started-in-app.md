@@ -23,14 +23,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
 workflow-type: tm+mt
-source-wordcount: 234
-ht-degree: 100%
+source-wordcount: 261
+ht-degree: 89%
 
 ---
 
 # 인앱 채널 시작하기 {#gs-in-app}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer에서 인앱 메시지 채널을 시작하여 앱 사용자에게 기능, 오퍼 및 온보딩을 홍보하는 알림을 제공하세요.
+
+>[!ENDSHADEBOX]
 
 인앱 메시지는 앱 안에 있는 사용자에게 보내어 특정 관심 영역으로 안내할 수 있는 알림입니다. 이 알림은 새로운 기능을 홍보하거나, 특별 오퍼를 제공하거나, 사용자의 앱 적응을 돕는 등 다양한 용도로 사용할 수 있습니다. 인앱 메시지를 활용하면 대상자와 효과적으로 소통하고 애플리케이션의 중요한 부분을 안내할 수 있습니다.
 

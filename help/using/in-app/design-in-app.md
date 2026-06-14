@@ -23,14 +23,20 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
 workflow-type: tm+mt
-source-wordcount: 1273
+source-wordcount: 1284
 ht-degree: 26%
 
 ---
 
 # 인앱 콘텐츠 디자인 {#design-content}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 메시지 레이아웃, 미디어, 텍스트, 단추 및 고급 서식 옵션을 포함하여 Adobe Journey Optimizer에서 인앱 메시지 콘텐츠를 디자인하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_content"
