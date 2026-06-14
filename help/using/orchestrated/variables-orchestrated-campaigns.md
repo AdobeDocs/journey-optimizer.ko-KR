@@ -10,17 +10,22 @@ level: Intermediate
 version: Campaign Orchestration
 exl-id: 3f2a1c0d-8e9b-4a7c-b5d1-0f2e3a4b5c6d
 feature_v2: 
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 296
+source-wordcount: 325
 ht-degree: 1%
 
 ---
 
 
 # 오케스트레이션된 캠페인에서 변수 사용 {#variables-oc}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 신호 또는 전역 정의에서 변수를 설정하고 이를 사용하여 오케스트레이션된 캠페인에서 타깃팅, 조건 및 테스트 활동 논리를 추진하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 ## 변수를 설정하는 방법 {#set}
 

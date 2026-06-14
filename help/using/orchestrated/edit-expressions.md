@@ -6,21 +6,24 @@ description: 표현식을 편집하는 방법을 알아봅니다.
 exl-id: bf0a905f-00af-4ed7-9e4f-bf8cb0af9ea9
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/LELPFd6kbbQdGOEFmWKqXcCEL2CFdPWMuonlDVotYRg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: 
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 2071
-ht-degree: 97%
+source-wordcount: 2103
+ht-degree: 95%
 
 ---
 
 # 표현식 편집 {#edit-expressions}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 오케스트레이션된 캠페인에서 날짜, 문자열 및 숫자 값을 조작하기 위해 표현식 편집기를 사용하여 데이터베이스 필드, 변수 및 도우미 함수를 사용하여 규칙을 수동으로 작성하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!NOTE]
 >

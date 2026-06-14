@@ -6,19 +6,23 @@ description: 오케스트레이션된 캠페인에서 사전 정의된 필터를
 version: Campaign Orchestration
 exl-id: fc508eb7-5b7a-4736-967b-523639eeb096
 TQID: https://experienceleague.adobe.com/6awSMB2-cIw-gbUxluLDuCdOLkLKho7QGSR7QHtOshA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: 
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 507
-ht-degree: 20%
+source-wordcount: 531
+ht-degree: 19%
 
 ---
 
 # 미리 정의된 필터 작업 {#predefined-filters}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 규칙 빌더에서 저장된 쿼리를 오케스트레이션된 캠페인에 다시 사용할 수 있도록 미리 정의된 필터를 만들고, 적용하고, 공유하고, 관리하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 사전 정의된 필터는 규칙 빌더에서 재사용할 수 있는 저장된 규칙입니다. 이를 사용하여 일반적인 쿼리를 다시 작성하지 않도록 하고 오케스트레이션된 캠페인 간에 타깃팅 논리를 표준화합니다.
 

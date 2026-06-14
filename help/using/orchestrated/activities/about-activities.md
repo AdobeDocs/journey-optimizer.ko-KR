@@ -6,22 +6,24 @@ description: 캠페인 활동을 오케스트레이션하는 방법 알아보기
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/OUKBJeSTaPJKav-NNCCxKZ8esY-62JkdRMmcwoJpZJ0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: 77cddc86596959e06b20154c1e51c6b84375b39b
 workflow-type: tm+mt
-source-wordcount: 530
-ht-degree: 56%
+source-wordcount: 551
+ht-degree: 54%
 
 ---
 
 # 오케스트레이션된 캠페인 활동 기본 정보 {#orchestrated-campaign-activities}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 캔버스에서 사용할 수 있는 타깃팅, 채널 및 흐름 제어 활동을 살펴보고 크로스 채널 오케스트레이션된 캠페인을 빌드합니다.
+
+>[!ENDSHADEBOX]
 
 오케스트레이션된 캠페인 활동은 세 가지 카테고리로 그룹화됩니다. 컨텍스트에 따라 사용 가능한 활동이 다를 수 있습니다.
 

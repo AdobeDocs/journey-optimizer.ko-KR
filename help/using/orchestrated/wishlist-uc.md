@@ -7,24 +7,24 @@ feature: Use Cases
 version: Campaign Orchestration
 exl-id: fffc9d0c-f105-4944-89c2-e5fd4273ec3d
 TQID: https://experienceleague.adobe.com/bAJ-sxf-UvO2yJwmDgiJQHP6WPm78QD3wD2Zc1FPf6c
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 434
-ht-degree: 4%
+source-wordcount: 462
+ht-degree: 3%
 
 ---
 
 # 위시리스트 항목 업데이트 보내기 {#wishist-uc}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 이 사용 사례에 따라 수신자가 위시리스트에 저장한 제품에 대한 개인화된 전자 메일 미리 알림을 사용하여 다시 시작하는 오케스트레이션된 캠페인을 만드십시오.
+
+>[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 

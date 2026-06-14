@@ -7,23 +7,24 @@ feature: Use Cases
 version: Campaign Orchestration
 exl-id: a3b5ff92-fe26-41ad-ad12-b346025e9e0f
 TQID: https://experienceleague.adobe.com/OOuzKAv-SCDhIxYSdrrQhtBI8jM4VevcpNj2z0pLUuQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 391
-ht-degree: 7%
+source-wordcount: 427
+ht-degree: 6%
 
 ---
 
 # 사용자에게 제품 출시 알림 {#product-availability-uc}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 제품을 다시 사용할 수 있게 되면 저장된 각 위시리스트 항목에 대해 개별적으로 개인화된 전자 메일을 전달하기 위해 다중 수준 전송을 사용하는 통합 캠페인을 빌드하려면 이 사용 사례를 따르십시오.
+
+>[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
