@@ -21,14 +21,20 @@ subfeature_v2:
   - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
   - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 228
-ht-degree: 20%
+source-wordcount: 256
+ht-degree: 17%
 
 ---
 
 # ID 시작 {#identities-gs}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** ID 네임스페이스와 값을 결합하여 각 고객을 식별하는 방법을 포함하여 Adobe Journey Optimizer에서 고객 ID를 찾아보고 ID 그래프를 탐색하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 ID는 엔티티에 고유한 데이터이며, 일반적으로 개인, 하드웨어 장치 또는 웹 브라우저와 같은 실제 객체인 것입니다. 정규화된 ID는 다음 두 가지 요소로 구성됩니다.
 

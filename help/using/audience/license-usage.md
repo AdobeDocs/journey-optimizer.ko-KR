@@ -27,14 +27,20 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 868
+source-wordcount: 894
 ht-degree: 3%
 
 ---
 
 # 라이선스 사용 대시보드 {#license-usage}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer 라이선스 사용 대시보드를 사용하여 참여 가능한 프로필을 모니터링하고 예기치 않은 프로필 수 증가 문제를 해결하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer] [사용자 인터페이스](../start/user-interface.md)는 일일 스냅숏 중에 캡처한 대로 조직의 라이선스 사용에 대한 중요한 정보를 표시하는 대시보드를 제공합니다.
 

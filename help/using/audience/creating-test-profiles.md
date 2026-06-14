@@ -23,14 +23,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 1264
+source-wordcount: 1294
 ht-degree: 3%
 
 ---
 
 # 테스트 프로필 만들기 {#create-test-profiles}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer에서 콘텐츠와 테스트 여정을 미리 볼 수 있도록 CSV 파일을 업로드하거나 API 호출을 사용하여 테스트 프로필을 만드는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 여정에서 [테스트 모드](../building-journeys/testing-the-journey.md)를 사용할 때, [콘텐츠를 미리 보고 테스트하려면](../content-management/preview-test.md) 테스트 프로필이 필요합니다.
 

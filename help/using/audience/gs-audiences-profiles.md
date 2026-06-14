@@ -14,15 +14,21 @@ subfeature_v2:
   - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
   - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 161
-ht-degree: 8%
+source-wordcount: 187
+ht-degree: 7%
 
 ---
 
 
 # 프로필 및 대상자 시작 {#gs-profiles-audiences}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer에서 실시간 고객 프로필 및 대상자를 사용하여 개인화된 고객 경험을 제공하는 방법에 대한 개요를 살펴보십시오.
+
+>[!ENDSHADEBOX]
 
 Adobe Journey Optimizer을 통해 브랜드는 실시간 고객 프로필 및 대상자를 만들고 관리하여 개인화된 고객 경험을 제공할 수 있습니다. 이 개요&#x200B;은 Journey Optimizer에서 프로필 및 대상자를 사용하여 작업하는 방법에 대한 일반적인 이해를 제공합니다. 자세한 내용은 프로필 및 대상에 대한 특정 섹션을 참조하십시오.
 

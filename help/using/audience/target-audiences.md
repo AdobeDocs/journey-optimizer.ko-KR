@@ -24,14 +24,20 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 811
-ht-degree: 11%
+source-wordcount: 841
+ht-degree: 10%
 
 ---
 
 # [!DNL Journey Optimizer]의 대상자 활성화 {#segments-in-journey-optimizer}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 활성화 지연 및 다양한 대상 유형에 적용되는 보호 기능 등 Adobe Journey Optimizer 캠페인과 여정에서 Adobe Experience Platform 대상을 타깃팅하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 캠페인 및 여정에서 세그먼트 정의, 사용자 지정 업로드, 작성 워크플로우 또는 페더레이션 대상 작성을 사용하여 생성된 대상을 선택할 수 있습니다.
 

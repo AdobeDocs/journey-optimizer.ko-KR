@@ -21,14 +21,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 149
-ht-degree: 10%
+source-wordcount: 177
+ht-degree: 9%
 
 ---
 
 # 사용자 정의 업로드 {#custom-upload}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Experience Platform 대상 포털을 사용하여 CSV 파일에서 대상을 가져오고 해당 ID 특성을 고객 프로필에 매핑하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 Adobe Experience Platform 대상 포털을 사용하면 CSV 파일을 사용하여 대상을 가져올 수 있습니다.
 

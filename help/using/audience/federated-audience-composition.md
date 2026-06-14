@@ -14,14 +14,20 @@ subfeature_v2:
   - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
   - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
   - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 237
-ht-degree: 10%
+source-wordcount: 267
+ht-degree: 9%
 
 ---
 
 # 페더레이션된 대상자 컴포지션 {#fac}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer에서 Federated Audience Composition을 사용하여 Enterprise Data Warehouse를 쿼리하고 중요한 데이터를 복제하지 않고 Adobe Experience Platform 대상을 보강하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 대상 구성 기능을 사용하여 타깃팅할 가치가 있고 고도로 정제된 대상을 만들 수 있지만, 엔터프라이즈 데이터 웨어하우스 및 신뢰할 수 있는 파트너의 데이터를 사용하여 대상을 보다 심층적으로 개인화할 수 있습니다.
 

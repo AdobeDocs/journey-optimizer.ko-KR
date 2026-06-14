@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 1066
-ht-degree: 50%
+source-wordcount: 1092
+ht-degree: 49%
 
 ---
 
 # 대상자 컴포지션 시작 {#get-start-audience-composition}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 대상 구성을 사용하여 기존 Adobe Experience Platform 대상을 시각적 캔버스로 결합하고 분할, 제외, 강화 및 순위 같은 활동을 적용하여 새 대상을 만드는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_composition"

@@ -24,14 +24,20 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 565
+source-wordcount: 595
 ht-degree: 9%
 
 ---
 
 # 대상자 강화 속성 사용 {#enrichment}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 작성 워크플로, 사용자 지정 업로드 및 Federated Audience Composition의 대상 강화 특성을 사용하여 Adobe Journey Optimizer에서 여정 경로를 만들고 메시지를 개인화하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 작성 워크플로우, 사용자 지정(CSV 파일) 대상 또는 페더레이션 대상 작성을 사용하여 생성된 대상을 타깃팅할 때 이러한 대상의 보강 속성을 사용하여 여정을 작성하고 메시지를 개인화할 수 있습니다.
 

@@ -25,14 +25,20 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 1127
+source-wordcount: 1158
 ht-degree: 11%
 
 ---
 
 # 세그먼트 정의 작성 {#build-segments}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 특성 및 이벤트에서 세그먼트 정의를 만들어 대상자를 만들고 Adobe Journey Optimizer에서 타깃팅할 스트리밍, 일괄 처리 또는 에지 평가 방법을 선택하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_rule"

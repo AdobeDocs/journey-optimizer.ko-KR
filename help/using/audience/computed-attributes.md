@@ -23,14 +23,20 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 80e67d5a60b6427ff87e106e37bf6794ac76a210
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 927
+source-wordcount: 956
 ht-degree: 1%
 
 ---
 
 # 계산된 속성 관련 작업 {#computed-attributes}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 동작 이벤트를 프로필 특성으로 집계하는 계산된 특성을 만들어 Adobe Journey Optimizer의 세그멘테이션, 개인화 및 여정 논리에 사용하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 계산된 속성은 개별 행동 이벤트를 Adobe Experience Platform에서 사용할 수 있는 계산된 프로필 속성으로 요약합니다. 이러한 속성은 Adobe Experience Platform에 수집된 프로필 사용 경험 이벤트 데이터 세트를 기반으로 하며 고객 프로필 내에 저장된 집계된 데이터 포인트 역할을 합니다.
 
