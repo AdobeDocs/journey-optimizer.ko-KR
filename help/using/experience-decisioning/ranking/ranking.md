@@ -8,25 +8,25 @@ level: Intermediate
 exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/1qUj05fLaRqqJGfaoL-y5uwtknp7HDkWKocHMde-8lc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 205
-ht-degree: 16%
+source-wordcount: 237
+ht-degree: 14%
 
 ---
 
 # 순위 지정 방법 {#rankings}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 등급 방법(수식 또는 AI 모델)을 만들어 선택 전략에 할당하면 의사 결정 엔진에서 각 프로필에 대해 먼저 표시할 적격 항목을 알 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 등급 지정 방법을 사용하면 특정 프로필에 표시할 항목의 등급을 지정할 수 있습니다. 순위 지정 방법이 생성되면 이를 선택 전략에 할당하여 먼저 선택해야 하는 항목을 정의할 수 있습니다.
 

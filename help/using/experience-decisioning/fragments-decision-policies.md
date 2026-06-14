@@ -7,25 +7,25 @@ role: User
 level: Experienced
 exl-id: 70f64348-092b-4350-91dc-72c3c07300f9
 TQID: https://experienceleague.adobe.com/5Vpngi03UnC9YPlB5tdTRcd0NoT7iglH2pRDkmeZKOg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ac47bdffab45e4b7645430a4dab687a47844c140
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 1177
+source-wordcount: 1204
 ht-degree: 1%
 
 ---
 
 # 의사 결정 정책에 조각 활용 {#fragments}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 의사 결정 정책 내에서 Journey Optimizer 콘텐츠 조각 및 AEM 콘텐츠 조각을 활용하므로 여러 채널에서 콘텐츠 의사 결정 전달을 개인화하고 최적화할 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 의사 결정 항목은 의사 결정 정책 내에서 메시지를 작성할 때 활용할 수 있는 두 가지 유형의 조각 콘텐츠를 지원합니다.
 
@@ -169,7 +169,7 @@ ht-degree: 1%
 
 ![](assets/aem-fragment-select.png)
 
-1. &#x200B;+ 단추를 클릭하여 원하는 조각을 표현식에 추가합니다.
+1. + 단추를 클릭하여 원하는 조각을 표현식에 추가합니다.
 
    단일 참조 이름에는 여러 개의 조각이 서로 다른 오퍼 항목에 걸쳐 연결되어 있을 수 있으므로, Decisioning은 의사 결정 정책의 순위 기준에 따라 각 고객에게 제공할 최상의 이름을 결정합니다.
 
@@ -183,4 +183,4 @@ ht-degree: 1%
 
 Journey Optimizer Decisioning과 함께 Adobe Experience Manager 콘텐츠 조각을 사용하여 콘텐츠를 개인화하고 최적화하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3492220/?captions=kor&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3492215/?learn=on&enablevpops)

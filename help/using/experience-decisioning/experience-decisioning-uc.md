@@ -8,30 +8,26 @@ level: Intermediate, Experienced
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/aDWJPWR3IA1EOvCxgqg9vf7KGgw3w4bzsJIZdaUphu4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 896
+source-wordcount: 931
 ht-degree: 4%
 
 ---
 
 # 콘텐츠 실험을 통한 코드 기반 경험에서 의사 결정 사용 {#experience-decisioning-uc}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 코드 기반 경험 콘텐츠 실험에서 두 가지 선택 전략을 세우고 순위 방법을 비교하는 사용 사례를 따라 대상에 가장 적합한 의사 결정 접근 방식을 결정할 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 이 사용 사례에서는 [!DNL Journey Optimizer] 코드 기반 채널에서 Decisioning을 사용하는 데 필요한 모든 단계를 제공합니다.
 

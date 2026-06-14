@@ -7,19 +7,22 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 2347
+source-wordcount: 2374
 ht-degree: 17%
 
 ---
 
 # 첫 결정 항목 만들기 {#items}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 특성, 자격 조건 및 최대 가용량 규칙을 포함한 의사 결정 항목을 만들고 관리하여 올바른 프로필에 올바른 마케팅 오퍼를 제공할 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_items"
@@ -89,8 +92,8 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
 >abstract="기본적으로 모든 프로필은 결정 항목을 수신할 수 있지만 대상자 또는 규칙을 사용하여 항목을 특정 프로필로만 제한할 수 있습니다."
 
 <!--
->"additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
@@ -153,7 +156,7 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
 
    푸시 채널에서는 표준 **[!UICONTROL 클릭 수]** 및 **[!UICONTROL 노출 수]** 캡핑이 지원되지 않습니다. 푸시를 통해 제공되는 오퍼를 제한하려면 **[!UICONTROL 사용자 지정 이벤트]** 제한을 사용하고 이벤트 유형을 **푸시 추적 응용 프로그램 열림** 또는 **푸시 추적 사용자 지정 작업**&#x200B;으로 설정하십시오.
 
-   푸시 알림의 경우 모바일 채널에서 이벤트를 추적하면 ECID(Experience Cloud ID)가 포함됩니다. ID 일관성을 유지하고 캡핑이 예상대로 작동하는지 확인하려면 캠페인 또는 여정 구성에서 ECID를 사용하는 것이 좋습니다.
+   푸시 알림의 경우 모바일 채널에서의 추적 이벤트에는 Experience Cloud ID(ECID)가 포함됩니다. ID 일관성을 유지하고 캡핑이 예상대로 작동하는지 확인하려면 캠페인 또는 여정 구성에서 ECID를 사용하는 것이 좋습니다.
 
    ![](assets/push-capping.png)
 

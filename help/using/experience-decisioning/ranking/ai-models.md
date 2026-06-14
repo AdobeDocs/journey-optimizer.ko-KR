@@ -10,30 +10,26 @@ level: Intermediate
 exl-id: 07679823-2288-4528-b09a-12fd76a69482
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/sWJEr5Pm1wl83Q-2HVb-7mqy7hasQ1ffqRDmJsOFomw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 338
-ht-degree: 22%
+source-wordcount: 367
+ht-degree: 20%
 
 ---
 
 # AI 모델 시작 {#ai-models}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 자동 최적화 및 개인화된 최적화 AI 모델 유형과 이를 빌드하는 단계를 이해하여 비즈니스 목표에 따라 오퍼의 등급을 지정할 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer]을(를) 사용하면 특정 프로필에 표시할 오퍼에 등급을 지정하는 훈련된 모델 시스템을 사용할 수 있습니다.
 

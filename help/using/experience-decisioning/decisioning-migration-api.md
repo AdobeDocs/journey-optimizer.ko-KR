@@ -6,19 +6,22 @@ topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 3ec084ca-af9e-4b5e-b66f-ec390328a9d6
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 1175
+source-wordcount: 1210
 ht-degree: 4%
 
 ---
 
 # 의사 결정 마이그레이션 API {#decisioning-migration-api}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Decisioning 마이그레이션 서비스 API를 사용하여 자동화된 종속성 분석과 롤백 지원을 통해 샌드박스 간에 의사 결정 관리 개체를 이동하므로 데이터 무결성을 유지하면서 환경 간에 의사 결정 콘텐츠를 전환할 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 Decisioning 마이그레이션 서비스 API를 사용하면 의사 결정 관리 개체를 한 샌드박스에서 다른 샌드박스로 마이그레이션할 수 있습니다. 마이그레이션 프로세스는 종속성 분석, 실행 및 선택적 롤백 기능을 포함하는 비동기 워크플로우로 실행됩니다.
 
@@ -34,7 +37,7 @@ Decisioning 마이그레이션 서비스 API는 다음 기능을 제공합니다
 * **유연한 마이그레이션 범위** - 필요에 따라 샌드박스, 오퍼 또는 의사 결정 수준에서 마이그레이션을 실행합니다.
 * **롤백 지원** - 유효성 검사 중에 문제가 발견된 경우 완료된 마이그레이션을 되돌립니다.
 
-## 전제 조건 {#prerequisites}
+## 사전 요구 사항 {#prerequisites}
 
 ### 필요한 권한 {#permissions}
 

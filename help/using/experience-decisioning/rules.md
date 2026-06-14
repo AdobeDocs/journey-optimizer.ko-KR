@@ -8,27 +8,26 @@ level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/yfeFpaNi0rYVeyXdzaZ7SfoZnu-BkyivCMDzED7dpsM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 1106
+source-wordcount: 1136
 ht-degree: 13%
 
 ---
 
 # 규칙 작성 {#rules}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 캠페인 및 여정의 대상에 표시되는 의사 결정 항목 및 개인화된 콘텐츠를 제어할 수 있도록 재사용 가능한 의사 결정 규칙 및 타깃팅 규칙을 빌드합니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_rules"
@@ -169,4 +168,4 @@ ht-degree: 13%
 
 Adobe Journey Optimizer에서 재사용 가능한 **타깃팅 규칙**&#x200B;을(를) 만들고, 복제하고, 적용하여 지역, 언어 및 동작과 같은 고객 특성을 기반으로 캠페인을 효율적으로 개인화하여 시간을 절약하고 대상 정밀도를 향상시키는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476134/?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476127/?quality=12)

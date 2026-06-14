@@ -6,15 +6,21 @@ topic: Integrations
 role: User
 level: Intermediate
 keywords: 일괄 의사 결정, dm, 의사 결정
-source-git-commit: 3c50b7886c95a45f60f7ebd92dd7ea28bd128b77
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '886'
 ht-degree: 0%
 
 ---
 
 
 # DM에서의 일괄 의사 결정 {#batch-decisioning-direct-mail}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** DM 채널에서 일괄 의사 결정을 사용하여 각 수신자의 추출 파일을 최상의 의사 결정 항목으로 개인화하거나 프로필 및 의사 결정 데이터를 다운스트림 시스템으로 내보낼 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 일괄 처리 의사 결정을 통해 Decisioning은 각 프로필에 가장 적합한 의사 결정 항목을 선택하고 DM 추출 파일에 해당 결과를 포함합니다. 결정 정책을 구성할 때 **[!UICONTROL 항목 수]**&#x200B;를 설정하여 프로필당 여러 항목을 반환할 수 있습니다. 내보낸 파일은 DM 개인화에 사용하거나 프로필 및 의사 결정 속성을 다른 시스템으로 내보내는 배치 사용 사례에 사용할 수 있습니다.
 

@@ -8,29 +8,25 @@ level: Experienced
 exl-id: 008d42c7-a523-4857-b34e-0e8dd1dfa507
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/y5aC7N-3FKFf9RQLHV40YtOR4EwHi3EWil-QFVL2tEI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: e42070c4cc1dde06786c4075b1e6e45e8c323c12
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e0eb8757-182f-49f3-94a4-1587d16f5094id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 328
-ht-degree: 31%
+source-wordcount: 355
+ht-degree: 29%
 
 ---
 
 # [!DNL Journey Optimizer]에서 의사 결정 기능 시작 {#gs-decision}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Journey Optimizer의 의사 결정 및 의사 결정 관리 기능을 비교하므로 채널 전체에 개인화된 오퍼를 게재하는 데 적합한 방법을 선택할 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer]의 의사 결정 기능을 통해 모든 접점에서 고객에게 최적의 오퍼와 개인화된 경험을 적시에 제공할 수 있습니다. 이러한 기능은 중앙 집중식 마케팅 오퍼 카탈로그와 규칙 및 등급 기준을 사용하여 각 개인에게 가장 적합한 콘텐츠를 제공하는 고급 의사 결정 엔진을 통해 개인화를 간소화합니다.
 

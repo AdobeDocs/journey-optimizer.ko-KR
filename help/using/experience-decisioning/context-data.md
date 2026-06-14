@@ -8,25 +8,25 @@ level: Intermediate
 exl-id: ddc4b681-020b-4433-b4b3-3791c41907c9
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/tL3mwS9sDtSkSVljry1EeqPnYn4U34TvXCg5jX2ej3M
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 316
+source-wordcount: 352
 ht-degree: 0%
 
 ---
 
 # 의사 결정에 컨텍스트 데이터 활용 {#context}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 의사 결정 요청 시 전송된 실시간 정보를 의사 결정 규칙 및 등급 수식에서 사용할 수 있도록 Adobe Experience Platform의 컨텍스트 데이터를 정의하고 Decisioning에 연결합니다.
+
+>[!ENDSHADEBOX]
 
 Decisioning을 사용하면 Adobe Experience Platform에서 사용할 수 있는 정보를 활용하여 [의사 결정 규칙](rules.md) 또는 [등급 수식](ranking/ranking.md)을 만드는 등 다양한 작업을 수행할 수 있습니다.
 
@@ -42,7 +42,7 @@ Decisioning을 사용하면 Adobe Experience Platform에서 사용할 수 있는
 
 Adobe Experience Platform 데이터를 사용하여 Decisioning에 데이터를 제공하는 단계는 다음과 같습니다.
 
-1. Adobe Experience Platform 및 관련 **데이터 세트**&#x200B;에서 **경험 이벤트 스키마**&#x200B;를 만듭니다. [스키마를 만드는 방법 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/ui/resources/schemas){target="_blank"}
+1. Adobe Experience Platform 및 관련 **데이터 세트**&#x200B;에서 **경험 이벤트 스키마**&#x200B;를 만듭니다. [스키마를 만드는 방법 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas){target="_blank"}
 
 1. 새 Adobe Experience Platform 데이터스트림 만들기:
 
@@ -60,6 +60,6 @@ Adobe Experience Platform 데이터를 사용하여 Decisioning에 데이터를 
 
 Adobe Experience Platform을 사용하여 작업하는 방법에 대한 추가 지침을 보려면 다음 리소스를 살펴보십시오.
 
-* [XDM(경험 데이터 모델) 스키마](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/composition){target="_blank"}
-* [데이터 세트](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/overview){target="_blank"}
-* [데이터 스트림](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/overview){target="_blank"}
+* [XDM(경험 데이터 모델) 스키마](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition){target="_blank"}
+* [데이터 세트](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview){target="_blank"}
+* [데이터 스트림](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview){target="_blank"}
