@@ -21,14 +21,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 522
-ht-degree: 13%
+source-wordcount: 558
+ht-degree: 12%
 
 ---
 
 # 모바일 메시지 구성 만들기 {#message-preset-sms}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 메시지 유형, 모바일 구성, 보낸 사람 번호, 하위 도메인 및 실행 필드를 설정하여 SMS, RCS 및 MMS 메시지를 보내는 모바일 메시지 채널 구성을 만드는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"

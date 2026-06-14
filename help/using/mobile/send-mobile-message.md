@@ -26,14 +26,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 534
-ht-degree: 2%
+source-wordcount: 562
+ht-degree: 1%
 
 ---
 
 # 모바일 메시지 확인 및 보내기 {#send-sms}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 문자 인코딩 및 제한을 확인하고 배달하기 전에 알림을 확인하는 등 Adobe Journey Optimizer에서 모바일 메시지를 미리 보고, 유효성을 확인하고, 보내는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 ## 모바일 메시지 미리 보기 {#preview-sms}
 

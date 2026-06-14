@@ -11,14 +11,20 @@ feature_v2:
   - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
 subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 1456
+source-wordcount: 1488
 ht-degree: 4%
 
 ---
 
 # 모바일 메시지 디자인 {#design-mobile}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** RCS 리치 미디어, 대체 텍스트, 제안된 작업, 추적된 URL 및 추가된 미디어를 포함하여 Adobe Journey Optimizer에서 SMS, RCS 및 MMS 메시지 콘텐츠를 디자인하고 개인화하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 Adobe Journey Optimizer을 사용하여 텍스트(SMS), 풍부한 커뮤니케이션(RCS) 및 멀티미디어(MMS) 메시지를 디자인하고 보낼 수 있습니다. 먼저 여정 또는 캠페인에 모바일 메시지 작업을 추가한 다음 아래에 설명된 대로 모바일 메시지의 콘텐츠를 정의해야 합니다. Adobe Journey Optimizer은 전송 전에 모바일 메시지를 테스트하여 렌더링, 개인화 속성 및 기타 모든 설정을 확인할 수 있는 기능도 제공합니다.
 

@@ -22,14 +22,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 432
-ht-degree: 42%
+source-wordcount: 456
+ht-degree: 40%
 
 ---
 
 # 모바일 구성 시작하기 {#sms-configuration}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Sinch, Twilio 또는 Infobip와 같은 공급자를 통합하고 웹후크를 만들고 모바일 구성을 설정하여 SMS, MMS 및 RCS 메시지를 보내도록 Adobe Journey Optimizer 환경을 구성하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
@@ -70,7 +76,7 @@ SMS, MMS 또는 RCS를 보내기 전에 Adobe Journey Optimizer 환경을 구성
 
 이 단계는 Adobe Journey Optimizer [시스템 관리자](../start/path/administrator.md)가 수행해야 합니다.
 
-## 전제 조건{#sms-prerequisites}
+## 사전 요구 사항{#sms-prerequisites}
 
 Adobe Journey Optimizer은 현재 Adobe Journey Optimizer과 독립적으로 모바일 메시징 서비스를 제공하는 서드파티 공급자와 통합됩니다. 모바일 메시징 및 MMS에 대해 지원되는 공급자는 **Sinch**, **Twilio** 및 **Infobip**&#x200B;입니다. [사용자 지정 공급자 구성](mobile-configuration-custom.md)을 사용하여 추가 메시징 공급자를 구성할 수 있습니다.
 

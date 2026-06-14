@@ -23,14 +23,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 675606750af67b398f18646dddf901778625fb30
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 854
+source-wordcount: 889
 ht-degree: 6%
 
 ---
 
 # 모바일 메시지 만들기 {#create-sms}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer의 여정 또는 캠페인에 모바일 메시지 작업을 추가한 다음 구성을 선택하고 콘텐츠를 편집하여 텍스트, 서식 있는 통신 및 멀티미디어 메시지를 보내는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"

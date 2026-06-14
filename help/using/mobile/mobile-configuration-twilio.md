@@ -21,14 +21,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 607
+source-wordcount: 640
 ht-degree: 1%
 
 ---
 
 # Twilio 제공자 구성 {#sms-configuration-twilio}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 여정 및 캠페인에서 모바일 메시지를 전달할 수 있도록 SMS, MMS 및 RCS 메시지용 API 자격 증명을 만들어 Twilio를 Adobe Journey Optimizer과 통합하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 Twilio를 Adobe Journey Optimizer과 통합하면 여정 및 캠페인의 일부로 프로필에 모바일 메시지를 전달할 수 있습니다.
 

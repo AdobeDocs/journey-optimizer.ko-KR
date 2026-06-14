@@ -26,14 +26,20 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 1006
+source-wordcount: 1040
 ht-degree: 24%
 
 ---
 
 # 모바일 메시지 시작 {#get-started-sms}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 공급자 지원, 구성 요구 사항 및 RCS 필수 조건을 포함하여 여정 및 캠페인에서 SMS, MMS 및 RCS 메시지를 만들고, 개인화하고, 보내려면 Adobe Journey Optimizer에서 모바일 메시징을 시작하십시오.
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >

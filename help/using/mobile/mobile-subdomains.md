@@ -26,14 +26,20 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 1036
-ht-degree: 20%
+source-wordcount: 1072
+ht-degree: 19%
 
 ---
 
 # SMS 하위 도메인 구성 {#sms-mms-subdomains}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 기존 위임된 하위 도메인을 사용하거나 DNS 레코드로 새 하위 도메인을 구성하여 메시지의 URL을 단축하도록 Adobe Journey Optimizer에서 SMS 하위 도메인을 설정하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms_header"

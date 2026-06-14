@@ -23,14 +23,20 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 1007
+source-wordcount: 1034
 ht-degree: 1%
 
 ---
 
 # Sinch 제공자 구성 {#sms-configuration-sinch}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** SMS, MMS 및 RCS 메시지에 대해 별도의 API 자격 증명을 설정하여 Adobe Journey Optimizer에서 공급자로 Sinch를 구성하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 Journey Optimizer에서 Sinch 공급자를 사용하는 경우 세 가지 고유한 옵션을 찾을 수 있습니다.
 

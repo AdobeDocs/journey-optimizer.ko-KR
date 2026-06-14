@@ -24,14 +24,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 545
+source-wordcount: 576
 ht-degree: 1%
 
 ---
 
 # SMS 비용 최적화 모범 사례 {#sms-cost-optimization}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 메시지를 짧게 유지하고, 특수 문자와 UCS-2 인코딩을 피하고, 보내기 전에 문자 수를 확인하여 Adobe Journey Optimizer에서 SMS 비용을 줄이는 모범 사례를 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 SMS 메시지는 일반적으로 제공업체에서 메시지당 160자 제한을 기준으로 청구합니다. SMS 메시지를 여러 부분으로 분할하면 추가 비용이 발생할 수 있습니다.
 

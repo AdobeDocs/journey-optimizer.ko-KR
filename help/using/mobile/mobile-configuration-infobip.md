@@ -22,14 +22,20 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 769
+source-wordcount: 801
 ht-degree: 1%
 
 ---
 
 # Infobip 제공자 구성 {#sms-configuration-infobip}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** SMS API 자격 증명을 설정하여 Adobe Journey Optimizer에서 Infobip를 공급자로 구성하는 방법과 사용자 지정 공급자 통합을 통해 RCS 메시지를 사용하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 Infobip을 Adobe Journey Optimizer과 통합하여 여정 및 캠페인의 일부로서 프로필에 모바일 메시지를 전달할 수 있습니다.
 

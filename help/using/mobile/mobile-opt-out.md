@@ -22,14 +22,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 07322bd265647528f8e2e4a5f39d7806fd03b565
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 673
-ht-degree: 14%
+source-wordcount: 701
+ht-degree: 13%
 
 ---
 
 # 모바일 메시지에 대한 옵트아웃 관리 {#sms-opt-out}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer에서 기본 인바운드 키워드, 차단 목록, 짧은 코드 및 영숫자 보낸 사람 ID를 통해 SMS, MMS 및 RCS 메시지에 대한 옵트아웃을 관리하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 업계 표준 및 규정에 따라 모든 SMS 마케팅 메시지에는 수신자가 간편하게 구독을 취소할 수 있는 방법이 포함되어야 합니다. [개인 정보 및 옵트아웃 관리에 대해 자세히 알아보기](../privacy/opt-out.md)
 

@@ -12,14 +12,20 @@ feature_v2:
 subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 07322bd265647528f8e2e4a5f39d7806fd03b565
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 2801
+source-wordcount: 2835
 ht-degree: 3%
 
 ---
 
 # 웹후크 만들기 {#webhook}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer에서 인바운드 및 피드백 SMS 웹후크를 만들어 Sinch, Infobip 및 사용자 지정 공급자에 대한 옵트인 및 옵트아웃 동의 응답 및 게재 이벤트를 캡처하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_channels_sms_webhook_settings_create"

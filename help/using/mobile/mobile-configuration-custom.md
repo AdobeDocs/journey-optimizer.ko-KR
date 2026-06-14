@@ -24,14 +24,20 @@ topic_v2:
 subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: cf1c53fc42cbe0eb019b1733091c5f22021767bb
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 1050
-ht-degree: 17%
+source-wordcount: 1086
+ht-degree: 16%
 
 ---
 
 # 사용자 정의 제공자 구성 {#sms-configuration-custom}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** API 자격 증명을 만들고, 인증 방법을 선택하고, SMS 및 RCS 메시지를 보내기 위해 헤더, 페이로드 및 인바운드 설정을 구성하여 Adobe Journey Optimizer에서 사용자 지정 메시징 공급자를 통합하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_provider_url"
