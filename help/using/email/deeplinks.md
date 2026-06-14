@@ -10,15 +10,21 @@ level: Intermediate
 keywords: 딥링크, 딥링크, 범용 링크, 앱 링크, 이메일, sms
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1327
+source-wordcount: 1367
 ht-degree: 1%
 
 ---
 
 
 # 이메일 및 SMS에서 딥링크 사용 및 구성 {#deeplinks}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 전자 메일 및 SMS 콘텐츠에서 딥링크를 작성하고, Adobe Journey Optimizer에서 구성하고, 수신자가 올바른 인앱 화면에 도달하도록 iOS 및 Android 앱에서 추적된 링크를 처리하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 딥 링크를 사용하면 이메일 또는 SMS 메시지에서 수신자를 모바일 앱의 특정 화면 또는 콘텐츠로 안내할 수 있습니다. 웹 브라우저나 앱스토어를 통해 라우팅하지 않고도 의도한 인앱 여정으로 바로 이동할 수 있으므로 사용자가 브랜드에 맞게 적절한 작업을 수행할 수 있습니다.
 
@@ -174,7 +180,7 @@ SMS 콘텐츠에 딥링크를 삽입하려면 다음 구문을 사용합니다.
 
 >[!IMPORTANT]
 >
->앱은 `mclick` URL에서 **GET**&#x200B;을(를) 수행하고 **`Location`** 헤더를 읽은 다음 **final** URL을 기반으로 라우팅해야 합니다.
+>앱은 `mclick` URL에서 **GET**&#x200B;을 수행하고 **`Location`** 헤더를 읽은 다음 **final** URL을 기반으로 라우팅해야 합니다.
 >
 >Safari에서 `mclick` URL을 열지 마십시오. 딥링크의 목적을 무시합니다.
 

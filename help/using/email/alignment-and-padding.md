@@ -23,14 +23,20 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 381
+source-wordcount: 412
 ht-degree: 6%
 
 ---
 
 # 세로 정렬 및 패딩 조정 {#alignment-and-padding}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 올바른 모바일 렌더링을 위해 잔여 조각 패딩을 수정하는 방법을 포함하여 이메일 Designer에서 열 및 구조의 수직 정렬 및 패딩을 조정하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 이 예제에서는 3개의 열로 구성된 구조 구성 요소 내부의 패딩 및 수직 정렬을 조정합니다.
 

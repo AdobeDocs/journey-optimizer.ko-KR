@@ -25,14 +25,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 652
+source-wordcount: 678
 ht-degree: 1%
 
 ---
 
 # 맞춤형 오퍼 추가 {#deliver-personalized-offers}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer에서 각 수신자에게 최상의 개인화된 오퍼를 제공할 수 있도록 이메일에 오퍼 결정을 삽입하고 미리 보는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] 이메일에서 의사 결정 관리 엔진을 활용하여 고객에게 제공할 최상의 오퍼를 선택하는 의사 결정을 삽입할 수 있습니다.
 

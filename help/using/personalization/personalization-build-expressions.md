@@ -15,14 +15,20 @@ feature_v2:
 subfeature_v2:
   - id: e51e8901-97d9-4f7d-a835-503025a90e32
   - id: ac5d9310-7772-40fb-9d78-864562e1bfd6
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 1563
+source-wordcount: 1592
 ht-degree: 11%
 
 ---
 
 # 개인화 추가 {#build-personalization-expressions}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 개인화 편집기를 사용하여 프로필 특성, 대상, 오퍼 결정 및 컨텍스트 특성과 같은 소스에서 개인화 식을 추가, 사용자 지정 및 확인하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_perso_editor"

@@ -10,14 +10,20 @@ level: Experienced
 exl-id: 0c586565-0c65-435f-986d-cd08b59de159
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 567
-ht-degree: 7%
+source-wordcount: 614
+ht-degree: 6%
 
 ---
 
 # 고급 HTML 편집기를 사용하여 이메일 콘텐츠 편집 {#email-expert-mode}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 이메일 Designer의 고급 HTML 편집기를 사용하여 이메일 콘텐츠의 원시 HTML 소스를 보고 편집하는 방법에 대해 알아봅니다. 여기에는 기억해야 할 보호 기능 및 시각적 보기로 다시 전환하여 미리 보고 저장하는 방법도 포함되어 있습니다.
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

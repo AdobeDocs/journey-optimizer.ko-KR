@@ -14,14 +14,20 @@ feature_v2:
 subfeature_v2:
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 681
-ht-degree: 23%
+source-wordcount: 710
+ht-degree: 22%
 
 ---
 
 # 개인화 시작{#add-personalization}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 개인화 편집기 작동 방식, 사용할 수 있는 프로필 데이터, 학습 놀이터, 인라인 편집 등 Adobe Journey Optimizer에서 개인 맞춤화를 시작하십시오.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card5"

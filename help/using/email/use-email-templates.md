@@ -23,14 +23,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 271
-ht-degree: 21%
+source-wordcount: 292
+ht-degree: 19%
 
 ---
 
 # 이메일 템플릿 사용 {#email-templates}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 전자 메일 Designer의 샘플 또는 저장된 디자인 템플릿에서 전자 메일 콘텐츠 작성을 시작하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_use_template"

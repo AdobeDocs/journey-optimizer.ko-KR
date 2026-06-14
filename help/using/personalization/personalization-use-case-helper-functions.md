@@ -23,32 +23,38 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 1263
+source-wordcount: 1289
 ht-degree: 2%
 
 ---
 
 # Personalization 사용 사례: 장바구니 포기 이메일 {#personalization-use-case-helper-functions}
 
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** upperCase를 사용하여 전자 메일 본문을 개인화하는 장바구니 포기 사용 사례를 팔로우합니다. 각 사례는 Adobe Journey Optimizer에서 도우미 기능을 수행하는 경우입니다.
+
+>[!ENDSHADEBOX]
+
 이 예제에서는 이메일 메시지의 본문을 개인화합니다. 이 메시지는 장바구니에 품목을 남겨두었지만 구매를 완료하지 않은 고객을 타겟팅합니다.
 
 다음 유형의 도우미 함수를 사용합니다.
 
-* 고객의 이름을 대문자로 삽입하는 `upperCase` 문자열 함수입니다. [자세히 알아보기](functions/string.md#upper).
-* `each` 도우미가 장바구니에 있는 항목을 나열합니다. [자세히 알아보기](functions/helpers.md#each).
-* 관련 제품이 장바구니에 있는 경우 제품별 메모를 삽입하려면 `if` 도우미를 사용하십시오. [자세히 알아보기](functions/helpers.md#if-function).
+* 고객의 이름을 대문자로 삽입하는 `upperCase` 문자열 함수입니다. [자세히 알아보기](functions/string.md#upper)
+* `each` 도우미가 장바구니에 있는 항목을 나열합니다. [자세히 알아보기](functions/helpers.md#each)
+* 관련 제품이 장바구니에 있는 경우 제품별 메모를 삽입하려면 `if` 도우미를 사용하십시오. [자세히 알아보기](functions/helpers.md#if-function)
 <!-- **Context**: personalization based on contextual data from the journey -->
 
 ➡️ [이 비디오에서 도우미 함수를 사용하는 방법에 대해 알아보세요](#video)
 
 시작하기 전에 다음 요소를 구성하는 방법을 알고 있어야 합니다.
 
-* 단일 이벤트입니다. [자세히 알아보기](../event/about-events.md).
-* 이벤트로 시작하는 여정. [자세히 알아보기](../building-journeys/using-the-journey-designer.md).
+* 단일 이벤트입니다. [자세히 알아보기](../event/about-events.md)
+* 이벤트로 시작하는 여정. [자세히 알아보기](../building-journeys/using-the-journey-designer.md)
 * 여정 내 이메일 메시지. [자세히 알아보기](../email/create-email.md)
-* 이메일의 본문. [자세히 알아보기](../email/content-from-scratch.md).
+* 이메일의 본문. [자세히 알아보기](../email/content-from-scratch.md)
 
 다음 단계를 수행하십시오.
 

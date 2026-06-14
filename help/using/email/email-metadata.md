@@ -26,14 +26,20 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 333
-ht-degree: 26%
+source-wordcount: 364
+ht-degree: 24%
 
 ---
 
 # 이메일 콘텐츠에 메타데이터 추가 {#email-metadata}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 전자 메일 콘텐츠의 가독성과 접근성을 개선하기 위해 전자 메일 Designer에서 사전 머리글, 문서 제목, 문서 언어 등 전자 메일 메타데이터를 설정하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"

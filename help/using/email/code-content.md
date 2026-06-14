@@ -25,14 +25,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 496
-ht-degree: 22%
+source-wordcount: 529
+ht-degree: 21%
 
 ---
 
 # 나만의 콘텐츠 코딩 {#code-content}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 개인화 추가 방법, 사용 가능한 날짜 및 시간 기능을 포함하여 이메일 콘텐츠를 작성하기 위해 이메일 Designer 코드 편집기에서 원시 HTML을 작성하거나 붙여넣는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 **[!UICONTROL 직접 코드 작성]**&#x200B;을 통해 원시 HTML을 작성하거나 붙여 넣어 [!DNL Journey Optimizer] 전자 메일 Designer에서 직접 전자 메일 콘텐츠를 작성할 수 있습니다. 마크업을 완전히 제어해야 하거나 기존 HTML을 가져올 때 이 모드를 사용합니다.
 

@@ -24,14 +24,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 4ec62b4411a46304364ca1f122e9745b143bcaa1
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1137
-ht-degree: 55%
+source-wordcount: 1172
+ht-degree: 54%
 
 ---
 
 # 헤더 매개변수 {#email-header}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 보낸 사람, 회신 대상, 오류 및 선택적 보낸 사람 필드를 포함하여 채널 구성에서 전자 메일 헤더 매개 변수를 설정하는 방법과 회신 처리 및 전자 메일 전달을 관리하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 새 [전자 메일 채널 구성](email-settings.md)을 구성할 때 **[!UICONTROL 헤더 매개 변수]** 섹션에서 해당 구성을 사용하여 보낸 전자 메일 형식과 연결된 보낸 사람 이름 및 전자 메일 주소를 입력하십시오.
 

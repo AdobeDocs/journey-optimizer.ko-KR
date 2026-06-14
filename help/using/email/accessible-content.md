@@ -27,14 +27,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1696
+source-wordcount: 1731
 ht-degree: 1%
 
 ---
 
 # 액세스 가능한 콘텐츠 디자인 {#accessible-content}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer에서 액세스 가능한 전자 메일 및 랜딩 페이지를 디자인하고 텍스트 가독성, 대체 텍스트, 다크 모드, 접근성 특성을 다루며 WCAG 2.1 수준 AA에 맞게 테스트하기 위한 모범 사례를 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 [유럽 접근성 법률](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}은(는) 회원국 간에 국가 규칙이 서로 달라 발생하는 장벽을 제거하여 액세스 가능한 제품 및 서비스의 내부 시장을 개선하기 위해 고안된 지침입니다.
 

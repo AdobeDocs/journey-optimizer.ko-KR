@@ -26,14 +26,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1553
-ht-degree: 10%
+source-wordcount: 1584
+ht-degree: 9%
 
 ---
 
 # 다크 모드 콘텐츠 관리 {#dark-mode}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 이메일 클라이언트가 다크 모드를 처리하는 방법 및 일관된 렌더링을 위한 모범 사례와 함께 이메일 Designer에서 사용자 지정 다크 모드 설정을 미리 보고 정의하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode"

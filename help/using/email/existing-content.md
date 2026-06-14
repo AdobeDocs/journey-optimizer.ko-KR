@@ -22,14 +22,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 260
-ht-degree: 30%
+source-wordcount: 293
+ht-degree: 27%
 
 ---
 
 # 이메일 콘텐츠 가져오기 {#existing-content}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 기존 HTML 콘텐츠를 HTML 파일 또는 .zip 폴더로 가져오고 변환하여 Email Designer으로 편집하고 개인화하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer]을(를) 사용하면 기존 HTML 콘텐츠를 가져와서 전자 메일을 디자인할 수 있습니다. 이 콘텐츠는 다음 중 하나일 수 있습니다.
 

@@ -22,14 +22,20 @@ feature_v2:
   - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 97
+source-wordcount: 123
 ht-degree: 0%
 
 ---
 
 # 즐겨찾기에 속성 추가 {#fav}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer에서 개인화 식을 작성할 때 빠르게 재사용할 수 있도록 즐겨찾기 메뉴에 특성을 추가, 액세스 및 제거하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 즐겨찾기 메뉴에 다양한 속성을 추가하면 가장 자주 사용하는 항목에 빠르게 액세스할 수 있습니다. 즐겨찾기에 특성을 추가하려면 타원 메뉴를 클릭하고 **[!UICONTROL 즐겨찾기에 추가]**&#x200B;를 선택하십시오.
 

@@ -26,14 +26,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 306
-ht-degree: 100%
+source-wordcount: 342
+ht-degree: 89%
 
 ---
 
 # 이메일 스타일 시작 {#get-started-email-style}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** [전자 메일 Designer 스타일] 창에서 본문, 구조 또는 콘텐츠 구성 요소에 색상, 글꼴, 테두리, 여백 및 패딩과 같은 설정을 적용하여 전자 메일 콘텐츠의 스타일을 조정하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer]에서 이메일 콘텐츠를 만들 때는 [이메일 디자이너]의 **[!UICONTROL 스타일]** 창에서 여러 스타일 매개 변수와 속성을 조정할 수 있습니다.
 

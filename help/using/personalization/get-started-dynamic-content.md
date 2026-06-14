@@ -14,14 +14,20 @@ feature_v2:
 subfeature_v2:
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 149
-ht-degree: 61%
+source-wordcount: 174
+ht-degree: 52%
 
 ---
 
 # 다이내믹 콘텐츠 시작 {#start-dynamic-content}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 다이내믹 콘텐츠가 프로필 특성, 컨텍스트 이벤트 및 대상으로 만들어진 조건부 규칙을 사용하여 메시지를 타겟팅된 프로필에 적용하는 방법을 이해합니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_conditions_list"

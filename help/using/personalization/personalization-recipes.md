@@ -10,14 +10,20 @@ feature_v2:
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
   - id: ac5d9310-7772-40fb-9d78-864562e1bfd6
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 815
+source-wordcount: 845
 ht-degree: 0%
 
 ---
 
 # Personalization 레서피 {#personalization-recipes}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer 콘텐츠에 직접 복사할 수 있는 날짜, 배열, 문자열, 조건부 논리 및 PQL Edge 사례에 대해 바로 사용할 수 있는 개인화 레시피를 찾아보십시오.
+
+>[!ENDSHADEBOX]
 
 이 페이지에서는 Adobe Journey Optimizer의 가장 일반적인 사용 사례에 대해 즉시 사용 가능한 개인화 패턴을 제공합니다. 모든 예는 개인화 편집기 구문을 사용하며, 이메일, SMS 또는 푸시 콘텐츠에 직접 복사할 수 있습니다.
 

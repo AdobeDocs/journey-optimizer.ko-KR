@@ -27,14 +27,20 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 734
-ht-degree: 10%
+source-wordcount: 769
+ht-degree: 9%
 
 ---
 
 # 이메일 콘텐츠에 사용자 정의 CSS 추가 {#email-metadata}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 고급 스타일을 위해 전자 메일 Designer의 전자 메일 콘텐츠에 사용자 지정 CSS를 추가하는 방법, CSS를 유효하게 유지하는 방법, 적용되지 않는 스타일의 문제를 해결하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_css"

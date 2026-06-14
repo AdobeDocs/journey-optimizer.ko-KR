@@ -30,18 +30,24 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 738
-ht-degree: 100%
+source-wordcount: 776
+ht-degree: 95%
 
 ---
 
 # 이메일 디자인 시작 {#get-started-content-design}
 
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 전자 메일 Designer에서 전자 메일 콘텐츠를 디자인하는 방법, 처음부터 빌드하는 주요 단계, 코드 또는 가져온 HTML, 클라이언트 간에 전자 메일이 잘 렌더링되도록 하는 모범 사례에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
+
 이메일 디자이너에 액세스하고 이메일 콘텐츠를 디자인하려면 먼저 여정 또는 캠페인에서 [이메일을 만들어야](create-email.md) 합니다.
 
-그런 다음 [!DNL Journey Optimizer]**이메일 디자인 기능**&#x200B;을 사용하여 기존 콘텐츠를 가져오거나 응답형 이메일을 처음부터 빌드할 수 있습니다. [자세히 알아보기](content-from-scratch.md)
+그런 다음 [!DNL Journey Optimizer]&#x200B;**이메일 디자인 기능**&#x200B;을 사용하여 기존 콘텐츠를 가져오거나 응답형 이메일을 처음부터 빌드할 수 있습니다. [자세히 알아보기](content-from-scratch.md)
 
 이메일 디자이너를 통해 다음 작업도 수행할 수 있습니다.
 

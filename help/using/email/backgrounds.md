@@ -24,14 +24,20 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 306
-ht-degree: 100%
+source-wordcount: 332
+ht-degree: 92%
 
 ---
 
 # 이메일 배경 개인화 {#backgrounds}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 전자 메일 Designer에서 전자 메일의 본문, 뷰포트, 구조 및 열 수준에서 배경색 및 이미지를 설정하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"

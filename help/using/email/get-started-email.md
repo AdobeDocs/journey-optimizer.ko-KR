@@ -30,14 +30,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 312
-ht-degree: 100%
+source-wordcount: 344
+ht-degree: 90%
 
 ---
 
 # 이메일 사용 시작 {#get-started-email}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer에서 전자 메일 채널을 시작하고 전자 메일 Designer을 사용하여 여정 및 캠페인에서 전자 메일 메시지를 만들고, 디자인하고, 개인화하고, 미리 보는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card4"

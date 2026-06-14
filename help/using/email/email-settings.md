@@ -25,14 +25,20 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1490
-ht-degree: 96%
+source-wordcount: 1523
+ht-degree: 94%
 
 ---
 
 # 이메일 설정 구성 {#email-settings}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 전자 메일 유형, 하위 도메인, IP 풀, 목록 구독 취소, 헤더 매개 변수, BCC, 시드 목록, 다시 시도, URL 추적 및 실행 주소를 포함하여 채널 구성에서 전자 메일 설정을 정의하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 이메일 만들기를 시작하려면 메시지에 필요한 모든 기술 매개변수를 정의하는 이메일 채널 구성을 설정해야 합니다. [구성 만드는 방법 알아보기](../configuration/channel-surfaces.md)
 

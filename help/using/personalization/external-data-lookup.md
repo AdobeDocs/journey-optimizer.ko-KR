@@ -12,14 +12,20 @@ feature_v2:
   - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 1264
+source-wordcount: 1292
 ht-degree: 5%
 
 ---
 
 # 외부 데이터 조회 도우미
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** externalDataLookup 도우미를 사용하여 외부 끝점에서 데이터를 동적으로 가져오고 Adobe Journey Optimizer의 인바운드 채널에 대한 콘텐츠를 개인화하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] 개인화 편집기의 `externalDataLookup` 도우미는 코드 기반 경험, 웹 및 인앱 메시지 채널과 같은 인바운드 채널에 대한 콘텐츠를 생성하는 데 사용할 외부 끝점에서 데이터를 동적으로 가져오는 데 사용할 수 있습니다.
 

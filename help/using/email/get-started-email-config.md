@@ -23,14 +23,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 531
-ht-degree: 78%
+source-wordcount: 563
+ht-degree: 73%
 
 ---
 
 # 이메일 구성 시작 {#get-starte-email-config}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 하위 도메인 위임 및 IP 풀 만들기에서 채널 구성, 실행 필드 및 다시 시도에 이르기까지 Adobe Journey Optimizer에서 전자 메일 채널을 구성하는 필수 단계를 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 Adobe Journey Optimizer에서 이메일 채널을 구성하는 것은 대상자를 효과적으로 참여시키는 영향력 있고 개인화된 이메일 경험을 만드는 출발점입니다.
 

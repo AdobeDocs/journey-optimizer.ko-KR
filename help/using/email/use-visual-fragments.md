@@ -29,14 +29,20 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1104
+source-wordcount: 1131
 ht-degree: 1%
 
 ---
 
 # 이메일에 비주얼 조각 추가 {#use-visual-fragments}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 재사용할 수 있는 시각적 조각을 전자 메일에 삽입하고, 편집 가능한 필드를 사용자 지정하고, 원본 조각으로 상속을 끊거나 유지하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 조각은 Journey Optimizer 캠페인, 여정 또는 콘텐츠 템플릿 간의 하나 이상의 이메일에서 참조할 수 있는 재사용 가능한 구성 요소입니다. 이 기능을 사용하면 마케팅 사용자가 향상된 디자인 프로세스에서 이메일 콘텐츠를 빠르게 조합하는 데 사용할 수 있는 여러 사용자 지정 콘텐츠 블록을 사전 빌드할 수 있습니다. [조각을 만들고 관리하는 방법을 알아보세요](../content-management/fragments.md).
 

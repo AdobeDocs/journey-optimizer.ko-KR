@@ -22,14 +22,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 351
-ht-degree: 38%
+source-wordcount: 375
+ht-degree: 36%
 
 ---
 
 # 이메일에 PDF 파일 첨부 {#pdf-attachments}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 파일 크기 및 적용되는 전송 볼륨 제한을 포함하여 정적 PDF 파일을 전자 메일에 첨부하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_pdf_attachments"

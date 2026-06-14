@@ -24,14 +24,20 @@ topic_v2:
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 532
+source-wordcount: 559
 ht-degree: 2%
 
 ---
 
 # Personalization 사용 사례: 주문 상태 알림 {#personalization-use-case}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer에서 푸시 알림을 개인화하기 위해 프로필, 오퍼 결정 및 상황별 여정 데이터를 결합하는 주문 상태 사용 사례를 따릅니다.
+
+>[!ENDSHADEBOX]
 
 이 사용 사례에서는 단일 푸시 알림 메시지에 여러 유형의 개인화를 사용하는 방법을 알아봅니다. 세 가지 유형의 개인화가 사용됩니다.
 

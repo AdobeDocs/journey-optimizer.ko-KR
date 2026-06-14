@@ -11,14 +11,20 @@ keywords: url, 링크, 개인화, 추적, 인코딩, 중괄호
 feature_v2: []
 subfeature_v2:
   - id: c41e8697-e629-4c38-96b3-564faaa17acf
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 402
+source-wordcount: 430
 ht-degree: 1%
 
 ---
 
 # 이메일의 URL 개인화 {#url-personalization}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 링크를 유효하고 추적할 수 있도록 유지하면서 전체 또는 기본 URL 및 링크당 추적 매개 변수를 포함하여 프로필 특성이 있는 전자 메일 URL을 개인화하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 개인화된 URL을 사용하면 받는 사람별 링크를 생성하거나 동적 매개 변수를 추가하는 등, [!DNL Journey Optimizer] 전자 메일 메시지를 통해 상황별 경험을 제공할 수 있습니다.
 

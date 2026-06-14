@@ -27,14 +27,20 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1468
-ht-degree: 47%
+source-wordcount: 1498
+ht-degree: 46%
 
 ---
 
 # 이메일 디자이너 콘텐츠 구성 요소 사용 {#content-components}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 단추, 텍스트, 이미지, 디바이더, HTML, 소셜 링크 및 오퍼 의사 결정과 같은 이메일 Designer 콘텐츠 구성 요소를 추가하고 구성하여 이메일 콘텐츠를 빌드하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_email"

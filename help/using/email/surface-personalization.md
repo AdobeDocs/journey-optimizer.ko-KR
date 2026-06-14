@@ -25,14 +25,20 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1191
+source-wordcount: 1215
 ht-degree: 6%
 
 ---
 
 # 이메일 구성 설정 개인화 {#surface-personalization}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 전자 메일 채널 구성 수준에서 동적 하위 도메인, 헤더 매개 변수 및 URL 추적 매개 변수에 대해 개인화된 값을 정의하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer]을(를) 사용하면 전자 메일 구성을 만들 때 하위 도메인, 헤더 및 URL 추적 매개 변수에 대해 개인화된 값을 정의하여 전자 메일 설정을 보다 유연하게 제어하고 제어할 수 있습니다.
 
