@@ -20,14 +20,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 761
+source-wordcount: 773
 ht-degree: 8%
 
 ---
 
 # 최대 가용량 API 작업 {#work}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer 최대 가용량 API를 사용하여 외부 시스템에 대한 호출을 제한하는 끝점 최대 가용량 구성을 만들고, 구성하고, 배포하고, 모니터링하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 최대 가용량 API를 사용하면 최대 가용량 구성을 만들고, 구성하고, 모니터링할 수 있습니다.
 
@@ -37,7 +43,7 @@ ht-degree: 8%
 
 아래 표에는 최대 가용량 API에 사용할 수 있는 명령이 나열되어 있습니다. 요청 샘플, 매개 변수 및 응답 형식을 포함한 자세한 정보는 [Adobe Journey Optimizer API 설명서](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling){target="_blank"}에서 확인할 수 있습니다.
 
-| 메서드 | 경로 | 설명 |
+| 방법 | 경로 | 설명 |
 |---|---|---|
 | [!DNL POST] | list/endpointConfigs | 끝점 제한 구성 목록 가져오기 |
 | [!DNL POST] | /endpointConfigs | 엔드포인트 제한 구성 만들기 |

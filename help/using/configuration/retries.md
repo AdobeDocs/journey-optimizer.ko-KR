@@ -22,14 +22,20 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 subfeature_v2:
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 569
+source-wordcount: 605
 ht-degree: 8%
 
 ---
 
 # 다시 시도 {#retries}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer에서 소프트 바운스된 이메일 메시지를 다시 시도하는 방법, 오류 임계값 및 다시 시도 기간이 작동하는 방법, 주소가 제외 목록에 추가되기 전에 조정하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 지정된 주소에 대한 임시 **소프트 바운스** 오류로 인해 전자 메일 메시지가 실패하면 여러 번 다시 시도합니다. 각 오류는 오류 카운터를 증가시킵니다. 이 카운터가 제한 임계값에 도달하면 전자 메일 주소가 제외 목록에 추가됩니다.
 

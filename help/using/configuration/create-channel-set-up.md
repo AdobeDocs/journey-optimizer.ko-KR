@@ -25,14 +25,20 @@ role_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 656
-ht-degree: 100%
+source-wordcount: 692
+ht-degree: 94%
 
 ---
 
 # 채널 설정 만들기 {#set-mobile-ios}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 안내 설정을 사용하여 Adobe Journey Optimizer에서 모바일 및 웹 채널을 구성하고 필요한 리소스를 자동으로 만들고 캠페인 및 여정 팀과 채널 구성을 공유하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_code"

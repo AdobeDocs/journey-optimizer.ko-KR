@@ -24,14 +24,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1834
-ht-degree: 22%
+source-wordcount: 1860
+ht-degree: 21%
 
 ---
 
 # 외부 시스템과 통합 {#external-systems}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** API 제한 및 조절, 여정 시간 초과, 다시 시도를 포함하여 Adobe Journey Optimizer을 외부 시스템과 통합하기 위한 보호 기능 및 모범 사례에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 이 페이지에서는 외부 시스템 통합 시 Journey Optimizer에서 제공하는 다양한 보호 기능과 모범 사례, 즉 최대 가용량 API를 사용하여 외부 시스템 보호를 최적화하는 방법, 여정 시간 제한을 구성하는 방법 및 다시 시도 작동 방식을 제공합니다.
 

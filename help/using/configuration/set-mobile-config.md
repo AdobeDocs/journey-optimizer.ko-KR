@@ -24,14 +24,20 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 858
-ht-degree: 100%
+source-wordcount: 889
+ht-degree: 96%
 
 ---
 
 # 안내형 채널 설정 시작 {#set-mobile-config}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 안내 채널 설정 워크플로에서 Adobe Journey Optimizer에서 모바일 및 웹 채널을 설정하는 데 필요한 태그 속성, 데이터스트림 및 채널 구성을 자동으로 만드는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_name"
@@ -72,7 +78,7 @@ ht-degree: 100%
 
 설정하려는 각 플랫폼마다 별도의 구성을 만들어야 합니다. 각 앱마다 고유한 채널 구성이 필요하기 때문이며, 이를 통해 각 플랫폼마다 어떤 채널을 설정할지 유연하게 결정할 수 있습니다.
 
-## 전제 조건 {#prereq}
+## 사전 요구 사항 {#prereq}
 
 * 이를 효과적으로 구현하려면 웹 사이트 또는 모바일 코드를 수정할 수 있는 권한과 기술 능력을 갖춘 조직 구성원이 설정을 감독해야 합니다.
 
@@ -199,7 +205,7 @@ ht-degree: 100%
   </tr>
   <tr>
   <td>
-  <p>Assurance</p>
+  <p>보증</p>
   </td>
   <td>
   <p>Assurance 세션</p>
@@ -207,7 +213,7 @@ ht-degree: 100%
   </tr>
   <tr>
   <td>
-  <p>데이터 스트림</p>
+  <p>데이터스트림</p>
   </td>
   <td>
   <p>서비스 데이터 스트림</p>
@@ -294,7 +300,7 @@ ht-degree: 100%
   </tr>
   <tr>
   <td>
-  <p>Assurance</p>
+  <p>보증</p>
   </td>
   <td>
   <p>Assurance 세션</p>
@@ -302,7 +308,7 @@ ht-degree: 100%
   </tr>
   <tr>
   <td>
-  <p>데이터 스트림</p>
+  <p>데이터스트림</p>
   </td>
   <td>
   <p>서비스 데이터 스트림</p>
@@ -389,7 +395,7 @@ ht-degree: 100%
   </tr>
   <tr>
   <td>
-  <p>Assurance</p>
+  <p>보증</p>
   </td>
   <td>
   <p>Assurance 세션</p>
@@ -397,7 +403,7 @@ ht-degree: 100%
   </tr>
   <tr>
   <td>
-  <p>데이터 스트림</p>
+  <p>데이터스트림</p>
   </td>
   <td>
   <p>서비스 데이터 스트림</p>

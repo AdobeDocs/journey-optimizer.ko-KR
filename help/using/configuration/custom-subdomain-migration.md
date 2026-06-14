@@ -13,14 +13,20 @@ exl-id: f74139cf-640f-4b7b-a0b1-6eae9c75e7e4
 feature_v2: []
 subfeature_v2:
   - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1258
-ht-degree: 5%
+source-wordcount: 1301
+ht-degree: 4%
 
 ---
 
 # 이메일 하위 도메인을 CNAME에서 사용자 지정 위임으로 마이그레이션 {#migrate-cname-to-custom}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 기존 DNS 레코드를 삭제하고, SSL 인증서를 업로드하고, 피드백 루프를 완성하고, 새 DNS 레코드를 만들어 CNAME 위임에서 Adobe Journey Optimizer의 사용자 지정 위임으로 전자 메일 또는 랜딩 페이지 하위 도메인을 마이그레이션하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

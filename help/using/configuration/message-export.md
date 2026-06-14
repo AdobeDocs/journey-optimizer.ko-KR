@@ -25,14 +25,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1398
+source-wordcount: 1431
 ht-degree: 6%
 
 ---
 
 # 메시지 콘텐츠 내보내기 {#message-export}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 전자 메일 및 SMS 채널 구성에서 메시지 내보내기를 활성화하여 보낸 메시지 콘텐츠를 Adobe Experience Platform 데이터 집합에 쓰고 자신의 저장소로 전송하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_msg_export"

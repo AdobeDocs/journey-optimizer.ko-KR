@@ -11,14 +11,20 @@ keywords: 내보내기, 메시지, 데이터 세트, 스키마, 이메일, SMS
 feature_v2: []
 subfeature_v2:
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 420
-ht-degree: 4%
+source-wordcount: 447
+ht-degree: 3%
 
 ---
 
 # AJO 메시지 내보내기 스키마 {#ajo-message-export-schema}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 보낸 전자 메일 및 SMS 메시지 콘텐츠를 Adobe Experience Platform에 저장하는 AJO 메시지 내보내기 데이터 세트의 구조 및 개별 필드를 살펴봅니다.
+
+>[!ENDSHADEBOX]
 
 이메일 또는 SMS 채널 구성에서 **메시지 내보내기**&#x200B;를 사용하도록 설정하면 보낸 메시지 콘텐츠가 [!DNL Adobe Experience Platform]의 **AJO 메시지 내보내기 데이터 세트**&#x200B;에 기록됩니다.
 

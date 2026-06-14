@@ -25,14 +25,20 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1341
+source-wordcount: 1371
 ht-degree: 12%
 
 ---
 
 # 허용 목록 설정 {#allow-list}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer에서 허용 목록을 활성화, 채우기 및 관리하여 샌드박스 수준에서 신뢰할 수 있는 주소 및 도메인으로 전자 메일 전송을 제한하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 허용 목록은 [샌드박스](../administration/sandboxes.md) 수준에서 정의할 수 있는 전송 안전 목록입니다. 이메일 전송을 특정 주소 또는 도메인으로 제한하여 명시적으로 나열된 수신자만 특정 샌드박스에서 메시지를 수신할 수 있습니다.
 

@@ -25,14 +25,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 649
-ht-degree: 30%
+source-wordcount: 682
+ht-degree: 29%
 
 ---
 
 # 기본 실행 필드 관리 {#change-primary-email}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 프로필에서 사용 가능한 전자 메일 주소 또는 전화 번호가 여러 개 있을 때 Adobe Journey Optimizer에서 전송할 우선 순위를 결정하는 실행 필드를 정의하고 재정의하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address"

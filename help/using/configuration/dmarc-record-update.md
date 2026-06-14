@@ -26,14 +26,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 461
-ht-degree: 100%
+source-wordcount: 493
+ht-degree: 86%
 
 ---
 
 # 새로운 DMARC 요구 사항 준수 {#dmarc-record-update}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Google 및 Yahoo 보낸 사람 요구 사항을 준수하도록 Adobe Journey Optimizer에서 Adobe으로 위임한 하위 도메인에 대해 DMARC 레코드를 설정해야 하는 이유와 시기를 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_banner_link"
@@ -52,13 +58,13 @@ ht-degree: 100%
 
 * 하위 도메인 보내기를 Adobe로 [완전히 위임하였다면](delegate-subdomain.md#set-up-subdomain) 아래 옵션 중 하나를 따르십시오.
 
-   * **호스팅 솔루션에서** 위임된 하위 도메인의 상위 도메인에 DMARC를 설정합니다.
+   * 호스팅 솔루션에서 위임된 하위 도메인 **의 상위 도메인에 DMARC을 설정합니다**.
 또는
    * 호스팅 솔루션에 대한 추가 작업 없이 구성 사용자 인터페이스&#x200B;**의[!DNL Journey Optimizer]** 위임된 하위 도메인에서 DMARC를 설정합니다. [방법 알아보기](dmarc-record.md#implement-dmarc)
 
 * [CNAME](delegate-subdomain.md#cname-subdomain-setup)를 사용하여 하위 도메인 전송을 설정한 경우 아래 옵션 중 하나를 수행합니다.
 
-   * **호스팅 솔루션에서** 하위 도메인에서 또는 하위 도메인의 상위 도메인에서 DMARC를 설정합니다.
+   * 하위 도메인 또는 호스팅 솔루션에서 하위 도메인 **의 상위 도메인에 DMARC을 설정합니다**.
 또는
    * 구성 사용자 인터페이스&#x200B;**에서[!DNL Journey Optimizer]** 위임된 하위 도메인에 DMARC를 설정합니다. [방법 알아보기](dmarc-record.md#implement-dmarc)
 

@@ -33,14 +33,20 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 471
-ht-degree: 32%
+source-wordcount: 497
+ht-degree: 30%
 
 ---
 
 # 채널 구성 시작 {#start-optimizer-configuration}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer에서 메시지 전송을 시작할 수 있도록 채널, 하위 도메인, IP 준비 및 비즈니스 규칙을 구성하는 단계를 살펴보십시오.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_channels_rate_controls"

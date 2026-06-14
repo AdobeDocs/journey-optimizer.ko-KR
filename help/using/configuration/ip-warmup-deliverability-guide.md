@@ -30,14 +30,20 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1112
+source-wordcount: 1139
 ht-degree: 8%
 
 ---
 
 # IP 워밍업 게재 가능성 안내서 {#ip-warmup-deliverability-guide}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer에서 성공적인 IP 워밍업을 실행하기 위한 게재 가능성 기본 사항, 신뢰도 구축, 사전 검사, 샘플 워밍업 캘린더 및 모니터링 지표를 이해합니다.
+
+>[!ENDSHADEBOX]
 
 Adobe Journey Optimizer에서 새로운 IP 주소 또는 도메인으로 이메일 캠페인을 시작할 때 강력한 발신자 평판을 구축하려면 게재 기능의 기본 사항을 이해하는 것이 중요합니다. 이 안내서에서는 평판이 0에서 성공적인 받은 편지함 배치로 전환하는 데 도움이 되는 주요 개념, 준비 단계 및 모범 사례를 다룹니다.
 

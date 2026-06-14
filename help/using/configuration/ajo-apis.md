@@ -24,14 +24,20 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 582
+source-wordcount: 611
 ht-degree: 5%
 
 ---
 
 # [!DNL Journey Optimizer] API 작업 {#apis-gs}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 의사 결정 관리 및 Experience Decisioning API를 비롯한 Adobe Journey Optimizer RESTful API에 액세스하고 인증하고 사용하여 프로그래밍 방식으로 주요 작업을 수행하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 ## 빠른 액세스 {#quick-access}
 

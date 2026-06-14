@@ -24,14 +24,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1824
+source-wordcount: 1853
 ht-degree: 8%
 
 ---
 
 # IP 워밍업 플랜 만들기 {#ip-warmup}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 필요한 권한을 설정하고, 도메인 그룹을 사용하여 Excel 계획 파일을 준비하고, Adobe Journey Optimizer에서 IP 준비 계획을 만드는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 전용 구성과 해당 옵션이 활성화된 하나 이상의 [IP 준비 캠페인](ip-warmup-campaign.md)을(를) 만들면 IP 준비 계획을 만들 수 있습니다.
 

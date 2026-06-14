@@ -28,14 +28,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 459
-ht-degree: 11%
+source-wordcount: 486
+ht-degree: 10%
 
 ---
 
 # IP 워밍업 캠페인 만들기 {#create-ip-warmup-campaign}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** IP 준비 계획 내에서 예약하고 사용할 수 있도록 IP 준비 전용 이메일 캠페인을 만들고 활성화하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_ip_warmup"

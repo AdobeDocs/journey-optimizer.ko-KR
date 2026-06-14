@@ -24,14 +24,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 845
-ht-degree: 10%
+source-wordcount: 875
+ht-degree: 9%
 
 ---
 
 # PTR 기록 만들기 및 편집 {#ptr-records}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 하위 도메인을 Adobe에 위임할 때 PTR 레코드가 자동으로 만들어지는 방법과 Adobe Journey Optimizer에서 업데이트를 액세스, 편집 및 추적하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ptr_record"

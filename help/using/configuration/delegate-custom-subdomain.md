@@ -25,14 +25,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 960
-ht-degree: 22%
+source-wordcount: 992
+ht-degree: 21%
 
 ---
 
 # 사용자 정의 하위 도메인 설정 {#delegate-custom-subdomain}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 하위 도메인 및 SSL 인증서의 전체 소유권을 유지할 수 있는 사용자 지정 위임 방법을 사용하여 Adobe Journey Optimizer에서 사용자 지정 하위 도메인을 설정하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

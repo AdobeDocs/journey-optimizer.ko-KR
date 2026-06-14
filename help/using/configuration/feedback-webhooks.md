@@ -21,14 +21,20 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 subfeature_v2:
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 302
+source-wordcount: 332
 ht-degree: 1%
 
 ---
 
 # API 트리거 캠페인에 대한 피드백 웹후크 만들기 {#webhooks}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer에서 트랜잭션 API 트리거 캠페인을 위해 시스템에 실시간 메시지 상태 업데이트를 제공하는 피드백 웹후크를 만들고 구성하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 피드백 웹후크를 사용하면 트랜잭션 API 트리거 캠페인을 통해 전송된 메시지에 대한 실시간 상태 업데이트를 받을 수 있습니다. Webhook을 구성하면 게재 결과를 시스템에 직접 자동으로 수신하여 모니터링, 로깅 및 자동화된 처리를 가능하게 할 수 있습니다.
 

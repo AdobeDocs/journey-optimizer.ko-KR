@@ -29,14 +29,20 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1898
+source-wordcount: 1925
 ht-degree: 12%
 
 ---
 
 # 채널 구성 설정 {#set-up-channel-surfaces}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer에서 채널 구성을 만들고, 모니터링하고, 편집하고, 비활성화하여 메시지를 보내는 데 사용되는 기술적 매개 변수를 정의하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_channel_surfaces"

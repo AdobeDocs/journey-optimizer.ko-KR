@@ -23,14 +23,20 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 subfeature_v2:
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 427
-ht-degree: 8%
+source-wordcount: 453
+ht-degree: 7%
 
 ---
 
 # 이메일 오류 유형 {#email-error-types}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 각각 오류 레이블, 오류 유형, 기술 값 및 설명과 함께 Adobe Journey Optimizer의 전자 메일 배달 오류 전체 목록을 검토하십시오.
+
+>[!ENDSHADEBOX]
 
 게재 실패의 가능한 원인은 여러 가지입니다. 아래 표에는 [!DNL Journey Optimizer]과(와) 함께 전자 메일 게재를 보낼 때 발생할 수 있는 모든 오류와 설명 및 오류 유형이 자세히 나와 있습니다.
 

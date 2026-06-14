@@ -21,14 +21,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 53
-ht-degree: 15%
+source-wordcount: 77
+ht-degree: 10%
 
 ---
 
 # IP 준비 계획 템플릿 및 샘플 다운로드 {#ip-warmup-plan-files}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 빈 IP 준비 계획 템플릿과 채워진 샘플 파일을 다운로드하여 Adobe Journey Optimizer에서 계획을 준비합니다.
+
+>[!ENDSHADEBOX]
 
 <!--
 DO NOT MAKE PUBLIC AND DO NOT DELETE

@@ -23,14 +23,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 297
-ht-degree: 27%
+source-wordcount: 324
+ht-degree: 25%
 
 ---
 
 # 하위 도메인에 Google TXT 레코드 추가 {#google-txt-record}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Gmail 주소로 전자 메일을 성공적으로 배달할 수 있도록 하위 도메인에서 Google 사이트 확인 TXT 레코드를 추가하고 업데이트하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_google"

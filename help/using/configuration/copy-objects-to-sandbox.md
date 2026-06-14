@@ -33,14 +33,20 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: bd17716b18efd2a9043bcfd7389e6a4082f56bcc
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 2447
+source-wordcount: 2475
 ht-degree: 2%
 
 ---
 
 # 다른 샌드박스로 개체 내보내기 {#copy-to-sandbox}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 패키지 내보내기 및 가져오기를 사용하여 샌드박스 간에 여정, 캠페인, 사용자 지정 작업, 콘텐츠 템플릿 및 조각과 같은 Adobe Journey Optimizer 개체를 복사하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 패키지 내보내기 및 가져오기 기능을 사용하여 여러 샌드박스에서 여정, 캠페인, 사용자 지정 작업, 콘텐츠 템플릿 또는 조각과 같은 개체를 복사할 수 있습니다. 패키지는 단일 개체 또는 여러 개체로 구성될 수 있습니다. 패키지에 포함되는 모든 개체는 동일한 샌드박스에서 가져온 개체여야 합니다.
 

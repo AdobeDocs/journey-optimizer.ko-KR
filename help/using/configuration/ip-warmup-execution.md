@@ -24,14 +24,20 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 2770
-ht-degree: 12%
+source-wordcount: 2795
+ht-degree: 11%
 
 ---
 
 # IP 준비 계획 실행 {#ip-warmup-running}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** IP 웜업 계획의 단계 및 실행을 정의하고 활성화하며 상태 및 보고서를 통해 진행 상황을 모니터링하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 [IP 준비 계획을 만들고](ip-warmup-plan.md)게재 컨설턴트와 함께 준비한 파일을 업로드하면 플랜에서 단계 및 실행을 정의할 수 있습니다.
 

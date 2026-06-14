@@ -24,14 +24,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1019
-ht-degree: 24%
+source-wordcount: 1052
+ht-degree: 23%
 
 ---
 
 # [!DNL Journey Optimizer]에서 하위 도메인 위임 {#subdomain-delegation}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer에서 전자 메일 전송 하위 도메인을 설정하는 이유와 방법을 알아보고, 도메인 신뢰도와 전달성을 보호하기 위해 전체 위임, CNAME 및 사용자 지정 위임 방법을 비교합니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_delegated_subdomains"
