@@ -24,14 +24,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a26cfd05faa746308e7734ea9df28287d06e7290
 workflow-type: tm+mt
-source-wordcount: 2080
+source-wordcount: 2111
 ht-degree: 8%
 
 ---
 
 # 랜딩 페이지에서 양식 사용 {#lp-forms}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 양식을 작성하고 Data Capture 랜딩 페이지에 임베드하여 방문자로부터 프로필 특성을 수집하고 Experience Platform 데이터 세트에 대한 제출을 작성하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] 랜딩 페이지로 프로필 데이터를 캡처하고 [!DNL Experience Platform] 데이터 세트를 보강하려면 랜딩 페이지의 양식을 활용할 수 있습니다. 데이터 캡처 시나리오 및 요구 사항에 대한 개요는 [랜딩 페이지를 사용한 데이터 캡처](get-started-lp.md#data-capture-lp)를 참조하십시오.
 

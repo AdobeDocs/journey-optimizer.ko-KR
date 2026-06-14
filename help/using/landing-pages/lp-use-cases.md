@@ -25,14 +25,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4a6224453ae94fd5eb8ddee612ad2c4ea0f122e8
 workflow-type: tm+mt
-source-wordcount: 1238
+source-wordcount: 1263
 ht-degree: 12%
 
 ---
 
 # 랜딩 페이지 사용 사례 {#lp-use-cases}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 랜딩 페이지를 사용하여 구독을 유도하고, 옵트아웃을 캡처하고, 양식 제출에서 후속 여정을 트리거하는 실제 사례를 살펴봅니다.
+
+>[!ENDSHADEBOX]
 
 다음은 [!DNL Journey Optimizer] 랜딩 페이지를 사용하여 고객이 일부 또는 모든 커뮤니케이션 수신을 옵트인/옵트아웃하도록 하는 방법의 예입니다.
 
@@ -159,7 +165,7 @@ ht-degree: 12%
    >
    >메시지를 보내려면 선택한 랜딩 페이지가 아직 만료되지 않았는지 확인하십시오. 이 섹션[&#128279;](create-lp.md#configure-primary-page)에서 만료 날짜 을(를) 업데이트하는 방법을 알아보세요.
 
-1. 여정을 게시하고 실행합니다. [자세히 알아보기](../building-journeys/journey.md).
+1. 여정을 게시하고 실행합니다. [자세히 알아보기](../building-journeys/journey.md)
 
 1. 메시지가 수신되면 수신자가 이메일의 구독 취소 링크를 클릭하면 랜딩 페이지가 표시됩니다.
 

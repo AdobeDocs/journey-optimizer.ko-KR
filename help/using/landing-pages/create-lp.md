@@ -30,14 +30,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a26cfd05faa746308e7734ea9df28287d06e7290
 workflow-type: tm+mt
-source-wordcount: 1716
-ht-degree: 26%
+source-wordcount: 1750
+ht-degree: 25%
 
 ---
 
 # 랜딩 페이지 만들기 및 게시 {#create-lp}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 메시지를 통해 클릭스루하는 고객이 가입, 데이터 공유 또는 옵트아웃할 수 있는 전용 페이지에 도달하도록 랜딩 페이지를 구성, 테스트 및 게시하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 고객이 특정 링크를 클릭할 때 표시할 정의된 웹 페이지로 안내하려면 [!DNL Journey Optimizer]에 랜딩 페이지를 만들고 기본 페이지와 하위 페이지를 구성하고 테스트하여 게시합니다.
 

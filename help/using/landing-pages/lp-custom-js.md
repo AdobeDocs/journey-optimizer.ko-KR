@@ -21,14 +21,20 @@ subfeature_v2:
   - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4a6224453ae94fd5eb8ddee612ad2c4ea0f122e8
 workflow-type: tm+mt
-source-wordcount: 568
+source-wordcount: 596
 ht-degree: 2%
 
 ---
 
 # 랜딩 페이지에서 사용자 지정 JavaScript 사용 {#lp-custom-js}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 랜딩 페이지를 사용자 지정 JavaScript으로 확장하여 입력의 유효성을 검사하거나, 사용자 지정 양식 제출을 실행하거나, Analytics 이벤트를 실행하거나, 표준 편집기를 벗어난 동적 동작을 빌드합니다.
+
+>[!ENDSHADEBOX]
 
 사용자 지정 JavaScript을 사용하여 랜딩 페이지 콘텐츠를 정의할 수 있습니다. 예를 들어 고급 스타일을 수행해야 하거나 랜딩 페이지에 사용자 지정 동작을 추가하려는 경우, 고유한 컨트롤을 빌드하여 [!DNL Journey Optimizer]에서 실행할 수 있습니다.
 

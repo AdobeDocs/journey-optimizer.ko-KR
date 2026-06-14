@@ -23,14 +23,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: a26cfd05faa746308e7734ea9df28287d06e7290
 workflow-type: tm+mt
-source-wordcount: 442
-ht-degree: 9%
+source-wordcount: 469
+ht-degree: 8%
 
 ---
 
 # 랜딩 페이지 관리 {#manage-lp}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 기존 랜딩 페이지를 찾고, 필터링하고, 폴더 및 태그로 구성하여 프로젝트가 확장될 때 작업을 구조화하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 ## 랜딩 페이지 액세스 {#access-landing-pages}
 

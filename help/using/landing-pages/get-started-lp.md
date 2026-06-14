@@ -25,14 +25,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 2956c3df01f4b2e753111ecf54163ec4084fecf2
 workflow-type: tm+mt
-source-wordcount: 735
-ht-degree: 96%
+source-wordcount: 781
+ht-degree: 91%
 
 ---
 
 # 랜딩 페이지 시작 {#get-started-lp}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 랜딩 페이지에서 이메일, 광고 또는 캠페인을 클릭하여 고객이 옵트인하거나 옵트아웃하고, 환경 설정을 관리하고, 프로필 데이터를 공유하는 전용 웹 대상으로 전환하면 동의 대상을 늘리고 개인화를 지원하는 자사 데이터를 캡처할 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 랜딩 페이지는 사용자가 이메일이나 웹 사이트, 광고 또는 기타 디지털 위치를 클릭하면 이동하게 되는 독립형 웹 페이지입니다.
 

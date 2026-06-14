@@ -25,14 +25,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: a26cfd05faa746308e7734ea9df28287d06e7290
 workflow-type: tm+mt
-source-wordcount: 245
-ht-degree: 20%
+source-wordcount: 280
+ht-degree: 17%
 
 ---
 
 # 랜딩 페이지 콘텐츠 디자인 {#design-lp}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 랜딩페이지 콘텐츠를 디자인하는 방법을 알아봅니다. 처음부터 콘텐츠 디자이너에서 AI Assistant, 자체 HTML 또는 저장된 템플릿으로 랜딩페이지 콘텐츠를 디자인할 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 랜딩 [기본 페이지](create-lp.md#configure-primary-page) 또는 [하위 페이지](create-lp.md#configure-subpages)에 대한 콘텐츠를 만들려면 페이지 콘텐츠 위에 마우스를 놓고 **[!UICONTROL Designer 열기]**&#x200B;를 클릭하십시오. 오른쪽 팔레트에서 해당 버튼을 클릭할 수도 있습니다.
 

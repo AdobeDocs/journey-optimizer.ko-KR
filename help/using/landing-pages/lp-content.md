@@ -26,14 +26,20 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: c9b1b332102b782fa7ddb5a7796da7961de09b9e
 workflow-type: tm+mt
-source-wordcount: 1630
+source-wordcount: 1668
 ht-degree: 12%
 
 ---
 
 # 랜딩 페이지별 콘텐츠 정의 {#lp-content}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 양식 구성 요소는 정적 랜딩 페이지를 대화형 환경으로 전환합니다. 이를 추가하여 방문자가 옵트인 또는 옵트아웃하거나, 구독을 관리하거나, Experience Platform 데이터 세트로 직접 유입되는 데이터를 제출할 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_components"
