@@ -9,31 +9,25 @@ level: Experienced
 keywords: 스키마, 플랫폼, 데이터, 구조
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
 TQID: https://experienceleague.adobe.com/fWsW9Rvyd8L4nphczzc7GF1rbO7HuYsjqDBBpy3uoGU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371
-  - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
-  - id: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371id: d6e5c7fd-c1d6-4137-98cd-138ccde6752fid: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
 workflow-type: tm+mt
-source-wordcount: 440
-ht-degree: 100%
+source-wordcount: 477
+ht-degree: 92%
 
 ---
 
 # 스키마 시작 {#schemas-gs}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer에서 개인화 및 오케스트레이션된 캠페인을 위해 프로필, 동작 이벤트 및 관계형 엔터티를 모델링할 수 있도록 Adobe Experience Platform 표준 및 관계형 스키마가 데이터 구조를 정의하는 방법을 이해합니다.
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer]에서는 데이터의 구조를 일관되고 재사용 가능한 방식으로 서술하기 위해 **Adobe Experience Platform 스키마**&#x200B;를 사용합니다. 스키마는 실제 오브젝트(예: 사람)에 대한 추상적인 정의를 제공하고, 해당 오브젝트의 각 인스턴스에 포함되어야 하는 데이터(예: 이름, 성, 생일 등)에 대한 개요를 제공합니다. 데이터가 Experience Platform에 수집되면 항상 **XDM 스키마**&#x200B;에 따라 구조화됩니다.
 
@@ -74,7 +68,7 @@ Adobe Experience Platform에는 두 가지 유형의 스키마가 있습니다.
 
 표준 스키마를 만들고, 필드 그룹을 추가하고, 사용자 정의 필드 그룹을 만들고 구성하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416872?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334461?quality=12)
 
 >[!MORELIKETHIS]
 >

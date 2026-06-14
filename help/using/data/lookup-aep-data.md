@@ -12,28 +12,26 @@ mini-toc-levels: 1
 badge: label="제한 공개" type="Informative"
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
 TQID: https://experienceleague.adobe.com/8D-sZ8--lEZSWcfVb9Q-dT59WqBQM2tRV5ses3PX0Ps
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371
-  - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
-  - id: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371id: d6e5c7fd-c1d6-4137-98cd-138ccde6752fid: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
+source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
 workflow-type: tm+mt
-source-wordcount: 890
-ht-degree: 10%
+source-wordcount: 922
+ht-degree: 9%
 
 ---
 
 # Adobe Experience Platform 데이터 사용 {#aep-data}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 조회를 위해 레코드 기반 Adobe Experience Platform 데이터 세트를 사용하도록 설정하면 Journey Optimizer의 런타임 시 검색된 참조 및 트랜잭션 데이터를 사용하여 개인화, 의사 결정 및 여정 오케스트레이션을 강화할 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="lookup-aep-data"
@@ -90,7 +88,7 @@ ht-degree: 10%
 
 개인화를 위해 데이터 세트의 데이터를 활용하려면 조회를 위해 데이터 세트를 활성화해야 합니다.
 
-### 전제 조건 {#prerequisites-enable}
+### 사전 요구 사항 {#prerequisites-enable}
 
 조회에 사용할 데이터 세트와 연결된 스키마는 레코드 유형이어야 합니다. 스키마는 프로필 또는 이벤트 클래스가 아니어야 합니다.
 
@@ -126,7 +124,7 @@ ht-degree: 10%
 
 [이 설명서](https://developer.adobe.com/journey-optimizer-apis/references/authentication)에 설명된 지침에 따라 API 명령을 보내도록 환경을 구성하십시오.
 
-#### 전제 조건
+#### 사전 요구 사항
 
 * 개발자 프로젝트에는 Adobe Journey Optimizer 및 Adobe Experience Platform API가 프로젝트에 추가되어 있어야 합니다.
 

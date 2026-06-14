@@ -10,31 +10,25 @@ level: Experienced
 keywords: 데이터 세트, 최적화 도구, 사용 사례
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 TQID: https://experienceleague.adobe.com/bbZLNKJ3wg--z3PcVQ4tTvMtuyR7LMsh7qJjrlZ6L7Y
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371
-  - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
-  - id: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 5f839a4ab1e599764c9b797e4a9a42850808e3e3
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371id: d6e5c7fd-c1d6-4137-98cd-138ccde6752fid: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
 workflow-type: tm+mt
-source-wordcount: 1118
+source-wordcount: 1152
 ht-degree: 2%
 
 ---
 
 # 쿼리 예 {#query-examples}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 전자 메일 및 푸시 추적, 메시지 피드백, 여정 단계, 보고 및 문제 해결을 위한 데이터 의사 결정을 분석할 수 있도록 Journey Optimizer 시스템 데이터 세트에 대해 바로 사용할 수 있는 SQL 쿼리 예제를 살펴봅니다.
+
+>[!ENDSHADEBOX]
 
 이 페이지에서는 Adobe Journey Optimizer 데이터 세트 목록 및 관련 사용 사례를 확인할 수 있습니다.
 
