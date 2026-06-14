@@ -6,25 +6,28 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c618a0dc-1818-4c6d-9916-0d92e6796f24
-  - id: d056adbe-402d-4f42-9746-f3d424e598b1
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c618a0dc-1818-4c6d-9916-0d92e6796f24id: d056adbe-402d-4f42-9746-f3d424e598b1
+source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
-source-wordcount: 1096
-ht-degree: 20%
+source-wordcount: 1128
+ht-degree: 19%
 
 ---
 
 # 웹 콘텐츠 편집 {#edit-web-content}
 
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 구성 요소 추가, 개인화, 탐색 표시 및 검색 모드 탐색, 장치 크기 조정 등 Adobe Journey Optimizer 웹 디자이너를 사용하여 웹 콘텐츠를 편집하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
+
 [웹 경험을 여정 또는 캠페인에 추가](create-web.md#create-web-experience)하면 웹 디자이너를 사용하여 사이트의 콘텐츠를 편집할 수 있습니다.
 
 [이 비디오에서는 웹 캠페인을 만드는 방법을 알아봅니다.](#video)
 
-[!DNL Journey Optimizer]에서 웹 작성은 **Adobe Experience Cloud Visual Helper** chrome 브라우저 확장 기능을 기반으로 합니다. [자세히 알아보기](web-prerequisites.md#visual-authoring-prerequisites)
+[!DNL Journey Optimizer]에서 웹 작성은 **Adobe Experience Cloud Visual Helper** chrome 브라우저 확장 기능을 통해 제공됩니다. [자세히 알아보기](web-prerequisites.md#visual-authoring-prerequisites)
 
 >[!CAUTION]
 >
@@ -189,4 +192,4 @@ ht-degree: 20%
 
 아래 비디오에서는 [!DNL Journey Optimizer] 캠페인에서 웹 디자이너를 사용하여 웹 경험을 만드는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452642/?captions=kor&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3418803/?quality=12&learn=on)
