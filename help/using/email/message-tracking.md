@@ -10,36 +10,26 @@ level: Beginner, Intermediate
 keywords: 링크, 추적, 모니터링, 이메일
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 TQID: https://experienceleague.adobe.com/mY-h-cTs9mlZH5XJNS9Yv3pxGVoRn-pBTHAh8TlBi8I
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: f550d0f2-143d-4093-9463-467fbec95fcc
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c6e980f5-2d4f-494f-beef-186b9ecf1513id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: f550d0f2-143d-4093-9463-467fbec95fccid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: beb7a3c1-66ab-4786-b879-7621375b3c40id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1464
-ht-degree: 26%
+source-wordcount: 1491
+ht-degree: 25%
 
 ---
 
 # 링크 추가 및 메시지 추적 {#tracking}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 링크를 삽입 및 관리하고, 미러 페이지를 추가하고, 열기 및 클릭 추적을 활성화하여 전자 메일을 통해 받는 사람 참여를 모니터링하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer]을(를) 사용하여 콘텐츠에 링크를 추가하고 보낸 메시지를 추적하여 받는 사람의 동작을 모니터링합니다.
 
@@ -105,7 +95,7 @@ ht-degree: 26%
 
    * **[!UICONTROL 랜딩 페이지]**&#x200B;를 선택하여 랜딩 페이지에 링크를 삽입합니다. [자세히 알아보기](../landing-pages/create-lp.md)
 
-   * **[!UICONTROL 한 번의 클릭으로 옵트아웃]**&#x200B;을 선택하여 사용자가 옵트아웃을 확인할 필요 없이 커뮤니케이션에서 빠르게 구독을 취소할 수 있는 링크를 삽입합니다. [자세히 알아보기](email-opt-out.md#one-click-opt-out).
+   * **[!UICONTROL 한 번의 클릭으로 옵트아웃]**&#x200B;을 선택하여 사용자가 옵트아웃을 확인할 필요 없이 커뮤니케이션에서 빠르게 구독을 취소할 수 있는 링크를 삽입합니다. [자세히 알아보기](email-opt-out.md#one-click-opt-out)
 
    * **[!UICONTROL 외부 옵트인/구독]**&#x200B;을(를) 선택하여 브랜드의 수신 통신을 수락하는 링크를 삽입합니다.
 

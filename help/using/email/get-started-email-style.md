@@ -10,30 +10,26 @@ level: Beginner, Intermediate
 keywords: 이메일, 스타일, css, 본문, 구조
 exl-id: 2e20ecc5-bb58-4dc8-a2bc-ec5a02c16ae8
 TQID: https://experienceleague.adobe.com/AVhoxB06o8nR8q1ER7Jhh-oJ8gb9r1P5R6Fc2EIDuHA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebbid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 306
-ht-degree: 100%
+source-wordcount: 342
+ht-degree: 89%
 
 ---
 
 # 이메일 스타일 시작 {#get-started-email-style}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** [전자 메일 Designer 스타일] 창에서 본문, 구조 또는 콘텐츠 구성 요소에 색상, 글꼴, 테두리, 여백 및 패딩과 같은 설정을 적용하여 전자 메일 콘텐츠의 스타일을 조정하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer]에서 이메일 콘텐츠를 만들 때는 [이메일 디자이너]의 **[!UICONTROL 스타일]** 창에서 여러 스타일 매개 변수와 속성을 조정할 수 있습니다.
 

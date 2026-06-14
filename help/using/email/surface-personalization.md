@@ -10,29 +10,25 @@ level: Experienced
 keywords: 설정, 이메일, 구성, 하위 도메인
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
 TQID: https://experienceleague.adobe.com/NcnCL11koNfpNF-RDrVPyBsBgMuvpfSNlUcAfwOeGBg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fae48155-b23f-40d2-a252-a25bce350b4d
-  - id: c41e8697-e629-4c38-96b3-564faaa17acf
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fae48155-b23f-40d2-a252-a25bce350b4did: c41e8697-e629-4c38-96b3-564faaa17acf
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1191
+source-wordcount: 1215
 ht-degree: 6%
 
 ---
 
 # 이메일 구성 설정 개인화 {#surface-personalization}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 전자 메일 채널 구성 수준에서 동적 하위 도메인, 헤더 매개 변수 및 URL 추적 매개 변수에 대해 개인화된 값을 정의하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer]을(를) 사용하면 전자 메일 구성을 만들 때 하위 도메인, 헤더 및 URL 추적 매개 변수에 대해 개인화된 값을 정의하여 전자 메일 설정을 보다 유연하게 제어하고 제어할 수 있습니다.
 

@@ -8,14 +8,20 @@ level: Beginner, Intermediate
 exl-id: 0c2f95ce-28a0-480c-9829-b7e4975b6340
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1115
+source-wordcount: 1151
 ht-degree: 3%
 
 ---
 
 # AI 받은 편지함에 대한 이메일 최적화 {#email-text-optimizer}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** AI 지원 받은 편지함 클라이언트가 오퍼 및 작업 호출에서 요약 및 답변을 작성할 수 있도록 이메일 Designer에서 전용 버전의 이메일을 생성하고 구체화하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer]에는 개선된 AI 지원 받은 편지함 환경(예: [!DNL Gmail]의 [!DNL Apple Intelligence] 및 [!DNL Google Gemini])을 위해 특정 버전의 메시지를 구성하는 데 도움이 되는 이메일 채널 기능이 포함되어 있으므로 질문에 답변하고 콘텐츠를 기반으로 메일을 보다 정확하게 요약하여 더 나은 결과를 얻을 수 있습니다.
 
@@ -61,7 +67,7 @@ ht-degree: 3%
 >
 >이 기능을 사용하기 전에 관련 [위험 및 제한 사항](#inbox-ai-risks)을 읽어 보십시오.
 >
->이 기능에 액세스하려면 [!DNL Journey Optimizer]에서 생성 AI를 처음 사용할 때 표시되는 사용자 계약에 동의해야 합니다. 자세한 내용은 [Adobe Experience Cloud Generative AI 사용 지침](https://www.adobe.com/kr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}을 참조하세요.
+>이 기능에 액세스하려면 [!DNL Journey Optimizer]에서 생성 AI를 처음 사용할 때 표시되는 사용자 계약에 동의해야 합니다. 자세한 내용은 [Adobe Experience Cloud 생성 AI 사용자 지침](https://www.adobe.com/kr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}을 참조하십시오.
 
 [!DNL Journey Optimizer]을(를) 사용하여 AI 받은 편지함 경험에 대한 전자 메일 콘텐츠를 최적화하려면 아래 단계를 따르십시오.
 

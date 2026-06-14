@@ -10,26 +10,25 @@ level: Beginner
 keywords: 이메일, 메시지, 첨부 파일, pdf, 편집기
 exl-id: 71e218d0-5b3b-4db5-8b7b-d08df8f088c4
 TQID: https://experienceleague.adobe.com/9IgYERskcUrIAhTb3xlNgWTRyY-04O58ZB8I0lYFh4g
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 351
-ht-degree: 38%
+source-wordcount: 375
+ht-degree: 36%
 
 ---
 
 # 이메일에 PDF 파일 첨부 {#pdf-attachments}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 파일 크기 및 적용되는 전송 볼륨 제한을 포함하여 정적 PDF 파일을 전자 메일에 첨부하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_pdf_attachments"
@@ -58,7 +57,7 @@ ht-degree: 38%
 
    >[!NOTE]
    >
-   >메시지를 디자인할 때는 Journey Optimizer 인터페이스 내에서 Assets Essentials 저장소에 직접 액세스합니다. 포함된 [!DNL Assets Essentials] 사용자 인터페이스에 대한 자세한 내용은 [Experience Manager Assets Essentials 설명서](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=ko){target="_blank"}를 참조하세요.
+   >메시지를 디자인할 때는 Journey Optimizer 인터페이스 내에서 Assets Essentials 저장소에 직접 액세스합니다. 포함된 [!DNL Assets Essentials] 사용자 인터페이스에 대한 자세한 내용은 [Experience Manager Assets Essentials 설명서](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}를 참조하세요.
 
 1. **[!UICONTROL MIME 형식]** 섹션의 **[!UICONTROL PDF]** 필터를 사용하여 올바른 파일 형식으로 선택을 제한하십시오.
 

@@ -10,29 +10,26 @@ level: Intermediate
 keywords: 오퍼, 결정, 이메일, 개인화, 결정
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
 TQID: https://experienceleague.adobe.com/ajycOqX0Q6spKP8RgXmF-QLR95AYsCLLfIaKofpd95k
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: c41e8697-e629-4c38-96b3-564faaa17acf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebbid: c41e8697-e629-4c38-96b3-564faaa17acf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 652
+source-wordcount: 678
 ht-degree: 1%
 
 ---
 
 # 맞춤형 오퍼 추가 {#deliver-personalized-offers}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer에서 각 수신자에게 최상의 개인화된 오퍼를 제공할 수 있도록 이메일에 오퍼 결정을 삽입하고 미리 보는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] 이메일에서 의사 결정 관리 엔진을 활용하여 고객에게 제공할 최상의 오퍼를 선택하는 의사 결정을 삽입할 수 있습니다.
 
@@ -97,7 +94,7 @@ ht-degree: 1%
 
       >[!NOTE]
       >
-      >이 예제에서는 **Email** 네임스페이스를 사용합니다. 이 섹션[&#128279;](../audience/get-started-identity.md)에서 Adobe Experience Platform ID 네임스페이스 에 대해 자세히 알아보세요.
+      >이 예제에서는 **Email** 네임스페이스를 사용합니다. 이 섹션](../audience/get-started-identity.md)에서 Adobe Experience Platform ID 네임스페이스 [에 대해 자세히 알아보세요.
 
    1. **[!UICONTROL ID 값]** 필드에 테스트 프로필을 식별할 값을 입력하십시오. 이 예에서는 테스트 프로필의 이메일 주소를 입력합니다.
 
@@ -119,4 +116,4 @@ ht-degree: 1%
 
 [!DNL Journey Optimizer]의 메시지에 의사 결정 관리 구성 요소를 추가하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3415690?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334088?quality=12)

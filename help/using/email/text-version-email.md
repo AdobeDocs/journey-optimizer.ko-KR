@@ -11,14 +11,20 @@ keywords: 텍스트, 이메일, 버전, 일반, 편집기
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1171
+source-wordcount: 1199
 ht-degree: 8%
 
 ---
 
 # 이메일의 텍스트 버전 관리 {#text-version-email}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 전자 메일의 자동 동기화된 기본 일반 텍스트 버전을 사용하거나 사용자 지정 전자 메일을 만드는 방법 및 각 접근 방식이 가장 잘 작동하는 시기를 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 이메일 본문의 텍스트 버전을 만들어 두면 HTML 콘텐츠를 표시할 수 없을 때 사용할 수 있습니다.
 

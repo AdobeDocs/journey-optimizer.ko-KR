@@ -10,35 +10,26 @@ level: Intermediate
 keywords: 옵트아웃, 이메일, 링크, 구독 취소
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
 TQID: https://experienceleague.adobe.com/F77MDJH94Db-fXGpbhKBUGok48jNIiFu3x2R6x2DYeA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fae48155-b23f-40d2-a252-a25bce350b4d
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: a9cf78bf-e9e4-4836-85a5-b6b3cf93bf56
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fae48155-b23f-40d2-a252-a25bce350b4did: fb9a80eb-bebc-492f-a0e9-584595621ebbid: a9cf78bf-e9e4-4836-85a5-b6b3cf93bf56
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1220
-ht-degree: 22%
+source-wordcount: 1259
+ht-degree: 21%
 
 ---
 
 # 이메일 옵트아웃 관리 {#email-opt-out}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 전자 메일 머리글이나 본문의 한 번 클릭 옵트아웃 링크와 랜딩 페이지를 통한 두 단계 옵트아웃을 포함하여 받는 사람이 향후 통신을 중지할 수 있도록 전자 메일에 구독 취소 옵션을 추가하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 여정 또는 캠페인에서 메시지를 보낼 때 고객이 향후 커뮤니케이션에서 구독을 취소할 수 있도록 항상 확인해야 합니다. 구독이 취소되면 향후 마케팅 메시지 대상자에서 프로필이 자동으로 제거됩니다.  [개인 정보 및 옵트아웃 관리에 대해 자세히 알아보기](../privacy/opt-out.md)
 
@@ -56,7 +47,7 @@ ht-degree: 22%
 
 수신자가 옵트아웃 링크를 클릭하면 그에 따라 구독 취소 요청이 처리됩니다.
 
-해당 프로필의 선택 사항이 업데이트되었는지 확인하려면 Experience Platform으로 이동하여 [해당 프로필을 찾아봅니다](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/ui/user-guide?lang=en#browse-tab){target="_blank"}. [특성 탭](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/ui/user-guide#attributes){target="_blank"}에서 **[!UICONTROL choice]**&#x200B;의 값이 **[!UICONTROL no]**(으)로 변경되었음을 확인할 수 있습니다. [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=ko){target="_blank"}에서 동의 처리에 대해 자세히 알아보세요.
+해당 프로필의 선택 사항이 업데이트되었는지 확인하려면 Experience Platform으로 이동하여 [해당 프로필을 찾아봅니다](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide?lang=en#browse-tab){target="_blank"}. [특성 탭](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#attributes){target="_blank"}에서 **[!UICONTROL choice]**&#x200B;의 값이 **[!UICONTROL no]**(으)로 변경되었음을 확인할 수 있습니다. [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=ko){target="_blank"}에서 동의 처리에 대해 자세히 알아보세요.
 
 ![](assets/opt-out-profile-choice.png)
 
@@ -109,7 +100,7 @@ ht-degree: 22%
 이 구독 취소 모드를 구현하려면 옵트아웃 랜딩 페이지를 만들어 게시하고 랜딩 페이지 링크가 있는 구독 취소 링크를 이메일 메시지에 추가해야 합니다. 이러한 단계는 아래에 요약되어 있습니다.
 
 
-### 전제 조건 {#prereq-lp}
+### 사전 요구 사항 {#prereq-lp}
 
 2단계 옵트아웃 메커니즘을 설정하려면 고유한 구독 취소 랜딩 페이지를 만들어야 합니다. 첫 번째 랜딩 페이지는 메시지에서 연결되며 call-to-action 버튼을 포함해야 합니다. 사용자가 버튼을 클릭하면 확인 메시지가 표시됩니다.
 

@@ -10,31 +10,26 @@ level: Beginner, Intermediate
 keywords: 구성 요소, 이메일 Designer, 편집기, 이메일
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
 TQID: https://experienceleague.adobe.com/t-8ADluALsr8pglh8Rv1y9TvObyUjjTAfXaagM-N7cs
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c6e980f5-2d4f-494f-beef-186b9ecf1513id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1468
-ht-degree: 47%
+source-wordcount: 1498
+ht-degree: 46%
 
 ---
 
 # 이메일 디자이너 콘텐츠 구성 요소 사용 {#content-components}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 단추, 텍스트, 이미지, 디바이더, HTML, 소셜 링크 및 오퍼 의사 결정과 같은 이메일 Designer 콘텐츠 구성 요소를 추가하고 구성하여 이메일 콘텐츠를 빌드하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_email"
@@ -191,7 +186,7 @@ ht-degree: 47%
 
 1. **[!UICONTROL 설정]** 탭에서 **[!UICONTROL 찾아보기]**&#x200B;를 클릭하여 에셋에서 이미지 파일을 선택하거나 **[!UICONTROL 미디어 가져오기]**&#x200B;를 클릭하여 에셋을 Adobe Experience Manager Assets에 업로드합니다.
 
-   [!DNL Adobe Experience Manager Assets]에 대한 자세한 내용은 [Adobe Experience Manager Assets 설명서](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=ko){target="_blank"}를 참조하세요.
+   [!DNL Adobe Experience Manager Assets]에 대한 자세한 내용은 [Adobe Experience Manager Assets 설명서](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}를 참조하세요.
 
    >[!NOTE]
    >
