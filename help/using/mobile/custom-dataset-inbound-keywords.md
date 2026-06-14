@@ -6,20 +6,22 @@ description: Experience Platform 스키마, 데이터 세트 및 SMS API 자격 
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-  - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 07322bd265647528f8e2e4a5f39d7806fd03b565
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7id: d6e5c7fd-c1d6-4137-98cd-138ccde6752fid: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 517
-ht-degree: 8%
+source-wordcount: 553
+ht-degree: 7%
 
 ---
 
 # 인바운드 키워드에 대한 사용자 지정 데이터 세트 사용 {#custom-dataset-inbound-keywords}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Experience Platform 스키마 및 데이터 집합을 만든 다음 Adobe Journey Optimizer SMS API 자격 증명에서 참조하여 프로필 사용 사용자 지정 데이터 집합에 인바운드 SMS 키워드를 저장하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 인바운드 SMS 키워드는 프로필이 활성화된 사용자 정의 데이터 세트에 저장할 수 있습니다. 구성은 Adobe Experience Platform 스키마, 해당 스키마에서 생성된 데이터 세트 및 인바운드 메시지에 대한 데이터 세트를 참조하는 Journey Optimizer SMS API 자격 증명으로 구성됩니다.
 
@@ -43,7 +45,7 @@ ht-degree: 8%
 
 스키마는 수집된 데이터에 적용되는 구조 및 유효성 검사 규칙을 정의합니다. 아래 나열된 기존 필드 그룹을 추가하여 인바운드 키워드 수집을 위한 경험 이벤트 스키마를 구성합니다.
 
-➡️ [Adobe Experience Platform 설명서에서 스키마 만들기에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/composition)
+➡️ [Adobe Experience Platform 설명서에서 스키마 만들기에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition)
 
 1. Adobe Experience Platform의 **[!UICONTROL 데이터 관리]**&#x200B;에서 **[!UICONTROL 스키마]**&#x200B;에 액세스하고 **[!UICONTROL 스키마 만들기]**&#x200B;를 선택합니다.
 
