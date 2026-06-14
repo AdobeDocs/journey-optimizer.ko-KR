@@ -7,12 +7,23 @@ role: User
 level: Beginner
 exl-id: 7961dc5c-7918-4ae3-8361-0ed4bc4f145b
 TQID: https://experienceleague.adobe.com/Zpz0yKyYrpflNhiGCIYQPELCCFp7A4CkbrJphwxuz70
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
-subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: a9f73820-6899-47c2-a597-3fec28ab756a
+  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+subfeature_v2:
+  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
+  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
+  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
 source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
 source-wordcount: 526
@@ -30,7 +41,7 @@ ht-degree: 21%
 
 Adobe Journey Optimizer은 강력한 보고 기능을 통해 실용적인 통찰력을 제공합니다. 캠페인, 여정, 랜딩 페이지, 구독 목록 등에 보고서를 사용할 수 있습니다. 사용 가능한 보고서는 아래에 나열되어 있습니다.
 
-또한 [!DNL Journey Optimizer] 경험의 전달성을 최적화하려면 이 섹션](deliverability.md)에 나열된 모범 사례를 사용하는 것이 좋습니다.[
+또한 [!DNL Journey Optimizer] 경험의 전달성을 최적화하려면 이 섹션[&#128279;](deliverability.md)에 나열된 모범 사례를 사용하는 것이 좋습니다.
 
 
 ## 보고서 유형 {#reporting-types}
@@ -40,7 +51,7 @@ Adobe Journey Optimizer은 강력한 보고 기능을 통해 실용적인 통찰
   ![](assets/report_journey.png)
 
 
-* **Customer Journey Analytics을 사용한 모든 시간 보고서** - Journey Optimizer 보고는 Customer Journey Analytics 기능과 완전히 통합되어 두 플랫폼 간에 보고를 표준화하고 데이터 일관성과 안정성을 개선합니다. 이렇게 Journey Optimizer와 Customer Journey Analytics가 원활하게 통합됨으로써 사용자가 성과 지표를 보다 명확하게 확인하여 더욱 정보에 근거한 결정을 내릴 수 있습니다. 이 섹션](report-gs-cja.md)에서 실시간 보고서 [에 대해 자세히 알아보세요.
+* **Customer Journey Analytics을 사용한 모든 시간 보고서** - Journey Optimizer 보고는 Customer Journey Analytics 기능과 완전히 통합되어 두 플랫폼 간에 보고를 표준화하고 데이터 일관성과 안정성을 개선합니다. 이렇게 Journey Optimizer와 Customer Journey Analytics가 원활하게 통합됨으로써 사용자가 성과 지표를 보다 명확하게 확인하여 더욱 정보에 근거한 결정을 내릴 수 있습니다. 이 섹션[&#128279;](report-gs-cja.md)에서 실시간 보고서 에 대해 자세히 알아보세요.
 
   ![](assets/gs-cja-report-1.png)
 
