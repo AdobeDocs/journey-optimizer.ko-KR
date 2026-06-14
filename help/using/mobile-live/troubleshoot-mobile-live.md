@@ -12,14 +12,20 @@ feature_v2:
 subfeature_v2:
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
   - id: ed2fba79-65cb-4680-96d2-2ad5d851714d
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
 workflow-type: tm+mt
-source-wordcount: 4607
+source-wordcount: 4641
 ht-degree: 1%
 
 ---
 
 # 라이브 활동 문제 해결 {#troubleshoot-mobile-live}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 라이브 활동이 표시, 업데이트 또는 종료되지 않는 이유를 체계적으로 진단하여 단일 및 브로드캐스트 사용 사례에서 프로필 토큰, 캠페인 구성, 페이로드 및 게재 문제를 해결할 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 Adobe Journey Optimizer의 라이브 활동을 통해 iOS 잠금 화면 및 Dynamic Islands에서 실시간으로 동적 업데이트를 수행할 수 있습니다. API 트리거 캠페인을 통해서만 트리거하고 관리할 수 있습니다.
 

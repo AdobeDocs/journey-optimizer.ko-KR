@@ -22,14 +22,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
 workflow-type: tm+mt
-source-wordcount: 421
+source-wordcount: 447
 ht-degree: 9%
 
 ---
 
 # 라이브 활동 만들기 {#create-mobile-live}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 개별 사용자 또는 대상의 라이브 활동을 원격으로 시작, 업데이트 및 종료할 수 있도록 Journey Optimizer에서 API 트리거 캠페인을 빌드합니다.
+
+>[!ENDSHADEBOX]
 
 모바일 구성을 구성하고 Adobe Experience Platform mobile SDK을 구현한 후 Journey Optimizer에서 라이브 활동을 만들 수 있습니다.
 

@@ -26,14 +26,20 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 3c50b7886c95a45f60f7ebd92dd7ea28bd128b77
+source-git-commit: e366af78935405cd5acb15269194875098b20914
 workflow-type: tm+mt
-source-wordcount: 2084
+source-wordcount: 2109
 ht-degree: 30%
 
 ---
 
 # 외부 데이터 소스 {#external-data-sources}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 조건 및 개인화를 위해 외부 데이터를 여정으로 가져올 수 있도록 서드파티 REST API에 연결하고 인증을 구성하십시오.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_custom"

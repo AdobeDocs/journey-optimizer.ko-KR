@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
 workflow-type: tm+mt
-source-wordcount: 528
-ht-degree: 2%
+source-wordcount: 557
+ht-degree: 1%
 
 ---
 
 # 라이브 활동 구성 시작 {#mobile-live-config}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 푸시 자격 증명과 라이브 활동 채널 구성을 설정하여 Adobe Journey Optimizer에서 iOS 앱에 대한 실시간 업데이트를 전달하도록 권한을 부여할 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 라이브 활동을 보내기 전에 Adobe Journey Optimizer 환경을 구성해야 합니다. 다음을 수행하십시오.
 

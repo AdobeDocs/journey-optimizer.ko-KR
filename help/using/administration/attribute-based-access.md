@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
 workflow-type: tm+mt
-source-wordcount: 1074
+source-wordcount: 1112
 ht-degree: 4%
 
 ---
 
 # 속성 기반 액세스 제어 {#attribute-based-access}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer의 특성 기반 액세스 제어를 사용하여 중요한 스키마 필드, 프로필 특성 및 대상을 승인된 역할로 제한하면 개인 데이터를 보호하고 권한이 없는 사용자가 해당 역할을 수행하지 못하도록 할 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 속성 기반 액세스 제어 기능을 사용하면 특정 팀이나 사용자 그룹에 대한 데이터 액세스를 관리할 권한을 정의할 수 있습니다. 그 목적은 승인되지 않은 사용자로부터 민감한 디지털 자산을 보호하여 개인 데이터를 더욱 안전하게 보호하는 것입니다.
 

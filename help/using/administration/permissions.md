@@ -24,14 +24,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
 workflow-type: tm+mt
-source-wordcount: 762
+source-wordcount: 792
 ht-degree: 8%
 
 ---
 
 # 사용자 및 역할 관리 {#manage-permissions}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 권한 제품에서 역할을 할당, 편집 및 만들어 각 사용자에게 Journey Optimizer에서 작업을 수행하는 데 필요한 액세스 권한을 제공할 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 **[!UICONTROL 역할]**&#x200B;은(는) 동일한 권한과 샌드박스를 공유하는 사용자 컬렉션을 참조합니다. 이러한 역할을 사용하면 조직 내의 다양한 사용자 그룹에 대한 액세스 및 권한을 쉽게 관리할 수 있습니다.
 

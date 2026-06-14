@@ -28,14 +28,20 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 5f839a4ab1e599764c9b797e4a9a42850808e3e3
+source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
 workflow-type: tm+mt
-source-wordcount: 1055
-ht-degree: 91%
+source-wordcount: 1087
+ht-degree: 88%
 
 ---
 
 # 데이트 세트 시작 {#datasets-gs}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer에서 여정, 캠페인 및 보고를 지원하는 데이터를 저장하고 탐색할 수 있도록 Adobe Experience Platform 데이터 세트에 액세스하고, 만들고, 관리하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 Adobe Experience Platform에 수집되는 모든 데이터는 데이터 세트로 Data Lake 내에 보관됩니다. 데이터 세트는 스키마(열) 및 필드(행)를 포함하는 데이터 수집을 위한 저장소 및 관리 구조입니다.
 

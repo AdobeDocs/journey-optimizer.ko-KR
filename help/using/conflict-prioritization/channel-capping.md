@@ -23,14 +23,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 1318
+source-wordcount: 1346
 ht-degree: 9%
 
 ---
 
 # 채널 및 커뮤니케이션 유형별 빈도 캡핑 {#rule-sets}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 프로필에서 받는 메시지 수를 제한하고 유사한 통신으로 압도적인 고객을 피하도록 채널 및 통신 유형별 빈도 상한선을 설정하십시오.
+
+>[!ENDSHADEBOX]
 
 **채널** 규칙 집합은 최대 가용량 규칙을 통신 채널에 적용합니다. 예를 들어 하루에 1회 이상의 이메일 또는 SMS 커뮤니케이션을 보내지 않도록 합니다.
 

@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 918
+source-wordcount: 948
 ht-degree: 6%
 
 ---
 
 # 방해 금지 시간 설정 {#quiet-hours}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 잘못된 시간에 고객에게 메시지를 보내는 것을 방지하고 고객의 선호도 및 준수 요구 사항을 준수할 수 있도록 이메일, SMS, 푸시 및 WhatsApp에 대한 시간 기반 제외를 정의합니다.
+
+>[!ENDSHADEBOX]
 
 ## 조용한 시간은 언제입니까
 

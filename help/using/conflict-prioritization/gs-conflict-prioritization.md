@@ -21,14 +21,20 @@ level_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 869
-ht-degree: 98%
+source-wordcount: 896
+ht-degree: 95%
 
 ---
 
 # 충돌 관리 및 우선순위 지정 {#conflict-prioritization}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 충돌 감지, 우선 순위 점수 및 규칙 집합이 함께 작동하는 방식을 살펴봄으로써 겹치는 커뮤니케이션을 방지하고 고객 메시지 빈도를 제어할 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 Journey Optimizer에서 너무 많은 상호 작용으로 고객에게 부담을 주는 상황을 피하려면 캠페인과 여정의 양과 타이밍을 관리하는 것이 필수적입니다. 충돌 관리 및 우선순위 지정 도구는 사려 깊고 시의적절한 커뮤니케이션을 제공하여 고객 피로를 방지하고 적절한 메시지가 대상자에게 전달되도록 도와줍니다. 충돌 감지, 우선순위 점수 및 규칙 세트를 사용하여 캠페인과 고객 여정을 간소화하고 중복을 방지하며 채널 간 빈도 균형을 맞출 수 있습니다.
 

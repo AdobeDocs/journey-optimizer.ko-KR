@@ -19,14 +19,20 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 subfeature_v2:
   - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 964
+source-wordcount: 993
 ht-degree: 18%
 
 ---
 
 # 여정 캡핑 및 중재 {#journey-capping}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 프로필이 한 번에 입력하거나 등록할 수 있는 여정 수를 제한하여 통신 오버로드를 방지하고 가장 중요한 여정의 우선 순위를 지정할 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 여정 캡핑은 프로필이 등록할 수 있는 여정 수를 제한하는 데 도움이 되며, 이를 통해 통신 과부하를 방지할 수 있습니다. Journey Optimizer에서는 두 가지 유형의 가용량 규칙을 설정할 수 있습니다.
 

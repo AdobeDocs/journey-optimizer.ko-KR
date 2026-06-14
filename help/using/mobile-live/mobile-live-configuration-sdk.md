@@ -24,15 +24,20 @@ subfeature_v2:
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
   - id: ed2fba79-65cb-4680-96d2-2ad5d851714d
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
 workflow-type: tm+mt
-source-wordcount: 546
+source-wordcount: 579
 ht-degree: 0%
 
 ---
 
 # Adobe Experience Platform Mobile SDK과 라이브 활동 통합 {#mobile-live-config-sdk}
 
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Experience Platform Mobile SDK을 iOS 앱에 통합하여 잠금 화면 및 Dynamic Island에서 실시간 활동 업데이트를 등록, 표시 및 수신할 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 Adobe Experience Platform Mobile SDK은 Apple의 라이브 활동에 대한 내장된 지원을 제공합니다. 이렇게 하면 앱을 열지 않고도 앱이 Lock Screen 및 Dynamic Island에서 직접 실시간 동적 업데이트를 표시할 수 있습니다.
 

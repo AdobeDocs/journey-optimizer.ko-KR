@@ -24,15 +24,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
 workflow-type: tm+mt
-source-wordcount: 404
-ht-degree: 94%
+source-wordcount: 449
+ht-degree: 84%
 
 ---
 
 # 라이브 활동 시작 {#get-started-mobile-live}
 
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 라이브 활동이 iPhone 잠금 화면 및 Dynamic Island에서 지속적인 실시간 업데이트를 제공하므로 진행 중인 이벤트 동안 사용자의 참여를 유지하고 Adobe Journey Optimizer으로 보내는 데 필요한 구성 및 API 트리거 캠페인을 계획할 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 라이브 활동은 디바이스 잠금 화면에 표시되는 지속적이고 매력적인 UI 요소입니다. 이 활동을 사용하면 앱이 최신 정보를 실시간으로 제공할 수 있습니다. 즉, 사용자가 앱을 열거나 반복적인 푸시 알림을 받지 않고도 이벤트가 지속되는 동안 정보를 확인할 수 있습니다.
 

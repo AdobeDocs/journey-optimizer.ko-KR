@@ -12,14 +12,20 @@ exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
 feature_v2:
   - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
 workflow-type: tm+mt
-source-wordcount: 514
-ht-degree: 20%
+source-wordcount: 548
+ht-degree: 19%
 
 ---
 
 # 오브젝트 수준 액세스 제어 {#object-level-access}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 개체 수준 액세스 제어를 사용하여 액세스 레이블이 있는 여정, 캠페인 및 오퍼와 같은 개별 개체를 제한하면 중요한 콘텐츠와 개인 데이터를 인증된 사용자로 제한할 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_olac_manage_access"
@@ -42,7 +48,7 @@ OLAC(객체 수준 액세스 제어) 기능을 사용하면 객체 선택에 대
 * IP 준비 계획
 
 
-## 전제 조건 {#prereq-labels}
+## 사전 요구 사항 {#prereq-labels}
 
 [레이블을 만들기](#create-labels)하려면 **[!UICONTROL 사용 레이블 관리]** 권한이 있는 역할에 속해야 합니다.
 

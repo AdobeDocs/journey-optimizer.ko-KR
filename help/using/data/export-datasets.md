@@ -27,14 +27,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 5f839a4ab1e599764c9b797e4a9a42850808e3e3
+source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
 workflow-type: tm+mt
-source-wordcount: 1128
+source-wordcount: 1154
 ht-degree: 5%
 
 ---
 
 # 데이터 세트를 클라우드 스토리지 위치로 내보내기 {#export-datasets}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 보고, 보관 및 외부 데이터 분석을 위해 Journey Optimizer 데이터 세트를 내보낼 수 있도록 클라우드 저장소 대상에 대한 실시간 연결을 설정합니다.
+
+>[!ENDSHADEBOX]
 
 Journey Optimizer을 사용하면 데이터 세트의 콘텐츠를 내보내기 위해 클라우드 스토리지 위치와 라이브 연결을 설정할 수 있습니다.
 

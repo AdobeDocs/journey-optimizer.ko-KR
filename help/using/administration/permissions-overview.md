@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
 workflow-type: tm+mt
-source-wordcount: 453
-ht-degree: 9%
+source-wordcount: 416
+ht-degree: 10%
 
 ---
 
 # 액세스 제어 시작 {#permissions-overview}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 역할, 권한, 샌드박스, 개체 및 특성 기반 액세스 제어 등 Journey Optimizer의 핵심 액세스 제어 개념을 이해하면 사용자에게 올바른 액세스 권한을 부여하는 방법을 계획할 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer]을(를) 사용하면 다른 사용자에게 할당된 권한을 정의하고 관리할 수 있습니다. 권한은 제품 내 기능 및 기능에 대한 액세스를 승인 또는 거부하는 권한 및 제한 세트입니다.
 

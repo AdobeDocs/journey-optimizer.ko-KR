@@ -24,14 +24,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 1067
-ht-degree: 33%
+source-wordcount: 1095
+ht-degree: 32%
 
 ---
 
 # 규칙 세트 작업 {#rule-sets}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 빈도 제한, 방해 금지 시간 및 여정 제한 규칙을 규칙 집합으로 그룹화하여 각 고객이 받는 통신 횟수와 횟수를 제어할 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_rule_sets"

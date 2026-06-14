@@ -26,14 +26,20 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
 workflow-type: tm+mt
-source-wordcount: 1126
+source-wordcount: 1162
 ht-degree: 10%
 
 ---
 
 # 데이터 세트 TTL(Time-to-Live) 가드레일 {#ttl-guardrail}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 추적, 피드백 및 여정 데이터를 사용할 수 있는 기간을 계획하고 만료되기 전에 중요한 데이터를 유지할 수 있도록 Journey Optimizer 시스템 생성 데이터 세트에 대한 TTL(Time-to-Live) 유지 제한을 이해합니다.
+
+>[!ENDSHADEBOX]
 
 2025년 2월부터 **새로운 샌드박스와 새로운 조직**&#x200B;에서 Journey Optimizer 시스템 생성 데이터 세트에 다음과 같은 TTL(Time-to-Live) 가드레일이 롤아웃됩니다.
 

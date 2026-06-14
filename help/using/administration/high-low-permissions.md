@@ -23,15 +23,20 @@ role_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 39c76d0356b15ec6b9cb9634d080d2f79e591adb
+source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
 workflow-type: tm+mt
-source-wordcount: 1516
+source-wordcount: 1545
 ht-degree: 0%
 
 ---
 
 # 권한 수준 {#high-low-permissions}
 
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 사용자에게 필요한 기능에 액세스할 수 있도록 역할을 정확하게 부여할 수 있도록 높은 수준의 권한이 각 리소스에 대해 기본 낮은 수준의 권한을 그룹화하는 방법을 이해합니다.
+
+>[!ENDSHADEBOX]
 
 각 역할은 사용자가 다양한 기능에 액세스할 수 있는 권한으로 구성됩니다.
 
