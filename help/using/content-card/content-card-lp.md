@@ -6,20 +6,22 @@ feature: Content Cards
 role: Admin, Developer
 level: Experienced
 exl-id: 8e1a1e94-c3c1-4981-9380-76b7d8302c78
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
 workflow-type: tm+mt
-source-wordcount: 257
+source-wordcount: 285
 ht-degree: 4%
 
 ---
 
 # Mobile SDK에서 콘텐츠 카드 지원 구성 {#content-card-lp}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Experience Platform Mobile SDK을 사용하여 콘텐츠 카드를 모바일 앱에 통합하면 정확한 보고를 위해 콘텐츠 카드를 가져오고, 렌더링하고, 추적할 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 Adobe Journey Optimizer에서 컨텐츠 카드를 가져와 모바일 애플리케이션에서 전체적인 구현을 수행하는 Adobe Experience Platform Mobile SDK를 사용하여 모바일 애플리케이션에서 렌더링할 수 있습니다. 메시징 SDK은 Adobe Journey Optimizer에서 만든 콘텐츠 카드를 검색할 수 있는 간단하고 사용하기 쉬운 API를 제공하고 앱에서 쉽게 사용하거나 앱 테마에 맞게 사용자 지정할 수 있는 이러한 카드에 대한 기본 모바일 보기를 빌드합니다. 또한 표시된 컨텐츠 카드와의 모든 앱 사용자 상호 작용을 자동으로 추적하여 Journey Optimizer 캠페인에 대한 정확한 보고를 보장합니다.
 
