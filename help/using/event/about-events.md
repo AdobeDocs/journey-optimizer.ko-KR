@@ -10,32 +10,26 @@ level: Intermediate, Experienced
 keywords: 이벤트, 이벤트, 여정, 정의, 시작
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
 TQID: https://experienceleague.adobe.com/xvLSBd-rwKKNqwQNDa4D8GfFzc-ND1FkC3EdstufkIY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: d08afb72-92f6-4856-88e3-11ec34313c2fid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c70b128e07c801e729a1268600265e47d7240291
 workflow-type: tm+mt
-source-wordcount: 2152
+source-wordcount: 2182
 ht-degree: 27%
 
 ---
 
 # 여정 이벤트 작업 {#about-events}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 이벤트는 여정을 시작하는 실시간 트리거입니다. 단일, 비즈니스 및 대상 자격 유형을 비교하여 각 사용 사례에 적합한 유형을 선택합니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_list"
@@ -64,7 +58,7 @@ ht-degree: 27%
 
 ## 비즈니스 이벤트 {#business-events}
 
-**Business** 이벤트가 특정 프로필에 연결되어 있지 않습니다. 예를 들어 뉴스 경고, 스포츠 업데이트, 비행 변경 또는 취소, 인벤토리 업데이트, 날씨 이벤트 등이 될 수 있습니다. 이러한 이벤트는 프로필에만 국한되지 않지만 특정 뉴스 주제를 구독하는 개인, 항공편 승객, 재고 부족 제품에 관심이 있는 쇼핑객 등 다양한 프로필에 관심을 가질 수 있습니다. 비즈니스 이벤트는 항상 규칙을 기반으로 합니다. 여정에서 비즈니스 이벤트를 삭제하면 **대상자 읽기** 활동이 바로 자동으로 추가됩니다. 이 페이지[&#128279;](../event/about-creating-business.md)에서 비즈니스 이벤트 을(를) 만드는 방법을 알아보세요.
+**Business** 이벤트가 특정 프로필에 연결되어 있지 않습니다. 예를 들어 뉴스 경고, 스포츠 업데이트, 비행 변경 또는 취소, 인벤토리 업데이트, 날씨 이벤트 등이 될 수 있습니다. 이러한 이벤트는 프로필에만 국한되지 않지만 특정 뉴스 주제를 구독하는 개인, 항공편 승객, 재고 부족 제품에 관심이 있는 쇼핑객 등 다양한 프로필에 관심을 가질 수 있습니다. 비즈니스 이벤트는 항상 규칙을 기반으로 합니다. 여정에서 비즈니스 이벤트를 삭제하면 **대상자 읽기** 활동이 바로 자동으로 추가됩니다. 이 페이지](../event/about-creating-business.md)에서 비즈니스 이벤트 [을(를) 만드는 방법을 알아보세요.
 
 ## 대상자 선별 이벤트 {#audience-qualification-events}
 
@@ -181,8 +175,8 @@ Adobe Journey Optimizer은 모든 샌드박스에서 조직 수준에서 초당 
 
 이벤트를 구성하고 이벤트에 대한 스트리밍 엔드포인트 및 페이로드를 지정하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431519?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 비즈니스 이벤트의 사용 사례를 이해합니다. 비즈니스 이벤트를 사용하여 여정을 작성하는 방법과 상황에 따라 적합한 모범 사례를 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416327?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)
