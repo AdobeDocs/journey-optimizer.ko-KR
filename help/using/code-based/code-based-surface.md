@@ -19,14 +19,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
-source-wordcount: 828
-ht-degree: 52%
+source-wordcount: 853
+ht-degree: 50%
 
 ---
 
 # 코드 기반 경험 표면 {#code-based-surface}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 코드 기반 경험 표면 및 표면 URI가 무엇이며 콘텐츠가 전달되는 위치를 어떻게 식별하는지 이해합니다.
+
+>[!ENDSHADEBOX]
 
 ## 표면이란 무엇입니까? {#surface-definition}
 

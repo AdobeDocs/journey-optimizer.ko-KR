@@ -23,14 +23,20 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
-source-wordcount: 973
-ht-degree: 24%
+source-wordcount: 1009
+ht-degree: 23%
 
 ---
 
 # 웹 수정 사항 관리 {#manage-web-modifications}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** [수정 사항] 창에서 웹 페이지에 적용된 변경 사항을 검토하고 삭제하고 실행 취소하는 방법과 Adobe Journey Optimizer에서 직접 CSS 선택기와 페이지 헤드 수정 사항을 추가하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_modifications"

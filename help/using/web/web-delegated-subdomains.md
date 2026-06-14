@@ -23,14 +23,20 @@ role_v2:
 topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
-source-wordcount: 991
-ht-degree: 22%
+source-wordcount: 1026
+ht-degree: 21%
 
 ---
 
 # 웹 하위 도메인 구성 {#web-subdomains}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer에 이미 위임된 하위 도메인을 사용하거나 새 하위 도메인을 구성하여 웹 경험에 대한 에셋 콘텐츠를 게시하여 Adobe에서 웹 하위 도메인을 설정하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web_header"

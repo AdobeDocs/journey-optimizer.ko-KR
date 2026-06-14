@@ -23,14 +23,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
-source-wordcount: 293
-ht-degree: 100%
+source-wordcount: 320
+ht-degree: 91%
 
 ---
 
 # 웹 채널 시작하기 {#get-started-web}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer에서 웹 채널을 시작하여 고객 여정 및 캠페인에서 개인화된 웹 경험을 시각적으로 작성 및 제공합니다.
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer]에서는 개인화된 웹 경험을 시각적으로 작성하여 고객에게 제공할 수 있습니다.
 

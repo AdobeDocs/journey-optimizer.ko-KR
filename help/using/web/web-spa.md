@@ -23,14 +23,20 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
-source-wordcount: 500
-ht-degree: 27%
+source-wordcount: 537
+ht-degree: 25%
 
 ---
 
 # 단일 페이지 애플리케이션 작성 {#web-author-spas}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 웹 SDK 구현에서 보기를 정의하고, 검색 모드로 웹 디자이너에서 검색하고, 선택한 보기에 수정 사항을 적용하여 Adobe Journey Optimizer에서 단일 페이지 응용 프로그램을 작성하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 ## 보기 정보 {#about-views}
 

@@ -18,14 +18,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
-source-wordcount: 877
+source-wordcount: 899
 ht-degree: 21%
 
 ---
 
 # 코드 기반 경험 테스트 {#test-code-based}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 게시하기 전에 테스트 프로필 및 온디바이스 미리 보기를 사용하여 코드 기반 경험을 미리 보고 테스트하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 ## 코드 기반 경험 미리보기 {#preview-code-based}
 

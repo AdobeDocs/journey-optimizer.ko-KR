@@ -25,14 +25,20 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 675606750af67b398f18646dddf901778625fb30
+source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
-source-wordcount: 1741
+source-wordcount: 1776
 ht-degree: 16%
 
 ---
 
 # 웹 경험 만들기 {#create-web}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 여정 또는 캠페인을 통해 웹 경험을 만들고, 콘텐츠를 편집하고 테스트하고, 방문자를 다른 URL로 리디렉션하고, Adobe Journey Optimizer에서 게시하거나, 활성화하거나, 중지하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_web"

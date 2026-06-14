@@ -18,14 +18,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 675606750af67b398f18646dddf901778625fb30
+source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
-source-wordcount: 1006
+source-wordcount: 1029
 ht-degree: 8%
 
 ---
 
 # 코드 기반 경험 만들기 {#create-code-based}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 여정 또는 캠페인에서 코드 기반 경험을 만들고 개인화 편집기를 사용하여 콘텐츠를 편집하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_code_based"

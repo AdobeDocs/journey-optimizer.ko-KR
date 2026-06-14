@@ -20,14 +20,20 @@ role_v2:
 topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
-source-wordcount: 943
+source-wordcount: 955
 ht-degree: 12%
 
 ---
 
 # 웹 경험 구성 {#web-configuration}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer에서 웹 채널 구성을 만드는 방법에 대해 알아봅니다. 단일 페이지 URL 또는 페이지 일치 규칙과 사용 가능한 연산자가 있는 여러 페이지를 대상으로 합니다.
+
+>[!ENDSHADEBOX]
 
 ## 웹 채널 구성 만들기 {#create-web-configuration}
 

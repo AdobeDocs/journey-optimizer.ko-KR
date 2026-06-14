@@ -22,14 +22,20 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
+source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
-source-wordcount: 1114
-ht-degree: 7%
+source-wordcount: 1138
+ht-degree: 6%
 
 ---
 
 # 코드 기반 구현 방법 샘플 {#implementation-samples}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 응용 프로그램에서 코드 기반 경험 콘텐츠를 가져오고, 표시하고, 추적하기 위한 클라이언트측, 서버측 및 하이브리드 구현 샘플을 살펴봅니다.
+
+>[!ENDSHADEBOX]
 
 코드 기반 경험은 모든 유형의 고객 구현을 지원합니다. 이 페이지에서는 각 구현 방법에 대한 샘플을 찾을 수 있습니다.
 

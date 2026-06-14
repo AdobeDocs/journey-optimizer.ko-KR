@@ -23,14 +23,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
-source-wordcount: 810
+source-wordcount: 832
 ht-degree: 10%
 
 ---
 
 # 코드 기반 경험 사전 요구 사항 {#code-based-prerequisites}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 앱과 웹 페이지에 코드 기반 경험을 전달하는 데 필요한 구현, 전달 및 보고 필수 조건을 검토하십시오.
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer]에서 코드 기반 경험 작업을 사용하고 응용 프로그램에서 사용할 수 있는 코드 콘텐츠 페이로드를 전달하려면 아래 전제 조건을 따르십시오.
 

@@ -26,14 +26,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
-source-wordcount: 1410
-ht-degree: 16%
+source-wordcount: 1440
+ht-degree: 15%
 
 ---
 
 # 사전 요구 사항 및 가드레일 {#web-prerequisites}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer에서 웹 경험에 액세스, 작성, 배달 및 보고하기 위해 충족해야 하는 필수 구성 요소 및 보호 기능, 구현, 시각적 작성, 배달 및 보고 필수 구성 요소를 검토하십시오.
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] 사용자 인터페이스에서 웹 페이지에 액세스하고 웹 페이지를 작성하려면 아래 사전 요구 사항을 따르십시오.
 

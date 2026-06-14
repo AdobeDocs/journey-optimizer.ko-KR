@@ -23,14 +23,20 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
-source-wordcount: 946
-ht-degree: 11%
+source-wordcount: 981
+ht-degree: 10%
 
 ---
 
 # 웹 디자이너를 사용하여 작업 {#work-with-web-designer}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 요소 선택 및 편집, 구성 요소 및 개인화 추가, 캔버스 탐색, 장치 크기 변경 등 Adobe Journey Optimizer 비주얼 웹 디자이너를 사용하여 웹 환경을 만드는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 <!--
 >[!CONTEXTUALHELP]
