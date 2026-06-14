@@ -18,14 +18,20 @@ topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1095
+source-wordcount: 1124
 ht-degree: 6%
 
 ---
 
 # 여정에서 경험 이벤트 조회 {#ee-journeys}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 여정에서 경험 이벤트를 사용하여 해당 행동 및 이벤트 특성을 기반으로 프로필을 억제, 선별 또는 개인화하기 위한 확장 가능한 패턴 및 모범 사례에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CAUTION]
 >

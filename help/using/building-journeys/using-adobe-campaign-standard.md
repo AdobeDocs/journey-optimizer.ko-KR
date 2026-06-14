@@ -28,14 +28,20 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 981
+source-wordcount: 953
 ht-degree: 8%
 
 ---
 
 # [!DNL Adobe Campaign] Standard 액션 {#using_campaign_action}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Campaign Standard 트랜잭션 메시지 템플릿을 사용하여 여정에서 기본 제공 Adobe Campaign Standard 전자 메일, 푸시 및 SMS 작업 활동을 사용하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_acs"
@@ -73,9 +79,9 @@ ht-degree: 8%
 >[!NOTE]
 >
 >프로필의 트랜잭션 템플릿을 전자 메일에 사용할 때 구독 취소 메커니즘은 [!DNL Adobe Campaign] Standard에서 자동으로 처리됩니다.
->[트랜잭션 전자 메일 템플릿](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=ko)에 **[!UICONTROL 구독 취소 링크]** 콘텐츠 블록을 포함하십시오.
->이벤트 기반 템플릿(rtEvent)을 사용하는 경우 메시지에 링크를 통합하여 수신자의 이메일을 URL 매개 변수로 전달하고 구독 취소 랜딩 페이지로 안내합니다.
->랜딩 페이지를 만들고 수신자의 구독 취소 결정이 Adobe에 전송되도록 합니다.
+>[트랜잭션 전자 메일 템플릿](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=ko) 내에 **[!UICONTROL 구독 취소 링크]** 콘텐츠 블록을 포함합니다.
+>이벤트 기반 템플릿(rtEvent)을 사용하는 경우 메시지에 링크를 통합하여 수신자의 이메일을 URL 매개 변수로 전달하고 구독 취소 랜딩 페이지로 보냅니다.
+>랜딩 페이지를 만들고 수신자의 구독 취소 결정이 Adobe에 전송되었는지 확인합니다.
 
 먼저 트랜잭션 메시지 템플릿을 선택해야 합니다.
 

@@ -28,15 +28,21 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 2308
+source-wordcount: 2335
 ht-degree: 6%
 
 ---
 
 
 # 여정 테스트{#testing_the_journey}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 시뮬레이션 사용자를 사용하는 시뮬레이션과 테스트 프로필을 사용하는 테스트 모드를 사용하여 여정을 게시하기 전에 유효성을 검사하여 오류를 조기에 발견하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test"

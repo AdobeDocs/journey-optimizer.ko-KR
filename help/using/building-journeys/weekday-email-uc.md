@@ -28,14 +28,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1078
+source-wordcount: 1109
 ht-degree: 1%
 
 ---
 
 # 평일에만 이메일 보내기 {#send-emails-only-on-weekdays}
+
+>[!BEGINSHADEBOX]
+
+**이 여정에서:** 조건 활동을 사용하여 월요일 배달을 위해 주말 항목을 대기시키고 사용자 지정 수식으로 활동을 기다리는 평일에만 전자 메일을 보내는 페이지를 구성하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 이 사용 사례에서는 평일(월요일부터 금요일)에만 전자 메일을 보내는 [!DNL Adobe Journey Optimizer]에서 여정을 구성하는 방법을 보여 줍니다. 주말(토요일 또는 일요일)에 여정을 입력하는 프로필의 경우 전자 메일은 지정된 시간에 자동으로 큐에 올라가 월요일에 전송됩니다. 이렇게 하면 주 중에 메시지를 전달하여 최적의 참여를 보장합니다.
 

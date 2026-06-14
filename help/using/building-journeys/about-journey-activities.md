@@ -33,14 +33,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 728
-ht-degree: 15%
+source-wordcount: 757
+ht-degree: 14%
 
 ---
 
 # 여정 활동 시작 {#about-journey-activities}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 이벤트, 오케스트레이션 및 작업 활동을 결합하여 여러 단계로 구성된 크로스 채널 여정을 만드는 방법과 레이블 지정 활동, 매개 변수 관리 및 문제 해결에 대한 모범 사례를 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 이벤트, 오케스트레이션 및 작업 활동을 결합하여 여러 단계로 구성된 크로스 채널 시나리오를 작성할 수 있습니다.
 

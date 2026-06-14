@@ -29,14 +29,20 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 470
-ht-degree: 17%
+source-wordcount: 496
+ht-degree: 16%
 
 ---
 
 # 최적화 활동 시작 {#journey-path-optimization}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 최적화 활동을 사용하여 실험, 타기팅 및 조건을 기반으로 여러 여정 경로를 만들고 이전 조건 활동을 대체하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_optimize"

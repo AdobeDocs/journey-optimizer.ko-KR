@@ -28,14 +28,20 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 245
-ht-degree: 39%
+source-wordcount: 255
+ht-degree: 38%
 
 ---
 
 # 여정 문제 해결 {#troubleshooting}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 여정 오류, 실행 불일치, 인바운드 동작 문제 및 사용자 지정 동작 문제를 진단하고 해결하는 데 도움이 되는 일반적인 문제 영역별로 구성된 문제 해결 리소스를 찾으십시오.
+
+>[!ENDSHADEBOX]
 
 고객 여정이 예상대로 진행되지 않을 경우, 근본 원인을 파악하는 것이 어려울 수 있습니다. 문제를 효율적으로 해결하기 위해 아래에서 가장 일반적인 문제 영역별로 문제 해결 리소스를 찾을 수 있습니다. 여정 실패, 실행 불일치 또는 작업 수준의 문제가 표시되는 경우 각 섹션에서는 이러한 문제를 조사하고 해결하기 위한 구체적인 지침을 제공합니다.
 

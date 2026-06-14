@@ -24,14 +24,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 518
-ht-degree: 3%
+source-wordcount: 546
+ht-degree: 2%
 
 ---
 
 # 라이브 보고서 시작 {#live-report}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer 실시간 보고서를 시작하여 여정 및 캠페인 성능을 실시간으로 시각화하고, 대시보드 위젯을 사용자 지정하고, 보고서를 내보냅니다.
+
+>[!ENDSHADEBOX]
 
 **[!UICONTROL 라이브 보고서]**&#x200B;를 사용하여 기본 제공 대시보드에서 여정 및 메시지의 영향과 성능을 실시간으로 측정하고 시각화할 수 있습니다. 게재를 보내거나 **[!UICONTROL 최근 24시간]** 탭에서 여정을 실행하는 즉시 **[!UICONTROL 실시간 보고서]**&#x200B;에서 데이터를 사용할 수 있습니다.
 

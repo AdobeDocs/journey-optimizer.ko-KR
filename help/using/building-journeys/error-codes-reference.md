@@ -11,14 +11,20 @@ keywords: 오류, 코드, 문제 해결, 여정, 캠페인, 메시지
 exl-id: 84924153-1bb5-465a-b91c-797628fc816c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 2351
+source-wordcount: 2358
 ht-degree: 3%
 
 ---
 
 # 오류 코드 참조 {#error-codes}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer 오류 코드의 구조, 검색 위치, 여정, 캠페인 및 메시지 구성에서 일반적인 오류를 해결하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer]은(는) 표준화된 오류 코드를 사용하여 여정, 캠페인 및 메시지 구성 전반에서 문제를 신속하게 식별하고 해결할 수 있도록 지원합니다. 이러한 오류 코드를 이해하면 문제 해결 시간을 크게 줄이고 최적의 캠페인 성능을 유지하는 데 도움이 됩니다.
 

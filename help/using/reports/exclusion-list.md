@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 892
-ht-degree: 8%
+source-wordcount: 920
+ht-degree: 7%
 
 ---
 
 # 제외 이유 {#exclusion-list}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 제외 이유, 오류 코드 및 메시지를 보내지 못하게 하는 영향을 받는 채널을 이해하고 캠페인 보고서에서 제외가 계산되는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 ## 캠페인 보고서에서 제외를 계산하는 방법
 

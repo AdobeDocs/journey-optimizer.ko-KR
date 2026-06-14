@@ -26,14 +26,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1405
+source-wordcount: 1358
 ht-degree: 6%
 
 ---
 
 # 여정 간 이동 {#jump}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** [이동] 활동을 사용하여 한 여정에서 다른 페이지로 개인을 푸시하고 복잡한 디자인을 단순화하고 재사용 가능한 일반적인 여정 패턴을 만드는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_jump"

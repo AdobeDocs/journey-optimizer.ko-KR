@@ -24,14 +24,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 274
-ht-degree: 20%
+source-wordcount: 300
+ht-degree: 18%
 
 ---
 
 # 구독 라이브 보고서 {#subscription-report-live}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 구독 라이브 보고서를 사용하여 지난 24시간 동안 구독자의 구독 및 구독 취소를 실시간으로 모니터링하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_subscription_live_report"

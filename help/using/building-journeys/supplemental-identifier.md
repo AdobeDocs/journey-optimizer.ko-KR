@@ -15,14 +15,20 @@ subfeature_v2:
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 02ce60020012083981c5599789b9e86804190627
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 2009
+source-wordcount: 2041
 ht-degree: 2%
 
 ---
 
 # 여정에서 추가 식별자 사용 {#supplemental-id}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 보조 식별자(주문 또는 예약 ID와 같은 보조 식별자)를 사용하여 식별자별로 별도의 여정 인스턴스를 실행하고 해당 특성을 사용하여 메시지를 개인화하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_parameters_supplemental_identifier"

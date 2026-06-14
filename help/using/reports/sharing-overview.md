@@ -25,14 +25,20 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 643
+source-wordcount: 676
 ht-degree: 4%
 
 ---
 
 # 여정 보고서 만들기 {#design-jo-reports}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Journey Optimizer에서 여정 단계 이벤트 데이터를 다른 데이터와 결합하고 Customer Journey Analytics에서 여정 성능을 분석할 수 있도록 Adobe Experience Platform에서 자동으로 에 스트리밍하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 [실시간 보고서](live-report.md) 및 기본 제공 [보고 기능](report-gs-cja.md) 외에도 [!DNL Journey Optimizer]은(는) 여정 성능 데이터를 Adobe Experience Platform에 자동으로 전송할 수 있으므로 분석 목적으로 다른 데이터와 결합할 수 있습니다.
 

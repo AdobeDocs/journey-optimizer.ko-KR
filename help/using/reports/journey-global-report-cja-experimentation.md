@@ -26,14 +26,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 391
+source-wordcount: 407
 ht-degree: 2%
 
 ---
 
 # 실험 여정 보고서 {#campaign-global-report-cja-experimentation}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 실험 KPI, 상승도 및 신뢰도, 콘텐츠 및 경로 실험에 대한 성공 지표별 변형 성능을 포함하여 여정 보고서에서 실험 지표를 읽는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 여정 보고서는 실험의 효과를 이해하는 데 필요한 주요 지표와 함께 실험의 성과를 전체적으로 볼 수 있습니다.
 

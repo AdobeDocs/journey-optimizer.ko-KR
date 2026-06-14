@@ -32,14 +32,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 02ce60020012083981c5599789b9e86804190627
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 3958
+source-wordcount: 3992
 ht-degree: 6%
 
 ---
 
 # 여정에서 대상자 사용 {#segment-trigger-activity}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Experience Platform 대상자의 프로필을 여정, 온디맨드 또는 일정으로 가져오고 각 프로필의 경로를 개인화하기 위해 대상자 읽기 활동을 구성하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 대상자 읽기 활동을 사용하여 정의된 대상자로 여정을 시작합니다. 대상자와 대상 실행 시기를 선택한 다음 [조건](#audience-targeting-in-journeys), 타이머 및 작업을 사용하여 각 프로필의 경로를 개인화합니다.
 

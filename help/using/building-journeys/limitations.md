@@ -12,14 +12,20 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 564
-ht-degree: 47%
+source-wordcount: 584
+ht-degree: 44%
 
 ---
 
 # 제한 사항 {#journey-limitations}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 작업, 버전, 사용자 지정 작업, 이벤트 및 데이터 원본을 포함하여 여정에 적용되는 제한 사항과 보호 기능을 검토하십시오.
+
+>[!ENDSHADEBOX]
 
 다음은 여정 사용과 관련된 제한 사항입니다.
 
@@ -43,7 +49,7 @@ ht-degree: 47%
 
 * 사용자 정의 작업 URL은 동적 매개 변수를 지원하지 않습니다. 
 * POST 및 PUT 호출 메서드만 지원됩니다. 
-* 쿼리 매개 변수 또는 헤더의 이름은 “.” 또는 &quot;$&quot;입니다. 
+* 쿼리 매개 변수 또는 헤더의 이름은 &quot;.&quot; 또는 &quot;$&quot;로 시작할 수 없습니다. 
 * IP 주소는 허용되지 않습니다. 
 * 내부 Adobe 주소(.adobe.) 허용되지 않습니다.
 

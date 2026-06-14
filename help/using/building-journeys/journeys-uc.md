@@ -29,14 +29,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1060
+source-wordcount: 1088
 ht-degree: 1%
 
 ---
 
 # 다중 채널 메시지 보내기 {#send-multi-channel-messages}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 대상 읽기, 이벤트, 반응 이벤트, 전자 메일 및 푸시 메시지를 후속 논리와 결합하는 다중 채널 여정을 만드는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 이 섹션에서는 대상자 읽기, 이벤트, 반응 이벤트 및 이메일/푸시 메시지를 결합하는 사용 사례를 제공합니다.
 
@@ -52,7 +58,7 @@ ht-degree: 1%
 
 반응이 없으면 후속 이메일이 전송됩니다.
 
-## 전제 조건
+## 사전 요구 사항
 
 이 사용 사례를 사용하려면 다음을 구성하십시오.
 

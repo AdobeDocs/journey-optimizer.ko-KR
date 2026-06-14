@@ -27,14 +27,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: dba48e1d1e3e000a251db3082f6d98efdde5cdb5
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1199
+source-wordcount: 1226
 ht-degree: 3%
 
 ---
 
 # 프로필 시작 관리 {#entry-management}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 프로필이 여정을 입력하는 시기와 빈도를 제어할 수 있도록 각 여정 유형에 대해 프로필 시작 및 재입력이 작동하는 방식을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 여정 등록 관리는 프로필 유형에 따라 다릅니다.
 

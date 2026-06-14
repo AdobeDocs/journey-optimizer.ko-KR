@@ -24,14 +24,20 @@ subfeature_v2:
   - id: a7289281-9ae4-47b1-b8cf-4028b98af776
   - id: b5afe8bf-bda6-41b5-ba06-922638872d63
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 489
-ht-degree: 23%
+source-wordcount: 526
+ht-degree: 21%
 
 ---
 
 # 보고 기능 시작 {#get-started-report}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 캠페인, 여정, 랜딩 페이지 및 구독 목록에 대해 Customer Journey Analytics에서 제공하는 최근 24시간 라이브 보고서와 실시간 보고서를 비롯한 Adobe Journey Optimizer의 보고 기능을 시작합니다.
+
+>[!ENDSHADEBOX]
 
 Adobe Journey Optimizer은 강력한 보고 기능을 통해 실용적인 통찰력을 제공합니다. 캠페인, 여정, 랜딩 페이지, 구독 목록 등에 보고서를 사용할 수 있습니다. 사용 가능한 보고서는 아래에 나열되어 있습니다.
 

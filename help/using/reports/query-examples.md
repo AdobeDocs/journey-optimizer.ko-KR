@@ -25,18 +25,24 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 3739
+source-wordcount: 3763
 ht-degree: 3%
 
 ---
 
 # 쿼리 예제{#query-examples}
 
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Experience Platform 데이터 레이크에서 여정 단계 이벤트를 분석하고 문제를 해결하기 위한 즉시 사용 가능한 SQL 쿼리 예제를 찾으십시오.
+
+>[!ENDSHADEBOX]
+
 이 섹션에서는 데이터 레이크에서 여정 단계 이벤트를 쿼리하는 데 일반적으로 사용되는 예를 제공합니다. 특정 사용 사례로 이동하기 전에 여정 이벤트 데이터에 사용되는 주요 식별자를 이해하는 것이 중요합니다.
 
-## 전제 조건 {#prerequisites}
+## 사전 요구 사항 {#prerequisites}
 
 이 페이지에서 쿼리를 실행하기 전에 다음을 확인하십시오.
 

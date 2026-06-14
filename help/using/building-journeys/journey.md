@@ -34,14 +34,20 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9372a9bed5c6da5db33567557944d69af9d56913
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1614
-ht-degree: 97%
+source-wordcount: 1642
+ht-degree: 95%
 
 ---
 
 # 여정 시작 {#jo-general-principle}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 개인화된 고객 경험을 구축하기 위한 여정 유형, 디자인 워크플로, 주요 기능 및 모범 사례를 포함하여 Adobe Journey Optimizer의 여정에 대한 기본 사항에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_canvas"

@@ -38,14 +38,20 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 937
+source-wordcount: 967
 ht-degree: 5%
 
 ---
 
 # 여정 단계 이벤트 작업 {#work-with-journey-step-events}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer에 있는 여정 단계 이벤트가 무엇인지, 중요한 이유가 무엇인지, Adobe Experience Platform을 통해 분석, 모니터링 및 최적화에 이 이벤트를 사용하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 여정 단계 이벤트는 [profile](../audience/get-started-profiles.md)이(가) Adobe Journey Optimizer의 [여정](../building-journeys/journey.md)을(를) 진행할 때 취하는 각 단계에 대한 자세한 정보를 캡처하는 자동으로 생성된 이벤트입니다. 이러한 이벤트는 [여정 성능](../building-journeys/report-journey.md)에 대한 포괄적인 가시성을 제공하고 강력한 분석 기능을 활성화합니다.
 

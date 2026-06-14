@@ -26,14 +26,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 612
+source-wordcount: 647
 ht-degree: 1%
 
 ---
 
 # 캠페인 보고서 {#campaign-global-report-cja}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer에서 Campaign 보고서를 읽고 캠페인 KPI, 캠페인 개요 및 funnel, 추적된 링크, 캠페인에 사용된 모든 채널에 대한 타깃팅 성능을 검토하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 

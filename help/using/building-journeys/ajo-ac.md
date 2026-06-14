@@ -27,14 +27,20 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 472
+source-wordcount: 501
 ht-degree: 1%
 
 ---
 
 # Campaign v7/v8에서 메시지 보내기 {#campaign-v7-v8-use-case}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Campaign v7 및 v8과의 통합을 사용하여 트랜잭션 템플릿, 이벤트 및 작업을 만드는 등 여정에서 전자 메일을 보내는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 이 사용 사례에서는 [!DNL Adobe Campaign] v7 및 [!DNL Adobe Campaign] v8과의 통합을 사용하여 전자 메일을 보내는 데 필요한 모든 단계를 설명합니다.
 

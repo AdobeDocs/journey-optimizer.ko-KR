@@ -22,14 +22,20 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 794
+source-wordcount: 816
 ht-degree: 3%
 
 ---
 
 # 사용자 정의 액션 매개 변수에 컬렉션 전달 {#passing-collection}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 단순 컬렉션 및 개체 컬렉션을 사용자 지정 작업 매개 변수에 전달하여 런타임 시 동적으로 채우는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 런타임 시 동적으로 채워진 사용자 지정 작업 매개 변수에서 컬렉션을 전달할 수 있습니다.
 

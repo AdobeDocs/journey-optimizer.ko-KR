@@ -23,14 +23,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 60
-ht-degree: 20%
+source-wordcount: 84
+ht-degree: 14%
 
 ---
 
 # journeyStep 이벤트 ID 필드 {#sharing-identity-fields}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 프로필 식별자 및 해당 네임스페이스를 포함하여 여정 단계 이벤트가 프로필 ID를 설명하는 데 사용하는 ID 필드를 참조합니다.
+
+>[!ENDSHADEBOX]
 
 이 필드 그룹은 journeyStepEvent에만 해당됩니다. 이 이벤트는 여정과 관련되어 있으며 프로필 ID를 설명하는 identityMap이 없습니다(있는 경우).
 

@@ -27,14 +27,20 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1315e30c843f37083346d0289a00f9abdcaca472
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 3128
+source-wordcount: 3161
 ht-degree: 1%
 
 ---
 
 # 시스템 경고 액세스 및 구독 {#alerts}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 여정 및 캠페인 라이프사이클 이벤트, 사용자 지정 작업 오류, 프로필 문제 및 전자 메일 배달 가능성을 사전에 모니터링하기 위해 Adobe Journey Optimizer에서 시스템 경고에 액세스하고, 구독하고, 관리하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 ## 개요
 
@@ -55,7 +61,7 @@ Adobe Journey Optimizer은 두 가지 유형의 경고를 제공합니다.
 
 시스템 경고는 **[!UICONTROL 관리]**&#x200B;의 **[!UICONTROL 경고]** 메뉴에서 사용할 수 있습니다. Adobe Experience Platform은 여정 및 채널 구성에 대한 [!DNL Adobe Journey Optimizer]별 경고를 포함하여 활성화할 수 있는 사전 정의된 경고 규칙을 제공합니다.
 
-## 전제 조건
+## 사전 요구 사항
 
 경고 작업 전:
 

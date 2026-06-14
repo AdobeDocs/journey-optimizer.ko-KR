@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1809
+source-wordcount: 1840
 ht-degree: 1%
 
 ---
 
 # 여정의 인바운드 액션 문제 해결 {#troubleshooting-inbound-actions}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 지원에 문의하기 전에 여정에서 인앱, 웹 및 코드 기반 경험과 같은 인바운드 작업에 대한 일반적인 문제를 디버깅하고 해결하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 인앱, 웹 및 코드 기반 경험과 같은 인바운드 작업은 여정 중에 사용자와의 개인화된 참여를 활성화하므로 [!DNL Journey Optimizer]의 중요한 구성 요소입니다. 그러나 프로필이 여정을 종료한 후 인바운드 콘텐츠 누락 또는 지속적인 게재와 같은 예기치 않은 동작이 발생할 수 있습니다.
 
@@ -45,7 +51,7 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 * A user continues to receive inbound content even after the profile exits the journey.
 -->
 
-## 전제 조건 {#prerequisites}
+## 사전 요구 사항 {#prerequisites}
 
 문제 해결을 시작하기 전에 다음을 확인하십시오.
 

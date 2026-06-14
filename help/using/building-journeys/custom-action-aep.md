@@ -22,14 +22,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 418
+source-wordcount: 442
 ht-degree: 3%
 
 ---
 
 # 사용자 정의 작업을 사용하여 Experience Platform에 여정 이벤트 작성 {#custom-action-aep}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 사용자 지정 작업 및 인증된 API 호출을 사용하여 여정에서 Adobe Experience Platform에 사용자 지정 여정 이벤트를 작성하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 이 사용 사례에서는 사용자 지정 작업 및 인증된 호출을 사용하여 여정에서 [!DNL Adobe Experience Platform]에 사용자 지정 이벤트를 작성하는 방법을 설명합니다.
 

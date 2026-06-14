@@ -23,14 +23,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 645
-ht-degree: 23%
+source-wordcount: 678
+ht-degree: 22%
 
 ---
 
 # 일반 이벤트 {#general-events}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 일반 이벤트를 사용하여 실시간으로 여정을 통합적으로 트리거하고 정의된 기간 동안에만 이벤트를 수신하도록 이벤트 시간 제한 및 시간 제한 경로를 구성하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_custom"

@@ -25,14 +25,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 663
+source-wordcount: 692
 ht-degree: 1%
 
 ---
 
 # 라이브 활동 캠페인 보고서 {#campaign-global-report-cja-activity}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer에서 라이브 활동 캠페인 보고서를 읽고 전송 통계, 라이브 활동 라이프사이클 이벤트, 오류 이유 및 제외 이유를 추적하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 

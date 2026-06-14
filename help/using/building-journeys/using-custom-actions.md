@@ -27,14 +27,20 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 448
-ht-degree: 20%
+source-wordcount: 482
+ht-degree: 18%
 
 ---
 
 # 사용자 정의 액션 사용 {#use-custom-actions}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 데이터 거버넌스 및 동의 정책을 적용하는 동안 사용자 지정 작업을 사용하여 JSON 페이로드가 있는 REST API 호출을 통해 여정을 서드파티 시스템에 연결하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom"
@@ -58,13 +64,13 @@ Journey Optimizer에서는 데이터 거버넌스 및 동의 정책을 사용자
 
 ## URL 구성
 
-**사용자 지정 작업** 활동의 구성 창에는 사용자 지정 작업에 대해 구성된 URL 구성 매개 변수와 인증 매개 변수가 표시됩니다. 여정에서 URL의 정적 부분을 설정할 수 없지만 사용자 지정 작업의 전역 구성에서는 설정할 수 있습니다. [자세히 알아보기](../action/about-custom-action-configuration.md).
+**사용자 지정 작업** 활동의 구성 창에는 사용자 지정 작업에 대해 구성된 URL 구성 매개 변수와 인증 매개 변수가 표시됩니다. 여정에서 URL의 정적 부분을 설정할 수 없지만 사용자 지정 작업의 전역 구성에서는 설정할 수 있습니다. [자세히 알아보기](../action/about-custom-action-configuration.md)
 
 ### 동적 경로
 
 URL에 동적 경로가 포함된 경우 **[!UICONTROL 경로]** 필드에 경로를 지정하십시오.
 
-필드와 일반 텍스트 문자열을 연결하려면 고급 표현식 편집기에서 String 함수 또는 더하기 기호(+)를 사용하십시오. 일반 텍스트 문자열을 작은따옴표(&#39;) 또는 큰따옴표(&quot;)로 묶습니다. [자세히 알아보기](expression/expressionadvanced.md).
+필드와 일반 텍스트 문자열을 연결하려면 고급 표현식 편집기에서 String 함수 또는 더하기 기호(+)를 사용하십시오. 일반 텍스트 문자열을 작은따옴표(&#39;) 또는 큰따옴표(&quot;)로 묶습니다. [자세히 알아보기](expression/expressionadvanced.md)
 
 이 표에서는 구성의 예를 보여 줍니다.
 

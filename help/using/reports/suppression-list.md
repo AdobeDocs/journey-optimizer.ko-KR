@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 845
-ht-degree: 11%
+source-wordcount: 870
+ht-degree: 10%
 
 ---
 
 # 금지 목록 {#suppression-list}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 제외 목록에서 전송 평판과 게재 속도를 보호하기 위해 게재에서 특정 전자 메일 주소와 도메인을 제외하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 제외 목록은 게재에서 제외하려는 주소 및 도메인으로 구성됩니다. 이러한 연락처로 보내면 전송 평판과 게재 속도가 떨어질 수 있기 때문입니다.
 

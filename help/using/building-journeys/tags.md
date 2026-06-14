@@ -23,14 +23,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 642
-ht-degree: 14%
+source-wordcount: 670
+ht-degree: 13%
 
 ---
 
 # 여정의 태그 관리 {#journey_tags}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 명명 규칙보다 쉽게 여정을 분류하고 필터링하고 찾을 수 있도록 태그와 태그 범주로 여정을 구성하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 Journey Optimizer 전문가는 태그를 사용하여 여정을 구성할 수 있습니다. 태그를 사용하면 개체를 빠르고 간단하게 분류하여 검색을 개선할 수 있습니다.
 

@@ -22,14 +22,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 798
-ht-degree: 6%
+source-wordcount: 829
+ht-degree: 5%
 
 ---
 
 # 사용 사례: 외부 데이터 소스 및 사용자 지정 작업으로 처리량 제한{#limit-throughput}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 외부 시스템이 지원되는 초당 요청 수를 초과하지 않도록 사용자 지정 작업 및 외부 데이터 원본을 사용하여 여정 처리를 제한하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 외부 시스템에서 초당 제한된 요청 수를 처리해야 하는 경우 이 사용 사례를 사용하여 여정 처리를 조정합니다.
 

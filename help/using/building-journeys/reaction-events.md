@@ -27,14 +27,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 506
-ht-degree: 15%
+source-wordcount: 541
+ht-degree: 14%
 
 ---
 
 # 반응 이벤트 {#reaction-events}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 반응 활동을 사용하여 동일한 여정 내에서 열기 및 클릭과 같은 메시지 추적 데이터에 응답하고, 참여하지 않는 개인의 시간 제한 경로를 구성하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_reaction"

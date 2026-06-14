@@ -28,14 +28,20 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 2213
+source-wordcount: 2249
 ht-degree: 0%
 
 ---
 
 # 지표 목록 {#list-of-components-global}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 여정, 전자 메일, SMS, 푸시, 인앱, 랜딩 페이지, DM, 콘텐츠 카드, 웹 및 코드 기반 경험 지표를 포함하여 게재 유형 전반에 걸쳐 Adobe Journey Optimizer 보고서에 사용되는 지표에 대한 정의를 찾으십시오.
+
+>[!ENDSHADEBOX]
 
 아래 표는 보고서에 사용된 지표 목록과 게재 유형에 따라 해당 정의를 제공합니다.
 

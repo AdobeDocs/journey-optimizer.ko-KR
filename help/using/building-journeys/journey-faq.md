@@ -37,14 +37,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 5499
+source-wordcount: 5522
 ht-degree: 1%
 
 ---
 
 # 여정 편성 - 자주 묻는 질문 {#faq-journeys}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 일반적인 개념, 활동, 이벤트 및 문제 해결에 대해 다루는 Adobe Journey Optimizer의 Journey Orchestration에 대해 자주 묻는 질문에 대한 답변을 찾아보십시오.
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer]에서 Journey Orchestration에 대한 일반적인 질문에 대한 답변을 찾아보세요.
 

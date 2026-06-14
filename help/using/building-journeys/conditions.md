@@ -24,14 +24,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1939
-ht-degree: 14%
+source-wordcount: 1969
+ht-degree: 13%
 
 ---
 
 # 조건 {#conditions}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 최적화 활동의 조건을 사용하여 데이터 원본, 시간, 날짜, 분할 비율, 프로필 상한 또는 대상 멤버십을 기반으로 여러 여정 경로를 만드는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_conditions"

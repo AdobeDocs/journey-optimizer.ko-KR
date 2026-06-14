@@ -26,14 +26,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 3575
+source-wordcount: 3613
 ht-degree: 26%
 
 ---
 
 # 캠페인 라이브 보고서 {#campaign-live-report}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer에서 Campaign 실시간 보고서를 읽고 이메일, 인앱, 푸시, SMS, 웹 및 DM 채널을 통해 지난 24시간 동안 실시간 캠페인 성과를 모니터링하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_report"

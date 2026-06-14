@@ -24,14 +24,20 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 781
+source-wordcount: 806
 ht-degree: 8%
 
 ---
 
 # 단계 이벤트 필드 목록 {#sharing-field-list}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 디버그, 여정, 프로필 및 서비스 이벤트 필드를 포함하여 범주별로 구성된 여정 단계 이벤트 필드를 참조하고 삭제된 이벤트 형식 문제를 해결하십시오.
+
+>[!ENDSHADEBOX]
 
 단계 이벤트 필드는 카테고리별로 구성됩니다.
 

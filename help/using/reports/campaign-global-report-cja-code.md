@@ -27,14 +27,20 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 945
+source-wordcount: 980
 ht-degree: 1%
 
 ---
 
 # 코드 기반 캠페인 보고서 {#campaign-global-report-cja-code}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer에서 코드 기반 캠페인 보고서를 읽고 표시를 분석하고 참여를 클릭하는 방법, 추적 데이터, 추적된 링크 레이블 및 코드 기반 경험에 대한 의사 결정 성능을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 

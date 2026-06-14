@@ -27,14 +27,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 993
-ht-degree: 5%
+source-wordcount: 1030
+ht-degree: 4%
 
 ---
 
 # 여정 유형 및 선택 안내서 {#journey-types-selection}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 단일, 읽기 대상, 대상 자격, 비즈니스 이벤트의 네 가지 여정 유형을 비교하고 의사 결정 가이드 및 기능 호환성 매트릭스를 사용하여 사용 사례에 적합한 유형을 선택하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer]은(는) 각각 다른 시작 메커니즘과 비즈니스 시나리오에 맞게 디자인된 4가지 여정 형식을 지원합니다. 이 안내서는 차이점을 이해하고 사용 사례에 적합한 유형을 선택하는 데 도움이 됩니다.
 

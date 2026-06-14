@@ -23,14 +23,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1861
+source-wordcount: 1885
 ht-degree: 14%
 
 ---
 
 # 조건 활동 {#condition-activity}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Condition 활동을 사용하여 규칙, 데이터 및 대상 멤버십을 기반으로 프로필을 다른 여정 경로로 라우팅하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 조건 활동을 사용하여 규칙 및 데이터를 기반으로 프로필을 다른 경로로 라우팅합니다.
 

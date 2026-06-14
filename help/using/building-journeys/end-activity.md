@@ -12,14 +12,20 @@ exl-id: 76c74ca3-edaa-48c5-8d6a-0906120e31a1
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 115
-ht-degree: 78%
+source-wordcount: 144
+ht-degree: 62%
 
 ---
 
 # 종료 활동{#end-activity}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 종료 활동을 사용하여 각 여정 경로의 끝을 표시하고 여정 보고서를 읽기 쉽게 만드는 레이블을 추가하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_end"

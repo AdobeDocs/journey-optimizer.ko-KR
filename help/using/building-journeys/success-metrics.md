@@ -28,18 +28,24 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 595
-ht-degree: 7%
+source-wordcount: 623
+ht-degree: 6%
 
 ---
 
 # 여정 지표 구성 및 추적 {#success-metrics}
 
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** KPI에 대한 성과를 추적하고 고객 여정의 효과를 실시간으로 측정하기 위해 여정 지표를 구성하고 할당하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
+
 여정 지표를 통해 고객 여정의 효과를 명확하게 파악할 수 있습니다. 이 기능을 사용하면 정의된 KPI에 대해 성과를 추적하고 작동 중인 항목에 대한 통찰력을 확보하고 최적화할 영역을 식별할 수 있습니다. 실시간으로 영향을 측정함으로써 지속적인 개선을 유도하고 데이터 정보에 기반한 의사 결정을 내려 고객 참여를 높일 수 있습니다.
 
-## 전제 조건 {#prerequisites}
+## 사전 요구 사항 {#prerequisites}
 
 여정 지표를 사용하기 전에 [!DNL Adobe Experience Platform]의 구성 > 보고에서 `Commerce Details`, `Web` 및 `Mobile` [필드 그룹](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ko#field-group){target="_blank"}을(를) 포함하는 데이터 집합을 추가해야 합니다.
 

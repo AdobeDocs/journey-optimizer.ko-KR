@@ -23,14 +23,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 46
-ht-degree: 50%
+source-wordcount: 73
+ht-degree: 31%
 
 ---
 
 # 레거시 필드 정보 {#sharing-legacy-fields}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 일반, 작업 실행, 데이터 가져오기, ID 및 여정 필드를 포함하여 원래 여정 단계 이벤트 필드 그룹을 구성하는 레거시 필드를 참조합니다.
+
+>[!ENDSHADEBOX]
 
 이 카테고리에는 원래 단계 이벤트 필드가 포함되어 있습니다. 이러한 필드는 다음 필드 그룹의 일부입니다.
 

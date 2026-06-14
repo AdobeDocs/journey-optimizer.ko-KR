@@ -26,14 +26,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 903
+source-wordcount: 932
 ht-degree: 7%
 
 ---
 
 # 대기 활동 {#wait-activity}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 상대 기간 동안 또는 다음 활동이 실행되기 전에 사용자 지정 계산된 날짜까지 경로를 일시 중지하도록 대기 활동을 구성하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait"

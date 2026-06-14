@@ -30,14 +30,20 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: 06565328f42ff79943f774df55d8e41118b40815
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 979
-ht-degree: 47%
+source-wordcount: 1009
+ht-degree: 46%
 
 ---
 
 # 여정 오케스트레이션 - 전체 안내서{#journey-orchestration-guide}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer의 여정 오케스트레이션에 대한 전체 안내서를 가져와 실시간으로 변화하는 여러 단계, 다중 채널 고객 여정을 디자인, 관리 및 구체화하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer]의 여정을 사용하면 대상의 행동 및 요구 사항에 실시간으로 적응하는 개인화된 여러 단계로 구성된 고객 여정을 만들 수 있습니다. 직관적인 드래그 앤 드롭 캔버스를 사용하여 여러 채널에서 메시지와 액션을 오케스트레이션하고, 상황별 데이터와 대상자 타기팅을 활용하여 최대의 효과를 얻을 수 있습니다.
 

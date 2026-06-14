@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 1102
+source-wordcount: 1139
 ht-degree: 0%
 
 ---
 
 # 개요 보고서 {#channel-report-cja}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 개요 보고서를 사용하여 여정, 캠페인, 채널, 여정 한도 규칙 세트 및 최적화 모델에 대한 전용 탭을 사용하여 모든 캠페인과 여정에서 통합 트래픽 및 참여 지표를 분석하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 개요 보고서는 환경 내의 모든 캠페인 및 여정에 대한 트래픽 및 참여 지표에 대한 철저한 요약을 사용자에게 제공합니다. 이러한 지표는 다양한 캠페인 및 여정을 포함하여 다양한 채널에서 오는 작업에 대해 통합된 값을 제공하기 위해 결합됩니다.
 

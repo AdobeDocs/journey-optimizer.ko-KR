@@ -32,15 +32,20 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1675
+source-wordcount: 1705
 ht-degree: 3%
 
 ---
 
 # 여정 디자인 {#design-your-journey}
 
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 여정 디자이너 캔버스 및 팔레트를 사용하여 이벤트, 오케스트레이션 및 작업 활동을 여정을 빌드하는 순차적인 흐름으로 끌어서 놓는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer]에는 마케터가 마케팅 활동과 일대일 고객 참여를 조화롭게 조정할 수 있는 옴니채널 오케스트레이션 캔버스가 포함되어 있습니다. 사용자 인터페이스를 사용하면 팔레트에서 캔버스로 활동을 쉽게 끌어다 놓아 여정을 빌드할 수 있습니다. 활동을 두 번 클릭하여 사용 가능한 다음 단계에서 캔버스에 추가할 수도 있습니다.
 

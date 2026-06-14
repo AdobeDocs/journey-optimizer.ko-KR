@@ -28,14 +28,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d9a93a5ae5dfbb21b4dfd102b356c15982e6d5a1
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 4152
+source-wordcount: 4186
 ht-degree: 8%
 
 ---
 
 # 여정 속성 정의 {#jo-properties}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 작성 중에 여정의 이름, 시작 규칙, 시간대, 시작 및 종료 날짜, 시간 제한, 종료 기준 및 충돌 관리를 포함한 전역 속성을 오른쪽 레일에서 설정하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 여정 속성을 사용하여 이름, 시작 규칙, 시간대, 시작 및 종료 날짜, 시간 제한 기간, 종료 기준, 충돌 관리 등 여정에 대한 전역 설정을 구성합니다. 속성은 여정 작성 단계의 오른쪽 레일에서 액세스할 수 있습니다.
 

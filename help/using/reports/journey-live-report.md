@@ -26,14 +26,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 3768
+source-wordcount: 3799
 ht-degree: 30%
 
 ---
 
 # 여정 라이브 보고서 {#journey-live-report}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 여정, 이메일, 푸시, SMS 및 인앱 지표에 대해 다루는 Adobe Journey Optimizer 라이브 보고서를 사용하여 지난 24시간 동안 여정의 성능을 실시간으로 측정합니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_live_report"

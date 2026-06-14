@@ -26,14 +26,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 1033
+source-wordcount: 1061
 ht-degree: 0%
 
 ---
 
 # 여정 보고서 {#journey-global-report}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Customer Journey Analytics의 Adobe Journey Optimizer 여정 보고서를 탐색하여 여정 KPI, 통계, 제외, 작업 및 이벤트 성능, 여정 캔버스를 분석합니다.
+
+>[!ENDSHADEBOX]
 
 **여정 보고서**&#x200B;는 여정과 관련된 필수 지표에 대한 분석을 제공하는 모든 기능을 포함하는 대시보드로 작동합니다. 여기에는 입력된 프로필 수 및 실패한 개별 여정의 인스턴스 등 세부 정보가 포함되며, 이를 통해 여정의 효율성 및 참여 수준에 대한 포괄적인 insight을 제공합니다.
 

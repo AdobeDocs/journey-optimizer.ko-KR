@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 796
+source-wordcount: 824
 ht-degree: 2%
 
 ---
 
 # 랜딩 페이지 보고서 {#lp-report-global-cja}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 여정, 캠페인 및 채널별 전환 및 바운스 비율, 보기 수 및 트래픽을 포함하여 Customer Journey Analytics을 사용하여 Adobe Journey Optimizer의 랜딩 페이지 성능을 분석합니다.
+
+>[!ENDSHADEBOX]
 
 **랜딩 페이지** 보고서는 사용자 동작, 참여 패턴, 전환율 및 기타 주요 지표에 대한 중요한 통찰력을 제공하여 정보에 입각한 결정을 내리고 랜딩 페이지 성능을 효과적으로 최적화할 수 있도록 합니다.
 

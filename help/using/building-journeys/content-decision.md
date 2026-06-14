@@ -27,14 +27,20 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1262
+source-wordcount: 1286
 ht-degree: 1%
 
 ---
 
 # 콘텐츠 결정 활동 {#content-decision}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 콘텐츠 의사 결정 활동을 사용하여 여정에 개인화된 오퍼를 포함하고 이를 적격 프로필에 전달하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer]을(를) 사용하면 여정 캔버스에서 전용 **콘텐츠 결정** 활동을 통해 여정에 오퍼를 포함할 수 있습니다. 그런 다음 여정에 다른 활동(예: [사용자 지정 작업](../action/about-custom-action-configuration.md))을 추가하여 이러한 개인화된 오퍼로 대상을 타깃팅할 수 있습니다.
 

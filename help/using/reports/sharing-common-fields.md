@@ -24,14 +24,20 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 634
+source-wordcount: 659
 ht-degree: 0%
 
 ---
 
 # journeysteps 이벤트 공통 필드 {#sharing-common-fields}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 여정에서 처리되는 모든 단계에 대해 Journey Optimizer에서 Adobe Experience Platform으로 보내는 일반적인 여정 단계 이벤트 필드를 참조합니다.
+
+>[!ENDSHADEBOX]
 
 이 필드 그룹은 **journeyStepEvent** 및 **journeyStepProfileEvent** 이벤트에 의해 공유됩니다.
 

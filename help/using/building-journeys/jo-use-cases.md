@@ -30,14 +30,20 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1134
-ht-degree: 16%
+source-wordcount: 1054
+ht-degree: 17%
 
 ---
 
 # 사용 사례를 통해 알아보기 {#jo-uc-gs}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 실제 Adobe Journey Optimizer 사용 사례 및 전체 시나리오의 라이브러리를 탐색하여 여정을 디자인하고, 데이터를 모델링하고, 활성화 논리를 빌드합니다.
+
+>[!ENDSHADEBOX]
 
 이 섹션에서는 [!DNL Adobe Journey Optimizer]을(를) 최대한 활용하는 데 도움이 되는 실용적인 사용 사례 컬렉션을 소개합니다. 억제 논리, 개인화 기법 또는 여정 종료 전략과 같은 전술적 패턴을 찾거나 마케팅 및 기술 워크플로우를 다루는 전체적인 시나리오를 찾고 있는 경우 아래에 관련 샘플에 대한 링크를 찾을 수 있습니다.
 
@@ -74,7 +80,7 @@ ht-degree: 16%
     <div>
     <a href="../data/datasets-query-examples.md">
     <img alt="쿼리 샘플" src="../assets/do-not-localize/icon-configure.svg"/></a> 
-    <br>사용 사례를 만들려면 추적 경험 이벤트를 수집하기 위한 시스템 데이터 세트, 여정의 단계 이벤트를 수집하기 위한 데이터 세트, 사용자에게 오퍼 제안을 수집하기 위한 데이터 세트 등과 같은 [!DNL Adobe Journey Optimizer] 데이터 세트를 쿼리해야 합니다.
+    <br>사용 사례를 만들려면 추적 경험 이벤트를 수집하기 위한 시스템 데이터 세트, 여정에서 단계 이벤트를 수집하기 위한 데이터 세트, 사용자에게 오퍼 제안을 수집하기 위한 데이터 세트 등과 같은 [!DNL Adobe Journey Optimizer] 데이터 세트를 쿼리해야 합니다.
     </div>
       <div>
      <a href="../data/datasets-query-examples.md">자세히 알아보기</a></div>

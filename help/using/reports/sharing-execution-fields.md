@@ -23,14 +23,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 665
+source-wordcount: 685
 ht-degree: 2%
 
 ---
 
 # journeyStep 이벤트 작업 실행 필드 {#sharing-execution-fields}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 단계에서 사용자 지정 작업을 처리할 때 여정 단계 이벤트에 추가된 작업 실행 필드를 참조합니다.
+
+>[!ENDSHADEBOX]
 
 이 필드 그룹은 journeyStepEvent 및 journeyStepProfileEvent에서 공유됩니다.
 

@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 325
-ht-degree: 3%
+source-wordcount: 356
+ht-degree: 2%
 
 ---
 
 # 콘텐츠 카드 캠페인 보고서 {#campaign-global-report-cja-content}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer에서 컨텐츠 카드 캠페인 보고서를 읽고 표시 및 클릭 트렌드, 추적 데이터 및 컨텐츠 카드에 대한 추적 레이블을 분석하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 

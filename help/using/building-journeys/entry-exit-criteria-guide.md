@@ -31,14 +31,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1670
+source-wordcount: 1700
 ht-degree: 4%
 
 ---
 
 # 여정 시작 및 종료 기준을 사용한 작업 {#entry-exit-criteria-guide}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 프로필이 여정에 들어오고 나가는 시기를 제어하기 위한 실제 예제와 모범 사례를 통해 여정 시작 및 종료 기준을 정의하고 구성하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 Customer Experience Orchestration에서 적절한 시간에 적절한 메시지를 전달하려면 고객이 여정을 출입할 때를 정확하게 제어해야 합니다. 시작 및 종료 기준을 이해하고 적절히 구성하면 성공적인 캠페인과 놓친 기회 또는 메시지 피로도 간에 차이를 만들 수 있습니다.
 

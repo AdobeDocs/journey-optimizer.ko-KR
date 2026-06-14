@@ -24,14 +24,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 5f839a4ab1e599764c9b797e4a9a42850808e3e3
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 475
-ht-degree: 6%
+source-wordcount: 507
+ht-degree: 5%
 
 ---
 
 # 수동으로 [!DNL Customer Journey Analytics] 구성 {#cja-ajo}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 연결 및 데이터 보기를 만들어 여정 및 메시지 데이터를 분석하여 Adobe Journey Optimizer과 Customer Journey Analytics 간의 통합을 수동으로 구성하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer]과(와) [!DNL Customer Journey Analytics]의 통합은 자동화된 보고서 배포와 데이터의 사용자 지정 시각화를 통해 모든 여정을 전체적으로 볼 수 있도록 합니다.
 

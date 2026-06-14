@@ -28,14 +28,20 @@ topic_v2:
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a122a8a609748b46480a9664f1efc5524582deca
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 1348
+source-wordcount: 1375
 ht-degree: 8%
 
 ---
 
 # 전달성 시작 {#manage-deliverability}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 컴플레인 비율 감소, 제외 목록 활용, 보낸 사람의 신뢰도 설정, DMARC 구현, 피드백 루프 이해 등 Adobe Journey Optimizer에 대한 게재 가능성 모범 사례를 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 전달성은 수신자에게 도달된 게재의 성공을 측정하는 것입니다.
 

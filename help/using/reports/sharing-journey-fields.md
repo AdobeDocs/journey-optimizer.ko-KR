@@ -24,14 +24,20 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 130
-ht-degree: 6%
+source-wordcount: 159
+ht-degree: 5%
 
 ---
 
 # 여정 필드 {#sharing-journey-fields}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 여정 스키마에 사용된 여정 필드를 참조하여 여정 단계 이벤트 보고에서 각 여정(예: 여정 ID, 버전, 이름, 설명)를 설명하십시오.
+
+>[!ENDSHADEBOX]
 
 이 필드 그룹은 **journeyStepEvent**&#x200B;과(와) 관련하여 **여정** 스키마에서 사용됩니다. 여기에는 아래 나열된 필드가 포함되어 있습니다.
 
