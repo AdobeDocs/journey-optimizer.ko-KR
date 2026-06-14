@@ -26,14 +26,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: baa650e637ea818fd8e9e17fc06ee8472f4fafe1
+source-git-commit: 01105f4dc3f6b52598c634373988570cf6916406
 workflow-type: tm+mt
-source-wordcount: 1327
-ht-degree: 20%
+source-wordcount: 1358
+ht-degree: 19%
 
 ---
 
 # WhatsApp 구성 시작 {#whatsapp-config}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** WhatsApp API 자격 증명, 웹후크 및 채널 구성을 설정하여 WhatsApp 비즈니스 계정을 연결하면 사용자 환경에서 Journey Optimizer으로 WhatsApp 메시지를 보낼 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 WhatsApp 메시지를 보내기 전에 Adobe Journey Optimizer 환경을 구성하고 WhatsApp 계정과 연결해야 합니다. 다음을 수행하십시오.
 

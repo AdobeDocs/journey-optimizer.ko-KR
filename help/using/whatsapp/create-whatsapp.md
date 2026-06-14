@@ -23,14 +23,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 675606750af67b398f18646dddf901778625fb30
+source-git-commit: 01105f4dc3f6b52598c634373988570cf6916406
 workflow-type: tm+mt
-source-wordcount: 1130
+source-wordcount: 1162
 ht-degree: 3%
 
 ---
 
 # WhatsApp 메시지 만들기 {#create-whatsapp}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 여정 또는 캠페인에 WhatsApp 작업을 추가하고 승인된 Meta 템플릿에서 해당 콘텐츠를 빌드하면 대상자에게 개인화되고 테스트된 메시지를 전달할 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 Adobe Journey Optimizer을 사용하면 WhatsApp에서 매력적인 메시지를 디자인하고 보낼 수 있습니다. 여정 또는 캠페인에 WhatsApp 작업을 추가하고 아래에 자세히 설명된 대로 메시지 콘텐츠를 만들면 됩니다. 또한 Adobe Journey Optimizer을 사용하면 WhatsApp 메시지를 보내기 전에 테스트하여 완벽한 렌더링, 정확한 개인화 및 모든 설정의 적절한 구성을 보장할 수 있습니다.
 

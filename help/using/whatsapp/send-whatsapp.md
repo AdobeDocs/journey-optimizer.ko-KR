@@ -21,14 +21,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: 01105f4dc3f6b52598c634373988570cf6916406
 workflow-type: tm+mt
-source-wordcount: 414
+source-wordcount: 448
 ht-degree: 2%
 
 ---
 
 # WhatsApp 메시지 확인 및 보내기 {#send-whatsapp}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** WhatsApp 메시지를 미리 보고, 유효성을 검사하고, 보낸 다음 반환된 상호 작용 데이터를 분석하면 메시지를 배달하기 전에 메시지가 올바른지 확인하고 받는 사람의 참여 방법을 측정할 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 ## WhatsApp 메시지 미리 보기 {#preview-whatsapp}
 
