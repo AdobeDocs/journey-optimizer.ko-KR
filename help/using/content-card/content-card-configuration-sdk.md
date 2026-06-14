@@ -22,14 +22,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
 workflow-type: tm+mt
-source-wordcount: 509
+source-wordcount: 543
 ht-degree: 3%
 
 ---
 
 # Web SDK에서 콘텐츠 카드 지원 구성 {#content-card-configuration-sdk}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 웹 페이지에서 클라이언트측 개인화된 콘텐츠를 제공할 수 있도록 Adobe Experience Platform Web SDK으로 콘텐츠 카드를 가져오고 렌더링하는 샘플을 설정하고 실행합니다.
+
+>[!ENDSHADEBOX]
 
 이 샘플은 Adobe Experience Platform을 사용하여 Adobe Journey Optimizer(AJO)에서 컨텐츠 카드를 검색하는 방법을 보여 줍니다. [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/home)을(를) 활용하여 개인화 콘텐츠를 가져와서 전적으로 클라이언트측에서 렌더링합니다.
 

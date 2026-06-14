@@ -22,14 +22,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
 workflow-type: tm+mt
-source-wordcount: 603
-ht-degree: 49%
+source-wordcount: 629
+ht-degree: 47%
 
 ---
 
 # 콘텐츠 카드 구성 {#content-card-configuration}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 올바른 웹 또는 앱 위치에 콘텐츠 카드를 전달할 수 있도록 콘텐츠 카드 채널 구성을 만들고 표면을 정의합니다.
+
+>[!ENDSHADEBOX]
 
 ## 구성이란 무엇입니까? {#surface-definition}
 

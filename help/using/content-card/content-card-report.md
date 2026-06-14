@@ -11,14 +11,20 @@ feature_v2:
 subfeature_v2:
   - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
 workflow-type: tm+mt
-source-wordcount: 480
+source-wordcount: 504
 ht-degree: 6%
 
 ---
 
 # 콘텐츠 카드 보고서 {#content-card-report}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 디스플레이, 클릭 수, 추적된 링크 등 콘텐츠 카드 지표를 분석하여 참여를 측정하고 캠페인 효과를 개선할 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 

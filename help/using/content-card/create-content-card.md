@@ -11,14 +11,20 @@ feature_v2:
 subfeature_v2:
   - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-source-git-commit: e41af203a353dd0c5f34c5c9f1915892e7c95999
+source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
 workflow-type: tm+mt
-source-wordcount: 1755
+source-wordcount: 1785
 ht-degree: 10%
 
 ---
 
 # 콘텐츠 템플릿 만들기 {#create-content-card}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 콘텐츠 카드를 작성하고 여정 또는 캠페인 내에서 콘텐츠를 정의하면 선택한 게재 규칙으로 개인화된 인앱 환경을 제공할 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_content_card"

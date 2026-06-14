@@ -22,14 +22,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 220cd161bdc125459ccf17fb7414ba4b4c6360bb
 workflow-type: tm+mt
-source-wordcount: 168
-ht-degree: 100%
+source-wordcount: 196
+ht-degree: 85%
 
 ---
 
 # 콘텐츠 카드 시작 {#get-started-content-card}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 콘텐츠 카드는 모바일 앱과 웹 사이트 내부에 침입하지 않는 개인 맞춤화된 메시지를 전달하므로 사용자가 하던 작업을 중단하지 않고 상황에 맞게 참여할 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 콘텐츠 카드는 모바일 앱 및 웹 사이트에서 직접 개인화되고 흥미로운 콘텐츠를 제공하는 Adobe Journey Optimizer의 새로운 디지털 메시징 기능입니다. 기존 푸시 알림과 달리 콘텐츠 카드는 사용자 인터페이스에 원활하게 통합되어 사용자 상호 작용과 경험을 향상시키고 방해하지 않는 지속적인 업데이트를 제공합니다.
 

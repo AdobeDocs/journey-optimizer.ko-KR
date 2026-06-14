@@ -11,14 +11,20 @@ feature_v2:
 subfeature_v2:
   - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
 workflow-type: tm+mt
-source-wordcount: 643
+source-wordcount: 671
 ht-degree: 1%
 
 ---
 
 # 콘텐츠 카드 콘텐츠 디자인 {#design-content-card}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 콘텐츠 카드의 레이아웃, 텍스트, 미디어, 단추 및 무시 동작을 디자인하고 개인화하여 대상자에게 흥미로운 브랜드 내 메시지를 전달할 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 카드용 작성 구문은 개발자가 렌더링할 수 있는 기본 입력을 마케터에게 제공하는 양식 기반 작성 경험을 제공합니다.
 

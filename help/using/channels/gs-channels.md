@@ -26,14 +26,20 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6a3cd911b8a89d83cab49eb88b05bf18616377e7
 workflow-type: tm+mt
-source-wordcount: 676
-ht-degree: 100%
+source-wordcount: 722
+ht-degree: 93%
 
 ---
 
 # [!DNL Adobe Journey Optimizer] 채널 시작 {#get-started-email}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer의 기본 채널을 통해 아웃바운드 게재 및 인바운드 경험을 통해 고객에게 연락할 수 있습니다. 이메일, SMS, 푸시, 라이브 활동, DM, WhatsApp, LINE, 인앱, 웹, 코드 기반 및 콘텐츠 카드를 비교하여 각 카드가 여정 및 캠페인에서 지원되는 위치를 확인하세요.
+
+>[!ENDSHADEBOX]
 
 오늘날의 역동적인 마케팅 환경에서는 지속적인 관계를 구축하고 참여를 유도하기 위해 다양한 플랫폼에서 대상자에게 효과적으로 다가가는 것이 필수입니다. 이 섹션에서는 [!DNL Adobe Journey Optimizer] 내에서 사용할 수 있는 커뮤니케이션 채널에 대한 포괄적인 개요를 제공하여 각 채널을 마케팅 전략에 효과적으로 활용하는 방법을 이해하도록 돕습니다.
 
