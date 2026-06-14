@@ -9,21 +9,22 @@ role: User
 level: Beginner
 keywords: 통합
 exl-id: 104f283e-f6a5-431b-919a-d97b83d19632
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-  - id: c08fcc42-2918-421a-a25e-e1bd9464c290
-  - id: c6fdb8b1-45ee-460a-a859-9031c59118b7
-  - id: d16f7424-4847-4b90-a37c-4b52cbdabee5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74id: c08fcc42-2918-421a-a25e-e1bd9464c290id: c6fdb8b1-45ee-460a-a859-9031c59118b7id: d16f7424-4847-4b90-a37c-4b52cbdabee5
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 1125
+source-wordcount: 1153
 ht-degree: 8%
 
 ---
 
 # 통합 작업 {#external-sources}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 관리자가 아웃바운드 채널의 개인화된 동적 콘텐츠를 위해 Adobe Journey Optimizer을 타사 API에 연결하는 외부 통합을 구성, 테스트 및 활성화하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 ## 개요
 
@@ -112,7 +113,7 @@ ht-degree: 8%
 
    * **[!UICONTROL 인증 없음]**: 자격 증명이 필요하지 않은 열린 API의 경우.
 
-   * **[!UICONTROL API 키]**: 정적 API 키를 사용하여 요청을 인증합니다. **[!UICONTROL API 키 이름{&#x200B;1},**&#x200B;[!UICONTROL &#x200B; API 키 값{3&#x200B;}을(를) 입력하고 **[!UICONTROL 위치]**&#x200B;를 지정하십시오.]&#x200B;**]**
+   * **[!UICONTROL API 키]**: 정적 API 키를 사용하여 요청을 인증합니다. **[!UICONTROL API 키 이름{&#x200B;1},**[!UICONTROL  API 키 값{3&#x200B;}을(를) 입력하고 **[!UICONTROL 위치]**&#x200B;를 지정하십시오.]**]**
 
    * **[!UICONTROL 기본 인증]**: 표준 HTTP 기본 인증을 사용합니다. **[!UICONTROL 사용자 이름]** 및 **[!UICONTROL 암호]**&#x200B;를 입력하십시오.
 

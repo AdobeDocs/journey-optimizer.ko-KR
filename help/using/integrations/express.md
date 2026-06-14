@@ -10,26 +10,26 @@ level: Beginner
 keywords: 에셋, 통합
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
 TQID: https://experienceleague.adobe.com/43x74R7p0jqfEdqkl6wLoOlez4iHmKWnCRw5K5jMW5Q
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 584
-ht-degree: 18%
+source-wordcount: 615
+ht-degree: 17%
 
 ---
 
 # [!DNL Adobe Express]로 자산 편집{#express}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Journey Optimizer의 Adobe Express 통합으로 자산을 편집하여 이미지 크기를 조정하고, 배경을 제거하고, 시각적 개체를 자르고, 자산을 JPEG 또는 PNG로 변환하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_express_menu"
@@ -60,7 +60,7 @@ Enterprise 라이선스를 사용하면 사용자가 Adobe Express 웹 편집기
 
 ![](assets/express-licence.png)
 
-Adobe Express용 Enterprise 라이선스가 있는 사용자가 사용할 수 있는 사용 사례에 대한 자세한 내용은 [Adobe Express 웹 설명서](https://helpx.adobe.com/kr/express/web.html)를 참조하세요.
+Adobe Express용 Enterprise 라이선스가 있는 사용자가 사용할 수 있는 사용 사례에 대한 자세한 내용은 [Adobe Express 웹 설명서](https://helpx.adobe.com/express/web.html)를 참조하세요.
 
 ## Enterprise 라이선스 없이 Adobe Express 사용  {#edit}
 
@@ -159,7 +159,7 @@ Enterprise 라이센스가 없는 사용자는 Adobe Express에서 사용할 수
 
 Adobe Express 도구를 사용하여 Adobe Journey Optimizer에서 자산을 편집하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3455530/?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
 
 
 
