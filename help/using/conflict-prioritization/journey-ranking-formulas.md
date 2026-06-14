@@ -7,18 +7,22 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="제한 공개" type="Informative"
 exl-id: b172e0e1-b78e-4d96-ab88-254507b55f48
-feature_v2:
-  - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
-subfeature_v2:
-  - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+feature_v2: id: fd59660e-de8a-4bfb-85dc-7fa546030c49
+subfeature_v2: id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 1131
+source-wordcount: 1159
 ht-degree: 3%
 
 ---
 
 # 공식을 사용하여 여정에 순위 매기기 {#journey-ranking-formulas}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 여정 특성, 프로필 특성 또는 AI 점수를 기반으로 등급 수식을 만들어 여정 상한선이 적용될 때 각 프로필에 가장 적합한 여정을 선택합니다.
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
@@ -55,7 +59,7 @@ ht-degree: 3%
 
    <!--
     Selecting a formula entity specifies which type of item—such as journeys or other entities—the ranking formula will apply to. This determines the context in which the formula operates, allowing you to define rules that influence how those items are ranked.
-   -->
+-->
 
 1. 선택적으로 **[!UICONTROL AI 모델 선택]**&#x200B;을 클릭하여 순위 공식을 만드는 데 참조로 사용할 모델을 설정합니다. [자세히 알아보기](journey-ai-models.md)
 

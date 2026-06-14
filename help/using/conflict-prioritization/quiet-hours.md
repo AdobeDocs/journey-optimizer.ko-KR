@@ -10,29 +10,26 @@ level: Intermediate
 keywords: 메시지, 빈도, 규칙, 압력
 exl-id: defebd53-fa80-4720-acdc-0f41ceb00214
 TQID: https://experienceleague.adobe.com/I-zCSU3tp4n-i-EEkx118svN7R9bfUh0phCB-B5ZZ5Q
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
-subfeature_v2:
-  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: fd59660e-de8a-4bfb-85dc-7fa546030c49
+subfeature_v2: id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: f3fe4813-f254-4f8f-99cc-24bd67f119e1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 918
+source-wordcount: 948
 ht-degree: 6%
 
 ---
 
 # 방해 금지 시간 설정 {#quiet-hours}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 잘못된 시간에 고객에게 메시지를 보내는 것을 방지하고 고객의 선호도 및 준수 요구 사항을 준수할 수 있도록 이메일, SMS, 푸시 및 WhatsApp에 대한 시간 기반 제외를 정의합니다.
+
+>[!ENDSHADEBOX]
 
 ## 조용한 시간은 언제입니까
 
@@ -206,4 +203,4 @@ ht-degree: 6%
 
 Adobe Journey Optimizer에서 방해 금지 모드 해제 시간 기능을 사용하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475859?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475851?quality=12)
