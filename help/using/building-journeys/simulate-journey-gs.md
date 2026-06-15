@@ -11,9 +11,9 @@ keywords: 테스트, 여정, 확인, 오류, 문제 해결
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: df6d5f7137a3914daf545746aff559ca0d04539d
 workflow-type: tm+mt
-source-wordcount: 1479
+source-wordcount: 1507
 ht-degree: 2%
 
 ---
@@ -28,9 +28,11 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 시뮬레이션]** 기능에 액세스하려면 **여정 시뮬레이션**, **여정 게시** 또는 **여정 승인 및 게시** 중 하나 이상의 권한이 필요합니다. [자세히 알아보기](../administration/permissions.md)
+>* **[!UICONTROL 시뮬레이션]**&#x200B;을(를) 사용하려면 **[!UICONTROL 여정]** 기능에서 하나 이상의 권한을 할당하십시오. **여정 시뮬레이션**, **여정 게시** 또는 **여정 승인 및 게시**. 동일한 권한을 사용하여 시뮬레이션된 사용자를 만들고 관리할 수 있습니다. **[!UICONTROL 시뮬레이션된 사용자]** 권한은 필요하지 않습니다. [자세히 알아보기](../administration/permissions.md)
 >
->**[!UICONTROL 시뮬레이션]**&#x200B;에서 AI를 사용하려면(**[!UICONTROL 빠른 시뮬레이션]**, AI로 시뮬레이션된 사용자 생성 **[!UICONTROL 이벤트 값 생성]**) 사용자는 **[!UICONTROL AI 길잡이]** 기능에서 **[!UICONTROL 콘텐츠 생성]** 권한이 필요합니다.
+>* **[!UICONTROL 시뮬레이션]** 없이 시뮬레이션된 사용자를 관리하려면 **[!UICONTROL 시뮬레이션된 사용자]** 기능에서 **시뮬레이션된 사용자 관리** 또는 **시뮬레이션된 사용자 보기**&#x200B;를 지정하십시오.
+>
+>* 시뮬레이션 중인 AI의 경우(**[!UICONTROL 빠른 시뮬레이션]**, AI 생성 사용자, **[!UICONTROL 이벤트 값 생성]**) **[!UICONTROL AI 길잡이]** 기능에서 **[!UICONTROL 콘텐츠 생성]**&#x200B;을 지정하십시오.
 
 **초안**, **테스트 모드** 및 **라이브** 외에 **[!UICONTROL 시뮬레이션]**(으)로 여정을 설정할 수 있습니다. 시뮬레이션에서 **시뮬레이션된 사용자**: Adobe Experience Platform에서 영구 테스트 프로필을 사용하지 않고 추가하는 임시 프로필과 유사한 엔터티로 테스트합니다.
 
@@ -49,7 +51,7 @@ Adobe Journey Optimizer은 여정을 테스트하고 확인하는 두 가지 방
 +++ 대상자 읽기가 포함된 일괄 여정
 
 
-여정은 **[!UICONTROL 대상자 읽기]**&#x200B;에 의해 트리거되며 캔버스에 단일 이벤트 활동이 없습니다. 시뮬레이션 중에 대상 모집단은 트리거되지 않습니다. 시뮬레이션된 사용자만 여정을 입력합니다.
+여정은 **[!UICONTROL 대상자 읽기]**에 의해 트리거되며 캔버스에 단일 이벤트 활동이 없습니다. 시뮬레이션 중에 대상 모집단은 트리거되지 않습니다. 시뮬레이션된 사용자만 여정을 입력합니다.
 시뮬레이션을 위해 선택한 시뮬레이션된 사용자는 **사용자 테스트** 섹션에 표시됩니다.
 
 읽기 전용 대상이 있는 일괄 여정에 대한 ![시뮬레이션 패널](assets/simulate-batch.png)

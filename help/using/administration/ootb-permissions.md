@@ -10,31 +10,15 @@ level: Intermediate
 keywords: 권한, 작성, 메시지
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
 TQID: https://experienceleague.adobe.com/iQmLU1mdA4tsWnir0WS9-BLIetY0GK7Qxl2OcNDOQj0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
 subfeature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b23e006f-0a29-4f1d-8fd0-77aa56f3d12bid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 9335f9e54aec56236693afe23996f80bf6e389ce
 workflow-type: tm+mt
-source-wordcount: 1238
+source-wordcount: 1258
 ht-degree: 2%
 
 ---
@@ -76,6 +60,7 @@ ht-degree: 2%
 | 보고서 | **[!DNL View channel reports]**: 채널 보고서를 읽고 편집합니다. |
 | 샌드박스 관리 | **[!DNL Export sandboxes]**: 샌드박스를 내보내는 기능.</br>**[!DNL Manage packages]**: 패키지를 읽고 만들고 편집하고 삭제하는 기능.</br>**[!DNL Manage sandboxes]**: 샌드박스를 읽고 만들고 편집하고 삭제하는 기능.</br>**[!DNL Reset sandboxes]**: 샌드박스를 재설정하는 기능.</br>**[!DNL Share sandboxes]**: 샌드박스를 공유하는 기능.</br>**[!DNL View sandboxes]**: 조직에 속한 샌드박스에 대한 읽기 전용 액세스 권한. |
 | 샌드박스 관리 | **[!DNL Export sandboxes]**: 샌드박스를 내보내는 기능.</br>**[!DNL Manage packages]**: 패키지를 읽고, 만들고, 편집하고, 삭제하는 기능.</br>**[!DNL Manage sandboxes]**: 샌드박스를 읽고, 만들고, 편집하고, 삭제하는 기능.</br>**[!DNL View sandboxes]**: 조직에 속한 샌드박스에 대한 읽기 전용 액세스 권한.</br>**[!DNL Reset sandboxes]**: 샌드박스를 재설정하는 기능. |
+| 시뮬레이션된 사용자 | **[!DNL Manage Simulated Users]**: 시뮬레이션에서 여정을 테스트하는 데 사용되는 시뮬레이션된 사용자를 읽고 만들고 편집합니다.</br>**[!DNL View Simulated Users]**: 시뮬레이션된 사용자에 대한 읽기 전용 액세스 |
 | 번역 서비스 | **[!DNL Manage translation in house]**: 집에서 번역을 읽고, 만들고, 편집하고, 삭제합니다.</br>**[!DNL Manage translation projects]**: 번역 프로젝트를 읽고, 만들고, 편집하고, 삭제합니다.</br> **[!DNL Manage translation reviews]**: 번역 검토를 읽고, 만들고, 편집하고, 삭제합니다.</br>**[!DNL Manage translation settings]**: 번역 설정을 읽고, 만들고, 편집하고, 삭제합니다.</br>**[!DNL Manage translation tasks]**: 번역 작업을 읽고, 만들고, 편집하고, 삭제합니다.</br>**[!DNL View translation in house]**: 사내 번역에 대한 읽기 전용 액세스.</br>**[!DNL View translation projects]**: 번역 프로젝트에 대한 읽기 전용 액세스.</br>**[!DNL View translation reviews]**: 번역 검토에 대한 읽기 전용 액세스.</br>**[!DNL View translation tasks]**: 번역 작업에 대한 읽기 전용 액세스. |
 
 {style="table-layout:fixed"}
