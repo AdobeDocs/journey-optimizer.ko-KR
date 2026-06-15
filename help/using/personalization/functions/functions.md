@@ -6,18 +6,22 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: 0c30d994a1ba0b4b5ef3ee1c34d836ce7887cc19
 workflow-type: tm+mt
-source-wordcount: 2537
+source-wordcount: 2566
 ht-degree: 2%
 
 ---
 
 # 도우미 함수 시작{#functions}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 도우미 함수를 사용하면 개인화된 콘텐츠 내의 데이터에 직접 조건을 변환, 서식 지정 및 적용할 수 있으므로 각 고객을 위한 동적이고 맞춤화된 경험을 구축할 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 도우미 기능을 사용하면 개인화된 콘텐츠 내에서 데이터를 변환하고 조작할 수 있습니다. 이를 사용하여 계산을 수행하고, 데이터의 형식을 지정하며, 조건을 적용하고, 다양한 작업을 실행하여 고객을 위한 동적이고 맞춤화된 경험을 만들 수 있습니다.
 
@@ -509,7 +513,7 @@ ht-degree: 2%
         <td><a href="operators.md#and">And</a></td><td>이 연산자는 논리 결합을 생성합니다.</td>
     </tr>
     <tr>
-        <td><a href="operators.md#or">또는</a></td><td>이 연산자는 논리합을 생성합니다.</td>
+        <td><a href="operators.md#or">Or</a></td><td>이 연산자는 논리합을 생성합니다.</td>
     </tr>
 </table>
 
@@ -540,4 +544,4 @@ ht-degree: 2%
 
 개인화 도우미 기능을 사용하여 개인화 값을 변형하는 방법을 알아보고 도우미 기능의 다양한 사용 사례를 이해합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416646?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
