@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: f7479fa1-474b-479d-8c98-f6cee5865a38
   - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
+source-git-commit: 0c30d994a1ba0b4b5ef3ee1c34d836ce7887cc19
 workflow-type: tm+mt
-source-wordcount: 216
+source-wordcount: 217
 ht-degree: 14%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 14%
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** 캠페인을 활성화하기 전에 각 메시지가 준비되도록 선택한 채널에 대한 캠페인 콘텐츠를 디자인하고 테스트합니다.
+**이 페이지에서:** 캠페인을 활성화하기 전에 각 메시지가 준비되도록 선택한 채널에 대한 액션 캠페인 콘텐츠를 디자인하고 테스트합니다.
 
 >[!ENDSHADEBOX]
 
