@@ -8,23 +8,16 @@ role: Admin
 level: Intermediate
 exl-id: 8ad0e57b-6bdc-43b0-9511-31e2ac1be1f9
 TQID: https://experienceleague.adobe.com/yDRCVzfdPGXisgxJ59UT8HYsdXI82H07Ol--YP7wmE0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: e09fc1e6-407c-418f-adc5-e2ffe8b8986e
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 8f016fe08e76f896eeb71b96e582e4e7e8fc3c9f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: e09fc1e6-407c-418f-adc5-e2ffe8b8986eid: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 1356417d30312b74500dc930c92fe70e0d050a46
 workflow-type: tm+mt
-source-wordcount: 397
-ht-degree: 8%
+source-wordcount: 508
+ht-degree: 6%
 
 ---
 
@@ -66,6 +59,12 @@ ht-degree: 8%
    ![](assets/line-config-2.png)
 
 1. 매핑할 **[!UICONTROL LINE 사용자 ID]**&#x200B;를 선택하십시오. LINE 채널 내에서 개별 사용자에게 메시지를 연결하는 데 사용되는 식별자입니다.
+
+   >[!NOTE]
+   >
+   >여기서 매핑하는 LINE 사용자 ID는 고객의 [!DNL Real-Time Customer Profile]에 이미 있어야 합니다. LINE 사용자 ID를 캡처하여(예: LINE 로그인 또는 LIFF SDK을 통해) Adobe Experience Platform에 수집한 다음 [!DNL Journey Optimizer]이(가) 통합 프로필에 도달할 수 있도록 ID 서비스를 사용하여 알려진 식별자에 연결합니다. [Journey Optimizer의 ID에 대해 자세히 알아보세요](../audience/get-started-identity.md).
+   >
+   >ID 서비스를 사용하여 LINE 사용자 ID를 고객 프로필과 통합하는 방법에 대한 전체적인 예제는 커뮤니티 문서 [AEP ID 결합을 사용하여 LINE 사용자 ID를 고객 프로필과 통합](https://experienceleaguecommunities.adobe.com/adobe-journey-optimizer-15/unifying-line-user-ids-with-customer-profiles-in-adobe-journey-optimizer-using-aep-identity-stitching-248680){target="_blank"}을 참조하십시오.
 
 1. 브랜드 이름과 같은 **[!UICONTROL 보낸 사람 이름]**&#x200B;을 입력하세요.
 
