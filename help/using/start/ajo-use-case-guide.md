@@ -31,7 +31,7 @@ AI는 이러한 많은 기능에 내장되어 있습니다. 아래 표에서 **(
 
 >[!TIP]
 >
->Journey Optimizer을 처음 사용하십니까? 전체 [Journey Optimizer 자습서](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}(비디오 및 안내식 워크스루)를 탐색하고, 전문가가 큐레이션한 [비디오 재생 목록](https://experienceleague.adobe.com/en/playlists?solution=Journey+Optimizer){target="_blank"}을 따라 하며, [교육 샌드박스](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"}에서 또는 [실습 과제](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"}를 통해 연습합니다.
+>Journey Optimizer을 처음 사용하십니까? 전체 [Journey Optimizer 자습서](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}(비디오 및 안내식 워크스루)를 탐색하고, 전문가가 큐레이션한 [비디오 재생 목록](https://experienceleague.adobe.com/ko/playlists?solution=Journey+Optimizer){target="_blank"}을 따라 하며, [교육 샌드박스](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"}에서 또는 [실습 과제](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"}를 통해 연습합니다.
 
 ## 실시간으로 고객 참여 {#engage-real-time}
 
@@ -54,7 +54,7 @@ AI는 이러한 많은 기능에 내장되어 있습니다. 아래 표에서 **(
 | 난... | 권장 기능 | 여기서 시작 |
 | --- | --- | --- |
 | 뉴스레터 또는 프로모션을 세그먼트에 전송 | 예약된 캠페인 | [캠페인 시작](../campaigns/get-started-with-campaigns.md) |
-| A/B 테스트로 제품 실행 | 콘텐츠 실험 **(AI)** | [콘텐츠 실험 시작](../content-management/experiment-accelerator-gs.md) · [이메일 캠페인에 대한 콘텐츠 실험 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} |
+| A/B 테스트로 제품 실행 | 콘텐츠 실험 **(AI)** | [콘텐츠 실험 시작](../content-management/experiment-accelerator-gs.md) · [이메일 캠페인에 대한 콘텐츠 실험 만들기](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} |
 | 고객에게 중단 또는 서비스 업데이트 알림 | 예약된 캠페인 + 대상자 | [대상자 정보](../audience/about-audiences.md) |
 | 규모에 맞게 여러 채널에서 메시징 조정 | 오케스트레이션 | [오케스트레이션을 옴니채널 참여로 확장](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/scaling-orchestration-to-omnichannel-engagement/introduction){target="_blank"} |
 | 각 고객에게 최적의 시간에 각 메시지 보내기 | 전송 시간 최적화 **(AI)** | [전송 시간 최적화](../building-journeys/send-time-optimization.md) |
