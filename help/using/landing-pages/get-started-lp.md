@@ -135,6 +135,6 @@ ht-degree: 94%
 
 아래 비디오에서는 구독 목록을 만들고, 서비스 옵트인/옵트아웃을 위한 랜딩 페이지를 설정하고, 메시지에 옵트인/옵트아웃 옵션을 통합하고, 관련 여정을 구성하는 방법을 확인할 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/344401?captions=kor&quality=12&learn=on)
 
 ➡️ **실제 활용 보기:** 구독 관리, 확인 이메일, 데이터 캡처 시나리오에 대한 단계별 예시를 보려면 [랜딩 페이지 사용 사례](lp-use-cases.md)를 살펴보십시오.
