@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 웹 채널은 웹 사이트에서 직접 개인화된
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 웹 채널 시작
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 개인화된 웹 경험을 만들고 관리하는 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 웹 채널 구성
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 개인화된 웹 경험을 만들고 관리하는 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 웹 경험 만들기 및 관리
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer에서 개인화된 웹 경험을 만들고 관리하는 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=ko)
 
 웹 페이지 작성 및 관리
 

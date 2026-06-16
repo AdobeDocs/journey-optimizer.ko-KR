@@ -31,7 +31,7 @@ Adobe Journey Optimizer의 인앱 채널을 사용하면 모바일이나 웹 앱
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 모바일 인앱 메시지 만들기
 
@@ -61,7 +61,7 @@ Adobe Journey Optimizer의 인앱 채널을 사용하면 모바일이나 웹 앱
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg?lang=ko)
 
 인앱 알림 확인하고 보내기
 

@@ -32,7 +32,7 @@ Adobe Journey Optimizer에서 하위 도메인을 위임할 때의 이점, 구�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 하위 도메인 위임
 
@@ -82,7 +82,7 @@ Adobe Journey Optimizer에서 Google TXT 레코드를 추가하여 Gmail의 메�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 PTR 레코드 액세스 및 편집
 

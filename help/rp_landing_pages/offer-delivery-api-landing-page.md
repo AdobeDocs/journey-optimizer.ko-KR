@@ -55,7 +55,7 @@ Edge Decisioning API를 통해 Adobe Experience Platform Web SDK를 사용하여
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 Batch Decisioning API를 사용하여 오퍼 게재
 

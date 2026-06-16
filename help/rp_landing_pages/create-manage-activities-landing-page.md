@@ -45,7 +45,7 @@ Adobe Journey Optimizer에서 의사 결정 생성
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 오퍼 결정 시뮬레이션
 
