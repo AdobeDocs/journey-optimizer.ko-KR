@@ -30,7 +30,7 @@ topic_v2:
 source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
 source-wordcount: 1854
-ht-degree: 6%
+ht-degree: 13%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
 >title="대상자 선별"
->abstract="프로필이 [!DNL Adobe Experience Platform] 대상자에 대해 자격이 되거나 종료되는 경우 여정 시작 또는 계속을 트리거합니다. 스트리밍 대상에 권장, 일괄 처리 시나리오에는 대상 읽기 활동이 사용됩니다."
+>abstract="프로필이 [!DNL Adobe Experience Platform] 대상자에 적합하거나 해당 대상자를 종료하면 여정 진입 또는 계속을 트리거합니다. 스트리밍 대상자에게 권장됩니다. 배치 시나리오에서는 읽기 대상자 활동이 사용됩니다."
 
 ## 대상자 선별 이벤트 정보{#about-segment-qualification}
 
@@ -75,17 +75,17 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_audience"
 >title="대상자"
->abstract="여정이 모니터링하는 [!DNL Adobe Experience Platform] 대상자입니다. 프로필은 이 대상에 대해 자격이 되거나 종료됨에 따라 들어오거나 앞으로 이동합니다. 스트리밍 대상이 권장되므로 자격이 실시간으로 평가됩니다."
+>abstract="여정에서 모니터링하는 [!DNL Adobe Experience Platform] 대상자입니다. 프로필은 이 대상자에 적합하거나 해당 대상자를 종료하면 진입하거나 앞으로 이동합니다. 스트리밍 대상이 추천되므로 자격이 실시간으로 평가됩니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_behavior"
 >title="비헤이비어"
->abstract="프로필이 대상에 대한 자격이 있는 경우(입력), 대상에서 벗어나는 경우(종료) 또는 둘 다에 대해 여정이 반응하는 대상 멤버십 변경을 정의합니다. 두 옵션을 모두 수신하면 전체 멤버십 라이프사이클이 적용되지만, 단일 옵션을 사용하면 여정이 한 방향으로 제한됩니다."
+>abstract="프로필이 대상자에 적합한 경우(진입), 대상자를 벗어나는 경우(종료) 또는 둘 다인 경우 여정이 반응하는 대상자 멤버십 변경을 정의합니다. 두 옵션을 모두 수신하면 전체 멤버십 라이프사이클이 적용되지만, 한 가지 옵션만 사용하면 여정이 한 방향으로 제한됩니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_identity"
 >title="ID 유형"
->abstract="대상자에 대한 자격이 되는 개인을 인식하는 데 사용되는 ID 네임스페이스입니다. 사용자 기반 ID 네임스페이스만 사용할 수 있으며 이 ID가 없는 프로필은 여정에 들어갈 수 없습니다."
+>abstract="대상자에게 적합한 개인을 인식하는 데 사용되는 ID 네임스페이스입니다. 사용자 기반 ID 네임스페이스만 사용할 수 있으며, 이 ID가 없는 프로필은 여정에 진입할 수 없습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_merge_policy"
@@ -119,7 +119,7 @@ ht-degree: 6%
    >[!NOTE]
    >
    >**[!UICONTROL Enter]** 및 **[!UICONTROL Exit]**&#x200B;은(는) [!DNL Adobe Experience Platform]의 **실현됨** 및 **종료됨** 대상자 참여 상태에 해당합니다.
-   >[세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ko#interpret-segment-results){target="_blank"}를 참조하세요.
+   >[세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}를 참조하세요.
 
 1. 네임스페이스를 선택합니다. 이는 이벤트가 여정의 첫 번째 단계로 배치되는 경우에만 필요합니다. 기본적으로 필드는 마지막으로 사용된 네임스페이스로 미리 채워집니다.
 

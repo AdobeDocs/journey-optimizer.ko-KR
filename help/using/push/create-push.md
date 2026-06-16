@@ -25,7 +25,7 @@ topic_v2:
 source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
 source-wordcount: 1094
-ht-degree: 16%
+ht-degree: 25%
 
 ---
 
@@ -40,8 +40,8 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_push"
 >title="푸시 알림 작업"
->abstract="푸시 알림 채널 작업은 프로필이 여정의 이 단계에 도달하면 푸시 알림을 프로필에 보냅니다. 레이블은 여정 캔버스에서 활동을 식별하고, 작업은 전달되는 콘텐츠를 정의하는 푸시 구성을 참조합니다. **최적화** 섹션에는 콘텐츠 실험 또는 타깃팅 규칙이 포함될 수 있고, **다국어** 섹션은 여러 언어로 콘텐츠를 제공할 수 있으며, **시간 초과 또는 오류** 섹션은 작업이 실패할 경우 대체 경로를 정의할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="채널 작업 시작"
+>abstract="푸시 알림 채널 액션은 프로필이 여정의 이 단계에 도달하면 푸시 알림을 프로필에 보냅니다. 레이블은 여정 캔버스에서 활동을 식별하고, 작업은 전달된 콘텐츠를 정의하는 푸시 구성을 참조합니다. **최적화** 섹션에는 콘텐츠 실험 또는 타깃팅 규칙이 포함될 수 있고, **다국어** 섹션은 여러 언어로 콘텐츠를 제공할 수 있으며, **시간 초과 또는 오류** 섹션은 작업이 실패할 경우 대체 경로를 정의할 수 있습니다."
+>additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="채널 액션 시작"
 
 
 >[!CONTEXTUALHELP]

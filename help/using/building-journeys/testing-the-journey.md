@@ -31,7 +31,7 @@ topic_v2:
 source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
 source-wordcount: 2335
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test"
 >title="여정 테스트"
->abstract="테스트 프로필을 사용하면 여정을 게시하기 전에 테스트할 수 있습니다. 이를 통해 개인이 여정에 참여하는 방법을 분석하고 게시 전에 문제를 해결할 수 있습니다."
+>abstract="게시하기 전에 테스트 프로필을 사용하여 여정을 테스트합니다. 이를 통해 개인이 여정에 참여하는 방법을 분석하고 게시 전에 문제를 해결할 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-dry-run" text="여정 시험 실행"
 
 여정을 빌드하면 게시하기 전에 테스트할 수 있습니다. [!DNL Adobe Journey Optimizer]은(는) 여정을 따라 이동할 때 테스트 프로필을 볼 수 있는 방법으로 &quot;테스트 모드&quot;를 제공하여 활성화 전에 잠재적인 오류를 감지합니다. 빠른 테스트를 실행하면 여정이 올바르게 작동하는지 확인하여 안정적으로 게시할 수 있습니다.

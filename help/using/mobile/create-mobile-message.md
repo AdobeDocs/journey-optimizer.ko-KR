@@ -26,7 +26,7 @@ topic_v2:
 source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
 source-wordcount: 889
-ht-degree: 6%
+ht-degree: 18%
 
 ---
 
@@ -56,8 +56,8 @@ Adobe Journey Optimizer에서 텍스트(SMS), 풍부한 커뮤니케이션(RCS) 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_sms"
 >title="모바일 메시지 작업"
->abstract="모바일 메시지 채널 작업은 프로필이 여정의 이 단계에 도달하면 텍스트(SMS), 멀티미디어(MMS) 또는 리치 통신(RCS) 메시지를 프로필로 보냅니다. 레이블은 여정 캔버스에서 활동을 식별하고, 작업은 전달되는 콘텐츠를 정의하는 모바일 메시지 구성을 참조합니다. **최적화** 섹션에는 콘텐츠 실험 또는 타깃팅 규칙이 포함될 수 있고, **다국어** 섹션은 여러 언어로 콘텐츠를 제공할 수 있으며, **시간 초과 또는 오류** 섹션은 작업이 실패할 경우 대체 경로를 정의할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="채널 작업 시작"
+>abstract="모바일 메시지 채널 액션은 프로필이 여정의 이 단계에 도달하면 텍스트(SMS), 멀티미디어(MMS) 또는 리치 커뮤니케이션(RCS) 메시지를 프로필로 보냅니다. 레이블은 여정 캔버스에서 활동을 식별하고, 작업은 전달된 콘텐츠를 정의하는 모바일 메시지 구성을 참조합니다. **최적화** 섹션에는 콘텐츠 실험 또는 타깃팅 규칙이 포함될 수 있고, **다국어** 섹션은 여러 언어로 콘텐츠를 제공할 수 있으며, **시간 초과 또는 오류** 섹션은 작업이 실패할 경우 대체 경로를 정의할 수 있습니다."
+>additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="채널 액션 시작"
 
 캠페인이나 여정에 모바일 메시지를 추가하는 방법을 배우려면 아래 탭을 살펴보십시오.
 

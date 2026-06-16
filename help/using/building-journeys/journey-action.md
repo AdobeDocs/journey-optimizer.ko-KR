@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
 source-wordcount: 1813
-ht-degree: 12%
+ht-degree: 22%
 
 ---
 
@@ -77,26 +77,26 @@ ht-degree: 12%
 * **새 여정 버전을 만듭니다** — 새 버전은 레거시 활동을 계속 사용합니다. 그대로 편집하고 게시할 수 있습니다. 마이그레이션이 필요하지 않습니다.
 * **여정에 기존 활동을 복사하여 붙여 넣기** — 붙여 넣은 활동은 기존 활동으로 유지됩니다. 그대로 편집하고 게시할 수 있습니다. 마이그레이션이 필요하지 않습니다.
 
-## 여정에 기본 제공 채널 작업 추가  {#add-action}
+## 기본 제공되는 채널 액션을 여정에 추가  {#add-action}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_auto_wait"
 >title="자동 대기 노드"
->abstract="인바운드 채널 작업(인앱 메시지, 웹, 콘텐츠 카드 및 코드 기반 경험)의 경우 작업(기본적으로 3일) 후에 **대기** 노드가 자동으로 삽입됩니다. 이렇게 하면 프로필이 다음 단계로 진행하기 전에 인바운드 경험을 볼 수 있는 시간을 여정에게 제공합니다."
->additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="채널 작업 시작"
+>abstract="인바운드 채널 액션(인앱 메시지, 웹, 콘텐츠 카드 및 코드 기반 경험)의 경우, 액션 후(기본적으로 3일) **대기** 노드가 자동으로 삽입됩니다. 이렇게 하면 여정이 다음 단계로 진행하기 전에 프로필이 인바운드 경험을 볼 시간을 제공합니다."
+>additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="채널 액션 시작"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_optimization"
 >title="최적화"
->abstract="**최적화** 섹션은 콘텐츠 실험, 타깃팅 규칙 또는 두 가지 모두를 채널 작업에 추가합니다. 변형을 테스트하고 각 대상 멤버에게 가장 효과적인 콘텐츠를 전달할 수 있습니다."
+>abstract="**최적화** 섹션은 콘텐츠 실험, 타기팅 규칙 또는 두 가지 모두를 채널 액션에 추가합니다. 그러면 변형을 테스트하고 각 대상 멤버에게 가장 효과적인 콘텐츠를 전달할 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/optimize-activity/optimize" text="최적화 활동 사용"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_multilingual"
 >title="다국어"
->abstract="**다국어** 섹션은 단일 여정 내에서 여러 언어로 채널 작업 콘텐츠를 제공합니다. 언어 설정 구성은 이 작업에 지원되는 로케일과 기본 언어를 정의합니다."
+>abstract="**다국어** 섹션은 단일 여정 내에서 여러 언어로 채널 액션 콘텐츠를 제공합니다. 언어 설정 구성은 이 작업에 지원되는 로케일과 기본 언어를 정의합니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/content-multilingual/multilingual-gs" text="다국어 콘텐츠 시작"
 
 
@@ -142,7 +142,7 @@ ht-degree: 12%
       </td>
       <td>
       <a href="../push/create-push.md">
-      <img alt="저빈도" src="../assets/do-not-localize/push.jpg">
+      <img alt="드물게" src="../assets/do-not-localize/push.jpg">
       </a>
       <div>
       <a href="../push/create-push.md"><strong>푸시 알림 만들기<strong></a>
@@ -191,7 +191,7 @@ ht-degree: 12%
       </td>
       <td>
       <a href="../code-based/create-code-based.md">
-      <img alt="저빈도" src="../assets/do-not-localize/web-design.jpg">
+      <img alt="드물게" src="../assets/do-not-localize/web-design.jpg">
       </a>
       <div>
       <a href="../code-based/create-code-based.md"><strong>코드 기반 경험 만들기<strong></a>

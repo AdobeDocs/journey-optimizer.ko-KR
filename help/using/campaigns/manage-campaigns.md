@@ -29,7 +29,7 @@ topic_v2:
 source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
 source-wordcount: 1797
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -114,7 +114,7 @@ API 트리거 캠페인 목록에 액세스하려면 **[!UICONTROL API 트리거
 **모든 캠페인 유형에 대해:**
 
 * **[!UICONTROL 모든 시간 보고서 보기]** / **[!UICONTROL 최근 24시간 보고서 보기]** - 보고서에 액세스하여 캠페인의 영향과 성과를 측정하고 시각화할 수 있습니다. [캠페인 보고서에 대해 자세히 알아보기 →](../reports/campaign-global-report-cja.md)
-* **[!UICONTROL 태그 편집]** - 캠페인에 연결된 태그를 편집합니다. [태그를 사용하는 방법에 대해 알아보세요→](../start/search-filter-categorize.md#add-tags)
+* **[!UICONTROL 태그 편집]** - 캠페인에 연결된 태그를 편집합니다. [태그를 사용하는 방법 알아보기 →](../start/search-filter-categorize.md#add-tags)
 * **[!UICONTROL 복제]** - 이 옵션을 사용하여 캠페인을 복제합니다. 예를 들어 중지된 오케스트레이션된 캠페인을 실행할 수 있습니다. [→ 복제에 대해 자세히 알아보기](#duplicate-a-campaign)
 * **[!UICONTROL 삭제]** - 이 옵션을 사용하여 캠페인을 삭제합니다. [→ 삭제에 대해 자세히 알아보기](#delete-a-campaign)
 * **[!UICONTROL 보관]** - 캠페인을 보관합니다. 보관된 모든 캠페인은 마지막 수정 날짜 30일 후 롤링 일정에서 삭제됩니다. 이 작업은 **[!UICONTROL 초안]** 캠페인을 제외한 모든 캠페인에 사용할 수 있습니다. [보관 파일에 대해 자세히 →](#archive-a-campaign)
@@ -125,7 +125,7 @@ API 트리거 캠페인 목록에 액세스하려면 **[!UICONTROL API 트리거
 Per-campaign alert subscription is deferred (CJM-112845, CJM-112849). Campaign lifecycle alerts can currently be subscribed to at the sandbox level only. See ../reports/alerts.md#subscribe-alerts
 * **[!UICONTROL Subscribe to alerts]** - Choose which campaign lifecycle system alerts apply to this campaign only (in addition to any sandbox-wide alert subscriptions). [Learn more about system alerts →](../reports/alerts.md#subscribe-alerts)
 -->
-* **[!UICONTROL 패키지에 추가]** - 다른 샌드박스로 내보내려면 패키지에 캠페인을 추가하십시오. [개체를 내보내는 방법에 대해 알아봅니다→](../configuration/copy-objects-to-sandbox.md)
+* **[!UICONTROL 패키지에 추가]** - 다른 샌드박스로 내보내려면 패키지에 캠페인을 추가하십시오. [개체를 내보내는 방법 알아보기 →](../configuration/copy-objects-to-sandbox.md)
 * **[!UICONTROL 초안 버전 열기]** - 캠페인의 새 버전이 만들어지고 아직 활성화되지 않은 경우 이 작업을 사용하여 해당 초안 버전에 액세스할 수 있습니다.
 
 **오케스트레이션된 캠페인에만 해당:**

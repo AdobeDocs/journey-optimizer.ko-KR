@@ -37,7 +37,7 @@ topic_v2:
 source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
 source-wordcount: 1642
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_canvas"
 >title="여정 만들기"
->abstract="드래그 앤 드롭 캔버스는 여러 채널에서 메시지와 작업을 조정하고 컨텍스트 기반 데이터와 대상 타겟팅을 활용하여 최대의 효과를 얻을 수 있습니다."
+>abstract="드래그 앤 드롭 캔버스를 사용하여 여러 채널에서 메시지와 액션을 오케스트레이션하고, 상황별 데이터와 대상자 타기팅을 활용하여 최대의 효과를 얻을 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs" text="첫 여정 만들기"
 
 

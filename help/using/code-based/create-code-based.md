@@ -21,7 +21,7 @@ topic_v2:
 source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
 source-wordcount: 1029
-ht-degree: 8%
+ht-degree: 17%
 
 ---
 
@@ -36,8 +36,8 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_code_based"
 >title="코드 기반 경험 작업"
->abstract="코드 기반 경험 인바운드 작업은 프로필이 이 여정 단계에 도달하면 코드 기반 경험을 프로필에 전달합니다. 레이블은 여정 캔버스에서 활동을 식별하고, 작업은 표시된 콘텐츠를 정의하는 코드 기반 구성을 참조합니다. **최적화** 섹션에는 콘텐츠 실험 또는 타깃팅 규칙이 포함될 수 있습니다. 이 활동(기본적으로 3일) 후에 **대기** 노드가 자동으로 삽입되므로 프로필에서 경험을 볼 시간이 제공됩니다."
->additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="채널 작업 시작"
+>abstract="코드 기반 경험 인바운드 작업은 프로필이 이 여정 단계에 도달하면 코드 기반 경험을 프로필에 전달합니다. 레이블은 여정 캔버스에서 활동을 식별하고, 작업은 표시된 콘텐츠를 정의하는 코드 기반 구성을 참조합니다. **최적화** 섹션에는 콘텐츠 실험 또는 타기팅 규칙이 포함될 수 있습니다. 이 활동 후(기본적으로 3일) **대기** 노드가 자동으로 삽입되므로 경험을 볼 시간이 프로필에 제공됩니다."
+>additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="채널 액션 시작"
 
 [!DNL Journey Optimizer]에서 여정 또는 캠페인에서 코드 기반 경험을 만들 수 있습니다.
 

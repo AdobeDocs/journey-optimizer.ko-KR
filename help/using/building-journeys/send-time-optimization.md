@@ -31,7 +31,7 @@ topic_v2:
 source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
 source-wordcount: 1656
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
@@ -51,12 +51,12 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_email"
 >title="전송 시간 최적화 활성화"
->abstract="라디오 단추는 이메일 열림 또는 이메일 클릭스루에서 최적화할지 여부를 결정합니다. 시스템에서 사용하는 전송 시간은 다음 옵션 내에서의 전송 값으로 대괄호로 묶을 수도 있습니다."
+>abstract="라디오 버튼은 이메일 열림 또는 이메일 클릭스루 중 어디에서 최적화할지 여부를 결정합니다. 또한 시스템에서 사용하는 전송 시간을 다음 이내로 전송 옵션에 값을 입력하여 범위 내로 설정할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_push"
 >title="전송 시간 최적화 활성화"
->abstract="클릭수는 푸시 메시지에 적용할 수 없으므로 푸시 메시지의 기본값은 열람수 옵션으로 설정됩니다. 시스템에서 사용하는 전송 시간은 다음 옵션 내에서의 전송 값으로 대괄호로 묶을 수도 있습니다."
+>abstract="클릭수는 푸시 메시지에 적용할 수 없으므로 푸시 메시지의 기본값은 열람수 옵션으로 설정됩니다. 또한 시스템에서 사용하는 전송 시간을 다음 이내로 전송 옵션에 값을 입력하여 범위 내로 설정할 수 있습니다."
 
 Adobe의 여정 AI 서비스를 기반으로 하는 [!DNL Adobe Journey Optimizer]의 전송 시간 최적화 기능은 고객의 과거 열기 및 클릭 동작에 따라 고객 참여를 극대화하기 위해 이메일 및 푸시 메시지에 대한 최적의 전송 시간을 선택합니다.
 

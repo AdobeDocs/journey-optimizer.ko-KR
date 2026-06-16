@@ -25,7 +25,7 @@ topic_v2:
 source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
 workflow-type: tm+mt
 source-wordcount: 2435
-ht-degree: 11%
+ht-degree: 15%
 
 ---
 
@@ -45,8 +45,8 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_in_app"
 >title="인앱 메시지 작업"
->abstract="인앱 메시지 인바운드 작업은 프로필이 여정의 이 단계에 도달하면 인앱 메시지를 프로필에 표시합니다. 레이블은 여정 캔버스에서 활동을 식별하고, 작업은 표시된 콘텐츠를 정의하는 인앱 구성을 참조합니다. **최적화** 섹션에는 콘텐츠 실험 또는 타깃팅 규칙이 포함될 수 있습니다. 이 활동(기본적으로 3일) 후에 **대기** 노드가 자동으로 삽입되므로 프로필에서 인앱 메시지를 볼 수 있습니다."
->additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="채널 작업 시작"
+>abstract="인앱 메시지 인바운드 작업은 프로필이 여정의 이 단계에 도달하면 인앱 메시지를 프로필에 표시합니다. 레이블은 여정 캔버스에서 활동을 식별하고, 작업은 표시된 콘텐츠를 정의하는 인앱 구성을 참조합니다. **최적화** 섹션에는 콘텐츠 실험 또는 타기팅 규칙이 포함될 수 있습니다. 이 활동 후(기본적으로 3일) **대기** 노드가 자동으로 삽입되므로 인앱 메시지를 볼 시간이 프로필에 제공됩니다."
+>additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="채널 액션 시작"
 
 캠페인 또는 여정에서 인앱 메시지를 추가할 수 있습니다. 아래 설명된 단계에 따라 두 컨텍스트에서 인앱 메시지를 만드십시오.
 
