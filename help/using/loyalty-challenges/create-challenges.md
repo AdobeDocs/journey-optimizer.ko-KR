@@ -14,7 +14,7 @@ exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
 source-git-commit: e12c7cdc7b90507913b1a0ebd3eb0ee74007f95b
 workflow-type: tm+mt
 source-wordcount: '2203'
-ht-degree: 10%
+ht-degree: 14%
 
 ---
 
@@ -89,12 +89,12 @@ ht-degree: 10%
 
 **[!UICONTROL 설정]** 탭에서 참여 가능 사용자, 챌린지 실행 시기, 구성원의 옵트인 및 진행 상황 획득 방법, 선택적 메타데이터 등 챌린지 수준 속성을 구성합니다.
 
-### 과제 세부 정보 {#challenge-details}
+### 챌린지 세부 정보 {#challenge-details}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_properties"
->title="과제 세부 정보"
->abstract="과제 이름과 설명을 설정합니다. 과제 ID는 도전이 생성될 때 자동으로 할당되며 API 또는 통합 사용을 위해 복사할 수 있습니다."
+>title="챌린지 세부 정보"
+>abstract="챌린지 이름과 설명을 설정합니다. 챌린지 ID는 챌린지가 생성될 때 자동으로 할당되며 API 또는 통합 사용을 위해 복사할 수 있습니다."
 
 1. **[!UICONTROL 과제 세부 정보]** 섹션에서 다음을 정의합니다.
 
@@ -109,7 +109,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_audience"
 >title="대상자"
->abstract="도전에 참가할 수 있는 사람을 선택하십시오. 모든 충성도 멤버가 자격을 갖도록 Adobe Experience Platform 대상을 추가하거나 대상을 비워 두십시오. 필요한 경우 사전 요구 사항으로 다른 문제를 완료해야 합니다."
+>abstract="챌린지에 참여할 수 있는 사람을 선택합니다. Adobe Experience Platform 대상자를 추가하거나, 모든 로열티 멤버가 자격을 갖도록 대상을 비워둡니다. 필요한 경우 전제 조건으로 다른 챌린지를 완료하도록 요구합니다."
 
 충성도 도전에 참여할 수 있는 사용자를 정의합니다.
 
@@ -119,12 +119,12 @@ ht-degree: 10%
 
 1. **[!UICONTROL 챌린지 필수 구성 요소]**&#x200B;에서 **[!UICONTROL 챌린지 완료 필요]**&#x200B;를 선택하여 하나 이상의 선택한 챌린지를 이미 완료한 구성원으로 자격을 제한합니다.
 
-### 예약 {#schedule}
+### 일정 {#schedule}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_schedule"
 >title="챌린지 일정"
->abstract="시작 및 종료 날짜 및 시간과 시간대를 사용하여 도전이 활성 상태일 때를 설정합니다. 태스크 완료 창에서 고객이 챌린지 기간 동안 태스크를 완료할 수 있는 시점을 선택합니다."
+>abstract="시작 및 종료 날짜 및 시간과 시간대를 사용하여 챌린지를 활성화 시점을 설정합니다. 작업 완료 창에서 고객이 챌린지 기간 동안 작업을 완료할 수 있는 시점을 선택합니다."
 
 과제 실행 시기 구성:
 

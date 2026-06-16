@@ -16,7 +16,7 @@ subfeature_v2: []
 source-git-commit: 024bf7a15ca8ef80dfd948ad226958ed71f22413
 workflow-type: tm+mt
 source-wordcount: 1178
-ht-degree: 6%
+ht-degree: 10%
 
 ---
 
@@ -140,7 +140,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_task_eligible_items_exclusion"
 >title="적격 항목 및 제외"
->abstract="**구매**&#x200B;와(과) **지출** 활동 모두에 대해 **[!UICONTROL 적격 항목 및 제외]** 특성을 사용하여 작업 완료에 포함되는 항목 및 그룹과 제외되는 항목을 선택하십시오. 관리자가 구성한 제품 재고에서 품목 또는 그룹을 검색한 다음 필요에 따라 포함 또는 제외합니다."
+>abstract="**구매**&#x200B;와 **지출** 활동 모두에 대해 **[!UICONTROL 적격 항목 및 제외]** 속성을 사용하여 어떤 항목과 그룹을 작업 완료로 지정하고 어떤 것을 제외할지 선택합니다. 관리자가 구성한 제품 재고에서 항목 또는 그룹을 검색한 다음 필요에 따라 포함 또는 제외합니다."
 
 <!-- SCREENSHOT: Eligible items & exclusions picker showing the item and group table with Include and Exclude actions -->
 

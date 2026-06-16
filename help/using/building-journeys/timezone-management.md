@@ -11,22 +11,16 @@ keywords: 시간대, 속성, 여정, 조건, 시간, 날짜, 사용자 정의
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/PdwGEuWqJcncbkokE0eOhMaEk9L0AmCJ--VZBxxtDDU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
 source-wordcount: 418
-ht-degree: 15%
+ht-degree: 21%
 
 ---
 
@@ -73,7 +67,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_profile_time_zone"
 >title="프로필 시간대 사용"
->abstract="이 옵션은 **대기** 및 **조건** 활동의 실시간 프로필 시간대를 사용합니다. 프로필에 대해 시간대가 정의된 경우 여정에서 해당 시간대를 검색하고 이를 사용합니다. 그렇지 않은 경우 시간대는 위의 시간대 필드에 정의된 시간대가 됩니다."
+>abstract="이 옵션은 **대기** 및 **조건** 활동에서 실시간 프로필 시간대를 사용합니다. 프로필에 대해 시간대가 정의된 경우 여정에서 해당 시간대를 검색하고 이를 사용합니다. 그렇지 않은 경우 시간대는 위의 시간대 필드에 정의된 시간대가 됩니다."
 
 여정의 시작 이벤트에 네임스페이스가 있어 여정이 [!DNL Adobe Experience Platform]의 실시간 고객 프로필 서비스에 연결할 수 있는 경우 프로필 수준에서 정의된 시간대를 사용할 수 있습니다. 이렇게 하려면 **속성**&#x200B;에서 **대기 및 조건에 프로필 시간대 사용**&#x200B;을 확인하세요. 이 옵션은 기본적으로 선택되어 있지 않습니다.
 

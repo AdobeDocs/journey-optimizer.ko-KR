@@ -11,26 +11,16 @@ keywords: 자격, 이벤트, 대상, 여정, 플랫폼
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/u7riiGWgaQFuiWARJL-Wqh9CcaZ-yH3N6ZRtsvfyN8Y
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
 source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
 source-wordcount: 1854
-ht-degree: 6%
+ht-degree: 13%
 
 ---
 
@@ -45,7 +35,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
 >title="대상자 선별"
->abstract="프로필이 [!DNL Adobe Experience Platform] 대상자에 대해 자격이 되거나 종료되는 경우 여정 시작 또는 계속을 트리거합니다. 스트리밍 대상에 권장, 일괄 처리 시나리오에는 대상 읽기 활동이 사용됩니다."
+>abstract="프로필이 [!DNL Adobe Experience Platform] 대상자에 적합하거나 해당 대상자를 종료하면 여정 진입 또는 계속을 트리거합니다. 스트리밍 대상자에게 권장됩니다. 배치 시나리오에서는 읽기 대상자 활동이 사용됩니다."
 
 ## 대상자 선별 이벤트 정보{#about-segment-qualification}
 
@@ -75,17 +65,17 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_audience"
 >title="대상자"
->abstract="여정이 모니터링하는 [!DNL Adobe Experience Platform] 대상자입니다. 프로필은 이 대상에 대해 자격이 되거나 종료됨에 따라 들어오거나 앞으로 이동합니다. 스트리밍 대상이 권장되므로 자격이 실시간으로 평가됩니다."
+>abstract="여정에서 모니터링하는 [!DNL Adobe Experience Platform] 대상자입니다. 프로필은 이 대상자에 적합하거나 해당 대상자를 종료하면 진입하거나 앞으로 이동합니다. 스트리밍 대상이 추천되므로 자격이 실시간으로 평가됩니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_behavior"
 >title="비헤이비어"
->abstract="프로필이 대상에 대한 자격이 있는 경우(입력), 대상에서 벗어나는 경우(종료) 또는 둘 다에 대해 여정이 반응하는 대상 멤버십 변경을 정의합니다. 두 옵션을 모두 수신하면 전체 멤버십 라이프사이클이 적용되지만, 단일 옵션을 사용하면 여정이 한 방향으로 제한됩니다."
+>abstract="프로필이 대상자에 적합한 경우(진입), 대상자를 벗어나는 경우(종료) 또는 둘 다인 경우 여정이 반응하는 대상자 멤버십 변경을 정의합니다. 두 옵션을 모두 수신하면 전체 멤버십 라이프사이클이 적용되지만, 한 가지 옵션만 사용하면 여정이 한 방향으로 제한됩니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_identity"
 >title="ID 유형"
->abstract="대상자에 대한 자격이 되는 개인을 인식하는 데 사용되는 ID 네임스페이스입니다. 사용자 기반 ID 네임스페이스만 사용할 수 있으며 이 ID가 없는 프로필은 여정에 들어갈 수 없습니다."
+>abstract="대상자에게 적합한 개인을 인식하는 데 사용되는 ID 네임스페이스입니다. 사용자 기반 ID 네임스페이스만 사용할 수 있으며, 이 ID가 없는 프로필은 여정에 진입할 수 없습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_merge_policy"
@@ -119,7 +109,7 @@ ht-degree: 6%
    >[!NOTE]
    >
    >**[!UICONTROL Enter]** 및 **[!UICONTROL Exit]**&#x200B;은(는) [!DNL Adobe Experience Platform]의 **실현됨** 및 **종료됨** 대상자 참여 상태에 해당합니다.
-   >[세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ko#interpret-segment-results){target="_blank"}를 참조하세요.
+   >[세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}를 참조하세요.
 
 1. 네임스페이스를 선택합니다. 이는 이벤트가 여정의 첫 번째 단계로 배치되는 경우에만 필요합니다. 기본적으로 필드는 마지막으로 사용된 네임스페이스로 미리 채워집니다.
 
@@ -164,7 +154,7 @@ ht-degree: 6%
 
 스트리밍 세분화를 통해 열기 및 보내기 이벤트를 사용하지 마십시오. 대신 클릭, 구매 또는 비콘 데이터와 같은 실제 사용자 활동 신호를 사용합니다. 빈도 또는 제외 논리의 경우 이벤트 보내기 대신 비즈니스 규칙을 사용하십시오. [자세히 알아보기](../audience/about-audiences.md)
 
-[[!DNL Adobe Experience Platform] 스트리밍 세분화 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}를 참조하세요.
+[[!DNL Adobe Experience Platform] 스트리밍 세분화 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}를 참조하세요.
 
 >[!NOTE]
 >
@@ -200,9 +190,9 @@ ht-degree: 6%
 
 * **[!UICONTROL 대상 자격]** 활동에서 일괄 처리 대상을 만든 후 바로 사용하지 마십시오. 이렇게 하면 첫 번째 계산 피크가 나타나지 않습니다. 계산된 적이 없는 대상을 사용하려는 경우 여정 캔버스에 노란색 경고가 표시됩니다.
 
-  [!DNL Adobe Experience Platform]![&#128279;](assets/segment-error.png)에서 대상을 찾을 수 없을 때 오류 메시지
+  [!DNL Adobe Experience Platform]](assets/segment-error.png)에서 대상을 찾을 수 없을 때 ![오류 메시지
 
-* 여정에서 사용되는 데이터 소스 및 작업에 대한 최대 가용량 규칙을 적용하여 오버로드를 방지합니다. 자세한 내용은 [Journey Orchestration 설명서](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=ko){target="_blank"}를 참조하세요. 최대 가용량 규칙에는 재시도가 없습니다. 다시 시도해야 하는 경우 **[!UICONTROL 조건 또는 작업에서 시간 초과 또는 오류 발생 시 대체 경로를 추가]** 상자를 선택하여 여정에서 대체 경로를 사용하십시오.
+* 여정에서 사용되는 데이터 소스 및 작업에 대한 최대 가용량 규칙을 적용하여 오버로드를 방지합니다. 자세한 내용은 [Journey Orchestration 설명서](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}를 참조하세요. 최대 가용량 규칙에는 재시도가 없습니다. 다시 시도해야 하는 경우 **[!UICONTROL 조건 또는 작업에서 시간 초과 또는 오류 발생 시 대체 경로를 추가]** 상자를 선택하여 여정에서 대체 경로를 사용하십시오.
 
 * 프로덕션 여정에서 대상을 사용하기 전에 매일 이 대상에 대해 자격이 있는 개인의 양을 평가하십시오. 이렇게 하려면 **[!UICONTROL 대상자]** 메뉴를 확인하고 대상자를 연 다음 **[!UICONTROL 시간 경과에 따른 프로필]** 그래프를 보십시오.
 
@@ -246,4 +236,4 @@ ht-degree: 6%
 
 이 비디오에서 대상 자격 여정에 적용할 수 있는 사용 사례를 이해합니다. 대상 검증을 사용하여 여정을 구축하는 방법 및 적용할 모범 사례를 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446211?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
