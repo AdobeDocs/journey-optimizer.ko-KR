@@ -9,9 +9,9 @@ role: Admin, User
 level: Beginner
 keywords: 여정 최적화 도구, 패키지, 라이선스, 캠페인, 여정, 채널, 의사 결정, 아웃바운드, 모바일, 웹, 모듈식, sms, mms, whatsapp, 추가 기능, 선택, 프라임, 궁극적, 이전
 hide: true
-source-git-commit: ac42eeb00129bd77963676302578aadc8d7051df
+source-git-commit: c0bfb3ea92ea1375fa6bdd2bdffc836c0046db7a
 workflow-type: tm+mt
-source-wordcount: '1972'
+source-wordcount: '1992'
 ht-degree: 2%
 
 ---
@@ -276,5 +276,6 @@ ht-degree: 2%
 
 - **제품 시작하기** - 환경을 설정하고 핵심 개념을 알아봅니다. [Journey Optimizer 시작](get-started.md)
 - **구현 계획** - 프로젝트의 구조화된 온보딩 경로를 따릅니다. [프로젝트 가이드 온보딩](onboarding-hub.md)
+- **기능 가용성 확인** — 라이브된 기능, 라이프사이클 상태(GA/LA/Beta) 및 출시 시기를 확인합니다. [기능 가용성](ajo-features-availability.md)
 - **올바른 사용 사례 찾기** — 참여 목표를 해당 목표를 지원하는 기능에 매핑합니다. [사용 사례 안내서](ajo-use-case-guide.md)
 - **채널 구성** — 추가 기능을 알고 있으면 필요한 채널을 설정하십시오. [이메일](../email/get-started-email.md), [푸시 알림](../push/get-started-push.md), [SMS/MMS](../mobile/get-started-mobile.md), [인앱 메시지](../in-app/get-started-in-app.md), [콘텐츠 카드](../content-card/get-started-content-card.md), [웹 채널](../web/get-started-web.md) 및 [코드 기반 경험](../code-based/get-started-code-based.md).
