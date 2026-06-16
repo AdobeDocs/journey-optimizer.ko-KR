@@ -6,9 +6,9 @@ description: LINE
 redpen-status: CREATED_||_2025-08-11_20-44-38
 exl-id: 5f51bbfe-37f8-4e8d-8e4e-6b9d018cd076
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '226'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 98%
 
 [!DNL Journey Optimizer]에서 고객의 LINE 앱으로 LINE 메시지를 보냅니다. LINE 편집기에서 메시지를 만들고 개인화하고 미리 볼 수 있습니다.
 
-LINE 메시지는 여정 또는 캠페인에서 만들고 보낼 수 있습니다. 
+LINE 메시지는 여정 또는 캠페인에서 만들고 보낼 수 있습니다.
 
 * **여정**&#x200B;에서. 여정을 만들고, LINE 활동을 추가하고, 기본 설정을 정의한 다음 **[!UICONTROL 액션: LINE]** 오른쪽 창으로 이동하여 LINE 메시지의 콘텐츠를 만듭니다. [이 페이지](../using/building-journeys/journey-gs.md)에서 여정을 만드는 방법을 알아봅니다.
 

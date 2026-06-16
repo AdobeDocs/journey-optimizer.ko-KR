@@ -2,19 +2,19 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: 기술 문서
-description: 신뢰 시퀀스, 상승도 계산 및 전환율을 포함하여 Journey Optimizer 실험 이면의 통계적 방법론에 대해 알아봅니다.
+description: 신뢰도 시퀀스, 리프트 계산 및 전환율을 포함한 Journey Optimizer 실험의 통계적 방법론에 대해 알아봅니다.
 redpen-status: CREATED_||_2025-08-12_00-43-53
 exl-id: 853c6c96-2dab-495f-946a-1b03c50632a2
 source-git-commit: 7897da644221ab05da9ca0e378f60b9aa5ef2564
-workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 54%
+workflow-type: ht
+source-wordcount: '131'
+ht-degree: 100%
 
 ---
 
 # 기술 문서{#section-overview}
 
-이 기술 노트는 Adobe Journey Optimizer 실험 및 보고에 사용되는 통계 방법을 설명합니다. 이를 사용하여 실험을 모니터링하는 방법, 상승도 및 전환율과 같은 지표를 계산하는 방법 및 결과를 자신 있게 해석하는 방법을 이해할 수 있습니다.
+이 기술 문서는 Adobe Journey Optimizer 실험 및 보고에 사용되는 통계적 방법을 설명합니다. 기술 문서를 통해 실험 모니터링 방법, 리프트 및 전환율과 같은 지표 계산 방법, 그리고 결과를 신뢰할 수 있게 해석하는 방법을 이해할 수 있습니다.
 
 ## 기술 문서
 

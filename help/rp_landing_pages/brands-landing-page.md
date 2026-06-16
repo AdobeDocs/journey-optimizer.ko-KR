@@ -2,13 +2,13 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: 브랜드
-description: Journey Optimizer에서 브랜드 지침을 만들고, 관리하고, 개인화하여 모든 캠페인에서 일관된 브랜드 내 콘텐츠를 확인하는 방법에 대해 알아봅니다.
+description: Journey Optimizer에서 브랜드 가이드라인을 생성, 관리 및 개인화하여 모든 캠페인에서 일관성 있고 브랜드에 부합하는 콘텐츠를 제공하는 방법을 알아봅니다.
 redpen-status: CREATED_||_2025-08-12_00-41-41
 exl-id: f1e3cb9d-83a8-48af-9121-4ebc56dce251
 source-git-commit: c8c07cf68cba20d6c6f4185bb3e8da0236f7acb5
-workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 70%
+workflow-type: ht
+source-wordcount: '256'
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Adobe Journey Optimizer로 시각적, 언어적 정체성을 일관되게 유지
 
 브랜드 개인화
 
-기본 브랜드 환경 설정을 지정하고 AI 생성 콘텐츠와의 원활한 통합을 위해 브랜드 지침을 맞춤화하는 방법을 알아봅니다.
+기본 브랜드 환경 설정을 지정하고 AI 생성 콘텐츠와의 원활한 통합을 위해 브랜드 가이드라인을 맞춤 설정하는 방법을 알아봅니다.
 
 [브랜드 개인화](../using/content-management/brands-personalize.md)
 :::
@@ -52,11 +52,11 @@ Adobe Journey Optimizer로 시각적, 언어적 정체성을 일관되게 유지
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
-생성 모델 생성 및 관리
+생성형 모델 생성 및 관리
 
-일관된 콘텐츠 생성을 위해 브랜드 지침에 따라 훈련된 맞춤형 생성 AI 모델을 생성하고 관리하는 방법에 대해 알아봅니다.
+일관된 콘텐츠 생성을 위해 브랜드 가이드라인을 기반으로 학습된 사용자 정의 생성형 AI 모델을 만들고 관리하는 방법을 알아봅니다.
 
-[생성 모델 관리](../using/content-management/generative-models.md)
+[생성형 모델 관리](../using/content-management/generative-models.md)
 :::
 
 ::::

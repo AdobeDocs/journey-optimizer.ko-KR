@@ -7,9 +7,9 @@ redpen-status: CREATED_||_2025-08-11_21-05-09
 badge: label="레거시" type="Informative"
 exl-id: 5262df0e-201b-45bc-8234-e5acb7ff8af9
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: '378'
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Adobe Journey Optimizer의 의사 결정 관리를 통해 적절한 대상자에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 순위 만들기 및 최적화
 

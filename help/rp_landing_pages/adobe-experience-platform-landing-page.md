@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: Adobe Experience Platform
-description: inAudience 함수를 포함하여 Adobe Experience Platform 여정 내에서 Journey Optimizer 데이터 및 대상 함수를 사용하는 방법에 대해 알아봅니다.
+description: Journey Optimizer 여정에서 inAudience 함수를 포함하여 Adobe Experience Platform 데이터 및 대상자 함수를 사용하는 방법을 알아봅니다.
 redpen-status: CREATED_||_2025-08-11_20-11-06
 source-git-commit: 627b1a99cb9a7f59208e7d1339e8f1d136c07065
-workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 60%
+workflow-type: ht
+source-wordcount: '198'
+ht-degree: 100%
 
 ---
 
@@ -32,19 +32,19 @@ inAudience 함수를 사용하여 Adobe Journey Optimizer에서 대상 멤버십
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
-Personalization용 Adobe Experience Platform 데이터 사용
+개인화에 Adobe Experience Platform 데이터 사용
 
-Adobe Experience Platform 프로필 속성 및 데이터 세트에 액세스하고 사용하여 메시지 및 여정 조건을 개인화하는 방법을 알아봅니다.
+Adobe Experience Platform 프로필 속성 및 데이터 세트에 액세스하고 사용하여 메시지와 여정 조건을 개인화하는 방법을 알아봅니다.
 
 [개인화에 AEP 데이터 사용](../using/personalization/aep-data-perso.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 여정에서 Adobe Experience Platform 데이터 사용
 
-여정 조건, 작업 및 표현식 내에서 직접 Adobe Experience Platform 데이터를 쿼리하고 조회하는 방법에 대해 알아봅니다.
+여정 조건, 액션 및 표현식 내에서 Adobe Experience Platform 데이터를 직접 쿼리하고 조회하는 방법을 알아봅니다.
 
 [여정에서 AEP 데이터 사용](../using/data/lookup-aep-data.md)
 :::

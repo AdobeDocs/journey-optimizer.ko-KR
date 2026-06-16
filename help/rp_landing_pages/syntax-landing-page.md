@@ -6,9 +6,9 @@ description: 구문
 redpen-status: CREATED_||_2025-08-11_20-10-54
 exl-id: 7f9a648a-5b4b-4ca0-a4db-47e1fa657864
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '295'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 97%
 
 Adobe Journey Optimizer의 고급 표현식 편집기의 강력한 구문 기능을 살펴보세요. 이 편집기에서 정밀하고 다이내믹한 표현식을 만들어 고객 여정을 미세 조정할 수 있습니다. 연산자로 복잡한 데이터를 구성하든, 컬렉션을 쿼리하든, 조건부 로직을 적용하든, 구문 도구를 사용하여 실제 시나리오에 유연하게 대처할 수 있습니다. 데이터에 액세스하기 위한 필드 참조, 정확도를 구현하기 위한 데이터 유형 및 실시간 사용자 지정을 위한 여정 속성과 같은 핵심 주제를 탐색합니다. 각 개념은 이전 개념을 기반으로 구축되어, 보다 스마트하고 효과적인 여정을 만들기 위한 통합적인 툴킷을 만듭니다. 새로운 가능성을 만날 준비가 되셨나요? 그럼, 시작합니다!
 
-## 구문: Adobe Journey Optimizer의 표현식 작성
+## 구문: Adobe Journey Optimizer에서 표현식 작성
 
 :::: landing-cards-container
 :::

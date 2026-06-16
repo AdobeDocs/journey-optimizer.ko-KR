@@ -6,9 +6,9 @@ description: 데이터 관리
 redpen-status: CREATED_||_2025-08-11_21-06-39
 exl-id: d60bd99c-aa17-4ef0-85a9-384ef21b96da
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '261'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 데이터 관리를 통해 유연성, 보안 및 정�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 데이터 관리 시작
 

@@ -6,9 +6,9 @@ description: 다국어 콘텐츠
 redpen-status: CREATED_||_2025-08-12_00-43-28
 exl-id: 3f02694e-2237-4022-8e05-b76a5a1443b5
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '241'
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer의 다국어 콘텐츠 기능을 사용하면 여러 언
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 자동 번역을 사용하여 다국어 콘텐츠 만들기
 

@@ -6,9 +6,9 @@ description: 표현식 작성
 redpen-status: CREATED_||_2025-08-11_20-19-10
 exl-id: 6ccd0bc7-fb40-48de-abcb-0cb1eb2c6303
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '265'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer에는 여정 내에 복잡한 로직을 작성할 수 �
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 고급 표현식 편집기 사용
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer에는 여정 내에 복잡한 로직을 작성할 수 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 표현식의 고급 구문
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 고급 표현식을 작성하는 데 필요한 구
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Adobe Journey Optimizer의 함수
 
@@ -61,7 +61,7 @@ Journey Optimizer 데이터 세트의 쿼리 샘플 및 관련 사용 사례
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 데이터 분석을 위한 SQL 쿼리 예
 

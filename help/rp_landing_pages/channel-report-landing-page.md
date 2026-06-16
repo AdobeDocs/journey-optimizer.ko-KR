@@ -6,9 +6,9 @@ description: 전체 시간 보고서
 redpen-status: CREATED_||_2025-08-11_20-52-29
 exl-id: cc658ad0-79ec-4403-bdda-18f0c428d3fa
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '382'
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Customer Journey Analytics 수동 구성
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 보고서 관리
 
@@ -70,7 +70,7 @@ Customer Journey Analytics 수동 구성
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 제외 이유
 

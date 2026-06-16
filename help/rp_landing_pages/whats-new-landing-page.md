@@ -7,15 +7,15 @@ redpen-status: CREATED_||_2025-08-11_20-03-09
 hide: true
 exl-id: 24460cae-3944-4ac4-9076-aca521cfddbd
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '307'
+ht-degree: 100%
 
 ---
 
 # 새로운 기능{#section-overview}
 
-Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보세요! 기능, 개선 사항, 해결 사항의 종합 목록은 [릴리스 정보](../using/rn/release-notes.md)에서 자세히 확인할 수 있습니다.  제품 설명서의 최신 변경 사항에 대한 정보를 확인하려면 [설명서 업데이트 페이지](../using/rn/documentation-updates.md)를 방문하십시오.
+Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보세요! 기능, 개선 사항, 해결 사항의 종합 목록은 [릴리스 정보](../using/rn/release-notes.md)에서 자세히 확인할 수 있습니다. 제품 설명서의 최신 변경 사항에 대한 정보를 확인하려면 [설명서 업데이트 페이지](../using/rn/documentation-updates.md)를 방문하십시오.
 
 >[!BEGINTABS]
 
