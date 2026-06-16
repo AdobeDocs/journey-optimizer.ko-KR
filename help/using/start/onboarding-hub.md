@@ -9,7 +9,7 @@ role: User
 level: Beginner
 hide: true
 keywords: 여정 최적화 도구, 온보딩, 온보딩 허브, 사용 사례, 비디오, 자습서, 시작하기, 램프 업, 첫 여정
-source-git-commit: 727d99f93d3fc19848f00ab423ec320a092b357c
+source-git-commit: 7af5076bb9a394110de6400991285ab2be86962d
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 12%
@@ -18,11 +18,16 @@ ht-degree: 12%
 
 # Journey Optimizer 온보딩 허브 {#onboarding-hub}
 
+
 >[!BEGINSHADEBOX]
 
 **이 페이지에서:** Adobe Journey Optimizer에서 빠르게 올라가기 — 간단한 오리엔테이션을 보고, 단계별 지침에 따라 첫 번째 경험을 전달하고, 실제 사용 사례를 탐색하고, 선별된 비디오 콘텐츠를 살펴봅니다.
 
 >[!ENDSHADEBOX]
+
+<!-- 
+rebuild
+-->
 
 [!DNL Adobe Journey Optimizer]을(를) 처음 사용하십니까? 이 허브는 일반적인 목표에 대한 단계별 지침, 가능한 것을 보여 주는 실제 사용 사례 및 선별된 비디오 콘텐츠(튜토리얼, 연습 및 실습)를 통해 0에서 첫 번째 라이브 고객 경험으로 전환하는 데 도움이 되는 리소스를 수집합니다.
 
