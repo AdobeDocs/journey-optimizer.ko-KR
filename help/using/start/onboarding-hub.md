@@ -9,7 +9,7 @@ role: User
 level: Beginner
 hide: true
 keywords: 여정 최적화 도구, 온보딩, 온보딩 허브, 사용 사례, 비디오, 자습서, 시작하기, 램프 업, 첫 여정
-source-git-commit: 727d99f93d3fc19848f00ab423ec320a092b357c
+source-git-commit: 7af5076bb9a394110de6400991285ab2be86962d
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 12%
@@ -18,11 +18,16 @@ ht-degree: 12%
 
 # Journey Optimizer 온보딩 허브 {#onboarding-hub}
 
+
 >[!BEGINSHADEBOX]
 
 **이 페이지에서:** Adobe Journey Optimizer에서 빠르게 올라가기 — 간단한 오리엔테이션을 보고, 단계별 지침에 따라 첫 번째 경험을 전달하고, 실제 사용 사례를 탐색하고, 선별된 비디오 콘텐츠를 살펴봅니다.
 
 >[!ENDSHADEBOX]
+
+<!-- 
+rebuild
+-->
 
 [!DNL Adobe Journey Optimizer]을(를) 처음 사용하십니까? 이 허브는 일반적인 목표에 대한 단계별 지침, 가능한 것을 보여 주는 실제 사용 사례 및 선별된 비디오 콘텐츠(튜토리얼, 연습 및 실습)를 통해 0에서 첫 번째 라이브 고객 경험으로 전환하는 데 도움이 되는 리소스를 수집합니다.
 
@@ -34,12 +39,12 @@ ht-degree: 12%
 
 10분 정도 시간이 있으면 이 방향 비디오로 시작하십시오. 인터페이스를 살펴보고 역할별 주요 기능을 강조 표시합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430319?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 그런 다음 다음 다음 학습 리소스를 통해 실습 자신감을 구축합니다.
 
 * [Journey Optimizer 자습서](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/overview){target="_blank"} - 모든 역할에 대한 단계별 비디오 및 안내식 워크스루.
-* [전문가가 큐레이션한 비디오 재생 목록](https://experienceleague.adobe.com/ko/playlists?solution=Journey+Optimizer){target="_blank"} - 순서대로 시청할 짧은 비디오 세트입니다.
+* [전문가가 큐레이션한 비디오 재생 목록](https://experienceleague.adobe.com/en/playlists?solution=Journey+Optimizer){target="_blank"} - 순서대로 시청할 짧은 비디오 세트입니다.
 * [교육 샌드박스](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"} — 연습할 샘플 데이터가 있는 안전한 환경입니다.
 * [실습 과제](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"} — 학습한 내용을 안내식 연습에 적용하십시오.
 
@@ -134,7 +139,7 @@ ht-degree: 12%
 >[!TAB 보고 및 최적화]
 
 * [실시간 보고서로 여정 모니터링 및 분석](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/report-and-monitor/monitor-and-analyze-your-journey-with-live-reports){target="_blank"} - 실시간으로 성능을 추적합니다.
-* [이메일 캠페인에 대한 콘텐츠 실험 만들기](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} - 콘텐츠를 테스트하고 최적화합니다.
+* [이메일 캠페인에 대한 콘텐츠 실험 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} - 콘텐츠를 테스트하고 최적화합니다.
 
 >[!ENDTABS]
 
