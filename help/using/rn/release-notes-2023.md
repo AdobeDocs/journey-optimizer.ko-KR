@@ -18,7 +18,7 @@ subfeature_v2:
 source-git-commit: 9372a9bed5c6da5db33567557944d69af9d56913
 workflow-type: tm+mt
 source-wordcount: 4372
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -125,8 +125,8 @@ ht-degree: 98%
 <tbody>
 <tr>
 <td>
-<p>계산된 속성을 사용하면 향상된 동작 기반 세분화, 개인화 및 활성화를 위해 직관적인 사용자 인터페이스를 통해 이벤트 데이터를 프로필 속성으로 쉽게 요약할 수 있습니다. 이 기능을 사용하면 셀프서비스 방식으로 계산된 특성을 만들고 관리하여 세그멘테이션, 실시간 고객 프로필 대상 또는 Journey Optimizer에서 사용할 수 있습니다.<br/><br/>
-또한 계산된 속성은 세분화 및 여정 워크플로를 단순화하여 관련 경험을 원활하게 전달할 수 있습니다. 자세한 내용은 <a href="../audience/computed-attributes.md">자세한 설명서</a>를 참조하세요.</p>
+<p>계산된 속성을 사용하면 직관적인 사용자 인터페이스를 통해 이벤트 데이터를 프로필 속성으로 쉽게 요약해 행동 기반 세분화, 개인화, 활성화를 개선할 수 있습니다. 이 기능을 통해 셀프 서비스 방식으로 계산된 속성을 만들고 관리하여 세분화, 실시간 고객 프로필 대상 또는 Journey Optimizer에서 사용할 수 있습니다.<br/><br/>
+또한 계산된 속성은 세분화 및 여정 워크플로를 단순화하여 관련성 있는 경험을 원활하게 제공하는 데 도움이 됩니다. 자세한 내용은 <a href="../audience/computed-attributes.md">세부 설명서</a>를 참조하십시오.</p>
 <img src="assets/do-not-localize/computed-attributes.gif">
 </tr>
 </tbody>
@@ -324,7 +324,7 @@ A new option is available in the email surface settings to include email address
 **여정**
 
 * 이제 사용자 정의 작업에 API 호출 응답을 활용하고, 이 응답을 기반으로 여정을 오케스트레이션할 수 있습니다. 이 기능은 현재 Beta로 사용할 수 있습니다. [자세히 알아보기](../action/action-response.md)
-* 새로운 유형의 시스템 경고가 도입되었습니다. 이제 사용자 지정 작업이 실패하면 알림을 받을 수 있습니다. [자세히 알아보기](../reports/alerts.md).
+* 새로운 유형의 시스템 경고가 추가되었습니다. 이제 사용자 정의 액션이 실패하면 알림을 받을 수 있습니다. [자세히 알아보십시오](../reports/alerts.md).
   <!--* When duplicating a journey, you can now define the name of the journey copy.-->
 
 
@@ -1001,7 +1001,7 @@ Note that each widget can be resized and deleted as needed.
 <p>이제 빠른 재사용을 위해 여정과 캠페인에서 활용할 수 있는 독립 실행형 콘텐츠 템플릿을 만들 수 있습니다.</p> 
 </p>
 <img src="assets/do-not-localize/content-template.gif"/>
-<p><a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html?lang=ko">이 비디오</a>에서 콘텐츠 템플릿을 만들고 편집하고 사용하는 방법에 대해 알아봅니다. 자세한 내용은 <a href="../content-management/content-templates.md">자세한 설명서</a>를 참조하세요.
+<p><a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html?lang=ko">이 비디오</a>에서 콘텐츠 템플릿을 만들고 편집하고 사용하는 방법을 알아볼 수 있습니다. 자세한 내용은 <a href="../content-management/content-templates.md">세부 설명서</a>를 참조하십시오.
 </p>
 </td>
 </tr>

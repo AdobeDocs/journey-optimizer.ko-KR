@@ -46,7 +46,7 @@ ht-degree: 90%
 
 >[!ENDSHADEBOX]
 
-Adobe Journey Optimizer에 액세스하려면 Adobe ID로 [Adobe Experience Cloud](https://experience.adobe.com)에 로그인한 다음 [!DNL Journey Optimizer]을 선택하세요.
+Adobe Journey Optimizer에 액세스하려면 Adobe ID로 [Adobe Experience Cloud](https://experience.adobe.com)에 로그인한 다음, [!DNL Journey Optimizer]을(를) 선택하세요.
 
 >[!NOTE]
 >
@@ -407,7 +407,7 @@ AI 어시스턴트는 즉각적인 도움과 운영 인사이트를 제공합니
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_load_file"
 >title="파일 로드 활동"
->abstract="**파일 로드** 활동은 **타기팅** 활동입니다. 오케스트레이션된 캠페인 캔버스에 CSV 또는 TXT 파일을 업로드하고 캠페인 대상자로 사용하는 데 사용됩니다. 파일 데이터는 실행 시 사용되며 Adobe Experience Platform 데이터 세트로 지속되지 않습니다. 행은 ID 열과 타기팅 차원을 사용하여 기존 수신자에 대해 조정됩니다."
+>abstract="**파일 로드** 활동은 **타기팅** 활동입니다. 오케스트레이션된 캠페인 캔버스에 CSV 또는 TXT 파일을 업로드하여 캠페인 대상자로 사용하려면 이 활동을 사용합니다. 파일 데이터는 실행 시 사용되며 Adobe Experience Platform 데이터 세트로 저장되지 않습니다. 행은 ID 열과 타기팅 차원을 사용하여 기존 수신자에게 맞춰집니다."
 
 <!-- SMS Sinch Usage metrics -->
 

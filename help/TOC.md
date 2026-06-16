@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 727d99f93d3fc19848f00ab423ec320a092b357c
 workflow-type: tm+mt
 source-wordcount: '3362'
-ht-degree: 94%
+ht-degree: 99%
 
 ---
 
@@ -149,9 +149,9 @@ ht-degree: 94%
    + {hide-from-toc}[챌린지 만들기](using/loyalty-challenges/create-challenges.md)
    + {hide-from-toc}[작업 만들기](using/loyalty-challenges/create-tasks.md)
    + {hide-from-toc}[충성도 챌린지 성능 모니터링](using/loyalty-challenges/loyalty-reporting.md)
-   + {hide-from-toc}[충성도 문제 구성](using/loyalty-challenges/loyalty-admin.md)
+   + {hide-from-toc}[충성도 챌린지 구성](using/loyalty-challenges/loyalty-admin.md)
    + {hide-from-toc}[충성도 데이터 및 데이터 세트](using/loyalty-challenges/loyalty-data-and-datasets.md)
-   + {hide-from-toc}[충성도 문제 API 참조](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges)
+   + {hide-from-toc}[충성도 챌린지 API 참조](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges)
 + 캠페인 {#campaigns}
    + {hide-from-toc}[캠페인](/help/rp_landing_pages/campaigns-landing-page.md)
    + [캠페인 시작](using/campaigns/get-started-with-campaigns.md)
@@ -245,7 +245,7 @@ ht-degree: 94%
       + [방해 금지 시간 설정](using/conflict-prioritization/quiet-hours.md)
    + 여정 중재 {#journey-arbitration}
       + [공식을 사용하여 여정에 순위 매기기](using/conflict-prioritization/journey-ranking-formulas.md)
-      + [AI 모델을 사용하여 여정 등급 지정](using/conflict-prioritization/journey-ai-models.md)
+      + [AI 모델을 사용하여 여정 순위 매기기](using/conflict-prioritization/journey-ai-models.md)
 + 테스트 및 승인 {#test}
    + [테스트, 유효성 검사 및 승인](/help/rp_landing_pages/test-landing-page.md)
    + 콘텐츠 미리 보기 및 테스트 {#preview-test}
@@ -287,11 +287,11 @@ ht-degree: 94%
       + [이메일 시작](using/email/get-started-email.md)
       + [이메일 만들기](using/email/create-email.md)
       + 이메일 콘텐츠 디자인 {#design-email}
-         + {hide-from-toc}[전자 메일 콘텐츠 디자인](/help/rp_landing_pages/design-email-landing-page.md)
+         + {hide-from-toc}[이메일 콘텐츠 디자인](/help/rp_landing_pages/design-email-landing-page.md)
          + {hide-from-toc}[메시지 콘텐츠 디자인](using/start/message-content-design.md)
          + [이메일 디자인 시작](using/email/get-started-email-design.md)
          + 콘텐츠 만들기 시작 {#start-creating-content}
-            + {hide-from-toc}[콘텐츠 만들기 시작](/help/rp_landing_pages/start-creating-content-landing-page.md)
+            + {hide-from-toc}[콘텐츠 생성 시작](/help/rp_landing_pages/start-creating-content-landing-page.md)
             + [처음부터 컨텐츠 만들기](using/email/content-from-scratch.md)
             + [콘텐츠 가져오기](using/email/existing-content.md)
             + [나만의 콘텐츠 코딩](using/email/code-content.md)
@@ -364,7 +364,7 @@ ht-degree: 94%
          + [사용자 정의 제공자 구성](using/mobile/mobile-configuration-custom.md)
          + [웹후크 만들기](using/mobile/mobile-webhook.md)
          + [모바일 구성 만들기](using/mobile/mobile-configuration-surface.md)
-         + [인바운드 키워드에 대한 사용자 지정 데이터 세트 사용](using/mobile/custom-dataset-inbound-keywords.md)
+         + [인바운드 키워드에 대한 사용자 정의 데이터 세트 사용](using/mobile/custom-dataset-inbound-keywords.md)
    + 다이렉트 메일 {#direct-mail}
       + [다이렉트 메일](/help/rp_landing_pages/direct-mail-landing-page.md)
       + [다이렉트 메일 시작](using/direct-mail/get-started-direct-mail.md)
@@ -465,7 +465,7 @@ ht-degree: 94%
          + [문자열 함수](using/personalization/functions/string.md)
       + 개인화 사용 사례 {#personalization-use-cases}
          + [개인화 사용 사례](/help/rp_landing_pages/personalization-use-cases-landing-page.md)
-         + [Personalization 레서피](using/personalization/personalization-recipes.md)
+         + [개인화 레시피](using/personalization/personalization-recipes.md)
          + [주문 상태 알림](using/personalization/personalization-use-case.md)
          + [장바구니 포기 이메일](using/personalization/personalization-use-case-helper-functions.md)
          + [건강 계획 처방 이메일](using/personalization/perso-uc-plan-prescriptions.md)
@@ -520,7 +520,7 @@ ht-degree: 94%
          + {hide-from-toc}[콘텐츠 조각에 대한 저장소 구성](using/integrations/aem-admin-settings.md)
          + [Experience Manager 콘텐츠 조각 작업](using/integrations/aem-fragments.md)
          + [고려할 사항 및 문제 해결](using/integrations/aem-fragments-limitations.md)
-      + [Experience Manager Content Advisor 작업](using/integrations/aem-content-advisor.md)
+      + [Experience Manager 콘텐츠 어드바이저 작업](using/integrations/aem-content-advisor.md)
       + [Dynamic Media 작업](using/integrations/aem-dynamic.md)
       + {hide-from-toc}[카운트다운 타이머 삽입](using/integrations/countdown.md)
       + [GenStudio for Performance Marketing 작업](using/integrations/genstudio.md)
@@ -531,8 +531,8 @@ ht-degree: 94%
          + [FAQ](using/integrations/vendor-integration-faq.md)
          + 샘플 공급업체 {#vendors}
             + [공급업체 통합 시작](using/integrations/vendor-integration-gs.md)
-            + [공급업체 구성 샘플](using/integrations/vendor-integration.md)
-      + [MCP를 통해 AI 도구 작업](/help/using/integrations/ajo-mcp.md)
+            + [샘플 공급업체 구성](using/integrations/vendor-integration.md)
+      + [MCP를 통한 AI 도구 작업](/help/using/integrations/ajo-mcp.md)
    + 콘텐츠 생성을 위한 AI 어시스턴트 {#ai-assistant}
       + [콘텐츠 생성을 위한 AI 어시스턴트](/help/rp_landing_pages/ai-assistant-landing-page.md)
       + [AI 어시스턴트 시작하기](using/content-management/gs-generative.md)

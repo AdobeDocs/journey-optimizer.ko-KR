@@ -26,7 +26,7 @@ subfeature_v2:
 source-git-commit: 4e89993a998268ae2810c949d0669bf6dc458dd6
 workflow-type: tm+mt
 source-wordcount: 576
-ht-degree: 92%
+ht-degree: 93%
 
 ---
 
@@ -47,7 +47,7 @@ Adobe Experience Platform **Privacy Service**&#x200B;는 고객 데이터 요청
 개인 정보 보호 서비스 관련 및 개인 정보 요청 생성/관리법 관련한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko-KR){target="_blank"}를 참조하세요.
 
 <!--
-* [Privacy Service overview](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko)
+* [Privacy Service overview](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)
 * [Managing privacy jobs in the Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ko)
 -->
 
@@ -56,7 +56,7 @@ Adobe Experience Platform **Privacy Service**&#x200B;는 고객 데이터 요청
 Adobe Journey Optimizer에서 소비자 데이터에 액세스하고 이를 삭제하기 위한 개별 요청은 다음 두 가지 방법으로 제출할 수 있습니다.
 
 * **Privacy Service UI**&#x200B;를 통한 방법. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ko-KR){target="_blank"}
-* **Privacy Service API**&#x200B;를 통해. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/privacy/api/overview){target="_blank"}
+* **Privacy Service API**&#x200B;를 통한 방법. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/privacy/api/overview){target="_blank"}
   <!--More specific information on Privacy Service API [here](https://developer.adobe.com/experience-platform-apis/references/privacy-service/#_blank).-->
 
 Privacy Service는 **데이터 액세스**&#x200B;와 **데이터 삭제**&#x200B;라는 두 가지 유형의 요청을 지원합니다.

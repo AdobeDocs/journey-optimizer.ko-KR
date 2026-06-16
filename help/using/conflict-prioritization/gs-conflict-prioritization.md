@@ -24,7 +24,7 @@ topic_v2:
 source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
 source-wordcount: 896
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -95,4 +95,4 @@ Journey Optimizer에서 너무 많은 상호 작용으로 고객에게 부담을
 * **[채널별 빈도 캡핑](channel-capping.md)** - 메시지를 과도하게 보내는 것을 방지하기 위해 채널 수준에서 빈도 캡핑을 설정합니다.
 * **[방해 금지 시간 설정](quiet-hours.md)** - 메시지 게재에 대한 시간 기반 제외를 정의합니다.
 * **[충돌 관리 튜토리얼](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/conflict-management/identify-potential-conflicts){target="_blank"}** - 단계별 비디오 튜토리얼.
-* **[Journey Optimizer 사용 사례](../building-journeys/jo-use-cases.md)** - 빈도 제한 및 여정 제외 논리를 포함하여 실제 패턴을 찾아봅니다.
+* **[Journey Optimizer 사용 사례](../building-journeys/jo-use-cases.md)** - 빈도 제한 및 여정 억제 논리를 포함한 실용적인 패턴을 살펴봅니다.

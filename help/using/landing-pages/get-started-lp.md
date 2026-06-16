@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: 2956c3df01f4b2e753111ecf54163ec4084fecf2
 workflow-type: tm+mt
 source-wordcount: 781
-ht-degree: 91%
+ht-degree: 94%
 
 ---
 
@@ -98,7 +98,7 @@ ht-degree: 91%
 <img alt="Journey Optimizer의 랜딩 페이지용 양식 목록" src="../assets/do-not-localize/lp-design.jpg">
 </a>
 <div>
-<a href="lp-forms.md"><strong>랜딩 페이지의 양식 사용</strong></a>
+<a href="lp-forms.md"><strong>랜딩 페이지에서 양식 사용</strong></a>
 </div>
 <p>
 </td>
@@ -137,4 +137,4 @@ ht-degree: 91%
 
 >[!VIDEO](https://video.tv.adobe.com/v/344401?captions=kor&quality=12&learn=on)
 
-➡️ **실제로 보기:** 구독 관리, 확인 전자 메일 및 데이터 캡처 시나리오에 대한 단계별 예제를 보려면 [랜딩 페이지 사용 사례](lp-use-cases.md)를 살펴보십시오.
+➡️ **실제 활용 보기:** 구독 관리, 확인 이메일, 데이터 캡처 시나리오에 대한 단계별 예시를 보려면 [랜딩 페이지 사용 사례](lp-use-cases.md)를 살펴보십시오.

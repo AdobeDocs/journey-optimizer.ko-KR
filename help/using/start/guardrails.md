@@ -27,7 +27,7 @@ topic_v2:
 source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
 source-wordcount: 4489
-ht-degree: 70%
+ht-degree: 72%
 
 ---
 
@@ -74,7 +74,7 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 
 * 여정의 활동 수는 **50**(으)로 제한됩니다. 활동 수는 여정 캔버스의 왼쪽 위 섹션에 표시됩니다.
 
-  이 제한에 근접한 여정은 편집 및 게시 성능이 저하되고 저장 또는 유효성 검사 오류가 발생할 수 있습니다. 이 경우 [이동 활동](../building-journeys/jump.md)을 사용하여 여정을 더 작은 하위 여정으로 분할하거나 새 버전으로 다시 만드십시오. 활동 제한을 늘릴 수 없습니다.
+  여정이 이 제한에 가까워지면 편집 및 게시 성능이 저하될 수 있으며 저장 또는 유효성 검사 오류가 발생할 수 있습니다. 이러한 문제가 발생하면 [이동 활동](../building-journeys/jump.md)을 사용하여 여정을 더 작은 하위 여정으로 분할하거나 신규 버전에서 다시 생성하세요. 활동 제한을 늘릴 수 없습니다.
 
 * 기본적으로 한 번에 라이브/일시 중지/드라이 실행 여정 수는 **100**(으)로 제한됩니다. 현재 여정 수는 여정 캔버스 위에 표시됩니다.
 
@@ -115,7 +115,7 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 * 필요한 경우 여정을 더 작은 여러 여정으로 분할할 수도 있습니다.
 * 조직에 더 높은 제한이 필요하다고 판단되는 경우 Adobe 담당자에게 문의하십시오.
 
-게시하기 전에 여정의 현재 페이로드 크기를 모니터링하려면 여정 속성 패널에서 **[!UICONTROL 현재 여정 페이로드 크기]** 표시기를 사용하십시오. [여정 페이로드 크기를 확인하는 방법을 알아봅니다](../building-journeys/journey-properties.md#journey-payload-size)
+게시하기 전에 여정의 현재 페이로드 크기를 모니터링하려면 여정 속성 패널에서 **[!UICONTROL 현재 여정 페이로드 크기]** 표시기를 사용하세요. [여정 페이로드 크기를 확인하는 방법 알아보기](../building-journeys/journey-properties.md#journey-payload-size)
 
 ### 라이선스 패키지 비교 {#select-package-limitations}
 

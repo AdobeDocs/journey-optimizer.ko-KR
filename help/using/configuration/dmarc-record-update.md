@@ -29,7 +29,7 @@ topic_v2:
 source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
 source-wordcount: 493
-ht-degree: 86%
+ht-degree: 93%
 
 ---
 
@@ -58,13 +58,13 @@ ht-degree: 86%
 
 * 하위 도메인 보내기를 Adobe로 [완전히 위임하였다면](delegate-subdomain.md#set-up-subdomain) 아래 옵션 중 하나를 따르십시오.
 
-   * 호스팅 솔루션에서 위임된 하위 도메인 **의 상위 도메인에 DMARC을 설정합니다**.
+   * **호스팅 솔루션에서** 위임된 하위 도메인의 상위 도메인에 DMARC를 설정합니다.
 또는
    * 호스팅 솔루션에 대한 추가 작업 없이 구성 사용자 인터페이스&#x200B;**의[!DNL Journey Optimizer]** 위임된 하위 도메인에서 DMARC를 설정합니다. [방법 알아보기](dmarc-record.md#implement-dmarc)
 
 * [CNAME](delegate-subdomain.md#cname-subdomain-setup)를 사용하여 하위 도메인 전송을 설정한 경우 아래 옵션 중 하나를 수행합니다.
 
-   * 하위 도메인 또는 호스팅 솔루션에서 하위 도메인 **의 상위 도메인에 DMARC을 설정합니다**.
+   * **호스팅 솔루션에서** 하위 도메인 또는 하위 도메인의 상위 도메인에 DMARC를 설정합니다.
 또는
    * 구성 사용자 인터페이스&#x200B;**에서[!DNL Journey Optimizer]** 위임된 하위 도메인에 DMARC를 설정합니다. [방법 알아보기](dmarc-record.md#implement-dmarc)
 

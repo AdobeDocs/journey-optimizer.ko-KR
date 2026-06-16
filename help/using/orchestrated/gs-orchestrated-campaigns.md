@@ -22,7 +22,7 @@ topic_v2:
 source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
 source-wordcount: 940
-ht-degree: 88%
+ht-degree: 96%
 
 ---
 
@@ -59,8 +59,8 @@ ht-degree: 88%
 <tr style="border: 0;">
 <td><img alt="온디맨드 대상자" src="assets/do-not-localize/icon-audience.svg" width="150px"></a></td><td><b>온디맨드 대상자</b><br/>데이터 세트 간 즉각적 쿼리를 통해 모든 데이터 형식과 차원의 조합을 자유롭게 사용하여 대상자 세그먼트를 만듭니다.</td></tr>
 <tr style="border: 0;">
-<td><img alt="다중 엔터티 세분화 및 전송" src="assets/do-not-localize/icon-entity.svg" width="150px"></a></td><td><b>다중 엔터티 세분화 및 전송</b><br/>개인 기반 캠페인을 넘어 제품 카탈로그, 스토어 위치 또는 서비스 데이터와 같은 엔터티를 사용하여 정확하게 타깃팅하세요.<br/><br/>
-프로필 및 연결된 보조 엔티티당 하나의 메시지가 전송되는 다중 레벨 전송을 지원합니다. 이러한 2차 엔티티는 연락처 주소, 예약, 구독, 계약 또는 기타 연결된 데이터를 포함할 수 있습니다. 예를 들어, 이를 통해 프로필의 알려진 모든 주소 또는 해당 프로필과 연결된 각 예약에 대해 캠페인을 전송할 수 있습니다.</td></tr>
+<td><img alt="다중 엔터티 세분화 및 전송" src="assets/do-not-localize/icon-entity.svg" width="150px"></a></td><td><b>다중 엔터티 세분화 및 전송</b><br/>개인 기반 캠페인을 넘어 제품 카탈로그, 매장 위치 또는 서비스 데이터와 같은 엔터티를 사용하여 더욱 정밀하게 타겟팅합니다.<br/><br/>
+프로필별 및 연결된 보조 엔터티별로 하나의 메시지를 전송하는 다단계 전송을 지원합니다. 이러한 보조 엔터티에는 연락처 주소, 예약, 구독, 계약 또는 기타 연결된 데이터가 포함될 수 있습니다. 예를 들어, 프로필의 알려진 모든 주소 또는 해당 프로필과 연결된 각 예약에 대해 캠페인을 전송할 수 있습니다.</td></tr>
 <tr style="border: 0;">
 <td><img alt="사전 전송 가시성 및 정밀도" src="assets/do-not-localize/icon-visibility.svg" width="150px"></a></td><td><b>사전 전송 가시성 및 정밀도</b><br/>실행 전에 정확한 세분화 수와 전체 캠페인 범위를 가져와 정확성과 신뢰도를 보장합니다.</td></tr>
 <tr style="border: 0;">
@@ -156,6 +156,6 @@ ht-degree: 88%
 * **[가드레일 및 제한 사항](guardrails.md)** - 최적의 캠페인 성능을 보장하기 위해 중요한 가드레일, 제한 사항, 모범 사례를 검토합니다.
 * **[자주 하는 질문](orchestrated-campaigns-faq.md)** - 오케스트레이션된 캠페인의 기능 및 사용 사례와 관련해 많이 나오는 질문에 대한 답변을 찾을 수 있습니다.
 * **[오케스트레이션된 캠페인 튜토리얼](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/create-campaigns/orchestrated-campaigns/introduction-to-orchestrated-campaigns){target="_blank"}** - 기능 및 모범 사례를 다루는 단계별 비디오 튜토리얼을 살펴봅니다.
-* **[활동을 탐색하여 고객 참여](engage-customers-uc.md)** - 여러 단계로 구성된 오케스트레이션된 캠페인을 사용하여 탐색했지만 구매하지 않은 프로필을 다시 참여시킵니다.
-* **[제품 사용 가능 여부에 대해 사용자에게 알림](product-availability-uc.md)** - 관심을 보였던 제품이 재입고되는 경우 고객에게 알립니다.
-* **[위시리스트 항목 업데이트 보내기](wishlist-uc.md)** - 위시리스트 항목을 판매하거나 사용할 수 있게 되면 개인화된 메시지를 트리거합니다.
+* **[탐색 활동을 통한 고객 참여 유도](engage-customers-uc.md)** - 탐색은 했지만 구매하지 않은 프로필을 대상으로 다단계 오케스트레이션 캠페인을 사용하여 다시 참여를 유도합니다.
+* **[제품 재입고 알림](product-availability-uc.md)** - 고객이 관심을 보인 제품이 재입고되면 알림을 보냅니다.
+* **[위시리스트 항목 업데이트 전송](wishlist-uc.md)** - 위시리스트 항목이 할인되거나 재입고되면 개인화된 메시지를 전송합니다.

@@ -17,7 +17,7 @@ subfeature_v2:
 source-git-commit: 53618e9d511215ed90b7666fe161edf9fd72c42b
 workflow-type: tm+mt
 source-wordcount: 1951
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe Journey Optimizer은 새로운 기능, 기존 기능 개선 사항 및 버
 
 ## 2026년 6월 프리릴리스 정보 {#june-26-rn}
 
-**아래 사전 릴리스 정보는 릴리스 공개 당일까지 사전 통지 없이 변경될 수 있습니다**. 변경 사항이 프로덕션에 배포되면 링크, 화면 및 업데이트된 설명서가 게시됩니다. 대부분의 변경 사항은 릴리스 날짜에 전달되지만 일부는 나중에 롤아웃될 수 있습니다. 자세한 내용은 각 항목에 대해 나열된 가용성 날짜를 참조하십시오.
+**아래 사전 릴리스 정보는 릴리스 공개 당일까지 사전 통지 없이 변경될 수 있습니다**. 링크, 스크린샷 및 업데이트된 설명서는 변경 사항이 프로덕션 환경에 적용된 후 게시됩니다. 대부분의 변경 사항은 릴리스 날짜에 제공되지만, 일부는 나중에 배포될 수 있습니다. 자세한 내용은 각 항목에 명시된 제공 예정일을 참조하세요.
 
 [Adobe Experience Platform 사전 릴리스 정보](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}도 참조하십시오.
 
@@ -180,7 +180,7 @@ Adobe Journey Optimizer은 새로운 기능, 기존 기능 개선 사항 및 버
 
 * **SMS - 사용 지표 표시** - Adobe Journey Optimizer을 통해 SMS를 직접 구매하는 고객의 경우 새 **SMS 사용 대시보드**&#x200B;가 도입되었습니다. 이제 MO(Mobile Originated) 및 MT(Mobile Terminated) 메시지로 분류된 최근 90일 간의 메시지 전송 지표를 보고 추적할 수 있습니다. 이 데이터는 CSV를 통해서도 다운로드할 수 있으므로 SMS 소비에 대한 가시성과 제어 능력이 향상됩니다.
 
-### 컨텐츠 및 통합 {#june-26-content}
+### 콘텐츠 및 통합 {#june-26-content}
 
 이 릴리스의 콘텐츠 관리 및 통합에 대해 다음과 같은 기능 및 개선 사항이 적용되었습니다.
 
@@ -272,7 +272,7 @@ The following improvement is coming to campaigns in this release.
 
 이 릴리스의 구성 및 관리에는 다음과 같은 개선 사항이 적용됩니다.
 
-* **스트리밍에서 일괄 처리 모드로 데이터 세트 이동** - AJO 메시지 피드백 이벤트 데이터 세트가 스트리밍에서 **일괄 처리 수집 모드**(으)로 전환됩니다. 이 변경 사항은 데이터 수집이 스트리밍 수집 제한을 초과하지 않도록 합니다. Customer Journey Analytics 보고서에서 이 데이터 세트를 사용하거나 이에 대한 쿼리를 실행하는 경우 향후 최대 2시간의 데이터 지연 증가가 예상됩니다.
+* **스트리밍에서 일괄 처리 모드로 데이터 세트 이동** - AJO 메시지 피드백 이벤트 데이터 세트가 스트리밍에서 **일괄 처리 수집 모드**(으)로 전환됩니다. 이 변경을 통해 데이터 수집이 스트리밍 수집 제한을 초과하는 것을 방지할 수 있습니다. Customer Journey Analytics 보고서에서 이 데이터 세트를 사용하거나 이에 대한 쿼리를 실행하는 경우 앞으로는 최대 2시간의 데이터 지연 증가가 예상됩니다.
 
 +++ 곧 출시 예정 — **아래 정보는 변경될 수 있습니다**
 
@@ -282,7 +282,7 @@ The following improvement is coming to campaigns in this release.
 
 +++
 
-### 유용성 개선 {#june-26-usability}
+### 사용성 개선 {#june-26-usability}
 
 이번 릴리스에서는 다음과 같은 사용 편의성 개선 사항이 적용되었습니다.
 

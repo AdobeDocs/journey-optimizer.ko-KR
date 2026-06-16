@@ -8,7 +8,7 @@ exl-id: bd78e0af-573b-4880-a9f1-44467c9db159
 source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
 source-wordcount: '704'
-ht-degree: 83%
+ht-degree: 92%
 
 ---
 
@@ -122,14 +122,14 @@ Litmus를 통합하여 인기 있는 이메일 클라이언트 간의 이메일 
 
 **컨텍스트:** 일반적인 사용 사례에서 테스트 도구를 적용하는 방법을 보여주는 실제 예시입니다.
 
-**시나리오 1: 다중 세그먼트 캠페인에 대한 개인화된 이메일 테스트**
+**시나리오 1: 멀티 세그먼트 캠페인을 위한 개인화된 이메일 테스트**
 → [샘플 입력 데이터](../using/test-approve/simulate-sample-input.md)를 사용하여 개별 테스트 프로필을 만들지 않고 최대 30개의 변형을 테스트합니다. 다양한 고객 속성을 사용하는 CSV를 업로드하거나, 값을 수동으로 추가하거나, AI를 사용하여 변형을 자동 생성하고 한 번에 모두 미리 볼 수 있습니다.
 
-**시나리오 2: 주 전송 전에 전자 메일 렌더링 확인**
-→ [Litmus 테스트](../using/content-management/rendering.md)를 실행하여 상위 이메일 클라이언트에 대한 표시를 확인한 다음 [스팸 보고서](../using/content-management/spam-report.md)를 확인하여 받은 편지함 배치를 확인합니다.
+**시나리오 2: 대규모 전송 전에 이메일 렌더링 확인**
+→ [Litmus 테스트](../using/content-management/rendering.md)를 실행하여 주요 이메일 클라이언트에서 잘 표시되는지 확인한 다음 [스팸 보고서](../using/content-management/spam-report.md)를 확인하여 받은 편지함에 도달하는지 확인합니다.
 
-**시나리오 3: 이해 당사자 승인을 가져오는 중**
-→ 프로필 데이터를 사용하여 내부 검토자에게 [증명을 보내기](../using/content-management/proofs.md)하여 고객이 받게 될 내용을 정확히 확인합니다.
+**시나리오 3: 이해 당사자 승인 받기**
+→ 테스트 프로필 데이터로 내부 검토자에게 [증명을 전송](../using/content-management/proofs.md)해 고객이 받게 될 내용을 정확히 확인할 수 있도록 합니다.
 
 ## 주요 학습 사항
 

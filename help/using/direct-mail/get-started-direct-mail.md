@@ -25,7 +25,7 @@ level_v2:
 source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
 workflow-type: tm+mt
 source-wordcount: 487
-ht-degree: 74%
+ht-degree: 89%
 
 ---
 
@@ -47,17 +47,17 @@ ht-degree: 74%
 
 ## 시작하기 전에 {#before-you-start}
 
-DM 메시지를 만들기 전에 [파일 라우팅 및 DM 채널 구성을 구성](direct-mail-configuration.md)하세요. 또한 Adobe Experience Platform에는 대상자 및 프로필 데이터(예: 우편 주소)가 필요합니다.
+다이렉트 메일 메시지를 생성하기 전에 [파일 라우팅과 다이렉트 메일 채널 구성](direct-mail-configuration.md)을 구성합니다. 또한 Adobe Experience Platform에 대상자 및 프로필 데이터(예: 우편 주소)가 필요합니다.
 
 다이렉트 메일 메시지를 보내는 주요 단계는 다음과 같습니다.
 
-![구성에서 배달까지의 DM 만들기 워크플로](assets/dm-creation-process.png)
+![구성부터 게재까지의 다이렉트 메일 생성 워크플로](assets/dm-creation-process.png)
 
 >[!AVAILABILITY]
 >
 >다이렉트 메일 메시지는 여정 및 캠페인 컨텍스트에서 생성할 수 있습니다. API 트리거 캠페인에서는 사용할 수 없습니다.
 
-![Journey Optimizer DM 채널의 애니메이션 개요](../rn/assets/do-not-localize/gif-dm.gif)
+![Journey Optimizer의 다이렉트 메일 채널 애니메이션 개요](../rn/assets/do-not-localize/gif-dm.gif)
 
 ## 추가 리소스 {#additional-resources}
 
@@ -77,6 +77,6 @@ Adobe Journey Optimizer의 다이렉트 메일 채널을 활용하여 여정 내
 
 +++
 
-동일한 단계에 대한 서면 설명은 [DM 채널 자습서](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}를 참조하십시오.
+동일한 단계에 대한 자세한 설명은 [다이렉트 메일 채널 자습서](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}를 참조하세요.
 
-DM에 대한 일반적인 질문은 위의 [추가 리소스](#additional-resources) 섹션을 참조하십시오.
+다이렉트 메일에 대한 일반적인 질문은 위의 [추가 리소스](#additional-resources) 섹션을 참조하세요.
