@@ -39,7 +39,7 @@ rebuild
 
 10분 정도 시간이 있으면 이 방향 비디오로 시작하십시오. 인터페이스를 살펴보고 역할별 주요 기능을 강조 표시합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430319?captions=kor&quality=12)
 
 그런 다음 다음 다음 학습 리소스를 통해 실습 자신감을 구축합니다.
 
