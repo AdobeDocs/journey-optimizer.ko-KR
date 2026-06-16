@@ -5,26 +5,16 @@ role: User
 level: Beginner
 exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
 TQID: https://experienceleague.adobe.com/vx-CmsYwj7QyN2sVMrpJ9VUNDgnXq8qt1nT9lHOFV3s
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
-subfeature_v2:
-  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: fd59660e-de8a-4bfb-85dc-7fa546030c49
+subfeature_v2: id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: f3fe4813-f254-4f8f-99cc-24bd67f119e1id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
 source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
 source-wordcount: 896
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -95,4 +85,4 @@ Journey Optimizer에서 너무 많은 상호 작용으로 고객에게 부담을
 * **[채널별 빈도 캡핑](channel-capping.md)** - 메시지를 과도하게 보내는 것을 방지하기 위해 채널 수준에서 빈도 캡핑을 설정합니다.
 * **[방해 금지 시간 설정](quiet-hours.md)** - 메시지 게재에 대한 시간 기반 제외를 정의합니다.
 * **[충돌 관리 튜토리얼](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/conflict-management/identify-potential-conflicts){target="_blank"}** - 단계별 비디오 튜토리얼.
-* **[Journey Optimizer 사용 사례](../building-journeys/jo-use-cases.md)** - 빈도 제한 및 여정 제외 논리를 포함하여 실제 패턴을 찾아봅니다.
+* **[Journey Optimizer 사용 사례](../building-journeys/jo-use-cases.md)** - 빈도 제한 및 여정 억제 논리를 포함한 실용적인 패턴을 살펴봅니다.
