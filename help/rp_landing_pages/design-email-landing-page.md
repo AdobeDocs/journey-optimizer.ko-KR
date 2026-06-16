@@ -6,9 +6,9 @@ description: 이메일 콘텐츠 디자인
 redpen-status: CREATED_||_2025-08-11_20-33-11
 exl-id: 21ba6677-f158-4d9d-8b01-304c4d3841ee
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '233'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer에서 이메일 콘텐츠를 디자인하여 대상을 �
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 이메일 디자인 시작
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 이메일 콘텐츠를 디자인하여 대상을 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 이메일 콘텐츠 만들기 및 최적화
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 이메일 콘텐츠를 디자인하여 대상을 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Adobe Journey Optimizer에서 콘텐츠 디자인
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer에서 콘텐츠 디자인
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 스타일 편집: 이메일 디자인 사용자 정의
 

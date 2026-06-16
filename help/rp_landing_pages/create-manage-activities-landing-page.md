@@ -7,9 +7,9 @@ redpen-status: CREATED_||_2025-08-11_21-01-28
 badge: label="레거시" type="Informative"
 exl-id: fc968e54-e35b-4def-b8ad-1a181c81c738
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '218'
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Journey Optimizer에서 의사 결정을 만들고 관리하면 고객에�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Adobe Journey Optimizer에서 의사 결정 생성
 
@@ -35,7 +35,7 @@ Adobe Journey Optimizer에서 의사 결정 생성
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 오퍼 선택 방법 구성
 
@@ -45,7 +45,7 @@ Adobe Journey Optimizer에서 의사 결정 생성
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 오퍼 결정 시뮬레이션
 

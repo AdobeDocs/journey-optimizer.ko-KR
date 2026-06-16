@@ -2,41 +2,41 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: 랜딩 페이지 구성
-description: Journey Optimizer에서 랜딩 페이지 하위 도메인 및 사전 설정을 구성하여 랜딩 페이지를 일관되게 호스팅, 브랜드 및 관리하는 방법을 알아봅니다.
+description: Journey Optimizer에서 랜딩 페이지 하위 도메인 및 사전 설정을 구성하여 랜딩 페이지를 일관되게 호스팅, 브랜딩 및 관리하는 방법을 알아봅니다.
 redpen-status: CREATED_||_2025-08-12_00-37-08
 exl-id: 599d9f7b-3e41-4926-95b6-f5f58255d91d
 source-git-commit: 1eafa4cef02c13c8498ac9ac2df502a8a7d926d2
-workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 30%
+workflow-type: ht
+source-wordcount: '187'
+ht-degree: 100%
 
 ---
 
 # 랜딩 페이지 구성{#section-overview}
 
-Adobe Journey Optimizer에서 랜딩 페이지를 구성하면 맞춤화된 하위 도메인 및 사전 설정을 통해 원활한 고객 경험을 구축할 수 있습니다. 브랜드를 반영할 뿐만 아니라 참여를 효과적으로 추적하는 전문가 수준의 랜딩 페이지를 만든다고 상상해 보십시오.
+Adobe Journey Optimizer에서 랜딩 페이지를 구성하면 맞춤화된 하위 도메인 및 사전 설정을 통해 원활한 고객 경험을 구축할 수 있습니다. 브랜드를 반영할 뿐만 아니라 참여를 효과적으로 추적하는 전문가 수준의 랜딩 페이지를 만든다고 상상해 보세요.
 
 이 섹션에서는 다음 두 가지 영역을 다룹니다.
 
-* **하위 도메인** — 랜딩 페이지를 호스팅하는 위치를 설정합니다. 랜딩 페이지에 대한 도메인 설정을 위임, 구성 또는 위임 해제하는 방법을 알아봅니다.
-* **사전 설정** — 재사용 가능한 구성(하위 도메인 및 기타 채널 설정 포함)을 정의하여 랜딩 페이지를 일관성 있게 만들고 관리할 수 있습니다.
+* **하위 도메인** — 랜딩 페이지가 호스팅될 위치를 설정합니다. 랜딩 페이지의 도메인 설정을 위임, 구성 또는 위임 해제하는 방법을 알아봅니다.
+* **사전 설정** — 재사용 가능한 구성(하위 도메인 및 기타 채널 설정 포함)을 정의하여 랜딩 페이지를 일관되게 생성하고 관리할 수 있습니다.
 
-기존 도메인을 사용하든 새 설정을 사용하든 이러한 단계를 통해 랜딩 페이지를 캠페인 및 목표에 맞게 조정할 수 있습니다.
+기존 도메인을 사용하든 새로운 설정을 사용하든, 이러한 단계를 통해 랜딩 페이지를 캠페인과 목표에 맞춰 조정할 수 있습니다.
 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 랜딩 페이지 하위 도메인 구성 및 관리
 
-Adobe Journey Optimizer에서 랜딩 페이지를 호스팅하기 위한 하위 도메인을 설정하고 관리하는 방법을 알아봅니다.
+Adobe Journey Optimizer에서 랜딩 페이지 호스팅을 위한 하위 도메인을 설정하고 관리하는 방법을 알아봅니다.
 
 [지금 하위 도메인 설정하기](../using/landing-pages/lp-subdomains.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 랜딩 페이지 사전 설정 정의
 
