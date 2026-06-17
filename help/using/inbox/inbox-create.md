@@ -6,14 +6,20 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 7d650278-4a62-4666-b8d7-f0b79ec527ea
-source-git-commit: e53edd0f6f17f5b764075f61600294b91a020421
+source-git-commit: c2bb6cf702a14b4eef8f2209082e39cd73338378
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 3%
+source-wordcount: '320'
+ht-degree: 4%
 
 ---
 
 # 받은 편지함 만들기 {#inbox-create}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 받은 편지함 작업을 사용하는 캠페인을 빌드하고, 대상을 대상으로 지정하고, 해당 작업을 예약하거나 트리거하면 사용자가 받은 편지함에서 다시 방문할 수 있는 지속적인 메시지를 전달할 수 있습니다.
+
+>[!ENDSHADEBOX]
 
 받은 편지함을 만들기 전에 [받은 편지함 구성](inbox-configuration.md)의 단계를 완료하십시오. 채널 구성은 대상 애플리케이션이나 웹 사이트, 페이지나 규칙 및 받은 편지함이 렌더링되는 위치를 식별합니다.
 

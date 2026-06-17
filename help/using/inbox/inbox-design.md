@@ -6,20 +6,26 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 0ab71b21-0085-4a93-b319-3c960bd8f7dd
-source-git-commit: 2eb2e99e654516fc13a7f98125f48e7e8f672ee3
+source-git-commit: 8ef401e6c92d94631f02762e4dc9ffab60657cb4
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
 
 # 받은 편지함 디자인 {#inbox-design}
 
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 받은 편지함 채널의 레이아웃, 용량, 읽지 않은 표시기 및 빈 상태를 구성하여 메시지가 브랜드 및 가독성으로 렌더링되도록 함으로써 타겟팅된 프로필에 밝고 어두운 모드에서 명확하고 일관된 환경을 제공합니다.
+
+>[!ENDSHADEBOX]
+
 받은 편지함 디자인은 각 메시지가 받은 편지함 표면 내의 타겟팅된 프로필에 렌더링되는 방식을 제어합니다. 이 구성은 받은 편지함 템플릿, 목록 및 확장된 프레젠테이션, 새 메시지와 이미 본 메시지를 구분하는 읽기 상태 표시기를 포함합니다.
 
 받은 편지함 캠페인을 만드는 전체 절차는 [받은 편지함 만들기](inbox-create.md)를 참조하세요.
 
-1. 만든 **[!UICONTROL 받은 편지함 캠페인]**&#x200B;의 [콘텐츠](inbox-create.md) 탭을 엽니다.
+1. 만든 [받은 편지함 캠페인](inbox-create.md)의 **[!UICONTROL 콘텐츠]** 탭을 엽니다.
 
 1. **[!UICONTROL 컨테이너 제목]**&#x200B;을 설정합니다.
 
