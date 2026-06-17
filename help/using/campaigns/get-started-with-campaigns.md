@@ -7,7 +7,7 @@ ht-degree: 0%
 ---
 디렉터리가 로컬에 없으므로 요청된 대로 업데이트된 전체 파일 콘텐츠를 직접 출력합니다.
 
----
+&#x200B;---
 
 ```markdown
 ---
@@ -414,7 +414,7 @@ Use targeting rules and content experiments to deliver personalized content and 
 ::::
 ```
 
----
+&#x200B;---
 
 &quot;예약 및 시간&quot;과 &quot;속도 제어&quot; 카드 사이에 삽입된 새 **모바일 메시징을 위한 전송 시간 최적화** 랜딩 카드를 추가한 것이 원본과 유일하게 변경되었습니다. It:
 
