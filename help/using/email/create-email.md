@@ -10,31 +10,16 @@ level: Beginner
 keywords: 만들기, 이메일, 시작, 여정, 캠페인
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 TQID: https://experienceleague.adobe.com/EM2msybn-3qaRJz113oIwMOU4Aj9h3BiDeLnl4vpO-Q
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: fae48155-b23f-40d2-a252-a25bce350b4d
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: fae48155-b23f-40d2-a252-a25bce350b4did: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 0ae04dfd501704d6ed6bb9ed85fa404caf4d90a1
 workflow-type: tm+mt
-source-wordcount: 1272
-ht-degree: 18%
+source-wordcount: 1866
+ht-degree: 13%
 
 ---
 
@@ -165,6 +150,8 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
    >
    >이메일 Designer을 통해 이미 콘텐츠를 만들거나 가져온 경우 이 콘텐츠는 HTML에 표시됩니다.
 
+1. 필요한 경우 **[!UICONTROL HTML 크기 최적화]** 옵션을 활성화하여 게시 프로세스 중에 이메일 HTML의 크기를 줄이십시오. [자세히 알아보기](#optimize-html-size)
+
 ## 경고 확인 {#check-email-alerts}
 
 메시지를 디자인할 때 주요 설정이 누락된 경우 경고가 인터페이스(화면 오른쪽 상단)에 표시됩니다.
@@ -191,7 +178,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
    * **[!UICONTROL 전자 메일 본문에 빈 링크가 있습니다]**: 전자 메일의 모든 링크가 올바른지 확인하세요. [이 섹션](content-from-scratch.md)에서 콘텐츠 및 링크를 관리하는 방법을 알아보세요.
 
-   * **[!UICONTROL 전자 메일 크기가 100KB의 제한을 초과했습니다]**: 최적의 배달을 위해 전자 메일 크기가 100KB를 초과하지 않도록 하십시오. [이 섹션](content-from-scratch.md)에서 전자 메일 콘텐츠를 편집하는 방법을 알아봅니다.
+   * **[!UICONTROL 전자 메일 크기가 100KB의 제한을 초과했습니다]**: 최적의 배달을 위해 전자 메일 크기가 100KB를 초과하지 않도록 하십시오. HTML 크기를 줄이려면 **[!UICONTROL HTML 크기 최적화]** 옵션을 사용하십시오. [자세히 알아보기](#optimize-html-size)
 
 * **오류**&#x200B;로 인해 여정/캠페인이 해결되지 않는 한 테스트하거나 활성화할 수 없습니다. 예:
 
@@ -206,6 +193,50 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 >[!CAUTION]
 >
 >이메일을 사용하여 여정/캠페인을 테스트하거나 활성화하려면 **오류** 경고를 모두 해결해야 합니다.
+
+## 이메일 HTML 크기 최적화 {#optimize-html-size}
+
+>[!CONTEXTUALHELP]
+>id="ajo_email_minification"
+>title="HTML 크기 축소"
+>abstract="이 옵션을 활성화하면 불필요한 공백, 들여쓰기 및 불필요한 주석을 제거하여 게시하는 동안 이메일 HTML을 압축할 수 있습니다. 이렇게 하면 100KB를 초과하는 메시지를 자르는 Gmail과 같은 클라이언트의 이메일 클리핑을 방지할 수 있습니다. 다국어 이메일을 사용하여 작업할 때 모든 로케일에 대해 이 옵션이 기본적으로 활성화됩니다."
+
+[!DNL Journey Optimizer]을(를) 사용하면 불필요한 공백, 들여쓰기 및 불필요한 설명을 제거하여 게시 프로세스 중에 전자 메일 HTML 버전을 압축할 수 있습니다. HTML 크기를 작게 유지하면 다음과 같은 이점이 있습니다.
+
+* **전자 메일 클리핑** 방지 - Gmail과 같은 일부 클라이언트는 ~100KB보다 큰 메시지를 잘라내어 수신자가 전체 콘텐츠를 볼 수 없습니다.
+* 받는 사람의 받은 편지함에서 **전자 메일 로드 시간**&#x200B;을 개선합니다.
+* **전달성**&#x200B;을 개선하고 대역폭 사용을 줄입니다.
+
+이 최적화는 자동으로 적용되지 않습니다. [콘텐츠 편집](#define-email-content) 화면에서 수동으로 활성화해야 합니다.
+
+![](assets/email-optimize-html-size.png)
+
+>[!IMPORTANT]
+>
+> HTML 크기 감소는 게시 시간에만 적용됩니다.
+
+최적화는 이메일 클라이언트 안전 장치입니다.
+
+* MSO/Outlook 조건부 주석을 보존합니다.
+* 실제 콘텐츠, 이미지 또는 비디오는 변경되지 않습니다.
+
+>[!NOTE]
+>
+>이메일 크기의 감소는 이메일의 원래 HTML 구조에 따라 다릅니다. 콘텐츠가 이미 컴팩트하거나 이메일 페이로드가 매우 큰 경우, 감소는 최소화될 수 있으며 모든 경우에 클리핑을 완전히 방지할 수 없습니다.
+
+증명을 보낼 때 게시하기 전에 HTML 크기 최적화의 영향을 테스트할 수 있습니다. [자세히 알아보기](#optimize-html-proof)
+
+### 다국어 이메일에서 HTML 크기 최적화 {#optimize-html-multilingual}
+
+[다국어 이메일 변형](../content-management/multilingual-gs.md)을(를) 사용하여 작업할 때 **[!UICONTROL HTML 크기 최적화]** 설정은 로케일이 아닌 이메일 수준에서 추적됩니다.
+
+따라서 한 로케일에서 이 설정을 활성화하면 게시 시 해당 이메일의 모든 로케일에 적용됩니다. 즉, UI에서 확인란이 여전히 선택 취소되어 표시되는 로케일도 마찬가지입니다. 각 로케일에 대해 이 작업을 반복할 필요는 없습니다.
+
+HTML 크기 최적화를 사용하지 않도록 설정하려면 모든 로케일에서 **[!UICONTROL HTML 크기 최적화]**&#x200B;의 선택을 취소해야 합니다. 최적화를 모든 로케일에 적용하려면 하나의 로케일에도 최적화를 활성화한 상태로 두면 됩니다.
+
+>[!NOTE]
+>
+>[콘텐츠 실험](../content-management/content-experiment.md)을 실행하는 경우 **[!UICONTROL HTML 크기 최적화]** 설정은 각 처리마다 독립적으로 관리됩니다. 각 처리는 별도의 메시지로 간주됩니다.
 
 ## 이메일 확인 및 보내기
 
@@ -225,6 +256,34 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 >[!NOTE]
 >
 >이메일 열기 및/또는 상호 작용을 통해 수신자의 동작을 추적하려면 **[!UICONTROL 추적]** 섹션의 전용 옵션이 여정의 [이메일 활동](../building-journeys/journey-action.md) 또는 이메일 [캠페인](../campaigns/create-campaign.md)에서 활성화되어 있는지 확인하십시오.<!--to move?-->
+
+### HTML 크기 최적화 테스트 {#optimize-html-proof}
+
+[HTML 크기 최적화](#optimize-html-size) 옵션을 활성화한 경우 증명을 보낼 때 게시하기 전에 그 영향을 평가할 수 있습니다. 아래 단계를 수행합니다.
+
+1. 이메일 Designer에서 오른쪽 레일의 문제 아이콘을 클릭합니다. 렌더링된 이메일 크기가 100KB를 초과하면 일부 이메일 클라이언트가 잘릴 수 있다는 경고 메시지가 표시됩니다. <!--Learn more about content checks in [this section](#check-email-alerts).-->
+
+   ![전자 메일 최적화 문제](assets/email-optimize-size-issues.png)
+
+1. **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭합니다.
+
+   <!--![](assets/email-optimize-size-simulate-warning.png)-->
+
+1. 최적화된 버전을 테스트하려면 **[!UICONTROL 증명 보내기]** 단추를 클릭하고 **[!UICONTROL HTML 크기 최적화]** 옵션을 선택하십시오. 이렇게 하면 테스트 수신자에게 HTML 크기가 감소된 증명이 전송됩니다.
+
+   ![](assets/email-optimize-size-proof-option.png)
+
+   >[!NOTE]
+   >
+   >이 설정은 이메일 편집기와는 독립적입니다. 즉, 증명은 이메일 자체에서 옵션이 활성화되었는지 비활성화되었는지에 관계없이 증명에서 선택한 모든 것을 반영합니다.
+
+1. 테스트 수신자를 선택하고 **[!UICONTROL 증명 보내기]** 단추를 클릭합니다. [이 섹션](../content-management/proofs.md)에서 증명을 보내는 방법에 대해 자세히 알아보세요.
+1. 전송되면 **[!UICONTROL 시뮬레이션]** 화면으로 돌아가서 **[!UICONTROL 증명 보기]** 단추를 클릭하세요.
+1. 증명 상태 옆에 있는 정보 아이콘을 클릭합니다. 최적화 세부 정보는 원래 HTML 크기, 최적화된 HTML 크기 및 크기 감소 비율을 포함하여 팝업 창에 표시됩니다.
+
+   ![전자 메일 최적화 세부 정보](assets/email-optimize-size-view-proof.png)
+
+   이 정보를 사용하여 최적화된 출력의 유효성을 확인하고 게시하기 전에 이메일이 권장 100KB 임계값 내에 있는지 확인하십시오.
 
 <!--
 ## Define your email content {#email-content}
