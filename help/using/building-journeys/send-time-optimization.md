@@ -1,240 +1,189 @@
 ---
-source-git-commit: 84aa39bfd480e5bcaa8a58c5ec29f1990e5ddc6f
-workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 0%
-
----
-업데이트된 파일 콘텐츠가 준비되었습니다. 다음은 완전히 업데이트된 Markdown입니다. 복사하고 `send-time-optimization.md`(으)로 저장합니다.
-
-```markdown
----
 solution: Journey Optimizer
 product: journey optimizer
-title: Send time optimization
-description: Learn how to parameter send time optimization in your messages
+title: 전송 시간 최적화
+description: 메시지에서 매개 변수 전송 시간 최적화를 사용하는 방법 알아보기
 feature: Journeys, Activities, Email, Push, Send Time Optimization
 topic: Content Management, Artificial Intelligence
 role: User
 level: Intermediate
-keywords: send-time, send, message, optimization, journey, AI, Intelligent
+keywords: 전송 시간, 전송, 메시지, 최적화, 여정, AI, 지능형
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/r8LyWsU7OOiGZFRkiGO56xkbzW9iE2ASemZOlyaERQ8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-    internal-label: Journey Optimizer
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-    internal-label: Activities
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-    internal-label: Journeys
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-    internal-label: Events
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-    internal-label: Intermediate
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-    internal-label: Customer engagement
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-    internal-label: Artificial intelligence
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-    internal-label: Behavioral data
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-    internal-label: Optimization
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-    internal-label: Customer profiles
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: f13e351c6c3851f9c031e7aa907ecc5924e0df4f
+workflow-type: tm+mt
+source-wordcount: 1656
+ht-degree: 9%
+
 ---
-# Send-Time Optimization{#send-time-optimization}
+
+# 전송 시간 최적화{#send-time-optimization}
 
 >[!BEGINSHADEBOX]
 
-**On this page:** Learn how to enable Send-Time Optimization so Adobe's AI predicts the best time to deliver email, push, SMS, RCS, and WhatsApp messages based on each customer's historical open, click, and engagement behavior.
+**이 페이지에서:** Adobe의 AI가 각 고객의 과거 열기 및 클릭 동작에 따라 이메일 및 푸시 메시지를 전달할 최적의 시간을 예측하도록 전송 시간 최적화를 활성화하는 방법을 알아봅니다.
 
 >[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_disabled"
->title="About Sent time optimization"
->abstract="[!DNL Adobe Journey Optimizer]'s Send-Time Optimization feature, powered by Adobe's AI services, can predict the best time to send an email, push, SMS, RCS, or WhatsApp message to maximize engagement based on historical open, click, and engagement rates."
+>title="전송된 시간 최적화 정보"
+>abstract="Adobe의 AI 서비스에서 제공하는 [!DNL Adobe Journey Optimizer]의 전송 시간 최적화 기능은 기록 열기와 클릭률을 기반으로 이메일 또는 푸시 메시지를 전송하는 최적의 시간을 예측하여 참여도를 극대화할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_email"
->title="Activate Send-Time Optimization"
->abstract="A radio button determines whether to optimize on email opens or email click-throughs. The send times used by the system can also be bracketed with a value for the Send within the next option."
+>title="전송 시간 최적화 활성화"
+>abstract="라디오 버튼은 이메일 열림 또는 이메일 클릭스루 중 어디에서 최적화할지 여부를 결정합니다. 또한 시스템에서 사용하는 전송 시간을 다음 이내로 전송 옵션에 값을 입력하여 범위 내로 설정할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_push"
->title="Activate Send-Time Optimization"
->abstract="Push messages defaults to the opens option, as clicks are not applicable for push messaging. The send times used by the system can also be bracketed with a value for the Send within the next option."
+>title="전송 시간 최적화 활성화"
+>abstract="클릭수는 푸시 메시지에 적용할 수 없으므로 푸시 메시지의 기본값은 열람수 옵션으로 설정됩니다. 또한 시스템에서 사용하는 전송 시간을 다음 이내로 전송 옵션에 값을 입력하여 범위 내로 설정할 수 있습니다."
 
->[!CONTEXTUALHELP]
->id="jo_bestsendtime_mobile"
->title="Activate Send-Time Optimization"
->abstract="SMS, RCS, and WhatsApp messages are optimized for clicks on links contained in the message. The send times used by the system can also be bracketed with a value for the Send within the next option."
+Adobe의 여정 AI 서비스를 기반으로 하는 [!DNL Adobe Journey Optimizer]의 전송 시간 최적화 기능은 고객의 과거 열기 및 클릭 동작에 따라 고객 참여를 극대화하기 위해 이메일 및 푸시 메시지에 대한 최적의 전송 시간을 선택합니다.
 
-[!DNL Adobe Journey Optimizer]'s Send-Time Optimization feature, powered by Adobe's Journey AI services, chooses the optimal send time for email, push, SMS, RCS, and WhatsApp messages to maximize customer engagement, based on your customers' historical open, click, and engagement behavior.
-
-Send-Time Optimization is only available for Journey Optimizer's built-in Email, Push, SMS, RCS, and WhatsApp action types and is not currently available for messages sent through custom actions or for other action types. Send-Time Optimization is available for these action types within both Journeys and Campaigns.
+전송 시간 최적화는 Journey Optimizer의 기본 제공 이메일 및 푸시 작업 유형에만 사용할 수 있으며, 현재 사용자 지정 작업을 통해 전송된 메시지 또는 다른 작업 유형에는 사용할 수 없습니다. 전송 시간 최적화는 여정 내의 이메일 및 푸시 작업에만 사용할 수 있으며 현재 캠페인을 통해 전송된 메시지에는 사용할 수 없습니다.
 
 >[!AVAILABILITY]
 >
->* The Send-Time Optimization feature is enabled for [!DNL Adobe Journey Optimizer] customers upon request. Contact Adobe Customer Care or your Adobe representative to activate the feature for your organization.
+>* 요청 시 [!DNL Adobe Journey Optimizer] 고객에 대해 전송 시간 최적화 기능을 사용할 수 있습니다. 조직에서 해당 기능을 활성화하려면 Adobe 고객 지원 센터 또는 Adobe 담당자에게 문의하십시오.
 >
->* Send-Time Optimization applies to **Email**, **Push notification**, **SMS**, **RCS**, and **WhatsApp** channels.
+>* 전송 시간 최적화는 **이메일** 및 **푸시 알림** 채널에만 적용됩니다.
 >
 
-## Use send-time optimization{#use-send-time-optimization}
+## 전송 시간 최적화 사용{#use-send-time-optimization}
 
-To enable and configure Send-Time Optimization on an email, push, SMS, RCS, or WhatsApp action, follow the steps below.
+이메일 또는 푸시 작업에서 전송 시간 최적화를 활성화하고 구성하려면 아래 단계를 따르십시오.
 
-Before starting, consider which messages are a good fit before you turn it on. Send-Time Optimization should not be used for urgent, time-sensitive operational messages, for example, an order confirmation, a password reset notification, or a flight gate change notification. It works best for less-urgent marketing communications, such as a weekly ad, promotional information on a new product, or information about a month-long sale.
+시작하기 전에 어떤 메시지가 잘 맞는지 확인한 후 켭니다. 주문 확인, 암호 재설정 알림 또는 플라이트 게이트 변경 알림과 같이 시간에 민감한 긴급 운영 메시지에는 전송 시간 최적화를 사용할 수 없습니다. 주간 광고, 새 제품에 대한 홍보 정보 또는 한 달 동안의 판매 정보와 같이 덜 긴급한 마케팅 커뮤니케이션에 가장 적합합니다.
 
-1. From your Journey or Campaign, open the **[!UICONTROL Configure action]** menu.
+1. 여정에서 **[!UICONTROL 작업 구성]** 메뉴를 엽니다.
 
-    ![Send-Time Optimization toggle in email channel configuration](assets/sto-1.png)
+   ![전자 메일 채널 구성의 전송 시간 최적화 전환](assets/sto-1.png)
 
-1. Turn on the **[!UICONTROL Send-Time Optimization]** switch in the Send time optimization menu.
+1. 전송 시간 최적화 메뉴에서 **[!UICONTROL 전송 시간 최적화]** 스위치를 켜십시오.
 
-    ![Send-Time Optimization toggle in email channel configuration](assets/sto-2.png)
+   ![전자 메일 채널 구성의 전송 시간 최적화 전환](assets/sto-2.png)
 
-1. For Email messages, choose whether to optimize for opens or for click-throughs by selecting the appropriate option. Push messages are always optimized for opens. SMS, RCS, and WhatsApp messages are always optimized for clicks on links contained in the message.
+1. 이메일 메시지의 경우 적절한 옵션을 선택하여 오픈에 최적화할지 또는 클릭스루에 최적화할지 여부를 선택합니다. 푸시 메시지는 항상 열기에 최적화되어 있습니다.
 
-    For best results, optimize most emails for **Clicks**. Choose **Opens** when the message is informational and not meant to drive a specific action.
+   최상의 결과를 얻으려면 **클릭 수**&#x200B;에 대한 대부분의 전자 메일을 최적화하십시오. 메시지가 정보 제공용이지만 특정 작업을 유도하기 위한 것이 아닌 경우 **열기**&#x200B;를 선택합니다.
 
-1. For all channel types, set **[!UICONTROL Send within next]** to the maximum number of hours (1–168) the system will wait before sending the message.
+1. 전자 메일 메시지와 푸시 메시지 모두에 대해 **[!UICONTROL 다음 시간 내에 보내기]**&#x200B;를 설정하여 메시지를 보내기 전에 시스템이 대기할 최대 시간(1-168)으로 설정합니다.
 
-    For best results, choose a value between 6 and 24 hours. A lower value reduces the number of available send times and can limit the benefit of Send-Time Optimization. A higher value may mean the message is outdated or less relevant by the time it is sent.
+   최상의 결과를 얻으려면 6시간에서 24시간 사이의 값을 선택하십시오. 값이 낮을수록 사용 가능한 전송 횟수가 줄어들어 전송 시간 최적화의 이점을 제한할 수 있습니다. 값이 높으면 메시지가 오래되었거나 보낸 시간만큼 관련성이 낮음을 의미할 수 있습니다.
 
-    ![Send-Time Optimization toggle in email channel configuration](assets/sto-3.png)
+   ![전자 메일 채널 구성의 전송 시간 최적화 전환](assets/sto-3.png)
 
-1. For Email messages, choose how your action tracking is configured. You can track Email opens and track clicks on links and buttons in the Email.
+1. 이메일 메시지의 경우 작업 추적 구성 방법을 선택합니다. 이메일 열기를 추적하고 이메일에 있는 링크 및 버튼의 클릭을 추적할 수 있습니다.
 
-When your journey or campaign is activated and a customer reaches the action, Send-Time Optimization will choose the best predicted send time available for each user within your specified limits.
+여정이 활성화되고 고객이 여정의 이메일 또는 푸시 작업에 도달하면 전송 시간 최적화는 지정된 제한 내에서 각 사용자에 대해 사용 가능한 최상의 예측 전송 시간을 선택합니다.
 
-To monitor your journey's performance, refer to the [Overview page](../reports/channel-report-cja.md). 
+여정 성능을 모니터링하려면 [개요 페이지](../reports/channel-report-cja.md)를 참조하세요.
 
-## How send-time optimization works {#how-send-time}
+## 전송 시간 최적화 작동 방식 {#how-send-time}
 
-The Send-Time Optimization model ingests your organization's [!DNL Adobe Journey Optimizer] customer behavior data and looks at user-level open, click, and engagement events to determine when your customers are most likely to engage with your messaging.
+전송 시간 최적화 모델은 조직의 [!DNL Adobe Journey Optimizer] 고객 행동 데이터를 수집하고 사용자 수준의 열기 및 클릭 이벤트를 확인하여 고객이 메시징을 가장 많이 수행할 수 있는 시기를 결정합니다.
 
-Send-Time Optimization makes predictions for each hour of the week, for each user, based on three types of behavioral data:
+전송 시간 최적화는 세 가지 유형의 행동 데이터를 기반으로 각 사용자에 대해 그 주의 각 시간에 대한 예측을 만듭니다.
 
-1. The behavior of your users overall
-1. The behavior of lookalike users in the same time zone
-1. The behavior of that individual user
+1. 전반적인 사용자의 비헤이비어
+1. 동일한 시간대에 있는 유사 사용자의 비헤이비어
+1. 해당 개별 사용자의 비헤이비어
 
-These predictions are weighted and combined using a Bayesian approach, resulting in a "heat map" for each metric (email opens, email clicks, push opens, and mobile message clicks), for each customer, that indicates the hours of the week that contacting that user is most and least likely to result in the desired engagement outcome (open/click), as illustrated in the below example heatmap:
+이러한 예측은 베이지안 접근 방식을 사용하여 가중치가 부여되고 결합되므로 아래 예제 히트맵에서 보듯이 각 고객에 대해 해당 사용자에게 연락하여 원하는 참여 결과(열기/클릭)를 얻을 가능성이 가장 높고 가장 적은 주의 시간을 나타내는 각 지표(이메일 열기, 이메일 클릭 수 및 푸시 열기)에 대한 &quot;히트맵&quot;이 생성됩니다.
 
-![Engagement heatmap showing optimal send times for email by day and hour](assets/heatmap-1.png)
+![일별 및 시간별 이메일에 대한 최적의 전송 시간을 보여 주는 참여 히트맵](assets/heatmap-1.png)
 
-If a user with the above predicted probabilities is targeted for a message at 9 AM Wednesday with Send-Time Optimization turned on and a 7 hour maximum wait time, the selected send time for the message will be 12 PM:
+위에서 예측한 확률을 가진 사용자가 전송 시간 최적화가 켜지고 최대 대기 시간이 7시간인 수요일 오전 9시에 메시지를 타겟팅하는 경우 메시지에 대해 선택한 전송 시간은 오후 12시가 됩니다.
 
-![Engagement heatmap with detailed hour-by-hour optimization data](assets/heatmap-2.png)
+![상세한 시간별 최적화 데이터가 포함된 참여 히트맵](assets/heatmap-2.png)
 
-## Send-Time Optimization model training and scoring details  {#model-send-time}
+## 전송 시간 최적화 모델 교육 및 채점 세부 정보  {#model-send-time}
 
-Once the Send-Time Optimization feature is enabled for your organization, the Journey AI model is trained on email and push send, open and click events, as well as SMS, RCS, and WhatsApp send and click events, across all your organization's journeys, actions, and campaigns over the last 16 weeks – regardless of whether those actions use Send-Time Optimization. This allows Send-Time Optimization to benefit from all data generated by your customers.
+조직에 대해 전송 시간 최적화 기능이 활성화되어 있으면 여정 AI 모델은 전송 시간 최적화를 사용하는지 여부에 관계없이 지난 16주 동안 조직의 모든 여정 및 작업에 대해 이메일 및 푸시 보내기, 열기 및 클릭 이벤트에 대해 교육됩니다. 이를 통해 전송 시간 최적화는 고객이 생성한 모든 데이터의 이점을 얻을 수 있습니다.
 
-Models are initially trained and scored weekly. After 16 weeks, models are retrained and rescored monthly. Model scoring includes all customer profiles – both existing and new since the last scoring run.
+모델은 처음에 교육 과정을 거친 후 매주 점수를 매깁니다. 16주 후 모델은 재교육을 받고 매월 다시 검사를 받습니다. 모델 점수에는 모든 고객 프로필이 포함됩니다(마지막 점수부여 실행 이후 기존 프로필과 신규 프로필 모두).
 
-Messages sent by Send-Time Optimization receive either an "exploration" message send time selected to test different send times and observe how customers respond, or an "optimized" message send times selected to maximize click/open rates. 5% of send events receive an "exploration" send time and 95% of send events are "optimized".
+전송 시간 최적화에서 보낸 메시지는 다양한 전송 시간을 테스트하고 고객의 응답 방식을 관찰하기 위해 선택한 &quot;탐색&quot; 메시지 전송 시간 또는 클릭/열기 비율을 최대화하기 위해 선택한 &quot;최적화된&quot; 메시지 전송 시간을 받습니다. 전송 이벤트의 5%는 &quot;탐색&quot; 전송 시간을 수신하며, 전송 이벤트의 95%는 &quot;최적화&quot;됩니다.
 
-Exploration send times are selected at random from the send times made available by your configured maximum wait time. For example, in the case that a message is selected at 9 AM Wednesday with Send-Time Optimization turned on and a 3 hour maximum wait time, Exploration send times for the message will be split evenly between 9 AM, 10 AM, 11 AM and 12 PM.
+탐사 전송 시간은 구성된 최대 대기 시간에 의해 사용 가능한 전송 시간 중에서 임의로 선택됩니다. 예를 들어, 전송 시간 최적화가 켜진 상태로 수요일 오전 9시에 메시지를 선택하고 최대 대기 시간이 3시간인 경우, 메시지 탐색 전송 시간은 오전 9시, 오전 10시, 오전 11시와 오후 12시 사이에 균등하게 분할됩니다.
 
 
-## Frequently asked questions {#faq-send-time}
+## 자주 묻는 질문 {#faq-send-time}
 
-You will find below Frequently Asked Questions about Send-Time Optimization.
+전송 시간 최적화에 대한 FAQ는 다음과 같습니다.
 
-Need more details? Use the feedback options at the bottom of this page to raise your question, or connect with [[!DNL Adobe Journey Optimizer] community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"}.
+세부 정보가 필요하신가요? 이 페이지 하단의 피드백 옵션을 사용하여 질문을 제기하거나 [[!DNL Adobe Journey Optimizer] 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"}에 연결하세요.
 
-+++How long do I need to wait before using Send-Time Optimization?
++++전송 시간 최적화를 사용하기 전에 얼마나 기다려야 합니까?
 
-Your organization should use the Email action within Journey Optimizer for a minimum of 30 days before using Send-Time Optimization within Email to allow for the collection of some email send, open, and click events.
+조직은 이메일 내 전송 시간 최적화를 사용하여 일부 이메일 전송, 열기 및 클릭 이벤트를 수집하기 전에 최소 30일 동안 Journey Optimizer 내에서 이메일 작업을 사용해야 합니다.
 
-Your organization should use the Push action within Journey Optimizer for a minimum of 30 days before using Send-Time Optimization within Push to allow for the collection of some push send and open events.
+조직은 일부 푸시 전송 및 열기 이벤트의 수집을 허용하려면 푸시 내의 전송 시간 최적화 를 사용하기 전에 최소 30일 동안 Journey Optimizer 내에서 푸시 작업을 사용해야 합니다.
 
-Your organization should use the SMS, RCS, or WhatsApp action within Journey Optimizer for a minimum of 30 days before using Send-Time Optimization for those channels to allow for the collection of some send and click events.
-
-If your organization has already been using the relevant action types for at least 30 days, your organization does not need to wait longer to use Send-Time Optimization after it has been enabled by Adobe. Results will continue to improve as your organization gathers data for up to 16 weeks.
+조직에서 이미 최소 30일 동안 이메일 및/또는 푸시 작업 유형을 사용하고 있는 경우 조직은 Adobe에서 전송 시간 최적화를 활성화한 후 전송 시간 최적화를 사용하기 위해 더 이상 기다릴 필요가 없습니다. 조직에서 최대 16주 동안 데이터를 수집하므로 결과는 계속 개선됩니다.
 
 +++
 
-+++How can I see the send time a particular user will receive a message at?
++++특정 사용자가에서 메시지를 받을 전송 시간을 어떻게 볼 수 있습니까?
 
-In order to minimize the model's impact on profile richness, model scores are stored compressed in 3 Profile attributes stored in `_experience.intelligentServices.journeyAI.sendTimeOptimization`, and are not designed to be human readable.
-
-+++
-
-
-+++What is the average benefit of Send-Time Optimization?
-
-Send-Time Optimization may increase email click rate, push open rate, and mobile message click rate in the range of approximately 2% to 10% across all messages optimized by an organization.
-
-For example, if an organization sending email without send time optimization has a 5.0% click rate on average, the same set of emails with send time optimization might result in as much as a 5.5% click rate on average (5.0% * (1+10%) = 5.5%).
-
-Due to variability within small sample sizes, a benefit from Send-Time Optimization may not be observable on single message sends.
-
-Organizations are more likely to experience greater benefits from using Send-Time Optimization when:
-
-* Existing journeys use send times that are fixed and not well-optimized
-* Variability in customer behavior (clicks and opens) corresponds to customer location and customer preferences
-* Organizations use Send-Time Optimization on a larger fraction of email, push, and mobile messages
-* Organizations choose maximum wait times within the recommended range of 6-12 hours
-
-+++
-
-+++I always click on emails or push messages at 12pm, why didn't the algorithm send a message to me at 12pm?
-
-
-This may occur for multiple reasons:
-
-* Your message was selected as an "Exploration" message send time instead of an "Optimized" message send time.
-* The behavior of lookalike users influenced the model to recommend another send time.
-
-+++
-
-+++How does Send-Time Optimization know a user's time zone?
-
-Send-Time Optimization uses the `timeZone` profile field to determine a user's time zone. If not available for that user, Send-Time Optimization attempts to infer a user's time zone from other geographic information in the user's profile such as country and state.
+모델이 프로필 풍부함에 미치는 영향을 최소화하기 위해 모델 점수는 `_experience.intelligentServices.journeyAI.sendTimeOptimization`에 저장된 3개의 프로필 특성으로 압축되어 저장되며 사람이 인식할 수 있도록 설계되지 않았습니다.
 
 +++
 
 
-+++Will Send-Time Optimization send Push or mobile messages to users during the night in their local time zone?
++++전송 시간 최적화의 평균 이점은 무엇입니까?
 
-Send-Time Optimization may send Push, SMS, RCS, or WhatsApp messages to users during the night in their local time zone in the following circumstances:
+전송 시간 최적화는 조직에서 최적화한 모든 메시지에서 이메일 클릭률 및 푸시 열람률을 약 2%~10% 범위로 향상시킬 수 있습니다.
 
-* When users exhibit behavior that indicates they are likely to interact with a message sent at night
-* When the model chooses an "Exploration" send time
+예를 들어, 전송 시간 최적화를 사용하지 않고 이메일을 보내는 조직의 클릭률이 평균적으로 5.0%인 경우 전송 시간 최적화를 사용하는 동일한 이메일 세트로 인해 평균적으로 5.5% 클릭률(5.0% * (1+10%) = 5.5%)이 될 수 있습니다.
 
-To avoid sending messages to customers during night time hours, schedule batch message sends to occur in the morning or early afternoon and choose a shorter duration for Send-Time Optimization. (For example, a 9 AM send time and 8 hour maximum wait time.)
+작은 샘플 크기 내의 가변성으로 인해 단일 메시지 전송에서 전송 시간 최적화의 이점이 관찰되지 않을 수 있습니다.
+
+조직은 다음과 같은 경우에 전송 시간 최적화를 사용하여 더 많은 이점을 얻을 수 있습니다.
+
+* 기존 여정은 고정되어 있고 제대로 최적화되지 않은 전송 시간을 사용합니다
+* 고객 행동(클릭 및 열기)의 가변성은 고객 위치 및 고객 선호도에 해당합니다
+* 조직은 이메일 및 푸시 메시지의 더 많은 부분에서 전송 시간 최적화 사용
+* 조직은 권장 범위 6~12시간 내에서 최대 대기 시간을 선택합니다.
 
 +++
-```
 
-&#x200B;---
++++나는 항상 12시에 이메일이나 푸시 메시지를 클릭하는데, 알고리즘이 왜 12시에 나에게 메시지를 보내지 않았을까?
 
-다음은 수행된 모든 변경 사항에 대한 요약입니다.
 
-**Beginshadebox/intro copy** - 채널 목록에 SMS, RCS 및 WhatsApp을 추가하고 &quot;열기 및 클릭&quot;을 &quot;열기, 클릭 및 참여 동작&quot;으로 업데이트했습니다.
+이 문제는 다음과 같은 여러 가지 이유로 발생할 수 있습니다.
 
-**상황별 도움말 블록** — 모바일 채널을 포함하도록 `jo_bestsendtime_disabled`을(를) 업데이트했습니다. 링크 클릭에 최적화된 채널을 설명하는 SMS/RCS/WhatsApp용 새 `jo_bestsendtime_mobile` 블록을 추가했습니다.
+* 메시지가 &quot;최적화된&quot; 메시지 전송 시간 대신 &quot;탐색&quot; 메시지 전송 시간으로 선택되었습니다.
+* 유사 사용자의 비헤이비어는 모델에 다른 전송 시간을 추천하는 데 영향을 주었습니다.
 
-**범위 단락** — 캠페인 제한(&quot;현재 캠페인을 통해 보낸 메시지에 사용할 수 없음&quot;)을 제거하고 SMS, RCS 및 WhatsApp을 채널 목록에 추가했습니다. 이제 문장에 *여정 및 캠페인 모두에서 이러한 작업 유형에 사용할 수 있습니다.*
++++
 
-**가용성 참고** — SMS, RCS 및 WhatsApp을 포함하도록 채널 글머리 기호를 업데이트했습니다.
++++전송 시간 최적화는 사용자의 시간대를 어떻게 알 수 있습니까?
 
-**STO 섹션 사용** — 이제 1단계에서 &quot;여정 또는 캠페인&quot;이라고 표시되고, 3단계에서 모바일 메시징 최적화 규칙을 추가합니다(항상 클릭 수). 4단계에서 &quot;전자 메일과 푸시&quot;를 &quot;모든 채널 유형&quot;으로 일반화하고, 닫는 문장을 &quot;여정&quot;에서 &quot;여정 또는 캠페인&quot;으로 업데이트합니다.
+전송 시간 최적화는 `timeZone` 프로필 필드를 사용하여 사용자의 시간대를 결정합니다. 해당 사용자가 사용할 수 없는 경우 전송 시간 최적화는 국가 및 주와 같은 사용자 프로필에 있는 다른 지리 정보에서 사용자의 시간대를 유추하려고 합니다.
 
-**작동 방법 섹션** — &quot;모바일 메시지 클릭 수&quot;를 포함하도록 히트맵 지표 목록을 업데이트했습니다.
++++
 
-**모델 교육 섹션** — 교육 데이터 설명에 SMS, RCS 및 WhatsApp 보내기 및 클릭 이벤트를 추가했고 범위에 &quot;및 캠페인&quot;을 추가했습니다.
 
-**FAQ** — SMS/RCS/WhatsApp에 대한 30일 준비 단락을 추가했습니다. &quot;모바일 메시지 클릭률&quot;을 포함하도록 혜택 FAQ를 업데이트했습니다. SMS, RCS 및 WhatsApp 이름을 Push와 함께 지정하도록 야간 FAQ 질문과 본문을 업데이트했습니다.
++++전송 시간 최적화는 로컬 시간대의 야간 동안 사용자에게 푸시 메시지를 전송합니까?
+
+전송 시간 최적화는 다음과 같은 상황에서 밤에 로컬 시간대의 사용자에게 푸시 메시지를 전송할 수 있습니다.
+
+* 사용자가 야간에 전송된 메시지와 상호 작용할 가능성이 있음을 나타내는 행동을 보이는 경우
+* 모델이 &quot;탐색&quot; 전송 시간을 선택하는 경우
+
+야간 시간 동안 고객에게 푸시 메시지를 보내지 않도록 하려면 일괄 푸시 메시지 전송 작업을 오전이나 이른 오후에 발생하도록 예약하고 전송 시간 최적화를 위한 더 짧은 기간을 선택하십시오. (예를 들어 오전 9시 전송 시간과 최대 대기 시간 8시간)
+
++++
+
+
+
