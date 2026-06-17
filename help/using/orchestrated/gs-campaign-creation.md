@@ -16,10 +16,10 @@ topic_v2:
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
-source-wordcount: 337
-ht-degree: 61%
+source-wordcount: 367
+ht-degree: 53%
 
 ---
 
@@ -58,13 +58,19 @@ ht-degree: 61%
 
 ➡️ [활동을 오케스트레이션하는 방법 알아보기](../orchestrated/orchestrate-activities.md)
 
-## 3단계: 캠페인 시작 및 모니터링 {#start}
+## 3단계: 개인화 추가 {#personalize}
+
+채널 활동에서 작업 테이블(데이터 보강 컬렉션 배열 포함)의 프로필 속성 및 타겟 속성을 사용하여 메시지를 개인화합니다.
+
+➡️ [오케스트레이션된 캠페인에서 개인화를 추가하는 방법을 알아봅니다](../orchestrated/add-personalization.md)
+
+## 4단계: 캠페인 시작 및 모니터링 {#start}
 
 거의 다 왔어! 문제를 파악하려면 먼저 테스트 모드에서 캠페인을 실행합니다. 그런 다음 게시하고 실시간으로 실행을 모니터링합니다. 진행 상황을 추적하고 오류를 확인하며 프로필이 각 단계에서 어떻게 진행되는지 살펴봅니다.
 
 ➡️ [캠페인을 시작하고 모니터링하는 방법 알아보기](../orchestrated/start-monitor-campaigns.md)
 
-## 4단계: 결과 분석 및 보고 {#report}
+## 5단계: 결과 분석 및 보고 {#report}
 
 출시 후에는 기본 제공 보고서를 활용하여 무엇이 효과가 있었는지, 무엇을 개선할 수 있는지 파악합니다. 실시간 대시보드와 심층적인 분석을 통해 향후 캠페인을 최적화하고 전략을 구체화할 수 있습니다.
 

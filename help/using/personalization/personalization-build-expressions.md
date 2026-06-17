@@ -15,7 +15,7 @@ feature_v2:
 subfeature_v2:
   - id: e51e8901-97d9-4f7d-a835-503025a90e32
   - id: ac5d9310-7772-40fb-9d78-864562e1bfd6
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
 source-wordcount: 1592
 ht-degree: 11%
@@ -92,7 +92,7 @@ Journey Optimizer을 사용하면 메시지에서 **URL**&#x200B;을(를) 개인
 탐색 창에서는 개인화를 위한 소스를 선택할 수 있습니다. 사용 가능한 소스는 다음과 같습니다.
 
 * **[!UICONTROL 프로필 특성]** : [XDM(Adobe Experience Platform 데이터 모델) 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR){target="_blank"}에 설명된 프로필 스키마와 관련된 모든 참조를 나열합니다.
-* **[!UICONTROL 대상 특성]** : 이 폴더는 오케스트레이션된 캠페인에만 적용됩니다. 여기에는 캠페인 캔버스 내에서 직접 계산된 속성이 포함됩니다. [오케스트레이션된 캠페인에서 개인화를 추가하는 방법을 알아봅니다](../orchestrated/activities/channels.md#add-personalization)
+* **[!UICONTROL 대상 특성]** : 이 폴더는 오케스트레이션된 캠페인에만 적용됩니다. 여기에는 캠페인 캔버스 내에서 직접 계산된 속성이 포함됩니다. [오케스트레이션된 캠페인에서 개인화를 추가하는 방법을 알아봅니다](../orchestrated/add-personalization.md)
 * **[!UICONTROL 대상]** : Adobe Experience Platform 세분화 서비스에서 만든 모든 대상을 나열합니다. 자세한 내용은 [Adobe Experience Platform 세그멘테이션 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ko){target="_blank"}를 참조하세요.
 * **[!UICONTROL 오퍼 결정]** : 특정 배치와 관련된 모든 오퍼를 나열합니다. 배치를 선택한 다음 콘텐츠에 오퍼를 삽입합니다. 오퍼 관리 방법에 대한 전체 문서를 보려면 [이 섹션](../offers/get-started/starting-offer-decisioning.md)을 참조하세요.
 * **[!UICONTROL 컨텍스트 특성]** : 여정 또는 캠페인에서 채널 작업 활동(이메일, 푸시, SMS)을 사용하면 이벤트 및 속성과 관련된 컨텍스트 특성을 개인화할 수 있습니다. 컨텍스트 특성을 활용하는 개인화의 예는 [이 섹션](personalization-use-case.md)에 나와 있습니다. 또한 사용자 지정 작업 응답을 개인화에 사용할 수 있습니다. [기본 채널에서 사용자 지정 작업 응답을 사용하는 방법을 알아봅니다](../action/action-response.md#response-in-channels).

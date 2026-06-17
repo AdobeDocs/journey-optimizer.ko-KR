@@ -15,10 +15,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: cd1eb9b21a3201c2a01c1781220570236977a736
+source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
-source-wordcount: 1935
-ht-degree: 36%
+source-wordcount: 1815
+ht-degree: 39%
 
 ---
 
@@ -83,7 +83,7 @@ UNUSED IDs in BJ
 
 * **지원되는 채널** - SMS, 푸시, 이메일 및 DM 채널만 오케스트레이션된 캠페인에서 지원됩니다.
 
-* **채널 활동 제한** - 오케스트레이션된 캠페인은 최대 10개의 채널 활동(전자 메일, SMS, 푸시 또는 DM)을 지원합니다. 채널 활동만 이 제한에 포함됩니다. 타깃팅 및 흐름 제어 활동은 계산에 포함되지 않습니다.
+* **채널 활동 제한** - 오케스트레이션된 캠페인은 최대 10개의 채널 활동(전자 메일, SMS, 푸시 또는 DM)을 지원합니다. 채널 활동만 이 제한으로 계산되며 타기팅 및 흐름 제어 활동은 계산되지 않습니다.
 
   저장 또는 게시 시 한도를 초과하면 작업이 실패합니다. 이 한도를 유지하려면 채널 활동 수를 줄이거나 오케스트레이션된 여러 캠페인에 메시지 게재를 분할합니다.
 
@@ -183,25 +183,11 @@ UNUSED IDs in BJ
 <td><a href="../../push/create-push.md"><img alt="푸시" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>푸시 알림 만들기</strong></a></td><td><a href="../../direct-mail/create-direct-mail.md"><img alt="다이렉트 메일" src="../../channels/assets/do-not-localize/direct-mail.jpg"></a><a href="../../direct-mail/create-direct-mail.md"><strong>다이렉트 메일 만들기</strong></a></td>
 </tr></table>
 
-### 개인화 추가
+### 개인화 추가 {#add-personalization}
 
-오케스트레이션된 캠페인의 Personalization은 다른 [!DNL Journey Optimizer] 캠페인 또는 여정과 유사하게 작동하지만, 오케스트레이션된 캔버스와 관련된 몇 가지 주요 차이점이 있습니다.
+채널 활동의 메시지 편집기에서 캠페인 작업 테이블(타겟팅 차원 및 데이터 보강)의 **[!UICONTROL 프로필 특성]** 및 **[!UICONTROL 타겟 특성]**&#x200B;을(를) 삽입합니다.
 
-오케스트레이션된 캠페인에서 개인화 편집기에 액세스하면 두 개의 기본 폴더에 아래에 설명된 개인화에 사용할 수 있는 속성이 포함됩니다.
-
-* **[!UICONTROL 프로필 속성]**
-
-  이 폴더에는 [!DNL Adobe Experience Platform]의 모든 프로필 관련 데이터가 포함되어 있습니다. 이름, 이메일 주소, 위치 또는 사용자 프로필에 캡처된 기타 트레이트와 같은 표준 속성입니다.
-
-* **[!UICONTROL Target 특성]**(오케스트레이션된 캠페인에 해당)
-
-  이 폴더는 오케스트레이션된 캠페인에 고유합니다. 여기에는 캠페인 캔버스 내에서 직접 계산된 속성이 포함됩니다. 여기에는 두 개의 하위 폴더가 있습니다.
-
-   * **`<Targeting dimension>`**(예: &quot;수신자&quot;, &quot;구매&quot;): 캠페인에서 타겟팅한 차원과 관련된 모든 특성을 포함합니다.
-
-   * **`Enrichment`**: 캔버스에 **[!UICONTROL 데이터 보강]** 활동을 통해 추가된 데이터를 포함합니다. 이렇게 하면 오케스트레이션 중에 통합된 외부 데이터 세트 또는 추가 논리를 기반으로 메시지를 개인화할 수 있습니다. [데이터 보강 활동을 사용하는 방법을 알아보세요](../activities/enrichment.md)
-
-개인화 편집기 사용 방법에 대한 자세한 개요는 [개인화 시작](../../personalization/personalize.md)을 참조하세요.
+➡️ [데이터 보강 컬렉션 배열, 배열 함수 및 `{{#each}}` 반복을 포함하여 오케스트레이션된 캠페인에 개인화를 추가하는 방법을 알아봅니다](../add-personalization.md).
 
 ### 콘텐츠 확인 및 테스트 {#simulate-content-test-profiles}
 

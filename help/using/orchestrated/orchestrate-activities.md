@@ -12,10 +12,10 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
-source-wordcount: 957
-ht-degree: 47%
+source-wordcount: 971
+ht-degree: 46%
 
 ---
 
@@ -121,4 +121,6 @@ ht-degree: 47%
 
 ## 다음 단계 {#next}
 
-오케스트레이션된 캠페인 캔버스를 성공적으로 디자인한 후 오케스트레이션된 캠페인을 실행하고 다양한 작업의 진행 상황을 추적할 수 있습니다. [오케스트레이션된 캠페인을 시작하고 실행을 모니터링하는 방법을 알아보세요](start-monitor-campaigns.md)
+캔버스에 채널 활동을 추가한 후 전자 메일, SMS 및 기타 메시지에서 [개인 맞춤화를 추가하는 방법을 배웁니다](add-personalization.md).
+
+캔버스가 준비되면 오케스트레이션된 캠페인을 실행하고 작업의 진행 상황을 추적합니다. [오케스트레이션된 캠페인을 시작하고 실행을 모니터링하는 방법을 알아보세요](start-monitor-campaigns.md)
