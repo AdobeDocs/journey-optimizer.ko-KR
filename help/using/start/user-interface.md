@@ -31,10 +31,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: e704a735855abf2c29ae83b1728d75b415456ed9
+source-git-commit: ff473a54dde6806b28c93d6f2f8040a67023ef8c
 workflow-type: tm+mt
-source-wordcount: 1765
-ht-degree: 90%
+source-wordcount: 1789
+ht-degree: 88%
 
 ---
 
@@ -437,3 +437,8 @@ AI 어시스턴트는 즉각적인 도움과 운영 인사이트를 제공합니
 >id="ajo_admin_sms_api_byop_channel_type"
 >title="채널 유형"
 >abstract="선택 사항입니다. 이 사용자 정의 SMS 공급자 자격 증명으로 보낸 메시지(예: SMS 또는 RCS)를 분류합니다. Journey Optimizer은 채널별 게재를 보고하고 추적할 수 있도록 XDM 경험 이벤트에 값을 기록합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_webhook_require_auth"
+>title="인증"
+>abstract="활성화되면 Adobe IMS를 통해 인증된 요청만 수락됩니다. 이 끝점으로 데이터를 전송할 때 호출자는 유효한 OAuth 토큰을 포함해야 합니다."
