@@ -5,16 +5,23 @@ feature: Channel Configuration, Content Cards
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: d84cc0f4d9226876e55e37409a685550fe0c9050
+exl-id: d308ab4a-843c-4729-ad18-97d89c708357
+source-git-commit: c2bb6cf702a14b4eef8f2209082e39cd73338378
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 4%
+source-wordcount: '337'
+ht-degree: 3%
 
 ---
 
 # 받은 편지함 구성 {#inbox-configuration}
 
-받은 편지함을 통해 콘텐츠 카드 경험을 전달하려면 **채널 구성**&#x200B;에서 **[!UICONTROL 받은 편지함]** 채널 구성을 정의해야 합니다. 이 구성은 표면을 동의, 선택적 액세스 레이블 및 웹 또는 iOS 또는 Android 앱에서 경험이 표시되는 위치에 연결합니다. 구성을 만들려면 아래 단계를 수행하십시오.
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 동의, 선택적 액세스 레이블 및 받은 편지함이 웹 또는 iOS 또는 Android 앱에 표시되는 위치를 설정하는 받은 편지함 채널 구성을 정의하면 받은 편지함을 통해 콘텐츠 카드 경험을 전달할 수 있습니다.
+
+>[!ENDSHADEBOX]
+
+받은 편지함을 통해 콘텐츠 카드 경험을 전달하려면 **[!UICONTROL 채널 구성]**&#x200B;에서 **받은 편지함** 채널 구성을 정의해야 합니다. 이 구성은 표면을 동의, 선택적 액세스 레이블 및 웹 또는 iOS 또는 Android 앱에서 경험이 표시되는 위치에 연결합니다. 구성을 만들려면 아래 단계를 수행하십시오.
 
 1. **[!UICONTROL 채널]** > **[!UICONTROL 일반 설정]** > **[!UICONTROL 채널 구성]** 메뉴에 액세스한 다음 **[!UICONTROL 채널 구성 만들기]**&#x200B;를 클릭하십시오.
 
