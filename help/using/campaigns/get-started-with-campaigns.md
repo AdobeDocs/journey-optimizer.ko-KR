@@ -1,381 +1,427 @@
 ---
+source-git-commit: 84aa39bfd480e5bcaa8a58c5ec29f1990e5ddc6f
+workflow-type: tm+mt
+source-wordcount: '114'
+ht-degree: 0%
+
+---
+디렉터리가 로컬에 없으므로 요청된 대로 업데이트된 전체 파일 콘텐츠를 직접 출력합니다.
+
+---
+
+```markdown
+---
 solution: Journey Optimizer
 product: journey optimizer
-title: 캠페인 시작
-description: Journey Optimizer의 캠페인에 대해 자세히 알아보기
+title: Get started with campaigns
+description: Learn more about campaigns in Journey Optimizer
 feature: Campaigns
 topic: Content Management
 role: User
 level: Beginner
 mini-toc-levels: 1
-keywords: 캠페인, 방법 , 시작, Optimizer
+keywords: campaign, how to , start, optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 TQID: https://experienceleague.adobe.com/3yMQM-hovd-3HgT9PlhNvpKlxG3m4NMqnZwv-dbZACU
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: a653cc2e-bc85-4353-a306-399e5b247978
+    internal-label: Journey Optimizer campaigns
   - id: d556b755-390a-43f0-be32-a08cf6236126
+    internal-label: Configuration
 subfeature_v2:
   - id: f7479fa1-474b-479d-8c98-f6cee5865a38
+    internal-label: API triggered campaigns
   - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+    internal-label: Campaign management
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+    internal-label: Get started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
-workflow-type: tm+mt
-source-wordcount: 1653
-ht-degree: 97%
-
+    internal-label: Audience segmentation
 ---
-
-# 캠페인 시작 {#get-started-campaigns}
+# Get started with campaigns {#get-started-campaigns}
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** 캠페인 기본 사항을 이해하고, 사용 가능한 캠페인 유형을 비교하고, 전체적인 만들기 워크플로를 따라 Adobe Journey Optimizer의 채널 간에 타깃팅된 콘텐츠를 제공하는 올바른 접근 방식을 선택하고 캠페인을 빌드할 수 있습니다.
+**On this page:** Understand campaign fundamentals, compare the available campaign types, and follow the end-to-end creation workflow so you can choose the right approach and build campaigns that deliver targeted content across channels in Adobe Journey Optimizer.
 
 >[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule"
->title="캠페인 예약"
->abstract="기본적으로 캠페인은 수동 활성화를 통해 시작되고 메시지가 한 번 발송되는 즉시 종료됩니다. 메시지를 전송할 특정 날짜와 시간을 유연하게 설정할 수 있습니다. 또한 반복적인 액션 캠페인의 종료 날짜를 지정할 수 있습니다. 액션 트리거에서는 환경 설정에 따라 메시지 전송 빈도를 구성할 수도 있습니다."
+>title="Campaign schedule"
+>abstract="By default, campaigns start upon manual activation and end immediately after the message is sent once. You have the flexibility to set a specific date and time for the message to be sent. Furthermore, you can specify an end date for recurring Action campaigns. In the Action triggers, you can also configure the message sending frequency to suit your preferences."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"
->title="캠페인 시작"
->abstract="메시지를 전송해야 하는 날짜와 시간을 지정하십시오."
+>title="Campaign start"
+>abstract="Specify a date and time at which the message should be sent."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_end"
->title="캠페인 종료"
->abstract="반복 캠페인 실행을 중지해야 하는 시점을 지정하십시오."
+>title="Campaign end"
+>abstract="Specify when a recurring campaign should stop being executed."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_triggers"
->title="캠페인 액션 트리거"
->abstract="캠페인 메시지를 전송해야 하는 빈도를 정의하십시오."
+>title="Campaign action triggers"
+>abstract="Define a frequency at which the campaign's message should be sent."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_throttling"
->title="속도 제어"
->abstract="원하는 속도 제한을 지정하여 캠페인에 대한 속도 제어를 설정합니다. 이 기능은 랜딩 페이지나 고객 지원 센터 플랫폼과 같은 다운스트림 시스템의 오버로드를 방지하는 데 특히 유용합니다."
+>title="Rate control"
+>abstract="Set Rate control for your campaign by specifying the desired rate limits. This feature is particularly useful for preventing overload on downstream systems, such as landing pages or customer care platforms."
 
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card3"
->title="캠페인 만들기"
->abstract="**Adobe Journey Optimizer**&#x200B;로 다양한 채널을 사용하는 특정 대상자에 일회성 콘텐츠를 게재할 수 있습니다. 여정을 사용할 때 작업은 순서대로 실행됩니다. 캠페인을 사용하면 작업을 동시에 즉시 또는 지정한 일정에 따라 수행합니다."
+>title="Create campaigns"
+>abstract="Use **Adobe Journey Optimizer** to deliver one-time content to a specific audience using various channels. When using journeys, actions are executed in sequence. With campaigns, actions are performed simultaneously, either immediately, or based on a specified schedule."
 
 >[!CONTEXTUALHELP]
 >id="campaigns_list"
->title="캠페인"
->abstract="캠페인을 만들어 다양한 채널을 통해 특정 대상자에게 일회성 콘텐츠를 게재할 수 있습니다. 캠페인을 만들기 전에 채널 구성과 Adobe Experience Platform 대상자를 사용할 준비가 되었는지 확인하십시오."
+>title="Campaigns"
+>abstract="Create campaigns to deliver one-time content to a specific audience across various channels. Before creating your campaign, make sure you have a channel configuration and an Adobe Experience Platform audience ready for use."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
->title="캠페인 유형"
->abstract="캠페인 유형을 선택합니다. 선택한 유형에 따라 사용 가능한 채널이 달라집니다. <br>**예약된 캠페인**(액션 캠페인) – 특정 시간에 실행되도록 예약할 수 있는 간단한 일회성 배치 커뮤니케이션에 적합합니다.<br>**API 트리거 캠페인** – API 호출을 통해 활성화되어 외부 시스템에서 직접 자동화된 이벤트 기반 메시지를 사용할 수 있습니다.<br>**오케스트레이션된 캠페인** – 시각적인 드래그 앤 드롭 캔버스를 제공하여 대상자 세분화부터 채널 간 맞춤형 메시지 전송까지 복잡한 다단계 마케팅 워크플로를 설계하고 자동화합니다."
+>title="Campaign type"
+>abstract="Select the type of campaign. Available channels vary depending on the selected type. <br>**Scheduled campaigns** (Action campaigns) – Ideal for simple, one-off batch communications that you can schedule to run at a specific time.<br>**API triggered campaigns** – Activated through an API call, enabling automated, event-based messaging directly from external systems.<br>**Orchestrated campaigns** – Provide a visual, drag-and-drop canvas to design and automate complex, multi-step marketing workflows, from audience segmentation to personalized message delivery across channels."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_orchestration"
->title="캠페인"
->abstract="세분화 플로우를 만들고 크로스 채널 메시지를 작성하고 캠페인을 기획합니다. 지원 채널: 이메일, SMS, 푸시 알림, DM"
+>title="Campaigns"
+>abstract="Create your segmentation flow, craft your cross channel messages and plan your campaigns. Supported channels: Email, SMS, Push notifications, Direct mail."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_scheduled_marketing"
->title="캠페인"
->abstract="단일 또는 반복 아웃바운드 게재 또는 지속적인 인바운드 액션을 게재합니다."
+>title="Campaigns"
+>abstract="Deliver single or recurring outbound deliveries or ongoing inbound actions."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_scheduled_transactional"
->title="캠페인"
->abstract="단일 또는 반복 아웃바운드 트랜잭션 액션을 게재합니다. 지원되는 채널: 이메일, SMS, 푸시 알림."
+>title="Campaigns"
+>abstract="Deliver single or recurring outbound transactional actions. Supported channels: Email, SMS, Push notifications."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_api_marketing"
->title="캠페인"
->abstract="타겟팅된 대상자에게 개인화된 마케팅 커뮤니케이션을 게재합니다. 지원되는 채널: 이메일, SMS, 푸시 알림."
+>title="Campaigns"
+>abstract="Deliver personalized marketing communications to targeted audiences. Supported channels: Email, SMS, Push notifications."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_api_transactional"
->title="캠페인"
->abstract="개인 프로필 또는 프로필 세트에 대한 트랜잭션 커뮤니케이션을 게재합니다. 지원되는 채널: 이메일, SMS, 푸시 알림."
+>title="Campaigns"
+>abstract="Deliver transactional communications to individual profiles or sets of profiles. Supported channels: Email, SMS, Push notifications."
 
-Adobe Journey Optimizer를 사용하면 여러 채널에서 특정 대상자에게 타겟팅된 일회성 콘텐츠를 제공할 수 있습니다. 캠페인을 활용하면 여러 마케팅 활동을 동시에 조정하여 적절한 시기에 적절한 메시지를 대상자에게 전달할 수 있습니다.
+Adobe Journey Optimizer empowers you to deliver targeted, one-time content to specific audiences across multiple channels. Using campaigns, you can execute coordinated marketing actions simultaneously, reaching your audience with the right message at the right time.
 
-이 안내서에서는 캠페인의 기본 사항을 이해하고, 사용 사례에 맞는 캠페인 유형을 선택하며, 효과적인 고객 경험을 제공하는 캠페인을 자신 있게 디자인하는 데 도움이 되는 명확한 로드맵을 제공합니다.
+This guide provides a clear roadmap to help you understand campaign fundamentals, choose the right campaign type for your use case, and confidently design campaigns that deliver impactful customer experiences.
 
-## 캠페인이란 무엇인가요?
+## What are campaigns?
 
-**캠페인**&#x200B;은 하나 이상의 채널을 통해 특정 대상자에게 콘텐츠를 전달하는 조정된 마케팅 액션입니다. 여정에서는 액션이 순차적으로 실행되는 반면, 캠페인에서는 액션이 즉시 또는 정해진 일정에 따라 동시에 실행됩니다.
+**Campaigns** are coordinated marketing actions that deliver content to a specific audience across one or more channels. Unlike journeys where actions execute sequentially, campaigns perform actions simultaneously—either immediately or on a defined schedule.
 
-[!DNL Journey Optimizer] 캠페인을 사용하여 다음을 수행할 수 있습니다.
+Use [!DNL Journey Optimizer] campaigns to:
 
-* 타겟팅된 대상자 세그먼트에 **일회성 또는 반복 콘텐츠** 게재
-* 이메일, 푸시, SMS, 인앱, 웹 등을 통해 **조정된 멀티채널 커뮤니케이션** 실행
-* 실시간 이벤트 기반 메시지를 위해 API 호출을 통해 **자동화된 응답** 트리거
-* 시각적 오케스트레이션 도구를 사용하여 **복잡한 마케팅 워크플로** 디자인
+* Deliver **one-time or recurring content** to targeted audience segments
+* Execute **coordinated multi-channel communications** across email, push, SMS, in-app, web, and more
+* Trigger **automated responses** via API calls for real-time, event-driven messaging
+* Design **complex marketing workflows** with visual orchestration tools
 
 ![](assets/gs-campaigns.png)
 
-➡️ **작성을 시작할 준비가 되셨나요?** 몇 분만에 [첫 번째 캠페인을 만들어 보세요](create-campaign.md).
+➡️ **Ready to start building?** [Create your first campaign](create-campaign.md) in minutes.
 
-## 캠페인 유형 선택 {#campaign-types}
+## Choose your campaign type {#campaign-types}
 
-**캠페인 구축을 시작하기 전에** 사용 사례에 적합한 캠페인 유형을 이해하는 것이 중요합니다. Adobe Journey Optimizer는 서로 다른 시나리오와 활성화 메커니즘에 맞춰 설계된 세 가지 캠페인 유형을 지원합니다.
+**Before you start building**, it's important to understand which type of campaign fits your use case. Adobe Journey Optimizer supports three campaign types, each designed for different scenarios and activation mechanisms:
 
 ![](assets/campaign-modal.png)
 
 >[!BEGINTABS]
 
->[!TAB 오케스트레이션된 캠페인]
+>[!TAB Orchestrated campaigns]
 
-**사용 시점:** 복잡한 다단계 마케팅 워크플로
+**When to use:** Complex, multi-step marketing workflows
 
-**오케스트레이션된 캠페인**&#x200B;은 정교한 마케팅 워크플로를 디자인하고 자동화할 수 있는 시각적인 드래그 앤 드롭 캔버스를 제공합니다. 대상자 세분화부터 다양한 채널을 통한 개인화된 메시지 전달까지, 모든 것이 빠른 속도와 손쉬운 관리를 위해 설계된 직관적인 단일 환경에서 이루어집니다.
+**Orchestrated campaigns** provide a visual, drag-and-drop canvas to design and automate sophisticated marketing workflows. From audience segmentation to personalized message delivery across channels, everything happens in one intuitive environment built for speed and control.
 
-**적합한 용도:** 여러 단계로 구성된 고객 참여 프로그램, 복잡한 세분화 및 타겟팅 전략, 크로스 채널 캠페인 오케스트레이션, 브랜드 주도형 대규모 마케팅, 의사 결정 지점이 여러 개인 고급 워크플로 자동화.
+**Perfect for:** Multi-step customer engagement programs, complex segmentation and targeting strategies, cross-channel campaign orchestration, brand-initiated marketing at scale, and advanced workflow automation with multiple decision points.
 
-➡️ [오케스트레이션된 캠페인에 대해 알아보기](../orchestrated/gs-orchestrated-campaigns.md)
+➡️ [Learn about Orchestrated campaigns](../orchestrated/gs-orchestrated-campaigns.md)
 
->[!TAB 액션 캠페인(예약됨)]
+>[!TAB Action campaigns (Scheduled)]
 
-**사용 시점:** 간단하고 예약된 일괄 커뮤니케이션
+**When to use:** Simple, scheduled batch communications
 
-**액션 캠페인**(예약 캠페인이라고도 함)은 특정 시간에 실행되는 간단한 일회성 또는 반복적인 일괄 커뮤니케이션에 적합합니다.
+**Action campaigns** (also known as Scheduled campaigns) are ideal for straightforward, one-off or recurring batch communications that run at a specific time.
+    
+**Two categories:**
 
-**두 가지 범주:**
+* **Marketing** - Promotional offers, engagement campaigns, announcements, legal notices, or policy updates. Requires recipients to be opted in.
+* **Transactional** - Disruptions, emergencies, cancellations. Does not require opt-in.
 
-* **마케팅** - 프로모션 오퍼, 참여 캠페인, 공지, 법적 고지 또는 정책 업데이트. 수신자가 옵트인해야 합니다.
-* **트랜잭션** - 중단, 긴급 상황, 취소. 옵트인이 필요하지 않습니다.
+**Perfect for:** Monthly newsletters to customer segments, time-sensitive promotional announcements, seasonal marketing campaigns, product launch communications, and service disruption notifications.
 
-**적합한 용도:** 고객 세그먼트별 월간 뉴스레터, 시기적절한 프로모션 공지, 시즌별 마케팅 캠페인, 제품 출시 안내, 서비스 중단 알림.
+➡️ [Learn about Action campaigns](create-campaign.md)
 
-➡️ [액션 캠페인에 대해 알아보기](create-campaign.md)
+>[!TAB API triggered campaigns]
 
->[!TAB API 트리거 캠페인]
+**When to use:** Real-time, event-driven messaging with external systems
 
-**사용 시점:** 외부 시스템과의 실시간 이벤트 기반 메시지
+**API-triggered campaigns** activate through API calls, enabling automated messaging directly from external systems. These campaigns support personalization using both profile attributes and real-time context data from the API payload.
 
-**API 트리거 캠페인**&#x200B;은 API 호출을 통해 활성화되어 외부 시스템에서 직접 자동화된 메시지를 보낼 수 있습니다. 이러한 캠페인은 프로필 속성과 API 페이로드의 실시간 컨텍스트 데이터를 모두 사용하여 개인화를 지원합니다.
+**Two categories:**
 
-**두 가지 범주:**
+* **Marketing** - Personalized marketing communications to targeted audiences
+* **Transactional** - Messages following individual actions (password resets, cart purchases, etc.)
 
-* **마케팅** - 타겟팅된 고객을 위한 맞춤형 마케팅 커뮤니케이션
-* **트랜잭션** - 개별 액션(암호 재설정, 장바구니 구매 등) 후 표시되는 메시지
+**Perfect for:** Password reset confirmations, cart abandonment recovery, order confirmations and shipping updates, account activity notifications, and real-time personalized recommendations.
 
-**적합한 용도:** 암호 재설정 확인, 장바구니 포기 복구, 주문 확인 및 배송 업데이트, 계정 활동 알림, 실시간 맞춤 추천.
-
-➡️ [API 트리거 캠페인에 대해 알아보기](api-triggered-campaigns.md)
+➡️ [Learn about API-triggered campaigns](api-triggered-campaigns.md)
 
 >[!ENDTABS]
 
 >[!NOTE]
 >
->어떤 유형을 선택해야 할지 모르시겠나요? 예약된 일괄 커뮤니케이션을 위한 **액션 캠페인** 또는 실시간 메시지를 위한 **API 트리거 캠페인**&#x200B;으로 시작하세요. 이러한 캠페인은 가장 일반적인 사용 사례를 다룹니다.
+>Not sure which type to choose? Start with **Action campaigns** for scheduled batch communications or **API-triggered campaigns** for real-time messaging—these cover most common use cases.
 
-## 사전 요구 사항 {#prerequisites}
+## Prerequisites {#prerequisites}
 
-캠페인을 시작하기 전에 다음 사항들이 준비되어 있는지 확인하세요.
+Before working with campaigns, make sure you have the following in place:
 
-* **대상자** - 캠페인을 만들기 전에 Adobe Experience Platform에서 대상자를 사용할 수 있어야 합니다. [대상자 시작하기 →](../audience/about-audiences.md)
+* **Audiences** - Audiences must be available in Adobe Experience Platform before creating campaigns. [Get started with audiences →](../audience/about-audiences.md)
 
-* **채널 구성** - 사용할 채널에 대한 채널 구성(사전 설정)을 만들어야 합니다. [채널 구성 설정 →](../configuration/channel-surfaces.md)
+* **Channel configurations** - Channel configurations (presets) must be created and available for the channels you want to use. [Set up channel configurations →](../configuration/channel-surfaces.md)
 
-* **권한** - 캠페인 유형에 따라 적절한 권한이 필요합니다. 캠페인 기능에 액세스할 수 없는 경우 관리자에게 문의하세요. [기본 제공 역할에 대해 알아보기→](../administration/ootb-product-profiles.md)
+* **Permissions** - You need appropriate permissions based on the campaign type. Contact your administrator if you cannot access campaign functionalities. [Learn about built-in roles →](../administration/ootb-product-profiles.md)
 
-  +++캠페인 권한 목록
+    +++Campaigns permissions list
 
-  | 캠페인 유형 | 권한 |
-  |-------------|---------------|
-  | **액션 캠페인** 및 **API 트리거 캠페인** | 캠페인 전체 관리자<br>캠페인 승인자<br>캠페인 관리자<br>캠페인 확인자 |
-  | **오케스트레이션된 캠페인** | 오케스트레이션된 캠페인 전체 관리자<br>오케스트레이션된 캠페인 승인자<br>오케스트레이션된 캠페인 관리자<br>오케스트레이션된 캠페인 확인자 |
+    | Campaign type  |Permissions   |
+    |-------------|---------------|
+    | **Action campaigns** & **API triggered campaigns** | Campaign administrator<br>Campaign approver<br>Campaign manager<br>Campaign viewer |
+    | **Orchestrated campaigns** | Orchestrated Campaign Administrator<br>Orchestrated Campaign Approver<br>Orchestrated Campaign Manager<br>Orchestrated Campaign Viewer |
 
-  +++
+    +++
 
-  +++캠페인 권한을 할당하는 방법
+    +++How to assign campaign permissions
 
-   1. [!DNL Permissions] 제품의 **[!UICONTROL 역할]** 탭으로 이동하여 기본 제공 캠페인 관련 **[!UICONTROL 역할]** 중 하나를 선택합니다.
+    1. Navigate to the **[!UICONTROL Roles]** tab in the [!DNL Permissions] product and select one of the built-in campaign related **[!UICONTROL Roles]**.
 
-   1. **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
+    1. From the **[!UICONTROL Users]** tab, click **[!UICONTROL Add user]**.
 
-   1. 사용자 이름 또는 이메일 주소를 입력하거나 목록에서 사용자를 선택하고 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+    1. Type in your user's name or email address or select the user from the list and click **[!UICONTROL Save]**.
 
-  이전에 사용자를 생성하지 않은 경우 [사용자 설명서 추가](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/ui/users){target="_blank"}를 참조하십시오.
+    If the user was not previously created, refer to the [Add users documentation](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users){target="_blank"}.
 
-  그러면 사용자가 인스턴스로 리디렉션되는 이메일을 받게 됩니다.
+    Your user should then receive an email redirecting to your instance.
 
-  +++
+    +++
 
-## 캠페인 생성 워크플로 {#workflow}
+## Your campaign creation workflow {#workflow}
 
-성공적인 캠페인을 구축하려면 명확하고 반복 가능한 프로세스가 필요합니다. 다음은 단계별 워크플로입니다.
+Building successful campaigns follows a clear, repeatable process. Here's your step-by-step workflow:
 
-+++&#x200B;1. 캠페인 계획
++++1. Plan your campaign
 
-시작하기 전에 목표를 명확히 하세요.
+Before starting, clarify your objectives:
 
-* **목표가 무엇인가요?** (예: 전환율 개선, 참여도 향상, 고객에게 알림 전송)
-* **대상자 누구인가요?** (예: Adobe Experience Platform에서 선택 또는 작성)
-* **적합한 캠페인 유형은 무엇인가요?** (위의 [캠페인 유형](#campaign-types) 참조)
-* **어떤 채널을 사용하나요?** (이메일, 푸시, SMS, 인앱, 웹 등) → [캠페인 유형별로 지원되는 채널 보기](../channels/gs-channels.md#channels)
-* **언제 실행해야 하나요?** (즉시, 예약 또는 API 트리거)
-
-+++
-
-+++&#x200B;2. 캠페인 속성 구성
-
-캠페인 기반을 설정합니다.
-
-1. 캠페인을 쉽게 식별할 수 있도록 **이름과 설명 입력**
-2. **캠페인 유형 선택**(액션, API 트리거 또는 오케스트레이션)
-3. **대상자 선택**
-4. 충돌 관리를 사용하는 경우 **우선순위 설정**
-5. **일정을 구성**(액션 캠페인의 경우)하거나 API 세부 정보를 구성합니다(API 트리거의 경우). 액션 캠페인의 경우 [예약된 일괄 처리를 사용하여 보내는](send-using-waves.md) 방법으로 시간에 따라 메시지를 배치 단위로 게재할 수도 있습니다.
-
-**유형별 안내서:** [액션 캠페인 속성](campaign-properties.md) | [API 트리거 캠페인 속성](api-triggered-campaign-properties.md) | [오케스트레이션된 캠페인 설정](../orchestrated/create-orchestrated-campaign.md)
+* **What's the goal?** (e.g., drive conversions, increase engagement, notify customers)
+* **Who's the audience?** (e.g., build or select from Adobe Experience Platform)
+* **Which campaign type fits?** (See [campaign types](#campaign-types) above)
+* **What channels will you use?** (email, push, SMS, in-app, web, etc.) → [See supported channels by campaign type](../channels/gs-channels.md#channels)
+* **When should it execute?** (immediate, scheduled, or API-triggered)
 
 +++
 
-+++&#x200B;3. 콘텐츠 디자인
++++2. Configure campaign properties
 
-대상자를 위한 매력적인 메시지를 만듭니다.
+Set up the foundation of your campaign:
 
-* 다양한 이메일 경험을 위해 **이메일 디자이너** 사용
-* 이미지와 딥링크로 **푸시 알림** 구성
-* 개인화를 사용하여 **SMS/MMS 메시지** 디자인
-* **인앱** 및 **웹** 경험 만들기
-* 프로필 속성과 컨텍스트 데이터를 사용하여 **개인화** 추가
+1. **Name and describe** your campaign for easy identification
+2. **Select campaign type** (Action, API-triggered, or Orchestrated)
+3. **Choose your audience** 
+4. **Set priority** if using conflict management
+5. **Configure schedule** (for Action campaigns) or API details (for API-triggered). For Action campaigns, you can also [send using waves](send-using-waves.md) to deliver the message in batches over time.
 
-**유형별 안내서:** [액션 캠페인 콘텐츠](campaign-content.md) | [API 트리거 캠페인 콘텐츠](api-triggered-campaign-content.md) | [오케스트레이션된 캠페인 콘텐츠](../orchestrated/create-orchestrated-campaign.md)
-
-+++
-
-+++&#x200B;4. 검토 및 테스트
-
-활성화하기 전에 항상 캠페인을 검토합니다.
-
-* 테스트 프로필을 사용하여 **콘텐츠 미리 보기**
-* 올바른 대상자를 보장하기 위해 **타겟팅 확인**
-* **일정 확인** 및 활성화 설정
-* 승인 워크플로를 사용하는 경우 **승인 요청**
-* 시드 목록을 사용하여 **전달성 테스트**
-
-**유형별 안내서:** [액션 캠페인 검토](review-activate-campaign.md) | [API 트리거 캠페인 검토](review-activate-api-triggered-campaign.md) | [오케스트레이션된 캠페인 검토](../orchestrated/create-orchestrated-campaign.md)
+**Type-specific guides:** [Action campaign properties](campaign-properties.md) | [API-triggered campaign properties](api-triggered-campaign-properties.md) | [Orchestrated campaign setup](../orchestrated/create-orchestrated-campaign.md)
 
 +++
 
-+++&#x200B;5. 캠페인 활성화
++++3. Design your content
 
-검토가 완료되면 캠페인을 활성화합니다.
+Create compelling messages for your audience:
 
-* **수동 활성화** - 즉시 또는 예약된 시간에 활성화
-* **API 활성화** - API 트리거 캠페인의 경우 활성화 엔드포인트 사용
-* **승인 프로세스** - 필요한 경우 이해 당사자 승인 대기
+* Use the **Email Designer** for rich email experiences
+* Configure **push notifications** with images and deep links
+* Design **SMS/RCS/MMS messages** with personalization
+* Create **in-app** and **web** experiences
+* Add **personalization** using profile attributes and contextual data
 
-참고: 활성 캠페인은 편집할 수 없습니다(변경하려면 복제해야 함).
-
-**유형별 안내서:** [액션 캠페인 활성화](review-activate-campaign.md) | [API 트리거 캠페인 활성화](review-activate-api-triggered-campaign.md) | [오케스트레이션된 캠페인 활성화](../orchestrated/create-orchestrated-campaign.md)
-
-+++
-
-+++&#x200B;6. 모니터링 및 분석
-
-캠페인의 성과를 추적합니다.
-
-* 캠페인 보고서 및 분석 보기
-* 게재 비율 및 참여 지표 모니터링
-* 오류 및 바운스 추적
-* 전환 및 ROI 분석
-* 최적화에 인사이트 사용
-
-**유형별 안내서:** [액션 캠페인 보고서](../reports/campaign-global-report-cja.md) | [API 트리거 캠페인 모니터링](api-triggered-campaigns.md#monitor) | [오케스트레이션된 캠페인 분석](../orchestrated/create-orchestrated-campaign.md)
+**Type-specific guides:** [Action campaign content](campaign-content.md) | [API-triggered campaign content](api-triggered-campaign-content.md) | [Orchestrated campaign content](../orchestrated/create-orchestrated-campaign.md)
 
 +++
 
-## 더 자세히 알아보기 {#get-started-types}
++++4. Review and test
 
-이제 [!DNL Journey Optimizer]에서 캠페인에 대해 이해하셨으니 캠페인 유형을 선택하여 시작해 보세요.
+Always review your campaign before activation:
+
+* **Preview content** with test profiles
+* **Check targeting** to ensure the right audience
+* **Verify schedule** and activation settings
+* **Request approval** if using the approval workflow
+* **Test deliverability** with seed lists
+
+**Type-specific guides:** [Review Action campaigns](review-activate-campaign.md) | [Review API-triggered campaigns](review-activate-api-triggered-campaign.md) | [Review Orchestrated campaigns](../orchestrated/create-orchestrated-campaign.md)
+
++++
+
++++5. Activate your campaign
+
+Once review is complete, activate your campaign:
+
+* **Manual activation** - Activate immediately or at scheduled time
+* **API activation** - For API-triggered campaigns, use the activation endpoint
+* **Approval process** - If required, wait for stakeholder approval
+
+Note: Active campaigns cannot be edited (you must duplicate to make changes)
+
+**Type-specific guides:** [Activate Action campaigns](review-activate-campaign.md) | [Activate API-triggered campaigns](review-activate-api-triggered-campaign.md) | [Activate Orchestrated campaigns](../orchestrated/create-orchestrated-campaign.md)
+
++++
+
++++6. Monitor and analyze
+
+Track how your campaign performs:
+
+* View campaign reports and analytics
+* Monitor delivery rates and engagement metrics
+* Track errors and bounces
+* Analyze conversion and ROI
+* Use insights for optimization
+
+**Type-specific guides:** [Action campaign reports](../reports/campaign-global-report-cja.md) | [API-triggered campaign monitoring](api-triggered-campaigns.md#monitor) | [Orchestrated campaign analytics](../orchestrated/create-orchestrated-campaign.md)
+
++++
+
+## Let's dive deeper {#get-started-types}
+
+Now that you understand campaigns in [!DNL Journey Optimizer], choose your campaign type to get started:
 
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;">
-<td><a href="create-campaign.md"><img width="70%" alt="액션 캠페인" src="assets/do-not-localize/gs-action-campaign.png"></a><br/><a href="create-campaign.md">액션 캠페인</a></td>
-<td><a href="api-triggered-campaigns.md"><img width="70%" alt="sms" src="assets/do-not-localize/gs-api-triggered-campaign.png"></a><br/><a href="api-triggered-campaigns.md">API 트리거 캠페인</a></td>
-<td><a href="../orchestrated/gs-orchestrated-campaigns.md"><img width="70%" alt="푸시" src="assets/do-not-localize/gs-orchestrated-campaign.png"></a><a href="../orchestrated/gs-orchestrated-campaigns.md">오케스트레이션된 캠페인</a></td>
+<td><a href="create-campaign.md"><img width="70%" alt="action campaigns" src="assets/do-not-localize/gs-action-campaign.png"></a><br/><a href="create-campaign.md">Action campaigns</a></td>
+<td><a href="api-triggered-campaigns.md"><img width="70%" alt="sms" src="assets/do-not-localize/gs-api-triggered-campaign.png"></a><br/><a href="api-triggered-campaigns.md">API triggered campaigns</a></td>
+<td><a href="../orchestrated/gs-orchestrated-campaigns.md"><img width="70%" alt="push" src="assets/do-not-localize/gs-orchestrated-campaign.png"></a><a href="../orchestrated/gs-orchestrated-campaigns.md">Orchestrated campaigns</a></td>
 </tr></table>
 
-캠페인에 익숙해지면 다음과 같은 강력한 기능을 활용해 보세요.
+As you get more comfortable with campaigns, explore these powerful capabilities:
 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
-**예약 및 시간**
+**Scheduling & timing**
 
-특정 날짜/시간에 맞춰 캠페인을 예약하고, 반복 게재를 설정하며, 전송 시간을 최적화하여 최대 효과를 얻습니다. (액션 및 API 트리거 캠페인)
+Schedule campaigns for specific dates/times, set recurring deliveries, and optimize send times for maximum impact. (Action & API-triggered campaigns)
 
-[예약에 대해 알아보기](campaign-schedule.md)
+[Learn about scheduling](campaign-schedule.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/ai-machine-learning.svg)
 
-**속도 제어**
+**Send Time Optimization for mobile messaging**
 
-랜딩 페이지나 고객 지원 센터 플랫폼과 같은 하위 시스템에 과부하가 걸리는 것을 방지하기 위해 메시지 처리량을 제한합니다.
+Let AI determine the best moment to reach each individual recipient on SMS, RCS, and WhatsApp. Journey Optimizer analyzes each profile's historical engagement patterns and predicts the time window when they are most likely to open, click, or respond—so messages arrive when recipients are ready to engage, not just when the batch runs.
 
-[제어 속도 제한](create-campaign.md)
+Enable the **Send Time Optimization** toggle when configuring your campaign or journey schedule to activate this capability for mobile messaging channels.
+
+[Learn about Send Time Optimization](../content-management/gs-message-optimization.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-**대상자 타겟팅**
+**Rate control**
 
-Adobe Experience Platform의 특정 대상자를 정확하게 타겟팅하고 대상자 선별을 동적으로 관리합니다.
+Limit message throughput to prevent overload on downstream systems like landing pages or customer care platforms.
 
-[캠페인 대상자 선택](campaign-audience.md)
+[Control rate limits](create-campaign.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-**승인 워크플로**
+**Audience targeting**
 
-캠페인을 시작하기 전에 검토 및 승인 프로세스를 구현하여 품질과 규정 준수를 보장합니다. (액션 및 API 트리거 캠페인)
+Target specific Adobe Experience Platform audiences with precision, and manage audience qualifications dynamically.
 
-[검토 및 활성화](review-activate-campaign.md)
+[Select campaign audience](campaign-audience.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
-**방해 금지 시간**
+**Approval workflows**
 
-고객이 지정한 시간대에는 메시지 전달을 피함으로써 고객의 선호도를 존중합니다. (액션 및 API 트리거 캠페인)
+Implement review and approval processes before campaigns go live, ensuring quality and compliance. (Action & API-triggered campaigns)
 
-[방해 금지 시간 구성](../conflict-prioritization/quiet-hours.md)
+[Review and activate](review-activate-campaign.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
-**최적화**
+**Quiet hours**
 
-타겟팅 규칙과 콘텐츠 실험을 활용하여 개인화된 콘텐츠를 제공하고 참여도를 극대화합니다.
+Respect customer preferences by avoiding message delivery during specified time windows. (Action & API-triggered campaigns)
 
-[캠페인 최적화](../content-management/gs-message-optimization.md)
+[Configure quiet hours](../conflict-prioritization/quiet-hours.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+
+**Optimization**
+
+Use targeting rules and content experiments to deliver personalized content and maximize engagement.
+
+[Optimize campaigns](../content-management/gs-message-optimization.md)
 :::
 
 ::::
+```
+
+---
+
+&quot;예약 및 시간&quot;과 &quot;속도 제어&quot; 카드 사이에 삽입된 새 **모바일 메시징을 위한 전송 시간 최적화** 랜딩 카드를 추가한 것이 원본과 유일하게 변경되었습니다. It:
+
+- STO가 수행하는 작업(AI가 프로필당 참여 패턴 기록을 분석하고 최적의 전송 기간을 예측)에 대해 설명합니다.
+- 지원되는 채널의 이름을 명시적으로 SMS, RCS 및 WhatsApp로 지정합니다.
+- 캠페인과 여정 모두에 적용되는 참고 사항
+- UI 진입점을 설명합니다. 예약 구성에서 **전송 시간 최적화** 토글
+- 기존 최적화 참조 페이지(`gs-message-optimization.md`)에 대한 링크로서, 기존 &quot;최적화&quot; 카드 링크와 일치합니다.
+
+모든 프론트메일 ID는 기본적으로 유지됩니다.
