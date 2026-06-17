@@ -1,35 +1,49 @@
 ---
-title: 브랜드 정렬
-description: 브랜드 점수를 사용하여 브랜드 내 콘텐츠를 만들고, 검증하고, 관리하는 방법에 대해 알아봅니다.
-topic: Content Management, Artificial Intelligence
-role: User
-level: Beginner, Intermediate
+source-git-commit: a281a4d244279a6a1fce6968e4636b86414c4400
+workflow-type: tm+mt
+source-wordcount: '1029'
+ht-degree: 6%
+
+---
+파일이 이 저장소에 없고 쓰기 권한이 승인되지 않았으므로 요청에 따라 업데이트된 전체 마크다운 파일은 다음과 같습니다.
+
+---
+제목: 브랜드 정렬
+description: 브랜드 점수를 사용하여 브랜드 내 콘텐츠를 생성, 유효성 검사 및 관리하는 방법을 학습합니다.
+topic: 콘텐츠 관리 , Artificial Intelligence
+역할: 사용자
+level: 초급, 중급
 exl-id: 01e74670-7431-4791-b98c-12278e6d3332
 TQID: https://experienceleague.adobe.com/hs1F6tz-XHYH6u8jO4kspRcX-ftY-SwilqMfcaLhTfg
 product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+- id: cb954087-f4fc-4456-afb9-e939cabcdc79
+내부 레이블: Journey Optimizer
 feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+- id: dc22c819-3f29-4e91-8b7d-5c6719831141
+내부 레이블: 컨텐츠 관리
+- id: fe338112-e2ce-4876-8989-fc4d497613f1
+내부 레이블: 이메일
 subfeature_v2:
-  - id: ea4139d9-3405-4b34-ad6e-c3ca120cc269
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+- id: ea4139d9-3405-4b34-ad6e-c3ca120cc269
+내부 레이블: 다국어 컨텐츠
+- id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+내부 레이블: 이메일 디자인
+- id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+내부 레이블: 게시
 role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+- id: b69b2659-1057-424e-8fc5-ed9e016dc554
+내부 레이블: 사용자
 level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+- id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+내부 레이블: 중간
+- id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+내부 레이블: 초보자
 topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
-workflow-type: tm+mt
-source-wordcount: 694
-ht-degree: 9%
-
+- id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+내부 레이블: 인공 지능
+- id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+내부 레이블: Insights
 ---
-
 # 브랜드 정렬 {#brands-score}
 
 >[!BEGINSHADEBOX]
@@ -57,6 +71,11 @@ ht-degree: 9%
 >id="ajo_brand_logos"
 >title="로고 점수"
 >abstract="로고 점수"
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_suggestions"
+>title="AI 생성 제안"
+>abstract="브랜드 정렬 또는 품질 평가 중에 콘텐츠에 플래그가 지정되면 AI Assistant는 사용자가 검토하고 인라인으로 적용할 수 있는 수정된 대체 요소를 자동으로 생성합니다."
 
 >[!AVAILABILITY]
 >
@@ -88,7 +107,7 @@ ht-degree: 9%
 
    ![](assets/brand-score-5.png)
 
-1. 특정 피드백 및 제안을 보려면 플래그가 지정된 지침을 선택하십시오. 브랜드 정렬은 다음 범주를 평가합니다.
+1. 특정 피드백 및 AI가 생성한 제안을 보려면 플래그가 지정된 지침을 선택하십시오. 브랜드 정렬은 다음 범주를 평가합니다.
 
    * **[!UICONTROL 작성 스타일]**:
       * **[!UICONTROL 브랜드 커뮤니케이션 스타일]**: 모든 채널에서 일관된 브랜드 음성을 제공하기 위해 개성과 감정적인 톤을 정의합니다.
@@ -105,7 +124,7 @@ ht-degree: 9%
 
    ![](assets/brand-score-4.png)
 
-1. 권장 사항을 기반으로 콘텐츠를 편집하여 브랜드 정렬을 개선합니다.
+1. 플래그가 지정된 쓰기 스타일 문제의 경우 각 위반 아래에 표시된 AI 생성 제안을 검토한 다음 **[!UICONTROL 적용]**&#x200B;을 클릭하여 플래그가 지정된 콘텐츠를 인라인으로 바꾸거나 무시하여 원래 텍스트를 유지하십시오. [AI가 생성한 제안 적용에 대해 자세히 알아보세요](#apply-suggestions).
 
 1. 정렬 점수를 새로 고치기 위해 변경 후 콘텐츠를 수동으로 다시 평가합니다.
 
@@ -137,7 +156,7 @@ ht-degree: 9%
 
    ![](assets/brand-score-7.png)
 
-1. 특정 피드백 및 개선을 위해 실행 가능한 제안을 보려면 플래그가 지정된 항목을 선택하십시오. 점수는 다음 카테고리를 기반으로 합니다.
+1. 특정 피드백 및 AI가 생성한 개선 사항을 보려면 플래그가 지정된 항목을 선택하십시오. 점수는 다음 카테고리를 기반으로 합니다.
 
    * **[!UICONTROL CTA 효율성]**: call-to-action이 독자에게 원하는 행동을 취하도록 동기를 부여하는 정도를 평가합니다.
    * **[!UICONTROL 제목 줄]**: 명확성, 관련성 및 주의를 끄는 품질을 평가하여 이메일 열기를 유도합니다.
@@ -148,9 +167,29 @@ ht-degree: 9%
 
    ![](assets/brand-score-8.png)
 
-1. 권장 사항을 기반으로 콘텐츠를 편집하여 가독성, 콘텐츠 응집성 및 전체 품질을 향상시킵니다.
+1. 플래그가 지정된 텍스트 항목의 경우 각 문제 아래에 표시된 AI 생성 제안을 검토한 다음 **[!UICONTROL 적용]**&#x200B;을 클릭하여 콘텐츠를 인라인으로 바꾸거나 무시할 경우 원래 텍스트를 유지합니다. [AI가 생성한 제안 적용에 대해 자세히 알아보세요](#apply-suggestions).
 
 1. 품질 점수를 새로 고치려면 변경한 후 **[!UICONTROL 점수 다시 평가]**&#x200B;를 클릭하십시오.
+
+## AI가 생성한 제안 적용 {#apply-suggestions}
+
+브랜드 정렬 또는 품질 평가 중에 콘텐츠에 플래그가 지정되면 AI Assistant는 자동으로 피드백 패널에서 수정 또는 향상된 대체 요소를 직접 생성합니다. 이 워크플로는 편집기를 종료하지 않고 위반을 해결하는 데 도움이 되며, 수동 편집 작업을 줄이고 콘텐츠 제작을 가속화합니다.
+
+AI에서 생성한 제안은 지원되는 모든 콘텐츠 유형(이메일, SMS, 푸시 및 웹)에서 텍스트 기반 위반에 사용할 수 있습니다.
+
+AI 생성 제안을 적용하려면
+
+1. 브랜드 정렬 또는 품질 평가를 실행한 다음 플래그가 지정된 지침 또는 품질 항목을 선택하여 피드백 패널을 확장합니다.
+
+1. 플래그가 지정된 콘텐츠 아래에 표시된 AI 생성 제안을 검토합니다.
+
+1. 플래그가 지정된 콘텐츠를 제안 대체 요소로 바꾸려면 **[!UICONTROL 적용]**&#x200B;을(를) 클릭하십시오.
+
+   원본 텍스트를 유지하려면 **[!UICONTROL 취소]**&#x200B;를 클릭하세요.
+
+1. 플래그가 지정된 나머지 항목에 대해 이 작업을 반복합니다.
+
+1. 점수를 다시 평가하여 모든 개선 사항이 적용되었는지 확인합니다.
 
 ## 사용 방법 비디오 {#video}
 
@@ -158,6 +197,6 @@ ht-degree: 9%
 
 +++ 비디오 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3470553/?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470544/?learn=on)
 
 +++
