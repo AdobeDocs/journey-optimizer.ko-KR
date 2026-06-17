@@ -197,6 +197,6 @@ AI 생성 제안을 적용하려면
 
 +++ 비디오 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3470544/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470553/?captions=kor&learn=on)
 
 +++
