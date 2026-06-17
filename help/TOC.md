@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c0bfb3ea92ea1375fa6bdd2bdffc836c0046db7a
+source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
-source-wordcount: '3356'
+source-wordcount: '3358'
 ht-degree: 99%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 99%
 + [Journey Optimizer 설명서](ajo-home.md)
 + 새로운 기능 {#whats-new}
    + [릴리스 주기](using/rn/releases.md)
-   + [사전 릴리스 정보](using/rn/e-release-notes.md)
+   + {hide-from-toc}[사전 릴리스 정보](using/rn/e-release-notes.md)
    + [최신 릴리스 정보](using/rn/release-notes.md)
    + 이전 릴리스 정보 {#previous-rn-new}
       + {hide-from-toc}[이전 릴리스 정보](/help/rp_landing_pages/previous-rn-new-landing-page.md)
@@ -196,6 +196,7 @@ ht-degree: 99%
          + [오케스트레이션된 캠페인을 만드는 주요 단계](using/orchestrated/gs-campaign-creation.md)
          + [캠페인 만들기 및 예약](using/orchestrated/create-orchestrated-campaign.md)
          + [활동 오케스트레이션](using/orchestrated/orchestrate-activities.md)
+         + [개인화 추가](using/orchestrated/add-personalization.md)
          + [캠페인 시작 및 모니터링](using/orchestrated/start-monitor-campaigns.md)
          + [보고](using/orchestrated/reporting-campaigns.md)
       + 데이터베이스 쿼리 {#query-database}
@@ -725,7 +726,7 @@ ht-degree: 99%
          + [결정 정책 만들기](using/experience-decisioning/create-decision-policy.md)
          + [메시지에 결정 정책 사용](using/experience-decisioning/use-decision-policy.md)
          + [의사 결정 정책에 조각 활용](using/experience-decisioning/fragments-decision-policies.md)
-         + [DM에서 일괄 처리 결정](using/experience-decisioning/batch-decisioning-direct-mail.md)
+         + DM에서 [일괄 처리 결정](using/experience-decisioning/batch-decisioning-direct-mail.md)
       + [결정 보고서](using/experience-decisioning/cja-reporting.md)
       + [결정 사용 사례](using/experience-decisioning/experience-decisioning-uc.md)
       + 이벤트 데이터 수집 {#experience-decisioning-collect-event-data}

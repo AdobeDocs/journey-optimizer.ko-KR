@@ -8,28 +8,16 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 02ce60020012083981c5599789b9e86804190627
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
-source-wordcount: 3006
-ht-degree: 86%
+source-wordcount: 2279
+ht-degree: 41%
 
 ---
 
@@ -48,8 +36,14 @@ ht-degree: 86%
 >
 >이 릴리스 정보에 나열된 기능에는 각 변경 사항이 사용자 환경에서 사용 가능해지는 시점을 나타내는 **사용 가능한 날짜**&#x200B;가 포함되어 있습니다. **곧 출시 예정** 아코디언 항목은 향후 며칠 또는 몇 주 내에 제공될 예정입니다. 이 섹션의 정보는 변경될 수 있습니다.
 
+## 2026년 6월 릴리스 정보 {#june-26-rn}
 
-## 2026년 6월 업데이트 {#june-26-updates}
+2026년 6월 릴리스에서는 여정 및 콘텐츠의 새로운 AI 지원 작성, DM 채널에 대한 확장된 의사 결정 지원, 추가 보안 및 관리 제어와 함께 **여정 시뮬레이션**, **여정 경로 최적화 타깃팅**, **여정 조각**&#x200B;을 비롯한 몇 가지 주요 기능을 일반 가용성에 제공합니다. 아래의 기능 및 개선 사항은 주제별로 구성되어 있습니다. 향후 며칠 또는 몇 주 내에 추가 변경 사항이 있을 예정입니다.
+
+### 여정 {#june-26-journeys}
+
+이번 릴리스에서는 다음과 같은 기능 및 개선 사항이 여정에 추가되었습니다. 향후 며칠 또는 몇 주 내에 추가 변경 사항이 있을 예정입니다.
+
 
 <table>
 <thead>
@@ -64,6 +58,25 @@ ht-degree: 86%
 <p>이전에 제한적으로 공급되었던 여정 시뮬레이션 기능이 이제 모든 환경에서 사용 가능합니다. 이번 일반 공급 릴리스를 통해 Journey 에이전트를 사용하여 시뮬레이션 메뉴에서 직접 시뮬레이션된 사용자와 이벤트를 생성할 수 있습니다.</p>
 <p><img src="assets/do-not-localize/journey-simulation.gif"></p>
 <p>자세한 내용은 <a href="../building-journeys/simulate-journey-gs.md">세부 설명서</a>를 참조하십시오.</p>
+<p>사용 가능한 날짜: 2026년 6월 9일</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>여정 조각(일반 공급)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 Adobe Journey Optimizer에서 <strong>여정 조각</strong>을 만들 수 있습니다. 여정 조각은 한 번 생성하여 샌드박스 내 모든 여정에 배치할 수 있는 재사용 가능한 여정 노드 세트입니다. 자격 확인, 선호 채널 라우팅 논리 또는 환영 시퀀스 등 어떤 논리든지 조각을 사용하면 매번 처음부터 다시 구축할 필요 없이 팀이 더 빠르게 일관성을 유지할 수 있습니다.</p>
+<p>생성된 조각은 전용 <strong>조각 인벤토리</strong>에 저장되며 <strong>여정 조각</strong> 활동을 사용하여 모든 여정에 삽입할 수 있습니다.</p>
+<p>이전에는 제한적 가용성으로 제공되었지만, 이제 모든 고객이 이 기능을 일반적으로 사용할 수 있습니다. 여정 조각은 <strong>샌드박스 도구</strong>도 지원하므로 샌드박스 간에 조각을 패키징하고 내보낼 수 있습니다.</p>
+<p>자세한 내용은 <a href="../building-journeys/journey-fragments.md">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2026년 6월 9일</p>
 </td>
 </tr>
@@ -93,22 +106,96 @@ ht-degree: 86%
 <table>
 <thead>
 <tr>
-<th><strong>여정 조각(일반 공급)</strong><br/></th>
+<th><strong>여정 표현식을 위한 AI 어시스턴트(공개 Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 Adobe Journey Optimizer에서 <strong>여정 조각</strong>을 만들 수 있습니다. 여정 조각은 한 번 생성하여 샌드박스 내 모든 여정에 배치할 수 있는 재사용 가능한 여정 노드 세트입니다. 자격 확인, 선호 채널 라우팅 논리 또는 환영 시퀀스 등 어떤 논리든지 조각을 사용하면 매번 처음부터 다시 구축할 필요 없이 팀이 더 빠르게 일관성을 유지할 수 있습니다.</p>
-<p>생성된 조각은 전용 <strong>조각 인벤토리</strong>에 저장되며 <strong>여정 조각</strong> 활동을 사용하여 모든 여정에 삽입할 수 있습니다.</p>
-<p>이전에는 제한적 가용성으로 제공되었지만, 이제 모든 고객이 이 기능을 일반적으로 사용할 수 있습니다. 여정 조각은 <strong>샌드박스 도구</strong>도 지원하므로 샌드박스 간에 조각을 패키징하고 내보낼 수 있습니다.</p>
-<p>자세한 내용은 <a href="../building-journeys/journey-fragments.md">세부 설명서</a>를 참조하십시오.</p>
-<p>사용 가능한 날짜: 2026년 6월 9일</p>
+<p>AI 어시스턴트가 이제 여정 고급 표현식 편집기에서 자연어 프롬프트를 유효한 표현식과 조건 논리로 변환합니다. 작성하려는 표현식을 설명하면 AI 어시스턴트가 즉시 적용하거나 후속 프롬프트를 통해 수정할 수 있는 바로 사용 가능한 코드를 생성합니다.</p>
+<p>이 기능은 모든 고객에게 공개 Beta 버전으로 제공됩니다.</p>
+<p><img src="assets/do-not-localize/expression-assistant.gif"></p>
+<p>자세한 내용은 <a href="../building-journeys/expression/expression-agent.md">세부 설명서</a>를 참조하십시오.</p>
+<p>사용 가능한 날짜: 2026년 6월 3일</p> 
 </td>
 </tr>
 </tbody>
 </table>
 
+* **외부 대상자에 대한 보조 식별자 지원** - 이제 CSV 파일에서 가져온 대상자와 페더레이션된 대상자 컴포지션으로 만든 대상자를 포함한 외부 대상자에 대해 여정의 보조 식별자가 지원됩니다. 대상자의 ID가 아닌 속성 또는 개인 ID가 아닌 속성은 모두 보조 ID로 지정할 수 있으며, 스키마 레이블 지정은 필요하지 않습니다. [자세히 보기](../building-journeys/supplemental-identifier.md)
+
+  사용 가능한 날짜: 2026년 6월 11일
+
+* **반복되지 않는 대상 읽기 여정에 대한 자동 중지** - 이제 반복되지 않는 **대상 읽기** 여정은 마지막 활성 프로필이 종료되면 **중지됨** 상태로 자동 전환됩니다. 이전에는 이러한 여정이 91일의 전역 시간 초과가 만료될 때까지 프로필이 더 이상 이동하지 않더라도 **라이브** 상태로 유지되었습니다. 이번 개선으로 여정 상태는 완료되는 즉시 실제 실행 상태를 반영하여 수동 개입 없이도 여정 인벤토리를 정확하게 관리할 수 있게 되었습니다.
+
+  참고로, 이 기능은 대기 노드, 반응 노드 또는 이벤트 트리거 전환과 같이 대기 기간이 발생하는 노드가 포함된 여정에는 적용되지 않습니다. 이러한 여정은 표준 91일 전역 시간 초과가 적용됩니다. [자세히 알아보기](../building-journeys/end-journey.md#auto-stop-non-recurring)
+
+  사용 가능한 날짜: 2026년 6월 9일
+
+* **사용자 정의 액션의 인증서 기반 사용자 정의 인증** - 사용자 정의 액션에서 이제 인증서 기반 사용자 정의 인증을 지원합니다. 사용자 정의 인증 구성에 `subType: "certificateCredential"`을(를) 추가하면 Journey Optimizer는 Adobe의 관리형 인증서를 사용하여 JWT 클라이언트 어설션에 서명한 후 액세스 토큰으로 교환합니다. 클라이언트 암호는 필요하지 않습니다. Microsoft Entra ID와 같이 인증서 기반 ID 확인을 적용하는 엔터프라이즈 API용으로 설계되었습니다. [자세히 알아보기](../datasource/external-data-sources.md#certificate-credential)
+
+  사용 가능한 날짜: 2026년 6월 4일
+
+### 오케스트레이션된 캠페인 {#june-26-oc}
+
+이 릴리스의 오케스트레이션된 캠페인에는 다음과 같은 기능 및 개선 사항이 적용됩니다.
+
++++ 곧 출시 예정 — **아래 정보는 변경될 수 있습니다.**
+
+<table>
+<thead>
+<tr>
+<th><strong>오케스트레이션된 캠페인의 파일 기반 타겟팅</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 오케스트레이션된 캠페인은 파일을 Adobe Experience Platform으로 먼저 수집하지 않고도 <strong>CSV 또는 TXT 파일</strong>을 타깃팅 대상자로 캠페인 캔버스에 직접 로드할 수 있습니다. 파일 데이터는 실행 시 사용되며 Adobe Experience Platform 데이터 세트로 지속되지 않습니다. 파일 설정 중에 열 매핑, 데이터 유형, NULL 처리 및 열별 오류 정책을 정의할 수 있습니다. 유효성 검사에 실패한 행은 캠페인이 실행되기 전에 거부되고 기록되므로, 수동 사전 처리 없이 대상자를 깔끔하게 유지합니다. 이는 전체 수집 파이프라인을 구축하는 것이 실용적이지 않은 애드혹 전송 또는 파트너 목록 캠페인에 특히 적합합니다.</p>
+<p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
+<p> 사용 가능한 날짜: 2026년 6월 30일</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+* **관계형 데이터에 대한 루프 기반 개인화** - 이제 개인화 편집기에서 주문, 계정 또는 예약과 같은 관계형 컬렉션을 반복하고 단일 전자 메일 또는 SMS 내에서 레코드당 하나의 콘텐츠 블록을 렌더링하는 루프 블록을 지원합니다. 컬렉션은 표현식 쓰기가 필요하지 않고 개인화 토큰을 사용하여 데이터 선택기를 통해 구성됩니다. [자세히 보기](../orchestrated/add-personalization.md#enrichment-collections)
+
+  사용 가능한 날짜: 2026년 6월 말
+
++++
+
+### 결정 {#june-26-decisioning}
+
+이번 릴리스에서는 의사 결정에 다음과 같은 기능 및 개선 사항이 추가되었습니다.
+
+<table>
+<thead>
+<tr>
+<th><strong>DM 채널에서 의사 결정 사용</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 다이렉트 메일 여정 및 캠페인에 의사 결정 정책을 추가할 수 있습니다. 의사 결정 정책은 의사 결정 엔진을 활용하여 각 대상자 멤버에 대한 최상의 콘텐츠를 동적으로 반환하는 오퍼에 대한 컨테이너입니다. 다이렉트 메일 의사 결정은 배치 의사 결정 사용 사례를 지원하므로 특정 Adobe Experience Platform 대상자의 모든 프로필에 대해 해당하는 오퍼 항목을 내보낼 수 있습니다. </p>
+<p><img src="assets/do-not-localize/exd-dm.gif"></p>
+<p>자세한 내용은 <a href="../experience-decisioning/use-decision-policy.md">세부 설명서</a>를 참조하십시오.</p>
+<p>사용 가능한 날짜: 2026년 6월 3일</p>
+</td>
+</tr>
+</tbody>
+</table>
+
++++ 곧 출시 예정 — **아래 정보는 변경될 수 있습니다.**
+
+* **동적 항목 특성** - 이제 프로필, 컨텍스트 및 대상 데이터를 사용하여 게재 시 의사 결정 항목 사용자 지정 특성을 개인화할 수 있습니다. 이를 통해 사소한 콘텐츠 변형에 대해 중복 오퍼를 유지할 필요가 없으므로 마케터는 보다 적고 유연한 결정 항목을 관리할 수 있습니다.
+
++++
+
+### 콘텐츠 관리 {#june-26-content}
+
+이 릴리스의 콘텐츠 관리에 다음과 같은 기능 및 개선 사항이 추가되었습니다.
 
 <table>
 <thead>
@@ -131,62 +218,9 @@ ht-degree: 86%
 </tbody>
 </table>
 
+### 이메일 채널 {#june-26-email}
 
-<table>
-<thead>
-<tr>
-<th><strong>DM 채널에서 의사 결정 사용</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 다이렉트 메일 여정 및 캠페인에 의사 결정 정책을 추가할 수 있습니다. 의사 결정 정책은 의사 결정 엔진을 활용하여 각 대상자 멤버에 대한 최상의 콘텐츠를 동적으로 반환하는 오퍼에 대한 컨테이너입니다. 다이렉트 메일 의사 결정은 배치 의사 결정 사용 사례를 지원하므로 특정 Adobe Experience Platform 대상자의 모든 프로필에 대해 해당하는 오퍼 항목을 내보낼 수 있습니다. </p>
-<p><img src="assets/do-not-localize/exd-dm.gif"></p>
-<p>자세한 내용은 <a href="../experience-decisioning/use-decision-policy.md">세부 설명서</a>를 참조하십시오.</p>
-<p>사용 가능한 날짜: 2026년 6월 3일</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>여정 표현식을 위한 AI 어시스턴트(공개 Beta)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>AI 어시스턴트가 이제 여정 고급 표현식 편집기에서 자연어 프롬프트를 유효한 표현식과 조건 논리로 변환합니다. 작성하려는 표현식을 설명하면 AI 어시스턴트가 즉시 적용하거나 후속 프롬프트를 통해 수정할 수 있는 바로 사용 가능한 코드를 생성합니다.</p>
-<p>이 기능은 모든 고객에게 공개 Beta 버전으로 제공됩니다.</p>
-<p><img src="assets/do-not-localize/expression-assistant.gif"></p>
-<p>자세한 내용은 <a href="../building-journeys/expression/expression-agent.md">세부 설명서</a>를 참조하십시오.</p>
-<p>사용 가능한 날짜: 2026년 6월 3일</p> 
-</td>
-</tr>
-</tbody>
-</table>
-
-* [!BADGE 중요]{type=Informative} **AJO 메시지 피드백 이벤트 데이터 세트가 일괄 처리 수집으로 이동** - **AJO 메시지 피드백 이벤트 데이터 세트**&#x200B;가 스트리밍 수집에서 일괄 처리 수집으로 이동하고 있습니다. 따라서 이 데이터 세트에 대해 최대 2시간의 데이터 지연이 예상됩니다. Customer Journey Analytics에서 보고서를 작성했거나 이 데이터 세트를 사용하여 쿼리를 실행하는 경우 앞으로 이러한 추가적인 지연 시간을 고려하십시오. [자세히 보기](../data/datasets-query-examples.md#message-feedback-event-dataset)
-
-  사용 가능한 날짜: 2026년 6월 10일
-
-* **반복되지 않는 대상 읽기 여정에 대한 자동 중지** - 이제 반복되지 않는 **대상 읽기** 여정은 마지막 활성 프로필이 종료되면 **중지됨** 상태로 자동 전환됩니다. 이전에는 이러한 여정이 91일의 전역 시간 초과가 만료될 때까지 프로필이 더 이상 이동하지 않더라도 **라이브** 상태로 유지되었습니다. 이번 개선으로 여정 상태는 완료되는 즉시 실제 실행 상태를 반영하여 수동 개입 없이도 여정 인벤토리를 정확하게 관리할 수 있게 되었습니다.
-
-  참고로, 이 기능은 대기 노드, 반응 노드 또는 이벤트 트리거 전환과 같이 대기 기간이 발생하는 노드가 포함된 여정에는 적용되지 않습니다. 이러한 여정은 표준 91일 전역 시간 초과가 적용됩니다. [자세히 알아보기](../building-journeys/end-journey.md#auto-stop-non-recurring)
-
-  사용 가능한 날짜: 2026년 6월 9일
-
-* **사용자 정의 액션의 인증서 기반 사용자 정의 인증** - 사용자 정의 액션에서 이제 인증서 기반 사용자 정의 인증을 지원합니다. 사용자 정의 인증 구성에 `subType: "certificateCredential"`을(를) 추가하면 Journey Optimizer는 Adobe의 관리형 인증서를 사용하여 JWT 클라이언트 어설션에 서명한 후 액세스 토큰으로 교환합니다. 클라이언트 암호는 필요하지 않습니다. Microsoft Entra ID와 같이 인증서 기반 ID 확인을 적용하는 엔터프라이즈 API용으로 설계되었습니다. [자세히 알아보기](../datasource/external-data-sources.md#certificate-credential)
-
-  사용 가능한 날짜: 2026년 6월 4일
-
-
-* **캠페인 라이프사이클 이벤트에 대한 고객 알림** - 이제 새로운 시스템 알림이 액션 및 API 트리거 캠페인에 대한 주요 라이프사이클 이벤트를 알려줍니다. 샌드박스 수준에서 구독할 수 있습니다. [자세히 보기](../reports/alerts.md)
-
-  사용 가능한 날짜: 2026년 6월 1일
+이 릴리스의 이메일 채널에 다음과 같은 개선 사항이 추가되었습니다.
 
 * **URL 매개변수 암호화** - 이제 이메일 메시지에 추가하는 추적 및 랜딩 페이지 링크의 URL 매개변수를 암호화할 수 있습니다. 이를 통해 중요한 매개변수 데이터에 대한 추가 보안 계층을 제공합니다. 이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성). [자세히 보기](../personalization/url-parameter-encryption.md)
 
@@ -196,9 +230,137 @@ ht-degree: 86%
 
   사용 가능한 날짜: 2026년 6월 1일
 
-* **외부 대상자에 대한 보조 식별자 지원** - 이제 CSV 파일에서 가져온 대상자와 페더레이션된 대상자 컴포지션으로 만든 대상자를 포함한 외부 대상자에 대해 여정의 보조 식별자가 지원됩니다. 대상자의 ID가 아닌 속성 또는 개인 ID가 아닌 속성은 모두 보조 ID로 지정할 수 있으며, 스키마 레이블 지정은 필요하지 않습니다. [자세히 보기](../building-journeys/supplemental-identifier.md)
++++ 곧 출시 예정 — **아래 정보는 변경될 수 있습니다.**
 
-  사용 가능한 날짜: 2026년 6월 11일
+<table>
+<thead>
+<tr>
+<th><strong>이메일 Designer의 콘텐츠 품질 검사</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 Journey Optimizer에는 이메일 Designer에 직접 자동화된 기술 유효성 검사가 포함되어 있으므로 보내기 전에 HTML 및 CSS 문제를 catch할 수 있습니다.</p>
+<p>이 검사에서는 <code>&lt;script&gt;</code> 및 <code>&lt;base&gt;</code> 태그, Microsoft Outlook의 레이아웃을 나눌 수 있는 빈 div, HTML 메타 새로 고침 태그, Gmail에서 렌더링 오류를 트리거하는 CSS 또는 HTML 크기 임계값과 같은 지원되지 않는 요소를 다룹니다.</p>
+<p>결과는 상황별 세부 정보와 원클릭 수정 사항(사용 가능한 경우)으로 작성 패널에 직접 오류, 경고 또는 정보 알림으로 표시되므로 편집기를 종료하지 않고도 문제를 해결할 수 있습니다.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>이메일 크기 감소 활성화</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 Journey Optimizer에는 이메일 렌더링 방식에 영향을 주지 않고 불필요한 공백, 댓글 및 중복 코드를 제거하여 이메일 HTML의 크기를 줄이는 옵션이 포함됩니다.</p>
+<p>이렇게 하면 일부 이메일 공급자가 메시지를 플래그 지정하거나 거부하는 데 사용하는 크기 임계값을 방지하여 게재 능력을 향상시킬 수 있으며, 수신자의 로드 시간을 줄일 수 있습니다.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>조각에 대해 편집 가능한 필드의 리치 텍스트</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 이메일 콘텐츠에 사용되는 사용자 지정 가능한 조각에 서식 있는 텍스트를 추가할 수 있습니다.</p>
+<p>예를 들어 텍스트 구성 요소를 이메일 Designer에서 편집 가능한 필드로 사용하는 경우 콘텐츠의 형식(예: 굵은 글꼴 및 기울임꼴)을 직접 지정하고 하이퍼링크를 삽입할 수 있습니다.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
++++
+
+### 콘텐츠 및 통합 {#june-26-integration}
+
+이 릴리스의 콘텐츠 관리 및 통합에 대해 다음과 같은 기능 및 개선 사항이 적용되었습니다.
+
++++ 곧 출시 예정 — **아래 정보는 변경될 수 있습니다.**
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey Optimizer의 Adobe Experience Manager 콘텐츠 조각 개선 사항</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이번 릴리스에서는 Adobe Experience Manager 작성 워크플로 내에서 <strong>Journey Optimizer 콘텐츠 조각</strong>을(를) 더 사용 가능하고, 더 관리 가능하며, 더 프로덕션 환경에서 사용할 수 있도록 하는 몇 가지 개선 사항이 제공됩니다.</p>
+<ul>
+<li>Journey Optimizer은 이제 작성자, 게시 및 인증된 게시 계층을 포함하여 여러 Adobe Experience Manager 구성에서 콘텐츠 조각 가져오기를 지원합니다.</li>
+<li>조각을 선택하면 해당 컨텍스트가 메시지 전체에 유지되므로 작성자가 다시 선택하지 않고도 콘텐츠 블록 간 조각 필드를 재사용할 수 있습니다.</li>
+<li>라이프사이클 관리를 개선하기 위해 새로운 전용 콘텐츠 조각 목록 페이지가 Journey Optimizer에 도입되었습니다. 사용자는 동기화 중단 조각을 식별하고 수동 동기화를 트리거하여 최신 상태를 유지할 수 있습니다.</li>
+<li>이제 로케일 및 변형 지원을 통해 마케터는 보다 의도적으로 동일한 콘텐츠 조각의 대체 버전을 사용하여 작업할 수 있습니다.</li>
+<li>이제 Adobe Journey Optimizer에서 Adobe Experience Manager 콘텐츠에 액세스하는 방법을 유연하게 사용할 수 있습니다. 이 릴리스에서는 여정 및 캠페인에 사용된 콘텐츠 조각에 대해 <strong>소스 리포지토리를 전환</strong>하는 기능을 도입했습니다.</li>
+<li>이제 <b>Managed Services</b>과(와) 호환되므로 개인화를 위해 Journey Optimizer에서 직접 Adobe Experience Manager 콘텐츠 조각을 보고 액세스하고 사용할 수 있습니다. 구성 설정에 Adobe Experience Manager Managed Services 저장소 URL을 1회 설정으로 추가하기만 하면 됩니다.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Adobe Experience Manager Asset Essentials와 AI Assistant 통합</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 이메일, 웹 페이지 및 푸시 알림을 생성할 때 AI 도우미가 Adobe Experience Manager Assets에서 직접 <b>브랜드 승인 이미지</b>를 자동으로 가져옵니다. 이렇게 하면 Assets을 수동으로 검색하거나 일반 AI 폴백에 의존할 필요가 없어 모든 시각적 요소가 완벽하게 정확하고 브랜드 규정을 준수하도록 할 수 있습니다.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>콘텐츠 생성 향상을 위한 AI Assistant</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이 릴리스는 이미지 흐름에서 강력한 이미지 편집, 보다 안정적인 브랜드 추출 및 콘텐츠 신뢰성 지원을 통해 <strong>AI Assistant</strong> 콘텐츠 생성 경험을 개선합니다.</p>
+<ul>
+<li><strong>AI 이미지 편집</strong>을(를) 이제 Firefly 타사 모델 지원을 포함한 이미지 생성 흐름에서 사용할 수 있으므로 도우미를 종료하지 않고도 소스 이미지를 개선할 수 있습니다.</li>
+<li><strong>브랜드 신호 추출</strong>은(는) 더 높은 품질의 결과를 제공합니다. 선택한 페이지에 충분한 신호가 없으면 향상된 폴백이 색상, 타이포그래피, 작성 지침 및 기타 브랜드 속성을 채웁니다.</li>
+<li><strong>웹 기반 브랜드 추출</strong>이 더 안정적입니다. 향상된 시간 제한 처리는 느린 페이지, 팝업 및 쿠키 배너가 추출을 차단하는 것을 방지하는 데 도움이 됩니다.</li>
+<li><strong>CAI(콘텐츠 정품 인증)</strong>이(가) 이제 이미지 흐름에서 지원됩니다. 또한 이 릴리스에서는 참조 이미지 업로드 문제를 수정하고 기존 C2PA 매니페스트가 없는 이미지에 대한 처리를 개선합니다.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
++++
+
+### 관리 {#june-26-administration}
+
+이 릴리스의 관리 및 데이터 관리에 다음과 같은 개선 사항이 추가되었습니다.
+
+* [!BADGE 중요]{type=Informative} **AJO 메시지 피드백 이벤트 데이터 세트가 일괄 처리 수집으로 이동** - **AJO 메시지 피드백 이벤트 데이터 세트**&#x200B;가 스트리밍 수집에서 일괄 처리 수집으로 이동하고 있습니다. 따라서 이 데이터 세트에 대해 최대 2시간의 데이터 지연이 예상됩니다. Customer Journey Analytics에서 보고서를 작성했거나 이 데이터 세트를 사용하여 쿼리를 실행하는 경우 앞으로 이러한 추가적인 지연 시간을 고려하십시오. [자세히 보기](../data/datasets-query-examples.md#message-feedback-event-dataset)
+
+  사용 가능한 날짜: 2026년 6월 10일
+
+* **캠페인 라이프사이클 이벤트에 대한 고객 알림** - 이제 새로운 시스템 알림이 액션 및 API 트리거 캠페인에 대한 주요 라이프사이클 이벤트를 알려줍니다. 샌드박스 수준에서 구독할 수 있습니다. [자세히 보기](../reports/alerts.md)
+
+  사용 가능한 날짜: 2026년 6월 1일
 
 <!--
 +++ Coming soon — **Information below is subject to change.**
@@ -209,364 +371,3 @@ ht-degree: 86%
 
 +++
 -->
-
-## 2026년 5월 릴리스 정보 {#may-26-rn}
-
-### 여정 {#may-26-journeys}
-
-이번 릴리스에서는 다음과 같은 기능 및 개선 사항이 여정에 추가되었습니다. 향후 며칠 또는 몇 주 내에 추가 변경 사항이 있을 예정입니다.
-
-<table>
-<thead>
-<tr>
-<th><strong>여정 조각(제한된 공급)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 Adobe Journey Optimizer에서 <strong>여정 조각</strong>을 만들 수 있습니다. 여정 조각은 한 번 생성하여 샌드박스 내 모든 여정에 배치할 수 있는 재사용 가능한 여정 노드 세트입니다. 자격 확인, 선호 채널 라우팅 논리 또는 환영 시퀀스 등 어떤 논리든지 조각을 사용하면 매번 처음부터 다시 구축할 필요 없이 팀이 더 빠르게 일관성을 유지할 수 있습니다.</p>
-<p>생성된 조각은 전용 <strong>조각 인벤토리</strong>에 저장되며 <strong>여정 조각</strong> 활동을 사용하여 모든 여정에 삽입할 수 있습니다.</p>
-<!--<p><img src="assets/do-not-localize/journey-fragments.gif"></p>-->
-<p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
-<p>자세한 내용은 <a href="../building-journeys/journey-fragments.md">세부 설명서</a>를 참조하십시오.</p>
-<p>사용 가능한 날짜: 2026년 5월 13일</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>여정 시뮬레이션(제한된 공급)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 여정을 <strong>시뮬레이션</strong>으로 설정할 수 있습니다. 이 모드를 사용하면 <strong>시뮬레이션된 사용자</strong>를 사용하여 논리의 유효성을 검사할 수 있습니다. 시뮬레이션된 사용자는 시뮬레이션을 위해 특별히 생성된 임시 프로필로, Adobe Experience Platform에서 영구 테스트 프로필을 관리할 필요 없이 자유롭게 테스트할 수 있습니다.</p>
-<p>이 기능은 기본 기능에만 제한된 가용성으로 모든 고객에게 제공됩니다.</p>
-<p><img src="assets/do-not-localize/simulate-user.gif"></p>
-<p>자세한 내용은 <a href="../building-journeys/simulate-journey.md">세부 설명서</a>를 참조하십시오.</p>
-<p>사용 가능한 날짜: 2026년 5월 5일</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<!--
-<table>
-<thead>
-<tr>
-<th><strong>Journey path optimization – Targeting (General Availability)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Use the new <strong>Optimize</strong> node to target specific audiences to determine the best path to meet your business-centric KPIs.</p>
-<p>This tool allows you to develop more effective marketing campaigns that are more likely to resonate at the 1:1 level, improve marketing personalization efforts for customers and enhance critical customer engagement KPIs, such as conversions and revenue.</p>
-<p>Previously available in Limited Availability, this capability is now available to all environments.</p>
-<p>Availability date: June 1, 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Journey Arbitration – ranking formulas (General Availability)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now use formulas to automatically boost journey priority scores based on customer profile attributes and contextual factors, ensuring customers enter the most relevant journeys.</p>
-<p>Previously available in Limited Availability, this capability is now available to all environments.</p>
-<p>Availability date: June 1, 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
--->
-
-### 오케스트레이션된 캠페인 {#may-26-oc}
-
-이번 릴리스에서는 오케스트레이션된 캠페인에 다음과 같은 기능 및 개선 사항이 추가되었습니다. 향후 며칠 또는 몇 주 내에 추가 변경 사항이 있을 예정입니다.
-
-<table>
-<thead>
-<tr>
-<th><strong>연결된 오케스트레이션된 캠페인</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 다른 오케스트레이션된 캠페인의 <strong>종료 활동</strong>에서 오케스트레이션된 캠페인을 직접 트리거하여 여러 오케스트레이션된 캠페인을 함께 연결할 수 있습니다.</p>
-<p>이렇게 하면 복잡한 오케스트레이션 논리를 더 작고 재사용 가능한 흐름으로 나누어 매번 다시 작성할 필요 없이 여러 상위 캠페인에서 호출할 수 있습니다. 런타임 시 전달된 페이로드는 다운스트림 캠페인의 세분화 및 개인화에 사용하여 연결된 각 캠페인이 받은 컨텍스트를 기반으로 작동하도록 할 수 있습니다.</p>
-<p><img src="assets/do-not-localize/oc-trigger.gif"></p>
-<p>자세한 내용은 <a href="../orchestrated/trigger-orchestrated-campaign.md#signal-end">세부 설명서</a>를 참조하십시오.</p>
-<p>사용 가능한 날짜: 2026년 5월 20일</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-* **데이터 보강 활동에 링크 추가** - 이제 오케스트레이션된 캠페인의 데이터 보강 활동에서 링크 추가 기능을 사용할 수 있습니다. 이를 통해 작업 테이블 데이터와 기존 데이터베이스 테이블 간에 직접적인 관계를 만들 수 있습니다.
-
-  사용 가능한 날짜: 2026년 5월 20일
-
-<!--
-+++ Coming soon — **Information below is subject to change.**
-
-The following orchestrated campaign capability is expected in the upcoming days or weeks.
-
-<table>
-<thead>
-<tr>
-<th><strong>File-based targeting for orchestrated campaigns (Limited Availability)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Orchestrated campaigns now support loading a CSV or TXT file directly into the campaign canvas as the targeting audience, without first ingesting the file into Adobe Experience Platform. The file data is consumed at execution time and is not persisted as an Adobe Experience Platform dataset. During file setup, you can define column mappings, data types, NULL handling, and per-column error policies. This supports ad-hoc sends or partner list campaigns where building a full ingestion pipeline is not practical.</p>
-<p>This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
-<p>Availability date: June 1, 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-* **Loop-based personalization for relational data** - The personalization editor now supports a Loop block that iterates over relational collections, such as orders, accounts, or bookings, and renders one content block per record inside a single email or SMS. Collections are configured through the data picker using personalization tokens, with no expression writing required.
-
-  Availability date: Early June, 2026
-
-* **Personalize email sender details per recipient and campaign** - Orchestrated campaigns now support personalization of email header fields, including From name, From address, and Reply-To, using profile attributes or relational data. This allows sender details to reflect the relevant advisor, location, or branch for each recipient, rather than routing all sends through a single corporate address.
-
-  Header values can be set at the channel level and overridden per campaign using contextual data for more precise control.
-
-  Availability date: Early June, 2026
-
-+++
--->
-
-### 결정 {#may-26-decisioning}
-
-이번 릴리스에서는 의사 결정에 다음과 같은 기능 및 개선 사항이 추가되었습니다. 향후 며칠 또는 몇 주 내에 추가 변경 사항이 있을 예정입니다.
-
-<table>
-<thead>
-<tr>
-<th><strong>의사 결정 규칙 및 순위 공식 AI 최적화</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>[!DNL Adobe Journey Optimizer] 가 이제 AI를 사용하여 간소화할 수 있는 의사 결정 규칙 및 순위 공식을 감지합니다. 인벤토리에서 AI가 최적화 기회를 식별한 모든 규칙에 빨간색 표시기가 나타납니다. 표시기를 클릭하면 원래 표현식이 AI가 제안하는 버전과 함께 표시됩니다. 여기에서 파일을 다운로드하여 각 버전에서 시뮬레이션된 프로필이 평가되는 방법을 검토하고 동작이 동일한지 확인한 다음 표현식을 최적화된 버전으로 바꿀 수 있습니다.</p>
-<p><img src="assets/do-not-localize/rule-ai.gif"></p>
-<p>자세한 내용은 <a href="../start/ai-features.md#decisioning-optimization">세부 설명서</a>를 참조하십시오.</p>
-<p>사용 가능한 날짜: 2026년 5월 5일</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-* **의사 결정의 Adobe Experience Manager 콘텐츠 조각** - 이제 Adobe Experience Manager 콘텐츠 조각을 의사 결정의 결정 항목에 매핑하고 결정 정책 내에서 활용하여 적절한 시기에 적절한 고객에게 적절한 조각을 전달할 수 있습니다. [자세히 보기](../integrations/aem-fragments.md#aem-decisioning)
-
-  이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
-
-  사용 가능한 날짜: 2026년 5월 20일
-
-* **캠페인 요약의 결정 정책 세부 정보** - 이제 캠페인 요약 페이지에서 캠페인을 복제하거나 편집하지 않고도 각 결정 정책의 전체 구조(선택 전략, 결정 항목, 대체 오퍼 등)를 검토할 수 있습니다. Adobe 지원 팀 또는 조직 내 엔지니어링 팀과 함께 문제를 해결하기 위해 JSON 요약을 클립보드에 복사할 수도 있습니다. [자세히 보기](../experience-decisioning/use-decision-policy.md#decision-policy-summary)
-
-  사용 가능한 날짜: 2026년 5월 20일
-
-* **의사 결정 마이그레이션 워크플로 API** - 종속성 분석 및 마이그레이션 워크플로 생성을 위한 API 계약이 업데이트되었습니다. 요청 URL(`sandbox`, `offer` 또는 `decision`)에 **쿼리 매개변수**&#x200B;로 **`request-level`**&#x200B;을(를) 전달합니다. 요청 수준은 더 이상 JSON 본문에 전송해서는 안 됩니다. [자세히 보기](../experience-decisioning/decisioning-migration-api.md)
-
-  사용 가능한 날짜: 2026년 5월 6일
-
-### 이메일 채널 {#may-26-email}
-
-이번 릴리스에서는 이메일 채널에 다음과 같은 기능 및 개선 사항이 추가되었습니다. 향후 며칠 또는 몇 주 내에 추가 변경 사항이 있을 예정입니다.
-
-<table>
-<thead>
-<tr>
-<th><strong>이메일 디자이너의 딥 링크</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 이메일 디자이너의 전용 옵션을 통해 이메일 콘텐츠에 딥 링크를 추가할 수 있습니다. 이렇게 하면 사용자가 브라우저나 앱스토어로 리디렉션되지 않고 올바른 인앱 콘텐츠로 바로 이동하도록 하여 컨텍스트와 참여도를 유지할 수 있습니다.</p>
-<p>모든 고객이 딥링크 옵션을 사용할 수 있지만 딥 링크는 필요한 구성 및 모바일 앱 구현 단계를 완료한 경우에만 작동한다는 점에 유의하십시오.</p>
-<p><img src="assets/do-not-localize/deeplinks.gif"></p>
-<p>자세한 내용은 <a href="../email/deeplinks.md">세부 설명서</a>를 참조하십시오.</p>
-<p>사용 가능한 날짜: 2026년 5월 12일</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-* **조각에서 상속 중단 제한** - 이제 조각을 만들거나 편집할 때 이메일 사용 시 수정할 수 있는지 여부를 선택할 수 있습니다. 조각을 잠그면 표시되는 모든 곳에서 동기화를 유지하여 브랜드 표준이나 규정 준수 요구 사항을 위반할 수 있는 로컬 편집을 방지할 수 있습니다. 이 설정을 나중에 업데이트하여 향후 사용에 적용할 수도 있습니다. [자세히 보기](../content-management/create-fragments.md#lock-visual-fragment)
-
-  사용 가능한 날짜: 2026년 5월 21일
-
-### 모바일 메시지(SMS, MMS, RCS) {#may-26-mobile}
-
-이 릴리스에서는 모바일 메시지에 다음과 같은 기능 및 개선 사항이 추가되었습니다.
-
-<table>
-<thead>
-<tr>
-<th><strong>새로운 모바일 메시지 채널 및 향상된 RCS 메시지</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 Adobe Journey Optimizer에서 SMS, MMS, RCS가 단일 <strong>모바일 메시지</strong> 액션에 통합되어 한 곳에서 모든 모바일 메시지 유형을 보다 쉽게 관리할 수 있습니다. 이 업데이트의 일부로, 이제 새로운 기본 작성 경험을 통해 Journey Optimizer에서 직접 이미지, 슬라이드, 추천 작업 등이 포함된 리치 미디어 RCS 메시지를 작성할 수 있습니다.</p>
-<p>자세한 내용은 <a href="../mobile/get-started-mobile.md">세부 설명서</a>를 참조하십시오.</p>
-<p>사용 가능한 날짜: 2026년 5월 20일</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-* **문자 수** - Adobe Journey Optimizer에서 이제 문자 수 기능을 사용하여 SMS 메시지의 길이를 실시간으로 모니터링할 수 있습니다. 메시지가 여러 부분으로 나뉘는 시점을 파악하여 서식을 더 잘 관리하고 예상치 못한 전송 비용 증가를 방지하는 데 도움이 됩니다. [자세히 보기](../mobile/create-mobile-message.md)
-
-* **사용자 정의 데이터 세트로의 SMS 인바운드** - **SMS API 자격 증명**&#x200B;에서 기본 추적 데이터 세트만 아니라, 선택한 **맞춤형 프로필 활성화 경험 이벤트 데이터 세트**&#x200B;로 **인바운드 SMS**&#x200B;를 라우팅합니다. [자세히 보기](../mobile/mobile-webhook.md)
-
-* **Webhook 인터페이스 개선** - SMS Webhook을 구성할 때 사용자 인터페이스에 실용적인 예시가 포함된 기본 설정 가이드가 제공되어 구성 흐름을 벗어나지 않고도 공급자 페이로드를 정렬하고 문제를 쉽게 해결할 수 있습니다. [자세히 보기](../mobile/mobile-webhook.md)
-
-* **SMS 콘텐츠의 딥 링크** - 이제 URL 도우미 함수를 사용하여 SMS 콘텐츠에 딥 링크를 추가할 수 있습니다. 필요한 구성 및 모바일 앱 구현 단계를 완료한 경우 웹 브라우저나 앱 스토어를 통한 라우팅 없이 수신자가 의도한 인앱 컨텐츠로 직접 이동하도록 할 수 있습니다. [자세히 보기](../email/deeplinks.md)
-
-### WhatsApp 채널 {#may-26-whatsapp}
-
-이 릴리스에서는 WhatsApp 채널에 다음과 같은 개선 사항이 추가되었습니다.
-
-* **WhatsApp 버튼 지원 및 추적** - WhatsApp 템플릿에서 이제 **빠른 답장**, **콜 투 액션 - URL**&#x200B;을 지원하며 **콜 투 액션 - 전화**, **코드 복사**&#x200B;는 지원하지 않습니다. Journey Optimizer는 지원되는 버튼을 전송하고 상호 작용을 다른 채널 보고와 함께 추적합니다.
-
-* **WhatsApp 채널 컨텍스트 데이터** - 이제 Journey Optimizer가 WhatsApp 채널에서 반환된 추가 상호 작용 데이터를 캡처하여 `whatsAppChannelContext` 필드 그룹 아래의 **AJO EmailTrackingExperienceEvent 데이터 세트**&#x200B;에 저장합니다. [자세히 보기](../whatsapp/send-whatsapp.md#whatsapp-channel-context)
-
-  +++ 다음 필드가 캡처되어 대상자를 빌드하고 WhatsApp 참여를 분석하는 데 사용할 수 있습니다
-
-   * **`messageType`** - WhatsApp 메시지 유형(예: `templateBased`, `response`)
-   * **`inboundMessage`** - 인바운드 답장 내용(예: `stop`, `start`, `subscribe`)
-   * **`inboundNumber`** - 인바운드 메시지 수신 시 보낸 사람 ID
-   * **`channelType`** - 채널 카테고리(`Utility`, `Marketing` 또는 `Promotional`)
-   * **`profileNumber`** - 인바운드 메시지를 받은 전화 번호
-   * **`origTimestamp`** - Meta/WhatsApp의 기존 타임스탬프
-   * **`status`** - 표준화된 공급자 피드백(`sent`, `delivered`, `bounce`, `error`, `delay`, `duplicate`, `denylist`, `exclude` 또는 `unknown`) 및 원시 공급자 상태 메시지를 포함한 게재 상태
-   * **`reactionEvent`** - 사용자 응답 내용: 반응을 위한 이모지 또는 특정 메시지에 대한 답장을 위한 메시지 텍스트
-   * **`reactionMessageID`** - 응답 대상인 원본 메시지의 ID
-   * **`reactionActionName`** - 응답 액션 유형(`react`, `unreact` 또는 `reply`)
-   * **`interactiveSelectedTitle`** - WhatsApp 대화형 메시지에서 사용자가 선택한 제목
-   * **`interactiveType`** - 대화형 메시지 유형(`list reply`, `button reply` 또는 `button`)
-   * **`interactiveSelectedDescription`** - 선택한 WhatsApp 대화형 옵션에 대한 설명
-   * **`interactiveSelectedID`** - WhatsApp에서 선택한 옵션의 ID
-
-  +++
-
-### 콘텐츠 및 통합 {#may-26-content}
-
-이 릴리스에서는 콘텐츠 관리 및 통합에 다음과 같은 기능 및 개선 사항이 추가되었습니다.
-
-<table>
-<thead>
-<tr>
-<th><strong>콘텐츠 어드바이저 선택기</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 Journey Optimizer에서는 Experience Manager Assets 및 콘텐츠 조각을 모두 선택하기 위한 통합 모달인 <strong>콘텐츠 어드바이저 선택기</strong>를 사용합니다. 새로운 선택기에는 다음 기능이 포함됩니다.</p>
-<ul>
-<li>모든 에셋 및 조각에 대해 <strong>탐색, 검색, 필터링</strong>을 수행합니다.</li>
-<li><strong>AI 의미 체계 검색</strong>: 사용자에게 필요한 것을 일반 언어로 설명하면(예: '산에서 마시는 커피') 단순한 텍스트 일치가 아니라 의미와 콘텐츠를 기반으로 컨텍스트에 관련된 에셋을 표시합니다. 다국어 쿼리도 지원됩니다.</li>
-<li><strong>브리프 업로드</strong>: 마케팅 브리프를 업로드하면 그 내용과 요구 사항에 따라 캠페인 컨텍스트에 맞는 에셋을 자동으로 표시합니다.</li>
-<li><strong>Dynamic Media 렌디션</strong>: 선택기에서 나가지 않고 다이내믹 에셋에 사용할 이미지 렌디션을 선택하여 적용합니다.</li>
-</ul>
-<p>자세한 내용은 <a href="../integrations/aem-content-advisor.md">세부 설명서</a>를 참조하십시오.</p>
-<p>사용 가능한 날짜: 2026년 5월 19일</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>통합</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p><b>통합</b> 기능을 사용하면 타사 데이터 소스를 Adobe Journey Optimizer에 직접 연결할 수 있습니다. 외부 데이터 및 <b>구성 가능한 콘텐츠</b>를 가져오는 방법을 간소화하는 이 기능을 사용하면 모든 채널에서 개인화된 동적 메시지를 보다 쉽게 전달할 수 있습니다.</p>
-<p>이전에 Beta로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
-<p>자세한 내용은 <a href="../integrations/integrations.md">세부 설명서</a>를 참조하십시오.</p>
-<p>사용 가능한 날짜: 2026년 5월 4일</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-* **Assets 선택기의 조직 간 저장소 액세스** - 이제 Adobe Experience Manager Asset 선택기 내에서 바로 여러 조직의 저장소에 있는 에셋을 원활하게 선택할 수 있습니다.
-
-<!--
-+++ Coming soon — **Information below is subject to change.**
-
-* **Message Feedback Event Dataset moving to batch ingestion** - The `AJO Message Feedback Event Dataset` is transitioning from streaming to batch ingestion mode. This change ensures that data ingestion does not exceed streaming ingestion limits. If you use this dataset in Customer Journey Analytics reports or run queries against it, expect an increase in data latency of up to 2 hours going forward.
-
-  Availability date: June 1, 2026
-
-+++
--->
-
-### 사용성 개선 {#may-26-usability}
-
-2026년 5월에는 다음과 같은 사용성 개선 사항도 릴리스되었습니다.
-
-#### 목록
-
-* **일괄 작업** - 이제 **캠페인**, **조각**, **템플릿** 목록에서 한 번에 여러 항목을 선택해 단일 작업 표시줄에서 패키지에 항목 추가, 폴더로 이동, 태그 편집, 액세스 관리, 보관 또는 삭제 등 일괄 작업을 수행할 수 있습니다. [자세히 알아보기](../start/search-filter-categorize.md#bulk-actions)
-
-  ![](../start/assets/bulk-actions-campaigns.png)
-
-* **정렬 및 열 크기 조정** - **캠페인**, **조각**, **템플릿** 목록이 이제 열 머리글 클릭을 통한 정렬을 지원합니다. 캠페인 폴더 보기에서 **[!UICONTROL 우선순위]** 및 **[!UICONTROL 채널 구성]**&#x200B;을 기준으로 정렬 및 필터링할 수도 있습니다. **조각** 및 **템플릿** 목록의 열 너비도 조정할 수 있습니다. 열 테두리를 드래그하여 가장 중요하게 확인하려는 데이터에 맞추면 됩니다. [자세히 알아보기](../start/search-filter-categorize.md#filter-lists)
-
-#### 콘텐츠 작성
-
-* **인라인 프로필 속성 편집** - 이메일 디자이너의 인라인 프로필 속성 편집은 4월에 처음 릴리스되었습니다. 5월 릴리스의 일부로 이 기능을 AI 어시스턴트에서 분리하고 푸시 채널 편집기로 확장했습니다. [자세히 알아보기](../personalization/personalize.md#inline-personalization)
-
-  ![](../personalization/assets/inline-profile-attributes.png)
-
-* **푸시 채널 편집기의 링크 URL 툴팁** - 링크 또는 미디어 필드의 URL이 너무 길어 표시할 수 없는 경우 필드 옆에 툴팁 아이콘이 항상 표시됩니다. 마우스를 필드에 가져다 대면 전체 URL이 표시됩니다. [자세히 알아보기](../push/design-push.md#on-click-behavior)
-
-  ![](../rn/assets/do-not-localize/push-link-tooltip.png)
-
-<!--
-#### Simulation & Preview
-
-* **Redesigned preview experience** - The content preview screen has been redesigned with a side-by-side layout that lets you compare how your content renders across multiple profiles at a glance, enabling quicker and more confident reviews before sending. [Learn more](../test-approve/simulate-sample-input.md#preview)
-
-  ![](../test-approve/assets/simulation-preview-redesign.png)
--->
-
-<!--
-+++ Coming soon — **Information below is subject to change.**
-
-* **Folders for journeys and campaigns** - You can now organize your journeys and campaigns into folders to improve navigation and management in the interface.
-
-  Availability date: Early June, 2026
-
-+++
--->
-

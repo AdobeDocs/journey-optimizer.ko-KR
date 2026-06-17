@@ -6,16 +6,13 @@ description: 보강 활동을 사용하는 방법 알아보기
 exl-id: 8a0aeae8-f4f2-4f1d-9b89-28ce573fadfd
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/Q7lT1NR61ALn475i9akX7z80pybh93kbx06Gc8TcCuI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 77cddc86596959e06b20154c1e51c6b84375b39b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
-source-wordcount: 877
-ht-degree: 62%
+source-wordcount: 923
+ht-degree: 59%
 
 ---
 
@@ -170,6 +167,11 @@ ht-degree: 62%
 
 1. **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
 
+### 메시지 개인화에 컬렉션 데이터 사용 {#collection-personalization}
+
+**[!UICONTROL 데이터 수집]**&#x200B;과(와) 함께 컬렉션 링크를 구성하고 **[!UICONTROL 검색할 행(만들 열)]**(예: `3`)을 설정하면 **[!UICONTROL 대상 특성] > [!UICONTROL 데이터 보강]** 아래의 메시지 편집기에서 데이터 보강 특성을 사용할 수 있습니다.
+
+➡️ [개인화에서 데이터 보강 수집 데이터를 사용하는 방법에 대해 알아봅니다](../add-personalization.md#enrichment-collections)
 
 <!--
 #### Define the sorting{#collection-sorting}
