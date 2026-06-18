@@ -9,28 +9,15 @@ role: User
 level: Intermediate
 exl-id: 82558447-9d42-4fac-8fc1-fded9bf4bfcc
 TQID: https://experienceleague.adobe.com/nZejBuTk9AqwR77k6-odCK66c2UbGwMspElt2-1riz4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-subfeature_v2:
-  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
-  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
-  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: beb7a3c1-66ab-4786-b879-7621375b3c40id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f10f2b6cbad242efca31c84ce8adf5a615f57c1e
 workflow-type: tm+mt
-source-wordcount: 1125
+source-wordcount: 1229
 ht-degree: 2%
 
 ---
@@ -46,7 +33,7 @@ ht-degree: 2%
 >[!INFO]
 >
 >Apple에서 메일 개인 정보 보호 기능을 포함하여 기본 메일 앱에 새로운 개인 정보 보호 기능을 도입했기 때문에, 발신자는 더 이상 Apple의 메일 개인 정보 보호를 사용하도록 설정한 프로필의 데이터를 수집하기 위해 추적 픽셀을 사용할 수 없습니다. 따라서 추적 픽셀을 사용하여 이메일 열기를 추적하는 Adobe Journey Optimizer 기능에 영향을 줄 수 있습니다.
->Apple iOS 개인 정보 보호 변경이 이메일 마케팅에 미치는 영향에 대해 > [자세히 알아보기](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780?profile.language=ko).
+Apple iOS 개인 정보 보호 변경이 이메일 마케팅에 미치는 영향에 대해 > [자세히 알아보기](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780).
 > 
 > 보다 정확한 통찰력을 위해 오픈율 대신 클릭 및 전환 지표에 집중하는 것이 좋습니다.
 
@@ -126,19 +113,18 @@ ht-degree: 2%
 
 * **[!UICONTROL 클릭스루 열람율(CTOR)]**: 이메일을 연 횟수입니다.
 
+* **[!UICONTROL 열람율]**: 배달된 전자 메일 수와 비교하여 전자 메일을 한 번 이상 연 프로필의 비율입니다.
+
+* **[!UICONTROL 예상되는 전자 메일 열기 수]**: 프로필에 의한 직접 열기 수와 메일 서버에 의해 트리거된 자동 열기 수를 모두 계산하는 총 전자 메일 열기 수를 예측합니다. 이 지표는 전자 메일을 수동으로 연 수신자로부터 계산된 열기 비율을 메일 서버에서만 연 수신자에게 적용하여 개인 정보 보호 또는 보안 검색을 위해 메일 서버에서 트리거된 열기에 대해 조정합니다.
+
 * **[!UICONTROL 클릭 수]**: 전자 메일에서 콘텐츠를 클릭한 횟수입니다.
 
-* **[!UICONTROL 고유 클릭 수]**: 전자 메일의 콘텐츠를 클릭한 프로필 수입니다.
-
-* **[!UICONTROL 전자 메일 열림]**: 캠페인에서 전자 메일을 연 횟수입니다.
-
-* **[!UICONTROL 고유 전자 메일 열림]**: 전자 메일을 연 프로필 수입니다.
+* **[!UICONTROL 예상 클릭 수]**: 식별된 봇 및 비사람 상호 작용(NHI) 트래픽을 제외하고 메시지에서 콘텐츠를 클릭한 횟수입니다.
 
 * **[!UICONTROL 스팸 고객 불만]**: 메시지가 스팸 또는 정크로 선언된 횟수입니다.
 
-* **[!UICONTROL 구독 취소]**: 구독 취소 링크의 클릭 수입니다.
+* **[!UICONTROL 구독 취소]**: 구독 취소 링크 또는 연결된 랜딩 페이지의 클릭 수입니다.
 
-* **[!UICONTROL 고유 이메일 구독 취소]**: 이메일 구독을 취소한 프로필 수입니다.
 +++
 
 ## 이메일 도메인 {#email-domains}
@@ -165,11 +151,11 @@ ht-degree: 2%
 
 +++
 
-## 추적된 링크 레이블 {#track-link-label}
+## 추적된 레이블 {#track-link-label}
 
 ![](assets/cja-journey-tracked-link-labels.png)
 
-**[!UICONTROL 추적된 링크 레이블]** 테이블은 이메일 내의 링크 레이블에 대한 포괄적인 개요를 제공하며 가장 높은 방문자 트래픽을 생성하는 레이블을 강조 표시합니다. 이 기능을 사용하면 가장 인기 있는 링크를 식별하고 우선 순위를 지정할 수 있습니다.
+**[!UICONTROL 추적된 레이블]** 테이블은 이메일 내의 링크 레이블에 대한 포괄적인 개요를 제공하며 가장 높은 방문자 트래픽을 생성하는 레이블을 강조 표시합니다. 이 기능을 사용하면 가장 인기 있는 링크를 식별하고 우선 순위를 지정할 수 있습니다.
 
 +++ 추적된 링크 레이블 지표에 대해 자세히 알아보기
 
@@ -177,6 +163,7 @@ ht-degree: 2%
 
 * **[!UICONTROL 클릭 수]**: 전자 메일에서 콘텐츠를 클릭한 횟수입니다.
 
+* **[!UICONTROL 예상 클릭 수]**: 식별된 봇 및 비사람 상호 작용(NHI) 트래픽을 제외하고 메시지에서 콘텐츠를 클릭한 횟수입니다.
 +++
 
 ## 추적된 링크 URL {#track-link-url}
@@ -191,6 +178,7 @@ ht-degree: 2%
 
 * **[!UICONTROL 클릭 수]**: 전자 메일에서 콘텐츠를 클릭한 횟수입니다.
 
+* **[!UICONTROL 예상 클릭 수]**: 식별된 봇 및 비사람 상호 작용(NHI) 트래픽을 제외하고 메시지에서 콘텐츠를 클릭한 횟수입니다.
 +++
 
 

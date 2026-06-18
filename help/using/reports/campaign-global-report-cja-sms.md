@@ -9,26 +9,16 @@ role: User
 level: Intermediate
 exl-id: bd743a3b-0317-45d9-8e76-98d5cc258752
 TQID: https://experienceleague.adobe.com/dFM14bh1Yil9GUsCk3mkcqz6QNH3fUWmQCNtj-FnWfA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-subfeature_v2:
-  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
-  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
-  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f10f2b6cbad242efca31c84ce8adf5a615f57c1e
 workflow-type: tm+mt
-source-wordcount: 700
-ht-degree: 3%
+source-wordcount: 955
+ht-degree: 2%
 
 ---
 
@@ -72,23 +62,51 @@ ht-degree: 3%
 
 * **[!UICONTROL 배달됨]**: SMS 메시지 총 수와 관련하여 SMS 메시지를 성공적으로 보낸 수
 
-* **[!UICONTROL 아웃바운드 채널에 대한 바운스 수]**: 보낸 SMS 메시지의 총 수와 관련하여 전송 프로세스 및 자동 반환 처리 중에 누적된 총 오류 수입니다.
+* **[!UICONTROL 바운스 수]**: 보낸 SMS 메시지의 총 수와 관련하여 전송 프로세스 및 자동 반환 처리 중에 누적된 총 오류 수입니다.
 
-* **[!UICONTROL 아웃바운드 오류]**: 프로필로 보낼 수 없는 발생한 총 오류 수입니다.
+* **[!UICONTROL 전송 오류]**: 프로필로 보낼 수 없는 총 오류 수입니다.
 
-* **[!UICONTROL 아웃바운드 제외]**: Adobe Journey Optimizer에서 제외된 프로필 수입니다.
+* **[!UICONTROL 제외 보내기]**: Adobe Journey Optimizer에서 제외된 프로필 수입니다.
 
 +++
 
-## 추적된 링크 레이블 {#track-link-label-sms}
+## 캠페인 개요 {#campaign-global}
 
-**[!UICONTROL 추적된 링크 레이블]** 표는 SMS 메시지 내의 링크 레이블에 대한 포괄적인 개요를 제공하며, 가장 높은 방문자 트래픽을 생성하는 레이블을 강조 표시합니다. 이 기능을 사용하면 가장 인기 있는 링크를 식별하고 우선 순위를 지정할 수 있습니다.
+**[!UICONTROL 캠페인 개요]** 테이블은 캠페인에서 SMS 성능을 위한 대시보드 역할을 합니다. 여기에는 타겟팅된 프로필, 클릭 및 클릭스루 지표(보트 및 비인간 상호 작용 트래픽을 제외하는 예상 클릭 포함) 및 바운스 수, 전송 오류 및 제외와 같은 게재 결과가 요약됩니다.
+
++++ Campaign 개요 지표에 대해 자세히 알아보기
+
+* **[!UICONTROL 사람]**: 메시지 대상 프로필로 적합한 사용자 프로필 수입니다.
+
+* **[!UICONTROL 클릭스루 비율]**: 메시지와 상호 작용한 사용자의 비율입니다.
+
+* **[!UICONTROL 클릭 수]**: 메시지에서 콘텐츠를 클릭한 횟수입니다.
+
+* **[!UICONTROL 고유 클릭 수]**: 모바일 메시지에서 하나 이상의 콘텐츠를 클릭한 고유 프로필 수입니다.
+
+* **[!UICONTROL 예상 클릭 수]**: 식별된 봇 및 비사람 상호 작용(NHI) 트래픽을 제외하고 메시지에서 콘텐츠를 클릭한 횟수입니다.
+
+* **[!UICONTROL 배달됨]**: 보낸 총 메시지 수와 관련하여 보낸 전자 메일 수입니다.
+
+* **[!UICONTROL 바운스 수]**: 보낸 총 메시지 수와 관련하여 보내는 프로세스 및 자동 반환 처리 중에 누적된 총 오류 수입니다.
+
+* **[!UICONTROL 전송 오류]**: 전송 프로세스 중에 발생한 총 오류 수로 인해 프로필로 전송되지 않았습니다.
+
+* **[!UICONTROL 제외 보내기]**: Adobe Journey Optimizer에서 제외된 프로필 수입니다. [제외를 계산하는 방법에 대해 자세히 알아보세요](exclusion-list.md#exclusion-list).
+
++++
+
+## 추적된 레이블 {#track-label-sms}
+
+**[!UICONTROL 추적된 레이블]** 표는 SMS 메시지 내의 링크 레이블에 대한 포괄적인 개요를 제공하며, 가장 높은 방문자 트래픽을 생성하는 레이블을 강조 표시합니다. 이 기능을 사용하면 가장 인기 있는 링크를 식별하고 우선 순위를 지정할 수 있습니다.
 
 +++ 추적된 링크 레이블 지표에 대해 자세히 알아보기
 
-* **[!UICONTROL 고유 클릭 수]**: SMS 메시지의 콘텐츠를 클릭한 프로필 수입니다.
-
 * **[!UICONTROL 클릭 수]**: SMS 메시지에서 콘텐츠를 클릭한 횟수입니다.
+
+* **[!UICONTROL 예상 클릭 수]**: 식별된 봇 및 비사람 상호 작용(NHI) 트래픽을 제외하고 메시지에서 콘텐츠를 클릭한 횟수입니다.
+
+* **[!UICONTROL 고유 클릭 수]**: 모바일 메시지에서 하나 이상의 콘텐츠를 클릭한 고유 프로필 수입니다.
 
 +++
 
@@ -98,9 +116,11 @@ ht-degree: 3%
 
 +++ 추적된 링크 URL 지표에 대해 자세히 알아보기
 
-* **[!UICONTROL 고유 클릭 수]**: SMS 메시지의 콘텐츠를 클릭한 프로필 수입니다.
-
 * **[!UICONTROL 클릭 수]**: SMS 메시지에서 콘텐츠를 클릭한 횟수입니다.
+
+* **[!UICONTROL 예상 클릭 수]**: 식별된 봇 및 비사람 상호 작용(NHI) 트래픽을 제외하고 메시지에서 콘텐츠를 클릭한 횟수입니다.
+
+* **[!UICONTROL 고유 클릭 수]**: 모바일 메시지에서 하나 이상의 콘텐츠를 클릭한 고유 프로필 수입니다.
 
 * **[!UICONTROL 표시]**: 메시지를 연 횟수입니다.
 
