@@ -11,9 +11,9 @@ keywords: 실험, 실험, 여정, 경로, 최적화, A/B 테스트, multi-armed 
 exl-id: 7241ade3-577c-4bb3-b0c3-017133871ca5
 feature_v2: []
 subfeature_v2: []
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: a37b536bb4210a615995f5c5c8ec710b516de934
 workflow-type: tm+mt
-source-wordcount: 1186
+source-wordcount: 1308
 ht-degree: 6%
 
 ---
@@ -72,11 +72,6 @@ ht-degree: 6%
    >
    >토글 막대를 켜면 인구의 10%가 자동으로 사용됩니다. 필요한 경우 이 비율을 조정할 수 있습니다.
 
-   <!--
-    DOES THIS APPLY TO PATH EXPERIMENT?
-    IMPORTANT: When a holdout group is used in an action for path experimentation, the holdout assignment only applies to that specific action. After the action is completed, profiles in the holdout group will continue down the journey path and can receive messages from other actions. Therefore, ensure that any subsequent messages do not rely on the receipt of a message by a profile that might be in a holdout group. If they do, you may need to remove the holdout assignment.
-   -->
-
 1. 각 **[!UICONTROL 처리]**&#x200B;에 정확한 백분율을 할당하거나 **[!UICONTROL 균등 분포]** 토글 막대를 켜기만 하면 됩니다.
 
    ![백분율 분포의 처리 할당 슬라이더](assets/journey-optimize-experiment-treatments.png){width=80%}
@@ -99,27 +94,17 @@ ht-degree: 6%
 
 1. 여정 [게시](publish-journey.md).
 
-<!--
-    Select a channel action and use the **[!UICONTROL Edit content]** button to access the design tools.
-
-    ![Edit content button in channel action activity](assets/journey-optimize-experiment-edit-content.png){width=70%}
-
-    From there, using the left pane you can navigate between the different contents for each action in your experiment. Select each content and design it as needed.
-
-    ![Content selection panel showing treatments for experiment](assets/journey-optimize-experiment-content.png){width=100%}
--->
-
 여정이 활성 상태가 되면 사용자가 임의로 할당되어 다른 경로를 통해 이동합니다. [!DNL Journey Optimizer]은(는) 성과가 가장 좋은 경로를 추적하고 실행 가능한 통찰력을 제공합니다.
 
 여정 경로 실험 보고서를 통해 여정의 성공 여부를 확인하십시오. [자세히 알아보기](../reports/journey-global-report-cja-experimentation.md)
 
-<!--
-REMOVED WITH GA
+## 여정 재입력 시 경로 할당 {#path-assignment}
 
->[!CAUTION]
->
->Do not edit the metadata of a path experiment once it has been published. Editing the metadata will disrupt the calculation and reporting of experiment results.
--->
+경로 지정은 동일한 여정 버전에 대한 여러 항목의 프로필에 대해 지속됩니다. 예를 들어, 프로필이 1일에 여정을 입력하고 경로 A에 할당된 후 2일에 여정을 다시 입력하면, 다시 경로 A에 할당됩니다. 이렇게 하면 사용자에게 일관된 경험이 보장되며 통계적으로 유효한 보고 및 분석에 필요합니다.
+
+하지만 할당은 주어진 여정 버전 내에서만 지속됩니다. 새 여정 버전을 게시하면 임의화가 변경되고 프로필이 다른 경로에 할당될 수 있습니다.
+
+여정에 여러 경로 실험 활동이 있는 경우 각 활동은 독립적인 무작위 할당을 적용합니다.
 
 ## 실험 사용 사례 {#uc-experiment}
 
