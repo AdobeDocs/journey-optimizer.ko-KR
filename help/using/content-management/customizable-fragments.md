@@ -9,26 +9,16 @@ role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
 TQID: https://experienceleague.adobe.com/cwg-nGPftYg6UgVSKXZPdW6DZr4-m5UM5Wqzfx3w028
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c6e980f5-2d4f-494f-beef-186b9ecf1513id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 69ba57a83a35331f05d782588a26f7f45579c180
 workflow-type: tm+mt
-source-wordcount: 1771
-ht-degree: 12%
+source-wordcount: 1658
+ht-degree: 5%
 
 ---
 
@@ -85,6 +75,45 @@ ht-degree: 12%
 >[!CAUTION]
 >
 >버튼 구성 요소의 **label** 및 **URL**&#x200B;을(를) 모두 조각에서 편집할 수 있게 되면 추적 보고서에 버튼 레이블 대신 URL이 표시됩니다. [추적에 대해 자세히 알아보기](../email/message-tracking.md)
+
+## 사용자 지정 가능한 시각적 조각에서 리치 텍스트 편집 활성화 {#rich-text-visual}
+
+>[!CONTEXTUALHELP]
+>id="ajo_editable_fragment_compatibility"
+>title="레거시 조각"
+>abstract="이 조각의 편집 가능한 필드는 텍스트 전용 모드입니다. 즉, 이메일에서는 이 조각을 편집할 때 일반 텍스트만 입력할 수 있습니다. 굵게, 기울임꼴, 하이퍼링크 및 줄 바꿈과 같은 전체 서식 옵션은 지원되지 않습니다. 이메일에 조각을 사용할 때 편집 가능한 필드에 서식 있는 텍스트를 허용하려면 <b>사용</b>을 클릭하세요."
+
+>[!CONTEXTUALHELP]
+>id="ajo_editable_field_compatibility"
+>title="레거시 조각"
+>abstract="이 편집 가능한 필드는 텍스트 전용 모드입니다. 전체 서식 옵션(굵게, 기울임꼴, 하이퍼링크, 줄바꿈 등) 조각이 리치 텍스트 모드로 업그레이드될 때까지 를 사용할 수 없습니다. 조각 본문 설정으로 이동한 다음 <b>사용</b>을 클릭하여 편집 가능한 필드의 서식 있는 텍스트 잠금을 해제합니다."
+>additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="조각에서 편집 가능한 필드 맞춤화"
+
+>[!CONTEXTUALHELP]
+>id="ac_editable_fragment_compatibility"
+>title="레거시 조각"
+>abstract="이 조각의 편집 가능한 필드는 텍스트 전용 모드입니다. 전체 서식 옵션(굵게, 기울임꼴, 하이퍼링크, 줄바꿈 등) 조각이 리치 텍스트 모드로 업그레이드될 때까지 를 사용할 수 없습니다. 이 모드의 잠금을 해제하려면 조각 편집기를 열고 <b>사용</b>을 클릭하세요."
+>additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="조각에서 편집 가능한 필드 맞춤화"
+
+서식 있는 텍스트 <!--— including bold, italic, line breaks, and hyperlinks —-->은(는) 이제 사용자 지정 가능한 시각적 조각에서 기본적으로 지원됩니다.
+
+사용자 지정 가능한 시각적 조각을 전자 메일에 사용할 경우 조각의 **[!UICONTROL 텍스트]**, **[!UICONTROL 단추]** 및 **[!UICONTROL Html]** 구성 요소의 편집 가능한 필드 내에서 굵게, 기울임꼴, 줄 바꿈, 글머리 기호 목록 및 하이퍼링크와 같은 전체 서식 옵션을 직접 활용할 수 있습니다. [편집 가능한 필드를 사용자 지정하는 방법을 알아봅니다](../email/use-visual-fragments.md#customize-fields)
+
+그러나 리치 텍스트 기능이 도입되기 전에 조각을 만들고 편집 가능한 필드를 정의한 경우 편집 가능한 필드는 기본적으로 텍스트 전용 모드로 설정됩니다.
+
+* 조각 편집기에 호환성 경고가 표시됩니다.
+
+  ![](assets/fragment-custom-compatibility.png)
+
+  전자 메일에서 조각을 사용할 때 이러한 편집 가능한 필드에 대한 서식 있는 텍스트 모드의 잠금을 해제하려면 **활성화** 단추를 클릭하고 조각을 저장합니다.
+
+* 이메일에 조각을 추가하면 이메일 Designer에서 조각을 선택할 때도 호환성 경고가 표시됩니다.
+
+  ![](assets/email-fragment-custom-compatibility.png)
+
+  조각을 서식 있는 텍스트 모드로 업그레이드하려면 **조각 열기** 단추를 사용하여 조각 편집기에 액세스하고 **사용** 단추를 클릭하고 조각을 저장하십시오.
+
+리치 텍스트 모드가 잠금 해제될 때까지 사용자 지정 가능한 기존 시각적 조각은 일반 텍스트만 계속 지원합니다. 사용자는 이러한 조각의 편집 가능한 필드에 서식 있는 텍스트를 입력할 수 없습니다.
 
 ## HTML 구성 요소 및 표현식 조각에 편집 가능한 필드 추가 {#expression}
 
@@ -167,78 +196,62 @@ HTML 구성 요소의 경우 특정 요소만 편집 가능한 필드가 될 수
 
    ![](assets/fragment-expression-use.png)
 
-## 맞춤화가 가능한 조각에 서식 있는 텍스트 추가 {#rich-text}
-
->[!CONTEXTUALHELP]
->id="ajo_editable_fragment_compatibility"
->title="레거시 조각"
->abstract="이 조각의 편집 가능한 필드는 텍스트 전용 모드입니다. 이는 사용자가 이메일의 이 조각을 편집할 때 일반 텍스트만 입력할 수 있으며 굵게, 기울임꼴, 하이퍼링크 및 줄바꿈과 같은 서식 있는 텍스트는 지원되지 않음을 의미합니다. 이메일에서 조각을 사용할 때 편집 가능한 필드에 서식 있는 텍스트를 활성화하려면 <b>HTML 모드로 전환</b>을 클릭합니다."
-
->[!CONTEXTUALHELP]
->id="ajo_editable_field_compatibility"
->title="레거시 조각"
->abstract="이 편집 가능한 필드는 텍스트 전용 모드입니다. 서식 있는 텍스트 서식(굵게, 기울임꼴, 하이퍼링크, 줄바꿈 등) 은 조각이 HTML 호환 모드로 업그레이드될 때까지 사용할 수 없습니다. 조각 본문 설정으로 이동하고 <b>HTML 모드로 전환</b>을 클릭하여 서식 있는 텍스트 편집을 활성화합니다."
->additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="조각에서 편집 가능한 필드 맞춤화"
-
->[!CONTEXTUALHELP]
->id="ac_editable_fragment_compatibility"
->title="레거시 조각"
->abstract="이 조각의 편집 가능한 필드는 텍스트 전용 모드입니다. 서식 있는 텍스트 서식(굵게, 기울임꼴, 하이퍼링크, 줄바꿈 등) 은 조각이 HTML 호환 모드로 업그레이드될 때까지 사용할 수 없습니다. 이렇게 하려면 조각 편집기를 열고 <b>HTML 모드로 전환</b>을 클릭합니다."
->additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="조각에서 편집 가능한 필드 맞춤화"
-
-HTML 구성 요소를 사용하여 사용자 지정 가능한 조각에 줄 바꿈, 굵게, 기울임체 등과 같은 리치 텍스트를 추가할 수 있습니다. 그 방법은 다음과 같습니다.
 <!--
+## Add rich text to a customizable fragment {#rich-text}
+
+Rich text such as line breaks, bold, italics etc., can be added to a customizable fragment by using HTML components. To do so, follow the steps below.
+
 ➡️ [Learn how to add and use rich text in a customizable fragment in this video](#video)
--->
 
-### 리치 텍스트를 포함하는 조각 만들기 {#add-rich-text}
+### Create a fragment including rich text {#add-rich-text}
 
-1. 시각적 [조각](create-fragments.md)을(를) 만들고 구성 요소 추가를 시작합니다.
+The approach below (using HTML components with inline variables) remains fully supported for advanced HTML-based scenarios??
 
-1. [HTML 구성 요소](../email/content-components.md#HTML)를 추가하고 HTML 편집기를 엽니다.
+1. Create a visual [fragment](create-fragments.md) and start adding components.
 
-1. 왼쪽 탐색 창에서 **[!UICONTROL 도우미 함수]** 메뉴로 이동한 다음 **인라인** 도우미 함수를 추가합니다.
+1. Add an [HTML component](../email/content-components.md#HTML) and open the HTML editor.
 
-1. `"name"`을(를) 편집 가능한 콘텐츠에 사용할 ID로 바꾸십시오(예: &quot;EditableContent&quot;).
+1. Navigate to the **[!UICONTROL Helper functions]** menu in the left navigation pane and add the **inline** helper function.
 
-1. `render_content`을(를) 원하는 기본 리치 콘텐츠에 해당하는 HTML 코드로 바꾸십시오. 굵게, 기울임꼴, 줄 바꿈, 글머리 기호 목록 등을 추가할 수 있습니다.
+1. Replace `"name"` with the ID you want to use for your editable content, for example "EditableContent".
 
-   ![](assets/fragment-rich-editable-content.png)
+1. Replace `render_content` with the HTML code corresponding to the default rich content you want. You can add bold, italic, line breaks, bulleted lists, etc.
 
-1. 동일한 HTML 구성 요소 내에서 스타일 요소에 대한 다른 **inline** 도우미 함수를 추가하십시오.
+    ![](assets/fragment-rich-editable-content.png)
 
-1. `"name"` 및 `render_content`을(를) 원하는 기본 스타일에 해당하는 ID 및 HTML 코드로 바꾸십시오.
+1. Within the same HTML component, add another **inline** helper function for your styling elements.
 
-   ![](assets/fragment-rich-editable-styling.png)
+1. Replace `"name"` and `render_content` with the ID and HTML code corresponding to the default styling you want.
 
-1. 콘텐츠를 저장합니다. 선택한 편집 가능한 필드가 오른쪽에 표시됩니다.
+    ![](assets/fragment-rich-editable-styling.png)
 
-   ![](assets/fragment-rich-editable-fields.png)
+1. Save your content. The selected editable fields are displayed on the right-hand side.
 
-1. 조각을 저장하고 [게시](create-fragments.md#publish).
+    ![](assets/fragment-rich-editable-fields.png)
 
-### 사용자 지정 가능한 조각에서 리치 텍스트 사용 {#use-rich-text}
+1. Save and [publish](create-fragments.md#publish) the fragment.
 
-이제 이메일에 조각을 추가할 때 만든 서식 있는 텍스트 콘텐츠와 스타일을 편집할 수 있습니다. 마케터는 아래 단계를 수행합니다.
+### Use rich text in customizable fragments {#use-rich-text}
 
-1. 캠페인 또는 여정에서 [전자 메일을 만든 다음](../email/create-email.md) 서식 있는 텍스트가 있는 조각을 [만든](#add-rich-text)(으)로 추가합니다.
+When adding the fragment to your email, you can now edit the rich text content and styling that you created. As a marketer, follow the steps below.
 
-   오른쪽에서 만든 편집 가능한 필드 두 개를 볼 수 있습니다.
+1. [Create an email](../email/create-email.md) in a campaign or a journey, then add the fragment with rich text that was [created](#add-rich-text).
 
-   ![](assets/fragment-use-rich-editable-fields.png)
+    You can see the two editable fields that were created on the right-hand side.
 
-1. 시뮬레이션 방법을 사용하여 편집 가능한 콘텐츠와 스타일이 렌더링되는 방법을 확인하십시오. **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭하여 샘플 입력 데이터 또는 AI 자동 생성으로 콘텐츠 변형을 테스트하거나 **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭한 다음 드롭다운에서 **[!UICONTROL 콘텐츠 시뮬레이션(AEP 프로필)]**&#x200B;을 선택하여 테스트 프로필로 미리 보십시오. [콘텐츠 미리 보기에 대한 자세한 정보](preview-test.md)
+    ![](assets/fragment-use-rich-editable-fields.png)
 
-1. 편집 가능한 필드 중 하나 옆에 있는 **[!UICONTROL 개인화 추가]** 아이콘을 선택합니다.
+1. Use either simulation method to see how the editable content and styling render: click **[!UICONTROL Simulate content]** to test content variations with sample input data or AI auto-generation, or click **[!UICONTROL Simulate content]**, then select **[!UICONTROL Simulate content (AEP profiles)]** from the dropdown to preview with test profiles. [Learn more on previewing content](preview-test.md)
 
-1. 열리는 개인화 편집기에서 편집 가능한 필드의 요소를 추가하거나 제거하여 <!--CSS-->스타일 및/또는 콘텐츠를 원하는 대로 업데이트합니다.
+1. Select the **[!UICONTROL Add personalization]** icon next to one of the editable fields.
 
-   ![](assets/fragment-rich-editable-fields-update-styling.png)
+1. In the personalization editor that opens, update the styling and/or content as wanted by adding or removing elements of the editable field.
 
-<!--
+    ![](assets/fragment-rich-editable-fields-update-styling.png)
+
 ## How-to video {#video}
 
 This video shows how to make HTML components within a fragment editable, allowing for dynamic updates to both content and styling.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464375/?captions=kor&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
 -->
