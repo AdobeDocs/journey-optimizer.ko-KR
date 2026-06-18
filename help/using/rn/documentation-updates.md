@@ -8,16 +8,12 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 95efd7b0af3f78ba0e7342a5927c7e2d4b9b701f
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 1333a7e642c1c49efb5e9152abf7ba10b9f0202f
 workflow-type: tm+mt
-source-wordcount: 8472
-ht-degree: 95%
+source-wordcount: 8537
+ht-degree: 94%
 
 ---
 
@@ -27,6 +23,7 @@ ht-degree: 95%
 
 ## 2026년 6월 {#june-2026}
 
+* 여정 재입력&#x200B;**하위 섹션의 새**&#x200B;경로 할당이 **경로 실험** 설명서에 추가되었습니다. 이 섹션에서는 동일한 여정 버전에 대한 여러 항목의 프로필에 대해 경로 지정이 지속되지만 해당 여정 버전 내에서만 수행됨을 명확히 합니다. 할당은 새 여정 버전이 게시되면 재설정되며 여정의 각 경로 실험 활동은 독립적인 무작위 할당을 적용합니다. [자세히 보기](../building-journeys/path-experimentation.md#path-assignment)
 * **Adobe Experience Cloud**&#x200B;에 대한 참조가 [!DNL Journey Optimizer] 설명서에서 **[!DNL Adobe CX Enterprise]** 브랜드와 정렬되었습니다.
 
 * **게재 기능 시작** 페이지가 수신자별 FBL이 없는 새 **공급자** 하위 섹션으로 업데이트되었습니다. Gmail/Google Workspace, Apple iCloud 및 Corporate Microsoft 365/Exchange Online 등 수신자별 스팸 불만을 반환하지 않는 주요 사서함 공급자를 나열하고 이러한 서비스를 사용하는 수신자에게 제외 목록 항목의 부재가 예상되는 이유를 설명합니다. [자세히 보기](../reports/deliverability.md#providers-no-fbl)
@@ -235,7 +232,7 @@ ht-degree: 95%
 
 * 테스트, 유효성 검사, 승인 랜딩 페이지에 테스트 기능 개요, 일반적인 질문 FAQ, 탐색 링크가 있는 의사 결정 트리, 설명서 링크의 용어 향상 등 새로운 섹션을 추가해 개선했습니다. [자세히 보기](../../rp_landing_pages/test-landing-page.md)
 
-* 개인화 구문 설명서에 개인화 표현식에서 예약된 키워드를 사용하는 방법을 명확히 설명하는 새 섹션을 추가했습니다. `next`, `last`, `this` 등 특정 PQL 키워드를 XDM 스키마에서 필드 이름으로 사용하는 경우 백틱(&grave;)을 붙여 이스케이프 처리해야 합니다. [자세히 보기](../personalization/personalization-syntax.md#reserved-keywords)
+* 개인화 구문 설명서에 개인화 표현식에서 예약된 키워드를 사용하는 방법을 명확히 설명하는 새 섹션을 추가했습니다. `next`, `last`, `this` 등 특정 PQL 키워드를 XDM 스키마에서 필드 이름으로 사용하는 경우 백틱(`)을 붙여 이스케이프 처리해야 합니다. [자세히 보기](../personalization/personalization-syntax.md#reserved-keywords)
 
 * [캠페인 시작](../campaigns/get-started-with-campaigns.md) 및 [캠페인 관리](../campaigns/manage-campaigns.md) 페이지를 유형별 안내서가 있는 포괄적 워크플로, 향상된 캠페인 유형 비교, 종합 상태 테이블 등 개선된 정보 아키텍처로 재구성했습니다.
 
@@ -656,7 +653,7 @@ ht-degree: 95%
 * Information has been added regarding the behavior of timeouts on event activities in journeys. When no event is received during the specified timeout period, individuals will continue the journey if no timeout path is defined. [Read more](../building-journeys/general-events.md#events-specific-time)
 * In-app channel configuration prerequisites have been updated with a note about the usage of a custom Dataset preference merge policy. [Read more](../in-app/inapp-configuration.md)
 * More details have been added about how to manipulate collections in a custom action response. [Read more](../action/action-response.md#exp-syntax).
-* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko) has been added to the home page.
+* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html) has been added to the home page.
 * An outdated reference to the AJO Message resource has been removed from the list of resources available in the Audit Log. When an update is done on a message in a journey, a **Journey** log is created. [Read more](../privacy/audit-logs.md)
 * Additional recommendations have been added about the usage of the **Read Audience** activity. [Read more](../building-journeys/read-audience.md#must-read)
 * The Get started with Adobe Experience Platform audiences page has been improved with a list of audience generation methods. [Read more](../audience/about-audiences.md)
@@ -761,7 +758,7 @@ ht-degree: 95%
 
 ## March 2023 {#march-2023}
 
-* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko)
+* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
 * All new features and improvements coming with [!DNL Journey Optimizer] March '23 release have been detailed in the documentation. [Read more](release-notes.md)
 * Added a step to enable Adobe Analytics events in your journeys. [Read more](../event/about-analytics.md)
 * A new section has been created in the Decision management guide on how to collect offer decisioning feedback in Adobe Experience Platform, including which offers are displayed and how users interact with them. [Read more](../offers/data-collection/data-collection.md)
