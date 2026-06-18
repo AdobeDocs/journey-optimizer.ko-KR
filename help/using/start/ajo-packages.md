@@ -9,7 +9,7 @@ role: Admin, User
 level: Beginner
 keywords: 여정 최적화 도구, 패키지, 라이선스, 캠페인, 여정, 채널, 의사 결정, 아웃바운드, 모바일, 웹, 모듈식, sms, mms, whatsapp, 추가 기능, 선택, 프라임, 궁극적, 이전
 hide: true
-source-git-commit: c0bfb3ea92ea1375fa6bdd2bdffc836c0046db7a
+source-git-commit: ef26246dd1bcd820bab1f226c3564a600ac5b506
 workflow-type: tm+mt
 source-wordcount: '1992'
 ht-degree: 2%
@@ -47,9 +47,9 @@ ht-degree: 2%
 
 +++**캠페인과 여정 간의 차이점은 무엇입니까?**
 
-**캠페인**&#x200B;은(는) 대상을 기반으로 하며 마케터가 계획되어 있습니다. 대상을 정의하고 메시지를 만들고 일괄 전송으로 예약하거나 트리거합니다. 이는 홍보 활동, 뉴스레터 및 다단계 대상 워크플로우에 가장 적합합니다.
+**[캠페인](../campaigns/get-started-with-campaigns.md)**&#x200B;은(는) 대상을 기반으로 하며 마케터가 계획되어 있습니다. 대상을 정의하고 메시지를 만들고 일괄 전송으로 예약하거나 트리거합니다. 이는 홍보 활동, 뉴스레터 및 다단계 대상 워크플로우에 가장 적합합니다.
 
-**여정**&#x200B;은(는) 실시간 및 이벤트 기반이며, 발생할 때마다 개별 고객 행동에 반응하여 터치포인트 간에 1:1 경험을 조정합니다. 이 시퀀스는 온보딩 플로우, 구매 후 시퀀스 및 실시간 트리거 메시지에 가장 적합합니다.
+**[여정](../building-journeys/journey-gs.md)**&#x200B;은(는) 실시간 및 이벤트 기반이며, 발생할 때마다 개별 고객 행동에 반응하여 터치포인트 간에 1:1 경험을 조정합니다. 이 시퀀스는 온보딩 플로우, 구매 후 시퀀스 및 실시간 트리거 메시지에 가장 적합합니다.
 
 **캠페인 및 여정**&#x200B;은(는) 단일 라이선스에서 두 기능을 모두 제공합니다.
 
@@ -65,8 +65,8 @@ ht-degree: 2%
 
 | 기본 오퍼 | 다음에 최적 | 핵심 동작 |
 |-----------|---------|--------------|
-| **Journey Optimizer - 캠페인** | 일괄 처리, 마케터 계획 지원 | 대상자 기반, 예약된 오케스트레이션. 일괄 처리 참여 및 마케터 계획 전달을 위한 단일 또는 다중 단계 캠페인 워크플로우입니다. |
-| **Journey Optimizer - 여정** | 실시간 고객 참여 | 이벤트 기반, 1:1 오케스트레이션. 실시간 및 예약된 여정 전달을 모두 지원합니다. |
+| **[Journey Optimizer - 캠페인](../campaigns/get-started-with-campaigns.md)** | 일괄 처리, 마케터 계획 지원 | 대상자 기반, 예약된 오케스트레이션. 일괄 처리 참여 및 마케터 계획 전달을 위한 단일 또는 다중 단계 캠페인 워크플로우입니다. |
+| **[Journey Optimizer - 여정](../building-journeys/journey-gs.md)** | 실시간 고객 참여 | 이벤트 기반, 1:1 오케스트레이션. 실시간 및 예약된 여정 전달을 모두 지원합니다. |
 | **Journey Optimizer - 캠페인 및 여정** | 두 가지 모두를 필요로 하는 고객 | 대상자 기반 캠페인 오케스트레이션과 실시간 여정 오케스트레이션을 결합합니다. |
 
 >[!IMPORTANT]
@@ -77,11 +77,11 @@ ht-degree: 2%
 
 | | Journey Optimizer - 캠페인 | JOURNEY OPTIMIZER - 여정 | Journey Optimizer - 캠페인 및 여정 |
 |--|:-----------------------------:|:----------------------------:|:----------------------------------------:|
-| 대상 기반 일괄 처리 오케스트레이션 | ✓ | 제한적¹ | ✓ |
-| 실시간 이벤트 기반 오케스트레이션 | — | ✓ | ✓ |
+| [대상 기반 일괄 처리 오케스트레이션](../campaigns/get-started-with-campaigns.md) | ✓ | 제한적¹ | ✓ |
+| [실시간 이벤트 기반 오케스트레이션](../building-journeys/journey-gs.md) | — | ✓ | ✓ |
 | 트랜잭션 메시지(이메일, 푸시, SMS) | ✓ | ✓ | ✓ |
-| 채널 추가 기능 사용 가능 | ✓ | ✓ | ✓ |
-| 의사 결정 추가 기능 사용 가능 | ✓ | ✓ | ✓ |
+| [채널 추가 기능 사용 가능](#channel-addons) | ✓ | ✓ | ✓ |
+| [Decisioning 추가 기능 사용 가능](#decisioning-addon) | ✓ | ✓ | ✓ |
 
 ¹ **Journey Optimizer - 여정**&#x200B;에서 대상 기반 오케스트레이션은 독립 실행형 일괄 처리 캠페인이 아닌 여정 사용 사례 내에서만 지원됩니다.
 
@@ -95,7 +95,7 @@ ht-degree: 2%
 
 아웃바운드 메시징 채널을 통해 대상에게 도달합니다.
 
-**포함:** 전자 메일, 푸시 알림, DM
+**포함 항목:** [이메일](../email/get-started-email.md), [푸시 알림](../push/get-started-push.md), [DM](../direct-mail/get-started-direct-mail.md)
 
 **일반적인 사용 사례:** 프로모션 이메일, 트랜잭션 푸시 알림, 실제 메일 캠페인
 
@@ -107,7 +107,7 @@ ht-degree: 2%
 
 인세션 및 지속적인 모바일 경험을 통해 앱 사용자를 참여시킵니다.
 
-**포함:** 인앱 메시지, 푸시 알림, 콘텐츠 카드, 모바일 표면용 코드 기반 채널
+**모바일 표면용** [인앱 메시지](../in-app/get-started-in-app.md), [푸시 알림](../push/get-started-push.md), [콘텐츠 카드](../content-card/get-started-content-card.md), [코드 기반 채널](../code-based/get-started-code-based.md) 포함
 
 **일반적인 사용 사례:** 온보딩 흐름, 기능 공지, 충성도 누지, 실시간 인앱 오퍼
 
@@ -117,7 +117,7 @@ ht-degree: 2%
 
 코드를 배포하지 않고 웹 경험을 개인화할 수 있습니다.
 
-**웹 채널(시각적 및 비시각적 편집기), 웹 표면에 대한 코드 기반 채널 포함:**
+**포함 항목:** [웹 채널](../web/get-started-web.md)(시각적 및 비시각적 편집기), 웹 표면에 대한 [코드 기반 채널](../code-based/get-started-code-based.md)
 
 **일반적인 사용 사례:** 홈페이지 배너, 랜딩 페이지 개인화, A/B 테스트, API를 통한 헤드리스 웹 개인화
 
@@ -127,7 +127,7 @@ ht-degree: 2%
 
 **모든 채널** 추가 기능 번들은 아웃바운드 게재 + 모바일 + 웹을 한 번에 구매합니다.
 
-**포함 항목:** 세 가지 개별 추가 기능(이메일, 푸시 알림, DM, 인앱 메시지, 콘텐츠 카드, 웹 채널 및 코드 기반 채널)의 모든 채널
+**포함 내용:** 세 개의 개별 추가 기능 중 [이메일](../email/get-started-email.md), [푸시 알림](../push/get-started-push.md), [DM](../direct-mail/get-started-direct-mail.md), [인앱 메시지](../in-app/get-started-in-app.md), [콘텐츠 카드](../content-card/get-started-content-card.md), [웹 채널](../web/get-started-web.md) 및 [코드 기반 채널](../code-based/get-started-code-based.md)의 모든 채널
 
 **일반적인 사용 사례:** 아웃바운드, 모바일 앱 및 웹에 걸친 조정된 옴니채널 프로그램(예: 인앱 메시지 및 개인화된 웹 배너를 포함하는 전자 메일 후속 캠페인)
 
@@ -174,11 +174,11 @@ ht-degree: 2%
 
 | 기능 | 캠페인 | 여정 | 캠페인 및 여정 |
 |-----------|:---------:|:--------:|:--------------------:|
-| 트랜잭션 메시지(이메일, 푸시, SMS) | ✓ | ✓ | ✓ |
-| 캠페인 일괄 처리 | ✓ | — | ✓ |
-| 오케스트레이션된 캠페인 _(이메일, SMS, 푸시, DM만 해당)_ | ✓ | — | ✓ |
-| 자동화된 여정 | — | ✓ | ✓ |
-| 실시간 이벤트 트리거 | — | ✓ | ✓ |
+| 트랜잭션 메시지([전자 메일](../email/get-started-email.md), [푸시](../push/get-started-push.md), [SMS](../mobile/get-started-mobile.md)) | ✓ | ✓ | ✓ |
+| [일괄 캠페인](../campaigns/get-started-with-campaigns.md) | ✓ | — | ✓ |
+| [오케스트레이션된 캠페인](../orchestrated/gs-orchestrated-campaigns.md) _(전자 메일, SMS, 푸시, DM만 해당)_ | ✓ | — | ✓ |
+| [자동화된 여정](../building-journeys/journey-gs.md) | — | ✓ | ✓ |
+| [실시간 이벤트 트리거](../event/about-events.md) | — | ✓ | ✓ |
 
 ### 채널 및 고급 기능 {#channel-capabilities}
 
@@ -186,17 +186,17 @@ ht-degree: 2%
 
 | 기능 | 가용성 | 추가 기능 필요 |
 |-----------|-------------|----------------|
-| 이메일 | 모든 기본 오퍼 | 아웃바운드 게재 |
-| 푸시 알림 | 모든 기본 오퍼 | 아웃바운드 게재 |
-| DM | 모든 기본 오퍼 | 아웃바운드 게재 |
-| SMS / MMS | 라이센스 구성 기반 | 라이센스 구성 기반 |
-| 인앱 메시징 | 모든 기본 오퍼 | 모바일 |
-| 콘텐츠 카드 | 모든 기본 오퍼 | 모바일 |
-| 웹 채널 | 모든 기본 오퍼 | 웹 |
-| 코드 기반 경험 | 모든 기본 오퍼 | 모바일 또는 웹 |
-| WhatsApp | 라이센스 구성 기반 | WhatsApp |
-| 결정 | 라이센스에 따라 다름 | 결정 |
-| AI 기반 순위 | 라이센스에 따라 다름 | 결정 |
+| [이메일](../email/get-started-email.md) | 모든 기본 오퍼 | 아웃바운드 게재 |
+| [푸시 알림](../push/get-started-push.md) | 모든 기본 오퍼 | 아웃바운드 게재 |
+| [다이렉트 메일](../direct-mail/get-started-direct-mail.md) | 모든 기본 오퍼 | 아웃바운드 게재 |
+| [SMS / MMS](../mobile/get-started-mobile.md) | 라이센스 구성 기반 | 라이센스 구성 기반 |
+| [인앱 메시지](../in-app/get-started-in-app.md) | 모든 기본 오퍼 | 모바일 |
+| [콘텐츠 카드](../content-card/get-started-content-card.md) | 모든 기본 오퍼 | 모바일 |
+| [웹 채널](../web/get-started-web.md) | 모든 기본 오퍼 | 웹 |
+| [코드 기반 경험](../code-based/get-started-code-based.md) | 모든 기본 오퍼 | 모바일 또는 웹 |
+| [WhatsApp](../whatsapp/get-started-whatsapp.md) | 라이센스 구성 기반 | WhatsApp |
+| [의사 결정](../experience-decisioning/gs-experience-decisioning.md) | 라이센스에 따라 다름 | 결정 |
+| [AI 기반 순위](../offers/ranking/ai-models.md) | 라이센스에 따라 다름 | 결정 |
 
 >[!NOTE]
 >
@@ -206,7 +206,7 @@ ht-degree: 2%
 
 +++**오케스트레이션된 캠페인에서 지원되는 채널은 무엇입니까?**
 
-오케스트레이션된 캠페인(Campaign Orchestration 기능을 사용하는 다단계 대상 워크플로)은 **이메일, SMS, 푸시 알림 및 DM**&#x200B;만 지원합니다. 웹, 인앱, 코드 기반 및 콘텐츠 카드 채널은 오케스트레이션된 캠페인 워크플로우에서 지원되지 않습니다.
+[오케스트레이션된 캠페인](../orchestrated/gs-orchestrated-campaigns.md)(Campaign Orchestration 기능을 사용하는 다단계 대상 워크플로우)에서는 **이메일, SMS, 푸시 알림 및 DM만 지원합니다**. 웹, 인앱, 코드 기반 및 콘텐츠 카드 채널은 오케스트레이션된 캠페인 워크플로우에서 지원되지 않습니다.
 
 +++
 
