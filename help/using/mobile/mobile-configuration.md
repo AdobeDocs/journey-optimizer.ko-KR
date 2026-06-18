@@ -22,10 +22,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
+source-git-commit: b519bcd5489c441e7f22cb47783d8b99a58c2442
 workflow-type: tm+mt
-source-wordcount: 456
-ht-degree: 40%
+source-wordcount: 480
+ht-degree: 39%
 
 ---
 
@@ -73,6 +73,8 @@ SMS, MMS 또는 RCS를 보내기 전에 Adobe Journey Optimizer 환경을 구성
    * [사용자 정의 공급자](mobile-configuration-custom.md)
 1. [웹후크 만들기](mobile-webhook.md)
 1. [모바일 구성 만들기](mobile-configuration-surface.md)
+
+Adobe Journey Optimizer을 통해 SMS를 구매하는 경우 [SMS 사용 지표를 보기](sms-usage-report.md)하여 MO 및 MT 볼륨을 공급업체 청구와 조정할 수도 있습니다.
 
 이 단계는 Adobe Journey Optimizer [시스템 관리자](../start/path/administrator.md)가 수행해야 합니다.
 
