@@ -9,29 +9,15 @@ role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
 TQID: https://experienceleague.adobe.com/YbH8cXjrh5E9v9twpwxB3ENb606W-1JAonJRxnorl9c
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8
-  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 658cee88b071a292ddfd65f2876ebde11e438a67
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8id: c6e980f5-2d4f-494f-beef-186b9ecf1513id: d08afb72-92f6-4856-88e3-11ec34313c2fid: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 453eb09866109ef5af9f29f1986484e0f6de7040
 workflow-type: tm+mt
-source-wordcount: 1236
+source-wordcount: 1242
 ht-degree: 1%
 
 ---
@@ -139,11 +125,13 @@ ht-degree: 1%
 
 1. 조각에서 편집 가능한 모든 필드는 조각 속성 아래의 **[!UICONTROL 설정]** 탭에 표시됩니다.
 
-   ![](assets/fragment-editable-rich-fields.png)
+   아래 예에서 이미지 소스와 대체 텍스트는 물론 &quot;제목&quot;/&quot;부제&quot; 필드와 &quot;추가 정보&quot; 버튼 URL을 편집할 수 있습니다.
+
+   ![](assets/fragment-editable-fields.png)
 
 1. 중앙 캔버스에서 편집 가능한 필드 위로 마우스를 가져갑니다. 필드는 녹색으로 강조 표시되고 포함된 텍스트를 클릭하면 연필 아이콘이 표시됩니다.
 
-   ![](assets/fragment-editable-field-selected.png){width="100%" align="center"}
+   ![](assets/fragment-editable-field-selected.png){width="80%" align="center"}
 
 1. 중앙 이메일 Designer 캔버스에서 직접 필드 텍스트를 인라인으로 편집합니다.
 
@@ -155,15 +143,11 @@ ht-degree: 1%
 
    ![전자 메일 Designer 도구 모음의 서식 있는 텍스트 옵션](assets/fragment-editable-fields-rich-text.png)
 
-   >[!IMPORTANT]
+   >[!TIP]
    >
    >리치 텍스트 편집 기능이 도입되기 전에 만들어진 조각은 기본적으로 편집 가능한 필드가 텍스트 전용 모드로 설정되어 있습니다. 전체 서식 옵션을 사용하려면 **[!UICONTROL 조각 열기]** 단추를 사용하여 조각 편집기로 이동하고 **[!UICONTROL 활성화]**&#x200B;를 클릭하여 서식 있는 텍스트 모드를 잠금 해제하고 조각을 **[!UICONTROL 저장]**&#x200B;하십시오. [자세히 알아보기](../content-management/customizable-fragments.md#rich-text-visual)
-   >
-   >![](assets/email-custom-fragment-compatibility.png){width="70%" align="center"}
 
-1. 아래 예에서 이미지 소스와 대체 텍스트는 물론 &quot;제목&quot;/&quot;부제&quot; 필드와 &quot;추가 정보&quot; 버튼 URL을 편집할 수 있습니다.
-
-   ![](assets/fragment-editable-fields.png)
+   ![전자 메일 Designer의 호환성 경고](assets/email-custom-fragment-compatibility.png){width="50%" align="center" zoomable="yes"}
 
 1. **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭하여 편집 가능한 콘텐츠와 스타일이 렌더링되는 방식을 확인할 수 있습니다. [콘텐츠 미리 보기에 대한 자세한 정보](../content-management/preview-test.md)
 
