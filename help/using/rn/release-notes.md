@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f62163759dc065c30057e02a064af56e269fc971
+source-git-commit: 3a9192700114244b0c010c410b19ecfbc203db02
 workflow-type: tm+mt
-source-wordcount: 3646
+source-wordcount: 3659
 ht-degree: 27%
 
 ---
@@ -359,8 +359,6 @@ ht-degree: 27%
 </tbody>
 </table>
 
-+++ 곧 출시 예정 — **아래 정보는 변경될 수 있습니다.**
-
 <table>
 <thead>
 <tr>
@@ -373,10 +371,15 @@ ht-degree: 27%
 <p>이제 Journey Optimizer에는 이메일 Designer에 직접 자동화된 기술 유효성 검사가 포함되어 있으므로 보내기 전에 HTML 및 CSS 문제를 catch할 수 있습니다.</p>
 <p>이 검사에서는 <code>&lt;script&gt;</code> 및 <code>&lt;base&gt;</code> 태그, Microsoft Outlook의 레이아웃을 나눌 수 있는 빈 div, HTML 메타 새로 고침 태그, Gmail에서 렌더링 오류를 트리거하는 CSS 또는 HTML 크기 임계값과 같은 지원되지 않는 요소를 다룹니다.</p>
 <p>결과는 상황별 세부 정보와 원클릭 수정 사항(사용 가능한 경우)으로 작성 패널에 직접 오류, 경고 또는 정보 알림으로 표시되므로 편집기를 종료하지 않고도 문제를 해결할 수 있습니다.</p>
+<p><img src="assets/do-not-localize/content-check.gif"></p>
+<p>자세한 내용은 <a href="../email/content-check.md">세부 설명서</a>를 참조하십시오.</p>
+<p>사용 가능한 날짜: 2026년 6월 18일</p>
 </td>
 </tr>
 </tbody>
 </table>
+
++++ 곧 출시 예정 — **아래 정보는 변경될 수 있습니다.**
 
 <table>
 <thead>
