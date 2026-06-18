@@ -8,20 +8,20 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: 이메일, 콘텐츠 확인, HTML, CSS, 유효성 검사, 렌더링, 품질
-source-git-commit: 5d21c045ce6b1fd70f2f966c85d364e2fcfb4bb8
+source-git-commit: f7185c276e785e1b7c7ca8d7e4f9c01add6a3383
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1027'
 ht-degree: 2%
 
 ---
 
 
-# 이메일 Designer에서 컨텐츠 확인 {#content-checks}
+# 이메일 Designer의 콘텐츠 확인 {#content-check}
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_content_check"
->title="콘텐츠 확인"
->abstract="보내기 전에 이메일에서 HTML 및 CSS 문제를 감지하고 수정합니다. 이 검사는 Gmail 또는 Microsoft Outlook에서 렌더링 실패를 트리거하는 지원되지 않는 태그, 빈 div 및 크기 임계값을 포함합니다. 문제는 오류, 경고 또는 정보 알림으로 표시됩니다."
+>title="이메일 콘텐츠 유효성 검사"
+>abstract="콘텐츠를 보내기 전에 이메일 내 HTML 및 CSS 문제를 자동으로 감지하는 콘텐츠 확인입니다. 지원되지 않는 태그, 빈 div 및 Gmail 또는 Microsoft Outlook에서 렌더링을 중단할 수 있는 크기 제한에 플래그를 지정합니다. 문제는 상황별 세부 정보와 원클릭 수정 사항이 있는 경우 오류, 경고 또는 정보 알림으로 표시됩니다."
 
 [!DNL Journey Optimizer]에는 전자 메일 Designer에서 직접 자동화된 기술 유효성 검사가 포함되어 있어 보내기 전에 HTML 및 CSS 문제를 확인할 수 있습니다.
 
