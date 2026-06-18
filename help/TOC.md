@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f7185c276e785e1b7c7ca8d7e4f9c01add6a3383
+source-git-commit: 4624b48096db5ff3d89537d3535195a98e6846fb
 workflow-type: tm+mt
 source-wordcount: '3360'
 ht-degree: 99%
@@ -31,14 +31,14 @@ ht-degree: 99%
    + [설명서 업데이트](using/rn/documentation-updates.md)
    + {hide-from-toc}[향상된 여정 캔버스](using/rn/new-canvas.md)
 + 시작하기 {#get-started}
-   + [시작하기](/help/rp_landing_pages/get-started-landing-page.md)
-   + {hide-from-toc}[온보딩 허브](using/start/onboarding-hub.md)
+   + [여기서 시작](/help/rp_landing_pages/get-started-landing-page.md)
+   + [온보딩 허브](using/start/onboarding-hub.md)
    + 기본 사항 {#essentials}
       + [Journey Optimizer 소개](using/start/get-started.md)
       + [작동 방식 이해](using/start/understanding-ajo.md)
       + [AI 및 지능형 기능](using/start/ai-features.md)
       + [주요 용어](using/start/terminology.md)
-      + {hide-from-toc}[이 작업의 기능](using/start/ajo-use-case-guide.md)
+      + [이 작업의 기능은 무엇입니까?](using/start/ajo-use-case-guide.md)
       + [가드레일 및 제한 사항](using/start/guardrails.md)
       + {hide-from-toc}[패키지 및 기능](using/start/ajo-packages.md)
       + {hide-from-toc}[기능 가용성](using/start/ajo-features-availability.md)
