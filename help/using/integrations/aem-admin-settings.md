@@ -7,15 +7,12 @@ feature: Integrations
 topic: Administration
 role: Admin
 level: Experienced
-hide: true
 keywords: AEM, 콘텐츠 조각, 관리, 저장소, 인증, 작성자, 게시
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: 7cf2235a14f9ebb49fac02161743f75fee141504
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
+source-git-commit: 001f14c03b0142402a485b049dfb62c9837c7928
 workflow-type: tm+mt
-source-wordcount: 467
+source-wordcount: 512
 ht-degree: 0%
 
 ---
@@ -28,7 +25,7 @@ ht-degree: 0%
 
 >[!ENDSHADEBOX]
 
-Adobe Journey Optimizer은 **[!DNL Adobe Experience Manager as a Cloud Service]**&#x200B;과(와) 통합되므로 여정 및 캠페인에서 **콘텐츠 조각**&#x200B;을(를) 사용할 수 있습니다. **콘텐츠 조각**&#x200B;은(는) 기본적으로 Adobe Experience Manager 게시 리포지토리에서 읽혀집니다. 관리자는 **[!UICONTROL AEM 통합]** 메뉴에서 작성자 전용으로 전환하거나 게시 액세스를 조정할 수 있습니다.
+Adobe Journey Optimizer은 **[!DNL Adobe Experience Manager as a Cloud Service]** 및 **[!DNL Adobe Experience Manager Managed Service]**&#x200B;과(와) 통합되므로 여정 및 캠페인에서 **콘텐츠 조각**&#x200B;을(를) 사용할 수 있습니다. **콘텐츠 조각**&#x200B;은(는) 기본적으로 Adobe Experience Manager 게시 리포지토리에서 읽혀집니다. 관리자는 **[!UICONTROL AEM 통합]** 메뉴에서 작성자 전용으로 전환하거나 게시 액세스를 조정할 수 있습니다.
 
 ➡️ 저장소가 구성되면 Journey Optimizer에서 작성 및 선택 작업을 위해 [Experience Manager 콘텐츠 조각을 사용하여 작업](../integrations/aem-fragments.md)을 계속합니다.
 
@@ -44,7 +41,7 @@ Journey Optimizer은 조직, 샌드박스 및 Adobe Experience Manager 저장소
 
 1. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL AEM 통합]**&#x200B;에 액세스합니다.
 
-1. **[!UICONTROL 통합 만들기]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 구성 만들기]**&#x200B;를 클릭합니다.
 
    ![](assets/aem-admin-settings-1.png)
 
@@ -52,7 +49,7 @@ Journey Optimizer은 조직, 샌드박스 및 Adobe Experience Manager 저장소
 
    ![](assets/aem-admin-settings-6.png)
 
-1. 구성할 리포지토리를 선택하고 **[!UICONTROL 다음]**&#x200B;을(를) 클릭합니다.
+1. **[!DNL Adobe Experience as a Cloud Service]**&#x200B;을(를) 사용하는 경우 구성할 리포지토리를 선택하고 **[!UICONTROL 다음]**&#x200B;을(를) 클릭합니다.
 
    또한 **[!UICONTROL 보기]**&#x200B;를 클릭하여 이 저장소에 액세스할 수 있습니다.
 
@@ -76,11 +73,15 @@ Journey Optimizer은 조직, 샌드박스 및 Adobe Experience Manager 저장소
 
    +++ 게시 인스턴스 설정
 
+   기본적으로 모든 **[!DNL Adobe Experience Manager as a Cloud Service]** 리포지토리는 **publish** 인스턴스를 사용하도록 구성됩니다. 이러한 설정을 변경하지 않고 콘텐츠 조각 테스트 단계를 계속 진행할 수 있습니다.
+
+   게시 인스턴스가 **authenticated**&#x200B;이거나 사용자 지정 게시 도메인을 사용해야 하는 경우 아래 단계를 따르십시오.
+
    1. 게시 인스턴스 설정을 켜려면 **[!UICONTROL 게시 인스턴스 설정]**&#x200B;을(를) 선택하십시오.
 
       ![](assets/aem-admin-settings-4.png)
 
-   1. 필요한 경우 게시 인스턴스에 대한 요청에 서비스 자격 증명이 포함되도록 **[!UICONTROL 게시 인스턴스에 토큰 보내기]**&#x200B;를 사용하도록 설정하십시오.
+   1. 서비스 자격 증명이 게시 인스턴스 요청에 포함되도록 **[!UICONTROL 게시 인스턴스에 토큰 보내기]**&#x200B;를 사용하도록 설정하십시오.
 
    1. 인증을 위해 유효한 **[!UICONTROL 서비스 자격 증명 JSON]**&#x200B;을(를) 붙여 넣으십시오.
 
