@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: a122a8a609748b46480a9664f1efc5524582deca
+source-git-commit: 95efd7b0af3f78ba0e7342a5927c7e2d4b9b701f
 workflow-type: tm+mt
-source-wordcount: 8429
-ht-degree: 96%
+source-wordcount: 8472
+ht-degree: 95%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 96%
 이 페이지에는 월별 릴리스 기능 및 개선 사항과 관련된 업데이트 외에도 [!DNL Journey Optimizer] 설명서의 모든 최신 변경 사항이 나와 있습니다.
 
 ## 2026년 6월 {#june-2026}
+
+* **Adobe Experience Cloud**&#x200B;에 대한 참조가 [!DNL Journey Optimizer] 설명서에서 **[!DNL Adobe CX Enterprise]** 브랜드와 정렬되었습니다.
 
 * **게재 기능 시작** 페이지가 수신자별 FBL이 없는 새 **공급자** 하위 섹션으로 업데이트되었습니다. Gmail/Google Workspace, Apple iCloud 및 Corporate Microsoft 365/Exchange Online 등 수신자별 스팸 불만을 반환하지 않는 주요 사서함 공급자를 나열하고 이러한 서비스를 사용하는 수신자에게 제외 목록 항목의 부재가 예상되는 이유를 설명합니다. [자세히 보기](../reports/deliverability.md#providers-no-fbl)
 
@@ -40,6 +42,8 @@ ht-degree: 96%
 * 이제 **보낸 사람 헤더** 설명서에 **[!UICONTROL 보낸 사람 이름]**&#x200B;과(와) **[!UICONTROL 보낸 사람 전자 메일]**&#x200B;을(를) 모두 설정하거나 모두 비워 두어야 한다고 명시되어 있습니다. 그렇지 않으면 여정 및 캠페인을 게시할 수 없습니다. [자세히 보기](../email/header-parameters.md#sender-header)
 
 ## 2026년 5월 {#may-2026}
+
+* 시각적 조각에서 동적 콘텐츠를 사용할 때의 제한 사항과 모범 사례가 가독성을 개선하기 위해 단일 **조각의 조건부 콘텐츠 관리** 섹션에 병합되었습니다. [자세히 보기](../email/use-visual-fragments.md#fragment-dynamic-content)
 
 * 사용자가 키 레지스트리에서 키를 보고 만들고 회전하고 해지할 수 있는 **키 레지스트리 관리**&#x200B;와 키 레지스트리 목록 및 키 세부 정보를 볼 수 있는 **키 레지스트리 보기** 등 두 가지 높은 수준의 권한을 새로 추가했습니다. [자세히 보기](../administration/high-low-permissions.md#administration-permissions)
 
@@ -300,7 +304,7 @@ ht-degree: 96%
 
 * 실시간(RT) 엔드포인트가 변경될 때 기존 사용자 지정 작업을 업데이트하는 방법을 설명하는 새로운 섹션을 Campaign v7/v8 통합 설명서에 추가했습니다. 섹션에는 엔드포인트 URL 업데이트, 연결 테스트 및 저장 전 변경 사항 유효성 검사에 대한 단계별 지침이 포함되어 있습니다. [자세히 보기](../action/acc-action.md#update-action)
 
-* 다이내믹 콘텐츠와 함께 잠금 해제된 다른 조각 내 다이내믹 콘텐츠가 포함되어 있고 조각이 지원되지 않는 중첩에 대해 사용자에게 경고하는 새로운 제한 사항 및 모범 사례 섹션이 시각적 조각 설명서에 추가되었습니다. 안내서에는 호환성 모드 문제에 대한 문제 해결 단계 및 적절한 이메일 구조 설계를 위한 권장 사항이 포함되어 있습니다. [자세히 보기](../email/use-visual-fragments.md#fragment-dynamic-content)
+* 조건부 콘텐츠가 있는 잠금 해제된 다른 조각 내에 조건부 콘텐츠가 포함된 조각이 지원되지 않는 중첩에 대해 사용자에게 경고하기 위해 시각적 조각 문서에 새 제한 사항 및 모범 사례 섹션이 추가되었습니다. 안내서에는 호환성 모드 문제에 대한 문제 해결 단계 및 적절한 이메일 구조 설계를 위한 권장 사항이 포함되어 있습니다. [자세히 보기](../email/use-visual-fragments.md#fragment-dynamic-content)
 
 * 사용자가 누락된 보고 데이터 문제를 해결하는 데 도움이 되는 문제 해결 섹션이 여정 라이브 보고 설명서에 추가되었습니다. 이 섹션에서는 보고 데이터 세트와의 여정 이름 동기화, 데이터 새로 고침 시간, 액세스 권한 확인, 여정 상태 요구 사항에 대해 설명합니다. [자세히 보기](../building-journeys/report-journey.md#troubleshooting-missing-data)
 
@@ -885,7 +889,7 @@ ht-degree: 96%
 * The **reactions** event documentation page has been updated. [Read more](../building-journeys/reaction-events.md)
 * Videos for Decision management capabilities have been updated to reflect Journey Optimizer user interface. [Read more](../offers/get-started/starting-offer-decisioning.md)
 * The **Get Started with Datasets** section has been improved to detail how to access and create datasets. [Read more](../data/get-started-datasets.md)
-* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=ko)
+* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html)
 * The **Create message presets** section now specifies that you cannot proceed with preset creation while the selected IP pool is under edition (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. [Read more](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * The message presets **URL tracking** section has been updated to reflect minor changes in the user interface. [Read more](../configuration/channel-surfaces.md#url-tracking)
 

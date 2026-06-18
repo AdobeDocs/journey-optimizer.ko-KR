@@ -26,9 +26,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+source-git-commit: 617d0a90751c28b033d6c010c5314cb489da9d4a
 workflow-type: tm+mt
-source-wordcount: 1551
+source-wordcount: 1559
 ht-degree: 18%
 
 ---
@@ -181,7 +181,7 @@ ht-degree: 18%
    >
    >게시된 조각을 편집할 때 개인화 필드를 제거할 수 있지만 조각 콘텐츠에 새 개인화 필드를 추가할 수는 없습니다. 개인화된 속성을 추가하려면 조각을 복제해야 합니다. [자세히 알아보기](#adding-new-attributes)
 
-1. 변경 사항이 준비되면 변경 사항을 저장하고 **[!UICONTROL 게시]** 단추를 클릭하여 수정 사항을 실시간으로 적용합니다. [자세히 알아보기](create-fragments.md#publish)
+1. 변경 사항이 준비되면 저장한 다음 조각 세부 정보 화면으로 돌아가서 **[!UICONTROL 게시]** 단추를 클릭하여 수정 사항을 실시간으로 적용합니다. [자세히 알아보기](create-fragments.md#publish)
 
 조각을 편집하면 원래 조각의 상속을 중단한 콘텐츠를 제외하고, 라이브 여정 및 캠페인을 포함하여 해당 조각을 사용하는 모든 콘텐츠에 변경 사항이 자동으로 전파됩니다.
 

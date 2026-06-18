@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0e5c6d3a18b21a6cd358834e6e088dee522108d9
+source-git-commit: f62163759dc065c30057e02a064af56e269fc971
 workflow-type: tm+mt
-source-wordcount: 3634
-ht-degree: 26%
+source-wordcount: 3646
+ht-degree: 27%
 
 ---
 
@@ -340,12 +340,31 @@ ht-degree: 26%
 
   사용 가능한 날짜: 2026년 6월 1일
 
+<table>
+<thead>
+<tr>
+<th><strong>조각에 대해 편집 가능한 필드의 리치 텍스트</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 이메일 콘텐츠에 사용되는 사용자 지정 가능한 조각에 서식 있는 텍스트를 추가할 수 있습니다.</p>
+<p>예를 들어 텍스트 구성 요소를 이메일 Designer에서 편집 가능한 필드로 사용하는 경우 콘텐츠의 형식(예: 굵은 글꼴 및 기울임꼴)을 직접 지정하고 하이퍼링크를 삽입할 수 있습니다.</p>
+<p><img src="assets/do-not-localize/rich-text-editable-fields.gif"></p>
+<p>자세한 내용은 <a href="../content-management/customizable-fragments.md#rich-text-visual">세부 설명서</a>를 참조하십시오.</p>
+<p>사용 가능한 날짜: 2026년 6월 말</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 +++ 곧 출시 예정 — **아래 정보는 변경될 수 있습니다.**
 
 <table>
 <thead>
 <tr>
-<th><strong>이메일 Designer의 콘텐츠 품질 검사</strong><br/></th>
+<th><strong>이메일 Designer의 콘텐츠 확인</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -370,22 +389,6 @@ ht-degree: 26%
 <td>
 <p>이제 Journey Optimizer에는 이메일 렌더링 방식에 영향을 주지 않고 불필요한 공백, 댓글 및 중복 코드를 제거하여 이메일 HTML의 크기를 줄이는 옵션이 포함됩니다.</p>
 <p>이렇게 하면 일부 이메일 공급자가 메시지를 플래그 지정하거나 거부하는 데 사용하는 크기 임계값을 방지하여 게재 능력을 향상시킬 수 있으며, 수신자의 로드 시간을 줄일 수 있습니다.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>조각에 대해 편집 가능한 필드의 리치 텍스트</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 이메일 콘텐츠에 사용되는 사용자 지정 가능한 조각에 서식 있는 텍스트를 추가할 수 있습니다.</p>
-<p>예를 들어 텍스트 구성 요소를 이메일 Designer에서 편집 가능한 필드로 사용하는 경우 콘텐츠의 형식(예: 굵은 글꼴 및 기울임꼴)을 직접 지정하고 하이퍼링크를 삽입할 수 있습니다.</p>
 </td>
 </tr>
 </tbody>
