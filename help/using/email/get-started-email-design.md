@@ -10,30 +10,16 @@ level: Beginner, Intermediate
 keywords: 이메일, 디자인, Stock, 자산
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 TQID: https://experienceleague.adobe.com/fyUHQD4jpIUI2KdyrGbgktEhNNc4OWYRJ8AkgZhrIoQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: f550d0f2-143d-4093-9463-467fbec95fcc
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: f550d0f2-143d-4093-9463-467fbec95fccid: fb9a80eb-bebc-492f-a0e9-584595621ebbid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 94f6692162ca7d37cf5d9df4c0f48371bafec9fc
 workflow-type: tm+mt
-source-wordcount: 776
-ht-degree: 95%
+source-wordcount: 821
+ht-degree: 87%
 
 ---
 
@@ -47,7 +33,7 @@ ht-degree: 95%
 
 이메일 디자이너에 액세스하고 이메일 콘텐츠를 디자인하려면 먼저 여정 또는 캠페인에서 [이메일을 만들어야](create-email.md) 합니다.
 
-그런 다음 [!DNL Journey Optimizer]&#x200B;**이메일 디자인 기능**&#x200B;을 사용하여 기존 콘텐츠를 가져오거나 응답형 이메일을 처음부터 빌드할 수 있습니다. [자세히 알아보기](content-from-scratch.md)
+그런 다음 [!DNL Journey Optimizer]**이메일 디자인 기능**&#x200B;을 사용하여 기존 콘텐츠를 가져오거나 응답형 이메일을 처음부터 빌드할 수 있습니다. [자세히 알아보기](content-from-scratch.md)
 
 이메일 디자이너를 통해 다음 작업도 수행할 수 있습니다.
 
@@ -85,17 +71,25 @@ ht-degree: 95%
 
    ![](assets/email_designer_create_options.png)
 
-1. 이메일 콘텐츠를 정의하고 개인화한 다음에는 콘텐츠를 내보내 유효성 검사를 하거나 나중에 사용할 수 있습니다. HTML과 자산이 들어 있는 zip 파일을 컴퓨터에 저장하려면 **[!UICONTROL HTML 내보내기]**&#x200B;를 클릭합니다.
+1. 이메일 콘텐츠를 정의하고 개인화하면 보내기 전에 작성 패널에서 직접 **자동화된 콘텐츠 확인**&#x200B;을 통해 이메일 콘텐츠를 확인하여 지원되지 않는 태그, 빈 div 및 크기 제한 위반과 같은 HTML 및 CSS 문제를 확인할 수 있습니다. [자세히 알아보기](content-check.md)
 
-   ![](assets/email_designer_export.png)
+   ![문제가 있는 전자 메일 Designer의 콘텐츠 확인 창](assets/content-check.png)
 
 1. 또한 콘텐츠 품질을 확인하여 가독성, 콘텐츠 일치도, 효과성 관련 잠재적인 문제를 찾을 수 있습니다. [콘텐츠 품질 확인에 대해 자세히 알아보기](../content-management/brands-score.md#validate-quality)
+
+   ![](../content-management/assets/brand-score-7.png)
+
+1. 마지막으로 유효성 검사 또는 나중에 사용하기 위해 콘텐츠를 내보낼 수 있습니다. HTML과 자산이 들어 있는 zip 파일을 컴퓨터에 저장하려면 **[!UICONTROL HTML 내보내기]**&#x200B;를 클릭합니다.
+
+   ![](assets/email_designer_export.png)
 
 ## 이메일 디자인 모범 사례 {#best-practices}
 
 이메일 전송 시 수신자가 이메일을 전달할 수 있다는 것을 고려해야 합니다. 이로 인해 이메일 렌더링에 문제가 발생하는 경우도 있습니다. 이는 “is-desktop-hidden” CSS 클래스를 사용하여 모바일 디바이스에 이미지를 숨기는 경우와 같이, 특히 이메일 공급자가 지원할 수 없을 수도 있는 전달용 CSS 클래스를 사용하는 경우에 해당됩니다.
 
-이런 렌더링 문제를 최소화하기 위해 이메일 디자인 구조를 가능한 한 간단하게 유지하는 것이 좋습니다. 데스크톱과 모바일 디바이스 모두에 적합한 단일 디자인을 사용하고, 복잡한 CSS 클래스나 기타 모든 이메일 클라이언트가 완전히 지원하지 않을 가능성이 있는 디자인 요소는 사용하지 않는 것이 좋습니다. 이 모범 사례를 적용하면 수신자가 이메일을 보거나 전달하는 방식에 관계없이 이메일이 일관되게 렌더링되도록 할 수 있습니다.
+이런 렌더링 문제를 최소화하기 위해 이메일 디자인 구조를 가능한 한 간단하게 유지하는 것이 좋습니다. 데스크톱과 모바일 디바이스 모두에 적합한 단일 디자인을 사용하고, 복잡한 CSS 클래스나 기타 모든 이메일 클라이언트가 완전히 지원하지 않을 가능성이 있는 디자인 요소는 사용하지 않는 것이 좋습니다.
+
+이 모범 사례를 적용하면 수신자가 이메일을 보거나 전달하는 방식에 관계없이 이메일이 일관되게 렌더링되도록 할 수 있습니다.
 
 이메일 디자인에 대한 모범 사례는 아래 테이블을 참조하십시오.
 
@@ -111,8 +105,8 @@ ht-degree: 95%
 
 메시지 편집기로 이메일 콘텐츠를 만드는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416234?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
 A/B 테스트를 위한 콘텐츠 실험을 구성하여 비즈니스 목표 달성에 가장 도움이 되는 이메일 콘텐츠를 탐색하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447338?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)
