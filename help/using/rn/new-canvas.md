@@ -18,9 +18,9 @@ subfeature_v2:
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 561
+source-wordcount: 558
 ht-degree: 2%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 2%
 
 ## 향상된 여정 캔버스 디자인
 
-새로운 여정 모델을 통해 Adobe Experience Cloud 솔루션 및 앱 에코시스템에 완벽하게 맞는 새롭고 개선된 **여정 캔버스 UI**&#x200B;를 도입하여 직관적이고 효율적인 사용자 경험을 제공합니다. 새 모델의 모든 여정은 해당 새 디자인을 기반으로 합니다.
+새로운 여정 모델을 통해 [!DNL Adobe CX Enterprise] 솔루션 및 앱 에코시스템에 완벽하게 맞는 새롭고 개선된 **여정 캔버스 UI**&#x200B;를 도입하여 직관적이고 효율적인 사용자 경험을 제공합니다. 새 모델의 모든 여정은 해당 새 디자인을 기반으로 합니다.
 
 ![](assets/new-canvas3.gif)
 

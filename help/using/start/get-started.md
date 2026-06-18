@@ -33,9 +33,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 1323
+source-wordcount: 1316
 ht-degree: 97%
 
 ---
@@ -160,7 +160,7 @@ You can also create audience-based campaigns to send messages.
 
 이 설명서는 Journey Optimizer의 현재 릴리스에 대해 설명하며, 별도로 언급되지 않는 한 B2C 및 B2B Edition 사용자 모두에게 적용됩니다. 사용자 환경에서 사용할 수 있는 구성 요소 및 기능은 [사용 권한](../administration/permissions.md) 및 [라이선스 패키지](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}에 따라 다릅니다. 질문이 있는 경우 Adobe 고객 성공 관리자 또는 Adobe 담당자에게 문의하세요.
 
-Adobe Experience Cloud 일반 개인 정보 보호 지침 및 절차는 [!DNL Journey Optimizer]에 적용됩니다. [Adobe Experience Cloud 개인 정보에 대한 자세한 내용을 살펴보십시오](https://www.adobe.com/kr/privacy/experience-cloud.html){target="_blank"}.
+[!DNL Adobe CX Enterprise] 일반 개인 정보 보호 지침 및 절차가 [!DNL Journey Optimizer]에 적용됩니다. [자세한 정보 [!DNL Adobe CX Enterprise] 개인 정보](https://www.adobe.com/kr/privacy/experience-cloud.html){target="_blank"}.
 
 
 ## 아키텍처 {#architecture}

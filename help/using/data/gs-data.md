@@ -28,9 +28,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 2652
+source-wordcount: 2650
 ht-degree: 98%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 98%
 
 ## Journey Optimizer에서 Adobe Experience Platform 데이터를 사용하는 방법 {#aep-data}
 
-[!DNL Adobe Journey Optimizer]은(는) [!DNL Adobe Experience Platform] 기반으로 빌드됩니다. 별도의 격리된 데이터 저장소를 유지하지 않습니다. 대신 여타 Experience Cloud 애플리케이션과 동일한 데이터 기반을 사용합니다.
+[!DNL Adobe Journey Optimizer]은(는) [!DNL Adobe Experience Platform] 기반으로 빌드됩니다. 별도의 격리된 데이터 저장소를 유지하지 않습니다. 대신 다른 [!DNL CX Enterprise] 응용 프로그램과 동일한 데이터 기초를 사용합니다.
 
 스키마 및 데이터 세트는 Adobe Experience Platform에 있습니다. ID 및 [실시간 고객 프로필](../audience/get-started-profiles.md)은 ID 서비스 및 프로필 서비스에서 관리합니다. Journey Optimizer는 Adobe Experience Platform에서 프로필 및 이벤트 데이터를 읽어 여정 조건을 평가하고 메시지를 개인화하고 오퍼를 선택합니다. 보내기, 열, 클릭, 바운스 이벤트 및 여정 단계 이벤트와 같은 상호 작용 데이터를 Experience Platform 데이터 세트에 다시 기록합니다. 또한 추가 데이터 세트를 조회하면서 런타임 시 프로필에 해당 데이터를 복사하지 않도록 할 수도 있습니다.
 

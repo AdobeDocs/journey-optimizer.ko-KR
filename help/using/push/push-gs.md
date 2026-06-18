@@ -24,9 +24,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 856
+source-wordcount: 853
 ht-degree: 4%
 
 ---
@@ -81,7 +81,7 @@ ht-degree: 4%
    * [FCM(Firebase Cloud Messaging)](https://firebase.google.com/docs/cloud-messaging) - Android 모바일 앱으로 알림을 보냅니다.
    * [Apple APNs(푸시 알림 서비스)](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html) - iOS 모바일 앱에 알림을 보냅니다.
 
-* Android 및 iOS 호환 SDK를 통해 모바일에 대한 클라이언트측 통합 API를 제공하는 **Adobe Experience Platform Mobile SDK**. SDK은 푸시 메시지에 대한 다양한 API를 노출하고 푸시 토큰을 등록하거나 푸시 추적 이벤트 또는 기타 사용자 지정 경험 이벤트를 Adobe Experience Platform에 전송하는 것과 같은 데이터 흐름을 사용하는 [!DNL Adobe Journey Optimizer] 확장을 제공합니다. SDK은 타사 파트너 기능뿐만 아니라 다른 Adobe Experience Cloud을 사용할 수 있도록 하는 기타 다양한 확장도 제공합니다.
+* Android 및 iOS 호환 SDK를 통해 모바일에 대한 클라이언트측 통합 API를 제공하는 **Adobe Experience Platform Mobile SDK**. SDK은 푸시 메시지에 대한 다양한 API를 노출하고 푸시 토큰을 등록하거나 푸시 추적 이벤트 또는 기타 사용자 지정 경험 이벤트를 Adobe Experience Platform에 전송하는 것과 같은 데이터 흐름을 사용하는 [!DNL Adobe Journey Optimizer] 확장을 제공합니다. SDK은 다른 [!DNL Adobe CX Enterprise]과(와) 타사 파트너 기능을 사용할 수 있는 다양한 기타 확장 기능도 제공합니다.
 
   SDK 통합에도 다음과 같은 Adobe Experience Platform [데이터 수집](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko){target="_blank"} 서비스 설정이 필요합니다.
 

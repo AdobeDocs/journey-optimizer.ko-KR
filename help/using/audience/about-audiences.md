@@ -25,9 +25,9 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 654
+source-wordcount: 651
 ht-degree: 18%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 18%
 
 대상자는 유사한 행동 및/또는 특성을 공유하는 사람들의 컬렉션입니다. Adobe Experience Platform 세분화 서비스를 사용하여 Adobe Experience Platform에서 중앙 집중식으로 구성 및 유지 관리되며 Journey Optimizer 내에서 쉽게 액세스하여 여정 및 캠페인에서 활성화할 수 있습니다.
 
-Adobe Journey Optimizer은 대상을 만들고, 관리하고, 보강하여 마케팅 활동을 강화할 수 있는 강력한 도구를 제공합니다. Journey Optimizer을 Adobe Real-Time Customer Data Platform과 결합하면 보다 복잡한 세그멘테이션을 위해 대상에 계층화하고 다른 Adobe Experience Cloud 솔루션과 대상을 양방향으로 공유할 수 있습니다.
+Adobe Journey Optimizer은 대상을 만들고, 관리하고, 보강하여 마케팅 활동을 강화할 수 있는 강력한 도구를 제공합니다. Adobe Real-Time Customer Data Platform과 결합하면 Journey Optimizer을 사용하여 보다 복잡한 세분화를 위해 대상에 레이어를 적용하고 다른 [!DNL Adobe CX Enterprise] 솔루션과 대상을 양방향으로 공유할 수 있습니다.
 
 실시간 데이터 스트림 또는 일괄 업로드가 발생하면 데이터 세트가 업데이트되고 Journey Optimizer은 실시간으로 개인 사용자를 대상 및 여정으로 동적으로 이동합니다.
 

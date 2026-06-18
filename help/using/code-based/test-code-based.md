@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 899
+source-wordcount: 896
 ht-degree: 21%
 
 ---
@@ -123,7 +123,7 @@ ht-degree: 21%
 
      >[!NOTE]
      >
-     >**Adobe Experience Platform Assurance**&#x200B;은(는) 모바일 앱에서 데이터를 수집하거나 경험을 제공하는 방법을 검사, 증명, 시뮬레이션 및 확인하는 데 도움이 되는 Adobe Experience Cloud의 제품입니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/assurance/home){target="_blank"}
+     >**Adobe Experience Platform Assurance**&#x200B;은(는) 모바일 앱에서 데이터를 수집하거나 경험을 제공하는 방법을 검사, 증명, 시뮬레이션 및 확인하는 데 도움이 되는 [!DNL Adobe CX Enterprise]의 제품입니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/assurance/home){target="_blank"}
 
 1. 코드 기반 구성에서 [다른 플랫폼](code-based-configuration.md#other)을 사용하는 경우 드롭다운 목록에서 미리 보려는 [표면 URI](code-based-surface.md#surface-uri)을(를) 선택하십시오.
 

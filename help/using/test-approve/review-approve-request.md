@@ -17,9 +17,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 subfeature_v2:
   - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-source-git-commit: 36b855c6d66a614f4c0374cbd1b4746ec68fde21
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 376
+source-wordcount: 374
 ht-degree: 3%
 
 ---
@@ -67,4 +67,4 @@ ht-degree: 3%
 
 >[!NOTE]
 >
-> 이메일을 통해 승인 알림을 받지 못하는 경우 Experience Cloud 프로필에서 구독 환경 설정을 업데이트해야 합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/core-services/interface/features/account-preferences)
+> 전자 메일을 통해 승인 알림을 받지 못한 경우 [!DNL CX Enterprise] 프로필에서 구독 환경 설정을 업데이트해야 합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/core-services/interface/features/account-preferences)

@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 416
+source-wordcount: 413
 ht-degree: 10%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 10%
 
 [!DNL Journey Optimizer]을(를) 사용하면 다른 사용자에게 할당된 권한을 정의하고 관리할 수 있습니다. 권한은 제품 내 기능 및 기능에 대한 액세스를 승인 또는 거부하는 권한 및 제한 세트입니다.
 
-[!DNL Journey Optimizer]에 대한 액세스 제어는 Adobe Experience Cloud의 **권한**&#x200B;을 통해 제공됩니다. 이 기능은 권한 및 샌드박스를 사용자와 연결하는 역할 및 정책을 활용합니다.
+[!DNL Adobe CX Enterprise]의 **권한**&#x200B;을 통해 [!DNL Journey Optimizer]에 대한 액세스 제어를 제공합니다. 이 기능은 권한 및 샌드박스를 사용자와 연결하는 역할 및 정책을 활용합니다.
 
 Journey Optimizer에 대한 액세스 제어를 구성하려면 조직에 대한 시스템 또는 제품 관리자 권한이 있어야 합니다. 권한을 부여하거나 철회할 수 있는 최소 역할은 제품 관리자입니다. 권한을 관리할 수 있는 다른 관리자 역할은 시스템 관리자(제한 없음)입니다. 자세한 내용은 관리자 역할에 대한 [Adobe 도움말 센터 문서](https://helpx.adobe.com/kr/enterprise/using/admin-roles.html){target="_blank"}를 참조하십시오.
 
