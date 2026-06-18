@@ -11,7 +11,7 @@ keywords: 통합, 공급업체, 서드파티
 subfeature_v2: []
 feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
+source-git-commit: bfb28a935dffca7c381fe72339abc840d2ab297b
 workflow-type: tm+mt
 source-wordcount: 10185
 ht-degree: 5%
@@ -1208,6 +1208,10 @@ Marigold는 충성도 및 참여 API를 노출하며, 호스트는 지역에 따
 Adobe Target에는 권한에 따라 서버측 또는 통합 경험을 위한 권장 사항 및 게재 API가 포함되어 있습니다.
 
 일반적인 사용 사례에는 Journey Optimizer에서 작성한 경험에 권장 사항을 삽입하고 프로필 또는 Experience Platform 컨텍스트에 키를 맞추는 작업이 포함됩니다.
+
+<!--
+➡️ After you activate the integration, learn how to [use Adobe Target data in message templates](integrations-personalization.md#use-adobe-target-in-templates).
+-->
 
 >[!ENDSHADEBOX]
 

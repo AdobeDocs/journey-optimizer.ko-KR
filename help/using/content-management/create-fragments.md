@@ -26,9 +26,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+source-git-commit: 73aa488608dfa96162cc77ac3caa18e6dc13fb01
 workflow-type: tm+mt
-source-wordcount: 1008
+source-wordcount: 1029
 ht-degree: 19%
 
 ---
@@ -56,6 +56,8 @@ ht-degree: 19%
 **[!UICONTROL 조각]** 왼쪽 메뉴에서 조각을 처음부터 만들 수 있습니다. 또한 콘텐츠를 디자인할 때 기존 콘텐츠의 일부를 조각으로 저장할 수도 있습니다. [방법 알아보기](save-fragments.md#)
 
 저장되면 여정, 캠페인 또는 템플릿에서 조각을 사용할 수 있습니다. 여정 및 캠페인 내에서 콘텐츠를 작성할 때 이 조각을 사용할 수 있습니다. [시각적 조각 추가](../email/use-visual-fragments.md) 및 [식 조각 활용](../personalization/use-expression-fragments.md)을 참조하십시오.
+
+➡️ [Adobe Experience Manager 콘텐츠 조각을 관리](../integrations/aem-fragments-manage.md)하여 **[!UICONTROL AEM 조각]** 탭에서 동기화된 조각, 참조, 태그 및 수동 동기화를 봅니다.
 
 조각을 만들려면 아래 단계를 수행합니다.
 

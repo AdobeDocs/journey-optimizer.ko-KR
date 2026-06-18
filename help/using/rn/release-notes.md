@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 3a9192700114244b0c010c410b19ecfbc203db02
+source-git-commit: 18cd98d012910264c321de3677970212c658236e
 workflow-type: tm+mt
-source-wordcount: 3659
+source-wordcount: 3672
 ht-degree: 27%
 
 ---
@@ -423,8 +423,6 @@ ht-degree: 27%
 
 이 릴리스의 콘텐츠 관리 및 통합에 대해 다음과 같은 기능 및 개선 사항이 적용되었습니다.
 
-+++ 곧 출시 예정 — **아래 정보는 변경될 수 있습니다.**
-
 <table>
 <thead>
 <tr>
@@ -443,10 +441,14 @@ ht-degree: 27%
 <li>이제 Adobe Journey Optimizer에서 Adobe Experience Manager 콘텐츠에 액세스하는 방법을 유연하게 사용할 수 있습니다. 이 릴리스에서는 여정 및 캠페인에 사용된 콘텐츠 조각에 대해 <strong>소스 리포지토리를 전환</strong>하는 기능을 도입했습니다.</li>
 <li>이제 <b>Managed Services</b>과(와) 호환되므로 개인화를 위해 Journey Optimizer에서 직접 Adobe Experience Manager 콘텐츠 조각을 보고 액세스하고 사용할 수 있습니다. 구성 설정에 Adobe Experience Manager Managed Services 저장소 URL을 1회 설정으로 추가하기만 하면 됩니다.</li>
 </ul>
+<p>자세한 내용은 <a href="../integrations/aem-fragments-gs.md">세부 설명서</a>를 참조하십시오.</p>
+<p>사용 가능한 날짜: 2026년 6월 18일</p>
 </td>
 </tr>
 </tbody>
 </table>
+
++++ 곧 출시 예정 — **아래 정보는 변경될 수 있습니다.**
 
 <table>
 <thead>
