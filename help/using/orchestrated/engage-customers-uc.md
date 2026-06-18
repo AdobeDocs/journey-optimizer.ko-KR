@@ -7,18 +7,13 @@ feature: Use Cases
 version: Campaign Orchestration
 exl-id: 915ebafe-935b-49b6-8b8c-0e7a8bf546a4
 TQID: https://experienceleague.adobe.com/q30GcOzIEJ0HUjEauFfp1CaP-oQdSGiBFSRcfNgdap8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cd1eb9b21a3201c2a01c1781220570236977a736
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 625
+source-wordcount: 623
 ht-degree: 4%
 
 ---
@@ -33,7 +28,7 @@ ht-degree: 4%
 
 >[!BEGINSHADEBOX]
 
-이 사용 사례는 Experience Platform에 이미 존재하는 대상, 특히 발생한 검색 활동을 수집하는 실시간 웹 비헤이비어 대상으로 시작됩니다. [Adobe Experience Platform에서 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
+이 사용 사례는 Experience Platform에 이미 존재하는 대상, 특히 발생한 검색 활동을 수집하는 실시간 웹 비헤이비어 대상으로 시작됩니다. [Adobe Experience Platform에서 자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
 
 **이 사용 사례에 필요한 스키마:**
 
@@ -111,7 +106,7 @@ ht-degree: 4%
 
    ![](assets/uc-interest-8.png){zoomable="yes"}
 
-그런 다음 이 대상자는 Experience Cloud에 저장되며, 여기서 나중에 특정 타겟팅된 캠페인에 사용할 수 있습니다.
+이 대상자는 [!DNL Adobe Experience Platform]에 저장되며 나중에 특정 타겟팅된 캠페인에 사용할 수 있습니다.
 
 ## 낮은/중간 위험 세그먼트 {#low-medium-risk}
 

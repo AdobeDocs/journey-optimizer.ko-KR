@@ -8,16 +8,12 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
-workflow-type: ht
-source-wordcount: 6916
-ht-degree: 100%
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+workflow-type: tm+mt
+source-wordcount: 6909
+ht-degree: 99%
 
 ---
 
@@ -489,7 +485,7 @@ ht-degree: 100%
 
 **콘텐츠 관리**
 
-이제 샌드박스 간에 콘텐츠 템플릿과 조각을 내보낼 수 있습니다. [자세히 보기](../configuration/copy-objects-to-sandbox.md)
+이제 샌드박스 간에 콘텐츠 템플릿과 조각을 내보낼 수 있습니다. [자세히 알아보기](../configuration/copy-objects-to-sandbox.md)
 
 **여정**
 
@@ -764,7 +760,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>AI 어시스턴트는 Adobe의 개념을 탐색 및 이해하고 사용자의 환경에 적절한 작업 인사이트를 얻는 데 사용할 수 있는 사용자 인터페이스 기능입니다. Adobe Journey Optimizer를 비롯한 Adobe Experience Cloud 전체의 여러 제품에서 사용할 수 있습니다.</p>
+<p>AI Assistant는 Adobe 개념을 탐색 및 이해하고 특정 환경에 대한 운영 통찰력을 얻는 데 사용할 수 있는 사용자 인터페이스 기능입니다. Adobe Journey Optimizer을 포함하여 [!DNL Adobe CX Enterprise]의 여러 제품에서 사용할 수 있습니다.</p>
 <p>자세한 내용은 <a href="../start/ai-features.md#ai-assistant">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
@@ -1043,7 +1039,7 @@ Beta부터 이 릴리스까지 다음과 같은 개선 사항이 추가되었습
 
 **세계화**
 
-통일성 있는 사용자 경험을 제공하기 위한 지속적인 노력의 일환으로 Adobe Experience Cloud 제품 및 앱에서 사용되는 용어를 서로 맞추는 작업을 합니다. 이에 따라 독일어 서비스에서 “Titel”이라는 용어가 개체와 관련된 상황의 경우 “Label”로 변경됩니다. 이 변경 사항은 UI 및 설명서에 점진적으로 적용됩니다.
+통합 사용자 환경을 제공하기 위한 지속적인 노력의 일환으로 [!DNL Adobe CX Enterprise] 제품 및 앱에서 사용되는 용어를 조화롭게 작성합니다. 이에 따라 독일어 서비스에서 “Titel”이라는 용어가 개체와 관련된 상황의 경우 “Label”로 변경됩니다. 이 변경 사항은 UI 및 설명서에 점진적으로 적용됩니다.
 
 
 ## 24년 4월 릴리스 {#apr-2024}

@@ -8,19 +8,13 @@ description: 새 여정 인터페이스
 hide: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
 TQID: https://experienceleague.adobe.com/-QKSnBRN9yPYEq5ay9wD-uf4lLduJqmtlFWDnLYt1gk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 561
+source-wordcount: 558
 ht-degree: 2%
 
 ---
@@ -61,7 +55,7 @@ ht-degree: 2%
 
 ## 향상된 여정 캔버스 디자인
 
-새로운 여정 모델을 통해 Adobe Experience Cloud 솔루션 및 앱 에코시스템에 완벽하게 맞는 새롭고 개선된 **여정 캔버스 UI**&#x200B;를 도입하여 직관적이고 효율적인 사용자 경험을 제공합니다. 새 모델의 모든 여정은 해당 새 디자인을 기반으로 합니다.
+새로운 여정 모델을 통해 [!DNL Adobe CX Enterprise] 솔루션 및 앱 에코시스템에 완벽하게 맞는 새롭고 개선된 **여정 캔버스 UI**&#x200B;를 도입하여 직관적이고 효율적인 사용자 경험을 제공합니다. 새 모델의 모든 여정은 해당 새 디자인을 기반으로 합니다.
 
 ![](assets/new-canvas3.gif)
 
