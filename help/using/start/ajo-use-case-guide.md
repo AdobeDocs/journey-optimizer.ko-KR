@@ -37,7 +37,7 @@ AI는 이러한 많은 기능에 내장되어 있습니다. 아래 표에서 **(
 
 >[!TIP]
 >
->Journey Optimizer을 처음 사용하십니까? [Journey Optimizer으로 시작](../../rp_landing_pages/get-started-landing-page.md)하여 역할에 적합한 경로를 선택한 다음 필수 요소에 대한 [Journey Optimizer 소개](get-started.md)를 읽어 보세요. 실습형 자신감을 높이려면 [Journey Optimizer 튜토리얼](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}을 탐색하고 전문가가 큐레이션한 [비디오 재생 목록](https://experienceleague.adobe.com/en/playlists?solution=Journey+Optimizer){target="_blank"}을 따라 [교육 샌드박스](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"}에서 또는 [실습형 과제](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"}를 통해 연습하세요.
+>Journey Optimizer을 처음 사용하십니까? [Journey Optimizer으로 시작](../../rp_landing_pages/get-started-landing-page.md)하여 역할에 적합한 경로를 선택한 다음 필수 요소에 대한 [Journey Optimizer 소개](get-started.md)를 읽어 보세요. 실습형 자신감을 높이려면 [Journey Optimizer 튜토리얼](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}을 탐색하고 전문가가 큐레이션한 [비디오 재생 목록](https://experienceleague.adobe.com/ko/playlists?solution=Journey+Optimizer){target="_blank"}을 따라 [교육 샌드박스](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"}에서 또는 [실습형 과제](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"}를 통해 연습하세요.
 
 ## 팀을 위한 Journey Optimizer 설정 {#setup-admin}
 
@@ -73,7 +73,7 @@ AI는 이러한 많은 기능에 내장되어 있습니다. 아래 표에서 **(
 | 난... | 권장 기능 | 여기서 시작 |
 | --- | --- | --- |
 | 뉴스레터 또는 프로모션을 세그먼트에 전송 | 예약된 캠페인 | [캠페인 시작](../campaigns/get-started-with-campaigns.md) |
-| A/B 테스트로 제품 실행 | 콘텐츠 실험 **(AI)** | [콘텐츠 실험 시작](../content-management/experiment-accelerator-gs.md) · [이메일 캠페인에 대한 콘텐츠 실험 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} |
+| A/B 테스트로 제품 실행 | 콘텐츠 실험 **(AI)** | [콘텐츠 실험 시작](../content-management/experiment-accelerator-gs.md) · [이메일 캠페인에 대한 콘텐츠 실험 만들기](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} |
 | 고객에게 중단 또는 서비스 업데이트 알림 | 예약된 캠페인 + 대상자 | [대상자 정보](../audience/about-audiences.md) |
 | 분기 논리를 사용하여 여러 단계 캠페인 디자인 | 오케스트레이션된 캠페인 | [오케스트레이션된 캠페인 시작](../orchestrated/gs-orchestrated-campaigns.md) |
 | 마지막 캠페인 실행 이후 변경된 프로필만 타겟팅 | 오케스트레이션된 캠페인 — 증분 쿼리 | [오케스트레이션된 캠페인에서 쿼리 빌드](../orchestrated/build-query.md) <!-- TODO: verify target — no dedicated "incremental query" page found; build-query.md ("Build your first rule") is the closest existing page --> |
@@ -289,7 +289,7 @@ AI는 이러한 많은 기능에 내장되어 있습니다. 아래 표에서 **(
 >[!TAB 보고 및 최적화]
 
 * [실시간 보고서로 여정 모니터링 및 분석](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/report-and-monitor/monitor-and-analyze-your-journey-with-live-reports){target="_blank"} - 실시간으로 성능을 추적합니다.
-* [이메일 캠페인에 대한 콘텐츠 실험 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} - 콘텐츠를 테스트하고 최적화합니다.
+* [이메일 캠페인에 대한 콘텐츠 실험 만들기](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} - 콘텐츠를 테스트하고 최적화합니다.
 
 >[!ENDTABS]
 
