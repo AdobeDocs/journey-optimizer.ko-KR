@@ -18,7 +18,7 @@ topic_v2:
 source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
 source-wordcount: 2041
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_parameters_supplemental_identifier"
 >title="추가 식별자 사용"
->abstract="추가 식별자는 여정 실행을 위한 추가 컨텍스트를 제공하는 보조 식별자입니다. 이를 정의하려면 대상자 또는 이벤트에서 보조 식별자로 사용할 ID가 아닌 속성(또는 비개인 ID)을 선택합니다."
+>abstract="추가 식별자는 여정 실행을 위한 추가 컨텍스트를 제공하는 보조 식별자입니다. 이를 정의하려면 대상자 또는 이벤트에서 추가 식별자로 사용하기 위해 ID가 아닌 속성(또는 비개인 ID)을 선택합니다."
 
 <table style="border-collapse: collapse; width: 100%;">
   <tr>
