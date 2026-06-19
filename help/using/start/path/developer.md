@@ -6,34 +6,15 @@ role: Developer
 level: Intermediate
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
 TQID: https://experienceleague.adobe.com/7fRI-CPkIeBAPjtXmDgFdyNKgB4WwEc01yKrGUXnc3U
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: d08afb72-92f6-4856-88e3-11ec34313c2fid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e9001ce2-5245-4a8e-8601-dd958009072fid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 7c48101c29e512f8d7163cc8c18ead56e800fd42
 workflow-type: tm+mt
-source-wordcount: 2170
-ht-degree: 96%
+source-wordcount: 2666
+ht-degree: 80%
 
 ---
 
@@ -269,6 +250,43 @@ Journey Optimizer는 프로그래밍 방식으로 액세스할 수 있는 포괄
 * **캡핑 및 스로틀링**: 속도 제한을 이해하고 적절한 스로틀링을 구현합니다. [외부 시스템](../../configuration/external-systems.md)에 대해 알아보세요.
 * **여정 최적화**: [여정 최적화](../../building-journeys/optimize.md)에 대한 모범 사례를 따릅니다.
 * **오류 처리**: 강력한 오류 처리를 구현합니다. [오류 코드](../../building-journeys/error-codes-reference.md) 및 [문제 해결 안내서](../../building-journeys/troubleshooting.md)를 검토합니다.
+
+## Journey Optimizer REST API 호출 {#rest-apis}
+
+SDK 및 이벤트 스트리밍을 구현하는 것 외에도 자체 시스템에서 프로그래밍 방식으로 Journey Optimizer을 구동할 수 있습니다. 전체 API 참조, OpenAPI 사양 및 코드 샘플은 [Journey Optimizer 개발자 포털](https://developer.adobe.com/journey-optimizer-apis){target="_blank"}에 있습니다.
+
+>[!NOTE]
+>
+>모든 통합은 OAuth 서버 간 인증을 사용해야 합니다. JWT 메서드는 더 이상 사용되지 않습니다. [인증 설정](https://developer.adobe.com/journey-optimizer-apis/references/authentication){target="_blank"}
+
+### API 트리거 캠페인 실행 {#api-triggered}
+
+대화형 메시지 실행 REST API를 사용하여 외부 시스템에서 트랜잭션 또는 마케팅 메시지를 트리거합니다. 끝점을 호출하기 전에:
+
+* 끝점이 호출을 수락하려면 캠페인이 **활성화**&#x200B;되어야 합니다.
+* 호출에는 **60초**&#x200B;의 시간 제한이 있습니다. 내부 다시 시도는 예기치 않은 시간 제한을 처리합니다.
+* 캠페인 시작/종료 날짜가 구성된 경우 해당 날짜 이외의 API 호출이 실패합니다.
+* 페이로드를 빌드하려면 Journey Optimizer UI의 라이브 캠페인에 있는 **cURL 요청** 섹션에서 생성된 샘플 cURL 요청을 검색합니다. 여기에는 해당 캠페인에 대한 모든 개인화 변수가 포함됩니다.
+* 표준 및 [처리량이 많은 캠페인](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/api-triggered-campaigns/api-triggered-high-throughput)은(는) 서로 다른 끝점을 사용합니다.
+
+[API 참조](https://developer.adobe.com/journey-optimizer-apis/references/messaging){target="_blank"} · [코드 샘플](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples){target="_blank"} · [API 트리거 캠페인 작업](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/api-triggered-campaigns/api-triggered-campaigns)
+
+### 외부 엔드포인트에 대한 제한 및 조절 {#capping-throttling}
+
+여정이 사용자 지정 작업 또는 데이터 소스를 통해 외부 시스템을 호출하는 경우 제한 및 조절 API는 이러한 시스템을 오버로드로부터 보호합니다. 캡핑은 구성된 제한을 초과하는 호출을 거부합니다. 조절은 최대 6시간 동안 호출을 큐에 추가합니다(프로덕션 샌드박스, 사용자 지정 작업만 해당).
+
+[API 참조 최대 가용량](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling){target="_blank"} · [최대 가용량 API 작업](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/connect-systems/external-systems/capping) · [제한 API 작업](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/connect-systems/external-systems/throttling)
+
+### 더 많은 REST API {#more-rest-apis}
+
+| 수행할 작업 | API 참조 |
+| ------------------- | ------------- |
+| 전송에서 이메일 주소 또는 도메인을 프로그래밍 방식으로 제외 | [제외 API](https://developer.adobe.com/journey-optimizer-apis/references/suppression){target="_blank"} · [제외 목록 관리](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list) |
+| 감사 또는 외부 동기화를 위한 여정 메타데이터 검색 | [여정 API](https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve){target="_blank"} |
+| 외부 파이프라인에서 콘텐츠 템플릿 및 조각 생성 및 관리 | [콘텐츠 API](https://developer.adobe.com/journey-optimizer-apis/references/content){target="_blank"} · [템플릿](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-templates/content-templates) · [조각](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/fragments/fragments) |
+| 액션 캠페인 검색 및 필터링 | [캠페인 API](https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve){target="_blank"} |
+| 캠페인을 미리 보고 증명을 프로그래밍 방식으로 보내기 | [시뮬레이션 API](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"} |
+| 데이터 세트 유효성 검사 및 오케스트레이션된 캠페인 실행 트리거 | [데이터 집합 유효성 검사](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset){target="_blank"} · [트리거](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} · [데이터 집합 사용](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/data-configuration/schemas-datasets/manual-schema) |
 
 ## 추가 리소스 {#additional-resources}
 
