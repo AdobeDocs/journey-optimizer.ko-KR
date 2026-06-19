@@ -12,10 +12,10 @@ feature_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+source-git-commit: 5ff88c5deec3f9fa326fe6fd2d71133ba4135fc4
 workflow-type: tm+mt
-source-wordcount: 2374
-ht-degree: 17%
+source-wordcount: 2364
+ht-degree: 16%
 
 ---
 
@@ -79,7 +79,7 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
 
      >[!AVAILABILITY]
      >
-     >이 기능은 Decisioning 지원이 있는 아웃바운드 채널에 대해 제한된 가용성으로 사용할 수 있습니다. 액세스 권한을 요청하려면 Adobe 담당자에게 문의하십시오.
+     >이 기능은 Decisioning이 지원되는 아웃바운드 채널에 사용할 수 있습니다.
 
      사전 요구 사항 및 보호 기능은 [Experience Decisioning에서 AEM 콘텐츠 조각 사용](../integrations/aem-fragments.md#aem-decisioning)을 참조하세요.
 

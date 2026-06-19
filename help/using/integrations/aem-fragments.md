@@ -21,9 +21,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
+source-git-commit: 5ff88c5deec3f9fa326fe6fd2d71133ba4135fc4
 workflow-type: tm+mt
-source-wordcount: 1780
+source-wordcount: 1770
 ht-degree: 0%
 
 ---
@@ -201,9 +201,10 @@ Adobe Experience Manager을 사용하면 컨텐츠 조각이 사용되는 Journe
 
 ## Experience Decisioning에서 AEM 콘텐츠 조각 사용 {#aem-decisioning}
 
+
 >[!AVAILABILITY]
 >
->이 기능은 Decisioning 지원이 있는 아웃바운드 채널에 대해 제한된 가용성으로 사용할 수 있습니다. 액세스 권한을 요청하려면 Adobe 담당자에게 문의하십시오.
+>이 기능은 Decisioning이 지원되는 아웃바운드 채널에 사용할 수 있습니다.
 
 AEM 콘텐츠 조각은 **Experience Decisioning**&#x200B;에서 오퍼 항목 특성으로 사용할 수도 있습니다. 콘텐츠 조각 필드를 의사 결정 항목 속성에 매핑하면 Journey Optimizer 의사 결정 모델, 공식 및 등급 기준을 사용하여 각 프로필에 제공되는 조각을 최적화할 수 있습니다.
 

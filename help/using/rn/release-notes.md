@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0a5b0e1f8e3060b840141507266c32c01549962b
+source-git-commit: 5ff88c5deec3f9fa326fe6fd2d71133ba4135fc4
 workflow-type: tm+mt
-source-wordcount: 3751
+source-wordcount: 3758
 ht-degree: 27%
 
 ---
@@ -211,9 +211,11 @@ ht-degree: 27%
 </tbody>
 </table>
 
-+++ 곧 출시 예정 — **아래 정보는 변경될 수 있습니다.**
+* **의사 결정에서 Adobe Experience Manager 콘텐츠 조각 활용** - 이제 Adobe Experience Manager 콘텐츠 조각을 Decisioning의 의사 결정 항목에 매핑하고 의사 결정 정책 내에서 활용하여 적절한 시기에 적절한 고객에게 적절한 조각을 전달할 수 있습니다. 이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성). [자세히 보기](../experience-decisioning/fragments-decision-policies.md)
 
-* **의사 결정에서 Adobe Experience Manager 콘텐츠 조각 활용** - 이제 Adobe Experience Manager 콘텐츠 조각을 Decisioning의 의사 결정 항목에 매핑하고 의사 결정 정책 내에서 활용하여 적절한 시기에 적절한 고객에게 적절한 조각을 전달할 수 있습니다. 이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).
+  사용 가능한 날짜: 2026년 6월 18일
+
++++ 곧 출시 예정 — **아래 정보는 변경될 수 있습니다.**
 
 * **동적 항목 특성** - 이제 프로필, 컨텍스트 및 대상 데이터를 사용하여 게재 시 의사 결정 항목 사용자 지정 특성을 개인화할 수 있습니다. 이를 통해 사소한 콘텐츠 변형에 대해 중복 오퍼를 유지할 필요가 없으므로 마케터는 보다 적고 유연한 결정 항목을 관리할 수 있습니다.
 
