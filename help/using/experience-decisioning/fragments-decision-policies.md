@@ -7,21 +7,15 @@ role: User
 level: Experienced
 exl-id: 70f64348-092b-4350-91dc-72c3c07300f9
 TQID: https://experienceleague.adobe.com/5Vpngi03UnC9YPlB5tdTRcd0NoT7iglH2pRDkmeZKOg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: 5ff88c5deec3f9fa326fe6fd2d71133ba4135fc4
 workflow-type: tm+mt
-source-wordcount: 1204
-ht-degree: 1%
+source-wordcount: 1744
+ht-degree: 0%
 
 ---
 
@@ -160,7 +154,7 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->이 기능은 Decisioning 지원이 있는 아웃바운드 채널에 대해 제한된 가용성으로 사용할 수 있습니다. 액세스 권한을 요청하려면 Adobe 담당자에게 문의하십시오.
+>이 기능은 Decisioning이 지원되는 아웃바운드 채널에 사용할 수 있습니다.
 
 의사 결정 정책에서 AEM 콘텐츠 조각을 활용하기 전에 다음을 확인하십시오.
 
@@ -173,20 +167,123 @@ ht-degree: 1%
 
 이 예제에서 의사 결정 정책에는 참조 이름을 통해 연결된 AEM 조각이 있는 두 개의 의사 결정 항목이 포함되어 있습니다.
 
-![](assets/aem-fragment-select.png)
+![의사 결정 정책의 조각 키 이름별로 사용 가능한 AEM 콘텐츠 조각을 표시하는 Personalization 편집기.](assets/aem-fragment-select.png)
 
-1. &#x200B;+ 단추를 클릭하여 원하는 조각을 표현식에 추가합니다.
+1. + 단추를 클릭하여 원하는 조각을 표현식에 추가합니다.
 
    단일 참조 이름에는 여러 개의 조각이 서로 다른 오퍼 항목에 걸쳐 연결되어 있을 수 있으므로, Decisioning은 의사 결정 정책의 순위 기준에 따라 각 고객에게 제공할 최상의 이름을 결정합니다.
 
 1. 조각을 선택한 후에는 이미지 URL, 텍스트 필드 또는 기타 콘텐츠와 같은 해당 속성을 활용하고, 의사 결정 을 사용하여 적시에 적절한 고객에게 적절한 콘텐츠를 제공할 수 있습니다.
 
-   ![](assets/aem-fragment-attribute.png)
+   ![선택한 AEM 콘텐츠 조각 특성을 의사 결정 정책 식에서 개인화할 수 있습니다.](assets/aem-fragment-attribute.png)
 
-1. 캠페인이나 여정을 활성화하기 전에 시뮬레이션 방법을 사용하여 AEM 콘텐츠 조각 필드 값이 렌더링되는 방법을 미리 봅니다. 샘플 입력 데이터 또는 AI 자동 생성으로 콘텐츠 변형을 테스트하려면 **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭하고, **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭한 다음 드롭다운에서 **[!UICONTROL 콘텐츠 시뮬레이션(AEP 프로필)]**&#x200B;을 선택하여 특정 테스트 프로필로 미리 봅니다. [콘텐츠 시뮬레이션에 대한 자세한 정보](../content-management/preview-test.md)
+1. 캠페인이나 여정을 활성화하기 전에 시뮬레이션 방법을 사용하여 AEM 콘텐츠 조각 필드 값이 렌더링되는 방법을 미리 봅니다. [콘텐츠 시뮬레이션에 대한 자세한 정보](../content-management/preview-test.md)
+
+### 여러 채널에서 AEM 컨텐츠 조각 사용 {#aem-fragments-channels}
+
+의사 결정 정책에서 AEM 콘텐츠 조각 속성을 삽입하는 방법은 작업 중인 채널에 따라 다릅니다.
+
+>[!BEGINTABS]
+
+>[!TAB 이메일]
+
+의사 결정 정책을 사용하여 이메일에 AEM 콘텐츠 조각 속성을 삽입하려면 다음 작업을 수행하십시오.
+
+1. 이메일 Designer에서 이메일 초안을 열고 오른쪽 레일에서 **[!UICONTROL 의사 결정]** 아이콘을 클릭하여 의사 결정 정책 패널을 엽니다.
+1. 어셈블한 선택 전략을 선택하고 **배치**&#x200B;를 지정하여 오퍼가 채워질 이메일 영역을 정의합니다.
+1. **+** 아이콘을 클릭하고 해당 영역에서 렌더링해야 하는 AEM 콘텐츠 조각에서 특정 필드(예: 영웅 이미지 URL 필드)를 선택합니다.
+
+   ![배치에 대해 선택한 AEM 콘텐츠 조각 필드가 있는 Designer 의사 결정 정책 패널에 전자 메일을 보냅니다.](assets/aem-fragment-email.png)
+
+1. 게시하기 전에 **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭하여 결과를 미리 보고 우선 순위가 가장 높은 오퍼와 해당 콘텐츠 조각이 테스트 프로필에 대해 예상대로 렌더링되는지 확인하십시오.
+
+>[!TAB JSON(코드 기반 경험)]
+
+JSON 기반 코드 기반 경험을 작성할 때 다음 구조를 사용하여 의사 결정 정책의 AEM 콘텐츠 조각 속성을 렌더링합니다.
+
+```handlebars
+[
+{{#each decisionPolicy.YOUR_POLICY_ID.items as |item|}}
+{% let frag = get(item._experience.decisioning.offeritem.aemContentReferencesMap, "YOUR_REFERENCE_KEY").id %}
+{{fragment id = frag result='YOUR_REFERENCE_KEY' required=false}}
+{
+  "fieldName": "{{{YOUR_REFERENCE_KEY.fieldName}}}"
+},
+{{/each}}
+]
+```
+
+>[!NOTE]
+>
+>AEM 콘텐츠 조각은 `aemContentReferencesMap`을(를) 사용하여 참조 키별로 조각을 조회합니다. Journey Optimizer 콘텐츠 조각에 사용되는 `contentReferencesMap`과(와) 다릅니다.
+
+JSON 페이로드를 빌드할 때는 다음 사항을 염두에 두십시오.
+
+* JSON 배열 대괄호 `[` 및 `]` **외부**&#x200B;를 `#each` 루프에 배치합니다.
+* JSON 문자열 내의 필드 값에 **삼중 중괄호** `{{{ }}}`를 사용하여 HTML에서 특수 문자를 이스케이프 처리하지 않도록 하고 올바른 JSON 출력을 확인하십시오.
+* `result='YOUR_REFERENCE_KEY'` 매개 변수는 `YOUR_REFERENCE_KEY.fieldName`을(를) 사용하여 해당 필드를 참조할 수 있도록 해당 이름 아래의 해결된 조각 콘텐츠를 캡처합니다.
+
+![JSON의 의사 결정 정책에서 렌더링된 AEM 콘텐츠 조각 특성을 표시하는 코드 기반 경험 편집기.](assets/aem-fragments-cbe.png)
+
+>[!TAB 코드 기반 경험(HTML)]
+
+HTML 기반 코드 기반 경험의 경우 필드 렌더링에 표준 이중 중괄호를 사용합니다.
+
+```handlebars
+{{#each decisionPolicy.YOUR_POLICY_ID.items as |item|}}
+{% let frag = get(item._experience.decisioning.offeritem.aemContentReferencesMap, "YOUR_REFERENCE_KEY").id %}
+{{fragment id = frag result='YOUR_REFERENCE_KEY' required=false}}
+<div>{{YOUR_REFERENCE_KEY.fieldName}}</div>
+{{/each}}
+```
+
+>[!ENDTABS]
+
+### AEM 컨텐츠 조각의 자산 사용 {#aem-cf-assets}
+
+AEM 컨텐츠 조각에는 AEM에 저장된 자산을 참조하는 이미지 필드가 포함될 수 있습니다. Journey Optimizer은 해당 자산의 **상대 경로**&#x200B;만 수신하므로 전체 게시 URL 앞에 추가되지 않으면 이미지가 로드되지 않을 수 있습니다.
+
+>[!NOTE]
+>
+>콘텐츠 조각 내의 AEM 에셋 참조에 대한 기본 해상도는 아직 지원되지 않습니다. 아래 접근 방식은 해당 지원이 추가될 때까지 사용할 수 있는 해결 방법입니다.
+
+>[!BEGINTABS]
+
+>[!TAB AEM 게시 도메인 선행]
+
+1. AEM 인스턴스 URL에서 작성자 도메인(예: `author-p12345-e67890.adobeaemcloud.com`)을 식별합니다.
+
+   ![게시 도메인을 파생하는 데 사용되는 작성자 도메인을 표시하는 AEM 인스턴스 URL입니다.](assets/aem-fragment-author-domain.png)
+
+1. `author`을(를) `publish`(으)로 바꾸면 게시 도메인을 가져올 수 있습니다. `publish-p12345-e67890.adobeaemcloud.com`.
+
+1. Journey Optimizer 개인화 편집기에서 컨텐츠 조각의 자산 참조 필드에 게시 도메인을 앞에 추가합니다.
+
+   ![콘텐츠 조각 에셋 참조 필드 앞에 AEM 게시 도메인이 있는 Personalization 편집기.](assets/aem-fragment-publish-domain.png)
+
+이제 이미지가 게재 시 전체 게시 URL로 확인됩니다.
+
+>[!TAB 텍스트 필드에 게시 URL을 저장]
+
+1. AEM에서 컨텐츠 조각을 엽니다.
+1. JSON 미리 보기로 이동하여 **참조** 섹션을 확인하여 게시된 자산 URL을 찾으십시오.
+
+   ![게시된 에셋 URL을 표시하는 AEM 콘텐츠 조각 JSON 미리 보기 참조 섹션.](assets/aem-fragment-published-url.png)
+
+1. 게시 URL을 복사하여 콘텐츠 조각 내의 전용 텍스트 필드에 붙여넣습니다.
+
+   ![참조된 에셋에 대해 복사된 게시 URL이 포함된 AEM 콘텐츠 조각 텍스트 필드.](assets/aem-fragment-copy-url.png)
+
+1. Journey Optimizer에서 개인화 표현식에서 해당 텍스트 필드를 이미지 소스로 직접 참조합니다.
+
+   ![콘텐츠 조각 텍스트 필드를 이미지 소스로 참조하는 Journey Optimizer 개인화 식입니다.](assets/aem-fragment-use-url.png)
+
+이 접근 방식은 수동 URL 구성을 방지하고 콘텐츠 조각 자체 내에 게시 URL을 유지합니다.
+
+>[!ENDTABS]
 
 ## 사용 방법 비디오 {#video}
 
 Journey Optimizer Decisioning과 함께 Adobe Experience Manager 콘텐츠 조각을 사용하여 콘텐츠를 개인화하고 최적화하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3492220/?captions=kor&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3492215/?learn=on&enablevpops)
