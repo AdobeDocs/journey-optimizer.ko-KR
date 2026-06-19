@@ -10,28 +10,15 @@ keywords: 게시, 여정, 라이브, 유효성, 확인
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/gIj6jGScvIDgAJxb3B4wiuqP6BKZS0tvCeqC6wRo5IQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 346451c14506da121feb7d4d18e5644ec88e5991
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 766e374ef612364ab0c1a0b32a1b2a9f68518ad5
 workflow-type: tm+mt
-source-wordcount: 2609
+source-wordcount: 2787
 ht-degree: 5%
 
 ---
@@ -40,7 +27,7 @@ ht-degree: 5%
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** 일시 중지 중에 프로필 특성 종료 기준을 적용하는 등 실시간 여정을 일시 중지했다가 다시 시작하여 안전하게 변경하거나 전송을 중지하는 방법을 알아봅니다.
+**이 페이지에서:** 실시간 여정을 일시 중지했다가 다시 시작하여 변경 또는 전송을 중지하고, 일시 중지된 여정을 다시 시작하지 않고 중지하거나 닫고, 일시 중지 중에 프로필 특성 종료 기준을 적용하는 방법에 대해 알아봅니다.
 
 >[!ENDSHADEBOX]
 
@@ -49,7 +36,7 @@ ht-degree: 5%
 >title="여정 일시 중지"
 >abstract="라이브 여정을 일시 중지하여 새로운 프로필이 진입하지 않도록 할 수 있습니다. 현재 여정에 있는 프로필은 삭제하거나 그대로 유지할 수 있습니다. 유지할 경우, 여정이 재개되면 다음 액션 활동에서 실행이 재개됩니다. 업데이트 또는 긴급 중단 시에도 진행 과정을 그대로 유지하면서 사용할 수 있는 이상적인 방법입니다."
 
-실시간 여정을 일시 중지하고 필요한 모든 변경 내용을 수행한 다음 언제든지 다시 시작할 수 있습니다.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> 일시 중지 중에 [프로필 특성 종료 기준을 적용](#journey-exit-criteria)하여 해당 특성에 따라 프로필을 제외할 수 있습니다. 여정은 일시 중지 기간이 끝나면 자동으로 다시 시작됩니다. [수동으로 다시 시작](#journey-resume-steps)할 수도 있습니다.
+실시간 여정을 일시 중지하고 필요한 모든 변경 내용을 수행한 다음 언제든지 다시 시작할 수 있습니다.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> 일시 중지 중에 [프로필 특성 종료 기준을 적용](#journey-exit-criteria)하여 해당 특성에 따라 프로필을 제외할 수 있습니다. 여정은 일시 중지 기간이 끝나면 자동으로 다시 시작됩니다. 먼저 다시 시작하지 않고 [수동으로 다시 시작](#journey-resume-steps)하거나 [일시 중지&#x200B;**상태에서**&#x200B;여정을 중지](#stop-close-paused)할 수도 있습니다.
 
 ## 주요 이점 {#journey-pause-benefits}
 
@@ -142,6 +129,24 @@ ht-degree: 5%
 
 여정 목록에서 하나 또는 여러 개의 **일시 중지됨** 여정을 다시 시작할 수 있습니다. 여정 그룹(_일괄 재시작_)을 다시 시작하려면 해당 그룹을 선택하고 화면 하단의 파란색 막대에 있는 **다시 시작** 단추를 클릭합니다. **다시 시작** 단추는 **일시 중지** 여정을 선택한 경우에만 사용할 수 있습니다.
 
+## 일시 중지된 여정 중지 {#stop-close-paused}
+
+일시 중지된 여정을 다시 시작하지 않기로 결정한 경우 **일시 중지됨** 상태에서 끝낼 수 있습니다. 그러면 모든 여정 처리가 즉시 종료되고 여정에 있는 모든 프로필이 중지됩니다. [여정 중지에 대한 자세한 정보](end-journey.md#stop-journey).
+
+여정 캔버스에서 일시 중지된 여정을 중지하려면 다음 단계를 수행하십시오.
+
+1. 중지하거나 닫을 **일시 중지됨** 여정을 엽니다.
+1. 여정 캔버스의 오른쪽 위 섹션에서 **...자세히** 단추를 클릭합니다.
+1. **[!UICONTROL 중지]**&#x200B;를 선택하고 대화 상자에서 확인합니다.
+
+일시 중지된 여정 이름 오른쪽에 있는 **[!UICONTROL 줄임표]** 단추를 클릭하고 **[!UICONTROL 중지]**&#x200B;를 선택할 수도 있습니다.
+
+>[!IMPORTANT]
+>
+>[닫힘](end-journey.md#close-journey) 또는 [중지됨](end-journey.md#stop-journey) 여정을 다시 시작하거나 삭제할 수 없습니다. [새 버전을 만들거나](publish-journey.md#journey-versions) [복제](journey-ui.md#duplicate-a-journey)할 수 있습니다.
+>
+>여정을 중지하려면 **[!DNL Manage journeys]** 권한이 필요합니다. 여정에 인라인 캠페인 또는 메시징 노드가 포함된 경우 **캠페인 > 캠페인 게시** 권한도 필요합니다. [중지 권한에 대해 자세히 알아보기](end-journey.md#stop-journey).
+
 ## 여정이 일시 중지되거나 재개된 경우 보기 {#view-pause-resume-info}
 
 여정이 마지막으로 일시 중지되거나 재개된 시간과 해당 사용자를 확인하려면 여정을 열고 해당 **속성**(여정 이름 옆에 있는 연필 아이콘 클릭)으로 이동합니다. **기술 세부 정보 복사** 단추를 사용하여 다음을 포함하는 기술 정보를 복사합니다.
@@ -188,7 +193,7 @@ ht-degree: 5%
 
 ## 가드레일 및 제한 사항 {#journey-pause-guardrails}
 
-* 최대 **14일** 동안 여정 버전을 일시 중지할 수 있으며, 조직 전체에서 일시 중지된 프로필에 최대 **1천만 개**&#x200B;의 여정이 허용됩니다.
+* 최대 **14일** 동안 여정 버전을 일시 중지할 수 있으며, 조직 전체에서 일시 중지된 프로필에 최대 **1천만 개**의 여정이 허용됩니다.
 이 제한은 개별 프로필이 아닌 일시 중지된 모든 여정에 걸쳐 유지된 총 프로필 수를 계산합니다. 예를 들어 동일한 5M 프로필이 일시 중지된 두 개의 여정에 유지되면 10M 제한에 도달합니다.
 이 제한은 30분마다 확인됩니다. 즉, 일시적으로 1,000만 임계값을 초과할 수 있지만, 시스템에서 이를 감지하면 추가 프로필이 자동으로 삭제됩니다.
 
@@ -237,7 +242,7 @@ ht-degree: 5%
 
 ## 일시 중지된 프로필의 여정 카드 문제 해결 {#discards-troubleshoot}
 
-[[!DNL Adobe Experience Platform] 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ko){target="_blank"}를 사용하여 단계 이벤트를 쿼리할 수 있습니다. 이 이벤트는 발생한 시기에 따라 프로필 삭제에 대한 자세한 정보를 제공할 수 있습니다.
+[[!DNL Adobe Experience Platform] 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}를 사용하여 단계 이벤트를 쿼리할 수 있습니다. 이 이벤트는 발생한 시기에 따라 프로필 삭제에 대한 자세한 정보를 제공할 수 있습니다.
 
 * 프로필이 여정에 들어가기 전에 발생하는 폐기물의 경우 다음 코드를 사용하십시오.
 
