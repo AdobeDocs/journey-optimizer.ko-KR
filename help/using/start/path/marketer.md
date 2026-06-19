@@ -27,10 +27,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
 workflow-type: tm+mt
-source-wordcount: 1751
-ht-degree: 98%
+source-wordcount: 1727
+ht-degree: 94%
 
 ---
 
@@ -44,14 +44,17 @@ ht-degree: 98%
 
 **마케터** 또는 **비즈니스 전문가**&#x200B;로서, 고객에게 개인적이고 상황에 맞는 경험을 제공하기 위해 고객 여정을 디자인합니다. 메시지 콘텐츠를 지능적으로 개인화하기 위해 이메일 및 푸시 메시지, 오퍼 및 의사 결정 구성 요소를 포함하여 이러한 개인화된 여정의 모든 다양한 구성 요소를 만들고 관리합니다. Journey Optimizer는 전체 엔드투엔드 사용 사례를 한 곳에서 구현할 수 있는 통합 사용자 경험을 제공합니다. [시스템 관리자](administrator.md) 및 [데이터 엔지니어](data-engineer.md)에 액세스 권한을 부여하고 환경을 준비하면 [!DNL Adobe Journey Optimizer]&#x200B;(으)로 작업을 시작할 수 있습니다.
 
+>[!NOTE]
+>
+>**구현 순서:** [관리자](administrator.md) → [데이터 엔지니어](data-engineer.md) → [개발자](developer.md) → 현재 위치: **마케터**
+>
+>여정을 빌드하기 전에 [환경 설정](administrator.md) 및 [데이터 구성](data-engineer.md)이 완료되었는지 확인하십시오.
+
 ## 필수 사항으로 시작
 
-Journey Optimizer는 실시간 고객 인사이트, 최신 옴니채널 오케스트레이션 및 지능형 의사 결정을 단일 애플리케이션에 통합합니다. 이메일, SMS, 푸시, 웹 프시, 인앱, 웹, 다이렉트 메일, 콘텐츠 카드 등에서 개인화되고 연결된 고객 경험을 만듭니다.
-
-Journey Optimizer는 두 가지 강력한 오케스트레이션 접근 방식을 제공합니다.
-
-* **여정**: 비헤이비어 또는 이벤트에 의해 트리거된 각 고객이 원하는 속도로 진행하는 실시간 일대일 참여
-* **오케스트레이션된 캠페인**: 워크플로를 통해 대상자가 함께 진행하는 대규모의 복잡한 다단계 배치 캠페인으로 시즌 프로모션, 제품 출시 또는 계정 기반 커뮤니케이션과 같은 브랜드 주도 캠페인에 적합
+>[!NOTE]
+>
+>Journey Optimizer을 처음 사용하십니까? 이 안내서를 시작하기 전에 [Journey Optimizer 소개](../get-started.md)를 읽어 보세요.
 
 [관리자](administrator.md)와 협력하여 액세스 권한을 얻고 [데이터 엔지니어](data-engineer.md)와 협력하여 고급 세분화를 위한 대상, 데이터, 관계형 스키마를 설정하세요. 여정 및 캠페인을 작성하기 전에 필요한 데이터 설정을 이해하려면 [데이터 관리 시작하기](../../data/gs-data.md) 개요를 참조하십시오.
 
@@ -235,3 +238,14 @@ Journey Optimizer의 기능을 보여주는 실제 사례를 통해 알아보세
 2. **AI 활용**: AI 어시스턴트를 활용하여 질문하고 콘텐츠 제작 속도를 높입니다.
 3. **커뮤니티에 참여**: [Experience League 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"}에서 다른 Journey Optimizer 사용자와 소통합니다.
 4. **튜토리얼 살펴보기**: [Experience League](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=ko){target="_blank"}에서 단계별 비디오를 봅니다.
+
+## 기타 역할 안내서 {#other-role-guides}
+
+| 역할 | 안내서 |
+|------|-------|
+| 관리자 | [관리자용 시작하기](administrator.md) |
+| 데이터 엔지니어 | [데이터 엔지니어 시작](data-engineer.md) |
+| Developer | [개발자용 시작하기](developer.md) |
+| 마케터 | [마케터용 시작하기](marketer.md) |
+
+[역할 및 책임 개요](../quick-start.md)(으)로 돌아가기 · [시작하기](../../../rp_landing_pages/get-started-landing-page.md)(으)로 돌아가기

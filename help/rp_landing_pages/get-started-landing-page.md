@@ -2,29 +2,29 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: 시작하기
-description: Adobe Journey Optimizer 시작하기
+description: 여기에서 Adobe Journey Optimizer을 시작하고 실행하는 데 필요한 모든 것을 살펴보십시오.
+role: User, Admin, Developer
+level: Beginner
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
-source-git-commit: 2f266c189514d92309ad199685222af3a3973b11
-workflow-type: ht
-source-wordcount: '680'
-ht-degree: 100%
+source-git-commit: 6c53c3b376b01edf30e6d9fcfa2478a0491b7b7b
+workflow-type: tm+mt
+source-wordcount: '715'
+ht-degree: 81%
 
 ---
 
 # Adobe Journey Optimizer 시작하기{#get-started}
 
-Adobe Journey Optimizer는 사용자가 단일 애플리케이션을 통해 모든 채널에서 대규모로 개인화된 실시간 고객 경험을 제공할 수 있도록 지원합니다. 그 결과 고객 충성도와 생애 가치를 높이는 의미 있는 브랜드 경험을 제공할 수 있습니다.
+Journey Optimizer을 처음 사용하든, 새 기능을 살펴보기 위해 다시 시작하든 상관없이 이 페이지가 시작점입니다. 자신의 역할과 목표에 맞는 경로를 선택합니다.
 
-Journey Optimizer를 처음 사용하는 사용자든 기술을 확장하려는 숙련된 사용자든 상관없이 이 섹션에서는 빠르고 효과적으로 시작하는 데 필요한 모든 것을 제공합니다.
-
-## 필수 사항으로 시작 {#essentials}
+## Journey Optimizer을 처음 사용하십니까? {#essentials}
 
 Adobe Journey Optimizer의 기본 사항과 이를 통해 데이터 기반 개인화를 활성화하는 방법에 대해 알아봅니다.
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
 
 Journey Optimizer 소개
 
@@ -34,7 +34,7 @@ Journey Optimizer 소개
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 작동 방식 이해
 
@@ -44,7 +44,7 @@ Journey Optimizer를 Adobe Experience Platform과 통합하는 방법과 주요 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list.svg?lang=ko)
 
 주요 용어
 
@@ -71,7 +71,7 @@ AI가 어떻게 콘텐츠를 만들고, 전송 시간을 최적화하고, 보다
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/user.svg?lang=ko)
 
 마케터
 
@@ -81,7 +81,7 @@ AI가 어떻게 콘텐츠를 만들고, 전송 시간을 최적화하고, 보다
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ko)
 
 데이터 엔지니어
 
@@ -91,7 +91,7 @@ AI가 어떻게 콘텐츠를 만들고, 전송 시간을 최적화하고, 보다
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 관리자 대상
 
@@ -114,6 +114,62 @@ AI가 어떻게 콘텐츠를 만들고, 전송 시간을 최적화하고, 보다
 
 [모든 역할 및 책임 보기 →](../using/start/quick-start.md)
 
+## 사용 사례 살펴보기 {#explore-use-cases}
+
+어디서부터 시작할지 모르겠습니까? 목표에 부합하는 기능을 찾아보십시오.
+
+:::: landing-cards-container
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+
+목표에 적합한 기능 찾기
+
+비즈니스 목표별로 사용 사례를 찾아보고 권장 Journey Optimizer 기능으로 이동합니다.
+
+[사용 사례 살펴보기](../using/start/ajo-use-case-guide.md)
+:::
+
+::::
+
+## 이미 온보딩했습니까? {#already-onboarded}
+
+여러분이 일상적인 일을 하는 지역으로 곧장 달려가세요.
+
+:::: landing-cards-container
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+
+여정
+
+[여정 디자인 및 메시지 보내기](../using/building-journeys/journey-gs.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=ko)
+
+캠페인
+
+[캠페인 시작](../using/campaigns/get-started-with-campaigns.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+
+콘텐츠 관리
+
+[콘텐츠 디자인](content-management-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+
+보고
+
+[라이브 보고서로 성능 모니터링](../using/reports/live-report.md)
+:::
+
+::::
+
 ## 효율적으로 작업 {#work-efficiently}
 
 인터페이스를 숙달하고 지능형 기능을 활용하여 작업을 가속화하세요.
@@ -130,7 +186,7 @@ Journey Optimizer 인터페이스를 사용하고, 주요 기능에 액세스하
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 검색 및 구성
 
@@ -140,7 +196,7 @@ Journey Optimizer 인터페이스를 사용하고, 주요 기능에 액세스하
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=ko)
 
 문제 해결 FAQ
 
@@ -168,15 +224,6 @@ Journey Optimizer 인터페이스를 사용하고, 주요 기능에 액세스하
 * **[커뮤니티 포럼](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"}** - 다른 사용자와 소통하고 질문하며 모범 사례를 공유합니다.
 * **[설명서 업데이트](../using/rn/documentation-updates.md)** - 문서의 최근 변경 사항 및 추가 사항에 대한 정보를 지속적으로 확인합니다.
 
-## 시작할 준비가 되셨나요?
-
-자신에게 적합한 경로를 선택합니다.
-
-* **Journey Optimizer를 처음 사용하시나요?** 먼저 [Journey Optimizer란 무엇인가요?](../using/start/get-started.md)에서 기본 사항을 이해해 보세요
-* **본인의 역할을 알고 계신가요?** 담당 업무에 맞는 [역할별 안내서](../using/start/quick-start.md)로 이동하세요
-* **전체적으로 살펴보고 싶으신가요?** [AI 기능](../using/start/ai-features.md)을 찾아보거나 [사용 사례 플레이북](../using/start/ai-features.md#playbooks)을 사용해 보세요
-* **도움이 필요하십니까?** [문제 해결 안내서](../using/start/troubleshooting.md)를 확인하거나 [커뮤니티 포럼](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"}을 방문하세요
-
 ## 빠른 링크 {#quick-links}
 
 다음 필수 안내서를 참고하여 바로 만들기를 시작하세요.
@@ -193,3 +240,7 @@ Journey Optimizer 인터페이스를 사용하고, 주요 기능에 액세스하
 >[!NOTE]
 >
 >사용자 환경에서 사용 가능한 구성 요소 및 기능은 [권한](../using/administration/permissions.md) 및 [라이선스 패키지](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}에 따라 달라집니다. 특정 설정과 관련된 질문이 있는 경우 Adobe 고객 성공 관리자에게 문의하세요.
+
+## 구현 시퀀스를 찾고 계십니까?
+
+팀이 Journey Optimizer을 처음 설정하는 경우 모든 역할에서 권장되는 작업 순서를 보려면 [역할 및 책임](../using/start/quick-start.md)을 참조하십시오.

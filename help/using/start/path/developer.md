@@ -3,7 +3,7 @@ title: 개발자를 위한 시작
 description: 데이터 엔지니어로서 Journey Optimizer로 작업하는 방법에 대해 자세히 알아봅니다.
 feature: Get Started
 role: Developer
-level: Experienced
+level: Intermediate
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
 TQID: https://experienceleague.adobe.com/7fRI-CPkIeBAPjtXmDgFdyNKgB4WwEc01yKrGUXnc3U
 product_v2:
@@ -30,10 +30,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
 workflow-type: tm+mt
-source-wordcount: 2109
-ht-degree: 98%
+source-wordcount: 2170
+ht-degree: 96%
 
 ---
 
@@ -46,6 +46,12 @@ ht-degree: 98%
 >[!ENDSHADEBOX]
 
 **개발자**&#x200B;로서 [!DNL Adobe Journey Optimizer]를 구현하고 응용 프로그램 및 시스템에 통합해야 합니다. [시스템 관리자](administrator.md) 및 [데이터 엔지니어](data-engineer.md)에 액세스 권한을 부여하고 환경을 준비하면 [!DNL Adobe Journey Optimizer]로 작업을 시작할 수 있습니다.
+
+>[!NOTE]
+>
+>**구현 순서:** [관리자](administrator.md) → [데이터 엔지니어](data-engineer.md) → 현재 위치: **개발자** → [마케터](marketer.md)
+>
+>모바일 및 웹 통합을 구현하기 전에 [데이터 스키마 및 이벤트](data-engineer.md)이 구성되었는지 확인하십시오.
 
 ## Journey Optimizer 생태계에서의 역할
 
@@ -316,3 +322,14 @@ Journey Optimizer는 프로그래밍 방식으로 액세스할 수 있는 포괄
 4. **사용자 정의 시스템인가요?** [사용자 정의 액션](#custom-actions)을 확인해 보세요
 
 각 섹션에는 구현을 안내하는 자세한 기술 문서, 코드 샘플 및 튜토리얼 링크가 포함되어 있습니다.
+
+## 기타 역할 안내서 {#other-role-guides}
+
+| 역할 | 안내서 |
+|------|-------|
+| 관리자 | [관리자용 시작하기](administrator.md) |
+| 데이터 엔지니어 | [데이터 엔지니어 시작](data-engineer.md) |
+| Developer | [개발자용 시작하기](developer.md) |
+| 마케터 | [마케터용 시작하기](marketer.md) |
+
+[역할 및 책임 개요](../quick-start.md)(으)로 돌아가기 · [시작하기](../../../rp_landing_pages/get-started-landing-page.md)(으)로 돌아가기
