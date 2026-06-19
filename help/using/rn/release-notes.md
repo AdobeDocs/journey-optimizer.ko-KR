@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5ff88c5deec3f9fa326fe6fd2d71133ba4135fc4
+source-git-commit: 3389c7358327cc601fc1ab937d325c47462db12f
 workflow-type: tm+mt
-source-wordcount: 3758
+source-wordcount: 3797
 ht-degree: 27%
 
 ---
@@ -133,6 +133,10 @@ ht-degree: 27%
 </tr>
 </tbody>
 </table>
+
+* **일시 중지된 여정을 직접 중지** - 이제 **일시 중지됨** 상태에서 직접 여정을 중지할 수 있습니다. 이전에는 일시 중지된 여정을 중지하려면 **Live**(으)로 다시 시작해야 했습니다. [자세히 보기](../building-journeys/journey-pause.md#stop-close-paused)
+
+  사용 가능한 날짜: 2026년 6월 18~22일
 
 * **외부 대상자에 대한 보조 식별자 지원** - 이제 CSV 파일에서 가져온 대상자와 페더레이션된 대상자 컴포지션으로 만든 대상자를 포함한 외부 대상자에 대해 여정의 보조 식별자가 지원됩니다. 대상자의 ID가 아닌 속성 또는 개인 ID가 아닌 속성은 모두 보조 ID로 지정할 수 있으며, 스키마 레이블 지정은 필요하지 않습니다. [자세히 보기](../building-journeys/supplemental-identifier.md)
 
