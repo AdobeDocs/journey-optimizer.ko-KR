@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 여정 최적화 도구, 사용 사례, 의사 결정 안내서, 기능, 시작, 실무자 목표, 자습서
-source-git-commit: 3c737f88116a28ef217b53f95754504f537b3cd0
+source-git-commit: a35c1cd2d99c41cb94c506cebf6c2b2f5e7151cb
 workflow-type: tm+mt
-source-wordcount: '3310'
+source-wordcount: '3153'
 ht-degree: 32%
 
 ---
@@ -60,7 +60,7 @@ AI는 이러한 많은 기능에 내장되어 있습니다. 아래 표에서 **(
 
 >[!BEGINSHADEBOX]
 
-**빌드하기 전에:** (1) 등록 트리거를 캡처하도록 [여정 시작 이벤트를 구성](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/configure-journeys/events-journeys/about-events), (2) 샌드박스에 대해 [전자 메일 또는 푸시 채널 표면](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/configuration/channel-surfaces)을 설정, (3) 게시하기 전에 여정의 유효성을 검사하는 데 사용할 수 있는 [테스트 프로필](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/audiences-profiles-identities/profiles/creating-test-profiles)이 있는지 확인하십시오.
+**빌드하기 전에:** (1) 등록 트리거를 캡처하도록 [여정 시작 이벤트를 구성](../event/about-events.md), (2) 샌드박스에 대해 [전자 메일 또는 푸시 채널 표면](../configuration/channel-surfaces.md)을 설정, (3) 게시하기 전에 여정의 유효성을 검사하는 데 사용할 수 있는 [테스트 프로필](../audience/creating-test-profiles.md)이 있는지 확인하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -70,7 +70,7 @@ AI는 이러한 많은 기능에 내장되어 있습니다. 아래 표에서 **(
 
 >[!BEGINSHADEBOX]
 
-**빌드하기 전에:** (1) 웹 또는 모바일 SDK에서 장바구니 또는 검색 작업을 캡처하는 [동작 이벤트](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/configure-journeys/events-journeys/about-events), (2) [대기 활동](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity) 전략(일반적으로 첫 번째 넛지 하기 1~4시간 전) 및 (3) 후속 메시지를 보낼 수 있는 채널 표면이 필요합니다. 참고: 여정은 대기 기간이 종료되기 전에 구매를 완료하는 프로필을 종료하는 조건을 포함해야 합니다.
+**빌드하기 전에:** (1) 웹 또는 모바일 SDK에서 장바구니 또는 검색 작업을 캡처하는 [동작 이벤트](../event/about-events.md), (2) [대기 활동](../building-journeys/wait-activity.md) 전략(일반적으로 첫 번째 넛지 하기 1~4시간 전) 및 (3) 후속 메시지를 보낼 수 있는 채널 표면이 필요합니다. 참고: 여정은 대기 기간이 종료되기 전에 구매를 완료하는 프로필을 종료하는 조건을 포함해야 합니다.
 
 >[!ENDSHADEBOX]
 
@@ -83,7 +83,7 @@ AI는 이러한 많은 기능에 내장되어 있습니다. 아래 표에서 **(
 
 >[!BEGINSHADEBOX]
 
-**빌드하기 전에:** (1) 비활성 프로필을 식별하는 [Adobe Experience Platform에서 정의된 대상](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences)&#x200B;(예: 60일 동안 구매 또는 로그인 없음), (2) 재참여 채널(이메일, 푸시 또는 SMS)에 대한 결정, (3) 최근에 메시지를 보낸 프로필에 연락하지 않도록 하는 비표시 규칙 또는 [빈도 상한](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/conflict-prioritization/capping-rules/channel-capping)이 필요합니다. 이 시나리오에는 이벤트가 아닌 **대상자 읽기** 여정 항목을 사용하십시오.
+**빌드하기 전에:** (1) 비활성 프로필을 식별하는 [Adobe Experience Platform에서 정의된 대상](../audience/about-audiences.md)(예: 60일 동안 구매 또는 로그인 없음), (2) 재참여 채널(이메일, 푸시 또는 SMS)에 대한 결정, (3) 최근에 메시지를 보낸 프로필에 연락하지 않도록 하는 비표시 규칙 또는 [빈도 상한](../conflict-prioritization/channel-capping.md)이 필요합니다. 이 시나리오에는 이벤트가 아닌 **대상자 읽기** 여정 항목을 사용하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -103,7 +103,7 @@ AI는 이러한 많은 기능에 내장되어 있습니다. 아래 표에서 **(
 
 >[!BEGINSHADEBOX]
 
-**빌드하기 전에:** (1) Adobe Experience Platform에 [게시된 대상 세그먼트](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences), (2) 확인된 전송 도메인이 있는 [전자 메일 채널 표면](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/configuration/channel-surfaces) 및 (3) 이미 게시된 [콘텐츠 조각 또는 템플릿](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/fragments/fragments)을(를) 다시 사용해야 합니다. 예약된 캠페인은 여기에서 여정이 아닌 올바른 선택입니다. 이것이 분기 논리가 없는 일회성 또는 반복 전송인 경우.
+**빌드하기 전에:** (1) Adobe Experience Platform에 [게시된 대상 세그먼트](../audience/about-audiences.md), (2) 확인된 전송 도메인이 있는 [전자 메일 채널 표면](../configuration/channel-surfaces.md) 및 (3) 이미 게시된 [콘텐츠 조각 또는 템플릿](../content-management/fragments.md)을(를) 다시 사용해야 합니다. 예약된 캠페인은 여기에서 여정이 아닌 올바른 선택입니다. 이것이 분기 논리가 없는 일회성 또는 반복 전송인 경우.
 
 >[!ENDSHADEBOX]
 
@@ -114,7 +114,7 @@ AI는 이러한 많은 기능에 내장되어 있습니다. 아래 표에서 **(
 | 분기 논리를 사용하여 여러 단계 캠페인 디자인 | 오케스트레이션된 캠페인 | [오케스트레이션된 캠페인 시작](../orchestrated/gs-orchestrated-campaigns.md) |
 | 마지막 캠페인 실행 이후 변경된 프로필만 타겟팅 | 오케스트레이션된 캠페인 — 증분 쿼리 | [오케스트레이션된 캠페인에서 쿼리 빌드](../orchestrated/build-query.md) <!-- TODO: verify target — no dedicated "incremental query" page found; build-query.md ("Build your first rule") is the closest existing page --> |
 | 시작하기 전에 내 대상자와 일치하는 프로필 수 확인 | 대상 미리 보기 | [대상자 정보](../audience/about-audiences.md) <!-- TODO: verify target — no "create-compositions.md#preview" page/anchor exists; about-audiences.md used as placeholder --> |
-| 규모에 맞게 여러 채널에서 메시징 조정 | 오케스트레이션 | [오케스트레이션을 옴니채널 참여로 확장](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/scaling-orchestration-to-omnichannel-engagement/introduction){target="_blank"} |
+| 규모에 맞게 여러 채널에서 메시징 조정 | 오케스트레이션 | [오케스트레이션된 캠페인 시작](../orchestrated/gs-orchestrated-campaigns.md) · [오케스트레이션을 옴니채널 참여로 크기 조정](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/scaling-orchestration-to-omnichannel-engagement/introduction){target="_blank"} |
 | 각 고객에게 최적의 시간에 각 메시지 보내기 | 전송 시간 최적화 **(AI)** | [전송 시간 최적화](../building-journeys/send-time-optimization.md) |
 
 ## 각 고객에게 표시되는 항목 개인화 {#personalize}
@@ -127,13 +127,13 @@ AI는 이러한 많은 기능에 내장되어 있습니다. 아래 표에서 **(
 
 >[!BEGINSHADEBOX]
 
-**빌드하기 전에:** 의사 결정에 특정 설치 시퀀스가 필요합니다. (1) 자격 규칙 및 특성을 사용하여 [의사 결정 항목(오퍼)을 만들고](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/items), (2) [선택 전략](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-selection/selection-strategies) 또는 순위 공식을 구성하고, (3) 오퍼가 표시될 화면에 [의사 결정 정책](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-policies/create-decision)을 첨부해야 합니다. 이 시퀀스를 건너뛰는 것은 처음 의사 결정 설정이 결과를 반환하지 못하는 가장 일반적인 이유입니다.
+**빌드하기 전에:** 의사 결정에 특정 설치 시퀀스가 필요합니다. (1) 자격 규칙 및 특성을 사용하여 [의사 결정 항목(오퍼)을 만들고](../experience-decisioning/items.md), (2) [선택 전략](../experience-decisioning/selection-strategies.md) 또는 순위 공식을 구성하고, (3) 오퍼가 표시될 화면에 [의사 결정 정책](../experience-decisioning/create-decision.md)을 첨부해야 합니다. 이 시퀀스를 건너뛰는 것은 처음 의사 결정 설정이 결과를 반환하지 못하는 가장 일반적인 이유입니다.
 
 >[!ENDSHADEBOX]
 
 | 난... | 권장 기능 | 여기서 시작 |
 | --- | --- | --- |
-| 공식을 사용하여 오퍼 순위 지정(우편 번호, 수입, 날씨) | Decisioning — 등급 공식 | [순위 공식 튜토리얼](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/personalizing-offers-with-ranking-formulas-based-on-user-zip-code-and-income/introduction){target="_blank"} · [날씨 데이터 튜토리얼](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction){target="_blank"} |
+| 공식을 사용하여 오퍼 순위 지정(우편 번호, 수입, 날씨) | Decisioning — 등급 공식 | [순위 공식](../experience-decisioning/ranking/ranking-formulas.md) · [순위 공식 튜토리얼](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/personalizing-offers-with-ranking-formulas-based-on-user-zip-code-and-income/introduction){target="_blank"} · [날씨 데이터 튜토리얼](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction){target="_blank"} |
 | 외부 제품 또는 CRM 데이터를 사용하여 오퍼 개인화 | Decisioning — AEP 데이터 세트 조회 | [의사 결정 시 데이터 세트 조회 사용](../experience-decisioning/context-data.md) |
 | 프로필 데이터를 사용하여 메시지 콘텐츠 맞춤화 | 개인화 | [콘텐츠 개인화](../personalization/personalize.md) |
 | 사본, 이미지 및 메시지 변형 생성 | AI 콘텐츠 생성 **(AI)** | [AI 콘텐츠 생성](../content-management/gs-generative.md) · [자습서](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/content-management/ai-assistant/ai-assistant-for-content-generation-overview){target="_blank"} |
