@@ -7,14 +7,11 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 5ff88c5deec3f9fa326fe6fd2d71133ba4135fc4
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: 1918bcb699ea6a4063be28941a30bb6c6ade21ce
 workflow-type: tm+mt
-source-wordcount: 2364
+source-wordcount: 2363
 ht-degree: 16%
 
 ---
@@ -79,7 +76,7 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
 
      >[!AVAILABILITY]
      >
-     >이 기능은 Decisioning이 지원되는 아웃바운드 채널에 사용할 수 있습니다.
+     >이 기능은 Decisioning이 지원되는 채널에 사용할 수 있습니다.
 
      사전 요구 사항 및 보호 기능은 [Experience Decisioning에서 AEM 콘텐츠 조각 사용](../integrations/aem-fragments.md#aem-decisioning)을 참조하세요.
 
@@ -95,8 +92,8 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
 >abstract="기본적으로 모든 프로필은 결정 항목을 수신할 수 있지만 대상자 또는 규칙을 사용하여 항목을 특정 프로필로만 제한할 수 있습니다."
 
 <!--
->"additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
