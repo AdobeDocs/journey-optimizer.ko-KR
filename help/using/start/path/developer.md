@@ -286,26 +286,26 @@ SDK 및 이벤트 스트리밍을 구현하는 것 외에도 자체 시스템에
 * 호출에는 **60초**&#x200B;의 시간 제한이 있습니다. 내부 다시 시도는 예기치 않은 시간 제한을 처리합니다.
 * 캠페인 시작/종료 날짜가 구성된 경우 해당 날짜 이외의 API 호출이 실패합니다.
 * 페이로드를 빌드하려면 Journey Optimizer UI의 라이브 캠페인에 있는 **cURL 요청** 섹션에서 생성된 샘플 cURL 요청을 검색합니다. 여기에는 해당 캠페인에 대한 모든 개인화 변수가 포함됩니다.
-* 표준 및 [처리량이 많은 캠페인](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/api-triggered-campaigns/api-triggered-high-throughput)은(는) 서로 다른 끝점을 사용합니다.
+* 표준 및 [처리량이 많은 캠페인](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/campaigns/api-triggered-campaigns/api-triggered-high-throughput)은(는) 서로 다른 끝점을 사용합니다.
 
-[API 참조](https://developer.adobe.com/journey-optimizer-apis/references/messaging){target="_blank"} · [코드 샘플](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples){target="_blank"} · [API 트리거 캠페인 작업](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/api-triggered-campaigns/api-triggered-campaigns)
+[API 참조](https://developer.adobe.com/journey-optimizer-apis/references/messaging){target="_blank"} · [코드 샘플](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples){target="_blank"} · [API 트리거 캠페인 작업](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/campaigns/api-triggered-campaigns/api-triggered-campaigns)
 
 ### 외부 엔드포인트에 대한 제한 및 조절 {#capping-throttling}
 
 여정이 사용자 지정 작업 또는 데이터 소스를 통해 외부 시스템을 호출하는 경우 제한 및 조절 API는 이러한 시스템을 오버로드로부터 보호합니다. 캡핑은 구성된 제한을 초과하는 호출을 거부합니다. 조절은 최대 6시간 동안 호출을 큐에 추가합니다(프로덕션 샌드박스, 사용자 지정 작업만 해당).
 
-[API 참조 최대 가용량](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling){target="_blank"} · [최대 가용량 API 작업](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/connect-systems/external-systems/capping) · [제한 API 작업](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/connect-systems/external-systems/throttling)
+[API 참조 최대 가용량](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling){target="_blank"} · [최대 가용량 API 작업](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/connect-systems/external-systems/capping) · [제한 API 작업](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/connect-systems/external-systems/throttling)
 
 ### 더 많은 REST API {#more-rest-apis}
 
 | 수행할 작업 | API 참조 |
 | ------------------- | ------------- |
-| 전송에서 이메일 주소 또는 도메인을 프로그래밍 방식으로 제외 | [제외 API](https://developer.adobe.com/journey-optimizer-apis/references/suppression){target="_blank"} · [제외 목록 관리](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list) |
+| 전송에서 이메일 주소 또는 도메인을 프로그래밍 방식으로 제외 | [제외 API](https://developer.adobe.com/journey-optimizer-apis/references/suppression){target="_blank"} · [제외 목록 관리](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list) |
 | 감사 또는 외부 동기화를 위한 여정 메타데이터 검색 | [여정 API](https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve){target="_blank"} |
-| 외부 파이프라인에서 콘텐츠 템플릿 및 조각 생성 및 관리 | [콘텐츠 API](https://developer.adobe.com/journey-optimizer-apis/references/content){target="_blank"} · [템플릿](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-templates/content-templates) · [조각](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/fragments/fragments) |
+| 외부 파이프라인에서 콘텐츠 템플릿 및 조각 생성 및 관리 | [콘텐츠 API](https://developer.adobe.com/journey-optimizer-apis/references/content){target="_blank"} · [템플릿](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/content-templates/content-templates) · [조각](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/fragments/fragments) |
 | 액션 캠페인 검색 및 필터링 | [캠페인 API](https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve){target="_blank"} |
 | 캠페인을 미리 보고 증명을 프로그래밍 방식으로 보내기 | [시뮬레이션 API](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"} |
-| 데이터 세트 유효성 검사 및 오케스트레이션된 캠페인 실행 트리거 | [데이터 집합 유효성 검사](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset){target="_blank"} · [트리거](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} · [데이터 집합 사용](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/data-configuration/schemas-datasets/manual-schema) |
+| 데이터 세트 유효성 검사 및 오케스트레이션된 캠페인 실행 트리거 | [데이터 집합 유효성 검사](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset){target="_blank"} · [트리거](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} · [데이터 집합 사용](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/data-configuration/schemas-datasets/manual-schema) |
 
 ## 추가 리소스 {#additional-resources}
 
