@@ -97,7 +97,7 @@ Journey Optimizer의 기능, 아키텍처, 사용자 인터페이스 등 기본 
 :::
 
 :::
-![아이콘](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
 
 커뮤니케이션 채널
 
