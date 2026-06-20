@@ -6,31 +6,15 @@ role: Developer
 level: Intermediate
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
 TQID: https://experienceleague.adobe.com/7fRI-CPkIeBAPjtXmDgFdyNKgB4WwEc01yKrGUXnc3U
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: e5fb53814beb3c9288904b20615a60af3c42a723
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: d08afb72-92f6-4856-88e3-11ec34313c2fid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e9001ce2-5245-4a8e-8601-dd958009072fid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: e5e8545bef077219ff91428c9048c978184b57ec
 workflow-type: tm+mt
-source-wordcount: 2560
-ht-degree: 83%
+source-wordcount: 3456
+ht-degree: 54%
 
 ---
 
@@ -38,7 +22,7 @@ ht-degree: 83%
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** SDK, 이벤트 스트리밍, 사용자 지정 작업 끝점 및 응용 프로그램을 Adobe Journey Optimizer에 연결하는 API를 구현하여 여정이 실시간 데이터에서 실행될 수 있도록 합니다.
+**이 페이지에서:** SDK, 이벤트 스트리밍, 사용자 지정 작업 끝점 및 응용 프로그램을 Adobe Journey Optimizer에 연결하는 API를 구현하여 여정이 라이브 데이터에서 실행될 수 있도록 합니다.
 
 >[!ENDSHADEBOX]
 
@@ -88,7 +72,7 @@ ht-degree: 83%
 
 ### Adobe Experience Platform Mobile SDK 구성
 
-푸시 알림, 인앱 메시지 및 기타 모바일 기능을 사용하려면 Adobe Experience Platform Mobile SDK를 모바일 애플리케이션에 통합합니다.
+모바일 SDK은 iOS 또는 Android 앱에 직접 임베드하는 라이브러리 컬렉션입니다. 앱과 Adobe Experience Platform 간의 통신 레이어 역할을 합니다. 사용자를 식별하고 행동 이벤트를 수집하며 푸시 알림, 인앱 메시지, 개인화된 콘텐츠 등 Journey Optimizer의 지침을 전달합니다. 이 기능이 없으면 Journey Optimizer에서 앱 사용자가 수행하는 작업을 볼 수 없으며 앱 사용자에게 연결할 방법도 없습니다.
 
 1. **Mobile SDK 설치 및 구성**: SDK 통합을 시작하려면 [Adobe Experience Platform Mobile SDK 문서](https://developer.adobe.com/client-sdks/documentation/getting-started){target="_blank"}를 따르세요.
 
@@ -104,7 +88,7 @@ ht-degree: 83%
 
 ### 코드 기반 경험 구현(Mobile SDK)
 
-코드 기반 경험을 사용하는 기본 모바일 앱 개인화:
+코드 기반 경험을 사용하면 새로운 앱 릴리스 없이도 온보딩 화면 및 제품 세부 사항 페이지에서 인앱 배너 및 기능 플래그에 이르기까지 기본 모바일 앱의 모든 표면에 개인화된 콘텐츠를 전달할 수 있습니다. 모바일 SDK을 사용하여 런타임 시 개인화된 콘텐츠를 가져오고 렌더링하여 팀이 배치 및 프레젠테이션을 완전히 제어할 수 있도록 합니다.
 
 * Mobile SDK 구현을 위해 [이 튜토리얼](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial){target="_blank"}을 따르세요.
 * [iOS](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI){target="_blank"} 및 [Android](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp){target="_blank"}에 대한 샘플 구현을 검토합니다.
@@ -113,7 +97,7 @@ ht-degree: 83%
 
 ### Adobe Experience Platform Web SDK 설정
 
-웹 기반 구현의 경우 Web SDK는 기본 통합 지점입니다.
+웹 SDK(`alloy.js`)는 사이트에서 필요로 할 수 있는 별도의 Adobe 태그의 패치 작업을 대체하는 단일 JavaScript 라이브러리입니다. 동작 데이터를 수집하고, 사용자가 구성한 데이터 스트림을 통해 Adobe Experience Platform으로 스트리밍하고, 개인화 지침을 다시 수신합니다(모두 한 네트워크 왕복). Journey Optimizer이 설치되면 방문자를 식별하고, 방문자 작업에서 여정을 트리거하고, 맞춤화된 콘텐츠를 즉시 페이지에 전달할 수 있습니다.
 
 1. **Web SDK 설치**: [Web SDK 구현 안내서](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ko-KR){target="_blank"}를 따라 웹 사이트에 SDK를 설정합니다.
 
@@ -123,7 +107,7 @@ ht-degree: 83%
 
 ### 코드 기반 경험 구현(Web SDK)
 
-코드 기반 경험을 통해 모든 디지털 접점을 개인화할 수 있습니다.
+마케터가 레이아웃을 완전히 제어하는 시각적 채널과 달리 코드 기반 경험은 개인화된 콘텐츠가 페이지에서 렌더링되는 방식에 대한 완전한 소유권을 제공합니다. Journey Optimizer은 개인화 데이터와 함께 JSON 페이로드를 반환합니다. 코드는 어디에 어떻게 표시할지를 결정합니다. 이 모델은 시각적 편집기나 페이지 게시 작업 과정이 필요 없이 모든 웹 표면(영웅 배너, 추천 회전 메뉴, 검색 결과 등급, A/B 테스트 변형)에 대해 작동합니다.
 
 1. **구현 방법 선택**: 클라이언트측, 서버측 또는 하이브리드입니다. 각 접근 방식에 대한 [구현 샘플](../../code-based/code-based-implementation-samples.md)을 검토하십시오.
 
@@ -141,7 +125,7 @@ ht-degree: 83%
 
 ### 여정을 트리거할 이벤트 보내기
 
-개발자로서 사용자는 여정을 트리거하는 이벤트를 전송하는 코드를 구현하게 됩니다. [데이터 엔지니어](data-engineer.md)가 Journey Optimizer에서 이벤트 스키마와 정의를 구성합니다.
+여정 실행 - 사용자가 로그인하고, 장바구니에 항목을 추가하고, 구매를 완료하고, 양식을 중단합니다. 귀하의 작업은 정확한 순간에 응용 프로그램에서 이러한 이벤트를 내보내는 것입니다. 각 이벤트는 Experience Platform 스트리밍 수집 API로 전송되는 XDM 구조의 JSON 페이로드입니다. Journey Optimizer은 밀리초 내에 해당 이벤트를 선택하고 일치하는 여정으로 프로필을 라우팅합니다. [데이터 엔지니어](data-engineer.md)가 이벤트 스키마 및 페이로드 구조를 정의합니다. 코딩을 시작하기 전에 해당 스키마와 조정합니다.
 
 1. **이벤트 페이로드 이해**: 데이터 엔지니어와 협력하여 이벤트 스키마와 필요한 페이로드 구조를 확보합니다. 페이로드는 구성한 XDM 스키마를 준수해야 합니다. [이벤트 스키마 요구 사항](../../event/experience-event-schema.md)에 대해 알아봅니다.
 
@@ -187,7 +171,7 @@ Content-Type: application/json
 
 ## 사용자 정의 액션 엔드포인트 개발 {#custom-actions}
 
-사용자 정의 액션을 사용하면 여정에서 API를 호출할 수 있습니다. 개발자는 사용자 정의 액션에서 호출하는 API 엔드포인트를 작성합니다.
+여정이 사용자 지정 작업 단계에 도달하면 Journey Optimizer은 사용자가 제공한 URL(백엔드, CRM, 로열티 플랫폼, REST 끝점)에 대한 아웃바운드 HTTP 호출을 만듭니다. 작업은 해당 끝점을 빌드하고 노출하는 것입니다. 요청 계약(페이로드 모양, 인증 방법, 응답 형식)을 정의하고, 비즈니스 로직을 구현한 다음, Journey Optimizer이 생성하는 호출 볼륨을 처리할 수 있는지 확인합니다. 그런 다음 [관리자](administrator.md)가 끝점을 Journey Optimizer에 등록하면 마케터는 이를 여정의 단계로 사용할 수 있습니다.
 
 1. **API 엔드포인트 작성**: Journey Optimizer가 여정 실행 중에 호출할 RESTful API 엔드포인트를 생성합니다. 엔드포인트는 다음과 같아야 합니다.
    * JSON 페이로드 수락
@@ -209,7 +193,7 @@ Content-Type: application/json
 
 ## Journey Optimizer API 작업 {#apis}
 
-Journey Optimizer는 프로그래밍 방식으로 액세스할 수 있는 포괄적인 REST API를 제공합니다.
+모든 것이 Journey Optimizer UI를 통해 발생해야 하는 것은 아닙니다. 때로는 자체 백엔드에서 캠페인을 트리거하거나, 개인 정보 보호 요청 후 이메일 주소를 표시하지 않거나, 외부 CMS에서 컨텐츠 템플릿을 동기화해야 합니다. Journey Optimizer의 REST API를 통해 플랫폼의 핵심 기능에 프로그래밍 방식으로 액세스할 수 있습니다. 모든 호출은 OAuth 서버 간 인증을 사용합니다. 이전 JWT 메서드는 더 이상 사용되지 않습니다.
 
 1. **API 기능 이해**: Journey Optimizer API를 사용하면 다양한 리소스를 프로그래밍 방식으로 생성하고 읽고 업데이트 및 삭제할 수 있습니다. [Journey Optimizer API](../../configuration/ajo-apis.md)에 대해 알아보세요.
 
@@ -227,7 +211,9 @@ Journey Optimizer는 프로그래밍 방식으로 액세스할 수 있는 포괄
 
 ## 테스트 및 디버깅 {#testing}
 
-1. **SDK 구현 디버깅**: Adobe Experience Platform Assurance를 사용하여 SDK 이벤트를 검사하고, 데이터 수집을 검증하며, 통합 문제를 실시간으로 해결할 수 있습니다. [Assurance에 대해 자세히 알아보세요](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=ko){target="_blank"}.
+구현이 실행되기 전에 이벤트가 적절한 시점에 실행되고, 여정이 예상대로 트리거되고, 사용자 지정 작업이 실제 로드에서 동작하며, 개인화된 콘텐츠가 올바르게 렌더링된다는 확신이 필요합니다. 이 섹션에서는 낮은 수준의 SDK 로깅부터 실제 프로필을 사용한 엔드 투 엔드 여정 테스트 실행에 이르기까지 문제를 조기에 발견할 수 있는 도구 및 기술을 다룹니다.
+
+1. **SDK 구현 디버그**: Adobe Experience Platform Assurance을 사용하여 SDK 이벤트를 검사하고, 데이터 수집을 확인하고, 통합 문제가 발생하면 문제를 해결합니다. [Assurance에 대해 자세히 알아보세요](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=ko){target="_blank"}.
 
 1. **테스트 이벤트 게재**: 애플리케이션의 이벤트가 Adobe Experience Platform에서 올바르게 수신되고 예상대로 여정이 트리거되는지 확인합니다. 이벤트 수집을 모니터링하고 페이로드 구조를 검증합니다.
 
@@ -249,19 +235,25 @@ Journey Optimizer는 프로그래밍 방식으로 액세스할 수 있는 포괄
 
 ## 고급 개발자 항목 {#advanced-topics}
 
+핵심 SDK, 이벤트 및 API가 준비되면 이러한 주제를 통해 더 자세한 작업을 수행할 수 있습니다. 여정을 확장하지 않고 런타임에 프로필 데이터를 강화하고, 모든 통합을 통해 옵트아웃이 전파되도록 동의 신호를 처리하고, 프로덕션 규모에 필요한 처리량과 안정성을 위해 구현을 튜닝할 수 있습니다.
+
 ### 상황별 데이터 및 보강 작업
+
+여정은 종종 제품 이름, 충성도 계층, 주문 품목 목록과 같은 트리거 이벤트에 도착하는 것보다 더 많은 데이터를 필요로 합니다. 이 모든 항목을 모든 프로필에 미리 로드하는 대신 상황별 데이터 보강으로 여정이 AEP 데이터 세트에서 런타임에 조회하거나 사용자 지정 작업 응답에서 이를 전달할 수 있습니다. 그러면 프로필에 영구적으로 저장되지 않고 메시지와 분기 조건이 해당 데이터를 참조할 수 있습니다.
 
 * **배열 반복**: Handlebars 구문을 사용하여 메시지에서 이벤트, 사용자 정의 액션 응답 및 데이터 세트 조회의 동적 목록을 표시합니다. [상황별 데이터 반복](../../personalization/iterate-contextual-data.md)에 대해 알아보세요.
 * **데이터 집합 조회**: Adobe Experience Platform 데이터 세트에서 여정 데이터를 보강하기 위해 데이터 세트 조회 기능을 구현합니다. 데이터 엔지니어와 협력하여 구성을 진행합니다. [데이터 세트 조회](../../building-journeys/dataset-lookup.md)에 대해 알아보세요.
 
 ### 동의 및 거버넌스 작업
 
-데이터 통합에 데이터 거버넌스 및 동의 정책을 구현합니다.
+Journey Optimizer은 플랫폼 수준에서 데이터 거버넌스 및 동의 정책을 시행하지만 통합도 이를 존중해야 합니다. 고객이 마케팅 커뮤니케이션을 거부하거나 데이터 사용 레이블이 필드 사용 방법을 제한하는 경우, 이러한 규칙은 UI에서 작업을 차단하는 것뿐만 아니라 사용자 지정 작업 및 데이터 세트 조회를 통해 전파되어야 합니다.
 
 * **데이터 거버넌스**: 사용자 정의 액션에 데이터 사용 정책을 적용합니다. [데이터 거버넌스](../../action/action-privacy.md)에 대해 자세히 알아보세요.
 * **동의 관리**: 구현에서 고객 동의 환경 설정을 처리합니다. [동의](../../action/consent.md)에 대해 알아보세요.
 
 ### 최적화 및 모범 사례
+
+프로덕션 Journey Optimizer 구현은 초당 수백만 건의 이벤트와 수천 건의 여정 실행을 정기적으로 처리합니다. 이러한 리소스를 통해 이러한 규모에 맞게 통합을 조정할 수 있습니다. 즉, 조회하기 전에 비율 제한을 이해하고, 자동으로 프로필을 떨어뜨리는 일반적인 여정 디자인 위험을 방지하며, 불투명하게 실패하는 대신 우아하게 저하되는 오류 처리를 작성할 수 있습니다.
 
 * **캡핑 및 스로틀링**: 속도 제한을 이해하고 적절한 스로틀링을 구현합니다. [외부 시스템](../../configuration/external-systems.md)에 대해 알아보세요.
 * **여정 최적화**: [여정 최적화](../../building-journeys/optimize.md)에 대한 모범 사례를 따릅니다.
@@ -295,6 +287,8 @@ SDK 및 이벤트 스트리밍을 구현하는 것 외에도 자체 시스템에
 
 ### 더 많은 REST API {#more-rest-apis}
 
+메시징과 최대 가용량 외에도 Journey Optimizer은 제외 관리, 콘텐츠 템플릿, 캠페인 검색, 증명 및 오케스트레이션된 캠페인 실행에 대한 REST 엔드포인트를 노출합니다. 예를 들어, 데이터 가져오기 후 주소 일괄 억제 또는 외부 콘텐츠 파이프라인에서 템플릿 동기화 등 UI에서 수동 단계가 필요한 작업을 자동화해야 할 때 사용합니다.
+
 | 수행할 작업 | API 참조 |
 | ------------------- | ------------- |
 | 전송에서 이메일 주소 또는 도메인을 프로그래밍 방식으로 제외 | [제외 API](https://developer.adobe.com/journey-optimizer-apis/references/suppression){target="_blank"} · [제외 목록 관리](../../configuration/manage-suppression-list.md) |
@@ -319,30 +313,30 @@ SDK 및 이벤트 스트리밍을 구현하는 것 외에도 자체 시스템에
 
 >[!TAB 데이터 엔지니어와 협력]
 
-데이터 및 이벤트 구성에 대해 [데이터 엔지니어](data-engineer.md)와 협업합니다.
+데이터 및 이벤트 구성에 대해 [데이터 엔지니어](data-engineer.md)와(과) 공동 작업합니다. 사용자 동작에 반응하는 모든 여정은 사용자가 전송하는 이벤트에 따라 다릅니다. 데이터 엔지니어는 스키마를 정의하고 이를 생성하는 코드를 구현합니다.
 
-* 구현에 필요한 XDM 스키마 및 이벤트 구조 가져오기
-* 전송해야 하는 이벤트와 해당 페이로드 형식 이해
-* 데이터 수집 요구 사항과 데이터 품질 표준에 맞게 조정
-* 테스트 이벤트 게재 및 데이터 수집을 함께 수행
+* 구현해야 하는 [XDM 스키마](../../data/get-started-schemas.md) 및 이벤트 구조를 가져옵니다.
+* 전송해야 하는 이벤트와 해당 페이로드 형식을 이해합니다. [여정 이벤트 작업](../../event/about-events.md)을 참조하십시오.
+* 각 이벤트 페이로드에서 필수 필드와 선택 필드 비교 및 예상 필드가 누락되거나 형식이 잘못된 경우 여정에서 발생하는 결과를 확인합니다. [스키마 요구 사항](../../event/experience-event-schema.md#schema-requirements)을 참조하십시오.
+* [Adobe Experience Platform Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=ko){target="_blank"}을(를) 사용하여 이벤트 게재 및 데이터 수집 테스트
 
 >[!TAB 관리자와 협업]
 
-액세스 및 구성에 대해 다음과 같이 [관리자](administrator.md)와 협업합니다.
+액세스 및 채널 구성에 대해 [관리자](administrator.md)와(과) 공동 작업하십시오. 여정은 관리자가 설정한 채널을 통해서만 사용자에게 도달할 수 있습니다. 즉, SDK이 작동하고 구성이 계속 동기화되도록 조기에 조정할 수 있습니다.
 
-* 사용자가 구성할 사용자 정의 액션에 대한 API 사양 제공
-* 필요한 권한과 API 자격 증명 요청
-* 채널 구성 요구 사항(예: 푸시 인증서) 조정
-* 테스트 환경과 샌드박스 전략에 맞게 조정
+* Journey Optimizer에서 구성할 [사용자 지정 작업](../../action/about-custom-action-configuration.md)에 대한 API 사양을 제공합니다.
+* [Adobe Developer Console](https://developer.adobe.com){target="_blank"}을(를) 통해 필요한 권한 및 API 자격 증명 요청
+* 채널 구성 요구 사항 조정 — [iOS](../../push/push-configuration.md) 및 Android, [웹 푸시](../../push/push-configuration-web.md) 설정, [SMS 웹후크](../../mobile/mobile-webhook.md) 엔드포인트에 대한 푸시 인증서
+* [여정 테스트 모드](../../building-journeys/testing-the-journey.md)를 실행하기 전에 샌드박스 전략 및 테스트 환경 조정
 
->[!TAB 마케터와 협력]
+>[!TAB 마케터와 협업]
 
-여정 요구 사항과 테스트에 대해 [마케터](marketer.md)와 협업합니다.
+여정 디자인 및 테스트에서 [마케터](marketer.md)와(과) 공동 작업합니다. 마케터는 전송한 여정과 노출된 표면에 전적으로 의존하는 여정과 콘텐츠를 만듭니다. 정렬이 가까워질수록 더 빠른 이벤트가 생성됩니다.
 
-* 이벤트를 트리거해야 하는 사용자 상호 작용 이해
-* 콘텐츠 성과 및 사용자 참여 추적 기능 구현
-* 구현한 기능을 사용하여 여정 테스트 지원
-* 메시지 게재 또는 개인화 관련 문제 해결
+* 이벤트를 트리거해야 하는 사용자 상호 작용과 개인화가 필요한 표면을 이해하려면 [Journey Optimizer](../../building-journeys/journey.md)의 여정 디자인을 함께 검토하십시오
+* 마케터가 [콘텐츠 성능 및 사용자 참여](../../reports/report-gs-cja.md)를 측정할 수 있도록 추적 구현
+* 테스트 프로필을 사용하여 [여정 테스트 모드](../../building-journeys/testing-the-journey.md)를 함께 실행하여 전체 흐름을 처음부터 끝까지 확인합니다
+* 메시지 게재, 개인화 렌더링 또는 [사용자 지정 작업](../../action/action.md) 응답 문제 해결
 
 >[!ENDTABS]
 
