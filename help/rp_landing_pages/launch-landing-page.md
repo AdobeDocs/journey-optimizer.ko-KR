@@ -50,7 +50,7 @@ Adobe Journey Optimizer에서 첫 번째 오케스트레이션된 캠페인을 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 캠페인 시작 및 모니터링
 

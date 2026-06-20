@@ -36,7 +36,7 @@ Adobe Journey Optimizer에서 랜딩 페이지 호스팅을 위한 하위 도메
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 랜딩 페이지 사전 설정 정의
 

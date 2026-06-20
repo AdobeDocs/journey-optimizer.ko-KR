@@ -119,7 +119,7 @@ ht-degree: 13%
    >[!NOTE]
    >
    >**[!UICONTROL Enter]** 및 **[!UICONTROL Exit]**&#x200B;은(는) [!DNL Adobe Experience Platform]의 **실현됨** 및 **종료됨** 대상자 참여 상태에 해당합니다.
-   >[세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}를 참조하세요.
+   >[세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ko#interpret-segment-results){target="_blank"}를 참조하세요.
 
 1. 네임스페이스를 선택합니다. 이는 이벤트가 여정의 첫 번째 단계로 배치되는 경우에만 필요합니다. 기본적으로 필드는 마지막으로 사용된 네임스페이스로 미리 채워집니다.
 

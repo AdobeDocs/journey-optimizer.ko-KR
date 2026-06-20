@@ -40,7 +40,7 @@ Adobe Journey Optimizer의 이메일 디자이너에서 다양한 수준의 이�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 세로 정렬 및 패딩 조정
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer의 이메일 디자이너에서 다양한 수준의 이�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 인라인 스타일 속성 추가
 

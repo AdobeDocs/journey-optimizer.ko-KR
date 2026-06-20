@@ -35,7 +35,7 @@ Adobe Experience Platform을 사용하여 보고 및 분석을 위해 의사 결
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 DecisioningEvents XDM 필드 액세스 및 탐색
 
