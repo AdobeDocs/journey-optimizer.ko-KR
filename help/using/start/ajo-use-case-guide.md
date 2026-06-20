@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey Optimizer 사용 사례 개요 | ADOBE JOURNEY OPTIMIZER
+title: 목표에서 시작 | ADOBE JOURNEY OPTIMIZER
 description: 각 시나리오에 가장 적합한 AJO 기능에 대한 지침을 통해 Adobe Journey Optimizer이 설계된 핵심 사용 사례를 살펴보십시오.
 feature: Get Started
 topic: Content Management
 role: User
 level: Beginner
 keywords: 여정 최적화 도구, 사용 사례, 의사 결정 안내서, 기능, 시작, 실무자 목표, 자습서
-source-git-commit: a35c1cd2d99c41cb94c506cebf6c2b2f5e7151cb
+source-git-commit: 49146a29a474a240ca1fdb10b2a6ef175f44f595
 workflow-type: tm+mt
-source-wordcount: '3153'
-ht-degree: 32%
+source-wordcount: '3141'
+ht-degree: 31%
 
 ---
 
-# 목표에 적합한 Journey Optimizer 기능 찾기 {#ajo-use-case-guide}
+# 목표에서 시작 {#ajo-use-case-guide}
 
 >[!BEGINSHADEBOX]
 
@@ -37,7 +37,7 @@ AI는 이러한 많은 기능에 내장되어 있습니다. 아래 표에서 **(
 
 >[!TIP]
 >
->Journey Optimizer을 처음 사용하십니까? [Journey Optimizer으로 시작](../../rp_landing_pages/get-started-landing-page.md)하여 역할에 적합한 경로를 선택한 다음 필수 요소에 대한 [Journey Optimizer 소개](get-started.md)를 읽어 보세요. 실습형 자신감을 높이려면 [Journey Optimizer 튜토리얼](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}을 탐색하고 전문가가 큐레이션한 [비디오 재생 목록](https://experienceleague.adobe.com/ko/playlists?solution=Journey+Optimizer){target="_blank"}을 따라 [교육 샌드박스](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"}에서 또는 [실습형 과제](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"}를 통해 연습하세요.
+>Journey Optimizer을 처음 사용하십니까? [Journey Optimizer으로 시작](../../rp_landing_pages/get-started-landing-page.md)하여 역할에 적합한 경로를 선택한 다음 필수 요소에 대한 [Journey Optimizer 소개](get-started.md)를 읽어 보세요. 실습형 자신감을 높이려면 [Journey Optimizer 튜토리얼](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}을 탐색하고 전문가가 큐레이션한 [비디오 재생 목록](https://experienceleague.adobe.com/en/playlists?solution=Journey+Optimizer){target="_blank"}을 따라 [교육 샌드박스](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"}에서 또는 [실습형 과제](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"}를 통해 연습하세요.
 
 ## 팀을 위한 Journey Optimizer 설정 {#setup-admin}
 
@@ -50,7 +50,7 @@ AI는 이러한 많은 기능에 내장되어 있습니다. 아래 표에서 **(
 | 역할, 권한 및 액세스 제어 설정 | 액세스 제어 | [액세스 제어 시작](../administration/permissions-overview.md) |
 | 여러 환경 또는 지역에서 작업 | 샌드박스 | [샌드박스 작업](../administration/sandboxes.md) |
 
-## 실시간으로 고객 참여 {#engage-real-time}
+## 이벤트 발생 시 고객 참여 {#engage-real-time}
 
 발생한 고객 작업 또는 이벤트에 반응하는 시나리오의 경우.
 
@@ -109,7 +109,7 @@ AI는 이러한 많은 기능에 내장되어 있습니다. 아래 표에서 **(
 
 | 난... | 권장 기능 | 여기서 시작 |
 | --- | --- | --- |
-| A/B 테스트로 제품 실행 | 콘텐츠 실험 **(AI)** | [콘텐츠 실험 시작](../content-management/experiment-accelerator-gs.md) · [이메일 캠페인에 대한 콘텐츠 실험 만들기](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} |
+| A/B 테스트로 제품 실행 | 콘텐츠 실험 **(AI)** | [콘텐츠 실험 시작](../content-management/experiment-accelerator-gs.md) · [이메일 캠페인에 대한 콘텐츠 실험 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} |
 | 고객에게 중단 또는 서비스 업데이트 알림 | 예약된 캠페인 + 대상자 | [대상자 정보](../audience/about-audiences.md) |
 | 분기 논리를 사용하여 여러 단계 캠페인 디자인 | 오케스트레이션된 캠페인 | [오케스트레이션된 캠페인 시작](../orchestrated/gs-orchestrated-campaigns.md) |
 | 마지막 캠페인 실행 이후 변경된 프로필만 타겟팅 | 오케스트레이션된 캠페인 — 증분 쿼리 | [오케스트레이션된 캠페인에서 쿼리 빌드](../orchestrated/build-query.md) <!-- TODO: verify target — no dedicated "incremental query" page found; build-query.md ("Build your first rule") is the closest existing page --> |
@@ -199,7 +199,7 @@ AI는 이러한 많은 기능에 내장되어 있습니다. 아래 표에서 **(
 
 ### 포기한 장바구니 복구 {#flow-cart}
 
-**다음 항목을 만듭니다.** 고객에게 남아 있는 항목을 상기시키는 실시간 복구 흐름입니다.
+**다음 항목을 만듭니다.** 고객에게 남겨진 항목을 상기시키는 자동 복구 흐름입니다.
 **우수 사례:** 마케터 · **기능:** 이벤트 트리거 여정
 
 1. 장바구니 중단 이벤트가 Journey Optimizer에 도달하는지 확인하십시오(필요한 경우 [데이터 팀](../data/gs-data.md)과(와) 협력).
@@ -258,7 +258,7 @@ AI는 이러한 많은 기능에 내장되어 있습니다. 아래 표에서 **(
 
 **역할:** 마케터 | **핵심 기능:** [Geofence 트리거 + 푸시](../push/get-started-push.md)
 
-동일한 가게에서 고객이 매장 주차장에 들어올 때 실시간으로 재입고된 해당 고객 사이즈 스웨터에 대한 푸시 알림을 보내어 단골 고객의 관심을 사로잡을 수 있습니다.
+이 retailer은 고객이 사이즈 재고 있는 스웨터에 대한 푸시 알림을 보내어 매장 주차장에 오는 단골 고객을 참여시킬 수 있습니다.
 
 [푸시 알림 시작](../push/get-started-push.md)
 
@@ -266,7 +266,7 @@ AI는 이러한 많은 기능에 내장되어 있습니다. 아래 표에서 **(
 
 **역할:** 마케터 | **핵심 기능:** [이벤트로 트리거되는 단계 여정](../building-journeys/journey-gs.md)
 
-고객이 온라인 장바구니에 항목을 추가했지만 구매를 완료하지 않고 떠나면 Journey Optimizer가 실시간으로 이벤트를 감지하고 자동으로 회복 여정을 시작합니다. 고객은 구매하지 않고 남긴 제품을 알려 주는 개인화된 이메일을 받게 됩니다. 24시간 이내에 클릭스루하지 않으면 브라우징 기록 및 충성도 상태에 따라 개인화된 후속 푸시 알림이 전송됩니다.
+고객이 온라인 장바구니에 항목을 추가했지만 구매를 완료하지 않고 나갈 때 Journey Optimizer이 이벤트를 감지하고 복구 여정을 자동으로 시작합니다. 고객은 구매하지 않고 남긴 제품을 알려 주는 개인화된 이메일을 받게 됩니다. 24시간 이내에 클릭스루하지 않으면 브라우징 기록 및 충성도 상태에 따라 개인화된 후속 푸시 알림이 전송됩니다.
 
 [첫 번째 여정 작성](../building-journeys/journey-gs.md)
 
@@ -333,15 +333,15 @@ AI는 이러한 많은 기능에 내장되어 있습니다. 아래 표에서 **(
 
 >[!TAB 보고 및 최적화]
 
-* [실시간 보고서로 여정 모니터링 및 분석](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/report-and-monitor/monitor-and-analyze-your-journey-with-live-reports){target="_blank"} - 실시간으로 성능을 추적합니다.
-* [이메일 캠페인에 대한 콘텐츠 실험 만들기](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} - 콘텐츠를 테스트하고 최적화합니다.
+* [실시간 보고서로 여정 모니터링 및 분석](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/report-and-monitor/monitor-and-analyze-your-journey-with-live-reports){target="_blank"} - 여정 실행 시 성능을 추적합니다.
+* [이메일 캠페인에 대한 콘텐츠 실험 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} - 콘텐츠를 테스트하고 최적화합니다.
 
 >[!ENDTABS]
 
 ## 여정, 캠페인 및 오케스트레이션된 캠페인 중 선택 {#choosing}
 
 | 시나리오 | 사용 |
-|----------|-----|
+| -------- | --- |
 | 행동 중심의 여러 단계로, 각 고객은 각자의 속도에 맞게 움직입니다. | 여정 |
 | 대상자에 대한 간단한 예약 또는 API 트리거 메시지 | 캠페인 |
 | 다중 엔티티 세그먼테이션을 사용하는 복잡한 일괄 처리 워크플로 | 오케스트레이션된 캠페인 |
