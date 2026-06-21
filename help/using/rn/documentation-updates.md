@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 1333a7e642c1c49efb5e9152abf7ba10b9f0202f
+source-git-commit: c116c99ca57b5cd001c63b4a0364a79548f45166
 workflow-type: tm+mt
-source-wordcount: 8537
-ht-degree: 94%
+source-wordcount: 8680
+ht-degree: 93%
 
 ---
 
@@ -26,6 +26,12 @@ ht-degree: 94%
 이 페이지에는 월별 릴리스 기능 및 개선 사항과 관련된 업데이트 외에도 [!DNL Journey Optimizer] 설명서의 모든 최신 변경 사항이 나와 있습니다.
 
 ## 2026년 6월 {#june-2026}
+
+* 이제 새 **Adobe Journey Optimizer 시작하기** 온보딩 허브를 사용할 수 있습니다. 새로운 사용자는 역할별로 자신의 경로를 선택하고, 기본 사항을 탐색하거나, 이미 온보딩한 경우 어디를 먼저 보아야 할지 알 필요 없이 일상적인 영역으로 이동할 수 있습니다. [자세히 보기](../../rp_landing_pages/get-started-landing-page.md)
+
+* 새 **목표에서 시작** 페이지를 사용하면 기능 이름 대신 수행할 작업에서 시작할 수 있습니다. 설정, 여정, 캠페인, 개인화, 의사 결정 및 보고 전반에서 권장되는 Journey Optimizer 기능에 비즈니스 목표를 매핑합니다. [자세히 보기](../start/ajo-use-case-guide.md)
+
+* **개발자용 시작하기** 역할 가이드가 각 섹션에 대한 보다 명확한 소개로 업데이트되었으며 여정 및 주요 구현 페이지에 대한 링크를 참조하는 **역할 전반에 걸쳐 공동 작업** 탭을 개선했습니다. [자세히 보기](../start/path/developer.md)
 
 * 여정 재입력&#x200B;**하위 섹션의 새**&#x200B;경로 할당이 **경로 실험** 설명서에 추가되었습니다. 이 섹션에서는 동일한 여정 버전에 대한 여러 항목의 프로필에 대해 경로 지정이 지속되지만 해당 여정 버전 내에서만 수행됨을 명확히 합니다. 할당은 새 여정 버전이 게시되면 재설정되며 여정의 각 경로 실험 활동은 독립적인 무작위 할당을 적용합니다. [자세히 보기](../building-journeys/path-experimentation.md#path-assignment)
 * **Adobe Experience Cloud**&#x200B;에 대한 참조가 [!DNL Journey Optimizer] 설명서에서 **[!DNL Adobe CX Enterprise]** 브랜드와 정렬되었습니다.
