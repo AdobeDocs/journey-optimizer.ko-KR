@@ -2,7 +2,7 @@
 name: ajo-ai-accordion
 description: 각 Markdown 파일의 끝에 추가된 AI Assistant 아코디언 섹션을 통해 Adobe Journey Optimizer 설명서 페이지를 강화합니다. 각 페이지를 읽고, 페이지 주제를 기반으로 관련 AI Assistant 콘텐츠를 자동 생성한 다음 축소 가능한 아코디언으로 삽입합니다. 사용자가 AJO 문서에 AI 정보를 추가하거나, AI 콘텐츠가 있는 AJO Markdown 페이지를 보강하거나, AI 아코디언 섹션이 있는 Markdown 파일의 파일 또는 폴더를 처리하려는 경우 사용합니다.
 disable-model-invocation: true
-source-git-commit: 80e67d5a60b6427ff87e106e37bf6794ac76a210
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 1%
@@ -182,7 +182,11 @@ Markdown 페이지를 분석하여 아코디언 콘텐츠를 생성합니다. Ma
 ### 전체 아코디언 템플릿
 
 ```markdown
-+++AI Assistant — Page context
++++ AI Knowledge Reference
+
+This section contains structured knowledge intended to support interpretation, retrieval, and question answering related to this topic.
+
+For complete understanding, this information should be combined with the documentation on this page. Neither source is intended to stand alone; the page describes the feature, while this section provides additional context that helps disambiguate terminology, intent, applicability, and constraints.
 
 - **TL;DR:** [one sentence]
 

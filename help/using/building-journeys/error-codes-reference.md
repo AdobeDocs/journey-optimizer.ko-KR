@@ -11,9 +11,9 @@ keywords: 오류, 코드, 문제 해결, 여정, 캠페인, 메시지
 exl-id: 84924153-1bb5-465a-b91c-797628fc816c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 2358
+source-wordcount: 2902
 ht-degree: 3%
 
 ---
@@ -202,3 +202,52 @@ ht-degree: 3%
 
 * [Demystimising [!DNL Adobe Journey Optimizer] 오류 코드: 1부](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=ko){target="_blank"}
 * [Demystimising [!DNL Adobe Journey Optimizer] 오류 코드: 2부](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661?profile.language=ko){target="_blank"}
+
++++ AI 기술 자료 참조
+
+이 단원에는 이 주제와 관련된 해석, 검색 및 질문 답변을 지원하기 위한 구조화된 지식이 포함되어 있습니다.
+
+이해를 돕기 위해 이 정보를 이 페이지의 설명서와 통합해야 합니다. 두 소스 모두 독립적으로 사용하기 위한 것은 아닙니다. 이 페이지에서는 기능에 대해 설명하지만, 용어, 의도, 적용 가능성 및 제약 조건을 명확히 하는 데 도움이 되는 추가 컨텍스트를 제공합니다.
+
+* **TL;DR:** 이 페이지는 서비스 접두사로 구성된 표준화된 Adobe Journey Optimizer 오류 코드에 대한 참조 안내서이며, 각 오류의 근본 원인을 설명하고 단계별 해결 지침을 제공합니다.
+
+**의도:**
+
+* 오류 코드에서 서비스 접두사를 사용하여 오류가 발생한 AJO 서비스를 식별합니다
+* 메시지 게재에 영향을 주는 푸시/전송 오류(CJMPTS) 진단 및 해결
+* 여정 실행 또는 이벤트 처리 중 여정 런타임 및 API 오류(CJMRT) 문제 해결
+* 메시지를 작성, 저장 또는 게시할 때 메시지 작성 오류(CJMMAS) 수정
+* 캠페인 활성화 또는 승인 중 캠페인 오류 해결(CJMCMP)
+* 올바른 정보를 사용하여 Adobe 지원 팀에 지속적인 오류 에스컬레이션
+
+**용어집:**
+
+* **서비스 접두사**: 오류가 발생한 서비스(예: CJMRT = 여정 런타임)를 식별하는 AJO 오류 코드의 시작 부분에 있는 영숫자 코드 *(제품별)*
+* **HTTP 상태 코드**: AJO 오류 코드에 포함된 표준 상태 코드(예: 400 = 잘못된 요청, 403 = 사용할 수 없음, 422 = 처리할 수 없는 엔터티, 500 = 내부 서버 오류)
+* **요청 ID**: Adobe 지원 *(제품별)로 에스컬레이션할 때 필요한 오류가 포함된 고유 식별자*
+* **CJMRT**: 여정 런타임 서비스 접두사 — 여정 실행 및 API 작업 중 오류 *(제품별)*
+* **CJMMAS**: 메시지 작성 서비스 접두사 — 메시지 작성 및 게시 중 오류 발생 *(제품별)*
+* **CJMPTS**: 푸시/전송 서비스 접두사 — 푸시 알림 및 메시지 전송 중 오류 *(제품별)*
+
+**보호 기능:**
+
+* 이메일 변형에는 옵트아웃/구독 취소 링크가 포함되어야 합니다. 생략하면 CJMMAS-2001-200이 트리거됩니다.
+* 여정을 중지하려면 여정 관리 권한(권한과 관련된 CJMRT 오류와 관련)이 필요합니다.
+* 하위 도메인 위임을 위한 DNS 전파는 최대 72시간 정도 소요될 수 있습니다(CJMRT-080608-400과 관련).
+* 데이터 세트 조회 활동에 대한 조회 키는 단순 모드가 아닌 고급 모드에서 정의해야 합니다.
+
+**용어:**
+
+* 정식 이름: 오류 코드 — 약어: 해당 사항 없음 — 변형: 오류 메시지, 오류 식별자
+* 동의어: &quot;service prefix&quot; = &quot;error prefix&quot; = &quot;component identifier&quot;
+* 혼동하지 마십시오: &quot;400 잘못된 요청&quot; ≠ &quot;422 처리할 수 없는 엔티티&quot; — 400은 잘못된 입력을 나타내며, 422는 유효한 형식을 표시하지만 스키마 규칙당 유효하지 않은 콘텐츠를 나타냅니다.
+
+**FAQ:**
+
+* **Q: 오류가 발생한 AJO 서비스를 어떻게 알 수 있습니까?** — 오류 코드의 시작 부분에서 서비스 접두어를 읽습니다(CJMPTS(push/transport), CJMRT(여정 런타임), CJMMAS(메시지 작성), CJMCMP(캠페인), CJMTL(전송 계층), CJMRPS(보고/프로비저닝))).
+* **Q: 500 계열 오류가 발생하면 어떻게 해야 합니까?** — 몇 분 후에 다시 시도하고 Adobe Status에서 중단을 확인한 다음 전체 오류 코드와 요청 ID를 사용하여 Adobe 지원으로 에스컬레이션합니다. 문제가 지속되면
+* **Q: 상태가 &quot;성공&quot;인데 CJMMAS-2001-200에 오류 배너가 표시되는 이유는 무엇입니까?** — 이메일 변형에 필수 옵트아웃/구독 취소 링크가 없습니다. 모든 변형 및 언어 버전에 추가하십시오.
+* **Q: Adobe 지원에 문의하기 전에 어떤 정보를 수집해야 합니까?** — 전체 오류 코드, 요청 ID, 타임스탬프, 재현 단계 및 관련 구성 세부 정보를 수집합니다.
+* **Q: CJMRT-030012-422의 원인은 무엇입니까?** — 존재하지 않는 대상, 이벤트 또는 속성 참조와 같은 잘못된 입력 데이터입니다. 참조된 모든 객체가 존재하고 활성 상태인지 확인하십시오.
+
++++

@@ -17,10 +17,10 @@ feature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 671
-ht-degree: 5%
+source-wordcount: 1124
+ht-degree: 3%
 
 ---
 
@@ -130,7 +130,7 @@ false
 true
 ```
 
-## dateOnly {#date-only}
+## dateOnly {#date-only}
 
 **설명**
 
@@ -158,7 +158,7 @@ date("<dateOnly in ISO-8601 format>")
 date("2021-02-19")
 ```
 
-## dateTimeOnly {#date-time-only}
+## dateTimeOnly {#date-time-only}
 
 **설명**
 
@@ -174,7 +174,7 @@ toDateTimeOnly 함수에 캡슐화할 수 있습니다.
 
 직렬화 포맷: ISO-8601 확장 오프셋 날짜-시간 포맷.
 
-DateTimeFormatter ISO_LOCAL_DATE_TIME을 사용하여 값을 deserialize 및 serialize합니다. [자세히 알아보기](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME"){_blank}.
+DateTimeFormatter ISO_LOCAL_DATE_TIME을 사용하여 값을 deserialize 및 serialize합니다. [자세히 알아보기](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME"){_blank}
 
 **리터럴 표시**
 
@@ -203,7 +203,7 @@ toDateTime 함수에 캡슐화할 수 있습니다.
 
 직렬화 포맷: ISO-8601 확장 오프셋 날짜-시간 포맷.
 
-DateTimeFormatter ISO_OFFSET_DATE_TIME을 사용하여 값을 deserialize 및 serialize합니다. [자세히 알아보기](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME){_blank}.
+DateTimeFormatter ISO_OFFSET_DATE_TIME을 사용하여 값을 deserialize 및 serialize합니다. [자세히 알아보기](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME){_blank}
 
 에포크 값을 전달하는 정수를 전달할 수도 있습니다. [자세히 보기](https://www.epochconverter.com){_blank}.
 
@@ -267,7 +267,7 @@ toDuration 함수에 캡슐화해야 합니다.
 
 직렬화 형식: 시간대 ID를 역직렬화하려면 java 함수 java.time을 사용합니다.
 
-Duration.parse: 허용되는 형식은 ISO-8601 기간 형식 PnDTnHnMn.nS를 기반으로 하며, 일은 정확히 24시간으로 간주됩니다. [자세히 알아보기](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-){_blank}.
+Duration.parse: 허용되는 형식은 ISO-8601 기간 형식 PnDTnHnMn.nS를 기반으로 하며, 일은 정확히 24시간으로 간주됩니다. [자세히 알아보기](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-){_blank}
 
 **리터럴 표시**
 
@@ -348,3 +348,50 @@ toDuration("-P-6H+3M") -- parses as "+6 hours and -3 minutes"
 ```json
 [toDuration(500),toDuration(800)]
 ```
+
++++ AI 기술 자료 참조
+
+이 단원에는 이 주제와 관련된 해석, 검색 및 질문 답변을 지원하기 위한 구조화된 지식이 포함되어 있습니다.
+
+이해를 돕기 위해 이 정보를 이 페이지의 설명서와 통합해야 합니다. 두 소스 모두 독립적으로 사용하기 위한 것은 아닙니다. 이 페이지에서는 기능에 대해 설명하지만, 용어, 의도, 적용 가능성 및 제약 조건을 명확히 하는 데 도움이 되는 추가 컨텍스트를 제공합니다.
+
+* **TL;DR:** 이 페이지에서는 JSON 형식, 직렬화 규칙 및 리터럴 표현 구문과 함께 여정 고급 표현식 편집기에서 지원되는 모든 데이터 형식(문자열, 정수, 십진수, 부울, dateOnly, dateTimeOnly, dateTime, duration 및 목록)에 대해 설명합니다.
+
+**의도:**
+
+* 여정 표현식을 작성할 때 각 데이터 유형에 대한 올바른 리터럴 구문을 식별합니다
+* `dateOnly`, `dateTimeOnly` 및 `dateTime` 형식 간의 차이점 및 각 형식을 사용할 시기를 파악합니다.
+* `toDuration()` 함수와 함께 ISO-8601 형식 또는 밀리초를 사용하여 기간 값을 나타냅니다.
+* 컬렉션 작업에 사용할 대괄호 구문을 사용하여 목록 식을 구성합니다.
+* 변환 함수(`toDateTime`, `toDateTimeOnly`, `toDuration`, `toDateOnly`)를 사용하여 형식화된 상수를 만드십시오.
+
+**용어집:**
+
+* **dateOnly**: 표준 시간대 또는 표준 시간대 없이 YYYY-MM-DD 형식의 날짜로, 생일이나 달력 날짜에 적합합니다. *(제품별)*
+* **dateTimeOnly**: 시간대 정보가 없는 날짜 및 시간입니다. 오프셋 *(제품별)* 없이 특정 인스턴스를 표시할 수 없습니다.
+* **dateTime**: 특정 인스턴스를 나타내는 UTC 오프셋을 포함하는 날짜-시간 상수입니다. epoch 정수 *(제품별)*&#x200B;에서도 만들 수 있습니다.
+* **duration**: 시간 기반 금액(밀리초)입니다. ISO-8601 `PnDTnHnMn.nS` 형식을 사용합니다. 연도 및 월은 지원되지 않습니다. *(제품별)*
+* **list**: 대괄호 *(제품별)로 구분된 동일한 형식의 쉼표로 구분된 컬렉션입니다.*
+
+**보호 기능:**
+
+* 기간은 밀리초, 초, 분, 시간 및 일만 지원합니다. 연도 및 월은 고정된 시간이 아니므로 지원되지 않습니다
+* `duration` 값은 `toDuration()`에 래핑해야 합니다. 리터럴로 표현할 수 없습니다.
+* `list`에 있는 모든 식의 형식이 같아야 합니다. 다형성은 지원되지 않습니다.
+* `dateTimeOnly`은(는) 추가 오프셋이나 표준 시간대 없이 인스턴트 인타임을 표시할 수 없습니다.
+
+**용어:**
+
+* 정식 이름: 데이터 유형 — 약어: 없음 — 변형: 표현식 데이터 유형, 여정 데이터 유형
+* 동의어: &quot;dateTime&quot; = &quot;date-time with timezone&quot;; &quot;dateTimeOnly&quot; = &quot;local date-time&quot;
+* 혼동하지 마십시오. `dateOnly`(시간 없음) ≠ `dateTimeOnly`(날짜 + 시간, 시간대 없음) ≠ `dateTime`(날짜 + 시간 + 시간대/오프셋)
+
+**FAQ:**
+
+* **Q: `dateTimeOnly`과(와) `dateTime`의 차이점은 무엇입니까?** — `dateTimeOnly`에는 표준 시간이나 오프셋이 없으므로 정확한 순간을 나타낼 수 없습니다. `dateTime`에는 UTC 오프셋이 포함되며 특정 시간을 나타냅니다.
+* **Q: 2일 3시간의 기간을 표현하려면 어떻게 해야 합니까?** — `toDuration("P2DT3H")` 사용.
+* **Q: 목록 식에서 정수와 문자열을 혼합할 수 있습니까?** — 아니요. 목록에 있는 모든 표현식은 같은 형식이어야 합니다.
+* **Q: Epoch 타임스탬프(밀리초)에서 `dateTime`을(를) 만들려면 어떻게 합니까?** — `toDateTime(<epoch in milliseconds>)`(예: `toDateTime(1560762190189)`)을(를) 사용합니다.
+* **Q: `true` 또는 `True`이(가) 올바른 부울 리터럴입니까?** — 소문자 `true` 또는 `false`을(를) 사용합니다. 대문자인 변형이 잘못되었습니다.
+
++++
