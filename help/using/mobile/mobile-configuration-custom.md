@@ -24,9 +24,9 @@ topic_v2:
 subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: f6948d09d0fe8ff33ccb1317b767bca0bffff226
+source-git-commit: 46131a2626da2c03fc31092cf685cbc73b38bd35
 workflow-type: tm+mt
-source-wordcount: 1161
+source-wordcount: 1198
 ht-degree: 15%
 
 ---
@@ -162,6 +162,10 @@ Adobe에서 즉시 사용할 수 없는 사용자 지정 공급자(예: Sinch, I
    ![](assets/verify-connection.png)
 
 API 자격 증명을 만들고 구성한 후에는 SMS 메시지에 대해 [Webhook에 대한 인바운드 설정](#webhook)을 설정해야 합니다.
+
+>[!TIP]
+>
+>항상 각 샌드박스(프로덕션, 개발 등)에 대해 별도의 에이전트 구성을 만들고 유지 관리합니다. 환경 간 웹후크 응답 문제를 방지합니다. 샌드박스에서 동일한 API 자격 증명, 웹후크 또는 공급자 콜백 URL(RCS 에이전트 포함)을 재사용하지 마십시오.
 
 ### 사용자 정의 SMS 제공자에 대한 인증 옵션 {#auth-options}
 
