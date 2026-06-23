@@ -9,24 +9,15 @@ role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
 TQID: https://experienceleague.adobe.com/RmJeQGDGLOM5LbdRS4HQbWE7sttyT4jGsuyXF-BdB-Q
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-subfeature_v2:
-  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
-  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
-  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: b36ce7a039c976d80f49292e73be23c9b011b568
 workflow-type: tm+mt
-source-wordcount: 546
+source-wordcount: 603
 ht-degree: 2%
 
 ---
@@ -50,6 +41,10 @@ ht-degree: 2%
   ![](assets/report_campaign.png)
 
 Adobe Journey Optimizer에서 사용할 수 있는 모든 지표의 자세한 목록은 [이 페이지](#list-of-components-live)를 참조하세요.
+
+>[!NOTE]
+>
+>라이브 보고서와 전체 보고서 간의 단기 불일치가 예상됩니다. 라이브 보고서는 실시간에 가까운 데이터 피드를 사용하지만, 실시간 보고서는 집계된 데이터를 사용합니다. 불일치가 발생하면 데이터가 일반적으로 해당 기간 내에 집계된 보기로 전파되므로 두 보고서를 조정하기 전에 최소 2시간을 허용하십시오.
 
 ## 대시보드 맞춤화 {#modify-dashboard}
 
