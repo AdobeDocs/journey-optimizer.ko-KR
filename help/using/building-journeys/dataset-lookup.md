@@ -11,24 +11,15 @@ version: Journey Orchestration
 badge: label="제한 공개" type="Informative"
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
 TQID: https://experienceleague.adobe.com/4sQ3A15j47fQ6hI1G9oS6T6ne9nbxIaeqc-95zSUIq4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
 subfeature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 7de972734810ec5ec69ec395af4355d0304bc3f3
 workflow-type: tm+mt
-source-wordcount: 1500
+source-wordcount: 1514
 ht-degree: 6%
 
 ---
@@ -88,7 +79,7 @@ ht-degree: 6%
 
 1. **[!UICONTROL Orchestration]** 범주를 펼친 다음 **[!UICONTROL 데이터 집합 조회]** 활동을 캔버스에 놓습니다.
 
-   ![&#128279;](assets/aep-data-activity.png) 여정에서 [!DNL Adobe Experience Platform] 데이터 집합 조회 활동
+   ](assets/aep-data-activity.png) 여정에서 ![[!DNL Adobe Experience Platform] 데이터 집합 조회 활동
 
 1. 레이블과 설명을 추가합니다.
 
@@ -264,7 +255,7 @@ ht-degree: 6%
 * 문자열 또는 문자열 목록만 조회 키로 지원됩니다.
 * 조회 키는 고급 모드에서 정의해야 합니다. 단순 모드를 사용하면 활동 출력을 컨텍스트 속성 다운스트림으로 사용할 수 없습니다.
 * 보강된 데이터는 일시적이며 여정 런타임 및 아웃바운드 활동 개인화 동안에만 사용할 수 있습니다.
-* 성능을 위해서는 여정 당 최대 5개의 조회 활동과 조회 당 최대 20개의 속성이 권장됩니다.
+* 최상의 성능을 위해 여정당 5개의 조회 활동으로 제한(권장). 시스템에서 적용하는 엄격한 제한은 여정당 10개의 활동입니다. 조회당 최대 20개의 속성도 권장됩니다.
 
 **용어:**
 

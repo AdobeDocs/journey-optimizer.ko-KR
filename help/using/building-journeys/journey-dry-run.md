@@ -10,31 +10,15 @@ keywords: 게시, 여정, 라이브, 유효성, 확인
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/a7qFw84obtkCRDmiqMxQNgvqhI4b6t5suROeF7ZPh1I
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 1946
+source-wordcount: 2002
 ht-degree: 9%
 
 ---
@@ -87,7 +71,7 @@ ht-degree: 9%
 
   ![시험 실행 여정의 작업 활동이 회색으로 표시됨](assets/dry-run-greyed-activities.png){width="80%"}
 
-* **외부 데이터 원본을 포함한 데이터 원본** 및 **대기** 활동은 기본적으로 시험 실행 중에 비활성화되어 있습니다. 그러나 시험 실행 모드를 활성화[&#128279;](#journey-dry-run-start)할 때 이 동작을 변경할 수 있습니다.
+* **외부 데이터 원본을 포함한 데이터 원본** 및 **대기** 활동은 기본적으로 시험 실행 중에 비활성화되어 있습니다. 그러나 시험 실행 모드를 활성화](#journey-dry-run-start)할 때 이 동작을 [변경할 수 있습니다.
 
 * **반응** 노드가 실행되지 않습니다. 입력한 모든 프로필이 성공하면 종료됩니다. 그러나 다음 우선순위 규칙이 적용됩니다.
 
@@ -213,7 +197,7 @@ stepEvent 데이터를 **외부 시스템**(으)로 내보내는 경우 `inDryRu
 
 이 비디오에서는 여정을 시험 실행하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464689/?captions=kor&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)
 
 +++ AI 기술 자료 참조
 
@@ -238,17 +222,18 @@ stepEvent 데이터를 **외부 시스템**(으)로 내보내는 경우 `inDryRu
 **보호 기능:**
 * 드라이 실행 모드에서 오류가 없는 초안 여정만 활성화할 수 있습니다.
 * 시험 실행을 시작하려면 **여정 게시** 권한이 필요하고, 이를 중지하려면 **여정 관리**&#x200B;가 필요합니다.
-* 시험 실행 여정은 14일 후 자동으로 초안으로 되돌립니다.
+* 시험 실행 여정은 자동으로 시험 실행 모드를 종료하고 14일 후 초안 상태로 돌아갑니다. 여정 컨텐츠는 손실되지 않으며, 시험 실행 세션만 종료됩니다.
 * 드라이 실행 중 처리된 프로필은 참여 가능한 프로필 및 라이브 여정 할당량에 계산됩니다
 * 채널 작업 노드(이메일, SMS, 푸시) 및 사용자 지정 작업은 시험 실행 중에 실행되지 않습니다
 * 이동 작업은 시험 실행에서 활성화되지 않습니다.
+* 드라이 실행 중에는 반응 노드가 실행되지 않습니다. 병렬 단일 및 반응 분기에 대한 우선 순위 규칙을 사용하여 프로필이 성공적으로 종료됩니다
 * 보고 데이터는 시험 실행이 활성화되는 동안에만 사용할 수 있습니다. 일단 중지되면 데이터에 더 이상 액세스할 수 없습니다
 * 시험 실행 여정은 비즈니스 규칙에 영향을 주지 않음
 
 **용어:**
 * 정식 이름: 여정 Dry run — 약어: none — 변형: dry run 모드, Dry run publication 모드
 * 동의어: &quot;Dry run&quot; = &quot;smoke test&quot;(비공식적으로)
-* 혼동하지 마십시오: &quot;시험 실행&quot; ≠ &quot;테스트 모드&quot; — 시험 실행은 실제 생산 데이터를 사용하고 할당량에 대한 카운트를 사용합니다. 시험 모드는 합성 테스트 프로필을 사용하며 그렇지 않습니다.
+* 혼동하지 마십시오: &quot;시험 실행&quot; ≠ &quot;테스트 모드&quot; ≠ &quot;시뮬레이션&quot; — 시험 실행은 실제 생산 데이터를 사용하고, 참여 가능한 프로필 및 라이브 여정 할당량에 대해 계산됩니다. 테스트 모드는 초안 여정에서 영구 AEP 테스트 프로필을 사용하고, 시뮬레이션은 AEP에서 지속되지 않는 임시 시뮬레이션 사용자를 사용합니다
 
 **FAQ:**
 * **Q: Dry Run이 실제로 고객에게 이메일 또는 푸시 알림을 전송합니까?** — 아니요. 모든 채널 작업 노드와 사용자 지정 작업은 시험 실행 중에 비활성화되고 실행되지 않습니다.

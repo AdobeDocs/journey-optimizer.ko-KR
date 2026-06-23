@@ -10,28 +10,15 @@ keywords: 게시, 여정, 라이브, 유효성, 확인
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/gIj6jGScvIDgAJxb3B4wiuqP6BKZS0tvCeqC6wRo5IQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 3502
+source-wordcount: 3545
 ht-degree: 4%
 
 ---
@@ -206,7 +193,7 @@ ht-degree: 4%
 
 ## 가드레일 및 제한 사항 {#journey-pause-guardrails}
 
-* 최대 **14일** 동안 여정 버전을 일시 중지할 수 있으며, 조직 전체에서 일시 중지된 프로필에 최대 **1천만 개**&#x200B;의 여정이 허용됩니다.
+* 최대 **14일** 동안 여정 버전을 일시 중지할 수 있으며, 조직 전체에서 일시 중지된 프로필에 최대 **1천만 개**의 여정이 허용됩니다.
 이 제한은 개별 프로필이 아닌 일시 중지된 모든 여정에 걸쳐 유지된 총 프로필 수를 계산합니다. 예를 들어 동일한 5M 프로필이 일시 중지된 두 개의 여정에 유지되면 10M 제한에 도달합니다.
 이 제한은 30분마다 확인됩니다. 즉, 일시적으로 1,000만 임계값을 초과할 수 있지만, 시스템에서 이를 감지하면 추가 프로필이 자동으로 삭제됩니다.
 
@@ -255,7 +242,7 @@ ht-degree: 4%
 
 ## 일시 중지된 프로필의 여정 카드 문제 해결 {#discards-troubleshoot}
 
-[[!DNL Adobe Experience Platform] 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ko){target="_blank"}를 사용하여 단계 이벤트를 쿼리할 수 있습니다. 이 이벤트는 발생한 시기에 따라 프로필 삭제에 대한 자세한 정보를 제공할 수 있습니다.
+[[!DNL Adobe Experience Platform] 쿼리 서비스](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}를 사용하여 단계 이벤트를 쿼리할 수 있습니다. 이 이벤트는 발생한 시기에 따라 프로필 삭제에 대한 자세한 정보를 제공할 수 있습니다.
 
 * 프로필이 여정에 들어가기 전에 발생하는 폐기물의 경우 다음 코드를 사용하십시오.
 
@@ -321,8 +308,9 @@ ht-degree: 4%
 * **일괄 일시 중지/일괄 다시 시작**: 여정 인벤토리 목록 *(제품별)에서 동시에 여러 실시간 또는 일시 중지된 여정을 일시 중지하거나 다시 시작할 수 있는 기능*
 
 **보호 기능:**
-* **여정 게시** 권한이 있는 사용자만 여정을 일시 중지하고 다시 시작할 수 있습니다.
-* 최대 14일 동안 여정을 일시 중지할 수 있습니다. 일시 중지 후 자동으로 다시 시작됩니다
+* **여정 게시** 권한이 있는 사용자만 여정을 일시 중지하고 다시 시작할 수 있습니다. 일시 중지된 여정을 중지하려면 **여정 관리**(인라인 캠페인이나 메시징 노드가 있는 경우 **캠페인 > 캠페인 게시**)가 필요합니다.
+* 일시 중지 기간은 1일에서 14일 사이에서 구성할 수 있으며, 그 이후에는 여정이 자동으로 다시 시작됩니다
+* 일시 중지 중에 유지되는 프로필은 최대 5,000회 TPS에서 재개됩니다. 여정은 중단된 프로필이 모두 재개될 때까지 재개 상태로 유지됩니다
 * 조직의 일시 중지된 모든 여정에서 최대 1,000만 개의 프로필을 보유할 수 있습니다. 초과 프로필은 자동으로 삭제됩니다
 * 프로필 속성 기반 종료 기준은 프로필당 하나만 설정할 수 있습니다
 * 프로필 속성 기반 종료 기준은 여정이 일시 중지된 동안에만 작성, 업데이트 또는 삭제될 수 있습니다.
@@ -340,7 +328,7 @@ ht-degree: 4%
 
 **FAQ:**
 * **Q: 여정이 일시 중지되면 이미 있는 프로필에 어떻게 됩니까?** — 일시 중지 시 선택한 옵션에 따라 프로필이 보류(다음 작업 노드에서 대기)되거나 삭제(다음 작업 노드의 여정에서 종료)됩니다.
-* **Q: 여정이 얼마나 오래 일시 중지될 수 있습니까?** — 최대 14일 후 자동으로 재개됩니다.
+* **Q: 여정이 얼마나 오래 일시 중지될 수 있습니까?** — 1~14일(일시 중지 시 선택) 후 자동으로 다시 시작됩니다.
 * **Q: 여정이 일시 중지된 동안 특정 프로필을 제외할 수 있습니까?** — 예. 재개 시 다음 작업 노드에서 일치하는 프로필을 제외하도록 여정이 일시 중지된 동안 프로필 속성 기반 종료 기준(여정 당 하나)을 적용합니다.
 * **Q: 여정 일시 중지가 이미 트리거된 인앱 또는 웹 메시지를 중지합니까?** — 아니요. 일시 중지 전에 이미 트리거된 인바운드 통신이 계속 전달됩니다. 모든 인바운드 통신을 중지하려면 여정을 완전히 중지해야 합니다.
 * **Q: 일시 중지 중에 삭제된 프로필을 확인하려면 어떻게 해야 합니까?** — 여정 버전 ID가 있는 `PAUSED_JOURNEY_VERSION` 또는 `JOURNEY_IN_PAUSED_STATE` 이벤트 유형 필터를 사용하여 Adobe Experience Platform 쿼리 서비스의 `journey_step_events` 데이터 세트를 쿼리합니다.

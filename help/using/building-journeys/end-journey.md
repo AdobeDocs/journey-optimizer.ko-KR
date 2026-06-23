@@ -10,23 +10,15 @@ keywords: 재입력, 여정, 종료, 라이브, 중지
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/-mknoNfkNCnfnLD1UCiA6C88NjookKqGr5tQdJ-f3T4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: d7dd6f7f-9e2a-47ee-a2bc-b7b9caaefc1d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: d7dd6f7f-9e2a-47ee-a2bc-b7b9caaefc1d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 1779
+source-wordcount: 1822
 ht-degree: 1%
 
 ---
@@ -196,7 +188,7 @@ ht-degree: 1%
 * 완료됨 상태의 여정만 삭제할 수 있습니다.
 * 여정을 중지하려면 여정 관리 권한이 필요합니다. 인라인 캠페인이나 메시징 노드가 있는 여정은 캠페인 > 캠페인 게시 권한도 필요합니다.
 * 91일 글로벌 시간 제한 후 모든 프로필 여정 데이터가 제거되고 나머지 프로필은 자동으로 종료됩니다.
-* 1회 대상자 읽기 여정은 실행 후 라이브 상태로 유지됩니다. 수동으로 닫거나 91일 후에 닫힙니다.
+* 오래 실행되는 대기, 반응 또는 이벤트 트리거 노드가 없는 반복되지 않는 대상 읽기 여정은 마지막 프로필이 종료되면 자동으로 중지됨으로 전환됩니다. 이러한 노드가 있는 여정은 수동으로 닫지 않는 한 91일 글로벌 시간 초과에 해당합니다.
 
 **용어:**
 
@@ -207,7 +199,7 @@ ht-degree: 1%
 **FAQ:**
 
 * **Q: 여정 닫기와 중지 간의 차이점은 무엇입니까?** — 닫으면 새 시작은 차단되지만 기존 프로필은 완료됩니다. 중지하면 트랙의 모든 프로필이 즉시 중지됩니다.
-* **Q: 대상자 읽기 여정은 언제 완료됨 상태에 도달합니까?** — 실행 시작 91일 후(비반복), 종료 날짜에 도달하면(종료 날짜로 반복) 또는 시작 91일 후(종료 날짜 없이 반복)입니다.
+* **Q: 대상자 읽기 여정은 언제 완료됨 상태에 도달합니까?** — 반복되지 않는 대상 읽기 여정의 경우: 마지막 프로필이 종료되면 자동으로 중지됩니다(또는 대기, 반응 또는 이벤트 노드가 프로필을 활성 상태로 유지하는 경우 91일 후). 종료된 여정이 91일의 글로벌 시간 초과 또는 완료된 정의 테이블의 반복 여정 규칙에 도달하면 완료됨으로 표시됩니다.
 * **Q: 닫힌 여정을 삭제할 수 있습니까?** — 아니요. 완료된 여정은 삭제할 수 있습니다.
 * **Q: 91일 시간 제한이 초과되어도 여정에 있는 프로필은 어떻게 됩니까?** — 이 시점에서 자동으로 여정에서 종료됩니다.
 * **Q: 여정을 중지하려면 특별한 권한이 필요합니까?** — 예. 여정 관리 권한이 필요합니다. 또한 여정에 인라인 캠페인 또는 메시징 노드가 포함된 경우 캠페인 > 캠페인 게시를 클릭합니다.

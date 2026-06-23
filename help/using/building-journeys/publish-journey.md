@@ -11,20 +11,15 @@ keywords: 게시, 여정, 라이브, 유효성, 확인
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/Hhvwpfq0phAjvzIGgv-NMnnhWhYJ-PpLOL0F4Q-CnqA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
 subfeature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 1815
+source-wordcount: 1823
 ht-degree: 14%
 
 ---
@@ -176,7 +171,7 @@ ht-degree: 14%
 
 이 비디오에서 여정을 게시하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3427937?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
 
 +++ AI 기술 자료 참조
 
@@ -211,7 +206,7 @@ ht-degree: 14%
 **용어:**
 * 정식 이름: 여정 게시 — 약어: 없음 — 변형: 여정 활성화, 라이브 진행
 * 동의어: &quot;Publish&quot; = &quot;activate&quot; = &quot;go live&quot;
-* 혼동하지 마십시오: &quot;여정 중지&quot; ≠ &quot;여정 닫기&quot; (중지는 수동 작업이며 닫음은 새 버전이 게시될 때 이전 버전에 적용되는 자동 상태입니다)
+* 혼동하지 마십시오: 중지(모든 프로필의 긴급 중지) ≠ 새 게시물에 닫기(수동 정상 닫기, 기존 프로필 완료) ≠ 닫힘 상태(새 버전이 게시될 때 또는 새 게시물에 수동으로 닫힌 후 자동)
 
 **FAQ:**
 * **Q: 여정을 게시한 후 편집할 수 있습니까?** — 레이블, 설명 및 여정 이름만 변경할 수 있습니다. 기타 수정 사항을 적용하려면 새 버전의 여정을 만듭니다.

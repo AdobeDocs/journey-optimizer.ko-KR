@@ -11,25 +11,15 @@ version: Journey Orchestration
 hide: true
 exl-id: 0c894dc1-76b6-4b33-baf8-eaf6686f7d38
 TQID: https://experienceleague.adobe.com/rEANha6Lppyd5vog-0kZ3aL9VvZHc9kziW-d-jiWqeA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: cce82f05-fc3c-4af7-85ff-8bba603861a7
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 9dba85545968da9957c42516cb03a4e77ed302f1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: cce82f05-fc3c-4af7-85ff-8bba603861a7id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 2270
+source-wordcount: 2289
 ht-degree: 1%
 
 ---
@@ -219,6 +209,7 @@ ht-degree: 1%
 * 대상 자격 및 대상 여정 읽기는 Jump 활동을 포함할 수 없으며 다른 여정의 Jump 활동의 대상이 될 수 없습니다
 * 대상 자격 여정은 실시간 입력을 위해 스트리밍 평가된 대상이 필요합니다. 일괄 평가된 대상은 최대 24시간의 입력 지연을 초래합니다
 * 단일 이벤트 및 대상 자격 여정은 조직 수준에서 5,000TPS 처리량 제한을 공유합니다. 대상 여정 읽기는 샌드박스당 최대 20,000TPS를 지원합니다.
+* 시뮬레이션은 대부분의 여정 유형에 대해 지원되지만 비즈니스 이벤트 항목에는 지원되지 않습니다. 노드 수준 제한에 대해서는 시뮬레이션 제한 사항을 참조하십시오.
 * 여정에 이미 있는 프로필은 재입력 구성에 관계없이 해당 여정의 동일한 버전을 다시 입력할 수 없습니다
 
 **용어:**
