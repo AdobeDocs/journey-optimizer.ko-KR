@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 여정 유형 및 선택 안내서
+title: '여정 유형: 적합한 유형을 선택합니다.'
 description: 여정 유형을 비교하고 의사 결정 안내서 및 기능 호환성 매트릭스와 함께 사용 사례에 적합한 유형을 선택합니다
 feature: Journeys, Get Started, Overview
 role: User
@@ -27,14 +27,14 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 172377e79df0e214288d5a10e48f449a4009c2fb
+source-git-commit: c6b450a19ca8af714da18e44c4b772756a9dc42b
 workflow-type: tm+mt
-source-wordcount: 2053
+source-wordcount: 2055
 ht-degree: 2%
 
 ---
 
-# 여정 유형 및 선택 안내서 {#journey-types-selection}
+# 여정 유형: 적합한 유형을 선택합니다. {#journey-types-selection}
 
 >[!BEGINSHADEBOX]
 
