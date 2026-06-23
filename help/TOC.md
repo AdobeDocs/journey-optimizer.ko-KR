@@ -728,7 +728,7 @@ ht-degree: 98%
          + [결정 정책 만들기](using/experience-decisioning/create-decision-policy.md)
          + [메시지에 결정 정책 사용](using/experience-decisioning/use-decision-policy.md)
          + [의사 결정 정책에 조각 활용](using/experience-decisioning/fragments-decision-policies.md)
-         + DM에서 [일괄 처리 결정](using/experience-decisioning/batch-decisioning-direct-mail.md)
+         + [DM에서 일괄 처리 결정](using/experience-decisioning/batch-decisioning-direct-mail.md)
       + [결정 보고서](using/experience-decisioning/cja-reporting.md)
       + [결정 사용 사례](using/experience-decisioning/experience-decisioning-uc.md)
       + 이벤트 데이터 수집 {#experience-decisioning-collect-event-data}
