@@ -11,9 +11,9 @@ keywords: 오류, 코드, 문제 해결, 여정, 캠페인, 메시지
 exl-id: 84924153-1bb5-465a-b91c-797628fc816c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 2358
+source-wordcount: 2902
 ht-degree: 3%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 3%
 
 | 오류 코드 | 설명 | 근본 원인 | 해결 방법 |
 |------------|-------------|-----------|-----------|
-| **CJMRT-110001-500** | 워크플로우 단계에 대한 최대 실행 수를 초과했습니다(예: IP 선호도 프로비저닝 단계 시간 초과) | 인프라/서비스 지연 또는 일시적인 백엔드 문제로 인해 허용된 다시 시도/시간 내에 워크플로/프로비저닝 작업이 완료되지 않았습니다. | &#x200B;1. <br/>2 후 다시 시도하십시오. [Adobe Status](https://status.adobe.com/ko-kr/)에서 중단을 확인<br/>3. 워크플로우/작업/조직 세부 정보<br/>4을(를) 사용하여 Adobe 지원으로 에스컬레이션합니다. 가능한 경우 로그 및 네트워크 캡처를 제공합니다&#x200B;<br/><br/>**관련 설명서**: [여정 문제 해결](troubleshooting.md) |
+| **CJMRT-110001-500** | 워크플로우 단계에 대한 최대 실행 수를 초과했습니다(예: IP 선호도 프로비저닝 단계 시간 초과) | 인프라/서비스 지연 또는 일시적인 백엔드 문제로 인해 허용된 다시 시도/시간 내에 워크플로/프로비저닝 작업이 완료되지 않았습니다. | &#x200B;1. <br/>2 후 다시 시도하십시오. [Adobe Status](https://status.adobe.com/)에서 중단을 확인<br/>3. 워크플로우/작업/조직 세부 정보<br/>4을(를) 사용하여 Adobe 지원으로 에스컬레이션합니다. 가능한 경우 로그 및 네트워크 캡처를 제공합니다&#x200B;<br/><br/>**관련 설명서**: [여정 문제 해결](troubleshooting.md) |
 | **CJMRT-000071-400** | 여정/테스트 이벤트 또는 API 호출 중 잘못된 요청 | 페이로드/매개 변수의 형식이 잘못되었거나 누락되었습니다. 입력이 존재하지 않거나 비활성 리소스를 참조합니다. | &#x200B;1. 오류 세부 정보<br/>2에 대한 요청 본문을 검토하십시오. 올바른 참조/매개 변수<br/>3. 고급 구성을 제거하고 <br/>4을(를) 다시 시도하십시오. 문제를 식별하기 위한 기능을 하나씩 다시 추가하십시오&#x200B;<br/><br/>**관련 설명서**: [여정 문제 해결](troubleshooting.md), [이벤트 구성](../event/about-events.md) |
 | **CJMRT-000013-401** | 메시지 런타임 작업/API 이벤트 중 승인되지 않은 오류 | 인증 실패: 토큰이 만료되었거나, 권한이 없거나, 통합/사용자가 환경 액세스 권한을 잃었습니다. | &#x200B;1. 권한 및 역할을 확인하십시오<br/>2. 인증 토큰 <br/>3을(를) 새로 고칩니다. 알려진 유효한 사용자/서비스 계정<br/>4을(를) 사용하십시오. 제품 프로필 할당 검토&#x200B;<br/><br/>**관련 설명서**: [권한](../administration/permissions.md) |
 | **CJMRT-080605-400** | 여정 런타임의 잘못된 요청(예: 노드 트리거, 작업 등) | 구성은 제거/이름 변경 또는 오래된 기능/템플릿/채널을 참조합니다. | &#x200B;1. 모든 리소스 참조의 유효성을 검사합니다<br/>2. 여정 구성 및 기능 플래그 감사<br/>3. 끊어진 참조를 업데이트하십시오<br/>4. 최근 시스템 업데이트 및 마이그레이션 검토&#x200B;<br/><br/>**관련 설명서**: [여정 만들기](journey-gs.md) |
@@ -91,7 +91,7 @@ ht-degree: 3%
 | 오류 코드 | 설명 | 근본 원인 | 해결 방법 |
 |------------|-------------|-----------|-----------|
 | **CJMMAS-1732-500** | 증명 실패 - AEM 에셋으로 증명/테스트를 전송할 때 모든 에셋이 게시되지 않음 | 최근에 게시된 자산이 아직 AJO에 없습니다. 자산 ID가 일치하지 않습니다. 교차 리포지토리 사용, AEM 동기화 지연 | &#x200B;1. 올바른 저장소/환경에서 게시된 자산 ID만 사용합니다<br/>2. AEM과 AJO<br/>3 간의 동기화 시간을 허용합니다. 정상 작동이 확인된 자산<br/>4을(를) 사용하여 다시 시도하십시오. AEM에서 에셋 게시 상태 확인&#x200B;<br/><br/>**관련 설명서**: [Assets 통합](../integrations/assets.md) |
-| **CJMMAS-1069-500** | 메시지 템플릿을 저장하거나 게시하는 도중 내부 오류 발생 | 백엔드 예외(인프라/서비스 버그 또는 콘텐츠 문제), 지원되지 않는 마크업/기능 | &#x200B;1. 템플릿 복잡성을 단순화하거나 줄이십시오<br/>2. 문제를 식별하기 위해 증분 단계로 콘텐츠를 다시 추가하십시오<br/>3. [Adobe Status 페이지](https://status.adobe.com/ko-kr/)<br/>4를 확인하세요. 지원되지 않는 기능 또는 마크업을 제거합니다&#x200B;<br/><br/>**관련 설명서**: [콘텐츠 템플릿](../content-management/content-templates.md) |
+| **CJMMAS-1069-500** | 메시지 템플릿을 저장하거나 게시하는 도중 내부 오류 발생 | 백엔드 예외(인프라/서비스 버그 또는 콘텐츠 문제), 지원되지 않는 마크업/기능 | &#x200B;1. 템플릿 복잡성을 단순화하거나 줄이십시오<br/>2. 문제를 식별하기 위해 증분 단계로 콘텐츠를 다시 추가하십시오<br/>3. [Adobe Status 페이지](https://status.adobe.com/)<br/>4를 확인하세요. 지원되지 않는 기능 또는 마크업을 제거합니다&#x200B;<br/><br/>**관련 설명서**: [콘텐츠 템플릿](../content-management/content-templates.md) |
 | **CJMMAS-1149-400** | 메시지, 사전 설정 또는 변형을 저장할 때 잘못된 요청 | 메시지에 필수 필드가 누락되었거나 구성이 잘못되었습니다. | &#x200B;1. 모든 필수 필드(별표로 표시)를 작성합니다<br/>2. 메시지/사전 설정 구성의 유효성을 검사합니다<br/>3. 필드 값 형식 및 제약 조건을 확인하십시오<br/>4. UI에서 유효성 검사 메시지 검토&#x200B;<br/><br/>**관련 설명서**: [전자 메일 채널](../email/get-started-email.md), [채널 표면](../configuration/channel-surfaces.md) |
 | **CJMMAS-2073-422** | 메시지 사전 설정 편집에서 처리할 수 없는 엔티티 | 유효성 검사 오류, 지원되지 않는 필드 또는 잘못된 구문 | &#x200B;1. <br/>2(으)로 표시된 대로 구문/필드 오류를 수정하십시오. 정상 작동이 확인된 구성과 비교<br/>3. 저장하기 전에 메시지 UI 유효성 검사 사용<br/>4. 설명서에서 필드 요구 사항 검토&#x200B;<br/><br/>**관련 설명서**: [메시지 사전 설정](../configuration/channel-surfaces.md), [전자 메일 설정](../email/email-settings.md) |
 | **CJMMAS-1300-500** | 메시지 작성의 내부 오류 | 인프라 문제, 대용량 콘텐츠 또는 서비스 다운타임으로 인한 백엔드 충돌 | &#x200B;1. 템플릿/콘텐츠를 단순화합니다(크기/복잡성 감소)<br/>2. <br/>3 작업을 다시 시도하십시오. 작업을 증분 저장<br/>4. 영구적인 경우 Adobe 지원&#x200B;<br/><br/>**관련 설명서**: [콘텐츠 템플릿](../content-management/content-templates.md)(으)로 에스컬레이션 |
@@ -189,16 +189,65 @@ ht-degree: 3%
 이 안내서를 사용하여 해결할 수 없는 지속적인 오류가 발생하는 경우:
 
 1. **정보 수집**: 오류 코드, 요청 ID, 타임스탬프 및 재현 단계를 수집합니다.
-2. **시스템 상태 확인**: 알려진 서비스 문제에 대해서는 [Adobe Status](https://status.adobe.com/ko-kr/){target="_blank"}을(를) 방문하십시오.
+2. **시스템 상태 확인**: 알려진 서비스 문제에 대해서는 [Adobe Status](https://status.adobe.com/){target="_blank"}을(를) 방문하십시오.
 3. **설명서 검색**: 솔루션에 대한 [Adobe Experience League](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=ko){target="_blank"} 검토
 4. **커뮤니티 참여**: [[!DNL Adobe Journey Optimizer] 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"}에 질문 게시
 5. **Adobe 지원에 문의**: [지원 티켓 제출](../start/user-interface.md#support-ticket-guidelines) 관련 세부 정보 모두
 
 >[!NOTE]
 >
->이 오류 코드 참조는 새 코드가 식별되고 문서화됨에 따라 계속 업데이트됩니다. 최신 정보는 [[!DNL Adobe Journey Optimizer] 커뮤니티 블로그](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs?profile.language=ko){target="_blank"}를 정기적으로 확인하십시오.
+>이 오류 코드 참조는 새 코드가 식별되고 문서화됨에 따라 계속 업데이트됩니다. 최신 정보는 [[!DNL Adobe Journey Optimizer] 커뮤니티 블로그](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs){target="_blank"}를 정기적으로 확인하십시오.
 
 **관련 항목**
 
-* [Demystimising [!DNL Adobe Journey Optimizer] 오류 코드: 1부](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=ko){target="_blank"}
-* [Demystimising [!DNL Adobe Journey Optimizer] 오류 코드: 2부](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661?profile.language=ko){target="_blank"}
+* [Demystimising [!DNL Adobe Journey Optimizer] 오류 코드: 1부](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884){target="_blank"}
+* [Demystimising [!DNL Adobe Journey Optimizer] 오류 코드: 2부](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661){target="_blank"}
+
++++ AI 기술 자료 참조
+
+이 단원에는 이 주제와 관련된 해석, 검색 및 질문 답변을 지원하기 위한 구조화된 지식이 포함되어 있습니다.
+
+이해를 돕기 위해 이 정보를 이 페이지의 설명서와 통합해야 합니다. 두 소스 모두 독립적으로 사용하기 위한 것은 아닙니다. 이 페이지에서는 기능에 대해 설명하지만, 용어, 의도, 적용 가능성 및 제약 조건을 명확히 하는 데 도움이 되는 추가 컨텍스트를 제공합니다.
+
+* **TL;DR:** 이 페이지는 서비스 접두사로 구성된 표준화된 Adobe Journey Optimizer 오류 코드에 대한 참조 안내서이며, 각 오류의 근본 원인을 설명하고 단계별 해결 지침을 제공합니다.
+
+**의도:**
+
+* 오류 코드에서 서비스 접두사를 사용하여 오류가 발생한 AJO 서비스를 식별합니다
+* 메시지 게재에 영향을 주는 푸시/전송 오류(CJMPTS) 진단 및 해결
+* 여정 실행 또는 이벤트 처리 중 여정 런타임 및 API 오류(CJMRT) 문제 해결
+* 메시지를 작성, 저장 또는 게시할 때 메시지 작성 오류(CJMMAS) 수정
+* 캠페인 활성화 또는 승인 중 캠페인 오류 해결(CJMCMP)
+* 올바른 정보를 사용하여 Adobe 지원 팀에 지속적인 오류 에스컬레이션
+
+**용어집:**
+
+* **서비스 접두사**: 오류가 발생한 서비스(예: CJMRT = 여정 런타임)를 식별하는 AJO 오류 코드의 시작 부분에 있는 영숫자 코드 *(제품별)*
+* **HTTP 상태 코드**: AJO 오류 코드에 포함된 표준 상태 코드(예: 400 = 잘못된 요청, 403 = 사용할 수 없음, 422 = 처리할 수 없는 엔터티, 500 = 내부 서버 오류)
+* **요청 ID**: Adobe 지원 *(제품별)로 에스컬레이션할 때 필요한 오류가 포함된 고유 식별자*
+* **CJMRT**: 여정 런타임 서비스 접두사 — 여정 실행 및 API 작업 중 오류 *(제품별)*
+* **CJMMAS**: 메시지 작성 서비스 접두사 — 메시지 작성 및 게시 중 오류 발생 *(제품별)*
+* **CJMPTS**: 푸시/전송 서비스 접두사 — 푸시 알림 및 메시지 전송 중 오류 *(제품별)*
+
+**보호 기능:**
+
+* 이메일 변형에는 옵트아웃/구독 취소 링크가 포함되어야 합니다. 생략하면 CJMMAS-2001-200이 트리거됩니다.
+* 여정을 중지하려면 여정 관리 권한(권한과 관련된 CJMRT 오류와 관련)이 필요합니다.
+* 하위 도메인 위임을 위한 DNS 전파는 최대 72시간 정도 소요될 수 있습니다(CJMRT-080608-400과 관련).
+* 데이터 세트 조회 활동에 대한 조회 키는 단순 모드가 아닌 고급 모드에서 정의해야 합니다.
+
+**용어:**
+
+* 정식 이름: 오류 코드 — 약어: 해당 사항 없음 — 변형: 오류 메시지, 오류 식별자
+* 동의어: &quot;service prefix&quot; = &quot;error prefix&quot; = &quot;component identifier&quot;
+* 혼동하지 마십시오: &quot;400 잘못된 요청&quot; ≠ &quot;422 처리할 수 없는 엔티티&quot; — 400은 잘못된 입력을 나타내며, 422는 유효한 형식을 표시하지만 스키마 규칙당 유효하지 않은 콘텐츠를 나타냅니다.
+
+**FAQ:**
+
+* **Q: 오류가 발생한 AJO 서비스를 어떻게 알 수 있습니까?** — 오류 코드의 시작 부분에서 서비스 접두어를 읽습니다(CJMPTS(push/transport), CJMRT(여정 런타임), CJMMAS(메시지 작성), CJMCMP(캠페인), CJMTL(전송 계층), CJMRPS(보고/프로비저닝))).
+* **Q: 500 계열 오류가 발생하면 어떻게 해야 합니까?** — 몇 분 후에 다시 시도하고 Adobe Status에서 중단을 확인한 다음 전체 오류 코드와 요청 ID를 사용하여 Adobe 지원으로 에스컬레이션합니다. 문제가 지속되면
+* **Q: 상태가 &quot;성공&quot;인데 CJMMAS-2001-200에 오류 배너가 표시되는 이유는 무엇입니까?** — 이메일 변형에 필수 옵트아웃/구독 취소 링크가 없습니다. 모든 변형 및 언어 버전에 추가하십시오.
+* **Q: Adobe 지원에 문의하기 전에 어떤 정보를 수집해야 합니까?** — 전체 오류 코드, 요청 ID, 타임스탬프, 재현 단계 및 관련 구성 세부 정보를 수집합니다.
+* **Q: CJMRT-030012-422의 원인은 무엇입니까?** — 존재하지 않는 대상, 이벤트 또는 속성 참조와 같은 잘못된 입력 데이터입니다. 참조된 모든 객체가 존재하고 활성 상태인지 확인하십시오.
+
++++

@@ -9,20 +9,15 @@ keywords: 날짜, 함수, 표현식, 여정, 시간
 version: Journey Orchestration
 exl-id: 68c102c1-f1c7-44b7-893f-9a3b7e0854b6
 TQID: https://experienceleague.adobe.com/C2Z5SufckUxCNf9TsloziZS-Q3KPzmgMVNGJGiwDQ08
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 834
-ht-degree: 11%
+source-wordcount: 1275
+ht-degree: 7%
 
 ---
 
@@ -376,7 +371,7 @@ true를 반환합니다.
 
 +++매개변수
 
-| 매개변수 | 설명 |
+| 매개 변수 | 설명 |
 |--- |--- |
 | 문자열 | 시간대 식별자(선택 사항) |
 
@@ -420,7 +415,7 @@ dateTime을 반환합니다.
 
 +++매개변수
 
-| 매개변수 | 설명 |
+| 매개 변수 | 설명 |
 |--- |--- |
 | 델타 | 양의 정수 값 또는 음의 정수 값 |
 | 날짜 부분 | years, months, days, hours, minutes 또는 seconds as a string |
@@ -568,5 +563,48 @@ dateTime을 반환합니다.
 `updateTimeZone(@event{MyExpEvent.timestamp}, "Australia/Sydney")`
 
 타임스탬프 필드의 값이 `2021-11-16T16:55:12.939318+01:00`이면 함수는 `2021-11-17T02:55:12.942115+11:00`을(를) 반환합니다.
+
++++
+
++++ AI 기술 자료 참조
+
+이 단원에는 이 주제와 관련된 해석, 검색 및 질문 답변을 지원하기 위한 구조화된 지식이 포함되어 있습니다.
+
+이해를 돕기 위해 이 정보를 이 페이지의 설명서와 통합해야 합니다. 두 소스 모두 독립적으로 사용하기 위한 것은 아닙니다. 이 페이지에서는 기능에 대해 설명하지만, 용어, 의도, 적용 가능성 및 제약 조건을 명확히 하는 데 도움이 되는 추가 컨텍스트를 제공합니다.
+
+* **TL;DR:** 이 페이지에서는 AJO 여정 표현식에서 사용할 수 있는 모든 날짜 및 시간 함수를 문서화하고, 현재 시간을 얻는 방법을 다루고, 날짜가 상대 시간 기간에 속하는지 여부를 확인하고, 날짜/시간 구성 요소를 수정하는 방법을 설명합니다.
+
+**의도:**
+* `now` 또는 `nowWithDelta`을(를) 사용하여 현재 날짜/시간(선택적 시간대 포함) 가져오기
+* `currentTimeInMillis`을(를) 사용하여 현재 시간을 에포크 정수로 검색
+* 날짜/시간이 `inLastDays`, `inLastHours`, `inLastMonths`, `inLastYears`을(를) 사용하여 최근 N일, 시간, 월 또는 년 이내에 속하는지 확인
+* `inNextDays`, `inNextHours`, `inNextMonths`, `inNextYears`을(를) 사용하여 날짜/시간이 다음 N일, 시간, 월 또는 년 이내에 속하는지 확인
+* `setHours` 또는 `setDays`을(를) 사용하여 datetime 값에 특정 시간 또는 월 일 강제 적용
+* `updateTimeZone`을(를) 사용하여 동일한 인스턴스를 유지하면서 날짜/시간을 다른 시간대로 변환
+
+**용어집:**
+* **dateTime**: 시간대 오프셋 정보 *(제품별)가 포함된 날짜-시간 값*
+* **dateTimeOnly**: 시간대 정보가 없는 날짜-시간 값 *(제품별)*
+* **epoch 밀리초**: 1970-01-01T00:00:00Z 이후 경과된 시간(밀리초)을 나타내는 정수
+* **delta**: 현재 시간을 년, 월, 일, 시간, 분 또는 초로 보내기 위해 `nowWithDelta`과(와) 함께 사용되는 정수 오프셋(양수 또는 음수)입니다.
+
+**보호 기능:**
+* `now()`은(는) 여정 식에서만 사용할 수 있습니다. 전자 메일 개인화를 위해 `getCurrentZonedDateTime()`을(를) 대신 사용하십시오.
+* `nowWithDelta`의 시간대 ID는 문자열 상수여야 합니다. 필드 참조 및 동적 식은 지원되지 않습니다.
+* `updateTimeZone`의 시간대 ID는 문자열 상수여야 합니다.
+
+**용어:**
+* 정식 이름: 날짜 함수 — 약어: 없음 — 변형: 날짜-시간 함수, 임시 함수
+* 동의어: &quot;now()&quot; = &quot;current datetime&quot;; &quot;currentTimeInMillis()&quot; = &quot;current epoch milliseconds&quot;
+* 혼동하지 마십시오. &quot;inLastDays&quot;(시간 후 전환) ≠ &quot;inNextDays&quot;(시간 후 전환)
+* 혼동하지 마십시오. &quot;setHours&quot;(시간 구성 요소 대체) ≠ &quot;nowWithDelta&quot;(현재 시간 오프셋)
+* 혼동하지 마십시오. &quot;updateTimeZone&quot;(같은 인스턴트, 다른 시간대 표시) ≠ &quot;setHours&quot;(시간 값 자체를 변경)
+
+**FAQ:**
+* **Q: 전자 메일 개인화 콘텐츠에서 `now()`을(를) 사용할 수 있습니까?** — 아니요. `now()`은(는) 여정 식에서만 사용할 수 있습니다. 전자 메일 개인화에 `getCurrentZonedDateTime()`을(를) 사용합니다.
+* **Q: 지난 24시간 동안 이벤트가 발생했는지 어떻게 확인할 수 있습니까?** — `inLastHours(@event{MyEvent.timestamp}, 24)` 사용.
+* **Q: 지난 2시간 동안 현재 시간 오프셋을 가져오려면 어떻게 해야 합니까?** — `nowWithDelta(-2, "hours")` 사용.
+* **Q: `updateTimeZone`이(가) `setHours`과(와) 다르게 수행하는 작업** — `updateTimeZone`은(는) 같은 시간을 유지하지만 다른 시간대에 표시하는 반면 `setHours`은(는) 실제로 datetime 값의 hour 구성 요소를 변경합니다.
+* **Q: `nowWithDelta`의 시간대 매개 변수가 프로필 필드일 수 있습니까?** — 아니요. 시간대 ID는 문자열 상수여야 합니다. 필드 참조는 지원되지 않습니다.
 
 +++

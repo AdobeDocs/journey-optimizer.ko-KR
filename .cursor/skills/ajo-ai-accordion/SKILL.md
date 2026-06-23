@@ -2,7 +2,7 @@
 name: ajo-ai-accordion
 description: 각 Markdown 파일의 끝에 추가된 AI Assistant 아코디언 섹션을 통해 Adobe Journey Optimizer 설명서 페이지를 강화합니다. 각 페이지를 읽고, 페이지 주제를 기반으로 관련 AI Assistant 콘텐츠를 자동 생성한 다음 축소 가능한 아코디언으로 삽입합니다. 사용자가 AJO 문서에 AI 정보를 추가하거나, AI 콘텐츠가 있는 AJO Markdown 페이지를 보강하거나, AI 아코디언 섹션이 있는 Markdown 파일의 파일 또는 폴더를 처리하려는 경우 사용합니다.
 disable-model-invocation: true
-source-git-commit: 80e67d5a60b6427ff87e106e37bf6794ac76a210
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 1%
@@ -33,7 +33,7 @@ Content here — any standard markdown is valid.
 - 한 줄에 `+++`만 있으면 아코디언이 닫힙니다.
 - `+++` 열기 전과 `+++` 닫기 후 빈 줄
 
-&#x200B;---
+---
 
 ## 워크플로
 
@@ -79,19 +79,19 @@ Content here — any standard markdown is valid.
 - 수정된 목록 파일 ✓
 - 건너뛴 파일 및 이유 목록(이미 아코디언이 있음, 빈 파일, 관련 없음 등)
 
-&#x200B;---
+---
 
 ## 컨텐츠 생성 규칙
 
 Markdown 페이지를 분석하여 아코디언 콘텐츠를 생성합니다. Markdown 글머리 기호 목록으로 서식이 지정된 다음 섹션 **순서대로**&#x200B;을 생성합니다. 페이지에서 의미 있는 컨텐츠를 추출할 수 없는 섹션은 건너뜁니다.
 
-&#x200B;---
+---
 
 ### 어코디언 제목
 
 사용: `+++AI Assistant — Page context`
 
-&#x200B;---
+---
 
 ### 생성할 섹션(순서대로)
 
@@ -103,7 +103,7 @@ Markdown 페이지를 분석하여 아코디언 콘텐츠를 생성합니다. Ma
 - **TL;DR:** [one sentence summary]
 ```
 
-&#x200B;---
+---
 
 **2. 의도**
 
@@ -115,7 +115,7 @@ Markdown 페이지를 분석하여 아코디언 콘텐츠를 생성합니다. Ma
 - [action the user can perform]
 ```
 
-&#x200B;---
+---
 
 **3. 용어집**
 
@@ -129,7 +129,7 @@ Markdown 페이지를 분석하여 아코디언 콘텐츠를 생성합니다. Ma
 
 이 페이지의 주제와 관련된 용어만 포함합니다. 일반적인 마케팅 용어로 패딩하지 마십시오.
 
-&#x200B;---
+---
 
 **4. 보호 기능**
 
@@ -141,7 +141,7 @@ Markdown 페이지를 분석하여 아코디언 콘텐츠를 생성합니다. Ma
 - [guardrail or prerequisite]
 ```
 
-&#x200B;---
+---
 
 **5. 용어**
 
@@ -157,7 +157,7 @@ Markdown 페이지를 분석하여 아코디언 콘텐츠를 생성합니다. Ma
 
 페이지에 있거나 암시된 항목만 포함합니다.
 
-&#x200B;---
+---
 
 **6. FAQ**
 
@@ -169,7 +169,7 @@ Markdown 페이지를 분석하여 아코디언 콘텐츠를 생성합니다. Ma
 - **Q: [question]** — [short answer]
 ```
 
-&#x200B;---
+---
 
 ### 포함하지 않을 항목
 
@@ -177,12 +177,16 @@ Markdown 페이지를 분석하여 아코디언 콘텐츠를 생성합니다. Ma
 - **not**&#x200B;에 단계별 지침(페이지에 있음)을 포함하십시오.
 - 페이지에서 지원하지 않는 콘텐츠를 **만들 수 없습니다**.
 
-&#x200B;---
+---
 
 ### 전체 아코디언 템플릿
 
 ```markdown
-+++AI Assistant — Page context
++++ AI Knowledge Reference
+
+This section contains structured knowledge intended to support interpretation, retrieval, and question answering related to this topic.
+
+For complete understanding, this information should be combined with the documentation on this page. Neither source is intended to stand alone; the page describes the feature, while this section provides additional context that helps disambiguate terminology, intent, applicability, and constraints.
 
 - **TL;DR:** [one sentence]
 
@@ -205,7 +209,7 @@ Markdown 페이지를 분석하여 아코디언 콘텐츠를 생성합니다. Ma
 +++
 ```
 
-&#x200B;---
+---
 
 ## 참고
 

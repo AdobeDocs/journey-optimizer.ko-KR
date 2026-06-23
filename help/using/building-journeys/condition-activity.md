@@ -12,21 +12,15 @@ exl-id: 02de069c-3009-4105-aa98-c49959d3efda
 version: Journey Orchestration
 hide: true
 TQID: https://experienceleague.adobe.com/gbZUkOhk-3yBMdxwj3YpPbQrbpMhd6PkNf1hzl-2DFw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1885
-ht-degree: 16%
+source-wordcount: 2580
+ht-degree: 12%
 
 ---
 
@@ -67,7 +61,7 @@ ht-degree: 16%
 
 >[!NOTE]
 >
->[프로필 저장소](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko#profile-data-store){target="_blank"}에 두 개 이상의 교차 장치 ID가 포함된 프로필에 대해서는 조건 평가가 실패합니다.
+>[프로필 저장소](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}에 두 개 이상의 교차 장치 ID가 포함된 프로필에 대해서는 조건 평가가 실패합니다.
 
 ## 조건 경로 추가 및 관리 {#about_condition}
 
@@ -213,4 +207,52 @@ ht-degree: 16%
 
    >[!NOTE]
    >
-   >대상자 참여 상태가 **실현됨**&#x200B;인 개인만 대상자의 구성원으로 간주됩니다. 대상자를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ko#interpret-segment-results){target="_blank"}를 참조하세요.
+   >대상자 참여 상태가 **실현됨**&#x200B;인 개인만 대상자의 구성원으로 간주됩니다. 대상자를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}를 참조하세요.
+
++++ AI 기술 자료 참조
+
+이 단원에는 이 주제와 관련된 해석, 검색 및 질문 답변을 지원하기 위한 구조화된 지식이 포함되어 있습니다.
+
+이해를 돕기 위해 이 정보를 이 페이지의 설명서와 통합해야 합니다. 두 소스 모두 독립적으로 사용하기 위한 것은 아닙니다. 이 페이지에서는 기능에 대해 설명하지만, 용어, 의도, 적용 가능성 및 제약 조건을 명확히 하는 데 도움이 되는 추가 컨텍스트를 제공합니다.
+
+* **TL;DR:** 이 페이지에서는 사용 가능한 5가지 조건 유형(데이터 Source, 시간, 비율 분할, 날짜 및 프로필 상한)에 대해 다루는 Journey Optimizer의 조건 활동과 규칙, 데이터 또는 대상 멤버십을 기반으로 프로필을 다양한 여정 경로로 라우팅하는 방법에 대해 설명합니다.
+
+**의도:**
+* 여정에 조건 활동을 추가하고 여러 분기 경로를 만듭니다
+* 표현식 편집기를 사용하여 Data Source 조건을 구성하여 프로필 또는 이벤트 속성을 평가합니다
+* 시간 조건을 설정하여 요일 또는 시간을 기준으로 프로필을 라우팅합니다.
+* 비율 분할 을 사용하여 경로에 프로필을 임의로 분할합니다.
+* 프로필 상한을 적용하여 특정 여정 경로를 사용하는 프로필 수를 제한합니다
+* 여정 경로의 조건으로 대상 멤버십 확인 사용
+
+**용어집:**
+* **조건 활동**: 규칙을 평가하고 결과 *(제품별)*&#x200B;을(를) 기반으로 프로필을 다른 경로로 라우팅하는 여정 활동
+* **데이터 Source 조건**: 식 편집기 *(제품별)*&#x200B;을(를) 사용하여 데이터 원본 또는 여정 이벤트의 필드를 평가하는 조건 형식입니다
+* **시간 조건**: 시간, 요일 또는 *(제품별)의 조합을 기준으로 프로필을 필터링하는 조건 형식*
+* **분할 비율**: 통계적 Java 임의 메커니즘 *(제품별)*&#x200B;을(를) 사용하여 경로를 통해 프로필을 임의로 배포하는 조건 유형입니다.
+* **프로필 상한**: 특정 경로를 사용할 수 있는 프로필 수를 제한하는 조건 형식입니다. 추가 프로필은 대체 경로 *(제품별)로 라우팅됩니다.*
+* **대체 경로**: 오류, 시간 제한 또는 프로필 상한 제한에 도달했을 때 활성화된 대체 경로 *(제품별)*
+
+**보호 기능:**
+* 프로필 스토어에서 두 개 이상의 교차 장치 ID가 있는 프로필에 대한 조건 평가가 실패합니다
+* 수집된 데이터가 없는 스키마 필드는 null로 해석됩니다. isEmpty() 및 isNull()은 이러한 필드에 대해 true로 평가되므로 예기치 않은 동작이 발생할 수 있습니다
+* 시간대는 개별 조건 수준이 아닌 여정 수준에서 정의됩니다
+* 비율 분할 조건에서는 &quot;다른 사례에 대한 경로 표시&quot; 옵션을 사용할 수 없습니다.
+* 프로필 상한 기본값은 1,000입니다. 여정이 복제되거나 새 버전이 만들어질 때 카운터가 재설정되지만 반복 여정의 반복 사이에는 재설정되지 않습니다.
+* 캡이 10,000개를 초과하는 경우 캡 수의 1.3배 이상을 주사하고, 캡이 10,000개 미만인 경우 캡을 1,000개 이상 주사합니다
+* 프로필 상한이 테스트 모드에서 적용되지 않음
+* 시계열 쿼리(예: 구매 목록, 과거 클릭 수)는 단순 표현식 편집기에서 지원되지 않으므로 고급 편집기를 사용해야 합니다
+
+**용어:**
+* 정식 이름: 조건 활동 — 약어: 없음 — 변형: 조건 노드, 조건 단계
+* 동의어: &quot;Data Source 조건&quot; = &quot;표현식 기반 조건&quot; ; &quot;비율 분할&quot; = &quot;무작위 분할&quot;
+* 혼동하지 마십시오. &quot;비율 분할&quot; ≠ &quot;프로필 상한&quot;(비율 분할은 모든 프로필을 임의로 분산함. 프로필 상한은 카운트 임계값에 도달하면 경로 라우팅을 중지함)
+
+**FAQ:**
+* **Q: 여러 경로를 정의하고 프로필이 두 개 이상의 조건을 충족하면 어떻게 됩니까?** — 첫 번째 적격 경로(캔버스에서 위쪽에서 아래쪽)만 실행됩니다. 경로 순서에 따라 우선 순위가 결정됩니다.
+* **Q: 조건에 맞지 않는 프로필에 대한 대체 경로를 추가할 수 있습니까?** — 예, 위의 경우 이외의 경우 경로 표시 — 모든 프로파일이 항상 분할 경로 중 하나를 입력하는 [비율 분할] 조건에서 제외합니다.
+* **Q: 데이터가 있을 것으로 예상되는 필드에 대해 my isEmpty() 조건이 true로 평가되는 이유는 무엇입니까?** — 스키마 필드가 존재하지만 해당 필드에 대한 데이터가 수집되지 않은 경우 Journey Optimizer 및 실시간 고객 프로필은 이 필드를 null로 해석하므로 isEmpty() 및 isNull()은 true를 반환합니다.
+* **Q: 프로필 상한 카운터가 반복 여정에서 재설정됩니까?** — 아니요. 카운터는 재귀 간에 재설정되지 않습니다. 여정이 복제되거나 새 버전이 만들어질 때만 재설정됩니다.
+* **Q: 테스트 모드에서 비율 분할이 어떻게 작동합니까?** — 테스트 모드에서는 구성된 분할 비율에 관계없이 항상 최상위 분기가 선택됩니다.
+
++++

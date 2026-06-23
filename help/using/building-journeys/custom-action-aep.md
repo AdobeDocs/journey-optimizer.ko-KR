@@ -10,22 +10,15 @@ level: Experienced
 exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/TbX3usHKfEM6WQPjFRjo2jCSb78rcbYEWWmV0tpGdj4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62aid: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 442
-ht-degree: 3%
+source-wordcount: 1085
+ht-degree: 1%
 
 ---
 
@@ -59,7 +52,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 >[!CAUTION]
 >
->Adobe Developer Console에서 프로젝트를 작성한 후 올바른 권한을 사용하여 개발자 및 API 액세스 제어를 부여해야 합니다. 자세한 내용은 [[!DNL Adobe Experience Platform] 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}를 참조하세요
+>Adobe Developer Console에서 프로젝트를 작성한 후 올바른 권한을 사용하여 개발자 및 API 액세스 제어를 부여해야 합니다. 자세한 내용은 [[!DNL Adobe Experience Platform] 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}를 참조하세요
 
 ## HTTP API Inlet을 사용하여 소스 구성
 
@@ -67,7 +60,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 1. [!DNL Adobe Experience Platform]의 왼쪽 메뉴에서 **연결** 아래의 **원본**&#x200B;을 클릭합니다. **HTTP API**&#x200B;에서 **데이터 추가**&#x200B;를 클릭합니다.
 
-   [!DNL Adobe Experience Platform]![&#128279;](assets/custom-action-aep-3.png)에 대한 샌드박스 선택 드롭다운
+   [!DNL Adobe Experience Platform]](assets/custom-action-aep-3.png)에 대한 ![샌드박스 선택 드롭다운
 
 1. **새 계정**&#x200B;을 선택하고 인증을 사용하도록 설정합니다. **Source에 연결**&#x200B;을 선택합니다.
 
@@ -202,3 +195,46 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 1. 사용 사례에 따라 여정 버전 ID, 노드 ID, 노드 이름 및 기타 속성을 채웁니다.
 
    ![복잡한 필드 매핑을 위한 고급 모드 편집기](assets/custom-action-aep-9.png)
+
++++ AI 기술 자료 참조
+
+이 단원에는 이 주제와 관련된 해석, 검색 및 질문 답변을 지원하기 위한 구조화된 지식이 포함되어 있습니다.
+
+이해를 돕기 위해 이 정보를 이 페이지의 설명서와 통합해야 합니다. 두 소스 모두 독립적으로 사용하기 위한 것은 아닙니다. 이 페이지에서는 기능에 대해 설명하지만, 용어, 의도, 적용 가능성 및 제약 조건을 명확히 하는 데 도움이 되는 추가 컨텍스트를 제공합니다.
+
+- **TL;DR:** 이 사용 사례에서는 HTTP API 인렛 및 OAuth 서버 간 인증된 호출을 사용하여 여정 이벤트 데이터를 Adobe Experience Platform에 쓰는 Journey Optimizer의 사용자 지정 작업을 구성하는 방법을 설명합니다.
+
+**의도:**
+- AEP API 인증을 위한 OAuth 서버 간 자격 증명으로 Adobe Developer Console IO 프로젝트 설정
+- Adobe Experience Platform에서 HTTP API 인렛 소스를 만들어 스트리밍 여정 이벤트 데이터 수신
+- 올바른 URL, 헤더 및 사용자 지정 전달자 토큰 인증을 사용하여 Journey Optimizer에서 사용자 지정 작업을 구성합니다
+- 여정 필드(여정 버전 ID, 노드 ID, 고객 ID)를 사용자 지정 작업 페이로드의 변수로 동적으로 매핑합니다
+- 여정에서 사용자 지정 작업을 사용하여 AEP 데이터 세트에 사용자 지정 이벤트 작성
+
+**용어집:**
+- **HTTP API Inlet**: HTTP POST 요청을 통해 데이터를 수집하기 위한 스트리밍 끝점을 만드는 Adobe Experience Platform 소스 커넥터 *(제품별)*
+- **OAuth 서버 간**: 사용자 상호 작용 없이 서버 간 API 호출에 대한 전달자 토큰을 생성하는 Adobe Developer Console의 인증 자격 증명 유형 *(제품별)*
+- **사용자 지정 권한 부여**: 지정된 끝점에서 전달자 토큰을 가져와서 구성된 기간 *(제품별) 동안 캐시하는 Journey Optimizer 사용자 지정 작업 인증 유형입니다*
+- **XDM 엔터티**: HTTP API 인렛 *(제품별)을(를) 통해 AEP에 이벤트를 쓸 때 본문으로 사용되는 Experience Data Model 스키마를 따르는 데이터 페이로드 구조*
+- **cacheDuration**: 새 토큰이 요청되기 전에 가져온 전달자 토큰이 다시 사용되는 시간을 제어하는 사용자 지정 권한 부여 구성의 토큰 캐시 설정입니다. *(제품별)*
+
+**보호 기능:**
+- Adobe Developer Console 프로젝트를 만든 후 개발자 및 API 액세스 제어 권한을 명시적으로 부여해야 자격 증명을 사용할 수 있습니다
+- 인증을 사용하도록 설정한 상태에서 HTTP API 인렛 소스를 만들어야 합니다. 연결 끝점 URL 및 스키마 페이로드를 복사하고 저장하여 사용자 지정 작업 구성에서 사용해야 합니다
+- 사용자 지정 작업 헤더에는 Content-Type, Charset 및 sandbox-name이 포함되어야 합니다
+- 런타임 시 동적으로 채워지는 필드는 사용자 지정 작업 페이로드 구성에서 상수에서 변수로 변경해야 합니다
+
+**용어:**
+- 정식 이름: 사용자 지정 작업 — 약어: 없음 — 변형: 사용자 지정 작업 구성, Journey Optimizer 사용자 지정 작업
+- 정식 이름: Adobe Experience Platform — 약어: AEP — 변형: Experience Platform, 플랫폼
+- 동의어: &quot;HTTP API Inlet&quot; = &quot;스트리밍 끝점&quot; = &quot;DCS 컬렉션 끝점&quot;
+- 혼동하지 마십시오: &quot;OAuth 서버 간&quot; ≠ &quot;OAuth 사용자 인증&quot;(서버 간 인증은 사용자 로그인이 필요하지 않으며, 클라이언트 자격 증명을 사용함)
+
+**FAQ:**
+- **Q: Journey Optimizer 사용자 지정 작업에서 AEP HTTP API Inlet을 호출하는 데 사용되는 인증 유형은 무엇입니까?** — Adobe IMS 토큰 엔드포인트에서 가져온 OAuth 서버 간 클라이언트 자격 증명을 사용하는 사용자 지정 전달자 토큰 인증.
+- **Q: client_id, client_secret, grant_type 및 scope 값은 어디에서 찾을 수 있습니까?** — Adobe Developer Console IO 프로젝트의 OAuth 서버 간 자격 증명 섹션에서 &quot;cURL 명령 보기&quot;를 클릭하여
+- **Q: 페이로드에서 여정 관련 필드(예: journeyVersionId, nodeId)를 동적으로 만들려면 어떻게 해야 합니까?** — 사용자 정의 작업 페이로드 설정의 필드 구성을 상수에서 변수로 변경하여 런타임 시 여정 컨텍스트에서 채우도록 합니다.
+- **Q: Adobe Developer Console 프로젝트에 필요한 권한은 무엇입니까?** — AEP API 인증 설명서에 설명된 대로 프로젝트를 만든 후 개발자 및 API 액세스 제어에 올바른 권한을 부여해야 합니다.
+- **Q: 인증 페이로드에서 cacheDuration 설정의 용도는 무엇입니까?** — 사용자 지정 작업에서 새 토큰을 요청하기 전에 가져온 Bearer 토큰이 캐시되고 재사용되는 시간(예에서 28,000초)을 제어합니다.
+
++++

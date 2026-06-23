@@ -11,27 +11,16 @@ keywords: 여정, 통합, standard, campaign, ACS
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/spxxZT-JH5yzziL8-oSkJdBcKEppm-4ZzeLC2-laCaM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 953
-ht-degree: 8%
+source-wordcount: 1484
+ht-degree: 5%
 
 ---
 
@@ -60,7 +49,7 @@ ht-degree: 8%
 >
 >Journey Optimizer에서 사용하려면 Campaign Standard 트랜잭션 메시지와 관련 이벤트를 게시해야 합니다. 이벤트가 게시되었지만 메시지는 게시되지 않은 경우 Journey Optimizer 인터페이스에 표시되지 않습니다. 메시지가 게시되었지만 연결된 이벤트가 게시되지 않은 경우 Journey Optimizer 인터페이스에 표시되지만 사용할 수 없습니다.
 
-여정![&#128279;](assets/journey59.png)의 [!DNL Adobe Campaign] 표준 작업 구성
+여정](assets/journey59.png)의 ![[!DNL Adobe Campaign] 표준 작업 구성
 
 이벤트(실시간 이라고도 함) 또는 프로필 트랜잭션 메시지 템플릿을 사용할 수 있습니다.
 
@@ -140,3 +129,51 @@ ht-degree: 8%
 >개인화 데이터에서 컬렉션을 전달할 수 없습니다. 트랜잭션 푸시에 컬렉션이 필요한 경우 작동하지 않습니다. 또한 개인화 데이터에는 예상 형식(예: 문자열, 십진수 등)이 있습니다. 이러한 예상 형식을 준수하도록 주의해야 합니다.
 
 [!DNL Adobe Campaign] 표준 메시지에 사용된 트랜잭션 템플릿에 필요한 필드입니다. 이 필드를 사용하여 메시지를 개인화하거나, 조건부 서식을 적용하거나, 특정 메시지 변형을 선택할 수 있습니다.
+
++++ AI 기술 자료 참조
+
+이 단원에는 이 주제와 관련된 해석, 검색 및 질문 답변을 지원하기 위한 구조화된 지식이 포함되어 있습니다.
+
+이해를 돕기 위해 이 정보를 이 페이지의 설명서와 통합해야 합니다. 두 소스 모두 독립적으로 사용하기 위한 것은 아닙니다. 이 페이지에서는 기능에 대해 설명하지만, 용어, 의도, 적용 가능성 및 제약 조건을 명확히 하는 데 도움이 되는 추가 컨텍스트를 제공합니다.
+
+* **TL;DR:** 이 페이지에서는 Campaign 트랜잭션 메시지 템플릿을 통해 Journey Optimizer 여정에서 기본 제공 Adobe Campaign Standard 이메일, SMS 및 푸시 작업 활동을 사용하는 방법을 설명합니다.
+
+**의도:**
+
+* Adobe Campaign Standard 통합을 사용하여 여정에서 이메일, SMS 또는 푸시 작업 활동 구성
+* Campaign Standard 트랜잭션 메시지 템플릿을 선택하고 여정 필드에 매핑합니다.
+* 여정 이벤트 또는 데이터 소스의 주소 및 Personalization 데이터 필드를 메시지 페이로드에 매핑
+* 이벤트 기반 및 프로필 기반 트랜잭션 이메일 템플릿 구독 취소 처리
+* Campaign Standard 푸시 작업에 대한 푸시 알림 대상 플랫폼 및 등록 토큰 구성
+
+**용어집:**
+
+* **트랜잭션 메시지**: 이벤트 *(제품별)을(를) 기반으로 트리거된 실시간 메시지(이메일, SMS, 푸시)를 전송하기 위한 Adobe Campaign Standard 기능*
+* **rtEvent**: 이벤트 기반 메시지 *(제품별)에 사용되는 Adobe Campaign Standard의 실시간 이벤트 트랜잭션 메시지 템플릿*
+* **프로필 트랜잭션 템플릿**: 받는 사람 확인 및 구독 취소 처리에 프로필 데이터를 사용하는 Campaign Standard 트랜잭션 메시지 템플릿 *(제품별)*
+* **등록 토큰**: 특정 모바일 앱 설치 *(제품별)*&#x200B;에 푸시 알림을 타깃팅하는 데 필요한 장치 수준 식별자
+
+**보호 기능:**
+
+* 기본 제공 작업은 사용하기 전에 구성해야 합니다. 작업 구성 페이지를 참조하십시오.
+* Journey Optimizer에서 템플릿을 사용하려면 Campaign Standard 트랜잭션 메시지와 관련 이벤트를 모두 게시해야 합니다.
+* 컬렉션은 Personalization 데이터 필드에 전달할 수 없습니다.
+* 이벤트 기반(rtEvent) 템플릿의 경우 전송하기 전에 조건을 사용하여 구독 취소 관리를 수동으로 처리해야 합니다.
+* 프로필 기반 푸시 메시지의 경우 타겟 필드가 자동으로 검색되며, 타겟 카테고리는 이벤트 메시지에 대해서만 표시됩니다.
+* 푸시 활동을 사용하려면 먼저 Campaign Standard을 사용하여 모바일 앱을 구성해야 합니다.
+
+**용어:**
+
+* 정식 이름: Adobe Campaign Standard — 약어: ACS — 변형: Campaign Standard
+* 동의어: &quot;event transactional message&quot; = &quot;rtEvent&quot;; &quot;real-time transactional message&quot; = &quot;rtEvent&quot;
+* 혼동하지 마십시오. &quot;프로필 트랜잭션 템플릿&quot;(구독 취소는 자동으로 처리됨) ≠ &quot;이벤트 트랜잭션 템플릿&quot;(구독 취소는 수동으로 처리해야 함)
+
+**FAQ:**
+
+* **Q: Adobe Campaign Standard 통합을 통해 사용할 수 있는 채널은 무엇입니까?** — 이메일, SMS 및 푸시 알림 채널을 기본 작업 활동으로 사용할 수 있습니다.
+* **Q: 트랜잭션 메시지를 Journey Optimizer에서 사용하기 전에 Campaign Standard에 게시해야 합니까?** — 예. 트랜잭션 메시지와 관련 이벤트를 모두 게시해야 합니다. 게시되지 않은 메시지는 인터페이스에 표시되더라도 사용할 수 없습니다.
+* **Q: 프로필 기반 전자 메일 템플릿에 대한 구독 취소는 어떻게 처리됩니까?** — 프로필 트랜잭션 템플릿을 사용할 때 Adobe Campaign Standard에서 구독 취소를 자동으로 처리합니다. 템플릿에 구독 취소 링크 콘텐츠 블록을 포함합니다.
+* **Q: 컬렉션을 개인화 데이터로 전달할 수 있습니까?** — 아니요. 컬렉션은 Personalization 데이터로 전달할 수 없습니다. 트랜잭션 메시지에는 컬렉션을 예상할 수 없습니다.
+* **Q: 이벤트 기반 전자 메일의 받는 사람 주소를 어디에 매핑합니까?** — 활동 구성 창의 주소 범주는 이벤트 트랜잭션 메시지에 대해서만 표시되며, 프로필 메시지의 경우 주소가 자동으로 검색됩니다.
+
++++

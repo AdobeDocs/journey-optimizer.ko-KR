@@ -11,26 +11,16 @@ keywords: 자격, 이벤트, 대상, 여정, 플랫폼
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/u7riiGWgaQFuiWARJL-Wqh9CcaZ-yH3N6ZRtsvfyN8Y
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1854
-ht-degree: 13%
+source-wordcount: 2501
+ht-degree: 10%
 
 ---
 
@@ -119,7 +109,7 @@ ht-degree: 13%
    >[!NOTE]
    >
    >**[!UICONTROL Enter]** 및 **[!UICONTROL Exit]**&#x200B;은(는) [!DNL Adobe Experience Platform]의 **실현됨** 및 **종료됨** 대상자 참여 상태에 해당합니다.
-   >[세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ko#interpret-segment-results){target="_blank"}를 참조하세요.
+   >[세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}를 참조하세요.
 
 1. 네임스페이스를 선택합니다. 이는 이벤트가 여정의 첫 번째 단계로 배치되는 경우에만 필요합니다. 기본적으로 필드는 마지막으로 사용된 네임스페이스로 미리 채워집니다.
 
@@ -164,7 +154,7 @@ ht-degree: 13%
 
 스트리밍 세분화를 통해 열기 및 보내기 이벤트를 사용하지 마십시오. 대신 클릭, 구매 또는 비콘 데이터와 같은 실제 사용자 활동 신호를 사용합니다. 빈도 또는 제외 논리의 경우 이벤트 보내기 대신 비즈니스 규칙을 사용하십시오. [자세히 알아보기](../audience/about-audiences.md)
 
-[[!DNL Adobe Experience Platform] 스트리밍 세분화 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}를 참조하세요.
+[[!DNL Adobe Experience Platform] 스트리밍 세분화 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}를 참조하세요.
 
 >[!NOTE]
 >
@@ -200,9 +190,9 @@ ht-degree: 13%
 
 * **[!UICONTROL 대상 자격]** 활동에서 일괄 처리 대상을 만든 후 바로 사용하지 마십시오. 이렇게 하면 첫 번째 계산 피크가 나타나지 않습니다. 계산된 적이 없는 대상을 사용하려는 경우 여정 캔버스에 노란색 경고가 표시됩니다.
 
-  [!DNL Adobe Experience Platform]![&#128279;](assets/segment-error.png)에서 대상을 찾을 수 없을 때 오류 메시지
+  [!DNL Adobe Experience Platform]](assets/segment-error.png)에서 대상을 찾을 수 없을 때 ![오류 메시지
 
-* 여정에서 사용되는 데이터 소스 및 작업에 대한 최대 가용량 규칙을 적용하여 오버로드를 방지합니다. 자세한 내용은 [Journey Orchestration 설명서](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=ko){target="_blank"}를 참조하세요. 최대 가용량 규칙에는 재시도가 없습니다. 다시 시도해야 하는 경우 **[!UICONTROL 조건 또는 작업에서 시간 초과 또는 오류 발생 시 대체 경로를 추가]** 상자를 선택하여 여정에서 대체 경로를 사용하십시오.
+* 여정에서 사용되는 데이터 소스 및 작업에 대한 최대 가용량 규칙을 적용하여 오버로드를 방지합니다. 자세한 내용은 [Journey Orchestration 설명서](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}를 참조하세요. 최대 가용량 규칙에는 재시도가 없습니다. 다시 시도해야 하는 경우 **[!UICONTROL 조건 또는 작업에서 시간 초과 또는 오류 발생 시 대체 경로를 추가]** 상자를 선택하여 여정에서 대체 경로를 사용하십시오.
 
 * 프로덕션 여정에서 대상을 사용하기 전에 매일 이 대상에 대해 자격이 있는 개인의 양을 평가하십시오. 이렇게 하려면 **[!UICONTROL 대상자]** 메뉴를 확인하고 대상자를 연 다음 **[!UICONTROL 시간 경과에 따른 프로필]** 그래프를 보십시오.
 
@@ -246,4 +236,50 @@ ht-degree: 13%
 
 이 비디오에서 대상 자격 여정에 적용할 수 있는 사용 사례를 이해합니다. 대상 검증을 사용하여 여정을 구축하는 방법 및 적용할 모범 사례를 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446211?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
+
++++ AI 기술 자료 참조
+
+이 단원에는 이 주제와 관련된 해석, 검색 및 질문 답변을 지원하기 위한 구조화된 지식이 포함되어 있습니다.
+
+이해를 돕기 위해 이 정보를 이 페이지의 설명서와 통합해야 합니다. 두 소스 모두 독립적으로 사용하기 위한 것은 아닙니다. 이 페이지에서는 기능에 대해 설명하지만, 용어, 의도, 적용 가능성 및 제약 조건을 명확히 하는 데 도움이 되는 추가 컨텍스트를 제공합니다.
+
+* **TL;DR:** 이 페이지에서는 Adobe Experience Platform 대상에 들어가거나 나갈 때 여정에서 프로필을 트리거하거나 진행하기 위해 Journey Optimizer에서 대상 자격 이벤트 활동을 구성하고 사용하는 방법을 설명합니다.
+
+**의도:**
+* 대상 멤버십 변경에 대한 여정 항목을 트리거하도록 대상 자격 이벤트 활동 구성
+* 대상 자격 활동에 대한 올바른 동작(시작, 종료 또는 둘 다)을 선택합니다
+* 일괄 처리 또는 스트리밍 대상을 사용할 때 시스템을 오버로드할 수 없도록 모범 사례 적용
+* 일부 적격 프로필이 여정에 들어가지 않을 수 있는 이유와 이를 완화하는 방법을 이해합니다.
+* 다운스트림 조건 및 작업에서 AudienceQualification 노드 페이로드 사용
+
+**용어집:**
+* **대상 자격 이벤트**: Adobe Experience Platform 대상의 프로필 시작 또는 종료를 수신하고 여정 진행률 *(제품별)*&#x200B;을(를) 트리거하는 여정 이벤트 활동
+* **동작(Enter/Exit)**: 여정이 프로필 가입(&quot;인식됨&quot;), 종료(&quot;종료됨&quot;) 또는 대상 *(제품별)의 두 상태 모두에 반응하는지 여부를 제어하는 설정입니다.*
+* **스트리밍 대상**: 고주파 대상 옵션을 사용하여 실시간으로 계속 평가되는 대상입니다. 대상 자격 활동 *(제품별)에 권장됩니다*
+* **일괄 처리 대상**: 하루에 한 번 다시 계산되는 대상입니다. 프로필 항목의 일일 최대값을 도입하려면 세분화 작업 완료 후 2시간 준비 기간이 필요합니다. *(제품별)*
+* **AudienceQualification 노드**: 대상 자격 활동 후 식 편집기에서 사용할 수 있는 컨텍스트 노드로서, 마지막 자격 시간 및 상태 *(제품별)*&#x200B;을(를) 노출합니다.
+* **Edge-Hub 전파**: 여정이 작업을 수행하기 전에 Edge에서 평가된 스트리밍 세그먼트 멤버십이 Hub에 동기화되는 프로세스입니다. 일반적으로 15-30분 *(제품별)*
+
+**보호 기능:**
+* 새 대상 자격 여정이 게시 후 활성화되는 데 최대 10분이 소요됩니다
+* 일괄 수집된 속성을 사용하는 일괄 처리 또는 스트리밍 대상은 세분화 작업이 완료된 후 약 2시간 후에 준비됩니다
+* 세그먼트 정의를 사용하여 만든 대상만 사용할 수 있습니다. 작성 워크플로 또는 사용자 지정 업로드 대상은 지원되지 않습니다
+* 경험 이벤트 필드 그룹은 대상 자격으로 시작하는 여정에서 사용할 수 없습니다.
+* 네임스페이스 필드에는 사람 기반 ID 네임스페이스만 사용할 수 있으며 조회 테이블 네임스페이스는 지원되지 않습니다
+* 여정 게시 전에 대상에 이미 있는 프로필은 소급하여 여정에 들어가지 않습니다.
+* 스트리밍 세그먼트에 대한 Edge-to-Hub 전달은 일반적으로 15-30분 정도 소요됩니다
+
+**용어:**
+* 정식 이름: 대상 자격 이벤트 — 약어: 없음 — 변형: 세그먼트 자격, 대상 자격 활동
+* 동의어: &quot;Enter&quot; = &quot;Improved&quot; ; &quot;Exit&quot; = &quot;Exited&quot;
+* &quot;대상 자격&quot; ≠ &quot;대상 읽기&quot;(대상 자격은 실시간 멤버십 변경에 반응함, 대상 읽기는 예약된 시간에 모든 멤버를 처리)를 혼동하지 마십시오.
+
+**FAQ:**
+* **Q: 새로 게시된 대상 자격 여정은 언제 항목 처리를 시작합니까?** — 활동이 활성화되고 프로필 시작 및 종료에 대한 수신을 시작하는 데 게시 후 최대 10분이 소요됩니다.
+* **Q: 프로필이 내 대상 자격 여정을 입력하지 않는 이유는 무엇입니까?** — 일반적인 원인은 다음과 같습니다. 프로필이 게시 전에 대상에 이미 있었거나, 10분 활성화 기간이 경과되지 않았거나, 세그먼트 스트리밍에 대한 Edge-Hub 전파(15-30분)가 아직 완료되지 않았습니다.
+* **Q: 대상 자격 활동에서 일괄 대상을 사용할 수 있습니까?** — 예, 하지만 권장되지 않습니다. 배치 대상은 일일 시작 피크를 생성하며 실시간 사용 사례에 적합하지 않습니다. 배치 시나리오에 대신 대상 읽기 활동을 사용하십시오.
+* **Q: AudienceQualification 페이로드에서 사용할 수 있는 데이터는 무엇입니까?** — 페이로드에는 동작(시작 또는 종료), 자격 타임스탬프 및 대상 ID가 포함됩니다.
+* **Q: 대상 자격 활동의 작성 워크플로우에서 만든 대상을 사용할 수 있습니까?** — 아니요. 세그먼트 정의를 사용하여 생성된 대상만 이 활동에서 지원됩니다.
+
++++

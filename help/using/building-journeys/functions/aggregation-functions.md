@@ -10,10 +10,10 @@ version: Journey Orchestration
 exl-id: 871a5212-5b94-4a54-bf1d-276022be3c95
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 719
-ht-degree: 7%
+source-wordcount: 1105
+ht-degree: 5%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 7%
 
 +++
 
-+++예
++++예시
 
 `avg(@event{BarBeacon.inventory},5)`
 
@@ -497,7 +497,7 @@ null 값을 포함하여 다른 값의 수를 계산합니다.
 
 +++
 
-+++예
++++예시
 
 `sum(@event{BarBeacon.inventory},5)`
 
@@ -508,5 +508,45 @@ null 값을 포함하여 다른 값의 수를 계산합니다.
 `sum([10.5,null,8.1])`
 
 18.6을 반환합니다.
+
++++
+
++++ AI 기술 자료 참조
+
+이 단원에는 이 주제와 관련된 해석, 검색 및 질문 답변을 지원하기 위한 구조화된 지식이 포함되어 있습니다.
+
+이해를 돕기 위해 이 정보를 이 페이지의 설명서와 통합해야 합니다. 두 소스 모두 독립적으로 사용하기 위한 것은 아닙니다. 이 페이지에서는 기능에 대해 설명하지만, 용어, 의도, 적용 가능성 및 제약 조건을 명확히 하는 데 도움이 되는 추가 컨텍스트를 제공합니다.
+
+* **TL;DR:** 이 페이지에서는 목록 및 배열에 대한 평균, 합계, 최소/최대 값, 개수 및 고유 개수를 계산하는 방법에 대해 AJO 여정 표현식에서 사용할 수 있는 모든 집계 함수를 설명합니다.
+
+**의도:**
+* `avg`을(를) 사용하여 숫자 값 목록의 평균 계산
+* `sum`을(를) 사용하여 목록 또는 이벤트 필드의 숫자 값 합계
+* `min` 또는 `max`을(를) 사용하여 목록에서 최소값 또는 최대값 찾기
+* `count`, `countOnlyNull` 또는 `countWithNull`을(를) 사용하여 null이 아닌 요소, null 전용 요소 또는 목록의 모든 요소를 계산합니다.
+* `distinctCount` 또는 `distinctCountWithNull`을(를) 사용하여 null이 있거나 없는 목록의 고유 값 계산
+* 키 매개 변수와 함께 `distinctCount`을(를) 사용하여 listObject의 고유 개체를 특정 키 특성별로 필터링합니다.
+
+**용어집:**
+* **listObject**: 복합 개체(필드 참조) 목록입니다. null 개체 *(제품별)은 포함할 수 없습니다.*
+* **listAny**: 지원되는 스칼라 유형(문자열, 부울, 정수, 소수점, duration, dateTime, dateTimeOnly, dateOnly) *(제품별)*&#x200B;의 목록입니다
+* **Null 값**: 목록에 없거나 정의되지 않은 요소입니다. 함수가 명시적으로 Null을 처리하지 않는 한 대부분의 집계 함수는 Null을 무시합니다(예: `countOnlyNull`, `countWithNull`, `distinctCountWithNull`).
+
+**보호 기능:**
+* `countOnlyNull`, `countWithNull` 및 `distinctCountWithNull`은(는) `<listObject>` 매개 변수 형식을 지원하지 않습니다.
+* `listObject`의 `distinctCount`에는 인라인 리터럴이 아닌 필드 참조용 목록이 필요합니다.
+* `listObject`의 `count`에는 목록이 필드 참조여야 합니다. listObject에는 null 개체가 포함될 수 없습니다.
+
+**용어:**
+* 정식 이름: 집계 함수 — 약어: 없음 — 변형: 집계 함수, 컬렉션 함수
+* 동의어: &quot;count&quot; = &quot;count non-null elements&quot;; &quot;countWithNull&quot; = &quot;count all elements including null&quot;
+* 혼동하지 마십시오. &quot;distinctCount&quot;(null 무시) ≠ &quot;distinctCountWithNull&quot;(null을 고유한 값으로 포함)
+
+**FAQ:**
+* **Q: `avg`의 계산에 null 값이 포함됩니까?** — 아니요, `avg`은(는) null 값을 자동으로 무시합니다.
+* **Q: `count`과(와) `countWithNull`의 차이점은 무엇입니까?** — `count`은(는) 합계에서 null 값을 제외하는 반면 `countWithNull`은(는) null을 포함한 모든 요소를 계산합니다.
+* **Q: listObject에서 `countOnlyNull`을(를) 사용할 수 있습니까?** — 아니요, `<listObject>`은(는) `countOnlyNull`, `countWithNull` 또는 `distinctCountWithNull`에서 지원되지 않습니다.
+* **Q: 특정 특성을 기반으로 배열에서 개별 개체를 계산하려면 어떻게 해야 합니까?** — 키 특성 이름을 두 번째 매개 변수로 제공하는 `distinctCount(@event{...}, "attributeName")`을(를) 사용합니다.
+* **Q: 목록에 null이 포함되어 있으면 `max`에서 반환하는 것은 무엇입니까?** — `max`은(는) null 값을 무시하고 null이 아닌 요소 중 최대값을 반환합니다.
 
 +++

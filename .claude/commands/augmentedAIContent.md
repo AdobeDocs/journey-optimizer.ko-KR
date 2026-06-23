@@ -1,5 +1,5 @@
 ---
-source-git-commit: 80e67d5a60b6427ff87e106e37bf6794ac76a210
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 3%
@@ -28,7 +28,7 @@ Content here — any standard markdown is valid.
 - 한 줄에 `+++`만 있으면 아코디언이 닫힙니다.
 - `+++` 열기 전과 `+++` 닫기 후 빈 줄
 
-&#x200B;---
+---
 
 ## 워크플로
 
@@ -58,7 +58,7 @@ Content here — any standard markdown is valid.
 - 수정된 파일 ✓
 - 건너뛴 파일 + 이유(이미 아코디언/빈/인덱스 페이지가 있음)
 
-&#x200B;---
+---
 
 ## 컨텐츠 생성 규칙
 
@@ -135,7 +135,11 @@ Content here — any standard markdown is valid.
 ### 전체 템플릿
 
 ```markdown
-+++AI Assistant — Page context
++++ AI Knowledge Reference
+
+This section contains structured knowledge intended to support interpretation, retrieval, and question answering related to this topic.
+
+For complete understanding, this information should be combined with the documentation on this page. Neither source is intended to stand alone; the page describes the feature, while this section provides additional context that helps disambiguate terminology, intent, applicability, and constraints.
 
 - **TL;DR:** [one sentence]
 
@@ -159,7 +163,7 @@ Content here — any standard markdown is valid.
 +++
 ```
 
-&#x200B;---
+---
 
 ## 참고
 

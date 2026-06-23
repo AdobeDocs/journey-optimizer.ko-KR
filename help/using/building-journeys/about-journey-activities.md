@@ -11,32 +11,16 @@ keywords: 여정, 활동, 시작하기, 이벤트, 작업
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/8M5qgoXuziyVXMHPOwiM3xztCSNmglc2fBu-BaXn9mc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: e57d1da4-32c2-4cc6-945c-9feb219156ff
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: e57d1da4-32c2-4cc6-945c-9feb219156ffid: fa683eda-48de-4558-af32-2673edcd44feid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 757
-ht-degree: 14%
+source-wordcount: 1263
+ht-degree: 8%
 
 ---
 
@@ -149,6 +133,47 @@ ht-degree: 14%
 
 여정을 테스트하고 게시하기 전에 모든 활동이 올바르게 구성되었는지 확인하십시오. 시스템에서 오류가 계속 감지되면 테스트나 게시를 수행할 수 없습니다.
 
-[&#x200B; 여정의 활동 및 &#x200B;](troubleshooting.md) 오류를 해결하는 방법에 대해 알아봅니다.
+[ 여정의 활동 및 ](troubleshooting.md) 오류를 해결하는 방법에 대해 알아봅니다.
 
 [모니터링 및 문제 해결](../../rp_landing_pages/troubleshoot-journey-landing-page.md)도 참조하세요.
+
++++ AI 기술 자료 참조
+
+이 단원에는 이 주제와 관련된 해석, 검색 및 질문 답변을 지원하기 위한 구조화된 지식이 포함되어 있습니다.
+
+이해를 돕기 위해 이 정보를 이 페이지의 설명서와 통합해야 합니다. 두 소스 모두 독립적으로 사용하기 위한 것은 아닙니다. 이 페이지에서는 기능에 대해 설명하지만, 용어, 의도, 적용 가능성 및 제약 조건을 명확히 하는 데 도움이 되는 추가 컨텍스트를 제공합니다.
+
+* **TL;DR:** 이 페이지에서는 이벤트, 오케스트레이션 및 작업의 세 가지 여정 활동 범주를 소개하고 Adobe Journey Optimizer 여정의 레이블 지정, 매개 변수 관리 및 오류 처리에 대한 모범 사례를 설명합니다.
+
+**의도:**
+* 여정 내 이벤트, 오케스트레이션 및 작업 활동 식별 및 구분
+* 보다 쉽게 식별 및 보고할 수 있도록 여정 활동에 레이블 및 설명 추가
+* 여정 활동에서 시간 초과 또는 오류를 처리할 대체 경로 구성
+* 특정 여정 활동에서 고급 매개 변수 재정의
+* 여러 활동 유형을 결합하여 크로스채널 여정 시나리오 작성
+* 여정 게시 전 활동 구성 오류 문제 해결
+
+**용어집:**
+* **이벤트 활동**: 여정 *(제품별)을(를) 통해 프로필을 시작하거나 전달하는 들어오는 이벤트(예: 구매, 대상 자격)에 의해 트리거되는 여정 활동*
+* **오케스트레이션 활동**: 여정 *(제품별)의 흐름 및 분기 논리를 제어하는 여정 활동(예: 최적화, 대상 읽기, 대기)*
+* **작업 활동**: 트리거 *(제품별)의 결과로 통신을 전달하거나 외부 시스템을 호출하는 여정 활동*
+* **사용자 지정 작업**: 메시지 또는 데이터를 보내기 위해 Journey Optimizer을 서드파티 시스템에 연결하는 사용자 구성 작업 *(제품별)*
+* **대체 경로**: 활동에 대체 분기가 추가되어 시간 초과 또는 오류가 발생하는 경우에도 여정이 계속됩니다. *(제품별)*
+
+**보호 기능:**
+* 활동에서 구성 오류가 계속 감지되면 테스트 및 게시를 수행할 수 없습니다
+* 대부분의 활동에 대한 고급/기술 매개변수는 읽기 전용이며 매개변수 재정의 기능을 사용하지 않으면 수정할 수 없습니다
+
+**용어:**
+* 정식 이름: 여정 활동 — 약어: 없음 — 변형: 활동, 노드, 단계
+* 동의어: &quot;action activity&quot; = &quot;channel action&quot; = &quot;message action&quot;
+* 혼동하지 마십시오. &quot;오케스트레이션 활동&quot; ≠ &quot;작업 활동&quot;(오케스트레이션 제어 흐름, 작업 전달 커뮤니케이션)
+
+**FAQ:**
+* **Q: 이벤트, 오케스트레이션 및 작업 활동의 차이점은 무엇입니까?** — 이벤트 활동은 여정 입력 또는 진행을 트리거하고, 오케스트레이션 활동은 분기 및 흐름 논리를 제어하며, 작업 활동은 메시지를 전달하거나 외부 시스템을 호출합니다.
+* **Q: 여정 활동에 레이블을 추가하려면 어떻게 해야 합니까?** — 활동 속성 창을 열고 레이블 필드를 채웁니다. 레이블은 캔버스의 활동 노드 아래에 접미사로 표시됩니다.
+* **Q: 동작 또는 조건 활동에서 오류가 발생하면 어떻게 됩니까?** — 해당 활동에 대해 &quot;시간 초과 또는 오류 발생 시 대체 경로 추가&quot; 옵션을 선택하지 않으면 프로필의 여정이 중지됩니다.
+* **Q: Adobe Campaign을 사용하여 여정에서 메시지를 보낼 수 있습니까?** — 예. Journey Optimizer에서는 사용자 지정 작업 활동을 통해 메시지를 전송할 수 있도록 Adobe Campaign v7/v8, Campaign Standard 및 Marketo Engage과의 통합을 지원합니다.
+* **Q: 활동에서 읽기 전용 고급 매개 변수를 재정의하려면 어떻게 해야 합니까?** — 사용자 정의 값을 강제 적용하려면 매개 변수 필드 오른쪽에 있는 &quot;매개 변수 재정의 활성화&quot; 아이콘을 클릭합니다.
+
++++

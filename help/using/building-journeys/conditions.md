@@ -11,23 +11,16 @@ keywords: 활동, 조건, 캔버스, 여정
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/8gtrjnNNob-iRXdjSytSYOMyDswVxsrd8knipi4i1gI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1969
-ht-degree: 15%
+source-wordcount: 2629
+ht-degree: 11%
 
 ---
 
@@ -75,7 +68,7 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->[프로필 저장소](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko#profile-data-store){target="_blank"}에 두 개 이상의 교차 장치 ID가 포함된 프로필에 대해서는 조건 평가가 실패합니다.
+>[프로필 저장소](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}에 두 개 이상의 교차 장치 ID가 포함된 프로필에 대해서는 조건 평가가 실패합니다.
 
 ## 조건 경로 관리 {#condition_paths}
 
@@ -222,6 +215,52 @@ ht-degree: 15%
 
    >[!NOTE]
    >
-   >대상자 참여 상태가 **실현됨**&#x200B;인 개인만 대상자의 구성원으로 간주됩니다. 대상자를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ko#interpret-segment-results){target="_blank"}를 참조하세요.
+   >대상자 참여 상태가 **실현됨**&#x200B;인 개인만 대상자의 구성원으로 간주됩니다. 대상자를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}를 참조하세요.
 
 ➡️ **실제로 보기:** 시간 및 요일 조건을 사용하여 [평일에만 전자 메일을 보내는 방법](weekday-email-uc.md)을 알아보세요.
+
++++ AI 기술 자료 참조
+
+이 단원에는 이 주제와 관련된 해석, 검색 및 질문 답변을 지원하기 위한 구조화된 지식이 포함되어 있습니다.
+
+이해를 돕기 위해 이 정보를 이 페이지의 설명서와 통합해야 합니다. 두 소스 모두 독립적으로 사용하기 위한 것은 아닙니다. 이 페이지에서는 기능에 대해 설명하지만, 용어, 의도, 적용 가능성 및 제약 조건을 명확히 하는 데 도움이 되는 추가 컨텍스트를 제공합니다.
+
+* **TL;DR:** 이 페이지에서는 규칙, 시간 또는 대상 멤버십에 따라 프로필을 다른 여정 경로로 라우팅하는 5가지 조건 유형(데이터 Source, 시간, 비율 분할, 날짜 및 프로필 상한)을 포함하여 Journey Optimizer에서 최적화 활동 내에서 조건을 구성하는 방법에 대해 설명합니다.
+
+**의도:**
+* 최적화 활동을 사용하여 여정에 조건을 추가하고 조건 방법을 선택합니다
+* 여러 분기 경로를 만들고 여정 캔버스에서 우선 순위 순서를 관리합니다.
+* 표현식 편집기를 사용하여 Data Source 조건을 구성하여 프로필 또는 이벤트 속성을 평가합니다
+* 시간(일 기준) 또는 요일(일 기준)을 기준으로 프로필을 라우팅하도록 시간 조건 설정
+* 프로파일 캡(Profile Cap)을 적용하여 특정 경로를 따라 경로설정된 프로파일 수를 제한합니다
+* 여정 경로의 조건으로 대상 멤버십 확인 사용
+
+**용어집:**
+* **활동 최적화**: 이전 Condition 활동을 대체하는 현재 여정 활동입니다. 이제 모든 조건부 분기 로직이 메서드 드롭다운 *(제품별)*&#x200B;을(를) 통해 구성됩니다.
+* **데이터 원본 조건**: 식 편집기 *(제품별)*&#x200B;을(를) 사용하여 데이터 원본 또는 여정 이벤트의 필드를 평가하는 조건 메서드
+* **분할 비율**: 통계적 Java 임의 메커니즘 *(제품별)*&#x200B;을(를) 사용하여 경로를 통해 프로필을 임의로 배포하는 조건 메서드입니다.
+* **프로필 상한**: 명목상 경로 *(제품별)에서 정의된 최대 수에 도달하면 프로필을 대체 경로로 라우팅하는 조건 메서드입니다.*
+* **명목상 경로**: 프로필 상한 조건과 연결된 기본 여정 경로입니다. 항상 대체 경로 *(제품별)보다 우선합니다.*
+
+**보호 기능:**
+* 프로필 스토어에서 두 개 이상의 교차 장치 ID가 있는 프로필에 대한 조건 평가가 실패합니다
+* 수집된 데이터가 없는 스키마 필드는 null로 해석됩니다. isEmpty() 및 isNull()은 이러한 필드에 대해 true로 평가됩니다.
+* 시간대는 개별 조건 수준이 아닌 여정 수준에서 정의됩니다
+* 비율 분할 조건에서는 &quot;다른 사례에 대한 경로 표시&quot; 옵션을 사용할 수 없습니다.
+* 프로필 상한 기본값은 1,000입니다. 여정 복제 또는 새 버전 생성 시 카운터가 재설정되지만 재귀 간에는 재설정되지 않습니다.
+* 10,000 이상의 캡의 경우, 캡을 1.3배 이상 주사하고, 10,000 이하의 캡의 경우, 캡을 1,000 이상 주사합니다
+* 프로필 상한은 테스트 모드에서 적용되지 않습니다. 테스트 모드에서는 항상 상단 분기가 비율 분할에 대해 선택됩니다
+
+**용어:**
+* 정식 이름: 조건 — 약어: 없음 — 변형: 조건 활동, 조건 방법, 조건부 분기
+* 동의어: &quot;활동 최적화(조건 방법)&quot; = &quot;이전 조건 활동&quot;
+* 혼동하지 마십시오. &quot;백분율 분할&quot; ≠ &quot;프로필 상한&quot;(백분율 분할은 모든 프로필을 통계적으로 분산시키고, 프로필 상한은 카운트 임계값 후 명목 경로로 라우팅을 중단함)
+
+**FAQ:**
+* **Q: 조건 활동이 내 UI에서 사라졌습니다. 대체 요소가 무엇입니까?** — Condition 활동이 Optimize 활동으로 대체되었습니다. 메서드 드롭다운에서 &quot;Condition&quot;을 선택하여 동일한 비헤이비어를 가져옵니다. 조건 활동이 있는 기존 여정은 계속 작동하며 이제 최적화 아이콘으로 표시됩니다.
+* **Q: 프로필에 대해 여러 경로를 사용할 수 있는 경우 어떤 경로를 사용합니까?** — 첫 번째 적합한 경로(캔버스에서 가장 높음)만 실행됩니다. 경로를 세로로 재정렬하여 우선 순위를 변경할 수 있습니다.
+* **Q: my isEmpty() 조건이 예기치 않게 true로 평가되는 이유는 무엇입니까?** — 스키마 필드가 존재하지만 해당 필드에 대한 데이터가 수집되지 않은 경우 Journey Optimizer은 이 필드를 null로 해석하여 isEmpty() 및 isNull()이 true를 반환합니다.
+* **Q: 프로필 상한 카운터가 반복 여정에서 재설정됩니까?** — 아니요. 카운터는 재귀 간에 재설정되지 않습니다. 여정이 복제되거나 새 버전이 만들어질 때만 재설정됩니다.
+* **Q: Adobe Experience Platform 대상을 조건으로 사용할 수 있습니까?** — 예, 최적화 활동을 삭제하고, &quot;데이터 소스 조건&quot;을 선택하고, 경로를 추가하고, 표현식 편집기의 대상 노드에서 대상을 드래그합니다.
+
++++

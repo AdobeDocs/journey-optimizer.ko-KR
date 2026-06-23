@@ -10,30 +10,16 @@ hide: true
 keywords: 여정, 오케스트레이션, 시작, 온보딩, 기능
 exl-id: 96b1d619-986d-493d-a73b-d7c63b92cca8
 TQID: https://experienceleague.adobe.com/Ht6fS6uanOs-rXoT4bAnK6eGvm9kOmH-N5B-y8KU6Rc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1009
-ht-degree: 46%
+source-wordcount: 1602
+ht-degree: 29%
 
 ---
 
@@ -65,7 +51,7 @@ Journey Optimizer 여정 디자이너는 마케터와 여정 실무자가 전체
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **실시간 및 일괄 게재**
 
@@ -75,7 +61,7 @@ Journey Optimizer 여정 디자이너는 마케터와 여정 실무자가 전체
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **컨텍스트 데이터**
 
@@ -85,7 +71,7 @@ Journey Optimizer 여정 디자이너는 마케터와 여정 실무자가 전체
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **기본 제공 작업**
 
@@ -95,7 +81,7 @@ Journey Optimizer 여정 디자이너는 마케터와 여정 실무자가 전체
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **사용자 지정 작업**
 
@@ -105,7 +91,7 @@ Journey Optimizer 여정 디자이너는 마케터와 여정 실무자가 전체
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **시각적 여정 디자이너**
 
@@ -115,7 +101,7 @@ Journey Optimizer 여정 디자이너는 마케터와 여정 실무자가 전체
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **재사용 가능한 여정 조각**
 
@@ -125,7 +111,7 @@ Journey Optimizer 여정 디자이너는 마케터와 여정 실무자가 전체
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **테스트 및 최적화**
 
@@ -146,7 +132,7 @@ Journey Optimizer 여정 디자이너는 마케터와 여정 실무자가 전체
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **사용 사례를 통해 알아보기**
 
@@ -156,7 +142,7 @@ Journey Optimizer 여정 디자이너는 마케터와 여정 실무자가 전체
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **신규 구독자 환영**
 
@@ -166,7 +152,7 @@ Journey Optimizer 여정 디자이너는 마케터와 여정 실무자가 전체
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **전자 메일 전송 시간 최적화**
 
@@ -176,7 +162,7 @@ AI 기반의 전송 시간 최적화를 사용하여 각 고객이 참여할 가
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **점진적 게재 늘리기**
 
@@ -186,7 +172,7 @@ AI 기반의 전송 시간 최적화를 사용하여 각 고객이 참여할 가
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **요일별 타기팅**
 
@@ -196,7 +182,7 @@ AI 기반의 전송 시간 최적화를 사용하여 각 고객이 참여할 가
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
 
 **여정 FAQ**
 
@@ -214,7 +200,7 @@ AI 기반의 전송 시간 최적화를 사용하여 각 고객이 참여할 가
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 **여정 만들기 및 관리**
 
@@ -224,7 +210,7 @@ AI 기반의 전송 시간 최적화를 사용하여 각 고객이 참여할 가
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **여정 활동**
 
@@ -234,7 +220,7 @@ AI 기반의 전송 시간 최적화를 사용하여 각 고객이 참여할 가
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **표현식 및 조건**
 
@@ -244,7 +230,7 @@ AI 기반의 전송 시간 최적화를 사용하여 각 고객이 참여할 가
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 **문제 해결 및 모니터링**
 
@@ -254,7 +240,7 @@ AI 기반의 전송 시간 최적화를 사용하여 각 고객이 참여할 가
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **여정 디자이너 개요**
 
@@ -264,7 +250,7 @@ AI 기반의 전송 시간 최적화를 사용하여 각 고객이 참여할 가
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **테스트 및 게시**
 
@@ -279,7 +265,7 @@ AI 기반의 전송 시간 최적화를 사용하여 각 고객이 참여할 가
 
 여정의 구성 요소를 살펴보고 캔버스에서 여정을 작성할 때의 기본을 이해합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430355?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ### 추가 리소스
 
@@ -288,3 +274,45 @@ AI 기반의 전송 시간 최적화를 사용하여 각 고객이 참여할 가
 * **[문제 해결](troubleshooting.md)** - 일반적인 여정 문제 및 해결 방법
 * **[여정 자습서](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}** - 실습형 비디오 자습서를 통해 여정 빌드에 대해 알아봅니다.
 * **[보호 기능 및 제한 사항 여정](../start/guardrails.md)** - [!DNL Adobe Journey Optimizer] 사용 시 보호 기능 및 제한 사항 확인
+
++++ AI 기술 자료 참조
+
+이 단원에는 이 주제와 관련된 해석, 검색 및 질문 답변을 지원하기 위한 구조화된 지식이 포함되어 있습니다.
+
+이해를 돕기 위해 이 정보를 이 페이지의 설명서와 통합해야 합니다. 두 소스 모두 독립적으로 사용하기 위한 것은 아닙니다. 이 페이지에서는 기능에 대해 설명하지만, 용어, 의도, 적용 가능성 및 제약 조건을 명확히 하는 데 도움이 되는 추가 컨텍스트를 제공합니다.
+
+* **TL;DR:** 주요 기능(실시간 및 일괄 게재, 컨텍스트 데이터, 기본 제공 및 사용자 지정 작업, 시각적 디자이너, 여정 조각 및 테스트), 일반적인 사용 사례, 모든 주요 학습 리소스에 대한 링크를 다루는 Adobe Journey Optimizer의 여정 오케스트레이션을 위한 포괄적인 시작 안내서입니다.
+
+**의도:**
+* 첫 번째 여정을 작성하기 전에 Journey Optimizer 여정 디자이너에서 사용할 수 있는 주요 기능을 이해합니다
+* 여정 만들기, 관리, 테스트 또는 문제 해결을 위한 올바른 리소스로 이동합니다
+* 여정 디자이너를 사용하여 모든 채널에서 1:1개의 실시간 메시지를 트리거하는 방법에 대해 알아봅니다
+* 여정 조각을 통해 여정 간 공통 노드 논리를 재사용하는 방법 살펴보기
+* 시작 시리즈, 장바구니 포기 및 전송 시간 최적화와 같은 일반적인 여정 사용 사례에 대한 비디오 튜토리얼 및 단계별 안내서에 액세스합니다
+
+**용어집:**
+* **여정 디자이너**: 여러 단계로 구성된 고객 여정 *(제품별)을(를) 빌드하고 오케스트레이션하는 데 사용되는 Adobe Journey Optimizer의 드래그 앤 드롭 시각적 캔버스*
+* **여정 조각**: 재사용 가능한 여정 노드 집합(예: 자격 확인, 채널 라우팅 논리)이 한 번 만들어지고 여러 여정 *(제품별)에 삽입됩니다*
+* **단일 게재**: 특정 이벤트가 발생할 때 단일 프로필에 대해 트리거되는 실시간 메시지 *(제품별)*
+* **일괄 게재**: 한 번에 또는 일정에 따라 Adobe Experience Platform 대상의 모든 프로필에 전송된 메시지 *(제품별)*
+* **STO(전송 시간 최적화)**: 참여를 최대화하기 위해 각 개별 프로필에 메시지를 보내는 최적의 시간을 예측하는 AI 기반 기능입니다. *(제품별)*
+* **사용자 지정 작업**: API를 통해 서드파티 시스템에 연결하여 메시지를 보내거나 데이터를 검색하는 여정 활동 *(제품별)*
+
+**보호 기능:**
+* 여정 보호 및 제한 사항은 보호 페이지에 별도로 자세히 설명되어 있으며 규모에 맞게 디자인하기 전에 검토해야 합니다
+* 사용자 지정 작업을 여정에서 사용하려면 먼저 기술 사용자가 사전 구성해야 합니다
+* 여정 조각을 여정에 삽입하려면 먼저 활성화 상태여야 합니다.
+
+**용어:**
+* 정식 이름: 여정 — 약어: 없음 — 변형: 고객 여정, 오케스트레이션 흐름, 다단계 여정
+* 동의어: &quot;여정 디자이너&quot; = &quot;여정 캔버스&quot; = &quot;여정 빌더&quot;
+* 혼동하지 마십시오. &quot;기본 제공 채널 작업&quot; ≠ &quot;사용자 지정 작업&quot; - 기본 제공 작업은 기본 AJO 채널을 사용하고, 사용자 지정 작업은 외부 타사 API를 호출합니다.
+
+**FAQ:**
+* **Q: 여정에서 실시간(단일) 게재와 일괄 게재 간의 차이점은 무엇입니까?** — 단일 게재는 이벤트가 발생할 때 한 번에 하나의 프로필에 대한 메시지를 실시간으로 트리거합니다. 일괄 게재는 대상자 읽기 활동을 사용하여 한 번에 또는 일정에 따라 대상자의 모든 프로필을 처리합니다.
+* **Q: 여러 여정에서 일반 논리(예: 자격 확인)를 다시 사용할 수 있습니까?** — 예. 노드를 여정 조각으로 저장하고 활성 조각을 샌드박스의 여정에 삽입합니다.
+* **Q: 첫 번째 여정을 만들려면 어디로 이동합니까?** — 진입점 선택, 캔버스 디자인, 테스트 및 게시를 안내하는 &quot;첫 번째 여정 만들기&quot; 페이지의 단계별 안내서를 따릅니다.
+* **Q: 여정에서 서드파티 시스템을 통해 메시지를 보내려면 어떻게 해야 합니까?** — 사용자 지정 작업을 구성하여 외부 API를 호출한 다음 여정 캔버스에서 작업 활동으로 추가합니다.
+* **Q: 일반적인 여정 질문에 대한 답변은 어디에서 찾을 수 있습니까?** — 개념, 구축, 테스트, 실행, 모니터링 및 모범 사례에 대한 답변을 보려면 여정 FAQ 페이지를 참조하십시오.
+
++++

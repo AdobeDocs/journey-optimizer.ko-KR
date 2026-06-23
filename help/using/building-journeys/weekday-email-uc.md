@@ -11,26 +11,15 @@ keywords: 여정, 사용 사례, 평일, 조건, 이메일, 예약
 version: Journey Orchestration
 exl-id: 2f313e59-ee50-473c-9346-8859889346ec
 TQID: https://experienceleague.adobe.com/qUt7t5LTYSQW278Pafx2-1t-DboRz9tU5IRpVhuEqLc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1109
+source-wordcount: 1622
 ht-degree: 1%
 
 ---
@@ -79,7 +68,7 @@ ht-degree: 1%
 
 여정 시작 직후 **[!UICONTROL 조건]** 활동을 추가하여 현재 날짜가 토요일이나 일요일인지 확인하십시오. 이에 따라 워크플로우가 분기됩니다.
 
-1. 진입점 뒤에 [**[!UICONTROL Optimize &#x200B;]**&#x200B;활동](optimize.md)을(를) 캔버스로 끌어서 놓습니다.
+1. 진입점 뒤에 [**[!UICONTROL Optimize ]**활동](optimize.md)을(를) 캔버스로 끌어서 놓습니다.
 
 1. **[!UICONTROL 조건]** 활동을 클릭하여 구성 패널을 엽니다.
 
@@ -215,3 +204,49 @@ toDateTimeOnly(setHours(nowWithDelta(1, "days"), 9))
 * [날짜 함수](functions/date-functions.md) - 날짜 및 시간 함수에 대한 전체 참조
 * [식 편집기](expression/expressionadvanced.md) - 복잡한 식을 빌드합니다.
 * [여정 모범 사례](journey-gs.md#best-practices) - 여정 디자인에 대한 권장 접근 방식
+
++++ AI 기술 자료 참조
+
+이 단원에는 이 주제와 관련된 해석, 검색 및 질문 답변을 지원하기 위한 구조화된 지식이 포함되어 있습니다.
+
+이해를 돕기 위해 이 정보를 이 페이지의 설명서와 통합해야 합니다. 두 소스 모두 독립적으로 사용하기 위한 것은 아닙니다. 이 페이지에서는 기능에 대해 설명하지만, 용어, 의도, 적용 가능성 및 제약 조건을 명확히 하는 데 도움이 되는 추가 컨텍스트를 제공합니다.
+
+* **TL;DR:** 이 페이지에서는 요일 조건 및 사용자 지정 대기 공식을 사용하여 평일에만 이메일을 보내는 여정을 구성하여 주말 항목을 월요일까지 지연시키는 단계별 사용 사례를 제공합니다.
+
+**의도:**
+
+* 요일(토요일, 일요일 또는 평일)을 기반으로 여정을 분기하도록 조건 활동을 구성합니다.
+* `toDateTimeOnly(setHours(nowWithDelta(X, "days"), H))`을(를) 사용하여 주말 프로필을 월요일까지 지연하는 사용자 지정 대기 표현식 작성
+* 모든 경로를 단일 이메일 작업으로 병합하는 3경로 여정을 작성합니다
+* 시뮬레이션된 시작 일수가 다른 테스트 프로필을 사용하여 평일 전용 이메일 논리 테스트
+* 주말 이메일 게재를 억제하는 여정 게시 및 모니터링
+
+**용어집:**
+
+* **시간 조건**: 요일 *(제품별)과 같은 날짜/시간 기준을 기반으로 여정 경로를 분기하는 Journey Optimizer의 조건 활동 유형*
+* **nowWithDelta**: 현재 날짜/시간 오프셋을 지정된 일 수 또는 기타 단위 *(제품별)*&#x200B;만큼 반환하는 식 함수입니다.
+* **setHours**: 지정된 날짜/시간 값 *(제품별)*&#x200B;에서 특정 시간을 설정하는 식 함수입니다.
+* **toDateTimeOnly**: 사용자 지정 대기 활동 *(제품별)에 필요한 `dateTimeOnly` 형식으로 값을 변환하는 식 함수*
+
+**보호 기능:**
+
+* 요일 평가에 사용되는 시간대는 개별 수신자의 시간대가 아니라 여정이 구성한 시간대(여정 속성에 설정됨)입니다.
+* 이 사용 사례를 구현하려면 활성 이메일 채널 표면과 여정을 트리거할 대상 또는 이벤트가 필요합니다.
+* 여정 조건과 고급 표현식 편집기에 대한 기본 이해는 필수 사항입니다.
+* 게시 전에 항상 테스트 모드에서 여정을 테스트하여 대기 공식이 올바른 월요일 배달 시간을 생성하는지 확인하십시오.
+
+**용어:**
+
+* 정식 이름: 요일 이메일 예약 — 약어: 없음 — 변형: 평일 전용 이메일, 업무 시간 이메일 게재
+* 동의어: &quot;토요일 경로&quot; / &quot;일요일 경로&quot; = &quot;주말 경로&quot;; &quot;기타 사례 경로&quot; = &quot;평일 경로&quot;
+* 혼동하지 않음: 여정 시간대(요일 평가에 사용됨)≠ 수신자의 로컬 시간대
+
+**FAQ:**
+
+* **Q: 토요일 오전 9시까지 항목 등록을 지연하는 수식은 무엇입니까?** — 토요일 경로(월요일 2일 전)에서 `toDateTimeOnly(setHours(nowWithDelta(2, "days"), 9))`을(를) 사용합니다.
+* **Q: 일요일 항목이 월요일 오전 9시까지 지연되는 수식은 무엇입니까?** — 일요일 경로(1일 앞으로 월요일)에서 `toDateTimeOnly(setHours(nowWithDelta(1, "days"), 9))`을(를) 사용합니다.
+* **Q: 요일 조건을 평가할 때 사용할 시간대는 무엇입니까?** — 여정 속성에 정의된 여정의 구성된 시간대로, 수신자의 로컬 시간대가 아닙니다.
+* **Q: 평일 항목에 대기 활동이 필요합니까?** — 아니요. 월요일부터 금요일까지 입력한 프로필은 기다리지 않고 이메일 작업 활동으로 바로 진행됩니다.
+* **Q: 주말 항목이 올바르게 큐에 있는지 테스트하려면 어떻게 합니까?** — 테스트 모드에서 시뮬레이션된 토요일 및 일요일 입력 시간을 사용하여 테스트 프로필을 만들고 올바른 조건부 경로를 따르는지 확인하고 구성된 시간에 월요일에 이메일을 수신합니다.
+
++++
