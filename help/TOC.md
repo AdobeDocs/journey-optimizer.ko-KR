@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 49146a29a474a240ca1fdb10b2a6ef175f44f595
+source-git-commit: 6e64af1e2b278a8c21af39a9d2f0d66ad2e257ea
 workflow-type: tm+mt
-source-wordcount: '3365'
+source-wordcount: '3366'
 ht-degree: 98%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 98%
 + 여정 {#orchestrate-journeys}
    + [여정 시작](using/building-journeys/journey.md)
    + {hide-from-toc}[여정 시작 안내서](using/building-journeys/journey-get-started.md)
-   + {hide-from-toc}[여정 유형 및 선택 안내서](using/building-journeys/journey-types-selection.md)
+   + {hide-from-toc}[여정 유형: 올바른 유형 선택](using/building-journeys/journey-types-selection.md)
    + [Journey Orchestration FAQ](using/building-journeys/journey-faq.md)
    + 여정 만들기 {#create-journey}
       + [여정 만들기](/help/rp_landing_pages/create-journey-landing-page.md)
@@ -728,7 +728,7 @@ ht-degree: 98%
          + [결정 정책 만들기](using/experience-decisioning/create-decision-policy.md)
          + [메시지에 결정 정책 사용](using/experience-decisioning/use-decision-policy.md)
          + [의사 결정 정책에 조각 활용](using/experience-decisioning/fragments-decision-policies.md)
-         + [DM에서 일괄 처리 결정](using/experience-decisioning/batch-decisioning-direct-mail.md)
+         + DM에서 [일괄 처리 결정](using/experience-decisioning/batch-decisioning-direct-mail.md)
       + [결정 보고서](using/experience-decisioning/cja-reporting.md)
       + [결정 사용 사례](using/experience-decisioning/experience-decisioning-uc.md)
       + 이벤트 데이터 수집 {#experience-decisioning-collect-event-data}
