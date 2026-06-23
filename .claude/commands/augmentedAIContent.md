@@ -28,7 +28,7 @@ Content here — any standard markdown is valid.
 - 한 줄에 `+++`만 있으면 아코디언이 닫힙니다.
 - `+++` 열기 전과 `+++` 닫기 후 빈 줄
 
----
+&#x200B;---
 
 ## 워크플로
 
@@ -58,7 +58,7 @@ Content here — any standard markdown is valid.
 - 수정된 파일 ✓
 - 건너뛴 파일 + 이유(이미 아코디언/빈/인덱스 페이지가 있음)
 
----
+&#x200B;---
 
 ## 컨텐츠 생성 규칙
 
@@ -163,7 +163,7 @@ For complete understanding, this information should be combined with the documen
 +++
 ```
 
----
+&#x200B;---
 
 ## 참고
 
