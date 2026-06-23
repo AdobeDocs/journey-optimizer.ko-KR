@@ -11,9 +11,9 @@ keywords: 테스트, 여정, 확인, 오류, 문제 해결
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 2859
+source-wordcount: 2888
 ht-degree: 0%
 
 ---
@@ -288,6 +288,7 @@ ht-degree: 0%
 * AI 기능(빠른 시뮬레이션, AI로 생성, 이벤트 값 생성)에는 AI Assistant 기능의 콘텐츠 생성 권한이 필요합니다
 * 이벤트가 트리거된 여정의 경우 사용자당 전송 아이콘을 사용할 수 없습니다. 테스트 이벤트 섹션을 통해 항목이 트리거됩니다
 * 대기 기간 재정의 및 실행 주소 설정은 여정에 대기 또는 채널 활동이 포함된 경우에만 표시됩니다
+* 채널 증명 및 사용자 지정 작업 또는 외부 데이터 소스는 시뮬레이션 중에 실제 아웃바운드 호출을 실행할 수 있습니다. 비프로덕션 연락처를 사용하고 시뮬레이션된 사용자의 실제 고객 PII를 피하십시오
 * 결과 로그의 오류는 시뮬레이션을 종료하고, 여정을 수정하고, 게시 전에 다시 실행해야 합니다
 
 **용어:**

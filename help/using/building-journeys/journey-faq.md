@@ -37,9 +37,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 6198
+source-wordcount: 6208
 ht-degree: 0%
 
 ---
@@ -1044,7 +1044,7 @@ Journey Optimizer은 기본적으로 [!DNL Adobe Campaign]과(와) 통합되어 
 * 정식 이름: 여정 — 약어: 없음 — 변형: 고객 여정, 오케스트레이션, 플로우
 * 동의어: &quot;새 진입에 닫기&quot; = &quot;정상 중지&quot;; &quot;중지&quot; = &quot;즉시 중지&quot;
 * 혼동하지 마십시오. &quot;여정&quot; ≠ &quot;캠페인&quot; — 여정은 여러 단계로 구성된 이벤트 트리거 오케스트레이션을 지원합니다. 캠페인은 일회성 또는 예약된 대상 기반 전송입니다.
-* 혼동하지 마십시오: &quot;테스트 모드&quot; ≠ &quot;시험 실행&quot; — 테스트 모드는 합성 테스트 프로필을 사용하고 시험 실행은 고객과 연락하지 않고 실제 생산 데이터를 사용합니다.
+* 혼동하지 마십시오: &quot;시뮬레이션&quot; ≠ &quot;테스트 모드&quot; ≠ &quot;시험 실행&quot; — 시뮬레이션은 임시 시뮬레이션 사용자를 사용합니다. 테스트 모드는 영구 AEP 테스트 프로필을 사용합니다. 시험 실행은 고객과 연락하거나 프로필을 업데이트하지 않고 실제 생산 데이터를 사용합니다.
 
 **FAQ:**
 * **Q: 여정의 최대 활동 수는 얼마입니까?** — 50개의 활동. 여정을 보다 간단하게 유지하면 유지 관리 및 성능이 향상됩니다.
