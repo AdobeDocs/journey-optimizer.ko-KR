@@ -27,9 +27,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: c6b450a19ca8af714da18e44c4b772756a9dc42b
+source-git-commit: 151b396b7945535cb4219f782dfb6a79e44463d4
 workflow-type: tm+mt
-source-wordcount: 2055
+source-wordcount: 2080
 ht-degree: 2%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 2%
 
 **완벽한 대상:** 구매 후 확인 주문, 다른 사람이 구독할 때 환영 이메일, 암호 재설정 알림 및 로그인 후 개인화.
 
-➡️ [이벤트에 대해 알아보기](../event/about-events.md) | [구독자에게 보내는 메시지 사용 사례](message-to-subscribers-uc.md)
+➡️ [이벤트에 대해 알아보기](../event/about-events.md) | [구독자에게 보내는 메시지 사용 사례](message-to-subscribers-uc.md) | [단일 이벤트 여정 빌드](#build-unitary-event)
 
 >[!TAB 대상 여정 읽기]
 
@@ -70,7 +70,7 @@ ht-degree: 2%
 
 **완벽한 대상:** 월간 뉴스레터, 대상 세그먼트에 대한 프로모션 캠페인, 제품 공지, 반복 재참여 시리즈 및 시즌 마케팅 캠페인
 
-➡️ [대상자 읽기에 대해 알아보기](read-audience.md) | [대상자 시작](../audience/about-audiences.md)
+➡️ [대상자 읽기에 대해 알아보기](read-audience.md) | [대상자 시작](../audience/about-audiences.md) | [대상자 읽기 여정 작성](#build-read-audience)
 
 >[!TAB 대상 자격 여정]
 
@@ -80,7 +80,7 @@ ht-degree: 2%
 
 **완벽한 대상:** VIP 계층 업그레이드 알림, 첫 번째 구매 축하 메시지, 이탈 위험 알림 및 충성도 라이프사이클 단계 전환.
 
-➡️ [대상 자격에 대해 알아보기](audience-qualification-events.md) | [대상 만들기](../audience/creating-a-segment-definition.md)
+➡️ [대상 자격에 대해 알아보기](audience-qualification-events.md) | [대상 만들기](../audience/creating-a-segment-definition.md) | [대상 자격 여정 구축](#build-audience-qualification)
 
 >[!TAB 비즈니스 이벤트 여정]
 
@@ -90,7 +90,7 @@ ht-degree: 2%
 
 **완벽한 대상:** 관심 있는 고객에 대한 재고 부족 알림, 빠른 판매 알림, 가격 하락 알림 및 재고 부족 알림.
 
-➡️ [비즈니스 이벤트에 대해 알아보기](../event/about-creating-business.md) | [항목 관리](entry-management.md)
+➡️ [비즈니스 이벤트에 대해 알아보기](../event/about-creating-business.md) | [항목 관리](entry-management.md) | [비즈니스 이벤트 여정 빌드](#build-business-event)
 
 >[!ENDTABS]
 
@@ -174,7 +174,9 @@ ht-degree: 2%
 
 ## 다음 단계 {#next-steps}
 
-이제 여정 유형을 이해했으므로 다음을 수행할 준비가 되었습니다.
+각 표에는 해당 여정 유형에 대한 구성-관리 단계가 나와 있습니다.
+
+### 단일 이벤트 여정 {#build-unitary-event}
 
 * **[첫 번째 여정 만들기](journey-gs.md)** - 단계별 안내서
 * **[여정 디자이너에 대해 알아보기](using-the-journey-designer.md)** - 여정 캔버스 디자인
