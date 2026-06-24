@@ -28,9 +28,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: d7d7519e6f046802653ed470d00851f17a315bc6
 workflow-type: tm+mt
-source-wordcount: 1776
+source-wordcount: 1798
 ht-degree: 3%
 
 ---
@@ -246,11 +246,15 @@ ht-degree: 3%
 
 1. **[!UICONTROL Adobe 테마]**&#x200B;와(과) **[!UICONTROL 내 테마]** 탭 사이를 탐색하고 조각에 대해 호환되는 테마를 최대 5개(두 탭 모두에서) 선택할 수 있습니다.
 
+   >[!NOTE]
+   >
+   >이 제한은 호환성 및 성능을 위해 적용됩니다. **[!UICONTROL Adobe 기본 테마]**&#x200B;를 제거할 수 없으므로 최대 4개의 추가 사용자 지정 테마를 선택할 수 있습니다.
+
    ![](assets/fragment-select-compatible-themes.png){width=70%}
 
    >[!CAUTION]
    >
-   >이메일 콘텐츠에서 조각을 사용할 때는 이 조각에 대해 정의한 [테마를 적용](#apply-themes-email)해야 합니다. 그렇지 않으면 특히 Outlook 2021 및 이전 버전에서 표시 문제가 발생할 수 있습니다.
+   >이메일 콘텐츠에서 이 조각을 사용할 때 이메일 테마는 조각과 연결된 테마 중 하나여야 합니다. 테마가 일치하지 않으면 조각 삽입이 차단됩니다.
 
 1. Click **[!UICONTROL Close]**.
 
