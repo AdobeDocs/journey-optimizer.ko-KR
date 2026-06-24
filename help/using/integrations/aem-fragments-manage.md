@@ -6,14 +6,20 @@ description: AEM 콘텐츠 조각 관리 방법 알아보기
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: d1a9bae1f9f981ed23261ad1fe38c9a61519543c
+source-git-commit: ce34eb885d85c6c0f81b477e155cb81547d53e03
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
 
 # Adobe Experience Manager 컨텐츠 조각 관리 {#aem-fragments}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 상태 및 메타데이터를 모니터링하기 위해 콘텐츠 관리 조각 목록에서 AEM 콘텐츠 조각을 관리합니다. 조각이 여정 및 캠페인에서 사용되는 위치를 확인하고, Experience Manager에서 게시된 업데이트를 동기화하며, Journey Optimizer에서 나가지 않고 편집할 조각을 엽니다.
+
+>[!ENDSHADEBOX]
 
 Adobe Experience Manager as a Cloud Service 또는 Managed Services을 Adobe Journey Optimizer과 통합하면 콘텐츠에서 AEM 콘텐츠 조각을 사용할 수 있으며 Journey Optimizer에서 나가지 않고 조각 상태를 확인할 수 있습니다.
 

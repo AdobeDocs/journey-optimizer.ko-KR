@@ -12,9 +12,9 @@ feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2:
   - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: 001f14c03b0142402a485b049dfb62c9837c7928
+source-git-commit: 20630efe560616836d325e0223a2ecf44d2b82bc
 workflow-type: tm+mt
-source-wordcount: 512
+source-wordcount: 550
 ht-degree: 0%
 
 ---
@@ -38,6 +38,8 @@ Adobe Journey Optimizer은 **[!DNL Adobe Experience Manager as a Cloud Service]*
 > **[!UICONTROL AEM 통합]**&#x200B;은(는) 저장소 설정을 **샌드박스당**&#x200B;에 저장합니다. 각 샌드박스는 자체 통합을 유지하며 샌드박스 간에 적용되지 않습니다.
 
 Journey Optimizer은 조직, 샌드박스 및 Adobe Experience Manager 저장소당 하나의 통합을 저장합니다. 동일한 조합에 대해 새 통합을 저장하면 이전 설정이 대체되며 최신 구성만 유지됩니다.
+
+➡️ [비디오에서 Adobe Experience Manager Managed Service에 대한 이 기능 살펴보기](#video)
 
 저장소를 구성하려면 다음 작업을 수행하십시오.
 
@@ -109,3 +111,8 @@ Journey Optimizer은 조직, 샌드박스 및 Adobe Experience Manager 저장소
 
 이 구성을 저장하면 Journey Optimizer이 현재 샌드박스의 해당 저장소에 대해 저장합니다. 그런 다음 **콘텐츠 관리자** 선택기에서 콘텐츠를 탐색하고 선택할 때 해당 리포지토리와 해당 설정을 사용할 수 있습니다.
 
+## 사용 방법 비디오 {#video}
+
+마케터가 여정 및 캠페인에서 컨텐츠 조각을 사용할 수 있도록 관리자가 Journey Optimizer에서 Adobe Experience Manager Managed Services 저장소 설정을 구성하는 방법에 대해 알아봅니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3492534?captions=kor&quality=12)
