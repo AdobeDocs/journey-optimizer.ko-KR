@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f10f2b6cbad242efca31c84ce8adf5a615f57c1e
+source-git-commit: bf856b9a44177a4ac766f82455ec67deba08da41
 workflow-type: tm+mt
 source-wordcount: 927
 ht-degree: 2%
@@ -106,6 +106,8 @@ ht-degree: 2%
 
 **[!UICONTROL 추적된 레이블]** 표는 SMS 메시지 내의 링크 레이블에 대한 포괄적인 개요를 제공하며, 가장 높은 방문자 트래픽을 생성하는 레이블을 강조 표시합니다. 이 기능을 사용하면 가장 인기 있는 링크를 식별하고 우선 순위를 지정할 수 있습니다.
 
+![](assets/journey_sms_tracked_labels.png)
+
 +++ 추적된 링크 레이블 지표에 대해 자세히 알아보기
 
 * **[!UICONTROL 클릭 수]**: SMS 메시지에서 콘텐츠를 클릭한 횟수입니다.
@@ -119,6 +121,8 @@ ht-degree: 2%
 ## 추적된 링크 URL {#track-link-url-sms}
 
 **[!UICONTROL 추적된 링크 URL]** 테이블은 SMS 메시지 내의 URL에서 가장 높은 방문자 트래픽을 유도하는 포괄적인 개요를 제공합니다. 이를 통해 가장 인기 있는 링크를 식별하고 우선 순위를 지정할 수 있으므로 SMS 메시지의 특정 콘텐츠와 함께 프로필 참여를 보다 잘 이해할 수 있습니다.
+
+![](assets/journey_sms_tracked_urls.png)
 
 +++ 추적된 링크 URL 지표에 대해 자세히 알아보기
 
