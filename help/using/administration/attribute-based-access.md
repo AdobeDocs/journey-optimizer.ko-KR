@@ -10,25 +10,16 @@ level: Intermediate
 keywords: abac, 속성, 권한, 데이터, 액세스, 중요, 에셋
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
 TQID: https://experienceleague.adobe.com/PrmjDN7KDV5Y1NRxfEyQ-3ADOIWjgMv2OuRXitt-Wzk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-subfeature_v2:
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+subfeature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
 workflow-type: tm+mt
-source-wordcount: 1112
-ht-degree: 4%
+source-wordcount: 1644
+ht-degree: 2%
 
 ---
 
@@ -54,13 +45,13 @@ Adobe Journey Optimizer의 속성 기반 액세스 제어를 사용하여 데이
 
 1. Adobe Journey Optimizer의 **[!UICONTROL 스키마 필드]**&#x200B;을(를) 사용합니다.
 
-특성 기반 액세스 제어 API를 사용하여 **[!UICONTROL 역할]**, **[!UICONTROL 정책]** 및 **[!UICONTROL 제품]**&#x200B;에 액세스할 수도 있습니다. 자세한 내용은 이 [설명서](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/abac-api/overview.html?lang=ko){target="_blank"}를 참조하세요.
+특성 기반 액세스 제어 API를 사용하여 **[!UICONTROL 역할]**, **[!UICONTROL 정책]** 및 **[!UICONTROL 제품]**&#x200B;에 액세스할 수도 있습니다. 자세한 내용은 이 [설명서](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/abac-api/overview.html){target="_blank"}를 참조하세요.
 
 ## 역할 만들기 및 레이블 할당 {#assign-role}
 
 >[!IMPORTANT]
 >
->&#x200B;>역할에 대한 권한을 관리하려면 먼저 정책을 만듭니다. 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=ko){target="_blank"}를 참고하세요.
+>>역할에 대한 권한을 관리하려면 먼저 정책을 만듭니다. 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html){target="_blank"}를 참고하세요.
 
 **[!UICONTROL 역할]**&#x200B;은(는) 조직 내에서 동일한 권한, 레이블 및 샌드박스를 공유하는 사용자 집합입니다. **[!UICONTROL 역할]**&#x200B;에 속하는 각 사용자는 제품에 포함된 Adobe 앱 및 서비스에 대한 권한이 있습니다. 자신만의 **[!UICONTROL 역할]**&#x200B;을 만들어 인터페이스의 특정 기능이나 개체에 대한 사용자 액세스를 세밀하게 조정할 수도 있습니다.
 
@@ -124,11 +115,11 @@ Adobe Journey Optimizer의 속성 기반 액세스 제어를 사용하여 데이
 
    ![필드에 대한 거버넌스 레이블 편집](assets/label_3.png)
 
-1. 해당 **[!UICONTROL 레이블]**&#x200B;을(를) 선택하십시오. 이 경우 C2 - 데이터를 서드파티로 내보낼 수 없습니다. 사용 가능한 레이블의 자세한 목록을 보려면 [이 페이지](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=ko#contract-labels){target="_blank"}를 참조하세요.
+1. 해당 **[!UICONTROL 레이블]**&#x200B;을(를) 선택하십시오. 이 경우 C2 - 데이터를 서드파티로 내보낼 수 없습니다. 사용 가능한 레이블의 자세한 목록을 보려면 [이 페이지](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html#contract-labels){target="_blank"}를 참조하세요.
 
    ![](assets/label_4.png)
 
-1. 필요한 경우 스키마를 추가로 개인화한 다음 활성화합니다. 스키마를 활성화하는 방법에 대한 자세한 단계는 이 [페이지](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=ko#profile){target="_blank"}를 참조하십시오.
+1. 필요한 경우 스키마를 추가로 개인화한 다음 활성화합니다. 스키마를 활성화하는 방법에 대한 자세한 단계는 이 [페이지](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#profile){target="_blank"}를 참조하십시오.
 
 이제 C2 레이블이 있는 역할 세트의 일부인 사용자만 스키마의 필드를 볼 수 있고 사용할 수 있습니다. **[!UICONTROL 필드 이름]**&#x200B;에 **[!UICONTROL 레이블]**&#x200B;을(를) 적용하면 **[!UICONTROL 레이블]**&#x200B;이(가) 만들어진 모든 스키마의 **국적** 필드에 자동으로 적용됩니다.
 
@@ -181,3 +172,51 @@ Adobe Journey Optimizer의 속성 기반 액세스 제어를 사용하여 데이
 * 사용자 Y는 표현식을 삭제할 수 있습니다.
 * 사용자 Y는 여정을 테스트할 수 없습니다.
 * 여정 Y는 사용자를 게시할 수 없습니다.
+
++++ AI 기술 자료 참조
+
+이 단원에는 이 주제와 관련된 해석, 검색 및 질문 답변을 지원하기 위한 구조화된 지식이 포함되어 있습니다.
+
+이해를 돕기 위해 이 정보를 이 페이지의 설명서와 통합해야 합니다. 두 소스 모두 독립적으로 사용하기 위한 것은 아닙니다. 이 페이지에서는 기능에 대해 설명하지만, 용어, 의도, 적용 가능성 및 제약 조건을 명확히 하는 데 도움이 되는 추가 컨텍스트를 제공합니다.
+
+* **TL;DR:** 스키마 필드에 거버넌스 레이블을 적용하고 역할에 일치하는 레이블을 할당하여 Journey Optimizer의 중요한 데이터 필드를 보호하므로 권한이 없는 사용자가 이러한 제한된 필드를 사용하는 여정을 보거나, 편집하거나, 테스트하거나, 게시할 수 없습니다.
+
+**의도:**
+
+* 역할을 만들고 거버넌스 레이블을 할당하여 특정 스키마 필드에 대한 액세스를 제한합니다.
+* Adobe Experience Platform의 스키마 필드에 레이블을 적용하여 액세스 제한을 적용합니다
+* Journey Optimizer 여정에서 레이블이 지정된 스키마 필드 사용
+* 여정에서 필수 레이블 경험 액세스 제한이 없는 사용자가 어떻게 액세스하는지 이해합니다.
+* 속성 기반 액세스 제어 API를 통해 역할, 정책 및 제품 관리
+
+**용어집:**
+
+* **ABAC(특성 기반 액세스 제어)**: 레이블 *(제품별)과 같은 특성을 기반으로 특정 팀이나 사용자 그룹의 데이터 액세스를 관리할 권한을 정의하는 기능*
+* **역할**: 조직 *(제품별) 내에서 동일한 권한, 레이블 및 샌드박스를 공유하는 사용자 집합*
+* **레이블**: 스키마 필드, 데이터 세트 또는 대상에 적용되어 *(제품별)에 액세스할 수 있는 역할을 제어하는 거버넌스 마커(예: C2)*
+* **정책**: 역할에 대한 권한을 관리하기 전에 만들어야 하는 구성 — ABAC *(제품별)에 대한 필수 구성 요소*
+* **XDM 스키마**: Adobe Experience Platform *(제품별)에서 데이터 구조를 정의하는 데 사용되는 Experience Data Model 스키마*
+
+**보호 기능:**
+
+* 역할에 대한 권한을 관리하려면 먼저 정책을 만들어야 합니다(페이지의 중요 참고 사항에 설명된 대로 사전 요구 사항)
+* 잘못된 레이블 사용으로 인해 사람에 대한 액세스가 중단되고 정책 위반이 트리거될 수 있습니다(페이지의 경고에 설명)
+* 제한된 필드와 일치하는 레이블이 없는 사용자는 제한된 필드 이름을 보거나, 고급 모드에서 이를 참조하는 표현식을 편집하거나, 여정을 테스트하거나, 여정을 게시할 수 없습니다
+
+**용어:**
+
+* 정식 이름: 속성 기반 액세스 제어 — 약어: ABAC — 변형: 속성 기반 액세스 관리
+* 정식 이름: Experience Data Model — 약어: XDM — 변형: XDM 스키마, XDM 스키마
+* 동의어: &quot;Label&quot; = &quot;governance label&quot; = &quot;data governance label&quot;
+* 혼동하지 마십시오. &quot;역할&quot;(공유 권한 및 레이블을 가진 사용자 그룹) ≠ &quot;정책&quot;(레이블을 기반으로 데이터 액세스 시행을 제어하는 규칙)
+* ABAC(플랫폼 수준에서 레이블 정책을 통해 스키마 필드, 데이터 세트 및 대상에 대한 액세스를 제어) ≠ OLAC(여정 및 캠페인과 같은 특정 Journey Optimizer 개체에 대한 액세스를 제어)
+
+**FAQ:**
+
+* **Q: 기본 제공 역할에 레이블을 추가할 수 있습니까?** — 예. 사용자 정의 역할과 기본 제공 역할 모두에 레이블을 추가할 수 있습니다.
+* **Q: 여정의 제한된 필드에 대한 레이블이 없는 사용자는 어떻게 됩니까?** — 필드가 사용자에게 표시되지 않으므로 해당 필드를 참조하는 표현식을 편집하거나, 여정을 테스트하거나, 여정을 게시할 수 없습니다.
+* **Q: 스키마 필드 이외의 개체에 레이블을 적용할 수 있습니까?** — 예. 스키마, 데이터 세트 및 대상에도 레이블을 적용할 수 있습니다.
+* **Q: ABAC를 사용하여 역할, 정책 및 제품을 관리하는 API가 있습니까?** — 예. 속성 기반 액세스 제어 API를 통해 역할, 정책 및 제품에 액세스할 수 있습니다.
+
++++
+<!-- ai-accordion-version: 1 | source-hash: aa94c226 -->

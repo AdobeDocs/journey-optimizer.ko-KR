@@ -10,32 +10,16 @@ level: Intermediate
 keywords: 권한, 작성, 메시지
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
 TQID: https://experienceleague.adobe.com/iQmLU1mdA4tsWnir0WS9-BLIetY0GK7Qxl2OcNDOQj0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
 subfeature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 9335f9e54aec56236693afe23996f80bf6e389ce
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b23e006f-0a29-4f1d-8fd0-77aa56f3d12bid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
 workflow-type: tm+mt
-source-wordcount: 1258
-ht-degree: 2%
+source-wordcount: 1757
+ht-degree: 1%
 
 ---
 
@@ -80,3 +64,47 @@ ht-degree: 2%
 | 번역 서비스 | **[!DNL Manage translation in house]**: 집에서 번역을 읽고, 만들고, 편집하고, 삭제합니다.</br>**[!DNL Manage translation projects]**: 번역 프로젝트를 읽고, 만들고, 편집하고, 삭제합니다.</br> **[!DNL Manage translation reviews]**: 번역 검토를 읽고, 만들고, 편집하고, 삭제합니다.</br>**[!DNL Manage translation settings]**: 번역 설정을 읽고, 만들고, 편집하고, 삭제합니다.</br>**[!DNL Manage translation tasks]**: 번역 작업을 읽고, 만들고, 편집하고, 삭제합니다.</br>**[!DNL View translation in house]**: 사내 번역에 대한 읽기 전용 액세스.</br>**[!DNL View translation projects]**: 번역 프로젝트에 대한 읽기 전용 액세스.</br>**[!DNL View translation reviews]**: 번역 검토에 대한 읽기 전용 액세스.</br>**[!DNL View translation tasks]**: 번역 작업에 대한 읽기 전용 액세스. |
 
 {style="table-layout:fixed"}
+
++++ AI 기술 자료 참조
+
+이 단원에는 이 주제와 관련된 해석, 검색 및 질문 답변을 지원하기 위한 구조화된 지식이 포함되어 있습니다.
+
+이해를 돕기 위해 이 정보를 이 페이지의 설명서와 통합해야 합니다. 두 소스 모두 독립적으로 사용하기 위한 것은 아닙니다. 이 페이지에서는 기능에 대해 설명하지만, 용어, 의도, 적용 가능성 및 제약 조건을 명확히 하는 데 도움이 되는 추가 컨텍스트를 제공합니다.
+
+- **TL;DR:** 이 페이지는 Journey Optimizer의 모든 기본 제공 권한에 대한 포괄적인 참조이며, 기능 영역별로 그룹화되어 있으므로 관리자는 역할을 작성하거나 감사할 때 포함할 권한을 정확하게 식별할 수 있습니다.
+
+**의도:**
+
+- 주어진 기능 영역(여정, 캠페인, 의사 결정 관리, AI 지원 등)에 대해 사용 가능한 모든 권한을 조회합니다.
+- 사용자 지정 또는 기본 제공 역할에 추가할 올바른 권한을 식별합니다
+- 리소스별 관리 및 보기 권한 구분
+- AI Assistant, 오케스트레이션된 캠페인 및 경험 의사 결정에 대한 권한 찾기
+- 여정 실행 모드(테스트 모드, 시험 실행, 시뮬레이션)를 포함하는 권한 식별
+
+**용어집:**
+
+- **기본 제공 권한**: Journey Optimizer의 기능 및 개체에 대한 액세스를 제어하기 위해 역할에 할당할 수 있는 사전 정의된 단일 권한입니다. 높은 수준의 권한은 낮은 수준의 권한을 포함합니다. *(제품별)*
+- **기능**: 기능 영역에서 관련 권한(예: 여정, 캠페인, 의사 결정 관리, AI 도우미)을 그룹화합니다. *(제품별)*
+- **테스트 모드**: 여정 실행 모드입니다. 여정 게시 권한에 테스트 모드 *(제품별)을(를) 시작하는 기능이 포함됩니다.*
+- **시험 실행**: 여정 실행 모드입니다. 여정 게시 권한에 시험 실행 *(제품별)을(를) 시작하는 기능이 포함됩니다.*
+- **시뮬레이션**: 별도의 여정 기능입니다. 여정 시뮬레이션 권한은 여정 *(제품별)에서 시뮬레이션의 읽기, 만들기 및 편집을 다룹니다*
+
+**용어:**
+
+- 정식 이름: 기본 제공 권한 — 변형: 기본 제공 권한, OOTB 권한
+- &quot;여정 관리&quot;(실시간, 테스트 모드 및 시험 실행 시 중지 포함) ≠ &quot;여정 게시&quot;(게시, 테스트 모드 시작, 시험 실행 시작, 일시 중지 및 재개 포함)를 혼동하지 마십시오.
+- 혼동하지 마십시오. &quot;여정 시뮬레이션&quot;(여정에서 시뮬레이션을 읽고, 만들고, 편집할 수 있는 권한) ≠ &quot;콘텐츠 시뮬레이션&quot;(메시지 미리 보기 및 증명을 위해 콘텐츠 시뮬레이션 옵션에 액세스)
+- 혼동하지 마십시오. &quot;컨텐츠 생성&quot;(Journey Optimizer의 AI Assistant 액세스) ≠ &quot;AI Assistant 활성화&quot;(AI 기반 캠페인 및 대상 기능 활성화 또는 액세스)
+- 혼동하지 마십시오. &quot;테스트 모드&quot;(여정 게시 권한을 통해 제어되는 여정 실행 모드) ≠ &quot;시험 실행&quot;(여정 게시 권한을 통해 제어되는 별도의 여정 실행 모드) ≠ &quot;시뮬레이션&quot;(여정 시뮬레이션 권한을 통해 제어되는 별도의 기능)
+- 의사 결정 관리(의사 결정 엔티티에 대한 CRUD) ≠ &quot;경험 의사 결정 관리&quot;(경험 의사 결정 설정 및 의사 결정 정책에 대한 CRUD)를 혼동하지 마십시오
+
+**FAQ:**
+
+- **Q: 콘텐츠 생성에 AI Assistant를 사용하려면 어떤 권한이 필요합니까?** — 콘텐츠를 생성합니다(AI 지원 기능 아래).
+- **Q: 사용자가 비표시 목록을 내보낼 수 있는 권한은 무엇입니까?** — 제외 목록 내보내기(채널 구성 아래).
+- **Q: 여정에 대한 읽기 전용 액세스 권한을 부여하는 권한은 무엇입니까?** — 여정 보기(여정 기능 아래).
+- **Q: 오케스트레이션된 캠페인을 게시하는 데 필요한 권한은 무엇입니까?** — 오케스트레이션된 캠페인(오케스트레이션된 캠페인 아래)을 게시합니다. 이 권한은 신호를 사용하여 오케스트레이션된 캠페인을 트리거하는 데에도 필요합니다.
+- **Q: 여정 시뮬레이션 사용 권한에 포함되는 사항:** — 여정의 시뮬레이션을 읽고, 만들고, 편집합니다.
+
++++
+<!-- ai-accordion-version: 1 | source-hash: 1374a5c2 -->

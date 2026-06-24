@@ -10,22 +10,14 @@ level: Experienced
 keywords: 권한, 높은 수준, 낮은 수준, 프로필, admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 TQID: https://experienceleague.adobe.com/JmWqA2lkS0vWlssVYWycq-gvC6IRrrmAokJj1AGINxc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-subfeature_v2:
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+subfeature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
 workflow-type: tm+mt
-source-wordcount: 1545
+source-wordcount: 1995
 ht-degree: 0%
 
 ---
@@ -199,7 +191,7 @@ ht-degree: 0%
       * experiments.read
       * experiments.write
       * experiments.delete
-     -->
+-->
 
 +++
 
@@ -688,3 +680,42 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
   +++
 
++++ AI 기술 자료 참조
+
+이 단원에는 이 주제와 관련된 해석, 검색 및 질문 답변을 지원하기 위한 구조화된 지식이 포함되어 있습니다.
+
+이해를 돕기 위해 이 정보를 이 페이지의 설명서와 통합해야 합니다. 두 소스 모두 독립적으로 사용하기 위한 것은 아닙니다. 이 페이지에서는 기능에 대해 설명하지만, 용어, 의도, 적용 가능성 및 제약 조건을 명확히 하는 데 도움이 되는 추가 컨텍스트를 제공합니다.
+
+* **TL;DR:** Journey Optimizer 역할은 높은 수준의 권한으로 빌드되었으며, 각 권한은 여정, 캠페인, 의사 결정, 채널 구성 등에 걸쳐 사용자가 읽기, 쓰기, 게시 또는 삭제해야 하는 특정 낮은 수준의 API 권한을 번들로 제공합니다.
+
+**의도:**
+
+* 높은 수준의 권한과 낮은 수준의 권한 간의 차이점 이해
+* 각 상위 수준 권한에서 부여된 하위 수준 권한을 식별합니다
+* 여정, 캠페인, 의사 결정 관리, 채널 구성 및 오케스트레이션된 캠페인에 대한 역할을 정확하게 구성
+* 콘텐츠 생성을 위한 AI Assistant 액세스 권한 부여
+* 여정 게시 권한과 여정 관리 권한이 비교하여 무엇을 허용하는지 이해합니다.
+
+**용어집:**
+
+* **높은 수준의 권한**: 하나 이상의 낮은 수준의 권한 *(제품별)을(를) 포함하는 여정(예: 여정 관리, 게시 권한)에 할당된 명명된 권한*
+* **낮은 수준의 권한**: 높은 수준의 권한 *(제품별)*&#x200B;에서 파생되고 이에 포함된 세분화된 API 수준 권한(예: 여정.읽기, 여정.쓰기)
+* **역할**: 조직 *(제품별) 내에서 동일한 권한과 샌드박스를 공유하는 사용자의 컬렉션입니다*
+
+**용어:**
+
+* 혼동하지 마십시오. &quot;높은 수준 권한&quot;(역할에 할당할 수 있는 명명된 권한) ≠ &quot;낮은 수준 권한&quot;(직접 할당할 수 없는 기본 세부 API 권한)
+* &quot;여정 관리&quot;(라이브, 테스트 모드 및 시험 실행을 포함하여 만들기, 편집, 삭제, 중지 허용) ≠ &quot;여정 게시&quot;(게시, 테스트 모드 시작, 시험 실행 시작, 일시 중지 및 여정 재시작 허용)를 혼동하지 마십시오.
+* 혼동하지 마십시오: &quot;여정 이벤트, 데이터 소스 및 작업 관리&quot;(이벤트, 소스, 작업에 대한 전체 CRUD) ≠ &quot;여정 이벤트, 데이터 소스 및 작업 보기&quot;(해당 오브젝트에 대한 읽기 전용 액세스)
+* 다른 여정 또는 캠페인 권한에 ≠ &quot;컨텐츠 생성&quot;(Journey Optimizer의 AI Assistant에 대한 액세스)
+* &quot;테스트 모드&quot;(시작하거나 중지할 수 있는 여정 실행 모드로 여정 게시 및 여정 관리에서 참조됨) ≠ &quot;시험 실행&quot;(동일한 권한에서도 참조되는 별도의 여정 실행 모드)을 혼동하지 마십시오
+
+**FAQ:**
+
+* **Q: 여정 관리 권한으로 사용자가 여정을 게시할 수 있습니까?** — 아니요. 여정을 게시하려면 별도의 게시 여정 고급 권한이 필요합니다.
+* **Q: 콘텐츠 생성 권한 부여는 무엇입니까?** — Journey Optimizer의 AI Assistant에 액세스할 수 있습니다.
+* **Q: 사용자가 여정 관리 권한 없이 여정 이벤트를 구성할 수 있습니까?** — 지원. 여정 이벤트, 데이터 소스 및 작업 관리는 이벤트, 데이터 소스 및 작업 구성에 대한 별도의 상위 수준 권한입니다.
+* **Q: 여정 보기 보고서에 포함된 낮은 수준의 권한은 무엇입니까?** — 여정_report.read 및 messages_report.read와 Adobe Experience Platform에서 dataset.read, queries.read, queries.write 및 queries.delete를 추가합니다.
+
++++
+<!-- ai-accordion-version: 1 | source-hash: d1d9ebf9 -->
