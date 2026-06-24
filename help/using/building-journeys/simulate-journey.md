@@ -11,9 +11,9 @@ keywords: 테스트, 여정, 확인, 오류, 문제 해결
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+source-git-commit: 1d7a11990a82622e219a9cfef4ddd89d439477da
 workflow-type: tm+mt
-source-wordcount: 2888
+source-wordcount: 2904
 ht-degree: 0%
 
 ---
@@ -206,6 +206,10 @@ ht-degree: 0%
 **[!UICONTROL 시뮬레이션]**&#x200B;에서 여정의 유효성을 검사한 후 **[!UICONTROL 결과]** 로그를 검토하십시오. 오류가 나타나면 **[!UICONTROL 시뮬레이션]**&#x200B;을 종료하고 필요한 변경 내용을 여정에 적용한 다음 실행이 올바르게 나타날 때까지 **[!UICONTROL 시뮬레이션]**&#x200B;을 다시 실행하십시오. 그런 다음 여정을 게시할 수 있습니다. [여정 게시](../building-journeys/publish-journey.md)를 참조하십시오.
 
 ## 이벤트 트리거 {#firing-events}
+
+>[!NOTE]
+>
+>시뮬레이션에서 트리거된 이벤트는 다음과 같이 레이블이 지정된 Adobe Experience Platform의 전용 데이터 세트에 저장됩니다. ``JOtestmode - <schema of your event>``.
 
 여정에 하나 이상의 단일 이벤트가 포함된 경우 시뮬레이션이 활성화되어 있을 때 트리거할 수 있습니다. 이벤트에서 시작하지 않지만 여정이 포함된 경우 시뮬레이션된 사용자가 여정에 들어갈 때까지 이 섹션이 표시되지 않습니다.
 
