@@ -30,7 +30,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_view"
 >title="여정 목록 및 캘린더 보기"
->abstract="여정 목록 외에도 [!DNL Journey Optimizer]는 여정에 대한 캘린더 보기를 제공하여 일정을 명확하게 시각적으로 보여 줍니다. 이들 버튼을 사용하여 언제든지 목록 보기와 캘린더 보기 사이를 전환할 수 있습니다."
+>abstract="여정 목록 외에도 [!DNL Journey Optimizer]는 여정에 대한 캘린더 보기를 제공하여 일정을 명확하게 시각적으로 표시합니다. 이들 버튼을 사용하여 언제든지 목록 보기와 캘린더 보기 사이를 전환할 수 있습니다."
 
 ## 여정 대시보드 {#dashboard-jo}
 

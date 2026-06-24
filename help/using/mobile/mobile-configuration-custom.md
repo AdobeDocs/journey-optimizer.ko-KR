@@ -8,26 +8,16 @@ role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
 TQID: https://experienceleague.adobe.com/v5gRCHjcQjn0kXPdtakSZRNlRIA-PVyGpctdn7zwXSI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
 source-git-commit: 46131a2626da2c03fc31092cf685cbc73b38bd35
 workflow-type: tm+mt
 source-wordcount: 1198
-ht-degree: 15%
+ht-degree: 20%
 
 ---
 
@@ -75,12 +65,12 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_channel_type"
 >title="채널 유형"
->abstract="선택 사항입니다. 이 사용자 정의 SMS 공급자 자격 증명으로 보낸 메시지(예: SMS 또는 RCS)를 분류합니다. Journey Optimizer은 채널별 게재를 보고하고 추적할 수 있도록 XDM 경험 이벤트에 값을 기록합니다."
+>abstract="선택 사항입니다. 이 사용자 정의 SMS 공급업체 자격 증명으로 보낸 메시지(예: SMS 또는 RCS)를 분류합니다. Journey Optimizer는 채널별로 게재를 보고하고 추적할 수 있도록 XDM 경험 이벤트에 값을 작성합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_webhook_require_auth"
 >title="인증"
->abstract="활성화되면 Adobe IMS를 통해 인증된 요청만 수락됩니다. 이 끝점으로 데이터를 전송할 때 호출자는 유효한 OAuth 토큰을 포함해야 합니다."
+>abstract="활성화된 경우 Adobe IMS를 통해 인증된 요청만 수락됩니다. 호출자는 이 엔드포인트로 데이터를 전송할 때 유효한 OAuth 토큰이 포함되도록 해야 합니다."
 
 Adobe에서 즉시 사용할 수 없는 사용자 지정 공급자(예: Sinch, Infobip, Twilio)를 사용하여 Journey Optimizer에서 모바일 메시지를 보내려면 다음 단계를 따르십시오.
 
@@ -102,7 +92,7 @@ Adobe에서 즉시 사용할 수 없는 사용자 지정 공급자(예: Sinch, I
 
    * **[!UICONTROL 채널 유형]**: 선택 사항입니다. 이 자격 증명이 나타내는 모바일 채널(예: SMS, RCS 또는 MMS)을 나타냅니다.
 
-   * **인증 유형{&#x200B;1}: 인증 유형을 선택하고 [선택한 인증 방법에 따라 해당 필드를 완료](#auth-options)합니다.**
+   * **[!UICONTROL 인증 유형{&#x200B;1}: 인증 유형을 선택하고 [선택한 인증 방법에 따라 해당 필드를 완료](#auth-options)합니다.]**
 
      ![](assets/sms-byop.png)
 

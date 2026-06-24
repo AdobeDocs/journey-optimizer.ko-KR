@@ -189,7 +189,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_event_definitions"
 >title="이벤트 정의"
->abstract="이벤트 정의는 외부 소스에서 들어오는 이벤트 데이터를 식별하고 해석하는 방법을 [!DNL Journey Optimizer]에 알려 줍니다. 각 정의는 구매 또는 결제와 같은 특정 이벤트 유형을 매핑하므로 시스템이 챌린지 작업에 대한 고객 진행 상황을 추적할 수 있습니다."
+>abstract="이벤트 정의는 외부 소스에서 들어오는 이벤트 데이터를 식별하고 해석하는 방법을 [!DNL Journey Optimizer]에게 알려줍니다. 각 정의는 구매 또는 결제와 같은 특정 이벤트 유형을 매핑하므로 시스템이 챌린지 작업에 대한 고객 진행 상황을 추적할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_event_schema"
@@ -251,7 +251,7 @@ ht-degree: 20%
 
    ![](assets/admin-inventory-upload.png)
 
-1. 인벤토리 목록에서 가져온 데이터를 검토합니다. 목록에는 항목당 하나의 행이 표시됩니다. **열에 포함된**&#x200B;그룹 열은 해당 항목에 대한 모든 제품 그룹을 알약 또는 여러 그룹에 속하는 경우 여러 알약으로 표시합니다.
+1. 인벤토리 목록에서 가져온 데이터를 검토합니다. 목록에는 항목당 하나의 행이 표시됩니다. ]**열에 포함된**[!UICONTROL &#x200B;그룹 열은 해당 항목에 대한 모든 제품 그룹을 알약 또는 여러 그룹에 속하는 경우 여러 알약으로 표시합니다.
 
    ![](assets/admin-inventory-imported.png)
 
@@ -288,7 +288,7 @@ ht-degree: 20%
 
    ![](assets/admin-exclusions-upload.png)
 
-1. 제외 목록에서 가져온 데이터를 검토합니다. 목록에는 항목당 하나의 행이 표시됩니다. **열에 포함된**&#x200B;그룹 열은 해당 항목에 대한 모든 제외 그룹을 알약 또는 여러 그룹에 속하는 경우 여러 알약으로 표시합니다.
+1. 제외 목록에서 가져온 데이터를 검토합니다. 목록에는 항목당 하나의 행이 표시됩니다. ]**열에 포함된**[!UICONTROL &#x200B;그룹 열은 해당 항목에 대한 모든 제외 그룹을 알약 또는 여러 그룹에 속하는 경우 여러 알약으로 표시합니다.
 
 <!-- SCREENSHOT: Exclusions list after CSV upload -->
 
