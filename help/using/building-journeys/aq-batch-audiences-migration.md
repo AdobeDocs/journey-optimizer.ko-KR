@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 대상자 자격 여정에서 배치 대상자 마이그레이션
-description: 2026년 8월 시행일 이전에 대상 자격 노드에서 배치 대상을 사용하는 여정을 마이그레이션하는 방법을 알아봅니다.
+description: 시행일 전에 대상 자격 노드에서 배치 대상을 사용하는 여정을 마이그레이션하는 방법을 알아봅니다.
 feature: Journeys, Activities, Audiences
 topic: Content Management
 role: User
@@ -15,9 +15,9 @@ feature_v2:
   - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
-source-git-commit: cea41add5b86adb3b447ce606e73248adce0f731
+source-git-commit: 4a5cbd65b7046e8f1b82147cdc2cd61a3991c258
 workflow-type: tm+mt
-source-wordcount: 869
+source-wordcount: 867
 ht-degree: 0%
 
 ---
