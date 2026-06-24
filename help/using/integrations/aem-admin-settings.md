@@ -119,4 +119,4 @@ Journey Optimizer은 조직, 샌드박스 및 Adobe Experience Manager 저장소
 
 마케터가 여정 및 캠페인에서 컨텐츠 조각을 사용할 수 있도록 관리자가 Journey Optimizer에서 Adobe Experience Manager Managed Services 저장소 설정을 구성하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3492529?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3492534?captions=kor&quality=12)
