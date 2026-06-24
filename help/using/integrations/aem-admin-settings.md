@@ -8,13 +8,11 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: AEM, 콘텐츠 조각, 관리, 저장소, 인증, 작성자, 게시
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: 20630efe560616836d325e0223a2ecf44d2b82bc
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
+source-git-commit: b7d613c888f67333a4baedfe1605c5ac4f32b18d
 workflow-type: tm+mt
-source-wordcount: 550
+source-wordcount: 557
 ht-degree: 0%
 
 ---
@@ -49,23 +47,25 @@ Journey Optimizer은 조직, 샌드박스 및 Adobe Experience Manager 저장소
 
    ![](assets/aem-admin-settings-1.png)
 
-1. **[!DNL Adobe Experience Manager Managed Services]**&#x200B;을(를) 사용하는 경우 **[!UICONTROL 사용자 지정 AMS 저장소 ID]** 필드에 `adobecqms.net`(으)로 끝나는 저장소 호스트 이름을 입력하십시오.
+1. 구성 방법 선택:
 
-   ![](assets/aem-admin-settings-6.png)
+   * **[!DNL Adobe Experience Manager Managed Services]** 저장소의 경우 **[!UICONTROL AMS 저장소 호스트 이름]** 필드에 `adobecqms.net`(으)로 끝나는 저장소 호스트 이름을 입력하십시오.
 
-1. **[!DNL Adobe Experience as a Cloud Service]**&#x200B;을(를) 사용하는 경우 구성할 리포지토리를 선택하고 **[!UICONTROL 다음]**&#x200B;을(를) 클릭합니다.
+     ![](assets/aem-admin-settings-6.png)
 
-   또한 **[!UICONTROL 보기]**&#x200B;를 클릭하여 이 저장소에 액세스할 수 있습니다.
+   * **[!DNL Adobe Experience as a Cloud Service]**&#x200B;을(를) 사용하는 경우 구성할 리포지토리를 선택하고 **[!UICONTROL 다음]**&#x200B;을(를) 클릭합니다.
 
-   >[!IMPORTANT]
-   >
-   >동일한 조직, 샌드박스 및 저장소에 대한 새 구성을 저장하면 **기본 구성, 즉**&#x200B;게시&#x200B;**저장소가 대체**&#x200B;됩니다.
+     또한 **[!UICONTROL 보기]**&#x200B;를 클릭하여 이 저장소에 액세스할 수 있습니다.
 
-   ![](assets/aem-admin-settings-2.png)
+     >[!IMPORTANT]
+     >
+     >동일한 조직, 샌드박스 및 저장소에 대한 새 구성을 저장하면 **기본 구성, 즉**&#x200B;게시&#x200B;**저장소가 대체**&#x200B;됩니다.
+
+     ![](assets/aem-admin-settings-2.png)
 
 1. **[!UICONTROL 이름]** 및 **[!UICONTROL 설명]**&#x200B;을 입력하십시오.
 
-1. 설정 선택:
+1. 아래 드롭다운에서 설정을 선택합니다.
 
    +++ 작성자만 설정
 
@@ -74,6 +74,8 @@ Journey Optimizer은 조직, 샌드박스 및 Adobe Experience Manager 저장소
    ![](assets/aem-admin-settings-3.png)
 
    +++
+
+   </br>
 
    +++ 게시 인스턴스 설정
 
@@ -115,4 +117,4 @@ Journey Optimizer은 조직, 샌드박스 및 Adobe Experience Manager 저장소
 
 마케터가 여정 및 캠페인에서 컨텐츠 조각을 사용할 수 있도록 관리자가 Journey Optimizer에서 Adobe Experience Manager Managed Services 저장소 설정을 구성하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3492534?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3492529?quality=12)
