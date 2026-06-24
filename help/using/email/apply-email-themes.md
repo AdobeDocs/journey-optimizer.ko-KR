@@ -11,26 +11,15 @@ level: Beginner, Intermediate
 keywords: 이메일 테마, 모듈, 재사용 가능성, 브랜드 일관성, 이메일 디자인, 사용자 지정 CSS, 모바일 최적화
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
 TQID: https://experienceleague.adobe.com/2zlrBZi84Uq475zZd5jzGki6NZuqTLJABh-G36VwNVA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: d595a60b-bcf5-4a63-a189-66a0be755cc7id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: d7d7519e6f046802653ed470d00851f17a315bc6
 workflow-type: tm+mt
-source-wordcount: 1776
+source-wordcount: 1798
 ht-degree: 3%
 
 ---
@@ -246,11 +235,15 @@ ht-degree: 3%
 
 1. **[!UICONTROL Adobe 테마]**&#x200B;와(과) **[!UICONTROL 내 테마]** 탭 사이를 탐색하고 조각에 대해 호환되는 테마를 최대 5개(두 탭 모두에서) 선택할 수 있습니다.
 
+   >[!NOTE]
+   >
+   >이 제한은 호환성 및 성능을 위해 적용됩니다. **[!UICONTROL Adobe 기본 테마]**&#x200B;를 제거할 수 없으므로 최대 4개의 추가 사용자 지정 테마를 선택할 수 있습니다.
+
    ![](assets/fragment-select-compatible-themes.png){width=70%}
 
    >[!CAUTION]
    >
-   >이메일 콘텐츠에서 조각을 사용할 때는 이 조각에 대해 정의한 [테마를 적용](#apply-themes-email)해야 합니다. 그렇지 않으면 특히 Outlook 2021 및 이전 버전에서 표시 문제가 발생할 수 있습니다.
+   >이메일 콘텐츠에서 이 조각을 사용할 때 이메일 테마는 조각과 연결된 테마 중 하나여야 합니다. 테마가 일치하지 않으면 조각 삽입이 차단됩니다.
 
 1. Click **[!UICONTROL Close]**.
 
