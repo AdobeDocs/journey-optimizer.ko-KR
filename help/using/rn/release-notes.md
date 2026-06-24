@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2f40bb1c966b677900e4b0eb643d8665e77c3423
+source-git-commit: b17f3d80050281659fd4df2bc45980df898acf1c
 workflow-type: tm+mt
-source-wordcount: 3525
+source-wordcount: 3606
 ht-degree: 28%
 
 ---
@@ -132,6 +132,9 @@ ht-degree: 28%
 </tbody>
 </table>
 
+
+* [!BADGE 사용 중단]{type=Negative} **대상 자격 노드에서 사용되지 않는 일괄 처리 대상** - **2026년 8월**&#x200B;부터 Journey Optimizer은 **대상 자격** 노드에서 일괄 처리 대상을 사용하는 여정에 대한 게시를 차단합니다. 여정 캔버스에 유효성 검사 경고가 이미 표시되어 있습니다. 기존 라이브 여정은 영향을 받지 않습니다. 이 구성을 포함하는 신규, 초안 및 중복 여정은 2026년 8월 이전에 업데이트해야 합니다. 대상 자격 노드에서 스트리밍 대상을 사용하거나 **대상 읽기** 활동으로 전환합니다. [여정 마이그레이션 방법 알아보기](../building-journeys/aq-batch-audiences-migration.md)
+
 * **일시 중지된 여정을 직접 중지** - 이제 **일시 중지됨** 상태에서 직접 여정을 중지할 수 있습니다. 이전에는 일시 중지된 여정을 중지하려면 **Live**(으)로 다시 시작해야 했습니다. [자세히 보기](../building-journeys/journey-pause.md#stop-close-paused)
 
   사용 가능한 날짜: 2026년 6월 18~22일
@@ -154,7 +157,6 @@ ht-degree: 28%
 
   사용 가능한 날짜: 2026년 6월 18일 이 기능은 앞으로 며칠에 걸쳐 모든 지역으로 점진적으로 배포될 예정입니다.
 
-<!--* [!BADGE Deprecation]{type=Negative} **Batch audiences deprecated in Audience Qualification node** - Starting **August 3, 2026**, Journey Optimizer will block publication for any journey using a batch audience in an **Audience Qualification** node. A validation warning is already surfaced in the journey canvas. Existing live journeys are not affected. New, draft, and duplicated journeys that include this configuration must be updated before August 3. Use a streaming audience in the Audience Qualification node, or switch to a **Read Audience** activity. [Learn how to migrate your journeys](../building-journeys/aq-batch-audiences-migration.md)-->
 
 +++ 곧 출시 예정 — **아래 정보는 변경될 수 있습니다.**
 
@@ -370,7 +372,7 @@ ht-degree: 28%
 <table>
 <thead>
 <tr>
-<th><strong>이메일 Designer의 콘텐츠 확인</strong><br/></th>
+<th><strong>이메일 디자이너에서 콘텐츠 확인</strong><br/></th>
 </tr>
 </thead>
 <tbody>

@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: e6d80f7b7875db890b946d9ef5315d1cbed918c3
 workflow-type: tm+mt
-source-wordcount: 2501
-ht-degree: 10%
+source-wordcount: 2552
+ht-degree: 9%
 
 ---
 
@@ -149,6 +149,10 @@ ht-degree: 10%
 이 정보는 수신 속도가 빠르다. 초당 10,000건의 이벤트가 수신된 것으로 측정됩니다. 진입 스파이크에 대한 계획을 세우고, 가능한 경우 피하고, 이를 처리할 여정을 준비하십시오. [이 섹션](entry-management.md#journey-processing-rate)에서 여정 처리 속도 및 처리량 제한에 대해 자세히 알아보십시오.
 
 ### 대상자 일괄 처리 {#batch-speed-segment-qualification}
+
+>[!CAUTION]
+>
+>**사용 중단 알림 - 2026년 8월**: **2026년 8월**&#x200B;부터 Journey Optimizer은 **대상 자격** 노드에서 일괄 대상을 사용하는 모든 여정에 대한 게시를 차단합니다. 기존 라이브 여정은 영향을 받지 않습니다. 이 구성의 신규, 초안 및 중복 여정은 2026년 8월 이전에 업데이트해야 합니다. [여정 마이그레이션 방법 알아보기](aq-batch-audiences-migration.md)
 
 일괄 처리 대상에 대해 대상 자격을 사용할 때 일일 계산 시 가장 많이 발생합니다. 봉우리의 크기는 얼마나 많은 개인이 매일 관객을 출입하느냐에 따라 달라진다.
 
