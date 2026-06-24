@@ -26,7 +26,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d5e17c13efad1b99ee788fc5930f27e15ffdb337
+source-git-commit: 2f40bb1c966b677900e4b0eb643d8665e77c3423
 workflow-type: tm+mt
 source-wordcount: 3525
 ht-degree: 28%
@@ -389,7 +389,7 @@ ht-degree: 28%
 
 * **HTML으로 향상된 이미지 변환기** - 이제 HTML으로 이미지 변환기 기능의 새 버전을 사용할 수 있으므로 HTML 생성의 정확도가 향상되었습니다. 이 업데이트는 상위 계층의 LLM 모델을 활용하여 이미지 입력에서 보다 정확하고 안정적인 HTML 출력을 제공합니다.
 
-  사용 가능한 날짜: 2026년 6월 말
+  사용 가능한 날짜: 2026년 6월 18일
 
 +++ 곧 출시 예정 — **아래 정보는 변경될 수 있습니다.**
 
