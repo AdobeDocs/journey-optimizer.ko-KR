@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: c116c99ca57b5cd001c63b4a0364a79548f45166
+source-git-commit: 79b0c44fffb4297a9a5675200f086c5de544ec88
 workflow-type: tm+mt
-source-wordcount: 8654
-ht-degree: 93%
+source-wordcount: 8714
+ht-degree: 92%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 93%
 이 페이지에는 월별 릴리스 기능 및 개선 사항과 관련된 업데이트 외에도 [!DNL Journey Optimizer] 설명서의 모든 최신 변경 사항이 나와 있습니다.
 
 ## 2026년 6월 {#june-2026}
+
+* **데이터 세트 시작** 및 **스키마 시작** 페이지에 주요 고려 사항, 데이터 세트 비활성화와 기본 스키마의 구별, Adobe Experience Platform 계획 및 모범 사례 설명서에 대한 링크를 포함하여 실시간 고객 프로필에 데이터 세트 및 스키마를 활성화하는 방법에 대한 지침이 업데이트되었습니다. [데이터 세트에 대해 자세히 알아보기](../data/get-started-datasets.md) 및 [스키마에 대해 자세히 알아보기](../data/get-started-schemas.md)
 
 * 이제 새 **Adobe Journey Optimizer 시작하기** 온보딩 허브를 사용할 수 있습니다. 새로운 사용자는 역할별로 자신의 경로를 선택하고, 기본 사항을 탐색하거나, 이미 온보딩한 경우 어디를 먼저 보아야 할지 알 필요 없이 일상적인 영역으로 이동할 수 있습니다. [자세히 보기](../../rp_landing_pages/get-started-landing-page.md)
 
