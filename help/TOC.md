@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 6e64af1e2b278a8c21af39a9d2f0d66ad2e257ea
+source-git-commit: 2950ee004163eec87f1d3b2e55a6bccd3ce64ad5
 workflow-type: tm+mt
-source-wordcount: '3366'
+source-wordcount: '3372'
 ht-degree: 98%
 
 ---
@@ -30,6 +30,7 @@ ht-degree: 98%
       + {hide-from-toc}[2021](using/rn/release-notes-2021.md)
    + [설명서 업데이트](using/rn/documentation-updates.md)
    + {hide-from-toc}[향상된 여정 캔버스](using/rn/new-canvas.md)
+   + {hide-from-toc}[대상 자격에서 일괄 처리 대상 마이그레이션](using/building-journeys/aq-batch-audiences-migration.md)
 + 시작하기 {#get-started}
    + [여기서 시작](/help/rp_landing_pages/get-started-landing-page.md)
    + [온보딩 허브](using/start/onboarding-hub.md)

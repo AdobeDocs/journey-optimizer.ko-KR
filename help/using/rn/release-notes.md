@@ -26,7 +26,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 61c97e285ca44c37cf517c608943dece9e2531c0
+source-git-commit: d5e17c13efad1b99ee788fc5930f27e15ffdb337
 workflow-type: tm+mt
 source-wordcount: 3525
 ht-degree: 28%
@@ -153,6 +153,8 @@ ht-degree: 28%
 * **실시간 여정 제한 및 새 보호 기능 증가** - 이제 최대 **200개의 활성 여정을 사용할 수 있습니다**. 이전 제한인 100개에서 증가했습니다. [자세히 보기](../start/guardrails.md#journeys-guardrails-journeys)
 
   사용 가능한 날짜: 2026년 6월 18일 이 기능은 앞으로 며칠에 걸쳐 모든 지역으로 점진적으로 배포될 예정입니다.
+
+<!--* [!BADGE Deprecation]{type=Negative} **Batch audiences deprecated in Audience Qualification node** - Starting **August 3, 2026**, Journey Optimizer will block publication for any journey using a batch audience in an **Audience Qualification** node. A validation warning is already surfaced in the journey canvas. Existing live journeys are not affected. New, draft, and duplicated journeys that include this configuration must be updated before August 3. Use a streaming audience in the Audience Qualification node, or switch to a **Read Audience** activity. [Learn how to migrate your journeys](../building-journeys/aq-batch-audiences-migration.md)-->
 
 +++ 곧 출시 예정 — **아래 정보는 변경될 수 있습니다.**
 
