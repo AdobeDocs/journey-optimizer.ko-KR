@@ -189,7 +189,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_event_definitions"
 >title="이벤트 정의"
->abstract="이벤트 정의는 외부 소스에서 들어오는 이벤트 데이터를 식별하고 해석하는 방법을 [!DNL Journey Optimizer]에 알려 줍니다. 각 정의는 구매 또는 결제와 같은 특정 이벤트 유형을 매핑하므로 시스템이 챌린지 작업에 대한 고객 진행 상황을 추적할 수 있습니다."
+>abstract="이벤트 정의는 외부 소스에서 들어오는 이벤트 데이터를 식별하고 해석하는 방법을 [!DNL Journey Optimizer]에게 알려줍니다. 각 정의는 구매 또는 결제와 같은 특정 이벤트 유형을 매핑하므로 시스템이 챌린지 작업에 대한 고객 진행 상황을 추적할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_event_schema"

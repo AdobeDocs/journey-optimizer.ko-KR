@@ -27,7 +27,7 @@ subfeature_v2:
 source-git-commit: 46131a2626da2c03fc31092cf685cbc73b38bd35
 workflow-type: tm+mt
 source-wordcount: 1198
-ht-degree: 15%
+ht-degree: 20%
 
 ---
 
@@ -75,12 +75,12 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_channel_type"
 >title="채널 유형"
->abstract="선택 사항입니다. 이 사용자 정의 SMS 공급자 자격 증명으로 보낸 메시지(예: SMS 또는 RCS)를 분류합니다. Journey Optimizer은 채널별 게재를 보고하고 추적할 수 있도록 XDM 경험 이벤트에 값을 기록합니다."
+>abstract="선택 사항입니다. 이 사용자 정의 SMS 공급업체 자격 증명으로 보낸 메시지(예: SMS 또는 RCS)를 분류합니다. Journey Optimizer는 채널별로 게재를 보고하고 추적할 수 있도록 XDM 경험 이벤트에 값을 작성합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_webhook_require_auth"
 >title="인증"
->abstract="활성화되면 Adobe IMS를 통해 인증된 요청만 수락됩니다. 이 끝점으로 데이터를 전송할 때 호출자는 유효한 OAuth 토큰을 포함해야 합니다."
+>abstract="활성화된 경우 Adobe IMS를 통해 인증된 요청만 수락됩니다. 호출자는 이 엔드포인트로 데이터를 전송할 때 유효한 OAuth 토큰이 포함되도록 해야 합니다."
 
 Adobe에서 즉시 사용할 수 없는 사용자 지정 공급자(예: Sinch, Infobip, Twilio)를 사용하여 Journey Optimizer에서 모바일 메시지를 보내려면 다음 단계를 따르십시오.
 
