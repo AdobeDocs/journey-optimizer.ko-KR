@@ -10,12 +10,26 @@ level: Beginner, Intermediate
 keywords: 이메일, 디자인, Stock, 자산
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 TQID: https://experienceleague.adobe.com/fyUHQD4jpIUI2KdyrGbgktEhNNc4OWYRJ8AkgZhrIoQ
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: f550d0f2-143d-4093-9463-467fbec95fccid: fb9a80eb-bebc-492f-a0e9-584595621ebbid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+  - id: f550d0f2-143d-4093-9463-467fbec95fcc
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 94f6692162ca7d37cf5d9df4c0f48371bafec9fc
 workflow-type: tm+mt
 source-wordcount: 821
@@ -33,7 +47,7 @@ ht-degree: 92%
 
 이메일 디자이너에 액세스하고 이메일 콘텐츠를 디자인하려면 먼저 여정 또는 캠페인에서 [이메일을 만들어야](create-email.md) 합니다.
 
-그런 다음 [!DNL Journey Optimizer]**이메일 디자인 기능**&#x200B;을 사용하여 기존 콘텐츠를 가져오거나 응답형 이메일을 처음부터 빌드할 수 있습니다. [자세히 알아보기](content-from-scratch.md)
+그런 다음 [!DNL Journey Optimizer]&#x200B;**이메일 디자인 기능**&#x200B;을 사용하여 기존 콘텐츠를 가져오거나 응답형 이메일을 처음부터 빌드할 수 있습니다. [자세히 알아보기](content-from-scratch.md)
 
 이메일 디자이너를 통해 다음 작업도 수행할 수 있습니다.
 
