@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 개인 정보 보호 도구를 사용하면 민감한
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
 
 개인 정보 관리 개요
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 개인 정보 보호 도구를 사용하면 민감한
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 개인 정보 보호 요청 관리
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer의 개인 정보 보호 도구를 사용하면 민감한
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 사용자 작업에 대한 감사 로그
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer의 개인 정보 보호 도구를 사용하면 민감한
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=ko)
 
 데이터 수명주기 작업 수행
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer의 개인 정보 보호 도구를 사용하면 민감한
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 동의 관리
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer의 개인 정보 보호 도구를 사용하면 민감한
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
 
 데이터 거버넌스 정책
 

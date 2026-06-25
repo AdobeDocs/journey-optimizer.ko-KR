@@ -65,7 +65,7 @@ Adobe Journey Optimizer에서 오퍼와 의사 결정을 만들고, 관리하고
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 의사 결정에 사용자 정의 업로드 대상자 활용
 

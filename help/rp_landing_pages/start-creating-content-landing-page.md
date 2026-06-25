@@ -20,7 +20,7 @@ Adobe Journey Optimizer에서 콘텐츠를 제작할 때는 유연성과 효율�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 맨 처음부터 이메일 콘텐츠 디자인하기
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 콘텐츠를 제작할 때는 유연성과 효율�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 기존 이메일 콘텐츠 가져오기
 
@@ -40,7 +40,7 @@ HTML 콘텐츠를 Adobe Journey Optimizer으로 가져오고, 디자인 요소�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 자체 이메일 콘텐츠 코딩
 
@@ -50,7 +50,7 @@ HTML 콘텐츠를 Adobe Journey Optimizer으로 가져오고, 디자인 요소�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 이메일 템플릿 작업
 
@@ -60,7 +60,7 @@ HTML 콘텐츠를 Adobe Journey Optimizer으로 가져오고, 디자인 요소�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 이메일 테마 활용
 
