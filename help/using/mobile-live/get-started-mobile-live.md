@@ -8,26 +8,16 @@ role: User
 level: Beginner
 exl-id: c9766603-df19-4efd-8319-27e9764254b4
 TQID: https://experienceleague.adobe.com/IB00r0QSfCthvgvyqubGwsaUoiJKBL-E96duLn4R5i0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: ed2fba79-65cb-4680-96d2-2ad5d851714d
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: ed2fba79-65cb-4680-96d2-2ad5d851714did: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 449
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +25,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** 라이브 활동이 iPhone 잠금 화면 및 Dynamic Island에서 지속적인 실시간 업데이트를 제공하므로 진행 중인 이벤트 동안 사용자의 참여를 유지하고 Adobe Journey Optimizer으로 보내는 데 필요한 구성 및 API 트리거 캠페인을 계획할 수 있습니다.
+**이 페이지의 내용:** 라이브 활동을 통해 iPhone 잠금 화면과 Dynamic Island에 지속적인 실시간 업데이트를 제공하여 진행 중인 이벤트에서 사용자의 참여를 유지하고 Adobe Journey Optimizer를 사용하여 해당 업데이트를 전송하는 데 필요한 구성과 API 트리거 캠페인을 계획하는 방법을 알아봅니다.
 
 >[!ENDSHADEBOX]
 
@@ -106,4 +96,4 @@ Adobe Journey Optimizer를 사용하면 API 트리거 캠페인을 통해 프로
 
 Adobe Journey Optimizer로 iOS 라이브 활동을 구성하여 iPhone 잠금 화면 및 Dynamic Island에서 다양한 실시간 업데이트를 제공하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479871/?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3479864/?learn=on)

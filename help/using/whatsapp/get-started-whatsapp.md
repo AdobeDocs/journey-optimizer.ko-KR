@@ -9,21 +9,15 @@ role: User
 level: Beginner
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
 TQID: https://experienceleague.adobe.com/uHzRC9X6rB9EXH4gIFiRxFaeNcrTD0-40RrxZkN4XFg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b8df23d2-98a2-4406-86cc-2babe8728d36
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b8df23d2-98a2-4406-86cc-2babe8728d36id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 01105f4dc3f6b52598c634373988570cf6916406
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 440
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +25,7 @@ ht-degree: 92%
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** 여정 및 캠페인에 WhatsApp을 추가하는 방법을 결정할 수 있도록 사전 요구 사항 및 제한 사항과 함께 Journey Optimizer에서 WhatsApp 채널이 작동하는 방식을 이해합니다.
+**이 페이지의 내용:** WhatsApp 채널이 Journey Optimizer에서 작동하는 방식과 필수 조건 및 제한 사항을 이해하여 여정과 캠페인에 WhatsApp을 추가하는 방법을 결정합니다.
 
 >[!ENDSHADEBOX]
 
@@ -76,7 +70,7 @@ WhatsApp 채널에는 다음 제한 사항이 적용됩니다.
 
 +++ 비디오 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3470251?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470244?learn=on)
 
 +++
 

@@ -6,8 +6,8 @@ description: 기존 단계 이벤트 필드
 redpen-status: CREATED_||_2025-08-11_20-53-35
 exl-id: 046a5e06-a827-4194-be1c-e6546a8da747
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '243'
+workflow-type: ht
+source-wordcount: '265'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 기존 단계 이벤트 필드는 고객 여정의 �
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 기존 필드 이해
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 기존 단계 이벤트 필드는 고객 여정의 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 여정 필드 개요
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer의 기존 단계 이벤트 필드는 고객 여정의 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 여정 단계 이벤트에 대한 일반 필드
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer의 기존 단계 이벤트 필드는 고객 여정의 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 액션 실행 필드
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer의 기존 단계 이벤트 필드는 고객 여정의 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 데이터 가져오기 필드
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer의 기존 단계 이벤트 필드는 고객 여정의 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 JourneyStep ID 필드
 

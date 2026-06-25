@@ -6,8 +6,8 @@ description: AI 모델
 redpen-status: CREATED_||_2025-08-11_20-55-44
 exl-id: 71f24028-0a4c-4945-ad74-d52472f59c1f
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: tm+mt
-source-wordcount: '218'
+workflow-type: ht
+source-wordcount: '241'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 AI 모델을 사용하면 비즈니스 목표와 고�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 AI 모델 시작
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 오퍼 순위를 매기기 위한 AI 모델을 만
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 자동 최적화 모델
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 오퍼 순위를 매기기 위한 AI 모델을 만
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 개인화된 최적화 모델
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer에서 오퍼 순위를 매기기 위한 AI 모델을 만
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 단계별 안내서: AI 모델 만들기
 

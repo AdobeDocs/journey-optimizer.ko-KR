@@ -6,8 +6,8 @@ description: 프로필
 redpen-status: CREATED_||_2025-08-11_20-46-38
 exl-id: 9fc17481-1983-4462-b904-4b24d69c797d
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: tm+mt
-source-wordcount: '187'
+workflow-type: ht
+source-wordcount: '202'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 프로필을 사용하면 여러 소스의 데이터�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 프로필 소개
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 실시간 고객 프로필을 통해 프로필을 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 테스트 프로필을 만드는 방법
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 여정 테스트, 콘텐츠 미리 보기, 증명�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 계산된 속성 작업
 

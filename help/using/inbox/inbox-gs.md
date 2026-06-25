@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 60190d0b-d8e7-4a78-9924-d948f2769f6c
 source-git-commit: c2bb6cf702a14b4eef8f2209082e39cd73338378
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '453'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 92%
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** 받은 편지함 채널이 앱 또는 웹 사이트 내에서 마케팅 메시지를 영구적인 한 위치에 보관하여 사용자가 편한 시간에 다시 읽고 작업할 수 있도록 하는 방법을 이해합니다.
+**이 페이지의 내용:** 받은 편지함 채널이 마케팅 메시지를 앱이나 웹 사이트 내 한 곳에 고정적으로 보관하여 사용자가 언제든 편리하게 다시 읽고 조치를 취할 수 있도록 하는 방법을 알아봅니다.
 
 >[!ENDSHADEBOX]
 

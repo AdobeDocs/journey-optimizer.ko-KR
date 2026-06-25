@@ -6,20 +6,15 @@ level: Beginner
 feature: Approval
 exl-id: 92d1439e-5cac-4e7d-85f8-ebf432e9ef7c
 TQID: https://experienceleague.adobe.com/dKfstmm0ilHKUATU-sz7c04IZBu2O7Ju-srPPoKJVl4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-subfeature_v2:
-  - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+subfeature_v2: id: bf7a266e-e483-42c6-b5bc-09ca6e49900cid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
 source-git-commit: 36b855c6d66a614f4c0374cbd1b4746ec68fde21
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1037
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +22,7 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** 포함된 승인 프로세스는 검토 중에 여정과 캠페인을 잠궈 적절한 이해 당사자가 종료되도록 하므로 모든 요청이 중앙에서 관리 및 추적됩니다.
+**이 페이지의 내용:** 포함된 승인 프로세스를 통해 여정과 캠페인은 검토 중에 잠금 상태가 유지되므로 관련 이해 당사자가 승인해야만 게시될 수 있으며, 모든 요청은 중앙에서 관리 및 추적됩니다.
 
 >[!ENDSHADEBOX]
 
@@ -146,4 +141,4 @@ ht-degree: 93%
 * **[승인 정책 만들기](approval-policies.md)** - 캠페인 및 여정에 검토 워크플로를 적용하기 위해 승인 정책을 설정하는 방법에 대해 알아봅니다.
 * **[승인 요청](request-approval.md)** - 승인을 위해 콘텐츠를 제출하고 승인 상태를 추적하는 방법을 이해합니다.
 * **[요청 검토 및 승인](review-approve-request.md)** - 승인자로서 승인 요청을 검토, 승인 또는 거부하는 방법을 알아봅니다.
-* **[콘텐츠 변형 시뮬레이션](simulate-sample-input.md)** - **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭하여 샘플 입력 데이터, AI 자동 생성 또는 시뮬레이션된 사용자를 사용하여 콘텐츠 변형을 테스트합니다. **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭한 다음 드롭다운에서 **[!UICONTROL 콘텐츠 시뮬레이션(AEP 프로필)]**&#x200B;을 선택하여 테스트 프로필로 미리 봅니다.
+* **[콘텐츠 변형 시뮬레이션](simulate-sample-input.md)** - **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭하여 샘플 입력 데이터, AI 자동 생성 또는 시뮬레이션된 사용자를 사용하여 콘텐츠 변형을 테스트합니다. **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭한 후 드롭다운에서 **[!UICONTROL 콘텐츠 시뮬레이션(AEP 프로필)]**&#x200B;을 선택하여 테스트 프로필로 미리 봅니다.

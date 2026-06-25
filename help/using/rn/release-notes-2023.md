@@ -9,14 +9,10 @@ hide: true
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: 9372a9bed5c6da5db33567557944d69af9d56913
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 4372
 ht-degree: 100%
 
@@ -197,7 +193,7 @@ ht-degree: 100%
 
 **경고**
 
-* 새로운 유형의 시스템 경고가 도입되었습니다. 이제 **대상자 읽기** 활동이 실패하면 알림을 받을 수 있습니다. [자세히 알아보기](../reports/alerts.md)
+* 새로운 유형의 시스템 경고가 도입되었습니다. 이제 **대상자 읽기** 활동이 실패하면 알림을 받을 수 있습니다. [자세히 알아보기](../reports/alerts.md).
 
 **웹 채널**
 
@@ -323,7 +319,7 @@ A new option is available in the email surface settings to include email address
 
 **여정**
 
-* 이제 사용자 정의 작업에 API 호출 응답을 활용하고, 이 응답을 기반으로 여정을 오케스트레이션할 수 있습니다. 이 기능은 현재 Beta로 사용할 수 있습니다. [자세히 알아보기](../action/action-response.md)
+* 이제 사용자 정의 작업에 API 호출 응답을 활용하고, 이 응답을 기반으로 여정을 오케스트레이션할 수 있습니다. 이 기능은 현재 Beta로 사용할 수 있습니다. [자세히 알아보기](../action/action-response.md).
 * 새로운 유형의 시스템 경고가 추가되었습니다. 이제 사용자 정의 액션이 실패하면 알림을 받을 수 있습니다. [자세히 알아보십시오](../reports/alerts.md).
   <!--* When duplicating a journey, you can now define the name of the journey copy.-->
 
@@ -449,7 +445,7 @@ A new option is available in the email surface settings to include email address
 
 **API**
 
-Adobe Journey Optimizer APIsauthentication용 액세스 토큰을 생성하는 JWT 메서드가 더 이상 사용되지 않습니다. 모든 새 통합은 OAuth 서버 간 인증 방법을 사용하여 생성해야 합니다. 또한 Adobe 기존 통합을 OAuth 메서드로 마이그레이션할 것을 권장합니다. [자세히 알아보기](https://developer.adobe.com/journey-optimizer-apis/references/authentication){target="_blank"}
+Adobe Journey Optimizer APIsauthentication용 액세스 토큰을 생성하는 JWT 메서드가 더 이상 사용되지 않습니다. 모든 새 통합은 OAuth 서버 간 인증 방법을 사용하여 생성해야 합니다. 또한 Adobe 기존 통합을 OAuth 메서드로 마이그레이션할 것을 권장합니다. [자세히 알아보기](https://developer.adobe.com/journey-optimizer-apis/references/authentication){target="_blank"}.
 
 
 **기타 변경 사항**

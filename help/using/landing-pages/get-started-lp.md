@@ -10,25 +10,16 @@ level: Beginner
 keywords: 랜딩, 랜딩 페이지, 시작, 시작하기
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
 TQID: https://experienceleague.adobe.com/wr4XGNostKoN8jZ50VRAQPoGg9tsNhMOyJGEt1mASso
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b19d9237-76be-466d-a869-aacf2d72205f
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: fb9a80eb-bebc-492f-a0e9-584595621ebbid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 2956c3df01f4b2e753111ecf54163ec4084fecf2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 781
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +27,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** 랜딩 페이지에서 이메일, 광고 또는 캠페인을 클릭하여 고객이 옵트인하거나 옵트아웃하고, 환경 설정을 관리하고, 프로필 데이터를 공유하는 전용 웹 대상으로 전환하면 동의 대상을 늘리고 개인화를 지원하는 자사 데이터를 캡처할 수 있습니다.
+**이 페이지의 내용:** 랜딩 페이지는 이메일, 광고 또는 캠페인에서 클릭한 고객을 전용 웹 대상으로 연결하여 고객이 동의 또는 거부하고, 환경 설정을 관리하며, 프로필 데이터를 공유할 수 있도록 지원합니다. 이를 통해 동의한 대상자를 늘리고 개인화를 지원하는 자사 데이터를 확보할 수 있습니다.
 
 >[!ENDSHADEBOX]
 
@@ -135,6 +126,6 @@ ht-degree: 94%
 
 아래 비디오에서는 구독 목록을 만들고, 서비스 옵트인/옵트아웃을 위한 랜딩 페이지를 설정하고, 메시지에 옵트인/옵트아웃 옵션을 통합하고, 관련 여정을 구성하는 방법을 확인할 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/344401?captions=kor&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)
 
 ➡️ **실제 활용 보기:** 구독 관리, 확인 이메일, 데이터 캡처 시나리오에 대한 단계별 예시를 보려면 [랜딩 페이지 사용 사례](lp-use-cases.md)를 살펴보십시오.
