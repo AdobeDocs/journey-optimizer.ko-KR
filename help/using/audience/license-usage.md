@@ -9,28 +9,16 @@ role: User
 level: Beginner
 exl-id: 7e91face-c8f4-4e70-9123-9e36bae7e67e
 TQID: https://experienceleague.adobe.com/KrsJKfvAPAE5yW2Lgrc-MrMUtoxi336rsmQIglfs7Mc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5deeid: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
 workflow-type: tm+mt
-source-wordcount: 894
-ht-degree: 3%
+source-wordcount: 742
+ht-degree: 6%
 
 ---
 
@@ -38,7 +26,7 @@ ht-degree: 3%
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** Adobe Journey Optimizer 라이선스 사용 대시보드를 사용하여 참여 가능한 프로필을 모니터링하고 예기치 않은 프로필 수 증가 문제를 해결하는 방법을 알아봅니다.
+**이 페이지에서:** Adobe Journey Optimizer 라이선스 사용 대시보드를 탐색하고 참여 가능한 프로필 수에 대한 예기치 않은 증가 문제를 해결하는 방법을 알아봅니다.
 
 >[!ENDSHADEBOX]
 
@@ -50,29 +38,11 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->* 대시보드를 보려면 [라이선스 사용량 대시보드 보기](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html?lang=ko#available-permissions){target="_blank"} 권한이 있어야 합니다.
+>* 대시보드를 보려면 [라이선스 사용량 대시보드 보기](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html#available-permissions){target="_blank"} 권한이 있어야 합니다.
 >
 >* 할당량 열에 `N/A`로 표시된 대로 특정 지표(예: 계산 시간, 이메일)는 개발 샌드박스에 표시되지 않습니다. 대시보드에는 null이 아닌 값만 표시됩니다. 지표가 0이거나 0에 가까우면 값이 채워지지 않습니다.
 
-
-[!DNL Adobe Journey Optimizer]의 경우 대시보드에서 **참여 가능한 프로필**&#x200B;의 수를 확인할 수 있습니다.
-
-## 참여 가능한 프로필이란? {#what-is-engageable-profile}
-
-**참여 가능 프로필**&#x200B;은(는) 프로필 서비스에 저장되어 있으며 여정 또는 캠페인에 참여한 개인을 나타내는 정보 레코드입니다.
-
-참여 가능한 프로필의 주요 특징:
-
-* **12개월 순환 기간**: 참여 가능한 프로필은 지난 12개월 동안의 참여를 기준으로 계산됩니다. 이 지표는 Journey Optimizer의 작성, 의사 결정, 게재, 실험 또는 오케스트레이션 기능을 사용하여 관여하려고 한 고유한 프로필 수를 보여줍니다.
-
-* **샌드박스당 고유 개수**: 프로필이 샌드박스 내에 여러 개의 여정 또는 캠페인을 입력하는 경우 해당 샌드박스에 대한 단일 참여 가능 프로필로 한 번만 계산됩니다.
-
-* **대응 가능 대상 기반**: 참여 가능 프로필은 대응 가능 대상에서 계산됩니다. 총 대응 가능 대상 중 Journey Optimizer의 기능을 사용하여 지난 12개월 동안 관여한 대상을 나타내는 수입니다.
-
-* **지표 동작**: 참여 가능한 프로필 수:
-   * 여정 또는 캠페인을 통해 새 프로필이 참여하면 증가할 수 있습니다
-   * 12개월 이상 특정 프로필에 참여하지 않는 한 줄일 수 없습니다
-   * 익명 프로필이 알려진 프로필에 결합되는 경우 감소할 수 있음
+[!DNL Adobe Journey Optimizer]의 경우 대시보드에서 **참여 가능한 프로필**&#x200B;의 수를 확인할 수 있습니다. 즉, 연속 12개월 기간 동안 여정, 캠페인 또는 의사 결정을 통해 참여한 고유한 프로필입니다. 참여 가능한 프로필 정의 및 계산 방법에 대한 자세한 내용은 [참여 가능한 프로필 및 라이선스 사용](get-started-profiles.md#engageable-profiles)을 참조하세요.
 
 >[!NOTE]
 >
@@ -137,7 +107,7 @@ ht-degree: 3%
 
 Adobe Experience Platform 설명서에서 자세히 알아보십시오.
 
-* [라이선스 사용 대시보드 개요](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=ko){target="_blank"}
-* [라이선스 사용 대시보드 살펴보기](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=ko#exploring-the-license-usage-dashboard){target="_blank"}
+* [라이선스 사용 대시보드 개요](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html){target="_blank"}
+* [라이선스 사용 대시보드 살펴보기](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#exploring-the-license-usage-dashboard){target="_blank"}
 * [사용 가능한 지표](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=ko#available-metrics){target="_blank"}
-* [익명 프로필 데이터 만료](https://experienceleague.adobe.com/docs/experience-platform/profile/pseudonymous-profiles.html?lang=ko){target="_blank"}
+* [익명 프로필 데이터 만료](https://experienceleague.adobe.com/docs/experience-platform/profile/pseudonymous-profiles.html){target="_blank"}
