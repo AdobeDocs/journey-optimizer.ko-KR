@@ -11,26 +11,13 @@ keywords: 여정, 첫 번째, 시작, 빠른 시작, 대상, 이벤트, 작업
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/7zNDOi2SUTyttgR6I1iOYQb61ejxpqLYznweU8alnPw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: c1579802-ddd4-4214-8a91-97b2066abe11id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
 workflow-type: tm+mt
 source-wordcount: 2143
 ht-degree: 9%
@@ -92,7 +79,7 @@ ht-degree: 9%
 |---|---|---|
 | **[대상자 읽기](read-audience.md)** | 정의된 프로필 집합(뉴스레터, 프로모션, 온보딩 시리즈)에 예약된 메시지나 반복 메시지를 보내려고 합니다. | 일괄 처리 대상의 모든 프로필을 한 번에 또는 일정에 따라. |
 | **[대상 자격](audience-qualification-events.md)** | 프로필이 대상자에 들어오거나 나갈 때(충성도 계층 업그레이드, 이탈 위험 플래그) 실시간으로 반응해야 합니다. | 스트리밍 대상에 자격을 부여하는 즉시 한 번에 하나의 프로필로 만듭니다. |
-| **단일 이벤트** | 프로필 작업은 즉시 응답(구매 확인, 양식 제출, 앱 로그인)을 트리거합니다. | 한 번에 하나씩, 실시간으로 |
+| **단일 이벤트** | 프로필 작업은 즉시 응답(장바구니 포기, 양식 제출, 앱 로그인)을 트리거합니다. | 한 번에 하나씩, 실시간으로 |
 | **[비즈니스 이벤트](../event/about-creating-business.md)** | 프로필이 아닌 이벤트는 여러 사람에게 한 번에 영향을 줍니다(비행 취소, 재고 보충, 최신 뉴스 경고). | 자동 대상자 읽기 단계를 통해 이벤트와 연결된 모든 프로필입니다. |
 
 다음 요소는 선택 사항이지만 사용 사례에 따라 필요할 수 있습니다.
@@ -147,9 +134,9 @@ ht-degree: 9%
 
 ## 여정 테스트 {#jo-test}
 
-여정을 빌드했으면 게시하기 전에 테스트합니다. Journey Optimizer은 여정을 따라 이동하면서 테스트 프로필을 볼 수 있는 방법으로 **테스트 모드**&#x200B;를 제공하여 활성화 전에 잠재적인 오류를 감지합니다. 빠른 테스트를 실행하면 여정이 올바르게 작동하여 안심하고 게시할 수 있습니다. 이 섹션[&#128279;](testing-the-journey.md)에서 여정 을(를) 테스트하는 방법을 알아보세요.
+여정을 빌드했으면 게시하기 전에 테스트합니다. Journey Optimizer은 여정을 따라 이동하면서 테스트 프로필을 볼 수 있는 방법으로 **테스트 모드**&#x200B;를 제공하여 활성화 전에 잠재적인 오류를 감지합니다. 빠른 테스트를 실행하면 여정이 올바르게 작동하여 안심하고 게시할 수 있습니다. 이 섹션](testing-the-journey.md)에서 여정 [을(를) 테스트하는 방법을 알아보세요.
 
-**시험 실행**&#x200B;에서도 여정을 실행할 수 있습니다. 여정 시험 실행은 Adobe Journey Optimizer의 특별한 여정 게시 모드로, 이를 통해 여정 실무자가 실제 고객과 연락하거나 프로필 정보를 업데이트하지 않고도 실제 프로덕션 데이터를 사용하여 여정을 테스트할 수 있습니다. 이 기능을 사용하여 여정 실무자는 여정 설계와 대상 타기팅에 대한 확신을 가지고 라이브로 게시할 수 있습니다. 이 섹션[&#128279;](journey-dry-run.md)에서 여정을 시험 실행 모드 에 게시하는 방법을 알아봅니다.
+**시험 실행**&#x200B;에서도 여정을 실행할 수 있습니다. 여정 시험 실행은 Adobe Journey Optimizer의 특별한 여정 게시 모드로, 이를 통해 여정 실무자가 실제 고객과 연락하거나 프로필 정보를 업데이트하지 않고도 실제 프로덕션 데이터를 사용하여 여정을 테스트할 수 있습니다. 이 기능을 사용하여 여정 실무자는 여정 설계와 대상 타기팅에 대한 확신을 가지고 라이브로 게시할 수 있습니다. 이 섹션](journey-dry-run.md)에서 여정을 시험 실행 모드 [에 게시하는 방법을 알아봅니다.
 
 ## 여정 게시 {#jo-pub}
 
