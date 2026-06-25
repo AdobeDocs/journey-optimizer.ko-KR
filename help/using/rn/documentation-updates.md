@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: e6bc40f1a7df65fa8ae338c9e266c76728cf428a
+source-git-commit: 9a92d14861c34446c3ccec6dea89403585c54a36
 workflow-type: tm+mt
-source-wordcount: 8799
+source-wordcount: 8836
 ht-degree: 91%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 91%
 이 페이지에는 월별 릴리스 기능 및 개선 사항과 관련된 업데이트 외에도 [!DNL Journey Optimizer] 설명서의 모든 최신 변경 사항이 나와 있습니다.
 
 ## 2026년 6월 {#june-2026}
+
+* **분할** 활동 설명서가 업데이트되어 각 하위 집합 설정에서 사용할 수 있는 **[!UICONTROL 세그먼트 코드]** 필드를 문서화했습니다. 이를 통해 추적 및 보고를 위해 각 대상 세그먼트에 고유한 식별자를 할당할 수 있습니다. [자세히 보기](../orchestrated/activities/split.md)
 
 * **타깃팅 차원 구성** 페이지가 오케스트레이션된 캠페인에서 사용할 수 있는 두 가지 타깃팅 차원 유형, 즉 기본 제공 **프로필 타깃팅 차원**(구성 필요 없음)과 관계형 스키마를 기반으로 하는 **사용자 지정 타깃팅 차원**&#x200B;을 문서화하도록 업데이트되었습니다. [자세히 보기](../orchestrated/target-dimension.md)
 

@@ -12,10 +12,10 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+source-git-commit: 9a92d14861c34446c3ccec6dea89403585c54a36
 workflow-type: tm+mt
-source-wordcount: 832
-ht-degree: 85%
+source-wordcount: 876
+ht-degree: 80%
 
 ---
 
@@ -99,6 +99,8 @@ ht-degree: 85%
    1. **[!UICONTROL 필터 만들기]**&#x200B;를 클릭하여 규칙 빌더를 사용하여 필터링 규칙을 정의합니다. 예를 들어 올바른 전자 메일 주소가 있는 프로필을 선택합니다.
 
       ![](../assets/orchestrated-split-1.png)
+
+   1. **[!UICONTROL 세그먼트 코드]** 필드에 로그에서 하위 집합을 식별하는 코드를 입력하십시오. 이 코드는 프로필 데이터와 함께 저장되며 각 세그먼트의 성능을 추적하고 측정하는 데 사용할 수 있습니다. 비워 두면 하위 집합 레이블이 자동으로 사용됩니다.
 
    1. 선택하는 프로필의 수를 제한하려면 **[!UICONTROL 제한 활성화]**&#x200B;를 사용하도록 설정하고 숫자나 백분율을 지정합니다.
 
