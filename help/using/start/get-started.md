@@ -36,7 +36,7 @@ topic_v2:
 source-git-commit: ea5309c91db90e54b0c965a34d84b29c57314c62
 workflow-type: tm+mt
 source-wordcount: 804
-ht-degree: 82%
+ht-degree: 85%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 82%
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** Adobe Journey Optimizer이 무엇인지, 핵심 기능 및 구체적인 사용 사례를 이해하여 고객 참여 목표에 어떻게 적합한지 결정할 수 있습니다.
+**이 페이지의 내용:** Adobe Journey Optimizer의 핵심 기능과 구체적인 사용 사례를 이해하여 고객 참여 목표에 어떻게 적용할 수 있는지 결정합니다.
 
 >[!ENDSHADEBOX]
 

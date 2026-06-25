@@ -31,7 +31,7 @@ topic_v2:
 source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
 workflow-type: tm+mt
 source-wordcount: 1168
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** 팀이 Adobe Journey Optimizer에서 안전하고 효율적으로 작업할 수 있도록 사용자, 권한, 샌드박스 및 채널 구성을 설정합니다.
+**이 페이지의 내용:** 팀이 Adobe Journey Optimizer에서 안전하고 효율적으로 작업할 수 있도록 사용자, 권한, 샌드박스 및 채널 구성을 설정합니다.
 
 >[!ENDSHADEBOX]
 

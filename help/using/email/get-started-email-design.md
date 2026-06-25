@@ -33,7 +33,7 @@ topic_v2:
 source-git-commit: 94f6692162ca7d37cf5d9df4c0f48371bafec9fc
 workflow-type: tm+mt
 source-wordcount: 821
-ht-degree: 87%
+ht-degree: 92%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 87%
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** 전자 메일 Designer에서 전자 메일 콘텐츠를 디자인하는 방법, 처음부터 빌드하는 주요 단계, 코드 또는 가져온 HTML, 클라이언트 간에 전자 메일이 잘 렌더링되도록 하는 모범 사례에 대해 알아봅니다.
+**이 페이지에서 다루는 내용:** 이메일 디자이너에서 이메일 콘텐츠를 디자인하는 방법, 처음부터 코드를 작성하거나 가져온 HTML을 사용하여 이메일을 작성하는 주요 단계, 그리고 다양한 클라이언트에서 이메일이 제대로 표시되도록 하는 모범 사례를 알아봅니다.
 
 >[!ENDSHADEBOX]
 

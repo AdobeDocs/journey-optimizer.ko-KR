@@ -29,7 +29,7 @@ topic_v2:
 source-git-commit: 79b0c44fffb4297a9a5675200f086c5de544ec88
 workflow-type: tm+mt
 source-wordcount: 609
-ht-degree: 72%
+ht-degree: 78%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 72%
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** Adobe Journey Optimizer에서 개인화 및 오케스트레이션된 캠페인을 위해 프로필, 동작 이벤트 및 관계형 엔터티를 모델링할 수 있도록 Adobe Experience Platform 표준 및 관계형 스키마가 데이터 구조를 정의하는 방법을 이해합니다.
+**이 페이지의 내용:** Adobe Experience Platform 표준 및 관계형 스키마가 데이터 구조를 정의하는 방식을 이해하여 Adobe Journey Optimizer에서 개인화 및 오케스트레이션된 캠페인을 위한 프로필, 행동 이벤트 및 관계형 엔티티를 모델링합니다.
 
 >[!ENDSHADEBOX]
 

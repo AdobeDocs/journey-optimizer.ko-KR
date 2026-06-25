@@ -25,7 +25,7 @@ topic_v2:
 source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
 source-wordcount: 826
-ht-degree: 93%
+ht-degree: 96%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** 범용 검색, 목록 필터 및 태그를 사용하여 여정, 캠페인 및 자산을 빠르게 찾고 구성하면 Journey Optimizer 프로젝트 성장에 따라 생산성을 유지할 수 있습니다.
+**이 페이지의 내용:** 통합 검색, 목록 필터 및 태그를 사용하여 여정, 캠페인 및 자산을 빠르게 찾고 구성하여 Journey Optimizer 프로젝트가 성장함에 따라 생산성을 유지할 수 있습니다.
 
 >[!ENDSHADEBOX]
 

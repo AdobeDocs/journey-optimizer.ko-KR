@@ -31,7 +31,7 @@ topic_v2:
 source-git-commit: 79b0c44fffb4297a9a5675200f086c5de544ec88
 workflow-type: tm+mt
 source-wordcount: 2696
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** 여정과 캠페인을 빌드하기 전에 팀이 데이터 준비 단계를 완료할 수 있도록 스키마, 데이터 세트, ID, 프로필 및 데이터 소스에 대해 다루는 데이터가 Adobe Journey Optimizer에서 들어오고 나가는 방식에 대한 실용적인 개요를 살펴보십시오.
+**이 페이지의 내용:** 스키마, 데이터 세트, ID, 프로필 및 데이터 소스를 포함하여 Adobe Journey Optimizer로 데이터가 유입되고 유출되는 방식에 대한 실질적인 개요를 통해 팀에서 여정과 캠페인을 구축하기 전에 데이터 준비 단계를 완료할 수 있도록 지원합니다.
 
 >[!ENDSHADEBOX]
 

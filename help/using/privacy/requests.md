@@ -26,7 +26,7 @@ subfeature_v2:
 source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
 source-wordcount: 573
-ht-degree: 89%
+ht-degree: 95%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** Adobe Experience Platform Privacy Service을 사용하여 Adobe Journey Optimizer에 대한 데이터 액세스 및 삭제 요청을 제출하고 관리하면 데이터 주체 권한을 이행하고 개인정보 보호 규정 준수를 자동화할 수 있습니다.
+**이 페이지의 내용:** Adobe Experience Platform Privacy Service를 사용하여 Adobe Journey Optimizer에 대한 데이터 액세스 및 삭제 요청을 제출하고 관리함으로써 데이터 주체의 권리를 준수하고 개인 정보 보호 규정 준수를 자동화할 수 있습니다.
 
 >[!ENDSHADEBOX]
 

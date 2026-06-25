@@ -37,7 +37,7 @@ topic_v2:
 source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
 workflow-type: tm+mt
 source-wordcount: 2278
-ht-degree: 70%
+ht-degree: 71%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 70%
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** 개인화된 고객 경험을 구축하기 위한 여정 유형, 디자인 워크플로, 주요 기능 및 모범 사례를 포함하여 Adobe Journey Optimizer의 여정에 대한 기본 사항에 대해 알아봅니다.
+**이 페이지의 내용:** Adobe Journey Optimizer에서 여정 유형, 디자인 워크플로, 주요 기능 및 개인화된 고객 경험 구축을 위한 모범 사례를 포함하는 여정의 기본 사항을 알아봅니다.
 
 >[!ENDSHADEBOX]
 

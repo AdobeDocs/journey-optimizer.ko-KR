@@ -30,7 +30,7 @@ topic_v2:
 source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
 workflow-type: tm+mt
 source-wordcount: 1727
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** Journey Optimizer에서 대상을 구축하고, 콘텐츠를 디자인하고, 개인화된 고객 경험을 제공하는 여정 및 캠페인을 조정할 수 있도록 마케터를 위한 시작 경로를 따르십시오.
+**이 페이지의 내용:** 마케터를 위한 시작 경로를 따라 Journey Optimizer에서 개인화된 고객 경험을 제공하는 대상자를 구축하고, 콘텐츠를 디자인하며, 여정과 캠페인을 구성합니다.
 
 >[!ENDSHADEBOX]
 

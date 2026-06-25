@@ -26,7 +26,7 @@ topic_v2:
 source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
 source-wordcount: 389
-ht-degree: 88%
+ht-degree: 95%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 88%
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** Adobe Journey Optimizer에서 푸시 알림을 시작하여 여정 및 캠페인을 통해 모바일 앱 사용자 및 웹 방문자에게 연결합니다.
+**이 페이지의 내용:** Adobe Journey Optimizer에서 푸시 알림을 시작하여 여정과 캠페인을 통해 모바일 앱 사용자 및 웹 방문자에게 도달합니다.
 
 >[!ENDSHADEBOX]
 

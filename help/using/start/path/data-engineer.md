@@ -32,7 +32,7 @@ topic_v2:
 source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
 workflow-type: tm+mt
 source-wordcount: 1072
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** 팀이 개인화된 실시간 고객 경험을 제공할 수 있도록 Adobe Journey Optimizer을 지원하는 스키마, 데이터 세트, ID 및 데이터 소스를 빌드합니다.
+**이 페이지의 내용:** Adobe Journey Optimizer를 지원하는 스키마, 데이터 세트, ID 및 데이터 소스를 구축하여 팀에서 실시간으로 개인화된 고객 경험을 제공할 수 있습니다.
 
 >[!ENDSHADEBOX]
 

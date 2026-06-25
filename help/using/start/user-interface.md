@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: 3e260764d161e63011d848e2f46de57e3488d9fa
 workflow-type: tm+mt
 source-wordcount: 1614
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** 필요한 기능에 빠르게 액세스할 수 있도록 Adobe Journey Optimizer 인터페이스(상단 표시줄, 홈 페이지 및 왼쪽 탐색)를 살펴보십시오.
+**이 페이지의 내용:** Adobe Journey Optimizer 인터페이스(상단 메뉴, 홈 페이지 및 왼쪽 탐색 메뉴)를 탐색하여 필요한 기능과 도구에 빠르게 액세스합니다.
 
 >[!ENDSHADEBOX]
 

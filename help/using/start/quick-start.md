@@ -43,7 +43,7 @@ topic_v2:
 source-git-commit: ea5309c91db90e54b0c965a34d84b29c57314c62
 workflow-type: tm+mt
 source-wordcount: 2102
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** 팀에 적합한 시작점과 빠른 시작 작업을 찾을 수 있도록 Adobe Journey Optimizer 구현의 주요 역할과 책임을 이해합니다.
+**이 페이지의 내용:** Adobe Journey Optimizer 구현의 핵심 역할과 각 역할의 책임을 파악하여 팀에 적합한 시작점과 빠른 시작 작업을 찾습니다.
 
 >[!ENDSHADEBOX]
 

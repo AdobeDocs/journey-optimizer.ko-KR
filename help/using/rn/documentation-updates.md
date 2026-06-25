@@ -17,7 +17,7 @@ subfeature_v2:
 source-git-commit: 6d8650fc9963c21122f84c2ffd965089f158d8ed
 workflow-type: tm+mt
 source-wordcount: 8952
-ht-degree: 90%
+ht-degree: 94%
 
 ---
 
@@ -50,17 +50,17 @@ ht-degree: 90%
 
 * **`nowWithDelta()`날짜 함수** 설명서가 월말 동작을 명확하게 하도록 업데이트되었습니다. 대상 월의 일수가 현재 날짜보다 적은 경우 결과는 해당 달의 마지막 유효 날짜로 표준화됩니다. [자세히 보기](../building-journeys/functions/date-functions.md#nowWithDelta)
 
-* **게재 기능 시작** 페이지가 수신자별 FBL이 없는 새 **공급자** 하위 섹션으로 업데이트되었습니다. Gmail/Google Workspace, Apple iCloud 및 Corporate Microsoft 365/Exchange Online 등 수신자별 스팸 불만을 반환하지 않는 주요 사서함 공급자를 나열하고 이러한 서비스를 사용하는 수신자에게 제외 목록 항목의 부재가 예상되는 이유를 설명합니다. [자세히 보기](../reports/deliverability.md#providers-no-fbl)
+* **전달성 시작** 페이지에 **수신자별 FBL이 없는 공급자** 하위 섹션이 새로 추가되었습니다. 이 섹션에는 수신자별 스팸 신고를 반환하지 않는 주요 사서함 공급자(Gmail/Google Workspace, Apple iCloud, Microsoft 365/Exchange Online)가 나열되어 있으며, 이러한 서비스를 사용하는 수신자의 경우 금지 목록 항목이 없는 것이 예상되는 이유를 설명합니다. [자세히 보기](../reports/deliverability.md#providers-no-fbl)
 
-* **이제 DM 채널에 Experience Decisioning을 사용할 수 있습니다.** 새 **DM의 일괄 의사 결정** 페이지에서는 의사 결정 엔진을 사용하여 DM 추출 파일을 개인화하거나 다운스트림 시스템에서 사용할 프로필 및 의사 결정 결과를 내보내는 방법을 설명합니다. **DM**&#x200B;이(가) **[!UICONTROL 항목 수]** 필드를 통해 프로필당 여러 결정 항목을 반환하는 기능을 포함하여 의사 결정 문서(시작, 의사 결정 정책 만들기, 메시지에 의사 결정 정책 사용, 의사 결정 정책 시작)에서 지원되는 채널로 추가되었습니다. [자세히 보기](../experience-decisioning/batch-decisioning-direct-mail.md)
+* **이제 다이렉트 메일 채널에서도 경험 결정 기능을 사용할 수 있습니다.** 새로운 **다이렉트 메일 배치 결정** 페이지에서는 결정 엔진을 사용하여 다이렉트 메일 추출 파일을 개인화하거나 프로필과 해당 결정 결과를 하위 시스템에서 사용할 수 있도록 내보내는 방법을 설명합니다. **다이렉트 메일**&#x200B;이 결정 설명서(시작, 결정 정책 만들기, 메시지에서 결정 정책 사용, 결정 정책 시작) 전반에서 지원되는 채널로 추가되었으며, **[!UICONTROL 항목 수]** 필드를 통해 프로필당 여러 결정 항목을 반환할 수 있는 기능이 포함됩니다. [자세히 보기](../experience-decisioning/batch-decisioning-direct-mail.md)
 
-* **여정 조각** 설명서는 더 이상 제한된 가용성으로 플래그가 지정되지 않습니다. 이제 페이지에는 콘텐츠 **[!UICONTROL 조각]** 및 **AEM 콘텐츠 조각**(세 페이지 모두에서 상호 연결됨)의 여정 조각을 명확히 하는 메모가 포함되어 있으며 **샌드박스 도구**, **감사 로그** 및 **태그 지정**&#x200B;을 지원하는 문서가 있습니다. 여정 조각이 **여정 시작** 페이지에도 추가되었습니다. [자세히 보기](../building-journeys/journey-fragments.md)
+* **여정 조각** 설명서는 더 이상 제한 공급으로 플래그가 지정되지 않습니다. 이제 페이지에는 여정 조각과 콘텐츠 **[!UICONTROL 조각]** 및 **AEM 콘텐츠 조각**(세 페이지에서 모두 교차 링크됨)을 구분하는 메모가 포함되어 있으며, **샌드박스 도구**, **감사 로그** 및 **태그 지정**&#x200B;에 대한 지원이 문서화되어 있습니다. 여정 조각이 **여정 시작** 페이지에도 추가되었습니다. [자세히 보기](../building-journeys/journey-fragments.md)
 
-* 사용자 지정 인증을 위해 **외부 데이터 원본** 및 **사용자 지정 작업** 설명서를 업데이트했습니다. 이제 `tokenInResponse` 필드를 사용하여 끝점이 둘 다 반환할 때 `access_token` 또는 `id_token`을(를) 인증 자격 증명으로 사용할지 여부를 지정할 수 있습니다. 인증서 기반 사용자 지정 인증의 경우 `subType` 및 `aud` 필드는 이제 필수입니다. 토큰 끝점 `method`은(는) `POST`이어야 하며 &quot;Azure Entra ID&quot;에 대한 참조가 &quot;Microsoft Entra ID&quot;로 수정되었습니다. [자세히 보기](../datasource/external-data-sources.md#certificate-credential)
+* **외부 데이터 소스** 및 **사용자 정의 액션** 설명서가 사용자 정의 인증에 맞게 업데이트되었습니다. 이제 `tokenInResponse` 필드를 사용하면 엔드포인트가 두 가지 인증 자격 증명을 모두 반환할 때 `access_token` 또는 `id_token` 중 어느 것을 인증 자격 증명으로 사용할지 지정할 수 있습니다. 인증서 기반 사용자 정의 인증의 경우 `subType` 및 `aud` 필드가 필수이며, 토큰 엔드포인트 `method`은(는) `POST`이어야 하고, “Azure Entra ID&quot;에 대한 참조가 &quot;Microsoft Entra ID”로 수정되었습니다. [자세히 보기](../datasource/external-data-sources.md#certificate-credential)
 
-* **의사 결정 시작하기** 페이지가 의사 결정 항목 관리 및 선택 전략 구성에서 여정 또는 캠페인에 의사 결정 정책을 포함시키는 것까지 전체적인 의사 결정 워크플로를 요약하는 프로세스 차트로 업데이트되었습니다. [자세히 보기](../experience-decisioning/gs-experience-decisioning.md#process)
+* **결정 시작** 페이지가 업데이트되어 결정 항목 관리 및 선택 전략 구성부터 결정 정책을 여정 또는 캠페인에 포함하는 것까지 엔드투엔드 결정 워크플로를 요약한 프로세스 차트가 추가되었습니다. [자세히 보기](../experience-decisioning/gs-experience-decisioning.md#process)
 
-* 이제 **보낸 사람 헤더** 설명서에 **[!UICONTROL 보낸 사람 이름]**&#x200B;과(와) **[!UICONTROL 보낸 사람 전자 메일]**&#x200B;을(를) 모두 설정하거나 모두 비워 두어야 한다고 명시되어 있습니다. 그렇지 않으면 여정 및 캠페인을 게시할 수 없습니다. [자세히 보기](../email/header-parameters.md#sender-header)
+* **보낸 사람 헤더** 설명서에서는 이제 **[!UICONTROL 보낸 사람 이름]**&#x200B;과 **[!UICONTROL 보낸 사람 이메일]**&#x200B;을 모두 설정하거나 모두 비워 두어야 하며, 그렇지 않으면 여정과 캠페인을 게시할 수 없다는 점을 명확히 합니다. [자세히 보기](../email/header-parameters.md#sender-header)
 
 ## 2026년 5월 {#may-2026}
 
