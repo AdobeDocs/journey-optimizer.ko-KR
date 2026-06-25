@@ -22,7 +22,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ae7ea7c6b3f111dca040173221eec5210c41bef8
+source-git-commit: 6d8650fc9963c21122f84c2ffd965089f158d8ed
 workflow-type: tm+mt
 source-wordcount: 666
 ht-degree: 4%
@@ -43,7 +43,7 @@ ht-degree: 4%
 
 ## 가드레일 및 제한 사항
 
-* **액세스** - 높은 처리량 트랜잭션 메시지 추가 기능이 라이선스가 부여된 조직의 경우 미국 지역에서만 사용할 수 있습니다.
+* **액세스** - 높은 처리량 트랜잭션 메시지 추가 기능을 통해 라이선스가 부여된 조직의 경우 스위스를 제외한 모든 지역에서 사용할 수 있습니다.
 
 * **채널**: 현재 전자 메일에만 사용할 수 있습니다.
 
