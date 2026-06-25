@@ -25,7 +25,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: c6441f0097a75690c0546e492c39c6bb59711a16
+source-git-commit: 06c5998c241d25ab2b45f5f703dd3bdddc7e3a8a
 workflow-type: tm+mt
 source-wordcount: 778
 ht-degree: 25%
@@ -80,12 +80,6 @@ ht-degree: 25%
 
 **[!UICONTROL 관리]** > **[!UICONTROL 라이선스 사용]**&#x200B;에서 언제든지 조직의 참여 가능 프로필 수를 모니터링합니다. 카운트가 갑자기 급증하는 경우 자세한 지침은 [문제 해결 섹션](license-usage.md#troubleshooting-engageable-profiles)을 참조하세요. [라이선스 사용 대시보드에 대해 자세히 알아보기](license-usage.md)
 
->[!MORELIKETHIS]
->
->* [Journey Optimizer에서 데이터 관리 시작](../data/gs-data.md)
->* [실시간 고객 프로필 설명서](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ko){target="_blank"}
->* [실시간 고객 프로필 데이터 및 세분화를 위한 기본 보호 기능](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails){target="_blank"}
->* {&#x200B;0}데이터 수집 설명서[&#128279;](https://experienceleague.adobe.com/ko/docs/experience-platform/ingestion/home){target="_blank"}
 
 ## 프로필 대시보드
 
@@ -104,3 +98,12 @@ ht-degree: 25%
 Adobe Experience Platform에서 실시간 고객 프로필을 조합하고 업데이트하는 방법과 이러한 프로필에 액세스하여 사용하는 방법을 알아봅니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/31709?captions=kor&quality=12)
+
+
+
+>[!MORELIKETHIS]
+>
+>* [Journey Optimizer에서 데이터 관리 시작](../data/gs-data.md)
+>* [실시간 고객 프로필 설명서](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ko){target="_blank"}
+>* [실시간 고객 프로필 데이터 및 세분화를 위한 기본 보호 기능](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/guardrails){target="_blank"}
+>* {&#x200B;0}데이터 수집 설명서[&#128279;](https://experienceleague.adobe.com/ko/docs/experience-platform/ingestion/home){target="_blank"}
