@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b17f3d80050281659fd4df2bc45980df898acf1c
+source-git-commit: f239af841c707b8254adeeab17662645794ee5b6
 workflow-type: tm+mt
-source-wordcount: 3606
-ht-degree: 28%
+source-wordcount: 3687
+ht-degree: 27%
 
 ---
 
@@ -499,6 +499,18 @@ ht-degree: 28%
 </table>
 
 +++
+
+### 보고 {#june-26-reporting}
+
+이 릴리스의 보고에 다음과 같은 개선 사항이 추가되었습니다.
+
+* **이메일 보고를 위한 새로운 예상 클릭 메트릭** - 실제 고객 참여를 보다 정확하게 볼 수 있도록 여정, 캠페인 및 채널 보고서에서 새로운 예상 메트릭을 사용할 수 있습니다.
+
+   * **예상 CTR**(클릭스루 비율): 배달된 총 메시지 수에 상대적인 예상 클릭수로 계산됩니다.
+
+   * **예상 CTOR**(Click-to-Open 비율): 총 예상 열람 수에 상대적인 예상 클릭수로 계산됩니다.
+
+  사용 가능한 날짜: 2026년 6월 25일
 
 ### 관리 {#june-26-administration}
 

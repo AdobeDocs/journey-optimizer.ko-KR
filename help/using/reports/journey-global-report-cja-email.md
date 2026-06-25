@@ -28,9 +28,9 @@ topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 287a228854060d5d34dbcfdf4da7bc4add8821bd
+source-git-commit: f239af841c707b8254adeeab17662645794ee5b6
 workflow-type: tm+mt
-source-wordcount: 1228
+source-wordcount: 1263
 ht-degree: 1%
 
 ---
@@ -133,6 +133,10 @@ ht-degree: 1%
 * **[!UICONTROL 클릭 수]**: 전자 메일에서 콘텐츠를 클릭한 횟수입니다.
 
 * **[!UICONTROL 예상 클릭 수]**: 식별된 봇 및 비사람 상호 작용(NHI) 트래픽을 제외하고 메시지에서 콘텐츠를 클릭한 횟수입니다.
+
+* **[!UICONTROL 예상 CTR]**(클릭스루 비율): 배달된 총 메시지 수에 상대적인 예상 클릭수로 계산됩니다.
+
+* **[!UICONTROL 예상 CTOR]**(Click-to-Open 비율): 총 예상 열람 수에 상대적인 예상 클릭수로 계산됩니다.
 
 * **[!UICONTROL 스팸 고객 불만]**: 메시지가 스팸 또는 정크로 선언된 횟수입니다.
 

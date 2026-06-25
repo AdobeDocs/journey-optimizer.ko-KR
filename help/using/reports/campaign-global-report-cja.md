@@ -26,9 +26,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: f239af841c707b8254adeeab17662645794ee5b6
 workflow-type: tm+mt
-source-wordcount: 647
+source-wordcount: 686
 ht-degree: 1%
 
 ---
@@ -87,6 +87,10 @@ KPI는 캠페인에 사용된 채널에 따라 달라집니다.
 * **[!UICONTROL 클릭스루 비율]**: 메시지와 상호 작용한 사용자의 비율입니다.
 
 * **[!UICONTROL 클릭 수]**: 메시지에서 콘텐츠를 클릭한 횟수입니다.
+
+* **[!UICONTROL 예상 클릭 수]**: 식별된 봇 및 비사람 상호 작용(NHI) 트래픽을 제외하고 메시지에서 콘텐츠를 클릭한 횟수입니다.
+
+* **[!UICONTROL 예상 CTR]**(클릭스루 비율): 배달된 총 메시지 수에 상대적인 예상 클릭수로 계산됩니다.
 
 * **[!UICONTROL 고유 클릭 수]**: 메시지에서 콘텐츠를 클릭한 프로필 수입니다.
 
