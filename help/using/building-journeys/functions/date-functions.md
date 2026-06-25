@@ -19,9 +19,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2: []
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: 15cd7992e3263d7d2b94cf2efe50850d16e04a5d
 workflow-type: tm+mt
-source-wordcount: 1275
+source-wordcount: 1384
 ht-degree: 7%
 
 ---
@@ -446,6 +446,12 @@ dateTime을 반환합니다.
 
 정확히 2시간 전의 dateTime을 반환합니다.
 
+`nowWithDelta(1, "months", "Asia/Tokyo")`
+
+2026-01-31에 대해 평가하면 2026-02-28T...를 반환합니다.; 2026-05-31에 대해 평가하면 2026-06-30T...를 반환합니다.
+
+`nowWithDelta()`은(는) 달력-월 산술 연산을 사용합니다. 대상 월의 일 수가 현재 월별 날짜보다 적은 경우 결과는 해당 월의 마지막 유효 날짜로 표준화됩니다. 함수가 다음 달로 롤오버되지 않습니다.
+
 +++
 
 ## setHours {#setHours}
@@ -611,5 +617,6 @@ dateTime을 반환합니다.
 * **Q: 지난 2시간 동안 현재 시간 오프셋을 가져오려면 어떻게 해야 합니까?** — `nowWithDelta(-2, "hours")` 사용.
 * **Q: `updateTimeZone`이(가) `setHours`과(와) 다르게 수행하는 작업** — `updateTimeZone`은(는) 같은 시간을 유지하지만 다른 시간대에 표시하는 반면 `setHours`은(는) 실제로 datetime 값의 hour 구성 요소를 변경합니다.
 * **Q: `nowWithDelta`의 시간대 매개 변수가 프로필 필드일 수 있습니까?** — 아니요. 시간대 ID는 문자열 상수여야 합니다. 필드 참조는 지원되지 않습니다.
+* **Q: `nowWithDelta()`을(를) 월과 함께 사용하고 현재 날짜가 월말 날짜인 경우 어떻게 됩니까?** — 이 함수는 달력-월 산술을 사용하고 결과를 대상 월의 마지막 유효 날짜로 표준화합니다. 예를 들어, 1월 31일에 1개월을 추가하면 3월 3일이 아닌 2월 28일이 반환됩니다.
 
 +++

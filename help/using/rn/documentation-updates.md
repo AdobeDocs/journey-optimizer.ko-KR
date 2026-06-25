@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
+source-git-commit: 19a0ad24f524f51e70a6e2ec4eb784af0630a984
 workflow-type: tm+mt
-source-wordcount: 8876
-ht-degree: 91%
+source-wordcount: 8915
+ht-degree: 90%
 
 ---
 
@@ -45,6 +45,8 @@ ht-degree: 91%
 
 * 여정 재입력&#x200B;**하위 섹션의 새**&#x200B;경로 할당이 **경로 실험** 설명서에 추가되었습니다. 이 섹션에서는 동일한 여정 버전에 대한 여러 항목의 프로필에 대해 경로 지정이 지속되지만 해당 여정 버전 내에서만 수행됨을 명확히 합니다. 할당은 새 여정 버전이 게시되면 재설정되며 여정의 각 경로 실험 활동은 독립적인 무작위 할당을 적용합니다. [자세히 보기](../building-journeys/path-experimentation.md#path-assignment)
 * **Adobe Experience Cloud**&#x200B;에 대한 참조가 [!DNL Journey Optimizer] 설명서에서 **[!DNL Adobe CX Enterprise]** 브랜드와 정렬되었습니다.
+
+* **`nowWithDelta()`날짜 함수** 설명서가 월말 동작을 명확하게 하도록 업데이트되었습니다. 대상 월의 일수가 현재 날짜보다 적은 경우 결과는 해당 달의 마지막 유효 날짜로 표준화됩니다. [자세히 보기](../building-journeys/functions/date-functions.md#nowWithDelta)
 
 * **게재 기능 시작** 페이지가 수신자별 FBL이 없는 새 **공급자** 하위 섹션으로 업데이트되었습니다. Gmail/Google Workspace, Apple iCloud 및 Corporate Microsoft 365/Exchange Online 등 수신자별 스팸 불만을 반환하지 않는 주요 사서함 공급자를 나열하고 이러한 서비스를 사용하는 수신자에게 제외 목록 항목의 부재가 예상되는 이유를 설명합니다. [자세히 보기](../reports/deliverability.md#providers-no-fbl)
 
