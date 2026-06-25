@@ -9,9 +9,8 @@ role: User
 level: Intermediate
 version: Campaign Orchestration
 feature_v2: 
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: eb78711c68f3e38f4d15b0531a5ccfd1186a5784
 workflow-type: tm+mt
 source-wordcount: 547
 ht-degree: 21%
@@ -51,7 +50,9 @@ ht-degree: 21%
 * **메시지 및 대상**: 새 등록, 새 구매자 또는 기타 &quot;마지막 실행 이후 새로운&quot; 세그먼트만 다음 단계로 끌어옵니다(예: 이메일, SMS).
 * **지속적인 내보내기**: 이미 내보낸 행을 복제하지 않고 새 행이나 업데이트된 행만 보고 또는 BI 도구용 파일로 보냅니다.
 
-실행이 행을 반환하지 않으면 오케스트레이션된 캠페인이 **증분 쿼리**&#x200B;에서 중지됩니다. 증분 쿼리 이후의 활동은 데이터가 있을 때까지 실행되지 않으며 캠페인이 다시 실행됩니다.
+>[!IMPORTANT]
+>
+>실행이 행을 반환하지 않으면 오케스트레이션된 캠페인이 **증분 쿼리**&#x200B;에서 중지됩니다. 증분 쿼리 이후의 활동은 데이터가 있을 때까지 실행되지 않으며 캠페인이 다시 실행됩니다.
 
 ## 증분 쿼리 활동 구성 {#incremental-query-configuration}
 
