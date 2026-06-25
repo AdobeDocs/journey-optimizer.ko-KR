@@ -24,9 +24,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 261
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** Adobe Journey Optimizer에서 인앱 메시지 채널을 시작하여 앱 사용자에게 기능, 오퍼 및 온보딩을 홍보하는 알림을 제공하세요.
+**이 페이지의 내용:** Adobe Journey Optimizer의 인앱 메시징 채널을 사용하여 앱 사용자에게 기능, 혜택, 온보딩을 홍보하는 알림을 보내 참여를 유도합니다.
 
 >[!ENDSHADEBOX]
 

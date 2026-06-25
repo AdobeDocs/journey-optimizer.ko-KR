@@ -20,9 +20,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 940
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** Adobe Journey Optimizer의 오케스트레이션된 캠페인을 통해 관계형 데이터 세트를 쿼리하고 정확한 카운트로 대상을 빌드하며 여러 채널에 걸쳐 마케팅 및 트랜잭션 메시지를 전달하는 방법을 알아봅니다.
+**이 페이지의 내용:** Adobe Journey Optimizer의 오케스트레이션된 캠페인을 통해 관계형 데이터 세트를 쿼리하고, 정확한 인원수를 기준으로 대상자를 구축하고, 여러 채널에서 마케팅 및 거래 메시지를 전달하는 방법을 알아봅니다.
 
 >[!ENDSHADEBOX]
 

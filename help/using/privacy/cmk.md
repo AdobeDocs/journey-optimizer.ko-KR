@@ -29,9 +29,9 @@ subfeature_v2:
   - id: f365ec33-2b99-4b7f-b4ee-c743dd7f615f
   - id: c8d5f2ce-ba44-43e9-a2bf-94a3d7d85ec3
 source-git-commit: 4e89993a998268ae2810c949d0669bf6dc458dd6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 312
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** CMK(Customer Managed Keys)를 설정하고 관리하여 자체 키로 Adobe Journey Optimizer 데이터를 암호화하고 전송 중이거나 사용하지 않을 때 데이터를 보호할 수 있습니다.
+**이 페이지의 내용:** Adobe Journey Optimizer 데이터를 자체 키로 암호화하고 전송 중 데이터와 저장된 데이터를 보호할 수 있도록 고객 관리 키(CMK)를 설정하고 관리합니다.
 
 >[!ENDSHADEBOX]
 

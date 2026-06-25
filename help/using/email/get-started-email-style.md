@@ -27,9 +27,9 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 342
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** [전자 메일 Designer 스타일] 창에서 본문, 구조 또는 콘텐츠 구성 요소에 색상, 글꼴, 테두리, 여백 및 패딩과 같은 설정을 적용하여 전자 메일 콘텐츠의 스타일을 조정하는 방법을 알아봅니다.
+**이 페이지의 내용:** 이메일 디자이너 스타일 창에서 색상, 글꼴, 테두리, 여백, 패딩과 같은 설정을 본문, 구조 또는 콘텐츠 구성 요소에 적용하여 이메일 콘텐츠 스타일을 조정하는 방법을 알아봅니다.
 
 >[!ENDSHADEBOX]
 

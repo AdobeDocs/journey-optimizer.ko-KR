@@ -12,9 +12,9 @@ exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
 feature_v2: []
 subfeature_v2: []
 source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1337
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** 레이블을 마케팅 작업에 연결하는 거버넌스 정책을 만든 다음 여정, 캠페인 및 사용자 지정 작업에 적용하여 중요한 데이터를 보호하므로 제한된 필드를 외부에서 공유할 수 없습니다.
+**이 페이지의 내용:** 레이블을 마케팅 액션에 연결하는 거버넌스 정책을 생성한 다음 여정, 캠페인 및 사용자 정의 액션에 적용하여 제한된 필드가 외부로 공유되지 않도록 함으로써 중요 데이터를 보호합니다.
 
 >[!ENDSHADEBOX]
 

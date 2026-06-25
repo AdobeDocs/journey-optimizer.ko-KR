@@ -1,13 +1,13 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: 개인정보
-description: 개인정보
+title: 개인 정보 보호
+description: 개인 정보 보호
 redpen-status: CREATED_||_2025-08-11_21-20-29
 exl-id: d6c8e958-de3b-4aec-8b3b-8b0b3daa0098
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: tm+mt
-source-wordcount: '295'
+workflow-type: ht
+source-wordcount: '319'
 ht-degree: 100%
 
 ---

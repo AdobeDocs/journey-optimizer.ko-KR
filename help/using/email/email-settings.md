@@ -26,9 +26,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1523
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** 전자 메일 유형, 하위 도메인, IP 풀, 목록 구독 취소, 헤더 매개 변수, BCC, 시드 목록, 다시 시도, URL 추적 및 실행 주소를 포함하여 채널 구성에서 전자 메일 설정을 정의하는 방법을 알아봅니다.
+**이 페이지의 내용:** 이메일 유형, 하위 도메인, IP 풀, 목록 구독 취소, 헤더 매개변수, 숨은 참조(BCC), 시드 목록, 재시도, URL 추적 및 실행 주소를 포함하여 채널 구성에서 이메일 설정을 정의하는 방법을 알아봅니다.
 
 >[!ENDSHADEBOX]
 

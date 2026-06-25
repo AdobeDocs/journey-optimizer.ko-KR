@@ -22,9 +22,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
 source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 896
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** 충돌 감지, 우선 순위 점수 및 규칙 집합이 함께 작동하는 방식을 살펴봄으로써 겹치는 커뮤니케이션을 방지하고 고객 메시지 빈도를 제어할 수 있습니다.
+**이 페이지의 내용:** 충돌 감지, 우선순위 점수 및 규칙 세트가 함께 작동하여 중복되는 커뮤니케이션을 방지하고 고객에게 메시지를 보내는 빈도를 제어하는 방법을 알아봅니다.
 
 >[!ENDSHADEBOX]
 

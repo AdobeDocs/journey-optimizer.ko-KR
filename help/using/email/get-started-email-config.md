@@ -24,9 +24,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 563
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** 하위 도메인 위임 및 IP 풀 만들기에서 채널 구성, 실행 필드 및 다시 시도에 이르기까지 Adobe Journey Optimizer에서 전자 메일 채널을 구성하는 필수 단계를 알아봅니다.
+**이 페이지의 내용:** 하위 도메인 위임 및 IP 풀 생성부터 채널 구성, 실행 필드 및 재시도 설정에 이르기까지 Adobe Journey Optimizer에서 이메일 채널을 구성하는 필수 단계를 알아봅니다.
 
 >[!ENDSHADEBOX]
 

@@ -25,9 +25,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 449
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** 라이브 활동이 iPhone 잠금 화면 및 Dynamic Island에서 지속적인 실시간 업데이트를 제공하므로 진행 중인 이벤트 동안 사용자의 참여를 유지하고 Adobe Journey Optimizer으로 보내는 데 필요한 구성 및 API 트리거 캠페인을 계획할 수 있습니다.
+**이 페이지의 내용:** 라이브 활동을 통해 iPhone 잠금 화면과 Dynamic Island에 지속적인 실시간 업데이트를 제공하여 진행 중인 이벤트에서 사용자의 참여를 유지하고 Adobe Journey Optimizer를 사용하여 해당 업데이트를 전송하는 데 필요한 구성과 API 트리거 캠페인을 계획하는 방법을 알아봅니다.
 
 >[!ENDSHADEBOX]
 

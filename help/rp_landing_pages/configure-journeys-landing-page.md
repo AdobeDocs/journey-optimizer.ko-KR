@@ -6,8 +6,8 @@ description: 여정 구성
 redpen-status: CREATED_||_2025-08-11_21-12-10
 exl-id: 9184a695-be6a-44af-b04a-124243c5aa64
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: tm+mt
-source-wordcount: '233'
+workflow-type: ht
+source-wordcount: '251'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 여정 구성을 사용하면 데이터 소스, 이�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 여정 구성 시작
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer의 이벤트 구성
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Adobe Journey Optimizer의 데이터 소스 구성
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer의 데이터 소스 구성
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 사용자 정의 액션 구성 및 사용
 

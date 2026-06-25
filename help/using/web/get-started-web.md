@@ -24,9 +24,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
 source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 320
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 91%
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** Adobe Journey Optimizer에서 웹 채널을 시작하여 고객 여정 및 캠페인에서 개인화된 웹 경험을 시각적으로 작성 및 제공합니다.
+**이 페이지의 내용:** Adobe Journey Optimizer의 웹 채널을 시작하여 고객 여정과 캠페인 전반에서 개인화된 웹 환경을 시각적으로 제작하고 제공합니다.
 
 >[!ENDSHADEBOX]
 

@@ -26,9 +26,9 @@ topic_v2:
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
 source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 724
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 95%
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** 소스 커넥터의 정의와 CRM, 클라우드 저장소 및 데이터베이스의 데이터를 Adobe Journey Optimizer으로 가져와 개인화된 데이터 기반 고객 여정을 지원할 수 있는 방법을 이해합니다.
+**이 페이지의 내용:** 소스 커넥터가 무엇이며 CRM, 클라우드 스토리지 및 데이터베이스에서 Adobe Journey Optimizer로 데이터를 가져오는 방법을 이해하면 데이터 기반의 개인화된 고객 여정을 구현할 수 있습니다.
 
 >[!ENDSHADEBOX]
 

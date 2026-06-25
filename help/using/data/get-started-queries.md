@@ -26,9 +26,9 @@ subfeature_v2:
   - id: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
 source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 161
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 77%
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** Adobe Experience Platform Query Service에서 제공하는 쿼리 편집기를 사용하여 Adobe Journey Optimizer에서 분석 및 데이터 탐색을 위해 고객 경험 데이터에 쿼리를 작성하고, 유효성을 검사하고, 실행할 수 있습니다.
+**이 페이지의 내용:** Adobe Experience Platform 쿼리 서비스 기반의 쿼리 편집기를 사용하여 Adobe Journey Optimizer 내에서 고객 경험 데이터에 대한 쿼리를 작성, 유효성 검사 및 실행하여 분석과 데이터 탐색을 수행할 수 있습니다.
 
 >[!ENDSHADEBOX]
 

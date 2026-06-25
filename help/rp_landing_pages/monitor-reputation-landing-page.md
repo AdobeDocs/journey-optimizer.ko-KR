@@ -6,8 +6,8 @@ description: 이메일 주소 모니터링
 redpen-status: CREATED_||_2025-08-11_21-08-58
 exl-id: cbc8b2af-9df7-4523-88eb-fe73f74f2b01
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: tm+mt
-source-wordcount: '194'
+workflow-type: ht
+source-wordcount: '205'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 재시도 및 제외 목록 관리
 

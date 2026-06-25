@@ -29,9 +29,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1395
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** 커뮤니케이션이 각 고객의 동의 선택을 존중하고 데이터 사용 규칙을 준수하도록 Journey Optimizer에서 Adobe Experience Platform 동의 정책을 적용합니다.
+**이 페이지의 내용:** Journey Optimizer에서 Adobe Experience Platform 동의 정책을 적용하여 각 고객의 동의 선택을 존중하고 데이터 사용 규칙을 준수하는 커뮤니케이션을 진행합니다.
 
 >[!ENDSHADEBOX]
 

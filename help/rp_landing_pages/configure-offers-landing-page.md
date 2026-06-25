@@ -8,7 +8,7 @@ badge: label="레거시" type="Informative"
 exl-id: e03307f5-0024-463a-ad2b-78d49e6d158f
 source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
 workflow-type: ht
-source-wordcount: '201'
+source-wordcount: '216'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,7 @@ Adobe Journey Optimizer의 &#39;오퍼 구성&#39; 섹션을 사용하면 대상
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 개인화된 오퍼 만들기
 
@@ -35,7 +35,7 @@ Adobe Journey Optimizer의 &#39;오퍼 구성&#39; 섹션을 사용하면 대상
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 오퍼에 표시 추가
 
@@ -45,7 +45,7 @@ Adobe Journey Optimizer의 &#39;오퍼 구성&#39; 섹션을 사용하면 대상
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 오퍼에 제한 추가
 

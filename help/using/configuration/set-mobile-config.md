@@ -25,9 +25,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 889
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** 안내 채널 설정 워크플로에서 Adobe Journey Optimizer에서 모바일 및 웹 채널을 설정하는 데 필요한 태그 속성, 데이터스트림 및 채널 구성을 자동으로 만드는 방법을 알아봅니다.
+**이 페이지의 내용:** 안내식 채널 설정 워크플로가 Adobe Journey Optimizer에서 모바일 및 웹 채널을 설정하는 데 필요한 태그 속성, 데이터 스트림 및 채널 구성을 자동으로 생성하는 방법을 알아봅니다.
 
 >[!ENDSHADEBOX]
 

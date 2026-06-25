@@ -27,9 +27,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 493
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** Google 및 Yahoo 보낸 사람 요구 사항을 준수하도록 Adobe Journey Optimizer에서 Adobe으로 위임한 하위 도메인에 대해 DMARC 레코드를 설정해야 하는 이유와 시기를 알아봅니다.
+**이 페이지의 내용:** Google 및 Yahoo 발신자 요구 사항을 준수하기 위해 Adobe Journey Optimizer에서 Adobe에 위임한 하위 도메인에 DMARC 레코드를 설정해야 하는 이유와 시기를 알아봅니다.
 
 >[!ENDSHADEBOX]
 

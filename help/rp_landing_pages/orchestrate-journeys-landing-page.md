@@ -7,8 +7,8 @@ redpen-status: CREATED_||_2025-08-11_20-21-13
 exl-id: c148c9e8-8b1d-4c64-8bb6-dc86898cb672
 hide: true
 source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
-workflow-type: tm+mt
-source-wordcount: '312'
+workflow-type: ht
+source-wordcount: '358'
 ht-degree: 100%
 
 ---
@@ -51,7 +51,7 @@ Adobe Journey Optimizer의 직관적인 드래그 앤 드롭 도구와 상황별
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Adobe Journey Optimizer의 활동
 
@@ -71,7 +71,7 @@ Adobe Journey Optimizer의 표현식 작성
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Adobe Journey Optimizer의 실용적인 사용 사례
 

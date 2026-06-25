@@ -23,9 +23,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 220cd161bdc125459ccf17fb7414ba4b4c6360bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 196
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 85%
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** 콘텐츠 카드는 모바일 앱과 웹 사이트 내부에 침입하지 않는 개인 맞춤화된 메시지를 전달하므로 사용자가 하던 작업을 중단하지 않고 상황에 맞게 참여할 수 있습니다.
+**이 페이지의 내용:** 콘텐츠 카드는 모바일 앱과 웹 사이트 내에서 사용자에게 맞춤형 메시지를 방해 없이 전달하여, 사용자가 하던 작업을 중단하지 않고도 상황에 맞는 참여를 유도합니다.
 
 >[!ENDSHADEBOX]
 

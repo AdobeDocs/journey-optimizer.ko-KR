@@ -28,9 +28,9 @@ topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
 source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1005
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** Adobe Journey Optimizer에서 AI Assistant에 액세스하고, 필요한 권한을 설정하고, 텍스트 및 이미지 콘텐츠를 생성하기 위한 가드레일을 이해하는 방법에 대해 알아봅니다.
+**이 페이지의 내용:** Adobe Journey Optimizer에서 AI 어시스턴트에 액세스하는 방법, 필요한 권한을 설정하는 방법, 텍스트 및 이미지 콘텐츠 생성 시 가드레일을 알아봅니다.
 
 >[!ENDSHADEBOX]
 

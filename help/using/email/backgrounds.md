@@ -25,9 +25,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 332
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 92%
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** 전자 메일 Designer에서 전자 메일의 본문, 뷰포트, 구조 및 열 수준에서 배경색 및 이미지를 설정하는 방법을 알아봅니다.
+**이 페이지의 내용:** 이메일 디자이너에서 이메일 본문, 뷰포트, 구조 및 열 수준에서 배경색과 이미지를 설정하는 방법을 알아봅니다.
 
 >[!ENDSHADEBOX]
 

@@ -27,9 +27,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
 source-git-commit: 6a3cd911b8a89d83cab49eb88b05bf18616377e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 722
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** Adobe Journey Optimizer의 기본 채널을 통해 아웃바운드 게재 및 인바운드 경험을 통해 고객에게 연락할 수 있습니다. 이메일, SMS, 푸시, 라이브 활동, DM, WhatsApp, LINE, 인앱, 웹, 코드 기반 및 콘텐츠 카드를 비교하여 각 카드가 여정 및 캠페인에서 지원되는 위치를 확인하세요.
+**이 페이지의 내용:** Adobe Journey Optimizer의 기본 채널을 사용하면 아웃바운드 및 인바운드 경험 전반에서 고객에게 도달할 수 있습니다. 이메일, SMS, 푸시 알림, 라이브 활동, 다이렉트 메일, WhatsApp, LINE, 인앱, 웹, 코드 기반 및 콘텐츠 카드를 비교하여 각 채널이 여정과 캠페인에서 지원되는 위치를 확인하세요.
 
 >[!ENDSHADEBOX]
 

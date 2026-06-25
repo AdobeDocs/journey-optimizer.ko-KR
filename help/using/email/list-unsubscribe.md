@@ -27,9 +27,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1916
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** 받는 사람이 mailto 주소 또는 원클릭 구독 취소 URL을 사용하여 받은 편지함에서 직접 옵트아웃할 수 있도록 List-Unsubscribe 헤더를 활성화하고 구성하는 방법을 알아봅니다.
+**이 페이지의 내용:** 수신자가 mailto 주소 또는 원클릭 구독 취소 URL을 사용하여 받은 편지함에서 직접 수신 거부할 수 있도록 List-Unsubscribe 헤더를 활성화하고 구성하는 방법을 알아봅니다.
 
 >[!ENDSHADEBOX]
 
@@ -288,7 +288,7 @@ GET 호출은 다음과 같습니다.
 
    * 구문 분석된 값: *v1.xyz*
 
-API 예: https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&emailParamsBody=v1.xyz
+API 예: https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&amp;emailParamsBody=v1.xyz
 
 >[!CAUTION]
 >

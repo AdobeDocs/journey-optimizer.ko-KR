@@ -27,9 +27,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 4e89993a998268ae2810c949d0669bf6dc458dd6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1320
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** 수신자가 통신에서 구독을 취소하고 개인 맞춤화를 옵트아웃하는 방법을 관리하여 수신자의 동의 선택을 존중하고 법적 및 브랜드 평판 의무를 충족할 수 있습니다.
+**이 페이지의 내용:** 수신자가 커뮤니케이션 구독을 취소하고 개인화 설정을 해제하는 방법을 관리하여 수신자의 동의 선택을 존중하고 법적 및 브랜드 평판 의무를 이행합니다.
 
 >[!ENDSHADEBOX]
 
