@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 keywords: 일괄 의사 결정, dm, 의사 결정
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+source-git-commit: 7d1215b448da93bf4f1ff29f93e00a68921cedce
 workflow-type: tm+mt
 source-wordcount: '886'
 ht-degree: 0%
@@ -42,7 +42,7 @@ DM에서의 일괄 의사 결정은 두 가지 주요 사용 사례를 지원합
 1. **결정 정책 추가**:
 
    1. 추출 파일을 구성하려면 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 클릭하십시오.
-   1. 추출 파일에 열을 추가하고 ![](assets/do-no-localize/editor-icon.svg) 아이콘을 사용하여 개인화 편집기를 엽니다.
+   1. 추출 파일에 열을 추가하고 ![](assets/do-not-localize/editor-icon.svg) 아이콘을 사용하여 개인화 편집기를 엽니다.
 
       ![](assets/decision-policy-dm-add.png)
 
