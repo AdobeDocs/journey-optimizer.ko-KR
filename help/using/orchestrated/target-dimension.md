@@ -13,9 +13,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+source-git-commit: e6bc40f1a7df65fa8ae338c9e266c76728cf428a
 workflow-type: tm+mt
-source-wordcount: 497
+source-wordcount: 539
 ht-degree: 0%
 
 ---
@@ -30,9 +30,12 @@ ht-degree: 0%
 
 **[!UICONTROL 오케스트레이션된 캠페인]**&#x200B;을 통해 Adobe Experience Platform의 관계형 스키마 기능을 활용하여 엔터티 수준에서 타깃팅된 커뮤니케이션을 디자인하고 제공할 수 있습니다. Experience Platform은 스키마를 사용하여 데이터의 구조를 일관되고 재사용 가능한 방식으로 설명합니다. 데이터가 Experience Platform에 수집되면 XDM 스키마에 따라 구조화됩니다.
 
-**[!UICONTROL 오케스트레이션된 캠페인]**&#x200B;의 세그먼테이션은 주로 관계형 스키마에서 작동하지만 실제 메시지 게재는 항상 **프로필** 수준에서 발생합니다.
+**[!UICONTROL 오케스트레이션된 캠페인]**&#x200B;은(는) 두 가지 유형의 타깃팅 차원을 지원합니다.
 
-타깃팅을 구성할 때는 두 가지 주요 측면을 정의합니다.
+* **프로필 타깃팅 차원**: **프로필** 스키마를 사용하여 직접 수신자를 타깃팅하는 기본 제공 차원입니다.
+* **사용자 지정 대상 차원**: 관계형 스키마를 통해 수신자를 타깃팅합니다(예: `Recipients`, `Visitors`, `Customers`). 프로필 수준이 아닌 엔티티 수준(예: 구독 또는 계약)에서 메시지를 전달해야 할 때 사용합니다.
+
+사용자 지정 타겟팅 차원을 구성할 때는 두 가지 주요 측면을 정의합니다.
 
 * **타깃팅 가능한 스키마**
 

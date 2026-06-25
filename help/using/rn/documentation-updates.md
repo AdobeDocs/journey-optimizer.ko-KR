@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: d7d7519e6f046802653ed470d00851f17a315bc6
+source-git-commit: e6bc40f1a7df65fa8ae338c9e266c76728cf428a
 workflow-type: tm+mt
-source-wordcount: 8760
-ht-degree: 92%
+source-wordcount: 8799
+ht-degree: 91%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 92%
 이 페이지에는 월별 릴리스 기능 및 개선 사항과 관련된 업데이트 외에도 [!DNL Journey Optimizer] 설명서의 모든 최신 변경 사항이 나와 있습니다.
 
 ## 2026년 6월 {#june-2026}
+
+* **타깃팅 차원 구성** 페이지가 오케스트레이션된 캠페인에서 사용할 수 있는 두 가지 타깃팅 차원 유형, 즉 기본 제공 **프로필 타깃팅 차원**(구성 필요 없음)과 관계형 스키마를 기반으로 하는 **사용자 지정 타깃팅 차원**&#x200B;을 문서화하도록 업데이트되었습니다. [자세히 보기](../orchestrated/target-dimension.md)
 
 * **조각의 테마 활용** 설명서에서 5개의 테마 호환성 제한(Adobe 기본 테마 제한 포함)을 명시적으로 문서화하고 전자 메일 테마가 조각과 관련된 테마 중 하나가 아닌 경우 조각 삽입이 차단되었음을 설명합니다. [자세히 보기](../email/apply-email-themes.md#leverage-themes-fragment)
 
