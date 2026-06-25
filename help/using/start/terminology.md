@@ -25,9 +25,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
 workflow-type: tm+mt
-source-wordcount: 1595
+source-wordcount: 1617
 ht-degree: 7%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 7%
 |------|------------|
 | **대상자** | &quot;최근 30일 동안 구매한 고객&quot; 또는 &quot;충성도 프로그램 회원&quot;과 같이 일반적인 특성이나 행동을 공유하는 고객 그룹입니다. 대상은 특정 고객 세그먼트를 타깃팅하는 데 사용됩니다. [자세히 알아보기](../audience/about-audiences.md) |
 | **대상 자격** | 고객이 대상을 참여하거나 탈퇴할 때 발생하는 자동 프로세스입니다. Journey Optimizer은 누군가가 대상자를 들어오거나 나갈 때 작업을 트리거하여 시기적절하고 적절한 커뮤니케이션을 보장할 수 있습니다. [자세히 알아보기](../building-journeys/audience-qualification-events.md) |
-| **참여 가능한 대상** | 라이선스 계약에 따라 Adobe Journey Optimizer을 통해 적극적으로 연락할 수 있는 고객 프로필 수입니다. 이는 일반적으로 지난 12개월 내에 관여한 프로필을 나타냅니다. |
+| **참여 가능한 프로필** | 고유 고객 프로필은 12개월의 롤링 기간 동안 여정, 캠페인 또는 의사 결정 활동을 통해 참여했습니다. Journey Optimizer의 주요 라이선스 지표입니다. 각 프로필은 입력한 여정 또는 캠페인 수에 관계없이 샌드박스당 한 번 계산됩니다. **[!UICONTROL 관리]** > **[!UICONTROL 라이선스 사용량]**&#x200B;에서 수를 모니터링합니다. [자세히 알아보기](../audience/license-usage.md) |
 | **테스트 프로필** | 실제 고객에게 보내기 전에 메시지를 테스트하고 미리 보는 데 사용되는 가상 프로필입니다. 테스트 프로필은 개인화, 콘텐츠 및 여정 논리를 확인하는 데 도움이 됩니다. [자세히 알아보기](../audience/creating-test-profiles.md) |
 
 ## 콘텐츠 및 개인화 용어 {#content-terms}

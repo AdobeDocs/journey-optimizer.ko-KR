@@ -23,10 +23,10 @@ subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
 workflow-type: tm+mt
-source-wordcount: 779
-ht-degree: 21%
+source-wordcount: 811
+ht-degree: 20%
 
 ---
 
@@ -111,6 +111,10 @@ Decisioning을 사용하는 주요 단계는 다음과 같습니다.
 
    ➡️ [의사 결정 정책 사용 방법 알아보기](create-decision.md)
 ➡️ 코드 기반 경험 채널을 통해 오퍼를 성공적으로 게재하려면 [이 섹션](../code-based/code-based-implementation-samples.md)의 구현 단계를 따르십시오.
+
+>[!NOTE]
+>
+>여정 또는 캠페인 수를 통해 조직의 **참여 가능한 프로필** 라이선스 지표에 대한 결정을 받은 프로필과 다른 Journey Optimizer 기능을 통해 참여한 프로필. [참여 가능한 프로필 수 모니터링](../audience/license-usage.md)
 
 ## 의사 결정 프로세스 {#process}
 

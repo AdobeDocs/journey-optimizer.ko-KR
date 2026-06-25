@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 9a92d14861c34446c3ccec6dea89403585c54a36
+source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
 workflow-type: tm+mt
-source-wordcount: 8836
+source-wordcount: 8876
 ht-degree: 91%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 91%
 이 페이지에는 월별 릴리스 기능 및 개선 사항과 관련된 업데이트 외에도 [!DNL Journey Optimizer] 설명서의 모든 최신 변경 사항이 나와 있습니다.
 
 ## 2026년 6월 {#june-2026}
+
+* 대상, 캠페인 및 의사 결정 섹션에 대상 참조가 추가된 상태에서 이 개념을 위한 단일 소스로 **프로필 시작하기** 페이지에 새 **참여 가능한 프로필 및 라이선스 사용** 섹션이 추가되었습니다. [자세히 보기](../audience/get-started-profiles.md#engageable-profiles)
 
 * **분할** 활동 설명서가 업데이트되어 각 하위 집합 설정에서 사용할 수 있는 **[!UICONTROL 세그먼트 코드]** 필드를 문서화했습니다. 이를 통해 추적 및 보고를 위해 각 대상 세그먼트에 고유한 식별자를 할당할 수 있습니다. [자세히 보기](../orchestrated/activities/split.md)
 
