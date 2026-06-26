@@ -8,28 +8,17 @@ role: User
 level: Beginner
 keywords: 여정 유형, 단일, 대상자 읽기, 대상자 자격, 비즈니스 이벤트, 비교, 결정 안내서, 선택, 선택, 실시간, 예약됨, 일괄 처리, 이벤트 트리거
 version: Journey Orchestration
-hide: true
 exl-id: 0c894dc1-76b6-4b33-baf8-eaf6686f7d38
 TQID: https://experienceleague.adobe.com/rEANha6Lppyd5vog-0kZ3aL9VvZHc9kziW-d-jiWqeA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: cce82f05-fc3c-4af7-85ff-8bba603861a7
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 875fca07f966c9812f40c8dab4ca7dc1bb9160d0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: cce82f05-fc3c-4af7-85ff-8bba603861a7id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 9dd9312bb142f7fe53183ef6b139a38ff39f2e8e
 workflow-type: tm+mt
-source-wordcount: 2299
+source-wordcount: 2274
 ht-degree: 1%
 
 ---
@@ -223,13 +212,12 @@ ht-degree: 1%
 * 대상 자격 및 대상 여정 읽기는 Jump 활동을 포함할 수 없으며 다른 여정의 Jump 활동의 대상이 될 수 없습니다
 * 대상 자격 여정은 스트리밍 평가 대상이 필요합니다. 2026년 8월부터는 대상 자격 노드에서 일괄 평가된 대상을 사용할 수 없습니다. [마이그레이션 안내서](aq-batch-audiences-migration.md)를 참조하십시오.
 * 단일 이벤트 및 대상 자격 여정은 조직 수준에서 5,000TPS 처리량 제한을 공유합니다. 대상 여정 읽기는 샌드박스당 최대 20,000TPS를 지원합니다.
-* 시뮬레이션은 대부분의 여정 유형에 대해 지원되지만 비즈니스 이벤트 항목에는 지원되지 않습니다. 노드 수준 제한에 대해서는 시뮬레이션 제한 사항을 참조하십시오.
 * 여정에 이미 있는 프로필은 재입력 구성에 관계없이 해당 여정의 동일한 버전을 다시 입력할 수 없습니다
 
 **용어:**
 
 * 정식 이름: 단일 이벤트 여정 — 변형: 이벤트가 트리거된 여정, 단일 여정
-* 정식 이름: 대상 읽기 여정 — 변형: 배치 여정, 세그먼트 트리거 여정, 세그먼트 읽기 여정
+* 정식 이름: 대상 읽기 여정 — 변형: 일괄 처리 여정
 * 정식 이름: 대상 자격 여정 — 변형: 대상 자격 이벤트 여정
 * 정식 이름: 비즈니스 이벤트 여정 — 변형: 비즈니스 이벤트가 트리거된 여정
 * 혼동하지 마십시오. &quot;대상 여정 읽기&quot; ≠ &quot;대상 자격 여정&quot; — 대상 읽기 는 모든 대상 구성원을 일정에 따라 일괄적으로 처리합니다. 대상 자격은 개별 멤버십 변경 사항에 실시간으로 응답합니다(즉각적인 입력을 위해서만 대상 스트리밍)
