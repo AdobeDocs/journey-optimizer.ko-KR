@@ -8,10 +8,11 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: 이메일, 콘텐츠 확인, HTML, CSS, 유효성 검사, 렌더링, 품질
-source-git-commit: f7185c276e785e1b7c7ca8d7e4f9c01add6a3383
+badge: label="제한 공개" type="Informative"
+source-git-commit: 2df5d9db31e03d4548b8ccc32c2d25293d829f1d
 workflow-type: tm+mt
-source-wordcount: '1027'
-ht-degree: 8%
+source-wordcount: '1066'
+ht-degree: 9%
 
 ---
 
@@ -22,6 +23,10 @@ ht-degree: 8%
 >id="ajo_email_content_check"
 >title="이메일 콘텐츠 유효성 검사"
 >abstract="콘텐츠 확인은 이메일 전송 전에 이메일의 HTML 및 CSS 문제를 자동으로 감지합니다. Gmail 또는 Microsoft Outlook에서 렌더링을 중단시킬 수 있는 지원되지 않는 태그, 빈 div, 크기 제한을 표시합니다. 상황별 세부 정보와 원클릭 수정을 통해 문제를 오류, 경고 또는 정보 알림으로 표시합니다."
+
+>[!AVAILABILITY]
+>
+>이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.
 
 [!DNL Journey Optimizer]에는 전자 메일 Designer에서 직접 자동화된 기술 유효성 검사가 포함되어 있어 보내기 전에 HTML 및 CSS 문제를 확인할 수 있습니다.
 
@@ -51,10 +56,8 @@ ht-degree: 8%
 
 문제에 따라 더 많은 컨텍스트를 보거나, 원클릭 수정 사항을 적용하거나, 이메일을 저장하여 확인 결과를 새로 고칠 수 있습니다.
 
-* 발견된 문제 중 일부는 **[!UICONTROL 세부 정보 표시]** 단추를 클릭하여 더 많은 컨텍스트를 볼 수 있습니다. 축소하려면 **[!UICONTROL 세부 정보 숨기기]**&#x200B;를 클릭하십시오.
-  자세한 정보가 포함된 전자 메일 Designer의 ![콘텐츠 검사 창](assets/content-check-details.png){width="80%"}
-* 마찬가지로 **[!UICONTROL 수정 사항 표시]** 단추를 클릭하고 가능한 경우 원클릭 수정 사항을 적용할 수 있습니다. 이 수정 사항을 자동으로 적용할 수 없는 경우 메시지가 표시되고 문제를 수동으로 해결해야 합니다.
-  수정 적용 단추가 있는 전자 메일 Designer의 ![콘텐츠 검사 창](assets/content-check-fix.png){width="80%"}
+* 발견된 문제 중 일부는 **[!UICONTROL 세부 정보 표시]** 단추를 클릭하여 더 많은 컨텍스트를 볼 수 있습니다. 축소하려면 **[!UICONTROL 세부 정보 숨기기]**&#x200B;를 클릭하세요.  자세한 정보가 포함된 전자 메일 Designer의 ![콘텐츠 검사 창](assets/content-check-details.png){width="80%"}
+* 마찬가지로 **[!UICONTROL 수정 사항 표시]** 단추를 클릭하고 가능한 경우 원클릭 수정 사항을 적용할 수 있습니다. 이 수정 사항을 자동으로 적용할 수 없는 경우 메시지가 표시되고 문제를 수동으로 해결해야 합니다.  수정 적용 단추가 있는 전자 메일 Designer의 ![콘텐츠 검사 창](assets/content-check-fix.png){width="80%"}
 
 ### 확인 다시 계산 {#recalculation}
 
