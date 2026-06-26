@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 96362514733a12fe19bb92cbda9d7b263b796172
+source-git-commit: 2df5d9db31e03d4548b8ccc32c2d25293d829f1d
 workflow-type: tm+mt
-source-wordcount: 3695
+source-wordcount: 3714
 ht-degree: 86%
 
 ---
@@ -400,6 +400,7 @@ ht-degree: 86%
 <p>Journey Optimizer는 이제 이메일 디자이너에 직접 자동화된 기술 유효성 검사 기능을 포함하여 전송 전에 HTML 및 CSS 문제를 감지할 수 있도록 지원합니다.</p>
 <p>검사에는 <code>&lt;script&gt;</code> 및 <code>&lt;base&gt;</code> 태그와 같은 지원되지 않는 요소, Microsoft Outlook에서 레이아웃을 깨뜨릴 수 있는 빈 div, HTML Meta 새로 고침 태그, Gmail에서 렌더링 오류를 유발하는 CSS 또는 HTML 크기 임계값 등이 포함됩니다.</p>
 <p>검사 결과는 작성 패널에 오류, 경고 또는 정보 알림으로 표시되며, 상황별 세부 정보와 가능한 경우 원클릭 수정 기능이 제공되므로 편집기를 종료하지 않고도 문제를 해결할 수 있습니다.</p>
+<p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
 <p><img src="assets/do-not-localize/content-check.gif"></p>
 <p>자세한 내용은 <a href="../email/content-check.md">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2026년 6월 18일</p>
