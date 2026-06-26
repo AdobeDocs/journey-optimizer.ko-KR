@@ -26,7 +26,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d7493db6edff53d2b4f52c14d29c5c2c32604f31
+source-git-commit: 96362514733a12fe19bb92cbda9d7b263b796172
 workflow-type: tm+mt
 source-wordcount: 3695
 ht-degree: 86%
@@ -170,7 +170,7 @@ ht-degree: 86%
 
 * **관계형 데이터에 대한 루프 기반 개인화** - 이제 개인화 편집기에서 주문, 계정 또는 예약과 같은 관계형 컬렉션을 반복하고 단일 전자 메일 또는 SMS 내에서 레코드당 하나의 콘텐츠 블록을 렌더링하는 루프 블록을 지원합니다. 컬렉션은 개인화 토큰을 사용하여 데이터 선택기를 통해 구성되며 표현식을 작성할 필요가 없습니다. [자세히 보기](../orchestrated/add-personalization.md#enrichment-collections)
 
-  사용 가능한 날짜: 2026년 6월 말
+  사용 가능한 날짜: 2026년 6월 26일
 
 +++ 곧 출시 예정 — **아래 정보는 변경될 수 있습니다.**
 
