@@ -8,27 +8,15 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f239af841c707b8254adeeab17662645794ee5b6
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: d7493db6edff53d2b4f52c14d29c5c2c32604f31
 workflow-type: tm+mt
-source-wordcount: 3687
+source-wordcount: 3695
 ht-degree: 86%
 
 ---
@@ -168,6 +156,10 @@ ht-degree: 86%
 
 이번 릴리스에서는 오케스트레이션된 캠페인에 다음과 같은 기능 및 개선 사항이 추가됩니다.
 
+* **관계형 데이터에 대한 루프 기반 개인화** - 이제 개인화 편집기에서 주문, 계정 또는 예약과 같은 관계형 컬렉션을 반복하고 단일 전자 메일 또는 SMS 내에서 레코드당 하나의 콘텐츠 블록을 렌더링하는 루프 블록을 지원합니다. 컬렉션은 개인화 토큰을 사용하여 데이터 선택기를 통해 구성되며 표현식을 작성할 필요가 없습니다. [자세히 보기](../orchestrated/add-personalization.md#enrichment-collections)
+
+  사용 가능한 날짜: 2026년 6월 말
+
 +++ 곧 출시 예정 — **아래 정보는 변경될 수 있습니다.**
 
 <table>
@@ -186,10 +178,6 @@ ht-degree: 86%
 </tr>
 </tbody>
 </table>
-
-* **관계형 데이터에 대한 루프 기반 개인화** - 이제 개인화 편집기에서 주문, 계정 또는 예약과 같은 관계형 컬렉션을 반복하고 단일 전자 메일 또는 SMS 내에서 레코드당 하나의 콘텐츠 블록을 렌더링하는 루프 블록을 지원합니다. 컬렉션은 개인화 토큰을 사용하여 데이터 선택기를 통해 구성되며 표현식을 작성할 필요가 없습니다. [자세히 보기](../orchestrated/add-personalization.md#enrichment-collections)
-
-  사용 가능한 날짜: 2026년 6월 말
 
 +++
 
@@ -353,6 +341,25 @@ ht-degree: 86%
 <table>
 <thead>
 <tr>
+<th><strong>이메일 크기 축소 활성화</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer에는 이제 이메일 렌더링 방식에 영향을 주지 않고 불필요한 공백, 주석 및 중복 코드를 제거하여 이메일의 HTML 크기를 줄이는 옵션이 포함되어 있습니다.</p>
+<p>이 옵션을 사용하면 일부 이메일 제공업체에서 메시지를 플래그 지정하거나 거부하는 데 사용하는 크기 임계값을 피하여 전달률을 높이고 수신자의 로드 시간을 단축할 수 있습니다.</p>
+<p><img src="assets/do-not-localize/email-size-optimization.gif"></p>
+<p>자세한 내용은 <a href="../email/create-email.md#optimize-html-size">세부 설명서</a>를 참조하십시오.</p>
+<p>사용 가능한 날짜: 2026년 6월 26일</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>조각의 편집 가능한 필드에 서식 있는 텍스트 사용</strong><br/></th>
 </tr>
 </thead>
@@ -394,23 +401,6 @@ ht-degree: 86%
   사용 가능한 날짜: 2026년 6월 18일
 
 +++ 곧 출시 예정 — **아래 정보는 변경될 수 있습니다.**
-
-<table>
-<thead>
-<tr>
-<th><strong>이메일 크기 축소 활성화</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer에는 이제 이메일 렌더링 방식에 영향을 주지 않고 불필요한 공백, 주석 및 중복 코드를 제거하여 이메일의 HTML 크기를 줄이는 옵션이 포함되어 있습니다.</p>
-<p>이 옵션을 사용하면 일부 이메일 제공업체에서 메시지를 플래그 지정하거나 거부하는 데 사용하는 크기 임계값을 피하여 전달률을 높이고 수신자의 로드 시간을 단축할 수 있습니다.</p>
-<p>사용 가능한 날짜: 2026년 6월 말</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
