@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 6d8650fc9963c21122f84c2ffd965089f158d8ed
+source-git-commit: eba98c8f232c10eac9753ac40b6cd814ed9594a1
 workflow-type: tm+mt
-source-wordcount: 8952
-ht-degree: 94%
+source-wordcount: 9055
+ht-degree: 93%
 
 ---
 
@@ -26,6 +26,10 @@ ht-degree: 94%
 이 페이지에는 월별 릴리스 기능 및 개선 사항과 관련된 업데이트 외에도 [!DNL Journey Optimizer] 설명서의 모든 최신 변경 사항이 나와 있습니다.
 
 ## 2026년 6월 {#june-2026}
+
+* 새 **여정 유형: 올바른 페이지를 선택하십시오**. 대상 읽기, 대상 자격, 단일 이벤트 및 비즈니스 이벤트와 같은 모든 여정 진입점을 의사 결정 안내서 및 기능 호환성 매트릭스와 비교하여 사용 사례에 적합한 유형을 선택하는 데 도움이 됩니다. [자세히 보기](../building-journeys/journey-types-selection.md)
+
+* 이제 새 **여정 및 캠페인** 페이지를 사용할 수 있습니다. 짧은 대기 시간 에지 개인화를 위한 인바운드 채널 활성화, 다중 표면 인바운드 게재 및 오케스트레이션된 캠페인(애드혹 대상 구성, 페더레이션 데이터) 사용 시기에 대한 지침을 포함하여 실행 스타일, 데이터 모델 및 사용 사례에서 여정, 작업 캠페인 및 API로 트리거된 캠페인을 비교합니다. [자세히 보기](../start/journeys-vs-campaigns.md)
 
 * **높은 처리량 모드** 페이지가 확장된 지역 가용성을 반영하도록 업데이트되었습니다. 이제 이 기능은 높은 처리량 트랜잭션 메시지 추가 기능이 라이선스가 부여된 조직의 경우 스위스를 제외한 모든 지역에서 사용할 수 있습니다. [자세히 보기](../campaigns/api-triggered-high-throughput.md)
 

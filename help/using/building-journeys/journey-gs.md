@@ -30,9 +30,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
+source-git-commit: 59de8d63dbddd6151859c50fe5cfc1de1ea7b686
 workflow-type: tm+mt
-source-wordcount: 2143
+source-wordcount: 2159
 ht-degree: 9%
 
 ---
@@ -90,7 +90,7 @@ ht-degree: 9%
 
 | 진입점 | 다음의 경우에 사용... | 프로필 입력 |
 |---|---|---|
-| **[대상자 읽기](read-audience.md)** | 정의된 프로필 집합(뉴스레터, 프로모션, 온보딩 시리즈)에 예약된 메시지나 반복 메시지를 보내려고 합니다. | 일괄 처리 대상의 모든 프로필을 한 번에 또는 일정에 따라. |
+| **[대상자 읽기](read-audience.md)** | 정의된 프로필 집합(뉴스레터, 프로모션, 온보딩 시리즈)에 예약된 메시지나 반복 메시지를 보내려고 합니다. | 일괄 처리 대상의 모든 프로필을 한 번에 또는 일정에 따라. [대상 내보내기 및 타이밍에 대해 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/run-and-operate/overview){target="_blank"} |
 | **[대상 자격](audience-qualification-events.md)** | 프로필이 대상자에 들어오거나 나갈 때(충성도 계층 업그레이드, 이탈 위험 플래그) 실시간으로 반응해야 합니다. | 스트리밍 대상에 자격을 부여하는 즉시 한 번에 하나의 프로필로 만듭니다. |
 | **단일 이벤트** | 프로필 작업은 즉시 응답(장바구니 포기, 양식 제출, 앱 로그인)을 트리거합니다. | 한 번에 하나씩, 실시간으로 |
 | **[비즈니스 이벤트](../event/about-creating-business.md)** | 프로필이 아닌 이벤트는 여러 사람에게 한 번에 영향을 줍니다(비행 취소, 재고 보충, 최신 뉴스 경고). | 자동 대상자 읽기 단계를 통해 이벤트와 연결된 모든 프로필입니다. |
