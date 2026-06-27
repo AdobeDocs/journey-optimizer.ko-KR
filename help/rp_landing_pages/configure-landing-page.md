@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 &#39;콘텐츠 카드 채널 구성&#39; 섹션을 �
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 콘텐츠 카드 채널 구성 전제 조건
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 콘텐츠 카드 채널을 활성화하는 데 필
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 Journey Optimizer에서 콘텐츠 카드 채널 구성
 
@@ -40,7 +40,7 @@ Journey Optimizer에서 콘텐츠 카드 채널 구성
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 Mobile SDK에서 콘텐츠 카드 지원 구성
 
@@ -50,7 +50,7 @@ Adobe Experience Platform Mobile SDK를 사용하여 모바일 애플리케이�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 Web SDK에서 콘텐츠 카드 지원 구성
 
