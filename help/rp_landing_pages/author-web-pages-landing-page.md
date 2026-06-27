@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 강력한 도구를 사용하여 웹 경험을 만들
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 웹 Designer을 사용하여 컨텐츠 편집
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 시각적 웹 디자이너를 사용하여 웹 페이
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 비시각적 편집기를 사용하여 웹 콘텐츠 편집
 
@@ -40,7 +40,7 @@ CSS 선택기 추가, 헤드 콘텐츠 수정 및 클릭 추적을 포함하여 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 Adobe Journey Optimizer에서 웹 수정 사항 관리
 
@@ -50,7 +50,7 @@ CSS 선택기, 사용자 지정 코드 및 코드 관리에 대한 모범 사례
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
 
 웹 경험 모니터링
 
@@ -60,7 +60,7 @@ CSS 선택기, 사용자 지정 코드 및 코드 관리에 대한 모범 사례
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 Adobe Journey Optimizer에서 단일 페이지 애플리케이션을 작성하는 방법
 

@@ -51,7 +51,7 @@ Adobe Journey Optimizer의 직관적인 드래그 앤 드롭 도구와 상황별
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 Adobe Journey Optimizer의 활동
 
@@ -71,7 +71,7 @@ Adobe Journey Optimizer의 표현식 작성
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 Adobe Journey Optimizer의 실용적인 사용 사례
 

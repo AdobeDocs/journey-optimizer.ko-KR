@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 코드 기반 경험을 사용하면 코드를 사용
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 코드 기반 경험 작성 및 구성
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 코드 기반 경험을 사용하면 코드를 사용
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 코드 기반 경험에서 편집 가능한 필드 사용
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer의 코드 기반 경험을 사용하면 코드를 사용
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 코드 기반 경험 테스트
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer의 코드 기반 경험을 사용하면 코드를 사용
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 코드 기반 경험 게시 및 관리
 
