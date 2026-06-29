@@ -59,7 +59,7 @@ ht-degree: 98%
 + 여정 {#orchestrate-journeys}
    + [여정 시작](using/building-journeys/journey.md)
    + {hide-from-toc}[여정 시작 안내서](using/building-journeys/journey-get-started.md)
-   + {hide-from-toc}[여정 형식: 올바른 one-2](using/building-journeys/journey-types-selection-v2.md) 선택
+   + {hide-from-toc}[여정 형식: 올바른 one-2 선택](using/building-journeys/journey-types-selection-v2.md)
    + [Journey Orchestration FAQ](using/building-journeys/journey-faq.md)
    + 여정 만들기 {#create-journey}
       + [여정 만들기](/help/rp_landing_pages/create-journey-landing-page.md)
