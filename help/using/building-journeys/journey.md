@@ -34,10 +34,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
+source-git-commit: f2d427c5c5dbbb14113601dfd05dc4a863abb220
 workflow-type: tm+mt
-source-wordcount: 2278
-ht-degree: 71%
+source-wordcount: 2325
+ht-degree: 70%
 
 ---
 
@@ -98,10 +98,8 @@ ht-degree: 71%
 * **대상자 선별 여정**: 대상자 멤버십 변경(VIP 업그레이드, 재참여)에 대한 실시간 반응
 * **비즈니스 이벤트 여정**: 여러 고객에게 영향을 주는 비즈니스 조건(재고 알림, 반짝세일)
 
-<!--
- waiting for DOCAC-13912 
-➡️ **[Journey types: choose the right one](journey-types-selection.md)** - Detailed comparison, decision guide, and feature compatibility matrix 
--->
+➡️ **[여정 유형: 올바른 유형 선택](journey-types-selection.md)** - 세부 비교, 의사 결정 안내서 및 기능 호환성 매트릭스
+
 
 ## 여정 디자이너를 사용한 빌드 {#journey-designer}
 
@@ -413,14 +411,12 @@ AI를 사용하여 각 고객이 참여할 가능성이 가장 높은 시점에 
 
 +++
 
-<!--
- Waiting for DOCAC-13912
-+++ Which journey type should I use?
++++ 어떤 여정 유형을 사용해야 합니까?
 
-Use the [decision guide](#decision-guide) or [comparison table](#journey-types-comparison) to choose between Unitary, Read Audience, Audience Qualification, and Business Event journeys based on your trigger mechanism and use case.
+트리거 메커니즘과 사용 사례를 기준으로 단일 이벤트 여정, 대상자 읽기 이벤트 가이드, 대상자 자격 조건 및 비즈니스 이벤트 규칙 중에서 선택하려면 [결정 가이드](journey-types-selection.md#decision-guide) 또는 [비교 테이블](journey-types-selection.md#journey-types-comparison)을 사용하십시오.
 
 +++
--->
+
 
 +++ 라이브 여정을 편집할 수 있나요?
 

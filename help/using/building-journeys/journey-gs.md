@@ -30,9 +30,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 59de8d63dbddd6151859c50fe5cfc1de1ea7b686
+source-git-commit: f2d427c5c5dbbb14113601dfd05dc4a863abb220
 workflow-type: tm+mt
-source-wordcount: 2159
+source-wordcount: 2167
 ht-degree: 9%
 
 ---
@@ -86,7 +86,7 @@ ht-degree: 9%
 
 * **이벤트 기반 항목** — 여정은 개인이 구매 또는 등록과 같은 작업을 수행할 때 실시간으로 트리거됩니다. [이벤트를 구성](../event/about-events.md)하여 트리거와 전달하는 데이터를 정의합니다.
 
-**사용할 진입점을 알 수 없습니까?** 아래 표는 가장 일반적인 사용 사례를 올바른 시작 활동에 매핑합니다.
+**사용할 진입점을 알 수 없습니까?** 아래 표는 가장 일반적인 사용 사례를 올바른 시작 활동에 매핑합니다. [여정 유형 선택 표](journey-types-selection.md)에서 자세히 알아보세요.
 
 | 진입점 | 다음의 경우에 사용... | 프로필 입력 |
 |---|---|---|

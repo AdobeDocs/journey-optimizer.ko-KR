@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d4ed86ea2833c1753d89186a460ba24ae57773fd
+source-git-commit: f2d427c5c5dbbb14113601dfd05dc4a863abb220
 workflow-type: tm+mt
 source-wordcount: '3383'
 ht-degree: 98%
@@ -59,7 +59,6 @@ ht-degree: 98%
 + 여정 {#orchestrate-journeys}
    + [여정 시작](using/building-journeys/journey.md)
    + {hide-from-toc}[여정 시작 안내서](using/building-journeys/journey-get-started.md)
-   + [여정 유형: 적합한 유형을 선택합니다.](using/building-journeys/journey-types-selection.md)
    + {hide-from-toc}[여정 형식: 올바른 one-2 선택](using/building-journeys/journey-types-selection-v2.md)
    + [Journey Orchestration FAQ](using/building-journeys/journey-faq.md)
    + 여정 만들기 {#create-journey}
@@ -90,6 +89,7 @@ ht-degree: 98%
    + 활동 {#about-journey-building}
       + [활동](/help/rp_landing_pages/about-journey-building-landing-page.md)
       + [여정 활동 시작](using/building-journeys/about-journey-activities.md)
+      + [여정 유형: 적합한 유형을 선택합니다.](using/building-journeys/journey-types-selection.md)
       + [일반 이벤트](using/building-journeys/general-events.md)
       + [반응 이벤트](using/building-journeys/reaction-events.md)
       + [대상자 선별](using/building-journeys/audience-qualification-events.md)
