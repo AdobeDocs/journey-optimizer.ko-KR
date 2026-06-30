@@ -7,24 +7,15 @@ role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
 TQID: https://experienceleague.adobe.com/XJ8i9eeM9AIlEiMMNAPyzjqIGJi2EXlxEMj0K6KseUM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c618a0dc-1818-4c6d-9916-0d92e6796f24
-  - id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
-  - id: e240d5e8-8393-4b76-8a3d-9e53a2f7306c
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0f73733f190ea27ada776ee27228730684f84bea
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c618a0dc-1818-4c6d-9916-0d92e6796f24id: cb1f1586-9fb4-4de2-8332-02cebb88d42did: e240d5e8-8393-4b76-8a3d-9e53a2f7306cid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: aeba428ed2890e334da72d34c0f9e8d748dee282
 workflow-type: tm+mt
-source-wordcount: 718
-ht-degree: 99%
+source-wordcount: 716
+ht-degree: 98%
 
 ---
 
@@ -47,7 +38,7 @@ Adobe Journey Optimizer는 대상자와 효과적으로 교류할 수 있는 다
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 이메일 채널
 
@@ -57,7 +48,7 @@ Adobe Journey Optimizer는 대상자와 효과적으로 교류할 수 있는 다
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 푸시 알림 채널
 
@@ -67,7 +58,7 @@ Adobe Journey Optimizer는 대상자와 효과적으로 교류할 수 있는 다
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 iOS 라이브 활동
 
@@ -77,7 +68,7 @@ iPhone 잠금 화면 및 Dynamic Island에 직접 지속적인 실시간 업데�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
 
 모바일 메시지
 
@@ -87,17 +78,17 @@ iPhone 잠금 화면 및 Dynamic Island에 직접 지속적인 실시간 업데�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
 
-다이렉트 메일 캠페인
+DM
 
 서드파티 공급업체 대상 추출 파일 내보내기와 사용자 동의 규정 준수 보장을 포함하여 다이렉트 메일 캠페인을 만들고 관리하는 방법을 알아봅니다.
 
-[다이렉트 메일 캠페인에 대해 자세히 알아보기](../../rp_landing_pages/direct-mail-landing-page.md)
+[DM에 대해 자세히 알아보기](../../rp_landing_pages/direct-mail-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 WhatsApp 메시
 
@@ -107,7 +98,7 @@ Meta의 Cloud API를 통해 WhatsApp 메시지를 통합 및 사용하여 개인
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment.svg)
 
 LINE 메시지
 
@@ -125,7 +116,7 @@ LINE 메시지
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 인앱 메시지
 
@@ -135,7 +126,7 @@ LINE 메시지
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 웹
 
@@ -145,7 +136,7 @@ LINE 메시지
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 코드 기반 경험
 
@@ -155,7 +146,7 @@ SDK 및 API를 사용하여 여러 디지털 플랫폼에 걸쳐 개인화된 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg)
 
 콘텐츠 카드
 
