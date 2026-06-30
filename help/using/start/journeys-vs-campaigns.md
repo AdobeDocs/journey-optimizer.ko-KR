@@ -10,12 +10,22 @@ level: Beginner
 keywords: 여정, 캠페인, 비교, 선택, 결정, 워크플로우, 실시간, 일괄 처리, 오케스트레이션, 여러 단계, 예약됨, API 트리거, 이벤트 기반
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
 TQID: https://experienceleague.adobe.com/RWLVSULVO0idnCs5OVQR1yVvNv1G0JwP3y-3sNXQg50
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: addf009e-030a-4310-8534-776a3e62ed48id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2:
+  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: addf009e-030a-4310-8534-776a3e62ed48
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
 workflow-type: tm+mt
 source-wordcount: 2545
@@ -88,12 +98,12 @@ ht-degree: 2%
 * 예약된 전송 또는 반복 전송
 * 복잡한 여러 단계 논리 필요 없음
 
-**외부 시스템에 의해 트리거된 즉각적인 메시지입니까?→0}API 트리거 캠페인 사용**(단일 메시지) **또는 단일 이벤트 여정**(여러 단계 오케스트레이션) 사용&#x200B;**
+**외부 시스템에 의해 트리거된 즉각적인 메시지입니까?→0&rbrace;API 트리거 캠페인 사용**(단일 메시지) **또는 단일 이벤트 여정**(여러 단계 오케스트레이션) 사용&#x200B;**
 * API 호출을 통해 요청 시 트리거됨 — 캠페인은 하나의 메시지를 전달합니다. 단일 여정은 [Experience Platform 수집](../event/additional-steps-to-send-events-to-journey.md)을 통해 이벤트를 수집하고 전체 여정 흐름을 실행합니다.
 * 페이로드 기반 개인화
 * 여러 단계 로직이 필요하지 않은 경우 캠페인 선택
 
-**고급 세분화, 다중 엔터티 데이터 또는 정확한 사전 전송 카운트가 포함된 복잡한 일괄 처리 워크플로우입니까?→0}오케스트레이션된 캠페인 사용** — 자세한 지침은 [오케스트레이션된 캠페인 시작](../orchestrated/gs-orchestrated-campaigns.md)을 참조하세요.**
+**고급 세분화, 다중 엔터티 데이터 또는 정확한 사전 전송 카운트가 포함된 복잡한 일괄 처리 워크플로우입니까?→0&rbrace;오케스트레이션된 캠페인 사용** — 자세한 지침은 [오케스트레이션된 캠페인 시작](../orchestrated/gs-orchestrated-campaigns.md)을 참조하세요.**
 
 >[!NOTE]
 >
