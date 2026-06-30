@@ -30,7 +30,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f2d427c5c5dbbb14113601dfd05dc4a863abb220
+source-git-commit: 5970d29e1ab6f0abbae0a9ff22d89656f135c3c8
 workflow-type: tm+mt
 source-wordcount: 2167
 ht-degree: 9%
@@ -117,13 +117,15 @@ ht-degree: 9%
 
 1. 여정의 구성 창을 편집하여 여정 이름을 정의하고 속성을 설정합니다. [이 여정](journey-properties.md)에서 페이지의 속성을 설정하는 방법을 알아보세요.
 
-   >[!TIP]
-   >
-   >**어떤 여정 유형을 선택해야 합니까?** Journey Optimizer을 처음 사용하는 경우 **[!UICONTROL 대상 읽기]** 활동을 사용하여 대상 기반 여정으로 시작하십시오. 이전 이벤트 구성이 필요하지 않으며 캔버스를 쉽게 이해할 수 있습니다. 구매 또는 양식 제출에 반응하는 등 이벤트가 트리거되는 실시간 경험의 경우, 먼저 이벤트를 구성하고 이벤트 기반 항목을 사용합니다. 더 깊이 갈 준비가 되셨습니까? [모든 여정 유형과 해당 시작 규칙을 살펴봅니다](entry-management.md#types-of-journeys).
-
    설정 및 구성 옵션이 있는 ![여정 속성 패널](assets/jo-properties.png)
 
 그런 다음 여정 디자인을 시작할 수 있습니다.
+
+>[!TIP]
+>
+>**어떤 여정 유형을 선택해야 합니까?**
+>
+>Journey Optimizer을 처음 사용하는 경우 **[!UICONTROL 대상 읽기]** 활동을 사용하여 대상 기반 여정으로 시작하십시오. 이전 이벤트 구성이 필요하지 않으며 캔버스를 쉽게 이해할 수 있습니다. 구매 또는 양식 제출에 반응하는 등 이벤트가 트리거되는 실시간 경험의 경우, 먼저 이벤트를 구성하고 이벤트 기반 항목을 사용합니다. 더 깊이 갈 준비가 되셨습니까? [모든 여정 유형과 해당 시작 규칙을 살펴봅니다](entry-management.md#types-of-journeys).
 
 ## 여정 디자인 {#jo-design}
 
