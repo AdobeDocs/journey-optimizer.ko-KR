@@ -9,9 +9,9 @@ role: Admin, User
 level: Beginner
 keywords: 여정 최적화 도구, 패키지, 라이선스, 캠페인, 여정, 채널, 의사 결정, 아웃바운드, 모바일, 웹, 모듈식, sms, mms, whatsapp, 추가 기능, 선택, 프라임, 궁극적, 이전
 hide: true
-source-git-commit: ef26246dd1bcd820bab1f226c3564a600ac5b506
+source-git-commit: 006ebca44d2dd0ba2c4bd95a67444506d97daabf
 workflow-type: tm+mt
-source-wordcount: '1992'
+source-wordcount: '1993'
 ht-degree: 2%
 
 ---
@@ -27,13 +27,11 @@ ht-degree: 2%
 
 [!DNL Adobe Journey Optimizer]은(는) 모듈식 패키징 모델을 사용합니다. 기본 사용 사례와 일치하는 기본 오퍼로 시작한 다음 필요한 채널 및 고급 기능을 추가합니다.
 
+패키지 가용성 및 포함된 기능은 계약, 선택한 추가 기능 및 지역별 가용성에 따라 달라질 수 있습니다. 조직 고유의 자세한 내용은 Adobe 담당자에게 문의하십시오.
+
 >[!TIP]
 >
 >**현재 사용 중인 모델을 알 수 없습니까?** 모듈식 패키징 모델로 [!DNL Adobe Journey Optimizer]을(를) 구입한 경우 이 페이지에 설명된 기본 오퍼 및 추가 기능이 적용됩니다. 계약에 **Select**, **Prime** 또는 **Ultimate**&#x200B;이(가) 참조된 경우 기존 패키징 모델에 있습니다. 현재 사용 권한을 확인하려면 Adobe 담당자에게 문의하세요.
-
->[!NOTE]
->
->패키지 가용성 및 포함된 기능은 계약, 선택한 추가 기능 및 지역별 가용성에 따라 달라질 수 있습니다. 조직 고유의 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
 ## 빠른 답변 {#quick-answers}
 
@@ -77,13 +75,13 @@ ht-degree: 2%
 
 | | Journey Optimizer - 캠페인 | JOURNEY OPTIMIZER - 여정 | Journey Optimizer - 캠페인 및 여정 |
 |--|:-----------------------------:|:----------------------------:|:----------------------------------------:|
-| [대상 기반 일괄 처리 오케스트레이션](../campaigns/get-started-with-campaigns.md) | ✓ | 제한적¹ | ✓ |
+| [대상 기반 일괄 처리 오케스트레이션](../campaigns/get-started-with-campaigns.md) | ✓ | 제한적<sup>1</sup> | ✓ |
 | [실시간 이벤트 기반 오케스트레이션](../building-journeys/journey-gs.md) | — | ✓ | ✓ |
 | 트랜잭션 메시지(이메일, 푸시, SMS) | ✓ | ✓ | ✓ |
 | [채널 추가 기능 사용 가능](#channel-addons) | ✓ | ✓ | ✓ |
 | [Decisioning 추가 기능 사용 가능](#decisioning-addon) | ✓ | ✓ | ✓ |
 
-¹ **Journey Optimizer - 여정**&#x200B;에서 대상 기반 오케스트레이션은 독립 실행형 일괄 처리 캠페인이 아닌 여정 사용 사례 내에서만 지원됩니다.
+**Journey Optimizer - 여정**&#x200B;에서 대상 기반 오케스트레이션은 독립 실행형 일괄 처리 캠페인이 아닌 여정 사용 사례 내에서만 지원됩니다.<sup></sup>
 
 ## 2단계 — 필요한 채널 추가 {#channel-addons}
 
@@ -274,7 +272,7 @@ ht-degree: 2%
 
 [!DNL Adobe Journey Optimizer]이(가) 패키지되는 방식을 이해했으므로 다음 단계는 다음과 같습니다.
 
-- **제품 시작하기** - 환경을 설정하고 핵심 개념을 알아봅니다. [Journey Optimizer 시작](get-started.md)
+- **제품 시작하기** - 환경을 설정하고 핵심 개념을 알아봅니다. [Journey Optimizer 시작하기](get-started.md)
 - **구현 계획** - 프로젝트의 구조화된 온보딩 경로를 따릅니다. [프로젝트 가이드 온보딩](onboarding-hub.md)
 - **기능 가용성 확인** — 라이브된 기능, 라이프사이클 상태(GA/LA/Beta) 및 출시 시기를 확인합니다. [기능 가용성](ajo-features-availability.md)
 - **올바른 사용 사례 찾기** — 참여 목표를 해당 목표를 지원하는 기능에 매핑합니다. [사용 사례 안내서](ajo-use-case-guide.md)
