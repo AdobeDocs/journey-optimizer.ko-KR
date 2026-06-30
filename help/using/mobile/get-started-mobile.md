@@ -21,12 +21,8 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c13ff12d-60f1-49cd-833a-d43359628223
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
+source-git-commit: 0f73733f190ea27ada776ee27228730684f84bea
 workflow-type: tm+mt
 source-wordcount: 1040
 ht-degree: 24%
@@ -41,15 +37,15 @@ ht-degree: 24%
 
 >[!ENDSHADEBOX]
 
->[!IMPORTANT]
->
->모바일 메시지를 처음 만드는 경우 모바일 메시지 채널이 구성되었는지 확인하십시오. [자세히 알아보기](mobile-configuration.md)
-
 [!DNL Journey Optimizer]을(를) 사용하여 콘텐츠를 만들고, 개인화하고, 미리 볼 수 있는 단일 SMS/MMS/RCS 편집기에서 **SMS**, **MMS**, **RCS**&#x200B;의 세 가지 채널을 통해 고객에게 모바일 메시지를 보냅니다.
 
 * **SMS(Short Message Service)**: 모든 모바일 장치에서 지원되는 최대 160자의 텍스트 전용 메시지를 보냅니다.
 * **MMS(멀티미디어 메시지 서비스)**: 이미지, 비디오, 오디오 클립 및 GIF와 최대 1,600자의 텍스트를 추가하여 메시지를 보강합니다. [MMS 제한에 대해 자세히 알아보기](../start/guardrails.md#sms-guardrails)
 * **리치 커뮤니케이션 서비스(RCS)**:Deliver 고객의 기본 메시징 앱에서 직접 브랜드 인터랙티브 콘텐츠를 제공하므로 별도의 앱 다운로드가 필요하지 않습니다.
+
+>[!IMPORTANT]
+>
+>모바일 메시지를 처음 만드는 경우 모바일 메시지 채널이 구성되었는지 확인하십시오. [자세히 알아보기](mobile-configuration.md)
 
 모바일 메시지는 모바일 메시지 작업을 사용하여 여정 또는 캠페인에서 만들고 보낼 수 있습니다.
 
