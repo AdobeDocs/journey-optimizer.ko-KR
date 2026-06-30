@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 여정 최적화 도구, 사용 사례, 의사 결정 안내서, 기능, 시작, 실무자 목표, 자습서
-source-git-commit: 49146a29a474a240ca1fdb10b2a6ef175f44f595
+source-git-commit: bcf3f322bad0602d0cc2cffc41229eacdcfe93e1
 workflow-type: tm+mt
-source-wordcount: '3141'
-ht-degree: 31%
+source-wordcount: '3224'
+ht-degree: 30%
 
 ---
 
@@ -37,7 +37,7 @@ AI는 이러한 많은 기능에 내장되어 있습니다. 아래 표에서 **(
 
 >[!TIP]
 >
->Journey Optimizer을 처음 사용하십니까? [Journey Optimizer으로 시작](../../rp_landing_pages/get-started-landing-page.md)하여 역할에 적합한 경로를 선택한 다음 필수 요소에 대한 [Journey Optimizer 소개](get-started.md)를 읽어 보세요. 실습형 자신감을 높이려면 [Journey Optimizer 튜토리얼](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}을 탐색하고 전문가가 큐레이션한 [비디오 재생 목록](https://experienceleague.adobe.com/ko/playlists?solution=Journey+Optimizer){target="_blank"}을 따라 [교육 샌드박스](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"}에서 또는 [실습형 과제](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"}를 통해 연습하세요.
+>Journey Optimizer을 처음 사용하십니까? [Journey Optimizer으로 시작](../../rp_landing_pages/get-started-landing-page.md)하여 역할에 적합한 경로를 선택한 다음 필수 요소에 대한 [Journey Optimizer 소개](get-started.md)를 읽어 보세요. 실습형 자신감을 높이려면 [Journey Optimizer 튜토리얼](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}을 탐색하고 전문가가 큐레이션한 [비디오 재생 목록](https://experienceleague.adobe.com/en/playlists?solution=Journey+Optimizer){target="_blank"}을 따라 [교육 샌드박스](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"}에서 또는 [실습형 과제](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"}를 통해 연습하세요.
 
 ## 팀을 위한 Journey Optimizer 설정 {#setup-admin}
 
@@ -109,7 +109,7 @@ AI는 이러한 많은 기능에 내장되어 있습니다. 아래 표에서 **(
 
 | 난... | 권장 기능 | 여기서 시작 |
 | --- | --- | --- |
-| A/B 테스트로 제품 실행 | 콘텐츠 실험 **(AI)** | [콘텐츠 실험 시작](../content-management/experiment-accelerator-gs.md) · [이메일 캠페인에 대한 콘텐츠 실험 만들기](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} |
+| A/B 테스트로 제품 실행 | 콘텐츠 실험 **(AI)** | [콘텐츠 실험 시작](../content-management/experiment-accelerator-gs.md) · [이메일 캠페인에 대한 콘텐츠 실험 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} |
 | 고객에게 중단 또는 서비스 업데이트 알림 | 예약된 캠페인 + 대상자 | [대상자 정보](../audience/about-audiences.md) |
 | 분기 논리를 사용하여 여러 단계 캠페인 디자인 | 오케스트레이션된 캠페인 | [오케스트레이션된 캠페인 시작](../orchestrated/gs-orchestrated-campaigns.md) |
 | 마지막 캠페인 실행 이후 변경된 프로필만 타겟팅 | 오케스트레이션된 캠페인 — 증분 쿼리 | [오케스트레이션된 캠페인에서 쿼리 빌드](../orchestrated/build-query.md) <!-- TODO: verify target — no dedicated "incremental query" page found; build-query.md ("Build your first rule") is the closest existing page --> |
@@ -187,8 +187,7 @@ AI는 이러한 많은 기능에 내장되어 있습니다. 아래 표에서 **(
 
 ### 새 고객 시작 {#flow-welcome}
 
-**다음 환영 시리즈를 만듭니다.** 모든 신규 가입자를 환영하고 비활성 가입자를 찾아내는 자동화된 환영 시리즈입니다.
-**우수 사례:** 마케터 · **기능:** 이벤트 트리거 여정
+**다음 환영 시리즈를 만듭니다.** 모든 신규 가입자를 환영하고 비활성 가입자를 찾아내는 자동화된 환영 시리즈입니다.**우수 사례:** 마케터 · **기능:** 이벤트 트리거 여정
 
 1. [통합 프로필 및 대상자](../audience/get-started-profiles.md)가 등록 이벤트를 받고 있는지 확인합니다.
 1. [첫 번째 여정을 만들고](../building-journeys/journey-gs.md) 등록 이벤트를 항목으로 사용합니다.
@@ -199,8 +198,7 @@ AI는 이러한 많은 기능에 내장되어 있습니다. 아래 표에서 **(
 
 ### 포기한 장바구니 복구 {#flow-cart}
 
-**다음 항목을 만듭니다.** 고객에게 남겨진 항목을 상기시키는 자동 복구 흐름입니다.
-**우수 사례:** 마케터 · **기능:** 이벤트 트리거 여정
+**다음 항목을 만듭니다.** 고객에게 남겨진 항목을 상기시키는 자동 복구 흐름입니다.**우수 사례:** 마케터 · **기능:** 이벤트 트리거 여정
 
 1. 장바구니 중단 이벤트가 Journey Optimizer에 도달하는지 확인하십시오(필요한 경우 [데이터 팀](../data/gs-data.md)과(와) 협력).
 1. 중단 이벤트로 트리거된 [여정 빌드](../building-journeys/journey-gs.md).
@@ -211,8 +209,7 @@ AI는 이러한 많은 기능에 내장되어 있습니다. 아래 표에서 **(
 
 ### 트랜잭션 메시지 보내기 {#flow-transactional}
 
-**외부 시스템에 의해 트리거된 주문형 주문, 배송 또는 약속 확인을 빌드합니다.**
-**마케터 및 개발자를 위한 최적의 솔루션:** · **기능:** 외부 시스템에 의해 트리거된 캠페인
+**외부 시스템에 의해 트리거된 주문형 주문, 배송 또는 약속 확인을 빌드합니다.****마케터 및 개발자를 위한 최적의 기능:** · **기능:** 외부 시스템에서 트리거된 캠페인
 
 1. [외부 시스템에서 트리거된 캠페인](../campaigns/api-triggered-campaigns.md)의 작동 방식과 예상되는 페이로드를 검토합니다.
 1. 메시지 템플릿을 디자인하고 트랜잭션 세부 정보를 사용하여 [개인화](../personalization/personalize.md)합니다.
@@ -222,8 +219,7 @@ AI는 이러한 많은 기능에 내장되어 있습니다. 아래 표에서 **(
 
 ### 콘텐츠 테스트를 사용하여 캠페인 시작 {#flow-campaign}
 
-**다음 빌드를 수행합니다.** 가장 성과가 좋은 콘텐츠를 자동으로 선택하는 예약된 프로모션입니다.
-**우수 사례:** 마케터 · **기능:** 예약된 캠페인 + 콘텐츠 실험
+**다음 빌드를 수행합니다.** 가장 성과가 좋은 콘텐츠를 자동으로 선택하는 예약된 프로모션입니다.**우수 사례:** 마케터 · **기능:** 예약된 캠페인 + 콘텐츠 실험
 
 1. [캠페인을 시작하고](../campaigns/get-started-with-campaigns.md) 대상자를 정의합니다.
 1. [콘텐츠 생성](../content-management/gs-generative.md)을 사용하여 제목란을 작성하고 변형을 복사합니다.
@@ -233,8 +229,7 @@ AI는 이러한 많은 기능에 내장되어 있습니다. 아래 표에서 **(
 
 ### 고객별 오퍼 개인화 {#flow-offers}
 
-**다음 결정을 만듭니다.** 각 고객에게 최상의 단일 오퍼를 표시하는 결정을 만듭니다.
-**우수 사례:** 마케터 · **기능:** 의사 결정
+**다음 결정을 만듭니다.** 각 고객에게 최상의 단일 오퍼를 표시하는 결정을 만듭니다.**우수 사례:** 마케터 · **기능:** 의사 결정
 
 1. [Offer Decisioning을 시작하고](../offers/get-started/starting-offer-decisioning.md) 오퍼 및 자격 규칙을 만듭니다.
 1. [여정](../building-journeys/journey-gs.md) 또는 캠페인 메시지에 결정을 추가합니다.
@@ -334,7 +329,7 @@ AI는 이러한 많은 기능에 내장되어 있습니다. 아래 표에서 **(
 >[!TAB 보고 및 최적화]
 
 * [실시간 보고서로 여정 모니터링 및 분석](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/report-and-monitor/monitor-and-analyze-your-journey-with-live-reports){target="_blank"} - 여정 실행 시 성능을 추적합니다.
-* [이메일 캠페인에 대한 콘텐츠 실험 만들기](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} - 콘텐츠를 테스트하고 최적화합니다.
+* [이메일 캠페인에 대한 콘텐츠 실험 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} - 콘텐츠를 테스트하고 최적화합니다.
 
 >[!ENDTABS]
 
@@ -345,6 +340,8 @@ AI는 이러한 많은 기능에 내장되어 있습니다. 아래 표에서 **(
 | 행동 중심의 여러 단계로, 각 고객은 각자의 속도에 맞게 움직입니다. | 여정 |
 | 대상자에 대한 간단한 예약 또는 API 트리거 메시지 | 캠페인 |
 | 다중 엔티티 세그먼테이션을 사용하는 복잡한 일괄 처리 워크플로 | 오케스트레이션된 캠페인 |
+
+의사 결정 트리 및 기능 테이블과 자세한 비교는 [여정 및 캠페인: 올바른 방법 선택](journeys-vs-campaigns.md)을 참조하십시오. 여정을 결정했으면 [여정 유형: 올바른 유형을 선택](../building-journeys/journey-types-selection.md)하여 단일 이벤트, 대상 읽기, 대상 자격 및 비즈니스 이벤트 여정 중에서 선택하십시오.
 
 ## 확실하지 않습니까? {#not-sure}
 
