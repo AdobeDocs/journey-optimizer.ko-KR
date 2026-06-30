@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2df5d9db31e03d4548b8ccc32c2d25293d829f1d
+source-git-commit: 2bd78486d0c81618cd8d0e5875adb2a10173e44d
 workflow-type: tm+mt
-source-wordcount: 3714
-ht-degree: 86%
+source-wordcount: 3606
+ht-degree: 85%
 
 ---
 
@@ -353,7 +353,7 @@ ht-degree: 86%
 <table>
 <thead>
 <tr>
-<th><strong>이메일 크기 축소 활성화</strong><br/></th>
+<th><strong>이메일 크기 최적화</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -527,15 +527,15 @@ ht-degree: 86%
 
   사용 가능한 날짜: 2026년 6월 1일
 
+<!--
++++ Coming soon — **Information below is subject to change**
 
-+++ 출시 예정 — **아래 정보는 변경될 수 있습니다**
-
-* **웹 애플리케이션 방화벽(WAF) IP 화이트리스트** - Adobe Journey Optimizer는 이제 랜딩 페이지에 대한 웹 애플리케이션 방화벽(WAF) IP 화이트리스트를 지원하여 조직에서 모든 수신 요청이 구성된 WAF 인프라를 통해서만 라우팅되도록 할 수 있습니다. 고객은 이 개선 사항을 통해 WAF 계층을 우회하는 모든 직접 요청을 거부하도록 Journey Optimizer를 구성하여 Imperva와 같은 도구에 정의된 보안 정책을 일관되게 적용할 수 있습니다. 이 기능은 엄격한 네트워크 액세스 요구 사항이 있는 기업의 보안 태세를 강화하고 AJO에서 호스팅하는 랜딩 페이지로의 트래픽 흐름을 완벽하게 제어할 수 있도록 합니다.
-
-  사용 가능한 날짜: 2026년 6월 말
+* **Web Application Firewall (WAF) IP whitelisting** - Adobe Journey Optimizer now supports Web Application Firewall (WAF) IP whitelisting for landing pages, enabling organizations to enforce that all incoming requests are routed exclusively through their configured WAF infrastructure. With this enhancement, customers can configure Journey Optimizer to reject any direct requests that bypass the WAF layer, ensuring that security policies defined in tools such as Imperva are consistently applied. This capability strengthens the security posture for enterprises with strict network access requirements, giving them full control over the traffic flow to their AJO-hosted landing pages.
+  
+  Availability date: Late June, 2026
 
 +++
-
+-->
 
 ### 모바일 메시징(SMS, MMS, RCS 및 LINE) {#june-26-mobile}
 
