@@ -26,9 +26,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 9dd9312bb142f7fe53183ef6b139a38ff39f2e8e
+source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
 workflow-type: tm+mt
-source-wordcount: 2274
+source-wordcount: 2296
 ht-degree: 1%
 
 ---
@@ -180,6 +180,7 @@ ht-degree: 1%
 
 여정 유형을 선택했으므로
 
+* **[여정과 캠페인 비교](../start/journeys-vs-campaigns.md)** — 여정 또는 캠페인이 올바른 도구인지 확실하지 않습니까? 먼저 상위 수준의 결정으로 돌아갑니다.
 * **[첫 번째 여정 만들기](journey-gs.md)** — 게시부터 시작까지의 단계별 가이드
 * **[여정 디자이너에 대해 알아보기](using-the-journey-designer.md)** — 여정 캔버스 디자인
 * **[여정의 프로필 시작](entry-management.md)** — 유형별 시작 규칙, 재시작 및 처리량

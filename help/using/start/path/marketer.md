@@ -27,10 +27,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
+source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
 workflow-type: tm+mt
-source-wordcount: 1727
-ht-degree: 96%
+source-wordcount: 1737
+ht-degree: 94%
 
 ---
 
@@ -145,7 +145,7 @@ ht-degree: 96%
 
 ### 캠페인 오케스트레이션
 
-* **올바른 접근 방식 선택**: 실시간 행동 기반 경험을 위한 [여정 유형](../../building-journeys/journey.md#journey-types) 또는 예약된 일괄 캠페인을 위한 [캠페인 유형](../../campaigns/get-started-with-campaigns.md#campaign-types)을 비교합니다.
+* **올바른 방법 선택**: [여정 및 캠페인 비교](../journeys-vs-campaigns.md)를 참조하여 실시간 오케스트레이션과 예약된 게재 중 하나를 결정한 다음 [여정 유형: 올바른 유형을 선택](../../building-journeys/journey-types-selection.md)하여 올바른 여정 유형을 선택하십시오
 * **명확한 캠페인 목표 정의**: 여러 단계로 이루어진 워크플로를 디자인하기 전에 목표를 설정합니다.
 * **파일럿 대상자로 시작**: 확장하기 전에 카운트 및 세분화 로직을 검증합니다.
 * **관계형 데이터 활용**: 다중 엔터티 세분화를 사용하여 고객 데이터를 계정, 구매, 구독과 연결하여 정확한 타겟팅을 구현합니다.

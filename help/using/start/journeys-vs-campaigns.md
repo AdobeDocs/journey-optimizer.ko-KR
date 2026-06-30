@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d4be496be65eef2c9cab727804f762350957223a
+source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
 workflow-type: tm+mt
-source-wordcount: 2483
+source-wordcount: 2545
 ht-degree: 2%
 
 ---
@@ -88,26 +88,22 @@ ht-degree: 2%
 
 ### 1단계: 실행 요구 사항
 
-**고객 행동에 대한 실시간 개별 응답**
-→ **여정 사용**
+**고객 행동에 대한 실시간 개별 응답→**&#x200B;여정 사용&#x200B;**
 * 프로필이 원하는 속도로 이동해야 함
 * 비헤이비어를 기반으로 한 조건부 논리
 * 실시간 컨텍스트가 중요합니다.
 
-**예약된 시간에 대상자에게 간단한 메시지를 전달하시겠습니까?**
-→ **작업 캠페인 사용**
+**예약된 시간에 대상자에게 간단한 메시지를 전달하시겠습니까?→**&#x200B;작업 캠페인 사용&#x200B;**
 * 모든 프로필이 동시에 메시지를 수신함
 * 예약된 전송 또는 반복 전송
 * 복잡한 여러 단계 논리 필요 없음
 
-**외부 시스템에 의해 즉각적인 메시지가 트리거되었습니까?**
-→ **API 트리거 캠페인 사용**(단일 메시지) **또는 단일 이벤트 여정**(여러 단계 오케스트레이션)
+**외부 시스템에 의해 트리거된 즉각적인 메시지입니까?→0&rbrace;API 트리거 캠페인 사용**(단일 메시지) **또는 단일 이벤트 여정**(여러 단계 오케스트레이션) 사용&#x200B;**
 * API 호출을 통해 요청 시 트리거됨 — 캠페인은 하나의 메시지를 전달합니다. 단일 여정은 [Experience Platform 수집](../event/additional-steps-to-send-events-to-journey.md)을 통해 이벤트를 수집하고 전체 여정 흐름을 실행합니다.
 * 페이로드 기반 개인화
 * 여러 단계 로직이 필요하지 않은 경우 캠페인 선택
 
-**고급 세분화, 다중 엔터티 데이터 또는 정확한 사전 전송 카운트가 포함된 복잡한 일괄 처리 워크플로우입니까?**
-→ **오케스트레이션된 캠페인 사용** — 자세한 지침은 [오케스트레이션된 캠페인 시작](../orchestrated/gs-orchestrated-campaigns.md)을 참조하십시오.
+**고급 세분화, 다중 엔터티 데이터 또는 정확한 사전 전송 카운트가 포함된 복잡한 일괄 처리 워크플로우입니까?→0&rbrace;오케스트레이션된 캠페인 사용** — 자세한 지침은 [오케스트레이션된 캠페인 시작](../orchestrated/gs-orchestrated-campaigns.md)을 참조하세요.**
 
 >[!NOTE]
 >
@@ -152,7 +148,7 @@ Customer B: Abandoned cart → Wait 2 hours → Already purchased → End immedi
 
 각 고객은 자신의 작업을 기반으로 자체 여정 타임라인을 경험합니다.
 
-[여정에 대해 자세히 알아보기](../building-journeys/journey.md)
+[여정에 대해 자세히 알아보기](../building-journeys/journey.md) | [여정 유형: 올바른 유형 선택](../building-journeys/journey-types-selection.md)
 
 ### 캠페인: 간단한 일괄 처리 또는 트리거된 게재
 
@@ -292,11 +288,13 @@ Monday 9 AM → Send newsletter to 100,000 subscribers → All receive simultane
 빌드를 시작할 준비가 되셨나요? 선택한 접근 방식에 대한 자세한 설명서를 살펴보십시오.
 
 * **[여정 시작](../building-journeys/journey.md)** - 여정 유형, 디자이너 및 워크플로
+* **[여정 유형: 올바른 이벤트 선택](../building-journeys/journey-types-selection.md)** - 단일 이벤트, 대상자 읽기, 대상자 자격 조건 및 비즈니스 이벤트
 * **[캠페인 시작](../campaigns/get-started-with-campaigns.md)** - 작업 및 API 트리거 캠페인
 * **[오케스트레이션된 캠페인 시작](../orchestrated/gs-orchestrated-campaigns.md)** - 다중 엔터티 데이터가 있는 일괄 처리 캔버스 워크플로(개별 지침)
 
 >[!MORELIKETHIS]
 >
+>* [여정 유형: 올바른 유형 선택](../building-journeys/journey-types-selection.md)
 >* [여정 유형 비교](../building-journeys/journey.md#journey-types-comparison)
 >* [캠페인 유형 비교](../campaigns/get-started-with-campaigns.md#campaign-types)
 >* [여정 FAQ](../building-journeys/journey-faq.md)
