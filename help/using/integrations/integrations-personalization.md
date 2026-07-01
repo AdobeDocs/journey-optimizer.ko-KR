@@ -8,13 +8,11 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 통합
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: d16f7424-4847-4b90-a37c-4b52cbdabee5
-source-git-commit: bfb28a935dffca7c381fe72339abc840d2ab297b
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: d16f7424-4847-4b90-a37c-4b52cbdabee5
+source-git-commit: 2668028bbdf9299aed836fecea983c548ce74d8e
 workflow-type: tm+mt
-source-wordcount: 842
+source-wordcount: 1302
 ht-degree: 1%
 
 ---
@@ -137,20 +135,19 @@ ht-degree: 1%
 
 ![](assets/uc-integrations-7.png)
 
-<!--
-## Use Adobe Target data in templates {#use-adobe-target-in-templates}
+## 템플릿에서 Adobe Target 데이터 사용 {#use-adobe-target-in-templates}
 
-This section explains how to use **Integrations** in Adobe Journey Optimizer to fetch personalization data from **[!DNL Adobe Target]** at send time and use it in message templates. It assumes the Target Delivery API has already been configured as an integration.
+이 섹션에서는 Adobe Journey Optimizer에서 **통합**&#x200B;을(를) 사용하여 전송 시 **[!DNL Adobe Target]**&#x200B;에서 개인화 데이터를 가져와 메시지 템플릿에서 사용하는 방법에 대해 설명합니다. 이 섹션에서는 Target 게재 API가 이미 통합으로 구성되어 있다고 가정합니다.
 
-For configuration steps, see [Work with Integrations](integrations.md) and the [Adobe Target Recommendations](vendor-integration.md#adobe-target-recommendations) sample.
+구성 단계는 [통합 작업](integrations.md) 및 [Adobe Target 권장 사항](vendor-integration.md#adobe-target-recommendations) 샘플을 참조하십시오.
 
-The Target Delivery API returns a `prefetch.mboxes` array. Each mbox includes an `options` object with `content` and `type` fields. The `type` value determines how you use `content` in your template. Open the tab that matches your mbox response, then follow the steps to use that data in your message.
+Target 배달 API가 `prefetch.mboxes` 배열을 반환합니다. 각 mbox에는 `content` 및 `type` 필드가 있는 `options` 개체가 있습니다. `type` 값은 템플릿에서 `content`을(를) 사용하는 방법을 결정합니다. mbox 응답과 일치하는 탭을 연 다음 단계에 따라 메시지에 해당 데이터를 사용합니다.
 
 >[!BEGINTABS]
 
->[!TAB JSON content]
+>[!TAB JSON 콘텐츠]
 
-When `type` is `json`, the `content` field is a **JSON string**. Parse it before you access nested fields. The example below shows a typical Delivery API response for a JSON mbox.
+`type`이(가) `json`인 경우 `content` 필드는 **JSON 문자열**&#x200B;입니다. 중첩된 필드에 액세스하기 전에 구문 분석합니다. 아래 예제는 JSON mbox에 대한 일반적인 배달 API 응답을 보여 줍니다.
 
 ```json
 {
@@ -170,61 +167,63 @@ When `type` is `json`, the `content` field is a **JSON string**. Parse it before
 }
 ```
 
-Use three helpers in sequence to fetch, extract, and parse the Target response.
+세 개의 도우미를 순서대로 사용하여 Target 응답을 가져오고 추출하고 구문 분석합니다.
 
-1. **Fetch the Target response.** Call your configured Target integration with `externalDataLookup`. Set `integrationName` to the **[!UICONTROL Name]** of that integration (replace the example placeholder `target_recommendations`). Use the `result` parameter to name the template variable that holds the full Delivery API payload—for example, `targetResponse`.
+1. **Target 응답을 가져옵니다.** `externalDataLookup`(으)로 구성된 Target 통합을 호출합니다. `integrationName`을(를) 해당 통합의 **[!UICONTROL Name]**(으)로 설정합니다(예제 자리 표시자 `target_recommendations` 대체). `result` 매개 변수를 사용하여 전체 배달 API 페이로드가 들어 있는 템플릿 변수의 이름을 지정하십시오(예: `targetResponse`).
 
-    ```handlebars
-    {{externalDataLookup integrationName="target_recommendations" result="targetResponse"}}
-    ```
+   개인화 편집기의 왼쪽 탐색 영역에 있는 **[!UICONTROL 통합]** 메뉴에서 직접 통합을 선택할 수도 있습니다. [콘텐츠에 통합 개인화 적용](#apply-integration-personalization)을 참조하십시오.
 
-1. **Extract a specific mbox using valueAtPath.** `valueAtPath` extracts an element from an array by its 0-based index and assigns it to a template variable. Use the `idx` parameter to specify which element to access.
+   ```handlebars
+   {{externalDataLookup integrationName="target_recommendations" result="targetResponse"}}
+   ```
 
-    ```handlebars
-    {{valueAtPath targetResponse.prefetch.mboxes idx=0 result="summerOffer"}}
-    ```
+1. **valueAtPath를 사용하여 특정 mbox를 추출합니다.** `valueAtPath`은(는) 배열에서 0 기반 인덱스로 요소를 추출하여 템플릿 변수에 할당합니다. `idx` 매개 변수를 사용하여 액세스할 요소를 지정합니다.
 
-    | Parameter | Description |
-    | --- | --- |
-    | `path` | Path to the array (positional, no keyword) |
-    | `idx` | 0-based index for array access (optional) |
-    | `result` | Variable name to store the extracted value |
+   ```handlebars
+   {{valueAtPath targetResponse.prefetch.mboxes idx=0 result="summerOffer"}}
+   ```
 
-    >[!NOTE]
-    >
-    > If `idx` is out of bounds, rendering throws an exception. Guard invalid indexes with `{%#if idx >= 0 and idx < count(targetResponse.prefetch.mboxes)%}` when the index may be invalid. PQL expressions cannot be used as the path. **Available since release 2025.9.0.**
+   | 매개 변수 | 설명 |
+   | --- | --- |
+   | `path` | 배열 경로(위치, 키워드 없음) |
+   | `idx` | 스토리지 액세스를 위한 0 기반 인덱스 (선택 사항) |
+   | `result` | 추출된 값을 저장할 변수 이름 |
 
-1. **Parse the JSON string using parseJson.** The mbox `options.content` field is a raw JSON string. `parseJson` converts it into a structured object whose fields can then be accessed directly in the template.
+   >[!NOTE]
+   >
+   > `idx`이(가) 범위를 벗어나면 렌더링에서 예외가 발생합니다. 인덱스가 잘못되었을 수 있는 경우 `{%#if idx >= 0 and idx < count(targetResponse.prefetch.mboxes)%}`(으)로 잘못된 인덱스를 보호하십시오. PQL 표현식은 경로로 사용할 수 없습니다. **릴리스 2025.9.0 이후 사용 가능.**
 
-    ```handlebars
-    {{parseJson jsonStr=summerOffer.options.content result="summerOfferContent"}}
-    ```
+1. **parseJson을 사용하여 JSON 문자열을 구문 분석합니다.** mbox `options.content` 필드는 원시 JSON 문자열입니다. `parseJson`은(는) 필드를 템플릿에서 직접 액세스할 수 있는 구조화된 개체로 변환합니다.
 
-    | Parameter | Description |
-    | --- | --- |
-    | `jsonStr` | Path to the string field containing valid JSON |
-    | `result` | Variable name to store the parsed object |
+   ```handlebars
+   {{parseJson jsonStr=summerOffer.options.content result="summerOfferContent"}}
+   ```
 
-    >[!NOTE]
-    >
-    > If the JSON string is invalid or the reference is null, `result` is set to `null` — no rendering error is thrown. Test with your actual Target response to confirm the content is valid JSON. **Available since: 2026.6.0**
+   | 매개 변수 | 설명 |
+   | --- | --- |
+   | `jsonStr` | 유효한 JSON이 포함된 문자열 필드의 경로 |
+   | `result` | 구문 분석된 개체를 저장할 변수 이름 |
 
-1. **Access the data.** Once parsed, use dot notation to access fields from `summerOfferContent`. To render a list of recommendations:
+   >[!NOTE]
+   >
+   > JSON 문자열이 잘못되었거나 참조가 null이면 `result`이(가) `null`(으)로 설정됩니다. 렌더링 오류가 발생하지 않습니다. 실제 Target 응답으로 테스트하여 콘텐츠가 유효한 JSON인지 확인합니다. **사용 가능한 날짜: 2026.6.0**
 
-    ```handlebars
-    {{externalDataLookup integrationName="target_recommendations" result="targetResponse"}}
-    {{valueAtPath targetResponse.prefetch.mboxes idx=0 result="summerOffer"}}
-    {{parseJson jsonStr=summerOffer.options.content result="summerOfferContent"}}
+1. **데이터에 액세스합니다.** 구문 분석되면 점 표기법을 사용하여 `summerOfferContent`의 필드에 액세스합니다. 권장 사항 목록을 렌더링하려면 다음을 수행하십시오.
 
-    Strategy: {{summerOfferContent.strategy}}
-    {{#each summerOfferContent.recommendations as |rec|}}
-      {{rec.name}} — {{rec.price}}
-    {{/each}}
-    ```
+   ```handlebars
+   {{externalDataLookup integrationName="target_recommendations" result="targetResponse"}}
+   {{valueAtPath targetResponse.prefetch.mboxes idx=0 result="summerOffer"}}
+   {{parseJson jsonStr=summerOffer.options.content result="summerOfferContent"}}
+   
+   Strategy: {{summerOfferContent.strategy}}
+   {{#each summerOfferContent.recommendations as |rec|}}
+     {{rec.name}} — {{rec.price}}
+   {{/each}}
+   ```
 
->[!TAB HTML content]
+>[!TAB HTML 콘텐츠]
 
-When `type` is `html`, the `content` field is a ready-to-render HTML string. You do not need to parse it. The example below shows a typical Delivery API response for an HTML mbox.
+`type`이(가) `html`인 경우 `content` 필드는 렌더링할 준비가 된 HTML 문자열입니다. 구문 분석할 필요가 없습니다. 아래 예제는 HTML mbox에 대한 일반적인 배달 API 응답을 보여 줍니다.
 
 ```json
 {
@@ -244,7 +243,7 @@ When `type` is `html`, the `content` field is a ready-to-render HTML string. You
 }
 ```
 
-Fetch and extract the mbox, then render `content` directly. Skip `parseJson`.
+mbox를 가져와서 추출한 다음 `content`을(를) 직접 렌더링합니다. `parseJson`을(를) 건너뛰십시오.
 
 ```handlebars
 {{externalDataLookup integrationName="target_recommendations" result="targetResponse"}}
@@ -254,14 +253,12 @@ Fetch and extract the mbox, then render `content` directly. Skip `parseJson`.
 
 >[!NOTE]
 >
-> Use **triple braces** `{{{...}}}` to render HTML content as-is. Double braces `{{...}}` will escape HTML entities and render raw tag strings instead of the HTML.
+> **트리플 중괄호** `{{{...}}}`를 사용하여 HTML 콘텐츠를 있는 그대로 렌더링합니다. 이중 중괄호 `{{...}}`은(는) HTML 엔터티를 이스케이프하고 HTML 대신 원시 태그 문자열을 렌더링합니다.
 
 >[!ENDTABS]
-
--->
 
 ## 사용 방법 비디오 {#video}
 
 이 비디오는 **통합**&#x200B;에서 Adobe Journey Optimizer을 외부 API에 연결하여 보다 관련성 있는 개인화를 위해 라이브 데이터 및 콘텐츠를 **아웃바운드** 채널, 이메일, SMS 및 푸시로 가져오는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3484125/?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3484118/?learn=on)
