@@ -11,9 +11,9 @@ keywords: 통합, 공급업체, 서드파티
 subfeature_v2: []
 feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-source-git-commit: bfb28a935dffca7c381fe72339abc840d2ab297b
+source-git-commit: c9ba757a58aaef0a55f6d2e24259bc8b86ff1f75
 workflow-type: tm+mt
-source-wordcount: 10185
+source-wordcount: 10209
 ht-degree: 5%
 
 ---
@@ -1209,9 +1209,7 @@ Adobe Target에는 권한에 따라 서버측 또는 통합 경험을 위한 권
 
 일반적인 사용 사례에는 Journey Optimizer에서 작성한 경험에 권장 사항을 삽입하고 프로필 또는 Experience Platform 컨텍스트에 키를 맞추는 작업이 포함됩니다.
 
-<!--
-➡️ After you activate the integration, learn how to [use Adobe Target data in message templates](integrations-personalization.md#use-adobe-target-in-templates).
--->
+➡️ 통합을 활성화한 후 [컨텐츠 작성에 통합을 추가](integrations-personalization.md#apply-integration-personalization)하는 방법과 [메시지 템플릿에서 Adobe Target 데이터를 사용](integrations-personalization.md#use-adobe-target-in-templates)하는 방법에 대해 알아보세요.
 
 >[!ENDSHADEBOX]
 
