@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2bd78486d0c81618cd8d0e5875adb2a10173e44d
+source-git-commit: 2eb9660084d1a875a70f0ef0794e9edae0dbca18
 workflow-type: tm+mt
-source-wordcount: 3606
-ht-degree: 85%
+source-wordcount: 3602
+ht-degree: 84%
 
 ---
 
@@ -555,11 +555,9 @@ ht-degree: 85%
 
 ### 사용성 개선 사항 {#june-26-usability}
 
-+++ 곧 출시 예정 — **아래 정보는 변경될 수 있습니다.**
+* **여정의 폴더** - 이제 인터페이스 탐색 및 관리를 개선하기 위해 여정을 **폴더**&#x200B;로 구성할 수 있습니다. [자세히 보기](../building-journeys/journey-ui.md#journeys-folders)
 
-* **여정 및 캠페인용 폴더** - 이제 여정과 캠페인을 **폴더**&#x200B;로 구성하여 인터페이스에서 탐색과 관리를 개선할 수 있습니다.
-
-+++
+  사용 가능한 날짜: 2026년 6월 30일
 
 <!--
 +++ Coming soon — **Information below is subject to change.**
