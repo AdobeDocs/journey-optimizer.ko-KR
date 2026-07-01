@@ -12,9 +12,9 @@ exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+source-git-commit: 2eb9660084d1a875a70f0ef0794e9edae0dbca18
 workflow-type: tm+mt
-source-wordcount: 2066
+source-wordcount: 2122
 ht-degree: 10%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 10%
 
 ## 여정 대시보드 {#dashboard-jo}
 
-여정 관리 메뉴 섹션에서 **[!UICONTROL 여정]**&#x200B;을(를) 클릭합니다. 두 가지 탭을 사용할 수 있습니다. **[!UICONTROL 개요]** 및 **[!UICONTROL 찾아보기]**.
+여정 관리 메뉴 섹션에서 **[!UICONTROL 여정]**&#x200B;을(를) 클릭합니다. 세 개의 전용 탭을 사용할 수 있습니다. **[!UICONTROL 개요]**(대시보드), **[!UICONTROL 찾아보기]**(목록 및 달력), **[!UICONTROL 폴더 보기]**(폴더에서 여정 구성).
 
 ### 여정 개요
 
@@ -53,7 +53,7 @@ ht-degree: 10%
 
 ### 여정 목록
 
-**[!UICONTROL 찾아보기]** 탭에는 기존 여정 목록이 표시됩니다. 여정을 검색하고 필터를 사용하며 각 요소에 대한 기본 작업을 수행할 수 있습니다. 예를 들어 항목을 복제하거나 삭제할 수 있습니다.
+**[!UICONTROL 찾아보기]** 탭에는 기존 여정 목록이 표시됩니다. 여정을 검색하고, 필터를 사용하고, 각 요소에 대한 기본 작업을 수행할 수 있습니다. 예를 들어 항목을 복제하거나 삭제할 수 있습니다.
 
 ![찾아보기 탭을 강조 표시하는 여정 대시보드](assets/journeys-browse.png)
 
@@ -109,6 +109,15 @@ ht-degree: 10%
 
    정보 창이 열린 ![캠페인 목록](assets/journey-calendar-4.png)
 
+### 폴더 보기 {#journeys-folders}
+
+여정 목록에서 **[!UICONTROL 폴더 표시]** 아이콘을 사용하여 여정 폴더 보기를 열거나 **[!UICONTROL 폴더 보기]** 탭을 사용하십시오. [폴더 작업 방법 알아보기](../start/search-filter-categorize.md#organize-folders)
+
+![](assets/folders-view-journeys.png)
+
+>[!AVAILABILITY]
+>
+>여정의 폴더는 제한된 가용성입니다. 현재 릴리스 상태에 대해서는 [Journey Optimizer 릴리스 주기](../rn/releases.md)를 참조하십시오.
 
 ## 여정 필터링 {#journey-filter}
 
