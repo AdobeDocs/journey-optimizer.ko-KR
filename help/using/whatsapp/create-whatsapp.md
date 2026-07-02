@@ -77,7 +77,7 @@ WhatsApp 메시지에 사용할 수 있는 call-to-action 옵션은 다음과 �
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_whatsapp"
 >title="WhatsApp 작업"
->abstract="WhatsApp 채널 액션은 프로필이 여정의 이 단계에 도달하면 WhatsApp 메시지를 프로필에 보냅니다. 레이블은 여정 캔버스에서 활동을 식별하고, 작업은 전달된 콘텐츠를 정의하는 WhatsApp 구성을 참조합니다. **최적화** 섹션에는 콘텐츠 실험 또는 타깃팅 규칙이 포함될 수 있고, **다국어** 섹션은 여러 언어로 콘텐츠를 제공할 수 있으며, **시간 초과 또는 오류** 섹션은 작업이 실패할 경우 대체 경로를 정의할 수 있습니다."
+>abstract="WhatsApp 채널 액션은 프로필이 여정의 이 단계에 도달하면 WhatsApp 메시지를 프로필에 보냅니다. 레이블은 여정 캔버스에서 활동을 식별하고, 작업은 전달된 콘텐츠를 정의하는 WhatsApp 구성을 참조합니다. **최적화** 섹션에는 콘텐츠 실험 또는 타기팅 규칙이 포함될 수 있고, **다국어** 섹션은 여러 언어로 콘텐츠를 제공할 수 있으며, **시간 초과 또는 오류** 섹션은 작업이 실패할 경우 대체 경로를 정의할 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="채널 액션 시작"
 
 아래 탭을 탐색하여 캠페인 또는 여정에 WhatsApp 메시지를 추가하는 방법을 알아보십시오.

@@ -18,7 +18,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_usage_metrics"
 >title="SMS 사용 지표"
->abstract="SMS 사용량 보고서를 생성하여 메시지 볼륨을 공급업체 청구와 맞도록 조정합니다. 보고서는 각 짧은 코드 또는 전화번호에 대한 MT(mobile-terminated) 및 MO(mobile-originated)의 수를 일별 집계하여 나열합니다."
+>abstract="SMS 사용량 보고서를 생성하여 메시지 볼륨과 공급업체 청구를 대조할 수 있습니다. 보고서에는 각 단축 번호 또는 전화번호에 대한 모바일 수신(MT) 및 모바일 발신(MO) 건수가 일별로 집계되어 표시됩니다."
 
 >[!BEGINSHADEBOX]
 
@@ -48,12 +48,12 @@ SMS 사용 지표는 Adobe Journey Optimizer을 통해 SMS를 구매할 때 사�
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_usage_credential"
 >title="SMS 자격 증명"
->abstract="이 보고서에 주고 받는 트래픽이 표시되도록 할 Sinch API 자격 증명을 선택합니다. 자격 증명을 추가하거나 업데이트하려면 **관리** > **채널** > **API 자격 증명**&#x200B;으로 이동한 다음, **SMS 공급업체** > **Sinch MMS**&#x200B;를 선택합니다."
+>abstract="이 보고서에 송수신 트래픽이 표시될 Sinch API 자격 증명을 선택합니다. 자격 증명을 추가하거나 업데이트하려면 **관리** > **채널** > **API 자격 증명**&#x200B;으로 이동한 후 **SMS 공급업체** > **Sinch MMS**&#x200B;를 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_usage_start_date"
 >title="시작 날짜"
->abstract="보고서에 포함되도록 할 날짜 범위의 첫 번째 날입니다. 지난 90일 동안의 사용 데이터만 이용 가능합니다."
+>abstract="보고서에 포함할 날짜 범위의 첫째 날입니다. 사용량 데이터는 최근 90일간의 데이터만 제공됩니다."
 
 SMS 사용 보고서는 Journey Optimizer에서 공급업체 청구와 메시징 활동 간의 조정을 지원하기 위해 짧은 코드로 MO(Mobile-Originated) 및 MT(Mobile-Terminated) 볼륨을 표시합니다.
 
@@ -67,7 +67,7 @@ SMS 사용 보고서는 Journey Optimizer에서 공급업체 청구와 메시징
 
    * **[!UICONTROL 보고서 이름]**: 보고서를 인식하는 데 도움이 되는 레이블을 입력하십시오.
    * **[!UICONTROL SMS 자격 증명]**: SMS 사용 보고를 위해 이전에 만든 **Sinch MMS** API 자격 증명을 선택합니다.
-   * **[!UICONTROL 시작 날짜]** 및 **[!UICONTROL 종료 날짜]**: 보고서의 날짜 범위를 설정합니다. 지난 90일 동안의 사용 데이터만 이용 가능합니다.
+   * **[!UICONTROL 시작 날짜]** 및 **[!UICONTROL 종료 날짜]**: 보고서의 날짜 범위를 설정합니다. 사용량 데이터는 최근 90일간의 데이터만 제공됩니다.
 
      ![](assets/usage_report_2.png)
 
