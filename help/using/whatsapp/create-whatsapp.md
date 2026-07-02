@@ -9,20 +9,12 @@ role: User
 level: Beginner
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
 TQID: https://experienceleague.adobe.com/fio2Etyk9FdkyTiHwRMkadrJ4bbsFz7--KvzQvUQrbc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b8df23d2-98a2-4406-86cc-2babe8728d36
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b8df23d2-98a2-4406-86cc-2babe8728d36
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 01105f4dc3f6b52598c634373988570cf6916406
 workflow-type: tm+mt
 source-wordcount: 1162
@@ -77,7 +69,7 @@ WhatsApp 메시지에 사용할 수 있는 call-to-action 옵션은 다음과 �
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_whatsapp"
 >title="WhatsApp 작업"
->abstract="WhatsApp 채널 액션은 프로필이 여정의 이 단계에 도달하면 WhatsApp 메시지를 프로필에 보냅니다. 레이블은 여정 캔버스에서 활동을 식별하고, 작업은 전달된 콘텐츠를 정의하는 WhatsApp 구성을 참조합니다. **최적화** 섹션에는 콘텐츠 실험 또는 타깃팅 규칙이 포함될 수 있고, **다국어** 섹션은 여러 언어로 콘텐츠를 제공할 수 있으며, **시간 초과 또는 오류** 섹션은 작업이 실패할 경우 대체 경로를 정의할 수 있습니다."
+>abstract="WhatsApp 채널 액션은 프로필이 여정의 이 단계에 도달하면 WhatsApp 메시지를 프로필에 보냅니다. 레이블은 여정 캔버스에서 활동을 식별하고, 작업은 전달된 콘텐츠를 정의하는 WhatsApp 구성을 참조합니다. **최적화** 섹션에는 콘텐츠 실험 또는 타기팅 규칙이 포함될 수 있고, **다국어** 섹션은 여러 언어로 콘텐츠를 제공할 수 있으며, **시간 초과 또는 오류** 섹션은 작업이 실패할 경우 대체 경로를 정의할 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="채널 액션 시작"
 
 아래 탭을 탐색하여 캠페인 또는 여정에 WhatsApp 메시지를 추가하는 방법을 알아보십시오.
@@ -232,6 +224,6 @@ Once you have performed your tests and validated the content, you can send your 
 
 +++ 비디오 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3470289/?captions=kor&learn=on")
+>[!VIDEO](https://video.tv.adobe.com/v/3470282/?learn=on")
 
 +++

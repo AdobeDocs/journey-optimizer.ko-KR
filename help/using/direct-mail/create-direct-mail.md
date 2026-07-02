@@ -10,19 +10,12 @@ level: Beginner
 keywords: 다이렉트 메일, 메시지, 캠페인
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 TQID: https://experienceleague.adobe.com/vn-PhvuksTX-ALADGGwGlvtp7-dTgjFVsIVvucAjLa8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 7d1215b448da93bf4f1ff29f93e00a68921cedce
 workflow-type: tm+mt
 source-wordcount: 1266
@@ -62,7 +55,7 @@ DM 메시지를 만들려면 예약된 캠페인이나 여정을 만들고 추�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_direct_mail"
 >title="다이렉트 메일 작업"
->abstract="다이렉트 메일(DM) 채널 액션은 프로필이 여정의 이 단계에 도달하면 프로필에 대한 DM 콘텐츠를 생성합니다. 레이블은 여정 캔버스에서 활동을 식별하고, 작업은 전달된 콘텐츠를 정의하는 DM 구성을 참조합니다. **최적화** 섹션에는 콘텐츠 실험 또는 타깃팅 규칙이 포함될 수 있고, **다국어** 섹션은 여러 언어로 콘텐츠를 제공할 수 있으며, **시간 초과 또는 오류** 섹션은 작업이 실패할 경우 대체 경로를 정의할 수 있습니다."
+>abstract="다이렉트 메일(DM) 채널 액션은 프로필이 여정의 이 단계에 도달하면 프로필에 대한 DM 콘텐츠를 생성합니다. 레이블은 여정 캔버스에서 활동을 식별하고, 작업은 전달된 콘텐츠를 정의하는 DM 구성을 참조합니다. **최적화** 섹션에는 콘텐츠 실험 또는 타기팅 규칙이 포함될 수 있고, **다국어** 섹션은 여러 언어로 콘텐츠를 제공할 수 있으며, **시간 초과 또는 오류** 섹션은 작업이 실패할 경우 대체 경로를 정의할 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="채널 액션 시작"
 
 캠페인이나 여정에 DM 메시지를 추가하는 방법을 알아보려면 아래 탭을 살펴보십시오.
