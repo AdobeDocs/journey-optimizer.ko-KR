@@ -27,9 +27,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+source-git-commit: fdddc1053c86ac91128a9cefd2288c7f7c4ea10b
 workflow-type: tm+mt
-source-wordcount: 2025
+source-wordcount: 2009
 ht-degree: 6%
 
 ---
@@ -122,8 +122,6 @@ Journey Optimizer 컨텐츠 실험 을 사용하면 타겟 대상자에게 가�
 
 1. 인앱 또는 웹 채널을 사용하여 실험을 설정하고 **[!UICONTROL 인바운드 클릭수]**, **[!UICONTROL 고유 인바운드 클릭수]**, **[!UICONTROL 페이지 보기 수]** 또는 **[!UICONTROL 고유 페이지 보기 수 지표]** 를 선택할 때 **[!UICONTROL 차원]** 필드를 사용하여 특정 페이지에서 클릭수 및 보기를 정확하게 추적하고 모니터링할 수 있습니다.
 
-   ![](assets/content_experiment_20.png)
-
 1. API 트리거 캠페인을 만든 경우 **[!UICONTROL 실험 유형]** 드롭다운에서 **[!UICONTROL A/B 실험]**&#x200B;을(를) 선택합니다.
 
 1. **[!UICONTROL 치료 추가]**&#x200B;를 클릭하여 필요한 수만큼 새 치료를 만듭니다.
@@ -149,8 +147,6 @@ Journey Optimizer 컨텐츠 실험 을 사용하면 타겟 대상자에게 가�
    ![](assets/content_experiment_12.png)
 
 1. 그런 다음 각 **[!UICONTROL 처리]**&#x200B;에 정확한 백분율을 할당하거나 **[!UICONTROL 균등 분포]** 토글 막대를 전환하도록 선택할 수 있습니다.
-
-   ![](assets/content_experiment_13.png)
 
 1. 자동 크기 조정 실험을 활성화하여 실험의 가장 성과가 좋은 변형을 자동으로 롤아웃합니다. [우승자를 평가하는 방법에 대해 자세히 알아보기](#scale-winner)
 
@@ -240,7 +236,7 @@ Bring your own Multi-armed bandit 실험은 다음에서만 사용할 수 있습
 
 ## 트리트먼트 디자인 {#treatment-experiment}
 
-1. **[!UICONTROL 콘텐츠 편집]** 창에서 치료 B를 선택하여 콘텐츠를 변경합니다.
+1. **[!UICONTROL 콘텐츠]** 탭에서 치료 B를 선택하여 콘텐츠를 변경합니다.
 
    여기서는 **[!UICONTROL 제목 줄]**&#x200B;에 오퍼를 지정하지 않도록 선택합니다.
 
@@ -250,15 +246,14 @@ Bring your own Multi-armed bandit 실험은 다음에서만 사용할 수 있습
 
    ![](assets/content_experiment_9.png)
 
-1. 치료를 디자인한 후 **[!UICONTROL 추가 작업]**&#x200B;을(를) 클릭하여 치료와 관련된 옵션에 액세스합니다. **[!UICONTROL 이름 바꾸기]**, **[!UICONTROL 복제]** 및 **[!UICONTROL 삭제]**.
-
-   ![](assets/content_experiment_7.png)
-
-1. 필요한 경우 **[!UICONTROL 실험 설정]** 메뉴에 액세스하여 처리 구성을 변경합니다.
+1. 필요한 경우 **[!UICONTROL 작업]** 탭에서 **[!UICONTROL 실험 설정]** 메뉴에 액세스하여 치료 구성을 변경합니다.
 
    ![](assets/content_experiment_19.png)
 
-1. 메시지 콘텐츠가 정의되면 시뮬레이션 방법 중 하나를 사용하여 게재 렌더링을 제어하고 개인화 설정을 확인합니다. 샘플 입력 데이터 또는 AI 자동 생성으로 콘텐츠 변형을 테스트하려면 **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭하고, **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭한 다음, 드롭다운에서 **[!UICONTROL 콘텐츠 시뮬레이션(AEP 프로필)]**&#x200B;을 선택하여 테스트 프로필로 미리 봅니다. [자세히 알아보기](../content-management/preview-test.md)
+1. 메시지 콘텐츠가 정의되면 두 방법 중 하나를 사용하여 게재 렌더링을 제어하고 개인화 설정을 확인합니다.
+
+   * 샘플 입력 데이터 또는 AI 자동 생성을 사용하여 콘텐츠 변형을 테스트하려면 **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭하십시오.
+   * **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭한 후 드롭다운에서 **[!UICONTROL 콘텐츠 시뮬레이션(AEP 프로필)]**&#x200B;을 선택하여 테스트 프로필로 미리 봅니다. [자세히 알아보기](../content-management/preview-test.md)
 
 실험을 구성한 다음에는 보고서를 통해 게재의 성공을 추적할 수 있습니다. [자세히 알아보기](../reports/campaign-global-report-cja-experimentation.md)
 
