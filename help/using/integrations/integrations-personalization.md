@@ -8,13 +8,11 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 통합
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: d16f7424-4847-4b90-a37c-4b52cbdabee5
-source-git-commit: 2668028bbdf9299aed836fecea983c548ce74d8e
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: d16f7424-4847-4b90-a37c-4b52cbdabee5
+source-git-commit: 1159b5bbe57003807aa1cbbc80cea313e7f3ebcb
 workflow-type: tm+mt
-source-wordcount: 1302
+source-wordcount: 1311
 ht-degree: 1%
 
 ---
@@ -137,9 +135,9 @@ ht-degree: 1%
 
 ![](assets/uc-integrations-7.png)
 
-## 템플릿에서 Adobe Target 데이터 사용 {#use-adobe-target-in-templates}
+## 콘텐츠에서 Adobe Target Recommendations 사용 {#use-adobe-target-in-templates}
 
-이 섹션에서는 Adobe Journey Optimizer에서 **통합**&#x200B;을(를) 사용하여 전송 시 **[!DNL Adobe Target]**&#x200B;에서 개인화 데이터를 가져와 메시지 템플릿에서 사용하는 방법에 대해 설명합니다. 이 섹션에서는 Target 게재 API가 이미 통합으로 구성되어 있다고 가정합니다.
+이 섹션에서는 템플릿에서 작성했든 인라인으로 작성했든 간에 Adobe Journey Optimizer에서 **통합**&#x200B;을 사용하여 전송 시간에 **[!DNL Adobe Target]**&#x200B;에서 개인화 데이터를 가져와 메시지 콘텐츠에서 사용하는 방법에 대해 설명합니다. 이 섹션에서는 Target 게재 API가 이미 통합으로 구성되어 있다고 가정합니다.
 
 구성 단계는 [통합 작업](integrations.md) 및 [Adobe Target 권장 사항](vendor-integration.md#adobe-target-recommendations) 샘플을 참조하십시오.
 
@@ -263,4 +261,4 @@ mbox를 가져와서 추출한 다음 `content`을(를) 직접 렌더링합니�
 
 이 비디오는 **통합**&#x200B;에서 Adobe Journey Optimizer을 외부 API에 연결하여 보다 관련성 있는 개인화를 위해 라이브 데이터 및 콘텐츠를 **아웃바운드** 채널, 이메일, SMS 및 푸시로 가져오는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3484125/?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3484118/?learn=on)
