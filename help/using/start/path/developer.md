@@ -27,9 +27,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: e5e8545bef077219ff91428c9048c978184b57ec
+source-git-commit: 4c109a6021d46ee7290f09d9333892b42b5af3e2
 workflow-type: tm+mt
-source-wordcount: 3456
+source-wordcount: 3490
 ht-degree: 54%
 
 ---
@@ -312,6 +312,11 @@ SDK 및 이벤트 스트리밍을 구현하는 것 외에도 자체 시스템에
 | 외부 파이프라인에서 콘텐츠 템플릿 및 조각 생성 및 관리 | [콘텐츠 API](https://developer.adobe.com/journey-optimizer-apis/references/content){target="_blank"} · [템플릿](../../content-management/content-templates.md) · [조각](../../content-management/fragments.md) |
 | 액션 캠페인 검색 및 필터링 | [캠페인 API](https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve){target="_blank"} |
 | 캠페인을 미리 보고 증명을 프로그래밍 방식으로 보내기 | [시뮬레이션 API](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"} |
+
+>[!NOTE]
+>
+>시뮬레이션 API는 API가 트리거된 작업(예약된) 캠페인에 사용할 수 있습니다. 오케스트레이션된 캠페인에 대해 **지원되지 않음**: 대신 오케스트레이션된 캠페인 사용자 인터페이스에서 미리 보기 및 증명 워크플로우를 사용하십시오.
+
 | 데이터 세트 유효성 검사 및 오케스트레이션된 캠페인 실행 트리거 | [데이터 집합 유효성 검사](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset){target="_blank"} · [트리거](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} · [데이터 집합 사용](../../orchestrated/manual-schema.md) |
 
 ## 추가 리소스 {#additional-resources}
