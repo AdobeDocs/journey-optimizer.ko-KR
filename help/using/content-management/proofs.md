@@ -6,11 +6,10 @@ role: User
 level: Beginner
 exl-id: e742c04e-2987-4466-84af-bdaf4d714552
 feature_v2: []
-subfeature_v2:
-  - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+subfeature_v2: id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
+source-git-commit: 4c109a6021d46ee7290f09d9333892b42b5af3e2
 workflow-type: tm+mt
-source-wordcount: 508
+source-wordcount: 539
 ht-degree: 10%
 
 ---
@@ -29,6 +28,8 @@ ht-degree: 10%
 
 * **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭한 다음 드롭다운에서 **[!UICONTROL 콘텐츠 시뮬레이션(AEP 프로필)]**&#x200B;을 선택하여 테스트 프로필과 함께 증명을 보냅니다.
 * 샘플 입력 데이터 또는 AI 자동 생성으로 만든 콘텐츠 변형에 대한 증명을 보내려면 **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭합니다. [콘텐츠 변형을 시뮬레이션하는 방법을 알아봅니다](../test-approve/simulate-sample-input.md#proofs)
+
+API 트리거 및 작업(예약된) 캠페인의 경우 [시뮬레이션 API](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"}를 사용하여 프로그래밍 방식으로 증명을 보낼 수도 있습니다. 오케스트레이션된 캠페인에서는 지원되지 않습니다.
 
 ## 반드시 알아야 할 사항 {#must-read}
 

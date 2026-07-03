@@ -6,30 +6,14 @@ role: Developer
 level: Intermediate
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
 TQID: https://experienceleague.adobe.com/7fRI-CPkIeBAPjtXmDgFdyNKgB4WwEc01yKrGUXnc3U
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: e5e8545bef077219ff91428c9048c978184b57ec
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: d08afb72-92f6-4856-88e3-11ec34313c2fid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e9001ce2-5245-4a8e-8601-dd958009072fid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 4c109a6021d46ee7290f09d9333892b42b5af3e2
 workflow-type: tm+mt
-source-wordcount: 3456
+source-wordcount: 3490
 ht-degree: 54%
 
 ---
@@ -312,6 +296,11 @@ SDK 및 이벤트 스트리밍을 구현하는 것 외에도 자체 시스템에
 | 외부 파이프라인에서 콘텐츠 템플릿 및 조각 생성 및 관리 | [콘텐츠 API](https://developer.adobe.com/journey-optimizer-apis/references/content){target="_blank"} · [템플릿](../../content-management/content-templates.md) · [조각](../../content-management/fragments.md) |
 | 액션 캠페인 검색 및 필터링 | [캠페인 API](https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve){target="_blank"} |
 | 캠페인을 미리 보고 증명을 프로그래밍 방식으로 보내기 | [시뮬레이션 API](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"} |
+
+>[!NOTE]
+>
+>시뮬레이션 API는 API가 트리거된 작업(예약된) 캠페인에 사용할 수 있습니다. 오케스트레이션된 캠페인에 대해 **지원되지 않음**: 대신 오케스트레이션된 캠페인 사용자 인터페이스에서 미리 보기 및 증명 워크플로우를 사용하십시오.
+
 | 데이터 세트 유효성 검사 및 오케스트레이션된 캠페인 실행 트리거 | [데이터 집합 유효성 검사](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset){target="_blank"} · [트리거](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} · [데이터 집합 사용](../../orchestrated/manual-schema.md) |
 
 ## 추가 리소스 {#additional-resources}
