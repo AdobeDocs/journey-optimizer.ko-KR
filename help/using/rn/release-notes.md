@@ -8,28 +8,16 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 3b047112c11396b0a7806478100093225ca7dbb3
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 489dd8a0d063a1d39840eb086243f3a023b10b88
 workflow-type: tm+mt
-source-wordcount: 3295
-ht-degree: 83%
+source-wordcount: 2698
+ht-degree: 79%
 
 ---
 
@@ -242,69 +230,6 @@ ht-degree: 83%
 </tbody>
 </table>
 
-+++ 곧 출시 예정 — **아래 정보는 변경될 수 있습니다.**
-
-<table>
-<thead>
-<tr>
-<th><strong>Journey Optimizer의 Adobe Experience Manager 콘텐츠 조각 개선 사항</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이번 릴리스에서는 Journey Optimizer 작성 워크플로 내에서 <strong>Adobe Experience Manager 콘텐츠 조각</strong>을 더욱 유용하고 관리하기 쉬우며 프로덕션 환경에 바로 적용할 수 있도록 여러 개선 사항이 적용됩니다.</p>
-<ul>
-<li>Journey Optimizer는 이제 작성, 게시 및 인증된 게시 계층을 포함한 여러 Adobe Experience Manager 구성에서 콘텐츠 조각을 가져오는 것을 지원합니다.</li>
-<li>조각을 선택하면 해당 컨텍스트가 메시지 전체에 유지되므로 작성자는 다시 선택하지 않고도 콘텐츠 블록 간에 조각 필드를 재사용할 수 있습니다.</li>
-<li>Journey Optimizer에 콘텐츠 조각 목록 페이지가 새롭게 추가되어 수명주기 관리가 향상되었습니다. 사용자는 동기화되지 않은 조각을 식별하고 수동으로 동기화하여 최신 상태를 유지할 수 있습니다.</li>
-<li>마케터는 이제 로케일 및 변형 지원을 통해 동일한 콘텐츠 조각의 다른 버전을 더욱 신중하게 활용할 수 있습니다.</li>
-<li>이제 Adobe Journey Optimizer에서 Adobe Experience Manager 콘텐츠에 액세스하는 방식을 유연하게 설정할 수 있습니다. 이번 릴리스에서는 여정과 캠페인에 사용되는 콘텐츠 조각의 <strong>소스 저장소를 전환</strong>할 수 있는 기능이 추가되었습니다.</li>
-<li>이제 <b>Managed Services</b>와 호환되므로 Journey Optimizer에서 Adobe Experience Manager 콘텐츠 조각을 직접 보고 액세스하고 사용하여 개인화할 수 있습니다. 구성 설정에서 Adobe Experience Manager Managed Services 저장소 URL을 한 번만 추가하면 됩니다.</li>
-</ul>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Adobe Experience Manager Asset Essentials와 AI 어시스턴트 통합</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 AI 어시스턴트가 이메일, 웹 페이지 및 푸시 알림을 생성할 때 <b>브랜드 승인 이미지</b>를 Adobe Experience Manager Assets에서 자동으로 가져옵니다. 이렇게 하면 Assets을 수동으로 검색하거나 일반적인 AI 대체 기능을 사용할 필요가 없어 모든 시각적 요소가 완벽하게 정확하고 브랜드 규정을 준수할 수 있습니다.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>콘텐츠 생성을 위한 AI 어시스턴트 개선 사항</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이번 릴리스에서는 더욱 강력한 이미지 편집, 더욱 안정적인 브랜드 추출, 이미지 흐름에서의 콘텐츠 진위성 지원을 통해 <strong>AI 어시스턴트</strong> 콘텐츠 생성 환경이 개선되었습니다.</p>
-<ul>
-<li><strong>AI 이미지 편집</strong> 기능이 이제 이미지 생성 흐름에서 사용 가능하며, Firefly 타사 모델 지원도 포함되어 있어 어시스턴트를 종료하지 않고도 소스 이미지를 다듬을 수 있습니다.</li>
-<li><strong>브랜드 신호 추출</strong> 기능은 더욱 높은 품질의 결과를 제공합니다. 선택한 페이지에 충분한 신호가 없는 경우, 개선된 대체 기능을 통해 색상, 타이포그래피, 글쓰기 가이드라인 및 기타 브랜드 속성이 자동으로 채워집니다.</li>
-<li><strong>웹 기반 브랜드 추출</strong>이 더욱 안정적으로 개선되었습니다. 개선된 시간 초과 처리 기능을 통해 느린 페이지, 팝업 및 쿠키 배너로 인해 추출이 차단되는 것을 방지할 수 있습니다.</li>
-<li><strong>콘텐츠 진위 확인(CAI)</strong> 기능이 이제 이미지 흐름에서 지원됩니다. 또한 이번 릴리스에서는 참조 이미지 업로드 문제를 수정하고 기존 C2PA 매니페스트가 없는 이미지 처리를 개선했습니다.</li>
-</ul>
-</td>
-</tr>
-</tbody>
-</table>
-
-+++
-
 
 ### 이메일 채널 {#june-26-email}
 
@@ -410,18 +335,19 @@ ht-degree: 83%
 </tbody>
 </table>
 
-+++ 곧 출시 예정 — **아래 정보는 변경될 수 있습니다.**
+<!--
++++ Coming soon — **Information below is subject to change.**
 
 <table>
 <thead>
 <tr>
-<th><strong>Adobe Experience Manager Asset Essentials와 AI 어시스턴트 통합</strong><br/></th>
+<th><strong>AI assistant integration with Adobe Experience Manager Asset Essentials</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 AI 어시스턴트가 이메일, 웹 페이지 및 푸시 알림을 생성할 때 <b>브랜드 승인 이미지</b>를 Adobe Experience Manager Assets에서 자동으로 가져옵니다. 이렇게 하면 Assets을 수동으로 검색하거나 일반적인 AI 대체 기능을 사용할 필요가 없어 모든 시각적 요소가 완벽하게 정확하고 브랜드 규정을 준수할 수 있습니다.</p>
+<p>The AI Assistant now automatically fetches <b>brand-approved images</b> directly from your Adobe Experience Manager Assets when generating Emails, Web pages, and Push notifications. This eliminates the need to manually search the Assets or rely on generic AI fallbacks, ensuring every visual is perfectly accurate and brand-compliant.</p>
 </td>
 </tr>
 </tbody>
@@ -430,18 +356,18 @@ ht-degree: 83%
 <table>
 <thead>
 <tr>
-<th><strong>콘텐츠 생성을 위한 AI 어시스턴트 개선 사항</strong><br/></th>
+<th><strong>AI Assistant for content generation enhancements</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이번 릴리스에서는 더욱 강력한 이미지 편집, 더욱 안정적인 브랜드 추출, 이미지 흐름에서의 콘텐츠 진위성 지원을 통해 <strong>AI 어시스턴트</strong> 콘텐츠 생성 환경이 개선되었습니다.</p>
+<p>This release improves the <strong>AI Assistant</strong> content generation experience with stronger image editing, more reliable brand extraction, and content authenticity support in the image flow:</p>
 <ul>
-<li><strong>AI 이미지 편집</strong> 기능이 이제 이미지 생성 흐름에서 사용 가능하며, Firefly 타사 모델 지원도 포함되어 있어 어시스턴트를 종료하지 않고도 소스 이미지를 다듬을 수 있습니다.</li>
-<li><strong>브랜드 신호 추출</strong> 기능은 더욱 높은 품질의 결과를 제공합니다. 선택한 페이지에 충분한 신호가 없는 경우, 개선된 대체 기능을 통해 색상, 타이포그래피, 글쓰기 가이드라인 및 기타 브랜드 속성이 자동으로 채워집니다.</li>
-<li><strong>웹 기반 브랜드 추출</strong>이 더욱 안정적으로 개선되었습니다. 개선된 시간 초과 처리 기능을 통해 느린 페이지, 팝업 및 쿠키 배너로 인해 추출이 차단되는 것을 방지할 수 있습니다.</li>
-<li><strong>콘텐츠 진위 확인(CAI)</strong> 기능이 이제 이미지 흐름에서 지원됩니다. 또한 이번 릴리스에서는 참조 이미지 업로드 문제를 수정하고 기존 C2PA 매니페스트가 없는 이미지 처리를 개선했습니다.</li>
+<li><strong>AI image editing</strong> is now available in the image generation flow, including Firefly third-party model support, so you can refine source images without leaving the assistant.</li>
+<li><strong>Brand signal extraction</strong> delivers higher-quality results. When selected pages lack sufficient signal, improved fallbacks now populate colors, typography, writing guidelines, and other brand attributes.</li>
+<li><strong>Web-based brand extraction</strong> is more reliable. Improved timeout handling helps prevent slow pages, popups, and cookie banners from blocking extraction.</li>
+<li><strong>Content authenticity (CAI)</strong> is now supported in the image flow. This release also fixes reference image upload issues and improves handling for images without an existing C2PA manifest.</li>
 </ul>
 </td>
 </tr>
@@ -449,6 +375,7 @@ ht-degree: 83%
 </table>
 
 +++
+-->
 
 ### 보고 {#june-26-reporting}
 
