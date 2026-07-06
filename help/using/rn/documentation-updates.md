@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: eba98c8f232c10eac9753ac40b6cd814ed9594a1
+source-git-commit: 2f3a44b2366119c84e52861db09054f22d55623d
 workflow-type: tm+mt
-source-wordcount: 9055
-ht-degree: 93%
+source-wordcount: 9109
+ht-degree: 92%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 93%
 이 페이지에는 월별 릴리스 기능 및 개선 사항과 관련된 업데이트 외에도 [!DNL Journey Optimizer] 설명서의 모든 최신 변경 사항이 나와 있습니다.
 
 ## 2026년 6월 {#june-2026}
+
+* **DM 메시지 확인 및 보내기** 페이지가 업데이트되어 고정된 4시간 UTC 내보내기 일정, **[!UICONTROL 프로필 업데이트]**&#x200B;가 여정에서 실행되는 경우 하루에 여러 파일을 생성할 수 있는 이유, 하루에 한 파일씩 시나리오에 대한 권장 사항 등 DM 내보내기 시간 및 일괄 처리 동작을 명확하게 수정했습니다. [자세히 보기](../direct-mail/test-send-direct-mail.md#dm-export-timing)
 
 * 새 **여정 유형: 올바른 페이지를 선택하십시오**. 대상 읽기, 대상 자격, 단일 이벤트 및 비즈니스 이벤트와 같은 모든 여정 진입점을 의사 결정 안내서 및 기능 호환성 매트릭스와 비교하여 사용 사례에 적합한 유형을 선택하는 데 도움이 됩니다. [자세히 보기](../building-journeys/journey-types-selection.md)
 
