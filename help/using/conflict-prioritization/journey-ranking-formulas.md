@@ -7,13 +7,11 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="제한 공개" type="Informative"
 exl-id: b172e0e1-b78e-4d96-ab88-254507b55f48
-feature_v2:
-  - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
-subfeature_v2:
-  - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
+feature_v2: id: fd59660e-de8a-4bfb-85dc-7fa546030c49
+subfeature_v2: id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
+source-git-commit: 064334b0b86fc6fe549d3b152fdc40e8f9c9e5fc
 workflow-type: tm+mt
-source-wordcount: 1159
+source-wordcount: 1174
 ht-degree: 3%
 
 ---
@@ -29,6 +27,8 @@ ht-degree: 3%
 >[!AVAILABILITY]
 >
 >이 기능은 현재 제한된 가용성입니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.
+>
+>등급 수식은 **Decisioning** 추가 기능 서비스를 구입한 조직에서만 사용할 수 있습니다.
 
 [!DNL Adobe Journey Optimizer]을(를) 사용하면 프로필이 시스템에서 허용하는 것보다 더 많은 여정에 대한 자격이 있을 때 프로필이 입력할 수 있는 프로필을 제어할 수 있습니다. 이렇게 하려면 [규칙 집합](rule-sets.md)을 사용하여 여정 항목 또는 동시 사용에 대한 제한을 정의할 수 있습니다. 여정이 상한선이 허용하는 것보다 더 많은 여정에 적격인 경우, 각 프로필에 할당된 우선순위에 따라 선택되는 여정이 결정됩니다.
 
@@ -61,7 +61,7 @@ ht-degree: 3%
 
    <!--
     Selecting a formula entity specifies which type of item—such as journeys or other entities—the ranking formula will apply to. This determines the context in which the formula operates, allowing you to define rules that influence how those items are ranked.
-   -->
+-->
 
 1. 선택적으로 **[!UICONTROL AI 모델 선택]**&#x200B;을 클릭하여 순위 공식을 만드는 데 참조로 사용할 모델을 설정합니다. [자세히 알아보기](journey-ai-models.md)
 
