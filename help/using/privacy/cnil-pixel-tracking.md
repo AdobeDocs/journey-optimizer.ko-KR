@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: CNIL, 추적, 픽셀, 이메일, 동의, 옵트아웃, 개인 정보
-source-git-commit: 24d6a17d57ede317d3f04add2fd01bd3ff0ab9af
+source-git-commit: 66b0ca498ae2b39575ed57118739234d1f54c887
 workflow-type: tm+mt
-source-wordcount: '1490'
-ht-degree: 2%
+source-wordcount: '1466'
+ht-degree: 1%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 2%
 
 2026년 4월 14일, 프랑스의 데이터 보호 당국인 *Commission Nationale de l&#39;Informatique et des Libertés*(CNIL)은 [이메일 내의 픽셀 추적 사용에 대한 권장 사항](https://www.cnil.fr/sites/default/files/2026-04/recommandation-pixels_de_suivi.pdf)을 게시했습니다. 안내서에서는 동의가 필요한 시기를 명확히 설명하고 이메일 픽셀 추적에 대한 적절한 동의 사례의 중요성을 강조합니다. 이 정책은 프랑스에 기반을 둔 구독자에게 이메일을 게재하는 모든 엔터티의 전송 사례에 영향을 줄 수 있습니다.
 
-CNIL은 기업이 이메일 수신자(&#39;사용자&#39;)에게 추적 픽셀의 존재 여부, 목적, 사용자의 옵트아웃 권리 등을 알리도록 권고일로부터 3개월의 기간을 제공했다. 이 전환 기간 동안 고객은 픽셀 추적에 대해 사용자에게 알리고 필요한 경우 옵트아웃을 제공할 것으로 예상됩니다. CNIL은 2026년 7월 14일 이후 집행 활동을 시작할 것으로 예상된다.
+CNIL은 기업이 이메일 수신자(&#39;사용자&#39;)에게 추적 픽셀의 존재 여부, 목적, 사용자의 옵트아웃 권리 등을 알리도록 권고일로부터 3개월의 기간을 제공했다. 이 전환 기간 동안 고객은 픽셀 추적에 대해 사용자에게 알리고 필요한 경우 옵트아웃을 제공할 것으로 예상됩니다. **CNIL은 2026년 7월 14일 이후에 적용 활동을 시작할 예정입니다.**
 
 CNIL과 기타 규제 기관이 픽셀 추적 및 관련 문제에 대한 지침을 명확히 함에 따라 Adobe은 업데이트를 계속 모니터링하고 Adobe Journey Optimizer을 포함하여 이메일 마케팅을 지원하는 Adobe 제품의 기술 기능을 고객에게 알릴 예정입니다.
 
@@ -57,7 +57,7 @@ Adobe Journey Optimizer에서 모든 이메일 채널 구성은 마케팅 또는
 * **마케팅 이메일**: 옵트인 구독자에게 전송된 홍보 통신입니다. 사용자 동의가 필요합니다. 이러한 이메일은 제외 및 옵트아웃 환경 설정을 자동으로 준수합니다.
 * **트랜잭션 전자 메일**: 비상업적인 통신(예: 주문 확인, 암호 재설정). 해당 법률에 따라 마케팅 커뮤니케이션의 구독을 취소한 프로필로 보낼 수 있습니다.
 
-이메일 유형은 채널 구성 수준에서 설정됩니다. 여정 또는 캠페인에서 이메일을 작성할 때 작성자는 이메일 유형이 통신의 특성과 일치하는 채널 구성을 선택해야 합니다. 이 분류는 게재 전에 적용되는 동의 검사를 알려줍니다.
+전자 메일 유형은 [채널 구성](../email/email-settings.md#email-type) 수준에서 설정됩니다. 여정 또는 캠페인에서 이메일을 작성할 때 작성자는 이메일 유형이 통신의 특성과 일치하는 채널 구성을 선택해야 합니다. 이 분류는 게재 전에 적용되는 동의 검사를 알려줍니다.
 
 ### 추적 컨트롤 열기 {#open-tracking}
 
@@ -77,7 +77,7 @@ Clarify whether unchecking "Email opens" fully removes the 1x1 tracking pixel fr
 
 ### 링크 수준 추적 관리 {#link-tracking}
 
-메시지당 열기 추적 토글 외에도 Adobe Journey Optimizer의 이메일 Designer은 추적되는 URL에 대한 세분화된 제어를 제공합니다. 작성자가 이메일 Designer의 링크 패널을 사용하면 메시지에서 추적된 모든 URL을 보고 각 링크에 대한 추적 모드를 개별적으로 설정할 수 있습니다.
+메시지당 열기 추적 토글 외에도 Adobe Journey Optimizer의 이메일 Designer은 추적되는 URL에 대한 세분화된 제어를 제공합니다. 작성자가 이메일 Designer의 **[!UICONTROL 링크]** 패널을 사용하면 메시지에서 추적된 모든 URL을 보고 각 링크에 대한 추적 모드를 개별적으로 설정할 수 있습니다.
 
 각 링크에 사용할 수 있는 추적 모드는 다음과 같습니다.
 
@@ -88,9 +88,11 @@ Clarify whether unchecking "Email opens" fully removes the 1x1 tracking pixel fr
 
 특정 링크를 **Never**(으)로 설정하면 메시지 수준 추적이 활성화된 경우에도 특정 URL이 추적되지 않습니다.
 
+[이메일 Designer에서 추적을 관리하는 방법 알아보기](../email/message-tracking.md#manage-tracking)
+
 ### 동의 캡처 및 관리 {#consent-management}
 
-Adobe Journey Optimizer은 Adobe Experience Platform(AEP) 동의 및 환경 설정 스키마를 통해 동의를 처리합니다. 동의 환경 설정은 프로필 수준에서 저장되며 여정 및 캠페인 실행 중에 자동으로 적용됩니다.
+Adobe Journey Optimizer은 Adobe Experience Platform(AEP) [동의 및 환경 설정 스키마](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=ko){target="_blank"}를 통해 동의를 처리합니다. 동의 환경 설정은 프로필 수준에서 저장되며 여정 및 캠페인 실행 중에 자동으로 적용됩니다.
 
 이메일 추적과 관련된 주요 동의 속성은 다음과 같습니다.
 
@@ -104,6 +106,8 @@ Adobe Journey Optimizer은 구독자가 커뮤니케이션을 옵트아웃하고
 
 이메일 채널 구성에서 **[!UICONTROL 목록 구독 취소 사용]** 옵션이 켜지면 한 번의 클릭으로 구독 취소 URL 및 mailto 주소가 이메일 헤더에 자동으로 추가됩니다. 수신자는 이메일 본문을 클릭하지 않고 이메일 클라이언트에서 직접 옵트아웃할 수 있습니다. 이 옵션은 새 채널 구성에 대해 기본적으로 활성화되어 있습니다.
 
+[목록 구독 취소를 구성하는 방법 알아보기](../email/list-unsubscribe.md)
+
 **한 번의 클릭으로 옵트아웃(메일 본문)**
 
 작성자는 이메일 Designer을 사용하여 이메일 콘텐츠에 직접 원클릭 옵트아웃 링크를 삽입할 수 있습니다. 수신자가 이 링크를 클릭하면 기본 설정이 즉시 업데이트됩니다. 옵트아웃의 범위는 다음 중 하나에서 지정할 수 있습니다.
@@ -111,11 +115,15 @@ Adobe Journey Optimizer은 구독자가 커뮤니케이션을 옵트아웃하고
 * **채널 수준**: 향후 채널 전체에서 전자 메일 통신에서 프로필을 옵트아웃합니다.
 * **ID 수준**: 현재 메시지에만 사용되는 특정 전자 메일 주소를 옵트아웃합니다.
 
-**AJO 랜딩 페이지를 통한 기본 설정 센터**
+[원클릭 옵트아웃 링크를 추가하는 방법 알아보기](../email/email-opt-out.md#one-click-opt-out)
+
+**랜딩 페이지를 통한 기본 설정 센터**
 
 Adobe Journey Optimizer의 기본 랜딩 페이지 기능을 통해 조직은 구독자가 커뮤니케이션 및 추적 환경 설정을 관리할 수 있는 환경 설정 센터를 구축할 수 있습니다. 구독자가 환경 설정 센터 양식을 제출하면 해당 선택 사항이 동의 및 환경 설정 필드 그룹의 AEP 프로필 속성에 다시 기록됩니다.
 
 CNIL 규정 준수 시나리오의 경우 수신자가 구독 상태와 독립적으로 추적 환경 설정을 관리할 수 있도록 환경 설정 센터 랜딩 페이지를 이메일 바닥글(구독 취소 링크와 구별됨)에서 연결할 수 있습니다.
+
+[고객의 환경 설정을 관리하는 방법 알아보기](../action/preference-center.md)
 
 ### 동의 처리 및 적용 {#consent-enforcement}
 
@@ -125,6 +133,8 @@ CNIL 규정 준수 시나리오의 경우 수신자가 구독 상태와 독립�
 * 프로필은 여정 및 캠페인에서 향후 마케팅 이메일 전송에서 즉시 제외됩니다.
 * 옵트아웃 정보는 AEP 동의 서비스 데이터 세트에 저장됩니다.
 * Journey Optimizer은 각 전송을 수행하기 전에 채널 수준에서 동의 검사를 수행하여 옵트아웃된 프로필이 마케팅 커뮤니케이션을 받지 않도록 합니다.
+
+[옵트아웃 관리에 대해 자세히 알아보기](opt-out.md)
 
 ### 동의 정책 {#consent-policies}
 
@@ -138,6 +148,8 @@ Adobe Journey Optimizer은 하드 바운스, 소프트 바운스 또는 스팸 �
 
 Journey Optimizer Suppression REST API는 보내는 메시지에 대한 추가적인 프로그래밍 방식 제어를 제공하여 조직에서 API를 통해 억제 및 허용 목록 동작을 관리할 수 있도록 합니다.
 
+[제외 목록 관리 방법 알아보기](../configuration/manage-suppression-list.md)
+
 <!--
 EDITORIAL NOTE – ENGINEERING CONFIRMATION NEEDED before publish:
 AJO has no native equivalent of Campaign v8's "lastPixelRefusalDate" field or re-solicitation typology rule. If re-solicitation governance for pixel consent refusal is required, customers would likely need to: (a) create a custom XDM date field to capture the pixel refusal date, and (b) build an AEP audience that filters out profiles where that date falls within the last six months, then use that audience as a suppression filter in campaigns/journeys. Confirm with Engineering: (1) whether this guidance should be included in this article, and (2) whether any native AJO improvements are planned in this area.
@@ -145,19 +157,5 @@ AJO has no native equivalent of Campaign v8's "lastPixelRefusalDate" field or re
 
 ### 보고 {#reporting}
 
-Adobe Journey Optimizer의 이메일 보고는 라이브 보고서 및 Customer Journey Analytics 보고서를 통해 열기 및 클릭 지표를 제공합니다. 메시지에 대해 **[!UICONTROL 이메일 열기]** 추적을 사용하지 않도록 설정하면 해당 게재에 대해 열린 데이터가 수집되지 않습니다. 보고는 클릭 수 및 기타 참여 신호만 반영합니다.
+Adobe Journey Optimizer의 이메일 보고는 [라이브 보고서](../reports/live-report.md) 및 [Customer Journey Analytics 보고서](../reports/report-gs-cja.md)를 통해 열기 및 클릭 지표를 제공합니다. 메시지에 대해 **[!UICONTROL 이메일 열기]** 추적을 사용하지 않도록 설정하면 해당 게재에 대해 열린 데이터가 수집되지 않습니다. 보고는 클릭 수 및 기타 참여 신호만 반영합니다.
 
-## 설명서 참조 {#references}
-
-Adobe Journey Optimizer의 이메일 추적 및 동의 관리에 대한 자세한 내용은 아래 설명서를 참조하십시오.
-
-| 주제 | 설명서 참조 |
-|-------|------------------------|
-| 열린 추적 활성화 및 비활성화 | [메시지 추적](../email/message-tracking.md) |
-| 이메일 옵트아웃 관리 | [이메일 옵트아웃 관리](../email/email-opt-out.md) |
-| 목록 구독 취소(이메일 헤더) | [목록 구독 취소 구성](../email/list-unsubscribe.md) |
-| 환경 설정 센터 랜딩 페이지 | [랜딩 페이지 사용 사례](../landing-pages/lp-use-cases.md) |
-| 동의 및 옵트아웃 관리 | [옵트아웃 관리](opt-out.md) |
-| 동의 정책 | [동의 정책 사용](../action/consent.md) |
-| 이메일 채널 구성 | [전자 메일 설정 구성](../email/email-settings.md) |
-| 금지 목록 | [제외 목록 관리](../configuration/manage-suppression-list.md) |
