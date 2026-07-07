@@ -26,9 +26,9 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 4a7f98ce24af02658620485840d11190c0954c09
 workflow-type: tm+mt
-source-wordcount: 1068
+source-wordcount: 1158
 ht-degree: 3%
 
 ---
@@ -49,6 +49,29 @@ Experience Platform 웹 SDK은 의사 결정 관리를 포함하여 Adobe에서 
 
 Adobe Experience Platform Web SDK을 사용하여 개인화된 오퍼를 제공하는 방법에 대한 자세한 내용은 [의사 결정 관리](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=ko#enabling-offer-decisioning)의 Adobe Experience Platform 설명서를 참조하십시오.
 
+### 결정 범위 {#decision-scopes}
+
+의사 결정 범위는 Offer Decisioning 서비스에서 오퍼를 제안하는 데 사용할 활동 및 배치 ID가 포함된 JSON 개체의 Base64로 인코딩된 문자열입니다.
+
+*결정 범위 JSON:*
+
+```json
+{
+  "activityId":"xcore:offer-activity:11cfb1fa93381aca",
+  "placementId":"xcore:offer-placement:1175009612b0100c"
+}
+```
+
+*결정 범위 Base64 인코딩 문자열:*
+
+```json
+"eyJhY3Rpdml0eUlkIjoieGNvcmU6b2ZmZXItYWN0aXZpdHk6MTFjZmIxZmE5MzM4MWFjYSIsInBsYWNlbWVudElkIjoieGNvcmU6b2ZmZXItcGxhY2VtZW50OjExNzUwMDk2MTJiMDEwMGMifQ=="
+```
+
+>[!TIP]
+>
+>UI의 **활동 개요** 페이지에서 결정 범위 값을 복사할 수 있습니다.
+
 ## Adobe Experience Platform 웹 SDK {#aep-web-sdk}
 
 Platform Web SDK은 다음 SDK를 대체합니다.
@@ -64,7 +87,7 @@ SDK은 이러한 라이브러리를 결합하지 않았으며 처음부터 새�
 
    <!-- For more detailed instructions, refer to the documentation on using the [Adobe Experience Platform Web SDK](). -->
 
-1. Adobe Experience Cloud 계정의 데이터 수집 탭에서 [데이터 스트림을 구성](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=ko)합니다.
+1. Adobe Experience Cloud의 계정에 있는 데이터 수집 탭에서 [데이터 스트림을 구성](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=ko)합니다.
 
 1. SDK을 설치합니다. 이렇게 하는 방법에는 여러 가지가 있습니다. 이 방법은 [SDK 페이지 설치](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=ko)에 나와 있습니다. 이 페이지는 서로 다른 각 구현 방법을 사용하여 계속됩니다.
 
@@ -277,6 +300,99 @@ let offerImageURL = offer['image'];
 
 document.getElementById("offerDescription").innerHTML = offerDescription;
 document.getElementById('offerImage').src = offerImageURL;
+```
+
+### 여러 결정 범위 값 {#multiple-decision-scopes}
+
+단일 `sendEvent` 호출로 여러 결정 범위를 보낼 수도 있습니다. 이 예에서, 응답은 각각의 요청된 범위에 대한 제안을 반환합니다.
+
+**예**:
+
+```javascript
+alloy("sendEvent", {
+    "decisionScopes":
+    [
+    "eyJhY3Rpdml0eUlkIjoieGNvcmU6b2ZmZXItYWN0aXZpdHk6MTFjZmIxZmE5MzM4MWFjYSIsInBsYWNlbWVudElkIjoieGNvcmU6b2ZmZXItcGxhY2VtZW50OjExNzUwMDk2MTJiMDEwMGMifQ==",
+    "eyJhY3Rpdml0eUlkIjoieGNvcmU6b2ZmZXItYWN0aXZpdHk6MTIyMjA4YjNhODc0MDU1OCIsInBsYWNlbWVudElkIjoieGNvcmU6b2ZmZXItcGxhY2VtZW50OjEyMjIwNDUyOTUxNGEyYzAifQ=="
+    ]
+});
+```
+
+응답에는 확인된 범위당 하나의 페이로드 항목이 포함됩니다.
+
+```json
+{
+    "requestId": "94c4f2f1-9218-43ce-afd3-eb0d853c5174",
+    "handle": [
+        {
+            "payload": [
+                {
+                    "id": "a2804dfb-a0ec-4df9-8311-59d3ecdeb642",
+                    "scope": "eyJhY3Rpdml0eUlkIjoieGNvcmU6b2ZmZXItYWN0aXZpdHk6MTFjZmIxZmE5MzM4MTEyMyIsInBsYWNlbWVudElkIjoieGNvcmU6b2ZmZXItcGxhY2VtZW50OjExNzUwMDk2MTJiMDExMjMifQ==",
+                    "activity": {
+                        "id": "xcore:offer-activity:11cfb1fa93381123",
+                        "etag": "1"
+                    },
+                    "placement": {
+                        "id": "xcore:offer-placement:1175009612b01123",
+                        "etag": "3"
+                    },
+                    "items": [
+                        {
+                            "id": "xcore:personalized-offer:11e36d4a22954123",
+                            "schema": "https://ns.adobe.com/experience/offer-management/content-component-text",
+                            "etag": "2",
+                            "data": {
+                                "id": "xcore:personalized-offer:11e36d4a22954123",
+                                "format": "text/text",
+                                "language": [
+                                    "en"
+                                ],
+                                "content": "20% Off on shipping",
+                                "characteristics": {
+                                    "foo2": "bar2"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "a2804dfb-a0ec-4df9-8311-59d3ecdeb642",
+                    "scope": "eyJhY3Rpdml0eUlkIjoieGNvcmU6b2ZmZXItYWN0aXZpdHk6MTFjZmIxZmE5MzM4MWFjYSIsInBsYWNlbWVudElkIjoieGNvcmU6b2ZmZXItcGxhY2VtZW50OjExNzUwMDk2MTJiMDEwMGMifQ==",
+                    "activity": {
+                        "id": "xcore:offer-activity:11cfb1fa93381aca",
+                        "etag": "2"
+                    },
+                    "placement": {
+                        "id": "xcore:offer-placement:1175009612b0100c",
+                        "etag": "1"
+                    },
+                    "items": [
+                        {
+                            "id": "xcore:personalized-offer:11e36d4a2295415d",
+                            "schema": "https://ns.adobe.com/experience/offer-management/content-component-imagelink",
+                            "etag": "1",
+                            "data": {
+                                "id": "xcore:personalized-offer:11e36d4a2295415d",
+                                "format": "image/png",
+                                "language": [
+                                    "en"
+                                ],
+                                "deliveryURL": "https://image.jpeg",
+                                "characteristics": {
+                                    "foo": "bar",
+                                    "foo1": "bar1"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ],
+            "type": "personalization:decisions",
+            "eventIndex": 0
+        }
+    ]
+}
 ```
 
 <!--
