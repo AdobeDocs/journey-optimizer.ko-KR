@@ -7,18 +7,16 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="제한 공개" type="Informative"
 exl-id: 3e7c3069-b022-4709-936d-acaad56b5882
-feature_v2:
-  - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
-subfeature_v2:
-  - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
+feature_v2: id: fd59660e-de8a-4bfb-85dc-7fa546030c49
+subfeature_v2: id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
+source-git-commit: 959b50c98e32afb2b3fa52692697cd75833932be
 workflow-type: tm+mt
-source-wordcount: 686
-ht-degree: 5%
+source-wordcount: 701
+ht-degree: 7%
 
 ---
 
-# AI 모델을 사용하여 여정 등급 지정 {#journey-ai-models}
+# AI 모델을 사용하여 여정 순위 매기기 {#journey-ai-models}
 
 >[!BEGINSHADEBOX]
 
@@ -29,6 +27,8 @@ ht-degree: 5%
 >[!AVAILABILITY]
 >
 >이 기능은 현재 제한된 가용성입니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.
+>
+>AI 모델은 **Decisioning** 추가 기능 서비스를 구입한 조직에서만 사용할 수 있습니다.
 
 [!DNL Adobe Journey Optimizer]을(를) 사용하면 프로필이 시스템에서 허용하는 것보다 더 많은 여정에 대한 자격이 있을 때 프로필이 입력할 수 있는 프로필을 제어할 수 있습니다. 이렇게 하려면 [규칙 집합](rule-sets.md)을 사용하여 여정 항목 또는 동시 사용에 대한 제한을 정의할 수 있습니다. 여정이 상한선이 허용하는 것보다 더 많은 여정에 적격인 경우, 각 프로필에 할당된 우선순위에 따라 선택되는 여정이 결정됩니다.
 
@@ -75,7 +75,7 @@ Do you need specific permissions to create AI models?
    * **노출 이벤트**(표시되는 항목)
    * **전환 이벤트**(클릭 또는 전환을 초래하는 항목)
 
-   이러한 이벤트는 웹 SDK 또는 모바일 SDK을 사용하여 자동으로 캡처됩니다. [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko) 개요에서 자세히 알아보세요.
+   이러한 이벤트는 웹 SDK 또는 모바일 SDK을 사용하여 자동으로 캡처됩니다. [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) 개요에서 자세히 알아보세요.
 
 1. 전환 및 노출 이벤트가 수집되는 데이터 세트를 선택합니다. [이 섹션](../experience-decisioning/data-collection/create-dataset.md)에서 이러한 데이터 세트를 만드는 방법을 알아보세요.
 
@@ -85,7 +85,7 @@ Do you need specific permissions to create AI models?
    >
    >**[!UICONTROL 경험 이벤트 - 제안 상호 작용]** 필드 그룹과 연결된 스키마에서 만든 데이터 세트만 드롭다운 목록에 표시됩니다. 최대 5개의 데이터 세트를 선택할 수 있습니다.
 
-1. &#x200B;<!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->AI 모델을 교육하는 데 사용할 세그먼트를 선택합니다.
+1. <!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->AI 모델을 교육하는 데 사용할 세그먼트를 선택합니다.
 
    >[!NOTE]
    >
