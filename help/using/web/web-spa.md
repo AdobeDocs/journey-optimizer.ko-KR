@@ -7,26 +7,16 @@ role: User
 level: Intermediate
 exl-id: b33e4bca-d2e9-4610-9f04-008d47f686d0
 TQID: https://experienceleague.adobe.com/clX0VeCEzwDOgxyFrzVaBIx-eH90KEYaHGTMzf2xvQc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c618a0dc-1818-4c6d-9916-0d92e6796f24
-  - id: d056adbe-402d-4f42-9746-f3d424e598b1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c618a0dc-1818-4c6d-9916-0d92e6796f24id: d056adbe-402d-4f42-9746-f3d424e598b1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e9001ce2-5245-4a8e-8601-dd958009072f
+source-git-commit: 6be6438a23ad673d97417c5205ae5985abfc52c2
 workflow-type: tm+mt
-source-wordcount: 537
-ht-degree: 25%
+source-wordcount: 512
+ht-degree: 24%
 
 ---
 
@@ -56,9 +46,9 @@ Adobe Experience Platform Web SDK 구현에서 보기를 정의하려면 일회�
 
 ## 웹 SDK 구현에서 보기 정의 {#define-views}
 
-Adobe [!DNL Journey Optimizer]에서 XDM 보기를 활용하여 마케터가 웹 시각적 편집기를 통해 SPA에서 웹 개인화 및 실험 캠페인을 실행할 수 있도록 할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=ko){target="_blank"}
+Adobe [!DNL Journey Optimizer]에서 XDM 보기를 활용하여 마케터가 웹 시각적 편집기를 통해 SPA에서 웹 개인화 및 실험 캠페인을 실행할 수 있도록 할 수 있습니다. [자세히 알아보기](web-spa-implementation.md)
 
-[!DNL Journey Optimizer] 사용자 인터페이스에서 보기에 액세스하고 보기를 작성하려면 [이 섹션](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=ko#implement-xdm-views){target="_blank"}에 나열된 단계를 따라야 합니다.
+[!DNL Journey Optimizer] 사용자 인터페이스에서 보기에 액세스하고 보기를 작성하려면 [이 섹션](web-spa-implementation.md#implement-xdm-views)에 나열된 단계를 따라야 합니다.
 
 ## 웹 디자이너에서 보기 살펴보기 {#discover-views}
 
@@ -113,4 +103,4 @@ Adobe Experience Platform Web SDK 구현에서 SPA 설정이 완료되면 수정
 * 여러 보기 또는 검색된 모든 보기에 웹 사이트 수정 사항 적용
 * 수정 시 일괄 작업 수행
 
->[!VIDEO](https://video.tv.adobe.com/v/3446892/?captions=kor&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3424536/?quality=12&learn=on)
