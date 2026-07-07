@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3203d6e4c48314d0f361a492fe8a71ef4a23f1b5
+source-git-commit: 958f85bb600cc3534070c77ef3ad1c76d4ce4d2d
 workflow-type: tm+mt
 source-wordcount: '3421'
 ht-degree: 97%
@@ -60,7 +60,7 @@ ht-degree: 97%
 + 여정 {#orchestrate-journeys}
    + [여정 시작](using/building-journeys/journey.md)
    + {hide-from-toc}[여정 시작 안내서](using/building-journeys/journey-get-started.md)
-   + {hide-from-toc}[여정 형식: 올바른 one-2 선택](using/building-journeys/journey-types-selection-v2.md)
+   + {hide-from-toc}[여정 형식: 올바른 one-2](using/building-journeys/journey-types-selection-v2.md) 선택
    + [Journey Orchestration FAQ](using/building-journeys/journey-faq.md)
    + 여정 만들기 {#create-journey}
       + [여정 만들기](/help/rp_landing_pages/create-journey-landing-page.md)
@@ -222,7 +222,7 @@ ht-degree: 97%
          + [보강](using/orchestrated/activities/enrichment.md)
          + [포크](using/orchestrated/activities/fork.md)
          + [증분 쿼리](using/orchestrated/activities/incremental-query.md)
-         + {hide-from-toc}[파일 로드](using/orchestrated/activities/load-file.md)
+         + [파일 로드](using/orchestrated/activities/load-file.md)
          + [대상자 읽기](using/orchestrated/activities/read-audience.md)
          + [조정](using/orchestrated/activities/reconciliation.md)
          + [대상자 저장](using/orchestrated/activities/save-audience.md)
