@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 006ebca44d2dd0ba2c4bd95a67444506d97daabf
+source-git-commit: 3203d6e4c48314d0f361a492fe8a71ef4a23f1b5
 workflow-type: tm+mt
-source-wordcount: '3383'
-ht-degree: 98%
+source-wordcount: '3421'
+ht-degree: 97%
 
 ---
 
@@ -31,6 +31,7 @@ ht-degree: 98%
    + [설명서 업데이트](using/rn/documentation-updates.md)
    + {hide-from-toc}[향상된 여정 캔버스](using/rn/new-canvas.md)
    + {hide-from-toc}[대상 자격에서 일괄 처리 대상 마이그레이션](using/building-journeys/aq-batch-audiences-migration.md)
+   + {hide-from-toc}[전자 메일 추적 픽셀에 대한 CNIL 지침](using/privacy/cnil-pixel-tracking.md)
 + 시작하기 {#get-started}
    + [여기서 시작](/help/rp_landing_pages/get-started-landing-page.md)
    + [온보딩 허브](using/start/onboarding-hub.md)
@@ -59,7 +60,7 @@ ht-degree: 98%
 + 여정 {#orchestrate-journeys}
    + [여정 시작](using/building-journeys/journey.md)
    + {hide-from-toc}[여정 시작 안내서](using/building-journeys/journey-get-started.md)
-   + {hide-from-toc}[여정 형식: 올바른 one-2 선택](using/building-journeys/journey-types-selection-v2.md)
+   + {hide-from-toc}[여정 형식: 올바른 one-2](using/building-journeys/journey-types-selection-v2.md) 선택
    + [Journey Orchestration FAQ](using/building-journeys/journey-faq.md)
    + 여정 만들기 {#create-journey}
       + [여정 만들기](/help/rp_landing_pages/create-journey-landing-page.md)
@@ -335,11 +336,13 @@ ht-degree: 98%
    + 인앱 채널 {#in-app}
       + [인앱 채널](/help/rp_landing_pages/in-app-landing-page.md)
       + [인앱 시작](using/in-app/get-started-in-app.md)
-      + [인앱 채널 사전 요구 사항](using/in-app/inapp-configuration.md)
       + [모바일 인앱 메시지 만들기](using/in-app/create-in-app.md)
       + [웹 인앱 메시지 만들기](using/in-app/create-in-app-web.md)
       + [인앱 콘텐츠 디자인](using/in-app/design-in-app.md)
       + [인앱 알림 확인 및 보내기](using/in-app/send-in-app.md)
+      + 인앱 채널 구성 {#configure-inapp}
+         + [인앱 채널 구성 및 사전 요구 사항](using/in-app/inapp-configuration.md)
+         + [웹 SDK에서 웹 인앱 메시지 구성](using/in-app/web-in-app-messaging.md)
    + 푸시 알림 채널 {#push}
       + [푸시 알림 채널](/help/rp_landing_pages/push-landing-page.md)
       + [푸시 알림 시작하기](using/push/get-started-push.md)
@@ -391,7 +394,10 @@ ht-degree: 98%
          + [비시각적 편집기 사용](using/web/web-non-visual-editor.md)
          + [수정 사항 관리](using/web/manage-web-modifications.md)
          + [웹 경험 모니터링](using/web/monitor-web-experiences.md)
+      + 단일 페이지 애플리케이션 및 웹 SDK {#web-sdk}
          + [단일 페이지 애플리케이션 작성](using/web/web-spa.md)
+         + [단일 페이지 애플리케이션 구현](using/web/web-spa-implementation.md)
+         + [Experience Platform Web SDK이 포함된 Journey Optimizer](using/web/web-sdk.md)
    + 코드 기반 경험 {#code-based-experience}
       + [코드 기반 경험](/help/rp_landing_pages/code-based-experience-landing-page.md)
       + [코드 기반 채널 시작](using/code-based/get-started-code-based.md)
@@ -506,6 +512,7 @@ ht-degree: 98%
       + [조각 만들기](using/content-management/create-fragments.md)
       + [기존 콘텐츠를 조각으로 저장](using/content-management/save-fragments.md)
       + [사용자 정의 가능한 조각](using/content-management/customizable-fragments.md)
+      + [동적 조각](using/content-management/dynamic-fragments.md)
       + [조각 관리](using/content-management/manage-fragments.md)
       + {hide-from-toc}[게시된 조각에 상황별 속성 추가](using/content-management/manage-fragments-contextual-attributes.md)
    + 다이내믹 콘텐츠 {#dynamic}
