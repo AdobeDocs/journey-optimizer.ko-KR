@@ -256,6 +256,6 @@ WhatsApp API 자격 증명을 구성할 때 HTTP 500 오류가 발생하는 경�
 
 +++ 비디오 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470275/?captions=kor&learn=on)
 
 +++
