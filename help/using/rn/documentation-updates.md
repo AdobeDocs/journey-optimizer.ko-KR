@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 064334b0b86fc6fe549d3b152fdc40e8f9c9e5fc
+source-git-commit: cd4321060d1b35b4d0f173d0388d0a9f0ae7c74a
 workflow-type: tm+mt
-source-wordcount: 9187
+source-wordcount: 9227
 ht-degree: 91%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 91%
 이 페이지에는 월별 릴리스 기능 및 개선 사항과 관련된 업데이트 외에도 [!DNL Journey Optimizer] 설명서의 모든 최신 변경 사항이 나와 있습니다.
 
 ## 2026년 7월 {#july-2026}
+
+* **개인화된 최적화 모델** 페이지가 업데이트되어 앙상블 모델의 작동 방식, 데이터 세트 요구 사항, 사용 사례, 주요 가정 및 콜드 스타트 동작에 대한 최신 모델 개선 사항을 반영했습니다. [Experience Decisioning](../experience-decisioning/ranking/personalized-optimization-model.md) 및 [Offer Decisioning](../offers/ranking/personalized-optimization-model.md) 섹션에서 자세히 알아보세요.
 
 * **여정 중재 등급 수식** 페이지에 **Decisioning** 추가 기능 서비스를 구입한 조직에서만 등급 수식을 사용할 수 있도록 지정하는 메모가 추가되었습니다. [자세히 보기](../conflict-prioritization/journey-ranking-formulas.md)
 
