@@ -10,23 +10,15 @@ level: Intermediate
 keywords: 표현식, 편집기, 라이브러리, 개인화
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
 TQID: https://experienceleague.adobe.com/0N5waBGElHBnlsk1pHhKT8roaly-A6srIjb3UPIDNqY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: a757b957-83f3-4a4d-9775-a93854f84f77
+source-git-commit: 8c3b899a9e1f4fbe5f951798337870f66beb1523
 workflow-type: tm+mt
-source-wordcount: 1346
+source-wordcount: 1402
 ht-degree: 0%
 
 ---
@@ -227,6 +219,12 @@ ht-degree: 0%
    ![](../content-management/assets/fragment-expression-use.png)
 
 전자 메일을 만들 때 편집 가능한 필드를 표현식 조각에 추가하고 해당 값을 재정의하는 방법을 보여 주는 예는 [이 섹션](../content-management/customizable-fragments.md#example)에서 확인할 수 있습니다.
+
+## 동적 조각 해상도 사용 {#dynamic-resolution}
+
+디자인 타임에 조각 ID를 정적으로 포함하는 대신 수신자별로 런타임 시 조각 ID를 동적으로 확인할 수 있습니다. 이렇게 하면 다른 프로필이 프로필 속성, 데이터 세트 조회 또는 컨텍스트 데이터를 기반으로 동일한 캠페인이나 여정 내에서 완전히 다른 콘텐츠 블록을 받을 수 있습니다.
+
+[동적 조각 사용 방법 알아보기](../content-management/dynamic-fragments.md)
 
 ## 상속 중단 {#break-inheritance}
 

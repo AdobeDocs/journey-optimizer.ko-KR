@@ -6,18 +6,14 @@ description: 캠페인 활동을 오케스트레이션하는 방법 알아보기
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/OUKBJeSTaPJKav-NNCCxKZ8esY-62JkdRMmcwoJpZJ0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 77cddc86596959e06b20154c1e51c6b84375b39b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: b364e9038ac9dc2de884c32bc39d4cb20e8bd90a
 workflow-type: tm+mt
-source-wordcount: 551
-ht-degree: 54%
+source-wordcount: 628
+ht-degree: 47%
 
 ---
 
@@ -29,11 +25,10 @@ ht-degree: 54%
 
 >[!ENDSHADEBOX]
 
-오케스트레이션된 캠페인 활동은 세 가지 카테고리로 그룹화됩니다. 컨텍스트에 따라 사용 가능한 활동이 다를 수 있습니다.
-
-모든 활동은 아래 섹션에 자세히 설명되어 있습니다.
+오케스트레이션된 캠페인 활동은 몇 가지 카테고리로 그룹화됩니다. 컨텍스트에 따라 사용 가능한 활동이 다를 수 있습니다. 모든 활동은 아래 섹션에 자세히 설명되어 있습니다.
 
 * [타기팅 활동](#targeting)
+* [데이터 관리 활동](#data-management)
 * [채널 활동](#channel)
 * [흐름 제어 활동](#flow-control)
 
@@ -45,7 +40,7 @@ ht-degree: 54%
 
 ## 가드레일 및 제한 사항 {#activity-guardrails}
 
-* **채널 활동 제한** - 오케스트레이션된 캠페인은 게시 시 최대 10개의 채널 활동(전자 메일, SMS, 푸시 또는 DM)을 지원합니다. 타겟팅 및 흐름 제어 활동은 이 제한에 포함되지 않습니다.
+* **채널 활동 제한** - 오케스트레이션된 캠페인은 게시 시 최대 10개의 채널 활동(전자 메일, SMS, 푸시 또는 DM)을 지원합니다. 타깃팅, 데이터 관리 및 흐름 제어 활동은 이 제한에 포함되지 않습니다.
 
 * **캔버스 활동 제한** - 캔버스의 활동 수는 500개로 제한됩니다. 유지 관리 및 성능을 위해 워크플로우를 100개 미만으로 유지하십시오.
 
@@ -66,6 +61,14 @@ ht-degree: 54%
 * [데이터 보강](enrichment.md): 오케스트레이션된 캠페인에서 처리할 추가 데이터를 정의합니다. 이 활동을 사용하여 인바운드 전환을 활용하고 추가 데이터로 출력 전환을 완료하도록 활동을 구성할 수 있습니다.
 * [조정](reconciliation.md): Journey Optimizer 데이터의 데이터와 작업 테이블의 데이터(예: 외부 파일에서 로드된 데이터) 간의 링크를 정의합니다.
 * [분할](split.md): 들어오는 집단을 여러 하위 집합으로 세분화합니다.
+
+## 데이터 관리 활동 {#data-management}
+
+이러한 활동을 사용하면 외부 파일에 저장된 데이터로 작업하고 캔버스에서 타깃팅, 개인화 또는 다운스트림 활동에 사용할 수 있습니다.
+
+사용 가능한 데이터 관리 활동은 다음과 같습니다.
+
+* [파일 로드](load-file.md)(제한된 가용성): 캔버스에 CSV 또는 TXT 파일을 업로드하고 이 파일을 먼저 Adobe Experience Platform에 수집하지 않고 이를 사용하여 캠페인 대상(파일 기반 타깃팅)을 정의합니다. 액세스 권한을 요청하려면 Adobe 담당자에게 문의하십시오.
 
 ## 채널 활동 {#channel}
 

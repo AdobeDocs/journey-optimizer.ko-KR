@@ -6,16 +6,13 @@ description: Adobe Journey Optimizer을 사용하여 오케스트레이션된 �
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/tQGWupMvnX9-uFruIQg1dMuXd9PZNxPDYg6RlGdK3hA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: b364e9038ac9dc2de884c32bc39d4cb20e8bd90a
 workflow-type: tm+mt
-source-wordcount: 971
-ht-degree: 46%
+source-wordcount: 981
+ht-degree: 45%
 
 ---
 
@@ -33,7 +30,7 @@ ht-degree: 46%
 
 이 구성 단계에서는 오케스트레이션된 캠페인 캔버스가 오케스트레이션된 캠페인의 시작을 나타내는 시작 아이콘과 함께 표시됩니다. 첫 번째 활동을 추가하려면 시작 아이콘에 연결된 **+** 버튼을 클릭합니다.
 
-오케스트레이션된 캠페인 캔버스에 추가할 수 있는 활동 목록이 표시됩니다. 사용 가능한 활동은 오케스트레이션된 캠페인 캔버스 내 위치에 따라 다릅니다. 예를 들어 첫 번째 활동을 추가할 때 대상을 타겟팅하거나, 오케스트레이션된 캠페인 경로를 분할하거나, **대기** 활동을 설정하여 오케스트레이션된 캠페인 실행을 지연시킬 수 있습니다. 한편, **대상자 작성** 활동 후에는 타깃팅 활동을 통해 대상을 세분화하고, 채널 활동을 통해 대상자에게 게재를 보내거나, 흐름 제어 활동을 통해 오케스트레이션된 캠페인 프로세스를 구성할 수 있습니다.
+오케스트레이션된 캠페인 캔버스에 추가할 수 있는 활동 목록이 표시됩니다. 사용 가능한 활동은 오케스트레이션된 캠페인 캔버스 내 위치에 따라 다릅니다. 예를 들어 첫 번째 활동을 추가할 때 대상을 정의하거나(예: **대상 작성**, **대상 읽기** 또는 **파일 로드**), 오케스트레이션된 캠페인 경로를 분할하거나, **대기** 활동을 설정하여 오케스트레이션된 캠페인 실행을 지연시킬 수 있습니다. 한편, **대상자 작성** 활동 후에는 타깃팅 활동을 통해 대상을 세분화하고, 채널 활동을 통해 대상자에게 게재를 보내거나, 흐름 제어 활동을 통해 오케스트레이션된 캠페인 프로세스를 구성할 수 있습니다.
 
 ![](assets/orchestrated-start.png){zoomable="yes"}
 
