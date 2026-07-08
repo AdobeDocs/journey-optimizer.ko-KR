@@ -14,16 +14,22 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 2f3a44b2366119c84e52861db09054f22d55623d
+source-git-commit: 064334b0b86fc6fe549d3b152fdc40e8f9c9e5fc
 workflow-type: tm+mt
-source-wordcount: 9109
-ht-degree: 92%
+source-wordcount: 9187
+ht-degree: 91%
 
 ---
 
 # 설명서 업데이트 {#latest-updates}
 
 이 페이지에는 월별 릴리스 기능 및 개선 사항과 관련된 업데이트 외에도 [!DNL Journey Optimizer] 설명서의 모든 최신 변경 사항이 나와 있습니다.
+
+## 2026년 7월 {#july-2026}
+
+* **여정 중재 등급 수식** 페이지에 **Decisioning** 추가 기능 서비스를 구입한 조직에서만 등급 수식을 사용할 수 있도록 지정하는 메모가 추가되었습니다. [자세히 보기](../conflict-prioritization/journey-ranking-formulas.md)
+
+* 이제 새 **동적 조각** 페이지를 사용할 수 있습니다. 프로필 특성, 데이터 세트 조회 또는 전송 시 전달된 컨텍스트 데이터를 기반으로 [!DNL Journey Optimizer]에서 동적 조각 해상도를 사용하여 런타임에 메시지에 삽입할 게시된 조각을 선택하는 방법을 문서화합니다. [자세히 보기](../content-management/dynamic-fragments.md)
 
 ## 2026년 6월 {#june-2026}
 

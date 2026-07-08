@@ -27,10 +27,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+source-git-commit: 8c3b899a9e1f4fbe5f951798337870f66beb1523
 workflow-type: tm+mt
-source-wordcount: 410
-ht-degree: 17%
+source-wordcount: 439
+ht-degree: 18%
 
 ---
 
@@ -58,6 +58,7 @@ ht-degree: 17%
 
 * **나만의 조각 만들기**: 처음부터 만들거나 콘텐츠를 조각으로 저장하여 시각적 또는 표현식 조각을 만듭니다. [조각을 만드는 방법을 알아보세요](create-fragments.md). 또한 Journey Optimizer **콘텐츠 REST API**&#x200B;를 활용하여 콘텐츠 조각을 관리할 수 있습니다. 자세한 내용은 [Journey Optimizer API 설명서](https://developer.adobe.com/journey-optimizer-apis/references/content){target="_blank"}를 참조하세요.
 * **조각 재사용:** 콘텐츠에 필요한 만큼 조각을 사용합니다. [시각적 조각 추가](../email/use-visual-fragments.md) 및 [식 조각 활용](../personalization/use-expression-fragments.md)을 참조하십시오.
+* **동적 조각 사용:** 프로필 특성, 데이터 집합 조회 또는 컨텍스트 데이터를 기준으로 수신자당 런타임에 삽입할 조각을 확인합니다. [동적 조각을 사용하는 방법을 알아보세요](dynamic-fragments.md)
 
 
 >[!NOTE]

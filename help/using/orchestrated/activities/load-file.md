@@ -13,10 +13,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+source-git-commit: b364e9038ac9dc2de884c32bc39d4cb20e8bd90a
 workflow-type: tm+mt
-source-wordcount: 1687
-ht-degree: 5%
+source-wordcount: 1697
+ht-degree: 4%
 
 ---
 
@@ -35,11 +35,11 @@ ht-degree: 5%
 
 **[!UICONTROL 파일 로드]** 활동은 **[!UICONTROL 데이터 관리]** 활동입니다. 외부 파일에 저장된 프로필 및 데이터로 작업할 때 사용합니다. 받는 사람 목록이 외부 시스템(예: CRM 내보내기 또는 파트너 파일)에서 나오고 전체 Adobe Experience Platform 수집 파이프라인을 먼저 빌드하지 않고 캠페인을 실행하려는 경우 오케스트레이션된 캠페인에서 **파일 기반 타깃팅**&#x200B;을 지원합니다.
 
+파일 설정 중에 열 매핑, 데이터 유형, NULL 처리 및 열별 오류 정책을 정의할 수 있습니다. 유효성 검사에 실패한 행은 캠페인이 실행되기 전에 거부되고 기록되므로, 수동 사전 처리 없이 대상자를 깔끔하게 유지합니다.
+
 >[!AVAILABILITY]
 >
->**파일 로드** 활동은 조직 집합에 대해 **제한된 가용성**&#x200B;에서 사용할 수 있습니다. 액세스 권한을 요청하려면 Adobe 담당자에게 문의하십시오. 가용성 단계는 [Journey Optimizer 릴리스 주기](../../rn/releases.md)를 참조하십시오.
->
->현재 **Healthcare Shield**&#x200B;에서 사용할 수 없는 활동입니다.
+>**파일 로드** 활동은 현재 **Healthcare Shield**&#x200B;에서 사용할 수 없습니다.
 
 ## 권한 {#permissions}
 

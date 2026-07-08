@@ -11,9 +11,9 @@ feature_v2:
   - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
 subfeature_v2:
   - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
+source-git-commit: 064334b0b86fc6fe549d3b152fdc40e8f9c9e5fc
 workflow-type: tm+mt
-source-wordcount: 1159
+source-wordcount: 1174
 ht-degree: 3%
 
 ---
@@ -29,6 +29,8 @@ ht-degree: 3%
 >[!AVAILABILITY]
 >
 >이 기능은 현재 제한된 가용성입니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.
+>
+>등급 수식은 **Decisioning** 추가 기능 서비스를 구입한 조직에서만 사용할 수 있습니다.
 
 [!DNL Adobe Journey Optimizer]을(를) 사용하면 프로필이 시스템에서 허용하는 것보다 더 많은 여정에 대한 자격이 있을 때 프로필이 입력할 수 있는 프로필을 제어할 수 있습니다. 이렇게 하려면 [규칙 집합](rule-sets.md)을 사용하여 여정 항목 또는 동시 사용에 대한 제한을 정의할 수 있습니다. 여정이 상한선이 허용하는 것보다 더 많은 여정에 적격인 경우, 각 프로필에 할당된 우선순위에 따라 선택되는 여정이 결정됩니다.
 

@@ -24,9 +24,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+source-git-commit: 8c3b899a9e1f4fbe5f951798337870f66beb1523
 workflow-type: tm+mt
-source-wordcount: 1346
+source-wordcount: 1402
 ht-degree: 0%
 
 ---
@@ -227,6 +227,12 @@ ht-degree: 0%
    ![](../content-management/assets/fragment-expression-use.png)
 
 전자 메일을 만들 때 편집 가능한 필드를 표현식 조각에 추가하고 해당 값을 재정의하는 방법을 보여 주는 예는 [이 섹션](../content-management/customizable-fragments.md#example)에서 확인할 수 있습니다.
+
+## 동적 조각 해상도 사용 {#dynamic-resolution}
+
+디자인 타임에 조각 ID를 정적으로 포함하는 대신 수신자별로 런타임 시 조각 ID를 동적으로 확인할 수 있습니다. 이렇게 하면 다른 프로필이 프로필 속성, 데이터 세트 조회 또는 컨텍스트 데이터를 기반으로 동일한 캠페인이나 여정 내에서 완전히 다른 콘텐츠 블록을 받을 수 있습니다.
+
+[동적 조각 사용 방법 알아보기](../content-management/dynamic-fragments.md)
 
 ## 상속 중단 {#break-inheritance}
 
