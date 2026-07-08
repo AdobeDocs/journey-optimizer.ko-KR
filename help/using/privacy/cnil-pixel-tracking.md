@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: CNIL, 추적, 픽셀, 이메일, 동의, 옵트아웃, 개인 정보
-source-git-commit: b55af0fe5510f37049713fe8d0b7a2ac73516323
+source-git-commit: 9ecd8953d7bdd2fe78c28be104fbb954c263338a
 workflow-type: tm+mt
-source-wordcount: '1466'
+source-wordcount: '1464'
 ht-degree: 1%
 
 ---
@@ -64,11 +64,10 @@ Adobe Journey Optimizer을 사용하면 마케터가 개별 메시지 수준에�
 * **[!UICONTROL 전자 메일 열기]**: 전자 메일에 열린 추적 픽셀이 포함되어 있는지 여부를 제어합니다. 이 옵션은 기본적으로 활성화되어 있습니다.
 * **[!UICONTROL 전자 메일 클릭]**: 링크 클릭 추적 여부를 제어합니다. 이 옵션은 또한 기본적으로 활성화되어 있습니다.
 
-특정 전자 메일에 대한 열기 추적을 비활성화하려면 메시지를 만들 때 **[!UICONTROL 전자 메일 열기]** 옵션을 선택 취소하세요. 비활성화되면 옵션은 해당 게재에 대해 열린 추적 데이터가 수집되지 않도록 합니다. 프랑스어 구독자에게 보내는 조직의 경우 시행일 전에 모든 활성 여정 및 캠페인에 대한 진행 중 추적 설정을 검토하십시오.
+특정 전자 메일에 대한 열기 추적을 비활성화하려면 메시지를 만들 때 **[!UICONTROL 전자 메일 열기]** 옵션을 선택 취소하세요. 비활성화되면 옵션은 해당 게재에 대해 열린 추적 데이터가 수집되지 않도록 합니다. 범위 내 조직의 경우 시행일 전에 모든 활성 여정 및 캠페인에 대한 진행 중 추적 설정을 검토하십시오.
 
 <!--
-EDITORIAL NOTE – ENGINEERING CONFIRMATION NEEDED before publish:
-Clarify whether unchecking "Email opens" fully removes the 1x1 tracking pixel from the delivered HTML, or whether the pixel is still present in the HTML but open data is suppressed at the data processing layer only. The current wording ("prevents open tracking data from being collected") is intentionally neutral. If the pixel is removed: update to state this explicitly. If the pixel remains but data is not processed: reword to make that distinction clear, to avoid misleading customers seeking CNIL compliance.
+Unclear whether unchecking "Email opens" fully removes the 1x1 tracking pixel from the delivered HTML, or whether the pixel is still present in the HTML but open data is suppressed at the data processing layer only. The current wording ("prevents open tracking data from being collected") is intentionally neutral as engineering wasn't able to clarify.
 -->
 
 [메시지 추적 방법 알아보기](../email/message-tracking.md)
@@ -149,8 +148,7 @@ Journey Optimizer Suppression REST API는 보내는 메시지에 대한 추가�
 [제외 목록 관리 방법 알아보기](../configuration/manage-suppression-list.md)
 
 <!--
-EDITORIAL NOTE – ENGINEERING CONFIRMATION NEEDED before publish:
-AJO has no native equivalent of Campaign v8's "lastPixelRefusalDate" field or re-solicitation typology rule. If re-solicitation governance for pixel consent refusal is required, customers would likely need to: (a) create a custom XDM date field to capture the pixel refusal date, and (b) build an AEP audience that filters out profiles where that date falls within the last six months, then use that audience as a suppression filter in campaigns/journeys. Confirm with Engineering: (1) whether this guidance should be included in this article, and (2) whether any native AJO improvements are planned in this area.
+AJO has no native equivalent of Campaign v8's "lastPixelRefusalDate" field or re-solicitation typology rule. If re-solicitation governance for pixel consent refusal is required, customers would likely need to: (a) create a custom XDM date field to capture the pixel refusal date, and (b) build an AEP audience that filters out profiles where that date falls within the last six months, then use that audience as a suppression filter in campaigns/journeys.
 -->
 
 ### 보고 {#reporting}
