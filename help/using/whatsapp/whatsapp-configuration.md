@@ -8,28 +8,16 @@ role: Admin
 level: Intermediate
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
 TQID: https://experienceleague.adobe.com/Csk1JNk8W6SGjoga5chRRE7-LUzUKK-X8sZcwszCxRE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-  - id: b8df23d2-98a2-4406-86cc-2babe8728d36
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 04ae3acf841462872a34a84133e9e18249a28ffb
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: b8df23d2-98a2-4406-86cc-2babe8728d36id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b2f1ca57af462b91496fcf5ec94f7f4a3254cbd7
 workflow-type: tm+mt
-source-wordcount: 1377
-ht-degree: 20%
+source-wordcount: 1447
+ht-degree: 19%
 
 ---
 
@@ -135,6 +123,8 @@ WhatsApp API 자격 증명이 정상적으로 생성되면 이제 웹후크를 �
 >인바운드 WhatsApp 메시지는 _AJO 전자 메일 추적 데이터 세트_ 시스템 데이터 세트에 캡처됩니다. 이 데이터 세트에 수신 메시지를 캡처하려면 프로필에는 [!DNL Journey Optimizer]에서 전송한 하나 이상의 메시지가 있어야 합니다. [자세히 알아보기](../data/get-started-datasets.md#system-datasets)
 
 Webhooks는 Meta의 WhatsApp Business Platform과 Adobe Journey Optimizer 간의 통신 브리지 역할을 하므로 메시지 이벤트 및 사용자 상호 작용에 대한 실시간 알림을 받을 수 있습니다.
+
+Meta에서는 여러 샌드박스 또는 WhatsApp 자격 증명에서도 WhatsApp 비즈니스 계정당 하나의 웹후크, 콜백 URL 및 확인 토큰만 허용합니다. **피드백 이벤트**(전송, 전달, 읽기, 오류, 단추 클릭)이 모든 샌드박스에서 계속 올바르게 캡처됩니다. **인바운드 이벤트**(회신, 옵트인/옵트아웃/도움말 키워드)은 Webhook가 등록된 단일 샌드박스에서만 수신됩니다. **프로덕션 샌드박스**&#x200B;에 등록하여 인바운드 이벤트를 받으십시오.
 
 1. 왼쪽 레일에서 **[!UICONTROL 관리]** `>` **[!UICONTROL 채널]**(으)로 이동하고 **[!UICONTROL WhatsApp 설정]**&#x200B;에서 **[!UICONTROL WhatsApp Webhooks]** 메뉴를 선택한 다음 **[!UICONTROL Webhook 만들기]** 단추를 클릭합니다.
 
@@ -254,6 +244,6 @@ WhatsApp API 자격 증명을 구성할 때 HTTP 500 오류가 발생하는 경�
 
 +++ 비디오 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3470275/?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++
