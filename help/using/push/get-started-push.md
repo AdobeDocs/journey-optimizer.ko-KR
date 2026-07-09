@@ -9,24 +9,16 @@ role: User
 level: Beginner
 exl-id: c1f16edd-efdf-41c2-a0ad-5f55009008f5
 TQID: https://experienceleague.adobe.com/S-3ZtTNfgZGEFChfjaXPihxGWpdkWacrWF9AWc-AyZY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 75ebd043971ce40e2da0f627622441a46a8e667c
 workflow-type: tm+mt
-source-wordcount: 389
-ht-degree: 95%
+source-wordcount: 651
+ht-degree: 57%
 
 ---
 
@@ -58,6 +50,8 @@ ht-degree: 95%
 >
 >**[!DNL Journey Optimizer]**&#x200B;는 이메일 및 SMS 메시지에서 옵트아웃을 관리하는 방법을 제공하지만, 푸시 알림은 수신자가 디바이스를 통해 직접 구독을 취소할 수 있으므로 별도의 작업이 필요하지 않습니다. 예를 들어, 앱을 다운로드하거나 사용하는 경우 알림을 중지하도록 선택할 수 있습니다. 마찬가지로 수신자는 모바일 운영 체제나 웹 브라우저 설정을 통해 알림 설정을 변경할 수 있습니다. AEP 프로필 뷰어에서 프로필의 푸시 동의 상태를 확인하려면 [푸시 옵트아웃 상태 확인](../privacy/opt-out.md#push-opt-out-status)을 참조하세요.
 
+</br>
+
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-push.md">
@@ -69,7 +63,7 @@ ht-degree: 95%
 </td>
 <td>
 <a href="design-push.md">
-<img alt="저빈도" src="../assets/do-not-localize/push-design.jpg">
+<img alt="드물게" src="../assets/do-not-localize/push-design.jpg">
 </a>
 <div>
 <a href="design-push.md"><strong>푸시 알림 디자인</strong></a>
@@ -94,3 +88,26 @@ ht-degree: 95%
 <p>
 </td>
 </tr></table>
+
+## 사용 사례
+
+푸시 알림은 앱 내부에 의존하거나 받은 편지함을 확인하지 않고 디바이스에서 사용자에게 빠르고 직접 연결해야 할 때 가장 잘 작동합니다.
+
+| 이점 | 이유 | 예시 사용 사례 |
+| --- | --- | --- |
+| 시간에 민감한 업데이트 | 사용자가 앱을 적극적으로 사용하지 않을 때에도 즉시 제공됩니다. | 비행 지연 경고, 주문 상태 변경, 최신 뉴스 |
+| 재참여 | 일정 기간 동안 활동이 없으면 앱으로 돌아가라는 메시지를 표시합니다 | 장바구니 포기 알림, Win-back 캠페인 |
+| 비용 절감 대 SMS | SMS와 달리 메시지당 통신사 요금 없음 | 대량의 프로모션 또는 트랜잭션 알림 |
+| 풍부한 대화형 콘텐츠 | 이미지, 작업 단추 및 딥링크 지원 | 탭투바이 버튼, 리치 미디어 미리보기가 포함된 제품 프로모션 |
+| 디바이스 네이티브 기능 | 다른 채널에서 사용할 수 없는 OS 수준 기능 활용 | 진동 경고, 앱 아이콘 배지, 지오펜싱된 위치 트리거 |
+| 높은 옵트인 가능성 | 앱 설치 또는 첫 번째 실행과 동시에 옵트인하라는 메시지가 표시됩니다 | 온보딩 플로우, 1일 참여 캠페인 |
+
+## 사용하지 않을 때
+
+푸시 알림이 모든 메시지에 적합하지 않습니다. 다음 상황에서 다른 채널을 고려하십시오.
+
+* 메시지가 대상에 도달할 수 없기 때문에 대상자는 푸시 옵트인 비율이 낮거나 알림에 대한 거부감을 나타냅니다
+* 메시지에는 긴 형식의 콘텐츠가 필요하므로 이메일이 더 잘 처리되고 더 자세한 서식이 허용됩니다
+* 콘텐츠는 민감하거나 비공개이며 디바이스 근처의 누구나 볼 수 있는 잠금 화면에 표시되지 않아야 합니다
+* 대부분의 사용자는 푸시 알림이 제한되어 있거나 연결할 수 없는 모바일 앱이 아닌 데스크탑에서 서비스에 액세스합니다
+

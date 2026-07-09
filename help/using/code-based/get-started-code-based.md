@@ -7,26 +7,15 @@ role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
 TQID: https://experienceleague.adobe.com/ZOCKgdEGK0G3GOhNbwxSXVOQo0We6-QdjzItFtZ5T3E
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-  - id: a984631b-2bae-4860-9b15-69c41a799dcb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: f88eedcc-cf3e-46b8-9e94-0293589325f3
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
-workflow-type: ht
-source-wordcount: 986
-ht-degree: 100%
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: a984631b-2bae-4860-9b15-69c41a799dcb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: f88eedcc-cf3e-46b8-9e94-0293589325f3id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 75ebd043971ce40e2da0f627622441a46a8e667c
+workflow-type: tm+mt
+source-wordcount: 1246
+ht-degree: 79%
 
 ---
 
@@ -54,6 +43,28 @@ ht-degree: 100%
 <!--[Learn how to create a code-based campaign in this video](#video)-->
 
 ➡️ 콘텐츠 실험을 사용하여 의사 결정을 코드 기반 경험 채널과 비교하는 방법을 보여주는 엔드투엔드 사용 사례가 [이 섹션](../experience-decisioning/experience-decisioning-uc.md)에 나와 있습니다.
+
+## 사용 사례 {#use-cases}
+
+코드 기반 채널은 사용 사례가 시각적 편집기에서 지원할 수 있는 수준을 넘어서고 구현을 빌드하고 유지 관리하는 데 사용할 수 있는 개발 리소스를 가지고 있을 때 가장 잘 작동합니다.
+
+| 이점 | 이유 | 예시 사용 사례 |
+| --- | --- | --- |
+| 심층 개인화 | 시각적 편집기에서 노출하는 것 이상의 복잡한 논리 및 실시간 데이터 지원 | 실시간 인벤토리 또는 사용자 컨텍스트를 기반으로 하는 Personalization |
+| 외부 시스템과의 통합 | 외부 시스템의 데이터를 사용하여 컨텐츠를 작성할 수 있습니다 | 날씨 기반 프로모션, 실시간 인벤토리 기반 오퍼 |
+| 여러 단계로 구성된 고급 조건부 워크플로 | 시각적 채널의 사전 정의된 작업에 국한되지 않음 | 터치포인트 간 여러 단계 의사 결정 논리 |
+| 플랫폼 제한 초과 | 개발자가 사용자 지정 대화형 요소를 빌드할 수 있습니다. | 맞춤형 UI 구성 요소는 기본 제공 채널에서 지원하지 않습니다. |
+| 캠페인 유연성 향상 | 콘텐츠 및 논리는 자체 구현에 의해 정의됩니다 | 헤드리스, API 기반 또는 비브라우저 디지털 속성 |
+
+## 사용하지 않을 때 {#when-not-to-use}
+
+코드 기반 채널은 개발 노력이 필요하므로 모든 시나리오에 적합한 선택은 아닙니다. 다음 상황에서 다른 채널을 고려하십시오.
+
+* 캠페인은 빠르고 간단하며, 개발 작업 없이 웹 또는 인앱과 같은 코드 없는 채널로 빌드할 수 있습니다
+* 사용자 지정 구현을 빌드하고 유효성을 검사하는 데 사용할 수 있는 개발자 리소스 또는 테스트 환경이 없습니다.
+* 코드 기반 경험을 사용하려면 사전 계획을 더 많이 세워야 하므로 타임라인 또는 예산이 사용자 지정 개발로 제한됩니다
+* 표준 메시징은 이미 기본 제공 채널 기능에 적합하여 사용자 지정 개발이 불필요함
+* 표면 및 구현에는 지속적인 개발자 지원이 필요하므로 사용자 지정 코드에 대한 장기적인 유지 보수가 중요합니다
 
 ## 코드 기반 채널과 기타 채널을 사용할 경우 비교 {#code-based-vs-other-channels}
 
@@ -133,4 +144,5 @@ ht-degree: 100%
 * **[코드 기반 경험 테스트](test-code-based.md)** - 코드 기반 경험을 게시하기 전에 미리 보고 테스트하는 방법에 대해 알아봅니다.
 * **[구현 샘플](code-based-implementation-samples.md)** - 다양한 사용 사례에 대한 코드 예제 및 구현 패턴을 살펴봅니다.
 * **[코드 기반 경험 튜토리얼](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/channels/code-based-experience-channel/create-a-code-based-experience-campaign){target="_blank"}** - 코드 기반 기능 및 모범 사례에 대한 단계별 비디오 튜토리얼을 살펴봅니다.
+
 

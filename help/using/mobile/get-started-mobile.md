@@ -9,23 +9,16 @@ role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
 TQID: https://experienceleague.adobe.com/Ev0xJ86fpweQxgf-VjGUEl4ebk6BdzhVof2BgiMR9EM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: c13ff12d-60f1-49cd-833a-d43359628223
-source-git-commit: 0f73733f190ea27ada776ee27228730684f84bea
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c13ff12d-60f1-49cd-833a-d43359628223
+source-git-commit: 75ebd043971ce40e2da0f627622441a46a8e667c
 workflow-type: tm+mt
-source-wordcount: 1040
-ht-degree: 24%
+source-wordcount: 1314
+ht-degree: 19%
 
 ---
 
@@ -53,6 +46,26 @@ ht-degree: 24%
 
 * **Campaign**:Create 캠페인에서 모바일 메시지를 작업으로 선택하고 기본 설정을 정의한 다음 메시지 콘텐츠를 편집합니다. [액션 캠페인](../campaigns/campaign-action.md#action-campaign-action) | [API 트리거 캠페인](../campaigns/api-triggered-campaigns.md) | [오케스트레이션된 캠페인](../orchestrated/create-orchestrated-campaign.md#create) 만드는 방법 알아보기
 
+## 사용 사례 {#use-cases}
+
+SMS, MMS 및 RCS는 앱이 설치되어 있는지 또는 인터넷 연결을 사용할 수 있는지에 관계없이 사용자에게 안정적으로 연결해야 할 때 가장 잘 작동합니다.
+
+| 이점 | 이유 | 예시 사용 사례 |
+| --- | --- | --- |
+| 최대 도달 및 즉시 | 메시지 수신에 필요한 앱 또는 인터넷 연결 없음 | 스마트폰 앱이 설치되지 않은 사용자에게 연결 |
+| 가시성 보장 | SMS의 열람률은 90%를 넘습니다. | OTP 코드, 약속 미리 알림, 게재 알림 |
+| MMS/RCS를 통한 리치 콘텐츠 | 일반 텍스트 위에 이미지, 비디오 및 대화형 요소를 추가합니다. | 브랜드 프로모션, 제품 카탈로그 |
+| 앱 액세스 없이 사용자에게 연결 | 앱을 설치하거나 열지 않은 수신자를 위해 작동합니다 | 종료된 앱 사용자 재참여, 비앱 고객 온보딩 |
+| 높은 긴급도 CTA | 디바이스 사용자에게 직접 전달됨 사용자가 자주 확인 | 플래시 영업, 부정 행위 알림, 서비스 중단 알림 |
+| 다른 채널을 사용한 레이어 | 푸시, 이메일 및 인앱 메시지를 보완하여 더 광범위한 적용 범위 제공 | SMS를 대체 채널로 사용하는 다중 채널 여정 |
+
+## 사용하지 않을 때 {#when-not-to-use}
+
+SMS, MMS 및 RCS가 항상 가장 효율적이거나 적절한 선택은 아닙니다. 다음 상황에서 다른 채널을 고려하십시오.
+
+* SMS 및 MMS는 메시지당 청구되고 메시지당 비용은 규모에 따라 빠르게 증가하기 때문에 많은 양의 전송 시 비용 문제가 발생합니다
+* 컨텐츠는 형식이 길거나 복잡하며 이메일에 더 적합하여 더 풍부한 서식과 더 긴 텍스트를 지원합니다
+* 수신자가 명시적으로 옵트인을 선택하지 않았으므로 대부분의 지역 및 메시징 규정에서 법적 및 규정 준수 위험이 따릅니다.
 
 ## 주요 기능 {#key-features}
 
@@ -88,7 +101,7 @@ Journey Optimizer에서 RCS를 사용하려면 다음 전제 조건이 필요합
 
 ## 추가 리소스 {#additional-resources}
 
-Journey Optimizer의 모바일 메시지에 대한 자세한 내용은 아래 항목을 참조하십시오.
+Journey Optimizer의 모바일 메시지에 대한 자세한 내용은 아래 항목을 참조하십시오. 자세한 사용 사례 및 모범 사례는 모바일 학습 허브의 [SMS/MMS/RCS 개요](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/mobile-learning-hub/mobile-channels-overview/sms-mms-rcs-overview){target="_blank"}를 참조하십시오.
 
 +++구성 안내서
 
@@ -186,7 +199,7 @@ RCS 메시지는 디바이스의 기본 메시징 애플리케이션에서 표�
 
 +++비디오 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3422697?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
@@ -196,7 +209,7 @@ Adobe Journey Optimizer가 마케터에게 제공하는 포괄적인 모바일 �
 
 +++비디오 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3430374?captions=kor&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
 +++
 
@@ -206,6 +219,6 @@ Adobe Journey Optimizer가 마케터에게 제공하는 포괄적인 모바일 �
 
 +++비디오 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3464762?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
 +++
