@@ -27,7 +27,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+source-git-commit: 2472bfde2c99dff384b11c66613370d369344f39
 workflow-type: tm+mt
 source-wordcount: 1875
 ht-degree: 2%
@@ -102,7 +102,7 @@ ht-degree: 2%
 
 * 재입력이 비활성화된 경우 프로필은 글로벌 여정 시간 제한 기간 내에 동일한 여정을 여러 번 입력할 수 없습니다. 이 [섹션](../building-journeys/journey-properties.md#global_timeout)을 참조하세요.
 
-기본적으로 여정은 재입력을 허용합니다. **재입력 허용** 옵션이 활성화되면 **재입력 대기 기간** 필드가 표시됩니다. 프로필에서 여정을 다시 입력할 수 있도록 허용하기 전에 대기할 시간을 정의할 수 있습니다. 이를 통해 동일한 이벤트에 대해 여정을 여러 번 트리거하는 오류를 방지할 수 있습니다. 이 필드는 기본적으로 5분으로 설정되어 있습니다. 최대 기간은 91일([전역 시간 초과](journey-properties.md#global_timeout))입니다.
+기본적으로 여정은 재입력을 허용합니다. **재입력 허용** 옵션이 활성화되면 **재입력 대기 기간** 필드가 표시됩니다. 프로필에서 여정을 다시 입력할 수 있도록 허용하기 전에 대기할 시간을 정의할 수 있습니다. 이를 통해 동일한 이벤트에 대해 여정을 여러 번 트리거하는 오류를 방지할 수 있습니다. 이 필드는 기본적으로 5분으로 설정되어 있습니다. 최대 기간은 90일([전역 시간 초과](journey-properties.md#global_timeout))입니다.
 
 <!--
 When a journey ends, its status is **[!UICONTROL Closed]**. New individuals can no longer enter the journey. Persons already in the journey automatically exit the journey. 
