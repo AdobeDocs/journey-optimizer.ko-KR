@@ -22,10 +22,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
+source-git-commit: 5aebf0eb8a010d371b7542d5f203a11442d42600
 workflow-type: tm+mt
-source-wordcount: 543
-ht-degree: 3%
+source-wordcount: 558
+ht-degree: 6%
 
 ---
 
@@ -48,6 +48,8 @@ ht-degree: 3%
 >[!PREREQUISITES]
 >
 >노드 및 npm을 설치해야 합니다. [이 설명서를 참조하세요](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+>
+>컨텐츠 카드에 결격 규칙을 사용하려면 웹 SDK 버전 2.28.0 이상이 필요합니다.
 
 
 1. HTTPS에 대한 로컬 SSL 인증서를 설정합니다. 다음 샘플은 HTTPS를 통해 콘텐츠를 제공하기 위해 로컬로 서명된 SSL 인증서가 필요합니다.
