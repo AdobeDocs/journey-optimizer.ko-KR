@@ -11,26 +11,15 @@ keywords: 전송 시간, 전송, 메시지, 최적화, 여정, AI, 지능형
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/r8LyWsU7OOiGZFRkiGO56xkbzW9iE2ASemZOlyaERQ8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: c74010a3eb90a194017992ead37e41e750d90610
 workflow-type: tm+mt
-source-wordcount: 2279
+source-wordcount: 2316
 ht-degree: 6%
 
 ---
@@ -68,6 +57,8 @@ Adobe의 여정 AI 서비스를 기반으로 하는 [!DNL Adobe Journey Optimize
 >
 >* 전송 시간 최적화는 **이메일** 및 **푸시 알림** 채널에만 적용됩니다.
 >
+>* 전송 시간 최적화는 **VA7, NLD2, AUS5, CAN2, GBR9, IND2, CHE2** AEP 허브 영역에서 지원됩니다. 다음은 Adobe 배포 지역 코드입니다. 조직에서 사용하는 지역을 잘 모르는 경우 Adobe 담당자에게 문의하십시오.
+>
 
 ## 전송 시간 최적화 사용{#use-send-time-optimization}
 
@@ -87,7 +78,7 @@ Adobe의 여정 AI 서비스를 기반으로 하는 [!DNL Adobe Journey Optimize
 
    최상의 결과를 얻으려면 **클릭 수**&#x200B;에 대한 대부분의 전자 메일을 최적화하십시오. 메시지가 정보 제공용이지만 특정 작업을 유도하기 위한 것이 아닌 경우 **열기**&#x200B;를 선택합니다.
 
-1. 전자 메일 메시지와 푸시 메시지 모두에 대해 **[!UICONTROL 다음 시간 내에 보내기]**&#x200B;를 설정하여 메시지를 보내기 전에 시스템이 대기할 최대 시간(1-168)으로 설정합니다.
+1. 전자 메일 메시지와 푸시 메시지 모두에 대해 **[!UICONTROL 다음 시간 내에 보내기]**&#x200B;를 설정하여 메시지를 보내기 전에 시스템이 대기할 최대 시간(2-100)으로 설정합니다.
 
    최상의 결과를 얻으려면 6시간에서 24시간 사이의 값을 선택하십시오. 값이 낮을수록 사용 가능한 전송 횟수가 줄어들어 전송 시간 최적화의 이점을 제한할 수 있습니다. 값이 높으면 메시지가 오래되었거나 보낸 시간만큼 관련성이 낮음을 의미할 수 있습니다.
 
@@ -216,14 +207,14 @@ Adobe의 여정 AI 서비스를 기반으로 하는 [!DNL Adobe Journey Optimize
 * **AI 여정**: Journey Optimizer 내에서 전송 시간 최적화를 지원하는 Adobe의 AI 서비스 *(제품별)*
 * **탐색 전송 시간**: 다른 시간을 테스트하고 모델 정확도를 개선하기 위해 임의로 선택한 전송 시간(전송 중 5%에 사용됨) *(제품별)*
 * **최적화된 전송 시간**: 클릭률 또는 열람률을 최대화하기 위해 선택한 모델 예측 전송 시간(전송 95%에 사용됨) *(제품별)*
-* **다음 시간 내에 보내기**: 지정된 프로필로 메시지를 보내기 전에 시스템이 대기할 최대 시간(1-168) *(제품별)*
+* **다음 시간 내에 보내기**: 지정된 프로필로 메시지를 보내기 전에 시스템이 대기할 최대 시간(2-100) *(제품별)*
 
 **보호 기능:**
 * 전송 시간 최적화는 조직의 Adobe에서 활성화해야 합니다. 활성화하려면 Adobe 고객 지원 센터 또는 Adobe 담당자에게 문의하십시오.
 * 전송 시간 최적화는 여정 내의 이메일 및 푸시 알림 채널에만 적용되며 캠페인이나 사용자 지정 작업에는 사용할 수 없습니다.
 * 조직은 전송 시간 최적화가 의미 있는 결과를 생성하기 전에 적어도 30일 동안 Journey Optimizer에서 이메일 또는 푸시 작업을 사용해야 합니다.
 * 긴급 또는 시간에 민감한 운영 메시지(예: 주문 확인, 암호 재설정, 플라이트 게이트 변경)에 전송 시간 최적화를 사용하지 마십시오.
-* 최대 대기 시간 범위는 1-168시간이며 최상의 결과를 얻으려면 6-24시간이 권장됩니다.
+* 최대 대기 시간 범위는 2~100시간이며 최상의 결과를 얻으려면 6~24시간이 권장됩니다.
 * 모델 점수는 `_experience.intelligentServices.journeyAI.sendTimeOptimization`의 프로필 특성에 저장되며 사람이 읽을 수 없습니다.
 * 모델은 처음에 매주 교육을 받은 후, 16주 후에 매월 다시 교육을 받고 다시 검사를 받습니다.
 
