@@ -20,10 +20,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 01105f4dc3f6b52598c634373988570cf6916406
-workflow-type: ht
-source-wordcount: 440
-ht-degree: 100%
+source-git-commit: 75ebd043971ce40e2da0f627622441a46a8e667c
+workflow-type: tm+mt
+source-wordcount: 686
+ht-degree: 64%
 
 ---
 
@@ -42,6 +42,28 @@ ht-degree: 100%
 * **캠페인**&#x200B;에서. 캠페인을 만들고 **WhatsApp**&#x200B;을 작업으로 선택하고 기본 설정을 정의한 다음 메시지 콘텐츠를 편집하여 보낼 WhatsApp 메시지를 정의합니다. [액션 캠페인](../campaigns/campaign-action.md#action-campaign-action) | [API 트리거 캠페인](../campaigns/api-triggered-campaigns.md) | [오케스트레이션된 캠페인](../orchestrated/create-orchestrated-campaign.md#create) 만드는 방법 알아보기
 
 ![](assets/do-not-localize/whatsapp-beta.png){zoomable="yes"}
+
+## 사용 사례 {#use-cases}
+
+WhatsApp은 대상자가 이미 플랫폼을 사용하고 있으며 풍부한 콘텐츠를 진정한 양방향 대화와 결합하고자 할 때 가장 잘 작동합니다.
+
+| 이점 | 이유 | 예시 사용 사례 |
+| --- | --- | --- |
+| 높은 글로벌 참여 | 많은 지역에서 강력한 채택을 통해 널리 사용되는 메시징 플랫폼 | WhatsApp에서 이미 활성화된 해외 대상에게 연결 |
+| 풍부한 대화형 메시지 | 이미지, 비디오, 단추 및 빠른 답글 지원 | 제품 카탈로그, 빠른 회신 옵션을 통한 약속 확인 |
+| 양방향 대화 경험 | 수신자는 동일한 스레드 내에서 회신할 수 있습니다. | 고객 지원 대화, 주문 추적 질문 |
+| 공식 API를 통한 규정 준수 및 신뢰 | 보낸 사람 인증이 있는 Meta의 인증된 클라우드 API를 통해 제공됨 | 수신자 신뢰를 구축하는 브랜드 검증 커뮤니케이션 |
+| 다른 채널과 통합 | 다른 채널과 함께 여정 및 캠페인과 계층화할 수 있음 | WhatsApp을 보완 접점으로 사용하는 다중 채널 여정 |
+
+## 사용하지 않을 때 {#when-not-to-use}
+
+WhatsApp은 대상 채택 및 명시적 동의에 따라 다르므로 모든 시나리오에 적합하지 않습니다. 다음 상황에서 다른 채널을 고려하십시오.
+
+* 채택은 지역 및 인구통계에 따라 크게 다르므로 대상자는 WhatsApp을 사용하지 않습니다
+* 수신자에게 Meta의 메시징 정책에 필요한 명시적 옵트인이 제공되지 않았습니다
+* 메시지는 긴급하며 보장된 전달이 필요합니다. SMS 또는 푸시는 WhatsApp의 전달 및 템플릿 검토 제한을 고려하여 더 잘 처리합니다
+* 컨텐츠가 길거나 복잡하고 이메일에 더 적합하여 더 많은 공간과 더 풍부한 포맷을 제공합니다
+* 양방향 WhatsApp 스레드가 적시에 응답을 기대하기 때문에 실시간 대화 지원은 여러분의 입장에서 실현 가능하지 않습니다
 
 ## 사전 요구 사항 {#prereq}
 
