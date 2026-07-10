@@ -24,10 +24,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: a2519d68e847dd9866ed385a21e405dc6157730b
 workflow-type: tm+mt
-source-wordcount: 507
-ht-degree: 5%
+source-wordcount: 601
+ht-degree: 4%
 
 ---
 
@@ -79,9 +79,12 @@ ht-degree: 5%
 
 * **[!DNL Journey Optimizer] 보고서에서 보낸 메트릭에 다시 시도 메트릭도 포함됩니다.**
 
-  **[!UICONTROL 다시 시도]**&#x200B;은(는) [!DNL Customer Journey Analytics]의 **[!UICONTROL 전송됨]** 지표에 포함되지 않습니다. 이로 인해 [!DNL Customer Journey Analytics] **[!UICONTROL 전송됨]** 지표가 [!DNL Journey Optimizer]보다 낮은 값을 표시합니다. 그러나 다시 시도 데이터는 **[!UICONTROL 정상적으로 전송된 메시지]** 또는 **[!UICONTROL 바운스]** 지표에 포함됩니다.
-불일치를 줄이려면 일주일 전 또는 그 이후의 날짜 범위를 사용하십시오.
+  **[!UICONTROL 다시 시도]**&#x200B;은(는) [!DNL Customer Journey Analytics]의 **[!UICONTROL 전송됨]** 지표에 포함되지 않습니다. 이로 인해 [!DNL Customer Journey Analytics] **[!UICONTROL 전송됨]** 지표가 [!DNL Journey Optimizer]보다 낮은 값을 표시합니다. 그러나 다시 시도 데이터는 **[!UICONTROL 정상적으로 전송된 메시지]** 또는 **[!UICONTROL 바운스]** 지표에 포함됩니다.불일치를 줄이려면 일주일 전 또는 그 이후의 날짜 범위를 사용하십시오.
 
 * **다른 데이터 원본에서 보고서가 제공됩니다.**
 
   이로 인해 제품 간에 1~2%의 데이터 불일치가 발생할 수 있습니다.
+
+* **데이터 세트가 최근에 보고 연결에 추가되었습니다.**
+
+  새로 추가된 데이터 세트에 대한 자동 내역 채우기는 완료되는 데 2일 정도 걸릴 수 있습니다. 새 데이터가 이미 올바르게 유입되고 있더라도 완료될 때까지 해당 데이터 세트에 대한 내역 보고가 완료되지 않았거나 0으로 표시될 수 있습니다. 이는 데이터 손실이 아닌 예상 동작입니다.

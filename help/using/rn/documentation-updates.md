@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: c74010a3eb90a194017992ead37e41e750d90610
+source-git-commit: df9b087753c7e217ca7dfacbe15581466edec200
 workflow-type: tm+mt
-source-wordcount: 9262
-ht-degree: 91%
+source-wordcount: 9416
+ht-degree: 89%
 
 ---
 
@@ -26,6 +26,12 @@ ht-degree: 91%
 이 페이지에는 월별 릴리스 기능 및 개선 사항과 관련된 업데이트 외에도 [!DNL Journey Optimizer] 설명서의 모든 최신 변경 사항이 나와 있습니다.
 
 ## 2026년 7월 {#july-2026}
+
+* **PTR 레코드 편집** 페이지에 새로운 순방향 DNS 레코드를 플랫폼에 추가할 때 이동이 완료될 때까지 이전 하위 도메인에 대한 순방향 DNS 레코드를 제거하지 말아야 한다는 경고가 추가되었습니다. 이 경우 편집이 실패합니다. [자세히 보기](../configuration/ptr-records.md#edit-ptr-subdomains-cname)
+
+* **웨이브를 사용하여 보내기** 페이지가 업데이트되어 웨이브 전반에서 대상 재평가 동작을 명확하게 수정했습니다. 대상 멤버십은 활성화 시간(스냅숏)에 고정되지만 프로필 특성 및 동의는 각 웨이브를 처리할 때 평가됩니다. 즉, 예약된 일괄 처리 사이에서 발생하는 옵트아웃이 적용됩니다. [여정](../building-journeys/send-using-waves.md#faq) 및 [캠페인](../campaigns/send-using-waves.md#faq) FAQ 섹션에서 자세히 알아보세요.
+
+* **데이터 거버넌스** 페이지가 업데이트되어 DULE 정책 시행이 **프로필 특성 필드에만 적용**&#x200B;됨을 확인했습니다. 이벤트 기반 필드(여정 이벤트 필드와 같은 컨텍스트 특성)는 지원되지 않습니다. UI에서 해당 필드에 적용된 레이블은 데이터 사용을 제한하지 않습니다. [자세히 보기](../action/action-privacy.md)
 
 * **전송 시간 최적화** 설명서가 **2-100시간**&#x200B;의 새로운 **[!UICONTROL 다음]** 이내 전송 제한(이전 1-168)을 반영하고 이 기능에 대해 지원되는 AEP Hub 영역을 문서화하도록 업데이트되었습니다. [자세히 보기](../building-journeys/send-time-optimization.md#use-send-time-optimization)
 
