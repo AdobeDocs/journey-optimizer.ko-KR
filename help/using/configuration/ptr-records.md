@@ -10,23 +10,14 @@ level: Experienced
 keywords: 하위 도메인, PTR, 레코드, DNS, 도메인, 메일
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
 TQID: https://experienceleague.adobe.com/sdx-XnJMWY5UAkd9-O2Rayjoww3CfeCAgGQgarO2TlY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: df9b087753c7e217ca7dfacbe15581466edec200
 workflow-type: tm+mt
-source-wordcount: 875
+source-wordcount: 922
 ht-degree: 9%
 
 ---
@@ -117,11 +108,13 @@ Adobe에 [완전히 위임](delegate-subdomain.md#set-up-subdomain)된 하위 �
 
    ![](assets/ptr-record-subdomain-confirm.png)
 
-   >[!NOTE]
+1. &quot;먼저 순방향 DNS를 만든 다음 다시 시도하십시오&quot;라는 메시지가 표시되면 아래 단계를 따르십시오.
+   * 순방향 DNS 레코드가 성공적으로 생성되었는지 DNS 공급자를 확인합니다.
+   * DNS의 레코드는 즉시 동기화되지 않을 수 있습니다. 몇 분 정도 기다린 후 다시 시도하십시오.
+
+   >[!WARNING]
    >
-   >&quot;먼저 순방향 DNS를 만든 다음 다시 시도하십시오&quot;라는 메시지가 표시되면 아래 단계를 따르십시오.
-   >   * 순방향 DNS 레코드가 성공적으로 생성되었는지 DNS 공급자를 확인합니다.
-   >   * DNS의 레코드는 즉시 동기화되지 않을 수 있습니다. 몇 분 정도 기다린 후 다시 시도하십시오.
+   >호스팅 플랫폼에서 새 하위 도메인에 대한 새 순방향 DNS 레코드를 추가할 때 이동이 완료될 때까지 이전 하위 도메인에 대한 순방향 DNS 레코드를 제거하지 마십시오. 프로세스가 완료되기 전에 이전 레코드를 제거하면 PTR 레코드 편집이 실패합니다.
 
 1. 변경 내용을 확인하려면 **[!UICONTROL 저장]**&#x200B;을 클릭하세요. **[!UICONTROL IP]** 및 **[!UICONTROL PTR 레코드]** 필드는 수정할 수 없습니다.
 
