@@ -31,10 +31,10 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: cc7ab9c3a9e29e47019d0c6759d328b750a0b544
+source-git-commit: f19aef75aeac9be8e400528b5e587545268d7607
 workflow-type: tm+mt
-source-wordcount: 1866
-ht-degree: 16%
+source-wordcount: 1883
+ht-degree: 15%
 
 ---
 
@@ -214,9 +214,13 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 >[!CONTEXTUALHELP]
 >id="ajo_email_minification"
 >title="HTML 크기 축소"
->abstract="이 옵션을 활성화하면 게시 시 불필요한 공백, 들여쓰기 및 불필요한 주석을 제거하여 이메일 HTML을 압축할 수 있습니다. 이를 통해 100KB를 초과하는 메시지를 잘라버리는 Gmail 등의 클라이언트에서 이메일 클리핑을 방지할 수 있습니다. 다국어 이메일 작업 시에는 이 옵션이 모든 로케일에 대해 기본적으로 활성화되어 있습니다."
+>abstract="이 옵션을 활성화하면 게시하는 동안 불필요한 공백과 들여쓰기를 제거하여 이메일 HTML을 압축할 수 있습니다. 이를 통해 100KB를 초과하는 메시지를 잘라버리는 Gmail 등의 클라이언트에서 이메일 클리핑을 방지할 수 있습니다. 다국어 이메일 작업 시에는 이 옵션이 모든 로케일에 대해 기본적으로 활성화되어 있습니다."
 
-[!DNL Journey Optimizer]을(를) 사용하면 불필요한 공백, 들여쓰기 및 불필요한 설명을 제거하여 게시 프로세스 중에 전자 메일 HTML 버전을 압축할 수 있습니다. HTML 크기를 작게 유지하면 다음과 같은 이점이 있습니다.
+[!DNL Journey Optimizer]을(를) 사용하면 불필요한 공백과 들여쓰기를 제거하여 게시 프로세스 중에 이메일 HTML 버전을 압축할 수 있습니다. HTML 크기를 작게 유지하면 다음과 같은 이점이 있습니다.
+
+>[!NOTE]
+>
+>중요하지 않은 HTML 주석의 제거도 최적화의 일부이지만 이 기능은 2026년 7월 10일부터 일시적으로 비활성화되었습니다.
 
 * **전자 메일 클리핑** 방지 - Gmail과 같은 일부 클라이언트는 ~100KB보다 큰 메시지를 잘라내어 수신자가 전체 콘텐츠를 볼 수 없습니다.
 * 받는 사람의 받은 편지함에서 **전자 메일 로드 시간**&#x200B;을 개선합니다.

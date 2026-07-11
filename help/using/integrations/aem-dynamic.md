@@ -22,9 +22,9 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
+source-git-commit: 4f2e411877feb8c6dfd05832436d2f34bd1be374
 workflow-type: tm+mt
-source-wordcount: 1160
+source-wordcount: 1213
 ht-degree: 7%
 
 ---
@@ -61,6 +61,8 @@ Adobe Experience Manager as a Cloud Service의 Dynamic Media를 Journey Optimize
 >Adobe Experience Manager as a Cloud Service에서 OpenAPI가 포함된 Dynamic Media가 활성화되어 있는지 확인합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview#enable-dynamic-media-open-apis){target="_blank"}
 
 Adobe Journey Optimizer과 Dynamic Media 통합은 Dynamic Media [Scene7 모드](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"} 및 [OpenAPI를 통해](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}할 수 있습니다.
+
+Dynamic Media Scene7 자산의 경우 Journey Optimizer은 URL의 시작 부분에 기본 수정자(`bfc=off&fmt=png-alpha`)를 추가합니다. 사전 설정에서 `fmt` 또는 `bfc`도 설정하는 경우 Scene7에서 반복된 매개 변수의 마지막 항목을 사용하므로 이 설정이 우선합니다. 예기치 않은 결과가 발생하지 않도록 하려면 사전 설정에서 `fmt`/`bfc`을(를) 제거하거나 URL의 기본 수정자 앞으로 이동하십시오.
 
 <!--
 >[!AVAILABILITY]
