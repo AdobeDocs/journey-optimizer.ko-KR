@@ -10,31 +10,16 @@ level: Beginner
 keywords: 만들기, 이메일, 시작, 여정, 캠페인
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 TQID: https://experienceleague.adobe.com/EM2msybn-3qaRJz113oIwMOU4Aj9h3BiDeLnl4vpO-Q
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: fae48155-b23f-40d2-a252-a25bce350b4d
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: cc7ab9c3a9e29e47019d0c6759d328b750a0b544
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: fae48155-b23f-40d2-a252-a25bce350b4did: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f19aef75aeac9be8e400528b5e587545268d7607
 workflow-type: tm+mt
-source-wordcount: 1866
-ht-degree: 16%
+source-wordcount: 1883
+ht-degree: 15%
 
 ---
 
@@ -214,9 +199,13 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 >[!CONTEXTUALHELP]
 >id="ajo_email_minification"
 >title="HTML 크기 축소"
->abstract="이 옵션을 활성화하면 게시 시 불필요한 공백, 들여쓰기 및 불필요한 주석을 제거하여 이메일 HTML을 압축할 수 있습니다. 이를 통해 100KB를 초과하는 메시지를 잘라버리는 Gmail 등의 클라이언트에서 이메일 클리핑을 방지할 수 있습니다. 다국어 이메일 작업 시에는 이 옵션이 모든 로케일에 대해 기본적으로 활성화되어 있습니다."
+>abstract="이 옵션을 활성화하면 게시하는 동안 불필요한 공백과 들여쓰기를 제거하여 이메일 HTML을 압축할 수 있습니다. 이를 통해 100KB를 초과하는 메시지를 잘라버리는 Gmail 등의 클라이언트에서 이메일 클리핑을 방지할 수 있습니다. 다국어 이메일 작업 시에는 이 옵션이 모든 로케일에 대해 기본적으로 활성화되어 있습니다."
 
-[!DNL Journey Optimizer]을(를) 사용하면 불필요한 공백, 들여쓰기 및 불필요한 설명을 제거하여 게시 프로세스 중에 전자 메일 HTML 버전을 압축할 수 있습니다. HTML 크기를 작게 유지하면 다음과 같은 이점이 있습니다.
+[!DNL Journey Optimizer]을(를) 사용하면 불필요한 공백과 들여쓰기를 제거하여 게시 프로세스 중에 이메일 HTML 버전을 압축할 수 있습니다. HTML 크기를 작게 유지하면 다음과 같은 이점이 있습니다.
+
+>[!NOTE]
+>
+>중요하지 않은 HTML 주석의 제거도 최적화의 일부이지만 이 기능은 2026년 7월 10일부터 일시적으로 비활성화되었습니다.
 
 * **전자 메일 클리핑** 방지 - Gmail과 같은 일부 클라이언트는 ~100KB보다 큰 메시지를 잘라내어 수신자가 전체 콘텐츠를 볼 수 없습니다.
 * 받는 사람의 받은 편지함에서 **전자 메일 로드 시간**&#x200B;을 개선합니다.
