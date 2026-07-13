@@ -15,10 +15,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
+source-git-commit: 28dd04657790cca441bf67e555e3a85e63cb2dde
 workflow-type: tm+mt
-source-wordcount: 1815
-ht-degree: 39%
+source-wordcount: 1877
+ht-degree: 37%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_target"
 >title="Target"
->abstract="Target용 플레이스홀더 섹션"
+>abstract="**[!UICONTROL Target]** 섹션은 이 채널 활동에 대한 게재 대상을 설정합니다. 이 전송에 적용할 대상 차원을 선택하려면 **[!UICONTROL 대상 차원]**&#x200B;을 사용하십시오. 그런 다음 **[!UICONTROL 프로필당 한 개의 메시지]**&#x200B;를 선택하여 사람당 한 개의 메시지를 보내거나 **[!UICONTROL 보조 차원당 한 개의 메시지]**&#x200B;를 선택하여 자격 조건을 갖춘 보조 차원당 한 개의 메시지를 보냅니다(예: 동일한 여행자에게 일치하는 비행기가 여러 개 있는 경우 비행편당 한 개의 이메일)."
 
 <!--
 UNUSED IDs in BJ
