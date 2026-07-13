@@ -9,12 +9,11 @@ role: User
 level: Intermediate, Experienced
 keywords: url, 링크, 개인화, 추적, 인코딩, 중괄호
 feature_v2: []
-subfeature_v2:
-  - id: c41e8697-e629-4c38-96b3-564faaa17acf
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+subfeature_v2: id: c41e8697-e629-4c38-96b3-564faaa17acf
+source-git-commit: 9100276ed3a6d3487cf27b9b70f2e0dfaf35f62c
 workflow-type: tm+mt
-source-wordcount: 430
-ht-degree: 1%
+source-wordcount: 570
+ht-degree: 0%
 
 ---
 
@@ -73,9 +72,15 @@ Journey Optimizer은 다음과 같은 URL의 **전체** URL 또는 **기본 도�
 <a href="https://{{profile.social.baseUrl}}/profile" />
 ```
 
->[!IMPORTANT]
+>[!CAUTION]
 >
->전체 또는 기본 URL 개인화를 활성화하려면 Adobe에 연락하여 허용된 도메인 목록을 제공하십시오. 안전하지 않은 리디렉션을 방지하기 위해 필요합니다.
+>* 전체 또는 기본 URL 개인화를 활성화하려면 Adobe에 연락하여 허용된 도메인 목록을 제공하십시오. 안전하지 않은 리디렉션을 방지하기 위해 필요합니다.
+>
+>* 동적으로 생성된 URL(전송 시 프로필 특성에서 전체 URL 또는 기본 도메인이 확인되는 경우)에는 알려진 추적 제한이 있습니다. Journey Optimizer은 이러한 링크에 대한 클릭을 안정적으로 추적할 수 없으며, **클릭 데이터가 여정 또는 캠페인 보고서에 표시되지 않을 수 있습니다**. 이 문제는 추적 리디렉션이 최종 URL을 알기 전에 디자인 타임에 적용되기 때문에 발생합니다. 해결된 값이 수신자마다 다른 경우 리디렉션 체인이 중단되고 클릭이 기록되지 않습니다. 또한 확인된 URL은 모든 받는 사람에 대해 `http` 또는 `https`(으)로 시작해야 합니다. 그렇지 않은 경우 해당 링크에 대한 추적은 자동으로 건너뜁니다. 안정적인 클릭 추적을 유지하려면 다음 접근 방식 중 하나를 사용하십시오.
+>
+>   * 고정 기본 URL을 사용하고 개인화된 매개 변수만 추가합니다(예: `https://www.example.com/page?uid={{profile.person.crmid}}`).
+>   
+>   * 수신자별로 개인화된 URL을 사전 생성하여 프로필 속성으로 저장하고 이메일 콘텐츠에서 참조합니다.
 
 ## URL 추적 매개 변수 개인화 {#personalize-url-tracking-parameters}
 
