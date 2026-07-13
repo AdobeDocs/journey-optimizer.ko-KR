@@ -9,12 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 feature_v2: []
-subfeature_v2:
-  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-  - id: c41e8697-e629-4c38-96b3-564faaa17acf
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+subfeature_v2: id: d6e0d39b-5df3-4c72-8263-fd834397ee97id: c41e8697-e629-4c38-96b3-564faaa17acf
+source-git-commit: f46a758de27bcc49e7c370dac7bd8108d17803b5
 workflow-type: tm+mt
-source-wordcount: 1113
+source-wordcount: 1540
 ht-degree: 2%
 
 ---
@@ -29,8 +27,8 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->이 기능의 사용을 시작하기 전에 관련 [보호 기능 및 제한 사항](gs-generative.md#generative-guardrails)을 읽어 보십시오.
-></br>
+>이 기능을 사용하기 전에 관련 [보호 및 제한 사항](gs-generative.md#generative-guardrails)을 읽어보십시오.
+
 >
 >Journey Optimizer에서 AI Assistant를 사용하려면 [사용자 계약](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
@@ -41,7 +39,7 @@ ht-degree: 2%
 * **[!UICONTROL Personalization 편집기]** — 여러 채널(제목 줄, 본문 및 이를 여는 기타 필드)에서 편집기를 사용할 수 있는 모든 위치. 다음은 AI 지원 개인화의 일반적인 경로입니다. 편집기를 여는 위치 및 방법은 [개인화 추가](../personalization/personalization-build-expressions.md#where)를 참조하십시오.
 * **전자 메일 Designer 도구 모음** — 전자 메일 Designer에서 전자 메일을 작성할 때 구성 요소를 선택하고 상황별 도구 모음에서 **[!UICONTROL 식 추가]**&#x200B;를 사용하여 전체 편집기를 먼저 열지 않고 도구 상자에서 도우미를 엽니다. 이 진입점은 이메일 작성 외부에서는 사용할 수 없습니다. [전자 메일 Designer에서 생성](#generate-email-designer)을 참조하세요.
 
-더 광범위한 AI Assistant 설정 및 언어에 대해서는 [AI Assistant 시작](gs-generative.md)을 참조하십시오. 개인화 개념에 대해서는 [개인화 시작](../personalization/personalize.md)을 참조하십시오. 프롬프트 아이디어는 [AI 프롬프트 모범 사례](ai-assistant-prompting-guide.md)를 참조하십시오.
+더 광범위한 AI Assistant 설정 및 언어에 대해서는 [AI Assistant 시작](gs-generative.md)을 참조하십시오. 개인화 개념에 대해서는 [개인화 시작](../personalization/personalize.md)을 참조하십시오. 사용 가능한 표현식을 생성하는 프롬프트를 작성하려면 [개인화 표현식에 대한 유효 프롬프트 작성](#prompt-best-practices)을 참조하십시오. 콘텐츠 생성 프롬프트 아이디어(톤, 스타일, 브랜드)에 대해서는 [AI 프롬프트 모범 사례](ai-assistant-prompting-guide.md)를 참조하십시오.
 
 캠페인 또는 여정 컨텍스트에 따라 도우미는 데이터를 사용하여 작업하고 이미 노출된 [!UICONTROL Personalization 편집기]를 구성할 수 있습니다(예: 프로필 특성, 세그먼트 멤버십, 도우미 기능 및 관련 개인화 소스).
 
@@ -145,3 +143,37 @@ ht-degree: 2%
    * 전체 편집기에서 식을 다듬어 ![편집 아이콘](assets/do-not-localize/Smock_Edit_18_N.svg "편집") 아이콘을 클릭하여 **[!UICONTROL Personalization 편집기]**&#x200B;를 엽니다.
 
 1. 결과에 만족하면 **[!UICONTROL 삽입]**&#x200B;을 클릭하여 콘텐츠에 식을 추가합니다.
+
+## 개인화 표현식에 대한 효과적인 프롬프트 작성 {#prompt-best-practices}
+
+개인화 표현식에 대한 프롬프트는 톤, 스타일 및 브랜드를 중심으로 하는 콘텐츠 생성 프롬프트와 다릅니다. 도우미는 프로필 및 컨텍스트 데이터에 대해 확인되는 템플릿 논리를 작성하므로 해당 논리를 정확하게 설명해야 합니다. 게재할 고객 경험에서 시작한 다음 도우미가 표현식으로 번역할 수 있는 용어로 표현합니다.
+
+유효한 프롬프트는 일반적으로 다음 네 가지 요소를 정의합니다.
+
+* **데이터 원본** — 프로필 속성, 컨텍스트 데이터, 세그먼트, 오퍼 또는 평가할 기타 리소스. 필드 경로를 알고 있는 경우 정확한 필드 경로를 포함합니다(예: `profile.person.name.firstName`).
+* **조건** - 적용할 논리(예: 값이 존재하는지 또는 특정 기준과 일치하는지 여부).
+* **출력** — 필수 형식을 포함하여 조건이 충족될 때 표시할 사항입니다.
+* **대체** — 데이터가 없거나 조건이 충족되지 않았을 때 표시할 내용입니다.
+
+예를 들어, *고객의 갱신 날짜를 가져와서 1년을 추가하고, MM/dd/yy로 형식을 지정하고, 갱신 날짜가 누락된 경우 아무 것도 표시하지 않도록 요청합니다*&#x200B;는 데이터 소스, 변환, 출력 형식 및 대체(도우미가 사용 가능한 표현식을 만드는 데 필요한 모든 것)를 제공합니다.
+
+### 추천 {#prompt-recommendations}
+
+가장 관련성이 높은 결과를 얻으려면:
+
+* 각 프롬프트를 하나의 요청에서 관련 없는 여러 규칙을 결합하는 대신 단일 개인화 규칙에 초점을 맞추십시오.
+* 사용자 환경에 있는 필드, 조각, 오퍼 및 데이터 세트만 참조합니다. 도우미는 편집기가 표시하는 것과 함께 작동하며 데이터 소스를 만들지 않습니다.
+* 선택적 또는 누락된 데이터에 대한 대체 동작을 설명하므로 표현식이 모든 프로필에 대해 정상적으로 해결됩니다.
+* 필요한 경우 예상되는 출력 구조를 명시적으로 설명합니다(예: 오퍼 페이로드가 JSON으로 반환해야 하는 키).
+* 기존 코드를 편집할 때는 전체 메시지가 아닌 관련 식만 컨텍스트로 제공하고 **[!UICONTROL 수정]** 또는 기타 변경 사항을 적용하기 전에 **[!UICONTROL 설명]**&#x200B;을 사용하여 코드를 이해합니다.
+
+## 데이터 및 설정 요구 사항 {#requirements}
+
+도우미는 [!UICONTROL Personalization 편집기]가 이미 노출하는 리소스에서 식을 생성하므로 기본 데이터를 구성하고 사용할 수 있어야 합니다. 프롬프트에서 사용 가능한 표현식을 반환하지 않는 경우 다음을 확인합니다.
+
+* 참조한 필드가 내 환경에서 활성 상태인 스키마에 속합니다.
+* 재사용할 조각이 게시되면
+* 조회에 사용되는 모든 데이터 세트가 조회에 대해 활성화됩니다.
+* 요청은 다른 작업이 아닌 템플릿 개인화와 관련이 있습니다.
+
+설정이 올바르면 데이터 소스, 조건, 출력 및 폴백을 명확히 하여 프롬프트를 세분화한 다음 다시 생성합니다.
