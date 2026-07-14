@@ -8,14 +8,12 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: AEM, 콘텐츠 조각, 관리, 저장소, 인증, 작성자, 게시
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
 source-git-commit: df67813c8055cde92be0e3c10f56a5c5f5783c1e
 workflow-type: tm+mt
 source-wordcount: 709
-ht-degree: 10%
+ht-degree: 22%
 
 ---
 
@@ -31,8 +29,8 @@ ht-degree: 10%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_content_fragment_configuration"
->title="&quot;Adobe Experience Manager 구성"
->abstract="마케터가 여정 및 캠페인에서 Adobe Experience Manager 콘텐츠 조각을 사용할 수 있도록 작성자 전용 또는 게시 액세스, 사용자 정의 도메인 및 인증을 설정하여 샌드박스를 Adobe Experience Manager 저장소에 연결합니다."
+>title="&#39;Adobe Experience Manager 구성"
+>abstract="마케터가 여정 및 캠페인에서 Adobe Experience Manager 콘텐츠 조각을 사용할 수 있도록, 작성자 전용 또는 게시 액세스 권한, 사용자 정의 도메인 및 인증을 설정하여 샌드박스를 Adobe Experience Manager 저장소에 연결합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_configure_instance"
@@ -42,7 +40,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_send_token"
 >title="게시 인스턴스로 토큰 보내기"
->abstract="활성화되면 게시 인스턴스에 대한 요청을 인증하기 위해 서비스 자격 증명이 전송됩니다. 아래에 올바른 서비스 자격 증명 JSON을 입력하십시오."
+>abstract="활성화되면 게시 인스턴스에 대한 요청을 인증하기 위해 서비스 자격 증명이 전송됩니다. 아래에 유효한 서비스 자격 증명 JSON을 입력합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_service_credential"
@@ -53,7 +51,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_custom_domain"
 >title="사용자 정의 도메인"
->abstract="선택 사항입니다. &quot;your-publish-instance.adobeaemcloud.com&quot;이 조직에 대한 콘텐츠를 가져오지 못하게 차단되는 경우 사용자 지정 도메인을 제공합니다."
+>abstract="선택 사항입니다. &#39;your-publish-instance.adobeaemcloud.com&#39;이 조직에서 콘텐츠를 가져오지 못하도록 차단되어 있는 경우 사용자 정의 도메인을 입력합니다."
 
 Adobe Journey Optimizer은 **[!DNL Adobe Experience Manager as a Cloud Service]** 및 **[!DNL Adobe Experience Manager Managed Service]**&#x200B;과(와) 통합되므로 여정 및 캠페인에서 **콘텐츠 조각**&#x200B;을(를) 사용할 수 있습니다. **콘텐츠 조각**&#x200B;은(는) 기본적으로 Adobe Experience Manager 게시 리포지토리에서 읽혀집니다. 관리자는 **[!UICONTROL AEM 통합]** 메뉴에서 작성자 전용으로 전환하거나 게시 액세스를 조정할 수 있습니다.
 
@@ -147,4 +145,4 @@ Journey Optimizer은 조직, 샌드박스 및 Adobe Experience Manager 저장소
 
 마케터가 여정 및 캠페인에서 컨텐츠 조각을 사용할 수 있도록 관리자가 Journey Optimizer에서 Adobe Experience Manager Managed Services 저장소 설정을 구성하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3492534?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3492529?quality=12)
