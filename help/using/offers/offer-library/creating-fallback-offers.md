@@ -23,7 +23,7 @@ level_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: a75b1b46facd53f42fdfd812cc719d26909d9d5e
 workflow-type: tm+mt
 source-wordcount: 411
 ht-degree: 22%
@@ -42,7 +42,7 @@ ht-degree: 22%
 >abstract="대체 오퍼는 최종 사용자가 맞춤형 오퍼를 받을 자격이 없는 경우 표시되는 기본 오퍼입니다."
 
 >[!CONTEXTUALHELP]
->id="ajo_decisioning_fallback_offer_details "
+>id="ajo_decisioning_fallback_offer_details"
 >title="대체 오퍼 세부 정보"
 >abstract="대체 오퍼의 이름을 지정합니다. 또한 하나 또는 여러 개의 기존 컬렉션 한정자를 연결하여 오퍼 라이브러리를 더 쉽게 검색하고 구성할 수 있습니다."
 
