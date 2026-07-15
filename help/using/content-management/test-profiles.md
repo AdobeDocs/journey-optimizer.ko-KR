@@ -6,12 +6,11 @@ role: User
 level: Beginner
 exl-id: c51e4089-7f51-437d-a5ed-de10bab46cf8
 feature_v2: []
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+source-git-commit: 8d9c09a7be3757624c72a0a9d2739d0dbb48adeb
 workflow-type: tm+mt
-source-wordcount: 308
-ht-degree: 16%
+source-wordcount: 352
+ht-degree: 14%
 
 ---
 
@@ -29,6 +28,8 @@ ht-degree: 16%
 >abstract="테스트 프로필을 사용하여 콘텐츠를 미리 보고 테스트합니다. 개인화된 필드를 추가한 경우, 테스트 프로필 데이터를 사용하여 해당 필드가 표시되는 방식을 확인할 수 있습니다."
 
 테스트 프로필은 정의된 타겟팅 기준과 일치하지 않는 추가 수신자입니다. [테스트 프로필을 만드는 방법 알아보기](../audience/creating-test-profiles.md)
+
+테스트 프로필을 선택하기 전에 사용할 ID 네임스페이스가 테스트 프로필이 Adobe Experience Platform에 저장된 네임스페이스와 일치하는지 확인하십시오(예: **이메일** 또는 **전화**). 불일치로 인해 테스트 프로필이 검색 필드에서 올바르게 확인되지 않습니다.
 
 테스트 프로필을 사용하여 콘텐츠를 테스트하기 전에 먼저 해당 프로필을 선택해야 합니다. 이렇게 하려면 다음 단계를 수행합니다.
 
