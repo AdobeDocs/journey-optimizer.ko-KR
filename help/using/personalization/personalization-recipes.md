@@ -5,8 +5,11 @@ feature: Personalization
 topic: Personalization
 role: Developer
 level: Experienced
-feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2: id: cb09dcb7-3367-4b63-b02c-8a1356eb876eid: ac5d9310-7772-40fb-9d78-864562e1bfd6
+feature_v2:
+  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2:
+  - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
+  - id: ac5d9310-7772-40fb-9d78-864562e1bfd6
 source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
 source-wordcount: 1524
@@ -360,7 +363,7 @@ PQL은 강력한 형식입니다. 프로필 필드가 문자열로 저장되었�
 
 **Q: 이름에 하이픈이 포함된 필드를 어떻게 참조합니까?**
 
-필요한 경우 중간 단계로 PQL 표현식 `{%= profile.events.\`order-total\` > 100 %}`. Backticks are not supported in plain Handlebars interpolation — use a `{% let %}` 변수의 백틱에서 하이픈이 연결된 키를 줄바꿈합니다.
+필요한 경우 중간 단계로 PQL 표현식 `{%= profile.events.\`order-total\` > 100 %&rbrace;`. Backticks are not supported in plain Handlebars interpolation — use a `{% let %}&grave; 변수의 백틱에서 하이픈이 연결된 키를 줄바꿈합니다.
 
 **Q: `{{#each}}` 루프 전에 `topN`에 `{% let %}`이(가) 필요한 이유는 무엇입니까?**
 

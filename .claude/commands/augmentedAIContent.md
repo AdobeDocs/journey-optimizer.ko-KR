@@ -44,7 +44,7 @@ Content here.
 - 탭 이름은 대소문자를 구분하고 짧습니다(1~3단어).
 - `>[!BEGINTABS]` 앞과 `>[!ENDTABS]` 뒤에 빈 줄
 
----
+&#x200B;---
 
 ## 워크플로
 
@@ -96,7 +96,7 @@ Content here.
 
 **수정 규칙:** 검사가 실패하면 **이전** 추가 콘텐츠를 수정하십시오. 5단계 보고서에 모든 수정 사항을 기록합니다.
 
----
+&#x200B;---
 
 ### 4단계 — 섹션 추가
 
@@ -114,7 +114,7 @@ Content here.
 - 건너뛴 파일 + 이유(이미 섹션 / 빈 / 인덱스 페이지가 있음)
 - 2단계 동안 발생한 모든 유효성 검사 경고
 
----
+&#x200B;---
 
 ## 컨텐츠 생성 규칙
 
@@ -229,7 +229,7 @@ For complete understanding, this information should be combined with the documen
 - 페이지에서 지원하지 않는 콘텐츠를 **만들 수 없음**
 - 페이지 본문에 &quot;합성&quot;, &quot;가짜 데이터&quot;, &quot;실제 데이터 없음&quot;, &quot;되돌리기&quot;, &quot;롤백&quot;(제품 상태 전환을 설명할 때)과 같은 잘못된 용어가 버바텀 방식으로 표시되지 않는 한 **not**&#x200B;에서 사용하지 마십시오.
 
----
+&#x200B;---
 
 ## 생성 후 유효성 검사 목록
 
@@ -252,7 +252,7 @@ For complete understanding, this information should be combined with the documen
 
 검사에 실패한 경우 추가하기 전에 섹션을 수정하십시오. 4단계 보고서에 수정 사항을 기록합니다.
 
----
+&#x200B;---
 
 ## 동기화 권한
 
@@ -265,7 +265,7 @@ For complete understanding, this information should be combined with the documen
 
 섹션(`<!-- ai-section-version -->`) 뒤에 추가된 동기화 댓글은 신호입니다. 해당 해시가 작성된 이후 섹션 앞의 파일 콘텐츠가 변경된 경우 섹션이 검토 대상입니다.
 
----
+&#x200B;---
 
 ## 전체 템플릿
 
