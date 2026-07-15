@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: f6b0ff4c4d46f3ac9f80d6fcf00191b7489d2eae
 workflow-type: tm+mt
 source-wordcount: 1515
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -389,5 +389,5 @@ AI 어시스턴트는 즉각적인 도움과 운영 인사이트를 제공합니
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_line"
->title="라인 활동"
->abstract="**Line** 활동을 통해 오케스트레이션된 캠페인에 LINE 작업을 추가할 수 있습니다. 텍스트 및 스티커에서 이미지, 비디오, 위치 및 Flex 메시지에 이르기까지 개인화된 콘텐츠를 제작하여 LINE에서 고객들의 참여를 유도합니다."
+>title="Line 활동"
+>abstract="**Line** 활동을 통해 오케스트레이션된 캠페인에 LINE 액션을 추가할 수 있습니다. 텍스트 및 스티커에서 이미지, 비디오, 위치 및 Flex Message에 이르는 다양하고 개인화된 콘텐츠를 제작하여 LINE에서 고객 참여를 유도합니다."
