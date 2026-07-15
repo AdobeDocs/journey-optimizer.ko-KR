@@ -10,23 +10,16 @@ level: Intermediate
 keywords: 표현식, 편집기, 도우미, 사용 사례, 개인화
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
 TQID: https://experienceleague.adobe.com/93bIkfyck5u-tQNGr7jGRORQiTa3gaMHn4H5RP-dpYo
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
+source-git-commit: 2016539d8a34850e2730dbb2e1499739a04d88c0
 workflow-type: tm+mt
-source-wordcount: 1289
-ht-degree: 2%
+source-wordcount: 1712
+ht-degree: 1%
 
 ---
 
@@ -72,7 +65,7 @@ ht-degree: 2%
 1. 스키마에 `productListItems` 배열이 포함된 이벤트를 만듭니다.
 1. 이 배열의 모든 필드를 이 이벤트의 페이로드 필드로 정의합니다.
 
-   [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=ko){target="_blank"}에서 제품 목록 항목 데이터 형식에 대해 자세히 알아보세요.
+   [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}에서 제품 목록 항목 데이터 형식에 대해 자세히 알아보세요.
 
 1. 이 이벤트로 시작하는 여정을 만듭니다.
 1. **전자 메일** 활동을 여정에 추가합니다.
@@ -125,7 +118,7 @@ ht-degree: 2%
 
       ![프로필 이름 토큰이 있는 upperCase를 표시하는 식 편집기](assets/personalization-uc-helpers-5.png)
 
-      [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=ko){target="_blank"}에서 사용자 이름 데이터 유형에 대해 자세히 알아보세요.
+      [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target="_blank"}에서 사용자 이름 데이터 유형에 대해 자세히 알아보세요.
 
 1. **[!UICONTROL 유효성 검사]**&#x200B;를 클릭한 다음 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
@@ -164,7 +157,7 @@ ht-degree: 2%
 
       **[!UICONTROL 컨텍스트 특성]**&#x200B;은(는) 여정 컨텍스트가 메시지에 전달된 후에만 사용할 수 있습니다.
 
-   1. **[!UICONTROL Journey Optimizer]** > **[!UICONTROL 이벤트]** > ***[!UICONTROL event_name]***&#x200B;을 선택한 다음 **[!UICONTROL productListItems]** 노드를 확장합니다.
+   1. **[!UICONTROL Journey Optimizer]** > **[!UICONTROL 이벤트]** > ***[!UICONTROL event_name]***을 선택한 다음 **[!UICONTROL productListItems]** 노드를 확장합니다.
 
       이 예제에서 *event_name*&#x200B;은 이벤트의 이름을 나타냅니다.
 
@@ -274,7 +267,7 @@ ht-degree: 2%
 1. 조건에 제품 이름 토큰을 추가합니다.
    1. 표현식에서 &quot;condition1&quot; 자리 표시자를 제거합니다.
    1. 왼쪽 메뉴에서 **[!UICONTROL 컨텍스트 특성]**&#x200B;을 선택합니다.
-   1. **[!UICONTROL Journey Orchestration]** > **[!UICONTROL 이벤트]** > ***[!UICONTROL event_name]***&#x200B;을 선택한 다음 **[!UICONTROL productListItems]** 노드를 확장합니다.
+   1. **[!UICONTROL Journey Orchestration]** > **[!UICONTROL 이벤트]** > ***[!UICONTROL event_name]***을 선택한 다음 **[!UICONTROL productListItems]** 노드를 확장합니다.
 
       이 예제에서 *event_name*&#x200B;은 이벤트의 이름을 나타냅니다.
 
@@ -366,4 +359,66 @@ ht-degree: 2%
 
 도우미 함수를 사용하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416646?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
+
+## 빠른 참조 {#quick-reference}
+
+이 단원에는 이 주제와 관련된 해석, 검색 및 질문 답변을 지원하기 위한 구조화된 지식이 포함되어 있습니다.
+
+이해를 돕기 위해 이 정보를 이 페이지의 설명서와 통합해야 합니다. 두 소스 모두 독립적으로 사용하기 위한 것은 아닙니다. 이 페이지에서는 기능에 대해 설명하지만, 용어, 의도, 적용 가능성 및 제약 조건을 명확히 하는 데 도움이 되는 추가 컨텍스트를 제공합니다.
+
+>[!BEGINTABS]
+
+>[!TAB 개요]
+
+**TL;DR**
+
+이 페이지에서는 세 개의 도우미 함수(`upperCase`, `each` 및 `if`)를 사용하여 고객의 이름을 대문자로 표시하고 장바구니 항목을 나열하며 조건부로 제품별 배송 메모를 삽입할 수 있는 장바구니 포기 이메일 사용 사례를 안내합니다.
+
+**의도**
+
+* 스키마에 `productListItems` 배열이 포함된 여정 이벤트 만들기
+* `{%= upperCase(profile.person.name.firstName) %}`을(를) 사용하여 고객의 이름을 대문자로 삽입
+* `{{#each}}`을(를) 사용하여 `context.journey.events.event_ID.productListItems`을(를) 반복하여 장바구니 항목 나열
+* `{%#if context.journey.events.\`event_ID\`.productListItems.name = &quot;product_name&quot; %}`을(를) 사용하여 조건부로 제품별 메모 표시
+* 여정 페이로드가 있는 테스트 프로필을 사용하여 테스트 모드에서 이벤트를 테스트한 다음 게시합니다
+
+>[!TAB 용어집]
+
+* **`upperCase`**: 문자열을 대문자로 변환하는 PQL 문자열 함수입니다. `{%= upperCase(string) %}`(으)로 호출됩니다. *(제품별)*
+* **`each`helper**: `productListItems`과(와) 같은 배열을 반복하는 Handlebars 블록 도우미(`{{#each array as |alias|}} ... {{/each}}`)입니다. *(제품별)*
+* **`if`도우미**: 지정된 조건이 true일 때만 콘텐츠를 렌더링하는 조건부 차단 도우미(`{%#if condition%} ... {%else%} ... {%/if%}`)입니다.
+* **`productListItems`**: `name`, `quantity` 및 `priceTotal`을(를) 포함하는 필드가 있는 장바구니 콘텐츠를 나타내는 표준 XDM 배열입니다. *(제품별)*
+* **테스트 모드**: 게시하기 전에 여정 및 메시지 동작을 확인하기 위해 테스트 메시지를 테스트 프로필 주소에 보내 사용할 수 있는 여정 기능입니다. *(제품별)*
+
+>[!TAB 용어]
+
+* **정식 이름:** 장바구니 포기 전자 메일 — 변형: 장바구니 포기 사용 사례
+* **혼동하지 마십시오.** `context.journey.events.event_ID.productListItems`(이벤트 소스 배열, 컨텍스트 특성을 통해 액세스) ≠ `profile.*` 특성(프로필 소스, 항상 사용 가능)
+
+>[!TAB 보호 기능 및 제한 사항]
+
+* 컨텍스트 속성(여정 이벤트 데이터 포함)은 관련 이벤트가 포함된 여정 내에 메시지가 배치된 후에만 개인화 편집기에서 사용할 수 있습니다.
+* 테스트 모드는 테스트 프로필에서만 작동합니다.
+
+>[!TAB FAQ]
+
+**Q: 이 사용 사례에는 어떤 도우미 함수가 사용됩니까?**
+
+`upperCase`(대문자로 이름 렌더링), `each`(장바구니 항목 배열로 반복), `if`(제품별 배송 메모를 조건부로 표시)이 있습니다.
+
+**Q: 장바구니 항목 데이터는 개인화 식에서 어디에서 가져옵니까?**
+
+`context.journey.events.event_ID.productListItems`의 컨텍스트 특성을 통해 액세스되는 여정 이벤트의 `productListItems` 배열에서.
+
+**Q: 여정 내에 메시지를 배치하기 전에 컨텍스트 특성을 사용할 수 있습니까?**
+
+아니요. 컨텍스트 속성은 관련 이벤트가 포함된 여정 내에 메시지를 배치한 후에만 개인화 편집기에서 사용할 수 있습니다.
+
+**Q: 장바구니 데이터를 사용하여 전자 메일을 테스트하려면 어떻게 합니까?**
+
+여정에서 **테스트** 토글을 켜고 **이벤트 트리거**&#x200B;를 클릭하고 이벤트 구성 창에 입력 값을 입력한 다음 **보내기**&#x200B;를 클릭합니다. 테스트 프로필의 주소로 이메일이 전송됩니다.
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: 801d75d6 -->
