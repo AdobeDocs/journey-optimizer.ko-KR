@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 958f85bb600cc3534070c77ef3ad1c76d4ce4d2d
+source-git-commit: c40641c63a5ec361d80475c0ffdf282db5a16424
 workflow-type: tm+mt
-source-wordcount: '3421'
-ht-degree: 97%
+source-wordcount: '3467'
+ht-degree: 96%
 
 ---
 
@@ -449,6 +449,18 @@ ht-degree: 97%
       + 라이브 활동 채널 구성 {#configure}
          + [Journey Optimizer에서 라이브 활동 구성](using/mobile-live/mobile-live-configuration.md)
          + [라이브 활동 SDK 통합 구성](using/mobile-live/mobile-live-configuration-sdk.md)
+   + 사용자 지정 채널 {#custom-channel}
+      + {hide-from-toc}[사용자 지정 채널 시작](using/custom-channel/get-started-custom-channel.md)
+      + 사용자 지정 채널 구성 {#configure-custom-channel}
+         + {hide-from-toc}[사용자 지정 채널 설정](using/custom-channel/configure-custom-channel.md)
+         + {hide-from-toc}[사용자 지정 채널 만들기](using/custom-channel/create-custom-channel.md)
+         + {hide-from-toc}[API 자격 증명 관리](using/custom-channel/custom-channel-api-credentials.md)
+         + {hide-from-toc}[하위 도메인 위임](using/custom-channel/custom-channel-subdomains.md)
+         + {hide-from-toc}[채널 구성 만들기](using/custom-channel/custom-channel-configuration.md)
+      + 사용자 지정 채널 경험 만들기 {#create-custom-channel-experiences}
+         + {hide-from-toc}[사용자 지정 채널 경험 만들기](using/custom-channel/create-custom-experience.md)
+         + {hide-from-toc}[사용자 지정 채널 경험 테스트](using/custom-channel/test-custom-channel.md)
+      + {hide-from-toc}[사용자 지정 채널 모니터링](using/custom-channel/monitor-custom-channel.md)
 + 콘텐츠 관리 {#content-management}
    + [콘텐츠 관리](/help/rp_landing_pages/content-management-landing-page.md)
    + 개인화 {#personalization}
