@@ -11,9 +11,9 @@ keywords: 테스트, 여정, 확인, 오류, 문제 해결
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 1d7a11990a82622e219a9cfef4ddd89d439477da
+source-git-commit: 191cb8542e0cfb24c3afef6ea173f952591b1b75
 workflow-type: tm+mt
-source-wordcount: 2904
+source-wordcount: 2909
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >미리 채워진 실행 이메일 및 전화 필드는 Adobe IMS 사용자 프로필의 이메일 주소와 전화번호에서 가져옵니다.
+   >미리 채워진 실행 이메일 및 전화 필드는 이전에 여정 시뮬레이션에 사용되고 브라우저에 캐시된 값에서 가져옵니다.
 
    ![빠른 시뮬레이션 업데이트 값 단계(대기 시간 재정의 및 증명 이메일 및 전화 필드 포함)](assets/quick-simulation-3.png)
 
@@ -99,7 +99,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >이메일 및 전화 필드는 Adobe IMS 사용자 프로필에서 미리 채워집니다.
+   >이메일 및 전화 필드는 여정 시뮬레이션에 이전에 사용된 값으로 미리 채워지고 브라우저에 캐시됩니다.
 
    ![실행 전자 메일 및 전화 필드가 있는 시뮬레이션된 사용자 대화 상자 및 생성 단추](assets/simulate-generate.png)
 
