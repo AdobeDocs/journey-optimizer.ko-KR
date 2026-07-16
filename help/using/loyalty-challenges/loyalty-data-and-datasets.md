@@ -13,10 +13,10 @@ mini-toc-levels: 1
 exl-id: a7c4e1b2-8f3d-4a6c-9e0b-1d2e3f4a5b6c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
+source-git-commit: 56b57f083d747726847c0a3e658cd4ff4921fc81
 workflow-type: tm+mt
-source-wordcount: 538
-ht-degree: 5%
+source-wordcount: 613
+ht-degree: 8%
 
 ---
 
@@ -64,15 +64,27 @@ ht-degree: 5%
 
 Journey Optimizer 프로그램 설정의 Adobe 관리자에게 문의하거나 **[!UICONTROL 충성도 관리자]** 메뉴에서 보상 이행 및 이벤트 매핑을 구성하십시오. [충성도 문제를 구성하는 방법을 알아보세요](loyalty-admin.md). REST 끝점 및 인증의 경우 [충성도 도전 API 참조](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}를 참조하십시오.
 
+## 소스를 통한 충성도 커넥터 {#loyalty-connectors-sources}
+
+충성도 데이터가 외부 보상 플랫폼에서 관리되는 경우 **소스** 커넥터를 사용하여 해당 데이터를 Adobe Experience Platform에 수집한 다음 충성도 문제에서 사용할 수 있습니다.
+
+Journey Optimizer 설명서에 나열된 충성도 및 보상 커넥터는 다음과 같습니다.
+
+* **Talon.One**
+* **모세관**
+* **Kobie**
+
+커넥터 온보딩 및 전체 설정에 대해서는 [소스 커넥터 시작](../start/get-started-sources.md) 및 [Experience Platform 소스 카탈로그](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko#sources-catalog){target="_blank"}를 참조하십시오.
+
 ## Adobe Experience Platform 데이터 {#aep-data}
 
 ### 프로필 속성 {#profile-attributes}
 
 Challenge 대상자, 개인화 및 보고는 **[!DNL XDM Individual Profile]** 클래스의 프로필을 사용합니다. 충성도 문제에 사용하는 ID [네임스페이스](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/namespaces){target="_blank"}를 프로필 데이터에서 구성원이 식별되는 방식과 **[!UICONTROL 충성도 관리자]** 메뉴의 **[!UICONTROL 전역 설정]**&#x200B;에서 선택한 네임스페이스와 연결합니다.
 
-프로필의 표준 충성도 특성(포인트, 계층, 프로그램, 상태 및 관련 필드)에 대해서는 Experience Platform **[충성도 세부 정보](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}** 스키마 필드 그룹을 사용하십시오. 해당 필드 그룹은 `loyalty` 개체와 해당 속성을 정의합니다(예: `points`, `tier`, `program` 및 `status`).
+프로필의 표준 충성도 특성(포인트, 계층, 프로그램, 상태 및 관련 필드)에 대해서는 Experience Platform **[충성도 세부 정보](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}** 스키마 필드 그룹을 사용하십시오. 해당 필드 그룹은 `loyalty` 개체와 해당 속성을 정의합니다(예: `points`, `tier`, `program` 및 `status`).
 
-➡️ [충성도 세부 정보 스키마 필드 그룹](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
+➡️ [충성도 세부 정보 스키마 필드 그룹](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
 
 ### 경험 이벤트 {#experience-events}
 
