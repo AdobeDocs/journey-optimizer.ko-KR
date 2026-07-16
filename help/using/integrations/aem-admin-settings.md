@@ -8,11 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: AEM, 콘텐츠 조각, 관리, 저장소, 인증, 작성자, 게시
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: df67813c8055cde92be0e3c10f56a5c5f5783c1e
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
+source-git-commit: 82575d60e216fde6271222fee3c5868e20e3b41d
 workflow-type: tm+mt
 source-wordcount: 709
 ht-degree: 22%
@@ -28,10 +26,9 @@ ht-degree: 22%
 
 >[!ENDSHADEBOX]
 
-
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_content_fragment_configuration"
->title="&#39;Adobe Experience Manager 구성"
+>title="Adobe Experience Manager 구성"
 >abstract="마케터가 여정 및 캠페인에서 Adobe Experience Manager 콘텐츠 조각을 사용할 수 있도록, 작성자 전용 또는 게시 액세스 권한, 사용자 정의 도메인 및 인증을 설정하여 샌드박스를 Adobe Experience Manager 저장소에 연결합니다."
 
 >[!CONTEXTUALHELP]
@@ -147,4 +144,4 @@ Journey Optimizer은 조직, 샌드박스 및 Adobe Experience Manager 저장소
 
 마케터가 여정 및 캠페인에서 컨텐츠 조각을 사용할 수 있도록 관리자가 Journey Optimizer에서 Adobe Experience Manager Managed Services 저장소 설정을 구성하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3492534?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3492529?quality=12)
