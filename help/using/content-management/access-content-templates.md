@@ -8,21 +8,14 @@ role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
 TQID: https://experienceleague.adobe.com/ForlM8q0qc7dVSLKtCdhHh7ZVEuprPYbqTLHuOUXo8I
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: d595a60b-bcf5-4a63-a189-66a0be755cc7id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 6c7377396eb135e310fc04dbc5946db467461e23
 workflow-type: tm+mt
-source-wordcount: 923
+source-wordcount: 1018
 ht-degree: 2%
 
 ---
@@ -108,13 +101,26 @@ ht-degree: 2%
 
 ## 콘텐츠 템플릿 편집 및 삭제 {#edit}
 
-* 템플릿 컨텐츠를 편집하려면 목록에서 원하는 항목을 클릭하고 원하는 대로 변경합니다. 템플릿 이름 옆에 있는 편집 버튼을 클릭하여 콘텐츠 템플릿 속성을 편집할 수도 있습니다.
+각 템플릿 옆에 있는 **[!UICONTROL 추가 작업]** 단추에서 다음 바로 가기와 작업에 액세스할 수 있습니다.
 
-  ![](assets/content-template-edit.png)
+* **[!UICONTROL 세부 정보 편집]** — 템플릿 이름, 설명 및 태그를 편집합니다.
+* **[!UICONTROL 콘텐츠 시뮬레이션]** — 템플릿 콘텐츠를 미리 보고 테스트합니다.
+* **[!UICONTROL 삭제]** — 템플릿을 삭제합니다.
 
-* 템플릿을 삭제하려면 원하는 템플릿 옆에 있는 **[!UICONTROL 추가 작업]** 버튼을 선택하고 **[!UICONTROL 삭제]**&#x200B;를 선택합니다.
+이메일 템플릿의 경우 다음과 같은 추가 단축키를 사용할 수 있습니다.
 
-  ![](assets/content-template-list-delete.png)
+* **[!UICONTROL 제목 줄 편집]** — 전자 메일 제목 줄을 빠르게 업데이트합니다.
+* **[!UICONTROL 전자 메일 본문 편집]** — 전자 메일 디자이너를 열어 템플릿 콘텐츠를 수정합니다.
+* **[!UICONTROL 증명 보기]** — 전자 메일 템플릿의 증명을 봅니다.
+* **[!UICONTROL 증명 보내기]** — 지정된 수신자에게 템플릿의 증명을 보냅니다.
+* **[!UICONTROL 스팸 보고서]** — 스팸 필터에 대해 템플릿을 분석합니다.
+* **[!UICONTROL 전자 메일 렌더링]** — 전자 메일이 다양한 전자 메일 클라이언트에서 어떻게 렌더링되는지 미리 봅니다.
+
+![](assets/content-template-quick-launch.png)
+
+템플릿의 전체 콘텐츠를 편집하려면 목록에서 원하는 항목을 클릭하고 원하는 대로 변경합니다. 템플릿 이름 옆에 있는 편집 버튼을 클릭하여 콘텐츠 템플릿 속성을 편집할 수도 있습니다.
+
+    ![](assets/content-template-edit.png)
 
 >[!NOTE]
 >
