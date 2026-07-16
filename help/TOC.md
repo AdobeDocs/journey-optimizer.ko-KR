@@ -5,7 +5,8 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c40641c63a5ec361d80475c0ffdf282db5a16424
+nudge: true
+source-git-commit: 'null'
 workflow-type: tm+mt
 source-wordcount: '3467'
 ht-degree: 96%
@@ -60,7 +61,7 @@ ht-degree: 96%
 + 여정 {#orchestrate-journeys}
    + [여정 시작](using/building-journeys/journey.md)
    + {hide-from-toc}[여정 시작 안내서](using/building-journeys/journey-get-started.md)
-   + {hide-from-toc}[여정 형식: 올바른 one-2 선택](using/building-journeys/journey-types-selection-v2.md)
+   + {hide-from-toc}[여정 형식: 올바른 one-2](using/building-journeys/journey-types-selection-v2.md) 선택
    + [Journey Orchestration FAQ](using/building-journeys/journey-faq.md)
    + 여정 만들기 {#create-journey}
       + [여정 만들기](/help/rp_landing_pages/create-journey-landing-page.md)
@@ -370,7 +371,7 @@ ht-degree: 96%
          + [Infobip 제공자 구성](using/mobile/mobile-configuration-infobip.md)
          + [Twilio 제공자 구성](using/mobile/mobile-configuration-twilio.md)
          + [사용자 정의 제공자 구성](using/mobile/mobile-configuration-custom.md)
-         + [웹후크 만들기](using/mobile/mobile-webhook.md)
+         + [Webhook 만들기](using/mobile/mobile-webhook.md)
          + [모바일 구성 만들기](using/mobile/mobile-configuration-surface.md)
          + [인바운드 키워드에 대한 사용자 정의 데이터 세트 사용](using/mobile/custom-dataset-inbound-keywords.md)
    + 다이렉트 메일 {#direct-mail}
