@@ -11,31 +11,16 @@ keywords: 활동, 여정, 대상 읽기, 대상, 세그먼트, 일괄 처리, �
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/XqBTB8kE-KCmI49eHBp63dX09vu5Zh1Dl2BDwH0BkU4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: e57d1da4-32c2-4cc6-945c-9feb219156ff
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 22d6cddf35fa26a5fd3f0eddc74ed15faf9d6503
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d2e8a157-b3b0-4143-9ff3-809bf400be56id: e57d1da4-32c2-4cc6-945c-9feb219156ffid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: ae3057d928fa84e9ee3dbf4a3109aed30f64b8a8
 workflow-type: tm+mt
-source-wordcount: 4794
-ht-degree: 10%
+source-wordcount: 5162
+ht-degree: 9%
 
 ---
 
@@ -118,7 +103,7 @@ ht-degree: 10%
    >[!NOTE]
    >
    >또한 [대상자 구성](../audience/get-started-audience-orchestration.md)을 사용하여 만든 [!DNL Adobe Experience Platform]대상자를 타깃팅할 수 있습니다.
-   >[CSV 파일에서 업로드한 대상](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko#import-audience){target="_blank"}을 타깃팅할 수도 있습니다.
+   >[CSV 파일에서 업로드한 대상](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}을 타깃팅할 수도 있습니다.
    >[Journey Optimizer에서 대상자를 생성하고 타깃팅하는 방법에 대해 자세히 알아보세요](../audience/about-audiences.md).
 
    목록에 표시되는 열을 사용자 정의하고 정렬할 수 있습니다.
@@ -133,7 +118,7 @@ ht-degree: 10%
 
    >[!NOTE]
    >
-   >대상자 참가 상태가 **실현됨**&#x200B;인 개인만 여정에 들어갑니다. 대상자를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ko#interpret-segment-results){target="_blank"}를 참조하세요.
+   >대상자 참가 상태가 **실현됨**&#x200B;인 개인만 여정에 들어갑니다. 대상자를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}를 참조하세요.
 
 1. **[!UICONTROL 네임스페이스]** 필드에서 개인을 식별하기 위해 사용할 네임스페이스를 선택합니다. 기본적으로 필드는 마지막으로 사용된 네임스페이스로 미리 채워집니다. [네임스페이스에 대해 자세히 알아보기](../event/about-creating.md#select-the-namespace).
 
@@ -145,7 +130,7 @@ ht-degree: 10%
 
 필요에 따라 **보조 식별자를 사용**&#x200B;하여 여정 ID 외에 보조 식별자(예: 주문 ID 또는 예약 ID)의 컨텍스트에서 프로필을 실행할 수 있습니다. 보조 식별자가 다른 경우 동일한 프로필에 여러 번 들어갈 수 있습니다.
 
-[여정에서 보조 식별자를 사용하는 방법을 알아보세요](supplemental-identifier.md). 대상자 읽기 여정의 경우, 보조 식별자는 **통합 프로필 서비스** 대상자에 대한 **유니온/프로필 스키마**&#x200B;에서 준비되거나 **외부 대상자**&#x200B;의 적격 특성에서 선택됩니다(예: [CSV 파일에서 가져온 대상자](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko#import-audience){target="_blank"} 또는 [작성 워크플로](../audience/get-started-audience-orchestration.md)의 결과). 보조 ID를 사용하는 경우 읽기 속도는 여정 인스턴스당 초당 500개의 프로필로 제한됩니다.
+[여정에서 보조 식별자를 사용하는 방법을 알아보세요](supplemental-identifier.md). 대상자 읽기 여정의 경우, 보조 식별자는 **통합 프로필 서비스** 대상자에 대한 **유니온/프로필 스키마**&#x200B;에서 준비되거나 **외부 대상자**&#x200B;의 적격 특성에서 선택됩니다(예: [CSV 파일에서 가져온 대상자](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"} 또는 [작성 워크플로](../audience/get-started-audience-orchestration.md)의 결과). 보조 ID를 사용하는 경우 읽기 속도는 여정 인스턴스당 초당 500개의 프로필로 제한됩니다.
 
 ### 가드레일 및 추천 사항 {#must-read}
 
@@ -154,7 +139,7 @@ ht-degree: 10%
 **Recommendations**
 
 * 신뢰할 수 있고 일관된 카운트를 위해서는 **대상자 읽기** 활동에서 일괄 대상자를 사용하는 것이 좋습니다. 대상자 읽기는 일괄 사용 사례용으로 설계되었습니다. 사용 사례에 실시간 데이터가 필요한 경우 대신 [대상 자격](audience-qualification-events.md) 활동을 사용하십시오.
-* CSV 파일에서 가져온 대상 [개](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko#import-audience) 또는 [컴포지션 워크플로](../audience/get-started-audience-orchestration.md)의 결과로 가져온 대상은 **대상 읽기** 활동에서 선택할 수 있습니다. 이러한 대상은 **대상 자격** 활동에서 사용할 수 없습니다.
+* CSV 파일에서 가져온 대상 [개](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) 또는 [컴포지션 워크플로](../audience/get-started-audience-orchestration.md)의 결과로 가져온 대상은 **대상 읽기** 활동에서 선택할 수 있습니다. 이러한 대상은 **대상 자격** 활동에서 사용할 수 없습니다.
 * 대상 스냅숏 시간, 일괄 처리 세분화 완료 기간 및 여정이 항상 최신 데이터에서 실행되도록 하는 방법에 대한 자세한 내용은 [시간 및 데이터 전파](#timing-and-data-propagation)를 참조하십시오. 반복 여정의 경우 **[!UICONTROL 일괄 대상 평가 후 트리거]** 옵션을 활성화하여 최신 대상 스냅숏이 준비될 때까지 실행을 자동으로 지연시키는 것이 좋습니다. [자세히 알아보기](#schedule)
 
 >[!CAUTION]
@@ -236,6 +221,14 @@ ht-degree: 10%
 
 반복 여정의 경우 여정에 대한 프로필 입력을 관리하는 데 도움이 되는 특정 옵션을 사용할 수 있습니다. 각 옵션에 대한 자세한 내용을 보려면 아래 섹션을 확장하십시오.
 
+>[!NOTE]
+>
+>**대상 스냅숏을 사용하는 방법**
+>
+>각 대상자 읽기 실행에서는 실행이 실행되는 시점에 사용할 수 있는 대상자 멤버십을 사용합니다. 일괄 처리 대상의 경우 [!DNL Journey Optimizer]이(가) 사용 가능한 최신 일괄 처리 대상 스냅숏에서 읽습니다. 여정이 시작될 때 대상자를 실시간으로 다시 계산하지 않습니다.
+>
+>반복 여정의 경우 각 발생 항목에서는 해당 발생 항목에 사용할 수 있는 스냅샷을 사용합니다. 여정이 실행되기 전에 최신 일괄 처리 대상 평가를 기다리도록 하려면 **[!UICONTROL 일괄 처리 대상 평가 후 트리거]**&#x200B;를 사용하도록 설정하십시오.
+
 ![대상 반복 옵션 읽기: 증분 읽기, 강제 재입력, 일괄 처리 후 트리거](assets/read-audience-options.png)
 
 +++**[!UICONTROL 증분 읽기]**
@@ -266,6 +259,30 @@ ht-degree: 10%
 예를 들어 매일 반복되는 여정에서 2일 동안 대기하는 경우 이 옵션을 활성화하면 프로필이 다음 여정 실행으로 이동합니다. 다음 실행 대상에 있든 없든 다음 날 이런 일이 발생합니다.
 
 이 여정에서 프로필의 수명이 반복 빈도보다 길 수 있는 경우 프로필이 여정을 완료할 수 있도록 이 옵션을 활성화하지 마십시오.
+
++++
+
++++**[!UICONTROL 증분 읽기]와 [!UICONTROL 반복 재입력 강제]가 함께 작동하는 방법**
+
+다음 두 옵션은 여정 실행의 다른 부분을 제어합니다.
+
+* **[!UICONTROL 증분 읽기]**&#x200B;는 **다음 반복 실행을 위해 대상에서 선택한 프로필**&#x200B;을 제어합니다.
+* **[!UICONTROL 반복 시 강제 재입력]**&#x200B;은(는) 다음 반복 실행이 시작될 때 **여정에서 아직 활성 상태인 프로필에 나타나는 결과**&#x200B;을 제어합니다.
+
+다음 실행 시 결합된 동작을 이해하려면 아래 표를 사용하십시오.
+
+| [!UICONTROL 증분 읽기] | [!UICONTROL 반복 시 강제 재입력] | 다음 실행 시 동작 |
+| ------------------------------ | ------------------------------------------- | ------------------------ |
+| 끔 | 끔 | [!DNL Journey Optimizer]이(가) 해당 실행에 대한 전체 대상을 읽습니다. 여정에서 여전히 활성 상태인 프로필은 자동으로 재설정되지 않습니다. |
+| 기간 | 끔 | [!DNL Journey Optimizer]은(는) 마지막 실행 이후 대상자에 추가된 프로필만 읽습니다. 여정에서 여전히 활성 상태인 프로필은 자동으로 재설정되지 않습니다. |
+| 끔 | 기간 | [!DNL Journey Optimizer]은(는) 다음 실행을 시작하기 전에 현재 여정 실행에서 활성 참가자를 제거한 다음 전체 대상을 다시 읽습니다. 이렇게 하면 프로필이 새로운 발생 시 새로 시작할 수 있습니다. |
+| 기간 | 기간 | [!DNL Journey Optimizer]은(는) 다음 실행을 시작하기 전에 현재 여정 실행에서 활성 참가자를 제거한 다음 마지막 실행 이후 대상에 추가된 프로필만 읽습니다. 강제 재입력은 활성 여정 기여도를 재설정하지만 증분 읽기는 여전히 선택을 새로 추가된 대상 구성원으로 제한합니다. |
+
+즉, **[!UICONTROL 반복 시 강제 재입력]은(는) [!UICONTROL 증분 읽기]**&#x200B;를 사용하지 않도록 설정하지 않습니다. 두 옵션을 모두 활성화하면 다음 항목이 시작되기 전에 활성 여정 인스턴스에서 프로필이 제거되지만, 마지막 실행 이후 새로 간주되는 대상 멤버만 다음 항목이 선택됩니다.
+
+>[!IMPORTANT]
+>
+>**[!UICONTROL 반복 시 강제 재입력]**&#x200B;에 의해 제거된 프로필은 **[!UICONTROL 증분 읽기]**&#x200B;에 대한 새 대상 구성원으로 자동으로 처리되지 않습니다. 대상자 선택은 여전히 마지막 실행 이후 프로필이 대상자에 새로 추가되었는지 여부에 따라 달라집니다.
 
 +++
 
@@ -383,9 +400,9 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 ### 타이밍 및 데이터 전파 {#timing-and-data-propagation}
 
-* **일괄 처리 세분화 작업 완료**: 일괄 처리 대상의 경우 여정 실행 전에 일일 일괄 처리 세분화 작업이 완료되었고 스냅숏이 업데이트되었는지 확인하십시오. 일괄 처리 대상자는 세분화 작업 완료 후 약 **2시간**&#x200B;에 사용할 준비가 됩니다. [대상 평가 방법](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ko#evaluate-segments){target="_blank"}에 대해 자세히 알아보세요.
+* **일괄 처리 세분화 작업 완료**: 일괄 처리 대상의 경우 여정 실행 전에 일일 일괄 처리 세분화 작업이 완료되었고 스냅숏이 업데이트되었는지 확인하십시오. 일괄 처리 대상자는 세분화 작업 완료 후 약 **2시간**&#x200B;에 사용할 준비가 됩니다. [대상 평가 방법](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#evaluate-segments){target="_blank"}에 대해 자세히 알아보세요.
 
-* **데이터 수집 타이밍**: 여정 실행 전에 프로필 데이터 수집이 완전히 완료되었는지 확인하십시오. 프로필이 여정 시작 직전에 수집된 경우 아직 대상자에 반영되지 않을 수 있습니다.  [!DNL Adobe Experience Platform][&#128279;](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ko){target="_blank"}의 데이터 수집에 대해 자세히 알아보세요.
+* **데이터 수집 타이밍**: 여정 실행 전에 프로필 데이터 수집이 완전히 완료되었는지 확인하십시오. 프로필이 여정 시작 직전에 수집된 경우 아직 대상자에 반영되지 않을 수 있습니다.  [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ko){target="_blank"}의 [데이터 수집에 대해 자세히 알아보세요.
 
 * **일괄 처리 대상 평가 후 트리거 옵션을 사용합니다**: 일괄 처리 대상을 사용하는 매일 예약된 여정의 경우 **[!UICONTROL 일괄 처리 대상 평가 후 트리거]** 옵션을 사용하도록 설정하는 것이 좋습니다. 이렇게 하면 여정이 실행되기 전에 새 대상 데이터(최대 6시간)를 대기합니다. [예약에 대해 자세히 알아보기](#schedule)
 
@@ -395,9 +412,9 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 ### 데이터 유효성 검사 {#data-validation-and-monitoring}
 
-* **세그먼테이션 작업 상태 확인**: [!DNL Adobe Experience Platform] [모니터링 대시보드](https://experienceleague.adobe.com/docs/experience-platform/dataflows/ui/monitor-segments.html?lang=ko){target="_blank"}에서 배치 세그먼테이션 작업 완료 시간을 모니터링합니다. 대상 데이터가 준비되면 이를 사용하여 확인합니다.
+* **세그먼테이션 작업 상태 확인**: [!DNL Adobe Experience Platform] [모니터링 대시보드](https://experienceleague.adobe.com/docs/experience-platform/dataflows/ui/monitor-segments.html){target="_blank"}에서 배치 세그먼테이션 작업 완료 시간을 모니터링합니다. 대상 데이터가 준비되면 이를 사용하여 확인합니다.
 
-* **병합 정책 확인**: 대상자에 대해 구성된 병합 정책이 다른 소스의 프로필 데이터를 조합하는 데 필요한 동작과 일치하는지 확인하십시오.  [!DNL Adobe Experience Platform][&#128279;](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=ko){target="_blank"}의 병합 정책에 대해 자세히 알아보세요.
+* **병합 정책 확인**: 대상자에 대해 구성된 병합 정책이 다른 소스의 프로필 데이터를 조합하는 데 필요한 동작과 일치하는지 확인하십시오.  [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html){target="_blank"}의 [병합 정책에 대해 자세히 알아보세요.
 
 * **세그먼트 정의 검토**: 세그먼트 정의가 올바르게 구성되었는지 확인하고 모든 예상 자격 조건을 포함하십시오. [대상자 빌드](../audience/creating-a-segment-definition.md)에 대해 자세히 알아보세요. 다음 사항에 특별히 주의하십시오.
    * 이벤트 타임스탬프를 기반으로 프로필을 제외할 수 있는 시간 기반 조건
@@ -438,13 +455,13 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 * [여정 테스트](testing-the-journey.md) - 시작하기 전에 테스트 프로필을 사용하여 여정 논리의 유효성을 검사합니다.
 * [여정 게시](../building-journeys/publish-journey.md) - 여정을 활성화하고 초기 실행을 모니터링합니다.
 * [구독자에게 메시지 보내기](message-to-subscribers-uc.md) - 엔드 투 엔드 사용 사례: 설정에서 게재까지 대상 읽기 여정이 있는 구독 목록을 대상으로 합니다.
-* [대상자 읽기 여정에 대한 모범 사례](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445?profile.language=ko){target="_blank"} - 일반적인 위험, 개수 불일치 및 입증된 모범 사례를 다루는 커뮤니티 블로그.
+* [대상자 읽기 여정에 대한 모범 사례](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445){target="_blank"} - 일반적인 위험, 개수 불일치 및 입증된 모범 사례를 다루는 커뮤니티 블로그.
 
 ## 사용 방법 비디오 {#video}
 
 대상자 읽기 활동으로 트리거되는 여정에 적용할 수 있는 사용 사례를 이해합니다. 배치 기반 여정을 작성하는 방법과 적용할 모범 사례를 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430365?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)
 
 +++ AI 기술 자료 참조
 

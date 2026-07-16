@@ -10,27 +10,15 @@ keywords: 재입력, 여정, 프로필, 반복
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/li1WSyhVKq58N-FiTEL51gX-u911JVyZXcnBZtwNhDE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 2472bfde2c99dff384b11c66613370d369344f39
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 48d26b4669ef3fad87fd05d61ec187b7445d00a8
 workflow-type: tm+mt
-source-wordcount: 1875
-ht-degree: 2%
+source-wordcount: 2175
+ht-degree: 1%
 
 ---
 
@@ -115,6 +103,35 @@ When a journey ends, its status is **[!UICONTROL Closed]**. New individuals can 
 <!--
 Due to the 30-day journey timeout, when journey reentrance is not allowed, we cannot make sure the reentrance blocking will work more than 91 days. Indeed, as we remove all information about persons who entered the journey 91 days after they enter, we cannot know the person entered previously, more than 91 days ago. 
 -->
+
+### 여정 버전 간 재등록 {#reentrance-versions}
+
+프로필은 해당 여정의 활성 버전 전체를 포함하여 동일한 여정에서 동시에 두 번 이상 활성화될 수 없습니다.
+
+다시 시작 설정이 현재 여정 버전에서 구성되었지만 [!DNL Journey Optimizer]은(는) 프로필이 동일한 여정의 다른 활성 버전에서 이미 활성 상태인지 여부도 확인합니다. 프로필이 여전히 이전 버전을 진행하는 경우 활성 인스턴스가 종료되거나 프로필이 제거될 때까지 새 항목이 차단됩니다.
+
+새 여정 버전을 게시하면 진행 중인 프로필이 새 버전으로 이동하지 않습니다. 이미 이전 버전을 입력한 프로필은 여정이 종료될 때까지 해당 버전에 남아 있습니다. 나중에 다시 사용할 수 있게 되면 최신 라이브 버전을 입력합니다.
+
+**예**
+
+교차 버전 차단이 작동하는 방식을 이해하려면 다음 순서를 고려하십시오.
+
+1. 여정의 버전 1은 라이브이고 프로필이 입력합니다.
+1. 동일한 여정의 버전 2를 게시합니다.
+1. 프로필이 버전 1에서 여전히 활성 상태인 경우, 버전 2에서 새 활성 인스턴스를 동시에 시작할 수 없습니다.
+1. 프로필이 이전 인스턴스를 종료한 후 여정의 재입력 구성에 따라 최신 라이브 버전을 다시 입력할 수 있습니다.
+
+>[!WARNING]
+>
+>**왜 `exportedsegment_existinginstance`이 표시됩니까?**
+>
+>오류 `exportedsegment_existinginstance`이(가) 표시되면 일반적으로 프로필에 동일한 여정에 이미 활성 인스턴스가 있음을 의미합니다. 이는 이전 활성 버전을 포함하여 해당 여정의 다른 인스턴스에서 프로필이 여전히 활성 상태인 동안 반복 또는 반복 항목이 시작하려고 할 때 가장 자주 발생합니다.
+>
+>이 오류를 해결할 때 다음을 확인하십시오.
+>
+>* 프로필이 여정의 다른 활성 버전에서 계속 진행 중인지 여부.
+>* 이전 반복 실행이 계속 활성 상태인지 여부.
+>* 여정 디자인에 긴 대기가 포함되는지 또는 장기간 프로필을 활성 상태로 유지하는 다른 활동이 포함되는지 여부.
 
 ## 비즈니스 여정 {#entry-business}
 
