@@ -13,10 +13,10 @@ mini-toc-levels: 1
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
+source-git-commit: 61005da7b43e9b21ab720bbb1ef86317345137cd
 workflow-type: tm+mt
-source-wordcount: 1642
-ht-degree: 20%
+source-wordcount: 1855
+ht-degree: 18%
 
 ---
 
@@ -83,11 +83,26 @@ ht-degree: 20%
 >title="글로벌 설정"
 >abstract="글로벌 설정은 이벤트 및 챌린지 전반에서 멤버를 식별하는 데 사용되는 ID 네임스페이스를 포함하여 충성도 챌린지에 대한 조직 수준의 구성을 정의합니다."
 
-**[!UICONTROL 전역 설정]** 탭을 열고 **[!UICONTROL 네임스페이스]** 드롭다운에서 충성도 문제를 해결하기 위한 Adobe Experience Platform [ID 네임스페이스](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/namespaces)을(를) 선택합니다. 이 네임스페이스는 멤버 프로필이 데이터에서 식별되는 방식과 일치해야 합니다.
+충성도 문제에 대한 전역 설정을 구성하려면 **[!UICONTROL 전역 설정]** 탭을 엽니다.
 
 ![](assets/admin-global-settings.png)
 
-➡️ [ID 네임스페이스로 작업하는 방법을 알아봅니다](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/namespaces){target="_blank"}
+* **[!UICONTROL 조직 구성]** 섹션에서 충성도 문제를 위한 Adobe Experience Platform [ID 네임스페이스](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/namespaces)를 선택합니다. 이 네임스페이스는 멤버 프로필이 데이터에서 식별되는 방식과 일치해야 합니다.
+
+  ➡️ [ID 네임스페이스로 작업하는 방법을 알아봅니다](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/namespaces){target="_blank"}
+
+* **[!UICONTROL 보고]** 섹션을 사용하여 충성도 인사이트 대시보드에 대한 조직의 우선 순위 지표를 설정하십시오. 이 설정은 피드에서 강조를 받는 인사이트를 결정하므로 비즈니스에 가장 중요한 지표에 집중할 수 있습니다.
+
+  다음 KPI 옵션 중 하나를 선택합니다.
+
+   * **[!UICONTROL 매출]** — 통화 거래 및 판매 실적과 관련된 통찰력의 우선 순위 지정
+   * **[!UICONTROL 참여]** — 구성원 활동 및 참여와 관련된 통찰력의 우선 순위 지정
+   * **[!UICONTROL 상환]** - 보상 상환율 및 활동과 관련된 통찰력의 우선 순위 지정
+   * **[!UICONTROL 전환]** — 전환 지표 및 목표 완료와 관련된 통찰력의 우선 순위 지정
+
+  KPI를 선택하면 해당 지표와 관련된 인사이트가 채점 증가를 받아 피드의 맨 위로 상승합니다. 즉, 선택한 KPI에 대해 가장 관련성이 높은 인사이트가 먼저 표시됩니다. 인사이트가 숨겨지지 않음: 다른 지표보다 우선 순위가 높은 선택한 KPI로 중요도 등급을 매겨 전체 insight 피드가 계속 표시됩니다. 이 설정은 피드의 인사이트 등급 지정 방식에만 영향을 주며 충성도 프로그램 작동 방식 또는 과제 평가 방식에는 영향을 주지 않습니다. 언제든지 KPI 선택을 변경할 수 있으며 insight 피드는 다음 새로 고침 주기에 새 우선 순위를 반영하도록 우선 순위를 다시 지정합니다.
+
+  충성도 통찰력 및 성능 모니터링에 대한 자세한 내용은 [충성도 챌린지 성능 모니터링](loyalty-reporting.md)을 참조하십시오.
 
 ## 보상 제공자 {#reward-providers}
 
@@ -251,7 +266,7 @@ ht-degree: 20%
 
    ![](assets/admin-inventory-upload.png)
 
-1. 인벤토리 목록에서 가져온 데이터를 검토합니다. 목록에는 항목당 하나의 행이 표시됩니다. **열에 포함된**&#x200B;그룹 열은 해당 항목에 대한 모든 제품 그룹을 알약 또는 여러 그룹에 속하는 경우 여러 알약으로 표시합니다.
+1. 인벤토리 목록에서 가져온 데이터를 검토합니다. 목록에는 항목당 하나의 행이 표시됩니다. ]**열에 포함된**[!UICONTROL &#x200B;그룹 열은 해당 항목에 대한 모든 제품 그룹을 알약 또는 여러 그룹에 속하는 경우 여러 알약으로 표시합니다.
 
    ![](assets/admin-inventory-imported.png)
 
@@ -288,7 +303,7 @@ ht-degree: 20%
 
    ![](assets/admin-exclusions-upload.png)
 
-1. 제외 목록에서 가져온 데이터를 검토합니다. 목록에는 항목당 하나의 행이 표시됩니다. **열에 포함된**&#x200B;그룹 열은 해당 항목에 대한 모든 제외 그룹을 알약 또는 여러 그룹에 속하는 경우 여러 알약으로 표시합니다.
+1. 제외 목록에서 가져온 데이터를 검토합니다. 목록에는 항목당 하나의 행이 표시됩니다. ]**열에 포함된**[!UICONTROL &#x200B;그룹 열은 해당 항목에 대한 모든 제외 그룹을 알약 또는 여러 그룹에 속하는 경우 여러 알약으로 표시합니다.
 
 <!-- SCREENSHOT: Exclusions list after CSV upload -->
 
