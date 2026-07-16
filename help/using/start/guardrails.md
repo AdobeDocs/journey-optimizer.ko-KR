@@ -9,24 +9,15 @@ level: Intermediate
 mini-toc-levels: 2
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 TQID: https://experienceleague.adobe.com/k4DqGogrTZ9QrnqyFGwdgDeUI9ivpOd1iSI0c5comuU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-subfeature_v2:
-  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e588992f914e67f482d6736d55c5a705da8d465f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: ad78185d-8f79-40ad-9bad-cbde74af74ee
+subfeature_v2: id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: fa7bbe1ed725874467ac3bb6c7e432b3afda52b5
 workflow-type: tm+mt
-source-wordcount: 4606
+source-wordcount: 4612
 ht-degree: 94%
 
 ---
@@ -171,7 +162,7 @@ Adobe Experience Platform에서 API 기반 프로필 만들기/업데이트와 �
 * 이벤트 기반 여정은 여정의 첫 번째 액션을 처리하는 데 최대 **5분**&#x200B;이 소요될 수 있습니다.
 * 시스템 생성 이벤트의 경우 고유한 오케스트레이션 ID를 얻으려면 먼저 고객 여정을 시작하는 데 사용되는 스트리밍 데이터를 Journey Optimizer 내에서 구성해야 합니다.. 이 오케스트레이션 ID는 Adobe Experience Platform으로 들어오는 스트리밍 페이로드에 추가되어야 합니다. 이 제한은 규칙 기반 이벤트에는 적용되지 않습니다.
 * 비즈니스 이벤트는 단일 이벤트 또는 대상자 선별 활동과 함께 사용할 수 없습니다.
-* 한 번에 최대 **25**&#x200B;개의 여정에서 단일 이벤트를 참조할 수 있습니다. 이 한도에 도달하면 해당 이벤트를 사용하는 추가 여정 게시가 차단됩니다.
+* 한 번에 최대 **25**&#x200B;개의 여정이 모든 라이브 여정 및 마감된 이벤트에서 단일 이벤트를 참조할 수 있습니다. 이 한도에 도달하면 해당 이벤트를 사용하는 추가 여정 게시가 차단됩니다.
 * 단일 XDM 스키마는 모든 라이브 및 마감된 여정에서 한 번에 최대 **100**&#x200B;개의 이벤트에서 참조할 수 있습니다. 이 한도에 도달하면 해당 스키마를 참조하는 여정 노드가 있는 이벤트 게시가 차단됩니다.
 * 단일 여정(이벤트 또는 대상자 선별로 시작)에는 동일한 이벤트에 대해 여정이 여러 번 잘못 트리거되는 것을 방지하는 가드레일이 포함됩니다. 프로필 재진입은 기본적으로 **5분** 동안 일시적으로 차단됩니다. 예를 들어 이벤트가 특정 프로필에 대해 12:01에 여정을 트리거하고 다른 이벤트가 12:03에 도착하는 경우(동일한 이벤트이든 동일한 여정을 트리거하는 다른 이벤트이든) 해당 여정은 이 프로필에 대해 다시 시작되지 않습니다.
 * Journey Optimizer에서 여정을 트리거하기 위해서는 이벤트를 Data Collection Core Service(DCCS)로 스트리밍해야 합니다. 배치로 수집된 이벤트, **쿼리 서비스**&#x200B;를 통해 삽입된 이벤트 또는 내부 Journey Optimizer 데이터 세트의 이벤트(메시지 피드백, 이메일 추적 등)는 여정을 트리거하는 데 사용할 수 없습니다. 스트리밍 이벤트를 가져올 수 없는 사용 사례의 경우에는, 이 이벤트를 기반으로 대상자를 구축하고 **대상자 읽기** 활동을 대신 사용해야 합니다. 대상자 선별의 경우 기술적으로는 사용할 수 있지만, 사용하는 액션에 따라 다운스트림 문제가 발생할 수 있어 권장하지 않습니다.
