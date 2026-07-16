@@ -32,9 +32,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: 300b4c714f797971749706e0269f61174d1fe91e
 workflow-type: tm+mt
-source-wordcount: 2271
+source-wordcount: 2469
 ht-degree: 2%
 
 ---
@@ -86,6 +86,21 @@ ht-degree: 2%
 여정의 상태에 따라 오른쪽 상단 모서리에서 사용할 수 있는 단추를 사용하여 여정에서 다른 작업을 수행할 수 있습니다. **[!UICONTROL 게시]**, **[!UICONTROL 복제]**, **[!UICONTROL 삭제]**, **[!UICONTROL 테스트 모드]**, **[!UICONTROL 액세스 관리]**, **[!UICONTROL 경고]**. 이 단추는 활동을 선택하지 않은 경우에 나타납니다. 일부 단추가 컨텍스트에 따라 나타납니다. 테스트 모드가 활성화되면 테스트 모드 로그 버튼이 표시됩니다.
 
 ![여정 작업 단추: 게시, 복제, 삭제, 테스트 모드, 액세스 관리, 경고](assets/journey41.png)
+
+## 여정 인터페이스 새로운 경험 {#canvas-capabilities}
+
+가장 복잡한 사용 사례에 맞게 확장되도록 빌드된 여정 캔버스에 **새 사용자 인터페이스**&#x200B;를 사용할 수 있습니다.
+
+* **성능** — 많은 단계와 분기를 사용하는 큰 여정을 효율적으로 처리합니다.
+* **자동 레이아웃** - 가독성을 높이기 위해 활동을 자동으로 구성합니다.
+* **안내식 작성** - 여정을 쉽고 효율적으로 작성할 수 있도록 구조화된 작성 환경을 제공합니다.
+
+![](assets/journey-new-canvas.png)
+
+새 경험으로 전환하려면 여정 캔버스에서 **[!UICONTROL 새 경험]** 단추를 클릭하십시오. 전환되면 이 설정이 여정 수준에서 저장되므로 이후 방문 시 기본적으로 여정이 새 경험에서 열립니다. 되돌리려면 **[!UICONTROL 이전 경험]** 단추를 클릭하십시오.
+
+![](assets/journey-new-experience-switch.png){width="50%" align="center" zoomable="yes"}
+
 
 ## 여정 시작 {#start-your-journey}
 

@@ -26,10 +26,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 617d0a90751c28b033d6c010c5314cb489da9d4a
+source-git-commit: 6c7377396eb135e310fc04dbc5946db467461e23
 workflow-type: tm+mt
-source-wordcount: 1559
-ht-degree: 18%
+source-wordcount: 1607
+ht-degree: 17%
 
 ---
 
@@ -76,6 +76,16 @@ ht-degree: 18%
 * 조각을 폴더로 이동합니다. [자세히 알아보기](#folders)
 
 ![](assets/fragment-list-more-actions.png)
+
+### 빠른 실행 단축키 {#quick-launch-fragments}
+
+각 조각 옆에 있는 **[!UICONTROL 추가 작업]** 단추에서 다음 빠른 실행 바로 가기를 사용할 수도 있습니다.
+
+* **[!UICONTROL 편집]** — 조각 편집기를 직접 엽니다.
+* **[!UICONTROL 열기]** — 조각 세부 정보를 열고 미리 보기 화면을 엽니다.
+* **[!UICONTROL 초안 삭제]** — 현재 초안 버전을 삭제하고 마지막으로 게시한 버전으로 되돌립니다.
+
+![](assets/fragment-quick-launch.png)
 
 ### 일괄 액션 {#bulk-actions-fragments}
 

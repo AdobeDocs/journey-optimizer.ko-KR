@@ -29,9 +29,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+source-git-commit: cf815079d67f4a41c3647c6a6e381ef5f1c44e51
 workflow-type: tm+mt
-source-wordcount: 2099
+source-wordcount: 2097
 ht-degree: 19%
 
 ---
@@ -192,7 +192,7 @@ ht-degree: 19%
 
    1. Adobe Experience Platform 데이터 수집에서 태그 속성에 액세스합니다.
 
-   1. **[!UICONTROL 규칙]** 메뉴에 액세스하고 새 규칙을 만듭니다. 규칙을 만드는 방법에 대한 자세한 내용은 [!DNL Adobe Experience Platform] [데이터 수집 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}를 참조하세요.
+   1. **[!UICONTROL 규칙]** 메뉴에 액세스하고 새 규칙을 만듭니다. 규칙을 만드는 방법에 대한 자세한 내용은 [!DNL Adobe Experience Platform] [데이터 수집 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/ui/rules){target="_blank"}를 참조하세요.
 
    1. 규칙의 **[!UICONTROL IF]** 섹션에서 아래와 같이 구성된 이벤트를 추가합니다.
 

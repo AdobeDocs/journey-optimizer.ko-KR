@@ -9,10 +9,10 @@ exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
 feature_v2:
   - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2: []
-source-git-commit: 39c76d0356b15ec6b9cb9634d080d2f79e591adb
+source-git-commit: cfd54ee08abb8ef6dbeaeb8ca079e0d19cd329a5
 workflow-type: tm+mt
-source-wordcount: 1121
-ht-degree: 4%
+source-wordcount: 1188
+ht-degree: 3%
 
 ---
 
@@ -137,7 +137,7 @@ Some edu specific content
 ## 각{#each}
 
 `each` 도우미는 배열을 반복하는 데 사용됩니다.
-도우미 구문은 `{{#each ArrayName}}` YourContent `{{/each}}`입니다.
+도우미의 구문은 `{{#each ArrayName}}` YourContent `{{/each}}`입니다.
 블록 내에서 **this** 키워드를 사용하여 개별 배열 항목을 참조할 수 있습니다. `{{@index}}`을(를) 사용하여 배열 요소의 인덱스를 렌더링할 수 있습니다.
 
 **구문**
@@ -311,9 +311,9 @@ Some edu specific content
 
 **제한 사항**
 
-작업당 키 값 쌍에는 2kb의 상한이 있습니다. 2Kb 제한을 초과하는 경우 메시지가 계속 전달되지만 키 값 쌍은 잘릴 수 있습니다.
-
-작업에서 제외된 프로필에 대한 메타데이터는 캡처되지 않습니다. 프로필이 메시지 수신에서 제외되면 데이터 세트에 있는 해당 프로필에 대한 메타데이터 항목이 생성되지 않습니다.
+* 작업당 최대 50개의 키-값 쌍을 전달할 수 있습니다.
+* 총 메타데이터 페이로드는 작업당 2KB로 제한됩니다. 2KB 제한을 초과하는 경우 메시지가 계속 전달되지만 모든 키-값 쌍은 잘릴 수 있습니다.
+* 작업에서 제외된 프로필에 대한 메타데이터는 캡처되지 않습니다. 프로필이 메시지 수신에서 제외되면 데이터 세트에 있는 해당 프로필에 대한 메타데이터 항목이 생성되지 않습니다.
 
 **예**
 

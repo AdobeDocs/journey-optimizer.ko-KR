@@ -27,10 +27,10 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 4c109a6021d46ee7290f09d9333892b42b5af3e2
+source-git-commit: cf815079d67f4a41c3647c6a6e381ef5f1c44e51
 workflow-type: tm+mt
 source-wordcount: 3490
-ht-degree: 54%
+ht-degree: 53%
 
 ---
 
@@ -119,7 +119,7 @@ ht-degree: 54%
 
 1. **데이터 스트림 구성**: Journey Optimizer가 활성화된 [!DNL Adobe Experience Platform Data Collection]에서 데이터 스트림을 생성하고 구성합니다. 자세한 내용은 [데이터 스트림 문서](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=ko-KR){target="_blank"}에서 확인하세요.
 
-1. **웹 푸시 알림 활성화**(선택 사항): 이제 웹 푸시 알림이 니다. Web SDK 구성에서 [pushNotifications 속성](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/commands/configure/pushnotifications){target="_blank"}을 구성하고 [sendPushSubscription 명령](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/commands/sendpushsubscription){target="_blank"}을 사용하여 푸시 구독을 등록합니다. [웹 푸시 구성에 대해 알아봅니다](../../push/push-configuration-web.md).
+1. **웹 푸시 알림 활성화**(선택 사항): 이제 웹 푸시 알림이 니다. Web SDK 구성에서 [pushNotifications 속성](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/js/commands/configure/pushnotifications){target="_blank"}을 구성하고 [sendPushSubscription 명령](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/js/commands/sendpushsubscription){target="_blank"}을 사용하여 푸시 구독을 등록합니다. [웹 푸시 구성에 대해 알아봅니다](../../push/push-configuration-web.md).
 
 ### 코드 기반 경험 구현(Web SDK)
 

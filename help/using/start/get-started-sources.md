@@ -25,10 +25,10 @@ topic_v2:
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
-workflow-type: ht
-source-wordcount: 724
-ht-degree: 100%
+source-git-commit: 451d24a7d30c00aa2ad5528f1dbf3bb775b3258d
+workflow-type: tm+mt
+source-wordcount: 726
+ht-degree: 99%
 
 ---
 
@@ -95,6 +95,11 @@ Journey Optimizer는 기존 시스템과 연결하기 위해 다양한 유형의
 * Salesforce
 * Salesforce Marketing Cloud
 
+**충성도 및 보상:**
+* 탈론
+* 모세관
+* 코비
+
 ➡️ 전체 목록은 [Experience Platform 소스 카탈로그](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko#sources-catalog){target="_blank"}에서 확인하세요.
 
 ## 시작하기에 앞서 {#prerequisites}
@@ -138,7 +143,7 @@ Adobe Journey Optimizer는 Adobe Experience Platform의 소스 프레임워크�
 이제 소스가 무엇이며 왜 중요한지 이해하셨으니 다음 작업을 수행해 보세요.
 
 * 시스템에 적합한 커넥터를 찾으려면 [소스 카탈로그](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko#sources-catalog){target="_blank"} 확인
-* [소스 연결을 생성](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/overview.html?lang=ko){target="_blank"}하는 방법 알아보기
-* [데이터 매핑 및 변환](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/overview.html?lang=ko){target="_blank"} 이해
+* [소스 연결을 생성](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/home){target="_blank"}하는 방법 알아보기
+* [데이터 매핑 및 변환](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/home){target="_blank"} 이해
 * [가져온 데이터를 여정에 사용하는 방법](../building-journeys/journey-gs.md) 참조
 * [데이터 관리 시작하기](../data/gs-data.md) 개요를 검토해 소스가 Journey Optimizer의 전체 데이터 설정에 어떻게 포함되는지 이해

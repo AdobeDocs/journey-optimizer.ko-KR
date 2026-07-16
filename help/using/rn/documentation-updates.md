@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: df9b087753c7e217ca7dfacbe15581466edec200
+source-git-commit: eef9b6b37edd1722fb9894b18e1504496c70a142
 workflow-type: tm+mt
-source-wordcount: 9416
-ht-degree: 89%
+source-wordcount: 9685
+ht-degree: 87%
 
 ---
 
@@ -26,6 +26,13 @@ ht-degree: 89%
 이 페이지에는 월별 릴리스 기능 및 개선 사항과 관련된 업데이트 외에도 [!DNL Journey Optimizer] 설명서의 모든 최신 변경 사항이 나와 있습니다.
 
 ## 2026년 7월 {#july-2026}
+
+* **콘텐츠 검사** 페이지가 작성 시간 예상 값(HTML 구조, 인라인 CSS, 개인화 토큰, 조각, 조건부 블록 및 이미지 참조)에 포함된 내용, 예상 값이 전달된 크기와 다른 이유, 크기 경고가 작성자에게 무엇을 의미하는지 설명하는 새로운 **HTML 및 CSS 크기 정보** 섹션으로 업데이트되었습니다. [자세히 보기](../email/content-check.md#size-estimation)
+
+* **IP 준비 캠페인 만들기** 페이지가 업데이트되어 타기팅 규칙을 IP 준비 캠페인에 적용할 수 있음을 명확히 하고 평가 동작을 문서화했습니다. 대상 멤버십은 실행 활성화 시 고정되어 있으며(일별 배치 세분화), 프로필 특성은 실행 시 가장 최근에 수집된 배치 데이터에서 읽습니다. [자세히 보기](../configuration/ip-warmup-campaign.md)
+* **여정 종료** 페이지가 업데이트되어 되풀이되지 않는 대상 읽기 여정에 대한 자동 중지 타이밍을 명확히 했습니다. 예약된 실행 후 약 **96시간(~4일)**&#x200B;의 안전 버퍼입니다. 이 안전 버퍼는 다음 스캐너 통과 시 **중지됨**(으)로 전환되기 전에 여정이 **라이브** 상태로 유지될 수 있습니다. 이제 페이지에서는 전송 시간 최적화 사용 사례를 포함한 예약된 일괄 처리 기반 여정이 이 자동 중지에서 제외되고 대신 표준 91일 여정 시간 제한을 따르도록 명확하게 합니다. [자세히 보기](../building-journeys/end-journey.md#auto-stop-non-recurring)
+
+* **사용자 지정 업로드** 및 **대상 읽기** 페이지가 외부/사용자 지정 대상(CSV 업로드 및 Federated Audience Composition 포함)에 대한 증분 읽기 동작을 명확히 하도록 수정되었습니다. 현재 이러한 대상 유형에 대해서는 증분 읽기가 기능적으로 지원되지 않으며, 전체 대상은 증분 읽기 전환 설정에 관계없이 각 되풀이에 대해 처리됩니다. **반복 시 강제 재입력**&#x200B;을 포함하여 이제 지침 간 반복 제어. [사용자 지정 업로드에 대해 자세히 읽어보세요](../audience/custom-upload.md) 및 [대상자 읽기 예약에 대해 자세히 읽어보세요](../building-journeys/read-audience.md#schedule)
 
 * **PTR 레코드 편집** 페이지에 새로운 순방향 DNS 레코드를 플랫폼에 추가할 때 이동이 완료될 때까지 이전 하위 도메인에 대한 순방향 DNS 레코드를 제거하지 말아야 한다는 경고가 추가되었습니다. 이 경우 편집이 실패합니다. [자세히 보기](../configuration/ptr-records.md#edit-ptr-subdomains-cname)
 

@@ -13,10 +13,10 @@ mini-toc-levels: 1
 exl-id: a7c4e1b2-8f3d-4a6c-9e0b-1d2e3f4a5b6c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
+source-git-commit: 56b57f083d747726847c0a3e658cd4ff4921fc81
 workflow-type: tm+mt
-source-wordcount: 538
-ht-degree: 5%
+source-wordcount: 613
+ht-degree: 8%
 
 ---
 
@@ -63,6 +63,18 @@ ht-degree: 5%
 충성도 문제는 ID, 프로필 속성, 경험 이벤트 및 대상에 대해 Adobe Experience Platform에 의존합니다. 이 페이지를 사용하여 문제를 작성하거나 충성도 문제 API를 사용하기 전에 준비할 데이터, 관련된 데이터 세트 및 **TTL(time-to-live)**&#x200B;이(가) 유지에 미치는 영향을 알아봅니다.
 
 Journey Optimizer 프로그램 설정의 Adobe 관리자에게 문의하거나 **[!UICONTROL 충성도 관리자]** 메뉴에서 보상 이행 및 이벤트 매핑을 구성하십시오. [충성도 문제를 구성하는 방법을 알아보세요](loyalty-admin.md). REST 끝점 및 인증의 경우 [충성도 도전 API 참조](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}를 참조하십시오.
+
+## 소스를 통한 충성도 커넥터 {#loyalty-connectors-sources}
+
+충성도 데이터가 외부 보상 플랫폼에서 관리되는 경우 **소스** 커넥터를 사용하여 해당 데이터를 Adobe Experience Platform에 수집한 다음 충성도 문제에서 사용할 수 있습니다.
+
+Journey Optimizer 설명서에 나열된 충성도 및 보상 커넥터는 다음과 같습니다.
+
+* **Talon.One**
+* **모세관**
+* **Kobie**
+
+커넥터 온보딩 및 전체 설정에 대해서는 [소스 커넥터 시작](../start/get-started-sources.md) 및 [Experience Platform 소스 카탈로그](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko#sources-catalog){target="_blank"}를 참조하십시오.
 
 ## Adobe Experience Platform 데이터 {#aep-data}
 

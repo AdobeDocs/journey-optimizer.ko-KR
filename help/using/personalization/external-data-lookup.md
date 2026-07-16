@@ -12,10 +12,10 @@ feature_v2:
   - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
-source-wordcount: 1292
-ht-degree: 5%
+source-wordcount: 2044
+ht-degree: 3%
 
 ---
 
@@ -236,3 +236,81 @@ First video description: {%=result.videos[0].description ?: "none found" %}
 현재는 지원되지 않습니다. 이 기능은 향후에 지원됩니다.
 
 +++
+
+## 빠른 참조 {#quick-reference}
+
+이 단원에는 이 주제와 관련된 해석, 검색 및 질문 답변을 지원하기 위한 구조화된 지식이 포함되어 있습니다.
+
+이해를 돕기 위해 이 정보를 이 페이지의 설명서와 통합해야 합니다. 두 소스 모두 독립적으로 사용하기 위한 것은 아닙니다. 이 페이지에서는 기능에 대해 설명하지만, 용어, 의도, 적용 가능성 및 제약 조건을 명확히 하는 데 도움이 되는 추가 컨텍스트를 제공합니다.
+
+>[!BEGINTABS]
+
+>[!TAB 개요]
+
+**TL;DR**
+
+이 페이지에서는 외부 끝점에 대한 작업을 구성하고 개인화 편집기의 `externalDataLookup` 도우미를 사용하여 인바운드 채널 콘텐츠를 개인화하기 위해 런타임에 해당 데이터를 동적으로 가져오는 방법에 대해 설명합니다.
+
+**의도**
+
+* 외부 끝점(URL, HTTP 메서드, 매개 변수, 요청/응답 스키마)을 정의하는 작업 구성
+* 인바운드 동작을 위한 개인화 식에 `externalDataLookup` 도우미를 삽입합니다.
+* 호출 시 변수 헤더, 쿼리, 페이로드 또는 경로 매개 변수를 외부 끝점에 전달
+* 개인화 표현식 및 도우미 함수를 사용하여 결과 별칭을 통해 가져온 데이터에 액세스합니다
+* 대체 콘텐츠 패턴을 통해 시간 초과 및 오류 처리
+* Adobe Experience Platform Assurance을 사용하여 외부 조회 문제 디버그
+
+>[!TAB 용어집]
+
+* **externalDataLookup**: 인바운드 채널 콘텐츠 개인화에 사용할 수 있도록 요청 시 구성된 외부 끝점에서 데이터를 동적으로 가져오는 개인화 편집기의 도우미 함수입니다. *(제품별)*
+* **Action**: 외부 끝점(URL, HTTP 메서드, 헤더/쿼리 매개 변수, POST 본문 스키마 및 응답 스키마)을 정의하는 Journey Optimizer(관리 > 구성)의 구성 개체입니다. `externalDataLookup`을(를) 사용하기 전에 필요합니다. *(제품별)*
+* **결과 변수**: `externalDataLookup` 호출에 할당된 임의의 별칭입니다. 후속 개인화 식에서 가져온 응답의 모든 필드를 참조하는 데 사용됩니다.
+* **인바운드 채널**: 사용자가 표면을 열 때 콘텐츠가 요청 시 전달되는 채널 — 코드 기반 경험, 웹, 인앱 메시지. *(제품별)*
+* **AEP Edge Network**: 개인화 요청을 받고 런타임 시 외부 데이터 조회 호출을 트리거하는 인프라입니다.
+
+>[!TAB 용어]
+
+* **정식 이름:** externalDataLookup — 변형: 외부 데이터 조회, 외부 데이터 조회 도우미, 외부 데이터 조회 도우미
+* **동의어:** &quot;externalDataLookup&quot; = &quot;external data lookup helper&quot;
+* **혼동하지 마십시오.** `actionId`(구성된 작업의 ID, 외부 끝점 식별) ≠ `result`(가져온 응답 데이터의 별칭) ≠ 매개 변수 이름(호출 시 끝점에 전달된 변수 값)을 사용합니다.
+* **인바운드 개인화 작업에서 `externalDataLookup`을(를) 사용하여**&#x200B;을(를) 혼동하지 마십시오(Edge Network 요청 시 동적으로 데이터 가져오기) ≠ 여정 활동에서 사용자 지정 작업을 사용하여(여정 흐름 내에서 컨텐츠 가져오기).
+
+>[!TAB 보호 기능 및 제한 사항]
+
+* 이 기능은 제한된 가용성으로, 일부 조직에서만 사용할 수 있습니다.
+* 외부 엔드포인트 호출에 대한 기본 시간 제한: 300ms(기본값; 특정 엔드포인트에 대해 이 시간 제한을 늘리려면 Adobe 담당자에게 문의).
+* 개인화 편집기에서는 응답 스키마 찾아보기가 지원되지 않습니다. Journey Optimizer은 표현식에 사용된 응답에서 JSON 속성에 대한 참조를 확인하지 않습니다.
+* 페이로드 변수 매개 변수에 대해 지원되는 데이터 형식: `String`, `Integer`, `Decimal`, `Boolean`, `listString`, `listInt`, `listInteger`, `listDecimal`.
+* `externalDataLookup` 도우미 매개 변수 내의 변수 대체는 현재 지원되지 않습니다.
+* 동적 URL 경로는 현재 지원되지 않습니다.
+* 작업 구성의 인증 옵션은 현재 `externalDataLookup`에서 지원되지 않습니다. 해결 방법으로 API 키 기반 또는 일반 텍스트 권한 부여에 헤더 필드를 사용하십시오.
+* 작업 구성의 변경 사항은 해당 작업을 사용하는 라이브 캠페인 또는 여정에 반영되지 않습니다. 변경 사항을 적용하려면 라이브 캠페인/여정을 복사하거나 수정하십시오.
+* 다중 패스 렌더링이 지원됩니다.
+* Journey Optimizer은 현재 외부 엔드포인트 응답을 캐시하지 않습니다.
+* 외부 끝점은 지정된 표면에 대해 AEP Edge Network으로 전송된 인바운드 트래픽만큼 적어도 동시 로드 및 처리량을 처리할 수 있어야 합니다.
+
+>[!TAB FAQ]
+
+**Q: 외부 끝점이 시간 초과되거나 오류를 반환하면 어떻게 됩니까?**
+
+결과 변수가 비어 있습니다. 결과 내의 속성 참조는 공백으로 표시되며, 배열 반복은 아무 항목도 반환하지 않습니다. 대체 콘텐츠 패턴(예: 단일 특성의 경우 `?: "none found"`, 전체 콘텐츠 블록의 경우 `{%#if result%}…{%else%}…{%/if%}`)을 사용하여 이러한 사례를 적절히 처리하십시오.
+
+**Q: 요청의 컨텍스트 특성을 매개 변수로 외부 데이터 조회에 전달하려면 어떻게 해야 합니까?**
+
+개인화 편집기의 컨텍스트 특성 > 데이터 스트림 > 이벤트 메뉴를 사용하여 경험 이벤트 스키마를 찾아보고 관련 특성을 매개 변수 값으로 삽입합니다(예: `query.myQueryParameter=context.datastream.event.<schemaId>.my.xdm.attribute`).
+
+**Q: Journey Optimizer이 외부 끝점 응답을 캐시합니까?**
+
+현재는 지원되지 않습니다. 향후 캐싱이 지원됩니다.
+
+**Q: externalDataLookup의 문제를 디버깅하려면 어떻게 합니까?**
+
+Adobe Experience Platform Assurance을 사용합니다. Assurance 세션을 시작하고, 웹 또는 모바일 구현에서 Journey Optimizer 호출을 시작하고, Edge Delivery 보기를 사용하여 customActions 블록에서 시간 초과 또는 오류 세부 정보를 검사합니다.
+
+**Q: externalDataLookup의 작업 구성에서 인증을 사용할 수 있습니까?**
+
+작업 구성의 인증 옵션은 현재 지원되지 않습니다. API 키 기반 또는 기타 일반 텍스트 인증의 경우 작업 구성에서 자격 증명을 헤더 필드로 지정합니다.
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: a3ce801a -->

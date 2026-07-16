@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d61f15e630592fa21ac2667fffa4d215a7baf6e1
+source-git-commit: 5201f92a07a911fe1fbbb5b6adeb4c63841c1dc3
 workflow-type: tm+mt
-source-wordcount: 2765
-ht-degree: 78%
+source-wordcount: 3059
+ht-degree: 74%
 
 ---
 
@@ -55,6 +55,27 @@ ht-degree: 78%
 <table>
 <thead>
 <tr>
+<th><strong>이메일 디자이너에서 콘텐츠 확인</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer는 이제 이메일 디자이너에 직접 자동화된 기술 유효성 검사 기능을 포함하여 전송 전에 HTML 및 CSS 문제를 감지할 수 있도록 지원합니다.</p>
+<p>검사에는 <code>&lt;script&gt;</code> 및 <code>&lt;base&gt;</code> 태그와 같은 지원되지 않는 요소, Microsoft Outlook에서 레이아웃을 깨뜨릴 수 있는 빈 div, HTML Meta 새로 고침 태그, Gmail에서 렌더링 오류를 유발하는 CSS 또는 HTML 크기 임계값 등이 포함됩니다.</p>
+<p>검사 결과는 작성 패널에 오류, 경고 또는 정보 알림으로 표시되며, 상황별 세부 정보와 가능한 경우 원클릭 수정 기능이 제공되므로 편집기를 종료하지 않고도 문제를 해결할 수 있습니다.</p>
+<p>이전에는 제한 공급으로만 사용 가능했던 이 기능이 이제 모든 고객에게 정식으로 제공됩니다.</p>
+<p><img src="assets/do-not-localize/content-check.gif"></p>
+<p>자세한 내용은 <a href="../email/content-check.md">세부 설명서</a>를 참조하십시오.</p>
+<p>사용 가능한 날짜: 2026년 7월 16일</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>오케스트레이션된 캠페인의 파일 기반 타겟팅</strong><br/></th>
 </tr>
 </thead>
@@ -74,6 +95,32 @@ ht-degree: 78%
 * **AJO MCP 서버 새 도구** - 이제 [!DNL Adobe Journey Optimizer] MCP 서버는 5개의 추가 읽기 전용 **채널 구성 도구**&#x200B;를 노출하므로 AI 도우미에서 직접 채널 구성, 지원 리소스 및 마케팅 작업을 쿼리할 수 있습니다. 이제 **목록 채널 구성**(모든 AJO 채널에서), **채널 구성 가져오기**, **목록 구성 리소스**, **구성 리소스 가져오기** 및 **목록 마케팅 작업**&#x200B;을 사용할 수 있습니다. [자세히 보기](../integrations/ajo-mcp.md#mcp-tools)
 
   사용 가능한 날짜: 2026년 7월 9일
+
+
+### 사용성 개선 사항 {#july-26-usability}
+
+다음 사용성 개선 사항은 2026년 7월에 출시되었습니다.
+
+#### 콘텐츠 관리
+
+* **조각 인벤토리의 빠른 실행 바로 가기** - 이제 **[!UICONTROL 추가 작업]** 단추를 사용하여 조각 목록에서 일반적인 작업에 빠르게 액세스할 수 있습니다. 사용 가능한 단축키에는 조각 편집, 세부 정보 열기, 초안 버전 삭제 등이 있습니다. [자세히 알아보기](../content-management/manage-fragments.md#quick-launch-fragments)
+
+  ![](../content-management/assets/fragment-quick-launch.png)
+
+* **템플릿 인벤토리의 빠른 실행 바로 가기** - 이제 콘텐츠 템플릿 목록의 **[!UICONTROL 추가 작업]** 단추를 사용하여 템플릿 세부 정보 편집, 콘텐츠 시뮬레이션 및 템플릿 삭제와 같은 일반적인 작업에 빠르게 액세스할 수 있습니다. 이메일 템플릿의 경우 추가 단축키를 사용하여 제목란 및 이메일 본문을 편집하고, 증명을 보거나 보내고, 스팸 보고서를 실행하고, 이메일을 렌더링할 수 있습니다. [자세히 알아보기](../content-management/access-content-templates.md#quick-launch-templates)
+
+  ![](../content-management/assets/content-template-quick-launch.png)
+
+#### 여정
+
+여정 캔버스에 **새로운 여정 인터페이스**&#x200B;가 도입되어 대규모 사용자에 대한 향상된 성능, 향상된 가독성을 위한 자동 레이아웃 및 안내식 작성 환경을 제공합니다.
+
+![](../building-journeys/assets/journey-new-canvas.png)
+
+새 UI로 전환하려면 **[!UICONTROL 새 경험]** 단추를 클릭하세요. 이 설정은 여정 수준에서 저장되므로 기본적으로 여정은 새 경험에서 다시 열립니다. 되돌리려면 **[!UICONTROL 이전 경험]**&#x200B;을 클릭하세요. [자세히 알아보기](../building-journeys/using-the-journey-designer.md#canvas-capabilities)
+
+![](../building-journeys/assets/journey-new-experience-switch.png){width="50%" align="center" zoomable="yes"}
+
 
 ## 2026년 6월 릴리스 정보 {#june-26-rn}
 
