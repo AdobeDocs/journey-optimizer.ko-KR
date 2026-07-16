@@ -9,22 +9,15 @@ role: User
 level: Beginner
 exl-id: 71c652ba-f38f-452c-9c1b-dcd728307baf
 TQID: https://experienceleague.adobe.com/HkybhydJwQDHVEXCKM5o16ZNeiBk-n9mogm-2pwFKus
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 22d6cddf35fa26a5fd3f0eddc74ed15faf9d6503
 workflow-type: tm+mt
-source-wordcount: 177
-ht-degree: 9%
+source-wordcount: 183
+ht-degree: 8%
 
 ---
 
@@ -40,14 +33,14 @@ Adobe Experience Platform 대상 포털을 사용하면 CSV 파일을 사용하�
 
 사용자 지정 업로드 프로세스 중에 ID 및 매핑되는 프로필 ID로 사용할 CSV 속성을 지정합니다. 이렇게 하면 대상 데이터와 프로필 간에 링크가 설정됩니다. CSV 파일에 프로필에서 찾을 수 없는 ID 값이 포함되어 있는 경우 해당 ID 값으로 새 프로필이 만들어집니다.
 
->[!NOTE]
->
->사용자 지정 업로드 대상의 경우, 반복 여정에서 &quot;증분 읽기&quot;가 활성화되면 이러한 대상이 수정되므로 프로필은 첫 번째 반복에서만 검색됩니다.
-
 ![](assets/import-audience.png)
 
-대상을 가져오는 방법에 대한 자세한 내용은 Adobe Experience Platform [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}를 참조하세요.
+대상을 가져오는 방법에 대한 자세한 내용은 Adobe Experience Platform [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}를 참조하세요.
+
+>[!NOTE]
+>
+>사용자 지정 업로드 대상(CSV 업로드) 및 기타 외부 대상의 경우 **[!UICONTROL 증분 읽기]**&#x200B;는 현재 기능적으로 지원되지 않습니다. 증분 읽기 전환 설정에 관계없이 각 되풀이에서 **전체 대상**&#x200B;을 검색합니다.
 
 비디오에서 대상을 CSV 형식으로 업로드하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3423360?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3421714?quality=12)
