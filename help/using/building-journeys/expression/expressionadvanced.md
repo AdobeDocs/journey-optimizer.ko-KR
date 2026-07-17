@@ -10,23 +10,14 @@ keywords: 표현식 편집기, 데이터, 여정
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/8RsF-CRRrsLiCzwsaqfJQnWcyy6frmKkdSJBKnIhGgE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: ac5d9310-7772-40fb-9d78-864562e1bfd6
-  - id: e51e8901-97d9-4f7d-a835-503025a90e32
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: ac5d9310-7772-40fb-9d78-864562e1bfd6id: e51e8901-97d9-4f7d-a835-503025a90e32id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 423db08a3c4c5a8d9540fa0c8e03e28ca36ca299
 workflow-type: tm+mt
-source-wordcount: 1233
+source-wordcount: 1236
 ht-degree: 31%
 
 ---
@@ -78,7 +69,7 @@ ht-degree: 31%
 
 >[!NOTE]
 >
->자연어 프롬프트를 사용하여 여정 표현식을 생성하려면 고급 편집기 내의 AI 컨트롤을 통해 **[Expression Assistant](expression-agent.md)**(**공개 Beta**)를 사용하십시오.
+>자연어 프롬프트를 사용하여 여정 표현식을 생성하려면 고급 편집기 내의 AI 컨트롤을 통해 **[AI로 표현식 생성](generate-expression.md)**(**공개 베타**)을 사용하십시오.
 
 ## 인터페이스 살펴보기 {#discovering-the-interface}
 
@@ -137,14 +128,14 @@ ht-degree: 31%
 * 이벤트 필드, 데이터 소스 필드, 대상 멤버십 및 여정 속성을 사용하여 고급 부울 조건 작성
 * 조건을 구성할 때 단순 모드와 고급 모드 간 전환
 * `params` 키워드를 사용하여 기본 식 내에서 직접 외부 데이터 원본 매개 변수를 참조합니다.
-* AI 기반의 표현식 도우미를 사용하여 자연어 프롬프트에서 표현식을 생성합니다
+* AI 기반 표현식 생성을 사용하여 자연어 프롬프트에서 표현식을 생성합니다.
 
 **용어집:**
 
 * **고급 표현식 편집기**: 복잡한 표현식을 작성하기 위한 Journey Optimizer 코드 편집기입니다. 간단한 포인트 앤 클릭 조건 편집기 *(제품별)와 다릅니다*
 * **단순 모드**: 포인트 앤 클릭 조건 편집기입니다. 고급 편집기보다 유연성이 떨어지지만 개발자가 아닌 사용자에게는 더 쉽습니다. *(제품별)*
 * **여정 속성**: 식 편집기 *(제품별)에서 액세스할 수 있는 여정 인스턴스(ID, 버전, 오류, 현재 노드)에 대한 기술 필드*
-* **표현식 길잡이**: 고급 편집기 내에서 일반 언어 프롬프트에서 표현식을 생성하는 AI 기반 도구(공개 베타) *(제품별)*
+* **AI를 사용하여 표현식 생성**: 고급 편집기 내에서 일반 언어 프롬프트에서 표현식을 생성하는 AI 기반 기능(공개 베타) *(제품별)*
 
 **보호 기능:**
 
@@ -165,7 +156,7 @@ ht-degree: 31%
 * **Q: 단순 모드 대신 고급 표현식 편집기를 사용해야 하는 경우는 언제입니까?** — 컬렉션을 쿼리하거나 함수를 사용하거나, 여정 속성을 참조하거나, 단순 편집기에서 표현할 수 없는 다중 조건 논리를 빌드해야 하는 경우 고급 편집기를 사용합니다.
 * **Q: 식의 외부 데이터 원본에 매개 변수를 전달하려면 어떻게 해야 합니까?** — 표현식 구문에서 `params` 키워드를 사용합니다(예: `#{DataSource.fieldGroup.field, params: {paramName: value}}`).
 * **Q: 자동 완성 메커니즘의 기능은 무엇입니까?** — 입력할 때 상황별 필드 및 함수 제안 사항을 표시하므로 유효한 표현식을 더 빨리 작성할 수 있습니다.
-* **Q: Expression Assistant는 어디에 액세스합니까?** — 고급 표현식 편집기 내의 AI 컨트롤을 통해 현재 공개 베타에 있습니다.
+* **Q: AI가 있는 표현식 생성은 어디에 액세스합니까?** — 고급 표현식 편집기 내의 AI 컨트롤을 통해 현재 공개 베타에 있습니다.
 * **Q: 고급 편집기의 조건이 단순 모드와 다른 형식을 반환합니까?** — 아니요. 조건은 항상 두 모드에서 부울을 반환합니다.
 
 +++
