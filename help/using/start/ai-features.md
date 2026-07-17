@@ -9,30 +9,16 @@ role: User
 level: Beginner
 exl-id: 628a5d84-6a33-4ed8-84cb-e2e4c6cc2b80
 TQID: https://experienceleague.adobe.com/bkl7d0VxTNUboLL9MZ3cmEBAgiVHlaU3-ZTXTrpGBjA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 177322b6e3e5c1ac0b8a56207a816e98b777ecc8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944fid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: d6e0d39b-5df3-4c72-8263-fd834397ee97
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: bccad6a764b6415d87a6c8f4a1d5f0496899ec4e
 workflow-type: tm+mt
-source-wordcount: 2380
-ht-degree: 6%
+source-wordcount: 2521
+ht-degree: 4%
 
 ---
 
@@ -40,7 +26,7 @@ ht-degree: 6%
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** 더 빠르게 작업하고 더 적절한 고객 경험을 제공할 수 있도록 AI Assistant 및 에이전트에서 콘텐츠 생성, 전송 시간 최적화, 의사 결정에 이르기까지 Adobe Journey Optimizer 전반의 AI 및 머신 러닝 기능을 살펴보십시오.
+**이 페이지에서:** AI Assistant 및 에이전트에서 콘텐츠 생성, AI 기반 통합 및 도구(GenStudio 및 MCP 서버 등), 전송 시간 최적화 및 의사 결정에 이르기까지 Adobe Journey Optimizer 전반의 AI 및 머신 러닝 기능을 탐색하여 보다 빠르게 작업하고 보다 적절한 고객 경험을 제공할 수 있습니다.
 
 >[!ENDSHADEBOX]
 
@@ -51,10 +37,11 @@ Adobe Journey Optimizer은 인공 지능과 머신 러닝의 기능을 활용하
 이러한 그룹화된 링크를 사용하여 필요한 기능으로 이동합니다.
 
 * **대화형 AI 및 에이전트:** [AI Assistant](#ai-assistant), [Journey Agent](#journey-agent), [Experimentation Agent](#experimentation-agent), [추가 AI 에이전트](#additional-ai-agents)
-* **콘텐츠 만들기:** [AI 기반 콘텐츠 생성](#content-generation), [HTML으로 이미지 변환](#image-to-html), [성과 마케팅을 위한 GenStudio](#genstudio), [브랜드 정렬 점수](#brand-alignment)
+* **콘텐츠 만들기:** [AI 기반 콘텐츠 생성](#content-generation)
+* **AI 기반 통합 및 도구:** [HTML 변환기 이미지](#image-to-html), [성과 마케팅을 위한 GenStudio](#genstudio), [브랜드 정렬 점수](#brand-alignment), [Adobe Journey Optimizer MCP 서버](#mcp-server)
 * **최적화 및 의사 결정:** [전송 시간 최적화](#send-time-optimization), [의사 결정을 위한 AI 모델](#ai-decisioning), [AI 기반 규칙 및 수식 최적화](#decisioning-optimization)
 * **실험:** [AI를 사용한 콘텐츠 실험](#experimentation)
-* **템플릿 및 통합:** [사용 사례 플레이북](#playbooks), [Adobe Journey Optimizer MCP 서버](#mcp-server)
+* **템플릿:** [사용 사례 플레이북](#playbooks)
 * **도움말:** [FAQ](#faq)
 
 ## AI 어시스턴트 {#ai-assistant}
@@ -121,7 +108,7 @@ Journey Agent에는 AI Assistant의 두 가지 기술인 분석 및 생성이 �
 
 #### 여정 분석 스킬 {#journey-analyze-skill}
 
-[여정 분석 에이전트](https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide){target="_blank"}를 사용하면 자연어 분석을 통해 여정 성능을 최적화할 수 있습니다.
+[여정 분석 에이전트](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-use-cases-agentic-skills-and-user-guide){target="_blank"}를 사용하면 자연어 분석을 통해 여정 성능을 최적화할 수 있습니다.
 
 +++**주요 기능**
 
@@ -144,7 +131,7 @@ Journey Agent에는 AI Assistant의 두 가지 기술인 분석 및 생성이 �
 
 #### 여정 만들기 스킬 {#journey-create-skill}
 
-[여정 에이전트 만들기](https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"}를 사용하면 자연어 프롬프트에서 여정을 만들고 목표를 구조화된 여정 구성으로 변환할 수 있습니다.
+[여정 에이전트 만들기](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-use-cases-agentic-skills-and-user-guide){target="_blank"}를 사용하면 자연어 프롬프트에서 여정을 만들고 목표를 구조화된 여정 구성으로 변환할 수 있습니다.
 
 +++**주요 기능**
 
@@ -227,112 +214,7 @@ Journey Agent에는 AI Assistant의 두 가지 기술인 분석 및 생성이 �
 
 [AI 콘텐츠 생성에 대해 자세히 알아보기](../content-management/gs-generative.md)
 
-## 전송 시간 최적화 {#send-time-optimization}
-
-AI를 사용하여 개별 고객 행동 패턴을 기반으로 각 메시지를 전송할 최적의 시간을 예측하여 참여를 극대화합니다.
-
-### 작동 방법
-
-Send-Time Optimization은 내역 참여 데이터(열기 및 클릭 수)를 분석하여 각 고객이 메시지를 가장 많이 활용할 수 있는 시기를 예측합니다. 시스템은 지정된 기간 내에 자동으로 게재를 예약합니다.
-
-### 사용 시기
-
-| 다음에 대한 우수 사례 | 권장되지 않음 |
-|----------|---------------------|
-| 마케팅 캠페인 및 뉴스레터 | 시간에 민감한 운영 메시지(주문 확인, 암호 재설정) |
-| 프로모션 메시지 | 긴급 알림(비행 지연, 긴급 경고) |
-| 교육 콘텐츠 | 특정 시간 요구 사항이 있는 이벤트 기반 메시지 |
-| 참여 캠페인 | |
-
-[전송 시간 최적화에 대해 자세히 알아보기](../building-journeys/send-time-optimization.md)
-
-## 의사 결정을 위한 AI 모델 {#ai-decisioning}
-
-각 고객에게 표시할 오퍼를 자동으로 최적화하여 비즈니스 목표를 극대화하는 지능형 순위 모델을 생성합니다.
-
-### 모델 유형
-
-**자동 최적화** - 고객 상호 작용에서 학습하여 시간이 지남에 따라 자동으로 오퍼 성능을 향상시킵니다.
-
-**개인화된 최적화** - 고객 프로필 특성 및 동작을 사용하여 각 개인에게 가장 적합한 오퍼를 예측합니다.
-
-### 요구 사항
-
-* 충분한 상호 작용 데이터가 있는 최소 2개의 오퍼:
-  * 100개 이상의 디스플레이 이벤트
-  * 5개 이상의 클릭 이벤트
-  * 지난 14일 이내
-* 조직당 최대 5개의 AI 등급 모델
-
-[의사 결정을 위한 AI 모델에 대해 자세히 알아보기](../experience-decisioning/ranking/ai-models.md) | [AI 등급 모델 만들기](../experience-decisioning/ranking/create-ai-models.md)
-
-## AI 기반 규칙 및 공식 최적화 {#decisioning-optimization}
-
-Adobe Journey Optimizer은 PQL 구문으로 표현된 [의사 결정 규칙](../experience-decisioning/rules.md) 및 [등급 수식](../experience-decisioning/ranking/ranking-formulas.md)을 자동으로 분석하고 원래 논리를 유지하는 단순화를 제안할 수 있습니다. 단순화가 발견되면 규칙 또는 수식 옆에 빨간색 **[!UICONTROL 최적화]** 표시기가 표시되어 원본 표현식과 AI 제안 표현식의 병렬 비교를 열고 둘 다 동일하게 동작하는지 확인하기 위한 다운로드 가능한 분석을 사용합니다.
-
-### 주요 기능
-
-* **논리 보존 단순화** - AI가 시뮬레이션된 프로필에서 동일한 결과를 반환하는 더 짧은 식을 제안합니다.
-* **유효성 검사 보고서** - 변경 내용을 적용하기 전에 각 시뮬레이션된 프로필을 두 버전에 대해 평가하는 방법을 보여 주는 분석(TSV)을 다운로드합니다.
-* **한 번의 클릭으로 적용** - **[!UICONTROL 최적화]** 창에서 바로 원본 PQL을 최적화된 버전으로 바꿉니다.
-
-### 적격성
-
-PQL 표현식이 **2KB**(UTF-8 인코딩)보다 큰 규칙과 등급 공식만 분석 대상으로 지정되며 더 작은 표현식은 분석되지 않습니다.
-
-### 권한
-
-이 기능은 **AI Assistant**&#x200B;와 동일한 생성 AI 액세스 제어를 사용합니다. 사용자에게 **[!UICONTROL AI 도우미]** 리소스에 대한 **[!UICONTROL 콘텐츠 생성]** 권한이 부여되어야 합니다. [AI Assistant 액세스에 대해 자세히 알아보기](../content-management/gs-generative.md#generative-access)
-
-[의사 결정 규칙 최적화](../experience-decisioning/rules.md#optimize) | [등급 수식 최적화](../experience-decisioning/ranking/ranking-formulas.md#optimize)
-
-## AI를 사용한 콘텐츠 실험 {#experimentation}
-
-**Experiment Accelerator**&#x200B;를 사용하면 AI 기반 인사이트 및 권장 사항을 통해 실험을 더 빠르게 실행하여 우수성이 검증된 콘텐츠 변형을 더 빨리 식별할 수 있습니다.
-
-주요 기능:
-
-* 자동으로 여러 콘텐츠 변형 생성
-* 실험 설계를 위한 AI 추천 받기
-* 성과 추세의 조기 지표 가져오기
-* 통계적 중요성에 대한 시간 단축
-
-[Experiment Accelerator에 대해 자세히 알아보기](../content-management/experiment-accelerator-gs.md)
-
-## 사용 사례 플레이북 {#playbooks}
-
-사용 사례 플레이북은 일반적인 마케팅 시나리오를 빠르게 구현하는 데 도움이 되는 사전 빌드된 워크플로우입니다. 각 플레이북에는 즉시 사용할 수 있는 여정, 메시지, 스키마 및 세그먼트가 포함되어 있습니다.
-
-![사용 사례 플레이북 인터페이스](assets/playbooks-filter.png)
-
-### 플레이북 작동 방식
-
-1. 플레이북 라이브러리를 **탐색**&#x200B;하여 목표와 일치하는 사용 사례를 찾습니다
-2. 필요한 모든 리소스를 자동으로 생성하려면 플레이북을 **사용**&#x200B;하세요.
-3. 브랜드 및 요구 사항에 맞게 생성된 자산을 **사용자 지정**
-4. 개발 샌드박스의 프로덕션 또는 테스트에 **배포**
-
-### 사용 가능한 플레이북
-
-다음과 같은 일반적인 시나리오가 필요하면 Journey Optimizer 플레이북을 찾아보십시오.
-
-* 포기한 장바구니 복구
-* 새로운 고객을 위한 시작 시리즈
-* 구매 후 참여
-* 생일 메시지
-* 재참여 캠페인
-
-+++**전제 조건**
-
-* 적절한 권한이 있는 샌드박스
-* 이메일, 푸시 및/또는 SMS에 대한 채널 구성
-* 여정 및 메시지를 만들 수 있는 사용자 권한
-
-+++
-
-[사용 가능한 플레이북 모두 보기](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=ko){target="_blank"} | [Experience Platform 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=ko){target="_blank"}
-
-## 추가 AI 기능 {#additional-capabilities}
+## AI 기반 통합 및 도구 {#additional-capabilities}
 
 ### 이미지 HTML 전환기 {#image-to-html}
 
@@ -358,14 +240,125 @@ MCP(Model Context Protocol)를 사용하여 Adobe Journey Optimizer을 클라우
 
 [Journey Optimizer MCP 서버에 대해 자세히 알아보기](../integrations/ajo-mcp.md)
 
+## 전송 시간 최적화 {#send-time-optimization}
+
+AI를 사용하여 개별 고객 행동 패턴을 기반으로 각 메시지를 전송할 최적의 시간을 예측하여 참여를 극대화합니다.
+
+### 작동 방법
+
+Send-Time Optimization은 내역 참여 데이터(열기 및 클릭 수)를 분석하여 각 고객이 메시지를 가장 많이 활용할 수 있는 시기를 예측합니다. 시스템은 지정된 기간 내에 자동으로 게재를 예약합니다.
+
+### 사용 시기
+
+| 다음에 대한 우수 사례 | 권장되지 않음 |
+|----------|---------------------|
+| 마케팅 캠페인 및 뉴스레터 | 시간에 민감한 운영 메시지(주문 확인, 암호 재설정) |
+| 프로모션 메시지 | 긴급 알림(비행 지연, 긴급 경고) |
+| 교육 콘텐츠 | 특정 시간 요구 사항이 있는 이벤트 기반 메시지 |
+| 참여 캠페인 | |
+
+[전송 시간 최적화에 대해 자세히 알아보기](../building-journeys/send-time-optimization.md)
+
+## 의사 결정을 위한 AI 모델 {#ai-decisioning}
+
+전환율 (전환율 ÷ 노출 횟수)별로 오퍼의 등급을 매겨 각 고객에게 전환 가능성이 가장 높은 오퍼를 자동으로 표시하는 지능형 등급 모델을 만듭니다.
+
+### 모델 유형
+
+* **자동 최적화** - 개인화되지 않은 오퍼의 전반적인 성능을 학습하여 시간에 따른 전환을 자동으로 개선합니다. 모델이 대략 6시간마다 재교육을 하기 때문에 오퍼가 자주 바뀔 때 적합합니다.
+* **개인화된 최적화** - 고객 프로필 특성, 동작 및 대상 멤버십을 사용하여 각 개인에게 가장 적합한 오퍼를 예측합니다. 전체 우승자가 아닌 고객별로 다른 순위가 필요한 경우 선택하십시오.
+
+### 요구 사항
+
+최소 데이터 요구 사항은 모델 유형별로 다릅니다.
+
+* **자동 최적화** - 지난 14일 내에 각각 100개 이상의 디스플레이 이벤트와 5개 이상의 클릭 이벤트가 있는 오퍼가 2개 이상 있습니다. 이 임계값 아래의 오퍼는 탐색 트래픽을 통해서만 제공되는 새로운 오퍼로 처리됩니다.
+* **개인화된 최적화** - 연속 30일 기간을 사용합니다. Adobe에서는 매주 오퍼당 최소 1,000개의 노출 횟수와 100개의 전환 이벤트를 권장합니다. 기본적으로 1,000개 이하의 노출 횟수나 50개의 전환 횟수의 오퍼는 이러한 오퍼에 대한 교육을 받지 못합니다. 최대 5개의 대상을 선택하여 단일 모델을 교육할 수 있습니다.
+
+[의사 결정을 위한 AI 모델에 대해 자세히 알아보기](../experience-decisioning/ranking/ai-models.md) | [AI 등급 모델 만들기](../experience-decisioning/ranking/create-ai-models.md)
+
+## AI 기반 규칙 및 공식 최적화 {#decisioning-optimization}
+
+Adobe Journey Optimizer은 PQL 구문으로 표현된 [의사 결정 규칙](../experience-decisioning/rules.md) 및 [등급 수식](../experience-decisioning/ranking/ranking-formulas.md)을 자동으로 분석하고 원래 논리를 유지하는 단순화를 제안할 수 있습니다. 단순화가 발견되면 규칙 또는 수식 옆에 빨간색 **[!UICONTROL 최적화]** 표시기가 표시되어 원본 표현식과 AI 제안 표현식의 병렬 비교를 열고 둘 다 동일하게 동작하는지 확인하기 위한 다운로드 가능한 분석을 사용합니다.
+
+### 주요 기능
+
+* **논리 보존 단순화** - AI가 시뮬레이션된 프로필에서 동일한 결과를 반환하는 더 짧은 식을 제안합니다.
+* **유효성 검사 보고서** - 변경 내용을 적용하기 전에 각 시뮬레이션된 프로필을 두 버전에 대해 평가하는 방법을 보여 주는 분석(TSV)을 다운로드합니다.
+* **한 번의 클릭으로 적용** - **[!UICONTROL 최적화]** 창에서 바로 원본 PQL을 최적화된 버전으로 바꿉니다.
+
++++**자격 요건**
+
+PQL 표현식이 **2KB**(UTF-8 인코딩)보다 큰 규칙과 등급 공식만 분석 대상으로 지정되며 더 작은 표현식은 분석되지 않습니다.
+
++++
+
++++**사용 권한**
+
+이 기능은 **AI Assistant**&#x200B;와 동일한 생성 AI 액세스 제어를 사용합니다. 사용자에게 **[!UICONTROL AI 도우미]** 리소스에 대한 **[!UICONTROL 콘텐츠 생성]** 권한이 부여되어야 합니다. [AI Assistant 액세스에 대해 자세히 알아보기](../content-management/gs-generative.md#generative-access)
+
++++
+
+[의사 결정 규칙 최적화](../experience-decisioning/rules.md#optimize) | [등급 수식 최적화](../experience-decisioning/ranking/ranking-formulas.md#optimize)
+
+## AI를 사용한 콘텐츠 실험 {#experimentation}
+
+**Experiment Accelerator**&#x200B;를 사용하면 AI 기반 인사이트 및 권장 사항을 통해 실험을 더 빠르게 실행하여 우수성이 검증된 콘텐츠 변형을 더 빨리 식별할 수 있습니다.
+
+주요 기능:
+
+* 자동으로 여러 콘텐츠 변형 생성
+* 실험 설계를 위한 AI 추천 받기
+* 성과 추세의 조기 지표 가져오기
+* 통계적 중요성에 대한 시간 단축
+
+[Experiment Accelerator에 대해 자세히 알아보기](../content-management/experiment-accelerator-gs.md)
+
+## 사용 사례 플레이북 {#playbooks}
+
+사용 사례 플레이북은 일반적인 마케팅 시나리오를 빠르게 구현하는 데 도움이 되는 사전 빌드된 워크플로우입니다. 각 플레이북에는 즉시 사용할 수 있는 여정, 메시지, 스키마 및 세그먼트가 포함되어 있습니다.
+
+![사용 사례 플레이북 인터페이스](assets/playbooks-filter.png)
+
++++**플레이북의 작동 방식**
+
+1. 플레이북 라이브러리를 **탐색**&#x200B;하여 목표와 일치하는 사용 사례를 찾습니다
+2. 필요한 모든 리소스를 자동으로 생성하려면 플레이북을 **사용**&#x200B;하세요.
+3. 브랜드 및 요구 사항에 맞게 생성된 자산을 **사용자 지정**
+4. 개발 샌드박스의 프로덕션 또는 테스트에 **배포**
+
++++
+
++++**사용 가능한 플레이북**
+
+다음과 같은 일반적인 시나리오가 필요하면 Journey Optimizer 플레이북을 찾아보십시오.
+
+* 포기한 장바구니 복구
+* 새로운 고객을 위한 시작 시리즈
+* 구매 후 참여
+* 생일 메시지
+* 재참여 캠페인
+
++++
+
++++**전제 조건**
+
+* 적절한 권한이 있는 샌드박스
+* 이메일, 푸시 및/또는 SMS에 대한 채널 구성
+* 여정 및 메시지를 만들 수 있는 사용자 권한
+
++++
+
+[사용 가능한 플레이북 모두 보기](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=ko){target="_blank"} | [Experience Platform 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
+
 ## 자주 묻는 질문 {#faq}
 
 +++**AI 기능에 필요한 권한은 무엇입니까?**
 
 * **[콘텐츠 생성을 위한 AI 도우미](#content-generation)** - &quot;콘텐츠 생성&quot; 권한이 필요합니다.
 * **[AI Assistant](#ai-assistant)** 제품 지식 - Adobe 생성 AI 사용자 지침에 동의해야 합니다.
-* **[여정 분석 에이전트](#journey-agent)** - 여정 보기/관리 및 세그먼트 보기/관리 권한이 필요합니다.
-* **[여정 에이전트 만들기](#journey-create-agent)** - 여정 관리, 여정 이벤트/데이터 소스/작업 보기, 세그먼트 보기 및 세그먼트 관리 권한이 필요합니다.
+* **[여정 분석 에이전트](#journey-analyze-skill)** - 여정 보기/관리 및 세그먼트 보기/관리 권한이 필요합니다.
+* **[여정 에이전트 만들기](#journey-create-skill)** - 여정 관리, 여정 이벤트/데이터 소스/작업 보기, 세그먼트 보기 및 세그먼트 관리 권한이 필요합니다.
 * **[Experimentation Agent](#experimentation-agent)** - 실험 보기 및 실험 메타데이터 관리 권한 필요
 
 모든 AI 에이전트를 사용하려면 AI Assistant에 액세스하고 Adobe Experience Cloud 생성 AI 사용자 지침에 동의해야 합니다.
@@ -382,9 +375,9 @@ MCP(Model Context Protocol)를 사용하여 Adobe Journey Optimizer을 클라우
 
 +++**주요 제한 사항은 무엇입니까?**
 
-* **[전송 시간 최적화](#send-time-optimization)** - 여정에서 전자 메일 및 푸시에만 사용할 수 있으며 30일 교육 기간이 필요합니다.
-* **[AI 콘텐츠 생성](#content-generation)** - DM, 콘텐츠 카드, LINE 또는 WhatsApp에는 사용할 수 없습니다.
-* **[AI 등급 모델](#ai-decisioning)** - 조직당 최대 5개 모델, 최소 상호 작용 데이터 필요
+* **[전송 시간 최적화](#send-time-optimization)** - 여정의 전자 메일 및 푸시 작업에만 사용할 수 있습니다. 해당 작업을 사용하려면 조직에 최소 30일 동안의 기록이 필요합니다.
+* **[AI 콘텐츠 생성](#content-generation)** - 이메일, 푸시, 웹 및 SMS 채널에만 사용할 수 있습니다.
+* **[AI 등급 모델](#ai-decisioning)** - 필요한 최소 상호 작용 데이터 및 임계값이 모델 유형별로 다릅니다([요구 사항](#ai-decisioning) 참조).
 
 +++
 
