@@ -10,12 +10,19 @@ level: Intermediate
 keywords: 표현식, 편집기, 구문, 개인화
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
 TQID: https://experienceleague.adobe.com/kZEw2lITdt8SMWMe-UT2vPzdoiAjB2vbItmK9zt-WJo
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2: id: ac5d9310-7772-40fb-9d78-864562e1bfd6id: e51e8901-97d9-4f7d-a835-503025a90e32
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2:
+  - id: ac5d9310-7772-40fb-9d78-864562e1bfd6
+  - id: e51e8901-97d9-4f7d-a835-503025a90e32
 source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
 source-wordcount: 1979
@@ -381,7 +388,7 @@ PQL의 같음 비교를 위해 단일 `=`을(를) 사용합니다. `==`을(를) 
 
 **Q: 이름이 예약된 키워드인 스키마 필드를 참조하려면 어떻게 합니까(예: `next`, `last`, `this`)?**
 
-백틱: `{{profile.person.\`next\`.name}`으로 줄바꿈합니다. 이는 Handlebars 경로와 PQL 표현식 모두에 적용됩니다.
+백틱: `{{profile.person.\`next\`.name&rbrace;&grave;으로 줄바꿈합니다. 이는 Handlebars 경로와 PQL 표현식 모두에 적용됩니다.
 
 **Q: `{{...}}` Handlebars 블록 내에서 PQL 함수를 호출할 수 있습니까?**
 

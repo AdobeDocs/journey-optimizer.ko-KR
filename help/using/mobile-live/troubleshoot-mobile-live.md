@@ -6,8 +6,12 @@ description: 프로필 토큰 문제, 캠페인 구성 및 게재 실패를 포�
 role: User
 level: Intermediate
 exl-id: f0f83bd2-7c2b-4d9b-b455-e1df12dfa175
-feature_v2: id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: ed2fba79-65cb-4680-96d2-2ad5d851714d
+feature_v2:
+  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2:
+  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
+  - id: ed2fba79-65cb-4680-96d2-2ad5d851714d
 source-git-commit: 8d7aea9c58b0f7622f3b11c21db55536ffe1cb66
 workflow-type: tm+mt
 source-wordcount: 5976
@@ -1108,7 +1112,7 @@ ORDER BY timestamp ASC
 > `identityMap`은(는) 문자열이 아닌 구조화된 MAP 유형입니다. 위에 표시된 배열 및 구조체 접근자 구문을 사용합니다. `LIKE`과(와) 같은 문자열 함수는 `DATATYPE_MISMATCH` 오류를 반환합니다.
 >
 ></br>
-&gt; 메시지 피드백 이벤트 데이터 세트는 'identityMap'에 ECID만 저장합니다. 영향을 받는 프로필이 ECID가 아닌 사용자 지정 네임스페이스로 식별되는 경우, 먼저 ECID를 해결하십시오. AEP에서 **프로필**로 이동하고 사용자 지정 네임스페이스와 ID 값을 사용하여 프로필을 검색한 다음 프로필의 ID 세부 정보에서 ECID를 검색하십시오. 위의 쿼리에서 해당 ECID 값을 사용합니다.
+>&gt; 메시지 피드백 이벤트 데이터 세트는 'identityMap'에 ECID만 저장합니다. 영향을 받는 프로필이 ECID가 아닌 사용자 지정 네임스페이스로 식별되는 경우, 먼저 ECID를 해결하십시오. AEP에서 **프로필**&#x200B;로 이동하고 사용자 지정 네임스페이스와 ID 값을 사용하여 프로필을 검색한 다음 프로필의 ID 세부 정보에서 ECID를 검색하십시오. 위의 쿼리에서 해당 ECID 값을 사용합니다.
 
 ### feedbackStatus 값
 
