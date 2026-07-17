@@ -9,29 +9,15 @@ role: User
 level: Beginner
 exl-id: 628a5d84-6a33-4ed8-84cb-e2e4c6cc2b80
 TQID: https://experienceleague.adobe.com/bkl7d0VxTNUboLL9MZ3cmEBAgiVHlaU3-ZTXTrpGBjA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 1f2a71d3323b6a64b346a83aa58b23aed035eb29
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944fid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: d6e0d39b-5df3-4c72-8263-fd834397ee97
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 177322b6e3e5c1ac0b8a56207a816e98b777ecc8
 workflow-type: tm+mt
-source-wordcount: 2303
+source-wordcount: 2380
 ht-degree: 6%
 
 ---
@@ -45,6 +31,17 @@ ht-degree: 6%
 >[!ENDSHADEBOX]
 
 Adobe Journey Optimizer은 인공 지능과 머신 러닝의 기능을 활용하여 탁월한 고객 경험을 만들고, 최적화하고, 제공할 수 있도록 지원합니다. AI 기능은 개인화된 콘텐츠 생성에서 최적의 전송 시간 예측에 이르기까지 워크플로를 간소화하고 효과를 극대화합니다. 사용 사례 플레이북은 일반적인 마케팅 시나리오를 빠르게 구현하기 위해 사전 빌드된 템플릿을 제공합니다.
+
+## 빠른 탐색 {#quick-navigation}
+
+이러한 그룹화된 링크를 사용하여 필요한 기능으로 이동합니다.
+
+* **대화형 AI 및 에이전트:** [AI Assistant](#ai-assistant), [Journey Agent](#journey-agent), [Experimentation Agent](#experimentation-agent), [추가 AI 에이전트](#additional-ai-agents)
+* **콘텐츠 만들기:** [AI 기반 콘텐츠 생성](#content-generation), [HTML으로 이미지 변환](#image-to-html), [성과 마케팅을 위한 GenStudio](#genstudio), [브랜드 정렬 점수](#brand-alignment)
+* **최적화 및 의사 결정:** [전송 시간 최적화](#send-time-optimization), [의사 결정을 위한 AI 모델](#ai-decisioning), [AI 기반 규칙 및 수식 최적화](#decisioning-optimization)
+* **실험:** [AI를 사용한 콘텐츠 실험](#experimentation)
+* **템플릿 및 통합:** [사용 사례 플레이북](#playbooks), [Adobe Journey Optimizer MCP 서버](#mcp-server)
+* **도움말:** [FAQ](#faq)
 
 ## AI 어시스턴트 {#ai-assistant}
 
@@ -133,7 +130,7 @@ Journey Agent에는 AI Assistant의 두 가지 기술인 분석 및 생성이 �
 
 #### 여정 만들기 스킬 {#journey-create-skill}
 
-[여정 에이전트 만들기](https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"}를 사용하면 자연어 프롬프트에서 여정을 만들고 목표를 구조화된 여정 구성으로 변환할 수 있습니다.
+[여정 에이전트 만들기](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"}를 사용하면 자연어 프롬프트에서 여정을 만들고 목표를 구조화된 여정 구성으로 변환할 수 있습니다.
 
 +++**주요 기능**
 
@@ -186,7 +183,7 @@ Journey Agent에는 AI Assistant의 두 가지 기술인 분석 및 생성이 �
 
 +++
 
-### 추가 AI 에이전트
+### 추가 AI 에이전트 {#additional-ai-agents}
 
 **Audience Agent** - 중복 감지 및 크기 추적을 포함하여 Adobe Experience Platform 전반에서 대화형 대상 탐색 및 관리용입니다. [Audience Agent에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/audience){target="_blank"}
 
@@ -319,23 +316,23 @@ PQL 표현식이 **2KB**(UTF-8 인코딩)보다 큰 규칙과 등급 공식만 �
 
 +++
 
-[사용 가능한 플레이북 모두 보기](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=ko){target="_blank"} | [Experience Platform 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=ko){target="_blank"}
+[사용 가능한 플레이북 모두 보기](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=ko){target="_blank"} | [Experience Platform 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
 
 ## 추가 AI 기능 {#additional-capabilities}
 
-### 이미지 HTML 전환기
+### 이미지 HTML 전환기 {#image-to-html}
 
 AI 기반 전환 기술을 사용하여 정적 이미지 디자인(JPEG, PNG)을 편집 가능한 HTML 이메일 템플릿으로 변환합니다.
 
 [HTML에 대한 이미지에 대해 자세히 알아보기](../content-management/image-to-html.md)
 
-### 성능 마케팅을 위한 GenStudio
+### 성능 마케팅을 위한 GenStudio {#genstudio}
 
 Adobe GenStudio for Performance Marketing과 통합하여 AI 기반 이메일 콘텐츠를 만들고 오케스트레이션을 위해 Journey Optimizer으로 템플릿을 가져옵니다. Journey Optimizer 템플릿을 GenStudio으로 내보내고 AI로 변형을 생성한 다음 다시 배포용으로 가져올 수 있습니다. (제한적 사용 가능, 이메일 채널만 해당)
 
 [GenStudio에 대해 자세히 알아보기](../integrations/genstudio.md)
 
-### 브랜드 정렬 점수
+### 브랜드 정렬 점수 {#brand-alignment}
 
 톤, 음성 및 메시지 일관성을 측정하는 AI 기반 점수를 사용하여 콘텐츠가 브랜드 지침에 얼마나 잘 부합하는지 평가합니다.
 
