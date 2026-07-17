@@ -13,10 +13,10 @@ mini-toc-levels: 1
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 61005da7b43e9b21ab720bbb1ef86317345137cd
+source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
 workflow-type: tm+mt
-source-wordcount: 1855
-ht-degree: 18%
+source-wordcount: 1834
+ht-degree: 15%
 
 ---
 
@@ -47,6 +47,8 @@ ht-degree: 18%
 **구성 및 통합**
 
 * **충성도 문제 구성** ◀︎**현재 상태**
+* [보상 정의 안내서](reward-definition-guide.md)
+* [이벤트 변환기 안내서](event-transformer-guide.md)
 * [충성도 데이터 및 데이터 세트](loyalty-data-and-datasets.md)
 * [충성도 과제 API 참조](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
@@ -71,8 +73,8 @@ ht-degree: 18%
 구성 인터페이스를 열려면 왼쪽 탐색에서 **[!UICONTROL 충성도 관리자]** 메뉴를 선택하십시오. 인터페이스는 탭으로 구성됩니다.
 
 * **전역 설정** — 프로그램의 Experience Platform ID 네임스페이스를 선택합니다. [전역 설정을 구성하는 방법을 알아봅니다](#global-settings)
-* **보상 제공자** - 고객이 진행하거나 문제를 완료할 때 보상을 이행하는 API를 연결합니다. [보상 공급자를 구성하는 방법을 알아보세요](#reward-providers)
-* **이벤트 정의** — 들어오는 경험 이벤트를 **[!UICONTROL 사용자 지정 이벤트]** 작업에 사용되는 활동에 매핑합니다. [이벤트 정의를 구성하는 방법을 알아봅니다](#event-definitions)
+* **보상 제공자** - 고객이 진행하거나 문제를 완료할 때 보상을 이행하는 API를 연결합니다. [보상 공급자를 구성하는 방법을 알아보세요](#reward-providers).
+* **이벤트 정의** — 들어오는 경험 이벤트를 **[!UICONTROL 사용자 지정 이벤트]** 작업에 사용되는 활동에 매핑합니다. [이벤트 정의를 구성하는 방법을 알아봅니다](#event-definitions).
 * **제품 인벤토리** - 작업 자격 규칙에 사용할 항목-그룹 매핑을 업로드합니다. [제품 인벤토리를 구성하는 방법을 알아봅니다](#product-inventory)
 * **제외** — 작업 구성에 대한 조직 전체 항목 및 그룹 제외를 업로드합니다. [제외 구성 방법 알아보기](#exclusions)
 
@@ -128,6 +130,8 @@ ht-degree: 18%
 
 **보상 공급자**&#x200B;가 [!DNL Journey Optimizer]에 챌린지 진행률이 기록되거나 챌린지가 완료되면 이행 호출을 보낼 위치를 알려줍니다. 예를 들어 회원 계정에 충성도 포인트 또는 스타를 크레딧하는 API입니다.
 
+엔드 투 엔드 공급자 설정(연결, 프록시, 인증 토큰 생성기 및 보상 정의 리소스)에 이 섹션을 사용합니다. 보상 정의 디자인 및 페이로드 전략에 대한 집중 지침은 [보상 정의 안내서](reward-definition-guide.md)를 참조하십시오.
+
 보상 제공자를 생성하려면 다음 단계를 수행합니다.
 
 1. **[!UICONTROL 보상 공급자]** 탭을 열고 **[!UICONTROL 보상 공급자 만들기]**&#x200B;를 선택합니다.
@@ -149,7 +153,9 @@ ht-degree: 18%
    * **[!UICONTROL 이름]** 및 **[!UICONTROL 설명]**&#x200B;을 입력하십시오.
    * 정의가 **[!UICONTROL 활성화됨]**&#x200B;인지 여부를 지정하십시오.
    * **[!UICONTROL Default]**&#x200B;을(를) 전환하여 한 정의를 이 공급자에 대한 기본값으로 표시합니다.
-   * 이행 호출과 함께 전송된 **페이로드**&#x200B;를 정의합니다.
+   * JSONata 표현식을 사용하여 보상 페이로드가 이행 페이로드 요청으로 변환되는 방법을 정의합니다.
+
+   자세한 내용은 [보상 정의 가이드](reward-definition-guide.md#writing-the-rewardjsonata-expression)를 참조하세요.
 
    ![](assets/admin-reward-definition.png)
 
@@ -209,16 +215,18 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_event_schema"
 >title="이벤트 스키마 및 변환기"
->abstract="조직에서 사용자 정의 JSON 형식으로 이벤트를 보낼 때 **[!UICONTROL 스키마]**&#x200B;를 사용하여 페이로드의 유효성을 검사하고 **[!UICONTROL 변환기]**(예: JSONata 표현식)를 사용하여 필드를 충성도 챌린지가 예상하는 형식에 매핑합니다."
+>abstract="이벤트 스키마 섹션에서 들어오는 이벤트 필드를 충성도 문제가 예상하는 형식으로 매핑하기 위해 **[!UICONTROL 변환기]** JSONata 식을 제공합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_event_identification"
 >title="이벤트 식별"
->abstract="식별자 경로, 식별자 값, XDM 스키마 ID 또는 이러한 필드의 조합을 사용하여 [!DNL Journey Optimizer]가 들어오는 페이로드에서 이벤트를 인식하는 방법을 지정합니다."
+>abstract="이벤트 식별 섹션에서 수신 이벤트를 식별하는 데 사용되는 이벤트 이름 및 필수 XDM 스키마 ID를 입력합니다."
 
 **[!UICONTROL 이벤트 정의]**&#x200B;은(는) 처리할 수신 Adobe Experience Platform 경험 이벤트를 [!DNL Journey Optimizer]에 알려줍니다. 예를 들어, 구매 또는 호텔 체크인 등이 있습니다. 마케터는 작업 빌더에서 **[!UICONTROL 사용자 지정 이벤트]** 작업을 만들 때 이러한 정의를 참조합니다. 정의와 일치하지 않는 이벤트는 무시됩니다.
 
-조직이 자체 JSON 형식으로 이벤트를 보내면 **[!UICONTROL 스키마]** 및 **[!UICONTROL 변환기]**&#x200B;에서 [!DNL Journey Optimizer]이(가) 페이로드의 유효성을 검사하고, 페이로드를 구문 분석하고, 활동을 추적할지 여부를 결정합니다.
+종단 간 정의 설정(이벤트 식별 및 변환기 표현식)에 이 섹션을 사용합니다. 변환기 작성에 대한 집중 지침은 [이벤트 변환기 안내서](event-transformer-guide.md)를 참조하십시오.
+
+조직에서 자체 JSON 형식으로 이벤트를 보낼 때 [**[!UICONTROL 변환기]**](event-transformer-guide.md#writing-the-transformer)를 통해 [!DNL Journey Optimizer]에서 들어오는 페이로드를 매핑하고 구문 분석하여 이벤트를 올바르게 추적할 수 있습니다.
 
 이벤트 정의를 생성하려면 다음 단계를 수행합니다.
 
@@ -226,18 +234,12 @@ ht-degree: 18%
 
    ![](assets/admin-event-definition.png)
 
-1. 이벤트의 **[!UICONTROL 이름]**&#x200B;을(를) 입력하십시오(예: `Coffee purchase`). 마케터는 **[!UICONTROL 사용자 지정 이벤트]** 작업을 구성할 때 이 이름을 확인합니다.
+1. **[!UICONTROL 이벤트 식별]**&#x200B;에서 필요한 값을 입력하십시오.
 
-1. [!DNL Journey Optimizer]이(가) 수신 페이로드에서 이벤트를 인식하는 방법을 지정합니다. **[!UICONTROL 식별자 경로]**, **[!UICONTROL XDM 스키마 ID]** 또는 둘 다 제공:
+   * **[!UICONTROL 이름]** — 이벤트 정의의 레이블입니다(예: `Coffee purchase`).
+   * **[!UICONTROL XDM 스키마 ID]** — 이 이벤트 유형에 대한 Experience Platform XDM 스키마의 ID입니다.
 
-   * **[!UICONTROL 식별자 경로]** — 페이로드의 필드 경로(예: `data.memberId`). 페이로드의 값으로 이벤트를 일치시킬 때 사용합니다.
-   * **[!UICONTROL 식별자 값]** — 이 정의를 일치시키기 위해 존재해야 하는 식별자 경로의 값입니다.
-   * **[!UICONTROL XDM 스키마 ID]** — 이 이벤트 유형에 대한 Experience Platform XDM 스키마의 ID입니다. 알려진 스키마에 대해 이벤트가 캡처될 때 사용합니다.
-
-1. 필요한 경우 문자열을 **[!UICONTROL 스키마]** 및 **[!UICONTROL 변환기]**&#x200B;에 붙여 넣으십시오.
-
-   * **[!UICONTROL 스키마]** — 들어오는 페이로드의 유효성 검사 문자열입니다.
-   * **[!UICONTROL 변환기]** — 페이로드를 충성도 문제가 예상하는 형식에 매핑하는 변환 표현식(예: JSONata).
+1. **[!UICONTROL 이벤트 스키마]**&#x200B;에서 페이로드를 충성도 문제가 예상하는 형식에 매핑하는 필수 [JSONata](event-transformer-guide.md#writing-the-transformer) 식을 제공합니다.
 
 1. 이벤트 정의를 저장합니다. **[!UICONTROL 이벤트 정의]** 목록에 표시되며 마케터가 **[!UICONTROL 사용자 지정 이벤트]** 작업을 만들 때 사용할 수 있습니다. [작업을 만드는 방법 알아보기](create-tasks.md#choose-activity)
 
@@ -266,7 +268,7 @@ ht-degree: 18%
 
    ![](assets/admin-inventory-upload.png)
 
-1. 인벤토리 목록에서 가져온 데이터를 검토합니다. 목록에는 항목당 하나의 행이 표시됩니다. **열에 포함된**&#x200B;그룹 열은 해당 항목에 대한 모든 제품 그룹을 알약 또는 여러 그룹에 속하는 경우 여러 알약으로 표시합니다.
+1. 인벤토리 목록에서 가져온 데이터를 검토합니다. 목록에는 항목당 하나의 행이 표시됩니다. ]**열에 포함된**[!UICONTROL &#x200B;그룹 열은 해당 항목에 대한 모든 제품 그룹을 알약 또는 여러 그룹에 속하는 경우 여러 알약으로 표시합니다.
 
    ![](assets/admin-inventory-imported.png)
 
@@ -303,7 +305,7 @@ ht-degree: 18%
 
    ![](assets/admin-exclusions-upload.png)
 
-1. 제외 목록에서 가져온 데이터를 검토합니다. 목록에는 항목당 하나의 행이 표시됩니다. **열에 포함된**&#x200B;그룹 열은 해당 항목에 대한 모든 제외 그룹을 알약 또는 여러 그룹에 속하는 경우 여러 알약으로 표시합니다.
+1. 제외 목록에서 가져온 데이터를 검토합니다. 목록에는 항목당 하나의 행이 표시됩니다. ]**열에 포함된**[!UICONTROL &#x200B;그룹 열은 해당 항목에 대한 모든 제외 그룹을 알약 또는 여러 그룹에 속하는 경우 여러 알약으로 표시합니다.
 
 <!-- SCREENSHOT: Exclusions list after CSV upload -->
 

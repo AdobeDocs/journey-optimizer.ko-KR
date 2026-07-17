@@ -11,9 +11,9 @@ hide: true
 badge: label="비공개 베타" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: 43b78122a37fc6e8bcbcc3da12200bc2c0bcd7d4
+source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
 workflow-type: tm+mt
-source-wordcount: '2272'
+source-wordcount: '2278'
 ht-degree: 11%
 
 ---
@@ -43,6 +43,8 @@ ht-degree: 11%
 **구성 및 통합**
 
 * [충성도 문제 구성](loyalty-admin.md)
+* [보상 정의 안내서](reward-definition-guide.md)
+* [이벤트 변환기 안내서](event-transformer-guide.md)
 * [충성도 데이터 및 데이터 세트](loyalty-data-and-datasets.md)
 * [충성도 과제 API 참조](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
