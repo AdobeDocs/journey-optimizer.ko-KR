@@ -10,21 +10,12 @@ level: Intermediate, Experienced
 keywords: 내장, 소스, 데이터, 플랫폼, 통합
 exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
 TQID: https://experienceleague.adobe.com/tvO8GjVADFHV1i6ff5krss2YyS-rtnQZ4BHcvvhG-t4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e366af78935405cd5acb15269194875098b20914
 workflow-type: tm+mt
 source-wordcount: 481
@@ -71,7 +62,7 @@ Adobe Experience Platform 데이터 소스는 Adobe 실시간 고객 프로필�
 
    >[!NOTE]
    >
-   >[!DNL Journey Optimizer] Data Source 구성에서는 XDM 개별 프로필 기반 스키마만 지원됩니다. 자세한 내용은 [XDM 개별 프로필 클래스](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/classes/individual-profile){target="_blank"}를 참조하십시오.
+   >[!DNL Journey Optimizer] Data Source 구성에서는 XDM 개별 프로필 기반 스키마만 지원됩니다. 자세한 내용은 [XDM 개별 프로필 클래스](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/individual-profile){target="_blank"}를 참조하십시오.
 
 1. 사용할 필드를 선택하고 변경 사항을 저장합니다.
 

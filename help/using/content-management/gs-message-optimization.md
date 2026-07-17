@@ -10,26 +10,12 @@ level: Beginner
 keywords: 최적화, 타기팅, 실험, A/B 테스트, 캠페인, 여정, 개인화
 exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
 TQID: https://experienceleague.adobe.com/zJTy0y-AhGMaFPzA379m4D9RxyzUfzCLZkr1B1ffuZM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: ea4139d9-3405-4b34-ad6e-c3ca120cc269
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: f29a52db-c90c-4345-902e-b586d1406d8d
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: ea4139d9-3405-4b34-ad6e-c3ca120cc269id: fb9a80eb-bebc-492f-a0e9-584595621ebbid: f29a52db-c90c-4345-902e-b586d1406d8did: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
 source-wordcount: 770
@@ -138,7 +124,7 @@ Journey Optimizer의 콘텐츠 최적화를 통해 다음과 같은 작업을 �
 
 작업 또는 API 트리거 캠페인에서 콘텐츠 최적화를 활용하는 방법을 알아봅니다. 하위 대상자를 타기팅하고, 위치별 메시지 베리에이션을 만들고, 대체 콘텐츠를 활성화하고, 단일 캠페인 내에서 여러 실험을 실행하는 방법을 알 수 있습니다. 이 튜토리얼에서는 메시지 일관성을 유지하면서 멀티채널 캠페인을 관리하는 방법도 다룹니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3470375?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)
 
 **관련 항목**
 

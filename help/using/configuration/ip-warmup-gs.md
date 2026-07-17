@@ -10,23 +10,11 @@ level: Experienced
 keywords: IP, 전달성
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
 TQID: https://experienceleague.adobe.com/xjJKrCXUmQY5sZu2w-B09agQh-tb4qkSXM0Vh2-TDnc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c343082f-e963-4f57-a96b-b64d27f8118e
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c343082f-e963-4f57-a96b-b64d27f8118eid: d2e8a157-b3b0-4143-9ff3-809bf400be56id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
 source-wordcount: 489
@@ -80,7 +68,7 @@ IP 준비 계획을 구현하는 주요 단계는 다음과 같습니다.
 
 IP 준비 계획을 만들고 실행하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453847/?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3432637/?learn=on)
 
 >[!NOTE]
 >
@@ -90,10 +78,10 @@ IP 준비 계획을 만들고 실행하는 방법을 알아봅니다.
 
 IP 웜업에 대한 보다 심층적인 지침을 얻으려면 다음과 같은 유용한 블로그 게시물을 살펴보십시오.
 
-* [Adobe Journey Optimizer 전달성 안내서: Zero Reality에서 Inbox Hero까지](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950?profile.language=ko) - 신뢰도 기본 사항, 준비 달력, 모니터링 및 문제 해결 모범 사례에 대한 포괄적인 안내서입니다.
+* [Adobe Journey Optimizer 전달성 안내서: Zero Reality에서 Inbox Hero까지](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950) - 신뢰도 기본 사항, 준비 달력, 모니터링 및 문제 해결 모범 사례에 대한 포괄적인 안내서입니다.
 
-* [IP 준비 설정 방법 이해](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warmup-understanding-how-to-set-up-the-ip-warmup/ba-p/761949?profile.language=ko) - 성공적인 구현을 위한 IP 준비 계획 및 모범 사례 설정의 기본 사항에 대해 알아봅니다.
+* [IP 준비 설정 방법 이해](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warmup-understanding-how-to-set-up-the-ip-warmup/ba-p/761949) - 성공적인 구현을 위한 IP 준비 계획 및 모범 사례 설정의 기본 사항에 대해 알아봅니다.
 
-* [IP 준비 계획의 고급 기능](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-features-in-ajo-ip-warm-up-plans-granular-controls-for/ba-p/761958?profile.language=ko) - IP 준비 전략을 최적화하기 위한 고급 기능과 세분화된 제어 기능을 살펴보십시오.
+* [IP 준비 계획의 고급 기능](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-features-in-ajo-ip-warm-up-plans-granular-controls-for/ba-p/761958) - IP 준비 전략을 최적화하기 위한 고급 기능과 세분화된 제어 기능을 살펴보십시오.
 
-* [IP 준비 문제 해결](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warm-up-troubleshooting-audience-delays-and-smart-retry/ba-p/761952?profile.language=ko) - 대상 지연과 같은 일반적인 문제에 대한 해결 방법을 찾고 스마트 다시 시도 메커니즘에 대해 알아봅니다.
+* [IP 준비 문제 해결](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warm-up-troubleshooting-audience-delays-and-smart-retry/ba-p/761952) - 대상 지연과 같은 일반적인 문제에 대한 해결 방법을 찾고 스마트 다시 시도 메커니즘에 대해 알아봅니다.

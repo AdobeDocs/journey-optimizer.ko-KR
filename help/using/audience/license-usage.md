@@ -9,24 +9,12 @@ role: User
 level: Beginner
 exl-id: 7e91face-c8f4-4e70-9123-9e36bae7e67e
 TQID: https://experienceleague.adobe.com/KrsJKfvAPAE5yW2Lgrc-MrMUtoxi336rsmQIglfs7Mc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5deeid: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
 workflow-type: tm+mt
 source-wordcount: 742
@@ -50,7 +38,7 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->* 대시보드를 보려면 [라이선스 사용량 대시보드 보기](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html?lang=ko#available-permissions){target="_blank"} 권한이 있어야 합니다.
+>* 대시보드를 보려면 [라이선스 사용량 대시보드 보기](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html#available-permissions){target="_blank"} 권한이 있어야 합니다.
 >
 >* 할당량 열에 `N/A`로 표시된 대로 특정 지표(예: 계산 시간, 이메일)는 개발 샌드박스에 표시되지 않습니다. 대시보드에는 null이 아닌 값만 표시됩니다. 지표가 0이거나 0에 가까우면 값이 채워지지 않습니다.
 
@@ -119,7 +107,7 @@ ht-degree: 6%
 
 Adobe Experience Platform 설명서에서 자세히 알아보십시오.
 
-* [라이선스 사용 대시보드 개요](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=ko){target="_blank"}
-* [라이선스 사용 대시보드 살펴보기](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=ko#exploring-the-license-usage-dashboard){target="_blank"}
+* [라이선스 사용 대시보드 개요](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html){target="_blank"}
+* [라이선스 사용 대시보드 살펴보기](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#exploring-the-license-usage-dashboard){target="_blank"}
 * [사용 가능한 지표](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=ko#available-metrics){target="_blank"}
-* [익명 프로필 데이터 만료](https://experienceleague.adobe.com/docs/experience-platform/profile/pseudonymous-profiles.html?lang=ko){target="_blank"}
+* [익명 프로필 데이터 만료](https://experienceleague.adobe.com/docs/experience-platform/profile/pseudonymous-profiles.html){target="_blank"}

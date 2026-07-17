@@ -10,24 +10,12 @@ level: Intermediate, Experienced
 keywords: 이벤트, 이벤트, 여정, 정의, 시작
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
 TQID: https://experienceleague.adobe.com/xvLSBd-rwKKNqwQNDa4D8GfFzc-ND1FkC3EdstufkIY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: d08afb72-92f6-4856-88e3-11ec34313c2fid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 6657a77a27455643fa0fb3d94a4d7e3ab83e6843
 workflow-type: tm+mt
 source-wordcount: 2409
@@ -263,8 +251,8 @@ Adobe Journey Optimizer에서는 모든 샌드박스에 대해 조직 수준에�
 
 이벤트를 구성하고 이벤트에 대한 스트리밍 엔드포인트 및 페이로드를 지정하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431519?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 비즈니스 이벤트의 사용 사례를 이해합니다. 비즈니스 이벤트를 사용하여 여정을 작성하는 방법과 상황에 따라 적합한 모범 사례를 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416327?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)

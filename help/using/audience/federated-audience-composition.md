@@ -8,12 +8,8 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 90328ba9-e6b0-4105-abcf-3e3a9ed41aa6
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
 source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
 source-wordcount: 267
@@ -44,4 +40,4 @@ Adobe의 실시간 크로스 채널 사용 사례를 보완하는 데이터 사�
 
 비디오에서 Federated Audience 구성에 대해 자세히 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3450890?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3432261?quality=12)
