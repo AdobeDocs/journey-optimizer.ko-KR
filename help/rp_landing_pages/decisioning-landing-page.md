@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서의 의사 결정
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 Adobe Journey Optimizer의 의사 결정 관리
 

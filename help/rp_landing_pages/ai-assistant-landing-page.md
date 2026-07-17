@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 AI 어시스턴트는 생성형 AI를 활용하여 �
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 AI 어시스턴트 시작
 
@@ -30,7 +30,7 @@ AI 어시스턴트 시작
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
 
 전체 콘텐츠 생성
 
@@ -40,7 +40,7 @@ AI 어시스턴트를 활용하여 이메일, 푸시 알림, 웹 페이지 및 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=ko)
 
 텍스트만 생성
 
@@ -50,7 +50,7 @@ AI 어시스턴트를 사용하여 이메일, SMS, 푸시 알림, 웹 페이지 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=ko)
 
 이미지만 생성
 
