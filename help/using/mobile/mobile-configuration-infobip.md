@@ -42,7 +42,7 @@ Infobip을 Adobe Journey Optimizer과 통합하여 여정 및 캠페인의 일�
 Infobip를 SMS 공급자로 구성하려면 아래 단계를 따르십시오.
 
 1. [API 자격 증명 만들기](#api-credential)
-1. [웹후크 만들기](mobile-webhook.md)
+1. [Webhook 만들기](mobile-webhook.md)
 1. [채널 구성 만들기](mobile-configuration-surface.md)
 1. [SMS 채널 작업으로 여정 또는 캠페인 만들기](create-mobile-message.md)
 

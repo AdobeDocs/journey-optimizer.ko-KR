@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5201f92a07a911fe1fbbb5b6adeb4c63841c1dc3
+source-git-commit: cc7181975bf21a8464dca60422b045e0f047b511
 workflow-type: tm+mt
-source-wordcount: 3059
+source-wordcount: 3064
 ht-degree: 74%
 
 ---
@@ -119,7 +119,9 @@ ht-degree: 74%
 
 새 UI로 전환하려면 **[!UICONTROL 새 경험]** 단추를 클릭하세요. 이 설정은 여정 수준에서 저장되므로 기본적으로 여정은 새 경험에서 다시 열립니다. 되돌리려면 **[!UICONTROL 이전 경험]**&#x200B;을 클릭하세요. [자세히 알아보기](../building-journeys/using-the-journey-designer.md#canvas-capabilities)
 
-![](../building-journeys/assets/journey-new-experience-switch.png){width="50%" align="center" zoomable="yes"}
+![](../building-journeys/assets/journey-new-experience-switch.png)
+
+사용 가능한 날짜: 2026년 7월 16일
 
 
 ## 2026년 6월 릴리스 정보 {#june-26-rn}

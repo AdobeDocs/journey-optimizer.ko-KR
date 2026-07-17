@@ -60,7 +60,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_conflict"
 >title="잠재적 충돌 보기"
->abstract="충돌은 라이브 및 예약된 캠페인에만 표시됩니다. 충돌은 라이브 및 예약된 캠페인에만 표시됩니다. 다음 설정 중 하나를 할당하면 바로 버튼을 사용할 수 있습니다. **[!UICONTROL 시작/종료 날짜]**, **[!UICONTROL 대상자]**, **[!UICONTROL 채널]**, **[!UICONTROL 채널 구성]** 및 **[!UICONTROL 규칙 세트]**."
+>abstract="다른 캠페인과 중복될 가능성이 있는지 항상 확인하십시오. 충돌은 라이브 및 예약된 캠페인에만 표시됩니다. 다음 설정 중 하나를 할당하면 바로 버튼을 사용할 수 있습니다. **[!UICONTROL 시작/종료 날짜]**, **[!UICONTROL 대상자]**, **[!UICONTROL 채널]**, **[!UICONTROL 채널 구성]** 및 **[!UICONTROL 규칙 세트]**."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_conflict"

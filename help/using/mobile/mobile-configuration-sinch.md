@@ -49,7 +49,7 @@ Journey Optimizer에서 Sinch 공급자를 사용하는 경우 세 가지 고유
 Sinch 공급자를 구성하려면 아래 단계를 수행하십시오.
 
 1. [API 자격 증명 만들기](#create-api)
-1. [웹후크 만들기](mobile-webhook.md)
+1. [Webhook 만들기](mobile-webhook.md)
 1. [채널 구성 만들기](mobile-configuration-surface.md)
 1. [SMS 채널 작업으로 여정 또는 캠페인 만들기](create-mobile-message.md)
 
