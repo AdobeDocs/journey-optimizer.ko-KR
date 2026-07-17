@@ -57,7 +57,7 @@ Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보세�
 
 ::::landing-cards-container
 :::
-![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 최신 릴리스 정보
 
@@ -67,7 +67,7 @@ Adobe Journey Optimizer의 최신 릴리스 정보, 신규 기능, 개선 사항
 :::
 
 :::
-![아이콘](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 시작
 
@@ -77,7 +77,7 @@ Journey Optimizer의 기능, 아키텍처, 사용자 인터페이스 등 기본 
 :::
 
 :::
-![아이콘](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 여정 종합 안내서
 
@@ -97,7 +97,7 @@ Journey Optimizer의 기능, 아키텍처, 사용자 인터페이스 등 기본 
 :::
 
 :::
-![아이콘](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
 
 커뮤니케이션 채널
 

@@ -70,7 +70,7 @@ HTML 콘텐츠를 볼 수 없는 수신자를 위해 이메일의 일반 텍스�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=ko)
 
 AI 받은 편지함에 대한 이메일 텍스트 최적화
 

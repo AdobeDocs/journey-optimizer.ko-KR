@@ -40,7 +40,7 @@ Adobe Journey Optimizer의 이벤트 구성
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 Adobe Journey Optimizer의 데이터 소스 구성
 
