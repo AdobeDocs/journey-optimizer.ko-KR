@@ -4,23 +4,19 @@ product: journey optimizer
 title: Adobe Journey Optimizer 릴리스 주기
 feature: Release Notes
 description: Adobe Journey Optimizer 릴리스 주기 이해
+keywords: 릴리스 주기, Beta, 제한된 가용성, 일반 가용성, GA, LA, 릴리스 정보
+role: User
+level: Beginner, Intermediate
 exl-id: 344ae3cf-923c-4f0e-b3bc-0313993243c8
 TQID: https://experienceleague.adobe.com/u8FJOgdav9VhwCk4CzrJoLrbFkVAa7BO83BCZ4SWsBc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
-workflow-type: ht
-source-wordcount: 943
-ht-degree: 100%
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 1f2a71d3323b6a64b346a83aa58b23aed035eb29
+workflow-type: tm+mt
+source-wordcount: 993
+ht-degree: 90%
 
 ---
 
@@ -55,7 +51,7 @@ ht-degree: 100%
 
 ## 릴리스 경로 {#release-paths}
 
-Journey Optimizer의 기능은 복잡성, 종속성 및 범위에 따라 다른 릴리스 경로를 따릅니다. 이 플랫폼에서는 몇 가지 가용성 레이블(Beta, 제한된 가용성, 일반 가용성)을 사용하지만, 모든 기능이 이러한 레이블을 모두 거치는 것은 아닙니다.
+[!DNL Journey Optimizer]의 기능은 복잡성, 종속성 및 범위에 따라 다른 릴리스 경로를 따릅니다. 이 플랫폼에서는 몇 가지 가용성 레이블(Beta, 제한된 가용성, 일반 가용성)을 사용하지만, 모든 기능이 이러한 레이블을 모두 거치는 것은 아닙니다.
 
 일반적인 릴리스 경로는 다음과 같습니다.
 
@@ -70,6 +66,8 @@ Journey Optimizer의 기능은 복잡성, 종속성 및 범위에 따라 다른 
 
 
 ## 가용성 레이블 {#availability-labels}
+
+아래 표는 릴리스 경로 전체에 걸쳐 사용된 각 가용성 레이블, 액세스 및 지원에 대한 의미 및 각 단계에서 예상되는 사항에 대해 설명합니다.
 
 | **레이블** | **용도** | **가용성** | **주요 메모** |
 |------------|-------------|------------------|----------------|
@@ -94,21 +92,21 @@ GA 발표 후에도 조직 또는 지역별로 점진적 롤아웃이 발생할 
 * 출시 예정 기능을 미리 보려면 **사전 릴리스 정보**(이용 가능한 경우)를 모니터링하세요.
 * Beta 또는 제한된 가용성 액세스 또는 자격 정보는 Adobe 담당자에게 문의하세요.
 
-Journey Optimizer 제품 릴리스에 대한 **이메일 및 제품 내 경고**&#x200B;를 구독할 수 있습니다. 구독하려면
+[!DNL Journey Optimizer] 제품 릴리스에 대한 **전자 메일 및 제품 내 경고**&#x200B;를 구독할 수 있습니다. 구독하려면
 
 1. **Adobe Experience Cloud 환경 설정**&#x200B;으로 이동하십시오.
 1. **알림**&#x200B;에서 **Journey Optimizer** 찾기
 1. **새 릴리스** 인앱 및 이메일 알림 활성화
 
-![](assets/do-not-localize/pulse-notif.png){width="70%"}
+경고, 승인 및 새 릴리스 범주에 대해 인앱 및 이메일 알림이 활성화된 Journey Optimizer용 ![Adobe Experience Cloud 알림 환경 설정 패널](assets/do-not-localize/pulse-notif.png){width="70%"}
 
 ## 자주 묻는 질문 {#faq}
 
-Adobe Journey Optimizer 릴리스 주기에 대한 자주 묻는 질문(FAQ)은 다음과 같습니다.
+[!DNL Adobe Journey Optimizer] 릴리스 주기에 대한 FAQ는 다음과 같습니다.
 
 세부 정보가 필요하신가요? 이 페이지 하단의 피드백 옵션을 사용하여 질문하거나 [Adobe Journey Optimizer 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"}와 연결하세요.
 
-+++ Adobe Journey Optimizer 릴리스는 언제로 예정되어 있나요?
++++ [!DNL Adobe Journey Optimizer] 릴리스는 언제 예약됩니까?
 
 [!DNL Adobe Journey Optimizer]는 일반적으로 매월 마지막 주에 업데이트를 릴리스합니다. 매 분기 말에는 교차 솔루션 또는 플랫폼 전체 업데이트에 맞춰 릴리스가 최대 2주 정도 앞당겨질 수 있습니다.
 
@@ -130,7 +128,7 @@ Adobe Journey Optimizer 릴리스 주기에 대한 자주 묻는 질문(FAQ)은 
 
 +++ 모든 기능은 Beta 및 제한된 가용성 단계를 거치나요?
 
-아니요. 일부 기능은 성격과 준비 정도에 따라 GA로 바로 출시되거나 LA로만 출시됩니다.릴리스 경로는 민첩성, 품질 및 안정성의 균형을 맞추기 위해 각 기능에 맞게 조정됩니다.
+아니요. 일부 기능은 성격과 준비 정도에 따라 GA로 바로 출시되거나 LA로만 출시됩니다. 릴리스 경로는 민첩성, 품질 및 안정성의 균형을 맞추기 위해 각 기능에 맞게 조정됩니다.
 
 +++
 

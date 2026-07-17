@@ -4,30 +4,27 @@ product: journey optimizer
 title: 새 여정 인터페이스
 feature: Release Notes
 topic: Content Management
-description: 새 여정 인터페이스
+description: Journey Optimizer 여정에 도입된 새로운 간소화된 여정 모델, 재설계된 여정 캔버스 UI 및 라이브 보고에 대해 알아봅니다.
+keywords: 여정 캔버스, 새 여정 모델, 라이브 보고, 여정 디자이너
+role: User
+level: Beginner, Intermediate
 hide: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
 TQID: https://experienceleague.adobe.com/-QKSnBRN9yPYEq5ay9wD-uf4lLduJqmtlFWDnLYt1gk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 1f2a71d3323b6a64b346a83aa58b23aed035eb29
 workflow-type: tm+mt
-source-wordcount: 558
-ht-degree: 2%
+source-wordcount: 727
+ht-degree: 1%
 
 ---
 
 # 향상된 Journey Designer 시작하기 {#new-canvas}
 
-이제 Journey Optimizer은 사용자 경험과 내부 프로세스를 개선하는 것을 목표로 하는 **간소화된 여정 모델**&#x200B;을 제공합니다. 4월 릴리스부터 다음과 같은 기능을 사용할 수 있습니다.
+이제 [!DNL Journey Optimizer]에서 사용자 경험과 내부 프로세스를 개선하는 데 목적을 둔 **간소화된 여정 모델**&#x200B;을 제공합니다. 4월 릴리스부터 다음과 같은 기능을 사용할 수 있습니다.
 
 * 현대화된 UI 경험을 위해 **다시 디자인된 여정 캔버스**
 * 여정 캔버스에서 직접 사용할 수 있는 **라이브 보고** UI
@@ -36,7 +33,9 @@ ht-degree: 2%
 >
 >이 기능의 롤아웃은 점진적입니다. 변경 사항이 바로 표시되지 않을 수 있습니다.
 
-## 여정 모델에 대한 업데이트
+새 캔버스에서 여정 빌드에 대한 자세한 내용은 [여정 디자이너 사용](../building-journeys/using-the-journey-designer.md#canvas-capabilities)을 참조하세요.
+
+## 여정 모델에 대한 업데이트 {#updates-journey-model}
 
 새 여정 모델은 기존 모델과 함께 사용됩니다. 즉, **다른 모델 두 개**&#x200B;를 사용하는 여정이 있습니다.
 
@@ -47,7 +46,7 @@ ht-degree: 2%
 
 아래 스크린샷에서 볼 수 있듯이 노드는 라운드 형태입니다. 이는 레거시 모델의 여정에 대한 이전 UI입니다.
 
-![](assets/new-canvas.png)
+![AirportBeacon 및 Email에 대한 둥근 모양의 활동 노드를 표시하는 레거시 여정 캔버스, 간단한 가로 흐름으로 연결됨](assets/new-canvas.png)
 
 그러나 **새 여정을 만들거나** **기존 템플릿을 복제하거나**&#x200B;하면 새 모델이 됩니다. 기존 모델의 여정은 대부분의 고객이 새 고객으로 전환될 때까지 계속 지원됩니다.
 
@@ -55,32 +54,32 @@ ht-degree: 2%
 
 아래 스크린샷에는 여정 캔버스에 대해 다시 설계된 UI가 표시됩니다(새 모델에서만 사용 가능).
 
-![](assets/new-canvas2.png)
+![환영 전자 메일 및 Slack 메시지 활동에 분기하는 정사각형 활동 상자(충성도 멤버 대상, 조건 읽기)를 표시하는 다시 디자인된 여정 캔버스](assets/new-canvas2.png)
 
 **여정 디자이너에 추가된 새 기능(실시간 보고 포함)은 이 시점부터 새 모델의 여정에 대해서만 사용할 수 있습니다.**
 
-## 향상된 여정 캔버스 디자인
+## 향상된 여정 캔버스 디자인 {#improved-canvas-design}
 
 새로운 여정 모델을 통해 [!DNL Adobe CX Enterprise] 솔루션 및 앱 에코시스템에 완벽하게 맞는 새롭고 개선된 **여정 캔버스 UI**&#x200B;를 도입하여 직관적이고 효율적인 사용자 경험을 제공합니다. 새 모델의 모든 여정은 해당 새 디자인을 기반으로 합니다.
 
-![](assets/new-canvas3.gif)
+![시작, 충성도 멤버 읽기-대상 활동 및 끝 노드가 있는 여정을 보여주는 새로운 여정 캔버스 디자인의 애니메이션 데모](assets/new-canvas3.gif)
 
 이제 활동이 다음 기능의 사각형 상자로 표시됩니다.
 
-* 활동 유형을 나타내는 첫 번째 줄은 더 많은 컨텍스트 정보(대상 읽기에서 선택한 대상의 이름이 포함됨)로 덮어쓰거나, 하나를 정의하는 경우 사용자 지정 레이블로 덮어쓰는 경우가 많습니다.
+* 첫 번째 줄은 더 많은 상황별 정보(대상 읽기에서, 선택한 대상의 이름이 포함됨)로 덮어쓰이거나 하나를 정의하는 경우 사용자 지정 레이블로 덮어쓰는 활동 유형을 나타냅니다.
 * 두 번째 줄은 항상 활동 유형을 나타냅니다.
 
-![](assets/new-canvas4.png)
+![첫 번째 줄의 활동 레이블 &quot;충성도 멤버&quot;와 두 번째 줄의 활동 유형 &quot;대상자 읽기&quot;를 표시하는 활동 상자](assets/new-canvas4.png)
 
 이 새 UI는 **더 명확한 활동 레이블 및 유형**&#x200B;을 제공하여 여정 캔버스의 가독성을 향상시킵니다.
 
 또한 제품 팀이 클릭 수를 줄여 캔버스에 정보를 추가할 수 있습니다. &quot;추가 정보&quot;의 한 가지 예는 여정 캔버스에 라이브 보고를 포함하여, 오류로 인해 활동이 들어오고 나가는 프로필을 볼 수 있는 것입니다.
 
-![](assets/new-canvas5.png)
+![56개의 프로필이 입력되어 있고 충성도 멤버 활동에 대한 오류가 0개인 실시간 보고 지표가 있는 활동 상자](assets/new-canvas5.png)
 
-## 여정 캔버스에서 라이브 보고
+## 여정 캔버스에서 라이브 보고 {#live-reporting-canvas}
 
-향상된 여정 캔버스 레이아웃 외에도 사용자가 **최근 24시간**&#x200B;의 실시간 보고 지표(실시간 보고)를 여정 캔버스 내에서 직접 볼 수 있는 새로운 기능이 도입되었습니다.
+향상된 여정 캔버스 레이아웃 외에도 사용자가 **최근 24시간**&#x200B;의 실시간 보고 지표(실시간 보고)를 여정 캔버스 내에서 직접 볼 수 있는 새로운 기능이 도입되었습니다. 이는 기존 [여정 실시간 보고서](../reports/journey-live-report.md)를 보완합니다.
 
 새 모델을 사용하는 모든 라이브 여정 내의 각 활동에 대해 다음에 액세스할 수 있습니다.
 
@@ -88,7 +87,7 @@ ht-degree: 2%
 * 이 활동에 들어가는 프로필 수입니다.
 * 오류로 인해 이 활동을 종료하는 프로필 수입니다.
 
-![](assets/new-canvas6bis.png)
+![테스트 프로필, 조건 및 여러 경로에 걸친 여러 Slack 사용자 지정 작업을 포함하여 각 활동에 대해 입력된 항목 및 오류 수를 표시하는 라이브 여정 캔버스](assets/new-canvas6bis.png)
 
 <!--
 `
