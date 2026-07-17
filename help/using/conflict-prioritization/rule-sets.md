@@ -10,20 +10,12 @@ level: Intermediate
 keywords: 메시지, 빈도, 규칙, 압력
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
 TQID: https://experienceleague.adobe.com/lGYAilnXh7r01VhcdRj-lGArRw7OK3gg2npwBKY5VWw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-  - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: fd59660e-de8a-4bfb-85dc-7fa546030c49
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
 source-wordcount: 1095
@@ -42,7 +34,7 @@ ht-degree: 32%
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_rule_sets"
 >title="규칙 세트"
->abstract="규칙 세트를 사용하여 빈도 상한 설정 또는 방해 금지 시간대 규칙을 다양한 유형의 마케팅 커뮤니케이션에 적용합니다. 빈도 캡핑 설정 규칙에 따라 대상자의 일부로 향하는 여정을 제외하는 규칙 세트를 만들 수도 있습니다."
+>abstract="규칙 세트를 사용하여 빈도 상한 설정 또는 방해 금지 시간대 규칙을 다양한 유형의 마케팅 커뮤니케이션에 적용합니다. 빈도 상한 설정 규칙에 따라 대상자의 일부로 향하는 여정을 제외하는 규칙 세트를 만들 수도 있습니다."
 
 ## 규칙 세트 시작 {#gs}
 
@@ -103,7 +95,7 @@ NOT USED?
 >[!CONTEXTUALHELP]
 >id="ajo_rule_type"
 >title="규칙 유형"
->abstract="채널 규칙 세트에 원하는 규칙 유형을 선택합니다. **빈도 캡핑** 유형을 사용하여 커뮤니케이션 채널에 캡핑 규칙을 적용합니다. 예를 들어 하루에 1회 이상의 이메일 또는 SMS 커뮤니케이션을 보내지 않도록 합니다. **방방해 금지 시간대(제한된 가용성에서 사용 가능)** 유형을 선택하여 시간 기반 제외를 정의하고 특정 시간대에는 메시지가 전송되지 않도록 합니다."
+>abstract="채널 규칙 세트에 적용할 규칙 유형을 선택하십시오. **빈도 상한 설정** 유형을 사용하여 커뮤니케이션 채널에 상한 설정 규칙을 적용합니다. 예를 들어 하루에 1회 이상의 이메일 또는 SMS 커뮤니케이션을 보내지 않도록 합니다. **방방해 금지 시간대(제한된 가용성에서 사용 가능)** 유형을 선택하여 시간 기반 제외를 정의하고 특정 시간대에는 메시지가 전송되지 않도록 합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_duration"
@@ -203,4 +195,4 @@ NOT USED?
 
 ## 사용 방법 비디오 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444733?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

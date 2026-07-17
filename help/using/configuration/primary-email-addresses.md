@@ -10,21 +10,12 @@ level: Intermediate
 keywords: 기본, 실행, 이메일, 타겟, 프로필, 최적화 도구
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 TQID: https://experienceleague.adobe.com/bW7YGYcmbpwNJtZHadjsbuMXjBRFDnt3uSk0Ap8IJ5U
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: efb19423-4da4-4fd1-88d8-5ee8c71ae766
-  - id: fae48155-b23f-40d2-a252-a25bce350b4d
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: efb19423-4da4-4fd1-88d8-5ee8c71ae766id: fae48155-b23f-40d2-a252-a25bce350b4d
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
 source-wordcount: 682
@@ -43,7 +34,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address"
 >title="사용할 주소 정의"
->abstract="데이터베이스에서 여러 이메일 주소 또는 전화번호를 사용하는 경우(개인용, 업무용 등) 전송의 우선순위를 지정할 수 있는 항목을 선택할 수 있습니다."
+>abstract="데이터베이스에서 여러 이메일 주소 또는 전화번호(개인용, 업무용 등)를 사용하는 경우, 전송 시 우선순위를 지정할 수 있는 항목을 선택할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address_header"
@@ -119,7 +110,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_execution_address"
 >title="사용할 기본 실행 주소 재정의"
->abstract="데이터베이스에서 여러 이메일 주소 또는 전화번호를 사용하는 경우(개인용, 업무용 등) 전송의 우선순위를 지정할 수 있는 항목을 선택할 수 있습니다. 기본 주소는 샌드박스 수준에서 정의되지만 여기서 이 특정 채널 구성에 대한 기본 설정을 재정의할 수 있습니다."
+>abstract="데이터베이스에서 여러 이메일 주소 또는 전화번호(개인용, 업무용 등)를 사용하는 경우, 전송 시 우선순위를 지정할 수 있는 항목을 선택할 수 있습니다. 기본 주소는 샌드박스 수준에서 정의되지만, 여기서는 해당 채널 구성에 대한 기본 설정을 재정의할 수 있습니다."
 
 특정 이메일, SMS 또는 WhatsApp [채널 구성](channel-surfaces.md)에 대한 기본 실행 주소를 변경할 수 있습니다.
 

@@ -8,20 +8,12 @@ level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/WycI0aO1o4KFH1gNieayuhpyNZuoVxL6zhGJBNOht8g
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
 source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
 source-wordcount: 1775
@@ -63,7 +55,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_formulas"
 >title="순위 공식 만들기"
->abstract="공식을 사용하면 우선순위 점수를 고려하지 않고 먼저 표시할 결정 항목을 정하는 규칙을 정의할 수 있습니다. 순위 공식이 만들어지면 이를 선택 전략에 할당할 수 있습니다."
+>abstract="공식을 사용하면 항목의 우선순위 점수를 고려하지 않고 먼저 표시할 결정 항목을 정하는 규칙을 정의할 수 있습니다. 순위 공식이 만들어지면 이를 선택 전략에 할당할 수 있습니다."
 
 순위 공식을 만들려면 아래 단계를 수행합니다.
 

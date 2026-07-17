@@ -5,19 +5,12 @@ role: User
 level: Beginner
 exl-id: efbb5ac4-4c07-4c62-9460-39eb4fed129a
 TQID: https://experienceleague.adobe.com/aHKVhTvmIDcKAshlobAfBBOt8XtpA-cFWdHJxLfovQo
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
-subfeature_v2:
-  - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: fd59660e-de8a-4bfb-85dc-7fa546030c49
+subfeature_v2: id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
 source-wordcount: 781
@@ -60,12 +53,12 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_conflict"
 >title="잠재적 충돌 보기"
->abstract="다른 캠페인과 중복될 가능성이 있는지 항상 확인하십시오. 충돌은 라이브 및 예약된 캠페인에만 표시됩니다. 다음 설정 중 하나를 할당하면 바로 버튼을 사용할 수 있습니다. **[!UICONTROL 시작/종료 날짜]**, **[!UICONTROL 대상자]**, **[!UICONTROL 채널]**, **[!UICONTROL 채널 구성]** 및 **[!UICONTROL 규칙 세트]**."
+>abstract="다른 캠페인과 중복될 가능성이 있는지 항상 확인하십시오. 충돌은 라이브 및 예약된 캠페인에만 표시됩니다. **[!UICONTROL 시작/종료 일자]**, **[!UICONTROL 대상자]**, **[!UICONTROL 채널]**, **[!UICONTROL 채널 구성]** 및 **[!UICONTROL 규칙 세트]** 중 하나라도 설정을 지정하면 해당 버튼이 활성화됩니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_conflict"
 >title="잠재적 충돌 보기"
->abstract="다른 여정과 중복될 가능성이 있을 때마다 확인합니다. 충돌은 라이브 및 예약된 여정에만 표시됩니다. 다음 설정 중 하나를 할당하면 바로 버튼을 사용할 수 있습니다. **[!UICONTROL 시작/종료 날짜]**, **[!UICONTROL 대상자]**, **[!UICONTROL 채널]**, **[!UICONTROL 채널 구성]** 및 **[!UICONTROL 규칙 세트]**."
+>abstract="다른 여정과 중복될 가능성이 있을 때마다 확인합니다. 충돌은 라이브 및 예약된 여정에만 표시됩니다. **[!UICONTROL 시작/종료 일자]**, **[!UICONTROL 대상자]**, **[!UICONTROL 채널]**, **[!UICONTROL 채널 구성]** 및 **[!UICONTROL 규칙 세트]** 중 하나라도 설정을 지정하면 해당 버튼이 활성화됩니다."
 
 Journey Optimizer을 사용하면 여정 또는 캠페인을 작성할 때 다른 여정 또는 캠페인과 겹칠 가능성이 있을 때마다 확인할 수 있습니다. 이렇게 하려면 다음 단계를 수행합니다.
 
