@@ -10,20 +10,12 @@ level: Intermediate
 keywords: 메시지, 빈도, 규칙, 압력
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
 TQID: https://experienceleague.adobe.com/lGYAilnXh7r01VhcdRj-lGArRw7OK3gg2npwBKY5VWw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-  - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: fd59660e-de8a-4bfb-85dc-7fa546030c49
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
 source-wordcount: 1095
@@ -54,8 +46,8 @@ ht-degree: 32%
 
 * **채널** 규칙 집합은 통신 채널에 규칙을 적용합니다. 이를 통해 다음을 설정할 수 있습니다.
 
-   * **빈도 제한 규칙** - *하루에 1개 이상의 전자 메일, SMS, 푸시, DM 또는 WhatsApp 통신을 보내지 마십시오.*
-   * **방해 금지 시간 규칙** - *오전 8시~오후 9시 타임슬롯 이외의 시간에 전자 메일 메시지를 보내지 마십시오.*
+  * **빈도 제한 규칙** - *하루에 1개 이상의 전자 메일, SMS, 푸시, DM 또는 WhatsApp 통신을 보내지 마십시오.*
+  * **방해 금지 시간 규칙** - *오전 8시~오후 9시 타임슬롯 이외의 시간에 전자 메일 메시지를 보내지 마십시오.*
 
 * **여정** 규칙 집합은 시작 및 동시성 최대 가용량 규칙을 여정에 적용합니다. 예를 들어 두 개 이상의 여정에 동시에 프로필을 입력하지 마십시오.
 
@@ -203,4 +195,4 @@ NOT USED?
 
 ## 사용 방법 비디오 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444733?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

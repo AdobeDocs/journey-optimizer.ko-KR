@@ -9,14 +9,11 @@ role: User
 level: Intermediate
 keywords: 예약된 일괄 처리, 일정, 캠페인, 여정, 전달성
 exl-id: 6d53d817-78f6-4d00-8ff0-8a848c618435
-feature_v2:
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-subfeature_v2:
-  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
-  - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+feature_v2: id: a653cc2e-bc85-4353-a306-399e5b247978
+subfeature_v2: id: f7479fa1-474b-479d-8c98-f6cee5865a38id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
 source-git-commit: 76fd78f66bc69b228b794bcd129a48b65028c1cb
 workflow-type: tm+mt
-source-wordcount: 966
+source-wordcount: 974
 ht-degree: 1%
 
 ---
@@ -78,7 +75,7 @@ Journey Optimizer을 사용하면 예약된 일괄 처리 수, 크기(대상의 
 >
 >두 예약된 일괄 처리 시작 사이의 최소 간격은 **30분**&#x200B;입니다.
 
-그런 다음 시스템은 후속 웨이브를 자동으로 예약합니다(예: 오전 9:00에 첫 번째 웨이브, 오전 11:00에 두 번째 웨이브, 오후 1:00에 세 번째 웨이브, 오후 3:00에 네 번째 웨이브).
+그런 다음 시스템은 후속 웨이브를 자동으로 스케줄링합니다(예: 오전 9시에 첫 번째 웨이브가, 오전 11시에 두 번째 웨이브가, 오후 1시에 세 번째 웨이브가, 오후 3시에 네 번째 웨이브가).
 
 ### 사용자 지정 배포 {#custom-distribution}
 

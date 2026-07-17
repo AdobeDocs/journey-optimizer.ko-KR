@@ -6,7 +6,7 @@ description: Journey Optimizer 의사 결정에서 Adobe Experience Platform 컨
 redpen-status: CREATED_||_2025-08-11_20-56-30
 exl-id: 54df881d-f204-4979-89ce-45de2eb7b822
 source-git-commit: 249f39d83c6495524d5e53532b5ae55d59a46d04
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer는 Adobe Experience Platform의 풍부한 데이터를 �
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 의사 결정에 컨텍스트 데이터 활용
 
@@ -30,7 +30,7 @@ Adobe Experience Platform의 컨텍스트 데이터를 Adobe Journey Optimizer D
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 의사 결정을 위해 Adobe Experience Platform 데이터 사용
 

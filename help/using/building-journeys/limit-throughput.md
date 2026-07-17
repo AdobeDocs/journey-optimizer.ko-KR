@@ -10,18 +10,11 @@ keywords: 여정, 데이터 소스, 제한, 처리량, 사용자 지정, 작업
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/r96xAEjUJDufjpxGMrxoYS0VthagaSyYdS9NQttT9x0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
 source-wordcount: 1454
@@ -85,12 +78,12 @@ ht-degree: 3%
 1. 그런 다음 각 분기에 특정 타이머가 있는 대기 활동을 추가합니다. 여기서는 각 항목을 30초 동안 대기하도록 설정했습니다. 매 초마다 100개의 프로필이 각 분기로 유입됩니다.
 
    * 분기 1에서 30초 동안 대기하며, 이는 다음을 의미합니다.
-      * 두 번째 1에서는 100개의 프로필이 두 번째 31을 기다립니다.
-      * 두 번째 2에서는 100개의 프로필이 두 번째 32개를 기다립니다.
+     * 두 번째 1에서는 100개의 프로필이 두 번째 31을 기다립니다.
+     * 두 번째 2에서는 100개의 프로필이 두 번째 32개를 기다립니다.
 
    * 2분기에서는 60초 동안 대기하며, 이는 다음을 의미합니다.
-      * 두 번째 1에서는 100개의 프로필이 두 번째 61(1&#39;01&#39;&#39;)을 기다립니다.
-      * 두 번째 2에서는 100개의 프로필이 두 번째 62(1&#39;02&#39;&#39;)를 기다립니다.
+     * 두 번째 1에서는 100개의 프로필이 두 번째 61(1&#39;01&#39;&#39;)을 기다립니다.
+     * 두 번째 2에서는 100개의 프로필이 두 번째 62(1&#39;02&#39;&#39;)를 기다립니다.
 
    * 최대 20초가 모든 프로필을 읽을 것으로 예상되므로 각 분기 간에 겹치는 부분이 없으며 프로필이 조건으로 유입되는 마지막 부분이 20초입니다. 두 번째 31과 두 번째 51 사이에서 분기 1의 모든 프로필이 처리됩니다. 두 번째 61(1&#39;01&#39;&#39;)과 두 번째 81(1&#39;21&#39;&#39;) 사이에 분기 2의 모든 프로필이 처리됩니다.
 

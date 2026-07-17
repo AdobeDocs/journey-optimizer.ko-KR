@@ -11,24 +11,15 @@ level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/ZnlEExKq7uM-qxcva2e0MxLFHXwGoW00axWjS-XaTZo
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 873
+source-wordcount: 2047
 ht-degree: 3%
 
 ---
@@ -103,7 +94,7 @@ ht-degree: 3%
 
 **필드:** 특성
 **제목:** 결정 옵션 특성
-**설명:** 특성은 특정 결정 옵션에 속하는 오퍼의 추가 특성 또는 속성입니다. 이러한 속성은 키 값 쌍으로, 값이 연결된 속성 이름(키라고도 함)을 포함하며, 하나의 의사 결정 옵션을 다른 오퍼와 구별하는 데 사용됩니다. 예를 들어 특성 이름 &quot;color&quot;의 경우 특정 오퍼의 값이 &quot;green&quot;일 수 있습니다.<!--Characteristics are used as values in content that represents this decision option and as features to analyze and optimize the performance of an offer. When every instance has the same attribute or property, that aspect should be modeled as an extension schema that derives from the decision option detail.-->
+**설명:** 특성은 특정 결정 옵션에 속하는 오퍼의 추가 특성 또는 속성입니다. 이러한 속성은 키 값 쌍으로, 값이 연결된 속성 이름(키라고도 함)을 포함하며, 하나의 의사 결정 옵션을 다른 오퍼와 구별하는 데 사용됩니다. 예를 들어 속성 이름 &quot;color&quot;의 경우 값은 특정 오퍼의 경우 &quot;green&quot;일 수 있습니다.<!--Characteristics are used as values in content that represents this decision option and as features to analyze and optimize the performance of an offer. When every instance has the same attribute or property, that aspect should be modeled as an extension schema that derives from the decision option detail.-->
 **유형:** 개체
 
 +++
@@ -139,52 +130,52 @@ ht-degree: 3%
   **유형:** 개체
   **필수:** &quot;형식&quot;
 
-   * **형식**
+  * **형식**
 
-     **필드:** 형식
-     **제목:** 형식
-     **설명:** 리소스의 실제 또는 디지털 표시입니다. 일반적으로 형식에는 리소스의 미디어 유형이 포함되어야 합니다. 포맷을 사용하여 리소스를 표시하거나 운영하는 데 필요한 소프트웨어, 하드웨어 또는 기타 장비를 결정할 수 있습니다. 권장 모범 사례는 통제 어휘(예: 컴퓨터 미디어 형식을 정의하는 [인터넷 미디어 유형](https://www.iana.org/assignments/media-types/) 목록)에서 값을 선택하는 것입니다.
-     **유형:** 문자열
-     **예:** &quot;application/vnd.adobe.photoshop&quot;
+    **필드:** 형식
+    **제목:** 형식
+    **설명:** 리소스의 실제 또는 디지털 표시입니다. 일반적으로 형식에는 리소스의 미디어 유형이 포함되어야 합니다. 포맷을 사용하여 리소스를 표시하거나 운영하는 데 필요한 소프트웨어, 하드웨어 또는 기타 장비를 결정할 수 있습니다. 권장 모범 사례는 통제 어휘(예: 컴퓨터 미디어 형식을 정의하는 [인터넷 미디어 유형](https://www.iana.org/assignments/media-types/) 목록)에서 값을 선택하는 것입니다.
+    **유형:** 문자열
+    **예:** &quot;application/vnd.adobe.photoshop&quot;
 
-   * **언어**
-     **필드:** 언어
-     **제목:** 언어
-     **설명:** 리소스의 언어입니다. \n언어는 XDM의 다른 곳에서 사용되는 BCP 47의 일부인 [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt)에 정의된 대로 언어 코드에 지정됩니다.
-     **유형:** 배열
-     **예:** &quot;\n&quot;, &quot;pt-BR&quot;, &quot;es-ES&quot;
+  * **언어**
+    **필드:** 언어
+    **제목:** 언어
+    **설명:** 리소스의 언어입니다. \n언어는 XDM의 다른 곳에서 사용되는 BCP 47의 일부인 [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt)에 정의된 대로 언어 코드에 지정됩니다.
+    **유형:** 배열
+    **예:** &quot;\n&quot;, &quot;pt-BR&quot;, &quot;es-ES&quot;
 
 * **_experience > 의사 결정 > 콘텐츠 > 구성 요소 > _repo**
 
   **필드:** _repo
   **유형:** 개체
 
-   * **id**
+  * **id**
 
-     **필드:** ID
-     **설명:** 콘텐츠 저장소의 자산을 참조하는 선택적 고유 식별자입니다. Platform API를 사용하여 표현을 검색하는 경우 클라이언트는 추가 속성 \&quot;repo:resolveUrl\&quot;를 사용하여 에셋을 검색할 수 있습니다.
-     **유형:** 문자열
-     **예:** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
+    **필드:** ID
+    **설명:** 콘텐츠 저장소의 자산을 참조하는 선택적 고유 식별자입니다. Platform API를 사용하여 표현을 검색하는 경우 클라이언트는 추가 속성 \&quot;repo:resolveUrl\&quot;을(를) 사용하여 에셋을 검색할 수 있습니다.
+    **유형:** 문자열
+    **예:** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
 
-   * **이름**
+  * **이름**
 
-     **필드:** 이름
-     **설명:** \&quot;repo:id\&quot;에 의해 외부 자산을 저장하는 저장소를 찾을 위치에 대한 힌트입니다.
-     **유형:** 문자열
+    **필드:** 이름
+    **설명:** \&quot;repo:id\&quot;에 의해 외부 자산을 저장하는 저장소를 찾을 위치에 대한 힌트입니다.
+    **유형:** 문자열
 
-   * **repositoryID**
+  * **repositoryID**
 
-     **필드:** 저장소 ID
-     **설명:** 콘텐츠 저장소의 자산을 참조하는 선택적 고유 식별자입니다. Platform API를 사용하여 표현을 검색하는 경우 클라이언트는 추가 속성 \&quot;repo:resolveUrl\&quot;를 사용하여 에셋을 검색할 수 있습니다.
-     **유형:** 문자열
-     **예:** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
+    **필드:** 저장소 ID
+    **설명:** 콘텐츠 저장소의 자산을 참조하는 선택적 고유 식별자입니다. Platform API를 사용하여 표현을 검색하는 경우 클라이언트는 추가 속성 \&quot;repo:resolveUrl\&quot;을(를) 사용하여 에셋을 검색할 수 있습니다.
+    **유형:** 문자열
+    **예:** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
 
-   * **resolveURL**
+  * **resolveURL**
 
-     **필드:** resolveURL
-     **설명:** 콘텐츠 저장소의 에셋을 읽을 수 있는 선택적 고유 리소스 로케이터입니다. 이렇게 하면 클라이언트가 에셋의 관리 위치와 호출할 API를 이해하지 않고도 에셋을 보다 쉽게 가져올 수 있습니다. 이는 HAL 링크와 유사하지만 의미는 더 간단하고 목적성이 강하다.
-     **유형:** 문자열
-     **예:** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;&quot;
+    **필드:** resolveURL
+    **설명:** 콘텐츠 저장소의 에셋을 읽을 수 있는 선택적 고유 리소스 로케이터입니다. 이렇게 하면 클라이언트가 에셋의 관리 위치와 호출할 API를 이해하지 않고도 에셋을 보다 쉽게 가져올 수 있습니다. 이는 HAL 링크와 유사하지만 의미는 더 간단하고 목적성이 강하다.
+    **유형:** 문자열
+    **예:** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;&quot;
 
 * **_experience > decisioning > content > components > content**
 
@@ -204,7 +195,7 @@ ht-degree: 3%
   **필드:** linkURL
   **설명:** 사용자 상호 작용을 위한 선택적 고유 리소스 로케이터입니다. 이 URL은 사용자 에이전트에서 최종 사용자를에 연결하는 데 사용되며 추적할 수 있습니다.
   **유형:** 문자열
-  **예:** &quot;https://cdn.adobe.io/tracker?code=23432&redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
+  **예:** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 +++_experience > 의사 결정 > 컨텐츠 > 배치
 
@@ -237,7 +228,7 @@ ht-degree: 3%
 +++ 경험 > 의사 결정 > 프로필 제한(_E)
 
 **필드:** 프로필 제약 조건
-**제목:** 프로필 제한 세부 정보
+**제목:** 프로필 제약 조건 세부 정보
 **설명:** 프로필 제약 조건은 현재 이 컨텍스트에서 옵션이 이 프로필 ID에 적합한지 여부를 결정합니다. 프로필 제약 조건이 각 옵션의 값을 고려할 필요가 없는 경우(즉, 옵션 선택의 옵션이 불변인 경우) &#39;false&#39;로 평가되는 프로필 제약 조건은 전체 옵션 선택을 취소합니다. 반면에 옵션을 매개변수로 사용하는 프로파일 제한 규칙은 옵션 선택의 각 자격 옵션에 대해 평가됩니다.
 **유형:** 개체
 
@@ -256,7 +247,7 @@ ht-degree: 3%
 
 **필드:** eligibilityRule
 **제목:** 자격 규칙
-**설명:** 지정한 프로필 및/또는 지정한 상황별 XDM 개체에 대해 참 또는 거짓로 평가되는 의사 결정 규칙에 대한 참조입니다. 규칙은 옵션이 주어진 프로필에 적합한지 여부를 결정하는 데 사용됩니다. 값은 참조되는 결정 규칙의 URI(@id)입니다. 스키마 https://ns.adobe.com/experience/decisioning/rule 를 참조하십시오.
+**설명:** 지정한 프로필 및/또는 지정한 상황별 XDM 개체에 대해 참 또는 거짓로 평가되는 결정 규칙에 대한 참조입니다. 규칙은 옵션이 주어진 프로필에 적합한지 여부를 결정하는 데 사용됩니다. 값은 참조되는 결정 규칙의 URI(@id)입니다. 스키마 https://ns.adobe.com/experience/decisioning/rule 를 참조하십시오.
 **유형:** 문자열
 
 +++
@@ -264,7 +255,7 @@ ht-degree: 3%
 +++_experience > 의사 결정 > profileConstraints > 프로필 제약 유형
 
 **필드:** profileConstraintType
-**제목:** 프로필 제한 유형
+**제목:** 프로필 제약 조건 유형
 **설명:** 현재 설정된 제약 조건이 있는지 여부와 제약 조건이 표현되는 방법을 결정합니다. 규칙 또는 하나 이상의 대상 멤버십을 통해 실행될 수 있습니다.
 **유형:** 문자열
 **가능한 값:**
@@ -299,12 +290,12 @@ ht-degree: 3%
   **유형:** 개체
   **필수:** &quot;코드&quot;
 
-   * **코드**
+  * **코드**
 
-     **필드:** 코드
-     **제목:** 코드
-     **설명:** 코드는 사람이 인식할 수 있는 네임스페이스용 식별자이며 ID 그래프 처리에 사용되는 기술적 네임스페이스 ID를 요청하는 데 사용할 수 있습니다.
-     **유형:** 문자열
+    **필드:** 코드
+    **제목:** 코드
+    **설명:** 코드는 사람이 인식할 수 있는 네임스페이스용 식별자이며 ID 그래프 처리에 사용되는 기술적 네임스페이스 ID를 요청하는 데 사용할 수 있습니다.
+    **유형:** 문자열
 
 * **경험 식별자**
 

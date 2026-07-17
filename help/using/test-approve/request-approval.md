@@ -6,18 +6,14 @@ level: Beginner
 feature: Approval
 exl-id: 75dafecd-805d-4aa2-86c6-99e6da4d378b
 TQID: https://experienceleague.adobe.com/UQ-5ddCbDJsF6muK1Am74fpx4ptRvHvB5VKwiIxd9d4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-subfeature_v2:
-  - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+subfeature_v2: id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
 source-git-commit: ad8f6662e1f2358071ae923d88630d5f34d9ccf3
 workflow-type: tm+mt
-source-wordcount: 476
+source-wordcount: 524
 ht-degree: 0%
 
 ---
@@ -34,17 +30,17 @@ ht-degree: 0%
 
 * **활성 승인 정책이 없습니다**
 
-   * **캠페인**: 샌드박스의 Campaign 개체에 대해 활성화된 승인 정책이 없는 경우 캠페인에 **[!UICONTROL 활성화]** 단추가 표시되므로 승인 없이도 활성화할 수 있습니다.
+  * **캠페인**: 샌드박스의 Campaign 개체에 대해 활성화된 승인 정책이 없는 경우 캠페인에 **[!UICONTROL 활성화]** 단추가 표시되므로 승인 없이도 활성화할 수 있습니다.
 
-   * **여정**: 여정 개체에 대해 활성화된 승인 정책이 없으면 여정이 직접 게시할 수 있도록 **[!UICONTROL 게시]** 단추를 표시합니다.
+  * **여정**: 여정 개체에 대해 활성화된 승인 정책이 없으면 여정이 직접 게시할 수 있도록 **[!UICONTROL 게시]** 단추를 표시합니다.
 
 * **활성 승인 정책이 있음**
 
-   * **캠페인**: 샌드박스의 Campaign 개체에 대해 하나 이상의 활성 승인 정책이 있는 경우 해당 샌드박스의 모든 캠페인에 **[!UICONTROL 승인 요청]** 단추가 표시됩니다.
-**[!UICONTROL 승인 요청]** 단추를 클릭할 때 선택한 개체에 승인 정책이 적용되지 않으면 자동 승인 워크플로가 트리거됩니다.
+  * **캠페인**: 샌드박스의 Campaign 개체에 대해 하나 이상의 활성 승인 정책이 있는 경우 해당 샌드박스의 모든 캠페인에 **[!UICONTROL 승인 요청]** 단추가 표시됩니다.
+    **[!UICONTROL 승인 요청]** 단추를 클릭할 때 선택한 개체에 승인 정책이 적용되지 않으면 자동 승인 워크플로가 트리거됩니다.
 
-   * **여정**: 샌드박스의 여정 개체에 대해 하나 이상의 활성 승인 정책이 있는 경우 모든 여정이 **[!UICONTROL 승인 요청]** 단추를 표시합니다.
-**[!UICONTROL 승인 요청]** 단추를 클릭할 때 선택한 개체에 승인 정책이 적용되지 않으면 자동 승인 워크플로가 트리거됩니다.
+  * **여정**: 샌드박스의 여정 개체에 대해 하나 이상의 활성 승인 정책이 있는 경우 모든 여정이 **[!UICONTROL 승인 요청]** 단추를 표시합니다.
+    **[!UICONTROL 승인 요청]** 단추를 클릭할 때 선택한 개체에 승인 정책이 적용되지 않으면 자동 승인 워크플로가 트리거됩니다.
 
 ## 승인 요청 보내기
 

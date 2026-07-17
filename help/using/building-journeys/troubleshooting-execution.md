@@ -11,21 +11,12 @@ keywords: 문제 해결, 문제 해결, 여정, 확인, 오류
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/2YZ6Cjph9Le-HtwKdz4GBgEdhwIMPpVtj9yWKlV3hQ4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: d08afb72-92f6-4856-88e3-11ec34313c2fid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 8d9c09a7be3757624c72a0a9d2739d0dbb48adeb
 workflow-type: tm+mt
 source-wordcount: 3051
@@ -53,7 +44,7 @@ ht-degree: 8%
 
 이러한 도구를 통해 보내는 API 호출이 올바르게 전송되었는지 여부를 확인할 수 있습니다. 오류가 반환되면 호출에 문제가 있는 것입니다. 페이로드, 헤더(특히 조직 ID) 및 대상 URL을 다시 확인하십시오. 올바른 URL이 무엇인지를 관리자에게 물어볼 수 있습니다.
 
-이벤트는 소스에서 여정으로 직접 푸시되지 않습니다. 실제로 여정은 [!DNL Adobe Experience Platform]의 스트리밍 수집 API에 의존합니다. 따라서 이벤트 관련 문제가 발생하면 수집 API 스트리밍 문제 해결에 대해 [[!DNL Adobe Experience Platform] 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=ko){target="_blank"}를 참조할 수 있습니다.
+이벤트는 소스에서 여정으로 직접 푸시되지 않습니다. 실제로 여정은 [!DNL Adobe Experience Platform]의 스트리밍 수집 API에 의존합니다. 따라서 이벤트 관련 문제가 발생하면 수집 API 스트리밍 문제 해결에 대해 [[!DNL Adobe Experience Platform] 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"}를 참조할 수 있습니다.
 
 `ERR_MODEL_RULES_16` 오류로 인해 여정에서 테스트 모드를 사용하도록 설정하지 못하는 경우 채널 작업을 사용할 때 사용된 이벤트에 [ID 네임스페이스](../audience/get-started-identity.md)가 포함되어 있는지 확인하십시오.
 
@@ -83,7 +74,7 @@ ID 네임스페이스는 테스트 프로필을 고유하게 식별하는 데 �
 
 * **이벤트가 삭제됨 - 자격 조건이 충족되지 않음** - 규칙 기반 이벤트의 경우 **자격 조건**&#x200B;이 이벤트 페이로드에 의해 충족되지 않으면(예: 필수 필드가 비어 있거나 누락되었거나 필드의 `isNotEmpty`과 같은 조건이 실패하면) 이벤트는 **수신되지만 삭제됨**&#x200B;이고 여정이 트리거되지 않습니다. 로그 및 Splunk 추적은 `notSuitableInitialEvent`과(와) 같은 폐기 코드를 사용하여 이벤트가 수신되었지만 자격 조건을 충족하지 않아 삭제되었음을 보여 줄 수 있습니다. 이는 예상되는 비헤이비어입니다. 자격 조건이 충족되지 않으면 이벤트가 삭제되고 해당 프로필에 대해 여정이 트리거되지 않습니다. 이벤트 페이로드에 예상 필드와 값이 포함되어 있는지, 이벤트 구성의 규칙이 사용자가 보내는 데이터와 일치하는지 확인합니다. 다른 여정의 **사용자 지정 작업**&#x200B;에 의해 이벤트가 트리거된 경우 사용자 지정 작업 문제 해결에서 [삭제 이벤트 및 유휴 시간 초과 처리](../action/troubleshoot-custom-action.md#handling-discard-events-and-idle-timeouts)를 참조하십시오.
 
-&#x200B;>>
+>>
 **스트리밍 대상이 있는 대상 자격 여정의 경우**: 대상 자격 활동을 여정 진입점으로 사용하는 경우 시간 요소, 대상의 빠른 종료 또는 게시하기 전에 대상에 프로필이 이미 있었던 경우 대상에 해당하는 모든 프로필이 여정에 들어가는 것은 아닙니다. [스트리밍 대상 자격 시간 고려 사항](audience-qualification-events.md#streaming-entry-caveats)에 대해 자세히 알아보세요.
 
 ### 이벤트 ID 확인 {#verify-event-identity-and-rule-data-types}
@@ -101,9 +92,9 @@ ID 네임스페이스는 테스트 프로필을 고유하게 식별하는 데 �
 테스트 프로필이 여정을 입력하지만 초기 단계를 통과하지 못할 경우 다음을 확인하십시오.
 
 * **여정 시작 날짜** - 가장 일반적인 원인은 여정의 시작 날짜가 미래로 설정된 경우입니다. 현재 시간이 여정이 구성한 [시작 및 종료 날짜/시간](journey-properties.md#dates) 창을 벗어나는 경우 테스트 프로필이 즉시 삭제되어 로그 항목 `DISPATCHER DISCARD #16 — unqualified on journey version enablements`이(가) 생성됩니다. 해결 방법:
-   * 여정 시작 날짜가 미래로 설정되지 않았는지 확인
-   * 현재 시간이 여정의 활성 날짜 창 내에 있는지 확인합니다.
-   * 필요한 경우 일시적으로 시작 날짜를 테스트용 현재 시간 이전으로 설정한 다음 게시하기 전에 복원합니다
+  * 여정 시작 날짜가 미래로 설정되지 않았는지 확인
+  * 현재 시간이 여정의 활성 날짜 창 내에 있는지 확인합니다.
+  * 필요한 경우 일시적으로 시작 날짜를 테스트용 현재 시간 이전으로 설정한 다음 게시하기 전에 복원합니다
 
 * **테스트 프로필 구성** - 프로필이 [!DNL Adobe Experience Platform]에서 테스트 프로필로 올바르게 플래그가 지정되었는지 확인합니다. 자세한 내용은 [테스트 프로필을 만드는 방법](../audience/creating-test-profiles.md)을 참조하십시오.
 

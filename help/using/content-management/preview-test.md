@@ -6,8 +6,7 @@ role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
 feature_v2: []
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
 source-git-commit: 4c109a6021d46ee7290f09d9333892b42b5af3e2
 workflow-type: tm+mt
 source-wordcount: 637
@@ -54,10 +53,10 @@ Journey Optimizer는 콘텐츠를 테스트할 수 있는 두 가지 경험을 �
   테스트 프로필을 사용하여 콘텐츠를 미리 보고, 이메일 증명을 보내고, 이메일 렌더링을 확인할 수 있습니다. 개인화된 필드를 추가한 경우, 테스트 프로필 데이터를 사용하여 해당 필드가 표시되는 방식을 확인할 수 있습니다. 자세한 내용은 다음 섹션을 참조하십시오.
 
   ➡️ [테스트 프로필 선택](test-profiles.md)
-➡️ [테스트 프로필을 사용한 미리 보기](preview.md)
-➡️ [이메일 교정쇄 보내기](proofs.md)
-➡️ [이메일 렌더링 확인](rendering.md)
-➡️ [이메일 미리 보기 및 교정(비디오)](#video-preview)
+  ➡️ [테스트 프로필을 사용한 미리 보기](preview.md)
+  ➡️ [이메일 교정쇄 보내기](proofs.md)
+  ➡️ [이메일 렌더링 확인](rendering.md)
+  ➡️ [이메일 미리 보기 및 교정(비디오)](#video-preview)
 
 * **샘플 입력 데이터를 사용하여 콘텐츠 베리에이션 테스트**
 
@@ -83,4 +82,4 @@ API 트리거 및 작업(예약된) 캠페인의 경우 [시뮬레이션 API](ht
 
 테스트 프로필을 사용하여 받은 편지함 간에 이메일 렌더링을 테스트하고, 테스트 프로필로 개인화된 이메일을 미리 보고, 증명을 보내는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430340?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425026?quality=12)

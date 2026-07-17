@@ -10,26 +10,15 @@ level: Beginner, Intermediate
 keywords: 이메일, 디자인, 접근성
 exl-id: 78011ec0-a3b6-4d4e-ab4b-9da032c283a2
 TQID: https://experienceleague.adobe.com/aV2B02I-zFMavzM3OuLJnihia0YOenMn3FXsJXfpdJs
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b19d9237-76be-466d-a869-aacf2d72205f
-  - id: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1731
+source-wordcount: 1734
 ht-degree: 1%
 
 ---
@@ -77,8 +66,8 @@ ht-degree: 1%
 
 **색상 대비**
 
-* 텍스트와 배경 사이의 대비 비율을 최소 4.5:1 유지합니다.
-* 큰 텍스트(≥24px 또는 굵은 18px)의 경우, 최소 3:1 대비를 확인합니다.
+* 텍스트와 배경 사이의 대비 비율을 최소 4.5:1로 유지합니다.
+* 큰 텍스트(≥24px 또는 굵은 18px)의 경우, 최소 3:1 대비를 보장합니다.
 * 흰색 배경에 밝은 회색이나 파스텔 텍스트를 사용하지 마십시오.
 * 의미를 전달하기 위해 색상에만 의존하지 말고, 밑줄, 아이콘 등을 사용하십시오.
 
@@ -354,40 +343,40 @@ HTML 컨텐츠에서 테이블은 종종 레이아웃에 사용됩니다. 기본
 
 * 키보드를 통한 포커스
 
-   * 모든 대화형 요소(예: 단추, 확인란, 링크)에 `tabindex="0"`이(가) 있으므로 기본 탭 순서에 포함되어야 합니다.
+  * 모든 대화형 요소(예: 단추, 확인란, 링크)에 `tabindex="0"`이(가) 있으므로 기본 탭 순서에 포함되어야 합니다.
 
-   * Tab 키와 화살표 키(↑ ↓ ← →)를 사용하여 탐색할 수 있습니다. 이 키는 포커스가 있는 요소를 시각적으로 강조 표시합니다.
+  * Tab 키와 화살표 키(↑ ↓ ← →)를 사용하여 탐색할 수 있습니다. 이 키는 포커스가 있는 요소를 시각적으로 강조 표시합니다.
 
 * 사용자 지정 포커스 스타일
 
-   * 실행 가능한 요소에 초점을 맞추기 위해 명확하고 구별 가능한 스타일을 적용합니다.
+  * 실행 가능한 요소에 초점을 맞추기 위해 명확하고 구별 가능한 스타일을 적용합니다.
 
-     +++예(CSS)
+    +++예(CSS)
 
-     ```
-     [tabindex="0"] : focus { 
-     
-     outline: 2px solid #00AEEF;  /* Cyan border */ 
-     
-     background-color: #20CEFF;   /* Optional background */ 
-     
-     }
-     ```
+    ```
+    [tabindex="0"] : focus { 
+    
+    outline: 2px solid #00AEEF;  /* Cyan border */ 
+    
+    background-color: #20CEFF;   /* Optional background */ 
+    
+    }
+    ```
 
-     +++
+    +++
 
-   * 포커스 표시기가 다음을 포함한 WCAG 2.2 포커스 표시 표준을 충족하는지 확인합니다.
+  * 포커스 표시기가 다음을 포함한 WCAG 2.2 포커스 표시 표준을 충족하는지 확인합니다.
 
-      * 최소 영역: 2개의 CSS 픽셀 두께 윤곽선입니다.
+    * 최소 영역: 2개의 CSS 픽셀 두께 윤곽선입니다.
 
-      * 대비 비율: ≥ 상태와 비초점 상태 간에 3:1을(를) 사용합니다.
+    * 명암비: ≥ 상태와 비초점 상태 간에 3:1로 조정됩니다.
 
 * 키보드 활성화 지원
 
-   * 확인란과 단추가 Enter 키와 Space 키에 응답하는지 확인합니다.
+  * 확인란과 단추가 Enter 키와 Space 키에 응답하는지 확인합니다.
 
-   * 키보드만 사용하여 상호 작용 유효성 검사:
+  * 키보드만 사용하여 상호 작용 유효성 검사:
 
-      * Enter 키 또는 스페이스를 사용하여 확인란을 전환할 수 있습니다.
+    * Enter 키 또는 스페이스를 사용하여 확인란을 전환할 수 있습니다.
 
-      * Enter 또는 스페이스가 단추를 트리거해야 합니다.
+    * Enter 또는 스페이스가 단추를 트리거해야 합니다.

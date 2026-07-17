@@ -10,8 +10,7 @@ level: Beginner
 keywords: 이메일, 템플릿, 이미지, HTML, AI, 디자인, 변환기
 exl-id: d13467b7-2f3c-4707-a7e0-9b46cb6cafb1
 feature_v2: []
-subfeature_v2:
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
+subfeature_v2: id: d595a60b-bcf5-4a63-a189-66a0be755cc7
 source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
 source-wordcount: 2126
@@ -81,7 +80,7 @@ HTML으로 이미지 변환기는 다음 경우에 이상적입니다.
 
 **계약**
 
-이 기능을 활용하려면 먼저 [!DNL Journey Optimizer]에서 생성 AI를 처음 사용할 때 표시되는 사용자 계약에 동의해야 합니다. 자세한 내용은 [Adobe Experience Cloud Generative AI 사용 지침](https://www.adobe.com/kr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}을 참조하세요.
+이 기능을 활용하려면 먼저 [!DNL Journey Optimizer]에서 생성 AI를 처음 사용할 때 표시되는 사용자 계약에 동의해야 합니다. 자세한 내용은 [Adobe Experience Cloud 생성 AI 사용자 지침](https://www.adobe.com/kr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}을 참조하십시오.
 
 ## 가드레일 및 추천 사항 {#limitations}
 

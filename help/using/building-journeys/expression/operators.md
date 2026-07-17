@@ -10,12 +10,9 @@ keywords: 표현식, 구문, 연산자, 편집기, 여정
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/sK2GNHkkiJ4M5V99Uucc-b68iESNW7kCNBjHVNT-dMs
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 subfeature_v2: []
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
@@ -48,12 +45,12 @@ not (@event{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 ## 중요 정보{#important-notes}
 
 * 곱셈(`*`)을 사용할 때는 두 연산 필드의 형식이 같아야 합니다(정수 또는 십진수). 예 :
-   * 다음 예제는 올바릅니다. `3.0 * 4.0`
-   * `3 * 4.0`에 오류가 발생합니다.
+  * 다음 예제는 올바릅니다. `3.0 * 4.0`
+  * `3 * 4.0`에 오류가 발생합니다.
 
 * `+` 연산자를 사용하는 경우 식을 괄호로 묶어야 합니다. 예:
-   * `toDateTimeOnly(toDateTime((currentTimeInMillis()) + 1))`이(가) 올바릅니다.
-   * `toDateTimeOnly(toDateTime(currentTimeInMillis() + 1))`에 오류가 발생합니다.
+  * `toDateTimeOnly(toDateTime((currentTimeInMillis()) + 1))`이(가) 올바릅니다.
+  * `toDateTimeOnly(toDateTime(currentTimeInMillis() + 1))`에 오류가 발생합니다.
 
 ## 논리적  {#logical}
 

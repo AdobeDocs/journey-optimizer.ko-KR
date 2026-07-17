@@ -7,23 +7,15 @@ role: Developer
 level: Experienced
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
 TQID: https://experienceleague.adobe.com/64oNHWa7T8cd-RDZWq0hsAdopo0eh1bhst6NVQpA0Tk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-  - id: a984631b-2bae-4860-9b15-69c41a799dcb
-subfeature_v2:
-  - id: f88eedcc-cf3e-46b8-9e94-0293589325f3
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: a984631b-2bae-4860-9b15-69c41a799dcb
+subfeature_v2: id: f88eedcc-cf3e-46b8-9e94-0293589325f3
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
 source-wordcount: 573
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -81,9 +73,9 @@ ht-degree: 6%
 
 * 요청의 **다중** 결정 정책/배치에 대해:
 
-   * `allowDuplicateDecisionItems`이(가) `false`(으)로 설정된 경우: 항목의 메시지/결정 정책/배치에 관계없이 응답의 모든 항목이 고유합니다.
+  * `allowDuplicateDecisionItems`이(가) `false`(으)로 설정된 경우: 항목의 메시지/결정 정책/배치에 관계없이 응답의 모든 항목이 고유합니다.
 
-   * `allowDuplicateDecisionItems`이(가) `true`(기본값)로 설정된 경우: 응답의 항목이 중복될 수 있습니다(여러 메시지/결정 정책/배치가 해당 요청에 대한 동일한 결정 항목에 적합한 경우).
+  * `allowDuplicateDecisionItems`이(가) `true`(기본값)로 설정된 경우: 응답의 항목이 중복될 수 있습니다(여러 메시지/결정 정책/배치가 해당 요청에 대한 동일한 결정 항목에 적합한 경우).
 
 ### 요청에 중복 제거 적용 {#deduplication-in-request}
 
@@ -154,13 +146,13 @@ curl --location 'https://edge-int.adobedc.net/ee/v1/interact?configId=2f21d344-b
 
 * `itemId-X`이(가) 결정 정책 및 배치 조합에 모두 적합한 단일 결정 항목인 경우:
 
-   * `allowDuplicateDecisionItems`이(가) `true`인 경우(기본값): 단일 응답에서 두 제안에 대해 `itemId-X`이(가) 다시 반환됩니다.
+  * `allowDuplicateDecisionItems`이(가) `true`인 경우(기본값): 단일 응답에서 두 제안에 대해 `itemId-X`이(가) 다시 반환됩니다.
 
-   * `allowDuplicateDecisionItems`이(가) `false`인 경우:
+  * `allowDuplicateDecisionItems`이(가) `false`인 경우:
 
-      * 첫 번째 제안에 대해 `itemId-X`이(가) 다시 반환됩니다.
+    * 첫 번째 제안에 대해 `itemId-X`이(가) 다시 반환됩니다.
 
-      * 두 번째 제안에 대해 대체 결정 항목(고유함) 또는 빈 결정 항목이 전달됩니다.
+    * 두 번째 제안에 대해 대체 결정 항목(고유함) 또는 빈 결정 항목이 전달됩니다.
 
 +++샘플 응답(`allowDuplicateDecisionItems` = `true`) 결정 중
 

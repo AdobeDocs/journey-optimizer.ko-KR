@@ -6,7 +6,7 @@ description: LINE
 redpen-status: CREATED_||_2025-08-11_20-44-38
 exl-id: 5f51bbfe-37f8-4e8d-8e4e-6b9d018cd076
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 100%
 
@@ -23,14 +23,14 @@ LINE 메시지는 여정 또는 캠페인에서 만들고 보낼 수 있습니�
 
 * **캠페인**&#x200B;에서. 캠페인을 만들고 액션으로 LINE을 선택하고 기본 설정을 정의한 다음 메시지 콘텐츠를 편집하여 보낼 LINE 메시지를 정의합니다. [이 페이지](../using/campaigns/create-campaign.md#configure)에서 캠페인을 만드는 방법을 알아봅니다.
 
-LINE 메시지를 만들기 전에 Journey Optimizer에서 LINE 채널을 구성합니다. [자세히 알아보기](../using/line/line-configuration.md).
+LINE 메시지를 만들기 전에 Journey Optimizer에서 LINE 채널을 구성합니다. [자세히 알아보기](../using/line/line-configuration.md)
 
 ## LINE 채널 설명서
 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 LINE 채널 구성
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 API를 사용하여 LINE 채널을 수동으로 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 LINE 메시지 만들기 및 구성
 
@@ -50,7 +50,7 @@ LINE 메시지 만들기 및 구성
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 LINE 메시지 확인 및 전송
 

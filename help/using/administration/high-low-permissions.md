@@ -10,19 +10,11 @@ level: Experienced
 keywords: 권한, 높은 수준, 낮은 수준, 프로필, admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 TQID: https://experienceleague.adobe.com/JmWqA2lkS0vWlssVYWycq-gvC6IRrrmAokJj1AGINxc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-subfeature_v2:
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+subfeature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
 workflow-type: tm+mt
 source-wordcount: 1995
@@ -57,28 +49,28 @@ ht-degree: 0%
 
   +++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다.  
 
-   * Journey Optimizer 관련:
+  * Journey Optimizer 관련:
 
-      * 여정.읽기
-      * 여정.쓰기
-      * 여정.삭제
-      * messages.read
+    * 여정.읽기
+    * 여정.쓰기
+    * 여정.삭제
+    * messages.read
 
-   * Adobe Experience Platform 관련:
+  * Adobe Experience Platform 관련:
 
-      * segments.read
-      * profiles.read
-      * datasets.read
-      * schemas.read
+    * segments.read
+    * profiles.read
+    * datasets.read
+    * schemas.read
 
   +++
 
 * **[!DNL Publish journeys]**&#x200B;개의 높은 수준의 권한으로 사용자가 여정을 게시할 수 있습니다.
 
   +++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다.  
-   * Journey Optimizer 관련:
-      * 여정.게시
-      * 여정.읽기
+  * Journey Optimizer 관련:
+    * 여정.게시
+    * 여정.읽기
 
   +++
 
@@ -86,12 +78,12 @@ ht-degree: 0%
 
   +++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다.  
 
-   * Journey Optimizer 관련:
-      * 여정.읽기
+  * Journey Optimizer 관련:
+    * 여정.읽기
 
-   * Adobe Experience Platform 관련:
-      * segments.read
-      * profiles.read
+  * Adobe Experience Platform 관련:
+    * segments.read
+    * profiles.read
 
   +++
 
@@ -99,21 +91,21 @@ ht-degree: 0%
 
   +++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다.  
 
-   * Journey Optimizer 관련:
-      * 여정_events.read
-      * 여정_events.write
-      * 여정_events.delete
-      * 여정_data_sources.read
-      * 여정_data_sources.write
-      * 여정_data_sources.delete
-      * 여정_actions.read
-      * 여정_actions.write
-      * 여정_actions.delete
+  * Journey Optimizer 관련:
+    * 여정_events.read
+    * 여정_events.write
+    * 여정_events.delete
+    * 여정_data_sources.read
+    * 여정_data_sources.write
+    * 여정_data_sources.delete
+    * 여정_actions.read
+    * 여정_actions.write
+    * 여정_actions.delete
 
-   * Adobe Experience Platform 관련:
-      * schemas.read
-      * datasets.read
-      * identity_namespace.read
+  * Adobe Experience Platform 관련:
+    * schemas.read
+    * datasets.read
+    * identity_namespace.read
 
   +++
 
@@ -121,15 +113,15 @@ ht-degree: 0%
 
   +++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다.  
 
-   * Journey Optimizer 관련:
-      * 여정_events.read
-      * 여정_data_sources.read
-      * 여정_actions.read
+  * Journey Optimizer 관련:
+    * 여정_events.read
+    * 여정_data_sources.read
+    * 여정_actions.read
 
-   * Adobe Experience Platform 관련:
-      * schemas.read
-      * datasets.read
-      * identity_namespace.read
+  * Adobe Experience Platform 관련:
+    * schemas.read
+    * datasets.read
+    * identity_namespace.read
 
   +++
 
@@ -137,15 +129,15 @@ ht-degree: 0%
 
   +++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다.  
 
-   * Journey Optimizer 관련:
-      * 여정_report.read
-      * messages_report.read
+  * Journey Optimizer 관련:
+    * 여정_report.read
+    * messages_report.read
 
-   * Adobe Experience Platform 관련:
-      * datasets.read
-      * queries.read
-      * queries.write
-      * queries.delete
+  * Adobe Experience Platform 관련:
+    * datasets.read
+    * queries.read
+    * queries.write
+    * queries.delete
 
   +++
 
@@ -155,10 +147,10 @@ ht-degree: 0%
 
   +++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다.  
 
-   * Journey Optimizer 관련:
-      * frequency_rules.read
-      * frequency_rules.write
-      * frequency_rules.delete
+  * Journey Optimizer 관련:
+    * frequency_rules.read
+    * frequency_rules.write
+    * frequency_rules.delete
 
   +++
 
@@ -166,8 +158,8 @@ ht-degree: 0%
 
   +++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다.  
 
-   * Journey Optimizer 관련:
-      * frequency_rules.read
+  * Journey Optimizer 관련:
+    * frequency_rules.read
 
   +++
 
@@ -177,12 +169,12 @@ ht-degree: 0%
 
   +++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다. 
 
-   * Journey Optimizer 관련:
-      * suppression_list.export
+  * Journey Optimizer 관련:
+    * suppression_list.export
 
-   * Adobe Experience Platform 관련:
-      * profiles.read
-      * datasets.read
+  * Adobe Experience Platform 관련:
+    * profiles.read
+    * datasets.read
 
   +++
 
@@ -190,16 +182,16 @@ ht-degree: 0%
 
   +++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다.  
 
-   * Journey Optimizer 관련:
+  * Journey Optimizer 관련:
 
-      * campaign.read
-      * campaign.write
-      * campaign.delete
-     <!--
+    * campaign.read
+    * campaign.write
+    * campaign.delete
+    <!--
       * experiments.read
       * experiments.write
       * experiments.delete
-     -->
+-->
 
 +++
 
@@ -207,11 +199,11 @@ ht-degree: 0%
 
   +++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
-   * Journey Optimizer 관련:
+  * Journey Optimizer 관련:
 
-      * 캠페인 읽기
-      * campaign-게시
-     <!--
+    * 캠페인 읽기
+    * campaign-게시
+    <!--
       * experiments.activate    
       -->
 
@@ -221,10 +213,10 @@ ht-degree: 0%
 
   +++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다.  
 
-   * Journey Optimizer 관련:
-      * campaign.read
-      * campaign-report.read
-     <!--
+  * Journey Optimizer 관련:
+    * campaign.read
+    * campaign-report.read
+    <!--
       * experiments.read
       * experiments_report.read
       -->
@@ -237,25 +229,25 @@ ht-degree: 0%
 
   +++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다.  
 
-   * 의사 결정 관리 특정:
-      * activities.read
-      * activities.write
-      * activities.delete
-      * offers.read
-      * offers.write
-      * offers.delete
-      * 배치.읽기
-      * placements.write
-      * 배치.삭제
-      * ranking_strategy.read
+  * 의사 결정 관리 특정:
+    * activities.read
+    * activities.write
+    * activities.delete
+    * offers.read
+    * offers.write
+    * offers.delete
+    * 배치.읽기
+    * placements.write
+    * 배치.삭제
+    * ranking_strategy.read
 
-   * Adobe Experience Platform 관련:
-      * datasets.read
-      * datasets.write
-      * datasets.delete
-      * schemas.read
-      * profile.read
-      * segments.read
+  * Adobe Experience Platform 관련:
+    * datasets.read
+    * datasets.write
+    * datasets.delete
+    * schemas.read
+    * profile.read
+    * segments.read
 
   +++
 
@@ -263,16 +255,16 @@ ht-degree: 0%
 
   +++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다.  
 
-   * 의사 결정 관리 특정:
-      * activities.read
-      * offers.read
-      * 배치.읽기
-      * ranking_strategy.read
+  * 의사 결정 관리 특정:
+    * activities.read
+    * offers.read
+    * 배치.읽기
+    * ranking_strategy.read
 
-   * Adobe Experience Platform 관련:
-      * schemas.read
-      * segment.read
-      * datasets.read
+  * Adobe Experience Platform 관련:
+    * schemas.read
+    * segment.read
+    * datasets.read
 
   +++
 
@@ -280,21 +272,21 @@ ht-degree: 0%
 
   +++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다.  
 
-   * 의사 결정 관리 특정:
-      * offers_activity.read
-      * offers.read
-      * offers.Write
-      * offers.Delete
-      * placements.Read
-      * placements.Write
-      * 배치.삭제
-      * ranking_strategy.read
+  * 의사 결정 관리 특정:
+    * offers_activity.read
+    * offers.read
+    * offers.Write
+    * offers.Delete
+    * placements.Read
+    * placements.Write
+    * 배치.삭제
+    * ranking_strategy.read
 
-   * Adobe Experience Platform 관련:
-      * schemas.read
-      * segment.read
-      * datasets.read
-      * profiles.read
+  * Adobe Experience Platform 관련:
+    * schemas.read
+    * segment.read
+    * datasets.read
+    * profiles.read
 
   +++
 
@@ -302,13 +294,13 @@ ht-degree: 0%
 
   +++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다.  
 
-   * 의사 결정 관리 특정:
-      * ranking_strategy.read
-      * ranking_strategy.write
-      * ranking_strategy.delete
-      * activities.read
-      * offers.read
-      * 배치.읽기
+  * 의사 결정 관리 특정:
+    * ranking_strategy.read
+    * ranking_strategy.write
+    * ranking_strategy.delete
+    * activities.read
+    * offers.read
+    * 배치.읽기
 
   +++
 
@@ -339,21 +331,21 @@ ht-degree: 0%
 * **[!DNL Manage file routing]** 높은 수준의 사용 권한을 통해 사용자가 파일 라우팅 구성을 만들고 편집하고 삭제할 수 있습니다.
 
   +++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다.  
-   * Journey Optimizer 관련:
+  * Journey Optimizer 관련:
 
-      * file_routing.read
-      * file_routing.write
-      * file_routing.delete
+    * file_routing.read
+    * file_routing.write
+    * file_routing.delete
 
   +++
 
 * **[!DNL Manage IP pools]** 높은 수준의 권한을 통해 사용자는 선호도 정의를 만들고 편집하고 삭제할 수 있습니다.
 
   +++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다.  
-   * Journey Optimizer 관련:
-      * IP_pools.read
-      * IP_pools.write
-      * IP_pools.delete
+  * Journey Optimizer 관련:
+    * IP_pools.read
+    * IP_pools.write
+    * IP_pools.delete
 
   +++
 
@@ -361,9 +353,9 @@ ht-degree: 0%
 
   +++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다.  
 
-   * Journey Optimizer 관련:
-      * key-registry.read
-      * key-registry.write
+  * Journey Optimizer 관련:
+    * key-registry.read
+    * key-registry.write
 
   +++
 
@@ -371,14 +363,14 @@ ht-degree: 0%
 
   +++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다. 
 
-   * Journey Optimizer 관련:
+  * Journey Optimizer 관련:
 
-      * landing_page_subdomain.read
-      * landing_page_subdomain.write
-      * landing_page_subdomain.delete
-      * landing_page_preset.read
-      * landing_page_preset.write
-      * landing_page_preset.delete
+    * landing_page_subdomain.read
+    * landing_page_subdomain.write
+    * landing_page_subdomain.delete
+    * landing_page_preset.read
+    * landing_page_preset.write
+    * landing_page_preset.delete
 
   +++
 
@@ -386,13 +378,13 @@ ht-degree: 0%
 
   +++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다.  
 
-   * Journey Optimizer 관련:
-      * messages_general_settings.read
-      * messages_general_settings.write
-      * messages_general_settings.delete
+  * Journey Optimizer 관련:
+    * messages_general_settings.read
+    * messages_general_settings.write
+    * messages_general_settings.delete
 
-   * Adobe Experience Platform 관련:
-      * schemas.read
+  * Adobe Experience Platform 관련:
+    * schemas.read
 
   +++
 
@@ -400,15 +392,15 @@ ht-degree: 0%
 
   +++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다. 
 
-   * Journey Optimizer 관련:
-      * messages_presets.read
-      * messages_presets.write
-      * messages_presets.delete
-      * subdomains_delegation.read
-      * IP_pools.read
+  * Journey Optimizer 관련:
+    * messages_presets.read
+    * messages_presets.write
+    * messages_presets.delete
+    * subdomains_delegation.read
+    * IP_pools.read
 
-   * 데이터 수집별:
-      * Mobile_setting.read <!--(from Adobe Experience Platform Launch)-->
+  * 데이터 수집별:
+    * Mobile_setting.read <!--(from Adobe Experience Platform Launch)-->
 
   +++
 
@@ -416,10 +408,10 @@ ht-degree: 0%
 
   +++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다. 
 
-   * Journey Optimizer 관련:
-      * PTR_records.read
-      * PTR_records.write
-      * subdomains_delegation.read
+  * Journey Optimizer 관련:
+    * PTR_records.read
+    * PTR_records.write
+    * subdomains_delegation.read
 
   +++
 
@@ -427,10 +419,10 @@ ht-degree: 0%
 
   +++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다. 
 
-   * Journey Optimizer 관련:
-      * seedlist.read
-      * seedlist.write
-      * seedlist.delete
+  * Journey Optimizer 관련:
+    * seedlist.read
+    * seedlist.write
+    * seedlist.delete
 
   +++
 
@@ -438,42 +430,42 @@ ht-degree: 0%
 
   +++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다. 
 
-   * Journey Optimizer 관련:
-      * sms_subdomains.read
-      * sms_subdomains.write
-      * sms_subdomains.delete
+  * Journey Optimizer 관련:
+    * sms_subdomains.read
+    * sms_subdomains.write
+    * sms_subdomains.delete
 
   +++
 
 * **[!DNL Manage subdomains delegations]** 높은 수준의 권한을 통해 사용자는 하위 도메인 위임(IP 풀 포함)을 만들고 편집하고 삭제할 수 있습니다.
 
   +++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다.  
-   * Journey Optimizer 관련:
+  * Journey Optimizer 관련:
 
-      * subdomains_delegation.read
-      * subdomains_delegation.write
-      * subdomains_delegation.delete
+    * subdomains_delegation.read
+    * subdomains_delegation.write
+    * subdomains_delegation.delete
 
   +++
 
 * **[!DNL Manage suppression]** 높은 수준의 사용 권한을 사용하면 비표시 목록에 이메일 주소를 추가하기 전에 반송 수를 정의하고 비표시 목록에 항목을 추가 및 삭제할 수 있습니다.
 
   +++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다.  
-   * Journey Optimizer 관련:
-      * suppression_rules.read
-      * suppression_rules.write
-      * suppression_rules.delete
-      * suppression_list.write
-      * suppression_list.delete
+  * Journey Optimizer 관련:
+    * suppression_rules.read
+    * suppression_rules.write
+    * suppression_rules.delete
+    * suppression_list.write
+    * suppression_list.delete
 
   +++
 
 * **[!DNL View file routing]** 높은 수준의 사용 권한을 통해 사용자가 파일 라우팅 구성을 볼 수 있습니다.
 
   +++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다.  
-   * Journey Optimizer 관련:
+  * Journey Optimizer 관련:
 
-      * file_routing.read
+    * file_routing.read
 
   +++
 
@@ -481,8 +473,8 @@ ht-degree: 0%
 
   +++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다.  
 
-   * Journey Optimizer 관련:
-      * key-registry.read
+  * Journey Optimizer 관련:
+    * key-registry.read
 
   +++
 
@@ -490,11 +482,11 @@ ht-degree: 0%
 
   +++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다. 
 
-   * Journey Optimizer 관련:
-      * messages_general_settings.read
+  * Journey Optimizer 관련:
+    * messages_general_settings.read
 
-   * Adobe Experience Platform 관련:
-      * schemas.read
+  * Adobe Experience Platform 관련:
+    * schemas.read
 
   +++
 
@@ -502,23 +494,23 @@ ht-degree: 0%
 
   +++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다. 
 
-   * Journey Optimizer 관련:
-      * messages_presets.read
-      * subdomains_delegation.read
-      * IP_pools.read
+  * Journey Optimizer 관련:
+    * messages_presets.read
+    * subdomains_delegation.read
+    * IP_pools.read
 
-   * 데이터 수집별:
-      * Mobile_setting.read
+  * 데이터 수집별:
+    * Mobile_setting.read
 
   +++
 
 * **[!DNL View PTR records]** 높은 수준의 권한을 통해 사용자는 하위 도메인을 기반으로 구성된 PTR 레코드를 볼 수 있습니다.
 
   +++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다. 
-   * Journey Optimizer 관련:
+  * Journey Optimizer 관련:
 
-      * PTR_records.read
-      * subdomains_delegation.read
+    * PTR_records.read
+    * subdomains_delegation.read
 
   +++
 
@@ -539,12 +531,12 @@ The **[!DNL View channel configuration]** high-level permission allows users to 
 
   +++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다.  
 
-   * Journey Optimizer 관련:
-      * suppression_list.view
+  * Journey Optimizer 관련:
+    * suppression_list.view
 
-   * Adobe Experience Platform 관련:
-      * profiles.read
-      * datasets.read
+  * Adobe Experience Platform 관련:
+    * profiles.read
+    * datasets.read
 
   +++
 
@@ -562,8 +554,8 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
   +++ 여기에는 다음과 같은 낮은 수준 권한이 포함됩니다.  
 
-   * Journey Optimizer 관련:
-      * ai-assistant-generated-content.generate
+  * Journey Optimizer 관련:
+    * ai-assistant-generated-content.generate
 
   +++
 
@@ -573,31 +565,31 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
   +++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다.  
 
-   * Journey Optimizer 관련:
+  * Journey Optimizer 관련:
 
-      * orchestrated_campaigns.read
-      * orchestrated_campaigns.write
-      * orchestrated_campaigns.delete
-      * cjm-web-subdomain.read
-      * cjm-message.read
-      * cjm-message.write
-      * cjm-message.delete
-      * cjm-library-item.read
-      * cjm-message-general-setting.read
-      * cjm-message-preset.read
-      * cjm-message-preview-test.write
-      * experiment.read
-      * experiment.write
-      * experiment.delete
+    * orchestrated_campaigns.read
+    * orchestrated_campaigns.write
+    * orchestrated_campaigns.delete
+    * cjm-web-subdomain.read
+    * cjm-message.read
+    * cjm-message.write
+    * cjm-message.delete
+    * cjm-library-item.read
+    * cjm-message-general-setting.read
+    * cjm-message-preset.read
+    * cjm-message-preview-test.write
+    * experiment.read
+    * experiment.write
+    * experiment.delete
 
-   * Adobe Experience Platform 관련:
+  * Adobe Experience Platform 관련:
 
-      * identity-graph.read
-      * segments.read
-      * profiles.read
-      * datasets.read
-      * schemas.read
-      * sandboxes.view
+    * identity-graph.read
+    * segments.read
+    * profiles.read
+    * datasets.read
+    * schemas.read
+    * sandboxes.view
 
   +++
 
@@ -605,11 +597,11 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
   +++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다.  
 
-   * Journey Optimizer 관련:
+  * Journey Optimizer 관련:
 
-      * cjm-orchestrated-campaign-admin.read
-      * cjm-orchestrated-campaign-admin.write
-      * cjm-orchestrated-campaign-admin.delete
+    * cjm-orchestrated-campaign-admin.read
+    * cjm-orchestrated-campaign-admin.write
+    * cjm-orchestrated-campaign-admin.delete
 
   +++
 
@@ -617,18 +609,18 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
   +++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다.
 
-   * Journey Optimizer 관련:
+  * Journey Optimizer 관련:
 
-      * cjm-orchestrated-campaign.read
-      * cjm-orchestrated-campaign.publish
-      * cjm-web-subdomain.read
-      * cjm-message.read
-      * cjm-message.publish
-      * cjm-library-item.read
+    * cjm-orchestrated-campaign.read
+    * cjm-orchestrated-campaign.publish
+    * cjm-web-subdomain.read
+    * cjm-message.read
+    * cjm-message.publish
+    * cjm-library-item.read
 
-   * Adobe Experience Platform 관련:
+  * Adobe Experience Platform 관련:
 
-      * sandboxes.view
+    * sandboxes.view
 
   +++
 
@@ -636,20 +628,20 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
   +++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다.  
 
-   * Journey Optimizer 관련:
+  * Journey Optimizer 관련:
 
-      * cjm-orchestrated-campaign.read
-      * cjm-message.read
-      * cjm-library-item.read
-      * cjm-message-general-setting.read
-      * cjm-message-preset.read
-      * experiment.read
+    * cjm-orchestrated-campaign.read
+    * cjm-message.read
+    * cjm-library-item.read
+    * cjm-message-general-setting.read
+    * cjm-message-preset.read
+    * experiment.read
 
-   * Adobe Experience Platform 관련:
+  * Adobe Experience Platform 관련:
 
-      * sandboxes.view
-      * segments.read
-      * profiles.read
+    * sandboxes.view
+    * segments.read
+    * profiles.read
 
   +++
 
@@ -657,9 +649,9 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
   +++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다.  
 
-   * Journey Optimizer 관련:
+  * Journey Optimizer 관련:
 
-      * cjm-orchestrated-campaign-admin.read
+    * cjm-orchestrated-campaign-admin.read
 
   +++
 
@@ -667,24 +659,24 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
   +++ 이 권한에는 다음과 같은 낮은 수준의 권한이 포함됩니다.  
 
-   * Journey Optimizer 관련:
+  * Journey Optimizer 관련:
 
-      * cjm-orchestrated-campaign-reports.read
-      * cjm-message-report.read
-      * cjm-channel-report.read
-      * cjm-orchestrated-campaign.read
-      * cjm-message.read
-      * cjm-library-item.read
-      * experiment.read
-      * experiment-report.read
+    * cjm-orchestrated-campaign-reports.read
+    * cjm-message-report.read
+    * cjm-channel-report.read
+    * cjm-orchestrated-campaign.read
+    * cjm-message.read
+    * cjm-library-item.read
+    * experiment.read
+    * experiment-report.read
 
-   * Adobe Experience Platform 관련:
+  * Adobe Experience Platform 관련:
 
-      * sandboxes.view
-      * datasets.read
-      * queries.read
-      * queries.write
-      * queries.delete
+    * sandboxes.view
+    * datasets.read
+    * queries.read
+    * queries.write
+    * queries.delete
 
   +++
 

@@ -7,11 +7,8 @@ role: User
 level: Beginner
 keywords: 인앱, 메시지, 만들기, 시작
 hide: true
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909
 source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
 workflow-type: tm+mt
 source-wordcount: 829
@@ -65,11 +62,11 @@ ht-degree: 7%
 
 * **[!UICONTROL 사용자 지정]**: 사용자 지정 메시지 모드를 사용하면 미리 구성된 HTML 메시지 중 하나를 직접 가져오고 편집할 수 있습니다.
 
-   * 원시 HTML 코드를 입력하거나 붙여 넣으려면 **[!UICONTROL 작성]**&#x200B;을 선택하세요.
+  * 원시 HTML 코드를 입력하거나 붙여 넣으려면 **[!UICONTROL 작성]**&#x200B;을 선택하세요.
 
-     왼쪽 창을 사용하여 Journey Optimizer 개인화 기능을 활용합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../personalization/personalize.md)을 참조하십시오.
+    왼쪽 창을 사용하여 Journey Optimizer 개인화 기능을 활용합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../personalization/personalize.md)을 참조하십시오.
 
-   * HTML 콘텐츠가 포함된 HTML 또는 .zip 파일을 가져오려면 **[!UICONTROL 가져오기]**&#x200B;를 선택하십시오.
+  * HTML 콘텐츠가 포함된 HTML 또는 .zip 파일을 가져오려면 **[!UICONTROL 가져오기]**&#x200B;를 선택하십시오.
 
 ## 컨텐츠 탭 {#content-tab}
 

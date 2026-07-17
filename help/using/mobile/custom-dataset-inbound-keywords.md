@@ -6,20 +6,16 @@ description: Experience Platform 스키마, 데이터 세트 및 SMS API 자격 
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-  - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7id: d6e5c7fd-c1d6-4137-98cd-138ccde6752fid: cf64c7f6-7428-4ae5-b158-8df9771f38f4
 source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
 source-wordcount: 553
-ht-degree: 7%
+ht-degree: 12%
 
 ---
 
-# 인바운드 키워드에 대한 사용자 지정 데이터 세트 사용 {#custom-dataset-inbound-keywords}
+# 인바운드 키워드에 대한 사용자 정의 데이터 세트 사용 {#custom-dataset-inbound-keywords}
 
 >[!BEGINSHADEBOX]
 
@@ -31,7 +27,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->사용자 지정 데이터 세트가 구성되지 않은 경우 기본적으로 인바운드 키워드가 시스템 _AJO 전자 메일 추적 데이터 세트_&#x200B;에 저장됩니다. 들어오는 메시지가 이 데이터 집합에 캡처되기 전에 프로필에 [!DNL Journey Optimizer]에서 보낸 메시지가 하나 이상 있어야 합니다. [시스템 데이터 세트에 대해 자세히 알아보기](../data/get-started-datasets.md#system-datasets)
+>사용자 지정 데이터 세트가 구성되지 않은 경우 기본적으로 인바운드 키워드가 시스템 _AJO 전자 메일 추적 데이터 세트_&#x200B;에 저장됩니다. 이 데이터 세트에 수신 메시지를 캡처하려면 프로필에는 [!DNL Journey Optimizer]에서 전송한 하나 이상의 메시지가 있어야 합니다. [시스템 데이터 세트에 대해 자세히 알아보기](../data/get-started-datasets.md#system-datasets)
 
 스키마, 필드 그룹 및 데이터 세트에 대한 배경은 다음 Adobe Experience Platform 설명서를 참조하십시오.
 
@@ -49,7 +45,7 @@ ht-degree: 7%
 
 스키마는 수집된 데이터에 적용되는 구조 및 유효성 검사 규칙을 정의합니다. 아래 나열된 기존 필드 그룹을 추가하여 인바운드 키워드 수집을 위한 경험 이벤트 스키마를 구성합니다.
 
-➡️ [Adobe Experience Platform 설명서에서 스키마 만들기에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/composition)
+➡️ [Adobe Experience Platform 설명서에서 스키마 만들기에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition)
 
 1. Adobe Experience Platform의 **[!UICONTROL 데이터 관리]**&#x200B;에서 **[!UICONTROL 스키마]**&#x200B;에 액세스하고 **[!UICONTROL 스키마 만들기]**&#x200B;를 선택합니다.
 

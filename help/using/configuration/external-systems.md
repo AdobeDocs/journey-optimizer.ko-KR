@@ -9,21 +9,12 @@ level: Beginner
 keywords: 외부, API, 최적화 프로그램, 한도
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
 TQID: https://experienceleague.adobe.com/qIF3fCfcp54WIlVhIbL1FYU-RYOP8s9I4SxuznN-zxg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
 source-wordcount: 1860
@@ -125,8 +116,8 @@ API에 대한 자세한 설명은 [Adobe Journey Optimizer API 설명서](https:
 * 첫 번째 호출은 5초 미만 동안 지속됩니다. 호출이 성공하고 재시도가 수행되지 않습니다.
 * 첫 번째 호출은 5초 이상 지속됩니다. 호출이 취소되고 다시 시도되지 않습니다. 보고에서는 시간 초과 오류로 계산됩니다.
 * 2초 후 첫 번째 호출이 실패합니다(외부 시스템이 오류를 반환함). 최대 가용량 슬롯을 사용할 수 있는 경우 재시도 시간이 3초 남았습니다.
-   * 5초가 끝나기 전에 세 번의 재시도 중 하나가 성공하면 호출이 수행되며 오류가 없습니다.
-   * 재시도 중 시간 초과 기간 끝에 도달하면 호출이 취소되고 보고의 시간 초과 오류로 계산됩니다.
+  * 5초가 끝나기 전에 세 번의 재시도 중 하나가 성공하면 호출이 수행되며 오류가 없습니다.
+  * 재시도 중 시간 초과 기간 끝에 도달하면 호출이 취소되고 보고의 시간 초과 오류로 계산됩니다.
 
 ## 자주 묻는 질문 {#faq}
 

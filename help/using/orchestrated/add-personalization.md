@@ -5,14 +5,9 @@ title: 오케스트레이션된 캠페인에 개인화 추가
 description: 프로필 속성, 작업 테이블의 타겟 속성 및 데이터 보강 컬렉션 배열을 사용하여 오케스트레이션된 캠페인 메시지를 개인화하는 방법을 알아봅니다.
 exl-id: c4a91e2b-6f08-4d1a-9e3b-2f8f5a0d1c62
 version: Campaign Orchestration
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
 source-wordcount: 477
@@ -48,9 +43,9 @@ ht-degree: 0%
 
   작업 테이블의 캠페인 캔버스에서 계산된 속성입니다. 이 폴더에는 두 개의 하위 폴더가 있습니다.
 
-   * **`<Targeting dimension>`**(예: 수신자 또는 구매) — 캠페인에서 타겟팅하는 차원과 관련된 속성입니다.
+  * **`<Targeting dimension>`**(예: 수신자 또는 구매) — 캠페인에서 타겟팅하는 차원과 관련된 속성입니다.
 
-   * **`Enrichment`** — **[!UICONTROL 데이터 보강]** 활동(관계형 링크, 수집된 라인, 집계)을 통해 추가된 데이터입니다. 1:N **[!UICONTROL 데이터 수집]** 데이터 보강 후 번호 매기기 라인과 컬렉션 배열을 모두 가져옵니다. [데이터 보강 수집 데이터를 사용하여 작업하는 방법을 알아봅니다](#enrichment-collections)
+  * **`Enrichment`** — **[!UICONTROL 데이터 보강]** 활동(관계형 링크, 수집된 라인, 집계)을 통해 추가된 데이터입니다. 1:N **[!UICONTROL 데이터 수집]** 데이터 보강 후 번호 매기기 라인과 컬렉션 배열을 모두 가져옵니다. [데이터 보강 수집 데이터를 사용하여 작업하는 방법을 알아봅니다](#enrichment-collections)
 
 [!DNL Journey Optimizer]의 개인화 편집기에 대한 자세한 개요는 [개인화 시작](../personalization/personalize.md)을 참조하세요.
 

@@ -9,21 +9,12 @@ role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
 TQID: https://experienceleague.adobe.com/tcx8KXGtorgevwLUj6rnvoE1mFYESJ4VaLL2vn3aZfA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
 source-wordcount: 841
@@ -47,13 +38,13 @@ ht-degree: 10%
 
 * **사용자 지정 업로드 및 페더레이션 대상 구성** - 사용자 지정 업로드 및 페더레이션 대상 구성 대상의 경우 다음 보호 기능을 참고하십시오.
 
-   * **미리 보기 및 증명 지원:** 현재 미리 보기 및 증명은 CSV 업로드 또는 Federated Audience Composition을 사용하여 만든 대상에 대해 지원되지 않습니다. 캠페인을 계획할 때는 이 점을 염두에 두십시오.
+  * **미리 보기 및 증명 지원:** 현재 미리 보기 및 증명은 CSV 업로드 또는 Federated Audience Composition을 사용하여 만든 대상에 대해 지원되지 않습니다. 캠페인을 계획할 때는 이 점을 염두에 두십시오.
 
-   * **새 프로필 타깃팅:** 레코드와 통합 프로필 서비스 프로필 간에 일치하는 항목을 찾을 수 없으면 빈 새 프로필이 만들어집니다. 이 프로필은 데이터 레이크에 저장된 데이터 보강 속성에 연결됩니다. 이 새 프로필은 비어 있으므로 일반적으로 [!DNL Journey Optimizer]에서 사용되는 타겟팅 필드(예: personalEmail.address, mobilePhone.number)가 비어 있습니다. 따라서 이러한 필드는 타깃팅에 사용할 수 없습니다.
+  * **새 프로필 타깃팅:** 레코드와 통합 프로필 서비스 프로필 간에 일치하는 항목을 찾을 수 없으면 빈 새 프로필이 만들어집니다. 이 프로필은 데이터 레이크에 저장된 데이터 보강 속성에 연결됩니다. 이 새 프로필은 비어 있으므로 일반적으로 [!DNL Journey Optimizer]에서 사용되는 타겟팅 필드(예: personalEmail.address, mobilePhone.number)가 비어 있습니다. 따라서 이러한 필드는 타깃팅에 사용할 수 없습니다.
 
-     이를 해결하려면 채널 구성에서 &quot;실행 필드&quot;(또는 채널에 따른 &quot;실행 주소&quot;)를 &quot;identityMap&quot;으로 지정할 수 있습니다. 이렇게 하면 대상을 만들 때 ID로 선택한 특성이 [!DNL Journey Optimizer]에서 타깃팅에 사용되는 특성이 됩니다.
+    이를 해결하려면 채널 구성에서 &quot;실행 필드&quot;(또는 채널에 따른 &quot;실행 주소&quot;)를 &quot;identityMap&quot;으로 지정할 수 있습니다. 이렇게 하면 대상을 만들 때 ID로 선택한 특성이 [!DNL Journey Optimizer]에서 타깃팅에 사용되는 특성이 됩니다.
 
-   * **활성화된 레코드 및 ID 결합:** 대상자의 모든 레코드는 모든 중복을 포함하여 활성화됩니다. 다음 통합 프로필 서비스 프로필 내보내기 동안 이러한 레코드는 ID 결합을 거칩니다. 그 결과 활성화된 레코드 수는 ID 결합 후 프로필 수와 다를 수 있습니다.
+  * **활성화된 레코드 및 ID 결합:** 대상자의 모든 레코드는 모든 중복을 포함하여 활성화됩니다. 다음 통합 프로필 서비스 프로필 내보내기 동안 이러한 레코드는 ID 결합을 거칩니다. 그 결과 활성화된 레코드 수는 ID 결합 후 프로필 수와 다를 수 있습니다.
 
 ## 대상자 활성화 지연 {#activation}
 

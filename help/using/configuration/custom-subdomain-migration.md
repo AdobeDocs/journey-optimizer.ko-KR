@@ -11,8 +11,7 @@ keywords: 하위 도메인, 위임, 마이그레이션, CNAME, 사용자 정의 
 badge: label="제한된 가용성" type="Informative"
 exl-id: f74139cf-640f-4b7b-a0b1-6eae9c75e7e4
 feature_v2: []
-subfeature_v2:
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+subfeature_v2: id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
 source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
 source-wordcount: 1301
@@ -118,8 +117,8 @@ ht-degree: 4%
 
    * 대부분의 CA를 사용하면 서명 프로세스 중에 CDN 하위 도메인과 같은 SAN을 추가할 수 있습니다
 
-      * CA 포털을 통해(가능한 경우 권장) 또는
-      * 포털 옵션을 사용할 수 없는 경우 지원 팀에 수동으로 요청하십시오.
+     * CA 포털을 통해(가능한 경우 권장) 또는
+     * 포털 옵션을 사용할 수 없는 경우 지원 팀에 수동으로 요청하십시오.
 
    * 서명되면 CA는 데이터 도메인과 CDN 하위 도메인을 모두 포함하는 단일 인증서를 발행합니다.
 

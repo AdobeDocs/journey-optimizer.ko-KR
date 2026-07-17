@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-11_21-02-56
 badge: label="레거시" type="Informative"
 exl-id: 96be492d-5003-4954-94cb-467ec5a725bd
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Adobe Journey Optimizer에서 의사 결정 관리 이벤트 데이터와 Decisi
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 의사 결정 관리 이벤트 작업
 
@@ -35,7 +35,7 @@ Adobe Experience Platform을 사용하여 보고 및 분석을 위해 의사 결
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 DecisioningEvents XDM 필드 액세스 및 탐색
 

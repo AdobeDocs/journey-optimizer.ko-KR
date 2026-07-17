@@ -11,8 +11,8 @@ keywords: 여정 최적화 도구, 기능 가용성, 사용 가능한 사항, GA
 hide: true
 source-git-commit: f13e351c6c3851f9c031e7aa907ecc5924e0df4f
 workflow-type: tm+mt
-source-wordcount: '1880'
-ht-degree: 13%
+source-wordcount: '1881'
+ht-degree: 14%
 
 ---
 
@@ -141,7 +141,7 @@ ht-degree: 13%
 | 이메일 Designer(드래그 앤 드롭) | GA | 모든 기본 오퍼 | 핵심 기능 | Visual 및 HTML 작성 |
 | 콘텐츠 조각 | GA | 모든 기본 오퍼 | 핵심 기능 | 재사용 가능한 콘텐츠 블록 |
 | 콘텐츠 템플릿 | GA | 모든 기본 오퍼 | 핵심 기능 | — |
-| Personalization 편집기 | GA | 모든 기본 오퍼 | 핵심 기능 | 표현식 기반 개인화 |
+| 개인화 편집기 | GA | 모든 기본 오퍼 | 핵심 기능 | 표현식 기반 개인화 |
 | 콘텐츠 생성을 위한 AI 어시스턴트 | GA | 모든 기본 오퍼 | 핵심 기능 | AI 라이선스 약관 필요 |
 
 >[!TAB 의사 결정]

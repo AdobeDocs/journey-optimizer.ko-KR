@@ -10,22 +10,12 @@ level: Intermediate, Experienced
 keywords: 외부, 소스, 데이터, 구성, 연결, 서드파티
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 TQID: https://experienceleague.adobe.com/B7ByDzFxOmtiWSNyc35w28v3j1osGVOyU8LYJrzxGSE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: a3b4e8a6eafb8af7e6682cc0fff51094a3936cad
 workflow-type: tm+mt
 source-wordcount: 2590
@@ -173,20 +163,20 @@ POST 또는 GET을 사용하며 JSON을 반환하는 REST API가 지원됩니다
 * 끝점(`GET` 또는 `POST`)에 대한 HTTP 요청의 메서드
 * `headers`: 필요한 경우 이 호출에서 헤더로 삽입할 키-값 쌍입니다
 * `body`: 메서드가 POST인 경우 호출의 본문을 설명합니다. bodyParams(키-값 쌍)에 정의된 제한된 본문 구조가 지원됩니다. bodyType은 호출 본문의 형식과 인코딩을 설명합니다.
-   * `form`: 콘텐츠 유형은 application/x-www-form-urlencoded(charset UTF-8)이며 키-값 쌍이 그대로 일련화됩니다(예: key1=value1&amp;key2=value2&amp;...).
-   * `json`: 콘텐츠 유형은 application/json(charset UTF-8)이며 키-값 쌍이 json 개체 그대로 일련화됩니다(예: _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;...}_).
+  * `form`: 콘텐츠 유형은 application/x-www-form-urlencoded(charset UTF-8)이며 키-값 쌍이 그대로 일련화됩니다(예: key1=value1&amp;key2=value2&amp;...).
+  * `json`: 콘텐츠 유형은 application/json(charset UTF-8)이며 키-값 쌍이 json 개체 그대로 일련화됩니다(예: _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;...}_).
 
 ### 작업의 HTTP 요청에 액세스 토큰을 삽입해야 하는 방식의 정의{#custom-authentication-access-token}
 
 * **authorizationType**: 생성된 액세스 토큰을 작업의 HTTP 호출에 삽입해야 하는 방법을 정의합니다. 가능한 값은 다음과 같습니다.
 
-   * `bearer`: _인증: 전달자 &lt;액세스 토큰>_&#x200B;과 같이 액세스 토큰을 인증 헤더에 삽입해야 함을 나타냅니다.
-   * `header`: 액세스 토큰을 `tokenTarget` 속성으로 정의된 헤더 이름인 헤더로 삽입해야 함을 나타냅니다. 예를 들어 `tokenTarget`이(가) `myHeader`이면 액세스 토큰은 _myHeader: &lt;액세스 토큰>_(으)로 헤더로 삽입됩니다.
-   * `queryParam`: 액세스 토큰을 queryParam(tokenTarget 속성으로 정의된 쿼리 매개 변수 이름)으로 삽입해야 함을 나타냅니다. 예를 들어 tokenTarget이 myQueryParam이면 작업 호출의 URL은 _&lt;url>?myQueryParam=&lt;액세스 토큰>_&#x200B;이 됩니다.
+  * `bearer`: _인증: 전달자 &lt;액세스 토큰>_&#x200B;과 같이 액세스 토큰을 인증 헤더에 삽입해야 함을 나타냅니다.
+  * `header`: 액세스 토큰을 `tokenTarget` 속성으로 정의된 헤더 이름인 헤더로 삽입해야 함을 나타냅니다. 예를 들어 `tokenTarget`이(가) `myHeader`이면 액세스 토큰은 _myHeader: &lt;액세스 토큰>_(으)로 헤더로 삽입됩니다.
+  * `queryParam`: 액세스 토큰을 queryParam(tokenTarget 속성으로 정의된 쿼리 매개 변수 이름)으로 삽입해야 함을 나타냅니다. 예를 들어 tokenTarget이 myQueryParam이면 작업 호출의 URL은 _&lt;url>?myQueryParam=&lt;액세스 토큰>_&#x200B;이 됩니다.
 
 * **tokenInResponse**: 인증 호출에서 액세스 토큰을 추출하는 방법을 나타냅니다. 이 속성은 다음 중 하나일 수 있습니다.
-   * `response`: HTTP 응답이 액세스 토큰임을 나타냅니다.
-   * json의 선택기. 응답이 json이면 XML 등의 다른 형식은 지원되지 않습니다. 이 선택기의 형식은 _json://&lt;액세스 토큰 속성의 여정>_&#x200B;입니다. 예를 들어 호출의 응답이 _{ &quot;access_ token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656 }_이면 tokenInResponse는_ json: //access_token_이 됩니다.
+  * `response`: HTTP 응답이 액세스 토큰임을 나타냅니다.
+  * json의 선택기. 응답이 json이면 XML 등의 다른 형식은 지원되지 않습니다. 이 선택기의 형식은 _json://&lt;액세스 토큰 속성의 여정>_&#x200B;입니다. 예를 들어 호출의 응답이 _{ &quot;access_ token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656 }_이면 tokenInResponse는_ json: //access_token_이 됩니다.
 
 이 인증의 형식은 다음과 같습니다.
 

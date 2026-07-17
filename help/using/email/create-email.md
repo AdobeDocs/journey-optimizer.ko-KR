@@ -10,27 +10,12 @@ level: Beginner
 keywords: 만들기, 이메일, 시작, 여정, 캠페인
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 TQID: https://experienceleague.adobe.com/EM2msybn-3qaRJz113oIwMOU4Aj9h3BiDeLnl4vpO-Q
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: fae48155-b23f-40d2-a252-a25bce350b4d
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: fae48155-b23f-40d2-a252-a25bce350b4did: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: f19aef75aeac9be8e400528b5e587545268d7607
 workflow-type: tm+mt
 source-wordcount: 1883
@@ -183,27 +168,27 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
 * **경고**&#x200B;는 다음과 같은 권장 사항 및 모범 사례를 참조합니다.
 
-   * **[!UICONTROL 옵트아웃 링크가 이메일 본문에 없습니다]**: 구독 취소 링크를 이메일 본문에 추가하는 것이 좋습니다. [이 섹션](../privacy/opt-out.md#opt-out-decision-management)에서 구성하는 방법을 알아보세요.
+  * **[!UICONTROL 옵트아웃 링크가 이메일 본문에 없습니다]**: 구독 취소 링크를 이메일 본문에 추가하는 것이 좋습니다. [이 섹션](../privacy/opt-out.md#opt-out-decision-management)에서 구성하는 방법을 알아보세요.
 
-     >[!NOTE]
-     >
-     >마케팅 유형 이메일 메시지에는 옵트아웃 링크가 포함되어야 합니다. 옵트아웃 링크는 트랜잭션 메시지에는 필요 없습니다. 메시지 범주(**[!UICONTROL 마케팅]** 또는 **[!UICONTROL 트랜잭션]**)는 [채널 구성](email-settings.md#email-type) 수준에서 [여정 또는 캠페인에서 메시지를 만드는](#create-email-journey-campaign)때 정의됩니다.
+    >[!NOTE]
+    >
+    >마케팅 유형 이메일 메시지에는 옵트아웃 링크가 포함되어야 합니다. 옵트아웃 링크는 트랜잭션 메시지에는 필요 없습니다. 메시지 범주(**[!UICONTROL 마케팅]** 또는 **[!UICONTROL 트랜잭션]**)는 [채널 구성](email-settings.md#email-type) 수준에서 [여정 또는 캠페인에서 메시지를 만드는](#create-email-journey-campaign)때 정의됩니다.
 
-   * **[!UICONTROL HTML의 텍스트 버전이 비어 있음]**: 이메일 본문의 텍스트 버전은 HTML 콘텐츠를 표시할 수 없을 때 사용되므로 정의하는 것을 잊지 마십시오. [이 섹션](text-version-email.md)에서 텍스트 버전을 만드는 방법을 알아봅니다.
+  * **[!UICONTROL HTML의 텍스트 버전이 비어 있음]**: 이메일 본문의 텍스트 버전은 HTML 콘텐츠를 표시할 수 없을 때 사용되므로 정의하는 것을 잊지 마십시오. [이 섹션](text-version-email.md)에서 텍스트 버전을 만드는 방법을 알아봅니다.
 
-   * **[!UICONTROL 전자 메일 본문에 빈 링크가 있습니다]**: 전자 메일의 모든 링크가 올바른지 확인하세요. [이 섹션](content-from-scratch.md)에서 콘텐츠 및 링크를 관리하는 방법을 알아보세요.
+  * **[!UICONTROL 전자 메일 본문에 빈 링크가 있습니다]**: 전자 메일의 모든 링크가 올바른지 확인하세요. [이 섹션](content-from-scratch.md)에서 콘텐츠 및 링크를 관리하는 방법을 알아보세요.
 
-   * **[!UICONTROL 전자 메일 크기가 100KB의 제한을 초과했습니다]**: 최적의 배달을 위해 전자 메일 크기가 100KB를 초과하지 않도록 하십시오. HTML 크기를 줄이려면 **[!UICONTROL HTML 크기 최적화]** 옵션을 사용하십시오. [자세히 알아보기](#optimize-html-size)
+  * **[!UICONTROL 전자 메일 크기가 100KB의 제한을 초과했습니다]**: 최적의 배달을 위해 전자 메일 크기가 100KB를 초과하지 않도록 하십시오. HTML 크기를 줄이려면 **[!UICONTROL HTML 크기 최적화]** 옵션을 사용하십시오. [자세히 알아보기](#optimize-html-size)
 
 * **오류**&#x200B;로 인해 여정/캠페인이 해결되지 않는 한 테스트하거나 활성화할 수 없습니다. 예:
 
-   * **[!UICONTROL 제목 줄이 없습니다]**: 전자 메일 제목 줄은 필수입니다. [이 섹션](create-email.md)에서 이를 정의하고 개인화하는 방법을 알아보세요.
+  * **[!UICONTROL 제목 줄이 없습니다]**: 전자 메일 제목 줄은 필수입니다. [이 섹션](create-email.md)에서 이를 정의하고 개인화하는 방법을 알아보세요.
 
   <!--HTML is empty when Amp HTML is present-->
 
-   * **[!UICONTROL 메시지의 전자 메일 버전이 비어 있습니다]**: 전자 메일 콘텐츠가 구성되지 않은 경우 이 오류가 표시됩니다. [이 섹션](get-started-email-design.md)에서 전자 메일 콘텐츠를 디자인하는 방법을 알아봅니다.
+  * **[!UICONTROL 메시지의 전자 메일 버전이 비어 있습니다]**: 전자 메일 콘텐츠가 구성되지 않은 경우 이 오류가 표시됩니다. [이 섹션](get-started-email-design.md)에서 전자 메일 콘텐츠를 디자인하는 방법을 알아봅니다.
 
-   * **[!UICONTROL 구성이 없습니다]**: 선택한 구성이 메시지 작성 후 삭제되면 메시지를 사용할 수 없습니다. 이 오류가 발생하면 **[!UICONTROL 속성]** 메시지에서 다른 구성을 선택하십시오. [이 섹션](../configuration/channel-surfaces.md)에서 채널 구성에 대해 자세히 알아보세요.
+  * **[!UICONTROL 구성이 없습니다]**: 선택한 구성이 메시지 작성 후 삭제되면 메시지를 사용할 수 없습니다. 이 오류가 발생하면 **[!UICONTROL 속성]** 메시지에서 다른 구성을 선택하십시오. [이 섹션](../configuration/channel-surfaces.md)에서 채널 구성에 대해 자세히 알아보세요.
 
 >[!CAUTION]
 >

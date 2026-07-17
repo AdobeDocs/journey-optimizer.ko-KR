@@ -10,24 +10,15 @@ level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
 TQID: https://experienceleague.adobe.com/4GZKFKOx-D-RT1mssiV5vpmZQSJGVbGMro8Q-suhtPE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 2f3a44b2366119c84e52861db09054f22d55623d
 workflow-type: tm+mt
-source-wordcount: 829
+source-wordcount: 840
 ht-degree: 11%
 
 ---
@@ -93,8 +84,8 @@ DM 내보내기는 **02:01**, **06:01**, **10:01**, **14:01**, **18:01** 및 **2
 
   예:
 
-   * **14:01** 전에 도착하는 프로필은 **14:01**&#x200B;에 내보냅니다.
-   * **14:02**&#x200B;부터 **18:01**&#x200B;까지 도착하는 프로필은 **18:01**&#x200B;에 내보냅니다.
+  * **14:01** 전에 도착하는 프로필은 **14:01**&#x200B;에 내보냅니다.
+  * **14:02**&#x200B;부터 **18:01**&#x200B;까지 도착하는 프로필은 **18:01**&#x200B;에 내보냅니다.
 
   이 경우 프로필이 중복되지 않으며 도착 창별로 프로필을 배치합니다.
 
@@ -102,9 +93,9 @@ DM 내보내기는 **02:01**, **06:01**, **10:01**, **14:01**, **18:01** 및 **2
 
 * **일일 1개 시나리오에 대한 권장 사항** - 하루에 1개의 파일이 필요한 경우 다음 옵션을 고려하십시오.
 
-   * **24시간 라우팅 주기**: 하루에 한 개의 파일을 보장하지만 배달 지연이 발생합니다.
-   * **시간까지 대기**: 프로필을 동일한 내보내기 창으로 정렬할 수 있지만 결과는 여정 시간에 따라 다릅니다.
-   * **4시간 라우팅 빈도**: 대기 시간이 가장 짧지만 하루에 여러 개의 파일을 생성할 수 있습니다.
+  * **24시간 라우팅 주기**: 하루에 한 개의 파일을 보장하지만 배달 지연이 발생합니다.
+  * **시간까지 대기**: 프로필을 동일한 내보내기 창으로 정렬할 수 있지만 결과는 여정 시간에 따라 다릅니다.
+  * **4시간 라우팅 빈도**: 대기 시간이 가장 짧지만 하루에 여러 개의 파일을 생성할 수 있습니다.
 
 ## DM에 대한 동의 관리 {#dm-consent-management}
 

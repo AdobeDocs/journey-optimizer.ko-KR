@@ -6,15 +6,11 @@ description: 프로필 토큰 문제, 캠페인 구성 및 게재 실패를 포�
 role: User
 level: Intermediate
 exl-id: f0f83bd2-7c2b-4d9b-b455-e1df12dfa175
-feature_v2:
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: ed2fba79-65cb-4680-96d2-2ad5d851714d
+feature_v2: id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: ed2fba79-65cb-4680-96d2-2ad5d851714d
 source-git-commit: 8d7aea9c58b0f7622f3b11c21db55536ffe1cb66
 workflow-type: tm+mt
-source-wordcount: 5964
+source-wordcount: 5976
 ht-degree: 1%
 
 ---
@@ -177,12 +173,12 @@ API는 HTTP 200을 반환하지만 라이브 활동이 표시되지 않습니다
 #### 사전 확인
 
 * iOS 앱 요구 사항:
-   * iOS 16.1+
-   * `Info.plist`에서 `NSSupportsLiveActivities`을(를) `YES`(으)로 설정
-   * `ActivityAttributes`이(가) 올바르게 구현되었습니다.
+  * iOS 16.1+
+  * `Info.plist`에서 `NSSupportsLiveActivities`을(를) `YES`(으)로 설정
+  * `ActivityAttributes`이(가) 올바르게 구현되었습니다.
 * 모바일 SDK 통합:
-   * Adobe Experience Platform Mobile SDK (메시징 SDK 5.11.0+)
-   * `Messaging.registerLiveActivities`이(가) 라이브 활동 푸시 토큰을 사용하여 구현되고 호출되었습니다.
+  * Adobe Experience Platform Mobile SDK (메시징 SDK 5.11.0+)
+  * `Messaging.registerLiveActivities`이(가) 라이브 활동 푸시 토큰을 사용하여 구현되고 호출되었습니다.
 
 #### 디버깅 단계
 
@@ -393,8 +389,8 @@ API 페이로드가 iOS 앱의 `ActivityAttributes` 구현과 일치하는지 �
 
 * `content-state`에 모든 `ContentState` 필드를 포함합니다(모든 이벤트 유형에 필요).
 * 다음을 포함하여 `attributes`의 모든 `LiveActivityAttributes` 필드(시작 이벤트만 해당) 포함:
-   * `liveActivityData`(필수, 일반적으로 `liveActivityID` 또는 유사한 식별자를 포함)
-   * 구조의 모든 사용자 정의 필드
+  * `liveActivityData`(필수, 일반적으로 `liveActivityID` 또는 유사한 식별자를 포함)
+  * 구조의 모든 사용자 정의 필드
 * 필드 이름을 정확히 일치시키십시오(대/소문자 구분).
 * 데이터 유형(문자열, 정수, 부울, 중첩된 오브젝트)을 일치시킵니다.
 * 중첩된 오브젝트 구조를 유지합니다.
@@ -449,15 +445,15 @@ Assurance을 사용하여 API 실행 및 페이로드 게재 확인:
 **사전 확인**
 
 * **이전 시나리오 유효성 검사:**
-   * 올바른 `liveActivityPushNotificationDetails`을(를) 가진 프로필이 있습니다.
-   * 캠페인 표면 및 활동 유형이 올바름
-   * API 페이로드가 현재 타임스탬프와 함께 유효합니다.
-   * 업데이트 토큰이 동기화됨(업데이트/종료 이벤트의 경우)
+  * 올바른 `liveActivityPushNotificationDetails`을(를) 가진 프로필이 있습니다.
+  * 캠페인 표면 및 활동 유형이 올바름
+  * API 페이로드가 현재 타임스탬프와 함께 유효합니다.
+  * 업데이트 토큰이 동기화됨(업데이트/종료 이벤트의 경우)
 
 * **API 호출 확인됨:**
 
-   * API 호출이 HTTP 200(성공)을 반환했습니다.
-   * 캠페인 ID 및 수신자 세부 정보가 올바릅니다
+  * API 호출이 HTTP 200(성공)을 반환했습니다.
+  * 캠페인 ID 및 수신자 세부 정보가 올바릅니다
 
 #### 디버깅 단계
 
@@ -744,8 +740,8 @@ curl --location 'https://cjm.adobe.io/imp/message/executions/HUOC-123456' \
 **사전 확인:**
 
 * **캠페인 유형**:
-   * 캠페인이 API 트리거 마케팅으로 생성되었는지 확인합니다(브로드캐스트/대상 기반 캠페인에 필요).
-   * 대상이 캠페인 구성에 정의되어 있는지 확인합니다.
+  * 캠페인이 API 트리거 마케팅으로 생성되었는지 확인합니다(브로드캐스트/대상 기반 캠페인에 필요).
+  * 대상이 캠페인 구성에 정의되어 있는지 확인합니다.
 * **프로필 및 토큰 유효성 검사**: 대상에서 여러 프로필을 샘플링하여 `liveActivityPushNotificationDetails`이(가) 유효한지 확인합니다. 자세한 유효성 검사 단계는 [시나리오 1](#scenario-1-profile-or-push-token-issues)을(를) 참조하십시오.
 
 #### 디버깅 단계
@@ -807,17 +803,17 @@ curl --location 'https://cjm.adobe.io/imp/message/executions/HUOC-123456' \
 **중요한 브로드캐스트 관련 필드:**
 
 * **`input-push-channel`**:
-   * 모든 브로드캐스트 라이브 활동에 필요합니다.
-   * 이 특정 브로드캐스트 인스턴스의 고유 식별자 역할을 합니다.
-   * 대상자의 모든 프로필은 이 채널에 연결된 라이브 활동을 수신합니다.
-   * `liveActivityData.channelID`의 `channelID`과(와) 일치해야 합니다(3단계 참조).
-   * 클라이언트가 Apple 개발자 포털에서 `appID`에 대해 만들어야 합니다.
-   * 특정 `appID`에 대해 만들어진 채널만 해당 앱에서 라이브 활동을 브로드캐스트하는 데 사용할 수 있습니다.
+  * 모든 브로드캐스트 라이브 활동에 필요합니다.
+  * 이 특정 브로드캐스트 인스턴스의 고유 식별자 역할을 합니다.
+  * 대상자의 모든 프로필은 이 채널에 연결된 라이브 활동을 수신합니다.
+  * `liveActivityData.channelID`의 `channelID`과(와) 일치해야 합니다(3단계 참조).
+  * 클라이언트가 Apple 개발자 포털에서 `appID`에 대해 만들어야 합니다.
+  * 특정 `appID`에 대해 만들어진 채널만 해당 앱에서 라이브 활동을 브로드캐스트하는 데 사용할 수 있습니다.
 
 * **`audience.id`**:
-   * Adobe Experience Platform에서 생성된 유효한 대상 세그먼트를 참조해야 합니다.
-   * 이 대상자의 모든 프로필은 라이브 활동을 대상으로 합니다.
-   * 대상자를 활성화해야 하며 올바른 `liveActivityPushNotificationDetails`의 프로필을 포함해야 합니다.
+  * Adobe Experience Platform에서 생성된 유효한 대상 세그먼트를 참조해야 합니다.
+  * 이 대상자의 모든 프로필은 라이브 활동을 대상으로 합니다.
+  * 대상자를 활성화해야 하며 올바른 `liveActivityPushNotificationDetails`의 프로필을 포함해야 합니다.
 
 **항상 최신 타임스탬프 사용:**
 
@@ -955,8 +951,8 @@ Adobe Experience Platform에서는 프로필 업데이트가 대상에 반영되
 **사전 확인:**
 
 * **캠페인 및 페이로드 유효성 검사**:
-   * [이 시나리오](#broadcast-config)에서 검사를 완료하여 캠페인과 페이로드가 올바른지 확인하세요.
-   * API 페이로드의 `audience.id`이(가) 캠페인 구성과 일치하는지 확인하십시오.
+  * [이 시나리오](#broadcast-config)에서 검사를 완료하여 캠페인과 페이로드가 올바른지 확인하세요.
+  * API 페이로드의 `audience.id`이(가) 캠페인 구성과 일치하는지 확인하십시오.
 * **프로필 있음**: 프로필이 유효한 `liveActivityPushNotificationDetails`을(를) 사용하여 AEP에 있는지 확인하십시오.
 
 #### 디버깅 단계
@@ -1030,9 +1026,9 @@ Adobe Experience Platform에서는 프로필 업데이트가 대상에 반영되
 1. **문제 해결:**
    * **새 프로필의 경우**: 조건이 충족되면 자동으로 자격을 부여합니다. 조치가 필요하지 않습니다.
    * **최근 업데이트가 없는 기존 프로필의 경우:**
-      * 프로필의 작은 업데이트(예: 타임스탬프 필드 업데이트)를 수행합니다.
-      * 이렇게 하면 스트리밍 평가가 트리거되고 프로필이 대상자에 추가됩니다.
-      * 대체 요소: 기존 프로필에 대해 배치 대상 또는 에지 대상을 사용합니다.
+     * 프로필의 작은 업데이트(예: 타임스탬프 필드 업데이트)를 수행합니다.
+     * 이렇게 하면 스트리밍 평가가 트리거되고 프로필이 대상자에 추가됩니다.
+     * 대체 요소: 기존 프로필에 대해 배치 대상 또는 에지 대상을 사용합니다.
 
 +++
 
@@ -1112,7 +1108,7 @@ ORDER BY timestamp ASC
 > `identityMap`은(는) 문자열이 아닌 구조화된 MAP 유형입니다. 위에 표시된 배열 및 구조체 접근자 구문을 사용합니다. `LIKE`과(와) 같은 문자열 함수는 `DATATYPE_MISMATCH` 오류를 반환합니다.
 >
 ></br>
->&gt; 메시지 피드백 이벤트 데이터 세트는 'identityMap'에 ECID만 저장합니다. 영향을 받는 프로필이 ECID가 아닌 사용자 지정 네임스페이스로 식별되는 경우, 먼저 ECID를 해결하십시오. AEP에서 **프로필**&#x200B;로 이동하고 사용자 지정 네임스페이스와 ID 값을 사용하여 프로필을 검색한 다음 프로필의 ID 세부 정보에서 ECID를 검색하십시오. 위의 쿼리에서 해당 ECID 값을 사용합니다.
+&gt; 메시지 피드백 이벤트 데이터 세트는 'identityMap'에 ECID만 저장합니다. 영향을 받는 프로필이 ECID가 아닌 사용자 지정 네임스페이스로 식별되는 경우, 먼저 ECID를 해결하십시오. AEP에서 **프로필**로 이동하고 사용자 지정 네임스페이스와 ID 값을 사용하여 프로필을 검색한 다음 프로필의 ID 세부 정보에서 ECID를 검색하십시오. 위의 쿼리에서 해당 ECID 값을 사용합니다.
 
 ### feedbackStatus 값
 

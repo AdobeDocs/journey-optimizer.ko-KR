@@ -6,7 +6,7 @@ description: Journey Optimizer에서 오케스트레이션된 캠페인을 실�
 redpen-status: CREATED_||_2025-08-11_20-24-01
 exl-id: e1c20d14-4d0e-4ef9-9745-ca8ffe706f0b
 source-git-commit: 487dac21011f951bedc6f9f71c39faf549859d79
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 데이터 구성은 데이터를 구성하고 연결�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 관계형 스키마 및 데이터 세트 관리
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 데이터 구성은 데이터를 구성하고 연결�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 타기팅 차원을 구성하는 방법
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer의 데이터 구성은 데이터를 구성하고 연결�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 채널 구성 설정
 

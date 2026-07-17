@@ -10,23 +10,14 @@ level: Experienced
 keywords: IP, 그룹, 하위 도메인, 전달성
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
 TQID: https://experienceleague.adobe.com/UdieayUZxB6syucHx93TgILpTl6Tmg2DggCKuYAt048
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-  - id: c343082f-e963-4f57-a96b-b64d27f8118e
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62aid: c343082f-e963-4f57-a96b-b64d27f8118eid: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1853
+source-wordcount: 1859
 ht-degree: 8%
 
 ---
@@ -123,10 +114,10 @@ IP 준비 계획을 만들려면 첫 번째 탭에 계획을 제공하는 데 �
 
 * 최대 6개의 열이 있을 수 있습니다(도메인 그룹의 경우 4개 열, **기타** 열 및 **참여 일수** 열의 경우 1개). 이 예에서 플랜은 6개의 열로 나뉩니다.
 
-   * 이 중 3개가 플랜에서 사용할 **기본 제공 도메인 그룹**&#x200B;에 해당합니다(Gmail, Yahoo 및 Microsoft). 기본 도메인 그룹은 [OOTB 도메인 그룹](#ootb-domain-groups-tab) 탭에 모두 나열됩니다.
-   * 하나의 열이 사용자 정의 도메인 그룹에 해당합니다([사용자 정의 도메인 그룹](#custom-domain-group-tab) 탭을 사용하여 추가해야 함).
-   * 다섯 번째 열인 **기타**&#x200B;에는 계획에 명시적으로 포함되지 않은 다른 도메인의 나머지 주소가 모두 포함되어 있습니다. 이 열은 선택 사항입니다. 생략하면 이메일이 지정된 도메인으로만 이동합니다.
-   * 마지막 열인 **참여 일**&#x200B;을(를) 사용하면 참여를 추적하거나 평가할 일수를 지정할 수 있습니다.
+  * 이 중 3개가 플랜에서 사용할 **기본 제공 도메인 그룹**&#x200B;에 해당합니다(Gmail, Yahoo 및 Microsoft). 기본 도메인 그룹은 [OOTB 도메인 그룹](#ootb-domain-groups-tab) 탭에 모두 나열됩니다.
+  * 하나의 열이 사용자 정의 도메인 그룹에 해당합니다([사용자 정의 도메인 그룹](#custom-domain-group-tab) 탭을 사용하여 추가해야 함).
+  * 다섯 번째 열인 **기타**&#x200B;에는 계획에 명시적으로 포함되지 않은 다른 도메인의 나머지 주소가 모두 포함되어 있습니다. 이 열은 선택 사항입니다. 생략하면 이메일이 지정된 도메인으로만 이동합니다.
+  * 마지막 열인 **참여 일**&#x200B;을(를) 사용하면 참여를 추적하거나 평가할 일수를 지정할 수 있습니다.
 
 이 아이디어는 각 실행에서 타깃팅된 주소의 수를 점진적으로 늘리면서 각 단계에 대한 실행 수를 줄이는 것입니다.
 
@@ -283,14 +274,14 @@ Hotmail 외부 도메인과 도메인 그룹 Microsoft의 도메인은 **[!UICON
 >id="ajo_admin_ip_warmup_upload"
 >title="IP 워밍업 플랜 지정"
 >abstract="IP 워밍업 단계, 목표 프로필 수와 같이 플랜에 필요한 모든 데이터를 입력하여 Excel 템플릿을 작성하고 여기에 업로드합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html?lang=ko#prepare-file" text="IP 워밍업 플랜 파일 준비"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html#prepare-file" text="IP 워밍업 플랜 파일 준비"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_surface"
 >title="마케팅 구성 선택"
 >abstract="IP 워밍업 플랜과 연결하려는 캠페인에서 선택한 것과 동일한 구성을 선택해야 합니다."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=ko" text="채널 구성 설정"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=ko" text="IP 워밍업 캠페인 만들기"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html" text="채널 구성 설정"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html" text="IP 워밍업 캠페인 만들기"
 
 IP 준비 계획을 만들려면 아래 단계를 수행합니다.
 

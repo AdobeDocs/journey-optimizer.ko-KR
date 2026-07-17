@@ -10,23 +10,15 @@ level: Experienced
 exl-id: c9e14d4d-f2e2-43f9-b1c5-4b005ce858ad
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/uUlnfdFBE4-6tCklMD-ZwpyVI75hMgSoFftS8n-cC1Y
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 920
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -74,7 +66,7 @@ Decisioning API를 사용하여 컨텍스트를 자유 형식으로 전달하는
 
 1. 데이터 세트(&quot;오퍼 컨텍스트&quot;)를 만들고 프로필에 대해 활성화되어 있는지 확인합니다.
 
-1. **[!UICONTROL 데이터 수집]** > **[!UICONTROL 데이터스트림]** 메뉴에서 새 데이터스트림을 만듭니다. [!DNL Adobe Experience Platform] [데이터스트림 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/configure){target="_blank"}에서 데이터스트림을 만들고 구성하는 방법에 대해 알아봅니다.
+1. **[!UICONTROL 데이터 수집]** > **[!UICONTROL 데이터스트림]** 메뉴에서 새 데이터스트림을 만듭니다. [!DNL Adobe Experience Platform] [데이터스트림 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure){target="_blank"}에서 데이터스트림을 만들고 구성하는 방법에 대해 알아봅니다.
 
    여기에서는 &quot;오퍼 컨텐츠&quot; 이벤트 스키마가 선택된 상태로 &quot;오퍼 컨텍스트&quot; 데이터스트림을 생성했습니다.
 
@@ -96,23 +88,23 @@ Decisioning API를 사용하여 컨텍스트를 자유 형식으로 전달하는
 
 * iphone 장치 규칙:
 
-   * 규칙 이름: &quot;Edge 컨텍스트 규칙 - iphone&quot;
-   * 구성: deviceType = &#39;iphone&#39;
-   * PQL 구문:
+  * 규칙 이름: &quot;Edge 컨텍스트 규칙 - iphone&quot;
+  * 구성: deviceType = &#39;iphone&#39;
+  * PQL 구문:
 
-     ```
-     select _Any1 from xEvent where _Any1._experienceplatform.offerContextData.deviceType.equals("iphone", false)
-     ```
+    ```
+    select _Any1 from xEvent where _Any1._experienceplatform.offerContextData.deviceType.equals("iphone", false)
+    ```
 
 * ipad 장치 규칙:
 
-   * 규칙 이름: &quot;Edge 컨텍스트 규칙 - ipad&quot;
-   * 구성: deviceType = &#39;ipad&#39;
-   * PQL 구문
+  * 규칙 이름: &quot;Edge 컨텍스트 규칙 - ipad&quot;
+  * 구성: deviceType = &#39;ipad&#39;
+  * PQL 구문
 
-     ```
-     select _Any1 from xEvent where _Any1._experienceplatform.offerContextData.deviceType.equals("ipad", false)
-     ```
+    ```
+    select _Any1 from xEvent where _Any1._experienceplatform.offerContextData.deviceType.equals("ipad", false)
+    ```
 
 ## 오퍼 만들기 {#offers}
 
@@ -120,13 +112,13 @@ Decisioning API를 사용하여 컨텍스트를 자유 형식으로 전달하는
 
 * iPhone 사용자를 위한 오퍼:
 
-   * 오퍼 이름: &quot;Edge 컨텍스트 - iPhone 오퍼 컨텐츠&quot;
-   * 관련 규칙: &quot;Edge 컨텍스트 규칙 - iphone&quot;
+  * 오퍼 이름: &quot;Edge 컨텍스트 - iPhone 오퍼 컨텐츠&quot;
+  * 관련 규칙: &quot;Edge 컨텍스트 규칙 - iphone&quot;
 
 * iPad 사용자를 위한 오퍼:
 
-   * 오퍼 이름: &quot;Edge 컨텍스트 - iPad 오퍼 컨텐츠&quot;
-   * 관련 규칙: &quot;Edge 컨텍스트 규칙 - ipad&quot;
+  * 오퍼 이름: &quot;Edge 컨텍스트 - iPad 오퍼 컨텐츠&quot;
+  * 관련 규칙: &quot;Edge 컨텍스트 규칙 - ipad&quot;
 
 또한 특정 장치 기준이 충족되지 않는 경우 표시할 대체 오퍼(여기서는 &quot;컨텍스트 대체 컨텐츠&quot;)를 만듭니다.
 

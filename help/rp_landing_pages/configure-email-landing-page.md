@@ -6,7 +6,7 @@ description: 이메일 채널 구성
 redpen-status: CREATED_||_2025-08-11_20-34-10
 exl-id: c9377c3c-d716-4fae-adc8-458cbe7213dd
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer에서 이메일 채널을 구성하는 것은 대상자�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 이메일 구성 시작
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 이메일 채널을 구성하는 것은 대상자�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 이메일 구성 설정 정의
 
@@ -40,7 +40,7 @@ BCC, 제외 무시, URL 추적과 같은 고급 기능을 사용하여 전달성
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 목록 구독 취소 활성화 및 구성
 
@@ -50,7 +50,7 @@ BCC, 제외 무시, URL 추적과 같은 고급 기능을 사용하여 전달성
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 이메일 헤더 매개변수 구성
 
@@ -60,7 +60,7 @@ BCC, 제외 무시, URL 추적과 같은 고급 기능을 사용하여 전달성
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 이메일 채널에 대한 URL 추적 구성
 
@@ -70,7 +70,7 @@ URL 추적 매개변수를 설정하여 이메일 캠페인의 효과를 측정�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 개인화된 이메일 구성 설정
 

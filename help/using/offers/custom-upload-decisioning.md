@@ -10,20 +10,12 @@ level: Intermediate
 exl-id: bd950410-691b-49d8-8851-8c6c448c00fd
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/ffeoNY5SR6RmhqfGzpDwryo0Ss7XL4td-9gnQm15Sik
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 641
@@ -47,7 +39,7 @@ ht-degree: 5%
 사용자 지정 업로드 대상자에 대한 자세한 내용은 다음 섹션을 참조하십시오.
 
 * [대상자 및 Journey Optimizer 시작](../audience/about-audiences.md)
-* [Adobe Experience Platform에서 대상자 가져오기](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
+* [Adobe Experience Platform에서 대상자 가져오기](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
 
 ## 반드시 알아야 할 사항 {#must-read}
 
@@ -61,9 +53,9 @@ ht-degree: 5%
 
 * 사용자 지정 업로드 대상자를 사용하여 의사 결정 규칙 만들기:
 
-   1. 규칙을 작성할 때 **대상** 탭에 액세스하여 목록에서 CSV 대상을 검색합니다. 대상을 규칙 캔버스로 드래그하여 놓습니다.
-   1. **특성** 탭을 사용하여 선택한 대상자에 연결된 데이터 보강 스키마로 이동합니다. 이렇게 하면 CSV 파일의 모든 데이터에 액세스하여 이를 규칙에 사용할 수 있습니다. [의사 결정 규칙을 만드는 방법을 알아봅니다](../offers/offer-library/creating-decision-rules.md)
-   1. 규칙을 저장합니다. 규칙이 만들어지면 오퍼 및 의사 결정 수준 모두에서 해당 규칙을 사용하여 자격 조건을 구체화할 수 있습니다.
+  1. 규칙을 작성할 때 **대상** 탭에 액세스하여 목록에서 CSV 대상을 검색합니다. 대상을 규칙 캔버스로 드래그하여 놓습니다.
+  1. **특성** 탭을 사용하여 선택한 대상자에 연결된 데이터 보강 스키마로 이동합니다. 이렇게 하면 CSV 파일의 모든 데이터에 액세스하여 이를 규칙에 사용할 수 있습니다. [의사 결정 규칙을 만드는 방법을 알아봅니다](../offers/offer-library/creating-decision-rules.md)
+  1. 규칙을 저장합니다. 규칙이 만들어지면 오퍼 및 의사 결정 수준 모두에서 해당 규칙을 사용하여 자격 조건을 구체화할 수 있습니다.
 
   결정 규칙 캔버스의 ![CSV 대상](assets/csv-rule.png)
 
@@ -71,8 +63,8 @@ ht-degree: 5%
 
   오퍼를 작성할 때 **제약 조건 추가** 단계에서 다음 중 하나를 수행할 수 있습니다.
 
-   * 사용자 정의 업로드 대상자를 사용하여 오퍼 자격 조건을 정의합니다.
-   * 사용자 지정 업로드 대상을 활용하는 규칙을 적용합니다.
+  * 사용자 정의 업로드 대상자를 사용하여 오퍼 자격 조건을 정의합니다.
+  * 사용자 지정 업로드 대상을 활용하는 규칙을 적용합니다.
 
   ![사용자 지정 업로드 대상 제한 옵션](assets/csv-offer.png)
 

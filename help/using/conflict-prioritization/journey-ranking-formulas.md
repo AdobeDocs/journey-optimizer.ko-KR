@@ -7,10 +7,8 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="제한 공개" type="Informative"
 exl-id: b172e0e1-b78e-4d96-ab88-254507b55f48
-feature_v2:
-  - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
-subfeature_v2:
-  - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
+feature_v2: id: fd59660e-de8a-4bfb-85dc-7fa546030c49
+subfeature_v2: id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
 source-git-commit: 064334b0b86fc6fe549d3b152fdc40e8f9c9e5fc
 workflow-type: tm+mt
 source-wordcount: 1174
@@ -63,7 +61,7 @@ ht-degree: 3%
 
    <!--
     Selecting a formula entity specifies which type of item—such as journeys or other entities—the ranking formula will apply to. This determines the context in which the formula operates, allowing you to define rules that influence how those items are ranked.
-   -->
+-->
 
 1. 선택적으로 **[!UICONTROL AI 모델 선택]**&#x200B;을 클릭하여 순위 공식을 만드는 데 참조로 사용할 모델을 설정합니다. [자세히 알아보기](journey-ai-models.md)
 
@@ -91,11 +89,11 @@ ht-degree: 3%
 
 1. 위에 정의된 조건을 충족하는 여정에 등급 점수를 지정할 표현식을 만듭니다. 다음 중 하나를 참조할 수 있습니다.
    * 변수:
-      * 여정 우선 순위는 [여정을 만들 때](../building-journeys/journey-gs.md) 여정에 할당된 수동 값입니다.
-      * 위에서 선택적으로 선택한 AI 모델에서 나온 점수
+     * 여정 우선 순위는 [여정을 만들 때](../building-journeys/journey-gs.md) 여정에 할당된 수동 값입니다.
+     * 위에서 선택적으로 선택한 AI 모델에서 나온 점수
    * 속성:
-      * 외부에서 파생된 성향 점수와 같이 프로필에 있을 수 있는 모든 속성
-      * 여정 속성;
+     * 외부에서 파생된 성향 점수와 같이 프로필에 있을 수 있는 모든 속성
+     * 여정 속성;
    * 자유 형식으로 할당할 수 있는 정적 값
    * 위의 모든 조합을 구성합니다.
 

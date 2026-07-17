@@ -8,22 +8,12 @@ role: Admin
 level: Intermediate
 exl-id: 02ca7c8e-105a-4e77-9aad-2381904255d0
 TQID: https://experienceleague.adobe.com/3qQXyrzDwhvaMQt4gpg5g5Xty7uLXFkkSt9UNvHZYfU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-subfeature_v2:
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: ed2fba79-65cb-4680-96d2-2ad5d851714d
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d3cdead0-685a-4489-9250-4bb709942f66
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: ed2fba79-65cb-4680-96d2-2ad5d851714did: cf64c7f6-7428-4ae5-b158-8df9771f38f4
 source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
 workflow-type: tm+mt
 source-wordcount: 579
@@ -72,9 +62,9 @@ Adobe Experience Platform Mobile SDK은 Apple의 라이브 활동에 대한 내�
 **필수 구성 요소:**
 
 * **iOS:**
-   * **iOS16.1 이상**: 기본 라이브 활동 기능
-   * **iOS 17.2+**: Push-to-start 지원
-   * **iOS 18+**: 브로드캐스트 채널 지원
+  * **iOS16.1 이상**: 기본 라이브 활동 기능
+  * **iOS 17.2+**: Push-to-start 지원
+  * **iOS 18+**: 브로드캐스트 채널 지원
 * **Xcode:** 14.0 이상
 * **Swift:** 5.7 이상
 * **종속성:** AEPCore, AEPMessaging, AEPMessagingLiveActivity, ActivityKit
@@ -99,8 +89,8 @@ import ActivityKit
 주요 구성 요소는 다음과 같습니다.
 
 * Adobe Experience Platform 관련 데이터가 포함된 **`liveActivityData`**(필수).
-   * 개별 사용자의 경우: `LiveActivityData(liveActivityID: "unique-id")` 사용
-   * 브로드캐스트의 경우: `LiveActivityData(channelID: "channel-id")` 사용
+  * 개별 사용자의 경우: `LiveActivityData(liveActivityID: "unique-id")` 사용
+  * 브로드캐스트의 경우: `LiveActivityData(channelID: "channel-id")` 사용
 
 * 정적 특성, 사용 사례와 관련된 사용자 지정 속성(예: `restaurantName`).
 

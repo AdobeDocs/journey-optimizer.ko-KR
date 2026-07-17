@@ -8,10 +8,8 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 통합
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: d16f7424-4847-4b90-a37c-4b52cbdabee5
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: d16f7424-4847-4b90-a37c-4b52cbdabee5
 source-git-commit: 1159b5bbe57003807aa1cbbc80cea313e7f3ebcb
 workflow-type: tm+mt
 source-wordcount: 1311
@@ -263,4 +261,4 @@ mbox를 가져와서 추출한 다음 `content`을(를) 직접 렌더링합니�
 
 이 비디오는 **통합**&#x200B;에서 Adobe Journey Optimizer을 외부 API에 연결하여 보다 관련성 있는 개인화를 위해 라이브 데이터 및 콘텐츠를 **아웃바운드** 채널, 이메일, SMS 및 푸시로 가져오는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3484125/?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3484118/?learn=on)

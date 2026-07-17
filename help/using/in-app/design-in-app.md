@@ -8,24 +8,15 @@ level: Beginner
 keywords: 인앱, 메시지, 디자인, 서식
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
 TQID: https://experienceleague.adobe.com/DBRGZUXPBo-2-EX0i3RSGQc4G1-zbsee4u3oF1cU-ng
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
 workflow-type: tm+mt
-source-wordcount: 1284
+source-wordcount: 1301
 ht-degree: 26%
 
 ---
@@ -82,11 +73,11 @@ ht-degree: 26%
 
 * **[!UICONTROL 사용자 지정]**: 사용자 지정 메시지 모드를 사용하면 미리 구성된 HTML 메시지 중 하나를 직접 가져오고 편집할 수 있습니다.
 
-   * 원시 HTML 코드를 입력하거나 붙여 넣으려면 **[!UICONTROL 작성]**&#x200B;을 선택하세요.
+  * 원시 HTML 코드를 입력하거나 붙여 넣으려면 **[!UICONTROL 작성]**&#x200B;을 선택하세요.
 
-     왼쪽 창을 사용하여 Journey Optimizer 개인화 기능을 활용합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../personalization/personalize.md)을 참조하십시오.
+    왼쪽 창을 사용하여 Journey Optimizer 개인화 기능을 활용합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../personalization/personalize.md)을 참조하십시오.
 
-   * HTML 콘텐츠가 포함된 HTML 또는 .zip 파일을 가져오려면 **[!UICONTROL 가져오기]**&#x200B;를 선택하십시오.
+  * HTML 콘텐츠가 포함된 HTML 또는 .zip 파일을 가져오려면 **[!UICONTROL 가져오기]**&#x200B;를 선택하십시오.
 
 ## 컨텐츠 탭 {#content-tab}
 
@@ -288,4 +279,4 @@ ht-degree: 26%
 
 아래 비디오에서는 인앱 메시지를 작성하고 테스트하는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3422079?captions=kor&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410471?quality=12&learn=on)

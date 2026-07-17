@@ -9,15 +9,11 @@ hide: true
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: 9372a9bed5c6da5db33567557944d69af9d56913
-workflow-type: ht
-source-wordcount: 4372
+workflow-type: tm+mt
+source-wordcount: 4443
 ht-degree: 100%
 
 ---
@@ -94,9 +90,9 @@ ht-degree: 100%
 
 * 모든 대기 시간에 정의할 수 있는 최대 기간이 기존 30일에서 29일로 변경되었습니다. 대기 시간이 여정 수명 30일을 초과하지 않도록 하기 위해 도입한 개선 사항입니다. 이것은 다음에 적용됩니다.
 
-   * [대기 활동](../building-journeys/wait-activity.md)의 **시간** 필드
-   * [여정 속성](../building-journeys/journey-properties.md#entrance)의 **재진입 대기 기간**
-   * [이벤트 활동](../building-journeys/general-events.md#events-specific-time)의 시간 초과 정의 내 **대기 기간** 필드.
+  * [대기 활동](../building-journeys/wait-activity.md)의 **시간** 필드
+  * [여정 속성](../building-journeys/journey-properties.md#entrance)의 **재진입 대기 기간**
+  * [이벤트 활동](../building-journeys/general-events.md#events-specific-time)의 시간 초과 정의 내 **대기 기간** 필드.
 
 <!--
 **Consent in channel configuration**
@@ -125,8 +121,8 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>계산된 속성을 사용하면 직관적인 사용자 인터페이스를 통해 이벤트 데이터를 프로필 속성으로 쉽게 요약해 행동 기반 세분화, 개인화, 활성화를 개선할 수 있습니다. 이 기능을 통해 셀프 서비스 방식으로 계산된 속성을 만들고 관리하여 세분화, 실시간 고객 프로필 대상 또는 Journey Optimizer에서 사용할 수 있습니다.<br/><br/>
-또한 계산된 속성은 세분화 및 여정 워크플로를 단순화하여 관련성 있는 경험을 원활하게 제공하는 데 도움이 됩니다. 자세한 내용은 <a href="../audience/computed-attributes.md">세부 설명서</a>를 참조하십시오.</p>
+<p>계산된 속성을 사용하면 향상된 동작 기반 세분화, 개인화 및 활성화를 위해 직관적인 사용자 인터페이스를 통해 이벤트 데이터를 프로필 속성으로 쉽게 요약할 수 있습니다. 이 기능을 사용하면 셀프서비스 방식으로 계산된 속성을 만들고 관리하여 세분화, 실시간 고객 프로필 대상 또는 Journey Optimizer에서 사용할 수 있습니다.<br/><br/>
+또한 계산된 속성은 세분화 및 여정 워크플로를 간소화하므로 관련성 높은 경험을 원활하게 게재할 수 있습니다. <a href="../audience/computed-attributes.md">상세 설명서</a>에서 자세히 알아보십시오.</p>
 <img src="assets/do-not-localize/computed-attributes.gif">
 </tr>
 </tbody>
@@ -197,7 +193,7 @@ ht-degree: 100%
 
 **경고**
 
-* 새로운 유형의 시스템 경고가 도입되었습니다. 이제 **대상자 읽기** 활동이 실패하면 알림을 받을 수 있습니다. [자세히 알아보기](../reports/alerts.md).
+* 새로운 유형의 시스템 경고가 도입되었습니다. 이제 **대상자 읽기** 활동이 실패하면 알림을 받을 수 있습니다. [자세히 알아보기](../reports/alerts.md)
 
 **웹 채널**
 
@@ -323,8 +319,8 @@ A new option is available in the email surface settings to include email address
 
 **여정**
 
-* 이제 사용자 정의 작업에 API 호출 응답을 활용하고, 이 응답을 기반으로 여정을 오케스트레이션할 수 있습니다. 이 기능은 현재 Beta로 사용할 수 있습니다. [자세히 알아보기](../action/action-response.md).
-* 새로운 유형의 시스템 경고가 추가되었습니다. 이제 사용자 정의 액션이 실패하면 알림을 받을 수 있습니다. [자세히 알아보십시오](../reports/alerts.md).
+* 이제 사용자 정의 작업에 API 호출 응답을 활용하고, 이 응답을 기반으로 여정을 오케스트레이션할 수 있습니다. 이 기능은 현재 Beta로 사용할 수 있습니다. [자세히 알아보기](../action/action-response.md)
+* 새로운 유형의 시스템 경고가 도입되었습니다. 이제 사용자 정의 작업이 실패하면 알림을 받을 수 있습니다. [자세히 알아보기](../reports/alerts.md)
   <!--* When duplicating a journey, you can now define the name of the journey copy.-->
 
 
@@ -449,7 +445,7 @@ A new option is available in the email surface settings to include email address
 
 **API**
 
-Adobe Journey Optimizer APIsauthentication용 액세스 토큰을 생성하는 JWT 메서드가 더 이상 사용되지 않습니다. 모든 새 통합은 OAuth 서버 간 인증 방법을 사용하여 생성해야 합니다. 또한 Adobe 기존 통합을 OAuth 메서드로 마이그레이션할 것을 권장합니다. [자세히 알아보기](https://developer.adobe.com/journey-optimizer-apis/references/authentication){target="_blank"}.
+Adobe Journey Optimizer APIsauthentication용 액세스 토큰을 생성하는 JWT 메서드가 더 이상 사용되지 않습니다. 모든 새 통합은 OAuth 서버 간 인증 방법을 사용하여 생성해야 합니다. 또한 Adobe 기존 통합을 OAuth 메서드로 마이그레이션할 것을 권장합니다. [자세히 알아보기](https://developer.adobe.com/journey-optimizer-apis/references/authentication){target="_blank"}
 
 
 **기타 변경 사항**
@@ -615,16 +611,16 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 * 대상자 포털 기능의 정식 출시를 대비하여 Adobe Experience Platform 시스템과 설명서에서 “대상자”와 “세그먼트”라는 단어의 사용 방식을 업데이트합니다.
 
-   * 대상자: 사람이나 계정, 가구 또는 기타 공통된 특성과 행동을 공유하는 엔티티의 집합입니다.
-   * 세그먼트 정의: Adobe Experience Platform에서 타겟 대상자의 주요 특성 또는 행동을 설명하는 데 사용되는 규칙입니다. 전에는 이 용어를 그냥 “세그먼트”라고만 지칭했습니다.
+  * 대상자: 사람이나 계정, 가구 또는 기타 공통된 특성과 행동을 공유하는 엔티티의 집합입니다.
+  * 세그먼트 정의: Adobe Experience Platform에서 타겟 대상자의 주요 특성 또는 행동을 설명하는 데 사용되는 규칙입니다. 전에는 이 용어를 그냥 “세그먼트”라고만 지칭했습니다.
 
   따라서 이렇게 대상자를 만들고 관리하는 새로운 경로를 반영하기 위해 Adobe Journey Optimizer와 Adobe Experience Platform UI 내 “세그먼트”라는 단어가 “대상자”로 바뀐 것을 확인하실 수 있습니다.
 
   일부 언어에서 “audience(대상자)”라는 단어가 메시지를 받을 타겟 프로필 그룹을 지칭하는 경우에 대한 번역을 전체 Digital Experience 제품에 대해 다음과 같이 통일했습니다.
 
-   * 독일어: Zielgruppe
-   * 포르투갈어(브라질): público-alvo
-   * 스페인어: público destinatario
+  * 독일어: Zielgruppe
+  * 포르투갈어(브라질): público-alvo
+  * 스페인어: público destinatario
 
 <!--* Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.-->
 
@@ -1001,7 +997,7 @@ Note that each widget can be resized and deleted as needed.
 <p>이제 빠른 재사용을 위해 여정과 캠페인에서 활용할 수 있는 독립 실행형 콘텐츠 템플릿을 만들 수 있습니다.</p> 
 </p>
 <img src="assets/do-not-localize/content-template.gif"/>
-<p><a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html?lang=ko">이 비디오</a>에서 콘텐츠 템플릿을 만들고 편집하고 사용하는 방법을 알아볼 수 있습니다. 자세한 내용은 <a href="../content-management/content-templates.md">세부 설명서</a>를 참조하십시오.
+<p><a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html?lang=ko">이 비디오</a>에서 콘텐츠 템플릿을 작성, 편집, 사용하는 방법을 알아보십시오. 자세한 내용은 <a href="../content-management/content-templates.md">세부 설명서</a>를 참조하십시오.
 </p>
 </td>
 </tr>

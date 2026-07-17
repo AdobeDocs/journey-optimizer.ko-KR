@@ -10,18 +10,11 @@ level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/zhAlHWwS8UOup7yqqVc2d0lqj4JUj5gOvz7JAwVwZPk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
 source-wordcount: 1382
@@ -166,43 +159,43 @@ ht-degree: 2%
 
   예:
 
-   1. 다음 예제에서는 **지원되지 않는 사용 사례**&#x200B;를 보여 줍니다.
+  1. 다음 예제에서는 **지원되지 않는 사용 사례**&#x200B;를 보여 줍니다.
 
-      이 예제에서 제품 배열에는 동적 항목 수가 포함된 중첩된 배열(`locations`)이 포함되어 있습니다. 이 배열은 요청 페이로드에서 지원되지 않습니다.
+     이 예제에서 제품 배열에는 동적 항목 수가 포함된 중첩된 배열(`locations`)이 포함되어 있습니다. 이 배열은 요청 페이로드에서 지원되지 않습니다.
 
-      ```json
-      {
-      "products": [
-         {
-            "id": "productA",
-            "name": "A",
-            "price": 20,
-            "locations": [
-            { "name": "Paris" },
-            { "name": "London" }
-            ]
-         }
-      ]
-      }
-      ```
+     ```json
+     {
+     "products": [
+        {
+           "id": "productA",
+           "name": "A",
+           "price": 20,
+           "locations": [
+           { "name": "Paris" },
+           { "name": "London" }
+           ]
+        }
+     ]
+     }
+     ```
 
-   2. 고정 항목이 상수로 정의된 지원되는 예입니다.
+  2. 고정 항목이 상수로 정의된 지원되는 예입니다.
 
-      이 경우 중첩된 위치가 고정 필드(`location1`, `location2`)로 대체되므로 페이로드가 지원되는 구성 내에서 유효한 상태로 유지될 수 있습니다.
+     이 경우 중첩된 위치가 고정 필드(`location1`, `location2`)로 대체되므로 페이로드가 지원되는 구성 내에서 유효한 상태로 유지될 수 있습니다.
 
-      ```json
-      {
-      "products": [
-         {
-            "id": "productA",
-            "name": "A",
-            "price": 20,
-            "location1": { "name": "Paris" },
-            "location2": { "name": "London" }
-         }
-      ]
-      }
-      ```
+     ```json
+     {
+     "products": [
+        {
+           "id": "productA",
+           "name": "A",
+           "price": 20,
+           "location1": { "name": "Paris" },
+           "location2": { "name": "London" }
+        }
+     ]
+     }
+     ```
 
 
 * **컬렉션 테스트**: 테스트 모드를 사용하여 컬렉션을 테스트하려면 코드 보기 모드를 사용해야 합니다. 코드 보기 모드는 비즈니스 이벤트에 대해 지원되지 않으므로 이 경우 단일 요소가 포함된 컬렉션만 보낼 수 있습니다.

@@ -6,7 +6,7 @@ description: 콘텐츠 생성을 위한 AI 어시스턴트
 redpen-status: CREATED_||_2025-08-12_00-42-48
 exl-id: 0fdc67ab-3646-4c6e-884d-604238549c3d
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 AI 어시스턴트는 생성형 AI를 활용하여 �
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 AI 어시스턴트 시작
 
@@ -30,7 +30,7 @@ AI 어시스턴트 시작
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 전체 콘텐츠 생성
 
@@ -40,7 +40,7 @@ AI 어시스턴트를 활용하여 이메일, 푸시 알림, 웹 페이지 및 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 텍스트만 생성
 
@@ -50,7 +50,7 @@ AI 어시스턴트를 사용하여 이메일, SMS, 푸시 알림, 웹 페이지 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
 
 이미지만 생성
 

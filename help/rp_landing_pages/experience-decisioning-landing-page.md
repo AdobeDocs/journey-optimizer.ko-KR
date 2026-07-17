@@ -6,7 +6,7 @@ description: 결정
 redpen-status: CREATED_||_2025-08-11_20-57-38
 exl-id: cbfaffdc-79a5-4e61-b307-b670ed1e4835
 source-git-commit: 59e85eb7a14f88d95b2ef97e3ace11a65f115b75
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 결정 기능을 사용하면 중앙 집중식 결정
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 의사 결정 소개
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 결정 기능의 기본 사항에 대해 알아봅니다
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 가드레일 및 제한 사항
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 결정 기능을 효과적으로 사용하기 위�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
 
 자주 묻는 질문
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer에서 결정 기능을 효과적으로 사용하기 위�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 API 참조: 오퍼 게재
 
@@ -60,7 +60,7 @@ API 참조: 오퍼 게재
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 결정 항목 및 카탈로그 관리
 
@@ -70,7 +70,7 @@ API 참조: 오퍼 게재
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 의사 결정 규칙 만들기
 
@@ -80,7 +80,7 @@ API 참조: 오퍼 게재
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 AI 모델로 순위 만들기
 

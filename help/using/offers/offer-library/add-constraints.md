@@ -11,18 +11,11 @@ level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/Wp9b8KmhVwqELaFaMEi-AUDIlDW0yBP6JWFEqrwifXQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 2787
@@ -96,7 +89,7 @@ ht-degree: 17%
 >title="오퍼 적격성 정보"
 >abstract="이 섹션에서는 결정 규칙을 사용하여 오퍼에 적합한 사용자를 결정할 수 있습니다."
 
-<!--additional-url="https://video.tv.adobe.com/v/341375?captions=kor" text="Watch demo video"-->
+<!--additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
@@ -125,7 +118,7 @@ ht-degree: 17%
 
   >[!CAUTION]
   >
-  >이벤트 기반 오퍼는 현재 [!DNL Journey Optimizer]에서 지원되지 않습니다. [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ko#events){target="_blank"}을(를) 기반으로 의사 결정 규칙을 만드는 경우 오퍼에서 이를 활용할 수 없습니다.
+  >이벤트 기반 오퍼는 현재 [!DNL Journey Optimizer]에서 지원되지 않습니다. [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}을(를) 기반으로 의사 결정 규칙을 만드는 경우 오퍼에서 이를 활용할 수 없습니다.
 
 대상자 또는 결정 규칙을 선택하면 예상 적격 프로필에 대한 정보를 볼 수 있습니다. 데이터를 업데이트하려면 **[!UICONTROL 새로 고침]**&#x200B;을 클릭하세요.
 
@@ -215,17 +208,17 @@ ht-degree: 17%
 
   아래 예제에서는 체크아웃 수를 제한하려고 합니다.
 
-   1. 목록에서 **[!UICONTROL 사용자 지정 이벤트]**&#x200B;를 선택하고 **[!UICONTROL 사용자 지정 이벤트 추가]** 단추를 사용하십시오.
+  1. 목록에서 **[!UICONTROL 사용자 지정 이벤트]**&#x200B;를 선택하고 **[!UICONTROL 사용자 지정 이벤트 추가]** 단추를 사용하십시오.
 
-   1. **[!UICONTROL 사용자 지정 이벤트 규칙 만들기]** 빌더를 사용하여 관련 이벤트를 선택합니다. 오퍼를 제한할 사용자 작업을 선택할 수 있습니다.
+  1. **[!UICONTROL 사용자 지정 이벤트 규칙 만들기]** 빌더를 사용하여 관련 이벤트를 선택합니다. 오퍼를 제한할 사용자 작업을 선택할 수 있습니다.
 
-      **[!UICONTROL Commerce]** > **[!UICONTROL 체크아웃]** > **[!UICONTROL 값]**&#x200B;을(를) 선택하고 드롭다운 목록에서 **[!UICONTROL 존재함]**&#x200B;을(를) 선택합니다.
+     **[!UICONTROL Commerce]** > **[!UICONTROL 체크아웃]** > **[!UICONTROL 값]**&#x200B;을(를) 선택하고 드롭다운 목록에서 **[!UICONTROL 존재함]**&#x200B;을(를) 선택합니다.
 
-      ![](../assets/offer-capping-custom-event.png)
+     ![](../assets/offer-capping-custom-event.png)
 
-   1. 규칙이 만들어지면 **[!UICONTROL 사용자 지정 이벤트 쿼리]** 필드에 표시됩니다.
+  1. 규칙이 만들어지면 **[!UICONTROL 사용자 지정 이벤트 쿼리]** 필드에 표시됩니다.
 
-      ![](../assets/offer-capping-custom-event-query.png)
+     ![](../assets/offer-capping-custom-event-query.png)
 
 >[!CAUTION]
 >
@@ -340,15 +333,15 @@ ht-degree: 17%
 
 | 시나리오:<br>경우... | 다음 상황이 발생하는 경우:<br>다음... | 최대 가용량 수에 미칠 수 있는 영향 |
 |--- |--- |--- |
-| ... 오퍼 시작 날짜가 원래 오퍼 시작 날짜가 시작되기 전에 업데이트됩니다. | ...최대 가용량 수는 새 시작 날짜에 시작됩니다. | 아니요 |
-| ...새 시작 일자가 현재 종료 일자 이전인 경우 | ... 캡핑은 새 시작 날짜로 유지되며 각 프로필의 이전 캡핑 횟수는 앞으로 진행됩니다. | 아니요 |
+| ... 오퍼 시작 날짜가 원래 오퍼 시작 날짜가 시작되기 전에 업데이트됩니다. | ...최대 가용량 수는 새 시작 날짜에 시작됩니다. | 아니오 |
+| ...새 시작 일자가 현재 종료 일자 이전인 경우 | ... 캡핑은 새 시작 날짜로 유지되며 각 프로필의 이전 캡핑 횟수는 앞으로 진행됩니다. | 아니오 |
 | ...새 시작 일자는 현재 종료 일자 이후입니다. | ... 현재 캡핑이 만료되고 새 시작 날짜의 모든 프로필에 대해 새 캡핑 횟수가 0부터 다시 시작됩니다. | 예 |
 
 다음은 **오퍼 종료 날짜를 확장**&#x200B;할 때 가능한 시나리오입니다.
 
 | 시나리오:<br>경우... | 다음 상황이 발생하는 경우:<br>다음... | 최대 가용량 수에 미칠 수 있는 영향 |
 |--- |--- |--- |
-| ... decisioning 요청은 원래 오퍼 종료일 이전에 발생하며, | ... 최대 가용량 카운트가 업데이트되고 각 프로필의 이전 최대 가용량 카운트가 전달됩니다. | 아니요 |
+| ... decisioning 요청은 원래 오퍼 종료일 이전에 발생하며, | ... 최대 가용량 카운트가 업데이트되고 각 프로필의 이전 최대 가용량 카운트가 전달됩니다. | 아니오 |
 | ... 원래 종료 날짜 이전에 의사 결정 요청이 발생하지 않음, | ... 최대 가용량 수는 각 프로필의 원래 종료 날짜에 재설정됩니다. 그러면 원래 종료 날짜 이후에 발생하는 모든 새 의사 결정 요청에 대해 새 최대 가용량 수가 0부터 다시 시작됩니다. | 예 |
 
 **예**

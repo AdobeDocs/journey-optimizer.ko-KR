@@ -11,23 +11,12 @@ level: Beginner, Intermediate
 keywords: 이메일 테마, 모듈, 재사용 가능성, 브랜드 일관성, 이메일 디자인, 사용자 지정 CSS, 모바일 최적화
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
 TQID: https://experienceleague.adobe.com/2zlrBZi84Uq475zZd5jzGki6NZuqTLJABh-G36VwNVA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: d595a60b-bcf5-4a63-a189-66a0be755cc7id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: d7d7519e6f046802653ed470d00851f17a315bc6
 workflow-type: tm+mt
 source-wordcount: 1798
@@ -64,25 +53,25 @@ ht-degree: 3%
 
 * [조각](../content-management/fragments.md)은(는) 테마 사용 모드와 수동 스타일 지정 모드 간에 서로 호환되지 않습니다.
 
-   * 테마를 사용하지 않고 만든 이메일 콘텐츠에서는 테마 조각을 사용할 수 없습니다.
+  * 테마를 사용하지 않고 만든 이메일 콘텐츠에서는 테마 조각을 사용할 수 없습니다.
 
-   * 테마 콘텐츠에서 [조각](../content-management/fragments.md)을 활용하려면 테마를 사용하여 이 조각을 직접 만들어야 합니다. [자세히 알아보기](#leverage-themes-fragment)
+  * 테마 콘텐츠에서 [조각](../content-management/fragments.md)을 활용하려면 테마를 사용하여 이 조각을 직접 만들어야 합니다. [자세히 알아보기](#leverage-themes-fragment)
 
-   * 이메일 콘텐츠에서 조각을 사용할 때 이 조각에 대해 정의한 테마를 적용하는지 확인하십시오. 그렇지 않으면 특히 Outlook 2021 및 이전 버전에서 표시 문제가 발생할 수 있습니다. [자세히 알아보기](#leverage-themes-fragment)
+  * 이메일 콘텐츠에서 조각을 사용할 때 이 조각에 대해 정의한 테마를 적용하는지 확인하십시오. 그렇지 않으면 특히 Outlook 2021 및 이전 버전에서 표시 문제가 발생할 수 있습니다. [자세히 알아보기](#leverage-themes-fragment)
 
 * HTML에서 만든 콘텐츠를 사용하는 경우 [호환성 모드](existing-content.md)가 되며 이 콘텐츠에 테마를 직접 적용할 수 없습니다.
 
-   * 테마를 적용하려면 먼저 가져온 콘텐츠 [을(를) 새 템플릿으로 저장](../content-management/create-content-templates.md#save-as-template)한 다음 이 템플릿을 테마 호환 콘텐츠로 변환해야 합니다. 그런 다음 이 템플릿을 사용하여 이메일 콘텐츠를 만들 수 있습니다. [이 섹션](#theme-convertor)에서 수동 스타일을 사용하여 만든 템플릿을 변환하는 방법을 알아봅니다.
+  * 테마를 적용하려면 먼저 가져온 콘텐츠 [을(를) 새 템플릿으로 저장](../content-management/create-content-templates.md#save-as-template)한 다음 이 템플릿을 테마 호환 콘텐츠로 변환해야 합니다. 그런 다음 이 템플릿을 사용하여 이메일 콘텐츠를 만들 수 있습니다. [이 섹션](#theme-convertor)에서 수동 스타일을 사용하여 만든 템플릿을 변환하는 방법을 알아봅니다.
 
-   * 가져온 HTML 콘텐츠를 계속 변환할 수도 있습니다. [자세히 알아보기](existing-content.md)
+  * 가져온 HTML 콘텐츠를 계속 변환할 수도 있습니다. [자세히 알아보기](existing-content.md)
 
   <!--To fully leverage all the capabilities of the Email Designer, including themes, you must either create a new content in Use Themes mode, or convert your imported HTML content. [Learn more](existing-content.md)-->
 
 * 테마에서 사용자 지정 웹 글꼴(Google 글꼴 포함)을 사용할 때는 많은 이메일 클라이언트가 이를 지원하지 않습니다. 모든 이메일 클라이언트에서 가독성을 보장하기 위해 항상 테마에 적절한 대체 글꼴을 정의하십시오.
 
-   * Gmail과 Yahoo! 외부 웹 글꼴을 로드하지 않고 HTML/CSS에 지정된 글꼴 패밀리에 관계없이 시스템 글꼴로 대체됩니다.
-   * Gmail에서 지원하는 유일한 Google 글꼴은 Roboto 및 Google San입니다.
-   * *do*&#x200B;에서 웹 글꼴을 지원하는 전자 메일 클라이언트에는 Apple Mail, iOS Mail, Android Mail, Thunderbird 및 macOS용 Outlook이 포함됩니다.
+  * Gmail과 Yahoo! 외부 웹 글꼴을 로드하지 않고 HTML/CSS에 지정된 글꼴 패밀리에 관계없이 시스템 글꼴로 대체됩니다.
+  * Gmail에서 지원하는 유일한 Google 글꼴은 Roboto 및 Google San입니다.
+  * *do*&#x200B;에서 웹 글꼴을 지원하는 전자 메일 클라이언트에는 Apple Mail, iOS Mail, Android Mail, Thunderbird 및 macOS용 Outlook이 포함됩니다.
 
 <!--If you apply a theme to a content using a [fragment](../content-management/fragments.md) created with Manual Styling mode, the rendering may not be optimal.-->
 

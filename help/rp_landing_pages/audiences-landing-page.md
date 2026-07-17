@@ -6,7 +6,7 @@ description: 대상자
 redpen-status: CREATED_||_2025-08-11_20-46-11
 exl-id: c3b9f97d-7c2f-436c-abba-60b7c0726ee4
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 대상자 기능은 고객의 행동, 선호도 및 �
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 대상자 시작하기
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 내의 대상자 관리, 세분화 및 활성화의 기�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 대상자 생성 및 관리
 
@@ -40,7 +40,7 @@ CSV 가져오기 및 페더레이션된 데이터 소스를 포함하여 대상�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 캠페인 및 여정에서 대상자 활성화
 
@@ -50,7 +50,7 @@ CSV 가져오기 및 페더레이션된 데이터 소스를 포함하여 대상�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 보강 속성 활용
 

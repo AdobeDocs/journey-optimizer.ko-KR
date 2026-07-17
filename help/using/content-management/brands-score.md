@@ -6,23 +6,12 @@ role: User
 level: Beginner, Intermediate
 exl-id: 01e74670-7431-4791-b98c-12278e6d3332
 TQID: https://experienceleague.adobe.com/hs1F6tz-XHYH6u8jO4kspRcX-ftY-SwilqMfcaLhTfg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: ea4139d9-3405-4b34-ad6e-c3ca120cc269
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: ea4139d9-3405-4b34-ad6e-c3ca120cc269id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 3af68231e8cbd29303407d27cbb02f2c61d01433
 workflow-type: tm+mt
 source-wordcount: 694
@@ -91,15 +80,15 @@ ht-degree: 9%
 1. 특정 피드백 및 제안을 보려면 플래그가 지정된 지침을 선택하십시오. 브랜드 정렬은 다음 범주를 평가합니다.
 
    * **[!UICONTROL 작성 스타일]**:
-      * **[!UICONTROL 브랜드 커뮤니케이션 스타일]**: 모든 채널에서 일관된 브랜드 음성을 제공하기 위해 개성과 감정적인 톤을 정의합니다.
-      * **[!UICONTROL 브랜드 메시지 표준]**: 효과적인 마케팅 및 홍보 텍스트에 대한 구조적 및 서식 규칙입니다.
-      * **[!UICONTROL 법적 준수 표준]**: 모든 커뮤니케이션이 텍스트 배치 및 준수 확인 목록을 비롯한 법적 요구 사항을 준수하도록 합니다.
+     * **[!UICONTROL 브랜드 커뮤니케이션 스타일]**: 모든 채널에서 일관된 브랜드 음성을 제공하기 위해 개성과 감정적인 톤을 정의합니다.
+     * **[!UICONTROL 브랜드 메시지 표준]**: 효과적인 마케팅 및 홍보 텍스트에 대한 구조적 및 서식 규칙입니다.
+     * **[!UICONTROL 법적 준수 표준]**: 모든 커뮤니케이션이 텍스트 배치 및 준수 확인 목록을 비롯한 법적 요구 사항을 준수하도록 합니다.
 
    * **[!UICONTROL 시각적 콘텐츠]**:
-      * **[!UICONTROL 사진 표준]**: 해상도, 컴포지션, 조명 및 파일 형식을 포함한 사진 콘텐츠에 대한 요구 사항.
-      * **[!UICONTROL 일러스트레이션 표준]**: 일러스트레이션의 스타일 매개 변수, 선 두께, 색상 사용 및 파일 형식 요구 사항입니다.
-      * **[!UICONTROL 아이콘 표준]**: 격자 시스템, 획 두께 및 균일성을 위한 크기 조정을 포함한 아이콘 디자인을 위한 사양입니다.
-      * **[!UICONTROL 사용 지침]**: 브랜드 정체성을 유지하기 위한 이미지 선택, 배치 및 컨텍스트에 대한 모범 사례입니다.
+     * **[!UICONTROL 사진 표준]**: 해상도, 컴포지션, 조명 및 파일 형식을 포함한 사진 콘텐츠에 대한 요구 사항.
+     * **[!UICONTROL 일러스트레이션 표준]**: 일러스트레이션의 스타일 매개 변수, 선 두께, 색상 사용 및 파일 형식 요구 사항입니다.
+     * **[!UICONTROL 아이콘 표준]**: 격자 시스템, 획 두께 및 균일성을 위한 크기 조정을 포함한 아이콘 디자인을 위한 사양입니다.
+     * **[!UICONTROL 사용 지침]**: 브랜드 정체성을 유지하기 위한 이미지 선택, 배치 및 컨텍스트에 대한 모범 사례입니다.
 
 
 
@@ -158,6 +147,6 @@ ht-degree: 9%
 
 +++ 비디오 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3470553/?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470544/?learn=on)
 
 +++

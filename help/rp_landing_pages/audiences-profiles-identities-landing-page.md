@@ -6,7 +6,7 @@ description: 대상자, 프로필, ID
 redpen-status: CREATED_||_2025-08-11_20-47-03
 exl-id: 29d45bbb-8351-48c6-8672-dda4b1c25e29
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 100%
 
@@ -14,13 +14,13 @@ ht-degree: 100%
 
 # 대상자, 프로필, ID{#section-overview}
 
-Adobe Journey Optimizer의 대상, 프로필 및 ID는 [Adobe 실시간 고객 프로필](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/home) 기능을 사용하여 개인화된 경험을 제공합니다. **대상**&#x200B;을(를) 통해 풍부한 데이터를 사용하여 고객을 세그먼트화할 수 있고, **프로필**&#x200B;은(는) 비헤이비어와 속성이 풍부한 실시간 인사이트를 제공하며, **ID**&#x200B;은(는) ID 그래프를 사용하여 채널 간에 상호 작용을 연결합니다. 이러한 요소는 함께 작동하여 타겟팅 메시징 및 일관된 고객 여정을 가능하게 합니다. 이 섹션에서는 대상을 활성화하고, 프로필을 관리하고, ID를 매핑하여 데이터를 통합하고 적절한 경험을 제공하는 방법에 대해 설명합니다.
+Adobe Journey Optimizer의 대상, 프로필 및 ID는 [Adobe 실시간 고객 프로필](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home) 기능을 사용하여 개인화된 경험을 제공합니다. **대상**&#x200B;을(를) 통해 풍부한 데이터를 사용하여 고객을 세그먼트화할 수 있고, **프로필**&#x200B;은(는) 비헤이비어와 속성이 풍부한 실시간 인사이트를 제공하며, **ID**&#x200B;은(는) ID 그래프를 사용하여 채널 간에 상호 작용을 연결합니다. 이러한 요소는 함께 작동하여 타겟팅 메시징 및 일관된 고객 여정을 가능하게 합니다. 이 섹션에서는 대상을 활성화하고, 프로필을 관리하고, ID를 매핑하여 데이터를 통합하고 적절한 경험을 제공하는 방법에 대해 설명합니다.
 
 ## 대상자, 프로필, ID
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 고객 관리 및 Personalization
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 대상, 프로필 및 ID는 [Adobe 실시간 고객 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user-circle.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/user-circle.svg)
 
 프로필: 고객 데이터 관리 및 최적화
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer의 대상, 프로필 및 ID는 [Adobe 실시간 고객 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/fingerprint.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/fingerprint.svg)
 
 ID 시작
 
@@ -50,7 +50,7 @@ ID 시작
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 라이선스 사용 대시보드
 

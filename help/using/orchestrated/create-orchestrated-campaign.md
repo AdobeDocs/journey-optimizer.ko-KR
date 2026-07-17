@@ -6,12 +6,9 @@ description: Adobe Journey Optimizer을 사용하여 오케스트레이션된 �
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/XTfDLZwNybfdayTfXFtHy-4fstRzPUZ-lSJ4cXkLNyE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
 source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
 source-wordcount: 1261
@@ -114,10 +111,10 @@ ht-degree: 63%
    매일 또는 선택한 날에 캠페인을 실행합니다.
 
    * **[!UICONTROL 매일 반복]**: 캠페인의 실행 빈도를 선택합니다.
-      * **[!UICONTROL 매일]**: 주말을 포함하여 매일 캠페인을 실행합니다.
-      * **[!UICONTROL 평일]**: 월요일부터 금요일까지만 캠페인을 실행합니다.
-      * **[!UICONTROL 특정 기간 동안]**: 정의한 날짜 범위(예: 7월 1일부터 7월 15일까지) 내에 매일 캠페인을 실행합니다. 이 범위 밖에서는 캠페인이 실행되지 않습니다.
-      * **[!UICONTROL 선택한 요일]**: 지정한 요일(예: 월요일, 수요일, 금요일)에만 캠페인을 실행합니다.
+     * **[!UICONTROL 매일]**: 주말을 포함하여 매일 캠페인을 실행합니다.
+     * **[!UICONTROL 평일]**: 월요일부터 금요일까지만 캠페인을 실행합니다.
+     * **[!UICONTROL 특정 기간 동안]**: 정의한 날짜 범위(예: 7월 1일부터 7월 15일까지) 내에 매일 캠페인을 실행합니다. 이 범위 밖에서는 캠페인이 실행되지 않습니다.
+     * **[!UICONTROL 선택한 요일]**: 지정한 요일(예: 월요일, 수요일, 금요일)에만 캠페인을 실행합니다.
 
    * **[!UICONTROL 시작 시간]**: 매일 캠페인을 실행할 시간을 정의합니다.
 
@@ -149,11 +146,11 @@ ht-degree: 63%
 
    * **[!UICONTROL 월별 반복]**: 캠페인을 매월 실행할지 또는 특정 달에만 실행할지 선택합니다.
    * **[!UICONTROL 일별 반복]**:
-      * **[!UICONTROL 매일]**: 주말을 포함하여 해당 월의 모든 날에 캠페인을 실행합니다.
-      * **[!UICONTROL 매월 마지막 날]**: 매월 마지막 날(예: 1월 31일, 2월 28/29일)에만 캠페인을 실행합니다.
-      * **[!UICONTROL 특정 날짜(예: 15일)]**: 지정한 날(예: 매월 15일)에 캠페인을 실행합니다.
-      * **[!UICONTROL 첫 번째/마지막 또는 n번째 요일]**(예: 첫 번째 월요일):      지정된 요일(예: 매주 15일)에 캠페인을 실행합니다.
-      * **[!UICONTROL 선택한 요일]**: 지정한 날짜에 캠페인을 실행합니다.
+     * **[!UICONTROL 매일]**: 주말을 포함하여 해당 월의 모든 날에 캠페인을 실행합니다.
+     * **[!UICONTROL 매월 마지막 날]**: 매월 마지막 날(예: 1월 31일, 2월 28/29일)에만 캠페인을 실행합니다.
+     * **[!UICONTROL 특정 날짜(예: 15일)]**: 지정한 날(예: 매월 15일)에 캠페인을 실행합니다.
+     * **[!UICONTROL 첫 번째/마지막 또는 n번째 요일]**(예: 첫 번째 월요일):      지정된 요일(예: 매주 15일)에 캠페인을 실행합니다.
+     * **[!UICONTROL 선택한 요일]**: 지정한 날짜에 캠페인을 실행합니다.
 
    * **[!UICONTROL 시작 시간]**: 캠페인을 실행할 시간을 설정합니다.
 

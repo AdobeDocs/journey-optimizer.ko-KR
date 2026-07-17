@@ -9,8 +9,7 @@ role: Admin
 level: Experienced
 keywords: 내보내기, 메시지, 데이터 세트, 스키마, 이메일, SMS
 feature_v2: []
-subfeature_v2:
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
 source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
 source-wordcount: 447
@@ -63,55 +62,55 @@ ht-degree: 3%
   **필드:** `recipient`\
   **유형:** 개체
 
-   * bcc
+  * bcc
 
-     **필드:** `bcc`\
-     문자열의 **유형:** 배열
+    **필드:** `bcc`\
+    문자열의 **유형:** 배열
 
-   * 참조
+  * 참조
 
-     **필드:** `cc`\
-     문자열의 **유형:** 배열
+    **필드:** `cc`\
+    문자열의 **유형:** 배열
 
-   * 이메일
+  * 이메일
 
-     **필드:** `email`\
-     **유형:** 문자열
+    **필드:** `email`\
+    **유형:** 문자열
 
-   * 이름
+  * 이름
 
-     **필드:** `name`\
-     **유형:** 문자열
+    **필드:** `name`\
+    **유형:** 문자열
 
 * 보낸 사람
 
   **필드:** `sender`\
   **유형:** 개체
 
-   * 이메일
+  * 이메일
 
-     **필드:** `email`\
-     **유형:** 문자열
+    **필드:** `email`\
+    **유형:** 문자열
 
-   * 오류 이메일
+  * 오류 이메일
 
-     **필드:** `errorEmail`\
-     **유형:** 문자열
+    **필드:** `errorEmail`\
+    **유형:** 문자열
 
-   * 이름
+  * 이름
 
-     **필드:** `name`\
-     **유형:** 문자열
+    **필드:** `name`\
+    **유형:** 문자열
 
-   * replyToEmail
+  * replyToEmail
 
-     **필드:** `replyToEmail`\
-     **유형:** 문자열
+    **필드:** `replyToEmail`\
+    **유형:** 문자열
 
-   * replyToname
+  * replyToname
 
-     **필드:** `replyToName`\
-     **유형:** 문자열
+    **필드:** `replyToName`\
+    **유형:** 문자열
 
 +++
 
@@ -125,20 +124,20 @@ ht-degree: 3%
   **필드:** `recipient`\
   **유형:** 개체
 
-   * 번호
+  * 번호
 
-     **필드:** `number`\
-     **유형:** 문자열
+    **필드:** `number`\
+    **유형:** 문자열
 
 * 보낸 사람
 
   **필드:** `sender`\
   **유형:** 개체
 
-   * 숫자
+  * 숫자
 
-     **필드:** `numbers`\
-     문자열의 **유형:** 배열
+    **필드:** `numbers`\
+    문자열의 **유형:** 배열
 
 +++
 
@@ -152,15 +151,15 @@ ht-degree: 3%
   **필드:** `audience`\
   **유형:** 개체
 
-   * ID
+  * ID
 
-     **필드:** `id`\
-     **유형:** 문자열
+    **필드:** `id`\
+    **유형:** 문자열
 
-   * 유형
+  * 유형
 
-     **필드:** `type`\
-     **유형:** 문자열
+    **필드:** `type`\
+    **유형:** 문자열
 
 * fragmentPublicationIDs
 
@@ -172,34 +171,34 @@ ht-degree: 3%
   **필드:** `metadata`\
   **유형:** 맵
 
-   * [맵 키]
+  * [맵 키]
 
-     **유형:** 문자열
+    **유형:** 문자열
 
 * parentSourceMeta
 
   **필드:** `parentSourceMeta`\
   **유형:** 개체
 
-   * sourceActionId
+  * sourceActionId
 
-     **필드:** `sourceActionID`\
-     **유형:** 문자열
+    **필드:** `sourceActionID`\
+    **유형:** 문자열
 
-   * sourceID
+  * sourceID
 
-     **필드:** `sourceID`\
-     **유형:** 문자열
+    **필드:** `sourceID`\
+    **유형:** 문자열
 
-   * sourceType
+  * sourceType
 
-     **필드:** `sourceType`\
-     **유형:** 문자열
+    **필드:** `sourceType`\
+    **유형:** 문자열
 
-   * 소스 버전 ID
+  * 소스 버전 ID
 
-     **필드:** `sourceVersionID`\
-     **유형:** 문자열
+    **필드:** `sourceVersionID`\
+    **유형:** 문자열
 
 * 일괄 처리 인스턴스 ID
 
@@ -278,55 +277,55 @@ ht-degree: 3%
   **필드:** `channel`\
   **유형:** 개체
 
-   * contentType
+  * contentType
 
-     **필드:** `contentTypes`\
-     문자열의 **유형:** 배열
+    **필드:** `contentTypes`\
+    문자열의 **유형:** 배열
 
-   * 위치 유형
+  * 위치 유형
 
-     **필드:** `locationTypes`\
-     문자열의 **유형:** 배열
+    **필드:** `locationTypes`\
+    문자열의 **유형:** 배열
 
-   * 지표 유형
+  * 지표 유형
 
-     **필드:** `metricTypes`\
-     문자열의 **유형:** 배열
+    **필드:** `metricTypes`\
+    문자열의 **유형:** 배열
 
-   * _ID
+  * _ID
 
-     **필드:** `_id`\
-     **유형:** 문자열
+    **필드:** `_id`\
+    **유형:** 문자열
 
-   * 유형(_t)
+  * 유형(_t)
 
-     **필드:** `_type`\
-     **유형:** 문자열
+    **필드:** `_type`\
+    **유형:** 문자열
 
-   * mediaAction
+  * mediaAction
 
-     **필드:** `mediaAction`\
-     **유형:** 문자열
+    **필드:** `mediaAction`\
+    **유형:** 문자열
 
-   * mediaType
+  * mediaType
 
-     **필드:** `mediaType`\
-     **유형:** 문자열
+    **필드:** `mediaType`\
+    **유형:** 문자열
 
-   * 모드
+  * 모드
 
-     **필드:** `mode`\
-     **유형:** 문자열
+    **필드:** `mode`\
+    **유형:** 문자열
 
-   * referringSource
+  * referringSource
 
-     **필드:** `referringSource`\
-     **유형:** 문자열
+    **필드:** `referringSource`\
+    **유형:** 문자열
 
-   * typeAtSource
+  * typeAtSource
 
-     **필드:** `typeAtSource`\
-     **유형:** 문자열
+    **필드:** `typeAtSource`\
+    **유형:** 문자열
 
 * isSendTimeOptimized
 
@@ -380,40 +379,40 @@ ht-degree: 3%
   **필드:** `emailContent`\
   **유형:** 개체
 
-   * html
+  * html
 
-     **필드:** `html`\
-     **유형:** 문자열
+    **필드:** `html`\
+    **유형:** 문자열
 
-   * 제목
+  * 제목
 
-     **필드:** `subject`\
-     **유형:** 문자열
+    **필드:** `subject`\
+    **유형:** 문자열
 
-   * 텍스트
+  * 텍스트
 
-     **필드:** `text`\
-     **유형:** 문자열
+    **필드:** `text`\
+    **유형:** 문자열
 
 * smsContent
 
   **필드:** `smsContent`\
   **유형:** 개체
 
-   * 미디어
+  * 미디어
 
-     **필드:** `media`\
-     **유형:** 문자열
+    **필드:** `media`\
+    **유형:** 문자열
 
-   * message
+  * message
 
-     **필드:** `message`\
-     **유형:** 문자열
+    **필드:** `message`\
+    **유형:** 문자열
 
-   * 제목
+  * 제목
 
-     **필드:** `title`\
-     **유형:** 문자열
+    **필드:** `title`\
+    **유형:** 문자열
 
 +++
 
@@ -426,20 +425,20 @@ ht-degree: 3%
 
   개체의 **유형:** 배열
 
-   * authenticatedState
+  * authenticatedState
 
-     **필드:** `authenticatedState`\
-     **유형:** 문자열
+    **필드:** `authenticatedState`\
+    **유형:** 문자열
 
-   * ID
+  * ID
 
-     **필드:** `id`\
-     **유형:** 문자열
+    **필드:** `id`\
+    **유형:** 문자열
 
-   * 기본
+  * 기본
 
-     **필드:** `primary`\
-     **유형:** 부울
+    **필드:** `primary`\
+    **유형:** 부울
 
 +++
 
