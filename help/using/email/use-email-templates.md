@@ -53,9 +53,9 @@ ht-degree: 19%
 
 * **저장된 템플릿**. 다음 중 한 가지 방법으로 사용자 지정 템플릿을 사용할 수도 있습니다.
 
-   * **[!UICONTROL 콘텐츠 템플릿]** 메뉴를 사용하여 처음부터 새로 만들었습니다. [자세히 알아보기](../content-management/content-templates.md#content-templates)
+  * **[!UICONTROL 콘텐츠 템플릿]** 메뉴를 사용하여 처음부터 새로 만들었습니다. [자세히 알아보기](../content-management/content-templates.md#content-templates)
 
-   * **[!UICONTROL 콘텐츠 템플릿으로 저장]** 옵션을 사용하여 여정 또는 캠페인에 있는 전자 메일에서 저장되었습니다. [자세히 알아보기](../content-management/content-templates.md#video-templates)
+  * **[!UICONTROL 콘텐츠 템플릿으로 저장]** 옵션을 사용하여 여정 또는 캠페인에 있는 전자 메일에서 저장되었습니다. [자세히 알아보기](../content-management/content-templates.md#video-templates)
 
 샘플 또는 저장된 템플릿 중 하나를 사용하여 콘텐츠 작성을 시작하려면 아래 단계를 따르십시오.
 

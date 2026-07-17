@@ -72,9 +72,9 @@ Adobe Experience Platform Mobile SDK은 Apple의 라이브 활동에 대한 내�
 **필수 구성 요소:**
 
 * **iOS:**
-   * **iOS16.1 이상**: 기본 라이브 활동 기능
-   * **iOS 17.2+**: Push-to-start 지원
-   * **iOS 18+**: 브로드캐스트 채널 지원
+  * **iOS16.1 이상**: 기본 라이브 활동 기능
+  * **iOS 17.2+**: Push-to-start 지원
+  * **iOS 18+**: 브로드캐스트 채널 지원
 * **Xcode:** 14.0 이상
 * **Swift:** 5.7 이상
 * **종속성:** AEPCore, AEPMessaging, AEPMessagingLiveActivity, ActivityKit
@@ -99,8 +99,8 @@ import ActivityKit
 주요 구성 요소는 다음과 같습니다.
 
 * Adobe Experience Platform 관련 데이터가 포함된 **`liveActivityData`**(필수).
-   * 개별 사용자의 경우: `LiveActivityData(liveActivityID: "unique-id")` 사용
-   * 브로드캐스트의 경우: `LiveActivityData(channelID: "channel-id")` 사용
+  * 개별 사용자의 경우: `LiveActivityData(liveActivityID: "unique-id")` 사용
+  * 브로드캐스트의 경우: `LiveActivityData(channelID: "channel-id")` 사용
 
 * 정적 특성, 사용 사례와 관련된 사용자 지정 속성(예: `restaurantName`).
 

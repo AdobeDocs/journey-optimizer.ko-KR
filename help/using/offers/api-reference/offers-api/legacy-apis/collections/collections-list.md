@@ -23,8 +23,8 @@ subfeature_v2:
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 291
-ht-degree: 10%
+source-wordcount: 293
+ht-degree: 11%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 10%
 GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FILTER}&{QUERY_PARAMS}
 ```
 
-| 매개변수 | 설명 | 예 |
+| 매개 변수 | 설명 | 예 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 저장소 API의 끝점 경로입니다. | `https://platform.adobe.io/data/core/xcore/` |
 | `{QUERY_PARAMS}` | 결과를 필터링 기준으로 사용할 선택적 쿼리 매개 변수입니다. | `limit=2` |
@@ -73,7 +73,7 @@ curl -X GET \
 
 페이징에 가장 일반적인 쿼리 매개 변수는 다음과 같습니다.
 
-| 매개변수 | 설명 | 예 |
+| 매개 변수 | 설명 | 예 |
 | --------- | ----------- | ------- |
 | `q` | 선택한 필드에서 검색할 선택적 쿼리 문자열입니다. 쿼리 문자열은 소문자여야 하며 토큰화되지 않고 특수 문자를 이스케이프 처리할 수 있도록 큰따옴표로 묶을 수 있습니다. `+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` 문자는 특별한 의미가 있으므로 쿼리 문자열에 표시할 때 백슬래시로 이스케이프해야 합니다. | `demo collection` |
 | `qop` | q 쿼리 문자열 매개 변수의 값에 AND 또는 OR 연산자를 적용합니다. | `AND` / `OR` |

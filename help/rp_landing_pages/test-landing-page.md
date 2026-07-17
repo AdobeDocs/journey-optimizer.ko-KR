@@ -10,8 +10,8 @@ keywords: 테스트, 유효성 검사, 승인, 품질 보증, QA, 테스트 프�
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
 source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
-workflow-type: ht
-source-wordcount: '2281'
+workflow-type: tm+mt
+source-wordcount: '2380'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 콘텐츠 미리 보기, 테스트 및 유효성 검사
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 여정과 캠페인을 위한 승인 워크플로우
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 여정 테스트
 
@@ -56,7 +56,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 여정 시험 실행
 
@@ -66,7 +66,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 모니터링 및 문제 해결
 
@@ -76,7 +76,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 개인화 플레이그라운드
 
@@ -86,7 +86,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 콘텐츠 실험 및 A/B 테스트
 
@@ -96,7 +96,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 이해 당사자 모니터링을 위한 시드 목록
 
@@ -106,7 +106,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 충돌 감지
 
@@ -313,7 +313,7 @@ Use this decision tree to quickly identify the right testing tools for your spec
 <a href="../using/building-journeys/journeys-uc.md"><strong>다중 채널 메시지 보내기</strong></a>
 </div>
 <p>
-대상자 읽기, 반응 이벤트, 이메일/푸시 메시지를 결합한 여정을 테스트합니다. 대상자 타기팅에서 메시지 게재까지의 전체 흐름을 확인합니다. 멀티채널 조정, 반응 이벤트, 엔드투엔드 흐름 유효성 검사, 테스트/게시 단계에 중점을 둡니다.
+대상자 읽기, 반응 이벤트, 이메일/푸시 메시지를 결합하는 여정을 테스트합니다. 대상자 타겟팅부터 메시지 전달까지 전체 흐름의 유효성을 검사합니다. 멀티채널 조정, 반응 이벤트, 엔드투엔드 흐름 유효성 검사, 테스트/게시 단계에 중점을 둡니다.
 </p>
 </td>
 <td>
@@ -324,7 +324,7 @@ Use this decision tree to quickly identify the right testing tools for your spec
 <a href="../using/building-journeys/message-to-subscribers-uc.md"><strong>구독자에게 메시지 보내기</strong></a>
 </div>
 <p>
-동적 이메일 주소 지정으로 구독 목록을 타기팅하는 여정을 테스트합니다. 올바른 구독자 타기팅을 위해 개인화 표현식의 유효성을 검사합니다. 개인화 표현식, 동적 주소 지정, 구독 목록 타기팅에 집중합니다.
+동적 이메일 주소 지정을 사용하여 구독 목록을 타겟팅하는 테스트 여정을 실행합니다. 올바른 구독자 타겟팅을 위해 개인화 표현식의 유효성을 검사합니다. 개인화 표현식, 동적 주소 지정, 구독 목록 타겟팅에 중점을 둡니다.
 </p>
 </td>
 <td>
@@ -335,7 +335,7 @@ Use this decision tree to quickly identify the right testing tools for your spec
 <a href="../using/building-journeys/weekday-email-uc.md"><strong>시간 제한 메시지 보내기</strong></a>
 </div>
 <p>
-시간 기반 조건이 있는 여정에서 특정 날짜에 메시지가 전송되는지 테스트합니다. 대기 활동 및 예약 논리의 유효성을 검사합니다. 시간 기반 조건, 대기 활동, 예약 유효성 검사에 중점을 둡니다.
+특정 날짜에 메시지가 전송되는지 확인하기 위해 시간 기반 조건을 사용하여 여정을 테스트합니다. 대기 활동과 예약 논리의 유효성을 검사합니다. 시간 기반 조건, 대기 활동 및 예약 유효성 검사에 중점을 둡니다.
 </p>
 </td>
 </tr></table>
@@ -349,7 +349,7 @@ Use this decision tree to quickly identify the right testing tools for your spec
 <a href="../using/building-journeys/jo-use-cases.md"><strong>더 많은 여정 사용 사례 살펴보기</strong></a>
 </div>
 <p>
-경험 이벤트, 멀티채널 메시지, 외부 시스템 통합을 다루는 포괄적인 실제 사례 모음에 액세스합니다. 다양한 시나리오, 고급 패턴, 통합 테스트 접근 방법을 살펴봅니다.
+경험 이벤트, 멀티채널 메시지, 외부 시스템 통합을 다루는 포괄적인 실제 사례 모음을 이용합니다. 다양한 시나리오, 고급 패턴, 통합 테스트 접근 방식을 살펴봅니다.
 </p>
 </td>
 </tr></table>
@@ -453,9 +453,9 @@ Journey Optimizer의 테스트 및 승인 기능을 더 잘 이해하려면 다�
 
 ### Q: 여정의 테스트 모드와 시험 실행 간의 차이점은 무엇인가요?
 
-**테스트 모드:** 여정을 통해 테스트 프로필을 전송하고, 실제 액션을 트리거하고, 테스트 메시지를 생성합니다. 초안 여정과 네임스페이스가 필요합니다.
-**시험 실행:** 아무것도 전송하지 않고 실행 경로를 추적합니다. 모든 여정 상태에서 작동합니다. 메시지가 전송되지 않고 액션이 실행되지 않습니다.
-**함께 사용:** 메시지 테스트를 위한 테스트 모드 + 논리 유효성 검사를 위한 시험 실행 - 포괄적인 테스트 범위 제공.
+**테스트 모드:** 여정을 통해 테스트 프로필을 전송하고, 실제 액션을 트리거하며, 테스트 메시지를 생성합니다. 초안 여정 + 네임스페이스가 필요합니다.
+**시험 실행:** 아무것도 보내지 않고 실행 경로를 추적합니다. 모든 여정 상태에서 작동합니다. 보낸 메시지가 없으며 실행한 액션이 없습니다.
+**함께 사용:** 메시지 테스트를 위한 테스트 모드 + 논리 유효성 검사를 위한 시험 실행 - 포괄적인 범위.
 
 ### Q: 프로덕션/실제 운영 상태에서 여정을 테스트할 수 있나요?
 

@@ -28,10 +28,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
+source-git-commit: 308ffcb6d0a82dfd59913f79375b91257b15e851
 workflow-type: tm+mt
-source-wordcount: 486
-ht-degree: 10%
+source-wordcount: 574
+ht-degree: 9%
 
 ---
 
@@ -87,6 +87,13 @@ IP 준비 캠페인을 만들려면 아래 단계를 수행합니다.
    >CSV 업로드 대상은 IP 웜업 캠페인에 대해 지원되지 않으며 캠페인 활성화 시 오류가 발생합니다.
 
    캠페인을 구성하는 방법에 대한 자세한 내용은 [이 페이지](../campaigns/get-started-with-campaigns.md)를 참조하세요.
+
+1. 선택적으로 **[!UICONTROL 최적화]** 섹션에서 타깃팅 규칙을 추가하여 프로필 속성에 따라 다른 콘텐츠를 대상의 하위 집합에 전달합니다. [자세히 알아보기](../content-management/optimization-targeting.md)
+
+   타겟팅 규칙을 사용하는 경우 다음 사항에 유의하십시오.
+
+   * IP 웜업 캠페인 대상자는 일별 일괄 처리 세분화 주기를 통해 **한 번** 평가됩니다. 프로필 멤버십은 실행 활성화 시 고정되며 실행당 다시 평가되지 않습니다.
+   * 타깃팅 규칙에 사용되는 프로필 속성은 각 실행이 실행될 때 읽히며, 실시간 프로필 업데이트가 아닌 가장 최근에 수집된 배치 프로필 데이터를 반영합니다.
 
 1. 캠페인을 [활성화](../campaigns/review-activate-campaign.md)합니다. 상태가 **[!UICONTROL Live]**(으)로 변경됩니다.
 

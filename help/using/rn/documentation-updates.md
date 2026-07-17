@@ -2,7 +2,8 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 설명서 업데이트
-description: 설명서 업데이트에 대해 알아보기
+description: 새 페이지, 조직 변경 및 설명을 포함하여 Adobe Journey Optimizer의 최신 설명서 업데이트에 대해 알아봅니다.
+keywords: 설명서 업데이트, 릴리스 정보, 여정 최적화 프로그램, 변경 로그
 feature: Release Notes
 topic: Content Management
 role: User
@@ -14,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: eef9b6b37edd1722fb9894b18e1504496c70a142
+source-git-commit: de60ccc616a65a28349fcccf384326e0b91c6faf
 workflow-type: tm+mt
-source-wordcount: 9685
-ht-degree: 87%
+source-wordcount: 9505
+ht-degree: 86%
 
 ---
 
@@ -27,12 +28,7 @@ ht-degree: 87%
 
 ## 2026년 7월 {#july-2026}
 
-* **콘텐츠 검사** 페이지가 작성 시간 예상 값(HTML 구조, 인라인 CSS, 개인화 토큰, 조각, 조건부 블록 및 이미지 참조)에 포함된 내용, 예상 값이 전달된 크기와 다른 이유, 크기 경고가 작성자에게 무엇을 의미하는지 설명하는 새로운 **HTML 및 CSS 크기 정보** 섹션으로 업데이트되었습니다. [자세히 보기](../email/content-check.md#size-estimation)
-
-* **IP 준비 캠페인 만들기** 페이지가 업데이트되어 타기팅 규칙을 IP 준비 캠페인에 적용할 수 있음을 명확히 하고 평가 동작을 문서화했습니다. 대상 멤버십은 실행 활성화 시 고정되어 있으며(일별 배치 세분화), 프로필 특성은 실행 시 가장 최근에 수집된 배치 데이터에서 읽습니다. [자세히 보기](../configuration/ip-warmup-campaign.md)
-* **여정 종료** 페이지가 업데이트되어 되풀이되지 않는 대상 읽기 여정에 대한 자동 중지 타이밍을 명확히 했습니다. 예약된 실행 후 약 **96시간(~4일)**&#x200B;의 안전 버퍼입니다. 이 안전 버퍼는 다음 스캐너 통과 시 **중지됨**(으)로 전환되기 전에 여정이 **라이브** 상태로 유지될 수 있습니다. 이제 페이지에서는 전송 시간 최적화 사용 사례를 포함한 예약된 일괄 처리 기반 여정이 이 자동 중지에서 제외되고 대신 표준 91일 여정 시간 제한을 따르도록 명확하게 합니다. [자세히 보기](../building-journeys/end-journey.md#auto-stop-non-recurring)
-
-* **사용자 지정 업로드** 및 **대상 읽기** 페이지가 외부/사용자 지정 대상(CSV 업로드 및 Federated Audience Composition 포함)에 대한 증분 읽기 동작을 명확히 하도록 수정되었습니다. 현재 이러한 대상 유형에 대해서는 증분 읽기가 기능적으로 지원되지 않으며, 전체 대상은 증분 읽기 전환 설정에 관계없이 각 되풀이에 대해 처리됩니다. **반복 시 강제 재입력**&#x200B;을 포함하여 이제 지침 간 반복 제어. [사용자 지정 업로드에 대해 자세히 읽어보세요](../audience/custom-upload.md) 및 [대상자 읽기 예약에 대해 자세히 읽어보세요](../building-journeys/read-audience.md#schedule)
+* **여정 끝내기** 페이지가 업데이트되어 되풀이되지 않는 대상 읽기 여정에 대한 자동 중지 타이밍을 명확히 했습니다. 예약된 실행(24시간 유휴 기간 + 72시간 자동 사용 가능 시간) 후 약 **96시간(~4일)**&#x200B;의 안전 버퍼입니다. 이 안전 버퍼는 버퍼가 끝난 직후 **중지됨**(으)로 전환되기 전에 여정이 **라이브** 상태로 유지될 수 있습니다. 이제 페이지에서는 예약된 일괄 처리 기반(다중 일괄 처리) 여정 및 전송 시간 최적화를 사용하는 여정이 이 자동 중지에서 제외되고 대신 표준 91일 여정 시간 제한을 따르도록 명확하게 합니다. [자세히 보기](../building-journeys/end-journey.md#auto-stop-non-recurring)
 
 * **PTR 레코드 편집** 페이지에 새로운 순방향 DNS 레코드를 플랫폼에 추가할 때 이동이 완료될 때까지 이전 하위 도메인에 대한 순방향 DNS 레코드를 제거하지 말아야 한다는 경고가 추가되었습니다. 이 경우 편집이 실패합니다. [자세히 보기](../configuration/ptr-records.md#edit-ptr-subdomains-cname)
 
@@ -70,7 +66,7 @@ ht-degree: 87%
 
 * 이제 새 **Adobe Journey Optimizer 시작하기** 온보딩 허브를 사용할 수 있습니다. 새로운 사용자는 역할별로 자신의 경로를 선택하고, 기본 사항을 탐색하거나, 이미 온보딩한 경우 어디를 먼저 보아야 할지 알 필요 없이 일상적인 영역으로 이동할 수 있습니다. [자세히 보기](../../rp_landing_pages/get-started-landing-page.md)
 
-* 새 **목표에서 시작** 페이지를 사용하면 기능 이름 대신 수행할 작업에서 시작할 수 있습니다. 설정, 여정, 캠페인, 개인화, 의사 결정 및 보고 전반에서 권장되는 Journey Optimizer 기능에 비즈니스 목표를 매핑합니다. [자세히 보기](../start/ajo-use-case-guide.md)
+* 새 **목표에서 시작** 페이지를 사용하면 기능 이름 대신 수행할 작업에서 시작할 수 있습니다. 비즈니스 목표를 설정, 여정, 캠페인, 개인화, 의사 결정 및 보고 전반에서 권장되는 [!DNL Journey Optimizer] 기능에 매핑합니다. [자세히 보기](../start/ajo-use-case-guide.md)
 
 * **개발자용 시작하기** 역할 가이드가 각 섹션에 대한 보다 명확한 소개로 업데이트되었으며 여정 및 주요 구현 페이지에 대한 링크를 참조하는 **역할 전반에 걸쳐 공동 작업** 탭을 개선했습니다. [자세히 보기](../start/path/developer.md)
 
@@ -115,7 +111,7 @@ ht-degree: 87%
 
 * **실행 메타데이터** 도우미 설명서에 제한을 추가했습니다. 인바운드 채널(웹, 코드 기반 경험, 인앱 메시지, 콘텐츠 카드)에서는 이 함수가 지원되지 않는다는 내용입니다. [자세히 보기](../personalization/functions/helpers.md#execution-metadata)
 
-* Journey Optimizer의 가장 일반적인 사용 사례에 즉시 사용할 수 있는 개인화 패턴을 제공하는 **개인화 레시피** 페이지를 추가했습니다. 해당 페이지에서는 날짜 및 시간 레시피(현재 날짜 형식 지정, 만료 카운트다운, 남은 날짜 계산, 시간만 표시, 주말 또는 평일 감지), 문자열 레시피(변수 할당으로 `replaceAll` 사용), 조건부 대체 레시피(`isEmpty`을(를) 사용한 빈 필드 대체)를 다룹니다. [자세히 보기](../personalization/personalization-recipes.md)
+* [!DNL Journey Optimizer]에서 가장 일반적인 사용 사례에 즉시 사용할 수 있는 개인화 패턴을 제공하는 새로운 **Personalization 레서피** 페이지가 추가되었습니다. 해당 페이지에서는 날짜 및 시간 레시피(현재 날짜 형식 지정, 만료 카운트다운, 남은 날짜 계산, 시간만 표시, 주말 또는 평일 감지), 문자열 레시피(변수 할당으로 `replaceAll` 사용), 조건부 대체 레시피(`isEmpty`을(를) 사용한 빈 필드 대체)를 다룹니다. [자세히 보기](../personalization/personalization-recipes.md)
 
 * **개인화 구문** 설명서의 소개 부분을 확대해 Handlebars(`{{...}}`)와 PQL(`{%= ... %}`) 구문의 차이를 명확하게 설명하도록 업데이트했습니다. 여기에는 사용량 표, 큰따옴표 이스케이프 처리 지침, 새로운 **특수 속성 키용 PQL 구문 규칙** 섹션(예약된 키워드, 하이픈으로 연결된 속성 키, 숫자 이벤트 ID 설명)이 포함됩니다. 백틱 이스케이프에 대한 참고 사항도 다음과 같이 수정되었습니다. 하이픈으로 연결된 필드 이름은 `{{...}}` 블록에서 직접 참조할 수 있으며 백틱 구문만 실패합니다. [자세히 보기](../personalization/personalization-syntax.md)
 
@@ -303,7 +299,7 @@ ht-degree: 87%
 
 * 채널 시작 페이지에 새로운 커뮤니케이션 채널 사용 가능 여부 테이블이 추가되었습니다. 이 테이블에는 여정 및 캠페인(액션 캠페인, API 트리거 캠페인, 오케스트레이션된 캠페인) 전반에서 지원되는 채널이 표시됩니다. [자세히 보기](../channels/gs-channels.md#channels)
 
-* Journey Optimizer에서 제공하는 모든 추적 및 모니터링 기능을 쉽게 찾고 이용할 수 있도록 새로운 포괄적인 추적 랜딩 페이지가 생성되었습니다. [자세히 보기](../start/get-started-tracking.md)
+* 사용자가 [!DNL Journey Optimizer]에서 사용할 수 있는 모든 추적 및 모니터링 기능을 검색하고 액세스하는 데 도움이 되는 새로운 포괄적인 추적 랜딩 페이지가 생성되었습니다. [자세히 보기](../start/get-started-tracking.md)
 
 * 이메일 옵트아웃 관리 페이지가 개선되어 옵트아웃 절차에 대한 자세한 정보가 추가되었으며, 랜딩 페이지 옵트아웃의 예상 순서를 설명합니다. [자세히 보기](../email/email-opt-out.md#send-message-unsubscribe-link)
 
@@ -317,7 +313,7 @@ ht-degree: 87%
 
 * 이제 평일(월요일~금요일)에만 이메일을 보내도록 여정을 구성하는 방법을 보여주는 새로운 사용 사례가 제공됩니다. 주말에 제출된 내용은 자동으로 대기열에 추가되어 지정된 월요일 시간에 발송됩니다. [자세히 보기](../building-journeys/weekday-email-uc.md)
 
-* Journey Optimizer의 의사 결정 기능을 설명하는 새로운 페이지가 추가되었습니다. 이 페이지에서는 차세대 의사 결정 프레임워크와 기존 의사 결정 관리 솔루션의 차이점, 그리고 채널 전반에서 맞춤형 오퍼를 제공하는 데 주요 이점을 자세히 설명합니다. [자세히 보기](../experience-decisioning/gs-decision.md)
+* 이제 [!DNL Journey Optimizer]의 의사 결정 기능과 차세대 의사 결정 프레임워크와 기존 의사 결정 관리 솔루션의 차이점 및 여러 채널에서 개인화된 오퍼를 제공하기 위한 주요 이점을 설명하는 새 페이지를 사용할 수 있습니다. [자세히 보기](../experience-decisioning/gs-decision.md)
 
 * [!DNL Journey Optimizer]에서 지원되지 않는 대상자 유형(예: Customer Journey Analytics 대상자)을 대상자 포털의 새 세그먼트 정의로 묶어 활성화하는 방법을 설명하는 대상자 활성화 문서에 새 섹션이 추가되었습니다. [자세히 보기](../audience/target-audiences.md#activation-non-supported)
 
@@ -380,7 +376,7 @@ ht-degree: 87%
 
 * 여정 단계 이벤트로 작업하는 방법에 대한 설명서가 공개되었습니다. [자세히 보기](../reports/journey-step-events-overview.md)
 
-* 여정 시작 및 종료 기준에 대한 새로운 종합 안내서가 제공됩니다. 이 안내서에서는 Adobe Journey Optimizer에서 프로필이 여정에 진입하고 종료되는 시점을 관리하는 데 필요한 모범 사례, 실제 사례 및 실용적인 지침을 다룹니다. [자세히 보기](../building-journeys/entry-exit-criteria-guide.md)
+* 이제 여정 시작 및 종료 기준에 대한 새로운 포괄적인 안내서를 사용할 수 있습니다. 이 안내서에서는 [!DNL Adobe Journey Optimizer]에서 프로필이 여정에 들어가고 나가는 시기를 관리하기 위한 모범 사례, 실제 사례 및 실제 지침을 다룹니다. [자세히 보기](../building-journeys/entry-exit-criteria-guide.md)
 
 * 메시지의 상황별 데이터를 반복 처리하는 방법을 설명하는 새 페이지가 추가되었습니다. 이 안내서에서는 Handlebars 구문을 사용하여 이벤트, 사용자 정의 액션 응답, 데이터 세트 조회 및 기타 상황별 소스에서 가져온 동적 목록을 개인화에 표시하는 방법을 설명합니다. [자세히 보기](../personalization/iterate-contextual-data.md)
 
@@ -392,7 +388,7 @@ ht-degree: 87%
 
 * 이제 이미지 HTML 전환기를 사용하여 이미지를 HTML 템플릿으로 전환할 수 있습니다. [자세히 보기](../content-management/image-to-html.md)
 
-* Adobe Journey Optimizer 릴리스 주기에 대한 정보가 공개되었습니다. [자세히 보기](releases.md)
+* 이제 [!DNL Adobe Journey Optimizer] 릴리스 주기에 대한 정보를 사용할 수 있습니다. [자세히 보기](releases.md)
 
 * 이제 새로운 여정 FAQ 페이지를 사용할 수 있습니다. [자세히 보기](../building-journeys/journey-faq.md)
 
@@ -438,7 +434,7 @@ ht-degree: 87%
 
 * 여정에서 보조 식별자를 사용하는 방법에 대한 설명서에 이제 보조 ID를 사용하는 여정에서 종료 기준이 적용될 때 프로필이 어떻게 작동하는지 자세히 설명하는 표가 포함됩니다. [자세히 보기](../building-journeys/supplemental-identifier.md#exit-criteria)
 
-* 일시 중지된 여정의 프로필 삭제에 대해 이해하기 위한 문제 해결 섹션이 추가되었습니다. [자세히 보기](../building-journeys/journey-pause.md#discards-troubleshoot)
+* 일시 중지된 프로필에서 여정이 무시됨을 이해하기 위한 문제 해결 섹션이 추가되었습니다. [자세히 보기](../building-journeys/journey-pause.md#discards-troubleshoot)
 
 * 스키마 개요 설명서에 오케스트레이션된 캠페인에 사용되는 표준 및 관계형 스키마를 구별하기 위한 정보를 추가했습니다. [자세히 보기](../data/gs-data.md)
 
@@ -456,11 +452,11 @@ ht-degree: 87%
 
 * 여정의 보조 식별자 설명서에 다음 설명을 업데이트했습니다.
 
-   * 스키마에 보조 식별자를 추가한 후 새 이벤트(이벤트 트리거 여정의 경우) 또는 새 필드 그룹(대상자 읽기 여정의 경우)을 만들어야 합니다. 기존 엔터티는 자동으로 새로 고쳐지지 않으며 새 식별자를 인식하지 않습니다.
+  * 스키마에 보조 식별자를 추가한 후 새 이벤트(이벤트 트리거 여정의 경우) 또는 새 필드 그룹(대상자 읽기 여정의 경우)을 만들어야 합니다. 기존 엔터티는 자동으로 새로 고쳐지지 않으며 새 식별자를 인식하지 않습니다.
 
-   * 보조 식별자는 DULE(Data Usage Labeling &amp; Enforcement) 정책을 기준으로 확인되지 않으며, 여정의 데이터 거버넌스 검사 중에 고려되지 않습니다.
+  * 보조 식별자는 DULE(Data Usage Labeling &amp; Enforcement) 정책을 기준으로 확인되지 않으며, 여정의 데이터 거버넌스 검사 중에 고려되지 않습니다.
 
-     [자세히 보기](../building-journeys/supplemental-identifier.md)
+    [자세히 보기](../building-journeys/supplemental-identifier.md)
 
 * 캠페인의 최적화 페이지에 이제 여정에서도 최적화를 사용할 수 있다는 사실을 반영하여 업데이트했습니다. [자세히 보기](../content-management/gs-message-optimization.md)
 
@@ -474,7 +470,7 @@ ht-degree: 87%
 
 * 조각 섹션에 다음과 같은 메모가 추가되었습니다. 여정 또는 캠페인에서 추적을 활성화할 때 조각에 링크가 있고 이 조각을 메시지에 사용하는 경우 이러한 링크가 메시지에 포함된 다른 모든 링크와 같이 이러한 링크가 추적됩니다. [자세히 알아보기](../content-management/create-fragments.md#content)
 
-* Journey Optimizer의 하위 도메인 위임에 적용되는 가드레일 및 제한 사항이 보강되어 하나의 전용 섹션으로 통합되었습니다. [자세히 보기](../configuration/delegate-subdomain.md#guardrails)
+* [!DNL Journey Optimizer]의 하위 도메인 위임에 적용되는 보호 기능 및 제한 사항이 보강되어 하나의 전용 섹션으로 통합되었습니다. [자세히 보기](../configuration/delegate-subdomain.md#guardrails)
 
 * 대체 오퍼 만들기 및 의사 결정 페이지 만들기에 대체 오퍼가 의사 결정 내에서 사용되는 모든 표현을 포함해야 한다는 메모가 추가되었습니다. [자세히 보기](../offers/offer-library/creating-fallback-offers.md)
 
@@ -512,11 +508,11 @@ ht-degree: 87%
 
 ## 2025년 5월 {#may-2025}
 
-* 이제 “시스템 및 환경 연결” 섹션에 Journey Optimizer에서 사용할 수 있는 Adobe 통합 목록이 표시됩니다. [자세히 보기](../integrations/ajo-integrations.md)
+* [!DNL Journey Optimizer]에서 사용할 수 있는 Adobe 통합이 이제 &quot;시스템 및 환경 연결&quot; 섹션에 나열됩니다. [자세히 보기](../integrations/ajo-integrations.md)
 
 * 이제 콘텐츠 통합이 콘텐츠 관리 섹션에 그룹화되어 있습니다. [자세히 보기](../integrations/content-integrations.md)
 
-* Adobe Experience Platform 및 Journey Optimizer에 대한 아키텍처 다이어그램이 업데이트되었습니다. [자세히 보기](../start/get-started.md#architecture)
+* Adobe Experience Platform 및 [!DNL Journey Optimizer]에 대한 아키텍처 다이어그램이 업데이트되었습니다. [자세히 보기](../start/get-started.md#architecture)
 
 * 샘플 데이터를 사용하여 개인화 코드를 작성하고 테스트하는 방법을 학습하는 데 도움이 되는 개인화 편집기 플레이그라운드에 대한 비디오를 추가했습니다. [자세히 보기](../personalization/personalize.md#video-perso)
 
@@ -530,9 +526,9 @@ ht-degree: 87%
 
 * 코드 기반 환경에서 결정을 사용할 때 클라이언트 구현에 다음 플래그를 추가하는 방법을 설명하는 새 [페이지](../code-based/code-based-decisioning-implementations.md)를 추가했습니다.
 
-   * 코드 기반 경험에서 결정을 테스트하기 위해 `dryRun` 플래그를 추가합니다. [자세히 보기](../code-based/code-based-decisioning-implementations.md#code-based-test-decisions)
+  * 코드 기반 경험에서 결정을 테스트하기 위해 `dryRun` 플래그를 추가합니다. [자세히 보기](../code-based/code-based-decisioning-implementations.md#code-based-test-decisions)
 
-   * 코드 기반 경험에서 결정 요청에 중복 제거를 적용합니다. [자세히 보기](../code-based/code-based-decisioning-implementations.md#code-based-decisioning-deduplication)
+  * 코드 기반 경험에서 결정 요청에 중복 제거를 적용합니다. [자세히 보기](../code-based/code-based-decisioning-implementations.md#code-based-decisioning-deduplication)
 
 ## 2025년 4월 {#apr-2025}
 
@@ -556,7 +552,7 @@ ht-degree: 87%
 * 누락된 [랜딩 페이지] 기본 제공 권한이 설명서에 추가되었습니다. [자세히 보기](../administration/ootb-permissions.md)
 * 반복 캠페인 예약에 대한 메모가 추가되었습니다. [자세히 보기](../campaigns/create-campaign.md)
 * 이메일 메시지에 링크를 삽입하고 추적을 활성화하는 작업에 대한 섹션을 업데이트 및 재구성했습니다. [자세히 보기](../email/message-tracking.md)
-* Adobe Journey Optimizer의 개인화 기능에 대한 섹션을 재구성하고 개선했습니다. [자세히 보기](../personalization/personalize.md)
+* [!DNL Adobe Journey Optimizer]에 대한 개인화 기능에 대한 섹션을 다시 구성하고 개선했습니다. [자세히 보기](../personalization/personalize.md)
 * 맞춤형 오퍼를 나열하는 의사 결정 관리 API가 업데이트되었으며, 응답에서 여러 개의 맞춤형 오퍼가 누락된 경우 페이지 매김을 수행하는 샘플이 추가되었습니다. [자세히 보기](../offers/api-reference/offers-api/personalized-offers/offers-list.md)
 * 명료성을 개선하기 위해 [목록 구독 취소] 기능에 대한 모든 정보를 모은 새 페이지를 만들었습니다. [자세히 보기](../email/list-unsubscribe.md)
 * [빈도 캡핑] 섹션에서 Edge Decisioning API 외에도 Decisioning 및 Batch Decisioning API에 대한 빈도 캡핑 카운터가 어떻게 업데이트되는지에 대한 정보를 업데이트했습니다. [자세히 보기](../offers/offer-library/add-constraints.md#frequency-capping)
@@ -571,13 +567,13 @@ ht-degree: 87%
 * 여정 이벤트에 대한 새 가드레일을 추가했습니다. [자세히 보기](../start/guardrails.md#events-g)
 * 기본 제공 채널 액션 페이지를 재구성했습니다. [자세히 보기](../building-journeys/journey-action.md)
 * 의사 결정 및 의사 결정 관리 섹션에 가드레일과 제한 사항이 추가되었습니다.
-   * [의사 결정 가드레일 및 제한 사항](../experience-decisioning/decisioning-guardrails.md)
-   * [의사 결정 관리 가드레일 및 제한 사항](../offers/decision-management-guardrails.md)
+  * [의사 결정 가드레일 및 제한 사항](../experience-decisioning/decisioning-guardrails.md)
+  * [의사 결정 관리 가드레일 및 제한 사항](../offers/decision-management-guardrails.md)
 * 의사 결정 관리 설명서에 컨텍스트 데이터에 대한 새 섹션이 추가되었습니다. 해당 섹션에서는 의사 결정 엔진에서 컨텍스트 데이터를 활용하는 방법에 대한 정보를 제공합니다. 예를 들어 의사 결정 요청이 이루어질 때 현재 날씨가 80도 이상이어야 하는 결정 규칙을 디자인하는 데 도움이 됩니다. [자세히 보기](../offers/context-data.md)
 
 ## 2025년 1월 {#jan-2025}
 
-* 이메일 구성의 **[!UICONTROL 실행 주소]** 옵션에 대한 새로운 섹션을 추가했습니다. 기본 주소는 샌드박스 수준에서 정의되지만, 특정 이메일 구성에 대해 기본 설정을 재정의할 수 있습니다. [자세히 보기](../email/email-settings.md#execution-address)
+* 이메일 구성의 **[!UICONTROL 실행 주소]** 옵션에 대한 새로운 섹션을 추가했습니다. 기본 주소는 샌드박스 수준에서 정의되지만 특정 이메일 구성에 대해 기본 설정이 재정의될 수 있습니다. [자세히 보기](../email/email-settings.md#execution-address)
 
 * **전달성 시작** 페이지에 사용자 인터페이스에서 직접 IP 워밍업 워크플로를 만들 수 있다는 내용을 추가하여 업데이트했습니다. [자세히 보기](../reports/deliverability.md#reputation)
 
@@ -597,7 +593,7 @@ ht-degree: 87%
 
 +++ 2024
 
-## 2024년 12월 {#nov-2024}
+## 2024년 12월 {#december-2024}
 
 * Adobe Experience Platform 데이터를 사용하여 개인화할 데이터 세트를 활성화하기 위한 API 호출 수행 시 발생할 수 있는 오류 메시지를 해결하는 데 도움이 되는 메모가 추가되었습니다. [자세히 보기](../personalization/aep-data-perso.md)
 
@@ -610,7 +606,7 @@ ht-degree: 87%
 * 시스템 생성 데이터 세트에 적용될 예정인 TTL(Time-to-Live) 가드레일에 대한 메모를 추가했습니다. [자세히 보기](../data/get-started-datasets.md)
 * 여정 또는 캠페인의 콘텐츠를 시뮬레이션할 때 **디바이스에서 미리 보기** 옵션을 사용하여 브라우저 또는 모바일 디바이스에서 바로 코드 기반의 개인화된 경험을 미리 보는 방법을 설명하는 새 섹션을 추가했습니다. [자세히 보기](../code-based/test-code-based.md#preview-on-device)
 * 의사 결정에 사용자 정의 업로드 대상자를 활용하는 방법에 대한 새 페이지를 추가했습니다. [자세히 보기](../offers/custom-upload-decisioning.md)
-* Journey Optimizer에서 사용할 수 있는 결정 기능을 소개하는 새 페이지가 추가되었습니다. [자세히 보기](../experience-decisioning/gs-decision.md)
+* [!DNL Journey Optimizer]에서 사용할 수 있는 결정 기능을 소개하는 새 페이지가 추가되었습니다. [자세히 보기](../experience-decisioning/gs-decision.md)
 * 결정 설명서에 가드레일 및 제한 사항이 추가되었습니다. [자세히 보기](../experience-decisioning/gs-experience-decisioning.md#guardrails)
 
 ## 2024년 9월 {#sept-2024}

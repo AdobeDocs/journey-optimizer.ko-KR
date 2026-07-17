@@ -37,7 +37,7 @@ ht-degree: 12%
 
 컬렉션은 오퍼의 카테고리와 같이 마케터가 정의한 사전 정의된 조건을 기반으로 하는 오퍼의 하위 집합입니다.
 
-`@id` 컬렉션 또는 요청 경로에 있는 컬렉션의 이름을 포함하는 [!DNL Offer Library] API에 대한 GET 요청을 수행하여 특정 컬렉션을 조회할 수 있습니다.
+`@id` 컬렉션이나 요청 경로에 있는 컬렉션 이름을 포함하는 [!DNL Offer Library] API에 대한 GET 요청을 수행하여 특정 컬렉션을 조회할 수 있습니다.
 
 **API 형식**
 
@@ -45,7 +45,7 @@ ht-degree: 12%
 GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FILTER}&{QUERY_PARAMS}
 ```
 
-| 매개변수 | 설명 | 예 |
+| 매개 변수 | 설명 | 예 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 저장소 API의 끝점 경로입니다. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | 컬렉션이 있는 컨테이너입니다. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |

@@ -32,7 +32,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1523
+source-wordcount: 1673
 ht-degree: 12%
 
 ---
@@ -80,7 +80,7 @@ ht-degree: 12%
     <div>
     <a href="../data/datasets-query-examples.md">
     <img alt="쿼리 샘플" src="../assets/do-not-localize/icon-configure.svg"/></a> 
-    <br>사용 사례를 만들려면 추적 경험 이벤트를 수집하기 위한 시스템 데이터 세트, 여정에서 단계 이벤트를 수집하기 위한 데이터 세트, 사용자에게 오퍼 제안을 수집하기 위한 데이터 세트 등과 같은 [!DNL Adobe Journey Optimizer] 데이터 세트를 쿼리해야 합니다.
+    <br>사용 사례를 만들려면 추적 경험 이벤트를 수집하기 위한 시스템 데이터 세트, 여정의 단계 이벤트를 수집하기 위한 데이터 세트, 사용자에게 오퍼 제안을 수집하기 위한 데이터 세트 등과 같은 [!DNL Adobe Journey Optimizer] 데이터 세트를 쿼리해야 합니다.
     </div>
       <div>
      <a href="../data/datasets-query-examples.md">자세히 알아보기</a></div>

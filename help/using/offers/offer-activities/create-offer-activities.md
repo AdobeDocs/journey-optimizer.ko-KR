@@ -25,7 +25,7 @@ subfeature_v2:
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 2537
+source-wordcount: 2569
 ht-degree: 10%
 
 ---
@@ -139,13 +139,13 @@ ht-degree: 10%
 
    ![](../assets/activity_constraint-estimate.png)
 
-1. 각 프로필에 가장 적합한 오퍼를 선택하는 데 사용할 순위 방법을 정의합니다. [자세히 알아보기](../offer-activities/configure-offer-selection.md).
+1. 각 프로필에 가장 적합한 오퍼를 선택하는 데 사용할 순위 방법을 정의합니다. [자세히 알아보기](../offer-activities/configure-offer-selection.md)
 
    ![](../assets/activity_ranking-method.png)
 
    * 기본적으로 여러 오퍼가 이 배치에 적합한 경우 **[!UICONTROL 오퍼 우선 순위]** 메서드는 오퍼에 정의된 값을 사용합니다. 우선 순위 점수가 가장 높은 오퍼는 사용자에게 전달됩니다.
 
-   * 특정 계산된 점수를 사용하여 게재할 적격 오퍼를 선택하려면 **[!UICONTROL 공식]** 또는 **[!UICONTROL AI 모델]**&#x200B;을 선택하십시오. [자세히 알아보기](../offer-activities/configure-offer-selection.md).
+   * 특정 계산된 점수를 사용하여 게재할 적격 오퍼를 선택하려면 **[!UICONTROL 공식]** 또는 **[!UICONTROL AI 모델]**&#x200B;을 선택하십시오. [자세히 알아보기](../offer-activities/configure-offer-selection.md)
 
 1. 같은 배치에 대한 조건을 더 정의하려면 **[!UICONTROL 추가]**&#x200B;를 클릭하십시오.
 
@@ -206,11 +206,11 @@ ht-degree: 10%
 각 기준 및 해당 우선 순위(순위 함수 평가에 사용됨)에 대한 적격 오퍼는 다음과 같습니다.
 
 * 그룹 1:
-   * 기준 1 - (오퍼 1, 오퍼 2, 오퍼 3) - 우선순위 1
-   * 기준 2 - (오퍼 3, 오퍼 4, 오퍼 5) - 우선순위 1
+  * 기준 1 - (오퍼 1, 오퍼 2, 오퍼 3) - 우선순위 1
+  * 기준 2 - (오퍼 3, 오퍼 4, 오퍼 5) - 우선순위 1
 
 * 그룹 2:
-   * 기준 3 - (오퍼 5, 오퍼 6) - 우선순위 0
+  * 기준 3 - (오퍼 5, 오퍼 6) - 우선순위 0
 
 우선 순위가 가장 높은 기준 오퍼를 먼저 평가하고 등급 오퍼 목록에 추가합니다.
 

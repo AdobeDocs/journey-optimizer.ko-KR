@@ -6,7 +6,7 @@ description: Journey Optimizer에서 랜딩 페이지 하위 도메인 및 사�
 redpen-status: CREATED_||_2025-08-12_00-37-08
 exl-id: 599d9f7b-3e41-4926-95b6-f5f58255d91d
 source-git-commit: 1eafa4cef02c13c8498ac9ac2df502a8a7d926d2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Adobe Journey Optimizer에서 랜딩 페이지를 구성하면 맞춤화된 하�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 랜딩 페이지 하위 도메인 구성 및 관리
 
@@ -36,7 +36,7 @@ Adobe Journey Optimizer에서 랜딩 페이지 호스팅을 위한 하위 도메
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 랜딩 페이지 사전 설정 정의
 

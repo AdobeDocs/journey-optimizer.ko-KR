@@ -29,7 +29,7 @@ topic_v2:
 source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
 source-wordcount: 562
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 1%
 메시지 콘텐츠가 정의되면 다음 시뮬레이션 방법 중 하나를 사용하여 콘텐츠를 미리 볼 수 있습니다.
 
 * 샘플 입력 데이터 또는 AI 자동 생성을 사용하여 콘텐츠 변형을 테스트하려면 **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭하십시오. [콘텐츠 변형을 시뮬레이션하는 방법을 알아봅니다](../test-approve/simulate-sample-input.md)
-* **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭한 다음 드롭다운에서 **[!UICONTROL 콘텐츠 시뮬레이션(AEP 프로필)]**&#x200B;을 선택하여 테스트 프로필로 미리 봅니다.
+* **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭한 후 드롭다운에서 **[!UICONTROL 콘텐츠 시뮬레이션(AEP 프로필)]**&#x200B;을 선택하여 테스트 프로필로 미리 봅니다.
 
 ![](assets/sms_preview_2.png)
 

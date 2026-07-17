@@ -21,8 +21,8 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 8f016fe08e76f896eeb71b96e582e4e7e8fc3c9f
-workflow-type: ht
-source-wordcount: 188
+workflow-type: tm+mt
+source-wordcount: 189
 ht-degree: 100%
 
 ---
@@ -43,7 +43,7 @@ LINE 메시지는 여정 또는 캠페인에서 만들고 보낼 수 있습니�
 
 * **캠페인**&#x200B;에서. 캠페인을 만들고 액션으로 LINE을 선택하고 기본 설정을 정의한 다음 메시지 콘텐츠를 편집하여 보낼 LINE 메시지를 정의합니다. [액션 캠페인](../campaigns/campaign-action.md#action-campaign-action) | [API 트리거 캠페인](../campaigns/api-triggered-campaigns.md) | [오케스트레이션된 캠페인](../orchestrated/create-orchestrated-campaign.md#create) 만드는 방법 알아보기
 
-LINE 메시지를 만들기 전에 Journey Optimizer에서 LINE 채널을 구성합니다. [자세히 알아보기](line-configuration.md).
+LINE 메시지를 만들기 전에 Journey Optimizer에서 LINE 채널을 구성합니다. [자세히 알아보기](line-configuration.md)
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -55,7 +55,7 @@ LINE 메시지를 만들기 전에 Journey Optimizer에서 LINE 채널을 구성
 </td>
 <td>
 <a href="send-line.md">
-<img alt="저빈도" src="../assets/do-not-localize/sms-sending.jpg">
+<img alt="드물게" src="../assets/do-not-localize/sms-sending.jpg">
 </a>
 <div>
 <a href="send-line.md"><strong>LINE 메시지 보내기</strong></a>
@@ -63,7 +63,7 @@ LINE 메시지를 만들기 전에 Journey Optimizer에서 LINE 채널을 구성
 <p></td>
 <td>
 <a href="line-configuration.md">
-<img alt="저빈도" src="../assets/do-not-localize/inapp-config.jpg">
+<img alt="드물게" src="../assets/do-not-localize/inapp-config.jpg">
 <div>
 <a href="line-configuration.md"><strong>LINE 채널 구성</strong>
 </a>

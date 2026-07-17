@@ -137,8 +137,8 @@ journeyStepEvent의 경우 ID와 관련된 필드도 추가해야 합니다.
 
 * 일시 중지된 여정에서 발생하는 폐기물의 경우:
 
-   * **PAUSED_DISPATCHER_VERSION**: 여정 시작 지점에서 발생한 여정을 버립니다.
-   * **여정_IN_PAUSED_STATE**: 프로필이 여정 상태일 때 발생한 항목을 삭제합니다.
+  * **PAUSED_DISPATCHER_VERSION**: 여정 시작 지점에서 발생한 여정을 버립니다.
+  * **여정_IN_PAUSED_STATE**: 프로필이 여정 상태일 때 발생한 항목을 삭제합니다.
 
   [여정 일시 중지](../building-journeys/journey-pause.md#discards-troubleshoot)에서 이러한 이벤트와 문제를 해결하는 방법에 대해 자세히 알아보세요.
 

@@ -26,7 +26,7 @@ ht-degree: 5%
 
 # 항목 컬렉션 조회 {#lookup-item-collection}
 
-요청 경로에 ID가 포함된 오퍼 라이브러리 API에 대해 GET 요청을 수행하여 특정 항목 컬렉션을 조회할 수 있습니다.
+요청 경로에 ID가 포함된 오퍼 라이브러리 API에 대한 GET 요청을 하여 특정 항목 컬렉션을 조회할 수 있습니다.
 
 **API 형식**
 
@@ -34,7 +34,7 @@ ht-degree: 5%
 GET /{ENDPOINT_PATH}/item-collections/{ID}
 ```
 
-| 매개변수 | 설명 | 예 |
+| 매개 변수 | 설명 | 예 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 지속성 API의 끝점 경로입니다. | `https://platform.adobe.io/data/core/dps` |
 | `{ID}` | 조회할 엔티티의 ID입니다. | `itemCollections1234` |

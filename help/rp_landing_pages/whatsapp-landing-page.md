@@ -6,7 +6,7 @@ description: WhatsApp
 redpen-status: CREATED_||_2025-08-11_20-44-12
 exl-id: 43d23d66-7c15-42e2-94ff-3dc80927d07a
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer를 사용하면 실시간으로 개인화된 커뮤니�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 WhatsApp 메시지 시작
 
@@ -30,7 +30,7 @@ WhatsApp 메시지 시작
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 WhatsApp 채널 구성
 
@@ -40,7 +40,7 @@ WhatsApp 채널 구성
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 WhatsApp 메시지 만들기
 
@@ -50,7 +50,7 @@ WhatsApp 메시지 만들기
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/check-circle.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/check-circle.svg)
 
 WhatsApp 메시지 미리 보기, 유효성 검사 및 보내기
 

@@ -35,8 +35,8 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
 workflow-type: tm+mt
-source-wordcount: 831
-ht-degree: 83%
+source-wordcount: 832
+ht-degree: 79%
 
 ---
 
@@ -80,7 +80,7 @@ You can also create audience-based campaigns to send messages.
 
 ### 최신 옴니채널 오케스트레이션 및 실행
 
-1:1 고객 참여 및 마케팅 제공을 위한 고객 여정을 조화롭게 결합하고 최적화하여 브랜드가 고객 라이프사이클 전반에 걸쳐 더 많은 가치를 제공할 수 있도록 지원하는 단일 캔버스입니다. [!DNL Adobe Journey Optimizer]에서 디자인한 고객 여정은 동적이고 이벤트 기반으로 작동할 수 있으므로 브랜드가 실시간 신호에 반응하고 이 상호 작용을 예약된 캠페인과 연결하여 고객에게 보낼 커뮤니케이션, 그 시점, 이때 사용할 채널에 대해 올바른 결정을 내리는 데 도움이 됩니다. 드래그 앤 드롭 방식의 비주얼 디자이너, 재사용 가능한 템플릿, 콘텐츠 조각, 개인화 편집기 등 콘텐츠 제작 도구가 포함되어 있어 팀이 동일한 워크플로 내에서 모든 채널의 메시지를 직접 작성, 개인화, 관리할 수 있습니다. [첫 번째 여정 작성](../building-journeys/journey-gs.md) | [콘텐츠 디자인](../../rp_landing_pages/content-management-landing-page.md)
+1:1 고객 참여 및 마케팅 전달을 위해 고객 여정을 조화롭게 최적화하고 최적화하여 브랜드가 고객 라이프사이클에서 더 많은 가치를 제공할 수 있는 단일 캔버스입니다. [!DNL Adobe Journey Optimizer]에서 디자인한 고객 여정은 동적이고 이벤트 기반으로 작동할 수 있으므로 브랜드가 실시간 신호에 반응하고 이 상호 작용을 예약된 캠페인과 연결하여 고객에게 보낼 커뮤니케이션, 그 시점, 이때 사용할 채널에 대해 올바른 결정을 내리는 데 도움이 됩니다. 드래그 앤 드롭 방식의 비주얼 디자이너, 재사용 가능한 템플릿, 콘텐츠 조각, 개인화 편집기 등 콘텐츠 제작 도구가 포함되어 있어 팀이 동일한 워크플로 내에서 모든 채널의 메시지를 직접 작성, 개인화, 관리할 수 있습니다. [첫 번째 여정 작성](../building-journeys/journey-gs.md) | [콘텐츠 디자인](../../rp_landing_pages/content-management-landing-page.md)
 
 ### 지능형 의사 결정 및 개인화
 

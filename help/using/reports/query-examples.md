@@ -182,8 +182,8 @@ WHERE
 * **actionExecutionError** - `businessRuleProfileDiscarded`(으)로 설정하면 비즈니스 규칙으로 인해 프로필이 삭제되었음을 나타냅니다. `eventType` 필드에는 버리기 원인이 된 특정 비즈니스 규칙에 대한 추가 세부 정보가 있습니다.
 
 * **eventType** - 버리기 원인이 되는 비즈니스 규칙의 유형을 지정합니다.
-   * `quietHours`: 자동 시간 구성으로 인해 프로필이 삭제되었습니다.
-   * `forcedDiscardDueToQuietHours`: 조용한 시간에 보관된 프로필에 대한 보호 제한에 도달하여 프로필이 강제로 삭제되었습니다.
+  * `quietHours`: 자동 시간 구성으로 인해 프로필이 삭제되었습니다.
+  * `forcedDiscardDueToQuietHours`: 조용한 시간에 보관된 프로필에 대한 보호 제한에 도달하여 프로필이 강제로 삭제되었습니다.
 
 +++
 

@@ -26,7 +26,7 @@ topic_v2:
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 920
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -96,23 +96,23 @@ Decisioning API를 사용하여 컨텍스트를 자유 형식으로 전달하는
 
 * iphone 장치 규칙:
 
-   * 규칙 이름: &quot;Edge 컨텍스트 규칙 - iphone&quot;
-   * 구성: deviceType = &#39;iphone&#39;
-   * PQL 구문:
+  * 규칙 이름: &quot;Edge 컨텍스트 규칙 - iphone&quot;
+  * 구성: deviceType = &#39;iphone&#39;
+  * PQL 구문:
 
-     ```
-     select _Any1 from xEvent where _Any1._experienceplatform.offerContextData.deviceType.equals("iphone", false)
-     ```
+    ```
+    select _Any1 from xEvent where _Any1._experienceplatform.offerContextData.deviceType.equals("iphone", false)
+    ```
 
 * ipad 장치 규칙:
 
-   * 규칙 이름: &quot;Edge 컨텍스트 규칙 - ipad&quot;
-   * 구성: deviceType = &#39;ipad&#39;
-   * PQL 구문
+  * 규칙 이름: &quot;Edge 컨텍스트 규칙 - ipad&quot;
+  * 구성: deviceType = &#39;ipad&#39;
+  * PQL 구문
 
-     ```
-     select _Any1 from xEvent where _Any1._experienceplatform.offerContextData.deviceType.equals("ipad", false)
-     ```
+    ```
+    select _Any1 from xEvent where _Any1._experienceplatform.offerContextData.deviceType.equals("ipad", false)
+    ```
 
 ## 오퍼 만들기 {#offers}
 
@@ -120,13 +120,13 @@ Decisioning API를 사용하여 컨텍스트를 자유 형식으로 전달하는
 
 * iPhone 사용자를 위한 오퍼:
 
-   * 오퍼 이름: &quot;Edge 컨텍스트 - iPhone 오퍼 컨텐츠&quot;
-   * 관련 규칙: &quot;Edge 컨텍스트 규칙 - iphone&quot;
+  * 오퍼 이름: &quot;Edge 컨텍스트 - iPhone 오퍼 컨텐츠&quot;
+  * 관련 규칙: &quot;Edge 컨텍스트 규칙 - iphone&quot;
 
 * iPad 사용자를 위한 오퍼:
 
-   * 오퍼 이름: &quot;Edge 컨텍스트 - iPad 오퍼 컨텐츠&quot;
-   * 관련 규칙: &quot;Edge 컨텍스트 규칙 - ipad&quot;
+  * 오퍼 이름: &quot;Edge 컨텍스트 - iPad 오퍼 컨텐츠&quot;
+  * 관련 규칙: &quot;Edge 컨텍스트 규칙 - ipad&quot;
 
 또한 특정 장치 기준이 충족되지 않는 경우 표시할 대체 오퍼(여기서는 &quot;컨텍스트 대체 컨텐츠&quot;)를 만듭니다.
 

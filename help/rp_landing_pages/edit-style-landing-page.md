@@ -6,7 +6,7 @@ description: 스타일 편집
 redpen-status: CREATED_||_2025-08-11_20-32-57
 exl-id: c4269d5d-95fa-4b00-add5-42a26ab0de9f
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 이메일 Designer에는 시각적으로 매력적인
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 이메일 스타일 사용자 지정
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer를 사용하여 이메일 본문, 구조 및 콘텐츠 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 이메일 배경 개인화
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer의 이메일 디자이너에서 다양한 수준의 이�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 세로 정렬 및 패딩 조정
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer의 이메일 디자이너에서 다양한 수준의 이�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 인라인 스타일 속성 추가
 

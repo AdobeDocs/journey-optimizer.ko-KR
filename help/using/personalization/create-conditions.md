@@ -73,8 +73,8 @@ ht-degree: 6%
    속성은 다음 세 가지 탭으로 구성됩니다.
 
    * **[!UICONTROL 프로필]**:
-      * **[!UICONTROL 대상]**&#x200B;에 모든 대상 특성(예: 상태, 버전 등)이 나열됩니다. [Adobe Experience Platform 세분화 서비스](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ko){target="_blank"}의 경우,
-      * **[!UICONTROL XDM 개별 프로필]**&#x200B;은(는) Adobe Experience Platform에 정의된 [XDM(Experience Data Model) 스키마](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR){target="_blank"}와(과) 관련된 모든 프로필 특성을 나열합니다.
+     * **[!UICONTROL 대상]**&#x200B;에 모든 대상 특성(예: 상태, 버전 등)이 나열됩니다. [Adobe Experience Platform 세분화 서비스](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ko){target="_blank"}의 경우,
+     * **[!UICONTROL XDM 개별 프로필]**&#x200B;은(는) Adobe Experience Platform에 정의된 [XDM(Experience Data Model) 스키마](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR){target="_blank"}와(과) 관련된 모든 프로필 특성을 나열합니다.
    * **[!UICONTROL 상황별]**: 메시지를 여정에 사용하면 이 탭을 통해 상황별 여정 필드를 사용할 수 있습니다.
    * **[!UICONTROL 대상]**: [Adobe Experience Platform 세분화 서비스](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ko){target="_blank"}에서 만든 세그먼트 정의에서 생성된 모든 대상을 나열합니다.
 

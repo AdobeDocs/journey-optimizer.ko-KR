@@ -26,7 +26,7 @@ topic_v2:
 source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
 source-wordcount: 411
-ht-degree: 6%
+ht-degree: 10%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 6%
 메시지 콘텐츠가 정의되면 다음 시뮬레이션 방법 중 하나를 사용하여 콘텐츠를 미리 볼 수 있습니다.
 
 * 샘플 입력 데이터 또는 AI 자동 생성을 사용하여 콘텐츠 변형을 테스트하려면 **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭하십시오. [콘텐츠 변형을 시뮬레이션하는 방법을 알아봅니다](../test-approve/simulate-sample-input.md)
-* **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭한 다음 드롭다운에서 **[!UICONTROL 콘텐츠 시뮬레이션(AEP 프로필)]**&#x200B;을 선택하여 테스트 프로필로 미리 봅니다. 그런 다음 콘텐츠를 미리 볼 장치 형식을 선택할 수 있습니다. **[!UICONTROL iOS]**, **[!UICONTROL Android]** 또는 **[!UICONTROL 웹]**.
+* **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭한 후 드롭다운에서 **[!UICONTROL 콘텐츠 시뮬레이션(AEP 프로필)]**&#x200B;을 선택하여 테스트 프로필로 미리 봅니다. 그런 다음 콘텐츠를 미리 볼 장치 형식을 선택할 수 있습니다. **[!UICONTROL iOS]**, **[!UICONTROL Android]** 또는 **[!UICONTROL 웹]**.
 
 ![](assets/push_preview_3.png)
 
@@ -57,11 +57,11 @@ ht-degree: 6%
 
 * **오류**&#x200B;로 인해 다음과 같이 여정이 해결되지 않는 한 테스트나 활성화를 수행할 수 없습니다.
 
-   * **[!UICONTROL 메시지의 푸시 버전이 비어 있습니다]**: 푸시 알림 본문이나 제목이 누락된 경우 이 오류가 표시됩니다. [이 섹션](create-push.md)에서 푸시 알림 콘텐츠를 정의하는 방법을 알아보세요.
+  * **[!UICONTROL 메시지의 푸시 버전이 비어 있습니다]**: 푸시 알림 본문이나 제목이 누락된 경우 이 오류가 표시됩니다. [이 섹션](create-push.md)에서 푸시 알림 콘텐츠를 정의하는 방법을 알아보세요.
 
-   * **[!UICONTROL 구성이 없습니다]**: 선택한 구성이 메시지 작성 후 삭제되면 메시지를 사용할 수 없습니다. 이 오류가 발생하면 **[!UICONTROL 속성]** 메시지에서 다른 구성을 선택하십시오. [이 섹션](../configuration/channel-surfaces.md)에서 채널 구성에 대해 자세히 알아보세요.
+  * **[!UICONTROL 구성이 없습니다]**: 선택한 구성이 메시지 작성 후 삭제되면 메시지를 사용할 수 없습니다. 이 오류가 발생하면 **[!UICONTROL 속성]** 메시지에서 다른 구성을 선택하십시오. [이 섹션](../configuration/channel-surfaces.md)에서 채널 구성에 대해 자세히 알아보세요.
 
-   * **[!UICONTROL 푸시 iOS/Android 페이로드가 4KB의 제한을 초과했습니다]**: 푸시 알림 크기는 4KB를 초과할 수 없습니다. 이 제한을 준수하려면 이미지 또는 이모지의 사용을 줄이십시오. [이 섹션](../push/create-push.md)에서 푸시 알림 콘텐츠를 관리하는 방법을 알아봅니다.
+  * **[!UICONTROL 푸시 iOS/Android 페이로드가 4KB의 제한을 초과했습니다]**: 푸시 알림 크기는 4KB를 초과할 수 없습니다. 이 제한을 준수하려면 이미지 또는 이모지의 사용을 줄이십시오. [이 섹션](../push/create-push.md)에서 푸시 알림 콘텐츠를 관리하는 방법을 알아봅니다.
 
   ![](assets/push_alert.png)
 

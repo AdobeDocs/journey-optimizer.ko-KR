@@ -110,7 +110,7 @@ Decisioning을 사용하는 주요 단계는 다음과 같습니다.
 1. **의사 결정 정책을 만들어 여정 또는 캠페인에 임베드합니다**(코드 기반 경험, 이메일, SMS 또는 푸시). 의사 결정 정책은 여러 선택 전략을 결합하여 의도한 대상자에게 표시할 적합한 의사 결정 항목을 결정합니다.
 
    ➡️ [의사 결정 정책 사용 방법 알아보기](create-decision.md)
-➡️ 코드 기반 경험 채널을 통해 오퍼를 성공적으로 게재하려면 [이 섹션](../code-based/code-based-implementation-samples.md)의 구현 단계를 따르십시오.
+   ➡️ 코드 기반 경험 채널을 통해 오퍼를 성공적으로 게재하려면 [이 섹션](../code-based/code-based-implementation-samples.md)의 구현 단계를 따르십시오.
 
 >[!NOTE]
 >

@@ -37,7 +37,7 @@ ht-degree: 12%
 
 맞춤형 오퍼는 자격 규칙 및 제한에 따라 사용자 정의 가능한 마케팅 메시지입니다.
 
-개인화된 오퍼 `@id` 또는 요청 경로에 개인화된 오퍼의 이름이 포함된 **오퍼 라이브러리** API에 대한 GET 요청을 통해 개인화된 특정 오퍼를 조회할 수 있습니다.
+개인화된 오퍼 `@id` 또는 요청 경로에 개인화된 오퍼의 이름이 포함된 **오퍼 라이브러리** API에 대한 GET 요청을 하여 개인화된 특정 오퍼를 조회할 수 있습니다.
 
 **API 형식**
 
@@ -45,7 +45,7 @@ ht-degree: 12%
 GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PERSONALIZED_OFFER}&{QUERY_PARAMS}
 ```
 
-| 매개변수 | 설명 | 예 |
+| 매개 변수 | 설명 | 예 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 저장소 API의 끝점 경로입니다. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | 개인화된 오퍼가 있는 컨테이너입니다. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |

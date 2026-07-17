@@ -432,9 +432,9 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 * **병합 정책 확인**: 대상자에 대해 구성된 병합 정책이 다른 소스의 프로필 데이터를 조합하는 데 필요한 동작과 일치하는지 확인하십시오.  [!DNL Adobe Experience Platform][&#128279;](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=ko){target="_blank"}의 병합 정책에 대해 자세히 알아보세요.
 
 * **세그먼트 정의 검토**: 세그먼트 정의가 올바르게 구성되었는지 확인하고 모든 예상 자격 조건을 포함하십시오. [대상자 빌드](../audience/creating-a-segment-definition.md)에 대해 자세히 알아보세요. 다음 사항에 특별히 주의하십시오.
-   * 이벤트 타임스탬프를 기반으로 프로필을 제외할 수 있는 시간 기반 조건
-   * 최근에 업데이트된 데이터에 의존하는 속성 자격
-   * 스트리밍과 일괄 처리 평가 방법
+  * 이벤트 타임스탬프를 기반으로 프로필을 제외할 수 있는 시간 기반 조건
+  * 최근에 업데이트된 데이터에 의존하는 속성 자격
+  * 스트리밍과 일괄 처리 평가 방법
 
 * **네임스페이스 구성 유효성 검사**: **대상자 읽기** 활동에서 선택한 네임스페이스가 대상자의 프로필에서 사용하는 기본 ID와 일치하는지 확인하십시오. 선택한 네임스페이스가 없는 프로필은 여정에 들어가지 않습니다. [ID 네임스페이스](../event/about-creating.md#select-the-namespace)에 대해 자세히 알아보세요.
 

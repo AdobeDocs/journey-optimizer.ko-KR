@@ -99,9 +99,9 @@ Adobe Analytics 또는 Adobe Experience Platform Web SDK에서 가져온 데이�
 
    * 콘텐츠: AA 이벤트를 사용하도록 내 환경을 활성화하십시오.
 
-      * 조직 ID: &quot;XXX@AdobeOrg&quot;
+     * 조직 ID: &quot;XXX@AdobeOrg&quot;
 
-      * 데이터 소스 ID: &quot;ID: xxxxx&quot;
+     * 데이터 소스 ID: &quot;ID: xxxxx&quot;
 
 1. 환경이 준비되었다는 확인이 있으면 여정에서 Adobe Analytics 데이터를 사용할 수 있습니다.
 

@@ -6,7 +6,7 @@ description: 사용자 정의 액션을 사용하여 Journey Optimizer 여정에
 redpen-status: CREATED_||_2025-08-11_21-17-09
 exl-id: a8d34150-32f1-4c58-8728-ba73b7e90ec4
 source-git-commit: a0ea5aef7616520bbc2792ba33e85ff72724a28e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 100%
 

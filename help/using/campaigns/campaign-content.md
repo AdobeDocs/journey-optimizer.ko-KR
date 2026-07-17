@@ -18,7 +18,7 @@ subfeature_v2:
 source-git-commit: 0c30d994a1ba0b4b5ef3ee1c34d836ce7887cc19
 workflow-type: tm+mt
 source-wordcount: 217
-ht-degree: 14%
+ht-degree: 22%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 14%
 콘텐츠가 정의되면 **[!UICONTROL 콘텐츠 시뮬레이션]** 버튼을 사용하여 콘텐츠를 미리 보고 테스트하십시오. 다음 중 하나의 시뮬레이션 방법을 사용할 수 있습니다.
 
 * 샘플 입력 데이터 또는 AI 자동 생성을 사용하여 콘텐츠 변형을 테스트하려면 **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭하십시오.
-* **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭한 다음 드롭다운에서 **[!UICONTROL 콘텐츠 시뮬레이션(AEP 프로필)]**&#x200B;을 선택하여 테스트 프로필로 미리 봅니다.
+* **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭한 후 드롭다운에서 **[!UICONTROL 콘텐츠 시뮬레이션(AEP 프로필)]**&#x200B;을 선택하여 테스트 프로필로 미리 봅니다.
 
 [콘텐츠 미리보기 및 테스트 방법 알아보기](../content-management/preview-test.md)
 

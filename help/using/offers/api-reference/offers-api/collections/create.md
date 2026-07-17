@@ -53,7 +53,7 @@ ht-degree: 22%
 POST /{ENDPOINT_PATH}/offer-collections
 ```
 
-| 매개변수 | 설명 | 예 |
+| 매개 변수 | 설명 | 예 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 지속성 API의 끝점 경로입니다. | `https://platform.adobe.io/data/core/dps/` |
 

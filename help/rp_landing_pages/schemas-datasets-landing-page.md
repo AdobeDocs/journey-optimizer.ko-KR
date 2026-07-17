@@ -6,7 +6,7 @@ description: 관계형 스키마 및 데이터 세트 관리
 redpen-status: CREATED_||_2025-08-11_20-23-42
 exl-id: 17c64a34-d571-46d0-a144-d4b746118c96
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer에서 관계형 스키마 및 데이터 세트를 관리
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 관계형 스키마 및 데이터 세트 시작
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 스키마를 만들고, 데이터 세트를 구성
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 수동 관계형 스키마 설정
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 스키마를 만들고, 데이터 세트를 구성
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 DDL 파일을 사용하여 관계형 스키마 생성
 
@@ -50,7 +50,7 @@ DDL 파일 업로드, 테이블 연결, 오케스트레이션된 캠페인 관�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Adobe Journey Optimizer 캠페인에 대한 데이터 수집
 

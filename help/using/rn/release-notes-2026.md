@@ -16,8 +16,8 @@ subfeature_v2:
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
-source-wordcount: 7779
-ht-degree: 100%
+source-wordcount: 7797
+ht-degree: 99%
 
 ---
 
@@ -271,20 +271,20 @@ The following orchestrated campaign capability is expected in the upcoming days 
 
   +++ 다음 필드가 캡처되어 대상자를 빌드하고 WhatsApp 참여를 분석하는 데 사용할 수 있습니다
 
-   * **`messageType`** - WhatsApp 메시지 유형(예: `templateBased`, `response`)
-   * **`inboundMessage`** - 인바운드 답장 내용(예: `stop`, `start`, `subscribe`)
-   * **`inboundNumber`** - 인바운드 메시지 수신 시 보낸 사람 ID
-   * **`channelType`** - 채널 카테고리(`Utility`, `Marketing` 또는 `Promotional`)
-   * **`profileNumber`** - 인바운드 메시지를 받은 전화 번호
-   * **`origTimestamp`** - Meta/WhatsApp의 기존 타임스탬프
-   * **`status`** - 표준화된 공급자 피드백(`sent`, `delivered`, `bounce`, `error`, `delay`, `duplicate`, `denylist`, `exclude` 또는 `unknown`) 및 원시 공급자 상태 메시지를 포함한 게재 상태
-   * **`reactionEvent`** - 사용자 응답 내용: 반응을 위한 이모지 또는 특정 메시지에 대한 답장을 위한 메시지 텍스트
-   * **`reactionMessageID`** - 응답 대상인 원본 메시지의 ID
-   * **`reactionActionName`** - 응답 액션 유형(`react`, `unreact` 또는 `reply`)
-   * **`interactiveSelectedTitle`** - WhatsApp 대화형 메시지에서 사용자가 선택한 제목
-   * **`interactiveType`** - 대화형 메시지 유형(`list reply`, `button reply` 또는 `button`)
-   * **`interactiveSelectedDescription`** - 선택한 WhatsApp 대화형 옵션에 대한 설명
-   * **`interactiveSelectedID`** - WhatsApp에서 선택한 옵션의 ID
+  * **`messageType`** - WhatsApp 메시지 유형(예: `templateBased`, `response`)
+  * **`inboundMessage`** - 인바운드 답장 내용(예: `stop`, `start`, `subscribe`)
+  * **`inboundNumber`** - 인바운드 메시지 수신 시 보낸 사람 ID
+  * **`channelType`** - 채널 카테고리(`Utility`, `Marketing` 또는 `Promotional`)
+  * **`profileNumber`** - 인바운드 메시지를 받은 전화 번호
+  * **`origTimestamp`** - Meta/WhatsApp의 기존 타임스탬프
+  * **`status`** - 표준화된 공급자 피드백(`sent`, `delivered`, `bounce`, `error`, `delay`, `duplicate`, `denylist`, `exclude` 또는 `unknown`) 및 원시 공급자 상태 메시지를 포함한 게재 상태
+  * **`reactionEvent`** - 사용자 응답 내용: 반응을 위한 이모지 또는 특정 메시지에 대한 답장을 위한 메시지 텍스트
+  * **`reactionMessageID`** - 응답 대상인 원본 메시지의 ID
+  * **`reactionActionName`** - 응답 액션 유형(`react`, `unreact` 또는 `reply`)
+  * **`interactiveSelectedTitle`** - WhatsApp 대화형 메시지에서 사용자가 선택한 제목
+  * **`interactiveType`** - 대화형 메시지 유형(`list reply`, `button reply` 또는 `button`)
+  * **`interactiveSelectedDescription`** - 선택한 WhatsApp 대화형 옵션에 대한 설명
+  * **`interactiveSelectedID`** - WhatsApp에서 선택한 옵션의 ID
 
   +++
 
@@ -345,7 +345,7 @@ The following orchestrated campaign capability is expected in the upcoming days 
 +++
 -->
 
-### 사용성 개선 {#may-26-usability}
+### 사용성 개선 사항 {#may-26-usability}
 
 2026년 5월에는 다음과 같은 사용성 개선 사항도 릴리스되었습니다.
 
@@ -511,7 +511,7 @@ The following orchestrated campaign capability is expected in the upcoming days 
 <td>
 <p>Adobe Journey Optimizer의 <b>Adobe Express 통합</b>을 사용하면 콘텐츠 제작 시 Adobe Express의 편집 도구를 직접 사용하여 에셋의 크기를 조정하고 배경을 제거하고 자르고 JPEG 또는 PNG로 변환할 수 있습니다.
 </p>
-<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
+<p>이전에 제한 공급 상태로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 공급).</p>
 <p><img src="assets/do-not-localize/express_resize.gif"></p>
 <p>자세한 내용은 <a href="../integrations/express.md">세부 설명서</a>를 참조하십시오.</p>
 <p>가용성 일자: 2026년 4월 23일</p>
@@ -567,7 +567,7 @@ The following orchestrated campaign capability is expected in the upcoming days 
 <tbody>
 <tr>
 <td>
-<p>새로운 <strong>최적화</strong> 노드를 사용하여 A/B 테스트 또는 다중 암 밴딧 실험을 실행하고 비즈니스 중심 KPI를 달성하는 최적의 경로를 결정합니다. 이 도구를 사용하면 고객에게 가장 효과적으로 도달할 수 있도록 커뮤니케이션, 순서 및 타이밍을 테스트, 변경 및 맞춤 설정할 수 있습니다.
+<p>새로운 <strong>최적화</strong> 노드를 사용하여 A/B 테스트 또는 멀티암 밴딧 실험을 실행하여 비즈니스 중심 KPI를 충족하는 최적의 경로를 결정합니다. 이 도구를 사용하면 커뮤니케이션, 시퀀스 및 타이밍을 테스트하고, 다양화하고, 사용자 정의하여 고객에게 가장 효과적으로 다가갈 수 있습니다.
 </p>
 <p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
 <p>이번 일반 출시에는 <strong>실험 유형</strong> 선택(A/B 또는 멀티암 밴딧) 및 단일 여정에 대한 <strong>성과 극대화</strong> 기능이 도입되었습니다.</p>
@@ -994,9 +994,9 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 
 * **AJO 보조 수신자 피드백 이벤트 데이터 세트 이름 변경** - `AJO Email BCC Feedback Event` 데이터 세트의 이름이 `AJO Secondary Recipient Feedback Event` 데이터 세트로 바뀌었습니다. 영향은 상황에 따라 다릅니다.
 
-   * **기존 사용자**: 표시 이름만 업데이트됩니다. 기본 테이블 이름은 변경되지 않습니다.
-   * **신규 사용자 및 샌드박스**: 표시 이름과 테이블 이름에 모두 새로운 이름이 반영됩니다.
-   * **새 샌드박스를 보유한 기존 사용자**: 표시 이름과 테이블 이름이 모두 새로운 이름으로 업데이트됩니다.
+  * **기존 사용자**: 표시 이름만 업데이트됩니다. 기본 테이블 이름은 변경되지 않습니다.
+  * **신규 사용자 및 샌드박스**: 표시 이름과 테이블 이름에 모두 새로운 이름이 반영됩니다.
+  * **새 샌드박스를 보유한 기존 사용자**: 표시 이름과 테이블 이름이 모두 새로운 이름으로 업데이트됩니다.
 
   >[!NOTE]
   >
@@ -1389,7 +1389,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 <tbody>
 <tr>
 <td>
-<p>이제 오케스트레이션 캠페인에서 다이렉트 메일 채널을 사용할 수 있습니다. <strong>다이렉트 메일 활동</strong>은 오케스트레이션된 캠페인 내에서 다이렉트 메일 전송 과정을 원활하게 하며 일회성 메시지와 되풀이 메시지에 모두 적용됩니다. 이는 다이렉트 메일 제공업체에 필요한 <strong>추출 파일</strong> 생성 프로세스를 자동화하는 역할을 합니다. 채널 활동을 오케스트레이션된 캠페인 캔버스에 결합하여 고객 행동 및 데이터에 따라 액션을 트리거할 수 있는 크로스 채널 캠페인을 만들 수 있습니다.</p>
+<p>이제 오케스트레이션 캠페인에서 다이렉트 메일 채널을 사용할 수 있습니다. <strong>다이렉트 메일 활동</strong>은 오케스트레이션된 캠페인 내에서 다이렉트 메일 전송 과정을 원활하게 하며 일회성 메시지와 되풀이 메시지에 모두 적용됩니다. 이는 다이렉트 메일 제공업체에 필요한 <strong>추출 파일</strong> 생성 프로세스를 자동화하는 역할을 합니다. 채널 활동을 오케스트레이션된 캠페인 캔버스에 결합하여 고객 행동 및 데이터에 기반한 액션을 트리거할 수 있는 크로스 채널 캠페인을 만들 수 있습니다.</p>
 <p><img src="assets/do-not-localize/dm-oc.gif"/></p>
 <p>자세한 내용은 <a href="../orchestrated/activities/channels.md#channel">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2026년 1월 28일</p>
@@ -1475,9 +1475,9 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 
 
 * **여정 경고** - 여정에 대해 새로운 <strong>사전 구성 경고</strong>를 사용할 수 있습니다.
-   * <strong>프로필 삭제율 초과</strong> - 지난 5분 동안 입장한 프로필에 대한 프로필 삭제율이 임계값 초과
-   * <strong>사용자 정의 액션 오류율 초과</strong> - 지난 5분 동안 성공적인 HTTP 호출에 대한 사용자 정의 액션 오류율이 임계값 초과
-   * <strong>프로필 오류율 초과</strong> -지난 5분 동안 입장한 프로필 대비 오류가 발생한 프로필 비율이 임계값 초과
+  * <strong>프로필 삭제율 초과</strong> - 지난 5분 동안 입장한 프로필에 대한 프로필 삭제율이 임계값 초과
+  * <strong>사용자 정의 액션 오류율 초과</strong> - 지난 5분 동안 성공적인 HTTP 호출에 대한 사용자 정의 액션 오류율이 임계값 초과
+  * <strong>프로필 오류율 초과</strong> -지난 5분 동안 입장한 프로필 대비 오류가 발생한 프로필 비율이 임계값 초과
 
   자세한 내용은 [세부 설명서](../reports/alerts.md)를 참조하십시오.
 

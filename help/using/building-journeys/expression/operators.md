@@ -48,12 +48,12 @@ not (@event{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 ## 중요 정보{#important-notes}
 
 * 곱셈(`*`)을 사용할 때는 두 연산 필드의 형식이 같아야 합니다(정수 또는 십진수). 예 :
-   * 다음 예제는 올바릅니다. `3.0 * 4.0`
-   * `3 * 4.0`에 오류가 발생합니다.
+  * 다음 예제는 올바릅니다. `3.0 * 4.0`
+  * `3 * 4.0`에 오류가 발생합니다.
 
 * `+` 연산자를 사용하는 경우 식을 괄호로 묶어야 합니다. 예:
-   * `toDateTimeOnly(toDateTime((currentTimeInMillis()) + 1))`이(가) 올바릅니다.
-   * `toDateTimeOnly(toDateTime(currentTimeInMillis() + 1))`에 오류가 발생합니다.
+  * `toDateTimeOnly(toDateTime((currentTimeInMillis()) + 1))`이(가) 올바릅니다.
+  * `toDateTimeOnly(toDateTime(currentTimeInMillis() + 1))`에 오류가 발생합니다.
 
 ## 논리적  {#logical}
 

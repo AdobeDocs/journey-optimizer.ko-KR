@@ -26,7 +26,7 @@ subfeature_v2:
   - id: c8d5f2ce-ba44-43e9-a2bf-94a3d7d85ec3
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
 source-git-commit: 4e89993a998268ae2810c949d0669bf6dc458dd6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 278
 ht-degree: 100%
 
@@ -67,7 +67,7 @@ Adobe Experience Platform 및 Journey Optimizer는 개인 정보 관리를 확�
 </td>
 <td>
 <a href="audit-logs.md">
-<img alt="저빈도" src="../assets/do-not-localize/privacy-audit.jpeg">
+<img alt="드물게" src="../assets/do-not-localize/privacy-audit.jpeg">
 </a>
 <div>
 <a href="audit-logs.md"><strong>사용자 작업 감사</strong></a>

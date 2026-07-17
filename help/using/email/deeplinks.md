@@ -88,12 +88,12 @@ SMS 콘텐츠에 딥링크를 삽입하려면 다음 구문을 사용합니다.
 1. 하위 도메인에서 iOS용 AASA 파일 및 Android용 assetLinks.json 파일을 호스팅합니다. 자세한 내용은 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} 또는 Adobe 담당자에게 문의하십시오.
 
    * AASA(iOS)의 **1&rbrace;:**
-      * 위임된 하위 도메인
-      * 앱 번들 ID
+     * 위임된 하위 도메인
+     * 앱 번들 ID
    * **Android(assetLinks.json)의 경우**:
-      * 위임된 하위 도메인
-      * 앱 번들 ID
-      * SHA-256 인증서 지문
+     * 위임된 하위 도메인
+     * 앱 번들 ID
+     * SHA-256 인증서 지문
 
 >[!IMPORTANT]
 >
@@ -322,9 +322,9 @@ URL 인코딩 쿼리 매개 변수 값입니다. 이렇게 하면 게재 및 렌
 
 * 딥링크로 증명을 만든 후 iOS 및 Android 장치(설치 및 설치되지 않은 시나리오)에서 클릭합니다.
 * 유효성 검사:
-   * 최종 이메일 또는 SMS 링크 값(호스트/경로/쿼리)
-   * OS 수준 연결(범용 링크/앱 링크를 사용하는 경우)
-   * 인앱 라우팅 결과
+  * 최종 이메일 또는 SMS 링크 값(호스트/경로/쿼리)
+  * OS 수준 연결(범용 링크/앱 링크를 사용하는 경우)
+  * 인앱 라우팅 결과
 
 +++
 

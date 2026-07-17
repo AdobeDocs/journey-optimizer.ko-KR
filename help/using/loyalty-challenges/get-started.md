@@ -17,7 +17,7 @@ subfeature_v2:
 source-git-commit: c2322ea4081f43aadf8abc8ea9791ebcc91f78bd
 workflow-type: tm+mt
 source-wordcount: 900
-ht-degree: 14%
+ht-degree: 16%
 
 ---
 
@@ -213,7 +213,7 @@ ht-degree: 14%
     </a>
     <div>
   -->
-    <a href="loyalty-admin.md"><strong>충성도 문제 구성</strong></a>
+    <a href="loyalty-admin.md"><strong>충성도 챌린지 구성</strong></a>
     </div>
     <p>
     <em>보상 공급자, 이벤트 정의 및 조직 설정을 설정합니다</em>

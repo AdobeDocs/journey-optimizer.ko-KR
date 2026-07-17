@@ -27,8 +27,8 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
-workflow-type: ht
-source-wordcount: 493
+workflow-type: tm+mt
+source-wordcount: 495
 ht-degree: 100%
 
 ---
@@ -58,15 +58,15 @@ ht-degree: 100%
 
 * 하위 도메인 보내기를 Adobe로 [완전히 위임하였다면](delegate-subdomain.md#set-up-subdomain) 아래 옵션 중 하나를 따르십시오.
 
-   * **호스팅 솔루션에서** 위임된 하위 도메인의 상위 도메인에 DMARC를 설정합니다.
-또는
-   * 호스팅 솔루션에 대한 추가 작업 없이 구성 사용자 인터페이스&#x200B;**의[!DNL Journey Optimizer]** 위임된 하위 도메인에서 DMARC를 설정합니다. [방법 알아보기](dmarc-record.md#implement-dmarc)
+  * **호스팅 솔루션에서** 위임된 하위 도메인의 상위 도메인에 DMARC를 설정합니다.
+    또는
+  * 호스팅 솔루션에 대한 추가 작업 없이 구성 사용자 인터페이스&#x200B;**의[!DNL Journey Optimizer]** 위임된 하위 도메인에서 DMARC를 설정합니다. [방법 알아보기](dmarc-record.md#implement-dmarc)
 
 * [CNAME](delegate-subdomain.md#cname-subdomain-setup)를 사용하여 하위 도메인 전송을 설정한 경우 아래 옵션 중 하나를 수행합니다.
 
-   * **호스팅 솔루션에서** 하위 도메인 또는 하위 도메인의 상위 도메인에 DMARC를 설정합니다.
-또는
-   * 구성 사용자 인터페이스&#x200B;**에서[!DNL Journey Optimizer]** 위임된 하위 도메인에 DMARC를 설정합니다. [방법 알아보기](dmarc-record.md#implement-dmarc)
+  * **호스팅 솔루션에서** 하위 도메인에서 또는 하위 도메인의 상위 도메인에서 DMARC를 설정합니다.
+    또는
+  * 구성 사용자 인터페이스&#x200B;**에서[!DNL Journey Optimizer]** 위임된 하위 도메인에 DMARC를 설정합니다. [방법 알아보기](dmarc-record.md#implement-dmarc)
 
   그러나 CNAME 설정을 사용하려면 호스팅 솔루션에 몇 가지 추가 항목이 필요합니다. 따라서 IT 부서에서 [이 섹션](dmarc-record.md#implement-dmarc)에 설명된 업데이트를 수행할 수 있게 해야 합니다.
 

@@ -29,7 +29,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 1395
 ht-degree: 100%
 
@@ -61,8 +61,8 @@ ht-degree: 100%
 
    * 여정 수준에서 다음 작업 중 하나를 수행할 수 있습니다.
 
-      * 사용자 정의 액션을 구성할 때 채널과 마케팅 액션을 사용자 정의 액션에 연결합니다. [사용자 정의 액션을 구성할 때 동의 정책을 활용하는 방법 알아보기](#consent-custom-action)
-      * 여정에 사용자 정의 액션을 추가할 때 추가로 마케팅 액션을 정의합니다. [여정에 사용자 정의 액션을 추가할 때 동의 정책을 활용하는 방법 알아보기](#consent-journey)
+     * 사용자 정의 액션을 구성할 때 채널과 마케팅 액션을 사용자 정의 액션에 연결합니다. [사용자 정의 액션을 구성할 때 동의 정책을 활용하는 방법 알아보기](#consent-custom-action)
+     * 여정에 사용자 정의 액션을 추가할 때 추가로 마케팅 액션을 정의합니다. [여정에 사용자 정의 액션을 추가할 때 동의 정책을 활용하는 방법 알아보기](#consent-journey)
 
 ## 채널 구성을 통한 동의 정책 활용 {#surface-marketing-actions}
 

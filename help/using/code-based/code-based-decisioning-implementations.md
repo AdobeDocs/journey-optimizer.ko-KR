@@ -23,7 +23,7 @@ topic_v2:
 source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
 source-wordcount: 573
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -81,9 +81,9 @@ ht-degree: 6%
 
 * 요청의 **다중** 결정 정책/배치에 대해:
 
-   * `allowDuplicateDecisionItems`이(가) `false`(으)로 설정된 경우: 항목의 메시지/결정 정책/배치에 관계없이 응답의 모든 항목이 고유합니다.
+  * `allowDuplicateDecisionItems`이(가) `false`(으)로 설정된 경우: 항목의 메시지/결정 정책/배치에 관계없이 응답의 모든 항목이 고유합니다.
 
-   * `allowDuplicateDecisionItems`이(가) `true`(기본값)로 설정된 경우: 응답의 항목이 중복될 수 있습니다(여러 메시지/결정 정책/배치가 해당 요청에 대한 동일한 결정 항목에 적합한 경우).
+  * `allowDuplicateDecisionItems`이(가) `true`(기본값)로 설정된 경우: 응답의 항목이 중복될 수 있습니다(여러 메시지/결정 정책/배치가 해당 요청에 대한 동일한 결정 항목에 적합한 경우).
 
 ### 요청에 중복 제거 적용 {#deduplication-in-request}
 
@@ -154,13 +154,13 @@ curl --location 'https://edge-int.adobedc.net/ee/v1/interact?configId=2f21d344-b
 
 * `itemId-X`이(가) 결정 정책 및 배치 조합에 모두 적합한 단일 결정 항목인 경우:
 
-   * `allowDuplicateDecisionItems`이(가) `true`인 경우(기본값): 단일 응답에서 두 제안에 대해 `itemId-X`이(가) 다시 반환됩니다.
+  * `allowDuplicateDecisionItems`이(가) `true`인 경우(기본값): 단일 응답에서 두 제안에 대해 `itemId-X`이(가) 다시 반환됩니다.
 
-   * `allowDuplicateDecisionItems`이(가) `false`인 경우:
+  * `allowDuplicateDecisionItems`이(가) `false`인 경우:
 
-      * 첫 번째 제안에 대해 `itemId-X`이(가) 다시 반환됩니다.
+    * 첫 번째 제안에 대해 `itemId-X`이(가) 다시 반환됩니다.
 
-      * 두 번째 제안에 대해 대체 결정 항목(고유함) 또는 빈 결정 항목이 전달됩니다.
+    * 두 번째 제안에 대해 대체 결정 항목(고유함) 또는 빈 결정 항목이 전달됩니다.
 
 +++샘플 응답(`allowDuplicateDecisionItems` = `true`) 결정 중
 

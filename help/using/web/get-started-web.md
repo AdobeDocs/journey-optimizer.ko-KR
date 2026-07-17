@@ -24,7 +24,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
 source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 320
 ht-degree: 100%
 
@@ -65,7 +65,7 @@ ht-degree: 100%
 </td>
 <td>
 <a href="create-web.md">
-<img alt="저빈도" src="../assets/do-not-localize/web-create.jpg">
+<img alt="드물게" src="../assets/do-not-localize/web-create.jpg">
 </a>
 <div>
 <a href="create-web.md"><strong>웹 경험 만들기</strong></a>

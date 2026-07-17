@@ -21,7 +21,7 @@ topic_v2:
 source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
 source-wordcount: 896
-ht-degree: 21%
+ht-degree: 23%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 21%
 여정 또는 캠페인 콘텐츠 편집 화면 또는 개인화 편집기에서 다음 중 하나의 시뮬레이션 방법을 사용합니다.
 
 * 샘플 입력 데이터 또는 AI 자동 생성을 사용하여 콘텐츠 변형을 테스트하려면 **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭하십시오. [콘텐츠 변형을 시뮬레이션하는 방법을 알아봅니다](../test-approve/simulate-sample-input.md)
-* **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭한 다음 드롭다운에서 **[!UICONTROL 콘텐츠 시뮬레이션(AEP 프로필)]**&#x200B;을 선택하여 테스트 프로필로 미리 봅니다.
+* **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭한 후 드롭다운에서 **[!UICONTROL 콘텐츠 시뮬레이션(AEP 프로필)]**&#x200B;을 선택하여 테스트 프로필로 미리 봅니다.
 
 ![](assets/code-based-campaign-simulate.png)
 

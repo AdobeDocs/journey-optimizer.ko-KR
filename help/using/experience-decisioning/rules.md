@@ -89,9 +89,9 @@ ht-degree: 13%
 
 * 각 항목 옆에 있는 **[!UICONTROL 추가 작업]** 단추에서 다음을 수행할 수 있습니다.
 
-   * **[!UICONTROL 결정 항목]** 엔터티를 선택한 경우 규칙을 패키지에 추가하여 다른 샌드박스로 내보냅니다. [개체를 다른 샌드박스로 내보내기](../configuration/copy-objects-to-sandbox.md)하는 방법에 대해 알아봅니다.
-   * 규칙 복제
-   * 규칙을 삭제합니다.
+  * **[!UICONTROL 결정 항목]** 엔터티를 선택한 경우 규칙을 패키지에 추가하여 다른 샌드박스로 내보냅니다. [개체를 다른 샌드박스로 내보내기](../configuration/copy-objects-to-sandbox.md)하는 방법에 대해 알아봅니다.
+  * 규칙 복제
+  * 규칙을 삭제합니다.
 
 ![](assets/rules-list.png){width=100%}
 

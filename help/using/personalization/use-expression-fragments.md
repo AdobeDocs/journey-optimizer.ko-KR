@@ -56,7 +56,7 @@ ht-degree: 0%
 1. [개인화 편집기](personalization-build-expressions.md)를 열고 왼쪽 창에서 **[!UICONTROL 조각]** 단추를 선택합니다.
 
    목록에는 현재 샌드박스에서 조각으로 생성되거나 저장된 모든 표현식 조각이 표시됩니다. [조각을 만드는 방법 알아보기](../content-management/create-fragments.md)
-만든 날짜별로 정렬됩니다. 최근에 추가된 표현식 조각이 목록에 먼저 표시됩니다.
+   만든 날짜별로 정렬됩니다. 최근에 추가된 표현식 조각이 목록에 먼저 표시됩니다.
 
    ![](assets/expression-fragments-pane.png)
 

@@ -100,17 +100,17 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_scheduled_transactional"
 >title="캠페인"
->abstract="단일 또는 반복 아웃바운드 트랜잭션 액션을 게재합니다. 지원되는 채널: 이메일, SMS, 푸시 알림."
+>abstract="단일 또는 반복 아웃바운드 트랜잭션 액션을 게재합니다. 지원 채널: 이메일, SMS, 푸시 알림"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_api_marketing"
 >title="캠페인"
->abstract="타겟팅된 대상자에게 개인화된 마케팅 커뮤니케이션을 게재합니다. 지원되는 채널: 이메일, SMS, 푸시 알림."
+>abstract="타겟팅된 대상자에게 개인화된 마케팅 커뮤니케이션을 게재합니다. 지원 채널: 이메일, SMS, 푸시 알림"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_api_transactional"
 >title="캠페인"
->abstract="개인 프로필 또는 프로필 세트에 대한 트랜잭션 커뮤니케이션을 게재합니다. 지원되는 채널: 이메일, SMS, 푸시 알림."
+>abstract="개인 프로필 또는 프로필 세트에 대한 트랜잭션 커뮤니케이션을 게재합니다. 지원 채널: 이메일, SMS, 푸시 알림"
 
 Adobe Journey Optimizer를 사용하면 여러 채널에서 특정 대상자에게 타겟팅된 일회성 콘텐츠를 제공할 수 있습니다. 캠페인을 활용하면 여러 마케팅 활동을 동시에 조정하여 적절한 시기에 적절한 메시지를 대상자에게 전달할 수 있습니다.
 
@@ -210,11 +210,11 @@ Adobe Journey Optimizer를 사용하면 여러 채널에서 특정 대상자에�
 
   +++캠페인 권한을 할당하는 방법
 
-   1. [!DNL Permissions] 제품의 **[!UICONTROL 역할]** 탭으로 이동하여 기본 제공 캠페인 관련 **[!UICONTROL 역할]** 중 하나를 선택합니다.
+  1. [!DNL Permissions] 제품의 **[!UICONTROL 역할]** 탭으로 이동하여 기본 제공 캠페인 관련 **[!UICONTROL 역할]** 중 하나를 선택합니다.
 
-   1. **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
+  1. **[!UICONTROL 사용자]** 탭에서 **[!UICONTROL 사용자 추가]**&#x200B;를 클릭합니다.
 
-   1. 사용자 이름 또는 이메일 주소를 입력하거나 목록에서 사용자를 선택하고 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+  1. 사용자 이름 또는 이메일 주소를 입력하거나 목록에서 사용자를 선택하고 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
   이전에 사용자를 생성하지 않은 경우 [사용자 설명서 추가](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/ui/users){target="_blank"}를 참조하십시오.
 

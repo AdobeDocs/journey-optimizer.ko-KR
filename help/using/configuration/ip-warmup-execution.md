@@ -231,11 +231,11 @@ IP 웜업 계획의 단계를 정의한 후에는 각 단계 내에서 개별 �
 
 * 단계의 첫 번째 실행을 활성화하는 경우:
 
-   * 다음 명명 규칙을 사용하여 제외된 캠페인 대상에 대해 [대상자](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ko){target="_blank"}이(가) 만들어집니다. `<warmupName>-Phase<phaseNo>-Audience Exclusion`.
+  * 다음 명명 규칙을 사용하여 제외된 캠페인 대상에 대해 [대상자](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ko){target="_blank"}이(가) 만들어집니다. `<warmupName>-Phase<phaseNo>-Audience Exclusion`.
 
-   * 제외된 도메인 그룹(있는 경우)에 대해 다음 명명 규칙을 사용하여 대상을 만듭니다. `<warmupName>-Phase<phaseNo>-Domain Exclusion`.
+  * 제외된 도메인 그룹(있는 경우)에 대해 다음 명명 규칙을 사용하여 대상을 만듭니다. `<warmupName>-Phase<phaseNo>-Domain Exclusion`.
 
-   * 다음 명명 규칙을 사용하여 제외된 여정 대상(있는 경우)에 대해 다른 대상을 만듭니다. `<warmupName>-Phase<phaseNo>-Journey Audience Exclusion`.
+  * 다음 명명 규칙을 사용하여 제외된 여정 대상(있는 경우)에 대해 다른 대상을 만듭니다. `<warmupName>-Phase<phaseNo>-Journey Audience Exclusion`.
 
   >[!NOTE]
   >
@@ -245,23 +245,23 @@ IP 웜업 계획의 단계를 정의한 후에는 각 단계 내에서 개별 �
 
 * 모든 실행을 활성화할 때:
 
-   * 다음 명명 규칙을 사용하여 마지막 참여 필터에 대해 다른 대상을 만듭니다. `<warmupName>-Phase<phaseNo>_Run<runNo>-Engagement Filter`.
+  * 다음 명명 규칙을 사용하여 마지막 참여 필터에 대해 다른 대상을 만듭니다. `<warmupName>-Phase<phaseNo>_Run<runNo>-Engagement Filter`.
 
-     >[!NOTE]
-     >
-     >대상자는 준비 계획이 완료된 것으로 표시된 후 정리됩니다.
-     >
-     >후속 단계에 대한 마지막 참여 필터가 변경되지 않은 경우 시스템에서 새 대상을 만들지 않습니다.
+    >[!NOTE]
+    >
+    >대상자는 준비 계획이 완료된 것으로 표시된 후 정리됩니다.
+    >
+    >후속 단계에 대한 마지막 참여 필터가 변경되지 않은 경우 시스템에서 새 대상을 만들지 않습니다.
 
-   * 다음 명명 규칙을 사용하여 캠페인이 전송될 대상에 해당하는 [대상 구성](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=ko){target="_blank"}을 만듭니다. `<warmupName>-Phase<phaseNo>-Run<runNo>`.
+  * 다음 명명 규칙을 사용하여 캠페인이 전송될 대상에 해당하는 [대상 구성](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=ko){target="_blank"}을 만듭니다. `<warmupName>-Phase<phaseNo>-Run<runNo>`.
 
-     >[!NOTE]
-     >
-     >실행 시마다 새 대상자 작성이 생성됩니다. 10개로 제한된 경우, 게시된 대상자 구성을 사용하여 여러 캠페인, 여정 및 IP 준비 계획을 동시에 실행하는 사용자는 병렬 작업을 위해 이 한도 내에서 계획해야 합니다.
-     >
-     >다음 반복이 활성화될 때 대상 구성(및 출력 대상)이 정리됩니다.
+    >[!NOTE]
+    >
+    >실행 시마다 새 대상자 작성이 생성됩니다. 10개로 제한된 경우, 게시된 대상자 구성을 사용하여 여러 캠페인, 여정 및 IP 준비 계획을 동시에 실행하는 사용자는 병렬 작업을 위해 이 한도 내에서 계획해야 합니다.
+    >
+    >다음 반복이 활성화될 때 대상 구성(및 출력 대상)이 정리됩니다.
 
-   * `IP Warmup Audience-<warmupName>-Phase<phaseNo>-Run<runNo>` 명명 규칙을 사용하여 출력 대상을 만듭니다.
+  * `IP Warmup Audience-<warmupName>-Phase<phaseNo>-Run<runNo>` 명명 규칙을 사용하여 출력 대상을 만듭니다.
 
 <!--How do you know when segmentation is complete? Is there a way to prevent user from scheduling less than 12 hours before the segmentation job?-->
 

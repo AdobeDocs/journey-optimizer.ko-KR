@@ -26,7 +26,7 @@ subfeature_v2:
 source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
 source-wordcount: 1262
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -108,7 +108,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->푸시 알림을 사용하는 Experience Decisioning에는 모바일 SDK의 특정 버전이 필요합니다. 이 기능을 구현하기 전에 [릴리스 정보](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"}를 확인하여 필요한 버전을 식별하고 그에 따라 업그레이드했는지 확인하십시오. [이 섹션](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"}에서 사용 가능한 플랫폼에 대한 모든 SDK 버전을 볼 수도 있습니다.
+>푸시 알림에서 경험 결정을 사용하려면 특정 버전의 Mobile SDK가 필요합니다. 이 기능을 구현하기 전에 [릴리스 정보](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"}에서 필요한 버전을 확인하고 그에 따라 업그레이드했는지 확인하세요. 또한 [이 섹션](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"}에서 플랫폼에 사용 가능한 모든 SDK 버전을 확인할 수 있습니다.
 
 >[!TAB DM]
 

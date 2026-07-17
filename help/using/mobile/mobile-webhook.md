@@ -14,12 +14,12 @@ subfeature_v2:
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
 source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 2835
+source-wordcount: 2888
 ht-degree: 3%
 
 ---
 
-# 웹후크 만들기 {#webhook}
+# Webhook 만들기 {#webhook}
 
 >[!BEGINSHADEBOX]
 
@@ -36,7 +36,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_webhook_flow_type"
 >title="웹후크 유형 선택"
->abstract="웹후크를 설정할 때 동의 응답과 사용자 환경 설정을 캡처하려면 **인바운드**&#x200B;를 선택하고, 보고 및 분석을 위해 게재 및 참여 이벤트를 추적하려면 **[!UICONTROL 피드백]**&#x200B;을 선택합니다."
+>abstract="Webhook을 설정할 때, 동의 응답 및 사용자 선호도를 수집하려면 **인바운드**&#x200B;를 선택하거나, 보고 및 분석을 위한 게재 및 참여 이벤트를 추적하려면 **[!UICONTROL 피드백]**&#x200B;을 선택하십시오."
 
 >[!BEGINSHADEBOX]
 

@@ -169,13 +169,13 @@ ht-degree: 21%
 
    * Android의 경우
 
-      * [앱 컨텍스트에 대한 딥링크 만들기](https://developer.android.com/training/app-links/deep-linking)
+     * [앱 컨텍스트에 대한 딥링크 만들기](https://developer.android.com/training/app-links/deep-linking)
 
    * iOS의 경우
 
-      * [앱에 대한 사용자 지정 URL 체계 정의](https://developer.apple.com/documentation/xcode/defining-a-custom-url-scheme-for-your-app)
+     * [앱에 대한 사용자 지정 URL 체계 정의](https://developer.apple.com/documentation/xcode/defining-a-custom-url-scheme-for-your-app)
 
-      * [앱에서 범용 링크 지원](https://developer.apple.com/documentation/xcode/supporting-universal-links-in-your-app)
+     * [앱에서 범용 링크 지원](https://developer.apple.com/documentation/xcode/supporting-universal-links-in-your-app)
 
    +++
 

@@ -101,9 +101,9 @@ ht-degree: 8%
 
 * [!DNL Adobe Campaign] 및 [!DNL Adobe Journey Optimizer]&#x200B;(으)로 작업하는 경우 다음 섹션을 참조하십시오.
 
-   * [[!DNL Adobe Journey Optimizer] 및 [!DNL Adobe Campaign] v7/v8](../action/acc-action.md)
-   * [[!DNL Adobe Journey Optimizer] 및 [!DNL Adobe Campaign] 표준](../action/acs-action.md)
-   * [[!DNL Adobe Journey Optimizer] 및 [!DNL Adobe Marketo Engage]](../action/marketo-engage.md)
+  * [[!DNL Adobe Journey Optimizer] 및 [!DNL Adobe Campaign] v7/v8](../action/acc-action.md)
+  * [[!DNL Adobe Journey Optimizer] 및 [!DNL Adobe Campaign] 표준](../action/acs-action.md)
+  * [[!DNL Adobe Journey Optimizer] 및 [!DNL Adobe Marketo Engage]](../action/marketo-engage.md)
 
 ## 모범 사례 {#best-practices}
 

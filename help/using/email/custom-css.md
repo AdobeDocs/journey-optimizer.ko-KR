@@ -270,16 +270,16 @@ body {
 
 * 콘텐츠에 적용된 [테마](apply-email-themes.md)를 포함한 다른 CSS 규칙으로 CSS가 재정의되지 않았는지 확인하십시오.
 
-   * 브라우저 개발자 도구를 사용하여 콘텐츠를 검사하고 CSS가 올바른 선택기를 타깃팅하는지 확인하십시오.
+  * 브라우저 개발자 도구를 사용하여 콘텐츠를 검사하고 CSS가 올바른 선택기를 타깃팅하는지 확인하십시오.
 
-   * 선언이 우선하도록 선언에 `!important`을(를) 추가해 보십시오.
+  * 선언이 우선하도록 선언에 `!important`을(를) 추가해 보십시오.
 
-     +++ 예:
+    +++ 예:
 
-     ```css
-     .acr-Form {
-       background: red !important;
-     }
-     ```
+    ```css
+    .acr-Form {
+      background: red !important;
+    }
+    ```
 
-     +++
+    +++

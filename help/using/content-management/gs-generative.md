@@ -50,7 +50,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_context"
 >title="브랜드 에셋 업로드"
->abstract="브랜드 자산 업로드 메뉴를 이용하면 Journey Optimizer의 AI 어시스턴트에 추가 컨텍스트를 제공할 수 있는 콘텐츠가 포함된 브랜드 자산을 추가하거나 이전에 업로드한 자산을 선택할 수 있습니다. 이 옵션을 사용하면 AI 어시스턴트가 필요한 모든 자료에 액세스하여 기능을 개선하고 보다 연관성 있는 답변을 제공할 수 있습니다."
+>abstract="브랜드 에셋 업로드 메뉴를 통해 Journey Optimizer의 AI 어시스턴트에 추가 컨텍스트를 제공할 수 있는 콘텐츠가 포함된 브랜드 에셋을 추가하거나, 이전에 업로드된 에셋을 선택할 수 있습니다. 이 옵션을 사용하면 AI 어시스턴트가 필요한 모든 자료에 액세스하여 기능을 개선하고 보다 연관성 있는 답변을 제공할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_start"

@@ -621,8 +621,8 @@ serializeList(
 * `currentEventField`: 반복하는 이벤트 배열의 각 항목을 나타냅니다.
 * `.SKU`: SKU 값만 포함하도록 목록을 빌드합니다.
 * `serializeList(list, delimiter, addQuotes)`: 목록을 문자열에 조인
-   * `","`: 구분 기호로 쉼표 사용
-   * `true`: 각 문자열 요소 주위에 따옴표 추가
+  * `","`: 구분 기호로 쉼표 사용
+  * `true`: 각 문자열 요소 주위에 따옴표 추가
 * 결과: `"SKU-1,SKU-3"`(쿼리 매개 변수에 적합)
 
 자세히 알아보기:

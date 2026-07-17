@@ -86,9 +86,9 @@ WhatsApp 메시지를 보내기 전에 Adobe Journey Optimizer 환경을 구성�
 1. 전화 번호 설정이 자동으로 채워집니다.
 
    * **품질 평가**: 지난 24시간 동안 보낸 메시지에 대한 고객 피드백을 반영합니다.
-      * 녹색: 고품질
-      * 노란색: Medium 품질
-      * 빨강: 낮은 품질
+     * 녹색: 고품질
+     * 노란색: Medium 품질
+     * 빨강: 낮은 품질
 
      [품질 평가](https://www.facebook.com/business/help/766346674749731#)에 대해 자세히 알아보기
 
@@ -98,7 +98,7 @@ WhatsApp 메시지를 보내기 전에 Adobe Journey Optimizer 환경을 구성�
 
 API 자격 증명을 만들고 구성한 후에는 WhatsApp 메시지에 대한 웹후크를 만들어야 합니다. [자세히 알아보기](#whatsapp-webhook)
 
-## 웹후크 만들기 {#WhatsApp-webhook}
+## Webhook 만들기 {#WhatsApp-webhook}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_inbound_keyword_category"

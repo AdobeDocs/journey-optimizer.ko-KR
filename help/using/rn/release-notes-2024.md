@@ -16,8 +16,8 @@ subfeature_v2:
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 6909
-ht-degree: 99%
+source-wordcount: 6911
+ht-degree: 98%
 
 ---
 
@@ -287,9 +287,9 @@ ht-degree: 99%
 
 * Infobip 및 Sinch를 통한 SMS 메시지 기능 강화를 위해 다음 같은 개선 사항이 도입되었습니다.
 
-   * SMS 캠페인 및 여정에 대한 고유 키워드를 정의하고 관리하여 보다 개인화되고 효율적인 커뮤니케이션을 가능하게 할 수 있습니다.
+  * SMS 캠페인 및 여정에 대한 고유 키워드를 정의하고 관리하여 보다 개인화되고 효율적인 커뮤니케이션을 가능하게 할 수 있습니다.
 
-   * 키워드가 인식되지 않을 때 사용할 기본 SMS 메시지를 만들고 전송할 수 있습니다.
+  * 키워드가 인식되지 않을 때 사용할 기본 SMS 메시지를 만들고 전송할 수 있습니다.
 
   [Infoip](../mobile/mobile-configuration-infobip.md) 및 [Sinch](../mobile/mobile-configuration-sinch.md)에 대한 SMS 구성 설명서에서 이러한 개선 사항에 대해 자세히 알아보십시오.
 
@@ -311,8 +311,8 @@ ht-degree: 99%
 
 * **데이터 세트 TTL(Time-to-Live)** - 2025년 2월부터 새 샌드박스 및 새 조직의 Journey Optimizer 시스템 생성 데이터 세트에 대해 다음과 같은 TTL(Time-to-Live) 가드레일이 롤아웃됩니다.
 
-   * 프로필 스토어의 데이터에 대해 90일
-   * 데이터 레이크의 데이터에 대해 13개월
+  * 프로필 스토어의 데이터에 대해 90일
+  * 데이터 레이크의 데이터에 대해 13개월
 
   이 변경 사항은 차후 기존 고객 샌드박스에 대해서도 롤아웃됩니다. [자세히 알아보기](../data/datasets-ttl.md#ttl-guardrail)
 
@@ -639,7 +639,7 @@ ht-degree: 99%
 
 **여정**
 
-* 이제 **조건** 활동에서 **[!UICONTROL 시간 조건]**&#x200B;은 기본적으로 00:00부터 12:00까지 시간 단위로 설정됩니다. [자세히 보기](../building-journeys/conditions.md#time_condition)
+* **조건** 활동에서 기본적으로 **[!UICONTROL 시간 조건]**&#x200B;이(가) 00:00부터 12:00까지 시간 단위로 설정됩니다. [자세히 보기](../building-journeys/conditions.md#time_condition)
 * 이제 여정을 작성할 때에도 경고가 다른 경고와 마찬가지로 **경고** 버튼에서 표시되어 일관된 사용자 경험을 제공합니다. [자세히 보기](../building-journeys/troubleshooting.md#activity-errors)
 * 여정 도구 모음의 확대/축소 옵션이 개선되었습니다. 이제 확대/축소 비율이 표시되며 확대/축소 값을 보다 쉽게 재설정할 수 있습니다.
 
@@ -653,9 +653,9 @@ ht-degree: 99%
 
 * 새로운 보고 경험에 다음과 같이 새로운 사용 사례가 추가되었습니다.
 
-   * 보고서 내에서 직접 사용자 정의한 계산된 지표를 만듭니다.
-   * 보고 데이터를 사용하여 대상자를 만듭니다.
-   * [탐색적 분석] 도구를 사용하여 선택한 **[!UICONTROL 차원]** 및 **[!UICONTROL 지표]**&#x200B;로 손쉽게 테이블과 시각화 자료를 만듭니다.
+  * 보고서 내에서 직접 사용자 정의한 계산된 지표를 만듭니다.
+  * 보고 데이터를 사용하여 대상자를 만듭니다.
+  * [탐색적 분석] 도구를 사용하여 선택한 **[!UICONTROL 차원]** 및 **[!UICONTROL 지표]**&#x200B;로 손쉽게 테이블과 시각화 자료를 만듭니다.
 
   자세한 내용은 [세부 설명서](../reports/report-cja-manage.md)를 참조하십시오.
 

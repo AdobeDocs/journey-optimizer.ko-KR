@@ -79,7 +79,8 @@ ht-degree: 4%
 
 * **[!DNL Journey Optimizer] 보고서에서 보낸 메트릭에 다시 시도 메트릭도 포함됩니다.**
 
-  **[!UICONTROL 다시 시도]**&#x200B;은(는) [!DNL Customer Journey Analytics]의 **[!UICONTROL 전송됨]** 지표에 포함되지 않습니다. 이로 인해 [!DNL Customer Journey Analytics] **[!UICONTROL 전송됨]** 지표가 [!DNL Journey Optimizer]보다 낮은 값을 표시합니다. 그러나 다시 시도 데이터는 **[!UICONTROL 정상적으로 전송된 메시지]** 또는 **[!UICONTROL 바운스]** 지표에 포함됩니다.불일치를 줄이려면 일주일 전 또는 그 이후의 날짜 범위를 사용하십시오.
+  **[!UICONTROL 다시 시도]**&#x200B;은(는) [!DNL Customer Journey Analytics]의 **[!UICONTROL 전송됨]** 지표에 포함되지 않습니다. 이로 인해 [!DNL Customer Journey Analytics] **[!UICONTROL 전송됨]** 지표가 [!DNL Journey Optimizer]보다 낮은 값을 표시합니다. 그러나 다시 시도 데이터는 **[!UICONTROL 정상적으로 전송된 메시지]** 또는 **[!UICONTROL 바운스]** 지표에 포함됩니다.
+  불일치를 줄이려면 일주일 전 또는 그 이후의 날짜 범위를 사용하십시오.
 
 * **다른 데이터 원본에서 보고서가 제공됩니다.**
 

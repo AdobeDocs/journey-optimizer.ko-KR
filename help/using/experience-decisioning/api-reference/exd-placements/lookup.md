@@ -26,7 +26,7 @@ ht-degree: 6%
 
 # exd 배치 조회 {#list-exd-placement}
 
-요청 경로에 ID가 포함된 오퍼 라이브러리 API에 대해 GET 요청을 수행하면 특정 exdplacement를 조회할 수 있습니다.
+요청 경로에 ID가 포함된 오퍼 라이브러리 API에 대한 GET 요청을 하여 특정 exdplacement를 조회할 수 있습니다.
 
 **API 형식**
 
@@ -34,7 +34,7 @@ ht-degree: 6%
 GET /{ENDPOINT_PATH}/exd-placements/{ID}
 ```
 
-| 매개변수 | 설명 | 예 |
+| 매개 변수 | 설명 | 예 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 지속성 API의 끝점 경로입니다. | `https://platform.adobe.io/data/core/dps` |
 | `{ID}` | 조회할 엔티티의 ID입니다. | `placement1234` |

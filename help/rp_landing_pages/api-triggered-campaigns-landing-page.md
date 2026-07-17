@@ -6,7 +6,7 @@ description: API-트리거된 캠페인
 redpen-status: CREATED_||_2025-08-11_20-23-06
 exl-id: f98e85b4-8d8a-4a9a-b814-59aa3759e534
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 API 트리거 캠페인을 활용하면 REST API 호�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 API 트리거 캠페인 만들기 및 관리
 
@@ -30,7 +30,7 @@ API 트리거 캠페인 만들기 및 관리
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 API 트리거 캠페인 속성 정의
 
@@ -40,7 +40,7 @@ API 트리거 캠페인 속성 정의
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 API 트리거 캠페인 액션 구성
 
@@ -60,7 +60,7 @@ API 트리거 캠페인 콘텐츠 편집 및 개인화
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
 
 API 트리거 캠페인 대상자 정의
 
@@ -70,7 +70,7 @@ API 트리거 캠페인 대상자 정의
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 API 트리거 캠페인 예약
 

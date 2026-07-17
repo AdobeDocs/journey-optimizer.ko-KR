@@ -6,7 +6,7 @@ description: 대상자, 프로필, ID
 redpen-status: CREATED_||_2025-08-11_20-47-03
 exl-id: 29d45bbb-8351-48c6-8672-dda4b1c25e29
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 대상, 프로필 및 ID는 [Adobe 실시간 고객 �
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 고객 관리 및 Personalization
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 대상, 프로필 및 ID는 [Adobe 실시간 고객 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user-circle.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/user-circle.svg)
 
 프로필: 고객 데이터 관리 및 최적화
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer의 대상, 프로필 및 ID는 [Adobe 실시간 고객 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/fingerprint.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/fingerprint.svg)
 
 ID 시작
 
@@ -50,7 +50,7 @@ ID 시작
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 라이선스 사용 대시보드
 

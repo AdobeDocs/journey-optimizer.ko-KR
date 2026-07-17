@@ -31,10 +31,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: f6b0ff4c4d46f3ac9f80d6fcf00191b7489d2eae
+source-git-commit: 423db08a3c4c5a8d9540fa0c8e03e28ca36ca299
 workflow-type: tm+mt
-source-wordcount: 1515
-ht-degree: 99%
+source-wordcount: 1516
+ht-degree: 98%
 
 ---
 
@@ -369,12 +369,12 @@ AI 어시스턴트는 즉각적인 도움과 운영 인사이트를 제공합니
 >abstract="이 섹션에서는 각 Webhook 요청과 함께 전송할 추가 사용자 정의 헤더를 구성할 수 있습니다."
 
 
-<!-- JOURNEYS - EXPRESSION ASSISTANT -->
+<!-- JOURNEYS - GENERATE EXPRESSIONS WITH AI -->
 
 >[!CONTEXTUALHELP]
 >id="journeyExpAI"
->title="표현식 어시스턴트"
->abstract="표현식 어시스턴트를 사용하여 Journey Optimizer에서 표현식을 생성하고 구체화합니다."
+>title="AI를 사용하여 표현식 생성"
+>abstract="AI를 사용하여 Journey Optimizer에서 표현식을 생성하고 구체화합니다."
 
 
 <!-- OC - LOAD FILE ACTIVITY -->

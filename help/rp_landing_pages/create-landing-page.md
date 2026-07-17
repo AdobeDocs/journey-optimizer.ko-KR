@@ -6,7 +6,7 @@ description: 대상자 만들기
 redpen-status: CREATED_||_2025-08-11_20-45-40
 exl-id: d6d73fe7-4442-474b-8d2d-49e280c01a9e
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer에서 대상자를 만들면 개인화된 메시징 및 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Adobe Journey Optimizer에서 세그먼트 정의 작성
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 세그먼트 정의 작성
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 대상자 컴포지션 시작
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 세그먼트 정의 작성
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/file-upload.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/file-upload.svg)
 
 사용자 정의 CSV 업로드를 사용하여 대상자를 가져오는 방법
 
@@ -50,7 +50,7 @@ CSV 파일을 통해 대상자를 가져오고 속성을 프로필에 매핑하�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 페더레이션된 대상자 컴포지션
 

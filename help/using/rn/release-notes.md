@@ -26,7 +26,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: cc7181975bf21a8464dca60422b045e0f047b511
+source-git-commit: 423db08a3c4c5a8d9540fa0c8e03e28ca36ca299
 workflow-type: tm+mt
 source-wordcount: 3064
 ht-degree: 74%
@@ -201,7 +201,7 @@ ht-degree: 74%
 <p>AI 어시스턴트가 이제 여정 고급 표현식 편집기에서 자연어 프롬프트를 유효한 표현식과 조건 논리로 변환합니다. 작성하려는 표현식을 설명하면 AI 어시스턴트가 즉시 적용하거나 후속 프롬프트를 통해 수정할 수 있는 바로 사용 가능한 코드를 생성합니다.</p>
 <p>이 기능은 모든 고객에게 공개 Beta 버전으로 제공됩니다.</p>
 <p><img src="assets/do-not-localize/expression-assistant.gif"></p>
-<p>자세한 내용은 <a href="../building-journeys/expression/expression-agent.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../building-journeys/expression/generate-expression.md">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2026년 6월 3일</p> 
 </td>
 </tr>
@@ -452,9 +452,9 @@ ht-degree: 74%
 
 * **이메일 보고를 위한 새로운 예상 클릭 메트릭** - 실제 고객 참여를 보다 정확하게 볼 수 있도록 여정, 캠페인 및 채널 보고서에서 새로운 예상 메트릭을 사용할 수 있습니다.
 
-   * **예상 CTR**(클릭스루 비율): 배달된 총 메시지 수에 상대적인 예상 클릭수로 계산됩니다.
+  * **예상 CTR**(클릭스루 비율): 배달된 총 메시지 수에 상대적인 예상 클릭수로 계산됩니다.
 
-   * **예상 CTOR**(Click-to-Open 비율): 총 예상 열람 수에 상대적인 예상 클릭수로 계산됩니다.
+  * **예상 CTOR**(Click-to-Open 비율): 총 예상 열람 수에 상대적인 예상 클릭수로 계산됩니다.
 
   사용 가능한 날짜: 2026년 6월 25일
 

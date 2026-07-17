@@ -30,7 +30,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_incrementalquery"
 >title="증분 쿼리"
->abstract="증분 쿼리는 오케스트레이션된 캠페인이 실행될 때마다 데이터베이스 쿼리를 실행하는 타깃팅 활동입니다. 새 레코드만 반환하고 이전 실행에 이미 포함된 모든 레코드는 제외하므로 동일한 사용자를 다시 타겟팅하거나 동일한 행을 다시 내보내는 일은 방지할 수 있습니다."
+>abstract="증분 쿼리는 오케스트레이션된 캠페인이 실행될 때마다 데이터베이스 쿼리를 실행하는 타기팅 활동입니다. 이 활동은 새로운 기록만 반환하고 이전 실행에 이미 포함된 기록은 제외하므로, 동일한 사용자를 재타기팅하거나 동일한 행을 다시 내보내는 것을 방지할 수 있습니다. "
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_incrementalquery_processeddata"

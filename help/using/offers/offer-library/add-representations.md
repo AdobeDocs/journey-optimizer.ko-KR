@@ -93,7 +93,7 @@ ht-degree: 6%
 
 ### 이미지 추가 {#images}
 
-선택한 배치가 이미지 유형인 경우 [!DNL Adobe Experience Manager Assets]에서 제공하는 자산의 중앙 집중식 저장소인 **Adobe Experience Cloud 자산** 라이브러리에서 얻은 콘텐츠를 추가할 수 있습니다.
+선택한 배치가 이미지 유형인 경우 [!DNL Adobe Experience Manager Assets]에서 제공하는 자산의 중앙 집중식 저장소인 **Adobe Experience Cloud 자산** 라이브러리에서 제공되는 콘텐츠를 추가할 수 있습니다.
 
 >[!NOTE]
 >
@@ -113,7 +113,7 @@ ht-degree: 6%
 
 ### HTML 또는 JSON 파일 추가 {#html-json}
 
-선택한 배치가 HTML 유형인 경우 [Adobe Experience Cloud 자산 라이브러리](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=ko){target="_blank"}에서 제공되는 HTML 또는 JSON 컨텐츠를 추가할 수도 있습니다.
+선택한 배치가 HTML 유형인 경우 [Adobe Experience Cloud 에셋 라이브러리](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=ko){target="_blank"}에서 제공되는 HTML 또는 JSON 콘텐츠를 추가할 수도 있습니다.
 
 예를 들어, [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html?lang=ko){target="_blank"}에서 HTML 이메일 템플릿을 만들었고, 이 파일을 오퍼 콘텐츠에 사용하려고 합니다. 새 파일을 만드는 대신 템플릿을 **자산 라이브러리**&#x200B;에 업로드하여 오퍼의 표시에서 다시 사용할 수 있습니다.
 

@@ -29,7 +29,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 3161
+source-wordcount: 3196
 ht-degree: 1%
 
 ---
@@ -69,7 +69,7 @@ Adobe Journey Optimizer은 두 가지 유형의 경고를 제공합니다.
 
 * **샌드박스 인식**: 경고 구독은 샌드박스별로 다릅니다. 경고에 가입하면 현재 샌드박스에만 적용됩니다. 샌드박스가 재설정되면 모든 경고 구독도 재설정됩니다.
 
-* **알림 환경 설정**: [Adobe Experience Cloud 환경 설정](../start/user-interface.md#in-product-uc)에서 알림(전자 메일 및/또는 인앱)을 받는 방법을 구성합니다.
+* **알림 환경 설정**: [Adobe Experience Cloud 환경 설정](../start/user-interface.md#in-product-uc)에서 알림(이메일 및/또는 인앱)을 받는 방법을 구성하십시오.
 
 
 ## 사용 가능한 경고 {#available-alerts}

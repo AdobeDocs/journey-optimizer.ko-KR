@@ -33,7 +33,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 2428
+source-wordcount: 2432
 ht-degree: 16%
 
 ---
@@ -354,8 +354,8 @@ ht-degree: 16%
 
 * Adobe Campaign을 사용하여 작업하는 경우 다음 섹션을 참조하십시오.
 
-   * [[!DNL Journey Optimizer] 및 Campaign v7/v8](../action/acc-action.md)
-   * [[!DNL Journey Optimizer] 및 Campaign Standard](../action/acs-action.md)
+  * [[!DNL Journey Optimizer] 및 Campaign v7/v8](../action/acc-action.md)
+  * [[!DNL Journey Optimizer] 및 Campaign Standard](../action/acs-action.md)
 
 +++ AI 기술 자료 참조
 

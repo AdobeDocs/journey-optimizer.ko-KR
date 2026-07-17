@@ -32,7 +32,7 @@ ht-degree: 6%
 
 다음 표는 요청 헤더의 콘텐츠 유형 필드를 구성하는 유효한 값을 보여 줍니다.
 
-| 매개변수 | 설명 |
+| 매개 변수 | 설명 |
 | --------- | ----------- |
 | Content-Type | `application/json` |
 
@@ -42,7 +42,7 @@ ht-degree: 6%
 POST /{ENDPOINT_PATH}/exd-placements
 ```
 
-| 매개변수 | 설명 | 예 |
+| 매개 변수 | 설명 | 예 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 지속성 API의 끝점 경로입니다. | `https://platform.adobe.io/data/core/dps` |
 

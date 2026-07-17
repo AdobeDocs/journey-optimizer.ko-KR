@@ -29,7 +29,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
-source-wordcount: 2210
+source-wordcount: 2223
 ht-degree: 9%
 
 ---
@@ -178,35 +178,35 @@ Adobe이 사용자를 대신하여 푸시 알림을 전송하도록 승인하려
 
      ![](assets/add-app-config-ios.png)
 
-      1. 모바일 앱 **[!UICONTROL 앱 ID]**&#x200B;를 입력하세요.
+     1. 모바일 앱 **[!UICONTROL 앱 ID]**&#x200B;를 입력하세요.
 
-      1. **[!UICONTROL 모든 샌드박스에 적용]** 옵션을 활성화하여 모든 샌드박스에서 푸시 자격 증명을 사용할 수 있도록 합니다. 특정 샌드박스에 동일한 플랫폼 및 앱 ID 쌍에 대한 자체 자격 증명이 있는 경우 해당 샌드박스별 자격 증명이 우선합니다.
+     1. **[!UICONTROL 모든 샌드박스에 적용]** 옵션을 활성화하여 모든 샌드박스에서 푸시 자격 증명을 사용할 수 있도록 합니다. 특정 샌드박스에 동일한 플랫폼 및 앱 ID 쌍에 대한 자체 자격 증명이 있는 경우 해당 샌드박스별 자격 증명이 우선합니다.
 
-      1. 자격 증명을 추가하려면 **[!UICONTROL 푸시 자격 증명 수동 입력]** 단추를 켭니다.
+     1. 자격 증명을 추가하려면 **[!UICONTROL 푸시 자격 증명 수동 입력]** 단추를 켭니다.
 
-      1. .p8 Apple 푸시 알림 인증 키 파일을 끌어서 놓습니다. 이 키는 **인증서**, **식별자** 및 **프로필** 페이지에서 가져올 수 있습니다.
+     1. .p8 Apple 푸시 알림 인증 키 파일을 끌어서 놓습니다. 이 키는 **인증서**, **식별자** 및 **프로필** 페이지에서 가져올 수 있습니다.
 
-         >[!NOTE]
-         >
-         > .p8 Apple 푸시 알림 키만 지원됩니다. .p8 키 제한에 도달한 경우 다른 Apple 개발자 계정을 사용합니다.
-         >Apple 키 제한에 대한 자세한 내용은 [Apple 개발자 설명서](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns)를 참조하세요.
+        >[!NOTE]
+        >
+        > .p8 Apple 푸시 알림 키만 지원됩니다. .p8 키 제한에 도달한 경우 다른 Apple 개발자 계정을 사용합니다.
+        >Apple 키 제한에 대한 자세한 내용은 [Apple 개발자 설명서](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns)를 참조하세요.
 
 
-      1. **키 ID**&#x200B;을(를) 제공합니다. p8 인증 키를 만드는 동안 할당된 10개의 문자열입니다. **인증서**, **식별자** 및 **프로필** 페이지의 **키** 탭에서 찾을 수 있습니다.
+     1. **키 ID**&#x200B;을(를) 제공합니다. p8 인증 키를 만드는 동안 할당된 10개의 문자열입니다. **인증서**, **식별자** 및 **프로필** 페이지의 **키** 탭에서 찾을 수 있습니다.
 
-      1. **팀 ID**&#x200B;를 제공하십시오. 멤버십 탭에서 찾을 수 있는 문자열 값입니다.
+     1. **팀 ID**&#x200B;를 제공하십시오. 멤버십 탭에서 찾을 수 있는 문자열 값입니다.
 
    * **Android용**
 
      ![](assets/add-app-config-android.png)
 
-      1. **[!UICONTROL 앱 ID]**&#x200B;를 제공하십시오. 일반적으로 패키지 이름은 `build.gradle` 파일의 앱 ID입니다.
+     1. **[!UICONTROL 앱 ID]**&#x200B;를 제공하십시오. 일반적으로 패키지 이름은 `build.gradle` 파일의 앱 ID입니다.
 
-      1. **[!UICONTROL 모든 샌드박스에 적용]** 옵션을 활성화하여 모든 샌드박스에서 푸시 자격 증명을 사용할 수 있도록 합니다. 특정 샌드박스에 동일한 플랫폼 및 앱 ID 쌍에 대한 자체 자격 증명이 있는 경우 해당 샌드박스별 자격 증명이 우선합니다.
+     1. **[!UICONTROL 모든 샌드박스에 적용]** 옵션을 활성화하여 모든 샌드박스에서 푸시 자격 증명을 사용할 수 있도록 합니다. 특정 샌드박스에 동일한 플랫폼 및 앱 ID 쌍에 대한 자체 자격 증명이 있는 경우 해당 샌드박스별 자격 증명이 우선합니다.
 
-      1. 자격 증명을 추가하려면 **[!UICONTROL 푸시 자격 증명을 수동으로 입력]** 단추를 켭니다.
+     1. 자격 증명을 추가하려면 **[!UICONTROL 푸시 자격 증명을 수동으로 입력]** 단추를 켭니다.
 
-      1. FCM 푸시 자격 증명을 끌어서 놓습니다. 푸시 자격 증명을 가져오는 방법에 대한 자세한 내용은 [Google 설명서](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}를 참조하세요.
+     1. FCM 푸시 자격 증명을 끌어서 놓습니다. 푸시 자격 증명을 가져오는 방법에 대한 자세한 내용은 [Google 설명서](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}를 참조하세요.
 
 <!--
     * **For Web**
