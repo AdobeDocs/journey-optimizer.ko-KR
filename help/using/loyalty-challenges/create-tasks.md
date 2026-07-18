@@ -13,9 +13,9 @@ mini-toc-levels: 1
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 024bf7a15ca8ef80dfd948ad226958ed71f22413
+source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
 workflow-type: tm+mt
-source-wordcount: 1197
+source-wordcount: 1203
 ht-degree: 10%
 
 ---
@@ -45,6 +45,8 @@ ht-degree: 10%
 **구성 및 통합**
 
 * [충성도 문제 구성](loyalty-admin.md)
+* [보상 정의 안내서](reward-definition-guide.md)
+* [이벤트 변환기 안내서](event-transformer-guide.md)
 * [충성도 데이터 및 데이터 세트](loyalty-data-and-datasets.md)
 * [충성도 과제 API 참조](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
