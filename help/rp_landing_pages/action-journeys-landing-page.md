@@ -50,7 +50,7 @@ Adobe Journey Optimizer에서 사용자 정의 액션을 구성하고 사용하�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
 
 사용자 정의 액션 모니터링
 

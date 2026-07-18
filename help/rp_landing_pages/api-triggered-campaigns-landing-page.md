@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 API 트리거 캠페인을 활용하면 REST API 호�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 API 트리거 캠페인 만들기 및 관리
 
@@ -40,7 +40,7 @@ API 트리거 캠페인 속성 정의
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 API 트리거 캠페인 액션 구성
 
@@ -70,7 +70,7 @@ API 트리거 캠페인 대상자 정의
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ko)
 
 API 트리거 캠페인 예약
 

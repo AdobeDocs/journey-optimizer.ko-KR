@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 데이터 세트 액세스, 생성, 관리 및 관
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
 
 데이터 세트 TTL(Time-to-Live) 가드레일
 
@@ -50,7 +50,7 @@ Journey Optimizer 데이터 세트 내보내기
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 Adobe Journey Optimizer: 데이터 세트 쿼리 예
 

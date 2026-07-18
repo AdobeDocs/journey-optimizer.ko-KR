@@ -35,7 +35,7 @@ Adobe Journey Optimizer의 API 참조 섹션에서 고객에게 맞춤형 데이
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 Adobe Journey Optimizer API를 사용하여 오퍼 게재
 
@@ -45,7 +45,7 @@ Decisioning, Edge Decisioning 및 Batch Decisioning API 구현에 대한 포괄�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 API를 사용한 오퍼 만들기 및 관리
 

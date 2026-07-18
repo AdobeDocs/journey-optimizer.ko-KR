@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 프로필을 사용하면 여러 소스의 데이터�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 프로필 소개
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 실시간 고객 프로필을 통해 프로필을 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 테스트 프로필을 만드는 방법
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 여정 테스트, 콘텐츠 미리 보기, 증명�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 계산된 속성 작업
 

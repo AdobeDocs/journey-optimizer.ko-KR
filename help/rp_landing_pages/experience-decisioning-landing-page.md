@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 결정 기능을 사용하면 중앙 집중식 결정
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 의사 결정 소개
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer에서 결정 기능을 효과적으로 사용하기 위�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 API 참조: 오퍼 게재
 
