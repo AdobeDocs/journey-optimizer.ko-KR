@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 여정 보고서는 이메일, SMS, 웹, 푸시 알�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
 
 여정 보고서 분석
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 여정 보고서는 이메일, SMS, 웹, 푸시 알�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 코드 기반 여정 보고서
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer의 여정 보고서는 이메일, SMS, 웹, 푸시 알�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 콘텐츠 카드 참여
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer의 여정 보고서는 이메일, SMS, 웹, 푸시 알�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
 
 다이렉트 메일 지표
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer의 여정 보고서는 이메일, SMS, 웹, 푸시 알�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open.svg?lang=ko)
 
 이메일 여정 보고
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer의 여정 보고서는 이메일, SMS, 웹, 푸시 알�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=ko)
 
 인앱 메시지 인사이트
 

@@ -40,7 +40,7 @@ CSS 선택기 추가, 헤드 콘텐츠 수정 및 클릭 추적을 포함하여 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 Adobe Journey Optimizer에서 웹 수정 사항 관리
 

@@ -31,7 +31,7 @@ Adobe Journey Optimizer의 캠페인을 활용하면 여러 채널에서 개인�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 캠페인 액세스 및 관리
 

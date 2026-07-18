@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 대상자 기능은 고객의 행동, 선호도 및 �
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 대상자 시작하기
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 내의 대상자 관리, 세분화 및 활성화의 기�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 대상자 생성 및 관리
 

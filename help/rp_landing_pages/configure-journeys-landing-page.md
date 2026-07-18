@@ -50,7 +50,7 @@ Adobe Journey Optimizer의 데이터 소스 구성
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=ko)
 
 사용자 정의 액션 구성 및 사용
 
