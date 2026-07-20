@@ -11,7 +11,7 @@ keywords: 테스트, 여정, 확인, 오류, 문제 해결
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b4f1dff677977a448d99576a85bd3dd7dcdf59ed
+source-git-commit: 297835f62000d93ee8c8a7351db815c1ea3ca798
 workflow-type: tm+mt
 source-wordcount: 3012
 ht-degree: 0%
@@ -26,6 +26,8 @@ ht-degree: 0%
 
 >[!ENDSHADEBOX]
 
+게시하기 전에 **[!UICONTROL 시뮬레이션]**&#x200B;을 사용하여 **시뮬레이션된 사용자**&#x200B;와(과) 여정의 유효성을 검사하십시오. 이 페이지에서는 **[!UICONTROL 빠른 시뮬레이션]** 및 **[!UICONTROL 수동 시뮬레이션]**, 시뮬레이션된 여정 생성 및 전송, 사용자에게 필요할 때 단일 이벤트 트리거 및 **[!UICONTROL 결과]** 로그 검토를 안내합니다.
+
 >[!IMPORTANT]
 >
 >* **[!UICONTROL 시뮬레이션]**&#x200B;을(를) 사용하려면 **[!UICONTROL 여정]** 기능에서 하나 이상의 권한을 할당하십시오. **여정 시뮬레이션**, **여정 게시** 또는 **여정 승인 및 게시**. 동일한 권한을 사용하여 시뮬레이션된 사용자를 만들고 관리할 수 있습니다. **[!UICONTROL 시뮬레이션된 사용자]** 권한은 필요하지 않습니다. [자세히 알아보기](../administration/permissions.md)
@@ -33,8 +35,6 @@ ht-degree: 0%
 >* **[!UICONTROL 시뮬레이션]** 없이 시뮬레이션된 사용자를 관리하려면 **[!UICONTROL 시뮬레이션된 사용자]** 기능에서 **시뮬레이션된 사용자 관리** 또는 **시뮬레이션된 사용자 보기**&#x200B;를 지정하십시오.
 >
 >* 시뮬레이션 중인 AI의 경우(**[!UICONTROL 빠른 시뮬레이션]**, AI 생성 사용자, **[!UICONTROL 이벤트 값 생성]**) **[!UICONTROL AI 길잡이]** 기능에서 **[!UICONTROL 콘텐츠 생성]**&#x200B;을 지정하십시오.
-
-게시하기 전에 **[!UICONTROL 시뮬레이션]**&#x200B;을 사용하여 **시뮬레이션된 사용자**&#x200B;와(과) 여정의 유효성을 검사하십시오. 이 페이지에서는 **[!UICONTROL 빠른 시뮬레이션]** 및 **[!UICONTROL 수동 시뮬레이션]**, 시뮬레이션된 여정 생성 및 전송, 사용자에게 필요할 때 단일 이벤트 트리거 및 **[!UICONTROL 결과]** 로그 검토를 안내합니다.
 
 여정 유형별 개요는 [여정 시뮬레이션 시작](simulate-journey-gs.md)을 참조하십시오.
 
