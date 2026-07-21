@@ -7,18 +7,13 @@ feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 hide: true
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: c6fd0f81f39777f81758ade2bc93bd311bc10e23
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: fd791730ddde2dfea7988b3fdb7ad487231eff22
 workflow-type: tm+mt
-source-wordcount: 2337
-ht-degree: 23%
+source-wordcount: 2443
+ht-degree: 20%
 
 ---
 
@@ -32,7 +27,7 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published once changes are live in production. While most changes are delivered on the release date, a few may roll out later — refer to the Availability Date listed for each entry for details.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: June 16-17, 2026
 
@@ -51,7 +46,7 @@ The following capabilities and improvements are coming to orchestrated campaigns
 
 ## 2026년 7월 프리릴리스 정보 {#july-26-rn}
 
-**아래 사전 릴리스 정보는 릴리스 공개 당일까지 사전 통지 없이 변경될 수 있습니다**. 링크, 스크린샷 및 업데이트된 설명서는 변경 사항이 프로덕션 환경에 적용된 후 게시됩니다. 대부분의 변경 사항은 릴리스 날짜에 제공되지만, 일부는 나중에 배포될 수 있습니다. 자세한 내용은 각 항목에 명시된 제공 예정일을 참조하세요.
+**아래 사전 릴리스 정보는 릴리스 공개 당일까지 사전 통지 없이 변경될 수 있습니다**. 링크, 스크린샷 및 업데이트된 설명서는 변경 사항이 프로덕션 환경에 적용된 후 게시됩니다. 대부분의 변경 사항은 릴리스 날짜에 전달되지만 일부는 나중에 롤아웃될 수 있습니다.
 
 [Adobe Experience Platform 사전 릴리스 정보](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}도 참조하십시오.
 
@@ -143,7 +138,7 @@ Journey Optimizer에서는 이 릴리스의 새로운 기능인 온보딩 허브
 </tbody>
 </table>
 
-* **여정 시뮬레이션에서 외부 대상(CSV 및 FAC)의 문서 지원** - 여정 시뮬레이션이 이제 외부 대상을 지원합니다. CSV 또는 FAC(Federated Audience Composition) 대상을 타깃팅하는 여정을 시뮬레이션할 때 UI 양식 또는 JSON 가져오기를 통해 직접 해당 대상의 데이터 보강 속성을 모의할 수 있습니다. UI는 여정 논리에 사용된 특정 데이터 보강 속성만 동적으로 표시하므로 실행 전에 의사 결정 분기 및 개인화 규칙을 정확하게 확인할 수 있습니다. ([DOCAC-15074](https://jira.corp.adobe.com/browse/DOCAC-15074)) <!-- Documentation link: TBD -->
+* **여정 시뮬레이션에서 외부 대상(쉼표로 구분된 값 및 Federated Audience Composition)에 대한 문서 지원** - 여정 시뮬레이션이 이제 외부 대상을 지원합니다. 쉼표로 구분된 값 또는 Federated Audience Composition 대상을 타깃팅하는 여정을 시뮬레이션할 때 UI 양식 또는 JSON 가져오기를 통해 해당 대상의 데이터 보강 속성을 직접 모의할 수 있습니다. UI는 여정 논리에 사용된 특정 데이터 보강 속성만 동적으로 표시하므로 실행 전에 의사 결정 분기 및 개인화 규칙을 정확하게 확인할 수 있습니다. ([DOCAC-15074](https://jira.corp.adobe.com/browse/DOCAC-15074)) <!-- Documentation link: TBD -->
 
 * **여정 헤더의 시작 및 종료 날짜** - 시작 및/또는 종료 날짜가 라이브 여정에 구성되면 이제 라이브 상태 배지 옆에 여정 헤더가 표시됩니다. 표시되는 레이블은 각 날짜가 다가오는지 또는 이미 지났는지에 따라 달라집니다. ([DOCAC-14702](https://jira.corp.adobe.com/browse/DOCAC-14702)) <!-- Documentation link: TBD -->
 
@@ -187,11 +182,11 @@ Journey Optimizer에서는 이 릴리스의 새로운 기능인 온보딩 허브
 </tbody>
 </table>
 
-* **[OC] 프로필 대상 차원을 관리하는 기능** - 이제 프로필 대상 Dimension을 삭제하거나 구성된 ID 네임스페이스를 편집 및 교체하여 데이터 설정에 대한 제어력과 유연성을 높일 수 있습니다. ([DOCAC-15018](https://jira.corp.adobe.com/browse/DOCAC-15018)) <!-- Documentation link: TBD -->
+* **프로필 대상 차원을 관리하는 기능** - 이제 프로필 대상 Dimension을 삭제하거나 구성된 ID 네임스페이스를 편집 및 교환하여 데이터 설정을 보다 유연하게 제어할 수 있습니다. ([DOCAC-15018](https://jira.corp.adobe.com/browse/DOCAC-15018)) <!-- Documentation link: TBD -->
 
-* **오케스트레이션된 캠페인 전환 보기** - 새로운 **오케스트레이션된 캠페인 전환 보기** 권한은 기존 **오케스트레이션된 캠페인에서 파일 보기** 옵션을 대체합니다. 이 변경 사항을 사용하면 PII 준수를 지원하기 위해 캠페인 전환 내에서 미리보기 결과를 숨길 수 있습니다. ([DOCAC-14924](https://jira.corp.adobe.com/browse/DOCAC-14924)) <!-- Documentation link: TBD -->
+* **오케스트레이션된 캠페인 전환 보기** - 기존 **오케스트레이션된 캠페인에서 파일 보기** 옵션을 대체할 새 **오케스트레이션된 캠페인 전환 보기** 권한을 추가했습니다. 이 변경 사항을 사용하면 개인 식별 정보 규정 준수를 지원하기 위해 캠페인 전환 내에서 미리 보기 결과를 숨길 수 있습니다. ([DOCAC-14924](https://jira.corp.adobe.com/browse/DOCAC-14924)) <!-- Documentation link: TBD -->
 
-* Line **에 대한**&#x200B;[ OC] 지원 - 이제 오케스트레이션된 캠페인에 LINE 작업을 바로 추가할 수 있습니다. 이 새로운 활동을 통해 텍스트, 스티커, 이미지, 비디오, 위치 데이터 및 풍부한 Flex 메시지를 비롯한 고도로 개인화된 콘텐츠를 구축 및 전달하여 LINE 플랫폼에서 고객을 원활하게 참여시킬 수 있습니다. 이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오. ([DOCAC-14905](https://jira.corp.adobe.com/browse/DOCAC-14905)) <!-- Documentation link: TBD -->
+* **Line 지원** - 이제 오케스트레이션된 캠페인에 LINE 작업을 바로 추가할 수 있습니다. 이 새로운 활동을 통해 텍스트, 스티커, 이미지, 비디오, 위치 데이터 및 풍부한 Flex 메시지를 비롯한 고도로 개인화된 콘텐츠를 구축 및 전달하여 LINE 플랫폼에서 고객을 원활하게 참여시킬 수 있습니다. 이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오. ([DOCAC-14905](https://jira.corp.adobe.com/browse/DOCAC-14905)) <!-- Documentation link: TBD -->
 
 * **오케스트레이션된 새 캠페인 공개 API** - 이제 오케스트레이션된 캠페인에 새 API 사양을 사용할 수 있습니다. 이러한 API를 사용하면 오케스트레이션된 캠페인을 프로그래밍 방식으로 만들고, 관리하고, 트리거할 수 있으므로 외부 시스템 및 자동화 파이프라인과의 긴밀한 통합을 가능하게 합니다. ([DOCAC-14308](https://jira.corp.adobe.com/browse/DOCAC-14308)) <!-- Documentation link: TBD -->
 
@@ -241,9 +236,9 @@ Journey Optimizer에서는 이 릴리스의 새로운 기능인 온보딩 허브
 
 이 릴리스의 콘텐츠 관리에 다음과 같은 개선 사항이 추가되었습니다.
 
-* **전자 메일 서식 파일의 `<head>`에서 식 조각 지원** - 이제 모든 전자 메일의 `<head>`에서 식 조각을 추가할 수 있습니다. 나중에 스타일을 업데이트해야 하는 경우 하나의 조각만 업데이트하고 다시 게시할 수 있습니다. 템플릿에서 만든 모든 이메일은 조각의 최신 코드를 가져오므로 최신 스타일을 가져옵니다. ([DOCAC-15257](https://jira.corp.adobe.com/browse/DOCAC-15257)) <!-- Documentation link: TBD -->
+* **전자 메일 서식 파일의 `<head>`에서 식 조각 지원** - 이제 전자 메일 서식 파일의 `<head>`에서 식 조각을 사용할 수 있습니다. 이를 통해 스타일링 또는 사용자 지정 코드를 단일 조각에 중앙 집중화하고 여러 템플릿에서 재사용할 수 있습니다. 조각을 업데이트하고 다시 게시하면 이를 참조하는 템플릿에서 빌드된 모든 이메일이 자동으로 최신 코드를 상속하므로 각 이메일을 개별적으로 수동으로 업데이트할 필요가 없습니다. ([DOCAC-15257](https://jira.corp.adobe.com/browse/DOCAC-15257)) <!-- Documentation link: TBD -->
 
-* **&quot;AI Assistant&quot;가 &quot;콘텐츠 생성&quot;으로 이름이 변경되었습니다** - AI Assistant의 이름이 Adobe Journey Optimizer 전체에서 콘텐츠 생성으로 변경되었습니다. 이 업데이트는 이름 지정 및 용어로 제한됩니다. 콘텐츠 생성, 이미지 생성, 개인화 표현식 및 콘텐츠 실험에 대한 탐색 레이블, 단추, 메뉴 및 대화 상자의 이름이 &quot;AI Assistant&quot;에서 &quot;콘텐츠 생성&quot;으로 변경되었습니다. 기능 변경 사항이 도입되지 않았습니다. ([DOCAC-15230](https://jira.corp.adobe.com/browse/DOCAC-15230)) <!-- Documentation link: TBD -->
+* **&quot;AI Assistant&quot;가 &quot;콘텐츠 생성&quot;으로 이름이 변경되었습니다** - AI Assistant의 이름이 Adobe Journey Optimizer 전체에서 콘텐츠 생성으로 변경되었습니다. 이 업데이트는 이름 지정 및 용어로 제한되며 기능 변경 사항이 도입되지 않았습니다. 콘텐츠 생성, 이미지 생성, 개인화 표현식 및 콘텐츠 실험을 위한 탐색 레이블, 버튼, 메뉴 및 대화 상자의 이름이 &quot;AI Assistant&quot;에서 &quot;콘텐츠 생성&quot;으로 변경되었습니다. ([DOCAC-15230](https://jira.corp.adobe.com/browse/DOCAC-15230)) <!-- Documentation link: TBD -->
 
 * **AEM Asset Essentials를 사용하여 콘텐츠 생성** - 이제 이메일, 웹 페이지 및 푸시 알림을 생성할 때 생성된 콘텐츠가 Adobe Experience Manager Assets에서 직접 브랜드 승인 이미지를 자동으로 가져옵니다. 이렇게 하면 Assets을 수동으로 검색하거나 일반적인 AI 대체 기능을 사용할 필요가 없어 모든 시각적 요소가 완벽하게 정확하고 브랜드 규정을 준수할 수 있습니다. ([DOCAC-14761](https://jira.corp.adobe.com/browse/DOCAC-14761)) <!-- Documentation link: TBD -->
 
@@ -261,7 +256,6 @@ Journey Optimizer에서는 이 릴리스의 새로운 기능인 온보딩 허브
 <tr>
 <td>
 <p>이제 이메일 디자이너에 헤더, 제품 카드, 정보 블록, 바닥글과 같은 바로 사용할 수 있는 레이아웃 모듈 라이브러리가 포함되어 있어 이메일 캔버스에 직접 끌어다 놓을 수 있습니다. 각 모듈은 편집 가능한 속성(이미지, 제목, 텍스트, 버튼, 링크)으로 사전 구성되어 있으며 WYSIWYG 인터페이스를 통해 완벽하게 사용자 정의할 수 있으므로 처음부터 구조를 만들 필요 없이 이메일 작성 속도를 높일 수 있습니다.</p>
-<p>사용 가능한 날짜: 2026년 6월 29일</p>
 <!-- GIF placeholder: to be added -->
 <p>Jira: <a href="https://jira.corp.adobe.com/browse/DOCAC-14877">DOCAC-14877</a></p>
 <!-- Documentation link: TBD -->
@@ -276,7 +270,24 @@ Journey Optimizer에서는 이 릴리스의 새로운 기능인 온보딩 허브
 
 * **전체/기본 URL 개인화를 위한 도메인 관리** - 이제 Adobe 지원에 문의하지 않고도 Adobe Journey Optimizer의 관리 설정에서 직접 전체 및 기본 URL 개인화를 위한 승인된 도메인을 만들고 관리할 수 있습니다. ([DOCAC-15187](https://jira.corp.adobe.com/browse/DOCAC-15187)) <!-- Documentation link: TBD -->
 
-* **개인화 식의 새 도우미 함수** - 이제 개인화 식에서 새 도우미 함수를 사용할 수 있습니다. `appendQueryParams`, `dateBetween`, `equalsAnyIgnoreCase`, `getUrlFragment`, `join` 및 `decode64`. `concat` 함수도 향상되었으며 이제 두 개 이상의 인수를 지원합니다. 또한 기존 템플릿을 Journey Optimizer으로 마이그레이션하는 데 도움이 되는 템플릿 마이그레이션 함수 `ampCompare`, `ampSubstr` 및 `compareTo`을(를) 사용할 수 있습니다. ([DOCAC-15099](https://jira.corp.adobe.com/browse/DOCAC-15099)) <!-- Documentation link: TBD -->
+* **개인화 식에 새 도우미 함수** - 이제 개인화 식에 새 도우미 함수를 사용할 수 있습니다.
+
+  * `appendQueryParams`: 쿼리 매개 변수를 URL에 추가하거나 키가 이미 있는 경우 바꿉니다.
+  * `dateBetween`: 날짜가 시작 및 종료 날짜 범위(포함)에 속하는지 확인합니다.
+  * `equalsAnyIgnoreCase`: 문자열이 제공된 값과 일치하면 true를 반환하고 대/소문자를 무시합니다.
+  * `getUrlFragment`: URL의 조각 부분(# 다음 부분)을 추출합니다.
+  * `join`: 구분 기호를 사용하여 배열 요소를 단일 문자열로 연결합니다.
+  * `decode64`: Base64로 인코딩된 문자열을 디코딩합니다. 입력이 유효한 Base64가 아닌 경우 원래 입력 문자열은 변경되지 않고 반환됩니다.
+
+  `concat` 함수도 향상되었으며 이제 두 개 이상의 인수를 지원합니다.
+
+  또한 다음 템플릿 마이그레이션 기능 을 사용하여 기존 템플릿을 Journey Optimizer으로 마이그레이션할 수 있습니다.
+
+  * `ampCompare`: 지정된 비교 연산자를 사용하여 두 값을 비교합니다.
+  * `ampSubstr`: 지정된 시작 및 끝 인덱스 사이의 문자열 부분을 반환합니다.
+  * `compareTo`: 두 문자열을 사전적으로 비교합니다.
+
+  ([DOCAC-15099](https://jira.corp.adobe.com/browse/DOCAC-15099)) <!-- Documentation link: TBD -->
 
 ### 채널 {#july-26-channels}
 
@@ -291,7 +302,7 @@ Journey Optimizer에서는 이 릴리스의 새로운 기능인 온보딩 허브
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer은 이제 관리자가 WeChat, KakaoTalk, Messenger 또는 독점 공급자와 같은 아웃바운드 HTTP 기반 메시징 채널을 코드 없는 채널 빌더를 통해 AJO으로 직접 가져올 수 있는 새로운 기능인 사용자 지정 채널을 도입했습니다. 구성하고 나면 캠페인, 여정 및 오케스트레이션된 캠페인에서 기본 채널과 동일한 전체 기능 세트를 사용하여 사용자 정의 채널을 사용할 수 있습니다. 표현식 편집기를 사용한 개인화, 콘텐츠 실험, 미리보기 및 증명, 즉시 사용 가능한 보고, 동의 및 거버넌스 적용. 이렇게 하면 이전에 여정으로 제한되고 전용 콘텐츠 작성이 부족했던 사용자 지정 작업에서 다루었던 간격이 채워집니다.</p>
+<p>Journey Optimizer은 이제 관리자가 WeChat, KakaoTalk, Messenger 또는 독점 공급자와 같은 아웃바운드 HTTP 기반 메시징 채널을 코드 없는 채널 빌더를 통해 Journey Optimizer으로 직접 가져올 수 있는 새로운 기능인 사용자 지정 채널을 도입했습니다. 구성하고 나면 캠페인, 여정 및 오케스트레이션된 캠페인에서 기본 채널과 동일한 전체 기능 세트를 사용하여 사용자 정의 채널을 사용할 수 있습니다. 표현식 편집기를 사용한 개인화, 콘텐츠 실험, 미리보기 및 증명, 즉시 사용 가능한 보고, 동의 및 거버넌스 적용. 이렇게 하면 이전에 여정으로 제한되고 전용 콘텐츠 작성이 부족했던 사용자 지정 작업에서 다루었던 간격이 채워집니다.</p>
 <p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
 <!-- GIF placeholder: to be added -->
 <p>Jira: <a href="https://jira.corp.adobe.com/browse/DOCAC-11381">DOCAC-11381</a></p>
@@ -301,9 +312,9 @@ Journey Optimizer에서는 이 릴리스의 새로운 기능인 온보딩 허브
 </tbody>
 </table>
 
-* **WhatsApp 채널: WhatsApp 흐름 템플릿 지원** - 이제 Adobe Journey Optimizer에서 WhatsApp 흐름 템플릿을 전송하여 설문 조사 및 잠재 고객 캡처와 같은 대화형 다중 화면 경험을 제공할 수 있습니다. 응답은 제출 시 캡처되어 새 AJO 채널 추적 이벤트 데이터 세트에 원시 JSON 페이로드로 저장됩니다. ([DOCAC-15223](https://jira.corp.adobe.com/browse/DOCAC-15223)) <!-- Documentation link: TBD -->
+* **WhatsApp 채널: WhatsApp 흐름 템플릿 지원** - 이제 Adobe Journey Optimizer에서 WhatsApp 흐름 템플릿을 전송하여 설문 조사 및 잠재 고객 캡처와 같은 대화형 다중 화면 경험을 제공할 수 있습니다. 응답은 제출 시 캡처되어 새 Journey Optimizer 채널 추적 이벤트 데이터 세트에 원시 JSON 페이로드로 저장됩니다. ([DOCAC-15223](https://jira.corp.adobe.com/browse/DOCAC-15223)) <!-- Documentation link: TBD -->
 
-* **처리량을 위한 성능 추가 기능 - 푸시** - 초당 최대 5,000개의 트랜잭션 및 더 높은 가용성을 지원하는 대규모 실시간 트랜잭션 메시지를 제공하도록 설계된 새로운 처리량 트랜잭션 메시지 모드를 API 트리거 캠페인에서 사용할 수 있습니다. 이전에는 이메일 채널에서만 사용할 수 있었지만, 이제 이 기능은 Adobe 고처리량 트랜잭션 메시지 추가 기능 서비스를 구입한 조직의 푸시 채널에서도 사용할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오. ([DOCAC-14717](https://jira.corp.adobe.com/browse/DOCAC-14717)) <!-- Documentation link: TBD -->
+* **처리량을 위한 성능 추가 기능 - 푸시** - API 트리거 캠페인에서 새로운 처리량 트랜잭션 메시지 모드를 사용할 수 있습니다. 이 모드는 대규모 실시간 트랜잭션 메시지 전송을 위해 설계되었으며 더 높은 가용성으로 초당 최대 5,000개의 트랜잭션을 지원합니다. 이전에는 이메일 채널에서만 사용할 수 있었지만, 이제 이 기능은 Adobe 고처리량 트랜잭션 메시지 추가 기능 서비스를 구입한 조직의 푸시 채널에서도 사용할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오. ([DOCAC-14717](https://jira.corp.adobe.com/browse/DOCAC-14717)) <!-- Documentation link: TBD -->
 
 ### 관리 {#july-26-administration}
 
@@ -312,15 +323,14 @@ Journey Optimizer에서는 이 릴리스의 새로운 기능인 온보딩 허브
 <table>
 <thead>
 <tr>
-<th><strong>웹 애플리케이션 방화벽(WAF) IP 허용 목록</strong><br/></th>
+<th><strong>웹 응용 프로그램 방화벽 IP 허용 목록</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 Adobe Journey Optimizer은 랜딩 페이지에 대한 WAF(Web Application Firewall) IP 허용 목록을 지원하므로 조직에서 모든 수신 요청이 구성된 WAF 인프라를 통해서만 라우팅되도록 할 수 있습니다. 고객은 이 개선 사항을 통해 WAF 계층을 우회하는 모든 직접 요청을 거부하도록 Journey Optimizer를 구성하여 Imperva와 같은 도구에 정의된 보안 정책을 일관되게 적용할 수 있습니다.</p>
-<p>이 기능은 엄격한 네트워크 액세스 요구 사항이 있는 기업의 보안 태세를 강화하고 AJO에서 호스팅하는 랜딩 페이지로의 트래픽 흐름을 완벽하게 제어할 수 있도록 합니다.</p>
-<p>사용 가능한 날짜: 2026년 7월 22일</p>
+<p>Adobe Journey Optimizer은 이제 랜딩 페이지에 대한 웹 애플리케이션 방화벽 IP 허용 목록을 지원하므로 조직에서 모든 수신 요청이 구성된 웹 애플리케이션 방화벽 인프라를 통해서만 라우팅되도록 할 수 있습니다. 이 향상된 기능을 통해 고객은 웹 애플리케이션 방화벽 계층을 무시하는 직접 요청을 거부하도록 Journey Optimizer을 구성할 수 있으므로 Imperva와 같은 도구에 정의된 보안 정책이 일관되게 적용됩니다.</p>
+<p>이 기능은 엄격한 네트워크 액세스 요구 사항을 가진 기업의 보안 태세를 강화하여 Journey Optimizer이 호스팅하는 랜딩 페이지로의 트래픽 흐름을 완벽하게 제어합니다.</p>
 <p>Jira: <a href="https://jira.corp.adobe.com/browse/DOCAC-14814">DOCAC-14814</a></p>
 <!-- Documentation link: TBD -->
 </td>
