@@ -13,9 +13,9 @@ mini-toc-levels: 1
 exl-id: d3ad85f0-7f7e-40ab-b8c4-fc0c1234be87
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
+source-git-commit: 80abca7068e021e52e9c34d9a2fb629ebad70302
 workflow-type: tm+mt
-source-wordcount: 2015
+source-wordcount: 1731
 ht-degree: 1%
 
 ---
@@ -108,40 +108,28 @@ ht-degree: 1%
 | 필드 | 필수 여부 | 참고 |
 |--------------------------------|--------------------|-------|
 | `loyalty_identity` | **예** | `id`을(를) 포함해야 합니다. 멤버의 충성도 ID입니다. |
-| `item_list` | **예** | 하나 이상의 항목을 포함해야 합니다. `item_list`이(가) 비어 있으면 이벤트가 잘못된 것으로 거부됩니다. |
-| `item_set` | **예**(항목당) | 이 배열의 식별자는 작업 포함/제외 목록이 일치하는 항목입니다. 작업 필터가 올바르게 작동하도록 모든 관련 식별자(SKU, 제품 카테고리, 부서 코드, 이벤트 이름)를 포함합니다. |
+| `item_list` | **예** | ≥1 항목이 있어야 합니다. 빈 item_list가 거부되었습니다. |
+| `item_set` | **예**(항목당) | 식별자 작업 포함/제외 목록은 와 일치합니다. |
 | `timestamp` | **예** | 날짜 창 평가에 사용됩니다. ISO 8601이어야 합니다. |
-| `utc_offset` | 권장 | 방송 시간 창 일치 및 연속 날짜 줄바꿈을 계산하는 데 필요합니다. 생략하면 날짜 부분 평가와 연속 날짜 계산을 모두 건너뜁니다. |
-| `_id` | 아니오 | 조직에 대해 중복 검색을 사용하도록 설정한 경우 Challenge Service는 `_id`이(가) 이미 처리된 이벤트를 거부합니다. |
-| `sub_total` | 아니오 | 지출 임계값 작업에 사용됩니다. 생략하면 항목이 지출을 0으로 기여합니다. |
+| `utc_offset` | 권장 | 날짜 일치 및 연속 날짜 계산에 필요합니다. |
+| `_id` | 아니오 | 조직에서 중복 검색을 사용하도록 설정한 경우 중복 제거에 사용됩니다. |
+| `sub_total` | 아니오 | 지출-임계값 태스크는 이를 사용합니다. 생략은 0의 지출을 의미합니다. |
 
 ## 이벤트 정의 필드
 
 | 필드 | 유형 | 필수 여부 | 설명 |
 |--------------------------------|------------------|----------------------|-------------|
-| `guid` | 문자열 | 아니요(시스템 지정) | 생성 시 할당된 고유 식별자. 읽기 전용. |
+| `guid` | 문자열 | 아니요(시스템 지정) | 시스템에서 할당한 고유 ID, 읽기 전용. |
 | `name` | 문자열 | **예** | 사람이 읽을 수 있는 레이블(예: `"Starbucks POS Purchase"`). |
-| `xdmSchemaId` | 문자열 | 아니요* | **DCCS 수집 경로**&#x200B;를 통해 도착하는 이벤트를 일치시키는 데 사용되는 XDM 스키마 ID입니다. 플랫폼은 수신 이벤트에 포함된 스키마 참조를 읽고 이 값과 비교합니다. |
-| `identifierPath` | 문자열 | 아니요* | **직접 HTTP 경로(adobe.io)**&#x200B;를 통해 도착하는 이벤트를 일치시키는 데 사용되는 JSON 이벤트의 점 표기법 경로입니다. 플랫폼은 이 경로에서 값을 읽고 `identifier`에 대해 확인합니다. |
-| `identifier` | 문자열 배열 | 아니오 | `identifierPath`에 값이 필요합니다. 를 입력하고 비어 있지 않은 경우 경로의 값은 이러한 값 중 하나와 일치해야 합니다. 비어 있는 경우 경로에 값이 있는 모든 이벤트가 일치합니다. |
-| `schema` | 문자열 | 아니오 | 변환 전에 들어오는 이벤트의 유효성을 검사하는 데 사용되는 [JSON 스키마](https://json-schema.org/) 문서(JSON 문자열로 사용). 유효성 검사가 실패하면 이벤트가 거부되고 설명 오류가 표시됩니다. |
-| `transformer` | 문자열 | **예** | 수신 이벤트를 Adobe 충성도 이벤트 형식에 매핑하는 JSONata 표현식입니다. |
-
-\* `xdmSchemaId` 또는 `identifierPath` 중 하나 이상을 입력해야 합니다.
+| `xdmSchemaId` | 문자열 | **예** | XDM 스키마 ID별로 이벤트를 일치시킵니다(일치 작동 방식 참조). |
+| `schema` | 문자열 | 아니오 | 들어오는 이벤트를 확인하기 위한 [JSON 스키마](https://json-schema.org/)&#x200B;(문자열). |
+| `transformer` | 문자열 | **예** | 이벤트를 충성도 형식에 매핑하는 JSONata 표현식. |
 
 ## 일치 작동 방식
 
-일치 전략은 이벤트가 플랫폼에 도달하는 방식에 따라 다릅니다.
+데이터 수집 핵심 서비스(DCCS)를 통해 도착하는 이벤트는 XDM 스키마 참조를 봉투에 포함합니다. 플랫폼은 `/body/xdmMeta/schemaRef/id`에서 스키마 ID를 읽고 각 정의의 `xdmSchemaId`과(와) 비교합니다.
 
-**DCCS 수집 경로** - DCCS(데이터 수집 핵심 서비스)를 통해 도착하는 이벤트에는 XDM 스키마 참조가 봉투에 들어 있습니다. 플랫폼은 `/body/xdmMeta/schemaRef/id`에서 스키마 ID를 읽고 각 정의의 `xdmSchemaId`과(와) 비교합니다. 이 경로를 위한 정의에 대해 `xdmSchemaId`을(를) 구성합니다.
-
-**직접 HTTP 경로(adobe.io)** — adobe.io API를 통해 플랫폼에 직접 게시된 이벤트는 XDM 스키마 참조를 전달하지 않습니다. 대신 플랫폼이 `identifierPath`을(를) 사용하여 이벤트 JSON을 트래버스하고 찾은 값을 확인합니다.
-* `identifier`이(가) 비어 있지 않으면 값이 구성된 문자열 중 하나와 일치해야 합니다.
-* `identifier`이(가) 비어 있는 경우: 경로에 null이 아닌 값이 있는 모든 이벤트가 일치합니다.
-
-이 경로를 위한 정의에 대해 `identifierPath`(및 선택적으로 `identifier`)을(를) 구성합니다.
-
-플랫폼은 조직의 이벤트 정의를 **순서대로**&#x200B;하고 첫 번째 일치를 적용합니다. 일치 항목이 발견되면 `xdmEntity` 본문(DCCS 이벤트용) 또는 전체 이벤트 본문(직접 HTTP 이벤트용)이 변환기에 전달됩니다.
+플랫폼은 조직의 이벤트 정의를 **순서대로**&#x200B;하고 첫 번째 일치를 적용합니다. 일치 항목이 발견되면 `xdmEntity` 본문이 변환기에 전달됩니다.
 
 ## 변환기에 쓰기
 
@@ -291,10 +279,9 @@ DCCS 경로를 통해 도착하는 이벤트의 경우 멤버의 ID는 일반적
 
 ```json
 {
-  "name":           "Mobile Store Check-In",
-  "identifierPath": "eventName",
-  "identifier":     ["store-checkin"],
-  "transformer":    "{\"_id\": _id, \"event_name\": eventName, \"timestamp\": timestamp, \"location_id\": storeId, \"loyalty_identity\": {\"id\": member.loyaltyId}, \"item_list\": [{\"item_set\": [eventName], \"quantity\": 1}]}"
+  "name":        "Mobile Store Check-In",
+  "xdmSchemaId": "https://ns.adobe.com/yourtenant/schemas/store-checkin-v1",
+  "transformer": "{\"_id\": _id, \"event_name\": eventName, \"timestamp\": timestamp, \"location_id\": storeId, \"loyalty_identity\": {\"id\": member.loyaltyId}, \"item_list\": [{\"item_set\": [eventName], \"quantity\": 1}]}"
 }
 ```
 
@@ -366,10 +353,9 @@ DCCS 경로를 통해 도착하는 이벤트의 경우 멤버의 ID는 일반적
 
 ```json
 {
-  "name":           "Retail POS Purchase",
-  "identifierPath": "transaction.transactionId",
-  "identifier":     [],
-  "transformer":    "{\"_id\": _id, \"event_name\": \"purchase\", \"timestamp\": timestamp, \"utc_offset\": storeInfo.utcOffset, \"location_id\": storeInfo.storeId, \"transaction_id\": transaction.transactionId, \"loyalty_identity\": {\"id\": member.loyaltyId}, \"item_list\": transaction.items.{\"item_set\": [sku, category], \"quantity\": qty, \"unit_price\": unitPrice, \"sub_total\": lineTotal}}"
+  "name":        "Retail POS Purchase",
+  "xdmSchemaId": "https://ns.adobe.com/yourtenant/schemas/retail-pos-purchase-v1",
+  "transformer": "{\"_id\": _id, \"event_name\": \"purchase\", \"timestamp\": timestamp, \"utc_offset\": storeInfo.utcOffset, \"location_id\": storeInfo.storeId, \"transaction_id\": transaction.transactionId, \"loyalty_identity\": {\"id\": member.loyaltyId}, \"item_list\": transaction.items.{\"item_set\": [sku, category], \"quantity\": qty, \"unit_price\": unitPrice, \"sub_total\": lineTotal}}"
 }
 ```
 
@@ -550,10 +536,9 @@ x-sandbox-name: {SANDBOX}
 Content-Type: application/json
 
 {
-  "name":           "Retail POS Purchase",
-  "identifierPath": "transaction.transactionId",
-  "identifier":     [],
-  "transformer":    "{ ... }"
+  "name":        "Retail POS Purchase",
+  "xdmSchemaId": "https://ns.adobe.com/yourtenant/schemas/retail-pos-purchase-v1",
+  "transformer": "{ ... }"
 }
 ```
 
