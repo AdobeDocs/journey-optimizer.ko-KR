@@ -18,7 +18,7 @@ topic_v2:
 source-git-commit: 94ca2d9458152fb471e9590d053c4729a4a5134f
 workflow-type: tm+mt
 source-wordcount: 1972
-ht-degree: 35%
+ht-degree: 39%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 35%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_target"
 >title="Target"
->abstract="**[!UICONTROL Target]** 섹션은 이 채널 활동에 대한 게재 대상을 설정합니다. 이 전송에 적용할 대상 차원을 선택하려면 **[!UICONTROL 대상 차원]**&#x200B;을 사용하십시오. 그런 다음 **[!UICONTROL 프로필당 한 개의 메시지]**&#x200B;를 선택하여 사람당 한 개의 메시지를 보내거나 **[!UICONTROL 보조 차원당 한 개의 메시지]**&#x200B;를 선택하여 자격 조건을 갖춘 보조 차원당 한 개의 메시지를 보냅니다(예: 동일한 여행자에게 일치하는 비행기가 여러 개 있는 경우 비행편당 한 개의 이메일)."
+>abstract="**[!UICONTROL 대상]** 섹션은 이 채널 활동에 대한 게재 대상을 설정합니다. **[!UICONTROL 대상 차원]**&#x200B;을 사용하여 이 전송에 적용할 대상 차원을 선택하십시오. 그런 다음 **[!UICONTROL 프로필당 메시지 1개]**&#x200B;를 선택하여 사용자당 메시지 1개를 전송하거나, **[!UICONTROL 보조 차원당 메시지 1개]**&#x200B;를 선택하여 적격 보조 차원당 메시지 1개를 전송할 수 있습니다. 예를 들어, 동일한 여행객에 대해 조건에 맞는 비행편이 여러 개 있는 경우 비행편당 이메일 1개를 전송할 수 있습니다."
 
 <!--
 UNUSED IDs in BJ
