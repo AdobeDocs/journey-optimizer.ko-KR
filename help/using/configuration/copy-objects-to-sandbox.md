@@ -33,9 +33,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
+source-git-commit: 6e15053d050d9500456046d0ac2d75c0127d3559
 workflow-type: tm+mt
-source-wordcount: 2475
+source-wordcount: 2428
 ht-degree: 2%
 
 ---
@@ -126,10 +126,6 @@ Journey Optimizer을 사용하면 여정, 캠페인(작업, API 트리거 및 �
 패키지 내보내기 및 가져오기를 사용하여 샌드박스 간에 오케스트레이션된 캠페인을 복사할 수 있습니다. 오케스트레이션된 캠페인은 다른 오브젝트와 동일한 전체 패턴을 따르지만, 패키지에 포함된 것과 타겟 샌드박스에서 준비해야 하는 것은 액션 또는 API 트리거 캠페인과 다릅니다.
 
 오케스트레이션된 캠페인을 내보내려면 [소스 샌드박스 패키지에 추가](#add-objects-as-a-package-export)(상태와 상관없이)하고, [패키지를 게시](#publish)한 다음 [패키지를 대상 샌드박스로 가져오기](#import)합니다.
-
->[!IMPORTANT]
->
->가져온 직후 [오케스트레이션된 캠페인을 대상 샌드박스에서 복제](../campaigns/manage-campaigns.md#duplicate-a-campaign)하고, 구성, 테스트 및 실행에 해당 복제를 사용합니다. 가져온 사본을 대신 실행하거나 게시하는 경우 캠페인 보고에 피드백 및 추적 데이터가 표시되지 않을 수 있습니다. 이 제한은 향후 릴리스에서 제거됩니다.
 
 프로덕션으로 가져오기 전에 다음 동작 및 제한 사항을 염두에 두십시오.
 

@@ -26,9 +26,9 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
+source-git-commit: ef136412971fb3b0240d7d86f1698124495a868a
 workflow-type: tm+mt
-source-wordcount: 1162
+source-wordcount: 1226
 ht-degree: 10%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 10%
 * 프로필 스토어의 데이터에 대해 90일
 * 데이터 레이크의 데이터에 대해 13개월
 
-이 변경 사항은 후속 단계에서 **기존 고객 샌드박스**&#x200B;로 롤아웃됩니다.
+이 변경 사항은 **2026년 10월 1일**&#x200B;부터 **기존 고객 샌드박스**&#x200B;에 적용됩니다.
 
 ## 영향을 받는 데이터 세트 {#datasets}
 
@@ -100,13 +100,13 @@ TTL 확장은 현재 지원되지 않습니다. 그러나 2025년 후반부터 �
 
 >[!NOTE]
 >
->프로필에 저장된 데이터는 총 데이터 볼륨 권한에 속합니다. 따라서 TTL 확장으로 인한 프로필의 데이터 저장소 증가는 총 데이터 볼륨 권한에 대해 계산됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=ko){target=_blank}
+>프로필에 저장된 데이터는 총 데이터 볼륨 권한에 속합니다. 따라서 TTL 확장으로 인한 프로필의 데이터 저장소 증가는 총 데이터 볼륨 권한에 대해 계산됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=ko){target="_blank"}
 
 +++
 
 +++고객이 데이터 레이크에서 [!DNL Journey Optimizer] 시스템 데이터 세트 데이터의 TTL을 늘릴 수 있습니까? 
 
-TTL 확장은 현재 지원되지 않습니다. 고객은 대상 을 통해 데이터를 내보내 데이터를 더 오래 유지할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=ko){target=_blank}. 또한 **[!DNL Data Distiller]** 권한이 있는 고객은 파생 데이터 세트를 만들어 TTL 없이 데이터 레이크에 데이터를 저장할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=_blank}
+TTL 확장은 현재 지원되지 않습니다. 고객은 대상 을 통해 데이터를 내보내 데이터를 더 오래 유지할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=ko){target="_blank"} 또한 **[!DNL Data Distiller]** 권한이 있는 고객은 파생 데이터 세트를 만들어 TTL 없이 데이터 레이크에 데이터를 저장할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/query/data-distiller/derived-datasets/overview){target="_blank"}
 
 +++
 
@@ -144,7 +144,10 @@ TTL 확장은 현재 지원되지 않습니다. 고객은 대상 을 통해 데�
 
 +++TTL보다 더 오래 데이터를 유지하는 데 사용할 수 있는 대체 기능은 무엇입니까?
 
-보존을 더 오래 유지해야 하는 고객은 TTL 만료 전에 AJO 데이터 세트에서 외부 스토리지로 관련 데이터를 내보내는 것을 고려해야 합니다. Adobe Journey Optimizer은 다양한 클라우드 스토리지 대상(Amazon S3, Azure Blob, Google Cloud Storage 등)으로 데이터 세트 내보내기를 지원합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=ko){target=_blank}
+장기 보존이 필요한 고객은 다음 두 가지 옵션을 사용할 수 있습니다.
+
+* **외부 저장소로 내보내기**: TTL 만료 전에 AJO 데이터 세트에서 관련 데이터를 내보냅니다. Adobe Journey Optimizer은 다양한 클라우드 스토리지 대상(Amazon S3, Azure Blob, Google Cloud Storage 등)으로 데이터 세트 내보내기를 지원합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=ko){target="_blank"}
+* **Data Distiller 파생 데이터 세트**: Data Distiller 권한이 있는 고객은 자동화된 쿼리를 설정하여 중요한 데이터를 TTL 없이 저장할 수 있는 데이터 레이크의 파생 데이터 세트에 복사할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/query/data-distiller/derived-datasets/overview){target="_blank"}
 
 +++
 
@@ -156,9 +159,9 @@ TTL 확장은 현재 지원되지 않습니다. 고객은 대상 을 통해 데�
 
 +++
 
-+++기존 샌드박스에 TTL이 적용되기 전에 고객에게 알림이 제공됩니까?
++++기존 샌드박스에서 TTL이 적용되기 전에 고객에게 어떻게 알림을 제공합니까?
 
-예. 영향을 받는 고객은 미리 알림을 받게 되며 제품 팀은 원활한 전환을 위해 고객과 협력합니다.
+Adobe은 기존 샌드박스에 TTL을 적용하기 전에 영향을 받는 고객에게 알립니다. 이 롤아웃의 경우 Adobe은 제품 내 알림을 보내고 이 변경 사항을 제품 릴리스 정보에 게시하여 2026년 10월 1일 가드레일이 발효되기 약 2개월 전에 고객에게 알렸습니다.
 
 +++
 
