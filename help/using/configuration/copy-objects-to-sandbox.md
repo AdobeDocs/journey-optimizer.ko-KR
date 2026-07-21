@@ -10,32 +10,14 @@ level: Experienced
 keywords: 샌드박스, 여정, 복사, 환경
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
 TQID: https://experienceleague.adobe.com/FfasSBtxSzc20knTVljqAJi4MVyoK9-RApQcTfDAa3Q
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c6e980f5-2d4f-494f-beef-186b9ecf1513id: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: d595a60b-bcf5-4a63-a189-66a0be755cc7id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 6e15053d050d9500456046d0ac2d75c0127d3559
 workflow-type: tm+mt
-source-wordcount: 2475
+source-wordcount: 2428
 ht-degree: 2%
 
 ---
@@ -50,7 +32,7 @@ ht-degree: 2%
 
 패키지 내보내기 및 가져오기 기능을 사용하여 여러 샌드박스에서 여정, 캠페인, 사용자 지정 작업, 콘텐츠 템플릿 또는 조각과 같은 개체를 복사할 수 있습니다. 패키지는 단일 개체 또는 여러 개체로 구성될 수 있습니다. 패키지에 포함되는 모든 개체는 동일한 샌드박스에서 가져온 개체여야 합니다.
 
-이 페이지에서는 Journey Optimizer 컨텍스트에서 샌드박스 도구 사용 사례를 설명합니다. 기능 자체에 대한 자세한 내용은 Adobe Experience Platform [샌드박스 도구 안내서](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=ko#abobe-journey-optimizer-objects){target="_blank"}를 참조하십시오.
+이 페이지에서는 Journey Optimizer 컨텍스트에서 샌드박스 도구 사용 사례를 설명합니다. 기능 자체에 대한 자세한 내용은 Adobe Experience Platform [샌드박스 도구 안내서](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects){target="_blank"}를 참조하십시오.
 
 >[!NOTE]
 >
@@ -80,7 +62,7 @@ Journey Optimizer을 사용하면 여정, 캠페인(작업, API 트리거 및 �
 
 +++ 여정
 
-* **복사된 종속성** - 여정을 내보낼 때 여정 자체 외에도 Journey Optimizer은 여정이 의존하는 대부분의 개체(대상, 사용자 지정 작업, 스키마, 이벤트 및 작업)도 복사합니다. 복사된 개체에 대한 자세한 내용은 Adobe Experience Platform [샌드박스 도구 안내서](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=ko#abobe-journey-optimizer-objects){target="_blank"}를 참조하십시오.
+* **복사된 종속성** - 여정을 내보낼 때 여정 자체 외에도 Journey Optimizer은 여정이 의존하는 대부분의 개체(대상, 사용자 지정 작업, 스키마, 이벤트 및 작업)도 복사합니다. 복사된 개체에 대한 자세한 내용은 Adobe Experience Platform [샌드박스 도구 안내서](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects){target="_blank"}를 참조하십시오.
 
 * **수동 유효성 검사 권장** - 연결된 모든 요소가 대상 샌드박스에 복사되지 않습니다. 예를 들어 여정을 게시하기 전에 철저한 검사를 수행하는 것이 좋습니다. 이를 통해 잠재적인 누락된 오브젝트를 식별할 수 있습니다.
 
@@ -126,10 +108,6 @@ Journey Optimizer을 사용하면 여정, 캠페인(작업, API 트리거 및 �
 패키지 내보내기 및 가져오기를 사용하여 샌드박스 간에 오케스트레이션된 캠페인을 복사할 수 있습니다. 오케스트레이션된 캠페인은 다른 오브젝트와 동일한 전체 패턴을 따르지만, 패키지에 포함된 것과 타겟 샌드박스에서 준비해야 하는 것은 액션 또는 API 트리거 캠페인과 다릅니다.
 
 오케스트레이션된 캠페인을 내보내려면 [소스 샌드박스 패키지에 추가](#add-objects-as-a-package-export)(상태와 상관없이)하고, [패키지를 게시](#publish)한 다음 [패키지를 대상 샌드박스로 가져오기](#import)합니다.
-
->[!IMPORTANT]
->
->가져온 직후 [오케스트레이션된 캠페인을 대상 샌드박스에서 복제](../campaigns/manage-campaigns.md#duplicate-a-campaign)하고, 구성, 테스트 및 실행에 해당 복제를 사용합니다. 가져온 사본을 대신 실행하거나 게시하는 경우 캠페인 보고에 피드백 및 추적 데이터가 표시되지 않을 수 있습니다. 이 제한은 향후 릴리스에서 제거됩니다.
 
 프로덕션으로 가져오기 전에 다음 동작 및 제한 사항을 염두에 두십시오.
 
