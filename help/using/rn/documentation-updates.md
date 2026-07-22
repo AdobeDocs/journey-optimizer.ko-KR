@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 79735a937de077c4062b081886cb03ca7bc6692c
+source-git-commit: 8d22a37bc51408b7613b3970d7b64b474e8600a2
 workflow-type: tm+mt
-source-wordcount: 9560
+source-wordcount: 9592
 ht-degree: 85%
 
 ---
@@ -27,6 +27,8 @@ ht-degree: 85%
 이 페이지에는 월별 릴리스 기능 및 개선 사항과 관련된 업데이트 외에도 [!DNL Journey Optimizer] 설명서의 모든 최신 변경 사항이 나와 있습니다.
 
 ## 2026년 7월 {#july-2026}
+
+* **To Precision** 함수 설명서가 업데이트되어 `toPrecision`이(가) JavaScript `toFixed()`과(와) 같이 동작함을 명확히 합니다. 이 설명서는 필요할 때 0-패딩을 포함하여 소수점 이하 자릿수가 고정된 문자열을 반환합니다. [자세히 보기](../personalization/functions/math.md#to-precision)
 
 * **여정 끝내기** 페이지가 업데이트되어 되풀이되지 않는 대상 읽기 여정에 대한 자동 중지 타이밍을 명확히 했습니다. 예약된 실행(24시간 유휴 기간 + 72시간 자동 사용 가능 시간) 후 약 **96시간(~4일)**&#x200B;의 안전 버퍼입니다. 이 안전 버퍼는 버퍼가 끝난 직후 **중지됨**(으)로 전환되기 전에 여정이 **라이브** 상태로 유지될 수 있습니다. 이제 페이지에서는 예약된 일괄 처리 기반(다중 일괄 처리) 여정 및 전송 시간 최적화를 사용하는 여정이 이 자동 중지에서 제외되고 대신 표준 91일 여정 시간 제한을 따르도록 명확하게 합니다. [자세히 보기](../building-journeys/end-journey.md#auto-stop-non-recurring)
 

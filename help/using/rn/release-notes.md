@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 423db08a3c4c5a8d9540fa0c8e03e28ca36ca299
+source-git-commit: 690a8a3354c13e39ee12d9e30c981841d43f71c7
 workflow-type: tm+mt
-source-wordcount: 3064
-ht-degree: 74%
+source-wordcount: 3115
+ht-degree: 72%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 74%
 <table>
 <thead>
 <tr>
-<th><strong>이메일 디자이너에서 콘텐츠 확인</strong><br/></th>
+<th><strong>이메일 Designer에서 컨텐츠 확인(일반 가용성)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -95,6 +95,8 @@ ht-degree: 74%
 * **AJO MCP 서버 새 도구** - 이제 [!DNL Adobe Journey Optimizer] MCP 서버는 5개의 추가 읽기 전용 **채널 구성 도구**&#x200B;를 노출하므로 AI 도우미에서 직접 채널 구성, 지원 리소스 및 마케팅 작업을 쿼리할 수 있습니다. 이제 **목록 채널 구성**(모든 AJO 채널에서), **채널 구성 가져오기**, **목록 구성 리소스**, **구성 리소스 가져오기** 및 **목록 마케팅 작업**&#x200B;을 사용할 수 있습니다. [자세히 보기](../integrations/ajo-mcp.md#mcp-tools)
 
   사용 가능한 날짜: 2026년 7월 9일
+
+* **TTL(Time-to-Live) 보호 — 기존 샌드박스** - Journey Optimizer 시스템 생성 데이터 세트에 대한 TTL(Time-to-Live) 보호(프로필 스토어에서 90일, 데이터 레이크에서 13개월)가 **기존 고객 샌드박스 및 조직에 적용됩니다** **2026년 10월 1일**. [자세히 알아보기](../data/datasets-ttl.md#ttl-guardrail)
 
 
 ### 사용성 개선 사항 {#july-26-usability}
@@ -353,7 +355,7 @@ ht-degree: 74%
 <table>
 <thead>
 <tr>
-<th><strong>이메일 디자이너에서 콘텐츠 확인</strong><br/></th>
+<th><strong>이메일 Designer에서 컨텐츠 확인(제한된 가용성)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
