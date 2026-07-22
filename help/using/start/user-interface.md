@@ -9,32 +9,16 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 TQID: https://experienceleague.adobe.com/RqIzgHdwFqBmYLPKbMkAvscFopYMF-lt2gY4Vl34GKA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 423db08a3c4c5a8d9540fa0c8e03e28ca36ca299
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5deeid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 6f12c9d87f9a12bfe5d43c984439c066e881b680
 workflow-type: tm+mt
-source-wordcount: 1516
-ht-degree: 98%
+source-wordcount: 1650
+ht-degree: 90%
 
 ---
 
@@ -391,3 +375,39 @@ AI 어시스턴트는 즉각적인 도움과 운영 인사이트를 제공합니
 >id="ajo_orchestration_line"
 >title="Line 활동"
 >abstract="**Line** 활동을 통해 오케스트레이션된 캠페인에 LINE 액션을 추가할 수 있습니다. 텍스트 및 스티커에서 이미지, 비디오, 위치 및 Flex Message에 이르는 다양하고 개인화된 콘텐츠를 제작하여 LINE에서 고객 참여를 유도합니다."
+
+
+<!-- Onboarding hub -->
+
+>[!CONTEXTUALHELP]
+>id="ajo_migration_connection_name"
+>title="연결 이름"
+>abstract="소스 시스템을 식별하는 수사적 이름(예: &#39;Marketing-Automation-Prod&#39;). 문자로 시작해야 하며 영숫자, 밑줄 또는 하이픈(4~50자)만 포함할 수 있습니다."
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_migration_base_api_url"
+>title="기본 API URL"
+>abstract="리소스 경로나 쿼리 문자열 없이 API의 루트 URL입니다(예: https://api.example.com)."
+
+>[!CONTEXTUALHELP]
+>id="ajo_migration_authentication_method"
+>title="인증 방법 선택"
+>abstract="API 키는 각 요청에 대해 단일 자격 증명을 보내는 반면, OAuth 2.0은 엔터프라이즈 및 타사 API에 더 적합한 토큰 기반 프로토콜을 사용합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_migration_client_id"
+>title="클라이언트 ID"
+>abstract="인증 서버에 등록할 때 발급되는 응용 프로그램의 공개 식별자입니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_migration_client_secret"
+>title="클라이언트 암호"
+>abstract="앱과 인증 서버에만 알려진 기밀 자격 증명입니다. 클라이언트측 코드에서는 절대 노출하지 마십시오."
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_migration_token_url"
+>title="토큰 URL"
+>abstract="클라이언트 자격 증명 흐름에 대한 액세스 토큰을 발급하는 인증 서버 엔드포인트로, 일반적으로 /oauth/token 또는 /token으로 끝납니다."
+
