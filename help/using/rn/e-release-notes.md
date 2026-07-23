@@ -7,18 +7,13 @@ feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 hide: true
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 7d0e9985e6bada31eee347b39c7996c5a77bf062
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 0a4a356b7806eee2365f0606eb7956f21cbacfb6
 workflow-type: tm+mt
-source-wordcount: 1984
-ht-degree: 14%
+source-wordcount: 2022
+ht-degree: 15%
 
 ---
 
@@ -32,7 +27,7 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published once changes are live in production. While most changes are delivered on the release date, a few may roll out later — refer to the Availability Date listed for each entry for details.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: June 16-17, 2026
 
@@ -221,9 +216,13 @@ Journey Optimizer introduces the Onboarding Assistant, a new capability in this 
 
 이 릴리스의 Decisioning에 다음과 같은 개선 사항이 추가되었습니다.
 
-* **자연어 식에서 의사 결정 규칙 만들기** - 이제 일반 언어로 만들려는 의사 결정 규칙을 설명하고 AI가 자동으로 생성하도록 할 수 있습니다. 이 기능은 Adobe AI 기능에 액세스하는 고객이 사용할 수 있습니다. <!-- Documentation link: TBD -->
+* **자연어 식에서 의사 결정 규칙 만들기** - 이제 일반 언어로 만들려는 의사 결정 규칙을 설명하고 AI가 자동으로 생성하도록 할 수 있습니다. 이 기능은 Adobe AI 기능에 액세스하는 고객이 사용할 수 있습니다.
 
-* **의사 결정 규칙 및 등급 수식 시뮬레이션** - 이제 규칙 또는 수식 편집기에서 직접 의사 결정 규칙 및 등급 수식을 시뮬레이션할 수 있습니다. 수동 테스트 변형을 추가하거나 AI를 사용하여 생성한 다음 테스트 데이터에 대해 표현식을 실행하여 자격 조건을 확인하고 등급 결과를 검토한 후 프로덕션에 배포합니다. Adobe AI 기능에 액세스하는 고객은 변형 생성을 사용할 수 있습니다. <!-- Documentation link: TBD -->
+  이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오. <!-- Documentation link: TBD -->
+
+* **의사 결정 규칙 및 등급 수식 시뮬레이션** - 이제 규칙 또는 수식 편집기에서 직접 의사 결정 규칙 및 등급 수식을 시뮬레이션할 수 있습니다. 수동 테스트 변형을 추가하거나 AI를 사용하여 생성한 다음 테스트 데이터에 대해 표현식을 실행하여 자격 조건을 확인하고 등급 결과를 검토한 후 프로덕션에 배포합니다. Adobe AI 기능에 액세스하는 고객은 변형 생성을 사용할 수 있습니다.
+
+  이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오. <!-- Documentation link: TBD -->
 
 * **오퍼 수준의 Personalization** - 이제 프로필, 컨텍스트 및 대상 데이터를 사용하여 게재 시 의사 결정 항목 사용자 지정 특성을 개인화할 수 있습니다. 이를 통해 사소한 콘텐츠 변형에 대해 중복 오퍼를 유지할 필요가 없으므로 마케터는 보다 적고 유연한 결정 항목을 관리할 수 있습니다. <!-- Documentation link: TBD -->
 
