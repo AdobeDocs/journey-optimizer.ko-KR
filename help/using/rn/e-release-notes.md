@@ -7,17 +7,12 @@ feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 hide: true
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 5c5b42ec6cf86a942f2affb681e9c8143734c7ab
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 8d78d1834da1a67c130edf4f3a3ad259a040c151
 workflow-type: tm+mt
-source-wordcount: 2034
+source-wordcount: 2033
 ht-degree: 13%
 
 ---
@@ -32,7 +27,7 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published once changes are live in production. While most changes are delivered on the release date, a few may roll out later — refer to the Availability Date listed for each entry for details.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: June 16-17, 2026
 
@@ -133,7 +128,7 @@ Journey Optimizer introduces the Onboarding Assistant, a new capability in this 
 </tbody>
 </table>
 
-* **외부 대상 문서 지원 여정 시뮬레이션의 Federated Audience 구성** - 이제 여정 시뮬레이션이 외부 대상을 지원합니다. Federated Audience Composition 대상을 타깃팅하는 여정을 시뮬레이션할 때 UI 양식 또는 JSON 가져오기를 통해 해당 대상의 데이터 보강 속성을 직접 모의할 수 있습니다. UI는 여정 논리에 사용된 특정 데이터 보강 속성만 동적으로 표시하므로 실행 전에 의사 결정 분기 및 개인화 규칙을 정확하게 확인할 수 있습니다. <!-- Documentation link: TBD -->
+* **여정 시뮬레이션에서 외부 대상 지원 문서** - 이제 여정 시뮬레이션이 외부 대상을 지원합니다. CSV 또는 Federated Audience Composition 대상을 타겟팅하는 여정을 시뮬레이션할 때 UI 양식 또는 JSON 가져오기를 통해 해당 대상의 데이터 보강 속성을 직접 모의할 수 있습니다. UI는 여정 논리에 사용된 특정 데이터 보강 속성만 동적으로 표시하므로 실행 전에 의사 결정 분기 및 개인화 규칙을 정확하게 확인할 수 있습니다. <!-- Documentation link: TBD -->
 
 * **여정 헤더의 시작 및 종료 날짜** - 시작 및/또는 종료 날짜가 라이브 여정에 구성되면 이제 라이브 상태 배지 옆에 여정 헤더가 표시됩니다. 표시된 레이블은 각 날짜가 예정된 날짜인지 또는 이미 지난 날짜인지에 따라 조정됩니다. <!-- Documentation link: TBD -->
 
