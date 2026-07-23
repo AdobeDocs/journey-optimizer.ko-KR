@@ -7,17 +7,12 @@ feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 hide: true
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 172fcd6cd79efb57005f8872439e9547afeeb84a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 5370e707b0b2b6f50a10c6b4aba9108ceb621dee
 workflow-type: tm+mt
-source-wordcount: 2178
+source-wordcount: 2191
 ht-degree: 17%
 
 ---
@@ -32,7 +27,7 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published once changes are live in production. While most changes are delivered on the release date, a few may roll out later — refer to the Availability Date listed for each entry for details.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: June 16-17, 2026
 
@@ -136,7 +131,7 @@ Journey Optimizer introduces the Onboarding Assistant, a new capability in this 
 </tbody>
 </table>
 
-* **여정 시뮬레이션에서 외부 대상(쉼표로 구분된 값 및 Federated Audience Composition)에 대한 문서 지원** - 여정 시뮬레이션이 이제 외부 대상을 지원합니다. 쉼표로 구분된 값 또는 Federated Audience Composition 대상을 타깃팅하는 여정을 시뮬레이션할 때 UI 양식 또는 JSON 가져오기를 통해 해당 대상의 데이터 보강 속성을 직접 모의할 수 있습니다. UI는 여정 논리에 사용된 특정 데이터 보강 속성만 동적으로 표시하므로 실행 전에 의사 결정 분기 및 개인화 규칙을 정확하게 확인할 수 있습니다. ([DOCAC-15074](https://jira.corp.adobe.com/browse/DOCAC-15074)) <!-- Documentation link: TBD -->
+* **외부 대상 문서 지원 여정 시뮬레이션의 Federated Audience 구성** - 이제 여정 시뮬레이션이 외부 대상을 지원합니다. Federated Audience Composition 대상을 타깃팅하는 여정을 시뮬레이션할 때 UI 양식 또는 JSON 가져오기를 통해 해당 대상의 데이터 보강 속성을 직접 모의할 수 있습니다. UI는 여정 논리에 사용된 특정 데이터 보강 속성만 동적으로 표시하므로 실행 전에 의사 결정 분기 및 개인화 규칙을 정확하게 확인할 수 있습니다. ([DOCAC-15074](https://jira.corp.adobe.com/browse/DOCAC-15074)) <!-- Documentation link: TBD -->
 
 * **여정 헤더의 시작 및 종료 날짜** - 시작 및/또는 종료 날짜가 라이브 여정에 구성되면 이제 라이브 상태 배지 옆에 여정 헤더가 표시됩니다. 표시되는 레이블은 각 날짜가 다가오는지 또는 이미 지났는지에 따라 달라집니다. ([DOCAC-14702](https://jira.corp.adobe.com/browse/DOCAC-14702)) <!-- Documentation link: TBD -->
 
@@ -183,14 +178,16 @@ Journey Optimizer introduces the Onboarding Assistant, a new capability in this 
 <table>
 <thead>
 <tr>
-<th><strong>API 트리거 캠페인의 트랜잭션 메시지에 대한 개인화된 PDF 첨부 파일</strong><br/></th>
+<th><strong>API가 트리거된 이메일의 개인화된 PDF 첨부 파일</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 API 페이로드의 파일 위치를 전달하여 API 트리거 트랜잭션 캠페인에 이메일당 최대 5개의 동적 개인화된 PDF를 첨부할 수 있습니다. 이를 통해 항공과 같은 업종은 탑승권이나 여행 확인서를, 금융 서비스는 개별화된 송장이나 명세서를, 소매업은 주문 영수증이나 반송 라벨을 전송할 수 있습니다. 각 문서는 전송 시간에 수신자에게 맞게 작성됩니다.</p>
-<p>개인화된 정적 PDF 첨부 파일은 동일한 할당량을 공유합니다. 사용 한도를 초과하면 PDF 첨부 파일 추가 기능이 필요합니다. 이 기능은 여정 또는 작업 캠페인에서는 사용할 수 없습니다.</p>
+<p>이제 Journey Optimizer에서는 API 트리거 캠페인에서 이메일당 최대 5개의 수신자 특정 PDF를 첨부할 수 있습니다. PDF 파일은 Azure 또는 AWS 저장소에서 안전하게 가져오고 전송 시 첨부하며, 각 파일의 위치는 API 페이로드에 직접 전달됩니다. 이렇게 하면 Journey Optimizer에서 게재를 처리하면서 기존 업스트림 문서 생성 시스템이 제자리에 유지될 수 있습니다.</p>
+<p>지원되는 사용 사례에는 송장, 명세서, 티켓, 계약서, 배송 라벨 및 수신자마다 다른 유사한 문서가 포함됩니다. 개인화된 PDF 첨부 파일은 API 트리거 캠페인에서만 사용할 수 있으며, 여정 또는 다른 캠페인 유형(작업, 오케스트레이션)에서는 지원되지 않습니다.</p>
+<p>PDF 첨부 파일 추가 기능을 통해 더 큰 첨부 파일 볼륨 및 크기가 지원됩니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.</p>
+<p></p>
 <p>Jira: <a href="https://jira.corp.adobe.com/browse/DOCAC-15186">DOCAC-15186</a></p>
 <!-- Documentation link: TBD -->
 </td>
@@ -231,7 +228,11 @@ Journey Optimizer introduces the Onboarding Assistant, a new capability in this 
 
 * **의사 결정 규칙 및 등급 수식 시뮬레이션** - 이제 규칙 또는 수식 편집기에서 직접 의사 결정 규칙 및 등급 수식을 시뮬레이션할 수 있습니다. 수동 테스트 변형을 추가하거나 AI를 사용하여 생성한 다음 테스트 데이터에 대해 표현식을 실행하여 자격 조건을 확인하고 등급 결과를 검토한 후 프로덕션에 배포합니다. Adobe AI 기능에 액세스하는 고객은 변형 생성을 사용할 수 있습니다. ([DOCAC-15227](https://jira.corp.adobe.com/browse/DOCAC-15227)) <!-- Documentation link: TBD -->
 
-* **동적 오퍼 특성** - 이제 프로필, 컨텍스트 및 대상 데이터를 사용하여 게재 시 의사 결정 항목 사용자 지정 특성을 개인화할 수 있습니다. 이렇게 하면 사소한 콘텐츠 변형에 대한 중복 오퍼를 관리할 필요가 없어지므로 마케터는 더 적고 유연한 결정 항목을 관리할 수 있습니다. ([DOCAC-14899](https://jira.corp.adobe.com/browse/DOCAC-14899)) <!-- Documentation link: TBD -->
+* **오퍼 수준의 Personalization** - 이제 프로필, 컨텍스트 및 대상 데이터를 사용하여 게재 시 의사 결정 항목 사용자 지정 특성을 개인화할 수 있습니다. 이렇게 하면 사소한 콘텐츠 변형에 대한 중복 오퍼를 관리할 필요가 없어지므로 마케터는 더 적고 유연한 결정 항목을 관리할 수 있습니다. ([DOCAC-14899](https://jira.corp.adobe.com/browse/DOCAC-14899)) <!-- Documentation link: TBD -->
+
+<!--
+* **Placement-level frequency capping in Decisioning** - Frequency capping rules in Decisioning can now be scoped to individual placements, giving you finer control over how often an offer is shown in a given surface. Two modes are available: placement-specific capping (define a cap that applies only when the offer is displayed in a selected placement) and per-placement capping (apply a cap independently across every placement where the offer appears, so each placement maintains its own capping counter). ([DOCAC-14980](https://jira.corp.adobe.com/browse/DOCAC-14980)) Documentation link: TBD
+-->
 
 ### 콘텐츠 관리 {#july-26-content}
 
