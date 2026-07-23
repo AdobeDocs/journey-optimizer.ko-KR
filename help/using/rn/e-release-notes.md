@@ -7,17 +7,12 @@ feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 hide: true
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 0a4a356b7806eee2365f0606eb7956f21cbacfb6
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 63f671017bc011f67a2ee918430dc6af97eeb47a
 workflow-type: tm+mt
-source-wordcount: 2022
+source-wordcount: 2039
 ht-degree: 15%
 
 ---
@@ -32,7 +27,7 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published once changes are live in production. While most changes are delivered on the release date, a few may roll out later — refer to the Availability Date listed for each entry for details.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: June 16-17, 2026
 
@@ -70,9 +65,10 @@ Journey Optimizer에서는 이 릴리스의 새로운 기능인 충성도를 도
 <tbody>
 <tr>
 <td>
-<p>충성도 과제는 고객이 구매를 하거나, 리뷰를 작성하거나, 소셜 미디어에 참여하는 등 중요한 작업을 수행하도록 유도하는 매력적인 게임화된 경험으로 충성도 이니셔티브를 전환합니다.</p>
-<p>관리자는 충성도 관리 메뉴를 사용하여 보상 이행 API, 이벤트 정의, 제품 인벤토리, 제외 및 ID 설정을 포함하여 Journey Optimizer을 충성도 생태계와 연결할 수 있습니다. 그런 다음 마케터는 표준, 연속 또는 순차적 문제를 디자인하고, 작업 및 보상을 정의하고, 브랜드 콘텐츠 카드 및 메시지를 제공하고, 내장된 보고 대시보드를 사용하여 성능을 모니터링할 수 있습니다. Journey Optimizer은 백그라운드에서 각 과제를 오케스트레이션하는 여정을 생성하므로 팀이 고객 경험과 비즈니스 목표에 집중할 수 있습니다.</p>
+<p>충성도 챌린지는 충성도 이니셔티브를 고객이 구매, 리뷰 작성 또는 원하는 행동과 같은 중요한 행동을 취하도록 동기화하는 매력적인 게임화된 경험으로 바꿉니다.</p>
+<p>관리자는 충성도 관리 메뉴를 사용하여 보상 이행 API, 이벤트 정의, 제품 인벤토리, 제외 및 ID 설정을 포함하여 Journey Optimizer을 충성도 생태계와 연결할 수 있습니다. 그런 다음 마케터는 표준, 연속 또는 순차적 문제를 디자인하고, 작업 및 보상을 정의하고, 브랜드 콘텐츠 카드 및 메시지를 제공하고, AI 기반 보고 대시보드를 사용하여 성능을 모니터링할 수 있습니다. Journey Optimizer은 백그라운드에서 각 과제를 오케스트레이션하는 여정을 생성하므로 팀이 고객 경험과 비즈니스 목표에 집중할 수 있습니다.</p>
 <p>또한 충성도는 팀이 과제 생성, 과제 속성 설정, 대상자 및 관련 구성 관리, 통찰력 검토 등 주요 과제 작업을 보다 효율적으로 수행하여 과제 참여도를 모니터링하고 성과를 보상하도록 하는 동료 기술을 도입합니다.</p>
+<p>이 기능은 Journey Optimizer 충성도에 대해 라이선스가 부여된 조직에서만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
