@@ -5,10 +5,10 @@ title: 콘텐츠 생성을 위한 AI 어시스턴트
 description: 콘텐츠 생성을 위한 AI 어시스턴트
 redpen-status: CREATED_||_2025-08-12_00-42-48
 exl-id: 0fdc67ab-3646-4c6e-884d-604238549c3d
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 5a6126fd6a71b964c4169279333b65a38f652517
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 100%
+source-wordcount: '335'
+ht-degree: 88%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 AI 어시스턴트는 생성형 AI를 활용하여 �
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 AI 어시스턴트 시작
 
@@ -30,7 +30,7 @@ AI 어시스턴트 시작
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 전체 콘텐츠 생성
 
@@ -50,7 +50,7 @@ AI 어시스턴트를 사용하여 이메일, SMS, 푸시 알림, 웹 페이지 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
 
 이미지만 생성
 
@@ -67,3 +67,4 @@ AI 어시스턴트를 사용하여 이메일, 푸시 알림, 웹 페이지 및 �
 - **[AI를 활용한 콘텐츠 실험](../using/content-management/generative-experimentation.md)** - 콘텐츠 실험 기능을 사용하여 여러 콘텐츠 변형의 성과를 테스트하고 측정합니다.
 - **[AI 어시스턴트 사용 사례](../using/content-management/generative-uc.md)** - 콘텐츠 생성, 개선, 사용자 정의를 위해 AI 어시스턴트를 활용하는 다양한 방법을 살펴봅니다.
 - **[브랜드 관리 및 일관성](brands-landing-page.md)** - 브랜드 가이드라인을 관리하고 AI가 생성한 콘텐츠와 캠페인 전반에서 일관성을 보장합니다.
+- **[강의 수강: AI 기반, 브랜드 기반 콘텐츠 만들기](https://experienceleague.adobe.com/en/courses/ajo-ai-powered-on-brand-content-creation-for-marketers){target="_blank"}** - Adobe Journey Optimizer에서 AI 기반 도구를 사용하여 마케터를 위한 브랜드 기반 콘텐츠를 만드는 방법에 대해 알아봅니다.
