@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: c440ff464b2ea58519e6f1ba900728adfa718232
 workflow-type: tm+mt
 source-wordcount: 1650
-ht-degree: 90%
+ht-degree: 91%
 
 ---
 
@@ -374,7 +374,7 @@ AI 어시스턴트는 즉각적인 도움과 운영 인사이트를 제공합니
 >[!CONTEXTUALHELP]
 >id="journeyExpAI"
 >title="AI를 사용하여 표현식 생성"
->abstract="AI를 사용하여 Journey Optimizer에서 표현식을 생성하고 구체화합니다."
+>abstract="AI를 사용하여 Journey Optimizer에서 표현식을 생성하고 구체화할 수 있습니다."
 
 
 <!-- OC - LOAD FILE ACTIVITY -->

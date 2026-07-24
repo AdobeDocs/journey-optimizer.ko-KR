@@ -14,7 +14,7 @@ subfeature_v2: []
 source-git-commit: 423db08a3c4c5a8d9540fa0c8e03e28ca36ca299
 workflow-type: tm+mt
 source-wordcount: 1132
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="journeyExpAI"
 >title="AI를 사용하여 표현식 생성"
->abstract="AI를 사용하여 여정 고급 표현식 편집기에서 직접 표현식을 작성하고 생성합니다. 예를 들어 조건에서는 사용자 정의 날짜를 사용하는 **최적화** 활동 또는 **대기** 활동을 사용합니다. 필요한 것을 평이한 언어로 설명하면, AI가 그에 해당하는 표현식을 만들어 준다."
+>abstract="Journey 고급 표현식 편집기에서 AI를 사용하여 표현식을 직접 빌드하고 생성할 수 있습니다. 예를 들어 조건에서는 사용자 정의 날짜를 사용하는 **최적화** 활동 또는 **대기** 활동을 사용합니다. 필요한 사항을 일반 언어로 설명하면 AI가 해당 표현식을 생성합니다."
 
 >[!AVAILABILITY]
 >

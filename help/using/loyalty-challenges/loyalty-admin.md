@@ -16,7 +16,7 @@ subfeature_v2: []
 source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
 workflow-type: tm+mt
 source-wordcount: 1834
-ht-degree: 15%
+ht-degree: 17%
 
 ---
 
@@ -215,12 +215,12 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_event_schema"
 >title="이벤트 스키마 및 변환기"
->abstract="이벤트 스키마 섹션에서 들어오는 이벤트 필드를 충성도 문제가 예상하는 형식으로 매핑하기 위해 **[!UICONTROL 변환기]** JSONata 식을 제공합니다."
+>abstract="이벤트 스키마 섹션에서, 수신되는 이벤트 필드를 충성도 챌린지가 예상하는 형식으로 매핑하기 위해 **[!UICONTROL 변환기]** JSONata 표현식을 제공합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_event_identification"
 >title="이벤트 식별"
->abstract="이벤트 식별 섹션에서 수신 이벤트를 식별하는 데 사용되는 이벤트 이름 및 필수 XDM 스키마 ID를 입력합니다."
+>abstract="이벤트 식별 섹션에서, 수신되는 이벤트를 식별하는 데 사용되는 이벤트 이름 및 필수 XDM 스키마 ID를 입력합니다."
 
 **[!UICONTROL 이벤트 정의]**&#x200B;은(는) 처리할 수신 Adobe Experience Platform 경험 이벤트를 [!DNL Journey Optimizer]에 알려줍니다. 예를 들어, 구매 또는 호텔 체크인 등이 있습니다. 마케터는 작업 빌더에서 **[!UICONTROL 사용자 지정 이벤트]** 작업을 만들 때 이러한 정의를 참조합니다. 정의와 일치하지 않는 이벤트는 무시됩니다.
 

@@ -15,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: bcbca3a179b2cb5c686f1afd04fa9e9e611c9720
+source-git-commit: b82181c7415383035a632f390fc70e5970948af5
 workflow-type: tm+mt
-source-wordcount: 2036
-ht-degree: 15%
+source-wordcount: 2250
+ht-degree: 14%
 
 ---
 
@@ -177,7 +177,7 @@ Journey Optimizer introduces the Onboarding Assistant, a new capability in this 
 </tbody>
 </table>
 
-* **캠페인용 폴더** - 이제 캠페인을 폴더로 구성하여 인터페이스에서 탐색 및 관리를 개선할 수 있습니다. <!-- Documentation link: TBD -->
+* **캠페인용 폴더** - 이제 캠페인을 폴더로 구성하여 인터페이스에서 탐색 및 관리를 개선할 수 있습니다. 이 기능은 작업 및 API 트리거 캠페인에만 사용할 수 있습니다. <!-- Documentation link: TBD -->
 
 * **캠페인의 기본 실행 필드 재정의** - 이전에는 여정 수준에서 사용할 수 있었지만, 이제 캠페인 매개 변수에서 이메일, SMS 및 WhatsApp 게재에 대해 전역으로 설정된 기본 실행 필드를 재정의할 수 있습니다. <!-- Documentation link: TBD -->
 
@@ -356,3 +356,11 @@ The following improvements have been added to integrations in this release.
 </tr>
 </tbody>
 </table>
+
+### 사용성 개선 사항 {#july-26-usability}
+
+이번 릴리스에는 다음과 같은 사용 편의성 개선 사항이 적용되었습니다.
+
+* **콘텐츠 템플릿의 SMS, 푸시, 인앱 및 Codebase 채널에 대한 빠른 실행 바로 가기** - 이제 콘텐츠 템플릿 목록의 **추가 작업** 단추에서 채널별 바로 가기를 추가로 사용할 수 있습니다. SMS 템플릿의 경우 메시지를 빠르게 편집하거나 문자 수/세그먼트를 확인합니다. 푸시 템플릿의 경우 제목, 본문 또는 미디어를 편집합니다. 인앱 템플릿의 경우 메시지 헤더, 메시지 본문 또는 미디어 URL을 편집합니다. 코드베이스 채널 템플릿의 경우 코드를 직접 편집합니다. 이러한 단축키는 이미 사용 가능한 이메일 채널 빠른 실행 단축키를 확장합니다. <!-- Documentation link: TBD -->
+
+* **콘텐츠 테스트를 위한 새로운 콘텐츠 시뮬레이션 경험** - **콘텐츠 시뮬레이션** 워크플로에서는 새롭게 디자인된 경험을 도입했습니다. 이제 모든 변형을 한 번에 한 가지 변형인 보기를 대체하여 스크롤 가능한 단일 그리드(나란히, 스택 또는 래핑된 레이아웃)에서 함께 렌더링합니다. 단일 하단 작업 표시줄은 테스트 변형 간 탐색, 확대/축소, 뷰포트 전환(데스크탑/모바일), 로케일 전환, 샘플 입력 추가, AI를 통한 변형 생성, 시뮬레이션된 사용자 선택 및 저장, 변형 가져오기 또는 내보내기를 통합합니다. 왼쪽 레일을 제거하고 추가 헤더 레이어를 축소하면 미리보기에 훨씬 더 많은 공간이 제공됩니다. 하단 작업 표시줄의 **클래식 경험으로 전환** 옵션을 사용하면 언제든지 이전 경험으로 되돌릴 수 있습니다. <!-- Documentation link: TBD -->

@@ -31,9 +31,9 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f19aef75aeac9be8e400528b5e587545268d7607
+source-git-commit: 977a3adf312c5121e5597fd75a3d1a3a3a6c0f1e
 workflow-type: tm+mt
-source-wordcount: 1883
+source-wordcount: 1903
 ht-degree: 15%
 
 ---
@@ -50,6 +50,8 @@ ht-degree: 15%
 >id="ajo_message_email"
 >title="이메일 작성"
 >abstract="이메일 제목 줄을 정의하고 이메일 디자이너를 열어 이메일 콘텐츠를 만듭니다."
+>additional-url="https://experienceleague.adobe.com/en/courses/ajo-ai-powered-on-brand-content-creation-for-marketers" text="AI 기반의 온 브랜드 콘텐츠 제작 교육 과정"
+
 
 ## 이메일 작업 추가 {#email-action}
 

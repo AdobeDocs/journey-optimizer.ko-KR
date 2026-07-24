@@ -14,7 +14,7 @@ exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
 source-git-commit: bdfc730eacd1fa7b382b15bea8b96c8ae5913c38
 workflow-type: tm+mt
 source-wordcount: '2578'
-ht-degree: 9%
+ht-degree: 11%
 
 ---
 
@@ -121,7 +121,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_audience"
 >title="대상자"
->abstract="챌린지에 참여할 수 있는 사람을 선택합니다. Adobe Experience Platform 대상자를 추가하거나, 모든 로열티 멤버가 자격을 갖도록 대상을 비워둡니다. 필요한 경우 전제 조건으로 다른 챌린지를 완료하도록 요구합니다."
+>abstract="챌린지에 참여할 수 있는 사람을 선택합니다. Adobe Experience Platform 대상자를 추가하거나, 모든 충성도 멤버가 자격을 갖도록 대상을 비워둡니다. 필요한 경우 전제 조건으로 다른 챌린지를 완료하도록 요구합니다."
 
 충성도 도전에 참여할 수 있는 사용자를 정의합니다.
 
@@ -292,12 +292,12 @@ ht-degree: 9%
 
 작업 및 보상으로 과제 구조를 구성한 후 고객에게 과제가 표시되는 방식을 선택적으로 구성할 수 있습니다. 챌린지 콘텐츠가 필요하지 않은 경우 이 단계를 건너뛰고 [메시징 구성](#configure-messaging)으로 바로 진행하십시오.
 
-## 과제 콘텐츠 구성(선택 사항) {#configure-content-cards}
+## 챌린지 콘텐츠 구성(선택 사항) {#configure-content-cards}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_content"
 >title="콘텐츠"
->abstract="충성도 멤버가 문제에 액세스하고 진행 상황을 추적하는 위치에서 문제를 표시하는 방법을 구성합니다. 추가 작업을 사용하여 카드 스타일 경험을 표시할 컨텐츠 카드를 선택하거나 사용자 지정 구현을 통해 컨텐츠를 전달할 코드 기반 환경을 선택합니다."
+>abstract="충성도 멤버가 챌린지에 액세스하고 진행 상황을 추적하는 위치에 챌린지가 표시되도록 하는 방법을 구성합니다. 추가 액션을 사용하여 카드 스타일의 경험을 표시할 콘텐츠 카드를 선택하거나 사용자 정의 구현을 통해 콘텐츠를 전달할 코드 기반 경험을 선택할 수 있습니다."
 
 **[!UICONTROL 콘텐츠]** 탭은 충성도 멤버가 문제에 액세스하고 진행 상황을 추적하는 위치에서 문제가 표시되는 방식을 제어합니다.
 

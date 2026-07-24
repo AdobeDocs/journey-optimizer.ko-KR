@@ -16,7 +16,7 @@ subfeature_v2: []
 source-git-commit: 00c24e9b97b4f6597048731858f3bfbcb39a0030
 workflow-type: tm+mt
 source-wordcount: 1206
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_reward_definition"
 >title="보상 정의 안내서"
->abstract="이 안내서를 사용하여 기본 정의 동작 및 이행 페이로드 필드를 포함하여 충성도 보상 제공자에 대한 보상 정의를 구성합니다."
+>abstract="이 안내서를 사용하여 기본 정의 동작 및 이행 페이로드 필드를 포함한 보상 정의를 충성도 보상 제공자를 위해 구성할 수 있습니다."
 
 >[!BEGINSHADEBOX]
 

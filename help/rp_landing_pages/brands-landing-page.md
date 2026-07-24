@@ -5,10 +5,10 @@ title: 브랜드
 description: Journey Optimizer에서 브랜드 가이드라인을 생성, 관리 및 개인화하여 모든 캠페인에서 일관성 있고 브랜드에 부합하는 콘텐츠를 제공하는 방법을 알아봅니다.
 redpen-status: CREATED_||_2025-08-12_00-41-41
 exl-id: f1e3cb9d-83a8-48af-9121-4ebc56dce251
-source-git-commit: c8c07cf68cba20d6c6f4185bb3e8da0236f7acb5
+source-git-commit: 5a6126fd6a71b964c4169279333b65a38f652517
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 100%
+source-wordcount: '297'
+ht-degree: 86%
 
 ---
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer로 시각적, 언어적 정체성을 일관되게 유지
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 브랜드 일관성 점수 평가
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer로 시각적, 언어적 정체성을 일관되게 유지
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 브랜드 개인화
 
@@ -60,3 +60,7 @@ Adobe Journey Optimizer로 시각적, 언어적 정체성을 일관되게 유지
 :::
 
 ::::
+
+## 추가 리소스
+
+- **[강의 수강: AI 기반, 브랜드 기반 콘텐츠 만들기](https://experienceleague.adobe.com/en/courses/ajo-ai-powered-on-brand-content-creation-for-marketers){target="_blank"}** - Adobe Journey Optimizer에서 AI 기반 도구를 사용하여 마케터를 위한 브랜드 기반 콘텐츠를 만드는 방법에 대해 알아봅니다.
