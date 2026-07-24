@@ -9,7 +9,7 @@ badge: label="제한 공개" type="Informative"
 source-git-commit: 94ca2d9458152fb471e9590d053c4729a4a5134f
 workflow-type: tm+mt
 source-wordcount: '960'
-ht-degree: 5%
+ht-degree: 15%
 
 ---
 
@@ -26,13 +26,13 @@ ht-degree: 5%
 >
 >사용자 지정 채널 경험을 만들기 전에 관리자가 사용자 지정 채널을 구성했는지 확인하십시오. [자세히 알아보기](configure-custom-channel.md)
 
-## 여정 또는 캠페인을 통해 사용자 지정 작업 추가 {#create-custom-channel-experience}
+## 여정 또는 캠페인을 통한 사용자 정의 액션 추가 {#create-custom-channel-experience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_channel"
->title="사용자 지정 채널 작업"
->abstract="사용자 지정 채널 작업은 프로필이 이 여정 단계에 도달하면 메시지를 프로필에 전달합니다. 레이블은 여정 캔버스에서 활동을 식별하고, 작업은 메시지 전달에 사용되는 엔드포인트, 페이로드 및 자격 증명을 정의하는 사용자 지정 채널 구성을 참조합니다. **최적화** 섹션에는 콘텐츠 실험 또는 타깃팅 규칙이 포함될 수 있으며 **시간 초과 또는 오류** 섹션은 작업이 실패할 경우 대체 경로를 정의할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="사용자 지정 채널 시작"
+>title="사용자 정의 채널 액션"
+>abstract="사용자 정의 채널 액션은 프로필이 여정의 이 단계에 도달하면 프로필에 메시지를 전달합니다. 레이블은 여정 캔버스에서 활동을 식별하고, 액션은 메시지 전달에 사용되는 엔드포인트, 페이로드 및 자격 증명을 정의하는 사용자 정의 채널 구성을 참조합니다. **최적화** 섹션은 콘텐츠 실험 또는 타기팅 규칙을 포함할 수 있고, **시간 초과 또는 오류** 섹션은 액션이 실패할 경우 대체 경로를 정의할 수 있습니다."
+>additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="사용자 정의 채널 시작하기"
 
 
 

@@ -9,11 +9,11 @@ badge: label="제한 공개" type="Informative"
 source-git-commit: 4556e8b50fe71cf9d703d034a3c5772b8fea9d33
 workflow-type: tm+mt
 source-wordcount: '850'
-ht-degree: 3%
+ht-degree: 20%
 
 ---
 
-# 사용자 지정 채널 하위 도메인 구성 {#custom-channel-subdomains}
+# 사용자 정의 채널 하위 도메인 구성 {#custom-channel-subdomains}
 
 >[!BEGINSHADEBOX]
 
@@ -23,15 +23,15 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_custom_channel"
->title="사용자 지정 채널 하위 도메인 위임"
->abstract="사용자 지정 채널 구성을 만들려면 이 하위 도메인이 필요하므로 사용자 지정 채널 메시지에 사용할 하위 도메인을 구성해야 합니다. Adobe에 이미 위임된 하위 도메인을 사용하거나 새 하위 도메인을 구성할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/custom-channel/custom-channel-configuration" text="사용자 지정 채널 구성"
+>title="사용자 정의 채널 하위 도메인 위임"
+>abstract="사용자 정의 채널 메시지에 사용할 하위 도메인을 구성해야 합니다. 이는 사용자 정의 채널 구성을 만들기 위해 이 하위 도메인이 필요하기 때문입니다. Adobe에 이미 위임된 하위 도메인을 사용하거나 새 하위 도메인을 구성할 수 있습니다."
+>additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/custom-channel/custom-channel-configuration" text="사용자 정의 채널 구성"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_custom_channel_subdomain"
->title="사용자 지정 채널 하위 도메인 선택"
->abstract="사용자 지정 채널 구성을 만들 수 있으려면 이전에 하위 도메인 이름 목록에서 선택할 하나 이상의 사용자 지정 채널 하위 도메인을 구성했는지 확인하십시오."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/custom-channel/custom-channel-configuration" text="사용자 지정 채널 구성"
+>title="사용자 정의 채널 하위 도메인 선택"
+>abstract="사용자 정의 채널 구성을 만들려면 하위 도메인 이름 목록에서 선택할 사용자 정의 채널 하위 도메인을 이전에 하나 이상 구성했는지 확인합니다."
+>additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/custom-channel/custom-channel-configuration" text="사용자 정의 채널 구성"
 
 ## 사용자 지정 채널 하위 도메인 시작 {#gs-custom-channel-subdomains}
 
@@ -47,7 +47,6 @@ TBC
 >
 >To access and edit custom channel subdomains, you must have the **[!UICONTROL Manage Custom Channel Subdomains]** permission on the production sandbox. Learn more about permissions in [this section](../administration/high-low-permissions.md).
 -->
-
 ## 기존 하위 도메인 사용 {#custom-channel-use-existing-subdomain}
 
 이미 Adobe에 위임된 하위 도메인을 사용하려면 아래 단계를 따르십시오.
@@ -91,7 +90,7 @@ TBC
 >[!CONTEXTUALHELP]
 >id="ajo_admin_custom_channel_subdomain_dns"
 >title="일치하는 DNS 레코드 생성"
->abstract="새 사용자 지정 채널 하위 도메인을 구성하려면 Journey Optimizer 인터페이스에 표시된 Adobe 이름 서버 정보를 복사하여 도메인 호스팅 솔루션에 붙여 넣어 일치하는 DNS 레코드를 생성해야 합니다. 확인이 성공하면 하위 도메인을 사용하여 사용자 지정 채널 구성을 만들 수 있습니다."
+>abstract="새 사용자 정의 채널 하위 도메인을 구성하려면 Journey Optimizer 인터페이스에 표시된 Adobe 이름 서버 정보를 복사한 다음 도메인 호스팅 솔루션에 붙여넣어 일치하는 DNS 레코드를 생성해야 합니다. 확인이 완료되면 사용자 정의 채널 구성 만들기에 하위 도메인을 사용할 준비가 되었습니다."
 
 새 하위 도메인을 구성하려면 아래 단계를 따르십시오.
 

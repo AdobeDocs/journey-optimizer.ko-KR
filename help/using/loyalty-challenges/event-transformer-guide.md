@@ -16,7 +16,7 @@ subfeature_v2: []
 source-git-commit: c440ff464b2ea58519e6f1ba900728adfa718232
 workflow-type: tm+mt
 source-wordcount: 1731
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_event_transformer"
 >title="이벤트 변환기 안내서"
->abstract="이 안내서를 사용하여 충성도 과제 이벤트 정의에 대한 스키마 유효성 검사 및 변환기 표현식을 구성합니다."
+>abstract="이 안내서를 사용하여 충성도 챌린지 이벤트 정의를 위한 스키마 유효성 검사 및 변환기 표현식을 구성할 수 있습니다."
 
 >[!BEGINSHADEBOX]
 

@@ -8,19 +8,19 @@ level: Experienced
 badge: label="제한 공개" type="Informative"
 source-git-commit: 94ca2d9458152fb471e9590d053c4729a4a5134f
 workflow-type: tm+mt
-source-wordcount: '1555'
-ht-degree: 1%
+source-wordcount: '1538'
+ht-degree: 15%
 
 ---
 
 
-# 사용자 지정 채널 설정 {#create-custom-channel}
+# 사용자 정의 채널 설정 {#create-custom-channel}
 
 >[!CONTEXTUALHELP]
 >id="ajo_custom_channel_settings"
->title="사용자 지정 채널 기본 정보"
->abstract="사용자 지정 채널을 통해 Adobe Journey Optimizer은 고유한 API 끝점을 통해 개인화된 메시지를 외부 시스템에 보낼 수 있습니다. 일반 속성, 끝점, 인증 및 페이로드를 정의한 다음 새 사용자 지정 채널을 테스트하고 활성화합니다. 완료되면 마케팅 담당자가 여정 및 캠페인에서 사용할 수 있도록 채널 구성을 만들 때 사용할 수 있습니다."
->additional-url="" text="사용자 지정 채널 시작"
+>title="사용자 정의 채널 정보"
+>abstract="Adobe Journey Optimizer는 사용자 정의 채널을 이용하여 고유한 API 엔드포인트를 통해 개인화된 메시지를 외부 시스템에 보낼 수 있습니다. 일반 속성, 엔드포인트, 인증 및 페이로드를 정의한 다음 새 사용자 정의 채널을 테스트하고 활성화합니다. 완료되면 채널 구성을 만들 때 사용하여 마케팅 담당자가 여정 및 캠페인에서 사용하도록 할 수 있습니다."
+>additional-url="" text="사용자 정의 채널 시작하기"
 
 <!--Contextual help final location TBC (here or in Settings subsection-->
 
@@ -130,7 +130,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_custom_channel_authentication"
 >title="인증 유형 정의"
->abstract="인증은 승인된 요청만 외부 메시징 시스템으로 전송하도록 합니다. API 키, 기본 인증 및 OAuth 2.0을 비롯한 여러 인증 방법 중에서 선택할 수 있습니다. 활성화 시 Adobe Journey Optimizer은 API 자격 증명 인벤토리에서 관리할 수 있는 채널에 대한 초기 API 자격 증명 세트를 자동으로 생성합니다. 하지만 나중에 자격 증명을 변경할 수 있더라도 채널을 활성화하기 전에 엔드포인트에 대한 연결을 테스트하려면 인증 세부 정보를 여기에 제공해야 합니다."
+>abstract="인증은 승인된 요청만 외부 메시징 시스템으로 전송되도록 합니다. API 키, 기본 인증 및 OAuth 2.0을 비롯한 여러 인증 방법 중에서 선택할 수 있습니다. 활성화 시, Adobe Journey Optimizer는 API 자격 증명 인벤토리에서 관리할 수 있는 채널에 대한 초기 API 자격 증명 세트를 자동으로 생성합니다. 하지만 나중에 자격 증명을 변경할 수 있더라도 채널을 활성화하기 전에 엔드포인트에 대한 연결을 테스트하려면 인증 세부 정보를 여기에 제공해야 합니다."
 >additional-url="" text="API 자격 증명에 대해 자세히 알아보기"
 
 이 채널에 사용해야 하는 **[!UICONTROL 인증 유형]**&#x200B;을(를) 선택하십시오. 사용 가능한 옵션은 외부 메시징 시스템에서 지원하는 인증 방법에 따라 다릅니다.
@@ -154,8 +154,8 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_custom_channel_payload_config"
 >title="채널 구성을 위한 필드 활성화"
->abstract="활성화되면 이 열의 필드가 채널 구성에 표시되므로 관리자는 구성별로 다른 값(예: 브랜드 또는 지역별로 다른 발신자 ID)을 설정할 수 있습니다. 발신자 정보나 메시지 템플릿과 같이 캠페인이나 여정 컨텍스트에 따라 달라질 수 있는 필드에 유용합니다."
->additional-url="" text="사용자 지정 채널 구성에서 동적 매개 변수 구성"
+>abstract="활성화되면 이 열의 필드가 채널 구성에 표시되므로 관리자는 구성별로 서로 다른 값(예: 브랜드 또는 지역별로 서로 다른 발신자 ID)을 설정할 수 있습니다. 이는 발신자 정보나 메시지 템플릿과 같이 캠페인 또는 여정의 상황에 따라 달라질 수 있는 필드에 유용합니다."
+>additional-url="" text="사용자 정의 채널 구성에서 동적 매개변수 구성"
 
 <!--Create a page on Custom channel config to explain how to use the payload in a channel configuration.-->
 
