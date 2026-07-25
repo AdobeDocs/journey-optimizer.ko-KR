@@ -12,7 +12,7 @@ badge: label="공개 베타" type="Informative"
 mini-toc-levels: 2
 feature_v2: []
 subfeature_v2: []
-source-git-commit: aa4b97e1d655d9110ae0652caa244b3f4342dc2f
+source-git-commit: 6456977344b51cb595b4c7f6db992a588c0b059f
 workflow-type: tm+mt
 source-wordcount: 1090
 ht-degree: 2%
