@@ -40,7 +40,7 @@ Journey Optimizer에서 이메일, 캠페인, 여정에 대한 재사용 가능�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 기존 콘텐츠를 조각으로 저장
 

@@ -40,7 +40,7 @@ CSV 가져오기 및 페더레이션된 데이터 소스를 포함하여 대상�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 캠페인 및 여정에서 대상자 활성화
 
@@ -50,7 +50,7 @@ CSV 가져오기 및 페더레이션된 데이터 소스를 포함하여 대상�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 보강 속성 활용
 
