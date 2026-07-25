@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 Campaign 보고서를 사용하면 다양한 채널�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 코드 기반 캠페인 보고서
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer의 Campaign 보고서를 사용하면 다양한 채널�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open-text.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open-text.svg?lang=ko)
 
 이메일 캠페인 보고서
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer의 Campaign 보고서를 사용하면 다양한 채널�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/vial.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/vial.svg?lang=ko)
 
 실험 캠페인 보고서
 

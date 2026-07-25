@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 이메일 채널을 구성하는 것은 대상자�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 이메일 구성 설정 정의
 
@@ -50,7 +50,7 @@ BCC, 제외 무시, URL 추적과 같은 고급 기능을 사용하여 전달성
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 이메일 헤더 매개변수 구성
 
@@ -60,7 +60,7 @@ BCC, 제외 무시, URL 추적과 같은 고급 기능을 사용하여 전달성
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
 
 이메일 채널에 대한 URL 추적 구성
 
@@ -70,7 +70,7 @@ URL 추적 매개변수를 설정하여 이메일 캠페인의 효과를 측정�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 개인화된 이메일 구성 설정
 

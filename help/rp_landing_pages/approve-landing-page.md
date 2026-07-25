@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 여정 및 캠페인을 승인하면, 모든 프�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 여정 및 캠페인에 대한 승인을 요청하는 방법
 

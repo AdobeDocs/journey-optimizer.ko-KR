@@ -30,7 +30,7 @@ Adobe Journey Optimizer 결정 기능의 기본 사항에 대해 알아봅니다
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
 
 가드레일 및 제한 사항
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 결정 기능을 효과적으로 사용하기 위�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=ko)
 
 자주 묻는 질문
 
@@ -60,7 +60,7 @@ API 참조: 오퍼 게재
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 결정 항목 및 카탈로그 관리
 
@@ -70,7 +70,7 @@ API 참조: 오퍼 게재
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 의사 결정 규칙 만들기
 
@@ -80,7 +80,7 @@ API 참조: 오퍼 게재
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 AI 모델로 순위 만들기
 

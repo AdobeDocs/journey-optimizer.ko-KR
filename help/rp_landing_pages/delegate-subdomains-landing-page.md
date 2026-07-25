@@ -32,7 +32,7 @@ Adobe Journey Optimizer에서 하위 도메인을 위임할 때의 이점, 구�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 하위 도메인 위임
 
@@ -42,7 +42,7 @@ Adobe Journey Optimizer에서 하위 도메인을 위임할 때의 이점, 구�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=ko)
 
 사용자 정의 하위 도메인 설정
 
@@ -52,7 +52,7 @@ Adobe Journey Optimizer에서 하위 도메인을 위임할 때의 이점, 구�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
 
 CNAME에서 사용자 정의 위임으로 마이그레이션
 
@@ -72,7 +72,7 @@ DMARC 레코드 설정
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 Google TXT 레코드 추가
 
@@ -82,7 +82,7 @@ Adobe Journey Optimizer에서 Google TXT 레코드를 추가하여 Gmail의 메�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 PTR 레코드 액세스 및 편집
 
@@ -92,7 +92,7 @@ PTR 레코드 액세스 및 편집
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 IP 풀 만들기
 
