@@ -11,27 +11,16 @@ mini-toc-levels: 1
 keywords: 만들기, 최적화 도구, 캠페인, 표면, 메시지
 exl-id: fed96e48-2e54-4bd4-ae17-77434d1b90eb
 TQID: https://experienceleague.adobe.com/NYmffTrdeExP-YY92lHKD21uvDN8IeUqW46P6Rrkek8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-subfeature_v2:
-  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
-  - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: a653cc2e-bc85-4353-a306-399e5b247978
+subfeature_v2: id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: f7479fa1-474b-479d-8c98-f6cee5865a38id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: e7d1cdab43de134214a122f9d7f0a537721c7890
 workflow-type: tm+mt
-source-wordcount: 890
-ht-degree: 31%
+source-wordcount: 939
+ht-degree: 30%
 
 ---
 
@@ -39,7 +28,7 @@ ht-degree: 31%
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** 최적화 및 다국어 콘텐츠와 함께 채널 및 채널 구성을 선택하여 캠페인 작업을 구성하고, 캠페인이 채널 전체에 올바른 경험을 제공할 수 있도록 여러 인바운드 작업을 추가합니다.
+**이 페이지에서:** 최적화 및 다국어 콘텐츠와 함께 채널 및 채널 구성을 선택하여 캠페인 작업을 구성하거나, 여러 인바운드 작업을 추가하거나, 채널 최적화를 사용하여 각 고객에게 가장 적합한 아웃바운드 채널을 자동으로 선택하여 캠페인이 여러 채널 간에 올바른 경험을 제공할 수 있도록 합니다.
 
 >[!ENDSHADEBOX]
 
@@ -58,6 +47,8 @@ ht-degree: 31%
    >사용 가능한 채널은 사용하는 라이선스 모델 및 추가 기능에 따라 다릅니다.
 
    인바운드 채널(코드 기반 경험, 인앱 메시지, 콘텐츠 카드 또는 웹 작업)을 선택하는 경우 단일 캠페인에서 최대 10개의 작업에 대해 더 많은 인바운드 작업을 추가할 수 있습니다. [방법 알아보기](#multi-action)
+
+   여러 개의 아웃바운드 채널(이메일, 푸시, SMS)을 선택하는 경우 채널 최적화 를 사용하여 전송 시간에 각 고객을 위한 최상의 채널을 자동으로 선택할 수 있습니다. [방법 알아보기](../building-journeys/channel-optimization.md)
 
 1. **채널 구성 선택**
 
@@ -94,7 +85,7 @@ ht-degree: 31%
 
 +++**빠른 전송 모드를 사용**(푸시)합니다.
 
-빠른 전송 모드는 캠페인을 통해 대량으로 매우 빠른 푸시 메시지를 전송할 수 있는 [!DNL Journey Optimizer] 추가 기능입니다. 빠른 게재는 메시지 게재 지연이 비즈니스에 중요한 경우, 휴대폰에 긴급 푸시 알림을 전송하려는 경우(예: 뉴스 채널 앱을 설치한 사용자에게 속보 전달) 사용됩니다. 푸시 알림에 대해 빠른 전송 모드를 사용하는 방법을 알아봅니다. [&#x200B; 이 페이지](../push/create-push.md#rapid-delivery).
+빠른 전송 모드는 캠페인을 통해 대량으로 매우 빠른 푸시 메시지를 전송할 수 있는 [!DNL Journey Optimizer] 추가 기능입니다. 빠른 게재는 메시지 게재 지연이 비즈니스에 중요한 경우, 휴대폰에 긴급 푸시 알림을 전송하려는 경우(예: 뉴스 채널 앱을 설치한 사용자에게 속보 전달) 사용됩니다. 푸시 알림에 대해 빠른 전송 모드를 사용하는 방법을 알아봅니다. [ 이 페이지](../push/create-push.md#rapid-delivery).
 
 빠른 전송 모드를 사용할 때의 성능에 대한 자세한 내용은 [Adobe Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}을 참조하십시오.
 
@@ -129,7 +120,7 @@ ht-degree: 31%
 
 >[!NOTE]
 >
->이 기능은 인바운드 채널에만 사용할 수 있습니다. 현재 이메일 등의 아웃바운드 채널은 지원되지 않습니다.
+>이 기능은 인바운드 채널에만 사용할 수 있습니다. 아웃바운드 채널(이메일, 푸시, SMS)의 경우 [채널 최적화](../building-journeys/channel-optimization.md)를 사용하여 고객별로 가장 적합한 채널을 자동으로 선택합니다.
 
 이 기능을 사용하면 여러 캠페인을 만들 필요 없이 다양한 코드 기반 경험, 인앱 메시지, 콘텐츠 카드 또는 웹 작업을 동시에 다른 위치에 전달할 수 있습니다. 이렇게 하면 모든 데이터를 하나의 캠페인으로 통합하여 캠페인을 보다 쉽게 배포할 수 있고 보고를 보다 원활하게 수행할 수 있습니다.
 
