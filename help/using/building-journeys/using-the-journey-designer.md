@@ -103,7 +103,7 @@ ht-degree: 2%
 
 새 여정 캔버스 경험에 대한 비디오 개요는 이 비디오 를 시청하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3496193)
+>[!VIDEO](https://video.tv.adobe.com/v/3496198?captions=kor)
 
 ## 여정 시작 {#start-your-journey}
 
