@@ -5,15 +5,21 @@ feature: Channel Configuration
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 94ca2d9458152fb471e9590d053c4729a4a5134f
+source-git-commit: 9dfa2792db981f5f1a4e9fc3868ffd200c855a5b
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '984'
 ht-degree: 1%
 
 ---
 
 
 # 사용자 지정 채널 모니터링 {#monitor-custom-channel}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 성공적인 게재, 오류 및 링크 클릭과 같은 지표를 포함하여 Adobe Journey Optimizer의 기본 제공 보고를 통해 사용자 지정 채널의 라이프사이클을 관리하고 게재 성능을 모니터링하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 사용자 지정 채널을 만들고 활성화하면 [해당 라이프사이클을 관리](create-custom-channel.md#access-channel-builder)하고 [!DNL Journey Optimizer] 인터페이스를 통해 게재 성능을 모니터링할 수 있습니다.
 

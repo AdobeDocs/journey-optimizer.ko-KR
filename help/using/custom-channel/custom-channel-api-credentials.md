@@ -6,15 +6,21 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="제한 공개" type="Informative"
-source-git-commit: 94ca2d9458152fb471e9590d053c4729a4a5134f
+source-git-commit: 9dfa2792db981f5f1a4e9fc3868ffd200c855a5b
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 4%
+source-wordcount: '265'
+ht-degree: 3%
 
 ---
 
 
 # API 자격 증명 관리 {#api-credentials}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 채널을 복제하지 않고 다양한 브랜드 또는 환경에서 엔드포인트에 대한 요청을 인증할 수 있도록 Adobe Journey Optimizer에서 사용자 지정 채널에 대한 API 자격 증명 세트를 보고, 관리하고, 만드는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 사용자 지정 채널이 **없음** 이외의 인증 유형으로 만들어진 경우 채널이 활성화될 때 초기 API 자격 증명 집합이 자동으로 생성됩니다.
 

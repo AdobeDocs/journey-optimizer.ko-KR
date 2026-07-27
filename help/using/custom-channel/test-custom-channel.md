@@ -5,15 +5,21 @@ feature: Channel Configuration
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 94ca2d9458152fb471e9590d053c4729a4a5134f
+source-git-commit: 9dfa2792db981f5f1a4e9fc3868ffd200c855a5b
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '809'
 ht-degree: 2%
 
 ---
 
 
 # 사용자 지정 채널 테스트 {#test-custom-channel}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Channel Builder에서 끝점 연결을 테스트하고, 테스트 프로필로 콘텐츠를 시뮬레이션하고, 증명을 보내어 시작하기 전에 사용자 지정 채널의 유효성을 검사하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 사용자 지정 채널을 사용하는 여정 또는 캠페인을 활성화하기 전에 엔드포인트에 연결할 수 있는지, 해당 인증이 작동하는지, 개인화 토큰이 대상 프로필에 대해 올바르게 확인되는지 확인하십시오.
 

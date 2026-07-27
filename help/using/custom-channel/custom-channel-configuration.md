@@ -6,15 +6,21 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="제한 공개" type="Informative"
-source-git-commit: 94ca2d9458152fb471e9590d053c4729a4a5134f
+source-git-commit: 9dfa2792db981f5f1a4e9fc3868ffd200c855a5b
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 2%
+source-wordcount: '383'
+ht-degree: 8%
 
 ---
 
 
 # 채널 구성 만들기 {#create-channel-config}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 캠페인 및 여정을 작성할 때 마케터가 선택할 수 있도록 Adobe Journey Optimizer에서 사용자 지정 채널에 대한 채널 구성을 만들어 API 자격 증명, 선택적 하위 도메인 및 페이로드 기본값에 연결하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 채널 구성은 마케터가 캠페인 및 여정을 작성할 때 선택하는 재사용 가능한 명명된 사전 설정에 사용자 지정 채널을 연결합니다.
 
@@ -32,7 +38,7 @@ ht-degree: 2%
 
 1. [!DNL Journey Optimizer]에서 사용자 지정 채널에 대한 하위 도메인을 설정한 경우 이 구성에 대한 페이로드에 있는 링크를 추적하는 데 사용할 위임된 하위 도메인을 선택할 수 있습니다. [하위 도메인을 위임하는 방법 알아보기](custom-channel-subdomains.md)
 
-1. 선택한 채널에 끝점 URL에 대해 [변수로 정의된 헤더 또는 쿼리 매개 변수가 &#x200B;](create-custom-channel.md#endpoint-configuration)인 경우 **[!UICONTROL 동적 매개 변수]** 섹션이 나타납니다.
+1. 선택한 채널에 끝점 URL에 대해 [변수로 정의된 헤더 또는 쿼리 매개 변수가 ](create-custom-channel.md#endpoint-configuration)인 경우 **[!UICONTROL 동적 매개 변수]** 섹션이 나타납니다.
 
    각 매개 변수의 값을 입력합니다. 개인화 편집기를 사용하여 동적 값(예: 프로필에서 확인된 사용자 식별자)을 삽입할 수 있습니다. 이렇게 하면 프로필 데이터를 기반으로 각 수신자에 대한 요청을 사용자 지정할 수 있습니다.
 
@@ -42,7 +48,7 @@ ht-degree: 2%
 
    ![페이로드 필드](assets/custom_channel_config_payload.png){width="100%"}
 
-   각 필드에 대한 값을 이 구성에 맞게 구성합니다. 발신자 정보나 메시지 템플릿과 같이 캠페인이나 여정 컨텍스트에 따라 달라질 수 있는 필드에 유용합니다.
+   각 필드에 대한 값을 이 구성에 맞게 구성합니다. 이는 발신자 정보나 메시지 템플릿과 같이 캠페인 또는 여정의 상황에 따라 달라질 수 있는 필드에 유용합니다.
 
 1. 오케스트레이션된 캠페인의 경우 **[!UICONTROL 실행 세부 정보]** 섹션을 완료하여 프로필 차원을 매핑하고 실행 주소를 지정하십시오.
 

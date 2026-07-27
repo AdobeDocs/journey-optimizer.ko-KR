@@ -6,9 +6,9 @@ feature: Channel Configuration
 level: Intermediate
 keywords: 사용자 정의 채널, 하위 도메인, 구성
 badge: label="제한 공개" type="Informative"
-source-git-commit: 4556e8b50fe71cf9d703d034a3c5772b8fea9d33
+source-git-commit: 3b584e496d7438a9d472a41149cba60928cb2517
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '872'
 ht-degree: 20%
 
 ---
@@ -47,20 +47,19 @@ TBC
 >
 >To access and edit custom channel subdomains, you must have the **[!UICONTROL Manage Custom Channel Subdomains]** permission on the production sandbox. Learn more about permissions in [this section](../administration/high-low-permissions.md).
 -->
-
 ## 기존 하위 도메인 사용 {#custom-channel-use-existing-subdomain}
 
 이미 Adobe에 위임된 하위 도메인을 사용하려면 아래 단계를 따르십시오.
 
 1. **[!UICONTROL 관리]** > **[!UICONTROL 채널]** 메뉴로 이동한 다음 **[!UICONTROL 채널 빌더]** > **[!UICONTROL 하위 도메인]**&#x200B;을 선택합니다.
 
-   ![](assets/custom_channel_subdomains.png){width="100%"}
+   ![사용자 지정 채널 하위 도메인 인벤토리](assets/custom_channel_subdomains.png){width="100%"}
 
 1. **[!UICONTROL 사용자 지정 채널 하위 도메인 만들기]**&#x200B;를 클릭합니다.
 
 1. **[!UICONTROL 구성 유형]** 섹션에서 **[!UICONTROL 위임된 하위 도메인 사용]**&#x200B;을(를) 선택합니다.
 
-   ![](assets/custom_channel_create_subdomain.png){width="100%"}
+   ![위임된 하위 도메인 구성 양식 사용](assets/custom_channel_create_subdomain.png){width="100%"}
 
 1. 사용자 지정 채널 URL에 표시할 접두어를 입력합니다. 영숫자와 하이픈만 사용할 수 있습니다.
 
@@ -101,7 +100,7 @@ TBC
 
 1. **[!UICONTROL 구성 유형]** 섹션에서 **[!UICONTROL 고유한 도메인 추가]**&#x200B;를 선택합니다.
 
-   ![](assets/custom_channel_new_subdomain.png){width="70%"}
+   ![자신의 도메인 구성 양식 추가](assets/custom_channel_new_subdomain.png){width="70%"}
 
 1. 위임할 하위 도메인을 지정합니다.
 
@@ -119,7 +118,7 @@ TBC
 
 1. 도메인 호스팅 솔루션에 DNS 레코드가 생성되었는지 확인합니다. 모든 항목이 올바르게 구성된 경우 &quot;확인...&quot; 상자를 선택한 다음 **[!UICONTROL 제출]**&#x200B;을 클릭합니다.
 
-   ![](assets/custom_channel_new_subdomain_confirm.png)
+   ![하위 도메인 제출 전 DNS 레코드 확인 확인란](assets/custom_channel_new_subdomain_confirm.png)
 
    새 사용자 지정 채널 하위 도메인을 구성할 때 항상 CNAME 레코드를 가리킵니다.
 
