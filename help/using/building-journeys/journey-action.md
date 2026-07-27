@@ -31,9 +31,9 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+source-git-commit: bc9286066f929a4ea23a6218544ed173e8e5822e
 workflow-type: tm+mt
-source-wordcount: 2432
+source-wordcount: 2506
 ht-degree: 16%
 
 ---
@@ -59,6 +59,7 @@ ht-degree: 16%
 
 * 간소화된 단일 인터페이스에서 모든 기본 제공 채널 작업을 구성합니다.
 * 여러 인바운드 경험을 하나의 [다중 작업 그룹](#multi-action)에 결합합니다.
+* 단일 작업에 여러 아웃바운드 채널을 추가하고 [채널 최적화](channel-optimization.md)를 사용하여 고객별로 가장 적합한 채널(제한된 가용성)을 자동으로 선택합니다.
 * 모든 작업에 [최적화](../content-management/gs-message-optimization.md), [다국어 콘텐츠](../content-management/multilingual-gs.md) 및 채널별 설정을 적용합니다.
 
 >[!NOTE]
@@ -125,6 +126,12 @@ ht-degree: 16%
    사용자 지정 및 Adobe 작업을 표시하는 관리 메뉴의 ![작업 탭](assets/journey-action-actions-tab.png)
 
 1. 인바운드 채널을 선택한 경우 여러 작업을 추가할 수 있습니다. [자세히 알아보기](#multi-action)
+
+1. 아웃바운드 채널(이메일, 푸시, SMS)을 선택한 경우 여러 채널을 추가하고 채널 최적화를 사용하여 고객별로 가장 적합한 채널을 자동으로 선택할 수 있습니다. [자세히 알아보기](channel-optimization.md)
+
+   >[!AVAILABILITY]
+   >
+   >이 기능은 제한적으로 이용할 수 있습니다. 조직에 대해 활성화하려면 Adobe 담당자에게 문의하십시오.
 
 1. 선택한 채널에 따라 활동을 구성합니다. 자세한 구성 지침은 아래 링크에서 확인할 수 있습니다.
 
@@ -292,7 +299,7 @@ ht-degree: 16%
 
 >[!NOTE]
 >
->이 용량은 인바운드 채널에만 사용할 수 있습니다. 현재 이메일 등의 아웃바운드 채널은 지원되지 않습니다.
+>이 용량은 인바운드 채널에 사용할 수 있습니다. 아웃바운드 채널(이메일, 푸시, SMS)의 경우 [채널 최적화](channel-optimization.md)를 사용하여 여러 채널을 추가하고 고객당 가장 적합한 채널을 자동으로 선택합니다.
 
 이 용량을 사용하면 여러 여정 작업을 만들 필요 없이 다양한 코드 기반 경험, 인앱 메시지, 콘텐츠 카드 또는 웹 작업을 동시에 다른 위치에 전달할 수 있습니다. 모든 데이터를 하나의 여정으로 통합하여 여정을 보다 쉽게 배포할 수 있고 보고를 보다 원활하게 수행할 수 있습니다.
 

@@ -6,9 +6,9 @@ user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 36e1d03ac83635cded965e64f697a38692684a29
+source-git-commit: a5db996df4b53b5c4a7a0d737f97fe49753d1fbd
 workflow-type: tm+mt
-source-wordcount: '3477'
+source-wordcount: '3479'
 ht-degree: 95%
 
 ---
@@ -87,6 +87,7 @@ ht-degree: 95%
     + [여정 단계 이벤트 작업](using/reports/journey-step-events-overview.md)
     + [시간대 관리](using/building-journeys/timezone-management.md)
     + [전송 시간 최적화](using/building-journeys/send-time-optimization.md)
+    + [채널 최적화](using/building-journeys/channel-optimization.md)
     + [여정 끝내기](using/building-journeys/end-journey.md)
   + 활동 {#about-journey-building}
     + [활동](/help/rp_landing_pages/about-journey-building-landing-page.md)
