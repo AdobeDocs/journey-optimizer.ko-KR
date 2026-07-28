@@ -7,15 +7,13 @@ feature: Journeys
 topic: Content Management
 role: Admin
 level: Intermediate
-hide: true
-badge: label="비공개 베타" type="Informative"
 mini-toc-levels: 1
 exl-id: 9b0fd9d8-18d1-4a51-8b6f-b2e2a4c6f1d7
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 00c24e9b97b4f6597048731858f3bfbcb39a0030
+source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
 workflow-type: tm+mt
-source-wordcount: 1206
+source-wordcount: 1183
 ht-degree: 5%
 
 ---
@@ -60,10 +58,6 @@ ht-degree: 5%
 </table>
 
 >[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->이 기능은 현재 **개인 베타**&#x200B;에 있습니다. [!DNL Journey Optimizer]의 릴리스 주기 및 가용성 단계에 대한 자세한 내용은 [릴리스 주기](../rn/releases.md)를 참조하십시오.
 
 시도 작업, 마일스톤 또는 시도가 **을(를) 완료하고 보상 값이 구성되어**&#x200B;있으면 플랫폼에서 JSON 페이로드로 보상 공급자의 HTTP 끝점을 호출하여 보상을 발행합니다. **보상 정의**&#x200B;는 어떤 보상을 발행하는지 설명하고 공급자가 기대하는 정확한 페이로드를 형성하는 [JSONata](https://docs.jsonata.org/overview) 표현식(`rewardJsonata`)을 제공합니다.
 

@@ -7,59 +7,17 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-badge: label="비공개 베타" type="Informative"
-mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2: []
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
 workflow-type: tm+mt
-source-wordcount: 906
-ht-degree: 16%
+source-wordcount: 917
+ht-degree: 13%
 
 ---
 
 # 충성도 문제 시작 {#get-started-loyalty-challenges}
-
->[!BEGINSHADEBOX]
-
-**목차**
-
-**[충성도 문제 시작](get-started.md)** ◀︎**현재 상태**
-
-<table style="table-layout:fixed">
-<tr style="border: 0;">
-<td style="vertical-align:top;">
-
-**문제 만들기 및 관리**
-
-* [과제 및 작업 액세스 및 관리](access-loyalty-challenges.md)
-* [과제 만들기](create-challenges.md)
-* [작업 만들기](create-tasks.md)
-* [충성도 과제 성능 모니터링](loyalty-reporting.md)
-
-</td>
-<td style="vertical-align:top;">
-
-**구성 및 통합**
-
-* [충성도 문제 구성](loyalty-admin.md)
-* [보상 정의 안내서](reward-definition-guide.md)
-* [이벤트 변환기 안내서](event-transformer-guide.md)
-* [충성도 데이터 및 데이터 세트](loyalty-data-and-datasets.md)
-* [충성도 과제 API 참조](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
-
-</td>
-</tr>
-</table>
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->이 기능은 현재 **개인 베타**&#x200B;에 있습니다. 릴리스 주기 및 가용성 단계에 대한 자세한 내용은 [Journey Optimizer 릴리스 주기](../rn/releases.md)를 참조하십시오.
 
 ## 개요 {#overview}
 
@@ -67,6 +25,10 @@ ht-degree: 16%
 >id="ajo_loyalty_inventory"
 >title="충성도 챌린지"
 >abstract="충성도 챌린지를 사용하면 고객 행동을 유도하고 브랜드 관계를 심화하는 매력적이고 게임화된 충성도 프로그램을 만들 수 있습니다. 구매 및 리뷰 작성부터 소셜 미디어 참여 및 친구 추천에 이르기까지 특정 액션에 대해 고객에게 보상해 주는 챌린지를 작성하십시오."
+
+>[!AVAILABILITY]
+>
+>* Journey Optimizer 로열티는 현재 Healthcare Shield 및 Privacy and Security Shield 고객은 사용할 수 없습니다. Healthcare Shield 및 Privacy and Security Shield 고객의 가용성은 향후 기능 준비 시 업데이트됩니다.
 
 충성도 챌린지를 사용하면 고객 행동을 유도하고 브랜드 관계를 심화하는 매력적이고 게임화된 충성도 프로그램을 만들 수 있습니다. 구매 및 리뷰 작성부터 소셜 미디어 참여 및 친구 추천에 이르기까지 특정 액션에 대해 고객에게 보상해 주는 챌린지를 작성하십시오.
 
@@ -96,21 +58,19 @@ ht-degree: 16%
 
 ## 작동 방식 {#how-it-works}
 
-충성도 문제를 만들고 실행하는 것은 다음 워크플로를 따릅니다.
+충성도 과제 사용에는 일반적으로 관리자 및 실무자 역할 간에 공유되는 세 가지 광범위한 단계(설정, 실행 및 측정)가 포함됩니다.
 
-1. **과제 만들기** - 과제 유형(표준, 연속, 순차적 또는 가능한 경우 고유한 데이터 가져오기)을 선택합니다. [챌린지 유형을 선택하는 방법을 알아보세요](create-challenges.md#create-the-challenge).
+**1. 프로그램 설정** *(관리자)*
 
-1. **설정 구성** - 설정 탭에서 과제 세부 정보, 대상, 일정, 규칙(옵트인, 진행 추적, 반복 제한) 및 선택적 메타데이터를 정의합니다. [과제 설정에 대해 알아보세요](create-challenges.md#settings).
+문제를 작성하기 전에 관리자는 보상 제공업체, 고객 작업을 작업 완료, 제품 인벤토리 및 제외 목록에 매핑하는 이벤트 정의 등 프로그램 기반을 구성합니다. [충성도 문제를 구성하는 방법을 알아보세요](loyalty-admin.md).
 
-1. **작업 및 보상 추가** - [구조] 탭에서 작업 및 보상을 정의합니다(고유한 데이터 문제 가져오기에 필요하지 않음).
+**2. 작성 및 실행 문제** *(실무자)*
 
-1. **콘텐츠 카드 디자인** - 고객 장치에 표시되는 Journey Optimizer 콘텐츠 카드를 사용하여 도전의 시각적 표현을 만듭니다.
+마케터는 유형(표준, 연속, 순차적 또는 고유한 데이터 가져오기)을 선택하고, 설정(대상, 일정, 규칙)을 구성하고, 작업 및 보상을 정의하여 문제를 만듭니다. 선택적으로 **콘텐츠 카드** 또는 **코드 기반 경험**&#x200B;을 사용하여 구성원 대면 인터페이스에 문제를 표시하고 문제 라이프사이클에서 중요한 순간에 대한 채널 알림을 설정할 수 있습니다. 구성이 완료되면 과제를 게시하고, 자동으로 빌드된 여정을 생성한 다음 게시하여 과제를 라이브로 만듭니다. [문제를 만드는 방법을 알아보세요](create-challenges.md).
 
-1. **메시지 구성**(선택 사항) - 시작, 진행 중 및 완료와 같은 주요 라이프사이클 단계에 대한 멀티채널 메시지(인앱, 이메일, 푸시)를 설정합니다.
+**3. 성능 모니터링** *(실무자/분석가)*
 
-1. **챌린지 시작** - 챌린지를 게시한 다음 여정을 생성합니다. Journey Optimizer은 자동으로 문제를 해결할 여정을 생성합니다. 자동 생성된 여정을 게시하여 고객이 문제를 사용할 수 있도록 합니다.
-
-자세한 단계별 지침은 [문제 만들기](create-challenges.md)를 참조하십시오.
+문제가 실행되면 기본 제공 보고 대시보드가 대상 funnel 성과, 작업 완료율, 보상 발행 및 매출에 미치는 영향과 같은 문제 수준 지표를 제공합니다. AI 기반의 인사이트 엔진은 프로그램 성능을 최적화하는 데 도움이 되는 상황별 권장 사항도 제공합니다. [충성도 보고에 대해 알아봅니다](loyalty-reporting.md).
 
 ## 사전 요구 사항 {#prerequisites}
 
@@ -118,28 +78,9 @@ ht-degree: 16%
 
 +++필요한 권한
 
-충성도 문제를 사용하려면 Journey Optimizer 및 Adobe Experience Platform에서 적절한 권한이 필요합니다.
+충성도 문제를 사용하려면 충성도 역할에 할당되어야 합니다. 기본 역할은 Prod 샌드박스에서 관리자, 실무자 및 분석가가 사용할 수 있습니다. 비프로덕션 샌드박스의 경우 관리자는 필요한 충성도 권한이 있는 사용자 정의 역할을 만들어야 합니다.
 
-**Journey Optimizer:**
-
-* `journeys.read`
-* `journeys.write`
-* `journeys.delete`
-* `journeys.publish`
-* `journeys_events.read`
-* `journeys_events.write`
-* `journeys_events.delete`
-* `journeys_report.read`
-* `messages.read`
-* `messages_report.read`
-
-**Adobe Experience Platform:**
-
-* `segments.read`
-* `profiles.read`
-* `identity_namespace.read`
-
-기능에 액세스할 수 없거나 추가 권한이 필요한 경우 관리자에게 문의하십시오.
+기능에 액세스할 수 없거나 추가 권한이 필요한 경우 관리자에게 문의하십시오. [충성도 문제 권한을 구성하는 방법을 알아보세요](loyalty-permissions.md).
 
 +++
 
@@ -214,7 +155,7 @@ ht-degree: 16%
     <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
     </a>
     <div>
-  -->
+-->
     <a href="loyalty-admin.md"><strong>충성도 챌린지 구성</strong></a>
     </div>
     <p>

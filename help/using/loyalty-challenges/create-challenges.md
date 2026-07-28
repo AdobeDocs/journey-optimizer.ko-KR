@@ -7,58 +7,28 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-badge: label="비공개 베타" type="Informative"
-mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: bdfc730eacd1fa7b382b15bea8b96c8ae5913c38
+source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
 workflow-type: tm+mt
-source-wordcount: '2578'
-ht-degree: 11%
+source-wordcount: '2584'
+ht-degree: 12%
 
 ---
 
+
 # 과제 만들기 {#create-challenges}
 
->[!BEGINSHADEBOX]
+이 페이지에서는 Adobe Journey Optimizer에서 충성도 문제를 만들고 게시하는 전체 프로세스를 다룹니다.
 
-**목차**
+문제 만들기에는 다음 단계가 포함됩니다.
 
-[충성도 문제 시작](get-started.md)
-
-<table style="table-layout:fixed">
-<tr style="border: 0;">
-<td style="vertical-align:top;">
-
-**문제 만들기 및 관리**
-
-* [과제 및 작업 액세스 및 관리](access-loyalty-challenges.md)
-* **문제 만들기** ◀︎**현재 상태**
-* [작업 만들기](create-tasks.md)
-* [충성도 과제 성능 모니터링](loyalty-reporting.md)
-
-</td>
-<td style="vertical-align:top;">
-
-**구성 및 통합**
-
-* [충성도 문제 구성](loyalty-admin.md)
-* [보상 정의 안내서](reward-definition-guide.md)
-* [이벤트 변환기 안내서](event-transformer-guide.md)
-* [충성도 데이터 및 데이터 세트](loyalty-data-and-datasets.md)
-* [충성도 과제 API 참조](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
-
-</td>
-</tr>
-</table>
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->이 기능은 현재 **개인 베타**&#x200B;에 있습니다. 릴리스 주기 및 가용성 단계에 대한 자세한 내용은 [Journey Optimizer 릴리스 주기](../rn/releases.md)를 참조하십시오.
-
-이 페이지에서는 과제 유형 선택 및 설정, 구조, 콘텐츠 및 메시지 구성에서 고객에게 과제를 제공하는 여정 생성 및 게시에 이르기까지 충성도 과제를 생성하는 전체 프로세스를 다룹니다.
+1. **[챌린지 만들기](#create-the-challenge)** — 챌린지 유형을 선택하고 챌린지 편집기를 엽니다.
+1. **[설정 구성](#settings)** — 과제 이름, 대상, 일정, 옵트인 규칙 및 반복 제한을 정의합니다.
+1. **[구조 구성](#structure)** - 작업 및 보상을 추가합니다(고유한 데이터 가져오기 문제에 해당되지 않음).
+1. **[콘텐츠 구성](#configure-content-cards)** *(선택 사항)* — 콘텐츠 카드 또는 코드 기반 경험을 사용하는 구성원에게 문제가 표시되는 방식을 정의합니다.
+1. **[메시지 구성](#configure-messaging)** *(선택 사항)* - 시작, 진행 중 및 종료 단계에 대한 채널 메시지를 설정합니다.
+1. **[문제를 게시](#launch)** — 여정 생성에 문제를 사용할 수 있도록 합니다.
+1. **[여정 생성 및 게시](#launch)** - 고객에게 과제를 제공하는 자동 생성된 여정을 트리거합니다.
 
 문제 만들기에는 다음 단계가 포함됩니다.
 
@@ -72,7 +42,7 @@ ht-degree: 11%
 
 ## 과제 만들기 {#create-the-challenge}
 
-1. Journey Optimizer의 **[!UICONTROL 충성도 과제(Beta)]**(으)로 이동합니다.
+1. Journey Optimizer의 **[!UICONTROL 충성도 과제]**(으)로 이동합니다.
 
 1. **[!UICONTROL 과제]** 탭을 선택하고 **[!UICONTROL 과제 만들기]**&#x200B;를 선택합니다.
 
@@ -321,7 +291,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_messaging"
 >title="메시지"
->abstract="메시징은 챌린지 라이프사이클 전반에 대한 참여를 돕습니다. 메시징 탭에서 각 단계에 대한 메시지를 추가합니다. 시작(과제 공지 및 참여자 초대), 진행 중(참여자의 참여 및 작업 완료 유지) 및 종료(완료를 축하하고 참여자에게 보상 알림). 각 단계에 대해 메시지 추가 버튼을 클릭하고 채널을 선택한 다음 채널 구성을 선택한 다음 편집 을 선택하여 메시지 콘텐츠를 디자인합니다."
+>abstract="메시징은 챌린지 라이프사이클 전반에 대한 참여를 돕습니다. 메시징 탭에서 시작(챌린지 공지 및 참여자 초대), 진행 중(참여자의 참여 유지 및 작업 완료 중), 종료(완료 축하 및 참여자에게 보상 알림) 등 각 단계에 대한 메시지를 추가합니다. 각 단계에 대해 메시지 추가 버튼을 클릭하고, 채널을 선택하고, 채널 구성을 선택한 다음 편집을 선택하여 메시지 콘텐츠를 디자인합니다."
 
 멀티채널 메시지를 설정하여 과제 라이프사이클의 주요 단계에서 고객을 참여시킵니다. 메시지는 선택 사항이지만 고객 참여를 극대화하기 위해 권장됩니다.
 

@@ -7,58 +7,17 @@ feature: Journeys
 topic: Content Management
 role: Admin, Developer
 level: Intermediate
-hide: true
-badge: label="비공개 베타" type="Informative"
-mini-toc-levels: 1
 exl-id: a7c4e1b2-8f3d-4a6c-9e0b-1d2e3f4a5b6c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
+source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
 workflow-type: tm+mt
-source-wordcount: 619
-ht-degree: 8%
+source-wordcount: 549
+ht-degree: 5%
 
 ---
 
 # 충성도 데이터 및 데이터 세트 {#loyalty-data-and-datasets}
-
->[!BEGINSHADEBOX]
-
-**목차**
-
-[충성도 문제 시작](get-started.md)
-
-<table style="table-layout:fixed">
-<tr style="border: 0;">
-<td style="vertical-align:top;">
-
-**문제 만들기 및 관리**
-
-* [과제 및 작업 액세스 및 관리](access-loyalty-challenges.md)
-* [과제 만들기](create-challenges.md)
-* [작업 만들기](create-tasks.md)
-* [충성도 과제 성능 모니터링](loyalty-reporting.md)
-
-</td>
-<td style="vertical-align:top;">
-
-**구성 및 통합**
-
-* [충성도 문제 구성](loyalty-admin.md)
-* [보상 정의 안내서](reward-definition-guide.md)
-* [이벤트 변환기 안내서](event-transformer-guide.md)
-* **충성도 데이터 및 데이터 세트** ◀︎ **현재 상태**
-* [충성도 과제 API 참조](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
-
-</td>
-</tr>
-</table>
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->이 기능은 현재 **개인 베타**&#x200B;에 있습니다. 릴리스 주기 및 가용성 단계에 대한 자세한 내용은 [Journey Optimizer 릴리스 주기](../rn/releases.md)를 참조하십시오.
 
 ## 개요 {#overview}
 
@@ -84,9 +43,11 @@ Journey Optimizer 설명서에 나열된 충성도 및 보상 커넥터는 다�
 
 Challenge 대상자, 개인화 및 보고는 **[!DNL XDM Individual Profile]** 클래스의 프로필을 사용합니다. 충성도 문제에 사용하는 ID [네임스페이스](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/namespaces){target="_blank"}를 프로필 데이터에서 구성원이 식별되는 방식과 **[!UICONTROL 충성도 관리자]** 메뉴의 **[!UICONTROL 전역 설정]**&#x200B;에서 선택한 네임스페이스와 연결합니다.
 
-프로필의 표준 충성도 특성(포인트, 계층, 프로그램, 상태 및 관련 필드)에 대해서는 Experience Platform **[충성도 세부 정보](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}** 스키마 필드 그룹을 사용하십시오. 해당 필드 그룹은 `loyalty` 개체와 해당 속성을 정의합니다(예: `points`, `tier`, `program` 및 `status`).
+프로필의 표준 충성도 특성(포인트, 계층, 프로그램, 상태 및 관련 필드)에 대해서는 Experience Platform **[충성도 세부 정보](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}** 스키마 필드 그룹을 사용하십시오. 해당 필드 그룹은 `loyalty` 개체와 해당 속성을 정의합니다(예: `points`, `tier`, `program` 및 `status`).
 
-➡️ [충성도 세부 정보 스키마 필드 그룹](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
+➡️ [충성도 세부 정보 스키마 필드 그룹](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
+
+➡️ [AJO 스키마 사전](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=en){target="_blank"}
 
 ### 경험 이벤트 {#experience-events}
 
@@ -108,4 +69,4 @@ Journey Optimizer은 시스템에서 생성한 여러 데이터 세트에 TTL �
 
 >[!NOTE]
 >
->조직 수준의 충성도 구성에는 충성도 메타데이터 서비스를 통해 관리되는 아카이브 및 보존 설정(예: 아카이브 기간)이 포함될 수 있습니다. 비공개 베타 환경에 대한 보존 조정이 필요한 경우 Adobe 관리자와 협력합니다.
+>조직 수준의 충성도 구성에는 충성도 메타데이터 서비스를 통해 관리되는 아카이브 및 보존 설정(예: 아카이브 기간)이 포함될 수 있습니다. 조직의 보존을 조정해야 하는 경우 Adobe 관리자와 상의하십시오.

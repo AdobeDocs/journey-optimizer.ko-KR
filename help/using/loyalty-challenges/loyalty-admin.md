@@ -7,60 +7,17 @@ feature: Journeys
 topic: Content Management
 role: Admin
 level: Intermediate
-hide: true
-badge: label="비공개 베타" type="Informative"
-mini-toc-levels: 1
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
+source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
 workflow-type: tm+mt
-source-wordcount: 1834
+source-wordcount: 1755
 ht-degree: 17%
 
 ---
 
 # 충성도 문제 구성 {#loyalty-admin}
-
-<!-- Unpublished draft: Loyalty Admin UI documentation is not validated for Experience League. This page uses hide: true until review. -->
-
->[!BEGINSHADEBOX]
-
-**목차**
-
-[충성도 문제 시작](get-started.md)
-
-<table style="table-layout:fixed">
-<tr style="border: 0;">
-<td style="vertical-align:top;">
-
-**문제 만들기 및 관리**
-
-* [과제 및 작업 액세스 및 관리](access-loyalty-challenges.md)
-* [과제 만들기](create-challenges.md)
-* [작업 만들기](create-tasks.md)
-* [충성도 과제 성능 모니터링](loyalty-reporting.md)
-
-</td>
-<td style="vertical-align:top;">
-
-**구성 및 통합**
-
-* **충성도 문제 구성** ◀︎**현재 상태**
-* [보상 정의 안내서](reward-definition-guide.md)
-* [이벤트 변환기 안내서](event-transformer-guide.md)
-* [충성도 데이터 및 데이터 세트](loyalty-data-and-datasets.md)
-* [충성도 과제 API 참조](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
-
-</td>
-</tr>
-</table>
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->이 기능은 현재 **개인 베타**&#x200B;에 있습니다. [!DNL Journey Optimizer]의 릴리스 주기 및 가용성 단계에 대한 자세한 내용은 [릴리스 주기](../rn/releases.md)를 참조하십시오.
 
 ## 개요 {#access-loyalty-admin}
 
@@ -268,7 +225,7 @@ ht-degree: 17%
 
    ![](assets/admin-inventory-upload.png)
 
-1. 인벤토리 목록에서 가져온 데이터를 검토합니다. 목록에는 항목당 하나의 행이 표시됩니다. **열에 포함된**&#x200B;그룹 열은 해당 항목에 대한 모든 제품 그룹을 알약 또는 여러 그룹에 속하는 경우 여러 알약으로 표시합니다.
+1. 인벤토리 목록에서 가져온 데이터를 검토합니다. 목록에는 항목당 하나의 행이 표시됩니다. ]**열에 포함된**[!UICONTROL &#x200B;그룹 열은 해당 항목에 대한 모든 제품 그룹을 알약 또는 여러 그룹에 속하는 경우 여러 알약으로 표시합니다.
 
    ![](assets/admin-inventory-imported.png)
 
@@ -305,7 +262,7 @@ ht-degree: 17%
 
    ![](assets/admin-exclusions-upload.png)
 
-1. 제외 목록에서 가져온 데이터를 검토합니다. 목록에는 항목당 하나의 행이 표시됩니다. **열에 포함된**&#x200B;그룹 열은 해당 항목에 대한 모든 제외 그룹을 알약 또는 여러 그룹에 속하는 경우 여러 알약으로 표시합니다.
+1. 제외 목록에서 가져온 데이터를 검토합니다. 목록에는 항목당 하나의 행이 표시됩니다. ]**열에 포함된**[!UICONTROL  Groups는 해당 항목에 대한 모든 제외 그룹을 알약 또는 여러 그룹에 속한 경우 여러 알약으로 표시합니다.
 
 <!-- SCREENSHOT: Exclusions list after CSV upload -->
 

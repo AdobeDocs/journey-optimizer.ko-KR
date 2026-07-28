@@ -6,10 +6,10 @@ user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 0ccd65f3e2f37c7893e81ab0a94ee4842cd4565d
+source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
 workflow-type: tm+mt
-source-wordcount: '3479'
-ht-degree: 95%
+source-wordcount: '3489'
+ht-degree: 94%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 95%
 + 여정 {#orchestrate-journeys}
   + [여정 시작](using/building-journeys/journey.md)
   + {hide-from-toc}[여정 시작 안내서](using/building-journeys/journey-get-started.md)
-  + {hide-from-toc}[여정 형식: 올바른 one-2 선택](using/building-journeys/journey-types-selection-v2.md)
+  + {hide-from-toc}[여정 형식: 올바른 one-2](using/building-journeys/journey-types-selection-v2.md) 선택
   + [Journey Orchestration FAQ](using/building-journeys/journey-faq.md)
   + 여정 만들기 {#create-journey}
     + [여정 만들기](/help/rp_landing_pages/create-journey-landing-page.md)
@@ -149,16 +149,19 @@ ht-degree: 95%
     + [외부 데이터 원본 및 사용자 정의 작업으로 처리량 제한](using/building-journeys/limit-throughput.md)
     + [사용자 정의 작업을 사용하여 Experience Platform에 여정 이벤트 작성](using/building-journeys/custom-action-aep.md)
 + 충성도 챌린지 {#loyalty-challenges}
-  + {hide-from-toc}[충성도 챌린지 시작](using/loyalty-challenges/get-started.md)
-  + {hide-from-toc}[챌린지 및 작업 액세스 및 관리](using/loyalty-challenges/access-loyalty-challenges.md)
-  + {hide-from-toc}[챌린지 만들기](using/loyalty-challenges/create-challenges.md)
-  + {hide-from-toc}[작업 만들기](using/loyalty-challenges/create-tasks.md)
-  + {hide-from-toc}[충성도 챌린지 성능 모니터링](using/loyalty-challenges/loyalty-reporting.md)
-  + {hide-from-toc}[충성도 챌린지 구성](using/loyalty-challenges/loyalty-admin.md)
-  + {hide-from-toc}[보상 정의 가이드](using/loyalty-challenges/reward-definition-guide.md)
-  + {hide-from-toc}[이벤트 변환기 안내서](using/loyalty-challenges/event-transformer-guide.md)
-  + {hide-from-toc}[충성도 데이터 및 데이터 세트](using/loyalty-challenges/loyalty-data-and-datasets.md)
-  + {hide-from-toc}[충성도 챌린지 API 참조](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges)
+  + [충성도 문제 시작](using/loyalty-challenges/get-started.md)
+  + 과제 생성 및 관리 {#create-manage-challenges}
+    + [과제 및 작업 액세스 및 관리](using/loyalty-challenges/access-loyalty-challenges.md)
+    + [과제 만들기](using/loyalty-challenges/create-challenges.md)
+    + [작업 만들기](using/loyalty-challenges/create-tasks.md)
+    + [충성도 과제 성능 모니터링](using/loyalty-challenges/loyalty-reporting.md)
+  + 구성 및 통합 {#configure-integrate-loyalty}
+    + [충성도 문제 구성](using/loyalty-challenges/loyalty-admin.md)
+    + [보상 정의 안내서](using/loyalty-challenges/reward-definition-guide.md)
+    + [이벤트 변환기 안내서](using/loyalty-challenges/event-transformer-guide.md)
+    + [충성도 과제 권한](using/loyalty-challenges/loyalty-permissions.md)
+    + [충성도 데이터 및 데이터 세트](using/loyalty-challenges/loyalty-data-and-datasets.md)
+    + [충성도 과제 API 참조](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges)
 + 캠페인 {#campaigns}
   + {hide-from-toc}[캠페인](/help/rp_landing_pages/campaigns-landing-page.md)
   + [캠페인 시작](using/campaigns/get-started-with-campaigns.md)

@@ -7,15 +7,13 @@ feature: Journeys
 topic: Content Management
 role: Admin
 level: Intermediate
-hide: true
-badge: label="비공개 베타" type="Informative"
 mini-toc-levels: 1
 exl-id: d3ad85f0-7f7e-40ab-b8c4-fc0c1234be87
 feature_v2: []
 subfeature_v2: []
-source-git-commit: c440ff464b2ea58519e6f1ba900728adfa718232
+source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
 workflow-type: tm+mt
-source-wordcount: 1731
+source-wordcount: 1708
 ht-degree: 3%
 
 ---
@@ -60,10 +58,6 @@ ht-degree: 3%
 </table>
 
 >[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->이 기능은 현재 **개인 베타**&#x200B;에 있습니다. [!DNL Journey Optimizer]의 릴리스 주기 및 가용성 단계에 대한 자세한 내용은 [릴리스 주기](../rn/releases.md)를 참조하십시오.
 
 고객 거래를 충성도 챌린지에 적용하려면 먼저 챌린지 서비스가 인식하는 **Adobe 충성도 이벤트** 형식이어야 합니다. POS 시스템, 모바일 앱, 전자 상거래 플랫폼 또는 기타 소스의 고객 이벤트는 일반적으로 고객의 데이터 스키마를 사용합니다. **이벤트 변환기** 업스트림 시스템을 변경하지 않고 이 간격을 메웁니다.
 
