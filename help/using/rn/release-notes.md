@@ -8,28 +8,16 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 1ddc46d8ea79660610ff6ba9600ed78d57c86ab5
 workflow-type: tm+mt
-source-wordcount: 1230
-ht-degree: 33%
+source-wordcount: 1446
+ht-degree: 28%
 
 ---
 
@@ -74,6 +62,35 @@ Journey Optimizer에서는 이 릴리스의 새로운 기능인 충성도 문제
 </tbody>
 </table>
 
+### 아웃바운드 채널 {#july-26-outbound-channels}
+
+이 릴리스에는 다음과 같은 기능이 도입되었습니다.
+
+<table>
+<thead>
+<tr>
+<th><strong>채널 최적화</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 여러 아웃바운드 채널(이메일, 푸시, SMS)을 포함하도록 여정 또는 캠페인 작업을 구성하고 Journey Optimizer에서 각 고객을 위한 최상의 채널을 자동으로 전달하도록 할 수 있습니다. 세 가지 최적화 모드를 사용할 수 있습니다.</p>
+<ul>
+<li>수동 순위: 선호하는 채널 순서를 지정합니다.</li>
+<li>고객 환경 설정: 프로필에서 고객이 선호하는 채널을 사용합니다(Experience Data Model 동의 및 환경 설정 속성).</li>
+<li>AI 모델 기반 순위: 머신 러닝 성향 점수를 사용하여 고객당 가장 효과적인 채널을 추론합니다.</li>
+</ul>
+<p>최상위 채널을 사용할 수 없는 경우(옵트인, 주파수 제한 또는 구성되지 않은 경우) 시스템이 사용 가능한 다음 채널로 폴백합니다.</p>
+<p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
+<p><img src="assets/do-not-localize/channel-optimization.gif"></p>
+<p>자세한 내용은 <a href="../building-journeys/channel-optimization.md">세부 설명서</a>를 참조하십시오.</p>
+<p>사용 가능한 날짜: 2026년 7월 22일</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ### 여정 {#july-26-journeys}
 
 이번 릴리스에서는 다음과 같은 기능 및 개선 사항이 여정에 추가되었습니다.
@@ -97,6 +114,31 @@ Journey Optimizer에서는 이 릴리스의 새로운 기능인 충성도 문제
 </table>
 
 * [!BADGE 사용 중단]{type=Negative} 일괄 처리 대상은 대상 자격 노드에서 더 이상 지원되지 않습니다. 2026년 8월 3일부터 Journey Optimizer에서는 대상 자격 노드에서 일괄 처리 대상을 사용하는 여정에 대한 게시를 차단합니다. 이 시행은 6월 릴리스에 도입된 캔버스 경고를 대체합니다. 기존 라이브 여정은 영향을 받지 않습니다. 대상 자격 노드에서 스트리밍 대상을 사용하거나 대상 읽기 활동으로 전환합니다. [여정 마이그레이션 방법 알아보기](../building-journeys/aq-batch-audiences-migration.md)
+
+### 이메일 디자이너 {#july-26-email}
+
+이 릴리스의 이메일 채널에 다음 기능이 추가되었습니다.
+
+<table>
+<thead>
+<tr>
+<th><strong>이메일 Designer에서 컨텐츠 확인(일반 가용성)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer는 이제 이메일 디자이너에 직접 자동화된 기술 유효성 검사 기능을 포함하여 전송 전에 HTML 및 CSS 문제를 감지할 수 있도록 지원합니다.</p>
+<p>검사에는 <code>&lt;script&gt;</code> 및 <code>&lt;base&gt;</code> 태그와 같은 지원되지 않는 요소, Microsoft Outlook에서 레이아웃을 깨뜨릴 수 있는 빈 div, HTML Meta 새로 고침 태그, Gmail에서 렌더링 오류를 유발하는 CSS 또는 HTML 크기 임계값 등이 포함됩니다.</p>
+<p>검사 결과는 작성 패널에 오류, 경고 또는 정보 알림으로 표시되며, 상황별 세부 정보와 가능한 경우 원클릭 수정 기능이 제공되므로 편집기를 종료하지 않고도 문제를 해결할 수 있습니다.</p>
+<p>이전에는 제한 공급으로만 사용 가능했던 이 기능이 이제 모든 고객에게 정식으로 제공됩니다.</p>
+<p><img src="assets/do-not-localize/content-check.gif"></p>
+<p>자세한 내용은 <a href="../email/content-check.md">세부 설명서</a>를 참조하십시오.</p>
+<p>사용 가능한 날짜: 2026년 7월 16일</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ### 오케스트레이션된 캠페인 {#july-26-oc}
 
@@ -131,56 +173,6 @@ Journey Optimizer에서는 이 릴리스의 새로운 기능인 충성도 문제
 
   ![](../content-management/assets/content-template-quick-launch.png)
 
-### 이메일 채널 {#july-26-email}
-
-이 릴리스의 이메일 채널에 다음과 같은 개선 사항이 추가되었습니다.
-
-<table>
-<thead>
-<tr>
-<th><strong>채널 최적화</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 여러 아웃바운드 채널(이메일, 푸시, SMS)을 포함하도록 여정 또는 캠페인 작업을 구성하고 Journey Optimizer에서 각 고객을 위한 최상의 채널을 자동으로 전달하도록 할 수 있습니다. 세 가지 최적화 모드를 사용할 수 있습니다.</p>
-<ul>
-<li>수동 순위: 선호하는 채널 순서를 지정합니다.</li>
-<li>고객 환경 설정: 프로필에서 고객이 선호하는 채널을 사용합니다(Experience Data Model 동의 및 환경 설정 속성).</li>
-<li>AI 모델 기반 순위: 머신 러닝 성향 점수를 사용하여 고객당 가장 효과적인 채널을 추론합니다.</li>
-</ul>
-<p>최상위 채널을 사용할 수 없는 경우(옵트인, 주파수 제한 또는 구성되지 않은 경우) 시스템이 사용 가능한 다음 채널로 폴백합니다.</p>
-<p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
-<p><img src="assets/do-not-localize/channel-optimization.gif"></p>
-<p>자세한 내용은 <a href="../building-journeys/channel-optimization.md">세부 설명서</a>를 참조하십시오.</p>
-<p>사용 가능한 날짜: 2026년 7월 22일</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>이메일 Designer에서 컨텐츠 확인(일반 가용성)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer는 이제 이메일 디자이너에 직접 자동화된 기술 유효성 검사 기능을 포함하여 전송 전에 HTML 및 CSS 문제를 감지할 수 있도록 지원합니다.</p>
-<p>검사에는 <code>&lt;script&gt;</code> 및 <code>&lt;base&gt;</code> 태그와 같은 지원되지 않는 요소, Microsoft Outlook에서 레이아웃을 깨뜨릴 수 있는 빈 div, HTML Meta 새로 고침 태그, Gmail에서 렌더링 오류를 유발하는 CSS 또는 HTML 크기 임계값 등이 포함됩니다.</p>
-<p>검사 결과는 작성 패널에 오류, 경고 또는 정보 알림으로 표시되며, 상황별 세부 정보와 가능한 경우 원클릭 수정 기능이 제공되므로 편집기를 종료하지 않고도 문제를 해결할 수 있습니다.</p>
-<p>이전에는 제한 공급으로만 사용 가능했던 이 기능이 이제 모든 고객에게 정식으로 제공됩니다.</p>
-<p><img src="assets/do-not-localize/content-check.gif"></p>
-<p>자세한 내용은 <a href="../email/content-check.md">세부 설명서</a>를 참조하십시오.</p>
-<p>사용 가능한 날짜: 2026년 7월 16일</p>
-</td>
-</tr>
-</tbody>
-</table>
-
 ### 콘텐츠 및 통합 {#july-26-integration}
 
 이번 릴리스에서는 콘텐츠 관리 및 통합 기능에 다음과 같은 기능과 개선 사항이 추가될 예정입니다.
@@ -192,6 +184,30 @@ Journey Optimizer에서는 이 릴리스의 새로운 기능인 충성도 문제
 * **AJO MCP 서버 새 도구** - 이제 [!DNL Adobe Journey Optimizer] MCP 서버는 5개의 추가 읽기 전용 **채널 구성 도구**&#x200B;를 노출하므로 AI 도우미에서 직접 채널 구성, 지원 리소스 및 마케팅 작업을 쿼리할 수 있습니다. 이제 **목록 채널 구성**(모든 AJO 채널에서), **채널 구성 가져오기**, **목록 구성 리소스**, **구성 리소스 가져오기** 및 **목록 마케팅 작업**&#x200B;을 사용할 수 있습니다. [자세히 보기](../integrations/ajo-mcp.md#mcp-tools)
 
   사용 가능한 날짜: 2026년 7월 9일
+
+* **개인화 식에 새 도우미 함수** - 이제 개인화 식에 새 도우미 함수를 사용할 수 있습니다.
+
+  * `appendQueryParams`: 쿼리 매개 변수를 URL에 추가하거나 키가 이미 있는 경우 바꿉니다.
+  * `dateBetween`: 날짜가 시작 및 종료 날짜 범위(포함)에 속하는지 확인합니다.
+  * `equalsAnyIgnoreCase`: 문자열이 제공된 값과 일치하면 true를 반환하고 대/소문자를 무시합니다.
+  * `getUrlFragment`: URL의 조각 부분(# 다음 부분)을 추출합니다.
+  * `join`: 구분 기호를 사용하여 배열 요소를 단일 문자열로 연결합니다.
+  * `decode64`: Base64로 인코딩된 문자열을 디코딩합니다. 입력이 유효한 Base64가 아닌 경우 원래 입력 문자열은 변경되지 않고 반환됩니다.
+  * `parseJson`: JSON 문자열을 템플릿에서 사용할 수 있는 구조화된 변수로 구문 분석합니다.
+  * `valueAtPath`: 배열 또는 컬렉션에서 특정 요소를 추출하기 위한 선택적 인덱싱을 사용하여 데이터 경로의 값을 템플릿 변수에 할당합니다.
+  * `abort`: 렌더링 중에 도달하면 메시지 배달을 중지합니다.
+
+  `concat` 함수도 향상되었으며 이제 두 개 이상의 인수를 지원합니다.
+
+  또한 다음 템플릿 마이그레이션 기능 을 사용하여 기존 템플릿을 Journey Optimizer으로 마이그레이션할 수 있습니다.
+
+  * `ampCompare`: 지정된 비교 연산자를 사용하여 두 값을 비교합니다.
+  * `ampSubstr`: 지정된 시작 및 끝 인덱스 사이의 문자열 부분을 반환합니다.
+  * `compareTo`: 두 문자열을 사전적으로 비교합니다.
+
+  [도우미 기능에 대해 자세히 알아보기](../personalization/functions/functions.md)
+
+  사용 가능한 날짜: 2026년 7월 28일
 
 ### 관리 {#july-26-administration}
 
