@@ -11,7 +11,7 @@ mini-toc-levels: 1
 exl-id: 9b0fd9d8-18d1-4a51-8b6f-b2e2a4c6f1d7
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
 source-wordcount: 1183
 ht-degree: 5%
@@ -475,3 +475,4 @@ Content-Type: application/json
 | `task.accumulators.item_list[-1]`이(가) null입니다. | 보상 발행 전 항목이 적용되지 않았습니다(비구매 이벤트). | 조건부로 보호하거나 컨텍스트의 `timestamp`을(를) 대신 사용하십시오. |
 | 소스가 `"task"` 또는 `"challenge"`인 경우 `milestone`에 액세스함 | `milestone`이(가) null입니다. 식에서 null 필드가 생성되거나 발생합니다. | `milestone`에 액세스하기 전에 `rewardContext.source`을(를) 확인하거나 마일스톤 보상에 첨부된 정의에서만 `milestone`을(를) 사용하십시오. |
 | 식이 개체 대신 배열을 반환합니다. | 공급자가 예기치 않은 페이로드 구조를 수신합니다. | 외부 개체에서 배열 반환 식을 래핑합니다. `{ "items": [...] }` |
+

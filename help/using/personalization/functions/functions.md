@@ -6,13 +6,11 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0c30d994a1ba0b4b5ef3ee1c34d836ce7887cc19
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
-source-wordcount: 2566
+source-wordcount: 2758
 ht-degree: 2%
 
 ---
@@ -156,6 +154,9 @@ ht-degree: 2%
     </tr>
     <tr>
         <td><a href="dates.md#date-diff">날짜 차이</a></td><td>이 함수는 일 수로 두 날짜 간의 차이를 검색합니다.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#date-between">다음 사이</a></td><td>이 함수는 특정 날짜가 시작 날짜와 종료 날짜 사이에 있는지, 두 범위를 모두 포함하는지 확인합니다.</td>
     </tr>
     <tr>
         <td><a href="dates.md#day-month">월일</a></td><td>이 함수는 해당 월의 일을 나타내는 숫자를 반환합니다.</td>
@@ -302,10 +303,16 @@ ht-degree: 2%
         <td><a href="string.md#char-code-at">의 문자 코드</a></td><td>이 함수는 JavaScript의 charCodeAt 함수와 같은 문자의 ASCII 값을 반환합니다.</td>
     </tr>
     <tr>
-        <td><a href="string.md#concat">Concat</a></td><td>이 함수는 2개의 문자열을 하나로 결합하는 데 사용합니다.</td>
+        <td><a href="string.md#concate">Concat</a></td><td>이 함수는 2개 이상의 문자열을 하나로 연결합니다.</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#append-query-params">쿼리 매개 변수 추가</a></td><td>이 함수는 URL에서 쿼리 매개 변수를 추가하거나 대체합니다.</td>
     </tr>
     <tr>
         <td><a href="string.md#contains">다음을 포함</a></td><td>이 함수는 문자열에 지정된 하위 문자열이 포함되어 있는지 확인하는 데 사용합니다.</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#decode64">디코드 64</a></td><td>이 함수는 Base64로 인코딩된 문자열을 디코딩합니다.</td>
     </tr>
     <tr>
         <td><a href="string.md#doesNotContain">다음을 포함하지 않음</a></td><td>이 함수는 문자열에 지정된 하위 문자열이 포함되어 있지 않은지 확인하는 데 사용합니다.</td>
@@ -330,6 +337,9 @@ ht-degree: 2%
         <td><a href="string.md#equalsIgnoreCase">같음 대/소문자 무시</a></td><td>이 함수는 대/소문자를 구분하지 않고 문자열이 지정된 하위 문자열로 시작되지 않는지 확인하는 데 사용합니다.</td>
     </tr>
     <tr>
+        <td><a href="string.md#equals-any-ignore-case">모든 대소문자 무시</a></td><td>이 함수는 문자열이 제공된 비교 값 중 하나와 같은지 확인하고 문자 대/소문자를 무시합니다.</td>
+    </tr>
+    <tr>
         <td><a href="string.md#extractEmailDomain">이메일 도메인 추출</a></td><td>이 함수는 이메일 주소의 도메인을 추출하는 데 사용합니다.</td>
     </tr>
     <tr>
@@ -345,6 +355,9 @@ ht-degree: 2%
         <td><a href="string.md#get-url-protocol">URL 프로토콜 가져오기</a></td><td>이 함수는 URL 프로토콜을 가져오는 데 사용합니다.</td>
     </tr>
     <tr>
+        <td><a href="string.md#get-url-fragment">URL 조각 가져오기</a></td><td>이 함수는 URL 조각을 가져오는 데 사용합니다.</td>
+    </tr>
+    <tr>
         <td><a href="string.md#index-of">색인</a></td><td>이 함수는 (첫 번째 인수에서) 두 번째 매개 변수의 첫 번째 발생 횟수 위치를 반환합니다. 일치하는 항목이 없으면 -1을 반환합니다.</td>
     </tr>
     <tr>
@@ -352,6 +365,9 @@ ht-degree: 2%
     </tr>
     <tr>
         <td><a href="string.md#is-not-empty">비어 있지 않음</a></td><td>이 함수는 매개 변수의 문자열이 비어 있지 않으면 true를 반환합니다.</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#join">조인</a></td><td>이 함수는 구분 기호를 사용하여 배열 요소를 단일 문자열로 연결합니다.</td>
     </tr>
     <tr>
         <td><a href="string.md#last-index-of">마지막 색인</a></td><td>이 함수는 (첫 번째 인수에서) 두 번째 매개 변수의 마지막 발생 횟수 위치를 반환합니다. 일치하는 항목이 없으면 -1을 반환합니다.</td>
@@ -453,6 +469,9 @@ ht-degree: 2%
         <td><a href="helpers.md#default">기본 대체 값</a></td><td>이 함수는 기본값으로 변수를 렌더링하는 데 사용합니다.</td>
     </tr>
     <tr>
+        <td><a href="helpers.md#abort">중단</a></td><td>렌더링 중에 호출되면 이 도우미는 메시지 전달을 중지합니다(제한된 가용성)</td>
+    </tr>
+    <tr>
         <td><a href="helpers.md#each">각</a></td><td>이 함수는 배열을 반복하는 데 사용합니다.</td>
     </tr>
     <tr>
@@ -468,10 +487,16 @@ ht-degree: 2%
         <td><a href="helpers.md#let">Let</a></td><td>이 함수를 사용하면 표현식을 나중에 쿼리에서 사용할 변수로 저장할 수 있습니다</td>
     </tr>
     <tr>
+        <td><a href="helpers.md#parse-json">JSON 구문 분석</a></td><td>이 헬퍼는 JSON 문자열을 구문 분석하고 구문 분석된 개체를 템플릿 변수에 저장합니다</td>
+    </tr>
+    <tr>
         <td><a href="helpers.md#unless">Unless</a></td><td>이 함수는 조건부 블록을 정의하는 데 사용합니다. 표현식 평가에서 false를 반환하면 블록이 렌더링됩니다.</td>
     </tr>
     <tr>
         <td><a href="helpers.md#url-parameter-encryption-helper">암호화</a></td><td>샌드박스 레지스트리의 활성 키를 사용하여 렌더링 시 URL 쿼리 매개변수의 표현식 값을 암호화합니다. </td>
+    </tr>
+    <tr>
+        <td><a href="helpers.md#value-at-path">경로의 값</a></td><td>이 도우미는 선택적 배열 인덱싱과 함께 데이터 경로의 값을 템플릿 변수에 할당합니다</td>
     </tr>
     <tr>
         <td><a href="helpers.md#url-function">Url</a></td><td>이 함수는 SMS 메시지 콘텐츠의 URL을 처리합니다. <code>originalUrl</code>와(과) 함께 사용하여 URL을 단축하고 <code>type='DEEPLINK'</code>을(를) 사용하여 딥 링크를 삽입합니다.</td>
@@ -542,8 +567,25 @@ ht-degree: 2%
     </tr>
 </table>
 
+
+### 템플릿 마이그레이션 기능 {#template-migration-functions}
+
+템플릿 마이그레이션 기능 을 사용하여 기존 템플릿을 Journey Optimizer으로 마이그레이션할 수 있습니다.
+
+<table>
+    <tr>
+        <td><a href="operators.md#amp-compare">연산자를 통한 비교</a></td><td>이 함수는 지정된 비교 연산자를 사용하여 두 값을 비교합니다</td>
+    </tr>
+    <tr>
+        <td><a href="operators.md#amp-substr">하위 문자열 범위</a></td><td>이 함수는 지정된 시작 및 끝 인덱스 사이의 문자열 부분을 반환합니다.</td>
+    </tr>
+    <tr>
+        <td><a href="operators.md#compare-to">비교 대상</a></td><td>이 함수는 사전적으로 두 문자열을 비교합니다.</td>
+    </tr>
+</table>
+
 ## 사용 방법 비디오{#video}
 
 개인화 도우미 기능을 사용하여 개인화 값을 변형하는 방법을 알아보고 도우미 기능의 다양한 사용 사례를 이해합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416646?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

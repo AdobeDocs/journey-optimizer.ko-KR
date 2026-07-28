@@ -7,18 +7,14 @@ role: Developer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
 TQID: https://experienceleague.adobe.com/idwoj9f3zFS64ifjzcSASPaUQTaNYtyS-HI6c3-7AI0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
-source-wordcount: 1955
+source-wordcount: 2122
 ht-degree: 6%
 
 ---
@@ -65,21 +61,23 @@ ht-degree: 6%
 
 ## Concat {#concate}
 
-`concat` 함수는 2개의 문자열을 하나로 결합합니다.
+`concat` 함수는 2개 이상의 문자열을 연결하고 결과 문자열을 반환합니다.
 
 **구문**
 
 ```sql
-{%= concat(string,string) %}
+{%= concat(string1, string2, ...) %}
 ```
 
 **예**
 
-다음 함수는 프로필 도시와 국가를 단일 문자열로 결합합니다.
+다음 함수는 여러 문자열을 하나의 값으로 결합합니다.
 
 ```sql
-{%= concat(profile.homeAddress.city,profile.homeAddress.country) %}
+{%= concat("Hello", " ", "World") %}
 ```
+
+&quot;Hello World&quot;를 반환합니다.
 
 ## 다음을 포함 {#contains}
 
@@ -194,6 +192,28 @@ doesNotEndWith(person.emailAddress,".com")
 {%= encode64(string) %}
 ```
 
+## 디코드 64{#decode64}
+
+`decode64` 함수는 Base64로 인코딩된 문자열을 디코딩합니다. 입력이 유효한 Base64가 아닌 경우 원래 입력 문자열은 변경되지 않고 반환됩니다.
+
+**구문**
+
+```sql
+{%= decode64(string) %}
+```
+
+| 인수 | 설명 |
+| --------- | ----------- |
+| `string` | 디코딩할 Base64로 인코딩된 문자열입니다. |
+
+**예**
+
+```sql
+{%= decode64("aGVsbG8=") %}
+```
+
+이 식은 `hello`을(를) 반환합니다.
+
 ## 다음으로 끝남{#endsWith}
 
 `endsWith` 함수는 문자열이 지정된 하위 문자열로 끝나는지 확인하는 데 사용합니다.
@@ -264,6 +284,29 @@ doesNotEndWith(person.emailAddress,".com")
 ```sql
 {%= equalsIgnoreCase(profile.person.name,"John") %}
 ```
+
+## 모든 대소문자 무시 {#equals-any-ignore-case}
+
+`equalsAnyIgnoreCase` 함수는 문자열을 제공된 비교 값 중 하나와 같은지 확인하여 대소문자의 차이점을 무시합니다.
+
+**구문**
+
+```sql
+{%= equalsAnyIgnoreCase(string, string, ...) %}
+```
+
+| 인수 | 설명 |
+| --------- | ----------- |
+| `string` | 비교할 Source 문자열. |
+| `string, ...` | 1개에서 10개의 비교 문자열. |
+
+**예**
+
+```sql
+{%= equalsAnyIgnoreCase("Icon", "icon", "ambassador", "luminary") %}
+```
+
+`true`을(를) 반환합니다
 
 ## 이메일 도메인 추출 {#extractEmailDomain}
 
@@ -355,6 +398,48 @@ doesNotEndWith(person.emailAddress,".com")
 
 &quot;http&quot; 반환
 
+## URL 조각 가져오기 {#get-url-fragment}
+
+`getUrlFragment` 함수는 URL의 조각 부분을 검색하는 데 사용됩니다.
+
+**구문**
+
+```sql
+{%= getUrlFragment(string) %}: string
+```
+
+**예**
+
+```sql
+{%= getUrlFragment("https://www.myurl.com/contact.html#faq") %}
+```
+
+&quot;faq&quot; 반환
+
+## 쿼리 매개 변수 추가 {#append-query-params}
+
+`appendQueryParams` 함수는 URL에서 쿼리 매개 변수를 추가하거나 대체하여 조각 앞에 매개 변수를 삽입합니다.
+
+**구문**
+
+```sql
+{%= appendQueryParams(url, key, value) %}
+```
+
+| 인수 | 설명 |
+| --------- | ----------- |
+| `url` | 업데이트할 URL. |
+| `key` | 추가하거나 대체할 쿼리 매개 변수 키입니다. |
+| `value` | 키에 설정할 쿼리 매개 변수 값입니다. |
+
+**예**
+
+```sql
+{%= appendQueryParams("https://example.com/page", "utm_source", "email") %}
+```
+
+`https://example.com/page?utm_source=email`을(를) 반환합니다
+
 ## 색인 {#index-of}
 
 `indexOf` 함수는 첫 번째 인수에서 두 번째 매개 변수의 첫 번째 발생 횟수 위치를 반환하는 데 사용됩니다. 일치하는 항목이 없으면 -1을 반환합니다.
@@ -413,6 +498,29 @@ doesNotEndWith(person.emailAddress,".com")
 ```sql
 {%= isNotEmpty(profile.mobilePhone.number) %}
 ```
+
+## 조인 {#join}
+
+`join` 함수는 구분 기호를 사용하여 배열의 요소를 단일 문자열로 연결합니다.
+
+**구문**
+
+```sql
+{%= join(array, separator) %}
+```
+
+| 인수 | 설명 |
+| --------- | ----------- |
+| `array` | 연결할 배열입니다. |
+| `separator` | 각 배열 요소 사이에 삽입된 문자열입니다. |
+
+**예**
+
+```sql
+{%= join(["red", "green", "blue"], ",") %}
+```
+
+`red,green,blue`을(를) 반환합니다
 
 ## 마지막 색인 {#last-index-of}
 

@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
 source-wordcount: 1104
 ht-degree: 9%
@@ -163,3 +163,4 @@ Journey Optimizer에서 항목 및 그룹을 선택할 수 있을 뿐만 아니�
 ![](assets/tasks-create-properties.png)
 
 모든 특성과 속성을 구성한 후 **[!UICONTROL 만들기]**&#x200B;를 선택하여 작업을 저장합니다. 작업은 작업 인벤토리에 저장되며 문제 내에서 생성된 경우 해당 문제에 자동으로 추가됩니다.
+

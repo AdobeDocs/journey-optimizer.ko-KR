@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
 source-wordcount: 511
 ht-degree: 0%
@@ -89,3 +89,4 @@ Each card has a priority badge — **High**, **Medium**, or **Low** — based on
 | **제품** | 보기, 상환 및 카탈로그 수준 트렌드를 포함한 제품 카탈로그 성능 |
 | **구성원 주기** | 멤버가 등록, 참여 및 이탈 단계를 진행하는 방식 |
 | **트렌드** | 주별 주기, 계절별 급증 또는 추세 역전과 같은 시간 기반 패턴 |
+
