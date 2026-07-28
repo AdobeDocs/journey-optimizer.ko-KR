@@ -44,7 +44,7 @@ CX Coworker 는 여정 및 충성도 문제를 관리하는 다양한 기술을 
 <!--
 feedback from Ivan: Need to remove Simulate skill from docs until Nico confirms the release timeline.
 
-In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
+In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
 
 * Generating simulated users
 * Generating event values
@@ -294,7 +294,7 @@ Loyalty Challenge Management를 사용하면 Journey Optimizer 사용자가 자�
 
 여정 기술을 통해 Journey Optimizer 사용자는 자연어 인터페이스를 사용하여 여정을 분석하고 최적화할 수 있습니다. 실무자는 여정 기술을 통해 스케줄 및/또는 대상 충돌을 신속하게 식별 및 해결하고, 여정에서 사용자 포기 지점을 감지하고 통찰력 또는 권장 사항을 제공할 수 있습니다. 이를 통해 실무자는 데이터 중심의 의사 결정을 내리고, 고객 참여를 개선하며, 여정 오케스트레이션을 간소화할 수 있습니다.
 
-자세한 내용을 살펴보고 이 [개요](https://experienceleague.adobe.com/en/slides/journey-agent-overview)에서 에이전트를 한눈에 살펴보십시오.
+자세한 내용을 살펴보고 이 [개요](https://experienceleague.adobe.com/ko/slides/journey-agent-overview)에서 에이전트를 한눈에 살펴보십시오.
 
 >[!AVAILABILITY]
 >
@@ -487,6 +487,6 @@ In addition to this, the following capabilities are supported by the Journey Sim
 
 Simulation may not support every activity, channel, or integration that Test mode or a live journey supports, and behavior may change as the capability matures.
 
-➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
+➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
 
 -->
