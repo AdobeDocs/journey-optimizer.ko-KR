@@ -7,58 +7,17 @@ feature: Journeys
 topic: Content Management
 role: Admin, Developer
 level: Intermediate
-hide: true
-badge: label="비공개 베타" type="Informative"
-mini-toc-levels: 1
 exl-id: a7c4e1b2-8f3d-4a6c-9e0b-1d2e3f4a5b6c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
+source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
 workflow-type: tm+mt
-source-wordcount: 619
-ht-degree: 8%
+source-wordcount: 549
+ht-degree: 5%
 
 ---
 
 # 충성도 데이터 및 데이터 세트 {#loyalty-data-and-datasets}
-
->[!BEGINSHADEBOX]
-
-**목차**
-
-[충성도 문제 시작](get-started.md)
-
-<table style="table-layout:fixed">
-<tr style="border: 0;">
-<td style="vertical-align:top;">
-
-**문제 만들기 및 관리**
-
-* [과제 및 작업 액세스 및 관리](access-loyalty-challenges.md)
-* [과제 만들기](create-challenges.md)
-* [작업 만들기](create-tasks.md)
-* [충성도 과제 성능 모니터링](loyalty-reporting.md)
-
-</td>
-<td style="vertical-align:top;">
-
-**구성 및 통합**
-
-* [충성도 문제 구성](loyalty-admin.md)
-* [보상 정의 안내서](reward-definition-guide.md)
-* [이벤트 변환기 안내서](event-transformer-guide.md)
-* **충성도 데이터 및 데이터 세트** ◀︎ **현재 상태**
-* [충성도 과제 API 참조](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
-
-</td>
-</tr>
-</table>
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->이 기능은 현재 **개인 베타**&#x200B;에 있습니다. 릴리스 주기 및 가용성 단계에 대한 자세한 내용은 [Journey Optimizer 릴리스 주기](../rn/releases.md)를 참조하십시오.
 
 ## 개요 {#overview}
 
@@ -88,6 +47,8 @@ Challenge 대상자, 개인화 및 보고는 **[!DNL XDM Individual Profile]** �
 
 ➡️ [충성도 세부 정보 스키마 필드 그룹](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
 
+➡️ [AJO 스키마 사전](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko){target="_blank"}
+
 ### 경험 이벤트 {#experience-events}
 
 **[!UICONTROL 구매]**, **[!UICONTROL 지출]** 및 **[!UICONTROL 사용자 지정 이벤트]** 작업은 Adobe Experience Platform에 수집된 경험 이벤트에 따라 다릅니다. **[!UICONTROL 사용자 지정 이벤트]** 작업의 경우 마케터가 작업 빌더에 사용자 지정 이벤트 값을 입력하려면 먼저 **[!UICONTROL 충성도 관리자]** 메뉴에서 일치하는 이벤트 정의(식별자 경로, 선택적 XDM 스키마 ID, 스키마 및 변환기)를 구성해야 합니다. [이벤트 정의를 구성하는 방법을 알아봅니다](loyalty-admin.md#event-definitions)
@@ -108,4 +69,4 @@ Journey Optimizer은 시스템에서 생성한 여러 데이터 세트에 TTL �
 
 >[!NOTE]
 >
->조직 수준의 충성도 구성에는 충성도 메타데이터 서비스를 통해 관리되는 아카이브 및 보존 설정(예: 아카이브 기간)이 포함될 수 있습니다. 비공개 베타 환경에 대한 보존 조정이 필요한 경우 Adobe 관리자와 협력합니다.
+>조직 수준의 충성도 구성에는 충성도 메타데이터 서비스를 통해 관리되는 아카이브 및 보존 설정(예: 아카이브 기간)이 포함될 수 있습니다. 조직의 보존을 조정해야 하는 경우 Adobe 관리자와 상의하십시오.

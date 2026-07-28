@@ -7,58 +7,17 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-badge: label="비공개 베타" type="Informative"
-mini-toc-levels: 1
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
+source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
 workflow-type: tm+mt
-source-wordcount: 1203
-ht-degree: 10%
+source-wordcount: 1104
+ht-degree: 9%
 
 ---
 
 # 작업 만들기 {#create-tasks}
-
->[!BEGINSHADEBOX]
-
-**목차**
-
-[충성도 문제 시작](get-started.md)
-
-<table style="table-layout:fixed">
-<tr style="border: 0;">
-<td style="vertical-align:top;">
-
-**문제 만들기 및 관리**
-
-* [과제 및 작업 액세스 및 관리](access-loyalty-challenges.md)
-* [과제 만들기](create-challenges.md)
-* **작업 만들기** ◀︎**현재 상태**
-* [충성도 과제 성능 모니터링](loyalty-reporting.md)
-
-</td>
-<td style="vertical-align:top;">
-
-**구성 및 통합**
-
-* [충성도 문제 구성](loyalty-admin.md)
-* [보상 정의 안내서](reward-definition-guide.md)
-* [이벤트 변환기 안내서](event-transformer-guide.md)
-* [충성도 데이터 및 데이터 세트](loyalty-data-and-datasets.md)
-* [충성도 과제 API 참조](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
-
-</td>
-</tr>
-</table>
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->이 기능은 현재 **개인 베타**&#x200B;에 있습니다. 릴리스 주기 및 가용성 단계에 대한 자세한 내용은 [Journey Optimizer 릴리스 주기](../rn/releases.md)를 참조하십시오.
 
 작업은 고객이 충성도 도전에서 보상을 얻기 위해 완료해야 하는 특정 작업 또는 이정표를 정의합니다. 구매 및 지출 작업 또는 조직에서 이미 캡처한 Adobe Experience Platform 경험 이벤트를 추적하는 **[!UICONTROL 사용자 지정 이벤트]** 작업을 구성할 수 있습니다.
 

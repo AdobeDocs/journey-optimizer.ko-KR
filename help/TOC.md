@@ -6,10 +6,10 @@ user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 7a318389cb8979479218e1c68895ea2ff112d427
+source-git-commit: c5460f65413375aac7b76a0651c7ed94b0de6a9d
 workflow-type: tm+mt
-source-wordcount: '3473'
-ht-degree: 95%
+source-wordcount: '3495'
+ht-degree: 94%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 95%
 + [Journey Optimizer 설명서](ajo-home.md)
 + 새로운 기능 {#whats-new}
   + [릴리스 주기](using/rn/releases.md)
-  + [사전 릴리스 정보](using/rn/e-release-notes.md)
+  + {hide-from-toc}[사전 릴리스 정보](using/rn/e-release-notes.md)
   + [최신 릴리스 정보](using/rn/release-notes.md)
   + 이전 릴리스 정보 {#previous-rn-new}
     + {hide-from-toc}[이전 릴리스 정보](/help/rp_landing_pages/previous-rn-new-landing-page.md)
@@ -32,7 +32,7 @@ ht-degree: 95%
   + [설명서 업데이트](using/rn/documentation-updates.md)
   + {hide-from-toc}[향상된 여정 캔버스](using/rn/new-canvas.md)
   + {hide-from-toc}[대상 자격에서 일괄 처리 대상 마이그레이션](using/building-journeys/aq-batch-audiences-migration.md)
-  + {hide-from-toc}[전자 메일 추적 픽셀에 대한 CNIL 지침](using/privacy/cnil-pixel-tracking.md)
+  + {hide-from-toc}[이메일 추적 픽셀 관련한 CNIL 지침](using/privacy/cnil-pixel-tracking.md)
 + 시작하기 {#get-started}
   + [여기서 시작](/help/rp_landing_pages/get-started-landing-page.md)
   + [온보딩 허브](using/start/onboarding-hub.md)
@@ -40,6 +40,7 @@ ht-degree: 95%
     + [Journey Optimizer 소개](using/start/get-started.md)
     + [작동 방식 이해](using/start/understanding-ajo.md)
     + [AI 및 지능형 기능](using/start/ai-features.md)
+    + [CX Coworker의 Journey Optimizer 기술](using/start/ajo-coworker-skills.md)
     + [주요 용어](using/start/terminology.md)
     + [목표에서 시작](using/start/ajo-use-case-guide.md)
     + [가드레일 및 제한 사항](using/start/guardrails.md)
@@ -149,16 +150,19 @@ ht-degree: 95%
     + [외부 데이터 원본 및 사용자 정의 작업으로 처리량 제한](using/building-journeys/limit-throughput.md)
     + [사용자 정의 작업을 사용하여 Experience Platform에 여정 이벤트 작성](using/building-journeys/custom-action-aep.md)
 + 충성도 챌린지 {#loyalty-challenges}
-  + {hide-from-toc}[충성도 챌린지 시작](using/loyalty-challenges/get-started.md)
-  + {hide-from-toc}[챌린지 및 작업 액세스 및 관리](using/loyalty-challenges/access-loyalty-challenges.md)
-  + {hide-from-toc}[챌린지 만들기](using/loyalty-challenges/create-challenges.md)
-  + {hide-from-toc}[작업 만들기](using/loyalty-challenges/create-tasks.md)
-  + {hide-from-toc}[충성도 챌린지 성능 모니터링](using/loyalty-challenges/loyalty-reporting.md)
-  + {hide-from-toc}[충성도 챌린지 구성](using/loyalty-challenges/loyalty-admin.md)
-  + {hide-from-toc}[보상 정의 가이드](using/loyalty-challenges/reward-definition-guide.md)
-  + {hide-from-toc}[이벤트 변환기 안내서](using/loyalty-challenges/event-transformer-guide.md)
-  + {hide-from-toc}[충성도 데이터 및 데이터 세트](using/loyalty-challenges/loyalty-data-and-datasets.md)
-  + {hide-from-toc}[충성도 챌린지 API 참조](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges)
+  + [충성도 문제 시작](using/loyalty-challenges/get-started.md)
+  + 과제 생성 및 관리 {#create-manage-challenges}
+    + [과제 및 작업 액세스 및 관리](using/loyalty-challenges/access-loyalty-challenges.md)
+    + [과제 만들기](using/loyalty-challenges/create-challenges.md)
+    + [작업 만들기](using/loyalty-challenges/create-tasks.md)
+    + [충성도 과제 성능 모니터링](using/loyalty-challenges/loyalty-reporting.md)
+  + 구성 및 통합 {#configure-integrate-loyalty}
+    + [충성도 문제 구성](using/loyalty-challenges/loyalty-admin.md)
+    + [보상 정의 안내서](using/loyalty-challenges/reward-definition-guide.md)
+    + [이벤트 변환기 안내서](using/loyalty-challenges/event-transformer-guide.md)
+    + [충성도 과제 권한](using/loyalty-challenges/loyalty-permissions.md)
+    + [충성도 데이터 및 데이터 세트](using/loyalty-challenges/loyalty-data-and-datasets.md)
+    + [충성도 과제 API 참조](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges)
 + 캠페인 {#campaigns}
   + {hide-from-toc}[캠페인](/help/rp_landing_pages/campaigns-landing-page.md)
   + [캠페인 시작](using/campaigns/get-started-with-campaigns.md)
@@ -431,6 +435,7 @@ ht-degree: 95%
   + 받은 편지함 {#inbox}
     + [받은 편지함 시작](using/inbox/inbox-gs.md)
     + [Journey Optimizer에서 받은 편지함 채널 구성](using/inbox/inbox-configuration.md)
+    + [웹 SDK에서 받은 편지함 지원 구성](using/inbox/inbox-configuration-sdk.md)
     + [받은 편지함 만들기](using/inbox/inbox-create.md)
     + [받은 편지함 디자인](using/inbox/inbox-design.md)
   + WhatsApp {#whatsapp}

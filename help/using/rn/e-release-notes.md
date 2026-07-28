@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: a5db996df4b53b5c4a7a0d737f97fe49753d1fbd
+source-git-commit: c5460f65413375aac7b76a0651c7ed94b0de6a9d
 workflow-type: tm+mt
-source-wordcount: 2250
+source-wordcount: 1960
 ht-degree: 14%
 
 ---
@@ -75,30 +75,6 @@ The following capabilities and improvements are coming to orchestrated campaigns
 
 **릴리스 날짜**: 2026년 7월 28~29일
 
-### 충성도 {#july-26-loyalty}
-
-Journey Optimizer에서는 이 릴리스의 새로운 기능인 충성도를 도입했습니다.
-
-<table>
-<thead>
-<tr>
-<th><strong>충성도 문제</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>충성도 챌린지는 충성도 이니셔티브를 고객이 구매, 리뷰 작성 또는 원하는 행동과 같은 중요한 행동을 취하도록 동기화하는 매력적인 게임화된 경험으로 바꿉니다.</p>
-<p>관리자는 충성도 관리 메뉴를 사용하여 보상 이행 API, 이벤트 정의, 제품 인벤토리, 제외 및 ID 설정을 포함하여 Journey Optimizer을 충성도 생태계와 연결할 수 있습니다. 그런 다음 마케터는 표준, 연속 또는 순차적 문제를 디자인하고, 작업 및 보상을 정의하고, 브랜드 콘텐츠 카드 및 메시지를 제공하고, AI 기반 보고 대시보드를 사용하여 성능을 모니터링할 수 있습니다. Journey Optimizer은 백그라운드에서 각 과제를 오케스트레이션하는 여정을 생성하므로 팀이 고객 경험과 비즈니스 목표에 집중할 수 있습니다.</p>
-<p>또한 충성도는 팀이 과제 생성, 과제 속성 설정, 대상자 및 관련 구성 관리, 통찰력 검토 등 주요 과제 작업을 보다 효율적으로 수행하여 과제 참여도를 모니터링하고 성과를 보상하도록 하는 동료 기술을 도입합니다.</p>
-<p>이 기능은 Journey Optimizer 충성도에 대해 라이선스가 부여된 조직에서만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
-<!-- GIF placeholder: to be added -->
-<!-- Documentation link: TBD -->
-</td>
-</tr>
-</tbody>
-</table>
-
 <!--
 
 ### Onboarding {#july-26-onboarding}
@@ -127,30 +103,7 @@ Journey Optimizer introduces the Onboarding Assistant, a new capability in this 
 
 ### 여정 {#july-26-journeys}
 
-이번 릴리스에서는 다음과 같은 기능 및 개선 사항이 여정에 추가되었습니다.
-
-<table>
-<thead>
-<tr>
-<th><strong>채널 최적화</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 여러 아웃바운드 채널(이메일, 푸시, SMS)을 포함하도록 여정 작업을 구성하고 Journey Optimizer에서 각 고객을 위한 최상의 채널을 자동으로 전달하도록 할 수 있습니다. 세 가지 최적화 모드를 사용할 수 있습니다.</p>
-<ul>
-<li>수동 순위: 선호하는 채널 순서를 지정합니다.</li>
-<li>고객 환경 설정: 프로필에서 고객이 선호하는 채널을 사용합니다(Experience Data Model 동의 및 환경 설정 속성).</li>
-<li>AI 모델 기반 순위: 머신 러닝 성향 점수를 사용하여 고객당 가장 효과적인 채널을 추론합니다.</li>
-</ul>
-<p>최상위 채널을 사용할 수 없는 경우(옵트인, 주파수 제한 또는 구성되지 않은 경우) 시스템이 사용 가능한 다음 채널로 폴백합니다.</p>
-<p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
-<!-- Documentation link: TBD -->
-</td>
-</tr>
-</tbody>
-</table>
+이 릴리스의 여정에 다음과 같은 개선 사항이 추가되었습니다.
 
 * **여정 시뮬레이션의 외부 대상** - 이제 여정 시뮬레이션이 외부 대상을 지원합니다. CSV 또는 Federated Audience Composition 대상을 타겟팅하는 여정을 시뮬레이션할 때 UI 양식 또는 JSON 가져오기를 통해 해당 대상의 데이터 보강 속성을 직접 모의할 수 있습니다. UI는 여정 논리에 사용된 특정 데이터 보강 속성만 동적으로 표시하므로 실행 전에 의사 결정 분기 및 개인화 규칙을 정확하게 확인할 수 있습니다. <!-- Documentation link: TBD -->
 
@@ -188,8 +141,8 @@ Journey Optimizer introduces the Onboarding Assistant, a new capability in this 
 <td>
 <p>이제 시작하기 전에 작업 캠페인에서 인바운드 채널 작업을 시뮬레이션할 수 있습니다. 시뮬레이션 모드를 사용하여 시뮬레이트된 사용자로 구성을 테스트하고 생성된 URL 및 QR 코드를 포함한 렌더링된 경험을 미리 보면 규칙, 의사 결정 및 컨텐츠 렌더링의 엔드 투 엔드를 확인할 수 있습니다.</p>
 <p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
-<GIF placeholder: to be added>
-<Documentation link: TBD>
+<!-- GIF placeholder: to be added -->
+<!-- Documentation link: TBD -->
 </td>
 </tr>
 </tbody>
@@ -206,6 +159,36 @@ Journey Optimizer introduces the Onboarding Assistant, a new capability in this 
 이 릴리스의 오케스트레이션된 캠페인에 다음과 같은 개선 사항이 추가되었습니다.
 
 * **오케스트레이션된 캠페인 전환 보기** - 기존 **오케스트레이션된 캠페인에서 파일 보기** 옵션을 대체할 새 **오케스트레이션된 캠페인 전환 보기** 권한을 추가했습니다. 이 변경 사항을 사용하면 개인 식별 정보 규정 준수를 지원하기 위해 캠페인 전환 내에서 미리 보기 결과를 숨길 수 있습니다.
+
+<!--
+* **Send messages in waves** - You can now schedule outbound messages from orchestrated campaigns to be delivered in controlled batches over time. Ideal for high-volume or time-sensitive campaigns, wave sending also supports better deliverability and helps maintain a strong sender reputation by reducing the risk of being flagged as spam.
+-->
+
+<!--
+### Optimization {#july-26-optimization}
+
+<table>
+<thead>
+<tr>
+<th><strong>Channel optimization</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now configure a journey or campaign action to include multiple outbound channels (Email, Push, SMS) and let Journey Optimizer automatically deliver through the best channel for each customer. Three optimization modes are available:</p>
+<ul>
+<li>Manual ranking: specify your preferred channel order.</li>
+<li>Customer preference: use the customer's preferred channel from their profile (Experience Data Model Consents & Preferences attribute).</li>
+<li>AI model-based ranking: use machine learning propensity scores to infer the most effective channel per customer.</li>
+</ul>
+<p>When the top-ranked channel is unavailable (not opted-in, frequency-capped, or not configured), the system falls back to the next available channel.</p>
+<p>This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
+</td>
+</tr>
+</tbody>
+</table>
+-->
 
 <!--
 <table>
@@ -235,6 +218,40 @@ Journey Optimizer introduces the Onboarding Assistant, a new capability in this 
 * **Target dimension simplification in Orchestrated campaigns** - The active targeting dimension is now shown on the workflow canvas, so you can see which dimension is used by a channel activity. The multi-entity segmentation flow is simpler as you no longer need a separate "Change dimension" activity. Moreover, you can now choose explicitly whether messages are sent at the profile level or at a secondary dimension level.
 
 -->
+
+### 채널 {#july-26-channels}
+
+이 릴리스의 채널에 다음과 같은 기능 및 개선 사항이 추가되었습니다.
+
+<table>
+<thead>
+<tr>
+<th><strong>사용자 지정 아웃바운드 채널</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer은 이제 관리자가 WeChat, KakaoTalk, Messenger 또는 독점 공급자와 같은 아웃바운드 HTTP 기반 메시징 채널을 코드 없는 채널 빌더를 통해 Journey Optimizer으로 직접 가져올 수 있는 새로운 기능인 사용자 지정 채널을 도입했습니다.</p >
+<p>구성하고 나면 캠페인, 여정 및 오케스트레이션된 캠페인 전반에서 기본 채널과 동일한 전체 기능 세트를 사용하여 사용자 정의 채널을 사용할 수 있습니다. 표현식 편집기를 사용한 개인화, 콘텐츠 실험, 미리보기 및 증명, 기본 보고, 동의 및 거버넌스 시행.</p>
+<p>이렇게 하면 이전에 여정 지정 작업으로 해결했던 공백이 해소되며, 이는 채널로만 제한되고 전용 채널 기능이 부족합니다.</p>
+<p>사용자 지정 아웃바운드 채널은 현재 제한된 가용성으로 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
+<!-- GIF placeholder: to be added -->
+<!-- Documentation link: TBD -->
+</td>
+</tr>
+</tbody>
+</table>
+
+* **WhatsApp 채널: WhatsApp 흐름 템플릿 지원** - 이제 Adobe Journey Optimizer에서 WhatsApp 흐름 템플릿을 전송하여 설문 조사 및 잠재 고객 캡처와 같은 대화형 다중 화면 경험을 제공할 수 있습니다. 응답은 제출 시 캡처되어 새 Journey Optimizer 채널 추적 이벤트 데이터 세트에 원시 JSON 페이로드로 저장됩니다. <!-- Documentation link: TBD -->
+
+* **처리량을 위한 성능 추가 기능 - 푸시** - API 트리거 캠페인에서 새로운 처리량 트랜잭션 메시지 모드를 사용할 수 있습니다. 이 모드는 대규모 실시간 트랜잭션 메시지 전송을 위해 설계되었으며 더 높은 가용성으로 초당 최대 5,000개의 트랜잭션을 지원합니다. 이전에는 이메일 채널에서만 사용할 수 있었지만, 이제 이 기능은 Adobe 고처리량 트랜잭션 메시지 추가 기능 서비스를 구입한 조직의 푸시 채널에서도 사용할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오. <!-- Documentation link: TBD -->
+
+* **향상된 사용자 지정 공급자 통합 - Mobile** - 이제 사용자 지정 공급자 통합을 통해 주요 메시지 및 헤더 업데이트를 통해 확장된 유연성을 제공합니다.
+
+  * 헤더 사용자 정의: 이제 기본 Content-Type 헤더 값을 편집하고 최대 10개의 사용자 정의 헤더 매개 변수를 추가할 수 있습니다.
+
+  * SMS 페이로드 지원: encode64를 포함하여 SMS 페이로드 내에 Adobe Journey Optimizer 도우미 기능에 대한 지원이 추가되었습니다.
 
 ### 결정 {#july-26-decisioning}
 
@@ -301,7 +318,7 @@ The following improvements have been added to integrations in this release.
 
 <!-- Documentation link: TBD -->
 
-### 이메일 채널 {#july-26-email}
+### 이메일 디자이너 {#july-26-email}
 
 이 릴리스의 이메일 채널에 다음 기능이 추가되었습니다.
 
@@ -314,7 +331,8 @@ The following improvements have been added to integrations in this release.
 <tbody>
 <tr>
 <td>
-<p>이제 이메일 디자이너에 헤더, 제품 카드, 정보 블록, 바닥글과 같은 바로 사용할 수 있는 레이아웃 모듈 라이브러리가 포함되어 있어 이메일 캔버스에 직접 끌어다 놓을 수 있습니다. 각 모듈은 편집 가능한 속성(이미지, 제목, 텍스트, 버튼, 링크)으로 사전 구성되어 있으며 WYSIWYG 인터페이스를 통해 완벽하게 사용자 정의할 수 있으므로 처음부터 구조를 만들 필요 없이 이메일 작성 속도를 높일 수 있습니다.</p>
+<p>이제 이메일 디자이너에 헤더, 제품 카드, 정보 블록, 바닥글과 같은 바로 사용할 수 있는 레이아웃 모듈 라이브러리가 포함되어 있어 이메일 캔버스에 직접 끌어다 놓을 수 있습니다.</p>
+<p>각 모듈은 편집 가능한 속성(이미지, 제목, 텍스트, 버튼, 링크)으로 사전 구성되어 있으며 WYSIWYG 인터페이스를 통해 완벽하게 사용자 정의할 수 있으므로 처음부터 구조를 만들 필요 없이 이메일 작성 속도를 높일 수 있습니다.</p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
@@ -322,37 +340,6 @@ The following improvements have been added to integrations in this release.
 </tbody>
 </table>
 
-### 채널 {#july-26-channels}
-
-이 릴리스의 채널에 다음과 같은 기능 및 개선 사항이 추가되었습니다.
-
-<table>
-<thead>
-<tr>
-<th><strong>사용자 지정 아웃바운드 채널</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer은 이제 관리자가 WeChat, KakaoTalk, Messenger 또는 독점 공급자와 같은 아웃바운드 HTTP 기반 메시징 채널을 코드 없는 채널 빌더를 통해 Journey Optimizer으로 직접 가져올 수 있는 새로운 기능인 사용자 지정 채널을 도입했습니다. 구성하고 나면 캠페인, 여정 및 오케스트레이션된 캠페인에서 기본 채널과 동일한 전체 기능 세트를 사용하여 사용자 정의 채널을 사용할 수 있습니다. 표현식 편집기를 사용한 개인화, 콘텐츠 실험, 미리보기 및 증명, 즉시 사용 가능한 보고, 동의 및 거버넌스 적용. 이렇게 하면 이전에 여정 지정 작업에서 처리했던 갭이 채워집니다. 이 갭은 채널로만 제한되고 전용 채널 기능은 부족합니다.</p>
-<p>사용자 지정 아웃바운드 채널은 현재 제한된 가용성으로 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
-<!-- GIF placeholder: to be added -->
-<!-- Documentation link: TBD -->
-</td>
-</tr>
-</tbody>
-</table>
-
-* **WhatsApp 채널: WhatsApp 흐름 템플릿 지원** - 이제 Adobe Journey Optimizer에서 WhatsApp 흐름 템플릿을 전송하여 설문 조사 및 잠재 고객 캡처와 같은 대화형 다중 화면 경험을 제공할 수 있습니다. 응답은 제출 시 캡처되어 새 Journey Optimizer 채널 추적 이벤트 데이터 세트에 원시 JSON 페이로드로 저장됩니다. <!-- Documentation link: TBD -->
-
-* **처리량을 위한 성능 추가 기능 - 푸시** - API 트리거 캠페인에서 새로운 처리량 트랜잭션 메시지 모드를 사용할 수 있습니다. 이 모드는 대규모 실시간 트랜잭션 메시지 전송을 위해 설계되었으며 더 높은 가용성으로 초당 최대 5,000개의 트랜잭션을 지원합니다. 이전에는 이메일 채널에서만 사용할 수 있었지만, 이제 이 기능은 Adobe 고처리량 트랜잭션 메시지 추가 기능 서비스를 구입한 조직의 푸시 채널에서도 사용할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오. <!-- Documentation link: TBD -->
-
-* **향상된 사용자 지정 공급자 통합 - Mobile** - 이제 사용자 지정 공급자 통합을 통해 주요 메시지 및 헤더 업데이트를 통해 확장된 유연성을 제공합니다.
-
-  * 헤더 사용자 정의: 이제 기본 Content-Type 헤더 값을 편집하고 최대 10개의 사용자 정의 헤더 매개 변수를 추가할 수 있습니다.
-
-  * SMS 페이로드 지원: encode64를 포함하여 SMS 페이로드 내에 Adobe Journey Optimizer 도우미 기능에 대한 지원이 추가되었습니다.
 
 ### 관리 {#july-26-administration}
 

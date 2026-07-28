@@ -15,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: c440ff464b2ea58519e6f1ba900728adfa718232
+source-git-commit: c5460f65413375aac7b76a0651c7ed94b0de6a9d
 workflow-type: tm+mt
-source-wordcount: 9592
-ht-degree: 85%
+source-wordcount: 9638
+ht-degree: 84%
 
 ---
 
@@ -27,6 +27,8 @@ ht-degree: 85%
 이 페이지에는 월별 릴리스 기능 및 개선 사항과 관련된 업데이트 외에도 [!DNL Journey Optimizer] 설명서의 모든 최신 변경 사항이 나와 있습니다.
 
 ## 2026년 7월 {#july-2026}
+
+* 이제 새 **CX 동료 기술** 페이지를 사용할 수 있습니다. 사용 사례, 샘플 프롬프트 및 각 스킬에 대한 우수 사례와 함께 여정 만들기, 채널 컨텐츠 만들기, 충성도 챌린지 관리 및 여정 분석 을 포함하여 Journey Optimizer에서 사용할 수 있는 모든 여정 스킬에 대한 포괄적인 설명서를 제공합니다. [자세히 보기](../start/ajo-coworker-skills.md)
 
 * **To Precision** 함수 설명서가 업데이트되어 `toPrecision`이(가) JavaScript `toFixed()`과(와) 같이 동작함을 명확히 합니다. 이 설명서는 필요할 때 0-패딩을 포함하여 소수점 이하 자릿수가 고정된 문자열을 반환합니다. [자세히 보기](../personalization/functions/math.md#to-precision)
 

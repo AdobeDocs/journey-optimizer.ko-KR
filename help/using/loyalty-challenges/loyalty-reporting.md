@@ -7,62 +7,21 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-badge: label="비공개 베타" type="Informative"
-mini-toc-levels: 1
 exl-id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
+source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
 workflow-type: tm+mt
-source-wordcount: 592
-ht-degree: 4%
+source-wordcount: 511
+ht-degree: 0%
 
 ---
 
 # 충성도 과제 성능 모니터링 {#loyalty-reporting}
 
->[!BEGINSHADEBOX]
-
-**목차**
-
-[충성도 문제 시작](get-started.md)
-
-<table style="table-layout:fixed">
-<tr style="border: 0;">
-<td style="vertical-align:top;">
-
-**문제 만들기 및 관리**
-
-* [과제 및 작업 액세스 및 관리](access-loyalty-challenges.md)
-* [과제 만들기](create-challenges.md)
-* [작업 만들기](create-tasks.md)
-* **충성도 챌린지 성능 모니터링** ◀︎**현재 상태**
-
-</td>
-<td style="vertical-align:top;">
-
-**구성 및 통합**
-
-* [충성도 문제 구성](loyalty-admin.md)
-* [보상 정의 안내서](reward-definition-guide.md)
-* [이벤트 변환기 안내서](event-transformer-guide.md)
-* [충성도 데이터 및 데이터 세트](loyalty-data-and-datasets.md)
-* [충성도 과제 API 참조](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
-
-</td>
-</tr>
-</table>
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->이 기능은 현재 **개인 베타**&#x200B;에 있습니다. 릴리스 주기 및 가용성 단계에 대한 자세한 내용은 [Journey Optimizer 릴리스 주기](../rn/releases.md)를 참조하십시오.
-
 충성도 과제 보고를 사용하여 과제의 성과를 확인하십시오. 누가 가입하고 있는지, 누가 도전을 완료하고 있는지, 프로그램의 매출액이 얼마나 되는지 모두 한 곳에서 확인합니다. 데이터는 Adobe Customer Journey Analytics에서 가져옵니다.
 
-보고 대시보드를 열려면 Journey Optimizer의 **[!UICONTROL 충성도 과제(Beta)]**(으)로 이동한 다음 왼쪽 탐색에서 **[!UICONTROL 충성도 보고서]**&#x200B;를 선택하십시오.
+보고 대시보드를 열려면 Journey Optimizer의 **[!UICONTROL 충성도 과제]**(으)로 이동한 다음 왼쪽 탐색에서 **[!UICONTROL 충성도 보고서]**&#x200B;를 선택하십시오.
 
 보고 인터페이스에는 두 개의 탭이 있습니다.
 
