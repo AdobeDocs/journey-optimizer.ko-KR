@@ -9,11 +9,10 @@ role: User
 level: Intermediate
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2: []
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: c5460f65413375aac7b76a0651c7ed94b0de6a9d
 workflow-type: tm+mt
-source-wordcount: 917
+source-wordcount: 942
 ht-degree: 13%
 
 ---
@@ -56,6 +55,9 @@ ht-degree: 13%
   *예: &quot;새 구성원 여정&quot; - 전자 메일→ 등록하여 첫 번째 구매 → 제품 리뷰 작성 → 친구 참조(이 순서로 완료)*
 
 * **고유한 데이터 문제 해결**(제한된 가용성): 충성도 문제 데이터 통합에서 문제 프레임워크(작업 및 보상)를 취합합니다. 다른 모든 과제 유형에 대해 하듯이 설정, 콘텐츠 및 메시징을 구성합니다.
+
+>[!TIP]
+>또한 자연어 프롬프트와 함께 [CX 동료 여정 기술](../start/ajo-coworker-skills.md#loyalty-challenge-management)의 **충성도 챌린지 관리**&#x200B;를 사용하여 충성도 챌린지를 만들고 관리할 수 있습니다.
 
 ## 작동 방식 {#how-it-works}
 
@@ -156,7 +158,7 @@ ht-degree: 13%
     <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
     </a>
     <div>
-  -->
+-->
     <a href="loyalty-admin.md"><strong>충성도 챌린지 구성</strong></a>
     </div>
     <p>
