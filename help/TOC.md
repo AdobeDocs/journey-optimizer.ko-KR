@@ -6,9 +6,9 @@ user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: a5db996df4b53b5c4a7a0d737f97fe49753d1fbd
+source-git-commit: 7a318389cb8979479218e1c68895ea2ff112d427
 workflow-type: tm+mt
-source-wordcount: '3479'
+source-wordcount: '3473'
 ht-degree: 95%
 
 ---
@@ -116,7 +116,6 @@ ht-degree: 95%
     + [표현식 작성](/help/rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
     + [고급 표현식 편집기 작업](using/building-journeys/expression/expressionadvanced.md)
     + [AI를 사용하여 표현식 생성](using/building-journeys/expression/generate-expression.md)
-    + {hide-from-toc}[식 도우미를 사용하여 식 생성](using/building-journeys/expression/expression-agent.md)
     + 구문 {#syntax}
       + [구문](/help/rp_landing_pages/syntax-landing-page.md)
       + [고급 표현식 편집기 구문](using/building-journeys/expression/generalities.md)

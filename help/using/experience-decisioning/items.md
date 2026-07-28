@@ -12,10 +12,10 @@ feature_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 1918bcb699ea6a4063be28941a30bb6c6ade21ce
+source-git-commit: 74ef02489bcb73f35a78e8bdac474be7d74af570
 workflow-type: tm+mt
-source-wordcount: 2363
-ht-degree: 16%
+source-wordcount: 2475
+ht-degree: 15%
 
 ---
 
@@ -69,6 +69,18 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
 
 1. **태그** 필드를 사용하면 Adobe Experience Platform 통합 태그를 의사 결정 항목에 할당할 수 있습니다. 이를 통해 손쉽게 분류하고 검색을 개선할 수 있습니다. [태그 작업 방법 알아보기](../start/search-filter-categorize.md#tags)
 
+1. 필요한 경우 사용자 지정 속성을 지정합니다. 의사 결정 항목의 카탈로그 스키마에 정의된 의사 결정 항목에 할당할 수 있는 요구 사항에 맞는 특정 속성입니다. [카탈로그 작업 방법 알아보기](catalogs.md)
+
+   열 헤더를 클릭하고 검색 필드를 사용하여 특정 속성을 검색하여 사용자 지정 속성을 정렬할 수 있습니다.
+
+   ![사용자 지정 특성 섹션이 있는 결정 항목 만들기 화면](assets/item-custom-attributes.png){width="80%"}
+
+1. 카탈로그 스키마의 **[!UICONTROL Decisioning Content]** 유형으로 정의된 사용자 지정 특성의 경우 필드 옆에 있는 개인화 편집기 아이콘을 클릭하여 표현식 편집기를 엽니다. 여기서 코드를 작성하고 핸들바 구문(예: `{{profile.person.name.firstName}}`)을 사용하여 특성 참조를 추가할 수 있습니다.
+
+   이렇게 하면 프로필, 컨텍스트, 여정 및 대상 데이터를 사용하여 게재 시 평가되는 값을 정의할 수 있으며, 단일 결정 항목이 중복되지 않고 서로 다른 프로필에 맞춤 콘텐츠를 제공할 수 있습니다. [개인화 추가에 대한 자세한 정보](../personalization/personalization-build-expressions.md)
+
+   ![개인화 편집기 아이콘이 있는 의사 결정 항목 만들기 화면](assets/item-custom-attribute-personalization.png){width="80%"}
+
 1. 결정 항목에 조각을 추가하여 콘텐츠를 보강합니다. 지원되는 조각 유형은 두 가지입니다.
 
    * **Journey Optimizer 콘텐츠 조각** — Journey Optimizer에서 만든 재사용 가능한 표현식 조각을 사용하여 컨텍스트에 따라 다른 콘텐츠(예: 여러 모바일 디바이스 모델)를 표시합니다. 의사 결정을 사용할 수 있는 모든 채널(코드 기반 경험, 이메일, 푸시, SMS 및 여정)에서 의사 결정 정책에 이러한 조각을 활용할 수 있습니다. [방법 알아보기](fragments-decision-policies.md#ajo-fragments)
@@ -82,8 +94,6 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
      >이 기능은 Decisioning이 지원되는 채널에 사용할 수 있습니다.
 
      사전 요구 사항 및 보호 기능은 [Experience Decisioning에서 AEM 콘텐츠 조각 사용](../integrations/aem-fragments.md#aem-decisioning)을 참조하세요.
-
-1. 사용자 지정 특성을 지정합니다(선택 사항). 사용자 정의 속성은 결정 항목에 할당할 수 있으며 필요에 맞게 조정된 특정 속성입니다. 의사 결정 항목의 카탈로그 스키마에 정의됩니다. [카탈로그 작업 방법 알아보기](catalogs.md)
 
 1. 결정 항목의 특성이 정의되면 **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
 

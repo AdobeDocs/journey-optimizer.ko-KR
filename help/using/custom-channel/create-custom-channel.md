@@ -6,15 +6,21 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="제한 공개" type="Informative"
-source-git-commit: 94ca2d9458152fb471e9590d053c4729a4a5134f
+source-git-commit: 3b584e496d7438a9d472a41149cba60928cb2517
 workflow-type: tm+mt
-source-wordcount: '1538'
+source-wordcount: '1575'
 ht-degree: 15%
 
 ---
 
 
 # 사용자 정의 채널 설정 {#create-custom-channel}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 끝점 URL, 헤더, 인증, 제한 정책 및 메시지 페이로드 구조를 정의하여 채널 빌더를 사용하여 Adobe Journey Optimizer에서 사용자 지정 채널을 만드는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_custom_channel_settings"
@@ -88,9 +94,9 @@ ht-degree: 15%
 
 외부 메시징 시스템의 HTTP URL인 끝점을 구성해야 합니다. [!DNL Journey Optimizer]은(는) 프로필이 캠페인이나 여정에서 유효할 때 개인화된 페이로드를 사용하여 이 끝점에 POST 요청을 보냅니다.
 
-![끝점 구성](assets/custom_channel_endpoint_configuration.png){width="70%"}
+![끝점 구성](assets/custom_channel_endpoint_configuration.png){width="80%"}
 
-1. **[!UICONTROL 끝점 구성]** 섹션에서 외부 메시징 시스템의 호스트 **[!UICONTROL URL]**&#x200B;을(를) 입력합니다.
+1. **[!UICONTROL 끝점 구성]** 섹션에서 외부 메시징 시스템의 호스트 **[!UICONTROL URL]**&#x200B;을(를) 입력합니다. 예: `https://api.my-messaging-provider.com/v1/messages`.
 
    <!--The HTTP method to is currently set to **POST**.-->
 
@@ -105,7 +111,7 @@ ht-degree: 15%
 
    <!--At minimum, `Content-Type` and `Charset` are available as default headers.-->
 
-   ![헤더 구성](assets/custom_channel_endpoint_headers.png)
+   ![헤더 구성](assets/custom_channel_endpoint_headers.png){width="70%"}
 
    각 헤더에 대해 값이 다음과 같은지 여부를 정의할 수 있습니다.
 
@@ -135,7 +141,7 @@ ht-degree: 15%
 
 이 채널에 사용해야 하는 **[!UICONTROL 인증 유형]**&#x200B;을(를) 선택하십시오. 사용 가능한 옵션은 외부 메시징 시스템에서 지원하는 인증 방법에 따라 다릅니다.
 
-![인증 유형](assets/custom_channel_authentication_type.png){width="70%"}
+![인증 유형](assets/custom_channel_authentication_type.png){width="85%"}
 
 엔드포인트에 필요한 인증 세부 정보를 제공합니다.
 
@@ -165,7 +171,17 @@ ht-degree: 15%
 
 1. **[!UICONTROL 페이로드 정의]**&#x200B;를 클릭하고 페이로드 정의 방법을 선택하십시오.
 
-   * **[!UICONTROL 샘플 JSON 페이로드 붙여넣기]** - 대표적인 JSON 개체를 붙여넣으면 [!DNL Journey Optimizer]에서 자동으로 스키마를 유추합니다.
+   * **[!UICONTROL 샘플 JSON 페이로드 붙여넣기]** - 대표적인 JSON 개체를 붙여넣으면 [!DNL Journey Optimizer]에서 자동으로 스키마를 유추합니다. 예:
+
+     ```json
+     {
+       "channelId": "KakaoTalk08",
+       "title": "Flash Sale: 48 Hours Only",
+       "body": "New arrivals just dropped. Shop now before they're gone!",
+       "image": "https://demo-system-next.s3.amazonaws.com/assets/luma/luma-flash-sale-banner.jpg"
+     }
+     ```
+
    * **[!UICONTROL JSON 스키마 가져오기]**(준비 중) - 전체 JSON 스키마 파일을 업로드합니다.
 
      >[!AVAILABILITY]
@@ -174,7 +190,7 @@ ht-degree: 15%
 
 1. 스키마가 생성되면 [!DNL Journey Optimizer]에서 검색된 모든 필드를 폼 보기로 표시합니다.
 
-   ![](assets/custom_channel_payload_configuration.png)
+   ![페이로드 구성](assets/custom_channel_payload_configuration.png){width="80%"}
 
 1. 각 필드에 대해 다음 설정을 구성합니다.
 

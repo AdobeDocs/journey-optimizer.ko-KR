@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f23df2811c8d5a756b4a928ebfbd775cacc892ac
+source-git-commit: 48f865f1e993a1a4acf013d47e07fe3b787da601
 workflow-type: tm+mt
-source-wordcount: 3115
+source-wordcount: 3165
 ht-degree: 69%
 
 ---
@@ -116,6 +116,10 @@ ht-degree: 69%
 </table>
 
 ### 개선 사항 {#july-26-improvements}
+
+* **의사 결정 항목의 동적 사용자 지정 특성** - 이제 프로필, 컨텍스트 및 대상 데이터를 사용하여 전달 시 의사 결정 항목 사용자 지정 특성을 개인화할 수 있습니다. 이렇게 하면 사소한 콘텐츠 변형에 대한 중복 오퍼를 관리할 필요가 없어지므로 마케터는 더 적고 유연한 결정 항목을 관리할 수 있습니다. [자세히 보기](../experience-decisioning/items.md#attributes)
+
+  사용 가능한 날짜: 2026년 7월 27일
 
 * **AJO MCP 서버 새 도구** - 이제 [!DNL Adobe Journey Optimizer] MCP 서버는 5개의 추가 읽기 전용 **채널 구성 도구**&#x200B;를 노출하므로 AI 도우미에서 직접 채널 구성, 지원 리소스 및 마케팅 작업을 쿼리할 수 있습니다. 이제 **목록 채널 구성**(모든 AJO 채널에서), **채널 구성 가져오기**, **목록 구성 리소스**, **구성 리소스 가져오기** 및 **목록 마케팅 작업**&#x200B;을 사용할 수 있습니다. [자세히 보기](../integrations/ajo-mcp.md#mcp-tools)
 

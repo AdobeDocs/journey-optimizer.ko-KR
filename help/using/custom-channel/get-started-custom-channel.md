@@ -1,20 +1,26 @@
 ---
-title: 사용자 지정 채널 시작
+title: 사용자 정의 채널 시작하기
 description: ' [!DNL Journey Optimizer]''s Channel Builder to bring any outbound messaging channel into [!DNL Journey Optimizer] 을(를) 사용하여 캠페인, 여정 및 오케스트레이션된 캠페인에 사용하는 방법을 알아봅니다.'
 feature: Channel Configuration
 topic: Content Management
 role: User
 level: Beginner
 badge: label="제한 공개" type="Informative"
-source-git-commit: 94ca2d9458152fb471e9590d053c4729a4a5134f
+source-git-commit: 9dfa2792db981f5f1a4e9fc3868ffd200c855a5b
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 4%
+source-wordcount: '669'
+ht-degree: 5%
 
 ---
 
 
-# 사용자 지정 채널 시작 {#get-started-custom-channel}
+# 사용자 정의 채널 시작하기 {#get-started-custom-channel}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer에 있는 사용자 지정 채널이 무엇인지, 사용자 지정 작업과 어떻게 비교되는지, 캠페인, 여정 및 오케스트레이션된 캠페인에서 사용할 수 있도록 아웃바운드 HTTP 끝점을 AJO으로 가져오는 전반적인 워크플로에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

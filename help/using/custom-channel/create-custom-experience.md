@@ -6,15 +6,21 @@ topic: Content Management
 role: User
 level: Experienced
 badge: label="제한 공개" type="Informative"
-source-git-commit: 94ca2d9458152fb471e9590d053c4729a4a5134f
+source-git-commit: 3b584e496d7438a9d472a41149cba60928cb2517
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 15%
+source-wordcount: '1001'
+ht-degree: 14%
 
 ---
 
 
 # 사용자 지정 채널 경험 만들기 {#create-custom-channel}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** Adobe Journey Optimizer에서 여정, 캠페인 또는 오케스트레이션된 캠페인에 사용자 지정 채널을 추가하고 표현식 편집기를 사용하여 개인화된 메시지 페이로드를 작성하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
@@ -52,7 +58,7 @@ ht-degree: 15%
 
 1. **[!UICONTROL 작업]** 드롭다운에서 사용할 사용자 지정 채널을 선택합니다. 사용자 지정 채널은 채널 빌더에 지정된 이름과 아이콘으로 나열됩니다.
 
-   ![](assets/custom_channel_journey_action.png){width="80%"}
+   ![여정 캔버스에서 사용자 지정 채널 작업 선택](assets/custom_channel_journey_action.png){width="80%"}
 
 1. 작업에 레이블을 추가하고 오른쪽 패널에서 **[!DNL Configure action]**&#x200B;을(를) 클릭한 다음 사용할 **[!UICONTROL 채널 구성]**&#x200B;을(를) 선택하십시오. [사용자 지정 채널 구성을 만드는 방법을 알아봅니다](custom-channel-configuration.md#create-channel-config)
 
@@ -75,9 +81,11 @@ ht-degree: 15%
 
 1. **[!UICONTROL 작업]** 섹션의 채널 선택기에서 사용자 지정 채널을 선택합니다. 샌드박스에 구성된 모든 사용자 지정 채널이 기본 채널과 함께 표시됩니다.
 
-   ![](assets/custom_channel_campaign_action.png){width="80%"}
+   ![Campaign 사용자 지정 작업 선택](assets/custom_channel_campaign_action.png){width="80%"}
 
 1. 사용할 **[!UICONTROL 채널 구성]**&#x200B;을 선택하거나 만드십시오. [채널 구성을 만드는 방법을 알아봅니다](custom-channel-configuration.md#create-channel-config)
+
+   ![사용자 지정 채널 구성 선택](assets/custom_channel_campaign_action_config.png){width="80%"}
 
 1. 필요한 경우 **[!UICONTROL 작업 추적]**&#x200B;을(를) 활성화하여 메시지 페이로드에 포함된 링크를 자동으로 추적합니다(사용자 지정 채널에 대해 구성된 하위 도메인 필요). [사용자 지정 채널의 하위 도메인을 위임하는 방법을 알아봅니다](custom-channel-subdomains.md#subdomain-delegation)
 
@@ -112,7 +120,7 @@ To add a custom channel in an orchestrated campaign:
 
 콘텐츠 편집기는 사용자 지정 채널을 구성할 때 정의한 페이로드 구조를 반영합니다. **[!UICONTROL 코드 편집]**&#x200B;을 클릭하여 페이로드 편집기를 열고 메시지 내용을 입력합니다.
 
-![](assets/custom_channel_payload_editor.png){width="80%"}
+![사용자 지정 채널 페이로드 편집기](assets/custom_channel_payload_editor.png){width="80%"}
 
 작성하고 개인화할 수 있는 필드가 표시됩니다. [!DNL Journey Optimizer] 개인화 편집기를 모든 개인화 및 작성 기능과 함께 활용할 수 있습니다. [자세히 알아보기](../personalization/personalization-build-expressions.md)
 
@@ -139,17 +147,32 @@ To add a custom channel in an orchestrated campaign:
 >
 >현재 작성 시 페이로드의 유효성 검사가 없습니다. **[!UICONTROL 콘텐츠 시뮬레이션]** 기능을 사용하여 페이로드가 올바른 형식의 JSON이고 모든 개인화 표현식이 테스트 프로필에 대해 올바르게 확인되는지 확인할 수 있습니다. [자세히 알아보기](test-custom-channel.md#simulate-content)
 
-### 예제 페이로드 {#example-payload}
-
-다음 예제에서는 사용자 지정 메시징 채널<!--(to be replaced with a meaningful realistic example)-->에 대한 프로필 개인화가 포함된 JSON 페이로드를 보여 줍니다.
+다음 예는 프로필 개인화를 통한 JSON 페이로드를 보여 줍니다.
 
 ```json
 {
-  "recipient_id": "{{profile.mobilePhone.number}}",
-  "message_text": "Hello {{profile.person.name.firstName}}, your order {{context.journey.events.0.commerce.order.purchaseID}} has been confirmed.",
-  "channel": "my-custom-channel",
+  "message": {
+    "template": "Limited offer just for you, {{profile.person.name.firstName}}!",
+    "header": "You have a FREE drink when you buy a King menu!"
+  },
+  "campaign_ref": {
+    "id": "2grjya",
+    "type": "loyalty",
+    "url": "/companies/wNmRsLbu/campaigns/wallet/2grjya"
+  }
+}
+```
+
+```json
+{
+  "messaging_product": "mess",
+  "recipient_type": "individual",
+  "to": "{{profile.mobilePhone.number}}",
+  "zipCode": 4001,
+  "type": "image",
   "image": {
-    "id": "{{profile.preferences.imageId | default('default-image-001')}}"
+    "id": "1479537139650973",
+    "caption": "The best succulent ever?"
   }
 }
 ```
@@ -170,17 +193,19 @@ To add a custom channel in an orchestrated campaign:
 >
 >링크 추적에는 사용자 지정 채널에 대해 구성된 하위 도메인이 필요합니다. [사용자 지정 채널의 하위 도메인을 위임하는 방법을 알아봅니다](custom-channel-subdomains.md#subdomain-delegation)
 
-**예 - LINE 페이로드에서 추적된 링크:**
+**예 - Viber 페이로드에서 추적된 링크:**
 
 ```json
 {
-  "to": "{{profile.mobilePhone.number}}",
-  "messages": [
-    {
-      "type": "text",
-      "text": "Hello! Check out our latest offer: {{url trackedUrl='' originalUrl='https://example.com/' type='TRACKED'}}"
-    }
-  ]
+  "receiver": "{{profile.mobilePhone.number}}",
+  "min_api_version": 1,
+  "sender": {
+    "name": "Luma Rewards",
+    "avatar": "https://avatar.example.com"
+  },
+  "tracking_data": "{{profile.person.name.firstName}}",
+  "type": "text",
+  "text": "Hello {{profile.person.name.firstName}}! Discover our new collection: {{url trackedUrl='' originalUrl='https://luma.com/collection' type='TRACKED'}}"
 }
 ```
 

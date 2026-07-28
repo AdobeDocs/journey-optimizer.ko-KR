@@ -32,7 +32,7 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 2a1d483312229bdb89b89794dbe1d8d817037e5b
+source-git-commit: 0dec5d89bcb690861013208818d5011428478b12
 workflow-type: tm+mt
 source-wordcount: 2387
 ht-degree: 2%
@@ -112,7 +112,6 @@ ht-degree: 2%
 다음 두 가지 가능성이 있습니다.
 
 1. **이벤트로 시작**: 여정이 이벤트를 수신하도록 설정되면 개인은 실시간으로 여정 **일괄**&#x200B;을(를) 입력합니다. 여정에 포함된 메시지는 현재 여정에 유입되고 있는 사용자에게 전송됩니다. [이벤트에 대해 자세히 알아보기](../event/about-events.md)
-
 1. **대상자 읽기로 시작**: [!DNL Adobe Experience Platform]명의 대상자를 수신하도록 여정을 설정할 수 있습니다. 이 경우 지정된 대상에 속하는 모든 개인이 여정을 입력합니다. 여정에 포함된 메시지는 대상자에 속한 개인에게 전송됩니다. [대상자 읽기](read-audience.md)에 대해 자세히 알아보세요. Journey Optimizer에서 대상자를 생성하고 타깃팅하는 방법에 대한 자세한 내용은 [이 섹션](../audience/about-audiences.md)을 참조하세요.
 
 ## 다음 단계 정의{#define-next-steps}

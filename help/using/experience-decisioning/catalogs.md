@@ -20,9 +20,9 @@ level_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+source-git-commit: 4fb27cfb9c9e0b0e808a9f1a389aa9cc8ab3f732
 workflow-type: tm+mt
-source-wordcount: 489
+source-wordcount: 544
 ht-degree: 10%
 
 ---
@@ -52,7 +52,11 @@ Decisioning에서 카탈로그는 의사 결정 항목을 구성하는 중앙 �
 
 * **지원되는 데이터 형식**
 
-  현재 Decisioning은 String, Integer, Boolean, Date, DateTime, Decisioning 에셋 및 Object 데이터 형식을 독점적으로 지원합니다. 이러한 데이터 형식을 벗어나는 필드는 의사 결정 항목이나 카탈로그를 작성할 때 사용할 수 없습니다.
+  현재 Decisioning은 String, Integer, Boolean, Date, DateTime, Decisioning 자산, Decisioning 컨텐츠 및 Object 데이터 유형만 지원합니다. 이러한 데이터 형식을 벗어나는 필드는 의사 결정 항목이나 카탈로그를 작성할 때 사용할 수 없습니다.
+
+  >[!NOTE]
+  >
+  >필드를 개인화에 사용하려면 **[!UICONTROL Decisioning Content]** 유형을 선택하십시오. [자세히 알아보기](#access-catalog-schema)
 
 * **사용자 지정 특성 제한**
 
@@ -79,11 +83,17 @@ Decisioning에서 카탈로그는 의사 결정 항목을 구성하는 중앙 �
 
    ![스키마 편집기에서 사용자 지정 특성 단추 추가](assets/catalogs-add.png)
 
-1. 추가된 특성에 필요한 필드를 입력하고 **[!UICONTROL 적용]**&#x200B;을 클릭합니다.
+1. 추가된 속성에 필요한 필드를 입력합니다.
+
+1. 사용자 지정 특성을 개인화에 사용하려면 **[!UICONTROL Decisioning Content]** 유형을 선택하십시오. 이렇게 하면 프로필, 컨텍스트, 여정 및 대상 데이터를 사용하여 게재 시 속성 값을 정의할 수 있습니다. [자세히 알아보기](items.md#personalization-attributes)
+
+   ![카탈로그 스키마 새 특성 필드 속성](assets/catalogs-new-attribute-type.png){width=35%}
+
+1. **[!UICONTROL 적용]**&#x200B;을 클릭합니다.
 
    의사 결정 에셋 속성이 있는 속성에 입력되는 값은 공개 URL입니다. 대부분의 경우 이미지를 가리킵니다. [!DNL Adobe Experience Platform] 스키마로 작업하는 방법에 대한 자세한 내용은 [XDM 시스템 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=ko)를 참조하세요.
 
-1. 원하는 사용자 지정 속성이 추가되면 스키마를 저장합니다. 이제 **[!UICONTROL 사용자 지정 특성]** 섹션 내의 결정 항목 만들기 화면에서 새 필드를 사용할 수 있습니다.
+1. 원하는 사용자 지정 속성이 추가되면 스키마를 저장합니다. 이제 **[!UICONTROL 사용자 지정 특성]** 섹션의 [결정 항목 만들기](items.md#attributes) 화면에서 새 필드를 사용할 수 있습니다.
 
    아래 예제는 스키마에 정의된 개체와 같은 사용자 지정 속성이 있는 항목 만들기 화면을 보여 줍니다.
 

@@ -6,15 +6,21 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="제한 공개" type="Informative"
-source-git-commit: 4556e8b50fe71cf9d703d034a3c5772b8fea9d33
+source-git-commit: 9dfa2792db981f5f1a4e9fc3868ffd200c855a5b
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '398'
 ht-degree: 9%
 
 ---
 
 
-# 사용자 지정 채널 구성 {#custom-channel-configuration}
+# 사용자 정의 채널 구성 {#custom-channel-configuration}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 관리자가 Adobe Journey Optimizer에서 사용자 지정 채널을 구성하기 위해 완료해야 하는 4가지 단계인 채널 만들기, API 자격 증명 관리, 선택적으로 링크 추적을 위해 하위 도메인 위임 및 마케터를 위한 채널 구성 만들기에 대한 개요를 살펴보십시오.
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
