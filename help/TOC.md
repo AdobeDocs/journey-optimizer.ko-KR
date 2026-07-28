@@ -6,9 +6,9 @@ user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 7a318389cb8979479218e1c68895ea2ff112d427
+source-git-commit: 93d81c8fac4322f78712910db54bf10743850e77
 workflow-type: tm+mt
-source-wordcount: '3473'
+source-wordcount: '3479'
 ht-degree: 95%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 95%
   + [설명서 업데이트](using/rn/documentation-updates.md)
   + {hide-from-toc}[향상된 여정 캔버스](using/rn/new-canvas.md)
   + {hide-from-toc}[대상 자격에서 일괄 처리 대상 마이그레이션](using/building-journeys/aq-batch-audiences-migration.md)
-  + {hide-from-toc}[전자 메일 추적 픽셀에 대한 CNIL 지침](using/privacy/cnil-pixel-tracking.md)
+  + {hide-from-toc}[이메일 추적 픽셀 관련한 CNIL 지침](using/privacy/cnil-pixel-tracking.md)
 + 시작하기 {#get-started}
   + [여기서 시작](/help/rp_landing_pages/get-started-landing-page.md)
   + [온보딩 허브](using/start/onboarding-hub.md)
@@ -61,7 +61,7 @@ ht-degree: 95%
 + 여정 {#orchestrate-journeys}
   + [여정 시작](using/building-journeys/journey.md)
   + {hide-from-toc}[여정 시작 안내서](using/building-journeys/journey-get-started.md)
-  + {hide-from-toc}[여정 형식: 올바른 one-2 선택](using/building-journeys/journey-types-selection-v2.md)
+  + {hide-from-toc}[여정 형식: 올바른 one-2](using/building-journeys/journey-types-selection-v2.md) 선택
   + [Journey Orchestration FAQ](using/building-journeys/journey-faq.md)
   + 여정 만들기 {#create-journey}
     + [여정 만들기](/help/rp_landing_pages/create-journey-landing-page.md)
@@ -431,6 +431,7 @@ ht-degree: 95%
   + 받은 편지함 {#inbox}
     + [받은 편지함 시작](using/inbox/inbox-gs.md)
     + [Journey Optimizer에서 받은 편지함 채널 구성](using/inbox/inbox-configuration.md)
+    + [웹 SDK에서 받은 편지함 지원 구성](using/inbox/inbox-configuration-sdk.md)
     + [받은 편지함 만들기](using/inbox/inbox-create.md)
     + [받은 편지함 디자인](using/inbox/inbox-design.md)
   + WhatsApp {#whatsapp}
