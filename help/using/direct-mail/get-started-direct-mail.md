@@ -73,7 +73,7 @@ Adobe Journey Optimizer의 다이렉트 메일 채널을 활용하여 여정 내
 
 +++ 비디오 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3479162?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479169?captions=kor&quality=12)
 
 +++
 
