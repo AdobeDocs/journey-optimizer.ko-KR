@@ -7,9 +7,9 @@ feature: Overview
 topic: Artificial Intelligence
 role: User
 level: Beginner
-source-git-commit: 512c6ce7550abb6265d5ed9790d98d3486e5d2cf
+source-git-commit: 8400f5603934b6f9dfe9fe9df00aa5eb0736f847
 workflow-type: tm+mt
-source-wordcount: '2861'
+source-wordcount: '2860'
 ht-degree: 8%
 
 ---
@@ -44,7 +44,7 @@ CX Coworker 는 여정 및 충성도 문제를 관리하는 다양한 기술을 
 <!--
 feedback from Ivan: Need to remove Simulate skill from docs until Nico confirms the release timeline.
 
-In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
+In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
 
 * Generating simulated users
 * Generating event values
@@ -112,10 +112,10 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
    * 고객 속성을 기반으로 의사 결정 분기를 만듭니다.
    * 고객 환경 설정에 맞게 분할된 경로 디자인
 
-&lt;!-1. **이미지에서 여정 만들기**
+1. **이미지에서 여정 만들기**
 
-    * 참조 이미지를 동료에 업로드하고 이 이미지를 참조로 사용하여 여정을 만들도록 요청합니다.
-    * 여정 만들기 스킬을 수행하면 참조 이미지에서 편집 가능한 프롬프트가 추출됩니다.—>
+   * 참조 이미지를 동료에 업로드하고 이미지를 참조로 사용하여 여정을 생성하도록 요청합니다
+   * 여정 작성 스킬은 참조 이미지에서 편집 가능한 프롬프트를 추출합니다.
 
 이 기술을 사용하면 자연어 요구 사항이 구조화된 여정 구성으로 변환됩니다.
 
@@ -485,6 +485,6 @@ In addition to this, the following capabilities are supported by the Journey Sim
 
 Simulation may not support every activity, channel, or integration that Test mode or a live journey supports, and behavior may change as the capability matures.
 
-➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
+➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
 
 -->
