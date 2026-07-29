@@ -14,8 +14,8 @@ feature_v2: []
 subfeature_v2: []
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1277
-ht-degree: 21%
+source-wordcount: 1276
+ht-degree: 20%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 21%
 
 * 사용자 정의 작업 URL은 동적 매개 변수를 지원하지 않습니다. 
 * POST 및 PUT 호출 메서드만 지원됩니다. 
-* 쿼리 매개 변수 또는 헤더의 이름은 “.” 또는 &quot;$&quot;로 시작하면 안 됩니다. 
+* 쿼리 매개 변수 또는 헤더의 이름은 &quot;.&quot; 또는 &quot;$&quot;로 시작할 수 없습니다. 
 * IP 주소는 허용되지 않습니다. 
 * 내부 Adobe 주소(.adobe.) 허용되지 않습니다.
 

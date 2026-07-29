@@ -6,12 +6,9 @@ description: 오케스트레이션된 캠페인에서 AND-join 활동을 사용�
 exl-id: 1b99313e-f131-44f7-a129-f85e1977fb05
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/6mTYgjWPoUUos8rWCE5qWwPWBl4387c9SRq1U4QgreQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
 source-git-commit: 77cddc86596959e06b20154c1e51c6b84375b39b
 workflow-type: tm+mt
 source-wordcount: 309
@@ -46,7 +43,7 @@ ht-degree: 75%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_and-join_merging"
 >title="병합 옵션"
->abstract="참여하고자 하는 활동을 선택합니다. **기본 세트** 드롭다운에서 유지하고자 하는 인바운드 전환 모집단을 선택합니다."
+>abstract="조인할 활동을 선택합니다. **기본 세트** 드롭다운에서 유지할 인바운드 전환 모집단을 선택합니다."
 
 **[!UICONTROL AND-결합]** 활동을 구성하려면 다음 단계를 따릅니다.
 

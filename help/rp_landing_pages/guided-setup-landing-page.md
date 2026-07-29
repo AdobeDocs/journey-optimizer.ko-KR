@@ -21,7 +21,7 @@ Adobe Journey Optimizer의 가이드 채널 설정은 모바일 및 웹 마케�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 모바일 및 웹 채널 설정
 
@@ -31,7 +31,7 @@ Adobe Journey Optimizer의 가이드 채널 설정은 모바일 및 웹 마케�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 채널 구성 생성 및 수정
 
