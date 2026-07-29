@@ -11,7 +11,7 @@ mini-toc-levels: 1
 exl-id: d3ad85f0-7f7e-40ab-b8c4-fc0c1234be87
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
 source-wordcount: 1708
 ht-degree: 3%
@@ -683,4 +683,5 @@ x-sandbox-name: {SANDBOX}
 DCCS 이벤트의 경우 변환기는 외부 AJO 봉투가 아닌 `xdmEntity` 본문만 받습니다. 모든 경로는 XDM 엔티티 루트에 상대적이어야 합니다. 식이 외부 봉투(예: `/body/xdmMeta/...`)에 있는 필드를 참조하는 경우 해당 필드를 찾을 수 없으며 자동으로 null이 생성됩니다.
 
 +++
+
 

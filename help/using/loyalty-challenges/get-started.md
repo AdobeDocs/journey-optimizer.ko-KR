@@ -11,7 +11,7 @@ exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2: []
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: c5460f65413375aac7b76a0651c7ed94b0de6a9d
+source-git-commit: ad21aab9b3f0ead95f8c70d4315bd4afdda23d58
 workflow-type: tm+mt
 source-wordcount: 942
 ht-degree: 13%
@@ -20,8 +20,6 @@ ht-degree: 13%
 
 # 충성도 문제 시작 {#get-started-loyalty-challenges}
 
-## 개요 {#overview}
-
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_inventory"
 >title="충성도 챌린지"
@@ -29,7 +27,9 @@ ht-degree: 13%
 
 >[!AVAILABILITY]
 >
->* Journey Optimizer 로열티는 현재 Healthcare Shield 및 Privacy and Security Shield 고객은 사용할 수 없습니다. Healthcare Shield 및 Privacy and Security Shield 고객의 가용성은 향후 기능 준비 시 업데이트됩니다.
+>Journey Optimizer 로열티는 현재 Healthcare Shield 및 Privacy and Security Shield 고객은 사용할 수 없습니다. Healthcare Shield 및 Privacy and Security Shield 고객의 가용성은 향후 기능 준비 시 업데이트됩니다.
+
+## 개요 {#overview}
 
 충성도 챌린지를 사용하면 고객 행동을 유도하고 브랜드 관계를 심화하는 매력적이고 게임화된 충성도 프로그램을 만들 수 있습니다. 구매 및 리뷰 작성부터 소셜 미디어 참여 및 친구 추천에 이르기까지 특정 액션에 대해 고객에게 보상해 주는 챌린지를 작성하십시오.
 
@@ -172,3 +172,4 @@ ht-degree: 13%
 ## API 참조 {#api-reference}
 
 충성도 문제를 프로그래밍 방식으로 관리하려면 [충성도 문제 API](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}를 사용하십시오. API를 사용하면 REST 끝점을 통해 과제 및 작업을 만들고, 업데이트하고, 관리할 수 있습니다.
+

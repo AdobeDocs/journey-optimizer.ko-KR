@@ -6,7 +6,7 @@ user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: c5460f65413375aac7b76a0651c7ed94b0de6a9d
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
 source-wordcount: '3495'
 ht-degree: 94%
@@ -1038,5 +1038,3 @@ ht-degree: 94%
     + [고객의 환경 설정 관리](using/action/preference-center.md)
   + [데이터 거버넌스](using/action/action-privacy.md)
   + [고객 관리 키 설정 및 관리](using/privacy/cmk.md)
-
-

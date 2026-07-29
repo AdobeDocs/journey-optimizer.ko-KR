@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
 source-wordcount: '2584'
 ht-degree: 12%
@@ -363,3 +363,4 @@ ht-degree: 12%
    ![](assets/challenge-create-journey.png)
 
 1. 문제가 실행되면 [충성도 문제 보고서](loyalty-reporting.md)에서 프로그램 KPI, 문제 결과 및 작업 수준 지표를 모니터링합니다. [여정 보고서](../reports/journey-global-report-cja.md)에서 메시지 배달을 모니터링할 수도 있습니다.
+

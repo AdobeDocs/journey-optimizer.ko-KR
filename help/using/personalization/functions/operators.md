@@ -16,10 +16,10 @@ topic_v2:
 feature_v2:
   - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
-source-wordcount: 308
-ht-degree: 11%
+source-wordcount: 461
+ht-degree: 9%
 
 ---
 
@@ -199,3 +199,76 @@ not (homeAddress.countryISO = "CA")
 ```
 
 **숫자가 있는 작업**
+
+## 템플릿 마이그레이션 기능 {#template-migration-functions}
+
+템플릿 마이그레이션 기능은 개인화 편집기에서 사용할 수 있으며 기존 템플릿을 Journey Optimizer으로 마이그레이션하는 데 도움이 됩니다.
+
+### 연산자를 통한 비교{#amp-compare}
+
+`ampCompare` 함수는 지정된 비교 연산자를 사용하여 두 값을 비교합니다.
+
+**구문**
+
+```sql
+{%= ampCompare(value1, value2, operator) %}
+```
+
+| 인수 | 설명 |
+| --------- | ----------- |
+| `value1` | 비교할 첫 번째 값. |
+| `value2` | 비교할 두 번째 값입니다. |
+| `operator` | 사용할 비교 연산자를 나타내는 정수입니다. |
+
+**예**
+
+```sql
+{%= ampCompare(profile.person.age, 18, 4) %}
+```
+
+### 하위 문자열 범위{#amp-substr}
+
+`ampSubstr` 함수는 지정된 시작 및 끝 인덱스 사이의 문자열 부분을 반환합니다.
+
+**구문**
+
+```sql
+{%= ampSubstr(string, startIndex, endIndex) %}
+```
+
+| 인수 | 설명 |
+| --------- | ----------- |
+| `string` | 소스 문자열입니다. |
+| `startIndex` | 하위 문자열의 시작 인덱스(정수). |
+| `endIndex` | 하위 문자열의 끝 색인(정수). |
+
+**예**
+
+다음 표현식은 문자열 &quot;Hello World&quot;의 처음 5자를 반환합니다.
+
+```sql
+{%= ampSubstr("Hello World", 0, 5) %}
+```
+
+`Hello`을(를) 반환합니다
+
+### 비교 대상{#compare-to}
+
+`compareTo` 함수는 사전적으로 두 문자열을 비교합니다. 첫 번째 문자열이 두 번째 앞에 오면 음의 정수를 반환하고, 같으면 0을 반환하고, 첫 번째 문자열이 두 번째 뒤에 오면 양의 정수를 반환합니다.
+
+**구문**
+
+```sql
+{%= compareTo(string1, string2) %}
+```
+
+| 인수 | 설명 |
+| --------- | ----------- |
+| `string1` | 비교할 첫 번째 문자열입니다. |
+| `string2` | 비교할 두 번째 문자열입니다. |
+
+**예**
+
+```sql
+{%= compareTo("apple", "banana") %}
+```

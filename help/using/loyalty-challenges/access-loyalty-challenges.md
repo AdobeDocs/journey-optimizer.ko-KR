@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 8907c18e-4623-4743-a76b-333f34e13baf
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
 source-wordcount: 470
 ht-degree: 0%
@@ -82,3 +82,4 @@ ht-degree: 0%
   >[!IMPORTANT]
   >
   >하나 이상의 시도에서 작업을 사용하는 경우에도 작업을 삭제할 수 있습니다. 삭제하기 전에 작업을 참조하는 어려움에 대한 영향을 고려하십시오.
+

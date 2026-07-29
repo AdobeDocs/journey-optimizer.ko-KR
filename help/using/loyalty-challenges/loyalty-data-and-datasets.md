@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: a7c4e1b2-8f3d-4a6c-9e0b-1d2e3f4a5b6c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
 source-wordcount: 549
 ht-degree: 5%
@@ -70,3 +70,4 @@ Journey Optimizer은 시스템에서 생성한 여러 데이터 세트에 TTL �
 >[!NOTE]
 >
 >조직 수준의 충성도 구성에는 충성도 메타데이터 서비스를 통해 관리되는 아카이브 및 보존 설정(예: 아카이브 기간)이 포함될 수 있습니다. 조직의 보존을 조정해야 하는 경우 Adobe 관리자와 상의하십시오.
+

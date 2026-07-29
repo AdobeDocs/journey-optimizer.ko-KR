@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: c440ff464b2ea58519e6f1ba900728adfa718232
 workflow-type: tm+mt
 source-wordcount: 1650
-ht-degree: 91%
+ht-degree: 98%
 
 ---
 
@@ -398,13 +398,13 @@ AI 어시스턴트는 즉각적인 도움과 운영 인사이트를 제공합니
 >[!CONTEXTUALHELP]
 >id="ajo_migration_connection_name"
 >title="연결 이름"
->abstract="소스 시스템을 식별하는 수사적 이름(예: &#39;Marketing-Automation-Prod&#39;). 문자로 시작해야 하며 영숫자, 밑줄 또는 하이픈(4~50자)만 포함할 수 있습니다."
+>abstract="소스 시스템을 식별하는 설명적인 이름(예: &#39;Marketing-Automation-Prod&#39;). 문자로 시작해야 하며 영숫자, 밑줄 또는 하이픈만 포함할 수 있습니다(4~50자)."
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_migration_base_api_url"
 >title="기본 API URL"
->abstract="리소스 경로나 쿼리 문자열 없이 API의 루트 URL입니다(예: https://api.example.com)."
+>abstract="리소스 경로나 쿼리 문자열 없는 API의 루트 URL입니다(예: https://api.example.com)."
 
 >[!CONTEXTUALHELP]
 >id="ajo_migration_authentication_method"
@@ -414,12 +414,12 @@ AI 어시스턴트는 즉각적인 도움과 운영 인사이트를 제공합니
 >[!CONTEXTUALHELP]
 >id="ajo_migration_client_id"
 >title="클라이언트 ID"
->abstract="인증 서버에 등록할 때 발급되는 응용 프로그램의 공개 식별자입니다."
+>abstract="인증 서버에 등록할 때 발급되는 애플리케이션의 공개 식별자입니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_migration_client_secret"
 >title="클라이언트 암호"
->abstract="앱과 인증 서버에만 알려진 기밀 자격 증명입니다. 클라이언트측 코드에서는 절대 노출하지 마십시오."
+>abstract="앱과 인증 서버에만 알려진 비밀 자격 증명입니다. 클라이언트측 코드에서는 절대 노출하지 마십시오."
 
 
 >[!CONTEXTUALHELP]

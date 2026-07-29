@@ -5,10 +5,10 @@ title: Adobe Journey Optimizer 설명서
 description: Adobe Journey Optimizer 설명서
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
 source-wordcount: '638'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -28,6 +28,11 @@ Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보세�
 
 [![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
+>[!TAB 충성도 문제]
+
+**충성도 과제**&#x200B;를 만들고 관리하여 gamification 기능을 통해 충성도가 가장 높은 고객을 참여시키고 보상하는 방법을 알아봅니다.
+
+[![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/loyalty-challenges/get-started.md)
 
 >[!TAB 개인화를 위한 AI 어시스턴트]
 
@@ -41,14 +46,6 @@ Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보세�
 반복 구문을 사용하여 이벤트, 사용자 지정 작업 응답 및 기타 상황별 데이터를 포함하여 메시지에 있는 다양한 소스의 동적 데이터 목록을 표시하는 방법에 대해 알아봅니다.
 
 [![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/personalization/iterate-contextual-data.md)
-
-
->[!TAB 캠페인 오케스트레이션]
-
-이제 Journey Optimizer에 브랜드 주도 배치 캠페인을 위해 특별히 설계된 새로운 기능인 **캠페인 오케스트레이션**&#x200B;이 포함됩니다.
-
-[![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/orchestrated/gs-orchestrated-campaigns.md)
-
 
 >[!ENDTABS]
 

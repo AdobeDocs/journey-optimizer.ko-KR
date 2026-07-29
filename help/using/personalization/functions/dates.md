@@ -16,9 +16,9 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
-source-wordcount: 1768
+source-wordcount: 1811
 ht-degree: 5%
 
 ---
@@ -281,6 +281,29 @@ Your points have expired.
 출력(예): `Your points expire in 7 days — use them before they're gone!`
 
 +++
+
+## 다음 사이 {#date-between}
+
+`dateBetween` 함수는 지정된 날짜가 시작 날짜와 종료 날짜 사이에 있는지, 두 범위를 모두 포함하는지 확인합니다.
+
+**구문**
+
+```sql
+{%= dateBetween(date, startDate, endDate) %}
+```
+
+| 인수 | 설명 |
+| --------- | ----------- |
+| `date` | 평가할 날짜. |
+| `startDate` | 범위 시작일(포함). |
+| `endDate` | 범위의 종료 일자(포함)입니다. |
+
+++예
+
+* 입력: `{%= dateBetween(stringToDate("2024-06-15T00:00:00Z"), stringToDate("2024-06-01T00:00:00Z"), stringToDate("2024-06-30T00:00:00Z")) %}`
+* 출력: `true`
+
+++
 
 ## 월일 {#day-month}
 

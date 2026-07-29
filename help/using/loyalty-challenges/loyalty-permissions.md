@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 7d6d4f18-8c5d-4c9c-9f7d-2d6c5f9a8b31
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
 source-wordcount: 967
 ht-degree: 6%
@@ -147,3 +147,4 @@ Adobe Admin Console에서는 역할을 사용자와 연결하는 두 가지 접�
 * 조직 및 샌드박스는 충성도 문제에 대해 활성화됩니다.
 
 권한이 업데이트된 후에도 액세스 문제가 지속되면 Adobe 담당자에게 문의하십시오.
+

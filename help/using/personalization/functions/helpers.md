@@ -9,10 +9,10 @@ exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
 feature_v2:
   - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2: []
-source-git-commit: cfd54ee08abb8ef6dbeaeb8ca079e0d19cd329a5
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
-source-wordcount: 1188
-ht-degree: 3%
+source-wordcount: 1329
+ht-degree: 4%
 
 ---
 
@@ -137,7 +137,7 @@ Some edu specific content
 ## 각{#each}
 
 `each` 도우미는 배열을 반복하는 데 사용됩니다.
-도우미의 구문은 `{{#each ArrayName}}` YourContent `{{/each}}`입니다.
+도우미 구문은 `{{#each ArrayName}}` YourContent `{{/each}}`입니다.
 블록 내에서 **this** 키워드를 사용하여 개별 배열 항목을 참조할 수 있습니다. `{{@index}}`을(를) 사용하여 배열 요소의 인덱스를 렌더링할 수 있습니다.
 
 **구문**
@@ -217,6 +217,89 @@ Some edu specific content
         {%/if%}
     {{/each}}
 {{sum}}
+```
+
+## 중단 {#abort}
+
+>[!AVAILABILITY]
+>
+>이 기능은 현재 제한된 가용성입니다.
+
+`abort` 도우미는 렌더링 중에 도달하면 메시지 배달을 중지합니다.
+
+`{%#if%}`과(와) 같은 조건부 블록을 사용하여 도우미가 실행되는 시기를 제어하십시오. `abort`이(가) 실행되면 게재가 중단됩니다.
+
+**구문**
+
+```handlebars
+{{abort code='code' description='description'}}
+```
+
+**매개 변수**
+
+| 매개 변수 | 설명 |
+| --- | --- |
+| `code` | 발생한 오류에 포함된 선택적 중단 코드. |
+| `description` | 사람이 인식할 수 있는 중지 이유(선택 사항). |
+
+**예**
+
+```handlebars
+{%#if profile.person.email = ""%}
+  {{abort code='ERR_001' description='Missing email'}}
+{%/if%}
+Hello {{profile.person.name.firstName}}!
+```
+
+이 예제에서는 `email`이(가) 있으면 렌더링이 진행됩니다. 조건이 일치하면 제공된 `code` 및 `description`(으)로 게재가 중단됩니다.
+
+## JSON 구문 분석 {#parse-json}
+
+`parseJson` 도우미는 JSON 문자열을 구문 분석하고 구문 분석된 개체를 템플릿 변수에 저장하므로 개인화 식에서 직접 필드에 액세스할 수 있습니다.
+
+**구문**
+
+```handlebars
+{{parseJson jsonStr=jsonStringPath result="variableName"}}
+```
+
+**매개 변수**
+
+| 매개 변수 | 설명 |
+| --- | --- |
+| `jsonStr` | 구문 분석할 JSON 문자열입니다. 데이터 참조 또는 리터럴 JSON 문자열일 수 있습니다. |
+| `result` | 구문 분석된 개체를 저장하는 변수 이름입니다. |
+
+**예**
+
+```handlebars
+{{parseJson jsonStr=targetResponse.options.content result="offerContent"}}
+{{offerContent.title}}
+```
+
+## 경로의 값 {#value-at-path}
+
+`valueAtPath` 도우미는 데이터 경로의 값을 템플릿 변수에 할당합니다. 선택적으로 인덱스를 사용하여 배열 또는 컬렉션에서 특정 요소를 추출할 수 있습니다.
+
+**구문**
+
+```handlebars
+{{valueAtPath path idx=indexPath result="value"}}
+```
+
+**매개 변수**
+
+| 매개 변수 | 설명 |
+| --- | --- |
+| `path` | 값을 추출할 소스 경로(위치 매개 변수)입니다. |
+| `idx` | 배열 또는 컬렉션에서 특정 요소를 추출하는 데 사용되는 선택적 0 기반 인덱스입니다. |
+| `result` | 추출된 값을 저장하는 변수 이름입니다. |
+
+**예**
+
+```handlebars
+{{valueAtPath targetResponse.prefetch.mboxes idx=0 result="firstMbox"}}
+{{firstMbox.name}}
 ```
 
 ## Url {#url}
