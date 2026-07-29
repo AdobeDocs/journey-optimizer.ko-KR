@@ -60,7 +60,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 아웃바운드 및 인바운
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=ko)
 
 SMS / MMS / RCS 메시지
 

@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 활동은 여러 채널에서 이벤트를 트리거�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
 
 Journey Optimizer 소개
 

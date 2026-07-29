@@ -38,7 +38,7 @@ Adobe Journey Optimizer 푸시 알림은 앱을 실제로 사용하지 않을 �
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 푸시 알림 생성 및 구성
 

@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 랜딩 페이지를 사용하면 뉴스레터 구독,
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
 
 랜딩 페이지 소개
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 랜딩 페이지를 사용하면 뉴스레터 구독,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 랜딩 페이지 만들기 및 게시
 

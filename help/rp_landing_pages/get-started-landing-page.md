@@ -120,7 +120,7 @@ AI가 어떻게 콘텐츠를 만들고, 전송 시간을 최적화하고, 보다
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 목표에 적합한 기능 찾기
 
@@ -186,7 +186,7 @@ Journey Optimizer 인터페이스를 사용하고, 주요 기능에 액세스하
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 검색 및 구성
 
@@ -196,7 +196,7 @@ Journey Optimizer 인터페이스를 사용하고, 주요 기능에 액세스하
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=ko)
 
 문제 해결 FAQ
 

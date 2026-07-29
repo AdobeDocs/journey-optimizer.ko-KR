@@ -85,9 +85,9 @@ ht-degree: 11%
    >
    >고객 동의 및 연락처 환경 설정은 복잡한 주제입니다. 동의 및 컨텍스트 환경 설정을 [!DNL Experience Platform]에서 수집, 처리 및 필터링하는 방법에 대해 알아보려면 다음 문서를 읽는 것이 좋습니다.
    >
-   >* 동의 데이터를 수집하는 데 필요한 스키마 필드 그룹에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview){target="_blank"}를 참조하세요. 고객으로부터 수집한 동의 데이터를 처리하고 저장된 고객 프로필에 통합하는 방법에 대해 자세히 설명합니다.
-   >* 동의 및 환경 설정 필드 그룹에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/consents#ingest){target="_blank"}를 참조하세요.
-   >* 사용자 지정 환경 설정 필드를 스키마에 추가하려면 [이 섹션](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/adobe/dataset#custom-consent){target="_blank"}의 단계를 따르십시오.
+   >* 동의 데이터를 수집하는 데 필요한 스키마 필드 그룹에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview){target="_blank"}를 참조하세요. 고객으로부터 수집한 동의 데이터를 처리하고 저장된 고객 프로필에 통합하는 방법에 대해 자세히 설명합니다.
+   >* 동의 및 환경 설정 필드 그룹에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/field-groups/profile/consents#ingest){target="_blank"}를 참조하세요.
+   >* 사용자 지정 환경 설정 필드를 스키마에 추가하려면 [이 섹션](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/governance-privacy-security/consent/adobe/dataset#custom-consent){target="_blank"}의 단계를 따르십시오.
 
 1. 고객의 환경 설정을 캡처할 페이지를 만듭니다. 다음 방법 중 하나를 사용하십시오.
 

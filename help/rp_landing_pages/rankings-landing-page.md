@@ -25,7 +25,7 @@ Adobe Journey Optimizer의 순위를 사용하면 대상자에게 어떤 상품�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
 
 순위 시작
 

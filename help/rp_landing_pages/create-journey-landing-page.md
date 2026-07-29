@@ -21,7 +21,7 @@ Adobe Journey Optimizer에서 여정을 만들면 개별 행동과 선호도에 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 첫 번째 고객 여정을 만드는 방법
 
@@ -71,7 +71,7 @@ Adobe Journey Optimizer에서 여정을 만들면 개별 행동과 선호도에 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 여정 게시
 

@@ -40,7 +40,7 @@ API 트리거 캠페인 속성 정의
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 API 트리거 캠페인 액션 구성
 

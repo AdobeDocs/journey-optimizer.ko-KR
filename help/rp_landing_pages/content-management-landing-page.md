@@ -50,7 +50,7 @@ Adobe Journey Optimizer의 컨텐츠 관리 기능을 사용하면 캠페인, �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 재사용 가능한 콘텐츠 조각
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer의 컨텐츠 관리 기능을 사용하면 캠페인, �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 솔루션 간 사용 사례
 

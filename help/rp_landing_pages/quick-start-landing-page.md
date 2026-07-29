@@ -40,7 +40,7 @@ Adobe Journey Optimizer를 성공적으로 구현하는 데 필요한 주요 역
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 데이터 엔지니어로 시작하기
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer를 성공적으로 구현하는 데 필요한 주요 역
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 시스템 관리자로 시작하기
 

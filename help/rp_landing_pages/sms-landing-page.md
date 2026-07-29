@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 SMS, MMS 및 RCS 메시지를 구성, 생성 및 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 SMS, MMS 및 RCS 메시지 작성 방법
 
@@ -40,7 +40,7 @@ SMS, MMS 및 RCS 메시지 작성 방법
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 텍스트 메시지 확인하고 전송하기
 

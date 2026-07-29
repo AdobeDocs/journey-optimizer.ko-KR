@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 여정 관리는 고객 경험이 여러 채널에 �
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 여정 검색 및 필터링
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 여정 관리는 고객 경험이 여러 채널에 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 프로필의 여정 입장
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer의 여정 관리는 고객 경험이 여러 채널에 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
 
 전송 시간 최적화
 
@@ -70,7 +70,7 @@ AI 기반 모델로 최적의 전송 시간을 예측하여 이메일 및 푸시
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 여정 종료
 

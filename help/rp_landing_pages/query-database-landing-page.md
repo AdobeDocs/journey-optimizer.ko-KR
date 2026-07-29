@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 강력한 데이터베이스 쿼리 도구를 사용�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 오케스트레이션된 캠페인에 규칙 빌더 사용
 

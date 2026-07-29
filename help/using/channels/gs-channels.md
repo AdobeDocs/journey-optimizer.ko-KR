@@ -135,7 +135,7 @@ LINE 메시지
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=ko)
 
 웹
 
@@ -155,7 +155,7 @@ SDK 및 API를 사용하여 여러 디지털 플랫폼에 걸쳐 개인화된 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg?lang=ko)
 
 콘텐츠 카드
 

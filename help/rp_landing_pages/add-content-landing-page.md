@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 콘텐츠를 디자인하는 것은 대상과 연�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg?lang=ko)
 
 시각적 조각 활용
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 콘텐츠를 디자인하는 것은 대상과 연�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
 
 링크 추가 및 메시지 추적
 

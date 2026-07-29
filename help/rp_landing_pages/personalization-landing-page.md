@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 개인화 기능을 사용하면 개별 프로필, �
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 개인화 시작
 
@@ -50,7 +50,7 @@ Handlebars 기반 개인화 구문의 규칙과 예시를 분석하여 동적이
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 표현식 조각
 

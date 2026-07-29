@@ -31,7 +31,7 @@ Adobe Journey Optimizer의 주요 함수
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 inAudience 함수 사용
 
@@ -61,7 +61,7 @@ inAudience 함수 사용
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ko)
 
 Adobe Journey Optimizer의 Date 함수
 
@@ -71,7 +71,7 @@ Adobe Journey Optimizer의 Date 함수
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 Adobe Journey Optimizer의 목록 기능
 

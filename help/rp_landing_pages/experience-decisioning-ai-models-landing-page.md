@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 오퍼 순위를 매기기 위한 AI 모델을 만
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 개인화된 최적화 모델
 

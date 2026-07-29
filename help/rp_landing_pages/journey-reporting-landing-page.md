@@ -40,7 +40,7 @@ Adobe Journey Optimizer의 여정 보고서는 이메일, SMS, 웹, 푸시 알�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 콘텐츠 카드 참여
 

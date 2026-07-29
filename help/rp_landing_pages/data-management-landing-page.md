@@ -50,7 +50,7 @@ Adobe Journey Optimizer의 TTL 규칙, 내보내기 및 SQL 쿼리를 포함하�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 Adobe Experience Platform 데이터 사용
 

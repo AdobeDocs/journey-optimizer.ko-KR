@@ -61,7 +61,7 @@ Adobe Journey Optimizer의 활동
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 Adobe Journey Optimizer의 표현식 작성
 

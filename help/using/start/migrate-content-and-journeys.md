@@ -116,7 +116,7 @@ HTML 파일 또는 소스 플랫폼에 대한 연결인 콘텐츠에 대한 소�
 
 1. **[!UICONTROL 제목 줄]**&#x200B;을 추가하고 각 개인화 자리 표시자를 해당 프로필 특성에 매핑합니다.
 
-   작업공간은 소스 스크립팅 구문을 자동으로 Handlebars 구문으로 변환합니다. 지원되는 연산자 목록을 보려면 [연산자](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/functions/operators)를 참조하십시오.
+   작업공간은 소스 스크립팅 구문을 자동으로 Handlebars 구문으로 변환합니다. 지원되는 연산자 목록을 보려면 [연산자](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/personalization/functions/operators)를 참조하십시오.
 
    ![제목 줄 필드 및 개인화 자리 표시자 매핑이 있는 전자 메일 편집기를 가져왔습니다](assets/onboarding-hub-8.png)
 

@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 보고 및 데이터 관리 작업을 지원하기
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
 
 기존 단계 이벤트 필드
 

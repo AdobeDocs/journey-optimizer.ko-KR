@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 콘텐츠 실험은 콘텐츠의 다양한 변형이 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 콘텐츠 실험 만들기 및 확장
 

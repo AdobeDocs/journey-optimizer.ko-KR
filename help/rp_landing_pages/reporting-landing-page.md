@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서의 보고는 원 데이터를 실용적인 인사�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
 
 라이브 보고서
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서의 보고는 원 데이터를 실용적인 인사�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 전체 시간 보고
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer에서의 보고는 원 데이터를 실용적인 인사�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 사용자 정의 여정 보고
 

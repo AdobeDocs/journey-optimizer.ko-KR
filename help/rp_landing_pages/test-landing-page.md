@@ -56,7 +56,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 여정 시험 실행
 
@@ -66,7 +66,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
 
 모니터링 및 문제 해결
 
@@ -86,7 +86,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
 
 콘텐츠 실험 및 A/B 테스트
 
@@ -106,7 +106,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ko)
 
 충돌 감지
 

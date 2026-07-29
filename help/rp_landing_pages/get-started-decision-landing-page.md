@@ -55,7 +55,7 @@ Adobe Journey Optimizer의 의사 결정 관리를 사용하면 마케터는 여
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 오퍼를 만들고 관리하는 주요 단계
 
