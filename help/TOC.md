@@ -6,9 +6,9 @@ user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: b336656fb484583e5da6a8cfb7a61efcfee21a95
+source-git-commit: 66613584226260662d1122048cdfcaa64787113f
 workflow-type: tm+mt
-source-wordcount: '3501'
+source-wordcount: '3489'
 ht-degree: 94%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 94%
 + 여정 {#orchestrate-journeys}
   + [여정 시작](using/building-journeys/journey.md)
   + {hide-from-toc}[여정 시작 안내서](using/building-journeys/journey-get-started.md)
-  + {hide-from-toc}[여정 형식: 올바른 one-2 선택](using/building-journeys/journey-types-selection-v2.md)
+  + {hide-from-toc}[여정 형식: 올바른 one-2](using/building-journeys/journey-types-selection-v2.md) 선택
   + [Journey Orchestration FAQ](using/building-journeys/journey-faq.md)
   + 여정 만들기 {#create-journey}
     + [여정 만들기](/help/rp_landing_pages/create-journey-landing-page.md)
@@ -163,7 +163,6 @@ ht-degree: 94%
     + [이벤트 변환기 안내서](using/loyalty-challenges/event-transformer-guide.md)
     + [충성도 과제 권한](using/loyalty-challenges/loyalty-permissions.md)
     + [충성도 데이터 및 데이터 세트](using/loyalty-challenges/loyalty-data-and-datasets.md)
-    + [충성도 과제 API 참조](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges)
 + 캠페인 {#campaigns}
   + {hide-from-toc}[캠페인](/help/rp_landing_pages/campaigns-landing-page.md)
   + [캠페인 시작](using/campaigns/get-started-with-campaigns.md)
