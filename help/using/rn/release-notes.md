@@ -8,28 +8,16 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2411f0ba2371933c3af101603c28032e9cdcc7d2
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: af90368835866c2779e36a98f8aa8cb7a39d8ad4
 workflow-type: tm+mt
-source-wordcount: 1474
-ht-degree: 28%
+source-wordcount: 1651
+ht-degree: 27%
 
 ---
 
@@ -125,7 +113,7 @@ Journey Optimizer에서는 이 릴리스의 새로운 기능인 충성도 문제
 </tbody>
 </table>
 
-* &#x200B;
+* 
   * [!BADGE 사용 중단]{type=Negative} **대상 자격 노드 및 종료 기준에서 일괄 처리 대상이 더 이상 지원되지 않음** - 2026년 9월부터 Journey Optimizer에서 대상 자격 노드 또는 종료 기준에서 일괄 처리 대상을 사용하는 여정에 대한 게시를 차단합니다. 여정 캔버스에 유효성 검사 경고가 이미 표시되어 있습니다.  기존 라이브 여정은 영향을 받지 않습니다. 이 구성을 포함하는 신규, 초안 및 중복 여정은 2026년 9월 이전에 업데이트해야 합니다. 대상 자격 노드에서 스트리밍 대상을 사용하거나 대상 읽기 활동으로 전환합니다. 종료 기준의 경우 스트리밍 대상을 사용합니다. [여정 마이그레이션 방법 알아보기](../building-journeys/aq-batch-audiences-migration.md)
 
 ### 이메일 디자이너 {#july-26-email}
@@ -174,6 +162,24 @@ Journey Optimizer에서는 이 릴리스의 새로운 기능인 충성도 문제
 </tbody>
 </table>
 
+### 결정 {#decisioning}
+
+* **자연어 식에서 의사 결정 규칙 만들기** - 이제 일반 언어로 만들려는 의사 결정 규칙을 설명하고 AI가 자동으로 생성하도록 할 수 있습니다. 이 기능은 Adobe AI 기능에 액세스하는 고객이 사용할 수 있습니다.
+
+  이 기능은 Adobe AI 기능에 액세스하는 조직에서 사용할 수 있습니다. 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
+
+  사용 가능한 날짜: 2026년 7월 29일
+
+  [자세히 알아보기](../experience-decisioning/rules.md#build-rule-with-ai)
+
+* **의사 결정 규칙 및 등급 수식 시뮬레이션** - 이제 규칙 또는 수식 편집기에서 직접 의사 결정 규칙 및 등급 수식을 시뮬레이션할 수 있습니다. 수동 테스트 변형을 추가하거나 AI를 사용하여 생성한 다음 테스트 데이터에 대해 표현식을 실행하여 자격 조건을 확인하고 등급 결과를 검토한 후 프로덕션에 배포합니다. Adobe AI 기능에 액세스하는 고객은 변형 생성을 사용할 수 있습니다.
+
+  이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
+
+  사용 가능한 날짜: 2026년 7월 29일
+
+  [규칙 시뮬레이션에 대해 자세히 알아보기](../experience-decisioning/rules.md) | [등급 수식 시뮬레이션에 대해 자세히 알아보기](../experience-decisioning/ranking/ranking-formulas.md)
+
 ### 콘텐츠 관리 {#july-26-content}
 
 이 릴리스의 콘텐츠 관리에 다음과 같은 기능 및 개선 사항이 추가되었습니다.
@@ -185,18 +191,6 @@ Journey Optimizer에서는 이 릴리스의 새로운 기능인 충성도 문제
 * **템플릿 인벤토리의 빠른 실행 바로 가기** - 이제 콘텐츠 템플릿 목록의 **[!UICONTROL 추가 작업]** 단추를 사용하여 템플릿 세부 정보 편집, 콘텐츠 시뮬레이션 및 템플릿 삭제와 같은 일반적인 작업에 빠르게 액세스할 수 있습니다. 이메일 템플릿의 경우 추가 단축키를 사용하여 제목란 및 이메일 본문을 편집하고, 증명을 보거나 보내고, 스팸 보고서를 실행하고, 이메일을 렌더링할 수 있습니다. [자세히 알아보기](../content-management/access-content-templates.md#quick-launch-templates)
 
   ![](../content-management/assets/content-template-quick-launch.png)
-
-### 콘텐츠 및 통합 {#july-26-integration}
-
-이번 릴리스에서는 콘텐츠 관리 및 통합 기능에 다음과 같은 기능과 개선 사항이 추가될 예정입니다.
-
-* **의사 결정 항목의 동적 사용자 지정 특성** - 이제 프로필, 컨텍스트 및 대상 데이터를 사용하여 전달 시 의사 결정 항목 사용자 지정 특성을 개인화할 수 있습니다. 이렇게 하면 사소한 콘텐츠 변형에 대한 중복 오퍼를 관리할 필요가 없어지므로 마케터는 더 적고 유연한 결정 항목을 관리할 수 있습니다. [자세히 보기](../experience-decisioning/items.md#attributes)
-
-  사용 가능한 날짜: 2026년 7월 27일
-
-* **AJO MCP 서버 새 도구** - 이제 [!DNL Adobe Journey Optimizer] MCP 서버는 5개의 추가 읽기 전용 **채널 구성 도구**&#x200B;를 노출하므로 AI 도우미에서 직접 채널 구성, 지원 리소스 및 마케팅 작업을 쿼리할 수 있습니다. 이제 **목록 채널 구성**(모든 AJO 채널에서), **채널 구성 가져오기**, **목록 구성 리소스**, **구성 리소스 가져오기** 및 **목록 마케팅 작업**&#x200B;을 사용할 수 있습니다. [자세히 보기](../integrations/ajo-mcp.md#mcp-tools)
-
-  사용 가능한 날짜: 2026년 7월 9일
 
 * **개인화 식에 새 도우미 함수** - 이제 개인화 식에 새 도우미 함수를 사용할 수 있습니다.
 
@@ -221,6 +215,18 @@ Journey Optimizer에서는 이 릴리스의 새로운 기능인 충성도 문제
   [도우미 기능에 대해 자세히 알아보기](../personalization/functions/functions.md)
 
   사용 가능한 날짜: 2026년 7월 28일
+
+### 콘텐츠 및 통합 {#july-26-integration}
+
+이번 릴리스에서는 콘텐츠 관리 및 통합 기능에 다음과 같은 기능과 개선 사항이 추가될 예정입니다.
+
+* **의사 결정 항목의 동적 사용자 지정 특성** - 이제 프로필, 컨텍스트 및 대상 데이터를 사용하여 전달 시 의사 결정 항목 사용자 지정 특성을 개인화할 수 있습니다. 이렇게 하면 사소한 콘텐츠 변형에 대한 중복 오퍼를 관리할 필요가 없어지므로 마케터는 더 적고 유연한 결정 항목을 관리할 수 있습니다. [자세히 보기](../experience-decisioning/items.md#attributes)
+
+  사용 가능한 날짜: 2026년 7월 27일
+
+* **AJO MCP 서버 새 도구** - 이제 [!DNL Adobe Journey Optimizer] MCP 서버는 5개의 추가 읽기 전용 **채널 구성 도구**&#x200B;를 노출하므로 AI 도우미에서 직접 채널 구성, 지원 리소스 및 마케팅 작업을 쿼리할 수 있습니다. 이제 **목록 채널 구성**(모든 AJO 채널에서), **채널 구성 가져오기**, **목록 구성 리소스**, **구성 리소스 가져오기** 및 **목록 마케팅 작업**&#x200B;을 사용할 수 있습니다. [자세히 보기](../integrations/ajo-mcp.md#mcp-tools)
+
+  사용 가능한 날짜: 2026년 7월 9일
 
 ### 관리 {#july-26-administration}
 

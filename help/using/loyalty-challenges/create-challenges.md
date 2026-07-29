@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: e62678a8b8aa22a56ef3a90c93e1290651198aa5
+source-git-commit: af90368835866c2779e36a98f8aa8cb7a39d8ad4
 workflow-type: tm+mt
 source-wordcount: '2521'
 ht-degree: 12%
@@ -360,11 +360,11 @@ ht-degree: 12%
 
 다음 단계별 비디오 튜토리얼을 통해 충성도 문제를 만들고 구성하는 방법에 대해 알아보십시오.
 
-* **충성도 과제 설정** - 새 충성도 과제를 만들고 구성합니다.
+**충성도 과제 설정** - 새 충성도 과제를 만들고 구성합니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3496471?quality=12)
 
-* **보상 구성** - 보상 전달 및 이행 설정
+**보상 구성** - 보상 전달 및 이행 설정
 
 >[!VIDEO](https://video.tv.adobe.com/v/3496481?quality=12)
 
