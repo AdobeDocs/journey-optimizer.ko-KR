@@ -6,9 +6,9 @@ user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 8731e10c9a6278c34cd0db8ccdec112f2d5c90d8
+source-git-commit: b336656fb484583e5da6a8cfb7a61efcfee21a95
 workflow-type: tm+mt
-source-wordcount: '3499'
+source-wordcount: '3501'
 ht-degree: 94%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 94%
 + 여정 {#orchestrate-journeys}
   + [여정 시작](using/building-journeys/journey.md)
   + {hide-from-toc}[여정 시작 안내서](using/building-journeys/journey-get-started.md)
-  + {hide-from-toc}[여정 형식: 올바른 one-2 선택](using/building-journeys/journey-types-selection-v2.md)
+  + {hide-from-toc}[여정 형식: 올바른 one-2](using/building-journeys/journey-types-selection-v2.md) 선택
   + [Journey Orchestration FAQ](using/building-journeys/journey-faq.md)
   + 여정 만들기 {#create-journey}
     + [여정 만들기](/help/rp_landing_pages/create-journey-landing-page.md)
@@ -314,6 +314,7 @@ ht-degree: 94%
       + 콘텐츠 작성 {#add-content}
         + {hide-from-toc}[콘텐츠 디자인](/help/rp_landing_pages/add-content-landing-page.md)
         + [콘텐츠 구성 요소 사용](using/email/content-components.md)
+        + [모듈 사용](using/email/email-modules.md)
         + [시각적 조각 활용](using/email/use-visual-fragments.md)
         + [링크 추가 및 메시지 추적](using/email/message-tracking.md)
         + [URL 개인화](using/email/url-personalization.md)
