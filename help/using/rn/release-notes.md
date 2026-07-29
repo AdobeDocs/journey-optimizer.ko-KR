@@ -8,25 +8,13 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f5ad5b5015820b4711e3ec5a39cc0122b45992c0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 448a58d58e85c71092304d7c390c25de3bab977f
 workflow-type: tm+mt
 source-wordcount: 2879
 ht-degree: 19%
@@ -66,6 +54,7 @@ Journey Optimizer에서는 이 릴리스의 새로운 기능인 충성도 문제
 <p>충성도 챌린지는 충성도 이니셔티브를 고객이 구매, 리뷰 작성 또는 원하는 행동과 같은 중요한 행동을 취하도록 동기화하는 매력적인 게임화된 경험으로 바꿉니다.</p>
 <p>관리자는 충성도 관리 메뉴를 사용하여 보상 이행 API, 이벤트 정의, 제품 인벤토리, 제외 및 ID 설정을 포함하여 Journey Optimizer을 충성도 생태계와 연결할 수 있습니다. 그런 다음 마케터는 표준, 연속 또는 순차적 문제를 디자인하고, 작업 및 보상을 정의하고, 브랜드 콘텐츠 카드 및 메시지를 제공하고, AI 기반 보고 대시보드를 사용하여 성능을 모니터링할 수 있습니다. Journey Optimizer은 백그라운드에서 각 과제를 오케스트레이션하는 여정을 생성하므로 팀이 고객 경험과 비즈니스 목표에 집중할 수 있습니다.</p>
 <p>또한 충성도는 팀이 과제 생성, 과제 속성 설정, 대상자 및 관련 구성 관리, 통찰력 검토 등 주요 과제 작업을 보다 효율적으로 수행하여 과제 참여도를 모니터링하고 성과를 보상하도록 하는 동료 기술을 도입합니다.</p>
+<p><img src="assets/do-not-localize/loyalty.png"></p>
 <p>이 기능은 Journey Optimizer 충성도에 대해 라이선스가 부여된 조직에서만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
 <p>자세한 내용은 <a href="../loyalty-challenges/get-started.md">세부 설명서</a>를 참조하십시오.</p>
 <p> 사용 가능한 날짜: 2026년 7월 28일</p>
