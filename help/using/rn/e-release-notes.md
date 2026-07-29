@@ -7,18 +7,13 @@ feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 hide: true
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: c58b70fa5f792e2fa1448034559ad7210e3e10d4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 6e665528805269903885ba9ba3f958de3f4374f4
 workflow-type: tm+mt
-source-wordcount: 967
-ht-degree: 21%
+source-wordcount: 331
+ht-degree: 32%
 
 ---
 
@@ -32,30 +27,13 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published once changes are live in production. While most changes are delivered on the release date, a few may roll out later — refer to the Availability Date listed for each entry for details.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: June 16-17, 2026
 
 ### Journeys {#june-26-journeys}
 
 The following capabilities and improvements are coming to journeys in this release.
-
-<table>
-<thead>
-<tr>
-<th><strong>Channel optimization (Limited Availability)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now add multiple outbound channels (Email, Push, SMS) to a single journey action and let Journey Optimizer automatically deliver through the best channel for each customer. Three optimization modes are available: manual ranking, customer profile preference (XDM attribute), and AI model-based ranking using propensity scores. When the top-ranked channel is unavailable, the system falls back to the next available channel.</p>
-<p>This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
-<p>For more information, refer to the <a href="../building-journeys/channel-optimization.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 * **Increased live journey limit and new guardrails** - You can now have up to **200 active journeys**, increased from the previous limit of 100.
 
@@ -105,30 +83,10 @@ Journey Optimizer introduces the Onboarding Assistant, a new capability in this 
 
 이 릴리스의 여정에 다음과 같은 개선 사항이 추가되었습니다.
 
-<!-- Documentation link: TBD -->
 
 ### 캠페인 {#july-26-campaigns}
 
 이 릴리스의 캠페인에 다음과 같은 기능 및 개선 사항이 추가되었습니다.
-
-<table>
-<thead>
-<tr>
-<th><strong>API가 트리거된 이메일의 개인화된 PDF 첨부 파일</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 Journey Optimizer에서는 API 트리거 캠페인에서 이메일당 최대 5개의 수신자 특정 PDF를 첨부할 수 있습니다. PDF 파일은 Azure 또는 AWS 저장소에서 안전하게 가져오고 전송 시 첨부하며, 각 파일의 위치는 API 페이로드에 직접 전달됩니다. 이렇게 하면 Journey Optimizer에서 게재를 처리하면서 기존 업스트림 문서 생성 시스템이 제자리에 유지될 수 있습니다.</p>
-<p>지원되는 사용 사례에는 송장, 명세서, 티켓, 계약서, 배송 라벨 및 수신자마다 다른 유사한 문서가 포함됩니다. 개인화된 PDF 첨부 파일은 API 트리거 캠페인에서만 사용할 수 있으며, 여정 또는 다른 캠페인 유형(작업, 오케스트레이션)에서는 지원되지 않습니다.</p>
-<p>PDF 첨부 파일 추가 기능을 통해 더 큰 첨부 파일 볼륨 및 크기가 지원됩니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.</p>
-<p></p>
-<!-- Documentation link: TBD -->
-</td>
-</tr>
-</tbody>
-</table>
 
 <!--
 <table>
@@ -142,51 +100,18 @@ Journey Optimizer introduces the Onboarding Assistant, a new capability in this 
 <td>
 <p>You can now simulate inbound channel actions in Action campaigns before going live. Use simulation mode to test your configuration with simulated users and preview the rendered experience, including a generated URL and QR code, so you can validate rules, decisioning, and content rendering end-to-end.</p>
 <p>This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
-[GIF placeholder: to be added]
-[Documentation link: TBD]
 </td>
 </tr>
 </tbody>
 </table>
-
 -->
 
 ### 오케스트레이션된 캠페인 {#july-26-oc}
 
 이 릴리스의 오케스트레이션된 캠페인에 다음과 같은 개선 사항이 추가되었습니다.
 
-
 <!--
-* **Send messages in waves** - You can now schedule outbound messages from orchestrated campaigns to be delivered in controlled batches over time. Ideal for high-volume or time-sensitive campaigns, wave sending also supports better deliverability and helps maintain a strong sender reputation by reducing the risk of being flagged as spam.
--->
 
-<!--
-### Optimization {#july-26-optimization}
-
-<table>
-<thead>
-<tr>
-<th><strong>Channel optimization</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now configure a journey or campaign action to include multiple outbound channels (Email, Push, SMS) and let Journey Optimizer automatically deliver through the best channel for each customer. Three optimization modes are available:</p>
-<ul>
-<li>Manual ranking: specify your preferred channel order.</li>
-<li>Customer preference: use the customer's preferred channel from their profile (Experience Data Model Consents & Preferences attribute).</li>
-<li>AI model-based ranking: use machine learning propensity scores to infer the most effective channel per customer.</li>
-</ul>
-<p>When the top-ranked channel is unavailable (not opted-in, frequency-capped, or not configured), the system falls back to the next available channel.</p>
-<p>This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
-</td>
-</tr>
-</tbody>
-</table>
--->
-
-<!--
 <table>
 <thead>
 <tr>
@@ -213,41 +138,17 @@ Journey Optimizer introduces the Onboarding Assistant, a new capability in this 
 
 * **Target dimension simplification in Orchestrated campaigns** - The active targeting dimension is now shown on the workflow canvas, so you can see which dimension is used by a channel activity. The multi-entity segmentation flow is simpler as you no longer need a separate "Change dimension" activity. Moreover, you can now choose explicitly whether messages are sent at the profile level or at a secondary dimension level.
 
+* **Send messages in waves** - You can now schedule outbound messages from orchestrated campaigns to be delivered in controlled batches over time. Ideal for high-volume or time-sensitive campaigns, wave sending also supports better deliverability and helps maintain a strong sender reputation by reducing the risk of being flagged as spam.
+
 -->
 
 ### 채널 {#july-26-channels}
 
 이 릴리스의 채널에 다음과 같은 기능 및 개선 사항이 추가되었습니다.
 
-<table>
-<thead>
-<tr>
-<th><strong>사용자 지정 아웃바운드 채널</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer은 이제 관리자가 WeChat, KakaoTalk, Messenger 또는 독점 공급자와 같은 아웃바운드 HTTP 기반 메시징 채널을 코드 없는 채널 빌더를 통해 Journey Optimizer으로 직접 가져올 수 있는 새로운 기능인 사용자 지정 채널을 도입했습니다.</p >
-<p>구성하고 나면 캠페인, 여정 및 오케스트레이션된 캠페인 전반에서 기본 채널과 동일한 전체 기능 세트를 사용하여 사용자 정의 채널을 사용할 수 있습니다. 표현식 편집기를 사용한 개인화, 콘텐츠 실험, 미리보기 및 증명, 기본 보고, 동의 및 거버넌스 시행.</p>
-<p>이렇게 하면 이전에 여정 지정 작업으로 해결했던 공백이 해소되며, 이는 채널로만 제한되고 전용 채널 기능이 부족합니다.</p>
-<p>사용자 지정 아웃바운드 채널은 현재 제한된 가용성으로 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
-<!-- GIF placeholder: to be added -->
-<!-- Documentation link: TBD -->
-</td>
-</tr>
-</tbody>
-</table>
-
-* **처리량을 위한 성능 추가 기능 - 푸시** - API 트리거 캠페인에서 새로운 처리량 트랜잭션 메시지 모드를 사용할 수 있습니다. 이 모드는 대규모 실시간 트랜잭션 메시지 전송을 위해 설계되었으며 더 높은 가용성으로 초당 최대 5,000개의 트랜잭션을 지원합니다. 이전에는 이메일 채널에서만 사용할 수 있었지만, 이제 이 기능은 Adobe 고처리량 트랜잭션 메시지 추가 기능 서비스를 구입한 조직의 푸시 채널에서도 사용할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오. <!-- Documentation link: TBD -->
-
-
-
 ### 결정 {#july-26-decisioning}
 
 이 릴리스의 Decisioning에 다음과 같은 개선 사항이 추가되었습니다.
-
-* **오퍼 수준의 Personalization** - 이제 프로필, 컨텍스트 및 대상 데이터를 사용하여 게재 시 의사 결정 항목 사용자 지정 특성을 개인화할 수 있습니다. 이를 통해 사소한 콘텐츠 변형에 대해 중복 오퍼를 유지할 필요가 없으므로 마케터는 보다 적고 유연한 결정 항목을 관리할 수 있습니다. <!-- Documentation link: TBD -->
 
 <!--
 * **Placement-level frequency capping in Decisioning** - Frequency capping rules in Decisioning can now be scoped to individual placements, giving you finer control over how often an offer is shown in a given surface. Two modes are available: placement-specific capping (define a cap that applies only when the offer is displayed in a selected placement) and per-placement capping (apply a cap independently across every placement where the offer appears, so each placement maintains its own capping counter). Documentation link: TBD
@@ -256,11 +157,6 @@ Journey Optimizer introduces the Onboarding Assistant, a new capability in this 
 ### 콘텐츠 관리 {#july-26-content}
 
 이 릴리스의 콘텐츠 관리에 다음과 같은 개선 사항이 추가되었습니다.
-
-* **전자 메일 서식 파일의 `<head>`에서 식 조각 지원** - 이제 전자 메일 서식 파일의 `<head>`에서 식 조각을 사용할 수 있습니다. 이를 통해 스타일링 또는 사용자 지정 코드를 단일 조각에 중앙 집중화하고 여러 템플릿에서 재사용할 수 있습니다. 조각을 업데이트하고 다시 게시하면 이를 참조하는 템플릿에서 빌드된 모든 이메일이 자동으로 최신 코드를 상속하므로 각 이메일을 개별적으로 수동으로 업데이트할 필요가 없습니다. <!-- Documentation link: TBD -->
-<!-- Documentation link: TBD -->
-
-
 
 <!--
 ### Integrations {#july-26-integrations}
@@ -274,53 +170,16 @@ The following improvements have been added to integrations in this release.
 
 이 릴리스의 개인화에 다음과 같은 개선 사항이 추가되었습니다.
 
-* **전체/기본 URL 개인화를 위한 도메인 관리** - 이제 Adobe 지원에 문의하지 않고도 Adobe Journey Optimizer의 관리 설정에서 직접 전체 및 기본 URL 개인화를 위한 승인된 도메인을 만들고 관리할 수 있습니다. <!-- Documentation link: TBD -->
-
-<!-- Documentation link: TBD -->
 
 ### 이메일 디자이너 {#july-26-email}
 
 이 릴리스의 이메일 채널에 다음 기능이 추가되었습니다.
-
-<table>
-<thead>
-<tr>
-<th><strong>이메일 디자이너의 모듈</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 이메일 디자이너에 헤더, 제품 카드, 정보 블록, 바닥글과 같은 바로 사용할 수 있는 레이아웃 모듈 라이브러리가 포함되어 있어 이메일 캔버스에 직접 끌어다 놓을 수 있습니다.</p>
-<p>각 모듈은 편집 가능한 속성(이미지, 제목, 텍스트, 버튼, 링크)으로 사전 구성되어 있으며 WYSIWYG 인터페이스를 통해 완벽하게 사용자 정의할 수 있으므로 처음부터 구조를 만들 필요 없이 이메일 작성 속도를 높일 수 있습니다.</p>
-<!-- GIF placeholder: to be added -->
-<!-- Documentation link: TBD -->
-</td>
-</tr>
-</tbody>
-</table>
 
 
 ### 관리 {#july-26-administration}
 
 이 릴리스의 관리에 다음 기능이 추가되었습니다.
 
-<table>
-<thead>
-<tr>
-<th><strong>웹 응용 프로그램 방화벽 IP 허용 목록</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Journey Optimizer은 이제 랜딩 페이지에 대한 웹 애플리케이션 방화벽 IP 허용 목록을 지원하므로 조직에서 모든 수신 요청이 구성된 웹 애플리케이션 방화벽 인프라를 통해서만 라우팅되도록 할 수 있습니다. 이 향상된 기능을 통해 고객은 웹 애플리케이션 방화벽 계층을 무시하는 직접 요청을 거부하도록 Journey Optimizer을 구성할 수 있으므로 Imperva와 같은 도구에 정의된 보안 정책이 일관되게 적용됩니다.</p>
-<p>이 기능은 엄격한 네트워크 액세스 요구 사항을 가진 기업의 보안 태세를 강화하여 Journey Optimizer이 호스팅하는 랜딩 페이지로의 트래픽 흐름을 완벽하게 제어합니다.</p>
-<!-- Documentation link: TBD -->
-</td>
-</tr>
-</tbody>
-</table>
 
 ### 사용성 개선 사항 {#july-26-usability}
 
