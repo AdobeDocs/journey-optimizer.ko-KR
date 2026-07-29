@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: a7c4e1b2-8f3d-4a6c-9e0b-1d2e3f4a5b6c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
+source-git-commit: 82fd2e225b54a2c47081303b230ab66fc2149022
 workflow-type: tm+mt
 source-wordcount: 549
 ht-degree: 5%
@@ -23,7 +23,7 @@ ht-degree: 5%
 
 충성도 문제는 ID, 프로필 속성, 경험 이벤트 및 대상에 대해 Adobe Experience Platform에 의존합니다. 이 페이지를 사용하여 문제를 작성하거나 충성도 문제 API를 사용하기 전에 준비할 데이터, 관련된 데이터 세트 및 **TTL(time-to-live)**&#x200B;이(가) 유지에 미치는 영향을 알아봅니다.
 
-Journey Optimizer 프로그램 설정의 Adobe 관리자에게 문의하거나 **[!UICONTROL 충성도 관리자]** 메뉴에서 보상 이행 및 이벤트 매핑을 구성하십시오. [충성도 문제를 구성하는 방법을 알아보세요](loyalty-admin.md). REST 끝점 및 인증의 경우 [충성도 도전 API 참조](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}를 참조하십시오.
+Journey Optimizer 프로그램 설정을 위해 Adobe 관리자에게 문의하거나 **[!UICONTROL 충성도 구성]** 메뉴에서 보상 이행 및 이벤트 매핑을 구성하십시오. [충성도 문제를 구성하는 방법을 알아보세요](loyalty-admin.md). REST 끝점 및 인증의 경우 [충성도 도전 API 참조](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}를 참조하십시오.
 
 ## 소스를 통한 충성도 커넥터 {#loyalty-connectors-sources}
 
@@ -41,17 +41,17 @@ Journey Optimizer 설명서에 나열된 충성도 및 보상 커넥터는 다�
 
 ### 프로필 속성 {#profile-attributes}
 
-Challenge 대상자, 개인화 및 보고는 **[!DNL XDM Individual Profile]** 클래스의 프로필을 사용합니다. 충성도 문제에 사용하는 ID [네임스페이스](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/namespaces){target="_blank"}를 프로필 데이터에서 구성원이 식별되는 방식과 **[!UICONTROL 충성도 관리자]** 메뉴의 **[!UICONTROL 전역 설정]**&#x200B;에서 선택한 네임스페이스와 연결합니다.
+Challenge 대상자, 개인화 및 보고는 **[!DNL XDM Individual Profile]** 클래스의 프로필을 사용합니다. 충성도 문제에 사용하는 ID [네임스페이스](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/namespaces){target="_blank"}를 프로필 데이터에서 구성원이 식별되는 방식과 **[!UICONTROL 충성도 구성]** 메뉴의 **[!UICONTROL 전역 설정]**&#x200B;에서 선택한 네임스페이스와 연결합니다.
 
-프로필의 표준 충성도 특성(포인트, 계층, 프로그램, 상태 및 관련 필드)에 대해서는 Experience Platform **[충성도 세부 정보](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}** 스키마 필드 그룹을 사용하십시오. 해당 필드 그룹은 `loyalty` 개체와 해당 속성을 정의합니다(예: `points`, `tier`, `program` 및 `status`).
+프로필의 표준 충성도 특성(포인트, 계층, 프로그램, 상태 및 관련 필드)에 대해서는 Experience Platform **[충성도 세부 정보](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}** 스키마 필드 그룹을 사용하십시오. 해당 필드 그룹은 `loyalty` 개체와 해당 속성을 정의합니다(예: `points`, `tier`, `program` 및 `status`).
 
-➡️ [충성도 세부 정보 스키마 필드 그룹](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
+➡️ [충성도 세부 정보 스키마 필드 그룹](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
 
-➡️ [AJO 스키마 사전](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko){target="_blank"}
+➡️ [AJO 스키마 사전](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=en){target="_blank"}
 
 ### 경험 이벤트 {#experience-events}
 
-**[!UICONTROL 구매]**, **[!UICONTROL 지출]** 및 **[!UICONTROL 사용자 지정 이벤트]** 작업은 Adobe Experience Platform에 수집된 경험 이벤트에 따라 다릅니다. **[!UICONTROL 사용자 지정 이벤트]** 작업의 경우 마케터가 작업 빌더에 사용자 지정 이벤트 값을 입력하려면 먼저 **[!UICONTROL 충성도 관리자]** 메뉴에서 일치하는 이벤트 정의(식별자 경로, 선택적 XDM 스키마 ID, 스키마 및 변환기)를 구성해야 합니다. [이벤트 정의를 구성하는 방법을 알아봅니다](loyalty-admin.md#event-definitions)
+**[!UICONTROL 구매]**, **[!UICONTROL 지출]** 및 **[!UICONTROL 사용자 지정 이벤트]** 작업은 Adobe Experience Platform에 수집된 경험 이벤트에 따라 다릅니다. **[!UICONTROL 사용자 지정 이벤트]** 작업의 경우 마케터가 작업 빌더에 사용자 지정 이벤트 값을 입력하려면 먼저 **[!UICONTROL 충성도 구성]** 메뉴에서 일치하는 이벤트 정의(식별자 경로, 선택적 XDM 스키마 ID, 스키마 및 변환기)를 구성해야 합니다. [이벤트 정의를 구성하는 방법을 알아봅니다](loyalty-admin.md#event-definitions)
 
 이벤트 페이로드가 충성도 과제 구성과 동일한 ID 네임스페이스를 사용하므로 진행 상황이 올바른 프로필에 귀속될 수 있습니다.
 

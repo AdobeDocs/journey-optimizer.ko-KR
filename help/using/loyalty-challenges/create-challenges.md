@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: af90368835866c2779e36a98f8aa8cb7a39d8ad4
+source-git-commit: 82fd2e225b54a2c47081303b230ab66fc2149022
 workflow-type: tm+mt
 source-wordcount: '2521'
 ht-degree: 12%
@@ -224,7 +224,7 @@ ht-degree: 12%
    * **[!UICONTROL 과제 진행에 따라 과제 완료 시점에 따라 보상 제공]**: 고객이 개별 과제를 완료하면 점진적으로 보상 제공(두 개 이상의 과제를 요구하는 과제에만 제공)\
      *예: 작업 1 다음에 10포인트, 작업 2 다음에 20포인트, 작업 3 다음에 50포인트를 부여합니다*
 
-1. 보상 제공자를 선택합니다. 고객 포인트와 보상을 관리하는 충성도 솔루션입니다. 보상 공급자는 **[!UICONTROL 충성도 관리자]** 메뉴에서 만든 후에 문제를 작성합니다. [보상 공급자를 구성하는 방법을 알아보세요](loyalty-admin.md#reward-providers)
+1. 보상 제공자를 선택합니다. 고객 포인트와 보상을 관리하는 충성도 솔루션입니다. 보상 공급자는 도전을 작성하기 전에 **[!UICONTROL 충성도 구성]** 메뉴에서 만들어집니다. [보상 공급자를 구성하는 방법을 알아보세요](loyalty-admin.md#reward-providers)
 
    ![](assets/challenge-create-reward-type.png)
 

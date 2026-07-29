@@ -9,9 +9,8 @@ role: User
 level: Intermediate
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2: []
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: e62678a8b8aa22a56ef3a90c93e1290651198aa5
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: 82fd2e225b54a2c47081303b230ab66fc2149022
 workflow-type: tm+mt
 source-wordcount: 964
 ht-degree: 13%
@@ -92,9 +91,9 @@ ht-degree: 13%
 
 +++고객 충성도 프로그램 구성(관리자)
 
-관리자는 **[!UICONTROL 충성도 관리자]** 메뉴에서 보상 공급자, 이벤트 정의, 제품 인벤토리, 제외 및 전역 설정을 구성합니다. 도전만 생성하는 마케터는 이 메뉴에 액세스할 필요가 없습니다. [충성도 문제를 구성하는 방법에 대해 알아보세요](loyalty-admin.md)
+관리자는 **[!UICONTROL 충성도 구성]** 메뉴에서 보상 공급자, 이벤트 정의, 제품 인벤토리, 제외 및 전역 설정을 구성합니다. 도전만 생성하는 마케터는 이 메뉴에 액세스할 필요가 없습니다. [충성도 문제를 구성하는 방법에 대해 알아보세요](loyalty-admin.md)
 
-왼쪽 탐색에 **[!UICONTROL 충성도 관리자]** 메뉴가 표시되지 않는 경우 관리자에게 문의하십시오.
+**[!UICONTROL 충성도 구성]** 메뉴가 왼쪽 탐색에 표시되지 않는 경우 관리자에게 문의하십시오.
 
 +++
 
@@ -161,7 +160,7 @@ ht-degree: 13%
     <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
     </a>
     <div>
-  -->
+-->
     <a href="loyalty-admin.md"><strong>충성도 챌린지 구성</strong></a>
     </div>
     <p>
@@ -179,5 +178,5 @@ ht-degree: 13%
 
 **충성도 문제를 처음 사용하십니까?** 기능 및 이점을 이해하려면 이 개요를 참조하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3496456?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496441?quality=12)
 
