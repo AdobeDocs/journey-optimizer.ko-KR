@@ -9,9 +9,9 @@ role: User
 level: Beginner
 hide: true
 keywords: 여정 최적화 도구, 온보딩, 온보딩 허브, 사용 사례, 비디오, 자습서, 시작하기, 램프 업, 첫 여정
-source-git-commit: 79337a0d2a65fa1e8aa1e5d47bcf39906d9887a7
+source-git-commit: 82ee40831b622912cab74d680839ca24b3ceb14f
 workflow-type: tm+mt
-source-wordcount: '1139'
+source-wordcount: '1117'
 ht-degree: 12%
 
 ---
@@ -39,12 +39,12 @@ rebuild
 
 10분 정도 시간이 있으면 이 방향 비디오로 시작하십시오. 인터페이스를 살펴보고 역할별 주요 기능을 강조 표시합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430319?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 그런 다음 다음 다음 학습 리소스를 통해 실습 자신감을 구축합니다.
 
 * [Journey Optimizer 자습서](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/overview){target="_blank"} - 모든 역할에 대한 단계별 비디오 및 안내식 워크스루.
-* [전문가가 큐레이션한 비디오 재생 목록](https://experienceleague.adobe.com/ko/playlists?solution=Journey+Optimizer){target="_blank"} - 순서대로 시청할 짧은 비디오 세트입니다.
+* [전문가가 큐레이션한 비디오 재생 목록](https://experienceleague.adobe.com/en/playlists?solution=Journey+Optimizer){target="_blank"} - 순서대로 시청할 짧은 비디오 세트입니다.
 * [교육 샌드박스](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"} — 연습할 샘플 데이터가 있는 안전한 환경입니다.
 * [실습 과제](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"} — 학습한 내용을 안내식 연습에 적용하십시오.
 
@@ -121,7 +121,7 @@ rebuild
 
 >[!BEGINTABS]
 
->[!TAB 시작]
+>[!TAB 시작하기]
 
 * [Journey Optimizer 소개](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction){target="_blank"} - 핵심 개념 및 제품 둘러보기.
 * [Journey Optimizer 자습서 개요](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/overview){target="_blank"} - 안내식 비디오의 전체 카탈로그입니다.
@@ -139,7 +139,7 @@ rebuild
 >[!TAB 보고 및 최적화]
 
 * [실시간 보고서로 여정 모니터링 및 분석](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/report-and-monitor/monitor-and-analyze-your-journey-with-live-reports){target="_blank"} - 실시간으로 성능을 추적합니다.
-* [이메일 캠페인에 대한 콘텐츠 실험 만들기](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} - 콘텐츠를 테스트하고 최적화합니다.
+* [이메일 캠페인에 대한 콘텐츠 실험 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} - 콘텐츠를 테스트하고 최적화합니다.
 
 >[!ENDTABS]
 
@@ -156,6 +156,7 @@ rebuild
 
 ## 관련 리소스 {#related-resources}
 
+* [컨텐츠 및 여정 마이그레이션](migrate-content-and-journeys.md) - 다른 마케팅 플랫폼에서 전자 메일 컨텐츠 및 여정을 가져옵니다.
 * [목표에 적합한 Journey Optimizer 기능 찾기](ajo-use-case-guide.md) — 모든 기능에 대한 목표 우선 결정 가이드.
 * [여정 사용 사례 라이브러리](../building-journeys/jo-use-cases.md) - 실제 예제 및 구현 패턴입니다.
 * [주요 용어](terminology.md) — 각 기능의 개념을 명확히 설명하십시오.

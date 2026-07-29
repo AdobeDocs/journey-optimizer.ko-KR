@@ -6,9 +6,9 @@ user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
+source-git-commit: 8731e10c9a6278c34cd0db8ccdec112f2d5c90d8
 workflow-type: tm+mt
-source-wordcount: '3495'
+source-wordcount: '3499'
 ht-degree: 94%
 
 ---
@@ -36,6 +36,7 @@ ht-degree: 94%
 + 시작하기 {#get-started}
   + [여기서 시작](/help/rp_landing_pages/get-started-landing-page.md)
   + [온보딩 허브](using/start/onboarding-hub.md)
+  + {hide-from-toc}[컨텐츠 및 여정 마이그레이션](using/start/migrate-content-and-journeys.md)
   + 기본 사항 {#essentials}
     + [Journey Optimizer 소개](using/start/get-started.md)
     + [작동 방식 이해](using/start/understanding-ajo.md)
@@ -62,7 +63,7 @@ ht-degree: 94%
 + 여정 {#orchestrate-journeys}
   + [여정 시작](using/building-journeys/journey.md)
   + {hide-from-toc}[여정 시작 안내서](using/building-journeys/journey-get-started.md)
-  + {hide-from-toc}[여정 형식: 올바른 one-2 선택](using/building-journeys/journey-types-selection-v2.md)
+  + {hide-from-toc}[여정 형식: 올바른 one-2](using/building-journeys/journey-types-selection-v2.md) 선택
   + [Journey Orchestration FAQ](using/building-journeys/journey-faq.md)
   + 여정 만들기 {#create-journey}
     + [여정 만들기](/help/rp_landing_pages/create-journey-landing-page.md)
