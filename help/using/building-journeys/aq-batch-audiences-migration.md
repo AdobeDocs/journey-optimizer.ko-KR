@@ -9,21 +9,17 @@ role: User
 level: Intermediate
 keywords: 대상 자격, 일괄 처리 대상, 사용 중단, 마이그레이션, 대상 읽기, 스트리밍 대상
 exl-id: f3c2a7d1-b58e-4a92-c3d5-0e871f2a9b4c
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-source-git-commit: 2411f0ba2371933c3af101603c28032e9cdcc7d2
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+source-git-commit: 454e16cb6b16fc31d8cdddeb20b256d2ab08d009
 workflow-type: tm+mt
-source-wordcount: 909
+source-wordcount: 912
 ht-degree: 0%
 
 ---
 
 
-# 대상자 자격 여정에서 배치 대상자 마이그레이션 {#aq-batch-migration}
+# 대상 자격 여정 및 종료 기준에서 배치 대상 마이그레이션{#aq-batch-migration}
 
 2026년 9월부터 Journey Optimizer은 대상 자격 노드 또는 종료 기준에서 일괄 대상을 사용하는 여정에 대한 게시를 차단합니다. 아래에서 사용 사례를 식별하고 권장되는 마이그레이션 경로를 따릅니다.
 

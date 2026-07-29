@@ -11,26 +11,15 @@ keywords: 여정, 구성, 속성
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/fDzEwuisEjAKvpIs9SKoz-9IIJXJQ-md9FlCbWQOJz8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: ba62ad25-65cb-4ea9-b7aa-0fa87c4a9fa0
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 99edb847dc2282460f5cec8491e971702f6bf872
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: ba62ad25-65cb-4ea9-b7aa-0fa87c4a9fa0id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 454e16cb6b16fc31d8cdddeb20b256d2ab08d009
 workflow-type: tm+mt
-source-wordcount: 4991
+source-wordcount: 5041
 ht-degree: 10%
 
 ---
@@ -358,6 +347,10 @@ ht-degree: 10%
 >대상 병합 정책이 업데이트되면 해당 대상을 참조하는 모든 활성 여정을 다시 게시(또는 복제)해야 합니다. 병합 정책을 변경하면 진행 중인 여정이 액세스할 수 없는 &#39;새로운&#39; 대상자가 효과적으로 생성되어 데이터 일관성이 보장됩니다.
 
 ## 종료 기준 {#exit-criteria}
+
+>[!CAUTION]
+>
+>**사용 중단 알림 - 2026년 9월**: **2026년 9월**&#x200B;부터 Journey Optimizer은 **종료 기준**&#x200B;에서 일괄 대상을 사용하는 여정에 대한 게시를 차단합니다. 기존 라이브 여정은 영향을 받지 않습니다. 이 구성의 신규, 초안 및 중복 여정은 2026년 9월 이전에 업데이트해야 합니다. [여정 마이그레이션 방법 알아보기](aq-batch-audiences-migration.md)
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_exit_criterias"
