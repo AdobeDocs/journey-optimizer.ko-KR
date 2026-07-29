@@ -8,27 +8,15 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 448a58d58e85c71092304d7c390c25de3bab977f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: bc2f3d8626b207619cacba3ce336716d2e81dff0
 workflow-type: tm+mt
-source-wordcount: 2879
+source-wordcount: 2889
 ht-degree: 19%
 
 ---
@@ -208,11 +196,9 @@ Journey Optimizer에서는 이 릴리스의 새로운 기능인 충성도 문제
 
 * [!BADGE 사용 중단]{type=Negative} **대상 자격 노드 및 종료 기준에서 일괄 처리 대상이 더 이상 지원되지 않음** - 2026년 9월부터 Journey Optimizer에서 대상 자격 노드 또는 종료 기준에서 일괄 처리 대상을 사용하는 여정에 대한 게시를 차단합니다. 여정 캔버스에 유효성 검사 경고가 이미 표시되어 있습니다.  기존 라이브 여정은 영향을 받지 않습니다. 이 구성을 포함하는 신규, 초안 및 중복 여정은 2026년 9월 이전에 업데이트해야 합니다. 대상 자격 노드에서 스트리밍 대상을 사용하거나 대상 읽기 활동으로 전환합니다. 종료 기준의 경우 스트리밍 대상을 사용합니다. [여정 마이그레이션 방법 알아보기](../building-journeys/aq-batch-audiences-migration.md)
 
-+++ 곧 출시 예정
+* **여정 시뮬레이션의 외부 대상** - 이제 여정 시뮬레이션이 외부 대상을 지원합니다. CSV 또는 Federated Audience Composition 대상을 타겟팅하는 여정을 시뮬레이션할 때 UI 양식 또는 JSON 가져오기를 통해 해당 대상의 데이터 보강 속성을 직접 모의할 수 있습니다. UI는 여정 논리에 사용된 특정 데이터 보강 속성만 동적으로 표시하므로 실행 전에 의사 결정 분기 및 개인화 규칙을 정확하게 확인할 수 있습니다. [자세히 알아보기](../building-journeys/simulate-journey.md)
 
-* **여정 시뮬레이션의 외부 대상** - 이제 여정 시뮬레이션이 외부 대상을 지원합니다. CSV 또는 Federated Audience Composition 대상을 타겟팅하는 여정을 시뮬레이션할 때 UI 양식 또는 JSON 가져오기를 통해 해당 대상의 데이터 보강 속성을 직접 모의할 수 있습니다. UI는 여정 논리에 사용된 특정 데이터 보강 속성만 동적으로 표시하므로 실행 전에 의사 결정 분기 및 개인화 규칙을 정확하게 확인할 수 있습니다.
-
-+++
+  사용 가능한 날짜: 2026년 7월 29일
 
 ### 오케스트레이션된 캠페인 {#july-26-oc}
 
@@ -235,11 +221,11 @@ Journey Optimizer에서는 이 릴리스의 새로운 기능인 충성도 문제
 </tbody>
 </table>
 
-+++ 곧 출시 예정
-
 * **오케스트레이션된 캠페인 전환 보기** - 기존 **오케스트레이션된 캠페인에서 파일 보기** 옵션을 대체할 새 **오케스트레이션된 캠페인 전환 보기** 권한을 추가했습니다. 이 변경 사항을 사용하면 개인 식별 정보 규정 준수를 지원하기 위해 캠페인 전환 내에서 미리 보기 결과를 숨길 수 있습니다.
 
-+++
+  사용 가능한 날짜: 2026년 7월 29일
+
+  [자세히 알아보기](../administration/ootb-permissions.md)
 
 ### 결정 {#decisioning}
 

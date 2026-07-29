@@ -10,31 +10,15 @@ level: Intermediate
 keywords: 권한, 작성, 메시지
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
 TQID: https://experienceleague.adobe.com/iQmLU1mdA4tsWnir0WS9-BLIetY0GK7Qxl2OcNDOQj0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
 subfeature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b23e006f-0a29-4f1d-8fd0-77aa56f3d12bid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 61ffafb86c7fe9c3d9596f87fce4c7978918e7e6
 workflow-type: tm+mt
-source-wordcount: 1757
+source-wordcount: 1771
 ht-degree: 1%
 
 ---
@@ -70,7 +54,7 @@ ht-degree: 1%
 | Journey Optimizer 규칙 | **[!DNL Manage frequency rules]**: 메시지 빈도 규칙에 액세스, 만들기, 편집 또는 삭제&#x200B;</br>**[!DNL View frequency rules]**: 규칙에 대한 읽기 전용 액세스 권한. |
 | 여정 | **[!DNL Approve & publish Journeys]**: 정책이 적용될 때 여정을 승인하고 게시할 수 있는 권한. </br> **[!DNL Manage journeys]**: 여정 읽기, 만들기, 편집, 중지(실시간, 테스트 모드 및 시험 실행) 및 삭제 여정에 액세스하고 관리하려면 이 권한을 **[!DNL View journeys events, data sources and actions]**&#x200B;과(와) 결합하십시오.</br>**[!DNL Manage journeys events, data sources and actions]**: 읽기, 만들기, 편집 및 이벤트, 원본 또는 작업을 삭제합니다.</br>**[!DNL Simulate Journeys]**: 여정에서 시뮬레이션 읽기, 만들기 및 편집합니다.</br>**[!DNL Publish journeys]**: 게시, 테스트 모드 시작, 드라이 실행 시작, 일시 중지 및 다시 시작 여정.</br>**[!DNL View journeys]**: 여정에 대한 읽기 전용 액세스.</br>**[!DNL View journeys events, data sources and actions]**: 여정 이벤트, 여정 사용자 지정 작업 및 여정 데이터 원본에 대한 읽기 전용 액세스.</br>**[!DNL View journeys report]**: 여정 보고서 읽기 및 편집.</br> |
 | 메시지 | **[!DNL Manage messages]**: 메시지를 읽고 만들고 편집하고 삭제합니다. </br>**[!DNL Manage messages preview and test]**: 정책이 적용될 때 메시지를 승인하고 게시할 수 있는 권한</br>**[!DNL Publish messages]**: 메시지를 게시할 수 있는 권한&#x200B;</br>**[!DNL View messages]**: 메시지에 대한 읽기 전용 액세스 권한.</br>**[!DNL View messages report]**: 메시지 보고서를 읽고 편집합니다. |
-| 오케스트레이션된 캠페인 | **[!DNL Manage orchestrated campaigns]**: 오케스트레이션된 캠페인을 읽기, 만들기, 편집 및 삭제합니다.</br>**[!DNL Manage orchestrated campaigns admin]**: Adobe Experience Platform 프로필과 관계형 저장소 엔터티 간의 링크 및 조정을 읽기, 만들기, 편집 및 삭제합니다.</br>**[!DNL Publish orchestrated campaigns]**: 오케스트레이션된 캠페인을 게시합니다. 이 권한은 신호를 사용하여 오케스트레이션된 캠페인을 트리거하는 데에도 필요합니다. </br>**[!DNL View orchestrated campaigns admin]**: Adobe Experience Platform 프로필과 관계형 저장소 엔터티 간의 링크 및 조정을 읽고 편집합니다.</br>**[!DNL View orchestrated campaigns]**: 오케스트레이션된 캠페인을 읽고 편집합니다.</br>**[!DNL View orchestrated campaigns report]**: 오케스트레이션된 캠페인 보고서를 읽고 편집합니다. |
+| 오케스트레이션된 캠페인 | **[!DNL Manage File in Orchestrated Campaigns]**: **[!UICONTROL 파일 로드]** 활동을 만들거나 구성합니다. </br>**[!DNL Manage orchestrated campaigns]**: 오케스트레이션된 캠페인을 읽기, 만들기, 편집 및 삭제합니다.</br>**[!DNL Manage orchestrated campaigns admin]**: Adobe Experience Platform 프로필과 관계형 저장소 엔터티 간의 링크 및 조정을 읽기, 만들기, 편집 및 삭제합니다. </br>**[!DNL Publish orchestrated campaigns]**: 오케스트레이션된 캠페인을 게시합니다. 이 권한은 신호를 사용하여 오케스트레이션된 캠페인을 트리거하는 데에도 필요합니다.</br>**[!DNL View orchestrated campaigns admin]**: Adobe Experience Platform 프로필과 관계형 저장소 엔터티 간의 링크 및 조정을 읽고 편집합니다. </br>**[!DNL View orchestrated campaigns]**: 오케스트레이션된 캠페인을 읽고 편집합니다.</br>**[!DNL View orchestrated campaigns report]**: 오케스트레이션된 캠페인 보고서를 읽고 편집합니다.</br>**[!DNL View orchestrated campaign transitions]**: 오케스트레이션된 캠페인 전환의 미리 보기 결과를 읽습니다. |
 | 프로필 관리 | **[!DNL Evaluate a segment to an audience]**: 세그먼트 정의를 평가하여 대상에 대한 프로필을 생성합니다.</br>**[!DNL Export audience segments]**: 평가된 대상 세그먼트를 데이터 세트로 내보냅니다.</br>**[!DNL Import audience segments]**: 세분화 및 활성화에 사용할 외부 대상 세그먼트를 Adobe Experience Platform에 가져옵니다.</br>**[!DNL Manage merge policies]**: 병합 정책을 읽기, 만들기, 편집 및 삭제합니다.</br>**[!DNL Manage profiles]**: 고객 프로필에 사용되는 데이터 세트를 읽기, 만들기, 편집 및 삭제합니다. 사용 가능한 프로필에 대한 읽기 전용 액세스.</br>**[!DNL Manage segments]**: 대상 세그먼트 정의를 읽기, 만들기, 편집 및 삭제합니다.</br>**[!DNL View merge policies]**: 사용 가능한 병합 정책에 대한 읽기 전용 액세스.</br>**[!DNL View profiles]**: 사용 가능한 프로필에 대한 읽기 전용 액세스.</br>**[!DNL View segments]**: 사용 가능한 대상에 대한 읽기 전용 액세스. |
 | 쿼리 서비스 | **[!DNL Manage queries]**: Platform 데이터에 대한 구조화된 SQL 쿼리를 읽고, 만들고, 편집하고, 삭제합니다.</br>**[!DNL Manage query service integration]**: 쿼리 서비스 액세스에 대한 만료되지 않는 자격 증명을 만들고, 업데이트하고, 삭제합니다. |
 | 보고서 | **[!DNL View channel reports]**: 채널 보고서를 읽고 편집합니다. |
