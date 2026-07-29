@@ -7,7 +7,8 @@ feature: Monitoring
 exl-id: 3c1cad30-3ed7-4df1-a46a-60394a834e79
 version: Campaign Orchestration
 feature_v2: 
-subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+subfeature_v2:
+  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
 source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
 source-wordcount: 938
@@ -52,7 +53,7 @@ ht-degree: 0%
 
    1. 필터 규칙을 선택하고 **[!UICONTROL 보낸 메시지]**&#x200B;와 같이 타깃팅할 **[!UICONTROL 동작]**&#x200B;을(를) 선택합니다.
 
-   1. ![폴더 아이콘 ](assets/do-not-localize/folder-search.svg)을(를) 클릭하여 대상을 변경할 특정 캠페인을 선택합니다. 다음 두 가지 옵션이 있습니다.
+   1. ![폴더 아이콘 &#x200B;](assets/do-not-localize/folder-search.svg)을(를) 클릭하여 대상을 변경할 특정 캠페인을 선택합니다. 다음 두 가지 옵션이 있습니다.
 
       * **[!UICONTROL 특정 캠페인을 선택하십시오]**: 목록에서 특정 캠페인을 선택하여 해당 캠페인과 상호 작용한 수신자를 다시 타겟팅하십시오.
 
@@ -143,7 +144,7 @@ ht-degree: 0%
 
       ![](assets/retarget_13.png){zoomable="yes"}
 
-   1. ![폴더 아이콘 ](assets/do-not-localize/folder-search.svg)을(를) 클릭하여 대상을 변경할 특정 캠페인을 선택합니다. 다음 두 가지 옵션이 있습니다.
+   1. ![폴더 아이콘 &#x200B;](assets/do-not-localize/folder-search.svg)을(를) 클릭하여 대상을 변경할 특정 캠페인을 선택합니다. 다음 두 가지 옵션이 있습니다.
 
       * **[!UICONTROL 특정 캠페인을 선택하십시오]**: 목록에서 특정 캠페인을 선택하여 해당 캠페인과 상호 작용한 수신자를 다시 타겟팅하십시오.
 
