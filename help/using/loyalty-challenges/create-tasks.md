@@ -10,9 +10,9 @@ level: Intermediate
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
+source-git-commit: e62678a8b8aa22a56ef3a90c93e1290651198aa5
 workflow-type: tm+mt
-source-wordcount: 1104
+source-wordcount: 1125
 ht-degree: 9%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 9%
 작업은 고객이 충성도 도전에서 보상을 얻기 위해 완료해야 하는 특정 작업 또는 이정표를 정의합니다. 구매 및 지출 작업 또는 조직에서 이미 캡처한 Adobe Experience Platform 경험 이벤트를 추적하는 **[!UICONTROL 사용자 지정 이벤트]** 작업을 구성할 수 있습니다.
 
 각 작업은 측정 가능한 작업을 나타내며 과제 완성에 기여합니다. 작업은 재사용 가능한 구성 요소로서 독립적으로 만든 다음 하나 이상의 문제에 추가하거나 과제 내에서 직접 만들 수 있습니다.
+
+➡️ [작업을 만드는 방법 보기](#video)
 
 ## 작업 만들기 {#create-task}
 
@@ -163,4 +165,10 @@ Journey Optimizer에서 항목 및 그룹을 선택할 수 있을 뿐만 아니�
 ![](assets/tasks-create-properties.png)
 
 모든 특성과 속성을 구성한 후 **[!UICONTROL 만들기]**&#x200B;를 선택하여 작업을 저장합니다. 작업은 작업 인벤토리에 저장되며 문제 내에서 생성된 경우 해당 문제에 자동으로 추가됩니다.
+
+## 사용 방법 비디오 {#video}
+
+이 단계별 자습서를 사용하여 작업을 만들고 구성하는 방법에 대해 알아봅니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496442?quality=12)
 

@@ -9,11 +9,10 @@ role: User
 level: Intermediate
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2: []
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: ad21aab9b3f0ead95f8c70d4315bd4afdda23d58
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: e62678a8b8aa22a56ef3a90c93e1290651198aa5
 workflow-type: tm+mt
-source-wordcount: 942
+source-wordcount: 964
 ht-degree: 13%
 
 ---
@@ -59,6 +58,8 @@ ht-degree: 13%
 
 >[!TIP]
 >또한 자연어 프롬프트와 함께 [CX 동료 여정 기술](../start/ajo-coworker-skills.md#loyalty-challenge-management)의 **충성도 챌린지 관리**&#x200B;를 사용하여 충성도 챌린지를 만들고 관리할 수 있습니다.
+
+➡️ [기능 개요 보기](#video)
 
 ## 작동 방식 {#how-it-works}
 
@@ -159,7 +160,7 @@ ht-degree: 13%
     <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
     </a>
     <div>
-  -->
+-->
     <a href="loyalty-admin.md"><strong>충성도 챌린지 구성</strong></a>
     </div>
     <p>
@@ -172,4 +173,10 @@ ht-degree: 13%
 ## API 참조 {#api-reference}
 
 충성도 문제를 프로그래밍 방식으로 관리하려면 [충성도 문제 API](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}를 사용하십시오. API를 사용하면 REST 끝점을 통해 과제 및 작업을 만들고, 업데이트하고, 관리할 수 있습니다.
+
+## 사용 방법 비디오 {#video}
+
+**충성도 문제를 처음 사용하십니까?** 기능 및 이점을 이해하려면 이 개요를 참조하십시오.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496441?quality=12)
 
