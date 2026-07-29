@@ -7,18 +7,13 @@ feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 hide: true
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: af90368835866c2779e36a98f8aa8cb7a39d8ad4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: c58b70fa5f792e2fa1448034559ad7210e3e10d4
 workflow-type: tm+mt
-source-wordcount: 1630
-ht-degree: 15%
+source-wordcount: 967
+ht-degree: 21%
 
 ---
 
@@ -32,7 +27,7 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published once changes are live in production. While most changes are delivered on the release date, a few may roll out later — refer to the Availability Date listed for each entry for details.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: June 16-17, 2026
 
@@ -105,7 +100,7 @@ Journey Optimizer introduces the Onboarding Assistant, a new capability in this 
 
 이 릴리스의 여정에 다음과 같은 개선 사항이 추가되었습니다.
 
-* **여정 시뮬레이션의 외부 대상** - 이제 여정 시뮬레이션이 외부 대상을 지원합니다. CSV 또는 Federated Audience Composition 대상을 타겟팅하는 여정을 시뮬레이션할 때 UI 양식 또는 JSON 가져오기를 통해 해당 대상의 데이터 보강 속성을 직접 모의할 수 있습니다. UI는 여정 논리에 사용된 특정 데이터 보강 속성만 동적으로 표시하므로 실행 전에 의사 결정 분기 및 개인화 규칙을 정확하게 확인할 수 있습니다. <!-- Documentation link: TBD -->
+<!-- Documentation link: TBD -->
 
 ### 캠페인 {#july-26-campaigns}
 
@@ -130,35 +125,31 @@ Journey Optimizer introduces the Onboarding Assistant, a new capability in this 
 </tbody>
 </table>
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>액션 캠페인의 인바운드 경험 시뮬레이션</strong><br/></th>
+<th><strong>Inbound experience simulation in Action campaigns</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 시작하기 전에 작업 캠페인에서 인바운드 채널 작업을 시뮬레이션할 수 있습니다. 시뮬레이션 모드를 사용하여 시뮬레이트된 사용자로 구성을 테스트하고 생성된 URL 및 QR 코드를 포함한 렌더링된 경험을 미리 보면 규칙, 의사 결정 및 컨텐츠 렌더링의 엔드 투 엔드를 확인할 수 있습니다.</p>
-<p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
-<!-- GIF placeholder: to be added -->
-<!-- Documentation link: TBD -->
+<p>You can now simulate inbound channel actions in Action campaigns before going live. Use simulation mode to test your configuration with simulated users and preview the rendered experience, including a generated URL and QR code, so you can validate rules, decisioning, and content rendering end-to-end.</p>
+<p>This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
+[GIF placeholder: to be added]
+[Documentation link: TBD]
 </td>
 </tr>
 </tbody>
 </table>
 
-* **캠페인용 폴더** - 이제 캠페인을 폴더로 구성하여 인터페이스에서 탐색 및 관리를 개선할 수 있습니다. 이 기능은 작업 및 API 트리거 캠페인에만 사용할 수 있습니다. <!-- Documentation link: TBD -->
-
-* **캠페인의 기본 실행 필드 재정의** - 이전에는 여정 수준에서 사용할 수 있었지만, 이제 캠페인 매개 변수에서 이메일, SMS 및 WhatsApp 게재에 대해 전역으로 설정된 기본 실행 필드를 재정의할 수 있습니다. <!-- Documentation link: TBD -->
-
-* **캠페인 대시보드의 브랜드 일관성 점수** - 이제 캠페인 대시보드에서 직접 브랜드 일관성 점수를 평가하여 콘텐츠가 브랜드에 부합하는지 확인할 수 있습니다. 이렇게 하면 콘텐츠 디자이너를 열지 않고도 지침을 한 눈에 확인할 수 있습니다. <!-- Documentation link: TBD -->
+-->
 
 ### 오케스트레이션된 캠페인 {#july-26-oc}
 
 이 릴리스의 오케스트레이션된 캠페인에 다음과 같은 개선 사항이 추가되었습니다.
 
-* **오케스트레이션된 캠페인 전환 보기** - 기존 **오케스트레이션된 캠페인에서 파일 보기** 옵션을 대체할 새 **오케스트레이션된 캠페인 전환 보기** 권한을 추가했습니다. 이 변경 사항을 사용하면 개인 식별 정보 규정 준수를 지원하기 위해 캠페인 전환 내에서 미리 보기 결과를 숨길 수 있습니다.
 
 <!--
 * **Send messages in waves** - You can now schedule outbound messages from orchestrated campaigns to be delivered in controlled batches over time. Ideal for high-volume or time-sensitive campaigns, wave sending also supports better deliverability and helps maintain a strong sender reputation by reducing the risk of being flagged as spam.
@@ -243,15 +234,9 @@ Journey Optimizer introduces the Onboarding Assistant, a new capability in this 
 </tbody>
 </table>
 
-* **WhatsApp 채널: WhatsApp 흐름 템플릿 지원** - 이제 Adobe Journey Optimizer에서 WhatsApp 흐름 템플릿을 전송하여 설문 조사 및 잠재 고객 캡처와 같은 대화형 다중 화면 경험을 제공할 수 있습니다. 응답은 제출 시 캡처되어 새 Journey Optimizer 채널 추적 이벤트 데이터 세트에 원시 JSON 페이로드로 저장됩니다. <!-- Documentation link: TBD -->
-
 * **처리량을 위한 성능 추가 기능 - 푸시** - API 트리거 캠페인에서 새로운 처리량 트랜잭션 메시지 모드를 사용할 수 있습니다. 이 모드는 대규모 실시간 트랜잭션 메시지 전송을 위해 설계되었으며 더 높은 가용성으로 초당 최대 5,000개의 트랜잭션을 지원합니다. 이전에는 이메일 채널에서만 사용할 수 있었지만, 이제 이 기능은 Adobe 고처리량 트랜잭션 메시지 추가 기능 서비스를 구입한 조직의 푸시 채널에서도 사용할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오. <!-- Documentation link: TBD -->
 
-* **향상된 사용자 지정 공급자 통합 - Mobile** - 이제 사용자 지정 공급자 통합을 통해 주요 메시지 및 헤더 업데이트를 통해 확장된 유연성을 제공합니다.
 
-  * 헤더 사용자 정의: 이제 기본 Content-Type 헤더 값을 편집하고 최대 10개의 사용자 정의 헤더 매개 변수를 추가할 수 있습니다.
-
-  * SMS 페이로드 지원: encode64를 포함하여 SMS 페이로드 내에 Adobe Journey Optimizer 도우미 기능에 대한 지원이 추가되었습니다.
 
 ### 결정 {#july-26-decisioning}
 
@@ -268,12 +253,9 @@ Journey Optimizer introduces the Onboarding Assistant, a new capability in this 
 이 릴리스의 콘텐츠 관리에 다음과 같은 개선 사항이 추가되었습니다.
 
 * **전자 메일 서식 파일의 `<head>`에서 식 조각 지원** - 이제 전자 메일 서식 파일의 `<head>`에서 식 조각을 사용할 수 있습니다. 이를 통해 스타일링 또는 사용자 지정 코드를 단일 조각에 중앙 집중화하고 여러 템플릿에서 재사용할 수 있습니다. 조각을 업데이트하고 다시 게시하면 이를 참조하는 템플릿에서 빌드된 모든 이메일이 자동으로 최신 코드를 상속하므로 각 이메일을 개별적으로 수동으로 업데이트할 필요가 없습니다. <!-- Documentation link: TBD -->
+<!-- Documentation link: TBD -->
 
-* **&quot;AI Assistant&quot;가 &quot;콘텐츠 생성&quot;으로 이름이 변경되었습니다** - AI Assistant의 이름이 Adobe Journey Optimizer 전체에서 콘텐츠 생성으로 변경되었습니다. 이 업데이트는 이름 지정 및 용어로 제한되며 기능 변경 사항이 도입되지 않았습니다. 콘텐츠 생성, 이미지 생성, 개인화 표현식 및 콘텐츠 실험에 대한 탐색 레이블, 단추, 메뉴 및 대화 상자의 이름이 &quot;AI Assistant&quot;에서 &quot;콘텐츠 생성&quot;으로 변경되었습니다. <!-- Documentation link: TBD -->
 
-* **AI 콘텐츠 생성을 위한 유연한 이미지 소싱** - 이제 Journey Optimizer에서 콘텐츠를 생성하면 Adobe Experience Manager Assets Essentials 등에서 브랜드로 승인된 이미지를 직접 소싱합니다. 균형을 제어하는 모드는 Assets(Digital Asset Management-sourced, default), Balanced(Digital Asset Management-first, AI 채우기) 및 Creative(AI-first)입니다. 이렇게 하면 여정 및 캠페인에 대해 정확하고 브랜드 규정을 준수하며 프로덕션에 바로 사용할 수 있습니다. <!-- Documentation link: TBD -->
-
-* **다국어 개선** - 이제 언어 설정을 기존 활성 설정에서 복제할 수 있으므로 더 이상 구성을 완전히 다시 빌드하여 변경할 필요가 없습니다. 언어 설정을 작성하는 동안 한 로케일에서 다른 로케일로 조건을 복사할 수도 있으므로 여러 언어를 사용하는 사이트에 대한 설정을 간소화할 수 있습니다.
 
 <!--
 ### Integrations {#july-26-integrations}
@@ -340,5 +322,3 @@ The following improvements have been added to integrations in this release.
 이번 릴리스에는 다음과 같은 사용 편의성 개선 사항이 적용되었습니다.
 
 * **콘텐츠 템플릿의 SMS, 푸시, 인앱 및 Codebase 채널에 대한 빠른 실행 바로 가기** - 이제 콘텐츠 템플릿 목록의 **추가 작업** 단추에서 채널별 바로 가기를 추가로 사용할 수 있습니다. SMS 템플릿의 경우 메시지를 빠르게 편집하거나 문자 수/세그먼트를 확인합니다. 푸시 템플릿의 경우 제목, 본문 또는 미디어를 편집합니다. 인앱 템플릿의 경우 메시지 헤더, 메시지 본문 또는 미디어 URL을 편집합니다. 코드베이스 채널 템플릿의 경우 코드를 직접 편집합니다. 이러한 단축키는 이미 사용 가능한 이메일 채널 빠른 실행 단축키를 확장합니다. <!-- Documentation link: TBD -->
-
-* **콘텐츠 테스트를 위한 새로운 콘텐츠 시뮬레이션 경험** - **콘텐츠 시뮬레이션** 워크플로에서는 새롭게 디자인된 경험을 도입했습니다. 이제 모든 변형을 한 번에 한 가지 변형인 보기를 대체하여 스크롤 가능한 단일 그리드(나란히, 스택 또는 래핑된 레이아웃)에서 함께 렌더링합니다. 단일 하단 작업 표시줄은 테스트 변형 간 탐색, 확대/축소, 뷰포트 전환(데스크탑/모바일), 로케일 전환, 샘플 입력 추가, AI를 통한 변형 생성, 시뮬레이션된 사용자 선택 및 저장, 변형 가져오기 또는 내보내기를 통합합니다. 왼쪽 레일을 제거하고 추가 헤더 레이어를 축소하면 미리보기에 훨씬 더 많은 공간이 제공됩니다. 하단 작업 표시줄의 **클래식 경험으로 전환** 옵션을 사용하면 언제든지 이전 경험으로 되돌릴 수 있습니다. <!-- Documentation link: TBD -->

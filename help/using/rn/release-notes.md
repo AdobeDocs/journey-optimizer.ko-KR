@@ -8,28 +8,16 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 105b385ac2b1cffb6496ce2cfdd7ea22ad1ee89a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 990e2d70954c7a2b1c0cdd2a0934b6ad20924e28
 workflow-type: tm+mt
-source-wordcount: 1829
-ht-degree: 28%
+source-wordcount: 2408
+ht-degree: 22%
 
 ---
 
@@ -103,6 +91,18 @@ Journey Optimizer에서는 이 릴리스의 새로운 기능인 충성도 문제
 </tbody>
 </table>
 
++++ 곧 출시 예정
+
+* **WhatsApp 채널: WhatsApp 흐름 템플릿 지원** - 이제 Adobe Journey Optimizer에서 WhatsApp 흐름 템플릿을 전송하여 설문 조사 및 잠재 고객 캡처와 같은 대화형 다중 화면 경험을 제공할 수 있습니다. 응답은 제출 시 캡처되어 새 Journey Optimizer 채널 추적 이벤트 데이터 세트에 원시 JSON 페이로드로 저장됩니다.
+
+* **향상된 사용자 지정 공급자 통합 - Mobile** - 이제 사용자 지정 공급자 통합을 통해 주요 메시지 및 헤더 업데이트를 통해 확장된 유연성을 제공합니다.
+
+  * 헤더 사용자 정의: 이제 기본 Content-Type 헤더 값을 편집하고 최대 10개의 사용자 정의 헤더 매개 변수를 추가할 수 있습니다.
+
+  * SMS 페이로드 지원: encode64를 포함하여 SMS 페이로드 내에 Adobe Journey Optimizer 도우미 기능에 대한 지원이 추가되었습니다.
+
++++
+
 ### 여정 {#july-26-journeys}
 
 이번 릴리스에서는 다음과 같은 기능 및 개선 사항이 여정에 추가되었습니다.
@@ -126,6 +126,12 @@ Journey Optimizer에서는 이 릴리스의 새로운 기능인 충성도 문제
 </table>
 
 * [!BADGE 사용 중단]{type=Negative} **대상 자격 노드 및 종료 기준에서 일괄 처리 대상이 더 이상 지원되지 않음** - 2026년 9월부터 Journey Optimizer에서 대상 자격 노드 또는 종료 기준에서 일괄 처리 대상을 사용하는 여정에 대한 게시를 차단합니다. 여정 캔버스에 유효성 검사 경고가 이미 표시되어 있습니다.  기존 라이브 여정은 영향을 받지 않습니다. 이 구성을 포함하는 신규, 초안 및 중복 여정은 2026년 9월 이전에 업데이트해야 합니다. 대상 자격 노드에서 스트리밍 대상을 사용하거나 대상 읽기 활동으로 전환합니다. 종료 기준의 경우 스트리밍 대상을 사용합니다. [여정 마이그레이션 방법 알아보기](../building-journeys/aq-batch-audiences-migration.md)
+
++++ 곧 출시 예정
+
+* **여정 시뮬레이션의 외부 대상** - 이제 여정 시뮬레이션이 외부 대상을 지원합니다. CSV 또는 Federated Audience Composition 대상을 타겟팅하는 여정을 시뮬레이션할 때 UI 양식 또는 JSON 가져오기를 통해 해당 대상의 데이터 보강 속성을 직접 모의할 수 있습니다. UI는 여정 논리에 사용된 특정 데이터 보강 속성만 동적으로 표시하므로 실행 전에 의사 결정 분기 및 개인화 규칙을 정확하게 확인할 수 있습니다.
+
++++
 
 ### 이메일 디자이너 {#july-26-email}
 
@@ -201,6 +207,12 @@ Journey Optimizer에서는 이 릴리스의 새로운 기능인 충성도 문제
 </tbody>
 </table>
 
++++ 곧 출시 예정
+
+* **오케스트레이션된 캠페인 전환 보기** - 기존 **오케스트레이션된 캠페인에서 파일 보기** 옵션을 대체할 새 **오케스트레이션된 캠페인 전환 보기** 권한을 추가했습니다. 이 변경 사항을 사용하면 개인 식별 정보 규정 준수를 지원하기 위해 캠페인 전환 내에서 미리 보기 결과를 숨길 수 있습니다.
+
++++
+
 ### 결정 {#decisioning}
 
 * **자연어 식에서 의사 결정 규칙 만들기** - 이제 일반 언어로 만들려는 의사 결정 규칙을 설명하고 AI가 자동으로 생성하도록 할 수 있습니다. 이 기능은 Adobe AI 기능에 액세스하는 고객이 사용할 수 있습니다.
@@ -259,6 +271,16 @@ Journey Optimizer에서는 이 릴리스의 새로운 기능인 충성도 문제
 
   사용 가능한 날짜: 2026년 7월 28일
 
++++ 곧 출시 예정
+
+* **AI 콘텐츠 생성을 위한 유연한 이미지 소싱** - 이제 Journey Optimizer에서 콘텐츠를 생성하면 Adobe Experience Manager Assets Essentials 등에서 브랜드로 승인된 이미지를 직접 소싱합니다. 균형을 제어하는 모드는 Assets(Digital Asset Management-sourced, default), Balanced(Digital Asset Management-first, AI 채우기) 및 Creative(AI-first)입니다. 이렇게 하면 여정 및 캠페인에 대해 정확하고 브랜드 규정을 준수하며 프로덕션에 바로 사용할 수 있습니다.
+
+* **다국어 개선** - 이제 언어 설정을 기존 활성 설정에서 복제할 수 있으므로 더 이상 구성을 완전히 다시 빌드하여 변경할 필요가 없습니다. 언어 설정을 작성하는 동안 한 로케일에서 다른 로케일로 조건을 복사할 수도 있으므로 여러 언어를 사용하는 사이트에 대한 설정을 간소화할 수 있습니다.
+
+* **&quot;AI Assistant&quot;가 &quot;콘텐츠 생성&quot;으로 이름이 변경되었습니다** - AI Assistant의 이름이 Adobe Journey Optimizer 전체에서 콘텐츠 생성으로 변경되었습니다. 이 업데이트는 이름 지정 및 용어로 제한되며 기능 변경 사항이 도입되지 않았습니다. 콘텐츠 생성, 이미지 생성, 개인화 표현식 및 콘텐츠 실험을 위한 탐색 레이블, 버튼, 메뉴 및 대화 상자의 이름이 &quot;AI Assistant&quot;에서 &quot;콘텐츠 생성&quot;으로 변경되었습니다.
+
++++
+
 ### 콘텐츠 및 통합 {#july-26-integration}
 
 이 릴리스의 콘텐츠 관리 및 통합에 대해 다음과 같은 개선 사항이 적용되었습니다.
@@ -267,10 +289,28 @@ Journey Optimizer에서는 이 릴리스의 새로운 기능인 충성도 문제
 
   사용 가능한 날짜: 2026년 7월 9일
 
+### 보고 {#july-26-reporting}
+
+이번 릴리스에서는 다음 개선 사항이 보고되고 있습니다.
+
+* **이메일 보고를 위한 새로운 예상 클릭 메트릭** - 실제 고객 참여를 보다 정확하게 볼 수 있도록 여정, 캠페인 및 Channel Live 보고서에서 새로운 예상 메트릭을 사용할 수 있습니다.
+
+  * 예상 CTR(클릭스루 비율): 게재된 총 메시지 수에 대한 예상 클릭수로 계산됩니다.
+
+  * 예상 CTOR(클릭에서 열기 비율): 총 예상 열기 수에 대해 예상 클릭수로 계산됩니다.
+
+    사용 가능한 날짜: 2026년 7월 29일
+
 ### 관리 {#july-26-administration}
 
 이 릴리스의 관리 및 데이터 관리에 다음과 같은 개선 사항이 추가되었습니다.
 
 * **TTL(Time-to-Live) 보호 — 기존 샌드박스** - Journey Optimizer 시스템 생성 데이터 세트에 대한 TTL(Time-to-Live) 보호(프로필 스토어에서 90일, 데이터 레이크에서 13개월)가 **기존 고객 샌드박스 및 조직에 적용됩니다** **2026년 10월 1일**. [자세히 알아보기](../data/datasets-ttl.md#ttl-guardrail)
 
+### 사용성 개선 사항 {#july-26-usability}
 
++++곧 출시 예정
+
+* **콘텐츠 테스트를 위한 새로운 콘텐츠 시뮬레이션 경험** - **콘텐츠 시뮬레이션** 워크플로에서는 새롭게 디자인된 경험을 도입했습니다. 이제 모든 변형을 한 번에 한 가지 변형인 보기를 대체하여 스크롤 가능한 단일 그리드(나란히, 스택 또는 래핑된 레이아웃)에서 함께 렌더링합니다. 단일 하단 작업 표시줄은 테스트 변형 간 탐색, 확대/축소, 뷰포트 전환(데스크탑/모바일), 로케일 전환, 샘플 입력 추가, AI를 통한 변형 생성, 시뮬레이션된 사용자 선택 및 저장, 변형 가져오기 또는 내보내기를 통합합니다. 왼쪽 레일을 제거하고 추가 헤더 레이어를 축소하면 미리보기에 훨씬 더 많은 공간이 제공됩니다. 하단 작업 표시줄의 **클래식 경험으로 전환** 옵션을 사용하면 언제든지 이전 경험으로 되돌릴 수 있습니다.
+
++++
