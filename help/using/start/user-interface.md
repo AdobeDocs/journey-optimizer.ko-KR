@@ -31,10 +31,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: c440ff464b2ea58519e6f1ba900728adfa718232
+source-git-commit: 65caf63a1d7a2c6243f5f7b59237011777ae2421
 workflow-type: tm+mt
-source-wordcount: 1650
-ht-degree: 98%
+source-wordcount: 1516
+ht-degree: 99%
 
 ---
 
@@ -393,36 +393,3 @@ AI 어시스턴트는 즉각적인 도움과 운영 인사이트를 제공합니
 >abstract="**Line** 활동을 통해 오케스트레이션된 캠페인에 LINE 액션을 추가할 수 있습니다. 텍스트 및 스티커에서 이미지, 비디오, 위치 및 Flex Message에 이르는 다양하고 개인화된 콘텐츠를 제작하여 LINE에서 고객 참여를 유도합니다."
 
 
-<!-- Onboarding hub -->
-
->[!CONTEXTUALHELP]
->id="ajo_migration_connection_name"
->title="연결 이름"
->abstract="소스 시스템을 식별하는 설명적인 이름(예: &#39;Marketing-Automation-Prod&#39;). 문자로 시작해야 하며 영숫자, 밑줄 또는 하이픈만 포함할 수 있습니다(4~50자)."
-
-
->[!CONTEXTUALHELP]
->id="ajo_migration_base_api_url"
->title="기본 API URL"
->abstract="리소스 경로나 쿼리 문자열 없는 API의 루트 URL입니다(예: https://api.example.com)."
-
->[!CONTEXTUALHELP]
->id="ajo_migration_authentication_method"
->title="인증 방법 선택"
->abstract="API 키는 각 요청에 대해 단일 자격 증명을 보내는 반면, OAuth 2.0은 엔터프라이즈 및 타사 API에 더 적합한 토큰 기반 프로토콜을 사용합니다."
-
->[!CONTEXTUALHELP]
->id="ajo_migration_client_id"
->title="클라이언트 ID"
->abstract="인증 서버에 등록할 때 발급되는 애플리케이션의 공개 식별자입니다."
-
->[!CONTEXTUALHELP]
->id="ajo_migration_client_secret"
->title="클라이언트 암호"
->abstract="앱과 인증 서버에만 알려진 비밀 자격 증명입니다. 클라이언트측 코드에서는 절대 노출하지 마십시오."
-
-
->[!CONTEXTUALHELP]
->id="ajo_migration_token_url"
->title="토큰 URL"
->abstract="클라이언트 자격 증명 흐름에 대한 액세스 토큰을 발급하는 인증 서버 엔드포인트로, 일반적으로 /oauth/token 또는 /token으로 끝납니다."

@@ -13,9 +13,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: b364e9038ac9dc2de884c32bc39d4cb20e8bd90a
+source-git-commit: 61ffafb86c7fe9c3d9596f87fce4c7978918e7e6
 workflow-type: tm+mt
-source-wordcount: 1697
+source-wordcount: 1612
 ht-degree: 4%
 
 ---
@@ -41,15 +41,6 @@ ht-degree: 4%
 >
 >**파일 로드** 활동은 현재 **Healthcare Shield**&#x200B;에서 사용할 수 없습니다.
 
-## 권한 {#permissions}
-
-오케스트레이션된 캠페인에서 **[!UICONTROL 파일 로드]** 활동을 사용하려면 사용자에게 올바른 권한을 할당해야 합니다. 두 권한 모두 권한 UI의 **[!UICONTROL Adobe Experience Platform]** > **[!UICONTROL Adobe Journey Optimizer]** > **[!UICONTROL 오케스트레이션된 캠페인]**&#x200B;에서 사용할 수 있습니다.
-
-* **[!UICONTROL 오케스트레이션된 캠페인에서 파일 보기]** - 읽기 전용 액세스 권한을 부여합니다. 이 권한이 있는 사용자는 **[!UICONTROL 파일 로드]** 활동이 포함된 오케스트레이션된 캠페인의 결과를 미리 볼 수 있지만 활동을 추가하거나 파일을 업로드할 수 없습니다.
-* **[!UICONTROL 오케스트레이션된 캠페인에서 파일 관리]** — **[!UICONTROL 파일 로드]** 활동을 캠페인 캔버스에 추가하고 파일을 업로드하는 데 필요합니다. **[!UICONTROL 파일 로드]** 활동을 만들거나 구성해야 하는 사용자에게 이 권한을 할당하십시오.
-
-권한 할당에 대한 지침은 [사용자 및 역할 관리](../../administration/permissions.md)를 참조하십시오.
-
 ## 가드레일 및 제한 사항 {#limitations}
 
 파일 로드 활동에는 다음 제한 사항이 적용됩니다.
@@ -63,6 +54,10 @@ ht-degree: 4%
 ## 사전 요구 사항 {#prerequisites}
 
 **[!UICONTROL 파일 로드]** 활동을 오케스트레이션된 캠페인에 추가하고 메시지 활동에 연결하려면 먼저 관리자가 다음의 일회성 설정을 완료해야 합니다.
+
+오케스트레이션된 캠페인에서 **[!UICONTROL 파일 로드]** 활동을 사용하려면 사용자에게 **[!UICONTROL 오케스트레이션된 캠페인의 파일 관리]** 권한이 할당되어야 합니다.
+
+권한 할당에 대한 지침은 [사용자 및 역할 관리](../../administration/permissions.md)를 참조하십시오.
 
 ### 파일 유형 대상 차원 만들기 {#file-target-dimension}
 

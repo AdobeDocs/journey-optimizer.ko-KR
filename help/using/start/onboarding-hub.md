@@ -9,9 +9,9 @@ role: User
 level: Beginner
 hide: true
 keywords: 여정 최적화 도구, 온보딩, 온보딩 허브, 사용 사례, 비디오, 자습서, 시작하기, 램프 업, 첫 여정
-source-git-commit: 79337a0d2a65fa1e8aa1e5d47bcf39906d9887a7
+source-git-commit: 3aba16758fb9e0700acd8fadfaa8e25fec253e89
 workflow-type: tm+mt
-source-wordcount: '1139'
+source-wordcount: '1104'
 ht-degree: 12%
 
 ---
@@ -121,7 +121,7 @@ rebuild
 
 >[!BEGINTABS]
 
->[!TAB 시작]
+>[!TAB 시작하기]
 
 * [Journey Optimizer 소개](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction){target="_blank"} - 핵심 개념 및 제품 둘러보기.
 * [Journey Optimizer 자습서 개요](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/overview){target="_blank"} - 안내식 비디오의 전체 카탈로그입니다.
@@ -156,6 +156,7 @@ rebuild
 
 ## 관련 리소스 {#related-resources}
 
+<!--* [Migrate content and journeys](migrate-content-and-journeys.md) — Import email content and journeys from another marketing platform.-->
 * [목표에 적합한 Journey Optimizer 기능 찾기](ajo-use-case-guide.md) — 모든 기능에 대한 목표 우선 결정 가이드.
 * [여정 사용 사례 라이브러리](../building-journeys/jo-use-cases.md) - 실제 예제 및 구현 패턴입니다.
 * [주요 용어](terminology.md) — 각 기능의 개념을 명확히 설명하십시오.

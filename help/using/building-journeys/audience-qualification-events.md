@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 475dd5e591f1c0527238efcdf118eaa435d801a4
+source-git-commit: 454e16cb6b16fc31d8cdddeb20b256d2ab08d009
 workflow-type: tm+mt
 source-wordcount: 2584
 ht-degree: 9%
@@ -156,7 +156,7 @@ ht-degree: 9%
 
 >[!CAUTION]
 >
->**사용 중단 알림 - 2026년 8월**: **2026년 8월**&#x200B;부터 Journey Optimizer은 **대상 자격** 노드에서 일괄 대상을 사용하는 모든 여정에 대한 게시를 차단합니다. 기존 라이브 여정은 영향을 받지 않습니다. 이 구성의 신규, 초안 및 중복 여정은 2026년 8월 이전에 업데이트해야 합니다. [여정 마이그레이션 방법 알아보기](aq-batch-audiences-migration.md)
+>**사용 중단 알림 - 2026년 9월**: **2026년 9월**&#x200B;부터 Journey Optimizer은 **대상 자격** 노드에서 일괄 대상을 사용하는 모든 여정에 대한 게시를 차단합니다. 기존 라이브 여정은 영향을 받지 않습니다. 이 구성의 신규, 초안 및 중복 여정은 2026년 9월 이전에 업데이트해야 합니다. [여정 마이그레이션 방법 알아보기](aq-batch-audiences-migration.md)
 
 일괄 처리 대상에 대해 대상 자격을 사용할 때 일일 계산 시 가장 많이 발생합니다. 봉우리의 크기는 얼마나 많은 개인이 매일 관객을 출입하느냐에 따라 달라진다.
 

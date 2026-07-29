@@ -32,9 +32,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 0dec5d89bcb690861013208818d5011428478b12
+source-git-commit: a51b5254b62773a354b37c6da1caa5937115ecff
 workflow-type: tm+mt
-source-wordcount: 2387
+source-wordcount: 2356
 ht-degree: 2%
 
 ---
@@ -98,6 +98,7 @@ ht-degree: 2%
 ![](assets/journey-new-canvas.png)
 
 새 경험으로 전환하려면 여정 캔버스에서 **[!UICONTROL 새 경험]** 단추를 클릭하십시오. 전환되면 이 설정이 여정 수준에서 저장되므로 이후 방문 시 기본적으로 여정이 새 경험에서 열립니다. 되돌리려면 **[!UICONTROL 이전 경험]** 단추를 클릭하십시오.
+또한 마지막으로 선택한 경험(이전 또는 신규)이 이제 사용자 수준에서 기억됩니다. 앞으로는 새 여정을 만들 때마다 이 환경 설정이 자동으로 적용되므로 매번 수동으로 전환할 필요가 없습니다.
 
 ![](assets/journey-new-experience-switch.png)
 

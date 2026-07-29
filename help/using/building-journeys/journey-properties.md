@@ -28,9 +28,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 99edb847dc2282460f5cec8491e971702f6bf872
+source-git-commit: 454e16cb6b16fc31d8cdddeb20b256d2ab08d009
 workflow-type: tm+mt
-source-wordcount: 4991
+source-wordcount: 5041
 ht-degree: 10%
 
 ---
@@ -358,6 +358,10 @@ ht-degree: 10%
 >대상 병합 정책이 업데이트되면 해당 대상을 참조하는 모든 활성 여정을 다시 게시(또는 복제)해야 합니다. 병합 정책을 변경하면 진행 중인 여정이 액세스할 수 없는 &#39;새로운&#39; 대상자가 효과적으로 생성되어 데이터 일관성이 보장됩니다.
 
 ## 종료 기준 {#exit-criteria}
+
+>[!CAUTION]
+>
+>**사용 중단 알림 - 2026년 9월**: **2026년 9월**&#x200B;부터 Journey Optimizer은 **종료 기준**&#x200B;에서 일괄 대상을 사용하는 여정에 대한 게시를 차단합니다. 기존 라이브 여정은 영향을 받지 않습니다. 이 구성의 신규, 초안 및 중복 여정은 2026년 9월 이전에 업데이트해야 합니다. [여정 마이그레이션 방법 알아보기](aq-batch-audiences-migration.md)
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_exit_criterias"

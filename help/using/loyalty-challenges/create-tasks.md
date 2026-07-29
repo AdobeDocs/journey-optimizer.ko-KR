@@ -10,9 +10,9 @@ level: Intermediate
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
+source-git-commit: 82fd2e225b54a2c47081303b230ab66fc2149022
 workflow-type: tm+mt
-source-wordcount: 1104
+source-wordcount: 1125
 ht-degree: 9%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 9%
 작업은 고객이 충성도 도전에서 보상을 얻기 위해 완료해야 하는 특정 작업 또는 이정표를 정의합니다. 구매 및 지출 작업 또는 조직에서 이미 캡처한 Adobe Experience Platform 경험 이벤트를 추적하는 **[!UICONTROL 사용자 지정 이벤트]** 작업을 구성할 수 있습니다.
 
 각 작업은 측정 가능한 작업을 나타내며 과제 완성에 기여합니다. 작업은 재사용 가능한 구성 요소로서 독립적으로 만든 다음 하나 이상의 문제에 추가하거나 과제 내에서 직접 만들 수 있습니다.
+
+➡️ [작업을 만드는 방법 보기](#video)
 
 ## 작업 만들기 {#create-task}
 
@@ -54,7 +56,7 @@ ht-degree: 9%
 
 * **[!UICONTROL 구매]**: 이 작업을 완료하려면 고객이 하나 이상의 항목을 구입해야 합니다.
 * **[!UICONTROL 지출]**: 이 작업을 완료하려면 고객이 지정된 금액을 사용해야 합니다.
-* **[!UICONTROL 사용자 지정 이벤트]**: 고객은 Adobe Experience Platform 경험 이벤트가 나타내는 활동을 수행해야 합니다. 예를 들어 호텔 체크인, 모바일 앱 작업 또는 검토 제출이 있습니다. 기본 이벤트는 이미 Experience Platform에서 캡처되고 **[!UICONTROL 충성도 관리자]** 메뉴의 이벤트 정의를 통해 매핑되어야 합니다. [이벤트 정의를 구성하는 방법을 알아봅니다](loyalty-admin.md#event-definitions)
+* **[!UICONTROL 사용자 지정 이벤트]**: 고객은 Adobe Experience Platform 경험 이벤트가 나타내는 활동을 수행해야 합니다. 예를 들어 호텔 체크인, 모바일 앱 작업 또는 검토 제출이 있습니다. 기본 이벤트는 이미 Experience Platform에서 캡처되고 **[!UICONTROL 충성도 구성]** 메뉴의 이벤트 정의를 통해 매핑되어야 합니다. [이벤트 정의를 구성하는 방법을 알아봅니다](loyalty-admin.md#event-definitions)
 
 활동을 선택하려면 **+** 아이콘을 클릭하고 결과 목표에 가장 적합한 고객 활동을 선택하십시오. 각 활동 유형에는 작업 요구 사항을 추가로 정의하고 형성하기 위해 구성 가능한 특정 속성이 있습니다.
 ![](assets/task-create-activity.png)
@@ -90,7 +92,7 @@ ht-degree: 9%
 
 **[!UICONTROL 사용자 지정 이벤트]** 활동에 사용 가능한 특성:
 
-* **[!UICONTROL 사용자 지정 이벤트 값]**: 고객이 완료해야 하는 사용자 지정 이벤트의 값을 입력하십시오. 각 값을 구분하려면 쉼표를 사용하십시오. 이 값은 **[!UICONTROL 충성도 관리자]** 메뉴에 구성된 이벤트 정의와 일치해야 합니다. [이벤트 정의를 구성하는 방법을 알아봅니다](loyalty-admin.md#event-definitions)
+* **[!UICONTROL 사용자 지정 이벤트 값]**: 고객이 완료해야 하는 사용자 지정 이벤트의 값을 입력하십시오. 각 값을 구분하려면 쉼표를 사용하십시오. 이 값은 **[!UICONTROL 충성도 구성]** 메뉴에 구성된 이벤트 정의와 일치해야 합니다. [이벤트 정의를 구성하는 방법을 알아봅니다](loyalty-admin.md#event-definitions)
 
 ![](assets/task-create-custom.png)
 
@@ -107,7 +109,7 @@ ht-degree: 9%
 
 **구매** 및 **지출** 활동의 경우 **[!UICONTROL 적격 항목 및 제외]** 섹션을 사용하여 적격 항목 및 그룹과 제외된 그룹을 정의할 수 있습니다. 이를 통해 챌린지 목표에 부합하는 구체적인 제품, 카테고리 또는 위치를 타깃팅할 수 있습니다.
 
-선택기에서 사용할 수 있는 항목 및 그룹은 관리자 사용자가 **[!UICONTROL 충성도 관리자]** 메뉴에서 정의합니다. 관리자는 적격 항목에 사용된 제품 인벤토리를 업로드하고 마케터가 작업을 작성할 때 자동으로 적용되는 조직 전체의 제외를 구성합니다. [제품 인벤토리를 구성하는 방법을 알아봅니다](loyalty-admin.md#product-inventory) 및 [제외](loyalty-admin.md#exclusions)
+선택기에서 사용할 수 있는 항목 및 그룹은 관리자 사용자가 **[!UICONTROL 충성도 구성]** 메뉴에서 정의합니다. 관리자는 적격 항목에 사용된 제품 인벤토리를 업로드하고 마케터가 작업을 작성할 때 자동으로 적용되는 조직 전체의 제외를 구성합니다. [제품 인벤토리를 구성하는 방법을 알아봅니다](loyalty-admin.md#product-inventory) 및 [제외](loyalty-admin.md#exclusions)
 
 **[!UICONTROL 사용자 지정 이벤트]** 작업은 적격 항목 및 제외를 사용하지 않습니다. 완료는 사용자가 구성한 **[!UICONTROL 사용자 지정 이벤트 값]**&#x200B;에 의해 결정됩니다.
 
@@ -163,4 +165,10 @@ Journey Optimizer에서 항목 및 그룹을 선택할 수 있을 뿐만 아니�
 ![](assets/tasks-create-properties.png)
 
 모든 특성과 속성을 구성한 후 **[!UICONTROL 만들기]**&#x200B;를 선택하여 작업을 저장합니다. 작업은 작업 인벤토리에 저장되며 문제 내에서 생성된 경우 해당 문제에 자동으로 추가됩니다.
+
+## 사용 방법 비디오 {#video}
+
+이 단계별 자습서를 사용하여 작업을 만들고 구성하는 방법에 대해 알아봅니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496447?captions=kor&quality=12)
 

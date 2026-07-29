@@ -7,10 +7,10 @@ feature: Overview
 topic: Artificial Intelligence
 role: User
 level: Beginner
-source-git-commit: c5460f65413375aac7b76a0651c7ed94b0de6a9d
+source-git-commit: cff8240e727ea97c78087455fbf02367c80827ce
 workflow-type: tm+mt
-source-wordcount: '2902'
-ht-degree: 9%
+source-wordcount: '2860'
+ht-degree: 8%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 9%
 
 ## 개요 {#overview}
 
-CX Coworker 는 Adobe Journey Optimizer에 AI 기반 기능을 제공합니다. [CX 동료](https://experienceleague.adobe.com/ko/docs/cx-enterprise-coworker/content/home){target="_blank"}은(는) 비즈니스 애플리케이션과 통합하여 보다 효율적으로 작업할 수 있도록 도와주는 Adobe의 대화형 AI 도우미입니다.
+CX Coworker 는 Adobe Journey Optimizer에 AI 기반 기능을 제공합니다. [CX Coworker](https://experienceleague.adobe.com/ko/docs/cx-enterprise-coworker/content/home){target="_blank"}은(는) 비즈니스 애플리케이션과 통합하여 보다 효율적으로 작업할 수 있는 Adobe의 대화 환경입니다.
 
 AI 기반의 기술을 갖춘 CX Coworker를 사용하면 Journey Optimizer 사용자가 자연어 인터페이스를 사용하여 마케팅 여정을 생성, 분석 및 최적화할 수 있습니다. 여정 기술을 통해 실무자는 신속하게 여정을 구축하고, 일정 또는 대상 충돌을 감지 및 해결하고, 성과 및 중단점을 분석하고, 향후 캠페인을 위해 복제할 최고 성과의 여정을 식별할 수 있습니다. 이를 통해 실무자는 데이터 중심의 의사 결정을 내리고, 고객 참여를 개선하며, 여정 오케스트레이션을 간소화할 수 있습니다.
 
@@ -57,15 +57,15 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
 
 >[!AVAILABILITY]
 >
->여정 만들기 는 Agent Orchestrator 탐색기 프로그램의 일부인 고객이 사용할 수 있습니다. 여정 만들기 기능을 완전히 사용하려면 다음 권한도 필요합니다.
+>여정 만들기 기능을 완전히 사용하려면 다음 권한이 필요합니다.
 >
->**여정 관리**: 이 권한을 사용하면 AI Assistant에서 직접 새 여정을 만들 수 있습니다.
+>**여정 관리**: 이 권한을 사용하면 CX Coworker에서 직접 새 여정을 만들 수 있습니다.
 >
->**여정 이벤트, 데이터 소스 및 작업 보기**: 이 권한을 사용하면 AI 도우미가 여정 이벤트 및 사용자 지정 작업을 검색할 수 있습니다.
+>**여정 이벤트, 데이터 소스 및 작업 보기**: 이 권한을 사용하면 CX 동료가 여정 이벤트 및 사용자 지정 작업을 검색할 수 있습니다.
 >
->**여정 보기**: 이 권한을 사용하면 AI Assistant에서 세그먼트를 만들 때 대상 세그먼트를 검색할 수 있습니다.
+>**세그먼트 보기**: 이 권한은 CX Coworker가 여정을 만들 때 대상 세그먼트를 검색할 수 있도록 합니다.
 >
->**세그먼트 관리**: 이 권한을 사용하면 AI Assistant에서 직접 새 대상을 만들 수 있습니다.
+>**세그먼트 관리**: 이 권한을 사용하면 CX Coworker에서 직접 새 대상을 만들 수 있습니다.
 
 ### 주요 사용 사례
 
@@ -294,19 +294,17 @@ Loyalty Challenge Management를 사용하면 Journey Optimizer 사용자가 자�
 
 여정 기술을 통해 Journey Optimizer 사용자는 자연어 인터페이스를 사용하여 여정을 분석하고 최적화할 수 있습니다. 실무자는 여정 기술을 통해 스케줄 및/또는 대상 충돌을 신속하게 식별 및 해결하고, 여정에서 사용자 포기 지점을 감지하고 통찰력 또는 권장 사항을 제공할 수 있습니다. 이를 통해 실무자는 데이터 중심의 의사 결정을 내리고, 고객 참여를 개선하며, 여정 오케스트레이션을 간소화할 수 있습니다.
 
-자세한 내용을 살펴보고 이 [개요](https://experienceleague.adobe.com/ko/slides/journey-agent-overview)에서 에이전트를 한눈에 살펴보십시오.
-
 >[!AVAILABILITY]
 >
->여정 스킬은 AI Assistant에 액세스할 수 있는 모든 고객이 사용할 수 있습니다. 하지만 여정 스킬 기능을 완전히 사용하려면 다음 권한이 필요합니다.
+>여정 기술은 CX Coworker를 액세스할 수 있는 모든 고객이 사용할 수 있습니다. 하지만 여정 스킬 기능을 완전히 사용하려면 다음 권한이 필요합니다.
 >
->**여정 보기**: 이 권한을 사용하면 AI Assistant에서 직접 여정에 대한 인사이트를 볼 수 있습니다.
+>**여정 보기**: 이 권한을 사용하면 CX Coworker에서 직접 여정에 대한 인사이트를 볼 수 있습니다.
 >
->**여정 관리**: 권한을 부여하면 AI Assistant에서 직접 새 여정을 만들 수 있습니다.
+>**여정 관리**: 이 권한을 사용하면 CX Coworker에서 직접 새 여정을 만들 수 있습니다.
 >
->**세그먼트 보기**: 이 권한을 사용하면 AI Assistant에서 직접 대상자에 대한 인사이트를 볼 수 있습니다.
+>**세그먼트 보기**: 이 권한을 사용하면 CX Coworker에서 직접 대상자에 대한 통찰력을 볼 수 있습니다.
 >
->**세그먼트 관리**: 이 권한을 사용하면 AI Assistant에서 직접 새 대상을 만들 수 있습니다.
+>**세그먼트 관리**: 이 권한을 사용하면 CX Coworker에서 직접 새 대상을 만들 수 있습니다.
 
 ### 주요 사용 사례
 
@@ -364,8 +362,8 @@ Loyalty Challenge Management를 사용하면 Journey Optimizer 사용자가 자�
 여정 분석에서는 다음 기능이 지원됩니다.
 
 * **반응형 쿼리**: 사용자가 여정 성과, 대상자 사용, 일정 충돌에 대해 구체적인 질문을 할 수 있습니다.
-* **다른 에이전트와의 통합**: Audience 에이전트 및 Data Insights 에이전트와 협력하여 심층 분석을 수행합니다.
-* **에이전트 응답 구조**: 추론(논리 설명), 분석 요약(주요 사항 강조 표시), 문제 세부 정보(문제 설명) 및 권장 사항(다음 단계 제안).
+* **다른 스킬과 통합**: 심층 분석을 위해 Audience 및 Data Insights 기능과 공동 작업합니다.
+* **응답 구조**: 추론(논리 설명), 분석 요약(주요 사항 강조 표시), 문제 세부 정보(문제 설명) 및 권장 사항(다음 단계 제안).
 
 ### 범위 외 기술
 
@@ -383,7 +381,7 @@ Loyalty Challenge Management를 사용하면 Journey Optimizer 사용자가 자�
 여정 분석의 효과를 극대화하려면 다음 모범 사례를 따르십시오.
 
 1. **구체적으로 말하기**: 명확하고 간결한 프롬프트를 사용하여 타기팅된 인사이트를 얻습니다. 예를 들어 &quot;내 여정은 무엇입니까?&quot;를 묻는 대신 &quot;지난 달에 만든 모든 여정 나열&quot;을 지정합니다.
-1. **인사이트 통합**: Audience 에이전트와 Data Insights 에이전트의 인사이트를 통합하여 여정 성과를 전체적으로 파악합니다.
+1. **인사이트 결합**: Audience 및 Data Insights 기능의 인사이트를 통합하여 여정 성능을 전체적으로 볼 수 있습니다.
 1. **반복적인 개선**: 폴아웃 및 중복 분석을 사용하여 여정 설계와 일정을 반복적으로 개선합니다.
 
 ### 모범 사례 설정

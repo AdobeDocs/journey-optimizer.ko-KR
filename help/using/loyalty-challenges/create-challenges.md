@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
+source-git-commit: 82fd2e225b54a2c47081303b230ab66fc2149022
 workflow-type: tm+mt
-source-wordcount: '2584'
+source-wordcount: '2521'
 ht-degree: 12%
 
 ---
@@ -30,15 +30,7 @@ ht-degree: 12%
 1. **[문제를 게시](#launch)** — 여정 생성에 문제를 사용할 수 있도록 합니다.
 1. **[여정 생성 및 게시](#launch)** - 고객에게 과제를 제공하는 자동 생성된 여정을 트리거합니다.
 
-문제 만들기에는 다음 단계가 포함됩니다.
-
-1. **[챌린지 만들기](#create-the-challenge)** — 챌린지 유형을 선택하고 챌린지 편집기를 엽니다.
-1. **[설정 구성](#settings)** — 과제 이름, 대상, 일정, 옵트인 규칙 및 반복 제한을 정의합니다.
-1. **[구조 구성](#structure)** - 작업 및 보상을 추가합니다(고유한 데이터 가져오기 문제에 해당되지 않음).
-1. **[콘텐츠 구성](#configure-content-cards)** *(선택 사항)* — 콘텐츠 카드 또는 코드 기반 경험을 사용하는 구성원에게 문제가 표시되는 방식을 정의합니다.
-1. **[메시지 구성](#configure-messaging)** *(선택 사항)* - 시작, 진행 중 및 종료 단계에 대한 채널 메시지를 설정합니다.
-1. **[문제를 게시](#launch)** — 여정 생성에 문제를 사용할 수 있도록 합니다.
-1. **[여정 생성 및 게시](#launch)** - 고객에게 과제를 제공하는 자동 생성된 여정을 트리거합니다.
+➡️ [문제를 만드는 방법 보기](#video)
 
 ## 과제 만들기 {#create-the-challenge}
 
@@ -232,7 +224,7 @@ ht-degree: 12%
    * **[!UICONTROL 과제 진행에 따라 과제 완료 시점에 따라 보상 제공]**: 고객이 개별 과제를 완료하면 점진적으로 보상 제공(두 개 이상의 과제를 요구하는 과제에만 제공)\
      *예: 작업 1 다음에 10포인트, 작업 2 다음에 20포인트, 작업 3 다음에 50포인트를 부여합니다*
 
-1. 보상 제공자를 선택합니다. 고객 포인트와 보상을 관리하는 충성도 솔루션입니다. 보상 공급자는 **[!UICONTROL 충성도 관리자]** 메뉴에서 만든 후에 문제를 작성합니다. [보상 공급자를 구성하는 방법을 알아보세요](loyalty-admin.md#reward-providers)
+1. 보상 제공자를 선택합니다. 고객 포인트와 보상을 관리하는 충성도 솔루션입니다. 보상 공급자는 도전을 작성하기 전에 **[!UICONTROL 충성도 구성]** 메뉴에서 만들어집니다. [보상 공급자를 구성하는 방법을 알아보세요](loyalty-admin.md#reward-providers)
 
    ![](assets/challenge-create-reward-type.png)
 
@@ -363,4 +355,16 @@ ht-degree: 12%
    ![](assets/challenge-create-journey.png)
 
 1. 문제가 실행되면 [충성도 문제 보고서](loyalty-reporting.md)에서 프로그램 KPI, 문제 결과 및 작업 수준 지표를 모니터링합니다. [여정 보고서](../reports/journey-global-report-cja.md)에서 메시지 배달을 모니터링할 수도 있습니다.
+
+## 방법 비디오 {#video}
+
+다음 단계별 비디오 튜토리얼을 통해 충성도 문제를 만들고 구성하는 방법에 대해 알아보십시오.
+
+**충성도 과제 설정** - 새 충성도 과제를 만들고 구성합니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496471?quality=12)
+
+**보상 구성** - 보상 전달 및 이행 설정
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496481?quality=12)
 

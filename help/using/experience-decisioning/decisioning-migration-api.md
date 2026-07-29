@@ -11,9 +11,9 @@ feature_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+source-git-commit: 638cf77ebad021b62e0fd6d5873e67a098fef7b7
 workflow-type: tm+mt
-source-wordcount: 1213
+source-wordcount: 1246
 ht-degree: 4%
 
 ---
@@ -74,6 +74,10 @@ Decisioning 마이그레이션 서비스 API는 다음 기능을 제공합니다
 * **데이터스트림** - 마이그레이션에서 데이터스트림(`createDataStream`)을 만들지 여부를 결정합니다.
 
 샌드박스 관리에 대한 자세한 내용은 [샌드박스 사용 및 할당](../administration/sandboxes.md)을 참조하세요.
+
+>[!NOTE]
+>
+>대상 샌드박스는 소스 샌드박스와 동일할 수 있습니다. 마이그레이션 프로세스는 이 시나리오를 처리하고 개체가 동일한 샌드박스 내에서 마이그레이션되는지 아니면 다른 샌드박스로 마이그레이션되는지에 관계없이 데이터 무결성을 보장합니다.
 
 ## API 기본 사항 {#api-basics}
 

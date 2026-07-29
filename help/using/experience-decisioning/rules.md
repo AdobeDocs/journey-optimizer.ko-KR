@@ -21,10 +21,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+source-git-commit: af90368835866c2779e36a98f8aa8cb7a39d8ad4
 workflow-type: tm+mt
-source-wordcount: 1136
-ht-degree: 13%
+source-wordcount: 1619
+ht-degree: 9%
 
 ---
 
@@ -105,14 +105,23 @@ ht-degree: 13%
 
 1. **[!UICONTROL Decisioning]** > **[!UICONTROL 전략 설정]** > **[!UICONTROL 규칙]**(으)로 이동한 다음 **[!UICONTROL 규칙 만들기]** 단추를 클릭합니다.
 
-1. 규칙 엔티티를 선택하여 규칙을 작성할 객체 유형을 지정합니다.
+1. **[!UICONTROL 규칙 만들기]** 대화 상자에서 다음 탭 중 하나를 선택합니다.
+
+   * 규칙 만들기 흐름을 계속하려면 **[!UICONTROL 처음부터 만들기]**&#x200B;를 하세요.
+   * AI 지원 작성을 사용하려면 **[!UICONTROL AI로 만들기]**&#x200B;하십시오. 생성할 규칙을 설명한 다음 확인합니다. 규칙 빌더로 리디렉션되고 AI 어시스턴트가 오른쪽 창에서 규칙 제안을 생성합니다. AI를 사용하여 규칙을 생성하는 방법에 대한 자세한 내용은 [AI로 규칙 만들기](#build-rule-with-ai) 섹션을 참조하십시오.
+
+     >[!NOTE]
+     >
+     >이 기능은 Adobe AI 기능에 액세스하는 조직에서 사용할 수 있습니다.
+
+1. **[!UICONTROL 처음부터 만들기]**&#x200B;를 선택한 경우 규칙 엔터티를 선택하여 규칙을 만들 개체 유형을 지정합니다.
 
    ![](assets/rules-select-entity.png){width=90%}
 
    * **[!UICONTROL 결정 항목]** - 이 규칙은 의사 결정 컨텍스트의 [결정 항목](#decision-rules)에 적용할 수 있습니다.
    * **[!UICONTROL 타깃팅]** - [여정 활동 최적화](../building-journeys/path-targeting.md)에서 캠페인 또는 여정의 [콘텐츠 최적화](../building-journeys/path-targeting.md)의 일부로 [타깃팅](#targeting-rules) 규칙을 작성할 때 규칙을 사용할 수 있습니다.
 
-1. **[!UICONTROL 의사 결정 항목]** 규칙을 만드는 경우 **[!UICONTROL 데이터 집합 조회 사용]**&#x200B;을 선택하여 Adobe Experience Platform의 데이터를 사용하여 외부 데이터로 의사 결정 논리를 보강할 수 있습니다. 이 기능은 제품 가용성 또는 실시간 가격과 같이 자주 변경되는 속성에 특히 유용합니다. [의사 결정을 위해 Adobe Experience Platform 데이터를 사용하는 방법 알아보기](../experience-decisioning/aep-data-exd.md)
+   **[!UICONTROL 의사 결정 항목]** 규칙을 만드는 경우 **[!UICONTROL 데이터 집합 조회 사용]**&#x200B;을 선택하여 Adobe Experience Platform의 데이터를 사용하여 외부 데이터로 의사 결정 논리를 보강할 수 있습니다. 이 기능은 제품 가용성 또는 실시간 가격과 같이 자주 변경되는 속성에 특히 유용합니다. [의사 결정을 위해 Adobe Experience Platform 데이터를 사용하는 방법 알아보기](../experience-decisioning/aep-data-exd.md)
 
 1. 규칙 만들기 화면이 열립니다. 규칙에 이름을 지정하고 설명을 제공합니다.
 
@@ -148,6 +157,68 @@ ht-degree: 13%
 >규칙 문자열의 크기는 UTF-8 인코딩 문자의 경우 최대 15KB까지 가능합니다. 이는 15,000개의 ASCII 문자(각각 1바이트) 또는 3,750-7,500개의 비 ASCII 문자(각각 2-4바이트)에 해당합니다.
 >
 >[자격 규칙 보호 및 제한에 대해 자세히 알아보기](decisioning-guardrails.md#eligibility-rules)
+
+## AI로 규칙 구축 {#build-rule-with-ai}
+
+>[!NOTE]
+>
+>이 기능은 Adobe AI 기능에 액세스하는 조직에서 사용할 수 있습니다. 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
+>
+>이때 AI 지원 규칙 생성은 여정 컨텍스트 데이터 기반의 표현 생성을 지원하지 않는다.
+
+다음 두 위치에서 AI 지원 규칙 작성을 시작할 수 있습니다.
+
+* **[!UICONTROL AI로 만들기]** 탭의 규칙 만들기 대화 상자에서 다음을 수행합니다.
+
+  ![](assets/rule-ai-create.png){width=85%}
+
+* 규칙 빌더에서 **[!UICONTROL AI Assistant]** 단추를 사용합니다.
+
+  ![](assets/rule-ai-generate.png){width=85%}
+
+AI 지원 창에서 빌드할 규칙을 일반 언어로 설명합니다. AI Assistant는 빌더에 적용하거나 삭제할 수 있는 규칙 제안을 생성합니다.
+
+![](assets/rule-ai-generate-prompt.png)
+
+>[!CAUTION]
+>
+>**[!UICONTROL 빌더에 적용]**&#x200B;을 클릭하면 AI가 생성한 규칙이 빌더 캔버스에 현재 내장된 기존 규칙 로직을 대체합니다.
+
+## 규칙 시뮬레이션 {#simulate-rules}
+
+의사 결정 전략 또는 캠페인에서 규칙을 사용하기 전에 샘플 또는 생성된 데이터로 테스트하여 규칙 논리의 유효성을 검사하고 규칙 로직이 예상대로 작동하는지 확인할 수 있습니다.
+
+1. 기존 규칙을 열거나 [새 규칙을 만들기](#create)한 다음 **[!UICONTROL 규칙 시뮬레이션]** 단추를 클릭합니다.
+
+   ![](assets/rule-simulate-button.png)
+
+
+1. 시뮬레이션 화면이 몇 개의 섹션으로 열립니다.
+
+   ![](assets/rule-simulate-new.png)
+
+   * **테스트 변형**: 수동 테스트 변형을 생성하거나 만드는 위치
+   * **규칙 식**: 참조에 대한 규칙 정의를 표시합니다.
+   * **시뮬레이션 결과**: 프로필이 이 규칙에 적합한지 여부를 표시합니다.
+
+1. 아래 두 가지 방법 중 하나를 사용하여 규칙에 필요한 속성이 있는 테스트 변형을 추가합니다.
+   * 수동 샘플을 만들려면 **[!UICONTROL 샘플 만들기]** 단추를 선택하세요.
+   * AI를 사용하여 테스트 변형을 생성하려면 **[!UICONTROL 생성]** 단추를 클릭하십시오.
+
+>[!NOTE]
+>
+>AI 기반 테스트 변형 생성은 Adobe AI 기능에 액세스할 수 있는 조직에서 사용할 수 있습니다.
+
+테스트 변형 섹션은 자동으로 생성 또는 생성된 샘플로 채워집니다. 각 변형에는 규칙에 사용된 속성이 포함됩니다. 필드 값을 직접 편집하여 다른 시나리오를 시뮬레이션할 수 있습니다.
+
+규칙 평가 결과를 보려면 목록에서 테스트 변형을 선택합니다. 시뮬레이션 결과 영역에는 프로필이 이 규칙에 적합한지 여부가 표시됩니다.
+
+아래 예에서 첫 번째 테스트 변형은 **[!UICONTROL 합격]** 시뮬레이션 결과를, 두 번째 테스트 변형은 **[!UICONTROL 실패]** 결과를 보여 줍니다.
+
+| 예제 전달 | 실패한 예 |
+| --- | --- |
+| ![](assets/rule-simulate-pass.png) | ![](assets/rule-simulate-fail.png) |
+| 변형 데이터가 모든 규칙 조건을 만족하므로 프로필이 규칙에 적합합니다. | 하나 이상의 조건이 충족되지 않으므로 프로필이 규칙에 적합하지 않습니다. |
 
 ## AI 기반 규칙 최적화 {#optimize}
 

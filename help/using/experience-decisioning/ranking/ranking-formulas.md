@@ -22,10 +22,10 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+source-git-commit: af90368835866c2779e36a98f8aa8cb7a39d8ad4
 workflow-type: tm+mt
-source-wordcount: 1775
-ht-degree: 5%
+source-wordcount: 2024
+ht-degree: 4%
 
 ---
 
@@ -94,7 +94,9 @@ ht-degree: 5%
 
 ![](../assets/ranking-formula-dataset.png)
 
-## 공식 빌더를 사용하여 기준 정의 {#ranking-select-criteria}
+## 기준 정의
+
+### 공식 빌더를 사용하여 기준 정의 {#ranking-select-criteria}
 
 일치하는 결정 항목의 순위 점수를 결정할 **기준**&#x200B;을(를) 정의합니다.
 
@@ -157,7 +159,7 @@ ht-degree: 5%
 
 이제 목록에서 순위 공식에 액세스하여 세부 정보를 보고 편집하거나 삭제할 수 있습니다. 적격한 결정 항목의 등급을 매기기 위해 [선택 전략](../selection-strategies.md)에서 사용할 준비가 되었습니다.
 
-## 코드 편집기를 사용하여 기준 정의 {#ranking-code-editor}
+### 코드 편집기를 사용하여 기준 정의 {#ranking-code-editor}
 
 순위 논리를 **PQL** 식으로 작성하거나 편집하려면 **[!UICONTROL 코드 편집기로 전환]**&#x200B;을 사용하십시오.
 
@@ -290,6 +292,42 @@ if( offer._luma.offerDetails.zipCode = _luma.zipCode,luma.annualIncome / 1000 + 
 ```
 
 +++
+
+## 등급 수식 시뮬레이션 {#simulate-ranking-formula}
+
+선택 전략에 순위 공식을 적용하기 전에 샘플 또는 생성된 데이터로 순위 공식을 테스트하여 순위 결과를 확인하고 예상되는 비헤이비어를 전달하는지 확인할 수 있습니다.
+
+1. 기존 수식을 열거나 [새 수식을 만들기](#create-ranking-formula)한 다음 **[!UICONTROL 수식 시뮬레이션]** 단추를 클릭합니다.
+
+   ![](../assets/ranking-formula-simulate-button.png)
+
+1. 시뮬레이션 화면이 몇 개의 섹션으로 열립니다.
+
+   ![](../assets/ranking-formula-simulate-new.png)
+
+   * **테스트 변형**: 수동 테스트 변형을 생성하거나 만드는 위치
+   * **순위 식**: 참조용 수식 식을 표시합니다.
+   * **시뮬레이션 결과**: 변형을 선택할 때 등급 오퍼를 표시합니다.
+
+1. 아래 두 가지 방법 중 하나를 사용하여 테스트 변형을 추가합니다.
+
+   * 수동 샘플을 만들려면 **[!UICONTROL 샘플 만들기]** 단추를 선택한 다음 테스트에 사용할 오퍼 항목을 선택하십시오.
+   * AI를 사용하여 테스트 변형을 생성하려면 **[!UICONTROL 생성]** 단추를 클릭하십시오.
+
+   >[!NOTE]
+   >
+   >AI 기반 테스트 변형 생성은 Adobe AI 기능에 액세스할 수 있는 조직에서 사용할 수 있습니다.
+
+변형 테스트 섹션은 선택한 항목 또는 생성된 샘플로 자동으로 채워집니다. 각 변형에는 표현식에 사용된 속성이 포함됩니다. 필드 값을 직접 편집하여 다른 시나리오를 시뮬레이션할 수 있습니다.
+
+시뮬레이션의 순위 결과를 보려면 목록에서 테스트 변형을 선택합니다. 시뮬레이션 결과 영역에는 등급이 매겨진 오퍼와 해당 점수가 표시되며, 사용자의 공식이 변형 데이터를 기반으로 항목의 등급을 매기는 방식을 보여 줍니다.
+
+선택한 각 변형에 대해 시뮬레이션은 정렬된 결과를 반환합니다.
+
+* 최상위 등급 오퍼는 해당 변형에 대해 가장 높은 계산된 점수가 있는 오퍼입니다.
+* 순위가 낮은 오퍼는 적격 상태이지만 점수가 높은 오퍼 이후에 순서가 지정됩니다.
+
+![](../assets/ranking-formula-simulate-result.png)
 
 ## AI 기반 공식 최적화 {#optimize}
 

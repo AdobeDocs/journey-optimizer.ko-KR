@@ -6,9 +6,9 @@ user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
+source-git-commit: b336656fb484583e5da6a8cfb7a61efcfee21a95
 workflow-type: tm+mt
-source-wordcount: '3495'
+source-wordcount: '3501'
 ht-degree: 94%
 
 ---
@@ -36,6 +36,7 @@ ht-degree: 94%
 + 시작하기 {#get-started}
   + [여기서 시작](/help/rp_landing_pages/get-started-landing-page.md)
   + [온보딩 허브](using/start/onboarding-hub.md)
+  + {hide-from-toc}[컨텐츠 및 여정 마이그레이션](using/start/migrate-content-and-journeys.md)
   + 기본 사항 {#essentials}
     + [Journey Optimizer 소개](using/start/get-started.md)
     + [작동 방식 이해](using/start/understanding-ajo.md)
@@ -313,6 +314,7 @@ ht-degree: 94%
       + 콘텐츠 작성 {#add-content}
         + {hide-from-toc}[콘텐츠 디자인](/help/rp_landing_pages/add-content-landing-page.md)
         + [콘텐츠 구성 요소 사용](using/email/content-components.md)
+        + [모듈 사용](using/email/email-modules.md)
         + [시각적 조각 활용](using/email/use-visual-fragments.md)
         + [링크 추가 및 메시지 추적](using/email/message-tracking.md)
         + [URL 개인화](using/email/url-personalization.md)
