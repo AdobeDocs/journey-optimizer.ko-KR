@@ -8,26 +8,16 @@ role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
 TQID: https://experienceleague.adobe.com/v5gRCHjcQjn0kXPdtakSZRNlRIA-PVyGpctdn7zwXSI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 46131a2626da2c03fc31092cf685cbc73b38bd35
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+source-git-commit: 6077b5031e046256d926f333ef5e2df006e118e5
 workflow-type: tm+mt
-source-wordcount: 1198
-ht-degree: 20%
+source-wordcount: 1228
+ht-degree: 19%
 
 ---
 
@@ -102,7 +92,7 @@ Adobe에서 즉시 사용할 수 없는 사용자 지정 공급자(예: Sinch, I
 
    * **[!UICONTROL 채널 유형]**: 선택 사항입니다. 이 자격 증명이 나타내는 모바일 채널(예: SMS, RCS 또는 MMS)을 나타냅니다.
 
-   * **인증 유형{&#x200B;1}: 인증 유형을 선택하고 [선택한 인증 방법에 따라 해당 필드를 완료](#auth-options)합니다.**
+   * **[!UICONTROL 인증 유형{&#x200B;1}: 인증 유형을 선택하고 [선택한 인증 방법에 따라 해당 필드를 완료](#auth-options)합니다.]**
 
      ![](assets/sms-byop.png)
 
@@ -118,7 +108,7 @@ Adobe에서 즉시 사용할 수 없는 사용자 지정 공급자(예: Sinch, I
 
 1. **[!UICONTROL Headers]** 섹션에서 **[!UICONTROL 새 매개 변수 추가]**&#x200B;를 클릭하여 외부 서비스로 전송될 요청 메시지에 대한 HTTP 헤더를 지정합니다.
 
-   **Content-Type** 및 **Charset** 헤더 필드는 기본적으로 설정되며 삭제할 수 없습니다.
+   **Content-Type** 및 **Charset** 헤더 필드는 기본적으로 설정되며, 기본 **Content-Type** 값을 편집할 수 있지만 삭제할 수 없습니다. 최대 10개의 사용자 지정 헤더 매개 변수를 추가할 수 있습니다.
 
    ![](assets/sms_byo_2.png)
 
@@ -129,6 +119,8 @@ Adobe에서 즉시 사용할 수 없는 사용자 지정 공급자(예: Sinch, I
    >[!NOTE]
    >
    >기본 또는 전달자 인증을 사용하여 사용자 지정 SMS 공급자를 구성할 때는 JSON 페이로드에 `authOption` 매개 변수를 포함해야 합니다. 또한 **공급자 페이로드**&#x200B;는 템플릿 변수 `{{fromNumber}}`, `{{toNumber}}` 및 `{{message}}`을(를) 참조해야 합니다.
+   >
+   >**공급자 페이로드**&#x200B;는 [`encode64`](../personalization/functions/string.md#encode64)을(를) 포함하여 Adobe Journey Optimizer [개인화 도우미 기능](../personalization/functions/string.md)도 지원합니다.
 
 1. 이 자격 증명의 인바운드 SMS를 드롭다운에서 선택한 미리 만들어진 데이터 세트로 라우팅하려면 **[!UICONTROL 인바운드에 대한 사용자 지정 데이터 세트 사용]**&#x200B;을 선택하십시오. [인바운드 키워드에 대한 사용자 지정 데이터 세트 사용에 대해 자세히 알아보기](custom-dataset-inbound-keywords.md)
 
