@@ -8,28 +8,16 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: aba603c1e115ba0d0fad5476c2efe4126659ba53
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 9bd29e254b6b2d788f988198f5d692c1a6736a28
 workflow-type: tm+mt
-source-wordcount: 2940
-ht-degree: 19%
+source-wordcount: 3028
+ht-degree: 18%
 
 ---
 
@@ -133,6 +121,37 @@ Journey Optimizer에서는 이 릴리스의 새로운 기능인 충성도 문제
   * 헤더 사용자 정의: 이제 기본 Content-Type 헤더 값을 편집하고 최대 10개의 사용자 정의 헤더 매개 변수를 추가할 수 있습니다.
 
   * SMS 페이로드 지원: encode64를 포함하여 SMS 페이로드 내에 Adobe Journey Optimizer 도우미 기능에 대한 지원이 추가되었습니다.
+
++++
+
+### 관리 {#july-26-administration}
+
+이 릴리스의 관리 및 데이터 관리에 다음과 같은 기능 및 개선 사항이 추가되었습니다.
+
+<table>
+<thead>
+<tr>
+<th><strong>웹 응용 프로그램 방화벽 IP 허용 목록에 추가</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer은 이제 랜딩 페이지에 대한 웹 응용 프로그램 방화벽 IP 허용 목록에 추가를 지원하므로 조직에서 모든 수신 요청이 구성된 웹 응용 프로그램 방화벽 인프라를 통해서만 라우팅되도록 할 수 있습니다. 이 향상된 기능을 통해 고객은 웹 애플리케이션 방화벽 계층을 무시하는 직접 요청을 거부하도록 Journey Optimizer을 구성할 수 있으므로 Imperva와 같은 도구에 정의된 보안 정책이 일관되게 적용됩니다.</p>
+<p>이 기능은 엄격한 네트워크 액세스 요구 사항을 가진 기업의 보안 태세를 강화하여 Journey Optimizer이 호스팅하는 랜딩 페이지로의 트래픽 흐름을 완벽하게 제어합니다.</p>
+<p><img src="assets/do-not-localize/allowed-ips.gif"></p>
+<p>자세한 내용은 <a href="../configuration/waf-ip-allowlist.md">세부 설명서</a>를 참조하십시오.</p>
+<p>사용 가능한 날짜: 2026년 7월 30일</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+* **TTL(Time-to-Live) 보호 — 기존 샌드박스** - Journey Optimizer 시스템 생성 데이터 세트에 대한 TTL(Time-to-Live) 보호(프로필 스토어에서 90일, 데이터 레이크에서 13개월)가 **기존 고객 샌드박스 및 조직에 적용됩니다** **2026년 10월 1일**. [자세히 알아보기](../data/datasets-ttl.md#ttl-guardrail)
+
++++곧 출시 예정
+
+* **전체/기본 URL 개인화를 위한 도메인 관리** - 이제 Adobe 지원에 문의하지 않고도 Adobe Journey Optimizer의 관리 설정에서 직접 전체 및 기본 URL 개인화를 위한 승인된 도메인을 만들고 관리할 수 있습니다. <!--[Learn more](../email/url-personalization.md#personalize-complete-base-url)-->
 
 +++
 
@@ -301,19 +320,42 @@ Journey Optimizer에서는 이 릴리스의 새로운 기능인 충성도 문제
 
   사용 가능한 날짜: 2026년 7월 28일
 
-+++ 곧 출시 예정
+* **&quot;AI Assistant&quot;가 &quot;콘텐츠 생성&quot;으로 이름이 변경되었습니다** - AI Assistant의 이름이 Adobe Journey Optimizer 전체에서 콘텐츠 생성으로 변경되었습니다. 이 업데이트는 이름 지정 및 용어로 제한되며 기능 변경 사항이 도입되지 않았습니다. 콘텐츠 생성, 이미지 생성, 개인화 표현식 및 콘텐츠 실험을 위한 탐색 레이블, 버튼, 메뉴 및 대화 상자의 이름이 &quot;AI Assistant&quot;에서 &quot;콘텐츠 생성&quot;으로 변경되었습니다.
 
-* **AI 콘텐츠 생성을 위한 유연한 이미지 소싱** - 이제 Journey Optimizer에서 콘텐츠를 생성하면 Adobe Experience Manager Assets Essentials 등에서 브랜드로 승인된 이미지를 직접 소싱합니다. 균형을 제어하는 모드는 Assets(Digital Asset Management-sourced, default), Balanced(Digital Asset Management-first, AI 채우기) 및 Creative(AI-first)입니다. 이렇게 하면 여정 및 캠페인에 대해 정확하고 브랜드 규정을 준수하며 프로덕션에 바로 사용할 수 있습니다.
+  사용 가능한 날짜: 2026년 7월 30일
 
 * **다국어 개선** - 이제 언어 설정을 기존 활성 설정에서 복제할 수 있으므로 더 이상 구성을 완전히 다시 빌드하여 변경할 필요가 없습니다. 언어 설정을 작성하는 동안 한 로케일에서 다른 로케일로 조건을 복사할 수도 있으므로 여러 언어를 사용하는 사이트에 대한 설정을 간소화할 수 있습니다.
 
-* **&quot;AI Assistant&quot;가 &quot;콘텐츠 생성&quot;으로 이름이 변경되었습니다** - AI Assistant의 이름이 Adobe Journey Optimizer 전체에서 콘텐츠 생성으로 변경되었습니다. 이 업데이트는 이름 지정 및 용어로 제한되며 기능 변경 사항이 도입되지 않았습니다. 콘텐츠 생성, 이미지 생성, 개인화 표현식 및 콘텐츠 실험을 위한 탐색 레이블, 버튼, 메뉴 및 대화 상자의 이름이 &quot;AI Assistant&quot;에서 &quot;콘텐츠 생성&quot;으로 변경되었습니다.
+  사용 가능한 날짜: 2026년 7월 30일
+
++++ 곧 출시 예정
+
+* **AI 콘텐츠 생성을 위한 유연한 이미지 소싱** - 이제 Journey Optimizer에서 콘텐츠를 생성하면 Adobe Experience Manager Assets Essentials 등에서 브랜드로 승인된 이미지를 직접 소싱합니다. 균형을 제어하는 모드는 Assets(Digital Asset Management-sourced, default), Balanced(Digital Asset Management-first, AI 채우기) 및 Creative(AI-first)입니다. 이렇게 하면 여정 및 캠페인에 대해 정확하고 브랜드 규정을 준수하며 프로덕션에 바로 사용할 수 있습니다.
 
 +++
 
 ### 콘텐츠 및 통합 {#july-26-integration}
 
 이 릴리스의 콘텐츠 관리 및 통합에 대해 다음과 같은 개선 사항이 적용되었습니다.
+
+<table>
+<thead>
+<tr>
+<th><strong>Dynamic Media를 사용한 카운트다운 타이머</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong>Journey Optimizer 및 Adobe Experience Manager Dynamic Media 통합</strong>을 통해 Dynamic Media 템플릿에 대한 열기 시간 개인 맞춤화를 사용할 수 있으므로 초개인화된 사용 사례를 잠글 수 있습니다. 고객은 Adobe Experience Manager에서 개인화된 템플릿을 만들고 게시하며, 오픈타임에 렌더링되는 데이터를 사용하여 Journey Optimizer에서 사용할 수 있습니다.</p>
+<p>자세한 내용은 <a href="../integrations/aem-dynamic.md#countdown">세부 설명서</a>를 참조하십시오.</p>
+<p> 사용 가능한 날짜: 2026년 7월 30일</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
 
 * **AJO MCP 서버 새 도구** - 이제 [!DNL Adobe Journey Optimizer] MCP 서버는 5개의 추가 읽기 전용 **채널 구성 도구**&#x200B;를 노출하므로 AI 도우미에서 직접 채널 구성, 지원 리소스 및 마케팅 작업을 쿼리할 수 있습니다. 이제 **목록 채널 구성**(모든 AJO 채널에서), **채널 구성 가져오기**, **목록 구성 리소스**, **구성 리소스 가져오기** 및 **목록 마케팅 작업**&#x200B;을 사용할 수 있습니다. [자세히 보기](../integrations/ajo-mcp.md#mcp-tools)
 
@@ -330,35 +372,6 @@ Journey Optimizer에서는 이 릴리스의 새로운 기능인 충성도 문제
   * 예상 CTOR(클릭에서 열기 비율): 총 예상 열기 수에 대해 예상 클릭수로 계산됩니다.
 
     사용 가능한 날짜: 2026년 7월 29일
-
-### 관리 {#july-26-administration}
-
-이 릴리스의 관리 및 데이터 관리에 다음과 같은 개선 사항이 추가되었습니다.
-
-* **TTL(Time-to-Live) 보호 — 기존 샌드박스** - Journey Optimizer 시스템 생성 데이터 세트에 대한 TTL(Time-to-Live) 보호(프로필 스토어에서 90일, 데이터 레이크에서 13개월)가 **기존 고객 샌드박스 및 조직에 적용됩니다** **2026년 10월 1일**. [자세히 알아보기](../data/datasets-ttl.md#ttl-guardrail)
-
-+++곧 출시 예정
-
-<table>
-<thead>
-<tr>
-<th><strong>웹 응용 프로그램 방화벽 IP 허용 목록에 추가</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Journey Optimizer은 이제 랜딩 페이지에 대한 웹 응용 프로그램 방화벽 IP 허용 목록에 추가를 지원하므로 조직에서 모든 수신 요청이 구성된 웹 응용 프로그램 방화벽 인프라를 통해서만 라우팅되도록 할 수 있습니다. 이 향상된 기능을 통해 고객은 웹 애플리케이션 방화벽 계층을 무시하는 직접 요청을 거부하도록 Journey Optimizer을 구성할 수 있으므로 Imperva와 같은 도구에 정의된 보안 정책이 일관되게 적용됩니다.</p>
-<p>이 기능은 엄격한 네트워크 액세스 요구 사항을 가진 기업의 보안 태세를 강화하여 Journey Optimizer이 호스팅하는 랜딩 페이지로의 트래픽 흐름을 완벽하게 제어합니다.</p>
-<!-- Documentation link: TBD -->
-</td>
-</tr>
-</tbody>
-</table>
-
-* **전체/기본 URL 개인화를 위한 도메인 관리** - 이제 Adobe 지원에 문의하지 않고도 Adobe Journey Optimizer의 관리 설정에서 직접 전체 및 기본 URL 개인화를 위한 승인된 도메인을 만들고 관리할 수 있습니다. <!--[Learn more](../email/url-personalization.md#personalize-complete-base-url)-->
-
-+++
 
 ### 캠페인 {#campaigns}
 

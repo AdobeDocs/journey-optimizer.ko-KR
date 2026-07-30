@@ -10,25 +10,15 @@ level: Beginner
 keywords: 시작하기, 시작, 콘텐츠, 실험
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
 TQID: https://experienceleague.adobe.com/CO90KA9aqX6vclGmYWk6Z3LQJmewlylQvJA36yx44eI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: ea4139d9-3405-4b34-ad6e-c3ca120cc269
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: cf815079d67f4a41c3647c6a6e381ef5f1c44e51
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: ea4139d9-3405-4b34-ad6e-c3ca120cc269id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c26beaed1c61e719f5066190970a649e28207566
 workflow-type: tm+mt
-source-wordcount: 993
+source-wordcount: 1072
 ht-degree: 2%
 
 ---
@@ -108,7 +98,7 @@ ht-degree: 2%
    >
    >이러한 사전 요구 사항은 인앱 및 콘텐츠 카드 채널에만 필요합니다.
 
-   1. Adobe Experience Platform 데이터 수집에서 **[!UICONTROL 규칙]** 메뉴에 액세스하고 새 규칙을 만듭니다. 규칙을 만드는 방법에 대한 자세한 내용은 [!DNL Adobe Experience Platform] [데이터 수집 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/ui/rules){target="_blank"}를 참조하세요.
+   1. Adobe Experience Platform 데이터 수집에서 **[!UICONTROL 규칙]** 메뉴에 액세스하고 새 규칙을 만듭니다. 규칙을 만드는 방법에 대한 자세한 내용은 [!DNL Adobe Experience Platform] [데이터 수집 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/rules){target="_blank"}를 참조하세요.
 
    2. 규칙의 **[!UICONTROL IF]** 섹션에서 아래와 같이 구성된 이벤트를 추가합니다.
 
@@ -143,6 +133,14 @@ ht-degree: 2%
 
    +++
 
+1. 로케일에 대한 조건을 만든 후에는 처음부터 다시 빌드하는 대신 다른 로케일에 대해 다시 사용할 수 있습니다. **[!UICONTROL 복사 위치...]**&#x200B;를 클릭한 다음 조건을 적용할 대상 로케일을 하나 이상 선택하십시오.
+
+   ![](assets/multilingual-settings-7.png)
+
+   >[!NOTE]
+   >
+   >조건을 복사하면 선택한 대상 로케일의 기존 조건을 덮어씁니다.
+
 1. 로케일을 드래그 앤 드롭하여 재정렬하고 목록에서 해당 우선 순위를 관리합니다.
 
 1. 로케일을 삭제하려면 bin 아이콘을 클릭합니다.
@@ -152,6 +150,10 @@ ht-degree: 2%
 1. **[!UICONTROL 제출]**&#x200B;을 클릭하여 **[!UICONTROL 언어 설정]**&#x200B;을 만듭니다.
 
 언어 환경 설정을 지정하면, 더 이상 언어 환경 설정을 편집할 수 없습니다.
+
+로케일을 추가하거나 활성 **[!UICONTROL 언어 설정]**&#x200B;의 조건을 변경하려면 ![](assets/do-not-localize/Smock_More_18_N.svg)에 액세스하여 **[!UICONTROL 복제]**&#x200B;를 선택하십시오. 이렇게 하면 편집할 수 있는 기존 설정의 사본이 만들어집니다.
+
+![](assets/multilingual-settings-8.png)
 
 <!--
 1. Access the **[!UICONTROL channel configurations]** menu and create a new channel configuration or select an existing one.
