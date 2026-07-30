@@ -176,7 +176,7 @@ Additional content for contextual help: For **Manual priority** and **Customer p
 
 Adobe Journey Optimizer의 채널 최적화 기능이 수동 우선 순위, 프로필 속성 또는 Adobe의 AI 모델을 사용하여 가장 효과적인 채널을 통해 고객에게 도달하는 데 어떻게 도움이 되는지에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3492132?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3492137?captions=kor&quality=12)
 
 <!--
 **Related topics**
