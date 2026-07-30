@@ -9,12 +9,11 @@ role: User
 level: Intermediate, Experienced
 keywords: url, 링크, 개인화, 추적, 인코딩, 중괄호
 feature_v2: []
-subfeature_v2:
-  - id: c41e8697-e629-4c38-96b3-564faaa17acf
-source-git-commit: 9100276ed3a6d3487cf27b9b70f2e0dfaf35f62c
+subfeature_v2: id: c41e8697-e629-4c38-96b3-564faaa17acf
+source-git-commit: bd11228a755e85bded4799fcabf1d6100fc9216f
 workflow-type: tm+mt
-source-wordcount: 570
-ht-degree: 0%
+source-wordcount: 842
+ht-degree: 1%
 
 ---
 
@@ -42,7 +41,7 @@ URL을 개인화하려면 아래 단계를 수행합니다.
 
 1. 개인화 아이콘을 선택합니다.
 
-   ![](assets/message-tracking-insert-link-perso.png)
+   전자 메일 Designer 상황별 도구 모음의 ![Personalization 아이콘](assets/message-tracking-insert-link-perso.png)
 
 1. 개인화 편집기를 사용하여 URL을 개인화할 프로필 속성을 추가합니다.
 
@@ -65,7 +64,7 @@ URL을 개인화하려면 아래 단계를 수행합니다.
 
 ## 전체/기본 URL 개인화 {#personalize-complete-base-url}
 
-Journey Optimizer은 다음과 같은 URL의 **전체** URL 또는 **기본 도메인** 개인화도 지원합니다.
+Journey Optimizer은 다음과 같은 URL의 **전체** URL 또는 **기본 도메인** 개인화를 지원합니다.
 
 ```html
 <a href="{{profile.social.link}}" />
@@ -75,13 +74,58 @@ Journey Optimizer은 다음과 같은 URL의 **전체** URL 또는 **기본 도�
 
 >[!CAUTION]
 >
->* 전체 또는 기본 URL 개인화를 활성화하려면 Adobe에 연락하여 허용된 도메인 목록을 제공하십시오. 안전하지 않은 리디렉션을 방지하기 위해 필요합니다.
+>전체 또는 기본 URL 개인화를 활성화하려면 먼저 수락된 도메인을 허용 목록에 추가해야 합니다. [방법 알아보기](#manage-accepted-domains)
 >
->* 동적으로 생성된 URL(전송 시 프로필 특성에서 전체 URL 또는 기본 도메인이 확인되는 경우)에는 알려진 추적 제한이 있습니다. Journey Optimizer은 이러한 링크에 대한 클릭을 안정적으로 추적할 수 없으며, **클릭 데이터가 여정 또는 캠페인 보고서에 표시되지 않을 수 있습니다**. 이 문제는 추적 리디렉션이 최종 URL을 알기 전에 디자인 타임에 적용되기 때문에 발생합니다. 해결된 값이 수신자마다 다른 경우 리디렉션 체인이 중단되고 클릭이 기록되지 않습니다. 또한 확인된 URL은 모든 받는 사람에 대해 `http` 또는 `https`(으)로 시작해야 합니다. 그렇지 않은 경우 해당 링크에 대한 추적은 자동으로 건너뜁니다. 안정적인 클릭 추적을 유지하려면 다음 접근 방식 중 하나를 사용하십시오.
+>동적으로 생성된 URL에는 알려진 제한 사항이 있습니다. 클릭 데이터가 여정 또는 캠페인 보고서에 표시되지 않을 수 있습니다. [자세히 알아보기](#click-tracking-limitation)
+
+
+### 전체/기본 URL 개인화를 위한 도메인 추가 {#manage-accepted-domains}
+
+전체 또는 기본 URL 개인화를 활성화하려면 먼저 수락된 도메인을 허용 목록에 추가해야 합니다.
+
+이렇게 하면 개인화된 URL에서 승인된 도메인만 사용되고 안전하지 않은 리디렉션을 방지할 수 있습니다.
+
+>[!NOTE]
 >
->   * 고정 기본 URL을 사용하고 개인화된 매개 변수만 추가합니다(예: `https://www.example.com/page?uid={{profile.person.crmid}}`).
->   
->   * 수신자별로 개인화된 URL을 사전 생성하여 프로필 속성으로 저장하고 이메일 콘텐츠에서 참조합니다.
+>허용 목록에서 도메인을 보거나 추가하거나 제거하려면 **[!UICONTROL 메시지 관리 일반 설정]** 및 **[!UICONTROL 메시지 일반 설정 보기]** 권한이 필요합니다. [자세히 알아보기](../administration/ootb-permissions.md)
+
+허용된 도메인을 관리하려면 아래 단계를 따르십시오.
+
+1. Adobe Journey Optimizer에서 **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL 전자 메일 설정]** > **[!UICONTROL 허용 목록 - 도메인]**&#x200B;으로 이동합니다.
+
+   ![허용 목록 - 다음 기한까지 추가된 승인된 도메인과 날짜 정보를 표시하는 도메인 페이지](assets/allowed-list-domains.png)
+
+   여기에서 승인된 모든 도메인을 찾아보고, 새 도메인을 추가하고, 기존 도메인을 삭제할 수 있습니다.
+
+1. **[!UICONTROL 도메인 추가]** 단추를 클릭합니다.
+
+1. 전체 하위 도메인 또는 루트 도메인을 입력합니다.
+
+   ![허용 목록에 새 도메인을 추가하는 양식](assets/allowed-list-domains-add.png){width="80%"}
+
+   >[!NOTE]
+   >
+   >이 경우 도메인이 거부되므로 https:// 또는 슬래시를 포함하지 마십시오. 예를 들어 `https://www.example.com/`이(가) 아닌 `www.example.com` 또는 `example.com`을(를) 입력하십시오.
+
+1. **[!UICONTROL 확인]**&#x200B;을 클릭합니다. 도메인이 허용 목록에 추가되며, 이제 전체 또는 기본 URL 개인화에 사용할 수 있습니다.
+
+1. 도메인을 제거하려면 해당 도메인 옆에 있는 **[!UICONTROL 삭제]** 아이콘을 클릭합니다.
+
+   >[!CAUTION]
+   >
+   >개인화된 URL에서 이미 사용 중인 도메인을 제거하면 링크의 안전성이 보장될 수 없습니다. 허용 목록에서 제거하기 전에 이 도메인을 참조하는 개인화된 URL을 업데이트해야 합니다.
+
+### 클릭 추적 제한 {#click-tracking-limitation}
+
+동적으로 생성된 URL(전송 시 프로필 특성에서 전체 URL 또는 기본 도메인이 확인되는 경우)에는 알려진 추적 제한이 있습니다. Journey Optimizer은 이러한 링크에 대한 클릭을 안정적으로 추적할 수 없으며, **클릭 데이터가 여정 또는 캠페인 보고서에 표시되지 않을 수 있습니다**.
+
+이 문제는 추적 리디렉션이 최종 URL을 알기 전에 디자인 타임에 적용되기 때문에 발생합니다. 해결된 값이 수신자마다 다른 경우 리디렉션 체인이 중단되고 클릭이 기록되지 않습니다. 또한 확인된 URL은 모든 받는 사람에 대해 `http` 또는 `https`(으)로 시작해야 합니다. 그렇지 않은 경우 해당 링크에 대한 추적은 자동으로 건너뜁니다.
+
+안정적인 클릭 추적을 유지하려면 다음 접근 방식 중 하나를 사용하십시오.
+
+* 고정 기본 URL을 사용하고 개인화된 매개 변수만 추가합니다(예: `https://www.example.com/page?uid={{profile.person.crmid}}`).
+
+* 수신자별로 개인화된 URL을 사전 생성하여 프로필 속성으로 저장하고 이메일 콘텐츠에서 참조합니다.
 
 ## URL 추적 매개 변수 개인화 {#personalize-url-tracking-parameters}
 
@@ -89,7 +133,7 @@ Journey Optimizer은 다음과 같은 URL의 **전체** URL 또는 **기본 도�
 
 이렇게 하려면 [링크를 삽입](message-tracking.md#insert-links)하고 개인화 아이콘을 선택하고 URL 추적 매개 변수를 추가한 다음 [개인화 편집기](../personalization/personalization-build-expressions.md)에서 선택한 프로필 특성을 선택하십시오.
 
-![](assets/message-tracking-perso-parameter.png)
+전자 메일 Designer의 URL 추적 매개 변수에 대한 ![Personalization 아이콘](assets/message-tracking-perso-parameter.png)
 
 이 추적 매개 변수를 추가할 각 링크에 대해 위의 단계를 반복합니다.
 
