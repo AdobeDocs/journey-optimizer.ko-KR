@@ -245,7 +245,7 @@ Journey Optimizer는 추적, 피드백, 여정 단계 이벤트를 위해 몇 �
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **Get started with schemas**
 
@@ -255,7 +255,7 @@ Adobe Experience Platform에서 XDM 스키마를 만들고 올바른 클래스 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **데이터 세트 작업**
 
@@ -265,7 +265,7 @@ Adobe Experience Platform에서 XDM 스키마를 만들고 올바른 클래스 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **데이터 소스 구성**
 
@@ -275,7 +275,7 @@ Adobe Experience Platform에서 XDM 스키마를 만들고 올바른 클래스 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Adobe Experience Platform 데이터 사용()**
 
@@ -285,7 +285,7 @@ AEP 데이터 세트의 참조 또는 트랜잭션 데이터를 실시간 고객
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **쿼리 시작**
 
@@ -295,7 +295,7 @@ AEP 데이터 세트의 참조 또는 트랜잭션 데이터를 실시간 고객
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **프로필 시작**
 
@@ -305,7 +305,7 @@ Journey Optimizer에서 실시간 고객 프로필이 작동하는 방식과 Pla
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **데이터 설정 개요 튜토리얼**
 
@@ -315,7 +315,7 @@ Journey Optimizer에서 데이터 설정을 시작하는 초보자를 위한 비
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **데이터 세트 생성 및 데이터 수집 튜토리얼**
 

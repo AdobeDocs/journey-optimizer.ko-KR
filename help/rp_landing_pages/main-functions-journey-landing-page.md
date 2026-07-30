@@ -21,7 +21,7 @@ Adobe Journey Optimizer의 함수를 사용하면 고객 여정을 맞춤화하�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer의 주요 함수
 
@@ -41,7 +41,7 @@ inAudience 함수 사용
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 집계 함수 참조
 
@@ -51,7 +51,7 @@ inAudience 함수 사용
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg)
 
 변환 함수
 

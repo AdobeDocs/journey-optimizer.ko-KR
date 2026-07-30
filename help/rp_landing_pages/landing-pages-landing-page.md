@@ -40,7 +40,7 @@ Adobe Journey Optimizer의 랜딩 페이지를 사용하면 뉴스레터 구독,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 랜딩 페이지 관리
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer의 랜딩 페이지를 사용하면 뉴스레터 구독,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 랜딩 페이지용 콘텐츠 디자인
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer의 랜딩 페이지를 사용하면 뉴스레터 구독,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 구독 목록 만들기 및 관리
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer의 랜딩 페이지를 사용하면 뉴스레터 구독,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 랜딩 페이지 사용 사례
 

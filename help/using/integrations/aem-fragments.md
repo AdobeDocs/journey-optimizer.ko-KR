@@ -23,7 +23,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 1918bcb699ea6a4063be28941a30bb6c6ade21ce
 workflow-type: tm+mt
-source-wordcount: 1784
+source-wordcount: 1769
 ht-degree: 0%
 
 ---
@@ -181,7 +181,7 @@ Experience Manager에서 태그를 만들려면 다음을 수행하십시오.
    1. **정적 문자열 매핑**: 큰 따옴표 안에 고정 문자열 값을 할당하십시오(예: name = &quot;John&quot;).
 
    1. **변수 매핑**: 같은 HTML 내에서 이전에 선언된 변수를 참조합니다(예: name = &#39;variableName&#39;).
-      이 경우 다음 구문을 사용하여 조각 ID를 추가하기 전에 **_variableName_**&#x200B;이(가) 선언되었는지 확인하십시오.
+      이 경우 조각 ID를 추가하기 전에 다음 구문을 사용하여 **_variableName_**&#x200B;이(가) 선언되었는지 확인하십시오.
 
       ```html
       {% let variableName = attribute name %} 

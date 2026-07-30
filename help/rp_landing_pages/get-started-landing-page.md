@@ -24,7 +24,7 @@ Adobe Journey Optimizer의 기본 사항과 이를 통해 데이터 기반 개�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Journey Optimizer 소개
 
@@ -34,7 +34,7 @@ Journey Optimizer 소개
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 작동 방식 이해
 
@@ -44,7 +44,7 @@ Journey Optimizer를 Adobe Experience Platform과 통합하는 방법과 주요 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list.svg)
 
 주요 용어
 
@@ -54,7 +54,7 @@ Journey Optimizer를 자신 있게 탐색하는 데 도움이 되는 필수 용�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 AI 및 지능형 기능
 
@@ -71,7 +71,7 @@ AI가 어떻게 콘텐츠를 만들고, 전송 시간을 최적화하고, 보다
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/user.svg)
 
 마케터
 
@@ -81,7 +81,7 @@ AI가 어떻게 콘텐츠를 만들고, 전송 시간을 최적화하고, 보다
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 데이터 엔지니어
 
@@ -91,7 +91,7 @@ AI가 어떻게 콘텐츠를 만들고, 전송 시간을 최적화하고, 보다
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 관리자 대상
 
@@ -101,7 +101,7 @@ AI가 어떻게 콘텐츠를 만들고, 전송 시간을 최적화하고, 보다
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 개발자 대상
 
@@ -137,7 +137,7 @@ AI가 어떻게 콘텐츠를 만들고, 전송 시간을 최적화하고, 보다
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 여정
 
@@ -145,7 +145,7 @@ AI가 어떻게 콘텐츠를 만들고, 전송 시간을 최적화하고, 보다
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 캠페인
 
@@ -153,7 +153,7 @@ AI가 어떻게 콘텐츠를 만들고, 전송 시간을 최적화하고, 보다
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 콘텐츠 관리
 
@@ -161,7 +161,7 @@ AI가 어떻게 콘텐츠를 만들고, 전송 시간을 최적화하고, 보다
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 보고
 
@@ -176,7 +176,7 @@ AI가 어떻게 콘텐츠를 만들고, 전송 시간을 최적화하고, 보다
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 인터페이스 살펴보기
 

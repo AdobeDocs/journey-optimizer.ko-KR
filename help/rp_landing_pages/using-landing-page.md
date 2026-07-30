@@ -33,7 +33,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: 462
+source-wordcount: 459
 ht-degree: 100%
 
 ---
@@ -47,7 +47,7 @@ Adobe Journey Optimizer는 팀이 이메일, SMS 등 여러 채널에 걸쳐 개
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Adobe Journey Optimizer 시작하기
 

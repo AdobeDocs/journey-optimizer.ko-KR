@@ -21,7 +21,7 @@ subfeature_v2:
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
 source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
-source-wordcount: 522
+source-wordcount: 507
 ht-degree: 1%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 1%
 <ul>
 
 <li>
-      <strong>처방전 ID:</strong> pres4<br>
+      <strong>처방 ID:</strong> pres4<br>
       <strong>이름:</strong> 약물 D<br>
       <strong>상태:</strong> 준비
    </li>

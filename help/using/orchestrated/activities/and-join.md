@@ -46,7 +46,7 @@ ht-degree: 75%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_and-join_merging"
 >title="병합 옵션"
->abstract="참여하고자 하는 활동을 선택합니다. **기본 세트** 드롭다운에서 유지하고자 하는 인바운드 전환 모집단을 선택합니다."
+>abstract="조인할 활동을 선택합니다. **기본 세트** 드롭다운에서 유지할 인바운드 전환 모집단을 선택합니다."
 
 **[!UICONTROL AND-결합]** 활동을 구성하려면 다음 단계를 따릅니다.
 

@@ -30,8 +30,8 @@ topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
 source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 1695
-ht-degree: 3%
+source-wordcount: 1694
+ht-degree: 2%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->이 기능을 사용하기 전에 관련 [보호 및 제한 사항](gs-generative.md#generative-guardrails)을 읽어보십시오.
+>이 기능의 사용을 시작하기 전에 관련 [보호 기능 및 제한 사항](gs-generative.md#generative-guardrails)을 읽어 보십시오.
 ></br>
 >
 >Journey Optimizer에서 AI Assistant를 사용하려면 [사용자 계약](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.

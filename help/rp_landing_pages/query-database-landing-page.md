@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 규칙 빌더를 사용하여 대상자 타겟팅 및
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Adobe Journey Optimizer에서 첫 번째 규칙을 작성하는 방법
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 첫 번째 규칙을 작성하는 방법
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Adobe Journey Optimizer에서 표현식을 편집하는 방법
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer에서 표현식을 편집하는 방법
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Adobe Journey Optimizer에서 리타겟팅 쿼리 작성
 

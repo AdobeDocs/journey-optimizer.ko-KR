@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 라이브 보고서 기능을 사용하면 동적이�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 라이브 보고서 시작
 

@@ -369,7 +369,7 @@ ht-degree: 2%
         <td><a href="string.md#is-not-empty">비어 있지 않음</a></td><td>이 함수는 매개 변수의 문자열이 비어 있지 않으면 true를 반환합니다.</td>
     </tr>
     <tr>
-        <td><a href="string.md#join">조인</a></td><td>이 함수는 구분 기호를 사용하여 배열 요소를 단일 문자열로 연결합니다.</td>
+        <td><a href="string.md#join">조인 </a></td><td>이 함수는 구분 기호를 사용하여 배열 요소를 단일 문자열로 연결합니다.</td>
     </tr>
     <tr>
         <td><a href="string.md#last-index-of">마지막 색인</a></td><td>이 함수는 (첫 번째 인수에서) 두 번째 매개 변수의 마지막 발생 횟수 위치를 반환합니다. 일치하는 항목이 없으면 -1을 반환합니다.</td>

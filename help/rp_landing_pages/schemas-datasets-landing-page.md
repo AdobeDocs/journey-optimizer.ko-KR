@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 스키마를 만들고, 데이터 세트를 구성
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 수동 관계형 스키마 설정
 
@@ -50,7 +50,7 @@ DDL 파일 업로드, 테이블 연결, 오케스트레이션된 캠페인 관�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Adobe Journey Optimizer 캠페인에 대한 데이터 수집
 

@@ -49,7 +49,7 @@ ht-degree: 95%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule"
->title="캠페인 예약"
+>title="캠페인 일정"
 >abstract="기본적으로 캠페인은 수동 활성화를 통해 시작되고 메시지가 한 번 발송되는 즉시 종료됩니다. 메시지를 전송할 특정 날짜와 시간을 유연하게 설정할 수 있습니다. 또한 반복적인 액션 캠페인의 종료 날짜를 지정할 수 있습니다. 액션 트리거에서는 환경 설정에 따라 메시지 전송 빈도를 구성할 수도 있습니다."
 
 >[!CONTEXTUALHELP]
@@ -343,7 +343,7 @@ Adobe Journey Optimizer를 사용하면 여러 채널에서 특정 대상자에�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **대상자 타겟팅**
 
@@ -353,7 +353,7 @@ Adobe Experience Platform의 특정 대상자를 정확하게 타겟팅하고 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **승인 워크플로**
 
@@ -373,7 +373,7 @@ Adobe Experience Platform의 특정 대상자를 정확하게 타겟팅하고 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **최적화**
 

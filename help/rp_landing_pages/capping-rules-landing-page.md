@@ -22,7 +22,7 @@ ht-degree: 100%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 규칙 세트 작업
 
@@ -32,7 +32,7 @@ Adobe Journey Optimizer에서 메시지 빈도 및 여정 진입 규칙을 제�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 여정 캡핑 및 중재
 
@@ -42,7 +42,7 @@ Adobe Journey Optimizer에서 메시지 빈도 및 여정 진입 규칙을 제�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 채널별 빈도 설정
 
@@ -52,7 +52,7 @@ Adobe Journey Optimizer에서 메시지 빈도 및 여정 진입 규칙을 제�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 방해 금지 시간 설정
 

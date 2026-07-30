@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 사용자 지정 여정 보고서를 사용하면 여
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 여정 보고서 만들기 및 분석
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 사용자 지정 여정 보고서를 사용하면 여
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 단계 이벤트 필드 목록
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer에서 보고 및 데이터 관리 작업을 지원하기
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 데이터 분석을 위한 SQL 쿼리 예
 

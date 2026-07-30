@@ -503,7 +503,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= isNotEmpty(profile.mobilePhone.number) %}
 ```
 
-## 조인 {#join}
+## 조인  {#join}
 
 `join` 함수는 구분 기호를 사용하여 배열의 요소를 단일 문자열로 연결합니다.
 

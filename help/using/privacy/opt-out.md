@@ -82,7 +82,7 @@ Adobe Experience Platform에서 프로필의 푸시 동의 상태를 확인하�
 </td>
 <td>
 <a href="../mobile/mobile-opt-out.md">
-<img alt="드물게" src="../assets/do-not-localize/privacy-sms-opt-out.jpeg" width="50%">
+<img alt="저빈도" src="../assets/do-not-localize/privacy-sms-opt-out.jpeg" width="50%">
 </a>
 <div>
 <a href="../mobile/mobile-opt-out.md"><strong>SMS 옵트아웃 관리</strong></a>

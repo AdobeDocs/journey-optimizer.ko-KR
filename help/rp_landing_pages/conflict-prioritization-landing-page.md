@@ -21,7 +21,7 @@ Adobe Journey Optimizer의 충돌 관리 및 우선순위 지정은 고객 피�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 충돌 관리 시작
 
@@ -31,7 +31,7 @@ Adobe Journey Optimizer의 충돌 관리 및 우선순위 지정은 고객 피�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 잠재적 충돌 확인
 
@@ -51,7 +51,7 @@ Adobe Journey Optimizer의 충돌 관리 및 우선순위 지정은 고객 피�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 메시지 및 여정 캡핑 규칙 설정
 

@@ -26,7 +26,7 @@ Adobe Journey Optimizer에서 랜딩 페이지를 구성하면 맞춤화된 하�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 랜딩 페이지 하위 도메인 구성 및 관리
 

@@ -22,7 +22,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 8f016fe08e76f896eeb71b96e582e4e7e8fc3c9f
 workflow-type: tm+mt
-source-wordcount: 189
+source-wordcount: 188
 ht-degree: 100%
 
 ---
@@ -55,7 +55,7 @@ LINE 메시지를 만들기 전에 Journey Optimizer에서 LINE 채널을 구성
 </td>
 <td>
 <a href="send-line.md">
-<img alt="드물게" src="../assets/do-not-localize/sms-sending.jpg">
+<img alt="저빈도" src="../assets/do-not-localize/sms-sending.jpg">
 </a>
 <div>
 <a href="send-line.md"><strong>LINE 메시지 보내기</strong></a>
@@ -63,7 +63,7 @@ LINE 메시지를 만들기 전에 Journey Optimizer에서 LINE 채널을 구성
 <p></td>
 <td>
 <a href="line-configuration.md">
-<img alt="드물게" src="../assets/do-not-localize/inapp-config.jpg">
+<img alt="저빈도" src="../assets/do-not-localize/inapp-config.jpg">
 <div>
 <a href="line-configuration.md"><strong>LINE 채널 구성</strong>
 </a>

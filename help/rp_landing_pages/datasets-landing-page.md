@@ -20,7 +20,7 @@ Adobe Journey Optimizer 데이터 세트는 의미 있는 고객 경험을 만�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Adobe Journey Optimizer에서 데이터 세트 사용 및 관리
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 데이터 세트 액세스, 생성, 관리 및 관
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Journey Optimizer 데이터 세트 내보내기
 
@@ -50,7 +50,7 @@ Journey Optimizer 데이터 세트 내보내기
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer: 데이터 세트 쿼리 예
 

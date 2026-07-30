@@ -87,7 +87,7 @@ ht-degree: 100%
 </td>
 <td>
 <a href="subscription-list.md">
-<img alt="드물게" src="../assets/do-not-localize/lp-list.jpg">
+<img alt="저빈도" src="../assets/do-not-localize/lp-list.jpg">
 </a>
 <div>
 <a href="subscription-list.md"><strong>구독 목록 만들기</strong></a>

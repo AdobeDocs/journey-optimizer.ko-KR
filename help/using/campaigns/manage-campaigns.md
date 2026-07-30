@@ -251,7 +251,7 @@ Per-campaign alert subscription is deferred (CJM-112845, CJM-112849). Campaign l
 * [캠페인 작업](campaign-action.md)
 * [캠페인 콘텐츠](campaign-content.md)
 * [캠페인 대상자](campaign-audience.md)
-* [캠페인 예약](campaign-schedule.md)
+* [캠페인 일정](campaign-schedule.md)
 
 ### 액션 캠페인 중지 {#stop}
 

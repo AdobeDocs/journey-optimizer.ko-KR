@@ -52,7 +52,7 @@ ht-degree: 46%
 </td>
 <td>
 <a href="create-content-card.md">
-<img alt="드물게" src="../assets/do-not-localize/sms-create.jpeg">
+<img alt="저빈도" src="../assets/do-not-localize/sms-create.jpeg">
 </a>
 <div>
 <a href="create-content-card.md"><strong>콘텐츠 카드 만들기</strong></a>
