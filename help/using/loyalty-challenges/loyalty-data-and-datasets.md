@@ -10,9 +10,9 @@ level: Intermediate
 exl-id: a7c4e1b2-8f3d-4a6c-9e0b-1d2e3f4a5b6c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: fd49445fcbc1cac73b5e981a23552690f6ccd1a4
+source-git-commit: 3756e104086c83bbca88b2fe770a40a8e9f39ef3
 workflow-type: tm+mt
-source-wordcount: 548
+source-wordcount: 565
 ht-degree: 5%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 5%
 
 충성도 문제는 ID, 프로필 속성, 경험 이벤트 및 대상에 대해 Adobe Experience Platform에 의존합니다. 이 페이지를 사용하여 문제를 작성하거나 충성도 문제 API를 사용하기 전에 준비할 데이터, 관련된 데이터 세트 및 **TTL(time-to-live)**&#x200B;이(가) 유지에 미치는 영향을 알아봅니다.
 
-Journey Optimizer 프로그램 설정을 위해 Adobe 관리자에게 문의하거나 **[!UICONTROL 충성도 구성]** 메뉴에서 보상 이행 및 이벤트 매핑을 구성하십시오. [충성도 문제를 구성하는 방법을 알아보세요](loyalty-admin.md). REST 끝점 및 인증의 경우 [충성도 도전 API 참조](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}를 참조하십시오.
+Journey Optimizer 프로그램 설정을 위해 Adobe 관리자에게 문의하거나 **[!UICONTROL 충성도 구성]** 메뉴에서 보상 이행 및 이벤트 매핑을 구성하십시오. [충성도 문제를 구성하는 방법을 알아보세요](loyalty-admin.md). REST 끝점 및 인증의 경우 [충성도 시도 메타데이터 API 참조](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"} 및 [충성도 시도 상태 API 참조](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges-state){target="_blank"}를 참조하십시오.
 
 ## 소스를 통한 충성도 커넥터 {#loyalty-connectors-sources}
 
@@ -43,11 +43,11 @@ Journey Optimizer 설명서에 나열된 충성도 및 보상 커넥터는 다�
 
 Challenge 대상자, 개인화 및 보고는 **[!DNL XDM Individual Profile]** 클래스의 프로필을 사용합니다. 충성도 문제에 사용하는 ID [네임스페이스](https://experienceleague.adobe.com/ko/docs/experience-platform/identity/features/namespaces){target="_blank"}를 프로필 데이터에서 구성원이 식별되는 방식과 **[!UICONTROL 충성도 구성]** 메뉴의 **[!UICONTROL 전역 설정]**&#x200B;에서 선택한 네임스페이스와 연결합니다.
 
-프로필의 표준 충성도 특성(포인트, 계층, 프로그램, 상태 및 관련 필드)에 대해서는 Experience Platform **[충성도 세부 정보](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}** 스키마 필드 그룹을 사용하십시오. 해당 필드 그룹은 `loyalty` 개체와 해당 속성을 정의합니다(예: `points`, `tier`, `program` 및 `status`).
+프로필의 표준 충성도 특성(포인트, 계층, 프로그램, 상태 및 관련 필드)에 대해서는 Experience Platform **[충성도 세부 정보](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}** 스키마 필드 그룹을 사용하십시오. 해당 필드 그룹은 `loyalty` 개체와 해당 속성을 정의합니다(예: `points`, `tier`, `program` 및 `status`).
 
-➡️ [충성도 세부 정보 스키마 필드 그룹](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
+➡️ [충성도 세부 정보 스키마 필드 그룹](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
 
-➡️ [AJO 스키마 사전](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ko){target="_blank"}
+➡️ [AJO 스키마 사전](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=en){target="_blank"}
 
 ### 경험 이벤트 {#experience-events}
 
