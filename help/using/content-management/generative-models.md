@@ -10,7 +10,7 @@ exl-id: 9ef6b02c-0a17-4b46-bcd3-8e922eef059a
 feature_v2: []
 subfeature_v2:
   - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
 source-wordcount: 593
 ht-degree: 2%
@@ -30,7 +30,7 @@ ht-degree: 2%
 요구 사항에 맞는 모델을 선택하십시오.
 
 - Firefly Image Model 4에서 제공하는 **[!UICONTROL Adobe 모델]**&#x200B;은(는) 즉시 제공되며 추가 설정 없이 즉각적인 이미지 생성에 사용할 수 있습니다.
-- Gemini 2.5 Flash에서 제공하는 **[!UICONTROL 파트너 모델]**&#x200B;은(는) 특정 사용 사례에 특화된 기능을 제공합니다. AI Assistant의 이미지에 대해 **텍스트 오버레이**&#x200B;와 함께 **Gemini**&#x200B;를 사용하는 단계별 워크플로에 대해서는 [텍스트 오버레이 이미지에 대한 생성 모델로 Gemini 사용](generative-uc.md#generative-gemini)을 참조하십시오.
+- Gemini 2.5 Flash에서 제공하는 **[!UICONTROL 파트너 모델]**&#x200B;은(는) 특정 사용 사례에 특화된 기능을 제공합니다. 콘텐츠 생성의 이미지에 대해 **텍스트 오버레이**&#x200B;와 함께 **Gemini**&#x200B;를 사용하는 단계별 워크플로에 대해서는 [텍스트 오버레이 이미지에 대한 생성 모델로 Gemini 사용](generative-uc.md#generative-gemini)을 참조하십시오.
 - **[!UICONTROL 사용자 지정 모델]**&#x200B;은(는) 자신의 자산에 대해 교육되고 조직에서 추가한 브랜드별 모델입니다.
 
   [Adobe Firefly 설명서](https://helpx.adobe.com/kr/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html)의 **[!UICONTROL 사용자 지정 모델]**&#x200B;에 대해 자세히 알아보기

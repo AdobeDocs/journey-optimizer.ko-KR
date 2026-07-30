@@ -22,10 +22,10 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 4f2e411877feb8c6dfd05832436d2f34bd1be374
+source-git-commit: 0af0c5b08ba95c1cc664e63de17afe7e21abab07
 workflow-type: tm+mt
-source-wordcount: 1213
-ht-degree: 7%
+source-wordcount: 1635
+ht-degree: 5%
 
 ---
 
@@ -49,20 +49,21 @@ Adobe Experience Manager as a Cloud Service의 Dynamic Media에 대한 자세한
 >
 >의료 고객의 경우 Journey Optimizer Healthcare Shield 및 Adobe Experience Manager Extended Security for Healthcare 추가 기능 오퍼링의 라이선스가 있을 때만 통합이 가능합니다.
 
+## 고려 사항
+
+* Adobe Experience Manager as a Cloud Service에서 OpenAPI가 포함된 Dynamic Media가 활성화되어 있는지 확인합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview#enable-dynamic-media-open-apis){target="_blank"}
+
+* Adobe Journey Optimizer과 Dynamic Media 통합은 Dynamic Media [Scene7 모드](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"} 및 [OpenAPI를 통해](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}할 수 있습니다.
+
+* Dynamic Media Scene7 자산의 경우 Journey Optimizer은 URL의 시작 부분에 기본 수정자(`bfc=off&fmt=png-alpha`)를 추가합니다. 사전 설정에서 `fmt` 또는 `bfc`도 설정하는 경우 Scene7에서 반복된 매개 변수의 마지막 항목을 사용하므로 이 설정이 우선합니다. 예기치 않은 결과가 발생하지 않도록 하려면 사전 설정에서 `fmt`/`bfc`을(를) 제거하거나 URL의 기본 수정자 앞으로 이동하십시오.
+
+* 자산 선택기가 `/images` 기반 URL 형식을 반환합니다. GIF 또는 SVG과 같은 원래 형식의 자산을 전달하려면 대신 `/content` 경로를 사용하도록 URL을 수동으로 업데이트해야 합니다. 자세한 내용은 [Dynamic Media 모범 사례 설명서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dm-journey/dm-best-practices#deliver-gif-images){target="_blank"}를 참조하세요.
+
 
 ## Dynamic Media 추가 및 관리 {#dynamic-media}
 
-
 Adobe Experience Manager as a Cloud Service의 Dynamic Media를 Journey Optimizer 콘텐츠에 직접 삽입하여 화면 또는 브라우저에 맞게 콘텐츠를 개선하고 최적화합니다.  그런 다음 필요에 따라 크기를 조정하고, 자르고, 강화하고, 기타 조정할 수 있습니다.
 
-
->[!IMPORTANT]
->
->Adobe Experience Manager as a Cloud Service에서 OpenAPI가 포함된 Dynamic Media가 활성화되어 있는지 확인합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview#enable-dynamic-media-open-apis){target="_blank"}
-
-Adobe Journey Optimizer과 Dynamic Media 통합은 Dynamic Media [Scene7 모드](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"} 및 [OpenAPI를 통해](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}할 수 있습니다.
-
-Dynamic Media Scene7 자산의 경우 Journey Optimizer은 URL의 시작 부분에 기본 수정자(`bfc=off&fmt=png-alpha`)를 추가합니다. 사전 설정에서 `fmt` 또는 `bfc`도 설정하는 경우 Scene7에서 반복된 매개 변수의 마지막 항목을 사용하므로 이 설정이 우선합니다. 예기치 않은 결과가 발생하지 않도록 하려면 사전 설정에서 `fmt`/`bfc`을(를) 제거하거나 URL의 기본 수정자 앞으로 이동하십시오.
 
 <!--
 >[!AVAILABILITY]
@@ -219,6 +220,59 @@ HTML 구성 요소를 사용하여 다이내믹 템플릿을 콘텐츠에 직접
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 테스트를 수행하고 콘텐츠의 유효성을 검사하면 대상자에게 메시지를 보낼 수 있습니다.
+
+## 카운트다운 타이머 삽입 {#countdown}
+
+수신자가 이메일을 열면 실시간으로 업데이트되는 Dynamic Media 카운트다운 타이머로 긴급도를 만들고 전환을 극대화합니다. 이 기능은 플래시 판매, 제한 시간 오퍼 및 시간에 민감한 프로모션에 이상적입니다.
+
+예를 들어 소매 브랜드의 마케터는 48시간 플래시 세일을 실행합니다. 프로모션 이메일에 카운트다운 타이머를 사용하여 다음을 수행합니다.
+
+* 즉시 여는 수신자에게는 &quot;47시간 남음&quot;이 표시됩니다.
+* 24시간 후에 여는 수신자는 &quot;23시간 남음&quot;을 확인합니다.
+* 판매 종료 후 오픈하는 수신자에게는 &quot;시간이 다 되었습니다!&quot;가 표시됩니다.
+
+Adobe Experience Manager에서 Dynamic Media 템플릿에 카운트다운 타이머를 추가하는 방법에 대한 자세한 내용은 [이 문서](assets/do-not-localize/countdown.pdf)를 참조하십시오.
+
+
+1. **[!DNL Adobe Experience Manager]**&#x200B;에서 Dynamic Media 템플릿을 만들고 카운트다운 타이머 구성 요소를 추가합니다.
+
+   ![](assets/timer-1.png)
+
+1. **[!DNL Journey Optimizer]**&#x200B;에서 새 캠페인을 만들거나 기존 캠페인을 연 다음 이메일 Designer에 액세스합니다.
+
+1. **HTML** 또는 **에셋** 구성 요소를 전자 메일 콘텐츠로 끌어다 놓습니다.
+
+1. 구성 요소 위로 마우스를 가져간 후 **[!UICONTROL 소스 코드 표시]**(HTML 구성 요소의 경우) 또는 **[!UICONTROL 찾아보기]**(에셋 구성 요소의 경우)를 클릭합니다.
+
+   ![](assets/timer-2.png)
+
+1. **[!UICONTROL HTML 편집]** 메뉴에서 **[!UICONTROL Assets]**(으)로 이동하고 **[!UICONTROL 자산 선택기 열기]**&#x200B;를 클릭하여 게시된 Dynamic Media 템플릿을 찾아 선택합니다.
+
+   ![](assets/timer-3.png)
+
+1. 알약을 켜짐으로 전환하여 알약 경험을 활성화하십시오. 이렇게 하면 긴 속성 경로를 숨겨서 가독성이 향상됩니다.
+
+   ![](assets/timer-6.png)
+
+1. **[!UICONTROL 사용자 지정 특성]** 메뉴에서 템플릿에 필요한 사용자 지정 가능한 URL 매개 변수를 구성합니다.
+
+   완료되면 **[!UICONTROL 저장]**&#x200B;을 클릭하세요.
+
+   ![](assets/timer-4.png)
+
+1. 또는 전자 메일 Designer에서 자산을 선택한 다음 **[!UICONTROL 설정]** 메뉴에 액세스하여 Dynamic Media 템플릿의 매개 변수에 액세스할 수도 있습니다.
+
+   다음을 구성합니다.
+
+   * **배너 텍스트**: 타이머에 표시되는 텍스트입니다.
+   * **종료 시간**: 카운트다운이 만료되는 날짜와 시간입니다. GMT(그리니치 표준시)로만 시간을 입력합니다. 시스템에서 다른 시간대를 허용하지 않습니다.
+   * **대체 텍스트**: 타이머가 끝난 후에 표시되는 메시지
+
+   ![](assets/timer-5.png)
+
+1. 실시간 카운트다운 업데이트가 적용된 타이머를 보고 구성을 확인하려면 **[!UICONTROL 미리 보기]**&#x200B;를 클릭하세요.
+
+수신자가 이메일을 열면 플래시 세일이 남은 정확한 시간을 보게 됩니다. 나중에 이메일을 다시 열면 카운트다운이 현재 남은 시간을 반영하도록 자동으로 업데이트됩니다. 종료 날짜 이후에 기본 메시지가 자동으로 표시됩니다.
 
 ## 사용 방법 비디오 {#video}
 

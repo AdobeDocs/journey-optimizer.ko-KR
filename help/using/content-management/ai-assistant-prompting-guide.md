@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: AI Assistant 콘텐츠 프롬프트 안내서
+title: 콘텐츠 생성 안내
 description: CO-STAR 프레임워크를 사용하여 AI 기반 콘텐츠 생성을 위한 효과적인 프롬프트를 만들어 고도로 전환하고 브랜드 맞춤화된 마케팅 콘텐츠를 만드는 방법에 대해 알아봅니다.
 topic: Artificial Intelligence
 role: User
@@ -25,18 +25,18 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 subfeature_v2:
   - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 2328
-ht-degree: 2%
+source-wordcount: 2327
+ht-degree: 1%
 
 ---
 
-# AI 어시스턴트 프롬프트 모범 사례 {#ai-assistant-prompting-guide}
+# 콘텐츠 프롬프트 모범 사례 생성 {#ai-assistant-prompting-guide}
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** 프롬프트 도우미와 CO-STAR 프레임워크를 사용하여 효과적인 AI Assistant 프롬프트를 작성하여 Adobe Journey Optimizer에서 높은 전환율의 브랜드 내 마케팅 콘텐츠를 생성하는 방법을 알아봅니다.
+**이 페이지에서:** 프롬프트 도우미와 CO-STAR 프레임워크를 사용하여 효과적인 콘텐츠 생성 프롬프트를 작성하여 Adobe Journey Optimizer에서 전환율이 높은 브랜드 내 마케팅 콘텐츠를 생성하는 방법을 알아봅니다.
 
 >[!ENDSHADEBOX]
 
@@ -46,13 +46,13 @@ ht-degree: 2%
 >abstract="Journey Optimizer 설명서에서 전환율이 높고 브랜드에 맞는 마케팅 콘텐츠를 생성하는 효과적인 프롬프트를 만드는 방법을 알아보십시오."
 
 이 안내서는 요청을 구조화하고, 의도를 명확하게 전달하며, AI가 브랜드 지침, 대상 요구 사항 및 캠페인 목표에 맞는 메시지를 생성하도록 도와줍니다.
-AI Assistant를 통해 목표에 맞는 고품질의 온-브랜드 마케팅 콘텐츠를 생성할 수 있는 효과적인 프롬프트를 작성하는 방법을 알아봅니다.
+AI를 사용하여 목표에 맞는 고품질의 온브랜드 마케팅 콘텐츠를 생성할 수 있는 효과적인 프롬프트를 작성하는 방법을 알아봅니다.
 
 ## 프롬프트 길잡이 사용 {#prompt-assistant}
 
 프롬프트 도우미는 콘텐츠 생성이 앞뒤로 덜 필요하도록 열기 프롬프트를 강화하는 데 도움이 됩니다. 첫 번째 입력에서 제안, 제안된 재작성, 선택적 개선 사항 및 명확한 질문을 얻을 수 있습니다. 답변에서는 콘텐츠를 생성하는 데 사용되는 프롬프트를 구체화합니다.
 
-1. 콘텐츠를 생성하기 전에 **[!UICONTROL AI 길잡이]** 메뉴에서 **[!UICONTROL 프롬프트 길잡이]**&#x200B;를 열어 프롬프트를 구체화하십시오.
+1. **[!UICONTROL 콘텐츠 생성]** 메뉴에서 **[!UICONTROL 프롬프트 길잡이]**&#x200B;를 열어 콘텐츠를 생성하기 전에 프롬프트를 구체화하십시오.
 
    ![](assets/prompt-assistant-1.png)
 
@@ -80,7 +80,7 @@ AI Assistant를 통해 목표에 맞는 고품질의 온-브랜드 마케팅 콘
 
 ## CO-STAR 프레임워크 사용 {#costar-framework}
 
-AI Assistant를 사용하여 최상의 결과를 얻으려면 CO-STAR 프레임워크를 사용하여 프롬프트를 구성하십시오. 이러한 구조화된 접근 방식은 AI가 사용자가 필요로 하는 것을 정확히 이해할 수 있도록 해줍니다.
+콘텐츠 생성을 통해 최상의 결과를 얻으려면 CO-STAR 프레임워크를 사용하여 프롬프트를 구성합니다. 이러한 구조화된 접근 방식은 AI가 사용자가 필요로 하는 것을 정확히 이해할 수 있도록 해줍니다.
 
 | 구성 요소 | 의미 | 이것이 중요한 이유 |
 |-|-|-|

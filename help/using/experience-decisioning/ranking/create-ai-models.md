@@ -25,7 +25,7 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+source-git-commit: aa54f1b153e25bfb2d00413c548002af075e32c1
 workflow-type: tm+mt
 source-wordcount: 806
 ht-degree: 16%
@@ -126,7 +126,7 @@ AI 모델을 만들려면 아래 단계를 수행합니다.
 
    >[!NOTE]
    >
-   >최대 5개의 대상을 선택할 수 있습니다.
+   >최대 50개의 대상을 선택할 수 있습니다.
 
 1. AI 모델을 저장하고 활성화합니다. 모델이 라이브되면 [교육 상태 및 성과를 모니터링](ai-model-observability.md)할 수 있습니다.
 

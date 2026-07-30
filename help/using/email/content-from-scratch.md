@@ -28,9 +28,9 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 773
+source-wordcount: 772
 ht-degree: 49%
 
 ---
@@ -98,7 +98,7 @@ ht-degree: 49%
    ![](assets/email_designer.png)
 
 
-1. AI Assistant를 사용하여 이메일 만들기 속도를 높이고 [전체 콘텐츠 생성을 위한 AI Assistant](../content-management/generative-full-content.md)를 사용하여 텍스트 및 이미지로 전체 이메일 콘텐츠를 생성합니다.
+1. [AI로 전체 콘텐츠 생성](../content-management/generative-full-content.md)을 사용하여 콘텐츠 생성을 통해 이메일 만들기 속도를 높이고 텍스트 및 이미지로 전체 이메일 콘텐츠를 생성합니다.
 
 1. **[!UICONTROL Structures]**&#x200B;을(를) 캔버스로 끌어다 놓아 전자 메일의 레이아웃을 정의하여 콘텐츠 디자인을 시작합니다.
 

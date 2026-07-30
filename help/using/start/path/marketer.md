@@ -27,10 +27,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 1737
-ht-degree: 94%
+source-wordcount: 1733
+ht-degree: 92%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 94%
 1. **대상자 만들기**. 세그먼트 정의를 통해 대상자를 만들거나, CSV 파일을 업로드하거나, 대상자 구성을 사용하세요. Journey Optimizer는 적합한 고객을 타깃팅하는 다양한 방법을 제공합니다. [대상](../../audience/about-audiences.md) 및 [세그먼트 정의 만들기](../../audience/creating-a-segment-definition.md)에 대해 자세히 알아보세요.
 
 1. **콘텐츠 디자인** 이메일, SMS, 푸시, 웹 푸시 인앱, 웹, 다이렉트 메일, 콘텐츠 카드를 포함하여 모든 채널에서 매력적인 메시지를 만듭니다.
-   * **AI 어시스턴트**&#x200B;를 사용하여 브랜드 지침을 기반으로 이메일 콘텐츠, 제목 줄 및 이미지를 생성합니다. [AI 콘텐츠 생성에 대해 알아보기](../../content-management/gs-generative.md)
+   * AI를 사용하여 브랜드 지침을 기반으로 이메일 콘텐츠, 제목 줄 및 이미지를 생성합니다. [AI 콘텐츠 생성에 대해 알아보기](../../content-management/gs-generative.md)
    * 고객 데이터, 다이내믹 콘텐츠 및 조건부 논리를 사용하여 **메시지를 개인화**&#x200B;합니다. [개인화에 대해 알아보기](../../personalization/personalize.md)
    * 이벤트, 사용자 지정 작업 및 데이터 집합 조회의 동적 목록을 표시하려면 **상황별 데이터를 반복합니다**. [상황별 데이터 반복에 대해 알아보기](../../personalization/iterate-contextual-data.md)
    * 브랜드 일관성을 유지하기 위해 재사용 가능한 **콘텐츠 템플릿** 및 **조각**&#x200B;을 만듭니다. [템플릿 작업](../../content-management/content-templates.md)
@@ -130,7 +130,7 @@ ht-degree: 94%
 
 * **템플릿으로 시작**: 사전 설치 템플릿과 콘텐츠 조각을 사용하여 제작 속도를 높이고 일관성을 유지합니다.
 * **초기에 테스트, 자주 테스트**: 모든 장치에서 항상 콘텐츠를 미리 보고 테스트 프로필을 사용하여 개인화의 유효성을 검증합니다.
-* **AI를 현명하게 활용**: AI 어시스턴트는 초기 초안 및 변형 작업에 활용하되, 항상 브랜드 이미지에 맞게 검토하고 다듬어야 합니다.
+* **AI를 현명하게 활용**: 초기 초안 및 변형에 AI를 사용하되 브랜드 목소리에 맞게 항상 검토하고 구체화합니다
 * **단순하게 유지**: 명확하고 간결한 메시지와 강력한 행동 유도 문구(CTA)가 복잡한 레이아웃보다 더 나은 성과를 냅니다.
 
 ### 여정 디자인
@@ -235,7 +235,7 @@ Journey Optimizer의 기능을 보여주는 실제 사례를 통해 알아보세
 ## 다음 단계
 
 1. **작게 시작**: 플랫폼 학습을 위한 간단한 환영 여정 또는 단일 메시지 캠페인을 만듭니다.
-2. **AI 활용**: AI 어시스턴트를 활용하여 질문하고 콘텐츠 제작 속도를 높입니다.
+2. **AI 활용**: AI를 사용하여 질문하고 콘텐츠 생성을 가속화하십시오
 3. **커뮤니티에 참여**: [Experience League 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"}에서 다른 Journey Optimizer 사용자와 소통합니다.
 4. **튜토리얼 살펴보기**: [Experience League](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=ko){target="_blank"}에서 단계별 비디오를 봅니다.
 

@@ -22,10 +22,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: c13ff12d-60f1-49cd-833a-d43359628223
-source-git-commit: 75ebd043971ce40e2da0f627622441a46a8e667c
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 1314
-ht-degree: 19%
+source-wordcount: 1313
+ht-degree: 18%
 
 ---
 
@@ -139,7 +139,7 @@ SMS 환경을 설정하고 구성하는 방법 알아보기:
 * [메시지 미리 보기, 테스트, 보내기](send-mobile-message.md)
 * [모바일 메시지의 Personalization](../personalization/personalize.md)
 * [다이내믹 콘텐츠](../personalization/get-started-dynamic-content.md)
-* [AI 어시스턴트로 SMS 콘텐츠 생성](../content-management/generative-text.md)
+* [AI로 SMS 콘텐츠 생성](../content-management/generative-text.md)
 
 +++
 

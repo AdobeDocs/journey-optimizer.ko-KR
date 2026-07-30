@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 여정 최적화 도구, 사용 사례, 의사 결정 안내서, 기능, 시작, 실무자 목표, 자습서
-source-git-commit: bcf3f322bad0602d0cc2cffc41229eacdcfe93e1
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: '3186'
-ht-degree: 30%
+source-wordcount: '3183'
+ht-degree: 29%
 
 ---
 
@@ -298,7 +298,7 @@ AI는 이러한 많은 기능에 내장되어 있습니다. 아래 표에서 **(
 
 **역할:** 마케터 | **핵심 기능:** [콘텐츠 생성 + 실험](ai-features.md)
 
-제품 출시를 계획하는 소매 브랜드에서 Journey Optimizer의 AI 어시스턴트를 사용하여 자연어 프롬프트 및 업로드된 브랜드 지침에 기반한 여러 제목 및 본문 카피 베리에이션을 몇 분만에 생성합니다. 기본 제공 콘텐츠 실험은 초기 대상자 샘플 중에서 가장 성과가 좋은 변형을 자동으로 식별합니다. 그런 다음 우수성이 검증된 메시지가 나머지 수신자에게 배포되어 추가적인 카피라이팅 노력 없이 참여도를 극대화할 수 있습니다.
+제품 출시를 계획하는 소매 브랜드는 자연어 프롬프트 및 업로드된 브랜드 지침에 따라 Journey Optimizer의 콘텐츠 생성 을 사용하여 몇 분 만에 여러 제목란 및 본문 사본 변형을 생성합니다. 기본 제공 콘텐츠 실험은 초기 대상자 샘플 중에서 가장 성과가 좋은 변형을 자동으로 식별합니다. 그런 다음 우수성이 검증된 메시지가 나머지 수신자에게 배포되어 추가적인 카피라이팅 노력 없이 참여도를 극대화할 수 있습니다.
 
 [지능형 기능 살펴보기](ai-features.md) | [콘텐츠 실험에 대해 알아보기](../content-management/experiment-accelerator-gs.md)
 
@@ -328,7 +328,7 @@ AI는 이러한 많은 기능에 내장되어 있습니다. 아래 표에서 **(
 
 >[!TAB Personalization 및 인텔리전스]
 
-* [콘텐츠 생성을 위한 AI 도우미](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/content-management/ai-assistant/ai-assistant-for-content-generation-overview){target="_blank"} - 복사본, 이미지 및 변형을 생성합니다.
+* [콘텐츠 생성](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/content-management/ai-assistant/ai-assistant-for-content-generation-overview){target="_blank"} - 복사본, 이미지 및 변형을 생성합니다.
 * [의사 결정을 사용하여 웹 오퍼를 개인화합니다](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/use-decisioning-to-personalize-web-offers/introduction){target="_blank"} — 고객별로 오퍼를 사용자 지정합니다.
 
 >[!TAB 보고 및 최적화]

@@ -9,9 +9,9 @@ role: User
 level: Beginner
 hide: true
 keywords: 여정 최적화 도구, 온보딩, 온보딩 허브, 사용 사례, 비디오, 자습서, 시작하기, 램프 업, 첫 여정
-source-git-commit: 3aba16758fb9e0700acd8fadfaa8e25fec253e89
+source-git-commit: ca3fef2ea7377ab441be9b2bec2132eb46b5c4bb
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1114'
 ht-degree: 12%
 
 ---
@@ -133,7 +133,7 @@ rebuild
 
 >[!TAB Personalization 및 AI]
 
-* [콘텐츠 생성을 위한 AI 도우미](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/content-management/ai-assistant/ai-assistant-for-content-generation-overview){target="_blank"} - 복사본, 이미지 및 변형을 생성합니다.
+* [콘텐츠 생성](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/content-management/ai-assistant/ai-assistant-for-content-generation-overview){target="_blank"} - 복사본, 이미지 및 변형을 생성합니다.
 * [의사 결정을 사용하여 웹 오퍼를 개인화합니다](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/use-decisioning-to-personalize-web-offers/introduction){target="_blank"} — 고객별로 오퍼를 사용자 지정합니다.
 
 >[!TAB 보고 및 최적화]
@@ -156,7 +156,7 @@ rebuild
 
 ## 관련 리소스 {#related-resources}
 
-<!--* [Migrate content and journeys](migrate-content-and-journeys.md) — Import email content and journeys from another marketing platform.-->
+* [컨텐츠 및 여정 마이그레이션](migrate-content-and-journeys.md) - 다른 마케팅 플랫폼에서 전자 메일 컨텐츠 및 여정을 가져옵니다.
 * [목표에 적합한 Journey Optimizer 기능 찾기](ajo-use-case-guide.md) — 모든 기능에 대한 목표 우선 결정 가이드.
 * [여정 사용 사례 라이브러리](../building-journeys/jo-use-cases.md) - 실제 예제 및 구현 패턴입니다.
 * [주요 용어](terminology.md) — 각 기능의 개념을 명확히 설명하십시오.

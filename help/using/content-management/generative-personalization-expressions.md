@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 개인화 표현식에 AI 어시스턴트 사용
-description: Journey Optimizer에서 AI Assistant를 사용하여 Personalization 편집기의 자연어에서 개인화 표현식을 생성하는 방법과 이메일 Designer에서 표현식 추가 컨트롤이 작동하는 방법에 대해 알아봅니다.
+title: 개인화 표현식에 대한 콘텐츠 생성
+description: Journey Optimizer에서 컨텐츠 생성을 사용하여 Personalization 편집기의 자연어에서 개인화 표현식을 생성하는 방법과 이메일 Designer에서 표현식 추가 컨트롤이 작동하는 방법을 알아봅니다.
 feature: Content Assistant
 topic: Content Management, Artificial Intelligence
 role: User
@@ -12,18 +12,18 @@ feature_v2: []
 subfeature_v2:
   - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
   - id: c41e8697-e629-4c38-96b3-564faaa17acf
-source-git-commit: f46a758de27bcc49e7c370dac7bd8108d17803b5
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 1540
-ht-degree: 2%
+source-wordcount: 1541
+ht-degree: 1%
 
 ---
 
-# 개인화 표현식에 AI 어시스턴트 사용{#generative-personalization-expressions}
+# 개인화 표현식에 대한 콘텐츠 생성{#generative-personalization-expressions}
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** Adobe Journey Optimizer에서 AI Assistant를 사용하여 Personalization 편집기 및 이메일 Designer에서 자연어로 개인화 표현식을 생성하고 수정하고 설명하는 방법을 알아봅니다.
+**이 페이지에서:** Adobe Journey Optimizer에서 콘텐츠 생성을 사용하여 Personalization 편집기 및 이메일 Designer에서 자연어로 개인화 표현식을 생성하고 수정하고 설명하는 방법을 알아봅니다.
 
 >[!ENDSHADEBOX]
 
@@ -32,22 +32,22 @@ ht-degree: 2%
 >이 기능의 사용을 시작하기 전에 관련 [보호 기능 및 제한 사항](gs-generative.md#generative-guardrails)을 읽어 보십시오.
 ></br>
 >
->Journey Optimizer에서 AI Assistant를 사용하려면 [사용자 계약](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
+>Journey Optimizer에서 콘텐츠 생성을 사용하려면 [사용자 동의](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
 ## 개요 {#where-available}
 
-[!UICONTROL AI Assistant]를 사용하면 일반 언어로 새로운 개인화를 생성하고, 기존 표현식이 수행하는 작업을 설명하고, 선택한 코드의 문제를 수정하여 구문 및 수동 필드 검색에 드는 시간을 줄일 수 있습니다. 선택 내용을 반복하거나 대화의 다른 변경 사항을 요청할 수도 있습니다. 다음 두 가지 방법으로 사용할 수 있습니다.
+[!UICONTROL 콘텐츠 생성]을 통해 일반 언어로 새로운 개인화를 생성하고, 기존 식이 수행하는 작업을 설명하고, 선택한 코드의 문제를 수정하여 구문 및 수동 필드 검색에 드는 시간을 줄일 수 있습니다. 선택 내용을 반복하거나 대화의 다른 변경 사항을 요청할 수도 있습니다. 다음 두 가지 방법으로 사용할 수 있습니다.
 
 * **[!UICONTROL Personalization 편집기]** — 여러 채널(제목 줄, 본문 및 이를 여는 기타 필드)에서 편집기를 사용할 수 있는 모든 위치. 다음은 AI 지원 개인화의 일반적인 경로입니다. 편집기를 여는 위치 및 방법은 [개인화 추가](../personalization/personalization-build-expressions.md#where)를 참조하십시오.
 * **전자 메일 Designer 도구 모음** — 전자 메일 Designer에서 전자 메일을 작성할 때 구성 요소를 선택하고 상황별 도구 모음에서 **[!UICONTROL 식 추가]**&#x200B;를 사용하여 전체 편집기를 먼저 열지 않고 도구 상자에서 도우미를 엽니다. 이 진입점은 이메일 작성 외부에서는 사용할 수 없습니다. [전자 메일 Designer에서 생성](#generate-email-designer)을 참조하세요.
 
-더 광범위한 AI Assistant 설정 및 언어에 대해서는 [AI Assistant 시작](gs-generative.md)을 참조하십시오. 개인화 개념에 대해서는 [개인화 시작](../personalization/personalize.md)을 참조하십시오. 사용 가능한 표현식을 생성하는 프롬프트를 작성하려면 [개인화 표현식에 대한 유효 프롬프트 작성](#prompt-best-practices)을 참조하십시오. 콘텐츠 생성 프롬프트 아이디어(톤, 스타일, 브랜드)에 대해서는 [AI 프롬프트 모범 사례](ai-assistant-prompting-guide.md)를 참조하십시오.
+더 광범위한 콘텐츠 생성 설정 및 언어는 [콘텐츠 생성 시작](gs-generative.md)을 참조하십시오. 개인화 개념에 대해서는 [개인화 시작](../personalization/personalize.md)을 참조하십시오. 사용 가능한 표현식을 생성하는 프롬프트를 작성하려면 [개인화 표현식에 대한 유효 프롬프트 작성](#prompt-best-practices)을 참조하십시오. 콘텐츠 생성 프롬프트 아이디어(색조, 스타일, 브랜드)에 대해서는 [콘텐츠 프롬프트 모범 사례 생성](ai-assistant-prompting-guide.md)을 참조하십시오.
 
 캠페인 또는 여정 컨텍스트에 따라 도우미는 데이터를 사용하여 작업하고 이미 노출된 [!UICONTROL Personalization 편집기]를 구성할 수 있습니다(예: 프로필 특성, 세그먼트 멤버십, 도우미 기능 및 관련 개인화 소스).
 
 >[!NOTE]
 >
->해당 세션에서 [!UICONTROL AI Assistant]가 열려 있는 동안에만 도우미가 프롬프트에서 컨텍스트를 유지합니다. 도우미나 편집기를 닫으면 대화가 지워집니다. 다음에 도우미를 열면 새 대화가 시작됩니다.
+>[!UICONTROL 콘텐츠 생성]이 해당 세션에서 열려 있는 동안에만 도우미가 프롬프트에서 컨텍스트를 유지합니다. 도우미나 편집기를 닫으면 대화가 지워집니다. 다음에 도우미를 열면 새 대화가 시작됩니다.
 
 ## 개인화 표현식 생성 {#generate}
 
@@ -55,7 +55,7 @@ ht-degree: 2%
 
 1. 메시지 또는 콘텐츠에서 **[!UICONTROL Personalization 편집기]**&#x200B;를 엽니다.
 
-1. 생성된 개인화 코드를 삽입할 편집기에 커서를 놓은 다음 **[!UICONTROL AI 길잡이]** 단추를 클릭합니다.
+1. 생성된 개인화 코드를 삽입할 편집기에 커서를 놓은 다음 **[!UICONTROL 콘텐츠 생성]** 단추를 클릭합니다.
 
    ![](assets/ai-perso-access.png)
 
@@ -93,21 +93,21 @@ ht-degree: 2%
    >
    >이 컨트롤은 편집기에서 개인화 코드를 빠르게 검사하기 위한 것이며 콘텐츠의 전체 메시지 미리 보기가 아닙니다. 경험에 대한 완전한 유효성 검사는 일반적인 시뮬레이션 흐름을 사용하십시오. [콘텐츠를 미리 보고 테스트하는 방법에 대해 알아보세요](../content-management/preview-test.md)
 
-1. 개인화 식에서 출력을 구현하려면 **[!UICONTROL 적용]**&#x200B;을 클릭합니다. 도우미 출력은 개인화 편집기의 커서 위치에 삽입됩니다. 이미 있는 코드를 대신 바꾸려면 먼저 편집기에서 해당 코드를 선택한 다음 **[!UICONTROL AI 도우미로 편집]**&#x200B;을 사용합니다([기존 코드 편집, 수정 또는 설명](#edit-existing) 참조).
+1. 개인화 식에서 출력을 구현하려면 **[!UICONTROL 적용]**&#x200B;을 클릭합니다. 도우미 출력은 개인화 편집기의 커서 위치에 삽입됩니다. 이미 있는 코드를 대신 바꾸려면 먼저 편집기에서 해당 코드를 선택한 다음 **[!UICONTROL 콘텐츠로 편집]**&#x200B;을 사용합니다([기존 코드 편집, 수정 또는 설명](#edit-existing) 참조).
 
    출력을 복사한 후 ![복사 아이콘](../orchestrated/assets/do-not-localize/activity-copy.svg) 아이콘을 사용하여 필요한 위치에 붙여넣을 수도 있습니다.
 
 ## 기존 코드 편집, 수정 또는 설명 {#edit-existing}
 
-기존 개인화 표현식을 선택하고 AI Assistant를 사용하여 개인화 문제를 해결하거나, 코드의 기능을 설명하거나, 기타 변경 사항을 요청할 수 있습니다.
+기존 개인화 표현식을 선택하고 콘텐츠 생성 을 사용하여 개인화 문제를 해결하거나, 코드의 기능을 설명하거나, 다른 변경 사항을 요청할 수 있습니다.
 
 1. 편집기에서 기존 개인화 코드를 선택합니다.
 
-1. 선택 항목을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL AI 도우미로 편집]**&#x200B;을 선택하면 도우미가 선택 항목을 컨텍스트로 사용합니다.
+1. 선택 항목을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL 콘텐츠를 사용하여 편집]**&#x200B;을 선택하면 도우미가 선택 항목을 컨텍스트로 사용합니다.
 
    ![](assets/ai-perso-right-click.png)
 
-1. **[!UICONTROL AI 길잡이]**&#x200B;가 열립니다. **[!UICONTROL 빠른 명령]**&#x200B;에서 **[!UICONTROL 설명]** 또는 **[!UICONTROL 수정]**&#x200B;을 클릭하거나 텍스트 필드를 사용하여 다른 변경 사항을 요청하고 대화를 시작하십시오.
+1. **[!UICONTROL 콘텐츠 생성]**&#x200B;이 열립니다. **[!UICONTROL 빠른 명령]**&#x200B;에서 **[!UICONTROL 설명]** 또는 **[!UICONTROL 수정]**&#x200B;을 클릭하거나 텍스트 필드를 사용하여 다른 변경 사항을 요청하고 대화를 시작하십시오.
 
    ![](assets/ai-perso-edit.png)
 
@@ -123,7 +123,7 @@ ht-degree: 2%
 >
 >이 섹션은 전자 메일 Designer에서 **전자 메일** 콘텐츠를 편집하는 경우에만 적용됩니다. 다른 채널의 경우 **[!UICONTROL Personalization 편집기]**&#x200B;를 사용하십시오.
 
-이메일 Designer에서 먼저 전체 [!UICONTROL Personalization 편집기]를 열지 않고도 상황별 도구 모음에서 개인화 표현식에 [!UICONTROL AI Assistant]를 사용할 수 있습니다.
+이메일 Designer에서 먼저 전체 [!UICONTROL Personalization 편집기]를 열지 않고 상황별 도구 모음에서 [!UICONTROL 개인화 식에 대한 콘텐츠 생성]을 사용할 수 있습니다.
 
 1. 이메일 Designer에서 개인화할 구성 요소를 선택하고 표현식을 삽입할 위치를 클릭합니다.
 
@@ -131,7 +131,7 @@ ht-degree: 2%
 
    ![](assets/ai-perso-add-expression.png)
 
-1. AI Assistant에 개인화를 묻는 메시지를 표시할 수 있는 도구 상자가 열립니다. 필요한 내용을 일반 언어로 입력하면 빠른 표현식 빌드를 위해 도우미가 프로필 필드 및 프롬프트와 일치하는 기타 속성을 제안합니다.
+1. 개인화를 위해 콘텐츠 생성 을 묻는 상자가 열립니다. 필요한 내용을 일반 언어로 입력하면 빠른 표현식 빌드를 위해 도우미가 프로필 필드 및 프롬프트와 일치하는 기타 속성을 제안합니다.
 
 1. 도우미가 표현식을 생성합니다.
 

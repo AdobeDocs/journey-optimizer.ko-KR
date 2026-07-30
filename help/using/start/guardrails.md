@@ -24,9 +24,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: fa7bbe1ed725874467ac3bb6c7e432b3afda52b5
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 4614
+source-wordcount: 4612
 ht-degree: 93%
 
 ---
@@ -415,9 +415,9 @@ Journey Optimizer가 캠페인에서 지원하는 최대 볼륨은 **초당 500�
 
 이 섹션에서는 랜딩 페이지, 하위 도메인, 조각을 포함한 콘텐츠 제작 및 관리에 대한 가드레일을 다룹니다.
 
-### AI 어시스턴트 가드레일 {#ai-assistant-g}
+### 콘텐츠 보호 생성 {#ai-assistant-g}
 
-지원 채널(이메일, 푸시, 웹, SMS) 및 개인화 편집기 제한 사항을 포함하여 **AI 어시스턴트 콘텐츠 생성**&#x200B;에 대한 가드레일 및 제한 사항은 [이 페이지](../content-management/gs-generative.md#generative-guardrails)에 나와 있습니다.
+지원되는 채널(이메일, 푸시, 웹, SMS) 및 개인화 편집기 제한 사항을 포함하여 **콘텐츠 생성**&#x200B;에 대한 보호 기능 및 제한 사항이 [이 페이지](../content-management/gs-generative.md#generative-guardrails)에 나열되어 있습니다.
 
 ### 랜딩 페이지 보호 {#lp-guardrails}
 

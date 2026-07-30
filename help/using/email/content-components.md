@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: e7437f4bbbb7e79e3e1cc3403342a600fc7b01c5
 workflow-type: tm+mt
-source-wordcount: 1498
-ht-degree: 46%
+source-wordcount: 1658
+ht-degree: 41%
 
 ---
 
@@ -259,3 +259,27 @@ ht-degree: 46%
 >[!IMPORTANT]
 >
 >여정의 메시지에 사용 중인 오퍼 의사 결정이 변경되는 경우 여정 게시를 취소하고 다시 게시해야 합니다.  이렇게 하면 변경 사항이 여정 메시지에 통합되고 메시지가 최신 업데이트와 일관되게 표시됩니다.
+
+## 격자 {#grid}
+
+**[!UICONTROL Grid]** 구성 요소를 사용하여 콘텐츠를 각 셀에 다른 콘텐츠 구성 요소를 포함할 수 있는 행과 열로 구성된 구조로 구성할 수 있습니다.
+
+![](assets/email_designer_grid_component.png){width="90%"}
+
+1. [Container](#container) 구성 요소와 마찬가지로 다른 콘텐츠 구성 요소를 그리드의 각 셀에 끌어다 놓습니다.
+
+   예를 들어 **[!UICONTROL Text]** 구성 요소, **[!UICONTROL Image]** 구성 요소 및 두 개의 **[!UICONTROL Button]** 구성 요소를 추가할 수 있습니다. 그런 다음 이미지를 추가하고 각 구성 요소의 콘텐츠를 개별적으로 편집할 수 있습니다.
+
+   ![](assets/email_designer_grid_component_2.png){width="90%"}
+
+1. 격자 구조를 조정하려면 격자 구조를 선택하고 전자 메일 Designer 오른쪽 창의 **[!UICONTROL 설정]** 탭으로 이동합니다.
+
+   ![](assets/email_designer_grid_component_3.png){width="90%"}
+
+1. 격자에 포함된 열과 행의 수를 정의하고 열과 행 사이의 간격을 편집하며 각 개별 열의 너비를 백분율로 변경할 수 있습니다.
+
+   >[!NOTE]
+   >
+   >열을 세로로 쌓는 대신 모바일 장치의 격자 레이아웃을 유지하려면 **[!UICONTROL 모바일 장치의 열을 쌓지 않음]** 옵션을 사용하십시오.
+
+1. 필요에 따라 다른 콘텐츠 구성 요소를 각 셀에 놓고 각 구성 요소의 **[!UICONTROL 스타일]** 탭에서 스타일을 조정합니다.

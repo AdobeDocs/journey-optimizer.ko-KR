@@ -40,10 +40,10 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: ea5309c91db90e54b0c965a34d84b29c57314c62
+source-git-commit: 1981bbe0be93316ba78d2b751cb4c4af0afc5dfe
 workflow-type: tm+mt
-source-wordcount: 2102
-ht-degree: 96%
+source-wordcount: 2101
+ht-degree: 95%
 
 ---
 
@@ -126,7 +126,7 @@ Adobe Journey Optimizer은 순차적으로 작동하는 4개의 서로 다른 �
 4. **마케터**: 고객 경험을 디자인하고 실행합니다.\
    마케터는 모든 기초적인 작업을 활용하여 고객 여정을 구축하고, 콘텐츠를 제작하며, 모든 채널에서 고객 경험을 최적화합니다.
    * 세분화, CSV 업로드 또는 대상자 컴포지션을 사용하여 대상자 작성
-   * AI 어시스턴트 및 템플릿을 사용하여 개인화된 콘텐츠 디자인
+   * 콘텐츠 생성 및 템플릿을 사용하여 개인화된 콘텐츠 디자인
    * 이벤트 및 대상자 트리거를 사용하여 다중 채널 여정 만들기
    * 실행 전 승인 워크플로를 통해 테스트
    * 보고서를 통해 얻은 인사이트를 바탕으로 성능 모니터링 및 최적화
@@ -270,7 +270,7 @@ Journey Optimizer의 주요 기능 및 페르소나에 대해 자세히 알아�
 * [튜토리얼 비디오](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=ko){target="_blank"} - 모든 역할에 대한 단계별 비디오 튜토리얼입니다.
 * [데이터 관리 시작](../data/gs-data.md) - Journey Optimizer의 스키마, 데이터 세트, ID 및 데이터 준비 상태 체크리스트
 * [여정 사용 사례 라이브러리](../building-journeys/jo-use-cases.md) - 실제 사례 및 구현 패턴을 제공합니다.
-* [AI 및 지능형 기능](ai-features.md) - AI 어시스턴트, 전송 시간 최적화 및 콘텐츠 생성에 대해 알아봅니다.
+* [AI 및 지능형 기능](ai-features.md) - AI, 전송 시간 최적화 및 콘텐츠 생성에 대해 알아봅니다.
 * [사용자 인터페이스 안내서](user-interface.md) - Journey Optimizer를 효과적으로 활용합니다.
 
 >[!TAB 최신 정보 수신]

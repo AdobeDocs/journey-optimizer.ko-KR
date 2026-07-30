@@ -21,7 +21,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: af90368835866c2779e36a98f8aa8cb7a39d8ad4
+source-git-commit: de2272c6d570047cd386941cd2e38cf82942c029
 workflow-type: tm+mt
 source-wordcount: 1619
 ht-degree: 9%
@@ -226,7 +226,7 @@ AI 지원 창에서 빌드할 규칙을 일반 언어로 설명합니다. AI Ass
 
 >[!NOTE]
 >
->AI 기반 규칙 최적화는 **AI Assistant**&#x200B;와 동일한 생성 AI 기능을 사용하며 동일한 액세스 제어를 사용합니다. 사용자에게 **[!UICONTROL AI 도우미]** 리소스에 대한 **[!UICONTROL 콘텐츠 생성]** 권한이 부여되어야 합니다. 자세한 내용은 [AI 길잡이에 액세스](../content-management/gs-generative.md#generative-access)를 참조하세요.
+>AI 기반 규칙 최적화는 **콘텐츠 생성**&#x200B;과 동일한 생성 AI 기능을 사용하며 동일한 액세스 제어를 사용합니다. 사용자에게 **[!UICONTROL AI 도우미]** 리소스에 대한 **[!UICONTROL 콘텐츠 생성]** 권한이 부여되어야 합니다. 자세한 내용은 [콘텐츠 생성에 액세스](../content-management/gs-generative.md#generative-access)를 참조하십시오.
 
 ![](assets/decision-rules-ai.png)
 

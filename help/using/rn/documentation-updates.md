@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 638cf77ebad021b62e0fd6d5873e67a098fef7b7
+source-git-commit: 7f5634f35a471e5e1611f7563b82183e00377857
 workflow-type: tm+mt
-source-wordcount: 9688
+source-wordcount: 9725
 ht-degree: 84%
 
 ---
@@ -27,6 +27,8 @@ ht-degree: 84%
 이 페이지에는 월별 릴리스 기능 및 개선 사항과 관련된 업데이트 외에도 [!DNL Journey Optimizer] 설명서의 모든 최신 변경 사항이 나와 있습니다.
 
 ## 2026년 7월 {#july-2026}
+
+* **Grid** 구성 요소 섹션이 **전자 메일 Designer 콘텐츠 구성 요소** 페이지에 추가되었습니다. 콘텐츠를 행과 열로 구성된 구조화된 그리드로 구성할 수 있으며, 여기서 각 셀에는 다른 콘텐츠 구성 요소가 포함될 수 있습니다. [자세히 보기](../email/content-components.md#grid)
 
 * **Decisioning 마이그레이션 API** 설명서에 대상 샌드박스 **이(가) 원본 샌드박스**&#x200B;과(와) 같을 수 있다는 점을 명확히 업데이트했습니다. 마이그레이션 프로세스는 이 시나리오를 처리하고 개체가 동일한 샌드박스 내에서 마이그레이션되는지 아니면 다른 샌드박스로 마이그레이션되는지에 관계없이 데이터 무결성을 보장합니다. [자세히 보기](../experience-decisioning/decisioning-migration-api.md#target-sandbox-preparation)
 

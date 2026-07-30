@@ -21,10 +21,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4a6224453ae94fd5eb8ddee612ad2c4ea0f122e8
+source-git-commit: 47e43cc8ac85c60aa19a93577735ffc55aee2ab3
 workflow-type: tm+mt
-source-wordcount: 1039
-ht-degree: 21%
+source-wordcount: 1078
+ht-degree: 20%
 
 ---
 
@@ -56,6 +56,10 @@ ht-degree: 21%
 ## 랜딩 페이지 하위 도메인 시작 {#gs-lp-subdomains}
 
 [랜딩 페이지 사전 설정을 만들기](lp-presets.md)하려면 랜딩 페이지에 사용할 하위 도메인을 설정해야 합니다.
+
+>[!NOTE]
+>
+>랜딩 하위 도메인이 위임되면 모든 인바운드 트래픽이 웹 애플리케이션 방화벽을 통해서만 흐르도록 WAF IP 페이지 허용 목록에 추가하다 를 구성할 수 있습니다. [WAF IP 허용 목록 구성 방법 알아보기](../configuration/waf-ip-allowlist.md)
 
 이미 Adobe에 위임된 하위 도메인을 사용하거나 다른 하위 도메인을 구성할 수 있습니다. [이 섹션](../configuration/delegate-subdomain.md)에서 하위 도메인을 Adobe으로 위임하는 방법에 대해 자세히 알아보세요.
 

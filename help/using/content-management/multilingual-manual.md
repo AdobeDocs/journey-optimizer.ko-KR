@@ -26,9 +26,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: cf815079d67f4a41c3647c6a6e381ef5f1c44e51
+source-git-commit: c26beaed1c61e719f5066190970a649e28207566
 workflow-type: tm+mt
-source-wordcount: 993
+source-wordcount: 1072
 ht-degree: 2%
 
 ---
@@ -143,6 +143,14 @@ ht-degree: 2%
 
    +++
 
+1. 로케일에 대한 조건을 만든 후에는 처음부터 다시 빌드하는 대신 다른 로케일에 대해 다시 사용할 수 있습니다. **[!UICONTROL 복사 위치...]**&#x200B;를 클릭한 다음 조건을 적용할 대상 로케일을 하나 이상 선택하십시오.
+
+   ![](assets/multilingual-settings-7.png)
+
+   >[!NOTE]
+   >
+   >조건을 복사하면 선택한 대상 로케일의 기존 조건을 덮어씁니다.
+
 1. 로케일을 드래그 앤 드롭하여 재정렬하고 목록에서 해당 우선 순위를 관리합니다.
 
 1. 로케일을 삭제하려면 bin 아이콘을 클릭합니다.
@@ -152,6 +160,10 @@ ht-degree: 2%
 1. **[!UICONTROL 제출]**&#x200B;을 클릭하여 **[!UICONTROL 언어 설정]**&#x200B;을 만듭니다.
 
 언어 환경 설정을 지정하면, 더 이상 언어 환경 설정을 편집할 수 없습니다.
+
+로케일을 추가하거나 활성 **[!UICONTROL 언어 설정]**&#x200B;의 조건을 변경하려면 ![](assets/do-not-localize/Smock_More_18_N.svg)에 액세스하여 **[!UICONTROL 복제]**&#x200B;를 선택하십시오. 이렇게 하면 편집할 수 있는 기존 설정의 사본이 만들어집니다.
+
+![](assets/multilingual-settings-8.png)
 
 <!--
 1. Access the **[!UICONTROL channel configurations]** menu and create a new channel configuration or select an existing one.

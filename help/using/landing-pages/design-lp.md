@@ -25,9 +25,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: a26cfd05faa746308e7734ea9df28287d06e7290
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 280
+source-wordcount: 278
 ht-degree: 17%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 17%
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** 랜딩페이지 콘텐츠를 디자인하는 방법을 알아봅니다. 처음부터 콘텐츠 디자이너에서 AI Assistant, 자체 HTML 또는 저장된 템플릿으로 랜딩페이지 콘텐츠를 디자인할 수 있습니다.
+**이 페이지에서:** 랜딩페이지 콘텐츠를 디자인하는 방법을 알아봅니다. 처음부터 콘텐츠 디자이너에서 AI, 자체 HTML 또는 저장된 템플릿에서 랜딩페이지 콘텐츠를 디자인할 수 있습니다.
 
 >[!ENDSHADEBOX]
 
@@ -48,7 +48,7 @@ ht-degree: 17%
 
 * **콘텐츠 디자이너의 인터페이스를 통해 랜딩 페이지를 처음부터 디자인**&#x200B;하고 [Adobe Experience Manager Assets](../integrations/assets.md)의 이미지를 활용하십시오. 콘텐츠 디자인 방법 알아보기 <!--or use built-in templates--> [이 섹션](../email/content-from-scratch.md)에 있습니다.
 
-* **AI 도우미를 사용하여 콘텐츠를 생성**&#x200B;하여 AI가 생성한 텍스트 및 이미지를 사용하여 랜딩 페이지 생성을 가속화합니다. [AI Assistant에 대해 자세히 알아보기](../content-management/generative-full-content.md).
+* **AI로 콘텐츠를 생성**&#x200B;하여 AI가 생성한 텍스트 및 이미지를 사용하여 랜딩 페이지 만들기를 가속화하십시오. [콘텐츠 생성에 대해 자세히 알아보세요](../content-management/generative-full-content.md).
 
 * **원시 HTML을 콘텐츠 디자이너에 직접 코딩하거나 붙여 넣으십시오**. 이 섹션[&#128279;](../email/code-content.md)에서 자신의 콘텐츠 을(를) 코딩하는 방법을 알아보세요.
 
