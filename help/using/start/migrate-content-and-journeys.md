@@ -7,15 +7,18 @@ feature: Get Started
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-source-git-commit: 8731e10c9a6278c34cd0db8ccdec112f2d5c90d8
+source-git-commit: ca3fef2ea7377ab441be9b2bec2132eb46b5c4bb
 workflow-type: tm+mt
-source-wordcount: '1298'
-ht-degree: 10%
+source-wordcount: '1317'
+ht-degree: 11%
 
 ---
 
 # 컨텐츠 및 여정 마이그레이션 {#migrate-content-and-journeys}
+
+>[!AVAILABILITY]
+>
+>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
 
 다른 마케팅 플랫폼에서 [!DNL Journey Optimizer]&#x200B;(으)로 이동하는 경우 빈 슬레이트에서 시작할 필요가 없습니다. Journey Optimizer에는 기존 이메일 콘텐츠와 여정을 가져오는 전용 작업 영역이 포함되어 있습니다. [!DNL Journey Optimizer]개의 콘텐츠 템플릿 및 여정으로 변환되므로 처음부터 모든 것을 다시 빌드하지 않고 중단한 위치를 선택할 수 있습니다.
 
@@ -116,7 +119,7 @@ HTML 파일 또는 소스 플랫폼에 대한 연결인 콘텐츠에 대한 소�
 
 1. **[!UICONTROL 제목 줄]**&#x200B;을 추가하고 각 개인화 자리 표시자를 해당 프로필 특성에 매핑합니다.
 
-   작업공간은 소스 스크립팅 구문을 자동으로 Handlebars 구문으로 변환합니다. 지원되는 연산자 목록을 보려면 [연산자](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/content-management/personalization/functions/operators)를 참조하십시오.
+   작업공간은 소스 스크립팅 구문을 자동으로 Handlebars 구문으로 변환합니다. 지원되는 연산자 목록을 보려면 [연산자](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/functions/operators)를 참조하십시오.
 
    ![제목 줄 필드 및 개인화 자리 표시자 매핑이 있는 전자 메일 편집기를 가져왔습니다](assets/onboarding-hub-8.png)
 
