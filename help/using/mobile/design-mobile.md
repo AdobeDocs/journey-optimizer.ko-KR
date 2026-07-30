@@ -7,13 +7,11 @@ feature: SMS
 topic: Content Management
 role: User
 level: Beginner
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 1488
+source-wordcount: 1487
 ht-degree: 4%
 
 ---
@@ -137,7 +135,7 @@ RCS 메시지 콘텐츠를 정의하려면 아래 단계를 따르십시오.
 
    ![](assets/sms-content.png)
 
-1. [텍스트 생성을 위한 AI Assistant](../content-management/generative-text.md)를 사용하여 대상자에 맞게 구성된 매력적인 모바일 메시지를 생성합니다.
+1. [AI로 텍스트 생성](../content-management/generative-text.md)을 사용하여 대상에 맞게 구성된 매력적인 모바일 메시지를 생성합니다.
 
 1. 개인화 편집기를 사용하여 콘텐츠를 정의하고 개인화 및 다이내믹 콘텐츠를 추가합니다. 프로필 이름 또는 도시 등의 모든 속성을 사용할 수 있습니다. 조건부 규칙을 정의할 수도 있습니다. 개인화 편집기에서 [개인화](../personalization/personalize.md) 및 [다이내믹 콘텐츠](../personalization/get-started-dynamic-content.md)에 대해 자세히 알아보려면 다음 페이지로 이동하십시오.
 

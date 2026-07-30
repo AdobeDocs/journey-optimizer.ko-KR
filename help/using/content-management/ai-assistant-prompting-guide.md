@@ -1,42 +1,31 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: AI Assistant 콘텐츠 프롬프트 안내서
+title: 콘텐츠 생성 안내
 description: CO-STAR 프레임워크를 사용하여 AI 기반 콘텐츠 생성을 위한 효과적인 프롬프트를 만들어 고도로 전환하고 브랜드 맞춤화된 마케팅 콘텐츠를 만드는 방법에 대해 알아봅니다.
 topic: Artificial Intelligence
 role: User
 level: Intermediate
 exl-id: f931372e-6cf2-4f27-b12a-ed5ca0c1b87b
 TQID: https://experienceleague.adobe.com/SxuygPzpfRd-fvB9fOSZo6JR428cRzLukvbawfYwcFs
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-subfeature_v2:
-  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+subfeature_v2: id: d6e0d39b-5df3-4c72-8263-fd834397ee97
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 2328
-ht-degree: 2%
+source-wordcount: 2327
+ht-degree: 1%
 
 ---
 
-# AI 어시스턴트 프롬프트 모범 사례 {#ai-assistant-prompting-guide}
+# 콘텐츠 프롬프트 모범 사례 생성 {#ai-assistant-prompting-guide}
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** 프롬프트 도우미와 CO-STAR 프레임워크를 사용하여 효과적인 AI Assistant 프롬프트를 작성하여 Adobe Journey Optimizer에서 높은 전환율의 브랜드 내 마케팅 콘텐츠를 생성하는 방법을 알아봅니다.
+**이 페이지에서:** 프롬프트 도우미와 CO-STAR 프레임워크를 사용하여 효과적인 콘텐츠 생성 프롬프트를 작성하여 Adobe Journey Optimizer에서 전환율이 높은 브랜드 내 마케팅 콘텐츠를 생성하는 방법을 알아봅니다.
 
 >[!ENDSHADEBOX]
 
@@ -46,13 +35,13 @@ ht-degree: 2%
 >abstract="Journey Optimizer 설명서에서 전환율이 높고 브랜드에 맞는 마케팅 콘텐츠를 생성하는 효과적인 프롬프트를 만드는 방법을 알아보십시오."
 
 이 안내서는 요청을 구조화하고, 의도를 명확하게 전달하며, AI가 브랜드 지침, 대상 요구 사항 및 캠페인 목표에 맞는 메시지를 생성하도록 도와줍니다.
-AI Assistant를 통해 목표에 맞는 고품질의 온-브랜드 마케팅 콘텐츠를 생성할 수 있는 효과적인 프롬프트를 작성하는 방법을 알아봅니다.
+AI를 사용하여 목표에 맞는 고품질의 온브랜드 마케팅 콘텐츠를 생성할 수 있는 효과적인 프롬프트를 작성하는 방법을 알아봅니다.
 
 ## 프롬프트 길잡이 사용 {#prompt-assistant}
 
 프롬프트 도우미는 콘텐츠 생성이 앞뒤로 덜 필요하도록 열기 프롬프트를 강화하는 데 도움이 됩니다. 첫 번째 입력에서 제안, 제안된 재작성, 선택적 개선 사항 및 명확한 질문을 얻을 수 있습니다. 답변에서는 콘텐츠를 생성하는 데 사용되는 프롬프트를 구체화합니다.
 
-1. 콘텐츠를 생성하기 전에 **[!UICONTROL AI 길잡이]** 메뉴에서 **[!UICONTROL 프롬프트 길잡이]**&#x200B;를 열어 프롬프트를 구체화하십시오.
+1. **[!UICONTROL 콘텐츠 생성]** 메뉴에서 **[!UICONTROL 프롬프트 길잡이]**&#x200B;를 열어 콘텐츠를 생성하기 전에 프롬프트를 구체화하십시오.
 
    ![](assets/prompt-assistant-1.png)
 
@@ -80,7 +69,7 @@ AI Assistant를 통해 목표에 맞는 고품질의 온-브랜드 마케팅 콘
 
 ## CO-STAR 프레임워크 사용 {#costar-framework}
 
-AI Assistant를 사용하여 최상의 결과를 얻으려면 CO-STAR 프레임워크를 사용하여 프롬프트를 구성하십시오. 이러한 구조화된 접근 방식은 AI가 사용자가 필요로 하는 것을 정확히 이해할 수 있도록 해줍니다.
+콘텐츠 생성을 통해 최상의 결과를 얻으려면 CO-STAR 프레임워크를 사용하여 프롬프트를 구성합니다. 이러한 구조화된 접근 방식은 AI가 사용자가 필요로 하는 것을 정확히 이해할 수 있도록 해줍니다.
 
 | 구성 요소 | 의미 | 이것이 중요한 이유 |
 |-|-|-|
@@ -176,19 +165,19 @@ AI Assistant를 사용하여 최상의 결과를 얻으려면 CO-STAR 프레임�
 
 컨텐츠를 생성하기 전에 다음 사항을 확인하십시오.
 
-&check; **목표 지우기**: 작업, 제품/서비스, 값 및 컨텍스트를 명확하게 기술합니다.
+&amp;check; **목표 지우기**: 작업, 제품/서비스, 값 및 컨텍스트를 명확하게 기술합니다.
 
-&check; **정의된 대상 대상**: 인구 통계학적, 역할 또는 세그먼트를 지정합니다.
+&amp;check; **정의된 대상 대상**: 인구 통계학적, 역할 또는 세그먼트를 지정합니다.
 
-&check; **컨텐츠 유형 정렬**: 목표가 선택한 채널 또는 형식과 일치합니다.
+&amp;check; **컨텐츠 유형 정렬**: 목표가 선택한 채널 또는 형식과 일치합니다.
 
-&check; **드롭다운 선택 구성**: 톤, 전략 및 로케일을 선택하고 프롬프트에 포함하지 마십시오.
+&amp;check; **드롭다운 선택 구성**: 톤, 전략 및 로케일을 선택하고 프롬프트에 포함하지 마십시오.
 
-&check; **지정된 문서 포커스**: 참조할 콘텐츠 또는 섹션을 강조 표시합니다.
+&amp;check; **지정된 문서 포커스**: 참조할 콘텐츠 또는 섹션을 강조 표시합니다.
 
-&check; **브랜드 적용**: 적절한 브랜드 지침이 선택되어 있습니다.
+&amp;check; **브랜드 적용**: 적절한 브랜드 지침이 선택되어 있습니다.
 
-&check; **실제 범위**: 레이아웃 변경, 스타일 또는 구조적 편집 요청을 방지합니다.
+&amp;check; **실제 범위**: 레이아웃 변경, 스타일 또는 구조적 편집 요청을 방지합니다.
 
 ## 효과적인 마케팅 목표 작성 {#marketing-objectives}
 
@@ -198,11 +187,11 @@ AI Assistant를 사용하여 최상의 결과를 얻으려면 CO-STAR 프레임�
 
 **좋은 목표의 예:**
 
-&check; &quot;새로운 AI 기반 분석 대시보드의 30일 무료 평가판을 위한 등록 촉진&quot;
+&amp;check; &quot;새로운 AI 기반 분석 대시보드의 30일 무료 평가판을 위한 등록 촉진&quot;
 
-&check; &quot;3월 15일 &#39;클라우드 비용 40% 절감&#39;에 대한 B2B 웨비나의 리드 생성&quot;
+&amp;check; &quot;3월 15일 &#39;클라우드 비용 40% 절감&#39;에 대한 B2B 웨비나의 리드 생성&quot;
 
-&check; &quot;프리미엄 구독에 대한 25% 휴가 할인 기간 제한 홍보, 12월 25일 종료&quot;
+&amp;check; &quot;프리미엄 구독에 대한 25% 휴가 할인 기간 제한 홍보, 12월 25일 종료&quot;
 
 **피해야 할 예:**
 
@@ -219,11 +208,11 @@ AI가 관련 콘텐츠를 생성할 수 있도록 항상 컨텍스트와 가치 
 
 **좋은 목표의 예:**
 
-&check; &quot;사용자가 개인화된 환경 친화적인 추천을 통해 지속 가능한 생활 습관을 추적하는 데 도움이 되는 새로운 모바일 앱 다운로드를 장려합니다.&quot;
+&amp;check; &quot;사용자가 개인화된 환경 친화적인 추천을 통해 지속 가능한 생활 습관을 추적하는 데 도움이 되는 새로운 모바일 앱 다운로드를 장려합니다.&quot;
 
-&check; &quot;마케팅 전문가를 위한 고급 데이터 시각화 기술에 대한 독점 워크숍에 등록 홍보&quot;
+&amp;check; &quot;마케팅 전문가를 위한 고급 데이터 시각화 기술에 대한 독점 워크숍에 등록 홍보&quot;
 
-&check; &quot;주당 5시간 이상 절약하는 혁신적인 AI 쓰기 도우미를 선보이는 제품 출시 이벤트 참석 유도&quot;
+&amp;check; &quot;주당 5시간 이상 절약하는 혁신적인 AI 쓰기 도우미를 선보이는 제품 출시 이벤트 참석 유도&quot;
 
 **피해야 할 예:**
 
@@ -329,7 +318,7 @@ AI가 관련 콘텐츠를 생성할 수 있도록 항상 컨텍스트와 가치 
 브랜드 에셋은 구체적이고 정확한 세부 정보로 생성된 콘텐츠를 풍부하게 해주는 사실적인 정보를 제공합니다.
 제품 브로셔와 같은 광범위한 문서를 업로드할 때 집중할 부분을 프롬프트에 추가합니다.
 
-* **제품 브로셔를 사용합니다.** _대신&quot;_ **&#x200B;**&#x200B;_&quot;고급 보안 기능 및 규정 준수 인증, 특히 SOC 2 규정 준수 및 데이터 암호화에 집중&quot;_
+* **제품 브로셔를 사용합니다.** _대신&quot;_ **** _&quot;고급 보안 기능 및 규정 준수 인증, 특히 SOC 2 규정 준수 및 데이터 암호화에 집중&quot;_
 
 * **대신** _&quot;사례 연구를 참조&quot;_ **사용해야 함** _&quot;의료 클라이언트의 ROI 결과 강조 표시, 특히 지역 의료 센터의 40% 비용 절감&quot;_
 

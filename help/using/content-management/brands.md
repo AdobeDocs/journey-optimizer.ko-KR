@@ -8,21 +8,13 @@ role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
 TQID: https://experienceleague.adobe.com/z-uBnjTprUGtSOa6yxa7WKs5zc7ZvY5PaF5snrOsGuE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
-source-git-commit: 3af68231e8cbd29303407d27cbb02f2c61d01433
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e6ff21d3-dec6-4298-8590-7c749fffaf78
+source-git-commit: 1981bbe0be93316ba78d2b751cb4c4af0afc5dfe
 workflow-type: tm+mt
 source-wordcount: 721
 ht-degree: 33%
@@ -33,7 +25,7 @@ ht-degree: 33%
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** AI Assistant가 Adobe Journey Optimizer에서 브랜드 ID에 맞게 콘텐츠를 생성할 수 있도록 기본 브랜드 설정을 포함하여 브랜드 지침을 만들고, 구성하고, 게시하고, 관리하는 방법을 알아봅니다.
+**이 페이지에서:** [컨텐츠 생성]에서 Adobe Journey Optimizer의 브랜드 ID에 맞게 컨텐츠를 만들 수 있도록 기본 브랜드 설정을 포함하여 브랜드 지침을 만들고, 구성하고, 게시하고, 관리하는 방법을 알아봅니다.
 
 >[!ENDSHADEBOX]
 
@@ -59,7 +51,7 @@ ht-degree: 33%
 
 >[!AVAILABILITY]
 >
->Adobe Journey Optimizer에서 AI 도우미를 사용하려면 먼저 [사용자 동의](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
+>Adobe Journey Optimizer에서 콘텐츠 생성을 사용하려면 [사용자 동의](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
 
 ## 브랜드 액세스 {#generative-access}
@@ -74,7 +66,7 @@ ht-degree: 33%
 
 1. 권한을 수정하려면 **편집**&#x200B;을 클릭하십시오.
 
-1. **AI Assistant** 리소스를 추가한 다음 드롭다운 메뉴에서 **브랜드 키트 관리** 또는 **[!UICONTROL Ai Assistant 사용]**&#x200B;을 선택합니다.
+1. **AI Assistant** 리소스를 추가한 다음 드롭다운 메뉴에서 **브랜드 키트 관리** 또는 **[!UICONTROL AI Assistant 사용]**&#x200B;을 선택합니다.
 
    **[!UICONTROL Ai Assistant 사용]** 권한은 **[!UICONTROL 브랜드]** 메뉴에 대한 읽기 전용 액세스를 제공합니다.
 
@@ -125,7 +117,7 @@ ht-degree: 33%
 
    ![](assets/brands-18.png)
 
-1. 구성하고 나면 **[!UICONTROL 저장]**&#x200B;을 클릭한 다음 **[!UICONTROL 게시]**&#x200B;을 클릭하여 브랜드 지침을 AI Assistant에서 사용할 수 있도록 만드십시오.
+1. 구성이 완료되면 **[!UICONTROL 저장]**&#x200B;을 클릭한 다음 **[!UICONTROL 게시]**&#x200B;을 클릭하여 브랜드 지침을 콘텐츠 생성에서 사용할 수 있도록 합니다.
 
 1. 게시된 브랜드를 수정하려면 **[!UICONTROL 브랜드 편집]**&#x200B;을 클릭하세요.
 
@@ -148,7 +140,7 @@ ht-degree: 33%
 
    ![](assets/brands-6.png)
 
-이제 AI Assistant 메뉴의 **[!UICONTROL Brand]** 드롭다운에서 브랜드 지침에 액세스할 수 있으므로 사양에 맞게 콘텐츠 및 에셋을 생성할 수 있습니다. [AI Assistant에 대해 자세히 알아보기](gs-generative.md)
+이제 [콘텐츠 생성] 메뉴의 **[!UICONTROL Brand]** 드롭다운에서 브랜드 지침에 액세스할 수 있으므로 사양에 맞게 콘텐츠 및 에셋을 생성할 수 있습니다. [콘텐츠 생성에 대해 자세히 알아보기](gs-generative.md)
 
 ![](assets/brands-7.png)
 

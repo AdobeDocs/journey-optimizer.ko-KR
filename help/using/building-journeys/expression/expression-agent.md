@@ -12,7 +12,7 @@ badge: label="공개 베타" type="Informative"
 mini-toc-levels: 2
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 6456977344b51cb595b4c7f6db992a588c0b059f
+source-git-commit: de2272c6d570047cd386941cd2e38cf82942c029
 workflow-type: tm+mt
 source-wordcount: 1090
 ht-degree: 2%
@@ -30,7 +30,7 @@ ht-degree: 2%
 
 표현식 도우미는 여정 고급 표현식 편집기에 내장된 AI 기반 기능입니다. 일반 언어 프롬프트에서 유효한 표현식을 생성하는 데 도움이 됩니다.
 
-여정 **[!UICONTROL 고급 표현식 편집기]**&#x200B;가 열리는 모든 곳에서 사용할 수 있습니다. 예를 들어 **[활동 최적화](../optimize.md)** 내에서 조건 및 라우팅을 구성하거나 사용자 지정 날짜를 사용하는 [**[!UICONTROL 대기&#x200B;]**&#x200B;활동](../wait-activity.md)을 구성할 때 `dateTimeOnly` 식이 필요합니다.
+여정 **[!UICONTROL 고급 표현식 편집기]**&#x200B;가 열리는 모든 곳에서 사용할 수 있습니다. 예를 들어 **[활동 최적화](../optimize.md)** 내에서 조건 및 라우팅을 구성하거나 사용자 지정 날짜를 사용하는 [**[!UICONTROL 대기&#x200B;]**활동](../wait-activity.md)을 구성할 때 `dateTimeOnly` 식이 필요합니다.
 
 ## 표현식 생성 {#generate}
 
@@ -90,7 +90,7 @@ ht-degree: 2%
 ## 관련 리소스 {#related}
 
 * [고급 표현식 편집기 작업](expressionadvanced.md) — 표현식 편집기 인터페이스와 지원되는 구문에 대한 개요입니다.
-* [Journey Optimizer에서 AI Assistant 시작하기](../../content-management/gs-generative.md) - 일반 보호, 액세스 및 생성 AI 기능 설정.
+* [Journey Optimizer에서 콘텐츠 생성 시작](../../content-management/gs-generative.md) - 일반 보호, 액세스 및 생성 AI 기능 설정.
 
 +++ AI 기술 자료 참조
 
@@ -118,7 +118,7 @@ ht-degree: 2%
 **보호 기능:**
 
 * Expression Assistant는 현재 **공개 베타**&#x200B;에 있습니다. 사용 가능 여부 및 동작이 변경될 수 있습니다.
-* 이 기능에는 기본 AI Assistant 설명서에서 제공하는 생성 AI 보호 및 제한 사항이 적용됩니다
+* 이 기능에는 기본 콘텐츠 생성 설명서의 생성 AI 보호 기능 및 제한 사항이 적용됩니다
 * 도우미가 여정의 데이터 소스에 없는 필드를 참조하는 경우 오류를 반환하고, 사용 가능한 필드 이름을 사용하도록 프롬프트를 수정합니다
 * 정확하게 생성된 표현식 구문은 특정 여정에 구성된 필드 및 활동에 따라 다릅니다
 

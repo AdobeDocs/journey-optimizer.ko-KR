@@ -9,29 +9,15 @@ role: User
 level: Beginner
 exl-id: 628a5d84-6a33-4ed8-84cb-e2e4c6cc2b80
 TQID: https://experienceleague.adobe.com/bkl7d0VxTNUboLL9MZ3cmEBAgiVHlaU3-ZTXTrpGBjA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: bccad6a764b6415d87a6c8f4a1d5f0496899ec4e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944fid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: d6e0d39b-5df3-4c72-8263-fd834397ee97
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: de2272c6d570047cd386941cd2e38cf82942c029
 workflow-type: tm+mt
-source-wordcount: 2521
+source-wordcount: 2514
 ht-degree: 4%
 
 ---
@@ -122,7 +108,7 @@ Journey Agent에는 AI Assistant의 두 가지 기술인 분석 및 생성이 �
 
 #### 여정 분석 스킬 {#journey-analyze-skill}
 
-[여정 분석 에이전트](https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-use-cases-agentic-skills-and-user-guide){target="_blank"}를 사용하면 자연어 분석을 통해 여정 성능을 최적화할 수 있습니다.
+[여정 분석 에이전트](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-use-cases-agentic-skills-and-user-guide){target="_blank"}를 사용하면 자연어 분석을 통해 여정 성능을 최적화할 수 있습니다.
 
 +++**주요 기능**
 
@@ -145,7 +131,7 @@ Journey Agent에는 AI Assistant의 두 가지 기술인 분석 및 생성이 �
 
 #### 여정 만들기 스킬 {#journey-create-skill}
 
-[여정 에이전트 만들기](https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-use-cases-agentic-skills-and-user-guide){target="_blank"}를 사용하면 자연어 프롬프트에서 여정을 만들고 목표를 구조화된 여정 구성으로 변환할 수 있습니다.
+[여정 에이전트 만들기](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-use-cases-agentic-skills-and-user-guide){target="_blank"}를 사용하면 자연어 프롬프트에서 여정을 만들고 목표를 구조화된 여정 구성으로 변환할 수 있습니다.
 
 +++**주요 기능**
 
@@ -206,15 +192,15 @@ Journey Agent에는 AI Assistant의 두 가지 기술인 분석 및 생성이 �
 
 ## AI 기반 콘텐츠 생성 {#content-generation}
 
-생성 AI를 사용하여 여러 채널에서 콘텐츠를 만들고 개인화하여 콘텐츠 생성 프로세스를 가속화하면서 브랜드 일관성을 유지할 수 있습니다. 콘텐츠 생성을 위한 AI 도우미는 [이메일](../email/get-started-email.md), [푸시 알림](../push/get-started-push.md), [SMS](../mobile/get-started-mobile.md) 및 [웹](../web/get-started-web.md) 경험에 사용할 수 있습니다. 이를 통해 제목란, 본문, 이미지 및 전체 메시지 변형을 생성할 수 있습니다.
+생성 AI를 사용하여 여러 채널에서 콘텐츠를 만들고 개인화하여 콘텐츠 생성 프로세스를 가속화하면서 브랜드 일관성을 유지할 수 있습니다. 콘텐츠 생성은 제목 줄, 본문, 이미지 및 전체 메시지 변형을 생성하는 데 도움이 되는 [이메일](../email/get-started-email.md), [푸시 알림](../push/get-started-push.md), [SMS](../mobile/get-started-mobile.md) 및 [웹](../web/get-started-web.md) 경험에 사용할 수 있습니다.
 
 ### 주요 기능
 
-* **전체 콘텐츠 생성** - 전자 메일, 웹, 랜딩 페이지 및 푸시를 위한 하나의 흐름으로 전체 콘텐츠 경험(텍스트 및 이미지)을 생성합니다. [AI Assistant를 사용하여 전체 콘텐츠 생성](../content-management/generative-full-content.md)
+* **전체 콘텐츠 생성** - 전자 메일, 웹, 랜딩 페이지 및 푸시를 위한 하나의 흐름으로 전체 콘텐츠 경험(텍스트 및 이미지)을 생성합니다. [AI로 전체 콘텐츠 생성](../content-management/generative-full-content.md)
 * **텍스트 생성** - 브랜드 음성 및 목표에 따라 매력적인 복사본을 만듭니다. [AI로 텍스트 생성](../content-management/generative-text.md)
 * **이미지 생성** - Adobe Firefly을 사용하여 사용자 지정 이미지를 생성합니다. [AI로 이미지 생성](../content-management/generative-image.md)
 * **콘텐츠 변형** - A/B 테스트를 위해 여러 변형을 생성합니다. [AI로 콘텐츠 실험](../content-management/generative-experimentation.md)
-* **Personalization** - Personalization 편집기 또는 전자 메일 Designer 도구 모음에서 새 식을 생성하거나 기존 코드를 설명하거나 AI Assistant 문제를 해결합니다(**식 추가**). [Personalization 표현식용 AI 도우미](../content-management/generative-personalization-expressions.md)
+* **Personalization** - Personalization 편집기 또는 이메일 Designer 도구 모음에서 콘텐츠 생성 관련 문제를 해결하거나, 기존 코드를 설명하거나, 새 표현식을 생성합니다(**표현식 추가**). [개인화 식에 대한 콘텐츠 생성](../content-management/generative-personalization-expressions.md)
 * **브랜드 정렬** - 생성된 콘텐츠가 브랜드 지침과 일치하는지 확인합니다. [브랜드 정렬 평가](../content-management/brands-score.md)
 * **템플릿 지원** - 기존 전자 메일 템플릿을 활용합니다. [콘텐츠 템플릿 작업](../content-management/content-templates.md)
 
@@ -309,7 +295,7 @@ PQL 표현식이 **2KB**(UTF-8 인코딩)보다 큰 규칙과 등급 공식만 �
 
 +++**사용 권한**
 
-이 기능은 **AI Assistant**&#x200B;와 동일한 생성 AI 액세스 제어를 사용합니다. 사용자에게 **[!UICONTROL AI 도우미]** 리소스에 대한 **[!UICONTROL 콘텐츠 생성]** 권한이 부여되어야 합니다. [AI Assistant 액세스에 대해 자세히 알아보기](../content-management/gs-generative.md#generative-access)
+이 기능은 **콘텐츠 생성**&#x200B;과 동일한 생성 AI 액세스 제어를 사용합니다. 사용자에게 **[!UICONTROL AI 도우미]** 리소스에 대한 **[!UICONTROL 콘텐츠 생성]** 권한이 부여되어야 합니다. [콘텐츠 생성 액세스 자세히 알아보기](../content-management/gs-generative.md#generative-access)
 
 +++
 
@@ -363,13 +349,13 @@ PQL 표현식이 **2KB**(UTF-8 인코딩)보다 큰 규칙과 등급 공식만 �
 
 +++
 
-[사용 가능한 플레이북 모두 보기](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=ko){target="_blank"} | [Experience Platform 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=ko){target="_blank"}
+[사용 가능한 플레이북 모두 보기](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=ko){target="_blank"} | [Experience Platform 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
 
 ## 자주 묻는 질문 {#faq}
 
 +++**AI 기능에 필요한 권한은 무엇입니까?**
 
-* **[콘텐츠 생성을 위한 AI 도우미](#content-generation)** - &quot;콘텐츠 생성&quot; 권한이 필요합니다.
+* **[콘텐츠 생성](#content-generation)** - &quot;콘텐츠 생성&quot; 권한이 필요합니다.
 * **[AI Assistant](#ai-assistant)** 제품 지식 - Adobe 생성 AI 사용자 지침에 동의해야 합니다.
 * **[여정 분석 에이전트](#journey-analyze-skill)** - 여정 보기/관리 및 세그먼트 보기/관리 권한이 필요합니다.
 * **[여정 에이전트 만들기](#journey-create-skill)** - 여정 관리, 여정 이벤트/데이터 소스/작업 보기, 세그먼트 보기 및 세그먼트 관리 권한이 필요합니다.
@@ -405,7 +391,7 @@ PQL 표현식이 **2KB**(UTF-8 인코딩)보다 큰 규칙과 등급 공식만 �
 >
 >* [Journey Optimizer이란?](get-started.md) — 주요 기능, 사용 사례 및 아키텍처에 대한 개요입니다.
 >* [작동 방식 이해](understanding-ajo.md) - Journey Optimizer과 Experience Platform이 함께 작동하는 방식.
->* [AI 콘텐츠 생성](../content-management/gs-generative.md) - AI Assistant를 사용하여 이메일, 푸시, SMS 및 웹 콘텐츠를 생성합니다.
+>* [AI 콘텐츠 생성](../content-management/gs-generative.md) - 콘텐츠 생성을 통해 이메일, 푸시, SMS 및 웹 콘텐츠를 생성합니다.
 >* [전송 시간 최적화](../building-journeys/send-time-optimization.md) — 개인별 메시지 배달 타이밍을 예측하고 최적화합니다.
 >* [의사 결정을 위한 AI 모델](../experience-decisioning/ranking/ai-models.md) - AI 등급 모델을 사용하여 자동으로 오퍼의 등급을 매기고 개인화합니다.
 >* [MCP 클라이언트 작업](../integrations/ajo-mcp.md) — Journey Optimizer MCP 서버를 사용하여 Cloud Web, Cloud Desktop 또는 Cursor의 캠페인, 여정 및 오퍼를 쿼리합니다.

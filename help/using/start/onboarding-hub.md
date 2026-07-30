@@ -9,9 +9,9 @@ role: User
 level: Beginner
 hide: true
 keywords: 여정 최적화 도구, 온보딩, 온보딩 허브, 사용 사례, 비디오, 자습서, 시작하기, 램프 업, 첫 여정
-source-git-commit: 3aba16758fb9e0700acd8fadfaa8e25fec253e89
+source-git-commit: de2272c6d570047cd386941cd2e38cf82942c029
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1101'
 ht-degree: 12%
 
 ---
@@ -39,12 +39,12 @@ rebuild
 
 10분 정도 시간이 있으면 이 방향 비디오로 시작하십시오. 인터페이스를 살펴보고 역할별 주요 기능을 강조 표시합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430319?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 그런 다음 다음 다음 학습 리소스를 통해 실습 자신감을 구축합니다.
 
 * [Journey Optimizer 자습서](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/overview){target="_blank"} - 모든 역할에 대한 단계별 비디오 및 안내식 워크스루.
-* [전문가가 큐레이션한 비디오 재생 목록](https://experienceleague.adobe.com/ko/playlists?solution=Journey+Optimizer){target="_blank"} - 순서대로 시청할 짧은 비디오 세트입니다.
+* [전문가가 큐레이션한 비디오 재생 목록](https://experienceleague.adobe.com/en/playlists?solution=Journey+Optimizer){target="_blank"} - 순서대로 시청할 짧은 비디오 세트입니다.
 * [교육 샌드박스](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"} — 연습할 샘플 데이터가 있는 안전한 환경입니다.
 * [실습 과제](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"} — 학습한 내용을 안내식 연습에 적용하십시오.
 
@@ -133,13 +133,13 @@ rebuild
 
 >[!TAB Personalization 및 AI]
 
-* [콘텐츠 생성을 위한 AI 도우미](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/content-management/ai-assistant/ai-assistant-for-content-generation-overview){target="_blank"} - 복사본, 이미지 및 변형을 생성합니다.
+* [콘텐츠 생성](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/content-management/ai-assistant/ai-assistant-for-content-generation-overview){target="_blank"} - 복사본, 이미지 및 변형을 생성합니다.
 * [의사 결정을 사용하여 웹 오퍼를 개인화합니다](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/use-decisioning-to-personalize-web-offers/introduction){target="_blank"} — 고객별로 오퍼를 사용자 지정합니다.
 
 >[!TAB 보고 및 최적화]
 
 * [실시간 보고서로 여정 모니터링 및 분석](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/report-and-monitor/monitor-and-analyze-your-journey-with-live-reports){target="_blank"} - 실시간으로 성능을 추적합니다.
-* [이메일 캠페인에 대한 콘텐츠 실험 만들기](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} - 콘텐츠를 테스트하고 최적화합니다.
+* [이메일 캠페인에 대한 콘텐츠 실험 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} - 콘텐츠를 테스트하고 최적화합니다.
 
 >[!ENDTABS]
 

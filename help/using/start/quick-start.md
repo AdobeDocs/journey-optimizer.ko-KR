@@ -11,39 +11,16 @@ keywords: 역할, 책임, 마케터, 관리자, 데이터 엔지니어, 개발�
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
 TQID: https://experienceleague.adobe.com/q9oP-s1hGrvEkbJ-JIOUReaOeSj2k79W3mw6MbvGvYY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: ea5309c91db90e54b0c965a34d84b29c57314c62
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b23e006f-0a29-4f1d-8fd0-77aa56f3d12bid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: e9001ce2-5245-4a8e-8601-dd958009072fid: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 1981bbe0be93316ba78d2b751cb4c4af0afc5dfe
 workflow-type: tm+mt
-source-wordcount: 2102
-ht-degree: 96%
+source-wordcount: 2101
+ht-degree: 95%
 
 ---
 
@@ -126,7 +103,7 @@ Adobe Journey Optimizer은 순차적으로 작동하는 4개의 서로 다른 �
 4. **마케터**: 고객 경험을 디자인하고 실행합니다.\
    마케터는 모든 기초적인 작업을 활용하여 고객 여정을 구축하고, 콘텐츠를 제작하며, 모든 채널에서 고객 경험을 최적화합니다.
    * 세분화, CSV 업로드 또는 대상자 컴포지션을 사용하여 대상자 작성
-   * AI 어시스턴트 및 템플릿을 사용하여 개인화된 콘텐츠 디자인
+   * 콘텐츠 생성 및 템플릿을 사용하여 개인화된 콘텐츠 디자인
    * 이벤트 및 대상자 트리거를 사용하여 다중 채널 여정 만들기
    * 실행 전 승인 워크플로를 통해 테스트
    * 보고서를 통해 얻은 인사이트를 바탕으로 성능 모니터링 및 최적화
@@ -257,7 +234,7 @@ Journey Optimizer 구현이 성공하려면 모든 역할에서 협업이 필요
 
 Journey Optimizer의 주요 기능 및 페르소나에 대해 자세히 알아보려면 소개 비디오를 시청하십시오. 이 비디오는 사용자 인터페이스를 안내하고 역할별 워크플로를 기반으로 주요 기능을 설명합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430319?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 ## 추가 리소스
 
@@ -270,7 +247,7 @@ Journey Optimizer의 주요 기능 및 페르소나에 대해 자세히 알아�
 * [튜토리얼 비디오](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=ko){target="_blank"} - 모든 역할에 대한 단계별 비디오 튜토리얼입니다.
 * [데이터 관리 시작](../data/gs-data.md) - Journey Optimizer의 스키마, 데이터 세트, ID 및 데이터 준비 상태 체크리스트
 * [여정 사용 사례 라이브러리](../building-journeys/jo-use-cases.md) - 실제 사례 및 구현 패턴을 제공합니다.
-* [AI 및 지능형 기능](ai-features.md) - AI 어시스턴트, 전송 시간 최적화 및 콘텐츠 생성에 대해 알아봅니다.
+* [AI 및 지능형 기능](ai-features.md) - AI, 전송 시간 최적화 및 콘텐츠 생성에 대해 알아봅니다.
 * [사용자 인터페이스 안내서](user-interface.md) - Journey Optimizer를 효과적으로 활용합니다.
 
 >[!TAB 최신 정보 수신]

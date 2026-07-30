@@ -10,22 +10,14 @@ level: Experienced
 keywords: 권한, 높은 수준, 낮은 수준, 프로필, admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 TQID: https://experienceleague.adobe.com/JmWqA2lkS0vWlssVYWycq-gvC6IRrrmAokJj1AGINxc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-subfeature_v2:
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+subfeature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 1981bbe0be93316ba78d2b751cb4c4af0afc5dfe
 workflow-type: tm+mt
-source-wordcount: 1995
+source-wordcount: 1996
 ht-degree: 0%
 
 ---
@@ -199,7 +191,7 @@ ht-degree: 0%
       * experiments.read
       * experiments.write
       * experiments.delete
-    -->
+-->
 
 +++
 
@@ -558,7 +550,7 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
 ## AI 지원 리소스 {#ai-permissions}
 
-* **[!DNL Generate content]** 높은 수준의 권한을 통해 사용자가 Journey Optimizer의 AI Assistant에 액세스할 수 있습니다.
+* **[!DNL Generate content]** 고급 사용 권한을 통해 사용자는 Journey Optimizer의 콘텐츠 생성 메뉴에 액세스할 수 있습니다.
 
   +++ 여기에는 다음과 같은 낮은 수준 권한이 포함됩니다.  
 
@@ -701,7 +693,7 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 * 높은 수준의 권한과 낮은 수준의 권한 간의 차이점 이해
 * 각 상위 수준 권한에서 부여된 하위 수준 권한을 식별합니다
 * 여정, 캠페인, 의사 결정 관리, 채널 구성 및 오케스트레이션된 캠페인에 대한 역할을 정확하게 구성
-* 콘텐츠 생성을 위한 AI Assistant 액세스 권한 부여
+* 콘텐츠 생성을 위한 콘텐츠 생성 액세스 권한 부여
 * 여정 게시 권한과 여정 관리 권한이 비교하여 무엇을 허용하는지 이해합니다.
 
 **용어집:**

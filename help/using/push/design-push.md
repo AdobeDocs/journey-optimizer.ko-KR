@@ -9,23 +9,16 @@ role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
 TQID: https://experienceleague.adobe.com/YOE-hCnG978CvBHe2WeFekMjx4oBlsv4hBbSVaUjgWA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 2183
-ht-degree: 13%
+source-wordcount: 2178
+ht-degree: 14%
 
 ---
 
@@ -54,7 +47,7 @@ ht-degree: 13%
 
 장치 미리 보기 섹션을 사용하여 iOS, Android 및 웹에서 푸시 알림이 표시되는 방식을 시각화합니다.
 
-AI Assistant를 사용하여 콘텐츠 생성 속도를 높이고 [텍스트 생성용 AI Assistant](../content-management/generative-text.md)를 사용하여 매력적인 푸시 알림 텍스트를 생성하거나 [전체 콘텐츠 생성용 AI Assistant](../content-management/generative-full-content.md)를 사용하여 전체 푸시 알림을 생성할 수 있습니다.
+[AI로 텍스트 생성](../content-management/generative-text.md)을 통해 콘텐츠 생성 속도를 높이고 매력적인 푸시 알림 텍스트를 생성하거나 [AI로 전체 콘텐츠 생성](../content-management/generative-full-content.md)을 통해 전체 푸시 알림을 생성할 수 있습니다.
 
 ## 클릭 시 비헤이비어 {#on-click-behavior}
 
@@ -99,7 +92,7 @@ Android의 경우 이미지 아이콘과 확장된 알림에 대한 이미지만
 
 다음 방법 중 하나를 사용하여 미디어를 추가할 수 있습니다.
 
-* **[!UICONTROL 미디어 추가]** 단추: [Adobe Experience Manager Assets](../integrations/assets.md)에서 자산을 선택하거나 AI Assistant에 액세스하여 푸시 알림을 위한 [매력적인 이미지](../content-management/generative-image.md)를 생성합니다.
+* **[!UICONTROL 미디어 추가]** 단추: [Adobe Experience Manager Assets](../integrations/assets.md)에서 자산을 선택하거나 [컨텐츠 생성]에 액세스하여 푸시 알림을 위한 [매력적인 이미지](../content-management/generative-image.md)를 생성합니다.
 
 * **[!UICONTROL 미디어 추가]** 필드: 미디어 URL을 직접 입력합니다. URL에 개인화 토큰을 포함할 수 있습니다.
 
@@ -131,7 +124,7 @@ iOS의 경우 알림 내에 표시할 이미지, 비디오 또는 GIF을 추가�
 
 **[!UICONTROL 미디어 추가]** 필드에 미디어 URL을 입력합니다. URL에 개인화 토큰을 포함하여 각 사용자에 대한 콘텐츠를 사용자 지정할 수도 있습니다.
 
-Journey Optimizer AI Assistant를 사용하여 미디어를 빠르게 생성하려면 ![AI Assistant로 텍스트 편집](assets/do-not-localize/Smock_ImageAdd_18_N.svg)을 클릭하십시오.
+Journey Optimizer의 [콘텐츠 생성]을 사용하여 미디어를 빠르게 생성하려면 ![콘텐츠 생성으로 텍스트 편집](assets/do-not-localize/Smock_ImageAdd_18_N.svg)을 클릭하세요.
 
 ![](assets/web-media.png)
 

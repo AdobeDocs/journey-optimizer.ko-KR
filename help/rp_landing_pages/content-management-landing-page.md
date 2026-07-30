@@ -5,10 +5,10 @@ title: 콘텐츠 관리
 description: 콘텐츠 관리
 redpen-status: CREATED_||_2025-08-12_00-44-43
 exl-id: 159ae1bf-e1bd-48c7-b91b-2ac8bdfffaf2
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 100%
+source-wordcount: '289'
+ht-degree: 94%
 
 ---
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer의 컨텐츠 관리 기능을 사용하면 캠페인, �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 재사용 가능한 콘텐츠 조각
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer의 컨텐츠 관리 기능을 사용하면 캠페인, �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 솔루션 간 사용 사례
 
@@ -84,6 +84,6 @@ Experience Manager, Stock 및 GenStudio과 같은 Adobe 솔루션을 통합하�
 
 ## 추가 리소스
 
-- **[콘텐츠 생성을 위한 AI 어시스턴트](ai-assistant-landing-page.md)** - AI 도구를 활용하여 이메일, SMS, 웹 페이지 및 실험에서 콘텐츠를 생성하고 개인화할 수 있습니다.
+- **[콘텐츠 생성](ai-assistant-landing-page.md)** - AI를 사용하여 이메일, SMS, 웹 페이지 및 실험에서 콘텐츠를 생성하고 개인화합니다.
 - **[다국어 콘텐츠 관리](content-multilingual-landing-page.md)** - 수동 및 자동 번역 워크플로를 사용하여 다국어 콘텐츠를 만들고 관리합니다.
 - **[콘텐츠 실험](../using/content-management/get-started-experiment.md)** - 실험을 설정하고 분석하여 대상 참여 및 캠페인 결과를 최적화합니다.

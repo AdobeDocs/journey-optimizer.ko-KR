@@ -1,44 +1,32 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: AI 어시스턴트 사용 사례
-description: 사용 사례를 통해 AI Assistant 사용 방법 알아보기
+title: 콘텐츠 사용 사례 생성
+description: 사용 사례를 통해 콘텐츠 생성을 사용하는 방법을 알아봅니다.
 feature: Content Assistant, Use Cases
 topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
 TQID: https://experienceleague.adobe.com/VAyIDrwFJtWtOd0h8nr9LK5F21Oe9wIWwvV-zFvCHtM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: f29a52db-c90c-4345-902e-b586d1406d8d
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: f29a52db-c90c-4345-902e-b586d1406d8did: fb9a80eb-bebc-492f-a0e9-584595621ebbid: d6e0d39b-5df3-4c72-8263-fd834397ee97
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 1320
-ht-degree: 1%
+source-wordcount: 1317
+ht-degree: 0%
 
 ---
 
-# AI 어시스턴트 사용 사례 {#generative-uc}
+# 콘텐츠 사용 사례 생성 {#generative-uc}
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** 기존 콘텐츠를 재사용하고 텍스트 변형을 개선하는 것에서부터 이미지 생성, 스타일 참조 적용, 지원되는 언어 작업에 이르기까지 Adobe Journey Optimizer에서 AI Assistant의 실제 사용 사례를 살펴보십시오.
+**이 페이지에서:** 기존 콘텐츠를 재사용하고 텍스트 변형을 개선하는 것부터 이미지 생성, 스타일 참조 적용 및 지원되는 언어 작업에 이르기까지 Adobe Journey Optimizer에서 콘텐츠 생성을 위한 실제 사용 사례를 살펴보십시오.
 
 >[!ENDSHADEBOX]
 
@@ -48,15 +36,15 @@ ht-degree: 1%
 
 ## 기존 콘텐츠 사용
 
-![AI Assistant가 기존 캠페인 콘텐츠를 재사용하여 새로운 변형을 생성하는 애니메이션 데모](assets/do-not-localize/gen-ai-reuse-text.gif)
+![기존 캠페인 콘텐츠를 재사용하여 새 변형을 생성하는 콘텐츠 생성을 보여 주는 애니메이션 데모](assets/do-not-localize/gen-ai-reuse-text.gif)
 
 캠페인에 이미 있는 콘텐츠 및 컨텍스트에서 변형을 생성하여 메시지 및 대상자와 일관되게 유지합니다.
 
 1. 캠페인을 설정한 후 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 선택하세요.
 
-1. **[!UICONTROL AI 길잡이]** 섹션을 엽니다.
+1. **[!UICONTROL 콘텐츠 생성]** 섹션을 엽니다.
 
-1. AI Assistant 내의 **[!UICONTROL 원본 콘텐츠 사용]** 기능을 켜서 캠페인 이름 및 타깃팅된 대상을 포함한 캠페인 세부 사항에 따라 새 콘텐츠를 사용자 지정할 수 있습니다.
+1. 콘텐츠 생성 내에서 **[!UICONTROL 원본 콘텐츠 사용]** 기능을 켜서 캠페인 이름 및 대상 대상을 포함하여 캠페인 세부 사항에 따라 새 콘텐츠를 사용자 지정할 수 있습니다.
 
 1. **[!UICONTROL Prompt]** 상자에서 요청을 지정하여 콘텐츠를 조정하고 필요에 따라 설정을 사용자 지정합니다.
 
@@ -74,7 +62,7 @@ ht-degree: 1%
 
 1. 캠페인을 설정하고 구성했으면 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 클릭하세요.
 
-1. **[!UICONTROL AI Assistant]** 메뉴를 엽니다.
+1. **[!UICONTROL 콘텐츠 생성]** 메뉴를 엽니다.
 
 1. **[!UICONTROL 프롬프트]** 상자에 원하는 요청을 입력하여 콘텐츠를 조정하고 필요에 따라 설정을 수정합니다.
 
@@ -86,13 +74,13 @@ ht-degree: 1%
 
    * **[!UICONTROL 참조 콘텐츠로 사용]**: 선택한 변형이 더 많은 콘텐츠를 생성하기 위한 참조로 사용됩니다.
 
-   * **[!UICONTROL 정교함]**: AI Assistant를 특정 지점에서 확장하여 보다 나은 참여를 위해 더 깊이 있고 자세한 내용을 제공할 수 있습니다.
+   * **[!UICONTROL 정교함]**: AI가 특정 지점에서 확장되도록 하여 더 나은 참여를 위해 더 깊이 있고 자세한 정보를 제공합니다.
 
-   * **[!UICONTROL 요약]**: 자세한 내용을 보려면 AI Assistant를 사용하여 전자 메일 수신자가 쉽게 요약할 수 있는 간결한 요약을 만드십시오.
+   * **[!UICONTROL 요약]**: 자세한 내용을 보려면 AI를 사용하여 전자 메일 수신자가 쉽게 요약할 수 있는 간결한 요약을 만드십시오.
 
-   * **[!UICONTROL 구문 변경]**: AI 도우미는 다양한 방식으로 메시지를 제공할 수 있으므로 다양한 대상자가 콘텐츠를 최신 상태로 유지할 수 있습니다.
+   * **[!UICONTROL 구문 변경]**: 콘텐츠 생성은 다양한 방식으로 메시지를 표시할 수 있으므로 다양한 대상자에게 콘텐츠를 새로 고치는 데 도움이 됩니다.
 
-   * **[!UICONTROL 더 간단한 언어 사용]**: AI Assistant를 사용하여 언어를 단순화하면 메시지가 명확해지고 모든 독자가 액세스할 수 있습니다.
+   * **[!UICONTROL 더 간단한 언어 사용]**: AI를 사용하여 언어를 단순화하고 메시지가 명확하고 모든 독자가 액세스할 수 있도록 합니다.
 
    또한 콘텐츠의 **[!UICONTROL 색조]** 및 **[!UICONTROL 통신 전략]**&#x200B;을 조정할 수 있습니다.
 
@@ -106,7 +94,7 @@ ht-degree: 1%
 
 1. 캠페인을 설정한 후 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 선택하세요.
 
-1. **[!UICONTROL AI 길잡이]** 섹션을 엽니다.
+1. **[!UICONTROL 콘텐츠 생성]** 섹션을 엽니다.
 
 1. **[!UICONTROL Prompt]** 상자에서 요청을 지정하여 콘텐츠를 조정하고 필요에 따라 설정을 사용자 지정합니다.
 
@@ -122,17 +110,17 @@ ht-degree: 1%
 
 ## 스타일 참조 업로드
 
-![AI Assistant 이미지 생성 스타일 안내를 위한 참조 이미지 업로드의 애니메이션 데모](assets/do-not-localize/uc-image-reference.gif)
+![콘텐츠 이미지 생성 스타일 안내를 위한 참조 이미지 업로드의 애니메이션 데모](assets/do-not-localize/uc-image-reference.gif)
 
 참조 이미지를 업로드하여 새 시각화가 원하는 스타일, 팔레트 또는 컴포지션을 따르도록 합니다.
 
 1. 전자 메일 캠페인을 설정하고 구성한 후 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 클릭하세요.
 
-1. AI Assistant를 사용하여 수정할 자산을 선택합니다.
+1. 콘텐츠 생성을 사용하여 수정할 에셋을 선택합니다.
 
-1. 오른쪽 창 메뉴에서 **[!UICONTROL AI Assistant]**&#x200B;를 선택합니다.
+1. 오른쪽 창 메뉴에서 **[!UICONTROL 콘텐츠 생성]**&#x200B;을 선택합니다.
 
-1. **[!UICONTROL 참조 스타일]** 옵션을 켜면 AI Assistant가 참조 자료를 사용하여 새 콘텐츠를 생성할 수 있습니다.
+1. 콘텐츠 생성에서 참조 자료를 사용하여 새 콘텐츠를 생성할 수 있도록 **[!UICONTROL 참조 스타일]** 옵션을 설정합니다.
 
 1. 변형에 컨텍스트를 추가하는 이미지를 포함하려면 **[!UICONTROL 이미지 업로드]**&#x200B;를 클릭하십시오.
 
@@ -148,13 +136,13 @@ ht-degree: 1%
 
 ## 지원되는 언어로 콘텐츠 생성{#languages}
 
-![프랑스어, 스페인어, 독일어의 여러 언어로 콘텐츠를 생성하는 AI Assistant 애니메이션 데모](assets/do-not-localize/gen-ai-language.gif)
+![프랑스어, 스페인어, 독일어의 여러 언어로 콘텐츠를 생성하는 애니메이션 데모](assets/do-not-localize/gen-ai-language.gif)
 
-프롬프트를 명시적 언어 설정과 결합하여 AI Assistant에서 지원하는 언어로 텍스트를 생성합니다.
+프롬프트를 명시적 언어 설정과 결합하여 콘텐츠 생성에서 지원하는 언어로 텍스트를 생성합니다.
 
 1. 캠페인을 설정하고 구성했으면 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 클릭하세요.
 
-1. **[!UICONTROL AI Assistant]** 메뉴를 엽니다.
+1. **[!UICONTROL 콘텐츠 생성]** 메뉴를 엽니다.
 
 1. 프랑스어, 스페인어, 독일어, 이탈리아어, 일본어, 스웨덴어, 네덜란드어 또는 노르웨이어 형식으로 **[!UICONTROL 프롬프트]** 상자에 원하는 요청을 입력하여 콘텐츠를 조정합니다.
 
@@ -168,13 +156,13 @@ ht-degree: 1%
 
 ## 생성에 참조 콘텐츠 사용
 
-![참조 콘텐츠가 포함된 콘텐츠를 생성하는 AI Assistant의 애니메이션 데모](assets/do-not-localize/gen-url.gif)
+![참조 콘텐츠가 포함된 콘텐츠 생성 애니메이션 데모](assets/do-not-localize/gen-url.gif)
 
-**참조 콘텐츠**, 웹 페이지 또는 업로드된 파일을 추가하여 더 많은 컨텍스트를 AI Assistant에 제공할 수 있으므로 생성된 복사와 제안이 소스 자료에 더 가깝게 유지됩니다.
+**참조 콘텐츠**, 웹 페이지 또는 업로드된 파일을 추가하여 콘텐츠 생성에 더 많은 컨텍스트를 제공할 수 있으므로 생성된 복사와 제안이 원본 자료에 더 가깝게 유지됩니다.
 
 1. 캠페인이 준비되면 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 클릭하세요.
 
-1. **[!UICONTROL AI 길잡이]**&#x200B;를 엽니다.
+1. **[!UICONTROL 콘텐츠 생성]**&#x200B;을 엽니다.
 
 1. **[!UICONTROL 프롬프트]** 필드에 원하는 내용을 설명합니다.
 
@@ -192,9 +180,9 @@ ht-degree: 1%
 
 ## 생성 모델 사용 {#generative-model}
 
-![사용자 지정 모델을 사용하여 콘텐츠를 생성하는 AI Assistant의 애니메이션 데모](assets/do-not-localize/gen-ai-model.gif)
+![사용자 지정 모델을 사용하여 콘텐츠를 생성하는 애니메이션 데모](assets/do-not-localize/gen-ai-model.gif)
 
-사용자 지정 생성 모델을 등록하고 AI Assistant에서 이를 통해 이미지 생성 경로를 지정합니다.
+사용자 지정 생성 모델을 등록하고 콘텐츠 생성에서 이를 통해 이미지 생성 경로를 지정합니다.
 
 1. **[!UICONTROL 브랜드]** 메뉴에서 **[!UICONTROL 생성 모델]** 탭을 열고 **[!UICONTROL 모델 추가]**&#x200B;를 클릭합니다.
 
@@ -206,7 +194,7 @@ ht-degree: 1%
 
 1. 캠페인에서 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 클릭합니다.
 
-1. AI Assistant로 수정할 자산을 선택하고 **[!UICONTROL AI Assistant]**&#x200B;를 엽니다.
+1. 콘텐츠 생성으로 수정할 자산을 선택하고 **[!UICONTROL 콘텐츠 생성]**&#x200B;을 엽니다.
 
 1. **[!UICONTROL 프롬프트]** 필드에 요청을 지정하고 나머지 설정을 적절하게 조정하십시오.
 
@@ -218,13 +206,13 @@ ht-degree: 1%
 
 ## 텍스트 오버레이 이미지의 생성 모델로 Gemini 사용
 
-![Gemini를 생성 모델로 사용하여 콘텐츠를 생성하는 AI Assistant의 애니메이션 데모](assets/do-not-localize/gen-nano.gif)
+![Gemini를 생성 모델로 사용하여 콘텐츠를 생성하는 애니메이션 데모](assets/do-not-localize/gen-nano.gif)
 
-**Gemini 2.5**&#x200B;을(를) 생성 모델로 선택하면 AI 길잡이에서 이미지 변형을 만들고 URL, 파일 또는 AI가 생성한 프롬프트에서 텍스트 오버레이를 추가한 다음 최종 변형을 적용하기 전에 오버레이를 배치할 수 있습니다.
+**Gemini 2.5**&#x200B;을(를) 생성 모델로 선택하면 콘텐츠 생성에서 이미지 변형을 생성하고, URL, 파일 또는 AI 생성 프롬프트에서 텍스트 오버레이를 추가한 다음 최종 변형을 적용하기 전에 오버레이를 배치할 수 있습니다.
 
 1. 캠페인이 준비되면 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 클릭하세요.
 
-1. 기본 이미지로 사용할 자산을 선택하고 **[!UICONTROL AI 길잡이]**&#x200B;를 엽니다.
+1. 기본 이미지로 사용할 자산을 선택하고 **[!UICONTROL 콘텐츠 생성]**&#x200B;을 엽니다.
 
 1. 이미지 생성 옵션을 조정하려면 **[!UICONTROL 설정 열기]**&#x200B;를 클릭하십시오.
 

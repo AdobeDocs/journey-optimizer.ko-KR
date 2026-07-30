@@ -1,42 +1,32 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: AI Assistant를 사용하여 전체 콘텐츠 생성
-description: Journey Optimizer에서 AI Assistant를 사용하여 완전한 콘텐츠 경험을 생성하는 방법을 알아봅니다.
+title: AI로 전체 콘텐츠 생성
+description: Journey Optimizer에서 컨텐츠 생성을 사용하여 완전한 컨텐츠 경험을 생성하는 방법을 알아봅니다.
 feature: Content Assistant
 topic: Artificial Intelligence
 role: User
 level: Beginner
 exl-id: 9f395b3d-8414-4e88-b849-6d9af9640b32
 TQID: https://experienceleague.adobe.com/0Xf8qIELy-rLrPg-5slKXt4dlurcaUwXhAW6VWxWuPQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: d6e0d39b-5df3-4c72-8263-fd834397ee97
+source-git-commit: 65edc88e0e2d1a2d18fde19b089893e430bd17dd
 workflow-type: tm+mt
-source-wordcount: 2033
+source-wordcount: 2007
 ht-degree: 2%
 
 ---
 
-# AI Assistant를 사용하여 전체 콘텐츠 생성 {#generative-full-content}
+# AI로 전체 콘텐츠 생성 {#generative-full-content}
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** Adobe Journey Optimizer에서 AI Assistant를 사용하여 이메일, 웹, 랜딩 페이지 및 푸시 알림 채널에 대한 전체 텍스트 및 이미지 콘텐츠 경험을 생성하고, 세분화하고, 마무리하는 방법에 대해 알아봅니다.
+**이 페이지에서:** Adobe Journey Optimizer에서 AI를 사용하여 전자 메일, 웹, 랜딩 페이지 및 푸시 알림 채널에 대한 전체 텍스트 및 이미지 콘텐츠 경험을 생성하고, 세분화하고, 마무리하는 방법에 대해 알아봅니다.
 
 >[!ENDSHADEBOX]
 
@@ -45,30 +35,30 @@ ht-degree: 2%
 >이 기능의 사용을 시작하기 전에 관련 [보호 기능 및 제한 사항](gs-generative.md#generative-guardrails)을 읽어 보십시오.
 ></br>
 >
->Journey Optimizer에서 AI Assistant를 사용하려면 [사용자 계약](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
+>Journey Optimizer에서 콘텐츠 생성을 사용하려면 [사용자 동의](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
-Journey Optimizer의 AI Assistant를 사용하여 이메일, 웹, 랜딩 페이지 및 푸시 알림 채널에서 완전한 콘텐츠 경험을 생성할 수 있습니다. AI Assistant를 사용하면 대상자와 공감하는 포괄적인 콘텐츠를 만들어 게재의 영향을 최적화할 수 있습니다.
+AI를 사용하여 이메일, 웹, 랜딩 페이지 및 푸시 알림 채널 전반에서 완전한 콘텐츠 경험을 생성합니다. 콘텐츠 생성 은 대상자와 공감하는 포괄적인 콘텐츠를 만들어 게재의 영향을 최적화하는 데 도움이 됩니다.
 
 ## 이메일 및 웹 채널용 {#email-web-channels}
 
-AI Assistant는 이메일 캠페인, 웹 페이지 및 랜딩 페이지에 대한 완전한 콘텐츠 경험을 생성하여 텍스트와 이미지를 모두 생성할 수 있습니다. 이 강력한 기능은 모든 디지털 터치포인트에서 대상자와 연결하는 매력적인 브랜드 내 콘텐츠를 만드는 데 도움이 됩니다.
+콘텐츠 생성 은 이메일 캠페인, 웹 페이지 및 랜딩 페이지에 대한 완전한 콘텐츠 경험을 생성하여 텍스트와 이미지를 모두 생성할 수 있습니다. 이 강력한 기능은 모든 디지털 터치포인트에서 대상자와 연결하는 매력적인 브랜드 내 콘텐츠를 만드는 데 도움이 됩니다.
 
 ### 액세스 및 구성 {#access-configure}
 
-AI Assistant를 사용하여 컨텐츠를 만들려면 먼저 캠페인이나 여정을 설정하고 컨텐츠 편집기를 열어야 합니다. 아래 단계를 사용하여 작업 영역을 준비하고 AI Assistant 패널에 액세스합니다.
+콘텐츠 생성으로 콘텐츠를 만들기 전에 캠페인 또는 여정을 설정하고 콘텐츠 편집기를 열어야 합니다. 아래 단계를 사용하여 작업 공간을 준비하고 콘텐츠 생성 패널에 액세스합니다.
 
 1. 캠페인 또는 여정 만들기 및 구성:
    * **전자 메일**: 전자 메일 캠페인을 만들고 구성한 후 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 클릭하세요. [자세히 알아보기](../campaigns/create-campaign.md)
    * **웹**: 웹 페이지를 만들고 구성한 후 **[!UICONTROL 웹 페이지 편집]**&#x200B;을 클릭하세요. [자세히 알아보기](../web/create-web.md)
    * **랜딩 페이지**: 랜딩 페이지를 만들고 구성한 후 **[!UICONTROL 디자이너 열기]**&#x200B;를 클릭합니다. [자세히 알아보기](../landing-pages/create-lp.md)
 
-1. 오른쪽 메뉴에서 **[!UICONTROL AI 길잡이]**(또는 **[!UICONTROL 웹용 콘텐츠 길잡이 표시]**)를 선택합니다.
+1. 오른쪽 메뉴에서 **[!UICONTROL 콘텐츠 생성]**(또는 웹용 **[!UICONTROL 콘텐츠 도우미 표시]**)를 선택합니다.
 
-   브랜드 선택 및 프롬프트 필드를 표시하는 ![AI 도우미 패널](assets/full-email-1.png){zoomable="yes"}
+   ![브랜드 선택 및 프롬프트 필드를 표시하는 콘텐츠 패널 생성](assets/full-email-1.png){zoomable="yes"}
 
-### 콘텐츠 생성 {#generate-content}
+### 전체 콘텐츠 생성 {#generate-content}
 
-이제 AI Assistant를 열어 브랜드 및 캠페인 목표와 일치하는 콘텐츠를 만들도록 생성 설정을 구성할 수 있습니다. 텍스트 및 이미지 매개 변수를 사용자 지정하고, 브랜드 자산을 추가하고, AI가 대상자를 위한 관련 변형을 생성하는 데 도움이 되는 프롬프트를 제공합니다.
+콘텐츠 생성 이 열려 있는 상태에서 이제 브랜드 및 캠페인 목표와 일치하는 콘텐츠를 만들도록 생성 설정을 구성할 수 있습니다. 텍스트 및 이미지 매개 변수를 사용자 지정하고, 브랜드 자산을 추가하고, AI가 대상자를 위한 관련 변형을 생성하는 데 도움이 되는 프롬프트를 제공합니다.
 
 1. AI 생성 콘텐츠가 브랜드 사양에 맞게 조정되도록 하려면 **[!UICONTROL 브랜드]**&#x200B;를 선택하십시오. 브랜드에 대해 [자세히 알아보기](brands.md).
 
@@ -76,7 +66,7 @@ AI Assistant를 사용하여 컨텐츠를 만들려면 먼저 캠페인이나 �
 
    프롬프트 작성에 도움이 필요한 경우 캠페인을 개선하기 위한 다양한 프롬프트 아이디어를 제공하는 **[!UICONTROL 프롬프트 라이브러리]**&#x200B;에 액세스하십시오. [프롬프트 모범 사례에 대해 자세히 알아보기](ai-assistant-prompting-guide.md)
 
-   ![프롬프트 라이브러리 단추가 있는 프롬프트 필드](assets/full-email-2.png){zoomable="yes"}
+   ![프롬프트 라이브러리 단추가 있는 프롬프트 필드](assets/full-email-2-bis.png){zoomable="yes"}
 
 1. **전자 메일**&#x200B;의 경우 **[!UICONTROL 제목 줄]** 및 **[!UICONTROL 사전 머리글]** 옵션을 전환하여 변형 생성에 포함할 수 있습니다.
 
@@ -84,7 +74,7 @@ AI Assistant를 사용하여 컨텐츠를 만들려면 먼저 캠페인이나 �
 
    * **[!UICONTROL 커뮤니케이션 전략]**: 생성된 텍스트에 가장 적합한 커뮤니케이션 스타일을 선택합니다.
    * **[!UICONTROL 언어]**: 생성된 콘텐츠의 언어를 선택합니다.
-   * **[!UICONTROL 음색]**: 음색이 청중에게 울려 퍼집니다. AI 어시스턴트는 유익하거나, 장난스럽거나, 설득력 있게 들리고자 하는 경우 해당 메시지를 적절하게 조정할 수 있습니다.
+   * **[!UICONTROL 음색]**: 음색이 청중에게 울려 퍼집니다. 내용 있는 것처럼 들리든, 즐거운 것처럼 들리든, 설득력 있는 것처럼 들리든 컨텐츠 생성은 그에 따라 메시지를 조정할 수 있습니다.
 
      ![통신 전략, 언어 및 색조 옵션을 보여 주는 텍스트 설정 패널](assets/full-email-4.png){zoomable="yes"}
 
@@ -99,7 +89,7 @@ AI Assistant를 사용하여 컨텐츠를 만들려면 먼저 캠페인이나 �
 
      ![콘텐츠 유형, 시각적 강도, 색상 및 톤, 조명 및 컴포지션 옵션을 표시하는 이미지 설정 패널](assets/full-email-6.png){zoomable="yes"}
 
-1. **[!UICONTROL 참조 콘텐츠]** 메뉴에서 **[!UICONTROL 파일 업로드]**&#x200B;를 클릭하여 추가 컨텍스트 AI 도우미를 제공할 수 있는 콘텐츠가 포함된 브랜드 자산을 추가하거나 이전에 업로드한 콘텐츠를 선택합니다.
+1. **[!UICONTROL 참조 콘텐츠]** 메뉴에서 **[!UICONTROL 파일 업로드]**&#x200B;를 클릭하여 추가 컨텍스트를 제공할 수 있는 콘텐츠가 포함된 브랜드 자산을 콘텐츠 생성에 추가하거나 이전에 업로드한 콘텐츠를 선택합니다.
 
    이전에 업로드한 파일은 **[!UICONTROL 업로드된 참조 콘텐츠]** 드롭다운에서 사용할 수 있습니다. 세대에 포함할 자산을 전환하기만 하면 됩니다.
 
@@ -125,7 +115,7 @@ AI Assistant를 사용하여 컨텐츠를 만들려면 먼저 캠페인이나 �
 
    * **[!UICONTROL 구문 변경]**: 의미를 유지하면서 메시지를 다시 작성합니다. 이 옵션은 핵심 메시지를 변경하지 않고 대체 단어를 생성하거나, 흐름을 개선하거나, 구문 조정을 하는 데 도움이 됩니다.
 
-   * **[!UICONTROL 더 간단한 언어 사용]**: AI Assistant를 사용하여 언어를 단순화함으로써 더 많은 대상자가 명확하고 쉽게 사용할 수 있습니다.
+   * **[!UICONTROL 더 간단한 언어 사용]**: AI를 사용하여 언어를 단순화하여 더 많은 대상자가 명확하고 쉽게 사용할 수 있도록 합니다.
 
    * **[!UICONTROL 번역]**: 언어를 단순화하여 더 많은 대상자가 명확하고 쉽게 이용할 수 있도록 합니다.
 
@@ -133,7 +123,7 @@ AI Assistant를 사용하여 컨텐츠를 만들려면 먼저 캠페인이나 �
 
    * **[!UICONTROL 통신 전략 변경]**: 긴급성을 만들거나 흥미로운 어필을 강조하는 등 목표에 따라 메시징 접근 방식을 수정합니다.
 
-     ![옵션을 표시하는 메뉴 세분화](assets/full-email-5.png){zoomable="yes"}
+     ![옵션을 표시하는 메뉴 세분화](assets/full-email-5-bis.png){zoomable="yes"}
 
 1. **[!UICONTROL 브랜드 정렬]** 탭을 열어 콘텐츠가 [브랜드 지침](brands.md)에 어떻게 적합한지 확인합니다.
 
@@ -148,12 +138,12 @@ AI Assistant를 사용하여 컨텐츠를 만들려면 먼저 캠페인이나 �
 
 ## 모바일 채널용 {#mobile-channels}
 
-AI Assistant는 모바일 푸시 알림에 대한 콘텐츠 생성도 지원하므로 모바일 앱에 대한 매력적인 제목, 메시지 및 이미지를 만들 수 있습니다. 따라서 모바일을 포함하여 모든 고객 접점에서 일관되고 고품질의 커뮤니케이션을 유지할 수 있습니다.
+콘텐츠 생성 은 모바일 푸시 알림에 대한 콘텐츠 생성도 지원하므로 모바일 앱에 대한 매력적인 제목, 메시지 및 이미지를 만들 수 있습니다. 따라서 모바일을 포함하여 모든 고객 접점에서 일관되고 고품질의 커뮤니케이션을 유지할 수 있습니다.
 
 
 ### 액세스 및 구성 {#mobile-access-configure}
 
-푸시 알림에 AI Assistant를 사용하려면 먼저 푸시 캠페인을 설정하고 콘텐츠 편집기를 엽니다. 아래 단계는 캠페인을 준비하고 AI Assistant 도구에 액세스하는 과정을 안내합니다.
+푸시 알림에 대해 콘텐츠 생성을 사용하려면 먼저 푸시 캠페인을 설정하고 콘텐츠 편집기를 엽니다. 아래 단계는 캠페인을 준비하고 콘텐츠 생성 도구에 액세스하는 과정을 안내합니다.
 
 1. 푸시 알림 캠페인을 만들고 구성한 후 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 클릭하세요.
 
@@ -163,25 +153,23 @@ AI Assistant는 모바일 푸시 알림에 대한 콘텐츠 생성도 지원하�
 
 1. 필요에 따라 푸시 알림을 개인화합니다. [자세히 알아보기](../push/design-push.md)
 
-1. **[!UICONTROL AI Assistant 표시]** 메뉴에 액세스합니다.
+1. **[!UICONTROL 콘텐츠 생성 표시]** 메뉴에 액세스합니다.
 
-   ![AI 도우미 패널이 열린 푸시 알림 편집기](assets/push-genai-full-1.png){zoomable="yes"}
+   ![콘텐츠 생성 패널이 열린 푸시 알림 편집기](assets/push-genai-full-1.png){zoomable="yes"}
 
-### 콘텐츠 생성 {#mobile-generate-content}
+### 전체 콘텐츠 생성 {#mobile-generate-content}
 
-푸시 알림을 위해 AI Assistant에 액세스한 후에는 강력한 모바일 컨텐츠를 생성하도록 생성 설정을 구성할 수 있습니다. 텍스트 및 이미지 환경 설정을 정의하고, 브랜드 에셋을 선택한 다음 프롬프트를 사용하여 모바일 사용자를 유도하는 푸시 알림 변형을 생성합니다.
+푸시 알림을 위한 콘텐츠 생성에 액세스하면, 강력한 모바일 콘텐츠를 생성하도록 생성 설정을 구성할 수 있습니다. 텍스트 및 이미지 환경 설정을 정의하고, 브랜드 에셋을 선택한 다음 프롬프트를 사용하여 모바일 사용자를 유도하는 푸시 알림 변형을 생성합니다.
 
-1. AI 관리자가 선택한 콘텐츠를 기반으로 새 콘텐츠를 개인화하려면 **[!UICONTROL 원본 콘텐츠 사용]** 옵션을 사용하도록 설정하십시오.
+1. 선택한 콘텐츠를 기반으로 새 콘텐츠를 개인화하려면 [콘텐츠 생성]에 대해 **[!UICONTROL 원본 콘텐츠 사용]** 옵션을 사용하도록 설정하십시오.
 
 1. AI 생성 콘텐츠가 브랜드 사양에 맞게 조정되도록 하려면 **[!UICONTROL 브랜드]**&#x200B;를 선택하십시오. 브랜드에 대해 [자세히 알아보기](brands.md).
-
-   브랜드 기능은 비공개 베타로 출시되며 모든 고객은 향후 릴리스에서 점진적으로 사용할 수 있습니다.
 
 1. **[!UICONTROL 프롬프트]** 필드에 생성할 내용을 설명하여 내용을 미세 조정하십시오.
 
    프롬프트 작성에 도움이 필요한 경우 캠페인을 개선하기 위한 다양한 프롬프트 아이디어를 제공하는 **[!UICONTROL 프롬프트 라이브러리]**&#x200B;에 액세스하십시오.
 
-   ![프롬프트 필드 및 옵션이 있는 AI 길잡이](assets/push-genai-full-2.png){zoomable="yes"}
+   ![프롬프트 필드 및 옵션을 사용하여 콘텐츠 생성](assets/push-genai-full-2.png){zoomable="yes"}
 
 1. 생성할 필드 선택: **[!UICONTROL 제목]**, **[!UICONTROL 메시지]** 및/또는 **[!UICONTROL 이미지]**.
 
@@ -189,7 +177,7 @@ AI Assistant는 모바일 푸시 알림에 대한 콘텐츠 생성도 지원하�
 
    * **[!UICONTROL 커뮤니케이션 전략]**: 생성된 텍스트에 가장 적합한 커뮤니케이션 스타일을 선택합니다.
    * **[!UICONTROL 언어]**: 생성된 콘텐츠의 언어를 선택합니다.
-   * **[!UICONTROL 음색]**: 푸시 알림의 음색이 대상자에게 울려 퍼집니다. AI 어시스턴트는 유익하거나, 장난스럽거나, 설득력 있게 들리고자 하는 경우 해당 메시지를 적절하게 조정할 수 있습니다.
+   * **[!UICONTROL 음색]**: 푸시 알림의 음색이 대상자에게 울려 퍼집니다. 내용 있는 것처럼 들리든, 즐거운 것처럼 들리든, 설득력 있는 것처럼 들리든 컨텐츠 생성은 그에 따라 메시지를 조정할 수 있습니다.
 
      푸시 알림에 대한 ![텍스트 설정 패널](assets/push-genai-full-3.png){zoomable="yes"}
 
@@ -204,7 +192,7 @@ AI Assistant는 모바일 푸시 알림에 대한 콘텐츠 생성도 지원하�
 
      ![푸시 알림에 대한 이미지 설정](assets/push-genai-full-5.png){zoomable="yes"}
 
-1. **[!UICONTROL 참조 콘텐츠]** 메뉴에서 **[!UICONTROL 파일 업로드]**&#x200B;를 클릭하여 추가 컨텍스트 AI 도우미를 제공할 수 있는 콘텐츠가 포함된 브랜드 자산을 추가하거나 이전에 업로드한 콘텐츠를 선택합니다.
+1. **[!UICONTROL 참조 콘텐츠]** 메뉴에서 **[!UICONTROL 파일 업로드]**&#x200B;를 클릭하여 추가 컨텍스트를 제공할 수 있는 콘텐츠가 포함된 브랜드 자산을 콘텐츠 생성에 추가하거나 이전에 업로드한 콘텐츠를 선택합니다.
 
    이전에 업로드한 파일은 **[!UICONTROL 업로드된 참조 콘텐츠]** 드롭다운에서 사용할 수 있습니다. 세대에 포함할 자산을 전환하기만 하면 됩니다.
 
@@ -230,7 +218,7 @@ AI Assistant는 모바일 푸시 알림에 대한 콘텐츠 생성도 지원하�
 
    * **[!UICONTROL 구문 변경]**: 의미를 유지하면서 메시지를 다시 작성합니다. 이 옵션은 핵심 메시지를 변경하지 않고 대체 단어를 생성하거나, 흐름을 개선하거나, 구문 조정을 하는 데 도움이 됩니다.
 
-   * **[!UICONTROL 더 간단한 언어 사용]**: AI Assistant를 사용하여 언어를 단순화함으로써 더 많은 대상자가 명확하고 쉽게 사용할 수 있습니다.
+   * **[!UICONTROL 더 간단한 언어 사용]**: AI를 사용하여 언어를 단순화하여 더 많은 대상자가 명확하고 쉽게 사용할 수 있도록 합니다.
 
    * **[!UICONTROL 색조 변경]**: 메시지 색조를 조정하여 사용자의 커뮤니케이션 스타일에 더 잘 맞춥니다. 즉, 보다 친숙하거나, 전문적이거나, 긴급하거나, 영감을 줄 수 있습니다.
 
@@ -248,6 +236,6 @@ AI Assistant는 모바일 푸시 알림에 대한 콘텐츠 생성도 지원하�
 
 ## 사용 방법 비디오 {#video}
 
-Journey Optimizer에서 AI Assistant를 사용하여 전체 콘텐츠 경험을 생성하는 방법을 알아봅니다.
+Journey Optimizer에서 컨텐츠 생성 을 사용하여 전체 컨텐츠 경험을 생성하는 방법을 알아봅니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3433552)

@@ -9,23 +9,16 @@ role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
 TQID: https://experienceleague.adobe.com/Ev0xJ86fpweQxgf-VjGUEl4ebk6BdzhVof2BgiMR9EM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: c13ff12d-60f1-49cd-833a-d43359628223
-source-git-commit: 75ebd043971ce40e2da0f627622441a46a8e667c
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c13ff12d-60f1-49cd-833a-d43359628223
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 1314
-ht-degree: 19%
+source-wordcount: 1313
+ht-degree: 18%
 
 ---
 
@@ -108,7 +101,7 @@ Journey Optimizer에서 RCS를 사용하려면 다음 전제 조건이 필요합
 
 ## 추가 리소스 {#additional-resources}
 
-Journey Optimizer의 모바일 메시지에 대한 자세한 내용은 아래 항목을 참조하십시오. 자세한 사용 사례 및 모범 사례는 모바일 학습 허브의 [SMS/MMS/RCS 개요](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/mobile-learning-hub/mobile-channels-overview/sms-mms-rcs-overview){target="_blank"}를 참조하십시오.
+Journey Optimizer의 모바일 메시지에 대한 자세한 내용은 아래 항목을 참조하십시오. 자세한 사용 사례 및 모범 사례는 모바일 학습 허브의 [SMS/MMS/RCS 개요](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/mobile-learning-hub/mobile-channels-overview/sms-mms-rcs-overview){target="_blank"}를 참조하십시오.
 
 +++구성 안내서
 
@@ -139,7 +132,7 @@ SMS 환경을 설정하고 구성하는 방법 알아보기:
 * [메시지 미리 보기, 테스트, 보내기](send-mobile-message.md)
 * [모바일 메시지의 Personalization](../personalization/personalize.md)
 * [다이내믹 콘텐츠](../personalization/get-started-dynamic-content.md)
-* [AI 어시스턴트로 SMS 콘텐츠 생성](../content-management/generative-text.md)
+* [AI로 SMS 콘텐츠 생성](../content-management/generative-text.md)
 
 +++
 
@@ -206,7 +199,7 @@ RCS 메시지는 디바이스의 기본 메시징 애플리케이션에서 표�
 
 +++비디오 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3422697?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
@@ -216,7 +209,7 @@ Adobe Journey Optimizer가 마케터에게 제공하는 포괄적인 모바일 �
 
 +++비디오 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3430374?captions=kor&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
 +++
 
@@ -226,6 +219,6 @@ Adobe Journey Optimizer가 마케터에게 제공하는 포괄적인 모바일 �
 
 +++비디오 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3464762?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
 +++

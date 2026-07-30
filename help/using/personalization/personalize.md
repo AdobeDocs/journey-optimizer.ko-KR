@@ -9,14 +9,11 @@ role: Developer
 level: Beginner
 keywords: 표현식, 편집기, 시작, 개인화
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: a757b957-83f3-4a4d-9775-a93854f84f77
-  - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: a757b957-83f3-4a4d-9775-a93854f84f77id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 1403
+source-wordcount: 1402
 ht-degree: 11%
 
 ---
@@ -60,15 +57,15 @@ Personalization은 Adobe Experience Platform에 정의된 **XDM 개인 프로필
 
 ![개인화 플레이그라운드](assets/playground.png)
 
-➡️ [개인화 플레이그라운드에 액세스](https://experienceleague.adobe.com/ko/apps/journey-optimizer/ajo-personalization){target="_blank"}
+➡️ [개인화 플레이그라운드에 액세스](https://experienceleague.adobe.com/en/apps/journey-optimizer/ajo-personalization){target="_blank"}
 
-## 개인화 표현식에 AI 어시스턴트 사용 {#ai-personalization-expressions}
+## 개인화 표현식에 대한 콘텐츠 생성 {#ai-personalization-expressions}
 
-**[!UICONTROL Personalization 편집기]** 또는 전자 메일 Designer 도구 모음(**[!UICONTROL 식 추가]**)에서 **[!UICONTROL AI 도우미]**&#x200B;를 사용하면 자연어에서 새 식을 생성하고, 기존 코드가 수행하는 작업을 설명하고, 선택 항목의 문제를 해결한 다음 출력이 사용자의 의도와 일치할 때 출력을 적용할 수 있습니다.
+**[!UICONTROL Personalization 편집기]** 또는 전자 메일 Designer 도구 모음(**[!UICONTROL 식 추가]**)에서 **[!UICONTROL 콘텐츠 생성]**&#x200B;을 사용하면 자연어에서 새 식을 생성하고, 기존 코드가 수행하는 작업을 설명하고, 선택 항목의 문제를 해결한 다음 출력이 사용자의 의도와 일치할 때 출력을 적용할 수 있습니다.
 
 ![](../content-management/assets/ai-perso-generate.png)
 
-➡️ [Personalization Expressions에서 AI Assistant를 사용하여 작업하는 방법을 알아봅니다](../content-management/generative-personalization-expressions.md)
+➡️ [개인화 식에 대한 콘텐츠 생성으로 작업하는 방법을 알아봅니다.](../content-management/generative-personalization-expressions.md)
 
 ## 프로필 속성의 인라인 편집 {#inline-personalization}
 
@@ -134,15 +131,15 @@ Personalization은 Adobe Experience Platform에 정의된 **XDM 개인 프로필
 
 여정에서 얻은 컨텍스트 기반 이벤트 정보를 사용하여 메시지를 개인화하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448143?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
 메시지에 프로필 기반 개인 맞춤화를 추가하는 방법과 개인 맞춤화 블록의 전제 조건으로 대상자 멤버십을 사용하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416272?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)
 
 개인화 편집기 플레이그라운드를 활용하여 샘플 데이터를 사용하여 개인화 코드를 작성하고 테스트하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475959?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3457868?quality=12)
 
 [Personalization 자습서](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/personalize-content/personalization-editor-overview){target="_blank"}에서 개인화 기능 및 모범 사례에 대한 비디오 튜토리얼을 더 살펴보십시오
 
@@ -158,14 +155,14 @@ Personalization은 Adobe Experience Platform에 정의된 **XDM 개인 프로필
 
 **TL;DR**
 
-이 페이지에서는 Journey Optimizer의 개인화(Handlebars 기반 개인화 편집기 작동 방식, 사용 데이터, 대화형 플레이그라운드, 표현식을 위한 AI 도우미, 이메일 Designer 및 푸시 편집기의 인라인 속성 편집)를 소개합니다.
+이 페이지에서는 Journey Optimizer의 개인화(Handlebars 기반 개인화 편집기 작동 방식, 사용 데이터, 대화형 플레이그라운드, 표현식에 대한 콘텐츠 생성, 이메일 Designer 및 푸시 편집기의 인라인 속성 편집)를 소개합니다.
 
 **의도**
 
 * Journey Optimizer 개인화의 작동 방식 이해(중괄호를 사용한 Handlebars 구문)
 * 개인화에 사용할 수 있는 데이터 소스 식별(XDM 개별 프로필 스키마, 계산된 속성, 베타에서 AEP 데이터 세트 조회)
 * 라이브 샌드박스 없이 대화형 플레이그라운드를 사용하여 개인화 실험
-* AI Assistant를 사용하여 자연어에서 개인화 표현식을 생성, 설명 또는 수정
+* AI를 사용하여 자연어에서 개인화 표현식을 생성, 설명 또는 수정합니다.
 * `{{`을(를) 입력하여 이메일 Designer 또는 푸시 편집기에서 프로필 특성을 인라인으로 삽입합니다.
 
 >[!TAB 용어집]
@@ -175,7 +172,7 @@ Personalization은 Adobe Experience Platform에 정의된 **XDM 개인 프로필
 * **계산된 특성**: 개별 동작 이벤트를 프로필 수준 값으로 요약하는 미리 계산된 프로필 특성입니다. 표준 XDM 프로필 필드와 함께 개인화 데이터로 사용할 수 있습니다. *(제품별)*
 * **Personalization 플레이그라운드**: 샘플 데이터로 개인화 코드를 작성 및 테스트하기 위한 Experience League의 대화형 시뮬레이션 환경입니다. 라이브 데이터 세트 또는 샌드박스가 필요하지 않습니다. *(제품별)*
 * **인라인 편집**: 전자 메일 Designer 또는 푸시 채널 편집기의 텍스트 필드에 `{{`을(를) 입력하여 자동 완성 드롭다운을 트리거하고 전체 개인화 편집기를 열지 않고 프로필 특성을 삽입하는 기능. *(제품별)*
-* **AI Assistant(개인화 표현식)**: 개인화 편집기 및 이메일 Designer의 AI 도구로서, 자연어에서 개인화 표현식을 생성하고, 기존 코드를 설명하며, 선택 항목의 문제를 수정합니다. *(제품별)*
+* **콘텐츠 생성(개인화 표현식)**: 개인화 편집기의 AI 도구 및 이메일 Designer으로 자연어에서 개인화 표현식을 생성하고 기존 코드를 설명하며 선택 항목의 문제를 수정합니다. *(제품별)*
 
 >[!TAB 용어]
 
@@ -205,7 +202,7 @@ XDM 개인 프로필 스키마, 계산된 속성(프로필 수준에서 요약�
 
 전자 메일 Designer 또는 푸시 채널 편집기의 텍스트 필드에 `{{`을(를) 입력하여 커서 위치에서 자동 완성 드롭다운을 엽니다. 프로필 속성을 필터링하려면 입력을 시작한 다음 하나를 선택하여 개인화 토큰으로 삽입합니다. 프로필 속성만 인라인으로 사용할 수 있습니다.
 
-**Q: AI 도우미는 개인화 편집기에서 어떤 작업을 수행할 수 있습니까?**
+**Q: 개인화 편집기에서 콘텐츠를 생성할 수 있는 작업**
 
 자연어 설명에서 새 개인화 표현식을 생성하고, 기존 코드의 기능을 설명하고, 선택한 표현식의 문제를 해결한 다음 의도와 일치하면 출력을 적용할 수 있습니다.
 

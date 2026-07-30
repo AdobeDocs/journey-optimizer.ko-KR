@@ -8,9 +8,9 @@ level: Beginner, Intermediate
 exl-id: 0c2f95ce-28a0-480c-9829-b7e4975b6340
 feature_v2: []
 subfeature_v2: []
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 1151
+source-wordcount: 1148
 ht-degree: 3%
 
 ---
@@ -124,4 +124,4 @@ AI 받은 편지함에 대한 전자 메일 최적화 기능을 사용하면 사
 ## 관련 항목 {#related-topics}
 
 * [이메일 디자인 시작](get-started-email-design.md)
-* Adobe 생성 기능에 대한 자세한 내용은 [AI Assistant 시작](../content-management/gs-generative.md)을 참조하십시오.
+* Adobe 생성 기능에 대한 자세한 내용은 [콘텐츠 생성 시작](../content-management/gs-generative.md)을 참조하세요.
