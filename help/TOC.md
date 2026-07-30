@@ -6,10 +6,10 @@ user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 66613584226260662d1122048cdfcaa64787113f
+source-git-commit: 4bdf774d4d38b3c7d97daebade3dfb6ab0403a5e
 workflow-type: tm+mt
-source-wordcount: '3489'
-ht-degree: 94%
+source-wordcount: '3485'
+ht-degree: 93%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 94%
 + 여정 {#orchestrate-journeys}
   + [여정 시작](using/building-journeys/journey.md)
   + {hide-from-toc}[여정 시작 안내서](using/building-journeys/journey-get-started.md)
-  + {hide-from-toc}[여정 형식: 올바른 one-2 선택](using/building-journeys/journey-types-selection-v2.md)
+  + {hide-from-toc}[여정 형식: 올바른 one-2](using/building-journeys/journey-types-selection-v2.md) 선택
   + [Journey Orchestration FAQ](using/building-journeys/journey-faq.md)
   + 여정 만들기 {#create-journey}
     + [여정 만들기](/help/rp_landing_pages/create-journey-landing-page.md)
@@ -556,7 +556,6 @@ ht-degree: 94%
       + [고려할 사항 및 문제 해결](using/integrations/aem-fragments-limitations.md)
     + [Experience Manager 콘텐츠 어드바이저 작업](using/integrations/aem-content-advisor.md)
     + [Dynamic Media 작업](using/integrations/aem-dynamic.md)
-    + {hide-from-toc}[카운트다운 타이머 삽입](using/integrations/countdown.md)
     + [GenStudio for Performance Marketing 작업](using/integrations/genstudio.md)
     + [인텔리전트 서비스와 통합](using/integrations/intelligent-services.md)
     + 통합 {#integrations}
@@ -567,17 +566,16 @@ ht-degree: 94%
         + [공급업체 통합 시작](using/integrations/vendor-integration-gs.md)
         + [샘플 공급업체 구성](using/integrations/vendor-integration.md)
     + [MCP를 통한 AI 도구 작업](/help/using/integrations/ajo-mcp.md)
-  + 콘텐츠 생성을 위한 AI 어시스턴트 {#ai-assistant}
-    + [콘텐츠 생성을 위한 AI 어시스턴트](/help/rp_landing_pages/ai-assistant-landing-page.md)
-    + [AI 어시스턴트 시작하기](using/content-management/gs-generative.md)
+  + 콘텐츠 생성 {#generate-content}
+    + [콘텐츠 생성 시작](using/content-management/gs-generative.md)
     + [AI 프롬프트 모범 사례](using/content-management/ai-assistant-prompting-guide.md)
+    + AI Assistant의 {hide-from-toc}[Content Credentials](using/content-management/generative-content-credentials.md)
     + [AI로 전체 콘텐츠 생성](using/content-management/generative-full-content.md)
     + [AI로 텍스트 생성](using/content-management/generative-text.md)
     + [AI로 이미지 생성](using/content-management/generative-image.md)
-    + [개인화 표현식에 AI 어시스턴트 사용](using/content-management/generative-personalization-expressions.md)
-    + [AI 어시스턴트 사용 사례](using/content-management/generative-uc.md)
+    + [개인화 표현식에 대한 콘텐츠 생성](using/content-management/generative-personalization-expressions.md)
+    + [콘텐츠 사용 사례 생성](using/content-management/generative-uc.md)
     + 브랜드 {#brands}
-      + [브랜드](/help/rp_landing_pages/brands-landing-page.md)
       + [브랜드 만들기 및 관리](using/content-management/brands.md)
       + [브랜드 개인화](using/content-management/brands-personalize.md)
       + [생성형 모델 만들기 및 관리](using/content-management/generative-models.md)
@@ -976,6 +974,7 @@ ht-degree: 94%
   + [이메일에 참조 필드 추가](using/configuration/cc-email-field.md)
   + [실행 필드 관리](using/configuration/primary-email-addresses.md)
   + [피드백 웹후크 만들기](using/configuration/feedback-webhooks.md)
+  + [허용된 IP 관리](using/configuration/waf-ip-allowlist.md)
 + 여정 구성 {#configure-journeys}
   + [여정 구성](/help/rp_landing_pages/configure-journeys-landing-page.md)
   + [여정 구성 시작](using/configuration/about-data-sources-events-actions.md)
