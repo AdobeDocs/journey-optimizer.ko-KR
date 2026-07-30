@@ -8,25 +8,13 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 3ce2c816766da670f3905d4986b5dc304f9a674c
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 0af9a79a9f06d99c6136618c3635c05e4dc653e8
 workflow-type: tm+mt
 source-wordcount: 2970
 ht-degree: 18%
@@ -212,7 +200,7 @@ Journey Optimizer에서는 이 릴리스의 새로운 기능인 충성도 문제
 
   사용 가능한 날짜: 2026년 7월 29일
 
-* **느린 사용자 지정 작업 끝점에 대한 회로 차단기 보호** - 느린 사용자 지정 작업 서비스를 통해 라우팅된 끝점의 경우 130초 관찰 기간에 200개 이상의 호출이 있는 경우 120초 기간에 20% 이상의 호출이 10초를 초과할 경우 Journey Optimizer은 이제 최대 5분 동안 모든 호출을 일시적으로 제한합니다. 이렇게 하면 이미 느린 끝점을 오버로드할 수 있습니다. [자세히 알아보기](../configuration/external-systems.md#response-time)
+* **느린 사용자 지정 작업 끝점에 대한 회로 차단기 보호** - 느린 사용자 지정 작업 서비스를 통해 라우팅된 끝점의 경우 120초 관찰 기간에 200개 이상의 호출이 있는 경우 120초 기간에 20% 이상의 호출이 10초를 초과할 경우 Journey Optimizer은 이제 최대 5분 동안 모든 호출을 일시적으로 제한합니다. 이렇게 하면 이미 느린 끝점을 오버로드할 수 있습니다. [자세히 알아보기](../configuration/external-systems.md#response-time)
 
   사용 가능한 날짜: 2026년 7월 29일 이 기능은 지역 간에 점차 확대되고 있습니다.
 
