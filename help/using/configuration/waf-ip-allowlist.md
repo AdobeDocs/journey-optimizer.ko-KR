@@ -7,21 +7,25 @@ feature: Channel Configuration, Deliverability
 role: Admin
 level: Experienced
 keywords: waf, 방화벽, ip, 하위 도메인, 보안, 트래픽, 인바운드
-source-git-commit: 177baaa49fc173bda3d517d8fb42391bcc22b6c5
+source-git-commit: 1fae65f5e7b54e2b45917ff2c28fe0a326633dfa
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1086'
 ht-degree: 0%
 
 ---
 
 # 허용된 IP 관리 {#waf-ip-allowlist}
 
+>[!CONTEXTUALHELP]
+>id="ajo_waf_allowed_ips"
+>title="선택한 하위 도메인에 대해 허용되는 IP 입력"
+>abstract="위임된 하위 도메인을 선택하고 웹 애플리케이션 방화벽의 공개 이그레스 IP를 입력합니다. 저장되면 [!DNL Journey Optimizer]은(는) 선언된 IP 중 하나에서 시작하지 않은 하위 도메인에 대한 인바운드 요청을 거부합니다. 저장하기 전에 항상 보안 팀과 정확한 이그레스 IP를 확인합니다."
+
 >[!BEGINSHADEBOX]
 
 **이 페이지에서:** 방화벽을 통해 라우팅된 트래픽만 [!DNL Journey Optimizer] 호스팅 링크에 도달할 수 있도록 [!DNL Journey Optimizer]에서 위임된 하위 도메인당 웹 응용 프로그램 방화벽(WAF) 이그레스 IP를 직접 추가하고 관리합니다.
 
 >[!ENDSHADEBOX]
-
 
 금융 분야와 같이 네트워크 보안 요구 사항이 엄격한 조직에서는 [!DNL Adobe Journey Optimizer]에서 호스팅하는 링크에 대한 모든 요청이 고객 관리 **웹 응용 프로그램 방화벽**(WAF)을 통과해야 Adobe 네트워크에 연결할 수 있습니다. 방화벽을 우회하는 모든 요청은 거부해야 합니다.
 
@@ -70,11 +74,11 @@ ht-degree: 0%
 >
 >IP 허용 목록에 액세스하고 관리하려면 **[!UICONTROL 허용된 IP 보기]** 및 **[!UICONTROL 허용된 IP 관리]** 권한이 있어야 합니다. [자세히 알아보기](../administration/ootb-permissions.md)
 
-웹 응용 프로그램 방화벽에 대해 IP를 허용한 하위 도메인 목록에 액세스하려면 **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL 일반 설정]**&#x200B;으로 이동한 다음 **[!UICONTROL 허용 목록 - IP]**&#x200B;을 선택합니다.
+웹 응용 프로그램 방화벽의 IP를 허용한 하위 도메인 목록에 액세스하려면 **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL 일반 설정]**(으)로 이동한 다음 **[!UICONTROL 허용 목록 - IP]**&#x200B;을(를) 선택하십시오.
 
-![WAF IP 허용 목록 인벤토리](assets/waf-ip-allowlist.png)
+![IP 허용 목록 인벤토리](assets/waf-ip-allowlist.png){width="90%"}
 
-인벤토리 페이지에는 모든 채널 유형(이메일, 랜딩 페이지, SMS, 웹)에서 하나 이상의 WAF IP가 허용되는 모든 하위 도메인이 나열됩니다. [이 섹션](about-subdomain-delegation.md)의 하위 도메인에 대해 자세히 알아보세요.
+인벤토리 페이지에는 모든 채널 유형(이메일, 랜딩 페이지, SMS, 웹)에서 하나 이상의 IP가 허용되는 모든 하위 도메인이 나열됩니다. [이 섹션](about-subdomain-delegation.md)의 하위 도메인에 대해 자세히 알아보세요.
 
 이 목록에는 하위 도메인당 허용되는 IP 수와 마지막 수정 작성자가 표시됩니다.
 
@@ -82,12 +86,7 @@ ht-degree: 0%
 
 ## 허용 목록에 IP 추가 {#waf-ip-allowlist-add}
 
->[!CONTEXTUALHELP]
->id="ajo_waf_allowed_ips"
->title="선택한 하위 도메인에 대한 WAF 허용 IP 입력"
->abstract="위임된 하위 도메인을 선택하고 웹 애플리케이션 방화벽의 공개 이그레스 IP를 입력합니다. 저장되면 [!DNL Journey Optimizer]은(는) 선언된 IP 중 하나에서 시작하지 않은 하위 도메인에 대한 인바운드 요청을 거부합니다. 저장하기 전에 항상 보안 팀과 정확한 이그레스 IP를 확인합니다."
-
-지정된 하위 도메인의 허용 목록에 웹 응용 프로그램 방화벽 IP를 추가하려면 아래 단계를 수행합니다.
+주어진 하위 도메인의 허용 목록에 IP를 추가하려면 아래 단계를 따르십시오.
 
 1. **[!UICONTROL 허용 목록 - IP]** 인벤토리에서 **[!UICONTROL 허용된 IP 추가]** 단추를 클릭합니다.
 
@@ -97,7 +96,7 @@ ht-degree: 0%
 
    중복되지 않는 유효한 각 항목은 추가되기 전에 인라인으로 확인됩니다. 하위 도메인당 최대 **50개의 IP 항목을 추가할 수 있습니다**.
 
-   ![하위 도메인에 대해 WAF 허용 IP 추가](assets/waf-ip-allowlist-add-ip.png)
+   ![하위 도메인에 대해 허용되는 IP 추가](assets/waf-ip-allowlist-add-ip.png)
 
    >[!IMPORTANT]
    >
@@ -117,11 +116,11 @@ ht-degree: 0%
 
 기존 하위 도메인에 대해 허용되는 IP를 업데이트하려면 인벤토리에서 하위 도메인 이름을 클릭합니다.
 
-**하위 도메인** 필드는 읽기 전용 <!--as well as the Channel field-->입니다. 만든 후에는 변경할 수 없습니다.
+**[!UICONTROL 하위 도메인]** 필드는 읽기 전용 <!--as well as the Channel field-->입니다. 만든 후에는 변경할 수 없습니다.
 
 입력 필드를 사용하여 새 IP를 추가하거나 각 칩의 **✕** 아이콘을 클릭하여 기존 IP를 제거하십시오.
 
-![WAF 허용 IP 편집 또는 제거](assets/waf-ip-allowlist-edit-ip.png)
+![허용된 IP 편집 또는 제거](assets/waf-ip-allowlist-edit-ip.png)
 
 >[!IMPORTANT]
 >
@@ -129,16 +128,16 @@ ht-degree: 0%
 
 ## 허용된 IP 제거 {#waf-ip-allowlist-remove}
 
-하위 도메인용 허용 목록에서 모든 IP를 제거하려면 인벤토리의 작업 열에서 삭제 아이콘을 사용합니다. 이렇게 하면 해당 하위 도메인에 대한 WAF 제한이 완전히 해제됩니다.
+하위 도메인의 허용 목록에서 모든 IP를 제거하려면 인벤토리의 **[!UICONTROL 작업]** 열에서 **삭제** 아이콘을 사용하십시오. 이렇게 하면 해당 하위 도메인에 대한 WAF 제한이 완전히 해제됩니다.
 
-![허용 IP 목록의 작업 열에서 삭제 아이콘](assets/waf-ip-allowlist-delete-icon.png)
+![허용된 IP 목록의 작업 열에서 삭제 아이콘](assets/waf-ip-allowlist-delete-icon.png)
 
 확인 팝업이 열립니다. 정확한 하위 도메인 이름을 입력하여 확인한 다음 **[!UICONTROL 제거]**&#x200B;를 클릭합니다.
 
-![하위 도메인에 대해 모든 WAF 허용 IP 제거 확인](assets/waf-ip-allowlist-remove.png){width="80%"}
+![하위 도메인에 대해 허용되는 모든 IP 제거 확인](assets/waf-ip-allowlist-remove.png){width="80%"}
 
 >[!WARNING]
 >
->확인 후 이 작업은 입력한 하위 도메인에 대한 모든 허용 목록 IP를 제거합니다. 인바운드 트래픽은 웹 애플리케이션 방화벽을 우회하는 요청을 포함하여 모든 소스에서 다시 한 번 수락됩니다. 실행 취소할 수 없음 — 제한을 복원하려면 IP를 다시 입력해야 합니다.
+>확인 후 이 작업은 입력한 하위 도메인에 대해 허용된 모든 IP를 제거합니다. 인바운드 트래픽은 웹 애플리케이션 방화벽을 우회하는 요청을 포함하여 모든 소스에서 다시 한 번 수락됩니다. 실행 취소할 수 없음 — 제한을 복원하려면 IP를 다시 입력해야 합니다.
 
 모든 IP를 제거한 후에는 하위 도메인이 더 이상 인벤토리에 표시되지 않습니다. 이 하위 도메인에 대한 IP를 다시 추가하여 언제든지 다시 구성할 수 있습니다.
