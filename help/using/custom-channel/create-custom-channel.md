@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="제한 공개" type="Informative"
-source-git-commit: 3b584e496d7438a9d472a41149cba60928cb2517
+source-git-commit: 6aa595444e13ddd37a15734f47cc11ce17585117
 workflow-type: tm+mt
-source-wordcount: '1575'
+source-wordcount: '1567'
 ht-degree: 15%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 15%
 
 1. **[!UICONTROL 채널 빌더]** 섹션에서 **[!UICONTROL 사용자 지정 채널]**&#x200B;을 선택합니다.
 
-   ![사용자 지정 채널 인벤토리](assets/custom_channels_inventory.png){width="70%"}
+   ![사용자 지정 채널 인벤토리](assets/custom_channels_inventory.png){width="100%"}
 
 1. 인벤토리는 현재 상태 및 외부 끝점에 연결하는 데 사용되는 인증 유형을 포함하여 샌드박스의 모든 사용자 지정 채널을 나열합니다.
 
@@ -60,7 +60,7 @@ ht-degree: 15%
 
 1. 채널을 보관하려면 인벤토리에서 채널을 열고 **[!UICONTROL 보관]**&#x200B;을 클릭하세요.
 
-   활성 채널을 보관하면 캠페인 작업 선택기, 여정 작업 팔레트, 오케스트레이션된 캠페인 채널 목록, 채널 구성 및 콘텐츠 템플릿과 같은 모든 선택 드롭다운에서 제거됩니다. 이미 채널을 사용하고 있는 기존 여정 및 캠페인은 정상적으로 계속 작동합니다.
+   활성 채널을 보관하면 캠페인 작업 선택기, 여정 작업 팔레트, <!--orchestrated campaigns channel list,--> 채널 구성 및 콘텐츠 템플릿 등 모든 선택 드롭다운에서 활성 채널이 제거됩니다. 이미 채널을 사용하고 있는 기존 여정 및 캠페인은 정상적으로 계속 작동합니다.
 
 ## 사용자 지정 채널 만들기 {#create-channel}
 
@@ -70,7 +70,7 @@ ht-degree: 15%
 
    ![일반 설정](assets/custom_channel_properties.png){width="70%"}
 
-1. **[!UICONTROL 속성]** 섹션에서 사용자 지정 채널의 **[!UICONTROL 이름]**&#x200B;을(를) 입력하십시오. 이 이름은 여정 캔버스, 캠페인 작업 선택기 및 오케스트레이션된 캠페인 채널 목록에 표시됩니다.
+1. **[!UICONTROL 속성]** 섹션에서 사용자 지정 채널의 **[!UICONTROL 이름]**&#x200B;을(를) 입력하십시오. 이 이름은 여정 캔버스 및 캠페인 작업 선택기<!--and orchestrated campaigns channel list-->에 표시됩니다.
 
    >[!NOTE]
    >

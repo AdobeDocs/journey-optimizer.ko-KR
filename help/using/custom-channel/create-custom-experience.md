@@ -1,14 +1,14 @@
 ---
 title: 사용자 지정 채널 경험 만들기
-description: Adobe Journey Optimizer의 여정, 캠페인 또는 오케스트레이션된 캠페인에서 사용자 정의 채널을 사용하는 방법을 알아봅니다.
+description: 여정 또는 Adobe Journey Optimizer의 캠페인에서 사용자 지정 채널을 사용하는 방법을 알아봅니다.
 feature: Channel Configuration
 topic: Content Management
 role: User
 level: Experienced
 badge: label="제한 공개" type="Informative"
-source-git-commit: 3b584e496d7438a9d472a41149cba60928cb2517
+source-git-commit: 6aa595444e13ddd37a15734f47cc11ce17585117
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '997'
 ht-degree: 14%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 14%
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** Adobe Journey Optimizer에서 여정, 캠페인 또는 오케스트레이션된 캠페인에 사용자 지정 채널을 추가하고 표현식 편집기를 사용하여 개인화된 메시지 페이로드를 작성하는 방법에 대해 알아봅니다.
+**이 페이지에서:** Adobe Journey Optimizer의 여정 또는 캠페인에 사용자 지정 채널을 추가하고 표현식 편집기를 사용하여 개인화된 메시지 페이로드를 작성하는 방법에 대해 알아봅니다.
 
 >[!ENDSHADEBOX]
 
@@ -26,7 +26,7 @@ ht-degree: 14%
 >
 >이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.
 
-[!DNL Journey Optimizer]에서 캠페인, 여정 및 오케스트레이션된 캠페인에서 사용자 지정 채널을 사용하여 메시지를 전달할 수 있습니다. 사용자 지정 채널 경험을 설정하려면 아래 단계를 따르십시오.
+[!DNL Journey Optimizer]에서는 캠페인 및 여정에서 사용자 지정 채널을 사용하여 메시지를 전달할 수 있습니다. 사용자 지정 채널 경험을 설정하려면 아래 단계를 따르십시오.
 
 >[!NOTE]
 >

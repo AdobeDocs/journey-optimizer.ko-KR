@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="제한 공개" type="Informative"
-source-git-commit: 9dfa2792db981f5f1a4e9fc3868ffd200c855a5b
+source-git-commit: 6aa595444e13ddd37a15734f47cc11ce17585117
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '396'
 ht-degree: 9%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 9%
 >
 >이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.
 
-사용자 지정 채널 구성은 채널당 한 번 발생하는 관리자 작업입니다. 채널이 구성되면 마케터는 모든 기본 [!DNL Journey Optimizer] 채널과 마찬가지로 캠페인, 여정 및 오케스트레이션된 캠페인에서 즉시 선택할 수 있습니다.
+사용자 지정 채널 구성은 채널당 한 번 발생하는 관리자 작업입니다. 채널이 구성되면 마케터는 모든 기본 [!DNL Journey Optimizer] 채널과 마찬가지로 캠페인 및 여정에서 즉시 선택할 수 있습니다.
 
 구성 프로세스에는 채널 자체(엔드포인트, 인증, 페이로드)를 정의하고, 요청을 인증하는 데 사용되는 API 자격 증명을 관리하고, 선택적으로 링크 추적을 위해 하위 도메인을 위임하고, 마지막으로 마케터가 작성 시 선택할 채널 구성을 만드는 네 가지 단계가 포함됩니다.
 

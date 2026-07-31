@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="제한 공개" type="Informative"
-source-git-commit: 9dfa2792db981f5f1a4e9fc3868ffd200c855a5b
+source-git-commit: 9c718d6eb3fcac0b30111f12f500dc5fb270b357
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 8%
+source-wordcount: '361'
+ht-degree: 9%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 8%
 
 1. [!DNL Journey Optimizer]에서 사용자 지정 채널에 대한 하위 도메인을 설정한 경우 이 구성에 대한 페이로드에 있는 링크를 추적하는 데 사용할 위임된 하위 도메인을 선택할 수 있습니다. [하위 도메인을 위임하는 방법 알아보기](custom-channel-subdomains.md)
 
-1. 선택한 채널에 끝점 URL에 대해 [변수로 정의된 헤더 또는 쿼리 매개 변수가 &#x200B;](create-custom-channel.md#endpoint-configuration)인 경우 **[!UICONTROL 동적 매개 변수]** 섹션이 나타납니다.
+1. 선택한 채널에 끝점 URL에 대해 [변수로 정의된 헤더 또는 쿼리 매개 변수가 ](create-custom-channel.md#endpoint-configuration)인 경우 **[!UICONTROL 동적 매개 변수]** 섹션이 나타납니다.
 
    각 매개 변수의 값을 입력합니다. 개인화 편집기를 사용하여 동적 값(예: 프로필에서 확인된 사용자 식별자)을 삽입할 수 있습니다. 이렇게 하면 프로필 데이터를 기반으로 각 수신자에 대한 요청을 사용자 지정할 수 있습니다.
 
@@ -50,9 +50,11 @@ ht-degree: 8%
 
    각 필드에 대한 값을 이 구성에 맞게 구성합니다. 이는 발신자 정보나 메시지 템플릿과 같이 캠페인 또는 여정의 상황에 따라 달라질 수 있는 필드에 유용합니다.
 
-1. 오케스트레이션된 캠페인의 경우 **[!UICONTROL 실행 세부 정보]** 섹션을 완료하여 프로필 차원을 매핑하고 실행 주소를 지정하십시오.
+<!--
+1. For orchestrated campaigns, complete the **[!UICONTROL Execution details]** section to map profile dimensions and specify the execution address.
 
-   ![오케스트레이션된 캠페인의 실행 세부 정보](assets/custom_channel_oc_execution_details.png){width="80%"}
+   ![Execution details in orchestrated campaigns](assets/custom_channel_oc_execution_details.png){width="80%"}
+-->
 
 1. 채널 구성을 저장하고 활성화하려면 **[!UICONTROL 제출]**&#x200B;을 클릭하십시오.
 
@@ -68,4 +70,4 @@ ht-degree: 8%
 
 * [사용자 지정 채널 경험 만들기](create-custom-experience.md)
 * [사용자 지정 채널 테스트](test-custom-channel.md)
-* [사용자 지정 채널 모니터링](configure-custom-channel.md)
+* [사용자 지정 채널 모니터링](monitor-custom-channel.md)
