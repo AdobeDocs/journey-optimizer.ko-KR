@@ -8,10 +8,10 @@ topic: Artificial Intelligence
 role: User
 level: Beginner
 mini-toc-levels: 2
-source-git-commit: 0be8c8319d56c71038d9b16eb23785d72cbc004d
+source-git-commit: 7f60cb8e5c7fe9140ee0689d53e12aba7ade3a3b
 workflow-type: tm+mt
-source-wordcount: '2864'
-ht-degree: 8%
+source-wordcount: '2969'
+ht-degree: 7%
 
 ---
 
@@ -45,7 +45,7 @@ CX Coworker 는 여정 및 충성도 문제를 관리하는 다양한 기술을 
 <!--
 feedback from Ivan: Need to remove Simulate skill from docs until Nico confirms the release timeline.
 
-In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
+In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
 
 * Generating simulated users
 * Generating event values
@@ -300,6 +300,18 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
    * &quot;보유한 라이브 여정은 몇 개입니까?&quot;
    * &quot;모든 예약된 반복 여정 및 예상 실행 시간 목록을 제공합니다.&quot;
 
+1. **여정 사용자 지정 작업 오류 분석**
+
+   * 사용자 지정 작업이 실패하거나 여정 내에서 오류율이 급증하는 시점을 식별합니다.
+   * 오류가 더 광범위한 여정 중단으로 확대되기 전에 근본 원인을 진단합니다.
+   * 특정 교정 단계를 사용하여 사용자 지정 작업의 안정성을 신속하게 복원합니다.
+
+   샘플 프롬프트:
+   * &quot;[여정 이름] 여정에서 사용자 지정 작업이 실패한 이유는 무엇입니까?&quot;
+   * &quot;[여정 이름] 여정에서 사용자 지정 작업 [사용자 지정 작업 이름]의 오류율은 얼마입니까?&quot;
+   * &quot;[여정 이름] 여정에서 사용자 지정 작업 실패의 근본 원인을 보여 줍니다.&quot;
+   * &quot;[여정 이름] 여정에 영향을 주는 사용자 지정 작업 오류가 있습니까?&quot;
+
 #### 범위 스킬 내
 
 여정 분석에서는 다음 기능이 지원됩니다.
@@ -307,6 +319,7 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
 * **반응형 쿼리**: 사용자가 여정 성과, 대상자 사용, 일정 충돌에 대해 구체적인 질문을 할 수 있습니다.
 * **다른 스킬과 통합**: 심층 분석을 위해 Audience 및 Data Insights 기능과 공동 작업합니다.
 * **응답 구조**: 추론(논리 설명), 분석 요약(주요 사항 강조 표시), 문제 세부 정보(문제 설명) 및 권장 사항(다음 단계 제안).
+* **사용자 지정 작업 오류 분석**: 여정 내의 사용자 지정 작업 오류 및 오류 급증을 감지하고 진단합니다.
 
 #### 범위 외 스킬
 
@@ -397,20 +410,6 @@ Loyalty Challenge Management를 사용하면 Journey Optimizer 사용자가 자�
 
 
 <!--
-Journey new skills to document:
-
-Journey Custom Action Error Analysis
-- Identify when custom actions are failing or error rates spike within a journey.
-- Diagnose root causes before failures cascade into broader journey disruption.
-- Use specific remediation steps to restore custom action reliability quickly.
-
-Journey Anomaly Detection
-- Detect unexpected spikes or drops in journey sends and exits against historical baselines.
-- Catch send or exit volume issues early, before they affect a large share of your audience.
-- Use the insights to pinpoint the root cause and keep the journey performing as expected.
--->
-
-<!--
 Feedback from Ivan: Journey simulate is not ready as a skill
 
 ## Journey Simulate: Use Cases, Agentic Skills and User Guide
@@ -491,6 +490,6 @@ In addition to this, the following capabilities are supported by the Journey Sim
 
 Simulation may not support every activity, channel, or integration that Test mode or a live journey supports, and behavior may change as the capability matures.
 
-➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
+➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
 
 -->
