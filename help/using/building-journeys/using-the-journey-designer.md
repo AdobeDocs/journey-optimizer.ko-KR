@@ -171,7 +171,7 @@ ht-degree: 2%
 
 >[!TIP]
 >
->여정 캔버스에서 노드를 분리하고 다시 연결하는 방법에 대한 단계별 지침은 이 [Experience League 커뮤니티 문서](https://experienceleaguecommunities.adobe.com/adobe-journey-optimizer-15/how-to-detach-rejoin-nodes-in-the-new-journey-canvas-251908){target="_blank"}를 참조하십시오.
+>여정 캔버스에서 노드를 분리하고 다시 연결하는 방법에 대한 단계별 지침은 이 [Experience League 커뮤니티 문서](https://experienceleaguecommunities.adobe.com/adobe-journey-optimizer-15/how-to-detach-rejoin-nodes-in-the-new-journey-canvas-251908?profile.language=ko){target="_blank"}를 참조하십시오.
 
 ## 활동 복사 및 붙여넣기 {#copy-paste}
 
