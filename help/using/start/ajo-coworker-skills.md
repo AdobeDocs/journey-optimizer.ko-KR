@@ -7,9 +7,10 @@ feature: Overview
 topic: Artificial Intelligence
 role: User
 level: Beginner
-source-git-commit: 8400f5603934b6f9dfe9fe9df00aa5eb0736f847
+mini-toc-levels: 2
+source-git-commit: 2d6931387388f6181bd985241184517a74cfee41
 workflow-type: tm+mt
-source-wordcount: '2860'
+source-wordcount: '2864'
 ht-degree: 8%
 
 ---
@@ -51,7 +52,9 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
 * Quick simulation
 -->
 
-## 여정 만들기
+## 여정 스킬 {#journey-skills}
+
+### 여정 만들기 {#journey-create}
 
 여정 만들기 를 사용하면 Journey Optimizer 사용자가 자연어 인터페이스를 사용하여 마케팅 여정을 구축하고 구성할 수 있습니다. 여정 만들기를 사용하면 전문가가 대화 프롬프트에서 요구 사항을 설명하여 여정을 빠르게 만들 수 있습니다. 이 기술은 사용자가 여정을 만들기 위한 다양한 옵션을 안내하므로 마케터가 기술 구성이 아닌 전략에 집중할 수 있습니다.
 
@@ -67,7 +70,7 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
 >
 >**세그먼트 관리**: 이 권한을 사용하면 CX Coworker에서 직접 새 대상을 만들 수 있습니다.
 
-### 주요 사용 사례
+#### 주요 사용 사례
 
 여정 만들기 마케팅 실행을 가속화하는 데 활용할 수 있는 오퍼 기능:
 
@@ -119,7 +122,7 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
 
 이 기술을 사용하면 자연어 요구 사항이 구조화된 여정 구성으로 변환됩니다.
 
-### 범위 스킬 내
+#### 범위 스킬 내
 
 여정 만들기에서 지원하는 기능은 다음과 같습니다.
 
@@ -129,7 +132,7 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
 * **다중 채널 메시징**: 푸시 알림, 전자 메일 및 SMS 채널을 지원합니다.
 * **여정 예약**: 예약된 여정의 시작 날짜 및 시간을 구성합니다.
 
-### 범위 외 스킬
+#### 범위 외 스킬
 
 현재 다음 기능은 지원되지 않습니다.
 
@@ -144,7 +147,7 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
 * 사용자 지정 작업 필드 매핑
 * 복잡한 데이터 변환
 
-### 프롬프트 우수 사례
+#### 프롬프트 우수 사례
 
 여정 만들기의 효과를 극대화하려면 다음 모범 사례를 따르십시오.
 
@@ -157,14 +160,14 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
 사용자가 내 스토어 위치를 입력하면 사용자 지정 작업 ExternalPush를 사용하여 환영 메시지를 보냅니다. 2일 동안 기다린 다음 사용자 지정 작업 ExternalEmail을 사용하여 방문에 대한 설문 조사와 함께 후속 메시지를 보냅니다.
 1. **식 유효성 검사**: 올바른 필드와 값이 사용되었는지 확인하려면 여정 기술에서 만든 식을 확인하고 검사해야 합니다.
 
-### 모범 사례 설정
+#### 모범 사례 설정
 
 * **명확한 목표 정의**: 여정을 만들기 전에 명확한 목표(유지 개선, 전환 촉진, 참여 증가)를 설정하십시오.
 * **대상 준비**: 대상 대상이 이미 만들어져 있고 올바르게 세그먼트화되었는지 확인하십시오.
 * **메시지 콘텐츠 계획**: 여정을 만들기 전에 메시징 전략을 정의하십시오.
 * **고객 경험 고려**: 고객 환경 설정을 준수하고 과도한 커뮤니케이션을 방지하는 여정 흐름을 디자인합니다.
 
-## 채널 컨텐츠 만들기
+### 채널 컨텐츠 만들기 {#channel-content-create}
 
 <!--Ivan : Need to speak with Amar on new options for content generation as this skill has changed. -->
 
@@ -174,7 +177,7 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
 
 채널 컨텐츠 만들기 를 사용하면 Journey Optimizer 사용자가 AI 기반 컨텐츠 생성을 사용하여 여정에 대한 채널별 컨텐츠를 생성, 편집 및 관리할 수 있습니다.
 
-### 주요 사용 사례
+#### 주요 사용 사례
 
 1. **채널별 콘텐츠 생성**: 자연어 프롬프트를 사용하여 이메일, 푸시 알림, SMS 및 기타 채널에 대한 콘텐츠를 생성합니다.
 
@@ -204,7 +207,7 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
 
 1. **여정 캔버스 통합**: 인벤토리에서 여정을 선택하고 관련 채널을 봅니다.
 
-### 범위 스킬 내
+#### 범위 스킬 내
 
 채널 콘텐츠 작성은 다음 기능을 지원합니다.
 
@@ -215,7 +218,7 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
 * **다중 채널 지원**: 동일한 여정 워크플로 내에서 여러 채널에 대한 콘텐츠를 생성하고 관리합니다.
 * **여정 인벤토리 액세스**: 인벤토리에서 여정을 선택하고 관련 채널을 봅니다.
 
-### 범위 외 스킬
+#### 범위 외 스킬
 
 현재 다음 기능은 지원되지 않습니다.
 
@@ -223,14 +226,16 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
 * **콘텐츠 노드를 여정 캔버스에 직접 삽입**
 * **템플릿 가져오기**
 
-### 프롬프트 우수 사례
+#### 프롬프트 우수 사례
 
 1. **고유해야 함**: 콘텐츠 형식, 색조, 대상 및 키 메시지에 대한 자세한 내용을 제공합니다.
 1. **채널 지정**: 콘텐츠를 만드는 채널(전자 메일, 푸시, SMS)을 명확하게 표시합니다.
 1. **톤 정의**: 원하는 톤(친숙한 톤, 정형적인 톤, 캐주얼한 톤, 긴급 톤)을 지정합니다.
 1. **반복 및 세분화**: 요구 사항을 충족할 때까지 재생성 작업을 사용하여 콘텐츠를 세분화합니다.
 
-## 충성도 과제 관리
+## 충성도 기술 {#loyalty-skills}
+
+### 충성도 과제 관리 {#loyalty-challenge-management}
 
 >[!AVAILABILITY]
 >
@@ -238,7 +243,7 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
 
 Loyalty Challenge Management를 사용하면 Journey Optimizer 사용자가 자연어 프롬프트를 사용하여 CX Coworker에서 충성도 문제를 만들고 관리할 수 있습니다. 자세한 설정 지침을 포함하여 충성도 문제를 만들고, 구성하고, 관리하는 방법에 대한 포괄적인 설명서는 [충성도 문제 안내서](../loyalty-challenges/get-started.md)를 참조하십시오.
 
-### 주요 사용 사례
+#### 주요 사용 사례
 
 1. **여러 단계 온보딩 과제**
 
@@ -264,7 +269,7 @@ Loyalty Challenge Management를 사용하면 Journey Optimizer 사용자가 자�
 
    &quot;말차 애호가들을 위한 도전을 만드는데 도움을 주세요. 말차 애호가들은 매주 매장에 와서 말차 음료를 사야만 합니다. 도전을 완수하면 200점을 더 줘야 한다. &quot;Mad about Matcha&quot;로 부르고, SKU matcha-001을 사용하고, 동부 표준 시간대인 다음 주 월요일에 시작하십시오.&quot;
 
-### 범위 스킬 내
+#### 범위 스킬 내
 
 충성도 과제 관리에서 지원하는 기능은 다음과 같습니다.
 
@@ -273,7 +278,7 @@ Loyalty Challenge Management를 사용하면 Journey Optimizer 사용자가 자�
 * **챌린지 게시**: 지원되는 챌린지 구성을 대화에서 직접 게시합니다.
 * **문제 컨텍스트 가시성**: 반복하는 동안 문제 정보를 검색하고 검토합니다.
 
-### 범위 외 스킬
+#### 범위 외 스킬
 
 현재 다음 기능은 지원되지 않습니다.
 
@@ -281,7 +286,7 @@ Loyalty Challenge Management를 사용하면 Journey Optimizer 사용자가 자�
 * 충성도 통찰력 및 추천 기술
 * 모든 경우의 과제 메시지를 위한 완벽한 콘텐츠 작성 자동화
 
-### 프롬프트 우수 사례
+#### 프롬프트 우수 사례
 
 1. **이름 지정**: 명확하고 기억에 남는 제목을 따옴표로 묶습니다.
 1. **대상 지정**: 자격 조건을 갖춘 사람(예: 모든 구성원, 계층, 세그먼트, 새 등록자, 카드 소유자, 구독자).
@@ -290,7 +295,7 @@ Loyalty Challenge Management를 사용하면 Journey Optimizer 사용자가 자�
 1. **보상 설명**: 포인트, 마일, 문 크레딧, 상태 확장, 바우처 또는 완료 시 부여된 권한.
 1. **자격 부여 이벤트 참조**: 문제가 추적하는 특정 SKU, 제품, 계정 작업 또는 참여 이벤트를 가리킵니다.
 
-## 여정 분석
+### 여정 분석 {#journey-analyze}
 
 여정 기술을 통해 Journey Optimizer 사용자는 자연어 인터페이스를 사용하여 여정을 분석하고 최적화할 수 있습니다. 실무자는 여정 기술을 통해 스케줄 및/또는 대상 충돌을 신속하게 식별 및 해결하고, 여정에서 사용자 포기 지점을 감지하고 통찰력 또는 권장 사항을 제공할 수 있습니다. 이를 통해 실무자는 데이터 중심의 의사 결정을 내리고, 고객 참여를 개선하며, 여정 오케스트레이션을 간소화할 수 있습니다.
 
@@ -306,7 +311,7 @@ Loyalty Challenge Management를 사용하면 Journey Optimizer 사용자가 자�
 >
 >**세그먼트 관리**: 이 권한을 사용하면 CX Coworker에서 직접 새 대상을 만들 수 있습니다.
 
-### 주요 사용 사례
+#### 주요 사용 사례
 
 여정 분석은 마케팅 노력을 최적화하기 위해 활용할 수 있는 다양한 기능을 제공합니다.
 
@@ -357,7 +362,7 @@ Loyalty Challenge Management를 사용하면 Journey Optimizer 사용자가 자�
    * &quot;보유한 라이브 여정은 몇 개입니까?&quot;
    * &quot;모든 예약된 반복 여정 및 예상 실행 시간 목록을 제공합니다.&quot;
 
-## 범위 스킬 내
+#### 범위 스킬 내
 
 여정 분석에서는 다음 기능이 지원됩니다.
 
@@ -365,7 +370,7 @@ Loyalty Challenge Management를 사용하면 Journey Optimizer 사용자가 자�
 * **다른 스킬과 통합**: 심층 분석을 위해 Audience 및 Data Insights 기능과 공동 작업합니다.
 * **응답 구조**: 추론(논리 설명), 분석 요약(주요 사항 강조 표시), 문제 세부 정보(문제 설명) 및 권장 사항(다음 단계 제안).
 
-### 범위 외 기술
+#### 범위 외 스킬
 
 현재 다음 기능은 지원되지 않습니다.
 
@@ -376,7 +381,7 @@ Loyalty Challenge Management를 사용하면 Journey Optimizer 사용자가 자�
 * **기술 문제 분석**
 * **피로도 분석**
 
-### 프롬프트 모범 사례
+#### 프롬프트 우수 사례
 
 여정 분석의 효과를 극대화하려면 다음 모범 사례를 따르십시오.
 
@@ -384,7 +389,7 @@ Loyalty Challenge Management를 사용하면 Journey Optimizer 사용자가 자�
 1. **인사이트 결합**: Audience 및 Data Insights 기능의 인사이트를 통합하여 여정 성능을 전체적으로 볼 수 있습니다.
 1. **반복적인 개선**: 폴아웃 및 중복 분석을 사용하여 여정 설계와 일정을 반복적으로 개선합니다.
 
-### 모범 사례 설정
+#### 모범 사례 설정
 
 * **명확한 목표 정의**: 여정을 분석하기 전에 명확한 목표(예: 유지율 향상, 전환율 증가)를 설정합니다.
 * **정기적 모니터링**: 여정 성과를 정기적으로 검토하여 트렌드 및 예외 항목을 파악합니다.

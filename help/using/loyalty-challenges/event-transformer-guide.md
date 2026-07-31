@@ -11,9 +11,9 @@ mini-toc-levels: 1
 exl-id: d3ad85f0-7f7e-40ab-b8c4-fc0c1234be87
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
+source-git-commit: fd49445fcbc1cac73b5e981a23552690f6ccd1a4
 workflow-type: tm+mt
-source-wordcount: 1708
+source-wordcount: 1705
 ht-degree: 3%
 
 ---
@@ -116,7 +116,7 @@ ht-degree: 3%
 | `guid` | 문자열 | 아니요(시스템 지정) | 시스템에서 할당한 고유 ID, 읽기 전용. |
 | `name` | 문자열 | **예** | 사람이 읽을 수 있는 레이블(예: `"Starbucks POS Purchase"`). |
 | `xdmSchemaId` | 문자열 | **예** | XDM 스키마 ID별로 이벤트를 일치시킵니다(일치 작동 방식 참조). |
-| `schema` | 문자열 | 아니오 | 들어오는 이벤트를 확인하기 위한 [JSON 스키마](https://json-schema.org/)&#x200B;(문자열). |
+| `schema` | 문자열 | **예** | 들어오는 이벤트를 확인하기 위한 [JSON 스키마](https://json-schema.org/)&#x200B;(문자열). |
 | `transformer` | 문자열 | **예** | 이벤트를 충성도 형식에 매핑하는 JSONata 표현식. |
 
 ## 일치 작동 방식
@@ -461,9 +461,9 @@ DCCS 경로를 통해 도착하는 이벤트의 경우 멤버의 ID는 일반적
 
 +++
 
-## JSON 스키마 유효성 검사 추가(선택 사항)
+## JSON 스키마 유효성 검사 추가
 
-플랫폼에서 변환을 시도하기 전에 들어오는 이벤트의 구조를 확인하도록 하려면 `schema` 필드를 JSON 문자열로 인코딩된 [JSON 스키마](https://json-schema.org/draft-04) 문서로 설정하십시오.
+`schema` 필드는 필수입니다. 변환을 실행하기 전에 들어오는 이벤트의 구조를 확인하기 위해 JSON 문자열로 인코딩된 [JSON 스키마](https://json-schema.org/draft-04) 문서로 설정합니다.
 
 스키마 유효성 검사에 실패한 이벤트는 변환이 실행되기 전에 거부됩니다. 오류 응답에는 특정 유효성 검사 실패가 포함되므로 잘못된 업스트림 이벤트를 쉽게 진단할 수 있습니다.
 
