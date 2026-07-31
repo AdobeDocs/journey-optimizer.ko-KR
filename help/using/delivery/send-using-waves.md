@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: 예약된 일괄 처리, 일정, 여정, 캠페인, 오케스트레이션, 전달성
-source-git-commit: a70327064fb4129485fe3d09ec775d79f1fb80f9
+source-git-commit: 44df4ecd4743a3ebe0884a34149dda58c5b4c841
 workflow-type: tm+mt
 source-wordcount: '2070'
 ht-degree: 1%
@@ -290,3 +290,4 @@ ht-degree: 1%
 * **Q: 대상자가 웨이브별로 다시 평가됩니까?** — 아니요. 활성화 시 대상이 스냅숏됩니다. 프로필 속성(개인화, 동의)은 웨이브 처리 시간에 읽습니다.
 
 +++
+
