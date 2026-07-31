@@ -11,26 +11,15 @@ keywords: 전송 시간, 전송, 메시지, 최적화, 여정, AI, 지능형
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/r8LyWsU7OOiGZFRkiGO56xkbzW9iE2ASemZOlyaERQ8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: c74010a3eb90a194017992ead37e41e750d90610
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: de0a0b4884588c7a03b5d40f424ae2fafffe9243
 workflow-type: tm+mt
-source-wordcount: 2316
+source-wordcount: 2298
 ht-degree: 6%
 
 ---
@@ -58,9 +47,11 @@ ht-degree: 6%
 >title="전송 시간 최적화 활성화"
 >abstract="클릭 수는 푸시 메시지에 적용할 수 없으므로 푸시 메시지의 기본값은 열람수 옵션으로 설정됩니다. 또한 시스템에서 사용하는 전송 시간을 다음 이내로 전송 옵션에 값을 입력하여 범위 내로 설정할 수 있습니다."
 
-Adobe의 여정 AI 서비스를 기반으로 하는 [!DNL Adobe Journey Optimizer]의 전송 시간 최적화 기능은 고객의 과거 열기 및 클릭 동작에 따라 고객 참여를 극대화하기 위해 이메일 및 푸시 메시지에 대한 최적의 전송 시간을 선택합니다.
+>[!NOTE]
+>
+>전송 시간 최적화는 여정 내의 기본 제공 이메일 및 푸시 작업에만 사용할 수 있습니다. 현재 캠페인을 통해 보낸 메시지 또는 사용자 지정 작업을 통해 보낸 메시지 또는 기타 작업 유형에는 사용할 수 없습니다.
 
-전송 시간 최적화는 Journey Optimizer의 기본 제공 이메일 및 푸시 작업 유형에만 사용할 수 있으며, 현재 사용자 지정 작업을 통해 전송된 메시지 또는 다른 작업 유형에는 사용할 수 없습니다. 전송 시간 최적화는 여정 내의 이메일 및 푸시 작업에만 사용할 수 있으며 현재 캠페인을 통해 전송된 메시지에는 사용할 수 없습니다.
+Adobe의 여정 AI 서비스를 기반으로 하는 [!DNL Adobe Journey Optimizer]의 전송 시간 최적화 기능은 고객의 과거 열기 및 클릭 동작에 따라 고객 참여를 극대화하기 위해 이메일 및 푸시 메시지에 대한 최적의 전송 시간을 선택합니다.
 
 >[!AVAILABILITY]
 >

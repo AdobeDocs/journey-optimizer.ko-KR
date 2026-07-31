@@ -6,9 +6,9 @@ user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: a8927f55a10a60111fc2f5db68b3a34329d1cc35
+source-git-commit: 4ef6a978cf22596e9827442687d36a67955d86df
 workflow-type: tm+mt
-source-wordcount: '3492'
+source-wordcount: '3489'
 ht-degree: 94%
 
 ---
@@ -63,13 +63,12 @@ ht-degree: 94%
 + 여정 {#orchestrate-journeys}
   + [여정 시작](using/building-journeys/journey.md)
   + {hide-from-toc}[여정 시작 안내서](using/building-journeys/journey-get-started.md)
-  + {hide-from-toc}[여정 형식: 올바른 one-2 선택](using/building-journeys/journey-types-selection-v2.md)
+  + {hide-from-toc}[여정 형식: 올바른 one-2](using/building-journeys/journey-types-selection-v2.md) 선택
   + [Journey Orchestration FAQ](using/building-journeys/journey-faq.md)
   + 여정 만들기 {#create-journey}
     + [여정 만들기](/help/rp_landing_pages/create-journey-landing-page.md)
     + [첫 여정 만들기](using/building-journeys/journey-gs.md)
     + [여정 속성 정의](using/building-journeys/journey-properties.md)
-    + [여정에서 예약된 일괄 처리를 사용하여 전송](using/building-journeys/send-using-waves.md)
     + [여정 지표 구성 및 추적](using/building-journeys/success-metrics.md)
     + [여정 디자인](using/building-journeys/using-the-journey-designer.md)
     + 시뮬레이션 {#simulate-journey}
@@ -88,8 +87,6 @@ ht-degree: 94%
     + [여정에서 추가 식별자 사용](using/building-journeys/supplemental-identifier.md)
     + [여정 단계 이벤트 작업](using/reports/journey-step-events-overview.md)
     + [시간대 관리](using/building-journeys/timezone-management.md)
-    + [전송 시간 최적화](using/building-journeys/send-time-optimization.md)
-    + [채널 최적화](using/building-journeys/channel-optimization.md)
     + [여정 끝내기](using/building-journeys/end-journey.md)
   + 활동 {#about-journey-building}
     + [활동](/help/rp_landing_pages/about-journey-building-landing-page.md)
@@ -176,7 +173,6 @@ ht-degree: 94%
     + [캠페인 콘텐츠 편집](using/campaigns/campaign-content.md)
     + [캠페인 대상자 정의](using/campaigns/campaign-audience.md)
     + [캠페인 예약](using/campaigns/campaign-schedule.md)
-    + [예약된 일괄 처리를 사용하여 보내기](using/campaigns/send-using-waves.md)
     + [액션 캠페인 검토 및 활성화](using/campaigns/review-activate-campaign.md)
   + API로 트리거되는 캠페인 {#api-triggered-campaigns}
     + [API-트리거된 캠페인](/help/rp_landing_pages/api-triggered-campaigns-landing-page.md)
@@ -259,6 +255,10 @@ ht-degree: 94%
   + 여정 중재 {#journey-arbitration}
     + [공식을 사용하여 여정에 순위 매기기](using/conflict-prioritization/journey-ranking-formulas.md)
     + [AI 모델을 사용하여 여정 순위 매기기](using/conflict-prioritization/journey-ai-models.md)
++ 게재 설정 {#delivery-settings}
+  + [예약된 일괄 처리를 사용하여 보내기](using/delivery/send-using-waves.md)
+  + [전송 시간 최적화](using/building-journeys/send-time-optimization.md)
+  + [채널 최적화](using/building-journeys/channel-optimization.md)
 + 테스트 및 승인 {#test}
   + [테스트, 유효성 검사 및 승인](/help/rp_landing_pages/test-landing-page.md)
   + 콘텐츠 미리 보기 및 테스트 {#preview-test}
@@ -570,7 +570,7 @@ ht-degree: 94%
   + 콘텐츠 생성 {#generate-content}
     + [콘텐츠 생성 시작](using/content-management/gs-generative.md)
     + [AI 프롬프트 모범 사례](using/content-management/ai-assistant-prompting-guide.md)
-    + {hide-from-toc}[AI Assistant의 Content Credentials](using/content-management/generative-content-credentials.md)
+    + AI Assistant의 {hide-from-toc}[Content Credentials](using/content-management/generative-content-credentials.md)
     + [AI로 전체 콘텐츠 생성](using/content-management/generative-full-content.md)
     + [AI로 텍스트 생성](using/content-management/generative-text.md)
     + [AI로 이미지 생성](using/content-management/generative-image.md)
