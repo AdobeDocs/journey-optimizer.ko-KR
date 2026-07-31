@@ -5,7 +5,7 @@ feature: Channel Configuration
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 13fdbf639414f8cf04c6ea057924a54e2d6902df
+source-git-commit: 36e3df993c0f08aabff12e28fb74d78f5d7aa4a4
 workflow-type: tm+mt
 source-wordcount: '994'
 ht-degree: 1%
@@ -27,7 +27,7 @@ ht-degree: 1%
 
 [!DNL Journey Optimizer]에서 사용자 지정 채널에 대한 기본 보고를 제공합니다.
 
-사용자 지정 채널 캠페인 보고서는 [이 섹션](../reports/campaign-global-report-cja-custom-channel.md)에 자세히 설명되어 있습니다.
+사용자 지정 채널 캠페인 보고서는 [이 섹션](../reports/campaign-global-report-cja-custom.md)에 자세히 설명되어 있습니다.
 
 <!--The Custom channel journey report is detailed in this section. TBC-->
 
