@@ -8,27 +8,15 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ee74277345e19699b7aac0d19e89b2b3edde28e8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 33798966390ae93595a82054082bc4dc23750409
 workflow-type: tm+mt
-source-wordcount: 3110
+source-wordcount: 3121
 ht-degree: 19%
 
 ---
@@ -82,6 +70,27 @@ Journey Optimizer에서는 이 릴리스의 새로운 기능인 충성도 문제
 <table>
 <thead>
 <tr>
+<th><strong>사용자 지정 아웃바운드 채널</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer은 이제 관리자가 WeChat, KakaoTalk, Messenger 또는 독점 공급자와 같은 아웃바운드 HTTP 기반 메시징 채널을 코드 없는 채널 빌더를 통해 Journey Optimizer으로 직접 가져올 수 있는 새로운 기능인 사용자 지정 채널을 도입했습니다.</p >
+<p>구성하고 나면 캠페인, 여정 및 오케스트레이션된 캠페인 전반에서 기본 채널과 동일한 전체 기능 세트를 사용하여 사용자 정의 채널을 사용할 수 있습니다. 표현식 편집기를 사용한 개인화, 콘텐츠 실험, 미리보기 및 증명, 기본 보고, 동의 및 거버넌스 시행.</p>
+<p>이렇게 하면 이전에 여정 지정 작업으로 해결했던 공백이 해소되며, 이는 채널로만 제한되고 전용 채널 기능이 부족합니다.</p>
+<p>사용자 지정 아웃바운드 채널은 현재 제한된 가용성으로 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
+<p><img src="assets/do-not-localize/custom-channel.gif"></p>
+<p>자세한 내용은 <a href="../custom-channel/get-started-custom-channel.md">세부 설명서</a>를 참조하십시오.</p>
+<p> 사용 가능한 날짜: 2026년 7월 31일</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>채널 최적화</strong><br/></th>
 </tr>
 </thead>
@@ -111,30 +120,6 @@ Journey Optimizer에서는 이 릴리스의 새로운 기능인 충성도 문제
   * 헤더 사용자 정의: 이제 기본 Content-Type 헤더 값을 편집하고 최대 10개의 사용자 정의 헤더 매개 변수를 추가할 수 있습니다.
 
   * SMS 페이로드 지원: encode64를 포함하여 SMS 페이로드 내에 Adobe Journey Optimizer 도우미 기능에 대한 지원이 추가되었습니다.
-
-+++ 곧 출시 예정
-
-<table>
-<thead>
-<tr>
-<th><strong>사용자 지정 아웃바운드 채널</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer은 이제 관리자가 WeChat, KakaoTalk, Messenger 또는 독점 공급자와 같은 아웃바운드 HTTP 기반 메시징 채널을 코드 없는 채널 빌더를 통해 Journey Optimizer으로 직접 가져올 수 있는 새로운 기능인 사용자 지정 채널을 도입했습니다.</p >
-<p>구성하고 나면 캠페인, 여정 및 오케스트레이션된 캠페인 전반에서 기본 채널과 동일한 전체 기능 세트를 사용하여 사용자 정의 채널을 사용할 수 있습니다. 표현식 편집기를 사용한 개인화, 콘텐츠 실험, 미리보기 및 증명, 기본 보고, 동의 및 거버넌스 시행.</p>
-<p>이렇게 하면 이전에 여정 지정 작업으로 해결했던 공백이 해소되며, 이는 채널로만 제한되고 전용 채널 기능이 부족합니다.</p>
-<p>사용자 지정 아웃바운드 채널은 현재 제한된 가용성으로 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
-<!-- GIF placeholder: to be added -->
-<!-- Documentation link: TBD -->
-</td>
-</tr>
-</tbody>
-</table>
-
-+++
 
 ### 관리 {#july-26-administration}
 

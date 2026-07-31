@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="제한 공개" type="Informative"
-source-git-commit: 9c718d6eb3fcac0b30111f12f500dc5fb270b357
+source-git-commit: 13fdbf639414f8cf04c6ea057924a54e2d6902df
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '359'
 ht-degree: 9%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 9%
 
 1. **[!UICONTROL 채널 선택]** 드롭다운 목록에서 활성화된 사용자 지정 채널 중 하나를 선택합니다.
 
-   ![채널 선택](assets/custom_channel_select_channel.png){width="100%"}
+   <!--![Select channel](assets/custom_channel_select_channel.png){width="100%"}-->
 
 1. 선택한 채널이 인증을 사용하는 경우(유형이 **없음**&#x200B;이 아님) **[!UICONTROL API 자격 증명]** 필드가 나타납니다. 이 구성에 사용할 자격 증명을 선택합니다. [API 자격 증명에 대해 자세히 알아보기](custom-channel-api-credentials.md)
 
@@ -38,15 +38,15 @@ ht-degree: 9%
 
 1. [!DNL Journey Optimizer]에서 사용자 지정 채널에 대한 하위 도메인을 설정한 경우 이 구성에 대한 페이로드에 있는 링크를 추적하는 데 사용할 위임된 하위 도메인을 선택할 수 있습니다. [하위 도메인을 위임하는 방법 알아보기](custom-channel-subdomains.md)
 
-1. 선택한 채널에 끝점 URL에 대해 [변수로 정의된 헤더 또는 쿼리 매개 변수가 &#x200B;](create-custom-channel.md#endpoint-configuration)인 경우 **[!UICONTROL 동적 매개 변수]** 섹션이 나타납니다.
+1. 선택한 채널에 끝점 URL에 대해 [변수로 정의된 헤더 또는 쿼리 매개 변수가 ](create-custom-channel.md#endpoint-configuration)인 경우 **[!UICONTROL 동적 매개 변수]** 섹션이 나타납니다.
 
    각 매개 변수의 값을 입력합니다. 개인화 편집기를 사용하여 동적 값(예: 프로필에서 확인된 사용자 식별자)을 삽입할 수 있습니다. 이렇게 하면 프로필 데이터를 기반으로 각 수신자에 대한 요청을 사용자 지정할 수 있습니다.
 
-   ![동적 매개 변수](assets/custom_channel_config_dynamic_parameters.png){width="100%"}
+   ![동적 매개 변수](assets/custom_channel_config_dynamic_parameters.png){width="70%"}
 
 1. 사용자 지정 채널에 **[!UICONTROL 채널 구성]** 확인란이 활성화된 페이로드 필드가 있는 경우 해당 필드가 **[!UICONTROL 페이로드 구성]** 섹션에 표시됩니다. [자세히 알아보기](create-custom-channel.md#payload-configuration)
 
-   ![페이로드 필드](assets/custom_channel_config_payload.png){width="100%"}
+   ![페이로드 필드](assets/custom_channel_config_payload.png){width="70%"}
 
    각 필드에 대한 값을 이 구성에 맞게 구성합니다. 이는 발신자 정보나 메시지 템플릿과 같이 캠페인 또는 여정의 상황에 따라 달라질 수 있는 필드에 유용합니다.
 

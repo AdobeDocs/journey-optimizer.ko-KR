@@ -6,10 +6,10 @@ user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 38f8ff8d08d57ffbea5d9788a3a4e67f132c26e4
+source-git-commit: 50a5713be405c11882e58987f2032d8d7141f928
 workflow-type: tm+mt
 source-wordcount: '3492'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 93%
 + 여정 {#orchestrate-journeys}
   + [여정 시작](using/building-journeys/journey.md)
   + {hide-from-toc}[여정 시작 안내서](using/building-journeys/journey-get-started.md)
-  + {hide-from-toc}[여정 형식: 올바른 one-2 선택](using/building-journeys/journey-types-selection-v2.md)
+  + {hide-from-toc}[여정 형식: 올바른 one-2](using/building-journeys/journey-types-selection-v2.md) 선택
   + [Journey Orchestration FAQ](using/building-journeys/journey-faq.md)
   + 여정 만들기 {#create-journey}
     + [여정 만들기](/help/rp_landing_pages/create-journey-landing-page.md)
@@ -461,17 +461,17 @@ ht-degree: 93%
       + [Journey Optimizer에서 라이브 활동 구성](using/mobile-live/mobile-live-configuration.md)
       + [라이브 활동 SDK 통합 구성](using/mobile-live/mobile-live-configuration-sdk.md)
   + 사용자 지정 채널 {#custom-channel}
-    + {hide-from-toc}[사용자 지정 채널 시작](using/custom-channel/get-started-custom-channel.md)
+    + [사용자 정의 채널 시작하기](using/custom-channel/get-started-custom-channel.md)
     + 사용자 지정 채널 구성 {#configure-custom-channel}
-      + {hide-from-toc}[사용자 지정 채널 설정](using/custom-channel/configure-custom-channel.md)
-      + {hide-from-toc}[사용자 지정 채널 만들기](using/custom-channel/create-custom-channel.md)
-      + {hide-from-toc}[API 자격 증명 관리](using/custom-channel/custom-channel-api-credentials.md)
-      + {hide-from-toc}[하위 도메인 위임](using/custom-channel/custom-channel-subdomains.md)
-      + {hide-from-toc}[채널 구성 만들기](using/custom-channel/custom-channel-configuration.md)
+      + [사용자 지정 채널 설정](using/custom-channel/configure-custom-channel.md)
+      + [사용자 지정 채널 만들기](using/custom-channel/create-custom-channel.md)
+      + [API 자격 증명 관리](using/custom-channel/custom-channel-api-credentials.md)
+      + [하위 도메인 위임](using/custom-channel/custom-channel-subdomains.md)
+      + [채널 구성 만들기](using/custom-channel/custom-channel-configuration.md)
     + 사용자 지정 채널 경험 만들기 {#create-custom-channel-experiences}
-      + {hide-from-toc}[사용자 지정 채널 경험 만들기](using/custom-channel/create-custom-experience.md)
-      + {hide-from-toc}[사용자 지정 채널 경험 테스트](using/custom-channel/test-custom-channel.md)
-    + {hide-from-toc}[사용자 지정 채널 모니터링](using/custom-channel/monitor-custom-channel.md)
+      + [사용자 지정 채널 경험 만들기](using/custom-channel/create-custom-experience.md)
+      + [사용자 지정 채널 경험 테스트](using/custom-channel/test-custom-channel.md)
+    + [사용자 지정 채널 모니터링](using/custom-channel/monitor-custom-channel.md)
 + 콘텐츠 관리 {#content-management}
   + [콘텐츠 관리](/help/rp_landing_pages/content-management-landing-page.md)
   + 개인화 {#personalization}
@@ -570,7 +570,7 @@ ht-degree: 93%
   + 콘텐츠 생성 {#generate-content}
     + [콘텐츠 생성 시작](using/content-management/gs-generative.md)
     + [AI 프롬프트 모범 사례](using/content-management/ai-assistant-prompting-guide.md)
-    + {hide-from-toc}[AI Assistant의 Content Credentials](using/content-management/generative-content-credentials.md)
+    + AI Assistant의 {hide-from-toc}[Content Credentials](using/content-management/generative-content-credentials.md)
     + [AI로 전체 콘텐츠 생성](using/content-management/generative-full-content.md)
     + [AI로 텍스트 생성](using/content-management/generative-text.md)
     + [AI로 이미지 생성](using/content-management/generative-image.md)

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 badge: label="제한 공개" type="Informative"
-source-git-commit: 6aa595444e13ddd37a15734f47cc11ce17585117
+source-git-commit: 13fdbf639414f8cf04c6ea057924a54e2d6902df
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '1006'
 ht-degree: 14%
 
 ---
@@ -193,7 +193,7 @@ To add a custom channel in an orchestrated campaign:
 >
 >링크 추적에는 사용자 지정 채널에 대해 구성된 하위 도메인이 필요합니다. [사용자 지정 채널의 하위 도메인을 위임하는 방법을 알아봅니다](custom-channel-subdomains.md#subdomain-delegation)
 
-**예 - Viber 페이로드에서 추적된 링크:**
+**예제 - 페이로드에서 추적된 링크:**
 
 ```json
 {
@@ -222,9 +222,9 @@ The editor supports a **[!UICONTROL Strict JSON]** toggle:
 
 >[!IMPORTANT]
 >
->활성화하기 전에 사용자 지정 채널 페이로드를 미리 보고 테스트하십시오. [방법 알아보기](test-custom-channel.md)
+>활성화하기 전에 사용자 지정 채널 페이로드를 미리 보고 테스트하십시오. [방법 알아보기](test-custom-channel.md#preview-test)
 >
 >캠페인이나 여정이 승인 정책의 대상인 경우 활성화하기 전에 승인을 요청해야 합니다. [자세히 알아보기](../test-approve/gs-approval.md)
 
-* **여정에서** - 오른쪽 상단의 **[!UICONTROL 게시]**&#x200B;를 클릭합니다. 여정이 라이브로 전환되고 자격 조건을 갖춘 프로필에 대한 외부 엔드포인트 호출을 시작합니다.
-* **캠페인에서** - **[!UICONTROL 활성화하려면 검토]**&#x200B;를 클릭하고 설정을 검토한 다음 **[!UICONTROL 활성화]**&#x200B;를 클릭합니다. 캠페인은 **[!UICONTROL Live]** 상태(또는 향후 시작 날짜가 정의된 경우 **[!UICONTROL 예약됨]**)를 사용합니다.
+* **여정에서** - 오른쪽 상단의 **[!UICONTROL 게시]**&#x200B;를 클릭합니다. 여정이 라이브로 전환되고 자격 조건을 갖춘 프로필에 대한 외부 엔드포인트 호출을 시작합니다. [여정 게시](../building-journeys/journey-gs.md#publish-journey)에 대해 자세히 알아보세요.
+* **캠페인에서** - **[!UICONTROL 활성화하려면 검토]**&#x200B;를 클릭하고 설정을 검토한 다음 **[!UICONTROL 활성화]**&#x200B;를 클릭합니다. 캠페인은 **[!UICONTROL Live]** 상태(또는 향후 시작 날짜가 정의된 경우 **[!UICONTROL 예약됨]**)를 사용합니다. [캠페인 활성화](../campaigns/create-campaign.md#review-activate)에 대해 자세히 알아보세요.

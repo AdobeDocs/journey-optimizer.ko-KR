@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="제한 공개" type="Informative"
-source-git-commit: 6aa595444e13ddd37a15734f47cc11ce17585117
+source-git-commit: 9dbefb0dfd426e5a9952b52740b57f5916875b1f
 workflow-type: tm+mt
 source-wordcount: '1567'
 ht-degree: 15%
@@ -111,7 +111,7 @@ ht-degree: 15%
 
    <!--At minimum, `Content-Type` and `Charset` are available as default headers.-->
 
-   ![헤더 구성](assets/custom_channel_endpoint_headers.png){width="70%"}
+   ![헤더 구성](assets/custom_channel_endpoint_headers.png){width="60%"}
 
    각 헤더에 대해 값이 다음과 같은지 여부를 정의할 수 있습니다.
 
@@ -120,11 +120,11 @@ ht-degree: 15%
 
 1. 필요한 경우 동일한 상수/변수 패턴을 사용하여 **[!UICONTROL 쿼리 매개 변수]**&#x200B;를 추가하십시오. 쿼리 매개 변수는 배달 시 끝점 URL에 추가됩니다. 상수 매개 변수는 항상 동일한 값으로 추가됩니다. 변수 매개 변수는 예를 들어 프로필에서 사용자 식별자를 전달하기 위해 전송 시 확인됩니다.
 
-   ![쿼리 매개 변수](assets/custom_channel_endpoint_query_param.png){width="70%"}
+   ![쿼리 매개 변수](assets/custom_channel_endpoint_query_param.png){width="60%"}
 
 1. **[!UICONTROL 정책 구성]** 섹션에서 [!DNL Journey Optimizer]이(가) 요청 처리량 및 오류를 처리하는 방법을 정의합니다. 이는 외부 시스템이 많은 요청을 처리할 수 있도록 하고 요청을 압도하지 않도록 하는 데 중요합니다.
 
-   ![정책 구성](assets/custom_channel_endpoint_policy_config.png)
+   ![정책 구성](assets/custom_channel_endpoint_policy_config.png){width="70%"}
 
    * **[!UICONTROL 전송률 조절 사용]** - 기본적으로 비활성화되어 있습니다. 초당 최대 요청 수를 설정하십시오(기본값: **5,000c**). 제한에 도달하면 요청이 큐에 올라가 가능한 한 빨리 전송됩니다.
    * **[!UICONTROL 다시 시도 사용]** - 기본적으로 사용됩니다. 실패한 요청에 대한 최대 다시 시도 횟수(기본값: **3**, 구성 가능한 범위: 0-10)를 설정하십시오. 이렇게 하면 일시적인 오류가 발생하는 동안 끝점을 초과하지 않도록 하는 데 도움이 됩니다.
