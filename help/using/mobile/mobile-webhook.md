@@ -7,12 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+source-git-commit: d2b2142bf3c69acff998dffc9a3dbbf958b4adb1
 workflow-type: tm+mt
 source-wordcount: 2835
 ht-degree: 3%
@@ -262,7 +259,7 @@ Infobip의 경우 피드백 이벤트에 대해 만들고 인바운드 이벤트
 
    +++ 사용자 정의
 
-   * 단일 사용자 지정 키워드를 구성합니다. 사용자의 메시지가 이 키워드와 일치하면 보고 및 대상 작성을 위해 **[!UICONTROL 메시지 피드백 추적]** 데이터 집합에 키워드가 기록됩니다.
+   * 단일 사용자 지정 키워드를 구성합니다. 사용자의 메시지가 이 키워드와 일치하면 보고 및 대상자 작성을 위해 **[!UICONTROL AJO 전자 메일 추적]** 데이터 집합에 키워드가 기록됩니다.
 
    * 여정 및 캠페인에 사용하기 위해 이 키워드를 참조하는 대상(스트리밍 또는 배치)을 빌드합니다.
 
