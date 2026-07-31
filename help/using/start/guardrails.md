@@ -24,7 +24,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
+source-git-commit: 7e84f06def3d352eb2ecf0b26d89402297e6236e
 workflow-type: tm+mt
 source-wordcount: 4612
 ht-degree: 93%
@@ -319,7 +319,7 @@ Adobe Experience Platform에서 API 기반 프로필 만들기/업데이트와 �
 
 #### 예약된 일괄 처리를 사용하여 보내기 {#waves-g}
 
-**여정에서 예약된 일괄 처리 보내기**&#x200B;에는 특정 가드레일이 적용됩니다. 여기에는 예약된 일괄 처리 범위 2~10개와 예약된 일괄 처리 간 **최소 간격 30분**&#x200B;이 포함됩니다. [이 페이지](../building-journeys/send-using-waves.md#limitations-guardrails)에 나열되어 있습니다.
+**여정에서 예약된 일괄 처리 보내기**&#x200B;에는 특정 가드레일이 적용됩니다. 여기에는 예약된 일괄 처리 범위 2~10개와 예약된 일괄 처리 간 **최소 간격 30분**&#x200B;이 포함됩니다. [이 페이지](../delivery/send-using-waves.md#limitations-guardrails)에 나열되어 있습니다.
 
 #### 여정 시뮬레이션 {#simulation-g}
 

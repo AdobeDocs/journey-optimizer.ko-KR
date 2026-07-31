@@ -6,7 +6,7 @@ feature: Channel Configuration
 level: Intermediate
 keywords: 사용자 정의 채널, 하위 도메인, 구성
 badge: label="제한 공개" type="Informative"
-source-git-commit: 3b584e496d7438a9d472a41149cba60928cb2517
+source-git-commit: 13fdbf639414f8cf04c6ea057924a54e2d6902df
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 20%
@@ -60,7 +60,7 @@ TBC
 
 1. **[!UICONTROL 구성 유형]** 섹션에서 **[!UICONTROL 위임된 하위 도메인 사용]**&#x200B;을(를) 선택합니다.
 
-   ![위임된 하위 도메인 구성 양식 사용](assets/custom_channel_create_subdomain.png){width="100%"}
+   ![위임된 하위 도메인 구성 양식 사용](assets/custom_channel_create_subdomain.png){width="90%"}
 
 1. 사용자 지정 채널 URL에 표시할 접두어를 입력합니다. 영숫자와 하이픈만 사용할 수 있습니다.
 

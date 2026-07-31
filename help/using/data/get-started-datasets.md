@@ -28,10 +28,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 79b0c44fffb4297a9a5675200f086c5de544ec88
+source-git-commit: 6e13f186799c120eaf674fda2d722572af8e0149
 workflow-type: tm+mt
-source-wordcount: 1326
-ht-degree: 82%
+source-wordcount: 1343
+ht-degree: 81%
 
 ---
 
@@ -86,6 +86,7 @@ Adobe Experience Platform에 수집되는 모든 데이터는 데이터 세트�
   * _보고 - 여정 단계 이벤트_: Journey Optimizer에서 생성한 [모든 여정 단계 경험 이벤트]를 캡처합니다. [보고] 등 서비스에서 사용합니다. Customer Journey Analytics에서 전년 대비 분석 보고서를 작성하는 데에도 중요합니다. [여정 메타데이터]에 연결되어 있습니다.
   * _보고 - 여정_: 여정의 각 단계에 대한 정보가 있는 메타데이터 데이터 세트입니다.
   * _보고 - BCC_: 숨은 참조 이메일에 대한 게재 로그를 저장하는 [피드백 이벤트 데이터 세트]입니다. 보고 목적으로 사용합니다.
+  * _AJO 채널 추적 이벤트 데이터 세트_: WhatsApp 흐름 템플릿을 통해 제출된 응답을 포함하여 모든 인바운드 WhatsApp 응답을 캡처합니다.
 
 * 동의
 

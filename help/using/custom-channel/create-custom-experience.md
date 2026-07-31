@@ -1,14 +1,14 @@
 ---
 title: 사용자 지정 채널 경험 만들기
-description: Adobe Journey Optimizer의 여정, 캠페인 또는 오케스트레이션된 캠페인에서 사용자 정의 채널을 사용하는 방법을 알아봅니다.
+description: 여정 또는 Adobe Journey Optimizer의 캠페인에서 사용자 지정 채널을 사용하는 방법을 알아봅니다.
 feature: Channel Configuration
 topic: Content Management
 role: User
 level: Experienced
 badge: label="제한 공개" type="Informative"
-source-git-commit: 3b584e496d7438a9d472a41149cba60928cb2517
+source-git-commit: 13fdbf639414f8cf04c6ea057924a54e2d6902df
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1006'
 ht-degree: 14%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 14%
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** Adobe Journey Optimizer에서 여정, 캠페인 또는 오케스트레이션된 캠페인에 사용자 지정 채널을 추가하고 표현식 편집기를 사용하여 개인화된 메시지 페이로드를 작성하는 방법에 대해 알아봅니다.
+**이 페이지에서:** Adobe Journey Optimizer의 여정 또는 캠페인에 사용자 지정 채널을 추가하고 표현식 편집기를 사용하여 개인화된 메시지 페이로드를 작성하는 방법에 대해 알아봅니다.
 
 >[!ENDSHADEBOX]
 
@@ -26,7 +26,7 @@ ht-degree: 14%
 >
 >이 기능은 제한적으로 이용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.
 
-[!DNL Journey Optimizer]에서 캠페인, 여정 및 오케스트레이션된 캠페인에서 사용자 지정 채널을 사용하여 메시지를 전달할 수 있습니다. 사용자 지정 채널 경험을 설정하려면 아래 단계를 따르십시오.
+[!DNL Journey Optimizer]에서는 캠페인 및 여정에서 사용자 지정 채널을 사용하여 메시지를 전달할 수 있습니다. 사용자 지정 채널 경험을 설정하려면 아래 단계를 따르십시오.
 
 >[!NOTE]
 >
@@ -193,7 +193,7 @@ To add a custom channel in an orchestrated campaign:
 >
 >링크 추적에는 사용자 지정 채널에 대해 구성된 하위 도메인이 필요합니다. [사용자 지정 채널의 하위 도메인을 위임하는 방법을 알아봅니다](custom-channel-subdomains.md#subdomain-delegation)
 
-**예 - Viber 페이로드에서 추적된 링크:**
+**예제 - 페이로드에서 추적된 링크:**
 
 ```json
 {
@@ -222,9 +222,9 @@ The editor supports a **[!UICONTROL Strict JSON]** toggle:
 
 >[!IMPORTANT]
 >
->활성화하기 전에 사용자 지정 채널 페이로드를 미리 보고 테스트하십시오. [방법 알아보기](test-custom-channel.md)
+>활성화하기 전에 사용자 지정 채널 페이로드를 미리 보고 테스트하십시오. [방법 알아보기](test-custom-channel.md#preview-test)
 >
 >캠페인이나 여정이 승인 정책의 대상인 경우 활성화하기 전에 승인을 요청해야 합니다. [자세히 알아보기](../test-approve/gs-approval.md)
 
-* **여정에서** - 오른쪽 상단의 **[!UICONTROL 게시]**&#x200B;를 클릭합니다. 여정이 라이브로 전환되고 자격 조건을 갖춘 프로필에 대한 외부 엔드포인트 호출을 시작합니다.
-* **캠페인에서** - **[!UICONTROL 활성화하려면 검토]**&#x200B;를 클릭하고 설정을 검토한 다음 **[!UICONTROL 활성화]**&#x200B;를 클릭합니다. 캠페인은 **[!UICONTROL Live]** 상태(또는 향후 시작 날짜가 정의된 경우 **[!UICONTROL 예약됨]**)를 사용합니다.
+* **여정에서** - 오른쪽 상단의 **[!UICONTROL 게시]**&#x200B;를 클릭합니다. 여정이 라이브로 전환되고 자격 조건을 갖춘 프로필에 대한 외부 엔드포인트 호출을 시작합니다. [여정 게시](../building-journeys/journey-gs.md#publish-journey)에 대해 자세히 알아보세요.
+* **캠페인에서** - **[!UICONTROL 활성화하려면 검토]**&#x200B;를 클릭하고 설정을 검토한 다음 **[!UICONTROL 활성화]**&#x200B;를 클릭합니다. 캠페인은 **[!UICONTROL Live]** 상태(또는 향후 시작 날짜가 정의된 경우 **[!UICONTROL 예약됨]**)를 사용합니다. [캠페인 활성화](../campaigns/create-campaign.md#review-activate)에 대해 자세히 알아보세요.

@@ -15,18 +15,25 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 7f5634f35a471e5e1611f7563b82183e00377857
+source-git-commit: 0873a0e6f74f14fad3aba904816c47040a6c3125
 workflow-type: tm+mt
-source-wordcount: 9725
-ht-degree: 84%
+source-wordcount: 9823
+ht-degree: 83%
 
 ---
+
 
 # 설명서 업데이트 {#latest-updates}
 
 이 페이지에는 월별 릴리스 기능 및 개선 사항과 관련된 업데이트 외에도 [!DNL Journey Optimizer] 설명서의 모든 최신 변경 사항이 나와 있습니다.
 
 ## 2026년 7월 {#july-2026}
+
+* 새 **게재 설정** 섹션이 설명서 탐색에 추가되었습니다. 여정, 캠페인 및 오케스트레이션된 캠페인에 적용되는 게재 관련 기능을 그룹화합니다. **웨이브를 사용하여 보내기**, **전송 시간 최적화** 및 **채널 최적화**&#x200B;가 모두 여정 섹션에서 이동되었습니다.
+
+* 여정 및 작업 캠페인에 대한 별도의 **웨이브를 사용하여 보내기** 문서 페이지가 하나의 페이지로 병합되었으며 이제 오케스트레이션된 캠페인도 다룹니다. [자세히 보기](../delivery/send-using-waves.md)
+
+* 새 여정 캔버스에서 **노드를 분리하고 다시 연결하는 방법**&#x200B;에 대한 Experience League 커뮤니티 문서를 가리키는 팁이 **여정 디자인** 페이지에 추가되었습니다. [자세히 보기](../building-journeys/using-the-journey-designer.md)
 
 * **Grid** 구성 요소 섹션이 **전자 메일 Designer 콘텐츠 구성 요소** 페이지에 추가되었습니다. 콘텐츠를 행과 열로 구성된 구조화된 그리드로 구성할 수 있으며, 여기서 각 셀에는 다른 콘텐츠 구성 요소가 포함될 수 있습니다. [자세히 보기](../email/content-components.md#grid)
 
@@ -42,11 +49,12 @@ ht-degree: 84%
 
 * **PTR 레코드 편집** 페이지에 새로운 순방향 DNS 레코드를 플랫폼에 추가할 때 이동이 완료될 때까지 이전 하위 도메인에 대한 순방향 DNS 레코드를 제거하지 말아야 한다는 경고가 추가되었습니다. 이 경우 편집이 실패합니다. [자세히 보기](../configuration/ptr-records.md#edit-ptr-subdomains-cname)
 
-* **웨이브를 사용하여 보내기** 페이지가 업데이트되어 웨이브 전반에서 대상 재평가 동작을 명확하게 수정했습니다. 대상 멤버십은 활성화 시간(스냅숏)에 고정되지만 프로필 특성 및 동의는 각 웨이브를 처리할 때 평가됩니다. 즉, 예약된 일괄 처리 사이에서 발생하는 옵트아웃이 적용됩니다. [여정](../building-journeys/send-using-waves.md#faq) 및 [캠페인](../campaigns/send-using-waves.md#faq) FAQ 섹션에서 자세히 알아보세요.
+* **웨이브를 사용하여 보내기** 페이지가 업데이트되어 웨이브 전반에서 대상 재평가 동작을 명확하게 수정했습니다. 대상 멤버십은 활성화 시간(스냅숏)에 고정되지만 프로필 특성 및 동의는 각 웨이브를 처리할 때 평가됩니다. 즉, 예약된 일괄 처리 사이에서 발생하는 옵트아웃이 적용됩니다. [FAQ 섹션](../delivery/send-using-waves.md#faq)에서 자세히 알아보세요.
 
 * **데이터 거버넌스** 페이지가 업데이트되어 DULE 정책 시행이 **프로필 특성 필드에만 적용**&#x200B;됨을 확인했습니다. 이벤트 기반 필드(여정 이벤트 필드와 같은 컨텍스트 특성)는 지원되지 않습니다. UI에서 해당 필드에 적용된 레이블은 데이터 사용을 제한하지 않습니다. [자세히 보기](../action/action-privacy.md)
 
 * **전송 시간 최적화** 설명서가 **2-100시간**&#x200B;의 새로운 **[!UICONTROL 다음]** 이내 전송 제한(이전 1-168)을 반영하고 이 기능에 대해 지원되는 AEP Hub 영역을 문서화하도록 업데이트되었습니다. [자세히 보기](../building-journeys/send-time-optimization.md#use-send-time-optimization)
+
 
 * **개인화된 최적화 모델** 페이지가 업데이트되어 앙상블 모델의 작동 방식, 데이터 세트 요구 사항, 사용 사례, 주요 가정 및 콜드 스타트 동작에 대한 최신 모델 개선 사항을 반영했습니다. [Experience Decisioning](../experience-decisioning/ranking/personalized-optimization-model.md) 및 [Offer Decisioning](../offers/ranking/personalized-optimization-model.md) 섹션에서 자세히 알아보세요.
 
@@ -191,7 +199,7 @@ ht-degree: 84%
 
 * **대상자 읽기** 활동 설명서가 업데이트되어 **비즈니스 이벤트** 활동은 대상자 읽기가 여정의 첫 번째 활동이어야 한다는 규칙의 예외임을 명확히 했습니다. 또한 대상 타겟팅을 제어하는 고급 대안으로 **최적화** 활동을 참조하는 참고 사항이 추가되었습니다. [자세히 보기](../building-journeys/read-audience.md)
 
-* 여정에서 **예약된 일괄 처리를 사용하여 전송** 기능이 이제 정식으로 제공됩니다. 설명서에서 제한된 가용성 플래그가 제거되었습니다. [자세히 보기](../building-journeys/send-using-waves.md)
+* 여정에서 **예약된 일괄 처리를 사용하여 전송** 기능이 이제 정식으로 제공됩니다. 설명서에서 제한된 가용성 플래그가 제거되었습니다. [자세히 보기](../delivery/send-using-waves.md)
 
 * **Jump** 활동 설명서에는 복잡한 엔드투엔드 흐름을 Jump 활동을 통해 연결된 더 작고 집중된 하위 여정으로 나누는 방법을 설명하는 새로운 디자인 전략 섹션인 **간단한 하위 여정**&#x200B;이 추가되었습니다. [자세히 보기](../building-journeys/jump.md#jump-strategy)
 
@@ -917,7 +925,7 @@ ht-degree: 84%
 * A new section about Privacy requests has been added to the documentation. [Read more](../privacy/requests.md)
 * A new section about Audit logs on resources has been added to the documentation. [Read more](../privacy/audit-logs.md)
 * A new section about how to add HTML or JSON content coming from Adobe Experience Cloud Asset library to an offer representation has been added to the documentation. [Read more](../offers/offer-library/add-representations.md#html-json)
-* Added a new page on journey lifecyle. [Read more](../building-journeys/journey.md)
+* Added a new page on journey lifecyle. [Read more](../building-journeys/journey.md) 
 * Updated the Wait activity page. [Read more](../building-journeys/wait-activity.md)
 * Added the list of Adobe Journey Optimizer datasets with query examples. [Read more](../data/datasets-query-examples.md)
 * The Allowed list page has been moved to the Configuration section. [Read more](../configuration/allow-list.md)

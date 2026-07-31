@@ -23,9 +23,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 01105f4dc3f6b52598c634373988570cf6916406
+source-git-commit: 6e13f186799c120eaf674fda2d722572af8e0149
 workflow-type: tm+mt
-source-wordcount: 1162
+source-wordcount: 1212
 ht-degree: 11%
 
 ---
@@ -170,6 +170,10 @@ WhatsApp 템플릿은 Journey Optimizer에서 사용하기 전에 Meta에서 먼
    [Whatsapp 템플릿을 만드는 방법에 대해 자세히 알아보기](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
 
    ![](assets/whatsapp-design-2.png)
+
+   >[!NOTE]
+   >
+   >**WhatsApp 흐름** 템플릿을 선택하여 설문 조사 또는 잠재 고객 캡처 양식과 같은 대화형 다중 화면 경험을 WhatsApp 대화 내에서 직접 전달할 수 있습니다. WhatsApp 흐름 템플릿을 통해 제출된 응답을 포함한 모든 인바운드 WhatsApp 응답은 _AJO 채널 추적 이벤트 데이터 세트_&#x200B;에서 캡처됩니다. [시스템 데이터 세트에 대해 자세히 알아보세요](../data/get-started-datasets.md#system-datasets).
 
 1. **[!UICONTROL 이미지 URL]** 필드에 미디어 URL을 추가하여 템플릿의 자리 표시자를 모두 바꿉니다. Meta의 템플릿 미디어는 자리 표시자일 뿐입니다. 이미지, 오디오 또는 비디오를 올바르게 표시하려면 Adobe Experience Manager 또는 기타 소스의 외부 URL을 사용해야 합니다.
 

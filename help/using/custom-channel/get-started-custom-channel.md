@@ -1,12 +1,12 @@
 ---
 title: 사용자 정의 채널 시작하기
-description: ' [!DNL Journey Optimizer]''s Channel Builder to bring any outbound messaging channel into [!DNL Journey Optimizer] 을(를) 사용하여 캠페인, 여정 및 오케스트레이션된 캠페인에 사용하는 방법을 알아봅니다.'
+description: ' [!DNL Journey Optimizer]''s Channel Builder to bring any outbound messaging channel into [!DNL Journey Optimizer] 을(를) 사용하여 캠페인 및 여정에서 사용하는 방법을 알아봅니다.'
 feature: Channel Configuration
 topic: Content Management
 role: User
 level: Beginner
 badge: label="제한 공개" type="Informative"
-source-git-commit: 9dfa2792db981f5f1a4e9fc3868ffd200c855a5b
+source-git-commit: 99103a5028c9cebc63b2c1d69ce5848974b40c8e
 workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 5%
@@ -18,7 +18,7 @@ ht-degree: 5%
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** Adobe Journey Optimizer에 있는 사용자 지정 채널이 무엇인지, 사용자 지정 작업과 어떻게 비교되는지, 캠페인, 여정 및 오케스트레이션된 캠페인에서 사용할 수 있도록 아웃바운드 HTTP 끝점을 AJO으로 가져오는 전반적인 워크플로에 대해 알아봅니다.
+**이 페이지에서:** Adobe Journey Optimizer에 있는 사용자 지정 채널이 무엇인지, 사용자 지정 작업과 어떻게 비교되는지, 캠페인 및 여정에서 사용할 수 있도록 아웃바운드 HTTP 끝점을 AJO으로 가져오기 위한 전체 워크플로에 대해 알아봅니다.
 
 >[!ENDSHADEBOX]
 
@@ -28,7 +28,7 @@ ht-degree: 5%
 
 <!--Multilingual support, business rules enforcement, and [!DNL Adobe Experience Decisioning] integration are planned for a future release.-->
 
-[!DNL Journey Optimizer]의 **사용자 지정 채널** 기능을 사용하면 아웃바운드 채널을 [!DNL Journey Optimizer]&#x200B;(으)로 가져와 기본 채널처럼 캠페인, 여정 및 오케스트레이션된 캠페인에서 사용할 수 있습니다. 관리자는 **채널 빌더**&#x200B;를 사용하여 엔지니어링 작업 없이 새 채널을 만들고 구성할 수 있으며 마케터는 즉시 이러한 채널을 사용하여 고객과 통신할 수 있습니다.
+[!DNL Journey Optimizer]의 **사용자 지정 채널** 기능을 사용하면 모든 아웃바운드 채널을 [!DNL Journey Optimizer]&#x200B;(으)로 가져와 기본 채널처럼 캠페인 및 여정에서 사용할 수 있습니다. 관리자는 **채널 빌더**&#x200B;를 사용하여 엔지니어링 작업 없이 새 채널을 만들고 구성할 수 있으며 마케터는 즉시 이러한 채널을 사용하여 고객과 통신할 수 있습니다.
 
 ## 어떤 문제가 해결됩니까? {#why-custom-channels}
 
@@ -46,7 +46,7 @@ ht-degree: 5%
 
 이전에 [!DNL Journey Optimizer] 여정에서 [사용자 지정 작업](../action/action.md)을 사용한 경우 사용자 지정 채널은 다른 사용 사례를 처리합니다.
 
-**WeChat, KakaoTalk 또는 사용자 지정 메시징 게이트웨이와 같이 [!DNL Journey Optimizer]에서 기본적으로 지원되지 않는 플랫폼을 통해 최종 사용자에게 메시지를 보내야 하는 경우**&#x200B;사용자 지정 채널을 사용합니다. 사용자 지정 채널은 캠페인, 여정, 오케스트레이션된 캠페인 및 지원에서 사용할 수 있습니다.
+**WeChat, KakaoTalk 또는 사용자 지정 메시징 게이트웨이와 같이 [!DNL Journey Optimizer]에서 기본적으로 지원되지 않는 플랫폼을 통해 최종 사용자에게 메시지를 보내야 하는 경우**&#x200B;사용자 지정 채널을 사용합니다. 사용자 지정 채널은 캠페인 및 여정에서 사용할 수 있으며, 다음과 같은 지원을 제공합니다.
 
 * 기본 아웃바운드 채널과 유사한 개인화 편집기를 통한 전체 개인화
 * 시각적/양식 페이로드 편집기, 미리보기 및 증명
@@ -92,10 +92,40 @@ ht-degree: 5%
 
 사용자 지정 채널 설정 및 사용은 아래의 주요 단계를 따릅니다.
 
-1. **구성**(관리자) - 관리자가 **채널 빌더**&#x200B;에서 사용자 지정 채널을 만들어 끝점, 인증, 제한 정책 및 메시지 페이로드 구조를 정의합니다. 그런 다음 채널 구성이 만들어지고 사용자 지정 채널에 연결됩니다. [자세히 알아보기](configure-custom-channel.md)
-1. **만들기**(마케터) - 마케터는 여정, 캠페인 또는 오케스트레이션된 캠페인에 사용자 지정 채널을 추가하고 채널 구성을 선택한 다음 [!DNL Journey Optimizer]의 개인화 편집기를 사용하여 메시지 페이로드를 작성합니다. [자세히 알아보기](create-custom-experience.md)
+1. **구성**(관리자) - 관리자가 **채널 빌더**&#x200B;에서 사용자 지정 채널을 만들어 끝점, 인증, 제한 정책 및 메시지 페이로드 구조를 정의합니다. 그런 다음 채널 구성이 만들어지고 사용자 지정 채널에 연결됩니다.
+1. **만들기**(마케터) - 마케터가 여정 또는 캠페인에 사용자 지정 채널을 추가하고, 채널 구성을 선택하고, [!DNL Journey Optimizer]의 개인화 편집기를 사용하여 메시지 페이로드를 작성합니다.
 1. **보내기** - 프로필이 유효하면 [!DNL Journey Optimizer]에서 구성된 끝점으로 개인화된 페이로드를 보냅니다. 외부 시스템은 호출을 처리하고 메시지를 전달합니다.
-1. **모니터링**(관리자/마케터) - 관리자와 마케터는 [!DNL Journey Optimizer]의 보고 및 모니터링 대시보드를 통해 사용자 지정 채널의 성능과 안정성을 모니터링할 수 있습니다. [자세히 알아보기](monitor-custom-channel.md)
+1. **모니터링**(관리자/마케터) - 관리자와 마케터는 [!DNL Journey Optimizer]의 보고 및 모니터링 대시보드를 통해 사용자 지정 채널의 성능과 안정성을 모니터링할 수 있습니다.
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="configure-custom-channel.md">
+<img alt="구성" src="../assets/do-not-localize/inapp-config.jpg">
+</a>
+<div>
+<a href="configure-custom-channel.md"><strong>사용자 지정 채널 구성</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="create-custom-experience.md">
+<img alt="만들기" src="../assets/do-not-localize/inapp-create.jpeg">
+</a>
+<div>
+<a href="create-custom-experience.md"><strong>사용자 지정 채널 경험 만들기</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="monitor-custom-channel.md">
+<img alt="모니터" src="../assets/do-not-localize/inapp-report.jpg">
+</a>
+<div>
+<a href="monitor-custom-channel.md"><strong>사용자 지정 채널 모니터링</strong></a>
+</div>
+<p>
+</td>
+</tr></table>
 
 <!--
 ## Next steps {#next-steps}

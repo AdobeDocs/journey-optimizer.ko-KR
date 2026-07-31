@@ -22,7 +22,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
+source-git-commit: 7e84f06def3d352eb2ecf0b26d89402297e6236e
 workflow-type: tm+mt
 source-wordcount: 248
 ht-degree: 47%
@@ -63,7 +63,7 @@ ht-degree: 47%
 1. [캠페인 액션 구성](campaign-action.md)
 1. [액션 캠페인 콘텐츠 편집](campaign-content.md)
 1. [액션 캠페인 대상자 정의](campaign-audience.md)
-1. [작업 캠페인을 예약합니다](campaign-schedule.md). 필요한 경우 [웨이브를 사용하여 보내기](send-using-waves.md)하여 시간이 지남에 따라 메시지를 일괄적으로 배달합니다.
+1. [작업 캠페인을 예약합니다](campaign-schedule.md). 필요한 경우 [웨이브를 사용하여 보내기](../delivery/send-using-waves.md)하여 시간이 지남에 따라 메시지를 일괄적으로 배달합니다.
 1. [액션 캠페인 검토 및 활성화](review-activate-campaign.md)
 
 유형별 안내서를 사용하는 [전체 캠페인 만들기 워크플로](get-started-with-campaigns.md#workflow)에 → 자세히 알아보기

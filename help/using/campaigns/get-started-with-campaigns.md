@@ -32,7 +32,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
+source-git-commit: 7e84f06def3d352eb2ecf0b26d89402297e6236e
 workflow-type: tm+mt
 source-wordcount: 1697
 ht-degree: 95%
@@ -246,7 +246,7 @@ Adobe Journey Optimizer를 사용하면 여러 채널에서 특정 대상자에�
 2. **캠페인 유형 선택**(액션, API 트리거 또는 오케스트레이션)
 3. **대상자 선택**
 4. 충돌 관리를 사용하는 경우 **우선순위 설정**
-5. **일정을 구성**(액션 캠페인의 경우)하거나 API 세부 정보를 구성합니다(API 트리거의 경우). 액션 캠페인의 경우 [예약된 일괄 처리를 사용하여 보내는](send-using-waves.md) 방법으로 시간에 따라 메시지를 배치 단위로 게재할 수도 있습니다.
+5. **일정을 구성**(액션 캠페인의 경우)하거나 API 세부 정보를 구성합니다(API 트리거의 경우). 액션 캠페인의 경우 [예약된 일괄 처리를 사용하여 보내는](../delivery/send-using-waves.md) 방법으로 시간에 따라 메시지를 배치 단위로 게재할 수도 있습니다.
 
 **유형별 안내서:** [액션 캠페인 속성](campaign-properties.md) | [API 트리거 캠페인 속성](api-triggered-campaign-properties.md) | [오케스트레이션된 캠페인 설정](../orchestrated/create-orchestrated-campaign.md)
 

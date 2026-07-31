@@ -31,10 +31,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 65caf63a1d7a2c6243f5f7b59237011777ae2421
+source-git-commit: b27b9b7b600ac9d0357329aa795b5787face1f4b
 workflow-type: tm+mt
-source-wordcount: 1516
-ht-degree: 99%
+source-wordcount: 1520
+ht-degree: 98%
 
 ---
 
@@ -393,3 +393,10 @@ AI 어시스턴트는 즉각적인 도움과 운영 인사이트를 제공합니
 >abstract="**Line** 활동을 통해 오케스트레이션된 캠페인에 LINE 액션을 추가할 수 있습니다. 텍스트 및 스티커에서 이미지, 비디오, 위치 및 Flex Message에 이르는 다양하고 개인화된 콘텐츠를 제작하여 LINE에서 고객 참여를 유도합니다."
 
 
+
+<!-- Asset selector content generation -->
+
+>[!CONTEXTUALHELP]
+>id="ajo_assets_selection_mode"
+>title="Assets 선택 모드"
+>abstract="X"

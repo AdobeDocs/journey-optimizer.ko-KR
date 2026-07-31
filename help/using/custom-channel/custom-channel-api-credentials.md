@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="제한 공개" type="Informative"
-source-git-commit: 9dfa2792db981f5f1a4e9fc3868ffd200c855a5b
+source-git-commit: 9dbefb0dfd426e5a9952b52740b57f5916875b1f
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 3%
@@ -26,7 +26,7 @@ ht-degree: 3%
 
 **[!UICONTROL 관리]** > **[!UICONTROL 채널]** > **[!UICONTROL 채널 빌더]** > **[!UICONTROL API 자격 증명]**&#x200B;에서 자격 증명을 보고 관리하고 편집할 수 있습니다.
 
-![API 자격 증명](assets/custom_channel_api_credentials.png){width="100%"}
+![API 자격 증명](assets/custom_channel_api_credentials.png){width="90%"}
 
 동일한 채널에 대해 여러 자격 증명을 사용하면 채널 정의를 복제하지 않고도 다른 브랜드 또는 사용 사례와 같이 다른 채널 구성에 다른 인증 값을 첨부할 수 있습니다.
 
@@ -38,7 +38,7 @@ ht-degree: 3%
 
 1. 이름과 설명을 입력합니다.
 
-   ![API 자격 증명 만들기](assets/custom_channel_create_api_credentials.png){width="100%"}
+   ![API 자격 증명 만들기](assets/custom_channel_create_api_credentials.png){width="80%"}
 
 1. 자격 증명을 만들 **[!UICONTROL 채널]**&#x200B;을(를) 선택하십시오.
 

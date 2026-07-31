@@ -28,7 +28,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 454e16cb6b16fc31d8cdddeb20b256d2ab08d009
+source-git-commit: 7e84f06def3d352eb2ecf0b26d89402297e6236e
 workflow-type: tm+mt
 source-wordcount: 5041
 ht-degree: 10%
@@ -450,7 +450,7 @@ ht-degree: 10%
 
 >[!TIP]
 >
->여정을 예약할 때 시간에 따라 여정 작업을 일괄적으로 전달하도록 웨이브 전송을 구성할 수도 있습니다. [여정에서 웨이브를 사용하여 보내는 방법 알아보기](send-using-waves.md)
+>여정을 예약할 때 시간에 따라 여정 작업을 일괄적으로 전달하도록 웨이브 전송을 구성할 수도 있습니다. [여정에서 웨이브를 사용하여 보내는 방법 알아보기](../delivery/send-using-waves.md)
 
 
 ## 충돌 관리 {#conflict}

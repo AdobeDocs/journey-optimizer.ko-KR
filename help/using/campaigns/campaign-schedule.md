@@ -23,7 +23,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
+source-git-commit: 7e84f06def3d352eb2ecf0b26d89402297e6236e
 workflow-type: tm+mt
 source-wordcount: 857
 ht-degree: 13%
@@ -120,7 +120,7 @@ IANA 이름 지정의 경우, 식별자는 대소문자를 구분하며 공식 I
 
 캠페인 메시지를 한 번에 전달하는 대신 시간에 따라 일괄적으로 전달하려면 웨이브 전송을 사용할 수 있습니다. 이를 통해 로드 밸런싱을 수행하고 전달성을 지원하며 지나치게 많은 다운스트림 시스템(예: 콜 센터 또는 랜딩 페이지)을 방지할 수 있습니다. 예약된 예약된 예약된 일괄 처리 수, 예약된 일괄 처리 크기(백분율 또는 절대 숫자 기준) 및 예약된 일괄 처리 시간을 정의합니다.
 
-[웨이브를 사용하여 보내는 방법을 알아보세요](send-using-waves.md).
+[웨이브를 사용하여 보내는 방법을 알아보세요](../delivery/send-using-waves.md).
 
 ## 다음 단계 {#next}
 

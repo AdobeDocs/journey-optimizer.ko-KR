@@ -5,9 +5,9 @@ feature: Channel Configuration
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 9dfa2792db981f5f1a4e9fc3868ffd200c855a5b
+source-git-commit: 1f70fb22417cfd8a850283ac2c4515bb449bca83
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '892'
 ht-degree: 2%
 
 ---
@@ -27,6 +27,8 @@ ht-degree: 2%
 
 사용자 지정 채널이 **[!UICONTROL 초안]** 상태인 동안 채널 빌더의 **[!UICONTROL 테스트]** 단추를 사용하여 테스트 요청을 끝점으로 보내고 활성화하기 전에 종단 간 연결을 확인합니다. [자세히 알아보기](create-custom-channel.md#test-connection)
 
+![연결 테스트 단추](assets/custom_channel_test_connection.png){width="70%"}
+
 이 테스트는 다음을 확인합니다.
 
 * [!DNL Journey Optimizer]의 아웃바운드 IP에서 끝점에 연결할 수 있습니다.
@@ -35,7 +37,13 @@ ht-degree: 2%
 
 외부 시스템의 로그를 확인하여 예상된 헤더 및 페이로드 구조로 테스트 요청이 수신되었는지 확인합니다.
 
-## 테스트 프로필로 콘텐츠 시뮬레이션 {#simulate-content}
+## 사용자 지정 채널 경험 미리보기 및 테스트 {#preview-test}
+
+사용자 지정 채널 경험을 만들었으면 여정 또는 캠페인을 활성화하기 전에 개인화된 콘텐츠의 엔드투엔드 게재를 확인할 수 있습니다.
+
+다음 기능을 사용하여 사용자 지정 채널 페이로드를 미리 보고 테스트하고 전체적인 경험을 확인합니다.
+
+### 테스트 프로필로 콘텐츠 시뮬레이션 {#simulate-content}
 
 **[!UICONTROL 콘텐츠 시뮬레이션]** 기능은 테스트 프로필에 대한 개인화 표현식을 확인하므로 실제 메시지가 배달되기 전에 전송되는 정확한 페이로드를 검사할 수 있습니다.
 
@@ -50,17 +58,23 @@ ht-degree: 2%
    * 필수 페이로드 필드가 채워집니다.
    * 도우미 함수는 예상대로 형식이 지정된 출력을 생성합니다.
 
+   ![테스트 프로필로 콘텐츠 시뮬레이션](assets/custom_channel_simulate_content.png){width="70%"}
+
 >[!TIP]
 >
 >서로 다른 대상 세그먼트를 나타내는 여러 프로필로 테스트하여 극단적 사례(예: 누락된 옵션 속성, 라틴어가 아닌 문자 세트 또는 개인화된 필드에 null 값이 있는 프로필)를 포착합니다.
 
-## 교정쇄 보내기 {#send-proof}
+[이 섹션](../content-management/preview-test.md)에서 콘텐츠를 미리 보고 테스트하는 방법에 대해 자세히 알아보세요.
+
+### 교정쇄 보내기 {#send-proof}
 
 활성화하기 전에 엔드투엔드 게재의 유효성을 검사하려면 테스트 수신자 집합에 증명을 보냅니다.
 
 1. **[!UICONTROL 콘텐츠 시뮬레이션]** 패널에서 **[!UICONTROL 증명 보내기]** 탭으로 전환합니다.
 
-1. 사용할 프로필을 추가합니다. [!DNL Journey Optimizer]에서 테스트 프로필로 정의되지 않은 프로필로 CSV 파일을 업로드할 수 있습니다.
+1. 사용할 프로필을 추가합니다. [!DNL Journey Optimizer]에서 테스트 프로필로 정의되지 않은 프로필로 CSV 파일을 업로드할 수 있습니다. [테스트 프로필 만들기](../audience/creating-test-profiles.md)에 대해 자세히 알아보기
+
+   ![증명 탭 보내기](assets/custom_channel_send_proof.png){width="70%"}
 
 1. **[!UICONTROL 증명 보내기]**&#x200B;를 클릭합니다. [!DNL Journey Optimizer]이(가) 선택한 각 프로필에 대해 개인화된 페이로드로 외부 끝점을 호출합니다.
 
@@ -68,9 +82,9 @@ ht-degree: 2%
 
 증명 결과는 이메일 증명과 동일한 유효성 검사 패턴을 사용하여 표시됩니다. 필수 필드, 유형 불일치, 스키마 유효성 검사 오류 등이 증명을 보내기 전에 표시됩니다.
 
-[캠페인](../campaigns/create-campaign.md#send-proof) 및 [여정](../building-journeys/testing-the-journey.md)에서 증명을 보내는 방법에 대해 자세히 알아보세요.
+[이 섹션](../content-management/proofs.md)에서 증명 전송에 대한 자세한 정보
 
-## 여정 테스트 모드에서 테스트 {#test-journey}
+### 여정 테스트 모드에서 테스트 {#test-journey}
 
 전체 여정 유효성 검사의 경우 **[!UICONTROL 테스트 모드]**&#x200B;에서 여정을 활성화하십시오.
 
@@ -86,9 +100,9 @@ ht-degree: 2%
 
 1. 완료되면 **[!UICONTROL 테스트 중지]**&#x200B;를 클릭합니다.
 
-[테스트 모드](../building-journeys/testing-the-journey.md)에서 여정 테스트에 대한 자세한 내용을 알아보세요.
+[이 섹션](../building-journeys/testing-the-journey.md)의 테스트 모드에서 여정 테스트에 대한 자세한 내용을 알아보세요.
 
-## 여정 시뮬레이션 {#simulate-journey}
+### 여정 시뮬레이션 {#simulate-journey}
 
 [!DNL Journey Optimizer]의 **시뮬레이션** 모드를 사용하면 미리 만들어진 테스트 프로필이 필요 없이 시뮬레이션된 사용자(Adobe Experience Platform에서 지속되지 않는 임시 프로필과 유사한 엔터티)를 사용하여 여정을 처음부터 끝까지 확인할 수 있습니다.
 
@@ -108,9 +122,9 @@ ht-degree: 2%
 >
 >시뮬레이션은 초안 및 라이브 여정 모두에서 사용할 수 있으며, 프로필 할당량 또는 실제 끝점 호출에 계산되지 않는 임시 시뮬레이션된 사용자를 사용합니다.
 
-[여정 시뮬레이션에 대해 자세히 알아보기](../building-journeys/simulate-journey-gs.md)
+[이 섹션](../building-journeys/simulate-journey-gs.md)에서 여정 시뮬레이션에 대해 자세히 알아보세요.
 
-## 사전 활성화 검사 목록 {#checklist}
+### 사전 활성화 검사 목록 {#checklist}
 
 여정 또는 캠페인을 활성화하기 전에 다음을 확인하십시오.
 

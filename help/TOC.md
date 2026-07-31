@@ -6,10 +6,10 @@ user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 3756e104086c83bbca88b2fe770a40a8e9f39ef3
+source-git-commit: 0873a0e6f74f14fad3aba904816c47040a6c3125
 workflow-type: tm+mt
-source-wordcount: '3488'
-ht-degree: 93%
+source-wordcount: '3489'
+ht-degree: 94%
 
 ---
 
@@ -69,7 +69,6 @@ ht-degree: 93%
     + [여정 만들기](/help/rp_landing_pages/create-journey-landing-page.md)
     + [첫 여정 만들기](using/building-journeys/journey-gs.md)
     + [여정 속성 정의](using/building-journeys/journey-properties.md)
-    + [여정에서 예약된 일괄 처리를 사용하여 전송](using/building-journeys/send-using-waves.md)
     + [여정 지표 구성 및 추적](using/building-journeys/success-metrics.md)
     + [여정 디자인](using/building-journeys/using-the-journey-designer.md)
     + 시뮬레이션 {#simulate-journey}
@@ -88,8 +87,6 @@ ht-degree: 93%
     + [여정에서 추가 식별자 사용](using/building-journeys/supplemental-identifier.md)
     + [여정 단계 이벤트 작업](using/reports/journey-step-events-overview.md)
     + [시간대 관리](using/building-journeys/timezone-management.md)
-    + [전송 시간 최적화](using/building-journeys/send-time-optimization.md)
-    + [채널 최적화](using/building-journeys/channel-optimization.md)
     + [여정 끝내기](using/building-journeys/end-journey.md)
   + 활동 {#about-journey-building}
     + [활동](/help/rp_landing_pages/about-journey-building-landing-page.md)
@@ -176,7 +173,6 @@ ht-degree: 93%
     + [캠페인 콘텐츠 편집](using/campaigns/campaign-content.md)
     + [캠페인 대상자 정의](using/campaigns/campaign-audience.md)
     + [캠페인 예약](using/campaigns/campaign-schedule.md)
-    + [예약된 일괄 처리를 사용하여 보내기](using/campaigns/send-using-waves.md)
     + [액션 캠페인 검토 및 활성화](using/campaigns/review-activate-campaign.md)
   + API로 트리거되는 캠페인 {#api-triggered-campaigns}
     + [API-트리거된 캠페인](/help/rp_landing_pages/api-triggered-campaigns-landing-page.md)
@@ -259,6 +255,10 @@ ht-degree: 93%
   + 여정 중재 {#journey-arbitration}
     + [공식을 사용하여 여정에 순위 매기기](using/conflict-prioritization/journey-ranking-formulas.md)
     + [AI 모델을 사용하여 여정 순위 매기기](using/conflict-prioritization/journey-ai-models.md)
++ 게재 설정 {#delivery-settings}
+  + [예약된 일괄 처리를 사용하여 보내기](using/delivery/send-using-waves.md)
+  + [전송 시간 최적화](using/building-journeys/send-time-optimization.md)
+  + [채널 최적화](using/building-journeys/channel-optimization.md)
 + 테스트 및 승인 {#test}
   + [테스트, 유효성 검사 및 승인](/help/rp_landing_pages/test-landing-page.md)
   + 콘텐츠 미리 보기 및 테스트 {#preview-test}
@@ -461,17 +461,17 @@ ht-degree: 93%
       + [Journey Optimizer에서 라이브 활동 구성](using/mobile-live/mobile-live-configuration.md)
       + [라이브 활동 SDK 통합 구성](using/mobile-live/mobile-live-configuration-sdk.md)
   + 사용자 지정 채널 {#custom-channel}
-    + {hide-from-toc}[사용자 지정 채널 시작](using/custom-channel/get-started-custom-channel.md)
+    + [사용자 정의 채널 시작하기](using/custom-channel/get-started-custom-channel.md)
     + 사용자 지정 채널 구성 {#configure-custom-channel}
-      + {hide-from-toc}[사용자 지정 채널 설정](using/custom-channel/configure-custom-channel.md)
-      + {hide-from-toc}[사용자 지정 채널 만들기](using/custom-channel/create-custom-channel.md)
-      + {hide-from-toc}[API 자격 증명 관리](using/custom-channel/custom-channel-api-credentials.md)
-      + {hide-from-toc}[하위 도메인 위임](using/custom-channel/custom-channel-subdomains.md)
-      + {hide-from-toc}[채널 구성 만들기](using/custom-channel/custom-channel-configuration.md)
+      + [사용자 지정 채널 설정](using/custom-channel/configure-custom-channel.md)
+      + [사용자 지정 채널 만들기](using/custom-channel/create-custom-channel.md)
+      + [API 자격 증명 관리](using/custom-channel/custom-channel-api-credentials.md)
+      + [하위 도메인 위임](using/custom-channel/custom-channel-subdomains.md)
+      + [채널 구성 만들기](using/custom-channel/custom-channel-configuration.md)
     + 사용자 지정 채널 경험 만들기 {#create-custom-channel-experiences}
-      + {hide-from-toc}[사용자 지정 채널 경험 만들기](using/custom-channel/create-custom-experience.md)
-      + {hide-from-toc}[사용자 지정 채널 경험 테스트](using/custom-channel/test-custom-channel.md)
-    + {hide-from-toc}[사용자 지정 채널 모니터링](using/custom-channel/monitor-custom-channel.md)
+      + [사용자 지정 채널 경험 만들기](using/custom-channel/create-custom-experience.md)
+      + [사용자 지정 채널 경험 테스트](using/custom-channel/test-custom-channel.md)
+    + [사용자 지정 채널 모니터링](using/custom-channel/monitor-custom-channel.md)
 + 콘텐츠 관리 {#content-management}
   + [콘텐츠 관리](/help/rp_landing_pages/content-management-landing-page.md)
   + 개인화 {#personalization}
@@ -646,6 +646,7 @@ ht-degree: 93%
       + [캠페인 보고서](using/reports/campaign-global-report-cja.md)
       + [코드 기반 캠페인 보고서](using/reports/campaign-global-report-cja-code.md)
       + [콘텐츠 카드 캠페인 보고서](using/reports/campaign-global-report-cja-content.md)
+      + [사용자 지정 채널 캠페인 보고서](using/reports/campaign-global-report-cja-custom.md)
       + [다이렉트 메일 캠페인 보고서](using/reports/campaign-global-report-cja-direct.md)
       + [이메일 캠페인 보고서](using/reports/campaign-global-report-cja-email.md)
       + [실험 캠페인 보고서](using/reports/campaign-global-report-cja-experimentation.md)

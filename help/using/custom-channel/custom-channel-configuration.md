@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="제한 공개" type="Informative"
-source-git-commit: 9dfa2792db981f5f1a4e9fc3868ffd200c855a5b
+source-git-commit: 13fdbf639414f8cf04c6ea057924a54e2d6902df
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 8%
+source-wordcount: '359'
+ht-degree: 9%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 8%
 
 1. **[!UICONTROL 채널 선택]** 드롭다운 목록에서 활성화된 사용자 지정 채널 중 하나를 선택합니다.
 
-   ![채널 선택](assets/custom_channel_select_channel.png){width="100%"}
+   <!--![Select channel](assets/custom_channel_select_channel.png){width="100%"}-->
 
 1. 선택한 채널이 인증을 사용하는 경우(유형이 **없음**&#x200B;이 아님) **[!UICONTROL API 자격 증명]** 필드가 나타납니다. 이 구성에 사용할 자격 증명을 선택합니다. [API 자격 증명에 대해 자세히 알아보기](custom-channel-api-credentials.md)
 
@@ -42,17 +42,19 @@ ht-degree: 8%
 
    각 매개 변수의 값을 입력합니다. 개인화 편집기를 사용하여 동적 값(예: 프로필에서 확인된 사용자 식별자)을 삽입할 수 있습니다. 이렇게 하면 프로필 데이터를 기반으로 각 수신자에 대한 요청을 사용자 지정할 수 있습니다.
 
-   ![동적 매개 변수](assets/custom_channel_config_dynamic_parameters.png){width="100%"}
+   ![동적 매개 변수](assets/custom_channel_config_dynamic_parameters.png){width="70%"}
 
 1. 사용자 지정 채널에 **[!UICONTROL 채널 구성]** 확인란이 활성화된 페이로드 필드가 있는 경우 해당 필드가 **[!UICONTROL 페이로드 구성]** 섹션에 표시됩니다. [자세히 알아보기](create-custom-channel.md#payload-configuration)
 
-   ![페이로드 필드](assets/custom_channel_config_payload.png){width="100%"}
+   ![페이로드 필드](assets/custom_channel_config_payload.png){width="70%"}
 
    각 필드에 대한 값을 이 구성에 맞게 구성합니다. 이는 발신자 정보나 메시지 템플릿과 같이 캠페인 또는 여정의 상황에 따라 달라질 수 있는 필드에 유용합니다.
 
-1. 오케스트레이션된 캠페인의 경우 **[!UICONTROL 실행 세부 정보]** 섹션을 완료하여 프로필 차원을 매핑하고 실행 주소를 지정하십시오.
+<!--
+1. For orchestrated campaigns, complete the **[!UICONTROL Execution details]** section to map profile dimensions and specify the execution address.
 
-   ![오케스트레이션된 캠페인의 실행 세부 정보](assets/custom_channel_oc_execution_details.png){width="80%"}
+   ![Execution details in orchestrated campaigns](assets/custom_channel_oc_execution_details.png){width="80%"}
+-->
 
 1. 채널 구성을 저장하고 활성화하려면 **[!UICONTROL 제출]**&#x200B;을 클릭하십시오.
 
@@ -68,4 +70,4 @@ ht-degree: 8%
 
 * [사용자 지정 채널 경험 만들기](create-custom-experience.md)
 * [사용자 지정 채널 테스트](test-custom-channel.md)
-* [사용자 지정 채널 모니터링](configure-custom-channel.md)
+* [사용자 지정 채널 모니터링](monitor-custom-channel.md)

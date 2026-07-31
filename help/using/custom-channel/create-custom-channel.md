@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="제한 공개" type="Informative"
-source-git-commit: 3b584e496d7438a9d472a41149cba60928cb2517
+source-git-commit: 9dbefb0dfd426e5a9952b52740b57f5916875b1f
 workflow-type: tm+mt
-source-wordcount: '1575'
+source-wordcount: '1567'
 ht-degree: 15%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 15%
 
 1. **[!UICONTROL 채널 빌더]** 섹션에서 **[!UICONTROL 사용자 지정 채널]**&#x200B;을 선택합니다.
 
-   ![사용자 지정 채널 인벤토리](assets/custom_channels_inventory.png){width="70%"}
+   ![사용자 지정 채널 인벤토리](assets/custom_channels_inventory.png){width="100%"}
 
 1. 인벤토리는 현재 상태 및 외부 끝점에 연결하는 데 사용되는 인증 유형을 포함하여 샌드박스의 모든 사용자 지정 채널을 나열합니다.
 
@@ -60,7 +60,7 @@ ht-degree: 15%
 
 1. 채널을 보관하려면 인벤토리에서 채널을 열고 **[!UICONTROL 보관]**&#x200B;을 클릭하세요.
 
-   활성 채널을 보관하면 캠페인 작업 선택기, 여정 작업 팔레트, 오케스트레이션된 캠페인 채널 목록, 채널 구성 및 콘텐츠 템플릿과 같은 모든 선택 드롭다운에서 제거됩니다. 이미 채널을 사용하고 있는 기존 여정 및 캠페인은 정상적으로 계속 작동합니다.
+   활성 채널을 보관하면 캠페인 작업 선택기, 여정 작업 팔레트, <!--orchestrated campaigns channel list,--> 채널 구성 및 콘텐츠 템플릿 등 모든 선택 드롭다운에서 활성 채널이 제거됩니다. 이미 채널을 사용하고 있는 기존 여정 및 캠페인은 정상적으로 계속 작동합니다.
 
 ## 사용자 지정 채널 만들기 {#create-channel}
 
@@ -70,7 +70,7 @@ ht-degree: 15%
 
    ![일반 설정](assets/custom_channel_properties.png){width="70%"}
 
-1. **[!UICONTROL 속성]** 섹션에서 사용자 지정 채널의 **[!UICONTROL 이름]**&#x200B;을(를) 입력하십시오. 이 이름은 여정 캔버스, 캠페인 작업 선택기 및 오케스트레이션된 캠페인 채널 목록에 표시됩니다.
+1. **[!UICONTROL 속성]** 섹션에서 사용자 지정 채널의 **[!UICONTROL 이름]**&#x200B;을(를) 입력하십시오. 이 이름은 여정 캔버스 및 캠페인 작업 선택기<!--and orchestrated campaigns channel list-->에 표시됩니다.
 
    >[!NOTE]
    >
@@ -111,7 +111,7 @@ ht-degree: 15%
 
    <!--At minimum, `Content-Type` and `Charset` are available as default headers.-->
 
-   ![헤더 구성](assets/custom_channel_endpoint_headers.png){width="70%"}
+   ![헤더 구성](assets/custom_channel_endpoint_headers.png){width="60%"}
 
    각 헤더에 대해 값이 다음과 같은지 여부를 정의할 수 있습니다.
 
@@ -120,11 +120,11 @@ ht-degree: 15%
 
 1. 필요한 경우 동일한 상수/변수 패턴을 사용하여 **[!UICONTROL 쿼리 매개 변수]**&#x200B;를 추가하십시오. 쿼리 매개 변수는 배달 시 끝점 URL에 추가됩니다. 상수 매개 변수는 항상 동일한 값으로 추가됩니다. 변수 매개 변수는 예를 들어 프로필에서 사용자 식별자를 전달하기 위해 전송 시 확인됩니다.
 
-   ![쿼리 매개 변수](assets/custom_channel_endpoint_query_param.png){width="70%"}
+   ![쿼리 매개 변수](assets/custom_channel_endpoint_query_param.png){width="60%"}
 
 1. **[!UICONTROL 정책 구성]** 섹션에서 [!DNL Journey Optimizer]이(가) 요청 처리량 및 오류를 처리하는 방법을 정의합니다. 이는 외부 시스템이 많은 요청을 처리할 수 있도록 하고 요청을 압도하지 않도록 하는 데 중요합니다.
 
-   ![정책 구성](assets/custom_channel_endpoint_policy_config.png)
+   ![정책 구성](assets/custom_channel_endpoint_policy_config.png){width="70%"}
 
    * **[!UICONTROL 전송률 조절 사용]** - 기본적으로 비활성화되어 있습니다. 초당 최대 요청 수를 설정하십시오(기본값: **5,000c**). 제한에 도달하면 요청이 큐에 올라가 가능한 한 빨리 전송됩니다.
    * **[!UICONTROL 다시 시도 사용]** - 기본적으로 사용됩니다. 실패한 요청에 대한 최대 다시 시도 횟수(기본값: **3**, 구성 가능한 범위: 0-10)를 설정하십시오. 이렇게 하면 일시적인 오류가 발생하는 동안 끝점을 초과하지 않도록 하는 데 도움이 됩니다.

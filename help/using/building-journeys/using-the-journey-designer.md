@@ -32,9 +32,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: a51b5254b62773a354b37c6da1caa5937115ecff
+source-git-commit: 3f82acd395c938aed52cb18dae45b370e7f69110
 workflow-type: tm+mt
-source-wordcount: 2356
+source-wordcount: 2393
 ht-degree: 2%
 
 ---
@@ -101,6 +101,10 @@ ht-degree: 2%
 또한 마지막으로 선택한 경험(이전 또는 신규)이 이제 사용자 수준에서 기억됩니다. 앞으로는 새 여정을 만들 때마다 이 환경 설정이 자동으로 적용되므로 매번 수동으로 전환할 필요가 없습니다.
 
 ![](assets/journey-new-experience-switch.png)
+
+>[!TIP]
+>
+>여정 캔버스에서 노드를 분리하고 다시 연결하는 방법에 대한 단계별 지침은 이 [Experience League 커뮤니티 문서](https://experienceleaguecommunities.adobe.com/adobe-journey-optimizer-15/how-to-detach-rejoin-nodes-in-the-new-journey-canvas-251908?profile.language=ko){target="_blank"}를 참조하십시오.
 
 새 여정 캔버스 경험에 대한 비디오 개요는 이 비디오 를 시청하십시오.
 

@@ -21,10 +21,10 @@ level_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
+source-git-commit: de0a0b4884588c7a03b5d40f424ae2fafffe9243
 workflow-type: tm+mt
-source-wordcount: 896
-ht-degree: 100%
+source-wordcount: 917
+ht-degree: 97%
 
 ---
 
@@ -94,5 +94,6 @@ Journey Optimizer에서 너무 많은 상호 작용으로 고객에게 부담을
 * **[여정 캡핑 및 중재](journey-capping.md)** - 여정 수준의 캡핑 및 중재를 설정합니다.
 * **[채널별 빈도 캡핑](channel-capping.md)** - 메시지를 과도하게 보내는 것을 방지하기 위해 채널 수준에서 빈도 캡핑을 설정합니다.
 * **[방해 금지 시간 설정](quiet-hours.md)** - 메시지 게재에 대한 시간 기반 제외를 정의합니다.
+* **[수식을 사용하여 여정 순위 지정](journey-ranking-formulas.md) 및 [AI 모델](journey-ai-models.md)** - 최대 한도가 적용될 때 여정 순위를 지정할 수식과 AI 모델을 만드는 방법에 대해 알아봅니다.
 * **[충돌 관리 튜토리얼](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/conflict-management/identify-potential-conflicts){target="_blank"}** - 단계별 비디오 튜토리얼.
 * **[Journey Optimizer 사용 사례](../building-journeys/jo-use-cases.md)** - 빈도 제한 및 여정 억제 논리를 포함한 실용적인 패턴을 살펴봅니다.

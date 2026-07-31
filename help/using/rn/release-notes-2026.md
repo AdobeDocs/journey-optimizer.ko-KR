@@ -14,7 +14,7 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 2411f0ba2371933c3af101603c28032e9cdcc7d2
+source-git-commit: 7e84f06def3d352eb2ecf0b26d89402297e6236e
 workflow-type: tm+mt
 source-wordcount: 10054
 ht-degree: 95%
@@ -1385,7 +1385,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 
 * **프로필 업데이트 액션: 여러 프로필 속성 지원** - **프로필 업데이트** 액션 활동이 이제 단일 노드에서 최대 5개의 프로필 속성 업데이트를 지원합니다. 이전에는 각 액션별로 한 번에 하나의 속성만 업데이트할 수 있어 여러 속성을 업데이트하려면 여러 노드에서 작업해야 했습니다. 새로운 **다른 필드 업데이트** 버튼을 사용하여 필드/값 쌍을 추가하면 캔버스의 복잡성을 줄이고 성능을 개선할 수 있습니다. [자세히 알아보기](../building-journeys/update-profiles.md)
 
-* **여정의 아웃바운드 메시지 웨이브 전송** - 이제 Journey Optimizer 여정에서 메시지를 시간에 따라 제어되는 배치 단위로 게재하는 작업을 예약할 수 있습니다. [자세히 알아보기](../building-journeys/send-using-waves.md)
+* **여정의 아웃바운드 메시지 웨이브 전송** - 이제 Journey Optimizer 여정에서 메시지를 시간에 따라 제어되는 배치 단위로 게재하는 작업을 예약할 수 있습니다. [자세히 알아보기](../delivery/send-using-waves.md)
 
   이전에 여정에서 사용할 수 있도록 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).
 
