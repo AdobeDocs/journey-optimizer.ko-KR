@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 badge: label="제한 공개" type="Informative"
-source-git-commit: 6aa595444e13ddd37a15734f47cc11ce17585117
+source-git-commit: 99103a5028c9cebc63b2c1d69ce5848974b40c8e
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '669'
 ht-degree: 5%
 
 ---
@@ -92,10 +92,40 @@ ht-degree: 5%
 
 사용자 지정 채널 설정 및 사용은 아래의 주요 단계를 따릅니다.
 
-1. **구성**(관리자) - 관리자가 **채널 빌더**&#x200B;에서 사용자 지정 채널을 만들어 끝점, 인증, 제한 정책 및 메시지 페이로드 구조를 정의합니다. 그런 다음 채널 구성이 만들어지고 사용자 지정 채널에 연결됩니다. [자세히 알아보기](configure-custom-channel.md)
-1. **만들기**(마케터) - 마케터가 여정 또는 캠페인에 사용자 지정 채널을 추가하고, 채널 구성을 선택하고, [!DNL Journey Optimizer]의 개인화 편집기를 사용하여 메시지 페이로드를 작성합니다. [자세히 알아보기](create-custom-experience.md)
+1. **구성**(관리자) - 관리자가 **채널 빌더**&#x200B;에서 사용자 지정 채널을 만들어 끝점, 인증, 제한 정책 및 메시지 페이로드 구조를 정의합니다. 그런 다음 채널 구성이 만들어지고 사용자 지정 채널에 연결됩니다.
+1. **만들기**(마케터) - 마케터가 여정 또는 캠페인에 사용자 지정 채널을 추가하고, 채널 구성을 선택하고, [!DNL Journey Optimizer]의 개인화 편집기를 사용하여 메시지 페이로드를 작성합니다.
 1. **보내기** - 프로필이 유효하면 [!DNL Journey Optimizer]에서 구성된 끝점으로 개인화된 페이로드를 보냅니다. 외부 시스템은 호출을 처리하고 메시지를 전달합니다.
-1. **모니터링**(관리자/마케터) - 관리자와 마케터는 [!DNL Journey Optimizer]의 보고 및 모니터링 대시보드를 통해 사용자 지정 채널의 성능과 안정성을 모니터링할 수 있습니다. [자세히 알아보기](monitor-custom-channel.md)
+1. **모니터링**(관리자/마케터) - 관리자와 마케터는 [!DNL Journey Optimizer]의 보고 및 모니터링 대시보드를 통해 사용자 지정 채널의 성능과 안정성을 모니터링할 수 있습니다.
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="configure-custom-channel.md">
+<img alt="구성" src="../assets/do-not-localize/inapp-config.jpg">
+</a>
+<div>
+<a href="configure-custom-channel.md"><strong>사용자 지정 채널 구성</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="create-custom-experience.md">
+<img alt="만들기" src="../assets/do-not-localize/inapp-create.jpeg">
+</a>
+<div>
+<a href="create-custom-experience.md"><strong>사용자 지정 채널 경험 만들기</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="monitor-custom-channel.md">
+<img alt="모니터" src="../assets/do-not-localize/inapp-report.jpg">
+</a>
+<div>
+<a href="monitor-custom-channel.md"><strong>사용자 지정 채널 모니터링</strong></a>
+</div>
+<p>
+</td>
+</tr></table>
 
 <!--
 ## Next steps {#next-steps}
