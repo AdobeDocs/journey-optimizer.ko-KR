@@ -9,21 +9,15 @@ role: User
 level: Beginner
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
 TQID: https://experienceleague.adobe.com/uHzRC9X6rB9EXH4gIFiRxFaeNcrTD0-40RrxZkN4XFg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b8df23d2-98a2-4406-86cc-2babe8728d36
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 75ebd043971ce40e2da0f627622441a46a8e667c
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b8df23d2-98a2-4406-86cc-2babe8728d36id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 43066cc40499d87771b251766d5fa6b96afb1bb5
 workflow-type: tm+mt
-source-wordcount: 686
-ht-degree: 64%
+source-wordcount: 707
+ht-degree: 62%
 
 ---
 
@@ -52,6 +46,7 @@ WhatsApp은 대상자가 이미 플랫폼을 사용하고 있으며 풍부한 �
 | 높은 글로벌 참여 | 많은 지역에서 강력한 채택을 통해 널리 사용되는 메시징 플랫폼 | WhatsApp에서 이미 활성화된 해외 대상에게 연결 |
 | 풍부한 대화형 메시지 | 이미지, 비디오, 단추 및 빠른 답글 지원 | 제품 카탈로그, 빠른 회신 옵션을 통한 약속 확인 |
 | 양방향 대화 경험 | 수신자는 동일한 스레드 내에서 회신할 수 있습니다. | 고객 지원 대화, 주문 추적 질문 |
+| 인터랙티브한 다중 화면 환경 | WhatsApp 흐름 템플릿을 사용하면 채팅 내에서 안내식 다단계 상호 작용을 구축할 수 있습니다 | 설문 조사, 잠재 고객 캡처 양식 |
 | 공식 API를 통한 규정 준수 및 신뢰 | 보낸 사람 인증이 있는 Meta의 인증된 클라우드 API를 통해 제공됨 | 수신자 신뢰를 구축하는 브랜드 검증 커뮤니케이션 |
 | 다른 채널과 통합 | 다른 채널과 함께 여정 및 캠페인과 계층화할 수 있음 | WhatsApp을 보완 접점으로 사용하는 다중 채널 여정 |
 
@@ -98,7 +93,7 @@ WhatsApp 채널에는 다음 제한 사항이 적용됩니다.
 
 +++ 비디오 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3470251?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470244?learn=on)
 
 +++
 
