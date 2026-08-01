@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 실시간 고객 프로필을 통해 프로필을 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 테스트 프로필을 만드는 방법
 

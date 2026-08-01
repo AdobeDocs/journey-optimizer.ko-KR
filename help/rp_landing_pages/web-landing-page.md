@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 개인화된 웹 경험을 만들고 관리하는 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 웹 채널 구성
 

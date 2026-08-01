@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 랜딩 페이지 디자인
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 랜딩 페이지 템플릿 작업
 

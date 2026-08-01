@@ -25,7 +25,7 @@ Adobe Journey Optimizer에서 오퍼 카탈로그를 내보내는 것은 Adobe E
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 오퍼 카탈로그 내보내기 안내서
 
@@ -35,7 +35,7 @@ Adobe Journey Optimizer에서 오퍼 카탈로그를 내보내는 것은 Adobe E
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 내보낸 오퍼 카탈로그에 액세스하기
 
@@ -45,7 +45,7 @@ Adobe Journey Optimizer에서 오퍼 카탈로그를 내보내는 것은 Adobe E
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 개인화된 오퍼 데이터 세트 참조
 
@@ -55,7 +55,7 @@ Adobe Journey Optimizer에서 오퍼 카탈로그를 내보내는 것은 Adobe E
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 의사 결정 데이터 세트 개요
 
@@ -65,7 +65,7 @@ Adobe Journey Optimizer에서 오퍼 카탈로그를 내보내는 것은 Adobe E
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 배치 데이터 세트 세부 정보
 
@@ -75,7 +75,7 @@ Adobe Journey Optimizer에서 오퍼 카탈로그를 내보내는 것은 Adobe E
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 대체 오퍼 데이터 세트 설명서
 
