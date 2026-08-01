@@ -50,7 +50,7 @@ LINE 메시지 만들기 및 구성
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 LINE 메시지 확인 및 전송
 

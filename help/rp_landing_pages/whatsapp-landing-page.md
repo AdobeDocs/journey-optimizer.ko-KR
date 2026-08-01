@@ -20,7 +20,7 @@ Adobe Journey Optimizer를 사용하면 실시간으로 개인화된 커뮤니�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 WhatsApp 메시지 시작
 

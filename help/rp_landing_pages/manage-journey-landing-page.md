@@ -40,7 +40,7 @@ Adobe Journey Optimizer의 여정 관리는 고객 경험이 여러 채널에 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 여정에서 보조 식별자 사용
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer의 여정 관리는 고객 경험이 여러 채널에 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 시간대 관리
 

@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 첫 번째 오케스트레이션된 캠페인을 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 오케스트레이션된 캠페인 생성 및 예약
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer에서 첫 번째 오케스트레이션된 캠페인을 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
 
 오케스트레이션된 캠페인 보고
 

@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 결정 기능을 효과적으로 사용하기 위�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=ko)
 
 자주 묻는 질문
 

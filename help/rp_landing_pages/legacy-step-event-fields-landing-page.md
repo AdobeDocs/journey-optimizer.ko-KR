@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 기존 단계 이벤트 필드는 고객 여정의 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
 
 여정 필드 개요
 
