@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: 예약된 일괄 처리, 일정, 여정, 캠페인, 오케스트레이션, 전달성
-source-git-commit: f81682509234666224d600dc4ccfb2f57783dc2d
+source-git-commit: 8717cece9b014c3e1c8083c5467349e84c8a1fc5
 workflow-type: tm+mt
-source-wordcount: '2070'
+source-wordcount: '2074'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** 아웃바운드 메시지 게재를 예약된 일괄 처리(예약된 일괄 처리)로 분할하여 로드 균형을 조정하고, 보낸 사람의 평판을 보호하고, 배달 가능성을 개선하는 방법에 대해 알아봅니다. 읽기 대상 여정, 작업 캠페인 및 조정된 캠페인에서 사용할 수 있습니다.
+**이 페이지에서:** 아웃바운드 메시지 게재를 예약된 일괄 처리(예약된 일괄 처리)로 분할하여 로드 밸런싱을 수행하고 보낸 사람의 평판을 보호하며 게재 능력을 향상시키는 방법을 알아봅니다. 대상자 읽기 여정, 작업 캠페인 및 오케스트레이션된 캠페인에서 웨이브 전송을 사용할 수 있습니다.
 
 >[!ENDSHADEBOX]
 
