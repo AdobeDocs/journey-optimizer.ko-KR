@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: 예약된 일괄 처리, 일정, 여정, 캠페인, 오케스트레이션, 전달성
-source-git-commit: 4e2717e09d125b53cd75e5c5fbf3fb75ca9bfde5
+source-git-commit: f81682509234666224d600dc4ccfb2f57783dc2d
 workflow-type: tm+mt
 source-wordcount: '2070'
 ht-degree: 1%
@@ -122,6 +122,7 @@ ht-degree: 1%
 1. 아래의 [파동 크기 및 타이밍](#wave-options) 섹션에 자세히 설명된 대로 파동 크기 및 타이밍을 정의하는 방법을 선택하십시오.
 
 >[!ENDTABS]
+
 
 <!--
 >[!TAB Orchestrated campaigns]
