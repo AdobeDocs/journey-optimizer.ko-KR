@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: 예약된 일괄 처리, 일정, 여정, 캠페인, 오케스트레이션, 전달성
-source-git-commit: 04c506d0eb9d33645c3ca3d6a9f032bfce71fc98
+source-git-commit: d997e60a9a851d37796162ed531564514c26dea4
 workflow-type: tm+mt
 source-wordcount: '2077'
 ht-degree: 1%
@@ -58,14 +58,14 @@ ht-degree: 1%
 * 웨이브 전송은 **아웃바운드** 작업에만 적용됩니다(전자 메일, SMS, 푸시, DM).
 * 웨이브 시작은 캠페인 시작 이전일 수 없습니다.
 
+>[!ENDTABS]
+
 <!--
 >[!TAB Orchestrated campaigns]
 
 * Wave sending applies to **outbound** channel activities only (Email, SMS, Push, Direct mail).
 * Wave sending is configured at the **channel activity level**, independently for each channel activity in the campaign.
 -->
-
->[!ENDTABS]
 
 ## 웨이브 전송 구성 {#configure-wave-sending}
 
