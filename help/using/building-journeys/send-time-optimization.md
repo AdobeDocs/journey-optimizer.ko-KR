@@ -28,7 +28,7 @@ topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: de0a0b4884588c7a03b5d40f424ae2fafffe9243
+source-git-commit: 82f802c504dcc97e781a6f8edf6e567a4a7c627e
 workflow-type: tm+mt
 source-wordcount: 2298
 ht-degree: 6%
@@ -244,6 +244,5 @@ Adobe의 여정 AI 서비스를 기반으로 하는 [!DNL Adobe Journey Optimize
 * **Q: 전송 시간 최적화의 기대 이점은 무엇입니까?** — 최적화된 모든 메시지에서 이메일 클릭률 또는 푸시 열기 비율이 약 2~10% 향상되었지만 개별 소량 전송에서는 이점을 확인할 수 없습니다.
 
 +++
-
 
 

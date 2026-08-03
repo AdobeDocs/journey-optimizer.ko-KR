@@ -6,13 +6,12 @@ user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 0873a0e6f74f14fad3aba904816c47040a6c3125
+source-git-commit: 82f802c504dcc97e781a6f8edf6e567a4a7c627e
 workflow-type: tm+mt
 source-wordcount: '3489'
 ht-degree: 94%
 
 ---
-
 
 # Adobe Journey Optimizer 도움말 {#using}
 
