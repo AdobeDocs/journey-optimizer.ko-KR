@@ -22,10 +22,10 @@ topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 82f802c504dcc97e781a6f8edf6e567a4a7c627e
+source-git-commit: 7d4b5047ebb782034140379d5581726736de9051
 workflow-type: tm+mt
 source-wordcount: 1219
-ht-degree: 2%
+ht-degree: 11%
 
 ---
 
@@ -122,8 +122,8 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_optimization_method"
->title="채널 선택 작동 방식 정의"
->abstract="Journey Optimizer에서 각 고객에게 가장 적합한 채널을 선택하는 방법을 선택합니다. **수동 우선 순위** - 채널은 사용자가 정의한 순서대로 시도되며, 가용성은 선택한 채널 구성과 관련된 구독 환경 설정 및 마케팅 동의 규칙, 캠페인이나 여정과 관련된 모든 비즈니스 규칙(예: 채널 빈도 제한)을 적용하여 결정됩니다. **고객 프로필 특성** - 프로필에서 선언된 고객의 기본 설정과 일치하는 채널이 먼저 선택됩니다. 기본 설정이 없으면 수동 우선 순위가 적용됩니다. **AI 최적화** — 머신 러닝 모델이 고객의 참여 기록을 기반으로 각 채널에 점수를 매기고, 점수가 가장 높은 사용 가능한 채널이 선택됩니다."
+>title="채널 선택의 작동 방식 정의"
+>abstract="Journey Optimizer에서 각 고객에게 가장 적합한 채널을 선택하는 방법을 다음과 같이 선택합니다. **수동 우선순위** - 채널이 사용자가 정의한 순서대로 시도되며, 가용성은 선택된 채널 구성과 관련된 구독 환경 설정 및 마케팅 동의 규칙, 캠페인이나 여정과 관련된 모든 비즈니스 규칙(예: 채널 빈도 상한 설정)을 적용하여 결정됩니다. **고객 프로필 속성** - 프로필에서 선언된 고객의 환경 설정과 일치하는 채널이 먼저 선택됩니다. 설정된 사항이 발견되지 않으면 수동 우선 순위가 적용됩니다. **AI 최적화** - 머신 러닝 모델이 고객의 참여 이력을 기반으로 하여 각 채널에 점수를 매기고, 점수가 가장 높은 가용 채널이 선택됩니다."
 
 <!--
 Previous content for contextual help: "The customer's first available channel, based on the selected prioritization method, is used for this action. Availability is determined by the customer's subscription preferences and marketing consent rules for the selected channel configurations, as well as any business rules — such as frequency capping — configured for the campaign or journey." TBC which to keep.
@@ -185,4 +185,3 @@ Adobe Journey Optimizer의 채널 최적화 기능이 수동 우선 순위, 프�
 * [Send-Time optimization](send-time-optimization.md)
 * [Content optimization](../content-management/gs-message-optimization.md)
 -->
-
