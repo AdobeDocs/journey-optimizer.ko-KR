@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: 예약된 일괄 처리, 일정, 여정, 캠페인, 오케스트레이션, 전달성
-source-git-commit: 8717cece9b014c3e1c8083c5467349e84c8a1fc5
+source-git-commit: 04c506d0eb9d33645c3ca3d6a9f032bfce71fc98
 workflow-type: tm+mt
-source-wordcount: '2074'
+source-wordcount: '2077'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 1%
 
 ## 제한 사항 및 보호 기능 {#limitations-guardrails}
 
-다음 제한 사항은 모든 컨텍스트에 적용됩니다.
+다음 제한 사항은 모든 컨텍스트에서 웨이브 전송에 적용됩니다.
 
 * **2개 이상의 예약된 일괄 처리**&#x200B;를 정의해야 하며 최대 **10개의 예약된 일괄 처리**&#x200B;를 추가할 수 있습니다.
 * 두 예약된 일괄 처리 시작 사이의 최소 간격은 **30분**&#x200B;입니다.
