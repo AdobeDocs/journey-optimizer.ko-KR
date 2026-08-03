@@ -11,24 +11,13 @@ keywords: 전송 시간, 전송, 메시지, 최적화, 여정, AI, 지능형
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/r8LyWsU7OOiGZFRkiGO56xkbzW9iE2ASemZOlyaERQ8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 82f802c504dcc97e781a6f8edf6e567a4a7c627e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 7d4b5047ebb782034140379d5581726736de9051
 workflow-type: tm+mt
 source-wordcount: 2298
 ht-degree: 6%
@@ -209,6 +198,7 @@ Adobe의 여정 AI 서비스를 기반으로 하는 [!DNL Adobe Journey Optimize
 * **TL;DR:** 이 페이지에서는 참여를 극대화하기 위해 각 개인에게 이메일 또는 푸시 메시지를 보내는 최상의 시간을 예측하는 AI 기반 기능인 Adobe Journey Optimizer에서 전송 시간 최적화를 구성하고 사용하는 방법을 설명합니다.
 
 **의도:**
+
 * 여정 내 이메일 또는 푸시 작업에서 전송 시간 최적화 활성화
 * 이메일 메시지에서 열림 또는 클릭스루에 최적화할지 선택
 * 지연된 게재에 대한 최대 대기 기간(다음 기간 내에 보내기) 설정
@@ -216,6 +206,7 @@ Adobe의 여정 AI 서비스를 기반으로 하는 [!DNL Adobe Journey Optimize
 * 전송 시간 최적화가 지정된 메시지 유형에 적합한지 확인
 
 **용어집:**
+
 * **STO(전송 시간 최적화)**: 구성된 기간 *(제품별) 내에 예측된 최적 참여 시간까지 각 프로필에 대한 메시지 배달을 지연하는 AI 기반 기능*
 * **AI 여정**: Journey Optimizer 내에서 전송 시간 최적화를 지원하는 Adobe의 AI 서비스 *(제품별)*
 * **탐색 전송 시간**: 다른 시간을 테스트하고 모델 정확도를 개선하기 위해 임의로 선택한 전송 시간(전송 중 5%에 사용됨) *(제품별)*
@@ -223,6 +214,7 @@ Adobe의 여정 AI 서비스를 기반으로 하는 [!DNL Adobe Journey Optimize
 * **다음 시간 내에 보내기**: 지정된 프로필로 메시지를 보내기 전에 시스템이 대기할 최대 시간(2-100) *(제품별)*
 
 **보호 기능:**
+
 * 전송 시간 최적화는 조직의 Adobe에서 활성화해야 합니다. 활성화하려면 Adobe 고객 지원 센터 또는 Adobe 담당자에게 문의하십시오.
 * 전송 시간 최적화는 여정 내의 이메일 및 푸시 알림 채널에만 적용되며 캠페인이나 사용자 지정 작업에는 사용할 수 없습니다.
 * 조직은 전송 시간 최적화가 의미 있는 결과를 생성하기 전에 적어도 30일 동안 Journey Optimizer에서 이메일 또는 푸시 작업을 사용해야 합니다.
@@ -232,11 +224,13 @@ Adobe의 여정 AI 서비스를 기반으로 하는 [!DNL Adobe Journey Optimize
 * 모델은 처음에 매주 교육을 받은 후, 16주 후에 매월 다시 교육을 받고 다시 검사를 받습니다.
 
 **용어:**
+
 * 정식 이름: 전송 시간 최적화 — 약어: STO — 변형: 전송 시간, 전송 시간 AI, 지능형 전송 시간
 * 동의어: &quot;전송 시간 최적화&quot; = &quot;최적의 전송 시간&quot; = &quot;AI 전송 시간&quot;
 * 혼동하지 마십시오. &quot;탐사 전송 시간&quot; ≠ &quot;최적화된 전송 시간&quot; (탐사는 모델 테스트를 위해 무작위로 수행되며, 최적화는 참여를 위해 모델 예측됨)
 
 **FAQ:**
+
 * **Q: 전송 시간 최적화를 지원하는 채널은 무엇입니까?** — 여정 내의 이메일 및 푸시 알림 채널만 가능합니다. 캠페인 및 사용자 지정 작업은 지원되지 않습니다.
 * **Q: 이메일 열기 또는 클릭에 최적화해야 합니까?** — 대부분의 이메일에 대해 클릭 수를 최적화합니다. 메시지가 정보 제공용이지만 특정 작업을 유도하기 위한 것이 아닌 경우 열기 를 선택합니다.
 * **Q: 조직에서 STO를 활성화하려면 얼마나 기다려야 합니까?** — 충분한 동작 데이터를 수집하려면 Journey Optimizer에서 최소 30일의 이메일 또는 푸시 사용이 필요합니다. 결과는 최대 16주 동안 계속 개선됩니다.
@@ -244,5 +238,3 @@ Adobe의 여정 AI 서비스를 기반으로 하는 [!DNL Adobe Journey Optimize
 * **Q: 전송 시간 최적화의 기대 이점은 무엇입니까?** — 최적화된 모든 메시지에서 이메일 클릭률 또는 푸시 열기 비율이 약 2~10% 향상되었지만 개별 소량 전송에서는 이점을 확인할 수 없습니다.
 
 +++
-
-
