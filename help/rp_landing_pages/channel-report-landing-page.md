@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 &#39;전체 시간 보고서&#39;는 시간 경과에
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 전체 시간 보고 시작
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 &#39;전체 시간 보고서&#39;는 시간 경과에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
 
 종합 지표 목록
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer의 &#39;전체 시간 보고서&#39;는 시간 경과에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 Customer Journey Analytics 수동 구성
 
@@ -50,7 +50,7 @@ Customer Journey Analytics 수동 구성
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 보고서 관리
 
@@ -60,7 +60,7 @@ Customer Journey Analytics 수동 구성
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 보고 데이터 소스 구성
 
@@ -70,7 +70,7 @@ Customer Journey Analytics 수동 구성
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
 
 제외 이유
 

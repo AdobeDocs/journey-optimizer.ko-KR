@@ -108,7 +108,7 @@ Journey Optimizer에서 RCS를 사용하려면 다음 전제 조건이 필요합
 
 ## 추가 리소스 {#additional-resources}
 
-Journey Optimizer의 모바일 메시지에 대한 자세한 내용은 아래 항목을 참조하십시오. 자세한 사용 사례 및 모범 사례는 모바일 학습 허브의 [SMS/MMS/RCS 개요](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/mobile-learning-hub/mobile-channels-overview/sms-mms-rcs-overview){target="_blank"}를 참조하십시오.
+Journey Optimizer의 모바일 메시지에 대한 자세한 내용은 아래 항목을 참조하십시오. 자세한 사용 사례 및 모범 사례는 모바일 학습 허브의 [SMS/MMS/RCS 개요](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/mobile-learning-hub/mobile-channels-overview/sms-mms-rcs-overview){target="_blank"}를 참조하십시오.
 
 +++구성 안내서
 

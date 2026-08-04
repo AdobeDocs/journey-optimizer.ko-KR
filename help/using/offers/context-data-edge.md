@@ -74,7 +74,7 @@ Decisioning API를 사용하여 컨텍스트를 자유 형식으로 전달하는
 
 1. 데이터 세트(&quot;오퍼 컨텍스트&quot;)를 만들고 프로필에 대해 활성화되어 있는지 확인합니다.
 
-1. **[!UICONTROL 데이터 수집]** > **[!UICONTROL 데이터스트림]** 메뉴에서 새 데이터스트림을 만듭니다. [!DNL Adobe Experience Platform] [데이터스트림 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure){target="_blank"}에서 데이터스트림을 만들고 구성하는 방법에 대해 알아봅니다.
+1. **[!UICONTROL 데이터 수집]** > **[!UICONTROL 데이터스트림]** 메뉴에서 새 데이터스트림을 만듭니다. [!DNL Adobe Experience Platform] [데이터스트림 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/configure){target="_blank"}에서 데이터스트림을 만들고 구성하는 방법에 대해 알아봅니다.
 
    여기에서는 &quot;오퍼 컨텐츠&quot; 이벤트 스키마가 선택된 상태로 &quot;오퍼 컨텍스트&quot; 데이터스트림을 생성했습니다.
 

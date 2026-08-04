@@ -52,7 +52,7 @@ Adobe Journey Optimizer을 사용하여 반응형 및 개인화된 이메일 콘
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
 
 이메일 옵트아웃 관리
 
@@ -62,7 +62,7 @@ Adobe Journey Optimizer을 사용하여 반응형 및 개인화된 이메일 콘
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 이메일 채널 구성
 

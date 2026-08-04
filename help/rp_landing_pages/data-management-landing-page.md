@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 고급 데이터 보존, 내보내기, 삭제 및 거
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 Adobe Journey Optimizer의 스키마 작업
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer의 TTL 규칙, 내보내기 및 SQL 쿼리를 포함하�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 Adobe Experience Platform 데이터 사용
 

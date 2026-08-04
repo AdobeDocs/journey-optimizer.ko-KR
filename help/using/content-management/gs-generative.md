@@ -162,7 +162,7 @@ Adobe Journey Optimizer에서 콘텐츠 생성을 사용하여 이메일을 생�
 ### 법적 사용 및 투명성
 
 * 콘텐츠 생성 의 사용은 Adobe Experience Cloud 생성 AI 사용자 지침의 적용을 받습니다. [자세히 알아보기](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
-* 미디어 제작에서 생성 AI 도구 사용의 투명성을 증진하기 위한 Adobe의 약속의 일환으로 Adobe은 Firefly 생성 에셋이 포함된 콘텐츠 또는 프로젝트를 다운로드하거나 내보낼 때 Content Credentials을 적용합니다. [자세히 알아보기](https://helpx.adobe.com/firefly/using/content-credentials.html)
+* 미디어 제작에서 생성 AI 도구 사용의 투명성을 증진하기 위한 Adobe의 약속의 일환으로 Adobe은 Firefly 생성 에셋이 포함된 콘텐츠 또는 프로젝트를 다운로드하거나 내보낼 때 Content Credentials을 적용합니다. [자세히 알아보기](https://helpx.adobe.com/kr/firefly/using/content-credentials.html)
   <!--* See [Content Credentials in AI Assistant](generative-content-credentials.md) for details on which actions attach Content Credentials and what happens as your content moves.-->
 
 ### 개인화 표현식에 대한 콘텐츠 생성 {#ai-assistant-personalization-editor-guardrails}

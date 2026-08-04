@@ -78,7 +78,7 @@ ht-degree: 29%
 
 ## 데이터 액세스 전략 선택 {#data-access-strategy}
 
-데이터 소스를 구성하기 전에 사용 사례에 가장 적합한 접근 방식을 고려하십시오. 세 가지 옵션을 사용할 수 있으며, 각 옵션은 지속성, 프로필 보강 및 재사용 가능성 측면에서 서로 다른 장단점을 갖습니다. 이러한 옵션에 대한 자세한 내용은 [Journey Optimizer의 고급 여정 모범 사례](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}를 참조하십시오.
+데이터 소스를 구성하기 전에 사용 사례에 가장 적합한 접근 방식을 고려하십시오. 세 가지 옵션을 사용할 수 있으며, 각 옵션은 지속성, 프로필 보강 및 재사용 가능성 측면에서 서로 다른 장단점을 갖습니다. 이러한 옵션에 대한 자세한 내용은 [Journey Optimizer의 고급 여정 모범 사례](https://experienceleague.adobe.com/ko/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}를 참조하십시오.
 
 **옵션 1 — 사용자 지정 작업으로 외부 데이터에 액세스(데이터 레이크 없음)**
 
@@ -110,7 +110,7 @@ Experience Platform 데이터 레이크의 데이터를 유지하지 않고 여�
 
 **옵션 3 — 데이터 레이크의 프로필 사용 데이터 세트**
 
-데이터를 [프로필이 활성화된 데이터 세트](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}에 수집하여 대상자를 만들고, ID 그래프를 보강하며, 여러 여정 및 RT-CDP 대상에서 데이터를 활용합니다. 다음과 같은 경우에 가장 적합합니다.
+데이터를 [프로필이 활성화된 데이터 세트](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}에 수집하여 대상자를 만들고, ID 그래프를 보강하며, 여러 여정 및 RT-CDP 대상에서 데이터를 활용합니다. 다음과 같은 경우에 가장 적합합니다.
 
 * 이 데이터는 Journey Optimizer 이외의 채널에 사용된 대상 정의에 유용합니다.
 * 데이터에는 더욱 풍부하고 결합된 프로필 조각에 기여하는 여러 ID가 포함되어 있습니다.
@@ -129,7 +129,7 @@ Experience Platform 데이터 레이크의 데이터를 유지하지 않고 여�
 | **옵션 2** — 프로필에 대해 데이터 세트가 활성화되지 않음 | 예 | 아니요 |
 | **옵션 3** — 프로필 사용 데이터 세트 | 예 | 예 |
 
-Adobe Experience Platform 데이터 소스 및 외부 데이터 소스를 구성하는 방법, 그리고 여정에서 데이터를 찾아서 사용하는 방법과 관련된 자세한 내용을 확인하려면 이 [자습서 비디오](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target="_blank"}를 시청하십시오.
+Adobe Experience Platform 데이터 소스 및 외부 데이터 소스를 구성하는 방법, 그리고 여정에서 데이터를 찾아서 사용하는 방법과 관련된 자세한 내용을 확인하려면 이 [자습서 비디오](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html?lang=ko){target="_blank"}를 시청하십시오.
 
 ## 사용 방법 비디오 {#video}
 

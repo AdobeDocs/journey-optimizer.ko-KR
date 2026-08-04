@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 랜딩 페이지 디자인
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 랜딩 페이지 콘텐츠 만들기 및 사용자 정의
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 랜딩 페이지 디자인
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 랜딩 페이지 템플릿 작업
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer에서 랜딩 페이지 디자인
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 랜딩 페이지에서 사용자 정의 JavaScript 사용
 
