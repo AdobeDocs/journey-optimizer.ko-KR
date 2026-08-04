@@ -103,4 +103,4 @@ Journey Optimizer을 사용하면 여정 또는 캠페인을 작성할 때 다�
 
 ## 사용 방법 비디오 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3435528?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3445651?captions=kor&quality=12)
