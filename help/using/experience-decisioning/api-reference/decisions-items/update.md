@@ -36,7 +36,7 @@ ht-degree: 5%
 PATCH /{ENDPOINT_PATH}/offer-items/{ID}
 ```
 
-| 매개 변수 | 설명 | 예 |
+| 매개변수 | 설명 | 예 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 지속성 API의 끝점 경로입니다. | `https://platform.adobe.io/data/core/dps` |
 | `{ID}` | 업데이트하려는 엔티티의 ID입니다. | `offerItem1234` |
@@ -65,7 +65,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offer-items/offerItem1234
 ]'
 ```
 
-| 매개 변수 | 설명 |
+| 매개변수 | 설명 |
 | --------- | ----------- |
 | `value` | 매개 변수를 업데이트할 새 값입니다. |
 | `path` | 업데이트할 매개 변수의 경로입니다. |

@@ -68,7 +68,7 @@ ht-degree: 9%
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
 
-## 사전 요구 사항 {#genstudio-prerequisites}
+## 전제 조건 {#genstudio-prerequisites}
 
 [!DNL Journey Optimizer]과(와) [!DNL GenStudio for Performance Marketing] 통합을 사용하려면 다음 요구 사항이 충족되었는지 확인하십시오.
 

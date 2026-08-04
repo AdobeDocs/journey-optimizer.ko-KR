@@ -239,7 +239,7 @@ ht-degree: 12%
 
 이렇게 하려면 아래 절차를 따르십시오.
 
-1. 기본 페이지에서 **[!UICONTROL Form]** 구성 요소의 각 확인란을 관련 구독 목록에 연결합니다. [자세히 알아보기](#use-form-component)
+1. 기본 페이지에서 **[!UICONTROL Form]** 구성 요소의 각 확인란을 관련 구독 목록에 연결합니다. [자세히 알아보기](#use-form-component).
 
    ![](assets/lp_designer-form-luma-newsletter.png)
 

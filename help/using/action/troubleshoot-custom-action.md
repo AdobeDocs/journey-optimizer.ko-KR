@@ -55,7 +55,7 @@ Journey Optimizer 사용자 인터페이스의 관리 섹션에서 API 호출을
 >조직에서 IP(이그레스) 프록시를 사용하도록 설정한 경우 **[!UICONTROL 테스트 요청 보내기]** 호출이 이를 무시합니다. 프록시 라우팅을 확인하려면 테스트 또는 라이브 여정을 실행하십시오. [외부 시스템과 통합](../configuration/external-systems.md#faq)에서 IP(이그레스) 프록시 및 활성화에 대해 자세히 알아보세요.
 
 
-## 사전 요구 사항 {#troubleshoot-custom-action-prereq}
+## 전제 조건 {#troubleshoot-custom-action-prereq}
 
 **[!UICONTROL 테스트 요청 보내기]** 기능을 사용하려면 **사용자 지정 작업**&#x200B;을(를) URL, 헤더 및 인증 설정으로 미리 구성해야 합니다.
 

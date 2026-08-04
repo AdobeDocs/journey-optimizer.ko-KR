@@ -68,7 +68,7 @@ Journey Optimizer에서는 이 릴리스의 새로운 기능인 충성도 문제
 <p>또한 충성도는 팀이 과제 생성, 과제 속성 설정, 대상자 및 관련 구성 관리, 통찰력 검토 등 주요 과제 작업을 보다 효율적으로 수행하여 과제 참여도를 모니터링하고 성과를 보상하도록 하는 동료 기술을 도입합니다.</p>
 <p><img src="assets/do-not-localize/loyalty.png"></p>
 <p>이 기능은 Journey Optimizer 충성도에 대해 라이선스가 부여된 조직에서만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
-<p>자세한 내용은 <a href="../loyalty-challenges/get-started.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../loyalty-challenges/get-started.md">세부 설명서</a>를 참조하세요.</p>
 <p> 사용 가능한 날짜: 2026년 7월 28일</p>
 </td>
 </tr>
@@ -93,7 +93,7 @@ Journey Optimizer에서는 이 릴리스의 새로운 기능인 충성도 문제
 <p>이렇게 하면 이전에 여정 지정 작업으로 해결했던 공백이 해소되며, 이는 채널로만 제한되고 전용 채널 기능이 부족합니다.</p>
 <p>사용자 지정 아웃바운드 채널은 현재 제한된 가용성으로 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
 <p><img src="assets/do-not-localize/custom-channel.gif"></p>
-<p>자세한 내용은 <a href="../custom-channel/get-started-custom-channel.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../custom-channel/get-started-custom-channel.md">세부 설명서</a>를 참조하세요.</p>
 <p> 사용 가능한 날짜: 2026년 7월 31일</p>
 </td>
 </tr>
@@ -118,7 +118,7 @@ Journey Optimizer에서는 이 릴리스의 새로운 기능인 충성도 문제
 <p>최상위 채널을 사용할 수 없는 경우(옵트인, 주파수 제한 또는 구성되지 않은 경우) 시스템이 사용 가능한 다음 채널로 폴백합니다.</p>
 <p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
 <p><img src="assets/do-not-localize/channel-optimization.gif"></p>
-<p>자세한 내용은 <a href="../building-journeys/channel-optimization.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../building-journeys/channel-optimization.md">세부 설명서</a>를 참조하세요.</p>
 <p>사용 가능한 날짜: 2026년 7월 22일</p>
 </td>
 </tr>
@@ -149,7 +149,7 @@ Journey Optimizer에서는 이 릴리스의 새로운 기능인 충성도 문제
 <p>Adobe Journey Optimizer은 이제 랜딩 페이지에 대한 웹 응용 프로그램 방화벽 IP 허용 목록에 추가를 지원하므로 조직에서 모든 수신 요청이 구성된 웹 응용 프로그램 방화벽 인프라를 통해서만 라우팅되도록 할 수 있습니다. 이 향상된 기능을 통해 고객은 웹 애플리케이션 방화벽 계층을 무시하는 직접 요청을 거부하도록 Journey Optimizer을 구성할 수 있으므로 Imperva와 같은 도구에 정의된 보안 정책이 일관되게 적용됩니다.</p>
 <p>이 기능은 엄격한 네트워크 액세스 요구 사항을 가진 기업의 보안 태세를 강화하여 Journey Optimizer이 호스팅하는 랜딩 페이지로의 트래픽 흐름을 완벽하게 제어합니다.</p>
 <p><img src="assets/do-not-localize/allowed-ips.gif"></p>
-<p>자세한 내용은 <a href="../configuration/waf-ip-allowlist.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../configuration/waf-ip-allowlist.md">세부 설명서</a>를 참조하세요.</p>
 <p>사용 가능한 날짜: 2026년 7월 30일</p>
 </td>
 </tr>
@@ -178,7 +178,7 @@ Journey Optimizer에서는 이 릴리스의 새로운 기능인 충성도 문제
 <p>이제 이메일 디자이너에 헤더, 제품 카드, 정보 블록, 바닥글과 같은 바로 사용할 수 있는 레이아웃 모듈 라이브러리가 포함되어 있어 이메일 캔버스에 직접 끌어다 놓을 수 있습니다.</p>
 <p>각 모듈은 편집 가능한 속성(이미지, 제목, 텍스트, 버튼, 링크)으로 사전 구성되어 있으며 WYSIWYG 인터페이스를 통해 완벽하게 사용자 정의할 수 있으므로 처음부터 구조를 만들 필요 없이 이메일 작성 속도를 높일 수 있습니다.</p>
 <p><img src="assets/do-not-localize/email-modules.gif"></p>
-<p>자세한 내용은 <a href="../email/email-modules.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../email/email-modules.md">세부 설명서</a>를 참조하세요.</p>
 <p>사용 가능한 날짜: 2026년 7월 29일</p>
 </td>
 </tr>
@@ -199,7 +199,7 @@ Journey Optimizer에서는 이 릴리스의 새로운 기능인 충성도 문제
 <p>검사 결과는 작성 패널에 오류, 경고 또는 정보 알림으로 표시되며, 상황별 세부 정보와 가능한 경우 원클릭 수정 기능이 제공되므로 편집기를 종료하지 않고도 문제를 해결할 수 있습니다.</p>
 <p>이전에는 제한 공급으로만 사용 가능했던 이 기능이 이제 모든 고객에게 정식으로 제공됩니다.</p>
 <p><img src="assets/do-not-localize/content-check.gif"></p>
-<p>자세한 내용은 <a href="../email/content-check.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../email/content-check.md">세부 설명서</a>를 참조하세요.</p>
 <p>사용 가능한 날짜: 2026년 7월 16일</p>
 </td>
 </tr>
@@ -256,7 +256,7 @@ Journey Optimizer에서는 이 릴리스의 새로운 기능인 충성도 문제
 <tr>
 <td>
 <p>이제 오케스트레이션된 캠페인은 파일을 Adobe Experience Platform으로 먼저 수집하지 않고도 <strong>CSV 또는 TXT 파일</strong>을 타깃팅 대상자로 캠페인 캔버스에 직접 로드할 수 있습니다. 파일 데이터는 실행 시 사용되며 Adobe Experience Platform 데이터 세트로 지속되지 않습니다. 파일 설정 중에 열 매핑, 데이터 유형, NULL 처리 및 열별 오류 정책을 정의할 수 있습니다. 유효성 검사에 실패한 행은 캠페인이 실행되기 전에 거부되고 기록되므로, 수동 사전 처리 없이 대상자를 깔끔하게 유지합니다. 이는 전체 수집 파이프라인을 구축하는 것이 실용적이지 않은 애드혹 전송 또는 파트너 목록 캠페인에 특히 적합합니다.</p>
-<p>자세한 내용은 <a href="../orchestrated/activities/load-file.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../orchestrated/activities/load-file.md">세부 설명서</a>를 참조하세요.</p>
 <p> 사용 가능한 날짜: 2026년 7월 6일</p>
 </td>
 </tr>
@@ -307,7 +307,7 @@ Journey Optimizer에서는 이 릴리스의 새로운 기능인 충성도 문제
 <p>다른 마케팅 플랫폼에서 Adobe Journey Optimizer으로 전환하면 기존 이메일 콘텐츠와 여정을 Journey Optimizer으로 이동하는 데 도움이 되는 안내 기능을 통해 더 쉽게 이동할 수 있습니다. 전용 작업 영역을 사용하면 처음부터 다시 빌드하는 대신 기존 작업 영역을 다시 사용할 수 있습니다.</p>
 <p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
 <p><img src="assets/do-not-localize/guided-adoption.gif"></p>
-<p>자세한 내용은 <a href="../start/migrate-content-and-journeys.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../start/migrate-content-and-journeys.md">세부 설명서</a>를 참조하세요.</p>
 <p> 사용 가능한 날짜: 2026년 7월 30일</p>
 </td>
 </tr>
@@ -374,7 +374,7 @@ Journey Optimizer에서는 이 릴리스의 새로운 기능인 충성도 문제
 <tr>
 <td>
 <p><strong>Journey Optimizer 및 Adobe Experience Manager Dynamic Media 통합</strong>을 통해 Dynamic Media 템플릿에 대한 열기 시간 개인 맞춤화를 사용할 수 있으므로 초개인화된 사용 사례를 잠글 수 있습니다. 고객은 Adobe Experience Manager에서 개인화된 템플릿을 만들고 게시하며, 오픈타임에 렌더링되는 데이터를 사용하여 Journey Optimizer에서 사용할 수 있습니다.</p>
-<p>자세한 내용은 <a href="../integrations/aem-dynamic.md#countdown">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../integrations/aem-dynamic.md#countdown">세부 설명서</a>를 참조하세요.</p>
 <p> 사용 가능한 날짜: 2026년 7월 30일</p>
 </td>
 </tr>

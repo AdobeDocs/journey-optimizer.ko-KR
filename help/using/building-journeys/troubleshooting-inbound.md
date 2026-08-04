@@ -51,7 +51,7 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 * A user continues to receive inbound content even after the profile exits the journey.
 -->
 
-## 사전 요구 사항 {#prerequisites}
+## 전제 조건 {#prerequisites}
 
 문제 해결을 시작하기 전에 다음을 확인하십시오.
 

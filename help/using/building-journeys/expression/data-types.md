@@ -174,7 +174,7 @@ toDateTimeOnly 함수에 캡슐화할 수 있습니다.
 
 직렬화 포맷: ISO-8601 확장 오프셋 날짜-시간 포맷.
 
-DateTimeFormatter ISO_LOCAL_DATE_TIME을 사용하여 값을 deserialize 및 serialize합니다. [자세히 알아보기](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME"){_blank}
+DateTimeFormatter ISO_LOCAL_DATE_TIME을 사용하여 값을 deserialize 및 serialize합니다. [자세히 알아보기](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME"){_blank}.
 
 **리터럴 표시**
 
@@ -203,7 +203,7 @@ toDateTime 함수에 캡슐화할 수 있습니다.
 
 직렬화 포맷: ISO-8601 확장 오프셋 날짜-시간 포맷.
 
-DateTimeFormatter ISO_OFFSET_DATE_TIME을 사용하여 값을 deserialize 및 serialize합니다. [자세히 알아보기](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME){_blank}
+DateTimeFormatter ISO_OFFSET_DATE_TIME을 사용하여 값을 deserialize 및 serialize합니다. [자세히 알아보기](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME){_blank}.
 
 에포크 값을 전달하는 정수를 전달할 수도 있습니다. [자세히 보기](https://www.epochconverter.com){_blank}.
 
@@ -267,7 +267,7 @@ toDuration 함수에 캡슐화해야 합니다.
 
 직렬화 형식: 시간대 ID를 역직렬화하려면 java 함수 java.time을 사용합니다.
 
-Duration.parse: 허용되는 형식은 ISO-8601 기간 형식 PnDTnHnMn.nS를 기반으로 하며, 일은 정확히 24시간으로 간주됩니다. [자세히 알아보기](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-){_blank}
+Duration.parse: 허용되는 형식은 ISO-8601 기간 형식 PnDTnHnMn.nS를 기반으로 하며, 일은 정확히 24시간으로 간주됩니다. [자세히 알아보기](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-){_blank}.
 
 **리터럴 표시**
 

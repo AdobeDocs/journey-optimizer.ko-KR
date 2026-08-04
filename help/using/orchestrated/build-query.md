@@ -95,7 +95,7 @@ ht-degree: 89%
 
    +++사용 가능한 연산자 목록
 
-   | 연산자 | 용도 | 예제 |
+   | 연산자 | 용도 | 예 |
    |---|---|---|
    | 다음과 같음 | 두 번째 Value 열에 입력한 데이터와 동일한 결과를 반환합니다. | Last name (@lastName) equal to &#39;Jones&#39;를 사용하면 성이 Jones인 수신자만 반환합니다. |
    | 다음과 같지 않음 | 입력한 값과 동일하지 않은 모든 값을 반환합니다. | Language (@language) not equal to &#39;English&#39;. |

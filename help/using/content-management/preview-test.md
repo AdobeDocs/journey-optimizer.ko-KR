@@ -71,7 +71,7 @@ API 트리거 및 작업(예약된) 캠페인의 경우 [시뮬레이션 API](ht
 
 ## 반드시 알아야 할 사항
 
-* **필요한 권한** - **[!DNL Content Library Manager]** 제품 프로필에 **[!DNL Manage Simulate Content]** 권한이 포함되어 있어야 합니다. [자세히 알아보기](../administration/ootb-product-profiles.md#content-library-manager)
+* **필요한 권한** - **[!DNL Content Library Manager]** 제품 프로필에 **[!DNL Manage Simulate Content]** 권한이 포함되어 있어야 합니다. [자세히 알아보기](../administration/ootb-product-profiles.md#content-library-manager).
 
   증명을 보내려면 이메일과 연결된 특정 리소스(캠페인 또는 여정)에 대해 **승인 및 게시** 권한이 있어야 합니다. 또한 여정에서 증명을 보내려면 **여정 게시** 권한도 필요합니다. [권한에 대해 자세히 알아보십시오](../administration/ootb-permissions.md).
 

@@ -96,7 +96,7 @@ ht-degree: 10%
 
 개인화를 위해 데이터 세트의 데이터를 활용하려면 조회를 위해 데이터 세트를 활성화해야 합니다.
 
-### 사전 요구 사항 {#prerequisites-enable}
+### 전제 조건 {#prerequisites-enable}
 
 조회에 사용할 데이터 세트와 연결된 스키마는 레코드 유형이어야 합니다. 스키마는 프로필 또는 이벤트 클래스가 아니어야 합니다.
 
@@ -132,7 +132,7 @@ ht-degree: 10%
 
 [이 설명서](https://developer.adobe.com/journey-optimizer-apis/references/authentication)에 설명된 지침에 따라 API 명령을 보내도록 환경을 구성하십시오.
 
-#### 사전 요구 사항
+#### 전제 조건
 
 * 개발자 프로젝트에는 Adobe Journey Optimizer 및 Adobe Experience Platform API가 프로젝트에 추가되어 있어야 합니다.
 

@@ -218,7 +218,7 @@ ht-degree: 95%
 <p>Journey Optimizer에는 이제 이메일 렌더링 방식에 영향을 주지 않고 불필요한 공백, 주석 및 중복 코드를 제거하여 이메일의 HTML 크기를 줄이는 옵션이 포함되어 있습니다.</p>
 <p>이 옵션을 사용하면 일부 이메일 제공업체에서 메시지를 플래그 지정하거나 거부하는 데 사용하는 크기 임계값을 피하여 전달률을 높이고 수신자의 로드 시간을 단축할 수 있습니다.</p>
 <p><img src="assets/do-not-localize/email-size-optimization.gif"></p>
-<p>자세한 내용은 <a href="../email/create-email.md#optimize-html-size">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../email/create-email.md#optimize-html-size">세부 설명서</a>를 참조하세요.</p>
 <p>사용 가능한 날짜: 2026년 6월 26일</p>
 </td>
 </tr>
@@ -237,7 +237,7 @@ ht-degree: 95%
 <p>이제 이메일 콘텐츠에 사용되는 사용자 정의 가능한 조각에 서식 있는 텍스트를 추가할 수 있습니다.</p>
 <p>예를 들어 이메일 디자이너에서 텍스트 구성 요소를 편집 가능한 필드로 사용하는 경우 콘텐츠 서식(예: 굵게 및 기울임꼴)을 직접 지정하고 하이퍼링크를 삽입할 수 있습니다.</p>
 <p><img src="assets/do-not-localize/rich-text-editable-fields.gif"></p>
-<p>자세한 내용은 <a href="../content-management/customizable-fragments.md#rich-text-visual">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../content-management/customizable-fragments.md#rich-text-visual">세부 설명서</a>를 참조하세요.</p>
 <p>사용 가능한 날짜: 2026년 6월 19일</p>
 </td>
 </tr>
@@ -258,7 +258,7 @@ ht-degree: 95%
 <p>검사 결과는 작성 패널에 오류, 경고 또는 정보 알림으로 표시되며, 상황별 세부 정보와 가능한 경우 원클릭 수정 기능이 제공되므로 편집기를 종료하지 않고도 문제를 해결할 수 있습니다.</p>
 <p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
 <p><img src="assets/do-not-localize/content-check.gif"></p>
-<p>자세한 내용은 <a href="../email/content-check.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../email/content-check.md">세부 설명서</a>를 참조하세요.</p>
 <p>사용 가능한 날짜: 2026년 6월 18일</p>
 </td>
 </tr>
@@ -291,7 +291,7 @@ ht-degree: 95%
 <li>이제 Adobe Journey Optimizer에서 Adobe Experience Manager 콘텐츠에 액세스하는 방식을 유연하게 설정할 수 있습니다. 이번 릴리스에서는 여정과 캠페인에 사용되는 콘텐츠 조각의 <strong>소스 저장소를 전환</strong>할 수 있는 기능이 추가되었습니다.</li>
 <li>이제 <b>Managed Services</b>와 호환되므로 Journey Optimizer에서 Adobe Experience Manager 콘텐츠 조각을 직접 보고 액세스하고 사용하여 개인화할 수 있습니다. 구성 설정에서 Adobe Experience Manager Managed Services 저장소 URL을 한 번만 추가하면 됩니다.</li>
 </ul>
-<p>자세한 내용은 <a href="../integrations/aem-fragments-gs.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../integrations/aem-fragments-gs.md">세부 설명서</a>를 참조하세요.</p>
 <p>사용 가능한 날짜: 2026년 6월 18일</p>
 </td>
 </tr>

@@ -48,7 +48,7 @@ OLAC(객체 수준 액세스 제어) 기능을 사용하면 객체 선택에 대
 * IP 준비 계획
 
 
-## 사전 요구 사항 {#prereq-labels}
+## 전제 조건 {#prereq-labels}
 
 [레이블을 만들기](#create-labels)하려면 **[!UICONTROL 사용 레이블 관리]** 권한이 있는 역할에 속해야 합니다.
 

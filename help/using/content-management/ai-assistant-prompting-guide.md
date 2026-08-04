@@ -359,7 +359,7 @@ AI가 관련 콘텐츠를 생성할 수 있도록 항상 컨텍스트와 가치 
 <thead>
 <tr style="border: 0;background-color: #FFFFFF;">
 <th>채널</th>
-<th>예제</th>
+<th>예</th>
 </tr>
 </thead>
 <tbody>

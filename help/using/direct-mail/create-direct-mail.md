@@ -97,13 +97,13 @@ DM 메시지를 만들려면 예약된 캠페인이나 여정을 만들고 추�
 
 1. **[!UICONTROL 속성]** 섹션에서 Campaign의 **[!UICONTROL 제목]** 및 **[!UICONTROL 설명]**&#x200B;을(를) 편집합니다.
 
-1. 타겟 대상을 정의하려면 **[!UICONTROL 대상 선택]** 단추를 클릭하고 사용 가능한 Adobe Experience Platform 대상 중에서 선택합니다. [자세히 알아보기](../audience/about-audiences.md)
+1. 타겟 대상을 정의하려면 **[!UICONTROL 대상 선택]** 단추를 클릭하고 사용 가능한 Adobe Experience Platform 대상 중에서 선택합니다. [자세히 알아보기](../audience/about-audiences.md).
 
    >[!IMPORTANT]
    >
    >현재 대상자 선택은 300만 프로필로 제한됩니다. 이 제한은 Adobe 담당자에게 요청하면 해제할 수 있습니다.
 
-1. **[!UICONTROL ID 네임스페이스]** 필드에서 선택한 대상 내의 개인을 식별할 적절한 네임스페이스를 선택합니다. [자세히 알아보기](../event/about-creating.md#select-the-namespace)
+1. **[!UICONTROL ID 네임스페이스]** 필드에서 선택한 대상 내의 개인을 식별할 적절한 네임스페이스를 선택합니다. [자세히 알아보기](../event/about-creating.md#select-the-namespace).
 
 1. **[!UICONTROL 작업]** 섹션에서 **[!UICONTROL DM]**&#x200B;을(를) 선택하세요.
 

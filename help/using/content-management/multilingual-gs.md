@@ -56,7 +56,7 @@ Journey Optimizer을 사용하면 두 가지 서로 다른 방법을 통해 다�
 
 ![](assets/translation_schema.png)
 
-## 사전 요구 사항 {#prerequisites}
+## 전제 조건 {#prerequisites}
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_translation_error"

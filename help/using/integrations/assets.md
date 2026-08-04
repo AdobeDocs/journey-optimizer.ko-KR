@@ -62,7 +62,7 @@ Adobe Journey Optimizer 워크플로의 기존 **자산 선택기** 및 **콘텐
 
 계약에 따라 왼쪽 메뉴 **[!UICONTROL Assets]** 섹션을 통해 **[!DNL Adobe Journey Optimizer]**&#x200B;에서 직접 **[!DNL Adobe Experience Manager Assets Essentials]** 또는 **[!DNL Adobe Experience Manager Assets as a Cloud Service]**&#x200B;에 액세스할 수 있습니다. [전자 메일 콘텐츠를 디자인](../email/get-started-email-design.md)할 때 에셋 및 폴더에 액세스할 수도 있습니다.
 
-## 사전 요구 사항{#assets-prerequisites}
+## 전제 조건{#assets-prerequisites}
 
 >[!BEGINTABS]
 
@@ -113,7 +113,7 @@ Adobe Journey Optimizer 워크플로의 기존 **자산 선택기** 및 **콘텐
 
 1. 업로드할 파일을 선택합니다. 완료되면 **[!UICONTROL 업로드]**&#x200B;를 클릭합니다. 에셋 관리 방법에 대한 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=ko)를 참조하세요.
 
-1. Adobe Photoshop Express으로 에셋을 추가로 편집하려면 에셋을 더블 클릭합니다. 그런 다음 오른쪽 메뉴에서 **[!UICONTROL 편집 모드]** 아이콘을 선택합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html?lang=ko){target="_blank"}
+1. Adobe Photoshop Express으로 에셋을 추가로 편집하려면 에셋을 더블 클릭합니다. 그런 다음 오른쪽 메뉴에서 **[!UICONTROL 편집 모드]** 아이콘을 선택합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html?lang=ko){target="_blank"}.
 
    ![](assets/media_library_12.png)
 

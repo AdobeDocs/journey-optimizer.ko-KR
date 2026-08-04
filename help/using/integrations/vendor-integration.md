@@ -2220,7 +2220,7 @@ Meta Graph 및 Marketing API는 인증된 비즈니스 통합을 위해 카탈�
 | 매개 변수 | 이름 | 유형 | 값 | 필수 |
 | --- | --- | --- | --- | --- |
 | `fields` | `fields` | 변수 | ID | 아니오 |
-| `filter` | `filter` | 변수 | — | 아니오 |
+| `filter` | `filter` | 변수 | — | 아니요 |
 
 +++
 

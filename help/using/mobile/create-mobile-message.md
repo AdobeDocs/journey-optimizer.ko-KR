@@ -113,9 +113,9 @@ Adobe Journey Optimizer에서 텍스트(SMS), 풍부한 커뮤니케이션(RCS) 
 
 1. **[!UICONTROL 작업 추적]** 섹션에서 모바일 메시지의 링크 클릭을 추적할지 여부를 지정합니다.
 
-1. **[!UICONTROL 대상]** 탭에서 **[!UICONTROL 대상 선택]** 단추를 클릭하여 사용 가능한 Adobe Experience Platform 대상 목록에서 타깃팅할 대상을 정의합니다. [자세히 알아보기](../audience/about-audiences.md)
+1. **[!UICONTROL 대상]** 탭에서 **[!UICONTROL 대상 선택]** 단추를 클릭하여 사용 가능한 Adobe Experience Platform 대상 목록에서 타깃팅할 대상을 정의합니다. [자세히 알아보기](../audience/about-audiences.md).
 
-1. **[!UICONTROL ID 네임스페이스]** 필드에서 선택한 대상에서 개인을 식별하기 위해 사용할 네임스페이스를 선택합니다. [자세히 알아보기](../event/about-creating.md#select-the-namespace)
+1. **[!UICONTROL ID 네임스페이스]** 필드에서 선택한 대상에서 개인을 식별하기 위해 사용할 네임스페이스를 선택합니다. [자세히 알아보기](../event/about-creating.md#select-the-namespace).
 
 1. **[!UICONTROL 일정]** 탭에서 특정 날짜 또는 되풀이되는 빈도에 실행되도록 캠페인을 디자인할 수 있습니다. [이 섹션](../campaigns/campaign-schedule.md#action-campaign-schedule)에서 캠페인의 **[!UICONTROL 일정]**&#x200B;을 구성하는 방법을 알아보세요.
 

@@ -78,7 +78,7 @@ Adobe Journey Optimizer을 통해 SMS를 구매하는 경우 [SMS 사용 지표�
 
 이 단계는 Adobe Journey Optimizer [시스템 관리자](../start/path/administrator.md)가 수행해야 합니다.
 
-## 사전 요구 사항{#sms-prerequisites}
+## 전제 조건{#sms-prerequisites}
 
 Adobe Journey Optimizer은 현재 Adobe Journey Optimizer과 독립적으로 모바일 메시징 서비스를 제공하는 서드파티 공급자와 통합됩니다. 모바일 메시징 및 MMS에 대해 지원되는 공급자는 **Sinch**, **Twilio** 및 **Infobip**&#x200B;입니다. [사용자 지정 공급자 구성](mobile-configuration-custom.md)을 사용하여 추가 메시징 공급자를 구성할 수 있습니다.
 

@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 데이터 조작 및 개인화에 도우미 함수
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 집계 함수 라이브러리
 

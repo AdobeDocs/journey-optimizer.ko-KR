@@ -76,7 +76,7 @@ ht-degree: 94%
     + [여정 테스트](using/building-journeys/testing-the-journey.md)
     + [여정 시험 실행](using/building-journeys/journey-dry-run.md)
     + [여정 게시](using/building-journeys/publish-journey.md)
-    + [여정 일시 중단](using/building-journeys/journey-pause.md)
+    + [여정 일시 중지](using/building-journeys/journey-pause.md)
     + [여정의 라이브 보고서](using/building-journeys/report-journey.md)
   + 여정 관리 {#manage-journey}
     + [여정 관리](/help/rp_landing_pages/manage-journey-landing-page.md)

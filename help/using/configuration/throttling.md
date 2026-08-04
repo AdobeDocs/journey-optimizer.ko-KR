@@ -54,7 +54,7 @@ Throttling API는 초당 전송되는 이벤트 수를 제한하기 위해 제�
 
 아래 표에는 제한 API에 사용할 수 있는 명령이 나와 있습니다. 요청 샘플, 매개 변수 및 응답 형식을 포함한 자세한 정보는 [Adobe Journey Optimizer API 설명서](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling)에서 확인할 수 있습니다.
 
-| 방법 | 경로 | 설명 |
+| 메서드 | 경로 | 설명 |
 |---|---|---|
 | [!DNL POST] | list/throttlingConfigs | 스로틀링 구성 목록 가져오기 |
 | [!DNL POST] | /throttlingConfigs | 스로틀링 구성 만들기 |

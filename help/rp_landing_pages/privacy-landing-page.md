@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: 개인 정보 보호
+title: 개인 정보
 description: 개인 정보 보호
 redpen-status: CREATED_||_2025-08-11_21-20-29
 exl-id: d6c8e958-de3b-4aec-8b3b-8b0b3daa0098

@@ -52,7 +52,7 @@ JSON 파일을 기존 데이터 세트에 업로드할 수 있습니다. 자세�
 
 ➡️ [이 비디오에서 테스트 프로필을 만드는 방법을 알아보세요](#video)
 
-## 사전 요구 사항 {#test-profile-prerequisites}
+## 전제 조건 {#test-profile-prerequisites}
 
 프로필을 만들려면 먼저 Adobe [!DNL Journey Optimizer]에서 스키마와 데이터 세트를 만들어야 합니다.
 

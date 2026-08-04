@@ -46,7 +46,7 @@ ht-degree: 11%
 
 [!DNL Journey Optimizer]을(를) 사용하여 여정 및 캠페인에서 인앱 메시지를 보내려면 다음 구성 단계를 수행해야 합니다.
 
-1. 시작하기 전에 적절한 Journey Optimizer 캠페인 권한이 있는지 확인해야 합니다. 인앱 메시지를 여정에서만 사용하려는 경우에도 마찬가지입니다. 이 경우에도 Campaign 권한이 필요합니다. [자세히 알아보기](../campaigns/get-started-with-campaigns.md#prerequisites)
+1. 시작하기 전에 적절한 Journey Optimizer 캠페인 권한이 있는지 확인해야 합니다. 인앱 메시지를 여정에서만 사용하려는 경우에도 마찬가지입니다. 이 경우에도 Campaign 권한이 필요합니다. [자세히 알아보기](../campaigns/get-started-with-campaigns.md#prerequisites).
 1. Adobe Experience Platform 데이터 수집 데이터스트림에서 Adobe Journey Optimizer을 사용하도록 설정하고, 아래 [게재 필수 구성 요소](#delivery-prerequisites)에 설명된 대로 Adobe Experience Platform에서 기본 병합 정책을 확인하십시오.
 1. [이 섹션](#channel-prerequisites)에 자세히 설명된 대로 관리 > 채널 > 채널 구성에서 인앱 메시지 채널 구성을 만듭니다.
 1. 콘텐츠 실험을 사용하는 경우 [이 섹션](#experiment-prerequisite)에 나열된 요구 사항을 따라야 합니다.

@@ -47,7 +47,7 @@ ht-degree: 9%
 {%= profile.homeAddress.country = "France" and profile.person.birthYear = 1985 %}
 ```
 
-### Or{#or}
+### 또는{#or}
 
 `or` 함수는 논리 분리를 만드는 데 사용됩니다.
 

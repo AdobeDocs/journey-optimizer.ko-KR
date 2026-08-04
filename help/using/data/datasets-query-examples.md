@@ -202,7 +202,7 @@ ORDER BY timestamp DESC;
 
 여기서 날짜 형식은 `YYYY-MM-DD HH:MM:SS`입니다.
 
-식별되면 Journey Optimizer 제외 목록에서 해당 주소를 제거합니다. [자세히 알아보기](../configuration/manage-suppression-list.md#remove-from-suppression-list)
+식별되면 Journey Optimizer 제외 목록에서 해당 주소를 제거합니다. [자세히 알아보기](../configuration/manage-suppression-list.md#remove-from-suppression-list).
 
 >[!NOTE]
 >

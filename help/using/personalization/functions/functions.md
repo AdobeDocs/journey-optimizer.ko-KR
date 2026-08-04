@@ -542,7 +542,7 @@ ht-degree: 2%
         <td><a href="operators.md#and">And</a></td><td>이 연산자는 논리 결합을 생성합니다.</td>
     </tr>
     <tr>
-        <td><a href="operators.md#or">Or</a></td><td>이 연산자는 논리합을 생성합니다.</td>
+        <td><a href="operators.md#or">또는</a></td><td>이 연산자는 논리합을 생성합니다.</td>
     </tr>
 </table>
 

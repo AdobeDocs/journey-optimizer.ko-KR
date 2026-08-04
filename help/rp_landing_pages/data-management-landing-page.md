@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 고급 데이터 보존, 내보내기, 삭제 및 거
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 Adobe Journey Optimizer의 스키마 작업
 

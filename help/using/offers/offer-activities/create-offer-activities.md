@@ -139,13 +139,13 @@ ht-degree: 10%
 
    ![](../assets/activity_constraint-estimate.png)
 
-1. 각 프로필에 가장 적합한 오퍼를 선택하는 데 사용할 순위 방법을 정의합니다. [자세히 알아보기](../offer-activities/configure-offer-selection.md)
+1. 각 프로필에 가장 적합한 오퍼를 선택하는 데 사용할 순위 방법을 정의합니다. [자세히 알아보기](../offer-activities/configure-offer-selection.md).
 
    ![](../assets/activity_ranking-method.png)
 
    * 기본적으로 여러 오퍼가 이 배치에 적합한 경우 **[!UICONTROL 오퍼 우선 순위]** 메서드는 오퍼에 정의된 값을 사용합니다. 우선 순위 점수가 가장 높은 오퍼는 사용자에게 전달됩니다.
 
-   * 특정 계산된 점수를 사용하여 게재할 적격 오퍼를 선택하려면 **[!UICONTROL 공식]** 또는 **[!UICONTROL AI 모델]**&#x200B;을 선택하십시오. [자세히 알아보기](../offer-activities/configure-offer-selection.md)
+   * 특정 계산된 점수를 사용하여 게재할 적격 오퍼를 선택하려면 **[!UICONTROL 공식]** 또는 **[!UICONTROL AI 모델]**&#x200B;을 선택하십시오. [자세히 알아보기](../offer-activities/configure-offer-selection.md).
 
 1. 같은 배치에 대한 조건을 더 정의하려면 **[!UICONTROL 추가]**&#x200B;를 클릭하십시오.
 

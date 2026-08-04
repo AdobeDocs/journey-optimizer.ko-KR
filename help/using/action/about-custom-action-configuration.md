@@ -179,7 +179,7 @@ Journey Optimizer에서는 데이터 거버넌스 및 동의 정책을 사용자
 
 1. 필드의 레이블 또는 이름을 입력합니다.
 
-1. **[!UICONTROL 상수]** 또는 **[!UICONTROL 변수]** 형식을 선택하십시오. **[!UICONTROL 상수]**&#x200B;를 선택한 경우 **[!UICONTROL 값]** 필드에 상수 값을 입력하십시오. **[!UICONTROL 변수]**&#x200B;을(를) 선택한 경우 여정에 사용자 지정 작업을 추가할 때 이 변수를 지정합니다. [자세히 알아보기](../building-journeys/using-custom-actions.md)
+1. **[!UICONTROL 상수]** 또는 **[!UICONTROL 변수]** 형식을 선택하십시오. **[!UICONTROL 상수]**&#x200B;를 선택한 경우 **[!UICONTROL 값]** 필드에 상수 값을 입력하십시오. **[!UICONTROL 변수]**&#x200B;을(를) 선택한 경우 여정에 사용자 지정 작업을 추가할 때 이 변수를 지정합니다. [자세히 알아보기](../building-journeys/using-custom-actions.md).
 
    ![](assets/journeyurlconfiguration2.png)
 

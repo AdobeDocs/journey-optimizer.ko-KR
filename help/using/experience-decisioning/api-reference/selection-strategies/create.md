@@ -34,7 +34,7 @@ ht-degree: 6%
 POST /{ENDPOINT_PATH}/selection-strategies 
 ```
 
-| 매개 변수 | 설명 | 예 |
+| 매개변수 | 설명 | 예 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 지속성 API의 끝점 경로입니다. | `https://platform.adobe.io/data/core/dps` |
 

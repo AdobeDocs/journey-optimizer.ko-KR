@@ -76,7 +76,7 @@ ht-degree: 5%
 POST /{ENDPOINT_PATH}/decisions
 ```
 
-| 매개 변수 | 설명 | 예 |
+| 매개변수 | 설명 | 예 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 저장소 API의 끝점 경로입니다. | `https://platform.adobe.io/data/core/ods` |
 

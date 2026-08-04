@@ -235,12 +235,12 @@ ht-degree: 6%
         <th>트리거 규칙을 충족하는 방법</th>
     </tr>
     <tr>
-        <td>없음</td>
+        <td>None</td>
         <td><img src="assets/content-card-web-2.png"></td>
         <td>sendEvent 명령. 충족시킬 클라이언트측 규칙이 없습니다.</td>
     </tr>
     <tr>
-        <td>없음</td>
+        <td>None</td>
         <td><img src="assets/content-card-web-3.png"></td>
         <td>sendEvent 명령. 충족시킬 클라이언트측 규칙이 없습니다.</td>
     </tr>

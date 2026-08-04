@@ -61,7 +61,7 @@ Adobe Journey Optimizer은 두 가지 유형의 경고를 제공합니다.
 
 시스템 경고는 **[!UICONTROL 관리]**&#x200B;의 **[!UICONTROL 경고]** 메뉴에서 사용할 수 있습니다. Adobe Experience Platform은 여정 및 채널 구성에 대한 [!DNL Adobe Journey Optimizer]별 경고를 포함하여 활성화할 수 있는 사전 정의된 경고 규칙을 제공합니다.
 
-## 사전 요구 사항
+## 전제 조건
 
 경고 작업 전:
 

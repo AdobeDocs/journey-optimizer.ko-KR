@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 여정 일시 중단
+title: 여정 일시 중지
 description: 라이브 여정을 일시 중지하고 다시 시작하는 방법 알아보기
 feature: Journeys
 role: User
@@ -36,7 +36,7 @@ ht-degree: 4%
 
 ---
 
-# 여정 일시 중단 {#journey-pause}
+# 여정 일시 중지 {#journey-pause}
 
 >[!BEGINSHADEBOX]
 

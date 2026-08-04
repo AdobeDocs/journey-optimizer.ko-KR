@@ -18,7 +18,7 @@ Adobe Journey Optimizer 푸시 알림은 앱을 실제로 사용하지 않을 �
 
 >[!IMPORTANT]
 >
->[푸시 알림]을 처음 만드는 경우 [푸시] 채널 구성을 완료했는지 확인해야 합니다. [자세히 알아보기](../using/push/push-configuration.md)
+>[푸시 알림]을 처음 만드는 경우 [푸시] 채널 구성을 완료했는지 확인해야 합니다. [자세히 알아보기](../using/push/push-configuration.md).
 
 
 푸시 알림은 다음 방법으로 만들 수 있습니다.

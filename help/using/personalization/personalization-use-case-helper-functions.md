@@ -42,19 +42,19 @@ ht-degree: 1%
 
 다음 유형의 도우미 함수를 사용합니다.
 
-* 고객의 이름을 대문자로 삽입하는 `upperCase` 문자열 함수입니다. [자세히 알아보기](functions/string.md#upper)
-* `each` 도우미가 장바구니에 있는 항목을 나열합니다. [자세히 알아보기](functions/helpers.md#each)
-* 관련 제품이 장바구니에 있는 경우 제품별 메모를 삽입하려면 `if` 도우미를 사용하십시오. [자세히 알아보기](functions/helpers.md#if-function)
+* 고객의 이름을 대문자로 삽입하는 `upperCase` 문자열 함수입니다. [자세히 알아보기](functions/string.md#upper).
+* `each` 도우미가 장바구니에 있는 항목을 나열합니다. [자세히 알아보기](functions/helpers.md#each).
+* 관련 제품이 장바구니에 있는 경우 제품별 메모를 삽입하려면 `if` 도우미를 사용하십시오. [자세히 알아보기](functions/helpers.md#if-function).
 <!-- **Context**: personalization based on contextual data from the journey -->
 
 ➡️ [이 비디오에서 도우미 함수를 사용하는 방법에 대해 알아보세요](#video)
 
 시작하기 전에 다음 요소를 구성하는 방법을 알고 있어야 합니다.
 
-* 단일 이벤트입니다. [자세히 알아보기](../event/about-events.md)
-* 이벤트로 시작하는 여정. [자세히 알아보기](../building-journeys/using-the-journey-designer.md)
+* 단일 이벤트입니다. [자세히 알아보기](../event/about-events.md).
+* 이벤트로 시작하는 여정. [자세히 알아보기](../building-journeys/using-the-journey-designer.md).
 * 여정 내 이메일 메시지. [자세히 알아보기](../email/create-email.md)
-* 이메일의 본문. [자세히 알아보기](../email/content-from-scratch.md)
+* 이메일의 본문. [자세히 알아보기](../email/content-from-scratch.md).
 
 다음 단계를 수행하십시오.
 

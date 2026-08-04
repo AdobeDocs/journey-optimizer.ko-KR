@@ -171,7 +171,7 @@ Adobe 여정 Optimizer는 여정을 테스트하고 확인하는 두 가지 방�
 **[!UICONTROL 이벤트 트리거]** 단추를 사용하여 여정을 입력할 이벤트를 구성하십시오.
 
 
-### 사전 요구 사항 {#trigger-events-prerequisites}
+### 전제 조건 {#trigger-events-prerequisites}
 
 전제 조건으로 [!DNL Adobe Experience Platform]에서 테스트 프로필로 플래그가 지정된 프로필을 알아야 합니다. 실제로 테스트 모드에서는 여정의 이러한 프로필만 허용됩니다.
 

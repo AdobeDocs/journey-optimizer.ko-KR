@@ -43,7 +43,7 @@ LINE 메시지는 여정 또는 캠페인에서 만들고 보낼 수 있습니�
 
 * **캠페인**&#x200B;에서. 캠페인을 만들고 액션으로 LINE을 선택하고 기본 설정을 정의한 다음 메시지 콘텐츠를 편집하여 보낼 LINE 메시지를 정의합니다. [액션 캠페인](../campaigns/campaign-action.md#action-campaign-action) | [API 트리거 캠페인](../campaigns/api-triggered-campaigns.md) | [오케스트레이션된 캠페인](../orchestrated/create-orchestrated-campaign.md#create) 만드는 방법 알아보기
 
-LINE 메시지를 만들기 전에 Journey Optimizer에서 LINE 채널을 구성합니다. [자세히 알아보기](line-configuration.md)
+LINE 메시지를 만들기 전에 Journey Optimizer에서 LINE 채널을 구성합니다. [자세히 알아보기](line-configuration.md).
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

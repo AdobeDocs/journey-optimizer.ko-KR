@@ -53,7 +53,7 @@ ht-degree: 18%
 PATCH /{ENDPOINT_PATH}/offer-rules/{ID}
 ```
 
-| 매개 변수 | 설명 | 예 |
+| 매개변수 | 설명 | 예 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 지속성 API의 끝점 경로입니다. | `https://platform.adobe.io/data/core/dps/` |
 | `{ID}` | 업데이트하려는 엔티티의 ID입니다. | `offerRule1234` |
@@ -81,7 +81,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offer-rules/offerRule1234
 ]'
 ```
 
-| 매개 변수 | 설명 |
+| 매개변수 | 설명 |
 | --------- | ----------- |
 | `op` | 연결을 업데이트하는 데 필요한 작업을 정의하는 데 사용되는 작업 호출입니다. 작업은 `add`, `replace`, `remove`, `copy` 및 `test`입니다. |
 | `path` | 업데이트할 매개 변수의 경로입니다. |

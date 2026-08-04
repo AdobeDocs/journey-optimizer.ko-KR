@@ -135,7 +135,7 @@ ht-degree: 10%
 
 1. **태그** 필드에서 Adobe Experience Platform 태그를 선택하거나 만들어 템플릿을 분류합니다. [자세히 알아보기](../start/search-filter-categorize.md#tags)
 
-1. 사용자 지정 또는 핵심 데이터 사용 레이블을 템플릿에 할당하려면 **[!UICONTROL 액세스 관리]**&#x200B;를 선택합니다. [자세히 알아보기](../administration/object-based-access.md)
+1. 사용자 지정 또는 핵심 데이터 사용 레이블을 템플릿에 할당하려면 **[!UICONTROL 액세스 관리]**&#x200B;를 선택합니다. [자세히 알아보기](../administration/object-based-access.md).
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 

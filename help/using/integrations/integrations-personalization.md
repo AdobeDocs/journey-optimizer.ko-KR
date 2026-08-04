@@ -185,7 +185,7 @@ Target 배달 API가 `prefetch.mboxes` 배열을 반환합니다. 각 mbox에는
    {{valueAtPath targetResponse.prefetch.mboxes idx=0 result="summerOffer"}}
    ```
 
-   | 매개 변수 | 설명 |
+   | 매개변수 | 설명 |
    | --- | --- |
    | `path` | 배열 경로(위치, 키워드 없음) |
    | `idx` | 스토리지 액세스를 위한 0 기반 인덱스 (선택 사항) |
@@ -201,7 +201,7 @@ Target 배달 API가 `prefetch.mboxes` 배열을 반환합니다. 각 mbox에는
    {{parseJson jsonStr=summerOffer.options.content result="summerOfferContent"}}
    ```
 
-   | 매개 변수 | 설명 |
+   | 매개변수 | 설명 |
    | --- | --- |
    | `jsonStr` | 유효한 JSON이 포함된 문자열 필드의 경로 |
    | `result` | 구문 분석된 개체를 저장할 변수 이름 |

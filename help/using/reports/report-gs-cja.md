@@ -69,7 +69,7 @@ Journey Optimizer의 보고 기능은 Customer Journey Analytics 기능의 개�
 >
 >Adobe Journey Optimizer의 보고는 현재 UTC로 표준화되었습니다. 보고 시간대를 사용자 지정하는 기능은 향후 릴리스에 도입될 예정입니다.
 
-## 사전 요구 사항 {#prerequisites}
+## 전제 조건 {#prerequisites}
 
 * Customer Journey Analytics을 **not** 소유하거나 소유하고 있지만 **not**&#x200B;에서 Customer Journey Analytics 제품 프로필에 액세스할 수 있는 경우 Journey Optimizer에서 권한이 관리됩니다. 이 경우 **[!UICONTROL 채널 보고서 보기]** 권한 또는 관련 역할이 필요합니다. [자세히 알아보기](../administration/permissions.md)
 

@@ -63,7 +63,7 @@ ht-degree: 32%
 
 웹, 코드 기반 및 인앱 채널의 경우 데이터 수집을 위해 구성된 [데이터 세트](../data/get-started-datasets.md)도 이 보고 구성에 추가되었는지 확인해야 합니다. 그렇지 않으면 웹 및 인앱 데이터가 콘텐츠 실험 보고서에 표시되지 않습니다.
 
-## 사전 요구 사항
+## 전제 조건
 
 보고 구성에 데이터 세트를 추가하려면 먼저 해당 데이터 세트를 만들어야 합니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ko#create){target="_blank"}에서 방법을 알아보세요.
 

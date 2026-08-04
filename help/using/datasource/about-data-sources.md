@@ -125,8 +125,8 @@ Experience Platform 데이터 레이크의 데이터를 유지하지 않고 여�
 
 | | 데이터 레이크에서 지속되는 데이터 | 프로필에 대해 데이터 세트 활성화됨 |
 | --- | --- | --- |
-| **옵션 1** — 사용자 지정 작업을 통한 외부 데이터 | 아니요 | 아니오 |
-| **옵션 2** — 프로필에 대해 데이터 세트가 활성화되지 않음 | 예 | 아니오 |
+| **옵션 1** — 사용자 지정 작업을 통한 외부 데이터 | 아니요 | 아니요 |
+| **옵션 2** — 프로필에 대해 데이터 세트가 활성화되지 않음 | 예 | 아니요 |
 | **옵션 3** — 프로필 사용 데이터 세트 | 예 | 예 |
 
 Adobe Experience Platform 데이터 소스 및 외부 데이터 소스를 구성하는 방법, 그리고 여정에서 데이터를 찾아서 사용하는 방법과 관련된 자세한 내용을 확인하려면 이 [자습서 비디오](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html?lang=ko){target="_blank"}를 시청하십시오.
