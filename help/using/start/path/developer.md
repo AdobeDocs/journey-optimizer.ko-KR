@@ -6,27 +6,11 @@ role: Developer
 level: Intermediate
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
 TQID: https://experienceleague.adobe.com/7fRI-CPkIeBAPjtXmDgFdyNKgB4WwEc01yKrGUXnc3U
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: d08afb72-92f6-4856-88e3-11ec34313c2fid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e9001ce2-5245-4a8e-8601-dd958009072fid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: cf815079d67f4a41c3647c6a6e381ef5f1c44e51
 workflow-type: tm+mt
 source-wordcount: 3490
@@ -119,7 +103,7 @@ ht-degree: 53%
 
 1. **데이터 스트림 구성**: Journey Optimizer가 활성화된 [!DNL Adobe Experience Platform Data Collection]에서 데이터 스트림을 생성하고 구성합니다. 자세한 내용은 [데이터 스트림 문서](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=ko-KR){target="_blank"}에서 확인하세요.
 
-1. **웹 푸시 알림 활성화**(선택 사항): 이제 웹 푸시 알림이 니다. Web SDK 구성에서 [pushNotifications 속성](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/js/commands/configure/pushnotifications){target="_blank"}을 구성하고 [sendPushSubscription 명령](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/js/commands/sendpushsubscription){target="_blank"}을 사용하여 푸시 구독을 등록합니다. [웹 푸시 구성에 대해 알아봅니다](../../push/push-configuration-web.md).
+1. **웹 푸시 알림 활성화**(선택 사항): 이제 웹 푸시 알림이 니다. Web SDK 구성에서 [pushNotifications 속성](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/pushnotifications){target="_blank"}을 구성하고 [sendPushSubscription 명령](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/sendpushsubscription){target="_blank"}을 사용하여 푸시 구독을 등록합니다. [웹 푸시 구성에 대해 알아봅니다](../../push/push-configuration-web.md).
 
 ### 코드 기반 경험 구현(Web SDK)
 
@@ -223,7 +207,7 @@ Content-Type: application/json
 
 1. **의사 결정 마이그레이션 API**: 의사 결정 관리 엔터티를 프로그래밍 방식으로 유연한 범위, 자동 유효성 검사, 롤백 지원을 제공하는 의사 결정으로 마이그레이션합니다. 자세한 내용은 [의사 결정 마이그레이션 API 안내서](../../experience-decisioning/decisioning-migration-api.md)에서 확인하세요.
 
-1. **SMS Webhook**: 들어오는 메시지를 캡처하는 인바운드 Webhook과 게재 확인 및 상태 업데이트를 수신하는 피드백 Webhook을 구성합니다. [자세히 알아보기](../../mobile/mobile-webhook.md)
+1. **SMS Webhook**: 들어오는 메시지를 캡처하는 인바운드 Webhook과 게재 확인 및 상태 업데이트를 수신하는 피드백 Webhook을 구성합니다. [자세히 알아보기](../../mobile/mobile-webhook.md).
 
 ## 테스트 및 디버깅 {#testing}
 
