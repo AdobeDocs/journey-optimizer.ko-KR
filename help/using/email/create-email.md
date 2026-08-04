@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: 1d40250cb45a886f29b12dc5e0cb999cd652dc12
 workflow-type: tm+mt
 source-wordcount: 1901
-ht-degree: 15%
+ht-degree: 16%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 15%
 >id="ajo_message_email"
 >title="이메일 작성"
 >abstract="이메일 제목 줄을 정의하고 이메일 디자이너를 열어 이메일 콘텐츠를 만듭니다."
->additional-url="https://experienceleague.adobe.com/en/courses/ajo-ai-powered-on-brand-content-creation-for-marketers" text="AI 콘텐츠 교육 과정 수강"
+>additional-url="https://experienceleague.adobe.com/en/courses/ajo-ai-powered-on-brand-content-creation-for-marketers" text="AI 콘텐츠 과정 수강"
 
 
 ## 이메일 작업 추가 {#email-action}

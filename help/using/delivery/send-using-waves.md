@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: 예약된 일괄 처리, 일정, 여정, 캠페인, 오케스트레이션, 전달성
-source-git-commit: f81682509234666224d600dc4ccfb2f57783dc2d
+source-git-commit: d997e60a9a851d37796162ed531564514c26dea4
 workflow-type: tm+mt
-source-wordcount: '2070'
+source-wordcount: '2077'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** 아웃바운드 메시지 게재를 예약된 일괄 처리(예약된 일괄 처리)로 분할하여 로드 균형을 조정하고, 보낸 사람의 평판을 보호하고, 배달 가능성을 개선하는 방법에 대해 알아봅니다. 읽기 대상 여정, 작업 캠페인 및 조정된 캠페인에서 사용할 수 있습니다.
+**이 페이지에서:** 아웃바운드 메시지 게재를 예약된 일괄 처리(예약된 일괄 처리)로 분할하여 로드 밸런싱을 수행하고 보낸 사람의 평판을 보호하며 게재 능력을 향상시키는 방법을 알아봅니다. 대상자 읽기 여정, 작업 캠페인 및 오케스트레이션된 캠페인에서 웨이브 전송을 사용할 수 있습니다.
 
 >[!ENDSHADEBOX]
 
@@ -34,7 +34,7 @@ ht-degree: 1%
 
 ## 제한 사항 및 보호 기능 {#limitations-guardrails}
 
-다음 제한 사항은 모든 컨텍스트에 적용됩니다.
+다음 제한 사항은 모든 컨텍스트에서 웨이브 전송에 적용됩니다.
 
 * **2개 이상의 예약된 일괄 처리**&#x200B;를 정의해야 하며 최대 **10개의 예약된 일괄 처리**&#x200B;를 추가할 수 있습니다.
 * 두 예약된 일괄 처리 시작 사이의 최소 간격은 **30분**&#x200B;입니다.
@@ -58,14 +58,14 @@ ht-degree: 1%
 * 웨이브 전송은 **아웃바운드** 작업에만 적용됩니다(전자 메일, SMS, 푸시, DM).
 * 웨이브 시작은 캠페인 시작 이전일 수 없습니다.
 
+>[!ENDTABS]
+
 <!--
 >[!TAB Orchestrated campaigns]
 
 * Wave sending applies to **outbound** channel activities only (Email, SMS, Push, Direct mail).
 * Wave sending is configured at the **channel activity level**, independently for each channel activity in the campaign.
 -->
-
->[!ENDTABS]
 
 ## 웨이브 전송 구성 {#configure-wave-sending}
 
