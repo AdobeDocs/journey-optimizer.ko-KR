@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 오케스트레이션된 캠페인 활동을 통해 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 AND 조인 활동 사용
 

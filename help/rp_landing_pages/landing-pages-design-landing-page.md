@@ -20,7 +20,7 @@ Adobe Journey Optimizer에서 콘텐츠를 디자인하면 캠페인 목표에 �
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 Adobe Journey Optimizer에서 랜딩 페이지 디자인
 
