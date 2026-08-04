@@ -122,6 +122,6 @@ ht-degree: 5%
 
 +++비디오 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3479541?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3479548?captions=kor&quality=12&learn=on)
 
 +++

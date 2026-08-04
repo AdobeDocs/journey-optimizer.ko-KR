@@ -131,7 +131,7 @@ ht-degree: 1%
 
 아래 비디오에서는 여정의 컨텍스트 데이터를 활용하여 이메일을 개인화하는 유사한 사용 사례를 보여줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3425027?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3428531?captions=kor&quality=12)
 
 ## 빠른 참조 {#quick-reference}
 
