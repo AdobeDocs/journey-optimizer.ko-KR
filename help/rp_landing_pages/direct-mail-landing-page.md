@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: 다이렉트 메일
+title: DM
 description: 다이렉트 메일
 redpen-status: CREATED_||_2025-08-11_20-39-20
 exl-id: 024fd5b5-5707-47ad-b90f-26e0d62f2fd2

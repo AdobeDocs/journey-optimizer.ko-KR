@@ -6,12 +6,9 @@ description: 보강 활동을 사용하는 방법 알아보기
 exl-id: 8a0aeae8-f4f2-4f1d-9b89-28ce573fadfd
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/Q7lT1NR61ALn475i9akX7z80pybh93kbx06Gc8TcCuI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
 source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
 source-wordcount: 923
@@ -30,7 +27,7 @@ ht-degree: 59%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_enrichment"
 >title="보강 활동"
->abstract="**보강** 활동을 통해 데이터베이스의 추가 정보로 타기팅 데이터를 보강할 수 있습니다. 일반적으로 세분화 활동 이후에 워크플로에서 사용됩니다. 일반적으로 활동을 세분화한 후 캠페인에서 사용됩니다."
+>abstract="**보강** 활동을 통해 데이터베이스의 추가 정보로 타기팅 데이터를 보강할 수 있습니다. 일반적으로 활동을 세분화한 후 캠페인에서 사용됩니다."
 
 **[!UICONTROL 보강]** 활동은 추가 속성을 사용하여 대상자 데이터를 강화할 수 있는 **[!UICONTROL 타겟팅]** 활동입니다.
 

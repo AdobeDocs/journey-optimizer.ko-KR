@@ -10,21 +10,12 @@ level: Intermediate, Experienced
 keywords: 내장, 소스, 데이터, 플랫폼, 통합
 exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
 TQID: https://experienceleague.adobe.com/tvO8GjVADFHV1i6ff5krss2YyS-rtnQZ4BHcvvhG-t4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e366af78935405cd5acb15269194875098b20914
 workflow-type: tm+mt
 source-wordcount: 481
@@ -47,9 +38,9 @@ ht-degree: 25%
 
 Adobe Experience Platform 데이터 소스는 Adobe 실시간 고객 프로필에 대한 연결을 정의합니다. 이 기본 제공 데이터 소스는 미리 구성되어 삭제할 수 없습니다. 이 데이터 소스는 실시간 고객 프로필 서비스에서 데이터를 검색하고 사용하도록 설계되었습니다(예: 여정에 입력한 사람이 여성인지 확인). Adobe 실시간 고객 프로필에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target="_blank"}를 참조하세요.
 
-실시간 고객 프로필 서비스에 연결할 수 있도록 하려면 키를 사용하여 사용자를 식별하고 키를 컨텍스트화하는 네임스페이스를 사용해야 합니다. 따라서 여정이 키와 네임스페이스가 포함된 이벤트로 시작하는 경우에만 이 데이터 소스를 사용할 수 있습니다. [자세히 알아보기](../building-journeys/journey.md)
+실시간 고객 프로필 서비스에 연결할 수 있도록 하려면 키를 사용하여 사용자를 식별하고 키를 컨텍스트화하는 네임스페이스를 사용해야 합니다. 따라서 여정이 키와 네임스페이스가 포함된 이벤트로 시작하는 경우에만 이 데이터 소스를 사용할 수 있습니다. [자세히 알아보기](../building-journeys/journey.md).
 
-&quot;ProfileFieldGroup&quot;이라는 사전 구성된 필드 그룹을 편집하고, 새 필드 그룹을 추가하고, 초안 또는 라이브 여정에서 사용되지 않는 필드 그룹을 제거할 수 있습니다. [자세히 알아보기](../datasource/configure-data-sources.md#define-field-groups)
+&quot;ProfileFieldGroup&quot;이라는 사전 구성된 필드 그룹을 편집하고, 새 필드 그룹을 추가하고, 초안 또는 라이브 여정에서 사용되지 않는 필드 그룹을 제거할 수 있습니다. [자세히 알아보기](../datasource/configure-data-sources.md#define-field-groups).
 
 >[!CAUTION]
 >
@@ -71,7 +62,7 @@ Adobe Experience Platform 데이터 소스는 Adobe 실시간 고객 프로필�
 
    >[!NOTE]
    >
-   >[!DNL Journey Optimizer] Data Source 구성에서는 XDM 개별 프로필 기반 스키마만 지원됩니다. 자세한 내용은 [XDM 개별 프로필 클래스](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/classes/individual-profile){target="_blank"}를 참조하십시오.
+   >[!DNL Journey Optimizer] Data Source 구성에서는 XDM 개별 프로필 기반 스키마만 지원됩니다. 자세한 내용은 [XDM 개별 프로필 클래스](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/individual-profile){target="_blank"}를 참조하십시오.
 
 1. 사용할 필드를 선택하고 변경 사항을 저장합니다.
 

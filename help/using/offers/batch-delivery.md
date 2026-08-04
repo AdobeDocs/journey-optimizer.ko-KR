@@ -10,18 +10,11 @@ level: Intermediate
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/N679HgdAi1Y-T2B7EYQtZoutJ-UeigNFza9fycFKCdA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 884
@@ -43,13 +36,13 @@ Journey Optimizer을 사용하면 주어진 Adobe Experience Platform 대상의 
 
 API를 사용하여 일괄 게재를 수행할 수도 있습니다. 자세한 내용은 [Batch Decisioning API 설명서](api-reference/offer-delivery-api/batch-decisioning-api.md)를 참조하세요.
 
-## 사전 요구 사항 {#prerequisites}
+## 전제 조건 {#prerequisites}
 
 작업 요청을 구성하기 전에 다음을 생성했는지 확인하십시오.
 
 * Adobe Experience Platform의 **데이터 세트**. 이 데이터 세트는 &quot;ODE DecisionEvents&quot; 스키마를 사용하여 결정 결과를 저장하는 데 사용됩니다. 자세한 내용은 [데이터 세트 설명서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=ko)를 참조하세요.
 
-* Adobe Experience Platform의 **대상자** 대상자를 평가한 다음 업데이트해야 합니다. [세분화 서비스 설명서](https://www.adobe.com/go/segmentation-overview-en_kr)에서 대상 멤버십 평가를 업데이트하는 방법을 알아보세요
+* Adobe Experience Platform의 **대상자** 대상자를 평가한 다음 업데이트해야 합니다. [세분화 서비스 설명서](https://www.adobe.com/go/segmentation-overview-en)에서 대상 멤버십 평가를 업데이트하는 방법을 알아보세요
 
   >[!NOTE]
   >

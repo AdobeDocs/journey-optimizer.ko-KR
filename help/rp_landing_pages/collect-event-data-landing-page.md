@@ -45,7 +45,7 @@ Adobe Journey Optimizer에서 이벤트 데이터를 수집하면 의사 결정,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 의사 결정 관리를 위한 이벤트 데이터 캡처 구성
 

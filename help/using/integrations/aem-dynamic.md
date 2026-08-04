@@ -8,20 +8,12 @@ role: User
 level: Beginner
 exl-id: 3e777cc5-a935-4e68-9de7-60b241e78f63
 TQID: https://experienceleague.adobe.com/bgBuZlYcuJ1VpBZIlpGA4WIYZ6ufqNMnxlBoUvPpVqg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 0af0c5b08ba95c1cc664e63de17afe7e21abab07
 workflow-type: tm+mt
 source-wordcount: 1635
@@ -43,7 +35,7 @@ ht-degree: 5%
 
 이 통합은 Dynamic Media Manager as a Cloud Service을 사용하는 고객에게만 제공됩니다.
 
-Adobe Experience Manager as a Cloud Service의 Dynamic Media에 대한 자세한 내용은 [Experience Manager 설명서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media){target="_blank"}를 참조하세요.
+Adobe Experience Manager as a Cloud Service의 Dynamic Media에 대한 자세한 내용은 [Experience Manager 설명서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media){target="_blank"}를 참조하세요.
 
 >[!AVAILABILITY]
 >
@@ -51,13 +43,13 @@ Adobe Experience Manager as a Cloud Service의 Dynamic Media에 대한 자세한
 
 ## 고려 사항
 
-* Adobe Experience Manager as a Cloud Service에서 OpenAPI가 포함된 Dynamic Media가 활성화되어 있는지 확인합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview#enable-dynamic-media-open-apis){target="_blank"}
+* Adobe Experience Manager as a Cloud Service에서 OpenAPI가 포함된 Dynamic Media가 활성화되어 있는지 확인합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview#enable-dynamic-media-open-apis){target="_blank"}.
 
-* Adobe Journey Optimizer과 Dynamic Media 통합은 Dynamic Media [Scene7 모드](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"} 및 [OpenAPI를 통해](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}할 수 있습니다.
+* Adobe Journey Optimizer과 Dynamic Media 통합은 Dynamic Media [Scene7 모드](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"} 및 [OpenAPI를 통해](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}할 수 있습니다.
 
 * Dynamic Media Scene7 자산의 경우 Journey Optimizer은 URL의 시작 부분에 기본 수정자(`bfc=off&fmt=png-alpha`)를 추가합니다. 사전 설정에서 `fmt` 또는 `bfc`도 설정하는 경우 Scene7에서 반복된 매개 변수의 마지막 항목을 사용하므로 이 설정이 우선합니다. 예기치 않은 결과가 발생하지 않도록 하려면 사전 설정에서 `fmt`/`bfc`을(를) 제거하거나 URL의 기본 수정자 앞으로 이동하십시오.
 
-* 자산 선택기가 `/images` 기반 URL 형식을 반환합니다. GIF 또는 SVG과 같은 원래 형식의 자산을 전달하려면 대신 `/content` 경로를 사용하도록 URL을 수동으로 업데이트해야 합니다. 자세한 내용은 [Dynamic Media 모범 사례 설명서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dm-journey/dm-best-practices#deliver-gif-images){target="_blank"}를 참조하세요.
+* 자산 선택기가 `/images` 기반 URL 형식을 반환합니다. GIF 또는 SVG과 같은 원래 형식의 자산을 전달하려면 대신 `/content` 경로를 사용하도록 URL을 수동으로 업데이트해야 합니다. 자세한 내용은 [Dynamic Media 모범 사례 설명서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dm-journey/dm-best-practices#deliver-gif-images){target="_blank"}를 참조하세요.
 
 
 ## Dynamic Media 추가 및 관리 {#dynamic-media}
@@ -94,7 +86,7 @@ HTML 콘텐츠에 Adobe Experience Manager 에셋을 추가하려면 다음 단�
 
 1. 이미지 매개 변수(예: 높이, 너비, 회전, 뒤집기, 밝기, 색조 등) 조정 필요한 경우 에셋 요구 사항과 일치시킵니다.
 
-   URL에 추가할 수 있는 이미지 매개 변수의 전체 목록을 보려면 [Experience Manager 설명서](https://experienceleague.adobe.com/ko/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/c-command-reference){target="_blank"}를 참조하세요.
+   URL에 추가할 수 있는 이미지 매개 변수의 전체 목록을 보려면 [Experience Manager 설명서](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/c-command-reference){target="_blank"}를 참조하세요.
 
    ![](assets/dynamic-media-3.png)
 
@@ -112,7 +104,7 @@ HTML 콘텐츠에 Adobe Experience Manager 에셋을 추가하려면 다음 단�
 
 >[!AVAILABILITY]
 >
->**텍스트 오버레이 개인화**&#x200B;는 Dynamic Media [Scene7 모드](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"}에서만 사용할 수 있습니다. 의료 고객은 Scene7 모드에 액세스할 수 없으므로 콘텐츠는 이미지의 Journey Optimizer 바이너리 사본을 사용하여 렌더링됩니다. 예외는 Adobe 담당자에게 문의하십시오.
+>**텍스트 오버레이 개인화**&#x200B;는 Dynamic Media [Scene7 모드](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"}에서만 사용할 수 있습니다. 의료 고객은 Scene7 모드에 액세스할 수 없으므로 콘텐츠는 이미지의 Journey Optimizer 바이너리 사본을 사용하여 렌더링됩니다. 예외는 Adobe 담당자에게 문의하십시오.
 
 텍스트 오버레이를 개인화하려면 다음 단계를 수행합니다.
 
@@ -153,12 +145,12 @@ HTML 콘텐츠에 Adobe Experience Manager 에셋을 추가하려면 다음 단�
 
 Journey Optimizer에서 Dynamic Media 템플릿을 쉽게 추가하고 필요할 때마다 미디어 콘텐츠를 업데이트합니다. 이제 개인화 필드를 미디어에 통합하여 Journey Optimizer 내에서 보다 맞춤화되고 매력적인 콘텐츠를 만들 수 있습니다.
 
-[다이내믹 미디어 템플릿](https://experienceleague.adobe.com/ko/docs/dynamic-media-classic/using/template-basics/quick-start-template-basics){target="_blank"}에 대해 자세히 알아보세요.
+[다이내믹 미디어 템플릿](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/template-basics/quick-start-template-basics){target="_blank"}에 대해 자세히 알아보세요.
 
 
 >[!AVAILABILITY]
 >
->**Dynamic Media 템플릿**&#x200B;은(는) Dynamic Media [Scene7 모드](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/dynamic/config-dms7)에서만 사용할 수 있습니다. 의료 서비스 고객은 Scene7 모드에 액세스할 수 없으므로 콘텐츠가 렌더링되지 않습니다. 예외는 Experience Manager 지원 센터에 문의하십시오.
+>**Dynamic Media 템플릿**&#x200B;은(는) Dynamic Media [Scene7 모드](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7)에서만 사용할 수 있습니다. 의료 서비스 고객은 Scene7 모드에 액세스할 수 없으므로 콘텐츠가 렌더링되지 않습니다. 예외는 Experience Manager 지원 센터에 문의하십시오.
 
 
 ### 이미지 구성 요소 사용 {#image-component}
@@ -179,7 +171,7 @@ Journey Optimizer에서 Dynamic Media 템플릿을 쉽게 추가하고 필요할
 
 1. **이미지 설정**&#x200B;에서 Dynamic Media 템플릿의 매개 변수에 액세스하도록 이동합니다.
 
-   사용 가능한 필드는 Adobe Experience Manager에서 [템플릿 만들기](https://experienceleague.adobe.com/ko/docs/dynamic-media-classic/using/template-basics/creating-template-parameters#creating_template_parameters){target="_blank"} 중에 추가된 매개 변수에 따라 다릅니다.
+   사용 가능한 필드는 Adobe Experience Manager에서 [템플릿 만들기](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/template-basics/creating-template-parameters#creating_template_parameters){target="_blank"} 중에 추가된 매개 변수에 따라 다릅니다.
 
    ![](assets/dynamic-media-template-3.png)
 
@@ -280,5 +272,5 @@ Adobe Experience Manager Dynamic Media를 Adobe Journey Optimizer와 통합하�
 
 이 튜토리얼에서는 AJO 내에서 직접 이미지를 수정하고, HTML 모드를 사용하여 텍스트 오버레이를 추가하고, 초개인화를 위해 AEM에서 다이내믹 미디어 템플릿을 만들고, 다양한 대상자 세그먼트에 콘텐츠를 맞춤화하여 캠페인을 개인화하는 방법을 다룹니다. 이 통합으로 마케터가 애플리케이션 간 전환 없이 매력적이고 개인화된 캠페인을 효율적으로 만들 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3463789/?captions=kor&learn=on&enablevpops=&autoplay=true)
+>[!VIDEO](https://video.tv.adobe.com/v/3457695/?learn=on&enablevpops=&autoplay=true)
 

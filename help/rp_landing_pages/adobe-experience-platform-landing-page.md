@@ -40,7 +40,7 @@ Adobe Experience Platform 프로필 속성 및 데이터 세트에 액세스하�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 여정에서 Adobe Experience Platform 데이터 사용
 

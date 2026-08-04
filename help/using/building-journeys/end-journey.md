@@ -10,20 +10,12 @@ keywords: 재입력, 여정, 종료, 라이브, 중지
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/-mknoNfkNCnfnLD1UCiA6C88NjookKqGr5tQdJ-f3T4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: d7dd6f7f-9e2a-47ee-a2bc-b7b9caaefc1d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: d7dd6f7f-9e2a-47ee-a2bc-b7b9caaefc1d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 4d4656744a775cbe1ac5e7e6789ad98ef28cc219
 workflow-type: tm+mt
 source-wordcount: 2131
@@ -112,11 +104,11 @@ ht-degree: 1%
 
 | 여정 유형 | 반복? | 종료 날짜가 있습니까? | &quot;완료됨&quot;의 정의 |
 |--------------|------------|---------------|--------------------------|
-| 대상자 읽기 | 아니오 | 해당 사항 없음 | 예약된 실행 후 ~96시간(버퍼 자동 중지) |
+| 대상자 읽기 | 아니요 | 해당 사항 없음 | 예약된 실행 후 ~96시간(버퍼 자동 중지) |
 | 대상자 읽기 | 예 | 아니오 | 마지막 발생 시작 91일 후 |
 | 대상자 읽기 | 예 | 예 | 종료 날짜에 도달하면 |
 | 이벤트 트리거된 여정 | 해당 사항 없음 | 예 | 종료 날짜에 도달하면 |
-| 이벤트 트리거된 여정 | 해당 사항 없음 | 아니오 | UI에서 또는 API를 통해 닫힌 경우 |
+| 이벤트 트리거된 여정 | 해당 사항 없음 | 아니요 | UI에서 또는 API를 통해 닫힌 경우 |
 
 ### 새 등록 마감 {#close-to-new-entrances}
 

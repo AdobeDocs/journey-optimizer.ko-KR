@@ -29,7 +29,7 @@ ht-degree: 2%
 
 1. 특히 [필수 구성 요소](web-prerequisites.md)를 살펴보십시오.
    * [!DNL Adobe Experience Cloud Visual Editing Helper]을(를) 설정합니다.
-   * [데이터스트림](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=ko){target="_blank"}에서 [!DNL Adobe Journey Optimizer]을(를) 사용하도록 설정합니다.
+   * [데이터스트림](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"}에서 [!DNL Adobe Journey Optimizer]을(를) 사용하도록 설정합니다.
    * [!UICONTROL Active-On-Edge 병합 정책] 옵션을 사용하도록 설정합니다.
 
 1. 이벤트에 `renderDecisions` 옵션을 추가합니다. 웹 페이지 표면에 전달된 Journey Optimizer 컨텐츠 제안을 자동으로 렌더링하려면 `renderDecisions`을(를) `true`(으)로 설정하십시오.
@@ -41,7 +41,7 @@ ht-degree: 2%
    })
    ```
 
-1. 이벤트에서 추가 서피스를 지정합니다(선택 사항). 기본적으로 웹 SDK은 현재 웹 페이지에 대한 웹 표면을 자동으로 생성하고 Edge Network에 대한 요청에 포함합니다. 필요한 경우 `sendEvent` 명령의 `personalization.surfaces` 옵션이나 Web SDK 확장의 해당 **[!UICONTROL 표면]** [[!UICONTROL 이벤트 보내기] 작업](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/action-types.html?lang=ko#send-event){target="_blank"} 구성에서 이를 지정하여 요청에 추가 표면을 포함할 수 있습니다.
+1. 이벤트에서 추가 서피스를 지정합니다(선택 사항). 기본적으로 웹 SDK은 현재 웹 페이지에 대한 웹 표면을 자동으로 생성하고 Edge Network에 대한 요청에 포함합니다. 필요한 경우 `sendEvent` 명령의 `personalization.surfaces` 옵션이나 Web SDK 확장의 해당 **[!UICONTROL 표면]** [[!UICONTROL 이벤트 보내기] 작업](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/action-types.html#send-event){target="_blank"} 구성에서 이를 지정하여 요청에 추가 표면을 포함할 수 있습니다.
 
    ```javascript
    alloy("sendEvent", {
@@ -79,11 +79,11 @@ ht-degree: 2%
    }
    ```
 
-1. 다른 개인화 기능과 마찬가지로 경험을 가져오는 동안 페이지에서 특정 부분만 숨기도록 **[코드 조각 사전 숨김](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/manage-flicker.html?lang=ko){target="_blank"}**&#x200B;을 추가할 수 있습니다.
+1. 다른 개인화 기능과 마찬가지로 경험을 가져오는 동안 페이지에서 특정 부분만 숨기도록 **[코드 조각 사전 숨김](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/manage-flicker.html){target="_blank"}**&#x200B;을 추가할 수 있습니다.
 
 ## 개인화된 콘텐츠 렌더링 {#rendering-personalized-content}
 
-개인화된 콘텐츠를 렌더링하는 방법에 대한 자세한 내용은 [Adobe Experience Platform Web SDK 설명서](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/rendering-personalization-content.html?lang=ko){target="_blank"}를 참조하세요.
+개인화된 콘텐츠를 렌더링하는 방법에 대한 자세한 내용은 [Adobe Experience Platform Web SDK 설명서](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/rendering-personalization-content.html){target="_blank"}를 참조하세요.
 
 웹 표면에 대한 Adobe Journey Optimizer 제안은 `__view__` 결정 범위 제안과 유사한 방식으로 처리됩니다. 특히 `sendEvent` 명령에서 `renderDecisions` 옵션이 `true`(으)로 설정되면 이러한 옵션은 웹 SDK에서 자동으로 렌더링됩니다.
 
@@ -124,6 +124,6 @@ ht-degree: 2%
 
 ## 디버깅 {#debugging}
 
-Adobe Journey Optimizer 개인화 구현을 디버깅하려면 [웹 SDK 디버깅](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/debugging.html?lang=ko){target="_blank"}을 사용하십시오. [[!DNL Adobe Experience Platform Assurance]](https://developer.adobe.com/client-sdks/documentation/platform-assurance/)을(를) 사용하여 문제를 해결할 때 [!DNL Adobe Journey Optimizer] 디버그 추적을 사용할 수 있습니다. `AJO:` 접두사가 있는 이벤트를 확인합니다.
+Adobe Journey Optimizer 개인화 구현을 디버깅하려면 [웹 SDK 디버깅](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/debugging.html){target="_blank"}을 사용하십시오. [[!DNL Adobe Experience Platform Assurance]](https://developer.adobe.com/client-sdks/documentation/platform-assurance/)을(를) 사용하여 문제를 해결할 때 [!DNL Adobe Journey Optimizer] 디버그 추적을 사용할 수 있습니다. `AJO:` 접두사가 있는 이벤트를 확인합니다.
 
 ![assurance-ajo-trace](assets/assurance-ajo-trace.png)

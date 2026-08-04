@@ -8,15 +8,10 @@ level: Experienced
 exl-id: 060f8c5f-4750-44dc-83aa-630afbc180eb
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/zQ3pwcP7MPdwGKxOLwKfkBo54zW0HkNqTts179HRfnQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 128
@@ -36,7 +31,7 @@ PATCH 요청을 오퍼 라이브러리 API로 만들어 선택 전략을 수정�
 PATCH /{ENDPOINT_PATH}/selection-strategies/{ID}
 ```
 
-| 매개 변수 | 설명 | 예 |
+| 매개변수 | 설명 | 예 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 지속성 API의 끝점 경로입니다. | `https://platform.adobe.io/data/core/dps` |
 | `{ID}` | 업데이트하려는 엔티티의 ID입니다. | `selectionStrategy1234` |
@@ -64,7 +59,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/selection-strategies/sele
 ]'
 ```
 
-| 매개 변수 | 설명 |
+| 매개변수 | 설명 |
 | --------- | ----------- |
 | `value` | 매개 변수를 업데이트할 새 값입니다. |
 | `path` | 업데이트할 매개 변수의 경로입니다. |

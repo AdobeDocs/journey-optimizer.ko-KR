@@ -20,7 +20,7 @@ Adobe Journey Optimizer에서 첫 번째 오케스트레이션된 캠페인을 �
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 오케스트레이션된 캠페인 생성 단계별 가이드
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 첫 번째 오케스트레이션된 캠페인을 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 오케스트레이션된 캠페인 생성 및 예약
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 첫 번째 오케스트레이션된 캠페인을 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 캠페인 활동 오케스트레이션
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer에서 첫 번째 오케스트레이션된 캠페인을 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 캠페인 시작 및 모니터링
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer에서 첫 번째 오케스트레이션된 캠페인을 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 오케스트레이션된 캠페인 보고
 

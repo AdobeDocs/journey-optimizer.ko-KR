@@ -6,8 +6,7 @@ role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
 feature_v2: []
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
 source-git-commit: 4c109a6021d46ee7290f09d9333892b42b5af3e2
 workflow-type: tm+mt
 source-wordcount: 637
@@ -71,7 +70,7 @@ API 트리거 및 작업(예약된) 캠페인의 경우 [시뮬레이션 API](ht
 
 ## 반드시 알아야 할 사항
 
-* **필요한 권한** - **[!DNL Content Library Manager]** 제품 프로필에 **[!DNL Manage Simulate Content]** 권한이 포함되어 있어야 합니다. [자세히 알아보기](../administration/ootb-product-profiles.md#content-library-manager)
+* **필요한 권한** - **[!DNL Content Library Manager]** 제품 프로필에 **[!DNL Manage Simulate Content]** 권한이 포함되어 있어야 합니다. [자세히 알아보기](../administration/ootb-product-profiles.md#content-library-manager).
 
   증명을 보내려면 이메일과 연결된 특정 리소스(캠페인 또는 여정)에 대해 **승인 및 게시** 권한이 있어야 합니다. 또한 여정에서 증명을 보내려면 **여정 게시** 권한도 필요합니다. [권한에 대해 자세히 알아보십시오](../administration/ootb-permissions.md).
 
@@ -83,4 +82,4 @@ API 트리거 및 작업(예약된) 캠페인의 경우 [시뮬레이션 API](ht
 
 테스트 프로필을 사용하여 받은 편지함 간에 이메일 렌더링을 테스트하고, 테스트 프로필로 개인화된 이메일을 미리 보고, 증명을 보내는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430340?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425026?quality=12)

@@ -11,20 +11,12 @@ level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/mCe101lMG7wraD7IN-dge7-hSlJ6AAob6QmL-ThjdsY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 842
@@ -90,7 +82,7 @@ ht-degree: 20%
    >
    >시작/종료 날짜를 업데이트하면 캡핑에 영향을 줄 수 있습니다. [자세히 알아보기](add-constraints.md#capping-change-date)
 
-1. 하나 또는 여러 개의 기존 **[!UICONTROL 컬렉션 한정자]**&#x200B;를 오퍼에 연결하여 오퍼 라이브러리를 보다 쉽게 검색하고 구성할 수 있습니다. [자세히 알아보기](creating-tags.md)
+1. 하나 또는 여러 개의 기존 **[!UICONTROL 컬렉션 한정자]**&#x200B;를 오퍼에 연결하여 오퍼 라이브러리를 보다 쉽게 검색하고 구성할 수 있습니다. [자세히 알아보기](creating-tags.md).
 
 1. **[!UICONTROL 오퍼 특성]** 섹션에서 보고 및 분석을 위해 키-값 쌍을 오퍼와 연결할 수 있습니다.
 
@@ -191,4 +183,4 @@ ht-degree: 20%
 
 ## 튜토리얼 비디오 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341358?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)

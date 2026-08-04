@@ -70,7 +70,7 @@ Adobe Journey Optimizer의 액션 캠페인에서는 프로모션, 업데이트 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
 
 캠페인 대상자 정의
 

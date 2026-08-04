@@ -362,9 +362,9 @@ ht-degree: 12%
 
 **충성도 과제 설정** - 새 충성도 과제를 만들고 구성합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3496476?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496471?quality=12)
 
 **보상 구성** - 보상 전달 및 이행 설정
 
->[!VIDEO](https://video.tv.adobe.com/v/3496486?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496481?quality=12)
 

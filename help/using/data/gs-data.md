@@ -8,26 +8,12 @@ role: Developer, Admin, User
 level: Beginner, Intermediate
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
 TQID: https://experienceleague.adobe.com/Dq8mzkfuxvcoAPI1vjq9lFHjz4Z5j9s42-kfMy59PeI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
-subfeature_v2:
-  - id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371
-  - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
-  - id: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
+subfeature_v2: id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371id: d6e5c7fd-c1d6-4137-98cd-138ccde6752fid: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: d095671a-1355-40aa-8b5f-06c33c68080bid: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 79b0c44fffb4297a9a5675200f086c5de544ec88
 workflow-type: tm+mt
 source-wordcount: 2696
@@ -155,7 +141,7 @@ ID는 쿠키 ID, 디바이스 ID, 이메일 주소 또는 CRM ID 등 개별 고�
 **XDM 개인 프로필** 스키마를 만들어 이름 및 연락처 정보, 환경 설정 및 관심 분야, 라이프사이클 단계 또는 동의 상태와 같은 고객 속성을 캡처합니다. **XDM ExperienceEvent** 스키마를 만들어 웹 및 앱 이벤트, 구매, 오프라인 상호 작용과 같은 동작 및 트랜잭션 데이터를 캡처합니다. 적절한 경우 올바른 필드를 ID 및 프로필 속성으로 표시합니다.
 
 ➡️ [스키마에 대해 자세히 알아보기](get-started-schemas.md)\
-➡️ [프로필 활성화 계획](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}
+➡️ [프로필 활성화 계획](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}
 
 +++
 
@@ -164,8 +150,8 @@ ID는 쿠키 ID, 디바이스 ID, 이메일 주소 또는 CRM ID 등 개별 고�
 Adobe Experience Platform에서 XDM 스키마를 기반으로 데이터 세트를 만들고 실시간 고객 프로필에 기여해야 하는 모든 데이터 세트에서 프로필을 활성화합니다. Journey Optimizer에서 만든 시스템 생성 데이터 세트가 데이터 세트 작업 영역에 표시되는지 확인합니다.
 
 ➡️ [데이터 세트에 대해 자세히 알아보기](get-started-datasets.md)\
-➡️ [프로필 활성화 계획](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}\
-➡️ [프로필 사용 스키마 관리](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
+➡️ [프로필 활성화 계획](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}\
+➡️ [프로필 사용 스키마 관리](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
 
 +++
 
@@ -175,7 +161,7 @@ Adobe Analytics, Adobe Experience Platform Web SDK, CRM / POS 플랫폼 같은 �
 
 ➡️ [소스 커넥터에 대해 자세히 알아보기](../start/get-started-sources.md)
 
-➡️ [튜토리얼: 데이터 세트 만들기 &#x200B;](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data){target="_blank"}
+➡️ [튜토리얼: 데이터 세트 만들기 ](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data){target="_blank"}
 
 +++
 
@@ -186,7 +172,7 @@ Adobe Analytics, Adobe Experience Platform Web SDK, CRM / POS 플랫폼 같은 �
 Journey Optimizer에는 실시간 고객 프로필 속성에 직접 액세스할 수 있는 기본 제공 [Adobe Experience Platform 데이터 소스](../datasource/adobe-experience-platform-data-source.md)가 포함되어 있습니다. 개인화를 위한 프로필 속성 읽기 또는 동의 및 환경 설정 필드 확인과 같은 대부분의 사용 사례에 적용됩니다. [외부 데이터 소스](../datasource/external-data-sources.md)를 구성해 여정 런타임 시 서드파티 API를 호출할 수도 있습니다. 예를 들어, 실시간 충성도 점수, 제품 추천 또는 Adobe Experience Platform에 저장되지 않은 스토어 재고 수량을 검색할 수 있습니다.
 
 >[!NOTE]
->기본 제공 Adobe Experience Platform 데이터 소스를 통해 경험 이벤트 데이터에 직접 액세스하는 방법은 사용 중지 예정이며 점진적으로 비활성화되고 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/journey-use-cases/exp-event-lookup){target="_blank"}
+>기본 제공 Adobe Experience Platform 데이터 소스를 통해 경험 이벤트 데이터에 직접 액세스하는 방법은 사용 중지 예정이며 점진적으로 비활성화되고 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/journey-use-cases/exp-event-lookup){target="_blank"}.
 
 데이터 소스 구성은 여정 작성자 및 마케터가 전체 데이터 레이어를 활용할 수 있도록 하는 관리 작업입니다. 필드가 데이터 소스를 통해 노출되면 바로 여정 조건 빌더, 메시지 개인화 편집기, 오퍼 결정 규칙에 필드를 사용할 수 있으며, 데이터 소스 작성 시 추가 엔지니어링 작업이 필요하지 않습니다.
 
@@ -245,7 +231,7 @@ Journey Optimizer는 추적, 피드백, 여정 단계 이벤트를 위해 몇 �
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **Get started with schemas**
 
@@ -255,7 +241,7 @@ Adobe Experience Platform에서 XDM 스키마를 만들고 올바른 클래스 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **데이터 세트 작업**
 
@@ -265,7 +251,7 @@ Adobe Experience Platform에서 XDM 스키마를 만들고 올바른 클래스 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **데이터 소스 구성**
 
@@ -275,7 +261,7 @@ Adobe Experience Platform에서 XDM 스키마를 만들고 올바른 클래스 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Adobe Experience Platform 데이터 사용()**
 
@@ -285,7 +271,7 @@ AEP 데이터 세트의 참조 또는 트랜잭션 데이터를 실시간 고객
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **쿼리 시작**
 
@@ -295,7 +281,7 @@ AEP 데이터 세트의 참조 또는 트랜잭션 데이터를 실시간 고객
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **프로필 시작**
 
@@ -305,7 +291,7 @@ Journey Optimizer에서 실시간 고객 프로필이 작동하는 방식과 Pla
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **데이터 설정 개요 튜토리얼**
 
@@ -315,7 +301,7 @@ Journey Optimizer에서 데이터 설정을 시작하는 초보자를 위한 비
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **데이터 세트 생성 및 데이터 수집 튜토리얼**
 

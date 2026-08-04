@@ -6,10 +6,8 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
 source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
 source-wordcount: 2758
@@ -542,7 +540,7 @@ ht-degree: 2%
         <td><a href="operators.md#and">And</a></td><td>이 연산자는 논리 결합을 생성합니다.</td>
     </tr>
     <tr>
-        <td><a href="operators.md#or">Or</a></td><td>이 연산자는 논리합을 생성합니다.</td>
+        <td><a href="operators.md#or">또는</a></td><td>이 연산자는 논리합을 생성합니다.</td>
     </tr>
 </table>
 
@@ -590,4 +588,4 @@ ht-degree: 2%
 
 개인화 도우미 기능을 사용하여 개인화 값을 변형하는 방법을 알아보고 도우미 기능의 다양한 사용 사례를 이해합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416646?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

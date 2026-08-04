@@ -9,19 +9,12 @@ role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
 TQID: https://experienceleague.adobe.com/YOE-hCnG978CvBHe2WeFekMjx4oBlsv4hBbSVaUjgWA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
 source-wordcount: 2178
@@ -219,7 +212,7 @@ iOS의 경우 알림 범주 식별자가 지정됩니다. 표시할 버튼과 �
 
 푸시 알림에 대해 **[!UICONTROL 고급 옵션]**&#x200B;을 구성할 수 있습니다. 사용 가능한 매개 변수는 다음과 같습니다.
 
-| 매개 변수 | 설명 |
+| 매개변수 | 설명 |
 |---------|---------|
 | **[!UICONTROL 축소 가능]**(iOS/Android) | 축소 가능한 메시지는 오래된 경우 새 메시지로 대체될 수 있는 메시지입니다. 축소 가능한 메시지의 일반적인 사용 사례는 모바일 앱에 서버의 데이터를 동기화하도록 알리는 데 사용되는 메시지입니다. 예를 들어 사용자를 최신 점수로 업데이트하는 스포츠 앱이 있습니다. 가장 최근 메시지만 관련성이 있습니다. 반면 축소 불가능한 메시지는 클라이언트 앱에 중요하며 전달되어야 합니다. |
 | **[!UICONTROL 사용자 지정 사운드]**(iOS/Android) | 알림을 수신할 때 이동 단말기에서 재생될 사운드. 앱에서 사운드를 번들로 제공해야 합니다. |

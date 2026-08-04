@@ -11,19 +11,11 @@ level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/TMWU9R07fDaJpqQHKLt2yOFAdu8dlJhtqXIgv7e8oaU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-subfeature_v2:
-  - id: d1823595-9241-4128-8a33-e4ac3bf08773
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+subfeature_v2: id: d1823595-9241-4128-8a33-e4ac3bf08773id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 432
@@ -75,7 +67,7 @@ Adobe Experience Platform에서 사용할 수 있는 데이터를 기반으로 �
 
    >[!NOTE]
    >
-   >의사 결정 규칙을 만들기 위해 제공된 세그먼트 빌더는 **[!UICONTROL 세그먼테이션]** 서비스에 사용되는 것과 비교하여 몇 가지 특성을 제공합니다. 그러나 [세그먼트 빌더](../../audience/creating-a-segment-definition.md) 설명서에 설명된 전역 프로세스는 오퍼 결정 규칙을 작성하는 데 여전히 유효합니다. [Adobe Experience Platform Segmentation Service 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ko)에서 자세히 알아보세요.
+   >의사 결정 규칙을 만들기 위해 제공된 세그먼트 빌더는 **[!UICONTROL 세그먼테이션]** 서비스에 사용되는 것과 비교하여 몇 가지 특성을 제공합니다. 그러나 [세그먼트 빌더](../../audience/creating-a-segment-definition.md) 설명서에 설명된 전역 프로세스는 오퍼 결정 규칙을 작성하는 데 여전히 유효합니다. [Adobe Experience Platform Segmentation Service 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html)에서 자세히 알아보세요.
 
 1. 작업 영역에서 새 필드를 추가하고 구성할 때 **[!UICONTROL 대상 속성]** 창에 대상에 속하는 예상 프로필에 대한 정보가 표시됩니다. 데이터를 업데이트하려면 **[!UICONTROL 예상 새로 고침]**&#x200B;을 클릭하세요.
 
@@ -93,8 +85,8 @@ Adobe Experience Platform에서 사용할 수 있는 데이터를 기반으로 �
 
 >[!CAUTION]
 >
->이벤트 기반 오퍼는 현재 [!DNL Journey Optimizer]에서 지원되지 않습니다. [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ko#events){target="_blank"}을(를) 기반으로 의사 결정 규칙을 만드는 경우 오퍼에서 이를 활용할 수 없습니다.
+>이벤트 기반 오퍼는 현재 [!DNL Journey Optimizer]에서 지원되지 않습니다. [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}을(를) 기반으로 의사 결정 규칙을 만드는 경우 오퍼에서 이를 활용할 수 없습니다.
 
 ## 튜토리얼 비디오 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341375?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329373?quality=12)

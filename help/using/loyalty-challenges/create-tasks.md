@@ -170,5 +170,5 @@ Journey Optimizer에서 항목 및 그룹을 선택할 수 있을 뿐만 아니�
 
 이 단계별 자습서를 사용하여 작업을 만들고 구성하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3496447?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496442?quality=12)
 

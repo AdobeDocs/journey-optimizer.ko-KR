@@ -6,17 +6,10 @@ description: 오케스트레이션된 캠페인 보호 및 제한 사항에 대�
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ViPJaOPo-AT-naQqq-PaPw-BI5YupYuYAEy56AUEp2A
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2:
-  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12bid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
 source-git-commit: b364e9038ac9dc2de884c32bc39d4cb20e8bd90a
 workflow-type: tm+mt
 source-wordcount: 763
@@ -50,7 +43,7 @@ ht-degree: 2%
 
 * **스키마당 특성** - 관리 용이성과 성능을 유지하려면 스키마당 평균 특성 수가 50열을 초과할 수 없습니다.
 
-* **프로필 사용** - Adobe Experience Platform 프로필에 대해 관계형 스키마를 사용할 수 없습니다. Adobe Experience Platform 프로필에는 표준 XDM 스키마만 지원됩니다. 오케스트레이션된 캠페인 또는 작업 캠페인에 대해 관계형 스키마를 활성화할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
+* **프로필 사용** - Adobe Experience Platform 프로필에 대해 관계형 스키마를 사용할 수 없습니다. Adobe Experience Platform 프로필에는 표준 XDM 스키마만 지원됩니다. 오케스트레이션된 캠페인 또는 작업 캠페인에 대해 관계형 스키마를 활성화할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
 
 ### 데이터 수집 {#data-ingestion}
 

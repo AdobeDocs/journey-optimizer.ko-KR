@@ -30,7 +30,7 @@ Adobe Journey Optimizer 결정 기능의 기본 사항에 대해 알아봅니다
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 가드레일 및 제한 사항
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 결정 기능을 효과적으로 사용하기 위�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
 
 자주 묻는 질문
 

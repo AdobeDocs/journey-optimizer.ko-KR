@@ -6,13 +6,10 @@ description: 오케스트레이션된 캠페인에 대한 규칙을 만드는 �
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/0uQ81kuezTaU4m83ZP6OiKFpM66ngzHqVKaGQqiFzNE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: 
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
 source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
 source-wordcount: 1947
@@ -69,7 +66,7 @@ ht-degree: 89%
 
    조건을 더 빨리 만들려면 값을 선택하고 **[!UICONTROL 특성 및 값 선택]**&#x200B;을 클릭하여 현재 조건에서 특성 및 값을 채웁니다.
 
-   표현식 편집기 아이콘![&#128279;](assets/do-not-localize/activity-copy.svg)을 보여 주는 이미지를 사용하여 클립보드에 값을 복사할 수도 있습니다. 예를 들어 표현식 편집기에 붙여 넣을 수 있습니다.
+   표현식 편집기 아이콘](assets/do-not-localize/activity-copy.svg)을 보여 주는 ![이미지를 사용하여 클립보드에 값을 복사할 수도 있습니다. 예를 들어 표현식 편집기에 붙여 넣을 수 있습니다.
 
    ![값 분포 인터페이스를 보여 주는 이미지](assets/rule-builder-distribution-values.png)
 
@@ -95,7 +92,7 @@ ht-degree: 89%
 
    +++사용 가능한 연산자 목록
 
-   | 연산자 | 용도 | 예제 |
+   | 연산자 | 용도 | 예 |
    |---|---|---|
    | 다음과 같음 | 두 번째 Value 열에 입력한 데이터와 동일한 결과를 반환합니다. | Last name (@lastName) equal to &#39;Jones&#39;를 사용하면 성이 Jones인 수신자만 반환합니다. |
    | 다음과 같지 않음 | 입력한 값과 동일하지 않은 모든 값을 반환합니다. | Language (@language) not equal to &#39;English&#39;. |

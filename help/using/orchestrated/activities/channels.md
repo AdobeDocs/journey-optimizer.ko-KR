@@ -6,15 +6,10 @@ description: 여러 단계로 구성된 캠페인에 채널 활동을 추가하�
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ouwufvPEUXGewSP5TvsfI0qPxpVqaqso3me4qEc2WQM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 94ca2d9458152fb471e9590d053c4729a4a5134f
 workflow-type: tm+mt
 source-wordcount: 1972
@@ -47,8 +42,8 @@ ht-degree: 42%
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_target"
->title="Target"
->abstract="**[!UICONTROL 대상]** 섹션은 이 채널 활동에 대한 게재 대상을 설정합니다. **[!UICONTROL 대상 차원]**&#x200B;을 사용하여 이 전송에 적용할 대상 차원을 선택하십시오. 그런 다음 **[!UICONTROL 프로필당 메시지 1개]**&#x200B;를 선택하여 사용자당 메시지 1개를 전송하거나, **[!UICONTROL 보조 차원당 메시지 1개]**&#x200B;를 선택하여 적격 보조 차원당 메시지 1개를 전송할 수 있습니다. 예를 들어, 동일한 여행객에 대해 조건에 맞는 비행편이 여러 개 있는 경우 비행편당 이메일 1개를 전송할 수 있습니다."
+>title="대상"
+>abstract="**[!UICONTROL 대상]** 섹션은 이 채널 활동에 대한 게재 대상을 설정합니다. **[!UICONTROL 대상 차원]**&#x200B;을 사용하여 이 전송에 적용할 대상 차원을 선택하십시오. 그런 다음 **[!UICONTROL 프로필당 메시지 1개]**&#x200B;를 선택하여 1인당 메시지 1개를 전송하거나, **[!UICONTROL 보조 차원당 메시지 1개]**&#x200B;를 선택하여 조건에 부합하는 보조 차원당 메시지 1개를 전송할 수 있습니다. 예를 들어, 동일한 여행자가 여러 개의 해당 항공편을 예약한 경우 항공편당 이메일 1개를 전송할 수 있습니다."
 
 <!--
 UNUSED IDs in BJ
@@ -124,7 +119,7 @@ UNUSED IDs in BJ
 
 | | 마케팅 | 트랜잭션 |
 | --- | --- | --- |
-| **옵트인 필요** | 예 | 아니오 |
+| **옵트인 필요** | 예 | 아니요 |
 | **비즈니스 규칙** | 적용됨(빈도 제한, 피로도 규칙) | 무시됨 |
 | **채널 구성 유형** | 마케팅 채널 구성 | 트랜잭션 채널 구성 |
 | **일반적인 사용 사례** | 프로모션, 뉴스레터, 시즌 캠페인 | 주문 확인, 암호 재설정, 중단 경고 |
@@ -168,7 +163,7 @@ UNUSED IDs in BJ
 
 +++**빠른 전송 모드를 사용**(푸시)합니다.
 
-빠른 전송 모드는 캠페인을 통해 대량으로 매우 빠른 푸시 메시지를 전송할 수 있는 [!DNL Journey Optimizer] 추가 기능입니다. 신속한 전달은 메시지 전달 지연이 비즈니스에 중요한 경우 사용됩니다. 예를 들어 뉴스 채널 앱을 설치한 사용자에게 속보 등 휴대폰에 긴급 푸시 알림을 전송하려는 경우가 있습니다. 푸시 알림에 대해 빠른 전송 모드를 사용하는 방법을 알아봅니다. [&#x200B; 이 페이지](../../push/create-push.md#rapid-delivery).
+빠른 전송 모드는 캠페인을 통해 대량으로 매우 빠른 푸시 메시지를 전송할 수 있는 [!DNL Journey Optimizer] 추가 기능입니다. 신속한 전달은 메시지 전달 지연이 비즈니스에 중요한 경우 사용됩니다. 예를 들어 뉴스 채널 앱을 설치한 사용자에게 속보 등 휴대폰에 긴급 푸시 알림을 전송하려는 경우가 있습니다. 푸시 알림에 대해 빠른 전송 모드를 사용하는 방법을 알아봅니다. [ 이 페이지](../../push/create-push.md#rapid-delivery).
 
 빠른 전송 모드를 사용할 때의 성능에 대한 자세한 내용은 [Adobe Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}을 참조하세요.
 

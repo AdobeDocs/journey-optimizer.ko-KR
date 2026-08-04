@@ -8,12 +8,8 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 65ca94cf-8e17-4a25-90f3-238083f81477
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: 7e84f06def3d352eb2ecf0b26d89402297e6236e
 workflow-type: tm+mt
 source-wordcount: 10054
@@ -218,7 +214,7 @@ ht-degree: 95%
 <p>Journey Optimizer에는 이제 이메일 렌더링 방식에 영향을 주지 않고 불필요한 공백, 주석 및 중복 코드를 제거하여 이메일의 HTML 크기를 줄이는 옵션이 포함되어 있습니다.</p>
 <p>이 옵션을 사용하면 일부 이메일 제공업체에서 메시지를 플래그 지정하거나 거부하는 데 사용하는 크기 임계값을 피하여 전달률을 높이고 수신자의 로드 시간을 단축할 수 있습니다.</p>
 <p><img src="assets/do-not-localize/email-size-optimization.gif"></p>
-<p>자세한 내용은 <a href="../email/create-email.md#optimize-html-size">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../email/create-email.md#optimize-html-size">세부 설명서</a>를 참조하세요.</p>
 <p>사용 가능한 날짜: 2026년 6월 26일</p>
 </td>
 </tr>
@@ -237,7 +233,7 @@ ht-degree: 95%
 <p>이제 이메일 콘텐츠에 사용되는 사용자 정의 가능한 조각에 서식 있는 텍스트를 추가할 수 있습니다.</p>
 <p>예를 들어 이메일 디자이너에서 텍스트 구성 요소를 편집 가능한 필드로 사용하는 경우 콘텐츠 서식(예: 굵게 및 기울임꼴)을 직접 지정하고 하이퍼링크를 삽입할 수 있습니다.</p>
 <p><img src="assets/do-not-localize/rich-text-editable-fields.gif"></p>
-<p>자세한 내용은 <a href="../content-management/customizable-fragments.md#rich-text-visual">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../content-management/customizable-fragments.md#rich-text-visual">세부 설명서</a>를 참조하세요.</p>
 <p>사용 가능한 날짜: 2026년 6월 19일</p>
 </td>
 </tr>
@@ -258,7 +254,7 @@ ht-degree: 95%
 <p>검사 결과는 작성 패널에 오류, 경고 또는 정보 알림으로 표시되며, 상황별 세부 정보와 가능한 경우 원클릭 수정 기능이 제공되므로 편집기를 종료하지 않고도 문제를 해결할 수 있습니다.</p>
 <p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
 <p><img src="assets/do-not-localize/content-check.gif"></p>
-<p>자세한 내용은 <a href="../email/content-check.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../email/content-check.md">세부 설명서</a>를 참조하세요.</p>
 <p>사용 가능한 날짜: 2026년 6월 18일</p>
 </td>
 </tr>
@@ -291,7 +287,7 @@ ht-degree: 95%
 <li>이제 Adobe Journey Optimizer에서 Adobe Experience Manager 콘텐츠에 액세스하는 방식을 유연하게 설정할 수 있습니다. 이번 릴리스에서는 여정과 캠페인에 사용되는 콘텐츠 조각의 <strong>소스 저장소를 전환</strong>할 수 있는 기능이 추가되었습니다.</li>
 <li>이제 <b>Managed Services</b>와 호환되므로 Journey Optimizer에서 Adobe Experience Manager 콘텐츠 조각을 직접 보고 액세스하고 사용하여 개인화할 수 있습니다. 구성 설정에서 Adobe Experience Manager Managed Services 저장소 URL을 한 번만 추가하면 됩니다.</li>
 </ul>
-<p>자세한 내용은 <a href="../integrations/aem-fragments-gs.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../integrations/aem-fragments-gs.md">세부 설명서</a>를 참조하세요.</p>
 <p>사용 가능한 날짜: 2026년 6월 18일</p>
 </td>
 </tr>
@@ -1079,7 +1075,7 @@ The following orchestrated campaign capability is expected in the upcoming days 
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 **출시일**: 2026년 3월 24~25일
@@ -1833,7 +1829,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 
 * **AI 어시스턴트 콘텐츠 품질 검사** - 이제 브랜드 일관성 외에도 전체 <strong>콘텐츠 품질</strong>을 평가하여 브랜드 가이드라인과 별개로 <strong>가독성</strong>, 일치도, 효과성 관련 잠재적인 문제를 찾을 수 있습니다. 이 자동화된 검사는 명확하지 않은 메시지, 일관되지 않은 톤 또는 구조적으로 빠진 부분을 식별하는 데 도움이 됩니다. [자세히 보기](../content-management/brands-score.md#validate-quality).
 
-  [비디오에서 이 기능을 살펴보십시오](https://video.tv.adobe.com/v/3470553/?captions=kor&learn=on).
+  [비디오에서 이 기능을 살펴보십시오](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### 여정
 

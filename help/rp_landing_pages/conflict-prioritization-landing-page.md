@@ -41,7 +41,7 @@ Adobe Journey Optimizer의 충돌 관리 및 우선순위 지정은 고객 피�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 캠페인에 우선순위 점수 할당
 

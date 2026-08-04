@@ -60,7 +60,7 @@ Adobe Analytics 데이터를 통합하여 여정을 자동화하고 개인화된
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 비즈니스 이벤트 구성
 

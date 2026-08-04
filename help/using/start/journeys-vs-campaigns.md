@@ -10,22 +10,12 @@ level: Beginner
 keywords: 여정, 캠페인, 비교, 선택, 결정, 워크플로우, 실시간, 일괄 처리, 오케스트레이션, 여러 단계, 예약됨, API 트리거, 이벤트 기반
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
 TQID: https://experienceleague.adobe.com/RWLVSULVO0idnCs5OVQR1yVvNv1G0JwP3y-3sNXQg50
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: addf009e-030a-4310-8534-776a3e62ed48
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: addf009e-030a-4310-8534-776a3e62ed48id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
 workflow-type: tm+mt
 source-wordcount: 2515
@@ -124,7 +114,7 @@ ht-degree: 2%
 | 모든 고객에 대한 프로모션 공지 | 액션 캠페인 | 일회성 메시지, 즉시 게재 |
 | 비헤이비어에 따라 비활성 사용자 재참여 | 여정 | 대상 자격, 개인화된 경로에 의해 트리거됨 |
 | 비즈니스 이벤트에 의해 트리거된 플래시 판매 | 여정(비즈니스 이벤트) | 여러 고객에게 영향을 주는 실시간 트리거 |
-| API 트리거 트랜잭션 메시지(단일 전송) | API로 트리거되는 캠페인 | 외부 시스템 트리거, 즉각적인 일회성 게재 |
+| API 트리거 트랜잭션 메시지(단일 전송) | API-트리거된 캠페인 | 외부 시스템 트리거, 즉각적인 일회성 게재 |
 | API 트리거된 여러 단계 흐름 | 여정(단일 이벤트) | 외부 시스템은 API를 통해 단일 이벤트를 전송하고, 여정은 후속 단계를 조정합니다 |
 | 다중 엔티티 데이터가 포함된 복잡한 일괄 처리 워크플로 | 오케스트레이션된 캠페인 | [오케스트레이션된 캠페인 시작](../orchestrated/gs-orchestrated-campaigns.md)을 참조하세요. |
 
@@ -214,7 +204,7 @@ Monday 9 AM → Send newsletter to 100,000 subscribers → All receive simultane
 | 웹 | ✅ | ✅ | ❌ |
 | 코드 기반 | ✅ | ✅ | ❌ |
 | 콘텐츠 카드 | ✅ | ✅ | ❌ |
-| 다이렉트 메일 | ✅ | ✅ | ❌ |
+| DM | ✅ | ✅ | ❌ |
 | LINE | ✅ | ✅ | ✅ |
 | WhatsApp | ✅ | ✅ | ✅ |
 
