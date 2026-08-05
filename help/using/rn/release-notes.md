@@ -8,25 +8,13 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 9569590b3fef6450142e382324b7d0b7a5f8ad2d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 0ebc8a412a74f4099840da6f6be57c0c4a0e3257
 workflow-type: tm+mt
 source-wordcount: 3121
 ht-degree: 19%
@@ -47,6 +35,29 @@ ht-degree: 19%
 >[!NOTE]
 >
 >이 릴리스 정보에 나열된 기능에는 각 변경 사항이 사용자 환경에서 사용 가능해지는 시점을 나타내는 **사용 가능한 날짜**&#x200B;가 포함되어 있습니다. **곧 출시 예정** 아코디언 항목은 향후 며칠 또는 몇 주 내에 제공될 예정입니다. 이 섹션의 정보는 변경될 수 있습니다.
+
+## 2026년 8월 업데이트 {#aug-26-updates}
+
+### 콘텐츠 관리
+
+<table>
+<thead>
+<tr>
+<th><strong>AI 콘텐츠 생성을 위한 유연한 이미지 소싱</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 Journey Optimizer에서 콘텐츠를 생성하면 Adobe Experience Manager Assets Essentials 등에서 브랜드로 승인된 이미지가 직접 소싱됩니다. 균형을 제어하는 모드는 밸런스(Digital Asset Management-first, AI가 격차를 채우는 방식, 기본값), Assets(Digital Asset Management-sourced), Creative(AI)의 세 가지 모드입니다.</p>
+<p><img src="../content-management/assets/image-mode-3.png"></p>
+<p>자세한 내용은 <a href="../content-management/generative-uc.md#image-mode">세부 설명서</a>를 참조하세요.</p>
+<p> 사용 가능한 날짜: 2026년 8월 5일</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 ## 2026년 7월 릴리스 정보 {#july-26-updates}
 
@@ -353,12 +364,6 @@ Journey Optimizer에서는 이 릴리스의 새로운 기능인 충성도 문제
 * **다국어 개선** - 이제 언어 설정을 기존 활성 설정에서 복제할 수 있으므로 더 이상 구성을 완전히 다시 빌드하여 변경할 필요가 없습니다. 언어 설정을 작성하는 동안 한 로케일에서 다른 로케일로 조건을 복사할 수도 있으므로 여러 언어를 사용하는 사이트에 대한 설정을 간소화할 수 있습니다.
 
   사용 가능한 날짜: 2026년 7월 30일
-
-+++ 곧 출시 예정
-
-* **AI 콘텐츠 생성을 위한 유연한 이미지 소싱** - 이제 Journey Optimizer에서 콘텐츠를 생성하면 Adobe Experience Manager Assets Essentials 등에서 브랜드로 승인된 이미지를 직접 소싱합니다. 균형을 제어하는 모드는 Assets(Digital Asset Management-sourced, default), Balanced(Digital Asset Management-first, AI 채우기) 및 Creative(AI-first)입니다. 이렇게 하면 여정 및 캠페인에 대해 정확하고 브랜드 규정을 준수하며 프로덕션에 바로 사용할 수 있습니다.
-
-+++
 
 ### 콘텐츠 및 통합 {#july-26-integration}
 
