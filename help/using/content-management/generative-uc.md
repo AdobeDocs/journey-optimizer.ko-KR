@@ -27,9 +27,9 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
+source-git-commit: 6fd0d8eae9973715bef07b40939a8bd5e71655ad
 workflow-type: tm+mt
-source-wordcount: 1317
+source-wordcount: 1621
 ht-degree: 0%
 
 ---
@@ -257,6 +257,41 @@ ht-degree: 0%
 
 1. 텍스트 오버레이가 올바르게 표시되면 **[!UICONTROL 저장]**&#x200B;을 클릭한 다음 사용할 변형에서 **[!UICONTROL 적용]**&#x200B;을 클릭합니다.
 
+## 이미지 설정 모드 사용 {#image-mode}
 
+>[!CONTEXTUALHELP]
+>id="ajo_assets_selection_mode"
+>title="Assets 선택 모드"
+>abstract="[!UICONTROL Assets 모드] 설정은 시각적 자산의 원본을 제어합니다. 이미지를 DAM(디지털 에셋 관리) 라이브러리에서 직접 검색할지 또는 AI 생성 콘텐츠를 사용하여 동적으로 생성할지를 정의할 수 있습니다."
 
+**[!UICONTROL 이미지 설정]** 아래의 **[!UICONTROL 모드]** 옵션은 Digital Asset Management 라이브러리에서 이미지가 생성되는 방식과 생성된 콘텐츠를 제어합니다.
 
+1. 캠페인을 설정한 후 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 선택하세요.
+
+1. **[!UICONTROL 콘텐츠 생성]** 섹션을 엽니다.
+
+1. **[!UICONTROL Prompt]** 상자에서 요청을 지정하여 콘텐츠를 조정하고 필요에 따라 설정을 사용자 지정합니다.
+
+1. **[!UICONTROL 이미지 설정]** 메뉴에서 **[!UICONTROL 모드]**&#x200B;를 선택하십시오.
+
+   * **[!UICONTROL 균형]**(기본값): AI가 먼저 Digital Asset Management 라이브러리의 일치하는 이미지를 사용합니다. 그것이 필요한 비주얼을 커버하기에 충분하지 않을 때, 그것은 AI로 이미지를 생성합니다.
+     이를 사용하려면 DAM의 이미지 사용 을 활성화한 다음 디지털 자산 관리 라이브러리에서 폴더를 선택하여 DAM 경로를 설정합니다.
+   * **[!UICONTROL DAM]**(디지털 자산 관리): AI가 디지털 자산 관리 라이브러리에서 일치하는 이미지를 찾아 생성된 콘텐츠의 일부로 사용합니다. 일치하는 항목이 없으면 생성하기 전에 참조 컨텐츠 또는 이미지를 수동으로 추가하십시오.
+     DAM 경로를 설정하려면 디지털 자산 관리 라이브러리에서 폴더를 선택하십시오.
+   * **[!UICONTROL Creative]**: AI는 생성 AI로 이미지를 만들고 Digital Asset Management 라이브러리에서 직접 이미지를 가져오지 않습니다.
+
+   ![](assets/image-mode-3.png)
+
+1. **[!UICONTROL 생성]**&#x200B;을 클릭하고 **[!UICONTROL 변형 제안]**&#x200B;을 찾아 원하는 에셋을 찾습니다.
+
+1. 선택한 변형의 전체 화면 버전을 보려면 **[!UICONTROL 미리 보기]**&#x200B;를 클릭하십시오.
+
+1. 라이브러리에서 이미지가 오는 경우 **[!UICONTROL 이미지 옵션]**&#x200B;을 클릭하여 다른 관련 에셋을 찾아봅니다.
+
+   ![](assets/image-mode-1.png)
+
+1. 자산을 변경하려면 **[!UICONTROL 적용]**&#x200B;을 클릭하십시오.
+
+1. AI가 Digital Asset Management 라이브러리에서 일치하는 이미지를 찾지 못하는 경우 변형에 자리 표시자 이미지가 표시됩니다. 참조 콘텐츠를 추가하거나 이미지를 수동으로 업로드한 다음 다시 생성합니다.
+
+   ![](assets/image-mode-2.png)

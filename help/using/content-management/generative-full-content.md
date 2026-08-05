@@ -25,10 +25,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-source-git-commit: 65edc88e0e2d1a2d18fde19b089893e430bd17dd
+source-git-commit: cbc84d724fd35457ace4662fe8b91490a1404255
 workflow-type: tm+mt
-source-wordcount: 2007
-ht-degree: 2%
+source-wordcount: 2112
+ht-degree: 3%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->이 기능의 사용을 시작하기 전에 관련 [보호 기능 및 제한 사항](gs-generative.md#generative-guardrails)을 읽어 보십시오.
+>이 기능을 사용하기 전에 관련 [보호 및 제한 사항](gs-generative.md#generative-guardrails)을 읽어보십시오.
 ></br>
 >
 >Journey Optimizer에서 콘텐츠 생성을 사용하려면 [사용자 동의](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
@@ -76,7 +76,7 @@ AI를 사용하여 이메일, 웹, 랜딩 페이지 및 푸시 알림 채널 전
 
    프롬프트 작성에 도움이 필요한 경우 캠페인을 개선하기 위한 다양한 프롬프트 아이디어를 제공하는 **[!UICONTROL 프롬프트 라이브러리]**&#x200B;에 액세스하십시오. [프롬프트 모범 사례에 대해 자세히 알아보기](ai-assistant-prompting-guide.md)
 
-   ![프롬프트 라이브러리 단추가 있는 프롬프트 필드](assets/full-email-2-bis.png){zoomable="yes"}
+   ![프롬프트 라이브러리 단추가 있는 프롬프트 필드](assets/full-email-2.png){zoomable="yes"}
 
 1. **전자 메일**&#x200B;의 경우 **[!UICONTROL 제목 줄]** 및 **[!UICONTROL 사전 머리글]** 옵션을 전환하여 변형 생성에 포함할 수 있습니다.
 
@@ -90,6 +90,10 @@ AI를 사용하여 이메일, 웹, 랜딩 페이지 및 푸시 알림 채널 전
 
 1. **[!UICONTROL 이미지 설정]** 선택:
 
+   * **[!UICONTROL 모드]**: Digital Asset Management 라이브러리 및 참조 콘텐츠에서 이미지를 가져오는 방법. [자세히 알아보기](generative-uc.md#image-mode)
+     * **[!UICONTROL Assets]**: Digital Asset Management에서 일치하는 이미지를 참조 콘텐츠로 사용하고 그렇지 않으면 참조 콘텐츠를 수동으로 추가합니다.
+     * **[!UICONTROL 균형]**: 먼저 콘텐츠를 참조한 다음 필요한 경우 AI를 참조합니다.
+     * **[!UICONTROL Creative]**: Digital Asset Management에 직접 의존하지 않는 생성 AI.
    * **[!UICONTROL 생성 모델]**: 사용 가능한 기본 제공 모델, 브랜드 자산에 대해 교육된 사용자 지정 Firefly 모델 또는 타사 이미지 생성 공급자 중에서 선택하여 특정 요구 사항과 브랜드 요구 사항에 맞는 이미지를 만듭니다. [자세히 알아보기](generative-models.md). 이미지에 **텍스트 오버레이**&#x200B;가 있는 **Gemini**&#x200B;의 경우 [텍스트 오버레이 이미지에 대한 생성 모델로 Gemini 사용](generative-uc.md#generative-gemini)을 참조하십시오.
    * **[!UICONTROL 콘텐츠 형식]**: 이 옵션은 시각적 요소의 특성을 분류하여 사진, 그래픽 또는 미술과 같은 시각적 표현의 다른 형식을 구분합니다.
    * **[!UICONTROL 시각적 강도]**: 이미지의 강도를 조정하여 이미지의 영향을 제어할 수 있습니다. 낮은 설정 (2)는 부드럽고 절제된 모양을 만들고, 높은 설정 (10)은 이미지를 더 생동감 있고 시각적으로 강력하게 만듭니다.
@@ -133,7 +137,7 @@ AI를 사용하여 이메일, 웹, 랜딩 페이지 및 푸시 알림 채널 전
 
    * **[!UICONTROL 통신 전략 변경]**: 긴급성을 만들거나 흥미로운 어필을 강조하는 등 목표에 따라 메시징 접근 방식을 수정합니다.
 
-     ![옵션을 표시하는 메뉴 세분화](assets/full-email-5-bis.png){zoomable="yes"}
+     ![옵션을 표시하는 메뉴 세분화](assets/full-email-5.png){zoomable="yes"}
 
 1. **[!UICONTROL 브랜드 정렬]** 탭을 열어 콘텐츠가 [브랜드 지침](brands.md)에 어떻게 적합한지 확인합니다.
 
@@ -193,6 +197,10 @@ AI를 사용하여 이메일, 웹, 랜딩 페이지 및 푸시 알림 채널 전
 
 1. **[!UICONTROL 이미지 설정]** 선택:
 
+   * **[!UICONTROL 모드]**: Digital Asset Management 라이브러리 및 참조 콘텐츠에서 이미지를 가져오는 방법. [자세히 알아보기](generative-uc.md)
+     * **[!UICONTROL Assets]**: Digital Asset Management에서 일치하는 이미지를 참조 콘텐츠로 사용하고 그렇지 않으면 참조 콘텐츠를 수동으로 추가합니다.
+     * **[!UICONTROL 균형 조정]**: 먼저 콘텐츠를 참조한 다음 필요한 경우 Firefly을 참조하십시오.
+     * **[!UICONTROL Creative]**: Digital Asset Management에 직접 의존하지 않는 생성 AI.
    * **[!UICONTROL 생성 모델]**: 사용 가능한 기본 제공 모델, 브랜드 자산에 대해 교육된 사용자 지정 Firefly 모델 또는 타사 이미지 생성 공급자 중에서 선택하여 특정 요구 사항과 브랜드 요구 사항에 맞는 이미지를 만듭니다. [자세히 알아보기](generative-models.md). 이미지에 **텍스트 오버레이**&#x200B;가 있는 **Gemini**&#x200B;의 경우 [텍스트 오버레이 이미지에 대한 생성 모델로 Gemini 사용](generative-uc.md#generative-gemini)을 참조하십시오.
    * **[!UICONTROL 콘텐츠 형식]**: 이 옵션은 시각적 요소의 특성을 분류하여 사진, 그래픽 또는 미술과 같은 시각적 표현의 다른 형식을 구분합니다.
    * **[!UICONTROL 시각적 강도]**: 이미지의 강도를 조정하여 이미지의 영향을 제어할 수 있습니다. 낮은 설정 (2)는 부드럽고 절제된 모양을 만들고, 높은 설정 (10)은 이미지를 더 생동감 있고 시각적으로 강력하게 만듭니다.
