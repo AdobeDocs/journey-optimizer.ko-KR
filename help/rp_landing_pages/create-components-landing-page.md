@@ -25,7 +25,7 @@ Adobe Journey Optimizer에서 배치, 의사 결정 규칙, 컬렉션 한정자�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 오퍼에 대한 배치 만들기 안내서
 

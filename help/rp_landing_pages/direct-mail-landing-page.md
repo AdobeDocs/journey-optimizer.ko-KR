@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 다이렉트 메일 캠페인에 대해 알아보고 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 다이렉트 메일 캠페인을 만드는 방법
 

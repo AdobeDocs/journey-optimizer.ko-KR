@@ -25,7 +25,7 @@ Adobe Journey Optimizer에서 의사 결정을 만들고 관리하면 고객에�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 Adobe Journey Optimizer에서 의사 결정 생성
 

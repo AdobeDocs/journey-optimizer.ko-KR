@@ -35,7 +35,7 @@ Adobe Journey Optimizer에서 오퍼 카탈로그를 내보내는 것은 Adobe E
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 내보낸 오퍼 카탈로그에 액세스하기
 

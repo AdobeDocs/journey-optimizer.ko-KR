@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 이메일 전달성을 최적화하기 위한 개�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
 
 새로운 DMARC 요건 준수
 
