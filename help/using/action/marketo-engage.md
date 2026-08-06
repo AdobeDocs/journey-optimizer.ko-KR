@@ -62,7 +62,7 @@ Journey Optimizer에서 Marketo Engage에 대한 사용자 지정 작업을 구�
 
 1. 관리 메뉴 섹션에서 **[!UICONTROL 구성]**&#x200B;을(를) 선택합니다.
 1. **[!UICONTROL 작업]** 섹션에서 **[!UICONTROL 작업 만들기]**&#x200B;를 클릭합니다. 작업 구성 창이 화면 오른쪽에 열립니다.
-1. 이름, 설명을 입력하고 **Adobe Marketo Engage**&#x200B;을(를) **작업 유형**(으)로 선택합니다.
+1. 이름, 설명을 입력하고 **Adobe Marketo Engage**&#x200B;을(를) **작업 유형으로 선택하십시오.**
    ![](assets/engage-customaction-creation.png){width="40%"}
 1. **요청** 및 **응답** 페이로드에 대한 **페이로드 편집** 아이콘을 클릭합니다.
 1. 두 경우 모두 페이로드를 구성하고 전용 팝업에 붙여 넣습니다.

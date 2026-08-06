@@ -28,7 +28,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 867eeef1f90c152c463397222f5ed95f3b9c264b
 workflow-type: tm+mt
-source-wordcount: 1688
+source-wordcount: 1749
 ht-degree: 15%
 
 ---
@@ -178,7 +178,7 @@ CRM ID 또는 이메일 주소와 같은 다른 키를 사용해야 하는 경�
 
 1. 페이로드 필드 목록에서 키로 선택한 필드를 선택합니다.
 
-이벤트가 수신될 때, 키의 값은 시스템이 이벤트와 연관된 사람을 식별할 수 있게 한다. [ID 형식](../event/about-creating.md#select-the-namespace)과(와) 연결된 키를 사용하여 Adobe Experience Platform에서 쿼리를 수행할 수 있습니다. [이 페이지](../building-journeys/about-journey-activities.md#orchestration-activities)를 참조하세요.
+이벤트가 수신될 때, 키의 값은 시스템이 이벤트와 연관된 사람을 식별할 수 있게 한다. [ID 형식](../event/about-creating.md#select-the-namespace)과(와) 연결된 키를 사용하여 Adobe Experience Platform에서 쿼리를 수행할 수 있습니다. [이 페이지](../building-journeys/about-journey-activities.md#orchestration-activities)를 참조하십시오.
 또한 이 키는 개인이 여정 내에 있는지 확인하는 데도 사용됩니다. 실제로, 한 사람은 같은 여정에서 두 개의 다른 장소에 있을 수 없다. 따라서 시스템은 동일한 키(예: 키 CRMID=3224)가 동일한 여정의 다른 위치에 있는 것을 허용하지 않습니다.
 
 ## 고급 표현식 편집기 {#adv-exp-editor}

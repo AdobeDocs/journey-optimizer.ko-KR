@@ -30,7 +30,7 @@ Adobe Journey Optimizer가를 다른 Adobe 및 서드파티 솔루션과 연결�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer API 작업
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer에서 샌드박스를 사용하여 가상 환경, 역할
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 소스 커넥터 시작
 

@@ -71,7 +71,7 @@ ht-degree: 57%
 </td>
 <td>
 <a href="design-push.md">
-<img alt="저빈도" src="../assets/do-not-localize/push-design.jpg">
+<img alt="드물게" src="../assets/do-not-localize/push-design.jpg">
 </a>
 <div>
 <a href="design-push.md"><strong>푸시 알림 디자인</strong></a>

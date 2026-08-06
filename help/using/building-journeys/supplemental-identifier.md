@@ -17,7 +17,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 2742
+source-wordcount: 2792
 ht-degree: 2%
 
 ---
@@ -278,7 +278,7 @@ x-sandbox-name: {SANDBOX_NAME}
 >
 >`expressActivation`의 기본값은 `false`입니다. 대상 생성 시 설정해야 하며, 생성 후에는 변경할 수 없습니다. 모든 Federated Audience Composition 대상은 기본적으로 빠른 활성화 가 활성화되어 있으며 이 플래그는 필요하지 않습니다.
 
-전체 참조는 [외부 대상 API 만들기 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/tutorials/create-external-audience#create){target="_blank"}를 참조하십시오.
+전체 참조는 [외부 대상 API 만들기 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/tutorials/create-external-audience#create){target="_blank"}를 참조하십시오.
 
 +++
 

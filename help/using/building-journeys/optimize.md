@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 활동 최적화
+title: 최적화 활동
 description: 최적화 활동에 대해 알아보기
 feature: Journeys, Activities
 topic: Content Management
@@ -46,7 +46,7 @@ ht-degree: 8%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_optimize"
->title="활동 최적화"
+>title="최적화 활동"
 >abstract="**최적화** 활동을 통해 실험, 타기팅, 특정 조건 등의 구체적인 기준에 따라 여러 경로를 만들어 개인이 여정을 어떻게 진행할지 정의할 수 있습니다. **최적화** 활동은 여정에서 조건부 경로를 만드는 새로운 수단입니다. 이는 이전의 **조건** 활동을 대체합니다."
 
 >[!IMPORTANT]

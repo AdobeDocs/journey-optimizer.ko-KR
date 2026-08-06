@@ -34,7 +34,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 41e34973cb3213e08442bead6d1f1bb00af00921
 workflow-type: tm+mt
-source-wordcount: 2266
+source-wordcount: 2330
 ht-degree: 8%
 
 ---
@@ -161,7 +161,7 @@ ht-degree: 8%
 * 시험 실행 여정은 비즈니스 규칙에 영향을 주지 않음
   <!--* When creating a new journey version, if a previous journey version is **Live**, then the Dry run activation is not allowed on the new version.-->
 * **이동** 작업은 시험 실행 시 사용할 수 없습니다.
-소스 여정이 대상 이벤트로의 **Jump** 이벤트를 트리거하면 해당 점프 이벤트는 시험 실행 여정 버전에 적용할 수 없습니다. 예를 들어 최신 버전의 여정이 시험 실행 중이고 이전 버전이 **Live**&#x200B;인 경우 점프 이벤트는 시험 실행 버전을 무시하고 **Live** 버전에만 적용할 수 있습니다.
+소스 여정이 대상 이벤트로의 **Jump** 이벤트를 트리거하면 해당 점프 이벤트는 시험 실행 여정 버전에 적용할 수 없습니다. 예를 들어, 최신 버전의 여정이 시험 실행 중이고 이전 버전이 **Live**&#x200B;인 경우 점프 이벤트는 시험 실행 버전을 무시하고 **Live** 버전에만 적용할 수 있습니다.
 
 ## 여정 단계 이벤트 및 시험 실행 {#journey-step-events}
 

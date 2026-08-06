@@ -17,8 +17,8 @@ ht-degree: 27%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_usage_metrics"
->title="SMS 사용 지표"
->abstract="SMS 사용량 보고서를 생성하여 메시지 볼륨과 공급업체 청구를 대조할 수 있습니다. 보고서에는 각 단축 번호 또는 전화번호에 대한 모바일 수신(MT) 및 모바일 발신(MO) 건수가 일별로 집계되어 표시됩니다."
+>title="SMS 사용량 지표"
+>abstract="SMS 사용량 보고서를 생성하여 메시지 송수신량을 공급업체 청구 내역과 대조할 수 있습니다. 보고서에는 각 단축 번호 또는 전화번호별 모바일 수신(MT) 및 모바일 발신(MO) 건수가 일별 집계되어 표시됩니다."
 
 >[!BEGINSHADEBOX]
 

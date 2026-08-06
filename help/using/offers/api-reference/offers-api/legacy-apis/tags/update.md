@@ -23,8 +23,8 @@ subfeature_v2:
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 193
-ht-degree: 16%
+source-wordcount: 208
+ht-degree: 22%
 
 ---
 
@@ -79,7 +79,7 @@ curl -X PATCH \
     ]'
 ```
 
-| 매개변수 | 설명 |
+| 매개 변수 | 설명 |
 | --------- | ----------- |
 | `op` | 연결을 업데이트하는 데 필요한 작업을 정의하는 데 사용되는 작업 호출입니다. 작업은 `add`, `replace`, `remove`, `copy` 및 `test`입니다. |
 | `path` | 업데이트할 매개 변수의 경로입니다. |

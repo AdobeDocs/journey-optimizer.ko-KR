@@ -8,7 +8,7 @@ exl-id: 0fdc67ab-3646-4c6e-884d-604238549c3d
 source-git-commit: de2272c6d570047cd386941cd2e38cf82942c029
 workflow-type: tm+mt
 source-wordcount: '318'
-ht-degree: 35%
+ht-degree: 37%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Journey Optimizer의 콘텐츠 생성 기능은 생성 AI를 활용하여 
 
 콘텐츠 생성 을 액세스 및 구성하여 콘텐츠 생성 및 개인화를 향상시키는 방법에 대해 알아봅니다.
 
-[콘텐츠 생성 시작](../using/content-management/gs-generative.md)
+[콘텐츠 생성 시작하기](../using/content-management/gs-generative.md)
 :::
 
 :::

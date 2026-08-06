@@ -12,7 +12,7 @@ keywords: 예약된 일괄 처리, 일정, 여정, 캠페인, 오케스트레이
 source-git-commit: d997e60a9a851d37796162ed531564514c26dea4
 workflow-type: tm+mt
 source-wordcount: '2077'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -67,17 +67,17 @@ ht-degree: 1%
 * Wave sending is configured at the **channel activity level**, independently for each channel activity in the campaign.
 -->
 
-## 웨이브 전송 구성 {#configure-wave-sending}
+## 예약된 일괄 처리 보내기 구성 {#configure-wave-sending}
 
 >[!CONTEXTUALHELP]
 >id="ajo_wave_sending"
 >title="예약된 일괄 처리를 사용하여 보내기"
->abstract="메시지 게재를 예약된 일괄 처리(예약된 일괄 처리)로 분할하여 시간에 따른 볼륨을 제어합니다. 크기와 타이밍이 동일하거나 사용자 지정된 웨이브를 최대 10개까지 정의할 수 있습니다."
+>abstract="메시지 게재를 예약된 배치(예약된 일괄 처리)로 분할하여 시간 경과에 따른 볼륨을 제어합니다. 크기와 타이밍이 동일하거나 사용자 정의된 예약된 일괄 처리를 최대 10개까지 정의할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_wave_sending"
 >title="예약된 일괄 처리를 사용하여 보내기"
->abstract="메시지 게재를 예약된 일괄 처리(예약된 일괄 처리)로 분할하여 시간에 따른 볼륨을 제어합니다. 크기와 타이밍이 동일하거나 사용자 지정된 웨이브를 최대 10개까지 정의할 수 있습니다."
+>abstract="메시지 게재를 예약된 배치(예약된 일괄 처리)로 분할하여 시간 경과에 따른 볼륨을 제어합니다. 크기와 타이밍이 동일하거나 사용자 정의된 예약된 일괄 처리를 최대 10개까지 정의할 수 있습니다."
 
 웨이브 전송을 활성화하는 단계는 컨텍스트에 따라 다릅니다(읽기 대상 여정 또는 작업 캠페인). 아래의 관련 탭을 선택한 다음 [예약된 일괄 처리 크기 및 시간](#wave-options) 섹션을 참조하여 구성을 완료합니다.
 

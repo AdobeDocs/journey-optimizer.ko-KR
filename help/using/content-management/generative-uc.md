@@ -261,7 +261,7 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ajo_assets_selection_mode"
->title="Assets 선택 모드"
+>title="에셋 선택 모드"
 >abstract="[!UICONTROL Assets 모드] 설정은 시각적 자산의 원본을 제어합니다. 이미지를 DAM(디지털 에셋 관리) 라이브러리에서 직접 검색할지 또는 AI 생성 콘텐츠를 사용하여 동적으로 생성할지를 정의할 수 있습니다."
 
 **[!UICONTROL 이미지 설정]** 아래의 **[!UICONTROL 모드]** 옵션은 Digital Asset Management 라이브러리에서 이미지가 생성되는 방식과 생성된 콘텐츠를 제어합니다.

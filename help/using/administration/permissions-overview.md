@@ -27,8 +27,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
 workflow-type: tm+mt
-source-wordcount: 873
-ht-degree: 5%
+source-wordcount: 961
+ht-degree: 4%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 5%
 
 [!DNL Adobe CX Enterprise]의 **권한**&#x200B;을 통해 [!DNL Journey Optimizer]에 대한 액세스 제어를 제공합니다. 이 기능은 권한 및 샌드박스를 사용자와 연결하는 역할 및 정책을 활용합니다.
 
-Journey Optimizer에 대한 액세스 제어를 구성하려면 조직에 대한 시스템 또는 제품 관리자 권한이 있어야 합니다. 권한을 부여하거나 철회할 수 있는 최소 역할은 제품 관리자입니다. 권한을 관리할 수 있는 다른 관리자 역할은 시스템 관리자(제한 없음)입니다. 자세한 내용은 관리자 역할에 대한 [Adobe 도움말 센터 문서](https://helpx.adobe.com/kr/enterprise/using/admin-roles.html){target="_blank"}를 참조하십시오.
+Journey Optimizer에 대한 액세스 제어를 구성하려면 조직에 대한 시스템 또는 제품 관리자 권한이 있어야 합니다. 권한을 부여하거나 철회할 수 있는 최소 역할은 제품 관리자입니다. 권한을 관리할 수 있는 다른 관리자 역할은 시스템 관리자(제한 없음)입니다. 자세한 내용은 관리자 역할에 대한 [Adobe 도움말 센터 문서](https://helpx.adobe.com/enterprise/using/admin-roles.html){target="_blank"}를 참조하십시오.
 
 <!--
  A high-level workflow for gaining and assigning access permissions can be summarized as follows:

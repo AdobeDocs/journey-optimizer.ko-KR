@@ -34,7 +34,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 9372a9bed5c6da5db33567557944d69af9d56913
 workflow-type: tm+mt
-source-wordcount: 3603
+source-wordcount: 3645
 ht-degree: 100%
 
 ---
@@ -168,7 +168,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>Adobe Experience Platform에서는 고객의 동의 환경 설정을 준수하기 위한 마케팅 정책을 쉽게 채택하고 적용할 수 있습니다. 동의 정책은 Adobe Experience Platform 내에서 정의됩니다. Journey Optimizer에서 이 동의 정책을 사용자 정의 작업에 적용할 수 있습니다. 예를 들어 이메일, 푸시 또는 SMS 커뮤니케이션 수신에 동의하지 않은 고객을 제외하는 동의 정책을 정의할 수 있습니다.
+<p>Adobe Experience Platform을 사용하면 고객의 동의 환경 설정을 준수하도록 마케팅 정책을 쉽게 채택하고 적용할 수 있습니다. 동의 정책은 Adobe Experience Platform에 정의되어 있습니다. Journey Optimizer에서는 이러한 동의 정책을 사용자 지정 작업에 적용할 수 있습니다. 예를 들어 이메일, 푸시 또는 SMS 커뮤니케이션에 동의하지 않은 고객을 제외하는 동의 정책을 정의할 수 있습니다.
 <p>현재 자동화된 동의 적용은 Healthcare Shield 추가 기능 서비스를 구입한 조직에서만 사용할 수 있습니다.</p>
 <p>자세한 내용은 <a href="../action/consent.md">세부 설명서</a>를 참조하세요.
 </td>

@@ -67,7 +67,7 @@ Adobe Experience Platform 및 Journey Optimizer는 개인 정보 관리를 확�
 </td>
 <td>
 <a href="audit-logs.md">
-<img alt="저빈도" src="../assets/do-not-localize/privacy-audit.jpeg">
+<img alt="드물게" src="../assets/do-not-localize/privacy-audit.jpeg">
 </a>
 <div>
 <a href="audit-logs.md"><strong>사용자 작업 감사</strong></a>

@@ -112,7 +112,7 @@ Monday 9 AM → Send newsletter to 100,000 subscribers → All receive simultane
 | 웹 | ✅ | ✅ | ❌ |
 | 코드 기반 | ✅ | ✅ | ❌ |
 | 콘텐츠 카드 | ✅ | ✅ | ❌ |
-| DM | ✅ | ✅ | ❌ |
+| 다이렉트 메일 | ✅ | ✅ | ❌ |
 
 >[!NOTE]
 >

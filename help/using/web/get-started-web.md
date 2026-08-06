@@ -65,7 +65,7 @@ ht-degree: 94%
 </td>
 <td>
 <a href="create-web.md">
-<img alt="저빈도" src="../assets/do-not-localize/web-create.jpg">
+<img alt="드물게" src="../assets/do-not-localize/web-create.jpg">
 </a>
 <div>
 <a href="create-web.md"><strong>웹 경험 만들기</strong></a>

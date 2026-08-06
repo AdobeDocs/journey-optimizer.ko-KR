@@ -90,7 +90,7 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_orchestration"
 >title="캠페인"
->abstract="세분화 플로우를 만들고 크로스 채널 메시지를 작성하고 캠페인을 기획합니다. 지원 채널: 이메일, SMS, 푸시 알림, DM"
+>abstract="세분화 플로우를 만들고 크로스 채널 메시지를 작성하고 캠페인을 기획합니다. 지원되는 채널: 이메일, SMS, 푸시 알림"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_scheduled_marketing"
@@ -323,7 +323,7 @@ Adobe Journey Optimizer를 사용하면 여러 채널에서 특정 대상자에�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **예약 및 시간**
 
@@ -333,7 +333,7 @@ Adobe Journey Optimizer를 사용하면 여러 채널에서 특정 대상자에�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **속도 제어**
 
@@ -343,7 +343,7 @@ Adobe Journey Optimizer를 사용하면 여러 채널에서 특정 대상자에�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **대상자 타겟팅**
 
@@ -353,7 +353,7 @@ Adobe Experience Platform의 특정 대상자를 정확하게 타겟팅하고 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **승인 워크플로**
 
@@ -363,7 +363,7 @@ Adobe Experience Platform의 특정 대상자를 정확하게 타겟팅하고 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **방해 금지 시간**
 
@@ -373,7 +373,7 @@ Adobe Experience Platform의 특정 대상자를 정확하게 타겟팅하고 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **최적화**
 

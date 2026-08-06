@@ -25,7 +25,7 @@ Adobe Journey Optimizer의 API 참조 섹션에서 고객에게 맞춤형 데이
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 오퍼 라이브러리 API 시작
 
@@ -45,7 +45,7 @@ Decisioning, Edge Decisioning 및 Batch Decisioning API 구현에 대한 포괄�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 API를 사용한 오퍼 만들기 및 관리
 

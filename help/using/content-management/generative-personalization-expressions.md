@@ -15,7 +15,7 @@ subfeature_v2:
 source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
 source-wordcount: 1541
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->이 기능의 사용을 시작하기 전에 관련 [보호 기능 및 제한 사항](gs-generative.md#generative-guardrails)을 읽어 보십시오.
+>이 기능을 사용하기 전에 관련 [보호 및 제한 사항](gs-generative.md#generative-guardrails)을 읽어보십시오.
 ></br>
 >
 >Journey Optimizer에서 콘텐츠 생성을 사용하려면 [사용자 동의](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.

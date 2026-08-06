@@ -91,7 +91,7 @@ Journey Optimizer에서는 이 릴리스의 새로운 기능인 충성도 문제
 <p>또한 충성도는 팀이 과제 생성, 과제 속성 설정, 대상자 및 관련 구성 관리, 통찰력 검토 등 주요 과제 작업을 보다 효율적으로 수행하여 과제 참여도를 모니터링하고 성과를 보상하도록 하는 동료 기술을 도입합니다.</p>
 <p><img src="assets/do-not-localize/loyalty.png"></p>
 <p>이 기능은 Journey Optimizer 충성도에 대해 라이선스가 부여된 조직에서만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
-<p>자세한 내용은 <a href="../loyalty-challenges/get-started.md">세부 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../loyalty-challenges/get-started.md">세부 설명서</a>를 참조하십시오.</p>
 <p> 사용 가능한 날짜: 2026년 7월 28일</p>
 </td>
 </tr>
@@ -116,7 +116,7 @@ Journey Optimizer에서는 이 릴리스의 새로운 기능인 충성도 문제
 <p>이렇게 하면 이전에 여정 지정 작업으로 해결했던 공백이 해소되며, 이는 채널로만 제한되고 전용 채널 기능이 부족합니다.</p>
 <p>사용자 지정 아웃바운드 채널은 현재 제한된 가용성으로 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
 <p><img src="assets/do-not-localize/custom-channel.gif"></p>
-<p>자세한 내용은 <a href="../custom-channel/get-started-custom-channel.md">세부 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../custom-channel/get-started-custom-channel.md">세부 설명서</a>를 참조하십시오.</p>
 <p> 사용 가능한 날짜: 2026년 7월 31일</p>
 </td>
 </tr>
@@ -141,7 +141,7 @@ Journey Optimizer에서는 이 릴리스의 새로운 기능인 충성도 문제
 <p>최상위 채널을 사용할 수 없는 경우(옵트인, 주파수 제한 또는 구성되지 않은 경우) 시스템이 사용 가능한 다음 채널로 폴백합니다.</p>
 <p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
 <p><img src="assets/do-not-localize/channel-optimization.gif"></p>
-<p>자세한 내용은 <a href="../building-journeys/channel-optimization.md">세부 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../building-journeys/channel-optimization.md">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2026년 7월 22일</p>
 </td>
 </tr>
@@ -330,7 +330,7 @@ Journey Optimizer에서는 이 릴리스의 새로운 기능인 충성도 문제
 <p>다른 마케팅 플랫폼에서 Adobe Journey Optimizer으로 전환하면 기존 이메일 콘텐츠와 여정을 Journey Optimizer으로 이동하는 데 도움이 되는 안내 기능을 통해 더 쉽게 이동할 수 있습니다. 전용 작업 영역을 사용하면 처음부터 다시 빌드하는 대신 기존 작업 영역을 다시 사용할 수 있습니다.</p>
 <p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
 <p><img src="assets/do-not-localize/guided-adoption.gif"></p>
-<p>자세한 내용은 <a href="../start/migrate-content-and-journeys.md">세부 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../start/migrate-content-and-journeys.md">세부 설명서</a>를 참조하십시오.</p>
 <p> 사용 가능한 날짜: 2026년 7월 30일</p>
 </td>
 </tr>

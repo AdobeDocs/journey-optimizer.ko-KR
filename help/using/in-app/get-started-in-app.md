@@ -64,7 +64,7 @@ Journey Optimizer를 사용하여 인앱 알림을 만들고 경험 옵션(메�
 </td>
 <td>
 <a href="design-in-app.md">
-<img alt="저빈도" src="../assets/do-not-localize/inapp-design.jpg">
+<img alt="드물게" src="../assets/do-not-localize/inapp-design.jpg">
 </a>
 <div>
 <a href="design-in-app.md"><strong>인앱 콘텐츠 디자인</strong></a>

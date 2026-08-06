@@ -46,7 +46,7 @@ Adobe Journey Optimizer의 채널 구성을 통해 이메일, SMS, 푸시 알림
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 가이드 채널 설정
 
@@ -56,7 +56,7 @@ Adobe Journey Optimizer의 채널 구성을 통해 이메일, SMS, 푸시 알림
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 이메일 하위 도메인 위임 및 관리
 
@@ -66,7 +66,7 @@ Adobe Journey Optimizer의 채널 구성을 통해 이메일, SMS, 푸시 알림
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 IP 준비 계획 구현
 

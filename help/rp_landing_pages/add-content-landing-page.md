@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 콘텐츠를 디자인하는 것은 대상과 연�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg)
 
 시각적 조각 활용
 

@@ -18,7 +18,7 @@ ht-degree: 13%
 
 ---
 
-# 충성도 문제 시작 {#get-started-loyalty-challenges}
+# 충성도 챌린지 시작 {#get-started-loyalty-challenges}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_inventory"

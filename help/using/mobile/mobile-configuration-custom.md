@@ -51,13 +51,13 @@ ht-degree: 19%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_provider_payload"
->title="공급자 페이로드"
+>title="제공자 페이로드"
 >abstract="올바른 데이터가 처리 및 응답 생성에 사용될 수 있도록 요청 페이로드를 제공합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_response_msg_id_extractor"
 >title="제공자 페이로드"
->abstract="Journey Optimizer에서 어떻게 공급자의 전송 응답에서 고유한 메시지 ID를 추출할지를 지정합니다. </br>필드 일치: 필드 이름(예: messageId)을 입력합니다. AJO에서 응답을 스캔하고 첫 번째로 일치하는 값을 반환할 것입니다. </br>점 표기법: 필드로의 경로(예: messages.0.id)를 입력합니다. 배열에 대해 숫자 세그먼트를 사용합니다. $ 접두사는 사용하지 않습니다.</br> 공급자가 대신 콜백 데이터 필드 전달을 지원하는 경우 비워 두십시오."
+>abstract="Journey Optimizer에서 어떻게 제공자의 전송 응답에서 고유한 메시지 ID를 추출할지를 지정합니다. </br>필드 일치: 필드 이름(예: messageId)을 입력합니다. AJO에서 응답을 스캔하고 첫 번째로 일치하는 값을 반환할 것입니다. </br>점 표기법: 필드로의 경로(예: messages.0.id)를 입력합니다. 배열에 대해 숫자 세그먼트를 사용합니다. $ 접두사는 사용하지 않습니다.</br> 제공자가 대신 콜백 데이터 필드 전달을 지원하는 경우 비워 두십시오."
 
 이 기능을 사용하면 고유한 메시징 공급자를 통합 및 구성하여 기본 옵션(Sinch, Twilio 및 Infobip) 이상의 유연성을 제공할 수 있습니다. 이를 통해 모바일 메시지에 대한 원활한 작성, 전달, 보고 및 동의 관리가 가능합니다.
 

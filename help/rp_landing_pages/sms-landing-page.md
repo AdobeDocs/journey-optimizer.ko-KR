@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 SMS/MMS/RCS 채널을 사용하면 개인화된 모�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 텍스트 메시지 시작
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 SMS, MMS 및 RCS 메시지를 구성, 생성 및 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 SMS, MMS 및 RCS 메시지 작성 방법
 
@@ -40,7 +40,7 @@ SMS, MMS 및 RCS 메시지 작성 방법
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 텍스트 메시지 확인하고 전송하기
 
@@ -50,7 +50,7 @@ SMS, MMS 및 RCS 메시지 작성 방법
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 텍스트 메시지 옵트아웃 관리
 
@@ -60,7 +60,7 @@ SMS, MMS 및 RCS 커뮤니케이션에 대한 옵트아웃 프로세스를 관�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 SMS 하위 도메인 설정
 
@@ -70,7 +70,7 @@ SMS 하위 도메인 설정
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 SMS / MMS / RCS 채널 구성
 

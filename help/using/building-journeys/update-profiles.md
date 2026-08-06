@@ -47,7 +47,7 @@ ht-degree: 4%
 
 ## 데이터 세트 선택 {#dataset-selection}
 
-**[!UICONTROL 프로필 업데이트]** 활동에는 업데이트를 저장할 전용 데이터 세트가 필요합니다. 이 활동은 [프로필 저장소](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko#profile-data-store){target="_blank"}만 업데이트하므로(Datalake는 아님), 모든 업데이트는 **[!UICONTROL 프로필 업데이트]** 작업에 대해 특별히 지정된 [프로필 사용 데이터 세트](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}에 저장되어야 합니다.
+**[!UICONTROL 프로필 업데이트]** 활동에는 업데이트를 저장할 전용 데이터 세트가 필요합니다. 이 활동은 [프로필 저장소](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko#profile-data-store){target="_blank"}만 업데이트하므로(Datalake는 아님), 모든 업데이트는 **[!UICONTROL 프로필 업데이트]** 작업에 대해 특별히 지정된 [프로필 사용 데이터 세트](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}에 저장되어야 합니다.
 
 >[!CAUTION]
 >

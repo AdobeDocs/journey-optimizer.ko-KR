@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 커뮤니케이션 채널을 통해 다양한 접점�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 커뮤니케이션 채널 소개
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 아웃바운드 및 인바운
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 푸시 알림 채널
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 아웃바운드 및 인바운
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
 
 SMS / MMS / RCS 메시지
 

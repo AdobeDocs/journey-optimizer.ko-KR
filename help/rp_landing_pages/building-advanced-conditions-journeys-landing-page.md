@@ -51,7 +51,7 @@ Adobe Journey Optimizer의 함수
 
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Journey Optimizer 데이터 세트의 쿼리 샘플 및 관련 사용 사례
 
@@ -61,7 +61,7 @@ Journey Optimizer 데이터 세트의 쿼리 샘플 및 관련 사용 사례
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 데이터 분석을 위한 SQL 쿼리 예
 

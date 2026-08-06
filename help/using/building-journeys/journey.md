@@ -112,7 +112,7 @@ ht-degree: 66%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **진입점 정의**
 
@@ -122,7 +122,7 @@ ht-degree: 66%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **메시지 보내기**
 
@@ -132,7 +132,7 @@ ht-degree: 66%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **논리 및 조건 추가**
 
@@ -142,7 +142,7 @@ ht-degree: 66%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **데이터 활용**
 
@@ -152,7 +152,7 @@ ht-degree: 66%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **외부 시스템 연결**
 
@@ -162,7 +162,7 @@ ht-degree: 66%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **오케스트레이션 활동 추가**
 
@@ -253,7 +253,7 @@ ht-degree: 66%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **신규 구독자 환영**
 
@@ -263,7 +263,7 @@ ht-degree: 66%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **전송 시간 최적화**
 
@@ -273,7 +273,7 @@ AI를 사용하여 각 고객이 참여할 가능성이 가장 높은 시점에 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **점진적 게재 늘리기**
 
@@ -283,7 +283,7 @@ AI를 사용하여 각 고객이 참여할 가능성이 가장 높은 시점에 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **요일별 타기팅**
 
@@ -293,7 +293,7 @@ AI를 사용하여 각 고객이 참여할 가능성이 가장 높은 시점에 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **멀티채널 캠페인**
 
@@ -303,7 +303,7 @@ AI를 사용하여 각 고객이 참여할 가능성이 가장 높은 시점에 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **모든 사용 사례**
 
@@ -321,7 +321,7 @@ AI를 사용하여 각 고객이 참여할 가능성이 가장 높은 시점에 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **고급 표현식**
 
@@ -331,7 +331,7 @@ AI를 사용하여 각 고객이 참여할 가능성이 가장 높은 시점에 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **표준 시간대 관리**
 
@@ -341,7 +341,7 @@ AI를 사용하여 각 고객이 참여할 가능성이 가장 높은 시점에 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **테스트 모드 및 시험 실행**
 
@@ -351,7 +351,7 @@ AI를 사용하여 각 고객이 참여할 가능성이 가장 높은 시점에 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **샌드박스에 복사**
 
@@ -361,7 +361,7 @@ AI를 사용하여 각 고객이 참여할 가능성이 가장 높은 시점에 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **태그 및 구성**
 
@@ -371,7 +371,7 @@ AI를 사용하여 각 고객이 참여할 가능성이 가장 높은 시점에 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **처리량 제어**
 

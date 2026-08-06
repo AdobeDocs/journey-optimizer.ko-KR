@@ -35,7 +35,7 @@ Adobe Journey Optimizer의 AI 모델과 그 유형, 기능 및 비즈니스 목�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 자동 최적화 모델 이해
 
@@ -45,7 +45,7 @@ Adobe Journey Optimizer의 AI 모델과 그 유형, 기능 및 비즈니스 목�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 개인화된 최적화 모델 이해
 
@@ -55,7 +55,7 @@ Adobe Journey Optimizer의 AI 모델과 그 유형, 기능 및 비즈니스 목�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 AI 모델을 만드는 방법
 

@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 콘텐츠 템플릿은 캠페인과 여정을 위해 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 콘텐츠 템플릿 시작
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer의 콘텐츠 템플릿은 캠페인과 여정을 위해 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 콘텐츠 템플릿 만들기
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer의 콘텐츠 템플릿은 캠페인과 여정을 위해 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 이메일 템플릿의 콘텐츠 잠그기
 

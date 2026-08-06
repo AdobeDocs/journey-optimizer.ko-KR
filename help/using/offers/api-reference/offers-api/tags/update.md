@@ -53,7 +53,7 @@ ht-degree: 22%
 PATCH /{ENDPOINT_PATH}/tags/{ID}
 ```
 
-| 매개변수 | 설명 | 예 |
+| 매개 변수 | 설명 | 예 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 지속성 API의 끝점 경로입니다. | `https://platform.adobe.io/data/core/dps/` |
 | `{ID}` | 업데이트하려는 엔티티의 ID입니다. | `tag1234` |

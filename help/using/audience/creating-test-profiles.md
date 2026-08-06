@@ -25,7 +25,7 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 1294
+source-wordcount: 1400
 ht-degree: 3%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 3%
 
 [CSV 파일을 업로드](#create-test-profiles-csv)하거나 [API 호출](#create-test-profiles-api)을 사용하여 테스트 프로필을 만들 수 있습니다. [!DNL Adobe Journey Optimizer]은(는) 테스트 프로필을 쉽게 만들 수 있도록 특정 [제품 내 사용 사례](#use-case-1)도 제공합니다.
 
-JSON 파일을 기존 데이터 세트에 업로드할 수 있습니다. 자세한 내용은 [데이터 수집 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=ko#add-data-to-dataset){target="_blank"}를 참조하세요.
+JSON 파일을 기존 데이터 세트에 업로드할 수 있습니다. 자세한 내용은 [데이터 수집 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset){target="_blank"}를 참조하세요.
 
 테스트 프로필을 만드는 것은 [!DNL Adobe Experience Platform]에서 일반 프로필을 만드는 것과 비슷합니다. 자세한 내용은 [실시간 고객 프로필 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target="_blank"}를 참조하세요.
 
@@ -201,11 +201,11 @@ Your journey will be composed of a **[!UICONTROL Read Audience]** and an **[!UIC
    ![XDM 스키마 워크플로우 옵션에 CSV 매핑](assets/test-profiles-16.png)
 1. 프로필을 가져올 데이터 세트를 선택합니다. **다음**&#x200B;을 클릭합니다.
    ![CSV 가져오기를 위한 데이터 세트 선택 화면](assets/test-profiles-17.png)
-1. **파일 선택**&#x200B;을 클릭하고 csv 파일을 선택하십시오. 파일이 업로드되면 **다음**&#x200B;을 클릭합니다.
+1. **파일 선택**&#x200B;을 클릭하고 csv 파일을 선택하십시오. 파일이 업로드되면 **다음**&#x200B;을(를) 클릭합니다.
    ![파일 선택 단추가 있는 파일 업로드 화면](assets/test-profiles-18.png)
 1. 소스 csv 필드를 스키마 필드에 매핑한 다음 **마침**&#x200B;을 클릭합니다.
    소스 및 대상 필드를 표시하는 ![CSV 필드 매핑 인터페이스](assets/test-profiles-19.png)
-1. 데이터 가져오기가 시작됩니다. 상태가 **처리 중**&#x200B;에서 **성공**(으)로 이동합니다. 오른쪽 상단에서 **데이터 세트 미리 보기**&#x200B;를 클릭합니다.
+1. 데이터 가져오기가 시작됩니다. 상태가 **처리 중**&#x200B;에서 **성공**(으)로 이동합니다. 오른쪽 상단에서 **데이터 집합 미리 보기**&#x200B;를 클릭합니다.
    ![미리 보기 데이터 세트 단추로 성공을 표시하는 가져오기 상태](assets/test-profiles-20.png)
 1. 테스트 프로필이 올바르게 추가되었는지 확인합니다.
    ![가져온 테스트 프로필을 표시하는 데이터 집합 미리 보기](assets/test-profiles-21.png)
@@ -214,7 +214,7 @@ Your journey will be composed of a **[!UICONTROL Read Audience]** and an **[!UIC
 
 >[!NOTE]
 >
->csv 가져오기에 대한 자세한 내용은 [데이터 수집 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=ko#tutorials){target="_blank"}를 참조하세요.
+>csv 가져오기에 대한 자세한 내용은 [데이터 수집 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials){target="_blank"}를 참조하세요.
 
 ## API 호출을 사용하여 테스트 프로필 만들기{#create-test-profiles-api}
 

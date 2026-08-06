@@ -765,7 +765,7 @@ ht-degree: 98%
 <tr>
 <td>
 <p>AI Assistant는 Adobe 개념을 탐색 및 이해하고 특정 환경에 대한 운영 통찰력을 얻는 데 사용할 수 있는 사용자 인터페이스 기능입니다. Adobe Journey Optimizer을 포함하여 [!DNL Adobe CX Enterprise]의 여러 제품에서 사용할 수 있습니다.</p>
-<p>자세한 내용은 <a href="../start/ai-features.md#ai-assistant">세부 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../start/ai-features.md#ai-assistant">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>

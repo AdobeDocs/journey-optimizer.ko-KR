@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 다국어 콘텐츠 기능을 사용하면 여러 언
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 다국어 콘텐츠에 대한 로케일을 만드는 방법
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer의 다국어 콘텐츠 기능을 사용하면 여러 언
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 언어 공급자 추가 및 구성
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer의 다국어 콘텐츠 기능을 사용하면 여러 언
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 수동 번역을 사용하여 다국어 콘텐츠 만들기
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer의 다국어 콘텐츠 기능을 사용하면 여러 언
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 자동 번역을 사용하여 다국어 콘텐츠 만들기
 

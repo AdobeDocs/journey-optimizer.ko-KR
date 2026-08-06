@@ -11,7 +11,7 @@ feature_v2:
 subfeature_v2: []
 source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
-source-wordcount: 1329
+source-wordcount: 1388
 ht-degree: 4%
 
 ---
@@ -137,7 +137,7 @@ Some edu specific content
 ## 각{#each}
 
 `each` 도우미는 배열을 반복하는 데 사용됩니다.
-도우미 구문은 `{{#each ArrayName}}` YourContent `{{/each}}`입니다.
+도우미의 구문은 `{{#each ArrayName}}` YourContent `{{/each}}`입니다.
 블록 내에서 **this** 키워드를 사용하여 개별 배열 항목을 참조할 수 있습니다. `{{@index}}`을(를) 사용하여 배열 요소의 인덱스를 렌더링할 수 있습니다.
 
 **구문**
@@ -237,7 +237,7 @@ Some edu specific content
 
 **매개 변수**
 
-| 매개변수 | 설명 |
+| 매개 변수 | 설명 |
 | --- | --- |
 | `code` | 발생한 오류에 포함된 선택적 중단 코드. |
 | `description` | 사람이 인식할 수 있는 중지 이유(선택 사항). |
@@ -265,7 +265,7 @@ Hello {{profile.person.name.firstName}}!
 
 **매개 변수**
 
-| 매개변수 | 설명 |
+| 매개 변수 | 설명 |
 | --- | --- |
 | `jsonStr` | 구문 분석할 JSON 문자열입니다. 데이터 참조 또는 리터럴 JSON 문자열일 수 있습니다. |
 | `result` | 구문 분석된 개체를 저장하는 변수 이름입니다. |
@@ -289,7 +289,7 @@ Hello {{profile.person.name.firstName}}!
 
 **매개 변수**
 
-| 매개변수 | 설명 |
+| 매개 변수 | 설명 |
 | --- | --- |
 | `path` | 값을 추출할 소스 경로(위치 매개 변수)입니다. |
 | `idx` | 배열 또는 컬렉션에서 특정 요소를 추출하는 데 사용되는 선택적 0 기반 인덱스입니다. |
@@ -314,7 +314,7 @@ Hello {{profile.person.name.firstName}}!
 
 **매개 변수**
 
-| 매개변수 | 설명 |
+| 매개 변수 | 설명 |
 |---|---|
 | `originalUrl` | 단축할 URL입니다. |
 | `type` | 링크 유형. `DEEPLINK`을(를) 사용하여 모바일 앱에서 특정 화면을 엽니다. |

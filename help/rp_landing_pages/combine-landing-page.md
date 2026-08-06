@@ -30,7 +30,7 @@ Adobe Journey Optimizer를 Experience Manager, Stock, Express, GenStudio 등 다
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Adobe Experience Manager Assets 사용
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer에 통합된 Adobe Express를 사용하여 자산 크기
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 AEM 콘텐츠 조각 작업
 

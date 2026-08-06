@@ -11,8 +11,8 @@ hide: true
 keywords: 여정 최적화 도구, 온보딩, 온보딩 허브, 사용 사례, 비디오, 자습서, 시작하기, 램프 업, 첫 여정
 source-git-commit: ca3fef2ea7377ab441be9b2bec2132eb46b5c4bb
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 12%
+source-wordcount: '1149'
+ht-degree: 11%
 
 ---
 

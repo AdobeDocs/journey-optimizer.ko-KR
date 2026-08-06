@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 강력한 도구를 사용하여 웹 경험을 만들
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 웹 Designer을 사용하여 컨텐츠 편집
 
@@ -50,7 +50,7 @@ CSS 선택기, 사용자 지정 코드 및 코드 관리에 대한 모범 사례
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 웹 경험 모니터링
 

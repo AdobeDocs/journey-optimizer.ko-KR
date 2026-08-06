@@ -52,7 +52,7 @@ ht-degree: 22%
 POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 ```
 
-| 매개변수 | 설명 | 예 |
+| 매개 변수 | 설명 | 예 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 저장소 API의 끝점 경로입니다. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | 결정 규칙이 있는 컨테이너입니다. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |

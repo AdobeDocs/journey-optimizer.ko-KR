@@ -14,8 +14,8 @@ subfeature_v2:
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
 source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
 workflow-type: tm+mt
-source-wordcount: 338
-ht-degree: 9%
+source-wordcount: 398
+ht-degree: 8%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Journey Optimizer에서 컨텐츠 카드를 올바르게 표시하려면 �
 
 * **Adobe Experience Platform 데이터 수집**
 
-  [데이터 스트림을 만들고](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/configure){target="_blank"} [Experience Platform 서비스를 추가](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/configure#aep){target="_blank"}. **[!UICONTROL Edge 세그먼테이션]** 및 **[!UICONTROL Adobe Journey Optimizer]** 옵션을 활성화합니다. 이렇게 하면 Journey Optimizer 이벤트가 Adobe Experience Platform Edge Network에서 처리됩니다.
+  [데이터 스트림을 만들고](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/configure){target="_blank"} [Experience Platform 서비스를 추가](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/configure#aep){target="_blank"}. **[!UICONTROL Edge 세그멘테이션]** 및 **[!UICONTROL Adobe Journey Optimizer]** 옵션을 사용하도록 설정하십시오. 이렇게 하면 Journey Optimizer 이벤트가 Adobe Experience Platform Edge Network에서 처리됩니다.
   보고서에 이 데이터를 포함하려면 데이터 집합에 **경험 이벤트 - 제안 상호 작용** 필드 그룹을 추가하십시오. [데이터스트림에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/configure){target="_blank"}
 
 * **Adobe Experience Platform**

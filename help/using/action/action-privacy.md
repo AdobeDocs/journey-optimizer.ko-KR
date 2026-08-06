@@ -13,7 +13,7 @@ feature_v2: []
 subfeature_v2: []
 source-git-commit: 5431be148c30c46845fcd4220f492606f6a01c3f
 workflow-type: tm+mt
-source-wordcount: 1409
+source-wordcount: 1421
 ht-degree: 94%
 
 ---
@@ -37,7 +37,7 @@ Adobe Experience Platform의 [DULE(데이터 사용 레이블 지정 및 적용)
 
 레이블 및 마케팅 액션이 정의되면 이 두 요소를 연결하는 **데이터 거버넌스 정책**&#x200B;을 만들 수 있습니다. 예를 들어 &#39;ePHI&#39; 레이블을 &#39;이메일 타기팅&#39; 마케팅 액션과 연결하여 &#39;ePHI&#39;로 레이블이 지정된 필드가 이메일 메시지를 개인화하는 데 사용되지 않도록 하는 정책을 설정할 수 있습니다. [데이터 거버넌스 정책을 만드는 방법 알아보기](#policy)
 
-거버넌스 정책을 생성한 후에는 여정/캠페인 및 여정 사용자 정의 액션에 마케팅 작업을 적용할 수 있습니다.
+거버넌스 정책을 만든 후에는 마케팅 액션을 여정/캠페인 및 여정 사용자 정의 액션에 적용할 수 있습니다.
 [Journey Optimizer에서 마케팅 액션을 적용하는 방법 알아보기](#apply-marketing-actions)
 
 >[!IMPORTANT]
