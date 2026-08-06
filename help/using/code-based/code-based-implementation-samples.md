@@ -341,7 +341,7 @@ ht-degree: 7%
 하이브리드 구현이 있는 경우 아래 링크를 확인하십시오.
 
 * Adobe 기술 블로그: [Adobe Experience Platform 웹 SDK의 하이브리드 Personalization](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
-* SDK 설명서: [Web SDK 및 Edge Network Server API를 사용한 하이브리드 개인화](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html){target="_blank"}
+* SDK 설명서: [Web SDK 및 Edge Network Server API를 사용한 하이브리드 개인화](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html?lang=ko){target="_blank"}
 
 ## Adobe Experience Platform Assurance를 사용하여 Edge Network API 호출 디버그 {#debugging-edge-api-assurance}
 

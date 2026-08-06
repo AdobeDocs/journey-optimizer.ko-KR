@@ -40,7 +40,7 @@ Adobe Journey Optimizer로 시각적, 언어적 정체성을 일관되게 유지
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 브랜드 개인화
 

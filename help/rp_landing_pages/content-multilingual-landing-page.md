@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 다국어 콘텐츠 기능을 사용하면 여러 언
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 다국어 콘텐츠 시작
 

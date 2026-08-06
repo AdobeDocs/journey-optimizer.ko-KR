@@ -43,13 +43,13 @@ ht-degree: 0%
 
 **[!DNL Adobe Experience Manager as a Cloud Service]** 및 **[!DNL Adobe Experience Manager Managed Service]**&#x200B;을(를) Adobe Journey Optimizer과 통합하면 여정 및 캠페인에서 AEM 콘텐츠 조각을 사용할 수 있습니다. **[!DNL Adobe Experience Manager Managed Service]**&#x200B;의 경우 통합은 **AEM LTS(Long Term Support) SP2**&#x200B;에서 **작성자** 및 **게시** 계층을 지원합니다. 이 릴리스에서는 Adobe Experience Manager의 실시간 업데이트를 사용할 수 없습니다. 인스턴스 설정을 위해 Adobe Managed Services 담당자에게 문의하고 [Adobe Experience Manager 저장소 액세스를 구성](aem-admin-settings.md)하여 Managed Services 저장소를 추가합니다.
 
-AEM 콘텐츠 조각에 대한 자세한 내용은 Experience Manager 설명서에서 [콘텐츠 조각을 사용하여 작업](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer){target="_blank"}을 참조하세요.
+AEM 콘텐츠 조각에 대한 자세한 내용은 Experience Manager 설명서에서 [콘텐츠 조각을 사용하여 작업](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer){target="_blank"}을 참조하세요.
 
 ## 콘텐츠 조각 라이프사이클
 
 ![](assets/do-not-localize/AEM_CF.png)
 
-콘텐츠 조각은 존재하는 Adobe Experience Manager 계층에 따라 다른 라이프사이클 단계를 따릅니다. [Adobe Experience Manager 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/author-publish)
+콘텐츠 조각은 존재하는 Adobe Experience Manager 계층에 따라 다른 라이프사이클 단계를 따릅니다. [Adobe Experience Manager 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/sites/authoring/author-publish)
 
 콘텐츠는 **작성자 계층**&#x200B;에서 만들어지고 관리되며, 조각에는 새로 만들기, 초안, 게시됨, 수정됨 또는 게시 취소됨 등의 상태가 있을 수 있습니다. 이러한 상태는 **작성자 계층**&#x200B;에만 적용되며 콘텐츠 만들기 및 검토를 지원합니다.
 

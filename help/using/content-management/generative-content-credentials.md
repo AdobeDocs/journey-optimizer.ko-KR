@@ -47,12 +47,12 @@ Content Credentials은 콘텐츠의 생성 또는 편집 방법을 기록하는 
 
 ## 콘텐츠가 이동할 때 수행되는 작업 {#cc-content-moves}
 
-Content Credentials은 이미지 파일을 사용하여 이동합니다. 생성 AI로 생성 또는 편집한 이미지를 Adobe Journey Optimizer에서 다운로드하거나 내보내면 해당 Content Credentials이 유지됩니다. [Content Credentials에 대해 자세히 알아보기](https://helpx.adobe.com/firefly/using/content-credentials.html){target="_blank"}.
+Content Credentials은 이미지 파일을 사용하여 이동합니다. 생성 AI로 생성 또는 편집한 이미지를 Adobe Journey Optimizer에서 다운로드하거나 내보내면 해당 Content Credentials이 유지됩니다. [Content Credentials에 대해 자세히 알아보기](https://helpx.adobe.com/kr/firefly/using/content-credentials.html){target="_blank"}.
 
 PDF 또는 임베드된(base64) 소스에서 이미지를 추출하는 것과 같이 이미지를 콘텐츠로 가져오는 일부 방법에서는 원본 Content Credential을 보존하지 않을 수 있습니다. 이러한 경우 소스에서 Content Credential을 읽을 수 없으며 결과에 대해 아무것도 만들어지지 않습니다.
 
 ## 추가 리소스
 
-* [Adobe Content Credentials](https://helpx.adobe.com/firefly/using/content-credentials.html){target="_blank"}: Adobe 제품에서 Content Credentials이 작동하는 방식에 대해 자세히 알아보세요.
+* [Adobe Content Credentials](https://helpx.adobe.com/kr/firefly/using/content-credentials.html){target="_blank"}: Adobe 제품에서 Content Credentials이 작동하는 방식에 대해 자세히 알아보세요.
 * [Adobe Experience Cloud Generative AI 사용자 지침](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}
 * [가드레일 및 제한 사항](gs-generative.md#generative-guardrails)

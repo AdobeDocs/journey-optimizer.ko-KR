@@ -128,7 +128,7 @@ Adobe Journey Optimizer의 속성 기반 액세스 제어를 사용하여 데이
 
    ![](assets/label_4.png)
 
-1. 필요한 경우 스키마를 추가로 개인화한 다음 활성화합니다. 스키마를 활성화하는 방법에 대한 자세한 단계는 이 [페이지](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#profile){target="_blank"}를 참조하십시오.
+1. 필요한 경우 스키마를 추가로 개인화한 다음 활성화합니다. 스키마를 활성화하는 방법에 대한 자세한 단계는 이 [페이지](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=ko#profile){target="_blank"}를 참조하십시오.
 
 이제 C2 레이블이 있는 역할 세트의 일부인 사용자만 스키마의 필드를 볼 수 있고 사용할 수 있습니다. **[!UICONTROL 필드 이름]**&#x200B;에 **[!UICONTROL 레이블]**&#x200B;을(를) 적용하면 **[!UICONTROL 레이블]**&#x200B;이(가) 만들어진 모든 스키마의 **국적** 필드에 자동으로 적용됩니다.
 

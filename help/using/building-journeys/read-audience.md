@@ -470,7 +470,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 * [여정 테스트](testing-the-journey.md) - 시작하기 전에 테스트 프로필을 사용하여 여정 논리의 유효성을 검사합니다.
 * [여정 게시](../building-journeys/publish-journey.md) - 여정을 활성화하고 초기 실행을 모니터링합니다.
 * [구독자에게 메시지 보내기](message-to-subscribers-uc.md) - 엔드 투 엔드 사용 사례: 설정에서 게재까지 대상 읽기 여정이 있는 구독 목록을 대상으로 합니다.
-* [대상자 읽기 여정에 대한 모범 사례](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445){target="_blank"} - 일반적인 위험, 개수 불일치 및 입증된 모범 사례를 다루는 커뮤니티 블로그.
+* [대상자 읽기 여정에 대한 모범 사례](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445?profile.language=ko){target="_blank"} - 일반적인 위험, 개수 불일치 및 입증된 모범 사례를 다루는 커뮤니티 블로그.
 
 ## 사용 방법 비디오 {#video}
 

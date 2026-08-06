@@ -71,7 +71,7 @@ ht-degree: 5%
 
 1. 사용자 이름 또는 전자 메일 주소를 입력하거나 목록에서 사용자를 선택하고 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-   사용자가 이전에 [!DNL Admin Console]에서 만들어지지 않은 경우 [사용자 추가 설명서](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html){target="_blank"}를 참조하세요.
+   사용자가 이전에 [!DNL Admin Console]에서 만들어지지 않은 경우 [사용자 추가 설명서](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html?lang=ko){target="_blank"}를 참조하세요.
 
    ![](assets/do-not-localize/access_control_4.png)
 

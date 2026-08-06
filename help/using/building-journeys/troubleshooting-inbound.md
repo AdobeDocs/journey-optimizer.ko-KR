@@ -150,7 +150,7 @@ Edge Network 동작을 디버깅하려면 아래 단계를 수행합니다.
 
    프로필 섹션의 **segmentsMap** 요소를 열고 **joai** 세그먼트 ID가 있는지 확인하여 **joai** 세그먼트가 Edge Network 게재 서버의 프로필 보기에 있는지 다시 확인할 수 있습니다.
 
-1. Edge Network 게재 서버에서 프로필을 관련 **joai** 세그먼트에 있는 것으로 보지 않으면 다음 단계로 이동하십시오.<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
+1. Edge Network 게재 서버에서 프로필을 관련 **joai** 세그먼트에 있는 것으로 보지 않으면 다음 단계로 이동하십시오.<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
 
 ### 3단계: &#39;joai&#39; 대상 멤버십이 에지 네트워크로 전파되었는지 확인 {#step-3}
 

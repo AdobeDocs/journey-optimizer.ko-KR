@@ -35,7 +35,7 @@ Adobe Journey Optimizer의 API 참조 섹션에서 고객에게 맞춤형 데이
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 Adobe Journey Optimizer API를 사용하여 오퍼 게재
 
