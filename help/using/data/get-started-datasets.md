@@ -119,7 +119,7 @@ Adobe Experience Platform에 수집되는 모든 데이터는 데이터 세트�
 
 이 비디오에서는 데이터 세트를 만들고, 이를 스키마에 매핑하며, 데이터를 추가하고 데이터가 수집되었는지 확인하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/334293?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3416651?captions=kor&quality=12)
 
 ## 프로필에 대한 데이터 세트 활성화 {#profile-datasets}
 

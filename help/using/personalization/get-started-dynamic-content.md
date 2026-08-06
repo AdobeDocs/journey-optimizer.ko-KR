@@ -47,7 +47,7 @@ ht-degree: 18%
 
 조건부 규칙 빌더로 다이내믹 콘텐츠를 만드는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3409815?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3413674?captions=kor&quality=12)
 
 ## 빠른 참조 {#quick-reference}
 
