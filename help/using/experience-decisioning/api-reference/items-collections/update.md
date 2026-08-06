@@ -8,15 +8,10 @@ level: Experienced
 exl-id: a2b7779d-8c2e-4ff9-8cc3-90846f100c98
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/qYudO0NFgw9zjq843wK8zVMwr-nk29HPdXAHLBUc7qg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 133
@@ -36,7 +31,7 @@ ht-degree: 5%
 PATCH /{ENDPOINT_PATH}/item-collections/{ID}
 ```
 
-| 매개변수 | 설명 | 예 |
+| 매개 변수 | 설명 | 예 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 지속성 API의 끝점 경로입니다. | `https://platform.adobe.io/data/core/dps` |
 | `{ID}` | 업데이트하려는 엔티티의 ID입니다. | `itemCollections1234` |
@@ -64,7 +59,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/item-collections/itemColl
 ]'
 ```
 
-| 매개변수 | 설명 |
+| 매개 변수 | 설명 |
 | --------- | ----------- |
 | `value` | 매개 변수를 업데이트할 새 값입니다. |
 | `path` | 업데이트할 매개 변수의 경로입니다. |

@@ -10,19 +10,12 @@ level: Intermediate
 keywords: 메시지, 빈도, 규칙, 압력
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
 TQID: https://experienceleague.adobe.com/sWjIVlyPh0ySD1s-TLxJu9zmItbncoxKO0u3DVjVt-8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
-subfeature_v2:
-  - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: fd59660e-de8a-4bfb-85dc-7fa546030c49
+subfeature_v2: id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
 source-wordcount: 1346
@@ -38,7 +31,7 @@ ht-degree: 9%
 
 >[!ENDSHADEBOX]
 
-**채널** 규칙 집합은 최대 가용량 규칙을 통신 채널에 적용합니다. 예를 들어 하루에 1회 이상의 이메일 또는 SMS 커뮤니케이션을 보내지 않도록 합니다.
+**채널** 규칙 집합은 최대 가용량 규칙을 통신 채널에 적용합니다. 예를 들어, 하루에 1회 이상의 이메일 또는 SMS 메시지를 보내지 않도록 설정할 수 있습니다.
 
 채널 규칙 세트를 활용하면 통신 유형별로 빈도 상한을 설정하여 유사한 메시지가 있는 고객을 오버로드할 수 있습니다. 예를 들어 고객에게 전송되는 **프로모션 커뮤니케이션**&#x200B;의 수를 제한하는 규칙 세트와 고객에게 전송되는 **뉴스레터**&#x200B;의 수를 제한하는 규칙 세트를 만들 수 있습니다. 생성 중인 캠페인 유형에 따라 프로모션 커뮤니케이션 또는 뉴스레터 규칙 세트를 적용하도록 선택할 수 있습니다.
 
@@ -188,6 +181,6 @@ In this scenario, an individual profile:
 
 ## 사용 방법 비디오 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444733?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
 
-➡️ **실제로 보기:** 이 커뮤니티 사용 사례에서 [Adobe Journey Optimizer의 일일 빈도 제한](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=ko){target="_blank"}을 구현하는 방법을 알아봅니다.
+➡️ **실제로 보기:** 이 커뮤니티 사용 사례에서 [Adobe Journey Optimizer의 일일 빈도 제한](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}을 구현하는 방법을 알아봅니다.

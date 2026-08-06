@@ -10,7 +10,7 @@ keywords: waf, 방화벽, ip, 하위 도메인, 보안, 트래픽, 인바운드
 source-git-commit: 1fae65f5e7b54e2b45917ff2c28fe0a326633dfa
 workflow-type: tm+mt
 source-wordcount: '1086'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ajo_waf_allowed_ips"
->title="선택한 하위 도메인에 대해 허용되는 IP 입력"
->abstract="위임된 하위 도메인을 선택하고 웹 애플리케이션 방화벽의 공개 이그레스 IP를 입력합니다. 저장되면 [!DNL Journey Optimizer]은(는) 선언된 IP 중 하나에서 시작하지 않은 하위 도메인에 대한 인바운드 요청을 거부합니다. 저장하기 전에 항상 보안 팀과 정확한 이그레스 IP를 확인합니다."
+>title="선택된 하위 도메인에 대해 허용된 IP 입력"
+>abstract="위임된 하위 도메인을 선택하고 웹 애플리케이션 방화벽의 공개 이그레스 IP를 입력합니다. 저장되면 [!DNL Journey Optimizer]는 선언된 IP 중 하나에서 비롯되지 않은 하위 도메인에 대한 인바운드 요청을 거부하게 됩니다. 저장하기 전에 항상 보안 팀과 정확한 이그레스 IP를 확인하십시오."
 
 >[!BEGINSHADEBOX]
 

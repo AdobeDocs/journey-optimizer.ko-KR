@@ -25,7 +25,7 @@ Adobe Journey Optimizer에서 의사 결정 관리 이벤트 데이터와 Decisi
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 의사 결정 관리 이벤트 작업
 
@@ -35,7 +35,7 @@ Adobe Experience Platform을 사용하여 보고 및 분석을 위해 의사 결
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 DecisioningEvents XDM 필드 액세스 및 탐색
 

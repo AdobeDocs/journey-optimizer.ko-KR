@@ -4,20 +4,13 @@ description: 여정에서 보조 식별자를 사용하는 방법을 알아봅�
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/ABOlJ-ZF0a3xLNY-hH6jjFqu53ph4PynNalGkgQ6P8k
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: d08afb72-92f6-4856-88e3-11ec34313c2fid: fa683eda-48de-4558-af32-2673edcd44fe
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 2742
+source-wordcount: 2792
 ht-degree: 2%
 
 ---
@@ -135,11 +128,11 @@ ht-degree: 2%
 
    1. **[!UICONTROL 보조 식별자]** 필드에서 식 편집기를 사용하여 보조 식별자 특성을 선택합니다.
 
-   CSV 파일에서 가져온 [대상](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko#import-audience){target="_blank"}의 경우, CSV 대상에 프로필 ID당 여러 행이 포함되어 있으면 먼저 빠른 활성화가 활성화되었는지 확인하십시오. [외부 대상이 있는 보조 식별자](#external-audiences)를 참조하십시오.
+   CSV 파일에서 가져온 [대상](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}의 경우, CSV 대상에 프로필 ID당 여러 행이 포함되어 있으면 먼저 빠른 활성화가 활성화되었는지 확인하십시오. [외부 대상이 있는 보조 식별자](#external-audiences)를 참조하십시오.
 
        >[!NOTE]
-       >
-       >**[!UICONTROL 고급 모드]**&#x200B;에서 식 편집기를 사용하여 특성을 선택하는지 확인하십시오.
+     >
+     >**[!UICONTROL 고급 모드]**에서 식 편집기를 사용하여 특성을 선택하는지 확인하십시오.
    
 >[!ENDTABS]
 
@@ -206,7 +199,7 @@ ht-degree: 2%
 
 ## 외부 대상이 있는 보조 식별자 {#external-audiences}
 
-보조 ID는 CSV 파일에서 가져온 대상 [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko#import-audience)과(와) [Federated Audience Composition](../audience/get-started-audience-orchestration.md)(으){target="_blank"}로 만든 대상 &#x200B;을(를) 포함하여 외부 대상에 대해 지원됩니다. CSV 또는 Federated Audience Composition 대상에서 읽는 여정을 구성할 때 해당 대상의 ID가 아닌 속성을 보조 ID로 지정할 수 있습니다. 그런 다음 Journey Optimizer은 고유 프로필 + 보조 ID 조합에 따라 별도의 여정 인스턴스를 만듭니다.
+보조 ID는 CSV 파일에서 가져온 대상 [과(와) [Federated Audience Composition](../audience/get-started-audience-orchestration.md)(으)로 만든 대상 ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}을(를) 포함하여 외부 대상에 대해 지원됩니다. CSV 또는 Federated Audience Composition 대상에서 읽는 여정을 구성할 때 해당 대상의 ID가 아닌 속성을 보조 ID로 지정할 수 있습니다. 그런 다음 Journey Optimizer은 고유 프로필 + 보조 ID 조합에 따라 별도의 여정 인스턴스를 만듭니다.
 
 * 사용 사례 1: 고유 프로필당 행 1개 + 보조 ID 쌍
 
@@ -278,7 +271,7 @@ x-sandbox-name: {SANDBOX_NAME}
 >
 >`expressActivation`의 기본값은 `false`입니다. 대상 생성 시 설정해야 하며, 생성 후에는 변경할 수 없습니다. 모든 Federated Audience Composition 대상은 기본적으로 빠른 활성화 가 활성화되어 있으며 이 플래그는 필요하지 않습니다.
 
-전체 참조는 [외부 대상 API 만들기 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/tutorials/create-external-audience#create){target="_blank"}를 참조하십시오.
+전체 참조는 [외부 대상 API 만들기 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/tutorials/create-external-audience#create){target="_blank"}를 참조하십시오.
 
 +++
 
@@ -331,7 +324,7 @@ x-sandbox-name: {SANDBOX_NAME}
 
 [!DNL Adobe Journey Optimizer]에서 보조 식별자를 활성화하고 적용하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464799?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
 
 +++ AI 기술 자료 참조
 

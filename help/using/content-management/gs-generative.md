@@ -10,31 +10,20 @@ level: Beginner
 mini-toc-levels: 1
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 TQID: https://experienceleague.adobe.com/lACM3Joa-M9aAfD0YOX4jOndjrcoiLMDAEBdFxgjt8o
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebbid: d6e0d39b-5df3-4c72-8263-fd834397ee97id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274
 source-git-commit: 4bdf774d4d38b3c7d97daebade3dfb6ab0403a5e
 workflow-type: tm+mt
-source-wordcount: 992
-ht-degree: 62%
+source-wordcount: 1005
+ht-degree: 74%
 
 ---
 
-# 콘텐츠 생성 시작 {#gs-content-assistant}
+# 콘텐츠 생성 시작하기 {#gs-content-assistant}
 
 >[!BEGINSHADEBOX]
 
@@ -44,13 +33,13 @@ ht-degree: 62%
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"
->title="Journey Optimizer에서 컨텐츠 생성"
->abstract="게재를 제작하고 개인화하면 AI를 사용하여 콘텐츠를 편집하고 구체화할 수 있습니다. 이 기능을 사용하면 생성하려는 내용을 설명하여 콘텐츠를 더욱 세부적으로 조정할 수 있어 개인화 및 콘텐츠 개선 프로세스가 간소화됩니다."
+>title="Journey Optimizer에서 콘텐츠 생성"
+>abstract="게재 내용을 작성하고 개인화한 후 AI를 사용하여 콘텐츠를 편집하고 개선할 수 있습니다. 이 기능을 사용하면 생성하려는 내용을 설명하여 콘텐츠를 더욱 세부적으로 조정할 수 있어 개인화 및 콘텐츠 개선 프로세스가 간소화됩니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_context"
 >title="브랜드 에셋 업로드"
->abstract="브랜드 자산 업로드 메뉴를 사용하면 Journey Optimizer에서 컨텐츠 생성에 대한 추가 컨텍스트를 제공하거나 이전에 업로드한 자산을 선택할 수 있는 컨텐츠가 포함된 브랜드 자산을 추가할 수 있습니다. 이 옵션을 사용하면 콘텐츠 생성에서 기능과 연관성을 높이기 위해 필요한 모든 자료에 액세스할 수 있습니다."
+>abstract="브랜드 에셋 업로드 메뉴를 이용하면 Journey Optimizer의 콘텐츠 생성에 추가 컨텍스트를 제공할 수 있는 콘텐츠가 포함된 브랜드 에셋을 추가하거나 이전에 업로드한 에셋을 선택할 수 있습니다. 이 옵션을 사용하면 콘텐츠 생성이 기능과 관련성을 개선하는 데 필요한 모든 자료에 액세스할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_start"
@@ -145,7 +134,7 @@ Adobe Journey Optimizer에서 콘텐츠 생성을 사용하여 이메일을 생�
 
 ### 콘텐츠 품질, 프롬프트, 피드백
 
-* 생성된 콘텐츠의 품질은 사용자가 정의한 마케팅 목표/프롬프트의 영향을 크게 받습니다. 생성형 AI 모델이 정확하게 해석할 수 있도록 잘 정의된 프롬프트를 사용해야 합니다. 
+* 생성된 콘텐츠의 품질은 사용자가 정의한 마케팅 목표/프롬프트의 영향을 크게 받습니다. GenAI 모델에 대해 잘 정의된 프롬프트를 사용하여 정확하게 해석하십시오. 
 * GenAI 콘텐츠가 항상 정확하지는 않을 수 있습니다. 엔지니어가 모델을 개선할 수 있도록 피드백을 공유해 주십시오.
 * 변형을 선택할 때 엄지손가락 위로, 엄지손가락 아래로, 플래그 아이콘 중하나를 사용하여 문제가 있는 출력을 보고하십시오.
 
@@ -162,7 +151,7 @@ Adobe Journey Optimizer에서 콘텐츠 생성을 사용하여 이메일을 생�
 ### 법적 사용 및 투명성
 
 * 콘텐츠 생성 의 사용은 Adobe Experience Cloud 생성 AI 사용자 지침의 적용을 받습니다. [자세히 알아보기](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
-* 미디어 제작에서 생성 AI 도구 사용의 투명성을 증진하기 위한 Adobe의 약속의 일환으로 Adobe은 Firefly 생성 에셋이 포함된 콘텐츠 또는 프로젝트를 다운로드하거나 내보낼 때 Content Credentials을 적용합니다. [자세히 알아보기](https://helpx.adobe.com/kr/firefly/using/content-credentials.html)
+* 미디어 제작에서 생성형 AI 도구 사용의 투명성을 증진하기 위한 Adobe의 약속의 일부로, Adobe는 Firefly 생성 자산이 포함된 콘텐츠 또는 프로젝트를 다운로드하거나 내보낼 때 Content Credentials를 적용합니다. [자세히 알아보기](https://helpx.adobe.com/firefly/using/content-credentials.html)
   <!--* See [Content Credentials in AI Assistant](generative-content-credentials.md) for details on which actions attach Content Credentials and what happens as your content moves.-->
 
 ### 개인화 표현식에 대한 콘텐츠 생성 {#ai-assistant-personalization-editor-guardrails}

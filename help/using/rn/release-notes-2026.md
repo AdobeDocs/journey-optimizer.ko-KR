@@ -8,15 +8,11 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 65ca94cf-8e17-4a25-90f3-238083f81477
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: 7e84f06def3d352eb2ecf0b26d89402297e6236e
 workflow-type: tm+mt
-source-wordcount: 10054
+source-wordcount: 10072
 ht-degree: 95%
 
 ---
@@ -258,7 +254,7 @@ ht-degree: 95%
 <p>검사 결과는 작성 패널에 오류, 경고 또는 정보 알림으로 표시되며, 상황별 세부 정보와 가능한 경우 원클릭 수정 기능이 제공되므로 편집기를 종료하지 않고도 문제를 해결할 수 있습니다.</p>
 <p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
 <p><img src="assets/do-not-localize/content-check.gif"></p>
-<p>자세한 내용은 <a href="../email/content-check.md">세부 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../email/content-check.md">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2026년 6월 18일</p>
 </td>
 </tr>
@@ -887,7 +883,7 @@ The following orchestrated campaign capability is expected in the upcoming days 
 <td>
 <p>Adobe Journey Optimizer의 <b>Adobe Express 통합</b>을 사용하면 콘텐츠 제작 시 Adobe Express의 편집 도구를 직접 사용하여 에셋의 크기를 조정하고 배경을 제거하고 자르고 JPEG 또는 PNG로 변환할 수 있습니다.
 </p>
-<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
+<p>이전에 제한 공급 상태로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 공급).</p>
 <p><img src="assets/do-not-localize/express_resize.gif"></p>
 <p>자세한 내용은 <a href="../integrations/express.md">세부 설명서</a>를 참조하십시오.</p>
 <p>가용성 일자: 2026년 4월 23일</p>
@@ -943,7 +939,7 @@ The following orchestrated campaign capability is expected in the upcoming days 
 <tbody>
 <tr>
 <td>
-<p>새로운 <strong>최적화</strong> 노드를 사용하여 A/B 테스트 또는 다중 암 밴딧 실험을 실행하고 비즈니스 중심 KPI를 달성하는 최적의 경로를 결정합니다. 이 도구를 사용하면 고객에게 가장 효과적으로 도달할 수 있도록 커뮤니케이션, 순서 및 타이밍을 테스트, 변경 및 맞춤 설정할 수 있습니다.
+<p>새로운 <strong>최적화</strong> 노드를 사용하여 A/B 테스트 또는 멀티암 밴딧 실험을 실행하여 비즈니스 중심 KPI를 충족하는 최적의 경로를 결정합니다. 이 도구를 사용하면 커뮤니케이션, 시퀀스 및 타이밍을 테스트하고, 다양화하고, 사용자 정의하여 고객에게 가장 효과적으로 다가갈 수 있습니다.
 </p>
 <p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
 <p>이번 일반 출시에는 <strong>실험 유형</strong> 선택(A/B 또는 멀티암 밴딧) 및 단일 여정에 대한 <strong>성과 극대화</strong> 기능이 도입되었습니다.</p>
@@ -1079,7 +1075,7 @@ The following orchestrated campaign capability is expected in the upcoming days 
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 **출시일**: 2026년 3월 24~25일
@@ -1833,7 +1829,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 
 * **AI 어시스턴트 콘텐츠 품질 검사** - 이제 브랜드 일관성 외에도 전체 <strong>콘텐츠 품질</strong>을 평가하여 브랜드 가이드라인과 별개로 <strong>가독성</strong>, 일치도, 효과성 관련 잠재적인 문제를 찾을 수 있습니다. 이 자동화된 검사는 명확하지 않은 메시지, 일관되지 않은 톤 또는 구조적으로 빠진 부분을 식별하는 데 도움이 됩니다. [자세히 보기](../content-management/brands-score.md#validate-quality).
 
-  [비디오에서 이 기능을 살펴보십시오](https://video.tv.adobe.com/v/3470553/?captions=kor&learn=on).
+  [비디오에서 이 기능을 살펴보십시오](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### 여정
 

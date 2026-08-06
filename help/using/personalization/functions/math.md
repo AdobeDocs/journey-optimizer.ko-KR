@@ -6,12 +6,11 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b9149ad6-2be7-4bdf-82eb-7ab52780cb4e
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2: []
 source-git-commit: c440ff464b2ea58519e6f1ba900728adfa718232
 workflow-type: tm+mt
-source-wordcount: 267
+source-wordcount: 275
 ht-degree: 5%
 
 ---
@@ -131,7 +130,7 @@ ht-degree: 5%
 ## 전체 자릿수로 {#to-precision}
 
 `toPrecision` 함수는 숫자를 고정된 소수 자릿수로 변환하고 0으로 채워진 문자열을 반환합니다.
-이 함수는 JavaScript `toFixed()` 동작과 동일합니다.
+이 함수는 JavaScript `toFixed()` 동작과 같습니다.
 
 **구문**
 

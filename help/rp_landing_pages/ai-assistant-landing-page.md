@@ -8,7 +8,7 @@ exl-id: 0fdc67ab-3646-4c6e-884d-604238549c3d
 source-git-commit: de2272c6d570047cd386941cd2e38cf82942c029
 workflow-type: tm+mt
 source-wordcount: '318'
-ht-degree: 35%
+ht-degree: 37%
 
 ---
 
@@ -20,17 +20,17 @@ Adobe Journey Optimizer의 콘텐츠 생성 기능은 생성 AI를 활용하여 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 콘텐츠 생성 시작하기
 
 콘텐츠 생성 을 액세스 및 구성하여 콘텐츠 생성 및 개인화를 향상시키는 방법에 대해 알아봅니다.
 
-[콘텐츠 생성 시작](../using/content-management/gs-generative.md)
+[콘텐츠 생성 시작하기](../using/content-management/gs-generative.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 전체 콘텐츠 생성
 
@@ -40,7 +40,7 @@ AI를 사용하여 이메일, 푸시 알림, 웹 페이지 및 랜딩 페이지�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 텍스트만 생성
 
@@ -50,7 +50,7 @@ AI를 사용하여 이메일, SMS, 푸시 알림, 웹 페이지 및 랜딩 페�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
 
 이미지만 생성
 

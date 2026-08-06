@@ -8,24 +8,12 @@ role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
 TQID: https://experienceleague.adobe.com/i5xKfvLh9J1Ec3ux19XJhWDGhAdQ2ZVIbvyMk2W6UW4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-subfeature_v2:
-  - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-  - id: c08fcc42-2918-421a-a25e-e1bd9464c290
-  - id: c6fdb8b1-45ee-460a-a859-9031c59118b7
-  - id: d16f7424-4847-4b90-a37c-4b52cbdabee5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+subfeature_v2: id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74id: c08fcc42-2918-421a-a25e-e1bd9464c290id: c6fdb8b1-45ee-460a-a859-9031c59118b7id: d16f7424-4847-4b90-a37c-4b52cbdabee5
 source-git-commit: 7cf2235a14f9ebb49fac02161743f75fee141504
 workflow-type: tm+mt
 source-wordcount: 1048
@@ -145,7 +133,7 @@ Adobe Campaign Standard과 통합하여 여정에서 메시지를 보내도록 �
 
 Adobe Workfront의 Adobe Journey Optimizer 모듈을 사용하여 레코드를 생성하고 읽거나 업데이트 또는 삭제하거나 Adobe Journey Optimizer API에 대한 사용자 정의 API 호출을 수행할 수 있습니다.
 
-이 통합의 주요 단계에 대한 개요를 이 블로그 게시물에서 [사용할 수 있습니다](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685?profile.language=ko){target="_blank"}.
+이 통합의 주요 단계에 대한 개요를 이 블로그 게시물에서 [사용할 수 있습니다](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}.
 
 Journey Optimizer + Adobe Workfront에 대해 자세히 알아보기 [Adobe Workfront 설명서](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=ko){target="_blank"}.
 

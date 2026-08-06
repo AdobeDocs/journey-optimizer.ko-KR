@@ -10,23 +10,12 @@ level: Intermediate
 keywords: marketo, marketo engage 통합
 exl-id: 70d1ef5a-743b-4362-bb65-93a8c996209f
 TQID: https://experienceleague.adobe.com/-aRINahKmp9bI1tyW-XA-LzZOFeoEPXpWoH8JydG6Rk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: df401a2a-327d-468c-a5e4-b7b7ccd071a0id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
 source-wordcount: 352
@@ -62,7 +51,7 @@ Journey Optimizer에서 Marketo Engage에 대한 사용자 지정 작업을 구�
 
 1. 관리 메뉴 섹션에서 **[!UICONTROL 구성]**&#x200B;을(를) 선택합니다.
 1. **[!UICONTROL 작업]** 섹션에서 **[!UICONTROL 작업 만들기]**&#x200B;를 클릭합니다. 작업 구성 창이 화면 오른쪽에 열립니다.
-1. 이름, 설명을 입력하고 **Adobe Marketo Engage**&#x200B;을(를) **작업 유형**(으)로 선택합니다.
+1. 이름, 설명을 입력하고 **Adobe Marketo Engage**&#x200B;을(를) **작업 유형으로 선택하십시오.**
    ![](assets/engage-customaction-creation.png){width="40%"}
 1. **요청** 및 **응답** 페이로드에 대한 **페이로드 편집** 아이콘을 클릭합니다.
 1. 두 경우 모두 페이로드를 구성하고 전용 팝업에 붙여 넣습니다.

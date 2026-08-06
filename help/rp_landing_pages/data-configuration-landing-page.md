@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 데이터 구성은 데이터를 구성하고 연결�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 관계형 스키마 및 데이터 세트 관리
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 데이터 구성은 데이터를 구성하고 연결�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 타기팅 차원을 구성하는 방법
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer의 데이터 구성은 데이터를 구성하고 연결�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 채널 구성 설정
 

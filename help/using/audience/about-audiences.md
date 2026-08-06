@@ -9,22 +9,12 @@ role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 TQID: https://experienceleague.adobe.com/OL0VFfxegvbTbSLKeqFaUNTeZllmFtjMW6bmh1XDF00
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
 workflow-type: tm+mt
 source-wordcount: 691
@@ -60,7 +50,7 @@ Adobe Journey Optimizer은 대상을 만들고, 관리하고, 보강하여 마�
 
 이 설명서는 [!DNL Adobe Journey Optimizer] 내의 대상자를 사용하여 작업하는 방법에 대한 정보를 제공합니다. 대상자 포털 및 대상자에 대한 자세한 내용은 Adobe Experience Platform 세그멘테이션 서비스 설명서에서 확인할 수 있습니다. 자세한 내용은 다음 섹션을 참조하십시오.
 
-* [세그먼테이션 서비스 UI 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/overview){target="_blank"}
+* [세그먼테이션 서비스 UI 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/overview){target="_blank"}
 
 * [세그먼테이션 서비스 - 자주 묻는 질문](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/faq){target="_blank"}
 

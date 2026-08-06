@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 이메일 Designer의 모듈 사용
+title: 이메일 디자이너의 모듈 사용
 description: 즉시 사용 가능한 모듈을 사용하여 Adobe Journey Optimizer에서 이메일을 더 빠르게 작성하는 방법에 대해 알아봅니다.
 feature: Email Design
 topic: Content Management
@@ -11,12 +11,12 @@ keywords: 모듈, 이메일 디자이너, 머리글, 영웅, 카드, 바닥글, 
 source-git-commit: 98c7e06f9677380ad8339ccb25318185d2e84489
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
 
-# 이메일 Designer의 모듈 사용 {#email-layout-modules}
+# 이메일 디자이너의 모듈 사용 {#email-layout-modules}
 
 >[!BEGINSHADEBOX]
 
@@ -26,8 +26,8 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ac_email_modules"
->title="모듈 기본 정보"
->abstract="모듈은 이메일 캔버스로 바로 드래그하여 놓을 수 있는 사전 정의된 재사용 가능한 이메일 레이아웃 블록입니다. 각 모듈에는 WYSIWYG 인터페이스를 통해 사용자 지정할 수 있는 편집 가능한 속성(이미지, 텍스트, 버튼 및 링크 등)이 선별되어 사전 구성되어 있습니다."
+>title="모듈 소개"
+>abstract="모듈은 미리 정의되어 이메일 캔버스로 바로 드래그 앤 드롭하여 사용할 수 있는 재사용 가능한 이메일 레이아웃 블록입니다. 각 모듈에는 WYSIWYG 인터페이스를 통해 사용자 정의할 수 있는 엄선된 편집 가능 속성(이미지, 텍스트, 버튼, 링크 등)이 미리 구성되어 있습니다."
 
 이메일 Designer에는 **모듈** 라이브러리가 포함되어 있습니다. 사용 준비가 되었으며 완전히 구조화된 콘텐츠 블록은 이메일 어셈블리를 가속화하고 커뮤니케이션 전반에 걸쳐 디자인 일관성을 증진하도록 설계되었습니다.
 

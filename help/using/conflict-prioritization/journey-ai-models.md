@@ -7,10 +7,8 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="제한 공개" type="Informative"
 exl-id: 3e7c3069-b022-4709-936d-acaad56b5882
-feature_v2:
-  - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
-subfeature_v2:
-  - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
+feature_v2: id: fd59660e-de8a-4bfb-85dc-7fa546030c49
+subfeature_v2: id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
 source-git-commit: 959b50c98e32afb2b3fa52692697cd75833932be
 workflow-type: tm+mt
 source-wordcount: 701
@@ -77,7 +75,7 @@ Do you need specific permissions to create AI models?
    * **노출 이벤트**(표시되는 항목)
    * **전환 이벤트**(클릭 또는 전환을 초래하는 항목)
 
-   이러한 이벤트는 웹 SDK 또는 모바일 SDK을 사용하여 자동으로 캡처됩니다. [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko) 개요에서 자세히 알아보세요.
+   이러한 이벤트는 웹 SDK 또는 모바일 SDK을 사용하여 자동으로 캡처됩니다. [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) 개요에서 자세히 알아보세요.
 
 1. 전환 및 노출 이벤트가 수집되는 데이터 세트를 선택합니다. [이 섹션](../experience-decisioning/data-collection/create-dataset.md)에서 이러한 데이터 세트를 만드는 방법을 알아보세요.
 
@@ -87,7 +85,7 @@ Do you need specific permissions to create AI models?
    >
    >**[!UICONTROL 경험 이벤트 - 제안 상호 작용]** 필드 그룹과 연결된 스키마에서 만든 데이터 세트만 드롭다운 목록에 표시됩니다. 최대 5개의 데이터 세트를 선택할 수 있습니다.
 
-1. &#x200B;<!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->AI 모델을 교육하는 데 사용할 세그먼트를 선택합니다.
+1. <!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->AI 모델을 교육하는 데 사용할 세그먼트를 선택합니다.
 
    >[!NOTE]
    >

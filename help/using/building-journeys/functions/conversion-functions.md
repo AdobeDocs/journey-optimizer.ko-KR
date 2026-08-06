@@ -9,12 +9,9 @@ keywords: 전환, 함수, 표현식, 여정, 유형, 캐스트
 version: Journey Orchestration
 exl-id: f1267c9e-200c-43ae-8b98-3c5951a2f2d7
 TQID: https://experienceleague.adobe.com/CoDxFCoJOwwmPHOG6pxMxmSASUbATkUoguBjNkrMKeQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 subfeature_v2: []
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
@@ -175,7 +172,7 @@ dateOnly를 반환합니다.
 
 +++매개변수
 
-| 매개변수 | 설명 |
+| 매개 변수 | 설명 |
 |--- |--- |
 | 문자열 | ISO-8601 형식의 날짜 시간입니다. 시간대 정보가 있는 날짜/시간의 문자열 표현 |
 | 문자열 | 시간대 id입니다. 시간대 식별자(예: &quot;UTC&quot;, &quot;Europe/Paris&quot;) |
@@ -282,7 +279,7 @@ Unix 타임스탬프(밀리초)를 dateTime 값으로 변환합니다.
 
 +++매개변수
 
-| 매개변수 | 설명 |
+| 매개 변수 | 설명 |
 |--- |--- |
 | 문자열 | 문자열 값을 소수로 변환합니다. |
 | dateTime | 날짜를 밀리초 단위로 변환(에포크 밀리초) |
@@ -325,7 +322,7 @@ Unix 타임스탬프(밀리초)를 dateTime 값으로 변환합니다.
 
 +++매개변수
 
-| 매개변수 | 설명 |
+| 매개 변수 | 설명 |
 |--- |--- |
 | 문자열 | ISO-8601 기간 형식 PnDTnHnMn.nS를 기반으로 하는 형식이며, 일 수는 정확히 24시간으로 간주됩니다. |
 | 정수 | 시간(밀리초) |
@@ -374,7 +371,7 @@ Unix 타임스탬프(밀리초)를 dateTime 값으로 변환합니다.
 
 +++매개변수
 
-| 매개변수 | 설명 |
+| 매개 변수 | 설명 |
 |--- |--- |
 | 문자열 | 문자열 값을 정수로 변환합니다. |
 | dateTime | 날짜를 밀리초 단위로 변환(에포크 밀리초) |
@@ -419,7 +416,7 @@ Unix 타임스탬프(밀리초)를 dateTime 값으로 변환합니다.
 
 +++매개변수
 
-| 매개변수 | 설명 |
+| 매개 변수 | 설명 |
 |--- |--- |
 | dateTime | 날짜를 UTC 날짜 형식으로 변환 |
 | dateTimeOnly | 날짜를 UTC 날짜 형식으로 변환 |
