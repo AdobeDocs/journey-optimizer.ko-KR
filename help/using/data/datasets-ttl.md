@@ -9,27 +9,15 @@ level: Experienced
 keywords: Platform, Data Lake, 만들기, 레이크, 데이터 세트, 프로필
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
 TQID: https://experienceleague.adobe.com/DvcQ6AcWhNIZXnTtmPozvSTp1Ait-oo-8wlo8hQ6xlI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
-subfeature_v2:
-  - id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371
-  - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
-  - id: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: c440ff464b2ea58519e6f1ba900728adfa718232
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
+subfeature_v2: id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371id: d6e5c7fd-c1d6-4137-98cd-138ccde6752fid: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: 56ef8c0d762debc0607c3322fd36f5a9da472eaa
 workflow-type: tm+mt
-source-wordcount: 1226
-ht-degree: 10%
+source-wordcount: 1422
+ht-degree: 11%
 
 ---
 
@@ -50,19 +38,31 @@ ht-degree: 10%
 
 ## 영향을 받는 데이터 세트 {#datasets}
 
-아래 표에는 영향을 받는 모든 데이터 세트와 데이터 레이크 및 [프로필 저장소](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko#profile-data-store){target="_blank"}에서 해당 TTL(Time-To-Live)이 나와 있습니다.
+아래 표에는 데이터 레이크 및 [프로필 저장소](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}에서 각각의 TTL(Time-To-Live)이 포함된 Journey Optimizer 시스템 생성 데이터 세트가 모두 나와 있습니다. 시계열 데이터 세트에는 TTL이 적용됩니다. 레코드 유형 데이터 세트는 참조를 위해 나열되며 두 열에 `n/a`(으)로 표시됩니다. 가용성 열은 데이터 세트가 기본적으로 포함되는지 또는 특정 추가 기능 또는 라이센스가 필요한지 여부를 나타냅니다.
 
-| 데이터 세트 | 데이터 레이크 TTL | 프로필 스토어 TTL |
-|------|-----|-----|
-| AJO 메시지 피드백 이벤트 데이터 세트 | 13개월 | 90일 |
-| AJO 이메일 추적 경험 이벤트 데이터 세트 | 13개월 | 90일 |
-| AJO 푸시 추적 경험 이벤트 데이터 세트 | 13개월 | 90일 |
-| AJO 표면 데이터 세트 | 13개월 | 해당 사항 없음 |
-| AJO 인바운드 활동 이벤트 데이터 세트 | 13개월 | 90일 |
-| AJO 보조 수신자 피드백 이벤트 데이터 세트 | 13개월 | 해당 사항 없음 |
-| 엔티티 이벤트 데이터 세트 | 13개월 | 해당 사항 없음 |
-| 여정 단계 이벤트 | 13개월 | 해당 사항 없음 |
-| ODE DecisionEvents - prod decisioning | 13개월 | 해당 사항 없음 |
+| 데이터 세트 | 가용성 | 데이터 레이크 TTL | 프로필 스토어 TTL |
+|------|-----|-----|-----|
+| AJO 메시지 피드백 이벤트 데이터 세트 | 포함됨 | 13개월 | 90일 |
+| AJO 이메일 추적 경험 이벤트 데이터 세트 | 포함됨 | 13개월 | 90일 |
+| AJO 푸시 추적 경험 이벤트 데이터 세트 | 포함됨 | 13개월 | 90일 |
+| AJO 표면 데이터 세트 | 포함됨 | 13개월 | 해당 사항 없음 |
+| AJO 인바운드 활동 이벤트 데이터 세트 | 포함됨 | 13개월 | 해당 사항 없음 |
+| AJO 보조 수신자 피드백 이벤트 데이터 세트 | 포함됨 | 13개월 | 해당 사항 없음 |
+| AJO 엔터티 데이터 집합 *(이전의 엔터티 이벤트 데이터 집합)* | 포함됨 | 해당 사항 없음 | 해당 사항 없음 |
+| 여정 단계 이벤트 | 포함됨 | 13개월 | 해당 사항 없음 |
+| AJO ExD 결정 이벤트 데이터 세트 *(이전의 ODE DecisionEvents - prod decisioning)* | 의사 결정 추가 기능 필요 | 13개월 | 해당 사항 없음 |
+| AJO 라이브 활동 피드백 이벤트 데이터 세트 | 포함됨 | 13개월 | 해당 사항 없음 |
+| AJO STO 요약 데이터 세트 | 포함됨 | 13개월 | 해당 사항 없음 |
+| AJO 동의 서비스 데이터 세트 | 포함됨 | 13개월 | 90일 |
+| AJO 대화형 메시징 프로필 데이터 세트 | 포함됨 | 13개월 | 90일 |
+| AJO 푸시 프로필 데이터 세트 | 포함됨 | 13개월 | 90일 |
+| AJO 프로필 카운터 확장 | 포함됨 | 13개월 | 90일 |
+| 여정 인바운드 | 포함됨 | 13개월 | 90일 |
+| AJO 분류 데이터 세트 | 포함됨 | 해당 사항 없음 | 해당 사항 없음 |
+| AJO 채널 추적 이벤트 데이터 세트 | 포함됨 | 13개월 | 90일 |
+| Adobe 로열티 챌린지 상태 변경 이벤트 데이터 세트 | Journey Optimizer 로열티 라이선스 필요 | 13개월 | 해당 사항 없음 |
+| AJO 메시지 내보내기 데이터 세트 | 메시지 내보내기 추가 기능 필요 | 30일 | 해당 사항 없음 |
+| AJO 메시지 이벤트 메타데이터 데이터 세트 | 메시지 내보내기 추가 기능 필요 | 30일 | 해당 사항 없음 |
 
 ## 자주 묻는 질문 {#faq}
 
@@ -72,7 +72,7 @@ ht-degree: 10%
 
 +++TTL이 적용되는 데이터 세트 유형은 무엇입니까?
 
-TTL은 시계열 데이터 세트에만 적용됩니다. 레코드 유형 데이터 세트(예: 엔티티 데이터 세트, 분류 데이터 세트 및 의사 결정 오브젝트 저장소)는 TTL의 적용을 받지 않으므로 위의 영향을 받는 데이터 세트 표에 표시되지 않습니다.
+TTL은 시계열 데이터 세트에만 적용됩니다. 레코드 유형 데이터 세트(예: 엔티티 데이터 세트 및 분류 데이터 세트)는 TTL의 적용을 받지 않습니다. 이러한 속성은 참조를 위해 위의 표에 나열되며 `n/a`은(는) 데이터 레이크 TTL 및 프로필 저장소 TTL 열에 모두 표시되어 있습니다.
 
 +++
 
@@ -100,13 +100,13 @@ TTL 확장은 현재 지원되지 않습니다. 그러나 2025년 후반부터 �
 
 >[!NOTE]
 >
->프로필에 저장된 데이터는 총 데이터 볼륨 권한에 속합니다. 따라서 TTL 확장으로 인한 프로필의 데이터 저장소 증가는 총 데이터 볼륨 권한에 대해 계산됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=ko){target="_blank"}
+>프로필에 저장된 데이터는 총 데이터 볼륨 권한에 속합니다. 따라서 TTL 확장으로 인한 프로필의 데이터 저장소 증가는 총 데이터 볼륨 권한에 대해 계산됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html){target="_blank"}
 
 +++
 
 +++고객이 데이터 레이크에서 [!DNL Journey Optimizer] 시스템 데이터 세트 데이터의 TTL을 늘릴 수 있습니까? 
 
-TTL 확장은 현재 지원되지 않습니다. 고객은 대상 을 통해 데이터를 내보내 데이터를 더 오래 유지할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=ko){target="_blank"} 또한 **[!DNL Data Distiller]** 권한이 있는 고객은 파생 데이터 세트를 만들어 TTL 없이 데이터 레이크에 데이터를 저장할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/query/data-distiller/derived-datasets/overview){target="_blank"}
+TTL 확장은 현재 지원되지 않습니다. 고객은 대상 을 통해 데이터를 내보내 데이터를 더 오래 유지할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target="_blank"} 또한 **[!DNL Data Distiller]** 권한이 있는 고객은 파생 데이터 세트를 만들어 TTL 없이 데이터 레이크에 데이터를 저장할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/derived-datasets/overview){target="_blank"}
 
 +++
 
@@ -146,8 +146,8 @@ TTL 확장은 현재 지원되지 않습니다. 고객은 대상 을 통해 데�
 
 장기 보존이 필요한 고객은 다음 두 가지 옵션을 사용할 수 있습니다.
 
-* **외부 저장소로 내보내기**: TTL 만료 전에 AJO 데이터 세트에서 관련 데이터를 내보냅니다. Adobe Journey Optimizer은 다양한 클라우드 스토리지 대상(Amazon S3, Azure Blob, Google Cloud Storage 등)으로 데이터 세트 내보내기를 지원합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=ko){target="_blank"}
-* **Data Distiller 파생 데이터 세트**: Data Distiller 권한이 있는 고객은 자동화된 쿼리를 설정하여 중요한 데이터를 TTL 없이 저장할 수 있는 데이터 레이크의 파생 데이터 세트에 복사할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/query/data-distiller/derived-datasets/overview){target="_blank"}
+* **외부 저장소로 내보내기**: TTL 만료 전에 AJO 데이터 세트에서 관련 데이터를 내보냅니다. Adobe Journey Optimizer은 다양한 클라우드 스토리지 대상(Amazon S3, Azure Blob, Google Cloud Storage 등)으로 데이터 세트 내보내기를 지원합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target="_blank"}
+* **Data Distiller 파생 데이터 세트**: Data Distiller 권한이 있는 고객은 자동화된 쿼리를 설정하여 중요한 데이터를 TTL 없이 저장할 수 있는 데이터 레이크의 파생 데이터 세트에 복사할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/derived-datasets/overview){target="_blank"}
 
 +++
 
