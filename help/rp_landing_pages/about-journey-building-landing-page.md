@@ -50,7 +50,7 @@ Adobe Journey Optimizer의 이벤트, 오케스트레이션 및 액션 활동을
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 대상자 선별 이벤트
 

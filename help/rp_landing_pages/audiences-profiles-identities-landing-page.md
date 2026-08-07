@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 대상, 프로필 및 ID는 [Adobe 실시간 고객 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user-circle.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/user-circle.svg?lang=ko)
 
 프로필: 고객 데이터 관리 및 최적화
 

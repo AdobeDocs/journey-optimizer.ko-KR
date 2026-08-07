@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 콘텐츠 생성 기능은 생성 AI를 활용하여 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 콘텐츠 생성 시작하기
 

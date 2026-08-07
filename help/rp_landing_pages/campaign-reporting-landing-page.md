@@ -50,7 +50,7 @@ Adobe Journey Optimizer의 Campaign 보고서를 사용하면 다양한 채널�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
 
 다이렉트 메일 캠페인 보고서
 
