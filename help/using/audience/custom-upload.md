@@ -9,18 +9,11 @@ role: User
 level: Beginner
 exl-id: 71c652ba-f38f-452c-9c1b-dcd728307baf
 TQID: https://experienceleague.adobe.com/HkybhydJwQDHVEXCKM5o16ZNeiBk-n9mogm-2pwFKus
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 22d6cddf35fa26a5fd3f0eddc74ed15faf9d6503
 workflow-type: tm+mt
 source-wordcount: 183
@@ -50,4 +43,4 @@ Adobe Experience Platform 대상 포털을 사용하면 CSV 파일을 사용하�
 
 비디오에서 대상을 CSV 형식으로 업로드하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3423360?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3421714?quality=12)

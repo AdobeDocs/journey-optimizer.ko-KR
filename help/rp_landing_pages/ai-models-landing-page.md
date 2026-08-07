@@ -25,7 +25,7 @@ Adobe Journey Optimizer의 AI 모델은 비즈니스 목표에 맞게 오퍼의 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 AI 모델 시작
 

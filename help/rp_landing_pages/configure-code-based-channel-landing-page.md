@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 코드 기반 채널 구성 섹션을 사용하면 �
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 코드 기반 경험 전제 조건
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 코드 기반 채널 구성 섹션을 사용하면 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 코드 기반 경험 표면
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer의 코드 기반 채널 구성 섹션을 사용하면 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 코드 기반 경험 구성 만들기
 

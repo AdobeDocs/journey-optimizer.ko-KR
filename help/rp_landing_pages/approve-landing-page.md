@@ -20,7 +20,7 @@ Adobe Journey Optimizer에서 여정 및 캠페인을 승인하면, 모든 프�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 여정 및 캠페인 승인 설정 및 관리
 

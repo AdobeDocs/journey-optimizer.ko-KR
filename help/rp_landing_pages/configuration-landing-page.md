@@ -26,7 +26,7 @@ Adobe Journey Optimizer의 채널 구성을 통해 이메일, SMS, 푸시 알림
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 채널 구성 시작
 
@@ -36,7 +36,7 @@ Adobe Journey Optimizer의 채널 구성을 통해 이메일, SMS, 푸시 알림
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 채널 구성 설정 및 관리
 
@@ -76,7 +76,7 @@ IP 준비 계획을 만들고 실행하여 발신자로서의 평판을 확립�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 이메일 전달성 및 평판 모니터링
 

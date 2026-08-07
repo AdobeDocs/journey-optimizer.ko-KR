@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 &#39;전체 시간 보고서&#39;는 시간 경과에
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 전체 시간 보고 시작
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 &#39;전체 시간 보고서&#39;는 시간 경과에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 종합 지표 목록
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer의 &#39;전체 시간 보고서&#39;는 시간 경과에
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Customer Journey Analytics 수동 구성
 
