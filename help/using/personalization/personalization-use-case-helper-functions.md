@@ -366,7 +366,7 @@ ht-degree: 1%
 
 도우미 함수를 사용하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3416646?captions=kor&quality=12)
 
 ## 빠른 참조 {#quick-reference}
 
