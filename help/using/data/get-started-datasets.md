@@ -47,7 +47,7 @@ Adobe Experience Platform에 수집되는 모든 데이터는 데이터 세트�
 
 ## 가드레일 및 제한 사항
 
-* 2024년 11월 1일부로 스트리밍 세분화는 더 이상 [!DNL Journey Optimizer] 추적 및 피드백 데이터 세트의 전송 및 열기 이벤트를 지원하지 않습니다. 빈도 캡핑 또는 피로도 관리를 구현하려면 해당 이벤트 대신 비즈니스 규칙을 사용하십시오. [이 섹션](../conflict-prioritization/rule-sets.md)에서 자세한 내용을 확인할 수 있으며, [여기](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}에는 일별 캡핑 사용 사례 설명이 있습니다.
+* 2024년 11월 1일부로 스트리밍 세분화는 더 이상 [!DNL Journey Optimizer] 추적 및 피드백 데이터 세트의 전송 및 열기 이벤트를 지원하지 않습니다. 빈도 캡핑 또는 피로도 관리를 구현하려면 해당 이벤트 대신 비즈니스 규칙을 사용하십시오. [이 섹션](../conflict-prioritization/rule-sets.md)에서 자세한 내용을 확인할 수 있으며, [여기](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=ko){target="_blank"}에는 일별 캡핑 사용 사례 설명이 있습니다.
 
 * 2025년 2월부로 TTL(Time-to-Live) 가드레일이 Journey Optimizer 시스템 생성 데이터 세트에 배포됩니다. [자세히 알아보기](datasets-ttl.md)
 
@@ -133,8 +133,8 @@ Adobe Experience Platform에 수집되는 모든 데이터는 데이터 세트�
 
 자세한 지침은 Adobe Experience Platform 설명서를 참조하십시오.
 
-* [프로필 활성화 계획](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"} — ID 구성, 필드 그룹 선택 및 데이터 세트 목적 유효성 검사에 대한 사전 활성화 검사 목록.
-* [프로필 사용 스키마 관리](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"} — 이름 바꾸기 전략을 포함하여 프로필 사용 스키마를 사용하지 않는 방법에 대한 지침입니다.
+* [프로필 활성화 계획](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"} — ID 구성, 필드 그룹 선택 및 데이터 세트 목적 유효성 검사에 대한 사전 활성화 검사 목록.
+* [프로필 사용 스키마 관리](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"} — 이름 바꾸기 전략을 포함하여 프로필 사용 스키마를 사용하지 않는 방법에 대한 지침입니다.
 
 ## 데이터 거버넌스
 
@@ -158,4 +158,4 @@ Adobe Experience Platform에 수집되는 모든 데이터는 데이터 세트�
 >* [데이터 세트 설명서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=ko){target="_blank"}
 >* [데이터 수집 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ko){target="_blank"}.
 >* [데이터 관리 라이선스 권한 부여 모범 사례](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/license/data-management-best-practices#data-management-best-practices){target="_blank"}
->* [프로필 사용 스키마 관리](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
+>* [프로필 사용 스키마 관리](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
