@@ -20,7 +20,7 @@ Adobe Journey Optimizer에는 여정 내에 복잡한 로직을 작성할 수 �
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 고급 표현식 편집기 사용
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer에는 여정 내에 복잡한 로직을 작성할 수 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 표현식의 고급 구문
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 고급 표현식을 작성하는 데 필요한 구
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Adobe Journey Optimizer의 함수
 

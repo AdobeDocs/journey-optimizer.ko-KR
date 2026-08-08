@@ -57,7 +57,7 @@ Adobe Journey Optimizer는 대상자와 효과적으로 교류할 수 있는 다
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ko)
 
 푸시 알림 채널
 
@@ -67,7 +67,7 @@ Adobe Journey Optimizer는 대상자와 효과적으로 교류할 수 있는 다
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=ko)
 
 iOS 라이브 활동
 
@@ -87,7 +87,7 @@ iPhone 잠금 화면 및 Dynamic Island에 직접 지속적인 실시간 업데�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=ko)
 
 DM
 
@@ -125,7 +125,7 @@ LINE 메시지
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=ko)
 
 인앱 메시지
 

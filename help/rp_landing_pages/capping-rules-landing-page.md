@@ -32,7 +32,7 @@ Adobe Journey Optimizer에서 메시지 빈도 및 여정 진입 규칙을 제�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 여정 캡핑 및 중재
 

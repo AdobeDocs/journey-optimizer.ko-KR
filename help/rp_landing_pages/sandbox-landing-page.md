@@ -31,7 +31,7 @@ Adobe Journey Optimizer에서 환경 분할을 위한 샌드박스를 관리하�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 샌드박스 간 개체 복사
 

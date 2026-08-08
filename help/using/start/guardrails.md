@@ -24,10 +24,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 7e84f06def3d352eb2ecf0b26d89402297e6236e
+source-git-commit: 40f1cad3e5c524514ba642c87040085c179c8e82
 workflow-type: tm+mt
-source-wordcount: 4612
-ht-degree: 93%
+source-wordcount: 4611
+ht-degree: 92%
 
 ---
 
@@ -64,7 +64,7 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 * 프로필 저장소의 데이터는 **90일**
 * 데이터 레이크의 데이터는 **13개월**
 
-이 변경 사항은 차후 **기존 고객 샌드박스**&#x200B;에 대해서도 롤아웃됩니다. [데이터 세트 TTL(Time-To-Leave) 가드레일에 대해 자세히 알아보기](../data/datasets-ttl.md)
+이 변경 사항은 **2026년 10월 1일**&#x200B;부터 **기존 고객 샌드박스**&#x200B;에 적용됩니다. [데이터 세트 TTL(Time-To-Leave) 가드레일에 대해 자세히 알아보기](../data/datasets-ttl.md)
 
 ## 여정 {#journeys-guardrails}
 

@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 콘텐츠 생성 기능은 생성 AI를 활용하여 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 전체 콘텐츠 생성
 
@@ -40,7 +40,7 @@ AI를 사용하여 이메일, 푸시 알림, 웹 페이지 및 랜딩 페이지�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 텍스트만 생성
 
@@ -50,7 +50,7 @@ AI를 사용하여 이메일, SMS, 푸시 알림, 웹 페이지 및 랜딩 페�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
 
 이미지만 생성
 

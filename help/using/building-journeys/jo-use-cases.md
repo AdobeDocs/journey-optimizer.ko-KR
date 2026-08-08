@@ -220,7 +220,7 @@ ht-degree: 10%
 <td>
 <img alt="블로그 게시물" src="../assets/do-not-localize/community.jpeg">
 <div>
-<p><a href="weekday-email-uc.md">사용 사례: [!DNL Adobe Journey Optimizer]</a>에서 평일에만 전자 메일을 보내는 방법 - <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400" target="_blank">커뮤니티 블로그 게시물</a>로도 사용 가능</p>
+<p><a href="weekday-email-uc.md">사용 사례: [!DNL Adobe Journey Optimizer]</a>에서 평일에만 전자 메일을 보내는 방법 - <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400?profile.language=ko" target="_blank">커뮤니티 블로그 게시물</a>로도 사용 가능</p>
 <p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-approval-strategies-in-adobe-journey-optimizer/ba-p/761396?profile.language=ko" target="_blank">사용 사례: 고급 승인 전략</a></p>
 <p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=ko" target="_blank">사용 사례: 일별 빈도 제한</a></p>
 <p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445?profile.language=ko" target="_blank">모범 사례: 대상 여정 읽기</a></p>
@@ -232,7 +232,7 @@ ht-degree: 10%
 <td>
 <img alt="여정의 단계 이벤트" src="../assets/do-not-localize/list.jpeg">
 <div>
-[!DNL Adobe Journey Optimizer]에서 <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-step-events-in-adobe-journey-optimizer-fundamentals/ba-p/762024" target="_blank">단계 이벤트 마스터하기: 데이터 기반 캠페인을 위한 기본, 스키마 및 필수 쿼리
+[!DNL Adobe Journey Optimizer]에서 <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-step-events-in-adobe-journey-optimizer-fundamentals/ba-p/762024?profile.language=ko" target="_blank">단계 이벤트 마스터하기: 데이터 기반 캠페인을 위한 기본, 스키마 및 필수 쿼리
 </a></p>
 <p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/fast-external-audience-activation-with-custom-upload/ba-p/761658?profile.language=ko" target="_blank">사용 사례: 사용자 정의 업로드를 통한 빠른 외부 Audience Activation</a></p>
 <p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/personalization-beyond-the-ajo-profile-bringing-non-profile/ba-p/769225?profile.language=ko" target="_blank">사용 사례: 프로필 이후의 Personalization
@@ -245,10 +245,10 @@ ht-degree: 10%
 <p></td>
 <td>
 <img alt="사용자 정의 액션" src="../assets/do-not-localize/step-event.jpeg">
-<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-extend-adobe-journey-optimizer-with-custom-actions/ba-p/761323" target="_blank">사용자 지정 작업으로 [!DNL Adobe Journey Optimizer]을(를) 확장하는 방법: 통합 사용 사례
+<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-extend-adobe-journey-optimizer-with-custom-actions/ba-p/761323?profile.language=ko" target="_blank">사용자 지정 작업으로 [!DNL Adobe Journey Optimizer]을(를) 확장하는 방법: 통합 사용 사례
 </a></p>
 </div>
-<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/breaking-down-barriers-how-adobe-journey-optimizer-s-custom/ba-p/759223" target="_blank">[!DNL Adobe Journey Optimizer]의 사용자 정의 위임 기능은 기업 규정 준수 문제를 해결하고 있습니다.
+<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/breaking-down-barriers-how-adobe-journey-optimizer-s-custom/ba-p/759223?profile.language=ko" target="_blank">[!DNL Adobe Journey Optimizer]의 사용자 정의 위임 기능은 기업 규정 준수 문제를 해결하고 있습니다.
 </a></p>
 </div>
 <div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/line-in-ajo-from-first-campaign-to-advanced-expression-fragment/ba-p/771048?profile.language=ko" target="_blank">Journey Optimizer의 LINE: 첫 번째 캠페인에서 고급 표현식 조각 및 사용자 지정 작업 사용 사례까지

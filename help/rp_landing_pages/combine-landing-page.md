@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 솔루션 간 사용 사례를 통해 다른 Adobe �
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Adobe 솔루션을 결합하여 콘텐츠 관리
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 Adobe Experience Manager Assets의 자산을 통�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/images.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/images.svg)
 
 Adobe Stock 이미지 작업
 
@@ -50,7 +50,7 @@ Adobe Stock 이미지 작업
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/pencil-ruler.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/pencil-ruler.svg)
 
 Adobe Express를 사용한 자산 편집
 
@@ -70,7 +70,7 @@ AEM 콘텐츠 조각을 Adobe Journey Optimizer와 통합하여 캠페인과 여
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Dynamic Media 작업
 

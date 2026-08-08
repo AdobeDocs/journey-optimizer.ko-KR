@@ -20,7 +20,7 @@ Adobe Journey Optimizer에서 관계형 스키마 및 데이터 세트를 관리
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 관계형 스키마 및 데이터 세트 시작
 
@@ -50,7 +50,7 @@ DDL 파일 업로드, 테이블 연결, 오케스트레이션된 캠페인 관�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 Adobe Journey Optimizer 캠페인에 대한 데이터 수집
 

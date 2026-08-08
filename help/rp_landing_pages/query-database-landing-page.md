@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 강력한 데이터베이스 쿼리 도구를 사용�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 오케스트레이션된 캠페인에 규칙 빌더 사용
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 첫 번째 규칙을 작성하는 방법
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 Adobe Journey Optimizer에서 표현식을 편집하는 방법
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer에서 표현식을 편집하는 방법
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 Adobe Journey Optimizer에서 리타겟팅 쿼리 작성
 

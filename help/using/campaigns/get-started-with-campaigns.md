@@ -323,7 +323,7 @@ Adobe Journey Optimizer를 사용하면 여러 채널에서 특정 대상자에�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ko)
 
 **예약 및 시간**
 
@@ -363,7 +363,7 @@ Adobe Experience Platform의 특정 대상자를 정확하게 타겟팅하고 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ko)
 
 **방해 금지 시간**
 

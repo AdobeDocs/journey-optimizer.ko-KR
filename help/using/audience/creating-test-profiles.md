@@ -46,7 +46,7 @@ ht-degree: 3%
 
 [CSV 파일을 업로드](#create-test-profiles-csv)하거나 [API 호출](#create-test-profiles-api)을 사용하여 테스트 프로필을 만들 수 있습니다. [!DNL Adobe Journey Optimizer]은(는) 테스트 프로필을 쉽게 만들 수 있도록 특정 [제품 내 사용 사례](#use-case-1)도 제공합니다.
 
-JSON 파일을 기존 데이터 세트에 업로드할 수 있습니다. 자세한 내용은 [데이터 수집 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset){target="_blank"}를 참조하세요.
+JSON 파일을 기존 데이터 세트에 업로드할 수 있습니다. 자세한 내용은 [데이터 수집 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=ko#add-data-to-dataset){target="_blank"}를 참조하세요.
 
 테스트 프로필을 만드는 것은 [!DNL Adobe Experience Platform]에서 일반 프로필을 만드는 것과 비슷합니다. 자세한 내용은 [실시간 고객 프로필 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target="_blank"}를 참조하세요.
 
@@ -214,7 +214,7 @@ Your journey will be composed of a **[!UICONTROL Read Audience]** and an **[!UIC
 
 >[!NOTE]
 >
->csv 가져오기에 대한 자세한 내용은 [데이터 수집 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials){target="_blank"}를 참조하세요.
+>csv 가져오기에 대한 자세한 내용은 [데이터 수집 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=ko#tutorials){target="_blank"}를 참조하세요.
 
 ## API 호출을 사용하여 테스트 프로필 만들기{#create-test-profiles-api}
 

@@ -20,7 +20,7 @@ Adobe Experience Platform은 진정으로 개인화된 고객 경험을 제공�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 inAudience 함수 사용
 
@@ -30,7 +30,7 @@ inAudience 함수를 사용하여 Adobe Journey Optimizer에서 대상 멤버십
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 개인화에 Adobe Experience Platform 데이터 사용
 
@@ -40,7 +40,7 @@ Adobe Experience Platform 프로필 속성 및 데이터 세트에 액세스하�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 여정에서 Adobe Experience Platform 데이터 사용
 

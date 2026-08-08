@@ -50,7 +50,7 @@ Adobe Experience Platform 데이터 소스
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 데이터 소스 구성
 
