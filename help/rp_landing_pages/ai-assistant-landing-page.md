@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 콘텐츠 생성 기능은 생성 AI를 활용하여 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
 
 전체 콘텐츠 생성
 

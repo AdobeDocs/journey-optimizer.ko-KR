@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 아웃바운드 및 인바운
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
 
 이메일 채널
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer에서 사용할 수 있는 아웃바운드 및 인바운
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ko)
 
 푸시 알림 채널
 

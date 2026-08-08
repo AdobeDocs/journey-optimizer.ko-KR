@@ -75,7 +75,7 @@ Adobe Journey Optimizer에서 맞춤형 오퍼, 대체 옵션 및 컬렉션을 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=ko)
 
 배치 의사결정 사용
 

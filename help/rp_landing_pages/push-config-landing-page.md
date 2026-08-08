@@ -40,7 +40,7 @@ Adobe Journey Optimizer를 사용하여 푸시 알림을 전달하는 데 필요
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 모바일 온보딩 빠른 시작 워크플로
 

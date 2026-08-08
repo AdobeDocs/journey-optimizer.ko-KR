@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 이메일 전달성을 개선하기 위한 IP 준�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 IP 준비 캠페인 만들기
 

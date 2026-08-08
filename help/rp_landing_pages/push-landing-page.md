@@ -48,7 +48,7 @@ Adobe Journey Optimizer 푸시 알림은 앱을 실제로 사용하지 않을 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 푸시 알림 디자인
 

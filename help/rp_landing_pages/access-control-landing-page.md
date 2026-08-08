@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 사용자 권한, 역할, 샌드박스 및 액세�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 사용자 및 역할 관리
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 사용자 액세스 및 권한을 제어하기 위
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
 
 기본 제공 역할
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer에서 사용자 액세스 및 권한을 제어하기 위
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 속성 기반 액세스 제어
 
