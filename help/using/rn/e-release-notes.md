@@ -7,15 +7,10 @@ feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 hide: true
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: d606b40759f8415c40329e6a18aea3870bbe99ee
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 1b68a987121407a6fa95f21fb328ad2d349108c0
 workflow-type: tm+mt
 source-wordcount: 1839
 ht-degree: 20%
@@ -236,11 +231,12 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 * **여정 인벤토리의 대량 작업** - 이제 여정 인벤토리 목록에서 직접 새로운 대량 작업을 수행할 수 있으므로 여러 여정을 한 번에 더 빠르게 관리할 수 있습니다. 여러 여정을 선택하고 다음 새 작업을 한 단계로 적용합니다. **패키지에 추가**, **삭제**, **폴더로 이동**, **태그 편집** 또는 **액세스 관리**. 이렇게 하면 한 번에 한 여정에 동일한 작업을 반복할 필요가 줄어들어 많은 여정으로 작업하는 팀의 여정 관리가 간소화됩니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-15358">DOCAC-15358</a> <!-- Documentation link: TBD -->
 
 <!--
+
 ## June '26 pre-release notes {#june-26-rn}
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published once changes are live in production. While most changes are delivered on the release date, a few may roll out later — refer to the Availability Date listed for each entry for details.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: June 16-17, 2026
 
@@ -257,3 +253,5 @@ The following capabilities and improvements are coming to journeys in this relea
 The following capabilities and improvements are coming to orchestrated campaigns in this release.
 
 -->
+
+
