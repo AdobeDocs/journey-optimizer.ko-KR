@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 개인 정보 보호 도구를 사용하면 민감한
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 개인 정보 보호 요청 관리
 

@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 콘텐츠를 제작할 때는 유연성과 효율�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 기존 이메일 콘텐츠 가져오기
 
@@ -40,7 +40,7 @@ HTML 콘텐츠를 Adobe Journey Optimizer으로 가져오고, 디자인 요소�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 자체 이메일 콘텐츠 코딩
 

@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 콘텐츠를 디자인하는 것은 대상과 연�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg?lang=ko)
 
 시각적 조각 활용
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 콘텐츠를 디자인하는 것은 대상과 연�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
 
 링크 추가 및 메시지 추적
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer에서 콘텐츠를 디자인하는 것은 대상과 연�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 개인화된 오퍼 삽입
 
@@ -80,7 +80,7 @@ AI 지원 받은 편지함 클라이언트가 오퍼와 콜 투 액션을 더 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 메타데이터 추가
 

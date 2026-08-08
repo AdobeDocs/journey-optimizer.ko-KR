@@ -30,7 +30,7 @@ inAudience 함수를 사용하여 Adobe Journey Optimizer에서 대상 멤버십
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 개인화에 Adobe Experience Platform 데이터 사용
 
@@ -40,7 +40,7 @@ Adobe Experience Platform 프로필 속성 및 데이터 세트에 액세스하�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ko)
 
 여정에서 Adobe Experience Platform 데이터 사용
 

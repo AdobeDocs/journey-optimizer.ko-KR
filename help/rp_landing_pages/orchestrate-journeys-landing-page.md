@@ -21,7 +21,7 @@ Adobe Journey Optimizer의 여정을 사용하면 대상자의 행동 및 요구
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 Adobe Journey Optimizer 여정 시작
 

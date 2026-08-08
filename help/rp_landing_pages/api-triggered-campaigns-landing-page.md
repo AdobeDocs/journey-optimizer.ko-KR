@@ -60,7 +60,7 @@ API 트리거 캠페인 콘텐츠 편집 및 개인화
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=ko)
 
 API 트리거 캠페인 대상자 정의
 
@@ -70,7 +70,7 @@ API 트리거 캠페인 대상자 정의
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ko)
 
 API 트리거 캠페인 예약
 

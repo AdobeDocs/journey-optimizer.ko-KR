@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 콘텐츠를 게시하기 위해 웹 하위 도메
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 웹 채널 만들기 및 구성
 

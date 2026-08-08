@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ebc8a412a74f4099840da6f6be57c0c4a0e3257
+source-git-commit: 7f826404545f1443bbb873e623206c568fabc739
 workflow-type: tm+mt
-source-wordcount: 3121
+source-wordcount: 3132
 ht-degree: 19%
 
 ---
@@ -341,9 +341,9 @@ Journey Optimizer에서는 이 릴리스의 새로운 기능인 충성도 문제
 
   ![](../content-management/assets/fragment-quick-launch.png)
 
-* **템플릿 인벤토리의 빠른 실행 바로 가기** - 이제 콘텐츠 템플릿 목록의 **[!UICONTROL 추가 작업]** 단추를 사용하여 템플릿 세부 정보 편집, 콘텐츠 시뮬레이션 및 템플릿 삭제와 같은 일반적인 작업에 빠르게 액세스할 수 있습니다. 이메일 템플릿의 경우 추가 단축키를 사용하여 제목란 및 이메일 본문을 편집하고, 증명을 보거나 보내고, 스팸 보고서를 실행하고, 이메일을 렌더링할 수 있습니다. [자세히 알아보기](../content-management/access-content-templates.md#quick-launch-templates)
+* **템플릿 인벤토리의 빠른 실행 바로 가기** - 이제 콘텐츠 템플릿 목록의 **[!UICONTROL 추가 작업]** 단추를 사용하여 템플릿 세부 정보 편집, 콘텐츠 시뮬레이션 및 템플릿 삭제와 같은 일반적인 작업에 빠르게 액세스할 수 있습니다. 추가 채널별 단축키도 사용할 수 있습니다. 이메일 템플릿의 경우 이메일 본문을 편집하고, 증명을 보거나 보내고, 스팸 보고서를 실행하고, 이메일을 렌더링합니다. SMS 템플릿의 경우 문자 수와 세그먼트 수를 확인합니다. [자세히 알아보기](../content-management/access-content-templates.md#edit)
 
-  ![](../content-management/assets/content-template-quick-launch.png)
+  ![](../content-management/assets/content-template-quick-launch-email.png)
 
 * **개인화 식에 새 도우미 함수** - 이제 개인화 식에 새 도우미 함수를 사용할 수 있습니다.
 

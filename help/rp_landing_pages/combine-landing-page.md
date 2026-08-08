@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 Adobe Experience Manager Assets의 자산을 통�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/images.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/images.svg?lang=ko)
 
 Adobe Stock 이미지 작업
 
@@ -70,7 +70,7 @@ AEM 콘텐츠 조각을 Adobe Journey Optimizer와 통합하여 캠페인과 여
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 Dynamic Media 작업
 

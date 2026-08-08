@@ -40,7 +40,7 @@ Adobe Journey Optimizer의 코드 기반 경험을 사용하면 앱이나 웹 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 코드 기반 경험 만들기
 

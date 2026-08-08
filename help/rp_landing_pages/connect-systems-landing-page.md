@@ -30,7 +30,7 @@ Adobe Journey Optimizer가를 다른 Adobe 및 서드파티 솔루션과 연결�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 Adobe Journey Optimizer API 작업
 

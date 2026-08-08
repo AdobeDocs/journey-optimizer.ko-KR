@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 규칙 빌더를 사용하여 대상자 타겟팅 및
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 Adobe Journey Optimizer에서 첫 번째 규칙을 작성하는 방법
 
