@@ -9,28 +9,16 @@ role: User
 level: Beginner
 exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
 TQID: https://experienceleague.adobe.com/VAyIDrwFJtWtOd0h8nr9LK5F21Oe9wIWwvV-zFvCHtM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: f29a52db-c90c-4345-902e-b586d1406d8d
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: f29a52db-c90c-4345-902e-b586d1406d8did: fb9a80eb-bebc-492f-a0e9-584595621ebbid: d6e0d39b-5df3-4c72-8263-fd834397ee97
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274
 source-git-commit: d5c597cedd10738593d5567ea8be52cd3d6c9588
 workflow-type: tm+mt
 source-wordcount: 1621
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -262,7 +250,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_assets_selection_mode"
 >title="에셋 선택 모드"
->abstract="[!UICONTROL Assets 모드] 설정은 시각적 자산의 원본을 제어합니다. 이미지를 DAM(디지털 에셋 관리) 라이브러리에서 직접 검색할지 또는 AI 생성 콘텐츠를 사용하여 동적으로 생성할지를 정의할 수 있습니다."
+>abstract="[!UICONTROL 에셋 모드] 설정은 시각적 에셋의 원본을 제어합니다. 이미지를 디지털 에셋 관리(DAM) 라이브러리에서 직접 가져올지 아니면 AI로 생성된 콘텐츠를 사용하여 동적으로 제작할지를 정의할 수 있습니다."
 
 **[!UICONTROL 이미지 설정]** 아래의 **[!UICONTROL 모드]** 옵션은 Digital Asset Management 라이브러리에서 이미지가 생성되는 방식과 생성된 콘텐츠를 제어합니다.
 
