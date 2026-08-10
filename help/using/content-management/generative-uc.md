@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: 6fd0d8eae9973715bef07b40939a8bd5e71655ad
+source-git-commit: d5c597cedd10738593d5567ea8be52cd3d6c9588
 workflow-type: tm+mt
 source-wordcount: 1621
 ht-degree: 0%
@@ -274,11 +274,11 @@ ht-degree: 0%
 
 1. **[!UICONTROL 이미지 설정]** 메뉴에서 **[!UICONTROL 모드]**&#x200B;를 선택하십시오.
 
-   * **[!UICONTROL 균형]**(기본값): AI가 먼저 Digital Asset Management 라이브러리의 일치하는 이미지를 사용합니다. 그것이 필요한 비주얼을 커버하기에 충분하지 않을 때, 그것은 AI로 이미지를 생성합니다.
+   * **[!UICONTROL 균형]**: AI가 먼저 디지털 자산 관리 라이브러리의 일치하는 이미지를 사용합니다. 그것이 필요한 비주얼을 커버하기에 충분하지 않을 때, 그것은 AI로 이미지를 생성합니다.
      이를 사용하려면 DAM의 이미지 사용 을 활성화한 다음 디지털 자산 관리 라이브러리에서 폴더를 선택하여 DAM 경로를 설정합니다.
    * **[!UICONTROL DAM]**(디지털 자산 관리): AI가 디지털 자산 관리 라이브러리에서 일치하는 이미지를 찾아 생성된 콘텐츠의 일부로 사용합니다. 일치하는 항목이 없으면 생성하기 전에 참조 컨텐츠 또는 이미지를 수동으로 추가하십시오.
      DAM 경로를 설정하려면 디지털 자산 관리 라이브러리에서 폴더를 선택하십시오.
-   * **[!UICONTROL Creative]**: AI는 생성 AI로 이미지를 만들고 Digital Asset Management 라이브러리에서 직접 이미지를 가져오지 않습니다.
+   * **[!UICONTROL Creative]**(기본값): AI는 생성 AI로 이미지를 만들고 Digital Asset Management 라이브러리에서 직접 이미지를 가져오지 않습니다.
 
    ![](assets/image-mode-3.png)
 
