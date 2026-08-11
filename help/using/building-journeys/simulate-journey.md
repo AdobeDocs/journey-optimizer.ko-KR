@@ -11,9 +11,9 @@ keywords: 테스트, 여정, 확인, 오류, 문제 해결
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 8248d158b42650e91bc16770264eadce2b528508
+source-git-commit: 7f4a751b25a46a891cd13dfa0f80087e7be12387
 workflow-type: tm+mt
-source-wordcount: 3126
+source-wordcount: 2933
 ht-degree: 0%
 
 ---
@@ -153,33 +153,33 @@ ht-degree: 0%
 
    ![사용자 템플릿 및 형식 JSON 컨트롤을 사용하여 시뮬레이션된 사용자 JSON 편집기 만들기](assets/simulate-json.png)
 
-   프로필 또는 [!DNL Adobe Experience Platform]의 [테스트 프로필](../audience/creating-test-profiles.md)에서 특성 값을 다시 사용하려면 다음을 수행하십시오.
-
-   1. 참조로 사용할 프로필을 찾습니다. 프로필 세부 정보 페이지에서 **[!UICONTROL JSON 보기]**&#x200B;를 클릭합니다. [자세히 알아보기](../audience/get-started-profiles.md)
-
-      ![Adobe Experience Platform의 프로필 JSON 보기](assets/simulate-json-1.png)
-
-   1. 뷰어에서 JSON을 복사합니다.
-
-   1. 여정에서 **[!UICONTROL 시뮬레이션 설정]**&#x200B;을 열고 **[!UICONTROL 시뮬레이션된 사용자 만들기]**&#x200B;를 시작하고 **JSON에서 만들기**&#x200B;를 선택합니다.
-
-   1. 시뮬레이션된 사용자 템플릿의 일치하는 부분에 JSON을 붙여 넣습니다(예: 한 사용자에 대한 속성 블록). 구조의 유효성을 검사하려면 **[!UICONTROL JSON 형식 지정]**&#x200B;을 클릭하세요.
-
-      ![붙여넣은 프로필 속성을 사용하여 시뮬레이션된 사용자 JSON 편집기 만들기](assets/simulate-json-2.png)
-
-   1. mergePolicyId 또는 lastModifiedAt와 같이 소스 프로필에만 연결된 [!DNL Adobe Experience Platform] 프로필에 있는 속성을 제거합니다.
-
-   1. 시뮬레이션된 사용자 템플릿에 필요한 필드를 설정합니다. **[!UICONTROL 표시 이름]**, **[!UICONTROL ID 네임스페이스]**, ID 값 및 채널 실행 주소.
-
-   1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다. **[!UICONTROL 시뮬레이션]**&#x200B;을 실행하기 전에 저장된 시뮬레이션된 사용자의 ![편집 아이콘](assets/do-not-localize/Smock_Edit_18_N.svg)을 사용하여 데이터를 검토하십시오.
-
-      ![사용자 템플릿 및 형식 JSON 컨트롤을 사용하여 시뮬레이션된 사용자 JSON 편집기 만들기](assets/simulate-json-3.png)
-
-      >[!WARNING]
-      >
-      >프로필 JSON을 붙여넣는 경우 모든 프로덕션 식별자 및 연락처(이메일, 전화, ECID, 푸시 토큰 등)를 제거하거나 대체하십시오. 시뮬레이션은 사용자가 제공한 데이터를 사용하여 메시지를 보냅니다.
-
    +++
+
+<!--
+    To reuse attribute values from a profile or [test profile](../audience/creating-test-profiles.md) in [!DNL Adobe Experience Platform]:
+
+    1. Browse to the profile you want to use as a reference. On the profile detail page, click **[!UICONTROL View JSON]**. [Learn more](../audience/get-started-profiles.md)
+
+        ![Profile JSON view in Adobe Experience Platform](assets/simulate-json-1.png)
+
+    1. Copy the JSON from the viewer.
+
+    1. In the journey, open **[!UICONTROL Simulation settings]**, start **[!UICONTROL Create Simulated Users]**, and choose **Create from JSON**.
+
+    1. Paste the JSON into the matching part of the simulated user template (for example, the attribute block for one user). Click **[!UICONTROL Format JSON]** to validate the structure.
+
+        ![Create Simulated Users JSON editor with pasted profile attributes](assets/simulate-json-2.png)
+
+    1. Remove properties that exist on the [!DNL Adobe Experience Platform] profile only tied to the source profile, such as mergePolicyId or lastModifiedAt.
+
+    1. Set the fields required by the simulated user template: **[!UICONTROL Display name]**, **[!UICONTROL Identity namespace]**, identity value, and channel execution addresses.
+
+    1. Click **[!UICONTROL Save]**. Use ![Edit icon](assets/do-not-localize/Smock_Edit_18_N.svg) on the saved simulated user to review the data before you run **[!UICONTROL Simulation]**.
+
+        ![Create Simulated Users JSON editor with users template and Format JSON control](assets/simulate-json-3.png)
+
+        If you paste profile JSON, remove or replace all production identifiers and contact points (email, phone, ECID, push token, and similar). Simulation will send messages using the data you provide.
+-->
 
 1. 만든 시뮬레이션 사용자가 **[!UICONTROL 테스트 사용자]** 목록에 나타납니다. 각 항목에 대해 다음 중 하나를 선택합니다.
 
