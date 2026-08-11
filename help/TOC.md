@@ -6,10 +6,10 @@ user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 802f1ac973f328e46c0b9845720dc7056b045c53
+source-git-commit: cdb1d9318947718af080792d1257ede354d76c87
 workflow-type: tm+mt
-source-wordcount: '3489'
-ht-degree: 94%
+source-wordcount: '3496'
+ht-degree: 93%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 94%
 + 여정 {#orchestrate-journeys}
   + [여정 시작](using/building-journeys/journey.md)
   + {hide-from-toc}[여정 시작 안내서](using/building-journeys/journey-get-started.md)
-  + {hide-from-toc}[여정 형식: 올바른 one-2 선택](using/building-journeys/journey-types-selection-v2.md)
+  + {hide-from-toc}[여정 형식: 올바른 one-2](using/building-journeys/journey-types-selection-v2.md) 선택
   + [Journey Orchestration FAQ](using/building-journeys/journey-faq.md)
   + 여정 만들기 {#create-journey}
     + [여정 만들기](/help/rp_landing_pages/create-journey-landing-page.md)
@@ -267,7 +267,8 @@ ht-degree: 94%
     + [테스트 프로필을 사용한 미리 보기](using/content-management/preview.md)
     + [테스트 프로필 데이터를 사용한 증명 전송](using/content-management/proofs.md)
     + [이메일 렌더링 테스트](using/content-management/rendering.md)
-    + [콘텐츠 변형 시뮬레이션](using/test-approve/simulate-sample-input.md)
+    + [콘텐츠 변형 시뮬레이션(클래식 경험)](using/test-approve/simulate-sample-input.md)
+    + [콘텐츠 변형 시뮬레이션(새 경험)](using/test-approve/simulate-content-variations.md)
     + [이메일 스팸 보고서](using/content-management/spam-report.md)
   + 여정 및 캠페인 승인 {#approve}
     + [여정 및 캠페인 승인](/help/rp_landing_pages/approve-landing-page.md)
@@ -569,7 +570,7 @@ ht-degree: 94%
   + 콘텐츠 생성 {#generate-content}
     + [콘텐츠 생성 시작](using/content-management/gs-generative.md)
     + [AI 프롬프트 모범 사례](using/content-management/ai-assistant-prompting-guide.md)
-    + {hide-from-toc}[AI Assistant의 Content Credentials](using/content-management/generative-c2pa-metadata.md)
+    + AI Assistant의 {hide-from-toc}[Content Credentials](using/content-management/generative-c2pa-metadata.md)
     + [AI로 전체 콘텐츠 생성](using/content-management/generative-full-content.md)
     + [AI로 텍스트 생성](using/content-management/generative-text.md)
     + [AI로 이미지 생성](using/content-management/generative-image.md)
