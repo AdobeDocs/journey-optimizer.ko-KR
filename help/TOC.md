@@ -6,10 +6,10 @@ user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 82f802c504dcc97e781a6f8edf6e567a4a7c627e
+source-git-commit: cdb1d9318947718af080792d1257ede354d76c87
 workflow-type: tm+mt
-source-wordcount: '3489'
-ht-degree: 94%
+source-wordcount: '3496'
+ht-degree: 93%
 
 ---
 
@@ -267,7 +267,8 @@ ht-degree: 94%
     + [테스트 프로필을 사용한 미리 보기](using/content-management/preview.md)
     + [테스트 프로필 데이터를 사용한 증명 전송](using/content-management/proofs.md)
     + [이메일 렌더링 테스트](using/content-management/rendering.md)
-    + [콘텐츠 변형 시뮬레이션](using/test-approve/simulate-sample-input.md)
+    + [콘텐츠 변형 시뮬레이션(클래식 경험)](using/test-approve/simulate-sample-input.md)
+    + [콘텐츠 변형 시뮬레이션(새 경험)](using/test-approve/simulate-content-variations.md)
     + [이메일 스팸 보고서](using/content-management/spam-report.md)
   + 여정 및 캠페인 승인 {#approve}
     + [여정 및 캠페인 승인](/help/rp_landing_pages/approve-landing-page.md)
@@ -569,7 +570,7 @@ ht-degree: 94%
   + 콘텐츠 생성 {#generate-content}
     + [콘텐츠 생성 시작](using/content-management/gs-generative.md)
     + [AI 프롬프트 모범 사례](using/content-management/ai-assistant-prompting-guide.md)
-    + {hide-from-toc}[AI Assistant의 Content Credentials](using/content-management/generative-content-credentials.md)
+    + {hide-from-toc}[AI Assistant의 Content Credentials](using/content-management/generative-c2pa-metadata.md)
     + [AI로 전체 콘텐츠 생성](using/content-management/generative-full-content.md)
     + [AI로 텍스트 생성](using/content-management/generative-text.md)
     + [AI로 이미지 생성](using/content-management/generative-image.md)

@@ -7,7 +7,6 @@ feature: Email, Email Rendering, Personalization, Preview, Proofs
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
 exl-id: 2744974b-62cc-4d25-acc3-edd4c53a9a58
 TQID: https://experienceleague.adobe.com/Y8qsGW8XqSVqag4yqRinnem9w2PYJyKIDIWvuGqAchU
 product_v2:
@@ -25,9 +24,9 @@ level_v2:
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 36b855c6d66a614f4c0374cbd1b4746ec68fde21
+source-git-commit: 0ea831b383982d312357e1d7893675818650325e
 workflow-type: tm+mt
-source-wordcount: 1399
+source-wordcount: 1432
 ht-degree: 3%
 
 ---
@@ -39,6 +38,10 @@ ht-degree: 3%
 **이 페이지에서:** AI로 생성된 변형, 수동으로 입력했거나, 파일에서 가져온 변형, 또는 시뮬레이션된 사용자를 기반으로 하여 개인화된 콘텐츠가 모든 유형의 수신자에 대해 올바르게 렌더링되는지 확인한 다음 미리 보고 증명을 보냅니다.
 
 >[!ENDSHADEBOX]
+
+>[!AVAILABILITY]
+>
+>이제 스크롤 가능한 나란한 그리드의 모든 변형, 통합된 하단 작업 표시줄 및 미리 보기를 위한 더 많은 화면 공간을 특징으로 하는 재설계된 시뮬레이션 경험을 사용할 수 있습니다. [새 경험 살펴보기](simulate-content-variations.md)
 
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"
