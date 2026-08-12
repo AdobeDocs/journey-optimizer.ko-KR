@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6dabca3a59638bc198d448bef1c5e9b5f069fbb8
+source-git-commit: 27ea2cd4b19bbb796e70a2b9be8cb6c61fb949aa
 workflow-type: tm+mt
-source-wordcount: 3140
+source-wordcount: 3245
 ht-degree: 19%
 
 ---
@@ -50,6 +50,27 @@ ht-degree: 19%
 
 ## 2026년 8월 업데이트 {#aug-26-updates}
 
+<!--
+### Loyalty {#aug-26-loyalty}
+
+<table>
+<thead>
+<tr>
+<th><strong>Loyalty Insights skill</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer introduces <strong>Loyalty Insights</strong>, a new CX Coworker skill for asking questions about challenge performance and other loyalty program data ingested into the Loyalty field groups in Adobe Experience Platform.</p>
+<p>For more information, refer to the <a href="../start/ajo-coworker-skills.md">detailed documentation</a>.</p>
+<p>Availability date: August 12, 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+-->
+
 ### 콘텐츠 관리
 
 <table>
@@ -70,7 +91,32 @@ ht-degree: 19%
 </tbody>
 </table>
 
+### 캠페인 {#aug-26-campaigns}
+
+<table>
+<thead>
+<tr>
+<th><strong>API가 트리거된 이메일의 개인화된 PDF 첨부 파일</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 Journey Optimizer은 정적 및 수신자별 PDF를 모두 포함하여 API 트리거 캠페인에서 이메일당 최대 <b>5개의 PDF 첨부 파일</b>을 지원합니다. 수신자별 PDF 파일을 데이터 랜딩 구역에서 안전하게 가져와서 전송 시 첨부합니다. 이때 각 파일의 위치는 API 페이로드로 직접 전달됩니다. 이렇게 하면 Journey Optimizer에서 게재를 처리하면서 기존 업스트림 문서 생성 시스템이 제자리에 유지될 수 있습니다.</p>
+<p>지원되는 사용 사례에는 송장, 명세서, 티켓, 계약서, 배송 라벨 및 수신자마다 다른 유사한 문서가 포함됩니다. 개인화된 PDF 첨부 파일은 트랜잭션 API 트리거 이메일 캠페인에만 사용할 수 있으며, 여정 또는 오케스트레이션된 캠페인에서는 지원되지 않습니다.</p>
+<p>PDF 첨부 파일 추가 기능을 통해 더 큰 첨부 파일 볼륨 및 크기가 지원됩니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.</p>
+<p>자세한 내용은 <a href="../email/pdf-attachments.md#personalized-attachments">세부 설명서</a>를 참조하세요.</p>
+<p>사용 가능한 날짜: 2026년 8월 12일</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ### 사용성 개선 사항 {#august-26-usability}
+
+* **여정 인벤토리의 대량 작업** - 이제 여정 인벤토리 목록에서 직접 새로운 대량 작업을 수행할 수 있으므로 여러 여정을 한 번에 더 빠르게 관리할 수 있습니다. 여러 여정을 선택하고 다음 새 작업을 한 단계로 적용합니다. **패키지에 추가**, **삭제**, **폴더로 이동**, **태그 편집** 또는 **액세스 관리**. 이렇게 하면 한 번에 한 여정에 동일한 작업을 반복할 필요가 줄어들어 많은 여정으로 작업하는 팀의 여정 관리가 간소화됩니다. [자세히 알아보기](../building-journeys/journey-ui.md)
+
+  사용 가능한 날짜: 2026년 8월 12일
 
 * **콘텐츠 테스트를 위한 새로운 콘텐츠 시뮬레이션 경험** - **콘텐츠 시뮬레이션** 워크플로에서는 새롭게 디자인된 경험을 도입했습니다. 이제 모든 변형을 한 번에 한 가지 변형인 보기를 대체하여 스크롤 가능한 단일 그리드(나란히, 스택 또는 래핑된 레이아웃)에서 함께 렌더링합니다. 단일 하단 작업 표시줄은 테스트 변형 간 탐색, 확대/축소, 뷰포트 전환(데스크탑/모바일), 로케일 전환, 샘플 입력 추가, AI를 통한 변형 생성, 시뮬레이션된 사용자 선택 및 저장, 변형 가져오기 또는 내보내기를 통합합니다. 왼쪽 레일을 제거하고 추가 헤더 레이어를 축소하면 미리보기에 훨씬 더 많은 공간이 제공됩니다. 하단 작업 표시줄의 **클래식 경험으로 전환** 옵션을 사용하면 언제든지 이전 경험으로 되돌릴 수 있습니다. [자세히 알아보기](../test-approve/simulate-content-variations.md)
 
@@ -416,25 +462,6 @@ Journey Optimizer에서는 이 릴리스의 새로운 기능인 충성도 문제
 ### 캠페인 {#campaigns}
 
 +++ 곧 출시 예정
-
-<table>
-<thead>
-<tr>
-<th><strong>API가 트리거된 이메일의 개인화된 PDF 첨부 파일</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 Journey Optimizer에서는 API 트리거 캠페인에서 이메일당 최대 5개의 수신자 특정 PDF를 첨부할 수 있습니다. PDF 파일은 Azure 또는 AWS 저장소에서 안전하게 가져오고 전송 시 첨부하며, 각 파일의 위치는 API 페이로드에 직접 전달됩니다. 이렇게 하면 Journey Optimizer에서 게재를 처리하면서 기존 업스트림 문서 생성 시스템이 제자리에 유지될 수 있습니다.</p>
-<p>지원되는 사용 사례에는 송장, 명세서, 티켓, 계약서, 배송 라벨 및 수신자마다 다른 유사한 문서가 포함됩니다. 개인화된 PDF 첨부 파일은 API 트리거 캠페인에서만 사용할 수 있으며, 여정 또는 다른 캠페인 유형(작업, 오케스트레이션)에서는 지원되지 않습니다.</p>
-<p>PDF 첨부 파일 추가 기능을 통해 더 큰 첨부 파일 볼륨 및 크기가 지원됩니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.</p>
-<p></p>
-<!-- Documentation link: TBD -->
-</td>
-</tr>
-</tbody>
-</table>
 
 * **API 트리거 캠페인의 처리량에 대한 성능 추가 기능 - 푸시** - API 트리거 캠페인에서 새로운 처리량 트랜잭션 메시지 모드를 사용할 수 있습니다. 이 모드는 대규모 실시간 트랜잭션 메시지 전송을 위해 설계되었으며 더 높은 가용성으로 초당 최대 5,000개의 트랜잭션을 지원합니다. 이전에는 이메일 채널에서만 사용할 수 있었지만, 이제 이 기능은 Adobe 고처리량 트랜잭션 메시지 추가 기능 서비스를 구입한 조직의 푸시 채널에서도 사용할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오. <!-- Documentation link: TBD -->
 

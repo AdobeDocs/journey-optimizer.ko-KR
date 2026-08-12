@@ -22,9 +22,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6d8650fc9963c21122f84c2ffd965089f158d8ed
+source-git-commit: d6c1b6a5d62221b4e722a110a9324bca846b88b0
 workflow-type: tm+mt
-source-wordcount: 666
+source-wordcount: 687
 ht-degree: 4%
 
 ---
@@ -68,6 +68,8 @@ ht-degree: 4%
   * **AJO 전자 메일 추적 경험 이벤트 데이터 세트 - 프로필이 아님**
 
 * **처리량 할당** - 높은 처리량 추가 기능에서 프로비저닝된 처리량은 높은 처리량 캠페인에만 예약되어 있습니다. 표준 및 처리량이 많은 API 트리거 캠페인 간에 처리량을 공유할 수 없습니다.
+
+* **개인화된 PDF 첨부 파일** - 처리량이 높은 캠페인이 다른 지역으로 실패하면 지원되지 않습니다. [개인화된 PDF 첨부 파일에 대해 자세히 알아보기](../email/pdf-attachments.md#personalized-attachments)
 
 ## 표준 캠페인과 처리량이 많은 캠페인 간 선택
 

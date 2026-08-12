@@ -22,10 +22,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+source-git-commit: f72ff1c13cd9793d12794c8e66d663cba3181964
 workflow-type: tm+mt
-source-wordcount: 826
-ht-degree: 96%
+source-wordcount: 837
+ht-degree: 90%
 
 ---
 
@@ -69,7 +69,7 @@ Adobe Journey Optimizer 인터페이스에서 상단 표시줄의 중앙에 있�
 
 ## 일괄 액션 {#bulk-actions}
 
-**캠페인**, **조각** 및 **템플릿** 목록에서 확인란을 사용하여 여러 항목을 한 번에 선택하고 화면 하단에 나타나는 일괄 액션 표시줄에서 모든 항목에 작업을 적용할 수 있습니다.
+**캠페인**, **조각**, **여정** 및 **템플릿** 목록에서 확인란을 사용하여 여러 항목을 한 번에 선택하고 화면 하단에 나타나는 일괄 작업 표시줄에서 모든 항목에 작업을 적용할 수 있습니다.
 
 다음 작업을 사용할 수 있습니다.
 
@@ -78,7 +78,11 @@ Adobe Journey Optimizer 인터페이스에서 상단 표시줄의 중앙에 있�
 * **[!UICONTROL 태그 편집]** - 선택한 항목에 할당된 태그를 편집합니다. [태그를 사용하는 방법 알아보기 →](#add-tags)
 * **[!UICONTROL 액세스 관리]** - 선택한 항목에 액세스 레이블을 적용합니다. [개체 수준 액세스 제어에 대해 자세히 알아보기 →](../administration/object-based-access.md)
 * **[!UICONTROL 보관]** - 선택한 항목을 보관합니다. 조각과 템플릿에서 사용할 수 있습니다.
-* **[!UICONTROL 삭제]** - 선택한 항목을 영구적으로 삭제합니다. 캠페인에서만 사용할 수 있습니다.
+* **[!UICONTROL 삭제]** - 선택한 항목을 영구적으로 삭제합니다. 캠페인 및 여정에 사용할 수 있습니다.
+
+>[!NOTE]
+>
+>여정은 또한 일괄 **[!UICONTROL 일시 중지]** 및 **[!UICONTROL 다시 시작]**&#x200B;을 지원합니다. [자세히 →](../building-journeys/journey-ui.md#bulk-operations)
 
 ![](assets/bulk-actions-fragments.png)
 

@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: 69035184126985778b12eb7a8a86148fd9a7cb11
 workflow-type: tm+mt
-source-wordcount: 920
+source-wordcount: 950
 ht-degree: 7%
 
 ---
@@ -84,6 +84,7 @@ ht-degree: 7%
 | EmailNoMessageFoundForProcessing | 050027 | 이메일 | 메시지에 대해 실험이 활성화되고 적격 처리에 대한 메시지가 없는 경우 제외 이벤트가 생성됩니다. |
 | 이메일 형식이 잘못된 주소 | 050024 | 이메일 | 이메일에 잘못된 주소가 포함된 경우 제외 이벤트가 생성됩니다. |
 | UnsubscribeLinkNotValid | 050081 | 이메일 | 제외 이벤트는 List-Unsubscribe mailTo 제목 길이가 RFC 제한인 998자보다 클 때 생성됩니다. |
+| AttachmentResolutionFailed | 050083 | 이메일 | 제외 이벤트는 하나 이상의 PDF 첨부 파일에 영구적인 해결 또는 검색 오류가 발생할 때 생성됩니다. 영향을 받는 이메일은 제외되어 전송되지 않습니다. |
 | InAppNoVariantDefinition | 050041 | 인앱 | InApp 메시지에 대한 변형이 정의되지 않은 경우 제외 이벤트가 생성됩니다. |
 | InAppNoMessageFoundForProcessing | 050042 | 인앱 | 메시지에 대해 실험이 활성화되고 적격 처리에 대한 메시지가 없는 경우 제외 이벤트가 생성됩니다. |
 | PushNoTokenFoundInProfile | 050030 | 푸시 | 프로필에 푸시 토큰이 없을 경우 제외 이벤트가 생성됩니다. |

@@ -22,9 +22,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
+source-git-commit: c1270581f5184ca1f5375a2838dfb2906805a259
 workflow-type: tm+mt
-source-wordcount: 480
+source-wordcount: 521
 ht-degree: 5%
 
 ---
@@ -57,6 +57,10 @@ ht-degree: 5%
 >[!IMPORTANT]
 >
 >[처리량이 많은 캠페인](../campaigns/api-triggered-high-throughput.md)은(는) Adobe 프로필을 사용하지 않습니다. 모든 개인화는 아래에 설명된 대로 컨텍스트 데이터로 API 페이로드에 포함되어야 합니다. 이 모드는 이메일 채널 및 미국 지역에서만 사용할 수 있습니다.
+
+## 개인화된 PDF 파일 첨부 {#attachments}
+
+트랜잭션 API가 트리거되는 이메일 캠페인의 경우 정적 및 개인화된 첨부 파일을 모두 포함하여 이메일에 최대 5개의 PDF 첨부 파일을 포함할 수 있습니다. 각 수신자는 서로 다른 개인화된 PDF를 받을 수 있습니다. [개인화된 PDF 파일을 첨부하는 방법을 알아봅니다](../email/pdf-attachments.md#personalized-attachments)
 
 ## 컨텍스트 기반 데이터를 사용하여 콘텐츠 개인화 {#contextual}
 
