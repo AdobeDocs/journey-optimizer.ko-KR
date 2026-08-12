@@ -10,21 +10,14 @@ level: Experienced
 keywords: 캠페인, API 트리거, REST, 최적화 도구, 메시지
 exl-id: 2b3e87dc-097a-4d05-873c-f421d11338c3
 TQID: https://experienceleague.adobe.com/SwmK1epuhZUf4EWnaLRHTBH-eE1hEV02Z8nqXGtMb6U
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-subfeature_v2:
-  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
-  - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6d8650fc9963c21122f84c2ffd965089f158d8ed
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: a653cc2e-bc85-4353-a306-399e5b247978
+subfeature_v2: id: f7479fa1-474b-479d-8c98-f6cee5865a38id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: d6c1b6a5d62221b4e722a110a9324bca846b88b0
 workflow-type: tm+mt
-source-wordcount: 666
+source-wordcount: 687
 ht-degree: 4%
 
 ---
@@ -68,6 +61,8 @@ ht-degree: 4%
   * **AJO 전자 메일 추적 경험 이벤트 데이터 세트 - 프로필이 아님**
 
 * **처리량 할당** - 높은 처리량 추가 기능에서 프로비저닝된 처리량은 높은 처리량 캠페인에만 예약되어 있습니다. 표준 및 처리량이 많은 API 트리거 캠페인 간에 처리량을 공유할 수 없습니다.
+
+* **개인화된 PDF 첨부 파일** - 처리량이 높은 캠페인이 다른 지역으로 실패하면 지원되지 않습니다. [개인화된 PDF 첨부 파일에 대해 자세히 알아보기](../email/pdf-attachments.md#personalized-attachments)
 
 ## 표준 캠페인과 처리량이 많은 캠페인 간 선택
 
