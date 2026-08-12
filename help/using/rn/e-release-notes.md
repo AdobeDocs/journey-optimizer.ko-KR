@@ -6,17 +6,12 @@ description: Adobe Journey Optimizer 사전 릴리스 정보
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 2de32d7aee9f1d3c9404aec30700893e3bcd9798
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 56c4e711aa1acaf7fcf7977c974736d2e7e7d999
 workflow-type: tm+mt
-source-wordcount: 1271
+source-wordcount: 1277
 ht-degree: 15%
 
 ---
@@ -106,13 +101,13 @@ The following capability is coming to onboarding in this release.
 </tbody>
 </table>
 
-* **캠페인 작성 흐름 재디자인** - Adobe Journey Optimizer 캠페인 작성 흐름이 훨씬 더 직관적이고 효율적이며 원활한 사용자 경험을 제공하도록 재디자인되었습니다.
+* **작업 캠페인 작성 흐름 재디자인** - Adobe Journey Optimizer 작업 캠페인 작성 흐름이 훨씬 더 직관적이고 효율적이며 원활한 사용자 경험을 제공하도록 재디자인되었습니다.
 
-* **캠페인용 폴더** - 이제 캠페인을 폴더로 구성하여 인터페이스에서 탐색 및 관리를 개선할 수 있습니다. <!-- Documentation link: TBD -->
+* **작업 캠페인용 폴더** - 이제 작업 캠페인을 폴더로 구성하여 인터페이스에서 탐색 및 관리를 개선할 수 있습니다. <!-- Documentation link: TBD -->
 
-<!--* **Brand alignment score in Campaign dashboard** - You can now assess your brand alignment score directly within your Campaign dashboard to ensure content stays on-brand. This allows you to verify guidelines at a glance without having to open the content designer.  Documentation link: TBD -->
+<!--* **Brand alignment score in Action Campaign dashboard** - You can now assess your brand alignment score directly within your Action Campaign dashboard to ensure content stays on-brand. This allows you to verify guidelines at a glance without having to open the content designer.  Documentation link: TBD -->
 
-* **캠페인의 기본 실행 필드 재정의** - 이전에는 여정 수준에서 사용할 수 있었지만, 이제 캠페인 매개 변수에서 이메일, SMS 및 WhatsApp 게재에 대해 전역으로 설정된 기본 실행 필드를 재정의할 수 있습니다. <!-- Documentation link: TBD -->
+* **작업 캠페인의 기본 실행 필드 재정의** - 이전에는 여정 수준에서 사용할 수 있었지만, 이제 작업 캠페인 매개 변수에서 이메일, SMS 및 WhatsApp 게재에 대해 전역으로 설정된 기본 실행 필드를 재정의할 수 있습니다. <!-- Documentation link: TBD -->
 
 ### 오케스트레이션된 캠페인 {#august-26-oc}
 
@@ -212,7 +207,7 @@ The following capability is coming to onboarding in this release.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published once changes are live in production. While most changes are delivered on the release date, a few may roll out later — refer to the Availability Date listed for each entry for details.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: June 16-17, 2026
 
