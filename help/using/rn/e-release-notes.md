@@ -6,18 +6,13 @@ description: Adobe Journey Optimizer 사전 릴리스 정보
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 56c4e711aa1acaf7fcf7977c974736d2e7e7d999
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 27ea2cd4b19bbb796e70a2b9be8cb6c61fb949aa
 workflow-type: tm+mt
-source-wordcount: 1277
-ht-degree: 15%
+source-wordcount: 1261
+ht-degree: 18%
 
 ---
 
@@ -154,9 +149,11 @@ The following capability is coming to onboarding in this release.
 
 * **프로필 대상 차원을 관리하는 기능** - 이제 프로필 대상 Dimension을 삭제하거나 구성된 ID 네임스페이스를 편집 및 교환하여 데이터 설정을 보다 유연하게 제어할 수 있습니다. <!-- Documentation link: TBD -->
 
-* **새 공개 API** - 이제 새 API 사양을 사용할 수 있습니다. 이러한 API를 사용하면 오케스트레이션된 캠페인을 프로그래밍 방식으로 만들고, 관리하고, 트리거할 수 있으므로 외부 시스템 및 자동화 파이프라인과의 긴밀한 통합을 가능하게 합니다. <!-- Documentation link: TBD -->
+<!-- * **New public APIs** - New API specifications are now available. These APIs allow you to programmatically create, manage, and trigger orchestrated campaigns, enabling deeper integration with external systems and automation pipelines. Documentation link: TBD -->
 
-* **받는 사람 및 캠페인별로 전자 메일 보낸 사람 세부 정보 개인화** - 이제 오케스트레이션된 캠페인에서 프로필 특성 또는 관계 데이터를 사용하여 보낸 사람 이름, 보낸 사람 전자 메일 접두사, 회신 주소 이름 및 회신 전자 메일을 포함한 전자 메일 머리글 필드의 개인화를 지원합니다. 이 작업을 통해 모든 발송물을 단일 회사 주소를 통해 보내는 대신, 발신자 세부 정보에 각 수신자에게 적합한 담당자, 위치 또는 지점을 반영할 수 있습니다. 헤더 값은 채널 수준에서 설정할 수 있으며 보다 정밀한 제어를 위해 컨텍스트 데이터를 사용하여 캠페인별로 재정의할 수 있습니다. <!-- Documentation link: TBD -->
+* **받는 사람 및 캠페인별 전자 메일 보낸 사람 세부 정보 개인화(제한된 가용성)** - 이제 오케스트레이션된 캠페인에서 프로필 특성 또는 관계 데이터를 사용하여 보낸 사람 이름, 보낸 사람 전자 메일 접두사, 회신 주소 및 회신 전자 메일을 포함한 전자 메일 머리글 필드의 개인화를 지원합니다. 이 작업을 통해 모든 발송물을 단일 회사 주소를 통해 보내는 대신, 발신자 세부 정보에 각 수신자에게 적합한 담당자, 위치 또는 지점을 반영할 수 있습니다. 헤더 값은 채널 수준에서 설정할 수 있으며, 세밀한 제어를 위해 컨텍스트 데이터를 사용하여 캠페인별로 재정의할 수 있습니다.
+이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성).
+  <!-- Documentation link: TBD -->
 
 * **대상 차원 단순화** - 이제 활성 타깃팅 차원이 워크플로우 캔버스에 표시되므로 채널 활동에서 사용하는 차원을 확인할 수 있습니다. 다중 엔티티 세분화 흐름은 더 이상 별도의 &quot;차원 변경&quot; 활동이 필요하지 않으므로 더 간단합니다. 또한 이제 메시지가 프로필 수준에서 전송되는지 또는 보조 차원 수준에서 전송되는지를 명시적으로 선택할 수 있습니다. <!-- Documentation link: TBD -->
 
@@ -212,7 +209,7 @@ The following capability is coming to onboarding in this release.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published once changes are live in production. While most changes are delivered on the release date, a few may roll out later — refer to the Availability Date listed for each entry for details.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: June 16-17, 2026
 
