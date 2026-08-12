@@ -6,17 +6,12 @@ description: Adobe Journey Optimizer 사전 릴리스 정보
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 27ea2cd4b19bbb796e70a2b9be8cb6c61fb949aa
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: f453579de2b5edac0e8ac8cbcf31d48bce8467ad
 workflow-type: tm+mt
-source-wordcount: 1261
+source-wordcount: 1282
 ht-degree: 18%
 
 ---
@@ -66,13 +61,14 @@ The following capability is coming to onboarding in this release.
 <table>
 <thead>
 <tr>
-<th><strong>여정 수준 유지</strong><br/></th>
+<th><strong>여정 수준 보류(제한된 가용성)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>이제 여정 속성에서 직접 여정에 대한 홀드아웃 그룹을 구성할 수 있습니다. 홀드아웃은 여정 입력에서 제외되고 커뮤니케이션을 수신하지 않는 타겟 대상의 구성 가능한 백분율입니다. 홀드아웃 프로필을 Customer Journey Analytics 보고의 활성 프로필과 비교하여 여정이 제공하는 증분 상승도 - 실제 영향을 측정할 수 있습니다.</p>
+<p> 이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
@@ -86,7 +82,7 @@ The following capability is coming to onboarding in this release.
 
 ### 캠페인 {#august-26-camp}
 
-이 릴리스의 캠페인에는 다음과 같은 기능 및 개선 사항이 적용되었습니다.
+이 릴리스의 Campaign에는 다음과 같은 기능 및 개선 사항이 적용됩니다.
 
 <table>
 <thead>
@@ -112,11 +108,11 @@ The following capability is coming to onboarding in this release.
 
 <!--* **Brand alignment score in Action Campaign dashboard** - You can now assess your brand alignment score directly within your Action Campaign dashboard to ensure content stays on-brand. This allows you to verify guidelines at a glance without having to open the content designer.  Documentation link: TBD -->
 
-* **작업 캠페인의 기본 실행 필드 재정의** - 이전에는 여정 수준에서 사용할 수 있었지만, 이제 작업 캠페인 매개 변수에서 이메일, SMS 및 WhatsApp 게재에 대해 전역으로 설정된 기본 실행 필드를 재정의할 수 있습니다. <!-- Documentation link: TBD -->
+* **작업 캠페인의 기본 실행 필드 재정의** - 이전에는 여정 수준에서 사용할 수 있었지만, 이제 작업 캠페인 매개 변수에서 이메일, SMS 및 WhatsApp 게재에 대해 전역적으로 구성된 기본 실행 필드를 재정의할 수 있습니다. <!-- Documentation link: TBD -->
 
 ### 오케스트레이션된 캠페인 {#august-26-oc}
 
-이번 릴리스에서는 오케스트레이션된 캠페인에 다음과 같은 기능 및 개선 사항이 추가됩니다.
+이 릴리스의 오케스트레이션된 캠페인에는 다음과 같은 기능 및 개선 사항이 적용되었습니다.
 
 <table>
 <thead>
@@ -127,7 +123,7 @@ The following capability is coming to onboarding in this release.
 <tbody>
 <tr>
 <td>
-<p>이제 자동 사용 시간을 적용할 수 있습니다. 자동 시간에는 특정 기간 동안 메시지가 전송되지 않도록 시간 기반 제외 항목을 정의할 수 있으므로, 캠페인 오케스트레이션 사용 사례 전반에서 고객 선호도 및 규정 준수 요구 사항을 준수할 수 있습니다.</p>
+<p>이제 자동 시간 을 적용할 수 있습니다. 방해 금지 - 특정 기간 동안 메시지가 전송되지 않도록 시간 기반 제외 항목을 정의할 수 있으므로, 캠페인 오케스트레이션 사용 사례 전반에서 고객 선호도 및 규정 준수 요구 사항을 준수할 수 있습니다.</p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
@@ -214,7 +210,7 @@ The following capability is coming to onboarding in this release.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published once changes are live in production. While most changes are delivered on the release date, a few may roll out later — refer to the Availability Date listed for each entry for details.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: June 16-17, 2026
 
