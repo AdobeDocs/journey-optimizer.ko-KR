@@ -6,18 +6,14 @@ description: DDL을 업로드하여 Adobe Experience Platform 내에서 관계�
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/0ffs03Mz3RCUtHmd66tQxonSm-P7tB5WMmKjVXsAi0g
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: 
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: 7787cf29f9b996faf35a04c8070efd3a67d8f706
 workflow-type: tm+mt
-source-wordcount: 1255
-ht-degree: 41%
+source-wordcount: 1280
+ht-degree: 40%
 
 ---
 
@@ -43,9 +39,13 @@ ht-degree: 41%
 
 1. 지원되는 소스에서 데이터 세트로 [데이터를 수집](ingest-data.md)합니다.
 
-➡️ [Adobe Experience Platform 설명서에서 관계형 스키마에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/relational)
+➡️ [Adobe Experience Platform 설명서에서 관계형 스키마에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational)
 
 ## DDL 파일 업로드{#ddl-upload}
+
+>[!NOTE]
+>
+> **[!UICONTROL 관계]** 탭의 **[!UICONTROL 관계 보기]**&#x200B;은(는) 읽기 전용입니다. 관계를 만들거나 편집하려면 대신 **[!UICONTROL 찾아보기]** 탭에서 스키마를 여십시오.
 
 DDL 파일을 업로드하여 테이블, 속성, 키, 관계 등 데이터 모델의 구조를 미리 정의할 수 있습니다.
 

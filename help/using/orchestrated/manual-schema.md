@@ -6,18 +6,13 @@ description: 사용자 인터페이스를 통해 직접 관계형 스키마를 �
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/vSXJMXYZECaVuB8PkrEB4Y9AXgJBHMq0bGd8Nb-BGh4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: 
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: 7787cf29f9b996faf35a04c8070efd3a67d8f706
 workflow-type: tm+mt
-source-wordcount: 960
+source-wordcount: 985
 ht-degree: 11%
 
 ---
@@ -44,9 +39,13 @@ ht-degree: 11%
 
 1. 지원되는 소스에서 데이터 세트로 [데이터를 수집](ingest-data.md)합니다.
 
-➡️ [Adobe Experience Platform 설명서에서 수동 관계형 스키마에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
+➡️ [Adobe Experience Platform 설명서에서 수동 관계형 스키마에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
 
 ## 스키마 만들기 {#schema}
+
+>[!NOTE]
+>
+> **[!UICONTROL 관계]** 탭의 **[!UICONTROL 관계 보기]**&#x200B;은(는) 읽기 전용입니다. 관계를 만들거나 편집하려면 대신 **[!UICONTROL 찾아보기]** 탭에서 스키마를 여십시오.
 
 Adobe Experience Platform에서 수동으로 새 관계형 스키마를 생성하여 시작하십시오. 이 프로세스를 사용하면 이름 및 동작을 포함하여 스키마 구조를 처음부터 정의할 수 있습니다.
 
@@ -126,7 +125,7 @@ Adobe Experience Platform에서 수동으로 새 관계형 스키마를 생성�
 
 속성을 만들고 저장한 후 관계를 정의하여 스키마를 다른 관계형 스키마와 연결할 수 있습니다.
 
-➡️ [Adobe Experience Platform 설명서에서 관계형 스키마에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
+➡️ [Adobe Experience Platform 설명서에서 관계형 스키마에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
 
 ## 스키마 연결 {#link-schema}
 
