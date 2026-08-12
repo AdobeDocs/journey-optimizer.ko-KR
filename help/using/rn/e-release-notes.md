@@ -6,19 +6,13 @@ description: Adobe Journey Optimizer 사전 릴리스 정보
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-hide: true
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 1b68a987121407a6fa95f21fb328ad2d349108c0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: dc3bbca5a794aeccfd6ef1873b80f85369fcb39c
 workflow-type: tm+mt
-source-wordcount: 1839
-ht-degree: 20%
+source-wordcount: 1271
+ht-degree: 15%
 
 ---
 
@@ -35,28 +29,30 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 
 **릴리스 날짜**: 2026년 8월 18~19일
 
-### 온보딩 {#august-26-onboarding}
+<!--
+### Onboarding {#august-26-onboarding}
 
-이 릴리스에서는 다음 기능이 온보딩됩니다.
+The following capability is coming to onboarding in this release.
 
 <table>
 <thead>
 <tr>
-<th><strong>이메일 및 여정 온보딩을 위한 안내 기능(일반 공급)</strong><br/></th>
+<th><strong>Guided capabilities for onboarding emails and journeys (General Availability)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>다른 마케팅 플랫폼에서 Adobe Journey Optimizer으로 전환하면 기존 이메일 콘텐츠와 여정을 Journey Optimizer으로 이동하는 데 도움이 되는 안내 기능을 통해 더 쉽게 이동할 수 있습니다. 전용 작업 영역을 사용하면 처음부터 다시 빌드하는 대신 기존 작업 영역을 다시 사용할 수 있습니다.</p>
-<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-15330">DOCAC-15330</a></p>
-<!-- GIF placeholder: to be added -->
-<!-- Documentation link: TBD -->
+<p>Transitioning to Adobe Journey Optimizer from another marketing platform is easier with guided capabilities that help you move existing email content and journeys into Journey Optimizer. A dedicated workspace lets you reuse what you have instead of rebuilding from scratch.</p>
+<p>Previously released in Limited Availability, this capability is now available to all environments (General Availability).</p>
+<GIF placeholder: to be added>
+<Documentation link: TBD>
 </td>
 </tr>
 </tbody>
 </table>
+
+-->
 
 ### 여정 {#august-26-journeys}
 
@@ -72,7 +68,6 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 <tr>
 <td>
 <p>이제 여정 속성에서 직접 여정에 대한 홀드아웃 그룹을 구성할 수 있습니다. 홀드아웃은 여정 입력에서 제외되고 커뮤니케이션을 수신하지 않는 타겟 대상의 구성 가능한 백분율입니다. 홀드아웃 프로필을 Customer Journey Analytics 보고의 활성 프로필과 비교하여 여정이 제공하는 증분 상승도 - 실제 영향을 측정할 수 있습니다.</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-15162">DOCAC-15162</a></p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
@@ -80,9 +75,9 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 </tbody>
 </table>
 
-* **여정 표현식 편집기에 새 dateDiff 함수 추가** - 이제 여정 표현식 편집기에 두 날짜의 일 수 차이를 계산하는 `dateDiff` 함수가 포함됩니다. 이 기능은 기한 만들기, 고객 라이프사이클 기간 계산 또는 여정 조건에서 카운트다운 타이머 작성과 같은 시간 기반 논리에 유용합니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-15293">DOCAC-15293</a> <!-- Documentation link: TBD -->
+* **여정 표현식 편집기에 새 dateDiff 함수 추가** - 이제 여정 표현식 편집기에 두 날짜의 일 수 차이를 계산하는 `dateDiff` 함수가 포함됩니다. 이 기능은 기한 만들기, 고객 라이프사이클 기간 계산 또는 여정 조건에서 카운트다운 타이머 작성과 같은 시간 기반 논리에 유용합니다. <!-- Documentation link: TBD -->
 
-* **여정 헤더의 시작 및 종료 날짜** - 여정에 시작 및/또는 종료 날짜가 구성되면 상태 배지 옆의 여정 헤더에 표시됩니다. 표시되는 레이블은 각 날짜가 다가오는지 또는 이미 지났는지에 따라 달라집니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-14702">DOCAC-14702</a> <!-- Documentation link: TBD -->
+* **여정 헤더의 시작 및 종료 날짜** - 여정에 시작 및/또는 종료 날짜가 구성되면 상태 배지 옆의 여정 헤더에 표시됩니다. 표시된 레이블은 각 날짜가 예정된 날짜인지 또는 이미 지난 날짜인지에 따라 조정됩니다. <!-- Documentation link: TBD -->
 
 ### 캠페인 {#august-26-camp}
 
@@ -99,7 +94,6 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 <td>
 <p>이제 시작하기 전에 작업 캠페인에서 인바운드 채널 작업을 시뮬레이션할 수 있습니다. 시뮬레이션 모드를 사용하여 시뮬레이트된 사용자로 구성을 테스트하고 생성된 URL 및 QR 코드를 포함한 렌더링된 경험을 미리 보면 규칙, 의사 결정 및 컨텐츠 렌더링의 엔드 투 엔드를 확인할 수 있습니다.</p>
 <p>이 기능은 현재 개인 베타 버전으로 제한된 조직 세트에서 사용할 수 있습니다. 더 많은 내용은 Adobe 담당자에게 문의하십시오.</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-15166">DOCAC-15166</a></p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
@@ -107,11 +101,13 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 </tbody>
 </table>
 
-* **캠페인용 폴더** - 이제 캠페인을 폴더로 구성하여 인터페이스에서 탐색 및 관리를 개선할 수 있습니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-15098">DOCAC-15098</a> <!-- Documentation link: TBD -->
+* **캠페인 작성 흐름 재디자인** - Adobe Journey Optimizer 캠페인 작성 흐름이 훨씬 더 직관적이고 효율적이며 원활한 사용자 경험을 제공하도록 재디자인되었습니다.
 
-* **캠페인 대시보드의 브랜드 일관성 점수** - 이제 캠페인 대시보드에서 직접 브랜드 일관성 점수를 평가하여 콘텐츠가 브랜드에 부합하는지 확인할 수 있습니다. 이렇게 하면 콘텐츠 디자이너를 열지 않고도 가이드라인을 한눈에 검증할 수 있습니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-14516">DOCAC-14516</a> <!-- Documentation link: TBD -->
+* **캠페인용 폴더** - 이제 캠페인을 폴더로 구성하여 인터페이스에서 탐색 및 관리를 개선할 수 있습니다. <!-- Documentation link: TBD -->
 
-* **캠페인의 기본 실행 필드 재정의** - 이전에는 여정 수준에서 사용할 수 있었던 기능이지만, 이제 캠페인 매개변수에서 이메일, SMS, WhatsApp 게재에 대해 전역으로 설정된 기본 실행 필드를 재정의할 수 있습니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-14718">DOCAC-14718</a> <!-- Documentation link: TBD -->
+<!--* **Brand alignment score in Campaign dashboard** - You can now assess your brand alignment score directly within your Campaign dashboard to ensure content stays on-brand. This allows you to verify guidelines at a glance without having to open the content designer.  Documentation link: TBD -->
+
+* **캠페인의 기본 실행 필드 재정의** - 이전에는 여정 수준에서 사용할 수 있었지만, 이제 캠페인 매개 변수에서 이메일, SMS 및 WhatsApp 게재에 대해 전역으로 설정된 기본 실행 필드를 재정의할 수 있습니다. <!-- Documentation link: TBD -->
 
 ### 오케스트레이션된 캠페인 {#august-26-oc}
 
@@ -127,7 +123,6 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 <tr>
 <td>
 <p>이제 자동 사용 시간을 적용할 수 있습니다. 자동 시간에는 특정 기간 동안 메시지가 전송되지 않도록 시간 기반 제외 항목을 정의할 수 있으므로, 캠페인 오케스트레이션 사용 사례 전반에서 고객 선호도 및 규정 준수 요구 사항을 준수할 수 있습니다.</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14054">DOCAC-14054</a></p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
@@ -144,8 +139,7 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 <tbody>
 <tr>
 <td>
-<p>이제 캠페인에 직접 LINE 작업을 추가할 수 있습니다. 이 새로운 활동을 통해 텍스트, 스티커, 이미지, 비디오, 위치 데이터 및 풍부한 Flex 메시지를 비롯한 고도로 개인화된 콘텐츠를 구축 및 전달하여 LINE 플랫폼에서 고객을 원활하게 참여시킬 수 있습니다. 이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14905">DOCAC-14905</a></p>
+<p>이제 사용자 지정 아웃바운드 채널 기능 릴리스를 통해 캠페인에 직접 LINE 작업을 추가할 수 있습니다. 이 새로운 활동을 통해 텍스트, 스티커, 이미지, 비디오, 위치 데이터 및 풍부한 Flex 메시지를 비롯한 고도로 개인화된 콘텐츠를 구축 및 전달하여 LINE 플랫폼에서 고객을 원활하게 참여시킬 수 있습니다. 이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
@@ -153,15 +147,15 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 </tbody>
 </table>
 
-* **프로필 대상 차원을 관리하는 기능** - 이제 프로필 대상 Dimension을 삭제하거나 구성된 ID 네임스페이스를 편집 및 교환하여 데이터 설정을 보다 유연하게 제어할 수 있습니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-15018">DOCAC-15018</a> <!-- Documentation link: TBD -->
+* **프로필 대상 차원을 관리하는 기능** - 이제 프로필 대상 Dimension을 삭제하거나 구성된 ID 네임스페이스를 편집 및 교환하여 데이터 설정을 보다 유연하게 제어할 수 있습니다. <!-- Documentation link: TBD -->
 
-* **새 공개 API** - 이제 새 API 사양을 사용할 수 있습니다. 이러한 API를 사용하면 오케스트레이션된 캠페인을 프로그래밍 방식으로 만들고, 관리하고, 트리거할 수 있으므로 외부 시스템 및 자동화 파이프라인과의 긴밀한 통합을 가능하게 합니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-14308">DOCAC-14308</a> <!-- Documentation link: TBD -->
+* **새 공개 API** - 이제 새 API 사양을 사용할 수 있습니다. 이러한 API를 사용하면 오케스트레이션된 캠페인을 프로그래밍 방식으로 만들고, 관리하고, 트리거할 수 있으므로 외부 시스템 및 자동화 파이프라인과의 긴밀한 통합을 가능하게 합니다. <!-- Documentation link: TBD -->
 
-* **받는 사람 및 캠페인별로 전자 메일 보낸 사람 세부 정보 개인화** - 이제 오케스트레이션된 캠페인에서 프로필 특성 또는 관계 데이터를 사용하여 보낸 사람 이름, 보낸 사람 주소 및 회신 주소를 포함한 전자 메일 헤더 필드를 개인화할 수 있습니다. 이 작업을 통해 모든 발송물을 단일 회사 주소를 통해 보내는 대신, 발신자 세부 정보에 각 수신자에게 적합한 담당자, 위치 또는 지점을 반영할 수 있습니다. 헤더 값은 채널 수준에서 설정할 수 있으며, 세밀한 제어를 위해 컨텍스트 데이터를 사용하여 캠페인별로 재정의할 수 있습니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-13761">DOCAC-13761</a> <!-- Documentation link: TBD -->
+* **받는 사람 및 캠페인별로 전자 메일 보낸 사람 세부 정보 개인화** - 이제 오케스트레이션된 캠페인에서 프로필 특성 또는 관계 데이터를 사용하여 보낸 사람 이름, 보낸 사람 전자 메일 접두사, 회신 주소 이름 및 회신 전자 메일을 포함한 전자 메일 머리글 필드의 개인화를 지원합니다. 이 작업을 통해 모든 발송물을 단일 회사 주소를 통해 보내는 대신, 발신자 세부 정보에 각 수신자에게 적합한 담당자, 위치 또는 지점을 반영할 수 있습니다. 헤더 값은 채널 수준에서 설정할 수 있으며 보다 정밀한 제어를 위해 컨텍스트 데이터를 사용하여 캠페인별로 재정의할 수 있습니다. <!-- Documentation link: TBD -->
 
-* **대상 차원 단순화** - 이제 활성 타깃팅 차원이 워크플로우 캔버스에 표시되므로 채널 활동에서 사용하는 차원을 확인할 수 있습니다. 다중 엔티티 세분화 흐름은 더 이상 별도의 &quot;차원 변경&quot; 활동이 필요하지 않으므로 더 간단합니다. 또한 이제 메시지가 프로필 수준에서 전송되는지 또는 보조 차원 수준에서 전송되는지를 명시적으로 선택할 수 있습니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-13554">DOCAC-13554</a> <!-- Documentation link: TBD -->
+* **대상 차원 단순화** - 이제 활성 타깃팅 차원이 워크플로우 캔버스에 표시되므로 채널 활동에서 사용하는 차원을 확인할 수 있습니다. 다중 엔티티 세분화 흐름은 더 이상 별도의 &quot;차원 변경&quot; 활동이 필요하지 않으므로 더 간단합니다. 또한 이제 메시지가 프로필 수준에서 전송되는지 또는 보조 차원 수준에서 전송되는지를 명시적으로 선택할 수 있습니다. <!-- Documentation link: TBD -->
 
-* **웨이브를 사용하여 보내기** - 이제 아웃바운드 메시지를 시간에 따라 제어된 배치로 전달하도록 예약할 수 있습니다. 대량 또는 시간에 민감한 캠페인에 적합한 웨이브 전송은 더 나은 전달성을 지원하며, 스팸으로 플래그가 지정될 위험을 줄여 강력한 발신자 평판을 유지하는 데도 도움이 됩니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-13990">DOCAC-13990</a> <!-- Documentation link: TBD -->
+* **웨이브를 사용하여 보내기** - 이제 아웃바운드 메시지를 시간에 따라 제어된 배치로 전달하도록 예약할 수 있습니다. 대량 또는 시간에 민감한 캠페인에 적합한 웨이브 전송은 더 나은 전달성을 지원하며, 스팸으로 플래그가 지정될 위험을 줄여 강력한 발신자 평판을 유지하는 데도 도움이 됩니다. <!-- Documentation link: TBD -->
 
 ### 채널 {#august-26-channels}
 
@@ -177,7 +171,6 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 <tr>
 <td>
 <p>이제 웹 채널에 의사 결정을 사용할 수 있습니다. 웹 시각적 편집기에서 직접 의사 결정 정책을 사용하여 각 방문자에게 가장 관련성이 높은 오퍼를 전달할 수 있습니다.</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-11548">DOCAC-11548</a></p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
@@ -185,55 +178,28 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>API가 트리거된 이메일의 개인화된 PDF 첨부 파일</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 Journey Optimizer에서는 API 트리거 캠페인에서 이메일당 최대 5개의 수신자 특정 PDF를 첨부할 수 있습니다. PDF 파일은 데이터 랜딩 구역에서 안전하게 가져오고 전송 시 첨부되며 각 파일의 위치는 API 페이로드로 직접 전달됩니다. 이렇게 하면 Journey Optimizer에서 게재를 처리하면서 기존 업스트림 문서 생성 시스템이 제자리에 유지될 수 있습니다.</p>
-<p>지원되는 사용 사례에는 송장, 명세서, 티켓, 계약서, 배송 라벨 및 수신자마다 다른 유사한 문서가 포함됩니다. 개인화된 PDF 첨부 파일은 API 트리거 캠페인에서만 사용할 수 있으며, 여정 또는 오케스트레이션된 캠페인에서는 지원되지 않습니다.</p>
-<p>PDF 첨부 파일 추가 기능을 통해 더 큰 첨부 파일 볼륨 및 크기가 지원됩니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-15186">DOCAC-15186</a></p>
-<!-- GIF placeholder: to be added -->
-<!-- Documentation link: TBD -->
-</td>
-</tr>
-</tbody>
-</table>
 
-* **LINE 채널 - 작성 기능 변경** - LINE 채널 UI가 고급 메시지 작성 기능으로 업그레이드되었습니다. 이 릴리스에서는 실시간 장치 미리 보기와 함께 텍스트, 이미지, 이미지 맵, 회전 메뉴 및 Flex(JSON 편집기)를 비롯한 여러 메시지 형식을 지원합니다. 이제 사용자는 최대 5개의 메시지로 구성된 그룹 메시지를 관리하고(추가, 제거 및 순서 변경 기능 포함) 통합된 개인화 편집기를 활용하여 검증된 동적 메시지를 보낼 수 있습니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-14869">DOCAC-14869</a> <!-- Documentation link: TBD -->
-
-* **처리량을 위한 성능 추가 기능 - 푸시** - API 트리거 캠페인에서 새로운 처리량 트랜잭션 메시지 모드를 사용할 수 있습니다. 이 모드는 대규모 실시간 트랜잭션 메시지 전송을 위해 설계되었으며 더 높은 가용성으로 초당 최대 5,000개의 트랜잭션을 지원합니다. 이전에는 이메일 채널에서만 사용할 수 있었지만, 이제 이 기능은 Adobe 고처리량 트랜잭션 메시지 추가 기능 서비스를 구입한 조직의 푸시 채널에서도 사용할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오. <a href="https://jira.corp.adobe.com/browse/DOCAC-14717">DOCAC-14717</a> <!-- Documentation link: TBD -->
+* **처리량을 위한 성능 추가 기능 - 푸시** - API 트리거 캠페인에서 새로운 처리량 트랜잭션 메시지 모드를 사용할 수 있습니다. 이 모드는 대규모 실시간 트랜잭션 메시지 전송을 위해 설계되었으며 더 높은 가용성으로 초당 최대 5,000개의 트랜잭션을 지원합니다. 이전에는 이메일 채널에서만 사용할 수 있었지만, 이제 이 기능은 Adobe 고처리량 트랜잭션 메시지 추가 기능 서비스를 구입한 조직의 푸시 채널에서도 사용할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오. <!-- Documentation link: TBD -->
 
 ### 결정 {#august-26-decisioning}
 
 이 릴리스의 Decisioning에는 다음과 같은 개선 사항이 적용됩니다.
 
-* **의사 결정의 배치 수준 빈도 제한** - 이제 의사 결정의 빈도 제한 규칙을 개별 배치로 지정할 수 있으므로 오퍼가 지정된 표면에 표시되는 빈도를 보다 세밀하게 제어할 수 있습니다. 두 가지 모드를 사용할 수 있습니다. 배치별 캡핑은 오퍼가 선택한 배치에 표시될 때만 적용되는 캡을 정의하고, 배치별 캡핑은 오퍼가 나타나는 모든 배치에 독립적으로 캡을 적용하므로 각 배치는 자체 캡핑 카운터를 유지합니다. 배치 관련 한도 설정은 Adobe Experience Platform 데이터 기반의 규칙을 사용하여 설정된 오퍼에는 적용되지 않습니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-14980">DOCAC-14980</a> <!-- Documentation link: TBD -->
+* **의사 결정의 배치 수준 빈도 제한** - 이제 의사 결정의 빈도 제한 규칙을 개별 배치로 지정할 수 있으므로 오퍼가 지정된 표면에 표시되는 빈도를 보다 세밀하게 제어할 수 있습니다. 두 가지 모드를 사용할 수 있습니다. 배치별 캡핑은 오퍼가 선택한 배치에 표시될 때만 적용되는 캡을 정의하고, 배치별 캡핑은 오퍼가 나타나는 모든 배치에 독립적으로 캡을 적용하므로 각 배치는 자체 캡핑 카운터를 유지합니다. 배치 관련 한도 설정은 Adobe Experience Platform 데이터 기반의 규칙을 사용하여 설정된 오퍼에는 적용되지 않습니다. <!-- Documentation link: TBD -->
+
+* **시각적 조각의 미러 페이지** - 이제 시각적 조각에 미러 페이지를 삽입할 수 있습니다. Decisioning을 활용하는 이메일 캠페인에서 조각을 사용하는 경우에도 Decisioning 속성이 미러 페이지 링크에서 올바르게 렌더링됩니다. 속성을 표시하려면 조각을 게시하기 전에 시각적 조각에 미러 페이지를 추가해야 합니다. <!-- Documentation link: TBD -->
 
 ### 이메일 디자이너 {#august-26-email}
 
 이 릴리스의 이메일 Designer에는 다음과 같은 개선 사항이 적용됩니다.
 
-* **전자 메일 Designer의 새 테이블 구성 요소** - 이제 전자 메일 Designer에 기본 제공 테이블 구성 요소가 포함되어 있으므로 전자 메일 내에서 직접 행 및 열의 콘텐츠를 구성할 수 있습니다. 구성 요소를 캔버스에 드래그하여 놓고, 행과 열의 수를 사용자 정의하고, 각 셀의 스타일을 독립적으로 지정하여 사용자 지정 HTML에 의존하지 않고 명확하고 체계적인 레이아웃을 만듭니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-15093">DOCAC-15093</a> <!-- Documentation link: TBD -->
+* **전자 메일 Designer의 새 테이블 구성 요소** - 이제 전자 메일 Designer에 기본 제공 테이블 구성 요소가 포함되어 있으므로 전자 메일 내에서 직접 행 및 열의 콘텐츠를 구성할 수 있습니다. 구성 요소를 캔버스에 끌어다 놓고, 행과 열의 수를 사용자 지정하고, 각 셀의 스타일을 독립적으로 지정하여 사용자 지정 HTML에 의존하지 않고 명확하고, 정리된 레이아웃을 만듭니다. <!-- Documentation link: TBD -->
 
 ### 관리 {#august-26-administration}
 
 이 릴리스에서는 다음과 같은 개선 사항이 적용되었습니다.
 
-* **사용자 지정 하위 도메인에 대한 피드백 루프 OTP 프로세스** - 제품 UI 내에서 Yahoo sender 허브 OTP(일회성 암호)를 직접 표시하여 피드백 루프(FBL) 사용자 지정 하위 도메인 구성 프로세스가 개선되었습니다. 이제 사용자는 Yahoo 발신자 허브 도메인 소유권 확인 중에 생성된 OTP를 자동으로 검색하고 표시할 수 있습니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-14815">DOCAC-14815</a> <!-- Documentation link: TBD -->
-
-### 사용성 개선 사항 {#august-26-usability}
-
-이번 릴리스에서는 다음과 같은 개선 사항이 사용되었습니다.
-
-* **콘텐츠 변형에 대한 새로운 콘텐츠 시뮬레이션 경험** - **콘텐츠 시뮬레이션** 워크플로에서는 새롭게 디자인된 경험을 도입했습니다. 이제 모든 변형을 한 번에 하나의 변형 보기를 대체하여 스크롤 가능한 그리드(나란히, 스택 또는 래핑된 레이아웃)에서 함께 렌더링합니다. 단일 하단 작업 표시줄은 테스트 변형 간 탐색, 확대/축소, 뷰포트 전환(데스크탑/모바일), 로케일 전환, 샘플 입력 추가, AI를 통한 변형 생성, 시뮬레이션된 사용자 선택 및 저장, 변형 가져오기 또는 내보내기를 통합합니다. 왼쪽 레일을 제거하고 추가 헤더 레이어를 축소하면 미리보기에 훨씬 더 많은 공간이 제공됩니다. 하단 작업 표시줄의 **클래식 경험으로 전환** 옵션을 사용하면 언제든지 이전 경험으로 되돌릴 수 있습니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-15285">DOCAC-15285</a> <!-- Documentation link: TBD -->
-
-* **여정 인벤토리의 대량 작업** - 이제 여정 인벤토리 목록에서 직접 새로운 대량 작업을 수행할 수 있으므로 여러 여정을 한 번에 더 빠르게 관리할 수 있습니다. 여러 여정을 선택하고 다음 새 작업을 한 단계로 적용합니다. **패키지에 추가**, **삭제**, **폴더로 이동**, **태그 편집** 또는 **액세스 관리**. 이렇게 하면 한 번에 한 여정에 동일한 작업을 반복할 필요가 줄어들어 많은 여정으로 작업하는 팀의 여정 관리가 간소화됩니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-15358">DOCAC-15358</a> <!-- Documentation link: TBD -->
+* **사용자 지정 하위 도메인에 대한 피드백 루프 OTP 프로세스** - 제품 UI 내에서 Yahoo sender 허브 OTP(일회성 암호)를 직접 표시하여 피드백 루프(FBL) 사용자 지정 하위 도메인 구성 프로세스가 개선되었습니다. 이제 사용자는 Yahoo 발신자 허브 도메인 소유권 확인 중에 생성된 OTP를 자동으로 검색하고 표시할 수 있습니다. <!-- Documentation link: TBD -->
 
 <!--
 
@@ -241,7 +207,7 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published once changes are live in production. While most changes are delivered on the release date, a few may roll out later — refer to the Availability Date listed for each entry for details.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: June 16-17, 2026
 
