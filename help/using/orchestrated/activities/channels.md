@@ -15,10 +15,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 94ca2d9458152fb471e9590d053c4729a4a5134f
+source-git-commit: d05144d68c19ad0b1626f476ac706e75489cea8a
 workflow-type: tm+mt
-source-wordcount: 1972
-ht-degree: 42%
+source-wordcount: 2012
+ht-degree: 43%
 
 ---
 
@@ -49,6 +49,13 @@ ht-degree: 42%
 >id="ajo_orchestration_target"
 >title="대상"
 >abstract="**[!UICONTROL 대상]** 섹션은 이 채널 활동에 대한 게재 대상을 설정합니다. **[!UICONTROL 대상 차원]**&#x200B;을 사용하여 이 전송에 적용할 대상 차원을 선택하십시오. 그런 다음 **[!UICONTROL 프로필당 메시지 1개]**&#x200B;를 선택하여 1인당 메시지 1개를 전송하거나, **[!UICONTROL 보조 차원당 메시지 1개]**&#x200B;를 선택하여 조건에 부합하는 보조 차원당 메시지 1개를 전송할 수 있습니다. 예를 들어, 동일한 여행자가 여러 개의 해당 항공편을 예약한 경우 항공편당 이메일 1개를 전송할 수 있습니다."
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_line"
+>title="Line 활동"
+>abstract="**Line** 활동을 통해 오케스트레이션된 캠페인에 LINE 액션을 추가할 수 있습니다. 텍스트 및 스티커에서 이미지, 비디오, 위치 및 Flex Message에 이르는 다양하고 개인화된 콘텐츠를 제작하여 LINE에서 고객 참여를 유도합니다."
+
 
 <!--
 UNUSED IDs in BJ
@@ -186,8 +193,7 @@ UNUSED IDs in BJ
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;" >
 <td><a href="../../email/create-email.md"><img alt="이메일" src="../../channels/assets/do-not-localize/email.png"></a><br/><a href="../../email/create-email.md"><strong>이메일 만들기</strong></a></td>
 <td><a href="../../mobile/create-mobile-message.md"><img alt="sms" src="../../channels/assets/do-not-localize/sms.png"></a><br/><a href="../../mobile/create-mobile-message.md"><strong>SMS 만들기</strong></a></td>
-<td><a href="../../push/create-push.md"><img alt="푸시" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>푸시 알림 만들기</strong></a></td><td><a href="../../direct-mail/create-direct-mail.md"><img alt="다이렉트 메일" src="../../channels/assets/do-not-localize/direct-mail.jpg"></a><a href="../../direct-mail/create-direct-mail.md"><strong>다이렉트 메일 만들기</strong></a></td><td><a href="../../custom-channel/create-custom-channel.md"><img alt="사용자 지정 채널" src="../../channels/assets/do-not-localize/web.jpg"></a><br/><a href="../../custom-channel/create-custom-experience.md"><strong>사용자 지정 작업 만들기</strong></a></td>
-</tr></table>
+<td><a href="../../push/create-push.md"><img alt="푸시" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>푸시 알림 만들기</strong></a></td><td><a href="../../direct-mail/create-direct-mail.md"><img alt="다이렉트 메일" src="../../channels/assets/do-not-localize/direct-mail.jpg"></a><a href="../../direct-mail/create-direct-mail.md"><strong>다이렉트 메일 만들기</strong></a></td><td><a href="../../custom-channel/create-custom-channel.md"><img alt="사용자 지정 채널" src="../../channels/assets/do-not-localize/web.jpg"></a><br/><a href="../../custom-channel/create-custom-experience.md"><strong>사용자 지정 작업 만들기</strong></a></td><td><a href="../../line/get-started-line.md"><img alt="line" src="../../channels/assets/do-not-localize/line.jpg"></a><br/><a href="../../line/get-started-line.md"><strong>LINE 메시지(LA) 만들기</strong></a></td></tr></table>
 
 ### 개인화 추가 {#add-personalization}
 

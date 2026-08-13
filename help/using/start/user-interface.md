@@ -31,9 +31,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 701ba9b669c454e7369c10cb14e68b62c1753f3e
+source-git-commit: d05144d68c19ad0b1626f476ac706e75489cea8a
 workflow-type: tm+mt
-source-wordcount: 1516
+source-wordcount: 1482
 ht-degree: 99%
 
 ---
@@ -383,16 +383,6 @@ AI 어시스턴트는 즉각적인 도움과 운영 인사이트를 제공합니
 >id="ajo_orchestration_load_file"
 >title="파일 로드 활동"
 >abstract="**파일 로드** 활동은 **타기팅** 활동입니다. 오케스트레이션된 캠페인 캔버스에 CSV 또는 TXT 파일을 업로드하여 캠페인 대상자로 사용하려면 이 활동을 사용합니다. 파일 데이터는 실행 시 사용되며 Adobe Experience Platform 데이터 세트로 저장되지 않습니다. 행은 ID 열과 타기팅 차원을 사용하여 기존 수신자에게 맞춰집니다."
-
-
-<!-- OC - LINE ACTIVITY -->
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_line"
->title="Line 활동"
->abstract="**Line** 활동을 통해 오케스트레이션된 캠페인에 LINE 액션을 추가할 수 있습니다. 텍스트 및 스티커에서 이미지, 비디오, 위치 및 Flex Message에 이르는 다양하고 개인화된 콘텐츠를 제작하여 LINE에서 고객 참여를 유도합니다."
-
-
 
 <!-- Asset selector content generation -->
 
