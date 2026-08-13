@@ -6,19 +6,14 @@ description: 여러 단계로 구성된 캠페인에 채널 활동을 추가하�
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ouwufvPEUXGewSP5TvsfI0qPxpVqaqso3me4qEc2WQM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 94ca2d9458152fb471e9590d053c4729a4a5134f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: d05144d68c19ad0b1626f476ac706e75489cea8a
 workflow-type: tm+mt
-source-wordcount: 1972
-ht-degree: 42%
+source-wordcount: 2012
+ht-degree: 43%
 
 ---
 
@@ -49,6 +44,13 @@ ht-degree: 42%
 >id="ajo_orchestration_target"
 >title="대상"
 >abstract="**[!UICONTROL 대상]** 섹션은 이 채널 활동에 대한 게재 대상을 설정합니다. **[!UICONTROL 대상 차원]**&#x200B;을 사용하여 이 전송에 적용할 대상 차원을 선택하십시오. 그런 다음 **[!UICONTROL 프로필당 메시지 1개]**&#x200B;를 선택하여 1인당 메시지 1개를 전송하거나, **[!UICONTROL 보조 차원당 메시지 1개]**&#x200B;를 선택하여 조건에 부합하는 보조 차원당 메시지 1개를 전송할 수 있습니다. 예를 들어, 동일한 여행자가 여러 개의 해당 항공편을 예약한 경우 항공편당 이메일 1개를 전송할 수 있습니다."
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_line"
+>title="Line 활동"
+>abstract="**Line** 활동을 통해 오케스트레이션된 캠페인에 LINE 액션을 추가할 수 있습니다. 텍스트 및 스티커에서 이미지, 비디오, 위치 및 Flex Message에 이르는 다양하고 개인화된 콘텐츠를 제작하여 LINE에서 고객 참여를 유도합니다."
+
 
 <!--
 UNUSED IDs in BJ
@@ -168,7 +170,7 @@ UNUSED IDs in BJ
 
 +++**빠른 전송 모드를 사용**(푸시)합니다.
 
-빠른 전송 모드는 캠페인을 통해 대량으로 매우 빠른 푸시 메시지를 전송할 수 있는 [!DNL Journey Optimizer] 추가 기능입니다. 신속한 전달은 메시지 전달 지연이 비즈니스에 중요한 경우 사용됩니다. 예를 들어 뉴스 채널 앱을 설치한 사용자에게 속보 등 휴대폰에 긴급 푸시 알림을 전송하려는 경우가 있습니다. 푸시 알림에 대해 빠른 전송 모드를 사용하는 방법을 알아봅니다. [&#x200B; 이 페이지](../../push/create-push.md#rapid-delivery).
+빠른 전송 모드는 캠페인을 통해 대량으로 매우 빠른 푸시 메시지를 전송할 수 있는 [!DNL Journey Optimizer] 추가 기능입니다. 신속한 전달은 메시지 전달 지연이 비즈니스에 중요한 경우 사용됩니다. 예를 들어 뉴스 채널 앱을 설치한 사용자에게 속보 등 휴대폰에 긴급 푸시 알림을 전송하려는 경우가 있습니다. 푸시 알림에 대해 빠른 전송 모드를 사용하는 방법을 알아봅니다. [ 이 페이지](../../push/create-push.md#rapid-delivery).
 
 빠른 전송 모드를 사용할 때의 성능에 대한 자세한 내용은 [Adobe Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}을 참조하세요.
 
@@ -186,8 +188,7 @@ UNUSED IDs in BJ
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;" >
 <td><a href="../../email/create-email.md"><img alt="이메일" src="../../channels/assets/do-not-localize/email.png"></a><br/><a href="../../email/create-email.md"><strong>이메일 만들기</strong></a></td>
 <td><a href="../../mobile/create-mobile-message.md"><img alt="sms" src="../../channels/assets/do-not-localize/sms.png"></a><br/><a href="../../mobile/create-mobile-message.md"><strong>SMS 만들기</strong></a></td>
-<td><a href="../../push/create-push.md"><img alt="푸시" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>푸시 알림 만들기</strong></a></td><td><a href="../../direct-mail/create-direct-mail.md"><img alt="다이렉트 메일" src="../../channels/assets/do-not-localize/direct-mail.jpg"></a><a href="../../direct-mail/create-direct-mail.md"><strong>다이렉트 메일 만들기</strong></a></td><td><a href="../../custom-channel/create-custom-channel.md"><img alt="사용자 지정 채널" src="../../channels/assets/do-not-localize/web.jpg"></a><br/><a href="../../custom-channel/create-custom-experience.md"><strong>사용자 지정 작업 만들기</strong></a></td>
-</tr></table>
+<td><a href="../../push/create-push.md"><img alt="푸시" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>푸시 알림 만들기</strong></a></td><td><a href="../../direct-mail/create-direct-mail.md"><img alt="다이렉트 메일" src="../../channels/assets/do-not-localize/direct-mail.jpg"></a><a href="../../direct-mail/create-direct-mail.md"><strong>다이렉트 메일 만들기</strong></a></td><td><a href="../../custom-channel/create-custom-channel.md"><img alt="사용자 지정 채널" src="../../channels/assets/do-not-localize/web.jpg"></a><br/><a href="../../custom-channel/create-custom-experience.md"><strong>사용자 지정 작업 만들기</strong></a></td><td><a href="../../line/get-started-line.md"><img alt="line" src="../../channels/assets/do-not-localize/line.jpg"></a><br/><a href="../../line/get-started-line.md"><strong>LINE 메시지(LA) 만들기</strong></a></td></tr></table>
 
 ### 개인화 추가 {#add-personalization}
 
