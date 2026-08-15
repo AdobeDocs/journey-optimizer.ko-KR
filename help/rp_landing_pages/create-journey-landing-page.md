@@ -31,7 +31,7 @@ Adobe Journey Optimizer에서 여정을 만들면 개별 행동과 선호도에 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 여정 속성 정의 및 관리
 
@@ -61,7 +61,7 @@ Adobe Journey Optimizer에서 여정을 만들면 개별 행동과 선호도에 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=ko)
 
 시험 실행 모드로 여정 테스트
 

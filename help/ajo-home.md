@@ -54,7 +54,7 @@ Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보세�
 
 ::::landing-cards-container
 :::
-![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 최신 릴리스 정보
 

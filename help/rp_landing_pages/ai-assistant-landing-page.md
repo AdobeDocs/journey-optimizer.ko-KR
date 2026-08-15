@@ -40,7 +40,7 @@ AI를 사용하여 이메일, 푸시 알림, 웹 페이지 및 랜딩 페이지�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=ko)
 
 텍스트만 생성
 
@@ -50,7 +50,7 @@ AI를 사용하여 이메일, SMS, 푸시 알림, 웹 페이지 및 랜딩 페�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=ko)
 
 이미지만 생성
 

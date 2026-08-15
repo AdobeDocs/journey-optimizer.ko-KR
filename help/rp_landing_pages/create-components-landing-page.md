@@ -35,7 +35,7 @@ Adobe Journey Optimizer 내에서 적절한 오퍼 컨텐츠가 적절한 위치
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 Adobe Journey Optimizer에서 결정 규칙 만드는 방법
 

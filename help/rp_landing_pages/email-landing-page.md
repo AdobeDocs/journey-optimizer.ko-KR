@@ -42,7 +42,7 @@ Adobe Journey Optimizer의 이메일 채널을 통해 정밀하고 창의적인 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 이메일 콘텐츠 디자인 및 최적화
 

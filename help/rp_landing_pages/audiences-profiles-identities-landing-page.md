@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 대상, 프로필 및 ID는 [Adobe 실시간 고객 �
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 고객 관리 및 Personalization
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer의 대상, 프로필 및 ID는 [Adobe 실시간 고객 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/fingerprint.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/fingerprint.svg?lang=ko)
 
 ID 시작
 

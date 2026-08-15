@@ -50,7 +50,7 @@ CSS 선택기, 사용자 지정 코드 및 코드 관리에 대한 모범 사례
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
 
 웹 경험 모니터링
 
@@ -60,7 +60,7 @@ CSS 선택기, 사용자 지정 코드 및 코드 관리에 대한 모범 사례
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 Adobe Journey Optimizer에서 단일 페이지 애플리케이션을 작성하는 방법
 

@@ -70,7 +70,7 @@ Adobe Journey Optimizer의 랜딩 페이지를 사용하면 뉴스레터 구독,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 랜딩 페이지 사용 사례
 

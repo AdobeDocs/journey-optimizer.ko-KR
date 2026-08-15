@@ -60,7 +60,7 @@ Adobe Experience Platform 데이터 사용
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
 
 Journey Optimizer 쿼리 시작
 

@@ -41,7 +41,7 @@ Adobe Journey Optimizer의 인앱 채널을 사용하면 모바일이나 웹 앱
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 웹 인앱 메시지 만들기
 
