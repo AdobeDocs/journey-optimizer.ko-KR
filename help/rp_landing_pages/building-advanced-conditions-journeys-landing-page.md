@@ -30,7 +30,7 @@ Adobe Journey Optimizer에는 여정 내에 복잡한 로직을 작성할 수 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 표현식의 고급 구문
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 고급 표현식을 작성하는 데 필요한 구
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 Adobe Journey Optimizer의 함수
 
@@ -51,7 +51,7 @@ Adobe Journey Optimizer의 함수
 
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 Journey Optimizer 데이터 세트의 쿼리 샘플 및 관련 사용 사례
 
@@ -61,7 +61,7 @@ Journey Optimizer 데이터 세트의 쿼리 샘플 및 관련 사용 사례
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 데이터 분석을 위한 SQL 쿼리 예
 

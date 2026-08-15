@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 재사용 가능한 콘텐츠 조각을 사용하면 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
 
 조각 사용 소개
 

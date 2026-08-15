@@ -40,7 +40,7 @@ Adobe Journey Optimizer의 액션 캠페인에서는 프로모션, 업데이트 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 캠페인 작업 구성
 

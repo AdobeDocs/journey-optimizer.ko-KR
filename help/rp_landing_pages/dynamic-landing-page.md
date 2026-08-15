@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 다이내믹 콘텐츠를 활용하면 대상자에�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 다이내믹 콘텐츠 시작
 

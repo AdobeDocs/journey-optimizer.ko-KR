@@ -60,7 +60,7 @@ Adobe Journey Optimizer의 이벤트, 오케스트레이션 및 액션 활동을
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 최적화 활동(조건) 사용
 

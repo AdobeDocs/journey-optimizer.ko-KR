@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 콘텐츠 템플릿은 캠페인과 여정을 위해 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 템플릿 액세스 및 관리
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer의 콘텐츠 템플릿은 캠페인과 여정을 위해 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 콘텐츠 템플릿 테스트
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer의 콘텐츠 템플릿은 캠페인과 여정을 위해 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 콘텐츠 템플릿 사용
 

@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 사용 사례를 활용하면 마케팅 전략, 기�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 경험 이벤트 조회
 
@@ -60,7 +60,7 @@ Adobe Campaign을 Journey Optimizer와 통합하면 트랜잭션 템플릿과 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 구독자에게 메시지 보내기
 

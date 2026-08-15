@@ -20,7 +20,7 @@ Adobe Journey Optimizer에서 대상자를 만들면 개인화된 메시징 및 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 Adobe Journey Optimizer에서 세그먼트 정의 작성
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer에서 세그먼트 정의 작성
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 대상자 컴포지션 시작
 
