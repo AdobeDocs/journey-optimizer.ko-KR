@@ -8,27 +8,15 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 74105568575649b05499c84dece589a59a5c8e54
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5c0904fd87e824e1f3b13f7bf4b496889b5254d6
 workflow-type: tm+mt
-source-wordcount: 3334
+source-wordcount: 3351
 ht-degree: 19%
 
 ---
@@ -124,7 +112,7 @@ ht-degree: 19%
 <tr>
 <td>
 <p>이제 사용자 지정 아웃바운드 채널 기능 릴리스를 통해 오케스트레이션된 캠페인에 직접 LINE 작업을 추가할 수 있습니다. 이 새로운 활동을 통해 텍스트, 스티커, 이미지, 비디오, 위치 데이터 및 풍부한 Flex 메시지를 비롯한 고도로 개인화된 콘텐츠를 구축 및 전달하여 LINE 플랫폼에서 고객을 원활하게 참여시킬 수 있습니다. 이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
-<p>자세한 내용은 <a href="../orchestrated/activities/channels.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../orchestrated/activities/channels.md">세부 설명서</a>를 참조하세요.</p>
 <p>사용 가능한 날짜: 2026년 8월 12일</p>
 </td>
 </tr>
@@ -161,7 +149,7 @@ Journey Optimizer에서는 이 릴리스의 새로운 기능인 충성도 문제
 <p>또한 충성도는 팀이 과제 생성, 과제 속성 설정, 대상자 및 관련 구성 관리, 통찰력 검토 등 주요 과제 작업을 보다 효율적으로 수행하여 과제 참여도를 모니터링하고 성과를 보상하도록 하는 동료 기술을 도입합니다.</p>
 <p><img src="assets/do-not-localize/loyalty.png"></p>
 <p>이 기능은 Journey Optimizer 충성도에 대해 라이선스가 부여된 조직에서만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
-<p>자세한 내용은 <a href="../loyalty-challenges/get-started.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../loyalty-challenges/get-started.md">세부 설명서</a>를 참조하세요.</p>
 <p> 사용 가능한 날짜: 2026년 7월 28일</p>
 </td>
 </tr>
@@ -186,7 +174,7 @@ Journey Optimizer에서는 이 릴리스의 새로운 기능인 충성도 문제
 <p>이렇게 하면 이전에 여정 지정 작업으로 해결했던 공백이 해소되며, 이는 채널로만 제한되고 전용 채널 기능이 부족합니다.</p>
 <p>사용자 지정 아웃바운드 채널은 현재 제한된 가용성으로 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
 <p><img src="assets/do-not-localize/custom-channel.gif"></p>
-<p>자세한 내용은 <a href="../custom-channel/get-started-custom-channel.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../custom-channel/get-started-custom-channel.md">세부 설명서</a>를 참조하세요.</p>
 <p> 사용 가능한 날짜: 2026년 7월 31일</p>
 </td>
 </tr>
@@ -211,14 +199,18 @@ Journey Optimizer에서는 이 릴리스의 새로운 기능인 충성도 문제
 <p>최상위 채널을 사용할 수 없는 경우(옵트인, 주파수 제한 또는 구성되지 않은 경우) 시스템이 사용 가능한 다음 채널로 폴백합니다.</p>
 <p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
 <p><img src="assets/do-not-localize/channel-optimization.gif"></p>
-<p>자세한 내용은 <a href="../building-journeys/channel-optimization.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../building-journeys/channel-optimization.md">세부 설명서</a>를 참조하세요.</p>
 <p>사용 가능한 날짜: 2026년 7월 22일</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-* **WhatsApp 채널: WhatsApp 흐름 템플릿 지원** - 이제 Adobe Journey Optimizer에서 WhatsApp 흐름 템플릿을 전송하여 설문 조사 및 잠재 고객 캡처와 같은 대화형 다중 화면 경험을 제공할 수 있습니다. 응답은 제출 시 캡처되어 새 Journey Optimizer 채널 추적 이벤트 데이터 세트에 원시 JSON 페이로드로 저장됩니다. [자세히 알아보기](../data/get-started-datasets.md#system-datasets)
+* **WhatsApp 채널: WhatsApp 흐름 템플릿 지원** - 이제 Adobe Journey Optimizer에서 WhatsApp 흐름 템플릿을 전송하여 설문 조사 및 잠재 고객 캡처와 같은 대화형 다중 화면 경험을 제공할 수 있습니다. 응답은 제출 시 캡처되고 새 Journey Optimizer 채널 추적 이벤트 데이터 세트에 원시 JSON 페이로드로 저장됩니다.
+
+  * **AJO 채널 추적 이벤트 데이터 세트**: WhatsApp 흐름 템플릿을 통해 제출된 응답을 포함하여 모든 인바운드 WhatsApp 응답을 캡처합니다.
+
+  [자세히 알아보기](../data/get-started-datasets.md#system-datasets)
 
 * **향상된 사용자 지정 공급자 통합 - Mobile** - 이제 사용자 지정 공급자 통합을 통해 주요 메시지 및 헤더 업데이트를 통해 확장된 유연성을 제공합니다.
 
@@ -400,7 +392,7 @@ Journey Optimizer에서는 이 릴리스의 새로운 기능인 충성도 문제
 <p>다른 마케팅 플랫폼에서 Adobe Journey Optimizer으로 전환하면 기존 이메일 콘텐츠와 여정을 Journey Optimizer으로 이동하는 데 도움이 되는 안내 기능을 통해 더 쉽게 이동할 수 있습니다. 전용 작업 영역을 사용하면 처음부터 다시 빌드하는 대신 기존 작업 영역을 다시 사용할 수 있습니다.</p>
 <p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
 <p><img src="assets/do-not-localize/guided-adoption.gif"></p>
-<p>자세한 내용은 <a href="../start/migrate-content-and-journeys.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../start/migrate-content-and-journeys.md">세부 설명서</a>를 참조하세요.</p>
 <p> 사용 가능한 날짜: 2026년 7월 30일</p>
 </td>
 </tr>
