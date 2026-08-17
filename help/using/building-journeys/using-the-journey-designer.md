@@ -32,9 +32,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 3f82acd395c938aed52cb18dae45b370e7f69110
+source-git-commit: 9eaa76d4a2e18038725691ab59e74b7387e87a7e
 workflow-type: tm+mt
-source-wordcount: 2551
+source-wordcount: 2595
 ht-degree: 2%
 
 ---
@@ -102,9 +102,13 @@ ht-degree: 2%
 
 ![](assets/journey-new-experience-switch.png)
 
+새 환경을 사용할 때 **Shift**&#x200B;를 누른 채 마우스를 캔버스 위로 끌어서 여러 노드를 한 번에 선택할 수 있습니다. 선택한 후에는 복사, 삭제 또는 여정 조각으로 저장과 같은 대량 작업을 선택한 노드에서 실행할 수 있습니다.
+
 >[!TIP]
 >
 >여정 캔버스에서 노드를 분리하고 다시 연결하는 방법에 대한 단계별 지침은 이 [Experience League 커뮤니티 문서](https://experienceleaguecommunities.adobe.com/adobe-journey-optimizer-15/how-to-detach-rejoin-nodes-in-the-new-journey-canvas-251908?profile.language=ko){target="_blank"}를 참조하십시오.
+
+
 
 새 여정 캔버스 경험에 대한 비디오 개요는 이 비디오 를 시청하십시오.
 

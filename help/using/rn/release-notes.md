@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 74105568575649b05499c84dece589a59a5c8e54
+source-git-commit: c5d1bcbca48645106d98d68d8ae396c7a2686892
 workflow-type: tm+mt
-source-wordcount: 3334
+source-wordcount: 3399
 ht-degree: 19%
 
 ---
@@ -124,12 +124,18 @@ ht-degree: 19%
 <tr>
 <td>
 <p>이제 사용자 지정 아웃바운드 채널 기능 릴리스를 통해 오케스트레이션된 캠페인에 직접 LINE 작업을 추가할 수 있습니다. 이 새로운 활동을 통해 텍스트, 스티커, 이미지, 비디오, 위치 데이터 및 풍부한 Flex 메시지를 비롯한 고도로 개인화된 콘텐츠를 구축 및 전달하여 LINE 플랫폼에서 고객을 원활하게 참여시킬 수 있습니다. 이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
-<p>자세한 내용은 <a href="../orchestrated/activities/channels.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../orchestrated/activities/channels.md">세부 설명서</a>를 참조하세요.</p>
 <p>사용 가능한 날짜: 2026년 8월 12일</p>
 </td>
 </tr>
 </tbody>
 </table>
+
+### 채널 {#august-26-channels}
+
+* **처리량을 위한 성능 추가 기능 - 푸시** - API 트리거 캠페인에서 새로운 처리량 트랜잭션 메시지 모드를 사용할 수 있습니다. 이 모드는 대규모 실시간 트랜잭션 메시지 전송을 위해 설계되었으며 더 높은 가용성으로 초당 최대 5,000개의 트랜잭션을 지원합니다. 이전에는 이메일 채널에서만 사용할 수 있었지만, 이제 이 기능은 Adobe 고처리량 트랜잭션 메시지 추가 기능 서비스를 구입한 조직의 푸시 채널에서도 사용할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오. [자세히 알아보기](../campaigns/api-triggered-high-throughput.md)
+
+  사용 가능한 날짜: 2026년 8월 11일
 
 ### 사용성 개선 사항 {#august-26-usability}
 
@@ -140,6 +146,10 @@ ht-degree: 19%
 * **콘텐츠 테스트를 위한 새로운 콘텐츠 시뮬레이션 경험** - **콘텐츠 시뮬레이션** 워크플로에서는 새롭게 디자인된 경험을 도입했습니다. 이제 모든 변형을 한 번에 한 가지 변형인 보기를 대체하여 스크롤 가능한 단일 그리드(나란히, 스택 또는 래핑된 레이아웃)에서 함께 렌더링합니다. 단일 하단 작업 표시줄은 테스트 변형 간 탐색, 확대/축소, 뷰포트 전환(데스크탑/모바일), 로케일 전환, 샘플 입력 추가, AI를 통한 변형 생성, 시뮬레이션된 사용자 선택 및 저장, 변형 가져오기 또는 내보내기를 통합합니다. 왼쪽 레일을 제거하고 추가 헤더 레이어를 축소하면 미리보기에 훨씬 더 많은 공간이 제공됩니다. 하단 작업 표시줄의 **클래식 경험으로 전환** 옵션을 사용하면 언제든지 이전 경험으로 되돌릴 수 있습니다. [자세히 알아보기](../test-approve/simulate-content-variations.md)
 
   사용 가능한 날짜: 2026년 8월 11일
+
+* **새 여정 캔버스에서 다중 선택** - 이제 새 여정 캔버스 경험에서 한 번에 여러 노드를 선택하여 여러 노드에서 복사, 삭제 또는 여정 조각으로 저장과 같은 대량 작업을 한 번에 실행할 수 있습니다. [자세히 알아보기](../building-journeys/using-the-journey-designer.md#canvas-capabilities)
+
+  사용 가능한 날짜: 2026년 8월 17일
 
 ## 2026년 7월 릴리스 정보 {#july-26-updates}
 
@@ -161,7 +171,7 @@ Journey Optimizer에서는 이 릴리스의 새로운 기능인 충성도 문제
 <p>또한 충성도는 팀이 과제 생성, 과제 속성 설정, 대상자 및 관련 구성 관리, 통찰력 검토 등 주요 과제 작업을 보다 효율적으로 수행하여 과제 참여도를 모니터링하고 성과를 보상하도록 하는 동료 기술을 도입합니다.</p>
 <p><img src="assets/do-not-localize/loyalty.png"></p>
 <p>이 기능은 Journey Optimizer 충성도에 대해 라이선스가 부여된 조직에서만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
-<p>자세한 내용은 <a href="../loyalty-challenges/get-started.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../loyalty-challenges/get-started.md">세부 설명서</a>를 참조하세요.</p>
 <p> 사용 가능한 날짜: 2026년 7월 28일</p>
 </td>
 </tr>
@@ -186,7 +196,7 @@ Journey Optimizer에서는 이 릴리스의 새로운 기능인 충성도 문제
 <p>이렇게 하면 이전에 여정 지정 작업으로 해결했던 공백이 해소되며, 이는 채널로만 제한되고 전용 채널 기능이 부족합니다.</p>
 <p>사용자 지정 아웃바운드 채널은 현재 제한된 가용성으로 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
 <p><img src="assets/do-not-localize/custom-channel.gif"></p>
-<p>자세한 내용은 <a href="../custom-channel/get-started-custom-channel.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../custom-channel/get-started-custom-channel.md">세부 설명서</a>를 참조하세요.</p>
 <p> 사용 가능한 날짜: 2026년 7월 31일</p>
 </td>
 </tr>
@@ -211,14 +221,18 @@ Journey Optimizer에서는 이 릴리스의 새로운 기능인 충성도 문제
 <p>최상위 채널을 사용할 수 없는 경우(옵트인, 주파수 제한 또는 구성되지 않은 경우) 시스템이 사용 가능한 다음 채널로 폴백합니다.</p>
 <p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
 <p><img src="assets/do-not-localize/channel-optimization.gif"></p>
-<p>자세한 내용은 <a href="../building-journeys/channel-optimization.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../building-journeys/channel-optimization.md">세부 설명서</a>를 참조하세요.</p>
 <p>사용 가능한 날짜: 2026년 7월 22일</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-* **WhatsApp 채널: WhatsApp 흐름 템플릿 지원** - 이제 Adobe Journey Optimizer에서 WhatsApp 흐름 템플릿을 전송하여 설문 조사 및 잠재 고객 캡처와 같은 대화형 다중 화면 경험을 제공할 수 있습니다. 응답은 제출 시 캡처되어 새 Journey Optimizer 채널 추적 이벤트 데이터 세트에 원시 JSON 페이로드로 저장됩니다. [자세히 알아보기](../data/get-started-datasets.md#system-datasets)
+* **WhatsApp 채널: WhatsApp 흐름 템플릿 지원** - 이제 Adobe Journey Optimizer에서 WhatsApp 흐름 템플릿을 전송하여 설문 조사 및 잠재 고객 캡처와 같은 대화형 다중 화면 경험을 제공할 수 있습니다. 응답은 제출 시 캡처되고 새 Journey Optimizer 채널 추적 이벤트 데이터 세트에 원시 JSON 페이로드로 저장됩니다.
+
+  * **AJO 채널 추적 이벤트 데이터 세트**: WhatsApp 흐름 템플릿을 통해 제출된 응답을 포함하여 모든 인바운드 WhatsApp 응답을 캡처합니다.
+
+  [자세히 알아보기](../data/get-started-datasets.md#system-datasets)
 
 * **향상된 사용자 지정 공급자 통합 - Mobile** - 이제 사용자 지정 공급자 통합을 통해 주요 메시지 및 헤더 업데이트를 통해 확장된 유연성을 제공합니다.
 
@@ -400,7 +414,7 @@ Journey Optimizer에서는 이 릴리스의 새로운 기능인 충성도 문제
 <p>다른 마케팅 플랫폼에서 Adobe Journey Optimizer으로 전환하면 기존 이메일 콘텐츠와 여정을 Journey Optimizer으로 이동하는 데 도움이 되는 안내 기능을 통해 더 쉽게 이동할 수 있습니다. 전용 작업 영역을 사용하면 처음부터 다시 빌드하는 대신 기존 작업 영역을 다시 사용할 수 있습니다.</p>
 <p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
 <p><img src="assets/do-not-localize/guided-adoption.gif"></p>
-<p>자세한 내용은 <a href="../start/migrate-content-and-journeys.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../start/migrate-content-and-journeys.md">세부 설명서</a>를 참조하세요.</p>
 <p> 사용 가능한 날짜: 2026년 7월 30일</p>
 </td>
 </tr>
@@ -477,14 +491,6 @@ Journey Optimizer에서는 이 릴리스의 새로운 기능인 충성도 문제
   * 예상 CTOR(클릭에서 열기 비율): 총 예상 열기 수에 대해 예상 클릭수로 계산됩니다.
 
     사용 가능한 날짜: 2026년 7월 29일
-
-### 캠페인 {#campaigns}
-
-+++ 곧 출시 예정
-
-* **API 트리거 캠페인의 처리량에 대한 성능 추가 기능 - 푸시** - API 트리거 캠페인에서 새로운 처리량 트랜잭션 메시지 모드를 사용할 수 있습니다. 이 모드는 대규모 실시간 트랜잭션 메시지 전송을 위해 설계되었으며 더 높은 가용성으로 초당 최대 5,000개의 트랜잭션을 지원합니다. 이전에는 이메일 채널에서만 사용할 수 있었지만, 이제 이 기능은 Adobe 고처리량 트랜잭션 메시지 추가 기능 서비스를 구입한 조직의 푸시 채널에서도 사용할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오. <!-- Documentation link: TBD -->
-
-+++
 
 ### 사용성 개선 사항 {#july-26-usability}
 

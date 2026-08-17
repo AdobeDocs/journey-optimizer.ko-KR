@@ -28,10 +28,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
+source-git-commit: 22540b736dd65469a6afac1472971b53f8830020
 workflow-type: tm+mt
-source-wordcount: 1367
-ht-degree: 9%
+source-wordcount: 1346
+ht-degree: 7%
 
 ---
 
@@ -54,9 +54,7 @@ ht-degree: 9%
 
 >[!AVAILABILITY]
 >
->* [!DNL Adobe Journey Optimizer]의 GenStudio 통합은 현재 **Healthcare Shield** 또는 **Privacy and Security Shield** 추가 기능과 함께 사용할 수 없습니다.
->
->* 이 기능은 이메일 채널에만 사용할 수 있습니다.
+> 이 기능은 이메일 채널에만 사용할 수 있습니다.
 
 마케팅 효율성을 높이고 브랜드 일관성을 유지하기 위해 [!DNL **GenStudio for Performance Marketing**] 경험을 [!DNL **Adobe Journey Optimizer**]&#x200B;과(와) 원활하게 통합할 수 있습니다. 이를 통해 [!DNL Journey Optimizer]의 고급 오케스트레이션 기능과 함께 [!DNL GenStudio]의 AI 기반 콘텐츠 생성을 활용할 수 있습니다.
 

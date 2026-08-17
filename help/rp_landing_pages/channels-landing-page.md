@@ -4,10 +4,10 @@ product: Journey Optimizer
 title: 커뮤니케이션 채널
 description: 커뮤니케이션 채널
 redpen-status: CREATED_||_2025-08-11_20-45-04
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
+source-git-commit: 96853101d0bae48c1358d367bc9ae00dbfaface4
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 100%
+source-wordcount: '439'
+ht-degree: 96%
 
 ---
 
@@ -88,4 +88,5 @@ SMS / MMS / RCS 메시지
 - **[코드 기반 경험](code-based-experience-landing-page.md)** - SDK 및 API를 사용하여 여러 디지털 플랫폼에서 맞춤형 콘텐츠를 게재하기 위한 코드 기반 경험에 대해 자세히 살펴봅니다.
 - **[콘텐츠 카드](content-card-landing-page.md)** - 모바일 앱과 웹 사이트에서 매력적이고 개인에게 맞는 메시지를 게재하기 위한 콘텐츠 카드를 구성하고 만들고 디자인하는 방법을 살펴봅니다.
 - **[WhatsApp 메시지](whatsapp-landing-page.md)** - Meta의 Cloud API를 통해 WhatsApp 메시지를 통합 및 사용하여 개인화되고 규정을 준수하는 커뮤니케이션 캠페인을 수행하는 방법에 대해 알아봅니다.
+- **[모니터링 및 문제 해결](troubleshoot-journey-landing-page.md)** - WhatsApp 채널 설정 및 구성 문제 해결을 포함하여 채널 문제를 빠르게 진단하고 해결합니다.
 - **[LINE 메시지](line-landing-page.md)** - 캠페인 및 여정의 효과적인 커뮤니케이션을 위해 LINE 메시지를 구성하고 만들고 개인화하는 방법을 알아봅니다.

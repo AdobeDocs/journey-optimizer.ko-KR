@@ -8,9 +8,9 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 hide: true
-source-git-commit: eeea63d195527451e3ce40481b2ff4657aa76d3b
+source-git-commit: b5482c8671b8380f852c18fb4394cd927cbb1a74
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '745'
 ht-degree: 3%
 
 ---
@@ -53,6 +53,5 @@ PDF 또는 임베드된(base64) 소스에서 이미지를 추출하는 것과 �
 
 ## 추가 리소스
 
-* [Adobe C2PA 메타데이터](https://helpx.adobe.com/kr/firefly/using/content-credentials.html){target="_blank"}: Adobe 제품에서 C2PA 메타데이터가 작동하는 방식에 대해 자세히 알아보세요.
 * [Adobe Experience Cloud Generative AI 사용자 지침](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}
 * [가드레일 및 제한 사항](gs-generative.md#generative-guardrails)
