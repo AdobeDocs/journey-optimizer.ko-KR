@@ -8,27 +8,15 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5c0904fd87e824e1f3b13f7bf4b496889b5254d6
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 9eaa76d4a2e18038725691ab59e74b7387e87a7e
 workflow-type: tm+mt
-source-wordcount: 3351
+source-wordcount: 3399
 ht-degree: 19%
 
 ---
@@ -140,6 +128,12 @@ ht-degree: 19%
 * **콘텐츠 테스트를 위한 새로운 콘텐츠 시뮬레이션 경험** - **콘텐츠 시뮬레이션** 워크플로에서는 새롭게 디자인된 경험을 도입했습니다. 이제 모든 변형을 한 번에 한 가지 변형인 보기를 대체하여 스크롤 가능한 단일 그리드(나란히, 스택 또는 래핑된 레이아웃)에서 함께 렌더링합니다. 단일 하단 작업 표시줄은 테스트 변형 간 탐색, 확대/축소, 뷰포트 전환(데스크탑/모바일), 로케일 전환, 샘플 입력 추가, AI를 통한 변형 생성, 시뮬레이션된 사용자 선택 및 저장, 변형 가져오기 또는 내보내기를 통합합니다. 왼쪽 레일을 제거하고 추가 헤더 레이어를 축소하면 미리보기에 훨씬 더 많은 공간이 제공됩니다. 하단 작업 표시줄의 **클래식 경험으로 전환** 옵션을 사용하면 언제든지 이전 경험으로 되돌릴 수 있습니다. [자세히 알아보기](../test-approve/simulate-content-variations.md)
 
   사용 가능한 날짜: 2026년 8월 11일
+
+### 여정 {#august-26-journeys}
+
+* **새 여정 캔버스에서 다중 선택** - 이제 새 여정 캔버스 경험에서 한 번에 여러 노드를 선택하여 여러 노드에서 복사, 삭제 또는 여정 조각으로 저장과 같은 대량 작업을 한 번에 실행할 수 있습니다. [자세히 알아보기](../building-journeys/using-the-journey-designer.md#canvas-capabilities)
+
+  사용 가능한 날짜: 2026년 8월 17일
 
 ## 2026년 7월 릴리스 정보 {#july-26-updates}
 
