@@ -6,16 +6,13 @@ description: Adobe Journey Optimizer을 사용하여 오케스트레이션된 �
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/XTfDLZwNybfdayTfXFtHy-4fstRzPUZ-lSJ4cXkLNyE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: b0ed84b83814e94be772acf7969293371bd3c23f
 workflow-type: tm+mt
-source-wordcount: 1261
-ht-degree: 63%
+source-wordcount: 1257
+ht-degree: 62%
 
 ---
 
@@ -68,7 +65,7 @@ ht-degree: 63%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_scheduler"
 >title="스케줄러"
->abstract="캠페인 관리자는 특정 시간에 자동으로 실행되도록 캠페인을 예약하거나, REST API 또는 오케스트레이션된 다른 캠페인의 **종료** 활동에서 호출될 때 시작되도록 **신호에 의해 트리거됨**&#x200B;으로 설정할 수 있습니다. [자세히 알아보기](trigger-orchestrated-campaign.md)"
+>abstract="캠페인 관리자는 특정 시간에 자동으로 실행되도록 캠페인을 예약하거나, REST API 또는 오케스트레이션된 다른 캠페인의 **종료** 활동에서 호출될 때 시작되도록 **신호에 의해 트리거됨**&#x200B;으로 설정할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_schedule_validity"
@@ -78,7 +75,7 @@ ht-degree: 63%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_schedule_options"
 >title="스케줄러 옵션"
->abstract="API 호출 또는 업스트림 캠페인의 **종료** 활동을 기다리도록 일회성 또는 반복 일정(한 번, 매일, 주별, 월별 등)에서 또는 **신호에 의해 트리거됨**&#x200B;에서 캠페인이 시작되는 방법을 선택합니다. 신호가 트리거되는 캠페인의 경우 페이로드에 전달할 매개변수를 정의할 수 있습니다. [자세히 알아보기](trigger-orchestrated-campaign.md)"
+>abstract="API 호출 또는 업스트림 캠페인의 **종료** 활동을 기다리도록 일회성 또는 반복 일정(한 번, 매일, 주별, 월별 등)에서 또는 **신호에 의해 트리거됨**&#x200B;에서 캠페인이 시작되는 방법을 선택합니다. 신호가 트리거되는 캠페인의 경우 페이로드에 전달할 매개변수를 정의할 수 있습니다."
 
 기본적으로 오케스트레이션된 캠페인은 수동으로 활성화될 때 시작되고 관련 활동이 실행되면 종료됩니다. 실행을 지연하거나 반복적으로 캠페인을 실행하려는 경우 캠페인에 대한 일정을 정의할 수 있습니다.
 
