@@ -5,10 +5,10 @@ title: 문제 해결
 description: 문제 해결
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
-source-git-commit: 96853101d0bae48c1358d367bc9ae00dbfaface4
+source-git-commit: ff73b5fa5c065253be17406f167b18b8a63ab6da
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 82%
+source-wordcount: '704'
+ht-degree: 80%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 82%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 시스템 경고 액세스 및 구독
 
@@ -59,7 +59,7 @@ ht-degree: 82%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 오류 코드 참조
 
@@ -69,9 +69,9 @@ Adobe Journey Optimizer의 일반적인 오류 코드를 이해하고 여정, �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-여정 테스트 또는 게시 전 오류 문제 해결
+여정 오류 문제 해결
 
 여정 전체의 오류, 활동 문제를 식별하고 해결하며 원활한 테스트와 게시를 위해 대체 작업을 설정합니다.
 
@@ -79,9 +79,9 @@ Adobe Journey Optimizer의 일반적인 오류 코드를 이해하고 여정, �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-라이브 여정 실행 문제 해결
+여정 실행 문제 해결
 
 실시간 실행 중에 이벤트 유효성 검사, 프로필 입력, 여정 탐색 및 메시지 게재 문제를 진단합니다.
 
@@ -89,9 +89,9 @@ Adobe Journey Optimizer의 일반적인 오류 코드를 이해하고 여정, �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
-여정의 인바운드 액션 문제 해결
+인바운드 동작 문제 해결
 
 자세한 단계별 안내서를 사용하여 프로필 종료 후에도 콘텐츠가 누락되거나 계속 게재되는 등의 인바운드 작업 문제를 해결합니다.
 
@@ -99,9 +99,9 @@ Adobe Journey Optimizer의 일반적인 오류 코드를 이해하고 여정, �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-사용자 정의 액션 문제 해결
+사용자 지정 작업 문제 해결
 
 API 호출과 인증 설정이 올바른지 확인하기 위해 **테스트 요청 보내기** 기능을 사용하여 사용자 정의 액션을 확인하고 디버그합니다.
 
@@ -109,7 +109,7 @@ API 호출과 인증 설정이 올바른지 확인하기 위해 **테스트 요�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 라이브 활동 문제 해결
 
@@ -119,7 +119,7 @@ API 호출과 인증 설정이 올바른지 확인하기 위해 **테스트 요�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg)
 
 AEM 콘텐츠 조각 문제 해결
 
@@ -129,7 +129,7 @@ AEM 콘텐츠 조각 문제 해결
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
 
 지원 티켓 지침
 
