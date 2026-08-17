@@ -5,10 +5,10 @@ title: 문제 해결
 description: 문제 해결
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
-source-git-commit: b8d580eb6928f073934a33ede1d9c166d5370809
+source-git-commit: 96853101d0bae48c1358d367bc9ae00dbfaface4
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 100%
+source-wordcount: '712'
+ht-degree: 82%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 100%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 시스템 경고 액세스 및 구독
 
@@ -59,7 +59,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 오류 코드 참조
 
@@ -69,7 +69,7 @@ Adobe Journey Optimizer의 일반적인 오류 코드를 이해하고 여정, �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 여정 테스트 또는 게시 전 오류 문제 해결
 
@@ -79,7 +79,7 @@ Adobe Journey Optimizer의 일반적인 오류 코드를 이해하고 여정, �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 라이브 여정 실행 문제 해결
 
@@ -89,7 +89,7 @@ Adobe Journey Optimizer의 일반적인 오류 코드를 이해하고 여정, �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 여정의 인바운드 액션 문제 해결
 
@@ -99,7 +99,7 @@ Adobe Journey Optimizer의 일반적인 오류 코드를 이해하고 여정, �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 사용자 정의 액션 문제 해결
 
@@ -109,7 +109,27 @@ API 호출과 인증 설정이 올바른지 확인하기 위해 **테스트 요�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+
+라이브 활동 문제 해결
+
+단일 및 브로드캐스트 사용 사례에 대한 프로필 토큰, 캠페인 구성, 페이로드 및 게재 문제를 다루는 라이브 활동이 표시, 업데이트 또는 종료되지 않는 이유를 진단합니다.
+
+[라이브 활동 문제 해결](../using/mobile-live/troubleshoot-mobile-live.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg)
+
+AEM 콘텐츠 조각 문제 해결
+
+조각 유형, 저장소 액세스 및 개인화를 포함하여 Journey Optimizer에서 Adobe Experience Manager 콘텐츠 조각을 사용하여 작업할 때 주요 고려 사항 및 일반적인 문제를 검토하십시오.
+
+[콘텐츠 조각 문제 해결](../using/integrations/aem-fragments-limitations.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
 
 지원 티켓 지침
 
@@ -122,6 +142,22 @@ Adobe 지원 센터에 문의할 때 신속한 해결을 위해 포함할 내용
 
 ## 추가 리소스
 
+### 여정
+
 * [여정 FAQ](../using/building-journeys/journey-faq.md) - 여정 유형, 실행, 구성, 문제 해결 모범 사례 등 여정과 관련해 일반적인 질문에 대한 포괄적인 답변입니다.
 
 * [가드레일 및 제한 사항](../using/start/guardrails.md) - 최적의 사용을 위해 Journey Optimizer 가드레일, 제품 제한 사항, 성능 고려 사항, 지원되는 브라우저에 대해 알아봅니다.
+
+### 캠페인
+
+* [캠페인 활성화 문제 해결](../using/campaigns/trigger-campaigns.md#troubleshooting) - 캠페인을 검토하고 활성화할 때 발생하는 일반적인 문제를 해결합니다.
+
+### 채널 및 통합
+
+* [WhatsApp 채널 설정 문제 해결](../using/whatsapp/whatsapp-configuration.md#troubleshooting) - WhatsApp 채널을 설정할 때 발생하는 일반적인 구성 문제를 진단하고 수정합니다.
+
+* [통합 문제 해결 FAQ](../using/integrations/vendor-integration-faq.md#troubleshooting) - 서드파티 통합을 위한 일반적인 연결 및 테스트 연결 실패에 대한 답변을 찾아보십시오.
+
+### 구성
+
+* [사용자 지정 하위 도메인 위임 문제 해결](../using/configuration/delegate-custom-subdomain.md#check-list) - 체크리스트를 통해 사용자 지정 하위 도메인을 제출하는 문제를 해결합니다.

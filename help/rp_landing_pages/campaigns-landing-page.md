@@ -6,10 +6,10 @@ description: 캠페인
 redpen-status: CREATED_||_2025-08-11_20-28-03
 exl-id: 6fc5b0f4-95a5-431d-a80a-3a1f71b4dd0d
 hide: true
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 96853101d0bae48c1358d367bc9ae00dbfaface4
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 100%
+source-wordcount: '252'
+ht-degree: 94%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Journey Optimizer의 캠페인을 활용하면 여러 채널에서 개인�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 캠페인 시작
 
@@ -31,7 +31,7 @@ Adobe Journey Optimizer의 캠페인을 활용하면 여러 채널에서 개인�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 캠페인 액세스 및 관리
 
@@ -41,7 +41,7 @@ Adobe Journey Optimizer의 캠페인을 활용하면 여러 채널에서 개인�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 액션 캠페인
 
@@ -51,7 +51,7 @@ Adobe Journey Optimizer의 캠페인을 활용하면 여러 채널에서 개인�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 API 트리거 캠페인
 
@@ -61,7 +61,7 @@ API 트리거 캠페인
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 오케스트레이션된 캠페인
 
@@ -71,3 +71,7 @@ API 트리거 캠페인
 :::
 
 ::::
+
+## 추가 리소스
+
+- **[모니터링 및 문제 해결](troubleshoot-journey-landing-page.md)** - 캠페인 활성화 문제 해결을 포함하여 성능을 추적하고, 경고를 모니터링하고, 문제를 빠르게 해결합니다.

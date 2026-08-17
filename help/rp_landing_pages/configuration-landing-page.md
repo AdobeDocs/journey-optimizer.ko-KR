@@ -5,10 +5,10 @@ title: 채널 구성
 description: 채널 구성
 redpen-status: CREATED_||_2025-08-11_21-10-00
 exl-id: 4cd5f097-1c17-4cc5-90c4-bc540dc6acf4
-source-git-commit: 63669282e76672958f29f6d4a7be085cc7036ac4
+source-git-commit: 96853101d0bae48c1358d367bc9ae00dbfaface4
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 100%
+source-wordcount: '355'
+ht-degree: 96%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Journey Optimizer의 채널 구성을 통해 이메일, SMS, 푸시 알림
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 채널 구성 시작
 
@@ -36,7 +36,7 @@ Adobe Journey Optimizer의 채널 구성을 통해 이메일, SMS, 푸시 알림
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 채널 구성 설정 및 관리
 
@@ -46,7 +46,7 @@ Adobe Journey Optimizer의 채널 구성을 통해 이메일, SMS, 푸시 알림
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 가이드 채널 설정
 
@@ -56,7 +56,7 @@ Adobe Journey Optimizer의 채널 구성을 통해 이메일, SMS, 푸시 알림
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 이메일 하위 도메인 위임 및 관리
 
@@ -66,7 +66,7 @@ Adobe Journey Optimizer의 채널 구성을 통해 이메일, SMS, 푸시 알림
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 IP 준비 계획 구현
 
@@ -76,7 +76,7 @@ IP 준비 계획을 만들고 실행하여 발신자로서의 평판을 확립�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 이메일 전달성 및 평판 모니터링
 
@@ -93,3 +93,4 @@ IP 준비 계획을 만들고 실행하여 발신자로서의 평판을 확립�
 - **[시드 목록 사용](../using/configuration/seed-lists.md)** - 시드 목록을 만들고 관리하여 이메일 게재를 모니터링하고 캠페인 보증을 확인하는 방법을 알아봅니다.
 - **[규정 준수를 위한 보관 처리 지원](../using/configuration/archiving-support.md)** - GDPR 및 HIPAA와 같은 규정을 준수하도록 BCC 이메일 및 데이터 세트 관리와 같은 보관 기능을 구성합니다.
 - **[실행 주소 관리](../using/configuration/primary-email-addresses.md)** - 전체 여정 및 캠페인에 걸친 커뮤니케이션을 위해 이메일 또는 전화번호 필드를 구성하고 우선순위를 지정합니다.
+- **[모니터링 및 문제 해결](troubleshoot-journey-landing-page.md)** - 사용자 지정 하위 도메인 위임 문제 해결을 포함하여 문제를 빠르게 진단하고 해결합니다.
