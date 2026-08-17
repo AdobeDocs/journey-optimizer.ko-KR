@@ -6,17 +6,12 @@ description: Adobe Journey Optimizer 사전 릴리스 정보
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: f453579de2b5edac0e8ac8cbcf31d48bce8467ad
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: c5d1bcbca48645106d98d68d8ae396c7a2686892
 workflow-type: tm+mt
-source-wordcount: 1282
+source-wordcount: 1118
 ht-degree: 18%
 
 ---
@@ -165,9 +160,10 @@ The following capability is coming to onboarding in this release.
 
 * **웨이브를 사용하여 보내기** - 이제 아웃바운드 메시지를 시간에 따라 제어된 배치로 전달하도록 예약할 수 있습니다. 대량 또는 시간에 민감한 캠페인에 적합한 웨이브 전송은 더 나은 전달성을 지원하며, 스팸으로 플래그가 지정될 위험을 줄여 강력한 발신자 평판을 유지하는 데도 도움이 됩니다. <!-- Documentation link: TBD -->
 
-### 채널 {#august-26-channels}
 
-이 릴리스의 채널에는 다음과 같은 기능 및 개선 사항이 적용됩니다.
+### 결정 {#august-26-decisioning}
+
+이 릴리스의 Decisioning에는 다음과 같은 기능과 개선 사항이 적용되었습니다.
 
 <table>
 <thead>
@@ -186,22 +182,9 @@ The following capability is coming to onboarding in this release.
 </tbody>
 </table>
 
-
-* **처리량을 위한 성능 추가 기능 - 푸시** - API 트리거 캠페인에서 새로운 처리량 트랜잭션 메시지 모드를 사용할 수 있습니다. 이 모드는 대규모 실시간 트랜잭션 메시지 전송을 위해 설계되었으며 더 높은 가용성으로 초당 최대 5,000개의 트랜잭션을 지원합니다. 이전에는 이메일 채널에서만 사용할 수 있었지만, 이제 이 기능은 Adobe 고처리량 트랜잭션 메시지 추가 기능 서비스를 구입한 조직의 푸시 채널에서도 사용할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오. <!-- Documentation link: TBD -->
-
-### 결정 {#august-26-decisioning}
-
-이 릴리스의 Decisioning에는 다음과 같은 개선 사항이 적용됩니다.
-
 * **의사 결정의 배치 수준 빈도 제한** - 이제 의사 결정의 빈도 제한 규칙을 개별 배치로 지정할 수 있으므로 오퍼가 지정된 표면에 표시되는 빈도를 보다 세밀하게 제어할 수 있습니다. 두 가지 모드를 사용할 수 있습니다. 배치별 캡핑은 오퍼가 선택한 배치에 표시될 때만 적용되는 캡을 정의하고, 배치별 캡핑은 오퍼가 나타나는 모든 배치에 독립적으로 캡을 적용하므로 각 배치는 자체 캡핑 카운터를 유지합니다. 배치 관련 한도 설정은 Adobe Experience Platform 데이터 기반의 규칙을 사용하여 설정된 오퍼에는 적용되지 않습니다. <!-- Documentation link: TBD -->
 
 * **시각적 조각의 미러 페이지** - 이제 시각적 조각에 미러 페이지를 삽입할 수 있습니다. Decisioning을 활용하는 이메일 캠페인에서 조각을 사용하는 경우에도 Decisioning 속성이 미러 페이지 링크에서 올바르게 렌더링됩니다. 속성을 표시하려면 조각을 게시하기 전에 시각적 조각에 미러 페이지를 추가해야 합니다. <!-- Documentation link: TBD -->
-
-### 이메일 디자이너 {#august-26-email}
-
-이 릴리스의 이메일 Designer에는 다음과 같은 개선 사항이 적용됩니다.
-
-* **전자 메일 Designer의 새 테이블 구성 요소** - 이제 전자 메일 Designer에 기본 제공 테이블 구성 요소가 포함되어 있으므로 전자 메일 내에서 직접 행 및 열의 콘텐츠를 구성할 수 있습니다. 구성 요소를 캔버스에 끌어다 놓고, 행과 열의 수를 사용자 지정하고, 각 셀의 스타일을 독립적으로 지정하여 사용자 지정 HTML에 의존하지 않고 명확하고, 정리된 레이아웃을 만듭니다. <!-- Documentation link: TBD -->
 
 ### 관리 {#august-26-administration}
 
@@ -215,7 +198,7 @@ The following capability is coming to onboarding in this release.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published once changes are live in production. While most changes are delivered on the release date, a few may roll out later — refer to the Availability Date listed for each entry for details.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: June 16-17, 2026
 
