@@ -8,25 +8,13 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: c626e1a9e780197d1374efdc74e986d4c1f5bfcf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 8e72cd3a4172a96eadbb9918bf44156324e592ad
 workflow-type: tm+mt
 source-wordcount: 1386
 ht-degree: 25%
@@ -222,7 +210,7 @@ ht-degree: 25%
 
 ### 결정 {#decisioning-august}
 
-* **시각적 조각의 미러 페이지** - 이제 시각적 조각에 미러 페이지를 삽입할 수 있습니다. Decisioning을 활용하는 이메일 캠페인에서 조각을 사용하는 경우에도 Decisioning 속성이 미러 페이지 링크에서 올바르게 렌더링됩니다. 속성을 표시하려면 조각을 게시하기 전에 시각적 조각에 미러 페이지를 추가해야 합니다.
+* **시각적 조각의 미러 페이지** - 이제 시각적 조각에 미러 페이지를 삽입할 수 있습니다. Decisioning을 활용하는 이메일 캠페인에서 조각을 사용하는 경우에도 Decisioning 속성이 미러 페이지 링크에서 올바르게 렌더링됩니다. 결정 속성을 표시하려면 조각을 게시하기 전에 시각적 조각에 미러 페이지를 추가해야 합니다.
 
   사용 가능한 날짜: 2026년 8월 11일
 
