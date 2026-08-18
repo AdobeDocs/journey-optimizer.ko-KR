@@ -10,30 +10,16 @@ level: Beginner, Intermediate
 keywords: 이메일, 디자인, Stock, 자산
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 TQID: https://experienceleague.adobe.com/fyUHQD4jpIUI2KdyrGbgktEhNNc4OWYRJ8AkgZhrIoQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: f550d0f2-143d-4093-9463-467fbec95fcc
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 94f6692162ca7d37cf5d9df4c0f48371bafec9fc
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: f550d0f2-143d-4093-9463-467fbec95fccid: fb9a80eb-bebc-492f-a0e9-584595621ebbid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 3cff468c7144420eb7632300ad2b9e2ef33eef82
 workflow-type: tm+mt
-source-wordcount: 821
-ht-degree: 92%
+source-wordcount: 1043
+ht-degree: 72%
 
 ---
 
@@ -47,7 +33,7 @@ ht-degree: 92%
 
 이메일 디자이너에 액세스하고 이메일 콘텐츠를 디자인하려면 먼저 여정 또는 캠페인에서 [이메일을 만들어야](create-email.md) 합니다.
 
-그런 다음 [!DNL Journey Optimizer]&#x200B;**이메일 디자인 기능**&#x200B;을 사용하여 기존 콘텐츠를 가져오거나 응답형 이메일을 처음부터 빌드할 수 있습니다. [자세히 알아보기](content-from-scratch.md)
+그런 다음 [!DNL Journey Optimizer]**이메일 디자인 기능**&#x200B;을 사용하여 기존 콘텐츠를 가져오거나 응답형 이메일을 처음부터 빌드할 수 있습니다. [자세히 알아보기](content-from-scratch.md)
 
 이메일 디자이너를 통해 다음 작업도 수행할 수 있습니다.
 
@@ -101,13 +87,13 @@ ht-degree: 92%
 
 이메일 전송 시 수신자가 이메일을 전달할 수 있다는 것을 고려해야 합니다. 이로 인해 이메일 렌더링에 문제가 발생하는 경우도 있습니다. 이는 “is-desktop-hidden” CSS 클래스를 사용하여 모바일 디바이스에 이미지를 숨기는 경우와 같이, 특히 이메일 공급자가 지원할 수 없을 수도 있는 전달용 CSS 클래스를 사용하는 경우에 해당됩니다.
 
-이런 렌더링 문제를 최소화하기 위해 이메일 디자인 구조를 가능한 한 간단하게 유지하는 것이 좋습니다. 데스크톱과 모바일 디바이스 모두에 적합한 단일 디자인을 사용하고, 복잡한 CSS 클래스나 기타 모든 이메일 클라이언트가 완전히 지원하지 않을 가능성이 있는 디자인 요소는 사용하지 않는 것이 좋습니다.
+이런 렌더링 문제를 최소화하기 위해 이메일 디자인 구조를 가능한 한 간단하게 유지하는 것이 좋습니다. 데스크톱과 모바일 디바이스 모두에 적합한 단일 디자인을 사용하고, 복잡한 CSS 클래스나 기타 모든 이메일 클라이언트가 완전히 지원하지 않을 가능성이 있는 디자인 요소는 사용하지 않는 것이 좋습니다. CSS 처리가 기본 앱과 크게 다른 모바일 웹 브라우저를 통해 Gmail 또는 Outlook에서 이메일을 여는 경우에도 마찬가지입니다. 완전히 인라인 된 스타일을 사용하는 간단한 표 기반 레이아웃이 가장 안전한 방법입니다. [자세히 알아보기](../content-management/rendering.md#rendering-limitations)
 
 이 모범 사례를 적용하면 수신자가 이메일을 보거나 전달하는 방식에 관계없이 이메일이 일관되게 렌더링되도록 할 수 있습니다.
 
 이메일 디자인에 대한 모범 사례는 아래 테이블을 참조하십시오.
 
-| 권장 | 주의하여 사용 | 권장하지 않음 |
+| 권장 | 신중하게 사용 | 권장하지 않음 |
 |-|-|-|
 | <ul><li>구조화를 위한 <b>정적, 테이블 기반 레이아웃</b></li> <li>레이아웃 일관성을 위한 <b>HTML 테이블 및 중첩 테이블</b></li> <li>600px~800픽셀 사이의 <b>템플릿 너비</b> </li> <li>스타일 지정을 위한 <b>간단한 인라인 CSS</b> </li> <li>범용 호환성을 위한 <b>웹 지원 글꼴</b></li> | <ul><li><b>배경 이미지</b>의 경우 특정 이메일 플랫폼에서는 표시되지 않을 수 있습니다.</li><li><b>사용자 정의 웹 글꼴</b>은 범용으로 지원되지 않습니다.</li><li><b>넓은 레이아웃</b>의 경우 작은 화면에서는 제대로 표시되지 않을 수 있습니다.</li><li><b>이미지 맵</b>은 제한된 기능만 제공합니다.</li><li><b>임베드된 CSS</b>는 이메일 게재 중에 제거되는 경우가 있습니다.</li> | <ul><li><b>JavaScript</b>는 일반적으로 이메일 환경에서 지원되지 않습니다.</li> <li> <b>`<iframe>`</b> 태그는 대부분의 플랫폼에서 차단되어 있습니다. </li> <li><b>Flash</b>는 오래되어 더 이상 지원되지 않습니다.</li> <li><b>임베드된 오디오</b>는 재생되지 않는 경우가 많습니다.</li> <li><b>임베드된 비디오</b>는 많은 이메일 플랫폼과 호환되지 않습니다.</li> <li> <b>Forms</b>는 이메일 내에서 작동하지 않습니다.</li> <li> `<div>` 계층화로 인해 렌더링 문제가 발생할 수 있습니다.</li> |
 
@@ -115,12 +101,25 @@ ht-degree: 92%
 >
 >[유럽 접근성법](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}에는 모든 디지털 통신의 접근성을 보장해야 한다고 명시되어 있습니다. 이 섹션에서 소개하는 이메일 디자인 모범 사례 외에도, [이 페이지](accessible-content.md)에서 설명하는 이메일 디자이너로 접근 가능한 콘텐츠를 작성하기 위한 지침을 따라야 합니다.
 
+### Outlook 렌더링 고려 사항 {#outlook-tips}
+
+Outlook에는 디자인 중에 설명되지 않을 경우 이메일 레이아웃에 영향을 줄 수 있는 렌더링 쿼리가 많습니다.
+
+* 패딩, 글꼴 크기 및 너비에 짝수 번호를 사용합니다. Outlook에서는 픽셀을 내부적으로 점으로 전환하여 홀수를 사용할 때 간격이 균일하지 않고 흰색 선이 원하지 않을 수 있습니다.
+* 테이블 너비를 백분율이 아닌 픽셀 단위로 설정합니다. 백분율 기반 너비로 인해 Outlook의 레이아웃이 손상될 수 있습니다. 각 표의 스타일 속성에서 바로 너비 값을 적용합니다.
+* 항상 `width` 특성을 사용하여 이미지 너비를 설정하십시오. Outlook에서는 이미지에 대한 CSS `width` 및 `height` 속성을 무시하고 HTML 특성이 없는 경우 파일의 기본 차원으로 돌아갑니다.
+* 모든 이미지에 대체 텍스트를 포함합니다. 이렇게 하면 이미지가 차단될 때 디스플레이 및 보안 문제가 방지됩니다.
+* 표 요소 자체가 아니라 표 셀에 테두리를 적용합니다. 테두리가 예상대로 렌더링되지 않으면 `<table>`에서 `<td>`(으)로 이동하십시오.
+* 둥근 모서리를 사용하지 마십시오. CSS `border-radius`은(는) Outlook에서 안정적으로 지원되지 않습니다. 사각형 모서리는 안전한 기본값입니다.
+
+미디어 쿼리 사용 방법 및 Outlook.com별 이미지 교체 기술을 비롯한 다크 모드 디자인 고려 사항은 [이 페이지](dark-mode.md)를 참조하십시오.
+
 ## 방법 비디오 {#video}
 
 메시지 편집기로 이메일 콘텐츠를 만드는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416234?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
 A/B 테스트를 위한 콘텐츠 실험을 구성하여 비즈니스 목표 달성에 가장 도움이 되는 이메일 콘텐츠를 탐색하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447338?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)

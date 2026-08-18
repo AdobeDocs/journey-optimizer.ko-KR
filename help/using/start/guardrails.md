@@ -9,22 +9,13 @@ level: Intermediate
 mini-toc-levels: 2
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 TQID: https://experienceleague.adobe.com/k4DqGogrTZ9QrnqyFGwdgDeUI9ivpOd1iSI0c5comuU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-subfeature_v2:
-  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 40f1cad3e5c524514ba642c87040085c179c8e82
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: ad78185d-8f79-40ad-9bad-cbde74af74ee
+subfeature_v2: id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: ca053767a216de5f43415c94eb7dd24cffe9dff7
 workflow-type: tm+mt
 source-wordcount: 4611
 ht-degree: 92%
@@ -353,7 +344,7 @@ Adobe Experience Platform에서 API 기반 프로필 만들기/업데이트와 �
 
 * 동일한 발신 도메인을 사용하여 [!DNL Adobe Journey Optimizer] 및 다른 제품(예: [!DNL Adobe Campaign] 또는 [!DNL Adobe Marketo Engage])에서 이메일 메시지를 보낼 수 없습니다.
 
-이메일 메시지를 디자인할 때 시스템은 주요 설정을 확인하고 경고(권장 사항 및 모범 사례)와 오류(테스트 또는 활성화를 방해하는 차단 문제)에 대한 알림을 표시합니다. [이 섹션](../email/create-email.md#check-email-alerts)에서 이메일 경고 및 유효성 검사 요구 사항에 대해 자세히 알아보십시오.
+* 이메일 메시지를 디자인할 때 시스템은 주요 설정을 확인하고 경고(권장 사항 및 모범 사례)와 오류(테스트 또는 활성화를 방해하는 차단 문제)에 대한 알림을 표시합니다. [이 섹션](../email/create-email.md#check-email-alerts)에서 이메일 경고 및 유효성 검사 요구 사항에 대해 자세히 알아보십시오.
 
 #### 여정 게시용 메시지 콘텐츠 크기 {#message-content-size}
 
