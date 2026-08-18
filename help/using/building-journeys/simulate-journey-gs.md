@@ -160,7 +160,7 @@ Adobe Journey Optimizer은 여정을 테스트하고 확인하는 두 가지 방
 
 아래 비디오에서는 빠른 시뮬레이션을 사용하여 주요 프로세스를 자동화하여 고객 여정을 테스트하는 방법을 보여 줍니다. 테스트 프로필을 생성하고, 이벤트를 조정하고, 대기 시간을 단축하고, 시나리오를 검증합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3497475/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3497480/?captions=kor&learn=on)
 
 
 
