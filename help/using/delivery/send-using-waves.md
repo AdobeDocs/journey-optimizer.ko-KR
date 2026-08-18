@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: 예약된 일괄 처리, 일정, 여정, 캠페인, 오케스트레이션, 전달성
-source-git-commit: d997e60a9a851d37796162ed531564514c26dea4
+source-git-commit: 33625f5141457414cddd51758412789849954104
 workflow-type: tm+mt
-source-wordcount: '2077'
+source-wordcount: '2211'
 ht-degree: 4%
 
 ---
@@ -36,6 +36,7 @@ ht-degree: 4%
 
 다음 제한 사항은 모든 컨텍스트에서 웨이브 전송에 적용됩니다.
 
+* 웨이브 전송은 **아웃바운드**&#x200B;채널에만 적용됩니다(전자 메일, SMS, 푸시, DM).
 * **2개 이상의 예약된 일괄 처리**&#x200B;를 정의해야 하며 최대 **10개의 예약된 일괄 처리**&#x200B;를 추가할 수 있습니다.
 * 두 예약된 일괄 처리 시작 사이의 최소 간격은 **30분**&#x200B;입니다.
 * 예약된 일괄 처리 시작은 과거로 설정할 수 없습니다.
@@ -55,17 +56,13 @@ ht-degree: 4%
 
 >[!TAB 액션 캠페인]
 
-* 웨이브 전송은 **아웃바운드** 작업에만 적용됩니다(전자 메일, SMS, 푸시, DM).
 * 웨이브 시작은 캠페인 시작 이전일 수 없습니다.
 
+>[!TAB 오케스트레이션된 캠페인]
+
+* 웨이브 전송은 캠페인의 각 채널 활동에 대해 독립적으로 **채널 활동 수준**&#x200B;에서 구성됩니다.
+
 >[!ENDTABS]
-
-<!--
->[!TAB Orchestrated campaigns]
-
-* Wave sending applies to **outbound** channel activities only (Email, SMS, Push, Direct mail).
-* Wave sending is configured at the **channel activity level**, independently for each channel activity in the campaign.
--->
 
 ## 예약된 일괄 처리 보내기 구성 {#configure-wave-sending}
 
@@ -121,28 +118,25 @@ ht-degree: 4%
 
 1. 아래의 [파동 크기 및 타이밍](#wave-options) 섹션에 자세히 설명된 대로 파동 크기 및 타이밍을 정의하는 방법을 선택하십시오.
 
->[!ENDTABS]
+>[!TAB 오케스트레이션된 캠페인]
 
+1. 오케스트레이션된 캠페인 캔버스에서 채널 활동(이메일, SMS, 푸시 또는 DM)을 엽니다.
 
-<!--
->[!TAB Orchestrated campaigns]
+1. 채널 활동의 **[!UICONTROL 예약]** 탭으로 이동합니다.
 
-1. Open a channel activity (Email, SMS, Push, or Direct mail) in your orchestrated campaign canvas.
+1. **[!UICONTROL 예약된 일괄 처리]**&#x200B;에서 **[!UICONTROL 예약된 일괄 처리 배달]** 전환을 사용하도록 설정합니다.
 
-1. Go to the **[!UICONTROL Schedule]** tab of the channel activity.
+   예약된 예약된 일괄 처리 상태로 예약된 일괄 처리 게재가 활성화된 ![채널 활동 일정 탭](assets/oc-wave-option.png){width="90%"}
 
-1. Under **[!UICONTROL Wave schedule]**, enable the **[!UICONTROL Deliver in waves]** toggle.
-
-    ![Channel activity Schedule tab with the Deliver in waves toggle enabled under Wave schedule](assets/oc-wave-option.png){width="90%"}
-
-1. Set the number of waves using the **[!UICONTROL Select number of waves]** dropdown.
+1. **[!UICONTROL 예약된 일괄 처리 수 선택]** 드롭다운을 사용하여 예약된 일괄 처리 수를 설정합니다.
 
    >[!NOTE]
    >
-   >You must define at least 2 waves and can add up to 10 waves.
+   >최소한 2개의 웨이브를 정의해야 하며 최대 10개의 웨이브를 추가할 수 있습니다.
 
-1. Choose how to define wave size and timing as detailed in the [Wave size and timing](#wave-options) section below.
--->
+1. 아래의 [파동 크기 및 타이밍](#wave-options) 섹션에 자세히 설명된 대로 파동 크기 및 타이밍을 정의하는 방법을 선택하십시오.
+
+>[!ENDTABS]
 
 ## 예약된 일괄 처리 크기 및 시간 {#wave-options}
 
@@ -194,15 +188,15 @@ ht-degree: 4%
 
 * **콜센터 또는 응답 관리:** 다운스트림 팀(예: 고객 지원 센터)이 관리 가능한 비율로 응답을 처리할 수 있도록 하루에 또는 시간당 나가는 메시지 수를 제한합니다.
 
-  ![웨이브 보내기 예: 매일 20개의 메시지가 콜센터 응답 용량과 일치하도록 구성됨](assets/journey-waves-ex-call-center.png){width="50%"}
+  ![웨이브 보내기 예: 매일 20개의 메시지가 콜센터 응답 용량과 일치하도록 구성됨](assets/journey-waves-ex-call-center.png){width="30%"}
 
 * **높은 볼륨 및 전달성:** 한 번에 많은 대상자를 보내지 마십시오. 시간에 따라 게재를 분산하면 발신자의 평판을 유지하고 스팸으로 플래그가 지정될 위험을 줄일 수 있습니다.
 
-  ![Wave 전송 예: 대량 전송에 대한 보낸 사람의 평판을 지원하기 위해 여러 날에 걸쳐 게재가 확산됨](assets/journey-waves-ex-high-volume.png){width="50%"}
+  ![Wave 전송 예: 대량 전송에 대한 보낸 사람의 평판을 지원하기 위해 여러 날에 걸쳐 게재가 확산됨](assets/journey-waves-ex-high-volume.png){width="30%"}
 
 * **IP 준비:** 새 플랫폼 또는 IP 주소를 사용할 때 점진적으로 볼륨을 늘려(예: 첫 번째 웨이브에서 10%, 그 다음 15%, 20% 등) 전송 신뢰도를 점진적으로 높입니다.
 
-  ![웨이브 전송 예: IP 준비 시 웨이브에서 점진적인 볼륨 증가, 10%에서 시작하여 각 웨이브를 증가](assets/journey-waves-ex-ramp-up.png){width="50%"}
+  ![웨이브 전송 예: IP 준비 시 웨이브에서 점진적인 볼륨 증가, 10%에서 시작하여 각 웨이브를 증가](assets/journey-waves-ex-ramp-up.png){width="30%"}
 
 ## 자주 묻는 질문 {#faq}
 
@@ -242,7 +236,7 @@ ht-degree: 4%
 
 * [여정에서 대상 사용](../building-journeys/read-audience.md) — 대상 읽기 활동을 구성합니다.
 * [작업 캠페인을 예약합니다](../campaigns/campaign-schedule.md) — 시작 날짜, 종료 날짜 및 빈도 설정
-<!-- * [Channel activities in Orchestrated campaigns](../orchestrated/activities/channels.md) — configure channel activities in the orchestrated canvas -->
+* [오케스트레이션된 캠페인에서 채널 활동](../orchestrated/activities/channels.md) — 오케스트레이션된 캔버스에서 채널 활동 구성
 
 +++ AI 기술 자료 참조
 
@@ -271,7 +265,7 @@ ht-degree: 4%
 
 * 대상 여정 읽기(&quot;가능한 한 빨리&quot; 또는 &quot;한 번&quot; 스케줄러만 해당 - 반복, 이벤트 트리거, 비즈니스 이벤트, 테스트 또는 드라이 런 여정의 경우 제외)
 * 작업 캠페인(아웃바운드 채널 작업만 해당)
-<!-- * Orchestrated campaigns (outbound channel activities only, configured per channel activity) -->
+* 오케스트레이션된 캠페인(아웃바운드 채널 활동만 해당, 채널 활동별로 구성)
 
 **일반 보호 기능(모든 컨텍스트):**
 
