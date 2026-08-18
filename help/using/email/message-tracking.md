@@ -10,32 +10,16 @@ level: Beginner, Intermediate
 keywords: 링크, 추적, 모니터링, 이메일
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 TQID: https://experienceleague.adobe.com/mY-h-cTs9mlZH5XJNS9Yv3pxGVoRn-pBTHAh8TlBi8I
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: f550d0f2-143d-4093-9463-467fbec95fcc
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c6e980f5-2d4f-494f-beef-186b9ecf1513id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: f550d0f2-143d-4093-9463-467fbec95fccid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: beb7a3c1-66ab-4786-b879-7621375b3c40id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b35f73d33313a267987ceb18dcfc16ccadff52dc
 workflow-type: tm+mt
-source-wordcount: 1491
-ht-degree: 25%
+source-wordcount: 1585
+ht-degree: 24%
 
 ---
 
@@ -172,6 +156,14 @@ Adobe Journey Optimizer에서 생성한 미러 페이지에는 모든 개인화 
 >* 런타임 개인화에 크게 의존하는 전자 메일(예: `#each` 루프, 중첩된 오브젝트, 큰 페이로드 데이터)을 만들 때 특히 페이로드의 광범위한 컨텍스트 데이터를 사용하는 API 트리거 캠페인에서 미러 페이지 URL이 과도하게 커질 수 있습니다. 이로 인해 브라우저나 메일 클라이언트에서 HTTP 오류(404, 422, 502)가 발생할 수 있습니다. Adobe에서는 동적 필드의 폭과 깊이를 제한하고, 복잡한 조각에 대한 의존도를 줄이며, 링크 실패를 방지하기 위해 개인화 구조를 병합할 것을 권장합니다.
 >
 >* 테스트 프로필로 보낸 [증명](../content-management/proofs.md)에서 미러 페이지 링크가 활성화되지 않았습니다. 최종 메시지에서만 활성화됩니다.
+
+### 미러 페이지에서 의사 결정 {#decisioning-mirror-page}
+
+[!DNL Decisioning]을(를) 사용하여 이메일 콘텐츠를 개인화하고 최적화할 수 있습니다. 우선 순위 점수, 수식 또는 AI 모델을 활용하여 각 수신자에게 가장 관련성이 높은 오퍼와 콘텐츠를 표시할 수 있습니다. 이러한 [!DNL Decisioning] 특성은 [시각적 조각](../content-management/fragments.md)에 미러 페이지를 삽입할 때를 포함하여 미러 페이지에서도 렌더링됩니다. 단, 해당 조각이 게시되기 전에 미러 페이지를 추가한 경우에는 가능합니다.
+
+>[!CAUTION]
+>
+>이미 게시된 시각적 조각에 미러 페이지를 추가하는 경우 링크를 클릭할 때 표시할 [!DNL Decisioning] 특성에 대해 미러 페이지를 사용하는 여정 또는 캠페인을 다시 게시해야 합니다.
 
 ## 링크 모양 및 대상 사용자 지정 {#adjust-links}
 

@@ -8,27 +8,15 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 8119b2ae6eeafbd6e973efb94074af5a4982c9db
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9668769b26de3758c595ed0bc13071a35a04fc1
 workflow-type: tm+mt
-source-wordcount: 3404
+source-wordcount: 3471
 ht-degree: 19%
 
 ---
@@ -150,6 +138,14 @@ ht-degree: 19%
 * **새 여정 캔버스에서 다중 선택** - 새 여정 캔버스 경험은 간단한 다중 노드 선택을 도입합니다. Shift 키를 누른 상태에서 드래그하여 개별적으로 선택하는 대신 한 번에 여러 노드를 선택합니다. 이를 통해 복사, 삭제 또는 여정 조각으로 저장과 같은 벌크 작업을 여러 노드에서 효율적으로 수행할 수 있습니다. [자세히 알아보기](../building-journeys/using-the-journey-designer.md#canvas-capabilities)
 
   사용 가능한 날짜: 2026년 8월 17일
+
+### 결정 {#decisioning-august}
+
+* **시각적 조각의 미러 페이지** - 이제 시각적 조각에 미러 페이지를 삽입할 수 있습니다. Decisioning을 활용하는 이메일 캠페인에서 조각을 사용하는 경우에도 Decisioning 속성이 미러 페이지 링크에서 올바르게 렌더링됩니다. 속성을 표시하려면 조각을 게시하기 전에 시각적 조각에 미러 페이지를 추가해야 합니다.
+
+  사용 가능한 날짜: 2026년 8월 11일
+
+  [자세히 알아보기](../email/message-tracking.md#decisioning-mirror-page)
 
 ## 2026년 7월 릴리스 정보 {#july-26-updates}
 
