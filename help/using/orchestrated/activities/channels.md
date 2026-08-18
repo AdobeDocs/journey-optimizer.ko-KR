@@ -6,19 +6,14 @@ description: 여러 단계로 구성된 캠페인에 채널 활동을 추가하�
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ouwufvPEUXGewSP5TvsfI0qPxpVqaqso3me4qEc2WQM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d05144d68c19ad0b1626f476ac706e75489cea8a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 3c38a0cb5f69a43cb52e36cd882406122ff0025d
 workflow-type: tm+mt
-source-wordcount: 2012
-ht-degree: 43%
+source-wordcount: 2338
+ht-degree: 37%
 
 ---
 
@@ -121,9 +116,22 @@ UNUSED IDs in BJ
 
 1. 선택한 채널에 따라 활동을 선택하고 **[!UICONTROL 전자 메일 편집]**, **[!UICONTROL SMS 편집]**, **[!UICONTROL 푸시 편집]** 또는 **[!UICONTROL DM 편집]**&#x200B;을 클릭합니다.
 
-   ![이메일 활동이 있는 캔버스를 보여 주는 이미지](../assets/channel-edit.png)
+1. **[!UICONTROL Target]** 섹션에서 게재 대상을 구성합니다.
 
-1. **[!UICONTROL 속성]** 탭에서 설명을 입력한 다음 **[!UICONTROL 액션]** 탭으로 전환하여 활동을 구성합니다.
+   * 드롭다운 목록에서 이 전송에 대한 **[!UICONTROL 대상 차원]**&#x200B;을(를) 선택하십시오.
+
+   * 보조 차원이 적용되면(각 프로필에 연결된 관련 테이블) 보낼 메시지의 수를 선택합니다.
+
+     * **[!UICONTROL 프로필당 하나의 메시지]**: 보조 차원의 여러 행이 있는 경우에도 프로필당 하나의 메시지를 보냅니다.
+     * **[!UICONTROL 보조 차원당 한 개의 메시지]**: 보조 차원의 자격 있는 행당 한 개의 메시지를 보냅니다. 여러 행이 동일한 프로필과 일치하면 해당 프로필에서 여러 메시지를 받을 수 있습니다.
+
+   ![보조 차원 옵션이 있는 대상 섹션을 보여 주는 이미지](../assets/secondary-dimension.png)
+
+   **예** - &quot;항공편&quot; 테이블이 수신자 테이블과 연결되어 있고 각 프로필에서 해당 수신자에게 적용되는 항공편당 하나의 메시지를 수신한다고 가정합니다. **[!UICONTROL 보조 차원당 하나의 메시지]**&#x200B;를 선택합니다. 자격 조건을 충족하는 관련 비행 행 수에 관계없이 프로필당 하나의 메시지만 원할 경우 **[!UICONTROL 프로필당 하나의 메시지]**&#x200B;를 사용합니다.
+
+   타겟팅 차원 및 구성 방법에 대한 자세한 내용은 [타겟팅 차원 구성](../target-dimension.md) 페이지를 참조하세요.
+
+1. 선택한 채널에 따라 **[!UICONTROL 전자 메일 편집]**, **[!UICONTROL SMS 편집]**, **[!UICONTROL 푸시 편집]** 또는 **[!UICONTROL DM 편집]**&#x200B;을 클릭하여 평소와 같이 메시지를 만든 다음 **오른쪽 레일**&#x200B;로 돌아가서 **[!UICONTROL 작업]**&#x200B;을 완료합니다.
 
 ## 마케팅 및 트랜잭션 메시지 {#marketing-vs-transactional}
 
@@ -149,11 +157,13 @@ UNUSED IDs in BJ
 
    구성은 [시스템 관리자](../../start/path/administrator.md)가 정의합니다. 여기에는 헤더 매개 변수, 하위 도메인, 모바일 앱 등 메시지를 보내는 데 필요한 모든 기술 매개 변수가 포함되어 있습니다. [채널 구성을 설정하는 방법에 대해 알아보세요](../../configuration/channel-surfaces.md)
 
+   채널 구성 목록은 캔버스에서 선택할 때 속성 창에서 게재에 대해 설정한 대상에 따라 필터링됩니다. 해당 대상과 호환되는 구성만 표시됩니다.
+
    ![액션 섹션을 보여 주는 이미지](../assets/channel-actions.png)
 
 1. **최대 가용량 규칙 적용**
 
-   **[!UICONTROL 규칙 집합]** 드롭다운 목록에서 최대 가용량 규칙을 캠페인에 적용할 채널 규칙 집합을 선택하십시오. 채널 규칙 세트를 활용하면 통신 유형별로 빈도 상한을 설정하여 유사한 메시지가 있는 고객을 오버로드할 수 있습니다. [규칙 집합으로 작업하는 방법을 알아봅니다](../../conflict-prioritization/rule-sets.md).
+   **[!UICONTROL 규칙 집합]** 드롭다운 목록에서 최대 가용량 규칙을 캠페인에 적용할 채널 규칙 집합을 선택하십시오. 채널 규칙 세트를 활용하면 통신 유형별 빈도 제한 및 자동 중지 시간을 포함한 규칙을 설정하여 유사한 메시지가 있는 고객을 오버로드하지 않도록 하고 구성된 자동 중지 시간 동안 메시지를 보내지 않도록 할 수 있습니다. [규칙 집합으로 작업하는 방법을 알아봅니다](../../conflict-prioritization/rule-sets.md).
 
 1. **콘텐츠 실험 만들기**
 
@@ -167,6 +177,25 @@ UNUSED IDs in BJ
 
 선택한 통신 채널에 따라 추가 설정을 사용할 수 있습니다. 자세한 내용을 보려면 아래 섹션을 확장하십시오.
 
++++**이메일 헤더 개인화**(이메일).
+
+>[!AVAILABILITY]
+>
+>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
+
+채널 구성을 선택한 후 해당 구성에 정의된 값을 바꾸려면 **[!UICONTROL 전자 메일 게재 설정 무시]**&#x200B;를 사용하도록 설정하십시오. 이 채널 활동에 대해 다음 설정을 사용자 지정할 수 있습니다.
+
+* **전자 메일 헤더 매개 변수**: **[!UICONTROL 이름에서]**, **[!UICONTROL 전자 메일 접두사에서]**, **[!UICONTROL 이름에 회신]** 및 **[!UICONTROL 전자 메일에 회신]**
+
+* **실행 주소**: **[!UICONTROL Source]**(**[!UICONTROL 프로필]** 또는 **[!UICONTROL Target Dimension]**) 및 **[!UICONTROL 배달 주소]**
+
+<!--* **List unsubscribe**: **[!UICONTROL Mailto (unsubscribe)]** and **[!UICONTROL One-click unsubscribe URL]**-->
+
+비워 둔 모든 필드의 경우 [!DNL Journey Optimizer]은(는) 선택한 채널 구성의 값을 사용합니다.
+
+![전자 메일 헤더 개인화 설정을 보여 주는 이미지](../assets/email-header.png)
++++
+
 +++**참여 추적**(전자 메일 및 SMS).
 
 **[!UICONTROL 액션 추적]** 섹션을 사용하여 수신자가 이메일 또는 SMS 게재에 어떻게 반응하는지 추적할 수 있습니다. 캠페인이 실행되면 캠페인 보고서에서 추적 결과에 액세스할 수 있습니다. [캠페인 보고서에 대해 자세히 알아보기](../../reports/campaign-global-report-cja.md)
@@ -175,7 +204,7 @@ UNUSED IDs in BJ
 
 +++**빠른 전송 모드를 사용**(푸시)합니다.
 
-빠른 전송 모드는 캠페인을 통해 대량으로 매우 빠른 푸시 메시지를 전송할 수 있는 [!DNL Journey Optimizer] 추가 기능입니다. 신속한 전달은 메시지 전달 지연이 비즈니스에 중요한 경우 사용됩니다. 예를 들어 뉴스 채널 앱을 설치한 사용자에게 속보 등 휴대폰에 긴급 푸시 알림을 전송하려는 경우가 있습니다. 푸시 알림에 대해 빠른 전송 모드를 사용하는 방법을 알아봅니다. [&#x200B; 이 페이지](../../push/create-push.md#rapid-delivery).
+빠른 전송 모드는 캠페인을 통해 대량으로 매우 빠른 푸시 메시지를 전송할 수 있는 [!DNL Journey Optimizer] 추가 기능입니다. 신속한 전달은 메시지 전달 지연이 비즈니스에 중요한 경우 사용됩니다. 예를 들어 뉴스 채널 앱을 설치한 사용자에게 속보 등 휴대폰에 긴급 푸시 알림을 전송하려는 경우가 있습니다. 푸시 알림에 대해 빠른 전송 모드를 사용하는 방법을 알아봅니다. [ 이 페이지](../../push/create-push.md#rapid-delivery).
 
 빠른 전송 모드를 사용할 때의 성능에 대한 자세한 내용은 [Adobe Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}을 참조하세요.
 
@@ -184,7 +213,6 @@ UNUSED IDs in BJ
 채널 활동이 구성되면 **[!UICONTROL 콘텐츠]** 탭을 선택하여 콘텐츠를 정의합니다.
 
 ## 콘텐츠 정의 {#content}
-
 
 ### 메시지 콘텐츠 만들기
 
@@ -218,11 +246,11 @@ UNUSED IDs in BJ
 
 ## 메시지 보내기 확인
 
-반복되지 않는 오케스트레이션된 캠페인의 경우 기본적으로 전송을 명시적으로 승인할 때까지 메시지 게재가 일시 중지됩니다. 캠페인을 게시한 후 채널 활동의 속성 창에서 전송 요청을 확인합니다.
+반복되지 않는 오케스트레이션된 캠페인의 경우 기본적으로 전송을 명시적으로 승인할 때까지 메시지 게재가 일시 중지됩니다. 캠페인을 게시한 후 채널 활동을 선택하는 동안 **오른쪽 레일**&#x200B;의 **[!UICONTROL 속성]**&#x200B;에서 전송 요청을 확인합니다.
 
 ![확인 단추를 표시하는 이미지](../assets/confirm-sending.png)
 
-오케스트레이션된 캠페인을 게시하기 전에 확인 전송을 비활성화할 수 있습니다. 이렇게 하려면 캔버스에서 채널 활동을 선택하여 해당 속성을 표시한 다음 **[!UICONTROL 확인 없이 보내기]**&#x200B;를 켭니다.
+오케스트레이션된 캠페인을 게시하기 전에 확인 전송을 비활성화할 수 있습니다. 이렇게 하려면 캔버스에서 채널 활동을 선택하고 **오른쪽 레일**&#x200B;의 **[!UICONTROL 속성]**(으)로 이동한 다음 **[!UICONTROL 확인 없이 보내기]**&#x200B;를 켭니다.
 
 ![확인 없이 보내기 단추를 표시하는 이미지](../assets/send-without-confirmation.png)
 

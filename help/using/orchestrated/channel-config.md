@@ -6,18 +6,13 @@ description: 채널 구성을 구성하는 방법을 알아봅니다
 version: Campaign Orchestration
 exl-id: 6793e9b8-06ca-403b-8cb0-3bcaef089837
 TQID: https://experienceleague.adobe.com/unthUbZA8ZMksa2MlgVDbuON-lpr70-v21JZVGyIc3U
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: 
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: eca89b39416441b46327ee6b14c827f91d91f11f
 workflow-type: tm+mt
-source-wordcount: 501
+source-wordcount: 549
 ht-degree: 0%
 
 ---
@@ -54,9 +49,11 @@ ht-degree: 0%
 
    * **[!UICONTROL 대상 Dimension]**: 기본 엔터티(예: 수신자)로 보냅니다.
 
-   * **[!UICONTROL Target + 보조 Dimension]**: 기본 및 보조 엔터티(예: 수신자 + 계약)를 모두 사용하여 보냅니다.
+   * **[!UICONTROL 대상 + 보조 Dimension]**: 기본 및 보조 엔터티(예: 받는 사람 + 계약 또는 받는 사람 + 항공편)를 모두 사용하여 보냅니다.
 
-1. 드롭다운에서 [이전에 만든 Target Dimension](#targeting-dimension)을 선택합니다.
+     한 프로필에서 여러 메시지를 받을 수 있는 다중 엔티티 오케스트레이션 캠페인을 지원하려면 이 옵션을 선택합니다. 한 프로필은 [!UICONTROL 보조 Dimension]&#x200B;(예: 데이터 모델에 따라 **받는 사람**&#x200B;과(와) 연결된 **항공편** 또는 **항공편**&#x200B;과(와) 연결된 **항공편 세부 정보**)로 선택하는 연결된 테이블의 해당 행당 한 개의 메시지를 받을 수 있습니다.
+
+1. 드롭다운에서 [이전에 만든 Target Dimension](target-dimension.md#targeting-dimension)을 선택합니다.
 
    ![](assets/target-dimension-4.png)
 
