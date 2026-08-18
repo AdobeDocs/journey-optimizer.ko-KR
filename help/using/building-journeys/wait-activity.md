@@ -11,25 +11,16 @@ keywords: 대기, 활동, 여정, 다음, 캔버스
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/qWxnLiuHh-sJQyUOuRB6CgRIpZ6ud6eO-WNoWcv9JeU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 16cd10f5f740bd116239744a0c4534150e5a824f
 workflow-type: tm+mt
-source-wordcount: 1589
-ht-degree: 8%
+source-wordcount: 2072
+ht-degree: 6%
 
 ---
 
@@ -48,13 +39,13 @@ ht-degree: 8%
 
 다음 활동을 실행하기 전에 **[!UICONTROL 대기]** 활동을 사용하여 기간을 정의할 수 있습니다.  최대 대기 기간은 **90일**&#x200B;입니다.
 
-두 가지 유형의 **대기** 활동을 설정할 수 있습니다.
+다음 세 가지 유형의 **대기** 활동을 설정할 수 있습니다.
 
 * 상대적 기간을 기반으로 한 대기. [자세히 알아보기](#duration)
 * 함수를 사용하여 계산하는 사용자 지정 날짜입니다. [자세히 알아보기](#custom)
+* 전송 시간 최적화 대기. [자세히 알아보기](#sto-wait)
 
 <!--
-* [Email send time optimization](#email_send_time_optimization)
 * [Fixed date](#fixed_date) 
 -->
 
@@ -122,7 +113,34 @@ Select the date for the execution of the next activity.
 >| **수정** | `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00"))` |
 >| **잘못됨** | `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00Z"))` ❌(`Z` 포함) |
 
-대기 활동이 예상대로 작동하는지 확인하려면 단계 이벤트를 사용할 수 있습니다. [자세히 알아보기](../reports/query-examples.md#common-queries).
+대기 활동이 예상대로 작동하는지 확인하려면 단계 이벤트를 사용할 수 있습니다. [자세히 알아보기](../reports/query-examples.md#common-queries)
+
+### 전송 시간 최적화 대기 {#sto-wait}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_wait_optimization channel"
+>title="최적화 채널"
+>abstract="각 프로필의 최적 대기 시간(이메일 또는 푸시 알림)을 계산할 때 사용할 채널의 전송 시간 최적화 모델을 선택합니다. 대기 활동은 해당 채널에 대해 이미 계산된 참여 점수를 재사용하므로 선택한 채널은 대기 시간을 최적화할 메시징 동작과 일치해야 합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_wait_optimization_type"
+>title="최적화 유형"
+>abstract="이메일의 경우 오픈을 최대화하기 위해 최적의 대기 시간을 계산할지 클릭스루를 최대화할지 여부를 선택합니다. 푸시 메시지는 클릭 추적이 푸시 메시지에 적용되지 않으므로 푸시 기능은 항상 열기용으로 최적화됩니다. 이 대기 후에 수행되는 활동의 목표와 가장 일치하는 참여 유형을 선택합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_wait_send_within"
+>title="다음 날짜 이내에 전송"
+>abstract="다음 활동을 계속하기 전에 시스템이 대기할 수 있는 최대 시간(2~100시간)을 설정합니다. 이는 최적의 순간을 선택할 때 고려하는 창 전송 시간 최적화의 외부 경계를 정의합니다. 기간이 짧으면 AI 모델이 제공할 수 있는 혜택의 크기가 제한되며, 기간이 길면 원하는 것보다 다운스트림 활동이 지연될 수 있습니다."
+
+![대기 기간 정의](assets/wait_sto.png)
+
+**[!UICONTROL 전송 시간 최적화]** 유형을 선택하여 Adobe의 AI가 각 프로필의 예측된 참여 동작을 기반으로 경로의 다음 활동을 계속할 최적의 시간을 결정하도록 합니다. 이 작업에서는 이메일 및 푸시 작업과 동일한 [전송 시간 최적화](send-time-optimization.md) 모델을 사용하지만, 대기 시간을 전송 자체와 분리합니다. 대기 후에 수행되는 활동은 이메일 또는 푸시 작업에만 연결되지 않고, 사용자 지정 작업과 같은 임의의 활동일 수 있습니다.
+
+[전송 시간 최적화의 작동 방식과 조직에 대해 보내는 방법에 대해 자세히 알아보세요](send-time-optimization.md#how-send-time).
+
+>[!IMPORTANT]
+>
+>전송 시간 최적화에 [자동 시간](../conflict-prioritization/quiet-hours.md) 규칙에 대한 가시성이 없습니다. 자동 시간은 프로필이 **message** 작업에 도달할 때만 평가되므로 전송 시간 최적화 대기 활동은 다운스트림 채널 작업의 자동 중지 시간 내에 속하는 최적의 시간을 선택할 수 있습니다. 이 충돌은 메시지가 전송될 때 나중에 표시됩니다.
 
 ## 대기 후 프로필 새로 고침 {#profile-refresh}
 
@@ -159,12 +177,14 @@ Select the date for the execution of the next activity.
 * 대기 활동이 여정 글로벌 시간 제한(91일)과 상호 작용하는 방법을 이해합니다
 * 테스트의 대기 시간 매개 변수를 사용하여 테스트 모드 유효성 검사 속도를 높입니다.
 * 대상자 읽기 여정에서 대기 노드 후에 프로필 속성을 새로 고치는 방법을 이해합니다
+* 대기 활동 내의 전송 시간 최적화를 사용하여 다운스트림 활동을 계속하기 전에 최적의 시간을 결정합니다
 
 **용어집:**
 
 * **대기 활동**: 지정된 기간 동안 또는 다음 활동이 *(제품별)을 실행하기 전에 계산된 날짜까지 프로필 진행을 일시 중지하는 여정 오케스트레이션 활동*
 * **기간 대기**: 최대 90일 *(제품별)*&#x200B;을(를) 사용하여 일시 중지할 상대 기간을 설정하는 대기 유형입니다.
 * **사용자 지정 대기**: 프로필 또는 이벤트 데이터에서 파생된 `dateTimeOnly` 식을 사용하여 재개를 위한 향후 특정 날짜/시간(*(제품별)*&#x200B;을(를) 정의하는 대기 유형입니다.
+* **전송 시간 최적화 대기**: Adobe의 전송 시간 최적화 AI 모델을 사용하여 다음 활동을 계속할 최적의 시간을 선택하는 대기 형식이며, 메시지 전송 *(제품별)에서 분리됩니다*
 * **자동 대기 노드**: 인바운드 경험 활동(인앱, 코드 기반, 카드) 뒤에 3일 대기 활동이 자동으로 삽입되어 *(제품별) 콘텐츠를 볼 수 있을 만큼 오래 여정에 프로필을 유지합니다.*
 * **테스트의 대기 시간**: 테스트 결과가 빠르게 반환되도록 실제 대기 기간(기본값 10초)을 무시하는 여정 테스트 모드 매개 변수 *(제품별)*
 
@@ -177,6 +197,7 @@ Select the date for the execution of the next activity.
 * 사용자 지정 대기 식은 `dateTimeOnly` 형식을 사용해야 하며 `Z` 접미사 또는 명시적 시간대 오프셋을 포함하지 않아야 합니다.
 * 사용자 지정 대기에서 고정 정적 날짜(예: `toDateTimeOnly('2024-01-01T01:11:00Z')`)를 사용하면 문제가 발생할 수 있습니다. 대신 프로필별 동적 날짜를 사용하십시오.
 * 대상자 읽기 여정의 대기 노드 후에 프로필 속성이 통합 프로필 서비스에서 새로 고쳐지므로 스냅샷 일관성이 필요한 경우 예기치 않은 결과가 발생할 수 있습니다.
+* 대기 활동 내의 전송 시간 최적화에는 자동 시간 규칙에 대한 가시성이 없습니다. 다운스트림 채널 작업이 메시지를 버리도록 설정된 자동 시간 규칙에 의해 보호되는 경우 프로필을 메시지 게재에서 제거하고 여정에서 종료할 수 있습니다.
 
 **용어:**
 
@@ -191,5 +212,6 @@ Select the date for the execution of the next activity.
 * **Q: 사용자 지정 대기 식에 Z를 추가하지 않아야 하는 이유는 무엇입니까?** — Z 또는 시간대 오프셋을 `toDateTimeOnly()` 식에 추가하면 프로필이 대기 활동에 걸릴 수 있습니다. 식은 여정의 구성된 시간대를 사용해야 합니다.
 * **Q: 대기 노드 후에 프로필 특성이 업데이트됩니까?** — 예. 대상 읽기로 시작하는 여정에서 여정은 대기 후 통합 프로필 서비스의 프로필 속성을 새로 고침하므로 다운스트림 활동에서 원래 대상 스냅샷 데이터가 아닌 업데이트된 값을 볼 수 있습니다.
 * **Q: 자동 대기 노드는 무엇입니까?** — 인바운드 경험 활동(인앱, 코드 기반, 카드) 후에 3일 대기 활동을 자동으로 삽입하여 프로필이 메시지를 볼 수 있을 만큼 충분히 오래 여정에 남아 있도록 합니다. 필요에 따라 제거하거나 재구성할 수 있습니다.
+* **Q: 전송 시간 최적화 대기 활동이 방해 금지 시간에 대해 알고 있습니까?** — 아니요. 방해 금지 시간은 메시지 작업에서만 평가되므로 대기 활동은 방해 금지 시간 창 내에서 시간을 선택할 수 있습니다. 방해 금지 모드 시간 규칙에 따라 메시지는 방해 금지 모드가 종료될 때까지 대기열에 추가되거나 삭제되어 여정에서 프로필도 종료됩니다.
 
 +++

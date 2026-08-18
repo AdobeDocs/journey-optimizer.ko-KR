@@ -11,9 +11,9 @@ exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: d6b5a083f03c7afe5eaf6efc19fdd93fa0943f02
 workflow-type: tm+mt
-source-wordcount: 1353
+source-wordcount: 1377
 ht-degree: 7%
 
 ---
@@ -129,10 +129,11 @@ ht-degree: 7%
 
 **컬렉션 조작 및 분석**
 
-배열과 목록을 필터링, 정렬, 변환 및 분석하여 복잡한 데이터 구조를 사용하고 집합 작업을 수행합니다.
+배열과 목록을 필터링, 정렬, 변환 및 분석하여 복잡한 데이터 구조로 작업하고 교차, 결합 및 차이점 같은 집합 작업을 수행합니다.
 
 | 함수 | 설명 |
 |----------|-------------|
+| [differenceLists](../functions/list-functions.md#differenceLists) | 한 목록에 다른 목록에 없는 항목 가져오기 |
 | [distinct](../functions/list-functions.md#distinct) | 고유 값 가져오기(null 제외) |
 | [distinctWithNull](../functions/list-functions.md#distinctWithNull) | 고유 값 가져오기(null 포함) |
 | [필터](../functions/list-functions.md#filter) | 기준을 기반으로 목록 필터링 |
@@ -141,6 +142,7 @@ ht-degree: 7%
 | [교차](../functions/list-functions.md#intersect) | 목록 간 공통 요소 찾기 |
 | [제한](../functions/list-functions.md#limit) | 반환되는 항목 수 제한 |
 | [listSize](../functions/list-functions.md#listSize) | 목록 크기 가져오기 |
+| [mergeLists](../functions/list-functions.md#mergeLists) | 중복 제거를 사용하거나 사용하지 않고 두 목록 결합 |
 | [serializeList](../functions/list-functions.md#serializeList) | 목록을 문자열로 변환 |
 | [sort](../functions/list-functions.md#sort) | 목록 요소 정렬 |
 

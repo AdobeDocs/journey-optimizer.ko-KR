@@ -9,19 +9,15 @@ keywords: 목록, 함수, 표현식, 여정, 배열, 컬렉션
 version: Journey Orchestration
 exl-id: b17245ba-4ffa-4f5b-914e-4c0972e9c7c4
 TQID: https://experienceleague.adobe.com/XWWixhfBVKw-kdgO4WPWrtiIqA8sFt0ql0IVZ-2QsUI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 subfeature_v2: []
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: d6b5a083f03c7afe5eaf6efc19fdd93fa0943f02
 workflow-type: tm+mt
-source-wordcount: 1642
-ht-degree: 6%
+source-wordcount: 2071
+ht-degree: 5%
 
 ---
 
@@ -37,9 +33,70 @@ ht-degree: 6%
 * 값이 컬렉션([in](#in)) 내에 있는지 확인
 * 목록에서 반환되는 항목 수 제한([limit](#limit))
 * 목록 크기([listSize](#listSize))를 가져오거나 목록을 다른 형식으로 변환([serializeList](#serializeList))
-* 목록([intersect](#intersect)) 간에 공통 요소를 찾는 것과 같은 집합 작업을 수행합니다.
+* 목록([intersect](#intersect)) 간에 공통 요소를 찾거나 목록([mergeLists](#mergeLists))을 결합하거나 다른 목록([differenceLists](#differenceLists))에서 한 목록을 빼는 것과 같은 집합 작업을 수행합니다.
 
 목록 함수는 복잡한 데이터 구조 작업을 위한 강력한 도구를 제공하며 복잡한 데이터 조작과 수집 콘텐츠를 기반으로 하는 조건부 논리를 가능하게 합니다.
+
+## 차이점 목록 {#differenceLists}
+
+두 번째 목록에 없는 첫 번째 목록의 항목을 반환합니다(설정 차이점: `list 1 - list 2`). Null 항목을 건너뜁니다. 결과는 항상 중복 값을 제거하고 첫 번째 목록의 삽입 순서를 유지합니다.
+
++++구문
+
+`differenceLists(<parameters>)`
+
++++
+
++++매개변수
+
+| 매개 변수 | 유형 | 설명 |
+|-----------|------------------|------------------|
+| 목록 1 | listString, listInteger, listDecimal, listBoolean, listDuration, listDateTime, listDateTimeOnly 또는 listDateOnly | 뺄 목록입니다. |
+| 목록 2 | 목록 1과 동일한 유형입니다. | 목록 1에서 제거할 항목의 목록입니다. |
+
++++
+
++++서명 및 반환된 유형
+
+`differenceLists(listString,listString)`: listString
+
+`differenceLists(listInteger,listInteger)`: list정수
+
+`differenceLists(listDecimal,listDecimal)`: listDecimal
+
+`differenceLists(listBoolean,listBoolean)`: list부울
+
+`differenceLists(listDuration,listDuration)`: listDuration
+
+`differenceLists(listDateTime,listDateTime)`: listDateTime
+
+`differenceLists(listDateTimeOnly,listDateTimeOnly)`: listDateTimeOnly
+
+`differenceLists(listDateOnly,listDateOnly)`: listDateOnly
+
++++
+
++++예
+
+```json
+differenceLists(['a','b','c'], ['b'])
+```
+
+`['a','c']`을(를) 반환합니다
+
+```json
+differenceLists(['a','a','b'], [])
+```
+
+`['a','b']`을(를) 반환합니다
+
+```json
+differenceLists([], ['a'])
+```
+
+`[]`을(를) 반환합니다
+
++++
 
 ## distinct {#distinct}
 
@@ -620,6 +677,64 @@ intersect(
 
 +++
 
+## 병합 목록 {#mergeLists}
+
+두 목록을 결합합니다. `deduplicate`이(가) `true`인 경우 중복 값이 제거된 두 목록의 합집합을 반환합니다. `deduplicate`이(가) `false`이면 두 목록(목록 1의 항목 뒤에 목록 2의 항목)의 연결을 반환하여 중복을 유지합니다. Null 항목을 건너뜁니다.
+
+**참고:** `deduplicate` 매개 변수는 동적 부울 식이 아닌 리터럴 `true` 또는 `false`이어야 합니다.
+
++++구문
+
+`mergeLists(<parameters>)`
+
++++
+
++++매개변수
+
+| 매개 변수 | 유형 | 설명 |
+|-----------|------------------|------------------|
+| 목록 1 | listString, listInteger, listDecimal, listBoolean, listDuration, listDateTime, listDateTimeOnly 또는 listDateOnly | 첫 번째 목록입니다. 해당 항목이 결과에 먼저 추가됩니다. |
+| 목록 2 | 목록 1과 동일한 유형입니다. | 두 번째 목록입니다. 이 항목의 항목은 목록 1의 항목 뒤에 추가됩니다. |
+| 중복 제거 | 부울 리터럴 | `true`은(는) 중복 항목이 제거된 두 목록의 유니온을 반환합니다. `false`은(는) 중복을 유지하면서 두 목록의 연결을 반환합니다. 리터럴 `true` 또는 `false`이어야 합니다. |
+
++++
+
++++서명 및 반환된 유형
+
+`mergeLists(listString,listString,boolean)`: listString
+
+`mergeLists(listInteger,listInteger,boolean)`: list정수
+
+`mergeLists(listDecimal,listDecimal,boolean)`: listDecimal
+
+`mergeLists(listBoolean,listBoolean,boolean)`: list부울
+
+`mergeLists(listDuration,listDuration,boolean)`: listDuration
+
+`mergeLists(listDateTime,listDateTime,boolean)`: listDateTime
+
+`mergeLists(listDateTimeOnly,listDateTimeOnly,boolean)`: listDateTimeOnly
+
+`mergeLists(listDateOnly,listDateOnly,boolean)`: listDateOnly
+
++++
+
++++예
+
+```json
+mergeLists(['a','b'], ['b','c'], true)
+```
+
+`['a','b','c']`을(를) 반환합니다
+
+```json
+mergeLists(['a','b'], ['b','c'], false)
+```
+
+`['a','b','b','c']`을(를) 반환합니다
+
++++
+
 ## serializeList {#serializeList}
 
 지정된 목록(listObject를 제외한 모든 유형)을 문자열로 변환합니다.
@@ -752,7 +867,7 @@ SKU 속성으로 정렬된 listObject 반환(오름차순)
 
 이해를 돕기 위해 이 정보를 이 페이지의 설명서와 통합해야 합니다. 두 소스 모두 독립적으로 사용하기 위한 것은 아닙니다. 이 페이지에서는 기능에 대해 설명하지만, 용어, 의도, 적용 가능성 및 제약 조건을 명확히 하는 데 도움이 되는 추가 컨텍스트를 제공합니다.
 
-* **TL;DR:** 이 페이지에서는 목록 및 배열의 교차를 필터링, 정렬, 중복 제거, 멤버십 확인, 제한, 직렬화 및 찾는 방법에 대해 다루는 AJO 여정 표현식에서 사용할 수 있는 모든 목록 함수를 문서화합니다.
+* **TL;DR:** 이 페이지는 AJO 여정 표현식에서 사용할 수 있는 모든 목록 함수를 문서화합니다. 이 함수에서는 목록과 배열의 교차를 필터링, 정렬, 중복 제거, 멤버십 확인, 제한, 직렬화, 병합, 빼기 및 찾는 방법에 대해 설명합니다.
 
 **의도:**
 * `distinct`(null 무시) 또는 `distinctWithNull`(null 보존)을 사용하여 목록에서 중복 값을 제거합니다.
@@ -760,6 +875,8 @@ SKU 속성으로 정렬된 listObject 반환(오름차순)
 * `getListItem`을(를) 사용하여 목록에서 특정 인덱스의 요소를 검색합니다.
 * `in`을(를) 사용하여 목록에 값이 있는지 확인
 * `intersect`을(를) 사용하여 두 목록 사이에서 공통 요소 찾기
+* `mergeLists`을(를) 사용하여 중복 제거 여부에 관계없이 두 목록을 결합합니다.
+* `differenceLists`을(를) 사용하여 다른 목록(차이점 설정)에서 한 목록 빼기
 * `limit`을(를) 사용하여 목록의 첫 번째 또는 마지막 N개 요소 반환
 * `listSize`을(를) 사용하여 목록의 총 요소 수를 계산합니다.
 * `serializeList`을(를) 사용하여 목록을 구분된 문자열로 변환
@@ -769,12 +886,17 @@ SKU 속성으로 정렬된 listObject 반환(오름차순)
 * **listObject**: 필드 참조여야 하는 복잡한 개체 목록입니다. null 개체 *(제품별)은 포함할 수 없습니다.*
 * **keyAttributeName**: *(제품별)의 중복 제거, 필터링 또는 정렬에 사용할 개체 특성을 식별하기 위해 `distinct`, `filter` 및 `sort`과(와) 함께 사용되는 선택적 문자열 매개 변수*
 * **intersect**: 두 입력 목록에 있는 요소만 반환하는 집합 작업입니다.
+* **mergeLists**: `deduplicate` 매개 변수 *(제품별)*&#x200B;에 따라 두 목록의 결합(중복 제거) 또는 연결(중복 포함)을 반환하는 집합 작업입니다.
+* **differenceLists**: 두 번째 목록 *(제품별)에 없는 첫 번째 목록의 항목을 반환하는 집합 작업*
 
 **보호 기능:**
 * `distinctWithNull`은(는) `<listObject>` 매개 변수 형식을 지원하지 않습니다.
 * `filter`을(를) 사용하려면 listObject 매개 변수가 인라인 리터럴이 아닌 필드 참조여야 합니다.
 * listObject의 `listSize`에는 목록이 필드 참조여야 합니다. listObject에는 null 개체가 포함될 수 없습니다.
 * `serializeList`은(는) `listObject` 형식을 지원하지 않습니다.
+* `mergeLists` 및 `differenceLists`은(는) 스칼라 목록 형식(문자열, 정수, 십진수, 부울, dateTime, dateTimeOnly, dateOnly, duration)만 지원합니다. `listObject`은(는) 지원되지 않습니다.
+* `mergeLists`의 `deduplicate` 매개 변수는 동적 부울 식이 아닌 리터럴 `true`/`false`이어야 합니다.
+* `differenceLists`은(는) 항상 결과의 중복을 제거합니다. 중복을 유지할 수 있는 옵션이 없습니다.
 
 **용어:**
 * 정식 이름: 목록 함수 — 약어: 없음 — 변형: 컬렉션 함수, 배열 함수
@@ -782,6 +904,7 @@ SKU 속성으로 정렬된 listObject 반환(오름차순)
 * 혼동하지 마십시오. &quot;distinct&quot;(null 무시) ≠ &quot;distinctWithNull&quot;(null을 고유한 값으로 유지)
 * 혼동하지 마십시오. &quot;limit&quot;을 세 번째 매개 변수 `true`(첫 번째 N개 항목 반환)과 ≠ &quot;limit&quot;을 `false`(마지막 N개 항목 반환)과 함께 사용합니다.
 * 혼동하지 마십시오. &quot;교차&quot;(두 목록 간의 공통 요소) ≠ &quot;필터링&quot;(특정 키 값과 일치하는 요소)
+* &quot;mergeLists&quot;(결합 또는 연결) ≠ &quot;differenceLists&quot;(다른 목록에서 하나의 목록 빼기) ≠ &quot;intersect&quot;(일반 요소만 해당)를 혼동하지 마십시오.
 
 **FAQ:**
 * **Q: 목록의 처음 3개 항목을 어떻게 얻습니까?** — `limit(myList, 3)` 또는 `limit(myList, 3, true)`을(를) 사용합니다. 기본적으로 첫 번째 항목이 반환됩니다.
@@ -790,5 +913,9 @@ SKU 속성으로 정렬된 listObject 반환(오름차순)
 * **Q: `filter`을(를) 사용하여 문자열 목록을 필터링할 수 있습니까?** — 아니요, `filter`은(는) `listObject`에서만 작동합니다. 스칼라 목록의 경우 중복 제거에는 `in` 또는 `distinct`을(를) 사용합니다.
 * **Q: 값이 목록에 있는지 어떻게 확인합니까?** — 목록에 값이 있으면 true를 반환하는 `in(value, myList)`을(를) 사용합니다.
 * **Q: listObject를 특정 특성별로 정렬할 수 있습니까?** — 예. 두 번째 매개 변수는 특성 이름이고 세 번째 매개 변수는 정렬 방향입니다(true = 오름차순).`sort(@event{...}, "attributeName", true)`
+* **Q: 두 목록을 결합하고 중복을 제거하려면 어떻게 합니까?** — `mergeLists(list1, list2, true)` 사용.
+* **Q: 두 목록을 결합하되 중복 값을 유지하려면 어떻게 해야 합니까?** — `mergeLists(list1, list2, false)` 사용.
+* **Q: 다른 목록에 없는 항목을 찾는 방법** — `list2`에 없는 `list1`의 항목을 반환하는 `differenceLists(list1, list2)`을(를) 사용합니다.
+* **Q: `intersect`과(와) `differenceLists`의 차이점은 무엇입니까?** — `intersect`은(는) 두 목록에 공통되는 항목을 반환하고, `differenceLists`은(는) 두 번째 목록에 없는 첫 번째 목록의 항목을 반환합니다.
 
 +++
