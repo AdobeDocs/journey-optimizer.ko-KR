@@ -11,9 +11,9 @@ keywords: 테스트, 여정, 확인, 오류, 문제 해결
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 1e5c305015755756c937dc1c9dfd358afb2bb12b
+source-git-commit: d321ba0ea7df35d6ecfd4d8d2680361278ebb939
 workflow-type: tm+mt
-source-wordcount: 2352
+source-wordcount: 2385
 ht-degree: 1%
 
 ---
@@ -51,7 +51,7 @@ Adobe Journey Optimizer은 여정을 테스트하고 확인하는 두 가지 방
 +++ 대상자 읽기가 포함된 일괄 여정
 
 
-여정은 **[!UICONTROL 대상자 읽기]**&#x200B;에 의해 트리거되며 캔버스에 단일 이벤트 활동이 없습니다. 시뮬레이션 중에 대상 모집단은 트리거되지 않습니다. 시뮬레이션된 사용자만 여정을 입력합니다.
+여정은 **[!UICONTROL 대상자 읽기]**에 의해 트리거되며 캔버스에 단일 이벤트 활동이 없습니다. 시뮬레이션 중에 대상 모집단은 트리거되지 않습니다. 시뮬레이션된 사용자만 여정을 입력합니다.
 시뮬레이션을 위해 선택한 시뮬레이션된 사용자가 **사용자 테스트** 섹션에 표시됩니다.
 
 읽기 전용 대상이 있는 일괄 여정에 대한 ![시뮬레이션 패널](assets/simulate-batch.png)
@@ -155,6 +155,16 @@ Adobe Journey Optimizer은 여정을 테스트하고 확인하는 두 가지 방
 | 글로벌 시뮬레이션된 사용자 유지 | 12개월 | 글로벌 시뮬레이션된 사용자는 생성 후 12개월이 지나면 자동으로 삭제됩니다. |
 
 +++
+
+## 사용 방법 비디오 {#video}
+
+아래 비디오에서는 빠른 시뮬레이션을 사용하여 주요 프로세스를 자동화하여 고객 여정을 테스트하는 방법을 보여 줍니다. 테스트 프로필을 생성하고, 이벤트를 조정하고, 대기 시간을 단축하고, 시나리오를 검증합니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3497475/?learn=on)
+
+
+
+</br>
 
 +++ AI 기술 자료 참조
 
