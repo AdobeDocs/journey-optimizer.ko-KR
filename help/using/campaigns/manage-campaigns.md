@@ -11,24 +11,15 @@ level: Beginner
 keywords: 캠페인, 상태, 일정, 액세스, 최적화 도구 관리
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 TQID: https://experienceleague.adobe.com/k-BZOO4BOzdW2TVlBrDx1CH-Wte7KEXffXqZYRvUI7w
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-subfeature_v2:
-  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
-  - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: a653cc2e-bc85-4353-a306-399e5b247978
+subfeature_v2: id: f7479fa1-474b-479d-8c98-f6cee5865a38id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 298aaf6b76a4a508175d579ca3913d1f7d681675
 workflow-type: tm+mt
-source-wordcount: 1797
+source-wordcount: 1824
 ht-degree: 10%
 
 ---
@@ -105,7 +96,7 @@ API 트리거 캠페인 목록에 액세스하려면 **[!UICONTROL API 트리거
 
 ## 캠페인 작업 {#operations}
 
-캠페인 인벤토리의 추가 작업 단추![&#128279;](assets/do-not-localize/rule-builder-icon-more.svg) 단추를 표시하는 이미지를 사용하면 다양한 작업을 수행할 수 있습니다.
+캠페인 인벤토리의 추가 작업 단추](assets/do-not-localize/rule-builder-icon-more.svg) 단추를 표시하는 ![이미지를 사용하면 다양한 작업을 수행할 수 있습니다.
 
 ![캠페인 인벤토리를 표시하는 이미지](assets/inventory-actions.png)
 
@@ -121,10 +112,7 @@ API 트리거 캠페인 목록에 액세스하려면 **[!UICONTROL API 트리거
 
 **작업 및 API 트리거 캠페인에 대해서만:**
 
-<!--
-Per-campaign alert subscription is deferred (CJM-112845, CJM-112849). Campaign lifecycle alerts can currently be subscribed to at the sandbox level only. See ../reports/alerts.md#subscribe-alerts
-* **[!UICONTROL Subscribe to alerts]** - Choose which campaign lifecycle system alerts apply to this campaign only (in addition to any sandbox-wide alert subscriptions). [Learn more about system alerts →](../reports/alerts.md#subscribe-alerts)
--->
+* **[!UICONTROL 경고 구독]** - 이 캠페인에만 적용되는 캠페인 라이프사이클 시스템 경고(샌드박스 전체 경고 구독 포함)를 선택합니다. [시스템 경고에 대해 자세히 →](../reports/alerts.md#subscribe-alerts)
 * **[!UICONTROL 패키지에 추가]** - 다른 샌드박스로 내보내려면 패키지에 캠페인을 추가하십시오. [개체를 내보내는 방법 알아보기 →](../configuration/copy-objects-to-sandbox.md)
 * **[!UICONTROL 초안 버전 열기]** - 캠페인의 새 버전이 만들어지고 아직 활성화되지 않은 경우 이 작업을 사용하여 해당 초안 버전에 액세스할 수 있습니다.
 
@@ -275,7 +263,7 @@ Per-campaign alert subscription is deferred (CJM-112845, CJM-112849). Campaign l
 
 ## 캠페인 삭제 {#delete-a-campaign}
 
-캠페인을 삭제하려면 추가 작업 단추![&#128279;](assets/do-not-localize/rule-builder-icon-more.svg) 단추를 표시하는 줄임표 이미지를 사용하고 **[!UICONTROL 삭제]**&#x200B;를 선택하십시오.
+캠페인을 삭제하려면 추가 작업 단추](assets/do-not-localize/rule-builder-icon-more.svg) 단추를 표시하는 줄임표 ![이미지를 사용하고 **[!UICONTROL 삭제]**&#x200B;를 선택하십시오.
 
 ![](assets/delete-a-campaign.png){width="70%"}
 
@@ -285,7 +273,7 @@ Per-campaign alert subscription is deferred (CJM-112845, CJM-112849). Campaign l
 
 ## 캠페인 복제 {#duplicate-a-campaign}
 
-캠페인을 복제하려면, 예를 들어 중단된 경우 추가 작업 단추![&#128279;](assets/do-not-localize/rule-builder-icon-more.svg) 단추를 표시하는 줄임표 이미지를 사용하고 **[!UICONTROL 복제]**&#x200B;를 선택하십시오.
+캠페인을 복제하려면, 예를 들어 중단된 경우 추가 작업 단추](assets/do-not-localize/rule-builder-icon-more.svg) 단추를 표시하는 줄임표 ![이미지를 사용하고 **[!UICONTROL 복제]**&#x200B;를 선택하십시오.
 
 캠페인 이름을 입력하고 확인합니다.
 
