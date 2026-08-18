@@ -11,9 +11,9 @@ keywords: 테스트, 여정, 확인, 오류, 문제 해결
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 1e5c305015755756c937dc1c9dfd358afb2bb12b
+source-git-commit: d321ba0ea7df35d6ecfd4d8d2680361278ebb939
 workflow-type: tm+mt
-source-wordcount: 2352
+source-wordcount: 2385
 ht-degree: 1%
 
 ---
@@ -155,6 +155,16 @@ Adobe Journey Optimizer은 여정을 테스트하고 확인하는 두 가지 방
 | 글로벌 시뮬레이션된 사용자 유지 | 12개월 | 글로벌 시뮬레이션된 사용자는 생성 후 12개월이 지나면 자동으로 삭제됩니다. |
 
 +++
+
+## 사용 방법 비디오 {#video}
+
+아래 비디오에서는 빠른 시뮬레이션을 사용하여 주요 프로세스를 자동화하여 고객 여정을 테스트하는 방법을 보여 줍니다. 테스트 프로필을 생성하고, 이벤트를 조정하고, 대기 시간을 단축하고, 시나리오를 검증합니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3497480/?captions=kor&learn=on)
+
+
+
+</br>
 
 +++ AI 기술 자료 참조
 

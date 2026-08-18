@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 타겟팅 차원 만들기
-description: 고객 프로필에 관계형 스키마를 매핑하는 방법에 대해 알아봅니다
+description: 관계형 스키마를 고객 프로필에 매핑하는 방법에 대해 알아봅니다
 exl-id: 2479c109-cd6f-407e-8a53-77e4477dc36f
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/6IPCwJE4-ktVWFENfoVe25VqPV-OZ7J-oVq4gmOsAz4
@@ -13,9 +13,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: e6bc40f1a7df65fa8ae338c9e266c76728cf428a
+source-git-commit: 7d01d7bc3fe9d25a1e5cdc10d2b533418489c9f4
 workflow-type: tm+mt
-source-wordcount: 540
+source-wordcount: 546
 ht-degree: 0%
 
 ---
@@ -73,6 +73,10 @@ ht-degree: 0%
 
    ![](assets/target-dimension-2.png)
 
-1. 설정을 완료하려면 **[!UICONTROL 저장]**&#x200B;을 클릭하세요. **[!UICONTROL 대상 차원]**&#x200B;을(를) 만든 후에는 제거하거나 편집할 수 없습니다.
+1. 설정을 완료하려면 **[!UICONTROL 저장]**&#x200B;을 클릭하세요. 만든 후에는 **[!UICONTROL 대상 차원]**&#x200B;을(를) 편집할 수 없습니다.
+
+1. ![고급 메뉴](assets/do-not-localize/rule-builder-icon-more.svg)에 액세스하여 **[!UICONTROL 대상 차원]**&#x200B;을(를) 삭제하십시오.
+
+   ![](assets/target-dimension-5.png)
 
 **[!UICONTROL Target Dimension]**&#x200B;을 구성한 후 계속 **[!UICONTROL 채널 구성]**&#x200B;을 만들고 설정하고 해당 **[!UICONTROL 실행 세부 정보]**&#x200B;를 정의합니다.

@@ -11,9 +11,9 @@ keywords: 테스트, 여정, 확인, 오류, 문제 해결
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 7f4a751b25a46a891cd13dfa0f80087e7be12387
+source-git-commit: d321ba0ea7df35d6ecfd4d8d2680361278ebb939
 workflow-type: tm+mt
-source-wordcount: 2933
+source-wordcount: 2938
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 활성화 후 대상자 항목 읽기가 포함된 일괄 여정은 시뮬레이션을 실행하는 두 가지 방법을 제공합니다.
 
-* **[!UICONTROL 빠른 시뮬레이션]**&#x200B;은(는) Journey Agent에서 제공하는 생성된 사용자, 생성된 이벤트 값 및 기본 테스트 설정을 통해 처음부터 끝까지 실행됩니다. 최소한의 개입으로 여정을 끝까지 시뮬레이션하는 빠른 방법입니다. 이 옵션을 선택하면 바로 빠른 시뮬레이션이 시작됩니다.
+* **[!UICONTROL 빠른 시뮬레이션]**&#x200B;은(는) Journey Agent에서 제공하는 생성된 사용자, 생성된 이벤트 값 및 기본 테스트 설정을 통해 처음부터 끝까지 실행됩니다. 최소한의 개입으로 여정을 끝까지 시뮬레이션하는 빠른 방법입니다. 이 옵션을 선택하면 바로 빠른 시뮬레이션이 시작됩니다. [빠른 시뮬레이션 비디오 보기](simulate-journey-gs.md#video)
 
 * **[!UICONTROL 수동 시뮬레이션]**&#x200B;을 사용하면 시뮬레이션을 수동으로 단계별로 실행할 수 있습니다. 시뮬레이션된 사용자(수동으로 또는 Journey Agent을 사용하여)를 만들고, 사용자를 여정에 트리거하고, 이벤트 페이로드를 정의하고(수동으로 또는 Journey Agent을 사용하여), 대기를 무시합니다.
 

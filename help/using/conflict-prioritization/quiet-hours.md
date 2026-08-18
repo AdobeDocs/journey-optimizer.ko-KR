@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
+source-git-commit: 12c37c94dc2887aa90271b7e65ba3d82884ccb07
 workflow-type: tm+mt
-source-wordcount: 948
+source-wordcount: 938
 ht-degree: 6%
 
 ---
@@ -58,7 +58,6 @@ ht-degree: 6%
 ## 가드레일 및 제한 사항
 
 * **지원되는 채널** - 전자 메일, SMS, 푸시 및 WhatsApp.
-* **오케스트레이션된 캠페인** - 오케스트레이션된 캠페인에는 자동 시간이 지원되지 않습니다.
 * **전파 지연** - 자동 시간 규칙에 대한 업데이트는 해당 규칙을 이미 사용하는 채널 작업에 적용되는 데 최대 12시간이 걸릴 수 있습니다.
 * **대량 대기 시간** - 대량 통신의 경우 시스템에서 자동 시간 제한을 성공적으로 적용하는 데 시간이 더 걸릴 수 있습니다.
 
