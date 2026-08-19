@@ -15,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 6572e798c2385cbcfdc9abf25142693089a03eb1
+source-git-commit: fde6b21accd284e13cd9f464a233be25a68feb93
 workflow-type: tm+mt
-source-wordcount: 10068
-ht-degree: 81%
+source-wordcount: 10165
+ht-degree: 80%
 
 ---
 
@@ -28,6 +28,10 @@ ht-degree: 81%
 이 페이지에는 월별 릴리스 기능 및 개선 사항과 관련된 업데이트 외에도 [!DNL Journey Optimizer] 설명서의 모든 최신 변경 사항이 나와 있습니다.
 
 ## 2026년 8월 {#august-2026}
+
+* **보호 기능 및 제한 사항** 페이지가 업데이트되어 대상 자격 활동 및 이벤트 보호 기능을 명확히 설명했습니다. 이제 표현은 종료 기준으로 사용되는 경우를 포함하여 일관되게 대상 자격 **활동**(노드가 아님)을 참조하며, 두 보호 기능 모두 이제 **live, closed, paused, test mode 및 dry run** 여정을 명시적으로 다룹니다. [자세히 보기](../start/guardrails.md#audience-qualif-g)
+
+* 증명 크기가 최종 게재된 이메일 크기가 아닌 HTML 템플릿 크기(최소값의 Handlebars)를 반영한다는 것을 명확히 하기 위해 **HTML 크기 최적화 테스트** 섹션에 메모가 추가되었습니다. 이 크기는 게재 시간에 동적 표현식이 해결되면 더 커질 수 있습니다. [자세히 보기](../email/create-email.md#optimize-html-proof)
 
 * 모바일 브라우저를 통해 액세스할 때 Gmail 또는 Outlook에서 이메일이 다르게 렌더링되는 이유를 설명하고 해결 방법 팁과 함께 새 **모바일 웹 브라우저 제한 사항** 섹션이 **이메일 디자인 시작** 페이지에 추가되었습니다. [자세히 보기](../email/get-started-email-design.md#mobile-web-limitations)
 

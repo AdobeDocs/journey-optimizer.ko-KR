@@ -22,10 +22,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
+source-git-commit: 2be0ef1b72affb0423613d60a3b8eedbcc92ac6d
 workflow-type: tm+mt
-source-wordcount: 447
-ht-degree: 10%
+source-wordcount: 676
+ht-degree: 7%
 
 ---
 
@@ -177,6 +177,74 @@ ht-degree: 10%
 >[!TIP]
 >
 >라이브 활동이 예상대로 나타나거나 업데이트되지 않으면 [라이브 활동 문제 해결](troubleshoot-mobile-live.md)에서 단계별 디버깅 지침을 참조하십시오.
+
+## 실행 메타데이터로 사용자 지정 데이터 추가 {#metadata}
+
+>[!AVAILABILITY]
+>
+> `executionMetadata`은(는) **API 트리거 트랜잭션** 및 **API 트리거 마케팅** 캠페인 모두에서 사용할 수 있습니다.
+
+선택적 `executionMetadata` 필드를 사용하여 주문 ID, 충성도 계층 또는 지역 코드와 같은 프로필에 자신의 **사용자 지정 데이터**&#x200B;를 첨부하십시오. Journey Optimizer은 실행과 함께 이 데이터를 저장하므로 나중에 **라이브 활동 피드백 데이터 세트**&#x200B;에서 검색하고 게재 결과를 비즈니스 레코드에 일치시킬 수 있습니다.
+실행 메타데이터로 사용자 지정 데이터를 추가하려면:
+
+* `userId` 및 `namespace` 옆의 프로필에 `executionMetadata`을(를) 추가합니다. 문자열 키와 문자열 값만 허용됩니다. 문자열을 보내지 않고 모든 비문자열 값을 문자열로 변환하십시오.
+
+* 값은 전송된 그대로 기록됩니다. `executionMetadata`은(는) 개인화 식을 지원하지 않으므로 `{{...}}` 식은 확인되지 않고 리터럴 텍스트로 처리됩니다. 항상 최종 리터럴 값을 전송해야 합니다.
+
+* 각 프로필은 최대 **50개의 키/값 쌍**&#x200B;을 전달할 수 있으며, 모든 키 및 값에 대해 결합된 크기 제한은 **2KB**&#x200B;입니다. 이 제한을 초과하는 메타데이터는 삭제되지만 라이브 활동은 계속 전달됩니다. 페이로드를 보고 목적에 필요한 정보로 제한합니다.
+
++++ JSON 예
+
+이 예제에서 `orderId`, `tier`, `restaurant` 및 `region`은(는) 고유한 값입니다. 라이브 활동이 트리거되면 피드백 데이터 세트에서 다시 읽어 게재를 주문 레코드에 연결할 수 있습니다.
+
+```json
+{
+    "requestId": "your-request-id",
+    "campaignId": "your-campaign-id",
+    "recipients": [
+        {
+            "type": "aep",
+            "userId": "testemail@gmail.com",
+            "namespace": "email",
+            "executionMetadata": {
+                "orderId": "A-123",
+                "tier": "gold",
+                "restaurant": "PizzaPlace",
+                "region": "EU"
+            },
+            "context": {
+                "requestPayload": {
+                    "aps": {
+                        "content-available": 1,
+                        "timestamp": 1756984054,
+                        "dismissal-date": 1756984084,
+                        "event": "update",
+                        "content-state": {
+                            "orderStatus": "Delivered"
+                        },
+                        "attributes-type": "FoodDeliveryLiveActivityAttributes",
+                        "attributes": {
+                            "restaurantName": "PizzaPlace",
+                            "liveActivityData": {
+                                "liveActivityID": "orderId1"
+                            }
+                        },
+                        "alert": {
+                            "title": "Order Delivered!",
+                            "body": "Your pizza has arrived."
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
+```
+
++++
+
+라이브 활동을 디자인한 후 [기본 제공 보고서](../reports/campaign-global-report-cja-activity.md)를 통해 라이브 활동의 영향을 측정하는 방법을 추적할 수 있습니다.
+
 
 ## 사용 방법 비디오
 

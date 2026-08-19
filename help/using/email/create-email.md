@@ -31,9 +31,9 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 1d40250cb45a886f29b12dc5e0cb999cd652dc12
+source-git-commit: 52a059840131d709cd717d350731c930e76ccda1
 workflow-type: tm+mt
-source-wordcount: 1901
+source-wordcount: 1958
 ht-degree: 16%
 
 ---
@@ -305,6 +305,10 @@ HTML 크기 최적화를 사용하지 않도록 설정하려면 모든 로케일
    ![전자 메일 최적화 세부 정보](assets/email-optimize-size-view-proof.png)
 
    이 정보를 사용하여 최적화된 출력의 유효성을 확인하고 게시하기 전에 이메일이 권장 100KB 임계값 내에 있는지 확인하십시오.
+
+   >[!NOTE]
+   >
+   >**[!UICONTROL 증명 보기]** 팝업에 표시되는 크기는 HTML 템플릿의 크기를 반영합니다. 여기서 Handlebars 표현식은 배달된 최종 전자 메일의 크기가 아닌 가능한 최소값으로 평가됩니다. 배달 시 받는 사람의 프로필 데이터에 대해 `{{#each}}` 루프와 같은 동적 식이 확인되므로 실제 전자 메일 크기가 크게 늘어날 수 있습니다.
 
 <!--
 ## Define your email content {#email-content}

@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 8e72cd3a4172a96eadbb9918bf44156324e592ad
+source-git-commit: 2be0ef1b72affb0423613d60a3b8eedbcc92ac6d
 workflow-type: tm+mt
-source-wordcount: 1386
-ht-degree: 25%
+source-wordcount: 1436
+ht-degree: 24%
 
 ---
 
@@ -201,6 +201,12 @@ ht-degree: 25%
   사용 가능한 날짜: 2026년 8월 18일
 
 ### 채널 {#august-26-channels}
+
+
+* **라이브 활동 실행 메타데이터(executionMetadata)** - 이제 API로 트리거된 라이브 활동 캠페인(트랜잭션 및 마케팅)에서 각 수신자의 선택적 executionMetadata 필드를 지원합니다. 이렇게 하면 주문 ID, 충성도 계층 또는 지역 코드와 같은 사용자 지정 키/값 데이터를 실행에 첨부할 수 있습니다. [자세히 알아보기](../mobile-live/create-mobile-live.md#metadata)
+
+  사용 가능한 날짜: 2026년 8월 19일
+
 
 * **처리량을 위한 성능 추가 기능 - 푸시** - API 트리거 캠페인에서 새로운 처리량 트랜잭션 메시지 모드를 사용할 수 있습니다. 이 모드는 대규모 실시간 트랜잭션 메시지 전송을 위해 설계되었으며 더 높은 가용성으로 초당 최대 5,000개의 트랜잭션을 지원합니다. 이전에는 이메일 채널에서만 사용할 수 있었지만, 이제 이 기능은 Adobe 고처리량 트랜잭션 메시지 추가 기능 서비스를 구입한 조직의 푸시 채널에서도 사용할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오. [자세히 알아보기](../campaigns/api-triggered-high-throughput.md)
 
