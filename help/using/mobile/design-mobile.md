@@ -7,13 +7,11 @@ feature: SMS
 topic: Content Management
 role: User
 level: Beginner
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
+source-git-commit: 4f4c9c2356404e57cb20acc8086df2fcfec67ba2
 workflow-type: tm+mt
-source-wordcount: 1487
+source-wordcount: 1497
 ht-degree: 4%
 
 ---
@@ -51,6 +49,8 @@ RCS 메시지 콘텐츠를 정의하려면 아래 단계를 따르십시오.
 
    선택적 대화형 단추가 있는 일반 텍스트 본문입니다. 시각화가 필요하지 않은 알림, 경고, 미리 알림 및 대화 흐름에 가장 적합합니다.
 
+   ![](assets/rcs_text.png)
+
    +++
 
    +++ 미디어
@@ -59,7 +59,10 @@ RCS 메시지 콘텐츠를 정의하려면 아래 단계를 따르십시오.
 
    1. 머리글 메뉴에서 표시할 이미지 또는 비디오를 가리키는 **[!UICONTROL 미디어 URL]**&#x200B;을 입력합니다.
 
+      ![](assets/rcs_media.png)
+
    1. 미디어가 비디오 파일인 경우 선택적으로 **[!UICONTROL 썸네일 URL]**&#x200B;을 입력하십시오.
+
 
    +++
 
@@ -69,7 +72,10 @@ RCS 메시지 콘텐츠를 정의하려면 아래 단계를 따르십시오.
 
    1. **[!UICONTROL 제목]** 및 **[!UICONTROL 설명]**&#x200B;을 입력하십시오.
 
+
    1. 표시할 이미지 또는 비디오를 가리키는 **[!UICONTROL 미디어 URL]**&#x200B;을(를) 입력하십시오.
+
+      ![](assets/rcs_card.png)
 
    1. 미디어가 비디오 파일인 경우 선택적으로 **[!UICONTROL 썸네일 URL]**&#x200B;을 입력하십시오.
 
@@ -80,11 +86,18 @@ RCS 메시지 콘텐츠를 정의하려면 아래 단계를 따르십시오.
    각각 고유한 이미지, 제목, 설명 및 단추가 있는 서식 있는 카드를 한 개의 메시지로 수평 스크롤할 수 있는 시리즈입니다. 제품 카탈로그 또는 프로모션에 이상적입니다. 최소 2개의 카드가 필요합니다.
 
    1. 각 카드의 표시 너비를 제어하려면 **[!UICONTROL 카드 너비]**&#x200B;를 선택하십시오.
+
+      ![](assets/rcs_caroussel.png)
+
    1. 각 카드에 대해 **[!UICONTROL 제목]** 및 **[!UICONTROL 설명]**&#x200B;을 입력하십시오.
 
    1. 해당 카드의 이미지 또는 비디오를 가리키는 **[!UICONTROL 미디어 URL]**&#x200B;을 입력하십시오.
 
+      ![](assets/rcs_caroussel_2.png)
+
    1. 필요한 경우 **[!UICONTROL 미디어 높이]**&#x200B;를 선택하고 권장 작업 단추를 추가하십시오.
+
+   1. 캐러셀에 카드를 추가하려면 **[!UICONTROL 카드 추가]**&#x200B;를 클릭하세요.
 
    +++
 
