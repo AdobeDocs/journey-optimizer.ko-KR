@@ -7,13 +7,11 @@ feature: SMS
 topic: Content Management
 role: User
 level: Beginner
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-source-git-commit: 4f4c9c2356404e57cb20acc8086df2fcfec67ba2
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
+source-git-commit: 765766fa30b6807ec31a106cf74554e69886ad16
 workflow-type: tm+mt
-source-wordcount: 1497
+source-wordcount: 1499
 ht-degree: 4%
 
 ---
@@ -109,13 +107,17 @@ RCS 메시지 콘텐츠를 정의하려면 아래 단계를 따르십시오.
 
    1. 위치의 소수점 **[!UICONTROL 위도]** 및 **[!UICONTROL 경도]**&#x200B;을(를) 입력하십시오.
 
+      ![](assets/rcs_location.png)
+
    1. 지도 핀에 레이블로 표시할 **[!UICONTROL 위치 이름]**&#x200B;을(를) 입력하십시오(선택 사항).
 
    +++
 
-1. **[!UICONTROL 메시지 텍스트]** 필드에 메시지 내용을 입력합니다. 개인화를 사용하여 텍스트를 각 프로필에 맞게 조정할 수 있습니다. 문자 제한은 메시지 유형에 따라 다릅니다. 리치 미디어(단일)의 경우 3,072자, 기본 RCS의 경우 160자입니다.
+1. **[!UICONTROL 메시지 텍스트]** 또는 **[!UICONTROL 설명]** 필드에 메시지 내용을 입력하십시오. 개인화를 사용하여 텍스트를 각 프로필에 맞게 조정할 수 있습니다. 문자 제한은 메시지 유형에 따라 다릅니다. 리치 미디어(단일)의 경우 3,072자, 기본 RCS의 경우 160자입니다.
 
 1. **[!UICONTROL Personalization 편집기]**&#x200B;를 사용하여 콘텐츠를 정의하고, 개인화 및 다이내믹 콘텐츠를 추가하십시오. 프로필 이름 또는 도시 등의 모든 속성을 사용할 수 있습니다. 조건부 규칙을 정의할 수도 있습니다.
+
+   ![](assets/rcs_perso.png)
 
 1. 선택적으로, 한 번의 탭으로 프로필이 작동할 수 있는 대화형 단추인 **[!UICONTROL 권장 작업]**&#x200B;을 추가하십시오.
 
@@ -131,9 +133,13 @@ RCS 메시지 콘텐츠를 정의하려면 아래 단계를 따르십시오.
 
    * **[!UICONTROL 위치 보기]**: 지정한 위치에서 장치의 기본 맵 응용 프로그램을 엽니다. 표시할 위치의 소수점 **[!UICONTROL 위도]** 및 **[!UICONTROL 경도]**&#x200B;을(를) 제공하십시오.
 
+     ![](assets/rcs_actions.png)
+
 1. **[!UICONTROL 기본 대체 텍스트]** 필드에 메시지의 일반 텍스트 SMS 버전을 입력합니다. 이는 필수이며 장치 또는 통신사가 RCS를 지원하지 않는 프로필에 전달됩니다.
 
 1. **[!UICONTROL URL 열기]** 작업을 보낼 때 **[!UICONTROL Webview]** 드롭다운에서 **[!UICONTROL Webview]**&#x200B;의 크기를 선택합니다.
+
+   ![](assets/rcs_webview.png)
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭하고 미리보기에서 메시지를 확인합니다. 이제 [이 섹션](send-mobile-message.md)에 자세히 설명된 대로 메시지 콘텐츠를 테스트하고 확인할 수 있습니다.
 
