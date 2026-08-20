@@ -25,10 +25,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
+source-git-commit: 10c5128fd54eda95437a7b43bfc89ceabf6c0b72
 workflow-type: tm+mt
-source-wordcount: 992
-ht-degree: 21%
+source-wordcount: 948
+ht-degree: 22%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 21%
 
 1. **[!UICONTROL 메서드 설정]** 섹션에서 **[!UICONTROL 사용자 지정 위임]**&#x200B;을 선택합니다.
 
-   ![](assets/subdomain-method-custom.png){width=90%}
+   ![메서드 설정 섹션에서 사용자 지정 위임 옵션 선택](assets/subdomain-method-custom.png){width=90%}
 
 1. 위임할 하위 도메인의 이름을 지정합니다.
 
@@ -83,7 +83,7 @@ ht-degree: 21%
 
 1. 모든 항목이 올바르게 구성된 경우 &quot;I confirm...&quot; 상자를 선택합니다.
 
-   ![](assets/subdomain-custom-submit.png){width="75%"}
+   ![호스팅 솔루션에서 DNS 레코드를 생성한 후 확인 확인란](assets/subdomain-custom-submit.png){width="75%"}
 
 ## SSL 인증서 업로드 {#upload-ssl-certificate}
 
@@ -99,7 +99,7 @@ ht-degree: 21%
 
 1. **[!UICONTROL SSL 인증서]** 섹션에서 **[!UICONTROL CSR 생성]**&#x200B;을 클릭합니다.
 
-   ![](assets/subdomain-custom-ssl-certificate.png){width="85%"}
+   ![SSL 인증서 섹션의 CSR 생성 단추](assets/subdomain-custom-ssl-certificate.png){width="85%"}
 
    >[!NOTE]
    >
@@ -107,7 +107,7 @@ ht-degree: 21%
 
 1. 표시되는 양식을 작성하고 CSR(인증서 서명 요청)을 생성합니다.
 
-   ![](assets/subdomain-custom-generate-csr.png){width="70%"}
+   인증서 서명 요청을 생성하는 ![양식](assets/subdomain-custom-generate-csr.png){width="70%"}
 
    >[!NOTE]
    >
@@ -115,20 +115,13 @@ ht-degree: 21%
 
 1. **[!UICONTROL CSR 다운로드]**&#x200B;를 클릭하고 양식을 로컬 컴퓨터에 저장합니다.
 
-1. SSL 인증서를 받으려면 인증 기관(CA)에 보냅니다. 서명을 위해 이 CSR을 CA에 제출하기 전에 고려해야 할 몇 가지 중요한 사항이 있습니다.
+1. SSL 인증서를 받으려면 인증 기관(CA)에 보냅니다.
 
-   * 3단계에서 다운로드한 CSR은 data.subdomain.com에만 해당됩니다.
+   >[!NOTE]
+   >
+   >다운로드한 CSR에는 이미 `data.subdomain.com` 및 `cdn.subdomain.com`이(가) 모두 SAN(주체 대체 이름)으로 포함되어 있습니다. CA에 제출하기 전에 수동으로 SAN을 추가할 필요가 없습니다. 예를 들어 `example.adobe.com`을(를) 위임하는 경우 CSR은 `data.example.adobe.com`과(와) `cdn.example.adobe.com`을(를) 모두 다룹니다.
 
-   * 그러나 이 인증서는 단일 인증서 내에서 SAN(주체 대체 이름) 항목으로 data.subdomain.com 및 cdn.subdomain.com 를 모두 포함해야 합니다. 예를 들어, example.adobe.com을 위임하는 경우 data.subdomain.com은 data.example.adobe.com에 해당하고 cdn.subdomain.com은 cdn.example.adobe.com에 해당합니다.
-
-   * 데이터(data.example.adobe.com)와 CDN(cdn.example.adobe.com) 하위 도메인은 동일한 인증서의 피어 항목으로 추가해야 합니다.
-
-   * 대부분의 CA를 사용하면 서명 프로세스 중에 CDN 하위 도메인과 같은 SAN을 추가할 수 있습니다
-
-     * CA 포털을 통해(가능한 경우 권장) 또는
-     * 포털 옵션을 사용할 수 없는 경우 지원 팀에 수동으로 요청하십시오.
-
-   * 서명되면 CA는 데이터 도메인과 CDN 하위 도메인을 모두 포함하는 단일 인증서를 발행합니다.
+   서명되면 CA는 데이터 도메인과 CDN 하위 도메인을 모두 포함하는 단일 인증서를 발행합니다.
 
 1. 검색된 후에는 **[!UICONTROL SSL 인증서 업로드]**&#x200B;를 클릭하고 전체 인증서 체인을 사용하여 .pem 형식으로 인증서를 [!DNL Journey Optimizer]에 업로드하십시오. 다음은 .pem 파일 형식의 샘플입니다.
 
@@ -171,7 +164,7 @@ ht-degree: 21%
 
 1. 모든 항목이 올바르게 구성된 경우 &quot;I has completed...&quot; 상자를 선택합니다.
 
-   ![](assets/subdomain-custom-feedback-loop.png){width="85%"}
+   ![피드백 루프 단계를 완료한 후 확인 확인란](assets/subdomain-custom-feedback-loop.png){width="85%"}
 
 ## SSL CDN URL 유효성 검사 레코드 복사 {#copy-ssl-cdn-url-record}
 

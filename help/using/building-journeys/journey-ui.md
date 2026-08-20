@@ -12,9 +12,9 @@ exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: f72ff1c13cd9793d12794c8e66d663cba3181964
+source-git-commit: 6730a425a87d550f82443650576aec2c53ade0aa
 workflow-type: tm+mt
-source-wordcount: 2311
+source-wordcount: 2345
 ht-degree: 10%
 
 ---
@@ -162,6 +162,8 @@ ht-degree: 10%
 * **일시 중지됨**: **일시 중지** 단추를 사용하여 라이브 여정이 일시 중지되었습니다. [자세히 알아보기](../building-journeys/journey-pause.md)
 * **중지됨**: **중지** 단추를 사용하여 여정이 꺼졌습니다. 모든 개인이 즉시 여정을 빠져나갑니다. [자세히 알아보기](../building-journeys/end-journey.md#stop-journey)
 * **닫힘**: **새 출입구에 닫기** 단추를 사용하여 여정을 닫았습니다. 이 여정은 새로운 개인이 여정에 입력하는 것을 중단합니다. 이미 여정에 있는 사람은 여정을 정상적으로 완료할 수 있습니다. [자세히 알아보기](../building-journeys/end-journey.md)
+
+구성된 [시작 및 종료 날짜](journey-properties.md#dates)는 상태 배지 옆의 여정 헤더에 표시됩니다. 이렇게 하면 속성 패널을 열지 않고도 여정 일정을 한눈에 볼 수 있습니다.
 
 >[!NOTE]
 >

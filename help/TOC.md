@@ -6,7 +6,7 @@ user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 2de32d7aee9f1d3c9404aec30700893e3bcd9798
+source-git-commit: 7efc41e882a0220fef59271ef0f8b10fa0ec22e4
 workflow-type: tm+mt
 source-wordcount: '3496'
 ht-degree: 93%
@@ -18,7 +18,7 @@ ht-degree: 93%
 + [Journey Optimizer 설명서](ajo-home.md)
 + 새로운 기능 {#whats-new}
   + [릴리스 주기](using/rn/releases.md)
-  + [사전 릴리스 정보](using/rn/e-release-notes.md)
+  + {hide-from-toc}[사전 릴리스 정보](using/rn/e-release-notes.md)
   + [최신 릴리스 정보](using/rn/release-notes.md)
   + 이전 릴리스 정보 {#previous-rn-new}
     + {hide-from-toc}[이전 릴리스 정보](/help/rp_landing_pages/previous-rn-new-landing-page.md)
