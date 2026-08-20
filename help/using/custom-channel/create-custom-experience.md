@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Experienced
 badge: label="제한 공개" type="Informative"
-source-git-commit: 13fdbf639414f8cf04c6ea057924a54e2d6902df
+source-git-commit: 1a57ac19ba39ed89cb99575ba7278518318e815a
 workflow-type: tm+mt
 source-wordcount: '1006'
 ht-degree: 14%
@@ -98,6 +98,8 @@ ht-degree: 14%
 
 1. 캠페인을 검토하고 활성화합니다. [자세히 알아보기](../campaigns/create-campaign.md)
 
+>[!ENDTABS]
+
 <!--
 >[!TAB Add a custom channel to an orchestrated campaign]
 
@@ -113,8 +115,6 @@ To add a custom channel in an orchestrated campaign:
 
 1. Click **[!UICONTROL Edit content]** to open the payload editor and author your message. [Learn how to author content](#author-content)
 -->
-
->[!ENDTABS]
 
 ## 사용자 지정 채널 콘텐츠 작성 {#author-content}
 
