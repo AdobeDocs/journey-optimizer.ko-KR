@@ -11,24 +11,15 @@ keywords: 하위 도메인, 위임, 도메인, DNS
 badge: label="제한된 가용성" type="Informative"
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
 TQID: https://experienceleague.adobe.com/NzVDDmULBe37NjMcby0RRpow1yNUc9bhTlZR9GTZhBY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: fb6857c1a5b0f2526a999ec13e24d709139dba42
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 10c5128fd54eda95437a7b43bfc89ceabf6c0b72
 workflow-type: tm+mt
-source-wordcount: 905
-ht-degree: 24%
+source-wordcount: 948
+ht-degree: 22%
 
 ---
 
@@ -60,7 +51,7 @@ ht-degree: 24%
 
 1. **[!UICONTROL 메서드 설정]** 섹션에서 **[!UICONTROL 사용자 지정 위임]**&#x200B;을 선택합니다.
 
-   ![](assets/subdomain-method-custom.png){width=90%}
+   ![메서드 설정 섹션에서 사용자 지정 위임 옵션 선택](assets/subdomain-method-custom.png){width=90%}
 
 1. 위임할 하위 도메인의 이름을 지정합니다.
 
@@ -83,7 +74,7 @@ ht-degree: 24%
 
 1. 모든 항목이 올바르게 구성된 경우 &quot;I confirm...&quot; 상자를 선택합니다.
 
-   ![](assets/subdomain-custom-submit.png){width="75%"}
+   ![호스팅 솔루션에서 DNS 레코드를 생성한 후 확인 확인란](assets/subdomain-custom-submit.png){width="75%"}
 
 ## SSL 인증서 업로드 {#upload-ssl-certificate}
 
@@ -99,7 +90,7 @@ ht-degree: 24%
 
 1. **[!UICONTROL SSL 인증서]** 섹션에서 **[!UICONTROL CSR 생성]**&#x200B;을 클릭합니다.
 
-   ![](assets/subdomain-custom-ssl-certificate.png){width="85%"}
+   ![SSL 인증서 섹션의 CSR 생성 단추](assets/subdomain-custom-ssl-certificate.png){width="85%"}
 
    >[!NOTE]
    >
@@ -107,7 +98,7 @@ ht-degree: 24%
 
 1. 표시되는 양식을 작성하고 CSR(인증서 서명 요청)을 생성합니다.
 
-   ![](assets/subdomain-custom-generate-csr.png){width="70%"}
+   인증서 서명 요청을 생성하는 ![양식](assets/subdomain-custom-generate-csr.png){width="70%"}
 
    >[!NOTE]
    >
@@ -117,9 +108,11 @@ ht-degree: 24%
 
 1. SSL 인증서를 받으려면 인증 기관(CA)에 보냅니다.
 
-   * 다운로드한 CSR에는 이미 `data.subdomain.com` 및 `cdn.subdomain.com`이(가) 모두 SAN(주체 대체 이름)으로 포함되어 있습니다. CA에 제출하기 전에 수동으로 SAN을 추가할 필요가 없습니다. 예를 들어 `example.adobe.com`을(를) 위임하는 경우 CSR은 `data.example.adobe.com`과(와) `cdn.example.adobe.com`을(를) 모두 다룹니다.
+   >[!NOTE]
+   >
+   >다운로드한 CSR에는 이미 `data.subdomain.com` 및 `cdn.subdomain.com`이(가) 모두 SAN(주체 대체 이름)으로 포함되어 있습니다. CA에 제출하기 전에 수동으로 SAN을 추가할 필요가 없습니다. 예를 들어 `example.adobe.com`을(를) 위임하는 경우 CSR은 `data.example.adobe.com`과(와) `cdn.example.adobe.com`을(를) 모두 다룹니다.
 
-   * 서명되면 CA는 데이터 도메인과 CDN 하위 도메인을 모두 포함하는 단일 인증서를 발행합니다.
+   서명되면 CA는 데이터 도메인과 CDN 하위 도메인을 모두 포함하는 단일 인증서를 발행합니다.
 
 1. 검색된 후에는 **[!UICONTROL SSL 인증서 업로드]**&#x200B;를 클릭하고 전체 인증서 체인을 사용하여 .pem 형식으로 인증서를 [!DNL Journey Optimizer]에 업로드하십시오. 다음은 .pem 파일 형식의 샘플입니다.
 
@@ -142,7 +135,7 @@ ht-degree: 24%
 >title="피드백 루프 단계 완료"
 >abstract="Yahoo!로 이동 Sender Hub에서 양식을 작성하여 도메인 소유권을 확인합니다. 아래 나열된 FBL 보고 이메일 주소를 입력하고, Yahoo!에서 소유권을 확인하기 위해 수신된 OTP를 사용합니다. Sender Hub."
 
-1. [Yahoo!로 이동 보낸 사람 허브 &#x200B;](https://senders.yahooinc.com/) 웹 사이트에서 도메인 소유권을 확인하는 데 필요한 양식을 입력하십시오.
+1. [Yahoo!로 이동 보낸 사람 허브 ](https://senders.yahooinc.com/) 웹 사이트에서 도메인 소유권을 확인하는 데 필요한 양식을 입력하십시오.
 
 1. 도메인 소유권을 확인하려면 Yahoo! Sender Hub에서는 이메일 주소를 제공해야 합니다. **[!UICONTROL 값]**&#x200B;에 나열된 FBL 보고 전자 메일 주소를 입력하십시오. Adobe 소유 이메일 주소입니다.
 
@@ -162,7 +155,7 @@ ht-degree: 24%
 
 1. 모든 항목이 올바르게 구성된 경우 &quot;I has completed...&quot; 상자를 선택합니다.
 
-   ![](assets/subdomain-custom-feedback-loop.png){width="85%"}
+   ![피드백 루프 단계를 완료한 후 확인 확인란](assets/subdomain-custom-feedback-loop.png){width="85%"}
 
 ## SSL CDN URL 유효성 검사 레코드 복사 {#copy-ssl-cdn-url-record}
 

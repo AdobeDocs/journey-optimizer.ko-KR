@@ -11,11 +11,10 @@ keywords: 하위 도메인, 위임, 마이그레이션, CNAME, 사용자 정의 
 badge: label="제한된 가용성" type="Informative"
 exl-id: f74139cf-640f-4b7b-a0b1-6eae9c75e7e4
 feature_v2: []
-subfeature_v2:
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-source-git-commit: fb6857c1a5b0f2526a999ec13e24d709139dba42
+subfeature_v2: id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+source-git-commit: 10c5128fd54eda95437a7b43bfc89ceabf6c0b72
 workflow-type: tm+mt
-source-wordcount: 1205
+source-wordcount: 1254
 ht-degree: 5%
 
 ---
@@ -76,7 +75,7 @@ ht-degree: 5%
    >
    >마이그레이션 전 단계는 이 단계에서 선택 사항이지만 적극 권장합니다. 마이그레이션을 시작하기 전에 **이전**&#x200B;을(를) 완료하면 가동 중지 시간이 줄어들고 원활한 전환이 가능합니다.
 
-   ![](assets/subdomain-migrate-pre-migration-csr.png){width="70%"}
+   ![하위 도메인 설정의 마이그레이션 전 CSR 생성 섹션](assets/subdomain-migrate-pre-migration-csr.png){width="70%"}
 
 1. 전용 섹션에서 **[!UICONTROL 지금 마이그레이션]**&#x200B;을 선택합니다.
 
@@ -100,7 +99,7 @@ ht-degree: 5%
 
 1. 표시되는 양식을 채우고 CSR(인증서 서명 요청)을 다시 생성합니다.
 
-   ![](assets/subdomain-migrate-regenerate-csr.png){width="60%"}
+   인증서 서명 요청을 다시 생성할 ![양식](assets/subdomain-migrate-regenerate-csr.png){width="60%"}
 
    >[!NOTE]
    >
@@ -126,7 +125,7 @@ ht-degree: 5%
 
 1. 모든 DNS 레코드가 삭제되었는지 확인합니다. 완료되면 &quot;호스팅 사이트에서 필수 레코드를 삭제했음을 확인합니다.&quot; 상자를 선택합니다.
 
-   ![](assets/subdomain-migrate-delete-dns.png){width="75%"}
+   ![기존 DNS 레코드 삭제에 대한 확인 확인란](assets/subdomain-migrate-delete-dns.png){width="75%"}
 
 ## SSL 인증서 업로드 {#upload-ssl-certificate}
 
@@ -148,7 +147,7 @@ ht-degree: 5%
 
 1. SSL 인증서를 검색한 후 **[!UICONTROL 인증서 업로드]**&#x200B;를 클릭합니다.
 
-   ![](assets/subdomain-migrate-ssl-certificate.png){width="75%"}
+   ![SSL 인증서 섹션의 인증서 업로드 단추](assets/subdomain-migrate-ssl-certificate.png){width="75%"}
 
 1. 전체 인증서 체인을 사용하여 SSL 인증서를 .pem 형식으로 [!DNL Journey Optimizer]에 업로드합니다. 다음은 .pem 파일 형식의 샘플입니다.
 
@@ -164,7 +163,7 @@ ht-degree: 5%
 
 그런 다음 피드백 루프 단계를 완료하여 도메인 소유권 및 보고 이메일 주소를 확인합니다.
 
-![](assets/subdomain-migrate-feedback-loop.png){width="75%"}
+![도메인 소유권 확인을 위한 피드백 루프 단계](assets/subdomain-migrate-feedback-loop.png){width="75%"}
 
 이 프로세스는 새 사용자 정의 하위 도메인을 설정할 때와 동일합니다. [사용자 지정 하위 도메인 설정](delegate-custom-subdomain.md#feedback-loop-steps) 페이지에 설명된 단계를 따릅니다.
 
@@ -179,7 +178,7 @@ ht-degree: 5%
 
 1. 모든 유효성 검사가 성공하면 **[!UICONTROL 만들 레코드]** 섹션이 표시됩니다.
 
-   ![](assets/subdomain-migrate-records-to-create.png){width="100%"}
+   ![호스팅 플랫폼에서 만들 DNS 레코드 목록](assets/subdomain-migrate-records-to-create.png){width="75%"}
 
 1. 호스팅 플랫폼에서 모든 필수 레코드를 만듭니다.
 
