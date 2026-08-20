@@ -10,27 +10,16 @@ level: Intermediate, Experienced
 keywords: 이벤트, 여정, 비즈니스, 구성
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
 TQID: https://experienceleague.adobe.com/7-S4UBWGIpqk798A7EreKtcuX-HxUgq34DG3Wek-qmM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 867eeef1f90c152c463397222f5ed95f3b9c264b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: d08afb72-92f6-4856-88e3-11ec34313c2fid: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e7f2c61f88684c3eb8019a534ad4f1e59d37ed43
 workflow-type: tm+mt
-source-wordcount: 1191
-ht-degree: 14%
+source-wordcount: 1234
+ht-degree: 13%
 
 ---
 
@@ -55,7 +44,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->비즈니스 이벤트 사용 사례 [자습서](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/journeys/use-case-business-event){target="_blank"}를 볼 수도 있습니다. 프로필에 대해 스키마를 활성화할 필요가 없습니다.
+>비즈니스 이벤트 사용 사례 [자습서](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/journeys/use-case-business-event){target="_blank"}를 볼 수도 있습니다. 프로필에 대해 스키마를 활성화할 필요가 없습니다.
 
 ## 중요 정보 {#important-notes}
 
@@ -69,6 +58,7 @@ ht-degree: 14%
 * 비즈니스 이벤트를 테스트할 때 이벤트 매개 변수 및 테스트의 여정을 입력할 테스트 프로필의 식별자를 전달해야 합니다. 또한 비즈니스 이벤트 기반 프로필을 테스트할 때 단일 여정 시작만 트리거할 수 있습니다. [이 섹션](../building-journeys/testing-the-journey.md#test-business)을 참조하십시오. 테스트 모드에서는 사용 가능한 &quot;코드 보기&quot; 모드가 없습니다.
 * 새로운 비즈니스 이벤트가 도착하면 현재 여정에 있는 개인들은 어떻게 됩니까? 이는 새로운 재발이 발생할 때 개인이 여전히 반복 여정에 있을 때와 동일한 방식으로 동작합니다. 그들의 길은 끝이다. 따라서 마케터는 빈번한 비즈니스 이벤트를 예상할 경우 너무 긴 여정을 만들지 않도록 주의를 기울여야 합니다.
 * 비즈니스 이벤트는 단일 이벤트 또는 대상자 선별 활동과 함께 사용할 수 없습니다.
+* 비즈니스 이벤트의 페이로드는 압축되지 않은 축소된 JSON **의 최대** 64KB로 제한됩니다. 이 제한은 단일 이벤트에도 적용됩니다. 이 크기를 초과하는 이벤트는 삭제되며 여정을 트리거하지 않습니다. [보호 기능 및 제한 사항에 대해 자세히 알아보세요](../start/guardrails.md#journeys-guardrails-journeys).
 
 ## 여러 비즈니스 이벤트 {#multiple-business-events}
 

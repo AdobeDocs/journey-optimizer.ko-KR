@@ -9,25 +9,16 @@ level: Intermediate
 mini-toc-levels: 2
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 TQID: https://experienceleague.adobe.com/k4DqGogrTZ9QrnqyFGwdgDeUI9ivpOd1iSI0c5comuU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-subfeature_v2:
-  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 06731636d4ecbb3c74537f0dea881a1db84569bd
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: ad78185d-8f79-40ad-9bad-cbde74af74ee
+subfeature_v2: id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: e7f2c61f88684c3eb8019a534ad4f1e59d37ed43
 workflow-type: tm+mt
-source-wordcount: 4638
-ht-degree: 91%
+source-wordcount: 4732
+ht-degree: 89%
 
 ---
 
@@ -86,7 +77,9 @@ Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome
 
 * 여정에서 대상자 선별을 사용하는 경우, 해당 대상자 선별 활동이 활성화되어 대상자에 참여하거나 나가는 프로필을 수신하는 데 최대 **10분**&#x200B;이 소요될 수 있습니다.
 
-* 프로필에 대한 여정 인스턴스의 최대 크기는 **1MB**&#x200B;입니다. 여정 실행의 일환으로 수집한 모든 데이터는 해당 여정 인스턴스에 저장됩니다. 따라서 수신 이벤트 데이터, Adobe Experience Platform에서 가져온 프로필 정보, 사용자 정의 액션 응답 등이 해당 여정 인스턴스에 저장되어 여정 크기에 영향을 미칩니다. 여정이 이벤트로 시작하는 경우 여정 실행 시 몇 가지 활동 후에 위의 제한에 도달하지 않도록 해당 이벤트 페이로드의 최대 크기를 제한(예: **800KB** 미만)하는 것이 좋습니다. 제한에 도달하면 프로필이 오류 상태가 되어 여정에서 제외됩니다.
+* 프로필에 대한 여정 인스턴스의 최대 크기는 **1MB**&#x200B;입니다. 여정 실행의 일환으로 수집한 모든 데이터는 해당 여정 인스턴스에 저장됩니다. 따라서 수신 이벤트 데이터, Adobe Experience Platform에서 가져온 프로필 정보, 사용자 정의 액션 응답 등이 해당 여정 인스턴스에 저장되어 여정 크기에 영향을 미칩니다. 여정이 이벤트로 시작하는 경우 여정 실행 시 몇 가지 활동 후에 위의 제한에 도달하지 않도록 해당 이벤트 페이로드의 최대 크기를 제한(예: **800KB** 미만)하는 것이 좋습니다. 이 800KB 지침은 아래에 설명된 더 엄격한 64KB 제한이 적용되는 비즈니스 이벤트 또는 단일 이벤트에는 적용되지 않습니다. 1MB 제한에 도달하면 프로필이 오류 상태이며 여정에서 제외됩니다.
+
+* 비즈니스 이벤트 및 단일 이벤트를 포함하여 여정을 시작하거나 시작하는 모든 이벤트는 더 엄격한 추가 가드레일의 영향을 받습니다. 이벤트 페이로드는 압축되지 않고 축소된 JSON의 최대 **64KB로 제한됩니다**. 이 크기를 초과하는 여정은 삭제되며 이벤트를 트리거하지 않습니다. 이는 위의 1MB 여정 인스턴스 제한과 별개이며 보다 엄격합니다. [비즈니스 이벤트 구성에 대해 자세히 알아보세요](../event/about-creating-business.md).
 
 * 각 프로필 및 여정 버전에 대해 여정 런타임은 하나의 이벤트가 처리되는 동안 최대 **10개의 대기 이벤트**&#x200B;를 내부 대기열에 유지합니다. 이 한도에 도달하면 스택이 비워질 때까지 추가 이벤트는 `maxInstanceStackEventsReached` 이유와 함께 삭제됩니다. [차단된 여정 인스턴스로 인해 폐기된 이벤트](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached)를 참조하세요.
 
