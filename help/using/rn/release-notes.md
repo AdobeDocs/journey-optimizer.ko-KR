@@ -8,28 +8,16 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2be0ef1b72affb0423613d60a3b8eedbcc92ac6d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f5e0c4ebcc6af1cef57c2c02a69f3f483887bff1
 workflow-type: tm+mt
-source-wordcount: 1436
-ht-degree: 24%
+source-wordcount: 2034
+ht-degree: 21%
 
 ---
 
@@ -93,6 +81,14 @@ ht-degree: 24%
 </tbody>
 </table>
 
++++ 곧 출시 예정 — **아래 정보는 변경될 수 있습니다.**
+
+* **콘텐츠 변형 크기 경고** - 이제 Journey Optimizer은 콘텐츠 변형이 권장 크기 임계값(템플릿 및 메시지: 1200KB, 조각: 700KB, 랜딩 페이지: 1000KB)을 초과할 때 소프트 제한 경고를 표시합니다. 저장 및 게시가 차단되지 않습니다.
+
+* **콘텐츠의 조각 수 제한** - 이제 Journey Optimizer이 변형당 최대 60개, 단일 메시지의 모든 변형에서 최대 120개의 콘텐츠 조각 내에서 사용된 고유 조각 수를 확인합니다. 경고는 각 제한의 75%에 표시됩니다. 엄격한 제한에 도달하면 게시가 차단됩니다.
+
++++
+
 ### 여정 {#aug-26-journeys}
 
 * **고급 표현식 편집기의 새 목록 함수** - 고급 표현식 편집기에서 두 개의 새 함수를 사용할 수 있습니다. `mergeLists`은(는) 중복 제거가 있거나 없는 두 목록을 결합하고 `differenceLists`은(는) 다른 목록에 없는 한 목록의 항목을 반환합니다. [자세히 알아보기](../building-journeys/functions/list-functions.md)
@@ -102,6 +98,30 @@ ht-degree: 24%
 * **대기 활동의 전송 시간 최적화** - 이제 대기 활동에서 전송 시간 최적화를 사용할 수 있으므로 Adobe의 AI가 다운스트림 활동을 계속할 최적의 시간을 결정할 수 있습니다. [자세히 알아보기](../building-journeys/wait-activity.md#sto-wait)
 
   사용 가능한 날짜: 2026년 8월 13일
+
++++ 곧 출시 예정 — **아래 정보는 변경될 수 있습니다.**
+
+<table>
+<thead>
+<tr>
+<th><strong>여정 수준 보류(제한된 가용성)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 여정 속성에서 직접 여정에 대한 홀드아웃 그룹을 구성할 수 있습니다. 홀드아웃은 여정 입력에서 제외되고 커뮤니케이션을 수신하지 않는 타겟 대상의 구성 가능한 백분율입니다. 홀드아웃 프로필을 Customer Journey Analytics 보고의 활성 프로필과 비교하여 여정이 제공하는 증분 상승도 - 실제 영향을 측정할 수 있습니다.</p>
+<p>이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+* **여정 표현식 편집기에 새 dateDiff 함수 추가** - 이제 여정 표현식 편집기에 두 날짜의 일 수 차이를 계산하는 `dateDiff` 함수가 포함됩니다. 이 기능은 기한 만들기, 고객 라이프사이클 기간 계산 또는 여정 조건에서 카운트다운 타이머 작성과 같은 시간 기반 논리에 유용합니다.
+
+* **여정 헤더의 시작 및 종료 날짜** - 여정에 시작 및/또는 종료 날짜가 구성되면 상태 배지 옆의 여정 헤더에 표시됩니다. 표시되는 레이블은 각 날짜가 다가오는지 또는 이미 지났는지에 따라 달라집니다.
+
++++
 
 ### 캠페인 {#aug-26-campaigns}
 
@@ -128,6 +148,32 @@ ht-degree: 24%
 
 * **캠페인별 라이프사이클 경고 구독** - 이제 기존 샌드박스 수준 구독뿐만 아니라 단일 캠페인에 대해 지원되는 캠페인 라이프사이클 경고를 구독할 수 있습니다. 이렇게 하면 샌드박스의 모든 캠페인에 대해 동일한 경고를 받지 않고 우선 순위가 높은 개별 캠페인을 모니터링할 수 있습니다. [자세히 알아보기](../reports/alerts.md#subscribe-alerts)
 사용 가능한 날짜: 2026년 8월 13일
+
++++ 곧 출시 예정 — **아래 정보는 변경될 수 있습니다.**
+
+<table>
+<thead>
+<tr>
+<th><strong>액션 캠페인의 인바운드 경험 시뮬레이션</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 시작하기 전에 작업 캠페인에서 인바운드 채널 작업을 시뮬레이션할 수 있습니다. 시뮬레이션 모드를 사용하여 시뮬레이트된 사용자로 구성을 테스트하고 생성된 URL 및 QR 코드를 포함한 렌더링된 경험을 미리 보면 규칙, 의사 결정 및 컨텐츠 렌더링의 엔드 투 엔드를 확인할 수 있습니다.</p>
+<p>이 기능은 현재 개인 베타 버전으로 제한된 조직 세트에서 사용할 수 있습니다. 더 많은 내용은 Adobe 담당자에게 문의하십시오.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+* **작업 캠페인 작성 흐름 재디자인** - Adobe Journey Optimizer 작업 캠페인 작성 흐름이 훨씬 더 직관적이고 효율적이며 원활한 사용자 경험을 제공하도록 재디자인되었습니다.
+
+* **작업 캠페인용 폴더** - 이제 작업 캠페인을 폴더로 구성하여 인터페이스에서 탐색 및 관리를 개선할 수 있습니다.
+
+* **작업 캠페인의 기본 실행 필드 재정의** - 이전에는 여정 수준에서 사용할 수 있었지만, 이제 작업 캠페인 매개 변수에서 이메일, SMS 및 WhatsApp 게재에 대해 전역적으로 구성된 기본 실행 필드를 재정의할 수 있습니다.
+
++++
 
 ### 오케스트레이션된 캠페인 {#august-26-oc}
 
@@ -233,3 +279,24 @@ ht-degree: 24%
   사용 가능한 날짜: 2026년 8월 11일
 
   [자세히 알아보기](../email/message-tracking.md#decisioning-mirror-page)
+
++++ 곧 출시 예정 — **아래 정보는 변경될 수 있습니다.**
+
+<table>
+<thead>
+<tr>
+<th><strong>웹 채널에서 의사 결정 지원</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 웹 채널에 의사 결정을 사용할 수 있습니다. 웹 시각적 편집기에서 직접 의사 결정 정책을 사용하여 각 방문자에게 가장 관련성이 높은 오퍼를 전달할 수 있습니다.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+* **의사 결정의 배치 수준 빈도 제한** - 이제 의사 결정의 빈도 제한 규칙을 개별 배치로 지정할 수 있으므로 오퍼가 지정된 표면에 표시되는 빈도를 보다 세밀하게 제어할 수 있습니다. 두 가지 모드를 사용할 수 있습니다. **배치별 한도**(오퍼가 선택한 배치에 표시될 때만 적용되는 한도 정의) 및 **배치당 한도**(오퍼가 나타나는 모든 배치에 독립적으로 적용되는 한도 정의). 따라서 각 배치는 자체 한도 카운터를 유지합니다. 배치 관련 한도 설정은 Adobe Experience Platform 데이터 기반의 규칙을 사용하여 설정된 오퍼에는 적용되지 않습니다.
+
++++
