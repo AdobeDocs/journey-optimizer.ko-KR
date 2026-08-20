@@ -11,12 +11,11 @@ keywords: 하위 도메인, 위임, 마이그레이션, CNAME, 사용자 정의 
 badge: label="제한된 가용성" type="Informative"
 exl-id: f74139cf-640f-4b7b-a0b1-6eae9c75e7e4
 feature_v2: []
-subfeature_v2:
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
+subfeature_v2: id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+source-git-commit: fb6857c1a5b0f2526a999ec13e24d709139dba42
 workflow-type: tm+mt
-source-wordcount: 1301
-ht-degree: 4%
+source-wordcount: 1205
+ht-degree: 5%
 
 ---
 
@@ -108,20 +107,13 @@ ht-degree: 4%
 
 1. **[!UICONTROL CSR 다운로드]**&#x200B;를 클릭하고 양식을 로컬 컴퓨터에 저장합니다.
 
-1. SSL 인증서를 받으려면 인증 기관(CA)에 보냅니다. 서명을 위해 이 CSR을 CA에 제출하기 전에 고려해야 할 몇 가지 중요한 사항이 있습니다.
+1. SSL 인증서를 받으려면 인증 기관(CA)에 보냅니다.
 
-   * 3단계에서 다운로드한 CSR은 data.subdomain.com에만 해당됩니다.
+   >[!NOTE]
+   >
+   >다운로드한 CSR에는 이미 `data.subdomain.com` 및 `cdn.subdomain.com`이(가) 모두 SAN(주체 대체 이름)으로 포함되어 있습니다. CA에 제출하기 전에 수동으로 SAN을 추가할 필요가 없습니다. 예를 들어 `example.adobe.com`을(를) 위임하는 경우 CSR은 `data.example.adobe.com`과(와) `cdn.example.adobe.com`을(를) 모두 다룹니다.
 
-   * 그러나 이 인증서는 단일 인증서 내에서 SAN(주체 대체 이름) 항목으로 data.subdomain.com 및 cdn.subdomain.com 를 모두 포함해야 합니다. 예를 들어, example.adobe.com을 위임하는 경우 data.subdomain.com은 data.example.adobe.com에 해당하고 cdn.subdomain.com은 cdn.example.adobe.com에 해당합니다.
-
-   * 데이터(data.example.adobe.com)와 CDN(cdn.example.adobe.com) 하위 도메인은 동일한 인증서의 피어 항목으로 추가해야 합니다. 이 인증서에는 추가 하위 도메인을 추가해서는 안 됩니다.
-
-   * 대부분의 CA를 사용하면 서명 프로세스 중에 CDN 하위 도메인과 같은 SAN을 추가할 수 있습니다
-
-     * CA 포털을 통해(가능한 경우 권장) 또는
-     * 포털 옵션을 사용할 수 없는 경우 지원 팀에 수동으로 요청하십시오.
-
-   * 서명되면 CA는 데이터 도메인과 CDN 하위 도메인을 모두 포함하는 단일 인증서를 발행합니다.
+   서명되면 CA는 데이터 도메인과 CDN 하위 도메인을 모두 포함하는 단일 인증서를 발행합니다.
 
 ## 기존 DNS 레코드 삭제 {#delete-dns}
 
