@@ -11,26 +11,15 @@ keywords: 여정, 구성, 속성
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/fDzEwuisEjAKvpIs9SKoz-9IIJXJQ-md9FlCbWQOJz8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: ba62ad25-65cb-4ea9-b7aa-0fa87c4a9fa0
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 7e84f06def3d352eb2ecf0b26d89402297e6236e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: ba62ad25-65cb-4ea9-b7aa-0fa87c4a9fa0id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 48caee66b63c65c2beaa2a51b041b931b5134851
 workflow-type: tm+mt
-source-wordcount: 5041
+source-wordcount: 5141
 ht-degree: 10%
 
 ---
@@ -176,6 +165,15 @@ ht-degree: 10%
 기본적으로 프로필은 게시되는 즉시 여정을 입력할 수 있으며 [전역 여정 시간 제한](#global_timeout)에 도달할 때까지 유지될 수 있습니다. 유일한 예외는 **되풀이 시 강제 재입력**&#x200B;이 활성화된 되풀이 대상 여정 읽기이며, 다음 발생의 시작 날짜에 끝납니다.
 
 필요한 경우 사용자 지정 **시작 날짜** 및 **종료 날짜**&#x200B;를 정의할 수 있습니다. 이렇게 하면 프로필에서 특정 날짜에 여정을 입력하고 종료 날짜에 도달하면 자동으로 종료할 수 있습니다.
+
+구성된 모든 시작 및 종료 날짜는 상태 배지 옆에 있는 **여정 헤더**&#x200B;에 직접 표시됩니다. 이렇게 하면 속성 패널을 열지 않고도 여정 일정을 한눈에 볼 수 있습니다. 표시된 레이블은 각 날짜의 상태에 따라 조정됩니다.
+
+* **예정된 시작 날짜** — 헤더에 구성된 시작 날짜가 표시됩니다.
+* **시작 날짜가 전달됨** — 헤더는 여정이 이미 시작되었음을 나타냅니다.
+* **예정된 종료 날짜** — 헤더에 구성된 종료 날짜가 표시됩니다.
+* **종료 날짜 전달됨** — 헤더는 여정이 종료되었음을 나타냅니다.
+
+시작 또는 종료 날짜가 정의되지 않은 경우 헤더에 날짜 정보가 표시되지 않습니다.
 
 ## 시간 초과 {#timeout}
 

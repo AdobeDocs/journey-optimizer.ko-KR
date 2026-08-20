@@ -8,27 +8,15 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: fb6857c1a5b0f2526a999ec13e24d709139dba42
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 6730a425a87d550f82443650576aec2c53ade0aa
 workflow-type: tm+mt
-source-wordcount: 2098
+source-wordcount: 2105
 ht-degree: 20%
 
 ---
@@ -93,6 +81,7 @@ ht-degree: 20%
 </tbody>
 </table>
 
+
 +++ 곧 출시 예정 — **아래 정보는 변경될 수 있습니다.**
 
 * **콘텐츠 변형 크기 경고** - 이제 Journey Optimizer은 콘텐츠 변형이 권장 크기 임계값(템플릿 및 메시지: 1200KB, 조각: 700KB, 랜딩 페이지: 1000KB)을 초과할 때 소프트 제한 경고를 표시합니다. 저장 및 게시가 차단되지 않습니다.
@@ -102,6 +91,12 @@ ht-degree: 20%
 +++
 
 ### 여정 {#aug-26-journeys}
+
+
+* **여정 헤더의 시작 및 종료 날짜** - 여정에 시작 및/또는 종료 날짜가 구성되면 상태 배지 옆의 여정 헤더에 표시됩니다. 표시되는 레이블은 각 날짜가 다가오는지 또는 이미 지났는지에 따라 달라집니다. [자세히 보기](../building-journeys/journey-properties.md#dates)
+
+
+사용 가능한 날짜: 2026년 8월 20일
 
 * **고급 표현식 편집기의 새 목록 함수** - 고급 표현식 편집기에서 두 개의 새 함수를 사용할 수 있습니다. `mergeLists`은(는) 중복 제거가 있거나 없는 두 목록을 결합하고 `differenceLists`은(는) 다른 목록에 없는 한 목록의 항목을 반환합니다. [자세히 알아보기](../building-journeys/functions/list-functions.md)
 
@@ -131,7 +126,6 @@ ht-degree: 20%
 
 * **여정 표현식 편집기에 새 dateDiff 함수 추가** - 이제 여정 표현식 편집기에 두 날짜의 일 수 차이를 계산하는 `dateDiff` 함수가 포함됩니다. 이 기능은 기한 만들기, 고객 라이프사이클 기간 계산 또는 여정 조건에서 카운트다운 타이머 작성과 같은 시간 기반 논리에 유용합니다.
 
-* **여정 헤더의 시작 및 종료 날짜** - 여정에 시작 및/또는 종료 날짜가 구성되면 상태 배지 옆의 여정 헤더에 표시됩니다. 표시되는 레이블은 각 날짜가 다가오는지 또는 이미 지났는지에 따라 달라집니다.
 
 +++
 
