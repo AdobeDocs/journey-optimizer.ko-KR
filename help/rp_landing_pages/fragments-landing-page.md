@@ -30,7 +30,7 @@ Adobe Journey Optimizer 캠페인에서 콘텐츠 생성을 간소화하기 위�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 재사용 가능한 조각을 만드는 방법
 
@@ -40,7 +40,7 @@ Journey Optimizer에서 이메일, 캠페인, 여정에 대한 재사용 가능�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 기존 콘텐츠를 조각으로 저장
 
@@ -50,7 +50,7 @@ Journey Optimizer에서 이메일, 캠페인, 여정에 대한 재사용 가능�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 사용자 정의 가능한 조각 사용
 
@@ -60,7 +60,7 @@ Journey Optimizer에서 이메일, 캠페인, 여정에 대한 재사용 가능�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 콘텐츠 조각 관리
 

@@ -25,7 +25,7 @@ Adobe Journey Optimizer에서 배치, 의사 결정 규칙, 컬렉션 한정자�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 오퍼에 대한 배치 만들기 안내서
 
@@ -45,7 +45,7 @@ Adobe Experience Platform 데이터를 사용하여 특정 대상 세그먼트�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/tags.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/tags.svg?lang=ko)
 
 Adobe Journey Optimizer에서 컬렉션 한정자 만들고 관리하는 방법 알아보기
 

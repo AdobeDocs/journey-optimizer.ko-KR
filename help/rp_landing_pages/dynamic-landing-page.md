@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 다이내믹 콘텐츠를 활용하면 대상자에�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 조건부 규칙 만들기 및 관리
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer를 사용하여 메시지의 다이내믹 콘텐츠를 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 Adobe Journey Optimizer에서 다이내믹 콘텐츠를 만드는 방법
 
