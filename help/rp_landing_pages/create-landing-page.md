@@ -40,7 +40,7 @@ Adobe Journey Optimizer에서 세그먼트 정의 작성
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/file-upload.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/file-upload.svg?lang=ko)
 
 사용자 정의 CSV 업로드를 사용하여 대상자를 가져오는 방법
 
@@ -50,7 +50,7 @@ CSV 파일을 통해 대상자를 가져오고 속성을 프로필에 매핑하�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
 
 페더레이션된 대상자 컴포지션
 

@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 여정 관리는 고객 경험이 여러 채널에 �
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 여정 검색 및 필터링
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer의 여정 관리는 고객 경험이 여러 채널에 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 여정에서 보조 식별자 사용
 

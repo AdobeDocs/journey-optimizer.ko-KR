@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 사용 사례를 활용하면 마케팅 전략, 기�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
 
 사용 사례를 통해 알아보기
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer의 사용 사례를 활용하면 마케팅 전략, 기�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 다중 채널 메시지 보내기
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer의 사용 사례를 활용하면 마케팅 전략, 기�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 Campaign v7/v8을 사용하여 메시지 보내기
 
@@ -70,7 +70,7 @@ Adobe Campaign을 Journey Optimizer와 통합하면 트랜잭션 템플릿과 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 사용자 정의 작업으로 컬렉션을 동적으로 보내기
 

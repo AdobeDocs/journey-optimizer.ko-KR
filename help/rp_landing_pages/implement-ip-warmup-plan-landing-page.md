@@ -20,7 +20,7 @@ Adobe Journey Optimizer에서 IP 준비 계획을 구현하면 이메일 제공�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=ko)
 
 IP 워밍업 게재 가능성 안내서
 
@@ -30,7 +30,7 @@ IP 워밍업 여정을 시작하기 전에 게재 가능성 기본 사항, 평�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
 
 IP 준비 계획 시작
 
@@ -50,7 +50,7 @@ IP 준비 캠페인 만들기
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 IP 준비 계획을 만들고 관리하는 방법
 
@@ -60,7 +60,7 @@ IP 준비 계획을 만들고 관리하는 방법
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 IP 준비 계획 실행 및 관리
 
