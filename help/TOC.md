@@ -6,7 +6,7 @@ user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 7efc41e882a0220fef59271ef0f8b10fa0ec22e4
+source-git-commit: 97c44e1699a980ddc54a9a7f56313c395bb9dc07
 workflow-type: tm+mt
 source-wordcount: '3496'
 ht-degree: 93%
@@ -457,7 +457,7 @@ ht-degree: 93%
     + [라이브 활동 만들기](using/mobile-live/create-mobile-live.md)
     + [라이브 활동 문제 해결](using/mobile-live/troubleshoot-mobile-live.md)
     + [FAQ](using/mobile-live/mobile-live-faq.md)
-    + 라이브 활동 채널 구성 {#configure}
+    + 라이브 활동 채널 구성 {#configure-live-activity}
       + [Journey Optimizer에서 라이브 활동 구성](using/mobile-live/mobile-live-configuration.md)
       + [라이브 활동 SDK 통합 구성](using/mobile-live/mobile-live-configuration-sdk.md)
   + 사용자 지정 채널 {#custom-channel}
@@ -834,7 +834,7 @@ ht-degree: 93%
       + [API 참조](/help/rp_landing_pages/api-reference-landing-page.md)
       + [시작](using/offers/api-reference/getting-started.md)
       + API를 사용하여 오퍼 만들기 및 관리 {#offers-api}
-        + 배치 {#placements}
+        + 배치 {#dm-placements}
           + [배치 나열](using/offers/api-reference/offers-api/placements/placements-list.md)
           + [배치 조회](using/offers/api-reference/offers-api/placements/lookup.md)
           + [배치 만들기](using/offers/api-reference/offers-api/placements/create.md)

@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: fde6b21accd284e13cd9f464a233be25a68feb93
+source-git-commit: 893a64ecaab3c5adb3380d17ff10e2b7891541f4
 workflow-type: tm+mt
-source-wordcount: 10165
+source-wordcount: 10200
 ht-degree: 80%
 
 ---
@@ -40,6 +40,8 @@ ht-degree: 80%
 * **데이터 세트 TTL(Time-to-Live) 보호** 페이지가 크게 확장된 **영향을 받은 데이터 세트** 표로 업데이트되었습니다. 이제 모든 Journey Optimizer 시스템 생성 데이터 세트(AJO 동의 서비스, 대화형 메시징 프로필, 푸시 프로필 및 메시지 내보내기 데이터 세트와 같이 이전에 나열되지 않은 여러 데이터 세트 포함)와 함께 각 데이터 세트가 기본적으로 포함되는지 또는 특정 추가 기능 또는 라이선스가 필요한지 여부를 나타내는 새 **가용성** 열이 포함됩니다. **보호 기능 및 제한 사항** 페이지도 이 보호 기능의 확정된 적용 날짜를 반영하도록 업데이트되었습니다. 변경 사항은 **2026년 10월 1일**&#x200B;부터 **기존 고객 샌드박스**&#x200B;에 적용됩니다. [자세히 보기](../data/datasets-ttl.md#datasets)
 
 * 새 **이미지 설정 모드 사용** 섹션이 생성 콘텐츠 설명서에 추가되었습니다. **[!UICONTROL 이미지 설정]**&#x200B;에서 사용할 수 있는 **균형**, **DAM** 및 **Creative** 모드에 대해 설명합니다. 이 모드는 Digital Asset Management 라이브러리에서 AI가 생성한 콘텐츠 소스 이미지를 AI로 생성할지 또는 두 이미지 모두를 혼합할지 여부를 제어합니다. [자세히 보기](../content-management/generative-uc.md#image-mode)
+
+* **왼쪽 탐색 > 기본 섹션** 아래의 **대상** 설명을 업데이트했습니다. [!DNL Real-Time CDP] 또는 [!DNL Adobe Journey Optimizer]을(를) 사용하는 조직도 Experience Platform 대상 카탈로그에서 [!DNL Adobe Target]과(와) 같은 적격한 개인화 대상에 대상을 활성화할 수 있습니다. [자세히 보기](../start/user-interface.md#main-sections)
 
 ## 2026년 7월 {#july-2026}
 

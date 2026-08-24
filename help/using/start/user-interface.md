@@ -31,10 +31,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: d05144d68c19ad0b1626f476ac706e75489cea8a
+source-git-commit: 80ec1603a489d39c5a91629ef57f56433e97dccc
 workflow-type: tm+mt
-source-wordcount: 1482
-ht-degree: 99%
+source-wordcount: 1509
+ht-degree: 97%
 
 ---
 
@@ -191,7 +191,7 @@ Adobe 지원 센터에 문의하실 때는 다음 정보가 포함되어야 근�
 **연결** - 다른 시스템과 통합합니다.
 
 * **소스** - 외부 시스템에서 데이터를 수집합니다. [소스 구성](get-started-sources.md)
-* **대상** - 데이터를 클라우드 스토리지로 내보냅니다. [대상 설정](../data/export-datasets.md)
+* **대상** - 데이터를 클라우드 스토리지로 내보냅니다. [대상을 설정](../data/export-datasets.md). [Experience Platform 대상 카탈로그](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=ko){target="_blank"}에서 Adobe Target과 같은 적합한 개인화 대상에 대상을 활성화할 수도 있습니다.
 
 **고객** - 대상자와 프로필을 관리합니다.
 
