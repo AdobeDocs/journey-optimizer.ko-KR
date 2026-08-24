@@ -7,15 +7,12 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 74ef02489bcb73f35a78e8bdac474be7d74af570
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: 92d0c79a5773c2d7fd7b3f3c2c4c142df7e39466
 workflow-type: tm+mt
-source-wordcount: 2475
-ht-degree: 15%
+source-wordcount: 2888
+ht-degree: 13%
 
 ---
 
@@ -57,7 +54,7 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
 
 먼저 의사 결정 항목의 표준 및 사용자 지정 속성 을 정의합니다.
 
-![](assets/item-attributes.png)
+![이름, 설명, 시작 및 종료 날짜, 우선 순위 및 태그를 포함한 특성 필드를 표시하는 결정 항목 만들기 양식](assets/item-attributes.png)
 
 1. 이름과 설명을 입력합니다.
 1. 시작 및 종료 날짜를 지정합니다. 이 항목은 이 날짜 내에 의사 결정 엔진에서만 고려됩니다.
@@ -105,8 +102,8 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
 >abstract="기본적으로 모든 프로필은 결정 항목을 수신할 수 있지만 대상자 또는 규칙을 사용하여 항목을 특정 프로필로만 제한할 수 있습니다."
 
 <!--
->"additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
@@ -124,9 +121,9 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
 
 * 하나 이상의 Adobe Experience Platform 대상의 구성원으로 결정 항목을 표시하려면 **[!UICONTROL 하나 이상의 대상에 속하는 방문자]** 옵션을 선택한 다음 왼쪽 창에서 하나 이상의 대상을 추가하고 **[!UICONTROL And]** / **[!UICONTROL Or]** 논리 연산자를 사용하여 대상을 결합하십시오. [대상자에 대해 자세히 알아보기](../audience/about-audiences.md)
 
-* 특정 결정 규칙을 결정 항목에 연결하려면 **[!UICONTROL 규칙별]**&#x200B;을 선택한 다음 왼쪽 창에서 원하는 규칙을 중앙 영역으로 끕니다. [의사 결정 규칙에 대해 자세히 알아보기](rules.md)
+  ![대상자 선택 옵션을 표시하는 결정 항목 자격 섹션](assets/item-constraints.png)
 
-![](assets/item-constraints.png)
+* 특정 결정 규칙을 결정 항목에 연결하려면 **[!UICONTROL 규칙별]**&#x200B;을 선택한 다음 왼쪽 창에서 원하는 규칙을 중앙 영역으로 끕니다. [의사 결정 규칙에 대해 자세히 알아보기](rules.md)
 
 대상자 또는 결정 규칙을 선택하면 예상 적격 프로필에 대한 정보를 볼 수 있습니다. 데이터를 업데이트하려면 **[!UICONTROL 새로 고침]**&#x200B;을 클릭하세요.
 
@@ -141,9 +138,14 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
 >title="표현식"
 >abstract="상한 임계값에 정적 값을 사용하는 대신 고유한 표현식을 정의할 수 있습니다. 이를 통해 Adobe Experience Platform 데이터 세트의 결정 속성 및/또는 외부 속성을 사용하여 임계값을 동적으로 계산할 수 있습니다.<br/><br/>상한 규칙 **표현식**&#x200B;은 현재 모든 사용자가 제한적으로 사용할 수 있습니다. 이는 **[!UICONTROL 총합]** 상한 유형에 대해서만 지원됩니다."
 
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_capping_scope"
+>title="캡핑 범위"
+>abstract="배치 전체에 걸쳐 최대 가용량 규칙이 적용되는 방식을 정의합니다. 기본적으로 배치에 관계없이 단일 캡이 적용됩니다. 배치마다 독립적으로 캡핑을 추적하려면 **각 배치**&#x200B;를 선택하고, 선택한 배치로만 캡핑을 제한하려면 **특정 배치**&#x200B;를 선택하십시오. **특정 배치** 한도 설정은 웹 및 전자 메일 채널에서만 지원됩니다."
+
 한도는 오퍼 항목을 표시할 수 있는 최대 횟수를 정의하는 제약 조건으로 사용됩니다. 사용자가 특정 오퍼를 받는 횟수를 제한하면 고객에게 과다 청탁을 하지 않고 최상의 오퍼로 각 접점을 최적화할 수 있습니다. 특정 결정 항목에 대해 최대 10개의 캡션을 만들 수 있습니다.
 
-![](assets/item-capping.png)
+![최대 가용량 만들기 단추가 있는 최대 가용량 규칙 패널을 표시하는 결정 항목](assets/item-capping.png){width="80%"}
 
 >[!NOTE]
 >
@@ -152,13 +154,13 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
 
 최대 가용량 규칙을 구성할 때 Adobe Experience Platform 데이터 세트에 저장된 속성을 참조하여 임계값을 정의할 수 있습니다. 데이터 집합을 사용하려면 **[!UICONTROL 데이터 집합]** 섹션에서 데이터 집합을 선택하십시오. [의사 결정을 위해 Adobe Experience Platform 데이터를 사용하는 방법을 알아봅니다](../experience-decisioning/aep-data-exd.md)
 
-![](assets/exd-lookup-capping.png)
+![임계값으로 Adobe Experience Platform 특성을 참조하기 위한 최대 가용량 구성의 데이터 집합 선택 필드](assets/exd-lookup-capping.png){width="80%"}
 
-결정 항목에 대한 최대 가용량 규칙을 설정하려면 **[!UICONTROL 최대 가용량 만들기]** 단추를 클릭한 다음 아래에 설명된 단계를 수행합니다.
-
-![](assets/item-capping-create.png)
+결정 항목에 대한 최대 가용량 규칙을 설정하려면 아래에 설명된 단계를 수행합니다.
 
 1. 카운터를 늘리기 위해 고려할 **[!UICONTROL Capping 이벤트]**&#x200B;를 정의합니다.
+
+   ![최대 가용량 이벤트, 범위, 유형, 임계값 및 다시 설정 빈도 설정을 보여 주는 최대 가용량 규칙 양식을 만듭니다.](assets/item-capping-event.png){width="80%"}
 
    * **[!UICONTROL 결정 이벤트]**(기본값): 오퍼를 표시할 수 있는 최대 횟수입니다.
    * **[!UICONTROL 노출]**(인바운드 채널만): 사용자에게 오퍼를 표시할 수 있는 최대 횟수입니다.
@@ -171,7 +173,7 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
 
    푸시 알림의 경우 모바일 채널에서의 추적 이벤트에는 Experience Cloud ID(ECID)가 포함됩니다. ID 일관성을 유지하고 캡핑이 예상대로 작동하는지 확인하려면 캠페인 또는 여정 구성에서 ECID를 사용하는 것이 좋습니다.
 
-   ![](assets/push-capping.png)
+   ![푸시 추적 이벤트 유형을 선택한 사용자 지정 이벤트 옵션을 표시하는 푸시 제한 구성](assets/push-capping.png)
 
    +++
 
@@ -182,6 +184,26 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
    * [데이터 수집 구성](data-collection/schema-requirement.md)
 
    +++
+
+1. **[!UICONTROL 최대 가용량 범위]** 섹션을 사용하여 배치 전체에 최대 가용량 규칙이 적용되는 방식을 정의합니다. [배치에 대해 자세히 알아보기](placements.md#about)
+
+   ![오퍼 수준, 각 배치 및 특정 배치 라디오 옵션을 보여 주는 범위 제한 섹션](assets/item-capping-scope.png){width="70%"}
+
+   * **[!UICONTROL 오퍼 수준]**(기본값): 표시되는 위치에 관계없이 오퍼마다 상한선이 적용됩니다. 여러 배치에 표시된 동일한 오퍼는 결정 이벤트당 한 번씩 계산됩니다.
+   * **[!UICONTROL 각 배치]**: 이 오퍼가 표시되는 모든 배치에 캡이 적용됩니다. 각 배치는 자체 최대 가용량 카운터를 유지하며 새 배치는 처음 표시될 때 자동으로 추적됩니다. 예를 들어 오퍼가 영웅 배너 및 사이드바에 나타나는 경우 각 배치는 노출을 독립적으로 추적하므로 한 배치에서 오퍼를 제한하는 것은 다른 배치에는 영향을 주지 않습니다.
+   * **[!UICONTROL 특정 배치]**: 선택한 배치에 오퍼가 표시되는 경우에만 캡이 적용됩니다.
+
+     >[!CAUTION]
+     >
+     >**특정 배치** 한도 설정은 **웹** 및 **전자 메일** 채널에서만 지원됩니다. 코드 기반 경험, SMS, 푸시 또는 DM 채널에는 사용할 수 없습니다.
+
+     **[!UICONTROL 배치 선택]**&#x200B;을 클릭하여 제한할 배치를 선택하십시오. 다른 배치는 닫히지 않은 상태로 통과합니다. 예를 들어, 하루에 3회 노출을 상한으로 하는 히어로 배너 배치를 선택하는 경우, 오퍼는 3회 노출 후 히어로 배너에 표시되지 않지만 다른 모든 배치에서는 계속 사용할 수 있습니다.
+
+     ![특정 배치 한도 범위를 선택하고 배치 선택 단추와 선택한 배치 태그를 표시합니다](assets/item-capping-scope-specific.png){width="75%"}
+
+   >[!NOTE]
+   >
+   >배치 수준 상한은 Adobe Experience Platform 데이터를 기반으로 하는 규칙을 사용하여 상한이 설정된 오퍼에는 적용되지 않습니다.
 
 1. 한도 유형을 선택합니다.
 
@@ -211,7 +233,7 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
 
    표현식을 사용하려면 **[!UICONTROL 표현식]** 옵션을 활성화한 다음 원하는 대로 표현식을 편집하십시오.
 
-   ![](assets/exd-lookup-capping-expression.png)
+   ![의사 결정 또는 데이터 집합 특성을 사용하여 동적 제한 임계값을 정의하기 위한 식 편집기](assets/exd-lookup-capping-expression.png)
 
    +++
 
@@ -223,9 +245,11 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
 
    * 결정 항목이 승인되거나 캡핑이 만들어지는 경우 중 가장 늦게 발생하는 이벤트가 빈도 제한 조건에 따라 계산되기 전에 최대 15분의 버퍼 시간이 있을 수 있습니다.
 
-1. **[!UICONTROL 만들기]**&#x200B;를 클릭하여 최대 가용량 규칙 만들기를 확인합니다. 단일 결정 항목에 대해 최대 10개의 규칙을 만들 수 있습니다. 이렇게 하려면 **[!UICONTROL 최대 가용량 만들기]** 단추를 클릭하고 위의 단계를 반복합니다.
+1. **[!UICONTROL 만들기]**&#x200B;를 클릭하여 최대 가용량 규칙 만들기를 확인합니다.
 
-   ![](assets/item-capping-rules.png)
+1. 단일 결정 항목에 대해 최대 10개의 규칙을 만들 수 있습니다. 이렇게 하려면 **[!UICONTROL 최대 가용량 만들기]** 단추를 클릭하고 위의 단계를 반복합니다.
+
+   ![더 추가할 수 있도록 최대 가용량 만들기 단추가 나열된 최대 가용량 규칙을 여러 개 표시하는 결정 항목](assets/item-capping-rules.png)
 
 <!--
 * Identifying how many times a given customer has been shown a decision item. 
@@ -238,7 +262,7 @@ If a marketer wants to determine how many times a specific customer has been sho
 
 1. 이제 결정 항목이 **[!UICONTROL 초안]** 상태로 목록에 나타납니다. 프로필을 표시할 준비가 되면 줄임표 버튼을 클릭하고 **[!UICONTROL 승인]**&#x200B;을 선택합니다.
 
-   ![](assets/item-approve.png)
+   ![승인 옵션을 표시하는 줄임표 메뉴가 열려 있는 결정 항목 목록](assets/item-approve.png)
 
 ## 결정 항목 관리 {#manage}
 
@@ -259,7 +283,6 @@ If a marketer wants to determine how many times a specific customer has been sho
 
   승인된 오퍼 항목은 컬렉션이나 의사 결정에 사용되는 경우 삭제할 수 없습니다. 삭제하려면 상태를 &quot;초안&quot;으로 변경하십시오. 이렇게 하려면 줄임표 버튼을 클릭하고 **[!UICONTROL 승인 취소]**&#x200B;를 선택하십시오.
 
-  ![](assets/item-undo.png)
+  ![승인 실행 취소 옵션을 표시하는 결정 항목 줄임표 메뉴](assets/item-undo.png)
 
 * **[!UICONTROL 보관]**: 결정 항목 상태를 **[!UICONTROL 보관]**(으)로 설정합니다. 결정 항목은 여전히 목록에서 사용할 수 있지만 상태를 **[!UICONTROL 초안]** 또는 **[!UICONTROL 승인됨]**(으)로 다시 설정할 수 없습니다. 복제하거나 삭제할 수만 있습니다.
-
