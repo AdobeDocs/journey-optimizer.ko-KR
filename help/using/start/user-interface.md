@@ -31,10 +31,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 80ec1603a489d39c5a91629ef57f56433e97dccc
+source-git-commit: f3781010d99a2993f88fd4907a94278c610cb4cb
 workflow-type: tm+mt
-source-wordcount: 1509
-ht-degree: 97%
+source-wordcount: 1429
+ht-degree: 96%
 
 ---
 
@@ -352,21 +352,6 @@ AI 어시스턴트는 즉각적인 도움과 운영 인사이트를 제공합니
 >id="ajo_channels_feedback_webhook_settings_create"
 >title="피드백 Webhook"
 >abstract="피드백 Webhook를 사용하면 트랜잭션 API 트리거 캠페인을 통해 보낸 메시지의 실행 상태에 대한 실시간 피드백을 받을 수 있습니다. 조직 + 샌드박스 조합별로 Webhook 구성 하나씩만 허용됩니다."
-
->[!CONTEXTUALHELP]
->id="ajo_channels_feedback_webhook_settings_configuration"
->title="기본 구성"
->abstract="이 섹션에서는 Webhook를 식별하기 위한 설명적인 이름을 입력하고 이 Webhook에서 피드백을 받을 채널(이메일 및/또는 SMS)을 선택합니다. Webhook URL 필드에 피드백 이벤트를 전달해야 하는 HTTPS 엔드포인트를 입력합니다."
-
->[!CONTEXTUALHELP]
->id="ajo_channels_feedback_webhook_settings_authentication"
->title="인증"
->abstract="엔드포인트에 JWT 인증이 필요한 경우 목록에서 **JWT 인증**&#x200B;을 선택하고 필요한 세부 정보를 제공합니다."
-
->[!CONTEXTUALHELP]
->id="ajo_channels_feedback_webhook_settings_header_parameters"
->title="헤더 매개변수"
->abstract="이 섹션에서는 각 Webhook 요청과 함께 전송할 추가 사용자 정의 헤더를 구성할 수 있습니다."
 
 
 <!-- JOURNEYS - GENERATE EXPRESSIONS WITH AI -->

@@ -21,14 +21,24 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 subfeature_v2:
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
+source-git-commit: f3781010d99a2993f88fd4907a94278c610cb4cb
 workflow-type: tm+mt
-source-wordcount: 332
-ht-degree: 1%
+source-wordcount: 473
+ht-degree: 24%
 
 ---
 
 # API 트리거 캠페인에 대한 피드백 웹후크 만들기 {#webhooks}
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_settings_configuration"
+>title="기본 구성"
+>abstract="이 섹션에서는 Webhook를 식별하기 위한 설명적인 이름을 입력하고 이 Webhook에서 피드백을 받을 채널(이메일 및/또는 SMS)을 선택합니다. Webhook URL 필드에 피드백 이벤트를 전달해야 하는 HTTPS 엔드포인트를 입력합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_settings_create"
+>title="피드백 Webhook"
+>abstract="피드백 Webhook를 사용하면 트랜잭션 API 트리거 캠페인을 통해 보낸 메시지의 실행 상태에 대한 실시간 피드백을 받을 수 있습니다. 조직 + 샌드박스 조합별로 Webhook 구성 하나씩만 허용됩니다."
 
 >[!BEGINSHADEBOX]
 
@@ -45,7 +55,22 @@ ht-degree: 1%
 >[!NOTE]
 >**조직 + 샌드박스** 조합당 하나의 웹후크 구성만 허용됩니다.
 
-## 피드백 웹후크 만들기
+## 피드백 웹후크 만들기 {#feedback-webhook}
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_settings_authentication"
+>title="인증"
+>abstract="엔드포인트에 JWT 인증이 필요한 경우 목록에서 **JWT 인증**&#x200B;을 선택하고 필요한 세부 정보를 제공합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_settings_header_parameters"
+>title="헤더 매개변수"
+>abstract="이 섹션에서는 각 Webhook 요청과 함께 전송할 추가 사용자 정의 헤더를 구성할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_relay_url"
+>title="릴레이 URL"
+>abstract="HTTPS 끝점 Journey Optimizer은 이 웹후크에 대한 이벤트를 전달하기 위해 호출하며, 여기에는 게재 상태 업데이트 및 활성화된 경우 그대로 중계되는 인바운드 SMS/RCS 메시지가 포함됩니다."
 
 웹후크를 만들려면 다음 단계를 수행합니다.
 
