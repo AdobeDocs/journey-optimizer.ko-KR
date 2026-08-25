@@ -11,21 +11,16 @@ keywords: 게시, 여정, 라이브, 유효성, 확인
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/Hhvwpfq0phAjvzIGgv-NMnnhWhYJ-PpLOL0F4Q-CnqA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
 subfeature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: d49fae216c9f8370760e4a55adcb5090951dbe52
 workflow-type: tm+mt
-source-wordcount: 1823
-ht-degree: 14%
+source-wordcount: 1958
+ht-degree: 13%
 
 ---
 
@@ -54,13 +49,17 @@ ht-degree: 14%
 * **제한 내 페이로드** — 여정 페이로드는 구성된 제한(기본적으로 4MB) 내에 있어야 합니다. [여정 페이로드 크기 유효성 검사](../start/guardrails.md#journey-payload-size)를 참조하십시오.
 * **승인 받음** — 여정이 승인 정책의 적용을 받는 경우 게시하기 전에 요청하여 승인을 받습니다. [자세히 알아보기](../test-approve/gs-approval.md)
 
->[!TIP]
->
->게시하기 전에 사용 가능한 여정 옵션 중 하나를 사용하여 테스트의 유효성을 검사하십시오.
->
->* [시뮬레이션](simulate-journey-gs.md) — Adobe Experience Platform에서 영구 테스트 프로필을 사용하지 않고 시뮬레이션된 사용자를 사용하여 테스트합니다.
->* [테스트 모드](testing-the-journey.md) — Adobe Experience Platform에서 테스트 프로필로 플래그가 지정된 영구 프로필로 테스트합니다.
->* [시험 실행](journey-dry-run.md) — 프로필에 연결하지 않고 실제 프로덕션 데이터로 테스트합니다.
+### 게시하기 전에 올바른 유효성 검사 방법 선택 {#choose-validation-method}
+
+사용 가능한 여정 옵션 중 하나를 사용하여 테스트의 유효성을 검사합니다. 각각은 서로 다른 유형의 데이터를 사용하며 빌드의 다른 단계에 맞습니다.
+
+| 옵션 | 사용된 데이터 | 다음에 최적 | 실제 메시지를 전송하시겠습니까? |
+| --- | --- | --- | --- |
+| [시뮬레이션](simulate-journey-gs.md) | 임시 시뮬레이션 사용자, 자동 생성 | 여정 설계 시 빠른 반복 — AEP 테스트 프로필을 만들거나 프로파일과 함께 전파될 때까지 기다릴 필요 없음 | 아니오 |
+| [테스트 모드](testing-the-journey.md) | 영구 AEP 테스트 프로필 | 초안 여정에서 분기 및 메시지 로직의 단계별 수동 유효성 검사 | 예 — 프로덕션과 동일한 게재 파이프라인을 사용하여 테스트 프로필의 실제 받은 편지함에 |
+| [시험 실행](journey-dry-run.md) | 실제 프로덕션 대상 데이터 | 누구에게도 연락하지 않고 규모에 맞게 실제 대상자의 도달 및 타겟팅에 대한 최종 사전 실행 확인 | 아니오 |
+
+시뮬레이션과 드라이 실행은 실제 커뮤니케이션을 전달하거나 라이브 프로필 데이터를 업데이트하지 않습니다. 테스트 모드는 실제 메시지를 전달하지만, 테스트 프로필로 명시적으로 플래그를 지정한 프로필에만 적용됩니다.
 
 ## 게시 프로세스 {#journey-publication}
 
@@ -176,7 +175,7 @@ ht-degree: 14%
 
 이 비디오에서 여정을 게시하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3427937?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
 
 +++ AI 기술 자료 참조
 
@@ -212,6 +211,7 @@ ht-degree: 14%
 * 정식 이름: 여정 게시 — 약어: 없음 — 변형: 여정 활성화, 라이브 진행
 * 동의어: &quot;Publish&quot; = &quot;activate&quot; = &quot;go live&quot;
 * 혼동하지 마십시오: 중지(모든 프로필의 긴급 중지) ≠ 새 게시물에 닫기(수동 정상 닫기, 기존 프로필 완료) ≠ 닫힘 상태(새 버전이 게시될 때 또는 새 게시물에 수동으로 닫힌 후 자동)
+* 혼동하지 마십시오: 시뮬레이션(임시 시뮬레이션된 사용자, 필요한 AEP 테스트 프로필 없음) ≠ 테스트 모드(영구 AEP 테스트 프로필, 초안 여정 전용) ≠ 시험 실행(실제 프로덕션 대상 데이터, 연락처 없음, 프로필 업데이트 없음, 작업 노드가 무시됨)
 
 **FAQ:**
 * **Q: 여정을 게시한 후 편집할 수 있습니까?** — 레이블, 설명 및 여정 이름만 변경할 수 있습니다. 기타 수정 사항을 적용하려면 새 버전의 여정을 만듭니다.
