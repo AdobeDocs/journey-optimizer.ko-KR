@@ -9,25 +9,16 @@ level: Intermediate
 mini-toc-levels: 2
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 TQID: https://experienceleague.adobe.com/k4DqGogrTZ9QrnqyFGwdgDeUI9ivpOd1iSI0c5comuU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-subfeature_v2:
-  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e7f2c61f88684c3eb8019a534ad4f1e59d37ed43
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: ad78185d-8f79-40ad-9bad-cbde74af74ee
+subfeature_v2: id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 3c9acc89d52b5bfb90429685b97d6693ec1a4dee
 workflow-type: tm+mt
-source-wordcount: 4732
-ht-degree: 89%
+source-wordcount: 4884
+ht-degree: 86%
 
 ---
 
@@ -413,9 +404,26 @@ Adobe Experience Platform에서 API 기반 프로필 만들기/업데이트와 �
 
 Journey Optimizer가 캠페인에서 지원하는 최대 볼륨은 **초당 500개의 트랜잭션 메시지**&#x200B;입니다.
 
+### 하위 도메인 가드레일 {#subdomain-guardrails}
+
+Journey Optimizer의 하위 도메인 위임에 적용되는 가드레일 및 제한 사항에 대해서는 [이 페이지](../configuration/delegate-subdomain.md#guardrails)에 자세히 설명되어 있습니다.
+
 ## 콘텐츠 및 자산 {#content-assets}
 
-이 섹션에서는 랜딩 페이지, 하위 도메인, 조각을 포함한 콘텐츠 제작 및 관리에 대한 가드레일을 다룹니다.
+이 섹션에서는 랜딩 페이지 및 조각을 포함하여 콘텐츠 생성 및 관리를 위한 가드레일을 다룹니다.
+
+### 콘텐츠 작성 보호 {#content-authoring}
+
+콘텐츠 유형에 권장되는 크기 제한은 다음과 같습니다.
+
+| 컨텐츠 유형 | 권장 크기 제한 |
+|---|---|
+| 템플릿 | 1200KB |
+| 조각 | 700KB |
+| 메시지 | 1200KB |
+| 랜딩 페이지 | 1000KB |
+
+콘텐츠 변형이 권장 크기 임계값을 초과하면 경고가 표시됩니다. 이는 모든 콘텐츠 유형 및 채널에 적용되며, 저장 또는 게시를 차단하지 않습니다.
 
 ### 콘텐츠 보호 생성 {#ai-assistant-g}
 
@@ -430,10 +438,6 @@ Journey Optimizer가 캠페인에서 지원하는 최대 볼륨은 **초당 500�
 * 랜딩 페이지에 사전 헤더를 추가할 수 없습니다.
 * 방문 기본 페이지를 디자인할 때 **자신만의 코드 작성** 옵션을 선택할 수 없습니다.
 
-### 하위 도메인 가드레일 {#subdomain-guardrails}
-
-Journey Optimizer의 하위 도메인 위임에 적용되는 가드레일 및 제한 사항에 대해서는 [이 페이지](../configuration/delegate-subdomain.md#guardrails)에 자세히 설명되어 있습니다.
-
 ### 조각 가드레일 {#fragments-guardrails}
 
 [조각](../content-management/fragments.md)에 다음 가드레일이 적용됩니다.
@@ -442,6 +446,11 @@ Journey Optimizer의 하위 도메인 위임에 적용되는 가드레일 및 �
 * 시각적 조각은 이메일 채널에만 사용할 수 있습니다.
 * 인앱 채널에는 표현식 조각을 사용할 수 없습니다.
 * 시각적 조각은 **100KB**&#x200B;를 초과할 수 없습니다. 표현식 조각은 **200KB**&#x200B;를 초과할 수 없습니다.
+* **조각 수 제한**: 작성 중에 콘텐츠 조각 내에서 사용되는 고유한 조각 수가 확인되었습니다. 직접 참조된 조각(AEM 조각 포함)만 카운트됩니다. 다른 조각 내에 중첩된 조각은 별도로 카운트되지 않습니다.
+
+  * **변형당**: 콘텐츠 변형당 최대 60개의 고유 조각. 사용량이 45(제한의 75%)에 도달하면 경고가 표시되며, 60에서 게시가 차단됩니다.
+  * **변형**: 단일 메시지의 모든 변형에서 최대 120개의 고유한 조각. 사용이 90(제한의 75%)에 도달하면 경고가 표시되며, 120에서 게시가 차단됩니다.
+
 * 이제 여정 또는 캠페인에서 조각을 사용하려면 해당 조각이 **라이브** 상태여야 합니다.
 * [컨텍스트 속성](../personalization/personalization-build-expressions.md)은 조각 내에서 지원되지 않습니다.
 * 테마 사용 모드와 수동 스타일 모드 간에는 시각적 조각이 상호 호환되지 않습니다. 테마를 적용할 콘텐츠에서 조각을 사용할 수 있으려면 테마 사용 모드에서 이 조각을 만들어야 합니다. [테마에 대해 자세히 알아보기](../email/apply-email-themes.md)

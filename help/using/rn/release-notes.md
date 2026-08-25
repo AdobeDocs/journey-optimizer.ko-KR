@@ -8,27 +8,15 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 92d0c79a5773c2d7fd7b3f3c2c4c142df7e39466
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 3c9acc89d52b5bfb90429685b97d6693ec1a4dee
 workflow-type: tm+mt
-source-wordcount: 2112
+source-wordcount: 2118
 ht-degree: 20%
 
 ---
@@ -93,14 +81,13 @@ ht-degree: 20%
 </tbody>
 </table>
 
+* **콘텐츠 변형 크기 경고** - 이제 Journey Optimizer은 콘텐츠 변형이 권장 크기 임계값(템플릿 및 메시지: 1200KB, 조각: 700KB, 랜딩 페이지: 1000KB)을 초과할 때 소프트 제한 경고를 표시합니다. 저장 및 게시가 차단되지 않습니다. [자세히 알아보기](../start/guardrails.md#content-authoring)
 
-+++ 곧 출시 예정 — **아래 정보는 변경될 수 있습니다.**
+  사용 가능한 날짜: 2026년 8월 25일
 
-* **콘텐츠 변형 크기 경고** - 이제 Journey Optimizer은 콘텐츠 변형이 권장 크기 임계값(템플릿 및 메시지: 1200KB, 조각: 700KB, 랜딩 페이지: 1000KB)을 초과할 때 소프트 제한 경고를 표시합니다. 저장 및 게시가 차단되지 않습니다.
+* **콘텐츠의 조각 수 제한** - 이제 Journey Optimizer이 변형당 최대 60개, 단일 메시지의 모든 변형에서 최대 120개의 콘텐츠 조각 내에서 사용된 고유 조각 수를 확인합니다. 경고는 각 제한의 75%에 표시됩니다. 엄격한 제한에 도달하면 게시가 차단됩니다. [자세히 알아보기](../start/guardrails.md#fragments-guardrails)
 
-* **콘텐츠의 조각 수 제한** - 이제 Journey Optimizer이 변형당 최대 60개, 단일 메시지의 모든 변형에서 최대 120개의 콘텐츠 조각 내에서 사용된 고유 조각 수를 확인합니다. 경고는 각 제한의 75%에 표시됩니다. 엄격한 제한에 도달하면 게시가 차단됩니다.
-
-+++
+  사용 가능한 날짜: 2026년 8월 25일
 
 ### 여정 {#aug-26-journeys}
 
