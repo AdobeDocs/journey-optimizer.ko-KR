@@ -482,4 +482,4 @@ Content-Type: application/json
 
 ➡️ 충성도 보상 공급자를 설정하는 방법 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3497346?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3497414?captions=kor&quality=12)

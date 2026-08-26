@@ -368,21 +368,21 @@ ht-degree: 12%
 
 **충성도 과제 설정** - 새 충성도 과제를 만들고 구성합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3496471?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496476?captions=kor&quality=12)
 
 **보상 구성** - 보상 전달 및 이행 설정
 
->[!VIDEO](https://video.tv.adobe.com/v/3496481?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496486?captions=kor&quality=12)
 
 ➡️ 챌린지 콘텐츠 카드를 만드는 방법 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3496529?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496534?captions=kor&quality=12)
 
 ➡️ 문제에 대한 라이프사이클 메시지를 설정하는 방법 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3497455?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3497460?captions=kor&quality=12)
 
 ➡️ 문제를 게시하고 여정을 생성하는 방법을 확인하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3498577?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3498582?captions=kor&quality=12)
 
