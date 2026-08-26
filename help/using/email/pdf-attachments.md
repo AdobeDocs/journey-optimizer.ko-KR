@@ -25,7 +25,7 @@ level_v2:
 source-git-commit: c1270581f5184ca1f5375a2838dfb2906805a259
 workflow-type: tm+mt
 source-wordcount: 916
-ht-degree: 7%
+ht-degree: 11%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_pdf_attachments"
 >title="PDF 첨부 파일 추가"
->abstract="이메일에 첨부할 PDF 파일을 찾아보십시오.</br>프로필당 연간 최대 6개의 메시지를 PDF 첨부 파일로 보낼 수 있습니다. 각 첨부 파일의 최대 허용 파일 크기는 5MB입니다.</br>추가 크기 또는 볼륨의 경우 PDF 첨부 파일 추가 기능을 구입할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오."
+>abstract="이메일에 첨부할 PDF 파일을 찾아보십시오.</br>매년 프로필별로 PDF 첨부 파일이 포함된 최대 6개의 메시지를 보낼 수 있습니다. 각 첨부 파일의 최대 크기는 5MB입니다.</br>크기나 볼륨이 더 필요하다면 PDF 첨부 파일 추가 기능을 구매할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오."
 
 [!DNL Journey Optimizer]&#x200B;(으)로 보내는 전자 메일 메시지에 정적 PDF 파일을 첨부할 수 있습니다. [API 트리거 캠페인](../campaigns/api-triggered-campaigns.md)을 사용하는 경우 각 수신자에 대해 [개인화된 PDF 파일을 첨부](#personalized-attachments)할 수도 있습니다.
 
