@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 3c9acc89d52b5bfb90429685b97d6693ec1a4dee
+source-git-commit: f6a2cbb467d58b5d6d12bd59fd64a83cee96c185
 workflow-type: tm+mt
-source-wordcount: 2118
+source-wordcount: 2183
 ht-degree: 20%
 
 ---
@@ -86,7 +86,7 @@ ht-degree: 20%
 <td>
 <p>이제 Journey Optimizer에서 콘텐츠를 생성하면 Adobe Experience Manager Assets Essentials 등에서 브랜드로 승인된 이미지가 직접 소싱됩니다. 균형을 제어하는 모드는 밸런스(Digital Asset Management-first, AI가 격차를 채우는 방식, 기본값), Assets(Digital Asset Management-sourced), Creative(AI)의 세 가지 모드입니다.</p>
 <p><img src="../content-management/assets/image-mode-3.png"></p>
-<p>자세한 내용은 <a href="../content-management/generative-uc.md#image-mode">세부 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../content-management/generative-uc.md#image-mode">세부 설명서</a>를 참조하십시오.</p>
 <p> 사용 가능한 날짜: 2026년 8월 5일</p>
 </td>
 </tr>
@@ -118,6 +118,23 @@ ht-degree: 20%
   사용 가능한 날짜: 2026년 8월 13일
 
 +++ 곧 출시 예정 — **아래 정보는 변경될 수 있습니다.**
+
+<table>
+<thead>
+<tr>
+<th><strong>여정에서 AI를 사용하여 표현식 생성</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 여정 고급 표현식 편집기는 AI 기반의 표현식 생성을 통합합니다. 빌드할 표현식을 자연어로 설명하고, 편집기는 즉시 적용하거나 후속 프롬프트를 통해 구체화할 수 있는 사용 준비 코드를 생성합니다.</p>
+<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
+<p>사용 가능한 날짜: 2026년 8월 31일</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -155,7 +172,7 @@ ht-degree: 20%
 <p>이제 Journey Optimizer은 정적 및 수신자별 PDF를 모두 포함하여 API 트리거 캠페인에서 이메일당 최대 <b>5개의 PDF 첨부 파일</b>을 지원합니다. 수신자별 PDF 파일을 데이터 랜딩 구역에서 안전하게 가져와서 전송 시 첨부합니다. 이때 각 파일의 위치는 API 페이로드로 직접 전달됩니다. 이렇게 하면 Journey Optimizer에서 게재를 처리하면서 기존 업스트림 문서 생성 시스템이 제자리에 유지될 수 있습니다.</p>
 <p>지원되는 사용 사례에는 송장, 명세서, 티켓, 계약서, 배송 라벨 및 수신자마다 다른 유사한 문서가 포함됩니다. 개인화된 PDF 첨부 파일은 트랜잭션 API 트리거 이메일 캠페인에만 사용할 수 있으며, 여정 또는 오케스트레이션된 캠페인에서는 지원되지 않습니다.</p>
 <p>PDF 첨부 파일 추가 기능을 통해 더 큰 첨부 파일 볼륨 및 크기가 지원됩니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.</p>
-<p>자세한 내용은 <a href="../email/pdf-attachments.md#personalized-attachments">세부 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../email/pdf-attachments.md#personalized-attachments">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2026년 8월 12일</p>
 </td>
 </tr>
@@ -205,7 +222,7 @@ ht-degree: 20%
 <tr>
 <td>
 <p>이제 자동 시간 을 적용할 수 있습니다. 방해 금지 - 특정 기간 동안 메시지가 전송되지 않도록 시간 기반 제외 항목을 정의할 수 있으므로, 캠페인 오케스트레이션 사용 사례 전반에서 고객 선호도 및 규정 준수 요구 사항을 준수할 수 있습니다.</p>
-<p>자세한 내용은 <a href="../conflict-prioritization/quiet-hours.md">세부 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../conflict-prioritization/quiet-hours.md">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2026년 8월 18일</p>
 </td>
 </tr>
@@ -222,7 +239,7 @@ ht-degree: 20%
 <tr>
 <td>
 <p>이제 시간에 따라 제어된 배치로 게재되도록 아웃바운드 메시지를 예약할 수 있습니다. 대량 또는 시간에 민감한 캠페인에 적합한 웨이브 전송은 더 나은 전달성을 지원하며, 스팸으로 플래그가 지정될 위험을 줄여 강력한 발신자 평판을 유지하는 데도 도움이 됩니다. </p>
-<p>자세한 내용은 <a href="../delivery/send-using-waves.md">세부 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../delivery/send-using-waves.md">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2026년 8월 18일</p>
 </td>
 </tr>
@@ -239,7 +256,7 @@ ht-degree: 20%
 <tr>
 <td>
 <p>이제 오케스트레이션된 캠페인에 LINE 작업을 추가할 수 있습니다. 이 새로운 활동을 통해 텍스트, 스티커, 이미지, 비디오, 위치 데이터 및 풍부한 Flex 메시지를 비롯한 고도로 개인화된 콘텐츠를 구축 및 전달하여 LINE 플랫폼에서 고객을 원활하게 참여시킬 수 있습니다. 이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
-<p>자세한 내용은 <a href="../orchestrated/activities/channels.md">세부 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../orchestrated/activities/channels.md">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2026년 8월 12일</p>
 </td>
 </tr>

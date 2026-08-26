@@ -10,9 +10,9 @@ level: Intermediate
 exl-id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 82fd2e225b54a2c47081303b230ab66fc2149022
+source-git-commit: b227bcd835d2814e0a1eee0f88ca44dea051a765
 workflow-type: tm+mt
-source-wordcount: 510
+source-wordcount: 531
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 충성도 과제 보고를 사용하여 과제의 성과를 확인하십시오. 누가 가입하고 있는지, 누가 도전을 완료하고 있는지, 프로그램의 매출액이 얼마나 되는지 모두 한 곳에서 확인합니다. 데이터는 Adobe Customer Journey Analytics에서 가져옵니다.
 
 보고 대시보드를 열려면 Journey Optimizer의 **[!UICONTROL 충성도 과제]**(으)로 이동한 다음 왼쪽 탐색에서 **[!UICONTROL 성능]**&#x200B;을 선택하십시오.
+
+➡️ [과제 보고서를 사용하여 과제 성과를 측정하는 방법을 확인하십시오](#video)
 
 보고 인터페이스에는 두 개의 탭이 있습니다.
 
@@ -90,3 +92,8 @@ Each card has a priority badge — **High**, **Medium**, or **Low** — based on
 | **구성원 주기** | 멤버가 등록, 참여 및 이탈 단계를 진행하는 방식 |
 | **트렌드** | 주별 주기, 계절별 급증 또는 추세 역전과 같은 시간 기반 패턴 |
 
+## 방법 비디오 {#video}
+
+➡️ 과제 보고서를 사용하여 과제 성과를 측정하는 방법 보기
+
+>[!VIDEO](https://video.tv.adobe.com/v/3497564?captions=kor&quality=12)
