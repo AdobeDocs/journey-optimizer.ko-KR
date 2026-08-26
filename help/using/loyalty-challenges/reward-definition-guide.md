@@ -11,10 +11,10 @@ mini-toc-levels: 1
 exl-id: 9b0fd9d8-18d1-4a51-8b6f-b2e2a4c6f1d7
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
+source-git-commit: b227bcd835d2814e0a1eee0f88ca44dea051a765
 workflow-type: tm+mt
-source-wordcount: 1183
-ht-degree: 5%
+source-wordcount: 1204
+ht-degree: 6%
 
 ---
 
@@ -62,6 +62,8 @@ ht-degree: 5%
 시도 작업, 마일스톤 또는 시도가 **을(를) 완료하고 보상 값이 구성되어**&#x200B;있으면 플랫폼에서 JSON 페이로드로 보상 공급자의 HTTP 끝점을 호출하여 보상을 발행합니다. **보상 정의**&#x200B;는 어떤 보상을 발행하는지 설명하고 공급자가 기대하는 정확한 페이로드를 형성하는 [JSONata](https://docs.jsonata.org/overview) 표현식(`rewardJsonata`)을 제공합니다.
 
 이 안내서에서는 보상 제공자를 구성하고, 보상 정의를 만들고, `rewardJsonata` 표현식을 작성하고, 평가 시 사용할 수 있는 컨텍스트를 이해하는 방법에 대해 설명합니다.
+
+➡️ [충성도 보상 공급자를 설정하는 방법 보기](#video)
 
 ## 2단계 모델
 
@@ -476,3 +478,8 @@ Content-Type: application/json
 | 소스가 `"task"` 또는 `"challenge"`인 경우 `milestone`에 액세스함 | `milestone`이(가) null입니다. 식에서 null 필드가 생성되거나 발생합니다. | `milestone`에 액세스하기 전에 `rewardContext.source`을(를) 확인하거나 마일스톤 보상에 첨부된 정의에서만 `milestone`을(를) 사용하십시오. |
 | 식이 개체 대신 배열을 반환합니다. | 공급자가 예기치 않은 페이로드 구조를 수신합니다. | 외부 개체에서 배열 반환 식을 래핑합니다. `{ "items": [...] }` |
 
+## 방법 비디오 {#video}
+
+➡️ 충성도 보상 공급자를 설정하는 방법 보기
+
+>[!VIDEO](https://video.tv.adobe.com/v/3497346?quality=12)

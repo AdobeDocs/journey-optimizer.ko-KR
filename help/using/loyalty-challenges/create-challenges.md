@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: 82fd2e225b54a2c47081303b230ab66fc2149022
+source-git-commit: b227bcd835d2814e0a1eee0f88ca44dea051a765
 workflow-type: tm+mt
-source-wordcount: '2521'
+source-wordcount: '2577'
 ht-degree: 12%
 
 ---
@@ -276,6 +276,8 @@ ht-degree: 12%
 
    여러 작업을 추가하여 서로 다른 서피스에 걸쳐 문제를 나타낼 수 있습니다.
 
+➡️ [챌린지 콘텐츠 카드를 만드는 방법을 확인하십시오](#video)
+
 콘텐츠를 구성한 후 메시지를 설정하여 과제 라이프사이클 전반에 걸쳐 고객을 참여시킵니다.
 
 ### 메시지 구성 {#configure-messaging}
@@ -308,6 +310,8 @@ ht-degree: 12%
 | **[!UICONTROL 코드 기반 경험]** | AJO의 코드 기반 채널을 사용하여 맞춤형 구현을 통해 콘텐츠를 전달합니다. [코드 기반 경험 정보](../code-based/get-started-code-based.md) · [코드 기반 경험 만들기](../code-based/create-code-based.md) |
 | **[!UICONTROL 사용자 지정 작업]** | 외부 시스템 또는 사용자 지정 끝점을 트리거합니다. [사용자 지정 작업 정보](../action/about-custom-action-configuration.md) |
 
+➡️ [문제에 대한 라이프사이클 메시지를 설정하는 방법 보기](#video)
+
 이제 과제 설정, 구조, 콘텐츠 및 메시징으로 완전히 구성됩니다. 시작하려면 문제와 관련 여정을 게시해야 합니다.
 
 ## 과제 실행 {#launch}
@@ -317,6 +321,8 @@ ht-degree: 12%
 * **[!UICONTROL 여정 게시]**(**[!UICONTROL ..]** 메뉴에서 사용 가능) — 이 옵션을 사용하여 게시를 생성하지 않고 문제를 게시합니다. 이를 통해 게재 전에 과제 경험을 테스트하고, 미리 보고, 시뮬레이션할 수 있습니다. 고객은 여정을 생성하고 게시할 때까지 챌린지를 받지 않습니다.
 
 * **[!UICONTROL 여정 생성]** — 이 옵션을 사용하여 자동으로 문제를 게시하고 고객에게 문제 전달을 오케스트레이션할 여정을 만드십시오.
+
+➡️ [문제를 게시하고 여정을 생성하는 방법을 확인하십시오](#video)
 
 ### 과제 게시 {#publish-challenge}
 
@@ -362,9 +368,21 @@ ht-degree: 12%
 
 **충성도 과제 설정** - 새 충성도 과제를 만들고 구성합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3496476?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496471?quality=12)
 
 **보상 구성** - 보상 전달 및 이행 설정
 
->[!VIDEO](https://video.tv.adobe.com/v/3496486?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496481?quality=12)
+
+➡️ 챌린지 콘텐츠 카드를 만드는 방법 보기
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496529?quality=12)
+
+➡️ 문제에 대한 라이프사이클 메시지를 설정하는 방법 보기
+
+>[!VIDEO](https://video.tv.adobe.com/v/3497455?quality=12)
+
+➡️ 문제를 게시하고 여정을 생성하는 방법을 확인하십시오.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3498577?quality=12)
 
