@@ -7,22 +7,14 @@ short-description: 오케스트레이션된 캠페인 주요 기능 및 사용 �
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ePbw3PWwBuZl5A3bdBzM0gb4koCEH09WUX0P-g8z3VM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: eca89b39416441b46327ee6b14c827f91d91f11f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: a5c0cf17bc1b9234d28fcad12bff69da6ff33ce9
 workflow-type: tm+mt
-source-wordcount: 986
-ht-degree: 98%
+source-wordcount: 989
+ht-degree: 94%
 
 ---
 
@@ -37,7 +29,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_orchestrated"
 >title="오케스트레이션된 캠페인 개요"
->abstract="<b>Campaign 오케스트레이션</b><br/>관계형 데이터 세트를 분할, 결합, 강화, 조작하여 대상자를 정의합니다<br/><br/> <b>다중 엔티티 데이터 활용</b><br/>오케스트레이션된 캠페인이 관계형 데이터 세트를 활용하여 세분화 및 개인화를 위한 데이터를 확장하는 방법 알아보기<br/><br/><b>애드혹 세분화 및 정확한 카운트</b><br/>정확한 카운트를 기반으로 단계별로 세그먼트 빌드<br/><br/><b>사용 가능한 채널</b><br/>이메일, SMS, 푸시 알림, 다이렉트 메일"
+>abstract="<b>Campaign 오케스트레이션</b><br/>관계형 데이터 세트를 분할, 결합, 강화, 조작하여 대상자를 정의합니다<br/><br/> <b>여러 엔터티 데이터 활용</b><br/>오케스트레이션된 캠페인이 관계형 데이터 세트를 활용하여 세분화 및 개인화를 위한 데이터를 보강하는 방법에 대해 알아보기<br/><br/><b>임시 세분화 및 정확한 카운트</b><br/>정확한 카운트로 단계별 세그먼트 구축<br/><br/><b>사용 가능한 채널</b><br/>이메일, SMS, 푸시 알림, DM, LINE, 사용자 지정 채널"
 
 [!DNL Adobe Journey Optimizer]의 Campaign Orchestration은 **마케팅** 및 **트랜잭션** 모두에서 채널 전반에서 정교한 브랜드 주도 캠페인을 지원합니다. 마케팅 캠페인은 참여도, 매출 및 고객 충성도를 대규모로 높이는 데 도움이 됩니다. 트랜잭션 메시지는 옵트인이 필요하지 않으며, 서비스 중단, 긴급 상황 또는 취소와 같이 시급한 커뮤니케이션에 적합합니다.
 
