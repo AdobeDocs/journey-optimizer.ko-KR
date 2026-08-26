@@ -47,7 +47,7 @@ C2PA 메타데이터는 콘텐츠의 한 부분이 생성되거나 편집되는 
 
 ## 콘텐츠가 이동할 때 수행되는 작업 {#cc-content-moves}
 
-C2PA 메타데이터는 이미지 파일과 함께 이동합니다. 생성 AI로 생성 또는 편집한 이미지를 Adobe Journey Optimizer에서 다운로드하거나 내보내면 해당 C2PA 메타데이터가 보존됩니다. [C2PA 메타데이터에 대해 자세히 알아보세요](https://helpx.adobe.com/firefly/using/content-credentials.html){target="_blank"}.
+C2PA 메타데이터는 이미지 파일과 함께 이동합니다. 생성 AI로 생성 또는 편집한 이미지를 Adobe Journey Optimizer에서 다운로드하거나 내보내면 해당 C2PA 메타데이터가 보존됩니다. [C2PA 메타데이터에 대해 자세히 알아보세요](https://helpx.adobe.com/kr/firefly/using/content-credentials.html){target="_blank"}.
 
 PDF 또는 임베드된(base64) 소스에서 이미지를 추출하는 것과 같이 이미지를 콘텐츠로 가져오는 일부 방법은 원래 C2PA 메타데이터를 보존하지 않을 수 있습니다. 이러한 경우 소스에서 C2PA 메타데이터를 읽을 수 없으며 결과에 대해 아무것도 만들어지지 않습니다.
 
@@ -55,4 +55,4 @@ PDF 또는 임베드된(base64) 소스에서 이미지를 추출하는 것과 �
 
 * [Adobe Experience Cloud Generative AI 사용자 지침](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}
 * [가드레일 및 제한 사항](gs-generative.md#generative-guardrails)
-* [생성 AI 콘텐츠 투명도](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency#related-links)
+* [생성 AI 콘텐츠 투명도](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency#related-links)
