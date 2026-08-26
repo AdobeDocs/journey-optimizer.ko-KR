@@ -9,32 +9,16 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 TQID: https://experienceleague.adobe.com/RqIzgHdwFqBmYLPKbMkAvscFopYMF-lt2gY4Vl34GKA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: f3781010d99a2993f88fd4907a94278c610cb4cb
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5deeid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 6502d54fa05cba117a0ae72242d9c06dde2ce4ab
 workflow-type: tm+mt
-source-wordcount: 1429
-ht-degree: 96%
+source-wordcount: 1608
+ht-degree: 86%
 
 ---
 
@@ -191,7 +175,7 @@ Adobe 지원 센터에 문의하실 때는 다음 정보가 포함되어야 근�
 **연결** - 다른 시스템과 통합합니다.
 
 * **소스** - 외부 시스템에서 데이터를 수집합니다. [소스 구성](get-started-sources.md)
-* **대상** - 데이터를 클라우드 스토리지로 내보냅니다. [대상을 설정](../data/export-datasets.md). [Experience Platform 대상 카탈로그](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=ko){target="_blank"}에서 Adobe Target과 같은 적합한 개인화 대상에 대상을 활성화할 수도 있습니다.
+* **대상** - 데이터를 클라우드 스토리지로 내보냅니다. [대상을 설정](../data/export-datasets.md). [Experience Platform 대상 카탈로그](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html){target="_blank"}에서 Adobe Target과 같은 적합한 개인화 대상에 대상을 활성화할 수도 있습니다.
 
 **고객** - 대상자와 프로필을 관리합니다.
 
@@ -371,3 +355,24 @@ AI 어시스턴트는 즉각적인 도움과 운영 인사이트를 제공합니
 
 <!-- Asset selector content generation -->
 
+<!--SMS webhooks inbound relay -->
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_webhook_relay_auth_body"
+>title="본문 인증"
+>abstract="토큰을 요청할 때 요청 본문 Journey Optimizer이 인증 엔드포인트로 전송합니다. 인증 콘텐츠 유형이 `application/x-www-form-urlencoded`(으)로 설정되어 있더라도 항상 유효한 JSON을 입력하십시오. Journey Optimizer은 토큰 종단점을 호출하기 전에 서버측에서 올바른 형식으로 정리합니다. 예: `{"grant_type":"client_credentials","client_id":"...","client_secret":"...","scope":"..."}`"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_webhook_relay_header_parameters"
+>title="헤더 매개변수"
+>abstract="대상 끝점에 대한 모든 릴레이 요청에 포함된 정적 HTTP 헤더(예: API 키(예: x-api 키). 위에서 구성한 인증 토큰과 함께 전송됩니다. 행당 하나의 헤더를 이름/값 쌍으로 추가합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_webhook_relay_auth_type"
+>title="인증 유형"
+>abstract="Journey Optimizer에서 릴레이 대상을 인증하는 방법입니다. 자격 증명 없이 메시지를 릴레이하려면 **인증 없음**&#x200B;을 선택하고, 인증 끝점에서 토큰(예: OAuth 클라이언트 자격 증명 흐름)을 먼저 요청하고, 모든 릴레이 요청에 연결하려면 **사용자 지정 인증**&#x200B;을 선택하십시오."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_webhook_relay_url"
+>title="릴레이 대상 URL"
+>abstract="HTTPS 끝점 Journey Optimizer은 들어오는 각 메시지를 중계하기 위해 를 호출합니다. Journey Optimizer은 수신한 메시지마다 별도의 HTTP POST를 여기에 보냅니다. 이는 사용자 지정 인증 아래의 인증 URL과 구별되며, 액세스 토큰을 얻는 데만 사용되고 메시지를 받는 데는 사용되지 않습니다."
