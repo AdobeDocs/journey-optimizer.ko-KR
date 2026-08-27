@@ -28,9 +28,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8d9c09a7be3757624c72a0a9d2739d0dbb48adeb
+source-git-commit: 40073ba8a2d11c1482c11833c0c958ffbcb1017b
 workflow-type: tm+mt
-source-wordcount: 3541
+source-wordcount: 3556
 ht-degree: 5%
 
 ---
@@ -43,6 +43,8 @@ ht-degree: 5%
 **이 페이지에서:** 시뮬레이션 사용자를 사용하는 시뮬레이션과 테스트 프로필을 사용하는 테스트 모드를 사용하여 여정을 게시하기 전에 유효성을 검사하여 오류를 조기에 발견하는 방법에 대해 알아봅니다.
 
 >[!ENDSHADEBOX]
+
+테스트 모드가 올바른 방법인지 확신할 수 없습니까? [세 가지 유효성 검사 옵션 모두 비교](choose-validation-method.md).
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test"

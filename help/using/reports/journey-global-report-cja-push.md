@@ -25,10 +25,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: 89ae83700f331524bb43b019edb2599d6b3d95ba
 workflow-type: tm+mt
-source-wordcount: 593
-ht-degree: 3%
+source-wordcount: 605
+ht-degree: 2%
 
 ---
 
@@ -126,6 +126,8 @@ ht-degree: 3%
 ## 오류 원인 {#error-reasons-push}
 
 **[!UICONTROL 오류 원인]** 테이블을 사용하면 푸시 알림을 보내는 동안 발생한 특정 오류를 식별할 수 있으므로 발생한 문제를 철저히 분석할 수 있습니다.
+
+푸시 오류 원인의 자세한 목록은 [이 섹션](campaign-global-report-cja-push.md#error-reasons-push)을 참조하세요.
 
 ## 제외된 이유 {#exclude-reasons-push}
 

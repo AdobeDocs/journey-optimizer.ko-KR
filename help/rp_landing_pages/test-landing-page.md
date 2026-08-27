@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: 테스트, 유효성 검사, 승인, 품질 보증, QA, 테스트 프로필, 개인화, 렌더링, 스팸 검사, 콘텐츠 실험, A/B 테스트, 충돌 감지, 시드 목록, 교정본, 샘플 데이터, 승인 워크플로, 이메일 테스트, 유효성 검사 워크플로
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: ee9c8fedbd7e7a390bbe9a06ce6fc78bc4fc9b0e
 workflow-type: tm+mt
-source-wordcount: '2380'
-ht-degree: 100%
+source-wordcount: '2596'
+ht-degree: 87%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 100%
 
 여정 테스트
 
-게시하기 전에 특정 프로필을 사용하여 테스트하고 이벤트, 조건, 액션이 예상대로 작동하는지 확인하여 여정의 유효성을 검사합니다. 네임스페이스를 사용하는 초안 여정에 사용할 수 있습니다.
+게시하기 전에 특정 프로필을 사용하여 테스트하고 이벤트, 조건, 액션이 예상대로 작동하는지 확인하여 여정의 유효성을 검사합니다. 네임스페이스를 사용하는 초안 여정에 사용할 수 있습니다. 어떤 방법이 맞는지 잘 모르겠습니까? [유효성 검사 방법 선택](../using/building-journeys/choose-validation-method.md)을 참조하십시오.
 
 [여정 테스트](../using/building-journeys/testing-the-journey.md)
 :::
@@ -238,14 +238,18 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 **모든 여정의 경우:**
 
-* 프로필 진행 상황을 시뮬레이션하려면 [테스트 모드](../using/building-journeys/testing-the-journey.md)를 사용합니다(초안 여정만 해당, 네임스페이스 필요). 메시지를 보내지 않고 실행 경로를 분석하려면 [시험 실행](../using/building-journeys/journey-dry-run.md)을 사용합니다.
+* [여정 시뮬레이션](../using/building-journeys/simulate-journey-gs.md)을 사용하여 임시 시뮬레이션 사용자가 포함된 분기를 신속하게 테스트합니다. 테스트 프로필이 필요하지 않습니다.
+* [테스트 모드](../using/building-journeys/testing-the-journey.md)를 사용하여 실제 AEP 테스트 프로필로 분기 및 메시지 논리를 수동으로 진행합니다(초안 여정 전용, 네임스페이스 필요).
+* 메시지를 보내지 않고 게시하기 바로 전에 [시험 실행](../using/building-journeys/journey-dry-run.md)을 사용하여 실제 대상 도달 및 분기 논리를 규모에 맞게 확인합니다
 * [미리 보기 및 교정본](../using/content-management/preview-test.md)을 사용하여 개별 메시지 테스트
 * 다른 여정 및 캠페인과의 [충돌](../using/conflict-prioritization/conflicts.md) 확인
 * 게시 전에 [승인](../using/test-approve/gs-approval.md) 제출
 
+세 가지 여정 유효성 검사 방법 중 어떤 방법을 사용해야 할지 확실하지 않습니까? 전체 비교는 [유효성 검사 방법 선택](../using/building-journeys/choose-validation-method.md)을 참조하십시오.
+
 **복잡한 여정의 경우:**
 
-* 테스트 모드와 시험 실행을 함께 사용하여 분기 논리와 실행 경로를 철저히 검증합니다.
+* 분기 논리를 반복하는 동안 여정 시뮬레이션을 사용한 다음 테스트 모드와 시험 실행을 함께 사용하여 게시하기 전에 분기 논리와 실행 경로를 철저히 검증하십시오
 * 다양한 항목 조건 및 프로필 속성을 체계적으로 테스트합니다.
 
 **참고:** 충돌 감지 및 여정 제한 기능은 단일 여정, 대상자 선별 및 대상자 읽기 여정에만 사용할 수 있습니다.
@@ -279,6 +283,8 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 1. **이해 당사자 모니터링에 시드 목록 사용** - 품질 모니터링 및 규정 준수 확인을 위해 실행 시점에 모든 결과물의 사본을 받을 내부 이해 당사자를 자동으로 포함하도록 [시드 목록](../using/configuration/seed-lists.md)을 구성합니다(이메일 채널만 해당).
 
+1. **테스트 프로필을 만들기 전에 여정 시뮬레이션을 반복합니다** - [여정 시뮬레이션](../using/building-journeys/simulate-journey-gs.md)을 사용하여 임시 시뮬레이션된 사용자가 있는 새 분기 또는 의사 결정 정책 경로의 유효성을 빠르게 검사하여 실제 AEP 테스트 프로필이 있는 여정을 수동으로 통과해야 하는 경우 [테스트 모드](../using/building-journeys/testing-the-journey.md)를 저장합니다.
+
 1. **여정 경로 시뮬레이션** - 분기가 여러 개인 복잡한 여정의 경우 [테스트 모드](../using/building-journeys/testing-the-journey.md)를 사용하여 다양한 입력 조건과 프로필 속성을 테스트하여 가능한 모든 경로의 유효성을 검사합니다. 네임스페이스를 사용하는 초안 여정에 사용할 수 있습니다.
 
 1. **전달성 지표 확인** - 대량 발송 전에 [스팸 점수](../using/content-management/spam-report.md), 인증 상태 및 이메일 상태 지표를 검토합니다(이메일 채널만 해당).
@@ -295,7 +301,7 @@ Use this decision tree to quickly identify the right testing tools for your spec
 |-------|-------------|-------------|
 | **1. 콘텐츠 유효성 검사** | 개인화, 디자인, 렌더링 | [테스트 프로필을 사용한 미리 보기](../using/content-management/preview-test.md), CSV/JSON을 사용한 [여러 변형](../using/test-approve/simulate-sample-input.md) 테스트, 장치 간 [렌더링](../using/content-management/rendering.md) 확인 |
 | **2. 기술 검사** | 전달성, 링크, 충돌 | [스팸 점수 확인](../using/content-management/spam-report.md) 실행, 링크 유효성 검사, 다른 캠페인과의 [충돌](../using/conflict-prioritization/conflicts.md) 확인 |
-| **3. 여정 논리**(여정 전용) | 입력 조건, 흐름, 분기 | 진행 상황을 시뮬레이션하려면 [테스트 모드](../using/building-journeys/testing-the-journey.md)를 사용하고, 복잡한 경로의 경우 [드라이 런](../using/building-journeys/journey-dry-run.md)을 실행합니다. |
+| **3. 여정 논리**(여정 전용) | 입력 조건, 흐름, 분기 | 빠른 반복에는 [여정 시뮬레이션](../using/building-journeys/simulate-journey-gs.md), 실제 테스트 프로필이 있는 논리를 수행하려면 [테스트 모드](../using/building-journeys/testing-the-journey.md)를 사용하고, 규모에 맞는 최종 검사에는 [시험 실행](../using/building-journeys/journey-dry-run.md)을 사용하십시오. [선택하는 방법](../using/building-journeys/choose-validation-method.md) 참조 |
 | **4. 출시 전** | 설정, 승인, 모니터링 | [승인](../using/test-approve/gs-approval.md)을 위해 제출하고, 일정과 대상자를 확인하고, [경고](../using/reports/alerts.md)를 활성화합니다. |
 
 **전문가 팁:** 콘텐츠를 구축하기 전에 표현식을 테스트하려면 [개인화 플레이그라운드](../using/personalization/personalize.md#playground)부터 시작하고 과도한 메시지를 방지하기 위해 출시하기 전에 항상 [충돌 감지](../using/conflict-prioritization/conflicts.md)를 확인하세요.
@@ -360,7 +366,9 @@ Journey Optimizer의 테스트 및 승인 기능을 더 잘 이해하려면 다�
 
 **[테스트 프로필](../using/content-management/test-profiles.md)** - 개인화된 콘텐츠를 미리 보기 위해 사용되는 가상 고객 프로필(실제 고객이 아님)입니다. 실시간 고객 프로필 서비스에서 플래그가 표시되었습니다. 테스트 모드와 콘텐츠 미리 보기에 필요합니다. [테스트 프로필을 만드는 방법 알아보기](../using/audience/creating-test-profiles.md)
 
-**[테스트 모드](../using/building-journeys/testing-the-journey.md)** - 여정 경로를 통해 테스트 프로필을 전송하는 여정 시뮬레이션 기능입니다. 제한 사항: 초안 여정 전용이고, 네임스페이스가 필요하며, 테스트 프로필만 해당됩니다. [테스트 모드 설명서 보기](../using/building-journeys/testing-the-journey.md)
+**[여정 시뮬레이션](../using/building-journeys/simulate-journey-gs.md)** - 실제 AEP 테스트 프로필 대신 수동으로 만들었거나 자동으로 생성된, 임시로 시뮬레이션된 사용자로 여정을 실행하는 유효성 검사 방법입니다. 사용 사례: 여정 설계 중 빠른 반복. [여정 시뮬레이션 시작](../using/building-journeys/simulate-journey-gs.md)
+
+**[테스트 모드](../using/building-journeys/testing-the-journey.md)** - 여정 경로를 통해 실제 AEP 테스트 프로필을 전송하는 여정 유효성 검사 기능입니다. 제한 사항: 초안 여정 전용이고, 네임스페이스가 필요하며, 테스트 프로필만 해당됩니다. [테스트 모드 설명서 보기](../using/building-journeys/testing-the-journey.md)
 
 **[시험 실행](../using/building-journeys/journey-dry-run.md)** - 메시지를 보내거나 API 호출을 수행하지 않고 경로를 추적하는 여정 실행 분석 도구입니다. 사용 사례: 리소스를 사용하지 않고 논리를 검증합니다. [시험 실행에 대해 알아보기](../using/building-journeys/journey-dry-run.md)
 
@@ -428,13 +436,13 @@ Journey Optimizer의 테스트 및 승인 기능을 더 잘 이해하려면 다�
 * 테스트 + 콘텐츠 실험 - 성능 최적화
 * 테스트 + 보고 - 지속적인 개선 주기
 * 테스트 프로필 + 개인화 - 콘텐츠 유효성 검사
-* 시험 실행 + 테스트 모드 - 포괄적인 여정 유효성 검사
+* 여정 시뮬레이션 + 테스트 모드 + 시험 실행 - 포괄적인 여정 유효성 검사
 
 ### 일반적인 기능 조합
 
 * 콘텐츠 테스트: 테스트 프로필 + 샘플 입력 데이터 + 개인화 플레이그라운드
 * 이메일 유효성 검사: 테스트 렌더링 + 스팸 점수 + 테스트 프로필 + 교정본
-* 여정 유효성 검사: 테스트 모드 + 시험 실행 + 테스트 프로필
+* 여정 검증: 여정 시뮬레이션 + 테스트 모드 + 시험 실행 + 테스트 프로필
 * 출시 전 체크리스트: 모든 기술 테스트 + 충돌 감지 + 승인 워크플로
 
 >[!TAB 일반적인 질문]
@@ -451,11 +459,12 @@ Journey Optimizer의 테스트 및 승인 기능을 더 잘 이해하려면 다�
 **대안:** 주요 세그먼트를 포괄하는 3~5개의 대표적인 [테스트 프로필](../using/audience/creating-test-profiles.md) 생성
 **학습 도구:** [개인화 플레이그라운드](../using/personalization/personalize.md#playground)에서 먼저 실험
 
-### Q: 여정의 테스트 모드와 시험 실행 간의 차이점은 무엇인가요?
+### Q: 여정 시뮬레이션, 테스트 모드 및 시험 실행의 차이점은 무엇입니까?
 
-**테스트 모드:** 여정을 통해 테스트 프로필을 전송하고, 실제 액션을 트리거하며, 테스트 메시지를 생성합니다. 초안 여정 + 네임스페이스가 필요합니다.
-**시험 실행:** 아무것도 보내지 않고 실행 경로를 추적합니다. 모든 여정 상태에서 작동합니다. 보낸 메시지가 없으며 실행한 액션이 없습니다.
-**함께 사용:** 메시지 테스트를 위한 테스트 모드 + 논리 유효성 검사를 위한 시험 실행 - 포괄적인 범위.
+**여정 시뮬레이션:** 시뮬레이트된 임시 사용자와 함께 여정을 실행합니다. 실제 AEP 테스트 프로필은 필요하지 않습니다. 시뮬레이션된 사용자의 구성된 주소에 실제 메시지를 보냅니다.
+**테스트 모드:** 여정을 통해 실제 AEP 테스트 프로필을 보내고 실제 작업을 트리거하며 테스트 메시지를 생성합니다. 초안 여정 + 네임스페이스가 필요합니다.
+**시험 실행:** 아무것도 보내지 않고 실제 프로덕션 대상 데이터에 대해 실행 경로를 추적합니다. 보낸 메시지가 없으며 실행한 액션이 없습니다.
+**함께 사용:** 디자인, 실제 테스트 프로필을 사용한 수동 메시지/논리 테스트를 위한 테스트 모드, 규모에 맞는 최종 논리 검사를 위한 시험 실행을 반복하는 동안 여정 시뮬레이션을 사용합니다. 전체 비교는 [유효성 검사 방법 선택](../using/building-journeys/choose-validation-method.md)을 참조하십시오.
 
 ### Q: 프로덕션/실제 운영 상태에서 여정을 테스트할 수 있나요?
 

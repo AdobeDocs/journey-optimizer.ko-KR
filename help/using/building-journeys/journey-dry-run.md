@@ -32,10 +32,10 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 41e34973cb3213e08442bead6d1f1bb00af00921
+source-git-commit: 40073ba8a2d11c1482c11833c0c958ffbcb1017b
 workflow-type: tm+mt
-source-wordcount: 2330
-ht-degree: 8%
+source-wordcount: 2345
+ht-degree: 7%
 
 ---
 
@@ -46,6 +46,8 @@ ht-degree: 8%
 **이 페이지에서:** 실제 고객에게 연락하거나 프로필을 업데이트하지 않고도 실제 프로덕션 데이터로 테스트하기 위해 시험 실행 모드로 여정을 게시하여 라이브로 전환하기 전에 디자인을 확인하는 방법을 알아봅니다.
 
 >[!ENDSHADEBOX]
+
+드라이런이 맞는 방법인지 잘 모르겠나요? [세 가지 유효성 검사 옵션 모두 비교](choose-validation-method.md).
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run"

@@ -15,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: b227bcd835d2814e0a1eee0f88ca44dea051a765
+source-git-commit: 2780c1d4bdc461db78a9a4d58d86ae1a4ab215bd
 workflow-type: tm+mt
-source-wordcount: 10236
-ht-degree: 80%
+source-wordcount: 10287
+ht-degree: 79%
 
 ---
 
@@ -28,6 +28,8 @@ ht-degree: 80%
 이 페이지에는 월별 릴리스 기능 및 개선 사항과 관련된 업데이트 외에도 [!DNL Journey Optimizer] 설명서의 모든 최신 변경 사항이 나와 있습니다.
 
 ## 2026년 8월 {#august-2026}
+
+* 이제 새 **유효성 검사 방법 선택** 페이지를 사용할 수 있습니다. 이 보고서는 여정 시뮬레이션, 테스트 모드 및 여정 시험 실행(각 사용자가 사용하는 데이터, 실제 메시지 전송 여부, 피해야 할 일반적인 실수, 여정을 작성하는 각 단계에서 올바른 방법을 선택하기 위한 결정 지침)을 비교합니다. [자세히 보기](../building-journeys/choose-validation-method.md)
 
 * **보호 기능 및 제한 사항** 페이지가 업데이트되어 대상 자격 활동 및 이벤트 보호 기능을 명확히 설명했습니다. 이제 표현은 종료 기준으로 사용되는 경우를 포함하여 일관되게 대상 자격 **활동**(노드가 아님)을 참조하며, 두 보호 기능 모두 이제 **live, closed, paused, test mode 및 dry run** 여정을 명시적으로 다룹니다. [자세히 보기](../start/guardrails.md#audience-qualif-g)
 

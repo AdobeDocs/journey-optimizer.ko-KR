@@ -25,10 +25,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: 0c288debdccbc9b5b3e5f051a857afddf8f6fc19
 workflow-type: tm+mt
-source-wordcount: 573
-ht-degree: 3%
+source-wordcount: 675
+ht-degree: 8%
 
 ---
 
@@ -123,6 +123,34 @@ ht-degree: 3%
 ## 오류 원인 {#error-reasons-push}
 
 **[!UICONTROL 오류 원인]** 테이블을 사용하면 푸시 알림을 보내는 동안 발생한 특정 오류를 식별할 수 있으므로 발생한 문제를 철저히 분석할 수 있습니다.
+
++++ 오류 원인에 대해 자세히 알아보기
+
+각 푸시 알림 전송은 푸시 알림 공급자([!DNL Apple Push Notification service (APNs)] 또는 [!DNL Firebase Cloud Messaging (FCM)])가 반환한 응답에 따라 다음 이유 중 하나로 분류됩니다.
+
+**APNs**
+
+| HTTP 상태 | APNs 이유 | 오류 원인 |
+| --- | --- | --- |
+| 400 / 410 | `Unregistered`, `ExpiredToken`, `BadDeviceToken` | 차단 목록 |
+| 400 / 413 | `PayloadTooLarge`, `PayloadEmpty`, `InvalidPushType`, `BadTopic`, `MissingTopic` | 잘못된 알림 |
+| 400 / 403 | `DeviceTokenNotForTopic`, `BadCertificate`, `TopicDisallowed`, `BadCertificateEnvironment` | INVALID_PUSH_CREDENTIAL |
+| 429 / 500 / 503 | `TooManyRequests`, `TooManyProviderTokenUpdates`, `InternalServerError`, `ServiceUnavailable` | PUSH_PROVIDER_오류 |
+| 기타 | 기타/없음 | PUSH_PROVIDER_오류 |
+
+**FCM**
+
+| HTTP 상태 | FCM 오류 코드 | 오류 원인 |
+| --- | --- | --- |
+| 404 | `UNREGISTERED` (`NOT_FOUND`) | 차단 목록 |
+| 400 | `INVALID_ARGUMENT` | 잘못된 알림 |
+| 403 | `SENDER_ID_MISMATCH` (`PERMISSION_DENIED`) | INVALID_PUSH_CREDENTIAL |
+| 429 | `QUOTA_EXCEEDED` (`RESOURCE_EXHAUSTED`) | PUSH_PROVIDER_오류 |
+| 500 | `INTERNAL` | PUSH_PROVIDER_오류 |
+| 503 | `UNAVAILABLE` | PUSH_PROVIDER_오류 |
+| 기타 | `UNSPECIFIED_ERROR` / 기타 / 없음 | PUSH_PROVIDER_오류 |
+
++++
 
 ## 제외 이유 {#exclude-reasons-push}
 

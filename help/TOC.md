@@ -6,9 +6,9 @@ user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: cf5370872104972b3e49d544b09ab48858484da6
+source-git-commit: 2780c1d4bdc461db78a9a4d58d86ae1a4ab215bd
 workflow-type: tm+mt
-source-wordcount: '3496'
+source-wordcount: '3503'
 ht-degree: 93%
 
 ---
@@ -70,11 +70,13 @@ ht-degree: 93%
     + [여정 속성 정의](using/building-journeys/journey-properties.md)
     + [여정 지표 구성 및 추적](using/building-journeys/success-metrics.md)
     + [여정 디자인](using/building-journeys/using-the-journey-designer.md)
-    + 시뮬레이션 {#simulate-journey}
-      + [여정 시뮬레이션 시작](using/building-journeys/simulate-journey-gs.md)
-      + [여정 시뮬레이션](using/building-journeys/simulate-journey.md)
-    + [여정 테스트](using/building-journeys/testing-the-journey.md)
-    + [여정 시험 실행](using/building-journeys/journey-dry-run.md)
+    + 여정 유효성 검사 {#validate-journey}
+      + [유효성 검사 방법 선택](using/building-journeys/choose-validation-method.md)
+      + 시뮬레이션 {#simulate-journey}
+        + [여정 시뮬레이션 시작](using/building-journeys/simulate-journey-gs.md)
+        + [여정 시뮬레이션](using/building-journeys/simulate-journey.md)
+      + [여정 테스트](using/building-journeys/testing-the-journey.md)
+      + [여정 시험 실행](using/building-journeys/journey-dry-run.md)
     + [여정 게시](using/building-journeys/publish-journey.md)
     + [여정 일시 중지](using/building-journeys/journey-pause.md)
     + [여정의 라이브 보고서](using/building-journeys/report-journey.md)
@@ -570,7 +572,7 @@ ht-degree: 93%
   + 콘텐츠 생성 {#generate-content}
     + [콘텐츠 생성 시작](using/content-management/gs-generative.md)
     + [AI 프롬프트 모범 사례](using/content-management/ai-assistant-prompting-guide.md)
-    + [Content Credentials in AI Assistant](using/content-management/generative-c2pa-metadata.md)
+    + [컨텐츠 생성의 Content Credentials](using/content-management/generative-c2pa-metadata.md)
     + [AI로 전체 콘텐츠 생성](using/content-management/generative-full-content.md)
     + [AI로 텍스트 생성](using/content-management/generative-text.md)
     + [AI로 이미지 생성](using/content-management/generative-image.md)
