@@ -5,9 +5,9 @@ feature: Channel Configuration
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 1f70fb22417cfd8a850283ac2c4515bb449bca83
+source-git-commit: 5b39358ca4b9c2cae87eb2f1ff8b62df1deb365f
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '859'
 ht-degree: 2%
 
 ---
@@ -104,7 +104,7 @@ ht-degree: 2%
 
 ### 여정 시뮬레이션 {#simulate-journey}
 
-[!DNL Journey Optimizer]의 **시뮬레이션** 모드를 사용하면 미리 만들어진 테스트 프로필이 필요 없이 시뮬레이션된 사용자(Adobe Experience Platform에서 지속되지 않는 임시 프로필과 유사한 엔터티)를 사용하여 여정을 처음부터 끝까지 확인할 수 있습니다.
+[!DNL Journey Optimizer]의 **시뮬레이션** 모드를 사용하면 미리 만들어진 테스트 프로필이 필요 없이 시뮬레이션된 사용자(임시 프로필과 유사한 엔터티)를 사용하여 여정을 처음부터 끝까지 확인할 수 있습니다.
 
 사용자 지정 채널의 경우 시뮬레이션은 개인화 표현식을 확인하고 시뮬레이션된 각 사용자에 대한 페이로드 미리 보기를 렌더링하므로 라이브로 전환하기 전에 올바른 콘텐츠가 전달되는지 확인할 수 있습니다.
 
@@ -117,10 +117,6 @@ ht-degree: 2%
 1. 필요한 시작 이벤트를 구성한 다음 여정을 통해 시뮬레이션된 사용자를 트리거합니다.
 
 1. 시뮬레이션된 사용자가 사용자 지정 채널 작업 노드에 도달하면 미리 보기 패널에서 확인된 페이로드를 검사하여 개인화 토큰 및 페이로드 구조가 올바른지 확인하십시오.
-
->[!NOTE]
->
->시뮬레이션은 초안 및 라이브 여정 모두에서 사용할 수 있으며, 프로필 할당량 또는 실제 끝점 호출에 계산되지 않는 임시 시뮬레이션된 사용자를 사용합니다.
 
 [이 섹션](../building-journeys/simulate-journey-gs.md)에서 여정 시뮬레이션에 대해 자세히 알아보세요.
 
