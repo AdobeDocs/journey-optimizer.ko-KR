@@ -9,26 +9,16 @@ role: User
 level: Intermediate
 exl-id: 43b10f54-0c19-46a1-8d51-eb6bf22e6da9
 TQID: https://experienceleague.adobe.com/wsbWXuQT-JWFmKKu-qIG8OgzKQ7mMY4yFcqKLaM3RDc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-subfeature_v2:
-  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
-  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
-  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 89ae83700f331524bb43b019edb2599d6b3d95ba
 workflow-type: tm+mt
-source-wordcount: 573
-ht-degree: 3%
+source-wordcount: 782
+ht-degree: 7%
 
 ---
 
@@ -123,6 +113,40 @@ ht-degree: 3%
 ## 오류 원인 {#error-reasons-push}
 
 **[!UICONTROL 오류 원인]** 테이블을 사용하면 푸시 알림을 보내는 동안 발생한 특정 오류를 식별할 수 있으므로 발생한 문제를 철저히 분석할 수 있습니다.
+
++++ 오류 원인에 대해 자세히 알아보기
+
+각 푸시 알림 전송은 푸시 알림 공급자([!DNL Apple Push Notification service (APNs)] 또는 [!DNL Firebase Cloud Messaging (FCM)])가 반환한 응답에 따라 다음 이유 중 하나로 분류됩니다.
+
+* **SENT**: 공급자가 알림을 수락했습니다.
+* **차단 목록에 추가하다**: 장치 토큰이 더 이상 유효하지 않습니다(예: 앱이 제거되었거나 토큰이 만료됨). 토큰이 차단 목록에 추가하다에 추가되고 이후 토큰으로 전송됩니다.
+* **MALFORMED_NOTIFICATION**: 공급자가 알림 페이로드를 잘못된 것으로 거부했습니다(예: 페이로드가 너무 크거나 비어 있거나 필수 필드가 누락됨).
+* **INVALID_PUSH_CREDENTIAL**: 알림을 보내는 데 사용되는 푸시 자격 증명(인증서, 키 또는 항목 구성)이 잘못되었거나 대상 장치/앱과 일치하지 않습니다.
+* **PUSH_PROVIDER_ERROR**: 공급자가 일시적인 오류나 예기치 않은 오류(예: 속도 제한 또는 내부 오류)를 반환했습니다. 이러한 전송은 자동으로 다시 시도됩니다.
+
+**APNs**
+
+| HTTP 상태 | APNs 이유 | 오류 원인 |
+| --- | --- | --- |
+| 400 / 410 | `Unregistered`, `ExpiredToken`, `BadDeviceToken` | 차단 목록 |
+| 400 / 413 | `PayloadTooLarge`, `PayloadEmpty`, `InvalidPushType`, `BadTopic`, `MissingTopic` | 잘못된 알림 |
+| 400 / 403 | `DeviceTokenNotForTopic`, `BadCertificate`, `TopicDisallowed`, `BadCertificateEnvironment` | INVALID_PUSH_CREDENTIAL |
+| 429 / 500 / 503 | `TooManyRequests`, `TooManyProviderTokenUpdates`, `InternalServerError`, `ServiceUnavailable` | PUSH_PROVIDER_오류 |
+| 기타 | 기타/없음 | PUSH_PROVIDER_오류 |
+
+**FCM**
+
+| HTTP 상태 | FCM 오류 코드 | 오류 원인 |
+| --- | --- | --- |
+| 404 | `UNREGISTERED` (`NOT_FOUND`) | 차단 목록 |
+| 400 | `INVALID_ARGUMENT` | 잘못된 알림 |
+| 403 | `SENDER_ID_MISMATCH` (`PERMISSION_DENIED`) | INVALID_PUSH_CREDENTIAL |
+| 429 | `QUOTA_EXCEEDED` (`RESOURCE_EXHAUSTED`) | PUSH_PROVIDER_오류 |
+| 500 | `INTERNAL` | PUSH_PROVIDER_오류 |
+| 503 | `UNAVAILABLE` | PUSH_PROVIDER_오류 |
+| 기타 | `UNSPECIFIED_ERROR` / 기타 / 없음 | PUSH_PROVIDER_오류 |
+
++++
 
 ## 제외 이유 {#exclude-reasons-push}
 
