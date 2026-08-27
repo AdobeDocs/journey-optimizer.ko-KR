@@ -9,7 +9,7 @@ level: Beginner, Intermediate
 keywords: 테스트, 유효성 검사, 승인, 품질 보증, QA, 테스트 프로필, 개인화, 렌더링, 스팸 검사, 콘텐츠 실험, A/B 테스트, 충돌 감지, 시드 목록, 교정본, 샘플 데이터, 승인 워크플로, 이메일 테스트, 유효성 검사 워크플로
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: 404e183525c641be5bd267ef18d553d8a3bb4fda
+source-git-commit: ee9c8fedbd7e7a390bbe9a06ce6fc78bc4fc9b0e
 workflow-type: tm+mt
 source-wordcount: '2596'
 ht-degree: 87%
@@ -26,7 +26,7 @@ ht-degree: 87%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 콘텐츠 미리 보기, 테스트 및 유효성 검사
 
@@ -36,7 +36,7 @@ ht-degree: 87%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 여정과 캠페인을 위한 승인 워크플로우
 
@@ -46,17 +46,17 @@ ht-degree: 87%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 여정 테스트
 
-게시하기 전에 특정 프로필을 사용하여 테스트하고 이벤트, 조건, 액션이 예상대로 작동하는지 확인하여 여정의 유효성을 검사합니다. 네임스페이스를 사용하는 초안 여정에 사용할 수 있습니다. 테스트 프로필이 없는 빠른 반복의 경우 대신 [여정 시뮬레이션](../using/building-journeys/simulate-journey-gs.md)을 사용하십시오.
+게시하기 전에 특정 프로필을 사용하여 테스트하고 이벤트, 조건, 액션이 예상대로 작동하는지 확인하여 여정의 유효성을 검사합니다. 네임스페이스를 사용하는 초안 여정에 사용할 수 있습니다. 어떤 방법이 맞는지 잘 모르겠습니까? [유효성 검사 방법 선택](../using/building-journeys/choose-validation-method.md)을 참조하십시오.
 
 [여정 테스트](../using/building-journeys/testing-the-journey.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 여정 시험 실행
 
@@ -66,7 +66,7 @@ ht-degree: 87%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 모니터링 및 문제 해결
 
@@ -76,7 +76,7 @@ ht-degree: 87%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 개인화 플레이그라운드
 
@@ -86,7 +86,7 @@ ht-degree: 87%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 콘텐츠 실험 및 A/B 테스트
 
@@ -96,7 +96,7 @@ ht-degree: 87%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 이해 당사자 모니터링을 위한 시드 목록
 
@@ -106,7 +106,7 @@ ht-degree: 87%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 충돌 감지
 
