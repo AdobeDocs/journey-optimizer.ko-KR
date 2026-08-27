@@ -11,20 +11,15 @@ keywords: 게시, 여정, 라이브, 유효성, 확인
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/Hhvwpfq0phAjvzIGgv-NMnnhWhYJ-PpLOL0F4Q-CnqA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
 subfeature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 40073ba8a2d11c1482c11833c0c958ffbcb1017b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 404e183525c641be5bd267ef18d553d8a3bb4fda
 workflow-type: tm+mt
-source-wordcount: 2093
+source-wordcount: 2089
 ht-degree: 12%
 
 ---
@@ -66,7 +61,7 @@ ht-degree: 12%
 
 Dry Run은 실제 커뮤니케이션을 전달하거나 라이브 프로필 데이터를 업데이트하지 않습니다. 시뮬레이션 및 테스트 모드는 실제 메시지를 전달합니다. 시뮬레이션 사용자에서 정의한 실행 주소에 시뮬레이션을 적용하고 테스트 프로필로 명시적으로 플래그를 지정한 프로필의 실제 받은 편지함에 테스트 모드를 적용합니다.
 
-이 세 가지 방법에 대한 전체 비교는 [여정 테스트 및 유효성 검사 방법 선택](choose-validation-method.md)을 참조하십시오.
+이 세 메서드의 전체 비교에 대해서는 [유효성 검사 방법 선택](choose-validation-method.md)을 참조하십시오.
 
 ## 게시 프로세스 {#journey-publication}
 
@@ -182,7 +177,7 @@ Dry Run은 실제 커뮤니케이션을 전달하거나 라이브 프로필 데�
 
 이 비디오에서 여정을 게시하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3427937?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
 
 +++ AI 기술 자료 참조
 

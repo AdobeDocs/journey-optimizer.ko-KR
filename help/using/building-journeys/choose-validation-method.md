@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 여정 테스트 및 유효성 검사 방법 선택
+title: 유효성 검사 방법 선택
 description: 여정 시뮬레이션, 여정 테스트 모드 및 여정 시험 실행을 비교하고 게시하기 전에 여정에 적합한 유효성 검사 방법을 선택합니다.
 feature: Journeys, Get Started, Test Profiles
 topic: Content Management
@@ -9,15 +9,15 @@ role: User
 level: Beginner, Intermediate
 keywords: 테스트, 시뮬레이션, 시뮬레이션, 테스트 모드, 시험 실행, 여정, 검증, 비교, 선택, 결정 가이드
 version: Journey Orchestration
-source-git-commit: 40073ba8a2d11c1482c11833c0c958ffbcb1017b
+source-git-commit: 404e183525c641be5bd267ef18d553d8a3bb4fda
 workflow-type: tm+mt
-source-wordcount: '2473'
+source-wordcount: '2465'
 ht-degree: 0%
 
 ---
 
 
-# 여정 테스트 및 유효성 검사 방법 선택 {#choose-validation-method}
+# 유효성 검사 방법 선택 {#choose-validation-method}
 
 >[!BEGINSHADEBOX]
 
@@ -33,9 +33,9 @@ ht-degree: 0%
 
 어떤 방법이 적용되는지 확실하지 않은 경우 다음 한 가지 질문에 답합니다.
 
-* **여정을 계속 디자인하고 있으며 테스트 프로필을 만들지 않고 분기의 논리를 빠르게 확인하려고 합니다.** →0&rbrace;여정 시뮬레이션&#x200B;[&#128279;](simulate-journey-gs.md)**을 사용합니다.**
-* **실제(지정된 테스트) 프로필을 사용하여 초안 여정의 논리를 단계적으로 수동으로 확인하려고 합니다.** →0&rbrace;여정 테스트 모드&#x200B;[&#128279;](testing-the-journey.md)**를 사용합니다.**
-* **게시하려고 하는데 누구에게도 연락하지 않고 실제 프로덕션 대상자에 대해 예상 볼륨을 최종 검사하려고 합니다.** →0&rbrace;여정 시험 실행&#x200B;[&#128279;](journey-dry-run.md)**을 사용합니다.**
+* **여정을 계속 디자인하고 있으며 테스트 프로필을 만들지 않고 분기의 논리를 빠르게 확인하려고 합니다.** →0}여정 시뮬레이션&#x200B;](simulate-journey-gs.md)**을 사용합니다.**[
+* **실제(지정된 테스트) 프로필을 사용하여 초안 여정의 논리를 단계적으로 수동으로 확인하려고 합니다.** →0}여정 테스트 모드&#x200B;](testing-the-journey.md)**를 사용합니다.**[
+* **게시하려고 하는데 누구에게도 연락하지 않고 실제 프로덕션 대상자에 대해 예상 볼륨을 최종 검사하려고 합니다.** →0}여정 시험 실행&#x200B;](journey-dry-run.md)**을 사용합니다.**[
 
 아직 확실하지 않습니까, 아니면 전체 사진을 원하시나요? 계속해서 읽어 보십시오. 각 방법은 아래에 자세히 설명되어 있습니다.
 

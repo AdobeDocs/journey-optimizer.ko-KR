@@ -6,9 +6,9 @@ user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 2094f1503f726a352193c86d3a2ccadc8a2caa24
+source-git-commit: 2780c1d4bdc461db78a9a4d58d86ae1a4ab215bd
 workflow-type: tm+mt
-source-wordcount: '3507'
+source-wordcount: '3503'
 ht-degree: 93%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 93%
 + 여정 {#orchestrate-journeys}
   + [여정 시작](using/building-journeys/journey.md)
   + {hide-from-toc}[여정 시작 안내서](using/building-journeys/journey-get-started.md)
-  + {hide-from-toc}[여정 형식: 올바른 one-2 선택](using/building-journeys/journey-types-selection-v2.md)
+  + {hide-from-toc}[여정 형식: 올바른 one-2](using/building-journeys/journey-types-selection-v2.md) 선택
   + [Journey Orchestration FAQ](using/building-journeys/journey-faq.md)
   + 여정 만들기 {#create-journey}
     + [여정 만들기](/help/rp_landing_pages/create-journey-landing-page.md)
@@ -71,7 +71,7 @@ ht-degree: 93%
     + [여정 지표 구성 및 추적](using/building-journeys/success-metrics.md)
     + [여정 디자인](using/building-journeys/using-the-journey-designer.md)
     + 여정 유효성 검사 {#validate-journey}
-      + [여정 테스트 및 유효성 검사 방법 선택](using/building-journeys/choose-validation-method.md)
+      + [유효성 검사 방법 선택](using/building-journeys/choose-validation-method.md)
       + 시뮬레이션 {#simulate-journey}
         + [여정 시뮬레이션 시작](using/building-journeys/simulate-journey-gs.md)
         + [여정 시뮬레이션](using/building-journeys/simulate-journey.md)
