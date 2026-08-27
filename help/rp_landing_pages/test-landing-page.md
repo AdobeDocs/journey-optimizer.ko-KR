@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: 테스트, 유효성 검사, 승인, 품질 보증, QA, 테스트 프로필, 개인화, 렌더링, 스팸 검사, 콘텐츠 실험, A/B 테스트, 충돌 감지, 시드 목록, 교정본, 샘플 데이터, 승인 워크플로, 이메일 테스트, 유효성 검사 워크플로
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: c7eb2d867da40b2fce904f3240e312de951ed703
+source-git-commit: 40073ba8a2d11c1482c11833c0c958ffbcb1017b
 workflow-type: tm+mt
-source-wordcount: '2566'
-ht-degree: 88%
+source-wordcount: '2600'
+ht-degree: 87%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 88%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 콘텐츠 미리 보기, 테스트 및 유효성 검사
 
@@ -36,7 +36,7 @@ ht-degree: 88%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 여정과 캠페인을 위한 승인 워크플로우
 
@@ -46,7 +46,7 @@ ht-degree: 88%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 여정 테스트
 
@@ -56,7 +56,7 @@ ht-degree: 88%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 여정 시험 실행
 
@@ -66,7 +66,7 @@ ht-degree: 88%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 모니터링 및 문제 해결
 
@@ -76,7 +76,7 @@ ht-degree: 88%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 개인화 플레이그라운드
 
@@ -86,7 +86,7 @@ ht-degree: 88%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 콘텐츠 실험 및 A/B 테스트
 
@@ -96,7 +96,7 @@ ht-degree: 88%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 이해 당사자 모니터링을 위한 시드 목록
 
@@ -106,7 +106,7 @@ ht-degree: 88%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 충돌 감지
 
@@ -245,7 +245,7 @@ Use this decision tree to quickly identify the right testing tools for your spec
 * 다른 여정 및 캠페인과의 [충돌](../using/conflict-prioritization/conflicts.md) 확인
 * 게시 전에 [승인](../using/test-approve/gs-approval.md) 제출
 
-<!-- Not sure which of the three journey validation methods to use? See [Choose how to test and validate your journey](../using/building-journeys/choose-validation-method.md) for a full comparison. -->
+세 가지 여정 유효성 검사 방법 중 어떤 방법을 사용해야 할지 확실하지 않습니까? 전체 비교는 [여정 테스트 및 유효성 검사 방법 선택](../using/building-journeys/choose-validation-method.md)을 참조하십시오.
 
 **복잡한 여정의 경우:**
 
@@ -301,7 +301,7 @@ Use this decision tree to quickly identify the right testing tools for your spec
 |-------|-------------|-------------|
 | **1. 콘텐츠 유효성 검사** | 개인화, 디자인, 렌더링 | [테스트 프로필을 사용한 미리 보기](../using/content-management/preview-test.md), CSV/JSON을 사용한 [여러 변형](../using/test-approve/simulate-sample-input.md) 테스트, 장치 간 [렌더링](../using/content-management/rendering.md) 확인 |
 | **2. 기술 검사** | 전달성, 링크, 충돌 | [스팸 점수 확인](../using/content-management/spam-report.md) 실행, 링크 유효성 검사, 다른 캠페인과의 [충돌](../using/conflict-prioritization/conflicts.md) 확인 |
-| **3. 여정 논리**(여정 전용) | 입력 조건, 흐름, 분기 | 빠른 반복에는 [여정 시뮬레이션](../using/building-journeys/simulate-journey-gs.md)을, 실제 테스트 프로필이 있는 논리를 수행하려면 [테스트 모드](../using/building-journeys/testing-the-journey.md)를, 크기 <!-- — see [how to choose](../using/building-journeys/choose-validation-method.md) -->에서 최종 검사에는 [시험 실행](../using/building-journeys/journey-dry-run.md)을 사용하십시오. |
+| **3. 여정 논리**(여정 전용) | 입력 조건, 흐름, 분기 | 빠른 반복에는 [여정 시뮬레이션](../using/building-journeys/simulate-journey-gs.md), 실제 테스트 프로필이 있는 논리를 수행하려면 [테스트 모드](../using/building-journeys/testing-the-journey.md)를 사용하고, 규모에 맞는 최종 검사에는 [시험 실행](../using/building-journeys/journey-dry-run.md)을 사용하십시오. [선택하는 방법](../using/building-journeys/choose-validation-method.md) 참조 |
 | **4. 출시 전** | 설정, 승인, 모니터링 | [승인](../using/test-approve/gs-approval.md)을 위해 제출하고, 일정과 대상자를 확인하고, [경고](../using/reports/alerts.md)를 활성화합니다. |
 
 **전문가 팁:** 콘텐츠를 구축하기 전에 표현식을 테스트하려면 [개인화 플레이그라운드](../using/personalization/personalize.md#playground)부터 시작하고 과도한 메시지를 방지하기 위해 출시하기 전에 항상 [충돌 감지](../using/conflict-prioritization/conflicts.md)를 확인하세요.
@@ -464,7 +464,7 @@ Journey Optimizer의 테스트 및 승인 기능을 더 잘 이해하려면 다�
 **여정 시뮬레이션:** 시뮬레이트된 임시 사용자와 함께 여정을 실행합니다. 실제 AEP 테스트 프로필은 필요하지 않습니다. 시뮬레이션된 사용자의 구성된 주소에 실제 메시지를 보냅니다.
 **테스트 모드:** 여정을 통해 실제 AEP 테스트 프로필을 보내고 실제 작업을 트리거하며 테스트 메시지를 생성합니다. 초안 여정 + 네임스페이스가 필요합니다.
 **시험 실행:** 아무것도 보내지 않고 실제 프로덕션 대상 데이터에 대해 실행 경로를 추적합니다. 보낸 메시지가 없으며 실행한 액션이 없습니다.
-**함께 사용:** 디자인, 실제 테스트 프로필을 사용한 수동 메시지/논리 테스트를 위한 테스트 모드, 대규모 최종 논리 검사를 위한 시험 실행을 반복하는 동안 여정 시뮬레이션을 사용합니다.<!-- See [Choose how to test and validate your journey](../using/building-journeys/choose-validation-method.md) for a full comparison. -->
+**함께 사용:** 디자인, 실제 테스트 프로필을 사용한 수동 메시지/논리 테스트를 위한 테스트 모드, 규모에 맞는 최종 논리 검사를 위한 시험 실행을 반복하는 동안 여정 시뮬레이션을 사용합니다. 전체 비교는 [여정 테스트 및 유효성 검사 방법 선택](../using/building-journeys/choose-validation-method.md)을 참조하십시오.
 
 ### Q: 프로덕션/실제 운영 상태에서 여정을 테스트할 수 있나요?
 

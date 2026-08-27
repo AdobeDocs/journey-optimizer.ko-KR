@@ -11,9 +11,9 @@ keywords: 테스트, 여정, 확인, 오류, 문제 해결
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 5b39358ca4b9c2cae87eb2f1ff8b62df1deb365f
+source-git-commit: 2094f1503f726a352193c86d3a2ccadc8a2caa24
 workflow-type: tm+mt
-source-wordcount: 2995
+source-wordcount: 3009
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 >[!ENDSHADEBOX]
 
-<!-- Not sure Simulation is the right method for you? [Compare all three validation options](choose-validation-method.md). -->
+시뮬레이션이 당신에게 적합한 방법인지 확신할 수 없습니까? [세 가지 유효성 검사 옵션 모두 비교](choose-validation-method.md).
 
 게시하기 전에 **[!UICONTROL 시뮬레이션]**&#x200B;을 사용하여 **시뮬레이션된 사용자**&#x200B;와(과) 여정의 유효성을 검사하십시오. 이 페이지에서는 **[!UICONTROL 빠른 시뮬레이션]** 및 **[!UICONTROL 수동 시뮬레이션]**, 시뮬레이션된 여정 생성 및 전송, 사용자에게 필요할 때 단일 이벤트 트리거 및 **[!UICONTROL 결과]** 로그 검토를 안내합니다.
 
