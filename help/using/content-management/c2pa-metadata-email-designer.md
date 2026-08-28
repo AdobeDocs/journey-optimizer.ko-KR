@@ -58,4 +58,4 @@ C2PA 메타데이터는 Adobe Journey Optimizer의 이메일 및 랜딩 페이�
 ## 추가 리소스
 
 * [콘텐츠 생성의 C2PA 메타데이터](generative-c2pa-metadata.md)
-* [생성 AI 콘텐츠 투명도](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency)
+* [생성 AI 콘텐츠 투명도](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency)
