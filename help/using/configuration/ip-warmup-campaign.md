@@ -28,10 +28,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 308ffcb6d0a82dfd59913f79375b91257b15e851
+source-git-commit: 12c97ba2a2f0f8f25206f5462c821e43d87deb0a
 workflow-type: tm+mt
-source-wordcount: 574
-ht-degree: 9%
+source-wordcount: 597
+ht-degree: 8%
 
 ---
 
@@ -84,7 +84,9 @@ IP 준비 캠페인을 만들려면 아래 단계를 수행합니다.
    >
    >IP 준비 캠페인에 허용된 대상은 [세그먼트 기반](../audience/creating-a-segment-definition.md)이어야 하며 [기본 병합 정책](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}을(를) 사용하여 만들어야 합니다.
    >
-   >CSV 업로드 대상은 IP 웜업 캠페인에 대해 지원되지 않으며 캠페인 활성화 시 오류가 발생합니다.
+   >다음 대상자 유형은 IP 준비 캠페인에서 지원되지 않으며 캠페인 활성화 시 오류가 발생합니다.
+   >* **[CSV 업로드 대상](../audience/custom-upload.md)**
+   >* [데이터 Distiller 대상](https://experienceleague.adobe.com/ko/docs/experience-platform/query/data-distiller-audiences/overview){target="_blank"}(SQL 쿼리를 사용하여 빌드된 대상)
 
    캠페인을 구성하는 방법에 대한 자세한 내용은 [이 페이지](../campaigns/get-started-with-campaigns.md)를 참조하세요.
 

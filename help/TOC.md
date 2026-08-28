@@ -6,9 +6,9 @@ user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 2780c1d4bdc461db78a9a4d58d86ae1a4ab215bd
+source-git-commit: d1cae5de98b0536e85f0aa9e2e4290d530290753
 workflow-type: tm+mt
-source-wordcount: '3503'
+source-wordcount: '3513'
 ht-degree: 93%
 
 ---
@@ -572,7 +572,9 @@ ht-degree: 93%
   + 콘텐츠 생성 {#generate-content}
     + [콘텐츠 생성 시작](using/content-management/gs-generative.md)
     + [AI 프롬프트 모범 사례](using/content-management/ai-assistant-prompting-guide.md)
-    + [컨텐츠 생성의 Content Credentials](using/content-management/generative-c2pa-metadata.md)
+    + C2PA 메타데이터 {#c2pa}
+      + [콘텐츠 생성의 C2PA 메타데이터](using/content-management/generative-c2pa-metadata.md)
+      + [이메일 및 랜딩 페이지 Designer의 C2PA 메타데이터](using/content-management/c2pa-metadata-email-designer.md)
     + [AI로 전체 콘텐츠 생성](using/content-management/generative-full-content.md)
     + [AI로 텍스트 생성](using/content-management/generative-text.md)
     + [AI로 이미지 생성](using/content-management/generative-image.md)
