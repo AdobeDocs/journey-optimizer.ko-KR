@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 2780c1d4bdc461db78a9a4d58d86ae1a4ab215bd
+source-git-commit: e8403fd5a4f9a6058a73fa64a97602e22a3fe12d
 workflow-type: tm+mt
-source-wordcount: 10287
+source-wordcount: 10381
 ht-degree: 79%
 
 ---
@@ -28,6 +28,10 @@ ht-degree: 79%
 이 페이지에는 월별 릴리스 기능 및 개선 사항과 관련된 업데이트 외에도 [!DNL Journey Optimizer] 설명서의 모든 최신 변경 사항이 나와 있습니다.
 
 ## 2026년 8월 {#august-2026}
+
+* **웨이브를 사용하여 보내기** 페이지가 업데이트되어 여정 시작 후 **6일 및 18시간** 내에 읽기 대상 여정의 마지막 웨이브를 예약해야 함을 문서화했습니다. 이 기간을 초과하면 유효성 검사 오류가 트리거되고 여정이 테스트 모드에 들어가거나 라이브로 진행되지 않습니다. [자세히 보기](../delivery/send-using-waves.md#limitations-guardrails)
+
+* 테스트 중에 결정 이벤트를 표시하지 않고 보고 및 빈도 제한 카운터에 대한 피드백이 캡처되지 않도록 `dryRun` 플래그를 사용하는 방법을 문서화한 새 **피드백 이벤트 제외** 섹션이 **의사 결정 관리 데이터 수집** 페이지에 추가되었습니다. [자세히 보기](../offers/data-collection/data-collection.md#suppress-feedback)
 
 * 이제 새 **유효성 검사 방법 선택** 페이지를 사용할 수 있습니다. 이 보고서는 여정 시뮬레이션, 테스트 모드 및 여정 시험 실행(각 사용자가 사용하는 데이터, 실제 메시지 전송 여부, 피해야 할 일반적인 실수, 여정을 작성하는 각 단계에서 올바른 방법을 선택하기 위한 결정 지침)을 비교합니다. [자세히 보기](../building-journeys/choose-validation-method.md)
 

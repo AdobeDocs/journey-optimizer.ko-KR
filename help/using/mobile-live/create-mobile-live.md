@@ -22,10 +22,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 2be0ef1b72affb0423613d60a3b8eedbcc92ac6d
+source-git-commit: e4d9ae1971d435c221107bede26abe3f74983a6f
 workflow-type: tm+mt
-source-wordcount: 676
-ht-degree: 7%
+source-wordcount: 726
+ht-degree: 6%
 
 ---
 
@@ -185,6 +185,9 @@ ht-degree: 7%
 > `executionMetadata`은(는) **API 트리거 트랜잭션** 및 **API 트리거 마케팅** 캠페인 모두에서 사용할 수 있습니다.
 
 선택적 `executionMetadata` 필드를 사용하여 주문 ID, 충성도 계층 또는 지역 코드와 같은 프로필에 자신의 **사용자 지정 데이터**&#x200B;를 첨부하십시오. Journey Optimizer은 실행과 함께 이 데이터를 저장하므로 나중에 **라이브 활동 피드백 데이터 세트**&#x200B;에서 검색하고 게재 결과를 비즈니스 레코드에 일치시킬 수 있습니다.
+
+API를 통해 이 데이터를 보내려면 `executionMetadata` 필드에 대한 [메시징 API 참조](https://developer.adobe.com/journey-optimizer-apis/references/messaging#operation/postIMUnitaryMessageExecution!path=recipients/0/executionMetadata&t=request)를 참조하십시오. 장치에서 값을 다시 읽으려면 API 트리거에서 실행 메타데이터를 받는 방법에 대한 [Mobile SDK 안내서](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/tutorial#receiving-execution-metadata-from-the-api-trigger)를 참조하십시오.
+
 실행 메타데이터로 사용자 지정 데이터를 추가하려면:
 
 * `userId` 및 `namespace` 옆의 프로필에 `executionMetadata`을(를) 추가합니다. 문자열 키와 문자열 값만 허용됩니다. 문자열을 보내지 않고 모든 비문자열 값을 문자열로 변환하십시오.
@@ -242,9 +245,6 @@ ht-degree: 7%
 ```
 
 +++
-
-라이브 활동을 디자인한 후 [기본 제공 보고서](../reports/campaign-global-report-cja-activity.md)를 통해 라이브 활동의 영향을 측정하는 방법을 추적할 수 있습니다.
-
 
 ## 사용 방법 비디오
 
