@@ -9,20 +9,15 @@ keywords: 날짜, 함수, 표현식, 여정, 시간
 version: Journey Orchestration
 exl-id: 68c102c1-f1c7-44b7-893f-9a3b7e0854b6
 TQID: https://experienceleague.adobe.com/C2Z5SufckUxCNf9TsloziZS-Q3KPzmgMVNGJGiwDQ08
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2: []
-source-git-commit: 15cd7992e3263d7d2b94cf2efe50850d16e04a5d
+source-git-commit: f4cf85cf81c48ae0a33ae415dc886bb7268ecb43
 workflow-type: tm+mt
-source-wordcount: 1391
-ht-degree: 7%
+source-wordcount: 1710
+ht-degree: 6%
 
 ---
 
@@ -33,6 +28,7 @@ ht-degree: 7%
 다음을 수행해야 하는 경우 날짜 함수 사용:
 
 * 특정 시간대 처리([now](#now), [nowWithDelta](#nowWithDelta), [currentTimeInMillis](#currentTimeInMillis))를 사용하여 현재 시간 또는 날짜 가져오기
+* 매개 변수 형식([dateDiff](#dateDiff))에 따라 두 날짜 또는 날짜-시간의 차이를 일 또는 밀리초 단위로 계산합니다.
 * 날짜가 특정 시간 범위([inLastDays](#inLastDays), [inLastHours](#inLastHours), [inLastMonths](#inLastMonths), [inLastYears](#inLastYears), [inNextDays](#inNextDays), [inNextHours](#inNextHours), [inNextMonths](#inNextMonths), [inNextYears](#inNextYears)) 내에 있는지 확인
 * 날짜 및 시간 구성 요소([setHours](#setHours), [setDays](#setDays), [updateTimeZone](#updateTimeZone)) 수정
 * 시간 기반 계산 및 비교 수행
@@ -73,6 +69,67 @@ ht-degree: 7%
 `currentTimeInMillis()`
 
 &quot;1544712617131&quot;를 반환합니다.
+
++++
+
+## dateDiff {#dateDiff}
+
+동일한 유형의 두 날짜 또는 날짜-시간 간의 차이를 반환합니다. 결과의 단위는 매개 변수 유형에 따라 다릅니다. `dateOnly` 매개 변수는 **일**&#x200B;에 차이를 반환하는 반면 `dateTimeOnly` 및 `dateTime` 매개 변수는 **밀리초**&#x200B;에 차이를 반환합니다. 매개 변수가 `null`인 경우 `null`을(를) 반환합니다.
+
+>[!NOTE]
+>
+>[개인화 편집기](../../personalization/functions/dates.md#date-diff)에서 사용할 수 있는 `dateDiff`과(와) 다른 함수입니다. 개인화 편집기 버전은 `dateTime`개의 매개 변수만 허용하고 항상 일 차이를 반환합니다.
+
++++구문
+
+`dateDiff(<date1>,<date2>)`
+
++++
+
++++매개변수
+
+| 매개 변수 | 유형 |
+|-----------|--------------------------------------|
+| 날짜 1 | dateOnly, dateTimeOnly 또는 dateTime |
+| 날짜 2 | dateOnly, dateTimeOnly 또는 dateTime |
+
+두 매개 변수 모두 동일한 데이터 형식을 사용해야 합니다. 혼합 형식(예: `dateOnly`과(와) `dateTime`)은 지원되지 않습니다. 매개 변수는 리터럴 날짜 값, `now()`과(와) 같은 다른 함수 또는 컨텍스트 특성(이벤트 페이로드 필드, 사용자 지정 작업 응답 필드, 프로필 또는 엔터티 필드 및 변수)일 수 있습니다. 단, `dateOnly`, `dateTimeOnly` 또는 `dateTime`(으)로 형식화되어야 합니다.
+
++++
+
++++서명 및 반환된 유형
+
+`dateDiff(<dateOnly>,<dateOnly>)`
+
+두 날짜 사이의 일 수를 나타내는 정수를 반환합니다.
+
+`dateDiff(<dateTimeOnly>,<dateTimeOnly>)`
+
+두 날짜-시간 사이의 밀리초 수를 나타내는 정수를 반환합니다.
+
+`dateDiff(<dateTime>,<dateTime>)`
+
+두 날짜-시간 사이의 밀리초 수를 나타내는 정수를 반환합니다.
+
++++
+
++++예
+
+`dateDiff(toDateOnly('2023-12-15'), toDateOnly('2023-12-12'))`
+
+3(일)을 반환합니다.
+
+`dateDiff(toDateTimeOnly('2023-12-15T00:00:00'), toDateTimeOnly('2023-12-12T00:00:00'))`
+
+259200000(밀리초, 3일에 해당)를 반환합니다.
+
+`dateDiff(now(), toDateTime('2024-12-25T00:00:00Z'))`
+
+오늘과 2024년 12월 25일 사이의 밀리초 수를 반환합니다.
+
+`dateDiff(#{ExperiencePlatform.ProfileFieldGroup.person.birthDate}, toDateOnly('2023-01-01'))`
+
+`birthDate`이(가) `dateOnly`(으)로 입력되었다고 가정할 때 프로필의 `birthDate` 필드와 2023년 1월 1일 사이의 일 수를 반환합니다.
 
 +++
 
@@ -588,12 +645,14 @@ dateTime을 반환합니다.
 **의도:**
 * `now` 또는 `nowWithDelta`을(를) 사용하여 현재 날짜/시간(선택적 시간대 포함) 가져오기
 * `currentTimeInMillis`을(를) 사용하여 현재 시간을 에포크 정수로 검색
+* `dateDiff`을(를) 사용하여 두 날짜 또는 날짜-시간의 차이점 계산
 * 날짜/시간이 `inLastDays`, `inLastHours`, `inLastMonths`, `inLastYears`을(를) 사용하여 최근 N일, 시간, 월 또는 년 이내에 속하는지 확인
 * `inNextDays`, `inNextHours`, `inNextMonths`, `inNextYears`을(를) 사용하여 날짜/시간이 다음 N일, 시간, 월 또는 년 이내에 속하는지 확인
 * `setHours` 또는 `setDays`을(를) 사용하여 datetime 값에 특정 시간 또는 월 일 강제 적용
 * `updateTimeZone`을(를) 사용하여 동일한 인스턴스를 유지하면서 날짜/시간을 다른 시간대로 변환
 
 **용어집:**
+* **dateOnly**: 시간 또는 시간대 정보가 없는 날짜 값 *(제품별)*
 * **dateTime**: 시간대 오프셋 정보 *(제품별)가 포함된 날짜-시간 값*
 * **dateTimeOnly**: 시간대 정보가 없는 날짜-시간 값 *(제품별)*
 * **epoch 밀리초**: 1970-01-01T00:00:00Z 이후 경과된 시간(밀리초)을 나타내는 정수
@@ -603,6 +662,9 @@ dateTime을 반환합니다.
 * `now()`은(는) 여정 식에서만 사용할 수 있습니다. 전자 메일 개인화를 위해 `getCurrentZonedDateTime()`을(를) 대신 사용하십시오.
 * `nowWithDelta`의 시간대 ID는 문자열 상수여야 합니다. 필드 참조 및 동적 식은 지원되지 않습니다.
 * `updateTimeZone`의 시간대 ID는 문자열 상수여야 합니다.
+* `dateDiff`에서는 두 매개 변수가 모두 같은 데이터 형식(`dateOnly`, `dateTimeOnly` 또는 `dateTime`)이어야 합니다. 혼합 형식은 지원되지 않습니다
+* `dateDiff`은(는) 매개 변수가 `null`인 경우 `null`을(를) 반환합니다.
+* `dateDiff`은(는) `dateOnly` 매개 변수에 대해서는 일을 반환하지만, `dateTimeOnly` 및 `dateTime` 매개 변수에 대해서는 밀리초(일이 아님)를 반환합니다. 유형 간에 결과를 비교할 때 그에 따라 변환하십시오.
 
 **용어:**
 * 정식 이름: 날짜 함수 — 약어: 없음 — 변형: 날짜-시간 함수, 임시 함수
@@ -610,6 +672,7 @@ dateTime을 반환합니다.
 * 혼동하지 마십시오. &quot;inLastDays&quot;(시간 후 전환) ≠ &quot;inNextDays&quot;(시간 후 전환)
 * 혼동하지 마십시오. &quot;setHours&quot;(시간 구성 요소 대체) ≠ &quot;nowWithDelta&quot;(현재 시간 오프셋)
 * 혼동하지 마십시오. &quot;updateTimeZone&quot;(같은 인스턴트, 다른 시간대 표시) ≠ &quot;setHours&quot;(시간 값 자체를 변경)
+* 혼동하지 않음: 여정 표현식 편집기의 `dateDiff`(허용: `dateOnly`, `dateTimeOnly` 또는 `dateTime`, 유형에 따라 일 또는 밀리초 반환) ≠ 개인화 편집기의 `dateDiff`(허용: `dateTime`만 수락, 항상 일 반환)
 
 **FAQ:**
 * **Q: 전자 메일 개인화 콘텐츠에서 `now()`을(를) 사용할 수 있습니까?** — 아니요. `now()`은(는) 여정 식에서만 사용할 수 있습니다. 전자 메일 개인화에 `getCurrentZonedDateTime()`을(를) 사용합니다.

@@ -7,18 +7,14 @@ role: Developer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
 TQID: https://experienceleague.adobe.com/J-aZtYitBu8T4oSwTwKNNDeA-7tA4l8Wi5YZ1WLcT3E
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2: []
-source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
+source-git-commit: f4cf85cf81c48ae0a33ae415dc886bb7268ecb43
 workflow-type: tm+mt
-source-wordcount: 1811
+source-wordcount: 1842
 ht-degree: 5%
 
 ---
@@ -248,6 +244,10 @@ The following operation gets all the keys for the map `identityMap`.
 ## 날짜 차이{#date-diff}
 
 `dateDiff` 함수는 일 수로 두 날짜 간의 차이를 검색하는 데 사용됩니다.
+
+>[!NOTE]
+>
+>[여정 식 편집기](../../building-journeys/functions/date-functions.md#dateDiff)에서 사용할 수 있는 `dateDiff`과(와) 다른 함수입니다. 여정 표현식 편집기 버전에서도 `dateOnly` 및 `dateTimeOnly` 매개 변수를 허용하고, `dateTime` 및 `dateTimeOnly` 입력에 대해 일 대신 밀리초를 반환합니다.
 
 **구문**
 
