@@ -10,9 +10,9 @@ level: Intermediate
 exl-id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b227bcd835d2814e0a1eee0f88ca44dea051a765
+source-git-commit: fee6ae2f8cdc54ec23cced7aa44e6915472c9f89
 workflow-type: tm+mt
-source-wordcount: 531
+source-wordcount: 530
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 0%
 ![](assets/reporting-challenge-challenges.png)
 
 * **챌린지 참여**: 일정 기간 동안 시작되고, 진행 중이고, 완료된 챌린지를 보여 주는 타임라인입니다.
-* **과제 보고서**: 유형, 작업, 상태 및 등록 번호와 같은 세부 정보가 포함된 모든 과제 테이블. 검색 창을 사용하여 특정 문제를 찾습니다. 참여 트렌드 및 성과 세부 정보가 포함된 전체 보고서를 보려면 과제를 선택하십시오.
+* **과제 보고서**: 유형, 상태 및 등록 번호와 같은 세부 정보가 포함된 모든 과제 테이블. 검색 창을 사용하여 특정 문제를 찾습니다. 참여 트렌드 및 성과 세부 정보가 포함된 전체 보고서를 보려면 과제를 선택하십시오.
 
   +++과제 보고서 예
 
@@ -96,4 +96,4 @@ Each card has a priority badge — **High**, **Medium**, or **Low** — based on
 
 ➡️ 과제 보고서를 사용하여 과제 성과를 측정하는 방법 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3497564?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3497534?quality=12)
