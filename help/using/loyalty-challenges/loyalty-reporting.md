@@ -96,4 +96,4 @@ Each card has a priority badge — **High**, **Medium**, or **Low** — based on
 
 ➡️ 과제 보고서를 사용하여 과제 성과를 측정하는 방법 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3497534?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3497564?captions=kor&quality=12)
