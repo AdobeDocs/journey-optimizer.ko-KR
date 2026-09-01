@@ -5,10 +5,10 @@ title: 콘텐츠 관리
 description: 콘텐츠 관리
 redpen-status: CREATED_||_2025-08-12_00-44-43
 exl-id: 159ae1bf-e1bd-48c7-b91b-2ac8bdfffaf2
-source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
+source-git-commit: 170c8e7efe9244874353102a8bd2650b23f967f0
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 94%
+source-wordcount: '337'
+ht-degree: 84%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 컨텐츠 관리 기능을 사용하면 캠페인, �
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 개인화 추가
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer의 컨텐츠 관리 기능을 사용하면 캠페인, �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 랜딩 페이지 만들기
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer의 컨텐츠 관리 기능을 사용하면 캠페인, �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 콘텐츠 템플릿
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer의 컨텐츠 관리 기능을 사용하면 캠페인, �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 재사용 가능한 콘텐츠 조각
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer의 컨텐츠 관리 기능을 사용하면 캠페인, �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 다이내믹 콘텐츠 만들기
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer의 컨텐츠 관리 기능을 사용하면 캠페인, �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 솔루션 간 사용 사례
 
@@ -87,3 +87,4 @@ Experience Manager, Stock 및 GenStudio과 같은 Adobe 솔루션을 통합하�
 - **[콘텐츠 생성](ai-assistant-landing-page.md)** - AI를 사용하여 이메일, SMS, 웹 페이지 및 실험에서 콘텐츠를 생성하고 개인화합니다.
 - **[다국어 콘텐츠 관리](content-multilingual-landing-page.md)** - 수동 및 자동 번역 워크플로를 사용하여 다국어 콘텐츠를 만들고 관리합니다.
 - **[콘텐츠 실험](../using/content-management/get-started-experiment.md)** - 실험을 설정하고 분석하여 대상 참여 및 캠페인 결과를 최적화합니다.
+- **[마케팅 담당자를 위한 Adobe Journey Optimizer에서 AI 기반의 브랜드 내 콘텐츠 만들기](https://experienceleague.adobe.com/en/courses/ajo-ai-powered-on-brand-content-creation-for-marketers)** - Adobe Journey Optimizer의 AI 기능을 사용하여 여러 채널 및 로케일에서 브랜드 내 콘텐츠를 만들고, 개선하고, 제어하는 방법에 대해 알아봅니다.
