@@ -60,7 +60,7 @@ Adobe Journey Optimizer에 통합된 Adobe Express를 사용하여 자산 크기
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 AEM 콘텐츠 조각 작업
 
@@ -70,7 +70,7 @@ AEM 콘텐츠 조각을 Adobe Journey Optimizer와 통합하여 캠페인과 여
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
 
 Dynamic Media 작업
 

@@ -20,7 +20,7 @@ Adobe Journey Optimizer를 사용하면 시스템과 환경을 매끄럽게 연�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 Adobe Journey Optimizer와 다른 솔루션 통합
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer가를 다른 Adobe 및 서드파티 솔루션과 연결�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 Adobe Journey Optimizer API 작업
 
@@ -40,7 +40,7 @@ API를 Adobe Experience Platform에 통합해서 사용해 여러 채널에 걸�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 외부 시스템과 여정 통합
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer를 캡핑 및 스로틀링 API 등 외부 시스템과 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 Adobe 솔루션으로 보내기
 

@@ -52,7 +52,7 @@ ht-degree: 1%
 * **업데이트 및 버전 관리**
   * 업데이트는 [!DNL Adobe Experience Manager]에서 수동으로 다시 게시해야 합니다. 자동 버전 조정은 없습니다.
   * 콘텐츠 조각이 [!DNL Adobe Experience Manager]에 게시되거나 다시 게시되면 [!DNL Journey Optimizer]에서 해당 조각을 업데이트하고 활성 캠페인 또는 여정에서 **참조된 해당 조각의 모든 변형**&#x200B;을 새로 고칩니다.
-  * [!DNL Adobe Experience Manager] [게시 작업](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-publication)이(가) 지연될 수 있습니다. 완료되면 [!DNL Journey Optimizer]이(가) 이벤트를 받고 콘텐츠를 새로 고칩니다.
+  * [!DNL Adobe Experience Manager] [게시 작업](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/manage-publication)이(가) 지연될 수 있습니다. 완료되면 [!DNL Journey Optimizer]이(가) 이벤트를 받고 콘텐츠를 새로 고칩니다.
   * 업데이트가 성공하면 일반적으로 단일 여정의 경우 약 **5분** 내에, 일괄 사용 사례의 경우 **다음 배치**&#x200B;에서 변경 사항을 사용할 수 있습니다.
 
 * **캐싱 및 증명**
@@ -73,6 +73,6 @@ Journey Optimizer에서 Adobe Experience Manager 콘텐츠 조각을 사용하�
 | **CPES(액세스 거부) 오류** | 사용자 역할이 특정 속성에 액세스할 수 있는 권한이 없음 | 시스템 관리자에게 문의하여 개인화에 사용된 프로필 또는 컨텍스트 속성에 대해 역할에 적절한 권한이 있는지 확인하십시오. |
 | **조각이 비어 있거나 누락된 콘텐츠를 표시합니다** | 필수 개인화 매개 변수 또는 대체 값 누락 | 모든 필수 매개 변수가 제공되었는지 확인하고 선택적 속성에 대한 대체 값을 추가하는 것이 좋습니다. |
 | **이미지가 렌더링되지 않거나 손상된 것 같습니다** | 콘텐츠 조각의 이미지 URL이 상대 경로이거나 채널에서 연결할 수 없습니다. | 이미지 필드에 **절대** URL(`https://...`)을 사용합니다. Adobe Experience Manager의 상대 경로는 지원되지 않습니다. 브라우저 또는 메시지 미리 보기에서 URL을 확인합니다. |
-| **Experience League AEM 링크가 404를 반환함** | 부실 책갈피, 미리보기 빌드 또는 게시되지 않은 AEM 도움말 페이지 | 라이브 Experience Manager 설명서에서 [Adobe Journey Optimizer을 사용하여 콘텐츠 조각](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer){target="_blank"} 항목을 열고 페이지 내 목차에서 이동하거나 섹션 이름(예: **Dispatcher 구성**)을 검색합니다. |
+| **Experience League AEM 링크가 404를 반환함** | 부실 책갈피, 미리보기 빌드 또는 게시되지 않은 AEM 도움말 페이지 | 라이브 Experience Manager 설명서에서 [Adobe Journey Optimizer을 사용하여 콘텐츠 조각](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer){target="_blank"} 항목을 열고 페이지 내 목차에서 이동하거나 섹션 이름(예: **Dispatcher 구성**)을 검색합니다. |
 
 문제가 지속되면 컨텐츠 조각 ID, 캠페인 또는 여정 ID에 대한 세부 정보와 표시되는 오류 메시지를 Adobe 담당자에게 문의하십시오.

@@ -44,7 +44,7 @@ ht-degree: 11%
 
 1. 지원되는 소스에서 데이터 세트로 [데이터를 수집](ingest-data.md)합니다.
 
-➡️ [Adobe Experience Platform 설명서에서 수동 관계형 스키마에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
+➡️ [Adobe Experience Platform 설명서에서 수동 관계형 스키마에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
 
 ## 스키마 만들기 {#schema}
 
@@ -130,7 +130,7 @@ Adobe Experience Platform에서 수동으로 새 관계형 스키마를 생성�
 
 속성을 만들고 저장한 후 관계를 정의하여 스키마를 다른 관계형 스키마와 연결할 수 있습니다.
 
-➡️ [Adobe Experience Platform 설명서에서 관계형 스키마에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
+➡️ [Adobe Experience Platform 설명서에서 관계형 스키마에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
 
 ## 스키마 연결 {#link-schema}
 

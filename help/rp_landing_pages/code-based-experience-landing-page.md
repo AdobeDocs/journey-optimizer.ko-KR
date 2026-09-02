@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 코드 기반 경험을 사용하면 앱이나 웹 �
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
 
 코드 기반 경험 소개
 

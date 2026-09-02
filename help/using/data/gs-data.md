@@ -155,7 +155,7 @@ ID는 쿠키 ID, 디바이스 ID, 이메일 주소 또는 CRM ID 등 개별 고�
 **XDM 개인 프로필** 스키마를 만들어 이름 및 연락처 정보, 환경 설정 및 관심 분야, 라이프사이클 단계 또는 동의 상태와 같은 고객 속성을 캡처합니다. **XDM ExperienceEvent** 스키마를 만들어 웹 및 앱 이벤트, 구매, 오프라인 상호 작용과 같은 동작 및 트랜잭션 데이터를 캡처합니다. 적절한 경우 올바른 필드를 ID 및 프로필 속성으로 표시합니다.
 
 ➡️ [스키마에 대해 자세히 알아보기](get-started-schemas.md)\
-➡️ [프로필 활성화 계획](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}
+➡️ [프로필 활성화 계획](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}
 
 +++
 
@@ -164,8 +164,8 @@ ID는 쿠키 ID, 디바이스 ID, 이메일 주소 또는 CRM ID 등 개별 고�
 Adobe Experience Platform에서 XDM 스키마를 기반으로 데이터 세트를 만들고 실시간 고객 프로필에 기여해야 하는 모든 데이터 세트에서 프로필을 활성화합니다. Journey Optimizer에서 만든 시스템 생성 데이터 세트가 데이터 세트 작업 영역에 표시되는지 확인합니다.
 
 ➡️ [데이터 세트에 대해 자세히 알아보기](get-started-datasets.md)\
-➡️ [프로필 활성화 계획](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}\
-➡️ [프로필 사용 스키마 관리](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
+➡️ [프로필 활성화 계획](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}\
+➡️ [프로필 사용 스키마 관리](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
 
 +++
 
@@ -245,7 +245,7 @@ Journey Optimizer는 추적, 피드백, 여정 단계 이벤트를 위해 몇 �
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 **Get started with schemas**
 
@@ -275,7 +275,7 @@ Adobe Experience Platform에서 XDM 스키마를 만들고 올바른 클래스 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 **Adobe Experience Platform 데이터 사용()**
 
@@ -305,7 +305,7 @@ Journey Optimizer에서 실시간 고객 프로필이 작동하는 방식과 Pla
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 **데이터 설정 개요 튜토리얼**
 
@@ -315,7 +315,7 @@ Journey Optimizer에서 데이터 설정을 시작하는 초보자를 위한 비
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 **데이터 세트 생성 및 데이터 수집 튜토리얼**
 
