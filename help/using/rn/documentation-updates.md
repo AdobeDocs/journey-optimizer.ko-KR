@@ -15,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: e8403fd5a4f9a6058a73fa64a97602e22a3fe12d
+source-git-commit: af4ad93b0a4362fc21c79b218f9bfdf1ef01bdd1
 workflow-type: tm+mt
-source-wordcount: 10381
-ht-degree: 79%
+source-wordcount: 10520
+ht-degree: 78%
 
 ---
 
@@ -27,7 +27,17 @@ ht-degree: 79%
 
 이 페이지에는 월별 릴리스 기능 및 개선 사항과 관련된 업데이트 외에도 [!DNL Journey Optimizer] 설명서의 모든 최신 변경 사항이 나와 있습니다.
 
+## 2026년 9월 {#september-2026}
+
+* 이제 **채널 구성 구성** 페이지에 보조 차원에 사용되는 스키마에 기본 키가 있어야 하며 복합 기본 키가 지원되지 않음을 설명하는 메모가 포함됩니다. [자세히 보기](../orchestrated/channel-config.md)
+
+* **충성도 데이터 및 데이터 세트** 및 **소스 시작하기** 페이지가 Talon.One, Capillary 및 Kobie와 함께 지원되는 충성도 및 보상 커넥터로 LAVA를 포함하도록 업데이트되었습니다. [자세히 보기](../loyalty-challenges/loyalty-data-and-datasets.md)
+
 ## 2026년 8월 {#august-2026}
+
+* 이제 **이메일에 시각적 조각 추가** 페이지에서 동적 콘텐츠와 빈 기본 상태가 포함된 조각이 이메일 Designer에 비어 있음을 명확히 합니다. 일치하는 프로필로 시뮬레이션하여 콘텐츠를 미리 봅니다. [자세히 보기](../email/use-visual-fragments.md#fragment-dynamic-content)
+
+* **메시지 추적** 페이지가 업데이트되어 지원되지 않는 URL 문자(예: 아포스트로피)가 퍼센트 인코딩되어야 하며 인코딩되지 않은 상태로 두면 추적된 링크와 URL 추적 매개 변수가 손상될 수 있음을 명확히 합니다. [자세히 보기](../email/message-tracking.md#insert-links)
 
 * **웨이브를 사용하여 보내기** 페이지가 업데이트되어 여정 시작 후 **6일 및 18시간** 내에 읽기 대상 여정의 마지막 웨이브를 예약해야 함을 문서화했습니다. 이 기간을 초과하면 유효성 검사 오류가 트리거되고 여정이 테스트 모드에 들어가거나 라이브로 진행되지 않습니다. [자세히 보기](../delivery/send-using-waves.md#limitations-guardrails)
 

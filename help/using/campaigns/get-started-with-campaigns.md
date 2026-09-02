@@ -35,7 +35,7 @@ topic_v2:
 source-git-commit: 8119b2ae6eeafbd6e973efb94074af5a4982c9db
 workflow-type: tm+mt
 source-wordcount: 1686
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 
@@ -333,7 +333,7 @@ Adobe Journey Optimizer를 사용하면 여러 채널에서 특정 대상자에�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **속도 제어**
 

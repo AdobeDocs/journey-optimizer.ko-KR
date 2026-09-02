@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 89c7799f3d330a0fceb40d55ab3da69fb6c279d8
+source-git-commit: d8f0a7fc524651079c39ca683f7916234d68bab3
 workflow-type: tm+mt
-source-wordcount: 1242
+source-wordcount: 1306
 ht-degree: 1%
 
 ---
@@ -122,6 +122,10 @@ ht-degree: 1%
 * 이메일 구조에 조건부 콘텐츠가 포함된 중첩된 조각이 있는지 확인
 * 조건부 콘텐츠가 있는 각 조각을 이메일 수준에서 자체 구조 블록으로 이동하여 재구성
 * 조건부 콘텐츠 변형이 제대로 복원되었는지 저장 및 확인
+
+>[!NOTE]
+>
+>조각에서 동적 콘텐츠를 사용하며 기본 상태가 비어 있는 경우 이메일 Designer의 이메일에 추가되면 조각이 비어 있을 수 있습니다. 이는 예상되는 비헤이비어입니다. 시스템은 일관성을 보장하기 위해 기본 변형을 폴백으로 사용합니다. 실제 콘텐츠를 미리 보려면 조각의 동적 콘텐츠 규칙에 정의된 조건을 충족하는 프로필을 사용하여 [전자 메일을 시뮬레이션](../content-management/preview-test.md)합니다.
 
 ## 암시적 변수 사용 {#implicit-variables-in-fragments}
 

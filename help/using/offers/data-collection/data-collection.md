@@ -24,10 +24,10 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 1d4ebaf6450e7a737a849d7416cc96c7b529a62c
 workflow-type: tm+mt
-source-wordcount: 433
-ht-degree: 7%
+source-wordcount: 509
+ht-degree: 6%
 
 ---
 
@@ -89,3 +89,25 @@ ht-degree: 7%
 * [이 섹션](create-dataset.md)에서 경험 이벤트를 수집할 데이터 집합을 만드는 방법을 알아봅니다.
 
 * [이 섹션](schema-requirement.md)에서 피드백 데이터를 보낼 경험 이벤트를 정의하는 방법을 알아보세요.
+
+## 피드백 이벤트 제외 {#suppress-feedback}
+
+구현을 테스트할 때 `dryRun` 플래그를 사용하여 피드백 이벤트를 억제하고 보고 및 빈도 제한 카운터에 대해 이벤트가 캡처되지 않도록 할 수 있습니다.
+
+>[!CAUTION]
+>
+>`dryRun` 플래그는 테스트 목적으로만 사용됩니다. 프로덕션에서 활성 상태로 두면 모든 피드백 데이터가 자동으로 억제되고 주파수 제한 카운터가 증가하지 않으므로 시작하기 전에 반드시 제거해야 합니다.
+
+클라이언트 구현의 XDM 이벤트 `data` 블록에 `dryRun` 플래그를 추가합니다.
+
+```json
+{
+    "data": {
+        "__adobe": {
+            "ajo": {
+                "dryRun": true
+            }
+        }
+    }
+}
+```

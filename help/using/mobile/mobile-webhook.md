@@ -12,7 +12,7 @@ feature_v2:
 subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: d2b2142bf3c69acff998dffc9a3dbbf958b4adb1
+source-git-commit: 47f9503a977fedd560e822ef93203d862bb9f95a
 workflow-type: tm+mt
 source-wordcount: 2888
 ht-degree: 3%
@@ -62,6 +62,8 @@ API 자격 증명이 정상적으로 생성되면 이제 옵트인 및 옵트아
 >[!NOTE]
 >
 >사용자 지정 데이터 세트가 구성되어 있지 않으면 인바운드 키워드 데이터가 _AJO 전자 메일 추적 데이터 세트_ 시스템 데이터 세트에 저장됩니다. 들어오는 메시지를 캡처하기 전에 프로필에 [!DNL Journey Optimizer]에서 보낸 메시지가 하나 이상 있어야 합니다. [자세히 알아보기](../data/get-started-datasets.md#system-datasets)
+
+{{$include /help/_includes/mobile-opt-out-keyword-override.md}}
 
 공급업체에 따라 SMS를 성공적으로 구현하기 위해 설정해야 하는 항목에 대한 다양한 기대가 있습니다.
 
@@ -425,11 +427,11 @@ Infobip의 경우 피드백 이벤트에 대해 만들고 인바운드 이벤트
 
    ```json
    {
-   "clientReference": "{{client_reference}}",
+   "clientReference": "\{\{client_reference\}\}",
    "statuses": [
        {
-           "code": "{{failureCode}}",
-           "status": "{{feedbackStatus}}"
+           "code": "\{\{failureCode\}\}",
+           "status": "\{\{feedbackStatus\}\}"
        }
    ]
    }

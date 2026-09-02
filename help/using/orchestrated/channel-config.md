@@ -15,9 +15,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: eca89b39416441b46327ee6b14c827f91d91f11f
+source-git-commit: 87653ffa804a548585a189d5c5ae6d35dea7d35a
 workflow-type: tm+mt
-source-wordcount: 549
+source-wordcount: 570
 ht-degree: 0%
 
 ---
@@ -77,6 +77,9 @@ ht-degree: 0%
    * **[!UICONTROL 보조 Dimension]**: **[!UICONTROL Target + 보조 Dimension]**&#x200B;을(를) 배달 방법으로 사용할 때 이전에 구성한 관련 **[!UICONTROL 보조 Dimension]**&#x200B;을(를) 선택하십시오.
 
      예를 들어 보조 차원이 예약 또는 구독을 나타내는 경우 이메일과 같은 실행 주소를 해당 수준에서 가져올 수 있습니다. 이 기능은 서비스를 예약하거나 구독할 때 프로필에서 다른 연락처 세부 정보를 사용하는 경우에 유용합니다.
+
+     >[!NOTE]
+     >보조 차원에 사용되는 스키마에는 기본 키가 있어야 합니다. 보조 차원에 대해서는 복합 기본 키가 지원되지 않습니다.
 
 1. **[!UICONTROL 게재 주소]** 필드에서 ![편집 아이콘](assets/do-not-localize/edit.svg)을 클릭하여 메시지 게재에 사용할 특정 필드를 선택합니다.
 

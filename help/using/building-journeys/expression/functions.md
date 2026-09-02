@@ -11,9 +11,9 @@ exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: d6b5a083f03c7afe5eaf6efc19fdd93fa0943f02
+source-git-commit: f4cf85cf81c48ae0a33ae415dc886bb7268ecb43
 workflow-type: tm+mt
-source-wordcount: 1377
+source-wordcount: 1421
 ht-degree: 7%
 
 ---
@@ -109,6 +109,7 @@ ht-degree: 7%
 | 함수 | 설명 |
 |----------|-------------|
 | [currentTimeInMillis](../functions/date-functions.md#currentTimeInMillis) | 현재 시간(밀리초) 가져오기 |
+| [dateDiff](../functions/date-functions.md#dateDiff) | 두 날짜 또는 날짜-시간의 차이 계산 |
 | [inLastDays](../functions/date-functions.md#inLastDays) | 날짜가 지난 N일 이내인지 확인 |
 | [inLastHours](../functions/date-functions.md#inLastHours) | 날짜가 지난 N시간 이내인지 확인 |
 | [inLastMonths](../functions/date-functions.md#inLastMonths) | 날짜가 지난 N개월 이내인지 확인 |
@@ -216,7 +217,7 @@ ht-degree: 7%
 
 * 분류된 함수 테이블을 탐색하여 작업에 적합한 함수 식별
 * 변환 함수를 사용하여 문자열, 정수, 십진수, 부울, 날짜 및 기간 간에 데이터 유형 변환
-* `inLastDays`, `inNextHours`, `nowWithDelta` 등의 함수를 사용하여 날짜 기반 필터링 수행
+* `inLastDays`, `inNextHours`, `nowWithDelta`, `dateDiff` 등의 함수를 사용하여 날짜 기반 필터링을 수행합니다
 * `contain`, `replace`, `split` 및 `trim`과(와) 같은 함수를 사용하여 문자열 값 조작 및 유효성 검사
 * `count`, `avg`, `sum` 및 `distinctCount`과(와) 같은 집계 함수를 사용하여 컬렉션에 대한 통계 계산 수행
 * `inAudience` 함수를 사용하여 여정 조건에서 대상 멤버십 확인
@@ -247,6 +248,7 @@ ht-degree: 7%
 * **Q: 여정 표현식 편집기에 사용할 수 있는 함수 수는 몇 개입니까?** — 집계, 전환, 날짜, 목록, 수학, 문자열 및 Adobe Experience Platform을 포함하여 범주로 구성된 60개 이상의 함수.
 * **Q: 프로필이 여정 조건의 대상에 속하는지 어떻게 확인합니까?** — 대상 식별자와 함께 `inAudience` 함수를 사용합니다.
 * **Q: 현재 날짜 및 시간 오프셋을 일 수로 가져오는 데 어떤 함수를 사용해야 합니까?** — `nowWithDelta(N, "days")`을(를) 사용하여 현재 시간으로부터 dateTime 오프셋을 가져옵니다.
+* **Q: 두 날짜 간의 차이를 계산하려면 어떻게 해야 합니까?** — `dateDiff` 함수를 사용합니다. 두 매개 변수는 같은 형식이어야 합니다. `dateOnly` 매개 변수는 일 차이를 반환하지만 `dateTimeOnly` 및 `dateTime` 매개 변수는 밀리초 차이를 반환합니다.
 * **Q: 함수를 호출하는 방법에 따라 다른 형식을 반환할 수 있습니까?** — 함수에는 시그니처마다 특정 반환 유형이 있지만 단일 함수 이름에는 여러 매개 변수 집합과 반환 유형이 있는 여러 시그니처가 있을 수 있습니다.
 * **Q: `count`과(와) `countWithNull`의 차이점은 무엇입니까?** — `count`은(는) null이 아닌 요소만 계산하며, `countWithNull`은(는) null을 포함한 모든 요소를 계산합니다.
 

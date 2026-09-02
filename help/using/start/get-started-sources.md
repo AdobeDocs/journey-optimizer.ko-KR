@@ -25,9 +25,9 @@ topic_v2:
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 451d24a7d30c00aa2ad5528f1dbf3bb775b3258d
+source-git-commit: af4ad93b0a4362fc21c79b218f9bfdf1ef01bdd1
 workflow-type: tm+mt
-source-wordcount: 726
+source-wordcount: 727
 ht-degree: 99%
 
 ---
@@ -99,6 +99,7 @@ Journey Optimizer는 기존 시스템과 연결하기 위해 다양한 유형의
 * 탈론
 * 모세관
 * 코비
+* 용암
 
 ➡️ 전체 목록은 [Experience Platform 소스 카탈로그](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko#sources-catalog){target="_blank"}에서 확인하세요.
 

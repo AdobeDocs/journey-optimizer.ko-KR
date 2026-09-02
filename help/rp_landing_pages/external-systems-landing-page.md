@@ -20,7 +20,7 @@ Adobe Journey Optimizer에서 외부 시스템과 여정을 통합하면 API 및
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 외부 시스템 통합 모범 사례
 

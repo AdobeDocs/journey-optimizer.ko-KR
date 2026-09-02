@@ -26,9 +26,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c26beaed1c61e719f5066190970a649e28207566
+source-git-commit: d05045aa7a9742de42afb473d07bcb6095728526
 workflow-type: tm+mt
-source-wordcount: 1072
+source-wordcount: 1114
 ht-degree: 2%
 
 ---
@@ -197,6 +197,10 @@ ht-degree: 2%
 1. 드롭다운 메뉴에서 원하는 로케일을 선택하여 기존의 작성된 콘텐츠에 적용합니다.
 
 1. **[!UICONTROL 로케일]** 메뉴의 고급 설정에 액세스하여 **[!UICONTROL 모든 로케일로 복사]**&#x200B;를 선택합니다.
+
+   >[!NOTE]
+   >
+   >이 작업은 백엔드의 전체 이메일 페이로드를 처리하며 여정 게시와 동일한 [메시지 콘텐츠 크기 가드레일](../start/guardrails.md#message-content-size)을(를) 따릅니다(최대 2MB, 1MB 미만). 콘텐츠가 큰 경우 한 번에 더 적은 로케일로 복사하십시오.
 
    ![](assets/multilingual-campaign-4.png)
 

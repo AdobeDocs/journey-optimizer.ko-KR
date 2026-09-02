@@ -26,10 +26,10 @@ subfeature_v2:
   - id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371
   - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
   - id: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
-source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
+source-git-commit: 6258db4eb542a124b5eae54aa0c8ec49004945d3
 workflow-type: tm+mt
-source-wordcount: 922
-ht-degree: 10%
+source-wordcount: 902
+ht-degree: 8%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->데이터 조회 기능은 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오. 릴리스 주기 및 가용성 단계에 대한 자세한 내용은 [Journey Optimizer 릴리스 주기](../rn/releases.md)를 참조하십시오.
+>데이터 조회 기능은 제한된 가용성에 있으며 모든 Journey Optimizer 고객이 사용할 수 있습니다.
 
 이 섹션에서 데이터 세트에 액세스하고 작업하는 방법에 대해 자세히 알아보세요. [데이터 세트 시작](../data/get-started-datasets.md)
 

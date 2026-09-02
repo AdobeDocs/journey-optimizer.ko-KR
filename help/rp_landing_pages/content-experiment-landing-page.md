@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 콘텐츠 실험은 콘텐츠의 다양한 변형이 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 콘텐츠 실험 시작하기
 

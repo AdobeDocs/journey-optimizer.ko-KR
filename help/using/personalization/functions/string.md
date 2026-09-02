@@ -780,7 +780,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 >[!NOTE]
 >
-> 두 번째 인수로 사용된 식이 특수 정규 표현식 문자인 경우 이중 백슬래시(`//`)를 사용합니다.  특수 정규 표현식 문자는 [., +, *, ?, ^, $, (, ), [,], {, }, |, \.]
+> 두 번째 인수로 사용된 식이 특수 정규 표현식 문자인 경우 이중 백슬래시(`//`)를 사용합니다.  특수 정규식 문자: [., +, *, ?, ^, $, (, ), [,], {, }, |, \.]
 > 
 > 자세한 내용은 [Oracle 설명서](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}를 참조하세요.
 >
