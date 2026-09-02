@@ -8,27 +8,15 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2285f5fb8717f8577313a013a794a7b410c34a50
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5592f564456edf86e04dc9849c947402126cf161
 workflow-type: tm+mt
-source-wordcount: 2240
+source-wordcount: 2234
 ht-degree: 21%
 
 ---
@@ -49,6 +37,8 @@ ht-degree: 21%
 >이 릴리스 정보에 나열된 기능에는 각 변경 사항이 사용자 환경에서 사용 가능해지는 시점을 나타내는 **사용 가능한 날짜**&#x200B;가 포함되어 있습니다. **곧 출시 예정** 아코디언 항목은 향후 며칠 또는 몇 주 내에 제공될 예정입니다. 이 섹션의 정보는 변경될 수 있습니다.
 
 ## 2026년 9월 업데이트 {#sep-26-updates}
+
+### 여정 {#sep-26-journeys}
 
 <table>
 <thead>
@@ -90,6 +80,8 @@ ht-degree: 21%
 
   사용 가능한 날짜: 2026년 9월 1일
 
+### 캠페인 {#sep-26-campaigns}
+
 +++ 곧 출시 예정 — **아래 정보는 변경될 수 있습니다.**
 
 <table>
@@ -108,6 +100,12 @@ ht-degree: 21%
 </tr>
 </tbody>
 </table>
+
+* **작업 캠페인용 폴더** - 이제 작업 캠페인을 폴더로 구성하여 인터페이스에서 탐색 및 관리를 개선할 수 있습니다.
+
+* **작업 캠페인 작성 흐름 재디자인** - Adobe Journey Optimizer 작업 캠페인 작성 흐름이 훨씬 더 직관적이고 효율적이며 원활한 사용자 경험을 제공하도록 재디자인되었습니다.
+
+* **작업 캠페인의 기본 실행 필드 재정의** - 이전에는 여정 수준에서 사용할 수 있었지만, 이제 작업 캠페인 매개 변수에서 이메일, SMS 및 WhatsApp 게재에 대해 전역적으로 구성된 기본 실행 필드를 재정의할 수 있습니다.
 
 +++
 
@@ -148,7 +146,6 @@ ht-degree: 21%
 
 * **여정 헤더의 시작 및 종료 날짜** - 여정에 시작 및/또는 종료 날짜가 구성되면 상태 배지 옆의 여정 헤더에 표시됩니다. 표시되는 레이블은 각 날짜가 다가오는지 또는 이미 지났는지에 따라 달라집니다. [자세히 보기](../building-journeys/journey-properties.md#dates)
 
-
   사용 가능한 날짜: 2026년 8월 20일
 
 * **고급 표현식 편집기의 새 목록 함수** - 고급 표현식 편집기에서 두 개의 새 함수를 사용할 수 있습니다. `mergeLists`은(는) 중복 제거가 있거나 없는 두 목록을 결합하고 `differenceLists`은(는) 다른 목록에 없는 한 목록의 항목을 반환합니다. [자세히 알아보기](../building-journeys/functions/list-functions.md)
@@ -185,17 +182,6 @@ ht-degree: 21%
 * **캠페인별 라이프사이클 경고 구독** - 이제 기존 샌드박스 수준 구독뿐만 아니라 단일 캠페인에 대해 지원되는 캠페인 라이프사이클 경고를 구독할 수 있습니다. 이렇게 하면 샌드박스의 모든 캠페인에 대해 동일한 경고를 받지 않고 우선 순위가 높은 개별 캠페인을 모니터링할 수 있습니다. [자세히 알아보기](../reports/alerts.md#subscribe-alerts)
 
   사용 가능한 날짜: 2026년 8월 13일
-
-+++ 곧 출시 예정 — **아래 정보는 변경될 수 있습니다.**
-
-
-* **작업 캠페인 작성 흐름 재디자인** - Adobe Journey Optimizer 작업 캠페인 작성 흐름이 훨씬 더 직관적이고 효율적이며 원활한 사용자 경험을 제공하도록 재디자인되었습니다.
-
-* **작업 캠페인용 폴더** - 이제 작업 캠페인을 폴더로 구성하여 인터페이스에서 탐색 및 관리를 개선할 수 있습니다.
-
-* **작업 캠페인의 기본 실행 필드 재정의** - 이전에는 여정 수준에서 사용할 수 있었지만, 이제 작업 캠페인 매개 변수에서 이메일, SMS 및 WhatsApp 게재에 대해 전역적으로 구성된 기본 실행 필드를 재정의할 수 있습니다.
-
-+++
 
 ### 오케스트레이션된 캠페인 {#august-26-oc}
 
