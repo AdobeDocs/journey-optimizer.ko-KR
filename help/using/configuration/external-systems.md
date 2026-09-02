@@ -9,22 +9,13 @@ level: Beginner
 keywords: 외부, API, 최적화 프로그램, 한도
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
 TQID: https://experienceleague.adobe.com/qIF3fCfcp54WIlVhIbL1FYU-RYOP8s9I4SxuznN-zxg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0af9a79a9f06d99c6136618c3635c05e4dc653e8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: e8781ebabc7692ee1b7c7a69e04d9ba90ac6189e
 workflow-type: tm+mt
 source-wordcount: 1937
 ht-degree: 21%
@@ -104,7 +95,7 @@ API에 대한 자세한 설명은 [Adobe Journey Optimizer API 설명서](https:
 
 이 느린 사용자 지정 작업 서비스는 30초마다 150,000번의 호출 제한을 적용합니다. 이 제한은 슬라이딩 윈도우를 사용하여 시행되며, 이 윈도우는 그 30초 주기 내에서 임의의 밀리초로 시작할 수 있다. 창이 가득 차면 추가 호출이 거부되고 최대 가용량 오류가 발생합니다. 시스템은 다음 고정 간격을 기다리지 않고 30초 임계값에 도달하면 바로 캡핑을 시작합니다.
 
-또한 이미 느린 끝점을 오버로드할 수 없도록 120초 창에서 호출의 20% 이상이 10초를 초과하는 경우 느린 사용자 지정 작업 서비스는 최대 5분 동안 모든 호출을 일시적으로 제한합니다. 이 차단기 메커니즘은 120초 윈도우에 적어도 200회의 호출이 있는 경우에만 적용된다. 이 보호 기능은 현재 일부 지역에서 사용할 수 있으며 향후 모든 지역으로 점진적으로 배포될 예정입니다.
+또한 이미 느린 끝점을 오버로드할 수 없도록 120초 창에서 호출의 20% 이상이 5초를 초과하는 경우 느린 사용자 지정 작업 서비스는 최대 5분 동안 모든 호출을 일시적으로 제한합니다. 이 차단기 메커니즘은 120초 윈도우에 적어도 200회의 호출이 있는 경우에만 적용된다. 이 보호 기능은 현재 일부 지역에서 사용할 수 있으며 향후 모든 지역으로 점진적으로 배포될 예정입니다.
 
 느린 끝점은 파이프라인에 큐에 있는 모든 작업에서 지연을 발생시킬 수 있으므로 응답 시간이 느린 끝점으로 사용자 지정 작업을 구성하지 않는 것이 좋습니다. 이러한 작업을 느린 서비스로 라우팅하면 전체 시스템 성능을 보호하고 다른 사용자 지정 작업에 대한 추가적인 지연을 방지할 수 있습니다.
 

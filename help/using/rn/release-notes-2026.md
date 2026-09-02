@@ -8,13 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 65ca94cf-8e17-4a25-90f3-238083f81477
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 7d3697f6ff585af137721516ddc7ae833684ed42
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: e8781ebabc7692ee1b7c7a69e04d9ba90ac6189e
 workflow-type: tm+mt
 source-wordcount: 12662
 ht-degree: 79%
@@ -219,7 +215,7 @@ Journey Optimizer에서는 이 릴리스의 새로운 기능인 충성도 문제
 
   사용 가능한 날짜: 2026년 7월 29일
 
-* **느린 사용자 지정 작업 끝점에 대한 회로 차단기 보호** - 느린 사용자 지정 작업 서비스를 통해 라우팅된 끝점의 경우 120초 관찰 기간에 200개 이상의 호출이 있는 경우 120초 기간에 20% 이상의 호출이 10초를 초과할 경우 Journey Optimizer은 이제 최대 5분 동안 모든 호출을 일시적으로 제한합니다. 이렇게 하면 이미 느린 끝점을 오버로드할 수 있습니다. [자세히 알아보기](../configuration/external-systems.md#response-time)
+* **느린 사용자 지정 작업 끝점에 대한 차단기 보호** - 느린 사용자 지정 작업 서비스를 통해 라우팅된 끝점의 경우 120초 관찰 기간에 200개 이상의 호출이 있는 경우 120초 기간 호출의 20%가 5초를 초과할 경우 Journey Optimizer은 이제 최대 5분 동안 모든 호출을 일시적으로 제한합니다. 이렇게 하면 이미 느린 끝점을 오버로드할 수 있습니다. [자세히 알아보기](../configuration/external-systems.md#response-time)
 
   사용 가능한 날짜: 2026년 7월 29일 이 기능은 지역 간에 점차 확대되고 있습니다.
 
@@ -1430,7 +1426,7 @@ The following orchestrated campaign capability is expected in the upcoming days 
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 **출시일**: 2026년 3월 24~25일
@@ -2184,7 +2180,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 
 * **AI 어시스턴트 콘텐츠 품질 검사** - 이제 브랜드 일관성 외에도 전체 <strong>콘텐츠 품질</strong>을 평가하여 브랜드 가이드라인과 별개로 <strong>가독성</strong>, 일치도, 효과성 관련 잠재적인 문제를 찾을 수 있습니다. 이 자동화된 검사는 명확하지 않은 메시지, 일관되지 않은 톤 또는 구조적으로 빠진 부분을 식별하는 데 도움이 됩니다. [자세히 보기](../content-management/brands-score.md#validate-quality).
 
-  [비디오에서 이 기능을 살펴보십시오](https://video.tv.adobe.com/v/3470553/?captions=kor&learn=on).
+  [비디오에서 이 기능을 살펴보십시오](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### 여정
 
