@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Journey Optimizer
-description: Adobe Journey Optimizer이 무엇인지, 주요 기능 및 Adobe Experience Platform에 어떻게 적합한지 알아보십시오.
+description: Adobe Journey Optimizer가 무엇인지, 주요 기능은 무엇인지, 그리고 Adobe Experience Platform에 어떻게 통합되는지 알아봅니다.
 feature: Get Started
 topic: Content Management
 role: User
@@ -34,9 +34,9 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 832
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -80,7 +80,7 @@ You can also create audience-based campaigns to send messages.
 
 ### 최신 옴니채널 오케스트레이션 및 실행
 
-1:1 고객 참여 및 마케팅 전달을 위해 고객 여정을 조화롭게 최적화하고 최적화하여 브랜드가 고객 라이프사이클에서 더 많은 가치를 제공할 수 있는 단일 캔버스입니다. [!DNL Adobe Journey Optimizer]에서 디자인한 고객 여정은 동적이고 이벤트 기반으로 작동할 수 있으므로 브랜드가 실시간 신호에 반응하고 이 상호 작용을 예약된 캠페인과 연결하여 고객에게 보낼 커뮤니케이션, 그 시점, 이때 사용할 채널에 대해 올바른 결정을 내리는 데 도움이 됩니다. 드래그 앤 드롭 방식의 비주얼 디자이너, 재사용 가능한 템플릿, 콘텐츠 조각, 개인화 편집기 등 콘텐츠 제작 도구가 포함되어 있어 팀이 동일한 워크플로 내에서 모든 채널의 메시지를 직접 작성, 개인화, 관리할 수 있습니다. [첫 번째 여정 작성](../building-journeys/journey-gs.md) | [콘텐츠 디자인](../../rp_landing_pages/content-management-landing-page.md)
+1:1 고객 참여 및 마케팅 활동을 위한 고객 여정을 조화롭고 최적화할 수 있는 단일 캔버스를 제공하여 브랜드가 고객 라이프사이클 전체에서 더 큰 가치를 제공할 수 있도록 지원합니다. [!DNL Adobe Journey Optimizer]에서 디자인한 고객 여정은 동적이고 이벤트 기반으로 작동할 수 있으므로 브랜드가 실시간 신호에 반응하고 이 상호 작용을 예약된 캠페인과 연결하여 고객에게 보낼 커뮤니케이션, 그 시점, 이때 사용할 채널에 대해 올바른 결정을 내리는 데 도움이 됩니다. 드래그 앤 드롭 방식의 비주얼 디자이너, 재사용 가능한 템플릿, 콘텐츠 조각, 개인화 편집기 등 콘텐츠 제작 도구가 포함되어 있어 팀이 동일한 워크플로 내에서 모든 채널의 메시지를 직접 작성, 개인화, 관리할 수 있습니다. [첫 번째 여정 작성](../building-journeys/journey-gs.md) | [콘텐츠 디자인](../../rp_landing_pages/content-management-landing-page.md)
 
 ### 지능형 의사 결정 및 개인화
 
@@ -89,18 +89,18 @@ You can also create audience-based campaigns to send messages.
 
 ## 일반적인 사용 사례 {#use-cases}
 
-Journey Optimizer은 실시간 트리거 여정 및 장바구니 중단 복구에서 예약된 캠페인, 의사 결정 및 운영 알림에 이르기까지 다양한 시나리오를 지원합니다.
+Journey Optimizer는 실시간 트리거 여정 및 장바구니 이탈 복구부터 예약된 캠페인, 의사 결정 및 운영 알림에 이르기까지 다양한 시나리오를 지원합니다.
 
-목표에 맞는 기능을 찾으려면 [Journey Optimizer 사용 사례 개요](ajo-use-case-guide.md)를 참조하세요. 전체 작업 예제를 보려면 [여정 사용 사례 라이브러리](../building-journeys/jo-use-cases.md)를 검색하십시오.
+목표에 맞는 기능을 찾으려면 [Journey Optimizer 사용 사례 개요](ajo-use-case-guide.md)를 참조하세요. 전체 과정의 예시를 보려면 [여정 사용 사례 라이브러리](../building-journeys/jo-use-cases.md)를 찾아보세요.
 
-목표를 위해 여정 또는 캠페인을 사용할지 확실하지 않습니까? [여정 및 캠페인: 올바른 접근 방식을 선택하십시오](journeys-vs-campaigns.md)을(를) 참조하십시오.
+목표 달성에 여정을 사용할지 캠페인을 사용할지 잘 모르시겠나요? [여정과 캠페인 비교: 올바른 접근 방식 선택](journeys-vs-campaigns.md)을 참조하세요.
 
 
 ## 가용성 및 라이선스 {#availability}
 
 이 설명서는 Journey Optimizer의 현재 릴리스에 대해 설명하며, 별도로 언급되지 않는 한 B2C 및 B2B Edition 사용자 모두에게 적용됩니다. 사용자 환경에서 사용할 수 있는 구성 요소 및 기능은 [사용 권한](../administration/permissions.md) 및 [라이선스 패키지](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}에 따라 다릅니다. 질문이 있는 경우 Adobe 고객 성공 관리자 또는 Adobe 담당자에게 문의하세요.
 
-[!DNL Adobe CX Enterprise] 일반 개인 정보 보호 지침 및 절차가 [!DNL Journey Optimizer]에 적용됩니다. [자세한 정보 [!DNL Adobe CX Enterprise] 개인 정보](https://www.adobe.com/kr/privacy/experience-cloud.html){target="_blank"}.
+[!DNL Adobe CX Enterprise] 일반 개인 정보 보호 지침 및 절차는 [!DNL Journey Optimizer]에 적용됩니다. [개인 정보 보호에 대해 자세히 알아보세요 [!DNL Adobe CX Enterprise] ](https://www.adobe.com/kr/privacy/experience-cloud.html){target="_blank"}.
 
 
 ## 아키텍처 {#architecture}
@@ -120,10 +120,10 @@ Journey Optimizer는 기본적으로 Adobe Experience Platform을 기반으로 �
 
 ## 다음 단계 {#where-next}
 
-| 난... | 이동... |
+| 학습할 내용... | 확인할 위치... |
 |------------|--------|
-| Journey Optimizer을 Adobe Experience Platform과 통합하는 방법 이해 | [Journey Optimizer 이해](understanding-ajo.md) |
-| 내 특정 역할에 대해 시작하기 | [역할 및 책임](quick-start.md) |
+| Journey Optimizer가 Adobe Experience Platform과 어떻게 통합되는지 이해 | [Journey Optimizer 이해](understanding-ajo.md) |
+| 내 역할에 맞춰 시작 | [역할 및 책임](quick-start.md) |
 | 사용 사례 살펴보기 | [Journey Optimizer 사용 사례 개요](ajo-use-case-guide.md) |
-| 여정 및 캠페인 결정 | [여정과 캠페인 비교](journeys-vs-campaigns.md) |
+| 여정과 캠페인 중 결정 | [여정과 캠페인 비교](journeys-vs-campaigns.md) |
 | 주요 용어 보기 | [용어](terminology.md) |

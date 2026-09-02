@@ -33,9 +33,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 source-git-commit: 8119b2ae6eeafbd6e973efb94074af5a4982c9db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1686
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 95%
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** 캠페인 기본 사항을 이해하고, 사용 가능한 캠페인 유형을 비교하고, 전체적인 만들기 워크플로를 따라 Adobe Journey Optimizer의 채널 간에 타깃팅된 콘텐츠를 제공하는 올바른 접근 방식을 선택하고 캠페인을 빌드할 수 있습니다.
+**이 페이지의 내용:** 캠페인 기본 사항을 이해하고, 사용 가능한 캠페인 유형을 비교하며, 엔드투엔드 생성 워크플로를 따라가면서 Adobe Journey Optimizer에서 적절한 접근 방식을 선택하고 채널 전반에서 타겟팅된 콘텐츠를 제공하는 캠페인을 구축하는 방법을 알아봅니다.
 
 >[!ENDSHADEBOX]
 
@@ -193,7 +193,7 @@ Adobe Journey Optimizer를 사용하면 여러 채널에서 특정 대상자에�
 
   >[!NOTE]
   >
-  >캠페인에 참여한 모든 프로필은 조직의 **참여 가능한 프로필** 라이선스 지표(12개월 순환 기간, 샌드박스당 한 번 계산)에 포함됩니다. 대규모 또는 신규 대상자에게 캠페인을 활성화하면 이 카운트가 크게 증가할 수 있습니다. [참여 가능한 프로필 수 모니터링](../audience/license-usage.md)
+  >캠페인에 참여한 모든 프로필은 조직의 **참여 가능한 프로필** 라이선스 지표에 포함됩니다(12개월 누적, 샌드박스당 1회 계산). 대규모 또는 신규 대상자를 대상으로 캠페인을 활성화하면 이 수치가 크게 증가할 수 있습니다. [참여 가능한 프로필 수 모니터링](../audience/license-usage.md)
 
 * **채널 구성** - 사용할 채널에 대한 채널 구성(사전 설정)을 만들어야 합니다. [채널 구성 설정 →](../configuration/channel-surfaces.md)
 
@@ -333,7 +333,7 @@ Adobe Journey Optimizer를 사용하면 여러 채널에서 특정 대상자에�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 **속도 제어**
 

@@ -30,9 +30,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1103
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 93%
 >
 >**구현 순서:** [관리자](administrator.md) → 현재 위치: **데이터 엔지니어** → [개발자](developer.md) → [마케터](marketer.md)
 >
->데이터 기초 작업을 시작하기 전에 [관리자 설정](administrator.md)을 완료합니다.
+>데이터 기반 작업을 시작하기 전에 [관리자 설정](administrator.md)을 완료합니다.
 
 >[!NOTE]
 >
@@ -139,7 +139,7 @@ Journey Optimizer의 데이터 기반을 설정하려면 다음 단계를 따르
 * 캠페인 및 여정 요구 사항을 기반으로 대상 구축
 * 오케스트레이션된 캠페인에 대한 관계형 스키마 구성하기
 * 고급 사용 사례를 위한 다중 엔터티 세분화 지원
-* 마케터가 여정과 캠페인 중 하나를 선택할 때 [여정과 캠페인 비교](../journeys-vs-campaigns.md) 및 [여정 유형 공유: 올바른 유형을 선택](../../building-journeys/journey-types-selection.md)하여 사용 사례에 적합한 데이터 아키텍처를 선택할 수 있도록 지원합니다.
+* 마케터가 여정과 캠페인 중에서 선택할 때는 [여정과 캠페인 비교](../journeys-vs-campaigns.md) 및 [여정 유형: 적합한 유형 선택](../../building-journeys/journey-types-selection.md)을 공유하여 사용 사례에 맞는 적절한 데이터 아키텍처를 선택하도록 지원합니다.
 
 >[!ENDTABS]
 
@@ -147,9 +147,9 @@ Journey Optimizer의 데이터 기반을 설정하려면 다음 단계를 따르
 
 | 역할 | 안내서 |
 |------|-------|
-| 관리자 | [관리자용 시작하기](administrator.md) |
-| 데이터 엔지니어 | [데이터 엔지니어 시작](data-engineer.md) |
-| Developer | [개발자용 시작하기](developer.md) |
-| 마케터 | [마케터용 시작하기](marketer.md) |
+| 관리자 | [관리자를 위한 시작](administrator.md) |
+| 데이터 엔지니어 | [데이터 엔지니어를 위한 시작](data-engineer.md) |
+| 개발자 | [개발자를 위한 시작](developer.md) |
+| 마케터 | [마케터를 위한 시작](marketer.md) |
 
-[역할 및 책임 개요](../quick-start.md)(으)로 돌아가기 · [시작하기](../../../rp_landing_pages/get-started-landing-page.md)(으)로 돌아가기
+[역할 및 책임 개요](../quick-start.md)로 돌아가기 · [시작](../../../rp_landing_pages/get-started-landing-page.md)으로 돌아가기

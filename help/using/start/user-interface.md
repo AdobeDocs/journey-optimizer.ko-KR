@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: 6502d54fa05cba117a0ae72242d9c06dde2ce4ab
 workflow-type: tm+mt
 source-wordcount: 1608
-ht-degree: 86%
+ht-degree: 87%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 86%
 
 >[!ENDSHADEBOX]
 
-Adobe Journey Optimizer에 액세스하려면 Adobe ID으로 [[!DNL Adobe CX Enterprise]](https://experience.adobe.com)에 로그인한 다음 [!DNL Journey Optimizer]을(를) 선택하십시오.
+Adobe Journey Optimizer에 액세스하려면 Adobe ID로 [[!DNL Adobe CX Enterprise]](https://experience.adobe.com)에 로그인한 다음, [!DNL Journey Optimizer]을(를) 선택하세요.
 
 >[!NOTE]
 >

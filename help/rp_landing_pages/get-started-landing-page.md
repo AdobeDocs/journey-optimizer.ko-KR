@@ -1,24 +1,24 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: 시작하기
-description: 여기에서 Adobe Journey Optimizer을 시작하고 실행하는 데 필요한 모든 것을 살펴보십시오.
+title: 시작
+description: 여기에서 시작하세요. Adobe Journey Optimizer를 시작하는 데 필요한 모든 정보가 있습니다.
 role: User, Admin, Developer
 level: Beginner
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
 source-git-commit: 6c53c3b376b01edf30e6d9fcfa2478a0491b7b7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '715'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
 # Adobe Journey Optimizer 시작하기{#get-started}
 
-Journey Optimizer을 처음 사용하든, 새 기능을 살펴보기 위해 다시 시작하든 상관없이 이 페이지가 시작점입니다. 자신의 역할과 목표에 맞는 경로를 선택합니다.
+Journey Optimizer를 처음 사용하거나 새로운 기능을 살펴보시려는 경우 이 페이지가 시작점입니다. 역할과 목표에 맞는 경로를 선택하세요.
 
-## Journey Optimizer을 처음 사용하십니까? {#essentials}
+## Journey Optimizer를 처음 사용하시나요? {#essentials}
 
 Adobe Journey Optimizer의 기본 사항과 이를 통해 데이터 기반 개인화를 활성화하는 방법에 대해 알아봅니다.
 
@@ -105,7 +105,7 @@ AI가 어떻게 콘텐츠를 만들고, 전송 시간을 최적화하고, 보다
 
 개발자 대상
 
-모바일 앱을 통합하고, 웹 SDK를 구현하고, 이벤트를 구성하고, 사용자 지정 통합을 구축합니다.
+모바일 앱을 통합하고, Web SDK를 구현하고, 이벤트를 구성하고, 사용자 지정 통합을 구축합니다.
 
 [개발자로 시작](../using/start/path/developer.md)
 :::
@@ -116,7 +116,7 @@ AI가 어떻게 콘텐츠를 만들고, 전송 시간을 최적화하고, 보다
 
 ## 사용 사례 살펴보기 {#explore-use-cases}
 
-어디서부터 시작할지 모르겠습니까? 목표에 부합하는 기능을 찾아보십시오.
+어디서부터 시작해야 할지 모르시겠나요? 목표에 맞는 기능을 찾아보세요.
 
 :::: landing-cards-container
 :::
@@ -124,16 +124,16 @@ AI가 어떻게 콘텐츠를 만들고, 전송 시간을 최적화하고, 보다
 
 목표에 적합한 기능 찾기
 
-비즈니스 목표별로 사용 사례를 찾아보고 권장 Journey Optimizer 기능으로 이동합니다.
+비즈니스 목표별 사용 사례를 찾아보고 권장되는 Journey Optimizer 기능으로 이동하세요.
 
 [사용 사례 살펴보기](../using/start/ajo-use-case-guide.md)
 :::
 
 ::::
 
-## 이미 온보딩했습니까? {#already-onboarded}
+## 이미 온보딩하셨나요? {#already-onboarded}
 
-여러분이 일상적인 일을 하는 지역으로 곧장 달려가세요.
+일상 업무를 수행하는 영역으로 바로 이동하세요.
 
 :::: landing-cards-container
 :::
@@ -241,6 +241,6 @@ Journey Optimizer 인터페이스를 사용하고, 주요 기능에 액세스하
 >
 >사용자 환경에서 사용 가능한 구성 요소 및 기능은 [권한](../using/administration/permissions.md) 및 [라이선스 패키지](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}에 따라 달라집니다. 특정 설정과 관련된 질문이 있는 경우 Adobe 고객 성공 관리자에게 문의하세요.
 
-## 구현 시퀀스를 찾고 계십니까?
+## 구현 순서를 찾고 계신가요?
 
-팀이 Journey Optimizer을 처음 설정하는 경우 모든 역할에서 권장되는 작업 순서를 보려면 [역할 및 책임](../using/start/quick-start.md)을 참조하십시오.
+팀에서 Journey Optimizer를 처음 설정하는 경우 모든 역할에서 권장되는 작업 순서는 [역할 및 책임](../using/start/quick-start.md)을 참조하세요.

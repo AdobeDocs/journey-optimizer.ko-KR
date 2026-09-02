@@ -96,9 +96,9 @@ Journey Optimizer는 기존 시스템과 연결하기 위해 다양한 유형의
 * Salesforce Marketing Cloud
 
 **충성도 및 보상:**
-* 탈론
-* 모세관
-* 코비
+* Talon.One
+* Capillary
+* Kobie
 * 용암
 
 ➡️ 전체 목록은 [Experience Platform 소스 카탈로그](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko#sources-catalog){target="_blank"}에서 확인하세요.

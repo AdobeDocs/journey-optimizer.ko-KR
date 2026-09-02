@@ -29,9 +29,9 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: de8759bda1690076110ba19f878ff940441907e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1343
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Adobe Experience Platform에 수집되는 모든 데이터는 데이터 세트�
 
 * 2025년 2월부로 TTL(Time-to-Live) 가드레일이 Journey Optimizer 시스템 생성 데이터 세트에 배포됩니다. [자세히 알아보기](datasets-ttl.md)
 
-* 프로필에 대한 데이터 세트를 활성화하면 스키마 수준에서 영구적인 영향을 미칩니다. 활성화하기 전에 스키마 및 ID 디자인을 신중하게 계획하십시오. [자세히 알아보기](#profile-datasets)
+* 프로필에 대한 데이터 세트를 활성화하면 스키마 수준에서 영구적인 영향을 미칩니다. 활성화하기 전에 스키마 및 ID 설계를 신중하게 계획하세요. [자세히 알아보기](#profile-datasets)
 
 ## 데이터 세트 액세스 {#access}
 
@@ -86,7 +86,7 @@ Adobe Experience Platform에 수집되는 모든 데이터는 데이터 세트�
   * _보고 - 여정 단계 이벤트_: Journey Optimizer에서 생성한 [모든 여정 단계 경험 이벤트]를 캡처합니다. [보고] 등 서비스에서 사용합니다. Customer Journey Analytics에서 전년 대비 분석 보고서를 작성하는 데에도 중요합니다. [여정 메타데이터]에 연결되어 있습니다.
   * _보고 - 여정_: 여정의 각 단계에 대한 정보가 있는 메타데이터 데이터 세트입니다.
   * _보고 - BCC_: 숨은 참조 이메일에 대한 게재 로그를 저장하는 [피드백 이벤트 데이터 세트]입니다. 보고 목적으로 사용합니다.
-  * _AJO 채널 추적 이벤트 데이터 세트_: WhatsApp 흐름 템플릿을 통해 제출된 응답을 포함하여 모든 인바운드 WhatsApp 응답을 캡처합니다.
+  * _AJO 채널 추적 이벤트 데이터 세트_: WhatsApp Flow 템플릿을 통해 제출된 응답을 포함하여 모든 인바운드 WhatsApp 응답을 캡처합니다.
 
 * 동의
 
@@ -123,18 +123,18 @@ Adobe Experience Platform에 수집되는 모든 데이터는 데이터 세트�
 
 ## 프로필에 대한 데이터 세트 활성화 {#profile-datasets}
 
-데이터 세트를 만들 때 [실시간 고객 프로필](../audience/get-started-profiles.md)에 기여할 수 있도록 설정할 수 있습니다. 이렇게 하면 포함된 데이터를 [!DNL Journey Optimizer]의 세분화, 개인화 및 여정 조건에 사용할 수 있습니다.
+데이터 세트를 생성할 때 [실시간 고객 프로필](../audience/get-started-profiles.md)에 기여하도록 설정할 수 있습니다. 이렇게 하면 해당 데이터 세트에 포함된 데이터를 [!DNL Journey Optimizer]에서 세분화, 개인화 및 여정 조건에 사용할 수 있습니다.
 
-활성화하기 전에 다음 사항에 유의하십시오.
+활성화하기 전에 다음 사항에 유의하세요.
 
-* **스키마 활성화가 영구적입니다.** 데이터 세트의 기반이 되는 스키마를 프로필에 대해 활성화하면 되돌릴 수 없습니다. 스키마를 비활성화하거나 삭제할 수 없습니다. 데이터 세트 자체만 비활성화하거나 별도로 삭제할 수 있습니다.
-* **데이터 집합을 사용하지 않도록 설정하면 결과가 발생합니다.** 스키마와 관계없이 프로필에 대한 데이터 세트를 비활성화하거나 삭제할 수 있지만, 이렇게 하면 연결된 프로필 레코드가 제거되고 세그멘테이션 및 활성화 워크플로가 중단될 수 있습니다.
-* **활성화하기 전에 구성을 계획하십시오.** 프로필을 활성화한 후 ID 필드 및 필드 그룹 선택을 변경하기가 더 어려워집니다. 먼저 스키마 디자인을 마무리합니다.
+* **스키마 활성화는 영구적입니다.** 데이터 세트의 기반이 되는 스키마가 프로필에 대해 활성화되면, 이 설정은 되돌릴 수 없습니다. 즉, 스키마를 비활성화하거나 삭제할 수 없습니다. 데이터 세트 자체만 별도로 비활성화하거나 삭제할 수 있습니다.
+* **데이터 세트 비활성화에는 결과가 따릅니다.** 스키마와 관계없이 프로필용 데이터 세트를 비활성화하거나 삭제할 수 있지만, 이렇게 하면 연결된 프로필 레코드가 삭제되어 세분화 및 활성화 워크플로가 중단될 수 있습니다.
+* **활성화하기 전에 구성을 계획하세요.** 프로필 활성화 후에는 ID 필드 및 필드 그룹 선택을 변경하기가 더 어려워집니다. 먼저 스키마 설계를 확정합니다.
 
-자세한 지침은 Adobe Experience Platform 설명서를 참조하십시오.
+자세한 내용은 Adobe Experience Platform 설명서를 참조하세요.
 
-* [프로필 활성화 계획](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"} — ID 구성, 필드 그룹 선택 및 데이터 세트 목적 유효성 검사에 대한 사전 활성화 검사 목록.
-* [프로필 사용 스키마 관리](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"} — 이름 바꾸기 전략을 포함하여 프로필 사용 스키마를 사용하지 않는 방법에 대한 지침입니다.
+* [프로필 활성화 계획](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"} — ID 구성, 필드 그룹 선택 및 데이터 세트 목적 유효성 검사를 다루는 사전 활성화 체크리스트.
+* [프로필 활성화 스키마 관리](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"} — 이름 변경 전략을 포함하여 프로필 활성화 스키마 사용 중단에 대한 지침입니다.
 
 ## 데이터 거버넌스
 
@@ -158,4 +158,4 @@ Adobe Experience Platform에 수집되는 모든 데이터는 데이터 세트�
 >* [데이터 세트 설명서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=ko){target="_blank"}
 >* [데이터 수집 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ko){target="_blank"}.
 >* [데이터 관리 라이선스 권한 부여 모범 사례](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/license/data-management-best-practices#data-management-best-practices){target="_blank"}
->* [프로필 사용 스키마 관리](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
+>* [프로필 활성화 스키마 관리](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}

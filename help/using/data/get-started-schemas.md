@@ -27,9 +27,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 79b0c44fffb4297a9a5675200f086c5de544ec88
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 609
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ Adobe Experience Platform에는 두 가지 유형의 스키마가 있습니다.
 
 >[!IMPORTANT]
 >
->실시간 고객 프로필에 대한 스키마 활성화는 영구적인 결정입니다. 활성화하면 스키마를 비활성화하거나 삭제할 수 없습니다. 해당 스키마를 기반으로 구축된 데이터 세트는 별도로 비활성화하거나 삭제할 수 있지만 이렇게 하면 관련 프로필 레코드가 제거되고 세그멘테이션 및 활성화 워크플로에 영향을 줄 수 있습니다. 활성화하기 전에 ID 구성 및 필드 그룹 선택을 완료합니다. 자세한 지침은 Adobe Experience Platform 설명서에서 [프로필 활성화 계획](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"} 및 [프로필 사용 스키마 관리](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}를 참조하십시오.
+>실시간 고객 프로필에 대한 스키마 활성화는 영구적인 결정입니다. 활성화하면 스키마를 비활성화하거나 삭제할 수 없습니다. 해당 스키마를 기반으로 구축된 데이터 세트는 별도로 비활성화하거나 삭제할 수 있지만 이렇게 하면 관련 프로필 레코드가 제거되고 세분화 및 활성화 워크플로에 영향을 줄 수 있습니다. 활성화하기 전에 ID 구성 및 필드 그룹 선택을 완료합니다. 자세한 지침은 Adobe Experience Platform 설명서에서 [프로필 활성화 계획](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"} 및 [프로필 사용 스키마 관리](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}를 참조하세요.
 
 ## 사용 방법 비디오{#video-schema}
 
@@ -93,6 +93,6 @@ Adobe Experience Platform에는 두 가지 유형의 스키마가 있습니다.
 >* [XDM 시스템 개요](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko-KR){target="_blank"}
 >* [데이터 모델링 모범 사례](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=ko){target="_blank"}
 >* [프로필 활성화 계획](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}
->* [프로필 사용 스키마 관리](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
+>* [프로필 활성화 스키마 관리](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
 >* [Schema Registry API를 사용하여 스키마 만들기](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-api.html?lang=ko){target="_blank"}
 >* [스키마 편집기로 두 스키마의 관계 정의](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/relationship-ui.html?lang=ko){target="_blank"}

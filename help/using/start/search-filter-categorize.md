@@ -23,9 +23,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f72ff1c13cd9793d12794c8e66d663cba3181964
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 837
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Adobe Journey Optimizer 프로젝트가 확장되면 효율적인 작업을 위�
 
 ## 검색 {#unified-search}
 
-Adobe Journey Optimizer 인터페이스에서 상단 표시줄의 중앙에 있는 통합 [!DNL Adobe CX Enterprise] 검색 기능을 사용하여 샌드박스 전반의 에셋, 여정, 데이터 세트 등을 찾을 수 있습니다.
+Adobe Journey Optimizer 인터페이스에서 상단 표시줄의 중앙에 있는 통합 [!DNL Adobe CX Enterprise] 검색 기능을 사용하여 샌드박스 전반의 에셋, 여정, 데이터세트 등을 찾을 수 있습니다.
 
 상위 결과를 표시할 컨텐츠 입력을 시작합니다. 입력한 키워드에 대한 도움말 문서도 결과에 표시됩니다.
 
@@ -69,7 +69,7 @@ Adobe Journey Optimizer 인터페이스에서 상단 표시줄의 중앙에 있�
 
 ## 일괄 액션 {#bulk-actions}
 
-**캠페인**, **조각**, **여정** 및 **템플릿** 목록에서 확인란을 사용하여 여러 항목을 한 번에 선택하고 화면 하단에 나타나는 일괄 작업 표시줄에서 모든 항목에 작업을 적용할 수 있습니다.
+**캠페인**, **조각**, **여정** 및 **템플릿** 목록에서 확인란을 사용하여 여러 항목을 한 번에 선택하고 화면 하단에 나타나는 일괄 액션 표시줄에서 모든 항목에 작업을 적용할 수 있습니다.
 
 다음 작업을 사용할 수 있습니다.
 
@@ -82,7 +82,7 @@ Adobe Journey Optimizer 인터페이스에서 상단 표시줄의 중앙에 있�
 
 >[!NOTE]
 >
->여정은 또한 일괄 **[!UICONTROL 일시 중지]** 및 **[!UICONTROL 다시 시작]**&#x200B;을 지원합니다. [자세히 →](../building-journeys/journey-ui.md#bulk-operations)
+>여정은 또한 일괄 **[!UICONTROL 일시 중지]** 및 **[!UICONTROL 다시 시작]**&#x200B;을 지원합니다. [자세히 알아보기 →](../building-journeys/journey-ui.md#bulk-operations)
 
 ![](assets/bulk-actions-fragments.png)
 

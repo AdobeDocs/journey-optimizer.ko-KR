@@ -22,9 +22,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: aeba428ed2890e334da72d34c0f9e8d748dee282
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 716
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ Adobe Journey Optimizer는 대상자와 효과적으로 교류할 수 있는 다
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ko)
 
 푸시 알림 채널
 
@@ -79,21 +79,21 @@ iPhone 잠금 화면 및 Dynamic Island에 직접 지속적인 실시간 업데�
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=ko)
 
-모바일 메시지
+Mobile 메시지
 
-규정 준수와 개인화 등 마케팅 및 트랜잭션 목적으로 SMS, MMS, RCS 메시지를 만들고 관리하고 구성하는 방법을 이해합니다.
+마케팅 및 트랜잭션 목적(규정 준수 및 개인화 포함)으로 SMS, MMS 및 RCS 메시지를 생성, 관리 및 구성하는 방법을 이해합니다.
 
-[모바일 메시지에 대해 자세히 알아보기](../mobile/get-started-mobile.md)
+[Mobile 메시지에 대해 자세히 알아보기](../mobile/get-started-mobile.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=ko)
 
 DM
 
-서드파티 공급업체 대상 추출 파일 내보내기와 사용자 동의 규정 준수 보장을 포함하여 다이렉트 메일 캠페인을 만들고 관리하는 방법을 알아봅니다.
+서드파티 공급업체 대상 추출 파일 내보내기와 사용자 동의 규정 준수 보장을 포함하여 DM 캠페인을 만들고 관리하는 방법을 알아봅니다.
 
-[DM에 대해 자세히 알아보기](../../rp_landing_pages/direct-mail-landing-page.md)
+[다이렉트 메일에 대해 자세히 알아보기](../../rp_landing_pages/direct-mail-landing-page.md)
 :::
 
 :::

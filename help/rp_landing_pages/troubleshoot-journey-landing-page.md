@@ -6,9 +6,9 @@ description: 문제 해결
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
 source-git-commit: ff73b5fa5c065253be17406f167b18b8a63ab6da
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '704'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -91,7 +91,7 @@ Adobe Journey Optimizer의 일반적인 오류 코드를 이해하고 여정, �
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
-인바운드 동작 문제 해결
+인바운드 액션 문제 해결
 
 자세한 단계별 안내서를 사용하여 프로필 종료 후에도 콘텐츠가 누락되거나 계속 게재되는 등의 인바운드 작업 문제를 해결합니다.
 
@@ -101,7 +101,7 @@ Adobe Journey Optimizer의 일반적인 오류 코드를 이해하고 여정, �
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
-사용자 지정 작업 문제 해결
+사용자 정의 액션 문제 해결
 
 API 호출과 인증 설정이 올바른지 확인하기 위해 **테스트 요청 보내기** 기능을 사용하여 사용자 정의 액션을 확인하고 디버그합니다.
 
@@ -113,9 +113,9 @@ API 호출과 인증 설정이 올바른지 확인하기 위해 **테스트 요�
 
 라이브 활동 문제 해결
 
-단일 및 브로드캐스트 사용 사례에 대한 프로필 토큰, 캠페인 구성, 페이로드 및 게재 문제를 다루는 라이브 활동이 표시, 업데이트 또는 종료되지 않는 이유를 진단합니다.
+프로필 토큰, 캠페인 구성, 페이로드 및 게재 문제 등 단일 및 브로드캐스트 사용 사례에서 모두 라이브 활동이 표시, 업데이트 또는 종료되지 않는 이유를 진단합니다.
 
-[라이브 활동 문제 해결](../using/mobile-live/troubleshoot-mobile-live.md)
+[라이브 활동 문제 수정](../using/mobile-live/troubleshoot-mobile-live.md)
 :::
 
 :::
@@ -123,7 +123,7 @@ API 호출과 인증 설정이 올바른지 확인하기 위해 **테스트 요�
 
 AEM 콘텐츠 조각 문제 해결
 
-조각 유형, 저장소 액세스 및 개인화를 포함하여 Journey Optimizer에서 Adobe Experience Manager 콘텐츠 조각을 사용하여 작업할 때 주요 고려 사항 및 일반적인 문제를 검토하십시오.
+Journey Optimizer에서 Adobe Experience Manager 콘텐츠 조각을 사용할 때 고려해야 할 주요 사항과 일반적인 문제(조각 유형, 저장소 액세스, 개인화 등)를 검토합니다.
 
 [콘텐츠 조각 문제 해결](../using/integrations/aem-fragments-limitations.md)
 :::
@@ -154,10 +154,10 @@ Adobe 지원 센터에 문의할 때 신속한 해결을 위해 포함할 내용
 
 ### 채널 및 통합
 
-* [WhatsApp 채널 설정 문제 해결](../using/whatsapp/whatsapp-configuration.md#troubleshooting) - WhatsApp 채널을 설정할 때 발생하는 일반적인 구성 문제를 진단하고 수정합니다.
+* [WhatsApp 채널 설정 문제 해결](../using/whatsapp/whatsapp-configuration.md#troubleshooting) - WhatsApp 채널을 설정할 때 발생하는 일반적인 구성 문제를 진단하고 해결합니다.
 
-* [통합 문제 해결 FAQ](../using/integrations/vendor-integration-faq.md#troubleshooting) - 서드파티 통합을 위한 일반적인 연결 및 테스트 연결 실패에 대한 답변을 찾아보십시오.
+* [통합 문제 해결 FAQ](../using/integrations/vendor-integration-faq.md#troubleshooting) - 서드파티 통합에 대한 일반적인 연결 및 연결 테스트 실패에 대한 답변을 찾아봅니다.
 
 ### 구성
 
-* [사용자 지정 하위 도메인 위임 문제 해결](../using/configuration/delegate-custom-subdomain.md#check-list) - 체크리스트를 통해 사용자 지정 하위 도메인을 제출하는 문제를 해결합니다.
+* [사용자 정의 하위 도메인 위임 문제 해결](../using/configuration/delegate-custom-subdomain.md#check-list) - 체크리스트를 통해 사용자 정의 하위 도메인 제출 시 발생하는 문제를 해결합니다.

@@ -32,9 +32,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 2058
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -120,7 +120,7 @@ ht-degree: 99%
 **관리**
 
 * **메시지 사전 설정 편집** - 이제 메시지 사전 설정을 편집하고 업데이트 상태를 모니터링할 수 있습니다. [자세히 알아보기](../configuration/channel-surfaces.md#edit-channel-surface)
-* **PTR 레코드 편집** - 이제 PTR 레코드를 편집하고 업데이트 상태를 모니터링할 수 있습니다. [자세히 알아보기](../configuration/ptr-records.md#edit-ptr-record)
+* **PTR 기록 편집** - 이제 PTR 레코드를 편집하고 업데이트 상태를 모니터링할 수 있습니다. [자세히 알아보기](../configuration/ptr-records.md#edit-ptr-record)
 
 **개인화**
 
@@ -292,7 +292,7 @@ ht-degree: 99%
 
 **사용자 인터페이스**
 
-* **검색** - 이제 모든 페이지에서 통합 [!DNL CX Enterprise] 검색 필드에서 직접 비즈니스 개체 및 도움말 문서를 검색할 수 있습니다. [자세히 알아보기](../start/user-interface.md#unified-search)
+* **검색** - 이제 모든 페이지에서 통합 [!DNL CX Enterprise] 검색 필드를 통해 비즈니스 개체와 도움말 문서를 직접 검색할 수 있습니다. [자세히 알아보기](../start/user-interface.md#unified-search)
 * **최근 항목** - 이제 Adobe Journey Optimizer 홈페이지에서 최근 항목 요소에 표시할 대상에 비즈니스 개체를 추가하여 확장했습니다. 이 업데이트 이후에는 최근 액세스 항목에 [메시지], [여정], [대상자], [스키마], [데이터세트], [데이터 소스], [이벤트], [작업], [소스], [대상]이 포함됩니다. [자세히 알아보기](../action/about-custom-action-configuration.md#passing-collection)
 
 **콘텐츠 디자인**

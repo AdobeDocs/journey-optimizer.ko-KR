@@ -28,9 +28,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1733
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -48,13 +48,13 @@ ht-degree: 92%
 >
 >**구현 순서:** [관리자](administrator.md) → [데이터 엔지니어](data-engineer.md) → [개발자](developer.md) → 현재 위치: **마케터**
 >
->여정을 빌드하기 전에 [환경 설정](administrator.md) 및 [데이터 구성](data-engineer.md)이 완료되었는지 확인하십시오.
+>여정을 구축하기 전에 [환경 설정](administrator.md) 및 [데이터 구성](data-engineer.md)이 완료되었는지 확인하세요.
 
 ## 필수 사항으로 시작
 
 >[!NOTE]
 >
->Journey Optimizer을 처음 사용하십니까? 이 안내서를 시작하기 전에 [Journey Optimizer 소개](../get-started.md)를 읽어 보세요.
+>Journey Optimizer를 처음 사용하시나요? 이 안내서를 시작하기 전에 [Journey Optimizer 소개](../get-started.md)를 읽어 보세요.
 
 [관리자](administrator.md)와 협력하여 액세스 권한을 얻고 [데이터 엔지니어](data-engineer.md)와 협력하여 고급 세분화를 위한 대상, 데이터, 관계형 스키마를 설정하세요. 여정 및 캠페인을 작성하기 전에 필요한 데이터 설정을 이해하려면 [데이터 관리 시작하기](../../data/gs-data.md) 개요를 참조하십시오.
 
@@ -63,7 +63,7 @@ ht-degree: 92%
 1. **대상자 만들기**. 세그먼트 정의를 통해 대상자를 만들거나, CSV 파일을 업로드하거나, 대상자 구성을 사용하세요. Journey Optimizer는 적합한 고객을 타깃팅하는 다양한 방법을 제공합니다. [대상](../../audience/about-audiences.md) 및 [세그먼트 정의 만들기](../../audience/creating-a-segment-definition.md)에 대해 자세히 알아보세요.
 
 1. **콘텐츠 디자인** 이메일, SMS, 푸시, 웹 푸시 인앱, 웹, 다이렉트 메일, 콘텐츠 카드를 포함하여 모든 채널에서 매력적인 메시지를 만듭니다.
-   * AI를 사용하여 브랜드 지침을 기반으로 이메일 콘텐츠, 제목 줄 및 이미지를 생성합니다. [AI 콘텐츠 생성에 대해 알아보기](../../content-management/gs-generative.md)
+   * AI를 사용하여 브랜드 가이드라인에 따라 이메일 콘텐츠, 제목 및 이미지를 생성합니다. [AI 콘텐츠 생성에 대해 알아보기](../../content-management/gs-generative.md)
    * 고객 데이터, 다이내믹 콘텐츠 및 조건부 논리를 사용하여 **메시지를 개인화**&#x200B;합니다. [개인화에 대해 알아보기](../../personalization/personalize.md)
    * 이벤트, 사용자 지정 작업 및 데이터 집합 조회의 동적 목록을 표시하려면 **상황별 데이터를 반복합니다**. [상황별 데이터 반복에 대해 알아보기](../../personalization/iterate-contextual-data.md)
    * 브랜드 일관성을 유지하기 위해 재사용 가능한 **콘텐츠 템플릿** 및 **조각**&#x200B;을 만듭니다. [템플릿 작업](../../content-management/content-templates.md)
@@ -130,7 +130,7 @@ ht-degree: 92%
 
 * **템플릿으로 시작**: 사전 설치 템플릿과 콘텐츠 조각을 사용하여 제작 속도를 높이고 일관성을 유지합니다.
 * **초기에 테스트, 자주 테스트**: 모든 장치에서 항상 콘텐츠를 미리 보고 테스트 프로필을 사용하여 개인화의 유효성을 검증합니다.
-* **AI를 현명하게 활용**: 초기 초안 및 변형에 AI를 사용하되 브랜드 목소리에 맞게 항상 검토하고 구체화합니다
+* **AI를 현명하게 활용**: 초기 초안 및 변형에는 AI를 사용하되, 항상 브랜드 보이스에 맞춰 검토하고 개선합니다.
 * **단순하게 유지**: 명확하고 간결한 메시지와 강력한 행동 유도 문구(CTA)가 복잡한 레이아웃보다 더 나은 성과를 냅니다.
 
 ### 여정 디자인
@@ -145,7 +145,7 @@ ht-degree: 92%
 
 ### 캠페인 오케스트레이션
 
-* **올바른 방법 선택**: [여정 및 캠페인 비교](../journeys-vs-campaigns.md)를 참조하여 실시간 오케스트레이션과 예약된 게재 중 하나를 결정한 다음 [여정 유형: 올바른 유형을 선택](../../building-journeys/journey-types-selection.md)하여 올바른 여정 유형을 선택하십시오
+* **적절한 접근 방식 선택**: 실시간 오케스트레이션과 예약 전송 중 어떤 방식을 선택할지 결정하려면 [여정과 캠페인 비교](../journeys-vs-campaigns.md)을 참조하고, 적합한 여정 유형을 선택하려면 [여정 유형: 적합한 유형 선택](../../building-journeys/journey-types-selection.md)을 참조하세요.
 * **명확한 캠페인 목표 정의**: 여러 단계로 이루어진 워크플로를 디자인하기 전에 목표를 설정합니다.
 * **파일럿 대상자로 시작**: 확장하기 전에 카운트 및 세분화 로직을 검증합니다.
 * **관계형 데이터 활용**: 다중 엔터티 세분화를 사용하여 고객 데이터를 계정, 구매, 구독과 연결하여 정확한 타겟팅을 구현합니다.
@@ -235,7 +235,7 @@ Journey Optimizer의 기능을 보여주는 실제 사례를 통해 알아보세
 ## 다음 단계
 
 1. **작게 시작**: 플랫폼 학습을 위한 간단한 환영 여정 또는 단일 메시지 캠페인을 만듭니다.
-2. **AI 활용**: AI를 사용하여 질문하고 콘텐츠 생성을 가속화하십시오
+2. **AI 활용**: AI를 사용하여 질문을 하고 콘텐츠 제작 속도를 높입니다.
 3. **커뮤니티에 참여**: [Experience League 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"}에서 다른 Journey Optimizer 사용자와 소통합니다.
 4. **튜토리얼 살펴보기**: [Experience League](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=ko){target="_blank"}에서 단계별 비디오를 봅니다.
 
@@ -243,9 +243,9 @@ Journey Optimizer의 기능을 보여주는 실제 사례를 통해 알아보세
 
 | 역할 | 안내서 |
 |------|-------|
-| 관리자 | [관리자용 시작하기](administrator.md) |
-| 데이터 엔지니어 | [데이터 엔지니어 시작](data-engineer.md) |
-| Developer | [개발자용 시작하기](developer.md) |
-| 마케터 | [마케터용 시작하기](marketer.md) |
+| 관리자 | [관리자를 위한 시작](administrator.md) |
+| 데이터 엔지니어 | [데이터 엔지니어를 위한 시작](data-engineer.md) |
+| 개발자 | [개발자를 위한 시작](developer.md) |
+| 마케터 | [마케터를 위한 시작](marketer.md) |
 
-[역할 및 책임 개요](../quick-start.md)(으)로 돌아가기 · [시작하기](../../../rp_landing_pages/get-started-landing-page.md)(으)로 돌아가기
+[역할 및 책임 개요](../quick-start.md)로 돌아가기 · [시작](../../../rp_landing_pages/get-started-landing-page.md)으로 돌아가기

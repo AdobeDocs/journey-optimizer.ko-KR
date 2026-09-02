@@ -6,10 +6,10 @@ user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: d1cae5de98b0536e85f0aa9e2e4290d530290753
+source-git-commit: d61698e186903f0203ac5c9120391ee10d94059f
 workflow-type: tm+mt
-source-wordcount: '3513'
-ht-degree: 93%
+source-wordcount: '3511'
+ht-degree: 99%
 
 ---
 
@@ -30,17 +30,17 @@ ht-degree: 93%
     + {hide-from-toc}[2021](using/rn/release-notes-2021.md)
   + [설명서 업데이트](using/rn/documentation-updates.md)
   + {hide-from-toc}[향상된 여정 캔버스](using/rn/new-canvas.md)
-  + {hide-from-toc}[대상 자격에서 일괄 처리 대상 마이그레이션](using/building-journeys/aq-batch-audiences-migration.md)
+  + {hide-from-toc}[대상자 선별에서 대상자 일괄 마이그레이션](using/building-journeys/aq-batch-audiences-migration.md)
   + {hide-from-toc}[이메일 추적 픽셀 관련한 CNIL 지침](using/privacy/cnil-pixel-tracking.md)
 + 시작하기 {#get-started}
   + [여기서 시작](/help/rp_landing_pages/get-started-landing-page.md)
   + [온보딩 허브](using/start/onboarding-hub.md)
-  + [컨텐츠 및 여정 마이그레이션](using/start/migrate-content-and-journeys.md)
+  + [콘텐츠 및 여정 마이그레이션](using/start/migrate-content-and-journeys.md)
   + 기본 사항 {#essentials}
     + [Journey Optimizer 소개](using/start/get-started.md)
     + [작동 방식 이해](using/start/understanding-ajo.md)
     + [AI 및 지능형 기능](using/start/ai-features.md)
-    + [CX Coworker의 Journey Optimizer 기술](using/start/ajo-coworker-skills.md)
+    + [CX Coworker의 Journey Optimizer 스킬](using/start/ajo-coworker-skills.md)
     + [주요 용어](using/start/terminology.md)
     + [목표에서 시작](using/start/ajo-use-case-guide.md)
     + [가드레일 및 제한 사항](using/start/guardrails.md)
@@ -57,12 +57,12 @@ ht-degree: 93%
     + [검색, 필터링 및 정리](using/start/search-filter-categorize.md)
     + [문제 해결 FAQ](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
     + [접근성](using/start/accessibility.md)
-    + [여정과 캠페인](using/start/journeys-vs-campaigns.md)
-    + {hide-from-toc}[여정 대 캠페인 - 2](using/start/journeys-vs-campaigns-v2.md)
+    + [여정과 캠페인 비교](using/start/journeys-vs-campaigns.md)
+    + {hide-from-toc}[여정과 캠페인 비교 - 2](using/start/journeys-vs-campaigns-v2.md)
 + 여정 {#orchestrate-journeys}
   + [여정 시작](using/building-journeys/journey.md)
   + {hide-from-toc}[여정 시작 안내서](using/building-journeys/journey-get-started.md)
-  + {hide-from-toc}[여정 형식: 올바른 one-2 선택](using/building-journeys/journey-types-selection-v2.md)
+  + {hide-from-toc}[여정 유형: 적합한 유형 선택-2](using/building-journeys/journey-types-selection-v2.md)
   + [Journey Orchestration FAQ](using/building-journeys/journey-faq.md)
   + 여정 만들기 {#create-journey}
     + [여정 만들기](/help/rp_landing_pages/create-journey-landing-page.md)
@@ -92,7 +92,7 @@ ht-degree: 93%
   + 활동 {#about-journey-building}
     + [활동](/help/rp_landing_pages/about-journey-building-landing-page.md)
     + [여정 활동 시작](using/building-journeys/about-journey-activities.md)
-    + [여정 유형: 적합한 유형을 선택합니다.](using/building-journeys/journey-types-selection.md)
+    + [여정 유형: 적합한 유형 선택](using/building-journeys/journey-types-selection.md)
     + [일반 이벤트](using/building-journeys/general-events.md)
     + [반응 이벤트](using/building-journeys/reaction-events.md)
     + [대상자 선별](using/building-journeys/audience-qualification-events.md)
@@ -149,19 +149,19 @@ ht-degree: 93%
     + [외부 데이터 원본 및 사용자 정의 작업으로 처리량 제한](using/building-journeys/limit-throughput.md)
     + [사용자 정의 작업을 사용하여 Experience Platform에 여정 이벤트 작성](using/building-journeys/custom-action-aep.md)
 + 충성도 챌린지 {#loyalty-challenges}
-  + [충성도 문제 시작](using/loyalty-challenges/get-started.md)
-  + 과제 생성 및 관리 {#create-manage-challenges}
-    + [과제 및 작업 액세스 및 관리](using/loyalty-challenges/access-loyalty-challenges.md)
-    + [과제 만들기](using/loyalty-challenges/create-challenges.md)
+  + [충성도 챌린지 시작](using/loyalty-challenges/get-started.md)
+  + 챌린지 만들기 및 관리 {#create-manage-challenges}
+    + [챌린지와 작업 액세스 및 관리](using/loyalty-challenges/access-loyalty-challenges.md)
+    + [챌린지 만들기](using/loyalty-challenges/create-challenges.md)
     + [작업 만들기](using/loyalty-challenges/create-tasks.md)
-    + [충성도 과제 성능 모니터링](using/loyalty-challenges/loyalty-reporting.md)
+    + [충성도 챌린지 성과 모니터링](using/loyalty-challenges/loyalty-reporting.md)
   + 구성 및 통합 {#configure-integrate-loyalty}
-    + [충성도 문제 구성](using/loyalty-challenges/loyalty-admin.md)
+    + [충성도 챌린지 구성](using/loyalty-challenges/loyalty-admin.md)
     + [보상 정의 안내서](using/loyalty-challenges/reward-definition-guide.md)
     + [이벤트 변환기 안내서](using/loyalty-challenges/event-transformer-guide.md)
-    + [충성도 과제 권한](using/loyalty-challenges/loyalty-permissions.md)
+    + [충성도 챌린지 권한](using/loyalty-challenges/loyalty-permissions.md)
     + [충성도 데이터 및 데이터 세트](using/loyalty-challenges/loyalty-data-and-datasets.md)
-    + [충성도 과제 API](using/loyalty-challenges/loyalty-challenges-api.md)
+    + [충성도 챌린지 API](using/loyalty-challenges/loyalty-challenges-api.md)
 + 캠페인 {#campaigns}
   + {hide-from-toc}[캠페인](/help/rp_landing_pages/campaigns-landing-page.md)
   + [캠페인 시작](using/campaigns/get-started-with-campaigns.md)
@@ -269,7 +269,7 @@ ht-degree: 93%
     + [테스트 프로필을 사용한 미리 보기](using/content-management/preview.md)
     + [테스트 프로필 데이터를 사용한 증명 전송](using/content-management/proofs.md)
     + [이메일 렌더링 테스트](using/content-management/rendering.md)
-    + [콘텐츠 변형 시뮬레이션(클래식 경험)](using/test-approve/simulate-sample-input.md)
+    + [콘텐츠 변형 시뮬레이션(기존 경험)](using/test-approve/simulate-sample-input.md)
     + [콘텐츠 변형 시뮬레이션(새 경험)](using/test-approve/simulate-content-variations.md)
     + [이메일 스팸 보고서](using/content-management/spam-report.md)
   + 여정 및 캠페인 승인 {#approve}
@@ -334,7 +334,7 @@ ht-degree: 93%
         + [사용자 정의 CSS 추가](using/email/custom-css.md)
         + [다크 모드 콘텐츠 관리](using/email/dark-mode.md)
       + [접근성 높은 콘텐츠 만들기](using/email/accessible-content.md)
-      + [컨텐츠 확인](using/email/content-check.md)
+      + [콘텐츠 확인](using/email/content-check.md)
     + 이메일 채널 구성 {#configure-email}
       + {hide-from-toc}[이메일 채널 구성](/help/rp_landing_pages/configure-email-landing-page.md)
       + [이메일 구성 시작](using/email/get-started-email-config.md)
@@ -354,7 +354,7 @@ ht-degree: 93%
     + [인앱 알림 확인 및 보내기](using/in-app/send-in-app.md)
     + 인앱 채널 구성 {#configure-inapp}
       + [인앱 채널 구성 및 사전 요구 사항](using/in-app/inapp-configuration.md)
-      + [웹 SDK에서 웹 인앱 메시지 구성](using/in-app/web-in-app-messaging.md)
+      + [Web SDK에서 웹 인앱 메시지 구성](using/in-app/web-in-app-messaging.md)
   + 푸시 알림 채널 {#push}
     + [푸시 알림 채널](/help/rp_landing_pages/push-landing-page.md)
     + [푸시 알림 시작하기](using/push/get-started-push.md)
@@ -406,10 +406,10 @@ ht-degree: 93%
       + [비시각적 편집기 사용](using/web/web-non-visual-editor.md)
       + [수정 사항 관리](using/web/manage-web-modifications.md)
       + [웹 경험 모니터링](using/web/monitor-web-experiences.md)
-    + 단일 페이지 애플리케이션 및 웹 SDK {#web-sdk}
+    + 단일 페이지 애플리케이션 및 Web SDK {#web-sdk}
       + [단일 페이지 애플리케이션 작성](using/web/web-spa.md)
       + [단일 페이지 애플리케이션 구현](using/web/web-spa-implementation.md)
-      + [Experience Platform Web SDK이 포함된 Journey Optimizer](using/web/web-sdk.md)
+      + [Experience Platform Web SDK를 사용하는 Journey Optimizer](using/web/web-sdk.md)
   + 코드 기반 경험 {#code-based-experience}
     + [코드 기반 경험](/help/rp_landing_pages/code-based-experience-landing-page.md)
     + [코드 기반 채널 시작](using/code-based/get-started-code-based.md)
@@ -439,7 +439,7 @@ ht-degree: 93%
   + 받은 편지함 {#inbox}
     + [받은 편지함 시작](using/inbox/inbox-gs.md)
     + [Journey Optimizer에서 받은 편지함 채널 구성](using/inbox/inbox-configuration.md)
-    + [웹 SDK에서 받은 편지함 지원 구성](using/inbox/inbox-configuration-sdk.md)
+    + [Web SDK에서 받은 편지함 지원 구성](using/inbox/inbox-configuration-sdk.md)
     + [받은 편지함 만들기](using/inbox/inbox-create.md)
     + [받은 편지함 디자인](using/inbox/inbox-design.md)
   + WhatsApp {#whatsapp}
@@ -464,16 +464,16 @@ ht-degree: 93%
       + [라이브 활동 SDK 통합 구성](using/mobile-live/mobile-live-configuration-sdk.md)
   + 사용자 지정 채널 {#custom-channel}
     + [사용자 정의 채널 시작하기](using/custom-channel/get-started-custom-channel.md)
-    + 사용자 지정 채널 구성 {#configure-custom-channel}
-      + [사용자 지정 채널 설정](using/custom-channel/configure-custom-channel.md)
-      + [사용자 지정 채널 만들기](using/custom-channel/create-custom-channel.md)
+    + 사용자 정의 채널 구성 {#configure-custom-channel}
+      + [사용자 정의 채널 설정](using/custom-channel/configure-custom-channel.md)
+      + [사용자 정의 채널 만들기](using/custom-channel/create-custom-channel.md)
       + [API 자격 증명 관리](using/custom-channel/custom-channel-api-credentials.md)
       + [하위 도메인 위임](using/custom-channel/custom-channel-subdomains.md)
       + [채널 구성 만들기](using/custom-channel/custom-channel-configuration.md)
-    + 사용자 지정 채널 경험 만들기 {#create-custom-channel-experiences}
-      + [사용자 지정 채널 경험 만들기](using/custom-channel/create-custom-experience.md)
-      + [사용자 지정 채널 경험 테스트](using/custom-channel/test-custom-channel.md)
-    + [사용자 지정 채널 모니터링](using/custom-channel/monitor-custom-channel.md)
+    + 사용자 정의 채널 경험 만들기 {#create-custom-channel-experiences}
+      + [사용자 정의 채널 경험 만들기](using/custom-channel/create-custom-experience.md)
+      + [사용자 정의 채널 경험 테스트](using/custom-channel/test-custom-channel.md)
+    + [사용자 정의 채널 모니터링](using/custom-channel/monitor-custom-channel.md)
 + 콘텐츠 관리 {#content-management}
   + [콘텐츠 관리](/help/rp_landing_pages/content-management-landing-page.md)
   + 개인화 {#personalization}
@@ -578,8 +578,8 @@ ht-degree: 93%
     + [AI로 전체 콘텐츠 생성](using/content-management/generative-full-content.md)
     + [AI로 텍스트 생성](using/content-management/generative-text.md)
     + [AI로 이미지 생성](using/content-management/generative-image.md)
-    + [개인화 표현식에 대한 콘텐츠 생성](using/content-management/generative-personalization-expressions.md)
-    + [콘텐츠 사용 사례 생성](using/content-management/generative-uc.md)
+    + [개인화 표현식용 콘텐츠 생성](using/content-management/generative-personalization-expressions.md)
+    + [콘텐츠 생성 사용 사례](using/content-management/generative-uc.md)
     + 브랜드 {#brands}
       + [브랜드 만들기 및 관리](using/content-management/brands.md)
       + [브랜드 개인화](using/content-management/brands-personalize.md)
@@ -646,11 +646,10 @@ ht-degree: 93%
     + [보고 및 실험 전제 조건](using/reports/reporting-configuration.md)
     + [제외 이유](using/reports/exclusion-list.md)
     + 캠페인 보고서 {#campaign-reporting}
-      + [캠페인 보고서](/help/rp_landing_pages/campaign-reporting-landing-page.md)
       + [캠페인 보고서](using/reports/campaign-global-report-cja.md)
       + [코드 기반 캠페인 보고서](using/reports/campaign-global-report-cja-code.md)
       + [콘텐츠 카드 캠페인 보고서](using/reports/campaign-global-report-cja-content.md)
-      + [사용자 지정 채널 캠페인 보고서](using/reports/campaign-global-report-cja-custom.md)
+      + [사용자 정의 채널 캠페인 보고서](using/reports/campaign-global-report-cja-custom.md)
       + [다이렉트 메일 캠페인 보고서](using/reports/campaign-global-report-cja-direct.md)
       + [이메일 캠페인 보고서](using/reports/campaign-global-report-cja-email.md)
       + [실험 캠페인 보고서](using/reports/campaign-global-report-cja-experimentation.md)

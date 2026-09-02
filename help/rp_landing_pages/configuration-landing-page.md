@@ -6,9 +6,9 @@ description: 채널 구성
 redpen-status: CREATED_||_2025-08-11_21-10-00
 exl-id: 4cd5f097-1c17-4cc5-90c4-bc540dc6acf4
 source-git-commit: 96853101d0bae48c1358d367bc9ae00dbfaface4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '355'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -93,4 +93,4 @@ IP 준비 계획을 만들고 실행하여 발신자로서의 평판을 확립�
 - **[시드 목록 사용](../using/configuration/seed-lists.md)** - 시드 목록을 만들고 관리하여 이메일 게재를 모니터링하고 캠페인 보증을 확인하는 방법을 알아봅니다.
 - **[규정 준수를 위한 보관 처리 지원](../using/configuration/archiving-support.md)** - GDPR 및 HIPAA와 같은 규정을 준수하도록 BCC 이메일 및 데이터 세트 관리와 같은 보관 기능을 구성합니다.
 - **[실행 주소 관리](../using/configuration/primary-email-addresses.md)** - 전체 여정 및 캠페인에 걸친 커뮤니케이션을 위해 이메일 또는 전화번호 필드를 구성하고 우선순위를 지정합니다.
-- **[모니터링 및 문제 해결](troubleshoot-journey-landing-page.md)** - 사용자 지정 하위 도메인 위임 문제 해결을 포함하여 문제를 빠르게 진단하고 해결합니다.
+- **[모니터링 및 문제 해결](troubleshoot-journey-landing-page.md)** - 사용자 정의 하위 도메인 위임 문제 해결을 비롯한 문제를 신속하게 진단하고 해결합니다.

@@ -8,7 +8,7 @@ exl-id: 159ae1bf-e1bd-48c7-b91b-2ac8bdfffaf2
 source-git-commit: 170c8e7efe9244874353102a8bd2650b23f967f0
 workflow-type: tm+mt
 source-wordcount: '337'
-ht-degree: 84%
+ht-degree: 89%
 
 ---
 
@@ -84,7 +84,7 @@ Experience Manager, Stock 및 GenStudio과 같은 Adobe 솔루션을 통합하�
 
 ## 추가 리소스
 
-- **[콘텐츠 생성](ai-assistant-landing-page.md)** - AI를 사용하여 이메일, SMS, 웹 페이지 및 실험에서 콘텐츠를 생성하고 개인화합니다.
+- **[콘텐츠 생성](ai-assistant-landing-page.md)** - 이메일, SMS, 웹 페이지 및 실험에서 AI를 사용하여 콘텐츠를 생성하고 개인화합니다.
 - **[다국어 콘텐츠 관리](content-multilingual-landing-page.md)** - 수동 및 자동 번역 워크플로를 사용하여 다국어 콘텐츠를 만들고 관리합니다.
 - **[콘텐츠 실험](../using/content-management/get-started-experiment.md)** - 실험을 설정하고 분석하여 대상 참여 및 캠페인 결과를 최적화합니다.
 - **[마케팅 담당자를 위한 Adobe Journey Optimizer에서 AI 기반의 브랜드 내 콘텐츠 만들기](https://experienceleague.adobe.com/en/courses/ajo-ai-powered-on-brand-content-creation-for-marketers)** - Adobe Journey Optimizer의 AI 기능을 사용하여 여러 채널 및 로케일에서 브랜드 내 콘텐츠를 만들고, 개선하고, 제어하는 방법에 대해 알아봅니다.
