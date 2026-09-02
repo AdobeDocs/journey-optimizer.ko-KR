@@ -8,30 +8,16 @@ role: Developer, Admin, User
 level: Beginner, Intermediate
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
 TQID: https://experienceleague.adobe.com/Dq8mzkfuxvcoAPI1vjq9lFHjz4Z5j9s42-kfMy59PeI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
-subfeature_v2:
-  - id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371
-  - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
-  - id: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
+subfeature_v2: id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371id: d6e5c7fd-c1d6-4137-98cd-138ccde6752fid: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: d095671a-1355-40aa-8b5f-06c33c68080bid: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 79b0c44fffb4297a9a5675200f086c5de544ec88
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 2696
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +45,7 @@ ht-degree: 97%
 
 ## Journey Optimizer에서 Adobe Experience Platform 데이터를 사용하는 방법 {#aep-data}
 
-[!DNL Adobe Journey Optimizer]은(는) [!DNL Adobe Experience Platform] 기반으로 빌드됩니다. 별도의 격리된 데이터 저장소를 유지하지 않습니다. 대신 다른 [!DNL CX Enterprise] 응용 프로그램과 동일한 데이터 기초를 사용합니다.
+[!DNL Adobe Journey Optimizer]은(는) [!DNL Adobe Experience Platform] 기반으로 빌드됩니다. 별도의 격리된 데이터 저장소를 유지하지 않습니다. 대신 여타 [!DNL CX Enterprise] 애플리케이션과 동일한 데이터 기반을 사용합니다.
 
 스키마 및 데이터 세트는 Adobe Experience Platform에 있습니다. ID 및 [실시간 고객 프로필](../audience/get-started-profiles.md)은 ID 서비스 및 프로필 서비스에서 관리합니다. Journey Optimizer는 Adobe Experience Platform에서 프로필 및 이벤트 데이터를 읽어 여정 조건을 평가하고 메시지를 개인화하고 오퍼를 선택합니다. 보내기, 열, 클릭, 바운스 이벤트 및 여정 단계 이벤트와 같은 상호 작용 데이터를 Experience Platform 데이터 세트에 다시 기록합니다. 또한 추가 데이터 세트를 조회하면서 런타임 시 프로필에 해당 데이터를 복사하지 않도록 할 수도 있습니다.
 
@@ -165,7 +151,7 @@ Adobe Experience Platform에서 XDM 스키마를 기반으로 데이터 세트�
 
 ➡️ [데이터 세트에 대해 자세히 알아보기](get-started-datasets.md)\
 ➡️ [프로필 활성화 계획](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}\
-➡️ [프로필 사용 스키마 관리](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
+➡️ [프로필 활성화 스키마 관리](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
 
 +++
 
@@ -175,7 +161,7 @@ Adobe Analytics, Adobe Experience Platform Web SDK, CRM / POS 플랫폼 같은 �
 
 ➡️ [소스 커넥터에 대해 자세히 알아보기](../start/get-started-sources.md)
 
-➡️ [튜토리얼: 데이터 세트 만들기 &#x200B;](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data){target="_blank"}
+➡️ [튜토리얼: 데이터 세트 만들기 ](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data){target="_blank"}
 
 +++
 
@@ -245,7 +231,7 @@ Journey Optimizer는 추적, 피드백, 여정 단계 이벤트를 위해 몇 �
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **Get started with schemas**
 
@@ -275,7 +261,7 @@ Adobe Experience Platform에서 XDM 스키마를 만들고 올바른 클래스 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Adobe Experience Platform 데이터 사용()**
 
@@ -305,7 +291,7 @@ Journey Optimizer에서 실시간 고객 프로필이 작동하는 방식과 Pla
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **데이터 설정 개요 튜토리얼**
 
@@ -315,7 +301,7 @@ Journey Optimizer에서 데이터 설정을 시작하는 초보자를 위한 비
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **데이터 세트 생성 및 데이터 수집 튜토리얼**
 

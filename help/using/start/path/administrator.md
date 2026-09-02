@@ -8,30 +8,16 @@ role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
 TQID: https://experienceleague.adobe.com/D--D1ynxQx-Q9eSzjU-fwG0Hc3emaCfa2gIwizpHsQU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-  - id: c343082f-e963-4f57-a96b-b64d27f8118e
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62aid: c343082f-e963-4f57-a96b-b64d27f8118eid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1189
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +39,7 @@ ht-degree: 93%
 >
 >**구현 순서:** 현재 위치: **관리자** → [데이터 엔지니어](data-engineer.md) → [개발자](developer.md) → [마케터](marketer.md)
 >
->관리자가 먼저 환경을 설정합니다. 데이터 엔지니어, 개발자 및 마케터는 시작하기 전에 이 작업이 완료되어야 합니다.
+>관리자가 먼저 환경을 설정합니다. 데이터 엔지니어, 개발자 및 마케터가 작업을 시작하기 전에 이 작업이 완료되어야 합니다.
 
 ## 액세스 및 권한 설정
 
@@ -159,7 +145,7 @@ API 액세스 및 테스트에 대해 [개발자](developer.md)와 협업합니�
 * 사용할 채널 구성(이메일, 푸시, SMS 등)
 * 테스트 환경 및 승인 워크플로 지원
 * 새로운 성능 및 기능에 대한 액세스 활성화
-* 팀이 올바른 방법을 선택할 수 있도록 결정 가이드를 공유합니다. [여정과 캠페인 비교](../journeys-vs-campaigns.md) 및 [여정 유형: 올바른 방법을 선택](../../building-journeys/journey-types-selection.md)
+* 팀이 올바른 접근 방식을 선택하는 데 도움이 되는 의사 결정 안내서를 공유합니다. [여정과 캠페인 비교](../journeys-vs-campaigns.md) 및 [여정 유형: 적합한 유형 선택](../../building-journeys/journey-types-selection.md)
 
 >[!ENDTABS]
 
@@ -175,9 +161,9 @@ API 액세스 및 테스트에 대해 [개발자](developer.md)와 협업합니�
 
 | 역할 | 안내서 |
 |------|-------|
-| 관리자 | [관리자용 시작하기](administrator.md) |
-| 데이터 엔지니어 | [데이터 엔지니어 시작](data-engineer.md) |
-| Developer | [개발자용 시작하기](developer.md) |
-| 마케터 | [마케터용 시작하기](marketer.md) |
+| 관리자 | [새 관리자를 위한 시작](administrator.md) |
+| 데이터 엔지니어 | [데이터 엔지니어를 위한 시작](data-engineer.md) |
+| 개발자 | [개발자를 위한 시작](developer.md) |
+| 마케터 | [마케터를 위한 시작](marketer.md) |
 
-[역할 및 책임 개요](../quick-start.md)(으)로 돌아가기 · [시작하기](../../../rp_landing_pages/get-started-landing-page.md)(으)로 돌아가기
+[역할 및 책임 개요](../quick-start.md)로 돌아가기 · [시작](../../../rp_landing_pages/get-started-landing-page.md)으로 돌아가기

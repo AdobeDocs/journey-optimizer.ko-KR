@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 역할 및 책임 | ADOBE JOURNEY OPTIMIZER
+title: 역할 및 책임 | Adobe Journey Optimizer
 description: Adobe Journey Optimizer의 역할, 책임 및 권장 구현 순서를 이해합니다.
 feature: Get Started
 topic: Get Started
@@ -11,39 +11,16 @@ keywords: 역할, 책임, 마케터, 관리자, 데이터 엔지니어, 개발�
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
 TQID: https://experienceleague.adobe.com/q9oP-s1hGrvEkbJ-JIOUReaOeSj2k79W3mw6MbvGvYY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b23e006f-0a29-4f1d-8fd0-77aa56f3d12bid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: e9001ce2-5245-4a8e-8601-dd958009072fid: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 1981bbe0be93316ba78d2b751cb4c4af0afc5dfe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 2101
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -55,11 +32,11 @@ ht-degree: 95%
 
 >[!ENDSHADEBOX]
 
-Adobe Journey Optimizer은 순차적으로 작동하는 4개의 서로 다른 역할에 의해 구현됩니다. 이 페이지에서는 각 역할의 책임과 세부 시작 안내서에 대한 링크를 매핑합니다.
+Adobe Journey Optimizer는 순차적으로 작동하는 4가지 역할에 의해 구현됩니다. 이 페이지에서는 각 역할의 책임을 설명하고 자세한 시작 안내서 링크를 제공합니다.
 
 >[!NOTE]
 >
->Journey Optimizer을 처음 사용하십니까? 먼저 [Journey Optimizer 소개](get-started.md)를 시작합니다.
+>Journey Optimizer를 처음 사용하시나요? 먼저 [Journey Optimizer 소개](get-started.md)부터 시작하세요.
 
 **중요 정보:** Adobe Journey Optimizer는 구체적인 책임에 따라 각기 역할을 정의합니다. 조직의 구조에 따라 한 개인이 여러 역할 또는 모든 역할을 수행할 수 있습니다.
 
@@ -67,7 +44,7 @@ Adobe Journey Optimizer은 순차적으로 작동하는 4개의 서로 다른 �
 >
 >* 사용자 환경에서 사용할 수 있는 구성 요소 및 기능은 [사용 권한](../administration/permissions.md) 및 [라이선스 패키지](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}에 따라 다릅니다. 질문이 있는 경우 Adobe 고객 성공 관리자 또는 Adobe 담당자에게 문의하세요.
 >
->* [!DNL Adobe CX Enterprise] 일반 개인 정보 보호 지침 및 절차가 [!DNL Journey Optimizer]에 적용됩니다. [자세한 정보 [!DNL Adobe CX Enterprise] 개인 정보](https://www.adobe.com/kr/privacy/experience-cloud.html){target="_blank"}.
+>* [!DNL Adobe CX Enterprise] 일반 개인 정보 보호 지침 및 절차는 [!DNL Journey Optimizer]에 적용됩니다. [개인 정보 보호에 대해 자세히 알아보세요. [!DNL Adobe CX Enterprise] ](https://www.adobe.com/kr/privacy/experience-cloud.html){target="_blank"}
 
 ## 시작하기에 앞서 {#before-you-begin}
 
@@ -88,7 +65,7 @@ Adobe Journey Optimizer은 순차적으로 작동하는 4개의 서로 다른 �
 |-------------------|----------------------------------|--------------------------------|-----------------------------------------------|
 | **관리자** | 환경 설정 및 액세스 관리 | 시스템 구성, 사용자 관리, 보안 | 샌드박스 설정, 사용자 권한 관리, 채널 및 메시지 사전 설정 구성 |
 | **데이터 엔지니어** | 고객 프로필 데이터 및 데이터 소스 | 데이터 모델링, XDM 스키마, 소스 커넥터 | 프로필 및 비즈니스 데이터를 스키마로 모델링하고, 소스 커넥터를 구성하고, 데이터 수집을 모니터링합니다. |
-| **Developer** | 기술 구현 및 통합 | 모바일/웹 SDK, API, 이벤트 기반 아키텍처 | SDK 통합, 이벤트 구현, 사용자 지정 작업 엔드포인트 빌드 |
+| **Developer** | 기술 구현 및 통합 | 모바일/Web SDK, API, 이벤트 기반 아키텍처 | SDK 통합, 이벤트 구현, 사용자 지정 작업 엔드포인트 빌드 |
 | **마케터** | 여정 디자인 및 개인화된 경험 | 여정 오케스트레이션, 콘텐츠 제작, 대상 타기팅 | 고객 여정 디자인, 메시지 만들기 및 개인화, 오퍼 및 의사 결정 구성 요소 관리, 대상자 정의 |
 
 각 역할별로 Adobe Journey Optimizer 구현의 특정 단계를 담당해 체계적이고 효율적인 배포 프로세스를 보장합니다.
@@ -117,7 +94,7 @@ Adobe Journey Optimizer은 순차적으로 작동하는 4개의 서로 다른 �
 3. **개발자**: 기술 통합을 구현합니다.\
    개발자는 SDK를 통합하고, 이벤트를 전송하고, API 엔드포인트를 구축하여 애플리케이션을 Journey Optimizer에 연결합니다. 이러한 구현을 통해 여정을 트리거하고 실행할 수 있습니다.
    * Mobile SDK(iOS/Android)와 푸시 알림 설정 통합
-   * 웹 경험 및 웹 푸시 알림용 웹 SDK 구현
+   * 웹 경험 및 웹 푸시 알림용 Web SDK 구현
    * 애플리케이션에서 이벤트를 전송하여 여정 트리거
    * 외부 시스템 통합을 위한 사용자 정의 액션 엔드포인트 작성
    * 사용자 정의 액션 상태 및 성과 모니터링
@@ -199,7 +176,7 @@ Journey Optimizer를 애플리케이션에 연결하는 기술 통합을 구현�
 **주요 책임:**
 
 * Adobe Experience Platform Mobile SDK 통합(iOS/Android)
-* 웹 경험 및 웹 푸시 알림용 웹 SDK 구현
+* 웹 경험 및 웹 푸시 알림용 Web SDK 구현
 * 푸시 알림 자격 증명 및 인증서 구성
 * 애플리케이션에서 이벤트를 전송하여 여정 트리거
 * Journey Optimizer가 사용자 지정 작업을 통해 호출하는 API 엔드포인트 빌드
@@ -257,7 +234,7 @@ Journey Optimizer 구현이 성공하려면 모든 역할에서 협업이 필요
 
 Journey Optimizer의 주요 기능 및 페르소나에 대해 자세히 알아보려면 소개 비디오를 시청하십시오. 이 비디오는 사용자 인터페이스를 안내하고 역할별 워크플로를 기반으로 주요 기능을 설명합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430319?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 ## 추가 리소스
 
@@ -290,7 +267,7 @@ Journey Optimizer의 주요 기능 및 페르소나에 대해 자세히 알아�
 
 | 역할 | 안내서 |
 |------|-------|
-| 관리자 | [관리자용 시작하기](path/administrator.md) |
-| 데이터 엔지니어 | [데이터 엔지니어 시작](path/data-engineer.md) |
-| Developer | [개발자용 시작하기](path/developer.md) |
-| 마케터 | [마케터용 시작하기](path/marketer.md) |
+| 관리자 | [새 관리자를 위한 시작](path/administrator.md) |
+| 데이터 엔지니어 | [데이터 엔지니어를 위한 시작](path/data-engineer.md) |
+| 개발자 | [개발자를 위한 시작](path/developer.md) |
+| 마케터 | [마케터를 위한 시작](path/marketer.md) |

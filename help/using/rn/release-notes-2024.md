@@ -8,16 +8,12 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 6911
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -397,7 +393,7 @@ ht-degree: 98%
 <tr>
 <td>
 <p>이제 승인 정책을 사용하여 Journey Optimizer 내 승인 프로세스를 설정할 수 있습니다. 이를 통해 마케팅 팀에서 캠페인 및 여정을 라이브로 전환하기 전에 적절한 이해 관계자의 검토 및 승인을 놓치지 않을 수 있습니다.</p>
-<p>승인 정책은 현재 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
+<p>승인 정책은 현재 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하세요.</p>
 <p>자세한 내용은 <a href="../test-approve/gs-approval.md">세부 설명서</a>를 참조하십시오.</p>
 <img src="assets/do-not-localize/approval.gif"/>
 </td>
@@ -639,7 +635,7 @@ ht-degree: 98%
 
 **여정**
 
-* **조건** 활동에서 기본적으로 **[!UICONTROL 시간 조건]**&#x200B;이(가) 00:00부터 12:00까지 시간 단위로 설정됩니다. [자세히 보기](../building-journeys/conditions.md#time_condition)
+* **조건** 활동에서 기본적으로 **[!UICONTROL 시간 조건]**&#x200B;은 이제 00:00부터 12:00까지 시간 단위로 설정됩니다. [자세히 보기](../building-journeys/conditions.md#time_condition)
 * 이제 여정을 작성할 때에도 경고가 다른 경고와 마찬가지로 **경고** 버튼에서 표시되어 일관된 사용자 경험을 제공합니다. [자세히 보기](../building-journeys/troubleshooting.md#activity-errors)
 * 여정 도구 모음의 확대/축소 옵션이 개선되었습니다. 이제 확대/축소 비율이 표시되며 확대/축소 값을 보다 쉽게 재설정할 수 있습니다.
 
@@ -764,8 +760,8 @@ ht-degree: 98%
 <tbody>
 <tr>
 <td>
-<p>AI Assistant는 Adobe 개념을 탐색 및 이해하고 특정 환경에 대한 운영 통찰력을 얻는 데 사용할 수 있는 사용자 인터페이스 기능입니다. Adobe Journey Optimizer을 포함하여 [!DNL Adobe CX Enterprise]의 여러 제품에서 사용할 수 있습니다.</p>
-<p>자세한 내용은 <a href="../start/ai-features.md#ai-assistant">세부 설명서</a>를 참조하십시오.</p>
+<p>AI 어시스턴트는 Adobe의 개념을 탐색 및 이해하고 사용자의 환경에 적절한 운영 인사이트를 얻는 데 사용할 수 있는 사용자 인터페이스 기능입니다. 이 기능은 Adobe Journey Optimizer를 포함하여 [!DNL Adobe CX Enterprise]의 여러 제품에서 사용할 수 있습니다.</p>
+<p>자세한 내용은 <a href="../start/ai-features.md#ai-assistant">세부 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
@@ -781,7 +777,7 @@ ht-degree: 98%
 <tr>
 <td>
 <p>이제 단일 캠페인 또는 여정 내에서 간편하게 여러 언어로 콘텐츠를 만들 수 있습니다. 이 기능을 사용하면 캠페인이나 여정을 편집할 때 언어를 전환할 수 있으므로 전체 편집 프로세스를 간소화하고 다국어 콘텐츠를 더욱 효율적으로 관리할 수 있습니다.</p>
-<p>다국어 콘텐츠는 현재 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
+<p>다국어 콘텐츠는 현재 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하세요.</p>
 </td>
 </tr>
 </tbody>
@@ -798,7 +794,7 @@ ht-degree: 98%
 <tr>
 <td>
 <p>Adobe Journey Optimizer가 이제 여정에서도 실험을 지원합니다. 캠페인에서는 이미 실험을 사용할 수 있습니다. 실험은 무작위화한 시험 회기 여러 개를 모아 놓은 것입니다. 온라인 테스팅 맥락에서는 무작위로 선택한 사용자 일부를 특정한 버전의 메시지에 노출하고, 무작위로 선택한 다른 사용자들을 다른 처리 버전에 노출하는 것을 말합니다. 노출 후에는 이메일 열람, 구독 또는 구매 등 궁금한 결과 지표를 측정할 수 있습니다.</p>
-<p>여정 내 실험은 현재 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
+<p>여정 내 실험은 현재 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하세요.</p>
 </td>
 </tr>
 </tbody>
@@ -908,7 +904,7 @@ table>
 <td>
 <p>Experience Decisioning은 '의사 결정 항목'으로 알려진 마케팅 의 중앙 집중식 카탈로그와 정교한 의사 결정 엔진을 제공하여 개인화를 간소화합니다. 이 엔진은 규칙과 순위 기준을 활용하여 각 개인에게 가장 관련성 높은 의사 결정 항목을 선택하고 제공합니다.</p>
 <p>이 의사 결정 항목은 이제 Journey Optimizer 캠페인에서 액세스할 수 있는 새로운 코드 기반 경험 채널을 통해 광범위한 인바운드 구성에 원활하게 통합됩니다. 경험 결정 의사 결정 정책은 코드 기반 경험 캠페인에서만 사용할 수 있습니다.</p>
-<p>SMS 채널은 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
+<p>SMS 채널은 현재 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하세요.</p>
 <img src="assets/do-not-localize/gif-exd.gif"/>
 <p>자세한 내용은 <a href="../experience-decisioning/gs-experience-decisioning.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
@@ -926,7 +922,7 @@ table>
 <tr>
 <td>
 <p>이제 이메일 채널 구성을 만들 때 동적 하위 도메인과 개인화된 헤더 매개 변수를 정의하여 이메일 설정을 더욱 유연하게 제어할 수 있습니다.</p>
-<p>이메일 구성 개인화는 현재 일부 조직 집합에만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.</p>
+<p>이메일 구성 개인화는 현재 일부 조직 집합에만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하세요.</p>
 <p>자세한 내용은 <a href="../email/surface-personalization.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
@@ -1043,7 +1039,7 @@ Beta부터 이 릴리스까지 다음과 같은 개선 사항이 추가되었습
 
 **세계화**
 
-통합 사용자 환경을 제공하기 위한 지속적인 노력의 일환으로 [!DNL Adobe CX Enterprise] 제품 및 앱에서 사용되는 용어를 조화롭게 작성합니다. 이에 따라 독일어 서비스에서 “Titel”이라는 용어가 개체와 관련된 상황의 경우 “Label”로 변경됩니다. 이 변경 사항은 UI 및 설명서에 점진적으로 적용됩니다.
+통합된 사용자 경험을 제공하기 위한 지속적인 노력의 일환으로 [!DNL Adobe CX Enterprise] 제품 및 앱에서 사용되는 용어를 통일했습니다. 이에 따라 독일어 서비스에서 “Titel”이라는 용어가 개체와 관련된 상황의 경우 “Label”로 변경됩니다. 이 변경 사항은 UI 및 설명서에 점진적으로 적용됩니다.
 
 
 ## 24년 4월 릴리스 {#apr-2024}

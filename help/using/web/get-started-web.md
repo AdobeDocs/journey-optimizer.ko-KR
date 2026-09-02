@@ -7,26 +7,16 @@ role: User
 level: Beginner
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
 TQID: https://experienceleague.adobe.com/7LxkDJdH0RqWKCVLLK2ISDDnNR5ZwGmgfpX7W251GBU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c618a0dc-1818-4c6d-9916-0d92e6796f24
-  - id: d056adbe-402d-4f42-9746-f3d424e598b1
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c618a0dc-1818-4c6d-9916-0d92e6796f24id: d056adbe-402d-4f42-9746-f3d424e598b1id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e9001ce2-5245-4a8e-8601-dd958009072f
 source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 319
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -98,7 +88,7 @@ ht-degree: 94%
 * **[웹 콘텐츠 편집](create-web.md#edit-web-content)** - 시각적 또는 비시각적 편집 모드를 사용하여 페이지를 수정할 수 있는 웹 디자이너를 이해합니다.
 * **[웹 수정 사항 관리](manage-web-modifications.md)** - 웹 경험의 수정 사항을 구성하고 적용하고 관리하는 방법을 알아봅니다.
 * **[웹 경험 모니터링](monitor-web-experiences.md)** - 자세한 보고를 통해 웹 캠페인의 성과를 추적하고 분석합니다.
-* **[AI로 웹 콘텐츠 생성](../content-management/generative-full-content.md)** - AI를 활용하여 텍스트 및 이미지로 웹 콘텐츠를 만들고 최적화합니다.
+* **[AI를 사용하여 웹 콘텐츠 생성](../content-management/generative-full-content.md)** - AI를 사용하여 텍스트 및 이미지로 웹 콘텐츠를 만들고 최적화합니다.
 * **[웹 캠페인 튜토리얼](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/channels/web-channel/create-a-web-campaign){target="_blank"}** - 웹 채널 기능 및 모범 사례에 대한 단계별 비디오 튜토리얼을 살펴봅니다.
 
 

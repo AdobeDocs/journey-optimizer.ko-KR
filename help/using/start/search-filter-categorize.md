@@ -9,23 +9,16 @@ role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
 TQID: https://experienceleague.adobe.com/ViOHdq6ypY2xbYrPrEsYKF4-5CyQV9izbtzhGGOzsF0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f72ff1c13cd9793d12794c8e66d663cba3181964
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 837
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +34,7 @@ Adobe Journey Optimizer 프로젝트가 확장되면 효율적인 작업을 위�
 
 ## 검색 {#unified-search}
 
-Adobe Journey Optimizer 인터페이스에서 상단 표시줄의 중앙에 있는 통합 [!DNL Adobe CX Enterprise] 검색 기능을 사용하여 샌드박스 전반의 에셋, 여정, 데이터 세트 등을 찾을 수 있습니다.
+Adobe Journey Optimizer 인터페이스에서 상단 표시줄의 중앙에 있는 통합 [!DNL Adobe CX Enterprise] 검색 기능을 사용하여 샌드박스 전반의 에셋, 여정, 데이터세트 등을 찾을 수 있습니다.
 
 상위 결과를 표시할 컨텐츠 입력을 시작합니다. 입력한 키워드에 대한 도움말 문서도 결과에 표시됩니다.
 
@@ -69,7 +62,7 @@ Adobe Journey Optimizer 인터페이스에서 상단 표시줄의 중앙에 있�
 
 ## 일괄 액션 {#bulk-actions}
 
-**캠페인**, **조각**, **여정** 및 **템플릿** 목록에서 확인란을 사용하여 여러 항목을 한 번에 선택하고 화면 하단에 나타나는 일괄 작업 표시줄에서 모든 항목에 작업을 적용할 수 있습니다.
+**캠페인**, **조각**, **여정** 및 **템플릿** 목록에서 확인란을 사용하여 여러 항목을 한 번에 선택하고 화면 하단에 나타나는 일괄 액션 표시줄에서 모든 항목에 작업을 적용할 수 있습니다.
 
 다음 작업을 사용할 수 있습니다.
 
@@ -82,7 +75,7 @@ Adobe Journey Optimizer 인터페이스에서 상단 표시줄의 중앙에 있�
 
 >[!NOTE]
 >
->여정은 또한 일괄 **[!UICONTROL 일시 중지]** 및 **[!UICONTROL 다시 시작]**&#x200B;을 지원합니다. [자세히 →](../building-journeys/journey-ui.md#bulk-operations)
+>여정은 또한 일괄 **[!UICONTROL 일시 중지]** 및 **[!UICONTROL 다시 시작]**&#x200B;을 지원합니다. [자세히 알아보기 →](../building-journeys/journey-ui.md#bulk-operations)
 
 ![](assets/bulk-actions-fragments.png)
 

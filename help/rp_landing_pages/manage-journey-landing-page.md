@@ -6,9 +6,9 @@ description: 여정 관리
 redpen-status: CREATED_||_2025-08-11_20-08-03
 exl-id: 9f74019a-9a29-40f3-8f94-253814b984c0
 source-git-commit: 2eb9660084d1a875a70f0ef0794e9edae0dbca18
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '326'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -20,17 +20,17 @@ Adobe Journey Optimizer의 여정 관리는 고객 경험이 여러 채널에 �
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 여정 검색 및 필터링
 
-여정 대시보드 지표, 달력 보기 및 복제 프로세스를 포함하여 폴더에서 여정을 탐색, 필터링, 구성하고 효과적으로 여정을 관리하는 방법을 알아봅니다.
+여정 대시보드 지표, 캘린더 보기, 복제 프로세스 등 여정을 탐색 및 필터링하고, 폴더로 구성하고 효과적으로 관리하는 방법을 알아봅니다.
 
 [여정 관리 탐색](../using/building-journeys/journey-ui.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 프로필의 여정 입장
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer의 여정 관리는 고객 경험이 여러 채널에 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 여정에서 보조 식별자 사용
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer의 여정 관리는 고객 경험이 여러 채널에 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 시간대 관리
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer의 여정 관리는 고객 경험이 여러 채널에 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 전송 시간 최적화
 
@@ -70,7 +70,7 @@ AI 기반 모델로 최적의 전송 시간을 예측하여 이메일 및 푸시
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 여정 종료
 

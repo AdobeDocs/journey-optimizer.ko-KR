@@ -6,12 +6,11 @@ role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
 feature_v2: []
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
 source-git-commit: 4c109a6021d46ee7290f09d9333892b42b5af3e2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 637
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -67,7 +66,7 @@ Journey Optimizer는 콘텐츠를 테스트할 수 있는 두 가지 경험을 �
 
   ➡️ [콘텐츠 베리에이션 시뮬레이션](../test-approve/simulate-sample-input.md)
 
-API 트리거 및 작업(예약된) 캠페인의 경우 [시뮬레이션 API](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"}를 사용하여 프로그래밍 방식으로 증명을 보낼 수도 있습니다. 오케스트레이션된 캠페인에서는 지원되지 않습니다.
+API 트리거 및 액션(예약됨) 캠페인의 경우 [시뮬레이션 API](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"}를 사용하여 프로그래밍 방식으로 증명을 보낼 수도 있습니다. 오케스트레이션된 캠페인에서는 지원되지 않습니다.
 
 ## 반드시 알아야 할 사항
 
@@ -83,4 +82,4 @@ API 트리거 및 작업(예약된) 캠페인의 경우 [시뮬레이션 API](ht
 
 테스트 프로필을 사용하여 받은 편지함 간에 이메일 렌더링을 테스트하고, 테스트 프로필로 개인화된 이메일을 미리 보고, 증명을 보내는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430340?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425026?quality=12)
