@@ -10,11 +10,10 @@ level: Beginner
 keywords: 이메일, 템플릿, 이미지, HTML, AI, 디자인, 변환기
 exl-id: d13467b7-2f3c-4707-a7e0-9b46cb6cafb1
 feature_v2: []
-subfeature_v2:
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+subfeature_v2: id: d595a60b-bcf5-4a63-a189-66a0be755cc7
+source-git-commit: ba8127e3c99a8bb54785c34a1453bb8c9b62588e
 workflow-type: tm+mt
-source-wordcount: 2126
+source-wordcount: 2103
 ht-degree: 4%
 
 ---
@@ -74,8 +73,6 @@ HTML으로 이미지 변환기는 다음 경우에 이상적입니다.
 이 기능에 액세스하려면 조직에서 Adobe으로 [!DNL Generative AI] 부록에 서명해야 합니다. 확실하지 않은 경우 Adobe 담당자에게 문의하십시오.
 
 **사용 권한**
-
-* 템플릿에 액세스하고 템플릿을 만들려면 역할에 **[!UICONTROL 콘텐츠 템플릿 관리]** 권한(**콘텐츠 관리** 리소스 아래)이 포함되어야 합니다. [권한에 대해 자세히 알아보기](../administration/permissions.md)
 
 * HTML 변환기에 이미지를 사용하려면 **콘텐츠 생성** 권한이 필요합니다. [이 섹션](../content-management/gs-generative.md#generative-access)에서 콘텐츠 생성 관련 권한을 할당하는 방법을 알아보세요.
 
