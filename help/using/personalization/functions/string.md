@@ -7,14 +7,10 @@ role: Developer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
 TQID: https://experienceleague.adobe.com/idwoj9f3zFS64ifjzcSASPaUQTaNYtyS-HI6c3-7AI0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2: []
 source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
@@ -780,7 +776,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 >[!NOTE]
 >
-> 두 번째 인수로 사용된 식이 특수 정규 표현식 문자인 경우 이중 백슬래시(`//`)를 사용합니다.  특수 정규 표현식 문자는 [., +, *, ?, ^, $, (, ), [,], {, }, |, \.]
+> 두 번째 인수로 사용된 식이 특수 정규 표현식 문자인 경우 이중 백슬래시(`//`)를 사용합니다.  특수 정규식 문자: [., +, *, ?, ^, $, (, ), [,], {, }, |, \.]
 > 
 > 자세한 내용은 [Oracle 설명서](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}를 참조하세요.
 >

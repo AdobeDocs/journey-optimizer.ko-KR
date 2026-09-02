@@ -10,25 +10,15 @@ level: Beginner
 keywords: 시작하기, 시작, 콘텐츠, 실험
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
 TQID: https://experienceleague.adobe.com/CO90KA9aqX6vclGmYWk6Z3LQJmewlylQvJA36yx44eI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: ea4139d9-3405-4b34-ad6e-c3ca120cc269
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c26beaed1c61e719f5066190970a649e28207566
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: ea4139d9-3405-4b34-ad6e-c3ca120cc269id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: d05045aa7a9742de42afb473d07bcb6095728526
 workflow-type: tm+mt
-source-wordcount: 1072
+source-wordcount: 1114
 ht-degree: 2%
 
 ---
@@ -108,7 +98,7 @@ ht-degree: 2%
    >
    >이러한 사전 요구 사항은 인앱 및 콘텐츠 카드 채널에만 필요합니다.
 
-   1. Adobe Experience Platform 데이터 수집에서 **[!UICONTROL 규칙]** 메뉴에 액세스하고 새 규칙을 만듭니다. 규칙을 만드는 방법에 대한 자세한 내용은 [!DNL Adobe Experience Platform] [데이터 수집 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/ui/rules){target="_blank"}를 참조하세요.
+   1. Adobe Experience Platform 데이터 수집에서 **[!UICONTROL 규칙]** 메뉴에 액세스하고 새 규칙을 만듭니다. 규칙을 만드는 방법에 대한 자세한 내용은 [!DNL Adobe Experience Platform] [데이터 수집 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/rules){target="_blank"}를 참조하세요.
 
    2. 규칙의 **[!UICONTROL IF]** 섹션에서 아래와 같이 구성된 이벤트를 추가합니다.
 
@@ -197,6 +187,10 @@ ht-degree: 2%
 1. 드롭다운 메뉴에서 원하는 로케일을 선택하여 기존의 작성된 콘텐츠에 적용합니다.
 
 1. **[!UICONTROL 로케일]** 메뉴의 고급 설정에 액세스하여 **[!UICONTROL 모든 로케일로 복사]**&#x200B;를 선택합니다.
+
+   >[!NOTE]
+   >
+   >이 작업은 백엔드의 전체 이메일 페이로드를 처리하며 여정 게시와 동일한 [메시지 콘텐츠 크기 가드레일](../start/guardrails.md#message-content-size)을(를) 따릅니다(최대 2MB, 1MB 미만). 콘텐츠가 큰 경우 한 번에 더 적은 로케일로 복사하십시오.
 
    ![](assets/multilingual-campaign-4.png)
 

@@ -8,26 +8,12 @@ role: User
 level: Intermediate
 exl-id: f8acb987-5c6e-4545-93b9-fdfc0d74db57
 TQID: https://experienceleague.adobe.com/-E1vLZQv8dDZqejyh944at7jHheePuzXybU4lCyMris
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: d556b755-390a-43f0-be32-a08cf6236126
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
 source-wordcount: 4739
@@ -78,7 +64,7 @@ HTML 조각 [에 대해 자세히 알아보세요](../content-management/fragmen
 
 게시되지 않은 여정에서 이메일 템플릿을 편집할 때 특정 이메일의 콘텐츠와 템플릿이 예기치 않게 사라질 수 있습니다. 이로 인해 재작업과 지연이 발생할 수 있습니다. 이 문제의 위험을 줄이려면 동시 편집을 방지하고, 열려 있는 탭 수를 제한하고, 변경 내용을 자주 저장하십시오.
 
-[&#x200B; 서식 파일에 대해 자세히 알아보세요](../email/use-email-templates.md).
+[ 서식 파일에 대해 자세히 알아보세요](../email/use-email-templates.md).
 
 +++
 
@@ -161,7 +147,7 @@ SMS 옵트아웃 구성 [에 대해 자세히 알아보세요](../mobile/mobile-
 
 채널 설정 후 SMS 게재 실패는 잘못된 공급자 API 자격 증명, 발신자 ID와 공급자가 등록한 항목 간 불일치 또는 공급자 수준의 라우팅 제한으로 인해 가장 일반적으로 발생합니다. Journey Optimizer에 입력한 API 키, 암호 및 발신자 세부 사항이 SMS 공급자가 프로비저닝한 것과 정확하게 일치하는지 확인합니다. 그런 다음 캠페인을 시작하기 전에 테스트 메시지를 보내 연결을 확인합니다.
 
-SMS 공급자 [을(를) 구성하는 방법을 알아봅니다. &#x200B;](../mobile/mobile-configuration.md).
+SMS 공급자 [을(를) 구성하는 방법을 알아봅니다. ](../mobile/mobile-configuration.md).
 
 +++
 
@@ -187,7 +173,7 @@ Adobe Customer Journey Analytics의 **인앱 채널**&#x200B;에 대한 보고�
 
 인앱 메시지를 사용하려면 Adobe Experience Platform Mobile SDK을 올바르게 설치하고 메시징 확장을 앱에 등록해야 합니다. 메시지가 표시되지 않는 경우 앱이 인앱 메시지를 가져오기 전에 SDK이 초기화되었는지, 올바른 앱 표면(번들 ID)이 Journey Optimizer에 구성되어 있는지, 캠페인이 **Live** 상태인지 확인하십시오. 또한 프로필이 대상 기준을 충족하며 빈도 규칙으로 아직 캡핑되지 않았는지 확인합니다.
 
-이 페이지[&#128279;](../in-app/inapp-configuration.md)에서 인앱 채널 을(를) 구성하는 방법에 대해 알아보세요.
+이 페이지](../in-app/inapp-configuration.md)에서 인앱 채널 [을(를) 구성하는 방법에 대해 알아보세요.
 
 +++
 
@@ -206,7 +192,7 @@ Adobe Customer Journey Analytics의 **인앱 채널**&#x200B;에 대한 보고�
 
 컨텐츠 카드를 사용하려면 Adobe Experience Platform Mobile SDK 및 **메시징 SDK**&#x200B;를 앱에 설치, 등록 및 구성해야 합니다. 푸시 또는 인앱 메시지와 달리 콘텐츠 카드는 자동으로 렌더링되지 않습니다. 앱에서 메시징 SDK API를 명시적으로 호출하여 사용 가능한 카드를 가져온 다음 UI에서 렌더링해야 합니다. 카드가 나타나지 않으면 **Adobe Experience Platform Assurance**&#x200B;을(를) 사용하여 대상 이벤트가 실행될 때 의사 결정 요청이 실행되고 있고 Edge Network에서 응답이 반환되는지 확인하십시오.
 
-모바일 SDK [의 &#x200B;](../content-card/content-card-configuration-sdk.md)에서 콘텐츠 카드 지원을 구성하는 방법에 대해 알아봅니다.
+모바일 SDK [의 ](../content-card/content-card-configuration-sdk.md)에서 콘텐츠 카드 지원을 구성하는 방법에 대해 알아봅니다.
 
 +++
 
@@ -214,7 +200,7 @@ Adobe Customer Journey Analytics의 **인앱 채널**&#x200B;에 대한 보고�
 
 아니요. 컨텐츠 카드는 조용하고 영구적입니다. OS 수준의 푸시 권한에 의존하지 않으며 사용자의 알림 옵트인 상태의 영향을 받지 않습니다. 따라서 푸시 알림을 비활성화한 사용자에게 연락할 수 있는 유용한 대체 채널이 됩니다. 사용자가 세션 중에 Edge Network에서 카드를 가져오고 앱의 UI 내에 표시됩니다.
 
-[&#x200B; 콘텐츠 카드 채널에 대해 자세히 알아보세요](../content-card/get-started-content-card.md).
+[ 콘텐츠 카드 채널에 대해 자세히 알아보세요](../content-card/get-started-content-card.md).
 
 +++
 
@@ -234,7 +220,7 @@ Adobe Customer Journey Analytics의 **인앱 채널**&#x200B;에 대한 보고�
 
 WhatsApp 메시지 배달을 사용하려면 두 가지 조건이 충족되어야 합니다. 받는 사람이 브랜드로부터 WhatsApp 통신을 받으려면 명시적으로 옵트인해야 하며, 메시지는 WhatsApp Business API에 등록된 **사전 승인된 메시지 템플릿**&#x200B;을 사용해야 합니다. 두 조건 중 하나가 충족되지 않으면 메시지가 배달되기 전에 WhatsApp 플랫폼에 의해 자동으로 차단됩니다. 수신자의 프로필 동의 특성에서 옵트인 상태를 확인하고 WhatsApp 비즈니스 계정에서 템플릿이 **승인됨** 상태인지 확인하십시오.
 
-이 페이지[&#128279;](../whatsapp/whatsapp-configuration.md)에서 WhatsApp 채널 을(를) 구성하는 방법에 대해 알아봅니다.
+이 페이지](../whatsapp/whatsapp-configuration.md)에서 WhatsApp 채널 [을(를) 구성하는 방법에 대해 알아봅니다.
 
 +++
 
@@ -242,7 +228,7 @@ WhatsApp 메시지 배달을 사용하려면 두 가지 조건이 충족되어�
 
 WhatsApp 비즈니스 API는 아웃바운드 비즈니스 시작 메시지에 대해 사전 승인된 메시지 템플릿만 허용합니다. 자유 형식 메시지는 **24시간 고객 서비스 기간** 내에서만 허용됩니다. 즉, 고객이 먼저 브랜드에 메시지를 보낸 후 24시간 이내입니다. 메시지가 거부되는 경우 템플릿이 Meta에 제출되어 승인되었는지, Journey Optimizer 메시지의 템플릿 변수(자리 표시자)가 승인된 템플릿 구조와 정확히 일치하는지, 캠페인 또는 여정 작업에서 올바른 템플릿이 선택되었는지 확인하십시오.
 
-이 페이지[&#128279;](../whatsapp/create-whatsapp.md)에서 WhatsApp 메시지 을(를) 만드는 방법을 알아보세요.
+이 페이지](../whatsapp/create-whatsapp.md)에서 WhatsApp 메시지 [을(를) 만드는 방법을 알아보세요.
 
 +++
 
@@ -250,7 +236,7 @@ WhatsApp 비즈니스 API는 아웃바운드 비즈니스 시작 메시지에 �
 
 마케팅 메시지를 보내려면 먼저 WhatsApp에 명시적 옵트인이 필요합니다. 옵트인은 웹 양식, SMS 이중 옵트인 또는 인앱 동의 화면과 같이, 프로세스가 명확하고 문서화되어 있는 한 브랜드 컨트롤 채널을 통해 수집할 수 있습니다. 수집되면 Adobe Experience Platform에서 프로필의 WhatsApp 동의 속성을 업데이트합니다. 프로필의 현재 동의 상태를 확인하려면 Experience Platform UI에서 프로필을 열고 **동의** 섹션을 검사합니다. 유효한 동의 없이 프로필로 보내면 WhatsApp 비즈니스 정책을 위반하고 계정이 일시 중단될 수 있습니다.
 
-이 페이지[&#128279;](../whatsapp/get-started-whatsapp.md)에서 WhatsApp 채널 을(를) 시작하는 방법을 알아보세요.
+이 페이지](../whatsapp/get-started-whatsapp.md)에서 WhatsApp 채널 [을(를) 시작하는 방법을 알아보세요.
 
 +++
 
@@ -260,7 +246,7 @@ WhatsApp 비즈니스 API는 아웃바운드 비즈니스 시작 메시지에 �
 
 Adobe Journey Optimizer에서 새 샌드박스를 프로비저닝하는 조직에서 TTL(Time-to-Live) 설정이 프로필 및 데이터 레이크 데이터 세트에 적용되는 방법에 대해 의문을 제기했습니다. TTL 설정은 기존 샌드박스에 영향을 주지 않으며, 새로 제공된 샌드박스에만 자동으로 적용됩니다.
 
-이 페이지의 [&#x200B; 데이터 집합 Time-to-Live에 대해 자세히 알아보세요](../data/datasets-ttl.md).
+이 페이지의 [ 데이터 집합 Time-to-Live에 대해 자세히 알아보세요](../data/datasets-ttl.md).
 
 +++
 
@@ -297,7 +283,7 @@ Adobe Journey Optimizer의 **대상자 읽기** 기능에서 처리된 항목 �
 
 Adobe Journey Optimizer에서 여정에서 **프로필 업데이트** 활동을 실행한 후 특정 필드 값이 올바르게 업데이트되지 않을 수 있습니다. 경우에 따라 업데이트된 필드가 사라지거나 이전 상태로 돌아갈 수 있습니다. 이를 해결하려면 충돌하는 규칙이나 조건을 확인하고 권한 설정을 검토하며 **프로필 업데이트** 활동에 고유한 데이터 세트를 사용하고 다른 수집 프로세스가 같은 프로필에 동시에 기록되고 있지 않은지 확인하십시오.
 
-이 페이지의 [&#128279;](../building-journeys/update-profiles.md) 여정에서 **프로필 업데이트** 활동에 대해 자세히 알아보세요.
+이 페이지의 [](../building-journeys/update-profiles.md) 여정에서 **프로필 업데이트** 활동에 대해 자세히 알아보세요.
 
 +++
 
@@ -378,7 +364,7 @@ Campaign에서 볼 때 동일한 대상이 여정 수와 비교하여 다른 프
 
 새 버전의 여정을 만들 때 특정 단계&#x200B;**의**&#x200B;식이 손실되어 오류가 발생하고 수동으로 다시 입력해야 할 수 있습니다. 이 문제를 해결하려면 **여정을 복제**&#x200B;하고, 재현성을 테스트하고, **브라우저 다시 로드를 피하고**&#x200B;이전 여정의 경우 **업데이트된 캔버스**&#x200B;를 사용하십시오.
 
-[&#x200B; 여정을 이 페이지에서](../building-journeys/journey-ui.md#duplicate-a-journey)에 복제하는 방법을 알아보세요.
+[ 여정을 이 페이지에서](../building-journeys/journey-ui.md#duplicate-a-journey)에 복제하는 방법을 알아보세요.
 
 +++
 
@@ -404,7 +390,7 @@ Campaign에서 볼 때 동일한 대상이 여정 수와 비교하여 다른 프
 
 이벤트가 **DCCS(Data Collection Core Service)**&#x200B;로 스트리밍되지 않고 **쿼리 서비스를 통해 만들어진**&#x200B;에서 모든 기준이 충족되는 경우에도 여정을 트리거하지 못할 수 있습니다. 이 문제를 해결하려면 이벤트 구성을 검토하고 이벤트가 **DCCS로 직접 스트리밍되는지**&#x200B;확인한 다음 **테스트 모드**&#x200B;를 사용하여 기능을 확인하십시오.
 
-[&#x200B; 이벤트에 대해 자세히 알아보세요](../event/about-events.md).
+[ 이벤트에 대해 자세히 알아보세요](../event/about-events.md).
 
 [여정 이벤트 보호](../start/guardrails.md#events-g)도 참조하세요.
 
@@ -415,7 +401,7 @@ Campaign에서 볼 때 동일한 대상이 여정 수와 비교하여 다른 프
 
 병합 여정의 변경과 같이 연결된 대상을 수정한 후 정책이 트리거를 중지하면 흐름이 중단될 수 있습니다. 이 문제를 해결하려면 트리거가 올바르게 작동하도록 업데이트된 대상 설정으로 **여정을 복제하고**&#x200B;다시 게시합니다.
 
-[&#x200B; 여정을 이 페이지에서](../building-journeys/journey-ui.md#duplicate-a-journey)에 복제하는 방법을 알아보세요.
+[ 여정을 이 페이지에서](../building-journeys/journey-ui.md#duplicate-a-journey)에 복제하는 방법을 알아보세요.
 
 +++
 
@@ -423,7 +409,7 @@ Campaign에서 볼 때 동일한 대상이 여정 수와 비교하여 다른 프
 
 **사용자 지정 작업**&#x200B;에서 외부 타사 끝점을 호출할 때 시간 초과 오류가 발생할 수 있습니다. 이 문제를 해결하려면 **끝점에 액세스할 수 있는지 확인**&#x200B;하고, **서버 로그**&#x200B;를 확인하고, **Adobe에서 차단이 없는지 확인**&#x200B;하고, 필요에 따라 끝점 구성을 업데이트하고, **업데이트 후 테스트**&#x200B;합니다. 또한 **API 호출 시간 제한 사양**&#x200B;을 염두에 두십시오.
 
-이 페이지[&#128279;](../configuration/throttling.md)에서 여정 조절 API 에 대해 자세히 알아보세요.
+이 페이지](../configuration/throttling.md)에서 여정 조절 API [에 대해 자세히 알아보세요.
 
 [외부 시스템과 통합](../configuration/external-systems.md)도 참조하세요.
 
@@ -477,7 +463,7 @@ Campaign에서 볼 때 동일한 대상이 여정 수와 비교하여 다른 프
 
 Adobe Journey Optimizer을 사용하여 Adobe Target을 응용 프로그램에 통합하는 경우 데이터 스트림 구성 내에서 **Offer Decisioning** 옵션에 액세스할 수 없습니다. 이 문제는 일반적으로 **권한 설정** 또는 **프로비저닝 제약 조건** 때문에 발생합니다. 이 문제를 해결하려면 사용자 권한을 확인하고 필요한 프로비저닝이 제대로 되어 있는지 확인합니다.
 
-이 페이지[&#128279;](../offers/get-started/starting-offer-decisioning.md#granting-acess-to-decision-management)에서 Offer Decisioning 에 필요한 권한에 대해 자세히 알아보세요.
+이 페이지](../offers/get-started/starting-offer-decisioning.md#granting-acess-to-decision-management)에서 Offer Decisioning [에 필요한 권한에 대해 자세히 알아보세요.
 
 +++
 
@@ -485,7 +471,7 @@ Adobe Journey Optimizer을 사용하여 Adobe Target을 응용 프로그램에 �
 
 자격 있는 오퍼가 의사 결정 응답에 표시되지 않는 경우, 오퍼가 **승인됨**(초안 아님) 상태인지 확인하고, 요청의 배치 ID가 오퍼의 표시 표면과 일치하는지 확인하고, 해당 오퍼에 대한 한도 제한(총 또는 프로필당)에 도달했는지 확인하고, 컬렉션 및 의사 결정 범위가 올바르게 구성되었는지 확인합니다. Experience Decisioning의 **시뮬레이션** 도구를 사용하여 라이브 트래픽을 보내지 않고 특정 프로필에 대한 오퍼 응답을 테스트합니다.
 
-이 페이지[&#128279;](../experience-decisioning/gs-experience-decisioning.md)에서 Experience Decisioning 을(를) 시작하는 방법을 알아봅니다.
+이 페이지](../experience-decisioning/gs-experience-decisioning.md)에서 Experience Decisioning [을(를) 시작하는 방법을 알아봅니다.
 
 +++
 
@@ -539,7 +525,7 @@ Journey Optimizer [의 쿼리에 대해 자세히 알아보세요](../data/get-s
 
 하드 바운스, 스팸 불만 또는 관리자가 수동으로 추가한 후에는 주소가 제외 목록에 자동으로 추가됩니다. 표시하지 않으면 프로필은 캠페인 또는 여정 타깃팅에 관계없이 해당 채널로부터 메시지를 받지 않습니다. 조사하려면 **관리** > **채널** > **제외 목록**&#x200B;을 열고 주소를 검색하십시오. 오류로 제외가 추가된 경우 인터페이스에서 직접 제거할 수 있습니다. 하드 바운스 억제의 경우 주소를 제거하기 전에 기본 전달성 문제도 검토하십시오.
 
-이 페이지[&#128279;](../configuration/manage-suppression-list.md)에서 비표시 목록 을(를) 관리하는 방법을 알아보세요.
+이 페이지](../configuration/manage-suppression-list.md)에서 비표시 목록 [을(를) 관리하는 방법을 알아보세요.
 
 +++
 
@@ -549,7 +535,7 @@ Journey Optimizer [의 쿼리에 대해 자세히 알아보세요](../data/get-s
 
 Postman 또는 유사한 도구를 통해 **쿼리 서비스 API**&#x200B;를 사용할 때 발생하는 액세스 오류는 일반적으로 **권한 부족**&#x200B;으로 인해 발생합니다. 이 문제를 해결하려면 사용자 권한을 확인하고 조직에 구성된 역할에 대해 API 자격 증명을 확인한 다음 필요한 경우 지원할 자세한 정보를 제공합니다.
 
-이 페이지의 [&#128279;](../administration/permissions.md) Journey Optimizer에서 사용 권한에 대해 자세히 알아보세요.
+이 페이지의 [](../administration/permissions.md) Journey Optimizer에서 사용 권한에 대해 자세히 알아보세요.
 
 +++
 

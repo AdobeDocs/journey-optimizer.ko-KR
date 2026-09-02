@@ -9,22 +9,12 @@ role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
 TQID: https://experienceleague.adobe.com/yKwBevAZeHTG1n5NXcO-okHQW-pYL1McS8HT-0Tgv6E
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
 source-wordcount: 1158
@@ -55,7 +45,7 @@ ht-degree: 11%
 
    ![](assets/create-segment.png)
 
-   세그먼트 정의 화면에서는 대상자를 정의하는 데 필요한 모든 필드를 구성할 수 있습니다. [세분화 서비스 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/methods/overview){target="_blank"}에서 대상자를 구성하는 방법을 알아보세요.
+   세그먼트 정의 화면에서는 대상자를 정의하는 데 필요한 모든 필드를 구성할 수 있습니다. [세분화 서비스 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/overview){target="_blank"}에서 대상자를 구성하는 방법을 알아보세요.
 
    ![](assets/segment-builder.png)
 
@@ -65,7 +55,7 @@ ht-degree: 11%
 
 1. 왼쪽 창에서 중앙 작업 영역으로 원하는 필드를 드래그하여 놓은 다음 필요에 따라 구성합니다.
 
-   세그먼트 정의의 기본 구성 요소는 **특성** 및 **이벤트**&#x200B;입니다. 또한 기존 대상자에 포함된 속성 및 이벤트를 새 정의의 구성 요소로 사용할 수 있습니다. [세분화 서비스 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/segment-builder#building-blocks){target="_blank"}
+   세그먼트 정의의 기본 구성 요소는 **특성** 및 **이벤트**&#x200B;입니다. 또한 기존 대상자에 포함된 속성 및 이벤트를 새 정의의 구성 요소로 사용할 수 있습니다. [세분화 서비스 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#building-blocks){target="_blank"}
 
    >[!NOTE]
    >
@@ -103,7 +93,7 @@ Adobe Journey Optimizer에서 대상자는 아래 세 가지 평가 방법 중 �
 
 대상에 대한 프로필 목록은 새 데이터가 시스템으로 유입될 때 실시간으로 최신 상태로 유지됩니다.
 
-스트리밍 세분화는 사용자 활동에 대응하여 대상자를 업데이트하는 진행형 데이터 선택 프로세스입니다. 세그먼트 정의를 작성하고 결과 대상자를 저장한 다음부터는 Journey Optimizer로 들어오는 데이터에 세그먼트 정의가 적용됩니다. 즉, 프로필 데이터가 변경될 때 개인이 대상에서 추가되거나 제거되어 대상 대상이 항상 관련성이 있게 됩니다. [Adobe Experience Platform 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=ko){target="_blank"}.
+스트리밍 세분화는 사용자 활동에 대응하여 대상자를 업데이트하는 진행형 데이터 선택 프로세스입니다. 세그먼트 정의를 작성하고 결과 대상자를 저장한 다음부터는 Journey Optimizer로 들어오는 데이터에 세그먼트 정의가 적용됩니다. 즉, 프로필 데이터가 변경될 때 개인이 대상에서 추가되거나 제거되어 대상 대상이 항상 관련성이 있게 됩니다. [Adobe Experience Platform 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"}.
 
 >[!IMPORTANT]
 >
@@ -123,17 +113,17 @@ Adobe Journey Optimizer에서 대상자는 아래 세 가지 평가 방법 중 �
 
 배치 세분화는 세그먼트 정의를 통해 모든 프로필 데이터를 한 번에 처리하며, 사용하기 위해 저장 및 내보낼 수 있는 대상자의 스냅샷을 생성합니다. 스트리밍 세그먼테이션과 달리 배치 세그먼테이션은 실시간으로 대상자 목록을 지속적으로 업데이트하지 않습니다. 일괄 처리 프로세스 후에 들어오는 새 데이터는 다음 일괄 처리 프로세스까지 대상자에 반영되지 않습니다. 즉시 업데이트를 적용하려고 해도 일별 주기가 재정의되지 않습니다. 즉각적인 증분 업데이트의 경우 스트리밍 또는 온디맨드 세분화 옵션을 사용하는 것이 좋습니다.
 
-자세한 내용은 [Adobe Experience Platform 세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ko#batch){target="_blank"}를 참조하세요.
+자세한 내용은 [Adobe Experience Platform 세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#batch){target="_blank"}를 참조하세요.
 
 +++
 
 +++ 에지 세분화
 
-Edge 세그멘테이션은 Adobe Experience Platform의 세그먼트를 즉시 [edge](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko){target="_blank"}에서 평가하는 기능으로, 동일한 페이지 및 다음 페이지 개인화 사용 사례를 가능하게 합니다. 현재 선택한 쿼리 유형만 가장자리 세분화를 통해 평가할 수 있습니다. 자세한 내용은 [Adobe Experience Platform 세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html?lang=ko#query-types){target="_blank"}를 참조하세요.
+Edge 세그멘테이션은 Adobe Experience Platform의 세그먼트를 즉시 [edge](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"}에서 평가하는 기능으로, 동일한 페이지 및 다음 페이지 개인화 사용 사례를 가능하게 합니다. 현재 선택한 쿼리 유형만 가장자리 세분화를 통해 평가할 수 있습니다. 자세한 내용은 [Adobe Experience Platform 세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html#query-types){target="_blank"}를 참조하세요.
 
 +++
 
-사용할 평가 방법을 알고 있는 경우 드롭다운 목록을 사용하여 선택합니다. 돋보기로 찾아보기 아이콘 폴더 아이콘을 클릭하여 사용 가능한 세그먼트 정의 평가 방법 목록을 볼 수도 있습니다. 자세한 내용은 [Adobe Experience Platform 세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ko#segment-properties){target="_blank"}를 참조하세요.
+사용할 평가 방법을 알고 있는 경우 드롭다운 목록을 사용하여 선택합니다. 돋보기로 찾아보기 아이콘 폴더 아이콘을 클릭하여 사용 가능한 세그먼트 정의 평가 방법 목록을 볼 수도 있습니다. 자세한 내용은 [Adobe Experience Platform 세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#segment-properties){target="_blank"}를 참조하세요.
 
 ![](assets/evaluation-methods.png)
 
@@ -159,10 +149,10 @@ Adobe Experience Platform 대상 포털을 사용하면 선택한 대상에 대�
 1. 실시간으로 대상자를 평가하여 정확성을 보장합니다. 특정 기준(예: 사람 기반, 세그먼테이션 서비스 원본)을 충족하는 경우, 평가하려는 대상을 선택하고 &quot;대상 평가&quot;를 선택합니다.
 1. 정확한 타겟팅을 위해 Adobe Journey Optimizer 캠페인 또는 여정에서 평가된 대상자를 사용합니다.
 
-한 번에 최대 20개의 대상을 평가할 수 있으며 부적격 대상은 자동으로 제외됩니다. 자세한 내용은 [Adobe Experience Platform 세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/ui/audience-portal#flexible-audience-evaluation)를 참조하세요.
+한 번에 최대 20개의 대상을 평가할 수 있으며 부적격 대상은 자동으로 제외됩니다. 자세한 내용은 [Adobe Experience Platform 세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#flexible-audience-evaluation)를 참조하세요.
 
 ## 사용 방법 비디오{#video-segment}
 
 Journey Optimizer에서 규칙을 사용하여 대상을 생성하는 방법을 이해하고, 속성, 이벤트 및 기존 대상을 사용하여 대상을 만드는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430333?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425020?quality=12)

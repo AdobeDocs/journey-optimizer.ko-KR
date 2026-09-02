@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 API 트리거 캠페인을 활용하면 REST API 호�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 API 트리거 캠페인 만들기 및 관리
 
@@ -30,7 +30,7 @@ API 트리거 캠페인 만들기 및 관리
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 API 트리거 캠페인 속성 정의
 
@@ -40,7 +40,7 @@ API 트리거 캠페인 속성 정의
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 API 트리거 캠페인 액션 구성
 
@@ -50,7 +50,7 @@ API 트리거 캠페인 액션 구성
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 API 트리거 캠페인 콘텐츠 편집 및 개인화
 
@@ -60,7 +60,7 @@ API 트리거 캠페인 콘텐츠 편집 및 개인화
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
 
 API 트리거 캠페인 대상자 정의
 
@@ -70,7 +70,7 @@ API 트리거 캠페인 대상자 정의
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 API 트리거 캠페인 예약
 

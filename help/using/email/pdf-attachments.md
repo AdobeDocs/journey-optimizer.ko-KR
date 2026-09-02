@@ -10,18 +10,11 @@ level: Beginner
 keywords: 이메일, 메시지, 첨부 파일, pdf, 편집기, 개인화된, API 트리거된
 exl-id: 71e218d0-5b3b-4db5-8b7b-d08df8f088c4
 TQID: https://experienceleague.adobe.com/9IgYERskcUrIAhTb3xlNgWTRyY-04O58ZB8I0lYFh4g
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: c1270581f5184ca1f5375a2838dfb2906805a259
 workflow-type: tm+mt
 source-wordcount: 916
@@ -40,7 +33,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_pdf_attachments"
 >title="PDF 첨부 파일 추가"
->abstract="이메일에 첨부할 PDF 파일을 찾아보십시오.</br>매년 프로필별로 PDF 첨부 파일이 포함된 최대 6개의 메시지를 보낼 수 있습니다. 각 첨부 파일의 최대 크기는 5MB입니다.</br>크기나 볼륨이 더 필요하다면 PDF 첨부 파일 추가 기능을 구매할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오."
+>abstract="이메일에 첨부할 PDF 파일을 찾아 선택합니다.</br>매년 프로필별로 PDF 첨부 파일이 포함된 최대 6개의 메시지를 보낼 수 있습니다. 각 첨부 파일의 최대 크기는 5MB입니다.</br>크기나 볼륨이 더 필요하다면 PDF 첨부 파일 추가 기능을 구매할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오."
 
 [!DNL Journey Optimizer]&#x200B;(으)로 보내는 전자 메일 메시지에 정적 PDF 파일을 첨부할 수 있습니다. [API 트리거 캠페인](../campaigns/api-triggered-campaigns.md)을 사용하는 경우 각 수신자에 대해 [개인화된 PDF 파일을 첨부](#personalized-attachments)할 수도 있습니다.
 
@@ -66,7 +59,7 @@ ht-degree: 11%
 
    >[!NOTE]
    >
-   >메시지를 디자인할 때는 Journey Optimizer 인터페이스 내에서 Assets Essentials 저장소에 직접 액세스합니다. 포함된 [!DNL Assets Essentials] 사용자 인터페이스에 대한 자세한 내용은 [Experience Manager Assets Essentials 설명서](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=ko){target="_blank"}를 참조하세요.
+   >메시지를 디자인할 때는 Journey Optimizer 인터페이스 내에서 Assets Essentials 저장소에 직접 액세스합니다. 포함된 [!DNL Assets Essentials] 사용자 인터페이스에 대한 자세한 내용은 [Experience Manager Assets Essentials 설명서](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}를 참조하세요.
 
 1. **[!UICONTROL MIME 형식]** 섹션의 **[!UICONTROL PDF]** 필터를 사용하여 올바른 파일 형식으로 선택을 제한하십시오.
 
@@ -105,9 +98,9 @@ ht-degree: 11%
 >
 >* 개인화된 정적 PDF 첨부 파일은 동일한 할당량에 포함됩니다. [자세히 알아보기](#pdf-attachments)
 
-개인화된 PDF 첨부 파일을 첨부 파일별 [데이터 랜딩 영역](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"} 컨테이너로 업로드한 다음 API 페이로드에서 참조해야 합니다. 데이터 랜딩 영역 은 현재 개인화된 PDF 첨부 파일에 대해 유일하게 지원되는 저장소 위치입니다.
+개인화된 PDF 첨부 파일을 첨부 파일별 [데이터 랜딩 영역](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"} 컨테이너로 업로드한 다음 API 페이로드에서 참조해야 합니다. 데이터 랜딩 영역 은 현재 개인화된 PDF 첨부 파일에 대해 유일하게 지원되는 저장소 위치입니다.
 
-1. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}에 설명된 대로 실행 요청과 동일한 IMS 조직 및 샌드박스에 대해 `type=ajoemailattachments`을(를) 사용하여 샌드박스의 데이터 랜딩 영역 자격 증명을 검색합니다. 클라우드 공급자에 따라 Azure 컨테이너 또는 API에서 반환한 AWS 버킷 및 폴더를 사용합니다.
+1. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}에 설명된 대로 실행 요청과 동일한 IMS 조직 및 샌드박스에 대해 `type=ajoemailattachments`을(를) 사용하여 샌드박스의 데이터 랜딩 영역 자격 증명을 검색합니다. 클라우드 공급자에 따라 Azure 컨테이너 또는 API에서 반환한 AWS 버킷 및 폴더를 사용합니다.
 
 1. 선택한 도구로 PDF 파일을 생성하고 데이터 랜딩 영역 컨테이너에 업로드합니다.
 

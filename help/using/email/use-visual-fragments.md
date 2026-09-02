@@ -9,29 +9,15 @@ role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
 TQID: https://experienceleague.adobe.com/YbH8cXjrh5E9v9twpwxB3ENb606W-1JAonJRxnorl9c
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8
-  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 89c7799f3d330a0fceb40d55ab3da69fb6c279d8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8id: c6e980f5-2d4f-494f-beef-186b9ecf1513id: d08afb72-92f6-4856-88e3-11ec34313c2fid: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: d8f0a7fc524651079c39ca683f7916234d68bab3
 workflow-type: tm+mt
-source-wordcount: 1242
+source-wordcount: 1306
 ht-degree: 1%
 
 ---
@@ -122,6 +108,10 @@ ht-degree: 1%
 * 이메일 구조에 조건부 콘텐츠가 포함된 중첩된 조각이 있는지 확인
 * 조건부 콘텐츠가 있는 각 조각을 이메일 수준에서 자체 구조 블록으로 이동하여 재구성
 * 조건부 콘텐츠 변형이 제대로 복원되었는지 저장 및 확인
+
+>[!NOTE]
+>
+>조각에서 동적 콘텐츠를 사용하며 기본 상태가 비어 있는 경우 이메일 Designer의 이메일에 추가되면 조각이 비어 있을 수 있습니다. 이는 예상되는 비헤이비어입니다. 시스템은 일관성을 보장하기 위해 기본 변형을 폴백으로 사용합니다. 실제 콘텐츠를 미리 보려면 조각의 동적 콘텐츠 규칙에 정의된 조건을 충족하는 프로필을 사용하여 [전자 메일을 시뮬레이션](../content-management/preview-test.md)합니다.
 
 ## 암시적 변수 사용 {#implicit-variables-in-fragments}
 
