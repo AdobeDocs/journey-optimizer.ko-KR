@@ -8,27 +8,15 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 8c6647e0d1dc82656ac22fd5309a68b8dfdc8f56
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 2285f5fb8717f8577313a013a794a7b410c34a50
 workflow-type: tm+mt
-source-wordcount: 2281
+source-wordcount: 2240
 ht-degree: 21%
 
 ---
@@ -149,7 +137,7 @@ ht-degree: 21%
 * **여정 헤더의 시작 및 종료 날짜** - 여정에 시작 및/또는 종료 날짜가 구성되면 상태 배지 옆의 여정 헤더에 표시됩니다. 표시되는 레이블은 각 날짜가 다가오는지 또는 이미 지났는지에 따라 달라집니다. [자세히 보기](../building-journeys/journey-properties.md#dates)
 
 
-사용 가능한 날짜: 2026년 8월 20일
+  사용 가능한 날짜: 2026년 8월 20일
 
 * **고급 표현식 편집기의 새 목록 함수** - 고급 표현식 편집기에서 두 개의 새 함수를 사용할 수 있습니다. `mergeLists`은(는) 중복 제거가 있거나 없는 두 목록을 결합하고 `differenceLists`은(는) 다른 목록에 없는 한 목록의 항목을 반환합니다. [자세히 알아보기](../building-journeys/functions/list-functions.md)
 
@@ -183,7 +171,8 @@ ht-degree: 21%
 </table>
 
 * **캠페인별 라이프사이클 경고 구독** - 이제 기존 샌드박스 수준 구독뿐만 아니라 단일 캠페인에 대해 지원되는 캠페인 라이프사이클 경고를 구독할 수 있습니다. 이렇게 하면 샌드박스의 모든 캠페인에 대해 동일한 경고를 받지 않고 우선 순위가 높은 개별 캠페인을 모니터링할 수 있습니다. [자세히 알아보기](../reports/alerts.md#subscribe-alerts)
-사용 가능한 날짜: 2026년 8월 13일
+
+  사용 가능한 날짜: 2026년 8월 13일
 
 +++ 곧 출시 예정 — **아래 정보는 변경될 수 있습니다.**
 
@@ -312,26 +301,11 @@ ht-degree: 21%
 
   사용 가능한 날짜: 2026년 8월 11일
 
-+++ 곧 출시 예정 — **아래 정보는 변경될 수 있습니다.**
-
-<table>
-<thead>
-<tr>
-<th><strong>웹 채널에서 의사 결정 지원</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 웹 채널에 의사 결정을 사용할 수 있습니다. 웹 시각적 편집기에서 직접 의사 결정 정책을 사용하여 각 방문자에게 가장 관련성이 높은 오퍼를 전달할 수 있습니다.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-+++
-
 ### 사용성 개선 사항 {#august-26-usability}
+
+* **새 여정 캔버스에서 다중 선택** - 새 여정 캔버스 경험은 간단한 다중 노드 선택을 도입합니다. Shift 키를 누른 상태에서 드래그하여 개별적으로 선택하는 대신 한 번에 여러 노드를 선택합니다. 이를 통해 복사, 삭제 또는 여정 조각으로 저장과 같은 벌크 작업을 여러 노드에서 효율적으로 수행할 수 있습니다. [자세히 알아보기](../building-journeys/using-the-journey-designer.md#canvas-capabilities)
+
+  사용 가능한 날짜: 2026년 8월 17일
 
 * **여정 인벤토리의 대량 작업** - 이제 여정 인벤토리 목록에서 직접 새로운 대량 작업을 수행할 수 있으므로 여러 여정을 한 번에 더 빠르게 관리할 수 있습니다. 여러 여정을 선택하고 다음 새 작업을 한 단계로 적용합니다. **패키지에 추가**, **삭제**, **폴더로 이동**, **태그 편집** 또는 **액세스 관리**. 이렇게 하면 한 번에 한 여정에 동일한 작업을 반복할 필요가 줄어들어 많은 여정으로 작업하는 팀의 여정 관리가 간소화됩니다. [자세히 알아보기](../building-journeys/journey-ui.md)
 
@@ -341,6 +315,4 @@ ht-degree: 21%
 
   사용 가능한 날짜: 2026년 8월 11일
 
-* **새 여정 캔버스에서 다중 선택** - 새 여정 캔버스 경험은 간단한 다중 노드 선택을 도입합니다. Shift 키를 누른 상태에서 드래그하여 개별적으로 선택하는 대신 한 번에 여러 노드를 선택합니다. 이를 통해 복사, 삭제 또는 여정 조각으로 저장과 같은 벌크 작업을 여러 노드에서 효율적으로 수행할 수 있습니다. [자세히 알아보기](../building-journeys/using-the-journey-designer.md#canvas-capabilities)
 
-  사용 가능한 날짜: 2026년 8월 17일
