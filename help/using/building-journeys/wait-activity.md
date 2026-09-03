@@ -11,25 +11,16 @@ keywords: 대기, 활동, 여정, 다음, 캔버스
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/qWxnLiuHh-sJQyUOuRB6CgRIpZ6ud6eO-WNoWcv9JeU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 14b3d7013504dc3a2544301a899c8cdf0fcf4c92
 workflow-type: tm+mt
 source-wordcount: 2072
-ht-degree: 6%
+ht-degree: 14%
 
 ---
 
@@ -129,17 +120,17 @@ Select the date for the execution of the next activity.
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait_optimization_channel"
 >title="최적화 채널"
->abstract="각 프로필의 최적 대기 시간(이메일 또는 푸시 알림)을 계산할 때 사용할 채널의 전송 시간 최적화 모델을 선택합니다. 대기 활동은 해당 채널에 대해 이미 계산된 참여 점수를 재사용하므로 선택한 채널은 대기 시간을 최적화할 메시징 동작과 일치해야 합니다."
+>abstract="각 프로필의 최적 대기 시간(이메일 또는 푸시 알림)을 계산할 때 사용할 채널의 전송 시간 최적화 모델을 선택합니다. 대기 활동은 해당 채널에 대해 이미 계산된 참여 점수를 재사용하므로, 선택한 채널은 대기 시간을 최적화할 메시지 동작과 일치해야 합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait_optimization_type"
 >title="최적화 유형"
->abstract="이메일의 경우 오픈을 최대화하기 위해 최적의 대기 시간을 계산할지 클릭스루를 최대화할지 여부를 선택합니다. 푸시 메시지는 클릭 추적이 푸시 메시지에 적용되지 않으므로 푸시 기능은 항상 열기용으로 최적화됩니다. 이 대기 후에 수행되는 활동의 목표와 가장 일치하는 참여 유형을 선택합니다."
+>abstract="이메일의 경우 열람 수를 최대화하기 위해 최적의 대기 시간을 계산할지 아니면 클릭스루를 최대화할지 여부를 선택합니다. 푸시 메시지는 클릭 추적이 푸시 메시지에 적용되지 않으므로, 푸시 기능은 항상 열기용으로 최적화됩니다. 이 대기 후에 수행되는 활동의 목표에 가장 부합하는 참여 유형을 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait_send_within"
->title="다음 날짜 이내에 전송"
->abstract="다음 활동을 계속하기 전에 시스템이 대기할 수 있는 최대 시간(2~100시간)을 설정합니다. 이는 최적의 순간을 선택할 때 고려하는 창 전송 시간 최적화의 외부 경계를 정의합니다. 기간이 짧으면 AI 모델이 제공할 수 있는 혜택의 크기가 제한되며, 기간이 길면 원하는 것보다 다운스트림 활동이 지연될 수 있습니다."
+>title="다음 날짜 내로 전송"
+>abstract="다음 활동을 계속하기 전에 시스템이 대기할 수 있는 최대 시간(2~100시간)을 설정합니다. 이는 전송 시간 최적과가 최적의 타이밍을 선택할 때 고려하는 기간의 외부 경계를 정의합니다. 기간이 짧으면 AI 모델이 제공할 수 있는 이점이 제한되며, 기간이 길면 다운스트림 활동이 원하는 것보다 지연될 수 있습니다."
 
 ![대기 기간 정의](assets/wait_sto.png)
 

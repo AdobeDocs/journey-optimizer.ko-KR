@@ -7,15 +7,12 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
 source-git-commit: 92d0c79a5773c2d7fd7b3f3c2c4c142df7e39466
 workflow-type: tm+mt
 source-wordcount: 2888
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
@@ -105,8 +102,8 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
 >abstract="기본적으로 모든 프로필은 결정 항목을 수신할 수 있지만 대상자 또는 규칙을 사용하여 항목을 특정 프로필로만 제한할 수 있습니다."
 
 <!--
->"additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
@@ -143,8 +140,8 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_capping_scope"
->title="캡핑 범위"
->abstract="배치 전체에 걸쳐 최대 가용량 규칙이 적용되는 방식을 정의합니다. 기본적으로 배치에 관계없이 단일 캡이 적용됩니다. 배치마다 독립적으로 캡핑을 추적하려면 **각 배치**&#x200B;를 선택하고, 선택한 배치로만 캡핑을 제한하려면 **특정 배치**&#x200B;를 선택하십시오. **특정 배치** 한도 설정은 웹 및 전자 메일 채널에서만 지원됩니다."
+>title="상한 설정 범위"
+>abstract="배치 전체에 걸쳐 상한 설정 규칙이 적용되는 방식을 정의합니다. 기본적으로 배치에 관계없이 단일 상한이 적용됩니다. 배치마다 독립적으로 상한 설정을 추적하려면 **각 배치**&#x200B;를 선택하고, 선택한 배치로만 상한 설정을 제한하려면 **특정 배치**&#x200B;를 선택합니다. **특정 배치** 상한 설정은 웹 및 이메일 채널에서만 지원됩니다."
 
 한도는 오퍼 항목을 표시할 수 있는 최대 횟수를 정의하는 제약 조건으로 사용됩니다. 사용자가 특정 오퍼를 받는 횟수를 제한하면 고객에게 과다 청탁을 하지 않고 최상의 오퍼로 각 접점을 최적화할 수 있습니다. 특정 결정 항목에 대해 최대 10개의 캡션을 만들 수 있습니다.
 
