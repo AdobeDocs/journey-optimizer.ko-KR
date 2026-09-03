@@ -8,25 +8,16 @@ level: Beginner
 keywords: 인앱, 메시지, 디자인, 서식
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
 TQID: https://experienceleague.adobe.com/DBRGZUXPBo-2-EX0i3RSGQc4G1-zbsee4u3oF1cU-ng
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 32efa2ef37c2b40ad5c715c6b2ff70c1ac72b391
 workflow-type: tm+mt
-source-wordcount: 1301
-ht-degree: 26%
+source-wordcount: 1355
+ht-degree: 29%
 
 ---
 
@@ -95,7 +86,7 @@ ht-degree: 26%
 ### 닫기 버튼 {#close-button}
 
 >[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_close"
+>id="ajo_campaigns_Inapp_authoring_closeButtton"
 >title="닫기 버튼의 스타일을 선택합니다."
 >abstract="닫기 버튼 섹션에서는 메시지 닫기 버튼의 변형을 선택할 수 있는 옵션과 사용자 정의 이미지를 업로드할 수 있는 옵션이 제공됩니다."
 
@@ -118,7 +109,7 @@ ht-degree: 26%
 ### 미디어 {#add-media}
 
 >[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_media"
+>id="ajo_campaigns_Inapp_authoring_Media"
 >title="인앱 메시지에 미디어를 추가하여 최종 사용자에게 매력적인 경험을 제공합니다."
 >abstract="콘텐츠에 직접 연결되는 링크를 제공하거나 자산 선택기를 사용하여 Asset Essentials에서 메시지에 추가할 미디어를 선택합니다."
 
@@ -138,7 +129,7 @@ ht-degree: 26%
 ### 콘텐츠 {#title-body}
 
 >[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_content"
+>id="ajo_campaigns_Inapp_authoring_Content"
 >title="메시지를 작성하려면 헤더 및 본문 필드에 내용을 입력합니다."
 >abstract="여기에서 헤더 및 본문 텍스트를 모두 추가할 수 있습니다. 개인화 토큰을 포함하려면 개인화 대화 상자를 엽니다."
 
@@ -161,7 +152,7 @@ ht-degree: 26%
 ### 버튼 {#add-buttons}
 
 >[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_buttons"
+>id="ajo_campaigns_inapp_authoring_ctabuttons"
 >title="사용자가 인앱 메시지와 상호 작용할 수 있는 버튼을 추가합니다."
 >abstract="이 섹션에서는 메시지에 클릭 유도 버튼을 추가할 수 있습니다. 각 버튼에 대해 사용자 정의 텍스트 및 대상을 포함할 수 있습니다."
 
@@ -204,6 +195,11 @@ ht-degree: 26%
 >title="인앱 메시지를 미리 볼 수 있습니다."
 >abstract="메시지가 디바이스의 메시지 요약으로 전송될 때 표시되는 미리보기 이미지입니다."
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_Inapp_authoring_settingsPreview"
+>title="인앱 메시지를 미리 볼 수 있습니다."
+>abstract="메시지가 디바이스의 메시지 요약으로 전송될 때 표시되는 미리보기 이미지입니다."
+
 >[!NOTE]
 >
 >미리 보기는 모바일 인앱 메시지에만 사용할 수 있습니다.
@@ -221,9 +217,15 @@ ht-degree: 26%
 ### 레이아웃 {#layout-options}
 
 >[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_layout"
+>id="ajo_campaigns_Inapp_authoring_layout"
 >title="인앱 메시지의 메시지 레이아웃을 정의합니다."
 >abstract="이 섹션에서는 인앱 메시지에 배경을 추가할 수 있습니다. 이를 위해서는 UI 인계가 활성화되어야 합니다."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_Inapp_authoring_settingsLayout"
+>title="인앱 메시지의 메시지 레이아웃을 정의합니다."
+>abstract="이 섹션에서는 인앱 메시지에 배경을 추가할 수 있습니다. 이를 위해서는 UI 인계가 활성화되어야 합니다."
+
 
 ![](assets/in_app_web_design_6.png)
 
@@ -288,4 +290,4 @@ ht-degree: 26%
 
 아래 비디오에서는 인앱 메시지를 작성하고 테스트하는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3422079?captions=kor&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410471?quality=12&learn=on)
