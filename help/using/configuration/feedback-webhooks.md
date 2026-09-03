@@ -9,26 +9,19 @@ role: Admin
 level: Experienced
 exl-id: a46f29a4-5115-4feb-8b2c-751765be2b36
 TQID: https://experienceleague.adobe.com/RPopgwZfOcaw-uHvqVnforixMTAH57urwF2ViaZQemQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-subfeature_v2:
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
 source-git-commit: f3781010d99a2993f88fd4907a94278c610cb4cb
 workflow-type: tm+mt
 source-wordcount: 473
-ht-degree: 24%
+ht-degree: 33%
 
 ---
 
-# API 트리거 캠페인에 대한 피드백 웹후크 만들기 {#webhooks}
+# API 트리거 캠페인에 대한 피드백 Webhook 만들기 {#webhooks}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channels_feedback_webhook_settings_configuration"
@@ -55,7 +48,7 @@ ht-degree: 24%
 >[!NOTE]
 >**조직 + 샌드박스** 조합당 하나의 웹후크 구성만 허용됩니다.
 
-## 피드백 웹후크 만들기 {#feedback-webhook}
+## 피드백 Webhook 만들기 {#feedback-webhook}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channels_feedback_webhook_settings_authentication"
@@ -70,7 +63,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="ajo_channels_feedback_webhook_relay_url"
 >title="릴레이 URL"
->abstract="HTTPS 끝점 Journey Optimizer은 이 웹후크에 대한 이벤트를 전달하기 위해 호출하며, 여기에는 게재 상태 업데이트 및 활성화된 경우 그대로 중계되는 인바운드 SMS/RCS 메시지가 포함됩니다."
+>abstract="Journey Optimizer가 이 Webhook에 대한 이벤트를 게재하기 위해 호출하는 HTTPS 엔드포인트입니다. 여기에는 게재 상태 업데이트 및(활성화된 경우) 그대로 릴레이되는 인바운드 SMS/RCS 메시지가 포함됩니다."
 
 웹후크를 만들려면 다음 단계를 수행합니다.
 
