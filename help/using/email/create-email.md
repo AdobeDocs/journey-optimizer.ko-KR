@@ -50,7 +50,7 @@ ht-degree: 16%
 >id="ajo_message_email"
 >title="이메일 작성"
 >abstract="이메일 제목 줄을 정의하고 이메일 디자이너를 열어 이메일 콘텐츠를 만듭니다."
->additional-url="https://experienceleague.adobe.com/en/courses/ajo-ai-powered-on-brand-content-creation-for-marketers" text="AI 콘텐츠 과정 수강"
+>additional-url="https://experienceleague.adobe.com/ko/courses/ajo-ai-powered-on-brand-content-creation-for-marketers" text="AI 콘텐츠 과정 수강"
 
 
 ## 이메일 작업 추가 {#email-action}

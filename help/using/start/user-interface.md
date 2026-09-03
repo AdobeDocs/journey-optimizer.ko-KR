@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: 6502d54fa05cba117a0ae72242d9c06dde2ce4ab
 workflow-type: tm+mt
 source-wordcount: 1608
-ht-degree: 87%
+ht-degree: 98%
 
 ---
 
@@ -375,20 +375,20 @@ AI 어시스턴트는 즉각적인 도움과 운영 인사이트를 제공합니
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_webhook_relay_auth_body"
->title="본문 인증"
->abstract="토큰을 요청할 때 요청 본문 Journey Optimizer이 인증 엔드포인트로 전송합니다. 인증 콘텐츠 유형이 `application/x-www-form-urlencoded`(으)로 설정되어 있더라도 항상 유효한 JSON을 입력하십시오. Journey Optimizer은 토큰 종단점을 호출하기 전에 서버측에서 올바른 형식으로 정리합니다. 예: `{"grant_type":"client_credentials","client_id":"...","client_secret":"...","scope":"..."}`"
+>title="인증 본문"
+>abstract="Journey Optimizer가 토큰을 요청할 때 인증 엔드포인트로 전송하는 요청 본문입니다. 인증 콘텐츠 유형이 `application/x-www-form-urlencoded`로 설정되어 있는 경우에도 항상 유효한 JSON을 입력하십시오. Journey Optimizer는 토큰 엔드포인트 호출 전에 서버측에서 올바른 형식으로 이를 직렬화합니다. 예: `{"grant_type":"client_credentials","client_id":"...","client_secret":"...","scope":"..."}`"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_webhook_relay_header_parameters"
 >title="헤더 매개변수"
->abstract="대상 끝점에 대한 모든 릴레이 요청에 포함된 정적 HTTP 헤더(예: API 키(예: x-api 키). 위에서 구성한 인증 토큰과 함께 전송됩니다. 행당 하나의 헤더를 이름/값 쌍으로 추가합니다."
+>abstract="API 키(예: x-api-key)와 같이 대상 엔드포인트에 대한 모든 릴레이 요청에 포함된 정적 HTTP 헤더입니다. 이는 위에서 구성한 인증 토큰과 함께 전송됩니다. 행당 하나의 헤더를 이름/값 쌍으로 추가합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_webhook_relay_auth_type"
 >title="인증 유형"
->abstract="Journey Optimizer에서 릴레이 대상을 인증하는 방법입니다. 자격 증명 없이 메시지를 릴레이하려면 **인증 없음**&#x200B;을 선택하고, 인증 끝점에서 토큰(예: OAuth 클라이언트 자격 증명 흐름)을 먼저 요청하고, 모든 릴레이 요청에 연결하려면 **사용자 지정 인증**&#x200B;을 선택하십시오."
+>abstract="Journey Optimizer에서 릴레이 대상에 대해 인증하는 방법입니다. 자격 증명 없이 메시지를 릴레이하려면 **인증 없음**&#x200B;을 선택하고, 인증 엔드포인트에서 토큰을 먼저 요청하고(예: OAuth 클라이언트 자격 증명 흐름), 모든 릴레이 요청과 연결하도록 하려면 **사용자 정의 인증**&#x200B;을 선택하십시오."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_webhook_relay_url"
 >title="릴레이 대상 URL"
->abstract="HTTPS 끝점 Journey Optimizer은 들어오는 각 메시지를 중계하기 위해 를 호출합니다. Journey Optimizer은 수신한 메시지마다 별도의 HTTP POST를 여기에 보냅니다. 이는 사용자 지정 인증 아래의 인증 URL과 구별되며, 액세스 토큰을 얻는 데만 사용되고 메시지를 받는 데는 사용되지 않습니다."
+>abstract="Journey Optimizer가 각 수신 메시지를 릴레이하기 위해 호출하는 HTTPS 엔드포인트입니다. Journey Optimizer는 수신 메시지마다 여기에 별도 HTTP POST를 전송합니다. 이는 사용자 정의 인증 아래에 있는 인증 URL과는 다르며, 액세스 토큰 확보에만 사용되고 메시지 수신에는 사용되지 않습니다."

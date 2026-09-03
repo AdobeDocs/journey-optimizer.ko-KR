@@ -24,11 +24,11 @@ subfeature_v2:
 source-git-commit: f3781010d99a2993f88fd4907a94278c610cb4cb
 workflow-type: tm+mt
 source-wordcount: 473
-ht-degree: 24%
+ht-degree: 33%
 
 ---
 
-# API 트리거 캠페인에 대한 피드백 웹후크 만들기 {#webhooks}
+# API 트리거 캠페인에 대한 피드백 Webhook 만들기 {#webhooks}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channels_feedback_webhook_settings_configuration"
@@ -55,7 +55,7 @@ ht-degree: 24%
 >[!NOTE]
 >**조직 + 샌드박스** 조합당 하나의 웹후크 구성만 허용됩니다.
 
-## 피드백 웹후크 만들기 {#feedback-webhook}
+## 피드백 Webhook 만들기 {#feedback-webhook}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channels_feedback_webhook_settings_authentication"
@@ -70,7 +70,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="ajo_channels_feedback_webhook_relay_url"
 >title="릴레이 URL"
->abstract="HTTPS 끝점 Journey Optimizer은 이 웹후크에 대한 이벤트를 전달하기 위해 호출하며, 여기에는 게재 상태 업데이트 및 활성화된 경우 그대로 중계되는 인바운드 SMS/RCS 메시지가 포함됩니다."
+>abstract="Journey Optimizer가 이 Webhook에 대한 이벤트를 게재하기 위해 호출하는 HTTPS 엔드포인트입니다. 여기에는 게재 상태 업데이트 및(활성화된 경우) 그대로 릴레이되는 인바운드 SMS/RCS 메시지가 포함됩니다."
 
 웹후크를 만들려면 다음 단계를 수행합니다.
 
