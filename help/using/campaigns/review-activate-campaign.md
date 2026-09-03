@@ -10,23 +10,15 @@ level: Intermediate
 keywords: 캠페인, 검토, 유효성 검사, 활성화, 활성화, 최적화
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
 TQID: https://experienceleague.adobe.com/BKGXccq-kwZJA-cZ4SAyf3zJBIvyJnr5V01xmbQgwmo
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-subfeature_v2:
-  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
-  - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: a653cc2e-bc85-4353-a306-399e5b247978
+subfeature_v2: id: f7479fa1-474b-479d-8c98-f6cee5865a38id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: d61698e186903f0203ac5c9120391ee10d94059f
 workflow-type: tm+mt
-source-wordcount: 340
+source-wordcount: 341
 ht-degree: 3%
 
 ---
@@ -67,6 +59,6 @@ ht-degree: 3%
 
 1. 캠페인이 활성화되면 언제든지 해당 정보를 열어 확인할 수 있습니다. 이 요약을 사용하면 타겟팅된 프로필 수와 게재됨 및 실패한 작업 수에 대한 통계를 가져올 수 있습니다.
 
-   **[!UICONTROL 보고서]** 단추를 클릭하여 전용 보고서에서 추가 통계를 얻을 수도 있습니다. [자세히 알아보기](../reports/campaign-global-report-cja.md)
+   **[!UICONTROL 보고서 보기]** 단추를 클릭하여 전용 보고서에서 추가 통계를 얻을 수도 있습니다. [자세히 알아보기](../reports/campaign-global-report-cja.md)
 
    ![](assets/create-campaign-summary.png)
