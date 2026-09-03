@@ -6,19 +6,14 @@ description: 여러 단계로 구성된 캠페인에 채널 활동을 추가하�
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ouwufvPEUXGewSP5TvsfI0qPxpVqaqso3me4qEc2WQM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 8b21d46087a59e466378add0444b2b1474fa7831
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c08402e768c15f133b47178a876e4d3d1f9f5c05
 workflow-type: tm+mt
-source-wordcount: 2370
-ht-degree: 36%
+source-wordcount: 2470
+ht-degree: 35%
 
 ---
 
@@ -144,7 +139,7 @@ UNUSED IDs in BJ
 
 | | 마케팅 | 트랜잭션 |
 | --- | --- | --- |
-| **옵트인 필요** | 예 | 아니요 |
+| **옵트인 필요** | 예 | 아니오 |
 | **비즈니스 규칙** | 적용됨(빈도 제한, 피로도 규칙) | 무시됨 |
 | **채널 구성 유형** | 마케팅 채널 구성 | 트랜잭션 채널 구성 |
 | **일반적인 사용 사례** | 프로모션, 뉴스레터, 시즌 캠페인 | 주문 확인, 암호 재설정, 중단 경고 |
@@ -184,9 +179,13 @@ UNUSED IDs in BJ
 
 +++**이메일 헤더 개인화**(이메일).
 
->[!AVAILABILITY]
+>[!IMPORTANT]
 >
 >이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
+> 
+>Journey Optimizer을 사용하면 Campaign Orchestration의 관계형 스토어의 데이터를 포함하여 발신자 정보를 개인화할 수 있으므로 계정 관리자의 이름으로 이메일 전송과 같은 사용 사례를 사용할 수 있습니다. 이 데이터는 조직 또는 법적 규정에 의해 정의된 사용 제한이 적용될 수 있으므로 Journey Optimizer 내의 데이터 작업이 법적 및 규정 준수 의무를 준수하는지 확인하십시오.
+>
+>Adobe Journey Optimizer은 프로필 수준에서 Adobe Experience Platform(AEP)를 통해 동의를 처리합니다. Journey Optimizer Campaign Orchestration 관계형 비프로필 데이터를 사용하여 개인화할 때 조직은 세분화 및 개인화를 사용하여 동의 정책을 만들고 적용해야 합니다.
 
 채널 구성을 선택한 후 해당 구성에 정의된 값을 바꾸려면 **[!UICONTROL 전자 메일 게재 설정 무시]**&#x200B;를 사용하도록 설정하십시오. 이 채널 활동에 대해 다음 설정을 사용자 지정할 수 있습니다.
 
@@ -209,7 +208,7 @@ UNUSED IDs in BJ
 
 +++**빠른 전송 모드를 사용**(푸시)합니다.
 
-빠른 전송 모드는 캠페인을 통해 대량으로 매우 빠른 푸시 메시지를 전송할 수 있는 [!DNL Journey Optimizer] 추가 기능입니다. 신속한 전달은 메시지 전달 지연이 비즈니스에 중요한 경우 사용됩니다. 예를 들어 뉴스 채널 앱을 설치한 사용자에게 속보 등 휴대폰에 긴급 푸시 알림을 전송하려는 경우가 있습니다. 푸시 알림에 대해 빠른 전송 모드를 사용하는 방법을 알아봅니다. [&#x200B; 이 페이지](../../push/create-push.md#rapid-delivery).
+빠른 전송 모드는 캠페인을 통해 대량으로 매우 빠른 푸시 메시지를 전송할 수 있는 [!DNL Journey Optimizer] 추가 기능입니다. 신속한 전달은 메시지 전달 지연이 비즈니스에 중요한 경우 사용됩니다. 예를 들어 뉴스 채널 앱을 설치한 사용자에게 속보 등 휴대폰에 긴급 푸시 알림을 전송하려는 경우가 있습니다. 푸시 알림에 대해 빠른 전송 모드를 사용하는 방법을 알아봅니다. [ 이 페이지](../../push/create-push.md#rapid-delivery).
 
 빠른 전송 모드를 사용할 때의 성능에 대한 자세한 내용은 [Adobe Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}을 참조하세요.
 
