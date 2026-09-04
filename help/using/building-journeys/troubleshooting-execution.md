@@ -11,12 +11,21 @@ keywords: 문제 해결, 문제 해결, 여정, 확인, 오류
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/2YZ6Cjph9Le-HtwKdz4GBgEdhwIMPpVtj9yWKlV3hQ4
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2: id: d08afb72-92f6-4856-88e3-11ec34313c2fid: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2:
+  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
 workflow-type: tm+mt
 source-wordcount: 2321
@@ -74,7 +83,7 @@ ID 네임스페이스는 테스트 프로필을 고유하게 식별하는 데 �
 
 * **이벤트가 삭제됨 - 자격 조건이 충족되지 않음** - 규칙 기반 이벤트의 경우 **자격 조건**&#x200B;이 이벤트 페이로드에 의해 충족되지 않으면(예: 필수 필드가 비어 있거나 누락되었거나 필드의 `isNotEmpty`과 같은 조건이 실패하면) 이벤트는 **수신되지만 삭제됨**&#x200B;이고 여정이 트리거되지 않습니다. 로그 및 Splunk 추적은 `notSuitableInitialEvent`과(와) 같은 폐기 코드를 사용하여 이벤트가 수신되었지만 자격 조건을 충족하지 않아 삭제되었음을 보여 줄 수 있습니다. 이는 예상되는 비헤이비어입니다. 자격 조건이 충족되지 않으면 이벤트가 삭제되고 해당 프로필에 대해 여정이 트리거되지 않습니다. 이벤트 페이로드에 예상 필드와 값이 포함되어 있는지, 이벤트 구성의 규칙이 사용자가 보내는 데이터와 일치하는지 확인합니다. 다른 여정의 **사용자 지정 작업**&#x200B;에 의해 이벤트가 트리거된 경우 사용자 지정 작업 문제 해결에서 [삭제 이벤트 및 유휴 시간 초과 처리](../action/troubleshoot-custom-action.md#handling-discard-events-and-idle-timeouts)를 참조하십시오.
 
->>
+&#x200B;>>
 **스트리밍 대상이 있는 대상 자격 여정의 경우**: 대상 자격 활동을 여정 진입점으로 사용하는 경우 시간 요소, 대상의 빠른 종료 또는 게시하기 전에 대상에 프로필이 이미 있었던 경우 대상에 해당하는 모든 프로필이 여정에 들어가는 것은 아닙니다. [스트리밍 대상 자격 시간 고려 사항](audience-qualification-events.md#streaming-entry-caveats)에 대해 자세히 알아보세요.
 
 ### 이벤트 ID 확인 {#verify-event-identity-and-rule-data-types}
