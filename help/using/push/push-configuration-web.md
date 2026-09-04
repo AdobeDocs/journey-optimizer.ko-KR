@@ -8,26 +8,16 @@ role: Admin
 level: Intermediate
 exl-id: d8de1524-9d71-4978-86f5-1cd46f2e265c
 TQID: https://experienceleague.adobe.com/OKMsihU81BssIhueGFaWZUzUFIh-FDuo6sCnB9iwnxE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 03da8f0ff107f23467820de4ce5735971e7b8056
 workflow-type: tm+mt
 source-wordcount: 1164
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
@@ -50,11 +40,11 @@ ht-degree: 8%
 
 ### 권한 설정 {#setup-permissions}
 
-모바일 애플리케이션을 만들기 전에 먼저 Adobe Experience Platform의 태그에 대한 올바른 사용자 권한이 있는지 확인하거나 사용자에게 할당해야 합니다. 자세한 내용은 [태그 설명서](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=ko){target="_blank"}를 참조하세요.
+모바일 애플리케이션을 만들기 전에 먼저 Adobe Experience Platform의 태그에 대한 올바른 사용자 권한이 있는지 확인하거나 사용자에게 할당해야 합니다. 자세한 내용은 [태그 설명서](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}를 참조하세요.
 
 >[!CAUTION]
 >
->푸시 구성은 전문가 사용자가 수행해야 합니다. 구현 모델 및 이 구현에 관련된 담당자에 따라 단일 제품 프로필에 전체 권한 집합을 할당하거나 앱 개발자와 **Adobe Journey Optimizer** 관리자 간에 권한을 공유해야 할 수 있습니다. [이 설명서](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=ko){target="_blank"}에서 **태그** 권한에 대해 자세히 알아보세요.
+>푸시 구성은 전문가 사용자가 수행해야 합니다. 구현 모델 및 이 구현에 관련된 담당자에 따라 단일 제품 프로필에 전체 권한 집합을 할당하거나 앱 개발자와 **Adobe Journey Optimizer** 관리자 간에 권한을 공유해야 할 수 있습니다. [이 설명서](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}에서 **태그** 권한에 대해 자세히 알아보세요.
 
 <!--
 ou need to your have access to perform following roles :
@@ -72,7 +62,7 @@ ou need to your have access to perform following roles :
 
    ![](assets/push_product_1.png)
 
-1. 기존 **[!UICONTROL 제품 프로필]**&#x200B;을 선택하거나 **[!UICONTROL 새 프로필]** 버튼을 사용하여 새 프로필을 만드십시오. [Admin Console 설명서](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html?lang=ko#ui){target="_blank"}에서 새 **[!UICONTROL 새 프로필]**&#x200B;을 만드는 방법을 알아보세요.
+1. 기존 **[!UICONTROL 제품 프로필]**&#x200B;을 선택하거나 **[!UICONTROL 새 프로필]** 버튼을 사용하여 새 프로필을 만드십시오. [Admin Console 설명서](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui){target="_blank"}에서 새 **[!UICONTROL 새 프로필]**&#x200B;을 만드는 방법을 알아보세요.
 
 1. **[!UICONTROL 권한]** 탭에서 **[!UICONTROL 속성 권한]**&#x200B;을 선택합니다.
 
@@ -205,3 +195,5 @@ Adobe이 사용자를 대신하여 푸시 알림을 전송하도록 승인하려
 Adobe Experience Platform 및 [!DNL Adobe Experience Platform Data Collection]에서 웹 푸시 구성을 완료한 후 웹 푸시 알림을 프로필로 전송하기 전에 구현을 테스트할 수 있습니다. 테스트를 통해 구독이 제대로 등록되고 알림이 사용자의 브라우저에 올바르게 전달되는지 확인할 수 있습니다.
 
 웹 푸시 설정의 유효성을 확인하기 위해 이벤트를 사용하여 테스트 여정을 만드는 방법에 대한 자세한 지침은 모바일 및 웹 푸시 채널 모두에 적용할 수 있는 포괄적인 테스트 워크플로를 제공하는 [모바일 앱 푸시 알림 구성 설명서](push-configuration.md)를 참조하십시오.
+
+{{$include /help/_includes/do-not-localize/push/ai-augmented-push-configuration-web.md}}

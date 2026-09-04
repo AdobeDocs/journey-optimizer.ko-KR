@@ -9,22 +9,13 @@ role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
 TQID: https://experienceleague.adobe.com/Nrs2AwD4RfgeXcAP3mhZBwt6WQUd4vUBC9CeCtIIgCU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d3cdead0-685a-4489-9250-4bb709942f66id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 03da8f0ff107f23467820de4ce5735971e7b8056
 workflow-type: tm+mt
 source-wordcount: 853
 ht-degree: 4%
@@ -83,7 +74,7 @@ ht-degree: 4%
 
 * Android 및 iOS 호환 SDK를 통해 모바일에 대한 클라이언트측 통합 API를 제공하는 **Adobe Experience Platform Mobile SDK**. SDK은 푸시 메시지에 대한 다양한 API를 노출하고 푸시 토큰을 등록하거나 푸시 추적 이벤트 또는 기타 사용자 지정 경험 이벤트를 Adobe Experience Platform에 전송하는 것과 같은 데이터 흐름을 사용하는 [!DNL Adobe Journey Optimizer] 확장을 제공합니다. SDK은 다른 [!DNL Adobe CX Enterprise]과(와) 타사 파트너 기능을 사용할 수 있는 다양한 기타 확장 기능도 제공합니다.
 
-  SDK 통합에도 다음과 같은 Adobe Experience Platform [데이터 수집](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko){target="_blank"} 서비스 설정이 필요합니다.
+  SDK 통합에도 다음과 같은 Adobe Experience Platform [데이터 수집](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html){target="_blank"} 서비스 설정이 필요합니다.
 
   * 데이터 스트림을 만들어 Adobe Experience Platform으로 유입되는 데이터가 포함된 프로필 및 경험 이벤트 데이터 세트를 구성합니다.
   * 클라이언트측 모바일 속성을 만들고 확장을 추가합니다. SDK은 이러한 확장과 긴밀하게 통합되어 원활한 데이터 수집 경험을 제공합니다.
@@ -106,3 +97,5 @@ ht-degree: 4%
 * [푸시 알림 만들기](create-push.md)
 * [여정에 메시지 추가](../building-journeys/journey-action.md)
 * [캠페인에 메시지 추가](../campaigns/create-campaign.md)
+
+{{$include /help/_includes/do-not-localize/push/ai-augmented-push-gs.md}}
