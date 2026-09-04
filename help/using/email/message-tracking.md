@@ -32,10 +32,10 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b35f73d33313a267987ceb18dcfc16ccadff52dc
+source-git-commit: ceec765190f63840a3ee828761284239b59c76fb
 workflow-type: tm+mt
-source-wordcount: 1585
-ht-degree: 24%
+source-wordcount: 1631
+ht-degree: 23%
 
 ---
 
@@ -129,9 +129,11 @@ ht-degree: 24%
 
 1. 해당 필드에 원하는 URL을 입력하거나 랜딩 페이지를 선택하고 링크 설정 및 스타일을 정의합니다. [자세히 알아보기](#adjust-links)
 
-   >[!NOTE]
+   URL을 해석하기 위해 [!DNL Journey Optimizer]은(는) URL에 일부 특수 국제 문자를 사용하지 않도록 설정하는 URI 구문([RFC 3986 standard](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"})을 준수합니다. 증명 또는 이메일을 전송하려고 할 때 콘텐츠에 추가된 URL과 관련된 오류가 반환되면 URL이 문자열을 해결 방법으로 인코딩합니다. 예를 들어 URL 경로에 아포스트로피(`'`)가 포함되어 있으면 대신 `%27`을(를) 사용합니다(예: `https://example.com/nature's-miracle` 대신 `https://example.com/nature%27s-miracle`).
+
+   >[!CAUTION]
    >
-   >URL을 해석하기 위해 [!DNL Journey Optimizer]은(는) URL에 일부 특수 국제 문자를 사용하지 않도록 설정하는 URI 구문([RFC 3986 standard](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"})을 준수합니다. 증명 또는 이메일을 전송하려고 할 때 콘텐츠에 추가된 URL과 관련된 오류가 반환되면 URL로 문자열을 인코딩할 수 있습니다.
+   >추적된 링크 또는 추가된 URL 추적 매개 변수를 사용하는 경우 지원되지 않는 문자를 인코딩하지 않으면 리디렉션 후 잘못된 다운스트림 URL이 처리될 수 있습니다. 지원되지 않는 모든 문자를 인코딩하여 전체 대상 URL을 유지하십시오.
 
 1. 링크를 개인화할 수 있습니다. [자세히 알아보기](url-personalization.md)
 

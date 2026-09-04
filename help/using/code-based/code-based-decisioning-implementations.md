@@ -20,10 +20,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
+source-git-commit: 1d4ebaf6450e7a737a849d7416cc96c7b529a62c
 workflow-type: tm+mt
-source-wordcount: 573
-ht-degree: 8%
+source-wordcount: 609
+ht-degree: 7%
 
 ---
 
@@ -61,11 +61,9 @@ ht-degree: 8%
 }
 ```
 
-<!--
 >[!CAUTION]
 >
->Adding the `dryRun` flag to your request will prevent feedback to be captured for reporting and frequency counters from being added to.
--->
+>`dryRun` 플래그는 테스트 목적으로만 사용됩니다. 프로덕션에서 활성 상태로 두면 모든 피드백 데이터가 자동으로 억제되고 주파수 제한 카운터가 증가하지 않으므로 시작하기 전에 반드시 제거해야 합니다.
 
 ## 코드 기반 구현에서 의사 결정 항목 중복 제거 {#code-based-decisioning-deduplication}
 
