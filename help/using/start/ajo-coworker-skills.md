@@ -8,9 +8,9 @@ topic: Artificial Intelligence
 role: User
 level: Beginner
 mini-toc-levels: 2
-source-git-commit: 565af0d1f7350ea5eec93a8e4c826539bc0326b5
+source-git-commit: 46c661740f8a42bcc72c9064e5512b02b1921d71
 workflow-type: tm+mt
-source-wordcount: '3995'
+source-wordcount: '3996'
 ht-degree: 6%
 
 ---
@@ -48,7 +48,7 @@ CX Coworker에는 Journey Optimizer 콘텐츠 템플릿, 조각, 랜딩 페이�
 <!--
 feedback from Ivan: Need to remove Simulate skill from docs until Nico confirms the release timeline.
 
-In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
+In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
 
 * Generating simulated users
 * Generating event values
@@ -454,7 +454,7 @@ Loyalty Challenge Management를 사용하면 Journey Optimizer 사용자가 자�
    * &quot;2026년 8월 동안 제품 카테고리별로 분류된 총 충성도 할인 정보를 표시합니다.&quot;
    * &quot;2026년 3사분기에 대한 충성도 프로그램 성과 보고서를 보여 주십시오.&quot;
 
-### 콘텐츠 관리 {#content-management}
+## 콘텐츠 관리 도구 {#content-management}
 
 >[!AVAILABILITY]
 >
@@ -627,6 +627,6 @@ In addition to this, the following capabilities are supported by the Journey Sim
 
 Simulation may not support every activity, channel, or integration that Test mode or a live journey supports, and behavior may change as the capability matures.
 
-➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
+➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
 
 -->
