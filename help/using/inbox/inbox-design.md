@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 0ab71b21-0085-4a93-b319-3c960bd8f7dd
-source-git-commit: 8ef401e6c92d94631f02762e4dc9ffab60657cb4
+source-git-commit: 1ee6fd3ed3523635ea7dbe46dbae0e2403246818
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 0%
@@ -71,3 +71,4 @@ ht-degree: 0%
 
 준비가 되면 설정을 검토하고 받은 편지함을 활성화합니다. 활성화한 후에는 [콘텐츠 카드](../content-card/create-content-card.md)와 함께 사용할 수 있습니다.
 
+{{$include /help/_includes/do-not-localize/inbox/ai-augmented-inbox-design.md}}

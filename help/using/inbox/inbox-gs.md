@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 60190d0b-d8e7-4a78-9924-d948f2769f6c
-source-git-commit: c2bb6cf702a14b4eef8f2209082e39cd73338378
+source-git-commit: 1ee6fd3ed3523635ea7dbe46dbae0e2403246818
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 100%
@@ -59,3 +59,5 @@ ht-degree: 100%
 * [받은 편지함 사용자 정의](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/customizing-inbox): Android 앱의 받은 편지함 레이아웃, 스타일 및 상호 작용 동작을 조정합니다(Adobe 개발자 설명서).
 
 * [받은 편지함 이벤트 수신](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/listening-inbox-events): Android에서 사용자 액션 및 수명 주기 업데이트에 대한 받은 편지함 콜백을 구독합니다(Adobe 개발자 설명서).
+
+{{$include /help/_includes/do-not-localize/inbox/ai-augmented-inbox-gs.md}}

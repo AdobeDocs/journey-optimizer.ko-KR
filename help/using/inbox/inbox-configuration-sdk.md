@@ -5,14 +5,14 @@ feature: Content Cards
 topic: Content Management
 role: Developer
 level: Experienced
-source-git-commit: 4eb7013c2c3178caf7863ff36cb4c194c829e37c
+source-git-commit: 1ee6fd3ed3523635ea7dbe46dbae0e2403246818
 workflow-type: tm+mt
 source-wordcount: '524'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# 웹 SDK에서 받은 편지함 지원 구성 {#inbox-configuration-sdk}
+# Web SDK에서 받은 편지함 지원 구성 {#inbox-configuration-sdk}
 
 >[!BEGINSHADEBOX]
 
@@ -147,3 +147,4 @@ ht-degree: 0%
 
 1. 테스트하기 전에 AJO 환경을 가리키도록 `src/app/page.js`에서 `datastreamId`, `orgId` 및 `SURFACE` 상수를 업데이트하십시오.
 
+{{$include /help/_includes/do-not-localize/inbox/ai-augmented-inbox-configuration-sdk.md}}

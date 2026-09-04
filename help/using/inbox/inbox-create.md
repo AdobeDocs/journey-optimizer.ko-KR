@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 7d650278-4a62-4666-b8d7-f0b79ec527ea
-source-git-commit: c2bb6cf702a14b4eef8f2209082e39cd73338378
+source-git-commit: 1ee6fd3ed3523635ea7dbe46dbae0e2403246818
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 4%
@@ -54,3 +54,5 @@ ht-degree: 4%
 1. 캠페인을 검토하고 활성화하여 받은 편지함으로 메시지를 보낼 수 있습니다.
 
 이제 [콘텐츠 카드 캠페인](../content-card/create-content-card.md)을 만들 때 이 받은 편지함을 선택할 수 있습니다.
+
+{{$include /help/_includes/do-not-localize/inbox/ai-augmented-inbox-create.md}}
