@@ -11,22 +11,16 @@ keywords: 여정, 태그
 exl-id: 44c255d1-121c-47d4-b407-161626ca3cb4
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/O8Igbj-JJGr0aej8xbSvZ51xkcJq8LeJ9JiveyBjBqQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
 workflow-type: tm+mt
-source-wordcount: 1152
-ht-degree: 7%
+source-wordcount: 670
+ht-degree: 13%
 
 ---
 
@@ -111,45 +105,6 @@ Journey Optimizer의 **태그 범주**&#x200B;은(는) 더 나은 대안을 제�
 
 >[!TIP]
 >
->이 접근 방식과 그 이점에 대한 대규모의 설명이 필요하면 [Journey Optimizer의 고급 여정 모범 사례](https://experienceleague.adobe.com/ko/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}를 참조하십시오.
+>이 접근 방식과 그 이점에 대한 대규모의 설명이 필요하면 [Journey Optimizer의 고급 여정 모범 사례](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}를 참조하십시오.
 
-+++ AI 기술 자료 참조
-
-이 단원에는 이 주제와 관련된 해석, 검색 및 질문 답변을 지원하기 위한 구조화된 지식이 포함되어 있습니다.
-
-이해를 돕기 위해 이 정보를 이 페이지의 설명서와 통합해야 합니다. 두 소스 모두 독립적으로 사용하기 위한 것은 아닙니다. 이 페이지에서는 기능에 대해 설명하지만, 용어, 의도, 적용 가능성 및 제약 조건을 명확히 하는 데 도움이 되는 추가 컨텍스트를 제공합니다.
-
-* **TL;DR:** 이 페이지에서는 Adobe Journey Optimizer의 여정에서 태그를 추가, 필터링 및 관리하는 방법과 태그 범주가 대용량 여정 목록을 구성하기 위한 복잡한 이름 지정 규칙에 더 적합한 이유를 설명합니다.
-
-**의도:**
-* 여정 속성 태그 필드에서 여정에 태그 추가
-* 하나 이상의 태그로 여정 목록을 필터링하여 특정 여정을 신속하게 찾습니다
-* 모든 상태의 기존 여정에서 태그를 편집합니다(라이브, 초안 등). 추가 작업을 통해
-* 일관된 메타데이터를 적용할 관리자 자격으로 태그 카테고리를 만들고 구성합니다.
-* 복잡한 여정 이름 지정 규칙을 구조화된 태그 기반 접근 방식으로 바꾸기
-
-**용어집:**
-* **태그**: 여정을 분류하고 필터링하기 위해 태그에 첨부된 레이블입니다. 여정이 복제되거나 버전이 *(제품별)인 경우 대소문자를 구분하지 않고 보존됩니다.*
-* **태그 범주**: 관리 > 태그에서 관리자가 만든 관련 태그 값의 그룹화로, 구조화된 메타데이터 분류를 사용하도록 설정합니다. *(제품별)*
-* **분류되지 않은 범주**: 여정에서 직접 만든 태그가 자동으로 할당되는 기본 범주 *(제품별)*
-
-**보호 기능:**
-* 태그는 대/소문자를 구분하지 않습니다.
-* 여정에 정의된 태그는 관리자가 명명된 범주에 할당하지 않는 한 기본 제공 &quot;분류되지 않은&quot; 범주에 자동으로 추가됩니다
-* 관리자만 관리 > 태그 메뉴를 통해 태그를 삭제하고 태그 범주를 관리할 수 있습니다
-* 태그는 여정이 복제되거나 새 버전이 생성될 때 유지됩니다
-
-**용어:**
-* 정식 이름: 태그 — 약어: 없음 — 변형: 여정 태그, 관리 태그
-* 정식 이름: 태그 범주 — 약어: 없음 — 변형: 태그 그룹
-* 다음과 같은 항목을 혼동하지 마십시오. &quot;태그&quot;(여정 분류 레이블) ≠ &quot;명명 규칙&quot;(여정 이름으로 직접 인코딩된 메타데이터)
-
-**FAQ:**
-* **Q: 태그를 여정에 추가하려면 어떻게 합니까?** — 여정 등록 정보에서 태그 필드에 태그 이름을 입력하고 목록에서 선택하거나, 만들기를 클릭하여 새 태그를 추가합니다.
-* **Q: Live 여정에 태그를 추가할 수 있습니까?** — 예. 목록에서 여정 옆에 있는 추가 작업 아이콘을 클릭하고 태그 편집 을 선택하여 상태에 관계없이 여정에 태그를 추가하거나 제거합니다.
-* **Q: 태그는 대/소문자를 구분합니까?** — 아니요. 태그는 대/소문자를 구분하지 않습니다.
-* **Q: 여정을 복제하거나 새 버전을 만들 때 태그가 어떻게 됩니까?** — 태그가 중복 또는 새 버전에서 유지됩니다.
-* **Q: 태그를 삭제하거나 태그 범주를 만들 수 있는 사용자는 누구입니까?** — 관리자만 관리 > 태그 메뉴를 통해 태그를 삭제하고 태그 범주를 관리할 수 있습니다.
-* **Q: 명명 규칙 대신 태그 범주를 사용하는 이유는 무엇입니까?** — 태그 범주는 제어된 목록을 통해 일관성을 적용하고, 즉각적인 다차원 필터링을 허용하며, 이름 지정 규칙을 다시 작성하지 않고 새로운 범주를 추가하여 여정 이름을 짧게 하고 이정표에 초점을 맞추고 쉽게 확장할 수 있습니다.
-
-+++
+{{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-tags.md}}

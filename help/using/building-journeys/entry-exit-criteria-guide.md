@@ -10,31 +10,16 @@ keywords: 시작, 종료, 기준, 여정, 프로필, 재입력, 우수 사례
 version: Journey Orchestration
 exl-id: e879a0f6-b969-4de0-a733-f2880d58d59b
 TQID: https://experienceleague.adobe.com/6OJQsorJ9p7gtO1ep-rIss60J2TmKzqiNS3Btfhh8Gs
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
 workflow-type: tm+mt
-source-wordcount: 2251
-ht-degree: 3%
+source-wordcount: 1700
+ht-degree: 4%
 
 ---
 
@@ -236,56 +221,10 @@ Customer Experience Orchestration에서 적절한 시간에 적절한 메시지�
 
 **튜토리얼 및 예제**
 
-[여정 사용 사례](jo-use-cases.md) | [고객 온보딩 비디오](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [포기한 장바구니 비디오](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [커뮤니티 블로그: 시작 및 종료 기준](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958?profile.language=ko)
+[여정 사용 사례](jo-use-cases.md) | [고객 온보딩 비디오](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [포기한 장바구니 비디오](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [커뮤니티 블로그: 시작 및 종료 기준](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
 
 **관련 기능**
 
 [대상 자격 이벤트](audience-qualification-events.md) | [성공 지표 및 목표](success-metrics.md) | [충돌 관리](../conflict-prioritization/conflicts.md) | [빈도 제한](../conflict-prioritization/rule-sets.md) | [여정 테스트](testing-the-journey.md) | [활동 최적화](optimize.md) | [반응 이벤트](reaction-events.md) | [대기 활동](wait-activity.md)
 
-+++ AI 기술 자료 참조
-
-이 단원에는 이 주제와 관련된 해석, 검색 및 질문 답변을 지원하기 위한 구조화된 지식이 포함되어 있습니다.
-
-이해를 돕기 위해 이 정보를 이 페이지의 설명서와 통합해야 합니다. 두 소스 모두 독립적으로 사용하기 위한 것은 아닙니다. 이 페이지에서는 기능에 대해 설명하지만, 용어, 의도, 적용 가능성 및 제약 조건을 명확히 하는 데 도움이 되는 추가 컨텍스트를 제공합니다.
-
-* **TL;DR:** 이 안내서에서는 올바른 프로필이 적시에 도달하는지 확인하기 위해 실제 사례와 모범 사례를 통해 Adobe Journey Optimizer에서 여정 시작 및 종료 기준을 정의, 구성 및 최적화하는 방법을 설명합니다.
-
-**의도:**
-
-* 여정에 대한 이벤트 기반, 대상 기반 또는 속성 기반 항목 기준 구성
-* 여정 완료, 성공 지표, 비활성 시간 초과 또는 대상 자격을 기준으로 종료 기준을 설정합니다
-* 재입력 규칙을 적용하여 프로필이 여정을 여러 번 입력할 수 있는지 여부 제어
-* 충돌 관리 및 우선 순위 점수를 사용하여 겹치는 여정 방지
-* 여정 보고서를 사용하여 시작 및 종료 비율 모니터링 및 최적화
-
-**용어집:**
-
-* **시작 기준**: 고객 프로필에서 여정 *(제품별)을(를) 입력할 수 있는 시기를 결정하는 조건*
-* **종료 기준**: 프로필이 여정에서 떠나거나 제거되는 시기와 방법을 정의하는 조건 *(제품별)*
-* **대상 자격**: 프로필이 실시간으로 스트리밍 대상에 들어오거나 나갈 때 트리거되는 여정 시작 메커니즘 *(제품별)*
-* **다시 시작**: 프로필이 동일한 여정을 두 번 이상 입력할 수 있는 기능을 말하며 대기 기간 *(제품별)을 통해 구성할 수 있습니다.*
-* **빈도 제한**: 프로필이 지정된 기간 내에 받을 수 있는 메시지 수를 제한하는 규칙 *(제품별)*
-
-**보호 기능:**
-
-* 프로필은 동일한 여정에 동시에 여러 번 있을 수 없습니다.
-* 재입력을 명시적으로 활성화해야 합니다. 기본 재입력 대기 기간은 5분, 최대 91일입니다.
-* 고급 다중 여정 빈도 관리의 경우 개별 종료 기준이 아닌 여정 제한 및 중재 기능을 사용하십시오.
-* 여정 중복은 사전에 관리해야 합니다. 충돌 관리 및 우선 순위 점수를 사용하여 경쟁 여정을 해결하십시오.
-
-**용어:**
-
-* 정식 이름: 시작 기준 — 약어: 해당 사항 없음 — 변형: 시작 조건, 여정 트리거
-* 정식 이름: 종료 기준 — 약어: 해당 사항 없음 — 변형: 종료 조건, 프로필 제거 규칙
-* 동의어: &quot;audience dispromisation&quot; = &quot;audience exit&quot; 종료 트리거입니다.
-* 혼동하지 마십시오. &quot;새 시작에 닫기&quot; ≠ &quot;종료 기준&quot; — 전자의 경우 새 시작이 차단되고, 종료 기준은 진행 중인 프로필을 제거합니다
-
-**FAQ:**
-
-* **Q: 프로필이 같은 여정에 동시에 두 번 있을 수 있습니까?** — 아니요. 프로파일은 같은 여정에 동시에 존재할 수 없습니다. 프로필 ID는 이를 적용하는 키로 사용됩니다.
-* **Q: 프로필이 여정에 다시 들어가는 것을 방지하려면 어떻게 해야 합니까?** — 여정 속성 패널에서 다시 시작을 비활성화하거나 조건을 추가하여 프로필이 이미 입력되었는지 확인합니다.
-* **Q: 종료 기준과 여정 닫기 간의 차이점은 무엇입니까?** — 종료 기준은 조건에 따라 라이브 여정에서 개별 프로필을 제거합니다. 여정을 닫으면 현재 프로필이 완료되는 동안 모든 새 시작이 중지됩니다.
-* **Q: 여러 여정에서 고객과 과도한 커뮤니케이션을 중단하려면 어떻게 해야 합니까?** — 여정 간 메시지 제한을 적용하려면 빈도 제한 규칙, 여정 제한 및 중재 기능을 사용하십시오.
-* **Q: 종료 트리거로 대상 자격이 없는 것은 무엇입니까?** — 여정이 더 이상 타겟 대상 세그먼트 기준을 충족하지 않을 경우 통신의 관련성을 유지하기 위해 프로필에서 자동으로 제거됩니다.
-
-+++
+{{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-entry-exit-criteria-guide.md}}

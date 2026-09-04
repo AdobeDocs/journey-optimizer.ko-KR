@@ -11,24 +11,16 @@ keywords: 인바운드 작업, 문제 해결, 여정, 디버그, 자가 도움�
 exl-id: 5c56786f-da22-4558-b2ae-01f762175a7f
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/weaEAXaVmLAXbha8orPxj69zzbVUNLFiC-dhTrvdMpQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
 workflow-type: tm+mt
-source-wordcount: 2642
-ht-degree: 1%
+source-wordcount: 1840
+ht-degree: 2%
 
 ---
 
@@ -51,11 +43,11 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 * A user continues to receive inbound content even after the profile exits the journey.
 -->
 
-## 전제 조건 {#prerequisites}
+## 사전 요구 사항 {#prerequisites}
 
 문제 해결을 시작하기 전에 다음을 확인하십시오.
 
-1. **Assurance** 세션을 설정합니다. [[!DNL Adobe Experience Platform] Assurance 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}에서 방법을 알아보세요.
+1. **Assurance** 세션을 설정합니다. [[!DNL Adobe Experience Platform] Assurance 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}에서 방법을 알아보세요.
 
 1. 여정 이름과 버전 ID를 검색하려면 인바운드 작업이 포함된 여정으로 이동합니다.
 
@@ -69,7 +61,7 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 
    ![활동 구성 패널 코드 보기의 작업 ID](assets/troubleshoot-inbound-retrieve-action-id.png)
 
-1. 프로필 네임스페이스 및 ID를 가져와서 문제가 발생하는 프로필을 식별합니다. 구성에 따라 네임스페이스는 ECID, 이메일 또는 고객 ID 등이 될 수 있습니다. [Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}에서 프로필을 찾는 방법에 대해 알아보세요.
+1. 프로필 네임스페이스 및 ID를 가져와서 문제가 발생하는 프로필을 식별합니다. 구성에 따라 네임스페이스는 ECID, 이메일 또는 고객 ID 등이 될 수 있습니다. [Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}에서 프로필을 찾는 방법에 대해 알아보세요.
 
 ## 시나리오 1: 사용자가 인바운드 콘텐츠를 받지 못했습니다. {#scenario-1}
 
@@ -100,7 +92,7 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 
 >[!TAB 인앱 채널]
 
-1. [Assurance](https://experienceleague.adobe.com/ko/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} 세션으로 이동하여 왼쪽 패널에서 **[!UICONTROL 인앱 메시지]** 섹션을 선택합니다.
+1. [Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} 세션으로 이동하여 왼쪽 패널에서 **[!UICONTROL 인앱 메시지]** 섹션을 선택합니다.
 
 1. **[!UICONTROL 장치의 메시지]** 탭에서 **[!UICONTROL 메시지]** 드롭다운 목록을 클릭합니다.
 
@@ -112,11 +104,11 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 
 >[!TAB 웹 채널]
 
-페이지를 방문하여 네트워킹 탭을 검사하거나 [Assurance](https://experienceleague.adobe.com/ko/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} 세션의 **[!UICONTROL Edge Delivery]** 섹션에서 Edge 응답 페이로드를 확인하십시오.
+페이지를 방문하여 네트워킹 탭을 검사하거나 [Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} 세션의 **[!UICONTROL Edge Delivery]** 섹션에서 Edge 응답 페이로드를 확인하십시오.
 
 >[!TAB 코드 기반 경험 채널]
 
-[Adobe의 API](https://developer.adobe.com/data-collection-apis/docs/api)를 사용하여 CURL 요청을 수행하고 [Assurance](https://experienceleague.adobe.com/ko/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} 세션의 **[!UICONTROL Edge Delivery]** 섹션에서 Edge 응답 페이로드를 확인합니다.
+[Adobe의 API](https://developer.adobe.com/data-collection-apis/docs/api)를 사용하여 CURL 요청을 수행하고 [Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} 세션의 **[!UICONTROL Edge Delivery]** 섹션에서 Edge 응답 페이로드를 확인합니다.
 
 >[!ENDTABS]
 
@@ -150,7 +142,7 @@ Edge Network 동작을 디버깅하려면 아래 단계를 수행합니다.
 
    프로필 섹션의 **segmentsMap** 요소를 열고 **joai** 세그먼트 ID가 있는지 확인하여 **joai** 세그먼트가 Edge Network 게재 서버의 프로필 보기에 있는지 다시 확인할 수 있습니다.
 
-1. Edge Network 게재 서버에서 프로필을 관련 **joai** 세그먼트에 있는 것으로 보지 않으면 다음 단계로 이동하십시오.<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/ko/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
+1. Edge Network 게재 서버에서 프로필을 관련 **joai** 세그먼트에 있는 것으로 보지 않으면 다음 단계로 이동하십시오.<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
 
 ### 3단계: &#39;joai&#39; 대상 멤버십이 에지 네트워크로 전파되었는지 확인 {#step-3}
 
@@ -237,55 +229,9 @@ Hub 프로필의 `segmentMembership` 특성에 **joai** 세그먼트가 있는�
 <!--
 ## Reference Section {#reference-section}
 
-- [Assurance Setup Guide](https://experienceleague.adobe.com/ko/docs/experience-platform/assurance/tutorials/using-assurance)
+- [Assurance Setup Guide](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance)
 - [[!DNL Adobe Experience Platform] Documentation](https://experienceleague.adobe.com/docs/experience-platform/home.html)
-- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=ko)
+- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html)
 -->
 
-+++ AI 기술 자료 참조
-
-이 단원에는 이 주제와 관련된 해석, 검색 및 질문 답변을 지원하기 위한 구조화된 지식이 포함되어 있습니다.
-
-이해를 돕기 위해 이 정보를 이 페이지의 설명서와 통합해야 합니다. 두 소스 모두 독립적으로 사용하기 위한 것은 아닙니다. 이 페이지에서는 기능에 대해 설명하지만, 용어, 의도, 적용 가능성 및 제약 조건을 명확히 하는 데 도움이 되는 추가 컨텍스트를 제공합니다.
-
-* **TL;DR:** 이 페이지에서는 Adobe Journey Optimizer 여정의 두 인바운드 작업 시나리오에 대한 단계별 셀프서비스 디버깅 안내서(인바운드 단계를 입력하지만 콘텐츠를 수신하지 않는 프로필 및 여정을 종료한 후 콘텐츠를 계속 수신하는 프로필)를 제공합니다.
-
-**의도:**
-* 인바운드 작업 문제를 디버깅하기 전에 사전 요구 사항으로 Assurance 세션 설정
-* 장치 또는 클라이언트가 Assurance을 사용하여 Edge Network에서 인바운드 콘텐츠를 수신하는지 확인
-* Edge Network 적격 및 부적격 활동을 확인하여 프로필이 인바운드 여정 작업에 적합한지 확인합니다
-* Joai 대상 세그먼트 멤버십이 허브 프로필에서 Edge 프로필로 전파되었는지 확인합니다
-* 프로필이 인바운드 작업에 들어간 후 Hub 프로필에서 공유 세그먼트 수집의 지연 진단
-* 셀프서비스 단계로 문제가 해결되지 않으면 올바른 진단 정보를 사용하여 Adobe 고객 지원 센터로 에스컬레이션하십시오
-
-**용어집:**
-* **인바운드 동작**: 인앱, 웹 및 코드 기반 경험 채널 *(제품별)을(를) 포함하여 개인 맞춤화된 콘텐츠를 사용자의 장치 또는 브라우저에 전달하는 여정 활동*
-* **joai 네임스페이스**: 인바운드 여정 작업 단계 *(제품별)에 대한 프로필을 활성화하기 위해 프로필 `segmentMembership`에서 사용되는 특수 ID 네임스페이스*
-* **joai 세그먼트**: 특정 인바운드 여정 작업에 해당하는 joai 네임스페이스에 자동으로 생성된 대상 세그먼트입니다. *(제품별) 콘텐츠를 수신하려면 프로필이 이 세그먼트에서 실현된 상태여야 합니다.*
-* **여정 인바운드 데이터 세트**: 프로필이 인바운드 여정 작업 *(제품별)을(를) 시작할 때 만들어진 프로필 업데이트를 저장하는 데 사용되는 AEP 데이터 세트*
-* **Hub 프로필**: Adobe Experience Platform의 중앙 프로필 저장소는 프로필 특성 및 세그먼트 멤버십에 대한 신뢰할 수 있는 소스로 사용됩니다
-* **Edge 프로필**: Edge Network 게재 서버에서 실시간으로 콘텐츠 자격을 평가하는 데 사용되는 Hub 프로필의 예상 사본
-* **Assurance**: 클라이언트측 SDK 동작 및 Edge Network 응답의 실시간 디버깅을 위한 Adobe Experience Platform 도구입니다
-
-**보호 기능:**
-* 인바운드 작업이 올바르게 작동하려면 현재 샌드박스에서 여정 인바운드 데이터 세트를 활성화해야 합니다
-* 샌드박스의 플랫폼 ID에서 joai 네임스페이스를 정의해야 합니다.
-* Hub에서 Edge으로 joai 세그먼트 멤버십을 전파하는 데 최대 15~30분이 걸릴 수 있습니다
-* Hub 프로필로 Joai 세그먼트 멤버십을 섭취하는 것은 프로필이 인바운드 작업에 들어간 후 최대 15~30분 정도 걸릴 수 있습니다
-* 30-60분 후에도 컨텐츠가 계속 누락된 경우 여정 버전 ID, 작업 ID, Assurance 추적, Edge 및 허브 프로필 JSON 보기를 사용하여 Adobe 고객 지원 센터로 에스컬레이션하십시오
-
-**용어:**
-* 정식 이름: joai 네임스페이스 — 약어: joai — 변형: joai identity, joai 세그먼트 네임스페이스
-* 정식 이름: 인바운드 작업 — 약어: 없음 — 변형: 인바운드 채널, 인바운드 컨텐츠
-* 동의어: &quot;Hub profile&quot; = &quot;central profile&quot;(AEP); &quot;Edge profile&quot; = &quot;projected profile&quot;(Edge Network에서 사용)
-* 혼동하지 마십시오. Edge Delivery 보기에서 &quot;적격 활동&quot; ≠ &quot;부적격 활동&quot; — 적격 활동은 프로필에서 수신한 콘텐츠를 의미하며, 부적격 활동은 프로필에서 수신한 콘텐츠를 의미하며, 제외 이유는 표시하지 않았습니다
-
-**FAQ:**
-* **Q: 이 안내서에서 다루는 두 가지 기본 인바운드 동작 실패 시나리오는 무엇입니까?** — 시나리오 1: 프로필이 인바운드 단계로 들어갔지만 사용자에게 콘텐츠가 표시되지 않습니다. 시나리오 2: 프로필이 여정을 종료했지만 사용자는 인바운드 콘텐츠를 계속 수신합니다.
-* **Q: 인바운드 동작 전달을 디버깅하는 데 어떤 도구를 사용합니까?** — Adobe Experience Platform Assurance. 먼저 Assurance 세션을 설정한 다음 인앱 메시지 및 Edge Delivery 보기를 사용하여 콘텐츠 전달 및 Edge Network 응답을 검사합니다.
-* **Q: joai 세그먼트란 무엇이며 이것이 중요한 이유는 무엇입니까?** — 프로필이 인바운드 작업을 시작하면 해당 특정 작업의 범위가 지정된 대상 세그먼트에 자동으로 적용됩니다. Edge Network은 프로필이 해당 joai 세그먼트에서 실현된 상태인 경우에만 인바운드 콘텐츠를 제공합니다.
-* **Q: joai 세그먼트 멤버십이 Edge 프로필에 표시되는 데 얼마나 걸립니까?** — Hub 프로필이 업데이트된 후 Hub에서 Edge으로 전파하는 데 최대 15-30분이 소요됩니다.
-* **Q: joai 세그먼트 ID가 Edge 프로필에서 종료된 상태인 경우 어떻게 해야 합니까?** — 프로필이 joai 세그먼트를 남겼습니다. 즉 인바운드 여정 작업을 종료했습니다. 예기치 않은 경우 Hub 프로필 수집을 통해 다시 추적하고 프로필이 인바운드 작업 단계를 올바르게 입력했는지 확인하십시오.
-* **Q: Adobe 고객 지원 센터로 에스컬레이션할 때 어떤 정보를 제공해야 합니까?** — 여정 버전 ID, 여정 작업 ID, 예기치 않은 동작이 발생하는 단계, 전체 Assurance 추적 및 Edge 및 허브 프로필 모두의 JSON 보기.
-
-+++
+{{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-troubleshooting-inbound.md}}

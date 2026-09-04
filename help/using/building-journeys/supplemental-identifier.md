@@ -4,21 +4,14 @@ description: 여정에서 보조 식별자를 사용하는 방법을 알아봅�
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/ABOlJ-ZF0a3xLNY-hH6jjFqu53ph4PynNalGkgQ6P8k
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: d08afb72-92f6-4856-88e3-11ec34313c2fid: fa683eda-48de-4558-af32-2673edcd44fe
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
 workflow-type: tm+mt
-source-wordcount: 2792
-ht-degree: 2%
+source-wordcount: 2091
+ht-degree: 3%
 
 ---
 
@@ -135,11 +128,11 @@ ht-degree: 2%
 
    1. **[!UICONTROL 보조 식별자]** 필드에서 식 편집기를 사용하여 보조 식별자 특성을 선택합니다.
 
-   CSV 파일에서 가져온 [대상](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko#import-audience){target="_blank"}의 경우, CSV 대상에 프로필 ID당 여러 행이 포함되어 있으면 먼저 빠른 활성화가 활성화되었는지 확인하십시오. [외부 대상이 있는 보조 식별자](#external-audiences)를 참조하십시오.
+   CSV 파일에서 가져온 [대상](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}의 경우, CSV 대상에 프로필 ID당 여러 행이 포함되어 있으면 먼저 빠른 활성화가 활성화되었는지 확인하십시오. [외부 대상이 있는 보조 식별자](#external-audiences)를 참조하십시오.
 
        >[!NOTE]
-       >
-       >**[!UICONTROL 고급 모드]**&#x200B;에서 식 편집기를 사용하여 특성을 선택하는지 확인하십시오.
+     >
+     >**[!UICONTROL 고급 모드]**에서 식 편집기를 사용하여 특성을 선택하는지 확인하십시오.
    
 >[!ENDTABS]
 
@@ -206,7 +199,7 @@ ht-degree: 2%
 
 ## 외부 대상이 있는 보조 식별자 {#external-audiences}
 
-보조 ID는 CSV 파일에서 가져온 대상 [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko#import-audience)과(와) [Federated Audience Composition](../audience/get-started-audience-orchestration.md)(으){target="_blank"}로 만든 대상 &#x200B;을(를) 포함하여 외부 대상에 대해 지원됩니다. CSV 또는 Federated Audience Composition 대상에서 읽는 여정을 구성할 때 해당 대상의 ID가 아닌 속성을 보조 ID로 지정할 수 있습니다. 그런 다음 Journey Optimizer은 고유 프로필 + 보조 ID 조합에 따라 별도의 여정 인스턴스를 만듭니다.
+보조 ID는 CSV 파일에서 가져온 대상 [과(와) [Federated Audience Composition](../audience/get-started-audience-orchestration.md)(으)로 만든 대상 ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}을(를) 포함하여 외부 대상에 대해 지원됩니다. CSV 또는 Federated Audience Composition 대상에서 읽는 여정을 구성할 때 해당 대상의 ID가 아닌 속성을 보조 ID로 지정할 수 있습니다. 그런 다음 Journey Optimizer은 고유 프로필 + 보조 ID 조합에 따라 별도의 여정 인스턴스를 만듭니다.
 
 * 사용 사례 1: 고유 프로필당 행 1개 + 보조 ID 쌍
 
@@ -278,7 +271,7 @@ x-sandbox-name: {SANDBOX_NAME}
 >
 >`expressActivation`의 기본값은 `false`입니다. 대상 생성 시 설정해야 하며, 생성 후에는 변경할 수 없습니다. 모든 Federated Audience Composition 대상은 기본적으로 빠른 활성화 가 활성화되어 있으며 이 플래그는 필요하지 않습니다.
 
-전체 참조는 [외부 대상 API 만들기 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/segmentation/tutorials/create-external-audience#create){target="_blank"}를 참조하십시오.
+전체 참조는 [외부 대상 API 만들기 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/tutorials/create-external-audience#create){target="_blank"}를 참조하십시오.
 
 +++
 
@@ -299,7 +292,7 @@ x-sandbox-name: {SANDBOX_NAME}
 | **보조 ID를 가진 여정 — 중복(프로필 ID, 보조 ID) 쌍이 있음** | (P1, S1), (P1, S1), (P1, S2) | 동일한 (프로필 ID, 보조 ID) 조합을 공유하는 행은 일반 여정 재입력 논리에 의해 필터링됩니다. 고유 조합당 첫 번째 일치하는 행만 허용됩니다. |
 | **보조 ID가 구성되지 않은 여정** | (P1, S1), (P1, S2) | 보조 ID가 없으면 Journey Optimizer은 동일한 프로필 ID에 대한 모든 행을 동일한 프로필로 처리합니다. 프로필 ID당 하나의 여정 인스턴스만 허용되며, 동일한 프로필에 대한 추가 행은 무시됩니다. |
 
-## 예시 사용 사례
+## 사용 사례 예시
 
 이 예제는 보조 식별자가 여러 관련 레코드를 지원하는 방법을 보여 줍니다.
 
@@ -331,54 +324,6 @@ x-sandbox-name: {SANDBOX_NAME}
 
 [!DNL Adobe Journey Optimizer]에서 보조 식별자를 활성화하고 적용하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464799?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
 
-+++ AI 기술 자료 참조
-
-이 단원에는 이 주제와 관련된 해석, 검색 및 질문 답변을 지원하기 위한 구조화된 지식이 포함되어 있습니다.
-
-이해를 돕기 위해 이 정보를 이 페이지의 설명서와 통합해야 합니다. 두 소스 모두 독립적으로 사용하기 위한 것은 아닙니다. 이 페이지에서는 기능에 대해 설명하지만, 용어, 의도, 적용 가능성 및 제약 조건을 명확히 하는 데 도움이 되는 추가 컨텍스트를 제공합니다.
-
-* **TL;DR:** 이 페이지에서는 Adobe Journey Optimizer 여정에서 보조 식별자를 사용하여 단일 프로필에 예약, 구독 또는 여정 ID와 같은 고유한 보조 ID로 범위가 지정된 여러 개의 동시 인스턴스를 허용하는 방법에 대해 설명합니다.
-
-**의도:**
-* 프로필 ID에만 의존하는 대신 보조 식별자를 사용하는 시기와 이유를 이해합니다
-* 속성을 이벤트 스키마에서 ID로 표시하여 이벤트가 트리거된 여정에서 보조 식별자를 구성합니다
-* 대상자 읽기 활동에서 옵션을 활성화하여 대상자 읽기 여정에서 보조 식별자를 구성합니다
-* 표현식 편집기를 사용하여 메시지 개인화 및 조건부 논리에 대한 보조 식별자 속성 참조
-* 올바른 표현식 구문을 적용하여 보조 ID로 처리된 오브젝트 배열을 반복합니다
-* 여정에서 추가 식별자를 구현하기 전에 보호 기능 및 제한 사항 식별
-
-**용어집:**
-* **보조 식별자**: 프로필 ID와 함께 사용하여 여정 인스턴스를 특정 레코드로 확장하고 *(제품별) 프로필당 여러 개의 동시 인스턴스를 활성화하는 보조 식별자(예: 주문 ID, 예약 ID, 구독 ID)*
-* **프로필 ID**: 여정을 실행하는 데 기본적으로 사용되는 기본 식별자입니다. 여정에서 활성 상태인 프로필은 보조 ID가 없으면 다른 여정을 다시 입력할 수 없습니다.
-* **비개인 식별자 네임스페이스**: 개인을 나타내지 않는 ID 네임스페이스(보조 ID에 필요)입니다. 기본 ID 네임스페이스와 구별되어야 합니다.
-* **joai 네임스페이스**: 이 페이지에 적용할 수 없습니다(인바운드 동작 문제 해결 참조).
-* **DULE**: 데이터 레이블 지정 및 적용 사용 - Adobe Experience Platform의 데이터 거버넌스 정책 유효성 검사 프레임워크, 보조 ID는 DULE 검사의 대상이 아닙니다
-
-**보호 기능:**
-* 보조 식별자는 여정 트리거 및 대상 읽기 이벤트에만 지원되며, 대상 자격 여정에 대해서는 지원되지 않습니다
-* 프로필에는 동시 여정 인스턴스가 10개를 초과할 수 없습니다.
-* 각 여정 인스턴스는 보조 식별자를 통해 생성된 경우에도 빈도 상한에 포함됩니다
-* 보조 식별자는 `string` 형식이어야 합니다. 문자열 배열 및 맵은 지원되지 않습니다.
-* 보조 ID 속성은 스키마에서 기본 ID로 표시되지 않아야 합니다.
-* 보조 ID에 사용되는 네임스페이스는 비개인 식별자 네임스페이스여야 합니다.
-* 비개인 ID 네임스페이스를 스키마에 적용한 후에는 새 이벤트 또는 필드 그룹을 만들어야 합니다. 기존 엔터티는 새로 고칠 수 없습니다
-* 보조 ID가 있는 대상 여정 읽기의 경우: 읽기 비율은 여정 인스턴스당 초당 500개의 프로필로 제한됩니다. 통합 프로필 서비스 대상만 지원됩니다. 보조 ID는 프로필 필드(이벤트/컨텍스트 필드가 아님)여야 합니다
-* 동일한 여정의 다운스트림 이벤트는 동일한 보충 ID 및 네임스페이스를 사용해야 합니다
-* 비즈니스 이벤트를 사용하는 대상자 읽기 여정에 대해서는 보조 ID가 비활성화됩니다
-
-**용어:**
-* 정식 이름: 보조 식별자 — 약어: 없음 — 변형: 보조 ID, 보조 식별자
-* 동의어: &quot;supplemental identifier&quot; = &quot;supplemental ID&quot; (UI 및 설명서에서 상호 교환하여 사용됨)
-* 혼동하지 마십시오. &quot;보조 식별자&quot;≠ &quot;기본 ID&quot; — 보조 ID를 스키마에서 기본 ID로 표시해서는 안 됩니다
-
-**FAQ:**
-* **Q: 보조 ID는 무엇에 사용됩니까?** — 단일 프로필에서 예약, 구독 또는 여정 ID와 같은 다른 보조 레코드로 범위가 지정되는 동시에 정책을 여러 번 입력하고 실행할 수 있습니다.
-* **Q: 보조 식별자를 지원하는 여정 유형은 무엇입니까?** — 이벤트가 트리거된 여정 및 대상자 읽기 여정. 대상 자격 여정은 보조 식별자를 지원하지 않습니다.
-* **Q: 보충 식별자를 사용하여 프로필에 포함할 수 있는 동시 여정 인스턴스 수는 몇 개입니까?** — 프로필당 최대 10개의 동시 여정 인스턴스.
-* **Q: 메시지 개인화에 보조 ID 특성을 사용할 수 있습니까?** — 예. 표현식 편집기 또는 개인화 편집기의 상황별 속성 메뉴를 통해 이를 참조합니다.
-* **Q: 보조 ID를 스키마에서 기본 ID로 표시해야 합니까?** — 아니요. ID로 표시되어야 하지만 기본 ID로 설정해서는 안 됩니다.
-* **Q: DULE 거버넌스 정책이 보조 식별자에 적용됩니까?** — 아니요. 보조 ID에 대해서는 DULE 유효성 검사가 수행되지 않습니다.
-
-+++
+{{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-supplemental-identifier.md}}
