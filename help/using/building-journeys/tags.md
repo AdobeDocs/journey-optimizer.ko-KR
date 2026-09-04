@@ -111,6 +111,6 @@ Journey Optimizer의 **태그 범주**&#x200B;은(는) 더 나은 대안을 제�
 
 >[!TIP]
 >
->이 접근 방식과 그 이점에 대한 대규모의 설명이 필요하면 [Journey Optimizer의 고급 여정 모범 사례](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}를 참조하십시오.
+>이 접근 방식과 그 이점에 대한 대규모의 설명이 필요하면 [Journey Optimizer의 고급 여정 모범 사례](https://experienceleague.adobe.com/ko/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}를 참조하십시오.
 
 {{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-tags.md}}
