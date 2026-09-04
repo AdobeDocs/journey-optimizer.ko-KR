@@ -162,10 +162,10 @@ Outlook에는 디자인 단계에서 고려하지 않으면 이메일 레이아�
 
 메시지 편집기로 이메일 콘텐츠를 만드는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3416234?captions=kor&quality=12)
 
 A/B 테스트를 위한 콘텐츠 실험을 구성하여 비즈니스 목표 달성에 가장 도움이 되는 이메일 콘텐츠를 탐색하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3419893)
+>[!VIDEO](https://video.tv.adobe.com/v/3447338?captions=kor)
 
 {{$include /help/_includes/do-not-localize/email/ai-augmented-get-started-email-design.md}}
