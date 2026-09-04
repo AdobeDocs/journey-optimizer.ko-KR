@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: 3fe3b3372865d6a349fef6baf2861625796e9244
 workflow-type: tm+mt
-source-wordcount: 1025
-ht-degree: 0%
+source-wordcount: 501
+ht-degree: 1%
 
 ---
 
@@ -129,43 +129,4 @@ Campaign 통합에 대한 자세한 내용은 다음 페이지를 참조하십�
 
 1. 이제 여정을 게시할 수 있습니다.
 
-+++ AI 기술 자료 참조
-
-이 단원에는 이 주제와 관련된 해석, 검색 및 질문 답변을 지원하기 위한 구조화된 지식이 포함되어 있습니다.
-
-이해를 돕기 위해 이 정보를 이 페이지의 설명서와 통합해야 합니다. 두 소스 모두 독립적으로 사용하기 위한 것은 아닙니다. 이 페이지에서는 기능에 대해 설명하지만, 용어, 의도, 적용 가능성 및 제약 조건을 명확히 하는 데 도움이 되는 추가 컨텍스트를 제공합니다.
-
-* **TL;DR:** 이 페이지에서는 Adobe Campaign v7/v8과의 통합을 사용하여 Adobe Journey Optimizer에서 트랜잭션 이메일을 보내는 단계별 사용 사례를 제공하며 Campaign 템플릿 만들기, 이벤트 및 작업 구성, 여정 디자인을 다룹니다.
-
-**의도:**
-* Journey Optimizer과 함께 사용할 Adobe Campaign v7/v8에서 트랜잭션 이메일 템플릿 구성
-* Journey Optimizer에서 구매 주문 번호와 같은 사용자 지정 필드를 포함하는 이벤트를 만듭니다
-* JSON 페이로드를 사용하여 Journey Optimizer에서 Campaign Classic 작업 만들기 및 구성
-* 여정 이벤트 필드를 작업 구성의 Campaign 개인화 변수에 매핑
-* Campaign 트랜잭션 이메일을 트리거하는 여정을 빌드하고 게시합니다.
-
-**용어집:**
-* **트랜잭션 메시지**: 이벤트에 따라 실시간으로 트리거된 이메일을 보내는 캠페인 기능입니다. 이 통합을 사용하려면 먼저 구성해야 합니다. *(제품별)*
-* **이벤트 유형(eventType)**: 트랜잭션 이벤트의 유형을 식별하는 Campaign에 정의된 열거형 값입니다. 해당 내부 이름은 JSON 페이로드 *(제품별)에서 참조됩니다.*
-* **Campaign Classic 작업**: 트랜잭션 메시지 *(제품별)을(를) 보내기 위해 Adobe Campaign v7/v8에 연결하는 Journey Optimizer 작업 유형*
-* **페이로드 필드**: Campaign *(제품별)에 전송된 데이터 필드를 정의하는 Journey Optimizer 작업에 붙여 넣은 JSON 구조*
-
-**보호 기능:**
-* 이 통합에는 Campaign v7/v8 빌드 9125 이상이 필요합니다
-* 사용하기 전에 Campaign 인스턴스에 트랜잭션 메시지 기능을 구성해야 합니다.
-* Campaign에서 새 이벤트 유형을 만든 후 이를 적용하려면 연결을 끊고 인스턴스에 다시 연결해야 합니다
-* 런타임 시 동적 채우기를 허용하려면 작업에서 &quot;상수&quot;로 설정된 Personalization 필드 값을 &quot;변수&quot;로 변경해야 합니다
-
-**용어:**
-* 정식 이름: Adobe Campaign v7/v8 — 약어: ACC — 변형: Campaign Classic, Campaign v7, Campaign v8
-* 동의어: &quot;eventType&quot; = &quot;event type internal name&quot;
-* 혼동하지 마십시오. &quot;Campaign Classic 작업&quot; ≠ &quot;사용자 지정 작업&quot;(Campaign Classic 작업은 ACC 통합에 대한 특정 기본 작업 유형)
-
-**FAQ:**
-* **Q: 이 통합에 필요한 Campaign 버전은 무엇입니까?** — Campaign v7/v8 빌드 9125 이상이 필요합니다.
-* **Q: 시작하기 전에 Campaign에서 무엇을 구성해야 합니까?** — 트랜잭션 메시지 기능을 구성해야 하며, 이벤트 유형을 기반으로 트랜잭션 이메일 템플릿을 만들어야 합니다.
-* **Q: Journey Optimizer 작업에서 개인화 필드를 동적으로 만들려면 어떻게 합니까?** — 작업 페이로드 구성에서 런타임 시 채워질 필드에 대한 필드 구성을 &quot;상수&quot;에서 &quot;변수&quot;로 변경합니다.
-* **Q: 이 사용 사례에서 이름 개인화 데이터는 어디에서 가져옵니까?** — 이름은 Adobe Experience Platform 데이터 소스에서 가져온 반면 주문 번호는 Journey Optimizer 이벤트 페이로드에서 가져옵니다.
-* **Q: Journey Optimizer 작업을 Campaign 템플릿에 연결하려면 어떻게 해야 합니까?** — 작업 유형으로 &quot;Adobe Campaign Classic&quot;를 선택한 다음 트랜잭션 메시지 템플릿 구조와 일치하는 JSON 페이로드를 붙여 넣습니다.
-
-+++
+{{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-ajo-ac.md}}

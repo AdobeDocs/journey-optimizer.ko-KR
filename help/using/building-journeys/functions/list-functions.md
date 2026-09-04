@@ -18,10 +18,10 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 subfeature_v2: []
-source-git-commit: d6b5a083f03c7afe5eaf6efc19fdd93fa0943f02
+source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
 workflow-type: tm+mt
-source-wordcount: 2071
-ht-degree: 5%
+source-wordcount: 1395
+ht-degree: 8%
 
 ---
 
@@ -865,61 +865,4 @@ SKU 속성으로 정렬된 listObject 반환(오름차순)
 
 +++
 
-+++ AI 기술 자료 참조
-
-이 단원에는 이 주제와 관련된 해석, 검색 및 질문 답변을 지원하기 위한 구조화된 지식이 포함되어 있습니다.
-
-이해를 돕기 위해 이 정보를 이 페이지의 설명서와 통합해야 합니다. 두 소스 모두 독립적으로 사용하기 위한 것은 아닙니다. 이 페이지에서는 기능에 대해 설명하지만, 용어, 의도, 적용 가능성 및 제약 조건을 명확히 하는 데 도움이 되는 추가 컨텍스트를 제공합니다.
-
-* **TL;DR:** 이 페이지는 AJO 여정 표현식에서 사용할 수 있는 모든 목록 함수를 문서화합니다. 이 함수에서는 목록과 배열의 교차를 필터링, 정렬, 중복 제거, 멤버십 확인, 제한, 직렬화, 병합, 빼기 및 찾는 방법에 대해 설명합니다.
-
-**의도:**
-* `distinct`(null 무시) 또는 `distinctWithNull`(null 보존)을 사용하여 목록에서 중복 값을 제거합니다.
-* `filter`을(를) 사용하여 특정 키 값과 일치하는 개체만 반환하도록 listObject 필터링
-* `getListItem`을(를) 사용하여 목록에서 특정 인덱스의 요소를 검색합니다.
-* `in`을(를) 사용하여 목록에 값이 있는지 확인
-* `intersect`을(를) 사용하여 두 목록 사이에서 공통 요소 찾기
-* `mergeLists`을(를) 사용하여 중복 제거 여부에 관계없이 두 목록을 결합합니다.
-* `differenceLists`을(를) 사용하여 다른 목록(차이점 설정)에서 한 목록 빼기
-* `limit`을(를) 사용하여 목록의 첫 번째 또는 마지막 N개 요소 반환
-* `listSize`을(를) 사용하여 목록의 총 요소 수를 계산합니다.
-* `serializeList`을(를) 사용하여 목록을 구분된 문자열로 변환
-* `sort`을(를) 사용하여 목록을 오름차순 또는 내림차순으로 정렬
-
-**용어집:**
-* **listObject**: 필드 참조여야 하는 복잡한 개체 목록입니다. null 개체 *(제품별)은 포함할 수 없습니다.*
-* **keyAttributeName**: *(제품별)의 중복 제거, 필터링 또는 정렬에 사용할 개체 특성을 식별하기 위해 `distinct`, `filter` 및 `sort`과(와) 함께 사용되는 선택적 문자열 매개 변수*
-* **intersect**: 두 입력 목록에 있는 요소만 반환하는 집합 작업입니다.
-* **mergeLists**: `deduplicate` 매개 변수 *(제품별)*&#x200B;에 따라 두 목록의 결합(중복 제거) 또는 연결(중복 포함)을 반환하는 집합 작업입니다.
-* **differenceLists**: 두 번째 목록 *(제품별)에 없는 첫 번째 목록의 항목을 반환하는 집합 작업*
-
-**보호 기능:**
-* `distinctWithNull`은(는) `<listObject>` 매개 변수 형식을 지원하지 않습니다.
-* `filter`을(를) 사용하려면 listObject 매개 변수가 인라인 리터럴이 아닌 필드 참조여야 합니다.
-* listObject의 `listSize`에는 목록이 필드 참조여야 합니다. listObject에는 null 개체가 포함될 수 없습니다.
-* `serializeList`은(는) `listObject` 형식을 지원하지 않습니다.
-* `mergeLists` 및 `differenceLists`은(는) 스칼라 목록 형식(문자열, 정수, 십진수, 부울, dateTime, dateTimeOnly, dateOnly, duration)만 지원합니다. `listObject`은(는) 지원되지 않습니다.
-* `mergeLists`의 `deduplicate` 매개 변수는 동적 부울 식이 아닌 리터럴 `true`/`false`이어야 합니다.
-* `differenceLists`은(는) 항상 결과의 중복을 제거합니다. 중복을 유지할 수 있는 옵션이 없습니다.
-
-**용어:**
-* 정식 이름: 목록 함수 — 약어: 없음 — 변형: 컬렉션 함수, 배열 함수
-* 동의어: &quot;listSize&quot; = &quot;count list elements&quot;; &quot;serializeList&quot; = &quot;list to string&quot;
-* 혼동하지 마십시오. &quot;distinct&quot;(null 무시) ≠ &quot;distinctWithNull&quot;(null을 고유한 값으로 유지)
-* 혼동하지 마십시오. &quot;limit&quot;을 세 번째 매개 변수 `true`(첫 번째 N개 항목 반환)과 ≠ &quot;limit&quot;을 `false`(마지막 N개 항목 반환)과 함께 사용합니다.
-* 혼동하지 마십시오. &quot;교차&quot;(두 목록 간의 공통 요소) ≠ &quot;필터링&quot;(특정 키 값과 일치하는 요소)
-* &quot;mergeLists&quot;(결합 또는 연결) ≠ &quot;differenceLists&quot;(다른 목록에서 하나의 목록 빼기) ≠ &quot;intersect&quot;(일반 요소만 해당)를 혼동하지 마십시오.
-
-**FAQ:**
-* **Q: 목록의 처음 3개 항목을 어떻게 얻습니까?** — `limit(myList, 3)` 또는 `limit(myList, 3, true)`을(를) 사용합니다. 기본적으로 첫 번째 항목이 반환됩니다.
-* **Q: 목록의 마지막 3개 항목을 어떻게 얻습니까?** — `limit(myList, 3, false)` 사용.
-* **Q: `distinct`과(와) `distinctWithNull`의 차이점은 무엇입니까?** — `distinct`은(는) null 값을 무시하고 결과에서 제외합니다. `distinctWithNull`은(는) null을 개별 값으로 취급하고 null이 있으면 하나의 null 항목을 포함합니다.
-* **Q: `filter`을(를) 사용하여 문자열 목록을 필터링할 수 있습니까?** — 아니요, `filter`은(는) `listObject`에서만 작동합니다. 스칼라 목록의 경우 중복 제거에는 `in` 또는 `distinct`을(를) 사용합니다.
-* **Q: 값이 목록에 있는지 어떻게 확인합니까?** — 목록에 값이 있으면 true를 반환하는 `in(value, myList)`을(를) 사용합니다.
-* **Q: listObject를 특정 특성별로 정렬할 수 있습니까?** — 예. 두 번째 매개 변수는 특성 이름이고 세 번째 매개 변수는 정렬 방향입니다(true = 오름차순).`sort(@event{...}, "attributeName", true)`
-* **Q: 두 목록을 결합하고 중복을 제거하려면 어떻게 합니까?** — `mergeLists(list1, list2, true)` 사용.
-* **Q: 두 목록을 결합하되 중복 값을 유지하려면 어떻게 해야 합니까?** — `mergeLists(list1, list2, false)` 사용.
-* **Q: 다른 목록에 없는 항목을 찾는 방법** — `list2`에 없는 `list1`의 항목을 반환하는 `differenceLists(list1, list2)`을(를) 사용합니다.
-* **Q: `intersect`과(와) `differenceLists`의 차이점은 무엇입니까?** — `intersect`은(는) 두 목록에 공통되는 항목을 반환하고, `differenceLists`은(는) 두 번째 목록에 없는 첫 번째 목록의 항목을 반환합니다.
-
-+++
+{{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-functions-list-functions.md}}

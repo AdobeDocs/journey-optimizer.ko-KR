@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5592f564456edf86e04dc9849c947402126cf161
+source-git-commit: a3f084da6079fbdf158aeced3167fb88c695b7af
 workflow-type: tm+mt
-source-wordcount: 2234
-ht-degree: 85%
+source-wordcount: 2323
+ht-degree: 83%
 
 ---
 
@@ -49,6 +49,25 @@ ht-degree: 85%
 >이 릴리스 정보에 나열된 기능에는 각 변경 사항이 사용자 환경에서 사용 가능해지는 시점을 나타내는 **사용 가능한 날짜**&#x200B;가 포함되어 있습니다. **곧 출시 예정** 아코디언 항목은 향후 며칠 또는 몇 주 내에 제공될 예정입니다. 이 섹션의 정보는 변경될 수 있습니다.
 
 ## 2026년 9월 업데이트 {#sep-26-updates}
+
+### 콘텐츠 관리 {#sep-26-content-management}
+
+<table>
+<thead>
+<tr>
+<th><strong>CX Coworker의 컨텐츠 관리 MCP 툴</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 CX Coworker에는 새로운 <strong>콘텐츠 관리 MCP 도구</strong> 세트가 있으므로 자연어 프롬프트를 통해 Journey Optimizer 콘텐츠 에셋을 검색하고 관리할 수 있습니다. 콘텐츠 템플릿, 조각, 랜딩 페이지 및 여정/캠페인 인라인 메시지 콘텐츠를 나열하거나 검색하도록 요청합니다. 또한 컨텐츠를 생성하고, 템플릿을 업데이트하고, 조각을 생성, 업데이트, 복제 및 게시할 수 있으며, 여정 및 캠페인에서 바로 인라인 채널 작업 컨텐츠를 업데이트할 수 있습니다.</p>
+<p>자세한 내용은 <a href="../start/ajo-coworker-skills.md#content-management">세부 설명서</a>를 참조하십시오.</p>
+<p>사용 가능한 날짜: 2026년 9월 3일</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ### 여정 {#sep-26-journeys}
 
@@ -80,7 +99,7 @@ ht-degree: 85%
 <tr>
 <td>
 <p>이제 여정 고급 표현식 편집기는 AI 기반의 표현식 생성을 통합합니다. 빌드할 표현식을 자연어로 설명하고, 편집기는 즉시 적용하거나 후속 프롬프트를 통해 구체화할 수 있는 사용 준비 코드를 생성합니다.</p>
-<p>이전에 제한 공급 상태로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 공급).</p>
+<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
 <p>자세한 내용은 <a href="../building-journeys/expression/generate-expression.md">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2026년 9월 1일</p>
 </td>
