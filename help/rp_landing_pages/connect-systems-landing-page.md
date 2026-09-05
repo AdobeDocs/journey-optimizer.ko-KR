@@ -60,7 +60,7 @@ Adobe 솔루션으로 보내기
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 Adobe Journey Optimizer의 샌드박스 관리
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer에서 샌드박스를 사용하여 가상 환경, 역할
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 소스 커넥터 시작
 

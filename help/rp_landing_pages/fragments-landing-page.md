@@ -50,7 +50,7 @@ Journey Optimizer에서 이메일, 캠페인, 여정에 대한 재사용 가능�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 사용자 정의 가능한 조각 사용
 
@@ -60,7 +60,7 @@ Journey Optimizer에서 이메일, 캠페인, 여정에 대한 재사용 가능�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 콘텐츠 조각 관리
 
