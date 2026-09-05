@@ -25,7 +25,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: c465d24e5ef832bfb19e6e478b9f73e3d7bd1dbb
 workflow-type: tm+mt
 source-wordcount: 529
 ht-degree: 21%
@@ -123,3 +123,5 @@ HTML 스킬이 있어야 하며, 이 모드를 선택하면 코드 편집기에 
 * **계산된 특성 사용** - 복잡한 날짜 계산을 수행하는 [계산된 특성 만들기](../audience/computed-attributes.md)를 통해 결과를 프로필 특성으로 사용할 수 있습니다.
 
 지원되는 함수의 전체 목록은 [날짜 및 시간 함수](../personalization/functions/dates.md)를 참조하십시오.
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-code-content.md}}

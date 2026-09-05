@@ -11,7 +11,7 @@ keywords: 텍스트, 이메일, 버전, 일반, 편집기
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
 feature_v2: []
 subfeature_v2: []
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: 6edb8a6f2724d2776dc595b48332e064eb04e2a0
 workflow-type: tm+mt
 source-wordcount: 1199
 ht-degree: 8%
@@ -267,3 +267,5 @@ HTML 콘텐츠를 크게 변경할 때마다 업데이트합니다. 핵심 메�
 
 **이미지를 일반 텍스트로 포함해야 합니까?**\
 아니요. 일반 텍스트는 이미지를 지원하지 않습니다. 대신 이미지에 표시되는 내용을 설명하거나 온라인으로 볼 수 있는 링크를 제공합니다.
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-text-version-email.md}}

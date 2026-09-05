@@ -31,7 +31,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: bfbdc1c88c1cc73f79eee0672d0d6708def69abc
 workflow-type: tm+mt
 source-wordcount: 1259
 ht-degree: 21%
@@ -115,7 +115,7 @@ ht-degree: 21%
 이 구독 취소 모드를 구현하려면 옵트아웃 랜딩 페이지를 만들어 게시하고 랜딩 페이지 링크가 있는 구독 취소 링크를 이메일 메시지에 추가해야 합니다. 이러한 단계는 아래에 요약되어 있습니다.
 
 
-### 전제 조건 {#prereq-lp}
+### 사전 요구 사항 {#prereq-lp}
 
 2단계 옵트아웃 메커니즘을 설정하려면 고유한 구독 취소 랜딩 페이지를 만들어야 합니다. 첫 번째 랜딩 페이지는 메시지에서 연결되며 call-to-action 버튼을 포함해야 합니다. 사용자가 버튼을 클릭하면 확인 메시지가 표시됩니다.
 
@@ -215,3 +215,5 @@ Adobe Journey Optimizer에서 랜딩 페이지를 만들어 [이 페이지](../l
    따라서 이 사용자는 다시 구독하지 않으면 브랜드에서 보내는 커뮤니케이션을 받지 않습니다.
 
 이 이벤트 시퀀스를 사용하면 구독 취소 프로세스가 제대로 추적되고 프로필의 동의 환경 설정이 시스템에 정확하게 반영됩니다. 이 흐름의 단계가 누락되거나 잘못된 순서로 발생하는 경우 조사해야 하는 옵트아웃 구현에 문제가 있을 수 있습니다.
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-email-opt-out.md}}

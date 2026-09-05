@@ -8,7 +8,7 @@ level: Beginner, Intermediate
 exl-id: 0c2f95ce-28a0-480c-9829-b7e4975b6340
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
+source-git-commit: 6edb8a6f2724d2776dc595b48332e064eb04e2a0
 workflow-type: tm+mt
 source-wordcount: 1148
 ht-degree: 3%
@@ -125,3 +125,5 @@ AI 받은 편지함에 대한 전자 메일 최적화 기능을 사용하면 사
 
 * [이메일 디자인 시작](get-started-email-design.md)
 * Adobe 생성 기능에 대한 자세한 내용은 [콘텐츠 생성 시작](../content-management/gs-generative.md)을 참조하세요.
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-llm-email-optimizer.md}}

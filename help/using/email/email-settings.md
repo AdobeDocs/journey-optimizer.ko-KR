@@ -25,7 +25,7 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: 6edb8a6f2724d2776dc595b48332e064eb04e2a0
 workflow-type: tm+mt
 source-wordcount: 1523
 ht-degree: 100%
@@ -232,3 +232,5 @@ You can add a visible CC (carbon copy) recipient to emails sent by [!DNL Journey
 이를 위해서는 **[!UICONTROL 게재 주소]** 필드를 편집하고 사용 가능한 이메일 유형 XDM 필드 목록에서 항목을 선택합니다. [자세히 알아보기](../configuration/primary-email-addresses.md#override-execution-address-channel-config)
 
 ![](assets/email-config-delivery-address.png)
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-email-settings.md}}

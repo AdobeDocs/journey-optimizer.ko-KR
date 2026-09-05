@@ -24,10 +24,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
+source-git-commit: 03da8f0ff107f23467820de4ce5735971e7b8056
 workflow-type: tm+mt
 source-wordcount: 1164
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
@@ -205,3 +205,5 @@ Adobe이 사용자를 대신하여 푸시 알림을 전송하도록 승인하려
 Adobe Experience Platform 및 [!DNL Adobe Experience Platform Data Collection]에서 웹 푸시 구성을 완료한 후 웹 푸시 알림을 프로필로 전송하기 전에 구현을 테스트할 수 있습니다. 테스트를 통해 구독이 제대로 등록되고 알림이 사용자의 브라우저에 올바르게 전달되는지 확인할 수 있습니다.
 
 웹 푸시 설정의 유효성을 확인하기 위해 이벤트를 사용하여 테스트 여정을 만드는 방법에 대한 자세한 지침은 모바일 및 웹 푸시 채널 모두에 적용할 수 있는 포괄적인 테스트 워크플로를 제공하는 [모바일 앱 푸시 알림 구성 설명서](push-configuration.md)를 참조하십시오.
+
+{{$include /help/_includes/do-not-localize/push/ai-augmented-push-configuration-web.md}}

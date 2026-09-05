@@ -27,7 +27,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: 96251debdee69045d2eba8c6b1803e8651a9abe9
 workflow-type: tm+mt
 source-wordcount: 1734
 ht-degree: 1%
@@ -391,3 +391,5 @@ HTML 컨텐츠에서 테이블은 종종 레이아웃에 사용됩니다. 기본
     * Enter 키 또는 스페이스를 사용하여 확인란을 전환할 수 있습니다.
 
     * Enter 또는 스페이스가 단추를 트리거해야 합니다.
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-accessible-content.md}}

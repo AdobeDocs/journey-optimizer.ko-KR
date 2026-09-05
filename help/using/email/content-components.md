@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e7437f4bbbb7e79e3e1cc3403342a600fc7b01c5
+source-git-commit: 6edb8a6f2724d2776dc595b48332e064eb04e2a0
 workflow-type: tm+mt
 source-wordcount: 1658
 ht-degree: 41%
@@ -283,3 +283,5 @@ ht-degree: 41%
    >열을 세로로 쌓는 대신 모바일 장치의 격자 레이아웃을 유지하려면 **[!UICONTROL 모바일 장치의 열을 쌓지 않음]** 옵션을 사용하십시오.
 
 1. 필요에 따라 다른 콘텐츠 구성 요소를 각 셀에 놓고 각 구성 요소의 **[!UICONTROL 스타일]** 탭에서 스타일을 조정합니다.
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-content-components.md}}

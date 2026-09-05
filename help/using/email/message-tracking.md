@@ -32,7 +32,7 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ceec765190f63840a3ee828761284239b59c76fb
+source-git-commit: c966712b5c4681744acb925b5b97f316a4748bf9
 workflow-type: tm+mt
 source-wordcount: 1631
 ht-degree: 23%
@@ -111,7 +111,7 @@ ht-degree: 23%
 
    * **[!UICONTROL 랜딩 페이지]**&#x200B;를 선택하여 랜딩 페이지에 링크를 삽입합니다. [자세히 알아보기](../landing-pages/create-lp.md)
 
-   * **[!UICONTROL 한 번의 클릭으로 옵트아웃]**&#x200B;을 선택하여 사용자가 옵트아웃을 확인할 필요 없이 커뮤니케이션에서 빠르게 구독을 취소할 수 있는 링크를 삽입합니다. [자세히 알아보기](email-opt-out.md#one-click-opt-out).
+   * **[!UICONTROL 한 번의 클릭으로 옵트아웃]**&#x200B;을 선택하여 사용자가 옵트아웃을 확인할 필요 없이 커뮤니케이션에서 빠르게 구독을 취소할 수 있는 링크를 삽입합니다. [자세히 알아보기](email-opt-out.md#one-click-opt-out)
 
    * **[!UICONTROL 외부 옵트인/구독]**&#x200B;을(를) 선택하여 브랜드의 수신 통신을 수락하는 링크를 삽입합니다.
 
@@ -248,3 +248,4 @@ Adobe Journey Optimizer에서 생성한 미러 페이지에는 모든 개인화 
 
 URL 개인화에 대한 자세한 지침(URL 추적 매개 변수를 개인화하는 방법 및 전체/기본 URL을 개인화하는 방법 포함)은 [URL 개인화](url-personalization.md)를 참조하십시오.
 
+{{$include /help/_includes/do-not-localize/email/ai-augmented-message-tracking.md}}

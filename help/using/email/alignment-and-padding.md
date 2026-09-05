@@ -23,7 +23,7 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: 6edb8a6f2724d2776dc595b48332e064eb04e2a0
 workflow-type: tm+mt
 source-wordcount: 412
 ht-degree: 6%
@@ -83,3 +83,5 @@ ht-degree: 6%
 >[!NOTE]
 >
 >이 동작은 스타일 규칙이 누적될 수 있으므로 조각이 반복적으로 삽입 및 제거될 때 예상됩니다. 이동 경로 탐색을 사용하여 패딩 값을 항상 확인합니다. 특히 모바일 장치를 타깃팅할 때 더욱 그렇습니다.
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-alignment-and-padding.md}}

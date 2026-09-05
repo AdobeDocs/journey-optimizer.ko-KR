@@ -23,7 +23,7 @@ role_v2:
 topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
+source-git-commit: 4a062970cfef4e0d51274a09043677588cad2622
 workflow-type: tm+mt
 source-wordcount: 1026
 ht-degree: 21%
@@ -186,3 +186,5 @@ You cannot delete a subdomain with the **[!UICONTROL Processing]** status.
 웹 하위 도메인이 [새 위임된 하위 도메인](#web-configure-new-subdomain)인 경우 호스팅 솔루션에서 웹 하위 도메인에 대해 만든 CNAME DNS 레코드를 삭제할 수 있습니다(원본 이메일 하위 도메인이 있는 경우 삭제하지 않음).
 
 요청이 Adobe에 의해 처리되면 위임되지 않은 도메인이 더 이상 하위 도메인 인벤토리 페이지에 표시되지 않습니다.
+
+{{$include /help/_includes/do-not-localize/web/ai-augmented-web-delegated-subdomains.md}}

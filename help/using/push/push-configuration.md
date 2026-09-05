@@ -27,7 +27,7 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
+source-git-commit: 03da8f0ff107f23467820de4ce5735971e7b8056
 workflow-type: tm+mt
 source-wordcount: 2223
 ht-degree: 9%
@@ -453,3 +453,5 @@ You can use a test mobile app for this use case. For more on this, refer to this
 1. **[!UICONTROL 보내기]**&#x200B;를 클릭합니다.
 
 이벤트가 트리거되고 모바일 앱에 대한 푸시 알림을 받게 됩니다.
+
+{{$include /help/_includes/do-not-localize/push/ai-augmented-push-configuration.md}}

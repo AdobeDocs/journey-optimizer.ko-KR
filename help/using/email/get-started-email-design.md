@@ -30,8 +30,8 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 33c1b3dc43472224da63ea2075ee9cbbc0489f17
-workflow-type: ht
+source-git-commit: 6edb8a6f2724d2776dc595b48332e064eb04e2a0
+workflow-type: tm+mt
 source-wordcount: 1325
 ht-degree: 100%
 
@@ -167,3 +167,5 @@ Outlook에는 디자인 단계에서 고려하지 않으면 이메일 레이아�
 A/B 테스트를 위한 콘텐츠 실험을 구성하여 비즈니스 목표 달성에 가장 도움이 되는 이메일 콘텐츠를 탐색하는 방법에 대해 알아봅니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3447338?captions=kor)
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-get-started-email-design.md}}

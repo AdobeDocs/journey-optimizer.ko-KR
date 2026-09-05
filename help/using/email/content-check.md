@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: 이메일, 콘텐츠 확인, HTML, CSS, 유효성 검사, 렌더링, 품질
-source-git-commit: 74bd6eeb380f433f08002024aba873906213aad4
+source-git-commit: 6edb8a6f2724d2776dc595b48332e064eb04e2a0
 workflow-type: tm+mt
 source-wordcount: '1310'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 6%
 
 콘텐츠 검사는 항상 이메일 Designer에서 사용할 수 있습니다. 이를 보려면 오른쪽 레일의 문제 아이콘을 클릭하여 **[!UICONTROL 콘텐츠 확인]** 창을 엽니다. 검색된 모든 문제가 여기에 나열됩니다.
 
-![문제가 있는 전자 메일 Designer의 콘텐츠 확인 창](assets/content-check.png)
+![이메일 디자이너의 콘텐츠 확인 창에 문제가 있는 경우](assets/content-check.png)
 
 >[!NOTE]
 >
@@ -131,3 +131,5 @@ CSS 크기와 같은 다른 검사는 이메일 Designer의 라이브 편집 상
 
 * 약 102KB의 HTML에서 메시지를 클립하는 Gmail로 이메일을 클리핑합니다.
 * 모바일 장치 또는 낮은 대역폭 연결에서 느린 렌더링
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-content-check.md}}

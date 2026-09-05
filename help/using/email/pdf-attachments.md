@@ -22,7 +22,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: c1270581f5184ca1f5375a2838dfb2906805a259
+source-git-commit: bfbdc1c88c1cc73f79eee0672d0d6708def69abc
 workflow-type: tm+mt
 source-wordcount: 916
 ht-degree: 11%
@@ -133,3 +133,5 @@ ht-degree: 11%
 전송 시 [!DNL Journey Optimizer]은(는) 지정된 위치에서 파일을 가져와서 해당 수신자의 메시지에 연결합니다. 개인화된 PDF 첨부 파일은 기본 지역의 [높은 처리량](../campaigns/api-triggered-high-throughput.md) 캠페인에 대해 지원됩니다. 이 기능은 지역 장애 조치(failover) 중에는 지원되지 않습니다.
 
 전체 API 페이로드 참조에 대해서는 [대화형 메시지 실행 API 설명서](https://developer.adobe.com/journey-optimizer-apis/references/messaging#tag/execution){target="_blank"}를 참조하십시오.
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-pdf-attachments.md}}

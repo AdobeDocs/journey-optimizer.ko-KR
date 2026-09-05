@@ -28,7 +28,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: d7d7519e6f046802653ed470d00851f17a315bc6
+source-git-commit: c465d24e5ef832bfb19e6e478b9f73e3d7bd1dbb
 workflow-type: tm+mt
 source-wordcount: 1798
 ht-degree: 3%
@@ -289,3 +289,5 @@ ht-degree: 3%
    ![](assets/generate-theme-colors.png){width=90%}
 
 1. 재사용할 새 테마를 저장하려면 **[!UICONTROL 저장]**&#x200B;을 클릭하세요. 이제 이 테마를 다른 테마와 같은 콘텐츠에 적용할 수 있습니다. [방법 알아보기](#apply-themes-email)
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-apply-email-themes.md}}

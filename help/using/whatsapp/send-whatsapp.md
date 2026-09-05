@@ -21,7 +21,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 01105f4dc3f6b52598c634373988570cf6916406
+source-git-commit: 6c881f171bed595f5e8d8f670ca5a2b39d88f0f7
 workflow-type: tm+mt
 source-wordcount: 448
 ht-degree: 6%
@@ -85,3 +85,5 @@ Journey Optimizer은 WhatsApp 채널에서 반환된 추가 상호 작용 데이
 | `interactiveSelectedID` | WhatsApp에서 선택한 옵션의 ID입니다. |
 
 이 데이터 집합을 쿼리하려면 쿼리 서비스의 `ajo_email_tracking_experience_event_dataset` 테이블을 사용합니다. 쿼리 패턴 및 관련 사용 사례는 [데이터 집합 쿼리 예제](../data/datasets-query-examples.md)를 참조하십시오.
+
+{{$include /help/_includes/do-not-localize/whatsapp/ai-augmented-send-whatsapp.md}}

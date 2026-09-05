@@ -23,7 +23,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: 96251debdee69045d2eba8c6b1803e8651a9abe9
 workflow-type: tm+mt
 source-wordcount: 292
 ht-degree: 19%
@@ -80,3 +80,5 @@ ht-degree: 19%
 1. 화면 오른쪽 상단의 **[!UICONTROL 이 서식 파일 사용]**&#x200B;을 클릭합니다.
 
 1. 이메일 Designer을 사용하여 원하는 대로 콘텐츠를 편집합니다.
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-use-email-templates.md}}

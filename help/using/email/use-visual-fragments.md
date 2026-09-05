@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d8f0a7fc524651079c39ca683f7916234d68bab3
+source-git-commit: c966712b5c4681744acb925b5b97f316a4748bf9
 workflow-type: tm+mt
 source-wordcount: 1306
 ht-degree: 1%
@@ -203,3 +203,4 @@ ht-degree: 1%
 >
 >조각 작성자는 나중에 조각 설정에서 상속이 끊어지도록 **[!UICONTROL 허용]**(으)로 동작을 다시 설정하여 설정을 변경할 수 있습니다.
 
+{{$include /help/_includes/do-not-localize/email/ai-augmented-use-visual-fragments.md}}

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: 모듈, 이메일 디자이너, 머리글, 영웅, 카드, 바닥글, 이메일 레이아웃, 드래그 앤 드롭
-source-git-commit: 98c7e06f9677380ad8339ccb25318185d2e84489
+source-git-commit: 6edb8a6f2724d2776dc595b48332e064eb04e2a0
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 10%
@@ -81,6 +81,8 @@ ht-degree: 10%
 | **[!UICONTROL 카드]** | 단일 열 또는 다중 열 그리드 레이아웃의 제품, 문서 또는 컨텐츠 항목. |
 | **[!UICONTROL 팀]** | 사진, 이름 및 역할이 있는 팀원, 작성자 또는 발표자 |
 | **[!UICONTROL 바닥글]** | 탐색 링크, 소셜 미디어 아이콘, 법적 사본, 필수 옵트아웃 및 미러 페이지 링크가 포함된 이메일 바닥글을 작성합니다. |
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-email-modules.md}}
 
 
 

@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 딥링크, 딥링크, 범용 링크, 앱 링크, 이메일, sms
 feature_v2: []
 subfeature_v2: []
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: c966712b5c4681744acb925b5b97f316a4748bf9
 workflow-type: tm+mt
 source-wordcount: 1367
 ht-degree: 1%
@@ -352,3 +352,4 @@ URL 인코딩 쿼리 매개 변수 값입니다. 이렇게 하면 게재 및 렌
 
 +++
 
+{{$include /help/_includes/do-not-localize/email/ai-augmented-deeplinks.md}}

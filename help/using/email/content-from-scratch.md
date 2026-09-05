@@ -28,7 +28,7 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
+source-git-commit: 6edb8a6f2724d2776dc595b48332e064eb04e2a0
 workflow-type: tm+mt
 source-wordcount: 772
 ht-degree: 49%
@@ -155,3 +155,5 @@ ht-degree: 49%
 1. 컨텐츠 품질을 확인하여 가독성, 효율성 및 컨텐츠 응집성을 평가할 수도 있습니다. [콘텐츠 품질 확인에 대해 자세히 알아보기](../content-management/brands-score.md#validate-quality)
 
 1. 콘텐츠가 준비되면 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-content-from-scratch.md}}

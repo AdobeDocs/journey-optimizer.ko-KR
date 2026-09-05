@@ -25,7 +25,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: 96251debdee69045d2eba8c6b1803e8651a9abe9
 workflow-type: tm+mt
 source-wordcount: 678
 ht-degree: 1%
@@ -126,3 +126,5 @@ ht-degree: 1%
 [!DNL Journey Optimizer]의 메시지에 의사 결정 관리 구성 요소를 추가하는 방법을 알아봅니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3415690?captions=kor&quality=12)
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-add-offers-email.md}}
