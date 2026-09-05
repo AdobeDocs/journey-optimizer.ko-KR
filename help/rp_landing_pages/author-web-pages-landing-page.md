@@ -20,7 +20,7 @@ Adobe Journey Optimizer의 강력한 도구를 사용하여 웹 경험을 만들
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 웹 Designer을 사용하여 컨텐츠 편집
 

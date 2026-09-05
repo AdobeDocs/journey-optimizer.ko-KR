@@ -50,7 +50,7 @@ AND 조인 활동 사용
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 차원 활동 변경
 

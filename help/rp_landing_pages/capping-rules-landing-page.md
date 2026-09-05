@@ -42,7 +42,7 @@ Adobe Journey Optimizer에서 메시지 빈도 및 여정 진입 규칙을 제�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 채널별 빈도 설정
 

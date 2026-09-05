@@ -45,7 +45,7 @@ Edge Decisioning 요청에서 컨텍스트 데이터 사용
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 의사결정 요청 및 적격성 규칙에서 컨텍스트 데이터 사용
 
