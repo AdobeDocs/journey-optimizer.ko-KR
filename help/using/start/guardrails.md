@@ -9,25 +9,16 @@ level: Intermediate
 mini-toc-levels: 2
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 TQID: https://experienceleague.adobe.com/k4DqGogrTZ9QrnqyFGwdgDeUI9ivpOd1iSI0c5comuU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-subfeature_v2:
-  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d05045aa7a9742de42afb473d07bcb6095728526
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: ad78185d-8f79-40ad-9bad-cbde74af74ee
+subfeature_v2: id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c54b1db634ebf2a09ba8bcfb6ee0c51e8b48dcd6
 workflow-type: tm+mt
-source-wordcount: 5006
-ht-degree: 90%
+source-wordcount: 4973
+ht-degree: 91%
 
 ---
 
@@ -457,11 +448,7 @@ Journey Optimizer의 하위 도메인 위임에 적용되는 가드레일 및 �
 * 조각을 만들고, 편집하고, 보관하고, 게시하려면 **[!DNL Content Library Manager]** 제품 프로필에 포함된 **[!DNL Manage library items]** 및 **[조각 게시]** 권한이 필요합니다. [자세히 알아보기](../administration/ootb-product-profiles.md#content-library-manager)
 * 시각적 조각은 이메일 채널에만 사용할 수 있습니다.
 * 인앱 채널에는 표현식 조각을 사용할 수 없습니다.
-* 조각은 **700KB**&#x200B;을(를) 초과할 수 없습니다. 조각 크기 저장 및 처리를 위한 시스템 가드레일입니다. 이 임계값 아래에 있으려면 큰 콘텐츠를 재사용 가능한 여러 조각으로 분할하고, 무거운 마크업을 줄이고, 연결된 자산을 최적화합니다.
-
-  >[!NOTE]
-  >
-  >시각적 조각이 **100KB**&#x200B;을(를) 초과하거나 식 조각이 **200KB**&#x200B;을(를) 초과하는 경우 이메일 게재에서 잘림 문제가 발생할 수 있습니다.
+* 조각은 **700KB**&#x200B;을(를) 초과할 수 없습니다. 이 임계값 아래에 있으려면 큰 콘텐츠를 재사용 가능한 여러 조각으로 분할하고, 무거운 마크업을 줄이고, 연결된 자산을 최적화합니다.
 
 * **조각 수 제한**: 작성 중에 콘텐츠 조각 내에서 사용되는 고유한 조각 수가 확인되었습니다. 직접 참조된 조각(AEM 조각 포함)만 카운트됩니다. 다른 조각 내에 중첩된 조각은 별도로 카운트되지 않습니다.
 

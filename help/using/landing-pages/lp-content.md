@@ -10,25 +10,15 @@ level: Beginner
 keywords: 랜딩, 랜딩 페이지, 작성, 페이지, 양식, 구성 요소
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
 TQID: https://experienceleague.adobe.com/F-E8Fy-EYYhS-PqrpQJZKO4MUKfJBTWX9V0DpUyudXU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b19d9237-76be-466d-a869-aacf2d72205f
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: c9b1b332102b782fa7ddb5a7796da7961de09b9e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: d595a60b-bcf5-4a63-a189-66a0be755cc7id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c54b1db634ebf2a09ba8bcfb6ee0c51e8b48dcd6
 workflow-type: tm+mt
-source-wordcount: 1668
+source-wordcount: 1718
 ht-degree: 12%
 
 ---
@@ -107,6 +97,14 @@ ht-degree: 12%
    * **[!UICONTROL 선택한 경우 옵트인]**: 사용자가 동의(옵트인)하려면 확인란을 선택해야 합니다.
    * **[!UICONTROL 선택한 경우 옵트아웃]**: 사용자가 동의(옵트아웃)를 제거하려면 확인란을 선택해야 합니다.
    * **[!UICONTROL 선택한 경우 옵트인, 선택하지 않은 경우 옵트아웃]**: 이 옵션을 사용하면 옵트인/옵트아웃에 대한 단일 확인란을 삽입할 수 있습니다. 사용자는 동의(옵트인)하려면 이 확인란을 선택하고 동의를 제거(옵트아웃)하려면 선택을 해제해야 합니다.
+
+1. 옵트인/옵트아웃 확인란의 경우 사용자가 양식을 제출하기 전에 이 확인란을 선택해야 하려면 **[!UICONTROL 양식 필드 필수 설정]**&#x200B;을 선택합니다.
+
+   >[!NOTE]
+   >
+   >이 옵션은 기본적으로 선택되어 있습니다.
+
+   이 옵션을 활성화하고 확인란을 선택하지 않으면 양식을 제출할 수 없습니다.
 
 1. 다음 세 가지 옵션 중 업데이트할 옵션을 선택합니다.
 
@@ -239,7 +237,7 @@ ht-degree: 12%
 
 이렇게 하려면 아래 절차를 따르십시오.
 
-1. 기본 페이지에서 **[!UICONTROL Form]** 구성 요소의 각 확인란을 관련 구독 목록에 연결합니다. [자세히 알아보기](#use-form-component).
+1. 기본 페이지에서 **[!UICONTROL Form]** 구성 요소의 각 확인란을 관련 구독 목록에 연결합니다. [자세히 알아보기](#use-form-component)
 
    ![](assets/lp_designer-form-luma-newsletter.png)
 
