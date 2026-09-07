@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: c9b1b332102b782fa7ddb5a7796da7961de09b9e
+source-git-commit: c54b1db634ebf2a09ba8bcfb6ee0c51e8b48dcd6
 workflow-type: tm+mt
-source-wordcount: 1668
+source-wordcount: 1718
 ht-degree: 12%
 
 ---
@@ -107,6 +107,14 @@ ht-degree: 12%
    * **[!UICONTROL 선택한 경우 옵트인]**: 사용자가 동의(옵트인)하려면 확인란을 선택해야 합니다.
    * **[!UICONTROL 선택한 경우 옵트아웃]**: 사용자가 동의(옵트아웃)를 제거하려면 확인란을 선택해야 합니다.
    * **[!UICONTROL 선택한 경우 옵트인, 선택하지 않은 경우 옵트아웃]**: 이 옵션을 사용하면 옵트인/옵트아웃에 대한 단일 확인란을 삽입할 수 있습니다. 사용자는 동의(옵트인)하려면 이 확인란을 선택하고 동의를 제거(옵트아웃)하려면 선택을 해제해야 합니다.
+
+1. 옵트인/옵트아웃 확인란의 경우 사용자가 양식을 제출하기 전에 이 확인란을 선택해야 하려면 **[!UICONTROL 양식 필드 필수 설정]**&#x200B;을 선택합니다.
+
+   >[!NOTE]
+   >
+   >이 옵션은 기본적으로 선택되어 있습니다.
+
+   이 옵션을 활성화하고 확인란을 선택하지 않으면 양식을 제출할 수 없습니다.
 
 1. 다음 세 가지 옵션 중 업데이트할 옵션을 선택합니다.
 
@@ -239,7 +247,7 @@ ht-degree: 12%
 
 이렇게 하려면 아래 절차를 따르십시오.
 
-1. 기본 페이지에서 **[!UICONTROL Form]** 구성 요소의 각 확인란을 관련 구독 목록에 연결합니다. [자세히 알아보기](#use-form-component).
+1. 기본 페이지에서 **[!UICONTROL Form]** 구성 요소의 각 확인란을 관련 구독 목록에 연결합니다. [자세히 알아보기](#use-form-component)
 
    ![](assets/lp_designer-form-luma-newsletter.png)
 

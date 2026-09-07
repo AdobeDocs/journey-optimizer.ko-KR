@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a3f084da6079fbdf158aeced3167fb88c695b7af
+source-git-commit: 244b58d353087b16607109b6163ed7a312e8b802
 workflow-type: tm+mt
-source-wordcount: 2323
-ht-degree: 83%
+source-wordcount: 2424
+ht-degree: 79%
 
 ---
 
@@ -69,6 +69,10 @@ ht-degree: 83%
 </tbody>
 </table>
 
+* **랜딩 페이지에 대한 필수 동의 확인란** - 이제 랜딩 페이지 양식 구성 요소에서 확인란을 필수 항목으로 설정하여 방문자가 양식을 제출하기 전에 이를 선택(예: 동의)하도록 할 수 있습니다. [자세히 알아보기](../landing-pages/lp-content.md#use-form-component)
+
+  사용 가능한 날짜: 2026년 9월 4일
+
 ### 여정 {#sep-26-journeys}
 
 <table>
@@ -99,7 +103,7 @@ ht-degree: 83%
 <tr>
 <td>
 <p>이제 여정 고급 표현식 편집기는 AI 기반의 표현식 생성을 통합합니다. 빌드할 표현식을 자연어로 설명하고, 편집기는 즉시 적용하거나 후속 프롬프트를 통해 구체화할 수 있는 사용 준비 코드를 생성합니다.</p>
-<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
+<p>이전에 제한 공급 상태로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 공급).</p>
 <p>자세한 내용은 <a href="../building-journeys/expression/generate-expression.md">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2026년 9월 1일</p>
 </td>
@@ -110,6 +114,10 @@ ht-degree: 83%
 * **여정 표현식 편집기의 새 dateDiff 함수** - 이제 여정 표현식 편집기에 두 날짜의 일 수 차이를 계산하는 `dateDiff` 함수가 포함됩니다. 이 기능은 기한 만들기, 고객 라이프사이클 기간 계산 또는 여정 조건에서 카운트다운 타이머 작성과 같은 시간 기반 논리에 유용합니다.  [자세히 알아보기](../building-journeys/functions/date-functions.md#dateDiff)
 
   사용 가능한 날짜: 2026년 9월 1일
+
+* **여정 예외 항목 분석 스킬** - 이제 CX Coworker가 **여정 예외 항목 분석** 스킬을 사용하여 기록 기준선에 대한 여정 시작, 종료 또는 메시지 전송 카운트에서 예상치 못한 급감, 하락 또는 평면화를 감지할 수 있습니다. 실제 예외 항목이 확인되면 이 스킬은 읽기 전용 진단을 실행하여 잠재적인 근본 원인과 권장 사항을 표시합니다. [자세히 알아보기](../start/ajo-coworker-skills.md#journey-analyze)
+
+  사용 가능한 날짜: 2026년 9월 2일
 
 ### 캠페인 {#sep-26-campaigns}
 

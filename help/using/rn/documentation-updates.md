@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: af4ad93b0a4362fc21c79b218f9bfdf1ef01bdd1
+source-git-commit: 12b99575b72c282e9d0caeae1822b13f6b8f5fcf
 workflow-type: tm+mt
-source-wordcount: 10520
+source-wordcount: 10562
 ht-degree: 96%
 
 ---
@@ -28,6 +28,8 @@ ht-degree: 96%
 이 페이지에는 월별 릴리스 기능 및 개선 사항과 관련된 업데이트 외에도 [!DNL Journey Optimizer] 설명서의 모든 최신 변경 사항이 나와 있습니다.
 
 ## 2026년 9월 {#september-2026}
+
+* 이제 **여정 디자인** 페이지에 활동을 추가하고, 도구 모음 아이콘을 사용하고, 일괄 작업을 위해 여러 활동을 선택하고, 활동을 복사 및 붙여넣기하고, 분기를 연결하거나 분리하는 방법을 다루는 새 캔버스 경험에 대한 전체 자습서 섹션이 포함됩니다. [자세히 보기](../building-journeys/using-the-journey-designer.md#canvas-capabilities)
 
 * 이제 **채널 구성 구성** 페이지에 보조 차원에 사용되는 스키마에 기본 키가 있어야 하며 복합 기본 키가 지원되지 않음을 설명하는 메모가 포함됩니다. [자세히 보기](../orchestrated/channel-config.md)
 

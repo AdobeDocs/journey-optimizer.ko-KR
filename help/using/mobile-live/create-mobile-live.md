@@ -22,9 +22,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: e4d9ae1971d435c221107bede26abe3f74983a6f
+source-git-commit: a2c3b641cc80cc876cb6a4a7e3f922ffdc6a9818
 workflow-type: tm+mt
-source-wordcount: 726
+source-wordcount: 722
 ht-degree: 6%
 
 ---
@@ -182,7 +182,7 @@ ht-degree: 6%
 
 >[!AVAILABILITY]
 >
-> `executionMetadata`은(는) **API 트리거 트랜잭션** 및 **API 트리거 마케팅** 캠페인 모두에서 사용할 수 있습니다.
+> `executionMetadata`은(는) **API 트리거 트랜잭션** 캠페인에만 사용할 수 있습니다.
 
 선택적 `executionMetadata` 필드를 사용하여 주문 ID, 충성도 계층 또는 지역 코드와 같은 프로필에 자신의 **사용자 지정 데이터**&#x200B;를 첨부하십시오. Journey Optimizer은 실행과 함께 이 데이터를 저장하므로 나중에 **라이브 활동 피드백 데이터 세트**&#x200B;에서 검색하고 게재 결과를 비즈니스 레코드에 일치시킬 수 있습니다.
 
