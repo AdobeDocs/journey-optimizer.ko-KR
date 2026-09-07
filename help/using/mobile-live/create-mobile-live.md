@@ -8,23 +8,15 @@ role: User
 level: Beginner
 exl-id: 9864a136-e129-4279-bb09-081b72f584df
 TQID: https://experienceleague.adobe.com/orXAhry8onHXUejP5pzOyHdKbAcD8fiDmvRk-s74xLo
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: ed2fba79-65cb-4680-96d2-2ad5d851714d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: e4d9ae1971d435c221107bede26abe3f74983a6f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: ed2fba79-65cb-4680-96d2-2ad5d851714d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: a2c3b641cc80cc876cb6a4a7e3f922ffdc6a9818
 workflow-type: tm+mt
-source-wordcount: 726
+source-wordcount: 722
 ht-degree: 6%
 
 ---
@@ -182,7 +174,7 @@ ht-degree: 6%
 
 >[!AVAILABILITY]
 >
-> `executionMetadata`은(는) **API 트리거 트랜잭션** 및 **API 트리거 마케팅** 캠페인 모두에서 사용할 수 있습니다.
+> `executionMetadata`은(는) **API 트리거 트랜잭션** 캠페인에만 사용할 수 있습니다.
 
 선택적 `executionMetadata` 필드를 사용하여 주문 ID, 충성도 계층 또는 지역 코드와 같은 프로필에 자신의 **사용자 지정 데이터**&#x200B;를 첨부하십시오. Journey Optimizer은 실행과 함께 이 데이터를 저장하므로 나중에 **라이브 활동 피드백 데이터 세트**&#x200B;에서 검색하고 게재 결과를 비즈니스 레코드에 일치시킬 수 있습니다.
 
@@ -250,4 +242,4 @@ API를 통해 이 데이터를 보내려면 `executionMetadata` 필드에 대한
 
 Adobe Journey Optimizer로 iOS 라이브 활동을 구성하여 iPhone 잠금 화면 및 Dynamic Island에서 다양한 실시간 업데이트를 제공하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479871?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3479864)
