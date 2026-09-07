@@ -8,19 +8,19 @@ topic: Artificial Intelligence
 role: User
 level: Beginner
 mini-toc-levels: 2
-source-git-commit: 46c661740f8a42bcc72c9064e5512b02b1921d71
+source-git-commit: ae1558596cf992f45a4a9d35ee58678bcb5cd969
 workflow-type: tm+mt
-source-wordcount: '3996'
-ht-degree: 6%
+source-wordcount: '4199'
+ht-degree: 5%
 
 ---
 
 
-# CX Coworker의 Journey Optimizer 스킬 {#ajo-coworker-skills}
+# CX Coworker의 Journey Optimizer AI 기능 {#ajo-coworker-skills}
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** 각 스킬에 대한 자세한 지침, 예제 프롬프트 및 모범 사례를 통해 여정 생성 및 분석에서 채널 콘텐츠 생성 및 콘텐츠 에셋 관리에 이르기까지 CX Coworker에서 사용할 수 있는 Adobe Journey Optimizer 스킬을 살펴보십시오.
+**이 페이지에서:** 각 기능에 대한 자세한 지침, 예제 프롬프트 및 모범 사례를 통해 여정 생성 및 분석에서 채널 콘텐츠 생성 및 콘텐츠 에셋 관리에 이르기까지 CX Coworker에서 사용할 수 있는 Adobe Journey Optimizer AI 기능을 살펴보십시오.
 
 >[!ENDSHADEBOX]
 
@@ -32,13 +32,13 @@ AI 기반의 기술을 갖춘 CX Coworker를 사용하면 Journey Optimizer 사�
 
 CX Coworker 는 여정 및 충성도 문제를 관리하는 다양한 기술을 제공합니다.
 
-**여정 중심 스킬:**
+**여정 중심의 AI 기능:**
 
 * **여정 만들기**: 자연어 프롬프트를 통해 마케팅 여정을 빌드하고 구성합니다.
 * **채널 콘텐츠 만들기**: AI 기반 콘텐츠 생성을 사용하여 여정에 대한 채널별 콘텐츠(이메일, 푸시, SMS)를 생성하고 편집하고 관리합니다.
 * **여정 분석**: 여정 분석, 문제 감지, 인사이트 발견 및 여정 성능 최적화
 
-**충성도 중심 스킬:**
+**충성도 중심의 AI 기능:**
 
 * **충성도 문제 관리**: 자연어 프롬프트를 사용하여 충성도 문제를 만들고 관리합니다.
 * **충성도 에이전트 - 데이터 Insight 스킬**: 자연어를 사용하여 충성도 프로그램 성능 데이터를 쿼리하고 분석합니다.
@@ -48,14 +48,14 @@ CX Coworker에는 Journey Optimizer 콘텐츠 템플릿, 조각, 랜딩 페이�
 <!--
 feedback from Ivan: Need to remove Simulate skill from docs until Nico confirms the release timeline.
 
-In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
+In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
 
 * Generating simulated users
 * Generating event values
 * Quick simulation
 -->
 
-## 여정 스킬 {#journey-skills}
+## 여정 {#journey-skills}
 
 ### 여정 만들기 {#journey-create}
 
@@ -315,6 +315,21 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
    * &quot;[여정 이름] 여정에서 사용자 지정 작업 실패의 근본 원인을 보여 줍니다.&quot;
    * &quot;[여정 이름] 여정에 영향을 주는 사용자 지정 작업 오류가 있습니까?&quot;
 
+1. **여정 예외 항목 분석**
+
+   * 여정을 시작, 종료 또는 완료하는 여정 수에 대한 질문을 입력할 때 등 과거 기준선과 비교하여 프로필의 시작, 종료 또는 메시지 보내기 수에서 예상치 못한 급등, 하락 또는 평면화를 감지합니다.
+   * 원시 예외 항목 플래그에만 의존하지 않고 결정론적 통계 검사를 사용하여 플래그가 지정된 변경 사항이 실제 예외 항목인지 확인합니다.
+   * 여정 실행 데이터에 대해 제한적이고 읽기 전용 진단을 실행하여 가능한 근본 원인을 식별하고 각 검사가 권장 사항과 함께 찾고 발견한 내용을 표시합니다.
+   * 특정 여정 버전 및 타임스탬프를 참조하는 예외 항목 경고를 조사합니다.
+
+   샘플 프롬프트:
+   * &quot;어제 환영 여정에 대한 항목이 감소한 이유는 무엇입니까?&quot;
+   * &quot;이번 주에 장바구니 포기 여정의 종료가 급증했습니까?&quot;
+   * &quot;오늘 업데이트 알림 여정에 대한 전송 빈도가 낮은 것 같습니다. 무슨 일이 발생했습니까?&quot;
+   * &quot;지난 30일 동안 제 회원 기념일 감사 여정에 들어가는 프로필 수가 갑자기 감소한 이유는 무엇입니까?&quot;
+   * &quot;평소보다 적은 수의 프로필이 이번 달에 내 갱신 알림 여정을 완료합니다. — 이유?&quot;
+   * &quot;[timestamp]에서 여정 [여정 버전 ID]에 대한 예외 항목 경고가 트리거되었습니다. 조사하십시오.&quot;
+
 #### 범위 스킬 내
 
 여정 분석에서는 다음 기능이 지원됩니다.
@@ -323,13 +338,13 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
 * **다른 스킬과 통합**: 심층 분석을 위해 Audience 및 Data Insights 기능과 공동 작업합니다.
 * **응답 구조**: 추론(논리 설명), 분석 요약(주요 사항 강조 표시), 문제 세부 정보(문제 설명) 및 권장 사항(다음 단계 제안).
 * **사용자 지정 작업 오류 분석**: 여정 내의 사용자 지정 작업 오류 및 오류 급증을 감지하고 진단합니다.
+* **예외 항목 탐지**: 여정의 시작, 종료 또는 전송 카운트에서 통계적으로 중요한 스파이크, 드롭 또는 플랫라인을 탐지하고 확인하며, 가능한 근본 원인을 표시합니다.
 
 #### 범위 외 스킬
 
 현재 다음 기능은 지원되지 않습니다.
 
 * **여정 생성 자동화**
-* **실시간 예외 항목 탐지**
 * **채널 겹치기**
 * **여정 입력 분석**
 * **기술 문제 분석**
@@ -349,7 +364,7 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
 * **정기적 모니터링**: 여정 성과를 정기적으로 검토하여 트렌드 및 예외 항목을 파악합니다.
 * **세분화 최적화**: 피로를 막고 참여도를 극대화할 수 있도록 대상자 세분화를 균형 있게 조정합니다.
 
-## 충성도 기술 {#loyalty-skills}
+## 충성도 {#loyalty-skills}
 
 >[!AVAILABILITY]
 >
@@ -627,6 +642,6 @@ In addition to this, the following capabilities are supported by the Journey Sim
 
 Simulation may not support every activity, channel, or integration that Test mode or a live journey supports, and behavior may change as the capability matures.
 
-➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
+➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
 
 -->
