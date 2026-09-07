@@ -205,7 +205,7 @@ ht-degree: 2%
 
 새로운 여정 캔버스 경험을 사용하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3496193)
+>[!VIDEO](https://video.tv.adobe.com/v/3496198?captions=kor)
 
 ## 여정 시작 {#start-your-journey}
 
