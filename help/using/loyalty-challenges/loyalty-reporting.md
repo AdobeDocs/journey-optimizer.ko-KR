@@ -1,23 +1,23 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 충성도 과제 성능 모니터링
+title: 충성도 챌린지 성과 모니터링
 description: 충성도 과제 보고 대시보드를 사용하여 Adobe Journey Optimizer에서 과제 성능과 통찰력을 추적하는 방법에 대해 알아봅니다.
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
-feature_v2: []
-subfeature_v2: []
-source-git-commit: fee6ae2f8cdc54ec23cced7aa44e6915472c9f89
+feature_v2: id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 530
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# 충성도 과제 성능 모니터링 {#loyalty-reporting}
+# 충성도 챌린지 성과 모니터링 {#loyalty-reporting}
 
 충성도 과제 보고를 사용하여 과제의 성과를 확인하십시오. 누가 가입하고 있는지, 누가 도전을 완료하고 있는지, 프로그램의 매출액이 얼마나 되는지 모두 한 곳에서 확인합니다. 데이터는 Adobe Customer Journey Analytics에서 가져옵니다.
 
@@ -96,4 +96,4 @@ Each card has a priority badge — **High**, **Medium**, or **Low** — based on
 
 ➡️ 과제 보고서를 사용하여 과제 성과를 측정하는 방법 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3497564?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3497534?quality=12)

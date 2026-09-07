@@ -9,26 +9,16 @@ role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
 TQID: https://experienceleague.adobe.com/OJek9bJ53fdDbGpGNpbRR9X-kD9zkQnDRvppsevqO44
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-subfeature_v2:
-  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
-  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
-  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f239af841c707b8254adeeab17662645794ee5b6
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 1243
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -126,7 +116,7 @@ Customer Journey Analytics Workspace과 데이터를 필터링하고 분석하�
 
 * **[!UICONTROL 예상 클릭 수]**: 식별된 봇 및 비사람 상호 작용(NHI) 트래픽을 제외하고 메시지에서 콘텐츠를 클릭한 횟수입니다.
 
-* **[!UICONTROL 예상 CTR]**(클릭스루 비율): 배달된 총 메시지 수에 상대적인 예상 클릭수로 계산됩니다.
+* **[!UICONTROL 예상 CTR]**(클릭스루 비율): 전송된 총 메시지 수 대비 예상 클릭 수로 계산됩니다.
 
 +++
 
@@ -152,7 +142,7 @@ Customer Journey Analytics Workspace과 데이터를 필터링하고 분석하�
 
 * **[!UICONTROL 예상 클릭 수]**: 식별된 봇 및 비사람 상호 작용(NHI) 트래픽을 제외하고 메시지에서 콘텐츠를 클릭한 횟수입니다.
 
-* **[!UICONTROL 예상 CTR]**(클릭스루 비율): 배달된 총 메시지 수에 상대적인 예상 클릭수로 계산됩니다.
+* **[!UICONTROL 예상 CTR]**(클릭스루 비율): 전송된 총 메시지 수 대비 예상 클릭 수로 계산됩니다.
 
 +++
 
@@ -176,7 +166,7 @@ Customer Journey Analytics Workspace과 데이터를 필터링하고 분석하�
 
 **[!UICONTROL 여정 집합별 여정 항목]** 열은 규칙을 입력한 프로필의 수를 표시합니다. 세 가지 유형의 시작이 있습니다.
 
-* **&#x200B;**&#x200B;[!UICONTROL 충돌 없음]&#x200B;**&#x200B;**: 프로필이 규칙 집합 충돌 없이 여정에 들어갔습니다. 이 항목을 막을 수 있는 활성 규칙 집합이 없으며 중재 규칙에 관계없이 여정 항목이 발생했습니다.
+* ****[!UICONTROL 충돌 없음]****: 프로필이 규칙 집합 충돌 없이 여정에 들어갔습니다. 이 항목을 막을 수 있는 활성 규칙 집합이 없으며 중재 규칙에 관계없이 여정 항목이 발생했습니다.
 
 * **높은 우선 순위**: 프로필이 다른 경쟁 여정에 비해 높은 우선 순위로 인해 여정에 들어갔습니다. 충돌(여러 여정에 적합한 프로필)이 있어도 우선순위 점수가 더 높아 이 여정을 선택했습니다.
 

@@ -1,23 +1,23 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 충성도 과제 권한
+title: 충성도 챌린지 권한
 description: Adobe Journey Optimizer에서 로열티 문제에 액세스, 구성 및 사용하는 데 필요한 권한을 알아봅니다.
 feature: Journeys
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 7d6d4f18-8c5d-4c9c-9f7d-2d6c5f9a8b31
-feature_v2: []
-subfeature_v2: []
-source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
+feature_v2: id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 967
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
-# 충성도 과제 권한 {#loyalty-permissions}
+# 충성도 챌린지 권한 {#loyalty-permissions}
 
 ## 개요 {#overview}
 
@@ -77,15 +77,15 @@ ht-degree: 6%
 | 과제 - 여정 생성 트리거 | 예 | 예 | 아니오 |
 | 기본 조직 구성 - 보기 | 예 | 예 | 아니오 |
 | 기본 조직 구성 - 만들기 또는 편집 | 예 | 예 | 아니오 |
-| 기본 조직 구성 - 삭제 | 예 | 아니요 | 아니오 |
+| 기본 조직 구성 - 삭제 | 예 | 아니오 | 아니오 |
 | 보상 구성 - 보기, 중요한 값 제외됨 | 예 | 예 | 아니오 |
-| 보상 구성 - 쓰기 또는 액세스에 민감한 값 | 예 | 아니요 | 아니오 |
+| 보상 구성 - 쓰기 또는 액세스에 민감한 값 | 예 | 아니오 | 아니오 |
 | 이벤트 구성 - 보기 | 예 | 예 | 아니오 |
-| 이벤트 구성 - 쓰기 | 예 | 아니요 | 아니오 |
+| 이벤트 구성 - 쓰기 | 예 | 아니오 | 아니오 |
 | 제품 카탈로그 - 보기 | 예 | 예 | 예 |
-| 제품 카탈로그 - 가져오기 또는 편집 | 예 | 아니요 | 아니오 |
+| 제품 카탈로그 - 가져오기 또는 편집 | 예 | 아니오 | 아니오 |
 | Insights - 보기 | 예 | 예 | 예 |
-| 인사이트 - KPI 구성 쓰기 또는 업데이트 | 예 | 아니요 | 아니오 |
+| 인사이트 - KPI 구성 쓰기 또는 업데이트 | 예 | 아니오 | 아니오 |
 
 ## 기본 역할 범위 {#default-role-scope}
 

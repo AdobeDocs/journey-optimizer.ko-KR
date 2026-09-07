@@ -1,24 +1,24 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 충성도 과제 API
+title: 충성도 챌린지 API
 description: Adobe Journey Optimizer에서 충성도 과제 REST API를 사용하여 도전을 프로그래밍 방식으로 관리하고 프로필 참여 상태를 쿼리하는 방법에 대해 알아봅니다.
 feature: Journeys
 topic: Content Management
 role: Developer
 level: Intermediate
 exl-id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
-feature_v2: []
-subfeature_v2: []
-source-git-commit: 3756e104086c83bbca88b2fe770a40a8e9f39ef3
+feature_v2: id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 315
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
 
-# 충성도 과제 API {#loyalty-challenges-api}
+# 충성도 챌린지 API {#loyalty-challenges-api}
 
 >[!BEGINSHADEBOX]
 

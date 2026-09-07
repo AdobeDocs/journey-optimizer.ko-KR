@@ -9,23 +9,13 @@ role: User
 level: Beginner
 exl-id: 9f395b3d-8414-4e88-b849-6d9af9640b32
 TQID: https://experienceleague.adobe.com/0Xf8qIELy-rLrPg-5slKXt4dlurcaUwXhAW6VWxWuPQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-source-git-commit: cbc84d724fd35457ace4662fe8b91490a1404255
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: fe338112-e2ce-4876-8989-fc4d497613f1id: dc22c819-3f29-4e91-8b7d-5c6719831141
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: d6e0d39b-5df3-4c72-8263-fd834397ee97
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 2111
 ht-degree: 3%
@@ -94,7 +84,7 @@ AI를 사용하여 이메일, 웹, 랜딩 페이지 및 푸시 알림 채널 전
      * **[!UICONTROL Assets]**: Digital Asset Management에서 일치하는 이미지를 참조 콘텐츠로 사용하고 그렇지 않으면 참조 콘텐츠를 수동으로 추가합니다.
      * **[!UICONTROL 균형]**: 먼저 콘텐츠를 참조한 다음 필요한 경우 AI를 참조합니다.
      * **[!UICONTROL Creative]**: Digital Asset Management에 직접 의존하지 않는 생성 AI.
-   * **[!UICONTROL 생성 모델]**: 사용 가능한 기본 제공 모델, 브랜드 자산에 대해 교육된 사용자 지정 Firefly 모델 또는 타사 이미지 생성 공급자 중에서 선택하여 특정 요구 사항과 브랜드 요구 사항에 맞는 이미지를 만듭니다. [자세히 알아보기](generative-models.md). 이미지에 **텍스트 오버레이**&#x200B;가 있는 **Gemini**&#x200B;의 경우 [텍스트 오버레이 이미지에 대한 생성 모델로 Gemini 사용](generative-uc.md#generative-gemini)을 참조하십시오.
+   * **[!UICONTROL 생성 모델]**: 사용 가능한 기본 제공 모델, 브랜드 자산에 대해 교육된 사용자 지정 Firefly 모델 또는 타사 이미지 생성 공급자 중에서 선택하여 특정 요구 사항과 브랜드 요구 사항에 맞는 이미지를 만듭니다. [자세히 알아보기](generative-models.md) 이미지에 **텍스트 오버레이**&#x200B;가 있는 **Gemini**&#x200B;의 경우 [텍스트 오버레이 이미지에 대한 생성 모델로 Gemini 사용](generative-uc.md#generative-gemini)을 참조하십시오.
    * **[!UICONTROL 콘텐츠 형식]**: 이 옵션은 시각적 요소의 특성을 분류하여 사진, 그래픽 또는 미술과 같은 시각적 표현의 다른 형식을 구분합니다.
    * **[!UICONTROL 시각적 강도]**: 이미지의 강도를 조정하여 이미지의 영향을 제어할 수 있습니다. 낮은 설정 (2)는 부드럽고 절제된 모양을 만들고, 높은 설정 (10)은 이미지를 더 생동감 있고 시각적으로 강력하게 만듭니다.
    * **[!UICONTROL 색상 및 색조]**: 이미지 내의 전체 색상 모양과 이미지 내의 분위기 또는 분위기를 전달합니다.
@@ -201,7 +191,7 @@ AI를 사용하여 이메일, 웹, 랜딩 페이지 및 푸시 알림 채널 전
      * **[!UICONTROL Assets]**: Digital Asset Management에서 일치하는 이미지를 참조 콘텐츠로 사용하고 그렇지 않으면 참조 콘텐츠를 수동으로 추가합니다.
      * **[!UICONTROL 균형 조정]**: 먼저 콘텐츠를 참조한 다음 필요한 경우 Firefly을 참조하십시오.
      * **[!UICONTROL Creative]**: Digital Asset Management에 직접 의존하지 않는 생성 AI.
-   * **[!UICONTROL 생성 모델]**: 사용 가능한 기본 제공 모델, 브랜드 자산에 대해 교육된 사용자 지정 Firefly 모델 또는 타사 이미지 생성 공급자 중에서 선택하여 특정 요구 사항과 브랜드 요구 사항에 맞는 이미지를 만듭니다. [자세히 알아보기](generative-models.md). 이미지에 **텍스트 오버레이**&#x200B;가 있는 **Gemini**&#x200B;의 경우 [텍스트 오버레이 이미지에 대한 생성 모델로 Gemini 사용](generative-uc.md#generative-gemini)을 참조하십시오.
+   * **[!UICONTROL 생성 모델]**: 사용 가능한 기본 제공 모델, 브랜드 자산에 대해 교육된 사용자 지정 Firefly 모델 또는 타사 이미지 생성 공급자 중에서 선택하여 특정 요구 사항과 브랜드 요구 사항에 맞는 이미지를 만듭니다. [자세히 알아보기](generative-models.md) 이미지에 **텍스트 오버레이**&#x200B;가 있는 **Gemini**&#x200B;의 경우 [텍스트 오버레이 이미지에 대한 생성 모델로 Gemini 사용](generative-uc.md#generative-gemini)을 참조하십시오.
    * **[!UICONTROL 콘텐츠 형식]**: 이 옵션은 시각적 요소의 특성을 분류하여 사진, 그래픽 또는 미술과 같은 시각적 표현의 다른 형식을 구분합니다.
    * **[!UICONTROL 시각적 강도]**: 이미지의 강도를 조정하여 이미지의 영향을 제어할 수 있습니다. 낮은 설정 (2)는 부드럽고 절제된 모양을 만들고, 높은 설정 (10)은 이미지를 더 생동감 있고 시각적으로 강력하게 만듭니다.
    * **[!UICONTROL 색상 및 색조]**: 이미지 내의 전체 색상 모양과 이미지 내의 분위기 또는 분위기를 전달합니다.

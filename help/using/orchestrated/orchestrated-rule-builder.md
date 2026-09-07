@@ -6,12 +6,10 @@ description: 오케스트레이션된 캠페인에 대한 규칙을 만드는 �
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/-qNlZ2dLqShJwhcIlEe3a9W8eJ-JCoTt8AzT-DU-vJA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: 
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 364
 ht-degree: 65%
@@ -34,7 +32,7 @@ ht-degree: 65%
 
 규칙을 정의하여 데이터를 필터링해야 하는 모든 컨텍스트에서 규칙 빌더를 사용할 수 있습니다.
 
-| 사용 | 예 |
+| 사용 | 예제 |
 |  ---  |  ---  |
 | **대상자 빌드**: **[!UICONTROL 대상자 빌드]** 활동을 사용하여 오케스트레이션된 캠페인에서 타깃팅할 모집단을 지정하고 필요에 맞게 새 대상자를 쉽게 만들 수 있습니다. [대상자를 작성하는 방법 알아보기](../orchestrated/activities/build-audience.md) | ![대상자 작성 인터페이스에 액세스하는 방법을 보여 주는 이미지](assets/query-access-audience.png){width="200" align="center" zoomable="yes"} |
 | **캠페인 캔버스에 조건 만들기**: **[!UICONTROL 분할]** 활동을 사용하여 캠페인 캔버스 내에 규칙을 적용하여 특정 요구 사항에 맞춥니다. [분할 활동을 사용하는 방법을 알아봅니다.](../orchestrated/activities/split.md) | ![워크플로 사용자 정의 옵션에 액세스하는 방법을 보여 주는 이미지](assets/query-access-split.png){width="200" align="center" zoomable="yes"} |

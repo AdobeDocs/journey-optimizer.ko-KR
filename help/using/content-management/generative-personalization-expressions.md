@@ -1,25 +1,23 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 개인화 표현식에 대한 콘텐츠 생성
+title: 개인화 표현식용 콘텐츠 생성
 description: Journey Optimizer에서 컨텐츠 생성을 사용하여 Personalization 편집기의 자연어에서 개인화 표현식을 생성하는 방법과 이메일 Designer에서 표현식 추가 컨트롤이 작동하는 방법을 알아봅니다.
 feature: Content Assistant
 topic: Content Management, Artificial Intelligence
 role: User
 level: Intermediate
 mini-toc-levels: 1
-feature_v2: []
-subfeature_v2:
-  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-  - id: c41e8697-e629-4c38-96b3-564faaa17acf
-source-git-commit: 0e98b784ec90c5a816e3d5db69a5f96a737ab31a
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: d6e0d39b-5df3-4c72-8263-fd834397ee97id: c41e8697-e629-4c38-96b3-564faaa17acf
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 1504
 ht-degree: 2%
 
 ---
 
-# 개인화 표현식에 대한 콘텐츠 생성{#generative-personalization-expressions}
+# 개인화 표현식용 콘텐츠 생성{#generative-personalization-expressions}
 
 >[!BEGINSHADEBOX]
 

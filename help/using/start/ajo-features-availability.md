@@ -9,9 +9,11 @@ role: Admin, User
 level: Beginner, Intermediate
 keywords: 여정 최적화 도구, 기능 가용성, 사용 가능한 사항, GA, 제한된 가용성, Beta, 라이프사이클, 릴리스 날짜, 권한, 기본 오퍼, 캠페인, 여정
 hide: true
-source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
-source-wordcount: '1878'
+source-wordcount: 1878
 ht-degree: 14%
 
 ---
@@ -131,7 +133,7 @@ ht-degree: 14%
 | 통합(타사 데이터 소스) | GA | 모든 기본 오퍼 | 2026년 5월 4일 | 이전 Beta |
 | 조각의 상속 깨기 제한 | GA | 모든 기본 오퍼 | 2026년 5월 21일 | 로컬 편집 내용에 대해 조각 잠금 |
 | Adobe Express 통합 | GA | 모든 기본 오퍼 | 2026년 4월 23일 | 이전 LA |
-| 개인화 표현식에 대한 콘텐츠 생성 | GA | 모든 기본 오퍼 | 2026년 4월 13일 | 개인화 편집기 및 이메일 Designer |
+| 개인화 표현식용 콘텐츠 생성 | GA | 모든 기본 오퍼 | 2026년 4월 13일 | 개인화 편집기 및 이메일 Designer |
 | 이미지를 이메일 콘텐츠 템플릿으로 변환 | GA | 모든 기본 오퍼 | 2026년 3월 31일 | 이전 LA |
 | 랜딩 페이지 사용자 정의 양식 | GA | 모든 기본 오퍼 | 2026년 3월 26일 | 이전 LA(미국 및 호주) |
 | 사용자 지정 Firefly 및 타사 이미지 모델 통합 | GA | 모든 기본 오퍼 | 2026년 3월 2일 | Adobe, 파트너(Gemini) 및 사용자 지정 모델 |

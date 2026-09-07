@@ -6,9 +6,11 @@ topic: Content Management
 role: Developer
 level: Intermediate
 keywords: 인앱, 메시지, 웹 sdk, 구성
-source-git-commit: 4a7f98ce24af02658620485840d11190c0954c09
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: cc5c44e2-54a1-4927-b794-442cd87d8f74
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: 1020
 ht-degree: 0%
 
 ---
@@ -35,13 +37,13 @@ ht-degree: 0%
 default-src  blob:;
 ```
 
-CSP 구성에 대한 자세한 내용은 [데이터 수집 설명서](https://experienceleague.adobe.com/docs/experience-platform/edge/use-cases/configuring-a-csp.html?lang=ko){target="_blank"}를 참조하세요.
+CSP 구성에 대한 자세한 내용은 [데이터 수집 설명서](https://experienceleague.adobe.com/docs/experience-platform/edge/use-cases/configuring-a-csp.html){target="_blank"}를 참조하세요.
 
 ## 웹 SDK 태그 확장을 사용하여 웹 인앱 메시지 구성 {#tag-extension}
 
-아래 설명된 설정을 찾을 수 있는 위치를 이해하려면 [웹 SDK 태그 확장 구성 페이지](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=ko){target="_blank"}를 참조하세요.
+아래 설명된 설정을 찾을 수 있는 위치를 이해하려면 [웹 SDK 태그 확장 구성 페이지](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html){target="_blank"}를 참조하세요.
 
-웹 SDK 태그 확장을 [설치](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=ko#install-the-web-sdk-tag-extension){target="_blank"}한 후 아래 단계에 따라 웹 인앱 메시지에 대한 확장을 구성하십시오.
+웹 SDK 태그 확장을 [설치](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html#install-the-web-sdk-tag-extension){target="_blank"}한 후 아래 단계에 따라 웹 인앱 메시지에 대한 확장을 구성하십시오.
 
 **[!UICONTROL Personalization]** 섹션에서 **[!UICONTROL 개인화 저장소 사용]** 옵션을 선택합니다. 이 옵션을 사용하면 웹 SDK에서 페이지 로드 중에 사용자가 본 경험을 추적할 수 있습니다.
 
@@ -172,7 +174,7 @@ Adobe Journey Optimizer에서 보내는 웹 인앱 메시지를 두 가지 방�
 
 `personalizationStorageEnabled` 구성 옵션을 통해 설정된 횟수 동안 또는 사용자가 페이지를 방문할 때마다 인앱 메시지를 표시하도록 선택할 수 있습니다.
 
-[웹 SDK 구성](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=ko){target="_blank"}에서 필요에 따라 `personalizationStorageEnabled` 옵션을 설정합니다.
+[웹 SDK 구성](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html){target="_blank"}에서 필요에 따라 `personalizationStorageEnabled` 옵션을 설정합니다.
 
 * `personalizationStorageEnabled: true`은(는) [campaign](create-in-app-web.md#configure-inapp)에서 정의한 빈도로 인앱 메시지를 트리거합니다.
 * `personalizationStorageEnabled: false`은(는) 페이지를 로드할 때마다 인앱 메시지를 트리거합니다.

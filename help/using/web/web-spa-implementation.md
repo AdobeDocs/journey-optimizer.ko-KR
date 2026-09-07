@@ -5,9 +5,11 @@ feature: Web Channel
 topic: Content Management
 role: Developer
 level: Intermediate
-source-git-commit: 4a062970cfef4e0d51274a09043677588cad2622
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: d056adbe-402d-4f42-9746-f3d424e598b1id: c618a0dc-1818-4c6d-9916-0d92e6796f24
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: 898
 ht-degree: 2%
 
 ---
@@ -64,7 +66,7 @@ Adobe Journey Optimizer에서 XDM 보기를 활용하여 마케터가 Journey Op
 
 이 경우 일회용 개발자 설정을 완료하려면 다음 단계를 수행해야 합니다.
 
-1. [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=ko){target="_blank"}를 설치하고 [웹 채널 필수 구성 요소](web-prerequisites.md) 페이지를 확인하십시오.
+1. [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target="_blank"}를 설치하고 [웹 채널 필수 구성 요소](web-prerequisites.md) 페이지를 확인하십시오.
 
 2. 개인화할 단일 페이지 애플리케이션에서 모든 XDM 보기를 확인합니다.
 

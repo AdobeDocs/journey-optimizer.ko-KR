@@ -8,9 +8,11 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: 이메일, 콘텐츠 확인, HTML, CSS, 유효성 검사, 렌더링, 품질
-source-git-commit: 6edb8a6f2724d2776dc595b48332e064eb04e2a0
+feature_v2: id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: []
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
-source-wordcount: '1310'
+source-wordcount: 1310
 ht-degree: 7%
 
 ---
@@ -51,7 +53,7 @@ ht-degree: 7%
 
 문제에 따라 더 많은 컨텍스트를 보거나, 원클릭 수정 사항을 적용하거나, 이메일을 저장하여 확인 결과를 새로 고칠 수 있습니다.
 
-* 발견된 문제 중 일부는 **[!UICONTROL 세부 정보 표시]** 단추를 클릭하여 더 많은 컨텍스트를 볼 수 있습니다. 축소하려면 **[!UICONTROL 세부 정보 숨기기]**&#x200B;를 클릭하세요.
+* 발견된 문제 중 일부는 **[!UICONTROL 세부 정보 표시]** 단추를 클릭하여 더 많은 컨텍스트를 볼 수 있습니다. 축소하려면 **[!UICONTROL 세부 정보 숨기기]**를 클릭하세요.
   자세한 정보가 포함된 전자 메일 Designer의 ![콘텐츠 검사 창](assets/content-check-details.png){width="80%"}
 * 마찬가지로 **[!UICONTROL 수정 사항 표시]** 단추를 클릭하고 가능한 경우 원클릭 수정 사항을 적용할 수 있습니다. 이 수정 사항을 자동으로 적용할 수 없는 경우 메시지가 표시되고 문제를 수동으로 해결해야 합니다.
   수정 적용 단추가 있는 전자 메일 Designer의 ![콘텐츠 검사 창](assets/content-check-fix.png){width="80%"}
