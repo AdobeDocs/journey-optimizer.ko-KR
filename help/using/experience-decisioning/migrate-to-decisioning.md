@@ -55,7 +55,7 @@ Decisioning은 기존 의사 결정 관리 프레임워크에 비해 상당한 �
 
 ### AI 및 머신 러닝 기능
 
-* **사용자 지정 지표**: AI 모델에 대해 사용자 지정 최적화 지표를 사용하는 기능. 이렇게 하면 [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}과의 보고 상호 운용성을 제공하고 두 플랫폼 간의 보고를 표준화하고 데이터 일관성과 안정성을 향상시킬 수 있습니다. 매끄러운 통합을 통해 성능 지표를 보다 명확하게 볼 수 있으며 간단한 지표 작성, 대상 게시, Insight Builder를 사용한 임시 질문 및 보고서 예약과 같은 새로운 기능이 추가됩니다.
+* **사용자 지정 지표**: AI 모델에 대해 사용자 지정 최적화 지표를 사용하는 기능. 이렇게 하면 [Customer Journey Analytics](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}과의 보고 상호 운용성을 제공하고 두 플랫폼 간의 보고를 표준화하고 데이터 일관성과 안정성을 향상시킬 수 있습니다. 매끄러운 통합을 통해 성능 지표를 보다 명확하게 볼 수 있으며 간단한 지표 작성, 대상 게시, Insight Builder를 사용한 임시 질문 및 보고서 예약과 같은 새로운 기능이 추가됩니다.
 
 * **상승도 측정**: AI 모델에서 탐색과 악용을 시각화하는 기능. 이를 통해 마케터와 데이터 과학자는 AI 탐사가 장기 모델 성능과 새로운 우수성의 검색 능력을 향상시키는 방법을 정량화할 수 있습니다. 트래픽 할당에 대한 투명성은 AI 의사 결정에 대한 신뢰를 구축하고 팀이 시간에 따른 학습과 성능 모두에 최적화할 수 있도록 권한을 부여합니다. [자세히 알아보기](ranking/auto-optimization-model.md#lift)
 

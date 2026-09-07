@@ -108,7 +108,7 @@ Customer Journey Analytics Workspace과 데이터를 필터링하고 분석하�
 
 ![](assets/cja-journey-canvas.png)
 
-**[!UICONTROL 여정 캔버스]** 위젯을 사용하면 타겟팅된 프로필이 여정을 탐색할 때의 궤적을 시각적으로 추적할 수 있습니다. [Customer Journey Analytics 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)
+**[!UICONTROL 여정 캔버스]** 위젯을 사용하면 타겟팅된 프로필이 여정을 탐색할 때의 궤적을 시각적으로 추적할 수 있습니다. [Customer Journey Analytics 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)
 
 다음 옵션을 사용하여 캔버스 사용자 지정을 개선합니다.
 
