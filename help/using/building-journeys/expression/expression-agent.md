@@ -10,7 +10,8 @@ level: Intermediate
 hide: true
 badge: label="공개 베타" type="Informative"
 mini-toc-levels: 2
-feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+feature_v2:
+  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2: []
 source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
@@ -30,7 +31,7 @@ ht-degree: 5%
 
 표현식 도우미는 여정 고급 표현식 편집기에 내장된 AI 기반 기능입니다. 일반 언어 프롬프트에서 유효한 표현식을 생성하는 데 도움이 됩니다.
 
-여정 **[!UICONTROL 고급 표현식 편집기]**&#x200B;가 열리는 모든 곳에서 사용할 수 있습니다. 예를 들어 **[활동 최적화](../optimize.md)** 내에서 조건 및 라우팅을 구성하거나 사용자 지정 날짜를 사용하는 [**[!UICONTROL 대기&#x200B;]**활동](../wait-activity.md)을 구성할 때 `dateTimeOnly` 식이 필요합니다.
+여정 **[!UICONTROL 고급 표현식 편집기]**&#x200B;가 열리는 모든 곳에서 사용할 수 있습니다. 예를 들어 **[활동 최적화](../optimize.md)** 내에서 조건 및 라우팅을 구성하거나 사용자 지정 날짜를 사용하는 [**[!UICONTROL 대기&#x200B;]**&#x200B;활동](../wait-activity.md)을 구성할 때 `dateTimeOnly` 식이 필요합니다.
 
 ## 표현식 생성 {#generate}
 

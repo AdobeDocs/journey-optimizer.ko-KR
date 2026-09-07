@@ -8,7 +8,8 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: 모듈, 이메일 디자이너, 머리글, 영웅, 카드, 바닥글, 이메일 레이아웃, 드래그 앤 드롭
-feature_v2: id: fe338112-e2ce-4876-8989-fc4d497613f1
+feature_v2:
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
 subfeature_v2: []
 source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt

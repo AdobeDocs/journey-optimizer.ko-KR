@@ -9,8 +9,11 @@ role: User
 level: Intermediate
 keywords: 테스트, 여정, 확인, 오류, 문제 해결
 version: Journey Orchestration
-feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: b9d00d1b-a371-4a75-a52a-3f8ea2029020
+feature_v2:
+  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2:
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+  - id: b9d00d1b-a371-4a75-a52a-3f8ea2029020
 source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 1827
@@ -53,7 +56,7 @@ Adobe Journey Optimizer은 여정을 테스트하고 확인하는 두 가지 방
 +++ 대상자 읽기가 포함된 일괄 여정
 
 
-여정은 **[!UICONTROL 대상자 읽기]**에 의해 트리거되며 캔버스에 단일 이벤트 활동이 없습니다. 시뮬레이션 중에 대상 모집단은 트리거되지 않습니다. 시뮬레이션된 사용자만 여정을 입력합니다.
+여정은 **[!UICONTROL 대상자 읽기]**&#x200B;에 의해 트리거되며 캔버스에 단일 이벤트 활동이 없습니다. 시뮬레이션 중에 대상 모집단은 트리거되지 않습니다. 시뮬레이션된 사용자만 여정을 입력합니다.
 시뮬레이션을 위해 선택한 시뮬레이션된 사용자가 **사용자 테스트** 섹션에 표시됩니다.
 
 읽기 전용 대상이 있는 일괄 여정에 대한 ![시뮬레이션 패널](assets/simulate-batch.png)
