@@ -85,4 +85,4 @@ Journey Optimizer의 보고 기능은 Customer Journey Analytics 기능의 개�
 
 아래 비디오에서는 Customer Journey Analytics에서 향상된 Journey Optimizer 보고를 사용하는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430413)
+>[!VIDEO](https://video.tv.adobe.com/v/3443158?captions=kor)
