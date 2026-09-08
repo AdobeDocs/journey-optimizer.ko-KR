@@ -8,25 +8,15 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 릴리스 정보
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-subfeature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32
+subfeature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 879d334b22c40cd366a3c9df8092b06828c1f493
 workflow-type: tm+mt
-source-wordcount: 2424
+source-wordcount: 2419
 ht-degree: 79%
 
 ---
@@ -101,7 +91,7 @@ ht-degree: 79%
 <tr>
 <td>
 <p>이제 여정 고급 표현식 편집기는 AI 기반의 표현식 생성을 통합합니다. 빌드할 표현식을 자연어로 설명하고, 편집기는 즉시 적용하거나 후속 프롬프트를 통해 구체화할 수 있는 사용 준비 코드를 생성합니다.</p>
-<p>이전에 제한 공급 상태로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 공급).</p>
+<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
 <p>자세한 내용은 <a href="../building-journeys/expression/generate-expression.md">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2026년 9월 1일</p>
 </td>
@@ -119,6 +109,8 @@ ht-degree: 79%
 
 ### 캠페인 {#sep-26-campaigns}
 
+* **액션 캠페인 작성 흐름 다시 디자인** - Adobe Journey Optimizer 액션 캠페인 작성 흐름이 훨씬 직관적이고 효율적이며 원활한 사용자 경험을 제공하도록 다시 디자인되었습니다.
+
 +++ 곧 출시 예정 — **아래 정보는 변경될 수 있습니다.**
 
 <table>
@@ -132,15 +124,12 @@ ht-degree: 79%
 <td>
 <p>이제 액션 캠페인을 실제 운영하기 전에 인바운드 채널 액션을 시뮬레이션할 수 있습니다. 시뮬레이션 모드를 사용하여 시뮬레이션 사용자로 구성을 테스트하고 생성된 URL 및 QR 코드를 포함한 렌더링된 환경을 미리 볼 수 있으므로 규칙, 의사 결정, 콘텐츠 렌더링을 처음부터 끝까지 검증할 수 있습니다.</p>
 <p>이 기능은 현재 Private Beta 버전으로 일부 조직에서만 사용할 수 있습니다. 더 많은 내용은 Adobe 담당자에게 문의하세요.</p>
-<p>사용 가능한 날짜: 2026년 9월 4일</p>
 </td>
 </tr>
 </tbody>
 </table>
 
 * **작업 캠페인용 폴더** - 이제 작업 캠페인을 폴더로 구성하여 인터페이스에서 탐색 및 관리를 개선할 수 있습니다.
-
-* **액션 캠페인 작성 흐름 다시 디자인** - Adobe Journey Optimizer 액션 캠페인 작성 흐름이 훨씬 직관적이고 효율적이며 원활한 사용자 경험을 제공하도록 다시 디자인되었습니다.
 
 * **작업 캠페인의 기본 실행 필드 재정의** - 이전에는 여정 수준에서 사용할 수 있었지만, 이제 작업 캠페인 매개 변수에서 이메일, SMS 및 WhatsApp 게재에 대해 전역적으로 구성된 기본 실행 필드를 재정의할 수 있습니다.
 
