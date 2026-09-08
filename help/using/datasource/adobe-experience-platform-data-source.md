@@ -70,7 +70,7 @@ Adobe Experience Platform 데이터 소스는 Adobe 실시간 고객 프로필�
 
    >[!NOTE]
    >
-   >[!DNL Journey Optimizer] Data Source 구성에서는 XDM 개별 프로필 기반 스키마만 지원됩니다. 자세한 내용은 [XDM 개별 프로필 클래스](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/individual-profile){target="_blank"}를 참조하십시오.
+   >[!DNL Journey Optimizer] Data Source 구성에서는 XDM 개별 프로필 기반 스키마만 지원됩니다. 자세한 내용은 [XDM 개별 프로필 클래스](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/classes/individual-profile){target="_blank"}를 참조하십시오.
 
 1. 사용할 필드를 선택하고 변경 사항을 저장합니다.
 

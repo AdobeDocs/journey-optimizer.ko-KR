@@ -37,7 +37,7 @@ Adobe Journey Optimizer는 팀이 이메일, SMS 등 여러 채널에 걸쳐 개
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 Adobe Journey Optimizer 시작하기
 
@@ -47,7 +47,7 @@ Adobe Journey Optimizer의 기능, 아키텍처, 사용자 인터페이스 등 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 여정 종합 안내서
 
@@ -57,7 +57,7 @@ Adobe Journey Optimizer의 기능, 아키텍처, 사용자 인터페이스 등 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=ko)
 
 캠페인 이해 및 관리
 
@@ -67,7 +67,7 @@ Adobe Journey Optimizer의 기능, 아키텍처, 사용자 인터페이스 등 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=ko)
 
 충돌 관리 및 우선순위 지정
 

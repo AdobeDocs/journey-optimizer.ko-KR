@@ -492,7 +492,7 @@ POST https://edge.adobedc.net/ee/v2/interact
 ```
 
 >[!NOTE]
->OD(Full Decision Management) 요청/응답 참조에 대해서는 [Edge Decisioning API](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api)&#x200B;(base64 인코딩 `decisionScopes`을 사용하여 `activityId` 및 `placementId`을(를) 포함하는 웹 SDK/Edge 변형)을 참조하십시오.
+>OD(Full Decision Management) 요청/응답 참조에 대해서는 [Edge Decisioning API](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api)&#x200B;(base64 인코딩 `decisionScopes`을 사용하여 `activityId` 및 `placementId`을(를) 포함하는 웹 SDK/Edge 변형)을 참조하십시오.
 
 ### Decisioning Edge 요청(마이그레이션 후) {#decisioning-request}
 
@@ -561,7 +561,7 @@ POST https://edge.adobedc.net/ee/v2/interact
 ```
 
 >[!NOTE]
->전체 Journey Optimizer Decisioning Web SDK/Edge 참조에 대해서는 [코드 기반 경험: Decisioning 구현](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/code-based-experience/configure-code-based-channel/code-based-decisioning-implementations)을 참조하십시오.
+>전체 Journey Optimizer Decisioning Web SDK/Edge 참조에 대해서는 [코드 기반 경험: Decisioning 구현](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/code-based-experience/configure-code-based-channel/code-based-decisioning-implementations)을 참조하십시오.
 
 ### Decisioning Edge 응답 {#decisioning-response}
 
@@ -857,7 +857,7 @@ Decisioning 은 세 가지 구현 접근 방식을 지원합니다.
 }
 ```
 
-이러한 이벤트를 통해 의사 결정에서 빈도 제한, 기본 보고 및 AI 기반 순위 최적화를 사용할 수 있습니다. 웹 SDK을 사용하여 제안 이벤트를 보내는 방법은 [코드 기반 경험: 의사 결정 구현](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/code-based-experience/configure-code-based-channel/code-based-decisioning-implementations)을 참조하십시오.
+이러한 이벤트를 통해 의사 결정에서 빈도 제한, 기본 보고 및 AI 기반 순위 최적화를 사용할 수 있습니다. 웹 SDK을 사용하여 제안 이벤트를 보내는 방법은 [코드 기반 경험: 의사 결정 구현](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/code-based-experience/configure-code-based-channel/code-based-decisioning-implementations)을 참조하십시오.
 
 ## 엔드 투 엔드 마이그레이션 프로세스 {#migration-process}
 
