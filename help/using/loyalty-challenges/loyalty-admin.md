@@ -8,8 +8,10 @@ topic: Content Management
 role: Admin
 level: Intermediate
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
-feature_v2: id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2: id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
+feature_v2:
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2:
+  - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
 source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
 workflow-type: tm+mt
 source-wordcount: 1755
@@ -225,7 +227,7 @@ ht-degree: 18%
 
    ![](assets/admin-inventory-upload.png)
 
-1. 인벤토리 목록에서 가져온 데이터를 검토합니다. 목록에는 항목당 하나의 행이 표시됩니다. ]**열에 포함된**[!UICONTROL &#x200B;그룹 열은 해당 항목에 대한 모든 제품 그룹을 알약 또는 여러 그룹에 속하는 경우 여러 알약으로 표시합니다.
+1. 인벤토리 목록에서 가져온 데이터를 검토합니다. 목록에는 항목당 하나의 행이 표시됩니다. **열에 포함된**&#x200B;그룹 열은 해당 항목에 대한 모든 제품 그룹을 알약 또는 여러 그룹에 속하는 경우 여러 알약으로 표시합니다.
 
    ![](assets/admin-inventory-imported.png)
 
@@ -262,7 +264,7 @@ ht-degree: 18%
 
    ![](assets/admin-exclusions-upload.png)
 
-1. 제외 목록에서 가져온 데이터를 검토합니다. 목록에는 항목당 하나의 행이 표시됩니다. ]**열에 포함된**[!UICONTROL  Groups는 해당 항목에 대한 모든 제외 그룹을 알약 또는 여러 그룹에 속한 경우 여러 알약으로 표시합니다.
+1. 제외 목록에서 가져온 데이터를 검토합니다. 목록에는 항목당 하나의 행이 표시됩니다. **열에 포함된** Groups는 해당 항목에 대한 모든 제외 그룹을 알약 또는 여러 그룹에 속한 경우 여러 알약으로 표시합니다.
 
 <!-- SCREENSHOT: Exclusions list after CSV upload -->
 

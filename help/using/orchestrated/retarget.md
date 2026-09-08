@@ -6,8 +6,11 @@ description: Adobe Journey Optimizer을 사용하여 오케스트레이션된 �
 feature: Monitoring
 exl-id: 3c1cad30-3ed7-4df1-a46a-60394a834e79
 version: Campaign Orchestration
-feature_v2: id: b423a773-0a58-4a77-b65d-3dd4ae6ef841id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+feature_v2:
+  - id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2:
+  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
 source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
 workflow-type: tm+mt
 source-wordcount: 952
@@ -52,7 +55,7 @@ ht-degree: 1%
 
    1. 필터 규칙을 선택하고 **[!UICONTROL 보낸 메시지]**&#x200B;와 같이 타깃팅할 **[!UICONTROL 동작]**&#x200B;을(를) 선택합니다.
 
-   1. ![폴더 아이콘 ](assets/do-not-localize/folder-search.svg)을(를) 클릭하여 대상을 변경할 특정 캠페인을 선택합니다. 다음 두 가지 옵션이 있습니다.
+   1. ![폴더 아이콘 &#x200B;](assets/do-not-localize/folder-search.svg)을(를) 클릭하여 대상을 변경할 특정 캠페인을 선택합니다. 다음 두 가지 옵션이 있습니다.
 
       * **[!UICONTROL 특정 캠페인을 선택하십시오]**: 목록에서 특정 캠페인을 선택하여 해당 캠페인과 상호 작용한 수신자를 다시 타겟팅하십시오.
 
@@ -143,7 +146,7 @@ ht-degree: 1%
 
       ![](assets/retarget_13.png){zoomable="yes"}
 
-   1. ![폴더 아이콘 ](assets/do-not-localize/folder-search.svg)을(를) 클릭하여 대상을 변경할 특정 캠페인을 선택합니다. 다음 두 가지 옵션이 있습니다.
+   1. ![폴더 아이콘 &#x200B;](assets/do-not-localize/folder-search.svg)을(를) 클릭하여 대상을 변경할 특정 캠페인을 선택합니다. 다음 두 가지 옵션이 있습니다.
 
       * **[!UICONTROL 특정 캠페인을 선택하십시오]**: 목록에서 특정 캠페인을 선택하여 해당 캠페인과 상호 작용한 수신자를 다시 타겟팅하십시오.
 

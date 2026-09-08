@@ -6,8 +6,12 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="제한 공개" type="Informative"
-feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804did: d556b755-390a-43f0-be32-a08cf6236126
-subfeature_v2: id: dcce7166-436e-4b78-aa5f-c7012ff3a9e3id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+feature_v2:
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+subfeature_v2:
+  - id: dcce7166-436e-4b78-aa5f-c7012ff3a9e3
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
 source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
 workflow-type: tm+mt
 source-wordcount: 359
@@ -40,7 +44,7 @@ ht-degree: 11%
 
 1. [!DNL Journey Optimizer]에서 사용자 지정 채널에 대한 하위 도메인을 설정한 경우 이 구성에 대한 페이로드에 있는 링크를 추적하는 데 사용할 위임된 하위 도메인을 선택할 수 있습니다. [하위 도메인을 위임하는 방법 알아보기](custom-channel-subdomains.md)
 
-1. 선택한 채널에 끝점 URL에 대해 [변수로 정의된 헤더 또는 쿼리 매개 변수가 ](create-custom-channel.md#endpoint-configuration)인 경우 **[!UICONTROL 동적 매개 변수]** 섹션이 나타납니다.
+1. 선택한 채널에 끝점 URL에 대해 [변수로 정의된 헤더 또는 쿼리 매개 변수가 &#x200B;](create-custom-channel.md#endpoint-configuration)인 경우 **[!UICONTROL 동적 매개 변수]** 섹션이 나타납니다.
 
    각 매개 변수의 값을 입력합니다. 개인화 편집기를 사용하여 동적 값(예: 프로필에서 확인된 사용자 식별자)을 삽입할 수 있습니다. 이렇게 하면 프로필 데이터를 기반으로 각 수신자에 대한 요청을 사용자 지정할 수 있습니다.
 

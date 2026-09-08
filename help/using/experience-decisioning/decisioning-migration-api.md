@@ -6,8 +6,12 @@ topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 3ec084ca-af9e-4b5e-b66f-ec390328a9d6
-feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: a984631b-2bae-4860-9b15-69c41a799dcb
-subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+feature_v2:
+  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+  - id: a984631b-2bae-4860-9b15-69c41a799dcb
+subfeature_v2:
+  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+  - id: eb547372-2a95-4d13-b0fd-f720c9895880
 source-git-commit: bf147566ac63bce11f4413a2450b55d436f01d7a
 workflow-type: tm+mt
 source-wordcount: 3211
@@ -451,23 +455,23 @@ POST https://edge.adobedc.net/ee/v2/interact
 ```
 
 **머리글:**
-- `Authorization: Bearer <IMS_ACCESS_TOKEN>`
-- `x-api-key: <API_KEY>`(Developer Console)
-- `x-gw-ims-org-id: <IMS_ORG_ID>`(형식: `{ORG_ID}@AdobeOrg`)
-- `x-request-id: <UNIQUE_REQUEST_ID>`(추적 및 중복 제거용)
-- `Content-Type: application/vnd.adobe.xdm+json; schema="…/decision-request;version=1.0"`
-- `Accept: application/vnd.adobe.xdm+json; schema="…/decision-response;version=1.0"`
-- `x-sandbox-name: <SANDBOX_NAME>`(예: prod, dev)
+&#x200B;- `Authorization: Bearer <IMS_ACCESS_TOKEN>`
+&#x200B;- `x-api-key: <API_KEY>`(Developer Console)
+&#x200B;- `x-gw-ims-org-id: <IMS_ORG_ID>`(형식: `{ORG_ID}@AdobeOrg`)
+&#x200B;- `x-request-id: <UNIQUE_REQUEST_ID>`(추적 및 중복 제거용)
+&#x200B;- `Content-Type: application/vnd.adobe.xdm+json; schema="…/decision-request;version=1.0"`
+&#x200B;- `Accept: application/vnd.adobe.xdm+json; schema="…/decision-response;version=1.0"`
+&#x200B;- `x-sandbox-name: <SANDBOX_NAME>`(예: prod, dev)
 
 **요청 본문 매개 변수:**
-- `xdm:dryRun`(true/false) - 보고를 오염시키지 않고 요청 테스트
-- `xdm:propositionRequests[]` - 결정 요청 배열:
-  - `activityId` - 결정 활동 식별자
-  - `placementId` - 배치 식별자
-  - `itemCount` - 반환할 최대 오퍼 수
-- `xdm:profiles[].xdm:identityMap` - ID 매핑(전자 메일, ECID 등)
-- `xdm:validateContextData` - 엄격한 컨텍스트 데이터 유효성 검사 플래그
-- `xdm:responseFormat.xdm:includeContent` - 실제 콘텐츠와 ID만 포함
+&#x200B;- `xdm:dryRun`(true/false) - 보고를 오염시키지 않고 요청 테스트
+&#x200B;- `xdm:propositionRequests[]` - 결정 요청 배열:
+  &#x200B;- `activityId` - 결정 활동 식별자
+  &#x200B;- `placementId` - 배치 식별자
+  &#x200B;- `itemCount` - 반환할 최대 오퍼 수
+&#x200B;- `xdm:profiles[].xdm:identityMap` - ID 매핑(전자 메일, ECID 등)
+&#x200B;- `xdm:validateContextData` - 엄격한 컨텍스트 데이터 유효성 검사 플래그
+&#x200B;- `xdm:responseFormat.xdm:includeContent` - 실제 콘텐츠와 ID만 포함
 
 **예제 요청 본문:**
 
@@ -501,15 +505,15 @@ POST https://edge.adobedc.net/ee/v2/interact
 ```
 
 **키 요청 필드:**
-- `query.identity.fetch` - 확인할 ID 유형 배열(예: `["ECID"]`)
-- `event.xdm.environment.type` - 환경 유형: `"browser"`, `"app"` 또는 `"server"`
-- `event.xdm.environment.browserDetails` - 브라우저 메타데이터(`viewportWidth`, `viewportHeight`, `userAgent`)
-- `event.xdm.identityMap` - 결정 관리와 동일한 ID 매핑
-- `event.xdm.timestamp` - ISO 8601 타임스탬프
-- `query.personalization.surfaces` - 대상 표면 배열(예: `["web://site.com/homepage"]`) — `decisionScope`을(를) 대체합니다.
-- `query.personalization.schemas` - 반환할 콘텐츠 스키마(예: `["json-content-item", "html-content-item"]`)
-- `data.__adobe.ajo.allowDuplicateDecisionItems` - 중복 제거 제어(기본값: `true`, 여러 표면에 적합한 항목이 한 번만 반환되도록 `false`을(를) 설정하고 다른 표면은 대체/빈 항목을 받습니다). 결정 관리 `allowDuplicatePropositions`을(를) 바꿉니다.
-- `data.__adobe.ajo.dryRun` - 테스트 플래그. 보고 및 최대 가용량 카운터 모두에 대한 피드백 이벤트를 억제합니다. 결정 관리 `xdm:dryRun`을(를) 바꿉니다. 프로덕션 전에 제거합니다.
+&#x200B;- `query.identity.fetch` - 확인할 ID 유형 배열(예: `["ECID"]`)
+&#x200B;- `event.xdm.environment.type` - 환경 유형: `"browser"`, `"app"` 또는 `"server"`
+&#x200B;- `event.xdm.environment.browserDetails` - 브라우저 메타데이터(`viewportWidth`, `viewportHeight`, `userAgent`)
+&#x200B;- `event.xdm.identityMap` - 결정 관리와 동일한 ID 매핑
+&#x200B;- `event.xdm.timestamp` - ISO 8601 타임스탬프
+&#x200B;- `query.personalization.surfaces` - 대상 표면 배열(예: `["web://site.com/homepage"]`) — `decisionScope`을(를) 대체합니다.
+&#x200B;- `query.personalization.schemas` - 반환할 콘텐츠 스키마(예: `["json-content-item", "html-content-item"]`)
+&#x200B;- `data.__adobe.ajo.allowDuplicateDecisionItems` - 중복 제거 제어(기본값: `true`, 여러 표면에 적합한 항목이 한 번만 반환되도록 `false`을(를) 설정하고 다른 표면은 대체/빈 항목을 받습니다). 결정 관리 `allowDuplicatePropositions`을(를) 바꿉니다.
+&#x200B;- `data.__adobe.ajo.dryRun` - 테스트 플래그. 보고 및 최대 가용량 카운터 모두에 대한 피드백 이벤트를 억제합니다. 결정 관리 `xdm:dryRun`을(를) 바꿉니다. 프로덕션 전에 제거합니다.
 
 **예제 요청 본문(서버측):**
 
@@ -618,16 +622,16 @@ Decisioning 응답에 문제 유형 `personalization:decisions`(오퍼), `locati
 ```
 
 **주요 응답 필드:**
-- `handle[].type` - 핸들 형식(`personalization:decisions`, `locationHint:result`, `state:store`)
-- `payload[].id` - 고유한 제안 인스턴스 ID — 다시 표시/상호 작용 이벤트로 에코
-- `payload[].scope` - 제안이 해결된 표면 URI
-- `payload[].scopeDetails.decisionProvider` - 엔진이 `AJO`인지 확인
-- `payload[].scopeDetails.correlationID` - 결정 인스턴스를 서비스 중인 이벤트에 연결합니다.
-- `payload[].scopeDetails.rank` / `payload[].scopeDetails.activity` - 제안에 대한 순위 및 캠페인/액션 메타데이터
-- `payload[].scopeDetails.characteristics.eventToken` - 메시지 수준 추적 토큰
-- `payload[].scopeDetails.characteristics.subPropositions` - Base64로 인코딩된 **결정 항목의 배열**; 각 항목은 항목당 고유한 `token`을(를) 전달합니다. 표시/상호 작용 이벤트에서 `propositionAction.tokens`에 전달하는 항목별 토큰입니다.
-- `payload[].items[].schema` / `payload[].items[].data.content` - 렌더링할 콘텐츠 스키마 및 실제 오퍼 콘텐츠(JSON/HTML)
-- `state:store` 페이로드 - 후속 요청(서버측)에서 유지 및 전달할 ID 및 클러스터 쿠키
+&#x200B;- `handle[].type` - 핸들 형식(`personalization:decisions`, `locationHint:result`, `state:store`)
+&#x200B;- `payload[].id` - 고유한 제안 인스턴스 ID — 다시 표시/상호 작용 이벤트로 에코
+&#x200B;- `payload[].scope` - 제안이 해결된 표면 URI
+&#x200B;- `payload[].scopeDetails.decisionProvider` - 엔진이 `AJO`인지 확인
+&#x200B;- `payload[].scopeDetails.correlationID` - 결정 인스턴스를 서비스 중인 이벤트에 연결합니다.
+&#x200B;- `payload[].scopeDetails.rank` / `payload[].scopeDetails.activity` - 제안에 대한 순위 및 캠페인/액션 메타데이터
+&#x200B;- `payload[].scopeDetails.characteristics.eventToken` - 메시지 수준 추적 토큰
+&#x200B;- `payload[].scopeDetails.characteristics.subPropositions` - Base64로 인코딩된 **결정 항목의 배열**; 각 항목은 항목당 고유한 `token`을(를) 전달합니다. 표시/상호 작용 이벤트에서 `propositionAction.tokens`에 전달하는 항목별 토큰입니다.
+&#x200B;- `payload[].items[].schema` / `payload[].items[].data.content` - 렌더링할 콘텐츠 스키마 및 실제 오퍼 콘텐츠(JSON/HTML)
+&#x200B;- `state:store` 페이로드 - 후속 요청(서버측)에서 유지 및 전달할 ID 및 클러스터 쿠키
 
 `characteristics.subPropositions` 문자열 base64는 항목당 `token`이(가) 있는 제공된 항목의 배열로 디코딩합니다.
 
@@ -678,19 +682,19 @@ Decisioning 은 세 가지 구현 접근 방식을 지원합니다.
 `eventType`과(와) `_experience.decisioning.propositionEventType`은(는) 모두 필요합니다. 둘 중 하나가 누락된 경우 해당 디스플레이/상호 작용 카운터는 증가하지 않습니다.
 
 * **`eventType`** - 이벤트 범주를 지정합니다.
-  - `decisioning.propositionDisplay` — 노출 이벤트(사용자에게 표시되는 오퍼)
-  - `decisioning.propositionInteract` — 상호 작용 이벤트(사용자가 오퍼를 클릭하거나 오퍼에 참여)
+  &#x200B;- `decisioning.propositionDisplay` — 노출 이벤트(사용자에게 표시되는 오퍼)
+  &#x200B;- `decisioning.propositionInteract` — 상호 작용 이벤트(사용자가 오퍼를 클릭하거나 오퍼에 참여)
 
 * **`_experience.decisioning.propositionEventType`** - 이벤트 하위 유형에 플래그를 지정합니다. `1`(각 값은 `1` 또는 `0`임)로 설정된 **정확히 하나의** 이벤트 유형 키 포함(동일한 개체에서 여러 이벤트 유형을 `1`(으)로 설정하지 않음):
-  - `{ "display": 1 }` — 노출 이벤트
-  - `{ "interact": 1 }` — 상호 작용 이벤트
-  - `display`/`interact`/`dismiss`이(가) 모두 `0`이거나 `eventType`이(가) `decisioning.proposition<Display|Interact|Dismiss>` 이외의 값인 경우 이벤트가 **사용자 지정 이벤트**(으)로 처리됩니다.
+  &#x200B;- `{ "display": 1 }` — 노출 이벤트
+  &#x200B;- `{ "interact": 1 }` — 상호 작용 이벤트
+  &#x200B;- `display`/`interact`/`dismiss`이(가) 모두 `0`이거나 `eventType`이(가) `decisioning.proposition<Display|Interact|Dismiss>` 이외의 값인 경우 이벤트가 **사용자 지정 이벤트**(으)로 처리됩니다.
 
 * **`_experience.decisioning.propositionAction.tokens[]`** - 카운터를 증가시킬 제공된 항목을 식별하는 항목별 토큰:
-  - 디코딩된 `subPropositions` 배열 — **not** `scopeDetails.characteristics.eventToken`에서 각 항목의 `token`을(를) 복사합니다. 이 배열은 다른 메시지 수준 토큰입니다.
-  - 토큰을 받은 그대로, 수정되지 않은 상태로 전달합니다.
-  - **상호 작용 이벤트:**&#x200B;은(는) **정확히 하나의** 토큰(클릭한 항목)을 제공합니다.
-  - **이벤트 표시:** 선택 사항 - 토큰을 입력하여 특정 항목을 늘리거나, **생략** `tokens`을(를) 입력하여 `subPropositions`에서 **모든** 항목에 대한 카운터를 늘리십시오.
+  &#x200B;- 디코딩된 `subPropositions` 배열 — **not** `scopeDetails.characteristics.eventToken`에서 각 항목의 `token`을(를) 복사합니다. 이 배열은 다른 메시지 수준 토큰입니다.
+  &#x200B;- 토큰을 받은 그대로, 수정되지 않은 상태로 전달합니다.
+  &#x200B;- **상호 작용 이벤트:**&#x200B;은(는) **정확히 하나의** 토큰(클릭한 항목)을 제공합니다.
+  &#x200B;- **이벤트 표시:** 선택 사항 - 토큰을 입력하여 특정 항목을 늘리거나, **생략** `tokens`을(를) 입력하여 `subPropositions`에서 **모든** 항목에 대한 카운터를 늘리십시오.
 
 * **`_experience.decisioning.propositions[]`** - `id`, `scope` 및 응답에서 전체 `scopeDetails`을(를) 포함하여 제공된 제안을 다시 에코합니다(`characteristics.subPropositions`을(를) 전달하며 `decisionProvider`이(가) 필요). 명시적 `items[]` 배열을 만들 필요가 없습니다.
 
@@ -701,9 +705,9 @@ Decisioning 은 세 가지 구현 접근 방식을 지원합니다.
 1. Experience Platform에서 이벤트 데이터 세트 스키마를 엽니다.
 2. `Experience Event - Proposition Details` 필드 그룹 추가
 3. 다음 필드가 매핑되었는지 확인합니다.
-   - `_experience.decisioning.*`개 필드
-   - `_experience.decisioning.propositionAction.tokens`
-   - `_experience.decisioning.propositionEventType`
+   &#x200B;- `_experience.decisioning.*`개 필드
+   &#x200B;- `_experience.decisioning.propositionAction.tokens`
+   &#x200B;- `_experience.decisioning.propositionEventType`
 
 ### 추적 토큰 처리 {#tracking-token}
 
