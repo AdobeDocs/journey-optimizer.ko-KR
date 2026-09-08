@@ -8,12 +8,13 @@ version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/0uQ81kuezTaU4m83ZP6OiKFpM66ngzHqVKaGQqiFzNE
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: 
+feature_v2:
+  - id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 1947
 ht-degree: 89%
@@ -95,7 +96,7 @@ ht-degree: 89%
 
    +++사용 가능한 연산자 목록
 
-   | 연산자 | 용도 | 예 |
+   | 연산자 | 용도 | 예제 |
    |---|---|---|
    | 다음과 같음 | 두 번째 Value 열에 입력한 데이터와 동일한 결과를 반환합니다. | Last name (@lastName) equal to &#39;Jones&#39;를 사용하면 성이 Jones인 수신자만 반환합니다. |
    | 다음과 같지 않음 | 입력한 값과 동일하지 않은 모든 값을 반환합니다. | Language (@language) not equal to &#39;English&#39;. |

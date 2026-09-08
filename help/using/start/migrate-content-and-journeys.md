@@ -1,20 +1,24 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 컨텐츠 및 여정 마이그레이션
+title: 콘텐츠 및 여정 마이그레이션
 description: 이메일 콘텐츠 템플릿을 마이그레이션하고 외부 플랫폼에서 여정을 가져오는 방법을 알아봅니다.
 feature: Get Started
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: ca3fef2ea7377ab441be9b2bec2132eb46b5c4bb
+feature_v2:
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: []
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: 1317
 ht-degree: 11%
 
 ---
 
-# 컨텐츠 및 여정 마이그레이션 {#migrate-content-and-journeys}
+# 콘텐츠 및 여정 마이그레이션 {#migrate-content-and-journeys}
 
 >[!AVAILABILITY]
 >

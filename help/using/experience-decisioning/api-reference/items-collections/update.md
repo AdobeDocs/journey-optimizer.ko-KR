@@ -17,7 +17,7 @@ role_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 133
 ht-degree: 5%
@@ -36,7 +36,7 @@ ht-degree: 5%
 PATCH /{ENDPOINT_PATH}/item-collections/{ID}
 ```
 
-| 매개 변수 | 설명 | 예 |
+| 매개변수 | 설명 | 예 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 지속성 API의 끝점 경로입니다. | `https://platform.adobe.io/data/core/dps` |
 | `{ID}` | 업데이트하려는 엔티티의 ID입니다. | `itemCollections1234` |
@@ -64,7 +64,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/item-collections/itemColl
 ]'
 ```
 
-| 매개 변수 | 설명 |
+| 매개변수 | 설명 |
 | --------- | ----------- |
 | `value` | 매개 변수를 업데이트할 새 값입니다. |
 | `path` | 업데이트할 매개 변수의 경로입니다. |

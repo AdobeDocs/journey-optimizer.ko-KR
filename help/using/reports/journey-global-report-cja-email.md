@@ -12,7 +12,6 @@ TQID: https://experienceleague.adobe.com/nZejBuTk9AqwR77k6-odCK66c2UbGwMspElt2-1
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
   - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
 subfeature_v2:
   - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
@@ -28,10 +27,10 @@ topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f239af841c707b8254adeeab17662645794ee5b6
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 1292
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -134,9 +133,9 @@ ht-degree: 1%
 
 * **[!UICONTROL 예상 클릭 수]**: 식별된 봇 및 비사람 상호 작용(NHI) 트래픽을 제외하고 메시지에서 콘텐츠를 클릭한 횟수입니다.
 
-* **[!UICONTROL 예상 CTR]**(클릭스루 비율): 배달된 총 메시지 수에 상대적인 예상 클릭수로 계산됩니다.
+* **[!UICONTROL 예상 CTR]**(클릭스루 비율): 전송된 총 메시지 수 대비 예상 클릭 수로 계산됩니다.
 
-* **[!UICONTROL 예상 CTOR]**(Click-to-Open 비율): 총 예상 열람 수에 상대적인 예상 클릭수로 계산됩니다.
+* **[!UICONTROL 예상 CTOR]**(클릭 후 열람률): 예상 열람 수 대비 예상 클릭 수로 계산됩니다.
 
 * **[!UICONTROL 스팸 고객 불만]**: 메시지가 스팸 또는 정크로 선언된 횟수입니다.
 

@@ -12,7 +12,6 @@ TQID: https://experienceleague.adobe.com/RoRap9ND2FI0-rMSSM0eeWcsx7wfjdePCy8XbOM
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
   - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
 subfeature_v2:
   - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
@@ -26,7 +25,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 275d8ae4307bbd6b96711ceabf171bd33c413823
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 3652
 ht-degree: 26%
@@ -150,7 +149,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 * **[!UICONTROL 예상 클릭 수]**: 식별된 봇 및 비사람 상호 작용(NHI) 트래픽을 제외하고 메시지에서 콘텐츠를 클릭한 횟수입니다.
 
-* **[!UICONTROL 예상 CTR]**(클릭스루 비율): 배달된 총 메시지 수에 상대적인 예상 클릭수로 계산됩니다.
+* **[!UICONTROL 예상 CTR]**(클릭스루 비율): 전송된 총 메시지 수 대비 예상 클릭 수로 계산됩니다.
 
 * **[!UICONTROL 구독 취소]**: 구독 취소 링크의 클릭 수입니다.
 

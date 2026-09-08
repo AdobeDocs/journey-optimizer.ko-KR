@@ -12,7 +12,6 @@ TQID: https://experienceleague.adobe.com/-JJssuHJ4-RPjn8TpxLWRANyjoOOyK6BZEb1ABO
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
   - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
 subfeature_v2:
@@ -25,7 +24,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: cce92e02e65281d4e3f801ff407dbaf518fc3ebc
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 3763
 ht-degree: 3%
@@ -42,7 +41,7 @@ ht-degree: 3%
 
 이 섹션에서는 데이터 레이크에서 여정 단계 이벤트를 쿼리하는 데 일반적으로 사용되는 예를 제공합니다. 특정 사용 사례로 이동하기 전에 여정 이벤트 데이터에 사용되는 주요 식별자를 이해하는 것이 중요합니다.
 
-## 전제 조건 {#prerequisites}
+## 사전 요구 사항 {#prerequisites}
 
 이 페이지에서 쿼리를 실행하기 전에 다음을 확인하십시오.
 
@@ -57,7 +56,7 @@ ht-degree: 3%
 
 ## 적합한 쿼리 찾기 {#find-query}
 
-| 난... | 다음으로 이동 |
+| 학습할 내용... | 다음으로 이동 |
 |---|---|
 | 여정에 입력한 프로필 수 | [기본 사용 사례](#common-queries) |
 | 특정 프로필의 여정 경로 디버그 | [프로필 기반 쿼리](#profile-based-queries) |

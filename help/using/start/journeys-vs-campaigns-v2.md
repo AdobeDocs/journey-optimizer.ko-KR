@@ -9,9 +9,14 @@ role: User
 level: Beginner
 hide: true
 keywords: 여정, 캠페인, 비교, 선택, 결정, 워크플로우, 실시간, 일괄 처리, 오케스트레이션, 여러 단계, 예약됨, API 트리거, 이벤트 기반
-source-git-commit: ab31811861ccaab22fc787ce3c687204637fbd46
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: a653cc2e-bc85-4353-a306-399e5b247978
+subfeature_v2:
+  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
-source-wordcount: '1968'
+source-wordcount: 1968
 ht-degree: 2%
 
 ---
@@ -112,7 +117,7 @@ Monday 9 AM → Send newsletter to 100,000 subscribers → All receive simultane
 | 웹 | ✅ | ✅ | ❌ |
 | 코드 기반 | ✅ | ✅ | ❌ |
 | 콘텐츠 카드 | ✅ | ✅ | ❌ |
-| 다이렉트 메일 | ✅ | ✅ | ❌ |
+| DM | ✅ | ✅ | ❌ |
 
 >[!NOTE]
 >

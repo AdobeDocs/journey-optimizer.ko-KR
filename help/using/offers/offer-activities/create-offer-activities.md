@@ -14,8 +14,8 @@ TQID: https://experienceleague.adobe.com/30rooSeteomQEDdTg97LiJDU6-YUiRA0Au3DJp-
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
   - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
@@ -23,7 +23,7 @@ level_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 2569
 ht-degree: 10%
@@ -139,13 +139,13 @@ ht-degree: 10%
 
    ![](../assets/activity_constraint-estimate.png)
 
-1. 각 프로필에 가장 적합한 오퍼를 선택하는 데 사용할 순위 방법을 정의합니다. [자세히 알아보기](../offer-activities/configure-offer-selection.md).
+1. 각 프로필에 가장 적합한 오퍼를 선택하는 데 사용할 순위 방법을 정의합니다. [자세히 알아보기](../offer-activities/configure-offer-selection.md)
 
    ![](../assets/activity_ranking-method.png)
 
    * 기본적으로 여러 오퍼가 이 배치에 적합한 경우 **[!UICONTROL 오퍼 우선 순위]** 메서드는 오퍼에 정의된 값을 사용합니다. 우선 순위 점수가 가장 높은 오퍼는 사용자에게 전달됩니다.
 
-   * 특정 계산된 점수를 사용하여 게재할 적격 오퍼를 선택하려면 **[!UICONTROL 공식]** 또는 **[!UICONTROL AI 모델]**&#x200B;을 선택하십시오. [자세히 알아보기](../offer-activities/configure-offer-selection.md).
+   * 특정 계산된 점수를 사용하여 게재할 적격 오퍼를 선택하려면 **[!UICONTROL 공식]** 또는 **[!UICONTROL AI 모델]**&#x200B;을 선택하십시오. [자세히 알아보기](../offer-activities/configure-offer-selection.md)
 
 1. 같은 배치에 대한 조건을 더 정의하려면 **[!UICONTROL 추가]**&#x200B;를 클릭하십시오.
 

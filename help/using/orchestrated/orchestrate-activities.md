@@ -10,9 +10,10 @@ product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: b364e9038ac9dc2de884c32bc39d4cb20e8bd90a
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 981
 ht-degree: 45%
@@ -117,7 +118,7 @@ ht-degree: 45%
 * **[!UICONTROL 결합]** 활동은 충성도 점수가 50점 미만인 고객을 제외합니다.
 * **[!UICONTROL 이메일 게재]** 활동은 결과 고객에게 이메일을 보냅니다.
 
-분기의 끝에 도달하면 캔버스에 완료 표시를 위해 **[!UICONTROL End]** 활동을 추가할 수 있습니다. **[!UICONTROL End]** 활동을 구성하여 **[!UICONTROL 신호에 의해 트리거됨]**(으)로 설정된 다른 오케스트레이션된 캠페인으로 신호를 보내고 페이로드에서 매개 변수를 전달할 수도 있습니다. [자세히 알아보기](trigger-orchestrated-campaign.md#signal-end).
+분기의 끝에 도달하면 캔버스에 완료 표시를 위해 **[!UICONTROL End]** 활동을 추가할 수 있습니다. **[!UICONTROL End]** 활동을 구성하여 **[!UICONTROL 신호에 의해 트리거됨]**(으)로 설정된 다른 오케스트레이션된 캠페인으로 신호를 보내고 페이로드에서 매개 변수를 전달할 수도 있습니다. [자세히 알아보기](trigger-orchestrated-campaign.md#signal-end)
 
 ## 다음 단계 {#next}
 

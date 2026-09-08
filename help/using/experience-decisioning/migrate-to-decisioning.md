@@ -28,10 +28,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 1320
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -99,7 +99,7 @@ Decisioning은 기존 의사 결정 관리 프레임워크에 비해 상당한 �
 
 * **확장성 및 성능**: 의사 결정 계산을 허브에서 에지로 이동하여 대기 시간을 크게 줄이고 트래픽이 많은 사용 사례에 대한 처리량을 개선하는 아키텍처 개선 사항입니다.
 
-## 예시 사용 사례 {#use-cases}
+## 사용 사례 예시 {#use-cases}
 
 | 사용 사례 | 의사 결정 관리 | 결정 |
 |----------|---------------------|-------------|

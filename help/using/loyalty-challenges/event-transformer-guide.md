@@ -9,12 +9,14 @@ role: Admin
 level: Intermediate
 mini-toc-levels: 1
 exl-id: d3ad85f0-7f7e-40ab-b8c4-fc0c1234be87
-feature_v2: []
-subfeature_v2: []
-source-git-commit: fd49445fcbc1cac73b5e981a23552690f6ccd1a4
+feature_v2:
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2:
+  - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 1705
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -29,7 +31,7 @@ ht-degree: 3%
 
 **목차**
 
-[충성도 문제 시작](get-started.md)
+[충성도 챌린지 시작](get-started.md)
 
 <table style="table-layout:fixed">
 <tr style="border: 0;">
@@ -37,17 +39,17 @@ ht-degree: 3%
 
 **문제 만들기 및 관리**
 
-* [과제 및 작업 액세스 및 관리](access-loyalty-challenges.md)
-* [과제 만들기](create-challenges.md)
+* [챌린지와 작업 액세스 및 관리](access-loyalty-challenges.md)
+* [챌린지 만들기](create-challenges.md)
 * [작업 만들기](create-tasks.md)
-* [충성도 과제 성능 모니터링](loyalty-reporting.md)
+* [충성도 챌린지 성과 모니터링](loyalty-reporting.md)
 
 </td>
 <td style="vertical-align:top;">
 
 **구성 및 통합**
 
-* [충성도 문제 구성](loyalty-admin.md)
+* [충성도 챌린지 구성](loyalty-admin.md)
 * [보상 정의 안내서](reward-definition-guide.md)
 * **이벤트 변환기 안내서** ◀︎ **여기 있습니다**
 * [충성도 데이터 및 데이터 세트](loyalty-data-and-datasets.md)

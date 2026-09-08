@@ -1,25 +1,27 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 과제 및 작업 액세스 및 관리
+title: 챌린지와 작업 액세스 및 관리
 description: Adobe Journey Optimizer에서 충성도 문제 및 작업에 액세스하고, 관리하고, 구성하는 방법을 알아봅니다.
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8907c18e-4623-4743-a76b-333f34e13baf
-feature_v2: []
-subfeature_v2: []
-source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
+feature_v2:
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2:
+  - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 470
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# 과제 및 작업 액세스 및 관리 {#access-loyalty-challenges}
+# 챌린지와 작업 액세스 및 관리 {#access-loyalty-challenges}
 
-## 과제 및 작업 액세스 및 관리
+## 챌린지와 작업 액세스 및 관리
 
 충성도 문제에 액세스하려면 Journey Optimizer으로 이동하여 **[!UICONTROL 여정 관리]** 섹션에서 **[!UICONTROL 충성도 문제]**&#x200B;를 선택하십시오. 충성도 과제 인터페이스는 모든 과제와 작업을 중앙 집중식으로 보고, 관리하고, 구성할 수 있는 위치를 제공합니다.
 

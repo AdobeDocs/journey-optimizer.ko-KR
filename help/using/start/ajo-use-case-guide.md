@@ -8,9 +8,14 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 여정 최적화 도구, 사용 사례, 의사 결정 안내서, 기능, 시작, 실무자 목표, 자습서
-source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
+feature_v2:
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+subfeature_v2:
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
-source-wordcount: '3221'
+source-wordcount: 3221
 ht-degree: 29%
 
 ---
@@ -37,7 +42,7 @@ AI는 이러한 많은 기능에 내장되어 있습니다. 아래 표에서 **(
 
 >[!TIP]
 >
->Journey Optimizer을 처음 사용하십니까? [Journey Optimizer으로 시작](../../rp_landing_pages/get-started-landing-page.md)하여 역할에 적합한 경로를 선택한 다음 필수 요소에 대한 [Journey Optimizer 소개](get-started.md)를 읽어 보세요. 실습형 자신감을 높이려면 [Journey Optimizer 튜토리얼](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}을 탐색하고 전문가가 큐레이션한 [비디오 재생 목록](https://experienceleague.adobe.com/ko/playlists?solution=Journey+Optimizer){target="_blank"}을 따라 [교육 샌드박스](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"}에서 또는 [실습형 과제](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"}를 통해 연습하세요.
+>Journey Optimizer를 처음 사용하시나요? [Journey Optimizer으로 시작](../../rp_landing_pages/get-started-landing-page.md)하여 역할에 적합한 경로를 선택한 다음 필수 요소에 대한 [Journey Optimizer 소개](get-started.md)를 읽어 보세요. 실습형 자신감을 높이려면 [Journey Optimizer 튜토리얼](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}을 탐색하고 전문가가 큐레이션한 [비디오 재생 목록](https://experienceleague.adobe.com/ko/playlists?solution=Journey+Optimizer){target="_blank"}을 따라 [교육 샌드박스](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"}에서 또는 [실습형 과제](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"}를 통해 연습하세요.
 
 ## 팀을 위한 Journey Optimizer 설정 {#setup-admin}
 

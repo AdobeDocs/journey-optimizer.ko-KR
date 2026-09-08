@@ -12,7 +12,6 @@ TQID: https://experienceleague.adobe.com/lewg6KxoowTzp9By5yy62c8ebfa3hloA-FqkUZZ
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
   - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
 subfeature_v2:
   - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
@@ -24,7 +23,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 475
 ht-degree: 25%
@@ -69,7 +68,7 @@ Journey Optimizer의 보고 기능은 Customer Journey Analytics 기능의 개�
 >
 >Adobe Journey Optimizer의 보고는 현재 UTC로 표준화되었습니다. 보고 시간대를 사용자 지정하는 기능은 향후 릴리스에 도입될 예정입니다.
 
-## 전제 조건 {#prerequisites}
+## 사전 요구 사항 {#prerequisites}
 
 * Customer Journey Analytics을 **not** 소유하거나 소유하고 있지만 **not**&#x200B;에서 Customer Journey Analytics 제품 프로필에 액세스할 수 있는 경우 Journey Optimizer에서 권한이 관리됩니다. 이 경우 **[!UICONTROL 채널 보고서 보기]** 권한 또는 관련 역할이 필요합니다. [자세히 알아보기](../administration/permissions.md)
 

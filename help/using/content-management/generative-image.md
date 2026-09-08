@@ -8,10 +8,11 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 exl-id: f0585411-c862-45f2-9a10-d8a72497c533
-feature_v2: []
+feature_v2:
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
 subfeature_v2:
   - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-source-git-commit: cbc84d724fd35457ace4662fe8b91490a1404255
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 1653
 ht-degree: 3%
@@ -74,7 +75,7 @@ AI를 사용하여 이메일, 웹, 랜딩 페이지 및 푸시 알림에서 메�
      * **[!UICONTROL Assets]**: Digital Asset Management에서 일치하는 이미지를 참조 콘텐츠로 사용하고 그렇지 않으면 참조 콘텐츠를 수동으로 추가합니다.
      * **[!UICONTROL 균형]**: 먼저 콘텐츠를 참조한 다음 필요한 경우 AI를 참조합니다.
      * **[!UICONTROL Creative]**: Digital Asset Management에 직접 의존하지 않는 생성 AI.
-   * **[!UICONTROL 생성 모델]**: 사용할 준비가 된 **[!UICONTROL Adobe 모델]**, 특수 기능을 위한 **[!UICONTROL 파트너 모델]** 또는 브랜드 자산에 대해 교육된 **[!UICONTROL 사용자 지정 모델]**&#x200B;에서 선택하십시오. [자세히 알아보기](generative-models.md). 생성된 이미지에서 **텍스트 오버레이**&#x200B;와 함께 파트너(**Gemini**) 모델을 사용하려면 [텍스트 오버레이 이미지에 대한 생성 모델로 Gemini 사용](generative-uc.md#generative-gemini)을 참조하십시오.
+   * **[!UICONTROL 생성 모델]**: 사용할 준비가 된 **[!UICONTROL Adobe 모델]**, 특수 기능을 위한 **[!UICONTROL 파트너 모델]** 또는 브랜드 자산에 대해 교육된 **[!UICONTROL 사용자 지정 모델]**&#x200B;에서 선택하십시오. [자세히 알아보기](generative-models.md) 생성된 이미지에서 **텍스트 오버레이**&#x200B;와 함께 파트너(**Gemini**) 모델을 사용하려면 [텍스트 오버레이 이미지에 대한 생성 모델로 Gemini 사용](generative-uc.md#generative-gemini)을 참조하십시오.
    * **[!UICONTROL 종횡비]**: 에셋의 너비와 높이를 결정합니다. 16:9, 4:3, 3:2 또는 1:1과 같은 일반적인 비율 중에서 선택할 수 있는 옵션이 있거나 사용자 지정 크기를 입력할 수 있습니다.
    * **[!UICONTROL 콘텐츠 형식]**: 이 옵션은 시각적 요소의 특성을 분류하여 사진, 그래픽 또는 미술과 같은 시각적 표현의 다른 형식을 구분합니다.
    * **[!UICONTROL 시각적 강도]**: 이미지의 강도를 조정하여 이미지의 영향을 제어할 수 있습니다. 낮은 설정 (2)는 부드럽고 절제된 모양을 만들고, 높은 설정 (10)은 이미지를 더 생동감 있고 시각적으로 강력하게 만듭니다.
@@ -162,7 +163,7 @@ AI를 사용하여 이메일, 웹, 랜딩 페이지 및 푸시 알림에서 메�
      * **[!UICONTROL Assets]**: Digital Asset Management에서 일치하는 이미지를 참조 콘텐츠로 사용하고 그렇지 않으면 참조 콘텐츠를 수동으로 추가합니다.
      * **[!UICONTROL 균형]**: 먼저 콘텐츠를 참조한 다음 필요한 경우 AI를 참조합니다.
      * **[!UICONTROL Creative]**: Digital Asset Management에 직접 의존하지 않는 생성 AI.
-   * **[!UICONTROL 생성 모델]**: 사용할 준비가 된 **[!UICONTROL Adobe 모델]**, 특수 기능을 위한 **[!UICONTROL 파트너 모델]** 또는 브랜드 자산에 대해 교육된 **[!UICONTROL 사용자 지정 모델]**&#x200B;에서 선택하십시오. [자세히 알아보기](generative-models.md). 생성된 이미지에서 **텍스트 오버레이**&#x200B;와 함께 파트너(**Gemini**) 모델을 사용하려면 [텍스트 오버레이 이미지에 대한 생성 모델로 Gemini 사용](generative-uc.md#generative-gemini)을 참조하십시오.
+   * **[!UICONTROL 생성 모델]**: 사용할 준비가 된 **[!UICONTROL Adobe 모델]**, 특수 기능을 위한 **[!UICONTROL 파트너 모델]** 또는 브랜드 자산에 대해 교육된 **[!UICONTROL 사용자 지정 모델]**&#x200B;에서 선택하십시오. [자세히 알아보기](generative-models.md) 생성된 이미지에서 **텍스트 오버레이**&#x200B;와 함께 파트너(**Gemini**) 모델을 사용하려면 [텍스트 오버레이 이미지에 대한 생성 모델로 Gemini 사용](generative-uc.md#generative-gemini)을 참조하십시오.
    * **[!UICONTROL 콘텐츠 형식]**: 이 옵션은 시각적 요소의 특성을 분류하여 사진, 그래픽 또는 미술과 같은 시각적 표현의 다른 형식을 구분합니다.
    * **[!UICONTROL 시각적 강도]**: 이미지의 강도를 조정하여 이미지의 영향을 제어할 수 있습니다. 낮은 설정 (2)는 부드럽고 절제된 모양을 만들고, 높은 설정 (10)은 이미지를 더 생동감 있고 시각적으로 강력하게 만듭니다.
    * **[!UICONTROL 색상 및 색조]**: 이미지 내의 전체 색상 모양과 이미지 내의 분위기 또는 분위기를 전달합니다.

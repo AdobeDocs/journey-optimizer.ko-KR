@@ -21,10 +21,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: de2272c6d570047cd386941cd2e38cf82942c029
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 1619
-ht-degree: 9%
+ht-degree: 11%
 
 ---
 
@@ -112,7 +112,7 @@ ht-degree: 9%
 
      >[!NOTE]
      >
-     >이 기능은 Adobe AI 기능에 액세스하는 조직에서 사용할 수 있습니다.
+     >이 기능은 Adobe AI 기능에 액세스 권한이 있는 조직에서 사용할 수 있습니다.
 
 1. **[!UICONTROL 처음부터 만들기]**&#x200B;를 선택한 경우 규칙 엔터티를 선택하여 규칙을 만들 개체 유형을 지정합니다.
 
@@ -162,7 +162,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->이 기능은 Adobe AI 기능에 액세스하는 조직에서 사용할 수 있습니다. 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
+>이 기능은 Adobe AI 기능에 액세스 권한이 있는 조직에서 사용할 수 있습니다. 일부 조직에서만 사용 가능합니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하세요.
 >
 >이때 AI 지원 규칙 생성은 여정 컨텍스트 데이터 기반의 표현 생성을 지원하지 않는다.
 

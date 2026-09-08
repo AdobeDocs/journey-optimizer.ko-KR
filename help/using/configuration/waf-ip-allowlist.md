@@ -7,9 +7,12 @@ feature: Channel Configuration, Deliverability
 role: Admin
 level: Experienced
 keywords: waf, 방화벽, ip, 하위 도메인, 보안, 트래픽, 인바운드
-source-git-commit: 1fae65f5e7b54e2b45917ff2c28fe0a326633dfa
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+subfeature_v2: []
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: 1086
 ht-degree: 6%
 
 ---
