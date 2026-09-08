@@ -1,15 +1,17 @@
 ---
-title: 사용자 지정 채널 만들기
+title: 사용자 정의 채널 만들기
 description: 채널 빌더를 사용하여 Adobe Journey Optimizer에서 사용자 지정 채널을 만들고 구성하는 방법에 대해 알아봅니다.
 feature: Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
 badge: label="제한 공개" type="Informative"
-source-git-commit: 9dbefb0dfd426e5a9952b52740b57f5916875b1f
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: dcce7166-436e-4b78-aa5f-c7012ff3a9e3
+source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
 workflow-type: tm+mt
-source-wordcount: '1584'
-ht-degree: 15%
+source-wordcount: 1584
+ht-degree: 16%
 
 ---
 
@@ -62,7 +64,7 @@ ht-degree: 15%
 
    활성 채널을 보관하면 캠페인 작업 선택기, 여정 작업 팔레트, <!--orchestrated campaigns channel list,--> 채널 구성 및 콘텐츠 템플릿 등 모든 선택 드롭다운에서 활성 채널이 제거됩니다. 이미 채널을 사용하고 있는 기존 여정 및 캠페인은 정상적으로 계속 작동합니다.
 
-## 사용자 지정 채널 만들기 {#create-channel}
+## 사용자 정의 채널 만들기 {#create-channel}
 
 새 사용자 지정 채널을 만들려면 아래 단계를 수행하십시오.
 

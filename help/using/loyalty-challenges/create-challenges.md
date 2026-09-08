@@ -8,11 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-feature_v2:
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+feature_v2: id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
+source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
 workflow-type: tm+mt
 source-wordcount: 2577
 ht-degree: 12%
@@ -372,21 +370,21 @@ ht-degree: 12%
 
 **충성도 과제 설정** - 새 충성도 과제를 만들고 구성합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3496476?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496471?quality=12)
 
 **보상 구성** - 보상 전달 및 이행 설정
 
->[!VIDEO](https://video.tv.adobe.com/v/3496486?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496481?quality=12)
 
 ➡️ 챌린지 콘텐츠 카드를 만드는 방법 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3496534?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496529?quality=12)
 
 ➡️ 문제에 대한 라이프사이클 메시지를 설정하는 방법 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3497460?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3497455?quality=12)
 
 ➡️ 문제를 게시하고 여정을 생성하는 방법을 확인하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3498582?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3498577?quality=12)
 

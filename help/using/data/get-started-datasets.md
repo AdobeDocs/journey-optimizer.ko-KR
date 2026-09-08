@@ -9,27 +9,13 @@ level: Experienced
 keywords: Platform, Data Lake, 만들기, 레이크, 데이터 세트, 프로필
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
 TQID: https://experienceleague.adobe.com/VYD0k1jjQB-7iEShgFWKDfaVl5BFvtnxxjSrqBiYThw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371
-  - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
-  - id: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: de8759bda1690076110ba19f878ff940441907e8
-workflow-type: ht
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: d6e5c7fd-c1d6-4137-98cd-138ccde6752fid: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+workflow-type: tm+mt
 source-wordcount: 1343
 ht-degree: 100%
 
@@ -47,7 +33,7 @@ Adobe Experience Platform에 수집되는 모든 데이터는 데이터 세트�
 
 ## 가드레일 및 제한 사항
 
-* 2024년 11월 1일부로 스트리밍 세분화는 더 이상 [!DNL Journey Optimizer] 추적 및 피드백 데이터 세트의 전송 및 열기 이벤트를 지원하지 않습니다. 빈도 캡핑 또는 피로도 관리를 구현하려면 해당 이벤트 대신 비즈니스 규칙을 사용하십시오. [이 섹션](../conflict-prioritization/rule-sets.md)에서 자세한 내용을 확인할 수 있으며, [여기](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=ko){target="_blank"}에는 일별 캡핑 사용 사례 설명이 있습니다.
+* 2024년 11월 1일부로 스트리밍 세분화는 더 이상 [!DNL Journey Optimizer] 추적 및 피드백 데이터 세트의 전송 및 열기 이벤트를 지원하지 않습니다. 빈도 캡핑 또는 피로도 관리를 구현하려면 해당 이벤트 대신 비즈니스 규칙을 사용하십시오. [이 섹션](../conflict-prioritization/rule-sets.md)에서 자세한 내용을 확인할 수 있으며, [여기](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}에는 일별 캡핑 사용 사례 설명이 있습니다.
 
 * 2025년 2월부로 TTL(Time-to-Live) 가드레일이 Journey Optimizer 시스템 생성 데이터 세트에 배포됩니다. [자세히 알아보기](datasets-ttl.md)
 
@@ -119,7 +105,7 @@ Adobe Experience Platform에 수집되는 모든 데이터는 데이터 세트�
 
 이 비디오에서는 데이터 세트를 만들고, 이를 스키마에 매핑하며, 데이터를 추가하고 데이터가 수집되었는지 확인하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416651?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334293?quality=12)
 
 ## 프로필에 대한 데이터 세트 활성화 {#profile-datasets}
 
