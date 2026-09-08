@@ -13,10 +13,10 @@ feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: cd60c7fb58702a2b5fc8d5147ea677fd3d7ff29a
+source-git-commit: 02ff2d2090fd2271c3b6ffc0832ff66b9fd0f0b7
 workflow-type: tm+mt
-source-wordcount: 10562
-ht-degree: 96%
+source-wordcount: 10638
+ht-degree: 95%
 
 ---
 
@@ -72,6 +72,8 @@ ht-degree: 96%
 * **그리드** 구성 요소 섹션이 **이메일 디자이너 콘텐츠 구성 요소** 페이지에 추가되었습니다. 콘텐츠를 행과 열로 구성된 구조화된 그리드 형태로 구성할 수 있으며, 각 셀에는 다른 콘텐츠 구성 요소를 포함할 수 있습니다. [자세히 보기](../email/content-components.md#grid)
 
 * **의사 결정 마이그레이션 API** 설명서가 업데이트되어 대상 샌드박스&#x200B;**가 소스 샌드박스**&#x200B;와 동일할 수 있다는 점이 명확해졌습니다. 마이그레이션 프로세스는 이러한 시나리오를 처리하며, 오브젝트가 동일한 샌드박스 내에서 마이그레이션되든 다른 샌드박스로 마이그레이션되든 관계없이 데이터 무결성을 보장합니다. [자세히 보기](../experience-decisioning/decisioning-migration-api.md#target-sandbox-preparation)
+
+* Decisioning 관리 개체를 Decisioning으로 마이그레이션하는 방법에 대한 포괄적인 지침을 통해 **Decisioning 마이그레이션 API** 설명서가 향상되었습니다. 새로운 섹션에는 10개의 이름 지정 규칙이 포함된 엔티티 매핑 참조, 범위 내 및 범위 외 적용 범위, 자세한 요청/응답 모델 비교, 쿠키 처리가 포함된 3개의 구현 패턴(클라이언트측, 서버측, 하이브리드), 5개의 이벤트 JSON 예가 있는 이벤트 추적 요구 사항, 샌드박스 간 마이그레이션 사전 요구 사항, 엔드 투 엔드 5단계 마이그레이션 프로세스 및 마이그레이션 FAQ가 포함됩니다. [자세히 보기](../experience-decisioning/decisioning-migration-api.md)
 
 * 새로운 **CX Coworker 스킬** 페이지가 추가되었습니다. Journey Optimizer에서 사용할 수 있는 모든 여정 스킬(여정 생성, 채널 콘텐츠 생성, 충성도 챌린지 관리, 여정 분석 등)에 대한 포괄적인 정보를 제공하며, 각 스킬에 대한 사용 사례, 샘플 프롬프트 및 모범 사례를 포함합니다. [자세히 보기](../start/ajo-coworker-skills.md)
 

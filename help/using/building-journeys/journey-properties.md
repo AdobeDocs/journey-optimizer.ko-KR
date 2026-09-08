@@ -31,7 +31,7 @@ topic_v2:
 source-git-commit: 8c6647e0d1dc82656ac22fd5309a68b8dfdc8f56
 workflow-type: tm+mt
 source-wordcount: 5676
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
@@ -371,7 +371,7 @@ ht-degree: 10%
 
 >[!CAUTION]
 >
->**사용 중단 알림 - 2026년 9월**: **2026년 9월**&#x200B;부터 Journey Optimizer은 **종료 기준**&#x200B;에서 일괄 대상을 사용하는 여정에 대한 게시를 차단합니다. 기존 라이브 여정은 영향을 받지 않습니다. 이 구성의 신규, 초안 및 중복 여정은 2026년 9월 이전에 업데이트해야 합니다. [여정 마이그레이션 방법 알아보기](aq-batch-audiences-migration.md)
+>**사용 중단 알림 - 2026년 9월**: **2026년 9월**&#x200B;부터 Journey Optimizer은 **종료 기준**&#x200B;에서 일괄 대상을 사용하는 여정에 대한 게시를 차단합니다. 기존 라이브 여정에는 영향을 미치지 않습니다. 이 구성의 신규, 초안 및 중복 여정은 2026년 9월 이전에 업데이트해야 합니다. [여정 마이그레이션 방법 알아보기](aq-batch-audiences-migration.md)
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_exit_criterias"
@@ -475,7 +475,7 @@ ht-degree: 10%
 
 * 다른 여정, 캠페인 또는 채널 구성과의 **충돌 보기**. 대상, 시작 및 종료 날짜, 채널 구성, 채널 또는 규칙 세트에 대한 겹침을 식별하려면 여기에서 잠재적인 충돌을 볼 수 있습니다. [여정에서 잠재적인 충돌을 식별하는 방법에 대해 알아봅니다](../conflict-prioritization/conflicts.md)
 
-## 홀드아웃 그룹으로 여정 상승도 측정 {#performance-management}
+## 유지 그룹으로 여정 상승도 측정 {#performance-management}
 
 >[!AVAILABILITY]
 >
@@ -484,7 +484,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_performance_measurement"
 >title="성능 측정"
->abstract="여정 수준 보류 그룹을 구성하여 여정의 증분 효과를 측정합니다. 성공 지표를 선택하고 홀드아웃 비율을 설정하여 대상의 해당 부분이 여정에 들어가지 않도록 제외합니다. 제외된 프로필은 제외 이벤트를 통해 추적되며, 상승도를 측정하기 위해 Customer Journey Analytics 보고에서 활성 프로필과 비교할 수 있습니다."
+>abstract="여정 수준 유지 그룹을 구성하여 여정의 증분 효과를 측정합니다. 성공 지표를 선택하고 유지 비율을 설정하여 대상자의 해당 부분이 여정에 들어가지 않도록 제외합니다. 제외된 프로필은 제외 이벤트를 통해 추적되며, 상승도를 측정하기 위해 Customer Journey Analytics 보고에서 활성 프로필과 비교할 수 있습니다."
 
 여정 속성의 **[!UICONTROL 성능 측정]** 섹션을 사용하면 **여정 수준 보류 그룹**&#x200B;을 구성하여 여정의 증분 효과를 측정할 수 있습니다.
 
