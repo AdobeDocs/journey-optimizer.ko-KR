@@ -302,4 +302,4 @@ CNAME을 사용하여 하위 도메인을 설정하려면 아래 단계를 따�
 
 CNAME을 사용하여 Adobe 관련 레코드를 가리키도록 하위 도메인을 만드는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/342238?captions=kor&quality=12)

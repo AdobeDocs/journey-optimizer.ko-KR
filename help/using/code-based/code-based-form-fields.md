@@ -266,4 +266,4 @@ JSON 또는 HTML 코드 중 일부를 편집할 수 있도록 하려면 먼저 �
 
 코드 기반 경험 채널 콘텐츠 템플릿에 편집 가능한 필드를 추가하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3463990/?learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3463998/?captions=kor&learn=on&#x26;enablevpops)

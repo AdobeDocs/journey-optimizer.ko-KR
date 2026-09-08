@@ -42,4 +42,4 @@ Adobe의 실시간 크로스 채널 사용 사례를 보완하는 데이터 사�
 
 비디오에서 Federated Audience 구성에 대해 자세히 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3432261?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3450890?captions=kor&quality=12)
