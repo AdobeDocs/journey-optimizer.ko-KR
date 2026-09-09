@@ -7,13 +7,9 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-  - id: a984631b-2bae-4860-9b15-69c41a799dcb
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: a984631b-2bae-4860-9b15-69c41a799dcb
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: b364427cbb6cc0c463c1d14bff2dc6e042830b86
 workflow-type: tm+mt
 source-wordcount: 2888
 ht-degree: 14%
@@ -106,8 +102,8 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
 >abstract="기본적으로 모든 프로필은 결정 항목을 수신할 수 있지만 대상자 또는 규칙을 사용하여 항목을 특정 프로필로만 제한할 수 있습니다."
 
 <!--
->"additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
@@ -201,7 +197,7 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
      >
      >**특정 배치** 한도 설정은 **웹** 및 **전자 메일** 채널에서만 지원됩니다. 코드 기반 경험, SMS, 푸시 또는 DM 채널에는 사용할 수 없습니다.
 
-     **[!UICONTROL 배치 선택]**&#x200B;을 클릭하여 제한할 배치를 선택하십시오. 다른 배치는 닫히지 않은 상태로 통과합니다. 예를 들어, 하루에 3회 노출을 상한으로 하는 히어로 배너 배치를 선택하는 경우, 오퍼는 3회 노출 후 히어로 배너에 표시되지 않지만 다른 모든 배치에서는 계속 사용할 수 있습니다.
+     **[!UICONTROL 배치 선택]**&#x200B;을 클릭하여 덮을 배치를 선택하십시오. 다른 배치는 닫히지 않은 상태로 통과합니다. 예를 들어, 하루에 3회 노출을 상한으로 하는 히어로 배너 배치를 선택하는 경우, 오퍼는 3회 노출 후 히어로 배너에 표시되지 않지만 다른 모든 배치에서는 계속 사용할 수 있습니다.
 
      ![특정 배치 한도 범위를 선택하고 배치 선택 단추와 선택한 배치 태그를 표시합니다](assets/item-capping-scope-specific.png){width="75%"}
 
