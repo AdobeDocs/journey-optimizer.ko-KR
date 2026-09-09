@@ -8,13 +8,11 @@ topic: Artificial Intelligence
 role: User
 level: Beginner
 mini-toc-levels: 2
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
 subfeature_v2: []
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 64ad1a5b9d6a505e067cac23a71079fa7611b842
 workflow-type: tm+mt
-source-wordcount: 4199
+source-wordcount: 4194
 ht-degree: 5%
 
 ---
@@ -45,14 +43,14 @@ CX Coworker 는 여정 및 충성도 문제를 관리하는 다양한 기술을 
 **충성도 중심의 AI 기능:**
 
 * **충성도 문제 관리**: 자연어 프롬프트를 사용하여 충성도 문제를 만들고 관리합니다.
-* **충성도 에이전트 - 데이터 Insight 스킬**: 자연어를 사용하여 충성도 프로그램 성능 데이터를 쿼리하고 분석합니다.
+* **충성도 인사이트 스킬**: 자연어를 사용하여 충성도 프로그램 성능 데이터를 쿼리하고 분석합니다.
 
 CX Coworker에는 Journey Optimizer 콘텐츠 템플릿, 조각, 랜딩 페이지 및 여정/캠페인 인라인 메시지 콘텐츠를 검색, 생성 및 관리하는 **콘텐츠 관리 MCP 도구** 세트도 포함되어 있습니다. [자세히 알아보기](#content-management)
 
 <!--
 feedback from Ivan: Need to remove Simulate skill from docs until Nico confirms the release timeline.
 
-In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
+In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
 
 * Generating simulated users
 * Generating event values
@@ -432,9 +430,9 @@ Loyalty Challenge Management를 사용하면 Journey Optimizer 사용자가 자�
 1. **보상 설명**: 포인트, 마일, 문 크레딧, 상태 확장, 바우처 또는 완료 시 부여된 권한.
 1. **자격 부여 이벤트 참조**: 문제가 추적하는 특정 SKU, 제품, 계정 작업 또는 참여 이벤트를 가리킵니다.
 
-### 충성도 에이전트 - 데이터 Insight {#loyalty-data-insight}
+### 충성도 통찰력 스킬 {#loyalty-data-insight}
 
-충성도 에이전트 - 데이터 Insight 스킬을 사용하면 Journey Optimizer 사용자가 자연어를 사용하여 충성도 프로그램 성능 데이터를 분석하고 쿼리할 수 있습니다. 이 스킬은 충성도 포인트, 멤버 계층, 환급 및 매출 지표에 대한 통찰력을 제공하여 충성도 관리자 및 분석가가 충성도 프로그램에 대한 데이터 기반 결정을 내릴 수 있도록 합니다.
+충성도 인사이트 스킬을 사용하면 Journey Optimizer 사용자가 자연어를 사용하여 충성도 프로그램 성능 데이터를 분석하고 쿼리할 수 있습니다. 이 스킬은 충성도 포인트, 멤버 계층, 환급 및 매출 지표에 대한 통찰력을 제공하여 충성도 관리자 및 분석가가 충성도 프로그램에 대한 데이터 기반 결정을 내릴 수 있도록 합니다.
 
 주요 사용 사례 :
 
@@ -646,6 +644,6 @@ In addition to this, the following capabilities are supported by the Journey Sim
 
 Simulation may not support every activity, channel, or integration that Test mode or a live journey supports, and behavior may change as the capability matures.
 
-➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
+➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
 
 -->
