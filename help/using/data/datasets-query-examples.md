@@ -10,26 +10,14 @@ level: Experienced
 keywords: 데이터 세트, 최적화 도구, 사용 사례
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 TQID: https://experienceleague.adobe.com/bbZLNKJ3wg--z3PcVQ4tTvMtuyR7LMsh7qJjrlZ6L7Y
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371
-  - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
-  - id: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371id: d6e5c7fd-c1d6-4137-98cd-138ccde6752fid: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: b5a925fd54bdb6c7f4aa34afffd943ac47c5ce46
 workflow-type: tm+mt
-source-wordcount: 1152
+source-wordcount: 1498
 ht-degree: 2%
 
 ---
@@ -101,13 +89,55 @@ limit 100;
 
 _인터페이스의 이름: AJO 메시지 피드백 이벤트 데이터 세트_
 
-Journey Optimizer에서 이메일 및 푸시 애플리케이션 피드백 이벤트를 수집하기 위한 데이터 세트입니다.
+AJO 메시지 피드백 이벤트 데이터 세트는 Adobe Journey Optimizer에서 생성된 메시지 게재 피드백을 저장합니다. 이메일, SMS/RCS/MMS 및 DM을 포함한 메시지 채널 전반에 대한 게재 피드백 분석을 지원합니다. 피드백 이벤트는 보고 및 대상자 만들기 사용 사례에 사용할 수 있습니다.
 
 관련 스키마는 AJO 메시지 피드백 이벤트 스키마입니다.
 
 >[!NOTE]
 >
 >이 데이터 세트는 일괄 처리 수집을 사용합니다. 이 데이터 세트를 쿼리하거나 보고 목적으로 사용할 때 최대 2시간의 데이터 지연이 예상됩니다.
+
+필드, 필드 경로, 데이터 형식 및 설명의 전체 목록은 [Adobe Journey Optimizer 스키마 참조](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"}를 참조하십시오.
+
+>[!NOTE]
+>
+>모든 메시지 피드백 이벤트에서 채널별 컨텍스트 필드가 반드시 채워지지는 않습니다. 필드 가용성은 채널, 공급자 피드백 페이로드, 이벤트 유형 및 게재 단계에 따라 달라질 수 있습니다. 기본 상관 관계 필드로 메시지 실행 식별자, 피드백 상태, 실패 세부 정보, 타임스탬프 및 ID 정보를 사용합니다.
+
+### 테스트 및 비테스트 실행 분류{#classify-test-executions}
+
+필드가 채워질 때 테스트 실행과 비테스트 실행을 구분하려면 `isTestExecution` 필드를 사용하십시오.
+
+쿼리를 작성하기 전에 [Adobe Journey Optimizer 스키마 참조](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"}를 사용하여 AJO 메시지 피드백 이벤트 스키마에 대한 현재 필드 경로, 데이터 형식 및 설명을 확인하십시오.
+
+채워진 값을 다음과 같이 해석합니다.
+
+| 값 | 해석 |
+| ------- | ------- |
+| `true` | 메시지가 테스트 실행의 일부였습니다. |
+| `false` | 메시지가 테스트 실행의 일부가 아닙니다. |
+| `NULL` 또는 누락 | 필드에 값이 기록되지 않았습니다. 채널별 및 시간별 매핑이 유효화되지 않은 경우 이를 알 수 없음으로 처리합니다. |
+
+`NULL`을(를) `false`(으)로 자동으로 변환하지 말고 모든 null 값이 프로덕션 실행을 나타낸다고 가정하지 마십시오. 보고 구현에서 Null 값이 특정 채널 또는 기록 기간에 대한 비테스트 레코드를 나타낸다는 것을 확인한 경우 다운스트림 보고 보기에서 해당 매핑을 적용하고 규칙을 명시적으로 문서화합니다.
+
+일부 내역 또는 채널별 레코드가 모든 메시지 컨텍스트 필드를 채우지 않을 수 있습니다. 따라서 필드 가용성을 빈 문자열이나 유추된 값으로 처리하는 대신 채널별로 테스트하고 null을 유지해야 합니다.
+
+[Adobe Journey Optimizer 스키마 참조](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"}에서 `isTestExecution` 경로를 확인한 후에만 이 쿼리를 실행하십시오.
+
+```sql
+SELECT
+  _experience.customerJourneyManagement.messageProfile.isTestExecution AS isTestExecution,
+  _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus AS feedbackStatus,
+  COUNT(*) AS eventCount
+FROM ajo_message_feedback_event_dataset
+GROUP BY
+  _experience.customerJourneyManagement.messageProfile.isTestExecution,
+  _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus
+ORDER BY
+  isTestExecution,
+  feedbackStatus;
+```
+
+이 쿼리는 테스트 실행 표시기 및 게재 피드백 상태별로 메시지 피드백 레코드를 그룹화합니다. 결과는 null 또는 누락된 `isTestExecution` 값을 유지하므로 기록된 테스트 실행 값이 없는 레코드를 개별적으로 검토할 수 있습니다.
 
 이 쿼리는 지정된 메시지에 대한 다른 이메일 피드백 상태(보냄, 바운스 등)의 수를 보여줍니다.
 
@@ -202,7 +232,7 @@ ORDER BY timestamp DESC;
 
 여기서 날짜 형식은 `YYYY-MM-DD HH:MM:SS`입니다.
 
-식별되면 Journey Optimizer 제외 목록에서 해당 주소를 제거합니다. [자세히 알아보기](../configuration/manage-suppression-list.md#remove-from-suppression-list).
+식별되면 Journey Optimizer 제외 목록에서 해당 주소를 제거합니다. [자세히 알아보기](../configuration/manage-suppression-list.md#remove-from-suppression-list)
 
 >[!NOTE]
 >
