@@ -14,16 +14,14 @@ product_v2:
 feature_v2:
   - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
 subfeature_v2:
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
   - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
+source-git-commit: 1773fdcc67966f852118c6026af536ed056791ea
 workflow-type: tm+mt
 source-wordcount: 1400
 ht-degree: 3%
@@ -52,7 +50,7 @@ JSON 파일을 기존 데이터 세트에 업로드할 수 있습니다. 자세�
 
 ➡️ [이 비디오에서 테스트 프로필을 만드는 방법을 알아보세요](#video)
 
-## 전제 조건 {#test-profile-prerequisites}
+## 사전 요구 사항 {#test-profile-prerequisites}
 
 프로필을 만들려면 먼저 Adobe [!DNL Journey Optimizer]에서 스키마와 데이터 세트를 만들어야 합니다.
 

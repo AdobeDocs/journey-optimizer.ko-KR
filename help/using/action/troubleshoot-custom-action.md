@@ -13,7 +13,6 @@ TQID: https://experienceleague.adobe.com/SBF--1O5Edtk2OKch-n0ukkfxsTwRn-lLqBPncM
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
   - id: d556b755-390a-43f0-be32-a08cf6236126
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
@@ -27,7 +26,7 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
+source-git-commit: 7601b45ff72b05dc053246debe02e11175172b91
 workflow-type: tm+mt
 source-wordcount: 1077
 ht-degree: 1%
@@ -55,7 +54,7 @@ Journey Optimizer 사용자 인터페이스의 관리 섹션에서 API 호출을
 >조직에서 IP(이그레스) 프록시를 사용하도록 설정한 경우 **[!UICONTROL 테스트 요청 보내기]** 호출이 이를 무시합니다. 프록시 라우팅을 확인하려면 테스트 또는 라이브 여정을 실행하십시오. [외부 시스템과 통합](../configuration/external-systems.md#faq)에서 IP(이그레스) 프록시 및 활성화에 대해 자세히 알아보세요.
 
 
-## 전제 조건 {#troubleshoot-custom-action-prereq}
+## 사전 요구 사항 {#troubleshoot-custom-action-prereq}
 
 **[!UICONTROL 테스트 요청 보내기]** 기능을 사용하려면 **사용자 지정 작업**&#x200B;을(를) URL, 헤더 및 인증 설정으로 미리 구성해야 합니다.
 

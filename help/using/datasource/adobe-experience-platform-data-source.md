@@ -15,7 +15,6 @@ product_v2:
 feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
   - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
 subfeature_v2:
   - id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
 role_v2:
@@ -25,7 +24,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e366af78935405cd5acb15269194875098b20914
+source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
 workflow-type: tm+mt
 source-wordcount: 481
 ht-degree: 25%
@@ -47,9 +46,9 @@ ht-degree: 25%
 
 Adobe Experience Platform 데이터 소스는 Adobe 실시간 고객 프로필에 대한 연결을 정의합니다. 이 기본 제공 데이터 소스는 미리 구성되어 삭제할 수 없습니다. 이 데이터 소스는 실시간 고객 프로필 서비스에서 데이터를 검색하고 사용하도록 설계되었습니다(예: 여정에 입력한 사람이 여성인지 확인). Adobe 실시간 고객 프로필에 대한 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko){target="_blank"}를 참조하세요.
 
-실시간 고객 프로필 서비스에 연결할 수 있도록 하려면 키를 사용하여 사용자를 식별하고 키를 컨텍스트화하는 네임스페이스를 사용해야 합니다. 따라서 여정이 키와 네임스페이스가 포함된 이벤트로 시작하는 경우에만 이 데이터 소스를 사용할 수 있습니다. [자세히 알아보기](../building-journeys/journey.md).
+실시간 고객 프로필 서비스에 연결할 수 있도록 하려면 키를 사용하여 사용자를 식별하고 키를 컨텍스트화하는 네임스페이스를 사용해야 합니다. 따라서 여정이 키와 네임스페이스가 포함된 이벤트로 시작하는 경우에만 이 데이터 소스를 사용할 수 있습니다. [자세히 알아보기](../building-journeys/journey.md)
 
-&quot;ProfileFieldGroup&quot;이라는 사전 구성된 필드 그룹을 편집하고, 새 필드 그룹을 추가하고, 초안 또는 라이브 여정에서 사용되지 않는 필드 그룹을 제거할 수 있습니다. [자세히 알아보기](../datasource/configure-data-sources.md#define-field-groups).
+&quot;ProfileFieldGroup&quot;이라는 사전 구성된 필드 그룹을 편집하고, 새 필드 그룹을 추가하고, 초안 또는 라이브 여정에서 사용되지 않는 필드 그룹을 제거할 수 있습니다. [자세히 알아보기](../datasource/configure-data-sources.md#define-field-groups)
 
 >[!CAUTION]
 >

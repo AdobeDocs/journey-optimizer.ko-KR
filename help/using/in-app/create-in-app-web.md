@@ -12,6 +12,7 @@ product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
   - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+  - id: a984631b-2bae-4860-9b15-69c41a799dcb
 subfeature_v2:
   - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
@@ -23,7 +24,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
+source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
 workflow-type: tm+mt
 source-wordcount: 721
 ht-degree: 6%
@@ -64,13 +65,13 @@ ht-degree: 6%
 
 1. **[!UICONTROL 속성]** 섹션에서 **[!UICONTROL 제목]** 및 **[!UICONTROL 설명]** 설명을 입력하십시오.
 
-1. 인앱 메시지에 사용자 지정 또는 핵심 데이터 사용 레이블을 할당하려면 **[!UICONTROL 액세스 관리]**&#x200B;를 선택하세요. [자세히 알아보기](../administration/object-based-access.md).
+1. 인앱 메시지에 사용자 지정 또는 핵심 데이터 사용 레이블을 할당하려면 **[!UICONTROL 액세스 관리]**&#x200B;를 선택하세요. [자세히 알아보기](../administration/object-based-access.md)
 
-1. 사용 가능한 Adobe Experience Platform 대상 목록에서 타깃팅할 대상을 정의하려면 **[!UICONTROL 대상 선택]** 단추를 클릭하십시오. [자세히 알아보기](../audience/about-audiences.md).
+1. 사용 가능한 Adobe Experience Platform 대상 목록에서 타깃팅할 대상을 정의하려면 **[!UICONTROL 대상 선택]** 단추를 클릭하십시오. [자세히 알아보기](../audience/about-audiences.md)
 
    ![](assets/in_app_web_surface_5.png)
 
-1. **[!UICONTROL ID 네임스페이스]** 필드에서 선택한 대상에서 개인을 식별하기 위해 사용할 네임스페이스를 선택합니다. [자세히 알아보기](../event/about-creating.md#select-the-namespace).
+1. **[!UICONTROL ID 네임스페이스]** 필드에서 선택한 대상에서 개인을 식별하기 위해 사용할 네임스페이스를 선택합니다. [자세히 알아보기](../event/about-creating.md#select-the-namespace)
 
 1. **[!UICONTROL 작업]** 메뉴에서 이전에 **[!UICONTROL 앱 구성]**(으)로 구성된 설정을 찾을 수 있습니다. 필요한 경우 여기에서 변경하거나 **[!UICONTROL 규칙 편집]**&#x200B;을 클릭하여 규칙을 업데이트할 수 있습니다.
 

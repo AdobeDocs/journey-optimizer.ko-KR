@@ -6,10 +6,16 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="제한 공개" type="Informative"
-source-git-commit: 13fdbf639414f8cf04c6ea057924a54e2d6902df
+feature_v2:
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+subfeature_v2:
+  - id: dcce7166-436e-4b78-aa5f-c7012ff3a9e3
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 9%
+source-wordcount: 359
+ht-degree: 11%
 
 ---
 
@@ -68,6 +74,6 @@ ht-degree: 9%
 
 이제 사용자 지정 채널이 완전히 구성되었습니다. 마케터는 이를 사용하여 고객 경험을 구축할 수 있습니다.
 
-* [사용자 지정 채널 경험 만들기](create-custom-experience.md)
+* [사용자 정의 채널 경험 만들기](create-custom-experience.md)
 * [사용자 지정 채널 테스트](test-custom-channel.md)
-* [사용자 지정 채널 모니터링](monitor-custom-channel.md)
+* [사용자 정의 채널 모니터링](monitor-custom-channel.md)
