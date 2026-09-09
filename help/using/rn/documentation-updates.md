@@ -13,10 +13,10 @@ feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: 02ff2d2090fd2271c3b6ffc0832ff66b9fd0f0b7
+source-git-commit: 0806391d9d5715d6ccb87dd78c432faa7b6f7a37
 workflow-type: tm+mt
-source-wordcount: 10638
-ht-degree: 95%
+source-wordcount: 11156
+ht-degree: 91%
 
 ---
 
@@ -27,7 +27,29 @@ ht-degree: 95%
 
 ## 2026년 9월 {#september-2026}
 
+* **Optimize** 활동 설명서에 **타깃팅 규칙** 메서드에 대한 플래그가 더 이상 지정되어 있지 않습니다. 제한된 가용성: 타깃팅 규칙을 이제 일반적으로 사용할 수 있습니다. [자세히 보기](../building-journeys/optimize.md#optimization-methods)
+
 * 이제 **여정 디자인** 페이지에 활동을 추가하고, 도구 모음 아이콘을 사용하고, 일괄 작업을 위해 여러 활동을 선택하고, 활동을 복사 및 붙여넣기하고, 분기를 연결하거나 분리하는 방법을 다루는 새 캔버스 경험에 대한 전체 자습서 섹션이 포함됩니다. [자세히 보기](../building-journeys/using-the-journey-designer.md#canvas-capabilities)
+
+* 사용자 지정 작업 게재를 확인하기 위한 새 지침이 추가되었습니다. 이제 **데이터 세트 쿼리 예** 페이지에서 작업 유형에 따라 메시지 피드백 이벤트, 전자 메일 추적 및 여정 단계 이벤트 데이터 세트 중에서 선택하는 방법과 &quot;데이터 세트에 대해 프로비저닝되지 않은 테이블&quot; 오류를 해결하는 방법에 대해 설명합니다. **여정 단계 이벤트 개요** 및 **라이브 여정 실행 문제 해결** 페이지가 이에 따라 업데이트되어 성공적인 사용자 지정 작업 호출은 외부 시스템이 메시지를 전달한 것이 아니라 Journey Optimizer이 작업을 실행했다는 확인만 한다는 것을 명확히 합니다. [자세히 보기](../data/datasets-query-examples.md#choose-the-correct-dataset)
+
+* 새로운 **여정 예외 항목 분석** 스킬이 CX Coworker 페이지의 **여정 분석**&#x200B;에 설명되어 있습니다. 기록 기준선에 대한 여정의 시작, 종료 또는 보내기 카운트에서 예상치 못한 급증, 하락 또는 플랫라인을 감지하고 읽기 전용 진단을 실행하여 가능한 근본 원인을 표시합니다. [자세히 보기](../start/ajo-coworker-skills.md#journey-analyze)
+
+* 100KB가 넘는 시각적 조각 또는 200KB가 넘는 식 조각으로 인해 이메일 게재에 잘림 문제가 발생할 수 있다는 오래된 메모를 제거하기 위해 **보호 기능 및 제한 사항** 페이지가 수정되었습니다. 700KB 조각 크기 단일 보호기능만 적용됩니다. [자세히 보기](../start/guardrails.md#fragments-guardrails)
+
+* **라이브 활동 만들기** 페이지가 수정되었습니다. `executionMetadata` 필드는 **API 트리거 트랜잭션** 캠페인에 대해서만 사용할 수 있으며 이전에 설명한 API 트리거 마케팅 캠페인에는 사용할 수 없습니다. [자세히 보기](../mobile-live/create-mobile-live.md#metadata)
+
+* **AJO 메시지 피드백 이벤트 데이터 세트** 설명서가 확장되어 이메일 및 푸시가 아닌 모든 채널(이메일, SMS/RCS/MMS, 다이렉트 메일) 전반의 메시지 게재 피드백을 포함한다는 것을 명확히 설명했습니다. 이제 **테스트 및 비테스트 실행 분류** 섹션이 `NULL` 또는 누락된 값을 포함하여 `isTestExecution` 필드를 해석하는 방법을 설명합니다. [자세히 보기](../data/datasets-query-examples.md#classify-test-executions)
+
+* 자연어 프롬프트를 사용하여 콘텐츠 템플릿, 조각, 랜딩 페이지 및 여정/캠페인 인라인 메시지 콘텐츠를 검색, 생성, 업데이트, 복제 및 게시할 수 있는 15개의 읽기/쓰기 MCP 도구를 사용하는 CX Coworker에 대해 새로운 **콘텐츠 관리** 기능이 문서화되었습니다. [자세히 보기](../start/ajo-coworker-skills.md#content-management)
+
+* 이제 **랜딩 페이지에 콘텐츠 추가** 설명서에서 동의 확인란에 대한 **양식 필드 필수** 옵션을 설명합니다. 활성화하면 확인란을 선택하지 않으면 양식을 제출할 수 없으며 확인란이 클라이언트측과 서버측에서 모두 적용됩니다. [자세히 보기](../landing-pages/lp-content.md#use-form-component)
+
+* **여정 시뮬레이션 시작** 페이지가 업데이트되어 콘텐츠 결정 노드 및 **최적화** 활동의 타깃팅 규칙 메서드가 이제 시뮬레이션(이전에 차단으로 나열됨)에서 지원되며, 시뮬레이션 실행 중에 오퍼 자격, 자격 규칙 및 대상, 등급 메서드를 평가하는 방법을 자세히 설명하는 새로운 **의사 결정 동작** 표와 함께 제공됩니다. [자세히 보기](../building-journeys/simulate-journey-gs.md#limitations)
+
+* **이미지를 전자 메일 콘텐츠 템플릿으로 변환** 페이지가 올바르지 않은 권한 요구 사항을 제거하도록 수정되었습니다. **콘텐츠 템플릿 관리** 권한은 HTML 변환기에 대한 이미지를 사용하여 템플릿에 액세스하고 만드는 데 필요하지 않습니다. **콘텐츠 생성** 권한만 필요합니다. [자세히 보기](../content-management/image-to-html.md#access-image-to-html)
+
+* **외부 시스템(사용자 지정 작업)** 페이지가 수정되었습니다. 이제 120초 동안 호출의 20% 이상이 **5초**&#x200B;을(를) 초과할 때 느린 사용자 지정 작업 끝점에 대한 회로 차단기가 활성화됩니다(이전에는 10초로 기록됨). [자세히 보기](../configuration/external-systems.md#response-time)
 
 * 이제 **채널 구성 구성** 페이지에 보조 차원에 사용되는 스키마에 기본 키가 있어야 하며 복합 기본 키가 지원되지 않음을 설명하는 메모가 포함됩니다. [자세히 보기](../orchestrated/channel-config.md)
 

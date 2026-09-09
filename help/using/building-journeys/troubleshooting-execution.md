@@ -27,10 +27,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 72ac138032bace23ede2b86d56c36e20d943f834
 workflow-type: tm+mt
-source-wordcount: 2321
-ht-degree: 11%
+source-wordcount: 2385
+ht-degree: 10%
 
 ---
 
@@ -159,6 +159,10 @@ ID 네임스페이스는 테스트 프로필을 고유하게 식별하는 데 �
 * [!DNL Journey Optimizer]이(가) 메시지를 보냈습니다. 여정 보고를 확인하여 오류가 없는지 확인합니다.
 
 사용자 지정 작업을 통해 전송된 메시지의 경우, 여정 테스트 중에 확인할 수 있는 유일한 사실은 사용자 지정 작업 시스템의 호출이 오류로 이어졌는지 여부입니다. 사용자 지정 작업과 연결된 외부 시스템에 대한 호출이 오류로 이어지지 않았는데 메시지가 전송되지 않은 경우에는 외부 시스템 쪽에서 몇 가지 조사를 수행해야 합니다.
+
+>[!NOTE]
+>
+>기본 Journey Optimizer 채널 작업의 경우 메시지 피드백 이벤트 데이터 세트를 쿼리하여 `sent` 또는 `bounce`과(와) 같은 게재 상태를 확인하십시오. 사용자 지정 작업의 경우 여정 단계 이벤트 데이터 세트를 쿼리하여 Journey Optimizer이 작업을 성공적으로 실행했는지 확인합니다. 즉, HTTP 호출이 성공해도 외부 시스템에서 메시지를 전달했는지 자체적으로 확인하지 않습니다. 사용 사례에 맞는 [올바른 데이터 세트를 선택](../data/datasets-query-examples.md#choose-the-correct-dataset)하는 방법에 대해 알아봅니다.
 
 ## 여정 단계 이벤트의 중복 항목 이해 {#duplicate-step-events}
 

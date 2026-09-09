@@ -29,10 +29,10 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
+source-git-commit: fc3e9b6415e3d411005e83a4f5a617038b5c6817
 workflow-type: tm+mt
-source-wordcount: 496
-ht-degree: 16%
+source-wordcount: 482
+ht-degree: 15%
 
 ---
 
@@ -72,10 +72,6 @@ ht-degree: 16%
 * [경로 실험 실행](path-experimentation.md) - 무작위 분할을 기반으로 다른 경로를 테스트하여 미리 정의된 성공 지표(예: 전환율, 매출, 참여)에 따라 가장 성과가 좋은 항목을 확인합니다.
 
 * [타깃팅 규칙 활용](path-targeting.md) - 대상 세그먼트, 프로필 특성 또는 컨텍스트 데이터를 기반으로 고객이 여정 경로 중 하나를 입력할 수 있도록 충족해야 하는 특정 규칙을 정의합니다. 이렇게 하면 올바른 대상자가 지정된 경로로 들어가게 됩니다.
-
-  >[!AVAILABILITY]
-  >
-  >이 기능은 현재 제한된 가용성입니다. 액세스 권한을 요청하려면 Adobe 담당자에게 문의하십시오.
 
 * [조건 적용](conditions.md) - 데이터 원본, 시간, 날짜, 분할 비율 또는 프로필 상한 등 특정 조건을 기준으로 조건부 경로를 만듭니다. 이는 이전 조건 활동과 동일합니다.
 

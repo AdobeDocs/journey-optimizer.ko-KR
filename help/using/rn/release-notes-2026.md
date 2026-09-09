@@ -12,9 +12,9 @@ feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 46c5cd55be9469c8484fe96296f8a7b42ae6e0eb
 workflow-type: tm+mt
-source-wordcount: 12662
+source-wordcount: 12672
 ht-degree: 99%
 
 ---
@@ -545,15 +545,7 @@ ht-degree: 99%
 
 ### 이메일 채널 {#june-26-email}
 
-이번 릴리스에서는 이메일 채널에 다음과 같은 개선 사항이 추가되었습니다.
-
-* **URL 매개변수 암호화** - 이제 이메일 메시지에 추가하는 추적 및 랜딩 페이지 링크의 URL 매개변수를 암호화할 수 있습니다. 이를 통해 중요한 매개변수 데이터에 대한 추가 보안 계층을 제공합니다. 이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성). [자세히 보기](../personalization/url-parameter-encryption.md)
-
-  사용 가능한 날짜: 2026년 6월 1일
-
-* **키 레지스트리에 대한 새 권한** - 이제 URL 매개변수 암호화에 필요한 키에 액세스하고 관리하는 데 두 가지 새로운 권한이 필요합니다. **키 레지스트리 관리** 및 **키 레지스트리 보기**&#x200B;입니다. [자세히 보기](../administration/high-low-permissions.md#administration-permissions)
-
-  사용 가능한 날짜: 2026년 6월 1일
+이 릴리스의 이메일 채널에 다음과 같은 기능이 추가되었습니다.
 
 <table>
 <thead>
@@ -700,6 +692,18 @@ ht-degree: 99%
   * **예상 CTOR**(클릭 후 열람률): 예상 열람 수 대비 예상 클릭 수로 계산됩니다.
 
   사용 가능한 날짜: 2026년 6월 25일
+
+### 구성 {#june-26-configuration}
+
+이번 릴리스에는 다음과 같은 구성 개선 사항이 적용되었습니다.
+
+* **URL 매개변수 암호화** - 이제 이메일 메시지에 추가하는 추적 및 랜딩 페이지 링크의 URL 매개변수를 암호화할 수 있습니다. 이를 통해 중요한 매개변수 데이터에 대한 추가 보안 계층을 제공합니다. 이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성). [자세히 보기](../personalization/url-parameter-encryption.md)
+
+  사용 가능한 날짜: 2026년 6월 1일
+
+* **키 레지스트리에 대한 새 권한** - 이제 URL 매개변수 암호화에 필요한 키에 액세스하고 관리하는 데 두 가지 새로운 권한이 필요합니다. **키 레지스트리 관리** 및 **키 레지스트리 보기**&#x200B;입니다. [자세히 보기](../administration/high-low-permissions.md#administration-permissions)
+
+  사용 가능한 날짜: 2026년 6월 1일
 
 ### 관리 {#june-26-administration}
 

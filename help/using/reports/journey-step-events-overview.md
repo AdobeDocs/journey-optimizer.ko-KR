@@ -37,10 +37,10 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 72ac138032bace23ede2b86d56c36e20d943f834
 workflow-type: tm+mt
-source-wordcount: 967
-ht-degree: 5%
+source-wordcount: 1075
+ht-degree: 4%
 
 ---
 
@@ -151,6 +151,34 @@ FROM journey_step_events
 WHERE _experience.journeyOrchestration.stepEvents.actionExecutionError IS NOT NULL
 GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
 ```
+
+**사용자 지정 작업 분석**
+
+여정 단계 이벤트를 사용하여 Journey Optimizer에서 사용자 지정 작업을 실행했는지 확인하고, 상태, 지연 및 오류 세부 정보를 검사합니다.
+
+```sql
+-- Example: Inspect custom action execution for a given custom action and profile in a journey
+SELECT
+  timestamp,
+  _experience.journeyOrchestration.stepEvents.actionID AS action_id,
+  _experience.journeyOrchestration.stepEvents.actionName AS action_name,
+  _experience.journeyOrchestration.stepEvents.actionType AS action_type,
+  _experience.journeyOrchestration.stepEvents.stepStatus AS step_status,
+  _experience.journeyOrchestration.stepEvents.actionExecutionError AS action_execution_error,
+  _experience.journeyOrchestration.stepEvents.actionExecutionErrorCode AS action_execution_error_code
+FROM journey_step_events
+WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version-id>'
+AND _experience.journeyOrchestration.stepEvents.actionType = 'customHttpAction'
+AND _experience.journeyOrchestration.stepEvents.profileID = '<profile-id>'
+AND _experience.journeyOrchestration.stepEvents.nodeName = '<node-name>'
+ORDER BY timestamp DESC;
+```
+
+>[!NOTE]
+>
+>이 쿼리의 범위는 단일 프로필 및 여정 노드로 설정됩니다. `profileID` 및 `nodeName` 필터가 없으면 특히 대량 여정 또는 여러 사용자 지정 작업 노드가 포함된 여정의 경우 쿼리가 많은 행을 반환할 수 있습니다.
+
+이 쿼리는 Journey Optimizer 측에서만 실행 세부 정보를 보고합니다. 외부 시스템에서 메시지가 전달되었는지 확인하지 않습니다. 외부 서비스의 로그 또는 보고에서 다운스트림 게재 상태를 확인하십시오. 메시지 게재 피드백을 위해 [올바른 데이터 세트를 선택](../data/datasets-query-examples.md#choose-the-correct-dataset)하는 방법을 알아보세요.
 
 **funnel 분석 여정**
 

@@ -31,10 +31,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 4b5193629350b88324a9a7cd95cd94c18d58455b
 workflow-type: tm+mt
-source-wordcount: 1608
-ht-degree: 98%
+source-wordcount: 1624
+ht-degree: 95%
 
 ---
 
@@ -268,45 +268,42 @@ AI 어시스턴트는 즉각적인 도움과 운영 인사이트를 제공합니
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_4"
 >title="사용 가능한 채널"
->abstract="이메일, SMS, 푸시 알림, 다이렉트 메일"
+>abstract="이메일, SMS, 푸시 알림 및 DM"
 
 <!--OVERVIEW TAB ORCHESTRATED CAMPAIGNS + JOURNEYS SKU -->
 
 
 >[!CONTEXTUALHELP]
->id="ajo_oc_jo_campaign_ovv_1"
+>id="ajo_oc_jo_camppaign_ovv_1"
 >title="캠페인을 만들고 보내기 위한 안내형 UI"
->abstract="채널을 사용하여 액션을 하나 또는 여러 개 설정하고, 대상자를 선택한 후 콘텐츠를 설정하고, 일정을 정의하면 전송할 준비가 완료됩니다."
-
+>abstract="채널을 사용하여 액션을 하나 또는 여러 개 설정하고, 대상자를 선택하고, 콘텐츠를 설정하고, 일정을 정의하면 전송할 준비가 완료됩니다."
 
 >[!CONTEXTUALHELP]
->id="ajo_oc_jo_campaign_ovv_2"
+>id="ajo_oc_jo_camppaign_ovv_2"
 >title="사용 가능한 채널"
 >abstract="이메일, SMS, 푸시 알림, 인앱, 웹, 코드 기반 경험"
 
-
 <!--OVERVIEW TAB ORCHESTRATED CAMPAIGNS - API triggered tab -->
 
-
 >[!CONTEXTUALHELP]
->id="ajo_oc_api_campaign_ovv_1"
+>id="ajo_oc_api_camppaign_ovv_1"
 >title="트랜잭션 API 트리거 캠페인"
 >abstract="API 호출을 통한 실시간 메시지 트리거"
 
 >[!CONTEXTUALHELP]
->id="ajo_oc_api_campaign_ovv_2"
+>id="ajo_oc_api_camppaign_ovv_2"
 >title="마케팅 메시지"
->abstract="프로모션 콘텐츠(옵트인 필요, 비즈니스 규칙 적용)"
+>abstract="스포츠 점수 또는 비행 상태 업데이트와 같은 라이브 브로드캐스트 활동을 포함하는 프로모션 콘텐츠(비즈니스 규칙에 따라 옵트인 필요)"
 
 >[!CONTEXTUALHELP]
->id="ajo_oc_api_campaign_ovv_3"
+>id="ajo_oc_api_camppaign_ovv_3"
 >title="트랜잭션 메시지"
 >abstract="서비스 관련 콘텐츠(확인, 경고. 마케팅 동의가 적용되지 않음)"
 
 >[!CONTEXTUALHELP]
->id="ajo_oc_api_campaign_ovv_4"
+>id="ajo_oc_api_camppaign_ovv_4"
 >title="사용 가능한 채널"
->abstract="이메일, SMS, 푸시 알림"
+>abstract="이메일, SMS, 푸시 알림 및 라이브 활동"
 
 <!--APPROVAL POLICIES-->
 
