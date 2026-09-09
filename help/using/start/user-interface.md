@@ -9,32 +9,16 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 TQID: https://experienceleague.adobe.com/RqIzgHdwFqBmYLPKbMkAvscFopYMF-lt2gY4Vl34GKA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 975db4ca7fbdf2e9b7e4ebe546580e95d9c36fe9
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5deeid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 4b5193629350b88324a9a7cd95cd94c18d58455b
 workflow-type: tm+mt
-source-wordcount: 1612
-ht-degree: 97%
+source-wordcount: 1624
+ht-degree: 95%
 
 ---
 
@@ -191,7 +175,7 @@ Adobe 지원 센터에 문의하실 때는 다음 정보가 포함되어야 근�
 **연결** - 다른 시스템과 통합합니다.
 
 * **소스** - 외부 시스템에서 데이터를 수집합니다. [소스 구성](get-started-sources.md)
-* **대상** - 데이터를 클라우드 스토리지로 내보냅니다. [대상을 설정](../data/export-datasets.md). [Experience Platform 대상 카탈로그](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=ko){target="_blank"}에서 Adobe Target과 같은 적합한 개인화 대상에 대상을 활성화할 수도 있습니다.
+* **대상** - 데이터를 클라우드 스토리지로 내보냅니다. [대상을 설정](../data/export-datasets.md). [Experience Platform 대상 카탈로그](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html){target="_blank"}에서 Adobe Target과 같은 적합한 개인화 대상에 대상을 활성화할 수도 있습니다.
 
 **고객** - 대상자와 프로필을 관리합니다.
 
@@ -268,7 +252,7 @@ AI 어시스턴트는 즉각적인 도움과 운영 인사이트를 제공합니
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_4"
 >title="사용 가능한 채널"
->abstract="이메일, SMS, 푸시 알림, DM, LINE 및 사용자 지정 채널"
+>abstract="이메일, SMS, 푸시 알림 및 DM"
 
 <!--OVERVIEW TAB ORCHESTRATED CAMPAIGNS + JOURNEYS SKU -->
 
@@ -293,7 +277,7 @@ AI 어시스턴트는 즉각적인 도움과 운영 인사이트를 제공합니
 >[!CONTEXTUALHELP]
 >id="ajo_oc_api_camppaign_ovv_2"
 >title="마케팅 메시지"
->abstract="프로모션 콘텐츠(옵트인 필요, 비즈니스 규칙 적용)"
+>abstract="스포츠 점수 또는 비행 상태 업데이트와 같은 라이브 브로드캐스트 활동을 포함하는 프로모션 콘텐츠(비즈니스 규칙에 따라 옵트인 필요)"
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_api_camppaign_ovv_3"
@@ -303,7 +287,7 @@ AI 어시스턴트는 즉각적인 도움과 운영 인사이트를 제공합니
 >[!CONTEXTUALHELP]
 >id="ajo_oc_api_camppaign_ovv_4"
 >title="사용 가능한 채널"
->abstract="이메일, SMS, 푸시 알림"
+>abstract="이메일, SMS, 푸시 알림 및 라이브 활동"
 
 <!--APPROVAL POLICIES-->
 
