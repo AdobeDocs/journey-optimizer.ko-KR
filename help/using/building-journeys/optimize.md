@@ -11,28 +11,16 @@ keywords: 활동, 조건, 캔버스, 여정, 최적화
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/hbDoGEHdCBcOe-e9h06kGY2Rvb129cIzto6jJAuGkX4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: fc3e9b6415e3d411005e83a4f5a617038b5c6817
 workflow-type: tm+mt
-source-wordcount: 496
-ht-degree: 16%
+source-wordcount: 482
+ht-degree: 15%
 
 ---
 
@@ -73,10 +61,6 @@ ht-degree: 16%
 
 * [타깃팅 규칙 활용](path-targeting.md) - 대상 세그먼트, 프로필 특성 또는 컨텍스트 데이터를 기반으로 고객이 여정 경로 중 하나를 입력할 수 있도록 충족해야 하는 특정 규칙을 정의합니다. 이렇게 하면 올바른 대상자가 지정된 경로로 들어가게 됩니다.
 
-  >[!AVAILABILITY]
-  >
-  >이 기능은 현재 제한된 가용성입니다. 액세스 권한을 요청하려면 Adobe 담당자에게 문의하십시오.
-
 * [조건 적용](conditions.md) - 데이터 원본, 시간, 날짜, 분할 비율 또는 프로필 상한 등 특정 조건을 기준으로 조건부 경로를 만듭니다. 이는 이전 조건 활동과 동일합니다.
 
 ## 작동 방식 {#how-it-works}
@@ -87,8 +71,8 @@ ht-degree: 16%
 
 사용 사례에 가장 적합한 최적화 방법을 선택합니다.
 
-* 어떤 경로가 가장 성과가 좋은지 테스트하고 학습하시겠습니까? →0&rbrace;경로 실험[&#128279;](path-experimentation.md)(으)로 이동
-* 서로 다른 대상을 특정 경로로 전송하시겠습니까? →0&rbrace;경로 타깃팅[&#128279;](path-targeting.md)(으)로 이동
-* 조건부 논리(if/then 시나리오)를 생성하시겠습니까? →0&rbrace;조건[&#128279;](conditions.md)(으)로 이동
+* 어떤 경로가 가장 성과가 좋은지 테스트하고 학습하시겠습니까? →0}경로 실험](path-experimentation.md)(으)로 이동[
+* 서로 다른 대상을 특정 경로로 전송하시겠습니까? →0}경로 타깃팅](path-targeting.md)(으)로 이동[
+* 조건부 논리(if/then 시나리오)를 생성하시겠습니까? →0}조건](conditions.md)(으)로 이동[
 
 {{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-optimize.md}}

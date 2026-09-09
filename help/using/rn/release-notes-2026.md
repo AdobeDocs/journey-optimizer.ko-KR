@@ -8,13 +8,11 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 65ca94cf-8e17-4a25-90f3-238083f81477
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-subfeature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32
+subfeature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+source-git-commit: 46c5cd55be9469c8484fe96296f8a7b42ae6e0eb
 workflow-type: tm+mt
-source-wordcount: 12662
+source-wordcount: 12672
 ht-degree: 99%
 
 ---
@@ -545,15 +543,7 @@ ht-degree: 99%
 
 ### 이메일 채널 {#june-26-email}
 
-이번 릴리스에서는 이메일 채널에 다음과 같은 개선 사항이 추가되었습니다.
-
-* **URL 매개변수 암호화** - 이제 이메일 메시지에 추가하는 추적 및 랜딩 페이지 링크의 URL 매개변수를 암호화할 수 있습니다. 이를 통해 중요한 매개변수 데이터에 대한 추가 보안 계층을 제공합니다. 이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성). [자세히 보기](../personalization/url-parameter-encryption.md)
-
-  사용 가능한 날짜: 2026년 6월 1일
-
-* **키 레지스트리에 대한 새 권한** - 이제 URL 매개변수 암호화에 필요한 키에 액세스하고 관리하는 데 두 가지 새로운 권한이 필요합니다. **키 레지스트리 관리** 및 **키 레지스트리 보기**&#x200B;입니다. [자세히 보기](../administration/high-low-permissions.md#administration-permissions)
-
-  사용 가능한 날짜: 2026년 6월 1일
+이 릴리스의 이메일 채널에 다음과 같은 기능이 추가되었습니다.
 
 <table>
 <thead>
@@ -700,6 +690,18 @@ ht-degree: 99%
   * **예상 CTOR**(클릭 후 열람률): 예상 열람 수 대비 예상 클릭 수로 계산됩니다.
 
   사용 가능한 날짜: 2026년 6월 25일
+
+### 구성 {#june-26-configuration}
+
+이번 릴리스에는 다음과 같은 구성 개선 사항이 적용되었습니다.
+
+* **URL 매개변수 암호화** - 이제 이메일 메시지에 추가하는 추적 및 랜딩 페이지 링크의 URL 매개변수를 암호화할 수 있습니다. 이를 통해 중요한 매개변수 데이터에 대한 추가 보안 계층을 제공합니다. 이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성). [자세히 보기](../personalization/url-parameter-encryption.md)
+
+  사용 가능한 날짜: 2026년 6월 1일
+
+* **키 레지스트리에 대한 새 권한** - 이제 URL 매개변수 암호화에 필요한 키에 액세스하고 관리하는 데 두 가지 새로운 권한이 필요합니다. **키 레지스트리 관리** 및 **키 레지스트리 보기**&#x200B;입니다. [자세히 보기](../administration/high-low-permissions.md#administration-permissions)
+
+  사용 가능한 날짜: 2026년 6월 1일
 
 ### 관리 {#june-26-administration}
 
@@ -1428,7 +1430,7 @@ The following orchestrated campaign capability is expected in the upcoming days 
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 **출시일**: 2026년 3월 24~25일
@@ -2182,7 +2184,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 
 * **AI 어시스턴트 콘텐츠 품질 검사** - 이제 브랜드 일관성 외에도 전체 <strong>콘텐츠 품질</strong>을 평가하여 브랜드 가이드라인과 별개로 <strong>가독성</strong>, 일치도, 효과성 관련 잠재적인 문제를 찾을 수 있습니다. 이 자동화된 검사는 명확하지 않은 메시지, 일관되지 않은 톤 또는 구조적으로 빠진 부분을 식별하는 데 도움이 됩니다. [자세히 보기](../content-management/brands-score.md#validate-quality).
 
-  [비디오에서 이 기능을 살펴보십시오](https://video.tv.adobe.com/v/3470553/?captions=kor&learn=on).
+  [비디오에서 이 기능을 살펴보십시오](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### 여정
 
