@@ -10,27 +10,15 @@ level: Experienced
 keywords: 데이터 세트, 최적화 도구, 사용 사례
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 TQID: https://experienceleague.adobe.com/bbZLNKJ3wg--z3PcVQ4tTvMtuyR7LMsh7qJjrlZ6L7Y
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371
-  - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
-  - id: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: b5a925fd54bdb6c7f4aa34afffd943ac47c5ce46
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371id: d6e5c7fd-c1d6-4137-98cd-138ccde6752fid: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 72ac138032bace23ede2b86d56c36e20d943f834
 workflow-type: tm+mt
-source-wordcount: 1498
-ht-degree: 2%
+source-wordcount: 1780
+ht-degree: 1%
 
 ---
 
@@ -56,6 +44,29 @@ ht-degree: 2%
 
 여정 단계 이벤트를 쿼리하기 위해 일반적으로 사용되는 [예제](../reports/query-examples.md)를 참조하십시오.
 
+## 올바른 데이터 세트 선택 {#choose-the-correct-dataset}
+
+쿼리를 실행하기 전에 여정에서 분석할 작업 유형과 일치하는 데이터 세트를 확인하십시오.
+
+1. 기본 Journey Optimizer 채널 작업(예: `sent` 또는 `bounce` 상태)에 대한 메시지 게재 피드백을 확인하려면 [메시지 피드백 이벤트 데이터 세트](#message-feedback-event-dataset)를 사용하십시오.
+1. 열기 및 클릭과 같은 전자 메일 상호 작용 이벤트를 확인하려면 [전자 메일 추적 경험 이벤트 데이터 세트](#email-tracking-experience-event-dataset)를 사용하세요.
+1. Journey Optimizer에서 사용자 지정 작업을 실행했는지 확인하고 실행 상태, 대기 시간 및 오류 세부 정보를 검사하려면 [여정 단계 이벤트](#journey-step-event) 데이터 집합을 사용하십시오.
+
+>[!NOTE]
+>
+>성공적인 사용자 지정 작업 HTTP 호출은 호출이 완료되었음을 확인합니다. 외부 시스템에서 메시지를 전달했는지 확인하지 않습니다. 다운스트림 게재를 확인하려면 외부 시스템의 로그 또는 보고를 확인하십시오. [실시간 여정 실행 문제를 해결하는 방법](../building-journeys/troubleshooting-execution.md#checking-that-messages-are-sent-successfully)을 알아보세요.
+
+### 쿼리가 &quot;데이터 세트에 대해 프로비저닝되지 않은 테이블&quot;을 반환하는 경우 {#table-not-provisioned}
+
+이 메시지는 데이터 세트가 프로비저닝에 실패했음을 의미하지는 않습니다. Adobe 지원에 문의하기 전에 다음을 확인하십시오.
+
+1. 데이터 세트 작업 영역에서 **시스템 데이터 세트 표시**&#x200B;를 사용하도록 설정합니다. 시스템에서 생성한 데이터 세트는 기본적으로 숨겨집니다. [데이터 세트에 액세스](get-started-datasets.md#access)하는 방법을 알아보세요.
+1. 쿼리에 사용된 정확한 테이블 이름이 샌드박스의 데이터 세트 작업 영역에 표시된 테이블 이름과 일치하는지 확인합니다.
+1. 여정 작업 유형이 쿼리하는 데이터 세트와 일치하는지 확인합니다. [올바른 데이터 집합 선택](#choose-the-correct-dataset)을 참조하세요.
+1. 메시지 피드백 이벤트 데이터 세트와 같은 일괄 처리 수집을 사용하는 데이터 세트의 경우 데이터를 사용할 수 있도록 최대 2시간을 허용합니다.
+1. 사용자 지정 작업의 경우 외부 게재에 대한 메시지 피드백 이벤트 레코드를 예상하지 않고 [여정 단계 이벤트](#journey-step-event) 데이터 세트를 쿼리하십시오.
+
+데이터 세트에 데이터가 포함되어야 하지만 테이블을 사용할 수 없는 경우 Adobe 지원에 문의하기 전에 샌드박스 이름, 데이터 세트 이름, 쿼리 ID 및 타임스탬프를 수집하십시오.
 
 ## 이메일 추적 경험 이벤트 데이터 세트{#email-tracking-experience-event-dataset}
 
@@ -109,7 +120,7 @@ AJO 메시지 피드백 이벤트 데이터 세트는 Adobe Journey Optimizer에
 >
 >이 데이터 세트는 일괄 처리 수집을 사용합니다. 이 데이터 세트를 쿼리하거나 보고 목적으로 사용할 때 최대 2시간의 데이터 지연이 예상됩니다.
 
-필드, 필드 경로, 데이터 형식 및 설명의 전체 목록은 [Adobe Journey Optimizer 스키마 참조](https://experienceleague.adobe.com/ko/tools/ajo-schemas){target="_blank"}를 참조하십시오.
+필드, 필드 경로, 데이터 형식 및 설명의 전체 목록은 [Adobe Journey Optimizer 스키마 참조](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"}를 참조하십시오.
 
 >[!NOTE]
 >
@@ -119,7 +130,7 @@ AJO 메시지 피드백 이벤트 데이터 세트는 Adobe Journey Optimizer에
 
 필드가 채워질 때 테스트 실행과 비테스트 실행을 구분하려면 `isTestExecution` 필드를 사용하십시오.
 
-쿼리를 작성하기 전에 [Adobe Journey Optimizer 스키마 참조](https://experienceleague.adobe.com/ko/tools/ajo-schemas){target="_blank"}를 사용하여 AJO 메시지 피드백 이벤트 스키마에 대한 현재 필드 경로, 데이터 형식 및 설명을 확인하십시오.
+쿼리를 작성하기 전에 [Adobe Journey Optimizer 스키마 참조](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"}를 사용하여 AJO 메시지 피드백 이벤트 스키마에 대한 현재 필드 경로, 데이터 형식 및 설명을 확인하십시오.
 
 채워진 값을 다음과 같이 해석합니다.
 
@@ -133,7 +144,7 @@ AJO 메시지 피드백 이벤트 데이터 세트는 Adobe Journey Optimizer에
 
 일부 내역 또는 채널별 레코드가 모든 메시지 컨텍스트 필드를 채우지 않을 수 있습니다. 따라서 필드 가용성을 빈 문자열이나 유추된 값으로 처리하는 대신 채널별로 테스트하고 null을 유지해야 합니다.
 
-[Adobe Journey Optimizer 스키마 참조](https://experienceleague.adobe.com/ko/tools/ajo-schemas){target="_blank"}에서 `isTestExecution` 경로를 확인한 후에만 이 쿼리를 실행하십시오.
+[Adobe Journey Optimizer 스키마 참조](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"}에서 `isTestExecution` 경로를 확인한 후에만 이 쿼리를 실행하십시오.
 
 ```sql
 SELECT
