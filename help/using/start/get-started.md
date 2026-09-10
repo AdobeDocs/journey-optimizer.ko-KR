@@ -33,9 +33,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 5be833e0b6a06b8614123dd92118986378909652
 workflow-type: tm+mt
-source-wordcount: 832
+source-wordcount: 811
 ht-degree: 100%
 
 ---
@@ -115,7 +115,6 @@ Journey Optimizer는 기본적으로 Adobe Experience Platform을 기반으로 �
 * [여정 디자인 및 메시지 보내기](../building-journeys/journey-gs.md) — 첫 번째 고객 여정을 작성하고 채널 액션을 구성합니다.
 * [실시간 보고서](../reports/live-report.md) — 캠페인 및 여정 성과를 실시간으로 모니터링합니다.
 * [Journey Optimizer 소개 튜토리얼](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction){target="_blank"} — 핵심 Journey Optimizer 개념에 대한 안내형 비디오 연습입니다.
-* [Journey Optimizer 보안 개요](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf)&#x200B;(PDF) — 보안 아키텍처, 데이터 보호, 규정 준수 관련 세부 정보를 제공합니다.
 * [Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} — 공식 라이선스 약관 및 편집 기능 분류를 제공합니다.
 
 ## 다음 단계 {#where-next}
