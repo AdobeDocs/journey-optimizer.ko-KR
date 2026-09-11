@@ -7,15 +7,12 @@ hide: true
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-subfeature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: 291454989c9871e831ce648c60d43dac5b0264f6
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32
+subfeature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+source-git-commit: 790300d6e9bf99e4465a1f673073b4d2c45b0e9a
 workflow-type: tm+mt
-source-wordcount: 1961
+source-wordcount: 1951
 ht-degree: 19%
 
 ---
@@ -31,7 +28,7 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 
 [Adobe Experience Platform 사전 릴리스 정보](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}도 참조하십시오.
 
-**릴리스 날짜**: 2026년 9월 21일
+**릴리스 날짜**: 2026년 9월 21~22일
 
 ### 콘텐츠 관리 {#sep-26-content-management}
 
@@ -98,7 +95,7 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 <tbody>
 <tr>
 <td>
-<p>이제 이벤트 매핑 생성 또는 편집에서는 새로운 **시각적 매핑 빌더**&#x200B;를 사용합니다. 스키마를 선택하고, 검색 가능한 필드 선택기에서 필드를 선택하고, 각 필드를 행별 연결 상태가 있는 충성도 이벤트 필드에 매핑하고, 언제든지 수동 JSONata 편집으로 전환하는 옵션과 함께 자동 생성된 JSONata 표현식을 미리 봅니다.</p><p>또한 충성도 관리자의 "이벤트 정의"가 사람이 읽을 수 있는 Experience 이벤트 스키마 이름을 보여 주는 목록 보기가 새로 고쳐진 상태로 "이벤트 매핑"으로 이름이 변경되었습니다.</p>
+<p>이제 이벤트 매핑 생성 또는 편집에서는 새로운 **시각적 매핑 빌더**를 사용합니다. 스키마를 선택하고, 검색 가능한 필드 선택기에서 필드를 선택하고, 각 필드를 행별 연결 상태가 있는 충성도 이벤트 필드에 매핑하고, 언제든지 수동 JSONata 편집으로 전환하는 옵션과 함께 자동 생성된 JSONata 표현식을 미리 봅니다.</p><p>또한 충성도 관리자의 "이벤트 정의"가 사람이 읽을 수 있는 Experience 이벤트 스키마 이름을 보여 주는 목록 보기가 새로 고쳐진 상태로 "이벤트 매핑"으로 이름이 변경되었습니다.</p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
@@ -115,7 +112,7 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 <table>
 <thead>
 <tr>
-<th><strong>이메일 및 여정 온보딩을 위한 안내 기능</strong><br/></th>
+<th><strong>이메일 및 여정 온보딩을 위한 안내 기능(일반 공급)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -206,7 +203,13 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 <tr>
 <td>
 <p><strong>사용자 지정 아웃바운드 채널</strong>을 통해 관리자는 WeChat, Kakao Talk, Messenger 또는 독점 공급자와 같은 아웃바운드 HTTP 기반 메시징 채널을 코드 없는 채널 빌더를 통해 직접 Journey Optimizer으로 가져올 수 있습니다. 구성이 완료되면 사용자 정의 채널은 캠페인, 여정 및 오케스트레이션된 캠페인 전체에서 사용할 수 있으며, 표현식 편집기를 사용한 개인화, 콘텐츠 실험, 미리보기 및 교정쇄, 기본 제공 보고서, 동의 및 거버넌스 시행 등 기본 채널과 동일한 모든 기능을 제공합니다.</p>
-<p>사용자 지정 채널에는 몇 가지 새로운 기능도 있습니다. 이제 코드 기반 경험과 동일한 방식으로 Personalization 편집기를 통해 사용자 지정 채널 페이로드에서 Journey Optimizer Decisioning을 사용할 수 있습니다. 사용자 지정 채널은 비즈니스 규칙도 지원하므로 기본 채널에서 이미 적용할 수 있는 것과 동일한 방식으로 규칙 세트를 적용할 수 있습니다. 이제 사용자 지정 채널을 API 트리거 캠페인의 채널 목록에서 사용할 수 있습니다. 이전에는 이러한 기능을 사용할 수 없었습니다. 사용자 지정 채널에 대한 보고 웹후크를 정의하고 채널 구성에 첨부할 수도 있으므로 상호 작용 이벤트를 사용하여 Journey Optimizer 보고서를 보강할 수 있습니다.</p>
+<p>맞춤형 채널에는 다음과 같은 몇 가지 새로운 기능도 있습니다.</p>
+<ul>
+<li>코드 기반 경험과 동일한 방식으로 Personalization 편집기를 통해 사용자 지정 채널 페이로드에서 Journey Optimizer Decisioning을 사용합니다.</li>
+<li>기본 채널에서 이미 수행할 수 있는 것과 동일한 방식으로 비즈니스 규칙을 사용자 지정 채널에 적용합니다.</li>
+<li>API 트리거 캠페인에 대한 채널 목록에서 이전에 가능하지 않았던 사용자 지정 채널을 선택합니다.</li>
+<li>사용자 지정 채널에 대한 보고 웹후크를 정의하고 채널 구성에 연결하므로 상호 작용 이벤트로 Journey Optimizer 보고서를 보강할 수 있습니다.</li>
+</ul>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
@@ -271,7 +274,7 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 </tbody>
 </table>
 
-* **Line 지원** - 이제 오케스트레이션된 캠페인에 직접 **LINE 작업**&#x200B;을 추가할 수 있습니다. 이 새로운 활동을 통해 텍스트, 스티커, 이미지, 비디오, 위치 데이터 및 풍부한 Flex 메시지를 포함한 고도로 개인화된 콘텐츠를 제작하고 전달하여 LINE 플랫폼에서 고객과 원활하게 소통할 수 있습니다. 이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성). <!-- Documentation link: TBD -->
+* **LINE 지원** - 이제 오케스트레이션된 캠페인에 **LINE 작업**&#x200B;을 바로 추가할 수 있습니다. 이 새로운 활동을 통해 텍스트, 스티커, 이미지, 비디오, 위치 데이터 및 풍부한 Flex 메시지를 포함한 고도로 개인화된 콘텐츠를 제작하고 전달하여 LINE 플랫폼에서 고객과 원활하게 소통할 수 있습니다. 이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성). <!-- Documentation link: TBD -->
 
 * **오케스트레이션된 새 캠페인 모니터링 API** - 이제 오케스트레이션된 캠페인에 새 **API 사양**&#x200B;을 사용할 수 있습니다. 이를 통해 오케스트레이션된 캠페인을 프로그래밍 방식으로 만들고, 관리하고, 트리거할 수 있으므로 외부 시스템 및 자동화 파이프라인과의 긴밀한 통합을 지원합니다. <!-- Documentation link: TBD -->
 
@@ -282,7 +285,7 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 <table>
 <thead>
 <tr>
-<th><strong>액션 캠페인의 인바운드 경험 시뮬레이션</strong><br/></th>
+<th><strong>액션 캠페인의 인바운드 경험 시뮬레이션(Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -372,29 +375,5 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 ### 사용성 개선 사항 {#sep-26-usability}
 
 * **콘텐츠 시뮬레이션 경험의 유용성 개선** - 이제 새로운 콘텐츠 시뮬레이션 경험을 통해 손쉽게 비교할 수 있도록 변형의 이름을 지정하고 구성하며, 각 카드에서 직접 변형 세부 정보를 복사하거나 삭제할 수 있으며, 전체 속성 경로 및 카드별 채널 구성을 요청 시 볼 수 있으며, 더 눈에 띄는 업로드 버튼에서 고유한 CSV, JSON 또는 JSONL 프로필을 업로드할 수 있습니다.
-
-<!--
-
-## June '26 pre-release notes {#june-26-rn}
-
-**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published once changes are live in production. While most changes are delivered on the release date, a few may roll out later — refer to the Availability Date listed for each entry for details.
-
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
-
-**Release date**: June 16-17, 2026
-
-### Journeys {#june-26-journeys}
-
-The following capabilities and improvements are coming to journeys in this release.
-
-* **Increased live journey limit and new guardrails** - You can now have up to **200 active journeys**, increased from the previous limit of 100.
-
-
-
-### Orchestrated campaigns {#june-26-oc}
-
-The following capabilities and improvements are coming to orchestrated campaigns in this release.
-
--->
 
 
