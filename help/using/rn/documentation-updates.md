@@ -13,10 +13,10 @@ feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: 0806391d9d5715d6ccb87dd78c432faa7b6f7a37
+source-git-commit: 096708dff514b6c8d099f48533ed81597a6e3510
 workflow-type: tm+mt
-source-wordcount: 11156
-ht-degree: 91%
+source-wordcount: 11249
+ht-degree: 90%
 
 ---
 
@@ -27,7 +27,9 @@ ht-degree: 91%
 
 ## 2026년 9월 {#september-2026}
 
-* **Optimize** 활동 설명서에 **타깃팅 규칙** 메서드에 대한 플래그가 더 이상 지정되어 있지 않습니다. 제한된 가용성: 타깃팅 규칙을 이제 일반적으로 사용할 수 있습니다. [자세히 보기](../building-journeys/optimize.md#optimization-methods)
+* **전자 메일 배경 개인화** 페이지를 확장하고 개선했습니다. 이제 배경 이미지에 대한 전체 **이미지 배치** 드롭다운을 문서화하고, 이메일 Designer 미리 보기에만 의존하지 않고 실제 이메일 클라이언트에서 배경 이미지를 테스트하는 권장 사항을 포함하여 배경 색상 및 이미지에 대한 새로운 모범 사례를 추가합니다. [자세히 보기](../email/backgrounds.md)
+
+* **이메일 Designer을 사용하여 처음부터 콘텐츠 디자인** 페이지가 재구성되고 명확해졌습니다. **[!UICONTROL n:n 열]** 구조를 고정된 사전 설정 구조와 구별하고, 기존 콘텐츠를 손실하지 않고 구조의 열 수를 늘릴 수 있다는 문서를 만들고, 모바일의 열 스택 동작을 설명하고, **[!UICONTROL 모듈]**&#x200B;을(를) 사용하는 새로운 단계를 빠른 시작 이메일 만들기에 추가합니다. [자세히 보기](../email/content-from-scratch.md)
 
 * 이제 **여정 디자인** 페이지에 활동을 추가하고, 도구 모음 아이콘을 사용하고, 일괄 작업을 위해 여러 활동을 선택하고, 활동을 복사 및 붙여넣기하고, 분기를 연결하거나 분리하는 방법을 다루는 새 캔버스 경험에 대한 전체 자습서 섹션이 포함됩니다. [자세히 보기](../building-journeys/using-the-journey-designer.md#canvas-capabilities)
 
@@ -35,7 +37,7 @@ ht-degree: 91%
 
 * 새로운 **여정 예외 항목 분석** 스킬이 CX Coworker 페이지의 **여정 분석**&#x200B;에 설명되어 있습니다. 기록 기준선에 대한 여정의 시작, 종료 또는 보내기 카운트에서 예상치 못한 급증, 하락 또는 플랫라인을 감지하고 읽기 전용 진단을 실행하여 가능한 근본 원인을 표시합니다. [자세히 보기](../start/ajo-coworker-skills.md#journey-analyze)
 
-* 100KB가 넘는 시각적 조각 또는 200KB가 넘는 식 조각으로 인해 이메일 게재에 잘림 문제가 발생할 수 있다는 오래된 메모를 제거하기 위해 **보호 기능 및 제한 사항** 페이지가 수정되었습니다. 700KB 조각 크기 단일 보호기능만 적용됩니다. [자세히 보기](../start/guardrails.md#fragments-guardrails)
+* **보호 기능 및 제한 사항** 페이지가 100KB가 넘는 시각적 조각 또는 200KB가 넘는 식 조각으로 인해 이메일 게재에서 더 이상 잘림 문제가 발생할 수 없다는 사실을 반영하도록 수정되었습니다. 이제 700KB 조각 크기 단일 보호기능이 적용됩니다. [자세히 보기](../start/guardrails.md#fragments-guardrails)
 
 * **라이브 활동 만들기** 페이지가 수정되었습니다. `executionMetadata` 필드는 **API 트리거 트랜잭션** 캠페인에 대해서만 사용할 수 있으며 이전에 설명한 API 트리거 마케팅 캠페인에는 사용할 수 없습니다. [자세히 보기](../mobile-live/create-mobile-live.md#metadata)
 
