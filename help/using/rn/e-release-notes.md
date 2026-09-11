@@ -7,15 +7,12 @@ hide: true
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-subfeature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: c8585d3a3d3d9f1c1f13cb52dbc1dfc62bb52468
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32
+subfeature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+source-git-commit: d6216ad8546cbbfbccb66104fe61ff6f86a1e68e
 workflow-type: tm+mt
-source-wordcount: 1958
+source-wordcount: 1928
 ht-degree: 19%
 
 ---
@@ -98,7 +95,7 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 <tbody>
 <tr>
 <td>
-<p>이제 이벤트 매핑 생성 또는 편집에서는 새로운 **시각적 매핑 빌더**&#x200B;를 사용합니다. 스키마를 선택하고, 검색 가능한 필드 선택기에서 필드를 선택하고, 각 필드를 행별 연결 상태가 있는 충성도 이벤트 필드에 매핑하고, 언제든지 수동 JSONata 편집으로 전환하는 옵션과 함께 자동 생성된 JSONata 표현식을 미리 봅니다.</p><p>또한 충성도 관리자의 "이벤트 정의"가 사람이 읽을 수 있는 Experience 이벤트 스키마 이름을 보여 주는 목록 보기가 새로 고쳐진 상태로 "이벤트 매핑"으로 이름이 변경되었습니다.</p>
+<p>이제 이벤트 매핑 생성 또는 편집에서는 새로운 **시각적 매핑 빌더**를 사용합니다. 스키마를 선택하고, 검색 가능한 필드 선택기에서 필드를 선택하고, 각 필드를 행별 연결 상태가 있는 충성도 이벤트 필드에 매핑하고, 언제든지 수동 JSONata 편집으로 전환하는 옵션과 함께 자동 생성된 JSONata 표현식을 미리 봅니다.</p><p>또한 충성도 관리자의 "이벤트 정의"가 사람이 읽을 수 있는 Experience 이벤트 스키마 이름을 보여 주는 목록 보기가 새로 고쳐진 상태로 "이벤트 매핑"으로 이름이 변경되었습니다.</p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
@@ -340,7 +337,6 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 <tr>
 <td>
 <p>이제 이메일 테마가 어두운 모드를 위한 독립적인 스타일을 지원합니다. 테마 빌더에서 특정 변형에 대해 어두운 모드를 켜서 밝은 모드 스타일과 별도로 편집하는 전용 어두운 모드 스타일시트를 생성할 수 있습니다. 한 모드에서 변경한 사항이 다른 모드를 더 이상 덮어쓰지 않습니다. 이메일 및 템플릿 편집기에서 데스크탑 및 모바일 보기 옵션 옆에 새로운 미리보기 토글을 사용하면 어두운 모드로 콘텐츠를 미리 볼 수 있습니다.</p>
-<p>이 편집기 내 미리 보기는 CSS 필터를 사용하며, 픽셀이 완벽하지 않으므로 다크 모드 사용 이메일 클라이언트에서 정확한 렌더링을 확인하기 위해 증명을 보내는 것이 좋습니다.</p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
