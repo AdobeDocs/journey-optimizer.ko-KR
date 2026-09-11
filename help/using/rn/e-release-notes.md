@@ -7,15 +7,12 @@ hide: true
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-subfeature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: 790300d6e9bf99e4465a1f673073b4d2c45b0e9a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32
+subfeature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+source-git-commit: c8585d3a3d3d9f1c1f13cb52dbc1dfc62bb52468
 workflow-type: tm+mt
-source-wordcount: 1951
+source-wordcount: 1958
 ht-degree: 19%
 
 ---
@@ -98,7 +95,7 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 <tbody>
 <tr>
 <td>
-<p>이제 이벤트 매핑 생성 또는 편집에서는 새로운 **시각적 매핑 빌더**&#x200B;를 사용합니다. 스키마를 선택하고, 검색 가능한 필드 선택기에서 필드를 선택하고, 각 필드를 행별 연결 상태가 있는 충성도 이벤트 필드에 매핑하고, 언제든지 수동 JSONata 편집으로 전환하는 옵션과 함께 자동 생성된 JSONata 표현식을 미리 봅니다.</p><p>또한 충성도 관리자의 "이벤트 정의"가 사람이 읽을 수 있는 Experience 이벤트 스키마 이름을 보여 주는 목록 보기가 새로 고쳐진 상태로 "이벤트 매핑"으로 이름이 변경되었습니다.</p>
+<p>이제 이벤트 매핑 생성 또는 편집에서는 새로운 **시각적 매핑 빌더**를 사용합니다. 스키마를 선택하고, 검색 가능한 필드 선택기에서 필드를 선택하고, 각 필드를 행별 연결 상태가 있는 충성도 이벤트 필드에 매핑하고, 언제든지 수동 JSONata 편집으로 전환하는 옵션과 함께 자동 생성된 JSONata 표현식을 미리 봅니다.</p><p>또한 충성도 관리자의 "이벤트 정의"가 사람이 읽을 수 있는 Experience 이벤트 스키마 이름을 보여 주는 목록 보기가 새로 고쳐진 상태로 "이벤트 매핑"으로 이름이 변경되었습니다.</p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
@@ -172,7 +169,7 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 
 * **여정 시뮬레이션에서 보조 ID 지원** - **보조 ID**&#x200B;이(가) 이제 여정 시뮬레이션에서 지원되므로 읽기 대상 및 이벤트가 트리거된 여정 모두에 대해 복잡한 사용자 시나리오를 테스트할 수 있습니다. <!-- Documentation link: TBD -->
 
-* **세분화된 일괄 처리 대상 평가 대기 논리** - **대상 읽기 활동**&#x200B;에서 여정의 &quot;일괄 처리 대상 평가 후 트리거&quot; 옵션은 이제 일괄 처리 세그먼테이션이 이미 진행 중이고 활성화된 일괄 처리가 이전 실행에서 사용된 것과 다를 때만 새 대상 평가를 대기하므로 기다릴 필요가 없는 여정에 대한 불필요한 지연을 방지할 수 있습니다. <!-- Documentation link: TBD -->
+* **세분화된 일괄 처리 대상 평가 대기 논리** - **대상 읽기 활동**&#x200B;에서 여정의 &quot;일괄 처리 대상 평가 후 트리거&quot; 옵션은 이제 일괄 처리 세그먼테이션이 이미 진행 중이고 활성화된 일괄 처리가 이전 실행에서 사용된 것과 다른 경우에만 새 대상 평가를 대기하므로 기다릴 필요가 없는 여정에 대한 불필요한 지연을 방지할 수 있습니다. <!-- Documentation link: TBD -->
 
 ### 채널 {#sep-26-channels}
 
@@ -206,7 +203,7 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 <tr>
 <td>
 <p><strong>사용자 지정 아웃바운드 채널</strong>을 통해 관리자는 WeChat, Kakao Talk, Messenger 또는 독점 공급자와 같은 아웃바운드 HTTP 기반 메시징 채널을 코드 없는 채널 빌더를 통해 직접 Journey Optimizer으로 가져올 수 있습니다. 구성이 완료되면 사용자 정의 채널은 캠페인, 여정 및 오케스트레이션된 캠페인 전체에서 사용할 수 있으며, 표현식 편집기를 사용한 개인화, 콘텐츠 실험, 미리보기 및 교정쇄, 기본 제공 보고서, 동의 및 거버넌스 시행 등 기본 채널과 동일한 모든 기능을 제공합니다.</p>
-<p>맞춤형 채널에는 다음과 같은 몇 가지 새로운 기능도 있습니다.</p>
+<p>이번 릴리스를 통해 사용자 지정 아웃바운드 채널에는 다음과 같은 몇 가지 새로운 기능도 있습니다.</p>
 <ul>
 <li>코드 기반 경험과 동일한 방식으로 Personalization 편집기를 통해 사용자 지정 채널 페이로드에서 Journey Optimizer Decisioning을 사용합니다.</li>
 <li>기본 채널에서 이미 수행할 수 있는 것과 동일한 방식으로 비즈니스 규칙을 사용자 지정 채널에 적용합니다.</li>
@@ -365,7 +362,22 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 </tbody>
 </table>
 
-* **전자 메일 Designer의 새 테이블 구성 요소** - 이제 전자 메일 Designer에 기본 제공 **테이블 구성 요소**&#x200B;가 포함되어 있으므로 전자 메일 내에서 직접 행 및 열의 콘텐츠를 구성할 수 있습니다. 구성 요소를 캔버스에 끌어다 놓고, 행과 열의 수를 사용자 지정하고, 각 셀의 스타일을 독립적으로 지정하여 사용자 지정 HTML에 의존하지 않고 명확하고, 정리된 레이아웃을 만듭니다. <!-- Documentation link: TBD -->
+<table>
+<thead>
+<tr>
+<th><strong>이메일 Designer의 새 테이블 구성 요소</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 Email Designer에 기본 제공 <strong>테이블 구성 요소</strong>가 포함되어 있으므로 전자 메일 내에서 직접 행과 열로 콘텐츠를 구성할 수 있습니다. 구성 요소를 캔버스에 드래그하여 놓고, 행과 열의 수를 사용자 정의하고, 각 셀의 스타일을 독립적으로 지정하여 사용자 지정 HTML에 의존하지 않고 명확하고 체계적인 레이아웃을 만듭니다.</p>
+<!-- GIF placeholder: to be added -->
+<!-- Documentation link: TBD -->
+</td>
+</tr>
+</tbody>
+</table>
 
 * **전자 메일 테마의 사용자 지정 글꼴에 대한 대체 글꼴** - 이제 전자 메일 테마를 통해 적용된 모든 사용자 지정(웹) 글꼴에 대한 대체 글꼴을 정의할 수 있습니다. 가입자의 이메일 클라이언트가 사용자 정의 글꼴을 지원하지 않는 경우 Adobe Journey Optimizer은 이메일 클라이언트의 기본값으로 선택을 유지하는 대신 지정된 대체 글꼴을 자동으로 표시합니다. 이렇게 하면 이메일 타이포그래피를 브랜드 지침에 더 가깝게 유지할 수 있으며 이메일 클라이언트 간의 글꼴 렌더링 불일치를 줄일 수 있습니다. <!-- Documentation link: TBD -->
 
