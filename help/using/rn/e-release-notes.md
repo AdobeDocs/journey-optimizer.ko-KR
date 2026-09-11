@@ -7,15 +7,12 @@ hide: true
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-subfeature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: 6c6f393a210af81fd3e69f1eaddda139e5813b78
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32
+subfeature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+source-git-commit: 498ffd4d4d68dfc678ae4e2e8ad9ae39834a6b23
 workflow-type: tm+mt
-source-wordcount: 2527
+source-wordcount: 2594
 ht-degree: 13%
 
 ---
@@ -100,7 +97,7 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 <tbody>
 <tr>
 <td>
-<p>이제 이벤트 매핑 생성 또는 편집에서는 새로운 **시각적 매핑 빌더**&#x200B;를 사용합니다. 스키마를 선택하고, 검색 가능한 필드 선택기에서 필드를 선택하고, 각 필드를 행별 연결 상태가 있는 충성도 이벤트 필드에 매핑하고, 언제든지 수동 JSONata 편집으로 전환하는 옵션과 함께 자동 생성된 JSONata 표현식을 미리 봅니다.</p><p>또한 충성도 관리자의 "이벤트 정의"가 사람이 읽을 수 있는 Experience 이벤트 스키마 이름을 보여 주는 목록 보기가 새로 고쳐진 상태로 "이벤트 매핑"으로 이름이 변경되었습니다.</p>
+<p>이제 이벤트 매핑 생성 또는 편집에서는 새로운 **시각적 매핑 빌더**를 사용합니다. 스키마를 선택하고, 검색 가능한 필드 선택기에서 필드를 선택하고, 각 필드를 행별 연결 상태가 있는 충성도 이벤트 필드에 매핑하고, 언제든지 수동 JSONata 편집으로 전환하는 옵션과 함께 자동 생성된 JSONata 표현식을 미리 봅니다.</p><p>또한 충성도 관리자의 "이벤트 정의"가 사람이 읽을 수 있는 Experience 이벤트 스키마 이름을 보여 주는 목록 보기가 새로 고쳐진 상태로 "이벤트 매핑"으로 이름이 변경되었습니다.</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-15661" target="_blank">DOCAC-15661</a></p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
@@ -299,6 +296,8 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 
 * **직접 조인 UX 개선 사항** - 이제 관련 컬렉션의 특성을 추가할 때 세 가지 조인 모드(데카르트 제품의 잠재적인 성능 영향을 경고하는 새 기본값과 기존 집계 및 고급 모드) 중에서 선택할 수 있습니다. 이렇게 하면 쿼리를 작성하기 전에 쿼리의 트레이드오프를 쉽게 이해할 수 있습니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-15675" target="_blank">DOCAC-15675</a> <!-- Documentation link: TBD -->
 
+* **오케스트레이션된 캠페인의 관계형 데이터가 포함된 조건부 콘텐츠** - 이제 오케스트레이션된 캠페인을 위해 이메일 Designer에서 조건부 콘텐츠를 빌드할 때 표준 프로필 특성뿐만 아니라 프로필과 연결된 관련 레코드와 같은 **관계형 데이터**&#x200B;에 직접 조건을 빌드할 수 있습니다. 이렇게 하면 원래 릴리스와의 차이가 닫히므로 마케터는 엔지니어링 도움말 없이 시각적으로 이러한 조건을 구축할 수 있습니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-15679" target="_blank">DOCAC-15679</a> <!-- Documentation link: TBD -->
+
 ### 캠페인 {#sep-26-campaigns}
 
 이 릴리스의 캠페인에는 다음과 같은 기능 및 개선 사항이 적용되었습니다.
@@ -344,7 +343,7 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 </tbody>
 </table>
 
-* **CX Coworker의 의사 결정 규칙 생성** - 이전에는 오른쪽 레일을 통해 사용할 수 있었던 **AI 지원 의사 결정 규칙 생성** 경험은 이제 CX Coworker를 통해 액세스할 수 있습니다. CX Coworker는 AI로 규칙을 작성하는 방법으로 오른쪽 레일을 대체합니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-15290" target="_blank">DOCAC-15290</a> <!-- Documentation link: TBD -->
+* CX Coworker에서 **의사 결정 규칙 생성** - 이전에 오른쪽 레일을 통해 사용할 수 있었던 **AI 지원 의사 결정 규칙 생성** 경험은 이제 CX Coworker을 통해 액세스할 수 있습니다. 이 경험은 규칙을 AI로 빌드하는 방법으로 오른쪽 레일을 대체합니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-15290" target="_blank">DOCAC-15290</a> <!-- Documentation link: TBD -->
 
 ### DM {#sep-26-direct-mail}
 
