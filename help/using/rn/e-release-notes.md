@@ -7,16 +7,13 @@ hide: true
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-subfeature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: 445bfb155d5e14ebbc84ef70036cde64662dc938
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32
+subfeature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+source-git-commit: 6c6f393a210af81fd3e69f1eaddda139e5813b78
 workflow-type: tm+mt
-source-wordcount: 2506
-ht-degree: 14%
+source-wordcount: 2527
+ht-degree: 13%
 
 ---
 
@@ -100,7 +97,7 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 <tbody>
 <tr>
 <td>
-<p>이제 이벤트 매핑 생성 또는 편집에서는 새로운 **시각적 매핑 빌더**&#x200B;를 사용합니다. 스키마를 선택하고, 검색 가능한 필드 선택기에서 필드를 선택하고, 각 필드를 행별 연결 상태가 있는 충성도 이벤트 필드에 매핑하고, 언제든지 수동 JSONata 편집으로 전환하는 옵션과 함께 자동 생성된 JSONata 표현식을 미리 봅니다.</p><p>또한 충성도 관리자의 "이벤트 정의"가 사람이 읽을 수 있는 Experience 이벤트 스키마 이름을 보여 주는 목록 보기가 새로 고쳐진 상태로 "이벤트 매핑"으로 이름이 변경되었습니다.</p>
+<p>이제 이벤트 매핑 생성 또는 편집에서는 새로운 **시각적 매핑 빌더**를 사용합니다. 스키마를 선택하고, 검색 가능한 필드 선택기에서 필드를 선택하고, 각 필드를 행별 연결 상태가 있는 충성도 이벤트 필드에 매핑하고, 언제든지 수동 JSONata 편집으로 전환하는 옵션과 함께 자동 생성된 JSONata 표현식을 미리 봅니다.</p><p>또한 충성도 관리자의 "이벤트 정의"가 사람이 읽을 수 있는 Experience 이벤트 스키마 이름을 보여 주는 목록 보기가 새로 고쳐진 상태로 "이벤트 매핑"으로 이름이 변경되었습니다.</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-15661" target="_blank">DOCAC-15661</a></p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
@@ -297,7 +294,7 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 
 * **오케스트레이션된 새 캠페인 모니터링 API** - 이제 오케스트레이션된 캠페인에 새 **API 사양**&#x200B;을 사용할 수 있습니다. 이를 통해 오케스트레이션된 캠페인을 프로그래밍 방식으로 만들고, 관리하고, 트리거할 수 있으므로 외부 시스템 및 자동화 파이프라인과의 긴밀한 통합을 지원합니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-14308" target="_blank">DOCAC-14308</a> <!-- Documentation link: TBD -->
 
-* **직접 조인 UX 개선 사항** - 이제 관련 컬렉션의 특성을 추가할 때 세 가지 조인 모드(데카르트 제품의 잠재적인 성능 영향을 경고하는 새 기본값과 기존 집계 및 고급 모드) 중에서 선택할 수 있습니다. 이렇게 하면 쿼리를 작성하기 전에 쿼리의 트레이드오프를 쉽게 이해할 수 있습니다.
+* **직접 조인 UX 개선 사항** - 이제 관련 컬렉션의 특성을 추가할 때 세 가지 조인 모드(데카르트 제품의 잠재적인 성능 영향을 경고하는 새 기본값과 기존 집계 및 고급 모드) 중에서 선택할 수 있습니다. 이렇게 하면 쿼리를 작성하기 전에 쿼리의 트레이드오프를 쉽게 이해할 수 있습니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-15675" target="_blank">DOCAC-15675</a> <!-- Documentation link: TBD -->
 
 ### 캠페인 {#sep-26-campaigns}
 
@@ -350,9 +347,9 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 
 이 릴리스에서는 DM에 다음과 같은 기능 및 개선 사항이 적용됩니다.
 
-* **대용량 파일을 자동으로 분할** - 이제 DM 파일이 약 20GB를 초과할 때 자동으로 여러 부분으로 분할하거나 파일 라우팅 구성에서 대상 파일 크기를 선택하여 수동으로 분할할 수 있습니다. 선택적 JSON 매니페스트 파일에서 생성된 모든 부분을 설명합니다.
+* **대용량 파일을 자동으로 분할** - 이제 DM 파일이 약 20GB를 초과할 때 자동으로 여러 부분으로 분할하거나 파일 라우팅 구성에서 대상 파일 크기를 선택하여 수동으로 분할할 수 있습니다. 선택적 JSON 매니페스트 파일에서 생성된 모든 부분을 설명합니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-15677" target="_blank">DOCAC-15677</a> <!-- Documentation link: TBD -->
 
-* **대상 제한 증가** - DM 채널 대상 제한이 3백만 프로필에서 1억 프로필로 증가하여 파일 생성 오류가 발생하지 않고 훨씬 더 많은 대상을 타깃팅할 수 있습니다.
+* **대상 제한 증가** - DM 채널 대상 제한이 3백만 프로필에서 1억 프로필로 증가하여 파일 생성 오류가 발생하지 않고 훨씬 더 많은 대상을 타깃팅할 수 있습니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-15676" target="_blank">DOCAC-15676</a> <!-- Documentation link: TBD -->
 
 ### 이메일 디자이너 {#sep-26-email-designer}
 
