@@ -10,27 +10,16 @@ level: Beginner, Intermediate
 keywords: 콘텐츠, 편집자, 이메일, 시작
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
 TQID: https://experienceleague.adobe.com/mDgavy5F5CYnLmKBh84OSXFl-BHE82t-diUX6UXU27k
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c41e8697-e629-4c38-96b3-564faaa17acf
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5fb4e78a32eedb4db8e1b3c3e0d87b01dc2f7a27
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c41e8697-e629-4c38-96b3-564faaa17acfid: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 096708dff514b6c8d099f48533ed81597a6e3510
 workflow-type: tm+mt
-source-wordcount: 772
-ht-degree: 49%
+source-wordcount: 1103
+ht-degree: 31%
 
 ---
 
@@ -94,52 +83,61 @@ ht-degree: 49%
 
 1. Designer 홈페이지에서 **[!UICONTROL 처음부터 디자인]** 옵션을 선택합니다.
 
-   ![](assets/email_designer.png)
+   ![처음부터 디자인 옵션이 강조 표시된 전자 메일 화면을 만들고, 나만의 코드 작성 및 HTML 가져오기 옵션과 아래 샘플 템플릿 만들기](assets/email_designer.png)
 
+1. 빠르게 시작하려면 **[!UICONTROL 모듈]**(머리글, 영웅 섹션, 바닥글과 같이 미리 디자인된 미리 사용 가능한 콘텐츠 블록)을 사용하여 전자 메일 만들기 속도를 높이고 캠페인을 시각적으로 일관되게 유지하세요. [모듈에 대해 자세히 알아보기](email-modules.md)
 
-1. [AI로 전체 콘텐츠 생성](../content-management/generative-full-content.md)을 사용하여 콘텐츠 생성을 통해 이메일 만들기 속도를 높이고 텍스트 및 이미지로 전체 이메일 콘텐츠를 생성합니다.
+   ![왼쪽 패널에서 [모듈] 탭을 선택한 상태로 Designer에 전자 메일을 보내 머리글, 영웅, 추천, 카드, 팀 및 바닥글과 같은 모듈 범주를 나열합니다](assets/email_designer_modules_tab.png)
 
-1. **[!UICONTROL Structures]**&#x200B;을(를) 캔버스로 끌어다 놓아 전자 메일의 레이아웃을 정의하여 콘텐츠 디자인을 시작합니다.
+1. 그렇지 않으면 **[!UICONTROL 구조]**&#x200B;를 캔버스로 드래그 앤 드롭하여 전자 메일의 레이아웃을 정의하여 콘텐츠를 디자인할 수 있습니다.
 
-   >[!NOTE]
+   >[!TIP]
    >
-   >일부 이메일 프로그램은 열 누적 기능과 호환되지 않습니다. 지원되지 않을 경우 열이 스택되지 않습니다.
-
-   <!--Once placed in the email, you cannot move nor remove your components unless there is already a content component or a fragment placed inside. This is not true in AJO - TBC?-->
+   >또는 [콘텐츠 생성]을 사용하여 전자 메일 만들기 속도를 높여 [AI로 전체 콘텐츠 생성](../content-management/generative-full-content.md)을 사용하여 텍스트 및 이미지를 포함한 전체 전자 메일 콘텐츠를 생성합니다. 그런 다음 콘텐츠 미리보기 및 유효성 검사로 건너뛸 수 있습니다.
 
 1. 필요에 따라 **[!UICONTROL 구조]**&#x200B;를 추가하고 오른쪽의 전용 창에서 해당 설정을 편집합니다.
 
-   ![](assets/email_designer_structure_components.png)
+   ![사용 가능한 열 레이아웃을 표시하는 구조 패널과 오른쪽 구조 패널에 강조 표시된 설정 및 스타일 탭으로 Designer에 전자 메일을 보냅니다](assets/email_designer_structure_components.png)
 
-   **[!UICONTROL n:n 열]** 구성 요소를 선택하여 선택한 열 수(3과 10 사이)를 정의합니다. 각 열의 아래쪽에 있는 화살표를 이동하여 각 열의 폭을 정의할 수도 있습니다.
+   >[!NOTE]
+   >
+   >좁은 화면(예: 모바일)에서는 가독성을 위해 기본적으로 열이 세로로 스택됩니다. 일부 이메일 클라이언트는 이 동작을 지원하지 않으며, 이 경우 열은 나란히 유지됩니다. **[!UICONTROL 설정]** 탭에서 **[!UICONTROL 모바일에서 열을 스택하지 않음]** 토글을 사용하여 이 기능을 끌 수도 있습니다.
+
+1. 대부분의 구조(**[!UICONTROL 1:1 열]**, **[!UICONTROL 2:2 열]**, **[!UICONTROL 1:2 열 왼쪽]** 등)는 고정된 사전 설정입니다. 대신 **[!UICONTROL n:n 열]** 구성 요소를 선택하여 원하는 열 수(3개에서 10개 사이)를 정의합니다.
+
+   ![선택한 구조 구성 요소에 대한 설정 탭을 표시하는 전자 메일 Designer에 열 번호 필드가 강조 표시됨](assets/email_designer_structure_columns.png)
+
+   **[!UICONTROL 설정]** 탭에서 언제든지 기존 구조의 **[!UICONTROL 열 개수]**&#x200B;를 늘릴 수 있습니다. 콘텐츠를 추가한 후에도 기존 콘텐츠가 손실되지 않고 유지됩니다.
+
+   캔버스에서 직접 각 열의 너비를 조정하거나 **[!UICONTROL 설정]** 탭에서 백분율을 편집할 수도 있습니다.
 
    >[!NOTE]
    >
    >각 열 크기는 구조 구성 요소 전체 폭의 10% 이상이어야 합니다. 비어 있는 열만 제거할 수 있습니다.
 
-1. **[!UICONTROL 내용]** 섹션을 확장하고 하나 이상의 구조 구성 요소에 필요한 만큼 요소를 추가합니다. [콘텐츠 구성 요소에 대해 자세히 알아보기](content-components.md)
+1. **[!UICONTROL 내용]** 섹션에서 하나 이상의 구조 구성 요소에 필요한 만큼 요소를 추가합니다. [콘텐츠 구성 요소에 대해 자세히 알아보기](content-components.md)
 
 1. 오른쪽 메뉴의 **[!UICONTROL 설정]** 또는 **[!UICONTROL 스타일]** 탭을 사용하여 각 구성 요소를 추가로 사용자 지정할 수 있습니다. 예를 들어 각 구성 요소의 텍스트 스타일, 패딩 또는 여백을 변경할 수 있습니다. [정렬 및 패딩에 대해 자세히 알아보기](alignment-and-padding.md)
 
-   ![](assets/email_designer_structure_component.png)
+   ![왼쪽에는 [컨텐츠] 패널이 강조 표시되고 오른쪽에는 선택한 이미지 구성 요소에 대한 [설정] 탭이 강조 표시되어 이미지 소스, 대체 텍스트 및 링크 필드를 표시하는 Designer 전자 메일을 보냅니다](assets/email_designer_structure_component.png)
 
 1. **[!UICONTROL 자산 선택기]**&#x200B;에서 **[!UICONTROL Assets 라이브러리]**&#x200B;에 저장된 자산을 직접 선택할 수 있습니다. [자산 관리에 대해 자세히 알아보기](../integrations/assets.md)
 
    에셋이 포함된 폴더를 두 번 클릭합니다. 구조 구성 요소로 끌어다 놓습니다.
 
-   ![](assets/email_designer_asset_picker.png)
+   ![캔버스로 드래그되는 이미지를 사용하여 에셋 라이브러리 파일을 표시하는 Designer Assets 패널에 전자 메일을 보냅니다](assets/email_designer_asset_picker.png)
 
 1. 개인화 필드를 삽입하여 프로필 속성, 대상자 멤버십, 컨텍스트 속성 등에서 콘텐츠를 사용자 지정합니다. [콘텐츠 개인화에 대해 자세히 알아보기](../personalization/personalize.md)
 
-   ![](assets/email_designer_personalization.png)
+   ![선택한 텍스트 블록 위에 Personalization 추가 단추가 강조 표시된 이메일 Designer 텍스트 도구 모음](assets/email_designer_personalization.png)
 
 1. 조건부 규칙에 따라 다이내믹 콘텐츠를 추가하고 타겟팅된 프로필에 콘텐츠를 적용하려면 **[!UICONTROL 조건 콘텐츠 사용]**&#x200B;을 클릭하십시오. [다이내믹 콘텐츠 시작](../personalization/get-started-dynamic-content.md)
 
-   ![](assets/email_designer_dynamic-content.png)
+   ![프로필 개인화 토큰이 포함된 텍스트 블록 위에 조건부 콘텐츠 사용 옵션을 표시하는 이메일 Designer 도구 모음](assets/email_designer_dynamic-content.png)
 
 1. 추적할 콘텐츠의 모든 URL을 표시하려면 왼쪽 창에서 **[!UICONTROL 링크]** 탭을 클릭하십시오. **[!UICONTROL 추적 유형]** 또는 **[!UICONTROL 레이블]**&#x200B;을 수정하고 필요한 경우 **[!UICONTROL 태그]**&#x200B;를 추가할 수 있습니다. [링크 및 추적에 대해 자세히 알아보기](message-tracking.md)
 
-   ![](assets/email_designer_links.png)
+   ![레이블 및 추적 유형과 함께 추적된 URL을 나열하는 전자 메일 Designer 링크 패널 및 선택한 링크의 세부 정보가 확장됨](assets/email_designer_links.png)
 
 1. 필요한 경우 고급 메뉴에서 **[!UICONTROL 코드 편집기로 전환]**&#x200B;을 클릭하여 이메일을 추가로 개인화할 수 있습니다. 이를 통해 이메일 소스 코드를 편집할 수 있습니다(예: 추적 또는 사용자 정의 HTML 태그 추가). [코드 편집기에 대해 자세히 알아보기](code-content.md)
 
@@ -149,7 +147,7 @@ ht-degree: 49%
 
 1. 콘텐츠가 준비되면 두 방법 중 하나를 사용하여 렌더링을 확인합니다. 데스크탑 또는 모바일 보기 중 선택할 수 있습니다. 자세한 정보는 [콘텐츠 관리](../content-management/preview-test.md) 섹션에서 확인할 수 있습니다.
 
-   ![](assets/email_designer_simulate_content.png)
+   ![맨 위 도구 모음에 [콘텐츠 시뮬레이션] 단추가 강조 표시된 전자 메일 Designer 캔버스](assets/email_designer_simulate_content.png)
 
 1. 컨텐츠 품질을 확인하여 가독성, 효율성 및 컨텐츠 응집성을 평가할 수도 있습니다. [콘텐츠 품질 확인에 대해 자세히 알아보기](../content-management/brands-score.md#validate-quality)
 
