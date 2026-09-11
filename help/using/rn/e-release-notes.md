@@ -7,16 +7,13 @@ hide: true
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-subfeature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: 498ffd4d4d68dfc678ae4e2e8ad9ae39834a6b23
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32
+subfeature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+source-git-commit: aa78a57052c98d28eed2000a475719ff6af46de6
 workflow-type: tm+mt
-source-wordcount: 2594
-ht-degree: 13%
+source-wordcount: 2747
+ht-degree: 12%
 
 ---
 
@@ -100,7 +97,7 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 <tbody>
 <tr>
 <td>
-<p>이제 이벤트 매핑 생성 또는 편집에서는 새로운 **시각적 매핑 빌더**&#x200B;를 사용합니다. 스키마를 선택하고, 검색 가능한 필드 선택기에서 필드를 선택하고, 각 필드를 행별 연결 상태가 있는 충성도 이벤트 필드에 매핑하고, 언제든지 수동 JSONata 편집으로 전환하는 옵션과 함께 자동 생성된 JSONata 표현식을 미리 봅니다.</p><p>또한 충성도 관리자의 "이벤트 정의"가 사람이 읽을 수 있는 Experience 이벤트 스키마 이름을 보여 주는 목록 보기가 새로 고쳐진 상태로 "이벤트 매핑"으로 이름이 변경되었습니다.</p>
+<p>이제 이벤트 매핑 생성 또는 편집에서는 새로운 **시각적 매핑 빌더**를 사용합니다. 스키마를 선택하고, 검색 가능한 필드 선택기에서 필드를 선택하고, 각 필드를 행별 연결 상태가 있는 충성도 이벤트 필드에 매핑하고, 언제든지 수동 JSONata 편집으로 전환하는 옵션과 함께 자동 생성된 JSONata 표현식을 미리 봅니다.</p><p>또한 충성도 관리자의 "이벤트 정의"가 사람이 읽을 수 있는 Experience 이벤트 스키마 이름을 보여 주는 목록 보기가 새로 고쳐진 상태로 "이벤트 매핑"으로 이름이 변경되었습니다.</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-15661" target="_blank">DOCAC-15661</a></p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
@@ -346,7 +343,7 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 </tbody>
 </table>
 
-* CX Coworker에서 **의사 결정 규칙 생성** - 이전에 오른쪽 레일을 통해 사용할 수 있었던 **AI 지원 의사 결정 규칙 생성** 경험은 이제 CX Coworker을 통해 액세스할 수 있습니다. 이 경험은 규칙을 AI로 빌드하는 방법으로 오른쪽 레일을 대체합니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-15290" target="_blank">DOCAC-15290</a> <!-- Documentation link: TBD -->
+* **CX Coworker의 의사 결정 규칙 생성** - 이전에는 오른쪽 레일을 통해 사용할 수 있었던 **AI 지원 의사 결정 규칙 생성** 경험은 이제 CX Coworker를 통해 액세스할 수 있습니다. CX Coworker는 AI로 규칙을 작성하는 방법으로 오른쪽 레일을 대체합니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-15290" target="_blank">DOCAC-15290</a> <!-- Documentation link: TBD -->
 
 ### DM {#sep-26-direct-mail}
 
@@ -415,6 +412,36 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 </table>
 
 * **전자 메일 테마의 사용자 지정 글꼴에 대한 대체 글꼴** - 이제 전자 메일 테마를 통해 적용된 모든 사용자 지정(웹) 글꼴에 대한 대체 글꼴을 정의할 수 있습니다. 가입자의 이메일 클라이언트가 사용자 정의 글꼴을 지원하지 않는 경우 Adobe Journey Optimizer은 이메일 클라이언트의 기본값으로 선택을 유지하는 대신 지정된 대체 글꼴을 자동으로 표시합니다. 이렇게 하면 이메일 타이포그래피를 브랜드 지침에 더 가깝게 유지할 수 있으며 이메일 클라이언트 간의 글꼴 렌더링 불일치를 줄일 수 있습니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-15662" target="_blank">DOCAC-15662</a> <!-- Documentation link: TBD -->
+
+### 보고 {#sep-26-reporting}
+
+이 릴리스에서는 다음 기능이 보고됩니다.
+
+<table>
+<thead>
+<tr>
+<th><strong>데이터 관리의 새로운 인바운드 모니터링 그래프</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 <strong>데이터 관리 &gt; 모니터링 &gt; Edge</strong>에서 직접 인바운드 데이터 상태를 모니터링할 수 있습니다. 6개의 새로운 그래프는 처리량, 대기 시간 및 제안 이벤트를 다룹니다.</p>
+<ul>
+<li><strong>AJO 인바운드 처리량</strong> — 시간에 따른 전체 인바운드 처리량(초당 레코드)입니다.</li>
+<li><strong>AJO 인바운드 처리량 분류</strong> - 위치별로 분류된 인바운드 처리량.</li>
+<li><strong>AJO 인바운드 대기 시간</strong> — 값 분포(P50, P90 등)별로 분류된 인바운드 요청 대기 시간(밀리초)입니다.</li>
+<li><strong>AJO 인바운드 제안 이벤트 처리량</strong> - 시간이 지남에 따라 제안 이벤트(사용자가 개인화된 오퍼와 상호 작용하거나, 보거나, 트리거할 때 생성되는 추적 신호)의 처리량입니다.</li>
+<li><strong>채널별 AJO 인바운드 제안 이벤트 처리량</strong> - 인바운드 채널(CBE, 인앱, 콘텐츠 카드)별로 분류된 제안 이벤트 처리량.</li>
+<li><strong>이벤트 유형별 AJO 인바운드 제안 이벤트 처리량</strong> — 이벤트 유형별로 분류된 제안 이벤트 처리량(해제, 억제, 표시, 트리거, 상호 작용, 전송됨).</li>
+</ul>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-15680" target="_blank">DOCAC-15680</a></p>
+<!-- GIF placeholder: to be added -->
+<!-- Documentation link: TBD -->
+</td>
+</tr>
+</tbody>
+</table>
 
 ### 사용성 개선 사항 {#sep-26-usability}
 
