@@ -13,10 +13,10 @@ feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: 6c6f393a210af81fd3e69f1eaddda139e5813b78
+source-git-commit: aa78a57052c98d28eed2000a475719ff6af46de6
 workflow-type: tm+mt
-source-wordcount: 2527
-ht-degree: 13%
+source-wordcount: 2747
+ht-degree: 12%
 
 ---
 
@@ -299,6 +299,8 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 
 * **직접 조인 UX 개선 사항** - 이제 관련 컬렉션의 특성을 추가할 때 세 가지 조인 모드(데카르트 제품의 잠재적인 성능 영향을 경고하는 새 기본값과 기존 집계 및 고급 모드) 중에서 선택할 수 있습니다. 이렇게 하면 쿼리를 작성하기 전에 쿼리의 트레이드오프를 쉽게 이해할 수 있습니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-15675" target="_blank">DOCAC-15675</a> <!-- Documentation link: TBD -->
 
+* **오케스트레이션된 캠페인의 관계형 데이터가 포함된 조건부 콘텐츠** - 이제 오케스트레이션된 캠페인을 위해 이메일 Designer에서 조건부 콘텐츠를 빌드할 때 표준 프로필 특성뿐만 아니라 프로필과 연결된 관련 레코드와 같은 **관계형 데이터**&#x200B;에 직접 조건을 빌드할 수 있습니다. 이렇게 하면 원래 릴리스와의 차이가 닫히므로 마케터는 엔지니어링 도움말 없이 시각적으로 이러한 조건을 구축할 수 있습니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-15679" target="_blank">DOCAC-15679</a> <!-- Documentation link: TBD -->
+
 ### 캠페인 {#sep-26-campaigns}
 
 이 릴리스의 캠페인에는 다음과 같은 기능 및 개선 사항이 적용되었습니다.
@@ -413,6 +415,36 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 </table>
 
 * **전자 메일 테마의 사용자 지정 글꼴에 대한 대체 글꼴** - 이제 전자 메일 테마를 통해 적용된 모든 사용자 지정(웹) 글꼴에 대한 대체 글꼴을 정의할 수 있습니다. 가입자의 이메일 클라이언트가 사용자 정의 글꼴을 지원하지 않는 경우 Adobe Journey Optimizer은 이메일 클라이언트의 기본값으로 선택을 유지하는 대신 지정된 대체 글꼴을 자동으로 표시합니다. 이렇게 하면 이메일 타이포그래피를 브랜드 지침에 더 가깝게 유지할 수 있으며 이메일 클라이언트 간의 글꼴 렌더링 불일치를 줄일 수 있습니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-15662" target="_blank">DOCAC-15662</a> <!-- Documentation link: TBD -->
+
+### 보고 {#sep-26-reporting}
+
+이 릴리스에서는 다음 기능이 보고됩니다.
+
+<table>
+<thead>
+<tr>
+<th><strong>데이터 관리의 새로운 인바운드 모니터링 그래프</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 <strong>데이터 관리 &gt; 모니터링 &gt; Edge</strong>에서 직접 인바운드 데이터 상태를 모니터링할 수 있습니다. 6개의 새로운 그래프는 처리량, 대기 시간 및 제안 이벤트를 다룹니다.</p>
+<ul>
+<li><strong>AJO 인바운드 처리량</strong> — 시간에 따른 전체 인바운드 처리량(초당 레코드)입니다.</li>
+<li><strong>AJO 인바운드 처리량 분류</strong> - 위치별로 분류된 인바운드 처리량.</li>
+<li><strong>AJO 인바운드 대기 시간</strong> — 값 분포(P50, P90 등)별로 분류된 인바운드 요청 대기 시간(밀리초)입니다.</li>
+<li><strong>AJO 인바운드 제안 이벤트 처리량</strong> - 시간이 지남에 따라 제안 이벤트(사용자가 개인화된 오퍼와 상호 작용하거나, 보거나, 트리거할 때 생성되는 추적 신호)의 처리량입니다.</li>
+<li><strong>채널별 AJO 인바운드 제안 이벤트 처리량</strong> - 인바운드 채널(CBE, 인앱, 콘텐츠 카드)별로 분류된 제안 이벤트 처리량.</li>
+<li><strong>이벤트 유형별 AJO 인바운드 제안 이벤트 처리량</strong> — 이벤트 유형별로 분류된 제안 이벤트 처리량(해제, 억제, 표시, 트리거, 상호 작용, 전송됨).</li>
+</ul>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-15680" target="_blank">DOCAC-15680</a></p>
+<!-- GIF placeholder: to be added -->
+<!-- Documentation link: TBD -->
+</td>
+</tr>
+</tbody>
+</table>
 
 ### 사용성 개선 사항 {#sep-26-usability}
 
