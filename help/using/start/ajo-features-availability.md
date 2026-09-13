@@ -9,8 +9,10 @@ role: Admin, User
 level: Beginner, Intermediate
 keywords: 여정 최적화 도구, 기능 가용성, 사용 가능한 사항, GA, 제한된 가용성, Beta, 라이프사이클, 릴리스 날짜, 권한, 기본 오퍼, 캠페인, 여정
 hide: true
-feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32
-subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+subfeature_v2:
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
 source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 1878
