@@ -6,14 +6,9 @@ description: 프로필 토큰 문제, 캠페인 구성 및 게재 실패를 포�
 role: User
 level: Intermediate
 exl-id: f0f83bd2-7c2b-4d9b-b455-e1df12dfa175
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-  - id: a984631b-2bae-4860-9b15-69c41a799dcb
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: ed2fba79-65cb-4680-96d2-2ad5d851714d
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: a984631b-2bae-4860-9b15-69c41a799dcbid: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: ed2fba79-65cb-4680-96d2-2ad5d851714d
+source-git-commit: d42bba9424dee905f50c16a35785a4d3ddd532cf
 workflow-type: tm+mt
 source-wordcount: 5976
 ht-degree: 1%
@@ -1113,7 +1108,7 @@ ORDER BY timestamp ASC
 > `identityMap`은(는) 문자열이 아닌 구조화된 MAP 유형입니다. 위에 표시된 배열 및 구조체 접근자 구문을 사용합니다. `LIKE`과(와) 같은 문자열 함수는 `DATATYPE_MISMATCH` 오류를 반환합니다.
 >
 ></br>
->&gt; 메시지 피드백 이벤트 데이터 세트는 'identityMap'에 ECID만 저장합니다. 영향을 받는 프로필이 ECID가 아닌 사용자 지정 네임스페이스로 식별되는 경우, 먼저 ECID를 해결하십시오. AEP에서 **프로필**&#x200B;로 이동하고 사용자 지정 네임스페이스와 ID 값을 사용하여 프로필을 검색한 다음 프로필의 ID 세부 정보에서 ECID를 검색하십시오. 위의 쿼리에서 해당 ECID 값을 사용합니다.
+&gt; 메시지 피드백 이벤트 데이터 세트는 'identityMap'에 ECID만 저장합니다. 영향을 받는 프로필이 ECID가 아닌 사용자 지정 네임스페이스로 식별되는 경우, 먼저 ECID를 해결하십시오. AEP에서 **프로필**로 이동하고 사용자 지정 네임스페이스와 ID 값을 사용하여 프로필을 검색한 다음 프로필의 ID 세부 정보에서 ECID를 검색하십시오. 위의 쿼리에서 해당 ECID 값을 사용합니다.
 
 ### feedbackStatus 값
 
@@ -1133,4 +1128,6 @@ ORDER BY timestamp ASC
 `sent`의 `feedbackStatus`에서 Journey Optimizer이 APNs에 알림을 성공적으로 전달했는지 확인합니다. 라이브 활동이 장치에서 렌더링되었는지 확인하지 **않습니다**.
 
 알림이 APNs를 떠나면 iOS에서 콜백을 제공하지 않습니다. OS 제한, APNs와 장치 간의 네트워크 낙하 또는 8시간 라이브 활동 기간 제한에 도달하는 것과 같은 장치측 실패는 데이터 세트에서 관찰할 수 없습니다. `feedbackStatus`이(가) `sent`이지만 실시간 활동이 장치에 표시되지 않는 경우 문제는 Journey Optimizer 파이프라인 외부에 있습니다. Assurance 플러그인 또는 앱 수준 로깅을 사용하여 디바이스측 동작을 진단합니다.
+
+{{$include /help/_includes/do-not-localize/mobile-live/ai-augmented-troubleshoot-mobile-live.md}}
 
