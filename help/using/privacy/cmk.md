@@ -27,7 +27,7 @@ feature_v2:
 subfeature_v2:
   - id: a9cf78bf-e9e4-4836-85a5-b6b3cf93bf56
   - id: c8d5f2ce-ba44-43e9-a2bf-94a3d7d85ec3
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 287250716d690c6d4ca23d1237b96a1d60b15c2b
 workflow-type: tm+mt
 source-wordcount: 312
 ht-degree: 100%
@@ -60,3 +60,5 @@ Journey Optimizer의 설정 프로세스는 크게 두 부분으로 나뉩니다
 Adobe Experience Platform과 고객 관리형 키 모두 데이터를 전송할 때나 사용하지 않을 때 암호화함으로써 데이터의 보안을 보장합니다. 고객 관리형 키를 사용하는지 여부에 관계없이 데이터는 계속 보호됩니다.
 
 Adobe Experience Platform의 데이터 암호화에 대한 자세한 내용은 데이터 암호화에 대한 [설명서](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/encryption.html?lang=ko){target="_blank"}에서 확인하실 수 있습니다.
+
+{{$include /help/_includes/do-not-localize/privacy/ai-augmented-cmk.md}}

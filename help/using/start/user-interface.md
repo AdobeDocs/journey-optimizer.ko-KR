@@ -31,7 +31,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 4b5193629350b88324a9a7cd95cd94c18d58455b
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 1624
 ht-degree: 95%
@@ -389,3 +389,5 @@ AI 어시스턴트는 즉각적인 도움과 운영 인사이트를 제공합니
 >id="ajo_admin_sms_webhook_relay_url"
 >title="릴레이 대상 URL"
 >abstract="Journey Optimizer가 각 수신 메시지를 릴레이하기 위해 호출하는 HTTPS 엔드포인트입니다. Journey Optimizer는 수신 메시지마다 여기에 별도 HTTP POST를 전송합니다. 이는 사용자 정의 인증 아래에 있는 인증 URL과는 다르며, 액세스 토큰 확보에만 사용되고 메시지 수신에는 사용되지 않습니다."
+
+{{$include /help/_includes/do-not-localize/start/ai-augmented-user-interface.md}}

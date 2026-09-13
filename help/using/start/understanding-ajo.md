@@ -38,7 +38,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 984
 ht-degree: 5%
@@ -125,3 +125,5 @@ Journey Optimizer은 Real-Time CDP, Customer Journey Analytics 및 Adobe Mix Mod
 ## 개인정보보호 및 보안 {#privacy-security}
 
 [!DNL Adobe CX Enterprise]의 개인 정보 보호 및 보안 방침이 Adobe Journey Optimizer에 적용됩니다. 이러한 조치는 GDPR과 같은 개인 정보 보호 규정을 준수하도록 함으로써 고객 신뢰를 유지하면서 개인화된 경험을 제공할 수 있도록 합니다. [Journey Optimizer의 개인 정보 보호에 대해 자세히 알아보기](../privacy/get-started-privacy.md)
+
+{{$include /help/_includes/do-not-localize/start/ai-augmented-understanding-ajo.md}}

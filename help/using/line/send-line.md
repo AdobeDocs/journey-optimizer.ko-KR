@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 문자 메시지 확인 및 테스트
-description: Journey Optimizer에서 LINE 메시지를 확인하고 보내는 방법 알아보기
+title: LINE 메시지 미리 보기, 유효성 검사 및 보내기
+description: LINE 메시지를 미리 보고 유효성을 검사하고, 경고 및 오류를 해결하고, 필요한 경우 승인을 요청하고, 여정 또는 캠페인에서 활성화하거나 게시하는 방법에 대해 알아봅니다
 feature: Line
 topic: Content Management
 role: User
@@ -22,42 +22,75 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 94a7cd6e4e89b2c8a4a09cfb4fbfc173ca76c391
 workflow-type: tm+mt
-source-wordcount: 263
-ht-degree: 7%
+source-wordcount: 400
+ht-degree: 2%
 
 ---
 
-# LINE 메시지 확인 및 보내기 {#send-line}
+
+# LINE 메시지 미리 보기, 유효성 검사 및 보내기 {#send-line}
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** LINE 메시지를 미리 보고, 시뮬레이션하고, 유효성을 검사하여 경고나 오류를 해결하고 여정 또는 캠페인을 통해 확실하게 보낼 수 있습니다.
+**이 페이지에서:** LINE 메시지를 미리 보고 유효성을 검사하고, 경고와 오류를 해결하고, 필요한 경우 승인을 요청하고, 여정 또는 캠페인 구성을 완료하여 메시지를 보냅니다.
 
 >[!ENDSHADEBOX]
 
-## 문자 메시지 미리 보기 {#preview-line}
+## 시작하기 전에 {#before-you-start}
 
-메시지 콘텐츠가 정의되면 다음 시뮬레이션 방법 중 하나를 사용하여 콘텐츠를 미리 볼 수 있습니다.
+시작하기 전에 다음을 확인하십시오.
 
-* 샘플 입력 데이터 또는 AI 자동 생성을 사용하여 콘텐츠 변형을 테스트하려면 **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭하십시오. [콘텐츠 변형을 시뮬레이션하는 방법을 알아봅니다](../test-approve/simulate-sample-input.md)
-* **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭한 후 드롭다운에서 **[!UICONTROL 콘텐츠 시뮬레이션(AEP 프로필)]**&#x200B;을 선택하여 테스트 프로필로 미리 봅니다.
+* 조직에 대해 LINE을 사용할 수 있습니다. LINE을 사용할 수 없는 경우 Adobe 담당자에게 문의하여 활성화를 요청하십시오.
+* Journey Optimizer에서 LINE 채널 구성을 사용할 수 있습니다. [LINE 채널 구성](./line-configuration.md)을 참조하세요.
+* 여정 또는 캠페인에 LINE 작업을 추가하고 메시지 콘텐츠를 정의했습니다. [LINE 메시지 만들기](./create-line.md)를 참조하세요.
 
-콘텐츠를 미리 보고 테스트하는 방법에 대한 자세한 내용은 [콘텐츠 관리](../content-management/preview-test.md) 섹션에서 확인할 수 있습니다.
+## LINE 메시지 미리 보기 {#preview-line}
+
+메시지 콘텐츠를 정의한 후 **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 사용하여 메시지를 보내기 전에 미리 봅니다.
+
+다음 옵션 중 하나를 사용할 수 있습니다.
+
+| 시뮬레이션 옵션 | 사용 대상 |
+| --- | --- |
+| **[!UICONTROL 콘텐츠 시뮬레이션]** | 샘플 입력 데이터 또는 AI 자동 생성을 사용하여 콘텐츠 변형을 테스트합니다. |
+| **[!UICONTROL 콘텐츠 시뮬레이션]** > **[!UICONTROL 콘텐츠 시뮬레이션(AEP 프로필)]** | 테스트 프로필로 메시지를 미리 봅니다. |
+
+각 변형을 검토하고 메시지 콘텐츠와 개인화된 값이 예상대로 표시되는지 확인합니다.
+
+콘텐츠 미리 보기 및 테스트에 대한 자세한 내용은 [콘텐츠 미리 보기 및 테스트](../content-management/preview-test.md)를 참조하십시오.
 
 ## 콘텐츠 유효성 검사 {#line-validate}
 
-편집기의 위쪽 섹션에서 경고를 확인해야 합니다. 일부는 간단한 경고이지만 일부는 메시지를 보내지 못하게 할 수 있습니다. 경고와 오류의 두 가지 경고 유형이 발생할 수 있습니다.
+계속하기 전에 메시지 편집기 상단에 표시된 경고를 검토하십시오.
 
-* **경고**&#x200B;는 권장 사항과 모범 사례를 참조합니다. 예를 들어 텍스트 메시지가 비어 있는 경우 경고 메시지가 표시됩니다.
+Journey Optimizer에는 두 가지 유형의 경고가 표시됩니다.
 
-* **오류**&#x200B;로 인해 여정을 테스트 또는 활성화하거나 캠페인을 게시하지 못할 수 있습니다. 단, 해결되지 않는 한 가능합니다. 예를 들어 제목 줄이 누락된 경우 경고 메시지가 표시됩니다.
+* **경고**&#x200B;는 권장 사항 또는 모범 사례 제안입니다. 테스트하거나 메시지를 보내는 것을 금지하지 않습니다.
+* **오류**&#x200B;은(는) 여정을 테스트하거나 활성화하거나 캠페인을 게시하기 전에 해결해야 하는 문제를 식별합니다.
+
+계속하기 전에 모든 오류를 해결하십시오. 메시지가 의도한 고객 경험을 제공하지 않을 수 있음을 나타낼 때 경고를 해결합니다.
+
+## 필요한 경우 승인 요청 {#line-approval}
+
+캠페인이 승인 정책의 적용을 받는 경우 메시지를 보내기 전에 승인을 요청하십시오.
+
+[승인 요청 방법 알아보기](../test-approve/gs-approval.md)를 참조하세요.
 
 ## LINE 메시지 보내기 {#line-send}
 
->[!IMPORTANT]
->
-> 캠페인이 승인 정책의 적용을 받는 경우 문자 메시지를 보내려면 승인을 요청해야 합니다. [자세히 알아보기](../test-approve/gs-approval.md)
+메시지가 준비되면 LINE 작업이 포함된 여정 또는 캠페인으로 돌아가서 해당 구성을 완료합니다.
 
-LINE 메시지가 준비되면 [여정](../building-journeys/journey-gs.md) 또는 [캠페인](../campaigns/create-campaign.md)의 구성을 완료하여 보내십시오.
+* **여정:** 여정 구성을 완료한 다음 여정을 활성화합니다.
+* **캠페인:** 캠페인 구성을 완료한 다음 캠페인을 게시합니다.
+
+여정을 활성화하거나 캠페인을 게시할 수 없는 경우 메시지 편집기로 돌아가서 나머지 오류를 해결하십시오.
+
+## 관련 작업 {#related-tasks}
+
+* [LINE 시작](./get-started-line.md)
+* [LINE 메시지 만들기](./create-line.md)
+* [LINE 채널 구성](./line-configuration.md)
+
+{{$include /help/_includes/do-not-localize/line/ai-augmented-send-line.md}}

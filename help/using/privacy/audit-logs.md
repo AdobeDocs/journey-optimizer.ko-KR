@@ -25,7 +25,7 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 287250716d690c6d4ca23d1237b96a1d60b15c2b
 workflow-type: tm+mt
 source-wordcount: 380
 ht-degree: 100%
@@ -85,3 +85,5 @@ Journey Optimizer를 사용하면 시스템에서 여정, 메시지, 랜딩 페�
 | 여정 조각 | 만들기 / 삭제 / 업데이트 / 활성화 / 보관 |
 | 메시지 빈도 규칙 | 만들기 / 삭제 / 업데이트 |
 | 등급 전략 | 만들기 / 삭제 / 업데이트 |
+
+{{$include /help/_includes/do-not-localize/privacy/ai-augmented-audit-logs.md}}

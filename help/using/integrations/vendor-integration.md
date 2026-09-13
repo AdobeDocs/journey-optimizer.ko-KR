@@ -11,7 +11,7 @@ keywords: 통합, 공급업체, 서드파티
 subfeature_v2: []
 feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-source-git-commit: c9ba757a58aaef0a55f6d2e24259bc8b86ff1f75
+source-git-commit: c40c37683d1e36ad85654320278b9f781b8d818c
 workflow-type: tm+mt
 source-wordcount: 10212
 ht-degree: 5%
@@ -687,7 +687,7 @@ Voucherify는 프로모션 및 충성도 REST API(캠페인, 바우처, 충성�
 
 +++
 
-### 탈론 {#talon-one}
+### Talon.One {#talon-one}
 
 >[!IMPORTANT]
 >
@@ -967,7 +967,7 @@ Salesforce 충성도 관리는 멤버, 프로그램 및 트랜잭션을 위해 S
 
 +++
 
-### 모세관 {#capillary}
+### Capillary {#capillary}
 
 >[!IMPORTANT]
 >
@@ -2220,7 +2220,7 @@ Meta Graph 및 Marketing API는 인증된 비즈니스 통합을 위해 카탈�
 | 매개 변수 | 이름 | 유형 | 값 | 필수 |
 | --- | --- | --- | --- | --- |
 | `fields` | `fields` | 변수 | ID | 아니오 |
-| `filter` | `filter` | 변수 | — | 아니요 |
+| `filter` | `filter` | 변수 | — | 아니오 |
 
 +++
 
@@ -2408,3 +2408,4 @@ Epsilon은 엔터프라이즈 계약당 API를 노출합니다. 기본 URL 및 �
 
 +++
 
+{{$include /help/_includes/do-not-localize/integrations/ai-augmented-vendor-integration.md}}

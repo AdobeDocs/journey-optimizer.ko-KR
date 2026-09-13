@@ -22,7 +22,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
+source-git-commit: b9f0b446a14f7d1bb93103acb6dd655643723211
 workflow-type: tm+mt
 source-wordcount: 487
 ht-degree: 100%
@@ -80,3 +80,5 @@ Adobe Journey Optimizer의 다이렉트 메일 채널을 활용하여 여정 내
 동일한 단계에 대한 자세한 설명은 [다이렉트 메일 채널 자습서](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}를 참조하세요.
 
 다이렉트 메일에 대한 일반적인 질문은 위의 [추가 리소스](#additional-resources) 섹션을 참조하세요.
+
+{{$include /help/_includes/do-not-localize/direct-mail/ai-augmented-get-started-direct-mail.md}}

@@ -23,7 +23,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 7c61fd987af3415419db589e68c211ec95c36707
 workflow-type: tm+mt
 source-wordcount: 601
 ht-degree: 100%
@@ -117,3 +117,4 @@ Journey Optimizer를 사용하여 인앱 알림을 만들고 경험 옵션(메�
 * **[웹용 인앱](create-in-app-web.md)** - 웹 애플리케이션용 인앱 메시지를 만들고 게재하는 방법을 알아봅니다.
 * **[인앱 채널 튜토리얼](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/channels/in-app-channel/in-app-messages-overview){target="_blank"}** - 인앱 메시지 기능과 모범 사례에 대한 단계별 비디오 튜토리얼을 살펴봅니다.
 
+{{$include /help/_includes/do-not-localize/in-app/ai-augmented-get-started-in-app.md}}

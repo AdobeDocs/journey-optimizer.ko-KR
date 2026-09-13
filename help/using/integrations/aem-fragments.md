@@ -21,7 +21,7 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 1918bcb699ea6a4063be28941a30bb6c6ade21ce
+source-git-commit: c40c37683d1e36ad85654320278b9f781b8d818c
 workflow-type: tm+mt
 source-wordcount: 1784
 ht-degree: 0%
@@ -271,3 +271,5 @@ Journey Optimizer을 사용하면 조각을 삽입할 때 사용할 변형을 �
    > 변형을 선택하지 않거나 변형 지원을 사용하기 전에 조각을 추가한 경우 Journey Optimizer은 게재 시 **Main** 변형을 자동으로 사용합니다.
 
 변형이 있는 조각을 삽입하면 Adobe Experience Manager에서 다시 게시하면 활성 캠페인이나 여정에서 **참조된 변형**&#x200B;이 자동으로 업데이트됩니다. 미리 보기 및 증명에서는 선택한 변형과 해당 변형에 대해 최근에 게시된 콘텐츠를 계속 사용합니다.
+
+{{$include /help/_includes/do-not-localize/integrations/ai-augmented-aem-fragments.md}}

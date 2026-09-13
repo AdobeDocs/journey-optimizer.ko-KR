@@ -11,7 +11,7 @@ level: Beginner, Intermediate
 subfeature_v2: []
 feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-source-git-commit: 05ad3d2af373c7eeb26bb8c789edfb2c864f5bca
+source-git-commit: c40c37683d1e36ad85654320278b9f781b8d818c
 workflow-type: tm+mt
 source-wordcount: 1552
 ht-degree: 1%
@@ -171,3 +171,4 @@ MCP 클라이언트에서 MCP 서버를 설정할 때 다음 서버 끝점 URL�
 예. MCP 서버는 [!DNL Adobe Journey Optimizer] 샌드박스 구성을 준수합니다. 프롬프트에서 샌드박스를 지정하거나 특정 샌드박스에 지정된 자격 증명으로 연결하여 샌드박스 특정 데이터를 쿼리할 수 있습니다.
 +++
 
+{{$include /help/_includes/do-not-localize/integrations/ai-augmented-ajo-mcp.md}}

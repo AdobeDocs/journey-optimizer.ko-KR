@@ -26,7 +26,7 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 867eeef1f90c152c463397222f5ed95f3b9c264b
+source-git-commit: 45c543c24ee4d46eafc280c8b1f06caea142d7c5
 workflow-type: tm+mt
 source-wordcount: 347
 ht-degree: 5%
@@ -118,3 +118,5 @@ ht-degree: 5%
 &quot;데이터&quot; 부분을 붙여넣을 위치를 쉽게 확인하려면 [JSON 포맷터](https://jsonformatter.curiousconcept.com){target="_blank"}와 같은 JSON 시각화 도구를 사용할 수 있습니다.
 
 스트리밍 수집 API의 문제를 해결하려면 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=ko){target="_blank"}를 참조하세요.
+
+{{$include /help/_includes/do-not-localize/event/ai-augmented-additional-steps-to-send-events-to-journey.md}}

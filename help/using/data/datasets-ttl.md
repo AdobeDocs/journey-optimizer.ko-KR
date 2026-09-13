@@ -26,7 +26,7 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 8dcca5343044af42657c40d4bc6416ad7557891c
+source-git-commit: 8a99c4bc5cfca8da8a442008da3c40710954abb8
 workflow-type: tm+mt
 source-wordcount: 1422
 ht-degree: 12%
@@ -46,7 +46,7 @@ ht-degree: 12%
 * 프로필 스토어의 데이터에 대해 90일
 * 데이터 레이크의 데이터에 대해 13개월
 
-이 변경 사항은 **2026년 10월 1일**&#x200B;부터 **기존 고객 샌드박스**&#x200B;에 적용됩니다.
+이 변경 사항은 **기존 고객 샌드박스**&#x200B;에 **2026년 10월 1일**&#x200B;부터 적용됩니다.
 
 ## 영향을 받는 데이터 세트 {#datasets}
 
@@ -72,7 +72,7 @@ ht-degree: 12%
 | 여정 인바운드 | 포함됨 | 해당 사항 없음 | 해당 사항 없음 |
 | AJO 분류 데이터 세트 | 포함됨 | 해당 사항 없음 | 해당 사항 없음 |
 | AJO 채널 추적 이벤트 데이터 세트 | 포함됨 | 13개월 | 90일 |
-| Adobe 로열티 챌린지 상태 변경 이벤트 데이터 세트 | Journey Optimizer 로열티 라이선스 필요 | 13개월 | 해당 사항 없음 |
+| Adobe 로열티 챌린지 상태 변경 이벤트 데이터 세트 | Journey Optimizer Loyalty 라이선스 필요 | 13개월 | 해당 사항 없음 |
 | AJO 메시지 내보내기 데이터 세트 | 메시지 내보내기 추가 기능 필요 | 30일 | 해당 사항 없음 |
 | AJO 메시지 이벤트 메타데이터 데이터 세트 | 메시지 내보내기 추가 기능 필요 | 30일 | 해당 사항 없음 |
 
@@ -189,3 +189,5 @@ QA 환경, 샌드박스 정리 또는 특정 데이터 위생 요구 사항과 �
 
 
 +++
+
+{{$include /help/_includes/do-not-localize/data/ai-augmented-datasets-ttl.md}}

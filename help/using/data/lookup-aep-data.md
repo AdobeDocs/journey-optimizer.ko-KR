@@ -26,7 +26,7 @@ subfeature_v2:
   - id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371
   - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
   - id: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
-source-git-commit: 6258db4eb542a124b5eae54aa0c8ec49004945d3
+source-git-commit: 8a99c4bc5cfca8da8a442008da3c40710954abb8
 workflow-type: tm+mt
 source-wordcount: 902
 ht-degree: 8%
@@ -96,7 +96,7 @@ ht-degree: 8%
 
 개인화를 위해 데이터 세트의 데이터를 활용하려면 조회를 위해 데이터 세트를 활성화해야 합니다.
 
-### 전제 조건 {#prerequisites-enable}
+### 사전 요구 사항 {#prerequisites-enable}
 
 조회에 사용할 데이터 세트와 연결된 스키마는 레코드 유형이어야 합니다. 스키마는 프로필 또는 이벤트 클래스가 아니어야 합니다.
 
@@ -132,7 +132,7 @@ ht-degree: 8%
 
 [이 설명서](https://developer.adobe.com/journey-optimizer-apis/references/authentication)에 설명된 지침에 따라 API 명령을 보내도록 환경을 구성하십시오.
 
-#### 전제 조건
+#### 사전 요구 사항
 
 * 개발자 프로젝트에는 Adobe Journey Optimizer 및 Adobe Experience Platform API가 프로젝트에 추가되어 있어야 합니다.
 
@@ -180,3 +180,5 @@ API 호출을 사용하여 데이터 집합을 조회에 사용하도록 설정�
 * [개인화에 Adobe Experience Platform 데이터 사용](../personalization/aep-data-perso.md)
 * [결정을 위해 Adobe Experience Platform 데이터 사용](../experience-decisioning/aep-data-exd.md)
 * [여정 오케스트레이션에 Adobe Experience Platform 데이터 사용](../building-journeys/dataset-lookup.md)
+
+{{$include /help/_includes/do-not-localize/data/ai-augmented-lookup-aep-data.md}}

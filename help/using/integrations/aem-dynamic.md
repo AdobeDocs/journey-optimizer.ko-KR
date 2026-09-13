@@ -22,7 +22,7 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0af0c5b08ba95c1cc664e63de17afe7e21abab07
+source-git-commit: c40c37683d1e36ad85654320278b9f781b8d818c
 workflow-type: tm+mt
 source-wordcount: 1635
 ht-degree: 5%
@@ -51,7 +51,7 @@ Adobe Experience Manager as a Cloud Service의 Dynamic Media에 대한 자세한
 
 ## 고려 사항
 
-* Adobe Experience Manager as a Cloud Service에서 OpenAPI가 포함된 Dynamic Media가 활성화되어 있는지 확인합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview#enable-dynamic-media-open-apis){target="_blank"}.
+* Adobe Experience Manager as a Cloud Service에서 OpenAPI가 포함된 Dynamic Media가 활성화되어 있는지 확인합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview#enable-dynamic-media-open-apis){target="_blank"}
 
 * Adobe Journey Optimizer과 Dynamic Media 통합은 Dynamic Media [Scene7 모드](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"} 및 [OpenAPI를 통해](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}할 수 있습니다.
 
@@ -282,3 +282,4 @@ Adobe Experience Manager Dynamic Media를 Adobe Journey Optimizer와 통합하�
 
 >[!VIDEO](https://video.tv.adobe.com/v/3463789/?captions=kor&learn=on&enablevpops=&autoplay=true)
 
+{{$include /help/_includes/do-not-localize/integrations/ai-augmented-aem-dynamic.md}}

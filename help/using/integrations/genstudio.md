@@ -28,7 +28,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 22540b736dd65469a6afac1472971b53f8830020
+source-git-commit: c40c37683d1e36ad85654320278b9f781b8d818c
 workflow-type: tm+mt
 source-wordcount: 1346
 ht-degree: 7%
@@ -66,7 +66,7 @@ ht-degree: 7%
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
 
-## 전제 조건 {#genstudio-prerequisites}
+## 사전 요구 사항 {#genstudio-prerequisites}
 
 [!DNL Journey Optimizer]과(와) [!DNL GenStudio for Performance Marketing] 통합을 사용하려면 다음 요구 사항이 충족되었는지 확인하십시오.
 
@@ -244,3 +244,5 @@ GenStudio은 AI 기반 브랜드 확인을 사용하여 생성된 모든 콘텐�
 Journey Optimizer에서 GenStudio for Performance Marketing으로 이메일 템플릿을 내보내고, GenStudio에서 템플릿을 사용하여 브랜드 양식을 준수하는 이메일을 작성하고, 이를 Journey Optimizer로 원활하게 다시 가져오는 과정을 살펴봅니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3456056/?captions=kor&quality=12)
+
+{{$include /help/_includes/do-not-localize/integrations/ai-augmented-genstudio.md}}

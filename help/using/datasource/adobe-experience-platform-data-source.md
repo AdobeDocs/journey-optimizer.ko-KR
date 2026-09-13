@@ -24,7 +24,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 558714cbd980c9d8fe9fe75cb962256ad8dd5ddf
 workflow-type: tm+mt
 source-wordcount: 481
 ht-degree: 25%
@@ -77,3 +77,5 @@ Adobe Experience Platform 데이터 소스는 Adobe 실시간 고객 프로필�
 >[!TIP]
 >
 >필드 그룹 이름 위로 마우스를 가져가면 오른쪽에 두 개의 아이콘이 표시됩니다. 필드 그룹을 **복제**&#x200B;하거나 **삭제**&#x200B;하려면 사용하세요. **[!UICONTROL Delete]** 아이콘은 **Live**, **초안** 또는 **완료됨** 여정에서 필드 그룹을 사용하지 않는 경우에만 사용할 수 있습니다. **[!UICONTROL 다음에서 사용됨]** 필드를 참조하여 해당 여부를 확인하십시오.
+
+{{$include /help/_includes/do-not-localize/datasource/ai-augmented-adobe-experience-platform-data-source.md}}

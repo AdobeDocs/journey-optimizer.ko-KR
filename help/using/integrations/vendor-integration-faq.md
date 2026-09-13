@@ -11,7 +11,7 @@ keywords: 통합, FAQ, 외부 데이터, 개인화
 subfeature_v2: []
 feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
+source-git-commit: c40c37683d1e36ad85654320278b9f781b8d818c
 workflow-type: tm+mt
 source-wordcount: 877
 ht-degree: 1%
@@ -190,3 +190,5 @@ API 호출 응답의 경우 필드 매핑에 대해 **JSON** 및 **HTML**&#x200B
 ➡️ [공급업체 통합 절차에 대해 자세히 알아보기](vendor-integration.md)
 
 +++
+
+{{$include /help/_includes/do-not-localize/integrations/ai-augmented-vendor-integration-faq.md}}

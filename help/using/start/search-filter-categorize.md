@@ -23,7 +23,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 837
 ht-degree: 100%
@@ -153,3 +153,5 @@ Journey Optimizer의 대상자에게 의미 있는 태그를 추가하면 나중
 >[!NOTE]
 >
 > Journey Optimizer의 **[!UICONTROL 태그]** 필드에서 직접 만든 태그는 기본적으로 제공되는 “미분류” 카테고리에 자동으로 추가됩니다.
+
+{{$include /help/_includes/do-not-localize/start/ai-augmented-search-filter-categorize.md}}

@@ -21,10 +21,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 1773fdcc67966f852118c6026af536ed056791ea
+source-git-commit: 8b3f44e75d9da7404672598c64f660ff4995a8f1
 workflow-type: tm+mt
-source-wordcount: 1012
-ht-degree: 1%
+source-wordcount: 549
+ht-degree: 3%
 
 ---
 
@@ -94,44 +94,4 @@ Adobe Experience Platform 데이터 원본에 필드 그룹을 추가하는 방�
 
 ![](assets/computed-attributes-ajo.png)
 
-+++ AI 기술 자료 참조
-
-이 단원에는 이 주제와 관련된 해석, 검색 및 질문 답변을 지원하기 위한 구조화된 지식이 포함되어 있습니다.
-
-이해를 돕기 위해 이 정보를 이 페이지의 설명서와 통합해야 합니다. 두 소스 모두 독립적으로 사용하기 위한 것은 아닙니다. 이 페이지에서는 기능에 대해 설명하지만, 용어, 의도, 적용 가능성 및 제약 조건을 명확히 하는 데 도움이 되는 추가 컨텍스트를 제공합니다.
-
-- **TL;DR:** Adobe Experience Platform에서 계산된 특성을 만들고 이를 Journey Optimizer에서 활용하여 세분화, 개인화 및 여정 논리를 만드는 방법을 알아봅니다.
-
-**의도:**
-- 계산된 속성이 무엇인지, 표준 프로필 속성과 어떻게 다른지 이해합니다.
-- 이벤트 속성, 집계 함수 및 전환 확인 기간을 결합하여 계산된 속성을 만듭니다.
-- AJO의 Experience Platform 데이터 소스에 SystemComputedAttributes 필드 그룹을 추가합니다.
-- 여정 조건, 대상자 작성 및 메시지 개인화에 계산된 속성 사용
-
-**용어집:**
-- **계산된 특성**: 집계된 동작 이벤트 데이터에서 파생된 프로필 특성으로 고객 프로필 *(제품별)에 저장됩니다*
-- **전환 확인 기간**: 계산된 특성의 집계 규칙(예: &quot;최근 3개월&quot;)을 계산할 때 적용되는 기간&#x200B;*(제품별)*
-- **SystemComputedAttributes 필드 그룹**: 여정 및 개인화에 사용할 게시된 모든 연산 특성을 표시하는 AJO Experience Platform 데이터 소스의 필드 그룹 *(제품별)*
-- **프로필 공용 구조체 스키마**: 계산된 특성이 저장되는 특정 ID의 모든 프로필 조각을 결합하는 병합된 스키마
-
-**보호 기능:**
-- 기능에 액세스하려면 **계산된 특성 보기** 및 **계산된 특성 관리** 권한이 필요합니다.
-- 계산된 특성은 AEP에서 다운스트림으로 사용할 수 있으려면 먼저 Journey Optimizer에서 **게시됨**&#x200B;이어야 합니다.
-- 계산된 특성을 여정 또는 개인화에 사용하려면 먼저 AJO의 **Experience Platform 데이터 소스**&#x200B;에 명시적으로 추가해야 합니다.
-- 계산된 속성은 Adobe Experience Platform에 수집된 프로필 사용 경험 이벤트 데이터 세트를 기반으로 합니다
-
-**용어:**
-- 정식 이름: Adobe Journey Optimizer — 약어: AJO — 변형: Journey Optimizer, A-JO
-- 정식 이름: Adobe Experience Platform — 약어: AEP
-- 동의어: &quot;계산된 속성&quot; = &quot;계산된 프로필 속성&quot;
-- 혼동하지 마십시오. &quot;계산된 속성&quot;(AEP/AJO 관련 집계된 기능)≠ 일반 &quot;프로필 속성&quot;
-
-**FAQ:**
-- **Q: 연산 속성이란 무엇입니까?** — AEP에 프로필 속성으로 저장되고 AJO에서 사용할 수 있는 집계된 행동 이벤트 데이터(예: 총 구매, 마지막으로 본 항목)입니다.
-- **Q: 특수 권한이 필요합니까?** — 예: &quot;계산된 속성 보기&quot; 및 &quot;계산된 속성 관리&quot;가 모두 필요합니다.
-- **Q: Journey Optimizer에서 계산 특성을 사용하려면 어떻게 합니까?** — 구성 > 데이터 소스 아래의 Experience Platform 데이터 소스에 `SystemComputedAttributes` 필드 그룹을 추가합니다.
-- **Q: AJO에서 연산 특성을 사용할 수 있는 곳은 어디입니까?** — 조건 활동(여정 분할), 대상자 만들기 및 개인화 편집기에서
-- **Q: 전환 확인 기간이란 무엇입니까?** — 합계 규칙의 범위를 지정하는 데 사용되는 시간 창(예: &quot;최근 3주 동안의 구매 합계&quot;).
-- **Q: 실시간 여정에서 계산된 특성을 사용할 수 있습니까?** — 예. 게시되고 데이터 소스에 추가되면 다른 프로필 속성처럼 액세스할 수 있습니다.
-
-+++
+{{$include /help/_includes/do-not-localize/audience/ai-augmented-computed-attributes.md}}

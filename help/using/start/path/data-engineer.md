@@ -30,7 +30,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 5fb4e78a32eedb4db8e1b3c3e0d87b01dc2f7a27
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 1103
 ht-degree: 100%
@@ -154,3 +154,5 @@ Journey Optimizer의 데이터 기반을 설정하려면 다음 단계를 따르
 | 마케터 | [마케터를 위한 시작](marketer.md) |
 
 [역할 및 책임 개요](../quick-start.md)로 돌아가기 · [시작](../../../rp_landing_pages/get-started-landing-page.md)으로 돌아가기
+
+{{$include /help/_includes/do-not-localize/start/ai-augmented-path-data-engineer.md}}

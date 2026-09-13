@@ -25,7 +25,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 1026
 ht-degree: 4%
@@ -96,3 +96,5 @@ DOCAC-10977
 * 캔버스에서 노드 제한에 근접하고 있다면 동적 매개 변수 또는 명시적 노드 대신 올바른 컨텐츠를 제공하는 컨텐츠와 작업을 통합하는 것이 좋습니다.
 
 * 일괄 처리 세그먼트(A)가 있는 **대상 읽기** 여정이 있고 여정 내에서 inAudience 스트리밍 세그먼트(B)를 사용하여 제외하는 경우(즉, A-B를 수행하는 경우), 해당 논리를 세그멘테이션 논리로 이동하고 제외를 세그멘테이션 논리의 일부로 사용하십시오.
+
+{{$include /help/_includes/do-not-localize/start/ai-augmented-best-practices.md}}

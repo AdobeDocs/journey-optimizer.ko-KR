@@ -24,7 +24,7 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 3490
 ht-degree: 100%
@@ -379,3 +379,5 @@ SDK 및 이벤트 스트리밍 구현 외에도 자체 시스템에서 Journey O
 | 마케터 | [마케터를 위한 시작](marketer.md) |
 
 [역할 및 책임 개요](../quick-start.md)로 돌아가기 · [시작](../../../rp_landing_pages/get-started-landing-page.md)으로 돌아가기
+
+{{$include /help/_includes/do-not-localize/start/ai-augmented-path-developer.md}}

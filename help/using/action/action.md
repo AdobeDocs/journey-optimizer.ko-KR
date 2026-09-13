@@ -26,7 +26,7 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7601b45ff72b05dc053246debe02e11175172b91
+source-git-commit: daa38c130e4cad3f75253add6ff81c3fb35a82c8
 workflow-type: tm+mt
 source-wordcount: 397
 ht-degree: 37%
@@ -83,3 +83,4 @@ ht-degree: 37%
 * [사용자 지정 작업 매개 변수에 컬렉션 전달](../building-journeys/collections.md) - 런타임에 동적으로 채워진 사용자 지정 작업 매개 변수에서 컬렉션을 전달하는 방법을 알아봅니다.
 * [사용자 지정 작업 문제 해결](../action/troubleshoot-custom-action.md) - 사용자 지정 작업 문제를 해결하는 방법 알아보기
 
+{{$include /help/_includes/do-not-localize/action/ai-augmented-action.md}}

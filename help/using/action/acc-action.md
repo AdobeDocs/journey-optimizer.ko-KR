@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7601b45ff72b05dc053246debe02e11175172b91
+source-git-commit: daa38c130e4cad3f75253add6ff81c3fb35a82c8
 workflow-type: tm+mt
 source-wordcount: 742
 ht-degree: 9%
@@ -138,3 +138,4 @@ Campaign 작업을 만들려면 다음 단계를 수행합니다.
 >
 >이 작업을 사용하는 모든 여정은 업데이트된 구성을 자동으로 사용합니다. 이 작업을 사용하는 라이브 여정이 있는 경우 끝점을 업데이트한 후 자세히 모니터링하여 적절한 메시지 게재를 확인합니다.
 
+{{$include /help/_includes/do-not-localize/action/ai-augmented-acc-action.md}}

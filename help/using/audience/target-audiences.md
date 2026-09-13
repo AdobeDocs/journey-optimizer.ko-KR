@@ -24,7 +24,7 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 1773fdcc67966f852118c6026af536ed056791ea
+source-git-commit: f4bddd927de7a7f74093c0723edc07f652cd373e
 workflow-type: tm+mt
 source-wordcount: 841
 ht-degree: 10%
@@ -90,3 +90,5 @@ ht-degree: 10%
 Customer Journey Analytics 대상과 같이 지원되지 않는 대상의 프로필을 타겟팅해야 하는 경우 대상 포털에서 새 세그먼트 정의로 래핑해야 합니다. 세그먼트 정의에 대상을 추가하는 방법에 대한 자세한 내용은 [세그먼트 빌더 설명서](https://experienceleagu;e.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#adding-audiences){target="_blank"}를 참조하세요.
 
 세분화 평가가 완료될 때까지 기다린 후 여정 및 캠페인에서 사용합니다.
+
+{{$include /help/_includes/do-not-localize/audience/ai-augmented-target-audiences.md}}

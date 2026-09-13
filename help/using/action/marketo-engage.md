@@ -27,7 +27,7 @@ topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
+source-git-commit: daa38c130e4cad3f75253add6ff81c3fb35a82c8
 workflow-type: tm+mt
 source-wordcount: 352
 ht-degree: 3%
@@ -47,7 +47,7 @@ Marketo Engage과의 원활한 데이터 통합 여정을 시작하십시오. Ad
 * **사용자**(프로필): Marketo은 프로필을 실행 가능한 인사이트로 변환합니다.
 * **사용자 지정 개체**: 개인화된 마케팅 접근 방식을 위해 제품과 같은 사용자 지정 개체로 데이터를 사용자 지정합니다.
 
-## 전제 조건 {#prerequisites}
+## 사전 요구 사항 {#prerequisites}
 
 이 통합에는 다음 사전 요구 사항이 적용됩니다.
 
@@ -145,3 +145,5 @@ Journey Optimizer에서 Marketo Engage에 대한 사용자 지정 작업을 구�
 1. **요청 매개 변수** 섹션에서 각 매개 변수에 대한 **편집** 아이콘을 클릭하고 페이로드에 구성한 동적 값을 선택합니다.
 
 ![](assets/engage-use-canvas.png){width="70%"}
+
+{{$include /help/_includes/do-not-localize/action/ai-augmented-marketo-engage.md}}

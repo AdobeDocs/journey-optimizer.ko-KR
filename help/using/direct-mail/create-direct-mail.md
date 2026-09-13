@@ -24,7 +24,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: b9f0b446a14f7d1bb93103acb6dd655643723211
 workflow-type: tm+mt
 source-wordcount: 1266
 ht-degree: 23%
@@ -186,3 +186,5 @@ DM 공급자가 고객에게 메일을 보낼 때 추출 파일이 필요합니�
 * [콘텐츠 미리보기 및 테스트](../content-management/preview-test.md)
 
 DM에 대한 일반적인 질문은 [DM 시작](get-started-direct-mail.md)을 참조하세요.
+
+{{$include /help/_includes/do-not-localize/direct-mail/ai-augmented-create-direct-mail.md}}

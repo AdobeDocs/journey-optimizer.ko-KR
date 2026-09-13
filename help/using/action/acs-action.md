@@ -26,7 +26,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7601b45ff72b05dc053246debe02e11175172b91
+source-git-commit: daa38c130e4cad3f75253add6ff81c3fb35a82c8
 workflow-type: tm+mt
 source-wordcount: 475
 ht-degree: 5%
@@ -96,3 +96,5 @@ Campaign Standard 작업을 구성하려면 다음 단계를 수행합니다.
 * 이메일의 경우 여정은 클릭, 전송, 열림 또는 실패한 메시지에 반응할 수 있습니다. [반응 이벤트에 대해 자세히 알아보기](../building-journeys/reaction-events.md).
 
 서드파티 시스템을 사용하여 메시지를 보낼 때 사용자 지정 작업을 추가하고 구성해야 합니다. [사용자 지정 작업 구성에 대해 자세히 알아보세요](../action/about-custom-action-configuration.md).
+
+{{$include /help/_includes/do-not-localize/action/ai-augmented-acs-action.md}}

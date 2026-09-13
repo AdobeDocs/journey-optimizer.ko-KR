@@ -27,7 +27,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0e023560fab01f4a86bb175c45632b813ff7e069
+source-git-commit: 8a99c4bc5cfca8da8a442008da3c40710954abb8
 workflow-type: tm+mt
 source-wordcount: 1228
 ht-degree: 5%
@@ -62,7 +62,7 @@ Journey Optimizer을 사용하면 데이터 세트의 콘텐츠를 내보내기 
 * [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html?lang=ko){target="_blank"}
 
 
-## 전제 조건 {#prerequisites}
+## 사전 요구 사항 {#prerequisites}
 
 데이터 세트를 내보내려면 아래 나열된 [액세스 제어 권한](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ko#permissions){target="_blank"}이 필요합니다. [액세스 제어 개요](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html?lang=ko){target="_blank"}를 읽거나 제품 관리자에게 문의하여 필요한 권한을 받으십시오.
 
@@ -141,3 +141,5 @@ Journey Optimizer을 사용하면 데이터 세트의 콘텐츠를 내보내기 
 코드 기반 경험 및 의사 결정 응답에 대한 사용자 지정 보고를 위해 **`scopeDetails.correlationID`**&#x200B;을(를) 사용하여 상호 작용 또는 피드백 데이터를 **AJO 엔터티 데이터 세트**&#x200B;에 조인하고 캠페인, 여정 및 메시지 메타데이터를 검색하십시오. **`exdRequestID`**&#x200B;을(를) 사용하여 단일 결정 요청을 분석 이벤트에 연결합니다.
 
 `correlationID`이(가) 누락된 경우(예: 홀드아웃 대상) 문서화되지 않은 페이로드 필드를 디코딩하는 대신 내보낸 데이터 세트 및 문서화된 조인 키를 사용하십시오. [엔터티 데이터 집합 쿼리 예제](datasets-query-examples.md#entity-dataset)은(는) `correlationID`에 가입하는 방법을 보여 줍니다.
+
+{{$include /help/_includes/do-not-localize/data/ai-augmented-export-datasets.md}}

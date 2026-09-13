@@ -12,7 +12,7 @@ feature_v2:
 subfeature_v2:
   - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: b7cad12437da955f7aaf46c39c22754e9c428d4b
 workflow-type: tm+mt
 source-wordcount: 671
 ht-degree: 1%
@@ -143,3 +143,5 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose 
 ![](assets/content-card-design-6.png)
 
 **[!UICONTROL 사용자 지정 데이터]** 섹션에서 **[!UICONTROL 키/값 쌍 추가]**&#x200B;를 클릭하여 페이로드에 사용자 지정 변수를 포함하십시오. 이러한 키/값 쌍을 사용하면 특정 구성에 따라 추가 데이터를 전달할 수 있습니다. 이렇게 하면 개인화된 콘텐츠 또는 다이내믹 콘텐츠, 추적 정보 또는 설정과 관련된 기타 데이터를 추가할 수 있습니다.
+
+{{$include /help/_includes/do-not-localize/content-card/ai-augmented-design-content-card.md}}

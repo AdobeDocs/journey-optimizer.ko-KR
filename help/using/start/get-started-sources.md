@@ -26,7 +26,7 @@ topic_v2:
 subfeature_v2:
   - id: af7571a6-3ddb-4c1c-abdf-4d4dde592140
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 727
 ht-degree: 99%
@@ -149,3 +149,5 @@ Adobe Journey Optimizer는 Adobe Experience Platform의 소스 프레임워크�
 * [데이터 매핑 및 변환](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/home){target="_blank"} 이해
 * [가져온 데이터를 여정에 사용하는 방법](../building-journeys/journey-gs.md) 참조
 * [데이터 관리 시작하기](../data/gs-data.md) 개요를 검토해 소스가 Journey Optimizer의 전체 데이터 설정에 어떻게 포함되는지 이해
+
+{{$include /help/_includes/do-not-localize/start/ai-augmented-get-started-sources.md}}

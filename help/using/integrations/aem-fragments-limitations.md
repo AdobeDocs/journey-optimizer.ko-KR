@@ -11,7 +11,7 @@ feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2:
   - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
+source-git-commit: c40c37683d1e36ad85654320278b9f781b8d818c
 workflow-type: tm+mt
 source-wordcount: 793
 ht-degree: 1%
@@ -76,3 +76,5 @@ Journey Optimizer에서 Adobe Experience Manager 콘텐츠 조각을 사용하�
 | **Experience League AEM 링크가 404를 반환함** | 부실 책갈피, 미리보기 빌드 또는 게시되지 않은 AEM 도움말 페이지 | 라이브 Experience Manager 설명서에서 [Adobe Journey Optimizer을 사용하여 콘텐츠 조각](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer){target="_blank"} 항목을 열고 페이지 내 목차에서 이동하거나 섹션 이름(예: **Dispatcher 구성**)을 검색합니다. |
 
 문제가 지속되면 컨텐츠 조각 ID, 캠페인 또는 여정 ID에 대한 세부 정보와 표시되는 오류 메시지를 Adobe 담당자에게 문의하십시오.
+
+{{$include /help/_includes/do-not-localize/integrations/ai-augmented-aem-fragments-limitations.md}}

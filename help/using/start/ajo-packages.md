@@ -13,7 +13,7 @@ feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 1995
 ht-degree: 2%
@@ -281,3 +281,5 @@ ht-degree: 2%
 - **기능 가용성 확인** — 라이브된 기능, 라이프사이클 상태(GA/LA/Beta) 및 출시 시기를 확인합니다. [기능 가용성](ajo-features-availability.md)
 - **올바른 사용 사례 찾기** — 참여 목표를 해당 목표를 지원하는 기능에 매핑합니다. [사용 사례 안내서](ajo-use-case-guide.md)
 - **채널 구성** — 추가 기능을 알고 있으면 필요한 채널을 설정하십시오. [이메일](../email/get-started-email.md), [푸시 알림](../push/get-started-push.md), [SMS/MMS](../mobile/get-started-mobile.md), [인앱 메시지](../in-app/get-started-in-app.md), [콘텐츠 카드](../content-card/get-started-content-card.md), [웹 채널](../web/get-started-web.md) 및 [코드 기반 경험](../code-based/get-started-code-based.md).
+
+{{$include /help/_includes/do-not-localize/start/ai-augmented-ajo-packages.md}}

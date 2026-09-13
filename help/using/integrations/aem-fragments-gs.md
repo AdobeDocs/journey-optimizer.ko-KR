@@ -22,7 +22,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 28395abcdcba6ed8fd02f252a57022aa473f3d3b
+source-git-commit: c40c37683d1e36ad85654320278b9f781b8d818c
 workflow-type: tm+mt
 source-wordcount: 319
 ht-degree: 0%
@@ -56,3 +56,5 @@ AEM 콘텐츠 조각에 대한 자세한 내용은 Experience Manager 설명서�
 콘텐츠 조각이 게시되면 복사본이 **게시 계층**&#x200B;에 만들어지고 인증되지 않은 공개 끝점을 통해 노출됩니다. **[!DNL Adobe Experience Manager as a Cloud Service]**&#x200B;의 경우 Journey Optimizer은 **작성자 계층** 및 **게시 계층**&#x200B;과의 통합을 지원합니다.
 
 따라서 Journey Optimizer은 게시된 콘텐츠 조각 또는 수정된 콘텐츠 조각만 표시하고 항상 게시된 최신 버전을 사용합니다. 게시 후 수행된 모든 변경 사항은 컨텐츠 조각이 다시 게시될 때까지 Journey Optimizer에 반영되지 않습니다.
+
+{{$include /help/_includes/do-not-localize/integrations/ai-augmented-aem-fragments-gs.md}}

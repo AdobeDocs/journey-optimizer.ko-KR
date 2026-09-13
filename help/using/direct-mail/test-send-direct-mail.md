@@ -26,7 +26,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: b9f0b446a14f7d1bb93103acb6dd655643723211
 workflow-type: tm+mt
 source-wordcount: 840
 ht-degree: 11%
@@ -127,3 +127,5 @@ DM 내보내기는 **02:01**, **06:01**, **10:01**, **14:01**, **18:01** 및 **2
 * [콘텐츠 미리보기 및 테스트](../content-management/preview-test.md)
 
 DM에 대한 일반적인 질문은 [DM 시작](get-started-direct-mail.md)을 참조하세요.
+
+{{$include /help/_includes/do-not-localize/direct-mail/ai-augmented-test-send-direct-mail.md}}

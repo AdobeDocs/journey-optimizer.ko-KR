@@ -20,7 +20,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 subfeature_v2:
   - id: c08fcc42-2918-421a-a25e-e1bd9464c290
-source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
+source-git-commit: c40c37683d1e36ad85654320278b9f781b8d818c
 workflow-type: tm+mt
 source-wordcount: 622
 ht-degree: 12%
@@ -121,3 +121,4 @@ AEM Assets Essentials 제품 프로필에 액세스하는 사용자는 **[!UICON
 * [이메일 디자인을 위한 구성 요소 설정](../email/content-components.md)
 * [Adobe Stock 시작](https://helpx.adobe.com/kr/stock/get-started.html){target="_blank"}.
 
+{{$include /help/_includes/do-not-localize/integrations/ai-augmented-stock.md}}

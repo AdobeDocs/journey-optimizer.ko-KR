@@ -25,7 +25,7 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 1617
 ht-degree: 7%
@@ -167,3 +167,5 @@ Journey Optimizer에서는 다르게 활성화되고 고유한 사용 사례를 
 * [캠페인 시작](../campaigns/get-started-with-campaigns.md) - 세 가지 캠페인 유형(액션, API 트리거, 오케스트레이션)과 각 캠페인을 사용할 시기를 이해합니다.
 * [충돌 관리 및 우선 순위 지정](../conflict-prioritization/gs-conflict-prioritization.md) - 규칙 집합, 빈도 제한, 우선 순위 점수 및 자동 체류 시간을 사용하여 과도한 메시징을 방지하는 방법을 알아봅니다.
 * [통신 채널 시작](../channels/gs-channels.md) - 사용 가능한 모든 채널, 사전 요구 사항 및 구성 방법을 찾아봅니다.
+
+{{$include /help/_includes/do-not-localize/start/ai-augmented-terminology.md}}

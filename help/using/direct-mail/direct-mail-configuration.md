@@ -22,7 +22,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
+source-git-commit: b9f0b446a14f7d1bb93103acb6dd655643723211
 workflow-type: tm+mt
 source-wordcount: 1994
 ht-degree: 20%
@@ -315,3 +315,5 @@ DM 구성에는 DM 파일을 내보낼 서버를 정의하는 파일 라우팅 �
 * [채널 구성](../configuration/channel-surfaces.md)
 
 DM에 대한 일반적인 질문은 [DM 시작](get-started-direct-mail.md)을 참조하세요.
+
+{{$include /help/_includes/do-not-localize/direct-mail/ai-augmented-direct-mail-configuration.md}}

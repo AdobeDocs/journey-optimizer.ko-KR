@@ -23,7 +23,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 4973
 ht-degree: 91%
@@ -482,3 +482,5 @@ Journey Optimizer의 하위 도메인 위임에 적용되는 가드레일 및 �
 ### 캠페인 오케스트레이션 가드레일 {#orchestration-guardrails}
 
 캠페인 오케스트레이션을 사용할 때 염두에 두어야 할 가드레일과 제한 사항은 [가드레일 및 제한 사항](../orchestrated/guardrails.md) 섹션에 자세히 설명되어 있습니다.
+
+{{$include /help/_includes/do-not-localize/start/ai-augmented-guardrails.md}}

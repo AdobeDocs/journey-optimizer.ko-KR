@@ -30,7 +30,7 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 2514
 ht-degree: 4%
@@ -410,3 +410,5 @@ PQL 표현식이 **2KB**(UTF-8 인코딩)보다 큰 규칙과 등급 공식만 �
 >* [전송 시간 최적화](../building-journeys/send-time-optimization.md) — 개인별 메시지 배달 타이밍을 예측하고 최적화합니다.
 >* [의사 결정을 위한 AI 모델](../experience-decisioning/ranking/ai-models.md) - AI 등급 모델을 사용하여 자동으로 오퍼의 등급을 매기고 개인화합니다.
 >* [MCP 클라이언트 작업](../integrations/ajo-mcp.md) — Journey Optimizer MCP 서버를 사용하여 Cloud Web, Cloud Desktop 또는 Cursor의 캠페인, 여정 및 오퍼를 쿼리합니다.
+
+{{$include /help/_includes/do-not-localize/start/ai-augmented-ai-features.md}}

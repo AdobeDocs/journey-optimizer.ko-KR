@@ -23,7 +23,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 6adf7984dcef70b665842d1d51efba9f0d3992b7
 workflow-type: tm+mt
 source-wordcount: 492
 ht-degree: 38%
@@ -94,3 +94,4 @@ Adobe Journey Optimizer은 현재 Adobe Journey Optimizer과 독립적으로 모
 >SMS 하위 도메인에 액세스하고 편집하려면 프로덕션 샌드박스에 대해 **[!UICONTROL SMS 하위 도메인 관리]** 권한이 있어야 합니다. [이 페이지](../administration/high-low-permissions.md#administration-permissions)의 사용 권한에 대해 자세히 알아보세요.
 >
 
+{{$include /help/_includes/do-not-localize/mobile/ai-augmented-mobile-configuration.md}}

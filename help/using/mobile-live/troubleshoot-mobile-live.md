@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
   - id: ed2fba79-65cb-4680-96d2-2ad5d851714d
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: d42bba9424dee905f50c16a35785a4d3ddd532cf
 workflow-type: tm+mt
 source-wordcount: 5976
 ht-degree: 1%
@@ -1133,4 +1133,6 @@ ORDER BY timestamp ASC
 `sent`의 `feedbackStatus`에서 Journey Optimizer이 APNs에 알림을 성공적으로 전달했는지 확인합니다. 라이브 활동이 장치에서 렌더링되었는지 확인하지 **않습니다**.
 
 알림이 APNs를 떠나면 iOS에서 콜백을 제공하지 않습니다. OS 제한, APNs와 장치 간의 네트워크 낙하 또는 8시간 라이브 활동 기간 제한에 도달하는 것과 같은 장치측 실패는 데이터 세트에서 관찰할 수 없습니다. `feedbackStatus`이(가) `sent`이지만 실시간 활동이 장치에 표시되지 않는 경우 문제는 Journey Optimizer 파이프라인 외부에 있습니다. Assurance 플러그인 또는 앱 수준 로깅을 사용하여 디바이스측 동작을 진단합니다.
+
+{{$include /help/_includes/do-not-localize/mobile-live/ai-augmented-troubleshoot-mobile-live.md}}
 

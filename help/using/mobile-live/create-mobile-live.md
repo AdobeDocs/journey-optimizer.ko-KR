@@ -23,7 +23,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: d42bba9424dee905f50c16a35785a4d3ddd532cf
 workflow-type: tm+mt
 source-wordcount: 722
 ht-degree: 6%
@@ -252,3 +252,5 @@ API를 통해 이 데이터를 보내려면 `executionMetadata` 필드에 대한
 Adobe Journey Optimizer로 iOS 라이브 활동을 구성하여 iPhone 잠금 화면 및 Dynamic Island에서 다양한 실시간 업데이트를 제공하는 방법에 대해 알아봅니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3479871?captions=kor)
+
+{{$include /help/_includes/do-not-localize/mobile-live/ai-augmented-create-mobile-live.md}}

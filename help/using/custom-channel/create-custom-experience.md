@@ -10,7 +10,7 @@ feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2:
   - id: dcce7166-436e-4b78-aa5f-c7012ff3a9e3
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: b5ac91df70575f97bb08cd7e6aff23265822de22
 workflow-type: tm+mt
 source-wordcount: 1006
 ht-degree: 15%
@@ -232,3 +232,5 @@ The editor supports a **[!UICONTROL Strict JSON]** toggle:
 
 * **여정에서** - 오른쪽 상단의 **[!UICONTROL 게시]**&#x200B;를 클릭합니다. 여정이 라이브로 전환되고 자격 조건을 갖춘 프로필에 대한 외부 엔드포인트 호출을 시작합니다. [여정 게시](../building-journeys/journey-gs.md#publish-journey)에 대해 자세히 알아보세요.
 * **캠페인에서** - **[!UICONTROL 활성화하려면 검토]**&#x200B;를 클릭하고 설정을 검토한 다음 **[!UICONTROL 활성화]**&#x200B;를 클릭합니다. 캠페인은 **[!UICONTROL Live]** 상태(또는 향후 시작 날짜가 정의된 경우 **[!UICONTROL 예약됨]**)를 사용합니다. [캠페인 활성화](../campaigns/create-campaign.md#review-activate)에 대해 자세히 알아보세요.
+
+{{$include /help/_includes/do-not-localize/custom-channel/ai-augmented-create-custom-experience.md}}

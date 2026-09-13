@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 558714cbd980c9d8fe9fe75cb962256ad8dd5ddf
 workflow-type: tm+mt
 source-wordcount: 2590
 ht-degree: 26%
@@ -421,3 +421,5 @@ Header:
 >[!CAUTION]
 >
 >사용자 지정 작업에 대한 사용자 지정 인증을 구성할 때 중첩된 JSON 개체(예: `bodyParams` 내의 하위 개체)는 **지원됨**&#x200B;입니다.
+
+{{$include /help/_includes/do-not-localize/datasource/ai-augmented-external-data-sources.md}}

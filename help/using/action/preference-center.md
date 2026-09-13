@@ -28,7 +28,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
+source-git-commit: daa38c130e4cad3f75253add6ff81c3fb35a82c8
 workflow-type: tm+mt
 source-wordcount: 968
 ht-degree: 11%
@@ -154,3 +154,5 @@ Consent policies are comprised of two logical components:
 1. 동의 정책을 만든 후에는 [채널 구성](consent.md#surface-marketing-actions) 또는 [사용자 지정 작업 여정](consent.md#journey-custom-actions)을 사용하여 [!DNL Journey Optimizer]에서 활용하십시오.
 
 1. 이제 여정 및 캠페인에서 이러한 채널 구성 또는 사용자 지정 작업을 사용하여 <!--targeted--> 고객의 환경 설정을 적용할 수 있습니다.
+
+{{$include /help/_includes/do-not-localize/action/ai-augmented-preference-center.md}}

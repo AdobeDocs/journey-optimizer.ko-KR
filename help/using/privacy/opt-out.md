@@ -25,7 +25,7 @@ topic_v2:
   - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 287250716d690c6d4ca23d1237b96a1d60b15c2b
 workflow-type: tm+mt
 source-wordcount: 1320
 ht-degree: 100%
@@ -212,3 +212,5 @@ Adobe Experience Platform에서 프로필의 푸시 동의 상태를 확인하�
 >[!NOTE]
 >
 >개인화에 동의하지 않는 대상자를 만든 다음 캠페인에서 해당 대상자를 선택한 경우에도 개인화 도구는 계속 사용 가능 상태입니다. 개인화 콘텐츠를 수신하지 않아야 하는 대상자를 사용하여 작업하는 경우 개인화 도구를 사용하지 않아야 하며, 이를 이해하는 것은 귀사 마케팅 사용자의 책임입니다.
+
+{{$include /help/_includes/do-not-localize/privacy/ai-augmented-opt-out.md}}

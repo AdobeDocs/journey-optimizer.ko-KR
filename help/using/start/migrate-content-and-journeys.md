@@ -11,7 +11,7 @@ feature_v2:
   - id: dc22c819-3f29-4e91-8b7d-5c6719831141
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
 subfeature_v2: []
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 1317
 ht-degree: 11%
@@ -193,4 +193,4 @@ HTML 파일 또는 소스 플랫폼에 대한 연결인 콘텐츠에 대한 소�
 
 ![작업 영역의 상태, 만든 날짜 및 업데이트된 날짜에 대한 필터 옵션](assets/onboarding-hub-5.png)
 
-
+{{$include /help/_includes/do-not-localize/start/ai-augmented-migrate-content-and-journeys.md}}

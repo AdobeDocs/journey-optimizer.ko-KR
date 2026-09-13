@@ -33,7 +33,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 1995
 ht-degree: 3%
@@ -328,3 +328,5 @@ Decisioning을 사용하여 콘텐츠를 개인화할 때 Journey Optimizer은 �
 * **감사 로그 사용** - 감사 로깅을 활성화하여 규정 준수 및 문제 해결을 위해 리소스에 대한 모든 작업을 추적합니다. [자세히 알아보기](../privacy/audit-logs.md)
 
 * **통합 모니터링** - 사용자 지정 작업 성능 및 외부 시스템 연결을 추적하여 통합 문제를 조기에 식별합니다. [자세히 알아보기](../action/reporting.md)
+
+{{$include /help/_includes/do-not-localize/start/ai-augmented-get-started-tracking.md}}

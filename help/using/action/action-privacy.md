@@ -12,7 +12,7 @@ exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
 feature_v2:
   - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
 subfeature_v2: []
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: daa38c130e4cad3f75253add6ff81c3fb35a82c8
 workflow-type: tm+mt
 source-wordcount: 1421
 ht-degree: 100%
@@ -152,3 +152,5 @@ Journey Optimizer에서 데이터 거버넌스 정책을 적용하려면 여정,
 이 대화 상자에는 현재 여정/캠페인 구성이 기존 데이터 거버넌스 정책을 위반한다는 메시지가 표시됩니다. 데이터 계보 다이어그램을 사용하여 여정이나 캠페인을 활성화하기 전에 어떤 다른 구성을 변경해야 하는지 이해할 수 있습니다.
 
 자세한 내용은 [데이터 사용 정책 위반 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/enforcement/auto-enforcement#data-usage-violation){_blank}에서 확인할 수 있습니다.
+
+{{$include /help/_includes/do-not-localize/action/ai-augmented-action-privacy.md}}

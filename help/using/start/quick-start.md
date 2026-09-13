@@ -40,7 +40,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 500669ffecececebf23646e661d5d902824836ec
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 2101
 ht-degree: 100%
@@ -294,3 +294,5 @@ Journey Optimizer의 주요 기능 및 페르소나에 대해 자세히 알아�
 | 데이터 엔지니어 | [데이터 엔지니어를 위한 시작](path/data-engineer.md) |
 | Developer | [개발자를 위한 시작](path/developer.md) |
 | 마케터 | [마케터를 위한 시작](path/marketer.md) |
+
+{{$include /help/_includes/do-not-localize/start/ai-augmented-quick-start.md}}

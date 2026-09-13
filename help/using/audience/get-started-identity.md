@@ -19,7 +19,7 @@ feature_v2:
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
   - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: f4bddd927de7a7f74093c0723edc07f652cd373e
 workflow-type: tm+mt
 source-wordcount: 256
 ht-degree: 17%
@@ -54,3 +54,5 @@ ID 작업에 대한 자세한 내용은 [ID 서비스 설명서](https://experie
 >* [Journey Optimizer에서 데이터 관리 시작](../data/gs-data.md)
 >* [프로필 시작](get-started-profiles.md)
 >* [ID 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=ko-KR){target="_blank"}
+
+{{$include /help/_includes/do-not-localize/audience/ai-augmented-get-started-identity.md}}

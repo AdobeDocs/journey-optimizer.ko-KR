@@ -14,7 +14,7 @@ subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
   - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 6adf7984dcef70b665842d1d51efba9f0d3992b7
 workflow-type: tm+mt
 source-wordcount: 553
 ht-degree: 12%
@@ -124,3 +124,5 @@ ht-degree: 12%
    >API 자격 증명을 저장할 때 Journey Optimizer이 인바운드 키워드 데이터 세트가 올바르게 구성되어 있는지 확인합니다. 유효성 검사가 실패하면 필요한 수정 사항을 나타내는 오류 메시지가 표시됩니다.
 
 자격 증명이 저장된 후 아웃바운드 및 인바운드 메시징 동작은 변경되지 않습니다. 해당 자격 증명에 대한 인바운드 키워드는 선택한 사용자 지정 데이터 세트에 기록됩니다.
+
+{{$include /help/_includes/do-not-localize/mobile/ai-augmented-custom-dataset-inbound-keywords.md}}

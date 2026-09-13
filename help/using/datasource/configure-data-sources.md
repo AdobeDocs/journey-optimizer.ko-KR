@@ -25,7 +25,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 558714cbd980c9d8fe9fe75cb962256ad8dd5ddf
 workflow-type: tm+mt
 source-wordcount: 638
 ht-degree: 14%
@@ -93,3 +93,5 @@ ht-degree: 14%
 1. 이러한 각 여정의 새 버전을 만듭니다. &quot;필드 그룹 A&quot;를 사용하여 모든 활동을 편집하고 &quot;필드 그룹 B&quot;를 선택합니다.
 1. 필드 그룹 A를 사용하는 이전 버전의 여정을 중지합니다. 그러면 &quot;필드 그룹 A&quot;를 사용하는 여정이 없어야 합니다.
 1. 필드 그룹 A는 더 이상 사용되지 않으므로 제거합니다.
+
+{{$include /help/_includes/do-not-localize/datasource/ai-augmented-configure-data-sources.md}}

@@ -21,7 +21,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 5fb4e78a32eedb4db8e1b3c3e0d87b01dc2f7a27
+source-git-commit: b7cad12437da955f7aaf46c39c22754e9c428d4b
 workflow-type: tm+mt
 source-wordcount: 427
 ht-degree: 100%
@@ -94,3 +94,4 @@ ht-degree: 100%
 * **[콘텐츠 카드 보고](content-card-report.md)** - 자세한 지표와 인사이트를 통해 콘텐츠 카드의 성과를 추적하고 분석합니다.
 * **[콘텐츠 카드 튜토리얼](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/channels/content-cards/create-content-cards){target="_blank"}** - 콘텐츠 카드의 기능과 모범 사례에 대한 단계별 비디오 튜토리얼을 살펴봅니다.
 
+{{$include /help/_includes/do-not-localize/content-card/ai-augmented-get-started-content-card.md}}

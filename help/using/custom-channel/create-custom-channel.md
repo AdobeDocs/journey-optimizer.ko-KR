@@ -10,7 +10,7 @@ feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2:
   - id: dcce7166-436e-4b78-aa5f-c7012ff3a9e3
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: b5ac91df70575f97bb08cd7e6aff23265822de22
 workflow-type: tm+mt
 source-wordcount: 1584
 ht-degree: 16%
@@ -233,3 +233,5 @@ ht-degree: 16%
 * [API 자격 증명 설정](custom-channel-api-credentials.md)(채널에서 인증을 사용하는 경우)
 * [하위 도메인 위임](custom-channel-subdomains.md)(선택 사항 - 링크 추적에 필요)
 * [채널 구성 만들기](custom-channel-configuration.md)
+
+{{$include /help/_includes/do-not-localize/custom-channel/ai-augmented-create-custom-channel.md}}
