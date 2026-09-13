@@ -10,21 +10,13 @@ level: Intermediate, Experienced
 keywords: 내장, 소스, 데이터, 플랫폼, 통합
 exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
 TQID: https://experienceleague.adobe.com/tvO8GjVADFHV1i6ff5krss2YyS-rtnQZ4BHcvvhG-t4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-subfeature_v2:
-  - id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126
+subfeature_v2: id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 558714cbd980c9d8fe9fe75cb962256ad8dd5ddf
 workflow-type: tm+mt
 source-wordcount: 481
 ht-degree: 25%
@@ -70,10 +62,12 @@ Adobe Experience Platform 데이터 소스는 Adobe 실시간 고객 프로필�
 
    >[!NOTE]
    >
-   >[!DNL Journey Optimizer] Data Source 구성에서는 XDM 개별 프로필 기반 스키마만 지원됩니다. 자세한 내용은 [XDM 개별 프로필 클래스](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/classes/individual-profile){target="_blank"}를 참조하십시오.
+   >[!DNL Journey Optimizer] Data Source 구성에서는 XDM 개별 프로필 기반 스키마만 지원됩니다. 자세한 내용은 [XDM 개별 프로필 클래스](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/individual-profile){target="_blank"}를 참조하십시오.
 
 1. 사용할 필드를 선택하고 변경 사항을 저장합니다.
 
 >[!TIP]
 >
 >필드 그룹 이름 위로 마우스를 가져가면 오른쪽에 두 개의 아이콘이 표시됩니다. 필드 그룹을 **복제**&#x200B;하거나 **삭제**&#x200B;하려면 사용하세요. **[!UICONTROL Delete]** 아이콘은 **Live**, **초안** 또는 **완료됨** 여정에서 필드 그룹을 사용하지 않는 경우에만 사용할 수 있습니다. **[!UICONTROL 다음에서 사용됨]** 필드를 참조하여 해당 여부를 확인하십시오.
+
+{{$include /help/_includes/do-not-localize/datasource/ai-augmented-adobe-experience-platform-data-source.md}}
