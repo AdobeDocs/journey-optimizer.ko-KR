@@ -6,17 +6,12 @@ level: Beginner
 feature: Approval
 exl-id: 75dafecd-805d-4aa2-86c6-99e6da4d378b
 TQID: https://experienceleague.adobe.com/UQ-5ddCbDJsF6muK1Am74fpx4ptRvHvB5VKwiIxd9d4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-subfeature_v2:
-  - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+subfeature_v2: id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
+source-git-commit: b9a0e02b37d4c312568a418efba8ad0efe8d5a49
 workflow-type: tm+mt
 source-wordcount: 524
 ht-degree: 0%
@@ -72,3 +67,5 @@ ht-degree: 0%
 ![변경 요청 알림](assets/changes-requested.png)
 
 변경 요청을 처리하려면 이메일 또는 경고에서 해당 여정을 열어 캠페인이나 캠페인에 액세스하고 요청된 변경 작업을 수행합니다. 여정/캠페인을 다시 검토할 준비가 되면 **[!UICONTROL 승인 요청]** 버튼을 사용하여 새 승인 요청을 보내십시오.
+
+{{$include /help/_includes/do-not-localize/test-approve/ai-augmented-request-approval.md}}

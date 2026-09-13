@@ -8,23 +8,13 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d9f7e0a3-b8c2-4e5f-92a1-3c1d7e8a4f65
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-  - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: b9a0e02b37d4c312568a418efba8ad0efe8d5a49
 workflow-type: tm+mt
 source-wordcount: 884
 ht-degree: 1%
@@ -136,3 +126,5 @@ AI를 사용하여 변형을 자동으로 생성하려면 맨 아래의 작업 �
 * **[!UICONTROL 전자 메일 렌더링]** — 인기 있는 전자 메일 클라이언트 및 장치에서 전자 메일이 렌더링되는 방식을 미리 봅니다. [자세히 알아보기](../content-management/rendering.md)
 * **[!UICONTROL 증명 보내기]** — 하나 이상의 변형에 대한 증명을 전자 메일 수신자 집합에 보냅니다. **[!UICONTROL 증명 보내기]**&#x200B;를 클릭하고 받는 사람 주소를 최대 10개까지 추가한 다음 포함할 변형을 선택한 다음 **[!UICONTROL 증명 보내기]**&#x200B;를 클릭하여 확인합니다. 이전에 보낸 증명을 검토하려면 **[!UICONTROL 증명 보기]**&#x200B;를 클릭하세요. [자세히 알아보기](../content-management/proofs.md)
 * **[!UICONTROL 구성 세부 정보 보기]** — 이 콘텐츠에 적용된 채널 구성을 검토하십시오.
+
+{{$include /help/_includes/do-not-localize/test-approve/ai-augmented-simulate-content-variations.md}}
