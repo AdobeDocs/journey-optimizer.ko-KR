@@ -7,11 +7,9 @@ feature: SMS
 topic: Content Management
 role: User
 level: Beginner
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-source-git-commit: 765766fa30b6807ec31a106cf74554e69886ad16
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
+source-git-commit: 6adf7984dcef70b665842d1d51efba9f0d3992b7
 workflow-type: tm+mt
 source-wordcount: 1499
 ht-degree: 4%
@@ -226,3 +224,4 @@ MMS 콘텐츠를 만들려면 다음 단계를 수행합니다.
 
 테스트를 수행하고 콘텐츠의 유효성을 검사하면 대상자에게 모바일 메시지를 보낼 수 있습니다. 이러한 단계는 [이 페이지](send-mobile-message.md)에 자세히 설명되어 있습니다
 
+{{$include /help/_includes/do-not-localize/mobile/ai-augmented-design-mobile.md}}

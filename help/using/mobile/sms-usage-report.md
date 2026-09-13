@@ -6,11 +6,9 @@ description: Journey Optimizer에서 메시지 볼륨을 공급업체 청구와 
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
+source-git-commit: 6adf7984dcef70b665842d1d51efba9f0d3992b7
 workflow-type: tm+mt
 source-wordcount: 500
 ht-degree: 27%
@@ -90,3 +88,5 @@ SMS 사용 보고서는 Journey Optimizer에서 공급업체 청구와 메시징
      ![](assets/usage_report_3.png)
 
 1. 보고서를 내보내려면 **[!UICONTROL CSV 다운로드]**&#x200B;를 클릭하십시오. Journey Optimizer은 보고 있는 보고서에 대한 CSV 파일을 다운로드합니다.
+
+{{$include /help/_includes/do-not-localize/mobile/ai-augmented-sms-usage-report.md}}
