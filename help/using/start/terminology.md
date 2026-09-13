@@ -8,24 +8,13 @@ role: Admin, Developer, User
 level: Beginner
 exl-id: 14e72376-87ad-4fae-bf8c-f347109d7903
 TQID: https://experienceleague.adobe.com/-aDvt4RUXyf0EnPfFTJkG1CvWgte-1Fr6YaWvgcNNu4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 1617
 ht-degree: 7%
@@ -46,7 +35,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->Adobe Journey Optimizer은 **Adobe Experience Platform**&#x200B;을 기반으로 빌드되었습니다. 실시간 고객 프로필, 샌드박스, 스키마 및 데이터 세트와 같이 사용자가 접할 수 있는 많은 기본 개념은 Journey Optimizer 관련 개념이 아닌 Adobe Experience Platform 개념입니다. 이러한 용어에 대한 정의는 [Adobe Experience Platform 용어집](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=ko){target="_blank"}을 참조하세요.
+>Adobe Journey Optimizer은 **Adobe Experience Platform**&#x200B;을 기반으로 빌드되었습니다. 실시간 고객 프로필, 샌드박스, 스키마 및 데이터 세트와 같이 사용자가 접할 수 있는 많은 기본 개념은 Journey Optimizer 관련 개념이 아닌 Adobe Experience Platform 개념입니다. 이러한 용어에 대한 정의는 [Adobe Experience Platform 용어집](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html){target="_blank"}을 참조하세요.
 
 ## 여정 및 캠페인 용어 {#journey-campaign-terms}
 
@@ -167,3 +156,5 @@ Journey Optimizer에서는 다르게 활성화되고 고유한 사용 사례를 
 * [캠페인 시작](../campaigns/get-started-with-campaigns.md) - 세 가지 캠페인 유형(액션, API 트리거, 오케스트레이션)과 각 캠페인을 사용할 시기를 이해합니다.
 * [충돌 관리 및 우선 순위 지정](../conflict-prioritization/gs-conflict-prioritization.md) - 규칙 집합, 빈도 제한, 우선 순위 점수 및 자동 체류 시간을 사용하여 과도한 메시징을 방지하는 방법을 알아봅니다.
 * [통신 채널 시작](../channels/gs-channels.md) - 사용 가능한 모든 채널, 사전 요구 사항 및 구성 방법을 찾아봅니다.
+
+{{$include /help/_includes/do-not-localize/start/ai-augmented-terminology.md}}

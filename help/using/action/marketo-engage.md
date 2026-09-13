@@ -10,24 +10,13 @@ level: Intermediate
 keywords: marketo, marketo engage 통합
 exl-id: 70d1ef5a-743b-4362-bb65-93a8c996209f
 TQID: https://experienceleague.adobe.com/-aRINahKmp9bI1tyW-XA-LzZOFeoEPXpWoH8JydG6Rk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: df401a2a-327d-468c-a5e4-b7b7ccd071a0id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: daa38c130e4cad3f75253add6ff81c3fb35a82c8
 workflow-type: tm+mt
 source-wordcount: 352
 ht-degree: 3%
@@ -47,7 +36,7 @@ Marketo Engage과의 원활한 데이터 통합 여정을 시작하십시오. Ad
 * **사용자**(프로필): Marketo은 프로필을 실행 가능한 인사이트로 변환합니다.
 * **사용자 지정 개체**: 개인화된 마케팅 접근 방식을 위해 제품과 같은 사용자 지정 개체로 데이터를 사용자 지정합니다.
 
-## 전제 조건 {#prerequisites}
+## 사전 요구 사항 {#prerequisites}
 
 이 통합에는 다음 사전 요구 사항이 적용됩니다.
 
@@ -145,3 +134,5 @@ Journey Optimizer에서 Marketo Engage에 대한 사용자 지정 작업을 구�
 1. **요청 매개 변수** 섹션에서 각 매개 변수에 대한 **편집** 아이콘을 클릭하고 페이로드에 구성한 동적 값을 선택합니다.
 
 ![](assets/engage-use-canvas.png){width="70%"}
+
+{{$include /help/_includes/do-not-localize/action/ai-augmented-marketo-engage.md}}

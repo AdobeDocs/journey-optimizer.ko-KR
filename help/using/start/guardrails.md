@@ -9,21 +9,13 @@ level: Intermediate
 mini-toc-levels: 2
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 TQID: https://experienceleague.adobe.com/k4DqGogrTZ9QrnqyFGwdgDeUI9ivpOd1iSI0c5comuU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-subfeature_v2:
-  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+subfeature_v2: id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 4973
 ht-degree: 91%
@@ -482,3 +474,5 @@ Journey Optimizer의 하위 도메인 위임에 적용되는 가드레일 및 �
 ### 캠페인 오케스트레이션 가드레일 {#orchestration-guardrails}
 
 캠페인 오케스트레이션을 사용할 때 염두에 두어야 할 가드레일과 제한 사항은 [가드레일 및 제한 사항](../orchestrated/guardrails.md) 섹션에 자세히 설명되어 있습니다.
+
+{{$include /help/_includes/do-not-localize/start/ai-augmented-guardrails.md}}

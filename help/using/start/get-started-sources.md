@@ -8,25 +8,13 @@ role: User
 level: Beginner
 exl-id: 359ea3c6-7746-469e-8a24-624f9726f2d8
 TQID: https://experienceleague.adobe.com/vlCiIs-yHeTzHxkij1OTVljHm07GI-jLtS-RKFV5nKs
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-subfeature_v2:
-  - id: af7571a6-3ddb-4c1c-abdf-4d4dde592140
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+subfeature_v2: id: af7571a6-3ddb-4c1c-abdf-4d4dde592140id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 727
 ht-degree: 99%
@@ -136,7 +124,7 @@ Adobe Journey Optimizer는 Adobe Experience Platform의 소스 프레임워크�
 
 이 비디오를 시청하여 소스 커넥터와 Journey Optimizer에서 소스 커넥터를 구성하는 방법을 알아보세요.
 
->[!VIDEO](https://video.tv.adobe.com/v/3422585?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/335919?quality=12)
 
 소스 구성 및 관리에 대한 자세한 내용은 [Adobe Experience Platform 소스 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko){target="_blank"}를 참조하세요.
 
@@ -149,3 +137,5 @@ Adobe Journey Optimizer는 Adobe Experience Platform의 소스 프레임워크�
 * [데이터 매핑 및 변환](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/home){target="_blank"} 이해
 * [가져온 데이터를 여정에 사용하는 방법](../building-journeys/journey-gs.md) 참조
 * [데이터 관리 시작하기](../data/gs-data.md) 개요를 검토해 소스가 Journey Optimizer의 전체 데이터 설정에 어떻게 포함되는지 이해
+
+{{$include /help/_includes/do-not-localize/start/ai-augmented-get-started-sources.md}}
