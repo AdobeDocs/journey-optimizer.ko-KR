@@ -10,32 +10,16 @@ level: Intermediate
 keywords: 권한, 작성, 메시지
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
 TQID: https://experienceleague.adobe.com/iQmLU1mdA4tsWnir0WS9-BLIetY0GK7Qxl2OcNDOQj0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
 subfeature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: f01f60510a15aff602f6244d85f1015d06e9ef87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b23e006f-0a29-4f1d-8fd0-77aa56f3d12bid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 8b3f44e75d9da7404672598c64f660ff4995a8f1
 workflow-type: tm+mt
-source-wordcount: 1803
-ht-degree: 1%
+source-wordcount: 1304
+ht-degree: 2%
 
 ---
 
@@ -53,7 +37,7 @@ ht-degree: 1%
 |-|-|
 | AI 어시스턴트 | **[!DNL Enable AI Assistant]**: AI 기반 캠페인 및 대상자 기능을 활성화하거나 액세스합니다. </br>**[!DNL Generate content]**: Journey Optimizer의 콘텐츠 생성 메뉴에 액세스합니다.</br>**[!DNL Manage brand kit]**: 브랜드를 읽고 만들고 편집하고 삭제합니다. </br>**[!DNL View operational insights]**: 시스템 수준 인사이트 및 모니터링 대시보드에 대한 읽기 전용 액세스 |
 | 캠페인 | **[!DNL Approve & publish Campaigns]**: 정책이 적용될 때 캠페인을 승인하고 게시할 수 있는 권한. </br>**[!DNL Manage campaigns]**: 캠페인을 읽고, 만들고, 편집하고, 삭제합니다.</br>**[!DNL Publish campaigns]**: 캠페인을 게시할 수 있는 권한&#x200B;</br>**[!DNL View campaigns]**: 캠페인에 대한 읽기 전용 액세스 권한.</br>**[!DNL View campaigns report]**: 캠페인 보고서를 읽고 편집합니다. |
-| 채널 구성 | **[!DNL Export suppression list]**: 비표시 목록을 CSV 파일로 내보낼 수 있는 액세스 권한.</br>**[!DNL Manage alerts]**: 캠페인, 메시지 및 권한에 대한 경고를 활성화/비활성화합니다.</br>**[!DNL Manage Allowed IPs]**: [허용 목록 IP](../configuration/waf-ip-allowlist.md).</br>**[!DNL Manage Custom channels]**&#x200B;에 대한 읽기, 만들기, 편집 및 삭제: 사용자 지정 채널을 읽기, 만들기, 편집 및 삭제합니다. </br> **[!DNL Manage file routing]**: 파일 라우팅 구성을 읽고 만들고 편집하고 삭제합니다. </br> **[!DNL Manage IP pools]**: ip 풀을 읽고, 만들고, 편집하고, 삭제합니다. </br>**[!DNL Manage Key Registry]**: 키 레지스트리에서 키를 보고, 만들고, 회전하고, 취소합니다.</br>**[!DNL Manage landing page settings]**: 랜딩 페이지 설정을 읽고, 만들고, 편집하고, 삭제합니다.</br> **[!DNL Manage messages general settings]**: 메시지 일반 설정을 읽고, 만들고, 편집하고, 삭제합니다.</br>**[!DNL Manage messages presets]**: 채널 구성, API 자격 증명 및 웹후크를 읽고, 만들고, 편집하고, 삭제합니다.</br>**[!DNL Manage PTR records]**: PTR 레코드를 읽고 편집합니다. </br>**[!DNL Manage SMS settings]**: SMS 설정을 읽고 만들고 편집하고 삭제합니다.</br>**[!DNL Manage SMS subdomains]**: SMS 하위 도메인을 읽고, 만들고, 편집하고, 삭제합니다.</br> **[!DNL Manage Seedlist]**: Seedlist 읽기, 만들기, 편집 및 삭제 </br> **[!DNL Manage subdomains delegation]**: 하위 도메인 위임을 읽고, 만들고, 편집하고, 삭제합니다. </br>**[!DNL Manage suppression rules]**: 비표시 규칙에 액세스, 만들기, 편집 및 삭제.</br> **[!DNL Manage web subdomain]**: 웹 하위 도메인을 읽고, 만들고, 편집하고, 삭제합니다. </br>**[!DNL View Allowed IPs]**: [허용 목록 IP](../configuration/waf-ip-allowlist.md)에 대한 읽기 전용 액세스 권한.</br>**[!DNL View Custom channels]**: 사용자 지정 채널에 대한 읽기 전용 액세스 권한입니다. </br>**[!DNL View file routing]**: 파일 라우팅 구성에 대한 읽기 전용 액세스입니다.</br>**[!DNL View Key Registry]**: 키 레지스트리 목록 및 키 세부 정보에 대한 읽기 전용 액세스.</br>**[!DNL View messages general settings]**: 메시지 일반 설정에 대한 읽기 전용 액세스.</br> **[!DNL View messages presets]**: 메시지 사전 설정에 대한 읽기 전용 액세스 권한. </br> **[!DNL View PTR records]**: PTR 레코드에 대한 읽기 전용 액세스.</br>**[!DNL View suppression list]**: 로컬 비표시 목록을 읽고 내보냅니다. |
+| 채널 구성 | **[!DNL Export suppression list]**: 비표시 목록을 CSV 파일로 내보낼 수 있는 액세스 권한.</br>**[!DNL Manage alerts]**: 캠페인, 메시지 및 권한에 대한 경고를 활성화/비활성화합니다.</br>**[!DNL Manage Allowed IPs]**: [허용 목록 IP](../configuration/waf-ip-allowlist.md).</br>**[!DNL Manage Custom channels]**에 대한 읽기, 만들기, 편집 및 삭제: 사용자 지정 채널을 읽기, 만들기, 편집 및 삭제합니다. </br> **[!DNL Manage file routing]**: 파일 라우팅 구성을 읽고 만들고 편집하고 삭제합니다. </br> **[!DNL Manage IP pools]**: ip 풀을 읽고, 만들고, 편집하고, 삭제합니다. </br>**[!DNL Manage Key Registry]**: 키 레지스트리에서 키를 보고, 만들고, 회전하고, 취소합니다.</br>**[!DNL Manage landing page settings]**: 랜딩 페이지 설정을 읽고, 만들고, 편집하고, 삭제합니다.</br> **[!DNL Manage messages general settings]**: 메시지 일반 설정을 읽고, 만들고, 편집하고, 삭제합니다.</br>**[!DNL Manage messages presets]**: 채널 구성, API 자격 증명 및 웹후크를 읽고, 만들고, 편집하고, 삭제합니다.</br>**[!DNL Manage PTR records]**: PTR 레코드를 읽고 편집합니다. </br>**[!DNL Manage SMS settings]**: SMS 설정을 읽고 만들고 편집하고 삭제합니다.</br>**[!DNL Manage SMS subdomains]**: SMS 하위 도메인을 읽고, 만들고, 편집하고, 삭제합니다.</br> **[!DNL Manage Seedlist]**: Seedlist 읽기, 만들기, 편집 및 삭제 </br> **[!DNL Manage subdomains delegation]**: 하위 도메인 위임을 읽고, 만들고, 편집하고, 삭제합니다. </br>**[!DNL Manage suppression rules]**: 비표시 규칙에 액세스, 만들기, 편집 및 삭제.</br> **[!DNL Manage web subdomain]**: 웹 하위 도메인을 읽고, 만들고, 편집하고, 삭제합니다. </br>**[!DNL View Allowed IPs]**: [허용 목록 IP](../configuration/waf-ip-allowlist.md)에 대한 읽기 전용 액세스 권한.</br>**[!DNL View Custom channels]**: 사용자 지정 채널에 대한 읽기 전용 액세스 권한입니다. </br>**[!DNL View file routing]**: 파일 라우팅 구성에 대한 읽기 전용 액세스입니다.</br>**[!DNL View Key Registry]**: 키 레지스트리 목록 및 키 세부 정보에 대한 읽기 전용 액세스.</br>**[!DNL View messages general settings]**: 메시지 일반 설정에 대한 읽기 전용 액세스.</br> **[!DNL View messages presets]**: 메시지 사전 설정에 대한 읽기 전용 액세스 권한. </br> **[!DNL View PTR records]**: PTR 레코드에 대한 읽기 전용 액세스.</br>**[!DNL View suppression list]**: 로컬 비표시 목록을 읽고 내보냅니다. |
 | 대시보드 | **[!DNL Export dashboard data]**: 오프라인 분석을 위해 대시보드 시각화 및 기본 데이터를 내보냅니다. </br>**[!DNL Manage custom dashboards]**: 새 대시보드를 만들거나 기존 대시보드를 편집할 수 있습니다.</br>**[!DNL Manage standard dashboards]**: 위젯 라이브러리를 통해 사용자 정의 위젯을 만들고 위젯 스키마를 편집할 수 있습니다.  </br>**[!DNL View custom dashboards]**: 사용자 정의 대시보드에 대한 읽기 전용 액세스 권한.</br>**[!DNL View license usage dashboards]**: [라이선스 사용 대시보드](../audience/license-usage.md)에 대한 읽기 전용 액세스 권한입니다. </br>**[!DNL View standard dashboards]**: 프로필, 대상 및 대상 대시보드에 대한 읽기 전용 액세스 권한. |
 | 데이터 수집 | **[!DNL Manage datastream]**: 데이터스트림을 읽고 만들고 편집합니다.</br>**[!DNL View datastream]**: 데이터스트림에 대한 읽기 전용 액세스. |
 | 데이터 거버넌스 | **[!DNL Manage usage labels]**: 레이블을 읽고, 만들고, 편집하고, 삭제합니다.</br>**[!DNL Manage data usage policies]**: 데이터 사용 정책을 읽고, 만들고, 편집하고, 삭제합니다.</br>**[!DNL View data usage policies]**: 조직에 속한 데이터 사용 정책에 대한 읽기 전용 액세스.</br>**[!DNL View privacy console]**: 조직의 개인 정보 보호 요청 및 개인 정보 보호 관련 작업에 대한 읽기 전용 액세스.</br>**[!DNL View user activity log]**: Platform 작업의 기록된 감사 로그를 보는 읽기 전용 액세스. |
@@ -81,46 +65,4 @@ ht-degree: 1%
 
 {style="table-layout:fixed"}
 
-+++ AI 기술 자료 참조
-
-이 단원에는 이 주제와 관련된 해석, 검색 및 질문 답변을 지원하기 위한 구조화된 지식이 포함되어 있습니다.
-
-이해를 돕기 위해 이 정보를 이 페이지의 설명서와 통합해야 합니다. 두 소스 모두 독립적으로 사용하기 위한 것은 아닙니다. 이 페이지에서는 기능에 대해 설명하지만, 용어, 의도, 적용 가능성 및 제약 조건을 명확히 하는 데 도움이 되는 추가 컨텍스트를 제공합니다.
-
-- **TL;DR:** 이 페이지는 Journey Optimizer의 모든 기본 제공 권한에 대한 포괄적인 참조이며, 기능 영역별로 그룹화되어 있으므로 관리자는 역할을 작성하거나 감사할 때 포함할 권한을 정확하게 식별할 수 있습니다.
-
-**의도:**
-
-- 주어진 기능 영역(여정, 캠페인, 의사 결정 관리, AI 지원 등)에 대해 사용 가능한 모든 권한을 조회합니다.
-- 사용자 지정 또는 기본 제공 역할에 추가할 올바른 권한을 식별합니다
-- 리소스별 관리 및 보기 권한 구분
-- AI Assistant, 오케스트레이션된 캠페인 및 경험 의사 결정에 대한 권한 찾기
-- 여정 실행 모드(테스트 모드, 시험 실행, 시뮬레이션)를 포함하는 권한 식별
-
-**용어집:**
-
-- **기본 제공 권한**: Journey Optimizer의 기능 및 개체에 대한 액세스를 제어하기 위해 역할에 할당할 수 있는 사전 정의된 단일 권한입니다. 높은 수준의 권한은 낮은 수준의 권한을 포함합니다. *(제품별)*
-- **기능**: 기능 영역에서 관련 권한(예: 여정, 캠페인, 의사 결정 관리, AI 도우미)을 그룹화합니다. *(제품별)*
-- **테스트 모드**: 여정 실행 모드입니다. 여정 게시 권한에 테스트 모드 *(제품별)을(를) 시작하는 기능이 포함됩니다.*
-- **시험 실행**: 여정 실행 모드입니다. 여정 게시 권한에 시험 실행 *(제품별)을(를) 시작하는 기능이 포함됩니다.*
-- **시뮬레이션**: 별도의 여정 기능입니다. 여정 시뮬레이션 권한은 여정 *(제품별)에서 시뮬레이션의 읽기, 만들기 및 편집을 다룹니다*
-
-**용어:**
-
-- 정식 이름: 기본 제공 권한 — 변형: 기본 제공 권한, OOTB 권한
-- &quot;여정 관리&quot;(실시간, 테스트 모드 및 시험 실행 시 중지 포함) ≠ &quot;여정 게시&quot;(게시, 테스트 모드 시작, 시험 실행 시작, 일시 중지 및 재개 포함)를 혼동하지 마십시오.
-- 혼동하지 마십시오. &quot;여정 시뮬레이션&quot;(여정에서 시뮬레이션을 읽고, 만들고, 편집할 수 있는 권한) ≠ &quot;콘텐츠 시뮬레이션&quot;(메시지 미리 보기 및 증명을 위해 콘텐츠 시뮬레이션 옵션에 액세스)
-- 혼동하지 마십시오. &quot;컨텐츠 생성&quot;(Journey Optimizer의 AI Assistant 액세스) ≠ &quot;AI Assistant 활성화&quot;(AI 기반 캠페인 및 대상 기능 활성화 또는 액세스)
-- 혼동하지 마십시오. &quot;테스트 모드&quot;(여정 게시 권한을 통해 제어되는 여정 실행 모드) ≠ &quot;시험 실행&quot;(여정 게시 권한을 통해 제어되는 별도의 여정 실행 모드) ≠ &quot;시뮬레이션&quot;(여정 시뮬레이션 권한을 통해 제어되는 별도의 기능)
-- 의사 결정 관리(의사 결정 엔티티에 대한 CRUD) ≠ &quot;경험 의사 결정 관리&quot;(경험 의사 결정 설정 및 의사 결정 정책에 대한 CRUD)를 혼동하지 마십시오
-
-**FAQ:**
-
-- **Q: 콘텐츠 생성에 AI Assistant를 사용하려면 어떤 권한이 필요합니까?** — 콘텐츠를 생성합니다(AI 지원 기능 아래).
-- **Q: 사용자가 비표시 목록을 내보낼 수 있는 권한은 무엇입니까?** — 제외 목록 내보내기(채널 구성 아래).
-- **Q: 여정에 대한 읽기 전용 액세스 권한을 부여하는 권한은 무엇입니까?** — 여정 보기(여정 기능 아래).
-- **Q: 오케스트레이션된 캠페인을 게시하는 데 필요한 권한은 무엇입니까?** — 오케스트레이션된 캠페인(오케스트레이션된 캠페인 아래)을 게시합니다. 이 권한은 신호를 사용하여 오케스트레이션된 캠페인을 트리거하는 데에도 필요합니다.
-- **Q: 여정 시뮬레이션 사용 권한에 포함되는 사항:** — 여정의 시뮬레이션을 읽고, 만들고, 편집합니다.
-
-+++
-<!-- ai-accordion-version: 1 | source-hash: 1374a5c2 -->
+{{$include /help/_includes/do-not-localize/administration/ai-augmented-ootb-permissions.md}}
