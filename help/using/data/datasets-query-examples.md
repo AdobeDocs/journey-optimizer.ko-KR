@@ -10,24 +10,12 @@ level: Experienced
 keywords: 데이터 세트, 최적화 도구, 사용 사례
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 TQID: https://experienceleague.adobe.com/bbZLNKJ3wg--z3PcVQ4tTvMtuyR7LMsh7qJjrlZ6L7Y
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371
-  - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
-  - id: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 72ac138032bace23ede2b86d56c36e20d943f834
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371id: d6e5c7fd-c1d6-4137-98cd-138ccde6752fid: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 8a99c4bc5cfca8da8a442008da3c40710954abb8
 workflow-type: tm+mt
 source-wordcount: 1780
 ht-degree: 1%
@@ -132,7 +120,7 @@ AJO 메시지 피드백 이벤트 데이터 세트는 Adobe Journey Optimizer에
 >
 >이 데이터 세트는 일괄 처리 수집을 사용합니다. 이 데이터 세트를 쿼리하거나 보고 목적으로 사용할 때 최대 2시간의 데이터 지연이 예상됩니다.
 
-필드, 필드 경로, 데이터 형식 및 설명의 전체 목록은 [Adobe Journey Optimizer 스키마 참조](https://experienceleague.adobe.com/ko/tools/ajo-schemas){target="_blank"}를 참조하십시오.
+필드, 필드 경로, 데이터 형식 및 설명의 전체 목록은 [Adobe Journey Optimizer 스키마 참조](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"}를 참조하십시오.
 
 >[!NOTE]
 >
@@ -142,7 +130,7 @@ AJO 메시지 피드백 이벤트 데이터 세트는 Adobe Journey Optimizer에
 
 필드가 채워질 때 테스트 실행과 비테스트 실행을 구분하려면 `isTestExecution` 필드를 사용하십시오.
 
-쿼리를 작성하기 전에 [Adobe Journey Optimizer 스키마 참조](https://experienceleague.adobe.com/ko/tools/ajo-schemas){target="_blank"}를 사용하여 AJO 메시지 피드백 이벤트 스키마에 대한 현재 필드 경로, 데이터 형식 및 설명을 확인하십시오.
+쿼리를 작성하기 전에 [Adobe Journey Optimizer 스키마 참조](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"}를 사용하여 AJO 메시지 피드백 이벤트 스키마에 대한 현재 필드 경로, 데이터 형식 및 설명을 확인하십시오.
 
 채워진 값을 다음과 같이 해석합니다.
 
@@ -156,7 +144,7 @@ AJO 메시지 피드백 이벤트 데이터 세트는 Adobe Journey Optimizer에
 
 일부 내역 또는 채널별 레코드가 모든 메시지 컨텍스트 필드를 채우지 않을 수 있습니다. 따라서 필드 가용성을 빈 문자열이나 유추된 값으로 처리하는 대신 채널별로 테스트하고 null을 유지해야 합니다.
 
-[Adobe Journey Optimizer 스키마 참조](https://experienceleague.adobe.com/ko/tools/ajo-schemas){target="_blank"}에서 `isTestExecution` 경로를 확인한 후에만 이 쿼리를 실행하십시오.
+[Adobe Journey Optimizer 스키마 참조](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"}에서 `isTestExecution` 경로를 확인한 후에만 이 쿼리를 실행하십시오.
 
 ```sql
 SELECT
@@ -542,3 +530,5 @@ WHERE
   AND MF._experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'sent' 
   AND AE._experience.customerJourneyManagement.entities.journey.journeyVersionID IS NOT NULL
 ```
+
+{{$include /help/_includes/do-not-localize/data/ai-augmented-datasets-query-examples.md}}
