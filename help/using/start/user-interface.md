@@ -191,7 +191,7 @@ Adobe 지원 센터에 문의하실 때는 다음 정보가 포함되어야 근�
 **연결** - 다른 시스템과 통합합니다.
 
 * **소스** - 외부 시스템에서 데이터를 수집합니다. [소스 구성](get-started-sources.md)
-* **대상** - 데이터를 클라우드 스토리지로 내보냅니다. [대상을 설정](../data/export-datasets.md). [Experience Platform 대상 카탈로그](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html){target="_blank"}에서 Adobe Target과 같은 적합한 개인화 대상에 대상을 활성화할 수도 있습니다.
+* **대상** - 데이터를 클라우드 스토리지로 내보냅니다. [대상을 설정](../data/export-datasets.md). [Experience Platform 대상 카탈로그](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=ko){target="_blank"}에서 Adobe Target과 같은 적합한 개인화 대상에 대상을 활성화할 수도 있습니다.
 
 **고객** - 대상자와 프로필을 관리합니다.
 
