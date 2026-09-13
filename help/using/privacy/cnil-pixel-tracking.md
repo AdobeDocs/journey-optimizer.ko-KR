@@ -8,13 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: CNIL, 추적, 픽셀, 이메일, 동의, 옵트아웃, 개인 정보
-feature_v2:
-  - id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-subfeature_v2:
-  - id: a9cf78bf-e9e4-4836-85a5-b6b3cf93bf56
-  - id: c8d5f2ce-ba44-43e9-a2bf-94a3d7d85ec3
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+feature_v2: id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0id: bb359667-ec7d-4d4b-8663-5850fc219d32
+subfeature_v2: id: a9cf78bf-e9e4-4836-85a5-b6b3cf93bf56id: c8d5f2ce-ba44-43e9-a2bf-94a3d7d85ec3
+source-git-commit: 287250716d690c6d4ca23d1237b96a1d60b15c2b
 workflow-type: tm+mt
 source-wordcount: 1464
 ht-degree: 1%
@@ -160,3 +156,5 @@ AJO has no native equivalent of Campaign v8's "lastPixelRefusalDate" field or re
 ### 보고 {#reporting}
 
 Adobe Journey Optimizer의 이메일 보고는 [라이브 보고서](../reports/live-report.md) 및 [Customer Journey Analytics 보고서](../reports/report-gs-cja.md)를 통해 열기 및 클릭 지표를 제공합니다. 메시지에 대해 **[!UICONTROL 이메일 열기]** 추적을 사용하지 않도록 설정하면 해당 게재에 대해 열린 데이터가 수집되지 않습니다. 보고는 클릭 수 및 기타 참여 신호만 반영합니다.
+
+{{$include /help/_includes/do-not-localize/privacy/ai-augmented-cnil-pixel-tracking.md}}
