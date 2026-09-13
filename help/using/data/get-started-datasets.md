@@ -45,7 +45,7 @@ Adobe Experience Platform에 수집되는 모든 데이터는 데이터 세트�
 
 ## 가드레일 및 제한 사항
 
-* 2024년 11월 1일부로 스트리밍 세분화는 더 이상 [!DNL Journey Optimizer] 추적 및 피드백 데이터 세트의 전송 및 열기 이벤트를 지원하지 않습니다. 빈도 캡핑 또는 피로도 관리를 구현하려면 해당 이벤트 대신 비즈니스 규칙을 사용하십시오. [이 섹션](../conflict-prioritization/rule-sets.md)에서 자세한 내용을 확인할 수 있으며, [여기](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}에는 일별 캡핑 사용 사례 설명이 있습니다.
+* 2024년 11월 1일부로 스트리밍 세분화는 더 이상 [!DNL Journey Optimizer] 추적 및 피드백 데이터 세트의 전송 및 열기 이벤트를 지원하지 않습니다. 빈도 캡핑 또는 피로도 관리를 구현하려면 해당 이벤트 대신 비즈니스 규칙을 사용하십시오. [이 섹션](../conflict-prioritization/rule-sets.md)에서 자세한 내용을 확인할 수 있으며, [여기](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=ko){target="_blank"}에는 일별 캡핑 사용 사례 설명이 있습니다.
 
 * 2025년 2월부로 TTL(Time-to-Live) 가드레일이 Journey Optimizer 시스템 생성 데이터 세트에 배포됩니다. [자세히 알아보기](datasets-ttl.md)
 
@@ -78,7 +78,7 @@ Adobe Experience Platform에 수집되는 모든 데이터는 데이터 세트�
 
 * 보고
 
-  * _보고 - 메시지 피드백 이벤트 데이터 세트_: 메시지 게재 로그. Journey Optimizer의 모든 메시지 게재에 대한 정보입니다. 보고하고 대상자를 만드는 데 사용합니다. 바운스에 대한 이메일 ISP의 피드백도 이 데이터 세트에 기록됩니다. **이 데이터 세트는 배치 수집을 사용하므로 데이터 지연 시간이 최대 2시간까지 발생할 수 있습니다.** 필드 수준 정의 및 경로는 [Adobe Journey Optimizer 스키마 참조](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"}를 참조하십시오. SQL 보고 예제는 [데이터 집합 쿼리 예제](../data/datasets-query-examples.md)를 참조하십시오.
+  * _보고 - 메시지 피드백 이벤트 데이터 세트_: 메시지 게재 로그. Journey Optimizer의 모든 메시지 게재에 대한 정보입니다. 보고하고 대상자를 만드는 데 사용합니다. 바운스에 대한 이메일 ISP의 피드백도 이 데이터 세트에 기록됩니다. **이 데이터 세트는 배치 수집을 사용하므로 데이터 지연 시간이 최대 2시간까지 발생할 수 있습니다.** 필드 수준 정의 및 경로는 [Adobe Journey Optimizer 스키마 참조](https://experienceleague.adobe.com/ko/tools/ajo-schemas){target="_blank"}를 참조하십시오. SQL 보고 예제는 [데이터 집합 쿼리 예제](../data/datasets-query-examples.md)를 참조하십시오.
   * _보고 - 이메일 추적 경험 이벤트 데이터 세트_: 이메일 채널에 대한 상호 작용 로그 및 `whatsAppChannelContext` 필드 그룹의 WhatsApp 채널 컨텍스트 데이터입니다. 보고 및 대상자 만들기에 사용됩니다. 저장된 정보에는 최종 사용자가 이메일에 대해 수행한 액션(열기, 클릭 등)과 WhatsApp 상호 작용이 포함됩니다.
   * _보고 - 푸시 추적 경험 이벤트 데이터 세트_: 푸시 채널의 상호 작용 로그입니다. 보고하고 대상자를 만드는 데 사용합니다. 저장된 정보를 통해 최종 사용자가 푸시 알림에 대해 수행한 작업을 확인할 수 있습니다.
   * _보고 - 여정 단계 이벤트_: Journey Optimizer에서 생성한 [모든 여정 단계 경험 이벤트]를 캡처합니다. [보고] 등 서비스에서 사용합니다. Customer Journey Analytics에서 전년 대비 분석 보고서를 작성하는 데에도 중요합니다. [여정 메타데이터]에 연결되어 있습니다.
