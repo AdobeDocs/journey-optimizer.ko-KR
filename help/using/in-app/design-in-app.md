@@ -300,6 +300,6 @@ ht-degree: 29%
 
 아래 비디오에서는 인앱 메시지를 작성하고 테스트하는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3410471?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3422079?captions=kor&quality=12&learn=on)
 
 {{$include /help/_includes/do-not-localize/in-app/ai-augmented-design-in-app.md}}
