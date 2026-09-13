@@ -165,6 +165,6 @@ Adobe Experience Platform 대상 포털을 사용하면 선택한 대상에 대�
 
 Journey Optimizer에서 규칙을 사용하여 대상을 생성하는 방법을 이해하고, 속성, 이벤트 및 기존 대상을 사용하여 대상을 만드는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3425020?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430333?captions=kor&quality=12)
 
 {{$include /help/_includes/do-not-localize/audience/ai-augmented-creating-a-segment-definition.md}}
