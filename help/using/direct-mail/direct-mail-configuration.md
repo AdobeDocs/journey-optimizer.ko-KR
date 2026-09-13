@@ -10,19 +10,12 @@ level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 TQID: https://experienceleague.adobe.com/3eyBGqw-gCAWi-SYSq5DoyDiFos5HUIIfMFKH3aZBo8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b9f0b446a14f7d1bb93103acb6dd655643723211
 workflow-type: tm+mt
 source-wordcount: 1994
 ht-degree: 20%
@@ -177,7 +170,7 @@ DM 공급자가 메일을 전달하기 위해 해당 파일에 액세스하고 �
 
 ![추가 서버 필드가 없는 데이터 랜딩 영역 파일 라우팅 구성](assets/file-routing-config-dlz-detail.png)
 
-[!DNL Adobe Experience Platform]의 모든 고객에게 샌드박스당 하나의 데이터 랜딩 영역 컨테이너가 제공됩니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}에서 데이터 랜딩 영역에 대해 자세히 알아보세요.
+[!DNL Adobe Experience Platform]의 모든 고객에게 샌드박스당 하나의 데이터 랜딩 영역 컨테이너가 제공됩니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}에서 데이터 랜딩 영역에 대해 자세히 알아보세요.
 
 >[!ENDTABS]
 
@@ -217,7 +210,7 @@ SSH 키 인증과 함께 SFTP를 사용하는 경우 Base64로 인코딩된 Open
 >
 >Base64 인코딩 후 키에는 더 이상 `-----BEGIN/END RSA PRIVATE KEY-----` 마커가 포함되지 않으며 줄 바꿈을 포함하지 않아야 합니다. 해당 공개 키를 SFTP 서버의 승인된 키 파일에 추가해야 합니다.
 
-SFTP 계정을 Experience Platform에 연결하는 방법에 대한 자세한 내용은 [이 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/connectors/cloud-storage/sftp)를 참조하세요.
+SFTP 계정을 Experience Platform에 연결하는 방법에 대한 자세한 내용은 [이 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/sftp)를 참조하세요.
 
 +++
 
@@ -315,3 +308,5 @@ DM 구성에는 DM 파일을 내보낼 서버를 정의하는 파일 라우팅 �
 * [채널 구성](../configuration/channel-surfaces.md)
 
 DM에 대한 일반적인 질문은 [DM 시작](get-started-direct-mail.md)을 참조하세요.
+
+{{$include /help/_includes/do-not-localize/direct-mail/ai-augmented-direct-mail-configuration.md}}
