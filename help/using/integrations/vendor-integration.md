@@ -9,9 +9,8 @@ role: User
 level: Intermediate
 keywords: 통합, 공급업체, 서드파티
 subfeature_v2: []
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-source-git-commit: c9ba757a58aaef0a55f6d2e24259bc8b86ff1f75
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+source-git-commit: c40c37683d1e36ad85654320278b9f781b8d818c
 workflow-type: tm+mt
 source-wordcount: 10212
 ht-degree: 5%
@@ -687,7 +686,7 @@ Voucherify는 프로모션 및 충성도 REST API(캠페인, 바우처, 충성�
 
 +++
 
-### 탈론 {#talon-one}
+### Talon.One {#talon-one}
 
 >[!IMPORTANT]
 >
@@ -967,7 +966,7 @@ Salesforce 충성도 관리는 멤버, 프로그램 및 트랜잭션을 위해 S
 
 +++
 
-### 모세관 {#capillary}
+### Capillary {#capillary}
 
 >[!IMPORTANT]
 >
@@ -1229,7 +1228,7 @@ Adobe Target에는 권한에 따라 서버측 또는 통합 경험을 위한 권
 
 아래 절차를 사용하여 Journey Optimizer에서 이 통합을 구성합니다. 요청 세부 정보는 **샘플 통합 필드**&#x200B;를 참조하고 해당 환경에 대한 공급업체 설명서를 통해 해당 값을 확인하십시오.
 
-1. [통합 작업](integrations.md)을 따르십시오. 게재 호출은 종종 JSON 본문이 있는 **POST**&#x200B;입니다. [Target 인증](https://experienceleague.adobe.com/ko/docs/target-dev/developer/api/configure-authentication){target="_blank"}당 OAuth를 구성하고 샘플 응답을 붙여 넣고 필드를 매핑한 다음 예상 볼륨에서 테스트하십시오.
+1. [통합 작업](integrations.md)을 따르십시오. 게재 호출은 종종 JSON 본문이 있는 **POST**&#x200B;입니다. [Target 인증](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication){target="_blank"}당 OAuth를 구성하고 샘플 응답을 붙여 넣고 필드를 매핑한 다음 예상 볼륨에서 테스트하십시오.
 
 1. Journey Optimizer에서 **[!UICONTROL 구성]** > **[!UICONTROL 관리]**(으)로 이동한 다음 **[!UICONTROL 통합 만들기]**&#x200B;를 선택합니다.
 
@@ -1282,7 +1281,7 @@ Adobe Target에는 권한에 따라 서버측 또는 통합 경험을 위한 권
 
 **인증**
 
-[Target 인증 구성](https://experienceleague.adobe.com/ko/docs/target-dev/developer/api/configure-authentication)을 참조하고 페이로드에 JSON을 추가하십시오.
+[Target 인증 구성](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication)을 참조하고 페이로드에 JSON을 추가하십시오.
 
 **요청 페이로드**
 
@@ -2220,7 +2219,7 @@ Meta Graph 및 Marketing API는 인증된 비즈니스 통합을 위해 카탈�
 | 매개 변수 | 이름 | 유형 | 값 | 필수 |
 | --- | --- | --- | --- | --- |
 | `fields` | `fields` | 변수 | ID | 아니오 |
-| `filter` | `filter` | 변수 | — | 아니요 |
+| `filter` | `filter` | 변수 | — | 아니오 |
 
 +++
 
@@ -2408,3 +2407,4 @@ Epsilon은 엔터프라이즈 계약당 API를 노출합니다. 기본 URL 및 �
 
 +++
 
+{{$include /help/_includes/do-not-localize/integrations/ai-augmented-vendor-integration.md}}
