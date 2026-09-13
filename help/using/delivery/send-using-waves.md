@@ -9,7 +9,8 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: 예약된 일괄 처리, 일정, 여정, 캠페인, 오케스트레이션, 전달성
-feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+feature_v2:
+  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
 subfeature_v2: []
 source-git-commit: 8b3f44e75d9da7404672598c64f660ff4995a8f1
 workflow-type: tm+mt
