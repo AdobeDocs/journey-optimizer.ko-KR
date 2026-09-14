@@ -9,17 +9,18 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: 18306a37e360f359712c51b3755d2f5739bfc6f8
+    internal-label: Journey Optimizer release notes
+source-git-commit: f51e40d9c110b219275f6b246ce34121d3dad598
 workflow-type: tm+mt
-source-wordcount: 2943
+source-wordcount: '2976'
 ht-degree: 11%
-
 ---
-
 
 # 사전 릴리스 정보 {#e-release-notes}
 
@@ -100,7 +101,7 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 <tbody>
 <tr>
 <td>
-<p>이제 이벤트 매핑 생성 또는 편집에서는 새로운 **시각적 매핑 빌더**&#x200B;를 사용합니다. 스키마를 선택하고, 검색 가능한 필드 선택기에서 필드를 선택하고, 각 필드를 행별 연결 상태가 있는 충성도 이벤트 필드에 매핑하고, 언제든지 수동 JSONata 편집으로 전환하는 옵션과 함께 자동 생성된 JSONata 표현식을 미리 봅니다.</p><p>또한 충성도 관리자의 "이벤트 정의"가 사람이 읽을 수 있는 Experience 이벤트 스키마 이름을 보여 주는 목록 보기가 새로 고쳐진 상태로 "이벤트 매핑"으로 이름이 변경되었습니다.</p>
+<p>이제 이벤트 매핑 생성 또는 편집에서는 새로운 **시각적 매핑 빌더**를 사용합니다. 스키마를 선택하고, 검색 가능한 필드 선택기에서 필드를 선택하고, 각 필드를 행별 연결 상태가 있는 충성도 이벤트 필드에 매핑하고, 언제든지 수동 JSONata 편집으로 전환하는 옵션과 함께 자동 생성된 JSONata 표현식을 미리 봅니다.</p><p>또한 충성도 관리자의 "이벤트 정의"가 사람이 읽을 수 있는 Experience 이벤트 스키마 이름을 보여 주는 목록 보기가 새로 고쳐진 상태로 "이벤트 매핑"으로 이름이 변경되었습니다.</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-15661" target="_blank">DOCAC-15661</a></p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
@@ -178,7 +179,7 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 </tbody>
 </table>
 
-* **세분화된 일괄 처리 대상 평가 대기 논리** - **대상 읽기 활동**&#x200B;에서 여정의 &quot;일괄 처리 대상 평가 후 트리거&quot; 옵션은 이제 이미 진행 중인 일괄 처리 세그먼테이션이 완료될 때까지 대기하여 여정이 이전 스냅숏으로 돌아가는 대신 해당 실행 데이터를 사용하도록 합니다. 진행 중인 일괄 처리 세그먼테이션이 없으면 사용 가능한 최신 대상 데이터를 사용하여 여정이 즉시 실행됩니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-15465" target="_blank">DOCAC-15465</a> <!-- Documentation link: TBD -->
+* **세분화된 일괄 처리 대상 평가 대기 논리** - **대상 읽기 활동**&#x200B;에서 이제 여정의 &quot;일괄 처리 대상 평가 후 트리거&quot; 옵션은 진행 중인 일괄 처리 세그먼테이션이 완료될 때까지 항상 대기하므로 여정은 이전 스냅숏으로 돌아가는 대신 해당 실행 데이터를 사용합니다. 배치 세분화가 진행 중이 아닌 경우 여정은 사용 가능한 최신 스냅샷을 즉시 사용합니다. 이전 실행에서 사용된 것과 동일한 배치가 아닌 경우 해당 스냅샷은 이전 실행에서 사용된 것과 동일한 배치입니다. 이 경우 여정은 구성된 창까지 최신 배치를 기다린 후 제시간에 도착하지 않으면 해당 일의 실행을 건너뜁니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-15465" target="_blank">DOCAC-15465</a> <!-- Documentation link: TBD -->
 
 * **여정 버전을 CX Coworker과 비교** - 오늘 한 여정의 두 버전 사이에서 변경된 사항을 검토하려면 Journey Optimizer 노드 내에서 노드별로 수동으로 비교해야 합니다. 특히 여정이 더 복잡해짐에 따라 변경 검토, 감사 및 게시 전 확인 작업이 느려지고 오류를 일으킬 수 있는 구조적 차이는 없습니다. 이 기능을 사용하면 고객 또는 AI 에이전트가 CX Coworker Chat을 통해 두 버전의 여정을 비교하고 Journey Optimizer을 열지 않고도 필드 수준 세부 사항, 변경된 연결, 여정 수준 속성 변경 및 롤업 카운트와 함께 **구조화된 차이점**(추가/제거/수정/이동된 노드)을 완전히 다시 가져올 수 있습니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-15297" target="_blank">DOCAC-15297</a> <!-- Documentation link: TBD -->
 
@@ -348,7 +349,7 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 </tbody>
 </table>
 
-* CX Coworker에서 **의사 결정 규칙 생성** - 이전에 오른쪽 레일을 통해 사용할 수 있었던 **AI 지원 의사 결정 규칙 생성** 경험은 이제 CX Coworker을 통해 액세스할 수 있습니다. 이 경험은 규칙을 AI로 빌드하는 방법으로 오른쪽 레일을 대체합니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-15290" target="_blank">DOCAC-15290</a> <!-- Documentation link: TBD -->
+* **CX Coworker의 의사 결정 규칙 생성** - 이전에는 오른쪽 레일을 통해 사용할 수 있었던 **AI 지원 의사 결정 규칙 생성** 경험은 이제 CX Coworker를 통해 액세스할 수 있습니다. CX Coworker는 AI로 규칙을 작성하는 방법으로 오른쪽 레일을 대체합니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-15290" target="_blank">DOCAC-15290</a> <!-- Documentation link: TBD -->
 
 ### DM {#sep-26-direct-mail}
 
