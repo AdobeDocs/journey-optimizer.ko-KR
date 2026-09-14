@@ -12,7 +12,7 @@ feature_v2:
   - id: d556b755-390a-43f0-be32-a08cf6236126
 subfeature_v2:
   - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: b5e5f55df553b2537227c965a7bd7b61e1fe7245
 workflow-type: tm+mt
 source-wordcount: 701
 ht-degree: 7%
@@ -125,3 +125,5 @@ Do you need specific permissions to create AI models?
    >한 번에 하나의 여정 세트만 규칙에 적용할 수 있습니다.
 
 이 여정 세트를 사용하는 모든 규칙은 상한이 적용될 때 선택한 AI 모델을 참조하는 공식으로 순위가 지정됩니다.
+
+{{$include /help/_includes/do-not-localize/conflict-prioritization/ai-augmented-journey-ai-models.md}}

@@ -17,7 +17,7 @@ level_v2:
 subfeature_v2:
   - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: b9a0e02b37d4c312568a418efba8ad0efe8d5a49
 workflow-type: tm+mt
 source-wordcount: 1037
 ht-degree: 100%
@@ -148,3 +148,5 @@ ht-degree: 100%
 * **[승인 요청](request-approval.md)** - 승인을 위해 콘텐츠를 제출하고 승인 상태를 추적하는 방법을 이해합니다.
 * **[요청 검토 및 승인](review-approve-request.md)** - 승인자로서 승인 요청을 검토, 승인 또는 거부하는 방법을 알아봅니다.
 * **[콘텐츠 변형 시뮬레이션](simulate-sample-input.md)** - **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭하여 샘플 입력 데이터, AI 자동 생성 또는 시뮬레이션된 사용자를 사용하여 콘텐츠 변형을 테스트합니다. **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭한 후 드롭다운에서 **[!UICONTROL 콘텐츠 시뮬레이션(AEP 프로필)]**&#x200B;을 선택하여 테스트 프로필로 미리 봅니다.
+
+{{$include /help/_includes/do-not-localize/test-approve/ai-augmented-gs-approval.md}}

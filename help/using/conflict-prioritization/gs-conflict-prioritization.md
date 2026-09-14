@@ -21,7 +21,7 @@ level_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: b5e5f55df553b2537227c965a7bd7b61e1fe7245
 workflow-type: tm+mt
 source-wordcount: 917
 ht-degree: 100%
@@ -97,3 +97,5 @@ Journey Optimizer에서 너무 많은 상호 작용으로 고객에게 부담을
 * **[수식](journey-ranking-formulas.md) 및 [AI 모델](journey-ai-models.md)**&#x200B;을 사용하여 여정 순위 지정 - 상한이 적용될 때 여정 순위를 정할 수식과 AI 모델을 만드는 방법에 대해 알아봅니다.
 * **[충돌 관리 튜토리얼](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/conflict-management/identify-potential-conflicts){target="_blank"}** - 단계별 비디오 튜토리얼.
 * **[Journey Optimizer 사용 사례](../building-journeys/jo-use-cases.md)** - 빈도 제한 및 여정 억제 논리를 포함한 실용적인 패턴을 살펴봅니다.
+
+{{$include /help/_includes/do-not-localize/conflict-prioritization/ai-augmented-gs-conflict-prioritization.md}}

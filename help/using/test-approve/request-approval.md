@@ -16,7 +16,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 subfeature_v2:
   - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: b9a0e02b37d4c312568a418efba8ad0efe8d5a49
 workflow-type: tm+mt
 source-wordcount: 524
 ht-degree: 0%
@@ -72,3 +72,5 @@ ht-degree: 0%
 ![변경 요청 알림](assets/changes-requested.png)
 
 변경 요청을 처리하려면 이메일 또는 경고에서 해당 여정을 열어 캠페인이나 캠페인에 액세스하고 요청된 변경 작업을 수행합니다. 여정/캠페인을 다시 검토할 준비가 되면 **[!UICONTROL 승인 요청]** 버튼을 사용하여 새 승인 요청을 보내십시오.
+
+{{$include /help/_includes/do-not-localize/test-approve/ai-augmented-request-approval.md}}
