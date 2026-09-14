@@ -16,9 +16,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 8297245511bb0ad9c70ad995b0b33d5198e562a8
+source-git-commit: b52a13ced7828d3e484508caf24b1e4716df087e
 workflow-type: tm+mt
-source-wordcount: '3322'
+source-wordcount: '3422'
 ht-degree: 10%
 ---
 
@@ -101,7 +101,7 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 <tbody>
 <tr>
 <td>
-<p>이제 이벤트 매핑 생성 또는 편집에서는 새로운 **시각적 매핑 빌더**&#x200B;를 사용합니다. 스키마를 선택하고, 검색 가능한 필드 선택기에서 필드를 선택하고, 각 필드를 행별 연결 상태가 있는 충성도 이벤트 필드에 매핑하고, 언제든지 수동 JSONata 편집으로 전환하는 옵션과 함께 자동 생성된 JSONata 표현식을 미리 봅니다.</p><p>또한 충성도 관리자의 "이벤트 정의"가 사람이 읽을 수 있는 Experience 이벤트 스키마 이름을 보여 주는 목록 보기가 새로 고쳐진 상태로 "이벤트 매핑"으로 이름이 변경되었습니다.</p>
+<p>이제 이벤트 매핑 생성 또는 편집에서는 새로운 **시각적 매핑 빌더**를 사용합니다. 스키마를 선택하고, 검색 가능한 필드 선택기에서 필드를 선택하고, 각 필드를 행별 연결 상태가 있는 충성도 이벤트 필드에 매핑하고, 언제든지 수동 JSONata 편집으로 전환하는 옵션과 함께 자동 생성된 JSONata 표현식을 미리 봅니다.</p><p>또한 충성도 관리자의 "이벤트 정의"가 사람이 읽을 수 있는 Experience 이벤트 스키마 이름을 보여 주는 목록 보기가 새로 고쳐진 상태로 "이벤트 매핑"으로 이름이 변경되었습니다.</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-15661" target="_blank">DOCAC-15661</a></p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
@@ -111,6 +111,8 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 </table>
 
 * **CX 동료의 충성도 추천 기술** - 마케터는 이제 CX 동료의 대화 인터페이스에서 직접 **도전 기회**&#x200B;를 요청할 수 있으며, 실제 충성도 프로그램 트렌드를 기반으로 기본적인 도전 아이디어를 얻고 채팅 중단 없이 실시간 도전으로 전환할 수 있습니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-15565" target="_blank">DOCAC-15565</a> <!-- Documentation link: TBD -->
+
+* **콘텐츠 카드 개인화 편집기의 과제 도메인** - 이제 콘텐츠 카드 개인화 편집기가 도메인으로 **과제**&#x200B;를 지원하므로 콘텐츠 카드 개인화를 작성할 때 과제 메타데이터에 액세스할 수 있습니다. 이렇게 하면 사용자 지정 코드 없이 Launch, 진행 중 및 종료 등 과제의 각 단계에 맞는 콘텐츠를 보다 쉽게 만들 수 있습니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-15681" target="_blank">DOCAC-15681</a> <!-- Documentation link: TBD -->
 
 ### 온보딩 {#sep-26-onboarding}
 
@@ -488,5 +490,7 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 ### 사용성 개선 사항 {#sep-26-usability}
 
 * **콘텐츠 시뮬레이션 경험의 유용성 개선** - 이제 새로운 콘텐츠 시뮬레이션 경험을 통해 손쉽게 비교할 수 있도록 변형의 이름을 지정하고 구성하며, 각 카드에서 직접 변형 세부 정보를 복사하거나 삭제할 수 있으며, 전체 속성 경로 및 카드별 채널 구성을 요청 시 볼 수 있으며, 더 눈에 띄는 업로드 버튼에서 고유한 CSV, JSON 또는 JSONL 프로필을 업로드할 수 있습니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-15570" target="_blank">DOCAC-15570</a>
+
+* **캠페인, 여정 및 오케스트레이션된 캠페인을 위한 통합 일정** - 이제 여정 및 캠페인에 대한 일정 보기가 개별 인벤토리에서 벗어나 통합된 왼쪽 레일에 액세스할 수 있는 메뉴로 전환되며 둘 다 하나의 통합 보기로 표시됩니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-15571" target="_blank">DOCAC-15571</a> <!-- Documentation link: TBD -->
 
 
