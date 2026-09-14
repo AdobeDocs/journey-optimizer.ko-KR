@@ -16,10 +16,10 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 45438d2e7d89e2131145abf723bd695c50865022
+source-git-commit: 8297245511bb0ad9c70ad995b0b33d5198e562a8
 workflow-type: tm+mt
-source-wordcount: '3006'
-ht-degree: 11%
+source-wordcount: '3322'
+ht-degree: 10%
 ---
 
 # 사전 릴리스 정보 {#e-release-notes}
@@ -101,7 +101,7 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 <tbody>
 <tr>
 <td>
-<p>이제 이벤트 매핑 생성 또는 편집에서는 새로운 **시각적 매핑 빌더**&#x200B;를 사용합니다. 스키마를 선택하고, 검색 가능한 필드 선택기에서 필드를 선택하고, 각 필드를 행별 연결 상태가 있는 충성도 이벤트 필드에 매핑하고, 언제든지 수동 JSONata 편집으로 전환하는 옵션과 함께 자동 생성된 JSONata 표현식을 미리 봅니다.</p><p>또한 충성도 관리자의 "이벤트 정의"가 사람이 읽을 수 있는 Experience 이벤트 스키마 이름을 보여 주는 목록 보기가 새로 고쳐진 상태로 "이벤트 매핑"으로 이름이 변경되었습니다.</p>
+<p>이제 이벤트 매핑 생성 또는 편집에서는 새로운 **시각적 매핑 빌더**를 사용합니다. 스키마를 선택하고, 검색 가능한 필드 선택기에서 필드를 선택하고, 각 필드를 행별 연결 상태가 있는 충성도 이벤트 필드에 매핑하고, 언제든지 수동 JSONata 편집으로 전환하는 옵션과 함께 자동 생성된 JSONata 표현식을 미리 봅니다.</p><p>또한 충성도 관리자의 "이벤트 정의"가 사람이 읽을 수 있는 Experience 이벤트 스키마 이름을 보여 주는 목록 보기가 새로 고쳐진 상태로 "이벤트 매핑"으로 이름이 변경되었습니다.</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-15661" target="_blank">DOCAC-15661</a></p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
@@ -179,6 +179,24 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>인바운드 활동 비활성화 여정 활동</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>여정 캔버스에서 새 <strong>인바운드 활동 비활성화</strong> 활동을 사용하면 여정에서 최대 5개의 인바운드 활동 또는 경험에서 프로필을 직접 제거하고, 더 고급 크로스 채널 오케스트레이션을 위해 여정 종료에서 인바운드 결격 조건을 제거할 수 있습니다.</p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-15686" target="_blank">DOCAC-15686</a></p>
+<!-- GIF placeholder: to be added -->
+<!-- Documentation link: TBD -->
+</td>
+</tr>
+</tbody>
+</table>
+
 * **세분화된 일괄 처리 대상 평가 대기 논리** - **대상 읽기 활동**&#x200B;에서 이제 여정의 &quot;일괄 처리 대상 평가 후 트리거&quot; 옵션은 진행 중인 일괄 처리 세그먼테이션이 완료될 때까지 항상 대기하므로 여정은 이전 스냅숏으로 돌아가는 대신 해당 실행 데이터를 사용합니다. 배치 세분화가 진행 중이 아닌 경우 여정은 사용 가능한 최신 스냅샷을 즉시 사용합니다. 이전 실행에서 사용된 것과 동일한 배치가 아닌 경우 해당 스냅샷은 이전 실행에서 사용된 것과 동일한 배치입니다. 이 경우 여정은 구성된 창까지 최신 배치를 기다린 후 제시간에 도착하지 않으면 해당 일의 실행을 건너뜁니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-15465" target="_blank">DOCAC-15465</a> <!-- Documentation link: TBD -->
 
 * **여정 버전을 CX Coworker과 비교** - 오늘 한 여정의 두 버전 사이에서 변경된 사항을 검토하려면 Journey Optimizer 노드 내에서 노드별로 수동으로 비교해야 합니다. 특히 여정이 더 복잡해짐에 따라 변경 검토, 감사 및 게시 전 확인 작업이 느려지고 오류를 일으킬 수 있는 구조적 차이는 없습니다. 이 기능을 사용하면 고객 또는 AI 에이전트가 CX Coworker Chat을 통해 두 버전의 여정을 비교하고 Journey Optimizer을 열지 않고도 필드 수준 세부 사항, 변경된 연결, 여정 수준 속성 변경 및 롤업 카운트와 함께 **구조화된 차이점**(추가/제거/수정/이동된 노드)을 완전히 다시 가져올 수 있습니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-15297" target="_blank">DOCAC-15297</a> <!-- Documentation link: TBD -->
@@ -188,6 +206,14 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 * **새 여정 예외 항목 탐지 경고** - 이제 새 시스템 경고는 실시간 여정의 일일 트래픽이 여정 시작, 여정 종료 및 이벤트 전송 동안 자체 기록 기준선에서 벗어나거나 예기치 않게 0으로 떨어지는 경우 경고합니다. 이 경고는 현재 프로덕션 샌드박스에서만 사용할 수 있습니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-15545" target="_blank">DOCAC-15545</a> <!-- Documentation link: TBD -->
 
 * **대기 및 이벤트 활동에 대한 단계 이벤트 감소** - 프로필이 해당 활동에서 실제로 처리되지 않았을 때 **대기** 활동 및 **이벤트** 활동에 대해 단계 이벤트가 더 이상 생성되지 않습니다. <!-- DRAFT: pending DOCAC sub-task under DOCAC-15691, see CJM-165835 --> <!-- Documentation link: TBD -->
+
+* **사용자 지정 보고서에 대한 건식 실행 단계 이벤트 제외** - 단계 이벤트 최적화의 일부로, Journey Optimizer은 이제 여정 건식 실행 중에 보고할 수 없는 특정 단계 이벤트 생성을 중단합니다. 이 작업은 이러한 시험 실행 단계 이벤트 유형에 빌드된 사용자 지정 보고서에만 영향을 줍니다. 영향을 받은 경우 드라이 실행을 다시 트리거하여 데이터를 재생성합니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-15691" target="_blank">DOCAC-15691</a> <!-- Documentation link: TBD -->
+
+* **위생 분석 공동 작업자 기술** - CX Coworker의 새로운 **위생 분석** 기술은 활성 및 초안 여정에서 오래된 초안 여정, 고립된 데이터 소스, 지속적인 사용자 지정 작업 오류 및 높은 동의 제외 비율과 같은 손상된 구성, 자동 오류 및 사용되지 않는 에셋과 채팅에서 바로 권장 수정 사항을 표시합니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-15689" target="_blank">DOCAC-15689</a> <!-- Documentation link: TBD -->
+
+* **비즈니스 성과 분석 동료 스킬** - CX Coworker의 새로운 **비즈니스 성과 분석** 스킬은 여정의 성과를 분석하고, 성과가 낮은 영역을 설명하고, 재참여 대기, 채널 에스컬레이션, 전송 시간 최적화, A/B 실험, 빈도 제한 또는 각 여정의 목표와 연계된 프로필 시간대 사용과 같은 구체적인 최적화를 권장합니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-15688" target="_blank">DOCAC-15688</a> <!-- Documentation link: TBD -->
+
+* **여정 속성의 자동 이벤트 복구 시간 초과** - 이제 여정 속성에 **이벤트 복구 시간 초과 설정** 설정이 포함됩니다. 기본적으로 영향을 받은 여정 이벤트는 서비스 중단 후 최대 72시간 동안 별도의 조치 없이 자동으로 재생됩니다. 이 설정을 켜면 시간에 민감한 여정의 재생 창(0-72시간)을 제어할 수 있습니다. 두 설정 간의 혼동을 방지하기 위해 기존 **시간 초과 또는 오류** 필드의 이름이 **사용자 지정 작업/IDS 작업 시간 초과**(으)로 변경되었습니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-15685" target="_blank">DOCAC-15685</a> <!-- Documentation link: TBD -->
 
 ### 채널 {#sep-26-channels}
 
