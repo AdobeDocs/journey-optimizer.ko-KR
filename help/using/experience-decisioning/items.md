@@ -9,17 +9,19 @@ exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
 feature_v2:
   - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+    internal-label: Decisioning
   - id: a984631b-2bae-4860-9b15-69c41a799dcb
+    internal-label: APIs and SDKs
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+    internal-label: Decisioning API
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: b364427cbb6cc0c463c1d14bff2dc6e042830b86
+    internal-label: Edge Decisioning
+source-git-commit: a8c364461ba54c1153766771932d2ef0e91976cc
 workflow-type: tm+mt
-source-wordcount: 2888
-ht-degree: 14%
-
+source-wordcount: '2888'
+ht-degree: 13%
 ---
-
 # 첫 결정 항목 만들기 {#items}
 
 >[!BEGINSHADEBOX]
@@ -106,8 +108,8 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
 >abstract="기본적으로 모든 프로필은 결정 항목을 수신할 수 있지만 대상자 또는 규칙을 사용하여 항목을 특정 프로필로만 제한할 수 있습니다."
 
 <!--
->"additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
@@ -140,7 +142,7 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_capping_expression"
 >title="표현식"
->abstract="상한 임계값에 정적 값을 사용하는 대신 고유한 표현식을 정의할 수 있습니다. 이를 통해 Adobe Experience Platform 데이터 세트의 결정 속성 및/또는 외부 속성을 사용하여 임계값을 동적으로 계산할 수 있습니다.<br/><br/>상한 규칙 **표현식**&#x200B;은 현재 모든 사용자가 제한적으로 사용할 수 있습니다. 이는 **[!UICONTROL 총합]** 상한 유형에 대해서만 지원됩니다."
+>abstract="캡핑 임계값에 정적 값을 사용하는 대신 고유한 표현식을 정의할 수 있습니다. 이를 통해 Adobe Experience Platform 데이터 세트의 결정 속성 및/또는 외부 속성을 사용하여 임계값을 동적으로 계산할 수 있습니다.<br/><br/>상한 규칙 **표현식**&#x200B;은 현재 모든 사용자가 제한적으로 사용할 수 있습니다. 이는 **[!UICONTROL 총합]** 상한 유형에 대해서만 지원됩니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_capping_scope"
@@ -227,7 +229,7 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
 
    +++표현식 임계값
 
-   상한 임계값에 정적 값을 사용하는 대신 고유한 표현식을 정의할 수 있습니다. 이를 통해 Adobe Experience Platform 데이터 세트의 결정 속성 및/또는 외부 속성을 사용하여 임계값을 동적으로 계산할 수 있습니다.
+   캡핑 임계값에 정적 값을 사용하는 대신 고유한 표현식을 정의할 수 있습니다. 이를 통해 Adobe Experience Platform 데이터 세트의 결정 속성 및/또는 외부 속성을 사용하여 임계값을 동적으로 계산할 수 있습니다.
 
    예를 들어 마케터는 노출을 조정하기 위해 승수를 추가하기로 결정할 수 있습니다. 예를 들어 사용 가능한 재고에 2를 곱하여 오퍼를 사용 가능한 단위의 두 배 많은 고객에게 표시할 수 있습니다. 이 접근 방식은 모든 고객이 전환하지 않을 것으로 예상하여 과잉 판매 없이 더 나은 도달 범위를 보장할 수 있습니다.
 
