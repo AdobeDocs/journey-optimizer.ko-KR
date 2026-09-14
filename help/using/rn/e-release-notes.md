@@ -9,17 +9,18 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: 18306a37e360f359712c51b3755d2f5739bfc6f8
+    internal-label: Journey Optimizer release notes
+source-git-commit: b52a13ced7828d3e484508caf24b1e4716df087e
 workflow-type: tm+mt
-source-wordcount: 2943
-ht-degree: 11%
-
+source-wordcount: '3422'
+ht-degree: 10%
 ---
-
 
 # 사전 릴리스 정보 {#e-release-notes}
 
@@ -111,6 +112,8 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 
 * **CX 동료의 충성도 추천 기술** - 마케터는 이제 CX 동료의 대화 인터페이스에서 직접 **도전 기회**&#x200B;를 요청할 수 있으며, 실제 충성도 프로그램 트렌드를 기반으로 기본적인 도전 아이디어를 얻고 채팅 중단 없이 실시간 도전으로 전환할 수 있습니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-15565" target="_blank">DOCAC-15565</a> <!-- Documentation link: TBD -->
 
+* **콘텐츠 카드 개인화 편집기의 과제 도메인** - 이제 콘텐츠 카드 개인화 편집기가 도메인으로 **과제**&#x200B;를 지원하므로 콘텐츠 카드 개인화를 작성할 때 과제 메타데이터에 액세스할 수 있습니다. 이렇게 하면 사용자 지정 코드 없이 Launch, 진행 중 및 종료 등 과제의 각 단계에 맞는 콘텐츠를 보다 쉽게 만들 수 있습니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-15681" target="_blank">DOCAC-15681</a> <!-- Documentation link: TBD -->
+
 ### 온보딩 {#sep-26-onboarding}
 
 이 릴리스에서는 다음 기능이 온보딩됩니다.
@@ -178,13 +181,41 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 </tbody>
 </table>
 
-* **세분화된 일괄 처리 대상 평가 대기 논리** - **대상 읽기 활동**&#x200B;에서 여정의 &quot;일괄 처리 대상 평가 후 트리거&quot; 옵션은 이제 이미 진행 중인 일괄 처리 세그먼테이션이 완료될 때까지 대기하여 여정이 이전 스냅숏으로 돌아가는 대신 해당 실행 데이터를 사용하도록 합니다. 진행 중인 일괄 처리 세그먼테이션이 없으면 사용 가능한 최신 대상 데이터를 사용하여 여정이 즉시 실행됩니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-15465" target="_blank">DOCAC-15465</a> <!-- Documentation link: TBD -->
+<table>
+<thead>
+<tr>
+<th><strong>인바운드 활동 비활성화 여정 활동</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>여정 캔버스에서 새 <strong>인바운드 활동 비활성화</strong> 활동을 사용하면 여정에서 최대 5개의 인바운드 활동 또는 경험에서 프로필을 직접 제거하고, 더 고급 크로스 채널 오케스트레이션을 위해 여정 종료에서 인바운드 결격 조건을 제거할 수 있습니다.</p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-15686" target="_blank">DOCAC-15686</a></p>
+<!-- GIF placeholder: to be added -->
+<!-- Documentation link: TBD -->
+</td>
+</tr>
+</tbody>
+</table>
+
+* **세분화된 일괄 처리 대상 평가 대기 논리** - **대상 읽기 활동**&#x200B;에서 이제 여정의 &quot;일괄 처리 대상 평가 후 트리거&quot; 옵션은 진행 중인 일괄 처리 세그먼테이션이 완료될 때까지 항상 대기하므로 여정은 이전 스냅숏으로 돌아가는 대신 해당 실행 데이터를 사용합니다. 배치 세분화가 진행 중이 아닌 경우 여정은 사용 가능한 최신 스냅샷을 즉시 사용합니다. 이전 실행에서 사용된 것과 동일한 배치가 아닌 경우 해당 스냅샷은 이전 실행에서 사용된 것과 동일한 배치입니다. 이 경우 여정은 구성된 창까지 최신 배치를 기다린 후 제시간에 도착하지 않으면 해당 일의 실행을 건너뜁니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-15465" target="_blank">DOCAC-15465</a> <!-- Documentation link: TBD -->
 
 * **여정 버전을 CX Coworker과 비교** - 오늘 한 여정의 두 버전 사이에서 변경된 사항을 검토하려면 Journey Optimizer 노드 내에서 노드별로 수동으로 비교해야 합니다. 특히 여정이 더 복잡해짐에 따라 변경 검토, 감사 및 게시 전 확인 작업이 느려지고 오류를 일으킬 수 있는 구조적 차이는 없습니다. 이 기능을 사용하면 고객 또는 AI 에이전트가 CX Coworker Chat을 통해 두 버전의 여정을 비교하고 Journey Optimizer을 열지 않고도 필드 수준 세부 사항, 변경된 연결, 여정 수준 속성 변경 및 롤업 카운트와 함께 **구조화된 차이점**(추가/제거/수정/이동된 노드)을 완전히 다시 가져올 수 있습니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-15297" target="_blank">DOCAC-15297</a> <!-- Documentation link: TBD -->
 
 * **여정 캔버스에서 컨텐츠 미리 보기** - 오늘 채널 컨텐츠를 검토하려면 각 노드를 개별적으로 한 번에 하나씩 열어야 합니다. 특히 개인화는 노드당 여러 처리 또는 변형을 확인하는 것을 의미합니다. 채널 노드가 많은 여정에서 느리고 오류가 발생하기 쉽습니다. **콘텐츠 미리 보기**&#x200B;에서는 전체 화면 모달을 사용하여 처리 및 변형을 검사하고 전환하여 캔버스에서 직접 모든 채널 노드의 콘텐츠 썸네일을 표시하여 이러한 마찰을 제거합니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-15456" target="_blank">DOCAC-15456</a> <!-- Documentation link: TBD -->
 
 * **새 여정 예외 항목 탐지 경고** - 이제 새 시스템 경고는 실시간 여정의 일일 트래픽이 여정 시작, 여정 종료 및 이벤트 전송 동안 자체 기록 기준선에서 벗어나거나 예기치 않게 0으로 떨어지는 경우 경고합니다. 이 경고는 현재 프로덕션 샌드박스에서만 사용할 수 있습니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-15545" target="_blank">DOCAC-15545</a> <!-- Documentation link: TBD -->
+
+* **대기 및 이벤트 활동에 대한 단계 이벤트 감소** - 프로필이 해당 활동에서 실제로 처리되지 않았을 때 **대기** 활동 및 **이벤트** 활동에 대해 단계 이벤트가 더 이상 생성되지 않습니다. <!-- DRAFT: pending DOCAC sub-task under DOCAC-15691, see CJM-165835 --> <!-- Documentation link: TBD -->
+
+* **사용자 지정 보고서에 대한 건식 실행 단계 이벤트 제외** - 단계 이벤트 최적화의 일부로, Journey Optimizer은 이제 여정 건식 실행 중에 보고할 수 없는 특정 단계 이벤트 생성을 중단합니다. 이 작업은 이러한 시험 실행 단계 이벤트 유형에 빌드된 사용자 지정 보고서에만 영향을 줍니다. 영향을 받은 경우 드라이 실행을 다시 트리거하여 데이터를 재생성합니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-15691" target="_blank">DOCAC-15691</a> <!-- Documentation link: TBD -->
+
+* **위생 분석 공동 작업자 기술** - CX Coworker의 새로운 **위생 분석** 기술은 활성 및 초안 여정에서 오래된 초안 여정, 고립된 데이터 소스, 지속적인 사용자 지정 작업 오류 및 높은 동의 제외 비율과 같은 손상된 구성, 자동 오류 및 사용되지 않는 에셋과 채팅에서 바로 권장 수정 사항을 표시합니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-15689" target="_blank">DOCAC-15689</a> <!-- Documentation link: TBD -->
+
+* **비즈니스 성과 분석 동료 스킬** - CX Coworker의 새로운 **비즈니스 성과 분석** 스킬은 여정의 성과를 분석하고, 성과가 낮은 영역을 설명하고, 재참여 대기, 채널 에스컬레이션, 전송 시간 최적화, A/B 실험, 빈도 제한 또는 각 여정의 목표와 연계된 프로필 시간대 사용과 같은 구체적인 최적화를 권장합니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-15688" target="_blank">DOCAC-15688</a> <!-- Documentation link: TBD -->
+
+* **여정 속성의 자동 이벤트 복구 시간 초과** - 이제 여정 속성에 **이벤트 복구 시간 초과 설정** 설정이 포함됩니다. 기본적으로 영향을 받은 여정 이벤트는 서비스 중단 후 최대 72시간 동안 별도의 조치 없이 자동으로 재생됩니다. 이 설정을 켜면 시간에 민감한 여정의 재생 창(0-72시간)을 제어할 수 있습니다. 두 설정 간의 혼동을 방지하기 위해 기존 **시간 초과 또는 오류** 필드의 이름이 **사용자 지정 작업/IDS 작업 시간 초과**(으)로 변경되었습니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-15685" target="_blank">DOCAC-15685</a> <!-- Documentation link: TBD -->
 
 ### 채널 {#sep-26-channels}
 
@@ -348,7 +379,7 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 </tbody>
 </table>
 
-* CX Coworker에서 **의사 결정 규칙 생성** - 이전에 오른쪽 레일을 통해 사용할 수 있었던 **AI 지원 의사 결정 규칙 생성** 경험은 이제 CX Coworker을 통해 액세스할 수 있습니다. 이 경험은 규칙을 AI로 빌드하는 방법으로 오른쪽 레일을 대체합니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-15290" target="_blank">DOCAC-15290</a> <!-- Documentation link: TBD -->
+* **CX Coworker의 의사 결정 규칙 생성** - 이전에는 오른쪽 레일을 통해 사용할 수 있었던 **AI 지원 의사 결정 규칙 생성** 경험은 이제 CX Coworker를 통해 액세스할 수 있습니다. CX Coworker는 AI로 규칙을 작성하는 방법으로 오른쪽 레일을 대체합니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-15290" target="_blank">DOCAC-15290</a> <!-- Documentation link: TBD -->
 
 ### DM {#sep-26-direct-mail}
 
@@ -459,5 +490,7 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 ### 사용성 개선 사항 {#sep-26-usability}
 
 * **콘텐츠 시뮬레이션 경험의 유용성 개선** - 이제 새로운 콘텐츠 시뮬레이션 경험을 통해 손쉽게 비교할 수 있도록 변형의 이름을 지정하고 구성하며, 각 카드에서 직접 변형 세부 정보를 복사하거나 삭제할 수 있으며, 전체 속성 경로 및 카드별 채널 구성을 요청 시 볼 수 있으며, 더 눈에 띄는 업로드 버튼에서 고유한 CSV, JSON 또는 JSONL 프로필을 업로드할 수 있습니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-15570" target="_blank">DOCAC-15570</a>
+
+* **캠페인, 여정 및 오케스트레이션된 캠페인을 위한 통합 일정** - 이제 여정 및 캠페인에 대한 일정 보기가 개별 인벤토리에서 벗어나 통합된 왼쪽 레일에 액세스할 수 있는 메뉴로 전환되며 둘 다 하나의 통합 보기로 표시됩니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-15571" target="_blank">DOCAC-15571</a> <!-- Documentation link: TBD -->
 
 
