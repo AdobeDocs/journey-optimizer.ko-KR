@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: f4e6891fa1821333a87a5477472b473d23df3eb5
+source-git-commit: 0c1cbd19028f83d5690e853159eab761ee677f00
 workflow-type: tm+mt
-source-wordcount: '3342'
-ht-degree: 10%
+source-wordcount: '3543'
+ht-degree: 9%
 ---
 
 # 사전 릴리스 정보 {#e-release-notes}
@@ -32,6 +32,23 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 [Adobe Experience Platform 사전 릴리스 정보](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}도 참조하십시오.
 
 **릴리스 날짜**: 2026년 9월 22~23일
+
+>[!BEGINSHADEBOX]
+
+**이번 달 CX Coworker의 새로운 기능**
+
+이번 릴리스에는 가시성을 위해 여기에 나열된 몇 가지 새롭고 개선된 [CX Coworker](../start/ai-features.md#cx-coworker) 기능 및 기술이 제공됩니다. 각 정보는 아래의 해당 섹션에도 자세히 설명되어 있습니다.
+
+* [메시지 복사 및 전자 메일 디자인 플러그인](#sep-26-content-management) - CX Coworker에서 메시지 및 전자 메일 워크플로를 간소화하는 두 개의 새로운 플러그인(캠페인 브리프에서 프로덕션 준비 복사 및 HTML에 이르기까지)입니다.
+* [충성도 추천 스킬](#sep-26-loyalty) - CX Coworker의 대화 인터페이스에서 직접 도전 기회를 요청하고 채팅을 종료하지 않고도 실시간 도전으로 전환할 수 있습니다.
+* [여정 시뮬레이션(MCP 및 채팅)](#sep-26-journeys) - 엔드 투 엔드 여정 유효성 검사를 자동화하고 CX Coworker에서 결과를 직접 해석합니다.
+* [CX Coworker 레일에서 여정 만들기](#sep-26-journeys) - CX Coworker 오른쪽 레일에서 직접 AI로 여정을 생성하여 이전 AI Assistant 경험을 대체합니다.
+* [여정 버전 비교](#sep-26-journeys) - CX Coworker Chat을 통해 두 버전의 여정 간의 완벽한 구조적 차이를 확인합니다.
+* [위생 분석 스킬](#sep-26-journeys) - 활성 여정 및 초안 분석에서 권장 수정 사항을 사용하여 구성 오류, 자동 오류, 손상되거나 사용되지 않는 에셋에 대해 검사합니다.
+* [비즈니스 성과 분석 스킬](#sep-26-journeys) - 여정 성과를 분석하고 구체적인 최적화 권장 사항을 채팅에서 바로 얻을 수 있습니다.
+* [의사 결정 규칙 생성](#sep-26-decisioning) - CX Coworker에서 직접 AI 지원 의사 결정 규칙을 빌드합니다. 이렇게 하면 이 경험에 적합한 레일이 교체됩니다.
+
+>[!ENDSHADEBOX]
 
 ### 콘텐츠 관리 {#sep-26-content-management}
 
@@ -98,7 +115,7 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 <tbody>
 <tr>
 <td>
-<p>이제 이벤트 매핑 생성 또는 편집에서는 새로운 **시각적 매핑 빌더**&#x200B;를 사용합니다. 스키마를 선택하고, 검색 가능한 필드 선택기에서 필드를 선택하고, 각 필드를 행별 연결 상태가 있는 충성도 이벤트 필드에 매핑하고, 언제든지 수동 JSONata 편집으로 전환하는 옵션과 함께 자동 생성된 JSONata 표현식을 미리 봅니다.</p><p>또한 충성도 관리자의 "이벤트 정의"가 사람이 읽을 수 있는 Experience 이벤트 스키마 이름을 보여 주는 목록 보기가 새로 고쳐진 상태로 "이벤트 매핑"으로 이름이 변경되었습니다.</p>
+<p>이제 이벤트 매핑 생성 또는 편집에서는 새로운 **시각적 매핑 빌더**를 사용합니다. 스키마를 선택하고, 검색 가능한 필드 선택기에서 필드를 선택하고, 각 필드를 행별 연결 상태가 있는 충성도 이벤트 필드에 매핑하고, 언제든지 수동 JSONata 편집으로 전환하는 옵션과 함께 자동 생성된 JSONata 표현식을 미리 봅니다.</p><p>또한 충성도 관리자의 "이벤트 정의"가 사람이 읽을 수 있는 Experience 이벤트 스키마 이름을 보여 주는 목록 보기가 새로 고쳐진 상태로 "이벤트 매핑"으로 이름이 변경되었습니다.</p>
 </td>
 </tr>
 </tbody>
@@ -210,7 +227,8 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 
 * **여정 버전을 CX Coworker과 비교** - 오늘 한 여정의 두 버전 사이에서 변경된 사항을 검토하려면 Journey Optimizer 노드 내에서 노드별로 수동으로 비교해야 합니다. 특히 여정이 더 복잡해짐에 따라 변경 검토, 감사 및 게시 전 확인 작업이 느려지고 오류를 일으킬 수 있는 구조적 차이는 없습니다. 이 기능을 사용하면 고객 또는 AI 에이전트가 CX Coworker Chat을 통해 두 버전의 여정을 비교하고 Journey Optimizer을 열지 않고도 필드 수준 세부 사항, 변경된 연결, 여정 수준 속성 변경 및 롤업 카운트와 함께 **구조화된 차이점**(추가/제거/수정/이동된 노드)을 완전히 다시 가져올 수 있습니다.
 
-* **대기 및 이벤트 활동에 대한 단계 이벤트 감소** - 프로필이 해당 활동에서 실제로 처리되지 않았을 때 **대기** 활동 및 **이벤트** 활동에 대해 단계 이벤트가 더 이상 생성되지 않습니다. <!-- DRAFT: pending DOCAC sub-task under DOCAC-15691, see CJM-165835 --> <!-- Documentation link: TBD -->
+* **대기 및 이벤트 활동에 대한 단계 이벤트 감소** - 프로필이 해당 활동에서 실제로 처리되지 않았을 때 **대기** 활동 및 **이벤트** 활동에 대해 단계 이벤트가 더 이상 생성되지 않습니다. <!-- DRAFT: pending DOCAC sub-task under DOCAC-15691, see CJM-165835 -->
+<!-- Documentation link: TBD -->
 
 * **사용자 지정 보고서에 대한 건식 실행 단계 이벤트 제외** - 단계 이벤트 최적화의 일부로, Journey Optimizer은 이제 여정 건식 실행 중에 보고할 수 없는 특정 단계 이벤트 생성을 중단합니다. 이 작업은 이러한 시험 실행 단계 이벤트 유형에 빌드된 사용자 지정 보고서에만 영향을 줍니다. 영향을 받은 경우 드라이 실행을 다시 트리거하여 데이터를 재생성합니다.
 
