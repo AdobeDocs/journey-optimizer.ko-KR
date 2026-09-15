@@ -10,15 +10,15 @@ level: Intermediate
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
 feature_v2:
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Loyalty challenges
+source-git-commit: 6a722f9d3f9a8d07e5f463b709390a5cb9c7cbb9
 workflow-type: tm+mt
-source-wordcount: 2577
-ht-degree: 12%
-
+source-wordcount: '2634'
+ht-degree: 11%
 ---
-
 
 # 챌린지 만들기 {#create-challenges}
 
@@ -102,14 +102,14 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_schedule"
 >title="챌린지 일정"
->abstract="시작 및 종료 날짜 및 시간과 시간대를 사용하여 챌린지를 활성화 시점을 설정합니다. 작업 완료 창에서 고객이 챌린지 기간 동안 작업을 완료할 수 있는 시점을 선택합니다."
+>abstract="시작 및 종료 날짜/시간과 시간대를 사용하여 도전이 활성 상태일 때를 설정하거나 종료 날짜 없음을 선택하여 도전을 무기한 실행합니다. 작업 완료 창에서 고객이 챌린지 기간 동안 작업을 완료할 수 있는 시점을 선택합니다."
 
 과제 실행 시기 구성:
 
 1. **[!UICONTROL 일정]** 섹션에서 다음을 설정합니다.
 
    * **[!UICONTROL 시작 날짜 및 시간]**: 고객이 도전을 사용할 수 있게 되는 시기
-   * **[!UICONTROL 종료 날짜 및 시간]**: 문제가 만료되어 더 이상 새 완료를 수락하지 않는 경우.
+   * **[!UICONTROL 종료 날짜 및 시간]**: 문제가 만료되어 더 이상 새 완료를 수락하지 않는 경우. 챌린지를 무기한 실행하려면 날짜 대신 **[!UICONTROL 종료 날짜 없음]**&#x200B;을 선택하세요.
    * **[!UICONTROL 시간대]**: 챌린지 일정에 사용되는 시간대입니다.
 
    ![](assets/challenge-create-schedule.png)
@@ -353,6 +353,8 @@ ht-degree: 12%
    >[!IMPORTANT]
    >
    >챌린지에 대한 모든 변경 사항은 로열티 챌린지 편집기에서 수행해야 하며 새 여정을 생성해야 합니다. 문제를 변경하면 기존 문제 여정에서 직접 수행한 모든 작업이 손실됩니다.
+   >
+   >여정이 90일 이상 실행될 수 없으므로 **[!UICONTROL 종료 날짜 없음]**(으)로 구성된 문제에 대해 여정이 생성되지 않습니다. 과제 자체는 여전히 올바르게 실행되며 구성원은 여전히 작업을 옵트인하고 완료할 수 있습니다.
 
 1. 생성된 여정을 열고 게시합니다. 여정이 이름 형식 *&quot;여정: [도전 이름]&quot;*&#x200B;의 **초안** 상태로 표시되며 다음 위치에서 액세스할 수 있습니다.
 
@@ -372,21 +374,21 @@ ht-degree: 12%
 
 **충성도 과제 설정** - 새 충성도 과제를 만들고 구성합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3496476?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496471?quality=12)
 
 **보상 구성** - 보상 전달 및 이행 설정
 
->[!VIDEO](https://video.tv.adobe.com/v/3496486?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496481?quality=12)
 
 ➡️ 챌린지 콘텐츠 카드를 만드는 방법 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3496534?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496529?quality=12)
 
 ➡️ 문제에 대한 라이프사이클 메시지를 설정하는 방법 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3497460?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3497455?quality=12)
 
 ➡️ 문제를 게시하고 여정을 생성하는 방법을 확인하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3498582?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3498577?quality=12)
 
