@@ -11,28 +11,37 @@ exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
 TQID: https://experienceleague.adobe.com/W7M7wDP69oM-fT5nbS2YqVIK9QhBgJhNGy-G0ontmQ4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+    internal-label: Track and monitor
 subfeature_v2:
   - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
+    internal-label: Performance monitoring
   - id: a7289281-9ae4-47b1-b8cf-4028b98af776
+    internal-label: Deliverability
   - id: b5afe8bf-bda6-41b5-ba06-922638872d63
+    internal-label: Metrics catalog
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+    internal-label: Administration
+source-git-commit: 37b04ecd9230df1ae2486243da1b9d6d33f0162a
 workflow-type: tm+mt
-source-wordcount: 3353
+source-wordcount: '3652'
 ht-degree: 1%
-
 ---
-
 # 시스템 경고 액세스 및 구독 {#alerts}
 
 >[!BEGINSHADEBOX]
@@ -49,7 +58,7 @@ Adobe Journey Optimizer은 두 가지 유형의 경고를 제공합니다.
 
 * **캔버스 내 유효성 검사 경고**: 여정 및 캠페인을 빌드할 때 캔버스에서 **경고** 단추를 사용하여 게시 전에 구성 오류를 식별하고 해결하십시오. [여정 문제 해결](../building-journeys/troubleshooting.md)을 통해 캠페인을 검토하는 방법을 알아봅니다. [액션 캠페인](../campaigns/review-activate-campaign.md) | [API 트리거 캠페인](../campaigns/review-activate-api-triggered-campaign.md) | [조정된 캠페인](../orchestrated/start-monitor-campaigns.md).
 
-* **시스템 모니터링 경고**(이 페이지에 자세히 표시됨): 운영 임계값이 초과되거나 실시간 여정 및 채널 구성에서 문제가 감지되고 중요한 캠페인 라이프사이클 이벤트(활성화, 게재, 중지 및 관련 오류)가 발생하는 경우 사전 알림을 받습니다. 시스템 경고는 이러한 캠페인 이벤트 외에도 오류율, 프로필 카드 및 이메일 전달성 문제와 같은 지표를 모니터링합니다.
+* **시스템 모니터링 경고**(이 페이지에 자세히 표시됨): 운영 임계값이 초과되거나 실시간 여정 및 채널 구성에서 문제가 감지되고 중요한 캠페인 라이프사이클 이벤트(활성화, 게재, 중지 및 관련 오류)가 발생하는 경우 사전 알림을 받습니다. 시스템 경고는 이러한 캠페인 이벤트 외에도 오류율, 프로필 카드, 비정상적인 여정 트래픽, 이메일 전달성 문제 등의 지표를 모니터링합니다.
 
 **시스템 경고의 주요 이점:**
 
@@ -64,7 +73,7 @@ Adobe Journey Optimizer은 두 가지 유형의 경고를 제공합니다.
 
 경고 작업 전:
 
-* **권한**: 경고를 보고 관리하려면 특정 권한이 필요합니다. [Adobe Experience Platform에서 필요한 권한](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=ko#permissions){target="_blank"}을 참조하세요.
+* **권한**: 경고를 보고 관리하려면 특정 권한이 필요합니다. [Adobe Experience Platform에서 필요한 권한](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html#permissions){target="_blank"}을 참조하세요.
 
 * **샌드박스 인식**: 경고 구독은 샌드박스별로 다릅니다. 경고에 가입하면 현재 샌드박스에만 적용됩니다. 샌드박스가 재설정되면 모든 경고 구독도 재설정됩니다.
 
@@ -215,6 +224,28 @@ Journey Optimizer은 여정, 캠페인 및 채널 구성의 특정 측면을 모
 * 외부 끝점을 모니터링하여 예상 로드를 처리할 수 있는지 확인합니다.
 
 ➡️ [사용자 지정 작업 한도 구성](../action/about-custom-action-configuration.md#custom-action-enhancements-best-practices)
+
++++
+
++++ 여정 예외 항목 감지됨
+
+이 경고는 라이브 여정의 일일 트래픽이 자체 내역 기준선에서 벗어나거나 예기치 않게 0으로 떨어지는 경우 경고합니다. 각 여정에 대해 독립적으로 모니터링되는 지표는 **[!UICONTROL 여정 항목]**, **[!UICONTROL 여정 종료]** 및 **[!UICONTROL 이벤트 전송]**&#x200B;입니다. 이 검사는 여정 당 30일 전환 확인을 사용하여 매일 한 번 실행됩니다.
+
+**기준선:** 각 지표의 예상 값은 해당 날짜의 Customer Journey Analytics 예측 값과 여정의 실제 값의 7일 연속 중간값을 결합합니다. 예측이 롤링 중간값의 50% 미만으로 떨어지는 경우 꾸준히 실행되는 여정에 대한 과소 예측을 방지하기 위해 롤링 중간값이 대신 사용됩니다.
+
+경고를 트리거할 수 있는 이유는 다음과 같습니다.
+
+* **예외 항목 없음**: 여정에서 이전에 0이 아닌 트래픽을 생성한 날에 지표가 0으로 떨어지면 즉시 실행됩니다. **대상자 읽기** 여정은 해당 날짜의 실행이 아직 완료되지 않았을 수 있으므로 현재 날짜에는 제외됩니다.
+* **편차 임계값**: 여정이 0이 아닌 연속 3~4일의 내역을 표시하고 예상 값이 100 이상인 경우에만 실제 값이 예상 값과 35% 이상 다를 때 발생합니다(적은 수의 잡음에 플래그를 지정하지 않기 위해).
+* 지정된 날짜에 **여정 항목**&#x200B;이(가) 이례적인 경우 **종료** 및 **이벤트 전송**&#x200B;의 관련 예외 항목이 해당 날짜 및 여정에 대해 억제되므로 하나의 근본 원인으로는 여러 경고가 발생하지 않습니다.
+
+이 경고는 **단일 여정**, **대상자 읽기** 또는 **대상자 자격 요건**(반복 **대상자 읽기** 이벤트만 해당) 유형의 라이브 이벤트에만 적용되며, 여정 또는 샌드박스를 경고에 가입해야 합니다.
+
+➡️ [여정 실시간 보고서를 검사하여 **여정 예외 항목 탐지** 경고 문제 해결](../reports/journey-live-report.md)
+
+>[!IMPORTANT]
+>
+>이 경고는 현재 프로덕션 샌드박스에서만 사용할 수 있으며 개발 또는 스테이징 샌드박스에서 사용할 수 없습니다.
 
 +++
 
@@ -405,7 +436,7 @@ Journey Optimizer은 여정, 캠페인 및 채널 구성의 특정 측면을 모
 
 >[!NOTE]
 >
->다른 Adobe Experience Platform 서비스의 경고(데이터 수집, ID 확인, 세그먼테이션 등)에 대해서는 [표준 경고 규칙 문서](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=ko){target="_blank"}를 참조하십시오.
+>다른 Adobe Experience Platform 서비스의 경고(데이터 수집, ID 확인, 세그먼테이션 등)에 대해서는 [표준 경고 규칙 문서](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"}를 참조하십시오.
 
 ## 경고 구독 {#subscribe-alerts}
 
@@ -430,7 +461,7 @@ Journey Optimizer은 여정, 캠페인 및 채널 구성의 특정 측면을 모
 
 **대체 구독 메서드:**
 
-고급 통합의 경우 I/O 이벤트를 통해 구독하여 외부 시스템에 경고를 보낼 수 있습니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=ko){target="_blank"}를 참조하세요.
+고급 통합의 경우 I/O 이벤트를 통해 구독하여 외부 시스템에 경고를 보낼 수 있습니다. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}를 참조하세요.
 
 ### 구독 방법
 
@@ -466,7 +497,7 @@ Journey Optimizer은 여정, 캠페인 및 채널 구성의 특정 측면을 모
 
 **대체 구독 메서드:**
 
-외부 시스템과의 통합을 허용하는 [I/O 이벤트 알림](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=ko){target="_blank"}을 통해 구독할 수도 있습니다. 여정 경고 I/O 구독 이름은 해당되는 경우 **사용 가능한 경고** 아래의 [여정 경고 탭](#available-alerts)에 기록됩니다. 캠페인 라이프사이클 경고는 동일한 Platform 구독 모델을 따릅니다. 프로그래밍 방식의 통합에 대해서는 해당 설명서를 참조하십시오.
+외부 시스템과의 통합을 허용하는 [I/O 이벤트 알림](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}을 통해 구독할 수도 있습니다. 여정 경고 I/O 구독 이름은 해당되는 경우 **사용 가능한 경고** 아래의 [여정 경고 탭](#available-alerts)에 기록됩니다. 캠페인 라이프사이클 경고는 동일한 Platform 구독 모델을 따릅니다. 프로그래밍 방식의 통합에 대해서는 해당 설명서를 참조하십시오.
 
 >[!TAB 여정 특정 구독]
 
@@ -528,7 +559,7 @@ Journey Optimizer은 여정, 캠페인 및 채널 구성의 특정 측면을 모
 >
 >**샌드박스 수준** 구독(**[!UICONTROL 찾아보기]** 탭에서)을 **캠페인별** 구독과 결합할 수 있습니다. 샌드박스의 모든 항목에 대해 샌드박스 수준 범위를 사용하고, 별도로 추적하려는 캠페인에 대해서만 캠페인당 구독을 추가하십시오.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=ko#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## 경고 관리 {#manage-alerts}
 
@@ -590,6 +621,6 @@ Journey Optimizer은 여정, 캠페인 및 채널 구성의 특정 측면을 모
 **경고 프레임워크:**
 
 * [Adobe Experience Platform 경고 개요](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=ko){target="_blank"} - 경고 프레임워크 이해
-* [UI에서 경고 관리](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=ko){target="_blank"} - 경고 보기, 구독 및 관리
-* [I/O 이벤트를 통해 경고 구독](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=ko){target="_blank"} - 고급 통합 옵션
-* [표준 경고 규칙](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=ko){target="_blank"} - 사용 가능한 플랫폼 경고의 전체 목록
+* [UI에서 경고 관리](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html){target="_blank"} - 경고 보기, 구독 및 관리
+* [I/O 이벤트를 통해 경고 구독](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"} - 고급 통합 옵션
+* [표준 경고 규칙](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"} - 사용 가능한 플랫폼 경고의 전체 목록
