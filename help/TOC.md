@@ -5,20 +5,18 @@ user-guide-title: Journey Optimizer 안내서
 user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성 있고 상황에 맞으며 개인화된 경험 구축 및 제공
 type: Documentation
 solution: Journey Optimizer
-nudge: true
-source-git-commit: d61698e186903f0203ac5c9120391ee10d94059f
+nudge: yes
+source-git-commit: 1953ef29b456b437bd49004e1bf3267706b03790
 workflow-type: tm+mt
-source-wordcount: '3511'
-ht-degree: 99%
-
+source-wordcount: '3525'
+ht-degree: 98%
 ---
-
 # Adobe Journey Optimizer 도움말 {#using}
 
 + [Journey Optimizer 설명서](ajo-home.md)
 + 새로운 기능 {#whats-new}
   + [릴리스 주기](using/rn/releases.md)
-  + {hide-from-toc}[사전 릴리스 정보](using/rn/e-release-notes.md)
+  + [사전 릴리스 정보](using/rn/e-release-notes.md)
   + [최신 릴리스 정보](using/rn/release-notes.md)
   + 이전 릴리스 정보 {#previous-rn-new}
     + {hide-from-toc}[이전 릴리스 정보](/help/rp_landing_pages/previous-rn-new-landing-page.md)
@@ -35,15 +33,16 @@ ht-degree: 99%
 + 시작하기 {#get-started}
   + [여기서 시작](/help/rp_landing_pages/get-started-landing-page.md)
   + [온보딩 허브](using/start/onboarding-hub.md)
+  + [AI 작업](using/start/ai-features.md)
   + [콘텐츠 및 여정 마이그레이션](using/start/migrate-content-and-journeys.md)
   + 기본 사항 {#essentials}
     + [Journey Optimizer 소개](using/start/get-started.md)
     + [작동 방식 이해](using/start/understanding-ajo.md)
-    + [AI 및 지능형 기능](using/start/ai-features.md)
-    + [CX Coworker의 Journey Optimizer 스킬](using/start/ajo-coworker-skills.md)
     + [주요 용어](using/start/terminology.md)
     + [목표에서 시작](using/start/ajo-use-case-guide.md)
     + [가드레일 및 제한 사항](using/start/guardrails.md)
+    + [여정과 캠페인 비교](using/start/journeys-vs-campaigns.md)
+    + {hide-from-toc}[여정과 캠페인 비교 - 2](using/start/journeys-vs-campaigns-v2.md)
     + {hide-from-toc}[패키지 및 기능](using/start/ajo-packages.md)
     + {hide-from-toc}[기능 가용성](using/start/ajo-features-availability.md)
   + 역할별 시작 {#by-role}
@@ -55,15 +54,14 @@ ht-degree: 99%
   + 효율적으로 작업 {#work-efficiently}
     + [인터페이스 살펴보기](using/start/user-interface.md)
     + [검색, 필터링 및 정리](using/start/search-filter-categorize.md)
-    + [문제 해결 FAQ](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
     + [접근성](using/start/accessibility.md)
-    + [여정과 캠페인 비교](using/start/journeys-vs-campaigns.md)
-    + {hide-from-toc}[여정과 캠페인 비교 - 2](using/start/journeys-vs-campaigns-v2.md)
+    + [문제 해결 FAQ](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
 + 여정 {#orchestrate-journeys}
   + [여정 시작](using/building-journeys/journey.md)
   + {hide-from-toc}[여정 시작 안내서](using/building-journeys/journey-get-started.md)
   + {hide-from-toc}[여정 유형: 적합한 유형 선택-2](using/building-journeys/journey-types-selection-v2.md)
   + [Journey Orchestration FAQ](using/building-journeys/journey-faq.md)
+  + [여정을 위한 CX Coworker 기술](using/start/journeys-coworker-skills.md)
   + 여정 만들기 {#create-journey}
     + [여정 만들기](/help/rp_landing_pages/create-journey-landing-page.md)
     + [첫 여정 만들기](using/building-journeys/journey-gs.md)
@@ -150,6 +148,8 @@ ht-degree: 99%
     + [사용자 정의 작업을 사용하여 Experience Platform에 여정 이벤트 작성](using/building-journeys/custom-action-aep.md)
 + 충성도 챌린지 {#loyalty-challenges}
   + [충성도 챌린지 시작](using/loyalty-challenges/get-started.md)
+  + [대화형 데모](using/loyalty-challenges/loyalty-challenges-demo.md)
+  + [충성도를 위한 CX Coworker 기술](using/start/loyalty-coworker-skills.md)
   + 챌린지 만들기 및 관리 {#create-manage-challenges}
     + [챌린지와 작업 액세스 및 관리](using/loyalty-challenges/access-loyalty-challenges.md)
     + [챌린지 만들기](using/loyalty-challenges/create-challenges.md)
@@ -269,6 +269,7 @@ ht-degree: 99%
     + [테스트 프로필을 사용한 미리 보기](using/content-management/preview.md)
     + [테스트 프로필 데이터를 사용한 증명 전송](using/content-management/proofs.md)
     + [이메일 렌더링 테스트](using/content-management/rendering.md)
+    + {hide-from-toc}[인바운드 경험 시뮬레이션](using/test-approve/simulate-inbound-experiences.md)
     + [콘텐츠 변형 시뮬레이션(기존 경험)](using/test-approve/simulate-sample-input.md)
     + [콘텐츠 변형 시뮬레이션(새 경험)](using/test-approve/simulate-content-variations.md)
     + [이메일 스팸 보고서](using/content-management/spam-report.md)
@@ -476,6 +477,7 @@ ht-degree: 99%
     + [사용자 정의 채널 모니터링](using/custom-channel/monitor-custom-channel.md)
 + 콘텐츠 관리 {#content-management}
   + [콘텐츠 관리](/help/rp_landing_pages/content-management-landing-page.md)
+  + [CX Coworker 컨텐츠 관리 도구](using/start/content-management-coworker-skills.md)
   + 개인화 {#personalization}
     + [개인화](/help/rp_landing_pages/personalization-landing-page.md)
     + [개인화 시작](using/personalization/personalize.md)
