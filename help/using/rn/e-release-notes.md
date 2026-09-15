@@ -16,9 +16,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: b52a13ced7828d3e484508caf24b1e4716df087e
+source-git-commit: daf832195eebc5dab1af33bfc8d4b0f50dc951f7
 workflow-type: tm+mt
-source-wordcount: '3422'
+source-wordcount: '3472'
 ht-degree: 10%
 ---
 
@@ -380,6 +380,8 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 </table>
 
 * **CX Coworker의 의사 결정 규칙 생성** - 이전에는 오른쪽 레일을 통해 사용할 수 있었던 **AI 지원 의사 결정 규칙 생성** 경험은 이제 CX Coworker를 통해 액세스할 수 있습니다. CX Coworker는 AI로 규칙을 작성하는 방법으로 오른쪽 레일을 대체합니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-15290" target="_blank">DOCAC-15290</a> <!-- Documentation link: TBD -->
+
+* **규칙 및 등급 수식 시뮬레이션에서 Adobe Experience Platform 프로필 지원** - 이제 규칙 또는 등급 수식 시뮬레이션 시 Adobe Experience Platform 프로필을 수동으로 입력하는 대신 테스트 데이터 변형의 특성을 자동으로 채우도록 선택할 수 있습니다. <a href="https://jira.corp.adobe.com/browse/DOCAC-15702" target="_blank">DOCAC-15702</a> <!-- Documentation link: TBD -->
 
 ### DM {#sep-26-direct-mail}
 
