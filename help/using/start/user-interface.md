@@ -47,10 +47,10 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: d6acaa24c707dd31df8db14e1dbcfc2b0122b9b0
+source-git-commit: 7be72329724a84ea8fae855cf9a77244ea9cbd34
 workflow-type: tm+mt
-source-wordcount: '1649'
-ht-degree: 94%
+source-wordcount: '1738'
+ht-degree: 90%
 ---
 # 인터페이스 살펴보기 {#user-interface}
 
@@ -193,7 +193,7 @@ Adobe 지원 센터에 문의하실 때는 다음 정보가 포함되어야 근�
 * **콘텐츠 템플릿** - 캠페인 및 여정에 재사용 가능한 메시지 템플릿입니다. [템플릿 만들기](../content-management/content-templates.md)
 * **조각** - 여러 메시지에서 사용할 수 있는 콘텐츠 블록입니다. [조각을 사용한 작업](../content-management/fragments.md)
 * **랜딩 페이지** - 구독 및 환경 설정에 대한 웹 양식입니다. [랜딩 페이지 디자인](../landing-pages/get-started-lp.md)
-* **사용 사례 플레이북** - 일반적인 마케팅 시나리오를 위해 사전 설치된 워크플로입니다. [플레이북 살펴보기](ai-features.md#playbooks)
+* **사용 사례 플레이북** - 일반적인 마케팅 시나리오를 위해 사전 설치된 워크플로입니다. [플레이북 살펴보기](ajo-use-case-guide.md#playbooks)
 
 **데이터 관리** - 데이터 기반을 관리합니다. [스키마 및 데이터 세트 알아보기](../data/get-started-schemas.md)
 
@@ -205,7 +205,7 @@ Adobe 지원 센터에 문의하실 때는 다음 정보가 포함되어야 근�
 **연결** - 다른 시스템과 통합합니다.
 
 * **소스** - 외부 시스템에서 데이터를 수집합니다. [소스 구성](get-started-sources.md)
-* **대상** - 데이터를 클라우드 스토리지로 내보냅니다. [대상을 설정](../data/export-datasets.md). [Experience Platform 대상 카탈로그](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=ko){target="_blank"}에서 Adobe Target과 같은 적합한 개인화 대상에 대상을 활성화할 수도 있습니다.
+* **대상** - 데이터를 클라우드 스토리지로 내보냅니다. [대상을 설정](../data/export-datasets.md). [Experience Platform 대상 카탈로그](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html){target="_blank"}에서 Adobe Target과 같은 적합한 개인화 대상에 대상을 활성화할 수도 있습니다.
 
 **고객** - 대상자와 프로필을 관리합니다.
 
@@ -411,6 +411,18 @@ AI 어시스턴트는 즉각적인 도움과 운영 인사이트를 제공합니
 >id="ajo_journey_inbound_activity_deactivation"
 >title="인바운드 활동 비활성화 활동"
 >abstract="최대 5개의 인바운드 활동 또는 경험에서 여정을 직접 제거하여 여정 종료에서 인바운드 결격 상태를 분리합니다."
+
+<!--DOCAC-15707 Implement contextual help for Journey Properties event recovery / action timeout fields-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_recovery_timeout"
+>title="이벤트 복구 시간 제한 설정"
+>abstract="서비스 중단의 영향을 받는 이벤트를 여정이 자동으로 재생하는 시간을 제어합니다. 기본적으로 꺼짐(72시간 자동 재생). 시간에 민감한 여정의 경우 재생 기간을 0시간에서 72시간으로 조정하려면 켜십시오."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_timeout"
+>title="사용자 지정 작업/IDS 작업 시간 제한"
+>abstract="사용자 지정 작업 / IDS 작업 시간 제한 옵션은 작업 시간이 초과되거나 오류가 반환될 때 여정에서 대체 경로를 정의하므로 프로필은 이 단계에서 중지되지 않고 대체 경로를 통해 계속됩니다. 권장되는 값은 1~30초입니다."
 
 
 {{$include /help/_includes/do-not-localize/start/ai-augmented-user-interface.md}}
