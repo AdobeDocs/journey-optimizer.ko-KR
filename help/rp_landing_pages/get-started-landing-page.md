@@ -1,19 +1,17 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: 시작
+title: 시작하기
 description: 여기에서 시작하세요. Adobe Journey Optimizer를 시작하는 데 필요한 모든 정보가 있습니다.
 role: User, Admin, Developer
 level: Beginner
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
-source-git-commit: 6c53c3b376b01edf30e6d9fcfa2478a0491b7b7b
-workflow-type: ht
+source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
+workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 100%
-
 ---
-
 # Adobe Journey Optimizer 시작하기{#get-started}
 
 Journey Optimizer를 처음 사용하거나 새로운 기능을 살펴보시려는 경우 이 페이지가 시작점입니다. 역할과 목표에 맞는 경로를 선택하세요.
@@ -24,7 +22,7 @@ Adobe Journey Optimizer의 기본 사항과 이를 통해 데이터 기반 개�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Journey Optimizer 소개
 
@@ -34,7 +32,7 @@ Journey Optimizer 소개
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 작동 방식 이해
 
@@ -44,7 +42,7 @@ Journey Optimizer를 Adobe Experience Platform과 통합하는 방법과 주요 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/list.svg)
 
 주요 용어
 
@@ -54,7 +52,7 @@ Journey Optimizer를 자신 있게 탐색하는 데 도움이 되는 필수 용�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 AI 및 지능형 기능
 
@@ -71,7 +69,7 @@ AI가 어떻게 콘텐츠를 만들고, 전송 시간을 최적화하고, 보다
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/user.svg)
 
 마케터
 
@@ -81,7 +79,7 @@ AI가 어떻게 콘텐츠를 만들고, 전송 시간을 최적화하고, 보다
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 데이터 엔지니어
 
@@ -91,7 +89,7 @@ AI가 어떻게 콘텐츠를 만들고, 전송 시간을 최적화하고, 보다
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 관리자 대상
 
@@ -101,7 +99,7 @@ AI가 어떻게 콘텐츠를 만들고, 전송 시간을 최적화하고, 보다
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 개발자 대상
 
@@ -120,7 +118,7 @@ AI가 어떻게 콘텐츠를 만들고, 전송 시간을 최적화하고, 보다
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 목표에 적합한 기능 찾기
 
@@ -137,7 +135,7 @@ AI가 어떻게 콘텐츠를 만들고, 전송 시간을 최적화하고, 보다
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 여정
 
@@ -145,7 +143,7 @@ AI가 어떻게 콘텐츠를 만들고, 전송 시간을 최적화하고, 보다
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 캠페인
 
@@ -153,7 +151,7 @@ AI가 어떻게 콘텐츠를 만들고, 전송 시간을 최적화하고, 보다
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 콘텐츠 관리
 
@@ -161,7 +159,7 @@ AI가 어떻게 콘텐츠를 만들고, 전송 시간을 최적화하고, 보다
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 보고
 
@@ -176,7 +174,7 @@ AI가 어떻게 콘텐츠를 만들고, 전송 시간을 최적화하고, 보다
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 인터페이스 살펴보기
 
@@ -186,7 +184,7 @@ Journey Optimizer 인터페이스를 사용하고, 주요 기능에 액세스하
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 검색 및 구성
 
@@ -196,7 +194,7 @@ Journey Optimizer 인터페이스를 사용하고, 주요 기능에 액세스하
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=ko)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
 
 문제 해결 FAQ
 
@@ -218,7 +216,7 @@ Journey Optimizer 인터페이스를 사용하고, 주요 기능에 액세스하
 ### 학습 및 지원 받기
 
 * **[튜토리얼 비디오](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=ko){target="_blank"}** - 핵심 기능을 단계별로 설명하는 비디오 튜토리얼입니다.
-* **[사용 사례 플레이북](../using/start/ai-features.md#playbooks)** - 장바구니 이탈 복구 및 고객 환영 캠페인과 같은 일반적인 시나리오를 위한 사전 설치 워크플로를 설명합니다.
+* **[사용 사례 플레이북](../using/start/ajo-use-case-guide.md#playbooks)** - 장바구니 이탈 복구 및 고객 환영 캠페인과 같은 일반적인 시나리오를 위한 사전 설치 워크플로를 설명합니다.
 * **[모니터링 및 문제 해결](troubleshoot-journey-landing-page.md)** - 성능을 추적하고, 문제를 파악하며, 문제를 신속하게 해결하는 도구입니다.
 * **[새로운 기능](../using/rn/release-notes.md)** - 최신 기능, 개선 사항 및 수정 사항에 대한 최신 정보를 받습니다.
 * **[커뮤니티 포럼](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ko){target="_blank"}** - 다른 사용자와 소통하고 질문하며 모범 사례를 공유합니다.

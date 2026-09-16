@@ -5,13 +5,11 @@ title: Adobe Journey Optimizer 설명서
 description: Adobe Journey Optimizer 설명서
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 5be833e0b6a06b8614123dd92118986378909652
+source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 98%
-
 ---
-
 # Adobe Journey Optimizer 설명서{#section-overview}
 
 Adobe Journey Optimizer는 팀이 이메일, SMS 등 여러 채널에 걸쳐 개인화된 매끄러운 고객 경험을 디자인하고 제공할 수 있도록 해줍니다. 캠페인 오케스트레이션, 데이터 관리, 의사 결정을 위한 고급 도구를 결합함으로써 고객 요구에 실시간으로 적응하는 여정을 만들 수 있습니다. 이 설명서는 최신 기능 및 통합 탐색에서부터 대상자 관리, 여정 구성, 성능 분석 방법에 대한 학습에 이르기까지 플랫폼 숙달을 위한 로드맵을 제공합니다. 마케터이든 데이터 분석가나 캠페인 관리자이든, 자신 있게 목표를 달성하는 데 도움이 되는 단계별 안내서, 모범 사례, 리소스를 찾을 수 있습니다.
@@ -38,7 +36,7 @@ Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보세�
 
 **CX Coworker의 Journey Optimizer 스킬**&#x200B;에 대한 새로운 설명서 페이지를 추가했습니다. 여기에는 **여정 중심** 및 **충성도 중심** 스킬이 모두 포함되며, 지침과 샘플 프롬프트가 제공됩니다.
 
-[![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/start/ajo-coworker-skills.md)
+[![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/start/ai-features.md#cx-coworker)
 
 
 >[!TAB 상황별 데이터 반복]
@@ -54,7 +52,7 @@ Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보세�
 
 ::::landing-cards-container
 :::
-![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 최신 릴리스 정보
 
@@ -64,7 +62,7 @@ Adobe Journey Optimizer의 최신 릴리스 정보, 신규 기능, 개선 사항
 :::
 
 :::
-![아이콘](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 시작
 
@@ -74,7 +72,7 @@ Journey Optimizer의 기능, 아키텍처, 사용자 인터페이스 등 기본 
 :::
 
 :::
-![아이콘](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 여정 종합 안내서
 
@@ -84,7 +82,7 @@ Journey Optimizer의 기능, 아키텍처, 사용자 인터페이스 등 기본 
 :::
 
 :::
-![아이콘](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=ko)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 캠페인 이해 및 관리
 
@@ -94,7 +92,7 @@ Journey Optimizer의 기능, 아키텍처, 사용자 인터페이스 등 기본 
 :::
 
 :::
-![아이콘](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ko)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 커뮤니케이션 채널
 
@@ -104,7 +102,7 @@ Journey Optimizer의 기능, 아키텍처, 사용자 인터페이스 등 기본 
 :::
 
 :::
-![아이콘](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=ko)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 충돌 관리 및 우선순위 지정
 
