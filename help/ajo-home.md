@@ -32,7 +32,7 @@ Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보세�
 
 [![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/loyalty-challenges/get-started.md)
 
->CX Enterprise Coworker의 [!TAB Journey Optimizer 기술]
+>[!TAB CX Enterprise Coworker의  Journey Optimizer 기술]
 
 지침 및 샘플 프롬프트와 함께 **여정 중심** 및 **충성도 중심** 기술을 모두 포함하여 **동료의 Journey Optimizer 기술**&#x200B;에 대한 새 설명서 페이지를 추가했습니다.
 
