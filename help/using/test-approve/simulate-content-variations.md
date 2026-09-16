@@ -10,27 +10,35 @@ level: Intermediate
 exl-id: d9f7e0a3-b8c2-4e5f-92a1-3c1d7e8a4f65
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+    internal-label: Content management
   - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+    internal-label: Journey management
 subfeature_v2:
   - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+    internal-label: Preview
   - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
+    internal-label: Proofs
   - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
+    internal-label: Approval workflows
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+    internal-label: Experimentation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: b9a0e02b37d4c312568a418efba8ad0efe8d5a49
 workflow-type: tm+mt
-source-wordcount: 884
-ht-degree: 1%
-
+source-wordcount: '884'
+ht-degree: 5%
 ---
-
 
 # 콘텐츠 변형 시뮬레이션 {#simulate-content-variations}
 
@@ -43,7 +51,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_content_variations"
 >title="샘플 입력을 사용하여 시뮬레이션"
->abstract="이 화면에서 모든 콘텐츠 변형을 나란히 미리 보고 비교할 수 있습니다. 값을 수동으로 입력하거나, CSV 또는 JSON 파일을 업로드하거나, AI를 사용하여 값을 자동 생성하거나, 기존 시뮬레이션된 사용자를 선택하여 변형을 만듭니다."
+>abstract="이 화면에서는 모든 콘텐츠 변형을 나란히 미리 보고 비교할 수 있습니다. 값을 직접 입력하거나, CSV 또는 JSON 파일을 업로드하거나, AI를 사용하여 값을 자동 생성하거나, 기존 시뮬레이션된 사용자를 선택하여 변형을 만듭니다."
 
 **[!UICONTROL 콘텐츠 변형 시뮬레이션]** 경험은 변형을 더 빠르고 쉽게 테스트하고 비교할 수 있도록 새롭게 디자인되었습니다. 이제 모든 변형이 스크롤 가능한 단일 그리드에서 함께 렌더링되며, 필요한 모든 컨트롤은 단일 아래쪽 작업 표시줄에서 사용할 수 있습니다.
 
