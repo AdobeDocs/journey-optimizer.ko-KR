@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ae5a5620262470131757a3f9221c69ad212be43e
+source-git-commit: 545cdc4186a807b6b4cc43f78a952cb564e60908
 workflow-type: tm+mt
-source-wordcount: '2888'
+source-wordcount: '2921'
 ht-degree: 67%
 ---
 # 릴리스 정보 {#release-notes}
@@ -89,6 +89,10 @@ ht-degree: 67%
 
   사용 가능한 날짜: 2026년 9월 1일
 
+* **Healthcare Shield 및 Privacy and Security Shield 고객이 사용할 수 있는 충성도** - 이제 Healthcare Shield 및 Privacy and Security Shield 고객이 Journey Optimizer Loyalty을 사용할 수 있습니다. [자세히 알아보기](../loyalty-challenges/get-started.md)
+
+  사용 가능한 날짜: 2026년 9월 15일
+
 ### 여정 {#sep-26-journeys}
 
 <table>
@@ -119,7 +123,7 @@ ht-degree: 67%
 <tr>
 <td>
 <p>이제 여정 고급 표현식 편집기는 AI 기반의 표현식 생성을 통합합니다. 빌드할 표현식을 자연어로 설명하고, 편집기는 즉시 적용하거나 후속 프롬프트를 통해 구체화할 수 있는 사용 준비 코드를 생성합니다.</p>
-<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
+<p>이전에 제한 공급 상태로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 공급).</p>
 <p>자세한 내용은 <a href="../building-journeys/expression/generate-expression.md">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2026년 9월 1일</p>
 </td>

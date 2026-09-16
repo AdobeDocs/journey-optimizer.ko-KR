@@ -16,9 +16,9 @@ subfeature_v2:
     internal-label: Get started
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
+source-git-commit: 545cdc4186a807b6b4cc43f78a952cb564e60908
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '987'
 ht-degree: 14%
 ---
 # 충성도 챌린지 시작 {#get-started-loyalty-challenges}
@@ -27,10 +27,6 @@ ht-degree: 14%
 >id="ajo_loyalty_inventory"
 >title="충성도 챌린지"
 >abstract="충성도 챌린지를 사용하면 고객 행동을 유도하고 브랜드 관계를 심화하는 매력적이고 게임화된 충성도 프로그램을 만들 수 있습니다. 구매 및 리뷰 작성부터 소셜 미디어 참여 및 친구 추천에 이르기까지 특정 액션에 대해 고객에게 보상해 주는 챌린지를 작성하십시오."
-
->[!AVAILABILITY]
->
->현재 Healthcare Shield 및 Privacy and Security Shield 고객은 Journey Optimizer Loyalty을 사용할 수 없습니다. Healthcare Shield 및 Privacy and Security Shield 고객의 가용성은 향후 기능 준비 시 업데이트됩니다.
 
 ## 개요 {#overview}
 
@@ -164,7 +160,7 @@ ht-degree: 14%
     <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
     </a>
     <div>
-  -->
+-->
     <a href="loyalty-admin.md"><strong>충성도 챌린지 구성</strong></a>
     </div>
     <p>
@@ -187,7 +183,7 @@ ht-degree: 14%
 
 **충성도 문제를 처음 사용하십니까?** 기능 및 이점을 이해하려면 이 개요를 참조하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3496456?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496441?quality=12)
 
 ## 대화형 데모 {#demo}
 
