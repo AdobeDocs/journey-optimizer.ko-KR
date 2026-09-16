@@ -6,10 +6,10 @@ user-guide-description: Journey Optimizer를 사용하여 고객에게 연관성
 type: Documentation
 solution: Journey Optimizer
 nudge: yes
-source-git-commit: 1953ef29b456b437bd49004e1bf3267706b03790
+source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
 workflow-type: tm+mt
-source-wordcount: '3525'
-ht-degree: 98%
+source-wordcount: '3520'
+ht-degree: 99%
 ---
 # Adobe Journey Optimizer 도움말 {#using}
 
@@ -61,7 +61,7 @@ ht-degree: 98%
   + {hide-from-toc}[여정 시작 안내서](using/building-journeys/journey-get-started.md)
   + {hide-from-toc}[여정 유형: 적합한 유형 선택-2](using/building-journeys/journey-types-selection-v2.md)
   + [Journey Orchestration FAQ](using/building-journeys/journey-faq.md)
-  + [여정을 위한 CX Coworker 기술](using/start/journeys-coworker-skills.md)
+  + [여정 동료](using/building-journeys/journeys-coworker-skills.md)
   + 여정 만들기 {#create-journey}
     + [여정 만들기](/help/rp_landing_pages/create-journey-landing-page.md)
     + [첫 여정 만들기](using/building-journeys/journey-gs.md)
@@ -149,7 +149,7 @@ ht-degree: 98%
 + 충성도 챌린지 {#loyalty-challenges}
   + [충성도 챌린지 시작](using/loyalty-challenges/get-started.md)
   + [대화형 데모](using/loyalty-challenges/loyalty-challenges-demo.md)
-  + [충성도를 위한 CX Coworker 기술](using/start/loyalty-coworker-skills.md)
+  + [충성도 동료](using/loyalty-challenges/loyalty-coworker-skills.md)
   + 챌린지 만들기 및 관리 {#create-manage-challenges}
     + [챌린지와 작업 액세스 및 관리](using/loyalty-challenges/access-loyalty-challenges.md)
     + [챌린지 만들기](using/loyalty-challenges/create-challenges.md)
@@ -477,7 +477,7 @@ ht-degree: 98%
     + [사용자 정의 채널 모니터링](using/custom-channel/monitor-custom-channel.md)
 + 콘텐츠 관리 {#content-management}
   + [콘텐츠 관리](/help/rp_landing_pages/content-management-landing-page.md)
-  + [CX Coworker 컨텐츠 관리 도구](using/start/content-management-coworker-skills.md)
+  + [컨텐츠 관리를 위한 동료](using/content-management/content-management-coworker-skills.md)
   + 개인화 {#personalization}
     + [개인화](/help/rp_landing_pages/personalization-landing-page.md)
     + [개인화 시작](using/personalization/personalize.md)
@@ -576,7 +576,7 @@ ht-degree: 98%
     + [AI 프롬프트 모범 사례](using/content-management/ai-assistant-prompting-guide.md)
     + C2PA 메타데이터 {#c2pa}
       + [콘텐츠 생성의 C2PA 메타데이터](using/content-management/generative-c2pa-metadata.md)
-      + [이메일 및 랜딩 페이지 Designer의 C2PA 메타데이터](using/content-management/c2pa-metadata-email-designer.md)
+      + [이메일 및 랜딩 페이지 디자이너의 C2PA 메타데이터](using/content-management/c2pa-metadata-email-designer.md)
     + [AI로 전체 콘텐츠 생성](using/content-management/generative-full-content.md)
     + [AI로 텍스트 생성](using/content-management/generative-text.md)
     + [AI로 이미지 생성](using/content-management/generative-image.md)

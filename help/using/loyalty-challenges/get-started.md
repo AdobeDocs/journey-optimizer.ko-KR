@@ -16,9 +16,9 @@ subfeature_v2:
     internal-label: Get started
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: 1953ef29b456b437bd49004e1bf3267706b03790
+source-git-commit: 545cdc4186a807b6b4cc43f78a952cb564e60908
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '987'
 ht-degree: 14%
 ---
 # 충성도 챌린지 시작 {#get-started-loyalty-challenges}
@@ -27,10 +27,6 @@ ht-degree: 14%
 >id="ajo_loyalty_inventory"
 >title="충성도 챌린지"
 >abstract="충성도 챌린지를 사용하면 고객 행동을 유도하고 브랜드 관계를 심화하는 매력적이고 게임화된 충성도 프로그램을 만들 수 있습니다. 구매 및 리뷰 작성부터 소셜 미디어 참여 및 친구 추천에 이르기까지 특정 액션에 대해 고객에게 보상해 주는 챌린지를 작성하십시오."
-
->[!AVAILABILITY]
->
->현재 Healthcare Shield 및 Privacy and Security Shield 고객은 Journey Optimizer Loyalty을 사용할 수 없습니다. Healthcare Shield 및 Privacy and Security Shield 고객의 가용성은 향후 기능 준비 시 업데이트됩니다.
 
 ## 개요 {#overview}
 
@@ -61,7 +57,7 @@ ht-degree: 14%
 * **고유한 데이터 문제 해결**(제한된 가용성): 충성도 문제 데이터 통합에서 문제 프레임워크(작업 및 보상)를 취합합니다. 다른 모든 과제 유형에 대해 하듯이 설정, 콘텐츠 및 메시징을 구성합니다.
 
 >[!TIP]
->또한 더 빠른 도전 만들기를 위해 자연어 프롬프트와 함께 [충성도에 대한 CX Coworker 기술](../start/loyalty-coworker-skills.md#loyalty-challenge-management)의 **충성도 도전 관리**&#x200B;를 사용하여 충성도 도전 과제를 만들고 관리할 수 있습니다.
+>또한 더 빠른 도전 만들기를 위해 자연어 프롬프트와 함께 [충성도에 대한 동료의 기술](loyalty-coworker-skills.md#loyalty-challenge-management)에서 **충성도 도전 관리**&#x200B;를 사용하여 충성도 도전 과제를 만들고 관리할 수 있습니다.
 
 ➡️ [기능 개요 보기](#video)
 

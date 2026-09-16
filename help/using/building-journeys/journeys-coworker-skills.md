@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 여정을 위한 CX Coworker 기술
-description: 심층적인 안내와 샘플 프롬프트를 통해 Adobe Journey Optimizer에서 여정을 구축하고, 콘텐츠를 생성하고, 분석하는 데 사용할 수 있는 CX Coworker 기술을 살펴보십시오.
+title: 여정 동료
+description: 심층적인 안내와 샘플 프롬프트를 통해 Adobe Journey Optimizer에서 여정을 구축하고, 콘텐츠를 생성하고, 분석하는 데 사용할 수 있는 CX Enterprise Coworker 기술을 살펴보십시오.
 feature: Overview
 topic: Artificial Intelligence
 role: User
@@ -15,22 +15,22 @@ feature_v2:
 subfeature_v2:
   - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
     internal-label: Journey design
-source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
+source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
 workflow-type: tm+mt
-source-wordcount: '2525'
+source-wordcount: '2511'
 ht-degree: 8%
 ---
 
-# 여정을 위한 CX Coworker 기술 {#journeys-coworker-skills}
+# 여정 동료 {#journeys-coworker-skills}
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** 각 스킬에 대한 자세한 지침, 예제 프롬프트 및 모범 사례를 통해 Adobe Journey Optimizer의 여정(자연어에서 여정 만들기, 채널 컨텐츠 생성 및 여정 성능 분석)가 사용할 수 있는 CX Coworker 스킬을 살펴보십시오.
+**이 페이지에서:** 각 스킬에 대한 자세한 지침, 예제 프롬프트 및 모범 사례를 통해 Adobe Journey Optimizer의 여정(자연어에서 여정 만들기, 채널 컨텐츠 생성 및 여정 성능 분석)가 사용할 수 있는 CX Enterprise Coworker 스킬을 살펴보십시오.
 
 자세히 알아보기:
 
-* [Journey Optimizer용 CX Coworker 기술](ai-features.md#cx-coworker-skills) - Journey Optimizer의 여정, 충성도 및 컨텐츠 관리에 대한 CX Coworker 기술 개요.
-* [CX Coworker 설명서](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview){target="_blank"} - 동료의 캠페인, 채팅 및 프로젝트 기능에 대한 개요입니다.
+* [Journey Optimizer의 동료 기술](../start/ai-features.md#cx-coworker-skills) - Journey Optimizer의 여정, 충성도 및 컨텐츠 관리에 대한 동료 기술 개요.
+* [Coworker 설명서](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview){target="_blank"} - Coworker의 캠페인, 채팅 및 프로젝트 기능에 대한 개요입니다.
 * [동료 채팅 UI 안내서](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"} - 동료 채팅에 액세스하고 탐색하는 방법.
 
 >[!ENDSHADEBOX]
@@ -43,13 +43,13 @@ ht-degree: 8%
 >
 >여정 만들기 기능을 완전히 사용하려면 다음 권한이 필요합니다.
 >
->**여정 관리**: 이 권한을 사용하면 CX Coworker에서 직접 새 여정을 만들 수 있습니다.
+>**여정 관리**: 이 권한을 사용하면 Coworker에서 직접 새 여정을 만들 수 있습니다.
 >
->**여정 이벤트, 데이터 소스 및 작업 보기**: 이 권한을 사용하면 CX 동료가 여정 이벤트 및 사용자 지정 작업을 검색할 수 있습니다.
+>**여정 이벤트, 데이터 소스 및 작업 보기**: 이 권한은 Coworker가 여정 이벤트 및 사용자 지정 작업을 검색할 수 있도록 합니다.
 >
->**세그먼트 보기**: 이 권한은 CX Coworker가 여정을 만들 때 대상 세그먼트를 검색할 수 있도록 합니다.
+>**여정 보기**: 이 권한을 사용하면 Coworker가 세그먼트를 만들 때 대상 세그먼트를 검색할 수 있습니다.
 >
->**세그먼트 관리**: 이 권한을 사용하면 CX Coworker에서 직접 새 대상을 만들 수 있습니다.
+>**세그먼트 관리**: 이 권한을 사용하면 Coworker에서 직접 새 대상을 만들 수 있습니다.
 
 ### 주요 사용 사례
 
@@ -98,7 +98,7 @@ ht-degree: 8%
 
 1. **이미지에서 여정 만들기**
 
-   * 참조 이미지를 동료에 업로드하고 이미지를 참조로 사용하여 여정을 생성하도록 요청합니다
+   * 참조 이미지를 Coworker에 업로드하고 해당 이미지를 참조로 사용하여 여정 생성을 요청합니다
    * 여정 작성 스킬은 참조 이미지에서 편집 가능한 프롬프트를 추출합니다.
 
 이 기술을 사용하면 자연어 요구 사항이 구조화된 여정 구성으로 변환됩니다.
@@ -218,15 +218,15 @@ ht-degree: 8%
 
 >[!AVAILABILITY]
 >
->여정 기술은 CX Coworker를 액세스할 수 있는 모든 고객이 사용할 수 있습니다. 하지만 여정 스킬 기능을 완전히 사용하려면 다음 권한이 필요합니다.
+>여정 스킬은 Coworker에 액세스할 수 있는 모든 고객이 사용할 수 있습니다. 하지만 여정 스킬 기능을 완전히 사용하려면 다음 권한이 필요합니다.
 >
->**여정 보기**: 이 권한을 사용하면 CX Coworker에서 직접 여정에 대한 인사이트를 볼 수 있습니다.
+>**여정 보기**: 이 권한을 사용하면 Coworker에서 직접 여정에 대한 인사이트를 볼 수 있습니다.
 >
->**여정 관리**: 이 권한을 사용하면 CX Coworker에서 직접 새 여정을 만들 수 있습니다.
+>**여정 관리**: 이 권한을 사용하면 Coworker에서 직접 새 여정을 만들 수 있습니다.
 >
->**세그먼트 보기**: 이 권한을 사용하면 CX Coworker에서 직접 대상자에 대한 통찰력을 볼 수 있습니다.
+>**세그먼트 보기**: 이 권한을 사용하면 Coworker에서 직접 대상자에 대한 통찰력을 볼 수 있습니다.
 >
->**세그먼트 관리**: 이 권한을 사용하면 CX Coworker에서 직접 새 대상을 만들 수 있습니다.
+>**세그먼트 관리**: 이 권한을 사용하면 Coworker에서 직접 새 대상을 만들 수 있습니다.
 
 ### 주요 사용 사례
 

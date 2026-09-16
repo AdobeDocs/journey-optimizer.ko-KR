@@ -15,7 +15,7 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 1953ef29b456b437bd49004e1bf3267706b03790
+source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
 workflow-type: tm+mt
 source-wordcount: '11356'
 ht-degree: 89%
@@ -37,9 +37,9 @@ ht-degree: 89%
 
 * 사용자 지정 작업 게재를 확인하기 위한 새 지침이 추가되었습니다. 이제 **데이터 세트 쿼리 예** 페이지에서 작업 유형에 따라 메시지 피드백 이벤트, 전자 메일 추적 및 여정 단계 이벤트 데이터 세트 중에서 선택하는 방법과 &quot;데이터 세트에 대해 프로비저닝되지 않은 테이블&quot; 오류를 해결하는 방법에 대해 설명합니다. **여정 단계 이벤트 개요** 및 **라이브 여정 실행 문제 해결** 페이지가 이에 따라 업데이트되어 성공적인 사용자 지정 작업 호출은 외부 시스템이 메시지를 전달한 것이 아니라 Journey Optimizer이 작업을 실행했다는 확인만 한다는 것을 명확히 합니다. [자세히 보기](../data/datasets-query-examples.md#choose-the-correct-dataset)
 
-* CX Coworker에 대한 정보를 **AI로 작업** 페이지에 추가하여 CX Coworker의 정의, AI Assistant와의 관계 및 공식 Coworker 설명서에 대한 참조를 제공합니다. 각 기능 가이드에도 전용 스킬 페이지가 추가되었습니다. [여정을 위한 CX Coworker 스킬](../start/journeys-coworker-skills.md), [충성도를 위한 CX Coworker 스킬](../start/loyalty-coworker-skills.md) 및 [CX Coworker 콘텐츠 관리 도구](../start/content-management-coworker-skills.md). [자세히 보기](../start/ai-features.md#cx-coworker)
+* CX Coworker에 대한 정보를 **AI로 작업** 페이지에 추가하여 CX Coworker의 정의, AI Assistant와의 관계 및 공식 Coworker 설명서에 대한 참조를 제공합니다. 각 기능 가이드에도 전용 스킬 페이지가 추가되었습니다. [여정을 위한 CX Coworker 스킬](../building-journeys/journeys-coworker-skills.md), [충성도를 위한 CX Coworker 스킬](../loyalty-challenges/loyalty-coworker-skills.md) 및 [CX Coworker 콘텐츠 관리 도구](../content-management/content-management-coworker-skills.md). [자세히 보기](../start/ai-features.md#cx-coworker)
 
-* 새로운 **여정 예외 항목 분석** 스킬이 CX Coworker 페이지의 **여정 분석**&#x200B;에 설명되어 있습니다. 기록 기준선에 대한 여정의 시작, 종료 또는 보내기 카운트에서 예상치 못한 급증, 하락 또는 플랫라인을 감지하고 읽기 전용 진단을 실행하여 가능한 근본 원인을 표시합니다. [자세히 보기](../start/journeys-coworker-skills.md#journey-analyze)
+* 새로운 **여정 예외 항목 분석** 스킬이 CX Coworker 페이지의 **여정 분석**&#x200B;에 설명되어 있습니다. 기록 기준선에 대한 여정의 시작, 종료 또는 보내기 카운트에서 예상치 못한 급증, 하락 또는 플랫라인을 감지하고 읽기 전용 진단을 실행하여 가능한 근본 원인을 표시합니다. [자세히 보기](../building-journeys/journeys-coworker-skills.md#journey-analyze)
 
 * **보호 기능 및 제한 사항** 페이지가 100KB가 넘는 시각적 조각 또는 200KB가 넘는 식 조각으로 인해 이메일 게재에서 더 이상 잘림 문제가 발생할 수 없다는 사실을 반영하도록 수정되었습니다. 이제 700KB 조각 크기 단일 보호기능이 적용됩니다. [자세히 보기](../start/guardrails.md#fragments-guardrails)
 
@@ -47,7 +47,7 @@ ht-degree: 89%
 
 * **AJO 메시지 피드백 이벤트 데이터 세트** 설명서가 확장되어 이메일 및 푸시가 아닌 모든 채널(이메일, SMS/RCS/MMS, 다이렉트 메일) 전반의 메시지 게재 피드백을 포함한다는 것을 명확히 설명했습니다. 이제 **테스트 및 비테스트 실행 분류** 섹션이 `NULL` 또는 누락된 값을 포함하여 `isTestExecution` 필드를 해석하는 방법을 설명합니다. [자세히 보기](../data/datasets-query-examples.md#classify-test-executions)
 
-* 자연어 프롬프트를 사용하여 콘텐츠 템플릿, 조각, 랜딩 페이지 및 여정/캠페인 인라인 메시지 콘텐츠를 검색, 만들기, 업데이트, 복제 및 게시할 수 있는 15개의 읽기/쓰기 MCP 도구를 기반으로 하는 CX Coworker에 대해 새로운 **콘텐츠 관리** 기능이 문서화되었습니다. [자세히 보기](../start/content-management-coworker-skills.md#content-management)
+* 자연어 프롬프트를 사용하여 콘텐츠 템플릿, 조각, 랜딩 페이지 및 여정/캠페인 인라인 메시지 콘텐츠를 검색, 생성, 업데이트, 복제 및 게시할 수 있는 15개의 읽기/쓰기 MCP 도구를 사용하는 CX Coworker에 대해 새로운 **콘텐츠 관리** 기능이 문서화되었습니다. [자세히 보기](../content-management/content-management-coworker-skills.md#content-management)
 
 * 이제 **랜딩 페이지에 콘텐츠 추가** 설명서에서 동의 확인란에 대한 **양식 필드 필수** 옵션을 설명합니다. 활성화하면 확인란을 선택하지 않으면 양식을 제출할 수 없으며 확인란이 클라이언트측과 서버측에서 모두 적용됩니다. [자세히 보기](../landing-pages/lp-content.md#use-form-component)
 

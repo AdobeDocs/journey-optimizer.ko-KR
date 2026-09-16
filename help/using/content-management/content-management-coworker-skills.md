@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: CX Coworker 컨텐츠 관리 도구
-description: 자세한 지침과 샘플 프롬프트를 통해 Journey Optimizer 콘텐츠 에셋을 검색, 생성 및 관리하는 데 사용할 수 있는 CX Coworker 콘텐츠 관리 도구를 살펴보십시오.
+title: 컨텐츠 관리를 위한 동료
+description: 자세한 지침과 샘플 프롬프트를 통해 Journey Optimizer 콘텐츠 에셋을 검색, 생성 및 관리하는 데 사용할 수 있는 CX Enterprise Coworker 콘텐츠 관리 도구를 살펴보십시오.
 feature: Overview
 topic: Artificial Intelligence
 role: User
@@ -15,22 +15,22 @@ feature_v2:
 subfeature_v2:
   - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
     internal-label: Templates
-source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
+source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '759'
 ht-degree: 2%
 ---
 
-# CX Coworker 컨텐츠 관리 도구 {#content-management-coworker-skills}
+# 컨텐츠 관리를 위한 동료 {#content-management-coworker-skills}
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** 자세한 지침, 예제 프롬프트 및 모범 사례를 사용하여 콘텐츠 템플릿, 조각, 랜딩 페이지 및 여정/캠페인 인라인 콘텐츠를 탐색, 만들기, 업데이트, 복제 및 게시할 수 있는 Adobe Journey Optimizer에서 사용할 수 있는 CX Coworker 콘텐츠 관리 도구를 살펴보십시오.
+**이 페이지에서:** 자세한 지침, 예제 프롬프트 및 모범 사례를 사용하여 콘텐츠 템플릿, 조각, 랜딩 페이지 및 여정/캠페인 인라인 콘텐츠를 탐색, 만들기, 업데이트, 복제 및 게시할 수 있는 Adobe Journey Optimizer에서 사용할 수 있는 CX Enterprise Coworker 콘텐츠 관리 도구를 살펴보십시오.
 
 자세히 알아보기:
 
-* [Journey Optimizer용 CX Coworker 기술](ai-features.md#cx-coworker-skills) - Journey Optimizer의 여정, 충성도 및 컨텐츠 관리에 대한 CX Coworker 기술 개요.
-* [CX Coworker 설명서](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview){target="_blank"} - 동료의 캠페인, 채팅 및 프로젝트 기능에 대한 개요입니다.
+* [Journey Optimizer의 동료 기술](../start/ai-features.md#cx-coworker-skills) - Journey Optimizer의 여정, 충성도 및 컨텐츠 관리에 대한 동료 기술 개요.
+* [Coworker 설명서](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview){target="_blank"} - Coworker의 캠페인, 채팅 및 프로젝트 기능에 대한 개요입니다.
 * [동료 채팅 UI 안내서](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"} - 동료 채팅에 액세스하고 탐색하는 방법.
 
 >[!ENDSHADEBOX]
@@ -39,9 +39,9 @@ ht-degree: 2%
 
 >[!AVAILABILITY]
 >
->컨텐츠 관리는 CX Coworker를 액세스할 수 있는 모든 고객이 사용할 수 있습니다.
+>콘텐츠 관리는 Coworker에 액세스할 수 있는 모든 고객이 사용할 수 있습니다.
 
-Journey Optimizer 사용자는 자연어 프롬프트를 사용하여 CX Coworker에서 직접 콘텐츠 템플릿, 조각, 랜딩 페이지 및 여정/캠페인 인라인 메시지 콘텐츠와 같은 콘텐츠 에셋을 검색하고 관리할 수 있습니다. 이 옵션을 사용하면 대화에서 나가지 않고 &quot;내 콘텐츠 설명&quot;에서 &quot;작성, 업데이트 및 게시&quot;로 이동할 수 있습니다. 이 기능은 Journey Optimizer 콘텐츠용 읽기 및 쓰기 가능 MCP 도구 15개를 통해 제공됩니다.
+Journey Optimizer 사용자는 자연어 프롬프트를 사용하여 Coworker에서 직접 콘텐츠 템플릿, 조각, 랜딩 페이지 및 여정/캠페인 인라인 메시지 콘텐츠와 같은 콘텐츠 에셋을 검색하고 관리할 수 있습니다. 이 옵션을 사용하면 대화에서 나가지 않고 &quot;내 콘텐츠 설명&quot;에서 &quot;작성, 업데이트 및 게시&quot;로 이동할 수 있습니다. 이 기능은 Journey Optimizer 콘텐츠용 읽기 및 쓰기 가능 MCP 도구 15개를 통해 제공됩니다.
 
 ### 주요 사용 사례
 

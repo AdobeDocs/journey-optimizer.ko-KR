@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 충성도를 위한 CX Coworker 기술
-description: 자세한 지침과 샘플 프롬프트를 통해 Adobe Journey Optimizer에서 충성도 문제를 만들고, 관리하고, 분석하는 데 사용할 수 있는 CX Coworker 기술을 살펴보십시오.
+title: 충성도 동료
+description: 자세한 지침과 샘플 프롬프트를 통해 Adobe Journey Optimizer에서 충성도 문제를 만들고, 관리하고, 분석하는 데 사용할 수 있는 CX Enterprise Coworker 기술을 살펴보십시오.
 feature: Overview
 topic: Artificial Intelligence
 role: User
@@ -15,35 +15,35 @@ feature_v2:
 subfeature_v2:
   - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
     internal-label: Templates
-source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
+source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1029'
 ht-degree: 2%
 ---
 
-# 충성도를 위한 CX Coworker 기술 {#loyalty-coworker-skills}
+# 충성도 동료 {#loyalty-coworker-skills}
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** 각 스킬에 대한 자세한 지침, 예제 프롬프트 및 모범 사례를 통해 Adobe Journey Optimizer의 충성도 문제(과제 생성 및 관리, 충성도 프로그램 성능 쿼리)에 사용할 수 있는 CX Coworker 스킬을 살펴보십시오.
+**이 페이지에서:** 각 스킬에 대한 자세한 지침, 예제 프롬프트 및 모범 사례를 통해 Adobe Journey Optimizer의 충성도 문제(과제 생성 및 관리, 충성도 프로그램 성능 쿼리)에 사용할 수 있는 CX Enterprise Coworker 스킬을 살펴보십시오.
 
 자세히 알아보기:
 
-* [Journey Optimizer용 CX Coworker 기술](ai-features.md#cx-coworker-skills) - Journey Optimizer의 여정, 충성도 및 컨텐츠 관리에 대한 CX Coworker 기술 개요.
-* [CX Coworker 설명서](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview){target="_blank"} - 동료의 캠페인, 채팅 및 프로젝트 기능에 대한 개요입니다.
+* [Journey Optimizer의 동료 기술](../start/ai-features.md#cx-coworker-skills) - Journey Optimizer의 여정, 충성도 및 컨텐츠 관리에 대한 동료 기술 개요.
+* [Coworker 설명서](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview){target="_blank"} - Coworker의 캠페인, 채팅 및 프로젝트 기능에 대한 개요입니다.
 * [동료 채팅 UI 안내서](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"} - 동료 채팅에 액세스하고 탐색하는 방법.
 
 >[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
->충성도 기술은 CX Coworker 를 통해 지원 대상이 되는 조직에서 사용할 수 있습니다. 고객 충성도 라이센스를 보유한 고객은 추가 CX Coworker 라이센스가 없는 경우에도 이러한 충성도 기술에 액세스할 수 있습니다.
+>충성도 기술은 적격 조직의 동료에서 사용할 수 있습니다. 고객 충성도 라이선스가 있는 고객은 추가 동료가 없는 경우에도 이러한 충성도 기술에 액세스할 수 있습니다.
 
 충성도 기술은 충성도 관리자 및 분석가가 자연어를 사용하여 충성도 프로그램을 만들고, 관리하고, 분석할 수 있도록 합니다. 이러한 AI 기반 기술을 통해 매력적인 충성도 문제를 신속하게 설계하고, 성능 지표를 추적하고, 데이터 중심의 의사 결정을 내려 구성원 참여와 프로그램 수익성을 최적화할 수 있습니다. 새로운 문제를 구축하든 충성도 프로그램 트렌드를 분석하든 관계없이 충성도 기술은 전체 충성도 관리 워크플로우를 간소화합니다.
 
 ## 충성도 과제 관리 {#loyalty-challenge-management}
 
-Loyalty Challenge Management를 사용하면 Journey Optimizer 사용자가 자연어 프롬프트를 사용하여 CX Coworker에서 충성도 문제를 만들고 관리할 수 있습니다. 자세한 설정 지침을 포함하여 충성도 문제를 만들고, 구성하고, 관리하는 방법에 대한 포괄적인 설명서는 [충성도 문제 안내서](../loyalty-challenges/get-started.md)를 참조하십시오.
+충성도 문제 관리를 통해 Journey Optimizer 사용자는 자연어 프롬프트를 사용하여 동료에서 충성도 문제를 만들고 관리할 수 있습니다. 자세한 설정 지침을 포함하여 충성도 문제를 만들고, 구성하고, 관리하는 방법에 대한 포괄적인 설명서는 [충성도 문제 안내서](get-started.md)를 참조하십시오.
 
 ### 주요 사용 사례
 

@@ -5,10 +5,10 @@ title: Adobe Journey Optimizer 설명서
 description: Adobe Journey Optimizer 설명서
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
+source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
 workflow-type: tm+mt
 source-wordcount: '617'
-ht-degree: 98%
+ht-degree: 93%
 ---
 # Adobe Journey Optimizer 설명서{#section-overview}
 
@@ -32,9 +32,9 @@ Journey Optimizer 제품 및 설명서의 최신 개선 사항을 살펴보세�
 
 [![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/loyalty-challenges/get-started.md)
 
->[!TAB CX Coworker의 Journey Optimizer 스킬]
+>[!TAB CX Enterprise Coworker의  Journey Optimizer 기술]
 
-**CX Coworker의 Journey Optimizer 스킬**&#x200B;에 대한 새로운 설명서 페이지를 추가했습니다. 여기에는 **여정 중심** 및 **충성도 중심** 스킬이 모두 포함되며, 지침과 샘플 프롬프트가 제공됩니다.
+지침 및 샘플 프롬프트와 함께 **여정 중심** 및 **충성도 중심** 기술을 모두 포함하여 **동료의 Journey Optimizer 기술**&#x200B;에 대한 새 설명서 페이지를 추가했습니다.
 
 [![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](using/start/ai-features.md#cx-coworker)
 

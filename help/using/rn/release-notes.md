@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 8ab5420bfd86de2bbf69c551b1a9f865663a15f0
+source-git-commit: 545cdc4186a807b6b4cc43f78a952cb564e60908
 workflow-type: tm+mt
-source-wordcount: '2877'
-ht-degree: 68%
+source-wordcount: '2921'
+ht-degree: 67%
 ---
 # 릴리스 정보 {#release-notes}
 
@@ -68,7 +68,7 @@ ht-degree: 68%
 <tr>
 <td>
 <p>이제 CX Coworker에는 새로운 <strong>콘텐츠 관리 MCP 도구</strong> 세트가 있으므로 자연어 프롬프트를 통해 Journey Optimizer 콘텐츠 에셋을 검색하고 관리할 수 있습니다. 콘텐츠 템플릿, 조각, 랜딩 페이지 및 여정/캠페인 인라인 메시지 콘텐츠를 나열하거나 검색하도록 요청합니다. 또한 컨텐츠를 생성하고, 템플릿을 업데이트하고, 조각을 생성, 업데이트, 복제 및 게시할 수 있으며, 여정 및 캠페인에서 바로 인라인 채널 작업 컨텐츠를 업데이트할 수 있습니다.</p>
-<p>자세한 내용은 <a href="../start/content-management-coworker-skills.md#content-management">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../content-management/content-management-coworker-skills.md#content-management">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2026년 9월 3일</p>
 </td>
 </tr>
@@ -88,6 +88,10 @@ ht-degree: 68%
 * **&quot;충성도 도전 과제&quot;** - 충성도 도전은 이제 무기한 실행될 수 있습니다. 일정을 구성할 때 **챌린지 종료**&#x200B;를 **종료 날짜 없음**(으)로 설정하세요. 챌린지가 만료되지 않습니다. [자세히 알아보기](../loyalty-challenges/create-challenges.md#schedule)
 
   사용 가능한 날짜: 2026년 9월 1일
+
+* **Healthcare Shield 및 Privacy and Security Shield 고객이 사용할 수 있는 충성도** - 이제 Healthcare Shield 및 Privacy and Security Shield 고객이 Journey Optimizer Loyalty을 사용할 수 있습니다. [자세히 알아보기](../loyalty-challenges/get-started.md)
+
+  사용 가능한 날짜: 2026년 9월 15일
 
 ### 여정 {#sep-26-journeys}
 
@@ -119,7 +123,7 @@ ht-degree: 68%
 <tr>
 <td>
 <p>이제 여정 고급 표현식 편집기는 AI 기반의 표현식 생성을 통합합니다. 빌드할 표현식을 자연어로 설명하고, 편집기는 즉시 적용하거나 후속 프롬프트를 통해 구체화할 수 있는 사용 준비 코드를 생성합니다.</p>
-<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
+<p>이전에 제한 공급 상태로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 공급).</p>
 <p>자세한 내용은 <a href="../building-journeys/expression/generate-expression.md">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2026년 9월 1일</p>
 </td>
@@ -127,19 +131,19 @@ ht-degree: 68%
 </tbody>
 </table>
 
+* **여정 시뮬레이션에서 의사 결정** - **최적화** 활동의 일부로 경로 실험이 이제 시뮬레이션에서 지원됩니다. 라우팅은 의사 결정(Decisioning)에 의해 처리되며 시뮬레이션된 사용자마다 임의적이고 비결정적입니다.
+
+  [자세히 알아보기](../building-journeys/simulate-journey-gs.md)
+
+  사용 가능한 날짜: 2026년 9월 15일
+
 * **새 여정 예외 항목 탐지 경고** - 이제 새 시스템 경고는 실시간 여정의 일일 트래픽이 여정 시작, 여정 종료 및 이벤트 전송 동안 자체 기록 기준선에서 벗어나거나 예기치 않게 0으로 떨어지는 경우 경고합니다. 이 경고는 현재 프로덕션 샌드박스에서만 사용할 수 있습니다.
 
   [자세히 알아보기](../reports/alerts.md)
 
   사용 가능한 날짜: 2026년 9월 15일
 
-* **여정 시뮬레이션에서 의사 결정** - **최적화** 활동의 일부로 경로 실험이 이제 시뮬레이션에서 지원됩니다.
-
-  [자세히 알아보기](../building-journeys/simulate-journey-gs.md)
-
-  사용 가능한 날짜: 2026년 9월 15일
-
-* **여정 시뮬레이션의 의사 결정** - 이제 다음을 새로 지원하여 Adobe Journey Optimizer 의사 결정에 의존하는 여정을 시뮬레이션할 수 있습니다.
+* **여정 시뮬레이션의 의사 결정** - 이제 의사 결정에 의존하는 여정을 시뮬레이션할 수 있습니다. 새로 지원되는 옵션은 다음과 같습니다.
 
   * 이제 콘텐츠 결정 노드가 시뮬레이션에서 지원됩니다.
   * 이제 시뮬레이션에서 최적화 활동의 타깃팅 규칙 방법이 지원됩니다.
@@ -154,7 +158,7 @@ ht-degree: 68%
 
   사용 가능한 날짜: 2026년 9월 1일
 
-* **여정 예외 항목 분석 스킬** - 이제 CX Coworker가 **여정 예외 항목 분석** 스킬을 사용하여 기록 기준선에 대한 여정 시작, 종료 또는 메시지 전송 카운트에서 예상치 못한 급감, 하락 또는 평면화를 감지할 수 있습니다. 실제 예외 항목이 확인되면 이 스킬은 읽기 전용 진단을 실행하여 잠재적인 근본 원인과 권장 사항을 표시합니다. [자세히 알아보기](../start/journeys-coworker-skills.md#journey-analyze)
+* **여정 예외 항목 분석 스킬** - 이제 CX Coworker가 **여정 예외 항목 분석** 스킬을 사용하여 기록 기준선에 대한 여정 시작, 종료 또는 메시지 전송 카운트에서 예상치 못한 급감, 하락 또는 평면화를 감지할 수 있습니다. 실제 예외 항목이 확인되면 이 스킬은 읽기 전용 진단을 실행하여 잠재적인 근본 원인과 권장 사항을 표시합니다. [자세히 알아보기](../building-journeys/journeys-coworker-skills.md#journey-analyze)
 
   사용 가능한 날짜: 2026년 9월 2일
 
@@ -349,7 +353,7 @@ ht-degree: 68%
 <tr>
 <td>
 <p>Journey Optimizer에서는 Adobe Experience Platform의 충성도 필드 그룹에 수집된 과제 성능 및 기타 충성도 프로그램 데이터에 대한 질문을 위한 새로운 CX 동료 기술인 <strong>충성도 인사이트</strong>를 소개합니다.</p>
-<p>자세한 내용은 <a href="../start/loyalty-coworker-skills.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../loyalty-challenges/loyalty-coworker-skills.md">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2026년 8월 31일</p>
 </td>
 </tr>
