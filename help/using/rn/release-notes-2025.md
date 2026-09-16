@@ -10,15 +10,15 @@ level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
 feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+    internal-label: Journey Optimizer release notes
+source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
 workflow-type: tm+mt
-source-wordcount: 9308
+source-wordcount: '9308'
 ht-degree: 100%
-
 ---
-
 # 2025년 릴리스 정보 {#release-notes-2025}
 
 이 페이지에서는 2025년에 릴리스된 [!DNL Journey Optimizer]의 모든 기능과 개선 사항 목록을 확인할 수 있습니다.
@@ -1850,7 +1850,7 @@ table>
 
 **사용 사례 플레이북**
 
-* **플레이북 작성 및 공유(Private Beta)** - 이제 나만의 사용 사례 플레이북을 만들고 관리하고 공유할 수 있습니다. 이 기능은 현재 Private Beta로 일부 조직에서만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오. [자세히 보기](../start/ai-features.md#playbooks)
+* **플레이북 작성 및 공유(Private Beta)** - 이제 나만의 사용 사례 플레이북을 만들고 관리하고 공유할 수 있습니다. 이 기능은 현재 Private Beta로 일부 조직에서만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오. [자세히 보기](../start/ajo-use-case-guide.md#playbooks)
 
 **탐색**
 

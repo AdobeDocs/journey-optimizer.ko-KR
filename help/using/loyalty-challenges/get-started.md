@@ -10,16 +10,17 @@ level: Intermediate
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2:
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+    internal-label: Get started
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Loyalty challenges
+source-git-commit: 1953ef29b456b437bd49004e1bf3267706b03790
 workflow-type: tm+mt
-source-wordcount: 1005
+source-wordcount: '1021'
 ht-degree: 14%
-
 ---
-
 # 충성도 챌린지 시작 {#get-started-loyalty-challenges}
 
 >[!CONTEXTUALHELP]
@@ -60,7 +61,7 @@ ht-degree: 14%
 * **고유한 데이터 문제 해결**(제한된 가용성): 충성도 문제 데이터 통합에서 문제 프레임워크(작업 및 보상)를 취합합니다. 다른 모든 과제 유형에 대해 하듯이 설정, 콘텐츠 및 메시징을 구성합니다.
 
 >[!TIP]
->또한 자연어 프롬프트와 함께 [CX 동료 여정 기술](../start/ajo-coworker-skills.md#loyalty-challenge-management)의 **충성도 챌린지 관리**&#x200B;를 사용하여 충성도 챌린지를 만들고 관리할 수 있습니다.
+>또한 더 빠른 도전 만들기를 위해 자연어 프롬프트와 함께 [충성도에 대한 CX Coworker 기술](../start/loyalty-coworker-skills.md#loyalty-challenge-management)의 **충성도 도전 관리**&#x200B;를 사용하여 충성도 도전 과제를 만들고 관리할 수 있습니다.
 
 ➡️ [기능 개요 보기](#video)
 
@@ -187,4 +188,8 @@ ht-degree: 14%
 **충성도 문제를 처음 사용하십니까?** 기능 및 이점을 이해하려면 이 개요를 참조하십시오.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3496456?captions=kor&quality=12)
+
+## 대화형 데모 {#demo}
+
+충성도 문제를 먼저 살펴보시겠습니까? [대화형 데모](loyalty-challenges-demo.md)를 확인하십시오.
 

@@ -10,15 +10,15 @@ level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
 feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+    internal-label: Journey Optimizer release notes
+source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
 workflow-type: tm+mt
-source-wordcount: 6911
+source-wordcount: '6911'
 ht-degree: 100%
-
 ---
-
 # 2024년 릴리스 정보 {#release-notes-2024}
 
 이 페이지에서는 2024년에 릴리스된 [!DNL Journey Optimizer]의 기능과 개선 사항 목록을 확인할 수 있습니다.
@@ -1328,7 +1328,7 @@ table>
 <tr>
 <td>
 <p>Real-Time CDP 및 Journey Optimizer의 산업별 사용 사례 플레이북 카탈로그를 활용하여 Adobe Experience Platform 및 Adobe Journey Optimizer를 사용하여 수행할 수 있는 일반적인 사용 사례를 해결합니다.</p><p>요구 사항에 가장 적합한 플레이북을 선택하면 여정, 메시지, 스키마 또는 세그먼트와 같은 사용 사례를 지원하는 데 필요한 자산을 생성하고, 가치 창출 시간을 단축하기 위해 스키마에 맞게 사용자 지정할 수 있습니다.</p>
-<p>자세한 내용은 <a href="../start/ai-features.md#playbooks">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../start/ajo-use-case-guide.md#playbooks">세부 설명서</a>를 참조하십시오.</p>
 <br/><img src="assets/do-not-localize/playbooks.gif"/>
 </tr>
 </tbody>

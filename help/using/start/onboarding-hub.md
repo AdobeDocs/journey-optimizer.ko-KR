@@ -11,16 +11,17 @@ hide: true
 keywords: 여정 최적화 도구, 온보딩, 온보딩 허브, 사용 사례, 비디오, 자습서, 시작하기, 램프 업, 첫 여정
 feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+    internal-label: Get started
+source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
 workflow-type: tm+mt
-source-wordcount: 1149
+source-wordcount: '1149'
 ht-degree: 11%
-
 ---
-
 # Journey Optimizer 온보딩 허브 {#onboarding-hub}
 
 
@@ -165,5 +166,5 @@ rebuild
 * [목표에 적합한 Journey Optimizer 기능 찾기](ajo-use-case-guide.md) — 모든 기능에 대한 목표 우선 결정 가이드.
 * [여정 사용 사례 라이브러리](../building-journeys/jo-use-cases.md) - 실제 예제 및 구현 패턴입니다.
 * [주요 용어](terminology.md) — 각 기능의 개념을 명확히 설명하십시오.
-* [AI 및 지능형 기능](ai-features.md) - AI Assistant, 전송 시간 최적화 및 콘텐츠 생성 탐색
+* [AI로 작업](ai-features.md) - AI Assistant, 전송 시간 최적화 및 콘텐츠 생성을 살펴봅니다.
 * [데이터 관리 시작](../data/gs-data.md) - 데이터를 수집, 통합 및 활성화하는 방법.

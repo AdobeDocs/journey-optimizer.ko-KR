@@ -10,16 +10,17 @@ level: Beginner
 keywords: 여정 최적화 도구, 사용 사례, 의사 결정 안내서, 기능, 시작, 실무자 목표, 자습서
 feature_v2:
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+    internal-label: Get started
+source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
 workflow-type: tm+mt
-source-wordcount: 3221
-ht-degree: 29%
-
+source-wordcount: '3373'
+ht-degree: 28%
 ---
-
 # 목표에서 시작 {#ajo-use-case-guide}
 
 >[!BEGINSHADEBOX]
@@ -38,7 +39,7 @@ ht-degree: 29%
 
 특정 시나리오에 종단간 튜토리얼을 사용할 수 없는 경우 이 링크를 클릭하면 현재 가장 적합한 시작점으로 이동하여 기능을 배우고 시작할 수 있습니다.
 
-AI는 이러한 많은 기능에 내장되어 있습니다. 아래 표에서 **(AI)** 태그를 찾으십시오. 대화형 [AI Assistant](ai-features.md#ai-assistant)는 언제든지 제품 질문에 답변하고 여정에 대한 운영 통찰력을 제공할 수 있습니다. 전체 지능형 기능 집합을 보려면 [AI 및 지능형 기능](ai-features.md)을 참조하세요.
+AI는 이러한 많은 기능에 내장되어 있습니다. 아래 표에서 **(AI)** 태그를 찾으십시오. 대화형 [AI Assistant](ai-features.md#ai-assistant)는 언제든지 제품 질문에 답변하고 여정에 대한 운영 통찰력을 제공할 수 있습니다. 전체 지능형 기능 집합을 보려면 [AI로 작업](ai-features.md)을 참조하세요.
 
 >[!TIP]
 >
@@ -246,6 +247,43 @@ AI는 이러한 많은 기능에 내장되어 있습니다. 아래 표에서 **(
 1. 오퍼의 등급을 자동으로 지정하고 최적화하기 위해 [지능형 기능](ai-features.md)에 레이어를 적용하세요.
 
 ➡️ [Offer Decisioning 시작](../offers/get-started/starting-offer-decisioning.md)
+
+## 사용 사례 플레이북 {#playbooks}
+
+사용 사례 플레이북은 일반적인 마케팅 시나리오를 빠르게 구현하는 데 도움이 되는 사전 빌드된 워크플로우입니다. 각 플레이북에는 즉시 사용할 수 있는 여정, 메시지, 스키마 및 세그먼트가 포함되어 있습니다.
+
+![사용 사례 플레이북 인터페이스](assets/playbooks-filter.png)
+
++++**플레이북의 작동 방식**
+
+1. 플레이북 라이브러리를 **탐색**&#x200B;하여 목표와 일치하는 사용 사례를 찾습니다
+2. 필요한 모든 리소스를 자동으로 생성하려면 플레이북을 **사용**&#x200B;하세요.
+3. 브랜드 및 요구 사항에 맞게 생성된 자산을 **사용자 지정**
+4. 개발 샌드박스의 프로덕션 또는 테스트에 **배포**
+
++++
+
++++**사용 가능한 플레이북**
+
+다음과 같은 일반적인 시나리오가 필요하면 Journey Optimizer 플레이북을 찾아보십시오.
+
+* 포기한 장바구니 복구
+* 새로운 고객을 위한 시작 시리즈
+* 구매 후 참여
+* 생일 메시지
+* 재참여 캠페인
+
++++
+
++++**전제 조건**
+
+* 적절한 권한이 있는 샌드박스
+* 이메일, 푸시 및/또는 SMS에 대한 채널 구성
+* 여정 및 메시지를 만들 수 있는 사용자 권한
+
++++
+
+[사용 가능한 플레이북 모두 보기](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=ko){target="_blank"} | [Experience Platform 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=ko){target="_blank"}
 
 ## 예제 시나리오 {#example-scenarios}
 

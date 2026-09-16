@@ -10,27 +10,35 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+    internal-label: Journey Optimizer release notes
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 7047a27a870c50f7a093ec7d98d8398948b78edb
+    internal-label: Personalization
+source-git-commit: 8ab5420bfd86de2bbf69c551b1a9f865663a15f0
 workflow-type: tm+mt
-source-wordcount: 2640
-ht-degree: 73%
-
+source-wordcount: '2877'
+ht-degree: 68%
 ---
-
 # 릴리스 정보 {#release-notes}
 
 >[!CONTEXTUALHELP]
@@ -60,7 +68,7 @@ ht-degree: 73%
 <tr>
 <td>
 <p>이제 CX Coworker에는 새로운 <strong>콘텐츠 관리 MCP 도구</strong> 세트가 있으므로 자연어 프롬프트를 통해 Journey Optimizer 콘텐츠 에셋을 검색하고 관리할 수 있습니다. 콘텐츠 템플릿, 조각, 랜딩 페이지 및 여정/캠페인 인라인 메시지 콘텐츠를 나열하거나 검색하도록 요청합니다. 또한 컨텐츠를 생성하고, 템플릿을 업데이트하고, 조각을 생성, 업데이트, 복제 및 게시할 수 있으며, 여정 및 캠페인에서 바로 인라인 채널 작업 컨텐츠를 업데이트할 수 있습니다.</p>
-<p>자세한 내용은 <a href="../start/ajo-coworker-skills.md#content-management">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../start/content-management-coworker-skills.md#content-management">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2026년 9월 3일</p>
 </td>
 </tr>
@@ -70,6 +78,16 @@ ht-degree: 73%
 * **랜딩 페이지에 대한 필수 동의 확인란** - 이제 랜딩 페이지 양식 구성 요소에서 확인란을 필수 항목으로 설정하여 방문자가 양식을 제출하기 전에 이를 선택(예: 동의)하도록 할 수 있습니다. [자세히 알아보기](../landing-pages/lp-content.md#use-form-component)
 
   사용 가능한 날짜: 2026년 9월 4일
+
+* **개인화 구문의 예약된 추가 키워드** - Profile Query Language(PQL)의 예약된 키워드 목록이 일반 키워드, 시간 단위 및 부울/논리 연산자로 확장되었습니다. XDM 스키마에 이러한 키워드 중 하나와 일치하는 필드 이름이 포함된 경우 백틱으로 래핑하여 개인화 표현식에서 참조합니다. [자세히 알아보기](../personalization/personalization-syntax.md#reserved-keywords)
+
+  사용 가능한 날짜: 2026년 9월 1일
+
+### 충성도 {#sep-26-loyalty}
+
+* **&quot;충성도 도전 과제&quot;** - 충성도 도전은 이제 무기한 실행될 수 있습니다. 일정을 구성할 때 **챌린지 종료**&#x200B;를 **종료 날짜 없음**(으)로 설정하세요. 챌린지가 만료되지 않습니다. [자세히 알아보기](../loyalty-challenges/create-challenges.md#schedule)
+
+  사용 가능한 날짜: 2026년 9월 1일
 
 ### 여정 {#sep-26-journeys}
 
@@ -101,13 +119,25 @@ ht-degree: 73%
 <tr>
 <td>
 <p>이제 여정 고급 표현식 편집기는 AI 기반의 표현식 생성을 통합합니다. 빌드할 표현식을 자연어로 설명하고, 편집기는 즉시 적용하거나 후속 프롬프트를 통해 구체화할 수 있는 사용 준비 코드를 생성합니다.</p>
-<p>이전에 제한 공급 상태로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 공급).</p>
+<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
 <p>자세한 내용은 <a href="../building-journeys/expression/generate-expression.md">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2026년 9월 1일</p>
 </td>
 </tr>
 </tbody>
 </table>
+
+* **새 여정 예외 항목 탐지 경고** - 이제 새 시스템 경고는 실시간 여정의 일일 트래픽이 여정 시작, 여정 종료 및 이벤트 전송 동안 자체 기록 기준선에서 벗어나거나 예기치 않게 0으로 떨어지는 경우 경고합니다. 이 경고는 현재 프로덕션 샌드박스에서만 사용할 수 있습니다.
+
+  [자세히 알아보기](../reports/alerts.md)
+
+  사용 가능한 날짜: 2026년 9월 15일
+
+* **여정 시뮬레이션에서 의사 결정** - **최적화** 활동의 일부로 경로 실험이 이제 시뮬레이션에서 지원됩니다.
+
+  [자세히 알아보기](../building-journeys/simulate-journey-gs.md)
+
+  사용 가능한 날짜: 2026년 9월 15일
 
 * **여정 시뮬레이션의 의사 결정** - 이제 다음을 새로 지원하여 Adobe Journey Optimizer 의사 결정에 의존하는 여정을 시뮬레이션할 수 있습니다.
 
@@ -124,7 +154,7 @@ ht-degree: 73%
 
   사용 가능한 날짜: 2026년 9월 1일
 
-* **여정 예외 항목 분석 스킬** - 이제 CX Coworker가 **여정 예외 항목 분석** 스킬을 사용하여 기록 기준선에 대한 여정 시작, 종료 또는 메시지 전송 카운트에서 예상치 못한 급감, 하락 또는 평면화를 감지할 수 있습니다. 실제 예외 항목이 확인되면 이 스킬은 읽기 전용 진단을 실행하여 잠재적인 근본 원인과 권장 사항을 표시합니다. [자세히 알아보기](../start/ajo-coworker-skills.md#journey-analyze)
+* **여정 예외 항목 분석 스킬** - 이제 CX Coworker가 **여정 예외 항목 분석** 스킬을 사용하여 기록 기준선에 대한 여정 시작, 종료 또는 메시지 전송 카운트에서 예상치 못한 급감, 하락 또는 평면화를 감지할 수 있습니다. 실제 예외 항목이 확인되면 이 스킬은 읽기 전용 진단을 실행하여 잠재적인 근본 원인과 권장 사항을 표시합니다. [자세히 알아보기](../start/journeys-coworker-skills.md#journey-analyze)
 
   사용 가능한 날짜: 2026년 9월 2일
 
@@ -155,6 +185,12 @@ ht-degree: 73%
 * **작업 캠페인의 기본 실행 필드 재정의** - 이전에는 여정 수준에서 사용할 수 있었지만, 이제 작업 캠페인 매개 변수에서 이메일, SMS 및 WhatsApp 게재에 대해 전역적으로 구성된 기본 실행 필드를 재정의할 수 있습니다.
 
 +++
+
+### 사용성 개선 사항 {#sep-26-usability}
+
+* **새 여정 캔버스에서 분기를 쉽게 분리하고 결합할 수 있습니다** - 이제 분기를 삭제하지 않고 나머지 여정에서 분리하여 캔버스에서 직접 적합한 활동을 선택하거나 연결이 끊겼거나 이미 사용한 분기 목록에서 선택하여 나중에 다른 지점에서 다시 연결할 수 있습니다. [자세히 알아보기](../building-journeys/using-the-journey-designer.md#join-and-detach-branches)
+
+  사용 가능한 날짜: 2026년 9월 1일
 
 ## 2026년 8월 릴리스 정보 {#aug-26-updates}
 
@@ -313,7 +349,7 @@ ht-degree: 73%
 <tr>
 <td>
 <p>Journey Optimizer에서는 Adobe Experience Platform의 충성도 필드 그룹에 수집된 과제 성능 및 기타 충성도 프로그램 데이터에 대한 질문을 위한 새로운 CX 동료 기술인 <strong>충성도 인사이트</strong>를 소개합니다.</p>
-<p>자세한 내용은 <a href="../start/ajo-coworker-skills.md#loyalty-skills">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../start/loyalty-coworker-skills.md">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2026년 8월 31일</p>
 </td>
 </tr>
