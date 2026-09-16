@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: a8bd5a793b5eb23b0769cd8fcaffde0186346859
+source-git-commit: 3182b6fd2f6c97145c1356d2de009a6ffc50db7f
 workflow-type: tm+mt
-source-wordcount: '3549'
+source-wordcount: '3545'
 ht-degree: 8%
 ---
 
@@ -41,7 +41,7 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 
 * [메시지 복사 및 전자 메일 디자인 플러그인](#sep-26-content-management) - Campaign Brief에서 프로덕션 준비 복사 및 HTML에 이르기까지 Coworker의 메시징 및 전자 메일 워크플로를 간소화하는 두 개의 새로운 플러그인입니다.
 * [충성도 추천 스킬](#sep-26-loyalty) - 동료의 대화 인터페이스에서 직접 도전 기회를 요청하고 채팅을 종료하지 않고도 실시간 도전으로 전환할 수 있습니다.
-* [여정 시뮬레이션(MCP 및 채팅)](#sep-26-journeys) - 엔드 투 엔드 여정 유효성 검사를 자동화하고 결과를 동료에서 직접 해석합니다.
+* [여정 시뮬레이션](#sep-26-journeys) - 전체 여정 유효성 검사를 자동화하고 결과를 Coworker에서 직접 해석합니다.
 * [동료 레일에서 여정 만들기](#sep-26-journeys) - 이전 AI Assistant 경험을 대체하여 동료 오른쪽 레일에서 직접 AI로 여정을 생성합니다.
 * [여정 버전 비교](#sep-26-journeys) - Coworker Chat를 통해 두 버전의 여정을 완벽하게 비교할 수 있습니다.
 * [위생 분석 스킬](#sep-26-journeys) - 활성 여정 및 초안 분석에서 권장 수정 사항을 사용하여 구성 오류, 자동 오류, 손상되거나 사용되지 않는 에셋에 대해 검사합니다.
@@ -115,7 +115,7 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 <tbody>
 <tr>
 <td>
-<p>이제 이벤트 매핑 생성 또는 편집에서는 새로운 **시각적 매핑 빌더**&#x200B;를 사용합니다. 스키마를 선택하고, 검색 가능한 필드 선택기에서 필드를 선택하고, 각 필드를 행별 연결 상태가 있는 충성도 이벤트 필드에 매핑하고, 언제든지 수동 JSONata 편집으로 전환하는 옵션과 함께 자동 생성된 JSONata 표현식을 미리 봅니다.</p><p>또한 충성도 관리자의 "이벤트 정의"가 사람이 읽을 수 있는 Experience 이벤트 스키마 이름을 보여 주는 목록 보기가 새로 고쳐진 상태로 "이벤트 매핑"으로 이름이 변경되었습니다.</p>
+<p>이제 이벤트 매핑 생성 또는 편집에서는 새로운 **시각적 매핑 빌더**를 사용합니다. 스키마를 선택하고, 검색 가능한 필드 선택기에서 필드를 선택하고, 각 필드를 행별 연결 상태가 있는 충성도 이벤트 필드에 매핑하고, 언제든지 수동 JSONata 편집으로 전환하는 옵션과 함께 자동 생성된 JSONata 표현식을 미리 봅니다.</p><p>또한 충성도 관리자의 "이벤트 정의"가 사람이 읽을 수 있는 Experience 이벤트 스키마 이름을 보여 주는 목록 보기가 새로 고쳐진 상태로 "이벤트 매핑"으로 이름이 변경되었습니다.</p>
 </td>
 </tr>
 </tbody>
@@ -158,7 +158,7 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 <table>
 <thead>
 <tr>
-<th><strong>동료의 여정 시뮬레이션(MCP &amp; Chat)</strong><br/></th>
+<th><strong>동료의 여정 시뮬레이션</strong><br/></th>
 </tr>
 </thead>
 <tbody>
