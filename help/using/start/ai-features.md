@@ -46,52 +46,52 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
+source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
 workflow-type: tm+mt
-source-wordcount: '2422'
+source-wordcount: '2410'
 ht-degree: 3%
 ---
 # AI 작업 {#ai-features}
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** CX Coworker, AI Assistant 및 전문 에이전트부터 생성 콘텐츠 생성, Journey Optimizer 기능 전반에 걸친 AI 기반 통합 및 최적화 기능에 이르기까지 Adobe Journey Optimizer 전반의 AI 및 머신 러닝 기능을 살펴보십시오.
+**이 페이지에서:** CX Enterprise Coworker, AI Assistant 및 전문 에이전트부터 생성 콘텐츠 생성, Journey Optimizer 기능 전반에 걸친 AI 기반 통합 및 최적화 기능에 이르기까지 Adobe Journey Optimizer 전반의 AI 및 머신 러닝 기능을 살펴보십시오.
 
 >[!ENDSHADEBOX]
 
-Adobe Journey Optimizer은 인공 지능과 머신 러닝의 기능을 활용하여 탁월한 고객 경험을 만들고, 최적화하고, 제공할 수 있도록 지원합니다. CX Coworker 및 AI Assistant의 대화형 에이전트에서 최적의 전송 시간을 예측하고 개인화된 콘텐츠를 생성하는 것에 이르기까지 AI 기능은 워크플로우를 간소화하고 효과를 극대화합니다.
+Adobe Journey Optimizer은 인공 지능과 머신 러닝의 기능을 활용하여 탁월한 고객 경험을 만들고, 최적화하고, 제공할 수 있도록 지원합니다. Coworker 및 AI Assistant의 대화형 에이전트에서 최적의 전송 시간을 예측하고 개인화된 콘텐츠를 생성하는 것에 이르기까지 AI 기능은 워크플로우를 간소화하고 효과를 극대화합니다.
 
 ## 빠른 탐색 {#quick-navigation}
 
 이러한 그룹화된 링크를 사용하여 필요한 기능으로 이동합니다.
 
-* **대화형 AI 및 동료:** [Journey Optimizer의 CX Coworker 기술](#cx-coworker), [MCP 서버](#mcp-server), [AI 도우미 및 에이전트](#ai-assistant)
+* **대화형 AI 및 CX Enterprise Coworker:** [Journey Optimizer의 동료 기술](#cx-coworker), [MCP 서버](#mcp-server), [AI 도우미 및 에이전트](#ai-assistant)
 * **콘텐츠 만들기:** [AI 기반 콘텐츠 생성](#content-generation)
 * **AI 관련 기능:** [Journey Optimizer의 AI 기능](#ajo-ai-features): 공식 최적화, 콘텐츠 실험, 전송 시간 최적화, HTML에 이미지, GenStudio for Performance Marketing, 브랜드 정렬, 의사 결정을 위한 AI 모델)
 * **도움말:** [FAQ](#faq)
 
-## CX Coworker {#cx-coworker}
+## Coworker {#cx-coworker}
 
-### CX Coworker 정보 {#about-cx-coworker}
+### 동료 기본 정보 {#about-cx-coworker}
 
-CX Coworker은 비즈니스 애플리케이션과 통합되어 Adobe 애플리케이션 전반에서 고객 경험 및 마케팅 워크플로우를 자동화하고 보다 효율적으로 작업할 수 있는 Adobe의 대화형 경험입니다. 수동 구성 단계를 한 번에 하나씩 실행하는 대신 비즈니스 목표를 자연어로 설명하고 동료가 작업을 계획, 실행 및 검증합니다.
+CX Enterprise Coworker은 비즈니스 애플리케이션과 통합되어 Adobe 애플리케이션 전반에서 고객 경험 및 마케팅 워크플로우를 자동화하고 보다 효율적으로 작업할 수 있는 Adobe의 대화형 경험입니다. 수동 구성 단계를 한 번에 하나씩 실행하는 대신 비즈니스 목표를 자연어로 설명하고 동료가 작업을 계획, 실행 및 검증합니다.
 
-CX Coworker은 AI Assistant의 진화로, AI Assistant 에이전트가 이미 수행한 모든 작업(제품 지식, 운영 및 데이터 통찰력)을 유지하면서 질문에 답변하는 것 외에도 작업을 끝까지 완료하는 데 필요한 엔터프라이즈 활용, 기술, 거버넌스 및 메모리를 추가합니다. 조직은 순차적으로 AI Assistant에서 CX Coworker으로 전환되고 있으며 일부 조직은 CX Coworker에 대해 활성화될 때까지 AI Assistant에 대한 액세스 권한을 유지할 수 있습니다. [CX Coworker 전환에 대해 자세히 알아보세요](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/agents/trial){target="_blank"}.
+Coworker는 AI Assistant의 진화로, AI Assistant의 에이전트가 이미 수행한 모든 작업(제품 지식, 운영 및 데이터 통찰력)을 유지하면서 질문에 대한 답변만 하는 것이 아니라 작업을 끝까지 완료하는 데 필요한 엔터프라이즈 활용, 기술, 거버넌스 및 메모리를 추가합니다. 조직은 순차적으로 AI Assistant에서 Coworker로 전환되고 있으며 일부 조직은 Coworker가 활성화될 때까지 AI Assistant에 대한 액세스 권한을 유지할 수 있습니다. [동료로의 전환에 대해 자세히 알아보세요](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/trial){target="_blank"}.
 
-CX Enterprise Coworker 설명서에서 자세히 알아보십시오.
+Coworker 설명서에서 자세히 알아보십시오.
 
 * [동료에 대하여](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview){target="_blank"} — 동료의 캠페인, 채팅 및 프로젝트 기능에 대한 개요입니다.
-* [스킬이란?](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/customizations/skills/what-are-skills){target="_blank"} — 데모 비디오를 비롯한 동료 기술 개요
-* [동료 채팅 UI 안내서](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"} - 동료 채팅에 액세스하고 탐색하는 방법.
-* [동료 채팅 사용 사례](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/overview){target="_blank"} — Adobe 솔루션에서 사용 가능한 모든 사용 사례입니다.
+* [스킬이란?](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/customizations/skills/what-are-skills){target="_blank"} — 데모 비디오를 비롯한 동료 기술 개요
+* [동료 채팅 UI 안내서](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"} - 동료 채팅에 액세스하고 탐색하는 방법.
+* [동료 채팅 사용 사례](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/overview){target="_blank"} — Adobe 솔루션에서 사용 가능한 모든 사용 사례입니다.
 
-### Journey Optimizer을 위한 CX Coworker 기술 {#cx-coworker-skills}
+### Journey Optimizer을 위한 동료 기술 {#cx-coworker-skills}
 
-Adobe Journey Optimizer에서 CX Coworker은 이러한 기능에 대해 전용 기술을 제공합니다.
+Adobe Journey Optimizer에서 Coworker는 다음과 같은 기능에 대한 전담 기술을 제공합니다.
 
-* **여정**: 자연어 프롬프트로 여정을 만들고(여정 만들기), 채널별 메시지 복사와 디자인을 만들고(채널 콘텐츠 만들기), 여정 드롭오프, 예약 겹침 및 실행 예외(여정 분석)를 진단합니다. [여정을 위한 모든 CX Coworker 기술 보기](journeys-coworker-skills.md).
-* **충성도**: 충성도 문제(충성도 문제 관리)를 만들고 구성하고 충성도 포인트, 계층 배포 및 매출 지표(충성도 통찰력)를 쿼리합니다. [충성도에 대한 모든 CX Coworker 기술 보기](loyalty-coworker-skills.md).
-* **콘텐츠 관리**: 15개의 읽기/쓰기 MCP 도구를 사용하여 템플릿, 조각, 랜딩 페이지 및 인라인 메시지 변형을 검색, 만들기, 업데이트, 복제 및 게시합니다. [모든 CX Coworker 콘텐츠 관리 도구 보기](content-management-coworker-skills.md).
+* **여정**: 자연어 프롬프트로 여정을 만들고(여정 만들기), 채널별 메시지 복사와 디자인을 만들고(채널 콘텐츠 만들기), 여정 드롭오프, 예약 겹침 및 실행 예외(여정 분석)를 진단합니다. [여정의 모든 동료 기술 보기](../building-journeys/journeys-coworker-skills.md).
+* **충성도**: 충성도 문제(충성도 문제 관리)를 만들고 구성하고 충성도 포인트, 계층 배포 및 매출 지표(충성도 통찰력)를 쿼리합니다. [충성도에 대한 모든 동료 기술 보기](../loyalty-challenges/loyalty-coworker-skills.md).
+* **콘텐츠 관리**: 15개의 읽기/쓰기 MCP 도구를 사용하여 템플릿, 조각, 랜딩 페이지 및 인라인 메시지 변형을 검색, 만들기, 업데이트, 복제 및 게시합니다. [모든 동료 콘텐츠 관리 도구 보기](../content-management/content-management-coworker-skills.md).
 
 ## MCP 서버 {#mcp-server}
 
@@ -101,7 +101,7 @@ MCP(Model Context Protocol)를 사용하여 Adobe Journey Optimizer을 클라우
 
 ## AI Assistant 및 AI 에이전트 {#ai-assistant}
 
-AI Assistant는 여정 최적화 및 실험을 위해 생성 AI와 전문 에이전트가 제공하는 Adobe Journey Optimizer에 대한 제품 내 대화 안내서입니다. AI Assistant를 [CX Coworker](#cx-coworker)에서 성공시키고 있습니다. 두 기능이 어떻게 관련되는지를 보려면 위를 참조하십시오.
+AI Assistant는 여정 최적화 및 실험을 위해 생성 AI와 전문 에이전트가 제공하는 Adobe Journey Optimizer에 대한 제품 내 대화 안내서입니다. [Coworker](#cx-coworker)에서 AI Assistant를 성공시키고 있습니다. 두 기능이 어떻게 관련되어 있는지 위의 내용을 참조하십시오.
 
 ### AI 어시스턴트 액세스
 
@@ -163,7 +163,7 @@ Journey Agent에는 AI Assistant의 두 가지 기술인 분석 및 생성이 �
 
 #### 여정 분석 스킬 {#journey-analyze-skill}
 
-[여정 분석 에이전트](https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-use-cases-agentic-skills-and-user-guide){target="_blank"}를 사용하면 자연어 분석을 통해 여정 성능을 최적화할 수 있습니다.
+[여정 분석 에이전트](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-use-cases-agentic-skills-and-user-guide){target="_blank"}를 사용하면 자연어 분석을 통해 여정 성능을 최적화할 수 있습니다.
 
 +++**주요 기능**
 
@@ -186,7 +186,7 @@ Journey Agent에는 AI Assistant의 두 가지 기술인 분석 및 생성이 �
 
 #### 여정 만들기 스킬 {#journey-create-skill}
 
-[여정 에이전트 만들기](https://experienceleague.adobe.com/ko/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-use-cases-agentic-skills-and-user-guide){target="_blank"}를 사용하면 자연어 프롬프트에서 여정을 만들고 목표를 구조화된 여정 구성으로 변환할 수 있습니다.
+[여정 에이전트 만들기](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-use-cases-agentic-skills-and-user-guide){target="_blank"}를 사용하면 자연어 프롬프트에서 여정을 만들고 목표를 구조화된 여정 구성으로 변환할 수 있습니다.
 
 +++**주요 기능**
 

@@ -16,9 +16,9 @@ subfeature_v2:
     internal-label: Get started
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: 1953ef29b456b437bd49004e1bf3267706b03790
+source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1020'
 ht-degree: 14%
 ---
 # 충성도 챌린지 시작 {#get-started-loyalty-challenges}
@@ -61,7 +61,7 @@ ht-degree: 14%
 * **고유한 데이터 문제 해결**(제한된 가용성): 충성도 문제 데이터 통합에서 문제 프레임워크(작업 및 보상)를 취합합니다. 다른 모든 과제 유형에 대해 하듯이 설정, 콘텐츠 및 메시징을 구성합니다.
 
 >[!TIP]
->또한 더 빠른 도전 만들기를 위해 자연어 프롬프트와 함께 [충성도에 대한 CX Coworker 기술](../start/loyalty-coworker-skills.md#loyalty-challenge-management)의 **충성도 도전 관리**&#x200B;를 사용하여 충성도 도전 과제를 만들고 관리할 수 있습니다.
+>또한 더 빠른 도전 만들기를 위해 자연어 프롬프트와 함께 [충성도에 대한 동료의 기술](loyalty-coworker-skills.md#loyalty-challenge-management)에서 **충성도 도전 관리**&#x200B;를 사용하여 충성도 도전 과제를 만들고 관리할 수 있습니다.
 
 ➡️ [기능 개요 보기](#video)
 
@@ -164,7 +164,7 @@ ht-degree: 14%
     <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
     </a>
     <div>
-  -->
+-->
     <a href="loyalty-admin.md"><strong>충성도 챌린지 구성</strong></a>
     </div>
     <p>
@@ -187,7 +187,7 @@ ht-degree: 14%
 
 **충성도 문제를 처음 사용하십니까?** 기능 및 이점을 이해하려면 이 개요를 참조하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3496456?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496441?quality=12)
 
 ## 대화형 데모 {#demo}
 
