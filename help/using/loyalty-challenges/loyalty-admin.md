@@ -10,16 +10,22 @@ level: Intermediate
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
 feature_v2:
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Loyalty challenges
+source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
 workflow-type: tm+mt
-source-wordcount: 1755
+source-wordcount: '1775'
 ht-degree: 18%
-
 ---
-
 # 충성도 챌린지 구성 {#loyalty-admin}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 관리자가 전역 설정, 보상 공급자, 이벤트 매핑, 제품 인벤토리 및 제외를 포함한 충성도 문제를 구성하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 ## 개요 {#access-loyalty-admin}
 

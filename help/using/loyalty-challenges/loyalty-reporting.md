@@ -10,16 +10,22 @@ level: Intermediate
 exl-id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
 feature_v2:
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Loyalty challenges
+source-git-commit: 5139b995607f670a4ff71deb04ea8d7f20cefb96
 workflow-type: tm+mt
-source-wordcount: 530
+source-wordcount: '554'
 ht-degree: 2%
-
 ---
-
 # 충성도 챌린지 성과 모니터링 {#loyalty-reporting}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 충성도 과제 보고서 및 통찰력을 사용하여 구성원 활동, 과제 성과, 보상 결과, 매출 및 프로그램 권장 사항을 모니터링하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 충성도 과제 보고를 사용하여 과제의 성과를 확인하십시오. 누가 가입하고 있는지, 누가 도전을 완료하고 있는지, 프로그램의 매출액이 얼마나 되는지 모두 한 곳에서 확인합니다. 데이터는 Adobe Customer Journey Analytics에서 가져옵니다.
 

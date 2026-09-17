@@ -10,16 +10,22 @@ level: Intermediate
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
 feature_v2:
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Loyalty challenges
+source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
 workflow-type: tm+mt
-source-wordcount: 1140
+source-wordcount: '1165'
 ht-degree: 9%
-
 ---
-
 # 작업 만들기 {#create-tasks}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 재사용 가능한 충성도 작업을 만들고, 구매, 지출 및 사용자 지정 이벤트 활동을 구성하고, 작업 특성, 자격 요건 및 완료 요구 사항을 정의하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 작업은 고객이 충성도 도전에서 보상을 얻기 위해 완료해야 하는 특정 작업 또는 이정표를 정의합니다. 구매 및 지출 작업 또는 조직에서 이미 캡처한 Adobe Experience Platform 경험 이벤트를 추적하는 **[!UICONTROL 사용자 지정 이벤트]** 작업을 구성할 수 있습니다.
 

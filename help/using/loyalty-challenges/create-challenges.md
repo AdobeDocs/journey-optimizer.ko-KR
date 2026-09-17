@@ -14,13 +14,19 @@ feature_v2:
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: 6a722f9d3f9a8d07e5f463b709390a5cb9c7cbb9
+source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
 workflow-type: tm+mt
-source-wordcount: '2634'
+source-wordcount: '2656'
 ht-degree: 11%
 ---
 
 # 챌린지 만들기 {#create-challenges}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 설정, 구조, 콘텐츠, 메시지, 작업, 보상 등 충성도 문제를 만들고, 구성하고, 게시하고, 시작하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 이 페이지에서는 Adobe Journey Optimizer에서 충성도 문제를 만들고 게시하는 전체 프로세스를 다룹니다.
 

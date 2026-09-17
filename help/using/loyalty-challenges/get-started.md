@@ -16,9 +16,9 @@ subfeature_v2:
     internal-label: Get started
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: 545cdc4186a807b6b4cc43f78a952cb564e60908
+source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '1016'
 ht-degree: 14%
 ---
 # 충성도 챌린지 시작 {#get-started-loyalty-challenges}
@@ -27,6 +27,12 @@ ht-degree: 14%
 >id="ajo_loyalty_inventory"
 >title="충성도 챌린지"
 >abstract="충성도 챌린지를 사용하면 고객 행동을 유도하고 브랜드 관계를 심화하는 매력적이고 게임화된 충성도 프로그램을 만들 수 있습니다. 구매 및 리뷰 작성부터 소셜 미디어 참여 및 친구 추천에 이르기까지 특정 액션에 대해 고객에게 보상해 주는 챌린지를 작성하십시오."
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 충성도 문제에 대한 개요를 보고, 프로그램의 작동 방식을 배우고, 사전 요구 사항을 검토하고, 문제를 설정, 만들기, 실행 및 측정하는 데 필요한 설명서를 찾습니다.
+
+>[!ENDSHADEBOX]
 
 ## 개요 {#overview}
 
