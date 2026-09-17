@@ -14,13 +14,19 @@ feature_v2:
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: 6a722f9d3f9a8d07e5f463b709390a5cb9c7cbb9
+source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
 workflow-type: tm+mt
-source-wordcount: '2634'
+source-wordcount: '2656'
 ht-degree: 11%
 ---
 
 # 챌린지 만들기 {#create-challenges}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 설정, 구조, 콘텐츠, 메시지, 작업, 보상 등 충성도 문제를 만들고, 구성하고, 게시하고, 시작하는 방법에 대해 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 이 페이지에서는 Adobe Journey Optimizer에서 충성도 문제를 만들고 게시하는 전체 프로세스를 다룹니다.
 
@@ -374,21 +380,21 @@ ht-degree: 11%
 
 **충성도 과제 설정** - 새 충성도 과제를 만들고 구성합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3496476?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496471?quality=12)
 
 **보상 구성** - 보상 전달 및 이행 설정
 
->[!VIDEO](https://video.tv.adobe.com/v/3496486?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496481?quality=12)
 
 ➡️ 챌린지 콘텐츠 카드를 만드는 방법 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3496534?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496529?quality=12)
 
 ➡️ 문제에 대한 라이프사이클 메시지를 설정하는 방법 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3497460?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3497455?quality=12)
 
 ➡️ 문제를 게시하고 여정을 생성하는 방법을 확인하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3498582?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3498577?quality=12)
 

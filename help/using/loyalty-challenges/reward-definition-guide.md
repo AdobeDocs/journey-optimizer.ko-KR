@@ -11,15 +11,15 @@ mini-toc-levels: 1
 exl-id: 9b0fd9d8-18d1-4a51-8b6f-b2e2a4c6f1d7
 feature_v2:
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Loyalty challenges
+source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
 workflow-type: tm+mt
-source-wordcount: 1204
-ht-degree: 8%
-
+source-wordcount: '1173'
+ht-degree: 5%
 ---
-
 # 보상 정의 안내서 {#reward-definition-guide}
 
 >[!CONTEXTUALHELP]
@@ -29,35 +29,7 @@ ht-degree: 8%
 
 >[!BEGINSHADEBOX]
 
-**목차**
-
-[충성도 챌린지 시작](get-started.md)
-
-<table style="table-layout:fixed">
-<tr style="border: 0;">
-<td style="vertical-align:top;">
-
-**문제 만들기 및 관리**
-
-* [챌린지와 작업 액세스 및 관리](access-loyalty-challenges.md)
-* [챌린지 만들기](create-challenges.md)
-* [작업 만들기](create-tasks.md)
-* [충성도 챌린지 성과 모니터링](loyalty-reporting.md)
-
-</td>
-<td style="vertical-align:top;">
-
-**구성 및 통합**
-
-* [충성도 챌린지 구성](loyalty-admin.md)
-* **보상 정의 가이드** ◀︎ **여기 있습니다**
-* [이벤트 변환기 안내서](event-transformer-guide.md)
-* [충성도 데이터 및 데이터 세트](loyalty-data-and-datasets.md)
-* [충성도 과제 API 참조](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
-
-</td>
-</tr>
-</table>
+**이 페이지에서:** 보상 공급자 및 보상 정의를 구성하고, 보상 JSONata 표현식을 작성하고, 이행 페이로드를 생성하는 데 사용되는 컨텍스트를 이해하는 방법에 대해 알아봅니다.
 
 >[!ENDSHADEBOX]
 
@@ -484,4 +456,4 @@ Content-Type: application/json
 
 ➡️ 충성도 보상 공급자를 설정하는 방법 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3497414?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3497346?quality=12)

@@ -10,16 +10,22 @@ level: Intermediate
 exl-id: 8907c18e-4623-4743-a76b-333f34e13baf
 feature_v2:
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Loyalty challenges
+source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
 workflow-type: tm+mt
-source-wordcount: 470
+source-wordcount: '492'
 ht-degree: 3%
-
 ---
-
 # 챌린지와 작업 액세스 및 관리 {#access-loyalty-challenges}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** 충성도 문제에 액세스하고, 과제 및 작업 인벤토리를 검토하고, 기존 과제 및 재사용 가능한 작업을 관리하는 방법을 알아봅니다.
+
+>[!ENDSHADEBOX]
 
 ## 챌린지와 작업 액세스 및 관리
 

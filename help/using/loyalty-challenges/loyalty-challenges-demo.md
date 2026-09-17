@@ -14,12 +14,18 @@ feature_v2:
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: 0780bc3e7ab3acc95dfcbf8d0bf94e964457bfa3
+source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 3%
+source-wordcount: '146'
+ht-degree: 2%
 ---
 # 대화형 데모 {#loyalty-challenges-demo}
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서:** CX Coworker의 과제 생성, 고객 경험, 성능 및 통찰력, 충성도 과제 관리를 다루는 대화형 충성도 과제 데모를 살펴보십시오.
+
+>[!ENDSHADEBOX]
 
 Adobe의 가상의 라이프스타일 소매 브랜드인 &quot;Luma&quot;를 기반으로 구축된 셀프 가이드 클릭 가능 데모에서 충성도 문제를 확인할 수 있습니다.
 

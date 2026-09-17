@@ -11,15 +11,15 @@ mini-toc-levels: 1
 exl-id: d3ad85f0-7f7e-40ab-b8c4-fc0c1234be87
 feature_v2:
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Loyalty challenges
+source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
 workflow-type: tm+mt
-source-wordcount: 1705
-ht-degree: 5%
-
+source-wordcount: '1680'
+ht-degree: 2%
 ---
-
 # 이벤트 변환기 안내서 {#event-transformer-guide}
 
 >[!CONTEXTUALHELP]
@@ -29,35 +29,7 @@ ht-degree: 5%
 
 >[!BEGINSHADEBOX]
 
-**목차**
-
-[충성도 챌린지 시작](get-started.md)
-
-<table style="table-layout:fixed">
-<tr style="border: 0;">
-<td style="vertical-align:top;">
-
-**문제 만들기 및 관리**
-
-* [챌린지와 작업 액세스 및 관리](access-loyalty-challenges.md)
-* [챌린지 만들기](create-challenges.md)
-* [작업 만들기](create-tasks.md)
-* [충성도 챌린지 성과 모니터링](loyalty-reporting.md)
-
-</td>
-<td style="vertical-align:top;">
-
-**구성 및 통합**
-
-* [충성도 챌린지 구성](loyalty-admin.md)
-* [보상 정의 안내서](reward-definition-guide.md)
-* **이벤트 변환기 안내서** ◀︎ **여기 있습니다**
-* [충성도 데이터 및 데이터 세트](loyalty-data-and-datasets.md)
-* [충성도 과제 API 참조](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
-
-</td>
-</tr>
-</table>
+**이 페이지에서:** 이벤트 매핑이 들어오는 이벤트를 식별하고 필드 요구 사항, 일치하는 동작, 예제 및 API 작업을 포함하여 JSONata 식을 사용하여 Adobe 충성도 이벤트 형식으로 변환하는 방법에 대해 알아봅니다.
 
 >[!ENDSHADEBOX]
 
