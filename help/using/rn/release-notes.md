@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 545cdc4186a807b6b4cc43f78a952cb564e60908
+source-git-commit: 5af1dfecb5e19feec54e075d493ccd388ae3126c
 workflow-type: tm+mt
-source-wordcount: '2921'
-ht-degree: 67%
+source-wordcount: '3006'
+ht-degree: 65%
 ---
 # 릴리스 정보 {#release-notes}
 
@@ -123,7 +123,7 @@ ht-degree: 67%
 <tr>
 <td>
 <p>이제 여정 고급 표현식 편집기는 AI 기반의 표현식 생성을 통합합니다. 빌드할 표현식을 자연어로 설명하고, 편집기는 즉시 적용하거나 후속 프롬프트를 통해 구체화할 수 있는 사용 준비 코드를 생성합니다.</p>
-<p>이전에 제한 공급 상태로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 공급).</p>
+<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
 <p>자세한 내용은 <a href="../building-journeys/expression/generate-expression.md">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2026년 9월 1일</p>
 </td>
@@ -161,6 +161,10 @@ ht-degree: 67%
 * **여정 예외 항목 분석 스킬** - 이제 CX Coworker가 **여정 예외 항목 분석** 스킬을 사용하여 기록 기준선에 대한 여정 시작, 종료 또는 메시지 전송 카운트에서 예상치 못한 급감, 하락 또는 평면화를 감지할 수 있습니다. 실제 예외 항목이 확인되면 이 스킬은 읽기 전용 진단을 실행하여 잠재적인 근본 원인과 권장 사항을 표시합니다. [자세히 알아보기](../building-journeys/journeys-coworker-skills.md#journey-analyze)
 
   사용 가능한 날짜: 2026년 9월 2일
+
+* **일괄 처리 대상 평가 후 트리거** - 일괄 처리 대상을 타깃팅하는 반복 여정의 경우 여정이 실행되기 전에 새 일괄 처리 평가에 대해 최대 6시간의 대기 창을 구성할 수 있습니다. 평가가 진행 중인 경우 여정은 평가가 완료될 때까지 기다리며, 이전 실행에서 최신 스냅샷을 사용한 경우에는 최신 배치를 기다립니다. 대기 기간이 끝날 때까지 새 대상을 사용할 수 없으면 해당 발생을 건너뜁니다. [자세히 알아보기](../building-journeys/read-audience.md)
+
+  사용 가능한 날짜: 2026년 9월 18일
 
 ### 캠페인 {#sep-26-campaigns}
 
