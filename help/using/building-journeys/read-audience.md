@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 여정에서 대상자 사용
-description: 대상자 읽기 활동을 구성하고 사용하여  [!DNL Adobe Experience Platform] 대상자의 개인이 여정을 입력할 수 있도록 하는 방법에 대해 알아봅니다.
+description: 대상자 읽기 활동을 구성하고 사용하여 [!DNL Adobe Experience Platform]명의 대상자 개인이 여정을 입력하도록 하는 방법에 대해 알아봅니다.
 feature: Journeys, Activities, Audiences
 topic: Content Management
 role: User
@@ -13,29 +13,39 @@ version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/XqBTB8kE-KCmI49eHBp63dX09vu5Zh1Dl2BDwH0BkU4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+    internal-label: Guardrails and limitations
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
+    internal-label: Activities
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
+    internal-label: Journeys
 subfeature_v2:
   - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
+    internal-label: Custom actions
   - id: e57d1da4-32c2-4cc6-945c-9feb219156ff
+    internal-label: Event activities
   - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
+    internal-label: Wait activity
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 5fb4e78a32eedb4db8e1b3c3e0d87b01dc2f7a27
+    internal-label: Audience segmentation
+source-git-commit: 5af1dfecb5e19feec54e075d493ccd388ae3126c
 workflow-type: tm+mt
-source-wordcount: 4374
-ht-degree: 11%
-
+source-wordcount: '4434'
+ht-degree: 10%
 ---
-
 # 여정에서 대상자 사용 {#segment-trigger-activity}
 
 >[!BEGINSHADEBOX]
@@ -205,7 +215,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience"
 >title="배치 대상자 평가 후 트리거"
->abstract="배치 대상자가 새로 평가될 때까지 각 실행을 지연하므로 여정은 오래된 데이터 대신 최신 대상자 스냅샷을 읽습니다. 최신 세분화 결과에 의존하는 반복 여정에 권장됩니다."
+>abstract="각 실행 전에 새 일괄 처리 대상 평가를 기다립니다. 일괄 처리 세그먼테이션이 이미 진행 중인 경우 여정은 항상 일괄 처리가 완료될 때까지 기다립니다. 그렇지 않으면 사용 가능한 최신 스냅샷이 이전 실행에서 사용된 배치와 동일한 경우에만 대기합니다. 최신 세분화 결과에 의존하는 반복 여정에 권장됩니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
@@ -300,7 +310,7 @@ ht-degree: 11%
 
 +++**[!UICONTROL 일괄 대상자 평가 후 트리거]**
 
-매일 예약된 여정 및 타깃팅 배치 대상의 경우, 여정이 배치 세분화 작업에서 새 대상 데이터를 대기할 최대 6시간의 시간 창을 정의할 수 있습니다. 시간 창 내에 세분화 작업이 완료되면 여정이 트리거됩니다. 그렇지 않으면 다음 상황이 발생할 때까지 여정을 건너뜁니다. 이 옵션을 사용하면 정확한 최신 대상 데이터로 여정을 실행할 수 있습니다.
+매일 예약된 여정 및 타깃팅 배치 대상의 경우, 여정이 배치 세분화 작업에서 새 대상 데이터를 대기할 최대 6시간의 시간 창을 정의할 수 있습니다. 배치 세분화 작업이 이미 진행 중인 경우 여정은 항상 시간 창 내에 완료될 때까지 기다립니다. 진행 중인 일괄 처리 세분화 작업이 없지만 사용 가능한 스냅샷만 이전 실행에서 사용된 동일한 일괄 처리인 경우 여정은 다시 사용하지 않고 최신 일괄 처리를 기다립니다. 기간이 끝날 때까지 더 신선한 일괄 처리를 찾을 수 없는 경우 해당 발생 항목에 대한 여정 실행을 건너뜁니다.
 
 예를 들어 여정이 매일 오후 6시로 예약된 경우 여정이 실행되기 전에 대기할 분 또는 시간을 지정할 수 있습니다. 여정이 오후 6시에 일어나면 새 대상을 확인합니다. 즉, 이전 여정 실행에 사용된 대상보다 새로운 대상을 의미합니다. 지정된 기간 동안 새 대상을 감지하면 여정이 즉시 실행됩니다. 새 대상이 감지되지 않으면 해당 날짜의 여정 실행을 건너뜁니다.
 
