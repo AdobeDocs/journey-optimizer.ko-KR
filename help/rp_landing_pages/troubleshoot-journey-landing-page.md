@@ -5,16 +5,14 @@ title: 문제 해결
 description: 문제 해결
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
-source-git-commit: ff73b5fa5c065253be17406f167b18b8a63ab6da
-workflow-type: ht
-source-wordcount: '704'
-ht-degree: 100%
-
+source-git-commit: acf3e390fb55b02196eb580ac24f48e2aaeff8aa
+workflow-type: tm+mt
+source-wordcount: '820'
+ht-degree: 86%
 ---
-
 # 추적, 모니터링 및 문제 해결 {#section-overview}
 
-고객 여정을 효과적으로 관리하는 것은 포괄적인 추적에서부터 시작되며, 이를 통해 사전 모니터링, 인사이트를 제공하는 보고, 효율적인 문제 해결을 수행할 수 있습니다. Adobe Journey Optimizer는 고객 상호 작용 및 시스템 이벤트를 파악하고 성과 지표를 분석하며 문제가 발생한 경우 신속하게 해결할 수 있는 완전한 프레임워크를 제공합니다.
+고객 여정을 효과적으로 관리하는 것은 포괄적인 추적에서부터 시작되며, 이를 통해 사전 예방적 모니터링, 인사이트를 제공하는 보고, 효율적인 문제 해결을 수행할 수 있습니다. Adobe Journey Optimizer는 고객 상호 작용 및 시스템 이벤트를 파악하고 성과 지표를 분석하며 문제가 발생한 경우 신속하게 해결할 수 있는 완전한 프레임워크를 제공합니다.
 
 이메일, 웹, 푸시, 인앱, SMS 등 모든 채널에서 고객 상호 작용을 **추적**&#x200B;하여 열람서, 클릭 수, 전환 수, 사용자 정의 이벤트 등 고객이 콘텐츠에 참여하는 방법을 보여 주는 지표를 파악합니다.
 
@@ -24,9 +22,23 @@ ht-degree: 100%
 
 이 페이지에는 추적을 구현하고, 여정 상태를 모니터링하고, 주요 보고 인사이트에 액세스하고, 고객 여정의 모든 단계에서 문제를 효율적으로 해결하는 데 도움이 되는 필수 리소스가 포함되어 있습니다.
 
+## 문제 찾기
+
+문제와 가장 일치하는 증상을 사용하여 관련 문제 해결 안내서로 직접 이동합니다.
+
+| 이 문제가 발생하는 경우 | 여기서 시작 |
+| --- | --- |
+| 여정을 테스트하거나 게시할 수 없습니다 | [여정 오류 문제 해결](../using/building-journeys/troubleshooting.md) |
+| 프로필이 여정을 입력하거나 진행하지 않음 | [여정 실행 문제 해결](../using/building-journeys/troubleshooting-execution.md) |
+| 프로필이 종료되면 인바운드 경험이 표시되지 않거나 계속됩니다 | [인바운드 동작 문제 해결](../using/building-journeys/troubleshooting-inbound.md) |
+| 사용자 지정 작업 테스트 또는 API 호출 실패 | [사용자 지정 작업 문제 해결](../using/action/troubleshoot-custom-action.md) |
+| 라이브 여정 및 캠페인을 사전에 모니터링해야 합니다 | [시스템 경고 액세스 및 구독](../using/reports/alerts.md) |
+| Journey Optimizer 오류 코드가 있습니다 | [오류 코드 참조 보기](../using/building-journeys/error-codes-reference.md) |
+| 이메일이 전달되지만 수신자의 받은 편지함에 예상대로 도달하지 못함 | [게재 가능성 지침 검토](../using/reports/deliverability.md) |
+
 ## 추적 시작
 
-모니터링 및 문제 해결을 시작하기 전에 추적을 위한 견고한 토대가 있는지 확인해야 합니다. Journey Optimizer은 모든 채널의 고객 상호 작용, 게재 성과, 시스템 상태를 포착하는 포괄적인 추적 기능을 제공합니다.
+모니터링 및 문제 해결을 시작하기 전에 추적을 위한 견고한 토대가 있는지 확인해야 합니다. Journey Optimizer는 모든 채널의 고객 상호 작용, 게재 성과, 시스템 상태를 포착하는 포괄적인 추적 기능을 제공합니다.
 
 사용자 정의 지표를 설정하고 URL 매개 변수를 구성하고 기본 제공 보고서를 통해 추적 데이터에 액세스하는 방법을 포함하여 이메일, 웹 경험, 푸시 알림, 인앱 메시지 등에 대한 추적을 구현하는 방법에 대해 알아봅니다. [추적 시작](../using/start/get-started-tracking.md)
 
@@ -93,9 +105,9 @@ Adobe Journey Optimizer의 일반적인 오류 코드를 이해하고 여정, �
 
 인바운드 액션 문제 해결
 
-자세한 단계별 안내서를 사용하여 프로필 종료 후에도 콘텐츠가 누락되거나 계속 게재되는 등의 인바운드 작업 문제를 해결합니다.
+자세한 단계별 안내서를 사용하여 프로필 종료 후에도 콘텐츠가 누락되거나 계속 게재되는 등의 인바운드 액션 문제를 해결합니다.
 
-[인바운드 작업 문제 해결](../using/building-journeys/troubleshooting-inbound.md)
+[인바운드 액션 디버그](../using/building-journeys/troubleshooting-inbound.md)
 :::
 
 :::
