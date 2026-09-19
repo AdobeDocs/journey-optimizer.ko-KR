@@ -61,7 +61,7 @@ ht-degree: 86%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ko)
 
 시스템 경고 액세스 및 구독
 
@@ -71,7 +71,7 @@ ht-degree: 86%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ko)
 
 오류 코드 참조
 
@@ -81,7 +81,7 @@ Adobe Journey Optimizer의 일반적인 오류 코드를 이해하고 여정, �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 여정 오류 문제 해결
 
@@ -91,7 +91,7 @@ Adobe Journey Optimizer의 일반적인 오류 코드를 이해하고 여정, �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 여정 실행 문제 해결
 
@@ -101,7 +101,7 @@ Adobe Journey Optimizer의 일반적인 오류 코드를 이해하고 여정, �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ko)
 
 인바운드 액션 문제 해결
 
@@ -111,7 +111,7 @@ Adobe Journey Optimizer의 일반적인 오류 코드를 이해하고 여정, �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ko)
 
 사용자 정의 액션 문제 해결
 
@@ -121,7 +121,7 @@ API 호출과 인증 설정이 올바른지 확인하기 위해 **테스트 요�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=ko)
 
 라이브 활동 문제 해결
 
@@ -131,7 +131,7 @@ API 호출과 인증 설정이 올바른지 확인하기 위해 **테스트 요�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg?lang=ko)
 
 AEM 콘텐츠 조각 문제 해결
 
@@ -141,7 +141,7 @@ Journey Optimizer에서 Adobe Experience Manager 콘텐츠 조각을 사용할 �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=ko)
 
 지원 티켓 지침
 
