@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 5055925bf62889da8022087374ef3d8d8d076e6a
+source-git-commit: 0ee7219f6a2cd210c7fb2127f8841c476b10be17
 workflow-type: tm+mt
-source-wordcount: '3505'
+source-wordcount: '3432'
 ht-degree: 8%
 ---
 
@@ -39,7 +39,7 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 
 이번 릴리스에는 가시성을 위해 여기에 나열된 몇 가지 새롭고 개선된 [Coworker](../start/ai-features.md#cx-coworker) 기능 및 기술이 제공됩니다. 각 정보는 아래의 해당 섹션에도 자세히 설명되어 있습니다.
 
-* [메시지 복사 및 전자 메일 디자인 플러그인](#sep-26-content-management) - Campaign Brief에서 프로덕션 준비 복사 및 HTML에 이르기까지 Coworker의 메시징 및 전자 메일 워크플로를 간소화하는 두 개의 새로운 플러그인입니다.
+* [CE 채널 콘텐츠 플러그 인](#sep-26-content-management) - Campaign Brief에서 프로덕션 준비 복사본 및 HTML에 이르기까지 Coworker에서 캠페인 복사본, 이미지 및 이메일 HTML 기술을 함께 제공하는 새로운 플러그 인입니다.
 * [충성도 추천 스킬](#sep-26-loyalty) - 동료의 대화 인터페이스에서 직접 도전 기회를 요청하고 채팅을 종료하지 않고도 실시간 도전으로 전환할 수 있습니다.
 * [여정 시뮬레이션](#sep-26-journeys) - 전체 여정 유효성 검사를 자동화하고 결과를 Coworker에서 직접 해석합니다.
 * [동료 레일에서 여정 만들기](#sep-26-journeys) - 이전 AI Assistant 경험을 대체하여 동료 오른쪽 레일에서 직접 AI로 여정을 생성합니다.
@@ -57,26 +57,25 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 <table>
 <thead>
 <tr>
-<th><strong>Coworker의 메시지 복사 및 이메일 디자인 플러그인</strong><br/></th>
+<th><strong>Coworker의 채널 컨텐츠 플러그인</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 Coworker에서 전략에서 배포에 이르기까지 <strong>메시징 및 이메일 워크플로</strong>를 간소화하는 두 가지 새로운 플러그인을 사용할 수 있습니다.</p>
-<p><strong>메시지 복사 플러그 인</strong>:</p>
+<p>이제 Coworker에서 새로운 <strong>채널 콘텐츠</strong> 플러그인을 사용할 수 있습니다. 이를 통해 전략에서 배포에 이르기까지 하나의 플러그인 아래에 캠페인 카피, 이미지 및 어셈블된 이메일 HTML 기술을 결합합니다. **채널 콘텐츠** 플러그인에서 다음 기술을 사용할 수 있습니다.</p>
 <ul>
-<li>캠페인 브리핑을 캡처하고 메시지 맵, 내러티브 아크 및 채널 역할을 정의합니다.</li>
-<li>채널, 터치포인트, 로케일, 대상자 및 변형에 맞게 구성된 다차원 콘텐츠 매트릭스를 구축합니다.</li>
-<li>완전히 새로운 사본을 만들고 Adobe Firefly을 활용하여 캠페인 비주얼을 생성, 자르기 및 조정합니다.</li>
-<li>즉석 콘텐츠 평가를 허용하고 승인된 에셋을 다시 Journey Optimizer, Adobe Campaign V8 및 Marketo으로 직접 동기화할 수 있습니다.</li>
-</ul>
-<p><strong>전자 메일 디자인 플러그 인</strong>:</p>
-<ul>
-<li>마케팅 목표, 참조 스크린샷 또는 Figma 디자인 링크를 사용자 지정 레이아웃 계획 및 프로덕션 준비 이메일 HTML으로 변환합니다.</li>
-<li>재사용 가능한 브랜드 자산, 디자인 토큰 및 구조적 이메일 템플릿을 관리합니다.</li>
-<li>기업 규정 준수, 시각적 디자인 품질 및 WCAG 2.1 AA 접근성 표준에 대해 조립된 이메일 코드를 감사합니다.</li>
-<li>승인된 HTML을 Adobe Journey Optimizer 및 Adobe Campaign으로 직접 내보냅니다.</li>
+<li><strong>콘텐츠 작성 오케스트레이션</strong>.</li>
+<li><strong>콘텐츠 전략 살펴보기</strong></li>
+<li><strong>컨텐츠 개요</strong></li>
+<li><strong>콘텐츠 생성</strong></li>
+<li><strong>콘텐츠 준비 확인</strong></li>
+<li><strong>컨텐트 개정 및 재생성</strong></li>
+<li><strong>이미지 생성</strong></li>
+<li><strong>콘텐츠 디자인 평가</strong></li>
+<li><strong>채널 컨텐츠 저장</strong></li>
+<li><strong>Figma에서 이메일 작성</strong></li>
+<li><strong>브랜드 조회</strong> </li>
 </ul>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->

@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
+source-git-commit: d44ffc5f15d5ca65144f79fcc695cb9ba6a23c4b
 workflow-type: tm+mt
-source-wordcount: '11356'
+source-wordcount: '11405'
 ht-degree: 89%
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 89%
 이 페이지에는 월별 릴리스 기능 및 개선 사항과 관련된 업데이트 외에도 [!DNL Journey Optimizer] 설명서의 모든 최신 변경 사항이 나와 있습니다.
 
 ## 2026년 9월 {#september-2026}
+
+* 이메일 미러 페이지에 대한 지침이 확장되었습니다. 이제 설명서에서 미러 페이지 URL은 공개 API 또는 데이터 세트를 통해 검색할 수 없으며, 전송된 컨텐츠를 유지하기 위해 메시지 내보내기 또는 BCC 보관을 권장하고, 증명 및 시뮬레이션에서 미러 페이지 링크가 비활성화되어 있는지 설명합니다. [자세히 보기](../email/message-tracking.md#mirror-page)
 
 * 이제 CX Coworker의 마케터 과제 생성 흐름(고유한 데이터 및 인사이트 대시보드 가져오기 포함), 최종 고객 경험 및 충성도 과제 관리를 다루는 클릭 가능한 셀프 가이드 데모에 연결하여 충성도 과제에 대해 새 **대화형 데모** 페이지를 사용할 수 있습니다. [자세히 보기](../loyalty-challenges/loyalty-challenges-demo.md)
 
@@ -185,7 +187,7 @@ ht-degree: 89%
 
 * **샌드박스 간 Journey Optimizer 오브젝트 복사** 설명서에 **오케스트레이션된 캠페인**&#x200B;에 대한 중요 참고 사항을 추가했습니다. 보고에서 정확한 피드백 및 추적 데이터를 캡처할 수 있도록 가져오기 후 타깃 샌드박스에서 캠페인을 복제하고 복제본을 실행에 사용하라는 내용입니다. [자세히 보기](../configuration/copy-objects-to-sandbox.md#copy-to-sandbox)
 
-* **주요 용어** 페이지를 정비했습니다. 새로운 용어 6개를 추가하고, **충돌 및 우선순위 지정 용어** 섹션을 새로 만들고, 새로운 **용어가 비슷해 보이는 경우** 명확화 가이드에 자주 혼동하는 용어 네 쌍을 추가했습니다. Adobe Experience Platform에만 적용되는 용어를 삭제하고 Adobe Experience Platform 용어집에 연결된 메모로 대체했습니다. [자세히 보기](../start/terminology.md)
+* **주요 용어** 페이지를 정비했습니다. 새로운 용어 6개를 추가하고, **충돌 및 우선순위 지정 용어** 섹션을 새로 만들고, 새로운 **용어가 비슷해 보이는 경우** 명확화 가이드에 자주 혼동하는 용어 네 쌍을 추가했습니다. Adobe Experience Platform에만 적용되는 용어를 삭제하고 Adobe Experience Platform 용어집으로 연결되는 메모로 대체했습니다. [자세히 보기](../start/terminology.md)
 
 * **딥 링크** 설명서를 새로운 **딥 링크 작성** 섹션으로 확장해 이메일에 사용할 수 있는 두 옵션(이메일 디자이너 UI 및 개인화 편집기 코드)과 SMS의 URL 함수 구문을 자세히 설명했습니다. **SMS 메시지 만들기** 페이지에 콘텐츠 작성 흐름의 딥 링크 단계를 추가했습니다. [자세히 보기](../email/deeplinks.md)
 
@@ -291,7 +293,7 @@ ht-degree: 89%
 
 * **결정 정책 생성** 및 **메시지에서 결정 정책 사용** 문서가 이메일에 대해 업데이트되었습니다. 이제 이메일 본문에서 동일한 오퍼가 둘 이상의 결정 정책에 의해 선택될 수 있는 경우 엔진이 중복 오퍼를 제거한다는 설명이 추가되었습니다(각 배치에 다른 오퍼가 전송됨). 여러 위치(예: 머리글과 바닥글)에 동일한 오퍼를 표시하려면 **결정 출력 재사용**&#x200B;을 사용하세요. [자세히 보기](../experience-decisioning/create-decision-policy.md)
 
-* 결정 항목 페이지가 푸시 채널 및 사용자 지정 이벤트 제한에 대한 정보로 업데이트되었습니다. [자세히 보기](../experience-decisioning/items.md#capping)
+* 결정 항목 페이지가 푸시 채널 및 사용자 지정 이벤트 캡핑에 대한 정보로 업데이트되었습니다. [자세히 보기](../experience-decisioning/items.md#capping)
 
 * **여정에서 경험 이벤트 조회** 문서가 사용 중단 타임라인으로 업데이트되었습니다. 2026년 4월 1일부터 지난 90일 동안 여정 표현식에서 경험 이벤트 속성을 사용하지 않은 조직은 더 이상 이 기능을 사용할 수 없습니다. FAQ는 이제 사용 중단 타임라인과 영향을 받는 조직에 초점을 맞추고 있으며, 경험 이벤트 스키마 페이지는 대체 접근 방식에 대한 직접 링크와 함께 업데이트되었습니다. [자세히 보기](../building-journeys/exp-event-lookup.md)
 
@@ -309,7 +311,7 @@ ht-degree: 89%
 
 * SMS 웹훅 설명서가 업데이트되었으며, Twilio 웹훅 관련 내용은 제거되었습니다. [자세히 보기](../mobile/mobile-webhook.md)
 
-* **이미지를 콘텐츠 템플릿으로 변환** 설명서가 개선되어 가드레일과 권장 사항이 확장되었고, 일반적인 사용 사례와 이미지 디자인을 편집 가능한 HTML 콘텐츠 템플릿으로 변환하는 방법에 대한 명확한 지침이 추가되었습니다. 또한 이제 테마를 전환 입력으로 사용할 수 있다는 내용도 언급되어 있습니다. [자세히 보기](../content-management/image-to-html.md)
+* **이미지를 콘텐츠 템플릿으로 변환** 설명서가 개선되어 가드레일과 권장 사항이 확장되었고, 일반적인 사용 사례와 이미지 디자인을 편집 가능한 HTML 콘텐츠 템플릿으로 변환하는 방법에 대한 명확한 지침이 추가되었습니다. 또한 이제 변환의 입력으로 테마를 사용할 수 있다는 내용도 언급되어 있습니다. [자세히 보기](../content-management/image-to-html.md)
 
 * 의사 결정 마이그레이션 API 설명서가 업데이트되었습니다. [자세히 보기](../experience-decisioning/decisioning-migration-api.md)
 
@@ -357,9 +359,9 @@ ht-degree: 89%
 
 * 오케스트레이션된 캠페인 채널 구성 설명서에 분석 및 보고 목적으로 URL 추적 매개 변수에서 상황별 속성(예: 캠페인 ID, 이름, 액션 세부 정보)을 사용하는 방법을 설명하는 새로운 섹션을 추가했습니다. [자세히 보기](../orchestrated/channel-config.md#url-tracking)
 
-* 콘텐츠 최적화 설명서를 보다 명확하게 재구성했습니다. 기본 최적화 페이지를 시작 페이지, 타기팅만 다룬 페이지, 실험만 다룬 페이지, 두 접근 방식을 결합하는 방법에 대한 페이지 등 네 개의 집중형 하위 페이지로 분할했습니다. [자세히 보기](../content-management/gs-message-optimization.md)
+* 콘텐츠 최적화 설명서를 보다 명확하게 재구성했습니다. 주요 최적화 페이지를 시작 페이지, 타기팅만 다룬 페이지, 실험만 다룬 페이지, 두 접근 방식을 결합하는 방법에 대한 페이지 등 네 개의 집중형 하위 페이지로 분할했습니다. [자세히 보기](../content-management/gs-message-optimization.md)
 
-* 세 가지 여정 경고(여정 게시됨, 여정 완료됨, 사용자 정의 액션 캡핑 트리거됨) 기능이 이제 일반 가용성으로 공개되었으므로 해당 섹션에서 제한된 가용성에 대한 참고 사항을 제거했습니다. [자세히 보기](../reports/alerts.md)
+* 이러한 기능이 이제 일반적으로 제공되므로 세 가지 여정 경고(여정 게시됨, 여정 완료됨, 사용자 정의 액션 캡핑 트리거됨)에서 제한된 가용성 참고 사항이 제거되었습니다. [자세히 보기](../reports/alerts.md)
 
 * 테스트, 유효성 검사, 승인 랜딩 페이지에 테스트 기능 개요, 일반적인 질문 FAQ, 탐색 링크가 있는 의사 결정 트리, 설명서 링크의 용어 향상 등 새로운 섹션을 추가해 개선했습니다. [자세히 보기](../../rp_landing_pages/test-landing-page.md)
 
@@ -377,7 +379,7 @@ ht-degree: 89%
 
 * 의사 결정을 위한 사용자 정의 업로드 대상자 설명서에 보강용 데이터 검색을 위한 필수 API 플래그를 포함하여 업데이트했습니다. 오퍼 결정에 CSV로 업로드한 대상자를 사용하는 경우 API 요청 페이로드에 `"xdm:enrichedAudience": true`을(를) 포함해야 오퍼 결정 응답에서 보강 속성을 검색할 수 있습니다. [자세히 보기](../offers/custom-upload-decisioning.md#must-read)
 
-* 교정쇄 전송 설명서에 교정쇄에도 캡핑 규칙이 적용된다는 점을 명확히 설명하는 메모를 추가했습니다. 이제 페이지에 캡핑 동작, 미러 페이지 제한, 자산 접근성 규칙에 대한 중요한 고려 사항이 있는 “반드시 알아야 할 사항” 섹션이 포함되어 있습니다. [자세히 보기](../content-management/proofs.md)
+* 교정쇄 전송 설명서에 교정쇄에도 캡핑 규칙이 적용된다는 점을 명확히 설명하는 메모를 추가했습니다. 이제 페이지에 캡핑 동작, 미러 페이지 제한, 에셋 접근성 규칙에 대한 중요한 고려 사항이 있는 &quot;반드시 알아야 할 사항&quot; 섹션이 포함되어 있습니다. [자세히 보기](../content-management/proofs.md)
 
 * 채널 시작 페이지에 새로운 커뮤니케이션 채널 사용 가능 여부 테이블이 추가되었습니다. 이 테이블에는 여정 및 캠페인(액션 캠페인, API 트리거 캠페인, 오케스트레이션된 캠페인) 전반에서 지원되는 채널이 표시됩니다. [자세히 보기](../channels/gs-channels.md#channels)
 
@@ -387,19 +389,19 @@ ht-degree: 89%
 
 * 스트리밍 세그먼트 적격성 기준에 대한 정보를 포함하도록 구독 목록 문서가 업데이트되었습니다. [자세히 보기](../landing-pages/subscription-list.md#define-subscription-list)
 
-* 새로운 IP 웜업 전달성 안내서가 출시되었습니다. 이 안내서는 평판의 기본 사항, 사전 준비, 모니터링 지표, 그리고 평판이 0인 상태에서 성공적인 받은 편지함으로 전환하기 위한 모범 사례에 대한 포괄적인 지침을 제공합니다. [자세히 보기](../configuration/ip-warmup-deliverability-guide.md)
+* 새로운 IP 웜업 전달성 안내서가 출시되었습니다. 이 안내서는 평판의 기본 사항, 사전 준비, 모니터링 지표, 그리고 평판이 0인 상태에서 성공적인 받은 편지함 배치로 전환하기 위한 모범 사례에 대한 포괄적인 지침을 제공합니다. [자세히 보기](../configuration/ip-warmup-deliverability-guide.md)
 
 * 랜딩 페이지와 이메일 옵트아웃 섹션에 경고 문구가 추가되어 구독 취소 링크를 클릭해도 랜딩 페이지만 열리고, 옵트아웃 프로세스를 완료하려면 양식을 제출해야 한다는 점이 명확해졌습니다. [자세히 보기](../landing-pages/lp-use-cases.md#configure-opt-out)
 
 * 새로운 여정 사용 사례 라이브러리가 출시되었습니다. 이 라이브러리에는 전술적 패턴(억제 로직, 개인화 기술, 여정 종료 전략)과 마케팅 및 기술 워크플로를 포괄하는 완벽한 엔드투엔드 시나리오가 포함된 다양한 실용적인 사용 사례가 모여 있습니다. [자세히 보기](../building-journeys/jo-use-cases.md)
 
-* 이제 평일(월요일~금요일)에만 이메일을 보내도록 여정을 구성하는 방법을 보여주는 새로운 사용 사례가 제공됩니다. 주말에 제출된 내용은 자동으로 대기열에 추가되어 지정된 월요일 시간에 발송됩니다. [자세히 보기](../building-journeys/weekday-email-uc.md)
+* 이제 평일(월요일~금요일)에만 이메일을 보내도록 여정을 구성하는 방법을 보여주는 새로운 사용 사례가 제공됩니다. 주말에 진입한 항목은 자동으로 대기열에 추가되어 지정된 월요일 시간에 발송됩니다. [자세히 보기](../building-journeys/weekday-email-uc.md)
 
 * 이제 [!DNL Journey Optimizer]의 의사 결정 기능을 설명하는 새로운 페이지가 제공됩니다. 이 페이지에는 차세대 의사 결정 프레임워크와 기존 의사 결정 관리 솔루션의 차이점 및 채널 전체에서 맞춤형 오퍼를 제공하는 데 주요 이점이 포함되어 있습니다. [자세히 보기](../experience-decisioning/gs-decision.md)
 
 * [!DNL Journey Optimizer]에서 지원되지 않는 대상자 유형(예: Customer Journey Analytics 대상자)을 대상자 포털의 새 세그먼트 정의로 묶어 활성화하는 방법을 설명하는 대상자 활성화 문서에 새 섹션이 추가되었습니다. [자세히 보기](../audience/target-audiences.md#activation-non-supported)
 
-* 읽기 대상자 여정에서 대기 활동에 멈춰 있는 프로필이 UPS(통합 프로필 서비스)에서 속성을 자동으로 새로 고치는 방법을 설명하는 새로운 섹션이 대기 활동 문서에 추가되었습니다. 이는 대기 노드 이후 여정 실행 중에 프로필 데이터가 변경될 수 있으며, 여정 전체에서 일관된 스냅샷 데이터를 기대하는 경우 예기치 않은 결과가 발생할 수 있음을 명확히 합니다. [자세히 보기](../building-journeys/wait-activity.md#profile-refresh)
+* 읽기 대상자 여정에서 대기 활동에 멈춰 있는 프로필이 UPS(통합 프로파일 서비스)에서 속성을 자동으로 새로 고치는 방법을 설명하는 새로운 섹션이 대기 활동 문서에 추가되었습니다. 이는 대기 노드 이후 여정 실행 중에 프로필 데이터가 변경될 수 있으며, 여정 전체에서 일관된 스냅샷 데이터를 기대하는 경우 예기치 않은 결과가 발생할 수 있음을 명확히 합니다. [자세히 보기](../building-journeys/wait-activity.md#profile-refresh)
 
 * 경로 실험이 게시된 후에는 메타데이터를 편집하지 않도록 경고하는 주의 사항이 &#39;경로 실험&#39; 섹션에 추가되었습니다. 메타데이터를 편집하면 실험 결과 계산 및 보고에 문제가 발생할 수 있습니다. [자세히 보기](../building-journeys/path-experimentation.md)
 
@@ -419,7 +421,7 @@ ht-degree: 89%
 
 * GenStudio for Performance Marketing 작업 페이지가 주요 기능, 일반적인 사용 사례, 사전 요구 사항 및 자주 묻는 질문 등의 새로운 섹션으로 개선되었습니다. [자세히 보기](../integrations/genstudio.md)
 
-* 인바운드 채널이 있는 익명 프로필 타기팅에 대한 가드레일을 가드레일 및 제한 사항 페이지에 추가했습니다. 인증되지 않은 방문자를 타기팅하면 총 참여 가능한 프로필 수가 증가하므로 Adobe에서는 자동 프로필 삭제에 대한 TTL(Time-To-Live)을 설정하여 관련 비용을 관리할 것을 권장합니다. [자세히 보기](../start/guardrails.md#profile-management-inbound)
+* 인바운드 채널이 있는 가명 프로필 타기팅에 대한 가드레일을 가드레일 및 제한 사항 페이지에 추가했습니다. 인증되지 않은 방문자를 타기팅하면 총 참여 가능한 프로필 수가 증가하므로 Adobe에서는 자동 프로필 삭제에 대한 TTL(Time-To-Live)을 설정하여 관련 비용을 관리할 것을 권장합니다. [자세히 보기](../start/guardrails.md#profile-management-inbound)
 
 * 의사 결정 및 코드 기반 경험을 위한 Web SDK 구성에 대한 두 가지 튜토리얼이 이제 코드 기반 구현 방법 샘플 페이지에서 참조됩니다. [자세히 보기](../code-based/code-based-decisioning-implementations.md#tutorials)
 
@@ -444,7 +446,7 @@ ht-degree: 89%
 
 * 백엔드 처리 오버헤드를 허용하기 위해 작성된 콘텐츠를 1MB 미만으로 유지하는 모범 사례를 포함하여 여정 게시에 대한 2MB 메시지 콘텐츠 크기 제한을 문서화한 이메일 가드레일에 새 섹션이 추가되었습니다. [자세히 보기](../start/guardrails.md#message-content-size)
 
-* 스냅샷 타이밍 종속성 및 24시간 전환 확인 제한을 명확하게 하기 위해 대상 읽기 활동의 증분 읽기 옵션에 대한 설명서를 개선했습니다. 여기에는 누락된 프로필을 방지하기 위한 권장 사항이 포함됩니다. [자세히 보기](../building-journeys/read-audience.md)
+* 스냅샷 타이밍 종속성과 24시간 룩백 제한을 명확히 하기 위해 대상 읽기 활동의 증분 읽기 옵션에 대한 설명서를 개선했습니다. 여기에는 누락된 프로필을 방지하기 위한 권장 사항이 포함됩니다. [자세히 보기](../building-journeys/read-audience.md)
 
 * 여러 조회를 묶을 수 없음을 구체적으로 설명하는 메모가 데이터 세트 조회 가드레일에 추가되었습니다. [자세히 보기](../data/lookup-aep-data.md#guidelines)
 
@@ -462,7 +464,7 @@ ht-degree: 89%
 
 * 메시지의 상황별 데이터를 반복 처리하는 방법을 설명하는 새 페이지가 추가되었습니다. 이 안내서에서는 Handlebars 구문을 사용하여 이벤트, 사용자 정의 액션 응답, 데이터 세트 조회 및 기타 상황별 소스에서 가져온 동적 목록을 개인화에 표시하는 방법을 설명합니다. [자세히 보기](../personalization/iterate-contextual-data.md)
 
-* 여정에서 삭제된 이벤트를 식별하는 쿼리가 세그먼트 내보내기 작업 오류, Dispatcher 취소 및 상태 시스템 취소에 대한 적절한 필터를 포함하도록 수정되었습니다. [자세히 보기](../reports/query-examples.md#common-queries)
+* 여정에서 폐기된 이벤트를 식별하는 쿼리가 세그먼트 내보내기 작업 오류, Dispatcher 폐기 및 상태 시스템 폐기에 대한 적절한 필터를 포함하도록 수정되었습니다. [자세히 보기](../reports/query-examples.md#common-queries)
 
 * SQL 코드를 제시하기 전에 더 나은 컨텍스트를 제공하고 각 쿼리가 수행하는 작업을 설명하기 위해 쿼리 예시 설명서의 37개 쿼리 예시 전체에 소개 문장이 추가되었습니다. 이를 통해 사용자의 이해도가 향상되고 각 쿼리를 사용해야 하는 경우에 대한 명확한 지침을 확보할 수 있게 되었습니다. [자세히 보기](../reports/query-examples.md)
 
@@ -484,9 +486,9 @@ ht-degree: 89%
 
 * **formatDate** 도우미 함수 설명서에 새로운 섹션을 추가했습니다. 이 섹션에서는 y, Y, M, d, D와 같은 주요 패턴 기호의 의미를 명확히 설명합니다. [자세히 읽기](../personalization/functions/dates.md#pattern-characters)
 
-* 결정 순위 수식 섹션에 프로필의 우편 번호 및 연간 소득을 기반으로 오퍼를 활성화하는 방법을 보여 주는 PQL 예제가 추가되었습니다. [자세히 보기](../experience-decisioning/ranking/ranking-formulas.md#ranking-formula-examples)
+* 결정 순위 수식 섹션에 프로필의 ZIP 코드 및 연간 소득을 기반으로 오퍼를 높이는 방법을 보여 주는 PQL 예제가 추가되었습니다. [자세히 보기](../experience-decisioning/ranking/ranking-formulas.md#ranking-formula-examples)
 
-* 테스트 모드 섹션에 테스트 모드가 사용자 정의 업로드 대상자 속성 강화를 지원하지 않는다는 제한을 추가했습니다. [자세히 보기](../building-journeys/testing-the-journey.md#important_notes)
+* 여정 테스트 모드 섹션에 테스트 모드가 사용자 정의 업로드 대상자 속성 강화를 지원하지 않는다는 제한을 추가했습니다. [자세히 보기](../building-journeys/testing-the-journey.md#important_notes)
 
 * [의사 결정 관리 가드레일 및 제한 사항](../offers/decision-management-guardrails.md#configurations)과 [결정 가드레일 및 제한 사항](../experience-decisioning/decisioning-guardrails.md#configurations) 페이지에 지원되는 최대 구성 수(20,000개)를 명시하는 섹션을 새로 추가했습니다. 이는 샌드박스에 있는 총 캡핑 규칙 수에 해당합니다.
 
@@ -522,7 +524,7 @@ ht-degree: 89%
 
 * 의사 결정 및 의사 결정 관리 설명서에 [자동 최적화](../experience-decisioning/ranking/auto-optimization-model.md) 및 [개인화된 최적화](../experience-decisioning/ranking/personalized-optimization-model.md) 모델을 성공적으로 학습하기 위한 요구 사항에 대한 정보가 추가되었습니다.
 
-* 대화형 메시지 실행 REST API 호출에 60초 시간 제한이 있으며, 전달을 보장하기 위한 내부 재시도가 있음을 명확히 설명했습니다. [자세히 보기](../campaigns/trigger-campaigns.md)
+* 대화형 메시지 실행 REST API 호출에 60초 시간 제한이 있으며, 게재를 보장하기 위한 내부 재시도가 있음을 명확히 설명했습니다. [자세히 보기](../campaigns/trigger-campaigns.md)
 
 * 결정 항목 컬렉션 페이지에서 규칙을 정의할 때 **CONTAINS** 연산자의 동작을 명확하게 설명하도록 업데이트했습니다. [자세히 보기](../experience-decisioning/collections.md)
 
@@ -540,7 +542,7 @@ ht-degree: 89%
 
     [자세히 보기](../building-journeys/supplemental-identifier.md)
 
-* 캠페인의 최적화 페이지에 이제 여정에서도 최적화를 사용할 수 있다는 사실을 반영하여 업데이트했습니다. [자세히 보기](../content-management/gs-message-optimization.md)
+* 캠페인의 최적화 페이지는 이제 여정에서도 최적화를 사용할 수 있다는 점을 반영하도록 업데이트되었습니다. [자세히 보기](../content-management/gs-message-optimization.md)
 
 * 캠페인에서 메시지 최적화를 활용하는 방법을 설명하는 튜토리얼 비디오 링크를 추가했습니다. [자세히 보기](../content-management/gs-message-optimization.md)
 
@@ -550,7 +552,7 @@ ht-degree: 89%
 
 * [하위 도메인 위임 시작](../configuration/about-subdomain-delegation.md) 및 [하위 도메인 위임](../configuration/delegate-subdomain.md) 페이지를 업데이트하여 다양한 위임 방법과 설정 단계를 보다 잘 보여 줍니다.
 
-* 조각 섹션에 다음과 같은 메모가 추가되었습니다. 여정 또는 캠페인에서 추적을 활성화할 때 조각에 링크가 있고 이 조각을 메시지에 사용하는 경우 이러한 링크가 메시지에 포함된 다른 모든 링크와 같이 이러한 링크가 추적됩니다. [자세히 알아보기](../content-management/create-fragments.md#content)
+* 조각 섹션에 다음과 같은 메모가 추가되었습니다. 여정 또는 캠페인에서 추적이 활성화되어 있을 때 조각에 링크가 있고 이 조각이 메시지에 사용되면 이러한 링크는 메시지에 포함된 다른 모든 링크와 마찬가지로 추적됩니다. [자세히 알아보기](../content-management/create-fragments.md#content)
 
 * [!DNL Journey Optimizer]의 하위 도메인 위임에 적용되는 가드레일 및 제한 사항이 보강되어 하나의 전용 섹션으로 통합되었습니다. [자세히 보기](../configuration/delegate-subdomain.md#guardrails)
 
@@ -628,10 +630,10 @@ ht-degree: 89%
 
 ## 2025년 3월 {#mar-2025}
 
-* 대상자 선별 이벤트에 대한 페이지에 새로운 권장 사항을 업데이트했습니다. [자세히 보기](../building-journeys/audience-qualification-events.md)
+* 대상자 선별 이벤트에 대한 페이지가 새로운 권장 사항으로 업데이트되었습니다. [자세히 보기](../building-journeys/audience-qualification-events.md)
 * 이제 사용자 정의 작업 문제 해결 기능을 모든 고객이 사용할 수 있습니다(GA). [자세히 보기](../action/troubleshoot-custom-action.md)
 * 이제 제품 사용자 인터페이스에서 [데이터 위생]의 이름이 [데이터 라이프사이클]로 변경되었습니다. 이 변경 사항을 반영하여 설명서를 업데이트했습니다. [자세히 보기](../privacy/data-hygiene.md)
-* 누락된 [랜딩 페이지] 기본 제공 권한이 설명서에 추가되었습니다. [자세히 보기](../administration/ootb-permissions.md)
+* 누락된 랜딩 페이지 기본 제공 권한이 설명서에 추가되었습니다. [자세히 보기](../administration/ootb-permissions.md)
 * 반복 캠페인 예약에 대한 메모가 추가되었습니다. [자세히 보기](../campaigns/create-campaign.md)
 * 이메일 메시지에 링크를 삽입하고 추적을 활성화하는 작업에 대한 섹션을 업데이트 및 재구성했습니다. [자세히 보기](../email/message-tracking.md)
 * [!DNL Adobe Journey Optimizer]의 개인화 기능에 대한 섹션이 재구성되고 개선되었습니다. [자세히 보기](../personalization/personalize.md)
@@ -685,18 +687,18 @@ ht-degree: 89%
 * [!DNL Journey Optimizer]에서 사용할 수 있는 모든 통신 채널이 이제 설명서의 전용 섹션에 그룹화되었습니다. [자세히 보기](../channels/gs-channels.md)
 * 프로세스를 보다 명확하게 설명하도록 **코드 기반 경험 구성** 페이지를 개선했습니다. 표면 URI의 정의를 설명하는 섹션이 포함됩니다. [자세히 보기](../code-based/code-based-configuration.md)
 * **웹 채널 구성 만들기** 페이지에서 페이지 일치 규칙을 만드는 단계를 명확하게 설명하도록 업데이트했습니다. 이는 코드 기반 경험 구성에도 적용됩니다. [자세히 보기](../web/web-configuration.md#web-page-matching-rule)
-* 시스템 생성 데이터 세트에 적용될 예정인 TTL(Time-to-Live) 가드레일에 대한 메모를 추가했습니다. [자세히 보기](../data/get-started-datasets.md)
+* 시스템 생성 데이터 세트에 적용될 예정인 TTL(Time-to-Live) 가드레일에 대한 메모가 추가되었습니다. [자세히 보기](../data/get-started-datasets.md)
 * 여정 또는 캠페인의 콘텐츠를 시뮬레이션할 때 **디바이스에서 미리 보기** 옵션을 사용하여 브라우저 또는 모바일 디바이스에서 바로 코드 기반의 개인화된 경험을 미리 보는 방법을 설명하는 새 섹션을 추가했습니다. [자세히 보기](../code-based/test-code-based.md#preview-on-device)
 * 의사 결정에 사용자 정의 업로드 대상자를 활용하는 방법에 대한 새 페이지를 추가했습니다. [자세히 보기](../offers/custom-upload-decisioning.md)
 * [!DNL Journey Optimizer]에서 사용할 수 있는 결정 기능을 소개하는 새 페이지가 추가되었습니다. [자세히 보기](../experience-decisioning/gs-decision.md)
-* 결정 설명서에 가드레일 및 제한 사항이 추가되었습니다. [자세히 보기](../experience-decisioning/gs-experience-decisioning.md#guardrails)
+* Decisioning 설명서에 가드레일 및 제한 사항이 추가되었습니다. [자세히 보기](../experience-decisioning/gs-experience-decisioning.md#guardrails)
 
 ## 2024년 9월 {#sept-2024}
 
 * [!DNL Journey Optimizer] 24년 9월 릴리스의 모든 새로운 기능 및 개선 사항은 설명서에서 자세히 설명합니다. [자세히 보기](release-notes.md)
 * 여정 다시 시도 관리에 대한 섹션을 추가했습니다. [자세히 보기](../building-journeys/read-audience.md#read-audience-retry)
 * 사용자 정의 액션의 캡핑/스로틀링 규칙에 대한 FAQ에서 기본 캡핑 규칙을 언급하도록 업데이트했습니다. [자세히 보기](../configuration/external-systems.md#faq)
-* 액세스 제어 섹션에 AI 어시스턴트 콘텐츠 생성기와 관련된 권한에 대한 정보를 업데이트했습니다. [자세히 보기](../administration/high-low-permissions.md#ai-orchestrated-campaign)
+* 액세스 제어 섹션이 AI 어시스턴트 콘텐츠 생성기와 관련된 권한으로 업데이트되었습니다. [자세히 보기](../administration/high-low-permissions.md#ai-orchestrated-campaign)
 * 이메일 생성을 위한 AI 어시스턴트 콘텐츠 생성기에 대한 비디오를 추가했습니다. [자세히 보기](../content-management/generative-full-content.md#video)
 
 +++

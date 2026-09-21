@@ -12,28 +12,38 @@ exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
 TQID: https://experienceleague.adobe.com/c-KUmfpDqZGIGl5CTOPzisa09sFu-hzTU3DbktO3IXg
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
   - id: d556b755-390a-43f0-be32-a08cf6236126
+    internal-label: Configuration
   - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+    internal-label: Journey management
 subfeature_v2:
   - id: ead8d40a-1b24-451e-a7c4-b2f1acb19f2e
+    internal-label: Journey versions
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+    internal-label: Channel configurations
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Privacy
+source-git-commit: 6ca7376c9b15cbed732e156b5aa9271b58c8d22d
 workflow-type: tm+mt
-source-wordcount: 1398
-ht-degree: 6%
-
+source-wordcount: '1725'
+ht-degree: 5%
 ---
-
 # 아카이브 지원 {#archiving-support}
 
 >[!BEGINSHADEBOX]
@@ -53,6 +63,15 @@ HIPAA와 같은 규정에서는 [!DNL Journey Optimizer]이(가) 개인에게 �
 >[!NOTE]
 >
 >[!DNL Journey Optimizer]은(는) SMS 보관 요구 사항에 대한 지원을 소유하고 있지 않습니다. 전용 아카이브 지원이 필요하면 SMS 공급업체(Sinch, Infobip 또는 Twilio)와 협력하십시오.
+
+아래 표를 사용하여 요구 사항에 적합한 옵션을 식별합니다.
+
+| 요구 사항 | 권장 옵션 | 중요한 구별 |
+| --- | --- | --- |
+| 아웃바운드 이메일 메시지의 숨겨진 사본 보관 | BCC 이메일 | 구성된 사서함에 복사본을 보냅니다. 미러 페이지 URL을 노출하거나 쿼리 가능한 Experience Platform 필드를 만들지 않습니다. |
+| 보낸 이메일 또는 SMS 콘텐츠를 외부 시스템으로 내보내기 | [메시지 내보내기](../configuration/message-export.md) | 다운스트림 내보내기를 위해 AJO 메시지 내보내기 데이터 세트에 전송된 컨텐츠 및 메타데이터를 기록합니다. 미러 페이지 URL을 생성하지 않습니다. |
+| 받는 사람에게 전자 메일의 온라인 버전 표시 | [미러 페이지 링크](../email/message-tracking.md#mirror-page) | 전송 이메일의 일부로 생성되며 지원되는 전송 후 URL 검색 API는 아닙니다. |
+| 개인화되지 않은 메시지 템플릿 또는 게재 메타데이터 저장 | 엔티티 데이터 세트 | 개인이 받은 정확한 개인화된 콘텐츠를 제공하지 않습니다. |
 
 ## 이메일용 BCC 사용 방법 {#bcc-email}
 
@@ -307,3 +326,29 @@ WHERE
   bcc._experience.customerJourneyManagement.messageProfile.messageProfileID = '<x-message-profile-id>'
 ORDER BY mfe.timestamp DESC;
 ```
+
+## 자주 묻는 질문 {#faq}
+
++++ 이메일을 보낸 후 미러 페이지 URL을 검색할 수 있습니까?
+
+현재는 문서화된 공개 API 또는 Adobe Experience Platform 데이터 세트 필드를 통해 제공되지 않습니다. [미러 페이지 URL](../email/message-tracking.md#mirror-page)이(가) 메시지 게재 프로세스의 일부로 생성됩니다. 보낸 콘텐츠를 유지하거나 검사하려면 [메시지 내보내기](message-export.md) 또는 [BCC 보관](#bcc-email)을 사용하세요.
+
++++
+
++++ 미러 페이지 URL을 엔티티 데이터 세트 또는 기타 추적 데이터 세트에서 사용할 수 있습니까?
+
+아니요. [엔터티 데이터 집합](../data/datasets-query-examples.md#entity-dataset)은(는) 메시지 템플릿 및 메타데이터 정보를 제공하지만 받는 사람이 받은 정확한 개인 맞춤화된 콘텐츠의 원본으로 사용해서는 안 됩니다.
+
++++
+
++++ 메시지 내보내기를 사용하여 미러 페이지 URL을 재구성할 수 있습니까?
+
+아니요. [메시지 내보내기](message-export.md)는 다운스트림 내보내기, 보관, 규정 준수 또는 고객 지원 용도로 보낸 메시지 콘텐츠와 메타데이터를 제공합니다. [미러 페이지 URL](../email/message-tracking.md#mirror-page)을(를) 생성하거나 반환하지 않습니다.
+
++++
+
++++ 고객에게 전송된 정확한 메시지를 확인해야 하는 경우 어떤 옵션을 사용해야 합니까?
+
+외부 시스템에 구조화된 보낸 메시지 콘텐츠와 메타데이터가 필요한 경우 [메시지 내보내기](message-export.md)를 사용하십시오. 사서함에 보관된 아웃바운드 전자 메일의 숨겨진 복사본만 필요한 경우 [BCC](#bcc-email)을(를) 사용합니다. 두 옵션 모두 원래 미러 페이지 URL을 검색하지 않습니다.
+
++++

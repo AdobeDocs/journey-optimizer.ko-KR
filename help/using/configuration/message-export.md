@@ -12,26 +12,34 @@ exl-id: 7b50c933-9738-4b1b-acae-08f0a8d41dab
 TQID: https://experienceleague.adobe.com/4i6dFByqNizhrMeQrr32twEPVrg4Jz8J-rgA-sR70Ho
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
   - id: d556b755-390a-43f0-be32-a08cf6236126
+    internal-label: Configuration
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
+    internal-label: Email
 subfeature_v2:
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+    internal-label: Channel configurations
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
+    internal-label: Administration
+source-git-commit: 08d8d79703f5417ecc31cd2a82e11468f124ecb0
 workflow-type: tm+mt
-source-wordcount: 1431
+source-wordcount: '1541'
 ht-degree: 6%
-
 ---
-
 # 메시지 콘텐츠 내보내기 {#message-export}
 
 >[!BEGINSHADEBOX]
@@ -54,6 +62,8 @@ ht-degree: 6%
 이 기능을 사용하면 내보내기로 표시된 [!DNL Journey Optimizer]을(를) 통해 보낸 전자 메일 및 SMS 메시지의 콘텐츠가 [!DNL Experience Platform] [AJO 메시지 내보내기 데이터 세트](message-export-schema.md)에 기록됩니다.
 
 그런 다음 기록은 수집 후 7일 동안 데이터 세트에 유지되며, 이 기간 동안 선택한 외부 시스템으로 내보낼 수 있습니다.
+
+메시지 내보내기는 고객 지원, 규정 준수 또는 다운스트림 시스템 사용 사례와 같이 개인에게 전송된 정확한 컨텐츠를 검토하거나 유지해야 하는 경우에 지원되는 대안입니다. 미러 페이지 URL을 생성하거나 반환하지 않습니다. 조직이 자체 시스템에 정보를 저장하고 표시할 수 있도록 보낸 메시지 콘텐츠 및 관련 메타데이터를 내보냅니다.
 
 ➡️ 일반적인 질문과 대답은 [메시지 내보내기 FAQ](#message-export-faq)를 참조하십시오.
 
@@ -426,6 +436,12 @@ Message Export는 고객이 Adobe 시스템 외부로 메시지 데이터를 이
 
 +++
 
++++ 메시지 내보내기가 미러 페이지 URL을 제공합니까?
+
+아니요. 메시지 내보내기는 AJO 메시지 내보내기 데이터 세트에서 보낸 메시지 콘텐츠 및 관련 메타데이터를 제공합니다. 미러 페이지 URL을 생성하거나 반환하지 않습니다. [미러 페이지에 대해 자세히 알아보기](../email/message-tracking.md#mirror-page)
+
++++
+
 +++ 내보낼 수 없는 메시지
 
 메시지 내보내기에는 다음이 수행되지 않습니다.
@@ -434,6 +450,7 @@ Message Export는 고객이 Adobe 시스템 외부로 메시지 데이터를 이
 * Adobe 시스템에서 무제한 또는 장기 데이터 보존 제공
 * 체험판 환경 제공
 * Adobe 외부 메시지 자동 보관
+* 미러 페이지 URL 생성, 노출 또는 재구성
 
 +++
 

@@ -7,15 +7,15 @@ level: Beginner
 exl-id: e742c04e-2987-4466-84af-bdaf4d714552
 feature_v2:
   - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+    internal-label: Content management
 subfeature_v2:
   - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+    internal-label: Proofs
+source-git-commit: 6ca7376c9b15cbed732e156b5aa9271b58c8d22d
 workflow-type: tm+mt
-source-wordcount: 539
-ht-degree: 15%
-
+source-wordcount: '586'
+ht-degree: 12%
 ---
-
 # 테스트 프로필 데이터를 사용하여 증명 보내기 {#send-proofs}
 
 >[!BEGINSHADEBOX]
@@ -37,7 +37,7 @@ API 트리거 및 액션(예약됨) 캠페인의 경우 [시뮬레이션 API](ht
 
 **빈도 제한 규칙** - 기존의 모든 빈도 제한 규칙이 증명에 적용됩니다. [빈도 제한 규칙](../conflict-prioritization/channel-capping.md)을(를) 설정한 경우(예: 프로필당 최대 전송 수), 이러한 제한은 증명을 보낼 때도 적용됩니다. 테스트 프로필이 이미 빈도 제한 한도에 도달한 경우 증명이 완료된 것으로 표시되지만 이메일이 전달되지 않습니다. 반복적인 테스트의 경우 필요에 따라 고유 테스트 프로필을 사용하거나 증명 시나리오에 대해 빈도 상한을 조정하는 것이 좋습니다.
 
-**미러 페이지** - 전송된 증명에서 미러 페이지 링크가 활성화되지 않았습니다. 최종 메시지에서만 활성화됩니다.
+**미러 페이지** - 증명의 미러 페이지에 대한 링크가 활성화되지 않았습니다. 증명을 사용하면 이메일 렌더링, 콘텐츠, 개인화 및 콘텐츠 변형을 검토할 수 있지만, 최종 메시지가 전송된 후에만 링크가 활성화되므로 미러 페이지 탐색은 검토할 수 없습니다. 시작 전에 미러 페이지 렌더링을 확인하려면 라이브 고객 목록이 아닌 통제되는 소량의 내부 대상자에게 최종 메시지를 전송합니다. [미러 페이지에 대해 자세히 알아보기](../email/message-tracking.md#mirror-page).
 
 **Assets** - Assets 및 이미지에 특정 액세스 가능성 규칙이 있습니다.
 
