@@ -12,30 +12,41 @@ exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 TQID: https://experienceleague.adobe.com/mY-h-cTs9mlZH5XJNS9Yv3pxGVoRn-pBTHAh8TlBi8I
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
+    internal-label: Email
   - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+    internal-label: Content management
   - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+    internal-label: Track and monitor
 subfeature_v2:
   - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
+    internal-label: Performance monitoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+    internal-label: Email marketing
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: cdd844ccf6e77e34cc2f9fff1b0f8096e3798707
+    internal-label: Privacy
+source-git-commit: 813613268cd90d6bb10a2013bcc65b9dcc463955
 workflow-type: tm+mt
-source-wordcount: 1631
-ht-degree: 23%
-
+source-wordcount: '1697'
+ht-degree: 22%
 ---
-
 # 링크 추가 및 메시지 추적 {#tracking}
 
 >[!BEGINSHADEBOX]
@@ -152,7 +163,7 @@ ht-degree: 23%
 
 ## 미러 페이지 링크 {#mirror-page}
 
-미러 페이지는 이메일의 온라인 버전입니다. 미러 페이지에 링크를 추가하는 것은 이메일 마케팅에 도움이 됩니다. 받은 편지함에서 이메일을 보려고 할 때 렌더링에 실패하거나 이미지가 깨지는 등의 문제가 발생하는 경우, 사용자는 이메일의 미러 페이지를 대신 탐색할 수 있습니다. 접근성 개선을 개선하거나 소셜 공유를 장려하기 위해서도 온라인 버전을 제공하는 것이 좋습니다.
+미러 페이지는 이메일의 온라인 버전입니다. 미러 페이지에 링크를 추가하는 것은 이메일 마케팅에 도움이 됩니다. 받은 편지함에서 이메일을 보려고 할 때 렌더링에 실패하거나 이미지가 깨지는 등의 문제가 발생하는 경우, 사용자는 이메일의 미러 페이지를 대신 탐색할 수 있습니다. 접근성 향상을 위해서나 소셜 공유를 장려하기 위해 온라인 버전을 제공하는 것도 좋습니다.
 
 Adobe Journey Optimizer에서 생성한 미러 페이지에는 모든 개인화 데이터가 포함되어 있습니다.
 
@@ -164,13 +175,15 @@ Adobe Journey Optimizer에서 생성한 미러 페이지에는 모든 개인화 
 
 미러 페이지의 보존 기간은 **90일**&#x200B;입니다. 해당 기간 이후에는 미러 페이지를 더 이상 사용할 수 없습니다.
 
+미러 페이지 URL은 현재 Adobe Experience Platform 데이터 집합에서 문서화된 필드로 사용할 수 없으며, [!DNL Journey Optimizer]은(는) 게재 ID, 메시지 ID, 메시지 실행 ID 또는 수신자 ID를 사용하여 검색할 공개 API를 제공하지 않습니다. 받는 사람에게 보낸 콘텐츠를 검토하거나 유지해야 하는 경우 대신 [메시지 내보내기](../configuration/message-export.md) 또는 [BCC 보관](../configuration/archiving-support.md#bcc-email)을 사용하세요.
+
 >[!CAUTION]
 >
->* 미러 페이지 링크는 자동 생성되며 편집할 수 없습니다. 여기에는 원본 이메일을 렌더링하는 데 필요한 모든 암호화 및 개인화된 데이터가 포함되어 있습니다. 그 결과, 값이 큰 개인화된 속성을 사용하면 미러 페이지 URL이 길어질 수 있으므로 최대 URL 길이를 갖는 웹 브라우저에서 링크가 작동하지 않을 수 있습니다.
+>* 미러 페이지 링크는 자동 생성되며 편집할 수 없습니다. 여기에는 원본 이메일을 렌더링하는 데 필요한 모든 암호화된 개인화 데이터가 포함되어 있습니다. 그 결과, 값이 큰 개인화된 속성을 사용하면 미러 페이지 URL이 길어질 수 있으므로 최대 URL 길이를 갖는 웹 브라우저에서 링크가 작동하지 않을 수 있습니다.
 >
 >* 런타임 개인화에 크게 의존하는 전자 메일(예: `#each` 루프, 중첩된 오브젝트, 큰 페이로드 데이터)을 만들 때 특히 페이로드의 광범위한 컨텍스트 데이터를 사용하는 API 트리거 캠페인에서 미러 페이지 URL이 과도하게 커질 수 있습니다. 이로 인해 브라우저나 메일 클라이언트에서 HTTP 오류(404, 422, 502)가 발생할 수 있습니다. Adobe에서는 동적 필드의 폭과 깊이를 제한하고, 복잡한 조각에 대한 의존도를 줄이며, 링크 실패를 방지하기 위해 개인화 구조를 병합할 것을 권장합니다.
 >
->* 테스트 프로필로 보낸 [증명](../content-management/proofs.md)에서 미러 페이지 링크가 활성화되지 않았습니다. 최종 메시지에서만 활성화됩니다.
+>* 여정 [시뮬레이션](../building-journeys/simulate-journey.md)에서 보낸 증명을 포함하여 테스트 프로필로 보낸 [증명](../content-management/proofs.md)에서 미러 페이지에 대한 링크가 활성화되지 않았습니다. 최종 메시지에서만 활성화됩니다.
 
 ### 미러 페이지에서 의사 결정 {#decisioning-mirror-page}
 
@@ -232,7 +245,7 @@ Adobe Journey Optimizer에서 생성한 미러 페이지에는 모든 개인화 
 
    ![](assets/message-tracking-edit-a-link.png)
 
-   추적된 각 URL에 대해 추적 모드를 다음 중 원하는 값으로 설정할 수 있습니다.
+   추적된 각 URL에 대해 추적 모드를 다음 값 중 하나로 설정할 수 있습니다.
 
    * **[!UICONTROL 추적됨]**: 이 URL에 대한 추적을 활성화합니다.
    * **[!UICONTROL 옵트아웃]**: 이 URL을 옵트아웃 또는 구독 취소 URL로 간주합니다.

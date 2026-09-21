@@ -7,15 +7,15 @@ level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
 feature_v2:
   - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+    internal-label: Content management
 subfeature_v2:
   - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+    internal-label: Preview
+source-git-commit: 6ca7376c9b15cbed732e156b5aa9271b58c8d22d
 workflow-type: tm+mt
-source-wordcount: 637
-ht-degree: 100%
-
+source-wordcount: '685'
+ht-degree: 93%
 ---
-
 # 콘텐츠 미리 보기 및 테스트 {#preview-test}
 
 >[!BEGINSHADEBOX]
@@ -48,7 +48,7 @@ ht-degree: 100%
 
 ## 테스트 프로필 데이터 또는 샘플 입력 데이터를 사용한 테스트 {#methods}
 
-Journey Optimizer는 콘텐츠를 테스트할 수 있는 두 가지 경험을 제공합니다.
+Journey Optimizer는 콘텐츠를 테스트할 수 있는 두 가지 방법을 제공합니다.
 
 * **테스트 프로필 데이터를 사용하여 콘텐츠 테스트**
 
@@ -78,10 +78,12 @@ API 트리거 및 액션(예약됨) 캠페인의 경우 [시뮬레이션 API](ht
 
 * **컨텍스트 데이터를 사용한 개인화** - 메시지를 미리 보거나 증명을 보낼 때에는 프로필 개인화 데이터만 표시됩니다. 이벤트 정보와 같이 컨텍스트 데이터를 기반으로 하는 개인화는 여정 컨텍스트에서만 테스트할 수 있습니다. [이 사용 사례](../personalization/personalization-use-case.md)에서 방법을 알아보십시오.
 
-* **여러 조건부 베리에이션이 있는 콘텐츠 미리 보기** - 여러 조건부 베리에이션이 포함된 이메일에 대한 증명을 시뮬레이션 또는 렌더링할 때는 Journey Optimizer에 처리 시간이 더 필요할 수 있습니다. 시간이 초과되거나 오류 메시지가 표시되면 총 베리에이션 수를 줄이거나 조건부 규칙을 단순화하는 것이 좋습니다. [이 페이지](../personalization/dynamic-content.md)에서 조건부 콘텐츠에 대해 자세히 알아보십시오.
+* **여러 조건부 베리에이션이 있는 콘텐츠 미리 보기** - 여러 조건부 베리에이션이 포함된 이메일에 대한 증명을 시뮬레이션 또는 렌더링할 때는 Journey Optimizer에 처리 시간이 더 필요할 수 있습니다. 시간이 초과되거나 오류 메시지가 표시되면 총 변형 수를 줄이거나 조건부 규칙을 단순화하는 것이 좋습니다. [이 페이지](../personalization/dynamic-content.md)에서 조건부 콘텐츠에 대해 자세히 알아보십시오.
+
+* **미러 페이지 제한** - 테스트 프로필 또는 샘플 입력 데이터로 테스트한 콘텐츠 변형에서 전송된 증명을 포함하여 미러 페이지 링크가 증명에서 활성화되지 않습니다. 증명을 사용하면 콘텐츠, 렌더링 및 개인화를 확인할 수 있지만 최종 메시지에서만 활성화되는 미러 페이지 링크는 확인할 수 없습니다. [자세히 알아보기](../email/message-tracking.md#mirror-page)
 
 ## 사용 방법 비디오 {#video-preview}
 
 테스트 프로필을 사용하여 받은 편지함 간에 이메일 렌더링을 테스트하고, 테스트 프로필로 개인화된 이메일을 미리 보고, 증명을 보내는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430340?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425026?quality=12)
