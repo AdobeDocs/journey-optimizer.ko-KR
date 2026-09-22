@@ -13,24 +13,29 @@ version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/8gtrjnNNob-iRXdjSytSYOMyDswVxsrd8knipi4i1gI
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
+    internal-label: Activities
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
+    internal-label: Journeys
 subfeature_v2:
   - id: fa683eda-48de-4558-af32-2673edcd44fe
+    internal-label: Events
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
+    internal-label: Reporting
+source-git-commit: 2af5b87d6136783c4db3106c4deab8038078a2d7
 workflow-type: tm+mt
-source-wordcount: 1971
+source-wordcount: '1988'
 ht-degree: 15%
-
 ---
-
 # 조건 {#conditions}
 
 >[!BEGINSHADEBOX]
@@ -42,7 +47,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_conditions"
 >title="조건"
->abstract="조건을 통해 특정 기준에 따라 여러 경로를 만들어 개인 여정을 어떻게 진행하는지 정의할 수 있습니다. 또한 시간 초과나 오류를 처리하기 위한 대체 경로를 구성하여 원활한 환경을 보장할 수 있습니다. 이제 조건이 이전 조건 활동을 대체하는 최적화 활동으로 구성됩니다."
+>abstract="조건을 사용하면 특정 기준에 따라 여러 경로를 만들어 개인이 여정을 통해 어떻게 진행되는지 정의할 수 있습니다. 또한 시간 초과나 오류를 처리하기 위한 대체 경로를 구성하여 원활한 환경을 보장할 수 있습니다. 이제 조건은 이전 조건 활동을 대체하는 최적화 활동에서 구성됩니다."
 
 **conditions**&#x200B;을(를) 사용하면 특정 기준에 따라 여러 경로를 만들어 개인이 여정을 진행하는 방법을 정의할 수 있습니다. 또한 시간 초과나 오류를 처리하기 위한 대체 경로를 구성하여 원활한 환경을 보장할 수 있습니다.
 
@@ -75,7 +80,7 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->[프로필 저장소](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko#profile-data-store){target="_blank"}에 두 개 이상의 교차 장치 ID가 포함된 프로필에 대해서는 조건 평가가 실패합니다.
+>[프로필 저장소](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}에 두 개 이상의 교차 장치 ID가 포함된 프로필에 대해서는 조건 평가가 실패합니다.
 
 ## 조건 경로 관리 {#condition_paths}
 
@@ -102,7 +107,7 @@ ht-degree: 15%
 >
 >분할 조건에서는 이 옵션을 사용할 수 없습니다. [자세히 알아보기](#percentage_split)
 
-단순 모드에서는 필드 조합을 기반으로 간단한 쿼리를 수행할 수 있습니다. 사용 가능한 모든 필드가 화면 왼쪽에 표시됩니다. 필드를 기본 영역으로 드래그 앤 드롭합니다. 다양한 요소를 결합하려면 서로 인터로크하여 다른 그룹 및/또는 그룹 수준을 만듭니다. 그런 다음 논리 연산자를 선택하여 동일한 수준에서 요소를 결합할 수 있습니다.
+단순 모드에서는 필드 조합을 기반으로 간단한 쿼리를 수행할 수 있습니다. 사용 가능한 모든 필드가 화면 왼쪽에 표시됩니다. 필드를 기본 영역으로 드래그 앤 드롭합니다. 다양한 요소를 결합하려면 서로 맞물리게 하여 서로 다른 그룹 및/또는 그룹 수준을 만듭니다. 그런 다음 논리 연산자를 선택하여 동일한 수준에서 요소를 결합할 수 있습니다.
 
 * **AND** - 두 기준의 교집합. 모든 기준과 일치하는 요소만 고려합니다.
 * **OR** - 두 가지 기준의 결합. 두 기준 중 하나 이상에 일치하는 요소를 고려합니다.
@@ -117,7 +122,7 @@ ht-degree: 15%
 
 작업 또는 조건에 오류가 발생하면 개별 여정이 중지됩니다. **[!UICONTROL 시간 초과 또는 오류 발생 시 대체 경로를 추가]** 확인란을 선택하여 계속하는 방법만 있습니다. [자세히 알아보기](../building-journeys/using-the-journey-designer.md#paths)
 
-단순 편집기에서는 이벤트 및 데이터 소스 카테고리 아래에 여정 속성 카테고리도 있습니다. 이 카테고리에는 지정된 프로필의 여정과 관련된 기술 필드가 포함되어 있습니다. 여정 ID 또는 발생한 특정 오류와 같은 라이브 여정 시스템에서 검색한 정보입니다. [자세히 알아보기](expression/journey-properties.md)
+단순 편집기에서는 이벤트 및 데이터 소스 카테고리 아래에 여정 속성 카테고리도 있습니다. 이 카테고리에는 지정된 프로필의 여정과 관련된 기술 필드가 포함되어 있습니다. 이는 여정 ID 또는 발생한 특정 오류와 같이 시스템이 라이브 여정에서 검색한 정보입니다. [자세히 알아보기](expression/journey-properties.md)
 
 ## 데이터 소스 조건 {#data_source_condition}
 
@@ -179,7 +184,7 @@ ht-degree: 15%
 
 ## 프로필 상한 {#profile_cap}
 
-이 조건 유형을 사용하여 여정 경로에 대해 최대 프로필 수를 설정합니다. 이 한도에 도달하면 입력한 프로필에서 대체 경로를 사용합니다. 이렇게 하면 여정이 정의된 제한을 초과하지 않도록 합니다.
+이 조건 유형을 사용하여 여정 경로에 대해 최대 프로필 수를 설정합니다. 이 한도에 도달하면 들어오는 프로필은 대체 경로를 사용합니다. 이렇게 하면 여정이 정의된 제한을 초과하지 않도록 합니다.
 
 >[!NOTE]
 >
@@ -222,7 +227,12 @@ ht-degree: 15%
 
    >[!NOTE]
    >
-   >대상자 참여 상태가 **실현됨**&#x200B;인 개인만 대상자의 구성원으로 간주됩니다. 대상자를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ko#interpret-segment-results){target="_blank"}를 참조하세요.
+   >대상자가 **실현됨**인 개인만 참여합니다.
+   >상태는 대상의 구성원으로 간주됩니다. 자세한 내용:
+   >대상자를 평가하려면 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}를 참조하세요.
+   >
+   >5,000개의 대상 캐시를 포함한 대상 유효성 검사 가드레일의 경우
+   >제한 및 해결 방법은 [inAudience 함수](functions/functioninaudience.md#guardrails)를 참조하십시오.
 
 ➡️ **실제로 보기:** 시간 및 요일 조건을 사용하여 [평일에만 전자 메일을 보내는 방법](weekday-email-uc.md)을 알아보세요.
 
