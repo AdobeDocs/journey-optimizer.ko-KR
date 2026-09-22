@@ -31,7 +31,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 2af5b87d6136783c4db3106c4deab8038078a2d7
+source-git-commit: de7c17af32c7d198c2dbfce64b8f408dbd96d94d
 workflow-type: tm+mt
 source-wordcount: '1988'
 ht-degree: 15%
@@ -80,7 +80,7 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->[프로필 저장소](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko#profile-data-store){target="_blank"}에 두 개 이상의 교차 장치 ID가 포함된 프로필에 대해서는 조건 평가가 실패합니다.
+>[프로필 저장소](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}에 두 개 이상의 교차 장치 ID가 포함된 프로필에 대해서는 조건 평가가 실패합니다.
 
 ## 조건 경로 관리 {#condition_paths}
 
@@ -227,12 +227,9 @@ ht-degree: 15%
 
    >[!NOTE]
    >
-   >대상자가 **실현됨**&#x200B;인 개인만 참여합니다.
-   >상태는 대상의 구성원으로 간주됩니다. 자세한 내용:
-   >대상자를 평가하려면 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ko#interpret-segment-results){target="_blank"}를 참조하세요.
+   >대상자 참여 상태가 **실현됨**&#x200B;인 개인만 대상자의 구성원으로 간주됩니다. 대상자를 평가하는 방법에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}를 참조하세요.
    >
-   >5,000개의 대상 캐시를 포함한 대상 유효성 검사 가드레일의 경우
-   >제한 및 해결 방법은 [inAudience 함수](functions/functioninaudience.md#guardrails)를 참조하십시오.
+   >5,000개의 대상 캐시 제한 및 해결 방법을 포함한 대상 유효성 검사 가드레일에 대해서는 [inAudience 함수](functions/functioninaudience.md#guardrails)를 참조하십시오.
 
 ➡️ **실제로 보기:** 시간 및 요일 조건을 사용하여 [평일에만 전자 메일을 보내는 방법](weekday-email-uc.md)을 알아보세요.
 
