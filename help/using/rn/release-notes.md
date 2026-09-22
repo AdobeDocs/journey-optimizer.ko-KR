@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 8110755878f5365a05fb51a03a9c66c5eb7115b8
+source-git-commit: c52c89a4404c02a8e416b629368388e6df5cfc98
 workflow-type: tm+mt
-source-wordcount: '3056'
-ht-degree: 64%
+source-wordcount: '3158'
+ht-degree: 62%
 ---
 # 릴리스 정보 {#release-notes}
 
@@ -123,7 +123,7 @@ ht-degree: 64%
 <tr>
 <td>
 <p>이제 여정 고급 표현식 편집기는 AI 기반의 표현식 생성을 통합합니다. 빌드할 표현식을 자연어로 설명하고, 편집기는 즉시 적용하거나 후속 프롬프트를 통해 구체화할 수 있는 사용 준비 코드를 생성합니다.</p>
-<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
+<p>이전에 제한 공급 상태로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 공급).</p>
 <p>자세한 내용은 <a href="../building-journeys/expression/generate-expression.md">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2026년 9월 1일</p>
 </td>
@@ -196,7 +196,30 @@ ht-degree: 64%
 
 ### 오케스트레이션된 캠페인 {#sep-26-orchestrated-campaigns}
 
+<table>
+<thead>
+<tr>
+<th><strong>조정된 캠페인에 대한 경고</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>오케스트레이션된 캠페인은 이제 여정 및 캠페인에서 사용되는 것과 동일한 경고 프레임워크를 통해 <strong>자동화된 경고</strong>를 지원합니다. 캠페인 실행이 실패하고, 시간이 초과되면 경고가 트리거되며, 각 경고에는 발생한 내용, 시기, 장소 및 로그에서 자세한 내용을 확인할 수 있는 캔버스에 대한 직접 링크가 포함됩니다.</p>
+<p>자세한 내용은 <a href="../orchestrated/start-monitor-campaigns.md#alerting">세부 설명서</a>를 참조하십시오.</p>
+<p>사용 가능한 날짜: 2026년 9월 22일</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 * **오케스트레이션된 캠페인의 관계형 데이터가 포함된 조건부 콘텐츠** - 이제 오케스트레이션된 캠페인을 위해 이메일 Designer에서 조건부 콘텐츠를 빌드할 때 표준 프로필 속성뿐만 아니라 프로필과 연결된 관련 레코드와 같은 관계형 데이터에 직접 조건을 빌드할 수 있습니다. [자세히 알아보기](../orchestrated/activities/channels.md#add-personalization)
+
+  사용 가능한 날짜: 2026년 9월 22일
+
+### 개인화 {#sep-26-personalization}
+
+* **AI로 구문 수정** - PQL 구문 유효성 검사 오류가 감지되면 Personalization 편집기에서 직접 문제를 해결하는 데 도움이 되는 &quot;AI로 수정&quot; 옵션을 제공합니다.
 
   사용 가능한 날짜: 2026년 9월 22일
 
