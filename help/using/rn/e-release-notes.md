@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: c52c89a4404c02a8e416b629368388e6df5cfc98
+source-git-commit: 35d350e353029d228ba5d24e13530ebb95c1cfc0
 workflow-type: tm+mt
-source-wordcount: '3373'
+source-wordcount: '3330'
 ht-degree: 9%
 ---
 
@@ -122,7 +122,7 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 <tbody>
 <tr>
 <td>
-<p>이제 이벤트 매핑 생성 또는 편집에서는 새로운 **시각적 매핑 빌더**&#x200B;를 사용합니다. 스키마를 선택하고, 검색 가능한 필드 선택기에서 필드를 선택하고, 각 필드를 행별 연결 상태가 있는 충성도 이벤트 필드에 매핑하고, 언제든지 수동 JSONata 편집으로 전환하는 옵션과 함께 자동 생성된 JSONata 표현식을 미리 봅니다.</p><p>또한 충성도 관리자의 "이벤트 정의"가 사람이 읽을 수 있는 Experience 이벤트 스키마 이름을 보여 주는 목록 보기가 새로 고쳐진 상태로 "이벤트 매핑"으로 이름이 변경되었습니다.</p>
+<p>이제 이벤트 매핑 생성 또는 편집에서는 새로운 **시각적 매핑 빌더**를 사용합니다. 스키마를 선택하고, 검색 가능한 필드 선택기에서 필드를 선택하고, 각 필드를 행별 연결 상태가 있는 충성도 이벤트 필드에 매핑하고, 언제든지 수동 JSONata 편집으로 전환하는 옵션과 함께 자동 생성된 JSONata 표현식을 미리 봅니다.</p><p>또한 충성도 관리자의 "이벤트 정의"가 사람이 읽을 수 있는 Experience 이벤트 스키마 이름을 보여 주는 목록 보기가 새로 고쳐진 상태로 "이벤트 매핑"으로 이름이 변경되었습니다.</p>
 </td>
 </tr>
 </tbody>
@@ -459,8 +459,6 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 </table>
 
 * **Coworker의 의사 결정 규칙 생성** - 이전에 오른쪽 레일을 통해 사용할 수 있었던 **AI 지원 의사 결정 규칙 생성** 경험은 이제 Coworker를 통해 액세스할 수 있습니다. Coworker는 AI로 규칙을 작성하는 방법으로 오른쪽 레일을 대체합니다.
-
-* **규칙 및 등급 수식 시뮬레이션에서 Adobe Experience Platform 프로필 지원** - 이제 규칙 또는 등급 수식 시뮬레이션 시 Adobe Experience Platform 프로필을 수동으로 입력하는 대신 테스트 데이터 변형의 특성을 자동으로 채우도록 선택할 수 있습니다.
 
 ### 보고 {#sep-26-reporting}
 

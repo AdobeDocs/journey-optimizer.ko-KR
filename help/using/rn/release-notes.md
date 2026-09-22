@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 777b1057b68827000c8c20db9678e8b5473b1c42
+source-git-commit: 35d350e353029d228ba5d24e13530ebb95c1cfc0
 workflow-type: tm+mt
-source-wordcount: '3223'
-ht-degree: 61%
+source-wordcount: '3274'
+ht-degree: 60%
 ---
 # 릴리스 정보 {#release-notes}
 
@@ -224,6 +224,12 @@ ht-degree: 61%
 ### 개인화 {#sep-26-personalization}
 
 * **AI로 구문 수정** - PQL 구문 유효성 검사 오류가 감지되면 Personalization 편집기에서 직접 문제를 해결하는 데 도움이 되는 &quot;AI로 수정&quot; 옵션을 제공합니다.
+
+  사용 가능한 날짜: 2026년 9월 22일
+
+### 결정 {#sep-26-decisioning}
+
+* **규칙 및 등급 수식 시뮬레이션에서 Adobe Experience Platform 프로필 지원** - 이제 규칙 또는 등급 수식 시뮬레이션 시 Adobe Experience Platform 프로필을 수동으로 입력하는 대신 테스트 데이터 변형의 특성을 자동으로 채우도록 선택할 수 있습니다. [자세히 알아보기](../experience-decisioning/ranking/ranking-formulas.md#simulate-ranking-formula)
 
   사용 가능한 날짜: 2026년 9월 22일
 
