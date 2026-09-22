@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 여정 속성 정의
-description: ' [!DNL Adobe Journey Optimizer]을(를) 사용하여 여정의 속성을 설정하는 방법 알아보기'
+description: '[!DNL Adobe Journey Optimizer]을(를) 사용하여 여정의 속성을 설정하는 방법 알아보기'
 feature: Journeys, Get Started
 topic: Content Management
 role: User
@@ -13,28 +13,37 @@ version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/fDzEwuisEjAKvpIs9SKoz-9IIJXJQ-md9FlCbWQOJz8
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
+    internal-label: Activities
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
+    internal-label: Journeys
   - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+    internal-label: Journey management
 subfeature_v2:
   - id: ba62ad25-65cb-4ea9-b7aa-0fa87c4a9fa0
+    internal-label: Journey properties
   - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+    internal-label: Best practices
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 8c14664fb014f278729de570a09132b2dde90991
+    internal-label: Personalization
+source-git-commit: 662c7a088da074bc13520023ead70d8a7ca7a2bf
 workflow-type: tm+mt
-source-wordcount: 4644
+source-wordcount: '4716'
 ht-degree: 13%
-
 ---
-
 # 여정 속성 정의 {#jo-properties}
 
 >[!BEGINSHADEBOX]
@@ -117,7 +126,7 @@ ht-degree: 13%
 >id="ajo_journey_properties_entrance"
 >title="재진입 허용"
 >abstract="기본적으로 새 여정은 재진입을 허용합니다. **재진입 허용**  옵션을 선택 해제하면 예를 들어 매장에 입장할 때 일회성 선물을 제공하는 경우처럼 사용자가 여정에 다시 진입하는 것을 방지할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="프로필 시작 관리"
+>additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="프로필 진입 관리"
 
 기본적으로 새 여정은 재진입을 허용합니다. 예를 들어, 한 사람이 상점에 들어갈 때 일회성 선물을 제공하려는 경우 &quot;한 번&quot; 여정에 대해 **재입장 허용** 옵션의 선택을 취소할 수 있습니다.
 
@@ -127,7 +136,7 @@ ht-degree: 13%
 >id="ajo_journey_properties_re-entrance_wait"
 >title="재진입 대기 기간"
 >abstract="재진입 대기 기간은 프로필이 단일 여정에 다시 진입하기까지 기다려야 하는 시간입니다. 이렇게 하면 선택한 기간 동안 사용자가 여정에 재진입하는 것을 방지할 수 있습니다. 최대 기간은 90일입니다."
->additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="프로필 시작 관리"
+>additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="프로필 진입 관리"
 
 **재입력 허용** 옵션이 활성화되면 **재입력 대기 기간** 필드가 표시됩니다. 이 필드에서는 단일 여정(이벤트 또는 대상자 선별로 시작)에서 프로필이 다시 여정에 들어오려면 기다려야 하는 시간을 정의할 수 있습니다. 이를 통해 동일한 이벤트에 대해 여정을 여러 번 트리거하는 오류를 방지할 수 있습니다. 이 필드는 기본적으로 5분으로 설정되어 있습니다. 최대 기간은 90일입니다.
 
@@ -146,15 +155,15 @@ ht-degree: 13%
 >title="현재 여정 페이로드 크기"
 >abstract="구성된 제한과 비교한 여정 페이로드의 현재 크기를 표시합니다. 이 표시기를 사용하여 게시 전에 여정 복잡성을 모니터링하고 페이로드 크기 제한 초과로 인한 오류를 방지할 수 있습니다."
 
-여정 속성 패널의 **[!UICONTROL 현재 여정 페이로드 크기]** 필드에는 구성된 제한과 관련된 여정 페이로드의 현재 크기(예: *1.5MB(2MB 중)*)가 표시됩니다. 이 읽기 전용 표시기는 여정 작성 단계에서 볼 수 있습니다.
+여정 속성 패널의 **[!UICONTROL 현재 여정 페이로드 크기]** 필드에는 구성된 제한과 관련된 serialize된 여정 정의의 현재 크기(예: 2MB 중 *1.5MB*)가 표시됩니다. 이 읽기 전용 표시기는 여정 작성 중에 사용할 수 있습니다.
 
 ![여정 속성 패널의 현재 여정 페이로드 크기 표시기](assets/journey-payload-size.png){width="50%" zoomable="yes"}
 
-이 정보를 사용하여 게시하기 전에 여정의 복잡성을 모니터링합니다. 페이로드 크기가 제한에 근접하거나 초과할 경우 여정 게시가 실패합니다. 크기를 줄이려면 여정 논리를 단순화하거나 활동 수를 줄이는 것이 좋습니다.
+값은 활동, 표현식, 조건, 데이터 매핑, 매개 변수 및 작업을 포함하여 여정의 저장된 구성을 반영합니다. 활동 개수에서만 계산되지 않습니다. 페이로드가 구성된 한도에 가까워지면 Journey Optimizer에 경고가 표시됩니다. 페이로드가 구성된 제한에 도달하거나 초과할 경우 여정 저장 또는 게시가 차단됩니다.
 
-기본 제한은 4MB입니다. 조직에 대한 더 높은 제한을 요청해야 하는 경우 Adobe 고객 지원 센터에 문의하십시오.
+기본 최대 여정 페이로드 크기는 **2MB(2,000,000바이트)**&#x200B;입니다. 일부 조직에는 Adobe에서 구성한 사용자 정의 제한이 있을 수 있습니다. 조직별 제한에 대한 정보가 필요한 경우 Adobe 담당자에게 문의하십시오.
 
-임계값, 경고 및 오류 메시지, 문제 해결 단계에 대한 자세한 내용은 [여정 페이로드 크기 유효성 검사](../start/guardrails.md#journey-payload-size) 및 [일반 여정 보호](../start/guardrails.md#journeys-guardrails-journeys)를 참조하세요.
+임계값, 가장 큰 기여 활동, 오류 동작 및 감소 전략에 대한 자세한 내용은 [여정 페이로드 크기 유효성 검사](../start/guardrails.md#journey-payload-size) 및 [일반 여정 보호](../start/guardrails.md#journeys-guardrails-journeys)를 참조하십시오. 이메일 작업에서 참조하는 이메일 콘텐츠와 같은 참조된 엔티티는 직렬화된 여정 페이로드에 포함되지 않습니다. 이메일 메시지 콘텐츠에는 별도의 크기 가드레일이 적용됩니다.
 
 ## 여정 및 프로필 시간대 {#timezone}
 
@@ -172,7 +181,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_end_date"
 >title="종료 날짜"
->abstract="종료 날짜는 여정이 종료되는 날짜입니다. 활성화된 프로필은 이 날짜에 자동으로 여정에서 종료되며 새로 진입할 수 없습니다."
+>abstract="종료 날짜는 여정이 종료되는 날짜입니다. 활성 프로필은 이 날짜에 자동으로 여정에서 종료되며 새로 진입할 수 없습니다."
 
 기본적으로 프로필은 게시되는 즉시 여정을 입력할 수 있으며 [전역 여정 시간 제한](#global_timeout)에 도달할 때까지 유지될 수 있습니다. 유일한 예외는 **되풀이 시 강제 재입력**&#x200B;이 활성화된 되풀이 대상 여정 읽기이며, 다음 발생의 시작 날짜에 끝납니다.
 
@@ -469,9 +478,9 @@ ht-degree: 13%
 
 * 최대 가용량 규칙에 따라 이 여정을 대상의 일부에 제외하려면 **규칙 집합**&#x200B;을 적용하세요. [규칙 세트 작업 방법 알아보기](../conflict-prioritization/rule-sets.md)
 
-* 여정에 0에서 100 사이의 **우선 순위 점수**&#x200B;를 지정하십시오. 숫자가 높을수록 우선 순위가 높다는 뜻입니다. 여기에 삽입된 우선 순위 값은 이 여정에 포함된 모든 인바운드 액션(예: 인앱)에 상속됩니다. [우선 순위 점수를 사용하여 작업하는 방법을 알아봅니다](../conflict-prioritization/priority-scores.md)
+* 여정에 0에서 100 사이의 **우선 순위 점수**&#x200B;를 지정하십시오. 숫자가 높을수록 우선 순위가 높다는 뜻입니다. 여기에 삽입된 우선순위 값은 이 여정에 포함된 모든 인바운드 액션(예: 인앱)에 상속됩니다. [우선 순위 점수를 사용하여 작업하는 방법을 알아봅니다](../conflict-prioritization/priority-scores.md)
 
-  동일한 인바운드 채널 구성이 다른 캠페인이나 여정에 사용되는 경우, 우선 순위 점수가 가장 높은 인바운드 액션이 수신자에게 표시됩니다. 여러 여정 또는 캠페인의 점수가 동일한 경우, 가장 최근에 수정된 요소가 선택됩니다.
+  동일한 인바운드 채널 구성이 다른 캠페인이나 여정에 사용되는 경우, 우선순위 점수가 가장 높은 인바운드 액션이 수신자에게 표시됩니다. 여러 여정 또는 캠페인의 점수가 동일한 경우, 가장 최근에 수정된 요소가 선택됩니다.
 
 * 다른 여정, 캠페인 또는 채널 구성과의 **충돌 보기**. 대상, 시작 및 종료 날짜, 채널 구성, 채널 또는 규칙 세트에 대한 겹침을 식별하려면 여기에서 잠재적인 충돌을 볼 수 있습니다. [여정에서 잠재적인 충돌을 식별하는 방법에 대해 알아봅니다](../conflict-prioritization/conflicts.md)
 
@@ -526,7 +535,7 @@ ht-degree: 13%
 
 **페이로드 크기 때문에 여정을 게시하지 못하는 이유는 무엇입니까?**
 
-**[!UICONTROL 현재 여정 페이로드 크기]** 표시기는 구성된 제한(기본적으로 4MB)에 대한 여정 페이로드를 표시합니다. 페이로드가 제한에 근접하거나 초과할 경우 게시에 실패합니다. 여정 논리를 단순화하거나 활동 수를 줄여 크기를 줄이거나 Adobe 고객 지원 센터에 문의하여 더 높은 제한을 요청하십시오. [여정 페이로드 크기](#journey-payload-size), [여정 페이로드 크기 유효성 검사](../start/guardrails.md#journey-payload-size) 및 [일반 여정 보호](../start/guardrails.md#journeys-guardrails-journeys)를 참조하십시오.
+**[!UICONTROL 현재 여정 페이로드 크기]** 표시기는 구성된 제한(**2MB(기본적으로 2,000,000바이트)**)에 대해 직렬화된 여정 정의를 표시합니다. 값은 활동 카운트만 반영하는 것이 아니라 여정의 저장된 구성을 반영합니다. 페이로드가 제한의 90%에 도달하면 경고가 표시됩니다. 저장 또는 게시는 100% 이상에서 차단됩니다. 표현식, 조건, 데이터 매핑 또는 매개 변수를 단순화하여 크기를 줄입니다. [여정 페이로드 크기](#journey-payload-size), [여정 페이로드 크기 유효성 검사](../start/guardrails.md#journey-payload-size) 및 [일반 여정 보호](../start/guardrails.md#journeys-guardrails-journeys)를 참조하십시오.
 
 **내 여정에서 사용하는 병합 정책은 무엇입니까?**
 

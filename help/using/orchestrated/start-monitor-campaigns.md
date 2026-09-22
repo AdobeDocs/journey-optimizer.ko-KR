@@ -10,22 +10,27 @@ version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ZFSEl140wBA-sWfOVUMk9U5La9sJSlgGrNMhSF4Xp4s
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
+    internal-label: Activities
   - id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
+    internal-label: Campaign Orchestration
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Orchestration activities
+source-git-commit: c52c89a4404c02a8e416b629368388e6df5cfc98
 workflow-type: tm+mt
-source-wordcount: 1625
-ht-degree: 22%
-
+source-wordcount: '1679'
+ht-degree: 21%
 ---
-
 # 오케스트레이션된 캠페인 시작 및 모니터링 {#start-monitor}
 
 >[!BEGINSHADEBOX]
@@ -173,7 +178,7 @@ ht-degree: 22%
 | 시각적 표시기 | 설명 |
 |-----|------------|
 | ![보류 중인 상태](assets/activity-status-pending.png){zoomable="yes"}{width="70%"} | 활동이 현재 실행 중입니다. |
-| ![주의 필요 상태 표시기](assets/activity-status-orange.png){zoomable="yes"}{width="70%"} | 이 활동에는 주의가 필요합니다. 이 주의에는 게재 전송을 확인하거나 필요한 조치를 취하는 작업이 포함될 수 있습니다. |
+| ![주의 필요 상태 표시기](assets/activity-status-orange.png){zoomable="yes"}{width="70%"} | 이 활동에는 주의가 필요합니다. 여기에는 게재 전송을 확인하거나 필요한 조치를 취하는 작업이 포함될 수 있습니다. |
 | ![오류 상태](assets/activity-status-red.png){zoomable="yes"}{width="70%"} | 활동에서 오류가 발생했습니다. 이 문제를 해결하려면 오케스트레이션된 캠페인 로그에서 자세한 내용을 확인하십시오. |
 | ![성공 상태](assets/activity-status-green.png){zoomable="yes"}{width="70%"} | 활동이 성공적으로 실행되었습니다. |
 
@@ -198,6 +203,12 @@ ht-degree: 22%
 * **[!UICONTROL 작업]** 탭에서는 활동의 단계별 실행 시퀀스를 자세히 설명합니다.
 
 두 탭 모두에서 표시된 열과 그 순서를 선택하고 필터를 적용하고 검색 필드를 사용하여 원하는 정보를 빠르게 찾을 수 있습니다.
+
+### 경고 설정 {#alerting}
+
+시스템 경고는 오케스트레이션된 캠페인의 문제에 대한 사전 알림을 제공하므로 모니터링 보기를 계속 확인하지 않고도 조사하고 시정 조치를 취할 수 있습니다. **[!UICONTROL 관리]** > **[!UICONTROL 경고]**&#x200B;에서 사용 가능한 경고를 보고 관리할 수 있습니다.
+
+사용 가능한 경고 및 구독 방법에 대한 자세한 내용은 [시스템 경고 액세스 및 구독](../reports/alerts.md)을 참조하십시오.
 
 ## 다음 단계 {#next}
 

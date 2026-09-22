@@ -10,26 +10,33 @@ version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/WycI0aO1o4KFH1gNieayuhpyNZuoVxL6zhGJBNOht8g
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+    internal-label: Decisioning
   - id: a984631b-2bae-4860-9b15-69c41a799dcb
+    internal-label: APIs and SDKs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+    internal-label: Decisioning API
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Edge Decisioning
+source-git-commit: 35d350e353029d228ba5d24e13530ebb95c1cfc0
 workflow-type: tm+mt
-source-wordcount: 2024
+source-wordcount: '2134'
 ht-degree: 4%
-
 ---
-
 # 순위 공식 만들기 {#create-ranking-formulas}
 
 >[!BEGINSHADEBOX]
@@ -298,6 +305,8 @@ if( offer._luma.offerDetails.zipCode = _luma.zipCode,luma.annualIncome / 1000 + 
 
 선택 전략에 순위 공식을 적용하기 전에 샘플 또는 생성된 데이터로 순위 공식을 테스트하여 순위 결과를 확인하고 예상되는 비헤이비어를 전달하는지 확인할 수 있습니다.
 
+### 시뮬레이션 작업 공간 액세스
+
 1. 기존 수식을 열거나 [새 수식을 만들기](#create-ranking-formula)한 다음 **[!UICONTROL 수식 시뮬레이션]** 단추를 클릭합니다.
 
    ![](../assets/ranking-formula-simulate-button.png)
@@ -310,7 +319,9 @@ if( offer._luma.offerDetails.zipCode = _luma.zipCode,luma.annualIncome / 1000 + 
    * **순위 식**: 참조용 수식 식을 표시합니다.
    * **시뮬레이션 결과**: 변형을 선택할 때 등급 오퍼를 표시합니다.
 
-1. 아래 두 가지 방법 중 하나를 사용하여 테스트 변형을 추가합니다.
+### 테스트 변형 추가
+
+1. 다음 방법 중 하나를 사용하여 테스트 변형을 추가합니다.
 
    * 수동 샘플을 만들려면 **[!UICONTROL 샘플 만들기]** 단추를 선택한 다음 테스트에 사용할 오퍼 항목을 선택하십시오.
    * AI를 사용하여 테스트 변형을 생성하려면 **[!UICONTROL 생성]** 단추를 클릭하십시오.
@@ -320,6 +331,24 @@ if( offer._luma.offerDetails.zipCode = _luma.zipCode,luma.annualIncome / 1000 + 
    >AI 기반 테스트 변형 생성은 Adobe AI 기능에 액세스할 수 있는 조직에서 사용할 수 있습니다.
 
 변형 테스트 섹션은 선택한 항목 또는 생성된 샘플로 자동으로 채워집니다. 각 변형에는 표현식에 사용된 속성이 포함됩니다. 필드 값을 직접 편집하여 다른 시나리오를 시뮬레이션할 수 있습니다.
+
+### Adobe Experience Platform 테스트 프로필로 변형 채우기
+
+변형을 만들거나 생성하면 기존 [Adobe Experience Platform 테스트 프로필](../../audience/creating-test-profiles.md)의 특성을 사용하여 해당 특성을 채울 수 있습니다.
+
+1. 변형에서 **[!UICONTROL 편집]**&#x200B;을 선택한 다음 **[!UICONTROL AEP 프로필 선택]** 단추를 클릭합니다.
+
+   ![](../assets/ranking-formula-simulate-aep.png)
+
+1. ID 네임스페이스를 선택하고 해당 ID 값을 입력합니다.
+
+   **최근 항목** 영역에는 적용한 프로필이 나열됩니다. 최근 프로필은 조직 및 샌드박스당 브라우저에 저장되며 최신 프로필로 순서가 지정되며 10개의 항목으로 제한됩니다.
+
+   ![](../assets/ranking-formula-simulate-aep-recents.png)
+
+1. **[!UICONTROL 프로필 선택]** 단추를 클릭합니다. 테스트 프로필의 속성이 선택한 변형에 추가됩니다.
+
+### 시뮬레이션 결과 보기
 
 시뮬레이션의 순위 결과를 보려면 목록에서 테스트 변형을 선택합니다. 시뮬레이션 결과 영역에는 등급이 매겨진 오퍼와 해당 점수가 표시되며, 사용자의 공식이 변형 데이터를 기반으로 항목의 등급을 매기는 방식을 보여 줍니다.
 

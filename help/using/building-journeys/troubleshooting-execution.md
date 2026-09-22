@@ -13,27 +13,35 @@ version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/2YZ6Cjph9Le-HtwKdz4GBgEdhwIMPpVtj9yWKlV3hQ4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
+    internal-label: Journeys
   - id: d556b755-390a-43f0-be32-a08cf6236126
+    internal-label: Configuration
 subfeature_v2:
   - id: d08afb72-92f6-4856-88e3-11ec34313c2f
+    internal-label: Event configuration
   - id: fa683eda-48de-4558-af32-2673edcd44fe
+    internal-label: Events
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 72ac138032bace23ede2b86d56c36e20d943f834
+    internal-label: Optimization
+source-git-commit: 050335d3a6f4c8fa263ff1c381f6ee20c15c5af7
 workflow-type: tm+mt
-source-wordcount: 2385
+source-wordcount: '2411'
 ht-degree: 10%
-
 ---
-
 # 라이브 여정 실행 문제 해결 {#troubleshooting-execution}
 
 >[!BEGINSHADEBOX]
@@ -72,7 +80,7 @@ ID 네임스페이스는 테스트 프로필을 고유하게 식별하는 데 �
 * 페이로드 미리 보기에서 페이로드를 복사하기 전에 이벤트를 저장했습니까?
 * 이벤트 페이로드에 이벤트 ID가 포함되어 있습니까?
 * 정확한 URL을 입력했습니까?
-* 이벤트 구성 창에서 페이로드 구조 미리 보기를 사용하여 수집 API 스트리밍 페이로드 구조를 따랐습니까? [이 페이지](../event/about-creating.md#preview-the-payload)를 참조하십시오.
+* 이벤트 구성 창에서 페이로드 구조 미리 보기를 사용하여 스트리밍 수집 API 페이로드 구조를 따랐습니까? [이 페이지](../event/about-creating.md#preview-the-payload)를 참조하십시오.
 * 이벤트 헤더에 올바른 키-값 쌍을 사용했습니까?
 
   ```
@@ -130,7 +138,7 @@ ID 네임스페이스는 테스트 프로필을 고유하게 식별하는 데 �
 
 ## 사람들이 여정을 탐색하는 방법 확인 {#checking-how-people-navigate-through-the-journey}
 
-여정 보고는 여정 내에서 개인 사용자의 진행 상황을 측정합니다. 사람들이 어디에서 왜 멈췄는지를 쉽게 파악할 수 있습니다.
+여정 보고는 여정 내에서 개인 사용자의 진행 상황을 측정합니다. 사람이 어디에서 왜 멈췄는지 쉽게 파악할 수 있습니다.
 
 확인할 몇 가지 사항은 다음과 같습니다.
 
@@ -162,7 +170,7 @@ ID 네임스페이스는 테스트 프로필을 고유하게 식별하는 데 �
 
 >[!NOTE]
 >
->기본 Journey Optimizer 채널 작업의 경우 메시지 피드백 이벤트 데이터 세트를 쿼리하여 `sent` 또는 `bounce`과(와) 같은 게재 상태를 확인하십시오. 사용자 지정 작업의 경우 여정 단계 이벤트 데이터 세트를 쿼리하여 Journey Optimizer이 작업을 성공적으로 실행했는지 확인합니다. 즉, HTTP 호출이 성공해도 외부 시스템에서 메시지를 전달했는지 자체적으로 확인하지 않습니다. 사용 사례에 맞는 [올바른 데이터 세트를 선택](../data/datasets-query-examples.md#choose-the-correct-dataset)하는 방법에 대해 알아봅니다.
+>기본 Journey Optimizer 채널 작업의 경우 메시지 피드백 이벤트 데이터 세트를 쿼리하여 `sent` 또는 `bounce`과(와) 같은 게재 상태를 확인하십시오. Adobe Journey Optimizer에서 `sent`은(는) 성공적인 메시지 게재 결과에 대한 관련 상태입니다. `delivered` 값은 Adobe Journey Optimizer 메시지 피드백 이벤트 데이터 세트에서 사용되지 않습니다. 사용자 지정 작업의 경우 여정 단계 이벤트 데이터 세트를 쿼리하여 Journey Optimizer이 작업을 성공적으로 실행했는지 확인합니다. 즉, HTTP 호출이 성공해도 외부 시스템에서 메시지를 전달했는지 자체적으로 확인하지 않습니다. 사용 사례에 맞는 [올바른 데이터 세트를 선택](../data/datasets-query-examples.md#choose-the-correct-dataset)하는 방법에 대해 알아봅니다.
 
 ## 여정 단계 이벤트의 중복 항목 이해 {#duplicate-step-events}
 

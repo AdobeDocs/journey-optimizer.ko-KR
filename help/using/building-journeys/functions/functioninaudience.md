@@ -11,22 +11,26 @@ version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/DU8HtduB2-GmakiaHBMFU1vzBBPoVTNvrOCPWQrr5SU
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+    internal-label: Guardrails and limitations
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
+    internal-label: Journeys
 subfeature_v2:
   - id: fa683eda-48de-4558-af32-2673edcd44fe
+    internal-label: Events
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
+    internal-label: Customer experience
+source-git-commit: e331eb677eaf9b8f35dc20bf7bb9b36228819ce3
 workflow-type: tm+mt
-source-wordcount: 754
+source-wordcount: '827'
 ht-degree: 2%
-
 ---
-
 # inAudience 함수 {#inAudience}
 
 `inAudience` 함수는 여정의 개인이 특정 대상에 속하는지 여부를 확인할 수 있는 Adobe Experience Platform 함수입니다. 이 강력한 기능을 사용하면 대상자 멤버십을 기반으로 개인화된 여정 경로를 만들 수 있으므로 고객 경험 내에서 정교한 세분화 및 타겟팅을 가능하게 합니다.
@@ -58,7 +62,7 @@ ht-degree: 2%
 
 +++매개변수
 
-| 매개변수 | 설명 | 유형 |
+| 매개 변수 | 설명 | 유형 |
 |--- |--- |--- |
 | 대상자 | 대상자 이름 | `<string>` |
 
@@ -122,6 +126,12 @@ inAudience("Unsubscribed") == false
 **병합 정책 고려 사항:**
 * `inAudience` 함수와 함께 여러 대상을 사용하는 경우 병합 정책과 일치하지 않으면 오류나 경고가 발생할 수 있습니다
 * 병합 정책 동작에 대한 자세한 내용은 [여정 속성](../journey-properties.md)을 참조하세요.
+
+**유효성 검사를 위한 대상 캐시:**
+
+* 5,000개 이상의 대상이 포함된 샌드박스에서 `inAudience`을(를) 사용하는 경우 유효성 검사가 가장 최근에 업데이트된 5,000개의 대상만 포함된 캐시를 확인하므로 오래된 대상이 여정 작성 중에 거부될 수 있습니다.
+* 이 문제를 해결하려면 설명 업데이트와 같이 대상을 약간 변경하거나 이전 대상을 정리하여 합계를 제한 이하로 유지합니다.
+* [조건에서 대상 사용](../conditions.md#using-a-segment)에서 자세히 알아보세요.
 
 **전파 시간:** {#propagation-timing}
 

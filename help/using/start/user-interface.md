@@ -47,10 +47,10 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 7be72329724a84ea8fae855cf9a77244ea9cbd34
+source-git-commit: 1017a1cc9bdcb4fb82faaca6d1fc414810d42af2
 workflow-type: tm+mt
-source-wordcount: '1738'
-ht-degree: 98%
+source-wordcount: '1728'
+ht-degree: 96%
 ---
 # 인터페이스 살펴보기 {#user-interface}
 
@@ -359,10 +359,6 @@ AI 어시스턴트는 즉각적인 도움과 운영 인사이트를 제공합니
 >title="Webhook 활성화"
 >abstract="Webhook를 활성화하여 메시지 실행 상태에 대한 실시간 피드백을 받습니다. 이 옵션을 활성화하기 전에 **관리** / **채널** / **피드백 Webhook** 메뉴에서 Webhook를 구성했는지 확인해야 합니다."
 
->[!CONTEXTUALHELP]
->id="ajo_channels_feedback_webhook_settings_create"
->title="피드백 Webhook"
->abstract="피드백 Webhook를 사용하면 트랜잭션 API 트리거 캠페인을 통해 보낸 메시지의 실행 상태에 대한 실시간 피드백을 받을 수 있습니다. 조직 + 샌드박스 조합별로 Webhook 구성 하나씩만 허용됩니다."
 
 
 <!-- JOURNEYS - GENERATE EXPRESSIONS WITH AI -->
@@ -403,6 +399,13 @@ AI 어시스턴트는 즉각적인 도움과 운영 인사이트를 제공합니
 >id="ajo_admin_sms_webhook_relay_url"
 >title="릴레이 대상 URL"
 >abstract="Journey Optimizer가 각 수신 메시지를 릴레이하기 위해 호출하는 HTTPS 엔드포인트입니다. Journey Optimizer는 수신 메시지마다 여기에 별도 HTTP POST를 전송합니다. 이는 사용자 정의 인증 아래에 있는 인증 URL과는 다르며, 액세스 토큰 확보에만 사용되고 메시지 수신에는 사용되지 않습니다."
+
+<!--DOCAC-15748 Set as default webhook-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_webhook_default_webhook"
+>title="기본값으로 설정"
+>abstract="공급자로부터 받은 공급자 피드백 및 인바운드 메시지 처리에 일반 웹후크 URL을 사용하려면 이 옵션을 활성화하십시오."
 
 <!--DOCAC-15698 Implement contextual help for Inbound Activity Deactivation activity-->
 

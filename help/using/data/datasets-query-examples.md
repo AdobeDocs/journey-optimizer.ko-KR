@@ -12,28 +12,38 @@ exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 TQID: https://experienceleague.adobe.com/bbZLNKJ3wg--z3PcVQ4tTvMtuyR7LMsh7qJjrlZ6L7Y
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
+    internal-label: Data management activity
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
 subfeature_v2:
   - id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371
+    internal-label: Journey Optimizer schemas
   - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
+    internal-label: Datasets
   - id: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
+    internal-label: Data ingestions
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 8a99c4bc5cfca8da8a442008da3c40710954abb8
+    internal-label: Data management
+source-git-commit: e331eb677eaf9b8f35dc20bf7bb9b36228819ce3
 workflow-type: tm+mt
-source-wordcount: 1780
+source-wordcount: '1770'
 ht-degree: 1%
-
 ---
-
 # 쿼리 예 {#query-examples}
 
 >[!BEGINSHADEBOX]
@@ -126,17 +136,17 @@ _인터페이스의 이름: AJO 메시지 피드백 이벤트 데이터 세트_
 
 AJO 메시지 피드백 이벤트 데이터 세트는 Adobe Journey Optimizer에서 생성된 메시지 게재 피드백을 저장합니다. 이메일, SMS/RCS/MMS 및 DM을 포함한 메시지 채널 전반에 대한 게재 피드백 분석을 지원합니다. 피드백 이벤트는 보고 및 대상자 만들기 사용 사례에 사용할 수 있습니다.
 
-관련 스키마는 AJO 메시지 피드백 이벤트 스키마입니다.
+관련 스키마는 `AJO Message Feedback Event` 스키마입니다.
 
 >[!NOTE]
 >
->이 데이터 세트는 일괄 처리 수집을 사용합니다. 이 데이터 세트를 쿼리하거나 보고 목적으로 사용할 때 최대 2시간의 데이터 지연이 예상됩니다.
+>* Adobe Journey Optimizer에서 `sent`은(는) 성공적인 메시지 게재 결과에 사용되는 값입니다. `delivered`은(는) 메시지 피드백 이벤트 데이터 세트에 사용되지 않습니다.
+>
+>* 이 데이터 세트는 일괄 처리 수집을 사용하므로 데이터가 최대 2시간 지연될 수 있습니다.
+>
+>* 모든 이벤트에서 채널별 컨텍스트 필드를 채울 수는 없습니다. 기본 상관 관계 필드로 메시지 실행 식별자, 피드백 상태, 실패 세부 정보, 타임스탬프 및 ID 정보를 사용합니다.
 
 필드, 필드 경로, 데이터 형식 및 설명의 전체 목록은 [Adobe Journey Optimizer 스키마 참조](https://experienceleague.adobe.com/ko/tools/ajo-schemas){target="_blank"}를 참조하십시오.
-
->[!NOTE]
->
->모든 메시지 피드백 이벤트에서 채널별 컨텍스트 필드가 반드시 채워지지는 않습니다. 필드 가용성은 채널, 공급자 피드백 페이로드, 이벤트 유형 및 게재 단계에 따라 달라질 수 있습니다. 기본 상관 관계 필드로 메시지 실행 식별자, 피드백 상태, 실패 세부 정보, 타임스탬프 및 ID 정보를 사용합니다.
 
 ### 테스트 및 비테스트 실행 분류{#classify-test-executions}
 
