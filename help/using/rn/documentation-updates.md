@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 723a2d044d7a1d184d83198d4b6e752997aff8f3
+source-git-commit: 9c6142de31dfd7e1ce42b0bf0c7fc0be1743312d
 workflow-type: tm+mt
-source-wordcount: '7183'
+source-wordcount: '7217'
 ht-degree: 82%
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 82%
 이 페이지에는 월별 릴리스 기능 및 개선 사항과 관련된 업데이트 외에도 [!DNL Journey Optimizer] 설명서의 모든 최신 변경 사항이 나와 있습니다.
 
 ## 2026년 9월 {#september-2026}
+
+* 이제 `inAudience` 보호에는 대상이 5,000개를 초과하는 샌드박스에 대한 해결 방법이 포함되어 있습니다. 유효성 검사에서는 가장 최근에 업데이트된 5,000개의 대상만 확인하므로 여정 작성 중에 이전 대상을 거부할 수 있습니다. [자세히 보기](../building-journeys/functions/functioninaudience.md#guardrails)
 
 * 이메일 미러 페이지에 대한 지침이 확장되었습니다. 이제 설명서에서 미러 페이지 URL은 공개 API 또는 데이터 세트를 통해 검색할 수 없으며, 전송된 컨텐츠를 유지하기 위해 메시지 내보내기 또는 BCC 보관을 권장하고, 증명 및 시뮬레이션에서 미러 페이지 링크가 비활성화되어 있는지 설명합니다. [자세히 보기](../email/message-tracking.md#mirror-page)
 
@@ -51,7 +53,7 @@ ht-degree: 82%
 
 * **AJO 메시지 피드백 이벤트 데이터 세트** 설명서가 확장되어 이메일 및 푸시가 아닌 모든 채널(이메일, SMS/RCS/MMS, 다이렉트 메일) 전반의 메시지 게재 피드백을 포함한다는 것을 명확히 설명했습니다. 이제 **테스트 및 비테스트 실행 분류** 섹션이 `NULL` 또는 누락된 값을 포함하여 `isTestExecution` 필드를 해석하는 방법을 설명합니다. [자세히 보기](../data/datasets-query-examples.md#classify-test-executions)
 
-* 자연어 프롬프트를 사용하여 콘텐츠 템플릿, 조각, 랜딩 페이지 및 여정/캠페인 인라인 메시지 콘텐츠를 검색, 만들기, 업데이트, 복제 및 게시할 수 있는 15개의 읽기/쓰기 MCP 도구를 기반으로 하는 CX Coworker에 대해 새로운 **콘텐츠 관리** 기능이 문서화되었습니다. [자세히 보기](../content-management/content-management-coworker-skills.md#content-management)
+* 자연어 프롬프트를 사용하여 콘텐츠 템플릿, 조각, 랜딩 페이지 및 여정/캠페인 인라인 메시지 콘텐츠를 검색, 생성, 업데이트, 복제 및 게시할 수 있는 15개의 읽기/쓰기 MCP 도구를 사용하는 CX Coworker에 대해 새로운 **콘텐츠 관리** 기능이 문서화되었습니다. [자세히 보기](../content-management/content-management-coworker-skills.md#content-management)
 
 * 이제 **랜딩 페이지에 콘텐츠 추가** 설명서에서 동의 확인란에 대한 **양식 필드 필수** 옵션을 설명합니다. 활성화하면 확인란을 선택하지 않으면 양식을 제출할 수 없으며 확인란이 클라이언트측과 서버측에서 모두 적용됩니다. [자세히 보기](../landing-pages/lp-content.md#use-form-component)
 
@@ -367,7 +369,7 @@ ht-degree: 82%
 
 * 테스트, 유효성 검사, 승인 랜딩 페이지에 테스트 기능 개요, 일반적인 질문 FAQ, 탐색 링크가 있는 의사 결정 트리, 설명서 링크의 용어 향상 등 새로운 섹션을 추가해 개선했습니다. [자세히 보기](../../rp_landing_pages/test-landing-page.md)
 
-* 개인화 구문 설명서에 개인화 표현식에서 예약된 키워드를 사용하는 방법을 명확히 설명하는 새 섹션을 추가했습니다. `next`, `last`, `this` 등 특정 PQL 키워드를 XDM 스키마에서 필드 이름으로 사용하는 경우 백틱(&grave;)을 붙여 이스케이프 처리해야 합니다. [자세히 보기](../personalization/personalization-syntax.md#reserved-keywords)
+* 개인화 구문 설명서에 개인화 표현식에서 예약된 키워드를 사용하는 방법을 명확히 설명하는 새 섹션을 추가했습니다. `next`, `last`, `this` 등 특정 PQL 키워드를 XDM 스키마에서 필드 이름으로 사용하는 경우 백틱(`)을 붙여 이스케이프 처리해야 합니다. [자세히 보기](../personalization/personalization-syntax.md#reserved-keywords)
 
 * [캠페인 시작](../campaigns/get-started-with-campaigns.md) 및 [캠페인 관리](../campaigns/manage-campaigns.md) 페이지를 유형별 안내서가 있는 포괄적 워크플로, 향상된 캠페인 유형 비교, 종합 상태 테이블 등 개선된 정보 아키텍처로 재구성했습니다.
 
