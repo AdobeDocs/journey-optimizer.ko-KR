@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 8169ebee4627b40ee45ec32e854d971f921eade6
+source-git-commit: 9054b29f1e6f50bc10541c223b921b2dd096784e
 workflow-type: tm+mt
-source-wordcount: '1621'
-ht-degree: 31%
+source-wordcount: '1571'
+ht-degree: 26%
 ---
 # 릴리스 정보 {#release-notes}
 
@@ -177,28 +177,15 @@ ht-degree: 31%
 
   사용 가능한 날짜: 2026년 9월 1일
 
++++ 곧 출시 예정 — **아래 정보는 변경될 수 있습니다.**
+
+* **위생 분석 기술** - 이제 CX Coworker에서 활성 및 초안 여정에서 구성 오류, 자동 오류, 오래된 초안 여정, 고립된 데이터 소스, 지속적인 사용자 지정 작업 오류와 같은 손상되거나 사용되지 않는 에셋에 대해 검사하고 채팅에서 직접 권장 수정 사항을 표시할 수 있습니다. <!-- Documentation link: TBD -->
+
++++
 
 ### 캠페인 {#sep-26-campaigns}
 
-* **액션 캠페인 작성 흐름 다시 디자인** - Adobe Journey Optimizer 액션 캠페인 작성 흐름이 훨씬 직관적이고 효율적이며 원활한 사용자 경험을 제공하도록 다시 디자인되었습니다.
-
 +++ 곧 출시 예정 — **아래 정보는 변경될 수 있습니다.**
-
-<table>
-<thead>
-<tr>
-<th><strong>액션 캠페인의 인바운드 경험 시뮬레이션</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 액션 캠페인을 실제 운영하기 전에 인바운드 채널 액션을 시뮬레이션할 수 있습니다. 시뮬레이션 모드를 사용하여 시뮬레이션 사용자로 구성을 테스트하고 생성된 URL 및 QR 코드를 포함한 렌더링된 환경을 미리 볼 수 있으므로 규칙, 의사 결정, 콘텐츠 렌더링을 처음부터 끝까지 검증할 수 있습니다.</p>
-<p>이 기능은 현재 Private Beta 버전으로 일부 조직에서만 사용할 수 있습니다. 더 많은 내용은 Adobe 담당자에게 문의하세요.</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 * **작업 캠페인용 폴더** - 이제 작업 캠페인을 폴더로 구성하여 인터페이스에서 탐색 및 관리를 개선할 수 있습니다.
 

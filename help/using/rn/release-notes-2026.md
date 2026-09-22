@@ -14,9 +14,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 8169ebee4627b40ee45ec32e854d971f921eade6
+source-git-commit: 9054b29f1e6f50bc10541c223b921b2dd096784e
 workflow-type: tm+mt
-source-wordcount: '14441'
+source-wordcount: '14472'
 ht-degree: 97%
 ---
 # 2026년 릴리스 정보 {#release-notes-2026}
@@ -57,7 +57,6 @@ ht-degree: 97%
 
 ### 여정 {#aug-26-journeys}
 
-
 * **여정 헤더에 시작일 및 종료일 표시** - 여정에 시작일 및/또는 종료일이 구성된 경우, 이제 상태 배지 옆의 여정 헤더에 표시됩니다. 표시되는 레이블은 각 날짜가 다가오는지 또는 이미 지났는지에 따라 달라집니다. [자세히 보기](../building-journeys/journey-properties.md#dates)
 
   사용 가능한 날짜: 2026년 8월 20일
@@ -96,6 +95,10 @@ ht-degree: 97%
 * **캠페인별 라이프사이클 알림 구독** - 이제 기존 샌드박스 수준 구독 외에도 단일 캠페인에 대해 지원되는 캠페인 라이프사이클 알림을 구독할 수 있습니다. 이렇게 하면 샌드박스의 모든 캠페인에 대해 동일한 알림을 받지 않고 우선순위가 높은 개별 캠페인을 모니터링할 수 있습니다. [자세히 알아보기](../reports/alerts.md#subscribe-alerts)
 
   사용 가능한 날짜: 2026년 8월 13일
+
+* **액션 캠페인 작성 흐름 다시 디자인** - Adobe Journey Optimizer 액션 캠페인 작성 흐름이 훨씬 직관적이고 효율적이며 원활한 사용자 경험을 제공하도록 다시 디자인되었습니다.
+
+  사용 가능한 날짜: 2026년 8월 23일
 
 ### 오케스트레이션된 캠페인 {#august-26-oc}
 
@@ -1455,7 +1458,7 @@ The following orchestrated campaign capability is expected in the upcoming days 
 <td>
 <p>Adobe Journey Optimizer의 <b>Adobe Express 통합</b>을 사용하면 콘텐츠 제작 시 Adobe Express의 편집 도구를 직접 사용하여 에셋의 크기를 조정하고 배경을 제거하고 자르고 JPEG 또는 PNG로 변환할 수 있습니다.
 </p>
-<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
+<p>이전에 제한 공급 상태로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 공급).</p>
 <p><img src="assets/do-not-localize/express_resize.gif"></p>
 <p>자세한 내용은 <a href="../integrations/express.md">세부 설명서</a>를 참조하십시오.</p>
 <p>가용성 일자: 2026년 4월 23일</p>
@@ -1647,7 +1650,7 @@ The following orchestrated campaign capability is expected in the upcoming days 
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 **출시일**: 2026년 3월 24~25일
@@ -2401,7 +2404,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 
 * **AI 어시스턴트 콘텐츠 품질 검사** - 이제 브랜드 일관성 외에도 전체 <strong>콘텐츠 품질</strong>을 평가하여 브랜드 가이드라인과 별개로 <strong>가독성</strong>, 일치도, 효과성 관련 잠재적인 문제를 찾을 수 있습니다. 이 자동화된 검사는 명확하지 않은 메시지, 일관되지 않은 톤 또는 구조적으로 빠진 부분을 식별하는 데 도움이 됩니다. [자세히 보기](../content-management/brands-score.md#validate-quality).
 
-  [비디오에서 이 기능을 살펴보십시오](https://video.tv.adobe.com/v/3470553/?captions=kor&learn=on).
+  [비디오에서 이 기능을 살펴보십시오](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### 여정
 
