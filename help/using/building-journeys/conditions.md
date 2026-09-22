@@ -227,7 +227,7 @@ ht-degree: 15%
 
    >[!NOTE]
    >
-   >대상자가 **실현됨**인 개인만 참여합니다.
+   >대상자가 **실현됨**&#x200B;인 개인만 참여합니다.
    >상태는 대상의 구성원으로 간주됩니다. 자세한 내용:
    >대상자를 평가하려면 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}를 참조하세요.
    >
