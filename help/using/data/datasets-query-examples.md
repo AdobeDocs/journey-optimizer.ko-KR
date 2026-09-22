@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 050335d3a6f4c8fa263ff1c381f6ee20c15c5af7
+source-git-commit: e331eb677eaf9b8f35dc20bf7bb9b36228819ce3
 workflow-type: tm+mt
-source-wordcount: '1812'
+source-wordcount: '1770'
 ht-degree: 1%
 ---
 # 쿼리 예 {#query-examples}
@@ -136,27 +136,23 @@ _인터페이스의 이름: AJO 메시지 피드백 이벤트 데이터 세트_
 
 AJO 메시지 피드백 이벤트 데이터 세트는 Adobe Journey Optimizer에서 생성된 메시지 게재 피드백을 저장합니다. 이메일, SMS/RCS/MMS 및 DM을 포함한 메시지 채널 전반에 대한 게재 피드백 분석을 지원합니다. 피드백 이벤트는 보고 및 대상자 만들기 사용 사례에 사용할 수 있습니다.
 
-관련 스키마는 AJO 메시지 피드백 이벤트 스키마입니다.
+관련 스키마는 `AJO Message Feedback Event` 스키마입니다.
 
 >[!NOTE]
 >
->Adobe Journey Optimizer에서 `sent`은(는) 메시지 피드백 이벤트 데이터 집합에서 메시지 게재를 성공적으로 수행하는 데 사용되는 값입니다. `delivered` 값은 Adobe Journey Optimizer 메시지 피드백 이벤트 데이터 세트에서 사용되지 않습니다.
-
->[!NOTE]
+>* Adobe Journey Optimizer에서 `sent`은(는) 성공적인 메시지 게재 결과에 사용되는 값입니다. `delivered`은(는) 메시지 피드백 이벤트 데이터 세트에 사용되지 않습니다.
 >
->이 데이터 세트는 일괄 처리 수집을 사용합니다. 이 데이터 세트를 쿼리하거나 보고 목적으로 사용할 때 최대 2시간의 데이터 지연이 예상됩니다.
-
-필드, 필드 경로, 데이터 형식 및 설명의 전체 목록은 [Adobe Journey Optimizer 스키마 참조](https://experienceleague.adobe.com/ko/tools/ajo-schemas){target="_blank"}를 참조하십시오.
-
->[!NOTE]
+>* 이 데이터 세트는 일괄 처리 수집을 사용하므로 데이터가 최대 2시간 지연될 수 있습니다.
 >
->모든 메시지 피드백 이벤트에서 채널별 컨텍스트 필드가 반드시 채워지지는 않습니다. 필드 가용성은 채널, 공급자 피드백 페이로드, 이벤트 유형 및 게재 단계에 따라 달라질 수 있습니다. 기본 상관 관계 필드로 메시지 실행 식별자, 피드백 상태, 실패 세부 정보, 타임스탬프 및 ID 정보를 사용합니다.
+>* 모든 이벤트에서 채널별 컨텍스트 필드를 채울 수는 없습니다. 기본 상관 관계 필드로 메시지 실행 식별자, 피드백 상태, 실패 세부 정보, 타임스탬프 및 ID 정보를 사용합니다.
+
+필드, 필드 경로, 데이터 형식 및 설명의 전체 목록은 [Adobe Journey Optimizer 스키마 참조](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"}를 참조하십시오.
 
 ### 테스트 및 비테스트 실행 분류{#classify-test-executions}
 
 필드가 채워질 때 테스트 실행과 비테스트 실행을 구분하려면 `isTestExecution` 필드를 사용하십시오.
 
-쿼리를 작성하기 전에 [Adobe Journey Optimizer 스키마 참조](https://experienceleague.adobe.com/ko/tools/ajo-schemas){target="_blank"}를 사용하여 AJO 메시지 피드백 이벤트 스키마에 대한 현재 필드 경로, 데이터 형식 및 설명을 확인하십시오.
+쿼리를 작성하기 전에 [Adobe Journey Optimizer 스키마 참조](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"}를 사용하여 AJO 메시지 피드백 이벤트 스키마에 대한 현재 필드 경로, 데이터 형식 및 설명을 확인하십시오.
 
 채워진 값을 다음과 같이 해석합니다.
 
@@ -170,7 +166,7 @@ AJO 메시지 피드백 이벤트 데이터 세트는 Adobe Journey Optimizer에
 
 일부 내역 또는 채널별 레코드가 모든 메시지 컨텍스트 필드를 채우지 않을 수 있습니다. 따라서 필드 가용성을 빈 문자열이나 유추된 값으로 처리하는 대신 채널별로 테스트하고 null을 유지해야 합니다.
 
-[Adobe Journey Optimizer 스키마 참조](https://experienceleague.adobe.com/ko/tools/ajo-schemas){target="_blank"}에서 `isTestExecution` 경로를 확인한 후에만 이 쿼리를 실행하십시오.
+[Adobe Journey Optimizer 스키마 참조](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"}에서 `isTestExecution` 경로를 확인한 후에만 이 쿼리를 실행하십시오.
 
 ```sql
 SELECT

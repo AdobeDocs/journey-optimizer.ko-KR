@@ -26,7 +26,7 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 2af5b87d6136783c4db3106c4deab8038078a2d7
+source-git-commit: e331eb677eaf9b8f35dc20bf7bb9b36228819ce3
 workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 2%
@@ -52,7 +52,7 @@ ht-degree: 2%
 * **실현됨**: 개인이 대상 정의에 적합하며 활성 멤버입니다.
 * **종료됨**: 개인이 대상을 떠났으므로 더 이상 자격이 없습니다.
 
-**실현됨** 상태의 개인만 활성 대상 구성원으로 간주됩니다. 함수가 `true`을(를) 반환하면 개인이 실현된 상태를 확인하고 `false`을(를) 반환하면 종료된 상태를 나타냅니다. 대상 평가에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ko#interpret-segment-results){target="_blank"}를 참조하세요.
+**실현됨** 상태의 개인만 활성 대상 구성원으로 간주됩니다. 함수가 `true`을(를) 반환하면 개인이 실현된 상태를 확인하고 `false`을(를) 반환하면 종료된 상태를 나타냅니다. 대상 평가에 대한 자세한 내용은 [세그먼테이션 서비스 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}를 참조하세요.
 
 +++구문
 
@@ -128,11 +128,9 @@ inAudience("Unsubscribed") == false
 * 병합 정책 동작에 대한 자세한 내용은 [여정 속성](../journey-properties.md)을 참조하세요.
 
 **유효성 검사를 위한 대상 캐시:**
-* 5,000개가 넘는 대상이 포함된 샌드박스에서 이전 대상은 다음과 같을 수 있습니다.
-유효성 검사로 인해 `inAudience`을(를) 사용할 때 여정 작성 중에 거부됨
-는 가장 최근에 업데이트된 5,000개의 대상만 포함하는 캐시를 확인합니다.
-* 이 문제를 해결하려면 대상자를 업데이트하는 등 대상자를 약간 변경합니다.
-설명 또는 이전 대상을 정리하여 합계를 한도 미만으로 유지합니다.
+
+* 5,000개 이상의 대상이 포함된 샌드박스에서 `inAudience`을(를) 사용하는 경우 유효성 검사가 가장 최근에 업데이트된 5,000개의 대상만 포함된 캐시를 확인하므로 오래된 대상이 여정 작성 중에 거부될 수 있습니다.
+* 이 문제를 해결하려면 설명 업데이트와 같이 대상을 약간 변경하거나 이전 대상을 정리하여 합계를 제한 이하로 유지합니다.
 * [조건에서 대상 사용](../conditions.md#using-a-segment)에서 자세히 알아보세요.
 
 **전파 시간:** {#propagation-timing}
@@ -140,7 +138,7 @@ inAudience("Unsubscribed") == false
 조건 노드에서 `inAudience()`을(를) 사용할 때 여정 멤버십 평가 시간은 조건이 세그먼트에 나타나는 위치에 따라 달라집니다.
 
 * **대상 읽기 여정에서 대기 활동 전:** Journey Optimizer이 프로필의 일괄 처리 프로젝션에서 읽습니다. 이 프로젝션의 데이터는 수집 후 **2시간** 내에 새로 고쳐집니다. 일 기반 또는 시간 기반 조건에 의존하는 대상자는 추가적인 지연을 경험할 수 있습니다. 여정 시작 시 짧은 [대기 활동](../wait-activity.md)을 추가하거나 버퍼 시간을 허용하여 최신 세그먼트 멤버십이 반영되도록 하십시오.
-* **단일 이벤트 여정에서 또는 대기 활동 후에** 세그먼트 멤버십을 스트리밍(단일) 프로젝션에서 읽습니다. 데이터는 일반적으로 **15분** 내에 사용할 수 있습니다. 자세한 내용은 [Adobe Experience Platform 스트리밍 수집 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/ingestion/streaming/overview){target="_blank"}를 참조하세요.
+* **단일 이벤트 여정에서 또는 대기 활동 후에** 세그먼트 멤버십을 스트리밍(단일) 프로젝션에서 읽습니다. 데이터는 일반적으로 **15분** 내에 사용할 수 있습니다. 자세한 내용은 [Adobe Experience Platform 스트리밍 수집 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/streaming/overview){target="_blank"}를 참조하세요.
 
 ## 관련 항목
 
