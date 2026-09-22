@@ -13,27 +13,35 @@ version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/2YZ6Cjph9Le-HtwKdz4GBgEdhwIMPpVtj9yWKlV3hQ4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
+    internal-label: Journeys
   - id: d556b755-390a-43f0-be32-a08cf6236126
+    internal-label: Configuration
 subfeature_v2:
   - id: d08afb72-92f6-4856-88e3-11ec34313c2f
+    internal-label: Event configuration
   - id: fa683eda-48de-4558-af32-2673edcd44fe
+    internal-label: Events
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 72ac138032bace23ede2b86d56c36e20d943f834
+    internal-label: Optimization
+source-git-commit: 050335d3a6f4c8fa263ff1c381f6ee20c15c5af7
 workflow-type: tm+mt
-source-wordcount: 2385
+source-wordcount: '2411'
 ht-degree: 10%
-
 ---
-
 # 라이브 여정 실행 문제 해결 {#troubleshooting-execution}
 
 >[!BEGINSHADEBOX]
@@ -54,7 +62,7 @@ ht-degree: 10%
 
 이러한 도구를 통해 보내는 API 호출이 올바르게 전송되었는지 여부를 확인할 수 있습니다. 오류가 반환되면 호출에 문제가 있는 것입니다. 페이로드, 헤더(특히 조직 ID) 및 대상 URL을 다시 확인하십시오. 올바른 URL이 무엇인지를 관리자에게 물어볼 수 있습니다.
 
-이벤트는 소스에서 여정으로 직접 푸시되지 않습니다. 실제로 여정은 [!DNL Adobe Experience Platform]의 스트리밍 수집 API에 의존합니다. 따라서 이벤트 관련 문제가 발생하면 수집 API 스트리밍 문제 해결에 대해 [[!DNL Adobe Experience Platform] 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=ko){target="_blank"}를 참조할 수 있습니다.
+이벤트는 소스에서 여정으로 직접 푸시되지 않습니다. 실제로 여정은 [!DNL Adobe Experience Platform]의 스트리밍 수집 API에 의존합니다. 따라서 이벤트 관련 문제가 발생하면 수집 API 스트리밍 문제 해결에 대해 [[!DNL Adobe Experience Platform] 설명서](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"}를 참조할 수 있습니다.
 
 `ERR_MODEL_RULES_16` 오류로 인해 여정에서 테스트 모드를 사용하도록 설정하지 못하는 경우 채널 작업을 사용할 때 사용된 이벤트에 [ID 네임스페이스](../audience/get-started-identity.md)가 포함되어 있는지 확인하십시오.
 
@@ -72,7 +80,7 @@ ID 네임스페이스는 테스트 프로필을 고유하게 식별하는 데 �
 * 페이로드 미리 보기에서 페이로드를 복사하기 전에 이벤트를 저장했습니까?
 * 이벤트 페이로드에 이벤트 ID가 포함되어 있습니까?
 * 정확한 URL을 입력했습니까?
-* 이벤트 구성 창에서 페이로드 구조 미리 보기를 사용하여 수집 API 스트리밍 페이로드 구조를 따랐습니까? [이 페이지](../event/about-creating.md#preview-the-payload)를 참조하십시오.
+* 이벤트 구성 창에서 페이로드 구조 미리 보기를 사용하여 스트리밍 수집 API 페이로드 구조를 따랐습니까? [이 페이지](../event/about-creating.md#preview-the-payload)를 참조하십시오.
 * 이벤트 헤더에 올바른 키-값 쌍을 사용했습니까?
 
   ```
@@ -84,7 +92,7 @@ ID 네임스페이스는 테스트 프로필을 고유하게 식별하는 데 �
 
 * **이벤트가 삭제됨 - 자격 조건이 충족되지 않음** - 규칙 기반 이벤트의 경우 **자격 조건**&#x200B;이 이벤트 페이로드에 의해 충족되지 않으면(예: 필수 필드가 비어 있거나 누락되었거나 필드의 `isNotEmpty`과 같은 조건이 실패하면) 이벤트는 **수신되지만 삭제됨**&#x200B;이고 여정이 트리거되지 않습니다. 로그 및 Splunk 추적은 `notSuitableInitialEvent`과(와) 같은 폐기 코드를 사용하여 이벤트가 수신되었지만 자격 조건을 충족하지 않아 삭제되었음을 보여 줄 수 있습니다. 이는 예상되는 비헤이비어입니다. 자격 조건이 충족되지 않으면 이벤트가 삭제되고 해당 프로필에 대해 여정이 트리거되지 않습니다. 이벤트 페이로드에 예상 필드와 값이 포함되어 있는지, 이벤트 구성의 규칙이 사용자가 보내는 데이터와 일치하는지 확인합니다. 다른 여정의 **사용자 지정 작업**&#x200B;에 의해 이벤트가 트리거된 경우 사용자 지정 작업 문제 해결에서 [삭제 이벤트 및 유휴 시간 초과 처리](../action/troubleshoot-custom-action.md#handling-discard-events-and-idle-timeouts)를 참조하십시오.
 
-&#x200B;>>
+>>
 **스트리밍 대상이 있는 대상 자격 여정의 경우**: 대상 자격 활동을 여정 진입점으로 사용하는 경우 시간 요소, 대상의 빠른 종료 또는 게시하기 전에 대상에 프로필이 이미 있었던 경우 대상에 해당하는 모든 프로필이 여정에 들어가는 것은 아닙니다. [스트리밍 대상 자격 시간 고려 사항](audience-qualification-events.md#streaming-entry-caveats)에 대해 자세히 알아보세요.
 
 ### 이벤트 ID 확인 {#verify-event-identity-and-rule-data-types}
@@ -130,7 +138,7 @@ ID 네임스페이스는 테스트 프로필을 고유하게 식별하는 데 �
 
 ## 사람들이 여정을 탐색하는 방법 확인 {#checking-how-people-navigate-through-the-journey}
 
-여정 보고는 여정 내에서 개인 사용자의 진행 상황을 측정합니다. 사람들이 어디에서 왜 멈췄는지를 쉽게 파악할 수 있습니다.
+여정 보고는 여정 내에서 개인 사용자의 진행 상황을 측정합니다. 사람이 어디에서 왜 멈췄는지 쉽게 파악할 수 있습니다.
 
 확인할 몇 가지 사항은 다음과 같습니다.
 
@@ -162,7 +170,7 @@ ID 네임스페이스는 테스트 프로필을 고유하게 식별하는 데 �
 
 >[!NOTE]
 >
->기본 Journey Optimizer 채널 작업의 경우 메시지 피드백 이벤트 데이터 세트를 쿼리하여 `sent` 또는 `bounce`과(와) 같은 게재 상태를 확인하십시오. 사용자 지정 작업의 경우 여정 단계 이벤트 데이터 세트를 쿼리하여 Journey Optimizer이 작업을 성공적으로 실행했는지 확인합니다. 즉, HTTP 호출이 성공해도 외부 시스템에서 메시지를 전달했는지 자체적으로 확인하지 않습니다. 사용 사례에 맞는 [올바른 데이터 세트를 선택](../data/datasets-query-examples.md#choose-the-correct-dataset)하는 방법에 대해 알아봅니다.
+>기본 Journey Optimizer 채널 작업의 경우 메시지 피드백 이벤트 데이터 세트를 쿼리하여 `sent` 또는 `bounce`과(와) 같은 게재 상태를 확인하십시오. Adobe Journey Optimizer에서 `sent`은(는) 성공적인 메시지 게재 결과에 대한 관련 상태입니다. `delivered` 값은 Adobe Journey Optimizer 메시지 피드백 이벤트 데이터 세트에서 사용되지 않습니다. 사용자 지정 작업의 경우 여정 단계 이벤트 데이터 세트를 쿼리하여 Journey Optimizer이 작업을 성공적으로 실행했는지 확인합니다. 즉, HTTP 호출이 성공해도 외부 시스템에서 메시지를 전달했는지 자체적으로 확인하지 않습니다. 사용 사례에 맞는 [올바른 데이터 세트를 선택](../data/datasets-query-examples.md#choose-the-correct-dataset)하는 방법에 대해 알아봅니다.
 
 ## 여정 단계 이벤트의 중복 항목 이해 {#duplicate-step-events}
 
