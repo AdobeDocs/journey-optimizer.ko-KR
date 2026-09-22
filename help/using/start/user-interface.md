@@ -50,7 +50,7 @@ topic_v2:
 source-git-commit: 7be72329724a84ea8fae855cf9a77244ea9cbd34
 workflow-type: tm+mt
 source-wordcount: '1738'
-ht-degree: 92%
+ht-degree: 98%
 ---
 # 인터페이스 살펴보기 {#user-interface}
 
@@ -410,19 +410,19 @@ AI 어시스턴트는 즉각적인 도움과 운영 인사이트를 제공합니
 >[!CONTEXTUALHELP]
 >id="ajo_journey_inbound_activity_deactivation"
 >title="인바운드 활동 비활성화 활동"
->abstract="최대 5개의 인바운드 활동 또는 경험에서 여정을 직접 제거하여 여정 종료에서 인바운드 결격 상태를 분리합니다."
+>abstract="여정의 최대 5개의 인바운드 활동 또는 경험에서 프로필을 바로 제거하며, 여정 종료로부터 인바운드 자격 상실 상태를 분리합니다."
 
 <!--DOCAC-15707 Implement contextual help for Journey Properties event recovery / action timeout fields-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_recovery_timeout"
 >title="이벤트 복구 시간 제한 설정"
->abstract="서비스 중단의 영향을 받는 이벤트를 여정이 자동으로 재생하는 시간을 제어합니다. 기본적으로 꺼짐(72시간 자동 재생). 시간에 민감한 여정의 경우 재생 기간을 0시간에서 72시간으로 조정하려면 켜십시오."
+>abstract="여정에서 서비스 중단의 영향을 받은 이벤트를 자동으로 재생하는 시간 길이를 제어합니다. 기본값은 꺼짐(72시간 자동 재생)이며, 시간에 민감한 여정인 경우 이를 켜짐으로 변경하여 재생 기간을 0시간에서 72시간으로 조정합니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_timeout"
->title="사용자 지정 작업/IDS 작업 시간 제한"
->abstract="사용자 지정 작업 / IDS 작업 시간 제한 옵션은 작업 시간이 초과되거나 오류가 반환될 때 여정에서 대체 경로를 정의하므로 프로필은 이 단계에서 중지되지 않고 대체 경로를 통해 계속됩니다. 권장되는 값은 1~30초입니다."
+>title="사용자 정의 작업 / IDS 액션 시간 제한"
+>abstract="사용자 정의 / IDS 액션 시간 제한 옵션은 작업이 시간 초과되거나 오류를 반환할 때 여정에서 대체 경로를 정의하므로 프로필이 이 단계에서 중지되지 않고 대체 경로를 통해 계속됩니다. 권장되는 값은 1~30초입니다."
 
 
 {{$include /help/_includes/do-not-localize/start/ai-augmented-user-interface.md}}
