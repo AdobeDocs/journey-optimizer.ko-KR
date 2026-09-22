@@ -146,13 +146,13 @@ AJO 메시지 피드백 이벤트 데이터 세트는 Adobe Journey Optimizer에
 >
 >* 모든 이벤트에서 채널별 컨텍스트 필드를 채울 수는 없습니다. 기본 상관 관계 필드로 메시지 실행 식별자, 피드백 상태, 실패 세부 정보, 타임스탬프 및 ID 정보를 사용합니다.
 
-필드, 필드 경로, 데이터 형식 및 설명의 전체 목록은 [Adobe Journey Optimizer 스키마 참조](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"}를 참조하십시오.
+필드, 필드 경로, 데이터 형식 및 설명의 전체 목록은 [Adobe Journey Optimizer 스키마 참조](https://experienceleague.adobe.com/ko/tools/ajo-schemas){target="_blank"}를 참조하십시오.
 
 ### 테스트 및 비테스트 실행 분류{#classify-test-executions}
 
 필드가 채워질 때 테스트 실행과 비테스트 실행을 구분하려면 `isTestExecution` 필드를 사용하십시오.
 
-쿼리를 작성하기 전에 [Adobe Journey Optimizer 스키마 참조](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"}를 사용하여 AJO 메시지 피드백 이벤트 스키마에 대한 현재 필드 경로, 데이터 형식 및 설명을 확인하십시오.
+쿼리를 작성하기 전에 [Adobe Journey Optimizer 스키마 참조](https://experienceleague.adobe.com/ko/tools/ajo-schemas){target="_blank"}를 사용하여 AJO 메시지 피드백 이벤트 스키마에 대한 현재 필드 경로, 데이터 형식 및 설명을 확인하십시오.
 
 채워진 값을 다음과 같이 해석합니다.
 
@@ -166,7 +166,7 @@ AJO 메시지 피드백 이벤트 데이터 세트는 Adobe Journey Optimizer에
 
 일부 내역 또는 채널별 레코드가 모든 메시지 컨텍스트 필드를 채우지 않을 수 있습니다. 따라서 필드 가용성을 빈 문자열이나 유추된 값으로 처리하는 대신 채널별로 테스트하고 null을 유지해야 합니다.
 
-[Adobe Journey Optimizer 스키마 참조](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"}에서 `isTestExecution` 경로를 확인한 후에만 이 쿼리를 실행하십시오.
+[Adobe Journey Optimizer 스키마 참조](https://experienceleague.adobe.com/ko/tools/ajo-schemas){target="_blank"}에서 `isTestExecution` 경로를 확인한 후에만 이 쿼리를 실행하십시오.
 
 ```sql
 SELECT
