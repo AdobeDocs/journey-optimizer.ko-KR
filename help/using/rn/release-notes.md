@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: c52c89a4404c02a8e416b629368388e6df5cfc98
+source-git-commit: 777b1057b68827000c8c20db9678e8b5473b1c42
 workflow-type: tm+mt
-source-wordcount: '3158'
-ht-degree: 62%
+source-wordcount: '3223'
+ht-degree: 61%
 ---
 # 릴리스 정보 {#release-notes}
 
@@ -123,7 +123,7 @@ ht-degree: 62%
 <tr>
 <td>
 <p>이제 여정 고급 표현식 편집기는 AI 기반의 표현식 생성을 통합합니다. 빌드할 표현식을 자연어로 설명하고, 편집기는 즉시 적용하거나 후속 프롬프트를 통해 구체화할 수 있는 사용 준비 코드를 생성합니다.</p>
-<p>이전에 제한 공급 상태로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 공급).</p>
+<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
 <p>자세한 내용은 <a href="../building-journeys/expression/generate-expression.md">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2026년 9월 1일</p>
 </td>
@@ -157,6 +157,10 @@ ht-degree: 62%
 * **여정 표현식 편집기의 새 dateDiff 함수** - 이제 여정 표현식 편집기에 두 날짜의 일 수 차이를 계산하는 `dateDiff` 함수가 포함됩니다. 이 기능은 기한 만들기, 고객 라이프사이클 기간 계산 또는 여정 조건에서 카운트다운 타이머 작성과 같은 시간 기반 논리에 유용합니다.  [자세히 알아보기](../building-journeys/functions/date-functions.md#dateDiff)
 
   사용 가능한 날짜: 2026년 9월 1일
+
+* **대상 자격 여정에서 [이동] 활동 지원** - 이제 대상 자격 노드로 시작하는 여정에서 [이동] 활동을 사용하여 이벤트 기반 여정으로 이동할 수 있습니다. 이 기능은 점차 조직에 배포되고 있습니다. 사용자 환경에서 이 문제가 표시되지 않는 경우 대상 자격에서 일괄 대상을 계속 사용하고 있기 때문일 수 있습니다. [자세히 알아보기](../building-journeys/jump.md)
+
+  사용 가능한 날짜: 2026년 9월 22일
 
 * **여정 예외 항목 분석 스킬** - 이제 CX Coworker가 **여정 예외 항목 분석** 스킬을 사용하여 기록 기준선에 대한 여정 시작, 종료 또는 메시지 전송 카운트에서 예상치 못한 급감, 하락 또는 평면화를 감지할 수 있습니다. 실제 예외 항목이 확인되면 이 스킬은 읽기 전용 진단을 실행하여 잠재적인 근본 원인과 권장 사항을 표시합니다. [자세히 알아보기](../building-journeys/journeys-coworker-skills.md#journey-analyze)
 
