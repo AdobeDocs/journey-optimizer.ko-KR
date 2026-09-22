@@ -34,17 +34,17 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 5af1dfecb5e19feec54e075d493ccd388ae3126c
+source-git-commit: 8110755878f5365a05fb51a03a9c66c5eb7115b8
 workflow-type: tm+mt
-source-wordcount: '3006'
-ht-degree: 65%
+source-wordcount: '3056'
+ht-degree: 64%
 ---
 # 릴리스 정보 {#release-notes}
 
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card1"
 >title="새로운 기능"
->abstract="**Adobe Journey Optimizer**&#x200B;는 지속적으로 새로운 기능, 기존 기능 개선 및 버그 해결을 지원합니다. 모든 변경 사항은 매달 마지막 주에 여기 있는 릴리스 정보에 통합됩니다."
+>abstract="**Adobe Journey Optimizer**&#x200B;는 지속적으로 새로운 기능, 기존 기능 개선 및 버그 해결을 지원합니다. 모든 변경 사항은 매달 마지막 주에 이 릴리스 정보에 통합됩니다."
 
 [!DNL Adobe Journey Optimizer]은(는) 지속적 제공 모델을 따르므로 Adobe에서 새로운 기능, 개선 사항, 버그 해결 업데이트를 지속적으로 제공할 수 있습니다. 이 접근 방식을 사용하면 확장 가능한 단계별 기능 롤아웃을 통해 모든 환경에서 성능과 안정성을 보장할 수 있습니다. 이 모델로 인해 월별 릴리스 사이에 릴리스 정보가 업데이트됩니다. 릴리스 주기 및 가용성 단계에 대한 자세한 내용은 [Journey Optimizer 릴리스 주기](releases.md)를 참조하십시오.
 
@@ -193,6 +193,12 @@ ht-degree: 65%
 * **작업 캠페인의 기본 실행 필드 재정의** - 이전에는 여정 수준에서 사용할 수 있었지만, 이제 작업 캠페인 매개 변수에서 이메일, SMS 및 WhatsApp 게재에 대해 전역적으로 구성된 기본 실행 필드를 재정의할 수 있습니다.
 
 +++
+
+### 오케스트레이션된 캠페인 {#sep-26-orchestrated-campaigns}
+
+* **오케스트레이션된 캠페인의 관계형 데이터가 포함된 조건부 콘텐츠** - 이제 오케스트레이션된 캠페인을 위해 이메일 Designer에서 조건부 콘텐츠를 빌드할 때 표준 프로필 속성뿐만 아니라 프로필과 연결된 관련 레코드와 같은 관계형 데이터에 직접 조건을 빌드할 수 있습니다. [자세히 알아보기](../orchestrated/activities/channels.md#add-personalization)
+
+  사용 가능한 날짜: 2026년 9월 22일
 
 ### 사용성 개선 사항 {#sep-26-usability}
 

@@ -8,21 +8,25 @@ version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ouwufvPEUXGewSP5TvsfI0qPxpVqaqso3me4qEc2WQM
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
+    internal-label: Activities
   - id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
+    internal-label: Campaign Orchestration
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+    internal-label: Orchestration activities
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Personalization
+source-git-commit: 8110755878f5365a05fb51a03a9c66c5eb7115b8
 workflow-type: tm+mt
-source-wordcount: 2470
-ht-degree: 35%
-
+source-wordcount: '2536'
+ht-degree: 34%
 ---
-
 # 채널 활동 {#channel}
 
 >[!BEGINSHADEBOX]
@@ -214,7 +218,7 @@ UNUSED IDs in BJ
 
 +++**빠른 전송 모드를 사용**(푸시)합니다.
 
-빠른 전송 모드는 캠페인을 통해 대량으로 매우 빠른 푸시 메시지를 전송할 수 있는 [!DNL Journey Optimizer] 추가 기능입니다. 신속한 전달은 메시지 전달 지연이 비즈니스에 중요한 경우 사용됩니다. 예를 들어 뉴스 채널 앱을 설치한 사용자에게 속보 등 휴대폰에 긴급 푸시 알림을 전송하려는 경우가 있습니다. 푸시 알림에 대해 빠른 전송 모드를 사용하는 방법을 알아봅니다. [&#x200B; 이 페이지](../../push/create-push.md#rapid-delivery).
+빠른 전송 모드는 캠페인을 통해 대량으로 매우 빠른 푸시 메시지를 전송할 수 있는 [!DNL Journey Optimizer] 추가 기능입니다. 신속한 전달은 메시지 전달 지연이 비즈니스에 중요한 경우 사용됩니다. 예를 들어 뉴스 채널 앱을 설치한 사용자에게 속보 등 휴대폰에 긴급 푸시 알림을 전송하려는 경우가 있습니다. 푸시 알림에 대해 빠른 전송 모드를 사용하는 방법을 알아봅니다. [ 이 페이지](../../push/create-push.md#rapid-delivery).
 
 빠른 전송 모드를 사용할 때의 성능에 대한 자세한 내용은 [Adobe Journey Optimizer 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}을 참조하세요.
 
@@ -233,11 +237,20 @@ UNUSED IDs in BJ
 <td><a href="../../mobile/create-mobile-message.md"><img alt="sms" src="../../channels/assets/do-not-localize/sms.png"></a><br/><a href="../../mobile/create-mobile-message.md"><strong>SMS 만들기</strong></a></td>
 <td><a href="../../push/create-push.md"><img alt="푸시" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>푸시 알림 만들기</strong></a></td><td><a href="../../direct-mail/create-direct-mail.md"><img alt="다이렉트 메일" src="../../channels/assets/do-not-localize/direct-mail.jpg"></a><a href="../../direct-mail/create-direct-mail.md"><strong>다이렉트 메일 만들기</strong></a></td><td><a href="../../custom-channel/create-custom-channel.md"><img alt="사용자 지정 채널" src="../../channels/assets/do-not-localize/web.jpg"></a><br/><a href="../../custom-channel/create-custom-experience.md"><strong>사용자 지정 작업 만들기</strong></a></td><td><a href="../../line/get-started-line.md"><img alt="line" src="../../channels/assets/do-not-localize/line.jpg"></a><br/><a href="../../line/get-started-line.md"><strong>LINE 메시지(LA) 만들기</strong></a></td></tr></table>
 
-### 개인화 추가 {#add-personalization}
+### 개인화 및 조건부 콘텐츠 추가{#add-personalization}
 
 채널 활동의 메시지 편집기에서 캠페인 작업 테이블(타겟팅 차원 및 데이터 보강)의 **[!UICONTROL 프로필 특성]** 및 **[!UICONTROL 타겟 특성]**&#x200B;을(를) 삽입합니다.
 
 ➡️ [데이터 보강 컬렉션 배열, 배열 함수 및 `{{#each}}` 반복을 포함하여 오케스트레이션된 캠페인에 개인화를 추가하는 방법을 알아봅니다](../add-personalization.md).
+
+![](../assets/oc-personalization.png)
+
+이메일 게재에 대한 조건부 콘텐츠를 만들 때 캠페인 작업 테이블에서 **[!UICONTROL Target]** 특성을 사용할 수 있습니다. 이러한 속성에는 관계형 스키마에서 들어오는 대상 또는 데이터 보강이 포함되므로 대상 레코드를 기반으로 서로 다른 컨텐츠를 표시할 수 있습니다. 조건은 현재 게재에만 해당되며 재사용 가능한 조건으로 저장할 수 없습니다.
+
+➡️ [전자 메일 Designer에서 조건부 콘텐츠를 만드는 방법을 알아봅니다](../../personalization/dynamic-content.md#emails).
+
+
+![](../assets/conditional-content-target.png)
 
 ### 콘텐츠 확인 및 테스트 {#simulate-content-test-profiles}
 
@@ -272,7 +285,7 @@ UNUSED IDs in BJ
 
 [!DNL Journey Optimizer]을(를) 사용하면 오케스트레이션된 캠페인의 아웃바운드 작업에 대한 비율 제어를 사용하도록 설정할 수 있습니다.
 
-이 기능은 랜딩 페이지나 고객 지원 센터 플랫폼과 같은 다운스트림 시스템의 오버로드를 방지하는 데 특히 유용합니다. 예를 들어, 속도가 초당 165개의 메시지로 제한하여 다운스트림 시스템을 압도하지 않고도 지속적인 전송을 보장할 수 있습니다.
+이 기능은 랜딩 페이지나 고객 지원 플랫폼과 같은 다운스트림 시스템의 오버로드를 방지하는 데 특히 유용합니다. 예를 들어, 속도가 초당 165개의 메시지로 제한하여 다운스트림 시스템을 압도하지 않고도 지속적인 전송을 보장할 수 있습니다.
 
 비율 제어를 설정하려면 다음 단계를 수행합니다.
 
