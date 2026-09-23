@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 이벤트 변환기 안내서
-description: Adobe Journey Optimizer에서 로열티 챌린지 이벤트 정의에 대한 스키마 및 변환기 설정을 구성하는 방법을 알아봅니다.
+description: Adobe Journey Optimizer에서 충성도 문제 이벤트 매핑에 대한 스키마 및 변환기 설정을 구성하는 방법에 대해 알아봅니다.
 feature: Journeys
 topic: Content Management
 role: Admin
@@ -15,7 +15,7 @@ feature_v2:
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
+source-git-commit: 7e153a072cacd37ec3837c7607ce28fbd565cc4a
 workflow-type: tm+mt
 source-wordcount: '1680'
 ht-degree: 2%
@@ -25,7 +25,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_event_transformer"
 >title="이벤트 변환기 안내서"
->abstract="이 안내서를 사용하여 충성도 챌린지 이벤트 정의를 위한 스키마 유효성 검사 및 변환기 표현식을 구성할 수 있습니다."
+>abstract="충성도 문제 이벤트 매핑에 대한 스키마 유효성 검사 및 변환기 표현식을 구성하려면 이 안내서를 사용합니다."
 
 >[!BEGINSHADEBOX]
 
@@ -37,16 +37,16 @@ ht-degree: 2%
 
 ## 개요
 
-**이벤트 정의**&#x200B;은(는) 플랫폼에 다음 두 가지를 알려줍니다.
+**이벤트 매핑**&#x200B;은(는) 다음 두 가지를 플랫폼에 알려줍니다.
 
 * **청구할 이벤트** - 들어오는 이벤트가 이 정의에 속함을 인식하는 방법(일치)
 * **모양을 변경하는 방법** — 고객의 필드를 고객 충성도 이벤트 형식(변환)에 매핑하는 [JSONata](https://docs.jsonata.org/overview) 식
 
-조직당 여러 이벤트 정의를 구성할 수 있습니다. 플랫폼은 이를 순서대로 평가하고 일치하는 첫 번째 항목을 적용합니다. 정의와 일치하지 않는 이벤트는 기본 수집으로 전달됩니다([대체 — 기본 충성도 이벤트](#fallback--native-loyalty-events) 참조).
+조직당 여러 이벤트 매핑을 구성할 수 있습니다. 플랫폼은 이를 순서대로 평가하고 일치하는 첫 번째 항목을 적용합니다. 매핑과 일치하지 않는 이벤트는 기본 수집으로 전달됩니다([대체 — 기본 충성도 이벤트](#fallback--native-loyalty-events) 참조).
 
 ## Adobe 충성도 이벤트 형식
 
-모든 이벤트 정의는 다음 형식의 JSON 개체를 생성해야 합니다. Challenge Service 프로세스에 대한 입력입니다.
+모든 이벤트 매핑은 다음 형식의 JSON 개체를 생성해야 합니다. Challenge Service 프로세스에 대한 입력입니다.
 
 ```json
 {
@@ -83,7 +83,7 @@ ht-degree: 2%
 | `_id` | 아니오 | 조직에서 중복 검색을 사용하도록 설정한 경우 중복 제거에 사용됩니다. |
 | `sub_total` | 아니오 | 지출-임계값 태스크는 이를 사용합니다. 생략은 0의 지출을 의미합니다. |
 
-## 이벤트 정의 필드
+## 이벤트 매핑 필드
 
 | 필드 | 유형 | 필수 여부 | 설명 |
 |--------------------------------|------------------|----------------------|-------------|
@@ -97,7 +97,7 @@ ht-degree: 2%
 
 데이터 수집 핵심 서비스(DCCS)를 통해 도착하는 이벤트는 XDM 스키마 참조를 봉투에 포함합니다. 플랫폼은 `/body/xdmMeta/schemaRef/id`에서 스키마 ID를 읽고 각 정의의 `xdmSchemaId`과(와) 비교합니다.
 
-플랫폼은 조직의 이벤트 정의를 **순서대로**&#x200B;하고 첫 번째 일치를 적용합니다. 일치 항목이 발견되면 `xdmEntity` 본문이 변환기에 전달됩니다.
+플랫폼은 조직의 이벤트 매핑을 **순서대로** 이동하고 첫 번째 일치를 적용합니다. 일치 항목이 발견되면 `xdmEntity` 본문이 변환기에 전달됩니다.
 
 ## 변환기에 쓰기
 
@@ -243,7 +243,7 @@ DCCS 경로를 통해 도착하는 이벤트의 경우 멤버의 ID는 일반적
 }
 ```
 
-**이벤트 정의:**
+**이벤트 매핑:**
 
 ```json
 {
@@ -317,7 +317,7 @@ DCCS 경로를 통해 도착하는 이벤트의 경우 멤버의 ID는 일반적
 }
 ```
 
-**이벤트 정의:**
+**이벤트 매핑:**
 
 ```json
 {
@@ -399,7 +399,7 @@ DCCS 경로를 통해 도착하는 이벤트의 경우 멤버의 ID는 일반적
 }
 ```
 
-**이벤트 정의:**
+**이벤트 매핑:**
 
 ```json
 {
@@ -485,17 +485,17 @@ DCCS 경로를 통해 도착하는 이벤트의 경우 멤버의 ID는 일반적
 
 +++
 
-이벤트 정의의 `schema` 필드에 축소된 JSON 문자열로 이 스키마를 전달합니다.
+이 스키마를 이벤트 매핑의 `schema` 필드에 축소된 JSON 문자열로 전달합니다.
 
 ## 대체 — 기본 충성도 이벤트
 
-수신되는 이벤트와 일치하는 이벤트 정의가 없는 경우 플랫폼은 이를 기본 Adobe 충성도 이벤트로 직접 수집하려고 합니다. 페이로드가 이미 위에서 설명한 충성도 이벤트 형식을 준수하는 경우 변환기가 필요하지 않으며 이벤트가 그대로 적용됩니다. 이렇게 하면 이벤트의 형식을 미리 지정한 고객이 변형을 완전히 우회할 수 있습니다.
+수신되는 이벤트와 일치하는 이벤트 매핑이 없는 경우 플랫폼은 이를 기본 Adobe 충성도 이벤트로 직접 수집하려고 합니다. 페이로드가 이미 위에서 설명한 충성도 이벤트 형식을 준수하는 경우 변환기가 필요하지 않으며 이벤트가 그대로 적용됩니다. 이렇게 하면 이벤트의 형식을 미리 지정한 고객이 변형을 완전히 우회할 수 있습니다.
 
 ## API 참조
 
-모든 이벤트 정의 작업에서 기본 경로 `/loyalty/metadata/config/events`을(를) 사용합니다.
+모든 이벤트 매핑 작업은 기본 경로 `/loyalty/metadata/config/events`을(를) 사용합니다.
 
-+++이벤트 정의 만들기
++++이벤트 매핑 만들기
 
 ```http
 POST /loyalty/metadata/config/events
@@ -512,7 +512,7 @@ Content-Type: application/json
 
 +++
 
-+++목록 이벤트 정의
++++이벤트 매핑 나열
 
 ```http
 GET /loyalty/metadata/config/events
@@ -522,7 +522,7 @@ x-sandbox-name: {SANDBOX}
 
 +++
 
-+++이벤트 정의 업데이트
++++이벤트 매핑 업데이트
 
 ```http
 PUT /loyalty/metadata/config/events/{eventId}
@@ -538,7 +538,7 @@ Content-Type: application/json
 
 +++
 
-+++이벤트 정의 삭제
++++이벤트 매핑 삭제
 
 ```http
 DELETE /loyalty/metadata/config/events/{eventId}
@@ -550,7 +550,7 @@ x-sandbox-name: {SANDBOX}
 
 ## 변환기 유효성 검사
 
-이벤트 정의가 저장될 때 JSONata 표현식의 구문 유효성이 검사됩니다. 표현식이 잘못된 경우 API가 구문 분석 실패에 대한 설명과 함께 `422` 오류를 반환합니다.
+이벤트 매핑이 저장될 때 JSONata 표현식의 구문 유효성이 검사됩니다. 표현식이 잘못된 경우 API가 구문 분석 실패에 대한 설명과 함께 `422` 오류를 반환합니다.
 
 배포하기 전에 변환기를 테스트하려면 [JSONata Exerciser](https://try.jsonata.org/) — 소스 이벤트를 입력으로 붙여넣고 변환기 표현식을 적용하여 출력이 예상 충성도 이벤트 형식과 일치하는지 확인합니다.
 

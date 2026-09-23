@@ -10,24 +10,29 @@ exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
 TQID: https://experienceleague.adobe.com/QFZt5R2bGJMIwT9okjkcGWxN9cj56Mi77XdCgddCleU
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+    internal-label: Integrations
 subfeature_v2:
   - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
+    internal-label: Experience Manager Assets integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: c40c37683d1e36ad85654320278b9f781b8d818c
+    internal-label: Personalization
+source-git-commit: 0ba3165fd3eeebbc150387e5f6e68f8029b3201a
 workflow-type: tm+mt
-source-wordcount: 1784
+source-wordcount: '1834'
 ht-degree: 0%
-
 ---
-
 # Adobe Experience Manager 컨텐츠 조각을 사용한 작업 {#aem-fragments}
 
 >[!BEGINSHADEBOX]
@@ -208,6 +213,10 @@ Adobe Experience Manager을 사용하면 컨텐츠 조각이 사용되는 Journe
 
 AEM 콘텐츠 조각은 **Experience Decisioning**&#x200B;에서 오퍼 항목 특성으로 사용할 수도 있습니다. 콘텐츠 조각 필드를 의사 결정 항목 속성에 매핑하면 Journey Optimizer 의사 결정 모델, 공식 및 등급 기준을 사용하여 각 프로필에 제공되는 조각을 최적화할 수 있습니다.
 
+>[!NOTE]
+>
+>Decisioning의 AEM 콘텐츠 조각은 Adobe Experience Manager **as a Cloud Service** 또는 **Managed Services**&#x200B;을(를) Adobe Journey Optimizer과 통합하는 고객이 사용할 수 있습니다. [자세히 알아보기](aem-fragments-gs.md)
+
 ### 사전 요구 사항 및 가드레일
 
 * 콘텐츠 조각은 결정 선택기에 표시되기 전에 Adobe Experience Manager에서 `ajo-enabled:{OrgId}/{SandboxName}` 태그로 태그가 지정되어야 합니다. [태그를 만들고 할당하는 방법을 알아보세요](#create-tag)
@@ -220,6 +229,10 @@ AEM 콘텐츠 조각을 만들고 게시하면 다음 작업을 수행해야 합
 
 1. 결정 항목의 속성에서 선택하여 결정 항목에 연결합니다.
 1. 의사 결정 정책에 활용하여 적합한 고객에게 적합한 콘텐츠를 제공할 수 있습니다.
+
+>[!NOTE]
+>
+>Decisioning의 AEM 콘텐츠 조각은 **Adobe Experience Manager as a Cloud Service** 및 **Adobe Experience Manager Managed Services**&#x200B;에서 모두 지원됩니다. [자세히 알아보기](aem-fragments-gs.md)
 
 ➡️ [AEM 콘텐츠 조각을 결정 항목에 연결](../experience-decisioning/items.md#aem-fragments)
 

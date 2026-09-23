@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 5fb4e78a32eedb4db8e1b3c3e0d87b01dc2f7a27
+source-git-commit: b14d1c9ba25a849b6f42101c68e4fe960663addf
 workflow-type: tm+mt
-source-wordcount: '2823'
+source-wordcount: '2859'
 ht-degree: 6%
 ---
 
@@ -49,11 +49,9 @@ ht-degree: 6%
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** 시뮬레이션 사용자를 사용하는 시뮬레이션과 테스트 프로필을 사용하는 테스트 모드를 사용하여 여정을 게시하기 전에 유효성을 검사하여 오류를 조기에 발견하는 방법에 대해 알아봅니다.
+**이 페이지에서:** 여정 시뮬레이션, 여정 테스트 모드 또는 여정 시험 실행을 사용하여 게시하기 전에 여정의 유효성을 검사하는 방법을 알아봅니다.
 
 >[!ENDSHADEBOX]
-
-테스트 모드가 올바른 방법인지 확신할 수 없습니까? [세 가지 유효성 검사 옵션 모두 비교](choose-validation-method.md).
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test"
@@ -65,17 +63,21 @@ ht-degree: 6%
 
 테스트 프로필만 테스트 모드에서 여정에 들어갈 수 있습니다. 새 테스트 프로필을 만들거나 기존 프로필을 테스트 프로필로 만들 수 있습니다. [이 섹션](../audience/creating-test-profiles.md)에서 테스트 프로필에 대해 자세히 알아보세요.
 
-Adobe 여정 Optimizer는 여정을 테스트하고 확인하는 두 가지 방법을 제공합니다.
+Adobe Journey Optimizer은 여정을 테스트하고 확인하는 세 가지 방법을 제공합니다.
 
-* **[시뮬레이션](simulate-journey.md#test-users)**: 여정을 **[!UICONTROL 시뮬레이션]**(으)로 설정하고 시뮬레이션된 사용자(Adobe Experience Platform에서 미리 만들어진 프로필 없이 즉석에서 만들거나 생성하는 임시 프로필)를 사용합니다.
+* **[여정 시뮬레이션](simulate-journey.md#test-users)**: 여정을 **[!UICONTROL 시뮬레이션]**(으)로 설정하고 시뮬레이션된 사용자(Adobe Experience Platform에서 미리 만들어진 프로필 없이 즉석에서 만들거나 생성하는 임시 프로필)를 사용합니다.
 
-* **[테스트 모드](#test-profiles)**: Adobe Experience Platform에서 테스트 프로필로 명시적으로 플래그가 지정된 영구 프로필입니다. 여러 테스트 세션에서 재사용할 수 있습니다. 이 방법은 일관되고 사전 정의된 프로필 데이터로 테스트하는 데 권장됩니다. [테스트 프로필을 만드는 방법을 알아봅니다](../audience/creating-test-profiles.md).
+* **[여정 테스트 모드](#test-profiles)**: Adobe Experience Platform에서 테스트 프로필로 명시적으로 플래그가 지정된 영구 프로필입니다. 여러 테스트 세션에서 재사용할 수 있습니다. 이 방법은 일관되고 사전 정의된 프로필 데이터로 테스트하는 데 권장됩니다. [테스트 프로필을 만드는 방법을 알아봅니다](../audience/creating-test-profiles.md).
+
+* **[여정 시험 실행](journey-dry-run.md)**: 실제 고객에게 연락하거나 프로필 정보를 업데이트하지 않고 실제 프로덕션 대상 및 세분화 데이터에 대해 여정을 실행합니다. 이메일, SMS 및 사용자 지정 작업과 같은 작업 노드는 무시됩니다. [여정 시험 실행에 대해 자세히 알아보세요](journey-dry-run.md).
+
+테스트 모드가 올바른 방법인지 확신할 수 없습니까? [세 가지 유효성 검사 옵션 모두 비교](choose-validation-method.md).
 
 >[!NOTE]
 >
 >여정을 테스트하기 전에 모든 오류가 있는 경우 이를 해결해야 합니다. [이 섹션](../building-journeys/troubleshooting.md)에서 테스트하기 전에 오류를 확인하는 방법을 알아보세요. 테스트 프로필이 테스트 모드에서 진행되지 않으면 [테스트 모드 전환 문제 해결](troubleshooting-execution.md#troubleshooting-test-transitions)을 참조하십시오.
 
-## 중요 정보 {#important_notes}
+## 가드레일 및 제한 사항 {#important_notes}
 
 여정에서 테스트를 실행하기 전에 이 참고 사항을 검토하십시오.
 

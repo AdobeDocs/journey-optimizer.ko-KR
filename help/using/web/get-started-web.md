@@ -9,28 +9,37 @@ exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
 TQID: https://experienceleague.adobe.com/7LxkDJdH0RqWKCVLLK2ISDDnNR5ZwGmgfpX7W251GBU
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+    internal-label: Communication channels
   - id: a984631b-2bae-4860-9b15-69c41a799dcb
+    internal-label: APIs and SDKs
 subfeature_v2:
   - id: c618a0dc-1818-4c6d-9916-0d92e6796f24
+    internal-label: Web channel
   - id: d056adbe-402d-4f42-9746-f3d424e598b1
+    internal-label: Web SDK
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+    internal-label: Get started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Web experience
+source-git-commit: 4f3312974e2533c97954e887b4371de6fc80595a
 workflow-type: tm+mt
-source-wordcount: 319
-ht-degree: 100%
-
+source-wordcount: '339'
+ht-degree: 94%
 ---
-
 # 웹 채널 시작하기 {#get-started-web}
 
 >[!BEGINSHADEBOX]
@@ -45,7 +54,7 @@ ht-degree: 100%
 
 ![](../rn/assets/do-not-localize/web-authoring.gif)
 
-이메일이나 SMS 또는 푸시 알림 등 메시지 게재용 아웃바운드 채널을 이미 사용하고 있다면, 인바운드 웹 채널을 활용하여 모든 채널에 걸쳐 제대로 개인화된 경험을 제공할 수 있습니다.
+이메일이나 SMS 또는 푸시 알림 등 메시지 게재용 아웃바운드 채널을 이미 사용하고 있다면, 인바운드 웹 채널을 활용하여 모든 채널에 걸쳐 진정으로 개인화된 경험을 제공할 수 있습니다.
 
 여정 혹은 캠페인을 만든 후 작업으로 **웹**&#x200B;을 선택하고 기본 설정을 정의합니다. 여정/캠페인을 구성하는 자세한 방법은 이 [페이지](create-web.md#create-web-experience)를 참조하십시오.
 
@@ -100,6 +109,7 @@ ht-degree: 100%
 * **[웹 수정 사항 관리](manage-web-modifications.md)** - 웹 경험의 수정 사항을 구성하고 적용하고 관리하는 방법을 알아봅니다.
 * **[웹 경험 모니터링](monitor-web-experiences.md)** - 자세한 보고를 통해 웹 캠페인의 성과를 추적하고 분석합니다.
 * **[AI를 사용하여 웹 콘텐츠 생성](../content-management/generative-full-content.md)** - AI를 사용하여 텍스트 및 이미지로 웹 콘텐츠를 만들고 최적화합니다.
+* **[웹 경험에서 의사 결정 사용](../experience-decisioning/use-decision-policy.md)** - 의사 결정 정책을 사용하여 웹 경험을 개인화하여 각 방문자에게 가장 연관성 높은 오퍼를 제공합니다.
 * **[웹 캠페인 튜토리얼](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/channels/web-channel/create-a-web-campaign){target="_blank"}** - 웹 채널 기능 및 모범 사례에 대한 단계별 비디오 튜토리얼을 살펴봅니다.
 
 

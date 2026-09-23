@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 84257968aa002aafe338cb247d1704f822e2b1b4
+source-git-commit: 8d5e3584ff2dc7cf9c00043e1a67f9a4c23255d9
 workflow-type: tm+mt
-source-wordcount: '3197'
+source-wordcount: '2726'
 ht-degree: 8%
 ---
 
@@ -85,11 +85,13 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 
 ### 통합 {#sep-26-integrations}
 
-이 릴리스에서는 다음 기능이 통합됩니다.
+이 릴리스에서는 다음 기능이 통합되었습니다.
 
 * **Experience Manager 조각에 대한 동적 토큰 대체** - Experience Manager 콘텐츠 조각 참조에서 이제 **tokenSubstitution** 특성을 지원합니다. `false`(으)로 설정하면 참조에 토큰 맵 없이 조각의 필드 내 개인화가 직접 확인됩니다. 기본값은 `true`(으)로 설정되며, 이렇게 하면 기존 동작이 유지됩니다.
 
   이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
+
+* **의사 결정 시 AEM Managed Services 콘텐츠 조각 지원** - 이제 의사 결정 항목을 관리할 때 AEM Managed Services 콘텐츠 조각이 의사 결정 시 지원됩니다.
 
 ### 충성도 {#sep-26-loyalty}
 
@@ -112,71 +114,34 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>충성도 이벤트 매핑 업데이트</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 이벤트 매핑 생성 또는 편집에서는 새로운 **시각적 매핑 빌더**&#x200B;를 사용합니다. 스키마를 선택하고, 검색 가능한 필드 선택기에서 필드를 선택하고, 각 필드를 행별 연결 상태가 있는 충성도 이벤트 필드에 매핑하고, 언제든지 수동 JSONata 편집으로 전환하는 옵션과 함께 자동 생성된 JSONata 표현식을 미리 봅니다.</p><p>또한 충성도 관리자의 "이벤트 정의"가 사람이 읽을 수 있는 Experience 이벤트 스키마 이름을 보여 주는 목록 보기가 새로 고쳐진 상태로 "이벤트 매핑"으로 이름이 변경되었습니다.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-* **동료의 충성도 추천 기술** - 이제 마케터는 동료의 대화 인터페이스에서 직접 **도전 기회**&#x200B;를 요청할 수 있으며, 실제 충성도 프로그램 트렌드에 따라 기본적인 도전 아이디어를 얻고 채팅을 종료하지 않고도 실시간 도전으로 전환할 수 있습니다.
-
 * **콘텐츠 카드 개인화 편집기의 과제 도메인** - 이제 콘텐츠 카드 개인화 편집기가 도메인으로 **과제**&#x200B;를 지원하므로 콘텐츠 카드 개인화를 작성할 때 과제 메타데이터에 액세스할 수 있습니다. 이렇게 하면 사용자 지정 코드 없이 Launch, 진행 중 및 종료 등 과제의 각 단계에 맞는 콘텐츠를 보다 쉽게 만들 수 있습니다.
 
+<!--
+### Onboarding {#sep-26-onboarding}
 
-
-### 온보딩 {#sep-26-onboarding}
-
-이 릴리스에서는 다음 기능이 온보딩됩니다.
+The following capability is coming to onboarding in this release.
 
 <table>
 <thead>
 <tr>
-<th><strong>이메일 및 여정 온보딩을 위한 안내 기능(일반 공급)</strong><br/></th>
+<th><strong>Guided capabilities for onboarding emails and journeys (General Availability)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>기존 이메일 콘텐츠와 여정을 Journey Optimizer로 마이그레이션하는 데 도움이 되는 안내형 기능을 통해 다른 마케팅 플랫폼에서 Adobe Journey Optimizer로의 전환이 더욱 쉬워졌습니다. <strong>전용 작업 영역</strong>을 사용하면 처음부터 다시 빌드하는 대신 기존 작업 영역을 다시 사용할 수 있습니다.</p>
-<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
+<p>Transitioning to Adobe Journey Optimizer from another marketing platform is easier with guided capabilities that help you move existing email content and journeys into Journey Optimizer. A <strong>dedicated workspace</strong> lets you reuse what you have instead of rebuilding from scratch.</p>
+<p>Previously released in Limited Availability, this capability is now available to all environments (General Availability).</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-### 대상자 {#sep-26-audiences}
-
-다음 미리 알림은 이 릴리스의 대상자에게 적용됩니다.
-
-* **대상 구성 강화 대상에 대한 향후 변경** - 10월 릴리스(10월 말) 동안 Journey Optimizer은 소스 데이터 집합에 **기본 ID 설명자**&#x200B;가 없는 대상 구성 대상을 사용하거나 참조하는 여정 및 캠페인을 중지합니다. 이 시점부터 여정 및 캠페인에서는 기본 ID 설명자로 빌드된 대상 구성 대상만 지원됩니다. 이러한 여정 또는 캠페인이 활성 상태를 유지해야 하는 경우 Adobe 담당자에게 문의하십시오. EMC 제품 팀이 마이그레이션을 지원할 수 있습니다. <!-- Documentation link: TBD -->
+-->
 
 ### 여정 {#sep-26-journeys}
 
 이번 릴리스에서는 다음과 같은 기능 및 개선 사항이 여정에 추가됩니다.
-
-<table>
-<thead>
-<tr>
-<th><strong>동료의 여정 시뮬레이션</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Coworker의 <strong>여정 시뮬레이션 기술</strong>은(는) 엔드 투 엔드 여정 유효성 검사를 자동화하고 결과를 쉽게 해석할 수 있도록 합니다. 이 기능은 현재 빠른 시뮬레이션 흐름만 지원하며 Journey Optimizer 수동 시뮬레이션 경험을 완전히 대체하지는 않습니다.</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
@@ -220,21 +185,6 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 <tr>
 <td>
 <p>여정 캔버스에서 새 <strong>인바운드 활동 비활성화</strong> 활동을 사용하면 여정에서 최대 5개의 인바운드 활동 또는 경험에서 프로필을 직접 제거하고, 더 고급 크로스 채널 오케스트레이션을 위해 여정 종료에서 인바운드 결격 조건을 제거할 수 있습니다.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>여정 캔버스에서 컨텐츠 미리 보기</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>오늘 채널 콘텐츠를 검토하려면 각 노드를 한 번에 하나씩 개별적으로 열어야 합니다. 특히 개인화에서 노드당 여러 처리 또는 변형을 확인하는 것을 의미하는 경우 채널 노드가 많은 여정에서 느리고 오류가 발생하기 쉽습니다. <strong>콘텐츠 미리 보기</strong>에서는 전체 화면 모달을 사용하여 처리 및 변형을 검사하고 전환하여 캔버스에서 직접 모든 채널 노드의 콘텐츠 썸네일을 표시하여 이러한 마찰을 제거합니다.</p>
 </td>
 </tr>
 </tbody>
@@ -459,17 +409,9 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 </tbody>
 </table>
 
-### 관리 {#sep-26-administration}
-
-다음 미리 알림은 이 릴리스의 관리에 적용됩니다.
-
-* **TTL(Time-to-Live) 보호 — 기존 샌드박스** - Journey Optimizer 시스템 생성 데이터 세트에 대한 TTL(Time-to-Live) 보호(프로필 스토어에서 90일, 데이터 레이크에서 13개월)가 2026년 10월 1일부터 기존 고객 샌드박스 및 조직에 적용됩니다.
-
 ### 사용성 개선 사항 {#sep-26-usability}
 
 * **콘텐츠 시뮬레이션 경험의 유용성 개선** - 이제 새로운 콘텐츠 시뮬레이션 경험을 통해 손쉽게 비교할 수 있도록 변형의 이름을 지정하고 구성하며, 각 카드에서 직접 변형 세부 정보를 복사하거나 삭제할 수 있으며, 전체 속성 경로 및 카드별 채널 구성을 요청 시 볼 수 있으며, 더 눈에 띄는 업로드 버튼에서 고유한 CSV, JSON 또는 JSONL 프로필을 업로드할 수 있습니다.
-
-* **조각 유효성 검사 경고의 AI 개요** - 이제 조각 유효성 검사 경고 대화 상자에 유효성 검사 문제(예: 잘못된 표현식, 누락된 프로필 필드 및 잘못된 JSON)를 요약 및 설명하는 AI 개요가 포함되어 있으므로 사용자가 보다 신속하게 문제를 해결할 수 있습니다.
 
 * **캠페인, 여정 및 오케스트레이션된 캠페인을 위한 통합 일정** - 이제 여정 및 캠페인에 대한 일정 보기가 개별 인벤토리에서 벗어나 통합된 왼쪽 레일에 액세스할 수 있는 메뉴로 전환되며 둘 다 하나의 통합 보기로 표시됩니다.
 

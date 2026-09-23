@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 9054b29f1e6f50bc10541c223b921b2dd096784e
+source-git-commit: d0d56e302fa6741c780f819cc9beed0598a6e14d
 workflow-type: tm+mt
-source-wordcount: '1571'
-ht-degree: 26%
+source-wordcount: '2223'
+ht-degree: 20%
 ---
 # 릴리스 정보 {#release-notes}
 
@@ -85,6 +85,23 @@ ht-degree: 26%
 
 ### 충성도 {#sep-26-loyalty}
 
+<table>
+<thead>
+<tr>
+<th><strong>충성도 이벤트 매핑 업데이트</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 이벤트 매핑 생성 또는 편집에서는 새로운 **시각적 매핑 빌더**&#x200B;를 사용합니다. 스키마를 선택하고, 검색 가능한 필드 선택기에서 필드를 선택하고, 각 필드를 행별 연결 상태가 있는 충성도 이벤트 필드에 매핑하고, 언제든지 수동 JSONata 편집으로 전환하는 옵션과 함께 자동 생성된 JSONata 표현식을 미리 봅니다.</p><p>또한 충성도 관리자의 "이벤트 정의"가 사람이 읽을 수 있는 Experience 이벤트 스키마 이름을 보여 주는 목록 보기가 새로 고쳐진 상태로 "이벤트 매핑"으로 이름이 변경되었습니다.</p>
+<p>자세한 내용은 <a href="../loyalty-challenges/loyalty-admin.md#event-mappings">세부 설명서</a>를 참조하십시오.</p>
+<p>사용 가능한 날짜: 2026년 9월 22일</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 * **&quot;충성도 도전 과제&quot;** - 충성도 도전은 이제 무기한 실행될 수 있습니다. 일정을 구성할 때 **챌린지 종료**&#x200B;를 **종료 날짜 없음**(으)로 설정하세요. 챌린지가 만료되지 않습니다. [자세히 알아보기](../loyalty-challenges/create-challenges.md#schedule)
 
   사용 가능한 날짜: 2026년 9월 1일
@@ -95,11 +112,43 @@ ht-degree: 26%
 
 +++ 곧 출시 예정 — **아래 정보는 변경될 수 있습니다.**
 
+<table>
+<thead>
+<tr>
+<th><strong>과제 권장 사항</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 충성도 성능 메뉴에는 계층 진행 마찰 또는 과제 작업 드롭오프와 같이 AI가 감지한 트렌드와 차이를 예상되는 영향과 한 번의 클릭으로 "AI로 만들기" 작업을 통해 해결하는 과제를 생성하는 **기회** 및 **트렌드** 탭이 포함되어 있습니다.</p><p>또한 마케터는 동료의 대화 인터페이스에서 직접 **도전 기회**&#x200B;를 요청할 수 있어 실제 충성도 프로그램 트렌드를 기반으로 근거 있는 도전 아이디어를 얻고 채팅을 종료하지 않고도 라이브 도전으로 전환할 수 있습니다.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 * **멤버당 충성도 챌린지 완료 기한** - 충성도 챌린지는 이제 멤버당 완료 기한을 지원합니다. 각 멤버의 기한이 고정된 프로그램 전체 종료 날짜가 아닌 자체 옵트인 날짜에서 계산되도록 완료 요구 사항에서 &quot;옵트인 후 며칠 이내&quot;를 선택하십시오. 챌린지 종료 날짜 및 이 옵트인 창이 모두 설정된 경우 각 구성원의 기한은 어느 쪽이든 먼지가 됩니다. <!-- Documentation link: TBD -->
 
 +++
 
 ### 여정 {#sep-26-journeys}
+
+<table>
+<thead>
+<tr>
+<th><strong>동료의 여정 시뮬레이션</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Coworker의 <strong>여정 시뮬레이션 기술</strong>은(는) 엔드 투 엔드 여정 유효성 검사를 자동화하고 결과를 쉽게 해석할 수 있도록 합니다. 이 기능은 현재 빠른 시뮬레이션 흐름만 지원하며 Journey Optimizer 수동 시뮬레이션 경험을 완전히 대체하지는 않습니다.</p>
+<p>자세한 내용은 <a href="../building-journeys/journeys-coworker-skills.md#journey-simulation">세부 설명서</a>를 참조하십시오.</p>
+<p>사용 가능한 날짜: 2026년 9월 23일</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -129,7 +178,7 @@ ht-degree: 26%
 <tr>
 <td>
 <p>이제 여정 고급 표현식 편집기는 AI 기반의 표현식 생성을 통합합니다. 빌드할 표현식을 자연어로 설명하고, 편집기는 즉시 적용하거나 후속 프롬프트를 통해 구체화할 수 있는 사용 준비 코드를 생성합니다.</p>
-<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
+<p>이전에 제한 공급 상태로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 공급).</p>
 <p>자세한 내용은 <a href="../building-journeys/expression/generate-expression.md">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2026년 9월 1일</p>
 </td>
@@ -179,6 +228,22 @@ ht-degree: 26%
 
 +++ 곧 출시 예정 — **아래 정보는 변경될 수 있습니다.**
 
+<table>
+<thead>
+<tr>
+<th><strong>여정 캔버스에서 컨텐츠 미리 보기</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>오늘 채널 콘텐츠를 검토하려면 여러 채널 활동이 있는 여정에서 각 활동을 한 번에 하나씩 개별적으로 열어야 합니다. 특히 개인화를 통해 활동당 여러 처리 또는 변형을 확인하는 경우 활동 속도가 느리고 오류가 발생하기 쉽습니다. <strong>콘텐츠 미리 보기</strong>에서는 전체 화면 모달을 사용하여 캔버스에서 직접 모든 채널 활동에 대한 콘텐츠 썸네일을 표시하여 처리와 변형 간을 검사하고 전환함으로써 이러한 마찰을 제거합니다.</p>
+<p>Target 사용 가능 날짜: 2026년 9월 28일</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 * **위생 분석 기술** - 이제 CX Coworker에서 활성 및 초안 여정에서 구성 오류, 자동 오류, 오래된 초안 여정, 고립된 데이터 소스, 지속적인 사용자 지정 작업 오류와 같은 손상되거나 사용되지 않는 에셋에 대해 검사하고 채팅에서 직접 권장 수정 사항을 표시할 수 있습니다. <!-- Documentation link: TBD -->
 
 +++
@@ -216,6 +281,30 @@ ht-degree: 26%
 
   사용 가능한 날짜: 2026년 9월 22일
 
+### 온보딩 {#sep-26-onboarding}
+
+이 릴리스에서는 다음 개선 사항이 온보딩됩니다.
+
+<table>
+<thead>
+<tr>
+<th><strong>이메일 및 여정 온보딩을 위한 안내 기능</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 이메일 및 여정 온보딩을 위한 안내 기능에 다음과 같은 개선 사항이 포함됩니다.</p>
+<ul>
+<li>전자 메일을 마이그레이션할 때 [!DNL Journey Optimizer]에서 해당 전자 메일에서 참조되는 콘텐츠 블록을 식별하고 이를 작업 항목으로 표시하므로 전자 메일과 함께 콘텐츠 블록을 마이그레이션할 수 있습니다.</li>
+<li>가이드 온보딩을 보다 직관적으로 이해할 수 있도록 인터페이스가 개선되었습니다.</li></ul>
+<p>자세한 내용은 <a href="../start/onboarding-hub.md">세부 설명서</a>를 참조하십시오.</p>
+<p>사용 가능한 날짜: 2026년 9월 23일</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ### 개인화 {#sep-26-personalization}
 
 * **AI로 구문 수정** - PQL 구문 유효성 검사 오류가 감지되면 Personalization 편집기에서 직접 문제를 해결하는 데 도움이 되는 &quot;AI로 수정&quot; 옵션을 제공합니다.
@@ -224,11 +313,7 @@ ht-degree: 26%
 
 ### 결정 {#sep-26-decisioning}
 
-* **규칙 및 등급 수식 시뮬레이션에서 Adobe Experience Platform 프로필 지원** - 이제 규칙 또는 등급 수식 시뮬레이션 시 Adobe Experience Platform 프로필을 수동으로 입력하는 대신 테스트 데이터 변형의 특성을 자동으로 채우도록 선택할 수 있습니다. [자세히 알아보기](../experience-decisioning/ranking/ranking-formulas.md#simulate-ranking-formula)
-
-  사용 가능한 날짜: 2026년 9월 22일
-
-+++ 곧 출시 예정 — **아래 정보는 변경될 수 있습니다.**
+이번 릴리스에서는 다음과 같은 기능 및 개선 사항이 제공됩니다.
 
 <table>
 <thead>
@@ -238,16 +323,39 @@ ht-degree: 26%
 </thead>
 <tbody>
 <tr>
-<td>
-<p>이제 웹 채널에서도 결정 기능을 사용할 수 있습니다. 웹 시각화 편집기에서 직접 결정 정책을 사용하여 각 방문자에게 가장 관련성이 높은 오퍼를 제공할 수 있습니다.</p>
+<td>이제 웹 채널에서도 결정 기능을 사용할 수 있습니다. 웹 시각화 편집기에서 직접 결정 정책을 사용하여 각 방문자에게 가장 관련성이 높은 오퍼를 제공할 수 있습니다.</p>
+<p>자세한 내용은 <a href="../experience-decisioning/use-decision-policy.md">세부 설명서</a>를 참조하십시오.</p>
+<p>사용 가능한 날짜: 2026년 9월 22일</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-+++
+* **Decisioning의 AEM 콘텐츠 조각은 Managed Services 고객에게 제공됩니다** - 이전에는 Decisioning의 AEM 콘텐츠 조각은 **Adobe Experience Manager as a Cloud Service** 통합을 사용하는 고객에게만 제공되었습니다. 이제 **Adobe Experience Manager Managed Services**&#x200B;을 사용하는 고객도 이 기능을 사용할 수 있습니다. [자세히 알아보기](../experience-decisioning/items.md#attributes)
+
+  사용 가능한 날짜: 2026년 9월 23일
+
+* **규칙 및 등급 수식 시뮬레이션에서 Adobe Experience Platform 프로필 지원** - 이제 규칙 또는 등급 수식 시뮬레이션 시 Adobe Experience Platform 프로필을 수동으로 입력하는 대신 테스트 데이터 변형의 특성을 자동으로 채우도록 선택할 수 있습니다. [자세히 알아보기](../experience-decisioning/ranking/ranking-formulas.md#simulate-ranking-formula)
+
+  사용 가능한 날짜: 2026년 9월 22일
+
+### 대상자 {#sep-26-audiences}
+
+다음 미리 알림은 이 릴리스의 대상자에게 적용됩니다.
+
+* **대상 구성 강화 대상에 대한 향후 변경** - 10월 릴리스(10월 말) 동안 Journey Optimizer은 소스 데이터 집합에 **기본 ID 설명자**&#x200B;가 없는 대상 구성 대상을 사용하거나 참조하는 여정 및 캠페인을 중지합니다. 이 시점부터 여정 및 캠페인에서는 기본 ID 설명자로 빌드된 대상 구성 대상만 지원됩니다. 이러한 여정 또는 캠페인이 활성 상태를 유지해야 하는 경우 Adobe 담당자에게 문의하십시오. EMC 제품 팀이 마이그레이션을 지원할 수 있습니다. <!-- Documentation link: TBD -->
+
+### 관리 {#sep-26-administration}
+
+다음 미리 알림은 이 릴리스의 관리에 적용됩니다.
+
+* **TTL(Time-to-Live) 보호 — 기존 샌드박스** - Journey Optimizer 시스템 생성 데이터 세트에 대한 TTL(Time-to-Live) 보호(프로필 스토어에서 90일, 데이터 레이크에서 13개월)가 2026년 10월 1일부터 기존 고객 샌드박스 및 조직에 적용됩니다.
 
 ### 사용성 개선 사항 {#sep-26-usability}
+
+* **조각 유효성 검사 경고의 AI 개요** - 이제 조각 유효성 검사 경고 대화 상자에 유효성 검사 문제(예: 잘못된 표현식, 누락된 프로필 필드 및 잘못된 JSON)를 요약 및 설명하는 AI 개요가 포함되어 있으므로 사용자가 보다 신속하게 문제를 해결할 수 있습니다.
+
+  사용 가능한 날짜: 2026년 9월 22일
 
 * **새 여정 캔버스에서 분기를 쉽게 분리하고 결합할 수 있습니다** - 이제 분기를 삭제하지 않고 나머지 여정에서 분리하여 캔버스에서 직접 적합한 활동을 선택하거나 연결이 끊겼거나 이미 사용한 분기 목록에서 선택하여 나중에 다른 지점에서 다시 연결할 수 있습니다. [자세히 알아보기](../building-journeys/using-the-journey-designer.md#join-and-detach-branches)
 

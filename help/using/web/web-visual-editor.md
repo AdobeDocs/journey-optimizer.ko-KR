@@ -9,28 +9,37 @@ exl-id: 98e99978-8538-40b4-92ac-7184864017eb
 TQID: https://experienceleague.adobe.com/o-MhiSpCJc-gmuHTnBvw3Bb-rBSQpvN7SvDbuQKvFb4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+    internal-label: Communication channels
   - id: a984631b-2bae-4860-9b15-69c41a799dcb
+    internal-label: APIs and SDKs
 subfeature_v2:
   - id: c618a0dc-1818-4c6d-9916-0d92e6796f24
+    internal-label: Web channel
   - id: d056adbe-402d-4f42-9746-f3d424e598b1
+    internal-label: Web SDK
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Web experience
+source-git-commit: 4f3312974e2533c97954e887b4371de6fc80595a
 workflow-type: tm+mt
-source-wordcount: 981
+source-wordcount: '1018'
 ht-degree: 10%
-
 ---
-
 # 웹 디자이너를 사용하여 작업 {#work-with-web-designer}
 
 >[!BEGINSHADEBOX]
@@ -139,6 +148,8 @@ ht-degree: 10%
 
 개인화를 추가하려면 컨테이너를 선택하고 표시되는 상황별 메뉴 모음에서 개인화 아이콘을 선택합니다. 개인화 편집기를 사용하여 변경 사항을 추가합니다. [자세히 알아보기](../personalization/personalization-build-expressions.md)
 
+**Decisioning**&#x200B;을 사용하여 각 방문자에게 가장 관련성이 높은 오퍼를 제공할 수도 있습니다. 개인화 편집기에서 **[!UICONTROL 의사 결정 정책]**(으)로 이동한 다음 **[!UICONTROL 구문 삽입]**&#x200B;을 선택하여 웹 구성 요소에 의사 결정 정책을 추가합니다. [자세히 알아보기](../experience-decisioning/use-decision-policy.md)
+
 ![](assets/web-designer-personalization.png)
 
 ## 웹 디자이너 탐색 {#navigate-web-designer}
@@ -162,7 +173,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_browse"
 >title="찾아보기 모드 사용"
->abstract="이 모드의 선택한 구성에서 개인화하려는 정확한 페이지로 이동할 수 있습니다."
+>abstract="이 모드에서 선택한 구성의 개인화하려는 정확한 페이지로 이동할 수 있습니다."
 
 전용 단추를 사용하여 기본 **[!UICONTROL 디자인]** 모드에서 **[!UICONTROL 찾아보기]** 모드로 전환할 수 있습니다.
 
@@ -182,7 +193,7 @@ ht-degree: 10%
 
 ![](assets/web-designer-device.png)
 
-장치 크기를 변경하는 기능은 다양한 장치, 창 및 화면 크기에서 잘 렌더링되는 반응형 사이트를 위해 설계되었습니다. 반응형 사이트는 데스크탑, 노트북, 태블릿 또는 휴대폰을 포함하여 모든 화면 크기를 자동으로 조정하고 적응합니다.
+장치 크기를 변경하는 기능은 다양한 장치, 창 및 화면 크기에서 잘 렌더링되는 반응형 사이트를 위해 설계되었습니다. 반응형 사이트는 데스크탑, 노트북, 태블릿 또는 휴대폰을 포함한 모든 화면 크기에 맞게 자동으로 조정되고 적응합니다.
 
 >[!CAUTION]
 >

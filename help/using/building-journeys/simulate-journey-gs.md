@@ -17,9 +17,9 @@ subfeature_v2:
     internal-label: Get started
   - id: b9d00d1b-a371-4a75-a52a-3f8ea2029020
     internal-label: Journey testing
-source-git-commit: aac27a9a53d4fe3698038a36cdfaad6fa78231d9
+source-git-commit: 64058c0ba77671d0c0aac5c7697c34df1166bcf3
 workflow-type: tm+mt
-source-wordcount: '1965'
+source-wordcount: '2002'
 ht-degree: 1%
 ---
 # 여정 시뮬레이션 시작 {#simulate-journey-gs}
@@ -30,23 +30,26 @@ ht-degree: 1%
 
 >[!ENDSHADEBOX]
 
+여정이 **[!UICONTROL 시뮬레이션]**&#x200B;에 있을 때 **시뮬레이션된 사용자**(Adobe Experience Platform에서 영구적인 테스트 프로필 대신 테스트를 위해 추가하는 프로필과 유사한 임시 엔터티)로 테스트할 수 있습니다.
+
+Adobe Journey Optimizer은 여정을 테스트하고 확인하는 세 가지 방법을 제공합니다.
+
+* **[여정 시뮬레이션](simulate-journey.md#test-users)**: Adobe Experience Platform에서 미리 만들어진 프로필이 없는 **[!UICONTROL 시뮬레이션]** 여정 기능과 시뮬레이션된 사용자를 사용하여 AI 기반 사용자와 수동으로 만든 사용자를 모두 지원합니다.
+
+* **[여정 테스트 모드](testing-the-journey.md)**: Adobe Experience Platform에서 테스트 프로필로 플래그가 지정된 영구 프로필을 사용하고 여러 세션에서 다시 사용할 수 있습니다. 일관되고 사전 정의된 데이터가 필요한 경우 이 방법을 선택합니다. [테스트 프로필을 만드는 방법을 알아봅니다](../audience/creating-test-profiles.md).
+
+* **[여정 시험 실행](journey-dry-run.md)**: 실제 고객에게 연락하거나 프로필 정보를 업데이트하지 않고 실제 프로덕션 대상 및 세분화 데이터에 대해 여정을 실행합니다. 이메일, SMS 및 사용자 지정 작업과 같은 작업 노드는 무시됩니다. [여정 시험 실행에 대해 자세히 알아보세요](journey-dry-run.md).
+
 시뮬레이션이 당신에게 적합한 방법인지 확신할 수 없습니까? [세 가지 유효성 검사 옵션 모두 비교](choose-validation-method.md).
 
->[!IMPORTANT]
->
->* **[!UICONTROL 시뮬레이션]**&#x200B;을(를) 사용하려면 **[!UICONTROL 여정]** 기능에서 하나 이상의 권한을 할당하십시오. **여정 시뮬레이션**, **여정 게시** 또는 **여정 승인 및 게시**. 동일한 권한을 사용하여 시뮬레이션된 사용자를 만들고 관리할 수 있습니다. **[!UICONTROL 시뮬레이션된 사용자]** 권한은 필요하지 않습니다. [자세히 알아보기](../administration/permissions.md)
->
->* **[!UICONTROL 시뮬레이션]** 없이 시뮬레이션된 사용자를 관리하려면 **[!UICONTROL 시뮬레이션된 사용자]** 기능에서 **시뮬레이션된 사용자 관리** 또는 **시뮬레이션된 사용자 보기**&#x200B;를 지정하십시오.
->
->* 시뮬레이션 중인 AI의 경우(**[!UICONTROL 빠른 시뮬레이션]**, AI 생성 사용자, **[!UICONTROL 이벤트 값 생성]**) **[!UICONTROL AI 길잡이]** 기능에서 **[!UICONTROL 콘텐츠 생성]**&#x200B;을 지정하십시오.
 
-**초안**, **테스트 모드** 및 **라이브** 외에 **[!UICONTROL 시뮬레이션]**(으)로 여정을 설정할 수 있습니다. 시뮬레이션에서 **시뮬레이션된 사용자**: Adobe Experience Platform에서 영구 테스트 프로필을 사용하지 않고 추가하는 임시 프로필과 유사한 엔터티로 테스트합니다.
+## 필요한 권한 {#required-permissions}
 
-Adobe Journey Optimizer은 여정을 테스트하고 확인하는 두 가지 방법을 제공합니다.
+**[!UICONTROL 시뮬레이션]**&#x200B;을(를) 사용하려면 **[!UICONTROL 여정]** 기능에서 하나 이상의 권한을 할당하십시오. **여정 시뮬레이션**, **여정 게시** 또는 **여정 승인 및 게시**. 이러한 권한을 사용하면 시뮬레이션된 사용자를 만들고 관리할 수도 있습니다. **[!UICONTROL 시뮬레이션된 사용자]** 권한은 필요하지 않습니다. [자세히 알아보기](../administration/permissions.md)
 
-* **[시뮬레이션](simulate-journey.md#test-users)**: Adobe Experience Platform에서 미리 만들어진 프로필이 없는 **[!UICONTROL 시뮬레이션]** 여정 기능과 시뮬레이션된 사용자를 사용하여 AI 기반 사용자와 수동으로 만든 사용자를 모두 지원합니다.
+**[!UICONTROL 시뮬레이션]** 없이 시뮬레이션된 사용자를 관리하려면 **[!UICONTROL 시뮬레이션된 사용자]** 기능에서 **시뮬레이션된 사용자 관리** 또는 **시뮬레이션된 사용자 보기**&#x200B;를 지정하십시오.
 
-* **[테스트 모드](testing-the-journey.md)**: Adobe Experience Platform에서 테스트 프로필로 플래그가 지정된 영구 프로필을 사용하고 여러 세션에서 다시 사용할 수 있습니다. 일관되고 사전 정의된 데이터가 필요한 경우 이 방법을 선택합니다. [테스트 프로필을 만드는 방법을 알아봅니다](../audience/creating-test-profiles.md).
+시뮬레이션 중인 AI의 경우(**[!UICONTROL 빠른 시뮬레이션]**, AI 생성 사용자 및 **[!UICONTROL 이벤트 값 생성]**) **[!UICONTROL AI 길잡이]** 기능에서 **[!UICONTROL 콘텐츠 생성]**&#x200B;을 지정하십시오.
 
 ## 여정 유형별 시뮬레이션 {#by-journey-type}
 

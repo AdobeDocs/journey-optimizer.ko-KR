@@ -14,7 +14,7 @@ feature_v2:
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
+source-git-commit: 7e153a072cacd37ec3837c7607ce28fbd565cc4a
 workflow-type: tm+mt
 source-wordcount: '2656'
 ht-degree: 12%
@@ -134,7 +134,7 @@ ht-degree: 12%
 * **[!UICONTROL 옵트인 트리거]**:
 
   * **[!UICONTROL 옵트인 메서드]**: 고객이 문제에 수동으로 참여할지 또는 이벤트 트리거를 통해 참여할지 여부를 선택합니다.
-  * **[!UICONTROL 이벤트]**: 이벤트 기반 옵트인의 경우 옵트인을 트리거하는 이벤트를 선택합니다. 관리자는 ![톱니바퀴](assets/do-not-localize/settings-icon.svg) 단추를 클릭하여 이벤트 정의를 만들 수 있습니다. [이벤트 정의를 구성하는 방법을 알아봅니다](loyalty-admin.md#event-definitions)
+  * **[!UICONTROL 이벤트]**: 이벤트 기반 옵트인의 경우 옵트인을 트리거하는 이벤트를 선택합니다. 관리자는 ![톱니바퀴](assets/do-not-localize/settings-icon.svg) 단추를 클릭하여 이벤트 매핑을 만들 수 있습니다. [이벤트 매핑을 구성하는 방법 알아보기](loyalty-admin.md#event-mappings)
 
 * **[!UICONTROL 추적 시작]**:
 

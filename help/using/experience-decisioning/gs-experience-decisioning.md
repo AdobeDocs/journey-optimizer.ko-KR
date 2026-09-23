@@ -10,27 +10,35 @@ version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/z-9FSXpQNMyy0KcGaLWgDYHqAx-BWhIEJYAq4wVqmv4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+    internal-label: Decisioning
   - id: a984631b-2bae-4860-9b15-69c41a799dcb
+    internal-label: APIs and SDKs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+    internal-label: Decisioning API
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
+    internal-label: Edge Decisioning
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Get started
+source-git-commit: 4f3312974e2533c97954e887b4371de6fc80595a
 workflow-type: tm+mt
-source-wordcount: 811
+source-wordcount: '813'
 ht-degree: 21%
-
 ---
-
 # 의사 결정 시작 {#get-started-experience-decisioning}
 
 >[!BEGINSHADEBOX]
@@ -48,11 +56,11 @@ ht-degree: 21%
 
 의사 결정 기능은 &#39;의사 결정 항목&#39;이라는 중앙 집중식 마케팅 카탈로그와 정교한 의사 결정 엔진을 제공하여 개인화를 간소화합니다. 이 엔진은 규칙과 순위 기준을 활용하여 각 개인에게 가장 관련성 높은 의사 결정 항목을 선택하고 제공합니다.
 
-이러한 결정 항목은 [!DNL Adobe Journey Optimizer]개 채널([코드 기반 경험](../code-based/get-started-code-based.md), 이메일, SMS, 푸시 알림 및 일괄 의사 결정 및 개인화된 DM 내보내기를 위한 [DM](batch-decisioning-direct-mail.md))의 메시지 및 경험에 원활하게 통합됩니다. DM에 대한 Experience Decisioning 지원은 새로운 기능입니다. 이전에는 DM 추출 파일에 Decisioning 엔진을 사용할 수 없었습니다.
+이러한 결정 항목은 [!DNL Adobe Journey Optimizer]개 채널([코드 기반 경험](../code-based/get-started-code-based.md), [웹](../web/get-started-web.md), 이메일, SMS, 푸시 알림 및 일괄 의사 결정 및 개인화된 DM 내보내기를 위한 [DM](batch-decisioning-direct-mail.md))의 메시지 및 경험에 원활하게 통합됩니다. DM에 대한 Experience Decisioning 지원은 새로운 기능입니다. 이전에는 DM 추출 파일에 Decisioning 엔진을 사용할 수 없었습니다.
 
 >[!IMPORTANT]
 >
->결정 정책은 **코드 기반 경험**, **이메일**, **푸시 알림**, **SMS** 및 **다이렉트 메일** 채널에 대해 모든 고객이 사용할 수 있습니다.
+>결정 정책은 **[코드 기반 경험](../code-based/get-started-code-based.md)**, **[웹](../web/get-started-web.md)**, **[이메일](../email/get-started-email.md)**, **[푸시 알림](../push/get-started-push.md)**, **[SMS](../mobile/get-started-mobile.md)** 및 **[다이렉트 메일](../direct-mail/get-started-direct-mail.md)** 채널에 대해 모든 고객이 사용할 수 있습니다.
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
 
