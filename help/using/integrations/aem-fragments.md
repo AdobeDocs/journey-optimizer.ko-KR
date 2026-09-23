@@ -10,24 +10,29 @@ exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
 TQID: https://experienceleague.adobe.com/QFZt5R2bGJMIwT9okjkcGWxN9cj56Mi77XdCgddCleU
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+    internal-label: Integrations
 subfeature_v2:
   - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
+    internal-label: Experience Manager Assets integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: c40c37683d1e36ad85654320278b9f781b8d818c
+    internal-label: Personalization
+source-git-commit: 0ba3165fd3eeebbc150387e5f6e68f8029b3201a
 workflow-type: tm+mt
-source-wordcount: 1784
+source-wordcount: '1834'
 ht-degree: 0%
-
 ---
-
 # Adobe Experience Manager 컨텐츠 조각을 사용한 작업 {#aem-fragments}
 
 >[!BEGINSHADEBOX]
@@ -51,13 +56,13 @@ Adobe Journey Optimizer 워크플로의 기존 **자산 선택기** 및 **콘텐
 
 Adobe Experience Manager과 Journey Optimizer 간의 통합은 다음 데이터 흐름을 따릅니다.
 
-1. **[Dispatcher 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer#dispatcher-configuration){target="_blank"}**: Journey Optimizer에서 콘텐츠 조각 관리 API를 통해 Adobe Experience Manager 콘텐츠 조각에 액세스할 수 있도록 하려면 먼저 Dispatcher을 구성해야 합니다. 이는 통합을 위한 필수 조건입니다.
+1. **[Dispatcher 구성](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer#dispatcher-configuration){target="_blank"}**: Journey Optimizer에서 콘텐츠 조각 관리 API를 통해 Adobe Experience Manager 콘텐츠 조각에 액세스할 수 있도록 하려면 먼저 Dispatcher을 구성해야 합니다. 이는 통합을 위한 필수 조건입니다.
 
-1. **[만들기 및 작성자](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#creating-a-content-fragment)**: 콘텐츠가 Adobe Experience Manager에서 콘텐츠 조각으로 만들어지고 구성됩니다.
+1. **[만들기 및 작성자](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#creating-a-content-fragment)**: 콘텐츠가 Adobe Experience Manager에서 콘텐츠 조각으로 만들어지고 구성됩니다.
 
-1. **[태그 지정](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#manage-tags)**: 콘텐츠 조각은 Journey Optimizer 관련 태그(`ajo-enabled:{OrgId}/{SandboxName}`)로 태그 지정되어야 합니다.
+1. **[태그 지정](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#manage-tags)**: 콘텐츠 조각은 Journey Optimizer 관련 태그(`ajo-enabled:{OrgId}/{SandboxName}`)로 태그 지정되어야 합니다.
 
-1. **[게시](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#publishing-and-previewing-a-fragment)**: 콘텐츠 조각이 Adobe Experience Manager에 게시되어 Journey Optimizer에서 사용할 수 있습니다.
+1. **[게시](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#publishing-and-previewing-a-fragment)**: 콘텐츠 조각이 Adobe Experience Manager에 게시되어 Journey Optimizer에서 사용할 수 있습니다.
 
 1. **[액세스](#aem-add)**: Journey Optimizer은 Adobe Experience Manager 게시 인스턴스에서 사용 가능한 콘텐츠 조각을 실시간으로 가져와서 표시합니다.
 
@@ -73,7 +78,7 @@ Adobe Experience Manager과 Journey Optimizer 간의 통합은 다음 데이터 
 
 >[!IMPORTANT]
 >
->Journey Optimizer에서 컨텐츠 조각 관리 API를 통해 Adobe Experience Manager 컨텐츠 조각에 액세스할 수 있도록 하려면 먼저 [Dispatcher을 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer#dispatcher-configuration){target="_blank"}해야 합니다.
+>Journey Optimizer에서 컨텐츠 조각 관리 API를 통해 Adobe Experience Manager 컨텐츠 조각에 액세스할 수 있도록 하려면 먼저 [Dispatcher을 구성](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer#dispatcher-configuration){target="_blank"}해야 합니다.
 
 Journey Optimizer은 **조직** 및 **샌드박스**&#x200B;에 대한 태그를 전달하는 경우에만 콘텐츠 조각 선택기에 콘텐츠 조각을 표시합니다. 이 요구 사항은 신중합니다. 즉, Journey Optimizer에서 관련되지 않거나 승인되지 않은 Experience Manager 콘텐츠를 유지합니다.
 
@@ -101,7 +106,7 @@ Experience Manager에서 태그를 만들려면 다음을 수행하십시오.
 
 1. 조각을 저장합니다.
 
-➡️ [Adobe Experience Manager 설명서에서 태그에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#manage-tags)
+➡️ [Adobe Experience Manager 설명서에서 태그에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#manage-tags)
 
 ## Experience Manager 컨텐츠 조각 추가 {#aem-add}
 
@@ -197,7 +202,7 @@ Experience Manager에서 태그를 만들려면 다음을 수행하십시오.
 
 테스트를 수행하고 콘텐츠의 유효성을 검사하면 대상자에게 [캠페인을 전송](../campaigns/review-activate-campaign.md)하거나 [여정을 게시](../building-journeys/publish-journey.md)할 수 있습니다.
 
-Adobe Experience Manager을 사용하면 컨텐츠 조각이 사용되는 Journey Optimizer 캠페인 또는 여정을 식별할 수 있습니다. 자세한 내용은 [Adobe Experience Manager 설명서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/extension-content-fragment-ajo-external-references){target="_blank"}를 참조하세요.
+Adobe Experience Manager을 사용하면 컨텐츠 조각이 사용되는 Journey Optimizer 캠페인 또는 여정을 식별할 수 있습니다. 자세한 내용은 [Adobe Experience Manager 설명서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/extension-content-fragment-ajo-external-references){target="_blank"}를 참조하세요.
 
 ## Experience Decisioning에서 AEM 콘텐츠 조각 사용 {#aem-decisioning}
 
@@ -207,6 +212,10 @@ Adobe Experience Manager을 사용하면 컨텐츠 조각이 사용되는 Journe
 >이 기능은 Decisioning이 지원되는 채널에 사용할 수 있습니다.
 
 AEM 콘텐츠 조각은 **Experience Decisioning**&#x200B;에서 오퍼 항목 특성으로 사용할 수도 있습니다. 콘텐츠 조각 필드를 의사 결정 항목 속성에 매핑하면 Journey Optimizer 의사 결정 모델, 공식 및 등급 기준을 사용하여 각 프로필에 제공되는 조각을 최적화할 수 있습니다.
+
+>[!NOTE]
+>
+>Decisioning의 AEM 콘텐츠 조각은 Adobe Experience Manager **as a Cloud Service** 또는 **Managed Services**&#x200B;을(를) Adobe Journey Optimizer과 통합하는 고객이 사용할 수 있습니다. [자세히 알아보기](aem-fragments-gs.md)
 
 ### 사전 요구 사항 및 가드레일
 
@@ -220,6 +229,10 @@ AEM 콘텐츠 조각을 만들고 게시하면 다음 작업을 수행해야 합
 
 1. 결정 항목의 속성에서 선택하여 결정 항목에 연결합니다.
 1. 의사 결정 정책에 활용하여 적합한 고객에게 적합한 콘텐츠를 제공할 수 있습니다.
+
+>[!NOTE]
+>
+>Decisioning의 AEM 콘텐츠 조각은 **Adobe Experience Manager as a Cloud Service** 및 **Adobe Experience Manager Managed Services**&#x200B;에서 모두 지원됩니다. [자세히 알아보기](aem-fragments-gs.md)
 
 ➡️ [AEM 콘텐츠 조각을 결정 항목에 연결](../experience-decisioning/items.md#aem-fragments)
 
@@ -238,7 +251,7 @@ Adobe Experience Manager에서 각 콘텐츠 조각은 다음과 같이 구성�
 * 별도의 조각을 만들지 않고 영역 톤 조정
 * 채널별 메시징(예: 모바일과 비교한 웹).
 
-➡️ [Adobe Experience Manager 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/content-fragments/content-fragments-variations)
+➡️ [Adobe Experience Manager 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/content-fragments/content-fragments-variations)
 
 Journey Optimizer을 사용하면 조각을 삽입할 때 사용할 변형을 선택할 수 있으므로 다양한 캠페인이나 여정이 조각을 복제하지 않고도 Adobe Experience Manager에서 동일한 소스 콘텐츠의 다양한 표현물을 사용할 수 있습니다.
 

@@ -17,9 +17,9 @@ subfeature_v2:
     internal-label: Decisioning API
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
     internal-label: Edge Decisioning
-source-git-commit: a8c364461ba54c1153766771932d2ef0e91976cc
+source-git-commit: 0ba3165fd3eeebbc150387e5f6e68f8029b3201a
 workflow-type: tm+mt
-source-wordcount: '2888'
+source-wordcount: '2914'
 ht-degree: 14%
 ---
 # 첫 결정 항목 만들기 {#items}
@@ -95,6 +95,8 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
      >[!AVAILABILITY]
      >
      >이 기능은 Decisioning이 지원되는 채널에 사용할 수 있습니다.
+     >
+     >Decisioning의 AEM 콘텐츠 조각은 Adobe Experience Manager **as a Cloud Service** 또는 **Managed Services**&#x200B;을(를) Adobe Journey Optimizer과 통합하는 고객이 사용할 수 있습니다. [자세히 알아보기](../integrations/aem-fragments-gs.md)
 
      사전 요구 사항 및 보호 기능은 [Experience Decisioning에서 AEM 콘텐츠 조각 사용](../integrations/aem-fragments.md#aem-decisioning)을 참조하세요.
 
@@ -108,8 +110,8 @@ Journey Optimizer를 사용하면 결정 항목이라고 하는 마케팅 오퍼
 >abstract="기본적으로 모든 프로필은 결정 항목을 수신할 수 있지만 대상자 또는 규칙을 사용하여 항목을 특정 프로필로만 제한할 수 있습니다."
 
 <!--
->"additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 

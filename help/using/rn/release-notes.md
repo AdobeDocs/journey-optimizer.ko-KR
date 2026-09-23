@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 8d5e3584ff2dc7cf9c00043e1a67f9a4c23255d9
+source-git-commit: d0d56e302fa6741c780f819cc9beed0598a6e14d
 workflow-type: tm+mt
-source-wordcount: '2160'
+source-wordcount: '2223'
 ht-degree: 20%
 ---
 # 릴리스 정보 {#release-notes}
@@ -94,7 +94,7 @@ ht-degree: 20%
 <tbody>
 <tr>
 <td>
-<p>이제 이벤트 매핑 생성 또는 편집에서는 새로운 **시각적 매핑 빌더**&#x200B;를 사용합니다. 스키마를 선택하고, 검색 가능한 필드 선택기에서 필드를 선택하고, 각 필드를 행별 연결 상태가 있는 충성도 이벤트 필드에 매핑하고, 언제든지 수동 JSONata 편집으로 전환하는 옵션과 함께 자동 생성된 JSONata 표현식을 미리 봅니다.</p><p>또한 충성도 관리자의 "이벤트 정의"가 사람이 읽을 수 있는 Experience 이벤트 스키마 이름을 보여 주는 목록 보기가 새로 고쳐진 상태로 "이벤트 매핑"으로 이름이 변경되었습니다.</p>
+<p>이제 이벤트 매핑 생성 또는 편집에서는 새로운 **시각적 매핑 빌더**를 사용합니다. 스키마를 선택하고, 검색 가능한 필드 선택기에서 필드를 선택하고, 각 필드를 행별 연결 상태가 있는 충성도 이벤트 필드에 매핑하고, 언제든지 수동 JSONata 편집으로 전환하는 옵션과 함께 자동 생성된 JSONata 표현식을 미리 봅니다.</p><p>또한 충성도 관리자의 "이벤트 정의"가 사람이 읽을 수 있는 Experience 이벤트 스키마 이름을 보여 주는 목록 보기가 새로 고쳐진 상태로 "이벤트 매핑"으로 이름이 변경되었습니다.</p>
 <p>자세한 내용은 <a href="../loyalty-challenges/loyalty-admin.md#event-mappings">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2026년 9월 22일</p>
 </td>
@@ -121,7 +121,7 @@ ht-degree: 20%
 <tbody>
 <tr>
 <td>
-<p>이제 충성도 성능 메뉴에는 계층 진행 마찰 또는 과제 작업 드롭오프와 같이 AI가 감지한 트렌드와 차이를 예상되는 영향과 한 번의 클릭으로 "AI로 만들기" 작업을 통해 해결하는 과제를 생성하는 **기회** 및 **트렌드** 탭이 포함되어 있습니다.</p><p>또한 마케터는 동료의 대화 인터페이스에서 직접 **도전 기회**&#x200B;를 요청할 수 있어 실제 충성도 프로그램 트렌드를 기반으로 근거 있는 도전 아이디어를 얻고 채팅을 종료하지 않고도 라이브 도전으로 전환할 수 있습니다.</p>
+<p>이제 충성도 성능 메뉴에는 계층 진행 마찰 또는 과제 작업 드롭오프와 같이 AI가 감지한 트렌드와 차이를 예상되는 영향과 한 번의 클릭으로 "AI로 만들기" 작업을 통해 해결하는 과제를 생성하는 **기회** 및 **트렌드** 탭이 포함되어 있습니다.</p><p>또한 마케터는 동료의 대화 인터페이스에서 직접 **도전 기회**를 요청할 수 있어 실제 충성도 프로그램 트렌드를 기반으로 근거 있는 도전 아이디어를 얻고 채팅을 종료하지 않고도 라이브 도전으로 전환할 수 있습니다.</p>
 </td>
 </tr>
 </tbody>
@@ -299,7 +299,7 @@ ht-degree: 20%
 <li>전자 메일을 마이그레이션할 때 [!DNL Journey Optimizer]에서 해당 전자 메일에서 참조되는 콘텐츠 블록을 식별하고 이를 작업 항목으로 표시하므로 전자 메일과 함께 콘텐츠 블록을 마이그레이션할 수 있습니다.</li>
 <li>가이드 온보딩을 보다 직관적으로 이해할 수 있도록 인터페이스가 개선되었습니다.</li></ul>
 <p>자세한 내용은 <a href="../start/onboarding-hub.md">세부 설명서</a>를 참조하십시오.</p>
-<p>사용 가능한 날짜: 2026년 9월 2s3</p>
+<p>사용 가능한 날짜: 2026년 9월 23일</p>
 </td>
 </tr>
 </tbody>
@@ -312,6 +312,8 @@ ht-degree: 20%
   사용 가능한 날짜: 2026년 9월 22일
 
 ### 결정 {#sep-26-decisioning}
+
+이번 릴리스에서는 다음과 같은 기능 및 개선 사항이 제공됩니다.
 
 <table>
 <thead>
@@ -328,6 +330,10 @@ ht-degree: 20%
 </tr>
 </tbody>
 </table>
+
+* **Decisioning의 AEM 콘텐츠 조각은 Managed Services 고객에게 제공됩니다** - 이전에는 Decisioning의 AEM 콘텐츠 조각은 **Adobe Experience Manager as a Cloud Service** 통합을 사용하는 고객에게만 제공되었습니다. 이제 **Adobe Experience Manager Managed Services**&#x200B;을 사용하는 고객도 이 기능을 사용할 수 있습니다. [자세히 알아보기](../experience-decisioning/items.md#attributes)
+
+  사용 가능한 날짜: 2026년 9월 23일
 
 * **규칙 및 등급 수식 시뮬레이션에서 Adobe Experience Platform 프로필 지원** - 이제 규칙 또는 등급 수식 시뮬레이션 시 Adobe Experience Platform 프로필을 수동으로 입력하는 대신 테스트 데이터 변형의 특성을 자동으로 채우도록 선택할 수 있습니다. [자세히 알아보기](../experience-decisioning/ranking/ranking-formulas.md#simulate-ranking-formula)
 
