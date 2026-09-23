@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 026b216020332a7ef2674d12a81185fcb382c2e2
+source-git-commit: 8496ddc9979526e30947e8d1e9af0eff70dbebf6
 workflow-type: tm+mt
-source-wordcount: '2966'
-ht-degree: 8%
+source-wordcount: '2921'
+ht-degree: 9%
 ---
 
 # 사전 릴리스 정보 {#e-release-notes}
@@ -143,21 +143,6 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 ### 여정 {#sep-26-journeys}
 
 이번 릴리스에서는 다음과 같은 기능 및 개선 사항이 여정에 추가됩니다.
-
-<table>
-<thead>
-<tr>
-<th><strong>동료의 여정 시뮬레이션</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Coworker의 <strong>여정 시뮬레이션 기술</strong>은(는) 엔드 투 엔드 여정 유효성 검사를 자동화하고 결과를 쉽게 해석할 수 있도록 합니다. 이 기능은 현재 빠른 시뮬레이션 흐름만 지원하며 Journey Optimizer 수동 시뮬레이션 경험을 완전히 대체하지는 않습니다.</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>

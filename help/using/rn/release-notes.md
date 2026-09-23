@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 026b216020332a7ef2674d12a81185fcb382c2e2
+source-git-commit: 8496ddc9979526e30947e8d1e9af0eff70dbebf6
 workflow-type: tm+mt
-source-wordcount: '1815'
+source-wordcount: '1873'
 ht-degree: 23%
 ---
 # 릴리스 정보 {#release-notes}
@@ -94,7 +94,7 @@ ht-degree: 23%
 <tbody>
 <tr>
 <td>
-<p>이제 이벤트 매핑 생성 또는 편집에서는 새로운 **시각적 매핑 빌더**&#x200B;를 사용합니다. 스키마를 선택하고, 검색 가능한 필드 선택기에서 필드를 선택하고, 각 필드를 행별 연결 상태가 있는 충성도 이벤트 필드에 매핑하고, 언제든지 수동 JSONata 편집으로 전환하는 옵션과 함께 자동 생성된 JSONata 표현식을 미리 봅니다.</p><p>또한 충성도 관리자의 "이벤트 정의"가 사람이 읽을 수 있는 Experience 이벤트 스키마 이름을 보여 주는 목록 보기가 새로 고쳐진 상태로 "이벤트 매핑"으로 이름이 변경되었습니다.</p>
+<p>이제 이벤트 매핑 생성 또는 편집에서는 새로운 **시각적 매핑 빌더**를 사용합니다. 스키마를 선택하고, 검색 가능한 필드 선택기에서 필드를 선택하고, 각 필드를 행별 연결 상태가 있는 충성도 이벤트 필드에 매핑하고, 언제든지 수동 JSONata 편집으로 전환하는 옵션과 함께 자동 생성된 JSONata 표현식을 미리 봅니다.</p><p>또한 충성도 관리자의 "이벤트 정의"가 사람이 읽을 수 있는 Experience 이벤트 스키마 이름을 보여 주는 목록 보기가 새로 고쳐진 상태로 "이벤트 매핑"으로 이름이 변경되었습니다.</p>
 <p>자세한 내용은 <a href="../loyalty-challenges/loyalty-admin.md#event-mappings">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2026년 9월 22일</p>
 </td>
@@ -117,6 +117,23 @@ ht-degree: 23%
 +++
 
 ### 여정 {#sep-26-journeys}
+
+<table>
+<thead>
+<tr>
+<th><strong>동료의 여정 시뮬레이션</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Coworker의 <strong>여정 시뮬레이션 기술</strong>은(는) 엔드 투 엔드 여정 유효성 검사를 자동화하고 결과를 쉽게 해석할 수 있도록 합니다. 이 기능은 현재 빠른 시뮬레이션 흐름만 지원하며 Journey Optimizer 수동 시뮬레이션 경험을 완전히 대체하지는 않습니다.</p>
+<p>자세한 내용은 <a href="../building-journeys/journeys-coworker-skills.md#journey-simulation">세부 설명서</a>를 참조하십시오.</p>
+<p>사용 가능한 날짜: 2026년 9월 23일</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
