@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 0905e570576a4587cd7734aa036d8f09276e0127
+source-git-commit: 77cfd3965c7efd7db3dd9644c6189f530d3ee0b3
 workflow-type: tm+mt
-source-wordcount: '2943'
-ht-degree: 8%
+source-wordcount: '2798'
+ht-degree: 7%
 ---
 
 # 사전 릴리스 정보 {#e-release-notes}
@@ -118,29 +118,28 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 
 * **콘텐츠 카드 개인화 편집기의 과제 도메인** - 이제 콘텐츠 카드 개인화 편집기가 도메인으로 **과제**&#x200B;를 지원하므로 콘텐츠 카드 개인화를 작성할 때 과제 메타데이터에 액세스할 수 있습니다. 이렇게 하면 사용자 지정 코드 없이 Launch, 진행 중 및 종료 등 과제의 각 단계에 맞는 콘텐츠를 보다 쉽게 만들 수 있습니다.
 
+<!--
+### Onboarding {#sep-26-onboarding}
 
-
-### 온보딩 {#sep-26-onboarding}
-
-이 릴리스에서는 다음 기능이 온보딩됩니다.
+The following capability is coming to onboarding in this release.
 
 <table>
 <thead>
 <tr>
-<th><strong>이메일 및 여정 온보딩을 위한 안내 기능(일반 공급)</strong><br/></th>
+<th><strong>Guided capabilities for onboarding emails and journeys (General Availability)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>기존 이메일 콘텐츠와 여정을 Journey Optimizer로 마이그레이션하는 데 도움이 되는 안내형 기능을 통해 다른 마케팅 플랫폼에서 Adobe Journey Optimizer로의 전환이 더욱 쉬워졌습니다. <strong>전용 작업 영역</strong>을 사용하면 처음부터 다시 빌드하는 대신 기존 작업 영역을 다시 사용할 수 있습니다.</p>
-<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
+<p>Transitioning to Adobe Journey Optimizer from another marketing platform is easier with guided capabilities that help you move existing email content and journeys into Journey Optimizer. A <strong>dedicated workspace</strong> lets you reuse what you have instead of rebuilding from scratch.</p>
+<p>Previously released in Limited Availability, this capability is now available to all environments (General Availability).</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-
+-->
 
 ### 여정 {#sep-26-journeys}
 
@@ -188,21 +187,6 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 <tr>
 <td>
 <p>여정 캔버스에서 새 <strong>인바운드 활동 비활성화</strong> 활동을 사용하면 여정에서 최대 5개의 인바운드 활동 또는 경험에서 프로필을 직접 제거하고, 더 고급 크로스 채널 오케스트레이션을 위해 여정 종료에서 인바운드 결격 조건을 제거할 수 있습니다.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>여정 캔버스에서 컨텐츠 미리 보기</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>오늘 채널 콘텐츠를 검토하려면 각 노드를 한 번에 하나씩 개별적으로 열어야 합니다. 특히 개인화에서 노드당 여러 처리 또는 변형을 확인하는 것을 의미하는 경우 채널 노드가 많은 여정에서 느리고 오류가 발생하기 쉽습니다. <strong>콘텐츠 미리 보기</strong>에서는 전체 화면 모달을 사용하여 처리 및 변형을 검사하고 전환하여 캔버스에서 직접 모든 채널 노드의 콘텐츠 썸네일을 표시하여 이러한 마찰을 제거합니다.</p>
 </td>
 </tr>
 </tbody>
