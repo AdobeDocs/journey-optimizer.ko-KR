@@ -31,7 +31,7 @@ ht-degree: 8%
 
 * [Journey Optimizer의 동료 기술](../start/ai-features.md#cx-coworker-skills) - Journey Optimizer의 여정, 충성도 및 컨텐츠 관리에 대한 동료 기술 개요.
 * [Coworker 설명서](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview){target="_blank"} - Coworker의 캠페인, 채팅 및 프로젝트 기능에 대한 개요입니다.
-* [동료 채팅 UI 안내서](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"} - 동료 채팅에 액세스하고 탐색하는 방법.
+* [동료 채팅 UI 안내서](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"} - 동료 채팅에 액세스하고 탐색하는 방법.
 
 >[!ENDSHADEBOX]
 
