@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 14152c26a6fb4fc09d1eed1f50083d5c624337d5
+source-git-commit: 4f3312974e2533c97954e887b4371de6fc80595a
 workflow-type: tm+mt
-source-wordcount: '2074'
+source-wordcount: '2079'
 ht-degree: 21%
 ---
 # 릴리스 정보 {#release-notes}
@@ -94,7 +94,7 @@ ht-degree: 21%
 <tbody>
 <tr>
 <td>
-<p>이제 이벤트 매핑 생성 또는 편집에서는 새로운 **시각적 매핑 빌더**&#x200B;를 사용합니다. 스키마를 선택하고, 검색 가능한 필드 선택기에서 필드를 선택하고, 각 필드를 행별 연결 상태가 있는 충성도 이벤트 필드에 매핑하고, 언제든지 수동 JSONata 편집으로 전환하는 옵션과 함께 자동 생성된 JSONata 표현식을 미리 봅니다.</p><p>또한 충성도 관리자의 "이벤트 정의"가 사람이 읽을 수 있는 Experience 이벤트 스키마 이름을 보여 주는 목록 보기가 새로 고쳐진 상태로 "이벤트 매핑"으로 이름이 변경되었습니다.</p>
+<p>이제 이벤트 매핑 생성 또는 편집에서는 새로운 **시각적 매핑 빌더**를 사용합니다. 스키마를 선택하고, 검색 가능한 필드 선택기에서 필드를 선택하고, 각 필드를 행별 연결 상태가 있는 충성도 이벤트 필드에 매핑하고, 언제든지 수동 JSONata 편집으로 전환하는 옵션과 함께 자동 생성된 JSONata 표현식을 미리 봅니다.</p><p>또한 충성도 관리자의 "이벤트 정의"가 사람이 읽을 수 있는 Experience 이벤트 스키마 이름을 보여 주는 목록 보기가 새로 고쳐진 상태로 "이벤트 매핑"으로 이름이 변경되었습니다.</p>
 <p>자세한 내용은 <a href="../loyalty-challenges/loyalty-admin.md#event-mappings">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2026년 9월 22일</p>
 </td>
@@ -163,7 +163,7 @@ ht-degree: 21%
 <tr>
 <td>
 <p>이제 여정 고급 표현식 편집기는 AI 기반의 표현식 생성을 통합합니다. 빌드할 표현식을 자연어로 설명하고, 편집기는 즉시 적용하거나 후속 프롬프트를 통해 구체화할 수 있는 사용 준비 코드를 생성합니다.</p>
-<p>이전에 제한 공급 상태로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 공급).</p>
+<p>이전에 제한된 가용성으로 릴리스된 이 기능은 이제 모든 환경에서 사용할 수 있습니다(일반 가용성).</p>
 <p>자세한 내용은 <a href="../building-journeys/expression/generate-expression.md">세부 설명서</a>를 참조하십시오.</p>
 <p>사용 가능한 날짜: 2026년 9월 1일</p>
 </td>
@@ -290,7 +290,6 @@ ht-degree: 21%
 </tbody>
 </table>
 
-
 ### 개인화 {#sep-26-personalization}
 
 * **AI로 구문 수정** - PQL 구문 유효성 검사 오류가 감지되면 Personalization 편집기에서 직접 문제를 해결하는 데 도움이 되는 &quot;AI로 수정&quot; 옵션을 제공합니다.
@@ -298,12 +297,6 @@ ht-degree: 21%
   사용 가능한 날짜: 2026년 9월 22일
 
 ### 결정 {#sep-26-decisioning}
-
-* **규칙 및 등급 수식 시뮬레이션에서 Adobe Experience Platform 프로필 지원** - 이제 규칙 또는 등급 수식 시뮬레이션 시 Adobe Experience Platform 프로필을 수동으로 입력하는 대신 테스트 데이터 변형의 특성을 자동으로 채우도록 선택할 수 있습니다. [자세히 알아보기](../experience-decisioning/ranking/ranking-formulas.md#simulate-ranking-formula)
-
-  사용 가능한 날짜: 2026년 9월 22일
-
-+++ 곧 출시 예정 — **아래 정보는 변경될 수 있습니다.**
 
 <table>
 <thead>
@@ -313,14 +306,17 @@ ht-degree: 21%
 </thead>
 <tbody>
 <tr>
-<td>
-<p>이제 웹 채널에서도 결정 기능을 사용할 수 있습니다. 웹 시각화 편집기에서 직접 결정 정책을 사용하여 각 방문자에게 가장 관련성이 높은 오퍼를 제공할 수 있습니다.</p>
+<td>이제 웹 채널에서도 결정 기능을 사용할 수 있습니다. 웹 시각화 편집기에서 직접 결정 정책을 사용하여 각 방문자에게 가장 관련성이 높은 오퍼를 제공할 수 있습니다.</p>
+<p>자세한 내용은 <a href="../experience-decisioning/use-decision-policy.md">세부 설명서</a>를 참조하십시오.</p>
+<p>사용 가능한 날짜: 2026년 9월 22일</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-+++
+* **규칙 및 등급 수식 시뮬레이션에서 Adobe Experience Platform 프로필 지원** - 이제 규칙 또는 등급 수식 시뮬레이션 시 Adobe Experience Platform 프로필을 수동으로 입력하는 대신 테스트 데이터 변형의 특성을 자동으로 채우도록 선택할 수 있습니다. [자세히 알아보기](../experience-decisioning/ranking/ranking-formulas.md#simulate-ranking-formula)
+
+  사용 가능한 날짜: 2026년 9월 22일
 
 ### 대상자 {#sep-26-audiences}
 

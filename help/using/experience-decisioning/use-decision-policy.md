@@ -11,31 +11,39 @@ exl-id: 35fc3cf2-1b91-4f30-ad71-f9d7d2a0291c
 TQID: https://experienceleague.adobe.com/zKV67LEfRVmEk9Fac-D45qdHLqbuVCS3rUt6Rt0HB7w
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+    internal-label: Decisioning
   - id: a984631b-2bae-4860-9b15-69c41a799dcb
+    internal-label: APIs and SDKs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+    internal-label: Decisioning API
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Edge Decisioning
+source-git-commit: 4f3312974e2533c97954e887b4371de6fc80595a
 workflow-type: tm+mt
-source-wordcount: 1262
+source-wordcount: '1347'
 ht-degree: 6%
-
 ---
-
 # 메시지에 결정 정책 사용 {#create-decision}
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서:** 반환된 결정 항목의 특성을 사용하여 메시지를 개인화할 수 있도록 코드 기반 경험, 전자 메일, SMS, 푸시 알림 및 DM 콘텐츠에 결정 정책 코드를 삽입합니다.
+**이 페이지에서:** 반환된 결정 항목의 특성을 사용하여 메시지를 개인화할 수 있도록 코드 기반 경험, 웹, 전자 메일, SMS, 푸시 알림 및 DM 콘텐츠에 결정 정책 코드를 삽입합니다.
 
 >[!ENDSHADEBOX]
 
@@ -43,7 +51,7 @@ ht-degree: 6%
 
 >[!CAUTION]
 >
->결정 정책은 **코드 기반 경험**, **이메일**, **SMS**, **푸시 알림** 및 **다이렉트 메일** 채널에 대해 모든 고객이 사용할 수 있습니다.
+>결정 정책은 **코드 기반 경험**, **웹**, **이메일**, **SMS**, **푸시 알림** 및 **다이렉트 메일** 채널에 대해 모든 고객이 사용할 수 있습니다.
 
 ## 의사 결정 정책 코드 삽입 {#insert}
 
@@ -51,7 +59,7 @@ ht-degree: 6%
 
 >[!TAB 코드 기반 경험]
 
-1. 코드 기반 환경을 편집하고 **[!UICONTROL 결정 정책]**(으)로 이동합니다.
+1. **Personalization 편집기**&#x200B;를 열고 **[!UICONTROL 결정 정책]**(으)로 이동합니다.
 
 2. 결정 정책 코드를 추가하려면 **[!UICONTROL 정책 삽입]**&#x200B;을 선택하십시오.
 
@@ -111,6 +119,20 @@ ht-degree: 6%
 >
 >푸시 알림에서 경험 결정을 사용하려면 특정 버전의 Mobile SDK가 필요합니다. 이 기능을 구현하기 전에 [릴리스 정보](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"}에서 필요한 버전을 확인하고 그에 따라 업그레이드했는지 확인하세요. 또한 [이 섹션](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"}에서 플랫폼에 사용 가능한 모든 SDK 버전을 확인할 수 있습니다.
 
+>[!TAB 웹]
+
+1. 웹 캠페인이나 여정을 열고 **웹 비주얼 편집기**(으)로 이동합니다.
+
+2. 개인화할 구성 요소를 선택한 다음 상황별 메뉴에서 개인화 아이콘을 클릭합니다.
+
+3. **Personalization 편집기**&#x200B;에서 **[!UICONTROL 의사 결정 정책]**(으)로 이동합니다.
+
+4. **[!UICONTROL 구문 삽입]**&#x200B;을 선택하여 의사 결정 정책에 대한 코드를 추가합니다.
+
+>[!IMPORTANT]
+>
+>웹 채널 응답의 총 페이로드 크기는 **64KB**&#x200B;을(를) 초과할 수 없습니다. 이 제한을 초과하는 요청은 오류를 발생시킵니다. 결정 항목 및 속성이 이 임계값 내에 있는지 확인합니다.
+
 >[!TAB DM]
 
 1. 추출 파일 구성에서 **Personalization 편집기**&#x200B;를 엽니다(예: 열의 **[!UICONTROL 데이터]** 필드).
@@ -127,7 +149,7 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->코드 기반 경험, 이메일 및 DM 채널의 경우 반환할 의사 결정 항목마다 이 시퀀스를 한 번씩 반복합니다. 예를 들어 [결정을 만들 때](create-decision-policy.md) 2개 항목을 반환하도록 선택한 경우 시퀀스를 두 번 반복합니다. SMS 및 푸시 채널의 경우 하나의 결정 항목만 반환할 수 있습니다.
+>코드 기반 경험, 웹, 이메일 및 DM 채널의 경우 반환할 의사 결정 항목마다 이 시퀀스를 한 번씩 반복합니다. 예를 들어 [결정을 만들 때](create-decision-policy.md) 2개 항목을 반환하도록 선택한 경우 시퀀스를 두 번 반복합니다. SMS 및 푸시 채널의 경우 하나의 결정 항목만 반환할 수 있습니다.
 
 ## 의사 결정 항목 속성을 사용하여 개인화 {#attributes}
 
@@ -143,7 +165,7 @@ ht-degree: 6%
 
 특성을 추가하려면 특성 옆에 있는 **`+`** 아이콘을 클릭합니다. 필요한 만큼 속성을 추가할 수 있습니다. 프로필 데이터와 같은 다른 개인화 속성도 포함할 수 있습니다.
 
-* **전자 메일**, **코드 기반** 및 **DM** 채널의 경우 `#each` 루프 내에서 대괄호 `[ ]`을(를) 사용하여 특성을 래핑한 다음 닫는 `/each` 태그 앞에 쉼표를 추가하십시오.
+* **전자 메일**, **웹**, **코드 기반** 및 **DM** 채널의 경우 `#each` 루프 내에서 대괄호 `[ ]`을(를) 사용하여 특성을 래핑한 다음 닫는 `/each` 태그 앞에 쉼표를 추가하십시오.
 
   +++예제 참조
 
