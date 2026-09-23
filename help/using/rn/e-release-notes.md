@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 77cfd3965c7efd7db3dd9644c6189f530d3ee0b3
+source-git-commit: 0888666710d81d9cf9eb9b635d9b8d4fbb1a862f
 workflow-type: tm+mt
-source-wordcount: '2798'
-ht-degree: 7%
+source-wordcount: '2761'
+ht-degree: 8%
 ---
 
 # 사전 릴리스 정보 {#e-release-notes}
@@ -414,8 +414,6 @@ The following capability is coming to onboarding in this release.
 ### 사용성 개선 사항 {#sep-26-usability}
 
 * **콘텐츠 시뮬레이션 경험의 유용성 개선** - 이제 새로운 콘텐츠 시뮬레이션 경험을 통해 손쉽게 비교할 수 있도록 변형의 이름을 지정하고 구성하며, 각 카드에서 직접 변형 세부 정보를 복사하거나 삭제할 수 있으며, 전체 속성 경로 및 카드별 채널 구성을 요청 시 볼 수 있으며, 더 눈에 띄는 업로드 버튼에서 고유한 CSV, JSON 또는 JSONL 프로필을 업로드할 수 있습니다.
-
-* **조각 유효성 검사 경고의 AI 개요** - 이제 조각 유효성 검사 경고 대화 상자에 유효성 검사 문제(예: 잘못된 표현식, 누락된 프로필 필드 및 잘못된 JSON)를 요약 및 설명하는 AI 개요가 포함되어 있으므로 사용자가 보다 신속하게 문제를 해결할 수 있습니다.
 
 * **캠페인, 여정 및 오케스트레이션된 캠페인을 위한 통합 일정** - 이제 여정 및 캠페인에 대한 일정 보기가 개별 인벤토리에서 벗어나 통합된 왼쪽 레일에 액세스할 수 있는 메뉴로 전환되며 둘 다 하나의 통합 보기로 표시됩니다.
 
