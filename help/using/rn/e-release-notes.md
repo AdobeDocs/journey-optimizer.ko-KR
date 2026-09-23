@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 0888666710d81d9cf9eb9b635d9b8d4fbb1a862f
+source-git-commit: 8d5e3584ff2dc7cf9c00043e1a67f9a4c23255d9
 workflow-type: tm+mt
-source-wordcount: '2761'
+source-wordcount: '2726'
 ht-degree: 8%
 ---
 
@@ -113,8 +113,6 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 </tr>
 </tbody>
 </table>
-
-* **동료의 충성도 추천 기술** - 이제 마케터는 동료의 대화 인터페이스에서 직접 **도전 기회**&#x200B;를 요청할 수 있으며, 실제 충성도 프로그램 트렌드에 따라 기본적인 도전 아이디어를 얻고 채팅을 종료하지 않고도 실시간 도전으로 전환할 수 있습니다.
 
 * **콘텐츠 카드 개인화 편집기의 과제 도메인** - 이제 콘텐츠 카드 개인화 편집기가 도메인으로 **과제**&#x200B;를 지원하므로 콘텐츠 카드 개인화를 작성할 때 과제 메타데이터에 액세스할 수 있습니다. 이렇게 하면 사용자 지정 코드 없이 Launch, 진행 중 및 종료 등 과제의 각 단계에 맞는 콘텐츠를 보다 쉽게 만들 수 있습니다.
 
