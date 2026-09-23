@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 8496ddc9979526e30947e8d1e9af0eff70dbebf6
+source-git-commit: 0905e570576a4587cd7734aa036d8f09276e0127
 workflow-type: tm+mt
-source-wordcount: '2921'
-ht-degree: 9%
+source-wordcount: '2943'
+ht-degree: 8%
 ---
 
 # 사전 릴리스 정보 {#e-release-notes}
@@ -85,11 +85,13 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 
 ### 통합 {#sep-26-integrations}
 
-이 릴리스에서는 다음 기능이 통합됩니다.
+이 릴리스에서는 다음 기능이 통합되었습니다.
 
 * **Experience Manager 조각에 대한 동적 토큰 대체** - Experience Manager 콘텐츠 조각 참조에서 이제 **tokenSubstitution** 특성을 지원합니다. `false`(으)로 설정하면 참조에 토큰 맵 없이 조각의 필드 내 개인화가 직접 확인됩니다. 기본값은 `true`(으)로 설정되며, 이렇게 하면 기존 동작이 유지됩니다.
 
   이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성). 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
+
+* **의사 결정 시 AEM Managed Services 콘텐츠 조각 지원** - 이제 의사 결정 항목을 관리할 때 AEM Managed Services 콘텐츠 조각이 의사 결정 시 지원됩니다.
 
 ### 충성도 {#sep-26-loyalty}
 
