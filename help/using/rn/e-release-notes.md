@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 7e153a072cacd37ec3837c7607ce28fbd565cc4a
+source-git-commit: 026b216020332a7ef2674d12a81185fcb382c2e2
 workflow-type: tm+mt
-source-wordcount: '3111'
+source-wordcount: '2966'
 ht-degree: 8%
 ---
 
@@ -138,11 +138,7 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 </tbody>
 </table>
 
-### 대상자 {#sep-26-audiences}
 
-다음 미리 알림은 이 릴리스의 대상자에게 적용됩니다.
-
-* **대상 구성 강화 대상에 대한 향후 변경** - 10월 릴리스(10월 말) 동안 Journey Optimizer은 소스 데이터 집합에 **기본 ID 설명자**&#x200B;가 없는 대상 구성 대상을 사용하거나 참조하는 여정 및 캠페인을 중지합니다. 이 시점부터 여정 및 캠페인에서는 기본 ID 설명자로 빌드된 대상 구성 대상만 지원됩니다. 이러한 여정 또는 캠페인이 활성 상태를 유지해야 하는 경우 Adobe 담당자에게 문의하십시오. EMC 제품 팀이 마이그레이션을 지원할 수 있습니다. <!-- Documentation link: TBD -->
 
 ### 여정 {#sep-26-journeys}
 
@@ -443,12 +439,6 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 </tr>
 </tbody>
 </table>
-
-### 관리 {#sep-26-administration}
-
-다음 미리 알림은 이 릴리스의 관리에 적용됩니다.
-
-* **TTL(Time-to-Live) 보호 — 기존 샌드박스** - Journey Optimizer 시스템 생성 데이터 세트에 대한 TTL(Time-to-Live) 보호(프로필 스토어에서 90일, 데이터 레이크에서 13개월)가 2026년 10월 1일부터 기존 고객 샌드박스 및 조직에 적용됩니다.
 
 ### 사용성 개선 사항 {#sep-26-usability}
 
