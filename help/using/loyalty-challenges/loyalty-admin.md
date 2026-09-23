@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 충성도 챌린지 구성
-description: Adobe [!DNL Journey Optimizer]에서 충성도 문제에 대한 보상 공급자, 이벤트 정의, 제품 인벤토리, 제외 및 조직 수준 설정을 구성하는 방법에 대해 알아봅니다.
+description: Adobe [!DNL Journey Optimizer]에서 충성도 문제에 대한 보상 공급자, 이벤트 매핑, 제품 인벤토리, 제외 및 조직 수준 설정을 구성하는 방법에 대해 알아봅니다.
 feature: Journeys
 topic: Content Management
 role: Admin
@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
+source-git-commit: 7e153a072cacd37ec3837c7607ce28fbd565cc4a
 workflow-type: tm+mt
-source-wordcount: '1775'
-ht-degree: 18%
+source-wordcount: '1816'
+ht-degree: 12%
 ---
 # 충성도 챌린지 구성 {#loyalty-admin}
 
@@ -39,7 +39,7 @@ ht-degree: 18%
 
 * **전역 설정** — 프로그램의 Experience Platform ID 네임스페이스를 선택합니다. [전역 설정을 구성하는 방법을 알아봅니다](#global-settings)
 * **보상 제공자** - 고객이 진행하거나 문제를 완료할 때 보상을 이행하는 API를 연결합니다. [보상 공급자를 구성하는 방법을 알아보세요](#reward-providers).
-* **이벤트 정의** — 들어오는 경험 이벤트를 **[!UICONTROL 사용자 지정 이벤트]** 작업에 사용되는 활동에 매핑합니다. [이벤트 정의를 구성하는 방법을 알아봅니다](#event-definitions).
+* **이벤트 매핑** — 들어오는 경험 이벤트를 **[!UICONTROL 사용자 지정 이벤트]** 작업에 사용되는 활동에 매핑합니다. [이벤트 매핑을 구성하는 방법을 알아봅니다](#event-mappings).
 * **제품 인벤토리** - 작업 자격 규칙에 사용할 항목-그룹 매핑을 업로드합니다. [제품 인벤토리를 구성하는 방법을 알아봅니다](#product-inventory)
 * **제외** — 작업 구성에 대한 조직 전체 항목 및 그룹 제외를 업로드합니다. [제외 구성 방법 알아보기](#exclusions)
 
@@ -170,43 +170,48 @@ ht-degree: 18%
 >
 >**[!UICONTROL 자신의 데이터를 가져오세요]** 도전은 자신의 데이터 통합을 통해 보상을 충족합니다. 여기에 구성된 보상 제공자는 이러한 문제에 적용되지 않습니다. [데이터 가져오기 문제를 만드는 방법을 알아봅니다](create-challenges.md#create-the-challenge)
 
-## 이벤트 정의 {#event-definitions}
+## 이벤트 매핑 {#event-mappings}
 
 >[!CONTEXTUALHELP]
->id="ajo_loyalty_admin_event_definitions"
->title="이벤트 정의"
->abstract="이벤트 정의는 외부 소스에서 들어오는 이벤트 데이터를 식별하고 해석하는 방법을 [!DNL Journey Optimizer]에게 알려줍니다. 각 정의는 구매 또는 결제와 같은 특정 이벤트 유형을 매핑하므로 시스템이 챌린지 작업에 대한 고객 진행 상황을 추적할 수 있습니다."
+>id="ajo_loyalty_admin_event_mappings"
+>title="이벤트 매핑"
+>abstract="이벤트 매핑은 [!DNL Journey Optimizer]에게 외부 소스에서 들어오는 이벤트 데이터를 식별하고 해석하는 방법을 알려줍니다. 각 매핑은 구매 또는 체크인과 같은 특정 이벤트 유형을 식별하므로 시스템에서 과제 작업에 대한 고객 진행 상황을 추적할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_event_schema"
->title="이벤트 스키마 및 변환기"
->abstract="이벤트 스키마 섹션에서, 수신되는 이벤트 필드를 충성도 챌린지가 예상하는 형식으로 매핑하기 위해 **[!UICONTROL 변환기]** JSONata 표현식을 제공합니다."
+>title="이벤트 스키마 및 매핑"
+>abstract="수신 이벤트에 대한 Experience Platform 스키마를 선택하고 매핑 빌더 또는 JSONata 표현식을 사용하여 이벤트 필드를 충성도 문제가 예상하는 형식으로 매핑합니다."
 
 >[!CONTEXTUALHELP]
->id="ajo_loyalty_admin_event_identification"
->title="이벤트 식별"
->abstract="이벤트 식별 섹션에서, 수신되는 이벤트를 식별하는 데 사용되는 이벤트 이름 및 필수 XDM 스키마 ID를 입력합니다."
+>id="ajo_loyalty_admin_event_details"
+>title="이벤트 세부 정보"
+>abstract="이벤트 세부 사항 섹션에서 이벤트 이름을 입력하고 수신 이벤트를 식별하는 데 사용되는 Experience Platform XDM 스키마를 선택합니다."
 
-**[!UICONTROL 이벤트 정의]**&#x200B;은(는) 처리할 수신 Adobe Experience Platform 경험 이벤트를 [!DNL Journey Optimizer]에 알려줍니다. 예를 들어, 구매 또는 호텔 체크인 등이 있습니다. 마케터는 작업 빌더에서 **[!UICONTROL 사용자 지정 이벤트]** 작업을 만들 때 이러한 정의를 참조합니다. 정의와 일치하지 않는 이벤트는 무시됩니다.
+**[!UICONTROL 이벤트 매핑]**&#x200B;은(는) 들어오는 Adobe Experience Platform 경험 이벤트를 처리하는 방법을 [!DNL Journey Optimizer]에 알려줍니다. 예를 들어, 구매 또는 호텔 체크인 등이 있습니다. 마케터는 작업 빌더에서 **[!UICONTROL 사용자 지정 이벤트]** 작업을 만들 때 이러한 매핑을 참조합니다. 매핑과 일치하지 않는 이벤트는 무시됩니다.
 
-종단 간 정의 설정(이벤트 식별 및 변환기 표현식)에 이 섹션을 사용합니다. 변환기 작성에 대한 집중 지침은 [이벤트 변환기 안내서](event-transformer-guide.md)를 참조하십시오.
+엔드 투 엔드 이벤트 매핑 설정에 이 섹션을 사용합니다. 변환기 작성에 대한 집중 지침은 [이벤트 변환기 안내서](event-transformer-guide.md)를 참조하십시오.
 
-조직에서 자체 JSON 형식으로 이벤트를 보낼 때 [**[!UICONTROL 변환기]**](event-transformer-guide.md#writing-the-transformer)를 통해 [!DNL Journey Optimizer]에서 들어오는 페이로드를 매핑하고 구문 분석하여 이벤트를 올바르게 추적할 수 있습니다.
+이벤트 매핑을 생성하려면 다음 단계를 수행합니다.
 
-이벤트 정의를 생성하려면 다음 단계를 수행합니다.
+1. **[!UICONTROL 이벤트 매핑]** 탭을 열고 **[!UICONTROL 이벤트 매핑 만들기]**&#x200B;를 선택합니다.
 
-1. **[!UICONTROL 이벤트 정의]** 탭을 열고 새 정의를 만듭니다.
+1. **[!UICONTROL 이벤트 세부 정보]**&#x200B;에서 필요한 **[!UICONTROL 이벤트 이름]**&#x200B;을 입력하고 원하는 **[!UICONTROL 경험 이벤트 스키마]**&#x200B;를 선택하십시오.
 
    ![](assets/admin-event-definition.png)
 
-1. **[!UICONTROL 이벤트 식별]**&#x200B;에서 필요한 값을 입력하십시오.
+1. **[!UICONTROL 매핑]** 섹션에서 **[!UICONTROL 필드 선택]** 단추를 클릭합니다. 스키마 필드 트리를 검색하거나 필터링한 다음 매핑할 수신 필드를 선택합니다.
 
-   * **[!UICONTROL 이름]** — 이벤트 정의의 레이블입니다(예: `Coffee purchase`).
-   * **[!UICONTROL XDM 스키마 ID]** — 이 이벤트 유형에 대한 Experience Platform XDM 스키마의 ID입니다.
+   ![](assets/admin-mapping-fields.png)
 
-1. **[!UICONTROL 이벤트 스키마]**&#x200B;에서 페이로드를 충성도 문제가 예상하는 형식에 매핑하는 필수 [JSONata](event-transformer-guide.md#writing-the-transformer) 식을 제공합니다.
+1. 매핑 테이블에서 **[!UICONTROL 수신 데이터 필드]**&#x200B;의 드롭다운을 사용하여 각 필드를 해당 **[!UICONTROL 충성도 이벤트 필드]**&#x200B;에 연결합니다.
 
-1. 이벤트 정의를 저장합니다. **[!UICONTROL 이벤트 정의]** 목록에 표시되며 마케터가 **[!UICONTROL 사용자 지정 이벤트]** 작업을 만들 때 사용할 수 있습니다. [작업을 만드는 방법 알아보기](create-tasks.md#choose-activity)
+   ![](assets/admin-mapping-map.png)
+
+1. **[!UICONTROL JSONata 및 출력 미리 보기]**&#x200B;에서 코드 편집기에서 생성된 JSONata 식을 검토합니다.
+
+   사용자 지정 표현식을 사용하려면 JSONata를 직접 편집하십시오. 이렇게 하려면 **[!UICONTROL 생성됨으로 재설정]** 단추를 선택하여 테이블 기반 매핑으로 돌아갑니다. [JSONata 식을 작성하는 방법을 알아봅니다](event-transformer-guide.md#writing-the-transformer).
+
+1. 매핑을 저장합니다. 이벤트 매핑은 **[!UICONTROL 이벤트 매핑]** 목록에 표시되며 마케터가 **[!UICONTROL 사용자 지정 이벤트]** 작업을 만들 때 사용할 수 있습니다. [작업을 만드는 방법 알아보기](create-tasks.md#choose-activity)
 
 ## 제품 인벤토리 {#product-inventory}
 
@@ -233,7 +238,7 @@ ht-degree: 18%
 
    ![](assets/admin-inventory-upload.png)
 
-1. 인벤토리 목록에서 가져온 데이터를 검토합니다. 목록에는 항목당 하나의 행이 표시됩니다. **열에 포함된**&#x200B;그룹 열은 해당 항목에 대한 모든 제품 그룹을 알약 또는 여러 그룹에 속하는 경우 여러 알약으로 표시합니다.
+1. 인벤토리 목록에서 가져온 데이터를 검토합니다. 목록에는 항목당 하나의 행이 표시됩니다. ]**열에 포함된**[!UICONTROL &#x200B;그룹 열은 해당 항목에 대한 모든 제품 그룹을 알약 또는 여러 그룹에 속하는 경우 여러 알약으로 표시합니다.
 
    ![](assets/admin-inventory-imported.png)
 
@@ -270,7 +275,7 @@ ht-degree: 18%
 
    ![](assets/admin-exclusions-upload.png)
 
-1. 제외 목록에서 가져온 데이터를 검토합니다. 목록에는 항목당 하나의 행이 표시됩니다. **열에 포함된** Groups는 해당 항목에 대한 모든 제외 그룹을 알약 또는 여러 그룹에 속한 경우 여러 알약으로 표시합니다.
+1. 제외 목록에서 가져온 데이터를 검토합니다. 목록에는 항목당 하나의 행이 표시됩니다. ]**열에 포함된**[!UICONTROL  Groups는 해당 항목에 대한 모든 제외 그룹을 알약 또는 여러 그룹에 속한 경우 여러 알약으로 표시합니다.
 
 <!-- SCREENSHOT: Exclusions list after CSV upload -->
 

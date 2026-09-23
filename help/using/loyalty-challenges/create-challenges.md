@@ -14,7 +14,7 @@ feature_v2:
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
+source-git-commit: 7e153a072cacd37ec3837c7607ce28fbd565cc4a
 workflow-type: tm+mt
 source-wordcount: '2656'
 ht-degree: 12%
@@ -134,7 +134,7 @@ ht-degree: 12%
 * **[!UICONTROL 옵트인 트리거]**:
 
   * **[!UICONTROL 옵트인 메서드]**: 고객이 문제에 수동으로 참여할지 또는 이벤트 트리거를 통해 참여할지 여부를 선택합니다.
-  * **[!UICONTROL 이벤트]**: 이벤트 기반 옵트인의 경우 옵트인을 트리거하는 이벤트를 선택합니다. 관리자는 ![톱니바퀴](assets/do-not-localize/settings-icon.svg) 단추를 클릭하여 이벤트 정의를 만들 수 있습니다. [이벤트 정의를 구성하는 방법을 알아봅니다](loyalty-admin.md#event-definitions)
+  * **[!UICONTROL 이벤트]**: 이벤트 기반 옵트인의 경우 옵트인을 트리거하는 이벤트를 선택합니다. 관리자는 ![톱니바퀴](assets/do-not-localize/settings-icon.svg) 단추를 클릭하여 이벤트 매핑을 만들 수 있습니다. [이벤트 매핑을 구성하는 방법 알아보기](loyalty-admin.md#event-mappings)
 
 * **[!UICONTROL 추적 시작]**:
 
@@ -380,21 +380,21 @@ ht-degree: 12%
 
 **충성도 과제 설정** - 새 충성도 과제를 만들고 구성합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3496476?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496471?quality=12)
 
 **보상 구성** - 보상 전달 및 이행 설정
 
->[!VIDEO](https://video.tv.adobe.com/v/3496486?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496481?quality=12)
 
 ➡️ 챌린지 콘텐츠 카드를 만드는 방법 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3496534?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496529?quality=12)
 
 ➡️ 문제에 대한 라이프사이클 메시지를 설정하는 방법 보기
 
->[!VIDEO](https://video.tv.adobe.com/v/3497460?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3497455?quality=12)
 
 ➡️ 문제를 게시하고 여정을 생성하는 방법을 확인하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3498582?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3498577?quality=12)
 

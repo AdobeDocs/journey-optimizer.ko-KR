@@ -14,7 +14,7 @@ feature_v2:
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
+source-git-commit: 7e153a072cacd37ec3837c7607ce28fbd565cc4a
 workflow-type: tm+mt
 source-wordcount: '1165'
 ht-degree: 9%
@@ -64,7 +64,7 @@ ht-degree: 9%
 
 * **[!UICONTROL 구매]**: 이 작업을 완료하려면 고객이 하나 이상의 항목을 구입해야 합니다.
 * **[!UICONTROL 지출]**: 이 작업을 완료하려면 고객이 지정된 금액을 사용해야 합니다.
-* **[!UICONTROL 사용자 지정 이벤트]**: 고객은 Adobe Experience Platform 경험 이벤트가 나타내는 활동을 수행해야 합니다. 예를 들어 호텔 체크인, 모바일 앱 작업 또는 검토 제출이 있습니다. 기본 이벤트는 이미 Experience Platform에서 캡처되고 **[!UICONTROL 충성도 구성]** 메뉴의 이벤트 정의를 통해 매핑되어야 합니다. [이벤트 정의를 구성하는 방법을 알아봅니다](loyalty-admin.md#event-definitions)
+* **[!UICONTROL 사용자 지정 이벤트]**: 고객은 Adobe Experience Platform 경험 이벤트가 나타내는 활동을 수행해야 합니다. 예를 들어 호텔 체크인, 모바일 앱 작업 또는 검토 제출이 있습니다. 기본 이벤트는 이미 Experience Platform에서 캡처되고 **[!UICONTROL 충성도 구성]** 메뉴의 이벤트 매핑을 통해 매핑되어야 합니다. [이벤트 매핑을 구성하는 방법 알아보기](loyalty-admin.md#event-mappings)
 
 활동을 선택하려면 **+** 아이콘을 클릭하고 결과 목표에 가장 적합한 고객 활동을 선택하십시오. 각 활동 유형에는 작업 요구 사항을 추가로 정의하고 형성하기 위해 구성 가능한 특정 속성이 있습니다.
 ![](assets/task-create-activity.png)
@@ -100,7 +100,7 @@ ht-degree: 9%
 
 **[!UICONTROL 사용자 지정 이벤트]** 활동에 사용 가능한 특성:
 
-* **[!UICONTROL 사용자 지정 이벤트 값]**: 고객이 완료해야 하는 사용자 지정 이벤트의 값을 입력하십시오. 각 값을 구분하려면 쉼표를 사용하십시오. 이 값은 **[!UICONTROL 충성도 구성]** 메뉴에 구성된 이벤트 정의와 일치해야 합니다. [이벤트 정의를 구성하는 방법을 알아봅니다](loyalty-admin.md#event-definitions)
+* **[!UICONTROL 사용자 지정 이벤트 값]**: 고객이 완료해야 하는 사용자 지정 이벤트의 값을 입력하십시오. 각 값을 구분하려면 쉼표를 사용하십시오. 이 값은 **[!UICONTROL 충성도 구성]** 메뉴에 구성된 이벤트 매핑과 일치해야 합니다. [이벤트 매핑을 구성하는 방법 알아보기](loyalty-admin.md#event-mappings)
 
 ![](assets/task-create-custom.png)
 
@@ -178,5 +178,5 @@ Journey Optimizer에서 항목 및 그룹을 선택할 수 있을 뿐만 아니�
 
 이 단계별 자습서를 사용하여 작업을 만들고 구성하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3496447?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496442?quality=12)
 

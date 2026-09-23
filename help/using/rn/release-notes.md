@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 9054b29f1e6f50bc10541c223b921b2dd096784e
+source-git-commit: 7e153a072cacd37ec3837c7607ce28fbd565cc4a
 workflow-type: tm+mt
-source-wordcount: '1571'
-ht-degree: 26%
+source-wordcount: '1670'
+ht-degree: 25%
 ---
 # 릴리스 정보 {#release-notes}
 
@@ -84,6 +84,23 @@ ht-degree: 26%
   사용 가능한 날짜: 2026년 9월 1일
 
 ### 충성도 {#sep-26-loyalty}
+
+<table>
+<thead>
+<tr>
+<th><strong>충성도 이벤트 매핑 업데이트</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 이벤트 매핑 생성 또는 편집에서는 새로운 **시각적 매핑 빌더**를 사용합니다. 스키마를 선택하고, 검색 가능한 필드 선택기에서 필드를 선택하고, 각 필드를 행별 연결 상태가 있는 충성도 이벤트 필드에 매핑하고, 언제든지 수동 JSONata 편집으로 전환하는 옵션과 함께 자동 생성된 JSONata 표현식을 미리 봅니다.</p><p>또한 충성도 관리자의 "이벤트 정의"가 사람이 읽을 수 있는 Experience 이벤트 스키마 이름을 보여 주는 목록 보기가 새로 고쳐진 상태로 "이벤트 매핑"으로 이름이 변경되었습니다.</p>
+<p>자세한 내용은 <a href="../loyalty-challenges/loyalty-admin.md#event-mappings">세부 설명서</a>를 참조하십시오.</p>
+<p>사용 가능한 날짜: 2026년 9월 22일</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 * **&quot;충성도 도전 과제&quot;** - 충성도 도전은 이제 무기한 실행될 수 있습니다. 일정을 구성할 때 **챌린지 종료**&#x200B;를 **종료 날짜 없음**(으)로 설정하세요. 챌린지가 만료되지 않습니다. [자세히 알아보기](../loyalty-challenges/create-challenges.md#schedule)
 

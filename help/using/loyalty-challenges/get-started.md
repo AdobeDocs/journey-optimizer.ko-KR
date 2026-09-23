@@ -16,7 +16,7 @@ subfeature_v2:
     internal-label: Get started
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
+source-git-commit: 7e153a072cacd37ec3837c7607ce28fbd565cc4a
 workflow-type: tm+mt
 source-wordcount: '1016'
 ht-degree: 14%
@@ -26,7 +26,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_inventory"
 >title="충성도 챌린지"
->abstract="충성도 챌린지를 사용하면 고객 행동을 유도하고 브랜드 관계를 심화하는 매력적이고 게임화된 충성도 프로그램을 만들 수 있습니다. 구매 및 리뷰 작성부터 소셜 미디어 참여 및 친구 추천에 이르기까지 특정 액션에 대해 고객에게 보상해 주는 챌린지를 작성하십시오."
+>abstract="충성도 챌린지를 사용하면 고객 행동을 유도하고 브랜드 관계를 심화하는 매력적이고 게임화된 충성도 프로그램을 만들 수 있습니다. 구매 및 리뷰 작성부터 소셜 미디어 참여 및 친구 추천에 이르기까지 특정 액션에 대해 고객에게 보상해 주는 챌린지를 만드십시오."
 
 >[!BEGINSHADEBOX]
 
@@ -36,7 +36,7 @@ ht-degree: 14%
 
 ## 개요 {#overview}
 
-충성도 챌린지를 사용하면 고객 행동을 유도하고 브랜드 관계를 심화하는 매력적이고 게임화된 충성도 프로그램을 만들 수 있습니다. 구매 및 리뷰 작성부터 소셜 미디어 참여 및 친구 추천에 이르기까지 특정 액션에 대해 고객에게 보상해 주는 챌린지를 작성하십시오.
+충성도 챌린지를 사용하면 고객 행동을 유도하고 브랜드 관계를 심화하는 매력적이고 게임화된 충성도 프로그램을 만들 수 있습니다. 구매 및 리뷰 작성부터 소셜 미디어 참여 및 친구 추천에 이르기까지 특정 액션에 대해 고객에게 보상해 주는 챌린지를 만드십시오.
 
 충성도 문제를 통해 다음과 같은 작업을 수행할 수 있습니다.
 
@@ -73,7 +73,7 @@ ht-degree: 14%
 
 **1. 프로그램 설정** *(관리자)*
 
-문제를 작성하기 전에 관리자는 보상 제공업체, 고객 작업을 작업 완료, 제품 인벤토리 및 제외 목록에 매핑하는 이벤트 정의 등 프로그램 기반을 구성합니다. [충성도 문제를 구성하는 방법을 알아보세요](loyalty-admin.md).
+문제를 작성하기 전에 관리자는 보상 제공자, 고객 작업을 작업 완료, 제품 인벤토리 및 제외 목록에 매핑하는 이벤트 매핑과 같은 프로그램 기반을 구성합니다. [충성도 문제를 구성하는 방법을 알아보세요](loyalty-admin.md).
 
 **2. 작성 및 실행 문제** *(실무자)*
 
@@ -97,7 +97,7 @@ ht-degree: 14%
 
 +++고객 충성도 프로그램 구성(관리자)
 
-관리자는 **[!UICONTROL 충성도 구성]** 메뉴에서 보상 공급자, 이벤트 정의, 제품 인벤토리, 제외 및 전역 설정을 구성합니다. 도전만 생성하는 마케터는 이 메뉴에 액세스할 필요가 없습니다. [충성도 문제를 구성하는 방법에 대해 알아보세요](loyalty-admin.md)
+관리자는 **[!UICONTROL 충성도 구성]** 메뉴에서 보상 공급자, 이벤트 매핑, 제품 인벤토리, 제외 및 전역 설정을 구성합니다. 도전만 생성하는 마케터는 이 메뉴에 액세스할 필요가 없습니다. [충성도 문제를 구성하는 방법에 대해 알아보세요](loyalty-admin.md)
 
 **[!UICONTROL 충성도 구성]** 메뉴가 왼쪽 탐색에 표시되지 않는 경우 관리자에게 문의하십시오.
 
@@ -163,14 +163,14 @@ ht-degree: 14%
     <a href="loyalty-admin.md"><strong>Configure the loyalty program</strong></a>
   <td>
     <a href="loyalty-admin.md">
-    <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
+    <em>Set up reward providers, event mappings, and org settings for fulfillment</em>
     </a>
     <div>
-  -->
+-->
     <a href="loyalty-admin.md"><strong>충성도 챌린지 구성</strong></a>
     </div>
     <p>
-    <em>보상 공급자, 이벤트 정의 및 조직 설정을 설정합니다</em>
+    <em>보상 공급자, 이벤트 매핑 및 조직 설정 설정</em>
     </p>
   </td>
 </tr>
@@ -189,7 +189,7 @@ ht-degree: 14%
 
 **충성도 문제를 처음 사용하십니까?** 기능 및 이점을 이해하려면 이 개요를 참조하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3496456?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496441?quality=12)
 
 ## 대화형 데모 {#demo}
 

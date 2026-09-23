@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 84257968aa002aafe338cb247d1704f822e2b1b4
+source-git-commit: 7e153a072cacd37ec3837c7607ce28fbd565cc4a
 workflow-type: tm+mt
-source-wordcount: '3197'
+source-wordcount: '3111'
 ht-degree: 8%
 ---
 
@@ -107,21 +107,6 @@ Adobe Journey Optimizer는 지속적으로 새로운 기능, 기존 기능 개�
 <p>충성도 성능 메뉴에는 이제 계층 진행 마찰 또는 과제 작업 드롭오프와 같이 AI가 감지한 트렌드와 차이를 예상되는 영향과 한 번의 클릭으로 "AI로 만들기" 작업을 통해 해결하는 문제를 생성하는 <strong>기회 탭</strong>이 포함됩니다.</p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>충성도 이벤트 매핑 업데이트</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>이제 이벤트 매핑 생성 또는 편집에서는 새로운 **시각적 매핑 빌더**&#x200B;를 사용합니다. 스키마를 선택하고, 검색 가능한 필드 선택기에서 필드를 선택하고, 각 필드를 행별 연결 상태가 있는 충성도 이벤트 필드에 매핑하고, 언제든지 수동 JSONata 편집으로 전환하는 옵션과 함께 자동 생성된 JSONata 표현식을 미리 봅니다.</p><p>또한 충성도 관리자의 "이벤트 정의"가 사람이 읽을 수 있는 Experience 이벤트 스키마 이름을 보여 주는 목록 보기가 새로 고쳐진 상태로 "이벤트 매핑"으로 이름이 변경되었습니다.</p>
 </td>
 </tr>
 </tbody>
